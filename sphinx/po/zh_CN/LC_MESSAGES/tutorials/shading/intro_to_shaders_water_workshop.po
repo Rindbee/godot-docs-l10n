@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-11-21 11:32+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:4
 msgid "Intro to shaders: 2D and 3D water"
-msgstr "着色器简介:2D和3D水"
+msgstr "着色器简介：2D和3D水"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:8
 msgid ""
@@ -29,10 +29,10 @@ msgid ""
 "shaders, to build upon. 3D adds quite a bit of complexity when it comes to "
 "writing shader programs, as you will see in the third video."
 msgstr ""
-"在这个动手实践的视频系列中，您将创建2D和3D中的第一个水着色器。 如果您是着色器"
-"的新手，则应该启动2D，因为您需要对着色语言，顶点和片段着色器有一些基本的了解"
-"才能构建。 在编写着色器程序时，3D会增加相当多的复杂性，您将在第三个视频中看"
-"到。"
+"在这个动手实践的视频系列中，您将创建2D和3D中的第一个水着色器。如果您是着色器"
+"的新手，则应该开始使用2D，因为您需要对着色语言，顶点着色器和片段着色器有一定"
+"的基础了解。在编写着色器程序时，3D会增加相当多的复杂性，正如您将在第三个视频"
+"中看到的那样。"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:15
 msgid "Watch the tutorials"
@@ -45,7 +45,7 @@ msgid ""
 "individual videos:"
 msgstr ""
 "您可以在YouTube上观看 `完整播放列表 <https://www.youtube.com/watch?"
-"v=xoyk_A0RSpI&list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP>`__。 以下是各个视频:"
+"v=xoyk_A0RSpI&list=PLhqJJNjsQ7KHqNMYmTwtsYTeTrqrRP_fP>`__。以下是各个视频："
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:21
 msgid ""
@@ -56,7 +56,7 @@ msgstr "`着色器编程简介 <https://www.youtube.com/watch?v=xoyk_A0RSpI>`__"
 msgid ""
 "`Animated Water and UV Coordinates <https://www.youtube.com/watch?"
 "v=U91nqeUe1qQ>`__"
-msgstr "`动画水和紫外线坐标 <https://www.youtube.com/watch?v=U91nqeUe1qQ>`__"
+msgstr "`动画水和UV坐标 <https://www.youtube.com/watch?v=U91nqeUe1qQ>`__"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:24
 msgid "`Water in 3D <https://www.youtube.com/watch?v=vm9Sdvhq6ho>`__"
@@ -65,7 +65,7 @@ msgstr "`3D中的水 <https://www.youtube.com/watch?v=vm9Sdvhq6ho>`__"
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:25
 msgid ""
 "`Texture-based Deformation <https://www.youtube.com/watch?v=Pg79tztNZeA>`__"
-msgstr "`基于纹理的变形 <https://www.youtube.com/watch?v=Pg79tztNZeA>`__"
+msgstr "`基于纹理的形变 <https://www.youtube.com/watch?v=Pg79tztNZeA>`__"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:27
 msgid ""
@@ -88,27 +88,26 @@ msgid "Download the source code"
 msgstr "下载源代码"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:37
-#, fuzzy
 msgid ""
 "Download the intro to shaders project here to follow along: :download:"
 "`2d_water_shader.zip <files/2d_water_shader.zip>`."
 msgstr ""
-"下载到着色器项目: :download:`2d_water_shader.zip <files/2d_water_shader."
-"zip>`。"
+"在此处下载着色器介绍项目，以遵循以下步骤：:download:`2d_water_shader.zip "
+"<files/2d_water_shader.zip>`。"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:40
 msgid ""
 "It comes with a `start` folder to follow along with the 2D tutorials, and an "
 "`end` folder that contains the final code."
 msgstr ""
-"它附带一个跟随2D教程的 `start` 文件夹，以及一个包含最终代码的 `end` 文件夹。"
+"它附带一个跟随2D教程的 ``start`` 文件夹，以及一个包含最终代码的 ``end`` 文件"
+"夹。"
 
 #: ../../docs/tutorials/shading/intro_to_shaders_water_workshop.rst:43
-#, fuzzy
 msgid ""
 "You will find the 3D water project on `this GitHub repository <https://"
 "github.com/BastiaanOlij/shader_tutorial>`_. We didn't include it here, as it "
 "is a little heavy."
 msgstr ""
-"您会在 `this GitHub repository <https://github.com/BastiaanOlij/"
-"shader_tutorial>`_ 找到3D水项目。 我们没有在这里包含它，因为它有点大。"
+"您将在 `此GitHub存储库 <https://github.com/BastiaanOlij/shader_tutorial>`_ 上"
+"找到3D水项目。我们在这里没有包括它，因为它有点大。"

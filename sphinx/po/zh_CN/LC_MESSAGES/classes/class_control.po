@@ -1,0 +1,4044 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-09 08:59+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:10
+msgid "Control"
+msgstr "Control"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:12
+msgid ""
+"**Inherits:** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node "
+"<class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node "
+"<class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:14
+msgid ""
+"**Inherited By:** :ref:`BaseButton <class_BaseButton>`, :ref:`ColorRect "
+"<class_ColorRect>`, :ref:`Container <class_Container>`, :ref:`GraphEdit "
+"<class_GraphEdit>`, :ref:`ItemList <class_ItemList>`, :ref:`Label "
+"<class_Label>`, :ref:`LineEdit <class_LineEdit>`, :ref:`NinePatchRect "
+"<class_NinePatchRect>`, :ref:`Panel <class_Panel>`, :ref:`Popup "
+"<class_Popup>`, :ref:`Range <class_Range>`, :ref:`ReferenceRect "
+"<class_ReferenceRect>`, :ref:`RichTextLabel <class_RichTextLabel>`, "
+":ref:`Separator <class_Separator>`, :ref:`Tabs <class_Tabs>`, "
+":ref:`TextEdit <class_TextEdit>`, :ref:`TextureRect <class_TextureRect>`,"
+" :ref:`Tree <class_Tree>`, :ref:`VideoPlayer <class_VideoPlayer>`"
+msgstr ""
+"**子类**：:ref:`BaseButton <class_BaseButton>`, :ref:`ColorRect "
+"<class_ColorRect>`, :ref:`Container <class_Container>`, :ref:`GraphEdit "
+"<class_GraphEdit>`, :ref:`ItemList <class_ItemList>`, :ref:`Label "
+"<class_Label>`, :ref:`LineEdit <class_LineEdit>`, :ref:`NinePatchRect "
+"<class_NinePatchRect>`, :ref:`Panel <class_Panel>`, :ref:`Popup "
+"<class_Popup>`, :ref:`Range <class_Range>`, :ref:`ReferenceRect "
+"<class_ReferenceRect>`, :ref:`RichTextLabel <class_RichTextLabel>`, "
+":ref:`Separator <class_Separator>`, :ref:`Tabs <class_Tabs>`, "
+":ref:`TextEdit <class_TextEdit>`, :ref:`TextureRect <class_TextureRect>`,"
+" :ref:`Tree <class_Tree>`, :ref:`VideoPlayer <class_VideoPlayer>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:16
+msgid ""
+"All user interface nodes inherit from Control. A control's anchors and "
+"margins adapt its position and size relative to its parent."
+msgstr "所有用户界面节点都从 ``Control`` 继承。控件的锚点和边距，相对于其父级调整其位置和大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:21
+msgid ""
+"Base class for all UI-related nodes. ``Control`` features a bounding "
+"rectangle that defines its extents, an anchor position relative to its "
+"parent control or the current viewport, and margins that represent an "
+"offset to the anchor. The margins update automatically when the node, any"
+" of its parents, or the screen size change."
+msgstr ""
+"所有与UI相关的节点的基类。``Control`` "
+"具有一个定义其范围的边界矩形，一个相对于其父控件或当前视图的锚点位置，以及代表锚点偏移的边距。当节点、其任何父节点、或屏幕尺寸更改时，边距会自动更新。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:23
+msgid ""
+"For more information on Godot's UI system, anchors, margins, and "
+"containers, see the related tutorials in the manual. To build flexible "
+"UIs, you'll need a mix of UI elements that inherit from ``Control`` and "
+":ref:`Container <class_Container>` nodes."
+msgstr ""
+"有关Godot的UI系统、锚点、边距和容器的更多信息，请参见手册中的相关教程。要构建灵活的UI，您需要混合使用从 ``Control`` 和 "
+":ref:`Container <class_Container>` 节点继承的UI元素。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:25
+msgid "**User Interface nodes and input**"
+msgstr "**用户界面节点和输入**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:27
+msgid ""
+"Godot sends input events to the scene's root node first, by calling "
+":ref:`Node._input <class_Node_method__input>`. :ref:`Node._input "
+"<class_Node_method__input>` forwards the event down the node tree to the "
+"nodes under the mouse cursor, or on keyboard focus. To do so, it calls "
+":ref:`MainLoop._input_event <class_MainLoop_method__input_event>`. Call "
+":ref:`accept_event <class_Control_method_accept_event>` so no other node "
+"receives the event. Once you accepted an input, it becomes handled so "
+":ref:`Node._unhandled_input <class_Node_method__unhandled_input>` will "
+"not process it."
+msgstr ""
+"Godot首先通过调用 :ref:`Node._input "
+"<class_Node_method__input>`，将输入事件发送到场景的根节点。:ref:`Node._input "
+"<class_Node_method__input>` 将事件向下沿节点树，转发到鼠标光标下方或键盘焦点上的节点。为此，它调用 "
+":ref:`MainLoop._input_event <class_MainLoop_method__input_event>`。调用 "
+":ref:`accept_event "
+"<class_Control_method_accept_event>`，因此没有其他节点接收该事件。一旦接受输入后，它将得到处理，因此 "
+":ref:`Node._unhandled_input <class_Node_method__unhandled_input>` "
+"将不会对其进行处理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:29
+msgid ""
+"Only one ``Control`` node can be in keyboard focus. Only the node in "
+"focus will receive keyboard events. To get the focus, call "
+":ref:`grab_focus <class_Control_method_grab_focus>`. ``Control`` nodes "
+"lose focus when another node grabs it, or if you hide the node in focus."
+msgstr ""
+"键盘焦点中只能有一个 ``Control`` 节点。仅焦点所在的节点将接收键盘事件。要获得焦点，调用 :ref:`grab_focus "
+"<class_Control_method_grab_focus>`。当另一个节点获得焦点，或隐藏处于焦点中的节点时，``Control`` "
+"节点将失去焦点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:31
+msgid ""
+"Sets :ref:`mouse_filter <class_Control_property_mouse_filter>` to "
+":ref:`MOUSE_FILTER_IGNORE <class_Control_constant_MOUSE_FILTER_IGNORE>` "
+"to tell a ``Control`` node to ignore mouse or touch events. You'll need "
+"it if you place an icon on top of a button."
+msgstr ""
+"将 :ref:`mouse_filter <class_Control_property_mouse_filter>` 设置为 "
+":ref:`MOUSE_FILTER_IGNORE "
+"<class_Control_constant_MOUSE_FILTER_IGNORE>`，以告诉一个 ``Control`` "
+"节点忽略鼠标或触摸事件。如果将图标放在按钮顶部，则将需要它。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:33
+msgid ""
+":ref:`Theme <class_Theme>` resources change the Control's appearance. If "
+"you change the :ref:`Theme <class_Theme>` on a ``Control`` node, it "
+"affects all of its children. To override some of the theme's parameters, "
+"call one of the ``add_*_override`` methods, like :ref:`add_font_override "
+"<class_Control_method_add_font_override>`. You can override the theme "
+"with the inspector."
+msgstr ""
+":ref:`Theme <class_Theme>` 资源会更改控件的外观。如果在 ``Control`` 节点上更改 :ref:`Theme "
+"<class_Theme>`，则会影响其所有子项。要覆盖某些主题的参数，请调用 ``add_*_override`` 方法之一，例如 "
+":ref:`add_font_override "
+"<class_Control_method_add_font_override>`。您可以使用属性检查器重写主题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:36
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:38
+msgid ":doc:`../tutorials/gui/index`"
+msgstr ":doc:`../tutorials/gui/index`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:40
+msgid ":doc:`../tutorials/2d/custom_drawing_in_2d`"
+msgstr ":doc:`../tutorials/2d/custom_drawing_in_2d`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:43
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:169
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:179
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:46
+msgid ":ref:`anchor_bottom <class_Control_property_anchor_bottom>`"
+msgstr ":ref:`anchor_bottom <class_Control_property_anchor_bottom>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:635
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:649
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:663
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:677
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:853
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:871
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:889
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:907
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1033
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:48
+msgid ":ref:`anchor_left <class_Control_property_anchor_left>`"
+msgstr ":ref:`anchor_left <class_Control_property_anchor_left>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:50
+msgid ":ref:`anchor_right <class_Control_property_anchor_right>`"
+msgstr ":ref:`anchor_right <class_Control_property_anchor_right>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:52
+msgid ":ref:`anchor_top <class_Control_property_anchor_top>`"
+msgstr ":ref:`anchor_top <class_Control_property_anchor_top>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:54
+msgid ":ref:`FocusMode <enum_Control_FocusMode>`"
+msgstr ":ref:`FocusMode <enum_Control_FocusMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:54
+msgid ":ref:`focus_mode <class_Control_property_focus_mode>`"
+msgstr ":ref:`focus_mode <class_Control_property_focus_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:691
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:925
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:943
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:159
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ":ref:`NodePath <class_NodePath>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:56
+msgid ""
+":ref:`focus_neighbour_bottom "
+"<class_Control_property_focus_neighbour_bottom>`"
+msgstr ""
+":ref:`focus_neighbour_bottom "
+"<class_Control_property_focus_neighbour_bottom>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:707
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:723
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:739
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:755
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:771
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:789
+#, fuzzy
+msgid "``NodePath(\"\")``"
+msgstr "NodePath(\"\")"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:58
+msgid ":ref:`focus_neighbour_left <class_Control_property_focus_neighbour_left>`"
+msgstr ":ref:`focus_neighbour_left <class_Control_property_focus_neighbour_left>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:60
+msgid ""
+":ref:`focus_neighbour_right "
+"<class_Control_property_focus_neighbour_right>`"
+msgstr ""
+":ref:`focus_neighbour_right "
+"<class_Control_property_focus_neighbour_right>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:62
+msgid ":ref:`focus_neighbour_top <class_Control_property_focus_neighbour_top>`"
+msgstr ":ref:`focus_neighbour_top <class_Control_property_focus_neighbour_top>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:64
+msgid ":ref:`focus_next <class_Control_property_focus_next>`"
+msgstr ":ref:`focus_next <class_Control_property_focus_next>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:66
+msgid ":ref:`focus_previous <class_Control_property_focus_previous>`"
+msgstr ":ref:`focus_previous <class_Control_property_focus_previous>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:70
+msgid ":ref:`GrowDirection <enum_Control_GrowDirection>`"
+msgstr ":ref:`GrowDirection <enum_Control_GrowDirection>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:68
+msgid ":ref:`grow_horizontal <class_Control_property_grow_horizontal>`"
+msgstr ":ref:`grow_horizontal <class_Control_property_grow_horizontal>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:807
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:823
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1079
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1111
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:70
+msgid ":ref:`grow_vertical <class_Control_property_grow_vertical>`"
+msgstr ":ref:`grow_vertical <class_Control_property_grow_vertical>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:183
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:72
+msgid ":ref:`hint_tooltip <class_Control_property_hint_tooltip>`"
+msgstr ":ref:`hint_tooltip <class_Control_property_hint_tooltip>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:839
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:74
+msgid ":ref:`margin_bottom <class_Control_property_margin_bottom>`"
+msgstr ":ref:`margin_bottom <class_Control_property_margin_bottom>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:76
+msgid ":ref:`margin_left <class_Control_property_margin_left>`"
+msgstr ":ref:`margin_left <class_Control_property_margin_left>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:78
+msgid ":ref:`margin_right <class_Control_property_margin_right>`"
+msgstr ":ref:`margin_right <class_Control_property_margin_right>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:80
+msgid ":ref:`margin_top <class_Control_property_margin_top>`"
+msgstr ":ref:`margin_top <class_Control_property_margin_top>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:153
+msgid ":ref:`CursorShape <enum_Control_CursorShape>`"
+msgstr ":ref:`CursorShape <enum_Control_CursorShape>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:82
+msgid ""
+":ref:`mouse_default_cursor_shape "
+"<class_Control_property_mouse_default_cursor_shape>`"
+msgstr ""
+":ref:`mouse_default_cursor_shape "
+"<class_Control_property_mouse_default_cursor_shape>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:84
+msgid ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+msgstr ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:84
+msgid ":ref:`mouse_filter <class_Control_property_mouse_filter>`"
+msgstr ":ref:`mouse_filter <class_Control_property_mouse_filter>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:137
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:199
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:201
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:203
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:211
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:213
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:86
+msgid ":ref:`rect_clip_content <class_Control_property_rect_clip_content>`"
+msgstr ":ref:`rect_clip_content <class_Control_property_rect_clip_content>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:959
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:173
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:88
+msgid ":ref:`rect_global_position <class_Control_property_rect_global_position>`"
+msgstr ":ref:`rect_global_position <class_Control_property_rect_global_position>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:90
+msgid ":ref:`rect_min_size <class_Control_property_rect_min_size>`"
+msgstr ":ref:`rect_min_size <class_Control_property_rect_min_size>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:987
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1003
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1019
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1065
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:92
+msgid ":ref:`rect_pivot_offset <class_Control_property_rect_pivot_offset>`"
+msgstr ":ref:`rect_pivot_offset <class_Control_property_rect_pivot_offset>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:94
+msgid ":ref:`rect_position <class_Control_property_rect_position>`"
+msgstr ":ref:`rect_position <class_Control_property_rect_position>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:96
+msgid ":ref:`rect_rotation <class_Control_property_rect_rotation>`"
+msgstr ":ref:`rect_rotation <class_Control_property_rect_rotation>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:98
+msgid ":ref:`rect_scale <class_Control_property_rect_scale>`"
+msgstr ":ref:`rect_scale <class_Control_property_rect_scale>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1049
+#, fuzzy
+msgid "``Vector2( 1, 1 )``"
+msgstr "Vector2( 1, 1 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:100
+msgid ":ref:`rect_size <class_Control_property_rect_size>`"
+msgstr ":ref:`rect_size <class_Control_property_rect_size>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:151
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:102
+msgid ""
+":ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>`"
+msgstr ""
+":ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:104
+msgid ""
+":ref:`size_flags_stretch_ratio "
+"<class_Control_property_size_flags_stretch_ratio>`"
+msgstr ""
+":ref:`size_flags_stretch_ratio "
+"<class_Control_property_size_flags_stretch_ratio>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1095
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:106
+msgid ":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`"
+msgstr ":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:108
+msgid ":ref:`Theme <class_Theme>`"
+msgstr ":ref:`Theme <class_Theme>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:108
+msgid ":ref:`theme <class_Control_property_theme>`"
+msgstr ":ref:`theme <class_Control_property_theme>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:112
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:115
+msgid ""
+":ref:`_clips_input <class_Control_method__clips_input>` **(** **)** "
+"virtual"
+msgstr ""
+":ref:`_clips_input <class_Control_method__clips_input>` **(** **)** "
+"virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:117
+msgid ""
+":ref:`_get_minimum_size <class_Control_method__get_minimum_size>` **(** "
+"**)** virtual"
+msgstr ""
+":ref:`_get_minimum_size <class_Control_method__get_minimum_size>` **(** "
+"**)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:133
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:135
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:215
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:217
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:219
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:221
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:225
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:227
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:229
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:231
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:233
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:235
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:237
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:239
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:241
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:243
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:245
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:249
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:251
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:119
+msgid ""
+":ref:`_gui_input <class_Control_method__gui_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+msgstr ""
+":ref:`_gui_input <class_Control_method__gui_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:121
+msgid ":ref:`Object <class_Object>`"
+msgstr ":ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:121
+msgid ""
+":ref:`_make_custom_tooltip <class_Control_method__make_custom_tooltip>` "
+"**(** :ref:`String <class_String>` for_text **)** virtual"
+msgstr ""
+":ref:`_make_custom_tooltip <class_Control_method__make_custom_tooltip>` "
+"**(** :ref:`String <class_String>` for_text **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:123
+msgid ":ref:`accept_event <class_Control_method_accept_event>` **(** **)**"
+msgstr ":ref:`accept_event <class_Control_method_accept_event>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:125
+#, fuzzy
+msgid ""
+":ref:`add_color_override <class_Control_method_add_color_override>` **(**"
+" :ref:`StringName <class_StringName>` name, :ref:`Color <class_Color>` "
+"color **)**"
+msgstr ""
+":ref:`add_color_override <class_Control_method_add_color_override>` **(**"
+" :ref:`String <class_String>` name, :ref:`Color <class_Color>` color "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:127
+#, fuzzy
+msgid ""
+":ref:`add_constant_override <class_Control_method_add_constant_override>`"
+" **(** :ref:`StringName <class_StringName>` name, :ref:`int <class_int>` "
+"constant **)**"
+msgstr ""
+":ref:`add_constant_override <class_Control_method_add_constant_override>`"
+" **(** :ref:`String <class_String>` name, :ref:`int <class_int>` constant"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:129
+#, fuzzy
+msgid ""
+":ref:`add_font_override <class_Control_method_add_font_override>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Font <class_Font>` font "
+"**)**"
+msgstr ""
+":ref:`add_font_override <class_Control_method_add_font_override>` **(** "
+":ref:`String <class_String>` name, :ref:`Font <class_Font>` font **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:131
+#, fuzzy
+msgid ""
+":ref:`add_icon_override <class_Control_method_add_icon_override>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Texture2D "
+"<class_Texture2D>` texture **)**"
+msgstr ""
+":ref:`add_icon_override <class_Control_method_add_icon_override>` **(** "
+":ref:`String <class_String>` name, :ref:`Texture <class_Texture>` texture"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:133
+#, fuzzy
+msgid ""
+":ref:`add_shader_override <class_Control_method_add_shader_override>` "
+"**(** :ref:`StringName <class_StringName>` name, :ref:`Shader "
+"<class_Shader>` shader **)**"
+msgstr ""
+":ref:`add_shader_override <class_Control_method_add_shader_override>` "
+"**(** :ref:`String <class_String>` name, :ref:`Shader <class_Shader>` "
+"shader **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:135
+#, fuzzy
+msgid ""
+":ref:`add_stylebox_override <class_Control_method_add_stylebox_override>`"
+" **(** :ref:`StringName <class_StringName>` name, :ref:`StyleBox "
+"<class_StyleBox>` stylebox **)**"
+msgstr ""
+":ref:`add_stylebox_override <class_Control_method_add_stylebox_override>`"
+" **(** :ref:`String <class_String>` name, :ref:`StyleBox "
+"<class_StyleBox>` stylebox **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:137
+msgid ""
+":ref:`can_drop_data <class_Control_method_can_drop_data>` **(** "
+":ref:`Vector2 <class_Vector2>` position, :ref:`Variant <class_Variant>` "
+"data **)** virtual"
+msgstr ""
+":ref:`can_drop_data <class_Control_method_can_drop_data>` **(** "
+":ref:`Vector2 <class_Vector2>` position, :ref:`Variant <class_Variant>` "
+"data **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:139
+msgid ""
+":ref:`drop_data <class_Control_method_drop_data>` **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Variant <class_Variant>` data **)** "
+"virtual"
+msgstr ""
+":ref:`drop_data <class_Control_method_drop_data>` **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Variant <class_Variant>` data **)** "
+"virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:141
+msgid ""
+":ref:`force_drag <class_Control_method_force_drag>` **(** :ref:`Variant "
+"<class_Variant>` data, :ref:`Control <class_Control>` preview **)**"
+msgstr ""
+":ref:`force_drag <class_Control_method_force_drag>` **(** :ref:`Variant "
+"<class_Variant>` data, :ref:`Control <class_Control>` preview **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:143
+msgid ""
+":ref:`get_anchor <class_Control_method_get_anchor>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`get_anchor <class_Control_method_get_anchor>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:145
+msgid ":ref:`get_begin <class_Control_method_get_begin>` **(** **)** const"
+msgstr ":ref:`get_begin <class_Control_method_get_begin>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:147
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`Color <class_Color>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:147
+#, fuzzy
+msgid ""
+":ref:`get_color <class_Control_method_get_color>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`get_color <class_Control_method_get_color>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:149
+msgid ""
+":ref:`get_combined_minimum_size "
+"<class_Control_method_get_combined_minimum_size>` **(** **)** const"
+msgstr ""
+":ref:`get_combined_minimum_size "
+"<class_Control_method_get_combined_minimum_size>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:151
+#, fuzzy
+msgid ""
+":ref:`get_constant <class_Control_method_get_constant>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type=\"\" **)** const"
+msgstr ""
+":ref:`get_constant <class_Control_method_get_constant>` **(** "
+":ref:`String <class_String>` name, :ref:`String <class_String>` type=\"\""
+" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:153
+msgid ""
+":ref:`get_cursor_shape <class_Control_method_get_cursor_shape>` **(** "
+":ref:`Vector2 <class_Vector2>` position=Vector2( 0, 0 ) **)** const"
+msgstr ""
+":ref:`get_cursor_shape <class_Control_method_get_cursor_shape>` **(** "
+":ref:`Vector2 <class_Vector2>` position=Vector2( 0, 0 ) **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:155
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ":ref:`Variant <class_Variant>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:155
+msgid ""
+":ref:`get_drag_data <class_Control_method_get_drag_data>` **(** "
+":ref:`Vector2 <class_Vector2>` position **)** virtual"
+msgstr ""
+":ref:`get_drag_data <class_Control_method_get_drag_data>` **(** "
+":ref:`Vector2 <class_Vector2>` position **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:157
+msgid ":ref:`get_end <class_Control_method_get_end>` **(** **)** const"
+msgstr ":ref:`get_end <class_Control_method_get_end>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:159
+msgid ""
+":ref:`get_focus_neighbour <class_Control_method_get_focus_neighbour>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`get_focus_neighbour <class_Control_method_get_focus_neighbour>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:175
+msgid ":ref:`Control <class_Control>`"
+msgstr ":ref:`Control <class_Control>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:161
+msgid ""
+":ref:`get_focus_owner <class_Control_method_get_focus_owner>` **(** **)**"
+" const"
+msgstr ""
+":ref:`get_focus_owner <class_Control_method_get_focus_owner>` **(** **)**"
+" const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:163
+msgid ":ref:`Font <class_Font>`"
+msgstr ":ref:`Font <class_Font>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:163
+#, fuzzy
+msgid ""
+":ref:`get_font <class_Control_method_get_font>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`get_font <class_Control_method_get_font>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:177
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ":ref:`Rect2 <class_Rect2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:165
+msgid ""
+":ref:`get_global_rect <class_Control_method_get_global_rect>` **(** **)**"
+" const"
+msgstr ""
+":ref:`get_global_rect <class_Control_method_get_global_rect>` **(** **)**"
+" const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:167
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:167
+#, fuzzy
+msgid ""
+":ref:`get_icon <class_Control_method_get_icon>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`get_icon <class_Control_method_get_icon>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:169
+msgid ""
+":ref:`get_margin <class_Control_method_get_margin>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`get_margin <class_Control_method_get_margin>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:171
+msgid ""
+":ref:`get_minimum_size <class_Control_method_get_minimum_size>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_minimum_size <class_Control_method_get_minimum_size>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:173
+msgid ""
+":ref:`get_parent_area_size <class_Control_method_get_parent_area_size>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_parent_area_size <class_Control_method_get_parent_area_size>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:175
+msgid ""
+":ref:`get_parent_control <class_Control_method_get_parent_control>` **(**"
+" **)** const"
+msgstr ""
+":ref:`get_parent_control <class_Control_method_get_parent_control>` **(**"
+" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:177
+msgid ":ref:`get_rect <class_Control_method_get_rect>` **(** **)** const"
+msgstr ":ref:`get_rect <class_Control_method_get_rect>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:179
+msgid ":ref:`get_rotation <class_Control_method_get_rotation>` **(** **)** const"
+msgstr ":ref:`get_rotation <class_Control_method_get_rotation>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:181
+msgid ":ref:`StyleBox <class_StyleBox>`"
+msgstr ":ref:`StyleBox <class_StyleBox>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:181
+#, fuzzy
+msgid ""
+":ref:`get_stylebox <class_Control_method_get_stylebox>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type=\"\" **)** const"
+msgstr ""
+":ref:`get_stylebox <class_Control_method_get_stylebox>` **(** "
+":ref:`String <class_String>` name, :ref:`String <class_String>` type=\"\""
+" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:183
+msgid ""
+":ref:`get_tooltip <class_Control_method_get_tooltip>` **(** :ref:`Vector2"
+" <class_Vector2>` at_position=Vector2( 0, 0 ) **)** const"
+msgstr ""
+":ref:`get_tooltip <class_Control_method_get_tooltip>` **(** :ref:`Vector2"
+" <class_Vector2>` at_position=Vector2( 0, 0 ) **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:185
+msgid ""
+":ref:`grab_click_focus <class_Control_method_grab_click_focus>` **(** "
+"**)**"
+msgstr ""
+":ref:`grab_click_focus <class_Control_method_grab_click_focus>` **(** "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:187
+msgid ":ref:`grab_focus <class_Control_method_grab_focus>` **(** **)**"
+msgstr ":ref:`grab_focus <class_Control_method_grab_focus>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:189
+#, fuzzy
+msgid ""
+":ref:`has_color <class_Control_method_has_color>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`has_color <class_Control_method_has_color>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:191
+#, fuzzy
+msgid ""
+":ref:`has_color_override <class_Control_method_has_color_override>` **(**"
+" :ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_color_override <class_Control_method_has_color_override>` **(**"
+" :ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:193
+#, fuzzy
+msgid ""
+":ref:`has_constant <class_Control_method_has_constant>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type=\"\" **)** const"
+msgstr ""
+":ref:`has_constant <class_Control_method_has_constant>` **(** "
+":ref:`String <class_String>` name, :ref:`String <class_String>` type=\"\""
+" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:195
+#, fuzzy
+msgid ""
+":ref:`has_constant_override <class_Control_method_has_constant_override>`"
+" **(** :ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_constant_override <class_Control_method_has_constant_override>`"
+" **(** :ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:197
+msgid ":ref:`has_focus <class_Control_method_has_focus>` **(** **)** const"
+msgstr ":ref:`has_focus <class_Control_method_has_focus>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:199
+#, fuzzy
+msgid ""
+":ref:`has_font <class_Control_method_has_font>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`has_font <class_Control_method_has_font>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:201
+#, fuzzy
+msgid ""
+":ref:`has_font_override <class_Control_method_has_font_override>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_font_override <class_Control_method_has_font_override>` **(** "
+":ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:203
+#, fuzzy
+msgid ""
+":ref:`has_icon <class_Control_method_has_icon>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`has_icon <class_Control_method_has_icon>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:205
+#, fuzzy
+msgid ""
+":ref:`has_icon_override <class_Control_method_has_icon_override>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_icon_override <class_Control_method_has_icon_override>` **(** "
+":ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:207
+msgid ""
+":ref:`has_point <class_Control_method_has_point>` **(** :ref:`Vector2 "
+"<class_Vector2>` point **)** virtual"
+msgstr ""
+":ref:`has_point <class_Control_method_has_point>` **(** :ref:`Vector2 "
+"<class_Vector2>` point **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:209
+#, fuzzy
+msgid ""
+":ref:`has_shader_override <class_Control_method_has_shader_override>` "
+"**(** :ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_shader_override <class_Control_method_has_shader_override>` "
+"**(** :ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:211
+#, fuzzy
+msgid ""
+":ref:`has_stylebox <class_Control_method_has_stylebox>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type=\"\" **)** const"
+msgstr ""
+":ref:`has_stylebox <class_Control_method_has_stylebox>` **(** "
+":ref:`String <class_String>` name, :ref:`String <class_String>` type=\"\""
+" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:213
+#, fuzzy
+msgid ""
+":ref:`has_stylebox_override <class_Control_method_has_stylebox_override>`"
+" **(** :ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_stylebox_override <class_Control_method_has_stylebox_override>`"
+" **(** :ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:215
+msgid ""
+":ref:`minimum_size_changed <class_Control_method_minimum_size_changed>` "
+"**(** **)**"
+msgstr ""
+":ref:`minimum_size_changed <class_Control_method_minimum_size_changed>` "
+"**(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:217
+msgid ":ref:`release_focus <class_Control_method_release_focus>` **(** **)**"
+msgstr ":ref:`release_focus <class_Control_method_release_focus>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:219
+msgid ""
+":ref:`set_anchor <class_Control_method_set_anchor>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`float <class_float>` anchor, "
+":ref:`bool <class_bool>` keep_margin=false, :ref:`bool <class_bool>` "
+"push_opposite_anchor=true **)**"
+msgstr ""
+":ref:`set_anchor <class_Control_method_set_anchor>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`float <class_float>` anchor, "
+":ref:`bool <class_bool>` keep_margin=false, :ref:`bool <class_bool>` "
+"push_opposite_anchor=true **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:221
+msgid ""
+":ref:`set_anchor_and_margin <class_Control_method_set_anchor_and_margin>`"
+" **(** :ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`float "
+"<class_float>` anchor, :ref:`float <class_float>` offset, :ref:`bool "
+"<class_bool>` push_opposite_anchor=false **)**"
+msgstr ""
+":ref:`set_anchor_and_margin <class_Control_method_set_anchor_and_margin>`"
+" **(** :ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`float "
+"<class_float>` anchor, :ref:`float <class_float>` offset, :ref:`bool "
+"<class_bool>` push_opposite_anchor=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:223
+msgid ""
+":ref:`set_anchors_and_margins_preset "
+"<class_Control_method_set_anchors_and_margins_preset>` **(** "
+":ref:`LayoutPreset <enum_Control_LayoutPreset>` preset, "
+":ref:`LayoutPresetMode <enum_Control_LayoutPresetMode>` resize_mode=0, "
+":ref:`int <class_int>` margin=0 **)**"
+msgstr ""
+":ref:`set_anchors_and_margins_preset "
+"<class_Control_method_set_anchors_and_margins_preset>` **(** "
+":ref:`LayoutPreset <enum_Control_LayoutPreset>` preset, "
+":ref:`LayoutPresetMode <enum_Control_LayoutPresetMode>` resize_mode=0, "
+":ref:`int <class_int>` margin=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:225
+msgid ""
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` **(**"
+" :ref:`LayoutPreset <enum_Control_LayoutPreset>` preset, :ref:`bool "
+"<class_bool>` keep_margins=false **)**"
+msgstr ""
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` **(**"
+" :ref:`LayoutPreset <enum_Control_LayoutPreset>` preset, :ref:`bool "
+"<class_bool>` keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:227
+msgid ""
+":ref:`set_begin <class_Control_method_set_begin>` **(** :ref:`Vector2 "
+"<class_Vector2>` position **)**"
+msgstr ""
+":ref:`set_begin <class_Control_method_set_begin>` **(** :ref:`Vector2 "
+"<class_Vector2>` position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:229
+msgid ""
+":ref:`set_drag_forwarding <class_Control_method_set_drag_forwarding>` "
+"**(** :ref:`Control <class_Control>` target **)**"
+msgstr ""
+":ref:`set_drag_forwarding <class_Control_method_set_drag_forwarding>` "
+"**(** :ref:`Control <class_Control>` target **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:231
+msgid ""
+":ref:`set_drag_preview <class_Control_method_set_drag_preview>` **(** "
+":ref:`Control <class_Control>` control **)**"
+msgstr ""
+":ref:`set_drag_preview <class_Control_method_set_drag_preview>` **(** "
+":ref:`Control <class_Control>` control **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:233
+msgid ""
+":ref:`set_end <class_Control_method_set_end>` **(** :ref:`Vector2 "
+"<class_Vector2>` position **)**"
+msgstr ""
+":ref:`set_end <class_Control_method_set_end>` **(** :ref:`Vector2 "
+"<class_Vector2>` position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:235
+msgid ""
+":ref:`set_focus_neighbour <class_Control_method_set_focus_neighbour>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`NodePath "
+"<class_NodePath>` neighbour **)**"
+msgstr ""
+":ref:`set_focus_neighbour <class_Control_method_set_focus_neighbour>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`NodePath "
+"<class_NodePath>` neighbour **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:237
+msgid ""
+":ref:`set_global_position <class_Control_method_set_global_position>` "
+"**(** :ref:`Vector2 <class_Vector2>` position, :ref:`bool <class_bool>` "
+"keep_margins=false **)**"
+msgstr ""
+":ref:`set_global_position <class_Control_method_set_global_position>` "
+"**(** :ref:`Vector2 <class_Vector2>` position, :ref:`bool <class_bool>` "
+"keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:239
+msgid ""
+":ref:`set_margin <class_Control_method_set_margin>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`float <class_float>` offset "
+"**)**"
+msgstr ""
+":ref:`set_margin <class_Control_method_set_margin>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`float <class_float>` offset "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:241
+msgid ""
+":ref:`set_margins_preset <class_Control_method_set_margins_preset>` **(**"
+" :ref:`LayoutPreset <enum_Control_LayoutPreset>` preset, "
+":ref:`LayoutPresetMode <enum_Control_LayoutPresetMode>` resize_mode=0, "
+":ref:`int <class_int>` margin=0 **)**"
+msgstr ""
+":ref:`set_margins_preset <class_Control_method_set_margins_preset>` **(**"
+" :ref:`LayoutPreset <enum_Control_LayoutPreset>` preset, "
+":ref:`LayoutPresetMode <enum_Control_LayoutPresetMode>` resize_mode=0, "
+":ref:`int <class_int>` margin=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:243
+msgid ""
+":ref:`set_position <class_Control_method_set_position>` **(** "
+":ref:`Vector2 <class_Vector2>` position, :ref:`bool <class_bool>` "
+"keep_margins=false **)**"
+msgstr ""
+":ref:`set_position <class_Control_method_set_position>` **(** "
+":ref:`Vector2 <class_Vector2>` position, :ref:`bool <class_bool>` "
+"keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:245
+msgid ""
+":ref:`set_rotation <class_Control_method_set_rotation>` **(** :ref:`float"
+" <class_float>` radians **)**"
+msgstr ""
+":ref:`set_rotation <class_Control_method_set_rotation>` **(** :ref:`float"
+" <class_float>` radians **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:247
+msgid ""
+":ref:`set_size <class_Control_method_set_size>` **(** :ref:`Vector2 "
+"<class_Vector2>` size, :ref:`bool <class_bool>` keep_margins=false **)**"
+msgstr ""
+":ref:`set_size <class_Control_method_set_size>` **(** :ref:`Vector2 "
+"<class_Vector2>` size, :ref:`bool <class_bool>` keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:249
+msgid ""
+":ref:`show_modal <class_Control_method_show_modal>` **(** :ref:`bool "
+"<class_bool>` exclusive=false **)**"
+msgstr ""
+":ref:`show_modal <class_Control_method_show_modal>` **(** :ref:`bool "
+"<class_bool>` exclusive=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:251
+msgid ""
+":ref:`warp_mouse <class_Control_method_warp_mouse>` **(** :ref:`Vector2 "
+"<class_Vector2>` to_position **)**"
+msgstr ""
+":ref:`warp_mouse <class_Control_method_warp_mouse>` **(** :ref:`Vector2 "
+"<class_Vector2>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:255
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:259
+msgid "**focus_entered** **(** **)**"
+msgstr "**focus_entered** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:261
+msgid "Emitted when the node gains keyboard focus."
+msgstr "在节点获得键盘焦点时，发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:267
+msgid "**focus_exited** **(** **)**"
+msgstr "**focus_exited** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:269
+msgid "Emitted when the node loses keyboard focus."
+msgstr "在节点失去键盘焦点时，发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:275
+msgid "**gui_input** **(** :ref:`InputEvent <class_InputEvent>` event **)**"
+msgstr "**gui_input** **(** :ref:`InputEvent <class_InputEvent>` event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:277
+msgid "Emitted when the node receives an :ref:`InputEvent <class_InputEvent>`."
+msgstr "当节点收到一个 :ref:`InputEvent <class_InputEvent>` 时，发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:283
+msgid "**minimum_size_changed** **(** **)**"
+msgstr "**minimum_size_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:285
+msgid "Emitted when the node's minimum size changes."
+msgstr "当节点的最小大小更改时，发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:291
+msgid "**modal_closed** **(** **)**"
+msgstr "**modal_closed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:293
+msgid ""
+"Emitted when a modal ``Control`` is closed. See :ref:`show_modal "
+"<class_Control_method_show_modal>`."
+msgstr ""
+"当模式控件 ``Control`` 关闭时发出。参见 :ref:`show_modal "
+"<class_Control_method_show_modal>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:299
+msgid "**mouse_entered** **(** **)**"
+msgstr "**mouse_entered** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:301
+msgid ""
+"Emitted when the mouse enters the control's ``Rect`` area, provided its "
+":ref:`mouse_filter <class_Control_property_mouse_filter>` lets the event "
+"reach it."
+msgstr ""
+"当鼠标进入控件的 ``Rect`` 区域时发出，提供其 :ref:`mouse_filter "
+"<class_Control_property_mouse_filter>` 让事件到达它。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:307
+msgid "**mouse_exited** **(** **)**"
+msgstr "**mouse_exited** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:309
+msgid ""
+"Emitted when the mouse leaves the control's ``Rect`` area, provided its "
+":ref:`mouse_filter <class_Control_property_mouse_filter>` lets the event "
+"reach it."
+msgstr ""
+"当鼠标离开控件的 ``Rect`` 区域时发出，提供其 :ref:`mouse_filter "
+"<class_Control_property_mouse_filter>` 让事件到达它。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:315
+msgid "**resized** **(** **)**"
+msgstr "**resized** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:317
+msgid "Emitted when the control changes size."
+msgstr "当控件更改大小时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:323
+msgid "**size_flags_changed** **(** **)**"
+msgstr "**size_flags_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:325
+msgid ""
+"Emitted when one of the size flags changes. See "
+":ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` and "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`."
+msgstr ""
+"当大小标志之一更改时发出。参见 :ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` 和 "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:328
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:338
+msgid "enum **FocusMode**:"
+msgstr "枚举 **FocusMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:340
+msgid ""
+"**FOCUS_NONE** = **0** --- The node cannot grab focus. Use with "
+":ref:`focus_mode <class_Control_property_focus_mode>`."
+msgstr ""
+"**FOCUS_NONE** = **0** —— 该节点无法获取焦点。与 :ref:`focus_mode "
+"<class_Control_property_focus_mode>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:342
+msgid ""
+"**FOCUS_CLICK** = **1** --- The node can only grab focus on mouse clicks."
+" Use with :ref:`focus_mode <class_Control_property_focus_mode>`."
+msgstr ""
+"**FOCUS_CLICK** = **1** —— 该节点只能获取鼠标点击的焦点。与 :ref:`focus_mode "
+"<class_Control_property_focus_mode>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:344
+msgid ""
+"**FOCUS_ALL** = **2** --- The node can grab focus on mouse click or using"
+" the arrows and the Tab keys on the keyboard. Use with :ref:`focus_mode "
+"<class_Control_property_focus_mode>`."
+msgstr ""
+"**FOCUS_ALL** = **2** —— 该节点可以获取焦点，关于鼠标点击或使用键盘上的箭头和Tab键。与 "
+":ref:`focus_mode <class_Control_property_focus_mode>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:384
+msgid "enum **CursorShape**:"
+msgstr "枚举 **CursorShape**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:386
+msgid ""
+"**CURSOR_ARROW** = **0** --- Show the system's arrow mouse cursor when "
+"the user hovers the node. Use with :ref:`mouse_default_cursor_shape "
+"<class_Control_property_mouse_default_cursor_shape>`."
+msgstr ""
+"**CURSOR_ARROW** = **0** —— 当用户将节点悬停时，显示系统的箭头光标。与 "
+":ref:`mouse_default_cursor_shape "
+"<class_Control_property_mouse_default_cursor_shape>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:388
+msgid ""
+"**CURSOR_IBEAM** = **1** --- Show the system's I-beam mouse cursor when "
+"the user hovers the node. The I-beam pointer has a shape similar to "
+"\"I\". It tells the user they can highlight or insert text."
+msgstr ""
+"**CURSOR_IBEAM** = **1** —— 当用户悬停节点时，显示系统的I型光束鼠标光标。I型光束指针的形状类似于 "
+"``I``。它告诉用户他们可以高亮或插入文本。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:390
+msgid ""
+"**CURSOR_POINTING_HAND** = **2** --- Show the system's pointing hand "
+"mouse cursor when the user hovers the node."
+msgstr "**CURSOR_POINTING_HAND** = **2** —— 当用户将节点悬停时，显示系统的手形鼠标光标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:392
+msgid ""
+"**CURSOR_CROSS** = **3** --- Show the system's cross mouse cursor when "
+"the user hovers the node."
+msgstr "**CURSOR_CROSS** = **3** —— 当用户将节点悬停时，显示系统的交叉鼠标光标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:394
+msgid ""
+"**CURSOR_WAIT** = **4** --- Show the system's wait mouse cursor, often an"
+" hourglass, when the user hovers the node."
+msgstr "**CURSOR_WAIT** = **4** —— 当用户悬停节点时，显示系统的等待鼠标光标，通常是一个沙漏。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:396
+msgid ""
+"**CURSOR_BUSY** = **5** --- Show the system's busy mouse cursor when the "
+"user hovers the node. Often an hourglass."
+msgstr "**CURSOR_BUSY** = **5** —— 当用户将节点悬停时，显示系统的繁忙鼠标光标。通常是沙漏。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:398
+msgid ""
+"**CURSOR_DRAG** = **6** --- Show the system's drag mouse cursor, often a "
+"closed fist or a cross symbol, when the user hovers the node. It tells "
+"the user they're currently dragging an item, like a node in the Scene "
+"dock."
+msgstr ""
+"**CURSOR_DRAG** = **6** —— "
+"当用户将节点悬停时，显示系统的拖动鼠标光标，通常是闭合的拳头或叉形符号。它告诉用户他们当前正在拖动项目，例如Scene码头中的节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:400
+msgid ""
+"**CURSOR_CAN_DROP** = **7** --- Show the system's drop mouse cursor when "
+"the user hovers the node. It can be an open hand. It tells the user they "
+"can drop an item they're currently grabbing, like a node in the Scene "
+"dock."
+msgstr ""
+"**CURSOR_CAN_DROP** = **7** —— "
+"当用户将节点悬停时，显示系统的放下鼠标光标。它可以是张开的手。它告诉用户他们可以放下当前正在抓取的物品，例如Scene码头中的节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:402
+msgid ""
+"**CURSOR_FORBIDDEN** = **8** --- Show the system's forbidden mouse cursor"
+" when the user hovers the node. Often a crossed circle."
+msgstr "**CURSOR_FORBIDDEN** = **8** —— 当用户将节点悬停时，显示系统禁止的鼠标光标。通常是一个交叉的圆圈。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:404
+msgid ""
+"**CURSOR_VSIZE** = **9** --- Show the system's vertical resize mouse "
+"cursor when the user hovers the node. A double-headed vertical arrow. It "
+"tells the user they can resize the window or the panel vertically."
+msgstr ""
+"**CURSOR_VSIZE** = **9** —— "
+"当用户将节点悬停时，显示系统的垂直调整大小的鼠标光标。双向垂直箭头。它告诉用户他们可以垂直调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:406
+msgid ""
+"**CURSOR_HSIZE** = **10** --- Show the system's horizontal resize mouse "
+"cursor when the user hovers the node. A double-headed horizontal arrow. "
+"It tells the user they can resize the window or the panel horizontally."
+msgstr ""
+"**CURSOR_HSIZE** = **10** —— "
+"当用户将节点悬停时，显示系统的水平调整大小的鼠标光标。双向水平箭头。它告诉用户他们可以水平调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:408
+msgid ""
+"**CURSOR_BDIAGSIZE** = **11** --- Show the system's window resize mouse "
+"cursor when the user hovers the node. The cursor is a double-headed arrow"
+" that goes from the bottom left to the top right. It tells the user they "
+"can resize the window or the panel both horizontally and vertically."
+msgstr ""
+"**CURSOR_BDIAGSIZE** = **11** —— "
+"当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是从左下角到右上角的双向箭头。它告诉用户他们可以水平和垂直调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:410
+msgid ""
+"**CURSOR_FDIAGSIZE** = **12** --- Show the system's window resize mouse "
+"cursor when the user hovers the node. The cursor is a double-headed arrow"
+" that goes from the top left to the bottom right, the opposite of "
+":ref:`CURSOR_BDIAGSIZE <class_Control_constant_CURSOR_BDIAGSIZE>`. It "
+"tells the user they can resize the window or the panel both horizontally "
+"and vertically."
+msgstr ""
+"**CURSOR_FDIAGSIZE** = **12** —— "
+"当用户将节点悬停时，显示系统窗口调整大小的鼠标光标。光标是一个双箭头，从左上角到右下角，与 :ref:`CURSOR_BDIAGSIZE "
+"<class_Control_constant_CURSOR_BDIAGSIZE>` 相反。它告诉用户他们可以水平和垂直调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:412
+msgid ""
+"**CURSOR_MOVE** = **13** --- Show the system's move mouse cursor when the"
+" user hovers the node. It shows 2 double-headed arrows at a 90 degree "
+"angle. It tells the user they can move a UI element freely."
+msgstr ""
+"**CURSOR_MOVE** = **13** —— "
+"当用户将节点悬停时，显示系统的移动鼠标光标。它显示了两个成90度角的双箭头。它告诉用户他们可以自由移动UI元素。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:414
+msgid ""
+"**CURSOR_VSPLIT** = **14** --- Show the system's vertical split mouse "
+"cursor when the user hovers the node. On Windows, it's the same as "
+":ref:`CURSOR_VSIZE <class_Control_constant_CURSOR_VSIZE>`."
+msgstr ""
+"**CURSOR_VSPLIT** = **14** —— 当用户将节点悬停时，显示系统的垂直拆分鼠标光标。在Windows上，它与 "
+":ref:`CURSOR_VSIZE <class_Control_constant_CURSOR_VSIZE>` 相同。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:416
+msgid ""
+"**CURSOR_HSPLIT** = **15** --- Show the system's horizontal split mouse "
+"cursor when the user hovers the node. On Windows, it's the same as "
+":ref:`CURSOR_HSIZE <class_Control_constant_CURSOR_HSIZE>`."
+msgstr ""
+"**CURSOR_HSPLIT** = **15** —— 当用户将节点悬停时，显示系统的水平拆分鼠标光标。在Windows上，它与 "
+":ref:`CURSOR_HSIZE <class_Control_constant_CURSOR_HSIZE>` 相同。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:418
+msgid ""
+"**CURSOR_HELP** = **16** --- Show the system's help mouse cursor when the"
+" user hovers the node, a question mark."
+msgstr "**CURSOR_HELP** = **16** —— 当用户将节点悬停在节点上时，显示系统的帮助鼠标光标，一个问号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:456
+msgid "enum **LayoutPreset**:"
+msgstr "枚举 **LayoutPreset**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:458
+msgid ""
+"**PRESET_TOP_LEFT** = **0** --- Snap all 4 anchors to the top-left of the"
+" parent control's bounds. Use with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_TOP_LEFT** = **0** —— 将所有4个定位点吸附到父控件边界的左上角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:460
+msgid ""
+"**PRESET_TOP_RIGHT** = **1** --- Snap all 4 anchors to the top-right of "
+"the parent control's bounds. Use with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_TOP_RIGHT** = **1** —— 将所有4个定位点吸附到父控件边界的右上角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:462
+msgid ""
+"**PRESET_BOTTOM_LEFT** = **2** --- Snap all 4 anchors to the bottom-left "
+"of the parent control's bounds. Use with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_BOTTOM_LEFT** = **2** —— 将所有4个定位点吸附到父控件边界的左下角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:464
+msgid ""
+"**PRESET_BOTTOM_RIGHT** = **3** --- Snap all 4 anchors to the bottom-"
+"right of the parent control's bounds. Use with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_BOTTOM_RIGHT** = **3** —— 将所有4个定位点吸附到父控件边界的右下角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:466
+msgid ""
+"**PRESET_CENTER_LEFT** = **4** --- Snap all 4 anchors to the center of "
+"the left edge of the parent control's bounds. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_CENTER_LEFT** = **4** —— 将所有4个定位点吸附到父控件边界的左边缘的中心。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:468
+msgid ""
+"**PRESET_CENTER_TOP** = **5** --- Snap all 4 anchors to the center of the"
+" top edge of the parent control's bounds. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_CENTER_TOP** = **5** —— 将所有4个定位点吸附到父控件边界的上边缘的中心。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:470
+msgid ""
+"**PRESET_CENTER_RIGHT** = **6** --- Snap all 4 anchors to the center of "
+"the right edge of the parent control's bounds. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_CENTER_RIGHT** = **6** —— 将所有4个定位点吸附到父控件边界的右边缘的中心。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:472
+msgid ""
+"**PRESET_CENTER_BOTTOM** = **7** --- Snap all 4 anchors to the center of "
+"the bottom edge of the parent control's bounds. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_CENTER_BOTTOM** = **7** —— 将所有4个定位点吸附到父控件边界的下边缘的中心。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:474
+msgid ""
+"**PRESET_CENTER** = **8** --- Snap all 4 anchors to the center of the "
+"parent control's bounds. Use with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_CENTER** = **8** —— 将所有4个定位点吸附到父控件边界的右边缘的中心。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:476
+msgid ""
+"**PRESET_LEFT_WIDE** = **9** --- Snap all 4 anchors to the left edge of "
+"the parent control. The left margin becomes relative to the left edge and"
+" the top margin relative to the top left corner of the node's parent. Use"
+" with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_LEFT_WIDE** = **9** —— "
+"将所有4个定位点吸附到父控件的左边缘。左边距相对于节点父级的左边缘，而上边距相对于节点父节点的左上角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:478
+msgid ""
+"**PRESET_TOP_WIDE** = **10** --- Snap all 4 anchors to the top edge of "
+"the parent control. The left margin becomes relative to the top left "
+"corner, the top margin relative to the top edge, and the right margin "
+"relative to the top right corner of the node's parent. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_TOP_WIDE** = **10** —— "
+"将所有4个定位点吸附到父控件的上边缘。左边距相对于节点父级的左上角，上边距相对于节点父级的上边缘，而右边距相对于节点父节点的右上角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:480
+msgid ""
+"**PRESET_RIGHT_WIDE** = **11** --- Snap all 4 anchors to the right edge "
+"of the parent control. The right margin becomes relative to the right "
+"edge and the top margin relative to the top right corner of the node's "
+"parent. Use with :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_RIGHT_WIDE** = **11** —— "
+"将所有4个定位点吸附到父控件的右边缘。右边距相对于节点父级的右边缘，而上边距相对于节点父节点的右上角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:482
+msgid ""
+"**PRESET_BOTTOM_WIDE** = **12** --- Snap all 4 anchors to the bottom edge"
+" of the parent control. The left margin becomes relative to the bottom "
+"left corner, the bottom margin relative to the bottom edge, and the right"
+" margin relative to the bottom right corner of the node's parent. Use "
+"with :ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_BOTTOM_WIDE** = **12** —— "
+"将所有4个定位点吸附到父控件的下边缘。左边距相对于节点父级的左下角，而下边距相对于节点父节点的下边缘，而右边距相对于节点父节点的右下角。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:484
+msgid ""
+"**PRESET_VCENTER_WIDE** = **13** --- Snap all 4 anchors to a vertical "
+"line that cuts the parent control in half. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_VCENTER_WIDE** = **13** —— 将所有4个锚点吸附到一条垂直线，该垂直线将父控件切成两半。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:486
+msgid ""
+"**PRESET_HCENTER_WIDE** = **14** --- Snap all 4 anchors to a horizontal "
+"line that cuts the parent control in half. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_HCENTER_WIDE** = **14** —— 将所有4个锚点吸附到一条水平线，该水平线将父控件切成两半。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:488
+msgid ""
+"**PRESET_WIDE** = **15** --- Snap all 4 anchors to the respective corners"
+" of the parent control. Set all 4 margins to 0 after you applied this "
+"preset and the ``Control`` will fit its parent control. This is "
+"equivalent to the \"Full Rect\" layout option in the editor. Use with "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**PRESET_WIDE** = **15** —— 将所有4个定位点吸附到父控件的各个角。应用此预设后，将所有4个边距设置为0，然后 "
+"``Control`` 将填充其父控件。这等效于编辑器中的全角 ``Full Rect`` 布局选项。与 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>` 一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:502
+msgid "enum **LayoutPresetMode**:"
+msgstr "枚举 **LayoutPresetMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:504
+msgid ""
+"**PRESET_MODE_MINSIZE** = **0** --- The control will be resized to its "
+"minimum size."
+msgstr "**PRESET_MODE_MINSIZE** = **0** —— 控件将被调整为其最小尺寸。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:506
+msgid ""
+"**PRESET_MODE_KEEP_WIDTH** = **1** --- The control's width will not "
+"change."
+msgstr "**PRESET_MODE_KEEP_WIDTH** = **1** —— 控件的宽度不会改变。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:508
+msgid ""
+"**PRESET_MODE_KEEP_HEIGHT** = **2** --- The control's height will not "
+"change."
+msgstr "**PRESET_MODE_KEEP_HEIGHT** = **2** —— 控件的高度不会改变。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:510
+msgid "**PRESET_MODE_KEEP_SIZE** = **3** --- The control's size will not change."
+msgstr "**PRESET_MODE_KEEP_SIZE** = **3** —— 控件的大小不会改变。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:526
+msgid "enum **SizeFlags**:"
+msgstr "枚举 **SizeFlags**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:528
+msgid ""
+"**SIZE_FILL** = **1** --- Tells the parent :ref:`Container "
+"<class_Container>` to expand the bounds of this node to fill all the "
+"available space without pushing any other node. Use with "
+":ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` and "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`."
+msgstr ""
+"**SIZE_FILL** = **1** —— 告诉父级 :ref:`Container <class_Container>` "
+"扩展此节点的边界，以填充所有可用空间，而无需推动任何其他节点。与 :ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` 和 "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>` "
+"一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:530
+msgid ""
+"**SIZE_EXPAND** = **2** --- Tells the parent :ref:`Container "
+"<class_Container>` to let this node take all the available space on the "
+"axis you flag. If multiple neighboring nodes are set to expand, they'll "
+"share the space based on their stretch ratio. See "
+":ref:`size_flags_stretch_ratio "
+"<class_Control_property_size_flags_stretch_ratio>`. Use with "
+":ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` and "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`."
+msgstr ""
+"**SIZE_EXPAND** = **2** —— 告诉父级 :ref:`Container <class_Container>` "
+"让该节点，占用您标记的轴上的所有可用空间。如果将多个相邻节点设置为扩展，它们将根据其拉伸比共享空间。参见 "
+":ref:`size_flags_stretch_ratio "
+"<class_Control_property_size_flags_stretch_ratio>`。与 "
+":ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` 和 "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>` "
+"一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:532
+msgid ""
+"**SIZE_EXPAND_FILL** = **3** --- Sets the node's size flags to both fill "
+"and expand. See the 2 constants above for more information."
+msgstr "**SIZE_EXPAND_FILL** = **3** —— 将节点的大小标志设置为同时填充和扩展。有关更多信息，请参见上面的2个常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:534
+msgid ""
+"**SIZE_SHRINK_CENTER** = **4** --- Tells the parent :ref:`Container "
+"<class_Container>` to center the node in itself. It centers the control "
+"based on its bounding box, so it doesn't work with the fill or expand "
+"size flags. Use with :ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` and "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`."
+msgstr ""
+"**SIZE_SHRINK_CENTER** = **4** —— 告诉父级 :ref:`Container <class_Container>`"
+" 将节点在其中居中。它基于控件的边界框居中，因此它不适用于填充或扩展大小标志。与 :ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` 和 "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>` "
+"一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:536
+msgid ""
+"**SIZE_SHRINK_END** = **8** --- Tells the parent :ref:`Container "
+"<class_Container>` to align the node with its end, either the bottom or "
+"the right edge. It doesn't work with the fill or expand size flags. Use "
+"with :ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` and "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>`."
+msgstr ""
+"**SIZE_SHRINK_END** = **8** —— 告诉父级容器 :ref:`Container <class_Container>` "
+"将节点与其末端（底部或右侧边缘）对齐。它不适用于填充或扩展大小标志。与 :ref:`size_flags_horizontal "
+"<class_Control_property_size_flags_horizontal>` 和 "
+":ref:`size_flags_vertical <class_Control_property_size_flags_vertical>` "
+"一起使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:548
+msgid "enum **MouseFilter**:"
+msgstr "枚举 **MouseFilter**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:550
+msgid ""
+"**MOUSE_FILTER_STOP** = **0** --- The control will receive mouse button "
+"input events through :ref:`_gui_input <class_Control_method__gui_input>` "
+"if clicked on. And the control will receive the :ref:`mouse_entered "
+"<class_Control_signal_mouse_entered>` and :ref:`mouse_exited "
+"<class_Control_signal_mouse_exited>` signals. These events are "
+"automatically marked as handled, and they will not propagate further to "
+"other controls. This also results in blocking signals in other controls."
+msgstr ""
+"**MOUSE_FILTER_STOP** = **0** —— 如果点击，控件将通过 :ref:`_gui_input "
+"<class_Control_method__gui_input>` 接收鼠标按钮输入事件。并且控件将接收到 "
+":ref:`mouse_entered <class_Control_signal_mouse_entered>` 和 "
+":ref:`mouse_exited <class_Control_signal_mouse_exited>` "
+"信号。这些事件会自动标记为已处理，并且不会进一步传播到其他控件。这也会导致其他控件中的信号阻塞。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:552
+msgid ""
+"**MOUSE_FILTER_PASS** = **1** --- The control will receive mouse button "
+"input events through :ref:`_gui_input <class_Control_method__gui_input>` "
+"if clicked on. And the control will receive the :ref:`mouse_entered "
+"<class_Control_signal_mouse_entered>` and :ref:`mouse_exited "
+"<class_Control_signal_mouse_exited>` signals. If this control does not "
+"handle the event, the parent control (if any) will be considered, and so "
+"on until there is no more parent control to potentially handle it. This "
+"also allows signals to fire in other controls. Even if no control handled"
+" it at all, the event will still be handled automatically, so unhandled "
+"input will not be fired."
+msgstr ""
+"**MOUSE_FILTER_PASS** = **1** —— 如果点击，控件将通过 :ref:`_gui_input "
+"<class_Control_method__gui_input>` 接收鼠标按钮输入事件。并且控件将接收到 "
+":ref:`mouse_entered <class_Control_signal_mouse_entered>` 和 "
+":ref:`mouse_exited <class_Control_signal_mouse_exited>` "
+"信号。如果此控件不处理事件，则将考虑父控件（如果有），依此类推，直到不再有能够处理它的父控件为止。这也允许信号在其他控件中触发。即使完全没有控件处理该事件，该事件仍将自动处理，因此不会释放未处理的输入。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:554
+msgid ""
+"**MOUSE_FILTER_IGNORE** = **2** --- The control will not receive mouse "
+"button input events through :ref:`_gui_input "
+"<class_Control_method__gui_input>`. The control will also not receive the"
+" :ref:`mouse_entered <class_Control_signal_mouse_entered>` nor "
+":ref:`mouse_exited <class_Control_signal_mouse_exited>` signals. This "
+"will not block other controls from receiving these events or firing the "
+"signals. Ignored events will not be handled automatically."
+msgstr ""
+"**MOUSE_FILTER_IGNORE** = **2** —— 控件将不会通过 :ref:`_gui_input "
+"<class_Control_method__gui_input>` 接收鼠标按钮输入事件。控件也不会接收到 "
+":ref:`mouse_entered <class_Control_signal_mouse_entered>` 和 "
+":ref:`mouse_exited <class_Control_signal_mouse_exited>` "
+"信号。这不会阻止其他控件接收这些事件或触发信号。忽略的事件将不会自动处理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:566
+msgid "enum **GrowDirection**:"
+msgstr "枚举 **GrowDirection**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:568
+msgid ""
+"**GROW_DIRECTION_BEGIN** = **0** --- The control will grow to the left or"
+" top to make up if its minimum size is changed to be greater than its "
+"current size on the respective axis."
+msgstr ""
+"**GROW_DIRECTION_BEGIN** = **0** —— "
+"如果控件的最小尺寸更改为大于其各自轴上的当前尺寸，则控件将向左或顶部增大以进行补偿。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:570
+msgid ""
+"**GROW_DIRECTION_END** = **1** --- The control will grow to the right or "
+"bottom to make up if its minimum size is changed to be greater than its "
+"current size on the respective axis."
+msgstr ""
+"**GROW_DIRECTION_END** = **1** —— "
+"如果控件的最小尺寸更改为大于其各自轴上的当前尺寸，则控件将向右或向下增大以进行补偿。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:572
+msgid ""
+"**GROW_DIRECTION_BOTH** = **2** --- The control will grow in both "
+"directions equally to make up if its minimum size is changed to be "
+"greater than its current size."
+msgstr ""
+"**GROW_DIRECTION_BOTH** = **2** —— "
+"如果控件的最小大小更改为大于其当前大小，则控件将在两个方向上均等地增长以补偿该控件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:582
+msgid "enum **Anchor**:"
+msgstr "枚举 **Anchor**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:584
+msgid ""
+"**ANCHOR_BEGIN** = **0** --- Snaps one of the 4 anchor's sides to the "
+"origin of the node's ``Rect``, in the top left. Use it with one of the "
+"``anchor_*`` member variables, like :ref:`anchor_left "
+"<class_Control_property_anchor_left>`. To change all 4 anchors at once, "
+"use :ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**ANCHOR_BEGIN** = **0** —— 将4个锚点的一侧吸附到节点左上方的 ``Rect`` 的原点。与 ``anchor_*``"
+" 成员变量之一，如 :ref:`anchor_left "
+"<class_Control_property_anchor_left>`，一起使用。要一次更改所有4个锚点，使用 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:586
+msgid ""
+"**ANCHOR_END** = **1** --- Snaps one of the 4 anchor's sides to the end "
+"of the node's ``Rect``, in the bottom right. Use it with one of the "
+"``anchor_*`` member variables, like :ref:`anchor_left "
+"<class_Control_property_anchor_left>`. To change all 4 anchors at once, "
+"use :ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`."
+msgstr ""
+"**ANCHOR_END** = **1** —— 将4个锚点的一侧吸附到节点右下方的 ``Rect`` 的末端。与 ``anchor_*`` "
+"成员变量之一，如 :ref:`anchor_left "
+"<class_Control_property_anchor_left>`，一起使用。要一次更改所有4个锚点，使用 "
+":ref:`set_anchors_preset <class_Control_method_set_anchors_preset>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:589
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:609
+msgid ""
+"**NOTIFICATION_RESIZED** = **40** --- Sent when the node changes size. "
+"Use :ref:`rect_size <class_Control_property_rect_size>` to get the new "
+"size."
+msgstr ""
+"**NOTIFICATION_RESIZED** = **40** —— 当节点更改大小时发送。使用 :ref:`rect_size "
+"<class_Control_property_rect_size>` 获取新的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:611
+msgid ""
+"**NOTIFICATION_MOUSE_ENTER** = **41** --- Sent when the mouse pointer "
+"enters the node."
+msgstr "**NOTIFICATION_MOUSE_ENTER** = **41** —— 当鼠标指针进入节点时发送。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:613
+msgid ""
+"**NOTIFICATION_MOUSE_EXIT** = **42** --- Sent when the mouse pointer "
+"exits the node."
+msgstr "**NOTIFICATION_MOUSE_EXIT** = **42** —— 当鼠标指针退出节点时发送。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:615
+msgid "**NOTIFICATION_FOCUS_ENTER** = **43** --- Sent when the node grabs focus."
+msgstr "**NOTIFICATION_FOCUS_ENTER** = **43** —— 当节点获得焦点时发送。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:617
+msgid "**NOTIFICATION_FOCUS_EXIT** = **44** --- Sent when the node loses focus."
+msgstr "**NOTIFICATION_FOCUS_EXIT** = **44** —— 当节点失去焦点时发送。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:619
+msgid ""
+"**NOTIFICATION_THEME_CHANGED** = **45** --- Sent when the node's "
+":ref:`theme <class_Control_property_theme>` changes, right before Godot "
+"redraws the control. Happens when you call one of the ``add_*_override`` "
+"methods."
+msgstr ""
+"**NOTIFICATION_THEME_CHANGED** = **45** —— 当节点的 :ref:`theme "
+"<class_Control_property_theme>` 更改时，就在Godot重绘控件之前，发送。当您调用 "
+"``add_*_override`` 方法之一时发生。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:621
+msgid ""
+"**NOTIFICATION_MODAL_CLOSE** = **46** --- Sent when an open modal dialog "
+"closes. See :ref:`show_modal <class_Control_method_show_modal>`."
+msgstr ""
+"**NOTIFICATION_MODAL_CLOSE** = **46** —— 当一个打开的模式对话框关闭时发送。参见 "
+":ref:`show_modal <class_Control_method_show_modal>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:623
+msgid ""
+"**NOTIFICATION_SCROLL_BEGIN** = **47** --- Sent when this node is inside "
+"a :ref:`ScrollContainer <class_ScrollContainer>` which has begun being "
+"scrolled."
+msgstr ""
+"**NOTIFICATION_SCROLL_BEGIN** = **47** —— 当此节点在已开始滚动的 "
+":ref:`ScrollContainer <class_ScrollContainer>` 中时发送。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:625
+msgid ""
+"**NOTIFICATION_SCROLL_END** = **48** --- Sent when this node is inside a "
+":ref:`ScrollContainer <class_ScrollContainer>` which has stopped being "
+"scrolled."
+msgstr ""
+"**NOTIFICATION_SCROLL_END** = **48** —— 当此节点在已停止滚动的 :ref:`ScrollContainer"
+" <class_ScrollContainer>` 中时发送。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:628
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:632
+msgid ":ref:`float <class_float>` **anchor_bottom**"
+msgstr ":ref:`float <class_float>` **anchor_bottom**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:635
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:649
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:663
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:677
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:691
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:707
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:723
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:739
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:755
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:771
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:789
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:807
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:823
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:839
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:853
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:871
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:889
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:907
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:925
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:943
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:959
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:987
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1003
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1019
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1033
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1049
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1065
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1079
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1095
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1111
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:637
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:651
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:665
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:679
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:695
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:711
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:727
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:743
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:759
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:775
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:793
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:811
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:827
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:857
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:875
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:893
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:911
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:929
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:947
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:963
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:975
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:991
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1007
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1021
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1037
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1053
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1067
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1083
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1099
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1129
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:637
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:651
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:665
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:679
+msgid "get_anchor()"
+msgstr "get_anchor()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:640
+msgid ""
+"Anchors the bottom edge of the node to the origin, the center, or the end"
+" of its parent control. It changes how the bottom margin updates when the"
+" node moves or changes size. You can use one of the :ref:`Anchor "
+"<enum_Control_Anchor>` constants for convenience."
+msgstr ""
+"将节点的底部边缘固定到其父控件的原点、中心、或末端。当节点移动或更改大小时，它会更改底部边距的更新方式。为了方便起见，您可以使用 "
+":ref:`Anchor <enum_Control_Anchor>` 常量之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:646
+msgid ":ref:`float <class_float>` **anchor_left**"
+msgstr ":ref:`float <class_float>` **anchor_left**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:654
+msgid ""
+"Anchors the left edge of the node to the origin, the center or the end of"
+" its parent control. It changes how the left margin updates when the node"
+" moves or changes size. You can use one of the :ref:`Anchor "
+"<enum_Control_Anchor>` constants for convenience."
+msgstr ""
+"将节点的左边缘固定到其父控件的原点、中心、或末端。当节点移动或更改大小时，它会更改左边距的更新方式。为了方便起见，您可以使用 "
+":ref:`Anchor <enum_Control_Anchor>` 常量之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:660
+msgid ":ref:`float <class_float>` **anchor_right**"
+msgstr ":ref:`float <class_float>` **anchor_right**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:668
+msgid ""
+"Anchors the right edge of the node to the origin, the center or the end "
+"of its parent control. It changes how the right margin updates when the "
+"node moves or changes size. You can use one of the :ref:`Anchor "
+"<enum_Control_Anchor>` constants for convenience."
+msgstr ""
+"将节点的右边缘固定到其父控件的原点、中心、或末端。当节点移动或更改大小时，它会更改右边距的更新方式。为了方便起见，您可以使用 "
+":ref:`Anchor <enum_Control_Anchor>` 常量之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:674
+msgid ":ref:`float <class_float>` **anchor_top**"
+msgstr ":ref:`float <class_float>` **anchor_top**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:682
+msgid ""
+"Anchors the top edge of the node to the origin, the center or the end of "
+"its parent control. It changes how the top margin updates when the node "
+"moves or changes size. You can use  one of the :ref:`Anchor "
+"<enum_Control_Anchor>` constants for convenience."
+msgstr ""
+"将节点的上边缘固定到其父控件的原点、中心、或末端。当节点移动或更改大小时，它会更改上边距的更新方式。为了方便起见，您可以使用 "
+":ref:`Anchor <enum_Control_Anchor>` 常量之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:688
+msgid ":ref:`FocusMode <enum_Control_FocusMode>` **focus_mode**"
+msgstr ":ref:`FocusMode <enum_Control_FocusMode>` **focus_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:693
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:709
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:725
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:741
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:757
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:773
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:791
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:809
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:825
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:841
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:855
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:873
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:891
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:909
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:927
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:945
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:961
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:989
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1005
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1035
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1051
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1081
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1097
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1127
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:693
+msgid "set_focus_mode(value)"
+msgstr "set_focus_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:695
+msgid "get_focus_mode()"
+msgstr "get_focus_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:698
+msgid ""
+"The focus access mode for the control (None, Click or All). Only one "
+"Control can be focused at the same time, and it will receive keyboard "
+"signals."
+msgstr "控件的焦点访问模式（无，点击或全部）。只能同时聚焦一个控件，它将接收键盘信号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:704
+msgid ":ref:`NodePath <class_NodePath>` **focus_neighbour_bottom**"
+msgstr ":ref:`NodePath <class_NodePath>` **focus_neighbour_bottom**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:709
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:725
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:741
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:757
+msgid "set_focus_neighbour(value)"
+msgstr "set_focus_neighbour(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:711
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:727
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:743
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:759
+msgid "get_focus_neighbour()"
+msgstr "get_focus_neighbour()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:714
+msgid ""
+"Tells Godot which node it should give keyboard focus to if the user "
+"presses the down arrow on the keyboard or down on a gamepad by default. "
+"You can change the key by editing the ``ui_down`` input action. The node "
+"must be a ``Control``. If this property is not set, Godot will give focus"
+" to the closest ``Control`` to the bottom of this one."
+msgstr ""
+"告诉Godot，默认情况下，如果用户按下键盘上的向下箭头，或游戏手柄上的向下箭头，则应将焦点对准哪个节点。您可以通过编辑 ``ui_down`` "
+"输入动作来更改键。该节点必须是一个 ``Control``。如果未设置此属性，则Godot会将焦点，放在该控件底部最近的 ``Control`` "
+"上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:720
+msgid ":ref:`NodePath <class_NodePath>` **focus_neighbour_left**"
+msgstr ":ref:`NodePath <class_NodePath>` **focus_neighbour_left**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:730
+msgid ""
+"Tells Godot which node it should give keyboard focus to if the user "
+"presses the left arrow on the keyboard or left on a gamepad by default. "
+"You can change the key by editing the ``ui_left`` input action. The node "
+"must be a ``Control``. If this property is not set, Godot will give focus"
+" to the closest ``Control`` to the left of this one."
+msgstr ""
+"告诉Godot，默认情况下，如果用户按下键盘上的向左箭头，或游戏手柄上的向左键，应该将焦点对准哪个节点。您可以通过编辑 ``ui_left`` "
+"输入动作来更改键。该节点必须是一个 ``Control``。 "
+"如果未设置此属性，则Godot会将焦点放在该控件左侧最接近的``控件''上。如果未设置此属性，则Godot会将焦点，放在该 ``Control``"
+" 左侧最接近的 ``Control`` 上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:736
+msgid ":ref:`NodePath <class_NodePath>` **focus_neighbour_right**"
+msgstr ":ref:`NodePath <class_NodePath>` **focus_neighbour_right**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:746
+msgid ""
+"Tells Godot which node it should give keyboard focus to if the user "
+"presses the right arrow on the keyboard or right on a gamepad  by "
+"default. You can change the key by editing the ``ui_right`` input action."
+" The node must be a ``Control``. If this property is not set, Godot will "
+"give focus to the closest ``Control`` to the bottom of this one."
+msgstr ""
+"告诉Godot，默认情况下，如果用户按下键盘上的向右箭头，或游戏手柄上的向右箭头，则应将焦点对准哪个节点。您可以通过编辑 ``ui_right``"
+" 输入动作来更改键。该节点必须是一个 ``Control``。如果未设置此属性，则Godot会将焦点，放在距离该控件底部最近的 "
+"``Control`` 上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:752
+msgid ":ref:`NodePath <class_NodePath>` **focus_neighbour_top**"
+msgstr ":ref:`NodePath <class_NodePath>` **focus_neighbour_top**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:762
+msgid ""
+"Tells Godot which node it should give keyboard focus to if the user "
+"presses the top arrow on the keyboard or top on a gamepad by default. You"
+" can change the key by editing the ``ui_top`` input action. The node must"
+" be a ``Control``. If this property is not set, Godot will give focus to "
+"the closest ``Control`` to the bottom of this one."
+msgstr ""
+"告诉Godot默认情况下，如果用户按下键盘上的顶部箭头，或游戏手柄上的顶部，则应该将焦点对准哪个节点。您可以通过编辑 ``ui_top`` "
+"输入动作来更改键。该节点必须是一个 ``Control``。如果未设置此属性，则Godot会将焦点，放在该控件距离底部最近的 "
+"``Control`` 上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:768
+msgid ":ref:`NodePath <class_NodePath>` **focus_next**"
+msgstr ":ref:`NodePath <class_NodePath>` **focus_next**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:773
+msgid "set_focus_next(value)"
+msgstr "set_focus_next(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:775
+msgid "get_focus_next()"
+msgstr "get_focus_next()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:778
+msgid ""
+"Tells Godot which node it should give keyboard focus to if the user "
+"presses Tab on a keyboard by default. You can change the key by editing "
+"the ``ui_focus_next`` input action."
+msgstr "告诉Godot，如果用户默认情况下按键盘上的Tab键，应将焦点对准哪个节点。您可以通过编辑 ``ui_focus_next`` 输入动作来更改键。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:780
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:798
+msgid ""
+"If this property is not set, Godot will select a \"best guess\" based on "
+"surrounding nodes in the scene tree."
+msgstr "如果未设置此属性，则Godot将基于场景树中的周围节点，选择一个最佳猜测 ``best guess``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:786
+msgid ":ref:`NodePath <class_NodePath>` **focus_previous**"
+msgstr ":ref:`NodePath <class_NodePath>` **focus_previous**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:791
+msgid "set_focus_previous(value)"
+msgstr "set_focus_previous(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:793
+msgid "get_focus_previous()"
+msgstr "get_focus_previous()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:796
+msgid ""
+"Tells Godot which node it should give keyboard focus to if the user "
+"presses Shift+Tab on a keyboard by default. You can change the key by "
+"editing the ``ui_focus_prev`` input action."
+msgstr ""
+"告诉Godot，如果用户默认情况下按键盘上的 ``Shift + Tab`` 键，则应将焦点对准键盘上的哪个节点。您可以通过编辑 "
+"``ui_focus_prev`` 输入动作来更改键。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:804
+msgid ":ref:`GrowDirection <enum_Control_GrowDirection>` **grow_horizontal**"
+msgstr ":ref:`GrowDirection <enum_Control_GrowDirection>` **grow_horizontal**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:809
+msgid "set_h_grow_direction(value)"
+msgstr "set_h_grow_direction(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:811
+msgid "get_h_grow_direction()"
+msgstr "get_h_grow_direction()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:814
+msgid ""
+"Controls the direction on the horizontal axis in which the control should"
+" grow if its horizontal minimum size is changed to be greater than its "
+"current size, as the control always has to be at least the minimum size."
+msgstr "控制水平轴的方向，如果控件的水平最小尺寸更改为大于当前尺寸，则控件应沿水平轴方向增，因为控件始终必须至少为最小尺寸。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:820
+msgid ":ref:`GrowDirection <enum_Control_GrowDirection>` **grow_vertical**"
+msgstr ":ref:`GrowDirection <enum_Control_GrowDirection>` **grow_vertical**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:825
+msgid "set_v_grow_direction(value)"
+msgstr "set_v_grow_direction(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:827
+msgid "get_v_grow_direction()"
+msgstr "get_v_grow_direction()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:830
+msgid ""
+"Controls the direction on the vertical axis in which the control should "
+"grow if its vertical minimum size is changed to be greater than its "
+"current size, as the control always has to be at least the minimum size."
+msgstr "控制控件在垂直轴上的方向，如果控件的垂直最小尺寸更改为大于其当前尺寸，则控件应沿该方向增大，因为控件始终必须至少为最小尺寸。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:836
+msgid ":ref:`String <class_String>` **hint_tooltip**"
+msgstr ":ref:`String <class_String>` **hint_tooltip**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:841
+msgid "set_tooltip(value)"
+msgstr "set_tooltip(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:844
+msgid ""
+"Changes the tooltip text. The tooltip appears when the user's mouse "
+"cursor stays idle over this control for a few moments, provided that the "
+":ref:`mouse_filter <class_Control_property_mouse_filter>` property is not"
+" :ref:`MOUSE_FILTER_IGNORE <class_Control_constant_MOUSE_FILTER_IGNORE>`."
+" You can change the time required for the tooltip to appear with "
+"``gui/timers/tooltip_delay_sec`` option in Project Settings."
+msgstr ""
+"更改工具提示文本。如果 :ref:`mouse_filter <class_Control_property_mouse_filter>` "
+"属性不是 :ref:`MOUSE_FILTER_IGNORE "
+"<class_Control_constant_MOUSE_FILTER_IGNORE>` "
+"属性，则用户的鼠标光标在此控件上闲置一会儿时，将显示工具提示。您可以使用项目设置中的 "
+"``gui/timers/tooltip_delay_sec`` 选项，更改显示工具提示所需的时间。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:850
+msgid ":ref:`float <class_float>` **margin_bottom**"
+msgstr ":ref:`float <class_float>` **margin_bottom**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:855
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:873
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:891
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:909
+msgid "set_margin(value)"
+msgstr "set_margin(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:857
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:875
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:893
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:911
+msgid "get_margin()"
+msgstr "get_margin()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:860
+msgid ""
+"Distance between the node's bottom edge and its parent control, based on "
+":ref:`anchor_bottom <class_Control_property_anchor_bottom>`."
+msgstr ""
+"节点底边与其父控件之间的距离，基于 :ref:`anchor_bottom "
+"<class_Control_property_anchor_bottom>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:862
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:880
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:898
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:916
+msgid ""
+"Margins are often controlled by one or multiple parent :ref:`Container "
+"<class_Container>` nodes, so you should not modify them manually if your "
+"node is a direct child of a :ref:`Container <class_Container>`. Margins "
+"update automatically when you move or resize the node."
+msgstr ""
+"边距通常由一个或多个父级 :ref:`Container <class_Container>` 节点控制，因此，如果您的节点是 "
+":ref:`Container <class_Container>` 的直接子代，则不应手动修改它们。当您移动或调整节点大小时，边距会自动更新。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:868
+msgid ":ref:`float <class_float>` **margin_left**"
+msgstr ":ref:`float <class_float>` **margin_left**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:878
+msgid ""
+"Distance between the node's left edge and its parent control, based on "
+":ref:`anchor_left <class_Control_property_anchor_left>`."
+msgstr ""
+"节点的左边缘与其父控件之间的距离，基于 :ref:`anchor_left "
+"<class_Control_property_anchor_left>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:886
+msgid ":ref:`float <class_float>` **margin_right**"
+msgstr ":ref:`float <class_float>` **margin_right**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:896
+msgid ""
+"Distance between the node's right edge and its parent control, based on "
+":ref:`anchor_right <class_Control_property_anchor_right>`."
+msgstr ""
+"节点的右边缘与其父控件之间的距离，基于 :ref:`anchor_right "
+"<class_Control_property_anchor_right>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:904
+msgid ":ref:`float <class_float>` **margin_top**"
+msgstr ":ref:`float <class_float>` **margin_top**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:914
+msgid ""
+"Distance between the node's top edge and its parent control, based on "
+":ref:`anchor_top <class_Control_property_anchor_top>`."
+msgstr "节点的上边缘与其父控件之间的距离，基于 :ref:`anchor_top <class_Control_property_anchor_top>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:922
+msgid ""
+":ref:`CursorShape <enum_Control_CursorShape>` "
+"**mouse_default_cursor_shape**"
+msgstr ""
+":ref:`CursorShape <enum_Control_CursorShape>` "
+"**mouse_default_cursor_shape**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:927
+msgid "set_default_cursor_shape(value)"
+msgstr "set_default_cursor_shape(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:929
+msgid "get_default_cursor_shape()"
+msgstr "get_default_cursor_shape()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:932
+msgid ""
+"The default cursor shape for this control. Useful for Godot plugins and "
+"applications or games that use the system's mouse cursors."
+msgstr "此控件的默认光标形状。对于使用系统鼠标光标的Godot插件、和应用程序或游戏，很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:934
+msgid ""
+"**Note:** On Linux, shapes may vary depending on the cursor theme of the "
+"system."
+msgstr "**注意**：在Linux上，形状可能会有所不同，具体取决于系统的光标主题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:940
+msgid ":ref:`MouseFilter <enum_Control_MouseFilter>` **mouse_filter**"
+msgstr ":ref:`MouseFilter <enum_Control_MouseFilter>` **mouse_filter**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:945
+msgid "set_mouse_filter(value)"
+msgstr "set_mouse_filter(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:947
+msgid "get_mouse_filter()"
+msgstr "get_mouse_filter()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:950
+msgid ""
+"Controls whether the control will be able to receive mouse button input "
+"events through :ref:`_gui_input <class_Control_method__gui_input>` and "
+"how these events should be handled. Also controls whether the control can"
+" receive the :ref:`mouse_entered <class_Control_signal_mouse_entered>`, "
+"and :ref:`mouse_exited <class_Control_signal_mouse_exited>` signals. See "
+"the constants to learn what each does."
+msgstr ""
+"控制控件是否能够通过 :ref:`_gui_input "
+"<class_Control_method__gui_input>`，接收鼠标按钮输入事件，以及如何处理这些事件。还控制控件是否可以接收 "
+":ref:`mouse_entered <class_Control_signal_mouse_entered>` 和 "
+":ref:`mouse_exited <class_Control_signal_mouse_exited>` 信号。查看常数以了解每个常数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:956
+msgid ":ref:`bool <class_bool>` **rect_clip_content**"
+msgstr ":ref:`bool <class_bool>` **rect_clip_content**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:961
+msgid "set_clip_contents(value)"
+msgstr "set_clip_contents(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:963
+msgid "is_clipping_contents()"
+msgstr "is_clipping_contents()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:966
+msgid ""
+"Enables whether rendering of children should be clipped to this control's"
+" rectangle. If ``true``, parts of a child which would be visibly outside "
+"of this control's rectangle will not be rendered."
+msgstr "启用是否应将子项的渲染嵌制到此控件的矩形。如果为 ``true``，则不会渲染该控件的矩形外部，明显可见的子代部分。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:972
+msgid ":ref:`Vector2 <class_Vector2>` **rect_global_position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **rect_global_position**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:975
+msgid "get_global_position()"
+msgstr "get_global_position()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:978
+msgid ""
+"The node's global position, relative to the world (usually to the top-"
+"left corner of the window)."
+msgstr "节点相对于世界的全局位置（通常到窗口的左上角）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:984
+msgid ":ref:`Vector2 <class_Vector2>` **rect_min_size**"
+msgstr ":ref:`Vector2 <class_Vector2>` **rect_min_size**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:989
+msgid "set_custom_minimum_size(value)"
+msgstr "set_custom_minimum_size(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:991
+msgid "get_custom_minimum_size()"
+msgstr "get_custom_minimum_size()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:994
+msgid ""
+"The minimum size of the node's bounding rectangle. If you set it to a "
+"value greater than (0, 0), the node's bounding rectangle will always have"
+" at least this size, even if its content is smaller. If it's set to (0, "
+"0), the node sizes automatically to fit its content, be it a texture or "
+"child nodes."
+msgstr ""
+"节点边界矩形的最小大小。如果将其设置为大于 (0, 0) 的值，则节点的边界矩形将始终至少具有此大小，即使其内容较小。如果将其设置为 (0, "
+"0)，则节点将自动调整大小以适合其内容，无论是纹理节点还是子节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1000
+msgid ":ref:`Vector2 <class_Vector2>` **rect_pivot_offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **rect_pivot_offset**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1005
+msgid "set_pivot_offset(value)"
+msgstr "set_pivot_offset(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1007
+msgid "get_pivot_offset()"
+msgstr "get_pivot_offset()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1010
+msgid ""
+"By default, the node's pivot is its top-left corner. When you change its "
+":ref:`rect_scale <class_Control_property_rect_scale>`, it will scale "
+"around this pivot. Set this property to :ref:`rect_size "
+"<class_Control_property_rect_size>` / 2 to center the pivot in the node's"
+" rectangle."
+msgstr ""
+"默认情况下，节点的轴心点是其左上角。当您更改其 :ref:`rect_scale "
+"<class_Control_property_rect_scale>` 时，它将围绕此轴心点进行缩放。将此属性设置为 "
+":ref:`rect_size <class_Control_property_rect_size>` / 2，以将轴心点在节点的矩形中居中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1016
+msgid ":ref:`Vector2 <class_Vector2>` **rect_position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **rect_position**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1021
+msgid "get_position()"
+msgstr "get_position()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1024
+msgid ""
+"The node's position, relative to its parent. It corresponds to the "
+"rectangle's top-left corner. The property is not affected by "
+":ref:`rect_pivot_offset <class_Control_property_rect_pivot_offset>`."
+msgstr ""
+"节点相对于其父节点的位置。它对应于矩形的左上角。该属性不受 :ref:`rect_pivot_offset "
+"<class_Control_property_rect_pivot_offset>` 的影响。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1030
+msgid ":ref:`float <class_float>` **rect_rotation**"
+msgstr ":ref:`float <class_float>` **rect_rotation**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1035
+msgid "set_rotation_degrees(value)"
+msgstr "set_rotation_degrees(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1037
+msgid "get_rotation_degrees()"
+msgstr "get_rotation_degrees()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1040
+msgid ""
+"The node's rotation around its pivot, in degrees. See "
+":ref:`rect_pivot_offset <class_Control_property_rect_pivot_offset>` to "
+"change the pivot's position."
+msgstr ""
+"节点围绕其轴心的旋转（以度为单位）。参见 :ref:`rect_pivot_offset "
+"<class_Control_property_rect_pivot_offset>` 来更改轴心的位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1046
+msgid ":ref:`Vector2 <class_Vector2>` **rect_scale**"
+msgstr ":ref:`Vector2 <class_Vector2>` **rect_scale**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1051
+msgid "set_scale(value)"
+msgstr "set_scale(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1053
+msgid "get_scale()"
+msgstr "get_scale()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1056
+msgid ""
+"The node's scale, relative to its :ref:`rect_size "
+"<class_Control_property_rect_size>`. Change this property to scale the "
+"node around its :ref:`rect_pivot_offset "
+"<class_Control_property_rect_pivot_offset>`."
+msgstr ""
+"相对于其 :ref:`rect_size <class_Control_property_rect_size>` 的节点的比例。更改此属性可在其 "
+":ref:`rect_pivot_offset <class_Control_property_rect_pivot_offset>` "
+"周围缩放节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1062
+msgid ":ref:`Vector2 <class_Vector2>` **rect_size**"
+msgstr ":ref:`Vector2 <class_Vector2>` **rect_size**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1067
+msgid "get_size()"
+msgstr "get_size()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1070
+msgid ""
+"The size of the node's bounding rectangle, in pixels. :ref:`Container "
+"<class_Container>` nodes update this property automatically."
+msgstr "节点边界矩形的大小，以像素为单位。:ref:`Container <class_Container>` 节点会自动更新此属性。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1076
+msgid ":ref:`int <class_int>` **size_flags_horizontal**"
+msgstr ":ref:`int <class_int>` **size_flags_horizontal**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1081
+msgid "set_h_size_flags(value)"
+msgstr "set_h_size_flags(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1083
+msgid "get_h_size_flags()"
+msgstr "get_h_size_flags()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1086
+msgid ""
+"Tells the parent :ref:`Container <class_Container>` nodes how they should"
+" resize and place the node on the X axis. Use one of the :ref:`SizeFlags "
+"<enum_Control_SizeFlags>` constants to change the flags. See the "
+"constants to learn what each does."
+msgstr ""
+"告诉父 :ref:`Container <class_Container>` 节点，应如何调整尺寸并将其放置在X轴上。使用 "
+":ref:`SizeFlags <enum_Control_SizeFlags>` 常量之一来更改标志。查看常数以了解每个常数的作用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1092
+msgid ":ref:`float <class_float>` **size_flags_stretch_ratio**"
+msgstr ":ref:`float <class_float>` **size_flags_stretch_ratio**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1097
+msgid "set_stretch_ratio(value)"
+msgstr "set_stretch_ratio(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1099
+msgid "get_stretch_ratio()"
+msgstr "get_stretch_ratio()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1102
+msgid ""
+"If the node and at least one of its neighbours uses the :ref:`SIZE_EXPAND"
+" <class_Control_constant_SIZE_EXPAND>` size flag, the parent "
+":ref:`Container <class_Container>` will let it take more or less space "
+"depending on this property. If this node has a stretch ratio of 2 and its"
+" neighbour a ratio of 1, this node will take two thirds of the available "
+"space."
+msgstr ""
+"如果该节点，和其邻居中的至少一个，使用 :ref:`SIZE_EXPAND "
+"<class_Control_constant_SIZE_EXPAND>` 大小标志，则父 :ref:`Container "
+"<class_Container>` "
+"将根据此属性，占用更多或更少的空间。如果此节点的拉伸比为2，其邻居的拉伸比为1，则此节点将占用可用空间的三分之二。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1108
+msgid ":ref:`int <class_int>` **size_flags_vertical**"
+msgstr ":ref:`int <class_int>` **size_flags_vertical**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1113
+msgid "set_v_size_flags(value)"
+msgstr "set_v_size_flags(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1115
+msgid "get_v_size_flags()"
+msgstr "get_v_size_flags()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1118
+msgid ""
+"Tells the parent :ref:`Container <class_Container>` nodes how they should"
+" resize and place the node on the Y axis. Use one of the :ref:`SizeFlags "
+"<enum_Control_SizeFlags>` constants to change the flags. See the "
+"constants to learn what each does."
+msgstr ""
+"告诉父 :ref:`Container <class_Container>` 节点，应如何调整尺寸并将其放置在Y轴上。使用 "
+":ref:`SizeFlags <enum_Control_SizeFlags>` 常量之一来更改标志。查看常数以了解每个常数的作用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1124
+msgid ":ref:`Theme <class_Theme>` **theme**"
+msgstr ":ref:`Theme <class_Theme>` **theme**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1127
+msgid "set_theme(value)"
+msgstr "set_theme(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1129
+msgid "get_theme()"
+msgstr "get_theme()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1132
+msgid ""
+"Changing this property replaces the current :ref:`Theme <class_Theme>` "
+"resource this node and all its ``Control`` children use."
+msgstr "更改此属性，将替换该节点及其所有 ``Control`` 子级，使用的当前 :ref:`Theme <class_Theme>` 资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1135
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1139
+msgid ":ref:`bool <class_bool>` **_clips_input** **(** **)** virtual"
+msgstr ":ref:`bool <class_bool>` **_clips_input** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1141
+msgid ""
+"Virtual method to be implemented by the user. Returns whether "
+":ref:`_gui_input <class_Control_method__gui_input>` should not be called "
+"for children controls outside this control's rectangle. Input will be "
+"clipped to the Rect of this ``Control``. Similar to "
+":ref:`rect_clip_content <class_Control_property_rect_clip_content>`, but "
+"doesn't affect visibility."
+msgstr ""
+"用户要实现的虚拟方法。返回 :ref:`_gui_input <class_Control_method__gui_input>` "
+"是否不应为，该控件矩形外部的子控件调用。输入将被裁剪到此 ``Control`` 的Rect中。类似于 "
+":ref:`rect_clip_content "
+"<class_Control_property_rect_clip_content>`，但不影响可见性。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1143
+msgid "If not overridden, defaults to ``false``."
+msgstr "如果为重写，默认为 ``false``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1149
+msgid ":ref:`Vector2 <class_Vector2>` **_get_minimum_size** **(** **)** virtual"
+msgstr ":ref:`Vector2 <class_Vector2>` **_get_minimum_size** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1151
+msgid ""
+"Virtual method to be implemented by the user. Returns the minimum size "
+"for this control. Alternative to :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` for controlling minimum size via "
+"code. The actual minimum size will be the max value of these two (in each"
+" axis separately)."
+msgstr ""
+"用户要实现的虚拟方法。返回此控件的最小大小。:ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` "
+"的替代方法，用于通过代码控制最小尺寸。实际的最小尺寸将是这两个的最大值（分别在每个轴上）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1153
+msgid ""
+"If not overridden, defaults to :ref:`Vector2.ZERO "
+"<class_Vector2_constant_ZERO>`."
+msgstr "如果不重写，则默认为 :ref:`Vector2.ZERO <class_Vector2_constant_ZERO>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1159
+msgid ""
+"void **_gui_input** **(** :ref:`InputEvent <class_InputEvent>` event "
+"**)** virtual"
+msgstr ""
+"void **_gui_input** **(** :ref:`InputEvent <class_InputEvent>` event "
+"**)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1161
+msgid ""
+"Virtual method to be implemented by the user. Use this method to process "
+"and accept inputs on UI elements. See :ref:`accept_event "
+"<class_Control_method_accept_event>`."
+msgstr ""
+"用户要实现的虚拟方法。使用此方法来处理和接受UI元素上的输入。参见 :ref:`accept_event "
+"<class_Control_method_accept_event>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1163
+msgid "Example: clicking a control."
+msgstr "示例：点击一个控件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1172
+msgid "The event won't trigger if:"
+msgstr "在以下情况下，该事件不会触发："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1174
+msgid ""
+"\\* clicking outside the control (see :ref:`has_point "
+"<class_Control_method_has_point>`);"
+msgstr "\\* 点击控件外部（参见 :ref:`has_point <class_Control_method_has_point>`）;"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1176
+msgid ""
+"\\* control has :ref:`mouse_filter <class_Control_property_mouse_filter>`"
+" set to :ref:`MOUSE_FILTER_IGNORE "
+"<class_Control_constant_MOUSE_FILTER_IGNORE>`;"
+msgstr ""
+"\\* 控件已将 :ref:`mouse_filter <class_Control_property_mouse_filter>` 设置为 "
+":ref:`MOUSE_FILTER_IGNORE <class_Control_constant_MOUSE_FILTER_IGNORE>`;"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1178
+msgid ""
+"\\* control is obstructed by another ``Control`` on top of it, which "
+"doesn't have :ref:`mouse_filter <class_Control_property_mouse_filter>` "
+"set to :ref:`MOUSE_FILTER_IGNORE "
+"<class_Control_constant_MOUSE_FILTER_IGNORE>`;"
+msgstr ""
+"\\* 控件被位于其顶部的另一个 ``Control`` 干扰，该控件没有将 :ref:`mouse_filter "
+"<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_IGNORE "
+"<class_Control_constant_MOUSE_FILTER_IGNORE>`;"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1180
+msgid ""
+"\\* control's parent has :ref:`mouse_filter "
+"<class_Control_property_mouse_filter>` set to :ref:`MOUSE_FILTER_STOP "
+"<class_Control_constant_MOUSE_FILTER_STOP>` or has accepted the event;"
+msgstr ""
+"\\* 控件的父级将 :ref:`mouse_filter <class_Control_property_mouse_filter>` 设置为 "
+":ref:`MOUSE_FILTER_STOP "
+"<class_Control_constant_MOUSE_FILTER_STOP>`，或已接受该事件;"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1182
+msgid ""
+"\\* it happens outside parent's rectangle and the parent has either "
+":ref:`rect_clip_content <class_Control_property_rect_clip_content>` or "
+":ref:`_clips_input <class_Control_method__clips_input>` enabled."
+msgstr ""
+"\\* 它发生在父对象的矩形外部，并且父对象启用了 :ref:`rect_clip_content "
+"<class_Control_property_rect_clip_content>` 或 :ref:`_clips_input "
+"<class_Control_method__clips_input>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1188
+msgid ""
+":ref:`Object <class_Object>` **_make_custom_tooltip** **(** :ref:`String "
+"<class_String>` for_text **)** virtual"
+msgstr ""
+":ref:`Object <class_Object>` **_make_custom_tooltip** **(** :ref:`String "
+"<class_String>` for_text **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1190
+msgid ""
+"Virtual method to be implemented by the user. Returns a ``Control`` node "
+"that should be used as a tooltip instead of the default one. Use "
+"``for_text`` parameter to determine what text the tooltip should contain "
+"(likely the contents of :ref:`hint_tooltip "
+"<class_Control_property_hint_tooltip>`)."
+msgstr ""
+"用户要实现的虚拟方法。返回一个 ``Control`` 节点，该节点应用作一个工具提示，而不是默认提示。使用 ``for_text`` "
+"参数确定工具提示应包含的文本（可能是 :ref:`hint_tooltip "
+"<class_Control_property_hint_tooltip>` 的内容）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1192
+msgid ""
+"The returned node must be of type ``Control`` or Control-derieved. It can"
+" have child nodes of any type. It is freed when the tooltip disappears, "
+"so make sure you always provide a new instance, not e.g. a node from "
+"scene. When ``null`` or non-Control node is returned, the default tooltip"
+" will be used instead."
+msgstr ""
+"返回的节点必须为 ``Control`` 类型或 ``Control`` "
+"派生类型。它可以具有任何类型的子节点。当工具提示消失时，它将释放，因此请确保您始终提供一个新实例，而不是如场景中的节点。当返回 ``null`` "
+"或非 ``Control`` 节点时，将使用默认工具提示代替。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1194
+msgid ""
+"**Note:** The tooltip is shrunk to minimal size. If you want to ensure "
+"it's fully visible, you might want to set its :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` to some non-zero value."
+msgstr ""
+"**注意**：工具提示会缩小到最小尺寸。如果要确保它是完全可见的，则可能需要将其 :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` 设置为一些非零值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1196
+msgid "Example of usage with custom-constructed node:"
+msgstr "自定义构造的节点的用法示例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1205
+msgid "Example of usage with custom scene instance:"
+msgstr "自定义场景实例的用法示例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1218
+msgid "void **accept_event** **(** **)**"
+msgstr "void **accept_event** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1220
+msgid ""
+"Marks an input event as handled. Once you accept an input event, it stops"
+" propagating, even to nodes listening to :ref:`Node._unhandled_input "
+"<class_Node_method__unhandled_input>` or :ref:`Node._unhandled_key_input "
+"<class_Node_method__unhandled_key_input>`."
+msgstr ""
+"将输入事件标记为已处理。一旦接受输入事件，它就会停止传播，甚至传播到正在侦听 :ref:`Node._unhandled_input "
+"<class_Node_method__unhandled_input>` 或 :ref:`Node._unhandled_key_input "
+"<class_Node_method__unhandled_key_input>` 的节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1226
+#, fuzzy
+msgid ""
+"void **add_color_override** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+"void **add_color_override** **(** :ref:`String <class_String>` name, "
+":ref:`Color <class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1228
+msgid ""
+"Overrides the :ref:`Color <class_Color>` with given ``name`` in the "
+":ref:`theme <class_Control_property_theme>` resource the control uses. If"
+" the ``color`` is empty or invalid, the override is cleared and the color"
+" from assigned :ref:`Theme <class_Theme>` is used."
+msgstr ""
+"在控件使用的 :ref:`theme <class_Control_property_theme>` 资源中，以给定的 ``name`` 覆盖 "
+":ref:`Color <class_Color>`。如果 ``color`` 为空或无效，则清除覆盖并使用分配的 :ref:`Theme "
+"<class_Theme>` 中的颜色。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1234
+#, fuzzy
+msgid ""
+"void **add_constant_override** **(** :ref:`StringName <class_StringName>`"
+" name, :ref:`int <class_int>` constant **)**"
+msgstr ""
+"void **add_constant_override** **(** :ref:`String <class_String>` name, "
+":ref:`int <class_int>` constant **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1236
+msgid ""
+"Overrides an integer constant with given ``name`` in the :ref:`theme "
+"<class_Control_property_theme>` resource the control uses. If the "
+"``constant`` is empty or invalid, the override is cleared and the "
+"constant from assigned :ref:`Theme <class_Theme>` is used."
+msgstr ""
+"在控件使用的 :ref:`theme <class_Control_property_theme>` 资源中，以给定的 ``name`` "
+"覆盖一个整型数。如果 ``constant`` 为空或无效，则清除覆盖并使用分配的 :ref:`Theme <class_Theme>` "
+"中的常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1242
+#, fuzzy
+msgid ""
+"void **add_font_override** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Font <class_Font>` font **)**"
+msgstr ""
+"void **add_font_override** **(** :ref:`String <class_String>` name, "
+":ref:`Font <class_Font>` font **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1244
+msgid ""
+"Overrides the font with given ``name`` in the :ref:`theme "
+"<class_Control_property_theme>` resource the control uses. If ``font`` is"
+" empty or invalid, the override is cleared and the font from assigned "
+":ref:`Theme <class_Theme>` is used."
+msgstr ""
+"在控件使用的 :ref:`theme <class_Control_property_theme>` 资源中，以给定的 ``name`` "
+"覆盖字体。如果 ``font`` 为空或无效，则清除覆盖并使用分配的 :ref:`Theme <class_Theme>` 中的字体。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1250
+#, fuzzy
+msgid ""
+"void **add_icon_override** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+"void **add_icon_override** **(** :ref:`String <class_String>` name, "
+":ref:`Texture <class_Texture>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1252
+msgid ""
+"Overrides the icon with given ``name`` in the :ref:`theme "
+"<class_Control_property_theme>` resource the control uses. If ``icon`` is"
+" empty or invalid, the override is cleared and the icon from assigned "
+":ref:`Theme <class_Theme>` is used."
+msgstr ""
+"在控件使用的 :ref:`theme <class_Control_property_theme>` 资源中，以给定的 ``name`` "
+"覆盖图标。如果 ``icon`` 为空或无效，则清除覆盖并使用分配的 :ref:`Theme <class_Theme>` 中的图标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1258
+#, fuzzy
+msgid ""
+"void **add_shader_override** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Shader <class_Shader>` shader **)**"
+msgstr ""
+"void **add_shader_override** **(** :ref:`String <class_String>` name, "
+":ref:`Shader <class_Shader>` shader **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1260
+msgid ""
+"Overrides the :ref:`Shader <class_Shader>` with given ``name`` in the "
+":ref:`theme <class_Control_property_theme>` resource the control uses. If"
+" ``shader`` is empty or invalid, the override is cleared and the shader "
+"from assigned :ref:`Theme <class_Theme>` is used."
+msgstr ""
+"在控件使用的 :ref:`theme <class_Control_property_theme>` 资源中，以给定的 ``name`` 覆盖 "
+":ref:`Shader <class_Shader>`。如果 ``shader`` 为空或无效，则清除覆盖并使用分配的 :ref:`Theme "
+"<class_Theme>` 中的着色器。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1266
+#, fuzzy
+msgid ""
+"void **add_stylebox_override** **(** :ref:`StringName <class_StringName>`"
+" name, :ref:`StyleBox <class_StyleBox>` stylebox **)**"
+msgstr ""
+"void **add_stylebox_override** **(** :ref:`String <class_String>` name, "
+":ref:`StyleBox <class_StyleBox>` stylebox **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1268
+msgid ""
+"Overrides the :ref:`StyleBox <class_StyleBox>` with given ``name`` in the"
+" :ref:`theme <class_Control_property_theme>` resource the control uses. "
+"If ``stylebox`` is empty or invalid, the override is cleared and the "
+":ref:`StyleBox <class_StyleBox>` from assigned :ref:`Theme <class_Theme>`"
+" is used."
+msgstr ""
+"在控件使用的 :ref:`theme <class_Control_property_theme>` 资源中，以给定的 ``name`` 覆盖 "
+":ref:`StyleBox <class_StyleBox>`。如果 ``stylebox`` 为空或无效，则清除覆盖并使用分配的 "
+":ref:`Theme <class_Theme>` 中的 :ref:`StyleBox <class_StyleBox>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1274
+msgid ""
+":ref:`bool <class_bool>` **can_drop_data** **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Variant <class_Variant>` data **)** "
+"virtual"
+msgstr ""
+":ref:`bool <class_bool>` **can_drop_data** **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Variant <class_Variant>` data **)** "
+"virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1276
+msgid ""
+"Godot calls this method to test if ``data`` from a control's "
+":ref:`get_drag_data <class_Control_method_get_drag_data>` can be dropped "
+"at ``position``. ``position`` is local to this control."
+msgstr ""
+"Godot调用此方法，来测试是否可以将一个控件的 :ref:`get_drag_data "
+"<class_Control_method_get_drag_data>` 中的 ``data``，放置在 ``position`` "
+"处。``position`` 是此控件的局部位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1278
+msgid ""
+"This method should only be used to test the data. Process the data in "
+":ref:`drop_data <class_Control_method_drop_data>`."
+msgstr "此方法仅应用于测试数据。处理在 :ref:`drop_data <class_Control_method_drop_data>` 中的数据。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1291
+msgid ""
+"void **drop_data** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`Variant <class_Variant>` data **)** virtual"
+msgstr ""
+"void **drop_data** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`Variant <class_Variant>` data **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1293
+msgid ""
+"Godot calls this method to pass you the ``data`` from a control's "
+":ref:`get_drag_data <class_Control_method_get_drag_data>` result. Godot "
+"first calls :ref:`can_drop_data <class_Control_method_can_drop_data>` to "
+"test if ``data`` is allowed to drop at ``position`` where ``position`` is"
+" local to this control."
+msgstr ""
+"Godot调用此方法，以传递来自一个控件的 :ref:`get_drag_data "
+"<class_Control_method_get_drag_data>` 结果中的 ``data``。Godot首先调用 "
+":ref:`can_drop_data <class_Control_method_can_drop_data>`，以测试是否允许将 "
+"``data`` 放置在 ``position`` 处，而 ``position`` 是该控件的局部位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1307
+msgid ""
+"void **force_drag** **(** :ref:`Variant <class_Variant>` data, "
+":ref:`Control <class_Control>` preview **)**"
+msgstr ""
+"void **force_drag** **(** :ref:`Variant <class_Variant>` data, "
+":ref:`Control <class_Control>` preview **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1309
+msgid ""
+"Forces drag and bypasses :ref:`get_drag_data "
+"<class_Control_method_get_drag_data>` and :ref:`set_drag_preview "
+"<class_Control_method_set_drag_preview>` by passing ``data`` and "
+"``preview``. Drag will start even if the mouse is neither over nor "
+"pressed on this control."
+msgstr ""
+"通过传递 ``data`` 和 ``preview``，强制拖动并绕过 :ref:`get_drag_data "
+"<class_Control_method_get_drag_data>` 和 :ref:`set_drag_preview "
+"<class_Control_method_set_drag_preview>` 。即使鼠标既不在该控件上，也未在其上按下，拖动将开始。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1311
+msgid ""
+"The methods :ref:`can_drop_data <class_Control_method_can_drop_data>` and"
+" :ref:`drop_data <class_Control_method_drop_data>` must be implemented on"
+" controls that want to receive drop data."
+msgstr ""
+"这些方法 :ref:`can_drop_data <class_Control_method_can_drop_data>` 和 "
+":ref:`drop_data <class_Control_method_drop_data>`，必须在要接收放置数据的控件上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1317
+msgid ""
+":ref:`float <class_float>` **get_anchor** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_anchor** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1319
+msgid ""
+"Returns the anchor identified by ``margin`` constant from :ref:`Margin "
+"<enum_@GlobalScope_Margin>` enum. A getter method for :ref:`anchor_bottom"
+" <class_Control_property_anchor_bottom>`, :ref:`anchor_left "
+"<class_Control_property_anchor_left>`, :ref:`anchor_right "
+"<class_Control_property_anchor_right>` and :ref:`anchor_top "
+"<class_Control_property_anchor_top>`."
+msgstr ""
+"从 :ref:`Margin <enum_@GlobalScope_Margin>` 枚举中，返回由 ``margin`` "
+"常量标识的锚。:ref:`anchor_bottom "
+"<class_Control_property_anchor_bottom>`、:ref:`anchor_left "
+"<class_Control_property_anchor_left>`、:ref:`anchor_right "
+"<class_Control_property_anchor_right>` 和 :ref:`anchor_top "
+"<class_Control_property_anchor_top>` 的获取方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1325
+msgid ":ref:`Vector2 <class_Vector2>` **get_begin** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_begin** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1327
+msgid ""
+"Returns :ref:`margin_left <class_Control_property_margin_left>` and "
+":ref:`margin_top <class_Control_property_margin_top>`. See also "
+":ref:`rect_position <class_Control_property_rect_position>`."
+msgstr ""
+"返回 :ref:`margin_left <class_Control_property_margin_left>` 和 "
+":ref:`margin_top <class_Control_property_margin_top>`。参见 "
+":ref:`rect_position <class_Control_property_rect_position>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1333
+#, fuzzy
+msgid ""
+":ref:`Color <class_Color>` **get_color** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`Color <class_Color>` **get_color** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1335
+msgid ""
+"Returns a color from assigned :ref:`Theme <class_Theme>` with given "
+"``name`` and associated with ``Control`` of given ``type``."
+msgstr ""
+"从分配的 :ref:`Theme <class_Theme>`，返回具有给定名称 ``name``，并与给定类型 ``type`` 的 "
+"``Control`` 关联的一个颜色。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1346
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_combined_minimum_size** **(** **)** "
+"const"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **get_combined_minimum_size** **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1348
+msgid ""
+"Returns combined minimum size from :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` and :ref:`get_minimum_size "
+"<class_Control_method_get_minimum_size>`."
+msgstr ""
+"从 :ref:`rect_min_size <class_Control_property_rect_min_size>` 和 "
+":ref:`get_minimum_size <class_Control_method_get_minimum_size>` "
+"返回组合的最小大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1354
+#, fuzzy
+msgid ""
+":ref:`int <class_int>` **get_constant** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`int <class_int>` **get_constant** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1356
+msgid ""
+"Returns a constant from assigned :ref:`Theme <class_Theme>` with given "
+"``name`` and associated with ``Control`` of given ``type``."
+msgstr ""
+"从分配的 :ref:`Theme <class_Theme>`，返回具有给定名称 ``name``，并与给定类型 ``type`` 的 "
+"``Control`` 关联的一个常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1362
+msgid ""
+":ref:`CursorShape <enum_Control_CursorShape>` **get_cursor_shape** **(** "
+":ref:`Vector2 <class_Vector2>` position=Vector2( 0, 0 ) **)** const"
+msgstr ""
+":ref:`CursorShape <enum_Control_CursorShape>` **get_cursor_shape** **(** "
+":ref:`Vector2 <class_Vector2>` position=Vector2( 0, 0 ) **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1364
+msgid ""
+"Returns the mouse cursor shape the control displays on mouse hover. See "
+":ref:`CursorShape <enum_Control_CursorShape>`."
+msgstr "返回控件在鼠标悬停时显示的鼠标光标形状。参见 :ref:`CursorShape <enum_Control_CursorShape>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1370
+msgid ""
+":ref:`Variant <class_Variant>` **get_drag_data** **(** :ref:`Vector2 "
+"<class_Vector2>` position **)** virtual"
+msgstr ""
+":ref:`Variant <class_Variant>` **get_drag_data** **(** :ref:`Vector2 "
+"<class_Vector2>` position **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1372
+msgid ""
+"Godot calls this method to get data that can be dragged and dropped onto "
+"controls that expect drop data. Returns ``null`` if there is no data to "
+"drag. Controls that want to receive drop data should implement "
+":ref:`can_drop_data <class_Control_method_can_drop_data>` and "
+":ref:`drop_data <class_Control_method_drop_data>`. ``position`` is local "
+"to this control. Drag may be forced with :ref:`force_drag "
+"<class_Control_method_force_drag>`."
+msgstr ""
+"Godot调用此方法，来获取可以拖放到，期望放置数据的控件上的数据。如果没有要拖动的数据，则返回 "
+"``null``。想要接收放置数据的控件，应该实现 :ref:`can_drop_data "
+"<class_Control_method_can_drop_data>` 和 :ref:`drop_data "
+"<class_Control_method_drop_data>`。``position`` 是此控件的局部位置。可以使用 "
+":ref:`force_drag <class_Control_method_force_drag>` 强制拖动。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1374
+msgid ""
+"A preview that will follow the mouse that should represent the data can "
+"be set with :ref:`set_drag_preview "
+"<class_Control_method_set_drag_preview>`. A good time to set the preview "
+"is in this method."
+msgstr ""
+"会跟随鼠标的预览，应该呈现数据，可以使用 :ref:`set_drag_preview "
+"<class_Control_method_set_drag_preview>` 来设置。设置预览的好时机就是在这种方法中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1387
+msgid ":ref:`Vector2 <class_Vector2>` **get_end** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_end** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1389
+msgid ""
+"Returns :ref:`margin_right <class_Control_property_margin_right>` and "
+":ref:`margin_bottom <class_Control_property_margin_bottom>`."
+msgstr ""
+"返回 :ref:`margin_right <class_Control_property_margin_right>` 和 "
+":ref:`margin_bottom <class_Control_property_margin_bottom>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1395
+msgid ""
+":ref:`NodePath <class_NodePath>` **get_focus_neighbour** **(** "
+":ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`NodePath <class_NodePath>` **get_focus_neighbour** **(** "
+":ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1397
+msgid ""
+"Returns the focus neighbour identified by ``margin`` constant from "
+":ref:`Margin <enum_@GlobalScope_Margin>` enum. A getter method for "
+":ref:`focus_neighbour_bottom "
+"<class_Control_property_focus_neighbour_bottom>`, "
+":ref:`focus_neighbour_left "
+"<class_Control_property_focus_neighbour_left>`, "
+":ref:`focus_neighbour_right "
+"<class_Control_property_focus_neighbour_right>` and "
+":ref:`focus_neighbour_top <class_Control_property_focus_neighbour_top>`."
+msgstr ""
+"从 :ref:`Margin <enum_@GlobalScope_Margin>` 枚举中，返回由 ``margin`` "
+"常量标识的焦点邻居。:ref:`focus_neighbour_bottom "
+"<class_Control_property_focus_neighbour_bottom>`、:ref:`focus_neighbour_left"
+" "
+"<class_Control_property_focus_neighbour_left>`、:ref:`focus_neighbour_right"
+" <class_Control_property_focus_neighbour_right>` 和 "
+":ref:`focus_neighbour_top <class_Control_property_focus_neighbour_top>` "
+"的获取方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1403
+msgid ":ref:`Control <class_Control>` **get_focus_owner** **(** **)** const"
+msgstr ":ref:`Control <class_Control>` **get_focus_owner** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1405
+msgid "Returns the control that has the keyboard focus or ``null`` if none."
+msgstr "返回具有键盘焦点的控件；如果没有，则返回 ``null``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1411
+#, fuzzy
+msgid ""
+":ref:`Font <class_Font>` **get_font** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`Font <class_Font>` **get_font** **(** :ref:`String <class_String>` "
+"name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1413
+msgid ""
+"Returns a font from assigned :ref:`Theme <class_Theme>` with given "
+"``name`` and associated with ``Control`` of given ``type``."
+msgstr ""
+"从分配的 :ref:`Theme <class_Theme>`，返回具有给定名称 ``name``，并与给定类型 ``type`` 的 "
+"``Control`` 关联的一个字体。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1419
+msgid ":ref:`Rect2 <class_Rect2>` **get_global_rect** **(** **)** const"
+msgstr ":ref:`Rect2 <class_Rect2>` **get_global_rect** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1421
+msgid ""
+"Returns the position and size of the control relative to the top-left "
+"corner of the screen. See :ref:`rect_position "
+"<class_Control_property_rect_position>` and :ref:`rect_size "
+"<class_Control_property_rect_size>`."
+msgstr ""
+"返回控件相对于屏幕左上角的位置和大小。参见 :ref:`rect_position "
+"<class_Control_property_rect_position>` 和 :ref:`rect_size "
+"<class_Control_property_rect_size>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1427
+#, fuzzy
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_icon** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`Texture <class_Texture>` **get_icon** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1429
+msgid ""
+"Returns an icon from assigned :ref:`Theme <class_Theme>` with given "
+"``name`` and associated with ``Control`` of given ``type``."
+msgstr ""
+"从分配的 :ref:`Theme <class_Theme>`，返回具有给定名称 ``name``，并与给定类型 ``type`` 的 "
+"``Control`` 关联的一个图标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1435
+msgid ""
+":ref:`float <class_float>` **get_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1437
+msgid ""
+"Returns the anchor identified by ``margin`` constant from :ref:`Margin "
+"<enum_@GlobalScope_Margin>` enum. A getter method for :ref:`margin_bottom"
+" <class_Control_property_margin_bottom>`, :ref:`margin_left "
+"<class_Control_property_margin_left>`, :ref:`margin_right "
+"<class_Control_property_margin_right>` and :ref:`margin_top "
+"<class_Control_property_margin_top>`."
+msgstr ""
+"返回 :ref:`Margin <enum_@GlobalScope_Margin>` 枚举中，由 ``margin`` "
+"常量标识的锚点。设置器方法，:ref:`margin_bottom "
+"<class_Control_property_margin_bottom>`、:ref:`margin_left "
+"<class_Control_property_margin_left>`、:ref:`margin_right "
+"<class_Control_property_margin_right>` 和 :ref:`margin_top "
+"<class_Control_property_margin_top>` 的获取方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1443
+msgid ":ref:`Vector2 <class_Vector2>` **get_minimum_size** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_minimum_size** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1445
+msgid ""
+"Returns the minimum size for this control. See :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>`."
+msgstr "返回此控件的最小大小。参见 :ref:`rect_min_size <class_Control_property_rect_min_size>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1451
+msgid ":ref:`Vector2 <class_Vector2>` **get_parent_area_size** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_parent_area_size** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1453
+msgid "Returns the width/height occupied in the parent control."
+msgstr "返回在父控件中，占用的宽度/高度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1459
+msgid ":ref:`Control <class_Control>` **get_parent_control** **(** **)** const"
+msgstr ":ref:`Control <class_Control>` **get_parent_control** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1461
+msgid "Returns the parent control node."
+msgstr "返回父控件节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1467
+msgid ":ref:`Rect2 <class_Rect2>` **get_rect** **(** **)** const"
+msgstr ":ref:`Rect2 <class_Rect2>` **get_rect** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1469
+msgid ""
+"Returns the position and size of the control relative to the top-left "
+"corner of the parent Control. See :ref:`rect_position "
+"<class_Control_property_rect_position>` and :ref:`rect_size "
+"<class_Control_property_rect_size>`."
+msgstr ""
+"返回相对于父控件左上角，控件的位置和大小。参见 :ref:`rect_position "
+"<class_Control_property_rect_position>` 和 :ref:`rect_size "
+"<class_Control_property_rect_size>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1475
+msgid ":ref:`float <class_float>` **get_rotation** **(** **)** const"
+msgstr ":ref:`float <class_float>` **get_rotation** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1477
+msgid "Returns the rotation (in radians)."
+msgstr "返回旋转（以弧度为单位）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1483
+#, fuzzy
+msgid ""
+":ref:`StyleBox <class_StyleBox>` **get_stylebox** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`StyleBox <class_StyleBox>` **get_stylebox** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1485
+msgid ""
+"Returns a :ref:`StyleBox <class_StyleBox>` from assigned :ref:`Theme "
+"<class_Theme>` with given ``name`` and associated with ``Control`` of "
+"given ``type``."
+msgstr ""
+"从给定的 :ref:`Theme <class_Theme>` 中，返回一个给定的 ``name``，并与给定 ``type`` 的 "
+"``Control`` 相关连的 :ref:`StyleBox <class_StyleBox>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1491
+msgid ""
+":ref:`String <class_String>` **get_tooltip** **(** :ref:`Vector2 "
+"<class_Vector2>` at_position=Vector2( 0, 0 ) **)** const"
+msgstr ""
+":ref:`String <class_String>` **get_tooltip** **(** :ref:`Vector2 "
+"<class_Vector2>` at_position=Vector2( 0, 0 ) **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1493
+msgid ""
+"Returns the tooltip, which will appear when the cursor is resting over "
+"this control. See :ref:`hint_tooltip "
+"<class_Control_property_hint_tooltip>`."
+msgstr ""
+"返回工具提示，当光标停留在该控件上时将显示该工具提示。参见 :ref:`hint_tooltip "
+"<class_Control_property_hint_tooltip>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1499
+msgid "void **grab_click_focus** **(** **)**"
+msgstr "void **grab_click_focus** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1501
+msgid ""
+"Creates an :ref:`InputEventMouseButton <class_InputEventMouseButton>` "
+"that attempts to click the control. If the event is received, the control"
+" acquires focus."
+msgstr ""
+"创建一个 :ref:`InputEventMouseButton <class_InputEventMouseButton>` "
+"尝试点击该控件的事件。如果接收到事件，则控件获取焦点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1512
+msgid "void **grab_focus** **(** **)**"
+msgstr "void **grab_focus** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1514
+msgid ""
+"Steal the focus from another control and become the focused control (see "
+":ref:`focus_mode <class_Control_property_focus_mode>`)."
+msgstr ""
+"从另一个控件中窃取焦点，并成为焦点控件（请参阅 :ref:`focus_mode "
+"<class_Control_property_focus_mode>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1520
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_color** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_color** **(** :ref:`String <class_String>`"
+" name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1522
+msgid ""
+"Returns ``true`` if :ref:`Color <class_Color>` with given ``name`` and "
+"associated with ``Control`` of given ``type`` exists in assigned "
+":ref:`Theme <class_Theme>`."
+msgstr ""
+"如果给定的 :ref:`Theme <class_Theme>` 中，存在具有给定名称 ``name`` 的，且与给定类型 ``type`` 的 "
+"``Control`` 相关联的 :ref:`Color <class_Color>`，返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1528
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_color_override** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_color_override** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1530
+msgid ""
+"Returns ``true`` if :ref:`Color <class_Color>` with given ``name`` has a "
+"valid override in this ``Control`` node."
+msgstr ""
+"如果具有给定名称 ``name`` 的 :ref:`Color <class_Color>`，在此 ``Control`` "
+"节点中，具有有效的覆盖，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1536
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_constant** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_constant** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1538
+msgid ""
+"Returns ``true`` if constant with given ``name`` and associated with "
+"``Control`` of given ``type`` exists in assigned :ref:`Theme "
+"<class_Theme>`."
+msgstr ""
+"如果在给定的 :ref:`Theme <class_Theme>` 中，存在具有给定名称 ``name``，且与给定类型 ``type`` 的控件"
+" ``Control``，关联的常量，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1544
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_constant_override** **(** :ref:`StringName"
+" <class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_constant_override** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1546
+msgid ""
+"Returns ``true`` if constant with given ``name`` has a valid override in "
+"this ``Control`` node."
+msgstr "如果具有给定名称 ``name`` 的常量，在此控制 ``Control`` 节点中，具有有效的覆盖，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1552
+msgid ":ref:`bool <class_bool>` **has_focus** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **has_focus** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1554
+msgid ""
+"Returns ``true`` if this is the current focused control. See "
+":ref:`focus_mode <class_Control_property_focus_mode>`."
+msgstr ""
+"如果这是当前的焦点控件，则返回 ``true``。参见 :ref:`focus_mode "
+"<class_Control_property_focus_mode>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1560
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_font** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_font** **(** :ref:`String <class_String>` "
+"name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1562
+msgid ""
+"Returns ``true`` if font with given ``name`` and associated with "
+"``Control`` of given ``type`` exists in assigned :ref:`Theme "
+"<class_Theme>`."
+msgstr ""
+"如果在给定的 :ref:`Theme <class_Theme>` 中，存在具有给定名称 ``name``，且与给定类型 ``type`` 的控件"
+" ``Control``，关联的字体，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1568
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_font_override** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_font_override** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1570
+msgid ""
+"Returns ``true`` if font with given ``name`` has a valid override in this"
+" ``Control`` node."
+msgstr "如果具有给定名称 ``name`` 的字体，在此控制 ``Control`` 节点中，具有有效的覆盖，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1576
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_icon** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_icon** **(** :ref:`String <class_String>` "
+"name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1578
+msgid ""
+"Returns ``true`` if icon with given ``name`` and associated with "
+"``Control`` of given ``type`` exists in assigned :ref:`Theme "
+"<class_Theme>`."
+msgstr ""
+"如果在给定的 :ref:`Theme <class_Theme>` 中，存在具有给定名称 ``name``，且与给定类型 ``type`` 的控件"
+" ``Control``，关联的图标，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1584
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_icon_override** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_icon_override** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1586
+msgid ""
+"Returns ``true`` if icon with given ``name`` has a valid override in this"
+" ``Control`` node."
+msgstr "如果具有给定名称 ``name`` 的图标，在此控制 ``Control`` 节点中，具有有效的覆盖，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1592
+msgid ""
+":ref:`bool <class_bool>` **has_point** **(** :ref:`Vector2 "
+"<class_Vector2>` point **)** virtual"
+msgstr ""
+":ref:`bool <class_bool>` **has_point** **(** :ref:`Vector2 "
+"<class_Vector2>` point **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1594
+msgid ""
+"Virtual method to be implemented by the user. Returns whether the given "
+"``point`` is inside this control."
+msgstr "用户要实现的虚拟方法。返回给定的 ``point`` 是否在此控件内。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1596
+msgid ""
+"If not overridden, default behavior is checking if the point is within "
+"control's Rect."
+msgstr "如果未重写，则默认行为是检查点，是否在控件的Rect范围内。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1598
+#, fuzzy
+msgid ""
+"**Note:** If you want to check if a point is inside the control, you can "
+"use ``get_rect().has_point(point)``."
+msgstr "**注意**：如果要检查控件中是否有点，则可以使用 ``get_rect().has_point(point)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1604
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_shader_override** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_shader_override** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1606
+msgid ""
+"Returns ``true`` if :ref:`Shader <class_Shader>` with given ``name`` has "
+"a valid override in this ``Control`` node."
+msgstr ""
+"如果具有给定名称 ``name`` 的 :ref:`Shader <class_Shader>`，在此 ``Control`` "
+"节点中，具有有效的覆盖，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1612
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_stylebox** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type=\"\" "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_stylebox** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type=\"\" **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1614
+msgid ""
+"Returns ``true`` if :ref:`StyleBox <class_StyleBox>` with given ``name`` "
+"and associated with ``Control`` of given ``type`` exists in assigned "
+":ref:`Theme <class_Theme>`."
+msgstr ""
+"如果给定的 :ref:`Theme <class_Theme>` 中，存在具有给定名称 ``name`` 的，且与给定类型 ``type`` 的 "
+"``Control`` 相关联的 :ref:`StyleBox <class_StyleBox>`，返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1620
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_stylebox_override** **(** :ref:`StringName"
+" <class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_stylebox_override** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1622
+msgid ""
+"Returns ``true`` if :ref:`StyleBox <class_StyleBox>` with given ``name`` "
+"has a valid override in this ``Control`` node."
+msgstr ""
+"如果具有给定名称 ``name`` 的 :ref:`StyleBox <class_StyleBox>`，在此 ``Control`` "
+"节点中，具有有效的覆盖，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1628
+msgid "void **minimum_size_changed** **(** **)**"
+msgstr "void **minimum_size_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1630
+msgid ""
+"Invalidates the size cache in this node and in parent nodes up to "
+"toplevel. Intended to be used with :ref:`get_minimum_size "
+"<class_Control_method_get_minimum_size>` when the return value is "
+"changed. Setting :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` directly calls this method "
+"automatically."
+msgstr ""
+"使此节点和父节点（直到顶层）中的大小缓存无效。旨在当返回值更改时，与 :ref:`get_minimum_size "
+"<class_Control_method_get_minimum_size>` 一起使用。设置 :ref:`rect_min_size "
+"<class_Control_property_rect_min_size>` 会直接自动调用此方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1636
+msgid "void **release_focus** **(** **)**"
+msgstr "void **release_focus** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1638
+msgid ""
+"Give up the focus. No other control will be able to receive keyboard "
+"input."
+msgstr "放弃焦点。其他控件将无法接收键盘输入。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1644
+msgid ""
+"void **set_anchor** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`float <class_float>` anchor, :ref:`bool <class_bool>` "
+"keep_margin=false, :ref:`bool <class_bool>` push_opposite_anchor=true "
+"**)**"
+msgstr ""
+"void **set_anchor** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`float <class_float>` anchor, :ref:`bool <class_bool>` "
+"keep_margin=false, :ref:`bool <class_bool>` push_opposite_anchor=true "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1646
+msgid ""
+"Sets the anchor identified by ``margin`` constant from :ref:`Margin "
+"<enum_@GlobalScope_Margin>` enum to value ``anchor``. A setter method for"
+" :ref:`anchor_bottom <class_Control_property_anchor_bottom>`, "
+":ref:`anchor_left <class_Control_property_anchor_left>`, "
+":ref:`anchor_right <class_Control_property_anchor_right>` and "
+":ref:`anchor_top <class_Control_property_anchor_top>`."
+msgstr ""
+"将 :ref:`Margin <enum_@GlobalScope_Margin>` 枚举中由 ``margin`` 常量标识的锚点，设置为值 "
+"``anchor``。设置器方法，用于 :ref:`anchor_bottom "
+"<class_Control_property_anchor_bottom>`、:ref:`anchor_left "
+"<class_Control_property_anchor_left>`、:ref:`anchor_right "
+"<class_Control_property_anchor_right>` 和 :ref:`anchor_top "
+"<class_Control_property_anchor_top>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1648
+msgid ""
+"If ``keep_margin`` is ``true``, margins aren't updated after this "
+"operation."
+msgstr "如果 ``keep_margin`` 为 ``true``，则在执行此操作后不会更新边距。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1650
+msgid ""
+"If ``push_opposite_anchor`` is ``true`` and the opposite anchor overlaps "
+"this anchor, the opposite one will have its value overridden. For "
+"example, when setting left anchor to 1 and the right anchor has value of "
+"0.5, the right anchor will also get value of 1. If "
+"``push_opposite_anchor`` was ``false``, the left anchor would get value "
+"0.5."
+msgstr ""
+"如果 ``push_opposite_anchor`` 为 "
+"``true``，并且相反的锚点与该锚点重叠，则相反的锚点其值将被覆盖。例如，当将左锚点设置为1，且右锚点的值为0.5时，右锚点的值也将为1。如果"
+" ``push_opposite_anchor`` 为 ``false``，则左锚点的值将为0.5。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1656
+msgid ""
+"void **set_anchor_and_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`float <class_float>` anchor, "
+":ref:`float <class_float>` offset, :ref:`bool <class_bool>` "
+"push_opposite_anchor=false **)**"
+msgstr ""
+"void **set_anchor_and_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`float <class_float>` anchor, "
+":ref:`float <class_float>` offset, :ref:`bool <class_bool>` "
+"push_opposite_anchor=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1658
+msgid ""
+"Works the same as :ref:`set_anchor <class_Control_method_set_anchor>`, "
+"but instead of ``keep_margin`` argument and automatic update of margin, "
+"it allows to set the margin offset yourself (see :ref:`set_margin "
+"<class_Control_method_set_margin>`)."
+msgstr ""
+"与 :ref:`set_anchor <class_Control_method_set_anchor>` 的工作原理相同，但它不是 "
+"``keep_margin`` 参数和边距的自动更新，它允许您自己设置边距偏移量（参见 :ref:`set_margin "
+"<class_Control_method_set_margin>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1664
+msgid ""
+"void **set_anchors_and_margins_preset** **(** :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode "
+"<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int <class_int>` "
+"margin=0 **)**"
+msgstr ""
+"void **set_anchors_and_margins_preset** **(** :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode "
+"<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int <class_int>` "
+"margin=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1666
+msgid ""
+"Sets both anchor preset and margin preset. See :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>` and :ref:`set_margins_preset "
+"<class_Control_method_set_margins_preset>`."
+msgstr ""
+"设置锚定预设和边距预设。参见 :ref:`set_anchors_preset "
+"<class_Control_method_set_anchors_preset>` 和 :ref:`set_margins_preset "
+"<class_Control_method_set_margins_preset>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1672
+msgid ""
+"void **set_anchors_preset** **(** :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` preset, :ref:`bool <class_bool>` "
+"keep_margins=false **)**"
+msgstr ""
+"void **set_anchors_preset** **(** :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` preset, :ref:`bool <class_bool>` "
+"keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1674
+msgid ""
+"Sets the anchors to a ``preset`` from :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` enum. This is code equivalent of using the "
+"Layout menu in 2D editor."
+msgstr ""
+"从 :ref:`LayoutPreset <enum_Control_LayoutPreset>` 枚举中，将锚设置为 "
+"``preset``。这是在2D编辑器中使用布局菜单的等效代码。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1676
+msgid "If ``keep_margins`` is ``true``, control's position will also be updated."
+msgstr "如果 ``keep_margins`` 为 ``true``，则控件的位置也会被更新。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1682
+msgid "void **set_begin** **(** :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr "void **set_begin** **(** :ref:`Vector2 <class_Vector2>` position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1684
+msgid ""
+"Sets :ref:`margin_left <class_Control_property_margin_left>` and "
+":ref:`margin_top <class_Control_property_margin_top>` at the same time. "
+"Equivalent of changing :ref:`rect_position "
+"<class_Control_property_rect_position>`."
+msgstr ""
+"同时设置 :ref:`margin_left <class_Control_property_margin_left>` 和 "
+":ref:`margin_top <class_Control_property_margin_top>`。等效于更改 "
+":ref:`rect_position <class_Control_property_rect_position>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1690
+msgid ""
+"void **set_drag_forwarding** **(** :ref:`Control <class_Control>` target "
+"**)**"
+msgstr ""
+"void **set_drag_forwarding** **(** :ref:`Control <class_Control>` target "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1692
+msgid ""
+"Forwards the handling of this control's drag and drop to ``target`` "
+"control."
+msgstr "转发此控件的拖放处理到 ``target`` 控件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1694
+msgid ""
+"Forwarding can be implemented in the target control similar to the "
+"methods :ref:`get_drag_data <class_Control_method_get_drag_data>`, "
+":ref:`can_drop_data <class_Control_method_can_drop_data>`, and "
+":ref:`drop_data <class_Control_method_drop_data>` but with two "
+"differences:"
+msgstr ""
+"可以在目标控件中实现转发，类似于方法 :ref:`get_drag_data "
+"<class_Control_method_get_drag_data>`、:ref:`can_drop_data "
+"<class_Control_method_can_drop_data>`、和 :ref:`drop_data "
+"<class_Control_method_drop_data>` 但有两点不同："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1696
+msgid "The function name must be suffixed with **_fw**"
+msgstr "函数名称的的后缀必须为 **_fw**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1698
+msgid ""
+"The function must take an extra argument that is the control doing the "
+"forwarding"
+msgstr "该函数必须接受一个额外的参数，即进行转发的控件"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1723
+msgid ""
+"void **set_drag_preview** **(** :ref:`Control <class_Control>` control "
+"**)**"
+msgstr ""
+"void **set_drag_preview** **(** :ref:`Control <class_Control>` control "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1725
+msgid ""
+"Shows the given control at the mouse pointer. A good time to call this "
+"method is in :ref:`get_drag_data <class_Control_method_get_drag_data>`. "
+"The control must not be in the scene tree."
+msgstr ""
+"在鼠标指针处显示给定的控件。调用此方法的好时机是在 :ref:`get_drag_data "
+"<class_Control_method_get_drag_data>` 中。该控件一定不能在场景树中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1743
+msgid "void **set_end** **(** :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr "void **set_end** **(** :ref:`Vector2 <class_Vector2>` position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1745
+msgid ""
+"Sets :ref:`margin_right <class_Control_property_margin_right>` and "
+":ref:`margin_bottom <class_Control_property_margin_bottom>` at the same "
+"time."
+msgstr ""
+"同时设置 :ref:`margin_right <class_Control_property_margin_right>` 和 "
+":ref:`margin_bottom <class_Control_property_margin_bottom>` 。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1751
+msgid ""
+"void **set_focus_neighbour** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`NodePath <class_NodePath>` "
+"neighbour **)**"
+msgstr ""
+"void **set_focus_neighbour** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`NodePath <class_NodePath>` "
+"neighbour **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1753
+msgid ""
+"Sets the anchor identified by ``margin`` constant from :ref:`Margin "
+"<enum_@GlobalScope_Margin>` enum to ``Control`` at ``neighbor`` node "
+"path. A setter method for :ref:`focus_neighbour_bottom "
+"<class_Control_property_focus_neighbour_bottom>`, "
+":ref:`focus_neighbour_left "
+"<class_Control_property_focus_neighbour_left>`, "
+":ref:`focus_neighbour_right "
+"<class_Control_property_focus_neighbour_right>` and "
+":ref:`focus_neighbour_top <class_Control_property_focus_neighbour_top>`."
+msgstr ""
+"将由 :ref:`Margin <enum_@GlobalScope_Margin>` 枚举中的 ``margin`` 常量标识的锚，设置为 "
+"``neighbor`` 节点路径处的 ``Control``。一种设置方法，用于 :ref:`focus_neighbour_bottom "
+"<class_Control_property_focus_neighbour_bottom>`、:ref:`focus_neighbour_left"
+" "
+"<class_Control_property_focus_neighbour_left>`、:ref:`focus_neighbour_right"
+" <class_Control_property_focus_neighbour_right>` 和 "
+":ref:`focus_neighbour_top <class_Control_property_focus_neighbour_top>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1759
+msgid ""
+"void **set_global_position** **(** :ref:`Vector2 <class_Vector2>` "
+"position, :ref:`bool <class_bool>` keep_margins=false **)**"
+msgstr ""
+"void **set_global_position** **(** :ref:`Vector2 <class_Vector2>` "
+"position, :ref:`bool <class_bool>` keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1761
+msgid ""
+"Sets the :ref:`rect_global_position "
+"<class_Control_property_rect_global_position>` to given ``position``."
+msgstr ""
+"将 :ref:`rect_global_position "
+"<class_Control_property_rect_global_position>` 设置为给定的 ``position``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1763
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1793
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1811
+msgid ""
+"If ``keep_margins`` is ``true``, control's anchors will be updated "
+"instead of margins."
+msgstr "如果 ``keep_margins`` 为 ``true``，则控件的锚点，而不是边距，将被更新。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1769
+msgid ""
+"void **set_margin** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`float <class_float>` offset **)**"
+msgstr ""
+"void **set_margin** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`float <class_float>` offset **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1771
+msgid ""
+"Sets the margin identified by ``margin`` constant from :ref:`Margin "
+"<enum_@GlobalScope_Margin>` enum to given ``offset``. A setter method for"
+" :ref:`margin_bottom <class_Control_property_margin_bottom>`, "
+":ref:`margin_left <class_Control_property_margin_left>`, "
+":ref:`margin_right <class_Control_property_margin_right>` and "
+":ref:`margin_top <class_Control_property_margin_top>`."
+msgstr ""
+"将 :ref:`Margin <enum_@GlobalScope_Margin>` 枚举中，由 ``margin`` "
+"常量标识的边距，设置为给定的 ``offset``。一个设置方法，用于 :ref:`margin_bottom "
+"<class_Control_property_margin_bottom>`、:ref:`margin_left "
+"<class_Control_property_margin_left>`、:ref:`margin_right "
+"<class_Control_property_margin_right>` 和 :ref:`margin_top "
+"<class_Control_property_margin_top>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1777
+msgid ""
+"void **set_margins_preset** **(** :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode "
+"<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int <class_int>` "
+"margin=0 **)**"
+msgstr ""
+"void **set_margins_preset** **(** :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` preset, :ref:`LayoutPresetMode "
+"<enum_Control_LayoutPresetMode>` resize_mode=0, :ref:`int <class_int>` "
+"margin=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1779
+msgid ""
+"Sets the margins to a ``preset`` from :ref:`LayoutPreset "
+"<enum_Control_LayoutPreset>` enum. This is code equivalent of using the "
+"Layout menu in 2D editor."
+msgstr ""
+"从 :ref:`LayoutPreset <enum_Control_LayoutPreset>` 枚举中，将边距设置为 "
+"``preset``。这是在2D编辑器中使用布局菜单的等效代码。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1781
+msgid ""
+"Use parameter ``resize_mode`` with constants from :ref:`LayoutPresetMode "
+"<enum_Control_LayoutPresetMode>` to better determine the resulting size "
+"of the ``Control``. Constant size will be ignored if used with presets "
+"that change size, e.g. ``PRESET_LEFT_WIDE``."
+msgstr ""
+"将参数 ``resize_mode`` 与 :ref:`LayoutPresetMode "
+"<enum_Control_LayoutPresetMode>` 中的常量一起使用，以更好地确定 ``Control`` "
+"的结果大小。如果与更改大小的预设，如 ``PRESET_LEFT_WIDE``，一起使用，则常量大小将被忽略。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1783
+msgid ""
+"Use parameter ``margin`` to determine the gap between the ``Control`` and"
+" the edges."
+msgstr "使用参数 ``margin`` 确定 ``Control`` 和边缘之间的间隙。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1789
+msgid ""
+"void **set_position** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`bool <class_bool>` keep_margins=false **)**"
+msgstr ""
+"void **set_position** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`bool <class_bool>` keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1791
+msgid ""
+"Sets the :ref:`rect_position <class_Control_property_rect_position>` to "
+"given ``position``."
+msgstr ""
+"将 :ref:`rect_position <class_Control_property_rect_position>` 设置为给定的 "
+"``position``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1799
+msgid "void **set_rotation** **(** :ref:`float <class_float>` radians **)**"
+msgstr "void **set_rotation** **(** :ref:`float <class_float>` radians **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1801
+msgid "Sets the rotation (in radians)."
+msgstr "设置旋转度（以弧度为单位）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1807
+msgid ""
+"void **set_size** **(** :ref:`Vector2 <class_Vector2>` size, :ref:`bool "
+"<class_bool>` keep_margins=false **)**"
+msgstr ""
+"void **set_size** **(** :ref:`Vector2 <class_Vector2>` size, :ref:`bool "
+"<class_bool>` keep_margins=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1809
+msgid "Sets the size (see :ref:`rect_size <class_Control_property_rect_size>`)."
+msgstr "设置大小（参见 :ref:`rect_size <class_Control_property_rect_size>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1817
+msgid "void **show_modal** **(** :ref:`bool <class_bool>` exclusive=false **)**"
+msgstr "void **show_modal** **(** :ref:`bool <class_bool>` exclusive=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1819
+msgid ""
+"Displays a control as modal. Control must be a subwindow. Modal controls "
+"capture the input signals until closed or the area outside them is "
+"accessed. When a modal control loses focus, or the ESC key is pressed, "
+"they automatically hide. Modal controls are used extensively for popup "
+"dialogs and menus."
+msgstr "将控件显示为模态。控件必须是一个子窗口。模态控件会捕获输入信号，直到关闭或访问它们外面的区域为止。当一个模态控件失去焦点或按ESC键时，它们会自动隐藏。模态控件广泛用于弹出对话框和菜单。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1821
+msgid ""
+"If ``exclusive`` is ``true``, other controls will not receive input and "
+"clicking outside this control will not close it."
+msgstr "如果 ``exclusive`` 为 ``true``，则其他控件将不会收到输入，并且在此控件外部点击不会关闭它。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1827
+msgid "void **warp_mouse** **(** :ref:`Vector2 <class_Vector2>` to_position **)**"
+msgstr "void **warp_mouse** **(** :ref:`Vector2 <class_Vector2>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_control.rst:1829
+msgid ""
+"Moves the mouse cursor to ``to_position``, relative to "
+":ref:`rect_position <class_Control_property_rect_position>` of this "
+"``Control``."
+msgstr ""
+"相对于此 ``Control`` 的 :ref:`rect_position "
+"<class_Control_property_rect_position>` 而言，将鼠标光标移动到 ``to_position``。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "\"\""
+#~ msgstr "\"\""
+

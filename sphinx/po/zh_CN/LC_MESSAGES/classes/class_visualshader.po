@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:10
+msgid "VisualShader"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:12
+msgid ""
+"**Inherits:** :ref:`Shader <class_Shader>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:14
+msgid "A custom shader program with a visual editor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:19
+msgid ""
+"This class allows you to define a custom shader program that can be used "
+"for various materials to render objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:21
+msgid "The visual shader editor creates the shader."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:24
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:31
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:27
+msgid "code"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:27
+msgid ""
+"**O:** ``\"shader_type spatial;void vertex() {// Output:0}void fragment()"
+" {// Output:0}void light() {// Output:0}\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:54
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:29
+msgid ":ref:`graph_offset <class_VisualShader_property_graph_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:109
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:31
+msgid ":ref:`version <class_VisualShader_property_version>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:123
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:35
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:64
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:38
+msgid ""
+":ref:`add_node <class_VisualShader_method_add_node>` **(** :ref:`Type "
+"<enum_VisualShader_Type>` type, :ref:`VisualShaderNode "
+"<class_VisualShaderNode>` node, :ref:`Vector2 <class_Vector2>` position, "
+":ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:58
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:40
+msgid ""
+":ref:`can_connect_nodes <class_VisualShader_method_can_connect_nodes>` "
+"**(** :ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_port, :ref:`int <class_int>` "
+"to_node, :ref:`int <class_int>` to_port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:42
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:42
+msgid ""
+":ref:`connect_nodes <class_VisualShader_method_connect_nodes>` **(** "
+":ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_port, :ref:`int <class_int>` "
+"to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:44
+msgid ""
+":ref:`connect_nodes_forced "
+"<class_VisualShader_method_connect_nodes_forced>` **(** :ref:`Type "
+"<enum_VisualShader_Type>` type, :ref:`int <class_int>` from_node, "
+":ref:`int <class_int>` from_port, :ref:`int <class_int>` to_node, "
+":ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:46
+msgid ""
+":ref:`disconnect_nodes <class_VisualShader_method_disconnect_nodes>` "
+"**(** :ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_port, :ref:`int <class_int>` "
+"to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:48
+msgid ":ref:`VisualShaderNode <class_VisualShaderNode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:48
+msgid ""
+":ref:`get_node <class_VisualShader_method_get_node>` **(** :ref:`Type "
+"<enum_VisualShader_Type>` type, :ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:50
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:50
+msgid ""
+":ref:`get_node_connections "
+"<class_VisualShader_method_get_node_connections>` **(** :ref:`Type "
+"<enum_VisualShader_Type>` type **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:52
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:52
+msgid ""
+":ref:`get_node_list <class_VisualShader_method_get_node_list>` **(** "
+":ref:`Type <enum_VisualShader_Type>` type **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:54
+msgid ""
+":ref:`get_node_position <class_VisualShader_method_get_node_position>` "
+"**(** :ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` "
+"id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:56
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:56
+msgid ""
+":ref:`get_valid_node_id <class_VisualShader_method_get_valid_node_id>` "
+"**(** :ref:`Type <enum_VisualShader_Type>` type **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:58
+msgid ""
+":ref:`is_node_connection <class_VisualShader_method_is_node_connection>` "
+"**(** :ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_port, :ref:`int <class_int>` "
+"to_node, :ref:`int <class_int>` to_port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:60
+msgid ""
+":ref:`remove_node <class_VisualShader_method_remove_node>` **(** "
+":ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` id "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:62
+msgid ""
+":ref:`set_mode <class_VisualShader_method_set_mode>` **(** :ref:`Mode "
+"<enum_Shader_Mode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:64
+msgid ""
+":ref:`set_node_position <class_VisualShader_method_set_node_position>` "
+"**(** :ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` "
+"id, :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:68
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:80
+msgid "enum **Type**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:82
+msgid "**TYPE_VERTEX** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:84
+msgid "**TYPE_FRAGMENT** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:86
+msgid "**TYPE_LIGHT** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:88
+msgid ""
+"**TYPE_MAX** = **3** --- Represents the size of the :ref:`Type "
+"<enum_VisualShader_Type>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:91
+msgid "Constants"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:97
+msgid "**NODE_ID_INVALID** = **-1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:99
+msgid "**NODE_ID_OUTPUT** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:102
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:106
+msgid ":ref:`Vector2 <class_Vector2>` **graph_offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:123
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:125
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:111
+msgid "set_graph_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:127
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:113
+msgid "get_graph_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:120
+msgid ":ref:`String <class_String>` **version**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:125
+msgid "set_version(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:127
+msgid "get_version()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:131
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:135
+msgid ""
+"void **add_node** **(** :ref:`Type <enum_VisualShader_Type>` type, "
+":ref:`VisualShaderNode <class_VisualShaderNode>` node, :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:141
+msgid ""
+":ref:`bool <class_bool>` **can_connect_nodes** **(** :ref:`Type "
+"<enum_VisualShader_Type>` type, :ref:`int <class_int>` from_node, "
+":ref:`int <class_int>` from_port, :ref:`int <class_int>` to_node, "
+":ref:`int <class_int>` to_port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:147
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **connect_nodes** **(** :ref:`Type"
+" <enum_VisualShader_Type>` type, :ref:`int <class_int>` from_node, "
+":ref:`int <class_int>` from_port, :ref:`int <class_int>` to_node, "
+":ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:153
+msgid ""
+"void **connect_nodes_forced** **(** :ref:`Type <enum_VisualShader_Type>` "
+"type, :ref:`int <class_int>` from_node, :ref:`int <class_int>` from_port,"
+" :ref:`int <class_int>` to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:159
+msgid ""
+"void **disconnect_nodes** **(** :ref:`Type <enum_VisualShader_Type>` "
+"type, :ref:`int <class_int>` from_node, :ref:`int <class_int>` from_port,"
+" :ref:`int <class_int>` to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:165
+msgid ""
+":ref:`VisualShaderNode <class_VisualShaderNode>` **get_node** **(** "
+":ref:`Type <enum_VisualShader_Type>` type, :ref:`int <class_int>` id "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:171
+msgid ""
+":ref:`Array <class_Array>` **get_node_connections** **(** :ref:`Type "
+"<enum_VisualShader_Type>` type **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:177
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **get_node_list** **(** "
+":ref:`Type <enum_VisualShader_Type>` type **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:183
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_node_position** **(** :ref:`Type "
+"<enum_VisualShader_Type>` type, :ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:189
+msgid ""
+":ref:`int <class_int>` **get_valid_node_id** **(** :ref:`Type "
+"<enum_VisualShader_Type>` type **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:195
+msgid ""
+":ref:`bool <class_bool>` **is_node_connection** **(** :ref:`Type "
+"<enum_VisualShader_Type>` type, :ref:`int <class_int>` from_node, "
+":ref:`int <class_int>` from_port, :ref:`int <class_int>` to_node, "
+":ref:`int <class_int>` to_port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:201
+msgid ""
+"void **remove_node** **(** :ref:`Type <enum_VisualShader_Type>` type, "
+":ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:207
+msgid "void **set_mode** **(** :ref:`Mode <enum_Shader_Mode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshader.rst:213
+msgid ""
+"void **set_node_position** **(** :ref:`Type <enum_VisualShader_Type>` "
+"type, :ref:`int <class_int>` id, :ref:`Vector2 <class_Vector2>` position "
+"**)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**O:** \"shader_type spatial;void vertex() {//"
+#~ " Output:0}void fragment() {// Output:0}void "
+#~ "light() {// Output:0}\""
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` **get_node_list**"
+#~ " **(** :ref:`Type <enum_VisualShader_Type>` type"
+#~ " **)** const"
+#~ msgstr ""
+

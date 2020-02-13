@@ -1,0 +1,1803 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:10
+msgid "Image"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:14
+msgid "Image datatype."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:19
+msgid ""
+"Native image datatype. Contains image data, which can be converted to a "
+":ref:`Texture2D <class_Texture2D>`, and several functions to interact "
+"with it. The maximum width and height for an ``Image`` are "
+":ref:`MAX_WIDTH <class_Image_constant_MAX_WIDTH>` and :ref:`MAX_HEIGHT "
+"<class_Image_constant_MAX_HEIGHT>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:25
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:25
+msgid ":ref:`data <class_Image_property_data>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:467
+msgid ""
+"``{\"data\": PackedByteArray(  ),\"format\": \"Lum8\",\"height\": "
+"0,\"mipmaps\": false,\"width\": 0}``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:29
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:132
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:32
+msgid ""
+":ref:`blend_rect <class_Image_method_blend_rect>` **(** :ref:`Image "
+"<class_Image>` src, :ref:`Rect2 <class_Rect2>` src_rect, :ref:`Vector2 "
+"<class_Vector2>` dst **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:34
+msgid ""
+":ref:`blend_rect_mask <class_Image_method_blend_rect_mask>` **(** "
+":ref:`Image <class_Image>` src, :ref:`Image <class_Image>` mask, "
+":ref:`Rect2 <class_Rect2>` src_rect, :ref:`Vector2 <class_Vector2>` dst "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:36
+msgid ""
+":ref:`blit_rect <class_Image_method_blit_rect>` **(** :ref:`Image "
+"<class_Image>` src, :ref:`Rect2 <class_Rect2>` src_rect, :ref:`Vector2 "
+"<class_Vector2>` dst **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:38
+msgid ""
+":ref:`blit_rect_mask <class_Image_method_blit_rect_mask>` **(** "
+":ref:`Image <class_Image>` src, :ref:`Image <class_Image>` mask, "
+":ref:`Rect2 <class_Rect2>` src_rect, :ref:`Vector2 <class_Vector2>` dst "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:40
+msgid ""
+":ref:`bumpmap_to_normalmap <class_Image_method_bumpmap_to_normalmap>` "
+"**(** :ref:`float <class_float>` bump_scale=1.0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:42
+msgid ":ref:`clear_mipmaps <class_Image_method_clear_mipmaps>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:124
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:44
+msgid ""
+":ref:`compress <class_Image_method_compress>` **(** :ref:`CompressMode "
+"<enum_Image_CompressMode>` mode, :ref:`CompressSource "
+"<enum_Image_CompressSource>` source=0, :ref:`float <class_float>` "
+"lossy_quality=0.7 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:46
+msgid ""
+":ref:`compress_from_channels <class_Image_method_compress_from_channels>`"
+" **(** :ref:`CompressMode <enum_Image_CompressMode>` mode, "
+":ref:`CompressSource <enum_Image_CompressSource>` channels, :ref:`float "
+"<class_float>` lossy_quality=0.7 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:48
+msgid ""
+":ref:`convert <class_Image_method_convert>` **(** :ref:`Format "
+"<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:50
+msgid ""
+":ref:`copy_from <class_Image_method_copy_from>` **(** :ref:`Image "
+"<class_Image>` src **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:52
+msgid ""
+":ref:`create <class_Image_method_create>` **(** :ref:`int <class_int>` "
+"width, :ref:`int <class_int>` height, :ref:`bool <class_bool>` "
+"use_mipmaps, :ref:`Format <enum_Image_Format>` format **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:54
+msgid ""
+":ref:`create_from_data <class_Image_method_create_from_data>` **(** "
+":ref:`int <class_int>` width, :ref:`int <class_int>` height, :ref:`bool "
+"<class_bool>` use_mipmaps, :ref:`Format <enum_Image_Format>` format, "
+":ref:`PackedByteArray <class_PackedByteArray>` data **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:56
+msgid ""
+":ref:`crop <class_Image_method_crop>` **(** :ref:`int <class_int>` width,"
+" :ref:`int <class_int>` height **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:58
+msgid ":ref:`decompress <class_Image_method_decompress>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:60
+msgid ":ref:`AlphaMode <enum_Image_AlphaMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:60
+msgid ":ref:`detect_alpha <class_Image_method_detect_alpha>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:62
+msgid ":ref:`UsedChannels <enum_Image_UsedChannels>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:62
+msgid ""
+":ref:`detect_used_channels <class_Image_method_detect_used_channels>` "
+"**(** :ref:`CompressSource <enum_Image_CompressSource>` source=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:64
+msgid ":ref:`expand_x2_hq2x <class_Image_method_expand_x2_hq2x>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:66
+msgid ""
+":ref:`fill <class_Image_method_fill>` **(** :ref:`Color <class_Color>` "
+"color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:68
+msgid ":ref:`fix_alpha_edges <class_Image_method_fix_alpha_edges>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:70
+msgid ":ref:`flip_x <class_Image_method_flip_x>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:72
+msgid ":ref:`flip_y <class_Image_method_flip_y>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:74
+msgid ""
+":ref:`generate_mipmaps <class_Image_method_generate_mipmaps>` **(** "
+":ref:`bool <class_bool>` renormalize=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:76
+msgid ":ref:`PackedByteArray <class_PackedByteArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:76
+msgid ":ref:`get_data <class_Image_method_get_data>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:78
+msgid ":ref:`Format <enum_Image_Format>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:78
+msgid ":ref:`get_format <class_Image_method_get_format>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:94
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:80
+msgid ":ref:`get_height <class_Image_method_get_height>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:82
+msgid ""
+":ref:`get_mipmap_offset <class_Image_method_get_mipmap_offset>` **(** "
+":ref:`int <class_int>` mipmap **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:86
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:84
+msgid ""
+":ref:`get_pixel <class_Image_method_get_pixel>` **(** :ref:`int "
+"<class_int>` x, :ref:`int <class_int>` y **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:86
+msgid ""
+":ref:`get_pixelv <class_Image_method_get_pixelv>` **(** :ref:`Vector2 "
+"<class_Vector2>` src **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:120
+msgid ":ref:`Image <class_Image>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:88
+msgid ""
+":ref:`get_rect <class_Image_method_get_rect>` **(** :ref:`Rect2 "
+"<class_Rect2>` rect **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:90
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:90
+msgid ":ref:`get_size <class_Image_method_get_size>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:92
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:92
+msgid ":ref:`get_used_rect <class_Image_method_get_used_rect>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:94
+msgid ":ref:`get_width <class_Image_method_get_width>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:102
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:96
+msgid ":ref:`has_mipmaps <class_Image_method_has_mipmaps>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:98
+msgid ":ref:`is_compressed <class_Image_method_is_compressed>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:100
+msgid ":ref:`is_empty <class_Image_method_is_empty>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:102
+msgid ":ref:`is_invisible <class_Image_method_is_invisible>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:104
+msgid ""
+":ref:`load <class_Image_method_load>` **(** :ref:`String <class_String>` "
+"path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:106
+msgid ""
+":ref:`load_jpg_from_buffer <class_Image_method_load_jpg_from_buffer>` "
+"**(** :ref:`PackedByteArray <class_PackedByteArray>` buffer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:108
+msgid ""
+":ref:`load_png_from_buffer <class_Image_method_load_png_from_buffer>` "
+"**(** :ref:`PackedByteArray <class_PackedByteArray>` buffer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:110
+msgid ""
+":ref:`load_webp_from_buffer <class_Image_method_load_webp_from_buffer>` "
+"**(** :ref:`PackedByteArray <class_PackedByteArray>` buffer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:112
+msgid ":ref:`normalmap_to_xy <class_Image_method_normalmap_to_xy>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:114
+msgid ""
+":ref:`premultiply_alpha <class_Image_method_premultiply_alpha>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:116
+msgid ""
+":ref:`resize <class_Image_method_resize>` **(** :ref:`int <class_int>` "
+"width, :ref:`int <class_int>` height, :ref:`Interpolation "
+"<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:118
+msgid ""
+":ref:`resize_to_po2 <class_Image_method_resize_to_po2>` **(** :ref:`bool "
+"<class_bool>` square=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:120
+msgid ":ref:`rgbe_to_srgb <class_Image_method_rgbe_to_srgb>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:122
+msgid ""
+":ref:`save_exr <class_Image_method_save_exr>` **(** :ref:`String "
+"<class_String>` path, :ref:`bool <class_bool>` grayscale=false **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:124
+msgid ""
+":ref:`save_png <class_Image_method_save_png>` **(** :ref:`String "
+"<class_String>` path **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:126
+msgid ""
+":ref:`set_pixel <class_Image_method_set_pixel>` **(** :ref:`int "
+"<class_int>` x, :ref:`int <class_int>` y, :ref:`Color <class_Color>` "
+"color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:128
+msgid ""
+":ref:`set_pixelv <class_Image_method_set_pixelv>` **(** :ref:`Vector2 "
+"<class_Vector2>` dst, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:130
+msgid ":ref:`shrink_x2 <class_Image_method_shrink_x2>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:132
+msgid ":ref:`srgb_to_linear <class_Image_method_srgb_to_linear>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:136
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:220
+msgid "enum **Format**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:222
+msgid ""
+"**FORMAT_L8** = **0** --- Texture format with a single 8-bit depth "
+"representing luminance."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:224
+msgid ""
+"**FORMAT_LA8** = **1** --- OpenGL texture format with two values, "
+"luminance and alpha each stored with 8 bits."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:226
+msgid ""
+"**FORMAT_R8** = **2** --- OpenGL texture format ``RED`` with a single "
+"component and a bitdepth of 8."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:228
+msgid ""
+"**FORMAT_RG8** = **3** --- OpenGL texture format ``RG`` with two "
+"components and a bitdepth of 8 for each."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:230
+msgid ""
+"**FORMAT_RGB8** = **4** --- OpenGL texture format ``RGB`` with three "
+"components, each with a bitdepth of 8."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:232
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:236
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:262
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:266
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:270
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:278
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:286
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:306
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:310
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:314
+msgid ""
+"**Note:** When creating an :ref:`ImageTexture <class_ImageTexture>`, an "
+"sRGB to linear color space conversion is performed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:234
+msgid ""
+"**FORMAT_RGBA8** = **5** --- OpenGL texture format ``RGBA`` with four "
+"components, each with a bitdepth of 8."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:238
+msgid ""
+"**FORMAT_RGBA4444** = **6** --- OpenGL texture format ``RGBA`` with four "
+"components, each with a bitdepth of 4."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:240
+msgid "**FORMAT_RGB565** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:242
+msgid ""
+"**FORMAT_RF** = **8** --- OpenGL texture format ``GL_R32F`` where there's"
+" one component, a 32-bit floating-point value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:244
+msgid ""
+"**FORMAT_RGF** = **9** --- OpenGL texture format ``GL_RG32F`` where there"
+" are two components, each a 32-bit floating-point values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:246
+msgid ""
+"**FORMAT_RGBF** = **10** --- OpenGL texture format ``GL_RGB32F`` where "
+"there are three components, each a 32-bit floating-point values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:248
+msgid ""
+"**FORMAT_RGBAF** = **11** --- OpenGL texture format ``GL_RGBA32F`` where "
+"there are four components, each a 32-bit floating-point values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:250
+msgid ""
+"**FORMAT_RH** = **12** --- OpenGL texture format ``GL_R32F`` where "
+"there's one component, a 16-bit \"half-precision\" floating-point value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:252
+msgid ""
+"**FORMAT_RGH** = **13** --- OpenGL texture format ``GL_RG32F`` where "
+"there are two components, each a 16-bit \"half-precision\" floating-point"
+" value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:254
+msgid ""
+"**FORMAT_RGBH** = **14** --- OpenGL texture format ``GL_RGB32F`` where "
+"there are three components, each a 16-bit \"half-precision\" floating-"
+"point value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:256
+msgid ""
+"**FORMAT_RGBAH** = **15** --- OpenGL texture format ``GL_RGBA32F`` where "
+"there are four components, each a 16-bit \"half-precision\" floating-"
+"point value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:258
+msgid ""
+"**FORMAT_RGBE9995** = **16** --- A special OpenGL texture format where "
+"the three color components have 9 bits of precision and all three share a"
+" single 5-bit exponent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:260
+msgid ""
+"**FORMAT_DXT1** = **17** --- The `S3TC "
+"<https://en.wikipedia.org/wiki/S3_Texture_Compression>`_ texture format "
+"that uses Block Compression 1, and is the smallest variation of S3TC, "
+"only providing 1 bit of alpha and color data being premultiplied with "
+"alpha."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:264
+msgid ""
+"**FORMAT_DXT3** = **18** --- The `S3TC "
+"<https://en.wikipedia.org/wiki/S3_Texture_Compression>`_ texture format "
+"that uses Block Compression 2, and color data is interpreted as not "
+"having been premultiplied by alpha. Well suited for images with sharp "
+"alpha transitions between translucent and opaque areas."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:268
+msgid ""
+"**FORMAT_DXT5** = **19** --- The `S3TC "
+"<https://en.wikipedia.org/wiki/S3_Texture_Compression>`_ texture format "
+"also known as Block Compression 3 or BC3 that contains 64 bits of alpha "
+"channel data followed by 64 bits of DXT1-encoded color data. Color data "
+"is not premultiplied by alpha, same as DXT3. DXT5 generally produces "
+"superior results for transparent gradients compared to DXT3."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:272
+msgid ""
+"**FORMAT_RGTC_R** = **20** --- Texture format that uses `Red Green "
+"Texture Compression "
+"<https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`_, "
+"normalizing the red channel data using the same compression algorithm "
+"that DXT5 uses for the alpha channel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:274
+msgid ""
+"**FORMAT_RGTC_RG** = **21** --- Texture format that uses `Red Green "
+"Texture Compression "
+"<https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`_, "
+"normalizing the red and green channel data using the same compression "
+"algorithm that DXT5 uses for the alpha channel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:276
+msgid ""
+"**FORMAT_BPTC_RGBA** = **22** --- Texture format that uses `BPTC "
+"<https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`_ "
+"compression with unsigned normalized RGBA components."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:280
+msgid ""
+"**FORMAT_BPTC_RGBF** = **23** --- Texture format that uses `BPTC "
+"<https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`_ "
+"compression with signed floating-point RGB components."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:282
+msgid ""
+"**FORMAT_BPTC_RGBFU** = **24** --- Texture format that uses `BPTC "
+"<https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`_ "
+"compression with unsigned floating-point RGB components."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:284
+msgid ""
+"**FORMAT_PVRTC2** = **25** --- Texture format used on PowerVR-supported "
+"mobile platforms, uses 2-bit color depth with no alpha. More information "
+"can be found `here <https://en.wikipedia.org/wiki/PVRTC>`_."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:288
+msgid ""
+"**FORMAT_PVRTC2A** = **26** --- Same as `PVRTC2 "
+"<https://en.wikipedia.org/wiki/PVRTC>`_, but with an alpha component."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:290
+msgid ""
+"**FORMAT_PVRTC4** = **27** --- Similar to `PVRTC2 "
+"<https://en.wikipedia.org/wiki/PVRTC>`_, but with 4-bit color depth and "
+"no alpha."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:292
+msgid ""
+"**FORMAT_PVRTC4A** = **28** --- Same as `PVRTC4 "
+"<https://en.wikipedia.org/wiki/PVRTC>`_, but with an alpha component."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:294
+msgid ""
+"**FORMAT_ETC** = **29** --- `Ericsson Texture Compression format 1 "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC1>`_, also"
+" referred to as \"ETC1\", and is part of the OpenGL ES graphics standard."
+" This format cannot store an alpha channel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:296
+msgid ""
+"**FORMAT_ETC2_R11** = **30** --- `Ericsson Texture Compression format 2 "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``R11_EAC`` variant), which provides one channel of unsigned data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:298
+msgid ""
+"**FORMAT_ETC2_R11S** = **31** --- `Ericsson Texture Compression format 2 "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``SIGNED_R11_EAC`` variant), which provides one channel of signed data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:300
+msgid ""
+"**FORMAT_ETC2_RG11** = **32** --- `Ericsson Texture Compression format 2 "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``RG11_EAC`` variant), which provides two channels of unsigned data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:302
+msgid ""
+"**FORMAT_ETC2_RG11S** = **33** --- `Ericsson Texture Compression format 2"
+" "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``SIGNED_RG11_EAC`` variant), which provides two channels of signed "
+"data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:304
+msgid ""
+"**FORMAT_ETC2_RGB8** = **34** --- `Ericsson Texture Compression format 2 "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``RGB8`` variant), which is a follow-up of ETC1 and compresses RGB888 "
+"data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:308
+msgid ""
+"**FORMAT_ETC2_RGBA8** = **35** --- `Ericsson Texture Compression format 2"
+" "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``RGBA8``\\ variant), which compresses RGBA8888 data with full alpha "
+"support."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:312
+msgid ""
+"**FORMAT_ETC2_RGB8A1** = **36** --- `Ericsson Texture Compression format "
+"2 "
+"<https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_"
+" (``RGB8_PUNCHTHROUGH_ALPHA1`` variant), which compresses RGBA data to "
+"make alpha either fully transparent or fully opaque."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:316
+msgid "**FORMAT_ETC2_RA_AS_RG** = **37**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:318
+msgid "**FORMAT_DXT5_RA_AS_RG** = **38**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:320
+msgid ""
+"**FORMAT_MAX** = **39** --- Represents the size of the :ref:`Format "
+"<enum_Image_Format>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:336
+msgid "enum **Interpolation**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:338
+msgid ""
+"**INTERPOLATE_NEAREST** = **0** --- Performs nearest-neighbor "
+"interpolation. If the image is resized, it will be pixelated."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:340
+msgid ""
+"**INTERPOLATE_BILINEAR** = **1** --- Performs bilinear interpolation. If "
+"the image is resized, it will be blurry. This mode is faster than "
+":ref:`INTERPOLATE_CUBIC <class_Image_constant_INTERPOLATE_CUBIC>`, but it"
+" results in lower quality."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:342
+msgid ""
+"**INTERPOLATE_CUBIC** = **2** --- Performs cubic interpolation. If the "
+"image is resized, it will be blurry. This mode often gives better results"
+" compared to :ref:`INTERPOLATE_BILINEAR "
+"<class_Image_constant_INTERPOLATE_BILINEAR>`, at the cost of being "
+"slower."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:344
+msgid ""
+"**INTERPOLATE_TRILINEAR** = **3** --- Performs bilinear separately on the"
+" two most-suited mipmap levels, then linearly interpolates between them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:346
+msgid ""
+"It's slower than :ref:`INTERPOLATE_BILINEAR "
+"<class_Image_constant_INTERPOLATE_BILINEAR>`, but produces higher-quality"
+" results with much less aliasing artifacts."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:348
+msgid ""
+"If the image does not have mipmaps, they will be generated and used "
+"internally, but no mipmaps will be generated on the resulting image."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:350
+msgid ""
+"**Note:** If you intend to scale multiple copies of the original image, "
+"it's better to call :ref:`generate_mipmaps "
+"<class_Image_method_generate_mipmaps>`] on it in advance, to avoid "
+"wasting processing power in generating them again and again."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:352
+msgid ""
+"On the other hand, if the image already has mipmaps, they will be used, "
+"and a new set will be generated for the resulting image."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:354
+msgid ""
+"**INTERPOLATE_LANCZOS** = **4** --- Performs Lanczos interpolation. This "
+"is the slowest image resizing mode, but it typically gives the best "
+"results, especially when downscalng images."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:366
+msgid "enum **AlphaMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:368
+msgid "**ALPHA_NONE** = **0** --- Image does not have alpha."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:370
+msgid "**ALPHA_BIT** = **1** --- Image stores alpha in a single bit."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:372
+msgid "**ALPHA_BLEND** = **2** --- Image uses alpha."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:388
+msgid "enum **CompressMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:390
+msgid "**COMPRESS_S3TC** = **0** --- Use S3TC compression."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:392
+msgid "**COMPRESS_PVRTC2** = **1** --- Use PVRTC2 compression."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:394
+msgid "**COMPRESS_PVRTC4** = **2** --- Use PVRTC4 compression."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:396
+msgid "**COMPRESS_ETC** = **3** --- Use ETC compression."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:398
+msgid "**COMPRESS_ETC2** = **4** --- Use ETC2 compression."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:416
+msgid "enum **UsedChannels**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:418
+msgid "**USED_CHANNELS_L** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:420
+msgid "**USED_CHANNELS_LA** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:422
+msgid "**USED_CHANNELS_R** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:424
+msgid "**USED_CHANNELS_RG** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:426
+msgid "**USED_CHANNELS_RGB** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:428
+msgid "**USED_CHANNELS_RGBA** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:440
+msgid "enum **CompressSource**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:442
+msgid ""
+"**COMPRESS_SOURCE_GENERIC** = **0** --- Source texture (before "
+"compression) is a regular texture. Default for all textures."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:444
+msgid ""
+"**COMPRESS_SOURCE_SRGB** = **1** --- Source texture (before compression) "
+"is in sRGB space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:446
+msgid ""
+"**COMPRESS_SOURCE_NORMAL** = **2** --- Source texture (before "
+"compression) is a normal texture (e.g. it can be compressed into two "
+"channels)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:449
+msgid "Constants"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:455
+msgid ""
+"**MAX_WIDTH** = **16777216** --- The maximal width allowed for ``Image`` "
+"resources."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:457
+msgid ""
+"**MAX_HEIGHT** = **16777216** --- The maximal height allowed for "
+"``Image`` resources."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:460
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:464
+msgid ":ref:`Dictionary <class_Dictionary>` **data**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:467
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:470
+msgid ""
+"Holds all of the image's color data in a given format. See :ref:`Format "
+"<enum_Image_Format>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:473
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:477
+msgid ""
+"void **blend_rect** **(** :ref:`Image <class_Image>` src, :ref:`Rect2 "
+"<class_Rect2>` src_rect, :ref:`Vector2 <class_Vector2>` dst **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:479
+msgid ""
+"Alpha-blends ``src_rect`` from ``src`` image to this image at coordinates"
+" ``dest``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:485
+msgid ""
+"void **blend_rect_mask** **(** :ref:`Image <class_Image>` src, "
+":ref:`Image <class_Image>` mask, :ref:`Rect2 <class_Rect2>` src_rect, "
+":ref:`Vector2 <class_Vector2>` dst **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:487
+msgid ""
+"Alpha-blends ``src_rect`` from ``src`` image to this image using ``mask``"
+" image at coordinates ``dst``. Alpha channels are required for both "
+"``src`` and ``mask``. ``dst`` pixels and ``src`` pixels will blend if the"
+" corresponding mask pixel's alpha value is not 0. ``src`` image and "
+"``mask`` image **must** have the same size (width and height) but they "
+"can have different formats."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:493
+msgid ""
+"void **blit_rect** **(** :ref:`Image <class_Image>` src, :ref:`Rect2 "
+"<class_Rect2>` src_rect, :ref:`Vector2 <class_Vector2>` dst **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:495
+msgid ""
+"Copies ``src_rect`` from ``src`` image to this image at coordinates "
+"``dst``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:501
+msgid ""
+"void **blit_rect_mask** **(** :ref:`Image <class_Image>` src, :ref:`Image"
+" <class_Image>` mask, :ref:`Rect2 <class_Rect2>` src_rect, :ref:`Vector2 "
+"<class_Vector2>` dst **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:503
+msgid ""
+"Blits ``src_rect`` area from ``src`` image to this image at the "
+"coordinates given by ``dst``. ``src`` pixel is copied onto ``dst`` if the"
+" corresponding ``mask`` pixel's alpha value is not 0. ``src`` image and "
+"``mask`` image **must** have the same size (width and height) but they "
+"can have different formats."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:509
+msgid ""
+"void **bumpmap_to_normalmap** **(** :ref:`float <class_float>` "
+"bump_scale=1.0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:511
+msgid ""
+"Converts a bumpmap to a normalmap. A bumpmap provides a height offset "
+"per-pixel, while a normalmap provides a normal direction per pixel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:517
+msgid "void **clear_mipmaps** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:519
+msgid "Removes the image's mipmaps."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:525
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **compress** **(** "
+":ref:`CompressMode <enum_Image_CompressMode>` mode, :ref:`CompressSource "
+"<enum_Image_CompressSource>` source=0, :ref:`float <class_float>` "
+"lossy_quality=0.7 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:527
+msgid ""
+"Compresses the image to use less memory. Can not directly access pixel "
+"data while the image is compressed. Returns error if the chosen "
+"compression mode is not available. See :ref:`CompressMode "
+"<enum_Image_CompressMode>` and :ref:`CompressSource "
+"<enum_Image_CompressSource>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:533
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **compress_from_channels** **(** "
+":ref:`CompressMode <enum_Image_CompressMode>` mode, :ref:`CompressSource "
+"<enum_Image_CompressSource>` channels, :ref:`float <class_float>` "
+"lossy_quality=0.7 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:539
+msgid "void **convert** **(** :ref:`Format <enum_Image_Format>` format **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:541
+msgid ""
+"Converts the image's format. See :ref:`Format <enum_Image_Format>` "
+"constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:547
+msgid "void **copy_from** **(** :ref:`Image <class_Image>` src **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:549
+msgid "Copies ``src`` image to this image."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:555
+msgid ""
+"void **create** **(** :ref:`int <class_int>` width, :ref:`int "
+"<class_int>` height, :ref:`bool <class_bool>` use_mipmaps, :ref:`Format "
+"<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:557
+msgid ""
+"Creates an empty image of given size and format. See :ref:`Format "
+"<enum_Image_Format>` constants. If ``use_mipmaps`` is ``true`` then "
+"generate mipmaps for this image. See the :ref:`generate_mipmaps "
+"<class_Image_method_generate_mipmaps>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:563
+msgid ""
+"void **create_from_data** **(** :ref:`int <class_int>` width, :ref:`int "
+"<class_int>` height, :ref:`bool <class_bool>` use_mipmaps, :ref:`Format "
+"<enum_Image_Format>` format, :ref:`PackedByteArray "
+"<class_PackedByteArray>` data **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:565
+msgid ""
+"Creates a new image of given size and format. See :ref:`Format "
+"<enum_Image_Format>` constants. Fills the image with the given raw data. "
+"If ``use_mipmaps`` is ``true`` then generate mipmaps for this image. See "
+"the :ref:`generate_mipmaps <class_Image_method_generate_mipmaps>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:571
+msgid ""
+"void **crop** **(** :ref:`int <class_int>` width, :ref:`int <class_int>` "
+"height **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:573
+msgid ""
+"Crops the image to the given ``width`` and ``height``. If the specified "
+"size is larger than the current size, the extra area is filled with black"
+" pixels."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:579
+msgid ":ref:`Error <enum_@GlobalScope_Error>` **decompress** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:581
+msgid ""
+"Decompresses the image if it is compressed. Returns an error if "
+"decompress function is not available."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:587
+msgid ":ref:`AlphaMode <enum_Image_AlphaMode>` **detect_alpha** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:589
+msgid ""
+"Returns :ref:`ALPHA_BLEND <class_Image_constant_ALPHA_BLEND>` if the "
+"image has data for alpha values. Returns :ref:`ALPHA_BIT "
+"<class_Image_constant_ALPHA_BIT>` if all the alpha values are stored in a"
+" single bit. Returns :ref:`ALPHA_NONE <class_Image_constant_ALPHA_NONE>` "
+"if no data for alpha values is found."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:595
+msgid ""
+":ref:`UsedChannels <enum_Image_UsedChannels>` **detect_used_channels** "
+"**(** :ref:`CompressSource <enum_Image_CompressSource>` source=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:601
+msgid "void **expand_x2_hq2x** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:603
+msgid ""
+"Stretches the image and enlarges it by a factor of 2. No interpolation is"
+" done."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:609
+msgid "void **fill** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:611
+msgid "Fills the image with a given :ref:`Color <class_Color>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:617
+msgid "void **fix_alpha_edges** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:619
+msgid "Blends low-alpha pixels with nearby pixels."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:625
+msgid "void **flip_x** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:627
+msgid "Flips the image horizontally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:633
+msgid "void **flip_y** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:635
+msgid "Flips the image vertically."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:641
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **generate_mipmaps** **(** "
+":ref:`bool <class_bool>` renormalize=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:643
+msgid ""
+"Generates mipmaps for the image. Mipmaps are pre-calculated and lower "
+"resolution copies of the image. Mipmaps are automatically used if the "
+"image needs to be scaled down when rendered. This improves image quality "
+"and the performance of the rendering. Returns an error if the image is "
+"compressed, in a custom format or if the image's width/height is 0."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:649
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **get_data** **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:651
+msgid "Returns the image's raw data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:657
+msgid ":ref:`Format <enum_Image_Format>` **get_format** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:659
+msgid ""
+"Returns the image's format. See :ref:`Format <enum_Image_Format>` "
+"constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:665
+msgid ":ref:`int <class_int>` **get_height** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:667
+msgid "Returns the image's height."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:673
+msgid ""
+":ref:`int <class_int>` **get_mipmap_offset** **(** :ref:`int <class_int>`"
+" mipmap **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:675
+msgid ""
+"Returns the offset where the image's mipmap with index ``mipmap`` is "
+"stored in the ``data`` dictionary."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:681
+msgid ""
+":ref:`Color <class_Color>` **get_pixel** **(** :ref:`int <class_int>` x, "
+":ref:`int <class_int>` y **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:683
+msgid ""
+"Returns the color of the pixel at ``(x, y)``. This is the same as "
+":ref:`get_pixelv <class_Image_method_get_pixelv>`, but with two integer "
+"arguments instead of a :ref:`Vector2 <class_Vector2>` argument."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:689
+msgid ""
+":ref:`Color <class_Color>` **get_pixelv** **(** :ref:`Vector2 "
+"<class_Vector2>` src **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:691
+msgid ""
+"Returns the color of the pixel at ``src``. This is the same as "
+":ref:`get_pixel <class_Image_method_get_pixel>`, but with a :ref:`Vector2"
+" <class_Vector2>` argument instead of two integer arguments."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:697
+msgid ""
+":ref:`Image <class_Image>` **get_rect** **(** :ref:`Rect2 <class_Rect2>` "
+"rect **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:699
+msgid ""
+"Returns a new image that is a copy of the image's area specified with "
+"``rect``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:705
+msgid ":ref:`Vector2 <class_Vector2>` **get_size** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:707
+msgid "Returns the image's size (width and height)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:713
+msgid ":ref:`Rect2 <class_Rect2>` **get_used_rect** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:715
+msgid ""
+"Returns a :ref:`Rect2 <class_Rect2>` enclosing the visible portion of the"
+" image, considering each pixel with a non-zero alpha channel as visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:721
+msgid ":ref:`int <class_int>` **get_width** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:723
+msgid "Returns the image's width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:729
+msgid ":ref:`bool <class_bool>` **has_mipmaps** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:731
+msgid "Returns ``true`` if the image has generated mipmaps."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:737
+msgid ":ref:`bool <class_bool>` **is_compressed** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:739
+msgid "Returns ``true`` if the image is compressed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:745
+msgid ":ref:`bool <class_bool>` **is_empty** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:747
+msgid "Returns ``true`` if the image has no data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:753
+msgid ":ref:`bool <class_bool>` **is_invisible** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:755
+msgid ""
+"Returns ``true`` if all the image's pixels have an alpha value of 0. "
+"Returns ``false`` if any pixel has an alpha value higher than 0."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:761
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **load** **(** :ref:`String "
+"<class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:763
+msgid "Loads an image from file ``path``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:769
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **load_jpg_from_buffer** **(** "
+":ref:`PackedByteArray <class_PackedByteArray>` buffer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:771
+msgid "Loads an image from the binary contents of a JPEG file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:777
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **load_png_from_buffer** **(** "
+":ref:`PackedByteArray <class_PackedByteArray>` buffer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:779
+msgid "Loads an image from the binary contents of a PNG file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:785
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **load_webp_from_buffer** **(** "
+":ref:`PackedByteArray <class_PackedByteArray>` buffer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:787
+msgid "Loads an image from the binary contents of a WebP file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:793
+msgid "void **normalmap_to_xy** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:795
+msgid ""
+"Converts the image's data to represent coordinates on a 3D plane. This is"
+" used when the image represents a normalmap. A normalmap can add lots of "
+"detail to a 3D surface without increasing the polygon count."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:801
+msgid "void **premultiply_alpha** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:803
+msgid ""
+"Multiplies color values with alpha values. Resulting color values for a "
+"pixel are ``(color * alpha)/256``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:809
+msgid ""
+"void **resize** **(** :ref:`int <class_int>` width, :ref:`int "
+"<class_int>` height, :ref:`Interpolation <enum_Image_Interpolation>` "
+"interpolation=1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:811
+msgid ""
+"Resizes the image to the given ``width`` and ``height``. New pixels are "
+"calculated using ``interpolation``. See ``interpolation`` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:817
+msgid "void **resize_to_po2** **(** :ref:`bool <class_bool>` square=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:819
+msgid ""
+"Resizes the image to the nearest power of 2 for the width and height. If "
+"``square`` is ``true`` then set width and height to be the same."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:825
+msgid ":ref:`Image <class_Image>` **rgbe_to_srgb** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:827
+msgid "Converts a standard RGBE (Red Green Blue Exponent) image to an sRGB image."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:833
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **save_exr** **(** :ref:`String "
+"<class_String>` path, :ref:`bool <class_bool>` grayscale=false **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:835
+msgid ""
+"Saves the image as an EXR file to ``path``. If ``grayscale`` is ``true`` "
+"and the image has only one channel, it will be saved explicitly as "
+"monochrome rather than one red channel. This function will return "
+":ref:`@GlobalScope.ERR_UNAVAILABLE "
+"<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if Godot was compiled "
+"without the TinyEXR module."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:841
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **save_png** **(** :ref:`String "
+"<class_String>` path **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:843
+msgid "Saves the image as a PNG file to ``path``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:849
+msgid ""
+"void **set_pixel** **(** :ref:`int <class_int>` x, :ref:`int <class_int>`"
+" y, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:851
+msgid "Sets the :ref:`Color <class_Color>` of the pixel at ``(x, y)``. Example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:863
+msgid ""
+"void **set_pixelv** **(** :ref:`Vector2 <class_Vector2>` dst, :ref:`Color"
+" <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:865
+msgid ""
+"Sets the :ref:`Color <class_Color>` of the pixel at ``(dst.x, dst.y)``. "
+"Note that the ``dst`` values must be integers. Example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:877
+msgid "void **shrink_x2** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:879
+msgid "Shrinks the image by a factor of 2."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:885
+msgid "void **srgb_to_linear** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_image.rst:887
+msgid "Converts the raw data from the sRGB colorspace to a linear scale."
+msgstr ""
+
+#~ msgid ""
+#~ "Saves the image as an EXR file "
+#~ "to ``path``. If grayscale is true "
+#~ "and the image has only one "
+#~ "channel, it will be saved explicitly "
+#~ "as monochrome rather than one red "
+#~ "channel. This function will return "
+#~ ":ref:`@GlobalScope.ERR_UNAVAILABLE "
+#~ "<class_@GlobalScope_constant_ERR_UNAVAILABLE>`  if Godot"
+#~ " was compiled without the TinyEXR "
+#~ "module."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Saves the image as an EXR file "
+#~ "to ``path``. If grayscale is ``true``"
+#~ " and the image has only one "
+#~ "channel, it will be saved explicitly "
+#~ "as monochrome rather than one red "
+#~ "channel. This function will return "
+#~ ":ref:`@GlobalScope.ERR_UNAVAILABLE "
+#~ "<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if Godot"
+#~ " was compiled without the TinyEXR "
+#~ "module."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Holds all of the image's color "
+#~ "data in a given format. See "
+#~ "``FORMAT_*`` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Compresses the image to use less "
+#~ "memory. Can not directly access pixel"
+#~ " data while the image is compressed."
+#~ " Returns error if the chosen "
+#~ "compression mode is not available. See"
+#~ " ``COMPRESS_*`` constants."
+#~ msgstr ""
+
+#~ msgid "Converts the image's format. See ``FORMAT_*`` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates an empty image of given "
+#~ "size and format. See ``FORMAT_*`` "
+#~ "constants. If ``use_mipmaps`` is ``true`` "
+#~ "then generate mipmaps for this image."
+#~ " See the :ref:`generate_mipmaps "
+#~ "<class_Image_method_generate_mipmaps>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Creates a new image of given size"
+#~ " and format. See ``FORMAT_*`` constants."
+#~ " Fills the image with the given "
+#~ "raw data. If ``use_mipmaps`` is ``true``"
+#~ " then generate mipmaps for this "
+#~ "image. See the :ref:`generate_mipmaps "
+#~ "<class_Image_method_generate_mipmaps>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns ALPHA_BLEND if the image has "
+#~ "data for alpha values. Returns ALPHA_BIT"
+#~ " if all the alpha values are "
+#~ "below a certain threshold or the "
+#~ "maximum value. Returns ALPHA_NONE if no"
+#~ " data for alpha values is found."
+#~ msgstr ""
+
+#~ msgid "Returns the image's format. See ``FORMAT_*`` constants."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "{\"data\": PoolByteArray(  ),\"format\": "
+#~ "\"Lum8\",\"height\": 0,\"mipmaps\": false,\"width\": "
+#~ "0}"
+#~ msgstr ""
+
+#~ msgid "**FORMAT_L8** = **0**"
+#~ msgstr ""
+
+#~ msgid "**FORMAT_LA8** = **1**"
+#~ msgstr ""
+
+#~ msgid "**ALPHA_NONE** = **0**"
+#~ msgstr ""
+
+#~ msgid "**ALPHA_BIT** = **1**"
+#~ msgstr ""
+
+#~ msgid "**ALPHA_BLEND** = **2**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_S3TC** = **0**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_PVRTC2** = **1**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_PVRTC4** = **2**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_ETC** = **3**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_ETC2** = **4**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_SOURCE_GENERIC** = **0**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_SOURCE_SRGB** = **1**"
+#~ msgstr ""
+
+#~ msgid "**COMPRESS_SOURCE_NORMAL** = **2**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns :ref:`ALPHA_BLEND "
+#~ "<class_Image_constant_ALPHA_BLEND>` if the image "
+#~ "has data for alpha values. Returns "
+#~ ":ref:`ALPHA_BIT <class_Image_constant_ALPHA_BIT>` if "
+#~ "all the alpha values are below a"
+#~ " certain threshold or the maximum "
+#~ "value. Returns :ref:`ALPHA_NONE "
+#~ "<class_Image_constant_ALPHA_NONE>` if no data "
+#~ "for alpha values is found."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns a :ref:`Rect2 <class_Rect2>` enclosing"
+#~ " the visible portion of the image."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Native image datatype. Contains image "
+#~ "data, which can be converted to a"
+#~ " :ref:`Texture <class_Texture>`, and several "
+#~ "functions to interact with it. The "
+#~ "maximum width and height for an "
+#~ "``Image`` are :ref:`MAX_WIDTH "
+#~ "<class_Image_constant_MAX_WIDTH>` and :ref:`MAX_HEIGHT "
+#~ "<class_Image_constant_MAX_HEIGHT>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`compress <class_Image_method_compress>` **(** "
+#~ ":ref:`CompressMode <enum_Image_CompressMode>` mode, "
+#~ ":ref:`CompressSource <enum_Image_CompressSource>` source,"
+#~ " :ref:`float <class_float>` lossy_quality **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FORMAT_RGBA5551** = **7** --- OpenGL "
+#~ "texture format ``GL_RGB5_A1`` where 5 "
+#~ "bits of depth for each component "
+#~ "of RGB and one bit for alpha."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FORMAT_MAX** = **37** --- Represents "
+#~ "the size of the :ref:`Format "
+#~ "<enum_Image_Format>` enum."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**MAX_WIDTH** = **16384** --- The "
+#~ "maximal width allowed for ``Image`` "
+#~ "resources."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**MAX_HEIGHT** = **16384** --- The "
+#~ "maximal height allowed for ``Image`` "
+#~ "resources."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Error <enum_@GlobalScope_Error>` **compress** "
+#~ "**(** :ref:`CompressMode <enum_Image_CompressMode>` "
+#~ "mode, :ref:`CompressSource <enum_Image_CompressSource>`"
+#~ " source, :ref:`float <class_float>` lossy_quality"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``{\"data\": PoolByteArray(  ),\"format\": "
+#~ "\"Lum8\",\"height\": 0,\"mipmaps\": false,\"width\": "
+#~ "0}``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`create_from_data <class_Image_method_create_from_data>`"
+#~ " **(** :ref:`int <class_int>` width, "
+#~ ":ref:`int <class_int>` height, :ref:`bool "
+#~ "<class_bool>` use_mipmaps, :ref:`Format "
+#~ "<enum_Image_Format>` format, :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` data **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolByteArray <class_PoolByteArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`load_jpg_from_buffer "
+#~ "<class_Image_method_load_jpg_from_buffer>` **(** "
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` buffer "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`load_png_from_buffer "
+#~ "<class_Image_method_load_png_from_buffer>` **(** "
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` buffer "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`load_webp_from_buffer "
+#~ "<class_Image_method_load_webp_from_buffer>` **(** "
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` buffer "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`lock <class_Image_method_lock>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`unlock <class_Image_method_unlock>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **create_from_data** **(** :ref:`int "
+#~ "<class_int>` width, :ref:`int <class_int>` "
+#~ "height, :ref:`bool <class_bool>` use_mipmaps, "
+#~ ":ref:`Format <enum_Image_Format>` format, "
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` data "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` **get_data**"
+#~ " **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the color of the pixel at"
+#~ " ``(x, y)`` if the image is "
+#~ "locked. If the image is unlocked, "
+#~ "it always returns a :ref:`Color "
+#~ "<class_Color>` with the value ``(0, 0,"
+#~ " 0, 1.0)``. This is the same as"
+#~ " :ref:`get_pixelv <class_Image_method_get_pixelv>`, but"
+#~ " two integer arguments instead of a"
+#~ " Vector2 argument."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the color of the pixel at"
+#~ " ``src`` if the image is locked. "
+#~ "If the image is unlocked, it "
+#~ "always returns a :ref:`Color <class_Color>`"
+#~ " with the value ``(0, 0, 0, "
+#~ "1.0)``. This is the same as "
+#~ ":ref:`get_pixel <class_Image_method_get_pixel>`, but "
+#~ "with a Vector2 argument instead of "
+#~ "two integer arguments."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Error <enum_@GlobalScope_Error>` "
+#~ "**load_jpg_from_buffer** **(** :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` buffer **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Error <enum_@GlobalScope_Error>` "
+#~ "**load_png_from_buffer** **(** :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` buffer **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Error <enum_@GlobalScope_Error>` "
+#~ "**load_webp_from_buffer** **(** :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` buffer **)**"
+#~ msgstr ""
+
+#~ msgid "void **lock** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Locks the data for reading and "
+#~ "writing access. Sends an error to "
+#~ "the console if the image is not"
+#~ " locked when reading or writing a "
+#~ "pixel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the :ref:`Color <class_Color>` of "
+#~ "the pixel at ``(x, y)`` if the "
+#~ "image is locked. Example:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the :ref:`Color <class_Color>` of "
+#~ "the pixel at ``(dst.x, dst.y)`` if "
+#~ "the image is locked. Note that the"
+#~ " ``dst`` values must be integers. "
+#~ "Example:"
+#~ msgstr ""
+
+#~ msgid "void **unlock** **(** **)**"
+#~ msgstr ""
+
+#~ msgid "Unlocks the data and prevents changes."
+#~ msgstr ""
+

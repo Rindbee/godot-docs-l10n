@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2020-02-13 19:56+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/community/contributing/pr_workflow.rst:4
 msgid "Pull request workflow"
@@ -124,7 +128,6 @@ msgstr ""
 "用于生产。这是应该优先进行PR的地方。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:57
-#, fuzzy
 msgid ""
 "The stable branches are named after their version, e.g. ``3.1`` and ``2.1``. "
 "They are used to backport bugfixes and enhancements from the ``master`` "
@@ -134,10 +137,10 @@ msgid ""
 "3.1). If you want to make PRs against a maintained stable branch, you will "
 "have to check if your changes are also relevant for the ``master`` branch."
 msgstr ""
-"稳定的分支以它们的版本命名，例如 ``3.0`` 和 ``2.1`` 。它们(例如3.0.2或2.1.5)"
-"用于将错误修复和增强功能从 ``master`` 分支移植到当前维护的稳定版本。根据经"
-"验，将保留最后一个稳定分支直到下一个主要版本(例如，将保留 ``2.0`` 分支直到"
-"Godot 2.1发行)。如果要对维护的稳定分支进行PR，则必须检查您的更改是否也与 "
+"稳定分支以其版本命名，例如 ``3.1`` 和 ``2.1``。它们用于将错误修复和增强功能"
+"从 ``master`` 分支移植到当前维护的稳定版本（例如3.1.2或2.1.6）。根据经验，将"
+"保留最后一个稳定分支直到下一个主要版本（例如，将保留 ``3.0`` 分支直到Godot "
+"3.1发行）。如果要对维护的稳定分支进行PR，则必须检查您的更改是否也与 "
 "``master`` 分支相关。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:65
@@ -238,7 +241,7 @@ msgstr ""
 msgid ""
 "*Branch it, pull it, code it, stage it, commit, push it, rebase it... "
 "technologic.*"
-msgstr "*分支、拉取、编码、暂存、提交、推送、重新设置基线……技术。*"
+msgstr "*分支、拉取、编码、暂存、提交、推送、变基……技术。*"
 
 #: ../../docs/community/contributing/pr_workflow.rst:127
 msgid ""
@@ -316,7 +319,6 @@ msgstr ""
 "通过 *拉* 上游分支来更新您的分支。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:194
-#, fuzzy
 msgid ""
 "However, if you had local commits, this method will create a so-called "
 "\"merge commit\", and you will soon hear from fellow contributors that those "
@@ -326,10 +328,10 @@ msgid ""
 "effectively modify the Git history of your branch, but that is for the "
 "greater good."
 msgstr ""
-"但是，如果您有本地提交，则此方法将创建一个所谓的“合并提交”，并且您很快就会从"
-"其他贡献者那里得知，PR中不需要这些提交。那么如何在不创建合并提交的情况下更新"
-"分支？您将必须使用 ``--rebase`` 选项，以便在更新的上游master分支顶部重放本地"
-"提交。它将有效地修改分支的Git历史记录，但这将更有利。"
+"但是，如果您有本地提交，则此方法将创建一个所谓的 ``合并提交``，并且您很快就会"
+"从其他贡献者那里得知，PR中不需要这些提交。那么如何在不创建合并提交的情况下更"
+"新分支？您将必须使用 ``--rebase`` 选项，以便在更新的上游 ``master`` 分支顶部"
+"重放本地提交。它将有效地修改分支的Git历史记录，但这将很不错。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:201
 msgid "Therefore, the command that you should (almost) always use is:"
@@ -341,17 +343,21 @@ msgid ""
 "have made any other changes that have resulted in undesired history, you may "
 "use a hard reset to revert to a specific commit and try again:"
 msgstr ""
+"如果您已经在没有使用 ``rebase`` 的情况下推送了合并提交，或者进行了导致不希望"
+"的历史记录的任何其他更改，则可以使用硬重置来还原为特定的提交并重试："
 
 #: ../../docs/community/contributing/pr_workflow.rst:216
 msgid ""
 "Once you have done this, you may run ``--rebase`` to merge master correctly."
-msgstr ""
+msgstr "完成此操作后，您可以运行 ``--rebase`` 以正确合并 ``master``。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:218
 msgid ""
 "If you have already pushed the wrong commits to your remote branch, you will "
 "have to force push by using ``git push --force``."
 msgstr ""
+"如果您已经将错误的提交推送到远程分支，则必须使用 ``git push --force`` 来强制"
+"推送。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:221
 msgid ""
@@ -360,6 +366,9 @@ msgid ""
 "that you reset using ``git reset --hard``, you may still be able to recover "
 "them by resetting to a commit ID found with the ``git reflog`` command."
 msgstr ""
+"``git reset --hard`` 可能是危险的操作，尤其是在您未跟踪或未提交更改的情况下。"
+"但是，如果您提交了使用 ``git reset --hard`` 重置的更改，则仍然可以通过将其重"
+"置为使用 ``git reflog`` 命令找到的提交ID来恢复它们。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:228
 msgid "Making changes"
@@ -577,7 +586,7 @@ msgstr "这应该是诀窍，但……"
 
 #: ../../docs/community/contributing/pr_workflow.rst:373
 msgid "Mastering the PR workflow: the rebase"
-msgstr "掌握PR工作流程：重新设置基线"
+msgstr "掌握PR工作流程：变基"
 
 #: ../../docs/community/contributing/pr_workflow.rst:375
 msgid ""
@@ -587,9 +596,9 @@ msgid ""
 "two related to the project manager), as the second commit basically fixes an "
 "issue in the first one."
 msgstr ""
-"在上面提到的情况下，您的对于Git历史特别迂腐的贡献者，可能会要求您 *重新设置基"
-"线* 您的分支来 *压缩* 或者 *合并* 最后两个提交到一起(即两个与这个项目 "
-"``manager`` 有关)， 因为第二个提交基本上解决了第一个提交的问题。"
+"在上面提到的情况下，您的对于Git历史特别迂腐的贡献者，可能会要求您 *变基* 您的"
+"分支来 *压缩* 或者 *合并* 最后两个提交到一起(即两个与这个项目 ``manager`` 有"
+"关)， 因为第二个提交基本上解决了第一个提交的问题。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:380
 msgid ""
@@ -619,10 +628,10 @@ msgid ""
 "*HEAD*. In our example, we want to act on the last two commits, so we will "
 "do:"
 msgstr ""
-"我们将使用 *交互式重新设置基线* ``git rebase -i`` 来执行此操作。此命令将使用"
-"提交哈希作为参数，并允许您修改该提交哈希与分支的最后一个提交之间的所有提交，"
-"即所谓的 *HEAD*。在我们的示例中，我们希望对最后两次提交采取行动，因此我们将执"
-"行以下操作："
+"我们将使用 *交互式变基* ``git rebase -i`` 来执行此操作。此命令将使用提交哈希"
+"作为参数，并允许您修改该提交哈希与分支的最后一个提交之间的所有提交，即所谓的 "
+"*HEAD*。在我们的示例中，我们希望对最后两次提交采取行动，因此我们将执行以下操"
+"作："
 
 #: ../../docs/community/contributing/pr_workflow.rst:400
 msgid "This will open a text editor with:"
@@ -651,9 +660,8 @@ msgid ""
 "should now confirm that you have only one commit with the changes from both "
 "previous commits."
 msgstr ""
-"保存并退出编辑器后，将发生重新设置基线。第二个提交将被合并到第一个提交中，并"
-"且 ``git log`` 和 ``git show`` 现在应该确认您只有一个具有先前两个提交的更改的"
-"提交。"
+"保存并退出编辑器后，将发生变基。第二个提交将被合并到第一个提交中，并且 ``git "
+"log`` 和 ``git show`` 现在应该确认您只有一个具有先前两个提交的更改的提交。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:425
 msgid ""
@@ -663,10 +671,10 @@ msgid ""
 "in this example. So it is equivalent to what we did with a new commit and "
 "then a rebase to mark it as \"fixup\"."
 msgstr ""
-"您可以在修复拼写错误时使用 ``git commit --amend`` 来避免这种重新设置基线。此"
-"命令将暂存更改直接写入 *最后的* 提交(``HEAD``)，而不是像我们在此示例中那样创"
-"建新提交。因此，这等效于我们对新提交进行的操作，然后进行了重新设置基线以将其"
-"标记为 ``fixup``。"
+"您可以在修复拼写错误时使用 ``git commit --amend`` 来避免这种变基。此命令将暂"
+"存更改直接写入 *最后的* 提交(``HEAD``)，而不是像我们在此示例中那样创建新提"
+"交。因此，这等效于我们对新提交进行的操作，然后进行了变基以将其标记为 "
+"``fixup``。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:431
 msgid ""

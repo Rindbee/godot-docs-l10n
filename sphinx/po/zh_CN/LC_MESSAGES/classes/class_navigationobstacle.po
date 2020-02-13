@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_navigationobstacle.rst:10
+msgid "NavigationObstacle"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:14
+msgid "3D Obstacle used in navigation for collision avoidance."
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:19
+msgid ""
+"3D Obstacle used in navigation for collision avoidance. The obstacle "
+"needs navigation data to work correctly. This can be done by having the "
+"obstacle as a child of a :ref:`Navigation <class_Navigation>` node, or "
+"using :ref:`set_navigation "
+"<class_NavigationObstacle_method_set_navigation>`. ``NavigationObstacle``"
+" is physics safe."
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:25
+msgid ":ref:`Node <class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:25
+msgid ""
+":ref:`get_navigation <class_NavigationObstacle_method_get_navigation>` "
+"**(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:27
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:27
+msgid ""
+":ref:`set_navigation <class_NavigationObstacle_method_set_navigation>` "
+"**(** :ref:`Node <class_Node>` navigation **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:31
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:35
+msgid ":ref:`Node <class_Node>` **get_navigation** **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:37
+msgid ""
+"Returns the :ref:`Navigation <class_Navigation>` node that the obstacle "
+"is using for its navigation system."
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:43
+msgid "void **set_navigation** **(** :ref:`Node <class_Node>` navigation **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationobstacle.rst:45
+msgid ""
+"Sets the :ref:`Navigation <class_Navigation>` node used by the obstacle. "
+"Useful when you don't want to make the obstacle a child of a "
+":ref:`Navigation <class_Navigation>` node."
+msgstr ""
+

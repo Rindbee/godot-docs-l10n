@@ -1,0 +1,581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-12-01 14:03+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:10
+msgid "Transform2D"
+msgstr "Transform2D"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:12
+msgid "2D transformation (3×2 matrix)."
+msgstr "2D变换（3×2矩阵）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:17
+msgid ""
+"Represents one or many transformations in 2D space such as translation, "
+"rotation, or scaling. It consists of two :ref:`x "
+"<class_Transform2D_property_x>` and :ref:`y "
+"<class_Transform2D_property_y>` :ref:`Vector2 <class_Vector2>`\\ s and an"
+" :ref:`origin <class_Transform2D_property_origin>`. It is similar to a "
+"3×2 matrix."
+msgstr ""
+"表示2D空间中的一个或多个变换，例如平移、旋转或缩放。它由 :ref:`x "
+"<class_Transform2D_property_x>`、:ref:`y <class_Transform2D_property_y>` "
+"两个 :ref:`Vector2 <class_Vector2>` 和一个 :ref:`origin "
+"<class_Transform2D_property_origin>` 组成。类似于3×2矩阵。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:20
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:23
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:50
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:23
+msgid ":ref:`origin <class_Transform2D_property_origin>`"
+msgstr ":ref:`origin <class_Transform2D_property_origin>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:23
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:94
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:25
+msgid ":ref:`x <class_Transform2D_property_x>`"
+msgstr ":ref:`x <class_Transform2D_property_x>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:106
+#, fuzzy
+msgid "``Vector2( 1, 0 )``"
+msgstr "Vector2( 1, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:27
+msgid ":ref:`y <class_Transform2D_property_y>`"
+msgstr ":ref:`y <class_Transform2D_property_y>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:118
+#, fuzzy
+msgid "``Vector2( 0, 1 )``"
+msgstr "Vector2( 0, 1 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:31
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:64
+msgid ":ref:`Transform2D <class_Transform2D>`"
+msgstr ":ref:`Transform2D <class_Transform2D>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:34
+msgid ""
+":ref:`Transform2D <class_Transform2D_method_Transform2D>` **(** "
+":ref:`Transform <class_Transform>` from **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D_method_Transform2D>` **(** "
+":ref:`Transform <class_Transform>` from **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:36
+msgid ""
+":ref:`Transform2D <class_Transform2D_method_Transform2D>` **(** "
+":ref:`Vector2 <class_Vector2>` x_axis, :ref:`Vector2 <class_Vector2>` "
+"y_axis, :ref:`Vector2 <class_Vector2>` origin **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D_method_Transform2D>` **(** "
+":ref:`Vector2 <class_Vector2>` x_axis, :ref:`Vector2 <class_Vector2>` "
+"y_axis, :ref:`Vector2 <class_Vector2>` origin **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:38
+msgid ""
+":ref:`Transform2D <class_Transform2D_method_Transform2D>` **(** "
+":ref:`float <class_float>` rotation, :ref:`Vector2 <class_Vector2>` "
+"position **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D_method_Transform2D>` **(** "
+":ref:`float <class_float>` rotation, :ref:`Vector2 <class_Vector2>` "
+"position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:40
+msgid ""
+":ref:`affine_inverse <class_Transform2D_method_affine_inverse>` **(** "
+"**)**"
+msgstr ""
+":ref:`affine_inverse <class_Transform2D_method_affine_inverse>` **(** "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:42
+msgid ""
+":ref:`basis_xform <class_Transform2D_method_basis_xform>` **(** "
+":ref:`Vector2 <class_Vector2>` v **)**"
+msgstr ""
+":ref:`basis_xform <class_Transform2D_method_basis_xform>` **(** "
+":ref:`Vector2 <class_Vector2>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:44
+msgid ""
+":ref:`basis_xform_inv <class_Transform2D_method_basis_xform_inv>` **(** "
+":ref:`Vector2 <class_Vector2>` v **)**"
+msgstr ""
+":ref:`basis_xform_inv <class_Transform2D_method_basis_xform_inv>` **(** "
+":ref:`Vector2 <class_Vector2>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:46
+msgid ":ref:`get_origin <class_Transform2D_method_get_origin>` **(** **)**"
+msgstr ":ref:`get_origin <class_Transform2D_method_get_origin>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:48
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:48
+msgid ":ref:`get_rotation <class_Transform2D_method_get_rotation>` **(** **)**"
+msgstr ":ref:`get_rotation <class_Transform2D_method_get_rotation>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:50
+msgid ":ref:`get_scale <class_Transform2D_method_get_scale>` **(** **)**"
+msgstr ":ref:`get_scale <class_Transform2D_method_get_scale>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:52
+msgid ""
+":ref:`interpolate_with <class_Transform2D_method_interpolate_with>` **(**"
+" :ref:`Transform2D <class_Transform2D>` transform, :ref:`float "
+"<class_float>` weight **)**"
+msgstr ""
+":ref:`interpolate_with <class_Transform2D_method_interpolate_with>` **(**"
+" :ref:`Transform2D <class_Transform2D>` transform, :ref:`float "
+"<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:54
+msgid ":ref:`inverse <class_Transform2D_method_inverse>` **(** **)**"
+msgstr ":ref:`inverse <class_Transform2D_method_inverse>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:56
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:56
+msgid ""
+":ref:`is_equal_approx <class_Transform2D_method_is_equal_approx>` **(** "
+":ref:`Transform2D <class_Transform2D>` transform **)**"
+msgstr ""
+":ref:`is_equal_approx <class_Transform2D_method_is_equal_approx>` **(** "
+":ref:`Transform2D <class_Transform2D>` transform **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:58
+msgid ""
+":ref:`orthonormalized <class_Transform2D_method_orthonormalized>` **(** "
+"**)**"
+msgstr ""
+":ref:`orthonormalized <class_Transform2D_method_orthonormalized>` **(** "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:60
+msgid ""
+":ref:`rotated <class_Transform2D_method_rotated>` **(** :ref:`float "
+"<class_float>` phi **)**"
+msgstr ""
+":ref:`rotated <class_Transform2D_method_rotated>` **(** :ref:`float "
+"<class_float>` phi **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:62
+msgid ""
+":ref:`scaled <class_Transform2D_method_scaled>` **(** :ref:`Vector2 "
+"<class_Vector2>` scale **)**"
+msgstr ""
+":ref:`scaled <class_Transform2D_method_scaled>` **(** :ref:`Vector2 "
+"<class_Vector2>` scale **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:64
+msgid ""
+":ref:`translated <class_Transform2D_method_translated>` **(** "
+":ref:`Vector2 <class_Vector2>` offset **)**"
+msgstr ""
+":ref:`translated <class_Transform2D_method_translated>` **(** "
+":ref:`Vector2 <class_Vector2>` offset **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:68
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:66
+msgid ""
+":ref:`xform <class_Transform2D_method_xform>` **(** :ref:`Variant "
+"<class_Variant>` v **)**"
+msgstr ""
+":ref:`xform <class_Transform2D_method_xform>` **(** :ref:`Variant "
+"<class_Variant>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:68
+msgid ""
+":ref:`xform_inv <class_Transform2D_method_xform_inv>` **(** :ref:`Variant"
+" <class_Variant>` v **)**"
+msgstr ""
+":ref:`xform_inv <class_Transform2D_method_xform_inv>` **(** :ref:`Variant"
+" <class_Variant>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:72
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:80
+msgid ""
+"**IDENTITY** = **Transform2D( 1, 0, 0, 1, 0, 0 )** --- ``Transform2D`` "
+"with no translation, rotation or scaling applied. When applied to other "
+"data structures, :ref:`IDENTITY <class_Transform2D_constant_IDENTITY>` "
+"performs no transformation."
+msgstr ""
+"**IDENTITY** = **Transform2D( 1, 0, 0, 1, 0, 0 )** —— 没有应用平移、旋转或缩放的 "
+"``Transform2D``。 当应用于其他数据结构时，:ref:`IDENTITY "
+"<class_Transform2D_constant_IDENTITY>` 不执行任何变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:82
+msgid ""
+"**FLIP_X** = **Transform2D( -1, 0, 0, 1, 0, 0 )** --- ``Transform2D`` "
+"with mirroring applied parallel to the X axis."
+msgstr ""
+"**FLIP_X** = **Transform2D( -1, 0, 0, 1, 0, 0 )** —— 平行于X轴的应用镜像的 "
+"``Transform2D``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:84
+msgid ""
+"**FLIP_Y** = **Transform2D( 1, 0, 0, -1, 0, 0 )** --- ``Transform2D`` "
+"with mirroring applied parallel to the Y axis."
+msgstr ""
+"**FLIP_Y** = **Transform2D( 1, 0, 0, -1, 0, 0 )** —— 平行于Y轴应用镜像的 "
+"``Transform2D``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:87
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:91
+msgid ":ref:`Vector2 <class_Vector2>` **origin**"
+msgstr ":ref:`Vector2 <class_Vector2>` **origin**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:118
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:97
+msgid "The transform's translation offset."
+msgstr "变换的平移偏移量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:103
+msgid ":ref:`Vector2 <class_Vector2>` **x**"
+msgstr ":ref:`Vector2 <class_Vector2>` **x**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:109
+msgid ""
+"The X axis of 2×2 basis matrix containing 2 :ref:`Vector2 "
+"<class_Vector2>`\\ s as its columns: X axis and Y axis. These vectors can"
+" be interpreted as the basis vectors of local coordinate system traveling"
+" with the object."
+msgstr ""
+"2×2基本矩阵的X轴，其中包含2个 :ref:`Vector2 <class_Vector2>` "
+"作为其列：X轴和Y轴。这些向量可以解释为，随对象移动的、局部坐标系的基本向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:115
+msgid ":ref:`Vector2 <class_Vector2>` **y**"
+msgstr ":ref:`Vector2 <class_Vector2>` **y**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:121
+msgid ""
+"The Y axis of 2×2 basis matrix containing 2 :ref:`Vector2 "
+"<class_Vector2>`\\ s as its columns: X axis and Y axis. These vectors can"
+" be interpreted as the basis vectors of local coordinate system traveling"
+" with the object."
+msgstr ""
+"2×2基本矩阵的Y轴，其中包含2个 :ref:`Vector2 <class_Vector2>` "
+"作为其列：X轴和Y轴。这些向量可以解释为，随对象移动的、局部坐标系的基本向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:124
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:128
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **Transform2D** **(** "
+":ref:`Transform <class_Transform>` from **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **Transform2D** **(** "
+":ref:`Transform <class_Transform>` from **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:130
+msgid "Constructs the transform from a 3D :ref:`Transform <class_Transform>`."
+msgstr "从3D :ref:`Transform <class_Transform>` 构造变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:134
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **Transform2D** **(** "
+":ref:`Vector2 <class_Vector2>` x_axis, :ref:`Vector2 <class_Vector2>` "
+"y_axis, :ref:`Vector2 <class_Vector2>` origin **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **Transform2D** **(** "
+":ref:`Vector2 <class_Vector2>` x_axis, :ref:`Vector2 <class_Vector2>` "
+"y_axis, :ref:`Vector2 <class_Vector2>` origin **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:136
+msgid ""
+"Constructs the transform from 3 :ref:`Vector2 <class_Vector2>`\\ s "
+"representing x, y, and origin."
+msgstr "从表示x、y和原点的3个 :ref:`Vector2 <class_Vector2>` 构造变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:140
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **Transform2D** **(** :ref:`float "
+"<class_float>` rotation, :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **Transform2D** **(** :ref:`float "
+"<class_float>` rotation, :ref:`Vector2 <class_Vector2>` position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:142
+msgid "Constructs the transform from a given angle (in radians) and position."
+msgstr "从给定角度（弧度）和位置构造变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:148
+msgid ":ref:`Transform2D <class_Transform2D>` **affine_inverse** **(** **)**"
+msgstr ":ref:`Transform2D <class_Transform2D>` **affine_inverse** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:150
+msgid "Returns the inverse of the matrix."
+msgstr "返回矩阵的逆。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:156
+msgid ""
+":ref:`Vector2 <class_Vector2>` **basis_xform** **(** :ref:`Vector2 "
+"<class_Vector2>` v **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **basis_xform** **(** :ref:`Vector2 "
+"<class_Vector2>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:158
+msgid "Transforms the given vector by this transform's basis (no translation)."
+msgstr "根据此变换的基础（无平移）变换给定向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:164
+msgid ""
+":ref:`Vector2 <class_Vector2>` **basis_xform_inv** **(** :ref:`Vector2 "
+"<class_Vector2>` v **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **basis_xform_inv** **(** :ref:`Vector2 "
+"<class_Vector2>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:166
+msgid ""
+"Inverse-transforms the given vector by this transform's basis (no "
+"translation)."
+msgstr "根据此变换的基础（无平移）反转变换给定向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:172
+msgid ":ref:`Vector2 <class_Vector2>` **get_origin** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_origin** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:174
+msgid "Returns the transform's origin (translation)."
+msgstr "返回变换的原点（平移）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:180
+msgid ":ref:`float <class_float>` **get_rotation** **(** **)**"
+msgstr ":ref:`float <class_float>` **get_rotation** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:182
+msgid "Returns the transform's rotation (in radians)."
+msgstr "返回变换的旋转度（以弧度为单位）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:188
+msgid ":ref:`Vector2 <class_Vector2>` **get_scale** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_scale** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:190
+msgid "Returns the scale."
+msgstr "返回比例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:196
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **interpolate_with** **(** "
+":ref:`Transform2D <class_Transform2D>` transform, :ref:`float "
+"<class_float>` weight **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **interpolate_with** **(** "
+":ref:`Transform2D <class_Transform2D>` transform, :ref:`float "
+"<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:198
+msgid ""
+"Returns a transform interpolated between this transform and another by a "
+"given weight (0-1)."
+msgstr "返回以给定的权重（0-1），在此变换和另一个变换之间，插值的变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:204
+msgid ":ref:`Transform2D <class_Transform2D>` **inverse** **(** **)**"
+msgstr ":ref:`Transform2D <class_Transform2D>` **inverse** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:206
+msgid ""
+"Returns the inverse of the transform, under the assumption that the "
+"transformation is composed of rotation and translation (no scaling, use "
+"affine_inverse for transforms with scaling)."
+msgstr "在假定变换由旋转和平移组成的情况下（不缩放，使用 ``affine_inverse`` 进行缩放），将返回变换的逆。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:212
+msgid ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Transform2D "
+"<class_Transform2D>` transform **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Transform2D "
+"<class_Transform2D>` transform **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:214
+msgid ""
+"Returns ``true`` if this transform and ``transform`` are approximately "
+"equal, by calling ``is_equal_approx`` on each component."
+msgstr "如果通过在每个组件上调用 ``is_equal_approx``，此变换和 ``transform`` 大致相等，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:220
+msgid ":ref:`Transform2D <class_Transform2D>` **orthonormalized** **(** **)**"
+msgstr ":ref:`Transform2D <class_Transform2D>` **orthonormalized** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:222
+msgid ""
+"Returns the transform with the basis orthogonal (90 degrees), and "
+"normalized axis vectors."
+msgstr "返回具有基准正交（90度）和归一化轴向量的变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:228
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **rotated** **(** :ref:`float "
+"<class_float>` phi **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **rotated** **(** :ref:`float "
+"<class_float>` phi **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:230
+#, fuzzy
+msgid ""
+"Rotates the transform by the given angle (in radians), using matrix "
+"multiplication."
+msgstr "将变换旋转给定角度（以弧度为单位）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:236
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **scaled** **(** :ref:`Vector2 "
+"<class_Vector2>` scale **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **scaled** **(** :ref:`Vector2 "
+"<class_Vector2>` scale **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:238
+#, fuzzy
+msgid ""
+"Scales the transform by the given scale factor, using matrix "
+"multiplication."
+msgstr "按给定因子缩放变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:244
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **translated** **(** :ref:`Vector2"
+" <class_Vector2>` offset **)**"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **translated** **(** :ref:`Vector2"
+" <class_Vector2>` offset **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:246
+#, fuzzy
+msgid ""
+"Translates the transform by the given offset, relative to the transform's"
+" basis vectors."
+msgstr "按给定的偏移量转换变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:248
+msgid ""
+"Unlike :ref:`rotated <class_Transform2D_method_rotated>` and :ref:`scaled"
+" <class_Transform2D_method_scaled>`, this does not use matrix "
+"multiplication."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:254
+#, fuzzy
+msgid "void **xform** **(** :ref:`Variant <class_Variant>` v **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **xform** **(** :ref:`Variant "
+"<class_Variant>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:256
+#, fuzzy
+msgid ""
+"Transforms the given :ref:`Vector2 <class_Vector2>`, :ref:`Rect2 "
+"<class_Rect2>`, or :ref:`PackedVector2Array <class_PackedVector2Array>` "
+"by this transform."
+msgstr ""
+"通过此变换对给定的 :ref:`Vector2 <class_Vector2>`、:ref:`Rect2 <class_Rect2>`、或 "
+":ref:`PoolVector2Array <class_PoolVector2Array>` 进行变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:262
+#, fuzzy
+msgid "void **xform_inv** **(** :ref:`Variant <class_Variant>` v **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **xform_inv** **(** :ref:`Variant "
+"<class_Variant>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_transform2d.rst:264
+#, fuzzy
+msgid ""
+"Inverse-transforms the given :ref:`Vector2 <class_Vector2>`, :ref:`Rect2 "
+"<class_Rect2>`, or :ref:`PackedVector2Array <class_PackedVector2Array>` "
+"by this transform."
+msgstr ""
+"通过此变换对给定的 :ref:`Vector2 <class_Vector2>`、:ref:`Rect2 <class_Rect2>`、或 "
+":ref:`PoolVector2Array <class_PoolVector2Array>` 进行反转变换。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ":ref:`Variant <class_Variant>`"
+#~ msgstr ":ref:`Variant <class_Variant>`"
+

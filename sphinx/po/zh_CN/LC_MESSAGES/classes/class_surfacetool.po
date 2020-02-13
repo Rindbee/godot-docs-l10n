@@ -1,0 +1,678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-01 16:26+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:10
+msgid "SurfaceTool"
+msgstr "SurfaceTool"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:14
+msgid "Helper tool to create geometry."
+msgstr "创建几何的助手工具。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:19
+msgid ""
+"The ``SurfaceTool`` is used to construct a :ref:`Mesh <class_Mesh>` by "
+"specifying vertex attributes individually. It can be used to construct a "
+":ref:`Mesh <class_Mesh>` from a script. All properties except indices "
+"need to be added before calling :ref:`add_vertex "
+"<class_SurfaceTool_method_add_vertex>`. For example, to add vertex colors"
+" and UVs:"
+msgstr ""
+"``SurfaceTool`` 用于通过分别指定顶点属性，来构造一个 :ref:`Mesh <class_Mesh>`。它可以用来从脚本构造一个 "
+":ref:`Mesh <class_Mesh>`。除索引外，所有属性都需要在调用 :ref:`add_vertex "
+"<class_SurfaceTool_method_add_vertex>` 之前添加。例如，要添加顶点颜色和UV："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:29
+msgid ""
+"The above ``SurfaceTool`` now contains one vertex of a triangle which has"
+" a UV coordinate and a specified :ref:`Color <class_Color>`. If another "
+"vertex were added without calling :ref:`add_uv "
+"<class_SurfaceTool_method_add_uv>` or :ref:`add_color "
+"<class_SurfaceTool_method_add_color>`, then the last values would be "
+"used."
+msgstr ""
+"上面的 ``SurfaceTool`` 现在包含一个三角形的一个顶点，该三角形具有UV坐标和一个指定的 :ref:`Color "
+"<class_Color>`。如果添加了另一个顶点，而没有调用 :ref:`add_uv "
+"<class_SurfaceTool_method_add_uv>` 或 :ref:`add_color "
+"<class_SurfaceTool_method_add_color>`，则将使用上次的值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:31
+msgid ""
+"Vertex attributes must be passed **before** calling :ref:`add_vertex "
+"<class_SurfaceTool_method_add_vertex>`. Failure to do so will result in "
+"an error when committing the vertex information to a mesh."
+msgstr ""
+"必须在调用 :ref:`add_vertex <class_SurfaceTool_method_add_vertex>` **之前** "
+"传递顶点属性。否则，将顶点信息提交到网格时，会导致错误。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:33
+msgid ""
+"Additionally, the attributes used before the first vertex is added "
+"determine the format of the mesh. For example, if you only add UVs to the"
+" first vertex, you cannot add color to any of the subsequent vertices."
+msgstr "此外，在添加第一个顶点之前，使用的属性决定了网格的格式。例如，如果仅将UV添加到第一个顶点，则不能将颜色添加到后续任何顶点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:36
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:83
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:39
+#, fuzzy
+msgid ""
+":ref:`add_bones <class_SurfaceTool_method_add_bones>` **(** "
+":ref:`PackedInt32Array <class_PackedInt32Array>` bones **)**"
+msgstr ""
+":ref:`add_bones <class_SurfaceTool_method_add_bones>` **(** "
+":ref:`PoolIntArray <class_PoolIntArray>` bones **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:41
+msgid ""
+":ref:`add_color <class_SurfaceTool_method_add_color>` **(** :ref:`Color "
+"<class_Color>` color **)**"
+msgstr ""
+":ref:`add_color <class_SurfaceTool_method_add_color>` **(** :ref:`Color "
+"<class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:43
+msgid ""
+":ref:`add_index <class_SurfaceTool_method_add_index>` **(** :ref:`int "
+"<class_int>` index **)**"
+msgstr ""
+":ref:`add_index <class_SurfaceTool_method_add_index>` **(** :ref:`int "
+"<class_int>` index **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:45
+msgid ""
+":ref:`add_normal <class_SurfaceTool_method_add_normal>` **(** "
+":ref:`Vector3 <class_Vector3>` normal **)**"
+msgstr ""
+":ref:`add_normal <class_SurfaceTool_method_add_normal>` **(** "
+":ref:`Vector3 <class_Vector3>` normal **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:47
+msgid ""
+":ref:`add_smooth_group <class_SurfaceTool_method_add_smooth_group>` **(**"
+" :ref:`bool <class_bool>` smooth **)**"
+msgstr ""
+":ref:`add_smooth_group <class_SurfaceTool_method_add_smooth_group>` **(**"
+" :ref:`bool <class_bool>` smooth **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:49
+msgid ""
+":ref:`add_tangent <class_SurfaceTool_method_add_tangent>` **(** "
+":ref:`Plane <class_Plane>` tangent **)**"
+msgstr ""
+":ref:`add_tangent <class_SurfaceTool_method_add_tangent>` **(** "
+":ref:`Plane <class_Plane>` tangent **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:51
+msgid ""
+":ref:`add_triangle_fan <class_SurfaceTool_method_add_triangle_fan>` **(**"
+" :ref:`PackedVector3Array <class_PackedVector3Array>` vertices, "
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"uvs=PackedVector2Array(  ), :ref:`PackedColorArray "
+"<class_PackedColorArray>` colors=PackedColorArray(  ), "
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"uv2s=PackedVector2Array(  ), :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` normals=PackedVector3Array(  ), :ref:`Array "
+"<class_Array>` tangents=[  ] **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:53
+msgid ""
+":ref:`add_uv <class_SurfaceTool_method_add_uv>` **(** :ref:`Vector2 "
+"<class_Vector2>` uv **)**"
+msgstr ""
+":ref:`add_uv <class_SurfaceTool_method_add_uv>` **(** :ref:`Vector2 "
+"<class_Vector2>` uv **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:55
+msgid ""
+":ref:`add_uv2 <class_SurfaceTool_method_add_uv2>` **(** :ref:`Vector2 "
+"<class_Vector2>` uv2 **)**"
+msgstr ""
+":ref:`add_uv2 <class_SurfaceTool_method_add_uv2>` **(** :ref:`Vector2 "
+"<class_Vector2>` uv2 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:57
+msgid ""
+":ref:`add_vertex <class_SurfaceTool_method_add_vertex>` **(** "
+":ref:`Vector3 <class_Vector3>` vertex **)**"
+msgstr ""
+":ref:`add_vertex <class_SurfaceTool_method_add_vertex>` **(** "
+":ref:`Vector3 <class_Vector3>` vertex **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:59
+#, fuzzy
+msgid ""
+":ref:`add_weights <class_SurfaceTool_method_add_weights>` **(** "
+":ref:`PackedFloat32Array <class_PackedFloat32Array>` weights **)**"
+msgstr ""
+":ref:`add_weights <class_SurfaceTool_method_add_weights>` **(** "
+":ref:`PoolRealArray <class_PoolRealArray>` weights **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:61
+msgid ""
+":ref:`append_from <class_SurfaceTool_method_append_from>` **(** "
+":ref:`Mesh <class_Mesh>` existing, :ref:`int <class_int>` surface, "
+":ref:`Transform <class_Transform>` transform **)**"
+msgstr ""
+":ref:`append_from <class_SurfaceTool_method_append_from>` **(** "
+":ref:`Mesh <class_Mesh>` existing, :ref:`int <class_int>` surface, "
+":ref:`Transform <class_Transform>` transform **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:63
+msgid ""
+":ref:`begin <class_SurfaceTool_method_begin>` **(** :ref:`PrimitiveType "
+"<enum_Mesh_PrimitiveType>` primitive **)**"
+msgstr ""
+":ref:`begin <class_SurfaceTool_method_begin>` **(** :ref:`PrimitiveType "
+"<enum_Mesh_PrimitiveType>` primitive **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:65
+msgid ":ref:`clear <class_SurfaceTool_method_clear>` **(** **)**"
+msgstr ":ref:`clear <class_SurfaceTool_method_clear>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:67
+msgid ":ref:`ArrayMesh <class_ArrayMesh>`"
+msgstr ":ref:`ArrayMesh <class_ArrayMesh>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:67
+#, fuzzy
+msgid ""
+":ref:`commit <class_SurfaceTool_method_commit>` **(** :ref:`ArrayMesh "
+"<class_ArrayMesh>` existing=null, :ref:`int <class_int>` flags=31744 "
+"**)**"
+msgstr ""
+":ref:`commit <class_SurfaceTool_method_commit>` **(** :ref:`ArrayMesh "
+"<class_ArrayMesh>` existing=null, :ref:`int <class_int>` flags=97280 "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:69
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:69
+msgid ""
+":ref:`commit_to_arrays <class_SurfaceTool_method_commit_to_arrays>` **(**"
+" **)**"
+msgstr ""
+":ref:`commit_to_arrays <class_SurfaceTool_method_commit_to_arrays>` **(**"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:71
+msgid ""
+":ref:`create_from <class_SurfaceTool_method_create_from>` **(** "
+":ref:`Mesh <class_Mesh>` existing, :ref:`int <class_int>` surface **)**"
+msgstr ""
+":ref:`create_from <class_SurfaceTool_method_create_from>` **(** "
+":ref:`Mesh <class_Mesh>` existing, :ref:`int <class_int>` surface **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:73
+msgid ""
+":ref:`create_from_blend_shape "
+"<class_SurfaceTool_method_create_from_blend_shape>` **(** :ref:`Mesh "
+"<class_Mesh>` existing, :ref:`int <class_int>` surface, :ref:`String "
+"<class_String>` blend_shape **)**"
+msgstr ""
+":ref:`create_from_blend_shape "
+"<class_SurfaceTool_method_create_from_blend_shape>` **(** :ref:`Mesh "
+"<class_Mesh>` existing, :ref:`int <class_int>` surface, :ref:`String "
+"<class_String>` blend_shape **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:75
+msgid ":ref:`deindex <class_SurfaceTool_method_deindex>` **(** **)**"
+msgstr ":ref:`deindex <class_SurfaceTool_method_deindex>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:77
+msgid ""
+":ref:`generate_normals <class_SurfaceTool_method_generate_normals>` **(**"
+" :ref:`bool <class_bool>` flip=false **)**"
+msgstr ""
+":ref:`generate_normals <class_SurfaceTool_method_generate_normals>` **(**"
+" :ref:`bool <class_bool>` flip=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:79
+msgid ""
+":ref:`generate_tangents <class_SurfaceTool_method_generate_tangents>` "
+"**(** **)**"
+msgstr ""
+":ref:`generate_tangents <class_SurfaceTool_method_generate_tangents>` "
+"**(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:81
+msgid ":ref:`index <class_SurfaceTool_method_index>` **(** **)**"
+msgstr ":ref:`index <class_SurfaceTool_method_index>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:83
+msgid ""
+":ref:`set_material <class_SurfaceTool_method_set_material>` **(** "
+":ref:`Material <class_Material>` material **)**"
+msgstr ""
+":ref:`set_material <class_SurfaceTool_method_set_material>` **(** "
+":ref:`Material <class_Material>` material **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:87
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:91
+#, fuzzy
+msgid ""
+"void **add_bones** **(** :ref:`PackedInt32Array <class_PackedInt32Array>`"
+" bones **)**"
+msgstr ""
+"void **add_bones** **(** :ref:`PoolIntArray <class_PoolIntArray>` bones "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:93
+msgid ""
+"Adds an array of bones for the next vertex to use. ``bones`` must contain"
+" 4 integers."
+msgstr "添加骨骼数组，以供下一个顶点使用。``骨骼（bones）`` 必须包含4个整数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:99
+msgid "void **add_color** **(** :ref:`Color <class_Color>` color **)**"
+msgstr "void **add_color** **(** :ref:`Color <class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:101
+msgid "Specifies a :ref:`Color <class_Color>` for the next vertex to use."
+msgstr "指定下一个顶点要使用的 :ref:`Color <class_Color>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:107
+msgid "void **add_index** **(** :ref:`int <class_int>` index **)**"
+msgstr "void **add_index** **(** :ref:`int <class_int>` index **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:109
+msgid ""
+"Adds an index to index array if you are using indexed vertices. Does not "
+"need to be called before adding vertices."
+msgstr "如果使用索引顶点，则将一个索引添加到索引数组。添加顶点之前，不需要调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:115
+msgid "void **add_normal** **(** :ref:`Vector3 <class_Vector3>` normal **)**"
+msgstr "void **add_normal** **(** :ref:`Vector3 <class_Vector3>` normal **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:117
+msgid "Specifies a normal for the next vertex to use."
+msgstr "指定下一个顶点要使用的法线。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:123
+msgid "void **add_smooth_group** **(** :ref:`bool <class_bool>` smooth **)**"
+msgstr "void **add_smooth_group** **(** :ref:`bool <class_bool>` smooth **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:125
+msgid ""
+"Specifies whether the current vertex (if using only vertex arrays) or "
+"current index (if also using index arrays) should use smooth normals for "
+"normal calculation."
+msgstr "指定是当前顶点（如果仅使用顶点数组），还是当前索引（如果还使用索引数组），应使用平滑法线进行法线计算。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:131
+msgid "void **add_tangent** **(** :ref:`Plane <class_Plane>` tangent **)**"
+msgstr "void **add_tangent** **(** :ref:`Plane <class_Plane>` tangent **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:133
+msgid "Specifies a tangent for the next vertex to use."
+msgstr "指定下一个顶点要使用的切线。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:139
+msgid ""
+"void **add_triangle_fan** **(** :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` vertices, :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` uvs=PackedVector2Array(  ), "
+":ref:`PackedColorArray <class_PackedColorArray>` colors=PackedColorArray("
+"  ), :ref:`PackedVector2Array <class_PackedVector2Array>` "
+"uv2s=PackedVector2Array(  ), :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` normals=PackedVector3Array(  ), :ref:`Array "
+"<class_Array>` tangents=[  ] **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:141
+msgid ""
+"Inserts a triangle fan made of array data into :ref:`Mesh <class_Mesh>` "
+"being constructed."
+msgstr "将由数组数据构成的三角形面，插入正在构造的 :ref:`Mesh <class_Mesh>` 中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:143
+msgid ""
+"Requires the primitive type be set to :ref:`Mesh.PRIMITIVE_TRIANGLES "
+"<class_Mesh_constant_PRIMITIVE_TRIANGLES>`."
+msgstr ""
+"要求将基本类型设置为 :ref:`Mesh.PRIMITIVE_TRIANGLES "
+"<class_Mesh_constant_PRIMITIVE_TRIANGLES>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:149
+msgid "void **add_uv** **(** :ref:`Vector2 <class_Vector2>` uv **)**"
+msgstr "void **add_uv** **(** :ref:`Vector2 <class_Vector2>` uv **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:151
+msgid "Specifies a set of UV coordinates to use for the next vertex."
+msgstr "指定用于下一个顶点的一组UV坐标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:157
+msgid "void **add_uv2** **(** :ref:`Vector2 <class_Vector2>` uv2 **)**"
+msgstr "void **add_uv2** **(** :ref:`Vector2 <class_Vector2>` uv2 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:159
+msgid ""
+"Specifies an optional second set of UV coordinates to use for the next "
+"vertex."
+msgstr "指定一个可选的第二组UV坐标，以用于下一个顶点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:165
+msgid "void **add_vertex** **(** :ref:`Vector3 <class_Vector3>` vertex **)**"
+msgstr "void **add_vertex** **(** :ref:`Vector3 <class_Vector3>` vertex **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:167
+msgid ""
+"Specifies the position of current vertex. Should be called after "
+"specifying other vertex properties (e.g. Color, UV)."
+msgstr "指定当前顶点的位置。应在指定其他顶点属性（例如颜色、UV）后调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:173
+#, fuzzy
+msgid ""
+"void **add_weights** **(** :ref:`PackedFloat32Array "
+"<class_PackedFloat32Array>` weights **)**"
+msgstr ""
+"void **add_weights** **(** :ref:`PoolRealArray <class_PoolRealArray>` "
+"weights **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:175
+msgid ""
+"Specifies weight values for next vertex to use. ``weights`` must contain "
+"4 values."
+msgstr "指定下一个顶点要使用的权重值。``权重（weights）`` 必须包含4个值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:181
+msgid ""
+"void **append_from** **(** :ref:`Mesh <class_Mesh>` existing, :ref:`int "
+"<class_int>` surface, :ref:`Transform <class_Transform>` transform **)**"
+msgstr ""
+"void **append_from** **(** :ref:`Mesh <class_Mesh>` existing, :ref:`int "
+"<class_int>` surface, :ref:`Transform <class_Transform>` transform **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:183
+msgid ""
+"Append vertices from a given :ref:`Mesh <class_Mesh>` surface onto the "
+"current vertex array with specified :ref:`Transform <class_Transform>`."
+msgstr ""
+"将给定的 :ref:`Mesh <class_Mesh>` 曲面上的顶点，追加到带有指定的 :ref:`Transform "
+"<class_Transform>` 的当前顶点数组上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:189
+msgid ""
+"void **begin** **(** :ref:`PrimitiveType <enum_Mesh_PrimitiveType>` "
+"primitive **)**"
+msgstr ""
+"void **begin** **(** :ref:`PrimitiveType <enum_Mesh_PrimitiveType>` "
+"primitive **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:191
+msgid ""
+"Called before adding any vertices. Takes the primitive type as an "
+"argument (e.g. :ref:`Mesh.PRIMITIVE_TRIANGLES "
+"<class_Mesh_constant_PRIMITIVE_TRIANGLES>`)."
+msgstr ""
+"在添加任何顶点之前调用。将基本类型作为参数（例如 :ref:`Mesh.PRIMITIVE_TRIANGLES "
+"<class_Mesh_constant_PRIMITIVE_TRIANGLES>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:197
+msgid "void **clear** **(** **)**"
+msgstr "void **clear** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:199
+msgid "Clear all information passed into the surface tool so far."
+msgstr "清除到目前为止，传递到表面工具中的所有信息。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:205
+#, fuzzy
+msgid ""
+":ref:`ArrayMesh <class_ArrayMesh>` **commit** **(** :ref:`ArrayMesh "
+"<class_ArrayMesh>` existing=null, :ref:`int <class_int>` flags=31744 "
+"**)**"
+msgstr ""
+":ref:`ArrayMesh <class_ArrayMesh>` **commit** **(** :ref:`ArrayMesh "
+"<class_ArrayMesh>` existing=null, :ref:`int <class_int>` flags=97280 "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:207
+msgid ""
+"Returns a constructed :ref:`ArrayMesh <class_ArrayMesh>` from current "
+"information passed in. If an existing :ref:`ArrayMesh <class_ArrayMesh>` "
+"is passed in as an argument, will add an extra surface to the existing "
+":ref:`ArrayMesh <class_ArrayMesh>`."
+msgstr ""
+"从传入的当前信息中，返回一个构造好的 :ref:`ArrayMesh <class_ArrayMesh>`。如果将现有的 "
+":ref:`ArrayMesh <class_ArrayMesh>` 作为参数传入，则会为现有的 :ref:`ArrayMesh "
+"<class_ArrayMesh>` 添加一个额外的表面。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:209
+msgid ""
+"Default flag is :ref:`Mesh.ARRAY_COMPRESS_DEFAULT "
+"<class_Mesh_constant_ARRAY_COMPRESS_DEFAULT>`. See ``ARRAY_COMPRESS_*`` "
+"constants in :ref:`ArrayFormat <enum_Mesh_ArrayFormat>` for other flags."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:215
+msgid ":ref:`Array <class_Array>` **commit_to_arrays** **(** **)**"
+msgstr ":ref:`Array <class_Array>` **commit_to_arrays** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:217
+msgid ""
+"Commits the data to the same format used by "
+":ref:`ArrayMesh.add_surface_from_arrays "
+"<class_ArrayMesh_method_add_surface_from_arrays>`. This way you can "
+"further process the mesh data using the :ref:`ArrayMesh "
+"<class_ArrayMesh>` API."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:223
+msgid ""
+"void **create_from** **(** :ref:`Mesh <class_Mesh>` existing, :ref:`int "
+"<class_int>` surface **)**"
+msgstr ""
+"void **create_from** **(** :ref:`Mesh <class_Mesh>` existing, :ref:`int "
+"<class_int>` surface **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:225
+msgid "Creates a vertex array from an existing :ref:`Mesh <class_Mesh>`."
+msgstr "根据现有的 :ref:`Mesh <class_Mesh>` 创建顶点数组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:231
+msgid ""
+"void **create_from_blend_shape** **(** :ref:`Mesh <class_Mesh>` existing,"
+" :ref:`int <class_int>` surface, :ref:`String <class_String>` blend_shape"
+" **)**"
+msgstr ""
+"void **create_from_blend_shape** **(** :ref:`Mesh <class_Mesh>` existing,"
+" :ref:`int <class_int>` surface, :ref:`String <class_String>` blend_shape"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:233
+msgid ""
+"Creates a vertex array from the specified blend shape of an existing "
+":ref:`Mesh <class_Mesh>`. This can be used to extract a specific pose "
+"from a blend shape."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:239
+msgid "void **deindex** **(** **)**"
+msgstr "void **deindex** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:241
+msgid "Removes the index array by expanding the vertex array."
+msgstr "通过扩展顶点数组，来删除索引数组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:247
+msgid "void **generate_normals** **(** :ref:`bool <class_bool>` flip=false **)**"
+msgstr "void **generate_normals** **(** :ref:`bool <class_bool>` flip=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:249
+msgid ""
+"Generates normals from vertices so you do not have to do it manually. If "
+"``flip`` is ``true``, the resulting normals will be inverted."
+msgstr "从顶点生成法线，因此您不必手动进行。如果 ``flip`` 为 ``true``，则生成的法线将被反转。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:251
+msgid ""
+"Requires the primitive type to be set to :ref:`Mesh.PRIMITIVE_TRIANGLES "
+"<class_Mesh_constant_PRIMITIVE_TRIANGLES>`."
+msgstr ""
+"要求将基本类型设置为 :ref:`Mesh.PRIMITIVE_TRIANGLES "
+"<class_Mesh_constant_PRIMITIVE_TRIANGLES>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:257
+msgid "void **generate_tangents** **(** **)**"
+msgstr "void **generate_tangents** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:259
+msgid ""
+"Generates a tangent vector for each vertex. Requires that each vertex "
+"have UVs and normals set already."
+msgstr "为每个顶点生成一个切向量。要求每个顶点已经设置了UV和法线。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:265
+msgid "void **index** **(** **)**"
+msgstr "void **index** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:267
+msgid ""
+"Shrinks the vertex array by creating an index array (avoids reusing "
+"vertices)."
+msgstr "通过创建索引数组，来缩小顶点数组（避免重用顶点）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:273
+msgid ""
+"void **set_material** **(** :ref:`Material <class_Material>` material "
+"**)**"
+msgstr ""
+"void **set_material** **(** :ref:`Material <class_Material>` material "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_surfacetool.rst:275
+msgid ""
+"Sets :ref:`Material <class_Material>` to be used by the :ref:`Mesh "
+"<class_Mesh>` you are constructing."
+msgstr "设置 :ref:`Material <class_Material>`，以供您正在构造的 :ref:`Mesh <class_Mesh>` 使用。"
+
+#~ msgid ""
+#~ "Default flag is :ref:`Mesh.ARRAY_COMPRESS_DEFAULT"
+#~ " <class_Mesh_constant_ARRAY_COMPRESS_DEFAULT>`. See "
+#~ "``Mesh.ARRAY_COMPRESS_*`` constants for other "
+#~ "flags."
+#~ msgstr ""
+#~ "默认标志是 :ref:`Mesh.ARRAY_COMPRESS_DEFAULT "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_DEFAULT>`。有关其他标志，请参见 "
+#~ "``Mesh.ARRAY_COMPRESS_*`` 常量。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ""
+#~ ":ref:`add_triangle_fan "
+#~ "<class_SurfaceTool_method_add_triangle_fan>` **(** "
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` vertices,"
+#~ " :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`PoolColorArray "
+#~ "<class_PoolColorArray>` colors=PoolColorArray(  ), "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` normals=PoolVector3Array(  ),"
+#~ " :ref:`Array <class_Array>` tangents=[  ] "
+#~ "**)**"
+#~ msgstr ""
+#~ ":ref:`add_triangle_fan "
+#~ "<class_SurfaceTool_method_add_triangle_fan>` **(** "
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` vertices,"
+#~ " :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`PoolColorArray "
+#~ "<class_PoolColorArray>` colors=PoolColorArray(  ), "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` normals=PoolVector3Array(  ),"
+#~ " :ref:`Array <class_Array>` tangents=[  ] "
+#~ "**)**"
+
+#~ msgid ""
+#~ "void **add_triangle_fan** **(** "
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` vertices,"
+#~ " :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`PoolColorArray "
+#~ "<class_PoolColorArray>` colors=PoolColorArray(  ), "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` normals=PoolVector3Array(  ),"
+#~ " :ref:`Array <class_Array>` tangents=[  ] "
+#~ "**)**"
+#~ msgstr ""
+#~ "void **add_triangle_fan** **(** "
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` vertices,"
+#~ " :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`PoolColorArray "
+#~ "<class_PoolColorArray>` colors=PoolColorArray(  ), "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` normals=PoolVector3Array(  ),"
+#~ " :ref:`Array <class_Array>` tangents=[  ] "
+#~ "**)**"
+

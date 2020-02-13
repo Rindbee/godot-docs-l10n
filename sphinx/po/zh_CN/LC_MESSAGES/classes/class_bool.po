@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-23 09:12+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_bool.rst:10
+msgid "bool"
+msgstr "bool"
+
+#: ../../docs/classes/class_bool.rst:12
+msgid "Boolean built-in type."
+msgstr "布尔内置类型。"
+
+#: ../../docs/classes/class_bool.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_bool.rst:17
+msgid ""
+"Boolean is a built-in type. It can represent any data type that is either"
+" a true or false value. You can think of it as an switch with on or off "
+"(1 or 0) setting. It's often used as part of programming logic in "
+"condition statements like ``if`` statements."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:19
+msgid ""
+"**Note:** In a code below ``if can_shoot`` is equivalent of ``if "
+"can_shoot == true``. It is good practice to follow the natural spoken "
+"language structure when possible. Use ``if can_shoot`` rather than ``if "
+"can_shoot == true`` and use ``if not can_shoot`` rather than ``if "
+"can_shoot == false``."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:29
+msgid ""
+"The following code will only create a bullet if both conditions are met: "
+"action \"shoot\" is pressed and if ``can_shoot`` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:31
+msgid ""
+"**Note:** ``Input.is_action_pressed(\"shoot\")`` is also a boolean that "
+"is ``true`` when \"shoot\" is pressed and ``false`` when \"shoot\" isn't "
+"pressed."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:41
+msgid ""
+"The following code will set ``can_shoot`` to ``false`` and start a timer."
+" This will prevent player from shooting until the timer runs out. Next "
+"``can_shoot`` will be set to ``true`` again allowing player to shoot once"
+" again."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:58
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_bool.rst:61 ../../docs/classes/class_bool.rst:63
+#: ../../docs/classes/class_bool.rst:65
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_bool.rst:61
+msgid ""
+":ref:`bool <class_bool_method_bool>` **(** :ref:`int <class_int>` from "
+"**)**"
+msgstr ""
+":ref:`bool <class_bool_method_bool>` **(** :ref:`int <class_int>` from "
+"**)**"
+
+#: ../../docs/classes/class_bool.rst:63
+msgid ""
+":ref:`bool <class_bool_method_bool>` **(** :ref:`float <class_float>` "
+"from **)**"
+msgstr ""
+":ref:`bool <class_bool_method_bool>` **(** :ref:`float <class_float>` "
+"from **)**"
+
+#: ../../docs/classes/class_bool.rst:65
+msgid ""
+":ref:`bool <class_bool_method_bool>` **(** :ref:`String <class_String>` "
+"from **)**"
+msgstr ""
+":ref:`bool <class_bool_method_bool>` **(** :ref:`String <class_String>` "
+"from **)**"
+
+#: ../../docs/classes/class_bool.rst:69
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_bool.rst:73
+msgid ":ref:`bool <class_bool>` **bool** **(** :ref:`int <class_int>` from **)**"
+msgstr ":ref:`bool <class_bool>` **bool** **(** :ref:`int <class_int>` from **)**"
+
+#: ../../docs/classes/class_bool.rst:75
+msgid ""
+"Cast an :ref:`int <class_int>` value to a boolean value, this method will"
+" return ``true`` if called with an integer value different to 0 and "
+"``false`` in other case."
+msgstr ""
+"将 :ref:`int <class_int>` 值转换为布尔值，如果使用不同于 ``0`` 的整数值，调用此方法，则返回 "
+"``true``，否则返回 ``false``。"
+
+#: ../../docs/classes/class_bool.rst:79
+msgid ""
+":ref:`bool <class_bool>` **bool** **(** :ref:`float <class_float>` from "
+"**)**"
+msgstr ""
+":ref:`bool <class_bool>` **bool** **(** :ref:`float <class_float>` from "
+"**)**"
+
+#: ../../docs/classes/class_bool.rst:81
+msgid ""
+"Cast a :ref:`float <class_float>` value to a boolean value, this method "
+"will return ``true`` if called with a floating-point value different to 0"
+" and ``false`` in other case."
+msgstr ""
+"将 :ref:`float <class_float>` 值强制转换为布尔值，如果调用的浮点值，不同于0，则此方法将返回 "
+"``true``，否则返回 ``false``。"
+
+#: ../../docs/classes/class_bool.rst:85
+msgid ""
+":ref:`bool <class_bool>` **bool** **(** :ref:`String <class_String>` from"
+" **)**"
+msgstr ""
+":ref:`bool <class_bool>` **bool** **(** :ref:`String <class_String>` from"
+" **)**"
+
+#: ../../docs/classes/class_bool.rst:87
+msgid ""
+"Cast a :ref:`String <class_String>` value to a boolean value, this method"
+" will return ``true`` if called with a non-empty string and ``false`` in "
+"other case. Examples: ``bool(\"False\")`` returns ``true``, "
+"``bool(\"\")`` returns ``false``."
+msgstr ""
+"将 :ref:`String <class_String>` 值转换为布尔值，如果使用非空字符串，调用此方法，则返回 ``true``，否则返回 "
+"``false``。例如：``bool(\"False\")`` 返回 ``true``，``bool(\"\")`` 返回 ``false``。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

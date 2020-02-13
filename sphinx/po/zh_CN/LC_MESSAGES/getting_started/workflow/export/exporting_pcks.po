@@ -1,64 +1,68 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-05 22:41+0800\n"
+"PO-Revision-Date: 2020-03-06 13:51+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:4
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:4
 msgid "Exporting packs, patches, and mods"
 msgstr "导出包、补丁、和mod"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:7
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:7
 msgid "Use cases"
 msgstr "用例"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:9
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:9
 msgid ""
 "Oftentimes one would like to add functionality to one's game after it has "
 "been deployed."
 msgstr "通常，人们希望在其游戏部署后为它添加功能。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:12
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:12
 msgid "Examples of this include..."
 msgstr "这样的例子包括..."
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:14
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:14
 msgid ""
 "Downloadable Content: the ability to add features and content to one's game."
 msgstr "可下载内容：向游戏添加功能和内容的能力。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:15
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:15
 msgid "Patches: the ability to fix a bug that is present in a shipped product."
 msgstr "修补程序：修复已发布产品中存在的错误的能力。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:16
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:16
 msgid "Mods: grant other people the ability to create content for one's game."
 msgstr "Mods：授予其他人为自己的游戏创建内容的能力。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:18
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:18
 msgid ""
 "These tools help developers to extend their development beyond the initial "
 "release."
 msgstr "这些工具可帮助开发人员，以扩展开发到初始版本之外。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:22
 msgid "Overview of PCK files"
 msgstr "PCK文件概述"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:24
 msgid ""
 "Godot enables this via a feature called **resource packs** (PCK files, with "
 "extension ``.pck``)."
@@ -66,35 +70,35 @@ msgstr ""
 "Godot通过一个名为 **资源包** （PCK文件，扩展名为 ``.pck``）的功能，启用此功"
 "能。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:27
 msgid "**Advantages:**"
 msgstr "**优势：**"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:29
 msgid "incremental updates/patches"
 msgstr "增量更新/补丁"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:30
 msgid "offer DLCs"
 msgstr "提供DLC"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:31
 msgid "offer mod support"
 msgstr "提供mod支持"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:32
 msgid "no source code disclosure needed for mods"
 msgstr "mods不需要公开源代码"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:33
 msgid "more modular project structure"
 msgstr "更加模块化的项目结构"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:34
 msgid "users don’t have to replace the entire game"
 msgstr "用户无需替换整个游戏"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:36
 msgid ""
 "The first part of using them involves exporting and delivering the project "
 "to players. Then, when one wants to add functionality or content later on, "
@@ -103,53 +107,53 @@ msgstr ""
 "使用它们的第一部分涉及导出项目，并将其分发给玩家。然后，当以后想要添加功能或"
 "内容时，他们只是通过PCK文件将更新分发给用户。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:40
 msgid "PCK files usually contain, but are not limited to:"
 msgstr "PCK文件通常包含但不限于："
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:42
 msgid "scripts"
 msgstr "脚本"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:43
 msgid "scenes"
 msgstr "场景"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:44
 msgid "shaders"
 msgstr "着色器"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:45
 msgid "models"
 msgstr "模型"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:46
 msgid "textures"
 msgstr "纹理"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:47
 msgid "sound effects"
 msgstr "音效"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:48
 msgid "music"
 msgstr "音乐"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:49
 msgid "any other asset suitable for import into the game"
 msgstr "任何其他适合导入游戏的素材"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:51
 msgid ""
 "The PCK files can even be an entirely different Godot project, which the "
 "original game loads in at runtime."
 msgstr "PCK文件甚至可以是一个完全不同的Godot项目，原始游戏在运行时加载它。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:55
 msgid "Generating PCK files"
 msgstr "生成PCK文件"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:57
 msgid ""
 "In order to pack all resources of a project into a PCK file open the project "
 "and go to Project/Export and click on “Export PCK/Zip”. Also make sure to "
@@ -159,7 +163,7 @@ msgstr ""
 "（Project/Export）``，然后点击 ``导出PCK/Zip``。还要确保在执行此操作时选择了"
 "导出模板。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:63
 msgid ""
 "Another method would be to :ref:`export from the command line "
 "<doc_command_line_tutorial_exporting>`. If the output file ends with a PCK "
@@ -169,7 +173,7 @@ msgstr ""
 "另一种方法是 :ref:`从命令行导出 <doc_command_line_tutorial_exporting>`。如果"
 "输出文件以PCK或ZIP文件扩展名结尾，则导出过程将为所选平台构建该类型的文件。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:69
 msgid ""
 "If one wishes to support mods for their game, they will need their users to "
 "create similarly exported files. Assuming the original game expects a "
@@ -179,7 +183,7 @@ msgstr ""
 "如果有人希望为他们的游戏支持mod，他们将需要其用户创建类似的导出文件。假设原始"
 "游戏需要PCK资源的某种结构和/或其脚本具有特定的接口，那么..."
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:74
 msgid ""
 "The developer must publicize documentation of these expected structures/ "
 "interfaces, expect modders to install Godot Engine, and then also expect "
@@ -191,7 +195,7 @@ msgstr ""
 "在为游戏构建Mod内容时，这些修改者也将遵守文档中定义的API（这样它将起作用）。"
 "用户然后将如上所述，使用Godot的内置导出工具来创建 ``PCK`` 文件。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:80
 msgid ""
 "The developer uses Godot to build a GUI tool for adding their exact API "
 "content to a project. This Godot tool must either run on a tools-enabled "
@@ -209,11 +213,11 @@ msgstr ""
 "最有意义的是，不使用工具构建（出于安全性考虑）；而对于改装工具而言最有意义的"
 "是，使用工具启用的引擎构建。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:90
 msgid "Opening PCK files at runtime"
 msgstr "在运行时打开 ``PCK`` 文件"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:92
 msgid ""
 "To import a PCK file, one uses a one-liner. Keep in mind, there is no error "
 "or exception if the import fails. Instead, one might have to create some "
@@ -226,7 +230,7 @@ msgstr ""
 "需要一个 ``mod.pck`` 文件。PCK文件在其根目录中包含 ``mod_scene.tscn`` 测试场"
 "景。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:117
 msgid ""
 "If you import a file with the same file path/name as one you already have in "
 "your project, the imported one will replace it. This is something to watch "
@@ -240,11 +244,20 @@ msgstr ""
 "容易解决）。但是，这也是为自己的游戏创建补丁的一种方式。这种PCK文件可以修复先"
 "前加载的PCK的内容。"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:124
+msgid ""
+"For a C# project, you need to build the DLL and place it in the project "
+"directory first. Then, before loading the resource pack, you need to load "
+"its DLL as follows: ``Assembly.LoadFile(\"mod.dll\")``"
+msgstr ""
+"对于一个C#项目，您需要先构建DLL并将其放置在项目目录中。然后，在加载资源包之"
+"前，您需要按如下方式加载其DLL：``Assembly.LoadFile(\"mod.dll\")``"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:129
 msgid "Summary"
 msgstr "总结"
 
-#: ../../docs/getting_started/workflow/export/exporting_pcks.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/workflow/export/exporting_pcks.rst:131
 msgid ""
 "This tutorial should illustrate how easy adding mods, patches or DLC to a "
 "game is. The most important thing is to identify how one plans to distribute "

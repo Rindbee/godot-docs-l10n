@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-26 17:02+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_ninepatchrect.rst:10
+msgid "NinePatchRect"
+msgstr "NinePatchRect"
+
+#: ../../docs/classes/class_ninepatchrect.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:14
+msgid ""
+"Scalable texture-based frame that tiles the texture's centers and sides, "
+"but keeps the corners' original size. Perfect for panels and dialog "
+"boxes."
+msgstr "可伸缩的基于纹理的框架，可平铺纹理的中心和侧面，但保留角的原始大小。非常适合面板和对话框。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_ninepatchrect.rst:19
+msgid ""
+"Also known as 9-slice panels, NinePatchRect produces clean panels of any "
+"size, based on a small texture. To do so, it splits the texture in a 3×3 "
+"grid. When you scale the node, it tiles the texture's sides horizontally "
+"or vertically, the center on both axes but it doesn't scale or tile the "
+"corners."
+msgstr ""
+"``NinePatchRect`` "
+"也称为9切片面板，它基于较小的纹理，生成任何大小的干净面板。为此，它将纹理分成3×3的网格。缩放节点时，它会水平或垂直地平铺纹理的边，两个轴的中心，但不会缩放或平铺角。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_ninepatchrect.rst:25
+#: ../../docs/classes/class_ninepatchrect.rst:27
+msgid ":ref:`AxisStretchMode <enum_NinePatchRect_AxisStretchMode>`"
+msgstr ":ref:`AxisStretchMode <enum_NinePatchRect_AxisStretchMode>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:25
+msgid ""
+":ref:`axis_stretch_horizontal "
+"<class_NinePatchRect_property_axis_stretch_horizontal>`"
+msgstr ""
+":ref:`axis_stretch_horizontal "
+"<class_NinePatchRect_property_axis_stretch_horizontal>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:25
+#: ../../docs/classes/class_ninepatchrect.rst:27
+#: ../../docs/classes/class_ninepatchrect.rst:33
+#: ../../docs/classes/class_ninepatchrect.rst:35
+#: ../../docs/classes/class_ninepatchrect.rst:37
+#: ../../docs/classes/class_ninepatchrect.rst:39
+#: ../../docs/classes/class_ninepatchrect.rst:91
+#: ../../docs/classes/class_ninepatchrect.rst:107
+#: ../../docs/classes/class_ninepatchrect.rst:139
+#: ../../docs/classes/class_ninepatchrect.rst:155
+#: ../../docs/classes/class_ninepatchrect.rst:171
+#: ../../docs/classes/class_ninepatchrect.rst:187
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:27
+msgid ""
+":ref:`axis_stretch_vertical "
+"<class_NinePatchRect_property_axis_stretch_vertical>`"
+msgstr ""
+":ref:`axis_stretch_vertical "
+"<class_NinePatchRect_property_axis_stretch_vertical>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:29
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:29
+msgid ":ref:`draw_center <class_NinePatchRect_property_draw_center>`"
+msgstr ":ref:`draw_center <class_NinePatchRect_property_draw_center>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:29
+#: ../../docs/classes/class_ninepatchrect.rst:123
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: ../../docs/classes/class_ninepatchrect.rst:31
+msgid ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+msgstr ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:31
+msgid "mouse_filter"
+msgstr "mouse_filter"
+
+#: ../../docs/classes/class_ninepatchrect.rst:31
+#, fuzzy
+msgid "**O:** ``2``"
+msgstr "**O:** 2"
+
+#: ../../docs/classes/class_ninepatchrect.rst:33
+#: ../../docs/classes/class_ninepatchrect.rst:35
+#: ../../docs/classes/class_ninepatchrect.rst:37
+#: ../../docs/classes/class_ninepatchrect.rst:39
+#: ../../docs/classes/class_ninepatchrect.rst:50
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:33
+msgid ""
+":ref:`patch_margin_bottom "
+"<class_NinePatchRect_property_patch_margin_bottom>`"
+msgstr ""
+":ref:`patch_margin_bottom "
+"<class_NinePatchRect_property_patch_margin_bottom>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:35
+msgid ":ref:`patch_margin_left <class_NinePatchRect_property_patch_margin_left>`"
+msgstr ":ref:`patch_margin_left <class_NinePatchRect_property_patch_margin_left>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:37
+msgid ""
+":ref:`patch_margin_right "
+"<class_NinePatchRect_property_patch_margin_right>`"
+msgstr ""
+":ref:`patch_margin_right "
+"<class_NinePatchRect_property_patch_margin_right>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:39
+msgid ":ref:`patch_margin_top <class_NinePatchRect_property_patch_margin_top>`"
+msgstr ":ref:`patch_margin_top <class_NinePatchRect_property_patch_margin_top>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:41
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ":ref:`Rect2 <class_Rect2>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:41
+msgid ":ref:`region_rect <class_NinePatchRect_property_region_rect>`"
+msgstr ":ref:`region_rect <class_NinePatchRect_property_region_rect>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:41
+#: ../../docs/classes/class_ninepatchrect.rst:203
+#, fuzzy
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr "Rect2( 0, 0, 0, 0 )"
+
+#: ../../docs/classes/class_ninepatchrect.rst:43
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:43
+msgid ":ref:`texture <class_NinePatchRect_property_texture>`"
+msgstr ":ref:`texture <class_NinePatchRect_property_texture>`"
+
+#: ../../docs/classes/class_ninepatchrect.rst:47
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_ninepatchrect.rst:50
+msgid ""
+":ref:`get_patch_margin <class_NinePatchRect_method_get_patch_margin>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`get_patch_margin <class_NinePatchRect_method_get_patch_margin>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+
+#: ../../docs/classes/class_ninepatchrect.rst:52
+msgid "void"
+msgstr "void"
+
+#: ../../docs/classes/class_ninepatchrect.rst:52
+msgid ""
+":ref:`set_patch_margin <class_NinePatchRect_method_set_patch_margin>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`int "
+"<class_int>` value **)**"
+msgstr ""
+":ref:`set_patch_margin <class_NinePatchRect_method_set_patch_margin>` "
+"**(** :ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`int "
+"<class_int>` value **)**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:56
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_ninepatchrect.rst:60
+msgid "**texture_changed** **(** **)**"
+msgstr "**texture_changed** **(** **)**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:62
+#, fuzzy
+msgid "Emitted when the node's texture changes."
+msgstr "当节点的纹理改变时触发。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:65
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_ninepatchrect.rst:75
+msgid "enum **AxisStretchMode**:"
+msgstr "枚举 **AxisStretchMode**："
+
+#: ../../docs/classes/class_ninepatchrect.rst:77
+msgid ""
+"**AXIS_STRETCH_MODE_STRETCH** = **0** --- Doesn't do anything at the time"
+" of writing."
+msgstr "**AXIS_STRETCH_MODE_STRETCH** = **0** —— 在写时不做任何事情。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:79
+msgid ""
+"**AXIS_STRETCH_MODE_TILE** = **1** --- Doesn't do anything at the time of"
+" writing."
+msgstr "**AXIS_STRETCH_MODE_TILE** = **1** —— 在写时不做任何事情。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:81
+msgid ""
+"**AXIS_STRETCH_MODE_TILE_FIT** = **2** --- Doesn't do anything at the "
+"time of writing."
+msgstr "**AXIS_STRETCH_MODE_TILE_FIT** = **2** —— 在写时不做任何事情。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:84
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_ninepatchrect.rst:88
+msgid ""
+":ref:`AxisStretchMode <enum_NinePatchRect_AxisStretchMode>` "
+"**axis_stretch_horizontal**"
+msgstr ""
+":ref:`AxisStretchMode <enum_NinePatchRect_AxisStretchMode>` "
+"**axis_stretch_horizontal**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:91
+#: ../../docs/classes/class_ninepatchrect.rst:107
+#: ../../docs/classes/class_ninepatchrect.rst:123
+#: ../../docs/classes/class_ninepatchrect.rst:139
+#: ../../docs/classes/class_ninepatchrect.rst:155
+#: ../../docs/classes/class_ninepatchrect.rst:171
+#: ../../docs/classes/class_ninepatchrect.rst:187
+#: ../../docs/classes/class_ninepatchrect.rst:203
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_ninepatchrect.rst:93
+#: ../../docs/classes/class_ninepatchrect.rst:109
+#: ../../docs/classes/class_ninepatchrect.rst:125
+#: ../../docs/classes/class_ninepatchrect.rst:141
+#: ../../docs/classes/class_ninepatchrect.rst:157
+#: ../../docs/classes/class_ninepatchrect.rst:173
+#: ../../docs/classes/class_ninepatchrect.rst:189
+#: ../../docs/classes/class_ninepatchrect.rst:205
+#: ../../docs/classes/class_ninepatchrect.rst:219
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_ninepatchrect.rst:93
+msgid "set_h_axis_stretch_mode(value)"
+msgstr "set_h_axis_stretch_mode(value)"
+
+#: ../../docs/classes/class_ninepatchrect.rst:95
+#: ../../docs/classes/class_ninepatchrect.rst:111
+#: ../../docs/classes/class_ninepatchrect.rst:127
+#: ../../docs/classes/class_ninepatchrect.rst:143
+#: ../../docs/classes/class_ninepatchrect.rst:159
+#: ../../docs/classes/class_ninepatchrect.rst:175
+#: ../../docs/classes/class_ninepatchrect.rst:191
+#: ../../docs/classes/class_ninepatchrect.rst:207
+#: ../../docs/classes/class_ninepatchrect.rst:221
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_ninepatchrect.rst:95
+msgid "get_h_axis_stretch_mode()"
+msgstr "get_h_axis_stretch_mode()"
+
+#: ../../docs/classes/class_ninepatchrect.rst:98
+#: ../../docs/classes/class_ninepatchrect.rst:114
+msgid "Doesn't do anything at the time of writing."
+msgstr "在写时不做任何事情。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:104
+msgid ""
+":ref:`AxisStretchMode <enum_NinePatchRect_AxisStretchMode>` "
+"**axis_stretch_vertical**"
+msgstr ""
+":ref:`AxisStretchMode <enum_NinePatchRect_AxisStretchMode>` "
+"**axis_stretch_vertical**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:109
+msgid "set_v_axis_stretch_mode(value)"
+msgstr "set_v_axis_stretch_mode(value)"
+
+#: ../../docs/classes/class_ninepatchrect.rst:111
+msgid "get_v_axis_stretch_mode()"
+msgstr "get_v_axis_stretch_mode()"
+
+#: ../../docs/classes/class_ninepatchrect.rst:120
+msgid ":ref:`bool <class_bool>` **draw_center**"
+msgstr ":ref:`bool <class_bool>` **draw_center**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:125
+msgid "set_draw_center(value)"
+msgstr "set_draw_center(value)"
+
+#: ../../docs/classes/class_ninepatchrect.rst:127
+msgid "is_draw_center_enabled()"
+msgstr "is_draw_center_enabled()"
+
+#: ../../docs/classes/class_ninepatchrect.rst:130
+msgid ""
+"If ``true``, draw the panel's center. Else, only draw the 9-slice's "
+"borders."
+msgstr "如果为 ``true``，则绘制面板的中心。否则，仅绘制9切片的边界。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:136
+msgid ":ref:`int <class_int>` **patch_margin_bottom**"
+msgstr ":ref:`int <class_int>` **patch_margin_bottom**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:141
+#: ../../docs/classes/class_ninepatchrect.rst:157
+#: ../../docs/classes/class_ninepatchrect.rst:173
+#: ../../docs/classes/class_ninepatchrect.rst:189
+msgid "set_patch_margin(value)"
+msgstr "set_patch_margin(value)"
+
+#: ../../docs/classes/class_ninepatchrect.rst:143
+#: ../../docs/classes/class_ninepatchrect.rst:159
+#: ../../docs/classes/class_ninepatchrect.rst:175
+#: ../../docs/classes/class_ninepatchrect.rst:191
+msgid "get_patch_margin()"
+msgstr "get_patch_margin()"
+
+#: ../../docs/classes/class_ninepatchrect.rst:146
+msgid ""
+"The height of the 9-slice's bottom row. A margin of 16 means the "
+"9-slice's bottom corners and side will have a height of 16 pixels. You "
+"can set all 4 margin values individually to create panels with non-"
+"uniform borders."
+msgstr "9补丁底行的高度。边距为16表示，9补丁的底角和侧面的高度，为16像素。您可以分别设置所有4个边距值，以创建边框不一致的面板。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:152
+msgid ":ref:`int <class_int>` **patch_margin_left**"
+msgstr ":ref:`int <class_int>` **patch_margin_left**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:162
+msgid "The height of the 9-slice's left column."
+msgstr "9补丁的左列的高度。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:168
+msgid ":ref:`int <class_int>` **patch_margin_right**"
+msgstr ":ref:`int <class_int>` **patch_margin_right**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:178
+msgid "The height of the 9-slice's right column."
+msgstr "9补丁的右列的高度。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:184
+msgid ":ref:`int <class_int>` **patch_margin_top**"
+msgstr ":ref:`int <class_int>` **patch_margin_top**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:194
+msgid "The height of the 9-slice's top row."
+msgstr "9片的顶行的高度。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:200
+msgid ":ref:`Rect2 <class_Rect2>` **region_rect**"
+msgstr ":ref:`Rect2 <class_Rect2>` **region_rect**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:205
+msgid "set_region_rect(value)"
+msgstr "set_region_rect(value)"
+
+#: ../../docs/classes/class_ninepatchrect.rst:207
+msgid "get_region_rect()"
+msgstr "get_region_rect()"
+
+#: ../../docs/classes/class_ninepatchrect.rst:210
+msgid ""
+"Rectangular region of the texture to sample from. If you're working with "
+"an atlas, use this property to define the area the 9-slice should use. "
+"All other properties are relative to this one. If the rect is empty, "
+"NinePatchRect will use the whole texture."
+msgstr ""
+"要采样的纹理的矩形区域。如果您正在使用图集，请使用此属性来定义9切片应使用的区域。所有其他属性都与此相对。如果 ``rect`` 为空，则 "
+"``NinePatchRect`` 将使用整个纹理。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:216
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ":ref:`Texture <class_Texture>` **texture**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:219
+msgid "set_texture(value)"
+msgstr "set_texture(value)"
+
+#: ../../docs/classes/class_ninepatchrect.rst:221
+msgid "get_texture()"
+msgstr "get_texture()"
+
+#: ../../docs/classes/class_ninepatchrect.rst:224
+msgid "The node's texture resource."
+msgstr "节点的纹理资源。"
+
+#: ../../docs/classes/class_ninepatchrect.rst:227
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_ninepatchrect.rst:231
+msgid ""
+":ref:`int <class_int>` **get_patch_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`int <class_int>` **get_patch_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: ../../docs/classes/class_ninepatchrect.rst:233
+msgid ""
+"Returns the size of the margin identified by the given :ref:`Margin "
+"<enum_@GlobalScope_Margin>` constant."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:239
+msgid ""
+"void **set_patch_margin** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`int <class_int>` value **)**"
+msgstr ""
+"void **set_patch_margin** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`int <class_int>` value **)**"
+
+#: ../../docs/classes/class_ninepatchrect.rst:241
+msgid ""
+"Sets the size of the margin identified by the given :ref:`Margin "
+"<enum_@GlobalScope_Margin>` constant to ``value`` in pixels."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

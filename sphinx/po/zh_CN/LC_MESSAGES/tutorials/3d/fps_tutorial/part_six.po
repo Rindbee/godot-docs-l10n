@@ -1,30 +1,33 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-10-30 09:13+0800\n"
+"PO-Revision-Date: 2020-03-05 22:30+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:4
 msgid "Part 6"
 msgstr "第6部分"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:7
-#, fuzzy
 msgid "Part overview"
-msgstr "零件概述"
+msgstr "部分概述"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:9
 #, fuzzy
@@ -82,8 +85,8 @@ msgid ""
 "bit more interesting than a solid color. It's a camera looking around the "
 "skybox, nothing fancy."
 msgstr ""
-"``Background_Animation``节点就是这样，菜单的背景比纯色更有趣。 这是一个环顾天"
-"空盒的相机，没什么特别的。"
+"``Background_Animation`` 节点就是这样，菜单的背景比纯色更有趣。 这是一个环顾"
+"天空盒的相机，没什么特别的。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:32
 #, fuzzy
@@ -116,7 +119,7 @@ msgstr ""
 msgid ""
 "See :ref:`doc_ui_main_menu` and the tutorials following for better ways to "
 "make GUIs and UIs!"
-msgstr "请参阅 :ref:`doc_ui_main_menu`以及以下教程，以获得更好的GUI和UI方法！"
+msgstr "请参阅 :ref:`doc_ui_main_menu` 以及以下教程，以获得更好的GUI和UI方法！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:127
 msgid "Let's look at the class variables first."
@@ -149,24 +152,24 @@ msgid ""
 "``testing_area_scene``: The path to the ``Testing_Area.tscn`` file, so we "
 "can change to it from this scene."
 msgstr ""
-"``testing_area_scene``:``Testing_Area.tscn``文件的路径，所以我们可以从这个场"
-"景改变它。"
+"``testing_area_scene`` : ``Testing_Area.tscn`` 文件的路径，所以我们可以从这个"
+"场景改变它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:133
 msgid ""
 "``space_level_scene``: The path to the ``Space_Level.tscn`` file, so we can "
 "change to it from this scene."
 msgstr ""
-"``space_level_scene``:``Space_Level.tscn``文件的路径，所以我们可以从这个场景"
-"改变它。"
+"``space_level_scene`` : ``Space_Level.tscn`` 文件的路径，所以我们可以从这个场"
+"景改变它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:134
 msgid ""
 "``ruins_level_scene``: The path to the ``Ruins_Level.tscn`` file, so we can "
 "change to it from this scene."
 msgstr ""
-"``ruins_level_scene``:``Ruins_Level.tscn``文件的路径，所以我们可以从这个场景"
-"改变它。"
+"``ruins_level_scene`` : ``Ruins_Level.tscn`` 文件的路径，所以我们可以从这个场"
+"景改变它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:136
 msgid ""
@@ -860,7 +863,7 @@ msgstr "``popup_closed``将恢复游戏并摧毁弹出窗口(如果有的话)。
 msgid ""
 "``popup_quit`` is similar, but we're also making sure the mouse is visible "
 "and changing scenes to the title screen."
-msgstr "``popup_quit``类似，但我们也确保鼠标可见并将场景更改为标题屏幕。"
+msgstr "``popup_quit`` 类似，但我们也确保鼠标可见并将场景更改为标题屏幕。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:481
 #, fuzzy
@@ -1132,8 +1135,8 @@ msgid ""
 "We then change the :ref:`Label <class_Label>` in ``Death_Screen`` to show "
 "how much time the player has left."
 msgstr ""
-"然后我们在``Death Screen``中更改 :ref:`Label <class Label>` 来显示游戏角色离"
-"开的时间。"
+"然后我们在 ``Death Screen`` 中更改 :ref:`Label <class_Label>` 来显示游戏角色"
+"离开的时间。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:673
 msgid ""
@@ -1358,8 +1361,8 @@ msgid ""
 "player needs them in the player's ``_ready`` function."
 msgstr ""
 "任何带有“Respawn_Point_Setter.gd`”的节点都必须位于 :ref:`SceneTree "
-"<class_SceneTree>中的游戏角色上方，所以重新生成的点在游戏角色需要它们在游戏角"
-"色的 ``_ready`` 函数之前设置。"
+"<class_SceneTree>` 中的游戏角色上方，所以重新生成的点在游戏角色需要它们在游戏"
+"角色的 ``_ready`` 函数之前设置。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:805
 #, fuzzy
@@ -1541,8 +1544,8 @@ msgid ""
 "gun sound pack included in the Sonniss' GDC Game Audio bundle for 2017. The "
 "tracks I've used (with some minor editing) are as follows:"
 msgstr ""
-"我推荐的一个网站是** GameSounds.xyz **。 我正在使用2017年Sonniss'GDC游戏音频"
-"包中包含的Gamemaster音频枪声音包。我使用过的轨道(经过一些小编辑)如下:"
+"我推荐的一个网站是 **GameSounds.xyz**。 我正在使用2017年Sonniss'GDC游戏音频包"
+"中包含的Gamemaster音频枪声音包。我使用过的轨道(经过一些小编辑)如下:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:918
 msgid "gun_revolver_pistol_shot_04,"
@@ -1712,8 +1715,8 @@ msgid ""
 "You can download the finished project for the entire tutorial here: :"
 "download:`Godot_FPS_Part_6.zip <files/Godot_FPS_Finished.zip>`"
 msgstr ""
-"您可以在这里下载整个教程的完成项目: :download:`Godot_FPS_Part_6.zip <files / "
-"Godot_FPS_Finished.zip>`"
+"您可以在这里 :download:`Godot_FPS_Part_6.zip <files/Godot_FPS_Finished.zip>` "
+"下载整个教程的完成项目"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1008
 msgid ""
@@ -1775,8 +1778,8 @@ msgid ""
 "community.** All original assets provided for this tutorial are released "
 "under the ``MIT`` license."
 msgstr ""
-"启动资源中提供的所有资源(除非另有说明)最初由TwistedTwigleg创建，由Godot社区进"
-"行更改/添加。**本教程提供的所有原始资源均在“MIT”许可下发布。"
+"启动资源中提供的所有资源(除非另有说明) **最初由TwistedTwigleg创建，由Godot社"
+"区进行更改/添加。** 本教程提供的所有原始资源均在“MIT”许可下发布。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1029
 msgid ""
@@ -1784,8 +1787,8 @@ msgid ""
 "to the Godot community, with the other assets belonging to those listed "
 "below:"
 msgstr ""
-"您可以随意使用这些资源！ 所有原始资源均属于Godot社区，其他资源属于以下列出的"
-"资源:"
+"您可以随意使用这些资源！ 所有原始资源均属于Godot社区，其他资源归属在下方列"
+"出："
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1031
 msgid ""
@@ -1793,7 +1796,7 @@ msgid ""
 "org. https://opengameart.org/content/space-skyboxes-0 . The skybox is "
 "licensed under the ``CC0`` license."
 msgstr ""
-"天空盒由** StumpyStrust **创建，可以在OpenGameArt.org找到。 https://"
+"天空盒由 **StumpyStrust** 创建，可以在OpenGameArt.org找到。 https://"
 "opengameart.org/content/space-skyboxes-0。 天空盒根据“CC0”许可证授权。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1034
@@ -1801,8 +1804,8 @@ msgid ""
 "The font used is **Titillium-Regular**, and is licensed under the ``SIL Open "
 "Font License, Version 1.1``."
 msgstr ""
-"使用的字体是** Titillium-Regular **，并根据``SIL Open Font License，Version "
-"1.1`许可。"
+"使用的字体是 **Titillium-Regular**，并遵循 ``SIL Open Font License, Version "
+"1.1`` 许可。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1036
 msgid ""

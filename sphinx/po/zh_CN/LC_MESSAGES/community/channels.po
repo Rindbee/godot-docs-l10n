@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-30 19:27+0800\n"
+"PO-Revision-Date: 2020-02-13 16:50+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/community/channels.rst:4
 msgid "Community channels"
@@ -108,9 +112,8 @@ msgid "Other chats"
 msgstr "其他聊天"
 
 #: ../../docs/community/channels.rst:31
-#, fuzzy
 msgid "`Discord Server <https://discordapp.com/invite/zH7NUgz>`_"
-msgstr "`Discord <https://discordapp.com/invite/zH7NUgz>`_"
+msgstr "`Discord Server <https://discordapp.com/invite/zH7NUgz>`_"
 
 #: ../../docs/community/channels.rst:32
 msgid ""
@@ -118,33 +121,35 @@ msgid ""
 msgstr "`Matrix (IRC兼容) <https://matrix.to/#/#godotengine:matrix.org>`_"
 
 #: ../../docs/community/channels.rst:35
-#, fuzzy
 msgid "Language-based communities"
-msgstr "庞大的社区"
+msgstr "基于语言的社区"
 
 #: ../../docs/community/channels.rst:37
 msgid ""
 "Brazilian Portuguese: `Godot Brasil (Discord) <https://discord.gg/gWmQKBv>`_"
-msgstr ""
+msgstr "巴西葡萄牙语：`Godot Brasil (Discord) <https://discord.gg/gWmQKBv>`_"
 
 #: ../../docs/community/channels.rst:38
 msgid ""
 "French: `Godot Francophone Officiel (Discord) <https://discord.gg/3jvf3XN>`_"
 msgstr ""
+"法语：`Godot Francophone Officiel (Discord) <https://discord.gg/3jvf3XN>`_"
 
 #: ../../docs/community/channels.rst:39
 msgid "French: `SoloCode Godot (Discord) <https://discord.gg/gZ3QJ5T>`_"
-msgstr ""
+msgstr "法语：`SoloCode Godot (Discord) <https://discord.gg/gZ3QJ5T>`_"
 
 #: ../../docs/community/channels.rst:40
 msgid ""
 "German: `Deutsche Godot Community (Discord) <https://discord.gg/Tr7Ma6E>`_"
 msgstr ""
+"德语：`Deutsche Godot Community (Discord) <https://discord.gg/Tr7Ma6E>`_"
 
 #: ../../docs/community/channels.rst:41
 msgid ""
 "Swedish: `Swedish Godot Community (Discord) <https://discord.gg/6ZsgWmH>`_"
-msgstr "德语:`德国 Godot 社区(Discord) <https://discord.gg/6ZsgWmH>`_"
+msgstr ""
+"瑞典语：`Swedish Godot Community (Discord) <https://discord.gg/6ZsgWmH>`_"
 
 #: ../../docs/community/channels.rst:44
 msgid "Social networks"
@@ -180,4 +185,4 @@ msgstr "论坛"
 
 #: ../../docs/community/channels.rst:56
 msgid "`Forum (godotforums.org) <https://godotforums.org/>`_"
-msgstr "`论坛(godotforums.org) <https://godotforums.org/>`_"
+msgstr "`论坛（godotforums.org） <https://godotforums.org/>`_"

@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2020-03-07 15:43+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:4
-#, fuzzy
 msgid "Instancing with signals"
-msgstr "与光交互"
+msgstr "用信号实例化"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:6
 msgid ""
@@ -32,39 +31,41 @@ msgid ""
 "instancing objects at runtime and may want to place them in an arbitrary "
 "location in the running scene tree."
 msgstr ""
+"信号提供了一种将游戏对象解耦的方法，从而可以避免强制节点的固定排列。可能需要"
+"信号的一个标志是当您使用 ``get_parent()`` 发现自己时。直接引用节点的父节点意"
+"味着您无法轻松地将该节点移动到场景树中的另一个位置。当您在运行时中实例化对"
+"象，并且可能想要将它们放置在运行的场景树中的任意位置时，这尤其是个问题。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:13
 msgid "Below we'll consider an example of such a situation: firing bullets."
-msgstr ""
+msgstr "下面我们将考虑这种情况的一个示例：发射子弹。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:16
 msgid "Shooting example"
 msgstr "射击示例"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:18
-#, fuzzy
 msgid ""
 "Consider a player character that can rotate and shoot towards the mouse. "
 "Every time the mouse button is clicked, we create an instance of the bullet "
 "at the player's location. See :ref:`doc_instancing` for details."
 msgstr ""
-"作为信号使用的另一个示例，让我们考虑一个可以旋转并向鼠标射击的游戏角色角色。"
-"每次单击鼠标按钮，我们都会在游戏角色的位置创建子弹的实例。详情请参阅 :ref:"
-"`doc_instancing` 。"
+"考虑一个可以旋转并朝着鼠标射击的玩家角色。每次点击鼠标按钮时，我们都会在玩家"
+"所在的位置创建一个子弹实例。有关详细信息，请参见 :ref:`doc_instancing`。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:22
 msgid ""
 "We'll use an ``Area2D`` for the bullet, which moves in a straight line at a "
 "given velocity:"
-msgstr ""
+msgstr "我们将对子弹使用 ``Area2D``，它以给定的速度沿直线移动："
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:47
 msgid ""
 "However, if the bullets are added as children of the player, then they will "
 "remain \"attached\" to the player as it rotates:"
 msgstr ""
-"然而，如果子弹作为游戏角色的子节点添加，那么当它旋转时，子弹将仍然保持“附"
-"着”在游戏角色身上:"
+"但是，如果将子弹添加为游戏角色的子节点，则它们将在游戏角色旋转时仍保持附着于"
+"游戏角色："
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:52
 msgid ""
@@ -75,18 +76,16 @@ msgid ""
 "\"main\" game scene, which may be the player's parent or even further up the "
 "tree."
 msgstr ""
-"相反，我们需要子弹独立于游戏角色的移动——一旦发射，子弹就会继续沿着直线运动，"
-"游戏角色就不能再影响它们了。与其作为游戏角色的子节点被添加到场景树中，不如将"
-"子弹作为“主”游戏场景的子节点添加上去更有意义，后者可能是游戏角色的父节点，甚"
-"至可能是更高层级的树。"
+"取而代之的是，我们需要子弹与游戏角色的移动无关——发射后，子弹应继续沿直线行"
+"进，而游戏角色不再能够影响它们。与其将其作为游戏角色的子节点添加到场景树中，"
+"不如将子弹添加为主游戏场景的子节点，可能是游戏角色的父节点，甚至更高层级的"
+"树。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:58
-#, fuzzy
 msgid "You could do this by adding the bullet to the main scene directly:"
-msgstr "您可以通过直接添加子弹来做到这一点:"
+msgstr "您可以通过将子弹直接添加到主场景中来做到这一点："
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:71
-#, fuzzy
 msgid ""
 "However, this will lead to a different problem. Now if you try to test your "
 "\"Player\" scene independently, it will crash on shooting, because there is "
@@ -95,10 +94,10 @@ msgid ""
 "scene's node structure, the player's parent may no longer be the appropriate "
 "node to receive the bullets."
 msgstr ""
-"然而，这将导致一个不同的问题。现在如果您尝试独立测试您的“游戏角色”场景，它会"
-"在射击时崩溃，因为没有父节点可以访问。这使得独立测试游戏角色角色代码变得更加"
-"困难，也意味着如果您决定改变主场景的节点结构，游戏角色的父节点可能不再是接收"
-"子弹的合适节点。"
+"但是，这将导致另一个问题。现在，如果您尝试独立测试 ``Player`` 场景，由于没有"
+"父节点可访问，因此它将在射击时崩溃。这使得独立测试游戏角色的代码变得更加困"
+"难，并且也意味着如果您决定更改主场景的节点结构，则游戏角色的父节点可能不再是"
+"接收子弹的合适节点。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:78
 msgid ""
@@ -107,22 +106,23 @@ msgid ""
 "after that - whatever node is connected to the signal can \"receive\" the "
 "bullets and take the appropriate action to spawn them."
 msgstr ""
-"解决这个问题的方法是使用一个信号来“发射”游戏角色的子弹。游戏角色不需要“知"
-"道”子弹在那之后发生了什么——任何连接到信号的节点都可以“接收”子弹并采取适当的行"
-"动来产生它们。"
+"解决方案是使用一个信号从游戏角色 ``发射`` 子弹。然后，游戏角色无需“知道”子弹"
+"发生了什么——连接到该信号的任何节点都可以“接收”子弹，并采取适当的行动来产生他"
+"们。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:83
 msgid "Here is the code for the player using signals to emit the bullet:"
-msgstr "下面是游戏角色使用信号发射子弹的代码:"
+msgstr "这是游戏角色使用信号发射子弹的代码："
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:128
 msgid ""
 "In the main scene, we then connect the player's signal (it will appear in "
 "the \"Node\" tab)."
-msgstr "在主场景中，我们连接游戏角色的信号(它将出现在“Node”选项卡中)。"
+msgstr ""
+"在主场景中，我们然后连接游戏角色的信号（它将出现在 ``节点`` 选项卡中）。"
 
 #: ../../docs/tutorials/misc/instancing_with_signals.rst:152
 msgid ""
 "Now the bullets will maintain their own movement independent of the player's "
 "rotation:"
-msgstr "现在子弹将保持自己的运动独立于游戏角色的旋转:"
+msgstr "现在子弹将保持自己的移动，独立于游戏角色的旋转："

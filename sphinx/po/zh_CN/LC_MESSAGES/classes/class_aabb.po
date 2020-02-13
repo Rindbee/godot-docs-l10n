@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-12-01 13:12+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_aabb.rst:10
+msgid "AABB"
+msgstr "AABB"
+
+#: ../../docs/classes/class_aabb.rst:12
+msgid "Axis-Aligned Bounding Box."
+msgstr "轴对齐的边界框。"
+
+#: ../../docs/classes/class_aabb.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_aabb.rst:17
+msgid ""
+"AABB consists of a position, a size, and several utility functions. It is"
+" typically used for fast overlap tests."
+msgstr "AABB由一个位置、一个大小、和几个工具函数组成。它通常用于快速重叠测试。"
+
+#: ../../docs/classes/class_aabb.rst:20
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_aabb.rst:22
+msgid ":doc:`../tutorials/math/index`"
+msgstr ":doc:`../tutorials/math/index`"
+
+#: ../../docs/classes/class_aabb.rst:25
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_aabb.rst:28 ../../docs/classes/class_aabb.rst:30
+#: ../../docs/classes/class_aabb.rst:32 ../../docs/classes/class_aabb.rst:47
+#: ../../docs/classes/class_aabb.rst:49 ../../docs/classes/class_aabb.rst:55
+#: ../../docs/classes/class_aabb.rst:61
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ":ref:`Vector3 <class_Vector3>`"
+
+#: ../../docs/classes/class_aabb.rst:28
+msgid ":ref:`end <class_AABB_property_end>`"
+msgstr ":ref:`end <class_AABB_property_end>`"
+
+#: ../../docs/classes/class_aabb.rst:28 ../../docs/classes/class_aabb.rst:30
+#: ../../docs/classes/class_aabb.rst:32 ../../docs/classes/class_aabb.rst:92
+#: ../../docs/classes/class_aabb.rst:104 ../../docs/classes/class_aabb.rst:116
+#, fuzzy
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr "Vector3( 0, 0, 0 )"
+
+#: ../../docs/classes/class_aabb.rst:30
+msgid ":ref:`position <class_AABB_property_position>`"
+msgstr ":ref:`position <class_AABB_property_position>`"
+
+#: ../../docs/classes/class_aabb.rst:32
+msgid ":ref:`size <class_AABB_property_size>`"
+msgstr ":ref:`size <class_AABB_property_size>`"
+
+#: ../../docs/classes/class_aabb.rst:36
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_aabb.rst:39 ../../docs/classes/class_aabb.rst:43
+#: ../../docs/classes/class_aabb.rst:63 ../../docs/classes/class_aabb.rst:71
+#: ../../docs/classes/class_aabb.rst:81
+msgid ":ref:`AABB <class_AABB>`"
+msgstr ":ref:`AABB <class_AABB>`"
+
+#: ../../docs/classes/class_aabb.rst:39
+msgid ""
+":ref:`AABB <class_AABB_method_AABB>` **(** :ref:`Vector3 <class_Vector3>`"
+" position, :ref:`Vector3 <class_Vector3>` size **)**"
+msgstr ""
+":ref:`AABB <class_AABB_method_AABB>` **(** :ref:`Vector3 <class_Vector3>`"
+" position, :ref:`Vector3 <class_Vector3>` size **)**"
+
+#: ../../docs/classes/class_aabb.rst:41 ../../docs/classes/class_aabb.rst:65
+#: ../../docs/classes/class_aabb.rst:67 ../../docs/classes/class_aabb.rst:69
+#: ../../docs/classes/class_aabb.rst:73 ../../docs/classes/class_aabb.rst:75
+#: ../../docs/classes/class_aabb.rst:77 ../../docs/classes/class_aabb.rst:79
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_aabb.rst:41
+msgid ""
+":ref:`encloses <class_AABB_method_encloses>` **(** :ref:`AABB "
+"<class_AABB>` with **)**"
+msgstr ""
+":ref:`encloses <class_AABB_method_encloses>` **(** :ref:`AABB "
+"<class_AABB>` with **)**"
+
+#: ../../docs/classes/class_aabb.rst:43
+msgid ""
+":ref:`expand <class_AABB_method_expand>` **(** :ref:`Vector3 "
+"<class_Vector3>` to_point **)**"
+msgstr ""
+":ref:`expand <class_AABB_method_expand>` **(** :ref:`Vector3 "
+"<class_Vector3>` to_point **)**"
+
+#: ../../docs/classes/class_aabb.rst:45 ../../docs/classes/class_aabb.rst:53
+#: ../../docs/classes/class_aabb.rst:59
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_aabb.rst:45
+msgid ":ref:`get_area <class_AABB_method_get_area>` **(** **)**"
+msgstr ":ref:`get_area <class_AABB_method_get_area>` **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:47
+msgid ""
+":ref:`get_endpoint <class_AABB_method_get_endpoint>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+":ref:`get_endpoint <class_AABB_method_get_endpoint>` **(** :ref:`int "
+"<class_int>` idx **)**"
+
+#: ../../docs/classes/class_aabb.rst:49
+msgid ":ref:`get_longest_axis <class_AABB_method_get_longest_axis>` **(** **)**"
+msgstr ":ref:`get_longest_axis <class_AABB_method_get_longest_axis>` **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:51 ../../docs/classes/class_aabb.rst:57
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_aabb.rst:51
+msgid ""
+":ref:`get_longest_axis_index <class_AABB_method_get_longest_axis_index>` "
+"**(** **)**"
+msgstr ""
+":ref:`get_longest_axis_index <class_AABB_method_get_longest_axis_index>` "
+"**(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:53
+msgid ""
+":ref:`get_longest_axis_size <class_AABB_method_get_longest_axis_size>` "
+"**(** **)**"
+msgstr ""
+":ref:`get_longest_axis_size <class_AABB_method_get_longest_axis_size>` "
+"**(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:55
+msgid ":ref:`get_shortest_axis <class_AABB_method_get_shortest_axis>` **(** **)**"
+msgstr ":ref:`get_shortest_axis <class_AABB_method_get_shortest_axis>` **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:57
+msgid ""
+":ref:`get_shortest_axis_index "
+"<class_AABB_method_get_shortest_axis_index>` **(** **)**"
+msgstr ""
+":ref:`get_shortest_axis_index "
+"<class_AABB_method_get_shortest_axis_index>` **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:59
+msgid ""
+":ref:`get_shortest_axis_size <class_AABB_method_get_shortest_axis_size>` "
+"**(** **)**"
+msgstr ""
+":ref:`get_shortest_axis_size <class_AABB_method_get_shortest_axis_size>` "
+"**(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:61
+msgid ""
+":ref:`get_support <class_AABB_method_get_support>` **(** :ref:`Vector3 "
+"<class_Vector3>` dir **)**"
+msgstr ""
+":ref:`get_support <class_AABB_method_get_support>` **(** :ref:`Vector3 "
+"<class_Vector3>` dir **)**"
+
+#: ../../docs/classes/class_aabb.rst:63
+msgid ""
+":ref:`grow <class_AABB_method_grow>` **(** :ref:`float <class_float>` by "
+"**)**"
+msgstr ""
+":ref:`grow <class_AABB_method_grow>` **(** :ref:`float <class_float>` by "
+"**)**"
+
+#: ../../docs/classes/class_aabb.rst:65
+msgid ":ref:`has_no_area <class_AABB_method_has_no_area>` **(** **)**"
+msgstr ":ref:`has_no_area <class_AABB_method_has_no_area>` **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:67
+msgid ":ref:`has_no_surface <class_AABB_method_has_no_surface>` **(** **)**"
+msgstr ":ref:`has_no_surface <class_AABB_method_has_no_surface>` **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:69
+msgid ""
+":ref:`has_point <class_AABB_method_has_point>` **(** :ref:`Vector3 "
+"<class_Vector3>` point **)**"
+msgstr ""
+":ref:`has_point <class_AABB_method_has_point>` **(** :ref:`Vector3 "
+"<class_Vector3>` point **)**"
+
+#: ../../docs/classes/class_aabb.rst:71
+msgid ""
+":ref:`intersection <class_AABB_method_intersection>` **(** :ref:`AABB "
+"<class_AABB>` with **)**"
+msgstr ""
+":ref:`intersection <class_AABB_method_intersection>` **(** :ref:`AABB "
+"<class_AABB>` with **)**"
+
+#: ../../docs/classes/class_aabb.rst:73
+msgid ""
+":ref:`intersects <class_AABB_method_intersects>` **(** :ref:`AABB "
+"<class_AABB>` with **)**"
+msgstr ""
+":ref:`intersects <class_AABB_method_intersects>` **(** :ref:`AABB "
+"<class_AABB>` with **)**"
+
+#: ../../docs/classes/class_aabb.rst:75
+msgid ""
+":ref:`intersects_plane <class_AABB_method_intersects_plane>` **(** "
+":ref:`Plane <class_Plane>` plane **)**"
+msgstr ""
+":ref:`intersects_plane <class_AABB_method_intersects_plane>` **(** "
+":ref:`Plane <class_Plane>` plane **)**"
+
+#: ../../docs/classes/class_aabb.rst:77
+msgid ""
+":ref:`intersects_segment <class_AABB_method_intersects_segment>` **(** "
+":ref:`Vector3 <class_Vector3>` from, :ref:`Vector3 <class_Vector3>` to "
+"**)**"
+msgstr ""
+":ref:`intersects_segment <class_AABB_method_intersects_segment>` **(** "
+":ref:`Vector3 <class_Vector3>` from, :ref:`Vector3 <class_Vector3>` to "
+"**)**"
+
+#: ../../docs/classes/class_aabb.rst:79
+msgid ""
+":ref:`is_equal_approx <class_AABB_method_is_equal_approx>` **(** "
+":ref:`AABB <class_AABB>` aabb **)**"
+msgstr ""
+":ref:`is_equal_approx <class_AABB_method_is_equal_approx>` **(** "
+":ref:`AABB <class_AABB>` aabb **)**"
+
+#: ../../docs/classes/class_aabb.rst:81
+msgid ""
+":ref:`merge <class_AABB_method_merge>` **(** :ref:`AABB <class_AABB>` "
+"with **)**"
+msgstr ""
+":ref:`merge <class_AABB_method_merge>` **(** :ref:`AABB <class_AABB>` "
+"with **)**"
+
+#: ../../docs/classes/class_aabb.rst:85
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_aabb.rst:89
+msgid ":ref:`Vector3 <class_Vector3>` **end**"
+msgstr ":ref:`Vector3 <class_Vector3>` **end**"
+
+#: ../../docs/classes/class_aabb.rst:92 ../../docs/classes/class_aabb.rst:104
+#: ../../docs/classes/class_aabb.rst:116
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_aabb.rst:95
+msgid ""
+"Ending corner. This is calculated as ``position + size``. Changing this "
+"property changes :ref:`size <class_AABB_property_size>` accordingly."
+msgstr ""
+
+#: ../../docs/classes/class_aabb.rst:101
+msgid ":ref:`Vector3 <class_Vector3>` **position**"
+msgstr ":ref:`Vector3 <class_Vector3>` **position**"
+
+#: ../../docs/classes/class_aabb.rst:107
+msgid "Beginning corner."
+msgstr "起始角。"
+
+#: ../../docs/classes/class_aabb.rst:113
+msgid ":ref:`Vector3 <class_Vector3>` **size**"
+msgstr ":ref:`Vector3 <class_Vector3>` **size**"
+
+#: ../../docs/classes/class_aabb.rst:119
+msgid "Size from position to end."
+msgstr "从起始点到结束角的大小。"
+
+#: ../../docs/classes/class_aabb.rst:122
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_aabb.rst:126
+msgid ""
+":ref:`AABB <class_AABB>` **AABB** **(** :ref:`Vector3 <class_Vector3>` "
+"position, :ref:`Vector3 <class_Vector3>` size **)**"
+msgstr ""
+":ref:`AABB <class_AABB>` **AABB** **(** :ref:`Vector3 <class_Vector3>` "
+"position, :ref:`Vector3 <class_Vector3>` size **)**"
+
+#: ../../docs/classes/class_aabb.rst:128
+msgid "Optional constructor, accepts position and size."
+msgstr "可选构造函数，接受位置和大小。"
+
+#: ../../docs/classes/class_aabb.rst:134
+msgid ""
+":ref:`bool <class_bool>` **encloses** **(** :ref:`AABB <class_AABB>` with"
+" **)**"
+msgstr ""
+":ref:`bool <class_bool>` **encloses** **(** :ref:`AABB <class_AABB>` with"
+" **)**"
+
+#: ../../docs/classes/class_aabb.rst:136
+msgid "Returns ``true`` if this ``AABB`` completely encloses another one."
+msgstr "如果此 ``AABB`` 完全包围了另一个，则返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:142
+msgid ""
+":ref:`AABB <class_AABB>` **expand** **(** :ref:`Vector3 <class_Vector3>` "
+"to_point **)**"
+msgstr ""
+":ref:`AABB <class_AABB>` **expand** **(** :ref:`Vector3 <class_Vector3>` "
+"to_point **)**"
+
+#: ../../docs/classes/class_aabb.rst:144
+msgid "Returns this ``AABB`` expanded to include a given point."
+msgstr "返回扩展为包括给定点的此 ``AABB``。"
+
+#: ../../docs/classes/class_aabb.rst:150
+msgid ":ref:`float <class_float>` **get_area** **(** **)**"
+msgstr ":ref:`float <class_float>` **get_area** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:152
+#, fuzzy
+msgid "Returns the volume of the ``AABB``."
+msgstr "获取 ``AABB`` 的面积。"
+
+#: ../../docs/classes/class_aabb.rst:158
+msgid ""
+":ref:`Vector3 <class_Vector3>` **get_endpoint** **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+":ref:`Vector3 <class_Vector3>` **get_endpoint** **(** :ref:`int "
+"<class_int>` idx **)**"
+
+#: ../../docs/classes/class_aabb.rst:160
+msgid "Gets the position of the 8 endpoints of the ``AABB`` in space."
+msgstr "获取空间中 ``AABB`` 的8个端点的位置。"
+
+#: ../../docs/classes/class_aabb.rst:166
+msgid ":ref:`Vector3 <class_Vector3>` **get_longest_axis** **(** **)**"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_longest_axis** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:168
+msgid "Returns the normalized longest axis of the ``AABB``."
+msgstr "返回 ``AABB`` 的标准化最长轴。"
+
+#: ../../docs/classes/class_aabb.rst:174
+msgid ":ref:`int <class_int>` **get_longest_axis_index** **(** **)**"
+msgstr ":ref:`int <class_int>` **get_longest_axis_index** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:176
+#, fuzzy
+msgid ""
+"Returns the index of the longest axis of the ``AABB`` (according to "
+":ref:`Vector3 <class_Vector3>`'s ``AXIS_*`` constants)."
+msgstr "返回 ``AABB`` 最长轴的索引（根据 :ref:`Vector3 <class_Vector3>`::AXIS\\* 枚举）。"
+
+#: ../../docs/classes/class_aabb.rst:182
+msgid ":ref:`float <class_float>` **get_longest_axis_size** **(** **)**"
+msgstr ":ref:`float <class_float>` **get_longest_axis_size** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:184
+msgid "Returns the scalar length of the longest axis of the ``AABB``."
+msgstr "返回 ``AABB`` 最长轴的标量长度。"
+
+#: ../../docs/classes/class_aabb.rst:190
+msgid ":ref:`Vector3 <class_Vector3>` **get_shortest_axis** **(** **)**"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_shortest_axis** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:192
+msgid "Returns the normalized shortest axis of the ``AABB``."
+msgstr "返回 ``AABB`` 的归一化最短轴。"
+
+#: ../../docs/classes/class_aabb.rst:198
+msgid ":ref:`int <class_int>` **get_shortest_axis_index** **(** **)**"
+msgstr ":ref:`int <class_int>` **get_shortest_axis_index** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:200
+msgid ""
+"Returns the index of the shortest axis of the ``AABB`` (according to "
+":ref:`Vector3 <class_Vector3>`::AXIS\\* enum)."
+msgstr "返回 ``AABB`` 的最短轴的索引（根据 :ref:`Vector3 <class_Vector3>`::AXIS\\* 枚举）。"
+
+#: ../../docs/classes/class_aabb.rst:206
+msgid ":ref:`float <class_float>` **get_shortest_axis_size** **(** **)**"
+msgstr ":ref:`float <class_float>` **get_shortest_axis_size** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:208
+msgid "Returns the scalar length of the shortest axis of the ``AABB``."
+msgstr "返回 ``AABB`` 的最短轴的标量长度。"
+
+#: ../../docs/classes/class_aabb.rst:214
+msgid ""
+":ref:`Vector3 <class_Vector3>` **get_support** **(** :ref:`Vector3 "
+"<class_Vector3>` dir **)**"
+msgstr ""
+":ref:`Vector3 <class_Vector3>` **get_support** **(** :ref:`Vector3 "
+"<class_Vector3>` dir **)**"
+
+#: ../../docs/classes/class_aabb.rst:216
+msgid ""
+"Returns the support point in a given direction. This is useful for "
+"collision detection algorithms."
+msgstr "返回给定方向的支撑点。这对于碰撞检测算法很有用。"
+
+#: ../../docs/classes/class_aabb.rst:222
+msgid ""
+":ref:`AABB <class_AABB>` **grow** **(** :ref:`float <class_float>` by "
+"**)**"
+msgstr ""
+":ref:`AABB <class_AABB>` **grow** **(** :ref:`float <class_float>` by "
+"**)**"
+
+#: ../../docs/classes/class_aabb.rst:224
+msgid ""
+"Returns a copy of the ``AABB`` grown a given amount of units towards all "
+"the sides."
+msgstr "返回向所有边增加一定数量单位的 ``AABB`` 的副本。"
+
+#: ../../docs/classes/class_aabb.rst:230
+msgid ":ref:`bool <class_bool>` **has_no_area** **(** **)**"
+msgstr ":ref:`bool <class_bool>` **has_no_area** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:232
+msgid "Returns ``true`` if the ``AABB`` is flat or empty."
+msgstr "如果 ``AABB`` 是平坦或为空，则返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:238
+msgid ":ref:`bool <class_bool>` **has_no_surface** **(** **)**"
+msgstr ":ref:`bool <class_bool>` **has_no_surface** **(** **)**"
+
+#: ../../docs/classes/class_aabb.rst:240
+msgid "Returns ``true`` if the ``AABB`` is empty."
+msgstr "如果 ``AABB`` 为空，则返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:246
+msgid ""
+":ref:`bool <class_bool>` **has_point** **(** :ref:`Vector3 "
+"<class_Vector3>` point **)**"
+msgstr ""
+":ref:`bool <class_bool>` **has_point** **(** :ref:`Vector3 "
+"<class_Vector3>` point **)**"
+
+#: ../../docs/classes/class_aabb.rst:248
+msgid "Returns ``true`` if the ``AABB`` contains a point."
+msgstr "如果 ``AABB`` 包含一个点，则返回 `` true``。"
+
+#: ../../docs/classes/class_aabb.rst:254
+msgid ""
+":ref:`AABB <class_AABB>` **intersection** **(** :ref:`AABB <class_AABB>` "
+"with **)**"
+msgstr ""
+":ref:`AABB <class_AABB>` **intersection** **(** :ref:`AABB <class_AABB>` "
+"with **)**"
+
+#: ../../docs/classes/class_aabb.rst:256
+msgid ""
+"Returns the intersection between two ``AABB``. An empty AABB (size 0,0,0)"
+" is returned on failure."
+msgstr "返回两个 ``AABB`` 之间的交集。失败时将返回一个空的AABB（大小为0,0,0）。"
+
+#: ../../docs/classes/class_aabb.rst:262
+msgid ""
+":ref:`bool <class_bool>` **intersects** **(** :ref:`AABB <class_AABB>` "
+"with **)**"
+msgstr ""
+":ref:`bool <class_bool>` **intersects** **(** :ref:`AABB <class_AABB>` "
+"with **)**"
+
+#: ../../docs/classes/class_aabb.rst:264
+msgid "Returns ``true`` if the ``AABB`` overlaps with another."
+msgstr "如果 ``AABB`` 与另一个重叠，则返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:270
+msgid ""
+":ref:`bool <class_bool>` **intersects_plane** **(** :ref:`Plane "
+"<class_Plane>` plane **)**"
+msgstr ""
+":ref:`bool <class_bool>` **intersects_plane** **(** :ref:`Plane "
+"<class_Plane>` plane **)**"
+
+#: ../../docs/classes/class_aabb.rst:272
+msgid "Returns ``true`` if the ``AABB`` is on both sides of a plane."
+msgstr "如果 ``AABB`` 在平面的两侧，则返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:278
+msgid ""
+":ref:`bool <class_bool>` **intersects_segment** **(** :ref:`Vector3 "
+"<class_Vector3>` from, :ref:`Vector3 <class_Vector3>` to **)**"
+msgstr ""
+":ref:`bool <class_bool>` **intersects_segment** **(** :ref:`Vector3 "
+"<class_Vector3>` from, :ref:`Vector3 <class_Vector3>` to **)**"
+
+#: ../../docs/classes/class_aabb.rst:280
+msgid ""
+"Returns ``true`` if the ``AABB`` intersects the line segment between "
+"``from`` and ``to``."
+msgstr "如果 ``AABB`` 与 ``from`` 和 ``to`` 之间的线段相交，则返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:286
+msgid ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`AABB "
+"<class_AABB>` aabb **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`AABB "
+"<class_AABB>` aabb **)**"
+
+#: ../../docs/classes/class_aabb.rst:288
+#, fuzzy
+msgid ""
+"Returns ``true`` if this ``AABB`` and ``aabb`` are approximately equal, "
+"by calling :ref:`@GDScript.is_equal_approx "
+"<class_@GDScript_method_is_equal_approx>` on each component."
+msgstr "如果此 ``AABB`` 和 ``aabb`` 大致相等，则通过在每个组件上调用 ``is_equal_approx``，返回 ``true``。"
+
+#: ../../docs/classes/class_aabb.rst:294
+msgid ""
+":ref:`AABB <class_AABB>` **merge** **(** :ref:`AABB <class_AABB>` with "
+"**)**"
+msgstr ""
+":ref:`AABB <class_AABB>` **merge** **(** :ref:`AABB <class_AABB>` with "
+"**)**"
+
+#: ../../docs/classes/class_aabb.rst:296
+msgid "Returns a larger ``AABB`` that contains both this ``AABB`` and ``with``."
+msgstr "返回一个包含该 ``AABB`` 和 ``with`` 的较大 ``AABB``。"
+
+#~ msgid "Ending corner."
+#~ msgstr "结束角。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

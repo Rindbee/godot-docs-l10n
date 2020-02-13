@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-11-04 12:42+0800\n"
+"PO-Revision-Date: 2019-11-12 19:18+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/viewports/viewports.rst:4
 msgid "Viewports"
@@ -26,17 +30,15 @@ msgid "Introduction"
 msgstr "简介"
 
 #: ../../docs/tutorials/viewports/viewports.rst:9
-#, fuzzy
 msgid ""
 "Think of a :ref:`Viewport <class_Viewport>` as a screen onto which the game "
 "is projected. In order to see the game, we need to have a surface on which "
 "to draw it; that surface is the Root :ref:`Viewport <class_Viewport>`."
 msgstr ""
-"将 :ref:`Viewports <class_Viewport>` 想成投影游戏的荧幕。 为了看到游戏，我们"
-"需要有一个表面来绘制它，这个表面是根节点的 :ref:`Viewport <class_Viewport>`。"
+"将 :ref:`Viewports <class_Viewport>` 想成投影游戏的荧幕。为了看到游戏，我们需"
+"要有一个表面来绘制它；这个表面就是根 :ref:`Viewport <class_Viewport>`。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:16
-#, fuzzy
 msgid ""
 ":ref:`Viewports <class_Viewport>` can also be added to the scene so that "
 "there are multiple surfaces to draw on. When we are drawing to a :ref:"
@@ -48,18 +50,17 @@ msgid ""
 "<class_ViewportTexture>` which is applied to an object in the scene, for "
 "example a dynamic skybox."
 msgstr ""
-":ref:`Viewports <class_Viewport>` 也可以添加到场景中，以便绘制多视区。 当我们"
-"绘制到一个不是根节点的 :ref:`Viewport <class_Viewport>` 时， 我们将该视区称为"
-"渲染目标。 我们可以通过访问它对应的 :ref:`texture <class_ViewportTexture>` 属"
-"性来访问渲染目标的内容。 通过使用作为渲染目标的 :ref:`Viewport "
-"<class_Viewport>` ，我们要么可以同时渲染多个场景，要么可以渲染到场景中对象"
+":ref:`Viewports <class_Viewport>` 也可以添加到场景中，以便绘制多个表面。当我"
+"们绘制到一个不是根 :ref:`Viewport <class_Viewport>` 时， 我们将该视图称为渲染"
+"目标。我们可以通过访问它对应的 :ref:`texture <class_ViewportTexture>` 属性来"
+"访问渲染目标的内容。通过使用作为渲染目标的 :ref:`Viewport "
+"<class_Viewport>` ，我们可以同时渲染多个场景，也可以渲染到应用于场景中对象"
 "的 :ref:`texture <class_ViewportTexture>` ，例如 一个动态的天空盒。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:25
-#, fuzzy
 msgid ""
 ":ref:`Viewports <class_Viewport>` have a variety of use cases, including:"
-msgstr ":ref:`Viewports <class_Viewport>` 有各种用例，包括:"
+msgstr ":ref:`Viewports <class_Viewport>` 有多种用例，包括："
 
 #: ../../docs/tutorials/viewports/viewports.rst:27
 msgid "Rendering 3D objects within a 2D game"
@@ -75,28 +76,26 @@ msgstr "渲染动态纹理"
 
 #: ../../docs/tutorials/viewports/viewports.rst:30
 msgid "Generating procedural textures at runtime"
-msgstr "在游戏运行时生成过程纹理"
+msgstr "在运行时中，生成过程纹理"
 
 #: ../../docs/tutorials/viewports/viewports.rst:31
 msgid "Rendering multiple cameras in the same scene"
 msgstr "在同一场景中渲染多个摄像机"
 
 #: ../../docs/tutorials/viewports/viewports.rst:33
-#, fuzzy
 msgid ""
 "What all these use cases have in common is that you are given the ability to "
 "draw objects to a texture as if it were another screen and can then choose "
 "what to do with the resulting texture."
 msgstr ""
-"所有这些用例的共同之处在于，您可以将对象绘制到纹理中，就像它在另一个屏幕那"
-"样，然后您可以选择如何处理生成的纹理。"
+"所有这些用例的共同点在于，您可以将对象绘制到纹理上，就像它是另一个屏幕一样，"
+"然后可以选择如何对生成的纹理进行处理。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:38
 msgid "Input"
 msgstr "输入"
 
 #: ../../docs/tutorials/viewports/viewports.rst:40
-#, fuzzy
 msgid ""
 ":ref:`Viewports <class_Viewport>` are also responsible for delivering "
 "properly adjusted and scaled input events to all their children nodes. "
@@ -105,26 +104,25 @@ msgid ""
 "receive input by checking 'Disable Input' to 'on'; this will allow the next "
 "nearest :ref:`Viewport <class_Viewport>` in the tree to capture the input."
 msgstr ""
-":ref:`Viewports <class_Viewport>` 还负责向其所有子节点提供正确调整和缩放的输"
-"入事件。 通常输入是由树中最近的 :ref:`Viewport <class_Viewport>` 接收的，但您"
-"可以通过选中 '禁用输入' 为 'on' 来设置 :ref:`Viewports <class_Viewport>` 不接"
-"收输入，这将允许树中下个最近的 :ref:`Viewport <class_Viewport>` 来捕获输入。"
+":ref:`Viewports <class_Viewport>` 还负责向其所有子节点，传递经过适当调整和缩"
+"放的输入事件。通常，输入是通过树中最近的 :ref:`Viewport <class_Viewport>` 接"
+"收的，但是您可以通过将 ``禁用输入（Disable Input）`` 设置为 ``启用（on）``，"
+"来将 :ref:`Viewports <class_Viewport>` 设置为不接收输入；这将允许树中下一个最"
+"近的 :ref:`Viewports <class_Viewport>` 捕获输入。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:48
-#, fuzzy
 msgid ""
 "For more information on how Godot handles input, please read the :ref:`Input "
 "Event Tutorial<doc_inputevent>`."
 msgstr ""
-"有关Godot如何处理输入的更多信息，请阅读 :ref:`Input Event "
-"Tutorial<doc_inputevent>` 。"
+"有关Godot如何处理输入的更多信息，请阅读 :ref:`输入事件教程 "
+"<doc_inputevent>`。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:51
 msgid "Listener"
-msgstr "侦听器"
+msgstr "监听器"
 
 #: ../../docs/tutorials/viewports/viewports.rst:53
-#, fuzzy
 msgid ""
 "Godot supports 3D sound (in both 2D and 3D nodes); more on this can be found "
 "in the :ref:`Audio Streams Tutorial<doc_audio_streams>`. For this type of "
@@ -133,15 +131,15 @@ msgid ""
 "`Viewport <class_Viewport>` to display your :ref:`World <class_World>`, "
 "don't forget to enable this!"
 msgstr ""
-"Godot支持3D声音(在2D和3D节点中)，更多内容可以在 :ref:`Audio Streams "
-"Tutorial<doc_audio-streams>` 中找到。 要使这种类型的声音被听到，需要启用 :"
-"ref:`Viewport <class_Viewport>` 作为侦听器(用于2D或3D)。 如果您使用自定义 :"
-"ref:`Viewport <class_Viewport>` 来显示您的 :ref:`World <class_World>` ，别忘"
-"了开启它！"
+"Godot支持3D声音（在2D和3D节点中）；有关更多信息，请参见 :ref:`音频流教程 "
+"<doc_audio_streams>`。为了使这种声音可以被听到，该 :ref:`Viewport "
+"<class_Viewport>` 需要作为一个监听器被启用（对于2D或3D）。如果您使用一个自定"
+"义的 :ref:`Viewport <class_Viewport>` 来显示您的 :ref:`World <class_World>`，"
+"请不要忘记启用此功能！"
 
 #: ../../docs/tutorials/viewports/viewports.rst:60
 msgid "Cameras (2D & 3D)"
-msgstr "摄像机 (2D和3D)"
+msgstr "相机（2D和3D）"
 
 #: ../../docs/tutorials/viewports/viewports.rst:62
 msgid ""
@@ -150,9 +148,9 @@ msgid ""
 "`Viewport <class_Viewport>` (going towards the root). For example, in the "
 "following hierarchy:"
 msgstr ""
-"当使用 :ref:`Camera <class_Camera>` / :ref:`Camera2D <class_Camera2D>` 时，摄"
-"像机将始终显示在最近的父节点上 :ref:`Viewport <class_Viewport>` (朝向根节"
-"点)。 例如，在下面的层次结构中:"
+"当使用 :ref:`Camera <class_Camera>` / :ref:`Camera2D <class_Camera2D>` 时，相"
+"机将始终显示在最近的父 :ref:`Viewport <class_Viewport>` （朝向根节点）上。例"
+"如，在下面的层次结构中："
 
 #: ../../docs/tutorials/viewports/viewports.rst:69
 msgid ""
@@ -164,11 +162,12 @@ msgid ""
 "`Viewport <class_Viewport>` node because :ref:`Viewport <class_Viewport>` "
 "nodes only capture nodes below them in the hierarchy."
 msgstr ""
-"CameraA将显示根节点的 :ref:`Viewport <class_Viewport>` ，它将绘制MeshA。 "
-"CameraB将被 :ref:`Viewport <class_Viewport>` 节点以及MeshB捕获。 即使MeshB在"
-"场景层次结构中，它仍然不会被绘制到根节点的 :ref:`Viewport <class_Viewport>` "
-"中。 类似地，在 :ref:`Viewport <class_Viewport>` 节点中不会看到MeshA，因为 :"
-"ref:`Viewport <class_Viewport>` 节点仅捕获层次结构中它下面的节点。"
+"``CameraA`` 将显示在根 :ref:`Viewport <class_Viewport>` 上，并将绘制 "
+"``MeshA``。``CameraB`` 将由与 ``MeshB`` 一起的 :ref:`Viewport "
+"<class_Viewport>` 节点捕获。即使 ``MeshB`` 处于场景层次结构中，它仍然不会被绘"
+"制到根 :ref:`Viewport <class_Viewport>`。类似地，从该 :ref:`Viewport "
+"<class_Viewport>` 节点看不到 ``MeshA``，因为 :ref:`Viewport "
+"<class_Viewport>` 节点仅捕获层次结构中，位于其下方的节点。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:75
 msgid ""
@@ -176,8 +175,9 @@ msgid ""
 "if there is more than one, make sure that the desired one has the \"current"
 "\" property set, or make it the current camera by calling:"
 msgstr ""
-"每个视区只能有一个激活的摄像机, 因此, 如果有多个摄像机时, 请确保您需要的那个"
-"摄像机的“current”属性被设置上，或者通过调用以下语句来使其成为当前摄像机:"
+"每个 :ref:`Viewport <class_Viewport>` 只能有一个活动的相机，因此，如果有多个"
+"相机，请确保所需的相机已经设置了 ``当前（current）`` 属性，或者通过调用以下命"
+"令，将其设置为当前相机："
 
 #: ../../docs/tutorials/viewports/viewports.rst:83
 msgid ""
@@ -187,13 +187,16 @@ msgid ""
 "<class_VisualInstance_property_layers>` property to restrict which objects "
 "are rendered."
 msgstr ""
+"默认情况下，相机将渲染其世界中的所有对象。在3D中，相机可以使用它们的 :ref:"
+"`cull_mask <class_Camera_property_cull_mask>` 属性，结合 :ref:"
+"`VisualInstance <class_VisualInstance>` 的 :ref:`layer "
+"<class_VisualInstance_property_layers>` 属性，以限制哪些对象被渲染。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:89
 msgid "Scale & stretching"
 msgstr "缩放和拉伸"
 
 #: ../../docs/tutorials/viewports/viewports.rst:91
-#, fuzzy
 msgid ""
 ":ref:`Viewports <class_Viewport>` have a \"size\" property, which represents "
 "the size of the :ref:`Viewport <class_Viewport>` in pixels. For :ref:"
@@ -201,20 +204,19 @@ msgid ""
 "<class_viewportcontainer>`, these values are overridden, but for all others, "
 "this sets their resolution."
 msgstr ""
-":ref:`Viewports <class_Viewport>` 有一个“size”属性，以像素为单位表示 :ref:"
-"`Viewports <class_Viewport>` 的大小。 对 :ref:`ViewportContainers "
-"<class_viewportcontainer>` 的子节点 :ref:`Viewports <class_Viewport>` ，这些"
-"值被覆盖，但是在其他情况下，它设置了视区的分辨率。"
+":ref:`Viewports <class_Viewport>` 具有一个 ``size`` 属性，该属性以像素为单"
+"位，表示 :ref:`Viewport <class_Viewport>` 的大小。对于 :ref:"
+"`ViewportContainers <class_viewportcontainer>` 的子代 :ref:`Viewports "
+"<class_Viewport>`，这些值将被覆盖；但是对于所有其他情况，这将设置其分辨率。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:95
-#, fuzzy
 msgid ""
 "It is also possible to scale the 2D content and make the :ref:`Viewport "
 "<class_Viewport>` resolution different from the one specified in size, by "
 "calling:"
 msgstr ""
-"通过调用以下语句，还可以缩放2D内容, 使其忽略 :ref:`Viewport "
-"<class_Viewport>` 中已指定的视区分辨率:"
+"通过调用以下命令，还可以缩放2D内容，并使 :ref:`Viewport <class_Viewport>` 分"
+"辨率不同于指定的大小："
 
 #: ../../docs/tutorials/viewports/viewports.rst:103
 msgid ""
@@ -222,16 +224,14 @@ msgid ""
 "in the project settings. For more information on scaling and stretching "
 "visit the :ref:`Multiple Resolutions Tutorial <doc_multiple_resolutions>`"
 msgstr ""
-"根节点的 :ref:`Viewport <class_Viewport>` 用到项目设置中的拉伸选项。 有关缩放"
-"和拉伸的更多信息，请访问 :ref:`Multiple Resolutions Tutorial "
-"<doc_multiple_resolutions>`"
+"根 :ref:`Viewport <class_Viewport>` 将其用于项目设置中的拉伸选项。有关缩放和"
+"拉伸的更多信息，请访问 :ref:`多分辨率教程 <doc_multiple_resolutions>`"
 
 #: ../../docs/tutorials/viewports/viewports.rst:107
 msgid "Worlds"
 msgstr "世界"
 
 #: ../../docs/tutorials/viewports/viewports.rst:109
-#, fuzzy
 msgid ""
 "For 3D, a :ref:`Viewport <class_Viewport>` will contain a :ref:`World "
 "<class_World>`. This is basically the universe that links physics and "
@@ -249,13 +249,18 @@ msgid ""
 "you might want to show a separate character in 3D imposed over the game "
 "(like in StarCraft)."
 msgstr ""
-"对于3D, 视区将包含一个 :ref:`World <class_World>` 类。这基本上就是一个把物理"
-"和渲染联系在一起的宇宙世界。基于空间概念的节点将使用最接近的视区的世界进行注"
-"册。默认情况下, 新创建的视区并不包含一个新的World对象, 而是使用与父视区相同的"
-"World (但是根视区确实会包含一个World对象, 其他对象默认会渲染在里面)。可以使"
-"用 \"world\" 属性在视区中设置一个世界, 这将隔离该视区的所有子节点同该视区的父"
-"视区交互。这在某些情形下尤为有用, 例如, 您可能希望在游戏中以三维视角来看的上"
-"方显示一个单独的字符(比如星际争霸)。"
+"对于3D，一个 :ref:`Viewport <class_Viewport>` 将包含一个 :ref:`World "
+"<class_World>`。这基本上就是一个把物理和渲染联系在一起的宇宙。基于 ``空间"
+"（Spatial）`` 的节点将使用最接近的 :ref:`Viewport <class_Viewport>` 的 :ref:"
+"`World <class_World>` 注册。默认情况下，新创建的 :ref:`Viewports "
+"<class_Viewport>` 不包含一个 :ref:`World <class_World>`，但使用与父 :ref:"
+"`Viewport <class_Viewport>` 相同的世界（根是 :ref:`Viewport "
+"<class_Viewport>` 始终包含一个 :ref:`World <class_World>`，这是默认情况下，对"
+"象将渲染到的那个）。可以使用 ``world`` 属性在 :ref:`Viewport "
+"<class_Viewport>` 中设置一个 :ref:`World <class_World>`，并将该 :ref:"
+"`Viewport <class_Viewport>` 与与父 :ref:`Viewport <class_Viewport>` 的 :ref:"
+"`World <class_World>` 交互的所有子节点分离出来。例如，在您可能想要在游戏中越"
+"过3D角色（例如《星际争霸》）的情况下，显示单独角色的情况，此功能特别有用。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:121
 msgid ""
@@ -265,10 +270,10 @@ msgid ""
 "to use its own :ref:`World <class_World>`. This is useful when you want to "
 "instance 3D characters or objects in a 2D :ref:`World <class_World2D>`."
 msgstr ""
-"作为您想要创建的情况的帮助 :ref:`Viewports <class_Viewport>` 显示单个对象而不"
-"想创建 :ref:`World <class_World>`， :ref:`Viewport <class_Viewport>` 可以选择"
-"使用自己的 :ref:`World <class_World>`。 当您想要在2D :ref:`World "
-"<class_World2D>` 中实例化3D角色或对象时，这非常有用。"
+"作为您要创建仅显示单个对象的 :ref:`Viewports <class_Viewport>`，而又不想创建"
+"一个 :ref:`World <class_World>` 的情况下的帮助器，:ref:`Viewport "
+"<class_Viewport>` 具有使用自己的 :ref:`World <class_World>` 的选项。当您要在"
+"2D :ref:`World <class_World2D>` 中，对3D角色或对象进行实例化时，这很有用。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:126
 msgid ""
@@ -278,20 +283,20 @@ msgid ""
 "<class_Viewport>` :ref:`World2D <class_World2D>` manually."
 msgstr ""
 "对于2D，每个 :ref:`Viewport <class_Viewport>` 总是包含它自己的 :ref:`World2D "
-"<class_World2D>` 。 这在大多数情况下都足够了，但是如果需要共享它们，可以手动"
-"设置 :ref:`Viewport的 <class_Viewport>` :ref:`World2D <class_World2D>` 。"
+"<class_World2D>` 。这在大多数情况下就足够了，但是如果需要共享它们，可以通过手"
+"动设置 :ref:`Viewport <class_Viewport>` 的 :ref:`World2D <class_World2D>` 来"
+"实现。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:130
-#, fuzzy
 msgid ""
 "For an example of how this works, see the demo projects `3D in 2D <https://"
 "github.com/godotengine/godot-demo-projects/tree/master/viewport/3d_in_2d>`_ "
 "and `2D in 3D <https://github.com/godotengine/godot-demo-projects/tree/"
 "master/viewport/2d_in_3d>`_ respectively."
 msgstr ""
-"有关其工作原理的示例，请分别参阅演示项目 `3D in 2D <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/viewport/3d_in_2d>`_ 和 `2D in "
-"3D <https://github.com/godotengine/godot-demo-projects/tree/master/"
+"有关其工作方式的示例，请分别参见演示项目 `2D中的3D <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/viewport/3d_in_2d>`_ 和 `3D中的"
+"2D <https://github.com/godotengine/godot-demo-projects/tree/master/"
 "viewport/2d_in_3d>`_ 。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:133
@@ -299,30 +304,28 @@ msgid "Capture"
 msgstr "截图"
 
 #: ../../docs/tutorials/viewports/viewports.rst:135
-#, fuzzy
 msgid ""
 "It is possible to query a capture of the :ref:`Viewport <class_Viewport>` "
 "contents. For the root :ref:`Viewport <class_Viewport>`, this is effectively "
 "a screen capture. This is done with the following code:"
 msgstr ""
-"可以查询 :ref:`Viewport <class_Viewport>` 内容的捕获。 对于root :ref:"
-"`Viewport <class_Viewport>` 这实际上是一个屏幕截图。 这是通过以下代码完成的:"
+"可以查询 :ref:`Viewport <class_Viewport>` 内容的一个截图。对于根 :ref:"
+"`Viewport <class_Viewport>`，这实际上是一个屏幕截图。这是通过以下代码完成的："
 
 #: ../../docs/tutorials/viewports/viewports.rst:152
-#, fuzzy
 msgid ""
 "But if you use this in ``_ready()`` or from the first frame of the :ref:"
 "`Viewport's <class_Viewport>` initialization, you will get an empty texture "
 "because there is nothing to get as texture. You can deal with it using (for "
 "example):"
 msgstr ""
-"但是如果您在_ready()或者从 :ref:`Viewport的<class_Viewport>` 初始化的第一帧中"
-"使用它，您将获得一个空纹理，因为没有什么可以作为纹理。 您可以使用(例如)处理"
-"它:"
+"但是，如果您在 ``_ready()`` 中或从 :ref:`Viewport <class_Viewport>` 的初始化"
+"的第一帧中使用它，则将得到一个空纹理，因为没有任何东西可以作为纹理获取。您可"
+"以处理它，使用（例如）："
 
 #: ../../docs/tutorials/viewports/viewports.rst:163
 msgid "Viewport Container"
-msgstr "视区容器"
+msgstr "视图容器"
 
 #: ../../docs/tutorials/viewports/viewports.rst:165
 msgid ""
@@ -331,11 +334,10 @@ msgid ""
 "display anything it has inside. The layout looks like this:"
 msgstr ""
 "如果 :ref:`Viewport <class_Viewport>` 是 :ref:`ViewportContainer "
-"<class_viewportcontainer>` 的子节点，它将变为活动状态并显示其内部的任何内"
-"容。 布局看起来像这样:"
+"<class_viewportcontainer>` 的子节点，它将变为活动状态并显示其内部的任何内容。"
+"布局看起来像这样："
 
 #: ../../docs/tutorials/viewports/viewports.rst:169
-#, fuzzy
 msgid ""
 "The :ref:`Viewport <class_Viewport>` will cover the area of its parent :ref:"
 "`ViewportContainer <class_viewportcontainer>` completely if :ref:"
@@ -344,18 +346,18 @@ msgid ""
 "ref:`ViewportContainer <class_viewportcontainer>` cannot be smaller than the "
 "size of the :ref:`Viewport <class_Viewport>`."
 msgstr ""
-":ref:`Viewport <class_Viewport>` 将覆盖其父级的区域 :ref:`ViewportContainer "
-"<class_viewportcontainer>` 如果在以下情况下将stretch设置为true :ref:"
-"`ViewportContainer <class_viewportcontainer>`。 注意: :ref:"
-"`ViewportContainer <class_viewportcontainer>` 的大小不能小于 :ref:`Viewport "
-"<class_Viewport>` 的大小。"
+"如果在 :ref:`ViewportContainer <class_viewportcontainer>` 中将 :ref:"
+"`Stretch<class_viewportcontainer_property_stretch>` 设置为 ``true``，则 :ref:"
+"`Viewport <class_Viewport>` 将完全覆盖其父 :ref:`ViewportContainer "
+"<class_viewportcontainer>` 的区域。注意：:ref:`ViewportContainer "
+"<class_viewportcontainer>` 的大小不能小于 :ref:`Viewport <class_Viewport>` 的"
+"大小。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:174
 msgid "Rendering"
 msgstr "渲染"
 
 #: ../../docs/tutorials/viewports/viewports.rst:176
-#, fuzzy
 msgid ""
 "Due to the fact that the :ref:`Viewport <class_Viewport>` is an entryway "
 "into another rendering surface, it exposes a few rendering properties that "
@@ -365,14 +367,13 @@ msgid ""
 "ref:`Viewport <class_Viewport>` to use HDR, HDR is very useful for when you "
 "want to store values in the texture that are outside the range 0.0 - 1.0."
 msgstr ""
-"由于以下事实 :ref:`Viewport <class_Viewport>` 是进入另一个渲染表面的入口，它"
-"会暴露一些可能与项目设置不同的渲染属性。 第一个是MSAA，您可以选择为每个使用不"
-"同级别的MSAA :ref:`Viewport <class_Viewport>`，默认行为是DISABLED。 您还可以"
-"设置 :ref:`Viewport <class_Viewport>` 以使用HDR，当您想要在纹理中存储超出"
-"0.0  -  1.0范围的值时，HDR非常有用。"
+"由于 :ref:`Viewport <class_Viewport>` 是另一个渲染表面的入口，因此它暴露了一"
+"些可能与项目设置不同的渲染属性。首先是 ``MSAA``；您可以选择对每个 :ref:"
+"`Viewport <class_Viewport>` 使用不同级别的 ``MSAA``；默认行为是 ``禁用"
+"（DISABLED）``。您还可以将 :ref:`Viewport <class_Viewport>` 设置为使用HDR，当"
+"您要将纹理中的值存储在0.0-1.0范围之外时，HDR非常有用。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:181
-#, fuzzy
 msgid ""
 "If you know how the :ref:`Viewport <class_Viewport>` is going to be used, "
 "you can set its Usage to either 3D or 2D. Godot will then restrict how the :"
@@ -382,9 +383,11 @@ msgid ""
 "<class_Viewport>`'s Usage property to 2D if your viewport doesn't render "
 "anything in 3D."
 msgstr ""
-"如果您知道如何使用 :ref:`Viewport <class_Viewport>` ，您可以将其用法设置为3D"
-"或2D。 然后Godot将限制如何 :ref:`Viewport <class_Viewport>` 根据您的选择绘"
-"制，默认为3D。"
+"如果您知道将如何使用 :ref:`Viewport <class_Viewport>`，则可以将其 ``Usage`` "
+"设置为3D或2D。然后，Godot将根据您的选择来限制 :ref:`Viewport "
+"<class_Viewport>` 的绘制方式；默认为3D。与3D模式相比，2D使用模式稍快一些，并"
+"且使用的内存更少。如果您的视图未在3D模式下渲染任何内容，则最好将 :ref:"
+"`Viewport <class_Viewport>` 的 ``Usage`` 属性设置为2D。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:187
 msgid ""
@@ -393,6 +396,9 @@ msgid ""
 "shadows won't be rendered. For reference, the Project Settings define it to "
 "4096 by default."
 msgstr ""
+"如果需要在视图中渲染3D阴影，请确保将视口的 ``阴影图集大小（Shadow Atlas "
+"Size）`` 属性设置为大于0的值。否则，将不会渲染阴影。作为参考，项目设置默认将"
+"其定义为4096。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:190
 msgid ""
@@ -401,13 +407,14 @@ msgid ""
 "specify one of four options for how the :ref:`Viewport <class_Viewport>` "
 "will display things drawn inside it. Debug Draw is disabled by default."
 msgstr ""
-"Godot还提供了一种自定义内部绘制方式的方法 :ref:`Viewports <class_Viewport>` "
-"使用“Debug Draw”。 Debug Draw允许您指定以下四个选项之一 :ref:`Viewport "
-"<class_Viewport>` 将显示在其中绘制的内容。 默认情况下禁用Debug Draw。"
+"Godot还提供了一种使用 ``调试绘制（Debug Draw）``，自定义所有内容在 :ref:"
+"`Viewports <class_Viewport>` 中的绘制方式的方法。``调试绘制（Debug Draw）`` "
+"允许您指定四个选项之一，以供 :ref:`Viewport <class_Viewport>` 如何显示在其中"
+"绘制的内容。``调试绘制（Debug Draw）`` 默认情况下处于禁用状态。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:196
 msgid "*A scene drawn with Debug Draw disabled*"
-msgstr "*禁用Debug Draw绘制的场景*"
+msgstr "*禁用调试绘制时，绘制的场景*"
 
 #: ../../docs/tutorials/viewports/viewports.rst:198
 msgid ""
@@ -415,41 +422,41 @@ msgid ""
 "draws the scene without using lighting information so all the objects appear "
 "flatly colored the color of their albedo."
 msgstr ""
-"其他三个选项是Unhaded，Overdraw和Wireframe。 无阴影在不使用光照信息的情况下绘"
-"制场景，因此所有对象都显示为其反照率颜色的扁平颜色。"
+"其他三个选项是 ``无阴影（Unshaded）``，``透支（Overdraw）`` 和 ``线框"
+"（Wireframe）``。无阴影绘制场景时不使用照明信息，因此所有对象看上去都像其反照"
+"率一样呈平面着色。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:204
 msgid "*The same scene with Debug Draw set to Unshaded*"
-msgstr "* Debug Draw设置为Unshaded *的相同场景"
+msgstr "*相同的场景，但调试绘制设置为无阴影*"
 
 #: ../../docs/tutorials/viewports/viewports.rst:206
 msgid ""
 "Overdraw draws the meshes semi-transparent with an additive blend so you can "
 "see how the meshes overlap."
-msgstr "Overdraw使用添加剂混合绘制半透明的网格，以便您可以看到网格重叠的方式。"
+msgstr "透支使用添加剂混合绘制半透明的网格，因此您可以看到网格对象如何重叠。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:210
 msgid "*The same scene with Debug Draw set to Overdraw*"
-msgstr "* Debug Draw设置为Overdraw的同一场景*"
+msgstr "*相同的场景，但调试绘制设置为透支*"
 
 #: ../../docs/tutorials/viewports/viewports.rst:212
 msgid ""
 "Lastly, Wireframe draws the scene using only the edges of triangles in the "
 "meshes."
-msgstr ""
+msgstr "最后，线框仅使用网格对象中，三角形的边缘绘制场景。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:216
 msgid ""
 "The effects of the Wireframe mode are only visible in the editor, not while "
 "the project is running."
-msgstr ""
+msgstr "线框模式的效果仅在编辑器中可见，而在项目运行时则不可见。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:219
 msgid "Render target"
 msgstr "渲染目标"
 
 #: ../../docs/tutorials/viewports/viewports.rst:221
-#, fuzzy
 msgid ""
 "When rendering to a :ref:`Viewport <class_Viewport>`, whatever is inside "
 "will not be visible in the scene editor. To display the contents, you have "
@@ -457,22 +464,24 @@ msgid ""
 "<class_ViewportTexture>` somewhere. This can be requested via code using "
 "(for example):"
 msgstr ""
-"渲染到 :ref:`Viewport <class_Viewport>时，内部的任何内容都不会在场景编辑器中"
-"显示。 要显示内容，您必须绘制 :ref:`Viewport的<class_Viewport>` :ref:"
-"`ViewportTexture <class_ViewportTexture>` 某处。 这可以通过代码使用(例如):"
+"当渲染到一个 :ref:`Viewport <class_Viewport>` 时，内部的任何内容在场景编辑器"
+"中都不可见。要显示内容，您必须在某处绘制 :ref:`Viewport <class_Viewport>` "
+"的 :ref:`ViewportTexture <class_ViewportTexture>` 。可以通过使用以下代码进行"
+"请求（例如）："
 
 #: ../../docs/tutorials/viewports/viewports.rst:231
 msgid ""
 "Or it can be assigned in the editor by selecting \"New ViewportTexture\""
-msgstr "或者可以通过选择“New ViewportTexture”在编辑器中指定它"
+msgstr ""
+"或者可以通过选择 ``新建ViewportTexture（New ViewportTexture）`` 在编辑器中进"
+"行分配"
 
 #: ../../docs/tutorials/viewports/viewports.rst:235
 msgid ""
 "and then selecting the :ref:`Viewport <class_Viewport>` you want to use."
-msgstr "然后选择您想要使用的 :ref:`Viewport <class_Viewport>。"
+msgstr "然后选择想使用的 :ref:`Viewport <class_Viewport>`。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:239
-#, fuzzy
 msgid ""
 "Every frame, the :ref:`Viewport <class_Viewport>`'s texture is cleared away "
 "with the default clear color (or a transparent color if :ref:`Transparent "
@@ -483,13 +492,15 @@ msgid ""
 "while next frame will clear the texture on the next frame and then set "
 "itself to Never."
 msgstr ""
-"每个帧 :ref:`Viewport <class_Viewport>` 的纹理用默认的清晰颜色(如果"
-"Transparent BG设置为true，则为透明颜色)清除。 这可以通过将清除模式设置为从不"
-"或下一帧来更改。 顾名思义，Never表示纹理永远不会被清除，而下一帧将清除下一帧"
-"的纹理，然后将自己设置为Never。"
+"在每个帧中，都会使用默认的清晰颜色（如果 :ref:`Transparent "
+"BG<class_Viewport_property_transparent_bg>` 设置为 ``true``，则是一个透明颜"
+"色）清除 :ref:`Viewport <class_Viewport>` 的纹理。可以通过将 :ref:`清除模式 "
+"<class_Viewport_property_render_target_clear_mode>` 设置为 ``永不（Never）`` "
+"或 ``下一帧（Next Frame）`` 来更改此设置。顾名思义，``永不（Never）`` 表示永"
+"远不会清除纹理，而 ``下一帧（Next Frame）`` 将清除下一帧上的纹理，然后将其自"
+"身设置为 ``永不（Never）``。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:244
-#, fuzzy
 msgid ""
 "By default, re-rendering of the :ref:`Viewport <class_Viewport>` happens "
 "when the :ref:`Viewport <class_Viewport>`'s :ref:`ViewportTexture "
@@ -499,11 +510,11 @@ msgid ""
 "flexibility allows users to render an image once and then use the texture "
 "without incurring the cost of rendering every frame."
 msgstr ""
-"默认情况下，重新渲染 :ref:`Viewport <class_Viewport>` 发生在 :ref:`Viewport "
-"<class_Viewport>` s :ref:`ViewportTexture <class_ViewportTexture>` 已经在框架"
-"中绘制。 如果可见，它将被渲染，否则不会。 无论是否可见，此行为都可以更改为手"
-"动渲染(一次)或始终渲染。 这种灵活性允许用户渲染一次图像然后使用纹理而不会产生"
-"渲染每一帧的成本。"
+"默认情况下，当在一个帧中绘制了 :ref:`Viewport <class_Viewport>` 的 :ref:"
+"`ViewportTexture <class_ViewportTexture>` 时，会重新渲染 :ref:`Viewport "
+"<class_Viewport>`。如果可见，它将被渲染；否则，不会。可以将此行为更改为手动渲"
+"染（一次），也可以始终渲染，无论是否可见。这种灵活性允许用户渲染一次图像，然"
+"后使用纹理，而不会产生渲染每一帧的成本。"
 
 #: ../../docs/tutorials/viewports/viewports.rst:252
 msgid ""
@@ -511,5 +522,47 @@ msgid ""
 "available to download, or https://github.com/godotengine/godot-demo-projects/"
 "tree/master/viewport"
 msgstr ""
-"一定要查看Viewport演示！ 可以下载演示档案中的Viewport文件夹，或https://"
-"github.com/godotengine/godot-demo-projects/tree/master/viewport"
+"一定要查看 ``Viewport`` 演示！演示存档中的 ``Viewport`` 文件夹可下载，或"
+"https://github.com/godotengine/godot-demo-projects/tree/master/viewport"
+
+#~ msgid ""
+#~ "If the returned image is empty, capture still didn't happen, wait a "
+#~ "little more, as Godot's rendering API is asynchronous. For a working "
+#~ "example of this, check out the `Screen Capture example <https://github."
+#~ "com/godotengine/godot-demo-projects/tree/master/viewport/"
+#~ "screen_capture>`_ in the demo projects"
+#~ msgstr ""
+#~ "如果返回的图像为空，则捕获仍然没有发生，等待一点，因为Godot的渲染API是异步"
+#~ "的。 有关此示例，请查看演示项目中的 `屏幕捕获示例 <https://github.com/"
+#~ "godotengine/godot-demo-projects/tree/master/viewport/screen_capture>`_"
+
+#~ msgid ""
+#~ "If you know how the :ref:`Viewport <class_Viewport>` is going to be used, "
+#~ "you can set its Usage to either 3D or 2D. Godot will then restrict how "
+#~ "the :ref:`Viewport <class_Viewport>` is drawn to in accordance with your "
+#~ "choice; default is 3D."
+#~ msgstr ""
+#~ "如果您知道如何使用 :ref:`Viewport <class_Viewport>` ，您可以将其用法设置为"
+#~ "3D或2D。 然后Godot将限制如何 :ref:`Viewport <class_Viewport>` 根据您的选择"
+#~ "绘制，默认为3D。"
+
+#~ msgid ""
+#~ "Lastly, Wireframe draws the scene using only the edges of triangles in "
+#~ "the meshes. NOTE: As of this writing (v3.0.2), wireframe mode is not "
+#~ "functional and currently renders the scene normally."
+#~ msgstr ""
+#~ "最后，Wireframe仅使用网格中三角形的边缘绘制场景。 注意:在撰写本文时"
+#~ "(v3.0.2)，线框模式不起作用，并且当前正常渲染场景。"
+
+#~ msgid ""
+#~ "The :ref:`Viewport <class_Viewport>` will cover the area of its parent :"
+#~ "ref:`ViewportContainer <class_viewportcontainer>` completely if stretch "
+#~ "is set to true in :ref:`ViewportContainer <class_viewportcontainer>`. "
+#~ "Note: The size of the :ref:`ViewportContainer <class_viewportcontainer>` "
+#~ "cannot be smaller than the size of the :ref:`Viewport <class_Viewport>`."
+#~ msgstr ""
+#~ ":ref:`Viewport <class_Viewport>` 将覆盖其父级的区域 :ref:"
+#~ "`ViewportContainer <class_viewportcontainer>` 如果在以下情况下将stretch设"
+#~ "置为true :ref:`ViewportContainer <class_viewportcontainer>`。 注意: :ref:"
+#~ "`ViewportContainer <class_viewportcontainer>` 的大小不能小于 :ref:"
+#~ "`Viewport <class_Viewport>` 的大小。"

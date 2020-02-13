@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2020-02-13 22:30+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_exports.rst:4
 msgid "GDScript exports"
@@ -85,8 +85,8 @@ msgid ""
 "values in one property. By using the export hint ``int, FLAGS``, they can be "
 "set from the editor::"
 msgstr ""
-"用作位标志的整数可以在一个属性中存储多个 ``true``/``false``（布尔值）值。通过"
-"使用导出提示 ``int, FLAGS``，可以从编辑器中设置它们："
+"用作位标志的整数可以在一个属性中存储多个 ``true`` / ``false`` （布尔值）值。"
+"通过使用导出提示 ``int, FLAGS``，可以从编辑器中设置它们："
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_exports.rst:133
 msgid ""

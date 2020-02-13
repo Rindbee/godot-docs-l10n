@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-11-01 00:36+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_canvasmodulate.rst:10
+msgid "CanvasModulate"
+msgstr "CanvasModulate"
+
+#: ../../docs/classes/class_canvasmodulate.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_canvasmodulate.rst:14
+msgid "Tint the entire canvas."
+msgstr "给整个画布上色。"
+
+#: ../../docs/classes/class_canvasmodulate.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_canvasmodulate.rst:19
+msgid ""
+"``CanvasModulate`` tints the canvas elements using its assigned "
+":ref:`color <class_CanvasModulate_property_color>`."
+msgstr ""
+"``CanvasModulate`` 会使用分配给它的 :ref:`color "
+"<class_CanvasModulate_property_color>`，来着色画布元素。"
+
+#: ../../docs/classes/class_canvasmodulate.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_canvasmodulate.rst:25
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`Color <class_Color>`"
+
+#: ../../docs/classes/class_canvasmodulate.rst:25
+msgid ":ref:`color <class_CanvasModulate_property_color>`"
+msgstr ":ref:`color <class_CanvasModulate_property_color>`"
+
+#: ../../docs/classes/class_canvasmodulate.rst:25
+#: ../../docs/classes/class_canvasmodulate.rst:36
+#, fuzzy
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr "Color( 1, 1, 1, 1 )"
+
+#: ../../docs/classes/class_canvasmodulate.rst:29
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_canvasmodulate.rst:33
+msgid ":ref:`Color <class_Color>` **color**"
+msgstr ":ref:`Color <class_Color>` **color**"
+
+#: ../../docs/classes/class_canvasmodulate.rst:36
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_canvasmodulate.rst:38
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_canvasmodulate.rst:38
+msgid "set_color(value)"
+msgstr "set_color(value)"
+
+#: ../../docs/classes/class_canvasmodulate.rst:40
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_canvasmodulate.rst:40
+msgid "get_color()"
+msgstr "get_color()"
+
+#: ../../docs/classes/class_canvasmodulate.rst:43
+msgid "The tint color to apply."
+msgstr "要应用的着色颜色。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

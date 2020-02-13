@@ -1,27 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2020-03-02 20:39+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:4
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:4
 msgid "Design interfaces with the Control nodes"
 msgstr "使用 ``Control`` 节点设计界面"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:6
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:6
 msgid ""
 "Computer displays, mobile phones, and TV screens come in all shapes and "
 "sizes. To ship a game, you'll need to support different screen ratios and "
@@ -33,29 +37,28 @@ msgstr ""
 "需要支持不同的屏幕比例和分辨率。构建适应所有平台的响应式接口可能很困难。值得"
 "庆幸的是，Godot附带了功能强大的工具，可以设计和管理响应式用户界面。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:14
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:14
 msgid "Godot's editor is made with the engine's UI framework"
 msgstr "Godot的编辑器由引擎的UI框架制成"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:16
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:16
 msgid "This guide will get you started with UI design. You will learn:"
 msgstr "本指南将帮助您开始进行UI设计。 你将学习："
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:18
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:18
 msgid "The five most useful control nodes to build your games' interface"
 msgstr "建立游戏界面的五个最有用的控制节点"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:19
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:19
 msgid "How to work with the anchor of UI elements"
 msgstr "如何使用UI元素的锚点"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:20
 msgid ""
 "How to efficiently place and arrange your user interface using containers"
 msgstr "如何使用容器有效地放置和排列用户界面"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:22
-#, fuzzy
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:22
 msgid ""
 "The five most common containers (you can learn more about containers in the :"
 "ref:`GUI Containers <doc_gui_containers>` documentation page)."
@@ -63,7 +66,7 @@ msgstr ""
 "五个最常用的容器（您可以在 :ref:`GUI容器 <doc_gui_containers>` 文档页面中，了"
 "解有关容器的更多信息）。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:25
 msgid ""
 "To learn how to control the interface and connect it to other scripts, read :"
 "ref:`Build your first game UI in Godot <doc_ui_game_user_interface>`."
@@ -71,7 +74,7 @@ msgstr ""
 "要了解如何控制界面并将其连接到其他脚本，请阅读：:ref:`在Godot中构建您的第一个"
 "游戏UI <doc_ui_game_user_interface>`。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:28
 msgid ""
 "To design your UI, you'll use the Control nodes. These are the nodes with "
 "green icons in the editor. There are dozens of them, for creating anything "
@@ -82,7 +85,7 @@ msgstr ""
 "有数十种，可用于创建从生命条到复杂应用程序的所有内容。Godot的编辑器本身是使"
 "用 ``Control`` 节点构建的。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:32
 msgid ""
 "Control nodes have unique properties that allow them to work well with one "
 "another. Other visual nodes, like Node2D and Sprite don't have these "
@@ -93,35 +96,35 @@ msgstr ""
 "``Node2D`` 和 ``Sprite``）没有这些功能。因此，为了使您的生活更轻松，请在构建"
 "UI时尽可能使用 ``Control`` 节点。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:36
 msgid "All control nodes share the same main properties:"
 msgstr "所有 ``Control`` 节点具有相同的主要属性："
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:38
 msgid "Anchor"
 msgstr "锚"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:39
 msgid "Bounding rectangle"
 msgstr "边界矩形"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:40
 msgid "Focus and focus neighbor"
 msgstr "焦点和焦点邻居"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:41
 msgid "Size flags"
 msgstr "大小标志"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:42
 msgid "Margin"
 msgstr "边距"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:43
 msgid "The optional UI theme"
 msgstr "可选的UI主题"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:45
 msgid ""
 "Once you understand the basics of the Control node, it will take you less "
 "time to learn all the nodes that derive from it."
@@ -129,11 +132,11 @@ msgstr ""
 "一旦了解了 ``Control`` 节点的基础知识，您将花费更少的时间来学习从其派生的所有"
 "节点。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:50
 msgid "The 5 most common UI elements"
 msgstr "5个最常见的UI元素"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:52
 msgid ""
 "Godot ships with dozens of Control nodes. A lot of them are here to help you "
 "build editor plugins and applications."
@@ -141,7 +144,7 @@ msgstr ""
 "Godot附带了数十个 ``Control`` 节点。这里有很多插件可以帮助您构建编辑器插件和"
 "应用程序。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:55
 msgid ""
 "For most games, you'll only need five types of UI elements, and a few "
 "Containers. These five Control nodes are:"
@@ -149,38 +152,38 @@ msgstr ""
 "对于大多数游戏，您只需要五种类型的UI元素和一些容器。这五个 ``Control`` 节点"
 "是："
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:58
 msgid "Label: for displaying text"
 msgstr "``Label``：用于显示文本"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:59
 msgid ""
 "TextureRect: used mostly for backgrounds, or everything that should be a "
 "static image"
 msgstr "``TextureRect``：主要用于背景，或应为静态图像的所有内容"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:61
 msgid ""
 "TextureProgress: for lifebars, loading bars, horizontal, vertical or radial"
 msgstr "``TextureProgress``：适用于生命条、进度条、水平杆、垂直杆或径向杆"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:63
 msgid "NinePatchRect: for scalable panels"
 msgstr "``NinePatchRect``：可缩放面板"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:64
 msgid "TextureButton: to create buttons"
 msgstr "``TextureButton``：用于创建按钮"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:68
 msgid "The 5 most common Control nodes for UI design"
 msgstr "用于UI设计的5个最常见的 ``Control`` 节点"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:71
 msgid "TextureRect"
 msgstr "``TextureRect``"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:73
 msgid ""
 "**TextureRect** displays a texture or image inside a UI. It seems similar to "
 "the Sprite node, but it offers multiple scaling modes. Set the Stretch Mode "
@@ -189,7 +192,7 @@ msgstr ""
 "**TextureRect** 在UI内显示纹理或图像。它看起来类似于 ``Sprite`` 节点，但是它"
 "提供了多种缩放模式。设置 ``拉伸模式（Stretch Mode）`` 属性以更改其行为："
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:77
 msgid ""
 "``Scale On Expand (compat)`` scales the texture to fit the node's bounding "
 "rectangle, only if ``expand`` property is ``true``; otherwise, it behaves "
@@ -199,15 +202,15 @@ msgstr ""
 "``true`` 时，缩放纹理以适合节点的边界矩形； 否则，其行为类似于 ``保持（Keep）"
 "`` 模式。 默认模式用于向后兼容。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:80
 msgid "``Scale`` scales the texture to fit the node's bounding rectangle."
 msgstr "``缩放（Scale）`` 缩放纹理以适应节点的边界矩形。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:81
 msgid "``Tile`` makes the texture repeat, but it won't scale."
 msgstr "``平铺（Tile）`` 使纹理重复出现，但不会缩放。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:82
 msgid ""
 "``Keep`` and ``Keep Centered`` force the texture to remain at its original "
 "size, in the top left corner or the center of the frame respectively."
@@ -215,7 +218,7 @@ msgstr ""
 "``保持（Keep）`` 和 ``保持居中（Keep Centered）`` 强制纹理保持其原始大小，分"
 "别位于框架的左上角或中心。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:85
 msgid ""
 "``Keep Aspect`` and ``Keep Aspect Centered`` scales the texture but force it "
 "to remain its original aspect ratio, in the top left corner or the center of "
@@ -224,7 +227,7 @@ msgstr ""
 "``保持纵横比（Keep Aspect）`` 和 ``保持纵横比居中（Keep Aspect Centered）`` "
 "可缩放纹理，但会强制其保持其原始纵横比，分别位于框架的左上角或中心。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:87
 msgid ""
 "``Keep Aspect Covered`` works just like ``Keep Aspect Centered`` but the "
 "shorter side fits the bounding rectangle and the other one clips to the "
@@ -233,7 +236,7 @@ msgstr ""
 "``保持纵横比覆盖（Keep Aspect Covered）`` 的工作方式与 ``保持纵横比居中`` 的"
 "一样，但较短的一侧适合边界矩形，而另一侧则裁剪到节点的极限。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:90
 msgid ""
 "As with Sprite nodes, you can modulate the TextureRect's color. Click the "
 "``Modulate`` property and use the color picker."
@@ -241,29 +244,29 @@ msgstr ""
 "与 ``Sprite`` 节点一样，您可以调制 ``TextureRect`` 的颜色。点击 "
 "``Modulate（调制）`` 属性并使用颜色选择器。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:95
 msgid "TextureRect modulated with a red color"
 msgstr "用红色调制的 ``TextureRect``"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:98
 msgid "TextureButton"
 msgstr "``TextureButton``"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:100
 msgid ""
 "**TextureButton** is like TextureRect, except it has 5 texture slots: one "
 "for each of the button's states. Most of the time, you'll use the Normal, "
 "Pressed, and Hover textures. Focused is useful if your interface listens to "
 "the keyboard's input. The sixth image slot, the Click Mask, lets you define "
-"the clickable area using a 2-bit, pure black and white image."
+"the clickable area using a 1-bit, pure black and white image."
 msgstr ""
 "**纹理按钮（TextureButton）** 类似于 ``纹理矩形（TextureRect）``，只不过它有5"
-"个纹理槽：每个纹理槽对应一个按钮的状态。大多数时候，您会使用 ``普通槽"
+"个纹理槽：每个纹理槽对应该按钮的各个状态。大多数时候，您会使用 ``普通槽"
 "（Normal）``、``按下槽（Pressed）``、和 ``悬停槽（Hover）`` 纹理。如果您的界"
 "面监听键盘的输入，``聚焦槽（Focused）`` 是很有用的。第六个图像插槽，``点击遮"
-"罩（Click Mask）``，允许您使用一个2位的纯黑白图像定义可点击区域。"
+"罩（Click Mask）``，允许您使用一个1位的纯黑白图像定义可点击区域。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:107
 msgid ""
 "In the Base Button section, you'll find a few checkboxes that change how the "
 "button behaves. When ``Toggle Mode`` is on, the button will toggle between "
@@ -280,15 +283,15 @@ msgstr ""
 "性：它具有 ``Modulate（调制）`` 属性以更改其颜色，并具有 ``调整大小（Resize）"
 "`` 和 ``拉伸（Stretch）`` 模式以更改其缩放行为。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:117
 msgid "TextureButton and its 5 texture slots"
 msgstr "``TextureButton`` 及其5个纹理插槽"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:120
 msgid "TextureProgress"
 msgstr "``TextureProgress``"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:122
 msgid ""
 "**TextureProgress** layers up to 3 sprites to create a progress bar. The "
 "Under and Over textures sandwich the Progress one, which displays the bar's "
@@ -297,7 +300,7 @@ msgstr ""
 "**TextureProgress** 层多达3个精灵来创建进度条。``Under`` 和 ``Over`` 纹理将显"
 "示进度条的值的 ``Progress`` 夹在中间。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:126
 msgid ""
 "The ``Mode`` property controls the direction in which the bar grows: "
 "horizontally, vertically, or radially. If you set it to radial, the "
@@ -308,7 +311,8 @@ msgstr ""
 "向，则可以使用 ``初始角度（Initial Angle）`` 和 ``填充度（Fill Degrees）`` 属"
 "性来限制量规的范围。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:131
+#, python-format
 msgid ""
 "To animate the bar, you'll want to look at the Range section. Set the "
 "``Min`` and ``Max`` properties to define the range of the gauge. For "
@@ -324,15 +328,15 @@ msgstr ""
 "``Min`` 和 ``Max`` 的值设置为 ``0`` 和 ``100`` 的默认值，并将 ``Value`` 属性"
 "设置为 ``40``，``Progress`` 纹理的40%会显示，60%会隐藏。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:141
 msgid "TextureProgress bar, two thirds filled"
 msgstr "``TextureProgress`` 条，三分之二填充"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:144
 msgid "Label"
-msgstr "标签"
+msgstr "``Label``"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:146
 msgid ""
 "**Label** prints text to the screen. You'll find all its properties in the "
 "Label section, in the Inspector. Write the text in the ``Text`` property, "
@@ -345,15 +349,15 @@ msgstr ""
 "``Autowrap``。如果关闭 ``Autowrap``，则无法缩放节点。您可以使用 ``Align`` 和 "
 "``Valign`` 分别水平和垂直对齐文本。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:155
 msgid "Picture of a Label"
 msgstr "``Label`` 图片"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:158
 msgid "NinePatchRect"
 msgstr "``NinePatchRect``"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:160
 msgid ""
 "**NinePatchRect** takes a texture split in 3 rows and 3 columns. The center "
 "and the sides tile when you scale the texture, but it never scales the "
@@ -363,34 +367,34 @@ msgstr ""
 "**NinePatchRect** 将纹理分割成3行和3列。缩放纹理时，中心和侧面会平铺，但不会"
 "缩放角落。为UI构建面板、对话框和可伸缩的背景非常有用。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:167
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:167
 msgid "NinePatchRect scaled with the min\\_size property"
 msgstr "``NinePatchRect`` 使用 ``min_size`` 属性缩放"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:170
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:170
 msgid "There are two workflows to build responsive UIs"
 msgstr "有两个工作流程可以构建响应式UI"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:172
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:172
 msgid ""
 "There are two workflows to build scalable and flexible interfaces in Godot:"
 msgstr "在Godot中，有两个工作流程可构建可伸缩和灵活的界面："
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:174
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:174
 msgid ""
 "You have many container nodes at your disposal that scale and place UI "
 "elements for you. They take control over their children."
 msgstr ""
 "您有许多容器节点可供使用，可以为您缩放和放置UI元素。 他们控制自己的子项。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:175
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:175
 msgid ""
 "On the other side, you have the layout menu. It helps you to anchor, place "
 "and resize a UI element within its parent."
 msgstr ""
 "另一方面，您有布局菜单。它帮助您在其父级中锚定、放置和重新调整UI元素的大小。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:177
 msgid ""
 "The two approaches are not always compatible. Because a container controls "
 "its children, you cannot use the layout menu on them. Each container has a "
@@ -405,17 +409,17 @@ msgstr ""
 "布局方法时，您将从下至上处理子级。由于没有在场景中插入额外的容器，所以层次结"
 "构会更加清晰，但是很难在行、列、栅格等中排列项。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:179
 msgid ""
 "As you create UIs for your games and tools, you'll develop a sense for what "
 "fits best in each situation."
 msgstr "在为游戏和工具创建UI时，您将对每种情况下最合适的内容有所了解。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:183
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:183
 msgid "Place UI elements precisely with anchors"
 msgstr "用锚精确地放置UI元素"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:185
 msgid ""
 "Control nodes have a position and size, but they also have anchors and "
 "margins. Anchors define the origin, or the reference point, for the Left, "
@@ -425,15 +429,15 @@ msgstr ""
 "``Control`` 节点有位置和大小，但它们也有锚和边距。锚定义节点的左、上、右和下"
 "边缘的原点或参考点。更改4个锚中的任何一个，将更改边距的参考点。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:192
 msgid "The anchor property"
 msgstr "锚属性"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:195
 msgid "How to change the anchor"
 msgstr "如何更换锚"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:197
 msgid ""
 "Like any properties, you can edit the 4 anchor points in the Inspector, but "
 "this is not the most convenient way. When you select a control node, the "
@@ -447,15 +451,15 @@ msgstr ""
 "在此通过单击就可以设置所有4个锚点，而不必在属性检查器面板去设置4个属性。仅当"
 "选择控制节点时，才会显示布局菜单。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:206
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:206
 msgid "The layout menu in the viewport"
 msgstr "视图中的布局菜单"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:209
 msgid "Anchors are relative to the parent container"
 msgstr "相对于父容器的锚"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:211
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:211
 msgid ""
 "Each anchor is a value between 0 and 1. For the left and top anchors, a "
 "value of 0 means that without any margin, the node's edges will align with "
@@ -470,17 +474,17 @@ msgstr ""
 "右边缘和底边缘对齐。另一方面，边距表示到锚点位置的距离（以像素为单位），而锚"
 "点是相对于父容器的大小。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:221
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:221
 msgid ""
 "Margins are relative to the anchor position, which is relative to the "
 "anchors. In practice, you'll often let the container update margins for you"
 msgstr "边距相对于相对于锚的锚位置。在实践中，您通常会让容器为您更新边距"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:226
 msgid "Margins change with the anchor"
 msgstr "边距随锚而变化"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:228
 msgid ""
 "Margins update automatically when you move or resize a control node. They "
 "represent the distance from the control node's edges to its anchor, which is "
@@ -494,11 +498,11 @@ msgstr ""
 "位于容器内的原因，我们稍后会看到。如果没有父对象，则边距将相对于属性检查器的"
 "矩形部分中设置的，即节点自己的边界矩形。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:238
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:238
 msgid "Margins on a CenterContainer set to the \"Full Rect\" anchor"
 msgstr "``CenterContainer`` 上的边距设置为 ``Full Rect（填充矩形）`` 锚点"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:240
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:240
 msgid ""
 "Try to change the anchors or nest your Control nodes inside Containers: the "
 "margins will update. You'll rarely need to edit the margins manually. Always "
@@ -512,11 +516,11 @@ msgstr ""
 "为您解决所有常见情况。需要在生命条和屏幕边界之间添加空间？使用 "
 "``VBoxContainer``。 更多关于这些的内容，参见下文。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:249
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:249
 msgid "Use size tags to change how UI elements fill the available space"
 msgstr "使用大小标签来更改UI元素如何填充可用空间"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:251
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:251
 msgid ""
 "Every control node has Size Flags. They tell containers how the UI elements "
 "should scale. If you add the \"Fill\" flag to the Horizontal or Vertical "
@@ -532,11 +536,11 @@ msgstr ""
 "``TextureRect`` 节点，并且两个轴上都带有 ``填充（Fill）`` 标志，则每个节点将"
 "占用可用空间的三分之一，但也就仅此而已。容器将接管节点并自动调整其大小。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:261
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:261
 msgid "3 UI elements in an HBoxContainer, they align horizontally"
 msgstr "``HBoxContainer`` 中的3个UI元素，它们是水平对齐的"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:263
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:263
 msgid ""
 "The \"Expand\" flag lets the UI element take all the space it can, and push "
 "against its siblings. Its bounding rectangle will grow against the edges of "
@@ -545,12 +549,12 @@ msgstr ""
 "``Expand（展开）`` 标志允许UI元素获得它所能获得的所有空间，并推动其兄弟元素。"
 "它的边界矩形将沿其父对象的边缘增长，或直到它被另一个UI节点阻止为止。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:269
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:269
 msgid ""
 "The same example as above, but the center node has the \"Expand\" size flag"
 msgstr "与上面的示例相同，但是中心节点有 ``Expand（展开）`` 大小标志"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:272
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:272
 msgid ""
 "You'll need some practice to understand the size tags, as their effect can "
 "change quite a bit depending on how you set up your interface."
@@ -558,11 +562,11 @@ msgstr ""
 "您需要进行一些练习来理解大小标签，因为它们的效果可能会根据您设置界面的方式而"
 "发生很大变化。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:276
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:276
 msgid "Arrange control nodes automatically with containers"
 msgstr "使用容器自动排列控制节点"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:278
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:278
 msgid ""
 "Containers automatically arrange all children Control nodes including other "
 "containers in rows, columns, and more. Use them to add padding around your "
@@ -573,7 +577,7 @@ msgstr ""
 "界面或中心节点周围添加 ``填充（padding）``。所有内置容器都会在编辑器中更新，"
 "因此您可以立即看到效果。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:284
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:284
 msgid ""
 "Containers have a few special properties to control how they arrange UI "
 "elements. To change them, navigate down to the Custom Constants section in "
@@ -582,11 +586,11 @@ msgstr ""
 "容器具有一些特殊的属性来控制它们如何排列UI元素。要更改它们，请导航至属性检查"
 "器中的 ``自定义常量`` 部分。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:289
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:289
 msgid "The 5 most useful containers"
 msgstr "5个最有用的容器"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:291
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:291
 msgid ""
 "If you build tools, you might need all of the containers. But for most "
 "games, a handful will be enough:"
@@ -594,24 +598,24 @@ msgstr ""
 "如果您构建工具，您可能需要所有的容器。但是对于大多数游戏来说，只需几个就足够"
 "了："
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:294
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:294
 msgid "MarginContainer, to add margins around part of the UI"
 msgstr "``MarginContainer``，在UI的部件周围添加边距"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:295
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:295
 msgid "CenterContainer, to center its children in its bounding box"
 msgstr "``CenterContainer``，将其子项放在其边界框中"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:296
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:296
 msgid ""
 "VboxContainer and HboxContainer, to arrange UI elements in rows or columns"
 msgstr "``VboxContainer`` 和 ``HboxContainer``，用于在行或列中排列UI元素"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:298
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:298
 msgid "GridContainer, to arrange Controls nodes in a grid-like pattern"
 msgstr "``GridContainer``，以栅格状模式排列 ``Controls`` 节点"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:300
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:300
 msgid ""
 "CenterContainer centers all its children inside of its bounding rectangle. "
 "It's one you typically use for title screens, if you want the options to "
@@ -623,12 +627,12 @@ msgstr ""
 "图的中心，通常使用它作为标题屏幕。当它使所有内容居中时，您通常会希望在其中嵌"
 "套一个容器。如果改用纹理和按钮对象，它们会堆积在一起。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:308
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:308
 msgid ""
 "CenterContainer in action. The life bar centers inside its parent container."
 msgstr "``CenterContainer`` 的作用。生命条位于它的父容器内部。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:311
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:311
 msgid ""
 "The MarginContainer adds a margin on any side of the child nodes. Add a "
 "MarginContainer that encompasses the entire viewport to add a separation "
@@ -642,11 +646,11 @@ msgstr ""
 "右侧、或底部设置边距。无需勾选该复选框：点击相应的值框并输入任何数字。它会自"
 "动激活。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:320
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:320
 msgid "The MarginContainer adds a 40px margin around the Game User Interface"
 msgstr "``MarginContainer`` 在游戏用户界面周围添加了40px的边距"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:322
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:322
 msgid ""
 "There are two BoxContainers: VBoxContainer and HBoxContainer. You cannot add "
 "the BoxContainer node itself, as it is a helper class, but you can use "
@@ -660,11 +664,11 @@ msgstr ""
 "器。它们将节点排列成行或列。使用它们可以在商店中排列商品，或使用大小不同的行"
 "和列构建复杂的栅格，因为您可以将它们嵌套在所需位置。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:331
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:331
 msgid "The HBoxContainer horizontally aligns UI elements"
 msgstr "``HBoxContainer`` 水平对齐UI元素"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:333
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:333
 msgid ""
 "VBoxContainer automatically arranges its children into a column. It puts "
 "them one after the other. If you use the separation parameter, it will leave "
@@ -678,7 +682,7 @@ msgstr ""
 "类似于 ``VBoxContainer``，具有一个额外的 ``add_spacer`` 方法，可从脚本中在第"
 "一个子节点之前或最后一个子节点之后添加一个间隔控制节点。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:340
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:340
 msgid ""
 "The GridContainer lets you arrange UI elements in a grid-like pattern. You "
 "can only control the number of columns it has, and it will set the number of "
@@ -694,11 +698,11 @@ msgstr ""
 "个子项，就有4行了。换句话说，当您添加更多纹理和按钮时，它将创建新行。像盒子容"
 "器一样，它具有两个属性，分别设置行和列之间的垂直和水平间隔。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:351
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:351
 msgid "A GridContainer with 2 columns. It sizes each column automatically."
 msgstr "具有2列的 ``GridContainer``。它会自动调整每列的大小。"
 
-#: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:353
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:353
 msgid ""
 "Godot's UI system is complex, and has a lot more to offer. To learn how to "
 "design more advanced interfaces, head to the :ref:`GUI section <toc-learn-"

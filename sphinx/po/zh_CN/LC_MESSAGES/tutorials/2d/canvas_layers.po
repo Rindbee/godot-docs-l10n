@@ -1,29 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-10-27 17:57+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:4
 msgid "Canvas layers"
-msgstr "Canvas Layers(画布层)"
+msgstr "画布层"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:7
 msgid "Viewport and Canvas items"
-msgstr "Viewport (视口) 和 Canvas Item (画布项)"
+msgstr "视图和画布项"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:9
 msgid ""
@@ -34,9 +34,9 @@ msgid ""
 "parent is moved, the children will move too."
 msgstr ""
 "常规2D节点，如 :ref:`Node2D <class_Node2D>` 或 :ref:`Control "
-"<class_Control>` 都继承自 :ref:`CanvasItem <class_CanvasItem>` , 它是所有2D节"
-"点的基础。CanvasItem 被组织成树状结构，同时继承它们父节点的变换。这意味着在移"
-"动父节点时，子节点也会被移动。"
+"<class_Control>` 都继承自 :ref:`CanvasItem <class_CanvasItem>`，它是所有2D节"
+"点的基类。画布项可以排列在树中。每项都将继承其父级的变换。这意味着在移动父节"
+"点时，子节点也会被移动。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:16
 msgid ""
@@ -44,8 +44,8 @@ msgid ""
 "children of a :ref:`Viewport <class_Viewport>`, and will be displayed "
 "through it."
 msgstr ""
-"CanvasItem 节点和继承他们的节点, 都作为 :ref:`Viewport <class_Viewport>` 的直"
-"接或间接子节点放置，并将通过它显示。"
+"``CanvasItem`` 节点，以及从其继承的节点，是 :ref:`Viewport <class_Viewport>` "
+"的直接或间接子级，并将通过它显示。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:19
 msgid ""
@@ -55,10 +55,10 @@ msgid ""
 "it contains. Nodes such as :ref:`Camera2D <class_Camera2D>` work by changing "
 "that transform."
 msgstr ""
-"Viewport 具有属性 :ref:`Viewport.canvas_transform "
-"<class_Viewport_property_canvas_transform>` ，它允许对它所包含的CanvasItem层"
-"级施加一个自定义的 :ref:`Transform2D <class_Transform2D>` 变换。 如 :ref:"
-"`Camera2D <class_Camera2D>` 的主要工作方式就是改变那个Transform2D变换。"
+"一个视图具有 :ref:`Viewport.canvas_transform "
+"<class_Viewport_property_canvas_transform>` 属性，该属性允许将一个自定义的 :"
+"ref:`Transform2D <class_Transform2D>` 变换，应用于视图包含的 ``CanvasItem`` "
+"层次结构。:ref:`Camera2D <class_Camera2D>` 之类的节点，通过更改该变换来工作。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:25
 msgid ""
@@ -66,22 +66,22 @@ msgid ""
 "transform property. This approach is more efficient than moving the root "
 "canvas item (and hence the whole scene)."
 msgstr ""
-"类似与滚动的效果最好通过操作Viewport的画布变换( :ref:`Viewport."
-"canvas_transform <class_Viewport_property_canvas_transform>` )属性来实现。这"
-"种方法比移动根节点CanvasItem(也就是整个场景) 更有效。"
+"像滚动之类的效果，最好通过操作画布的变换属性来实现。这种方法比移动根画布项"
+"（这就是整个场景）更有效。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:28
 msgid ""
 "Usually though, we don't want *everything* in the game or app to be subject "
 "to the canvas transform. Examples of this are:"
 msgstr ""
-"通常情况下，我们不希望游戏中的*所有东西*都受到画布变换的影响 。相应的例子有:"
+"不过，通常情况下，我们不希望，游戏或应用程序中的所有内容，都受到画布变换的影"
+"响。例如："
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:31
 msgid ""
 "**Parallax Backgrounds**: Backgrounds that move slower than the rest of the "
 "stage."
-msgstr "**Parallax Backgrounds(视差背景)** :比场景其他部分移动得慢的背景。"
+msgstr "**视差背景**：背景移动的速度，比舞台的其余部分慢。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:33
 msgid ""
@@ -90,25 +90,25 @@ msgid ""
 "display and other elements to retain their screen positions even when our "
 "view of the game world is changing."
 msgstr ""
-"**用户界面**：想象一个UI(用户界面)或HUD(平视显示器) 叠加在我们的游戏世界视图"
-"上。我们想要生命计数器，分数显示等东西保持其屏幕位置，即使当游戏世界中的视角"
-"正在改变时他们也不动。"
+"**UI**：考虑一个用户界面（UI）或平视显示器（HUD），叠加在我们的游戏世界视图"
+"上。我们想要生命计数器、分数显示、和其他元素，能够保持其屏幕位置，即使我们的"
+"游戏世界视图正在改变。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:34
 msgid ""
 "**Transitions**: We may want visual effects used for transitions (fades, "
 "blends) to remain at a fixed screen location."
 msgstr ""
-"**转换** :我们应该希望用于转换场景的效果(淡入淡出之类的东西)也保持在固定的位"
+"**过渡**：我们可能希望将用于过渡的视觉效果（渐变、混合），保留在固定的屏幕位"
 "置。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:36
 msgid "How can these problems be solved in a single scene tree?"
-msgstr "如何在单个场景树中解决这些问题？"
+msgstr "如何在单个场景树中，解决这些问题？"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:39
 msgid "CanvasLayers"
-msgstr "CanvasLayer(画布层)"
+msgstr "画布层"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:41
 msgid ""
@@ -120,11 +120,11 @@ msgid ""
 "transform and do not depend on the transform of other layers. This allows "
 "the UI to be fixed in screen-space while our view on the game world changes."
 msgstr ""
-"答案是 :ref:`CanvasLayer <class_CanvasLayer>` ，这是一个为其所有子项和它们的"
-"孩子们添加单独的2D渲染层的节点。 Viewport的子项默认在图层“0”处绘制，而"
-"CanvasLayer会在任何图层号的图层绘制。 数字较大的图层将被绘制在数字较小的图层"
-"之上。 CanvasLayer也有自己的变换，它不依赖于其他层的变换。 这允许UI在世界移动"
-"时相对屏幕保持固定。"
+"答案是： :ref:`CanvasLayer <class_CanvasLayer>`，它是一个节点，将为其所有子级"
+"和孙级，添加一个单独的2D渲染层。默认情况下，视图子级将在 ``0`` 层进行绘制，"
+"而 ``CanvasLayer`` 将在任何数字层进行绘制。编号较大的图层将在编号较小的图层上"
+"方绘制。``CanvasLayers`` 也有自己的变换，并且不依赖于其他层的变换。当我们的游"
+"戏世界视图改变时，这允许UI被固定在屏幕空间中。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:50
 msgid ""
@@ -132,20 +132,20 @@ msgid ""
 "a CanvasLayer at layer \"-1\". The screen with the points, life counter and "
 "pause button can also be created at layer \"1\"."
 msgstr ""
-"比如说创建Parallax Background(视差背景)。 这可以通过层为“-1”的CanvasLayer完"
-"成。 带有分数，生命计数器和暂停按钮的屏幕也可以创建在编号为“1”的层中。"
+"这样的一个例子是创建视差背景。这可以通过使用 ``-1`` 层的 ``CanvasLayer`` 完"
+"成。带有点、生命计数器和暂停按钮的屏幕，也可以创建在层 ``1`` 中。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:54
 msgid "Here's a diagram of how it looks:"
-msgstr "下面是它的图示:"
+msgstr "这是它的外观图："
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:58
 msgid ""
 "CanvasLayers are independent of tree order, and they only depend on their "
 "layer number, so they can be instantiated when needed."
 msgstr ""
-"CanvasLayer 独立于树顺序，它们仅依赖于它们的层数，因此可以只在需要时让它们实"
-"例化。"
+"``CanvasLayers`` 独立于树顺序，它们仅依赖于它们的层编号，因此可以在需要时，让"
+"它们实例化。"
 
 #: ../../docs/tutorials/2d/canvas_layers.rst:61
 msgid ""
@@ -157,7 +157,8 @@ msgid ""
 "controlling their drawing order (see :ref:`Node2D.z_index "
 "<class_Node2D_property_z_index>`)."
 msgstr ""
-"CanvasLayer 不需要控制节点的绘制顺序。确保节点被正确绘制在“前面”或“后面”的标"
-"准方法是操作场景面板中节点的顺序。也许违反直觉，场景面板中最上面的节点绘制在"
-"视图端口中较低的节点*后面*。二维节点也有控制其绘图顺序的属性(参考 :ref:"
-"`Node2D.z_index <class_Node2D_property_z_index>` )。"
+"对于控制节点的绘制顺序，``CanvasLayers`` 不是必要的。确保正确将节点绘制在其他"
+"节点 ``前面`` 或 ``后面`` 的标准方法，是操纵场景面板中节点的顺序。也许违反直"
+"觉，在视图中，场景面板中的最上的节点，绘制在较低的节点的 *后面*。2d节点还具有"
+"一个属性，用于控制其绘制顺序（参见 :ref:`Node2D.z_index "
+"<class_Node2D_property_z_index>`）。"

@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:10
+msgid "AudioEffectRecord"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffect <class_AudioEffect>` **<** :ref:`Resource"
+" <class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:20
+msgid ":ref:`Format <enum_AudioStreamSample_Format>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:20
+msgid ":ref:`format <class_AudioEffectRecord_property_format>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:20
+#: ../../docs/classes/class_audioeffectrecord.rst:42
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:27
+msgid ":ref:`AudioStreamSample <class_AudioStreamSample>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:27
+msgid ""
+":ref:`get_recording <class_AudioEffectRecord_method_get_recording>` **(**"
+" **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:29
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:29
+msgid ""
+":ref:`is_recording_active "
+"<class_AudioEffectRecord_method_is_recording_active>` **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:31
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:31
+msgid ""
+":ref:`set_recording_active "
+"<class_AudioEffectRecord_method_set_recording_active>` **(** :ref:`bool "
+"<class_bool>` record **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:35
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:39
+msgid ":ref:`Format <enum_AudioStreamSample_Format>` **format**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:42
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:44
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:44
+msgid "set_format(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:46
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:46
+msgid "get_format()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:50
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:54
+msgid ""
+":ref:`AudioStreamSample <class_AudioStreamSample>` **get_recording** "
+"**(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:60
+msgid ":ref:`bool <class_bool>` **is_recording_active** **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:66
+msgid "void **set_recording_active** **(** :ref:`bool <class_bool>` record **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+

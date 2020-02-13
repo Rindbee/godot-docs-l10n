@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:10
+msgid "Texture2D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture <class_Texture>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:14
+msgid ""
+"**Inherited By:** :ref:`AnimatedTexture <class_AnimatedTexture>`, "
+":ref:`AtlasTexture <class_AtlasTexture>`, :ref:`CameraTexture "
+"<class_CameraTexture>`, :ref:`CurveTexture <class_CurveTexture>`, "
+":ref:`GradientTexture <class_GradientTexture>`, :ref:`ImageTexture "
+"<class_ImageTexture>`, :ref:`LargeTexture <class_LargeTexture>`, "
+":ref:`MeshTexture <class_MeshTexture>`, :ref:`NoiseTexture "
+"<class_NoiseTexture>`, :ref:`ProxyTexture <class_ProxyTexture>`, "
+":ref:`StreamTexture <class_StreamTexture>`, :ref:`ViewportTexture "
+"<class_ViewportTexture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:16
+msgid "Texture for 2D and 3D."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:21
+msgid ""
+"A texture works by registering an image in the video hardware, which then"
+" can be used in 3D models or 2D :ref:`Sprite <class_Sprite>` or GUI "
+":ref:`Control <class_Control>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:23
+msgid ""
+"Textures are often created by loading them from a file. See "
+":ref:`@GDScript.load <class_@GDScript_method_load>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:25
+msgid "``Texture2D`` is a base for other resources. It cannot be used directly."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:28
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:35
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:31
+msgid ""
+":ref:`draw <class_Texture2D_method_draw>` **(** :ref:`RID <class_RID>` "
+"canvas_item, :ref:`Vector2 <class_Vector2>` position, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool <class_bool>` "
+"transpose=false, :ref:`Texture2D <class_Texture2D>` normal_map=null, "
+":ref:`Texture2D <class_Texture2D>` specular_map=null, :ref:`Color "
+"<class_Color>` specular_color_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`CanvasItemTextureFilter "
+"<enum_VisualServer_CanvasItemTextureFilter>` texture_filter=0, "
+":ref:`CanvasItemTextureRepeat "
+"<enum_VisualServer_CanvasItemTextureRepeat>` texture_repeat=0 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:33
+msgid ""
+":ref:`draw_rect <class_Texture2D_method_draw_rect>` **(** :ref:`RID "
+"<class_RID>` canvas_item, :ref:`Rect2 <class_Rect2>` rect, :ref:`bool "
+"<class_bool>` tile, :ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1"
+" ), :ref:`bool <class_bool>` transpose=false, :ref:`Texture2D "
+"<class_Texture2D>` normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+"specular_map=null, :ref:`Color <class_Color>` "
+"specular_color_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`CanvasItemTextureFilter "
+"<enum_VisualServer_CanvasItemTextureFilter>` texture_filter=0, "
+":ref:`CanvasItemTextureRepeat "
+"<enum_VisualServer_CanvasItemTextureRepeat>` texture_repeat=0 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:35
+msgid ""
+":ref:`draw_rect_region <class_Texture2D_method_draw_rect_region>` **(** "
+":ref:`RID <class_RID>` canvas_item, :ref:`Rect2 <class_Rect2>` rect, "
+":ref:`Rect2 <class_Rect2>` src_rect, :ref:`Color <class_Color>` "
+"modulate=Color( 1, 1, 1, 1 ), :ref:`bool <class_bool>` transpose=false, "
+":ref:`Texture2D <class_Texture2D>` normal_map=null, :ref:`Texture2D "
+"<class_Texture2D>` specular_map=null, :ref:`Color <class_Color>` "
+"specular_color_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`CanvasItemTextureFilter "
+"<enum_VisualServer_CanvasItemTextureFilter>` texture_filter=0, "
+":ref:`CanvasItemTextureRepeat "
+"<enum_VisualServer_CanvasItemTextureRepeat>` texture_repeat=0, :ref:`bool"
+" <class_bool>` clip_uv=true **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:37
+msgid ":ref:`Image <class_Image>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:37
+msgid ":ref:`get_data <class_Texture2D_method_get_data>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:43
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:39
+msgid ":ref:`get_height <class_Texture2D_method_get_height>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:41
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:41
+msgid ":ref:`get_size <class_Texture2D_method_get_size>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:43
+msgid ":ref:`get_width <class_Texture2D_method_get_width>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:45
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:45
+msgid ":ref:`has_alpha <class_Texture2D_method_has_alpha>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:49
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:53
+msgid ""
+"void **draw** **(** :ref:`RID <class_RID>` canvas_item, :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Color <class_Color>` modulate=Color( 1, "
+"1, 1, 1 ), :ref:`bool <class_bool>` transpose=false, :ref:`Texture2D "
+"<class_Texture2D>` normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+"specular_map=null, :ref:`Color <class_Color>` "
+"specular_color_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`CanvasItemTextureFilter "
+"<enum_VisualServer_CanvasItemTextureFilter>` texture_filter=0, "
+":ref:`CanvasItemTextureRepeat "
+"<enum_VisualServer_CanvasItemTextureRepeat>` texture_repeat=0 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:55
+msgid ""
+"Draws the texture using a :ref:`CanvasItem <class_CanvasItem>` with the "
+":ref:`VisualServer <class_VisualServer>` API at the specified "
+"``position``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:61
+msgid ""
+"void **draw_rect** **(** :ref:`RID <class_RID>` canvas_item, :ref:`Rect2 "
+"<class_Rect2>` rect, :ref:`bool <class_bool>` tile, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool <class_bool>` "
+"transpose=false, :ref:`Texture2D <class_Texture2D>` normal_map=null, "
+":ref:`Texture2D <class_Texture2D>` specular_map=null, :ref:`Color "
+"<class_Color>` specular_color_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`CanvasItemTextureFilter "
+"<enum_VisualServer_CanvasItemTextureFilter>` texture_filter=0, "
+":ref:`CanvasItemTextureRepeat "
+"<enum_VisualServer_CanvasItemTextureRepeat>` texture_repeat=0 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:63
+msgid ""
+"Draws the texture using a :ref:`CanvasItem <class_CanvasItem>` with the "
+":ref:`VisualServer <class_VisualServer>` API."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:69
+msgid ""
+"void **draw_rect_region** **(** :ref:`RID <class_RID>` canvas_item, "
+":ref:`Rect2 <class_Rect2>` rect, :ref:`Rect2 <class_Rect2>` src_rect, "
+":ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool "
+"<class_bool>` transpose=false, :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_color_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`CanvasItemTextureFilter "
+"<enum_VisualServer_CanvasItemTextureFilter>` texture_filter=0, "
+":ref:`CanvasItemTextureRepeat "
+"<enum_VisualServer_CanvasItemTextureRepeat>` texture_repeat=0, :ref:`bool"
+" <class_bool>` clip_uv=true **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:71
+msgid ""
+"Draws a part of the texture using a :ref:`CanvasItem <class_CanvasItem>` "
+"with the :ref:`VisualServer <class_VisualServer>` API."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:77
+msgid ":ref:`Image <class_Image>` **get_data** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:79
+msgid ""
+"Returns an :ref:`Image <class_Image>` with the data from this "
+"``Texture2D``. :ref:`Image <class_Image>`\\ s can be accessed and "
+"manipulated directly."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:85
+msgid ":ref:`int <class_int>` **get_height** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:87
+msgid "Returns the texture height."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:93
+msgid ":ref:`Vector2 <class_Vector2>` **get_size** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:95
+msgid "Returns the texture size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:101
+msgid ":ref:`int <class_int>` **get_width** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:103
+msgid "Returns the texture width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:109
+msgid ":ref:`bool <class_bool>` **has_alpha** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texture2d.rst:111
+msgid "Returns ``true`` if this ``Texture2D`` has an alpha channel."
+msgstr ""
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Resource <class_Resource>` **<**"
+#~ " :ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+

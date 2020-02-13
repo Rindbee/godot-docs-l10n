@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-01 10:07+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:10
+msgid "OccluderPolygon2D"
+msgstr "OccluderPolygon2D"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:14
+msgid "Defines a 2D polygon for LightOccluder2D."
+msgstr "为 ``LightOccluder2D`` 定义2D多边形。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:19
+msgid ""
+"Editor facility that helps you draw a 2D polygon used as resource for "
+":ref:`LightOccluder2D <class_LightOccluder2D>`."
+msgstr "编辑器工具，可帮助您绘制一个2D多边形，用作 :ref:`LightOccluder2D <class_LightOccluder2D>` 的资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:25
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:25
+msgid ":ref:`closed <class_OccluderPolygon2D_property_closed>`"
+msgstr ":ref:`closed <class_OccluderPolygon2D_property_closed>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:59
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:27
+msgid ":ref:`CullMode <enum_OccluderPolygon2D_CullMode>`"
+msgstr ":ref:`CullMode <enum_OccluderPolygon2D_CullMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:27
+msgid ":ref:`cull_mode <class_OccluderPolygon2D_property_cull_mode>`"
+msgstr ":ref:`cull_mode <class_OccluderPolygon2D_property_cull_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:75
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:29
+#, fuzzy
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ":ref:`PoolVector2Array <class_PoolVector2Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:29
+msgid ":ref:`polygon <class_OccluderPolygon2D_property_polygon>`"
+msgstr ":ref:`polygon <class_OccluderPolygon2D_property_polygon>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:91
+#, fuzzy
+msgid "``PackedVector2Array(  )``"
+msgstr "PoolVector2Array(  )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:33
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:43
+msgid "enum **CullMode**:"
+msgstr "枚举 **CullMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:45
+msgid ""
+"**CULL_DISABLED** = **0** --- Culling is disabled. See :ref:`cull_mode "
+"<class_OccluderPolygon2D_property_cull_mode>`."
+msgstr ""
+"**CULL_DISABLED** = **0** —— 剔除已禁用。参见 :ref:`cull_mode "
+"<class_OccluderPolygon2D_property_cull_mode>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:47
+msgid ""
+"**CULL_CLOCKWISE** = **1** --- Culling is performed in the clockwise "
+"direction. See :ref:`cull_mode "
+"<class_OccluderPolygon2D_property_cull_mode>`."
+msgstr ""
+"**CULL_CLOCKWISE** = **1** —— 沿顺时针方向进行剔除。参见 :ref:`cull_mode "
+"<class_OccluderPolygon2D_property_cull_mode>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:49
+msgid ""
+"**CULL_COUNTER_CLOCKWISE** = **2** --- Culling is performed in the "
+"counterclockwise direction. See :ref:`cull_mode "
+"<class_OccluderPolygon2D_property_cull_mode>`."
+msgstr ""
+"**CULL_COUNTER_CLOCKWISE** = **2** —— 沿逆时针方向进行剔除。参见 :ref:`cull_mode "
+"<class_OccluderPolygon2D_property_cull_mode>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:52
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:56
+msgid ":ref:`bool <class_bool>` **closed**"
+msgstr ":ref:`bool <class_bool>` **closed**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:91
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:93
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:61
+msgid "set_closed(value)"
+msgstr "set_closed(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:95
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:63
+msgid "is_closed()"
+msgstr "is_closed()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:66
+msgid ""
+"If ``true``, closes the polygon. A closed OccluderPolygon2D occludes the "
+"light coming from any direction. An opened OccluderPolygon2D occludes the"
+" light only at its outline's direction."
+msgstr ""
+"如果为 ``true``，则闭合多边形。闭合的 ``OccluderPolygon2D`` 遮挡来自任意方向的光。打开的 "
+"``OccluderPolygon2D`` 仅在其轮廓方向上遮挡光线。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:72
+msgid ":ref:`CullMode <enum_OccluderPolygon2D_CullMode>` **cull_mode**"
+msgstr ":ref:`CullMode <enum_OccluderPolygon2D_CullMode>` **cull_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:77
+msgid "set_cull_mode(value)"
+msgstr "set_cull_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:79
+msgid "get_cull_mode()"
+msgstr "get_cull_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:82
+msgid "The culling mode to use."
+msgstr "使用的剔除模式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:88
+#, fuzzy
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>` **polygon**"
+msgstr ":ref:`PoolVector2Array <class_PoolVector2Array>` **polygon**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:93
+msgid "set_polygon(value)"
+msgstr "set_polygon(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:95
+msgid "get_polygon()"
+msgstr "get_polygon()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:98
+msgid ""
+"A :ref:`Vector2 <class_Vector2>` array with the index for polygon's "
+"vertices positions."
+msgstr "一个 :ref:`Vector2 <class_Vector2>` 数组，其中包含多边形顶点位置的索引。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_occluderpolygon2d.rst:100
+msgid ""
+"**Note:** The returned value is a copy of the underlying array, rather "
+"than a reference."
+msgstr "**注意**：返回的值是底层数组的副本，而不是一个引用。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

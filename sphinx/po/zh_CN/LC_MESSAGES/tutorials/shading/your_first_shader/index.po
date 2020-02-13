@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-11-19 20:25+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/shading/your_first_shader/index.rst:2
-#, fuzzy
 msgid "Your first shader"
-msgstr "您的第一个游戏"
+msgstr "您的第一个着色器"
 
 #: ../../docs/tutorials/shading/your_first_shader/index.rst:4
 msgid ""
@@ -31,26 +30,27 @@ msgid ""
 "overview of shaders in Godot see the :ref:`Shading Reference Page <toc-"
 "shading-reference>`."
 msgstr ""
-"本系列教程将指导您编写第一个着色器。适用于没有着色器相关经验的人，想要从最基"
-"础开始。本教程不涉及高级主题，也不够全面。有关Godot中着色器的全面和详细概述，"
-"请参见:ref:`着色参考页面<toc-shading-reference>`。"
+"本教程系列将引导您编写第一个着色器。它适用于那些以前很少使用着色器，并且想要"
+"从最基础开始的人。本教程不涉及高级主题，也不够全面。有关Godot中的着色器的全面"
+"而详细的概述，请参见 :ref:`着色参考页面 <toc-shading-reference>`。"
 
 #: ../../docs/tutorials/shading/your_first_shader/index.rst:10
 msgid ""
 "\"What are shaders\" gives you a high-level overview of what shaders are and "
 "how they fit into the rendering pipeline."
-msgstr "“什么是着色器”为您提供了着色器的高级概述，以及它们如何适合于渲染管道。"
+msgstr ""
+"**什么是着色器** 为您提供了着色器的高级概述，以及它们如何适合渲染管道。"
 
 #: ../../docs/tutorials/shading/your_first_shader/index.rst:13
 msgid ""
 "The \"your first shader\" tutorials walk you through the process of writing "
 "a shader step-by-step."
-msgstr "“您的第一个着色器”教程，将逐步引导您完成编写着色器的过程。"
+msgstr "**您的第一个着色器** 教程，将逐步指导您完成编写着色器的过程。"
 
 #: ../../docs/tutorials/shading/your_first_shader/index.rst:16
 msgid ""
 "For a more general introduction into shaders and the OpenGL Shading "
 "Language, use `The Book of Shaders <https://thebookofshaders.com>`_."
 msgstr ""
-"有关着色器和OpenGL着色语言的更通俗的介绍，请参考`着色器手册 <https://"
+"有关着色器和OpenGL着色语言的更一般性介绍，请使用 `着色器手册 <https://"
 "thebookofshaders.com>`_。"

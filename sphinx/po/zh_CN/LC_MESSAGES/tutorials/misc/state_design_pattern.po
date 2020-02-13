@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 22:41+0800\n"
+"PO-Revision-Date: 2020-03-07 18:08+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.3\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:4
+msgid "State design pattern"
+msgstr "状态设计模式"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:7
+msgid "Introduction"
+msgstr "简介"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:9
+msgid ""
+"Scripting a game can be difficult when there are many states that need to "
+"handled, but only one script can be attached to a node at a time. Instead of "
+"creating a state machine within the player's control script, it would make "
+"development simpler if the states were separated out into different classes."
+msgstr ""
+"当需要处理许多状态，但是一次只能将一个脚本附加到一个节点时，编写游戏脚本可能"
+"很困难。如果将状态分成不同的类，则可以在开发人员的控制脚本中创建状态机，而使"
+"开发更加简单。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:14
+msgid ""
+"There are many ways to implement a state machine with Godot, and some other "
+"methods are below:"
+msgstr "使用Godot实现状态机的方法有很多，以下是一些方法："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:16
+msgid ""
+"The player can have a child node for each state, which are called when "
+"utilized."
+msgstr "游戏角色可以为每种状态有一个子节点，当在使用时会被调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:17
+msgid "Enums can be used in conjunction with a match statement."
+msgstr "枚举可与 ``match`` 语句结合使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:18
+msgid ""
+"The state scripts themselves could be swapped out from a node dynamically at "
+"run-time."
+msgstr "状态脚本本身可以在运行时中从一个节点动态换出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:20
+msgid ""
+"This tutorial will focus only on adding and removing nodes which have a "
+"state script attached. Each state script will be an implementation of a "
+"different state."
+msgstr ""
+"本教程仅关注添加和删除附加了一个状态脚本的节点。每个状态脚本都是某个不同状态"
+"的实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:24
+msgid ""
+"There is a great resource explaining the concept of the state design pattern "
+"here: https://gameprogrammingpatterns.com/state.html"
+msgstr ""
+"这里有大量资源解释状态设计模式的概念：https://gameprogrammingpatterns.com/"
+"state.html"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:28
+msgid "Script setup"
+msgstr "脚本设置"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:30
+msgid ""
+"The feature of inheritance is useful for getting started with this design "
+"principle. A class should be created that describes the base features of the "
+"player. For now, a player will be limited to two actions: **move left**, "
+"**move right**. This means there will be two states: **idle** and **run**."
+msgstr ""
+"继承特性对于开始使用此设计原理很有用。应该创建一个描述游戏角色基本功能的类。"
+"目前，游戏角色只能执行以下两项操作：**向左移动**，**向右移动**。这意味着将有"
+"两种状态：**空闲（idle）** 和 **运行（run）**。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:35
+msgid "Below is the generic state, from which all other states will inherit."
+msgstr "下面是一般状态，所有其他状态都将从其继承。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:66
+msgid ""
+"A few notes on the above script. First, this implementation uses a "
+"``setup(change_state, animated_sprite, persistent_state)`` method to assign "
+"references. These references will be instantiated in the parent of this "
+"state. This helps with something in programming known as *cohesion*. The "
+"state of the player does not want the responsibility of creating these "
+"variables, but does want to be able to use them. However, this does make the "
+"state *coupled* to the state's parent. This means that the state is highly "
+"reliant on whether it has a parent which contains these variables. So, "
+"remember that *coupling* and *cohesion* are important concepts when it comes "
+"to code management."
+msgstr ""
+"有关上述脚本的一些注意事项。首先，此实现使用一个 ``setup(change_state, "
+"animated_sprite, persistent_state)`` 方法来分配引用。这些引用将在此状态的父级"
+"中实例化。这有助于进行称为 *内聚性* 的编程。游戏角色的状态不想要创建这些变量"
+"的责任，而是希望能够使用它们。但是，这确实使状态 *耦合* 到了状态的父级。这意"
+"味着该状态高度依赖于它是否具有包含这些变量的父级。因此，请记住，在代码管理"
+"中，*耦合* 和 *内聚* 是重要的概念。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:75
+msgid ""
+"See the following page for more details on cohesion and coupling: https://"
+"courses.cs.washington.edu/courses/cse403/96sp/coupling-cohesion.html"
+msgstr ""
+"有关聚合和耦合的更多详细信息，请参见以下页面：https://courses.cs.washington."
+"edu/courses/cse403/96sp/coupling-cohesion.html"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:78
+msgid ""
+"Second, there are some methods in the script for moving, but no "
+"implementation. The state script just uses ``pass`` to show that it will not "
+"execute any instructions when the methods are called. This is important."
+msgstr ""
+"其次，脚本中有一些针对移动的方法，但是没有实现。状态脚本仅使用 ``pass`` 来表"
+"明，在方法被调用时，它将不执行任何指令。这个很重要。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:81
+msgid ""
+"Third, the ``_physics_process(delta)`` method is actually implemented here. "
+"This allows the states to have a default ``_phyics_process(delta)`` "
+"implementation where ``velocity`` is used to move the player. The way that "
+"the states can modify the movement of the player is to use the ``velocity`` "
+"variable defined in their base class."
+msgstr ""
+"第三，实际上在这里实现了 ``_physics_process(delta)`` 方法。这允许状态采用默认"
+"的 ``_phyics_process(delta)`` 实现，其中 ``velocity`` 用来移动游戏角色。状态"
+"可以改变游戏角色的移动的方式，是使用在其基类中定义的 ``velocity`` 变量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:85
+msgid ""
+"Finally, this script is actually being designated as a class named "
+"``State``. This makes refactoring the code easier, since the file path from "
+"using the ``load()`` and ``preload()`` functions in godot will not be needed."
+msgstr ""
+"最后，该脚本实际上被指定为一个名为 ``State`` 的类。这使得重构代码更加容易，因"
+"为不需要在godot中使用 ``load()`` 和 ``preload()`` 函数的文件路径。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:88
+msgid ""
+"So, now that there is a base state, the two states discussed earlier can be "
+"implemented."
+msgstr "因此，现在有了一个基本状态，之前讨论的两个状态可以实现了。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:154
+msgid ""
+"The since the ``Run`` and ``Idle`` states extend from ``State`` which "
+"extends ``Node2D``, the function ``_physics_process(delta)`` is called from "
+"the **bottom-up** meaning ``Run`` and ``Idle`` will call their "
+"implementation of ``_physics_process(delta)``, then ``State`` will call its "
+"implementation, then ``Node2D`` will call its own implementation and so on. "
+"This may seem strange, but it is only relevant for predefined functions such "
+"as ``_ready()``, ``_process(delta)``, etc. Custom functions use the normal "
+"inheritance rules of overriding the base implementation."
+msgstr ""
+"由于 ``Run`` 和 ``Idle`` 状态是从扩展自 ``Node2D`` 的 ``State`` 扩展的，因此"
+"函数 ``_physics_process(delta)`` 是 **自下而上** 被调用的意味着：``Run`` 和 "
+"``Idle`` 将调用它们的 ``_physics_process(delta)`` 的实现，然后 ``State`` 将调"
+"用它自己的实现，然后 ``Node2D`` 调用它自己的实现，以此类推。这可能看起来很奇"
+"怪，但它仅与预定义的函数，如 ``_ready()``、``_process(delta)`` 等，相关。自定"
+"义函数使用重写基本实现的常规继承规则。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:161
+msgid ""
+"There is a round-about method for obtaining a state instance. A state "
+"factory can be used."
+msgstr "存在一个获取的状态实例的迂回方法。可以使用一个状态工厂。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:184
+msgid ""
+"This will look for states in a dictionary and return the state if found."
+msgstr "这将在一个字典中查找状态，并在找到状态时返回该状态。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:186
+msgid ""
+"Now that all the states are defined with their own scripts, it is time to "
+"figure out how those references that passed to them will be instantiated. "
+"Since these references will not change it makes sense to call this new "
+"script ``persistent_state.gd``."
+msgstr ""
+"现在，所有状态都用它们自己的脚本定义了，是时候弄清楚那些传递给它们的那些引用"
+"如何被实例化了。由于这些引用不会改变，因此将此新脚本称为 ``persistent_state."
+"gd`` 比较有意义。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:229
+msgid ""
+"The ``persistent_state.gd`` script contains code for detecting input. This "
+"was to make the tutorial simple, but it is not usually best practice to do "
+"this."
+msgstr ""
+"``persistent_state.gd`` 脚本包含用于检测输入的代码。这是为了使教程简单，但这"
+"通常不是最佳实践。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:233
+msgid "Project setup"
+msgstr "项目设置"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:235
+msgid ""
+"This tutorial made an assumption that the node it would be attached to "
+"contained a child node which is an :ref:`AnimatedSprite "
+"<class_AnimatedSprite>`. There is also the assumption that this :ref:"
+"`AnimatedSprite <class_AnimatedSprite>` has at least two animations, the "
+"idle and run animations. Also, the top-level node is assumed to be a :ref:"
+"`KinematicBody2D <class_KinematicBody2D>`."
+msgstr ""
+"本教程假设将要被附加的节点包含一个子节点，该子节点是一个 :ref:"
+"`AnimatedSprite <class_AnimatedSprite>`。还假设此 :ref:`AnimatedSprite "
+"<class_AnimatedSprite>` 具有至少两个动画，即空闲动画和运行动画。同样，假定顶"
+"级节点是一个 :ref:`KinematicBody2D <class_KinematicBody2D>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:242
+msgid ""
+"The zip file of the llama used in this tutorial is :download:`here <files/"
+"llama.zip>`. The source was from `piskel_llama <https://www.piskelapp.com/p/"
+"agxzfnBpc2tlbC1hcHByEwsSBlBpc2tlbBiAgICfx5ygCQw/edit>`_, but I couldn't find "
+"the original creator information on that page though... There is also a good "
+"tutorial for sprite animation already. See :ref:`2D Sprite Animation "
+"<doc_2d_sprite_animation>`."
+msgstr ""
+"本教程中使用的llama的zip文件是 :download:`here <files/llama.zip>`。源码来自 "
+"`piskel_llama <https://www.piskelapp.com/p/"
+"agxzfnBpc2tlbC1hcHByEwsSBlBpc2tlbBiAgICfx5ygCQw/edit>`_，但是我在该页面上找不"
+"到原始的创建者信息…已经有一个很好的精灵动画教程。参见 :ref:`2D精灵动画 "
+"<doc_2d_sprite_animation>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:247
+msgid ""
+"So, the only script that must be attached is ``persistent_state.gd``, which  "
+"should be attached to the top node of the player, which is a :ref:"
+"`KinematicBody2D <class_KinematicBody2D>`."
+msgstr ""
+"因此，唯一必须被附加的脚本是 ``persistent_state.gd``，该脚本应附加到游戏角色"
+"的顶层节点，应为一个 :ref:`KinematicBody2D <class_KinematicBody2D>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/misc/state_design_pattern.rst:254
+msgid ""
+"Now the player has utilized the state design pattern to implement its two "
+"different states. The nice part of this pattern is that if one wanted to add "
+"another state, then it would involve creating another class that need only "
+"focus on itself and how it changes to another state. Each state is "
+"functionally separated and instantiated dynamically."
+msgstr ""
+"现在，游戏角色已经使用状态设计模式来实现其两个不同的状态。这种模式的好处是，"
+"如果一个人想添加另一种状态，那么它将涉及创建另一类，该类只需要专注于自身以及"
+"如何改变为另一种状态。每个状态在功能上是分开的，并动态实例化。"

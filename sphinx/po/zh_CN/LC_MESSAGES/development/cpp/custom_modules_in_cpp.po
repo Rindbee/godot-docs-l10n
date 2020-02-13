@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2020-02-13 20:24+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:4
 msgid "Custom modules in C++"
@@ -200,6 +204,8 @@ msgid ""
 "subclasses. This can be raised to 13 by including the header file ``core/"
 "method_bind_ext.gen.inc``."
 msgstr ""
+"在C++模块中，诸如子类之类的参数限制为5。通过包含头文件 ``core/"
+"method_bind_ext.gen.inc``，可以将其提高到13个。"
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:232
 msgid "Using the module"
@@ -210,12 +216,10 @@ msgid "You can now use your newly created module from any script:"
 msgstr "现在，您可以通过任何脚本使用新创建的模块："
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:245
-#, fuzzy
 msgid "The output will be ``60``."
 msgstr "输出将是 ``60``。"
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:247
-#, fuzzy
 msgid ""
 "The previous Summator example is great for small, custom modules, but what "
 "if you want to use a larger, external library? Refer to :ref:"
@@ -235,6 +239,10 @@ msgid ""
 "compiled in the export template. See the :ref:`Compiling <toc-devel-"
 "compiling>` pages for more information."
 msgstr ""
+"如果要从运行中的项目（而不仅仅是从编辑器）中访问模块，则还必须重新编译计划使"
+"用的每个导出模板，然后在每个导出预设中指定自定义模板的路径。否则，由于未在导"
+"出模板中编译模块，因此在运行项目时会出现错误。有关更多信息，请参见 :ref:`编"
+"译 <toc-devel-compiling>` 页面。"
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:261
 msgid "Improving the build system for development"

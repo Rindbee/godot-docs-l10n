@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:10
+msgid "Signal"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:15
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:18
+msgid ":ref:`Signal <class_Signal>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:18
+msgid ""
+":ref:`Signal <class_Signal_method_Signal>` **(** :ref:`Object "
+"<class_Object>` object, :ref:`StringName <class_StringName>` signal_name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:32
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:20
+msgid ""
+":ref:`connect <class_Signal_method_connect>` **(** :ref:`Callable "
+"<class_Callable>` callable, :ref:`Array <class_Array>` binds=[], "
+":ref:`int <class_int>` flags=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:24
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:22
+msgid ""
+":ref:`disconnect <class_Signal_method_disconnect>` **(** :ref:`Callable "
+"<class_Callable>` callable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:24
+msgid ":ref:`emit <class_Signal_method_emit>` **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:26
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:26
+msgid ":ref:`get_connections <class_Signal_method_get_connections>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:28
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:28
+msgid ":ref:`get_name <class_Signal_method_get_name>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:30
+msgid ":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:30
+msgid ":ref:`get_object <class_Signal_method_get_object>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:32
+msgid ":ref:`get_object_id <class_Signal_method_get_object_id>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:36
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:34
+msgid ""
+":ref:`is_connected <class_Signal_method_is_connected>` **(** "
+":ref:`Callable <class_Callable>` callable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:36
+msgid ":ref:`is_null <class_Signal_method_is_null>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:40
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:44
+msgid ""
+":ref:`Signal <class_Signal>` **Signal** **(** :ref:`Object "
+"<class_Object>` object, :ref:`StringName <class_StringName>` signal_name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:50
+msgid ""
+":ref:`int <class_int>` **connect** **(** :ref:`Callable <class_Callable>`"
+" callable, :ref:`Array <class_Array>` binds=[], :ref:`int <class_int>` "
+"flags=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:56
+msgid "void **disconnect** **(** :ref:`Callable <class_Callable>` callable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:62
+msgid "void **emit** **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:68
+msgid ":ref:`Array <class_Array>` **get_connections** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:74
+msgid ":ref:`StringName <class_StringName>` **get_name** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:80
+msgid ":ref:`Object <class_Object>` **get_object** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:86
+msgid ":ref:`int <class_int>` **get_object_id** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:92
+msgid ""
+":ref:`bool <class_bool>` **is_connected** **(** :ref:`Callable "
+"<class_Callable>` callable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_signal.rst:98
+msgid ":ref:`bool <class_bool>` **is_null** **(** **)**"
+msgstr ""
+

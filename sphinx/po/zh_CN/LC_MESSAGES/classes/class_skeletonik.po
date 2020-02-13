@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:10
+msgid "SkeletonIK"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:17
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:26
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:20
+msgid ":ref:`interpolation <class_SkeletonIK_property_interpolation>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:62
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:22
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:22
+msgid ":ref:`magnet <class_SkeletonIK_property_magnet>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:76
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:24
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:24
+msgid ":ref:`max_iterations <class_SkeletonIK_property_max_iterations>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:90
+msgid "``10``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:26
+msgid ":ref:`min_distance <class_SkeletonIK_property_min_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:104
+msgid "``0.01``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:47
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:28
+msgid ":ref:`override_tip_basis <class_SkeletonIK_property_override_tip_basis>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:118
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:36
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:30
+msgid ":ref:`root_bone <class_SkeletonIK_property_root_bone>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:174
+msgid "``@\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:32
+msgid ":ref:`Transform <class_Transform>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:32
+msgid ":ref:`target <class_SkeletonIK_property_target>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:146
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:34
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:34
+msgid ":ref:`target_node <class_SkeletonIK_property_target_node>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:160
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:36
+msgid ":ref:`tip_bone <class_SkeletonIK_property_tip_bone>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:38
+msgid ":ref:`use_magnet <class_SkeletonIK_property_use_magnet>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:188
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:42
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:45
+msgid ":ref:`Skeleton <class_Skeleton>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:45
+msgid ""
+":ref:`get_parent_skeleton <class_SkeletonIK_method_get_parent_skeleton>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:47
+msgid ":ref:`is_running <class_SkeletonIK_method_is_running>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:51
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:49
+msgid ""
+":ref:`start <class_SkeletonIK_method_start>` **(** :ref:`bool "
+"<class_bool>` one_time=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:51
+msgid ":ref:`stop <class_SkeletonIK_method_stop>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:55
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:59
+msgid ":ref:`float <class_float>` **interpolation**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:174
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:188
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:190
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:64
+msgid "set_interpolation(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:192
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:66
+msgid "get_interpolation()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:73
+msgid ":ref:`Vector3 <class_Vector3>` **magnet**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:78
+msgid "set_magnet_position(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:80
+msgid "get_magnet_position()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:87
+msgid ":ref:`int <class_int>` **max_iterations**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:92
+msgid "set_max_iterations(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:94
+msgid "get_max_iterations()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:101
+msgid ":ref:`float <class_float>` **min_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:106
+msgid "set_min_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:108
+msgid "get_min_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:115
+msgid ":ref:`bool <class_bool>` **override_tip_basis**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:120
+msgid "set_override_tip_basis(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:122
+msgid "is_override_tip_basis()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:129
+msgid ":ref:`StringName <class_StringName>` **root_bone**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:134
+msgid "set_root_bone(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:136
+msgid "get_root_bone()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:143
+msgid ":ref:`Transform <class_Transform>` **target**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:148
+msgid "set_target_transform(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:150
+msgid "get_target_transform()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:157
+msgid ":ref:`NodePath <class_NodePath>` **target_node**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:162
+msgid "set_target_node(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:164
+msgid "get_target_node()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:171
+msgid ":ref:`StringName <class_StringName>` **tip_bone**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:176
+msgid "set_tip_bone(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:178
+msgid "get_tip_bone()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:185
+msgid ":ref:`bool <class_bool>` **use_magnet**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:190
+msgid "set_use_magnet(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:192
+msgid "is_using_magnet()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:196
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:200
+msgid ":ref:`Skeleton <class_Skeleton>` **get_parent_skeleton** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:206
+msgid ":ref:`bool <class_bool>` **is_running** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:212
+msgid "void **start** **(** :ref:`bool <class_bool>` one_time=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_skeletonik.rst:218
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "Vector3( 0, 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "10"
+#~ msgstr ""
+
+#~ msgid "0.01"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "NodePath(\"\")"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>`"
+#~ msgstr ""
+
+#~ msgid "``\"\"``"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **root_bone**"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **tip_bone**"
+#~ msgstr ""
+

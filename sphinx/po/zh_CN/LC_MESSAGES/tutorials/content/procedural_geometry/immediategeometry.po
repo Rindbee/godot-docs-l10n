@@ -1,28 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2020-03-08 00:03+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:4
-#, fuzzy
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:4
 msgid "Using ImmediateGeometry"
-msgstr "立即几何体"
+msgstr "使用立即几何体（``ImmediateGeometry``）"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:6
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:6
 msgid ""
 "Unlike the SurfaceTool or ArrayMesh, :ref:`ImmediateGeometry "
 "<class_ImmediateGeometry>` is an actual node. Being an node makes it quick "
@@ -30,23 +33,30 @@ msgid ""
 "like the SurfaceTool, but it's actually designed to create content on the "
 "fly."
 msgstr ""
+"与 ``SurfaceTool`` 或 ``ArrayMesh`` 不同，:ref:`ImmediateGeometry "
+"<class_ImmediateGeometry>` 是一个实际节点。作为一个节点，使它可以快速添加到一"
+"个场景并获得视觉输出。它使用了诸如 ``SurfaceTool`` 之类的 ``OpenGL 1.x`` 风格"
+"的API，但实际上是为了动态创建内容而设计的。"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:10
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:10
 msgid ""
 "Generating complex geometry (several thousand vertices) with this node is "
 "inefficient, even if it's done only once. Instead, it is designed to "
 "generate simple geometry that changes every frame."
 msgstr ""
+"即使仅执行一次，使用此节点生成复杂的几何图形（几千个顶点）也是低效的。取而代"
+"之的是，它被设计为生成每一帧可更改的简单几何图形。"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:13
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:13
 msgid ""
-"Before starting, you should clear the clear the geometry by calling "
-"``clear()``. This ensures that you are not building upon the geometry from "
-"the previous frame. If you want to keep geometry between frames, do not call "
-"``clear()``."
+"Before starting, you should clear the geometry by calling ``clear()``. This "
+"ensures that you are not building upon the geometry from the previous frame. "
+"If you want to keep geometry between frames, do not call ``clear()``."
 msgstr ""
+"在开始之前，您应该通过调用 ``clear()`` 清除几何。这样可以确保您不会在前一帧的"
+"几何图形上构建。如果要在帧之间保持几何形状，请不要调用 ``clear()``。"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:17
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:17
 msgid ""
 "To begin generating geometry you must call ``begin()``. ``begin()`` takes a "
 "``PrimitiveType`` as an argument. ``PrimitiveType`` is an OpenGL concept "
@@ -54,28 +64,34 @@ msgid ""
 "given whether it is triangles, lines, points, etc. A complete list can be "
 "found under the :ref:`Mesh <class_mesh>` class reference page."
 msgstr ""
+"要开始生成几何图形，您必须调用 ``begin()``。``begin()`` 以 ``PrimitiveType`` "
+"作为一个参数。``PrimitiveType`` 是一个OpenGL的概念，它指示GPU如何根据给定的三"
+"角形、直线、点等顶点来排列图元。完整的列表可在 :ref:`Mesh <class_mesh>` 类参"
+"考页面下找到。"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:22
 msgid ""
 "Once you have called ``begin()`` you are ready to start adding vertices. You "
 "add vertices one at a time. First you add vertex specific attributes such as "
 "normals or UVs using ``set_****()`` (e.g. ``set_normal()``). Then you call "
 "``add_vertex()`` to add a vertex with those attributes. For example:"
 msgstr ""
+"一旦调用了 ``begin()``，就可以开始添加顶点了。一次添加一个顶点。首先，您可以"
+"使用 ``set_****()`` （例如 ``set_normal()``）添加特定于顶点的属性，例如法线或"
+"UV。然后调用 ``add_vertex()`` 添加具有这些属性的顶点。例如："
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:34
 msgid ""
 "Only attributes added before the call to ``add_vertex()`` will be included "
 "in that vertex."
-msgstr ""
+msgstr "仅在调用 ``add_vertex()`` 之前添加的属性可包含在该顶点中。"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:36
 msgid ""
 "Finally, once you have added all your vertices call ``end()`` to signal that "
 "you have finished generating the mesh."
-msgstr ""
+msgstr "最后，一旦添加了所有顶点，就调用 ``end()`` 来表示已完成生成网格。"
 
-#: ../../docs/tutorials/content/procedural_geometry/immediategeometry.rst:38
-#, fuzzy
+#: /home/bee/code/godot/godot-docs-l10n/docs/tutorials/content/procedural_geometry/immediategeometry.rst:38
 msgid "The example code below draws a single triangle."
-msgstr "下面是一个简单的示例，说明它是如何工作的:"
+msgstr "下面的示例代码绘制了一个三角形。"

@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2020-03-04 17:49+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:4
 msgid "Scripting"
@@ -193,7 +197,7 @@ msgid ""
 "Finally, one of our brightest additions for the 3.0 release: GDNative allows "
 "scripting in C++ without needing to recompile (or even restart) Godot."
 msgstr ""
-"最后是3.0版本的一个亮点：GDNative允许使用C++编写脚本，无需重新编译(甚至都不用"
+"最后是3.0版本的一个亮点：GDNative允许在C++中编写脚本，无需重新编译(甚至都不用"
 "重启)Godot。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:77
@@ -202,8 +206,8 @@ msgid ""
 "generated shared libraries works perfectly, thanks to our use of an internal "
 "C API Bridge."
 msgstr ""
-"任意C++版本都可以使用，并且由于我们使用内部C API桥接，因此生成的共享库使用的"
-"混合编译器品牌和版本可以完美地工作。"
+"任意C++版本都可以使用，并且由于我们使用内部 C API 桥接，因此生成的共享库使用"
+"的混合编译器品牌和版本可以完美地工作。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:81
 msgid ""
@@ -266,8 +270,8 @@ msgid ""
 "Use the \"Add Child Node\" dialogue accessed from the Scene tab (or by "
 "pressing ``Ctrl+A``) to create a hierarchy with the following nodes:"
 msgstr ""
-"使用从场景选项卡访问的“添加子节点”对话框(或按 :kbd:`Ctrl+A`)创建具有以下节点"
-"的层次结构："
+"使用从 :menuselection:`场景(Scene)` 选项卡访问的 :menuselection:`添加子节点"
+"(Add Child Node)` 对话框(或按 :kbd:`Ctrl+A`)创建具有以下节点的层次结构："
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:110
 msgid "Panel"
@@ -290,7 +294,7 @@ msgid ""
 "Use the 2D editor to position and resize the Button and Label so that they "
 "look like the image below. You can set the text from the Inspector tab."
 msgstr ""
-"使用2D编辑器定位并调整按钮和标签的大小，使其看起来像下面的样子。可以在 :"
+"使用2D编辑器定位并调整按钮和标签的大小，使其看起来像下图中的样子。可以在 :"
 "menuselection:`属性检查器(Inspector)` 选项卡中设置文本。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:124
@@ -328,7 +332,7 @@ msgid ""
 "will automatically be filled in with \"Panel\". This is what we want, as the "
 "script's goal is to extend the functionality of our panel node."
 msgstr ""
-"我们要附加脚本的节点是个Panel(面板)，所以继承一栏会被自动填入``Panel``。这是"
+"我们要附加脚本的节点是个Panel(面板)，所以继承一栏会被自动填入 ``Panel``。这是"
 "我们想要的，因为脚本的目的就是扩展这个面板节点的功能。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:146
@@ -433,8 +437,8 @@ msgid ""
 "The top of the dialogue displays a list of your scene's nodes with the "
 "emitting node's name highlighted in blue. Select the \"Panel\" node here."
 msgstr ""
-"对话框的顶部显示了场景的节点列表，其中发射节点的名称会以蓝色突出显示。在这里"
-"选择“面板”节点。"
+"对话框的顶部显示场景节点的列表，其中发射节点的名称以蓝色突出显示。在此处选择 "
+"``Panel`` 节点。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:207
 msgid ""
@@ -442,8 +446,9 @@ msgid ""
 "created. By default, the method name will contain the emitting node's name "
 "(\"Button\" in this case), resulting in ``_on_[EmitterNode]_[signal_name]``."
 msgstr ""
-"对话框的底部显示了将要创建的方法的名称。方法名字默认会包含发出节点的名字（在"
-"当前例子中为“Button”），即：“_on_[EmitterNode]_[signal_name]”。"
+"对话框的底部显示了将要创建的方法的名称。默认情况下，方法名称将包含发射节点的"
+"名称（在这种情况下为 ``Button``），结果为 "
+"``_on_[EmitterNode]_[signal_name]``。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:211
 msgid ""
@@ -487,13 +492,12 @@ msgid "Next, write a function which will be called when the button is pressed:"
 msgstr "接下来，编写一个在按下按钮时将被调用的函数："
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:255
-#, fuzzy
 msgid ""
 "Finally, connect the button's \"pressed\" signal to ``_on_Button_pressed()`` "
 "by using :ref:`Object.connect() <class_Object_method_connect>`."
 msgstr ""
 "最后，使用 :ref:`Object.connect() <class_Object_method_connect>` 将按钮的“按"
-"下”信号连接到 ``_ready()``。"
+"下”信号连接到 ``_on_Button_pressed()``。"
 
 #: ../../docs/getting_started/step_by_step/scripting.rst:271
 msgid "The final script should look like this:"
@@ -540,3 +544,33 @@ msgid ""
 msgstr ""
 "代码方法还使用第四个 ``Array`` 参数启用此功能，该参数默认为空。随时阅读 "
 "``Object.connect`` 方法以获取更多信息。"
+
+#~ msgid ""
+#~ "In the bottom-left are the key things you need to create a connection: a "
+#~ "node which implements the method you want to trigger (represented here as "
+#~ "a NodePath) and the name of the method to trigger."
+#~ msgstr ""
+#~ "左下方是创建连接所需的关键内容：实现您想要触发方法的节点（在此用NodePath表"
+#~ "示）以及要触发的方法的名字。"
+
+#~ msgid ""
+#~ "The top-left section displays a list of your scene's nodes with the "
+#~ "emitting node's name highlighted in red. Select the \"Panel\" node here. "
+#~ "When you select a node, the NodePath at the bottom will automatically "
+#~ "update to point to a relative path from the emitting node to the selected "
+#~ "node."
+#~ msgstr ""
+#~ "左上部分显示场景节点的列表，并以红色突出显示发射节点的名称。在这里选择 "
+#~ "``Panel`` 节点。选择一个节点时，底部的NodePath将自动更新，以指向从发射节点"
+#~ "到所选节点的相对路径。"
+
+#~ msgid ""
+#~ "By default, the method name will contain the emitting node's name "
+#~ "(\"Button\" in this case), resulting in "
+#~ "``_on_[EmitterNode]_[signal_name]``. If you do have the \"Make Function\" "
+#~ "check button checked, then the editor will generate the function for you "
+#~ "before setting up the connection."
+#~ msgstr ""
+#~ "默认情况下，方法名称将包含发射节点的名称（在这种情况下为 ``Button``），从"
+#~ "而生成 ``_on_[EmitterNode]_[signal_name]``。如果选中了 ``Make Function`` "
+#~ "复选框，那么编辑器将在建立连接之前为您生成该函数。"

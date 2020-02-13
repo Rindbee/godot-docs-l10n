@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:10
+msgid "VisualScriptPropertySet"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:17
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:20
+msgid ":ref:`AssignOp <enum_VisualScriptPropertySet_AssignOp>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:20
+msgid ":ref:`assign_op <class_VisualScriptPropertySet_property_assign_op>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:208
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:22
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:22
+msgid ":ref:`base_script <class_VisualScriptPropertySet_property_base_script>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:32
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:24
+msgid ":ref:`base_type <class_VisualScriptPropertySet_property_base_type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:144
+msgid "``@\"Object\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:26
+msgid ":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:26
+msgid ":ref:`basic_type <class_VisualScriptPropertySet_property_basic_type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:28
+msgid ":ref:`index <class_VisualScriptPropertySet_property_index>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:30
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:30
+msgid ":ref:`node_path <class_VisualScriptPropertySet_property_node_path>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:32
+msgid ":ref:`property <class_VisualScriptPropertySet_property_property>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:194
+msgid "``@\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:34
+msgid ":ref:`CallMode <enum_VisualScriptPropertySet_CallMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:34
+msgid ":ref:`set_mode <class_VisualScriptPropertySet_property_set_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:38
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:50
+msgid "enum **CallMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:52
+msgid "**CALL_MODE_SELF** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:54
+msgid "**CALL_MODE_NODE_PATH** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:56
+msgid "**CALL_MODE_INSTANCE** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:58
+msgid "**CALL_MODE_BASIC_TYPE** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:86
+msgid "enum **AssignOp**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:88
+msgid "**ASSIGN_OP_NONE** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:90
+msgid "**ASSIGN_OP_ADD** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:92
+msgid "**ASSIGN_OP_SUB** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:94
+msgid "**ASSIGN_OP_MUL** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:96
+msgid "**ASSIGN_OP_DIV** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:98
+msgid "**ASSIGN_OP_MOD** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:100
+msgid "**ASSIGN_OP_SHIFT_LEFT** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:102
+msgid "**ASSIGN_OP_SHIFT_RIGHT** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:104
+msgid "**ASSIGN_OP_BIT_AND** = **8**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:106
+msgid "**ASSIGN_OP_BIT_OR** = **9**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:108
+msgid "**ASSIGN_OP_BIT_XOR** = **10**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:111
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:115
+msgid ":ref:`AssignOp <enum_VisualScriptPropertySet_AssignOp>` **assign_op**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:208
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:170
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:210
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:120
+msgid "set_assign_op(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:172
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:212
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:122
+msgid "get_assign_op()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:129
+msgid ":ref:`String <class_String>` **base_script**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:132
+msgid "set_base_script(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:134
+msgid "get_base_script()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:141
+msgid ":ref:`StringName <class_StringName>` **base_type**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:146
+msgid "set_base_type(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:148
+msgid "get_base_type()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:155
+msgid ":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` **basic_type**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:158
+msgid "set_basic_type(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:160
+msgid "get_basic_type()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:167
+msgid ":ref:`StringName <class_StringName>` **index**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:170
+msgid "set_index(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:172
+msgid "get_index()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:179
+msgid ":ref:`NodePath <class_NodePath>` **node_path**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:182
+msgid "set_base_path(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:184
+msgid "get_base_path()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:191
+msgid ":ref:`StringName <class_StringName>` **property**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:196
+msgid "set_property(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:198
+msgid "get_property()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:205
+msgid ":ref:`CallMode <enum_VisualScriptPropertySet_CallMode>` **set_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:210
+msgid "set_call_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscriptpropertyset.rst:212
+msgid "get_call_mode()"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "\"Object\""
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "``\"Object\"``"
+#~ msgstr ""
+
+#~ msgid "``\"\"``"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **base_type**"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **index**"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **property**"
+#~ msgstr ""
+

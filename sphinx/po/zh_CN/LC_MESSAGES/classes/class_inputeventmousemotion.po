@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-11-09 09:02+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:10
+msgid "InputEventMouseMotion"
+msgstr "InputEventMouseMotion"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEventMouse <class_InputEventMouse>` **<** "
+":ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** "
+":ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEventMouse <class_InputEventMouse>` **<** "
+":ref:`InputEventWithModifiers <class_InputEventWithModifiers>` **<** "
+":ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:14
+msgid "Input event type for mouse motion events."
+msgstr "鼠标运动事件的输入事件类型。"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:19
+msgid ""
+"Contains mouse and pen motion information. Supports relative, absolute "
+"positions and speed. See :ref:`Node._input <class_Node_method__input>`."
+msgstr "包含鼠标和笔的运动信息。支持相对、绝对位置和速度。参见 :ref:`Node._input <class_Node_method__input>`。"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:24
+msgid ":doc:`../tutorials/inputs/mouse_and_input_coordinates`"
+msgstr ":doc:`../tutorials/inputs/mouse_and_input_coordinates`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:30
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:30
+msgid ":ref:`pressure <class_InputEventMouseMotion_property_pressure>`"
+msgstr ":ref:`pressure <class_InputEventMouseMotion_property_pressure>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:30
+#: ../../docs/classes/class_inputeventmousemotion.rst:47
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:32
+#: ../../docs/classes/class_inputeventmousemotion.rst:34
+#: ../../docs/classes/class_inputeventmousemotion.rst:36
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:32
+msgid ":ref:`relative <class_InputEventMouseMotion_property_relative>`"
+msgstr ":ref:`relative <class_InputEventMouseMotion_property_relative>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:32
+#: ../../docs/classes/class_inputeventmousemotion.rst:34
+#: ../../docs/classes/class_inputeventmousemotion.rst:36
+#: ../../docs/classes/class_inputeventmousemotion.rst:63
+#: ../../docs/classes/class_inputeventmousemotion.rst:79
+#: ../../docs/classes/class_inputeventmousemotion.rst:95
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:34
+msgid ":ref:`speed <class_InputEventMouseMotion_property_speed>`"
+msgstr ":ref:`speed <class_InputEventMouseMotion_property_speed>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:36
+msgid ":ref:`tilt <class_InputEventMouseMotion_property_tilt>`"
+msgstr ":ref:`tilt <class_InputEventMouseMotion_property_tilt>`"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:40
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:44
+msgid ":ref:`float <class_float>` **pressure**"
+msgstr ":ref:`float <class_float>` **pressure**"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:47
+#: ../../docs/classes/class_inputeventmousemotion.rst:63
+#: ../../docs/classes/class_inputeventmousemotion.rst:79
+#: ../../docs/classes/class_inputeventmousemotion.rst:95
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:49
+#: ../../docs/classes/class_inputeventmousemotion.rst:65
+#: ../../docs/classes/class_inputeventmousemotion.rst:81
+#: ../../docs/classes/class_inputeventmousemotion.rst:97
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:49
+msgid "set_pressure(value)"
+msgstr "set_pressure(value)"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:51
+#: ../../docs/classes/class_inputeventmousemotion.rst:67
+#: ../../docs/classes/class_inputeventmousemotion.rst:83
+#: ../../docs/classes/class_inputeventmousemotion.rst:99
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:51
+msgid "get_pressure()"
+msgstr "get_pressure()"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:54
+msgid ""
+"Represents the pressure the user puts on the pen. Ranges from ``0.0`` to "
+"``1.0``."
+msgstr "表示用户施加在笔上的压力。范围从 ``0.0`` 到 ``1.0``。"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:60
+msgid ":ref:`Vector2 <class_Vector2>` **relative**"
+msgstr ":ref:`Vector2 <class_Vector2>` **relative**"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:65
+msgid "set_relative(value)"
+msgstr "set_relative(value)"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:67
+msgid "get_relative()"
+msgstr "get_relative()"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:70
+msgid ""
+"The mouse position relative to the previous position (position at the "
+"last frame)."
+msgstr "鼠标相对于上一个位置的位置（最后一帧的位置）。"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:76
+msgid ":ref:`Vector2 <class_Vector2>` **speed**"
+msgstr ":ref:`Vector2 <class_Vector2>` **speed**"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:81
+msgid "set_speed(value)"
+msgstr "set_speed(value)"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:83
+msgid "get_speed()"
+msgstr "get_speed()"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:86
+msgid "The mouse speed in pixels per second."
+msgstr "鼠标速度（以像素/秒为单位）。"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:92
+msgid ":ref:`Vector2 <class_Vector2>` **tilt**"
+msgstr ":ref:`Vector2 <class_Vector2>` **tilt**"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:97
+msgid "set_tilt(value)"
+msgstr "set_tilt(value)"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:99
+msgid "get_tilt()"
+msgstr "get_tilt()"
+
+#: ../../docs/classes/class_inputeventmousemotion.rst:102
+msgid ""
+"Represents the angles of tilt of the pen. Positive X-coordinate value "
+"indicates a tilt to the right. Positive Y-coordinate value indicates a "
+"tilt toward the user. Ranges from ``-1.0`` to ``1.0`` for both axes."
+msgstr "代表笔的倾斜角度。X坐标正值表示向右倾斜。Y坐标正值表示向用户倾斜。两个轴的范围从 ``-1.0`` 到 ``1.0``。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-29 20:16+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:10
+msgid "CurveTexture"
+msgstr "CurveTexture"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture "
+"<class_Texture>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:14
+msgid "A texture that shows a curve."
+msgstr "用来显示曲线的纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:19
+msgid ""
+"Renders a given :ref:`Curve <class_Curve>` provided to it. Simplifies the"
+" task of drawing curves and/or saving them as image files."
+msgstr "渲染一个给定的 :ref:`Curve <class_Curve>` 提供给它。简化了绘制曲线和/或将其保存为图像文件的任务。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:25
+msgid ":ref:`Curve <class_Curve>`"
+msgstr ":ref:`Curve <class_Curve>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:25
+msgid ":ref:`curve <class_CurveTexture_property_curve>`"
+msgstr ":ref:`curve <class_CurveTexture_property_curve>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:27
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:27
+msgid ":ref:`width <class_CurveTexture_property_width>`"
+msgstr ":ref:`width <class_CurveTexture_property_width>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:52
+#, fuzzy
+msgid "``2048``"
+msgstr "2048"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:31
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:35
+msgid ":ref:`Curve <class_Curve>` **curve**"
+msgstr ":ref:`Curve <class_Curve>` **curve**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:54
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:38
+msgid "set_curve(value)"
+msgstr "set_curve(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:56
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:40
+msgid "get_curve()"
+msgstr "get_curve()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:43
+msgid "The ``curve`` rendered onto the texture."
+msgstr "``curve`` 渲染到纹理上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:49
+msgid ":ref:`int <class_int>` **width**"
+msgstr ":ref:`int <class_int>` **width**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:52
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:54
+msgid "set_width(value)"
+msgstr "set_width(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:56
+msgid "get_width()"
+msgstr "get_width()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_curvetexture.rst:59
+msgid "The width of the texture."
+msgstr "纹理的宽度。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Texture2D <class_Texture2D>` "
+#~ "**<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+#~ "**基类**：:ref:`Texture <class_Texture>` **<** "
+#~ ":ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+

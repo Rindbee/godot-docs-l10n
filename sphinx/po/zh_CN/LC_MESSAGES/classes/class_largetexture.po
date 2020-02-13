@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-29 22:37+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:10
+msgid "LargeTexture"
+msgstr "LargeTexture"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture "
+"<class_Texture>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:14
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:19
+#, fuzzy
+msgid ""
+"A :ref:`Texture2D <class_Texture2D>` capable of storing many smaller "
+"textures with offsets."
+msgstr "一个 :ref:`Texture <class_Texture>` 能够存储许多带有偏移的较小纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:21
+#, fuzzy
+msgid ""
+"You can dynamically add pieces (:ref:`Texture2D <class_Texture2D>`\\ s) "
+"to this ``LargeTexture`` using different offsets."
+msgstr "您可以使用不同的偏移量，向该 ``LargeTexture`` 动态添加片段（:ref:`Texture <class_Texture>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:24
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:31
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:27
+#, fuzzy
+msgid ""
+":ref:`add_piece <class_LargeTexture_method_add_piece>` **(** "
+":ref:`Vector2 <class_Vector2>` ofs, :ref:`Texture2D <class_Texture2D>` "
+"texture **)**"
+msgstr ""
+":ref:`add_piece <class_LargeTexture_method_add_piece>` **(** "
+":ref:`Vector2 <class_Vector2>` ofs, :ref:`Texture <class_Texture>` "
+"texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:41
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:29
+msgid ":ref:`clear <class_LargeTexture_method_clear>` **(** **)**"
+msgstr ":ref:`clear <class_LargeTexture_method_clear>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:31
+msgid ""
+":ref:`get_piece_count <class_LargeTexture_method_get_piece_count>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_piece_count <class_LargeTexture_method_get_piece_count>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:33
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:33
+msgid ""
+":ref:`get_piece_offset <class_LargeTexture_method_get_piece_offset>` "
+"**(** :ref:`int <class_int>` idx **)** const"
+msgstr ""
+":ref:`get_piece_offset <class_LargeTexture_method_get_piece_offset>` "
+"**(** :ref:`int <class_int>` idx **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:35
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:35
+msgid ""
+":ref:`get_piece_texture <class_LargeTexture_method_get_piece_texture>` "
+"**(** :ref:`int <class_int>` idx **)** const"
+msgstr ""
+":ref:`get_piece_texture <class_LargeTexture_method_get_piece_texture>` "
+"**(** :ref:`int <class_int>` idx **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:37
+msgid ""
+":ref:`set_piece_offset <class_LargeTexture_method_set_piece_offset>` "
+"**(** :ref:`int <class_int>` idx, :ref:`Vector2 <class_Vector2>` ofs "
+"**)**"
+msgstr ""
+":ref:`set_piece_offset <class_LargeTexture_method_set_piece_offset>` "
+"**(** :ref:`int <class_int>` idx, :ref:`Vector2 <class_Vector2>` ofs "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:39
+#, fuzzy
+msgid ""
+":ref:`set_piece_texture <class_LargeTexture_method_set_piece_texture>` "
+"**(** :ref:`int <class_int>` idx, :ref:`Texture2D <class_Texture2D>` "
+"texture **)**"
+msgstr ""
+":ref:`set_piece_texture <class_LargeTexture_method_set_piece_texture>` "
+"**(** :ref:`int <class_int>` idx, :ref:`Texture <class_Texture>` texture "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:41
+msgid ""
+":ref:`set_size <class_LargeTexture_method_set_size>` **(** :ref:`Vector2 "
+"<class_Vector2>` size **)**"
+msgstr ""
+":ref:`set_size <class_LargeTexture_method_set_size>` **(** :ref:`Vector2 "
+"<class_Vector2>` size **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:45
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:49
+#, fuzzy
+msgid ""
+":ref:`int <class_int>` **add_piece** **(** :ref:`Vector2 <class_Vector2>`"
+" ofs, :ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+":ref:`int <class_int>` **add_piece** **(** :ref:`Vector2 <class_Vector2>`"
+" ofs, :ref:`Texture <class_Texture>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:51
+msgid "Adds ``texture`` to this ``LargeTexture``, starting on offset ``ofs``."
+msgstr "从偏移 ``ofs`` 开始，向该 ``LargeTexture`` 添加 ``texture``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:57
+msgid "void **clear** **(** **)**"
+msgstr "void **clear** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:59
+msgid "Clears the ``LargeTexture``."
+msgstr "清除 ``LargeTexture``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:65
+msgid ":ref:`int <class_int>` **get_piece_count** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_piece_count** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:67
+msgid "Returns the number of pieces currently in this ``LargeTexture``."
+msgstr "返回此 ``LargeTexture`` 中当前的片段数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:73
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_piece_offset** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **get_piece_offset** **(** :ref:`int "
+"<class_int>` idx **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:75
+msgid "Returns the offset of the piece with the index ``idx``."
+msgstr "返回索引为 ``idx`` 的片段的偏移量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:81
+#, fuzzy
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_piece_texture** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+":ref:`Texture <class_Texture>` **get_piece_texture** **(** :ref:`int "
+"<class_int>` idx **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:83
+#, fuzzy
+msgid ""
+"Returns the :ref:`Texture2D <class_Texture2D>` of the piece with the "
+"index ``idx``."
+msgstr "返回索引为 ``idx`` 的片段的 :ref:`Texture <class_Texture>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:89
+msgid ""
+"void **set_piece_offset** **(** :ref:`int <class_int>` idx, :ref:`Vector2"
+" <class_Vector2>` ofs **)**"
+msgstr ""
+"void **set_piece_offset** **(** :ref:`int <class_int>` idx, :ref:`Vector2"
+" <class_Vector2>` ofs **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:91
+msgid "Sets the offset of the piece with the index ``idx`` to ``ofs``."
+msgstr "将索引为 ``idx`` 的片段的偏移量设置为 ``ofs``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:97
+#, fuzzy
+msgid ""
+"void **set_piece_texture** **(** :ref:`int <class_int>` idx, "
+":ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+"void **set_piece_texture** **(** :ref:`int <class_int>` idx, "
+":ref:`Texture <class_Texture>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:99
+#, fuzzy
+msgid ""
+"Sets the :ref:`Texture2D <class_Texture2D>` of the piece with index "
+"``idx`` to ``texture``."
+msgstr "将索引为 ``idx`` 的片段的 :ref:`Texture <class_Texture>` 设置为 ``texture``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:105
+msgid "void **set_size** **(** :ref:`Vector2 <class_Vector2>` size **)**"
+msgstr "void **set_size** **(** :ref:`Vector2 <class_Vector2>` size **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_largetexture.rst:107
+msgid "Sets the size of this ``LargeTexture``."
+msgstr "设置此 ``LargeTexture`` 的大小。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "Properties"
+#~ msgstr "属性"
+
+#~ msgid "flags"
+#~ msgstr "flags"
+
+#~ msgid "**O:** ``0``"
+#~ msgstr "**O:** 0"
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Texture2D <class_Texture2D>` "
+#~ "**<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+#~ "**基类**：:ref:`Texture <class_Texture>` **<** "
+#~ ":ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+

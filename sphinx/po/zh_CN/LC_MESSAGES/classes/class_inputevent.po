@@ -1,0 +1,454 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-09 09:02+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:10
+msgid "InputEvent"
+msgstr "InputEvent"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:14
+msgid ""
+"**Inherited By:** :ref:`InputEventAction <class_InputEventAction>`, "
+":ref:`InputEventJoypadButton <class_InputEventJoypadButton>`, "
+":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`, "
+":ref:`InputEventMIDI <class_InputEventMIDI>`, :ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>`, :ref:`InputEventScreenTouch "
+"<class_InputEventScreenTouch>`, :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`"
+msgstr ""
+"**子类**：:ref:`InputEventAction <class_InputEventAction>`, "
+":ref:`InputEventJoypadButton <class_InputEventJoypadButton>`, "
+":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`, "
+":ref:`InputEventMIDI <class_InputEventMIDI>`, :ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>`, :ref:`InputEventScreenTouch "
+"<class_InputEventScreenTouch>`, :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:16
+#, fuzzy
+msgid "Generic input event."
+msgstr "通用输入事件"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:21
+msgid ""
+"Base class of all sort of input event. See :ref:`Node._input "
+"<class_Node_method__input>`."
+msgstr "各种输入事件的基类。参见 :ref:`Node._input <class_Node_method__input>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:26
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ":doc:`../tutorials/inputs/inputevent`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:28
+msgid ":doc:`../tutorials/2d/2d_transforms`"
+msgstr ":doc:`../tutorials/2d/2d_transforms`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:34
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:34
+msgid ":ref:`device <class_InputEvent_property_device>`"
+msgstr ":ref:`device <class_InputEvent_property_device>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:72
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:38
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:59
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:41
+msgid ""
+":ref:`accumulate <class_InputEvent_method_accumulate>` **(** "
+":ref:`InputEvent <class_InputEvent>` with_event **)**"
+msgstr ""
+":ref:`accumulate <class_InputEvent_method_accumulate>` **(** "
+":ref:`InputEvent <class_InputEvent>` with_event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:43
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:43
+msgid ":ref:`as_text <class_InputEvent_method_as_text>` **(** **)** const"
+msgstr ":ref:`as_text <class_InputEvent_method_as_text>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:45
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:45
+#, fuzzy
+msgid ""
+":ref:`get_action_strength <class_InputEvent_method_get_action_strength>` "
+"**(** :ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`get_action_strength <class_InputEvent_method_get_action_strength>` "
+"**(** :ref:`String <class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:47
+#, fuzzy
+msgid ""
+":ref:`is_action <class_InputEvent_method_is_action>` **(** "
+":ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`is_action <class_InputEvent_method_is_action>` **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:49
+#, fuzzy
+msgid ""
+":ref:`is_action_pressed <class_InputEvent_method_is_action_pressed>` "
+"**(** :ref:`StringName <class_StringName>` action, :ref:`bool "
+"<class_bool>` allow_echo=false **)** const"
+msgstr ""
+":ref:`is_action_pressed <class_InputEvent_method_is_action_pressed>` "
+"**(** :ref:`String <class_String>` action, :ref:`bool <class_bool>` "
+"allow_echo=false **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:51
+#, fuzzy
+msgid ""
+":ref:`is_action_released <class_InputEvent_method_is_action_released>` "
+"**(** :ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`is_action_released <class_InputEvent_method_is_action_released>` "
+"**(** :ref:`String <class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:53
+msgid ""
+":ref:`is_action_type <class_InputEvent_method_is_action_type>` **(** "
+"**)** const"
+msgstr ""
+":ref:`is_action_type <class_InputEvent_method_is_action_type>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:55
+msgid ":ref:`is_echo <class_InputEvent_method_is_echo>` **(** **)** const"
+msgstr ":ref:`is_echo <class_InputEvent_method_is_echo>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:57
+msgid ":ref:`is_pressed <class_InputEvent_method_is_pressed>` **(** **)** const"
+msgstr ":ref:`is_pressed <class_InputEvent_method_is_pressed>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:59
+msgid ""
+":ref:`shortcut_match <class_InputEvent_method_shortcut_match>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** const"
+msgstr ""
+":ref:`shortcut_match <class_InputEvent_method_shortcut_match>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:61
+msgid ":ref:`InputEvent <class_InputEvent>`"
+msgstr ":ref:`InputEvent <class_InputEvent>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:61
+msgid ""
+":ref:`xformed_by <class_InputEvent_method_xformed_by>` **(** "
+":ref:`Transform2D <class_Transform2D>` xform, :ref:`Vector2 "
+"<class_Vector2>` local_ofs=Vector2( 0, 0 ) **)** const"
+msgstr ""
+":ref:`xformed_by <class_InputEvent_method_xformed_by>` **(** "
+":ref:`Transform2D <class_Transform2D>` xform, :ref:`Vector2 "
+"<class_Vector2>` local_ofs=Vector2( 0, 0 ) **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:65
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:69
+msgid ":ref:`int <class_int>` **device**"
+msgstr ":ref:`int <class_int>` **device**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:72
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:74
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:74
+msgid "set_device(value)"
+msgstr "set_device(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:76
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:76
+msgid "get_device()"
+msgstr "get_device()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:79
+msgid "The event's device ID."
+msgstr "事件的设备ID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:81
+msgid ""
+"**Note:** This device ID will always be ``-1`` for emulated mouse input "
+"from a touchscreen. This can be used to distinguish emulated mouse input "
+"from physical mouse input."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:84
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:88
+msgid ""
+":ref:`bool <class_bool>` **accumulate** **(** :ref:`InputEvent "
+"<class_InputEvent>` with_event **)**"
+msgstr ""
+":ref:`bool <class_bool>` **accumulate** **(** :ref:`InputEvent "
+"<class_InputEvent>` with_event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:90
+msgid ""
+"Returns ``true`` if the given input event and this input event can be "
+"added together (only for events of type :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>`)."
+msgstr ""
+"如果可以将给定的输入事件和此输入事件加在一起，则返回 ``true`` （仅适用于类型为 :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` 的事件）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:92
+msgid ""
+"The given input event's position, global position and speed will be "
+"copied. The resulting ``relative`` is a sum of both events. Both events' "
+"modifiers have to be identical."
+msgstr "给定输入事件的位置、全局位置、和速度将被复制。产生的 ``relative`` 是两个事件的总和。这两个事件的修饰键必须相同。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:98
+msgid ":ref:`String <class_String>` **as_text** **(** **)** const"
+msgstr ":ref:`String <class_String>` **as_text** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:100
+msgid "Returns a :ref:`String <class_String>` representation of the event."
+msgstr "返回事件的一个 :ref:`String <class_String>` 表示形式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:106
+#, fuzzy
+msgid ""
+":ref:`float <class_float>` **get_action_strength** **(** :ref:`StringName"
+" <class_StringName>` action **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_action_strength** **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:108
+msgid ""
+"Returns a value between 0.0 and 1.0 depending on the given actions' "
+"state. Useful for getting the value of events of type "
+":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`."
+msgstr ""
+"根据给定操作的状态，返回介于 ``0.0`` 和 ``1.0`` 之间的值。对于获取 :ref:`InputEventJoypadMotion "
+"<class_InputEventJoypadMotion>` 类型的事件的值很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:114
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_action** **(** :ref:`StringName "
+"<class_StringName>` action **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_action** **(** :ref:`String <class_String>`"
+" action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:116
+msgid ""
+"Returns ``true`` if this input event matches a pre-defined action of any "
+"type."
+msgstr "如果此输入事件与任何类型的预定义动作匹配，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:122
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_action_pressed** **(** :ref:`StringName "
+"<class_StringName>` action, :ref:`bool <class_bool>` allow_echo=false "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_action_pressed** **(** :ref:`String "
+"<class_String>` action, :ref:`bool <class_bool>` allow_echo=false **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:124
+msgid ""
+"Returns ``true`` if the given action is being pressed (and is not an echo"
+" event for :ref:`InputEventKey <class_InputEventKey>` events, unless "
+"``allow_echo`` is ``true``). Not relevant for events of type "
+":ref:`InputEventMouseMotion <class_InputEventMouseMotion>` or "
+":ref:`InputEventScreenDrag <class_InputEventScreenDrag>`."
+msgstr ""
+"如果按下给定的动作，则返回 ``true`` （不是 :ref:`InputEventKey <class_InputEventKey>` "
+"事件的回显事件，除非 ``allow_echo`` 为 ``true``）。与 :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` 或 :ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>` 类型的事件无关。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:130
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_action_released** **(** :ref:`StringName "
+"<class_StringName>` action **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_action_released** **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:132
+msgid ""
+"Returns ``true`` if the given action is released (i.e. not pressed). Not "
+"relevant for events of type :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` or :ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>`."
+msgstr ""
+"如果给定的动作被释放（即未按下），则返回 ``true``。与 :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` 或 :ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>` 类型的事件无关。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:138
+msgid ":ref:`bool <class_bool>` **is_action_type** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_action_type** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:140
+msgid ""
+"Returns ``true`` if this input event's type is one that can be assigned "
+"to an input action."
+msgstr "如果此输入事件的类型，是可以分配给输入操作的类型，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:146
+msgid ":ref:`bool <class_bool>` **is_echo** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_echo** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:148
+msgid ""
+"Returns ``true`` if this input event is an echo event (only for events of"
+" type :ref:`InputEventKey <class_InputEventKey>`)."
+msgstr ""
+"如果此输入事件是回显事件，则返回 ``true`` （仅适用于类型为 :ref:`InputEventKey "
+"<class_InputEventKey>` 的事件）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:154
+msgid ":ref:`bool <class_bool>` **is_pressed** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_pressed** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:156
+msgid ""
+"Returns ``true`` if this input event is pressed. Not relevant for events "
+"of type :ref:`InputEventMouseMotion <class_InputEventMouseMotion>` or "
+":ref:`InputEventScreenDrag <class_InputEventScreenDrag>`."
+msgstr ""
+"如果按下此输入事件，则返回 ``true``。与 :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` 或 :ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>` 类型的事件无关。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:162
+msgid ""
+":ref:`bool <class_bool>` **shortcut_match** **(** :ref:`InputEvent "
+"<class_InputEvent>` event **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **shortcut_match** **(** :ref:`InputEvent "
+"<class_InputEvent>` event **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:164
+msgid ""
+"Returns ``true`` if the given input event is checking for the same key "
+"(:ref:`InputEventKey <class_InputEventKey>`), button "
+"(:ref:`InputEventJoypadButton <class_InputEventJoypadButton>`) or action "
+"(:ref:`InputEventAction <class_InputEventAction>`)."
+msgstr ""
+"如果给定的输入事件正在检查相同的键（:ref:`InputEventKey "
+"<class_InputEventKey>`）、按钮（:ref:`InputEventJoypadButton "
+"<class_InputEventJoypadButton>`）或操作（:ref:`InputEventAction "
+"<class_InputEventAction>`），则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:170
+msgid ""
+":ref:`InputEvent <class_InputEvent>` **xformed_by** **(** "
+":ref:`Transform2D <class_Transform2D>` xform, :ref:`Vector2 "
+"<class_Vector2>` local_ofs=Vector2( 0, 0 ) **)** const"
+msgstr ""
+":ref:`InputEvent <class_InputEvent>` **xformed_by** **(** "
+":ref:`Transform2D <class_Transform2D>` xform, :ref:`Vector2 "
+"<class_Vector2>` local_ofs=Vector2( 0, 0 ) **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputevent.rst:172
+msgid ""
+"Returns a copy of the given input event which has been offset by "
+"``local_ofs`` and transformed by ``xform``. Relevant for events of type "
+":ref:`InputEventMouseButton <class_InputEventMouseButton>`, "
+":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`, "
+":ref:`InputEventScreenTouch <class_InputEventScreenTouch>`, "
+":ref:`InputEventScreenDrag <class_InputEventScreenDrag>`, "
+":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>` and "
+":ref:`InputEventPanGesture <class_InputEventPanGesture>`."
+msgstr ""
+"返回给定输入事件的副本，该副本已由 ``local_ofs`` 偏移，并由 ``xform`` 转换。与类型为 "
+":ref:`InputEventMouseButton "
+"<class_InputEventMouseButton>`、:ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>`、:ref:`InputEventScreenTouch "
+"<class_InputEventScreenTouch>`、:ref:`InputEventScreenDrag "
+"<class_InputEventScreenDrag>`、:ref:`InputEventMagnifyGesture "
+"<class_InputEventMagnifyGesture>` 和 :ref:`InputEventPanGesture "
+"<class_InputEventPanGesture>` 的事件有关。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

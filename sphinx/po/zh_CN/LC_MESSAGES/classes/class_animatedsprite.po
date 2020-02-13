@@ -1,0 +1,504 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-04 15:18+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:10
+msgid "AnimatedSprite"
+msgstr "AnimatedSprite"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:14
+msgid "Sprite node that can use multiple textures for animation."
+msgstr "可以为动画使用多个纹理的 ``Sprite`` 节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:19
+msgid ""
+"Animations are created using a :ref:`SpriteFrames <class_SpriteFrames>` "
+"resource, which can be configured in the editor via the SpriteFrames "
+"panel."
+msgstr ""
+"使用 :ref:`SpriteFrames <class_SpriteFrames>` 资源创建动画，可以在编辑器中通过 "
+"``SpriteFrames`` 面板对其进行配置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:25
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:25
+msgid ":ref:`animation <class_AnimatedSprite_property_animation>`"
+msgstr ":ref:`animation <class_AnimatedSprite_property_animation>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:84
+#, fuzzy
+msgid "``@\"default\"``"
+msgstr "\"default\""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:52
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:27
+msgid ":ref:`centered <class_AnimatedSprite_property_centered>`"
+msgstr ":ref:`centered <class_AnimatedSprite_property_centered>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:100
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:29
+msgid ":ref:`flip_h <class_AnimatedSprite_property_flip_h>`"
+msgstr ":ref:`flip_h <class_AnimatedSprite_property_flip_h>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:194
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:31
+msgid ":ref:`flip_v <class_AnimatedSprite_property_flip_v>`"
+msgstr ":ref:`flip_v <class_AnimatedSprite_property_flip_v>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:33
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:33
+msgid ":ref:`frame <class_AnimatedSprite_property_frame>`"
+msgstr ":ref:`frame <class_AnimatedSprite_property_frame>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:148
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:35
+msgid ":ref:`SpriteFrames <class_SpriteFrames>`"
+msgstr ":ref:`SpriteFrames <class_SpriteFrames>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:35
+msgid ":ref:`frames <class_AnimatedSprite_property_frames>`"
+msgstr ":ref:`frames <class_AnimatedSprite_property_frames>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:37
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:37
+msgid ":ref:`offset <class_AnimatedSprite_property_offset>`"
+msgstr ":ref:`offset <class_AnimatedSprite_property_offset>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:178
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:39
+msgid ":ref:`playing <class_AnimatedSprite_property_playing>`"
+msgstr ":ref:`playing <class_AnimatedSprite_property_playing>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:45
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:41
+#, fuzzy
+msgid ":ref:`shininess <class_AnimatedSprite_property_shininess>`"
+msgstr ":ref:`offset <class_AnimatedSprite_property_offset>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:206
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:234
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:43
+#, fuzzy
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:43
+#, fuzzy
+msgid ":ref:`specular_color <class_AnimatedSprite_property_specular_color>`"
+msgstr ":ref:`speed_scale <class_AnimatedSprite_property_speed_scale>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:220
+#, fuzzy
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:45
+msgid ":ref:`speed_scale <class_AnimatedSprite_property_speed_scale>`"
+msgstr ":ref:`speed_scale <class_AnimatedSprite_property_speed_scale>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:49
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:52
+msgid ""
+":ref:`is_playing <class_AnimatedSprite_method_is_playing>` **(** **)** "
+"const"
+msgstr ""
+":ref:`is_playing <class_AnimatedSprite_method_is_playing>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:56
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:54
+#, fuzzy
+msgid ""
+":ref:`play <class_AnimatedSprite_method_play>` **(** :ref:`StringName "
+"<class_StringName>` anim=@\"\", :ref:`bool <class_bool>` backwards=false "
+"**)**"
+msgstr ""
+":ref:`play <class_AnimatedSprite_method_play>` **(** :ref:`String "
+"<class_String>` anim=\"\", :ref:`bool <class_bool>` backwards=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:56
+msgid ":ref:`stop <class_AnimatedSprite_method_stop>` **(** **)**"
+msgstr ":ref:`stop <class_AnimatedSprite_method_stop>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:60
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:64
+msgid "**animation_finished** **(** **)**"
+msgstr "**animation_finished** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:66
+msgid ""
+"Emitted when the animation is finished (when it plays the last frame). If"
+" the animation is looping, this signal is emitted every time the last "
+"frame is drawn."
+msgstr "动画结束时（播放最后一帧时）发出。如果动画正在循环播放，则每次绘制最后一帧时，都会发出此信号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:72
+msgid "**frame_changed** **(** **)**"
+msgstr "**frame_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:74
+msgid "Emitted when :ref:`frame <class_AnimatedSprite_property_frame>` changed."
+msgstr ":ref:`frame <class_AnimatedSprite_property_frame>` 更改时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:77
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:81
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>` **animation**"
+msgstr ":ref:`String <class_String>` **animation**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:206
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:220
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:234
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:208
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:222
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:236
+msgid "*Setter*"
+msgstr "*设值函数*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:86
+msgid "set_animation(value)"
+msgstr "set_animation(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:224
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:238
+msgid "*Getter*"
+msgstr "*取值函数*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:88
+msgid "get_animation()"
+msgstr "get_animation()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:91
+msgid ""
+"The current animation from the ``frames`` resource. If this value "
+"changes, the ``frame`` counter is reset."
+msgstr "来自 ``frames`` 资源的当前动画。如果此值更改，则将重置 ``frame`` 计数器。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:97
+msgid ":ref:`bool <class_bool>` **centered**"
+msgstr ":ref:`bool <class_bool>` **centered**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:102
+msgid "set_centered(value)"
+msgstr "set_centered(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:104
+msgid "is_centered()"
+msgstr "is_centered()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:107
+msgid "If ``true``, texture will be centered."
+msgstr "如果为 ``true``，则纹理居中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:113
+msgid ":ref:`bool <class_bool>` **flip_h**"
+msgstr ":ref:`bool <class_bool>` **flip_h**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:118
+msgid "set_flip_h(value)"
+msgstr "set_flip_h(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:120
+msgid "is_flipped_h()"
+msgstr "is_flipped_h()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:123
+msgid "If ``true``, texture is flipped horizontally."
+msgstr "如果为 ``true``，则纹理水平翻转。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:129
+msgid ":ref:`bool <class_bool>` **flip_v**"
+msgstr ":ref:`bool <class_bool>` **flip_v**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:134
+msgid "set_flip_v(value)"
+msgstr "set_flip_v(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:136
+msgid "is_flipped_v()"
+msgstr "is_flipped_v()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:139
+msgid "If ``true``, texture is flipped vertically."
+msgstr "如果为 ``true``，则纹理垂直翻转。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:145
+msgid ":ref:`int <class_int>` **frame**"
+msgstr ":ref:`int <class_int>` **frame**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:150
+msgid "set_frame(value)"
+msgstr "set_frame(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:152
+msgid "get_frame()"
+msgstr "get_frame()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:155
+msgid "The displayed animation frame's index."
+msgstr "显示的动画帧的索引。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:161
+msgid ":ref:`SpriteFrames <class_SpriteFrames>` **frames**"
+msgstr ":ref:`SpriteFrames <class_SpriteFrames>` **frames**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:164
+msgid "set_sprite_frames(value)"
+msgstr "set_sprite_frames(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:166
+msgid "get_sprite_frames()"
+msgstr "get_sprite_frames()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:169
+msgid ""
+"The :ref:`SpriteFrames <class_SpriteFrames>` resource containing the "
+"animation(s)."
+msgstr "包含动画的 :ref:`SpriteFrames <class_SpriteFrames>` 资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:175
+msgid ":ref:`Vector2 <class_Vector2>` **offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **offset**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:180
+msgid "set_offset(value)"
+msgstr "set_offset(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:182
+msgid "get_offset()"
+msgstr "get_offset()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:185
+msgid "The texture's drawing offset."
+msgstr "纹理的绘制偏移量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:191
+msgid ":ref:`bool <class_bool>` **playing**"
+msgstr ":ref:`bool <class_bool>` **playing**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:197
+msgid ""
+"If ``true``, the :ref:`animation "
+"<class_AnimatedSprite_property_animation>` is currently playing."
+msgstr ""
+"如果为 ``true``，则当前正在播放 :ref:`animation "
+"<class_AnimatedSprite_property_animation>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:203
+#, fuzzy
+msgid ":ref:`float <class_float>` **shininess**"
+msgstr ":ref:`float <class_float>` **speed_scale**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:208
+#, fuzzy
+msgid "set_shininess(value)"
+msgstr "set_offset(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:210
+#, fuzzy
+msgid "get_shininess()"
+msgstr "get_animation()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:217
+#, fuzzy
+msgid ":ref:`Color <class_Color>` **specular_color**"
+msgstr ":ref:`float <class_float>` **speed_scale**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:222
+#, fuzzy
+msgid "set_specular_color(value)"
+msgstr "set_speed_scale(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:224
+#, fuzzy
+msgid "get_specular_color()"
+msgstr "get_speed_scale()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:231
+msgid ":ref:`float <class_float>` **speed_scale**"
+msgstr ":ref:`float <class_float>` **speed_scale**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:236
+msgid "set_speed_scale(value)"
+msgstr "set_speed_scale(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:238
+msgid "get_speed_scale()"
+msgstr "get_speed_scale()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:241
+msgid "The animation speed is multiplied by this value."
+msgstr "动画速度乘以该值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:244
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:248
+msgid ":ref:`bool <class_bool>` **is_playing** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_playing** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:250
+msgid "Returns ``true`` if an animation is currently being played."
+msgstr "如果当前正在播放动画，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:256
+#, fuzzy
+msgid ""
+"void **play** **(** :ref:`StringName <class_StringName>` anim=@\"\", "
+":ref:`bool <class_bool>` backwards=false **)**"
+msgstr ""
+"void **play** **(** :ref:`String <class_String>` anim=\"\", :ref:`bool "
+"<class_bool>` backwards=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:258
+msgid ""
+"Plays the animation named ``anim``. If no ``anim`` is provided, the "
+"current animation is played. If ``backwards`` is ``true``, the animation "
+"will be played in reverse."
+msgstr ""
+"播放名为 ``anim`` 的动画。如果没有提供 ``anim``，则播放当前动画。如果 ``backwards`` 为 "
+"``true``，则动画将反向播放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:264
+msgid "void **stop** **(** **)**"
+msgstr "void **stop** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite.rst:266
+msgid "Stops the current animation (does not reset the frame counter)."
+msgstr "停止当前动画（不重置帧计数器）。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

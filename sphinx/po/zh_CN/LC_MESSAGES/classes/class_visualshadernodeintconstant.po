@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:10
+msgid "VisualShaderNodeIntConstant"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:14
+msgid "A scalar integer constant to be used within the visual shader graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:19
+msgid "Translated to ``int`` in the shader language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:25
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:25
+msgid ":ref:`constant <class_VisualShaderNodeIntConstant_property_constant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:36
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:29
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:33
+msgid ":ref:`int <class_int>` **constant**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:36
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:38
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:38
+msgid "set_constant(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:40
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:40
+msgid "get_constant()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintconstant.rst:43
+msgid "An integer constant which represents a state of this node."
+msgstr ""
+

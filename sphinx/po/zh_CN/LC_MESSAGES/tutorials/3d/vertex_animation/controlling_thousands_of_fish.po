@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-11-04 12:42+0800\n"
+"PO-Revision-Date: 2020-02-29 15:12+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:4
 msgid "Controlling thousands of fish with Particles"
-msgstr "用粒子控制数千条鱼"
+msgstr "用粒子控制成千上万条鱼"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:6
 msgid ""
@@ -28,8 +32,8 @@ msgid ""
 "static objects around the scene. But it is still difficult to move the "
 "objects around the scene."
 msgstr ""
-":参考:`网格实例<类_网格实例>`的问题是，更新转换数组的代价很高。它非常适合在场"
-"景周围放置许多静态对象。但在场景中移动物体，仍然很困难。"
+":ref:`MeshInstances <class_MeshInstance>` 的问题在于，更新其变换数组非常昂"
+"贵。非常适合在场景中放置许多静态对象。但是，仍然很难在场景中移动对象。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:10
 msgid ""
@@ -38,8 +42,9 @@ msgid ""
 "acceleration by computing and setting the per-instance information in a :ref:"
 "`Shader <class_Shader>`."
 msgstr ""
-"让每个实例以有趣的方式移动，我们将使用:参考:`粒子<类_粒子>`节点。粒子利用GPU"
-"加速计算，以及在:参考:`着色器<类_着色器>`中每个实例的设置信息。"
+"为了使每个实例以有趣的方式移动，我们将使用一个 :ref:`Particles "
+"<class_Particles>` 节点。粒子通过在一个 :ref:`Shader <class_Shader>` 中计算和"
+"设置每个实例的信息来利用GPU加速。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:14
 msgid ""
@@ -47,28 +52,28 @@ msgid ""
 "<class_CPUParticles>`, which do the same thing as Particles, but do not "
 "benefit from GPU acceleration."
 msgstr ""
-"在GLES2中无法使用粒子，而是使用:参考:`CPU粒子<类_CPU粒子>`来替代，它和粒子一"
-"样的功能，但是不能使用GPU加速。"
+"粒子在GLES2中不可用，而是使用 :ref:`CPUParticles <class_CPUParticles>`，它与"
+"粒子具有相同的功能，但不能从GPU加速中受益。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:17
-#, fuzzy
 msgid ""
 "First create a Particles node. Then, under \"Draw Passes\" set the "
 "Particle's \"Draw Pass 1\" to your :ref:`Mesh <class_Mesh>`. Then under "
 "\"Process Material\" create a new :ref:`ShaderMaterial "
 "<class_ShaderMaterial>`."
 msgstr ""
-"单击下面的材质 :ref:`Plane Mesh <class_MeshInstance>` 菜单并创建一个新的 :"
-"ref:`ShaderMaterial <class_ShaderMaterial>`。"
+"首先创建一个粒子节点。然后，在 ``绘制通道（Draw Passes）`` 下，将粒子的 ``绘"
+"制通道1（Draw Pass 1）`` 设置为您的 :ref:`Mesh <class_Mesh>`。然后在 ``处理材"
+"质（Process Material）`` 下创建一个新的 :ref:`ShaderMaterial "
+"<class_ShaderMaterial>`。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:21
 msgid "Set the ``shader_type`` to ``particles``."
-msgstr "将“着色器_类型”设置为“粒子”。"
+msgstr "将 ``shader_type`` 设置为 ``particles``。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:27
-#, fuzzy
 msgid "Then add the following two functions:"
-msgstr "以下是需要注意的事项:"
+msgstr "然后添加以下两个函数："
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:51
 msgid ""
@@ -76,8 +81,8 @@ msgid ""
 "<class_ParticlesMaterial>`. They are used to generate a random number from  "
 "each particle's ``RANDOM_SEED``."
 msgstr ""
-"这些函数来自默认值:参考:`粒子材质<类_粒子材质>`。它们用于从每个粒子的“随机_种"
-"子”生成随机数。"
+"这些函数来自默认的 :ref:`ParticlesMaterial <class_ParticlesMaterial>`。它们用"
+"于从每个粒子的 ``RANDOM_SEED`` 生成一个随机数。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:54
 msgid ""
@@ -86,18 +91,19 @@ msgid ""
 "accessed in the Spatial shader of the mesh, and also in the particle shader "
 "the next time it is run."
 msgstr ""
-"粒子着色器的一个独特之处在于，一些内置变量是跨帧保存的。“变换”、“颜色”和“自定"
-"义”都可以在网格的空间着色器中访问，也在粒子着色器的下一次运行。"
+"关于粒子着色器的独特之处在于，某些内置变量跨帧保存。``TRANSFORM``、"
+"``COLOR``、和 ``CUSTOM`` 都可以在网格的空间着色器中访问，并且下次运行时也可以"
+"在粒子着色器中访问。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:58
 msgid ""
 "Next, setup your ``vertex`` function. Particles shaders only contain a "
 "vertex function and no others."
 msgstr ""
-"接下来，设置您的“顶点”函数。粒子着色器只包含一个顶点函数，不包含其他函数。"
+"接下来，设置您的 ``vertex`` 函数。粒子着色器仅包含一个顶点函数，而没有其他函"
+"数。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:61
-#, fuzzy
 msgid ""
 "First we will distinguish between code that needs to be run only when the "
 "particle system starts and code that should always run. We want to give each "
@@ -106,91 +112,92 @@ msgid ""
 "in variable ``RESTART`` which becomes ``true`` for one frame when the "
 "particle system is restarted."
 msgstr ""
-"首先，我们将区分只需要在粒子系统启动时运行的代码和应该始终运行的代码。当系统"
-"第一次运行时，希望给每条鱼一个随机的位置和一个随机的动画偏移量，因此我们将代"
-"码封装在一个if语句中，该语句检查内置变量“重新开始”，该变量在粒子系统重新启动"
-"时在一帧中为真。"
+"首先，我们将区分仅在粒子系统启动时才需要运行的代码和应始终运行的代码。我们希"
+"望在首次运行系统时为每条鱼提供一个随机的位置和一个随机的动画偏移量，因此我们"
+"将代码封装在一个 ``if`` 语句中，该语句检查内置变量 ``RESTART``，当某帧重新启"
+"动粒子系统时，该变量变为 ``true``。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:66
 msgid "From a high level, this looks like:"
-msgstr "从高的级别来看，这看起来像："
+msgstr "从高层次看，这看起来像："
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:78
 msgid ""
 "Next, we need to generate 4 random numbers: 3 to create a random position "
 "and one for the random offset of the swim cycle."
 msgstr ""
-"接下来，我们需要生成4个随机数：3个用于创建一个随机位置，1个用于游泳周期的随机"
-"偏移量。"
+"接下来，我们需要生成4个随机数：3个用于创建一个随机位置，一个用于表示游泳周期"
+"的随机偏移。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:81
 msgid ""
 "First, generate 4 seeds inside the ``RESTART`` block using the ``hash`` "
 "function provided above:"
-msgstr "首先，使用上面提供的“哈希”函数在“重新开始”块中生成4个种子："
+msgstr "首先，使用上面提供的 ``hash`` 函数在 ``RESTART`` 代码块内生成4个种子："
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:90
 msgid ""
 "Then, use those seeds to generate random numbers using ``rand_from_seed``:"
-msgstr "然后，使用这些种子生成随机数，使用“随机_自_种子”："
+msgstr "然后，使用这些种子以及 ``rand_from_seed``，生成随机数："
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:99
 msgid ""
 "Finally, assign ``position`` to ``TRANSFORM[3].xyz``, which is the part of "
 "the transform that holds the position information."
 msgstr ""
-"最后，将“位置”赋值给“TRANSFORM[3].xyz”，它是保存位置信息的转换的一部分。"
+"最后，将 ``position`` 赋值给 ``TRANSFORM[3].xyz``，这是保存位置信息的变换部"
+"分。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:106
 msgid "Remember, all this code so far goes inside the ``RESTART`` block."
-msgstr "记住，到目前为止，所有这些代码都位于“重新开始”块中。"
+msgstr "请记住，到目前为止，所有这些代码都位于 ``RESTART`` 块内。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:108
 msgid ""
 "The vertex shader for your mesh can stay the exact same as it was in the "
 "previous tutorial."
-msgstr "网格的顶点着色器，可以完全复用前一教程中的。"
+msgstr "网格的顶点着色器可以与上一教程中的完全相同。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:110
 msgid ""
 "Now you can move each fish individually each frame, either by adding to the "
 "``TRANSFORM`` directly or by writing to ``VELOCITY``."
 msgstr ""
-"现在你可以单独移动每条鱼的每一帧，可以通过直接增加“变换”，或是通过编写“速"
-"度”。"
+"现在，您可以通过直接添加到 ``TRANSFORM`` 中或通过写入 ``VELOCITY`` 来逐帧单独"
+"移动每个鱼。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:113
 msgid "Let's transform the fish by setting their ``VELOCITY``."
-msgstr "让我们通过设置鱼的“速度”来改变它们。"
+msgstr "让我们通过设置它们的 ``VELOCITY`` 来变换鱼。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:119
 msgid ""
 "This is the most basic way to set ``VELOCITY`` every particle (or fish) will "
 "have the same velocity."
-msgstr "这是设置“速度”的最基本方法，每个粒子(或鱼)都有相同的速度。"
+msgstr "这是设置 ``VELOCITY`` 的最基本方法，每个粒子（或鱼）将具有相同的速度。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:121
 msgid ""
 "Just by setting ``VELOCITY`` you can make the fish swim however you want. "
 "For example, try the code below."
-msgstr "只要设置“速度”，你就可以让鱼自由游动。例如，尝试下面的代码。"
+msgstr ""
+"只需设置 ``VELOCITY``，您就可以让鱼随心所欲地游泳。例如，尝试下面的代码。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:128
 msgid "This will give each fish a unique speed between ``2`` and ``10``."
-msgstr "这将给每条鱼一个在“2”和“10”之间的独特速度。"
+msgstr "这将使每条鱼在 ``2`` 和 ``10`` 之间具有独特的速度。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:130
 msgid ""
 "If you used ``CUSTOM.y`` in the last tutorial, you can also set the speed of "
 "the swim animation based on the ``VELOCITY``. Just use ``CUSTOM.y``."
 msgstr ""
-"如果你在上节课中使用“自定义.y”，你也可以只使用“自定义.y”，根据“速度”设置游泳"
-"动画的速度。"
+"如果您在上一个教程中使用了 ``CUSTOM.y``，则还可以基于 ``VELOCITY`` 来设置游泳"
+"动画的速度。只需使用 ``CUSTOM.y``。"
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:137
-#, fuzzy
 msgid "This code gives you the following behavior:"
-msgstr "这样做会产生以下行为:"
+msgstr "此代码为您提供以下行为："
 
 #: ../../docs/tutorials/3d/vertex_animation/controlling_thousands_of_fish.rst:141
 msgid ""
@@ -200,7 +207,7 @@ msgid ""
 "Please refer to the :ref:`Particles Shader Reference <doc_particle_shader>` "
 "for more information on particle shaders."
 msgstr ""
-"使用粒子材质，你可以让鱼的行为变得简单或复杂，随你喜欢。在本教程中，我们只设"
-"置了速度，但是在你自己的着色器中，你也可以设置“颜色”，旋转，缩放(通过“变"
-"换”)。有关粒子着色器的更多信息，请参考:参考:`粒子着色器参考<文档_粒子_着色器"
-">`。"
+"使用一个 ``ParticlesMaterial``，您可以根据自己的意愿使鱼的行为简单或复杂。在"
+"本教程中，我们仅设置了 ``Velocity``，但是在您自己的着色器中，您还可以设置 "
+"``COLOR``，旋转，缩放（通过 ``TRANSFORM``）。请参考 :ref:`粒子着色器参考手册 "
+"<doc_particle_shader>` 以获取有关粒子着色器的更多信息。"

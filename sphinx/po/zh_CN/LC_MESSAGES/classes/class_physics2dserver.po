@@ -1,0 +1,2526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:10
+msgid "Physics2DServer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:14
+msgid "**Inherited By:** :ref:`Physics2DServerSW <class_Physics2DServerSW>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:16
+msgid "Server interface for low-level 2D physics access."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:21
+msgid ""
+"Physics2DServer is the server responsible for all 2D physics. It can "
+"create many kinds of physics objects, but does not insert them on the "
+"node tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:24
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:137
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:147
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:163
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:167
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:169
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:199
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:211
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:217
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:227
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:229
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:27
+msgid ""
+":ref:`area_add_shape <class_Physics2DServer_method_area_add_shape>` **(**"
+" :ref:`RID <class_RID>` area, :ref:`RID <class_RID>` shape, "
+":ref:`Transform2D <class_Transform2D>` transform=Transform2D( 1, 0, 0, 1,"
+" 0, 0 ), :ref:`bool <class_bool>` disabled=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:29
+msgid ""
+":ref:`area_attach_canvas_instance_id "
+"<class_Physics2DServer_method_area_attach_canvas_instance_id>` **(** "
+":ref:`RID <class_RID>` area, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:31
+msgid ""
+":ref:`area_attach_object_instance_id "
+"<class_Physics2DServer_method_area_attach_object_instance_id>` **(** "
+":ref:`RID <class_RID>` area, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:33
+msgid ""
+":ref:`area_clear_shapes <class_Physics2DServer_method_area_clear_shapes>`"
+" **(** :ref:`RID <class_RID>` area **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:175
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:181
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:183
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:201
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:203
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:219
+msgid ":ref:`RID <class_RID>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:35
+msgid ":ref:`area_create <class_Physics2DServer_method_area_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:191
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:37
+msgid ""
+":ref:`area_get_canvas_instance_id "
+"<class_Physics2DServer_method_area_get_canvas_instance_id>` **(** "
+":ref:`RID <class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:39
+msgid ""
+":ref:`area_get_object_instance_id "
+"<class_Physics2DServer_method_area_get_object_instance_id>` **(** "
+":ref:`RID <class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:133
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:213
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:41
+msgid ""
+":ref:`area_get_param <class_Physics2DServer_method_area_get_param>` **(**"
+" :ref:`RID <class_RID>` area, :ref:`AreaParameter "
+"<enum_Physics2DServer_AreaParameter>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:43
+msgid ""
+":ref:`area_get_shape <class_Physics2DServer_method_area_get_shape>` **(**"
+" :ref:`RID <class_RID>` area, :ref:`int <class_int>` shape_idx **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:45
+msgid ""
+":ref:`area_get_shape_count "
+"<class_Physics2DServer_method_area_get_shape_count>` **(** :ref:`RID "
+"<class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:129
+msgid ":ref:`Transform2D <class_Transform2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:47
+msgid ""
+":ref:`area_get_shape_transform "
+"<class_Physics2DServer_method_area_get_shape_transform>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`int <class_int>` shape_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:49
+msgid ""
+":ref:`area_get_space <class_Physics2DServer_method_area_get_space>` **(**"
+" :ref:`RID <class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:51
+msgid ":ref:`AreaSpaceOverrideMode <enum_Physics2DServer_AreaSpaceOverrideMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:51
+msgid ""
+":ref:`area_get_space_override_mode "
+"<class_Physics2DServer_method_area_get_space_override_mode>` **(** "
+":ref:`RID <class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:53
+msgid ""
+":ref:`area_get_transform "
+"<class_Physics2DServer_method_area_get_transform>` **(** :ref:`RID "
+"<class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:55
+msgid ""
+":ref:`area_remove_shape <class_Physics2DServer_method_area_remove_shape>`"
+" **(** :ref:`RID <class_RID>` area, :ref:`int <class_int>` shape_idx "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:57
+msgid ""
+":ref:`area_set_area_monitor_callback "
+"<class_Physics2DServer_method_area_set_area_monitor_callback>` **(** "
+":ref:`RID <class_RID>` area, :ref:`Object <class_Object>` receiver, "
+":ref:`StringName <class_StringName>` method **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:59
+msgid ""
+":ref:`area_set_collision_layer "
+"<class_Physics2DServer_method_area_set_collision_layer>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`int <class_int>` layer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:61
+msgid ""
+":ref:`area_set_collision_mask "
+"<class_Physics2DServer_method_area_set_collision_mask>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`int <class_int>` mask **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:63
+msgid ""
+":ref:`area_set_monitor_callback "
+"<class_Physics2DServer_method_area_set_monitor_callback>` **(** :ref:`RID"
+" <class_RID>` area, :ref:`Object <class_Object>` receiver, "
+":ref:`StringName <class_StringName>` method **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:65
+msgid ""
+":ref:`area_set_monitorable "
+"<class_Physics2DServer_method_area_set_monitorable>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`bool <class_bool>` monitorable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:67
+msgid ""
+":ref:`area_set_param <class_Physics2DServer_method_area_set_param>` **(**"
+" :ref:`RID <class_RID>` area, :ref:`AreaParameter "
+"<enum_Physics2DServer_AreaParameter>` param, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:69
+msgid ""
+":ref:`area_set_shape <class_Physics2DServer_method_area_set_shape>` **(**"
+" :ref:`RID <class_RID>` area, :ref:`int <class_int>` shape_idx, :ref:`RID"
+" <class_RID>` shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:71
+msgid ""
+":ref:`area_set_shape_disabled "
+"<class_Physics2DServer_method_area_set_shape_disabled>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`int <class_int>` shape_idx, :ref:`bool "
+"<class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:73
+msgid ""
+":ref:`area_set_shape_transform "
+"<class_Physics2DServer_method_area_set_shape_transform>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`int <class_int>` shape_idx, :ref:`Transform2D "
+"<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:75
+msgid ""
+":ref:`area_set_space <class_Physics2DServer_method_area_set_space>` **(**"
+" :ref:`RID <class_RID>` area, :ref:`RID <class_RID>` space **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:77
+msgid ""
+":ref:`area_set_space_override_mode "
+"<class_Physics2DServer_method_area_set_space_override_mode>` **(** "
+":ref:`RID <class_RID>` area, :ref:`AreaSpaceOverrideMode "
+"<enum_Physics2DServer_AreaSpaceOverrideMode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:79
+msgid ""
+":ref:`area_set_transform "
+"<class_Physics2DServer_method_area_set_transform>` **(** :ref:`RID "
+"<class_RID>` area, :ref:`Transform2D <class_Transform2D>` transform **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:81
+msgid ""
+":ref:`body_add_central_force "
+"<class_Physics2DServer_method_body_add_central_force>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:83
+msgid ""
+":ref:`body_add_collision_exception "
+"<class_Physics2DServer_method_body_add_collision_exception>` **(** "
+":ref:`RID <class_RID>` body, :ref:`RID <class_RID>` excepted_body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:85
+msgid ""
+":ref:`body_add_force <class_Physics2DServer_method_body_add_force>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`Vector2 <class_Vector2>` offset, "
+":ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:87
+msgid ""
+":ref:`body_add_shape <class_Physics2DServer_method_body_add_shape>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`RID <class_RID>` shape, "
+":ref:`Transform2D <class_Transform2D>` transform=Transform2D( 1, 0, 0, 1,"
+" 0, 0 ), :ref:`bool <class_bool>` disabled=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:89
+msgid ""
+":ref:`body_add_torque <class_Physics2DServer_method_body_add_torque>` "
+"**(** :ref:`RID <class_RID>` body, :ref:`float <class_float>` torque "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:91
+msgid ""
+":ref:`body_apply_central_impulse "
+"<class_Physics2DServer_method_body_apply_central_impulse>` **(** "
+":ref:`RID <class_RID>` body, :ref:`Vector2 <class_Vector2>` impulse **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:93
+msgid ""
+":ref:`body_apply_impulse "
+"<class_Physics2DServer_method_body_apply_impulse>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`Vector2 <class_Vector2>` position, :ref:`Vector2"
+" <class_Vector2>` impulse **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:95
+msgid ""
+":ref:`body_apply_torque_impulse "
+"<class_Physics2DServer_method_body_apply_torque_impulse>` **(** :ref:`RID"
+" <class_RID>` body, :ref:`float <class_float>` impulse **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:97
+msgid ""
+":ref:`body_attach_canvas_instance_id "
+"<class_Physics2DServer_method_body_attach_canvas_instance_id>` **(** "
+":ref:`RID <class_RID>` body, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:99
+msgid ""
+":ref:`body_attach_object_instance_id "
+"<class_Physics2DServer_method_body_attach_object_instance_id>` **(** "
+":ref:`RID <class_RID>` body, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:101
+msgid ""
+":ref:`body_clear_shapes <class_Physics2DServer_method_body_clear_shapes>`"
+" **(** :ref:`RID <class_RID>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:103
+msgid ":ref:`body_create <class_Physics2DServer_method_body_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:105
+msgid ""
+":ref:`body_get_canvas_instance_id "
+"<class_Physics2DServer_method_body_get_canvas_instance_id>` **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:107
+msgid ""
+":ref:`body_get_collision_layer "
+"<class_Physics2DServer_method_body_get_collision_layer>` **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:109
+msgid ""
+":ref:`body_get_collision_mask "
+"<class_Physics2DServer_method_body_get_collision_mask>` **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:111
+msgid ":ref:`CCDMode <enum_Physics2DServer_CCDMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:111
+msgid ""
+":ref:`body_get_continuous_collision_detection_mode "
+"<class_Physics2DServer_method_body_get_continuous_collision_detection_mode>`"
+" **(** :ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:113
+msgid ":ref:`Physics2DDirectBodyState <class_Physics2DDirectBodyState>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:113
+msgid ""
+":ref:`body_get_direct_state "
+"<class_Physics2DServer_method_body_get_direct_state>` **(** :ref:`RID "
+"<class_RID>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:115
+msgid ""
+":ref:`body_get_max_contacts_reported "
+"<class_Physics2DServer_method_body_get_max_contacts_reported>` **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:117
+msgid ":ref:`BodyMode <enum_Physics2DServer_BodyMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:117
+msgid ""
+":ref:`body_get_mode <class_Physics2DServer_method_body_get_mode>` **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:119
+msgid ""
+":ref:`body_get_object_instance_id "
+"<class_Physics2DServer_method_body_get_object_instance_id>` **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:121
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:223
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:121
+msgid ""
+":ref:`body_get_param <class_Physics2DServer_method_body_get_param>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`BodyParameter "
+"<enum_Physics2DServer_BodyParameter>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:123
+msgid ""
+":ref:`body_get_shape <class_Physics2DServer_method_body_get_shape>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`int <class_int>` shape_idx **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:125
+msgid ""
+":ref:`body_get_shape_count "
+"<class_Physics2DServer_method_body_get_shape_count>` **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:127
+msgid ""
+":ref:`body_get_shape_metadata "
+"<class_Physics2DServer_method_body_get_shape_metadata>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` shape_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:129
+msgid ""
+":ref:`body_get_shape_transform "
+"<class_Physics2DServer_method_body_get_shape_transform>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` shape_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:131
+msgid ""
+":ref:`body_get_space <class_Physics2DServer_method_body_get_space>` **(**"
+" :ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:133
+msgid ""
+":ref:`body_get_state <class_Physics2DServer_method_body_get_state>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`BodyState "
+"<enum_Physics2DServer_BodyState>` state **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:135
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:173
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:225
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:135
+msgid ""
+":ref:`body_is_omitting_force_integration "
+"<class_Physics2DServer_method_body_is_omitting_force_integration>` **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:137
+msgid ""
+":ref:`body_remove_collision_exception "
+"<class_Physics2DServer_method_body_remove_collision_exception>` **(** "
+":ref:`RID <class_RID>` body, :ref:`RID <class_RID>` excepted_body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:139
+msgid ""
+":ref:`body_remove_shape <class_Physics2DServer_method_body_remove_shape>`"
+" **(** :ref:`RID <class_RID>` body, :ref:`int <class_int>` shape_idx "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:141
+msgid ""
+":ref:`body_set_axis_velocity "
+"<class_Physics2DServer_method_body_set_axis_velocity>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`Vector2 <class_Vector2>` axis_velocity **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:143
+msgid ""
+":ref:`body_set_collision_layer "
+"<class_Physics2DServer_method_body_set_collision_layer>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` layer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:145
+msgid ""
+":ref:`body_set_collision_mask "
+"<class_Physics2DServer_method_body_set_collision_mask>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` mask **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:147
+msgid ""
+":ref:`body_set_continuous_collision_detection_mode "
+"<class_Physics2DServer_method_body_set_continuous_collision_detection_mode>`"
+" **(** :ref:`RID <class_RID>` body, :ref:`CCDMode "
+"<enum_Physics2DServer_CCDMode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:149
+msgid ""
+":ref:`body_set_force_integration_callback "
+"<class_Physics2DServer_method_body_set_force_integration_callback>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`Object <class_Object>` receiver, "
+":ref:`StringName <class_StringName>` method, :ref:`Variant "
+"<class_Variant>` userdata=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:151
+msgid ""
+":ref:`body_set_max_contacts_reported "
+"<class_Physics2DServer_method_body_set_max_contacts_reported>` **(** "
+":ref:`RID <class_RID>` body, :ref:`int <class_int>` amount **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:153
+msgid ""
+":ref:`body_set_mode <class_Physics2DServer_method_body_set_mode>` **(** "
+":ref:`RID <class_RID>` body, :ref:`BodyMode "
+"<enum_Physics2DServer_BodyMode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:155
+msgid ""
+":ref:`body_set_omit_force_integration "
+"<class_Physics2DServer_method_body_set_omit_force_integration>` **(** "
+":ref:`RID <class_RID>` body, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:157
+msgid ""
+":ref:`body_set_param <class_Physics2DServer_method_body_set_param>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`BodyParameter "
+"<enum_Physics2DServer_BodyParameter>` param, :ref:`float <class_float>` "
+"value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:159
+msgid ""
+":ref:`body_set_shape <class_Physics2DServer_method_body_set_shape>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`int <class_int>` shape_idx, :ref:`RID"
+" <class_RID>` shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:161
+msgid ""
+":ref:`body_set_shape_as_one_way_collision "
+"<class_Physics2DServer_method_body_set_shape_as_one_way_collision>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`int <class_int>` shape_idx, "
+":ref:`bool <class_bool>` enable, :ref:`float <class_float>` margin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:163
+msgid ""
+":ref:`body_set_shape_disabled "
+"<class_Physics2DServer_method_body_set_shape_disabled>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` shape_idx, :ref:`bool "
+"<class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:165
+msgid ""
+":ref:`body_set_shape_metadata "
+"<class_Physics2DServer_method_body_set_shape_metadata>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` shape_idx, :ref:`Variant "
+"<class_Variant>` metadata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:167
+msgid ""
+":ref:`body_set_shape_transform "
+"<class_Physics2DServer_method_body_set_shape_transform>` **(** :ref:`RID "
+"<class_RID>` body, :ref:`int <class_int>` shape_idx, :ref:`Transform2D "
+"<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:169
+msgid ""
+":ref:`body_set_space <class_Physics2DServer_method_body_set_space>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`RID <class_RID>` space **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:171
+msgid ""
+":ref:`body_set_state <class_Physics2DServer_method_body_set_state>` **(**"
+" :ref:`RID <class_RID>` body, :ref:`BodyState "
+"<enum_Physics2DServer_BodyState>` state, :ref:`Variant <class_Variant>` "
+"value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:173
+msgid ""
+":ref:`body_test_motion <class_Physics2DServer_method_body_test_motion>` "
+"**(** :ref:`RID <class_RID>` body, :ref:`Transform2D <class_Transform2D>`"
+" from, :ref:`Vector2 <class_Vector2>` motion, :ref:`bool <class_bool>` "
+"infinite_inertia, :ref:`float <class_float>` margin=0.08, "
+":ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>` "
+"result=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:175
+msgid ""
+":ref:`capsule_shape_create "
+"<class_Physics2DServer_method_capsule_shape_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:177
+msgid ""
+":ref:`circle_shape_create "
+"<class_Physics2DServer_method_circle_shape_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:179
+msgid ""
+":ref:`concave_polygon_shape_create "
+"<class_Physics2DServer_method_concave_polygon_shape_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:181
+msgid ""
+":ref:`convex_polygon_shape_create "
+"<class_Physics2DServer_method_convex_polygon_shape_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:183
+msgid ""
+":ref:`damped_spring_joint_create "
+"<class_Physics2DServer_method_damped_spring_joint_create>` **(** "
+":ref:`Vector2 <class_Vector2>` anchor_a, :ref:`Vector2 <class_Vector2>` "
+"anchor_b, :ref:`RID <class_RID>` body_a, :ref:`RID <class_RID>` body_b "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:185
+msgid ""
+":ref:`damped_string_joint_get_param "
+"<class_Physics2DServer_method_damped_string_joint_get_param>` **(** "
+":ref:`RID <class_RID>` joint, :ref:`DampedStringParam "
+"<enum_Physics2DServer_DampedStringParam>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:187
+msgid ""
+":ref:`damped_string_joint_set_param "
+"<class_Physics2DServer_method_damped_string_joint_set_param>` **(** "
+":ref:`RID <class_RID>` joint, :ref:`DampedStringParam "
+"<enum_Physics2DServer_DampedStringParam>` param, :ref:`float "
+"<class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:189
+msgid ""
+":ref:`free_rid <class_Physics2DServer_method_free_rid>` **(** :ref:`RID "
+"<class_RID>` rid **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:191
+msgid ""
+":ref:`get_process_info <class_Physics2DServer_method_get_process_info>` "
+"**(** :ref:`ProcessInfo <enum_Physics2DServer_ProcessInfo>` process_info "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:193
+msgid ""
+":ref:`groove_joint_create "
+"<class_Physics2DServer_method_groove_joint_create>` **(** :ref:`Vector2 "
+"<class_Vector2>` groove1_a, :ref:`Vector2 <class_Vector2>` groove2_a, "
+":ref:`Vector2 <class_Vector2>` anchor_b, :ref:`RID <class_RID>` body_a, "
+":ref:`RID <class_RID>` body_b **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:195
+msgid ""
+":ref:`joint_get_param <class_Physics2DServer_method_joint_get_param>` "
+"**(** :ref:`RID <class_RID>` joint, :ref:`JointParam "
+"<enum_Physics2DServer_JointParam>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:197
+msgid ":ref:`JointType <enum_Physics2DServer_JointType>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:197
+msgid ""
+":ref:`joint_get_type <class_Physics2DServer_method_joint_get_type>` **(**"
+" :ref:`RID <class_RID>` joint **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:199
+msgid ""
+":ref:`joint_set_param <class_Physics2DServer_method_joint_set_param>` "
+"**(** :ref:`RID <class_RID>` joint, :ref:`JointParam "
+"<enum_Physics2DServer_JointParam>` param, :ref:`float <class_float>` "
+"value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:201
+msgid ""
+":ref:`line_shape_create <class_Physics2DServer_method_line_shape_create>`"
+" **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:203
+msgid ""
+":ref:`pin_joint_create <class_Physics2DServer_method_pin_joint_create>` "
+"**(** :ref:`Vector2 <class_Vector2>` anchor, :ref:`RID <class_RID>` "
+"body_a, :ref:`RID <class_RID>` body_b **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:205
+msgid ""
+":ref:`ray_shape_create <class_Physics2DServer_method_ray_shape_create>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:207
+msgid ""
+":ref:`rectangle_shape_create "
+"<class_Physics2DServer_method_rectangle_shape_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:209
+msgid ""
+":ref:`segment_shape_create "
+"<class_Physics2DServer_method_segment_shape_create>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:211
+msgid ""
+":ref:`set_active <class_Physics2DServer_method_set_active>` **(** "
+":ref:`bool <class_bool>` active **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:213
+msgid ""
+":ref:`shape_get_data <class_Physics2DServer_method_shape_get_data>` **(**"
+" :ref:`RID <class_RID>` shape **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:215
+msgid ":ref:`ShapeType <enum_Physics2DServer_ShapeType>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:215
+msgid ""
+":ref:`shape_get_type <class_Physics2DServer_method_shape_get_type>` **(**"
+" :ref:`RID <class_RID>` shape **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:217
+msgid ""
+":ref:`shape_set_data <class_Physics2DServer_method_shape_set_data>` **(**"
+" :ref:`RID <class_RID>` shape, :ref:`Variant <class_Variant>` data **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:219
+msgid ""
+":ref:`space_create <class_Physics2DServer_method_space_create>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:221
+msgid ":ref:`Physics2DDirectSpaceState <class_Physics2DDirectSpaceState>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:221
+msgid ""
+":ref:`space_get_direct_state "
+"<class_Physics2DServer_method_space_get_direct_state>` **(** :ref:`RID "
+"<class_RID>` space **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:223
+msgid ""
+":ref:`space_get_param <class_Physics2DServer_method_space_get_param>` "
+"**(** :ref:`RID <class_RID>` space, :ref:`SpaceParameter "
+"<enum_Physics2DServer_SpaceParameter>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:225
+msgid ""
+":ref:`space_is_active <class_Physics2DServer_method_space_is_active>` "
+"**(** :ref:`RID <class_RID>` space **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:227
+msgid ""
+":ref:`space_set_active <class_Physics2DServer_method_space_set_active>` "
+"**(** :ref:`RID <class_RID>` space, :ref:`bool <class_bool>` active **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:229
+msgid ""
+":ref:`space_set_param <class_Physics2DServer_method_space_set_param>` "
+"**(** :ref:`RID <class_RID>` space, :ref:`SpaceParameter "
+"<enum_Physics2DServer_SpaceParameter>` param, :ref:`float <class_float>` "
+"value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:233
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:253
+msgid "enum **SpaceParameter**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:255
+msgid ""
+"**SPACE_PARAM_CONTACT_RECYCLE_RADIUS** = **0** --- Constant to set/get "
+"the maximum distance a pair of bodies has to move before their collision "
+"status has to be recalculated."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:257
+msgid ""
+"**SPACE_PARAM_CONTACT_MAX_SEPARATION** = **1** --- Constant to set/get "
+"the maximum distance a shape can be from another before they are "
+"considered separated."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:259
+msgid ""
+"**SPACE_PARAM_BODY_MAX_ALLOWED_PENETRATION** = **2** --- Constant to "
+"set/get the maximum distance a shape can penetrate another shape before "
+"it is considered a collision."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:261
+msgid ""
+"**SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD** = **3** --- Constant"
+" to set/get the threshold linear velocity of activity. A body marked as "
+"potentially inactive for both linear and angular velocity will be put to "
+"sleep after the time given."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:263
+msgid ""
+"**SPACE_PARAM_BODY_ANGULAR_VELOCITY_SLEEP_THRESHOLD** = **4** --- "
+"Constant to set/get the threshold angular velocity of activity. A body "
+"marked as potentially inactive for both linear and angular velocity will "
+"be put to sleep after the time given."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:265
+msgid ""
+"**SPACE_PARAM_BODY_TIME_TO_SLEEP** = **5** --- Constant to set/get the "
+"maximum time of activity. A body marked as potentially inactive for both "
+"linear and angular velocity will be put to sleep after this time."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:267
+msgid ""
+"**SPACE_PARAM_CONSTRAINT_DEFAULT_BIAS** = **6** --- Constant to set/get "
+"the default solver bias for all physics constraints. A solver bias is a "
+"factor controlling how much two objects \"rebound\", after violating a "
+"constraint, to avoid leaving them in that state because of numerical "
+"imprecision."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:269
+msgid "**SPACE_PARAM_TEST_MOTION_MIN_CONTACT_DEPTH** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:293
+msgid "enum **ShapeType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:295
+msgid ""
+"**SHAPE_LINE** = **0** --- This is the constant for creating line shapes."
+" A line shape is an infinite line with an origin point, and a normal. "
+"Thus, it can be used for front/behind checks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:297
+msgid "**SHAPE_RAY** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:299
+msgid ""
+"**SHAPE_SEGMENT** = **2** --- This is the constant for creating segment "
+"shapes. A segment shape is a line from a point A to a point B. It can be "
+"checked for intersections."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:301
+msgid ""
+"**SHAPE_CIRCLE** = **3** --- This is the constant for creating circle "
+"shapes. A circle shape only has a radius. It can be used for "
+"intersections and inside/outside checks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:303
+msgid ""
+"**SHAPE_RECTANGLE** = **4** --- This is the constant for creating "
+"rectangle shapes. A rectangle shape is defined by a width and a height. "
+"It can be used for intersections and inside/outside checks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:305
+msgid ""
+"**SHAPE_CAPSULE** = **5** --- This is the constant for creating capsule "
+"shapes. A capsule shape is defined by a radius and a length. It can be "
+"used for intersections and inside/outside checks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:307
+msgid ""
+"**SHAPE_CONVEX_POLYGON** = **6** --- This is the constant for creating "
+"convex polygon shapes. A polygon is defined by a list of points. It can "
+"be used for intersections and inside/outside checks. Unlike the "
+":ref:`CollisionPolygon2D.polygon "
+"<class_CollisionPolygon2D_property_polygon>` property, polygons modified "
+"with :ref:`shape_set_data <class_Physics2DServer_method_shape_set_data>` "
+"do not verify that the points supplied form is a convex polygon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:309
+msgid ""
+"**SHAPE_CONCAVE_POLYGON** = **7** --- This is the constant for creating "
+"concave polygon shapes. A polygon is defined by a list of points. It can "
+"be used for intersections checks, but not for inside/outside checks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:311
+msgid ""
+"**SHAPE_CUSTOM** = **8** --- This constant is used internally by the "
+"engine. Any attempt to create this kind of shape results in an error."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:333
+msgid "enum **AreaParameter**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:335
+msgid ""
+"**AREA_PARAM_GRAVITY** = **0** --- Constant to set/get gravity strength "
+"in an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:337
+msgid ""
+"**AREA_PARAM_GRAVITY_VECTOR** = **1** --- Constant to set/get gravity "
+"vector/center in an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:339
+msgid ""
+"**AREA_PARAM_GRAVITY_IS_POINT** = **2** --- Constant to set/get whether "
+"the gravity vector of an area is a direction, or a center point."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:341
+msgid ""
+"**AREA_PARAM_GRAVITY_DISTANCE_SCALE** = **3** --- Constant to set/get the"
+" falloff factor for point gravity of an area. The greater this value is, "
+"the faster the strength of gravity decreases with the square of distance."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:343
+msgid ""
+"**AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** --- This constant was "
+"used to set/get the falloff factor for point gravity. It has been "
+"superseded by :ref:`AREA_PARAM_GRAVITY_DISTANCE_SCALE "
+"<class_Physics2DServer_constant_AREA_PARAM_GRAVITY_DISTANCE_SCALE>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:345
+msgid ""
+"**AREA_PARAM_LINEAR_DAMP** = **5** --- Constant to set/get the linear "
+"dampening factor of an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:347
+msgid ""
+"**AREA_PARAM_ANGULAR_DAMP** = **6** --- Constant to set/get the angular "
+"dampening factor of an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:349
+msgid ""
+"**AREA_PARAM_PRIORITY** = **7** --- Constant to set/get the priority "
+"(order of processing) of an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:365
+msgid "enum **AreaSpaceOverrideMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:367
+msgid ""
+"**AREA_SPACE_OVERRIDE_DISABLED** = **0** --- This area does not affect "
+"gravity/damp. These are generally areas that exist only to detect "
+"collisions, and objects entering or exiting them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:369
+msgid ""
+"**AREA_SPACE_OVERRIDE_COMBINE** = **1** --- This area adds its "
+"gravity/damp values to whatever has been calculated so far. This way, "
+"many overlapping areas can combine their physics to make interesting "
+"effects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:371
+msgid ""
+"**AREA_SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- This area adds its "
+"gravity/damp values to whatever has been calculated so far. Then stops "
+"taking into account the rest of the areas, even the default one."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:373
+msgid ""
+"**AREA_SPACE_OVERRIDE_REPLACE** = **3** --- This area replaces any "
+"gravity/damp, even the default one, and stops taking into account the "
+"rest of the areas."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:375
+msgid ""
+"**AREA_SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- This area replaces "
+"any gravity/damp calculated so far, but keeps calculating the rest of the"
+" areas, down to the default one."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:389
+msgid "enum **BodyMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:391
+msgid "**BODY_MODE_STATIC** = **0** --- Constant for static bodies."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:393
+msgid "**BODY_MODE_KINEMATIC** = **1** --- Constant for kinematic bodies."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:395
+msgid "**BODY_MODE_RIGID** = **2** --- Constant for rigid bodies."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:397
+msgid ""
+"**BODY_MODE_CHARACTER** = **3** --- Constant for rigid bodies in "
+"character mode. In this mode, a body can not rotate, and only its linear "
+"velocity is affected by physics."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:419
+msgid "enum **BodyParameter**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:421
+msgid ""
+"**BODY_PARAM_BOUNCE** = **0** --- Constant to set/get a body's bounce "
+"factor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:423
+msgid "**BODY_PARAM_FRICTION** = **1** --- Constant to set/get a body's friction."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:425
+msgid "**BODY_PARAM_MASS** = **2** --- Constant to set/get a body's mass."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:427
+msgid "**BODY_PARAM_INERTIA** = **3** --- Constant to set/get a body's inertia."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:429
+msgid ""
+"**BODY_PARAM_GRAVITY_SCALE** = **4** --- Constant to set/get a body's "
+"gravity multiplier."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:431
+msgid ""
+"**BODY_PARAM_LINEAR_DAMP** = **5** --- Constant to set/get a body's "
+"linear dampening factor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:433
+msgid ""
+"**BODY_PARAM_ANGULAR_DAMP** = **6** --- Constant to set/get a body's "
+"angular dampening factor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:435
+msgid ""
+"**BODY_PARAM_MAX** = **7** --- Represents the size of the "
+":ref:`BodyParameter <enum_Physics2DServer_BodyParameter>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:451
+msgid "enum **BodyState**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:453
+msgid ""
+"**BODY_STATE_TRANSFORM** = **0** --- Constant to set/get the current "
+"transform matrix of the body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:455
+msgid ""
+"**BODY_STATE_LINEAR_VELOCITY** = **1** --- Constant to set/get the "
+"current linear velocity of the body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:457
+msgid ""
+"**BODY_STATE_ANGULAR_VELOCITY** = **2** --- Constant to set/get the "
+"current angular velocity of the body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:459
+msgid ""
+"**BODY_STATE_SLEEPING** = **3** --- Constant to sleep/wake up a body, or "
+"to get whether it is sleeping."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:461
+msgid ""
+"**BODY_STATE_CAN_SLEEP** = **4** --- Constant to set/get whether the body"
+" can sleep."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:473
+msgid "enum **JointType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:475
+msgid "**JOINT_PIN** = **0** --- Constant to create pin joints."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:477
+msgid "**JOINT_GROOVE** = **1** --- Constant to create groove joints."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:479
+msgid ""
+"**JOINT_DAMPED_SPRING** = **2** --- Constant to create damped spring "
+"joints."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:491
+msgid "enum **JointParam**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:493
+msgid "**JOINT_PARAM_BIAS** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:495
+msgid "**JOINT_PARAM_MAX_BIAS** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:497
+msgid "**JOINT_PARAM_MAX_FORCE** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:509
+msgid "enum **DampedStringParam**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:511
+msgid ""
+"**DAMPED_STRING_REST_LENGTH** = **0** --- Sets the resting length of the "
+"spring joint. The joint will always try to go to back this length when "
+"pulled apart."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:513
+msgid ""
+"**DAMPED_STRING_STIFFNESS** = **1** --- Sets the stiffness of the spring "
+"joint. The joint applies a force equal to the stiffness times the "
+"distance from its resting length."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:515
+msgid ""
+"**DAMPED_STRING_DAMPING** = **2** --- Sets the damping ratio of the "
+"spring joint. A value of 0 indicates an undamped spring, while 1 causes "
+"the system to reach equilibrium as fast as possible (critical damping)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:527
+msgid "enum **CCDMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:529
+msgid ""
+"**CCD_MODE_DISABLED** = **0** --- Disables continuous collision "
+"detection. This is the fastest way to detect body collisions, but can "
+"miss small, fast-moving objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:531
+msgid ""
+"**CCD_MODE_CAST_RAY** = **1** --- Enables continuous collision detection "
+"by raycasting. It is faster than shapecasting, but less precise."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:533
+msgid ""
+"**CCD_MODE_CAST_SHAPE** = **2** --- Enables continuous collision "
+"detection by shapecasting. It is the slowest CCD method, and the most "
+"precise."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:543
+msgid "enum **AreaBodyStatus**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:545
+msgid ""
+"**AREA_BODY_ADDED** = **0** --- The value of the first parameter and area"
+" callback function receives, when an object enters one of its shapes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:547
+msgid ""
+"**AREA_BODY_REMOVED** = **1** --- The value of the first parameter and "
+"area callback function receives, when an object exits one of its shapes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:559
+msgid "enum **ProcessInfo**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:561
+msgid ""
+"**INFO_ACTIVE_OBJECTS** = **0** --- Constant to get the number of objects"
+" that are not sleeping."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:563
+msgid ""
+"**INFO_COLLISION_PAIRS** = **1** --- Constant to get the number of "
+"possible collisions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:565
+msgid ""
+"**INFO_ISLAND_COUNT** = **2** --- Constant to get the number of space "
+"regions where a collision could occur."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:568
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:572
+msgid ""
+"void **area_add_shape** **(** :ref:`RID <class_RID>` area, :ref:`RID "
+"<class_RID>` shape, :ref:`Transform2D <class_Transform2D>` "
+"transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`bool <class_bool>` "
+"disabled=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:574
+msgid ""
+"Adds a shape to the area, along with a transform matrix. Shapes are "
+"usually referenced by their index, so you should track which shape has a "
+"given index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:580
+msgid ""
+"void **area_attach_canvas_instance_id** **(** :ref:`RID <class_RID>` "
+"area, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:586
+msgid ""
+"void **area_attach_object_instance_id** **(** :ref:`RID <class_RID>` "
+"area, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:588
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:854
+msgid ""
+"Assigns the area to a descendant of :ref:`Object <class_Object>`, so it "
+"can exist in the node tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:594
+msgid "void **area_clear_shapes** **(** :ref:`RID <class_RID>` area **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:596
+msgid ""
+"Removes all shapes from an area. It does not delete the shapes, so they "
+"can be reassigned later."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:602
+msgid ":ref:`RID <class_RID>` **area_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:604
+msgid "Creates an :ref:`Area2D <class_Area2D>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:610
+msgid ""
+":ref:`int <class_int>` **area_get_canvas_instance_id** **(** :ref:`RID "
+"<class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:616
+msgid ""
+":ref:`int <class_int>` **area_get_object_instance_id** **(** :ref:`RID "
+"<class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:618
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:932
+msgid "Gets the instance ID of the object the area is assigned to."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:624
+msgid ""
+":ref:`Variant <class_Variant>` **area_get_param** **(** :ref:`RID "
+"<class_RID>` area, :ref:`AreaParameter "
+"<enum_Physics2DServer_AreaParameter>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:626
+msgid ""
+"Returns an area parameter value. See :ref:`AreaParameter "
+"<enum_Physics2DServer_AreaParameter>` for a list of available parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:632
+msgid ""
+":ref:`RID <class_RID>` **area_get_shape** **(** :ref:`RID <class_RID>` "
+"area, :ref:`int <class_int>` shape_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:634
+msgid "Returns the :ref:`RID <class_RID>` of the nth shape of an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:640
+msgid ""
+":ref:`int <class_int>` **area_get_shape_count** **(** :ref:`RID "
+"<class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:642
+msgid "Returns the number of shapes assigned to an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:648
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **area_get_shape_transform** **(**"
+" :ref:`RID <class_RID>` area, :ref:`int <class_int>` shape_idx **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:650
+msgid "Returns the transform matrix of a shape within an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:656
+msgid ""
+":ref:`RID <class_RID>` **area_get_space** **(** :ref:`RID <class_RID>` "
+"area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:658
+msgid "Returns the space assigned to the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:664
+msgid ""
+":ref:`AreaSpaceOverrideMode <enum_Physics2DServer_AreaSpaceOverrideMode>`"
+" **area_get_space_override_mode** **(** :ref:`RID <class_RID>` area **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:666
+msgid "Returns the space override mode for the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:672
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **area_get_transform** **(** "
+":ref:`RID <class_RID>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:674
+msgid "Returns the transform matrix for an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:680
+msgid ""
+"void **area_remove_shape** **(** :ref:`RID <class_RID>` area, :ref:`int "
+"<class_int>` shape_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:682
+msgid ""
+"Removes a shape from an area. It does not delete the shape, so it can be "
+"reassigned later."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:688
+msgid ""
+"void **area_set_area_monitor_callback** **(** :ref:`RID <class_RID>` "
+"area, :ref:`Object <class_Object>` receiver, :ref:`StringName "
+"<class_StringName>` method **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:694
+msgid ""
+"void **area_set_collision_layer** **(** :ref:`RID <class_RID>` area, "
+":ref:`int <class_int>` layer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:696
+msgid "Assigns the area to one or many physics layers."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:702
+msgid ""
+"void **area_set_collision_mask** **(** :ref:`RID <class_RID>` area, "
+":ref:`int <class_int>` mask **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:704
+msgid "Sets which physics layers the area will monitor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:710
+msgid ""
+"void **area_set_monitor_callback** **(** :ref:`RID <class_RID>` area, "
+":ref:`Object <class_Object>` receiver, :ref:`StringName "
+"<class_StringName>` method **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:712
+msgid ""
+"Sets the function to call when any body/area enters or exits the area. "
+"This callback will be called for any object interacting with the area, "
+"and takes five parameters:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:714
+msgid ""
+"1: :ref:`AREA_BODY_ADDED "
+"<class_Physics2DServer_constant_AREA_BODY_ADDED>` or "
+":ref:`AREA_BODY_REMOVED "
+"<class_Physics2DServer_constant_AREA_BODY_REMOVED>`, depending on whether"
+" the object entered or exited the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:716
+msgid "2: :ref:`RID <class_RID>` of the object that entered/exited the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:718
+msgid "3: Instance ID of the object that entered/exited the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:720
+msgid "4: The shape index of the object that entered/exited the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:722
+msgid "5: The shape index of the area where the object entered/exited."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:728
+msgid ""
+"void **area_set_monitorable** **(** :ref:`RID <class_RID>` area, "
+":ref:`bool <class_bool>` monitorable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:734
+msgid ""
+"void **area_set_param** **(** :ref:`RID <class_RID>` area, "
+":ref:`AreaParameter <enum_Physics2DServer_AreaParameter>` param, "
+":ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:736
+msgid ""
+"Sets the value for an area parameter. See :ref:`AreaParameter "
+"<enum_Physics2DServer_AreaParameter>` for a list of available parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:742
+msgid ""
+"void **area_set_shape** **(** :ref:`RID <class_RID>` area, :ref:`int "
+"<class_int>` shape_idx, :ref:`RID <class_RID>` shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:744
+msgid ""
+"Substitutes a given area shape by another. The old shape is selected by "
+"its index, the new one by its :ref:`RID <class_RID>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:750
+msgid ""
+"void **area_set_shape_disabled** **(** :ref:`RID <class_RID>` area, "
+":ref:`int <class_int>` shape_idx, :ref:`bool <class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:752
+msgid "Disables a given shape in an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:758
+msgid ""
+"void **area_set_shape_transform** **(** :ref:`RID <class_RID>` area, "
+":ref:`int <class_int>` shape_idx, :ref:`Transform2D <class_Transform2D>` "
+"transform **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:760
+msgid "Sets the transform matrix for an area shape."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:766
+msgid ""
+"void **area_set_space** **(** :ref:`RID <class_RID>` area, :ref:`RID "
+"<class_RID>` space **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:768
+msgid "Assigns a space to the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:774
+msgid ""
+"void **area_set_space_override_mode** **(** :ref:`RID <class_RID>` area, "
+":ref:`AreaSpaceOverrideMode <enum_Physics2DServer_AreaSpaceOverrideMode>`"
+" mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:776
+msgid ""
+"Sets the space override mode for the area. See "
+":ref:`AreaSpaceOverrideMode <enum_Physics2DServer_AreaSpaceOverrideMode>`"
+" for a list of available modes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:782
+msgid ""
+"void **area_set_transform** **(** :ref:`RID <class_RID>` area, "
+":ref:`Transform2D <class_Transform2D>` transform **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:784
+msgid "Sets the transform matrix for an area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:790
+msgid ""
+"void **body_add_central_force** **(** :ref:`RID <class_RID>` body, "
+":ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:796
+msgid ""
+"void **body_add_collision_exception** **(** :ref:`RID <class_RID>` body, "
+":ref:`RID <class_RID>` excepted_body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:798
+msgid "Adds a body to the list of bodies exempt from collisions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:804
+msgid ""
+"void **body_add_force** **(** :ref:`RID <class_RID>` body, :ref:`Vector2 "
+"<class_Vector2>` offset, :ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:806
+msgid ""
+"Adds a positioned force to the applied force and torque. As with "
+":ref:`body_apply_impulse "
+"<class_Physics2DServer_method_body_apply_impulse>`, both the force and "
+"the offset from the body origin are in global coordinates. A force "
+"differs from an impulse in that, while the two are forces, the impulse "
+"clears itself after being applied."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:812
+msgid ""
+"void **body_add_shape** **(** :ref:`RID <class_RID>` body, :ref:`RID "
+"<class_RID>` shape, :ref:`Transform2D <class_Transform2D>` "
+"transform=Transform2D( 1, 0, 0, 1, 0, 0 ), :ref:`bool <class_bool>` "
+"disabled=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:814
+msgid ""
+"Adds a shape to the body, along with a transform matrix. Shapes are "
+"usually referenced by their index, so you should track which shape has a "
+"given index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:820
+msgid ""
+"void **body_add_torque** **(** :ref:`RID <class_RID>` body, :ref:`float "
+"<class_float>` torque **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:826
+msgid ""
+"void **body_apply_central_impulse** **(** :ref:`RID <class_RID>` body, "
+":ref:`Vector2 <class_Vector2>` impulse **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:832
+msgid ""
+"void **body_apply_impulse** **(** :ref:`RID <class_RID>` body, "
+":ref:`Vector2 <class_Vector2>` position, :ref:`Vector2 <class_Vector2>` "
+"impulse **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:834
+msgid ""
+"Adds a positioned impulse to the applied force and torque. Both the force"
+" and the offset from the body origin are in global coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:840
+msgid ""
+"void **body_apply_torque_impulse** **(** :ref:`RID <class_RID>` body, "
+":ref:`float <class_float>` impulse **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:846
+msgid ""
+"void **body_attach_canvas_instance_id** **(** :ref:`RID <class_RID>` "
+"body, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:852
+msgid ""
+"void **body_attach_object_instance_id** **(** :ref:`RID <class_RID>` "
+"body, :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:860
+msgid "void **body_clear_shapes** **(** :ref:`RID <class_RID>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:862
+msgid "Removes all shapes from a body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:868
+msgid ":ref:`RID <class_RID>` **body_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:870
+msgid "Creates a physics body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:876
+msgid ""
+":ref:`int <class_int>` **body_get_canvas_instance_id** **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:882
+msgid ""
+":ref:`int <class_int>` **body_get_collision_layer** **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:884
+msgid "Returns the physics layer or layers a body belongs to."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:890
+msgid ""
+":ref:`int <class_int>` **body_get_collision_mask** **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:892
+msgid "Returns the physics layer or layers a body can collide with."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:898
+msgid ""
+":ref:`CCDMode <enum_Physics2DServer_CCDMode>` "
+"**body_get_continuous_collision_detection_mode** **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:900
+msgid "Returns the continuous collision detection mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:906
+msgid ""
+":ref:`Physics2DDirectBodyState <class_Physics2DDirectBodyState>` "
+"**body_get_direct_state** **(** :ref:`RID <class_RID>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:908
+msgid ""
+"Returns the :ref:`Physics2DDirectBodyState "
+"<class_Physics2DDirectBodyState>` of the body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:914
+msgid ""
+":ref:`int <class_int>` **body_get_max_contacts_reported** **(** :ref:`RID"
+" <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:916
+msgid ""
+"Returns the maximum contacts that can be reported. See "
+":ref:`body_set_max_contacts_reported "
+"<class_Physics2DServer_method_body_set_max_contacts_reported>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:922
+msgid ""
+":ref:`BodyMode <enum_Physics2DServer_BodyMode>` **body_get_mode** **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:924
+msgid "Returns the body mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:930
+msgid ""
+":ref:`int <class_int>` **body_get_object_instance_id** **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:938
+msgid ""
+":ref:`float <class_float>` **body_get_param** **(** :ref:`RID "
+"<class_RID>` body, :ref:`BodyParameter "
+"<enum_Physics2DServer_BodyParameter>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:940
+msgid ""
+"Returns the value of a body parameter. See :ref:`BodyParameter "
+"<enum_Physics2DServer_BodyParameter>` for a list of available parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:946
+msgid ""
+":ref:`RID <class_RID>` **body_get_shape** **(** :ref:`RID <class_RID>` "
+"body, :ref:`int <class_int>` shape_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:948
+msgid "Returns the :ref:`RID <class_RID>` of the nth shape of a body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:954
+msgid ""
+":ref:`int <class_int>` **body_get_shape_count** **(** :ref:`RID "
+"<class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:956
+msgid "Returns the number of shapes assigned to a body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:962
+msgid ""
+":ref:`Variant <class_Variant>` **body_get_shape_metadata** **(** "
+":ref:`RID <class_RID>` body, :ref:`int <class_int>` shape_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:964
+msgid "Returns the metadata of a shape of a body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:970
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **body_get_shape_transform** **(**"
+" :ref:`RID <class_RID>` body, :ref:`int <class_int>` shape_idx **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:972
+msgid "Returns the transform matrix of a body shape."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:978
+msgid ""
+":ref:`RID <class_RID>` **body_get_space** **(** :ref:`RID <class_RID>` "
+"body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:980
+msgid "Returns the :ref:`RID <class_RID>` of the space assigned to a body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:986
+msgid ""
+":ref:`Variant <class_Variant>` **body_get_state** **(** :ref:`RID "
+"<class_RID>` body, :ref:`BodyState <enum_Physics2DServer_BodyState>` "
+"state **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:988
+msgid "Returns a body state."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:994
+msgid ""
+":ref:`bool <class_bool>` **body_is_omitting_force_integration** **(** "
+":ref:`RID <class_RID>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:996
+msgid ""
+"Returns whether a body uses a callback function to calculate its own "
+"physics (see :ref:`body_set_force_integration_callback "
+"<class_Physics2DServer_method_body_set_force_integration_callback>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1002
+msgid ""
+"void **body_remove_collision_exception** **(** :ref:`RID <class_RID>` "
+"body, :ref:`RID <class_RID>` excepted_body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1004
+msgid "Removes a body from the list of bodies exempt from collisions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1010
+msgid ""
+"void **body_remove_shape** **(** :ref:`RID <class_RID>` body, :ref:`int "
+"<class_int>` shape_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1012
+msgid ""
+"Removes a shape from a body. The shape is not deleted, so it can be "
+"reused afterwards."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1018
+msgid ""
+"void **body_set_axis_velocity** **(** :ref:`RID <class_RID>` body, "
+":ref:`Vector2 <class_Vector2>` axis_velocity **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1020
+msgid ""
+"Sets an axis velocity. The velocity in the given vector axis will be set "
+"as the given vector length. This is useful for jumping behavior."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1026
+msgid ""
+"void **body_set_collision_layer** **(** :ref:`RID <class_RID>` body, "
+":ref:`int <class_int>` layer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1028
+msgid "Sets the physics layer or layers a body belongs to."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1034
+msgid ""
+"void **body_set_collision_mask** **(** :ref:`RID <class_RID>` body, "
+":ref:`int <class_int>` mask **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1036
+msgid "Sets the physics layer or layers a body can collide with."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1042
+msgid ""
+"void **body_set_continuous_collision_detection_mode** **(** :ref:`RID "
+"<class_RID>` body, :ref:`CCDMode <enum_Physics2DServer_CCDMode>` mode "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1044
+msgid ""
+"Sets the continuous collision detection mode using one of the "
+":ref:`CCDMode <enum_Physics2DServer_CCDMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1046
+msgid ""
+"Continuous collision detection tries to predict where a moving body will "
+"collide, instead of moving it and correcting its movement if it collided."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1052
+msgid ""
+"void **body_set_force_integration_callback** **(** :ref:`RID <class_RID>`"
+" body, :ref:`Object <class_Object>` receiver, :ref:`StringName "
+"<class_StringName>` method, :ref:`Variant <class_Variant>` userdata=null "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1054
+msgid ""
+"Sets the function used to calculate physics for an object, if that object"
+" allows it (see :ref:`body_set_omit_force_integration "
+"<class_Physics2DServer_method_body_set_omit_force_integration>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1060
+msgid ""
+"void **body_set_max_contacts_reported** **(** :ref:`RID <class_RID>` "
+"body, :ref:`int <class_int>` amount **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1062
+msgid ""
+"Sets the maximum contacts to report. Bodies can keep a log of the "
+"contacts with other bodies, this is enabled by setting the maximum amount"
+" of contacts reported to a number greater than 0."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1068
+msgid ""
+"void **body_set_mode** **(** :ref:`RID <class_RID>` body, :ref:`BodyMode "
+"<enum_Physics2DServer_BodyMode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1070
+msgid ""
+"Sets the body mode using one of the :ref:`BodyMode "
+"<enum_Physics2DServer_BodyMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1076
+msgid ""
+"void **body_set_omit_force_integration** **(** :ref:`RID <class_RID>` "
+"body, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1078
+msgid ""
+"Sets whether a body uses a callback function to calculate its own physics"
+" (see :ref:`body_set_force_integration_callback "
+"<class_Physics2DServer_method_body_set_force_integration_callback>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1084
+msgid ""
+"void **body_set_param** **(** :ref:`RID <class_RID>` body, "
+":ref:`BodyParameter <enum_Physics2DServer_BodyParameter>` param, "
+":ref:`float <class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1086
+msgid ""
+"Sets a body parameter. See :ref:`BodyParameter "
+"<enum_Physics2DServer_BodyParameter>` for a list of available parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1092
+msgid ""
+"void **body_set_shape** **(** :ref:`RID <class_RID>` body, :ref:`int "
+"<class_int>` shape_idx, :ref:`RID <class_RID>` shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1094
+msgid ""
+"Substitutes a given body shape by another. The old shape is selected by "
+"its index, the new one by its :ref:`RID <class_RID>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1100
+msgid ""
+"void **body_set_shape_as_one_way_collision** **(** :ref:`RID <class_RID>`"
+" body, :ref:`int <class_int>` shape_idx, :ref:`bool <class_bool>` enable,"
+" :ref:`float <class_float>` margin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1102
+msgid "Enables one way collision on body if ``enable`` is ``true``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1108
+msgid ""
+"void **body_set_shape_disabled** **(** :ref:`RID <class_RID>` body, "
+":ref:`int <class_int>` shape_idx, :ref:`bool <class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1110
+msgid "Disables shape in body if ``disable`` is ``true``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1116
+msgid ""
+"void **body_set_shape_metadata** **(** :ref:`RID <class_RID>` body, "
+":ref:`int <class_int>` shape_idx, :ref:`Variant <class_Variant>` metadata"
+" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1118
+msgid ""
+"Sets metadata of a shape within a body. This metadata is different from "
+":ref:`Object.set_meta <class_Object_method_set_meta>`, and can be "
+"retrieved on shape queries."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1124
+msgid ""
+"void **body_set_shape_transform** **(** :ref:`RID <class_RID>` body, "
+":ref:`int <class_int>` shape_idx, :ref:`Transform2D <class_Transform2D>` "
+"transform **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1126
+msgid "Sets the transform matrix for a body shape."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1132
+msgid ""
+"void **body_set_space** **(** :ref:`RID <class_RID>` body, :ref:`RID "
+"<class_RID>` space **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1134
+msgid ""
+"Assigns a space to the body (see :ref:`space_create "
+"<class_Physics2DServer_method_space_create>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1140
+msgid ""
+"void **body_set_state** **(** :ref:`RID <class_RID>` body, "
+":ref:`BodyState <enum_Physics2DServer_BodyState>` state, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1142
+msgid ""
+"Sets a body state using one of the :ref:`BodyState "
+"<enum_Physics2DServer_BodyState>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1148
+msgid ""
+":ref:`bool <class_bool>` **body_test_motion** **(** :ref:`RID "
+"<class_RID>` body, :ref:`Transform2D <class_Transform2D>` from, "
+":ref:`Vector2 <class_Vector2>` motion, :ref:`bool <class_bool>` "
+"infinite_inertia, :ref:`float <class_float>` margin=0.08, "
+":ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>` "
+"result=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1150
+msgid ""
+"Returns ``true`` if a collision would result from moving in the given "
+"direction from a given point in space. Margin increases the size of the "
+"shapes involved in the collision detection. "
+":ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>` can be"
+" passed to return additional information in."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1156
+msgid ":ref:`RID <class_RID>` **capsule_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1162
+msgid ":ref:`RID <class_RID>` **circle_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1168
+msgid ":ref:`RID <class_RID>` **concave_polygon_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1174
+msgid ":ref:`RID <class_RID>` **convex_polygon_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1180
+msgid ""
+":ref:`RID <class_RID>` **damped_spring_joint_create** **(** :ref:`Vector2"
+" <class_Vector2>` anchor_a, :ref:`Vector2 <class_Vector2>` anchor_b, "
+":ref:`RID <class_RID>` body_a, :ref:`RID <class_RID>` body_b **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1182
+msgid ""
+"Creates a damped spring joint between two bodies. If not specified, the "
+"second body is assumed to be the joint itself."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1188
+msgid ""
+":ref:`float <class_float>` **damped_string_joint_get_param** **(** "
+":ref:`RID <class_RID>` joint, :ref:`DampedStringParam "
+"<enum_Physics2DServer_DampedStringParam>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1190
+msgid "Returns the value of a damped spring joint parameter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1196
+msgid ""
+"void **damped_string_joint_set_param** **(** :ref:`RID <class_RID>` "
+"joint, :ref:`DampedStringParam <enum_Physics2DServer_DampedStringParam>` "
+"param, :ref:`float <class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1198
+msgid ""
+"Sets a damped spring joint parameter. See :ref:`DampedStringParam "
+"<enum_Physics2DServer_DampedStringParam>` for a list of available "
+"parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1204
+msgid "void **free_rid** **(** :ref:`RID <class_RID>` rid **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1206
+msgid ""
+"Destroys any of the objects created by Physics2DServer. If the :ref:`RID "
+"<class_RID>` passed is not one of the objects that can be created by "
+"Physics2DServer, an error will be sent to the console."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1212
+msgid ""
+":ref:`int <class_int>` **get_process_info** **(** :ref:`ProcessInfo "
+"<enum_Physics2DServer_ProcessInfo>` process_info **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1214
+msgid ""
+"Returns information about the current state of the 2D physics engine. See"
+" :ref:`ProcessInfo <enum_Physics2DServer_ProcessInfo>` for a list of "
+"available states."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1220
+msgid ""
+":ref:`RID <class_RID>` **groove_joint_create** **(** :ref:`Vector2 "
+"<class_Vector2>` groove1_a, :ref:`Vector2 <class_Vector2>` groove2_a, "
+":ref:`Vector2 <class_Vector2>` anchor_b, :ref:`RID <class_RID>` body_a, "
+":ref:`RID <class_RID>` body_b **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1222
+msgid ""
+"Creates a groove joint between two bodies. If not specified, the bodies "
+"are assumed to be the joint itself."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1228
+msgid ""
+":ref:`float <class_float>` **joint_get_param** **(** :ref:`RID "
+"<class_RID>` joint, :ref:`JointParam <enum_Physics2DServer_JointParam>` "
+"param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1230
+msgid "Returns the value of a joint parameter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1236
+msgid ""
+":ref:`JointType <enum_Physics2DServer_JointType>` **joint_get_type** "
+"**(** :ref:`RID <class_RID>` joint **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1238
+msgid ""
+"Returns a joint's type (see :ref:`JointType "
+"<enum_Physics2DServer_JointType>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1244
+msgid ""
+"void **joint_set_param** **(** :ref:`RID <class_RID>` joint, "
+":ref:`JointParam <enum_Physics2DServer_JointParam>` param, :ref:`float "
+"<class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1246
+msgid ""
+"Sets a joint parameter. See :ref:`JointParam "
+"<enum_Physics2DServer_JointParam>` for a list of available parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1252
+msgid ":ref:`RID <class_RID>` **line_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1258
+msgid ""
+":ref:`RID <class_RID>` **pin_joint_create** **(** :ref:`Vector2 "
+"<class_Vector2>` anchor, :ref:`RID <class_RID>` body_a, :ref:`RID "
+"<class_RID>` body_b **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1260
+msgid ""
+"Creates a pin joint between two bodies. If not specified, the second body"
+" is assumed to be the joint itself."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1266
+msgid ":ref:`RID <class_RID>` **ray_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1272
+msgid ":ref:`RID <class_RID>` **rectangle_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1278
+msgid ":ref:`RID <class_RID>` **segment_shape_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1284
+msgid "void **set_active** **(** :ref:`bool <class_bool>` active **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1286
+msgid "Activates or deactivates the 2D physics engine."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1292
+msgid ""
+":ref:`Variant <class_Variant>` **shape_get_data** **(** :ref:`RID "
+"<class_RID>` shape **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1294
+msgid "Returns the shape data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1300
+msgid ""
+":ref:`ShapeType <enum_Physics2DServer_ShapeType>` **shape_get_type** "
+"**(** :ref:`RID <class_RID>` shape **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1302
+msgid ""
+"Returns a shape's type (see :ref:`ShapeType "
+"<enum_Physics2DServer_ShapeType>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1308
+msgid ""
+"void **shape_set_data** **(** :ref:`RID <class_RID>` shape, :ref:`Variant"
+" <class_Variant>` data **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1310
+msgid ""
+"Sets the shape data that defines its shape and size. The data to be "
+"passed depends on the kind of shape created :ref:`shape_get_type "
+"<class_Physics2DServer_method_shape_get_type>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1316
+msgid ":ref:`RID <class_RID>` **space_create** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1318
+msgid ""
+"Creates a space. A space is a collection of parameters for the physics "
+"engine that can be assigned to an area or a body. It can be assigned to "
+"an area with :ref:`area_set_space "
+"<class_Physics2DServer_method_area_set_space>`, or to a body with "
+":ref:`body_set_space <class_Physics2DServer_method_body_set_space>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1324
+msgid ""
+":ref:`Physics2DDirectSpaceState <class_Physics2DDirectSpaceState>` "
+"**space_get_direct_state** **(** :ref:`RID <class_RID>` space **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1326
+msgid ""
+"Returns the state of a space, a :ref:`Physics2DDirectSpaceState "
+"<class_Physics2DDirectSpaceState>`. This object can be used to make "
+"collision/intersection queries."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1332
+msgid ""
+":ref:`float <class_float>` **space_get_param** **(** :ref:`RID "
+"<class_RID>` space, :ref:`SpaceParameter "
+"<enum_Physics2DServer_SpaceParameter>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1334
+msgid "Returns the value of a space parameter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1340
+msgid ""
+":ref:`bool <class_bool>` **space_is_active** **(** :ref:`RID <class_RID>`"
+" space **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1342
+msgid "Returns whether the space is active."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1348
+msgid ""
+"void **space_set_active** **(** :ref:`RID <class_RID>` space, :ref:`bool "
+"<class_bool>` active **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1350
+msgid ""
+"Marks a space as active. It will not have an effect, unless it is "
+"assigned to an area or body."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1356
+msgid ""
+"void **space_set_param** **(** :ref:`RID <class_RID>` space, "
+":ref:`SpaceParameter <enum_Physics2DServer_SpaceParameter>` param, "
+":ref:`float <class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_physics2dserver.rst:1358
+msgid ""
+"Sets the value for a space parameter. See :ref:`SpaceParameter "
+"<enum_Physics2DServer_SpaceParameter>` for a list of available "
+"parameters."
+msgstr ""
+
+#~ msgid ""
+#~ "**AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **4** ---"
+#~ " This constant was used to set/get"
+#~ " the falloff factor for point "
+#~ "gravity. It has been superseded by "
+#~ "AREA_PARAM_GRAVITY_DISTANCE_SCALE."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "1: AREA_BODY_ADDED or AREA_BODY_REMOVED, "
+#~ "depending on whether the object entered"
+#~ " or exited the area."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`area_set_area_monitor_callback "
+#~ "<class_Physics2DServer_method_area_set_area_monitor_callback>` "
+#~ "**(** :ref:`RID <class_RID>` area, "
+#~ ":ref:`Object <class_Object>` receiver, :ref:`String"
+#~ " <class_String>` method **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`area_set_monitor_callback "
+#~ "<class_Physics2DServer_method_area_set_monitor_callback>` **(**"
+#~ " :ref:`RID <class_RID>` area, :ref:`Object "
+#~ "<class_Object>` receiver, :ref:`String "
+#~ "<class_String>` method **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`body_set_force_integration_callback "
+#~ "<class_Physics2DServer_method_body_set_force_integration_callback>`"
+#~ " **(** :ref:`RID <class_RID>` body, "
+#~ ":ref:`Object <class_Object>` receiver, :ref:`String"
+#~ " <class_String>` method, :ref:`Variant "
+#~ "<class_Variant>` userdata=null **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **area_set_area_monitor_callback** **(** "
+#~ ":ref:`RID <class_RID>` area, :ref:`Object "
+#~ "<class_Object>` receiver, :ref:`String "
+#~ "<class_String>` method **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **area_set_monitor_callback** **(** :ref:`RID"
+#~ " <class_RID>` area, :ref:`Object <class_Object>`"
+#~ " receiver, :ref:`String <class_String>` method"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **body_set_force_integration_callback** **(** "
+#~ ":ref:`RID <class_RID>` body, :ref:`Object "
+#~ "<class_Object>` receiver, :ref:`String "
+#~ "<class_String>` method, :ref:`Variant "
+#~ "<class_Variant>` userdata=null **)**"
+#~ msgstr ""
+

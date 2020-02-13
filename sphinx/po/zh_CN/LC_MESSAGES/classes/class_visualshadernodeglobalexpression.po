@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_visualshadernodeglobalexpression.rst:10
+msgid "VisualShaderNodeGlobalExpression"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeglobalexpression.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNodeExpression "
+"<class_VisualShaderNodeExpression>` **<** :ref:`VisualShaderNodeGroupBase"
+" <class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNode "
+"<class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeglobalexpression.rst:14
+msgid ""
+"A custom global visual shader graph expression written in Godot Shading "
+"Language."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeglobalexpression.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeglobalexpression.rst:19
+msgid ""
+"Custom Godot Shader Language expression, which is placed on top of the "
+"generated shader. You can place various function definitions inside to "
+"call later in :ref:`VisualShaderNodeExpression "
+"<class_VisualShaderNodeExpression>`\\ s (which are injected in the main "
+"shader functions). You can also declare varyings, uniforms and global "
+"constants."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "**O:** false"
+#~ msgstr ""
+
+#~ msgid "Properties"
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>`"
+#~ msgstr ""
+
+#~ msgid "editable"
+#~ msgstr ""
+
+#~ msgid "**O:** ``false``"
+#~ msgstr ""
+

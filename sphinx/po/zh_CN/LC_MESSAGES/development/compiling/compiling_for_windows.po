@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-13 11:37+0800\n"
+"PO-Revision-Date: 2020-02-13 20:00+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:4
 msgid "Compiling for Windows"
@@ -23,14 +27,13 @@ msgstr "为Windows平台编译"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:9
 msgid "Requirements"
-msgstr "需求"
+msgstr "要求"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:11
 msgid "For compiling under Windows, the following is required:"
 msgstr "要在Windows下进行编译，需要以下内容："
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:13
-#, fuzzy
 msgid ""
 "`Visual Studio Community <https://www.visualstudio.com/vs/community/>`_, "
 "version 2015 (14.0) or later. VS 2019 is recommended. **Make sure to read "
@@ -38,15 +41,16 @@ msgid ""
 "the installer again.**"
 msgstr ""
 "`Visual Studio社区版 <https://www.visualstudio.com/vs/community/>`_，版本"
-"2015 （14.0） 或更高版本。**请务必阅读下面的“安装Visual Studio注意事项”，否则"
-"您将不得不再次运行/下载安装程序。**"
+"2015 （14.0） 或更高版本。建议使用VS 2019。**请务必阅读下面的“安装Visual "
+"Studio注意事项”，否则您将不得不再次运行/下载安装程序。**"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:17
-#, fuzzy
 msgid ""
 "MinGW-w64 with GCC can be used as an alternative to Visual Studio. Be sure "
 "to install/configure it to use the ``posix`` thread model."
-msgstr "MinGW-w64可以替代Visual Studio。"
+msgstr ""
+"带有GCC的MinGW-w64可以用作Visual Studio的替代产品。确保安装/配置它以使用 "
+"``posix`` 线程模型。"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:19
 msgid ""
@@ -61,6 +65,8 @@ msgid ""
 "`SCons <https://www.scons.org>`_ build system. If using Visual Studio 2019, "
 "you *must* have SCons 3.1.1 or later."
 msgstr ""
+"`SCons <https://www.scons.org>`_ 构建系统。如果使用 Visual Studio 2019，您 *"
+"必须* 具有SCons 3.1.1或更高版本。"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:22
 msgid ""
@@ -77,13 +83,12 @@ msgstr ""
 "其他依赖项："
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:29
-#, fuzzy
 msgid ""
 "If you have `MSYS2 <https://www.msys2.org/>`_ installed, you can easily "
 "install MinGW and other dependencies using the following command::"
 msgstr ""
-"如果您已安装 `Scoop <https://scoop.sh/>`_，则可以使用以下命令轻松安装MinGW和"
-"其他依赖项："
+"如果您已安装 `MSYS2 <https://www.msys2.org/>`_，则可以使用以下命令轻松安装"
+"MinGW和其他依赖项："
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:40
 msgid ""
@@ -247,7 +252,6 @@ msgstr ""
 "``godot.windows.tools.32.exe`` 或 ``godot.windows.tools.64.exe``。"
 
 #: ../../docs/development/compiling/compiling_for_windows.rst:123
-#, fuzzy
 msgid ""
 "By default, SCons will build a binary matching your CPU architecture, but "
 "this can be overridden using ``bits=64`` or ``bits=32``."
@@ -448,3 +452,19 @@ msgid ""
 msgstr ""
 "在这种情况下，您不需要复制它们，只需引用在Godot源文件夹的 ``bin\\`` 目录中生"
 "成的文件，因此下次构建时，将自动引用自定义模板。"
+
+#~ msgid ""
+#~ "Using certain MinGW distributions (e.g. from Homebrew) may result in a "
+#~ "build error about ``sprintf_s`` or ``wcscpy_s`` when compiling Godot. If "
+#~ "this is the case, try passing ``CXXFLAGS=\"-DMINGW_HAS_SECURE_API\"`` at "
+#~ "the end of the SCons command line."
+#~ msgstr ""
+#~ "使用某些MinGW发行版（例如来自Homebrew的发行版）可能会在编译Godot时导致有"
+#~ "关 ``sprintf_s`` 或 ``wcscpy_s`` 的构建错误。如果是这种情况，请尝试在SCons"
+#~ "命令行的末尾传入 ``CXXFLAGS=\"-DMINGW_HAS_SECURE_API\"``。"
+
+#~ msgid "`SCons <https://www.scons.org>`_ build system."
+#~ msgstr "`SCons <https://www.scons.org>`__ 构建系统。"
+
+#~ msgid "MinGW-w64 can be used as an alternative to Visual Studio."
+#~ msgstr "MinGW-w64可以替代Visual Studio。"

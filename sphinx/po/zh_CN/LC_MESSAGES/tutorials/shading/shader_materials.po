@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-01 12:46+0800\n"
+"PO-Revision-Date: 2019-12-01 14:09+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:4
 msgid "Shader materials"
@@ -26,7 +30,6 @@ msgid "Introduction"
 msgstr "简介"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:9
-#, fuzzy
 msgid ""
 "For the most common cases, Godot provides ready to use materials for most "
 "types of shaders, such as :ref:`SpatialMaterial <class_SpatialMaterial>`, :"
@@ -34,30 +37,28 @@ msgid ""
 "`ParticlesMaterial <class_ParticlesMaterial>`. They are flexible "
 "implementations that cover most use cases."
 msgstr ""
-"对于最常见的情况，Godot为大多数类型的着色器提供了随时可用的材质，例如"
-"SpatialMaterial，CanvasItemMaterial和ParticlesMaterial(@TODO链接到教程/类)。 "
-"它们是灵活的实现，涵盖了大多数用例。"
+"对于最常见的情况，Godot为大多数类型的着色器提供了现成的材质，例如 :ref:"
+"`SpatialMaterial <class_SpatialMaterial>`、:ref:`CanvasItemMaterial "
+"<class_CanvasItemMaterial>` 和 :ref:`ParticlesMaterial "
+"<class_ParticlesMaterial>`。它们是涵盖大多数用例的灵活实现。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:14
 msgid ""
 "Shader materials allow writing a custom shader directly, for maximum "
 "flexibility. Examples of this are:"
-msgstr ""
-"着色器材质允许直接编写自定义着色器，以获得最大的灵活性。 这方面的示例是:"
+msgstr "着色器材质允许直接编写自定义着色器，以实现最大的灵活性。例如："
 
 #: ../../docs/tutorials/shading/shader_materials.rst:17
 msgid "Create procedural textures."
 msgstr "创建程序纹理。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:18
-#, fuzzy
 msgid "Create complex texture blending effects."
-msgstr "创建复杂的纹理混合。"
+msgstr "创建复杂的纹理混合效果。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:19
-#, fuzzy
 msgid "Create animated materials, or materials that change over time."
-msgstr "创建随时间变化的动画材质或材质。"
+msgstr "创建动画化的材质，或随时间变化的材质。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:20
 msgid "Create refractive effects or other advanced effects."
@@ -65,44 +66,42 @@ msgstr "创建折射效果或其他高级效果。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:21
 msgid "Create special lighting shaders for more exotic materials."
-msgstr "为更具异国情调的材质创建特殊照明着色器。"
+msgstr "为更多奇特的材质，创建特殊照明着色器。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:22
 msgid "Animate vertices, like tree leaves or grass."
-msgstr "动画顶点，如树叶或草。"
+msgstr "动画化顶点，如树叶或草。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:23
-#, fuzzy
 msgid "Create custom particle code."
-msgstr "自定义粒子数据。"
+msgstr "创建自定义粒子代码。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:24
 msgid "And much more!"
 msgstr "以及更多！"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:26
-#, fuzzy
 msgid ""
 "Godot provides built in functionality to make frequent operations easier. "
 "Additionally, Godot's shader editor will detect errors as you type, so you "
 "can see your edited shaders in real-time. It is also possible to edit "
 "shaders using a visual, node-based graph editor."
 msgstr ""
-"传统上，大多数引擎会要求您学习GLSL，HLSL或CG，这对于大多数艺术家来说都是相当"
-"复杂的。 Godot使用着色器语言的简化版本，可以在您键入时检测错误，因此您可以实"
-"时查看已编辑的着色器。 此外，可以使用基于节点的可视化图形编辑器编辑着色器。"
+"Godot提供内置功能，使频繁操作变得更容易。此外，Godot的着色器编辑器将在您键入"
+"时检测到错误，因此您可以实时查看已编辑的着色器。也可以使用基于节点的可视图形"
+"编辑器来编辑着色器。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:32
 msgid "Creating a ShaderMaterial"
-msgstr "创建ShaderMaterial"
+msgstr "创建一个 ``ShaderMaterial``"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:34
 msgid ""
 "Create a new ShaderMaterial in some object of your choice. Go to the "
 "\"Material\" property and create a ShaderMaterial."
 msgstr ""
-"在您选择的某个对象中创建一个新的ShaderMaterial。 转到``材质``属性并创建"
-"ShaderMaterial。"
+"在您选择的某个对象中创建一个新的 ``ShaderMaterial``。转到 ``材质`` 属性并创建"
+"一个 ``ShaderMaterial``。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:39
 msgid ""
@@ -110,29 +109,31 @@ msgid ""
 "create a shader or visual shader. Regular shaders use code to set their "
 "properties while a visual shader uses a node based workflow."
 msgstr ""
+"接下来，点击着色器材质以查看其属性。在这里，您可以创建着色器或可视着色器。常"
+"规着色器使用代码设置其属性，而可视着色器使用基于节点的工作流。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:43
 msgid ""
 "If you need to you can convert a visual shader to a text shader. However you "
 "can't convert a text shader to a visual shader."
 msgstr ""
+"如果需要，可以将可视着色器转换为文本着色器。但是，您不能将文本着色器转换为可"
+"视着色器。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:46
 msgid "Choose one of them and you can start editing your shader."
-msgstr ""
+msgstr "选择其中之一，即可开始编辑着色器。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:50
-#, fuzzy
 msgid ""
 "If you create a regular shader click on it and the shader editor will open."
-msgstr "编辑新创建的着色器，着色器编辑器将打开:"
+msgstr "如果创建常规着色器，请点击它，然后着色器编辑器将打开。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:54
-#, fuzzy
 msgid ""
 "If you create a visual shader the visual shader editor will open "
 "automatically."
-msgstr "编辑新创建的着色器，着色器编辑器将打开:"
+msgstr "如果创建可视着色器，则可视着色器编辑器将自动打开。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:58
 msgid ""
@@ -141,27 +142,31 @@ msgid ""
 "replicate a text shader as nodes, or it can be used as a preview for "
 "converting your visual shader to a text shader."
 msgstr ""
+"在可视着色器编辑器中，您可以点击一个按钮，然后查看您的可视着色器作为着色器代"
+"码的外观。如果您尝试将文本着色器复制为节点，则此功能很有用，或者可以用作将可"
+"视着色器转换为文本着色器的预览。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:67
 msgid "To learn more about visual shaders, read :ref:`doc_visual_shaders`."
-msgstr ""
+msgstr "要了解有关可视着色器的更多信息，请阅读 :ref:`doc_visual_shaders`。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:70
 msgid "Converting to ShaderMaterial"
-msgstr "转换为ShaderMaterial"
+msgstr "转换为 ``ShaderMaterial``"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:72
-#, fuzzy
 msgid ""
 "It is possible to convert from SpatialMaterial, CanvasItemMaterial and "
 "ParticlesMaterial to ShaderMaterial. To do so, go to the material properties "
 "and select the convert option."
 msgstr ""
-"可以将SpatialMaterial，CanvasItemMaterial和ParticlesMaterial转换为"
-"ShaderMaterial。 要执行此操作，请转到材质属性并启用转换选项。"
+"可以将 ``SpatialMaterial``，``CanvasItemMaterial`` 和 ``ParticlesMaterial`` "
+"转换为 ``ShaderMaterial``。要执行此操作，请转到材质属性并启用转换选项。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:80
 msgid ""
 "Using the convert option will turn the SpatialMaterial into a ShaderMaterial "
 "with a text shader, not a visual shader."
 msgstr ""
+"使用 ``convert`` 选项会使 ``SpatialMaterial`` 转换为一个带有一个文本着色器，"
+"而不是一个可视着色器的 ``ShaderMaterial``。"

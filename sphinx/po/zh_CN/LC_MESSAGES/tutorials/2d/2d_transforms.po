@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-10-28 11:56+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:4
 msgid "Viewport and canvas transforms"
-msgstr "Viewport(视口)和画布变换"
+msgstr "视图和画布变换"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:7
 msgid "Introduction"
@@ -31,8 +31,8 @@ msgid ""
 "they draw their content locally to the time they are drawn onto the screen. "
 "This overview discusses very low level details of the engine."
 msgstr ""
-"本小节概述了节点从绘制本地内容开始到显示到屏幕上结束的过程中的2D变换。 本概述"
-"讨论了一些比较低级的的引擎的细节。"
+"这是一篇概述，是关于节点，从当前它们本地绘制其内容时，到它们被绘制到屏幕上"
+"时，所进行的2D变换。此概述讨论了非常底层的引擎细节。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:14
 msgid "Canvas transform"
@@ -46,10 +46,10 @@ msgid ""
 "has a transform (translation, rotation, scale, etc.) that can be accessed as "
 "a :ref:`Transform2D <class_Transform2D>`."
 msgstr ""
-"正如前面教程 :ref:`doc_canvas_layers` 中提到的那样 ，每个CanvasItem节点(要记"
-"得Node2D和基于Control的节点使用CanvasItem作为它们的公共根)将驻留在 "
-"*CanvasLayer* 中。 每个CanvasLayer都有一个变换(平移，旋转，缩放等)，可以作"
-"为 :ref:`Transform2D <class_Transform2D>` 进行访问。"
+"正如前面教程——:ref:`doc_canvas_layers`——中提到的那样，每个 ``CanvasItem`` 节"
+"点（请记住，基于 ``Node2D`` 和 ``Control`` 的节点，都使用 ``CanvasItem`` 作为"
+"其公共根）将处于 ``Canvas Layer`` 中。每个画布层都有一个变换（平移、旋转、缩"
+"放等），可以作为一个 :ref:`Transform2D <class_Transform2D>` 来访问。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:22
 msgid ""
@@ -57,8 +57,8 @@ msgid ""
 "0, in the built-in canvas. To put nodes in a different layer, a :ref:"
 "`CanvasLayer <class_CanvasLayer>` node can be used."
 msgstr ""
-"在上一个教程中也有介绍，默认情况下，节点默认被绘制在第0层中。 要将节点放在不"
-"同的层中，可以使用 :ref:`CanvasLayer <class_CanvasLayer>` 节点。"
+"在上一个教程中也有介绍，默认情况下，节点被绘制在内置画布的图层0中。要将节点放"
+"在不同的层中，可以使用一个 :ref:`CanvasLayer <class_CanvasLayer>` 节点。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:27
 msgid "Global canvas transform"
@@ -71,9 +71,9 @@ msgid ""
 "individual *Canvas Layer* transforms. Generally, this transform is not of "
 "much use, but is used in the CanvasItem Editor in Godot's editor."
 msgstr ""
-"Viewport还具有全局画布变换(也是 :ref:`Transform2D <class_Transform2D>` )。 这"
-"是一个影响所有单独的 *画布层* 的主变换。 通常这种变换用得不多。它被用在了"
-"Godot的编辑器中的画布项编辑器中。"
+"视图还具有一个全局画布变换（也是一个 :ref:`Transform2D "
+"<class_Transform2D>`）。这是主变换，并且会影响所有单独的 *画布层* 变换。通"
+"常，此变换用处不大，但可以在Godot编辑器的画布项编辑器中使用。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:36
 msgid "Stretch transform"
@@ -86,8 +86,9 @@ msgid ""
 "in :ref:`doc_multiple_resolutions`), but can also be manually set on each "
 "viewport."
 msgstr ""
-"最后，Viewport有 *拉伸变换* ，用于调整大小或拉伸屏幕。 此变换在内部使用(见 :"
-"ref:`doc_multiple_resolutions` )，但也可以在每个Viewport上手动设置。"
+"最后，视图具有一个 *拉伸变换*，当调整屏幕大小或拉伸屏幕时使用。该变换在内部使"
+"用（如 :ref:`doc_multiple_resolutions` 中所述），但也可以在每个视图上手动设"
+"置。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:43
 msgid ""
@@ -98,10 +99,11 @@ msgid ""
 "<class_CanvasItem_method_make_input_local>` function was added for "
 "convenience."
 msgstr ""
-"在 :ref:`MainLoop._input_event() <class_MainLoop_method__input_event>` 回调中"
-"接收的输入事件上应用了拉伸变换，但没有应用上面那些变换。 为了方便将InputEvent"
-"坐标转换为本地画布项坐标，引擎添加了 :ref:`CanvasItem.make_input_local() "
-"<class_CanvasItem_method_make_input_local>` 函数。"
+"在 :ref:`MainLoop._input_event() <class_MainLoop_method__input_event>` 回调"
+"中，接收到的输入事件，与此变换相乘，可得以上变换，但仍有所欠缺。需将 "
+"``InputEvent`` 坐标转换为局部 ``CanvasItem`` 坐标，添加了 :ref:`CanvasItem."
+"make_input_local() <class_CanvasItem_method_make_input_local>` 函数，以求方便"
+"转换。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:50
 msgid "Transform order"
@@ -112,7 +114,8 @@ msgid ""
 "For a coordinate in CanvasItem local properties to become an actual screen "
 "coordinate, the following chain of transforms must be applied:"
 msgstr ""
-"要使CanvasItem的本地属性中的坐标成为实际屏幕坐标，必须应用以下一系列变换:"
+"为了使 ``CanvasItem`` 局部属性中的坐标，变为实际的屏幕坐标，必须应用以下转换"
+"链："
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:58
 msgid "Transform functions"
@@ -120,7 +123,7 @@ msgstr "变换函数"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:60
 msgid "Obtaining each transform can be achieved with the following functions:"
-msgstr "通过以下函数可以获取各个转换:"
+msgstr "可以使用以下函数，来获得每个变换："
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:63
 msgid "Type"
@@ -132,7 +135,7 @@ msgstr "变换"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:65
 msgid "CanvasItem"
-msgstr "CanvasItem(画布项)"
+msgstr "CanvasItem"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:65
 msgid ""
@@ -144,7 +147,7 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:67
 msgid "CanvasLayer"
-msgstr "CanvasLayer(画布层)"
+msgstr "CanvasLayer"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:67
 msgid ""
@@ -156,7 +159,7 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:69
 msgid "CanvasLayer+GlobalCanvas+Stretch"
-msgstr "CanvasLayer(画布层)+GlobalCanvas(全局画布)+Stretch(拉伸)"
+msgstr "CanvasLayer+GlobalCanvas+Stretch"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:69
 msgid ""
@@ -170,7 +173,8 @@ msgstr ""
 msgid ""
 "Finally, then, to convert a CanvasItem local coordinates to screen "
 "coordinates, just multiply in the following order:"
-msgstr "那么最后，要将CanvasItem的本地坐标转换为屏幕坐标，只需按以下顺序相乘:"
+msgstr ""
+"最后，要将 ``CanvasItem`` 的局部坐标转换为屏幕坐标，只需按以下顺序相乘："
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:84
 msgid ""
@@ -179,8 +183,9 @@ msgid ""
 "coordinates (``CanvasItem.get_global_transform()``), to allow automatic "
 "screen resolution resizing to work properly."
 msgstr ""
-"但请记住，通常情况最好不要使用屏幕坐标。 推荐的方法是， 仅仅使用画布坐标"
-"( ``CanvasItem.get_global_transform()`` )，以保证自动分辨率调整能正常工作。"
+"但是请记住，通常不希望使用屏幕坐标来工作。推荐的方法是，简单使用 ``Canvas`` "
+"坐标（``CanvasItem.get_global_transform（）``）来工作，以允许自动屏幕分辨率，"
+"能够重新调整大小来正常工作。"
 
 #: ../../docs/tutorials/2d/2d_transforms.rst:90
 msgid "Feeding custom input events"
@@ -191,5 +196,5 @@ msgid ""
 "It is often desired to feed custom input events to the scene tree. With the "
 "above knowledge, to correctly do this, it must be done the following way:"
 msgstr ""
-"通常需要将自定义输入事件提供给场景树。 有了上述知识，要正确地做到这一点，必须"
-"通过以下方式完成:"
+"通常需要将自定义输入事件，提供给场景树。有了上述知识，要正确地做到这一点，必"
+"须通过以下方式完成："

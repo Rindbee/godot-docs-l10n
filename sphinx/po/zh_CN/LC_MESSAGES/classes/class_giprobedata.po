@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:10
+msgid "GIProbeData"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:17
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:36
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:20
+msgid ""
+":ref:`anisotropy_strength "
+"<class_GIProbeData_property_anisotropy_strength>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:96
+msgid "``0.5``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:22
+msgid ":ref:`ao <class_GIProbeData_property_ao>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:166
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:24
+msgid ":ref:`ao_size <class_GIProbeData_property_ao_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:26
+msgid ":ref:`bias <class_GIProbeData_property_bias>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:110
+msgid "``1.5``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:28
+msgid ":ref:`dynamic_range <class_GIProbeData_property_dynamic_range>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:124
+msgid "``4.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:30
+msgid ":ref:`energy <class_GIProbeData_property_energy>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:138
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:38
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:32
+msgid ":ref:`interior <class_GIProbeData_property_interior>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:194
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:34
+msgid ":ref:`normal_bias <class_GIProbeData_property_normal_bias>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:36
+msgid ":ref:`propagation <class_GIProbeData_property_propagation>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:180
+msgid "``0.7``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:38
+msgid ":ref:`use_two_bounces <class_GIProbeData_property_use_two_bounces>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:42
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:45
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:45
+msgid ""
+":ref:`allocate <class_GIProbeData_method_allocate>` **(** :ref:`Transform"
+" <class_Transform>` to_cell_xform, :ref:`AABB <class_AABB>` aabb, "
+":ref:`Vector3 <class_Vector3>` octree_size, :ref:`PackedByteArray "
+"<class_PackedByteArray>` octree_cells, :ref:`PackedByteArray "
+"<class_PackedByteArray>` data_cells, :ref:`PackedByteArray "
+"<class_PackedByteArray>` distance_field, :ref:`PackedInt32Array "
+"<class_PackedInt32Array>` level_counts **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:47
+msgid ":ref:`AABB <class_AABB>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:47
+msgid ":ref:`get_bounds <class_GIProbeData_method_get_bounds>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:53
+msgid ":ref:`PackedByteArray <class_PackedByteArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:49
+msgid ""
+":ref:`get_data_cells <class_GIProbeData_method_get_data_cells>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:51
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:51
+msgid ""
+":ref:`get_level_counts <class_GIProbeData_method_get_level_counts>` **(**"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:53
+msgid ""
+":ref:`get_octree_cells <class_GIProbeData_method_get_octree_cells>` **(**"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:55
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:55
+msgid ""
+":ref:`get_octree_size <class_GIProbeData_method_get_octree_size>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:57
+msgid ":ref:`Transform <class_Transform>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:57
+msgid ""
+":ref:`get_to_cell_xform <class_GIProbeData_method_get_to_cell_xform>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:61
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:65
+msgid ":ref:`float <class_float>` **anisotropy_strength**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:138
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:194
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:154
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:168
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:196
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:70
+msgid "set_anisotropy_strength(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:156
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:170
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:198
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:72
+msgid "get_anisotropy_strength()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:79
+msgid ":ref:`float <class_float>` **ao**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:84
+msgid "set_ao(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:86
+msgid "get_ao()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:93
+msgid ":ref:`float <class_float>` **ao_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:98
+msgid "set_ao_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:100
+msgid "get_ao_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:107
+msgid ":ref:`float <class_float>` **bias**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:112
+msgid "set_bias(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:114
+msgid "get_bias()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:121
+msgid ":ref:`float <class_float>` **dynamic_range**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:126
+msgid "set_dynamic_range(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:128
+msgid "get_dynamic_range()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:135
+msgid ":ref:`float <class_float>` **energy**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:140
+msgid "set_energy(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:142
+msgid "get_energy()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:149
+msgid ":ref:`bool <class_bool>` **interior**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:154
+msgid "set_interior(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:156
+msgid "is_interior()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:163
+msgid ":ref:`float <class_float>` **normal_bias**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:168
+msgid "set_normal_bias(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:170
+msgid "get_normal_bias()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:177
+msgid ":ref:`float <class_float>` **propagation**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:182
+msgid "set_propagation(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:184
+msgid "get_propagation()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:191
+msgid ":ref:`bool <class_bool>` **use_two_bounces**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:196
+msgid "set_use_two_bounces(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:198
+msgid "is_using_two_bounces()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:202
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:206
+msgid ""
+"void **allocate** **(** :ref:`Transform <class_Transform>` to_cell_xform,"
+" :ref:`AABB <class_AABB>` aabb, :ref:`Vector3 <class_Vector3>` "
+"octree_size, :ref:`PackedByteArray <class_PackedByteArray>` octree_cells,"
+" :ref:`PackedByteArray <class_PackedByteArray>` data_cells, "
+":ref:`PackedByteArray <class_PackedByteArray>` distance_field, "
+":ref:`PackedInt32Array <class_PackedInt32Array>` level_counts **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:212
+msgid ":ref:`AABB <class_AABB>` **get_bounds** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:218
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **get_data_cells** **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:224
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **get_level_counts** "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:230
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **get_octree_cells** **(**"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:236
+msgid ":ref:`Vector3 <class_Vector3>` **get_octree_size** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_giprobedata.rst:242
+msgid ":ref:`Transform <class_Transform>` **get_to_cell_xform** **(** **)** const"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0.4"
+#~ msgstr ""
+
+#~ msgid "AABB( 0, 0, 0, 1, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "PoolIntArray(  )"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "``0.4``"
+#~ msgstr ""
+
+#~ msgid ":ref:`bounds <class_GIProbeData_property_bounds>`"
+#~ msgstr ""
+
+#~ msgid "``AABB( 0, 0, 0, 1, 1, 1 )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`cell_size <class_GIProbeData_property_cell_size>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`compress <class_GIProbeData_property_compress>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`dynamic_data <class_GIProbeData_property_dynamic_data>`"
+#~ msgstr ""
+
+#~ msgid "``PoolIntArray(  )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>`"
+#~ msgstr ""
+
+#~ msgid "``1``"
+#~ msgstr ""
+
+#~ msgid ":ref:`to_cell_xform <class_GIProbeData_property_to_cell_xform>`"
+#~ msgstr ""
+
+#~ msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`AABB <class_AABB>` **bounds**"
+#~ msgstr ""
+
+#~ msgid "set_bounds(value)"
+#~ msgstr ""
+
+#~ msgid "get_bounds()"
+#~ msgstr ""
+
+#~ msgid ":ref:`float <class_float>` **cell_size**"
+#~ msgstr ""
+
+#~ msgid "set_cell_size(value)"
+#~ msgstr ""
+
+#~ msgid "get_cell_size()"
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>` **compress**"
+#~ msgstr ""
+
+#~ msgid "set_compress(value)"
+#~ msgstr ""
+
+#~ msgid "is_compressed()"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>` **dynamic_data**"
+#~ msgstr ""
+
+#~ msgid "set_dynamic_data(value)"
+#~ msgstr ""
+
+#~ msgid "get_dynamic_data()"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **dynamic_range**"
+#~ msgstr ""
+
+#~ msgid ":ref:`Transform <class_Transform>` **to_cell_xform**"
+#~ msgstr ""
+
+#~ msgid "set_to_cell_xform(value)"
+#~ msgstr ""
+
+#~ msgid "get_to_cell_xform()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`allocate <class_GIProbeData_method_allocate>` **(**"
+#~ " :ref:`Transform <class_Transform>` to_cell_xform, "
+#~ ":ref:`AABB <class_AABB>` aabb, :ref:`Vector3 "
+#~ "<class_Vector3>` octree_size, :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` octree_cells, :ref:`PoolByteArray"
+#~ " <class_PoolByteArray>` data_cells, :ref:`PoolByteArray"
+#~ " <class_PoolByteArray>` distance_field, "
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` level_counts "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolByteArray <class_PoolByteArray>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **allocate** **(** :ref:`Transform "
+#~ "<class_Transform>` to_cell_xform, :ref:`AABB "
+#~ "<class_AABB>` aabb, :ref:`Vector3 <class_Vector3>`"
+#~ " octree_size, :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` octree_cells, :ref:`PoolByteArray"
+#~ " <class_PoolByteArray>` data_cells, :ref:`PoolByteArray"
+#~ " <class_PoolByteArray>` distance_field, "
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` level_counts "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` "
+#~ "**get_data_cells** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` "
+#~ "**get_level_counts** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` "
+#~ "**get_octree_cells** **(** **)** const"
+#~ msgstr ""
+

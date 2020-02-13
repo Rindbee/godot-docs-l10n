@@ -1,26 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-13 11:37+0800\n"
+"PO-Revision-Date: 2020-02-15 16:47+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:4
-#, fuzzy
 msgid "VisualShaders"
-msgstr ":ref:`doc_visual_shader_plugins`"
+msgstr "可视着色器"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:6
 msgid ""
@@ -28,6 +31,8 @@ msgid ""
 "approach to coding, VisualShaders are the visual alternative for creating "
 "shaders."
 msgstr ""
+"就像VisualScript是偏好使用图形方法进行编码的用户的替代方法一样，VisualShaders"
+"是创建着色器的可视替代方法。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:10
 msgid ""
@@ -37,17 +42,19 @@ msgid ""
 "not expose all features of the shader script and using both in parallel "
 "might be necessary for specific effects."
 msgstr ""
+"由于着色器与可视的上存在固有的联系，因此与纯基于脚本的着色器相比，带有纹理、"
+"材质等预览的基于图的方法提供了许多额外的便利。 另一方面，VisualShaders不会公"
+"开着色器脚本的所有功能，因此对于特定效果可能必须同时使用两者。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:18
 msgid ""
 "If you are not familiar with shaders, start by reading :ref:"
 "`doc_what_are_shaders`."
-msgstr ""
+msgstr "如果您不熟悉着色器，请先阅读 :ref:`doc_what_are_shaders`。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:22
-#, fuzzy
 msgid "Creating a VisualShader"
-msgstr "导出TileSet"
+msgstr "创建一个VisualShader"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:24
 msgid ""
@@ -55,11 +62,13 @@ msgid ""
 "using VisualShaders, create a new ``ShaderMaterial`` in an object of your "
 "choice."
 msgstr ""
+"可以在任何 :ref:`class_ShaderMaterial` 中创建VisualShaders。要开始使用"
+"VisualShaders，请在您选择的对象中创建一个新的 ``ShaderMaterial``。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:29
 msgid ""
 "Then assign a :ref:`class_VisualShader` resource to the ``Shader`` property."
-msgstr ""
+msgstr "然后将 :ref:`class_VisualShader` 资源分配给 ``Shader`` 属性。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:33
 msgid ""
@@ -67,33 +76,38 @@ msgid ""
 "open automatically. The layout of the Visual Shader Editor comprises two "
 "parts: the upper toolbar and the graph itself."
 msgstr ""
+"单击新的 ``VisualShader`` 资源，Visual Shader编辑器将自动打开。Visual Shader"
+"编辑器的布局包括两部分：上部工具栏和图形本身。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:39
 msgid "From left to right in the toolbar:"
-msgstr ""
+msgstr "在工具栏中从左到右："
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:41
 msgid ""
 "The ``Add Node`` button displays a popup menu to let you add nodes to the "
 "shader graph."
-msgstr ""
+msgstr "``添加节点`` 按钮显示一个弹出菜单，可让您将节点添加到着色器图形。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:43
 msgid ""
 "The drop-down menu is the shader type: Vertex, Fragment and Light. Like for "
 "script shaders, it defines what built-in nodes will be available."
 msgstr ""
+"下拉菜单是着色器类型：“顶点”，“片段”和“光”。与脚本着色器一样，它定义了哪些内"
+"置节点将可用。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:45
 msgid ""
 "The following buttons and number input control the zooming level, grid "
 "snapping and distance between grid lines (in pixels)."
 msgstr ""
+"以下按钮和数字输入控制缩放级别，网格捕捉和网格线之间的距离（以像素为单位）。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:47
 msgid ""
 "The last icon shows the generated shader code corresponding to your graph."
-msgstr ""
+msgstr "最后一个图标显示与您的图形对应的生成的着色器代码。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:51
 msgid ""
@@ -101,6 +115,8 @@ msgid ""
 "script shaders. It is advised to learn the basics of both to have a good "
 "understanding of the shading pipeline."
 msgstr ""
+"尽管VisualShader不需要编码，但它们与脚本着色器共享相同的逻辑。建议您学习两者"
+"的基础知识，以更好地了解着色管道。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:55
 msgid ""
@@ -109,11 +125,12 @@ msgid ""
 "can be convenient to understand what a given node does and how to reproduce "
 "it in scripts."
 msgstr ""
+"可视着色器图形将转换为幕后的脚本着色器，您可以通过按工具栏中的最后一个按钮来"
+"查看此代码。这可以方便地了解给定节点的功能以及如何在脚本中重现该节点。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:61
-#, fuzzy
 msgid "Using the Visual Shader Editor"
-msgstr "使用外部的文本编辑器"
+msgstr "使用Visual Shader编辑器"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:63
 msgid ""
@@ -123,11 +140,13 @@ msgid ""
 "button on the upper left corner or right click on any empty location in the "
 "graph, and a menu will pop up."
 msgstr ""
+"默认情况下，每个新的 ``VisualShader`` 都将有一个输出节点。每个节点连接在输出"
+"节点的套接字之一处结束。节点是创建着色器的基本单位。要添加新节点，请单击左上"
+"角的 ``添加节点`` 按钮或右键单击图形中的任何空白位置，然后会弹出一个菜单。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:71
-#, fuzzy
 msgid "This popup has the following properties:"
-msgstr "使用以下参数之一:"
+msgstr "此弹出窗口具有以下属性："
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:73
 msgid ""
@@ -135,6 +154,8 @@ msgid ""
 "position and the created node, in that case, will also be placed under that "
 "position; otherwise, it will be created at the graph's center."
 msgstr ""
+"如果右键单击图形，将在光标位置调用此菜单，并且在这种情况下，创建的节点也将放"
+"置在该位置下；否则，它将在图形的中心创建。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:76
 msgid ""
@@ -143,16 +164,19 @@ msgid ""
 "so if you suddenly closed the popup you can easily restore its previous "
 "state."
 msgstr ""
+"可以水平和垂直调整其大小，以显示更多内容。大小转换和树内容位置在调用之间保"
+"存，因此，如果您突然关闭弹出窗口，则可以轻松地恢复其先前状态。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:79
 msgid ""
 "The ``Expand All`` and ``Collapse All`` options in the drop-down option menu "
 "can be used to easily list the available nodes."
 msgstr ""
+"下拉选项菜单中的 ``全部展开`` 和 ``全部折叠`` 选项可用于轻松列出可用节点。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:81
 msgid "You can also drag and drop nodes from the popup onto the graph."
-msgstr ""
+msgstr "您还可以将节点从弹出窗口拖放到图形上。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:83
 msgid ""
@@ -160,34 +184,37 @@ msgid ""
 "first. Try to add some of the nodes, plug them in the output socket and "
 "observe what happens."
 msgstr ""
+"尽管弹出窗口中的节点按类别进行了排序，但乍一看似乎不胜枚举。尝试添加一些节"
+"点，将其插入输出插座，然后观察会发生什么。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:87
 msgid ""
 "When connecting any ``scalar`` output to a ``vector`` input, all components "
 "of the vector will take the value of the scalar."
 msgstr ""
+"将任何 ``标量`` 输出连接到 ``向量`` 输入时，向量的所有分量都将采用标量的值。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:90
 msgid ""
 "When connecting any ``vector`` output to a ``scalar`` input, the value of "
 "the scalar will be the average of the vector's components."
 msgstr ""
+"当将任何 ``向量`` 输出连接到 ``标量`` 输入时，标量的值将是向量分量的平均值。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:94
-#, fuzzy
 msgid "Visual Shader nodes"
-msgstr ":ref:`doc_visual_shader_plugins`"
+msgstr "视觉着色器节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:96
 msgid ""
 "Below are some special nodes that are worth knowing about. The list is not "
 "exhaustive and might be expanded with more nodes and examples."
 msgstr ""
+"以下是一些值得了解的特殊节点。该列表并不详尽，可能会扩展更多的节点和示例。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:100
-#, fuzzy
 msgid "Expression node"
-msgstr "表达式（``Expression``）节点"
+msgstr "表达式节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:102
 msgid ""
@@ -200,6 +227,11 @@ msgid ""
 "tab. The outputs are initialized to their zero value by default. The node is "
 "located under the Special tab and can be used in all shader modes."
 msgstr ""
+"``Expression`` 节点允许您在可视着色器中编写Godot着色语言（类似于GLSL）表达"
+"式。该节点具有用于添加任意数量的所需输入和输出端口的按钮，并且可以调整大小。"
+"您还可以设置每个端口的名称和类型。您输入的表达式将立即应用于材质（一旦焦点离"
+"开表达式文本框）。任何解析或编译错误都将被打印到“输出”选项卡上。默认情况下，"
+"输出初始化为零值。该节点位于“特殊”选项卡下，可以在所有着色器模式下使用。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:113
 msgid ""
@@ -207,11 +239,12 @@ msgid ""
 "procedures, and use all the power of text-based shaders, such as loops, the "
 "``discard`` keyword, extended types, etc. For example:"
 msgstr ""
+"该节点的可能性几乎是无限的——您可以编写复杂的过程，并使用基于文本的着色器的所"
+"有功能，例如循环，``discard`` 关键字，扩展类型等。例如："
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:120
-#, fuzzy
 msgid "Fresnel node"
-msgstr "创建节点"
+msgstr "菲涅耳节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:122
 msgid ""
@@ -220,11 +253,13 @@ msgid ""
 "Additionally, you can setup the inversion and the power of equation. The "
 "``Fresnel`` node is great for adding a rim-like lighting effect to objects."
 msgstr ""
+"``菲涅耳`` 节点旨在接受法线和视图向量并产生标量，该标量是它们之间的饱和点积。"
+"此外，您可以设置方程的倒位和幂。``菲涅耳`` 节点非常适合为对象添加类似边缘的照"
+"明效果。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:130
-#, fuzzy
 msgid "Boolean node"
-msgstr "布尔或"
+msgstr "布尔节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:132
 msgid ""
@@ -233,11 +268,13 @@ msgid ""
 "This property can be used to enable or disable some effect parts with one "
 "click."
 msgstr ""
+"``布尔`` 节点可以转换为 ``标量`` 或 ``向量``，以表示 ``0`` 或 ``1`` 以及 "
+"``（0，0，0）`` 或 `` （1，1，1）``。此属性可用于一键启用或禁用某些效果器部"
+"件。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:139
-#, fuzzy
 msgid "If node"
-msgstr "node"
+msgstr "If节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:141
 msgid ""
@@ -247,11 +284,13 @@ msgid ""
 "provided as a comparison threshold – by default it is equal to the minimal "
 "value, i.e. ``0.00001``), ``a > b`` and ``a < b``."
 msgstr ""
+"``If`` 节点允许您设置一个向量，该向量将返回 ``a`` 和 ``b`` 之间的比较结果。可"
+"以返回三个向量：``a == b`` （在这种情况下，公差参数作为比较阈值提供——默认情况"
+"下，它等于最小值，即 ``0.00001``）， ``a > b`` 和 ``a < b``。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:150
-#, fuzzy
 msgid "Switch node"
-msgstr "选择（``Switch``）"
+msgstr "Switch节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:152
 msgid ""
@@ -259,9 +298,13 @@ msgid ""
 "``false``. ``Boolean`` was introduced above. If you convert a vector to a "
 "true boolean, all components of the vector should be above zero."
 msgstr ""
+"如果布尔条件为 ``true`` 或 ``false``，则 ``Switch`` 节点返回向量。上面介绍了 "
+"``Boolean``。如果将向量转换为 ``true`` 布尔值，则向量的所有分量都应大于零。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:160
 msgid ""
 "The ``Switch`` node is only available on the GLES3 backed. If you are "
 "targeting GLES2 devices, you cannot use ``switch`` statements."
 msgstr ""
+"``Switch`` 节点仅在支持GLES3的情况下可用。如果您以GLES2设备为目标，则不能使"
+"用 ``switch`` 语句。"

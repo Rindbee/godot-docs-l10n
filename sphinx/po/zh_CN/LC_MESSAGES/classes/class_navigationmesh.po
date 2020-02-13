@@ -1,0 +1,830 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:10
+msgid "NavigationMesh"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:17
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:58
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:20
+msgid ":ref:`agent/height <class_NavigationMesh_property_agent/height>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:121
+msgid "``2.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:22
+msgid ":ref:`agent/max_climb <class_NavigationMesh_property_agent/max_climb>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:135
+msgid "``0.9``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:24
+msgid ":ref:`agent/max_slope <class_NavigationMesh_property_agent/max_slope>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:149
+msgid "``45.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:26
+msgid ":ref:`agent/radius <class_NavigationMesh_property_agent/radius>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:163
+msgid "``0.6``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:28
+msgid ":ref:`cell/height <class_NavigationMesh_property_cell/height>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:177
+msgid "``0.2``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:30
+msgid ":ref:`cell/size <class_NavigationMesh_property_cell/size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:191
+msgid "``0.3``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:32
+msgid ""
+":ref:`detail/sample_distance "
+"<class_NavigationMesh_property_detail/sample_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:355
+msgid "``6.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:34
+msgid ""
+":ref:`detail/sample_max_error "
+"<class_NavigationMesh_property_detail/sample_max_error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:219
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:36
+msgid ":ref:`edge/max_error <class_NavigationMesh_property_edge/max_error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:233
+msgid "``1.3``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:38
+msgid ":ref:`edge/max_length <class_NavigationMesh_property_edge/max_length>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:247
+msgid "``12.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:73
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:40
+msgid ""
+":ref:`filter/filter_walkable_low_height_spans "
+"<class_NavigationMesh_property_filter/filter_walkable_low_height_spans>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:261
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:275
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:289
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:42
+msgid ""
+":ref:`filter/ledge_spans "
+"<class_NavigationMesh_property_filter/ledge_spans>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:44
+msgid ""
+":ref:`filter/low_hanging_obstacles "
+"<class_NavigationMesh_property_filter/low_hanging_obstacles>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:77
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:46
+msgid ""
+":ref:`geometry/collision_mask "
+"<class_NavigationMesh_property_geometry/collision_mask>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:48
+msgid ""
+":ref:`geometry/parsed_geometry_type "
+"<class_NavigationMesh_property_geometry/parsed_geometry_type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:315
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:329
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:397
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:50
+msgid ""
+":ref:`geometry/source_geometry_mode "
+"<class_NavigationMesh_property_geometry/source_geometry_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:52
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:52
+msgid ""
+":ref:`geometry/source_group_name "
+"<class_NavigationMesh_property_geometry/source_group_name>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:54
+msgid ""
+":ref:`polygon/verts_per_poly "
+"<class_NavigationMesh_property_polygon/verts_per_poly>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:56
+msgid ":ref:`region/merge_size <class_NavigationMesh_property_region/merge_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:369
+msgid "``20.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:58
+msgid ":ref:`region/min_size <class_NavigationMesh_property_region/min_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:383
+msgid "``8.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:60
+msgid ""
+":ref:`sample_partition_type/sample_partition_type "
+"<class_NavigationMesh_property_sample_partition_type/sample_partition_type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:64
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:83
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:67
+msgid ""
+":ref:`add_polygon <class_NavigationMesh_method_add_polygon>` **(** "
+":ref:`PackedInt32Array <class_PackedInt32Array>` polygon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:69
+msgid ""
+":ref:`clear_polygons <class_NavigationMesh_method_clear_polygons>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:71
+msgid ""
+":ref:`create_from_mesh <class_NavigationMesh_method_create_from_mesh>` "
+"**(** :ref:`Mesh <class_Mesh>` mesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:73
+msgid ""
+":ref:`get_collision_mask_bit "
+"<class_NavigationMesh_method_get_collision_mask_bit>` **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:75
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:75
+msgid ""
+":ref:`get_polygon <class_NavigationMesh_method_get_polygon>` **(** "
+":ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:77
+msgid ""
+":ref:`get_polygon_count <class_NavigationMesh_method_get_polygon_count>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:79
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:79
+msgid ""
+":ref:`get_vertices <class_NavigationMesh_method_get_vertices>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:81
+msgid ""
+":ref:`set_collision_mask_bit "
+"<class_NavigationMesh_method_set_collision_mask_bit>` **(** :ref:`int "
+"<class_int>` bit, :ref:`bool <class_bool>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:83
+msgid ""
+":ref:`set_vertices <class_NavigationMesh_method_set_vertices>` **(** "
+":ref:`PackedVector3Array <class_PackedVector3Array>` vertices **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:87
+msgid "Constants"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:101
+msgid "**SAMPLE_PARTITION_WATERSHED** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:103
+msgid "**SAMPLE_PARTITION_MONOTONE** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:105
+msgid "**SAMPLE_PARTITION_LAYERS** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:107
+msgid "**PARSED_GEOMETRY_MESH_INSTANCES** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:109
+msgid "**PARSED_GEOMETRY_STATIC_COLLIDERS** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:111
+msgid "**PARSED_GEOMETRY_BOTH** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:114
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:118
+msgid ":ref:`float <class_float>` **agent/height**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:121
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:135
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:163
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:219
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:233
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:261
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:275
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:289
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:315
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:329
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:355
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:369
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:383
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:397
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:137
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:221
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:235
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:249
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:263
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:277
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:291
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:303
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:317
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:331
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:343
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:357
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:371
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:385
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:399
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:123
+msgid "set_agent_height(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:167
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:181
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:237
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:251
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:265
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:279
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:293
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:305
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:319
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:333
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:345
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:359
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:373
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:387
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:401
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:125
+msgid "get_agent_height()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:132
+msgid ":ref:`float <class_float>` **agent/max_climb**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:137
+msgid "set_agent_max_climb(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:139
+msgid "get_agent_max_climb()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:146
+msgid ":ref:`float <class_float>` **agent/max_slope**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:151
+msgid "set_agent_max_slope(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:153
+msgid "get_agent_max_slope()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:160
+msgid ":ref:`float <class_float>` **agent/radius**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:165
+msgid "set_agent_radius(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:167
+msgid "get_agent_radius()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:174
+msgid ":ref:`float <class_float>` **cell/height**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:179
+msgid "set_cell_height(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:181
+msgid "get_cell_height()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:188
+msgid ":ref:`float <class_float>` **cell/size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:193
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:195
+msgid "get_cell_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:202
+msgid ":ref:`float <class_float>` **detail/sample_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:207
+msgid "set_detail_sample_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:209
+msgid "get_detail_sample_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:216
+msgid ":ref:`float <class_float>` **detail/sample_max_error**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:221
+msgid "set_detail_sample_max_error(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:223
+msgid "get_detail_sample_max_error()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:230
+msgid ":ref:`float <class_float>` **edge/max_error**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:235
+msgid "set_edge_max_error(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:237
+msgid "get_edge_max_error()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:244
+msgid ":ref:`float <class_float>` **edge/max_length**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:249
+msgid "set_edge_max_length(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:251
+msgid "get_edge_max_length()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:258
+msgid ":ref:`bool <class_bool>` **filter/filter_walkable_low_height_spans**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:263
+msgid "set_filter_walkable_low_height_spans(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:265
+msgid "get_filter_walkable_low_height_spans()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:272
+msgid ":ref:`bool <class_bool>` **filter/ledge_spans**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:277
+msgid "set_filter_ledge_spans(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:279
+msgid "get_filter_ledge_spans()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:286
+msgid ":ref:`bool <class_bool>` **filter/low_hanging_obstacles**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:291
+msgid "set_filter_low_hanging_obstacles(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:293
+msgid "get_filter_low_hanging_obstacles()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:300
+msgid ":ref:`int <class_int>` **geometry/collision_mask**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:303
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:305
+msgid "get_collision_mask()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:312
+msgid ":ref:`int <class_int>` **geometry/parsed_geometry_type**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:317
+msgid "set_parsed_geometry_type(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:319
+msgid "get_parsed_geometry_type()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:326
+msgid ":ref:`int <class_int>` **geometry/source_geometry_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:331
+msgid "set_source_geometry_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:333
+msgid "get_source_geometry_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:340
+msgid ":ref:`StringName <class_StringName>` **geometry/source_group_name**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:343
+msgid "set_source_group_name(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:345
+msgid "get_source_group_name()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:352
+msgid ":ref:`float <class_float>` **polygon/verts_per_poly**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:357
+msgid "set_verts_per_poly(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:359
+msgid "get_verts_per_poly()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:366
+msgid ":ref:`float <class_float>` **region/merge_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:371
+msgid "set_region_merge_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:373
+msgid "get_region_merge_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:380
+msgid ":ref:`float <class_float>` **region/min_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:385
+msgid "set_region_min_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:387
+msgid "get_region_min_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:394
+msgid ":ref:`int <class_int>` **sample_partition_type/sample_partition_type**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:399
+msgid "set_sample_partition_type(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:401
+msgid "get_sample_partition_type()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:405
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:409
+msgid ""
+"void **add_polygon** **(** :ref:`PackedInt32Array "
+"<class_PackedInt32Array>` polygon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:415
+msgid "void **clear_polygons** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:421
+msgid "void **create_from_mesh** **(** :ref:`Mesh <class_Mesh>` mesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:427
+msgid ""
+":ref:`bool <class_bool>` **get_collision_mask_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:433
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **get_polygon** **(** "
+":ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:439
+msgid ":ref:`int <class_int>` **get_polygon_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:445
+msgid ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` **get_vertices** "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:451
+msgid ""
+"void **set_collision_mask_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationmesh.rst:457
+msgid ""
+"void **set_vertices** **(** :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` vertices **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "2.0"
+#~ msgstr ""
+
+#~ msgid "0.9"
+#~ msgstr ""
+
+#~ msgid "45.0"
+#~ msgstr ""
+
+#~ msgid "0.6"
+#~ msgstr ""
+
+#~ msgid "0.2"
+#~ msgstr ""
+
+#~ msgid "0.3"
+#~ msgstr ""
+
+#~ msgid "6.0"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "1.3"
+#~ msgstr ""
+
+#~ msgid "12.0"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "20.0"
+#~ msgstr ""
+
+#~ msgid "8.0"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_polygon <class_NavigationMesh_method_add_polygon>` "
+#~ "**(** :ref:`PoolIntArray <class_PoolIntArray>` "
+#~ "polygon **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_vertices <class_NavigationMesh_method_set_vertices>`"
+#~ " **(** :ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ " vertices **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **geometry/source_group_name**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_polygon** **(** :ref:`PoolIntArray "
+#~ "<class_PoolIntArray>` polygon **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` **get_polygon**"
+#~ " **(** :ref:`int <class_int>` idx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "**get_vertices** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_vertices** **(** :ref:`PoolVector3Array"
+#~ " <class_PoolVector3Array>` vertices **)**"
+#~ msgstr ""
+

@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:10
+msgid "CollisionPolygon2D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:14
+msgid "Defines a 2D collision polygon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:19
+msgid ""
+"Provides a 2D collision polygon to a :ref:`CollisionObject2D "
+"<class_CollisionObject2D>` parent. Polygons can be drawn in the editor or"
+" specified by a list of vertices."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:25
+msgid ":ref:`BuildMode <enum_CollisionPolygon2D_BuildMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:25
+msgid ":ref:`build_mode <class_CollisionPolygon2D_property_build_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:59
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:29
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:27
+msgid ":ref:`disabled <class_CollisionPolygon2D_property_disabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:91
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:29
+msgid ""
+":ref:`one_way_collision "
+"<class_CollisionPolygon2D_property_one_way_collision>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:31
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:31
+msgid ""
+":ref:`one_way_collision_margin "
+"<class_CollisionPolygon2D_property_one_way_collision_margin>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:107
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:33
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:33
+msgid ":ref:`polygon <class_CollisionPolygon2D_property_polygon>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:121
+msgid "``PackedVector2Array(  )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:37
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:45
+msgid "enum **BuildMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:47
+msgid ""
+"**BUILD_SOLIDS** = **0** --- Collisions will include the polygon and its "
+"contained area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:49
+msgid ""
+"**BUILD_SEGMENTS** = **1** --- Collisions will only include the polygon "
+"edges."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:52
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:56
+msgid ":ref:`BuildMode <enum_CollisionPolygon2D_BuildMode>` **build_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:121
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:123
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:61
+msgid "set_build_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:125
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:63
+msgid "get_build_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:66
+msgid ""
+"Collision build mode. Use one of the :ref:`BuildMode "
+"<enum_CollisionPolygon2D_BuildMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:72
+msgid ":ref:`bool <class_bool>` **disabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:77
+msgid "set_disabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:79
+msgid "is_disabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:82
+msgid "If ``true``, no collisions will be detected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:88
+msgid ":ref:`bool <class_bool>` **one_way_collision**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:93
+msgid "set_one_way_collision(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:95
+msgid "is_one_way_collision_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:98
+msgid ""
+"If ``true``, only edges that face up, relative to "
+"``CollisionPolygon2D``'s rotation, will collide with other objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:104
+msgid ":ref:`float <class_float>` **one_way_collision_margin**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:109
+msgid "set_one_way_collision_margin(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:111
+msgid "get_one_way_collision_margin()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:118
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>` **polygon**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:123
+msgid "set_polygon(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:125
+msgid "get_polygon()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_collisionpolygon2d.rst:128
+msgid ""
+"The polygon's list of vertices. The final point will be connected to the "
+"first. The returned value is a clone of the :ref:`PackedVector2Array "
+"<class_PackedVector2Array>`, not a reference."
+msgstr ""
+
+#~ msgid ""
+#~ "Provides a 2D collision polygon to "
+#~ "a :ref:`CollisionObject2D <class_CollisionObject2D>` "
+#~ "parent. Polygon can be drawn in "
+#~ "the editor or specified by a list"
+#~ " of vertices."
+#~ msgstr ""
+
+#~ msgid "Collision build mode. Use one of the ``BUILD_*`` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If ``true``, only edges that face "
+#~ "up, relative to CollisionPolygon2D's rotation,"
+#~ " will collide with other objects."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The polygon's list of vertices. The "
+#~ "final point will be connected to "
+#~ "the first. The returned value is a"
+#~ " clone of the PoolVector2Array, not a"
+#~ " reference."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "PoolVector2Array(  )"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ msgstr ""
+
+#~ msgid "``PoolVector2Array(  )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>` **polygon**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The polygon's list of vertices. The "
+#~ "final point will be connected to "
+#~ "the first. The returned value is a"
+#~ " clone of the :ref:`PoolVector2Array "
+#~ "<class_PoolVector2Array>`, not a reference."
+#~ msgstr ""
+

@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2020-02-14 15:17+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:4
 msgid "Importing translations"
@@ -210,22 +214,21 @@ msgstr "さようなら"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:75
 msgid "QUOTE"
-msgstr ""
+msgstr "QUOTE"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:75
 msgid "\"Hello\" said the man."
-msgstr ""
+msgstr "\"Hello\" said the man."
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:75
 msgid "\"Hola\" dijo el hombre."
-msgstr ""
+msgstr "\"Hola\" dijo el hombre."
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:75
 msgid "「こんにちは」男は言いました"
-msgstr ""
+msgstr "「こんにちは」男は言いました"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:78
-#, fuzzy
 msgid ""
 "The same example is shown below as a comma-separated plain text file, which "
 "should be the result of editing the above in a spreadsheet. When editing the "
@@ -237,9 +240,11 @@ msgid ""
 "Alternatively, you can select another delimiter than comma in the import "
 "options."
 msgstr ""
-"相同的示例在下面显示为逗号分隔的纯文本文件，这应该是在电子表格中编辑以上示例"
-"的结果。在编辑纯文本版本时，请确保将任何包含逗号的信息，用双引号括起来，以便"
-"不会将逗号解析为定界符。或者，您可以在导入选项中选择另一种定界符。"
+"相同的示例在下面显示为逗号分隔的纯文本文件，这应该是在电子表格中编辑以上内容"
+"的结果。在编辑纯文本版本时，请确保任何包含逗号，换行符或双引号的消息都用双引"
+"号引起来，这样就不会将逗号解析为定界符，换行符不会创建新的条目，并且不会将双"
+"引号解析为包含字符。确保在消息前面包含另一个双引号来转义消息中可能包含的任何"
+"双引号。或者，您可以在导入选项中选择除逗号以外的其他定界符。"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:97
 msgid "CSV importer"

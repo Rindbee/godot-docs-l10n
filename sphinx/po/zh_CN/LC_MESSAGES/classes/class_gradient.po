@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:10
+msgid "Gradient"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:14
+msgid ""
+"A color interpolator resource which can be used to generate colors "
+"between user-defined color points."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:19
+msgid ""
+"Given a set of colors, this resource will interpolate them in order. This"
+" means that if you have color 1, color 2 and color 3, the ramp will "
+"interpolate from color 1 to color 2 and from color 2 to color 3. The ramp"
+" will initially have 2 colors (black and white), one (black) at ramp "
+"lower offset 0 and the other (white) at the ramp higher offset 1."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:25
+msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:25
+msgid ":ref:`colors <class_Gradient_property_colors>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:59
+msgid "``PackedColorArray( 0, 0, 0, 1, 1, 1, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:27
+msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:27
+msgid ":ref:`offsets <class_Gradient_property_offsets>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:75
+msgid "``PackedFloat32Array( 0, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:31
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:48
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:34
+msgid ""
+":ref:`add_point <class_Gradient_method_add_point>` **(** :ref:`float "
+"<class_float>` offset, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:42
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:36
+msgid ""
+":ref:`get_color <class_Gradient_method_get_color>` **(** :ref:`int "
+"<class_int>` point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:38
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:38
+msgid ""
+":ref:`get_offset <class_Gradient_method_get_offset>` **(** :ref:`int "
+"<class_int>` point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:40
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:40
+msgid ""
+":ref:`get_point_count <class_Gradient_method_get_point_count>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:42
+msgid ""
+":ref:`interpolate <class_Gradient_method_interpolate>` **(** :ref:`float "
+"<class_float>` offset **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:44
+msgid ""
+":ref:`remove_point <class_Gradient_method_remove_point>` **(** :ref:`int "
+"<class_int>` offset **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:46
+msgid ""
+":ref:`set_color <class_Gradient_method_set_color>` **(** :ref:`int "
+"<class_int>` point, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:48
+msgid ""
+":ref:`set_offset <class_Gradient_method_set_offset>` **(** :ref:`int "
+"<class_int>` point, :ref:`float <class_float>` offset **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:52
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:56
+msgid ":ref:`PackedColorArray <class_PackedColorArray>` **colors**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:75
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:77
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:61
+msgid "set_colors(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:79
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:63
+msgid "get_colors()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:66
+msgid ""
+"Gradient's colors returned as a :ref:`PackedColorArray "
+"<class_PackedColorArray>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:72
+msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>` **offsets**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:77
+msgid "set_offsets(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:79
+msgid "get_offsets()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:82
+msgid ""
+"Gradient's offsets returned as a :ref:`PackedFloat32Array "
+"<class_PackedFloat32Array>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:85
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:89
+msgid ""
+"void **add_point** **(** :ref:`float <class_float>` offset, :ref:`Color "
+"<class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:91
+msgid ""
+"Adds the specified color to the end of the ramp, with the specified "
+"offset."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:97
+msgid ""
+":ref:`Color <class_Color>` **get_color** **(** :ref:`int <class_int>` "
+"point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:99
+msgid "Returns the color of the ramp color at index ``point``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:105
+msgid ""
+":ref:`float <class_float>` **get_offset** **(** :ref:`int <class_int>` "
+"point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:107
+msgid "Returns the offset of the ramp color at index ``point``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:113
+msgid ":ref:`int <class_int>` **get_point_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:115
+msgid "Returns the number of colors in the ramp."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:121
+msgid ""
+":ref:`Color <class_Color>` **interpolate** **(** :ref:`float "
+"<class_float>` offset **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:123
+msgid "Returns the interpolated color specified by ``offset``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:129
+msgid "void **remove_point** **(** :ref:`int <class_int>` offset **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:131
+msgid "Removes the color at the index ``offset``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:137
+msgid ""
+"void **set_color** **(** :ref:`int <class_int>` point, :ref:`Color "
+"<class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:139
+msgid "Sets the color of the ramp color at index ``point``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:145
+msgid ""
+"void **set_offset** **(** :ref:`int <class_int>` point, :ref:`float "
+"<class_float>` offset **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_gradient.rst:147
+msgid "Sets the offset for the ramp color at index ``point``."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "PoolColorArray( 0, 0, 0, 1, 1, 1, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "PoolRealArray( 0, 1 )"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolColorArray <class_PoolColorArray>`"
+#~ msgstr ""
+
+#~ msgid "``PoolColorArray( 0, 0, 0, 1, 1, 1, 1, 1 )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolRealArray <class_PoolRealArray>`"
+#~ msgstr ""
+
+#~ msgid "``PoolRealArray( 0, 1 )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolColorArray <class_PoolColorArray>` **colors**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Gradient's colors returned as a "
+#~ ":ref:`PoolColorArray <class_PoolColorArray>`."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolRealArray <class_PoolRealArray>` **offsets**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Gradient's offsets returned as a "
+#~ ":ref:`PoolRealArray <class_PoolRealArray>`."
+#~ msgstr ""
+

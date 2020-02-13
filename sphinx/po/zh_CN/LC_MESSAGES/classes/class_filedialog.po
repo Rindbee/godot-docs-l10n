@@ -1,0 +1,636 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:10
+msgid "FileDialog"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:12
+msgid ""
+"**Inherits:** :ref:`ConfirmationDialog <class_ConfirmationDialog>` **<** "
+":ref:`AcceptDialog <class_AcceptDialog>` **<** :ref:`WindowDialog "
+"<class_WindowDialog>` **<** :ref:`Popup <class_Popup>` **<** "
+":ref:`Control <class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>`"
+" **<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:14
+msgid "Dialog for selecting files or directories in the filesystem."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:19
+msgid ""
+"FileDialog is a preset dialog used to choose files and directories in the"
+" filesystem. It supports filter masks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:25
+msgid ":ref:`Access <enum_FileDialog_Access>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:25
+msgid ":ref:`access <class_FileDialog_property_access>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:158
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:43
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:27
+msgid ":ref:`current_dir <class_FileDialog_property_current_dir>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:174
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:206
+msgid "``\"res://\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:29
+msgid ":ref:`current_file <class_FileDialog_property_current_file>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:190
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:31
+msgid ":ref:`current_path <class_FileDialog_property_current_path>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:41
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:33
+msgid "dialog_hide_on_ok"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:33
+msgid "**O:** ``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:35
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:35
+msgid ":ref:`filters <class_FileDialog_property_filters>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:222
+msgid "``PackedStringArray(  )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:37
+msgid ":ref:`Mode <enum_FileDialog_Mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:37
+msgid ":ref:`mode <class_FileDialog_property_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:238
+msgid "``4``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:39
+msgid ""
+":ref:`mode_overrides_title "
+"<class_FileDialog_property_mode_overrides_title>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:254
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:41
+msgid ":ref:`show_hidden_files <class_FileDialog_property_show_hidden_files>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:270
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:43
+msgid "window_title"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:43
+msgid "**O:** ``\"Save a File\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:47
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:60
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:50
+msgid ""
+":ref:`add_filter <class_FileDialog_method_add_filter>` **(** :ref:`String"
+" <class_String>` filter **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:52
+msgid ":ref:`clear_filters <class_FileDialog_method_clear_filters>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:54
+msgid ":ref:`deselect_items <class_FileDialog_method_deselect_items>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:56
+msgid ":ref:`LineEdit <class_LineEdit>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:56
+msgid ":ref:`get_line_edit <class_FileDialog_method_get_line_edit>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:58
+msgid ":ref:`VBoxContainer <class_VBoxContainer>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:58
+msgid ":ref:`get_vbox <class_FileDialog_method_get_vbox>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:60
+msgid ":ref:`invalidate <class_FileDialog_method_invalidate>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:64
+msgid "Theme Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:71
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:67
+msgid "files_disabled"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:67
+msgid "Color( 0, 0, 0, 0.7 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:77
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:69
+msgid "folder"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:71
+msgid "folder_icon_modulate"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:71
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:73
+msgid "parent_folder"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:75
+msgid "reload"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:77
+msgid "toggle_hidden"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:81
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:85
+msgid "**dir_selected** **(** :ref:`String <class_String>` dir **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:87
+msgid "Emitted when the user selects a directory."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:93
+msgid "**file_selected** **(** :ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:95
+msgid ""
+"Emitted when the user selects a file by double-clicking it or pressing "
+"the **OK** button."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:101
+msgid ""
+"**files_selected** **(** :ref:`PackedStringArray "
+"<class_PackedStringArray>` paths **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:103
+msgid "Emitted when the user selects multiple files."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:106
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:120
+msgid "enum **Mode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:122
+msgid ""
+"**MODE_OPEN_FILE** = **0** --- The dialog allows selecting one, and only "
+"one file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:124
+msgid ""
+"**MODE_OPEN_FILES** = **1** --- The dialog allows selecting multiple "
+"files."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:126
+msgid ""
+"**MODE_OPEN_DIR** = **2** --- The dialog only allows selecting a "
+"directory, disallowing the selection of any file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:128
+msgid ""
+"**MODE_OPEN_ANY** = **3** --- The dialog allows selecting one file or "
+"directory."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:130
+msgid "**MODE_SAVE_FILE** = **4** --- The dialog will warn when a file exists."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:142
+msgid "enum **Access**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:144
+msgid ""
+"**ACCESS_RESOURCES** = **0** --- The dialog only allows accessing files "
+"under the :ref:`Resource <class_Resource>` path (``res://``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:146
+msgid ""
+"**ACCESS_USERDATA** = **1** --- The dialog only allows accessing files "
+"under user data path (``user://``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:148
+msgid ""
+"**ACCESS_FILESYSTEM** = **2** --- The dialog allows accessing files on "
+"the whole file system."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:151
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:155
+msgid ":ref:`Access <enum_FileDialog_Access>` **access**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:174
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:190
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:206
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:222
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:238
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:254
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:270
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:208
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:224
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:240
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:256
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:272
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:160
+msgid "set_access(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:242
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:258
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:274
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:162
+msgid "get_access()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:165
+msgid "The file system access scope. See enum ``Access`` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:171
+msgid ":ref:`String <class_String>` **current_dir**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:176
+msgid "set_current_dir(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:178
+msgid "get_current_dir()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:181
+msgid "The current working directory of the file dialog."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:187
+msgid ":ref:`String <class_String>` **current_file**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:192
+msgid "set_current_file(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:194
+msgid "get_current_file()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:197
+msgid "The currently selected file of the file dialog."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:203
+msgid ":ref:`String <class_String>` **current_path**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:208
+msgid "set_current_path(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:210
+msgid "get_current_path()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:213
+msgid "The currently selected file path of the file dialog."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:219
+msgid ":ref:`PackedStringArray <class_PackedStringArray>` **filters**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:224
+msgid "set_filters(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:226
+msgid "get_filters()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:229
+msgid ""
+"The available file type filters. For example, this shows only ``.png`` "
+"and ``.gd`` files: ``set_filters(PackedStringArray([\"*.png ; PNG "
+"Images\",\"*.gd ; GDScript Files\"]))``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:235
+msgid ":ref:`Mode <enum_FileDialog_Mode>` **mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:240
+msgid "set_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:242
+msgid "get_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:245
+msgid ""
+"The dialog's open or save mode, which affects the selection behavior. See"
+" enum ``Mode`` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:251
+msgid ":ref:`bool <class_bool>` **mode_overrides_title**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:256
+msgid "set_mode_overrides_title(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:258
+msgid "is_mode_overriding_title()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:261
+msgid ""
+"If ``true``, changing the ``Mode`` property will set the window title "
+"accordingly (e.g. setting mode to :ref:`MODE_OPEN_FILE "
+"<class_FileDialog_constant_MODE_OPEN_FILE>` will change the window title "
+"to \"Open a File\")."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:267
+msgid ":ref:`bool <class_bool>` **show_hidden_files**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:272
+msgid "set_show_hidden_files(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:274
+msgid "is_showing_hidden_files()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:277
+msgid "If ``true``, the dialog will show hidden files."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:280
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:284
+msgid "void **add_filter** **(** :ref:`String <class_String>` filter **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:286
+msgid ""
+"Adds ``filter`` as a custom filter; ``filter`` should be of the form "
+"``\"filename.extension ; Description\"``. For example, ``\"*.png ; PNG "
+"Images\"``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:292
+msgid "void **clear_filters** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:294
+msgid "Clear all the added filters in the dialog."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:300
+msgid "void **deselect_items** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:302
+msgid "Clear currently selected items in the dialog."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:308
+msgid ":ref:`LineEdit <class_LineEdit>` **get_line_edit** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:310
+msgid "Returns the LineEdit for the selected file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:316
+msgid ":ref:`VBoxContainer <class_VBoxContainer>` **get_vbox** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:318
+msgid ""
+"Returns the vertical box container of the dialog, custom controls can be "
+"added to it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:324
+msgid "void **invalidate** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_filedialog.rst:326
+msgid "Invalidate and update the current dialog content list."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "\"res://\""
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "**O:** false"
+#~ msgstr ""
+
+#~ msgid "PoolStringArray(  )"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "**O:** \"Save a File\""
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolStringArray <class_PoolStringArray>`"
+#~ msgstr ""
+
+#~ msgid "``PoolStringArray(  )``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**files_selected** **(** :ref:`PoolStringArray "
+#~ "<class_PoolStringArray>` paths **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolStringArray <class_PoolStringArray>` **filters**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The available file type filters. For "
+#~ "example, this shows only ``.png`` and"
+#~ " ``.gd`` files: ``set_filters(PoolStringArray([\"*.png"
+#~ " ; PNG Images\",\"*.gd ; GDScript "
+#~ "Files\"]))``."
+#~ msgstr ""
+

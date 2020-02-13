@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_world2d.rst:10
+msgid "World2D"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:14
+msgid "Class that has everything pertaining to a 2D world."
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:19
+msgid ""
+"Class that has everything pertaining to a 2D world. A physics space, a "
+"visual scenario and a sound space. 2D nodes register their resources into"
+" the current 2D world."
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:24
+msgid ":doc:`../tutorials/physics/ray-casting`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:30
+#: ../../docs/classes/class_world2d.rst:34
+msgid ":ref:`RID <class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:30
+msgid ":ref:`canvas <class_World2D_property_canvas>`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:32
+msgid ":ref:`Physics2DDirectSpaceState <class_Physics2DDirectSpaceState>`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:32
+msgid ":ref:`direct_space_state <class_World2D_property_direct_space_state>`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:34
+msgid ":ref:`space <class_World2D_property_space>`"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:38
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:42
+msgid ":ref:`RID <class_RID>` **canvas**"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:45
+#: ../../docs/classes/class_world2d.rst:57
+#: ../../docs/classes/class_world2d.rst:69
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:45
+msgid "get_canvas()"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:48
+msgid ""
+"The :ref:`RID <class_RID>` of this world's canvas resource. Used by the "
+":ref:`VisualServer <class_VisualServer>` for 2D drawing."
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:54
+msgid ""
+":ref:`Physics2DDirectSpaceState <class_Physics2DDirectSpaceState>` "
+"**direct_space_state**"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:57
+msgid "get_direct_space_state()"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:60
+msgid ""
+"The state of this world's physics space. This allows arbitrary querying "
+"for collision."
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:66
+msgid ":ref:`RID <class_RID>` **space**"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:69
+msgid "get_space()"
+msgstr ""
+
+#: ../../docs/classes/class_world2d.rst:72
+msgid ""
+"The :ref:`RID <class_RID>` of this world's physics space resource. Used "
+"by the :ref:`Physics2DServer <class_Physics2DServer>` for 2D physics, "
+"treating it as both a space and an area."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+

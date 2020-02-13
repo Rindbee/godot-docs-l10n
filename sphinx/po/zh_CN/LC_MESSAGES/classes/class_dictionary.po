@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-12-01 13:23+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:10
+msgid "Dictionary"
+msgstr "Dictionary"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:12
+msgid "Dictionary type."
+msgstr "字典类型。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:17
+msgid ""
+"Dictionary type. Associative container which contains values referenced "
+"by unique keys. Dictionary are composed of pairs of keys (which must be "
+"unique) and values. You can define a dictionary by placing a comma "
+"separated list of ``key: value`` pairs in curly braces ``{}``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:19
+msgid "Erasing elements while iterating over them **is not supported**."
+msgstr "**不支持** 在元素上进行迭代时，擦除元素。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:21
+msgid "Creating a dictionary:"
+msgstr "创建一个字典："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:33
+msgid ""
+"You can access values of a dictionary by referencing appropriate key in "
+"above example ``points_dir[\"White\"]`` would return value of 50."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:43
+msgid ""
+"In the above code ``points`` will be assigned the value that is paired "
+"with the appropriate color selected in ``my_color``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:45
+msgid "Dictionaries can contain more complex data:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:51
+msgid ""
+"To add a key to an existing dictionary, access it like an existing key "
+"and assign to it:"
+msgstr "要将键添加到现有字典中，请像现有键一样对其进行访问，并分配给它："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:58
+msgid ""
+"Finally, dictionaries can contain different types of keys and values in "
+"the same dictionary:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:64
+msgid ""
+"**Note:** Unlike :ref:`Array <class_Array>`\\ s you can't compare "
+"dictionaries directly:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:80
+msgid ""
+"You need to first calculate the dictionary's hash with :ref:`hash "
+"<class_Dictionary_method_hash>` before you can compare them:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:91
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:93
+msgid ""
+"`#dictionary "
+"<../getting_started/scripting/gdscript/gdscript_basics.html#dictionary>`_"
+" in :doc:`../getting_started/scripting/gdscript/gdscript_basics`"
+msgstr ""
+"在 :doc:`../getting_started/scripting/gdscript/gdscript_basics` 中的 "
+"`#dictionary "
+"<../getting_started/scripting/gdscript/gdscript_basics.html#dictionary>`_"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:96
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:107
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:99
+msgid ":ref:`clear <class_Dictionary_method_clear>` **(** **)**"
+msgstr ":ref:`clear <class_Dictionary_method_clear>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:101
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ":ref:`Dictionary <class_Dictionary>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:101
+msgid ""
+":ref:`duplicate <class_Dictionary_method_duplicate>` **(** :ref:`bool "
+"<class_bool>` deep=False **)**"
+msgstr ""
+":ref:`duplicate <class_Dictionary_method_duplicate>` **(** :ref:`bool "
+"<class_bool>` deep=False **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:111
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:103
+msgid ":ref:`empty <class_Dictionary_method_empty>` **(** **)**"
+msgstr ":ref:`empty <class_Dictionary_method_empty>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:105
+msgid ""
+":ref:`erase <class_Dictionary_method_erase>` **(** :ref:`Variant "
+"<class_Variant>` key **)**"
+msgstr ""
+":ref:`erase <class_Dictionary_method_erase>` **(** :ref:`Variant "
+"<class_Variant>` key **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:107
+msgid ""
+":ref:`get <class_Dictionary_method_get>` **(** :ref:`Variant "
+"<class_Variant>` key, :ref:`Variant <class_Variant>` default=Null **)**"
+msgstr ""
+":ref:`get <class_Dictionary_method_get>` **(** :ref:`Variant "
+"<class_Variant>` key, :ref:`Variant <class_Variant>` default=Null **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:109
+msgid ""
+":ref:`has <class_Dictionary_method_has>` **(** :ref:`Variant "
+"<class_Variant>` key **)**"
+msgstr ""
+":ref:`has <class_Dictionary_method_has>` **(** :ref:`Variant "
+"<class_Variant>` key **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:111
+msgid ""
+":ref:`has_all <class_Dictionary_method_has_all>` **(** :ref:`Array "
+"<class_Array>` keys **)**"
+msgstr ""
+":ref:`has_all <class_Dictionary_method_has_all>` **(** :ref:`Array "
+"<class_Array>` keys **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:117
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:113
+msgid ":ref:`hash <class_Dictionary_method_hash>` **(** **)**"
+msgstr ":ref:`hash <class_Dictionary_method_hash>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:119
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:115
+msgid ":ref:`keys <class_Dictionary_method_keys>` **(** **)**"
+msgstr ":ref:`keys <class_Dictionary_method_keys>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:117
+msgid ":ref:`size <class_Dictionary_method_size>` **(** **)**"
+msgstr ":ref:`size <class_Dictionary_method_size>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:119
+msgid ":ref:`values <class_Dictionary_method_values>` **(** **)**"
+msgstr ":ref:`values <class_Dictionary_method_values>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:123
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:127
+msgid "void **clear** **(** **)**"
+msgstr "void **clear** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:129
+msgid "Clear the dictionary, removing all key/value pairs."
+msgstr "清除字典，删除所有键/值对。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:135
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **duplicate** **(** :ref:`bool "
+"<class_bool>` deep=False **)**"
+msgstr ""
+":ref:`Dictionary <class_Dictionary>` **duplicate** **(** :ref:`bool "
+"<class_bool>` deep=False **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:137
+msgid "Creates a copy of the dictionary, and returns it."
+msgstr "创建一个字典的副本，然后将其返回。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:143
+msgid ":ref:`bool <class_bool>` **empty** **(** **)**"
+msgstr ":ref:`bool <class_bool>` **empty** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:145
+msgid "Returns ``true`` if the dictionary is empty."
+msgstr "如果字典为空，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:151
+msgid ""
+":ref:`bool <class_bool>` **erase** **(** :ref:`Variant <class_Variant>` "
+"key **)**"
+msgstr ""
+":ref:`bool <class_bool>` **erase** **(** :ref:`Variant <class_Variant>` "
+"key **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:153
+msgid ""
+"Erase a dictionary key/value pair by key. Returns ``true`` if the given "
+"key was present in the dictionary, ``false`` otherwise. Does not erase "
+"elements while iterating over the dictionary."
+msgstr "逐个删除字典键/值对。如果字典中存在给定的键，则返回 ``true``，否则返回 ``false``。遍历字典时不擦除元素。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:159
+#, fuzzy
+msgid ""
+"void **get** **(** :ref:`Variant <class_Variant>` key, :ref:`Variant "
+"<class_Variant>` default=Null **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **get** **(** :ref:`Variant "
+"<class_Variant>` key, :ref:`Variant <class_Variant>` default=Null **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:161
+msgid ""
+"Returns the current value for the specified key in the ``Dictionary``. If"
+" the key does not exist, the method returns the value of the optional "
+"default argument, or ``null`` if it is omitted."
+msgstr "返回该 ``Dictionary`` 中指定键的当前值。如果键不存在，则该方法返回可选默认参数的值，或如果省略，则返回 ``null``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:167
+msgid ""
+":ref:`bool <class_bool>` **has** **(** :ref:`Variant <class_Variant>` key"
+" **)**"
+msgstr ""
+":ref:`bool <class_bool>` **has** **(** :ref:`Variant <class_Variant>` key"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:169
+msgid "Returns ``true`` if the dictionary has a given key."
+msgstr "如果字典具有给定的键，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:175
+msgid ""
+":ref:`bool <class_bool>` **has_all** **(** :ref:`Array <class_Array>` "
+"keys **)**"
+msgstr ""
+":ref:`bool <class_bool>` **has_all** **(** :ref:`Array <class_Array>` "
+"keys **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:177
+msgid "Returns ``true`` if the dictionary has all of the keys in the given array."
+msgstr "如果字典具有，在给定数组中的所有键，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:183
+msgid ":ref:`int <class_int>` **hash** **(** **)**"
+msgstr ":ref:`int <class_int>` **hash** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:185
+msgid ""
+"Returns a hashed integer value representing the dictionary contents. This"
+" can be used to compare dictionaries by value:"
+msgstr "返回表示字典内容的哈希整数值。这可用于按值比较字典："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:198
+msgid ":ref:`Array <class_Array>` **keys** **(** **)**"
+msgstr ":ref:`Array <class_Array>` **keys** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:200
+msgid "Returns the list of keys in the ``Dictionary``."
+msgstr "返回该 ``Dictionary`` 中的键列表。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:206
+msgid ":ref:`int <class_int>` **size** **(** **)**"
+msgstr ":ref:`int <class_int>` **size** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:208
+msgid "Returns the size of the dictionary (in pairs)."
+msgstr "返回字典的大小（成对）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:214
+msgid ":ref:`Array <class_Array>` **values** **(** **)**"
+msgstr ":ref:`Array <class_Array>` **values** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_dictionary.rst:216
+msgid "Returns the list of values in the ``Dictionary``."
+msgstr "返回 ``Dictionary`` 中的值列表。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ""
+#~ "Dictionary type. Associative container which"
+#~ " contains values referenced by unique "
+#~ "keys. Dictionaries are always passed by"
+#~ " reference."
+#~ msgstr "字典类型。关联容器，其中包含唯一键引用的值。字典始终通过引用传递。"
+
+#~ msgid ":ref:`Variant <class_Variant>`"
+#~ msgstr ":ref:`Variant <class_Variant>`"
+

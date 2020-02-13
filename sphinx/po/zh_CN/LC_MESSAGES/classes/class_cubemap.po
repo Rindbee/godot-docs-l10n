@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cubemap.rst:10
+msgid "Cubemap"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cubemap.rst:12
+msgid ""
+"**Inherits:** :ref:`TextureLayered <class_TextureLayered>` **<** "
+":ref:`Texture <class_Texture>` **<** :ref:`Resource <class_Resource>` "
+"**<** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#~ msgid ""
+#~ "The render flags for the ``CubeMap``."
+#~ " See the ``FLAG_*`` constants for "
+#~ "details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The lossy storage quality of the "
+#~ "``CubeMap`` if the storage mode is "
+#~ "set to STORAGE_COMPRESS_LOSSY."
+#~ msgstr ""
+
+#~ msgid "The ``CubeMap``'s storage mode. See ``STORAGE_*`` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an :ref:`Image <class_Image>` for "
+#~ "a side of the ``CubeMap`` using "
+#~ "one of the ``SIDE_*`` constants or "
+#~ "an integer 0-5."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets an :ref:`Image <class_Image>` for a"
+#~ " side of the ``CubeMap`` using one"
+#~ " of the ``SIDE_*`` constants or an"
+#~ " integer 0-5."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "7"
+#~ msgstr ""
+
+#~ msgid "0.7"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "CubeMap"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Resource <class_Resource>` **<**"
+#~ " :ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+
+#~ msgid "A CubeMap is a 6-sided 3D texture."
+#~ msgstr ""
+
+#~ msgid "Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A 6-sided 3D texture typically used "
+#~ "for faking reflections. It can be "
+#~ "used to make an object look as "
+#~ "if it's reflecting its surroundings. "
+#~ "This usually delivers much better "
+#~ "performance than other reflection methods."
+#~ msgstr ""
+
+#~ msgid "Properties"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`flags <class_CubeMap_property_flags>`"
+#~ msgstr ""
+
+#~ msgid "``7``"
+#~ msgstr ""
+
+#~ msgid ":ref:`float <class_float>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`lossy_storage_quality "
+#~ "<class_CubeMap_property_lossy_storage_quality>`"
+#~ msgstr ""
+
+#~ msgid "``0.7``"
+#~ msgstr ""
+
+#~ msgid ":ref:`Storage <enum_CubeMap_Storage>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`storage_mode <class_CubeMap_property_storage_mode>`"
+#~ msgstr ""
+
+#~ msgid "``0``"
+#~ msgstr ""
+
+#~ msgid "Methods"
+#~ msgstr ""
+
+#~ msgid ":ref:`get_height <class_CubeMap_method_get_height>` **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ":ref:`Image <class_Image>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_side <class_CubeMap_method_get_side>` **(** "
+#~ ":ref:`Side <enum_CubeMap_Side>` side **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ":ref:`get_width <class_CubeMap_method_get_width>` **(** **)** const"
+#~ msgstr ""
+
+#~ msgid "void"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_side <class_CubeMap_method_set_side>` **(** "
+#~ ":ref:`Side <enum_CubeMap_Side>` side, :ref:`Image"
+#~ " <class_Image>` image **)**"
+#~ msgstr ""
+
+#~ msgid "Enumerations"
+#~ msgstr ""
+
+#~ msgid "enum **Storage**:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**STORAGE_RAW** = **0** --- Store the"
+#~ " ``CubeMap`` without any compression."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**STORAGE_COMPRESS_LOSSY** = **1** --- Store"
+#~ " the ``CubeMap`` with strong compression"
+#~ " that reduces image quality."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**STORAGE_COMPRESS_LOSSLESS** = **2** --- "
+#~ "Store the ``CubeMap`` with moderate "
+#~ "compression that doesn't reduce image "
+#~ "quality."
+#~ msgstr ""
+
+#~ msgid "enum **Side**:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SIDE_LEFT** = **0** --- Identifier for"
+#~ " the left face of the ``CubeMap``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SIDE_RIGHT** = **1** --- Identifier "
+#~ "for the right face of the "
+#~ "``CubeMap``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SIDE_BOTTOM** = **2** --- Identifier "
+#~ "for the bottom face of the "
+#~ "``CubeMap``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SIDE_TOP** = **3** --- Identifier for"
+#~ " the top face of the ``CubeMap``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SIDE_FRONT** = **4** --- Identifier "
+#~ "for the front face of the "
+#~ "``CubeMap``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SIDE_BACK** = **5** --- Identifier for"
+#~ " the back face of the ``CubeMap``."
+#~ msgstr ""
+
+#~ msgid "enum **Flags**:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FLAG_MIPMAPS** = **1** --- Generate "
+#~ "mipmaps, to enable smooth zooming out"
+#~ " of the texture."
+#~ msgstr ""
+
+#~ msgid "**FLAG_REPEAT** = **2** --- Repeat (instead of clamp to edge)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FLAG_FILTER** = **4** --- Turn on "
+#~ "magnifying filter, to enable smooth "
+#~ "zooming in of the texture."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FLAGS_DEFAULT** = **7** --- Default "
+#~ "flags. Generate mipmaps, repeat, and "
+#~ "filter are enabled."
+#~ msgstr ""
+
+#~ msgid "Property Descriptions"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **flags**"
+#~ msgstr ""
+
+#~ msgid "*Default*"
+#~ msgstr ""
+
+#~ msgid "*Setter*"
+#~ msgstr ""
+
+#~ msgid "set_flags(value)"
+#~ msgstr ""
+
+#~ msgid "*Getter*"
+#~ msgstr ""
+
+#~ msgid "get_flags()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The render flags for the ``CubeMap``."
+#~ " See the :ref:`Flags <enum_CubeMap_Flags>` "
+#~ "constants for details."
+#~ msgstr ""
+
+#~ msgid ":ref:`float <class_float>` **lossy_storage_quality**"
+#~ msgstr ""
+
+#~ msgid "set_lossy_storage_quality(value)"
+#~ msgstr ""
+
+#~ msgid "get_lossy_storage_quality()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The lossy storage quality of the "
+#~ "``CubeMap`` if the storage mode is "
+#~ "set to :ref:`STORAGE_COMPRESS_LOSSY "
+#~ "<class_CubeMap_constant_STORAGE_COMPRESS_LOSSY>`."
+#~ msgstr ""
+
+#~ msgid ":ref:`Storage <enum_CubeMap_Storage>` **storage_mode**"
+#~ msgstr ""
+
+#~ msgid "set_storage(value)"
+#~ msgstr ""
+
+#~ msgid "get_storage()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The ``CubeMap``'s storage mode. See "
+#~ ":ref:`Storage <enum_CubeMap_Storage>` constants."
+#~ msgstr ""
+
+#~ msgid "Method Descriptions"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_height** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid "Returns the ``CubeMap``'s height."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Image <class_Image>` **get_side** **(** "
+#~ ":ref:`Side <enum_CubeMap_Side>` side **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an :ref:`Image <class_Image>` for "
+#~ "a side of the ``CubeMap`` using "
+#~ "one of the :ref:`Side <enum_CubeMap_Side>` "
+#~ "constants."
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_width** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid "Returns the ``CubeMap``'s width."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_side** **(** :ref:`Side "
+#~ "<enum_CubeMap_Side>` side, :ref:`Image "
+#~ "<class_Image>` image **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets an :ref:`Image <class_Image>` for a"
+#~ " side of the ``CubeMap`` using one"
+#~ " of the :ref:`Side <enum_CubeMap_Side>` "
+#~ "constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`TextureLayered <class_TextureLayered>`"
+#~ " **<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+

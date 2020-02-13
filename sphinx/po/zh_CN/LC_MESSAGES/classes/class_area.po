@@ -1,0 +1,961 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:10
+msgid "Area"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:12
+msgid ""
+"**Inherits:** :ref:`CollisionObject <class_CollisionObject>` **<** "
+":ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:14
+msgid "General-purpose area node for detection and 3D physics influence."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:19
+msgid ""
+"3D area that detects :ref:`CollisionObject <class_CollisionObject>` nodes"
+" overlapping, entering, or exiting. Can also alter or override local "
+"physics parameters (gravity, damping)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:57
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:25
+msgid ":ref:`angular_damp <class_Area_property_angular_damp>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:335
+msgid "``0.1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:55
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:27
+msgid ":ref:`audio_bus_name <class_Area_property_audio_bus_name>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:431
+msgid "``@\"Master\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:76
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:29
+msgid ":ref:`audio_bus_override <class_Area_property_audio_bus_override>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:303
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:415
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:33
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:31
+msgid ":ref:`collision_layer <class_Area_property_collision_layer>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:239
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:255
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:33
+msgid ":ref:`collision_mask <class_Area_property_collision_mask>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:35
+msgid ":ref:`gravity <class_Area_property_gravity>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:271
+msgid "``9.8``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:37
+msgid ":ref:`gravity_distance_scale <class_Area_property_gravity_distance_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:287
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:383
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:399
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:447
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:39
+msgid ":ref:`gravity_point <class_Area_property_gravity_point>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:41
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:41
+msgid ":ref:`gravity_vec <class_Area_property_gravity_vec>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:319
+msgid "``Vector3( 0, -1, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:43
+msgid ":ref:`linear_damp <class_Area_property_linear_damp>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:45
+msgid ":ref:`monitorable <class_Area_property_monitorable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:351
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:367
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:47
+msgid ":ref:`monitoring <class_Area_property_monitoring>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:49
+msgid ":ref:`priority <class_Area_property_priority>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:51
+msgid ":ref:`reverb_bus_amount <class_Area_property_reverb_bus_amount>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:53
+msgid ":ref:`reverb_bus_enable <class_Area_property_reverb_bus_enable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:55
+msgid ":ref:`reverb_bus_name <class_Area_property_reverb_bus_name>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:57
+msgid ":ref:`reverb_bus_uniformity <class_Area_property_reverb_bus_uniformity>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:59
+msgid ":ref:`SpaceOverride <enum_Area_SpaceOverride>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:59
+msgid ":ref:`space_override <class_Area_property_space_override>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:463
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:63
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:66
+msgid ""
+":ref:`get_collision_layer_bit "
+"<class_Area_method_get_collision_layer_bit>` **(** :ref:`int <class_int>`"
+" bit **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:68
+msgid ""
+":ref:`get_collision_mask_bit <class_Area_method_get_collision_mask_bit>` "
+"**(** :ref:`int <class_int>` bit **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:72
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:70
+msgid ""
+":ref:`get_overlapping_areas <class_Area_method_get_overlapping_areas>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:72
+msgid ""
+":ref:`get_overlapping_bodies <class_Area_method_get_overlapping_bodies>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:74
+msgid ""
+":ref:`overlaps_area <class_Area_method_overlaps_area>` **(** :ref:`Node "
+"<class_Node>` area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:76
+msgid ""
+":ref:`overlaps_body <class_Area_method_overlaps_body>` **(** :ref:`Node "
+"<class_Node>` body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:80
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:78
+msgid ""
+":ref:`set_collision_layer_bit "
+"<class_Area_method_set_collision_layer_bit>` **(** :ref:`int <class_int>`"
+" bit, :ref:`bool <class_bool>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:80
+msgid ""
+":ref:`set_collision_mask_bit <class_Area_method_set_collision_mask_bit>` "
+"**(** :ref:`int <class_int>` bit, :ref:`bool <class_bool>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:84
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:88
+msgid "**area_entered** **(** :ref:`Area <class_Area>` area **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:90
+msgid "Emitted when another area enters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:96
+msgid "**area_exited** **(** :ref:`Area <class_Area>` area **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:98
+msgid "Emitted when another area exits."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:104
+msgid ""
+"**area_shape_entered** **(** :ref:`int <class_int>` area_id, :ref:`Area "
+"<class_Area>` area, :ref:`int <class_int>` area_shape, :ref:`int "
+"<class_int>` self_shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:106
+msgid ""
+"Emitted when another area enters, reporting which areas overlapped. "
+"``shape_owner_get_owner(shape_find_owner(shape))`` returns the parent "
+"object of the owner of the ``shape``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:112
+msgid ""
+"**area_shape_exited** **(** :ref:`int <class_int>` area_id, :ref:`Area "
+"<class_Area>` area, :ref:`int <class_int>` area_shape, :ref:`int "
+"<class_int>` self_shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:114
+msgid "Emitted when another area exits, reporting which areas were overlapping."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:120
+msgid "**body_entered** **(** :ref:`Node <class_Node>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:122
+msgid "Emitted when a physics body enters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:154
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:525
+msgid ""
+"The ``body`` argument can either be a :ref:`PhysicsBody "
+"<class_PhysicsBody>` or a :ref:`GridMap <class_GridMap>` instance (while "
+"GridMaps are not physics body themselves, they register their tiles with "
+"collision shapes as a virtual physics body)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:130
+msgid "**body_exited** **(** :ref:`Node <class_Node>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:132
+msgid "Emitted when a physics body exits."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:140
+msgid ""
+"**body_shape_entered** **(** :ref:`int <class_int>` body_id, :ref:`Node "
+"<class_Node>` body, :ref:`int <class_int>` body_shape, :ref:`int "
+"<class_int>` area_shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:142
+msgid "Emitted when a physics body enters, reporting which shapes overlapped."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:150
+msgid ""
+"**body_shape_exited** **(** :ref:`int <class_int>` body_id, :ref:`Node "
+"<class_Node>` body, :ref:`int <class_int>` body_shape, :ref:`int "
+"<class_int>` area_shape **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:152
+msgid ""
+"Emitted when a physics body exits, reporting which shapes were "
+"overlapping."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:157
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:171
+msgid "enum **SpaceOverride**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:173
+msgid ""
+"**SPACE_OVERRIDE_DISABLED** = **0** --- This area does not affect "
+"gravity/damping."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:175
+msgid ""
+"**SPACE_OVERRIDE_COMBINE** = **1** --- This area adds its gravity/damping"
+" values to whatever has been calculated so far (in :ref:`priority "
+"<class_Area_property_priority>` order)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:177
+msgid ""
+"**SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- This area adds its "
+"gravity/damping values to whatever has been calculated so far (in "
+":ref:`priority <class_Area_property_priority>` order), ignoring any lower"
+" priority areas."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:179
+msgid ""
+"**SPACE_OVERRIDE_REPLACE** = **3** --- This area replaces any "
+"gravity/damping, even the defaults, ignoring any lower priority areas."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:181
+msgid ""
+"**SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- This area replaces any "
+"gravity/damping calculated so far (in :ref:`priority "
+"<class_Area_property_priority>` order), but keeps calculating the rest of"
+" the areas."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:184
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:188
+msgid ":ref:`float <class_float>` **angular_damp**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:239
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:255
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:271
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:287
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:303
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:319
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:335
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:351
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:367
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:383
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:399
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:415
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:431
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:447
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:463
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:225
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:241
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:257
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:273
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:289
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:305
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:321
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:337
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:353
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:369
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:385
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:401
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:417
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:433
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:449
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:465
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:193
+msgid "set_angular_damp(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:211
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:227
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:243
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:259
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:275
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:291
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:307
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:323
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:339
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:355
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:371
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:387
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:403
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:419
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:435
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:451
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:467
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:195
+msgid "get_angular_damp()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:198
+msgid ""
+"The rate at which objects stop spinning in this area. Represents the "
+"angular velocity lost per second. Values range from ``0`` (no damping) to"
+" ``1`` (full damping)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:204
+msgid ":ref:`StringName <class_StringName>` **audio_bus_name**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:209
+msgid "set_audio_bus(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:211
+msgid "get_audio_bus()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:214
+msgid "The name of the area's audio bus."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:220
+msgid ":ref:`bool <class_bool>` **audio_bus_override**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:225
+msgid "set_audio_bus_override(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:227
+msgid "is_overriding_audio_bus()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:230
+msgid "If ``true``, the area's audio bus overrides the default audio bus."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:236
+msgid ":ref:`int <class_int>` **collision_layer**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:241
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:243
+msgid "get_collision_layer()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:246
+msgid ""
+"The area's physics layer(s). Collidable objects can exist in any of 32 "
+"different layers. A contact is detected if object A is in any of the "
+"layers that object B scans, or object B is in any layers that object A "
+"scans. See also :ref:`collision_mask "
+"<class_Area_property_collision_mask>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:252
+msgid ":ref:`int <class_int>` **collision_mask**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:257
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:259
+msgid "get_collision_mask()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:262
+msgid "The physics layers this area scans to determine collision detection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:268
+msgid ":ref:`float <class_float>` **gravity**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:273
+msgid "set_gravity(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:275
+msgid "get_gravity()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:278
+msgid ""
+"The area's gravity intensity (ranges from -1024 to 1024). This value "
+"multiplies the gravity vector. This is useful to alter the force of "
+"gravity without altering its direction."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:284
+msgid ":ref:`float <class_float>` **gravity_distance_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:289
+msgid "set_gravity_distance_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:291
+msgid "get_gravity_distance_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:294
+msgid ""
+"The falloff factor for point gravity. The greater the value, the faster "
+"gravity decreases with distance."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:300
+msgid ":ref:`bool <class_bool>` **gravity_point**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:305
+msgid "set_gravity_is_point(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:307
+msgid "is_gravity_a_point()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:310
+msgid ""
+"If ``true``, gravity is calculated from a point (set via "
+":ref:`gravity_vec <class_Area_property_gravity_vec>`). See also "
+":ref:`space_override <class_Area_property_space_override>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:316
+msgid ":ref:`Vector3 <class_Vector3>` **gravity_vec**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:321
+msgid "set_gravity_vector(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:323
+msgid "get_gravity_vector()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:326
+msgid ""
+"The area's gravity vector (not normalized). If gravity is a point (see "
+":ref:`gravity_point <class_Area_property_gravity_point>`), this will be "
+"the point of attraction."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:332
+msgid ":ref:`float <class_float>` **linear_damp**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:337
+msgid "set_linear_damp(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:339
+msgid "get_linear_damp()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:342
+msgid ""
+"The rate at which objects stop moving in this area. Represents the linear"
+" velocity lost per second. Values range from ``0`` (no damping) to ``1`` "
+"(full damping)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:348
+msgid ":ref:`bool <class_bool>` **monitorable**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:353
+msgid "set_monitorable(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:355
+msgid "is_monitorable()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:358
+msgid "If ``true``, other monitoring areas can detect this area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:364
+msgid ":ref:`bool <class_bool>` **monitoring**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:369
+msgid "set_monitoring(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:371
+msgid "is_monitoring()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:374
+msgid "If ``true``, the area detects bodies or areas entering and exiting it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:380
+msgid ":ref:`float <class_float>` **priority**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:385
+msgid "set_priority(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:387
+msgid "get_priority()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:390
+msgid "The area's priority. Higher priority areas are processed first."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:396
+msgid ":ref:`float <class_float>` **reverb_bus_amount**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:401
+msgid "set_reverb_amount(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:403
+msgid "get_reverb_amount()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:406
+msgid ""
+"The degree to which this area applies reverb to its associated audio. "
+"Ranges from ``0`` to ``1`` with ``0.1`` precision."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:412
+msgid ":ref:`bool <class_bool>` **reverb_bus_enable**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:417
+msgid "set_use_reverb_bus(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:419
+msgid "is_using_reverb_bus()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:422
+msgid "If ``true``, the area applies reverb to its associated audio."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:428
+msgid ":ref:`StringName <class_StringName>` **reverb_bus_name**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:433
+msgid "set_reverb_bus(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:435
+msgid "get_reverb_bus()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:438
+msgid "The reverb bus name to use for this area's associated audio."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:444
+msgid ":ref:`float <class_float>` **reverb_bus_uniformity**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:449
+msgid "set_reverb_uniformity(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:451
+msgid "get_reverb_uniformity()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:454
+msgid ""
+"The degree to which this area's reverb is a uniform effect. Ranges from "
+"``0`` to ``1`` with ``0.1`` precision."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:460
+msgid ":ref:`SpaceOverride <enum_Area_SpaceOverride>` **space_override**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:465
+msgid "set_space_override_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:467
+msgid "get_space_override_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:470
+msgid ""
+"Override mode for gravity and damping calculations within this area. See "
+":ref:`SpaceOverride <enum_Area_SpaceOverride>` for possible values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:473
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:477
+msgid ""
+":ref:`bool <class_bool>` **get_collision_layer_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:479
+msgid "Returns an individual bit on the layer mask."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:485
+msgid ""
+":ref:`bool <class_bool>` **get_collision_mask_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:487
+msgid "Returns an individual bit on the collision mask."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:493
+msgid ":ref:`Array <class_Array>` **get_overlapping_areas** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:495
+msgid ""
+"Returns a list of intersecting ``Area``\\ s. For performance reasons "
+"(collisions are all processed at the same time) this list is modified "
+"once during the physics step, not immediately after objects are moved. "
+"Consider using signals instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:501
+msgid ":ref:`Array <class_Array>` **get_overlapping_bodies** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:503
+msgid ""
+"Returns a list of intersecting :ref:`PhysicsBody <class_PhysicsBody>`\\ "
+"s. For performance reasons (collisions are all processed at the same "
+"time) this list is modified once during the physics step, not immediately"
+" after objects are moved. Consider using signals instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:509
+msgid ""
+":ref:`bool <class_bool>` **overlaps_area** **(** :ref:`Node <class_Node>`"
+" area **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:511
+msgid "If ``true``, the given area overlaps the Area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:513
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:523
+msgid ""
+"**Note:** The result of this test is not immediate after moving objects. "
+"For performance, list of overlaps is updated once per frame and before "
+"the physics step. Consider using signals instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:519
+msgid ""
+":ref:`bool <class_bool>` **overlaps_body** **(** :ref:`Node <class_Node>`"
+" body **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:521
+msgid "If ``true``, the given physics body overlaps the Area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:531
+msgid ""
+"void **set_collision_layer_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:533
+msgid ""
+"Set/clear individual bits on the layer mask. This simplifies editing this"
+" ``Area``'s layers."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:539
+msgid ""
+"void **set_collision_mask_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_area.rst:541
+msgid ""
+"Set/clear individual bits on the collision mask. This simplifies editing "
+"which ``Area`` layers this ``Area`` scans."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0.1"
+#~ msgstr ""
+
+#~ msgid "\"Master\""
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "9.8"
+#~ msgstr ""
+
+#~ msgid "0.0"
+#~ msgstr ""
+
+#~ msgid "Vector3( 0, -1, 0 )"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "Emitted when another area enters, reporting which areas overlapped."
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>`"
+#~ msgstr ""
+
+#~ msgid "``\"Master\"``"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **audio_bus_name**"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **reverb_bus_name**"
+#~ msgstr ""
+

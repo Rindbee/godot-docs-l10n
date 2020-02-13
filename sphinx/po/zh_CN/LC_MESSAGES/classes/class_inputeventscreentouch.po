@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-31 19:30+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:10
+msgid "InputEventScreenTouch"
+msgstr "InputEventScreenTouch"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:14
+msgid "Input event type for screen touch events."
+msgstr "屏幕触摸事件的输入事件类型。"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:16
+msgid "(only available on mobile devices)"
+msgstr "（仅在移动设备上可用）"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:21
+msgid ""
+"Stores multi-touch press/release information. Supports touch press, touch"
+" release and :ref:`index <class_InputEventScreenTouch_property_index>` "
+"for multi-touch count and order."
+msgstr ""
+"存储多点触控按下/释放信息。支持触摸按下、触摸释放和 :ref:`index "
+"<class_InputEventScreenTouch_property_index>` 以获取多点触摸计数和顺序。"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:26
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ":doc:`../tutorials/inputs/inputevent`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:32
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:32
+msgid ":ref:`index <class_InputEventScreenTouch_property_index>`"
+msgstr ":ref:`index <class_InputEventScreenTouch_property_index>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:32
+#: ../../docs/classes/class_inputeventscreentouch.rst:47
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:34
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:34
+msgid ":ref:`position <class_InputEventScreenTouch_property_position>`"
+msgstr ":ref:`position <class_InputEventScreenTouch_property_position>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:34
+#: ../../docs/classes/class_inputeventscreentouch.rst:63
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:36
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:36
+msgid ":ref:`pressed <class_InputEventScreenTouch_property_pressed>`"
+msgstr ":ref:`pressed <class_InputEventScreenTouch_property_pressed>`"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:36
+#: ../../docs/classes/class_inputeventscreentouch.rst:79
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:40
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:44
+msgid ":ref:`int <class_int>` **index**"
+msgstr ":ref:`int <class_int>` **index**"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:47
+#: ../../docs/classes/class_inputeventscreentouch.rst:63
+#: ../../docs/classes/class_inputeventscreentouch.rst:79
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:49
+#: ../../docs/classes/class_inputeventscreentouch.rst:65
+#: ../../docs/classes/class_inputeventscreentouch.rst:81
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:49
+msgid "set_index(value)"
+msgstr "set_index(value)"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:51
+#: ../../docs/classes/class_inputeventscreentouch.rst:67
+#: ../../docs/classes/class_inputeventscreentouch.rst:83
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:51
+msgid "get_index()"
+msgstr "get_index()"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:54
+msgid ""
+"The touch index in the case of a multi-touch event. One index = one "
+"finger."
+msgstr "在多点触摸事件情况下的触摸索引。一个索引 = 一根手指。"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:60
+msgid ":ref:`Vector2 <class_Vector2>` **position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **position**"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:65
+msgid "set_position(value)"
+msgstr "set_position(value)"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:67
+msgid "get_position()"
+msgstr "get_position()"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:70
+msgid "The touch position."
+msgstr "触摸位置。"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:76
+msgid ":ref:`bool <class_bool>` **pressed**"
+msgstr ":ref:`bool <class_bool>` **pressed**"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:81
+msgid "set_pressed(value)"
+msgstr "set_pressed(value)"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:83
+msgid "is_pressed()"
+msgstr "is_pressed()"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:86
+msgid ""
+"If ``true``, the touch's state is pressed. If ``false``, the touch's "
+"state is released."
+msgstr "如果为 ``true``，则触摸的状态是按下。如果为 ``false``，则触摸的状态是释放。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

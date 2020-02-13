@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-29 22:49+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:10
+msgid "MeshTexture"
+msgstr "MeshTexture"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture "
+"<class_Texture>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:14
+msgid "Simple texture that uses a mesh to draw itself."
+msgstr "使用网格绘制自身的简单纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:19
+msgid ""
+"Simple texture that uses a mesh to draw itself. It's limited because "
+"flags can't be changed and region drawing is not supported."
+msgstr "使用网格绘制自身的简单纹理。这是有限的，因为不能更改标志，并且不支持区块绘图。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:25
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:25
+msgid ":ref:`base_texture <class_MeshTexture_property_base_texture>`"
+msgstr ":ref:`base_texture <class_MeshTexture_property_base_texture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:27
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:27
+msgid ":ref:`image_size <class_MeshTexture_property_image_size>`"
+msgstr ":ref:`image_size <class_MeshTexture_property_image_size>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:54
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:29
+msgid ":ref:`Mesh <class_Mesh>`"
+msgstr ":ref:`Mesh <class_Mesh>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:29
+msgid ":ref:`mesh <class_MeshTexture_property_mesh>`"
+msgstr ":ref:`mesh <class_MeshTexture_property_mesh>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:33
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:37
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **base_texture**"
+msgstr ":ref:`Texture <class_Texture>` **base_texture**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:70
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:40
+msgid "set_base_texture(value)"
+msgstr "set_base_texture(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:72
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:42
+msgid "get_base_texture()"
+msgstr "get_base_texture()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:45
+msgid "Sets the base texture that the Mesh will use to draw."
+msgstr "设置网格物体将用来绘制的基本纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:51
+msgid ":ref:`Vector2 <class_Vector2>` **image_size**"
+msgstr ":ref:`Vector2 <class_Vector2>` **image_size**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:54
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:56
+msgid "set_image_size(value)"
+msgstr "set_image_size(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:58
+msgid "get_image_size()"
+msgstr "get_image_size()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:61
+msgid "Sets the size of the image, needed for reference."
+msgstr "设置图像尺寸，以供参考。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:67
+msgid ":ref:`Mesh <class_Mesh>` **mesh**"
+msgstr ":ref:`Mesh <class_Mesh>` **mesh**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:70
+msgid "set_mesh(value)"
+msgstr "set_mesh(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:72
+msgid "get_mesh()"
+msgstr "get_mesh()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshtexture.rst:75
+msgid "Sets the mesh used to draw. It must be a mesh using 2D vertices."
+msgstr "设置用于绘制的网格。它必须是使用2D顶点的网格。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ":ref:`int <class_int>`"
+#~ msgstr ":ref:`int <class_int>`"
+
+#~ msgid "flags"
+#~ msgstr "flags"
+
+#~ msgid "**O:** ``0``"
+#~ msgstr "**O:** 0"
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Texture2D <class_Texture2D>` "
+#~ "**<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+#~ "**基类**：:ref:`Texture <class_Texture>` **<** "
+#~ ":ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+

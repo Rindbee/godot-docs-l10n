@@ -1,0 +1,1093 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:10
+msgid "AudioServer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:14
+msgid "Server interface for low-level audio access."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:19
+msgid ""
+"``AudioServer`` is a low-level server interface for audio access. It is "
+"in charge of creating sample data (playable audio) as well as its "
+"playback via a voice interface."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:24
+msgid ":doc:`../tutorials/audio/audio_buses`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:27
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:61
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:30
+msgid ":ref:`bus_count <class_AudioServer_property_bus_count>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:162
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:63
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:32
+msgid ":ref:`device <class_AudioServer_property_device>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:178
+msgid "``\"Default\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:83
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:34
+msgid ":ref:`global_rate_scale <class_AudioServer_property_global_rate_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:194
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:38
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:119
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:41
+msgid ""
+":ref:`add_bus <class_AudioServer_method_add_bus>` **(** :ref:`int "
+"<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:43
+msgid ""
+":ref:`add_bus_effect <class_AudioServer_method_add_bus_effect>` **(** "
+":ref:`int <class_int>` bus_idx, :ref:`AudioEffect <class_AudioEffect>` "
+"effect, :ref:`int <class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:45
+msgid ""
+":ref:`capture_get_device <class_AudioServer_method_capture_get_device>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:73
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:47
+msgid ""
+":ref:`capture_get_device_list "
+"<class_AudioServer_method_capture_get_device_list>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:49
+msgid ""
+":ref:`capture_set_device <class_AudioServer_method_capture_set_device>` "
+"**(** :ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:51
+msgid ":ref:`AudioBusLayout <class_AudioBusLayout>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:51
+msgid ""
+":ref:`generate_bus_layout <class_AudioServer_method_generate_bus_layout>`"
+" **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:53
+msgid ""
+":ref:`get_bus_channels <class_AudioServer_method_get_bus_channels>` **(**"
+" :ref:`int <class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:55
+msgid ":ref:`AudioEffect <class_AudioEffect>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:55
+msgid ""
+":ref:`get_bus_effect <class_AudioServer_method_get_bus_effect>` **(** "
+":ref:`int <class_int>` bus_idx, :ref:`int <class_int>` effect_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:57
+msgid ""
+":ref:`get_bus_effect_count "
+"<class_AudioServer_method_get_bus_effect_count>` **(** :ref:`int "
+"<class_int>` bus_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:59
+msgid ":ref:`AudioEffectInstance <class_AudioEffectInstance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:59
+msgid ""
+":ref:`get_bus_effect_instance "
+"<class_AudioServer_method_get_bus_effect_instance>` **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`int <class_int>` effect_idx, :ref:`int "
+"<class_int>` channel=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:61
+msgid ""
+":ref:`get_bus_index <class_AudioServer_method_get_bus_index>` **(** "
+":ref:`StringName <class_StringName>` bus_name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:63
+msgid ""
+":ref:`get_bus_name <class_AudioServer_method_get_bus_name>` **(** "
+":ref:`int <class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:65
+msgid ""
+":ref:`get_bus_peak_volume_left_db "
+"<class_AudioServer_method_get_bus_peak_volume_left_db>` **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`int <class_int>` channel **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:67
+msgid ""
+":ref:`get_bus_peak_volume_right_db "
+"<class_AudioServer_method_get_bus_peak_volume_right_db>` **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`int <class_int>` channel **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:69
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:69
+msgid ""
+":ref:`get_bus_send <class_AudioServer_method_get_bus_send>` **(** "
+":ref:`int <class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:71
+msgid ""
+":ref:`get_bus_volume_db <class_AudioServer_method_get_bus_volume_db>` "
+"**(** :ref:`int <class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:73
+msgid ""
+":ref:`get_device_list <class_AudioServer_method_get_device_list>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:75
+msgid ""
+":ref:`get_mix_rate <class_AudioServer_method_get_mix_rate>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:77
+msgid ""
+":ref:`get_output_latency <class_AudioServer_method_get_output_latency>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:79
+msgid ":ref:`SpeakerMode <enum_AudioServer_SpeakerMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:79
+msgid ""
+":ref:`get_speaker_mode <class_AudioServer_method_get_speaker_mode>` **(**"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:81
+msgid ""
+":ref:`get_time_since_last_mix "
+"<class_AudioServer_method_get_time_since_last_mix>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:83
+msgid ""
+":ref:`get_time_to_next_mix "
+"<class_AudioServer_method_get_time_to_next_mix>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:91
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:85
+msgid ""
+":ref:`is_bus_bypassing_effects "
+"<class_AudioServer_method_is_bus_bypassing_effects>` **(** :ref:`int "
+"<class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:87
+msgid ""
+":ref:`is_bus_effect_enabled "
+"<class_AudioServer_method_is_bus_effect_enabled>` **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`int <class_int>` effect_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:89
+msgid ""
+":ref:`is_bus_mute <class_AudioServer_method_is_bus_mute>` **(** :ref:`int"
+" <class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:91
+msgid ""
+":ref:`is_bus_solo <class_AudioServer_method_is_bus_solo>` **(** :ref:`int"
+" <class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:93
+msgid ":ref:`lock <class_AudioServer_method_lock>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:95
+msgid ""
+":ref:`move_bus <class_AudioServer_method_move_bus>` **(** :ref:`int "
+"<class_int>` index, :ref:`int <class_int>` to_index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:97
+msgid ""
+":ref:`remove_bus <class_AudioServer_method_remove_bus>` **(** :ref:`int "
+"<class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:99
+msgid ""
+":ref:`remove_bus_effect <class_AudioServer_method_remove_bus_effect>` "
+"**(** :ref:`int <class_int>` bus_idx, :ref:`int <class_int>` effect_idx "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:101
+msgid ""
+":ref:`set_bus_bypass_effects "
+"<class_AudioServer_method_set_bus_bypass_effects>` **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:103
+msgid ""
+":ref:`set_bus_effect_enabled "
+"<class_AudioServer_method_set_bus_effect_enabled>` **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`int <class_int>` effect_idx, :ref:`bool "
+"<class_bool>` enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:105
+msgid ""
+":ref:`set_bus_layout <class_AudioServer_method_set_bus_layout>` **(** "
+":ref:`AudioBusLayout <class_AudioBusLayout>` bus_layout **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:107
+msgid ""
+":ref:`set_bus_mute <class_AudioServer_method_set_bus_mute>` **(** "
+":ref:`int <class_int>` bus_idx, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:109
+msgid ""
+":ref:`set_bus_name <class_AudioServer_method_set_bus_name>` **(** "
+":ref:`int <class_int>` bus_idx, :ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:111
+msgid ""
+":ref:`set_bus_send <class_AudioServer_method_set_bus_send>` **(** "
+":ref:`int <class_int>` bus_idx, :ref:`StringName <class_StringName>` send"
+" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:113
+msgid ""
+":ref:`set_bus_solo <class_AudioServer_method_set_bus_solo>` **(** "
+":ref:`int <class_int>` bus_idx, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:115
+msgid ""
+":ref:`set_bus_volume_db <class_AudioServer_method_set_bus_volume_db>` "
+"**(** :ref:`int <class_int>` bus_idx, :ref:`float <class_float>` "
+"volume_db **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:117
+msgid ""
+":ref:`swap_bus_effects <class_AudioServer_method_swap_bus_effects>` **(**"
+" :ref:`int <class_int>` bus_idx, :ref:`int <class_int>` effect_idx, "
+":ref:`int <class_int>` by_effect_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:119
+msgid ":ref:`unlock <class_AudioServer_method_unlock>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:123
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:127
+msgid "**bus_layout_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:129
+msgid "Emitted when the :ref:`AudioBusLayout <class_AudioBusLayout>` changes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:132
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:144
+msgid "enum **SpeakerMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:146
+msgid "**SPEAKER_MODE_STEREO** = **0** --- Two or fewer speakers were detected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:148
+msgid ""
+"**SPEAKER_SURROUND_31** = **1** --- A 3.1 channel surround setup was "
+"detected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:150
+msgid ""
+"**SPEAKER_SURROUND_51** = **2** --- A 5.1 channel surround setup was "
+"detected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:152
+msgid ""
+"**SPEAKER_SURROUND_71** = **3** --- A 7.1 channel surround setup was "
+"detected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:155
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:159
+msgid ":ref:`int <class_int>` **bus_count**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:194
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:196
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:164
+msgid "set_bus_count(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:198
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:166
+msgid "get_bus_count()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:169
+msgid "Number of available audio buses."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:175
+msgid ":ref:`String <class_String>` **device**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:180
+msgid "set_device(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:182
+msgid "get_device()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:185
+msgid ""
+"Name of the current device for audio output (see :ref:`get_device_list "
+"<class_AudioServer_method_get_device_list>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:191
+msgid ":ref:`float <class_float>` **global_rate_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:196
+msgid "set_global_rate_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:198
+msgid "get_global_rate_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:201
+msgid ""
+"Scales the rate at which audio is played (i.e. setting it to ``0.5`` will"
+" make the audio be played twice as fast)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:204
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:208
+msgid "void **add_bus** **(** :ref:`int <class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:210
+msgid "Adds a bus at ``at_position``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:216
+msgid ""
+"void **add_bus_effect** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`AudioEffect <class_AudioEffect>` effect, :ref:`int <class_int>` "
+"at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:218
+msgid ""
+"Adds an :ref:`AudioEffect <class_AudioEffect>` effect to the bus "
+"``bus_idx`` at ``at_position``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:224
+msgid ":ref:`String <class_String>` **capture_get_device** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:226
+msgid ""
+"Name of the current device for audio input (see "
+":ref:`capture_get_device_list "
+"<class_AudioServer_method_capture_get_device_list>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:232
+msgid ":ref:`Array <class_Array>` **capture_get_device_list** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:234
+msgid "Returns the names of all audio input devices detected on the system."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:240
+msgid "void **capture_set_device** **(** :ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:242
+msgid "Sets which audio input device is used for audio capture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:248
+msgid ""
+":ref:`AudioBusLayout <class_AudioBusLayout>` **generate_bus_layout** "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:250
+msgid ""
+"Generates an :ref:`AudioBusLayout <class_AudioBusLayout>` using the "
+"available buses and effects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:256
+msgid ""
+":ref:`int <class_int>` **get_bus_channels** **(** :ref:`int <class_int>` "
+"bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:258
+msgid "Returns the amount of channels of the bus at index ``bus_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:264
+msgid ""
+":ref:`AudioEffect <class_AudioEffect>` **get_bus_effect** **(** :ref:`int"
+" <class_int>` bus_idx, :ref:`int <class_int>` effect_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:266
+msgid ""
+"Returns the :ref:`AudioEffect <class_AudioEffect>` at position "
+"``effect_idx`` in bus ``bus_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:272
+msgid ""
+":ref:`int <class_int>` **get_bus_effect_count** **(** :ref:`int "
+"<class_int>` bus_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:274
+msgid "Returns the number of effects on the bus at ``bus_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:280
+msgid ""
+":ref:`AudioEffectInstance <class_AudioEffectInstance>` "
+"**get_bus_effect_instance** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`int <class_int>` effect_idx, :ref:`int <class_int>` channel=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:282
+msgid ""
+"Returns the :ref:`AudioEffectInstance <class_AudioEffectInstance>` "
+"assigned to the given bus and effect indices (and optionally channel)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:288
+msgid ""
+":ref:`int <class_int>` **get_bus_index** **(** :ref:`StringName "
+"<class_StringName>` bus_name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:290
+msgid "Returns the index of the bus with the name ``bus_name``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:296
+msgid ""
+":ref:`String <class_String>` **get_bus_name** **(** :ref:`int "
+"<class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:298
+msgid "Returns the name of the bus with the index ``bus_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:304
+msgid ""
+":ref:`float <class_float>` **get_bus_peak_volume_left_db** **(** "
+":ref:`int <class_int>` bus_idx, :ref:`int <class_int>` channel **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:306
+msgid ""
+"Returns the peak volume of the left speaker at bus index ``bus_idx`` and "
+"channel index ``channel``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:312
+msgid ""
+":ref:`float <class_float>` **get_bus_peak_volume_right_db** **(** "
+":ref:`int <class_int>` bus_idx, :ref:`int <class_int>` channel **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:314
+msgid ""
+"Returns the peak volume of the right speaker at bus index ``bus_idx`` and"
+" channel index ``channel``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:320
+msgid ""
+":ref:`StringName <class_StringName>` **get_bus_send** **(** :ref:`int "
+"<class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:322
+msgid "Returns the name of the bus that the bus at index ``bus_idx`` sends to."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:328
+msgid ""
+":ref:`float <class_float>` **get_bus_volume_db** **(** :ref:`int "
+"<class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:330
+msgid "Returns the volume of the bus at index ``bus_idx`` in dB."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:336
+msgid ":ref:`Array <class_Array>` **get_device_list** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:338
+msgid "Returns the names of all audio devices detected on the system."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:344
+msgid ":ref:`float <class_float>` **get_mix_rate** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:346
+msgid "Returns the sample rate at the output of the ``AudioServer``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:352
+msgid ":ref:`float <class_float>` **get_output_latency** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:354
+msgid "Returns the audio driver's output latency."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:360
+msgid ""
+":ref:`SpeakerMode <enum_AudioServer_SpeakerMode>` **get_speaker_mode** "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:362
+msgid "Returns the speaker configuration."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:368
+msgid ":ref:`float <class_float>` **get_time_since_last_mix** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:370
+msgid "Returns the relative time since the last mix occurred."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:376
+msgid ":ref:`float <class_float>` **get_time_to_next_mix** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:378
+msgid "Returns the relative time until the next mix occurs."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:384
+msgid ""
+":ref:`bool <class_bool>` **is_bus_bypassing_effects** **(** :ref:`int "
+"<class_int>` bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:386
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:452
+msgid "If ``true``, the bus at index ``bus_idx`` is bypassing effects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:392
+msgid ""
+":ref:`bool <class_bool>` **is_bus_effect_enabled** **(** :ref:`int "
+"<class_int>` bus_idx, :ref:`int <class_int>` effect_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:394
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:460
+msgid ""
+"If ``true``, the effect at index ``effect_idx`` on the bus at index "
+"``bus_idx`` is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:400
+msgid ""
+":ref:`bool <class_bool>` **is_bus_mute** **(** :ref:`int <class_int>` "
+"bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:402
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:476
+msgid "If ``true``, the bus at index ``bus_idx`` is muted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:408
+msgid ""
+":ref:`bool <class_bool>` **is_bus_solo** **(** :ref:`int <class_int>` "
+"bus_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:410
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:500
+msgid "If ``true``, the bus at index ``bus_idx`` is in solo mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:416
+msgid "void **lock** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:418
+msgid "Locks the audio driver's main loop."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:420
+msgid "**Note:** Remember to unlock it afterwards."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:426
+msgid ""
+"void **move_bus** **(** :ref:`int <class_int>` index, :ref:`int "
+"<class_int>` to_index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:428
+msgid "Moves the bus from index ``index`` to index ``to_index``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:434
+msgid "void **remove_bus** **(** :ref:`int <class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:436
+msgid "Removes the bus at index ``index``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:442
+msgid ""
+"void **remove_bus_effect** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`int <class_int>` effect_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:444
+msgid ""
+"Removes the effect at index ``effect_idx`` from the bus at index "
+"``bus_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:450
+msgid ""
+"void **set_bus_bypass_effects** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:458
+msgid ""
+"void **set_bus_effect_enabled** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`int <class_int>` effect_idx, :ref:`bool <class_bool>` enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:466
+msgid ""
+"void **set_bus_layout** **(** :ref:`AudioBusLayout "
+"<class_AudioBusLayout>` bus_layout **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:468
+msgid ""
+"Overwrites the currently used :ref:`AudioBusLayout "
+"<class_AudioBusLayout>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:474
+msgid ""
+"void **set_bus_mute** **(** :ref:`int <class_int>` bus_idx, :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:482
+msgid ""
+"void **set_bus_name** **(** :ref:`int <class_int>` bus_idx, :ref:`String "
+"<class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:484
+msgid "Sets the name of the bus at index ``bus_idx`` to ``name``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:490
+msgid ""
+"void **set_bus_send** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`StringName <class_StringName>` send **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:492
+msgid "Connects the output of the bus at ``bus_idx`` to the bus named ``send``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:498
+msgid ""
+"void **set_bus_solo** **(** :ref:`int <class_int>` bus_idx, :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:506
+msgid ""
+"void **set_bus_volume_db** **(** :ref:`int <class_int>` bus_idx, "
+":ref:`float <class_float>` volume_db **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:508
+msgid "Sets the volume of the bus at index ``bus_idx`` to ``volume_db``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:514
+msgid ""
+"void **swap_bus_effects** **(** :ref:`int <class_int>` bus_idx, :ref:`int"
+" <class_int>` effect_idx, :ref:`int <class_int>` by_effect_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:516
+msgid "Swaps the position of two effects in bus ``bus_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:522
+msgid "void **unlock** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audioserver.rst:524
+msgid ""
+"Unlocks the audio driver's main loop. (After locking it, you should "
+"always unlock it.)"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid ":ref:`capture_device <class_AudioServer_property_capture_device>`"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "\"Default\""
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`capture_start <class_AudioServer_method_capture_start>`"
+#~ " **(** **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`capture_stop <class_AudioServer_method_capture_stop>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_capture_buffer "
+#~ "<class_AudioServer_method_get_capture_buffer>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_capture_position "
+#~ "<class_AudioServer_method_get_capture_position>` **(** "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_capture_size "
+#~ "<class_AudioServer_method_get_capture_size>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid "**audio_mix_callback** **(** **)**"
+#~ msgstr ""
+
+#~ msgid "**audio_update_callback** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SPEAKER_SURROUND_51** = **2** --- A "
+#~ "5.1 channel surround setup was  "
+#~ "detected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SPEAKER_SURROUND_71** = **3** --- A "
+#~ "7.1 channel surround setup was  "
+#~ "detected."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "AudioServer is a low-level server "
+#~ "interface for audio access. It is "
+#~ "in charge of creating sample data "
+#~ "(playable audio) as well as its "
+#~ "playback via a voice interface."
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **capture_device**"
+#~ msgstr ""
+
+#~ msgid "capture_set_device(value)"
+#~ msgstr ""
+
+#~ msgid "capture_get_device()"
+#~ msgstr ""
+
+#~ msgid ":ref:`Error <enum_@GlobalScope_Error>` **capture_start** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Attempts to start recording from the "
+#~ "audio driver's capture device. On "
+#~ "success, the return value is "
+#~ ":ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>`."
+#~ msgstr ""
+
+#~ msgid ":ref:`Error <enum_@GlobalScope_Error>` **capture_stop** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Attempts to stop recording from the "
+#~ "audio driver's capture device. On "
+#~ "success, the return value is "
+#~ ":ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` "
+#~ "**get_capture_buffer** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an :ref:`PoolIntArray <class_PoolIntArray>`"
+#~ " containing audio frames from the "
+#~ "capture device."
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_capture_position** **(** **)**"
+#~ msgstr ""
+
+#~ msgid "Returns the write position of the capture device buffer."
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_capture_size** **(** **)**"
+#~ msgstr ""
+
+#~ msgid "Returns the size of the capture device buffer."
+#~ msgstr ""
+
+#~ msgid "Returns the names of all audio output devices detected on the system."
+#~ msgstr ""
+
+#~ msgid "Locks the audio driver's main loop. Remember to unlock it afterwards."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_bus_index <class_AudioServer_method_get_bus_index>`"
+#~ " **(** :ref:`String <class_String>` bus_name "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_bus_send <class_AudioServer_method_set_bus_send>` "
+#~ "**(** :ref:`int <class_int>` bus_idx, "
+#~ ":ref:`String <class_String>` send **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **get_bus_index** **(** "
+#~ ":ref:`String <class_String>` bus_name **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`String <class_String>` **get_bus_send** **(**"
+#~ " :ref:`int <class_int>` bus_idx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_bus_send** **(** :ref:`int "
+#~ "<class_int>` bus_idx, :ref:`String <class_String>`"
+#~ " send **)**"
+#~ msgstr ""
+

@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-29 08:35+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_material.rst:10
+msgid "Material"
+msgstr "Material"
+
+#: ../../docs/classes/class_material.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_material.rst:14
+msgid ""
+"**Inherited By:** :ref:`BaseMaterial3D <class_BaseMaterial3D>`, "
+":ref:`CanvasItemMaterial <class_CanvasItemMaterial>`, "
+":ref:`ParticlesMaterial <class_ParticlesMaterial>`, :ref:`ShaderMaterial "
+"<class_ShaderMaterial>`"
+msgstr ""
+
+#: ../../docs/classes/class_material.rst:16
+msgid ""
+"Abstract base :ref:`Resource <class_Resource>` for coloring and shading "
+"geometry."
+msgstr "用于着色和着色几何的抽象基本 :ref:`Resource <class_Resource>`。"
+
+#: ../../docs/classes/class_material.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_material.rst:21
+msgid ""
+"Material is a base :ref:`Resource <class_Resource>` used for coloring and"
+" shading geometry. All materials inherit from it and almost all "
+":ref:`VisualInstance <class_VisualInstance>` derived nodes carry a "
+"Material. A few flags and parameters are shared between all material "
+"types and are configured here."
+msgstr ""
+"``Material`` 是用于着色和着色几何图形的一个基本 :ref:`Resource "
+"<class_Resource>`。所有材质都继承自它，并且几乎所有 :ref:`VisualInstance "
+"<class_VisualInstance>` 派生节点都携带一个 "
+"``Material``。所有材质类型之间，共享一些标志和参数，并在此处进行配置。"
+
+#: ../../docs/classes/class_material.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_material.rst:27
+msgid ":ref:`Material <class_Material>`"
+msgstr ":ref:`Material <class_Material>`"
+
+#: ../../docs/classes/class_material.rst:27
+msgid ":ref:`next_pass <class_Material_property_next_pass>`"
+msgstr ":ref:`next_pass <class_Material_property_next_pass>`"
+
+#: ../../docs/classes/class_material.rst:29
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_material.rst:29
+msgid ":ref:`render_priority <class_Material_property_render_priority>`"
+msgstr ":ref:`render_priority <class_Material_property_render_priority>`"
+
+#: ../../docs/classes/class_material.rst:29
+#: ../../docs/classes/class_material.rst:67
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_material.rst:33
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_material.rst:39
+msgid ""
+"**RENDER_PRIORITY_MAX** = **127** --- Maximum value for the "
+":ref:`render_priority <class_Material_property_render_priority>` "
+"parameter."
+msgstr ""
+"**RENDER_PRIORITY_MAX** = **127** —— :ref:`render_priority "
+"<class_Material_property_render_priority>` 参数的最大值。"
+
+#: ../../docs/classes/class_material.rst:41
+msgid ""
+"**RENDER_PRIORITY_MIN** = **-128** --- Minimum value for the "
+":ref:`render_priority <class_Material_property_render_priority>` "
+"parameter."
+msgstr ""
+"**RENDER_PRIORITY_MIN** = **-128** —— :ref:`render_priority "
+"<class_Material_property_render_priority>` 参数的最小值。"
+
+#: ../../docs/classes/class_material.rst:44
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_material.rst:48
+msgid ":ref:`Material <class_Material>` **next_pass**"
+msgstr ":ref:`Material <class_Material>` **next_pass**"
+
+#: ../../docs/classes/class_material.rst:51
+#: ../../docs/classes/class_material.rst:69
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_material.rst:51
+msgid "set_next_pass(value)"
+msgstr "set_next_pass(value)"
+
+#: ../../docs/classes/class_material.rst:53
+#: ../../docs/classes/class_material.rst:71
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_material.rst:53
+msgid "get_next_pass()"
+msgstr "get_next_pass()"
+
+#: ../../docs/classes/class_material.rst:56
+msgid ""
+"Sets the ``Material`` to be used for the next pass. This renders the "
+"object again using a different material."
+msgstr ""
+
+#: ../../docs/classes/class_material.rst:58
+msgid ""
+"**Note:** only applies to :ref:`StandardMaterial3D "
+"<class_StandardMaterial3D>`\\ s and :ref:`ShaderMaterial "
+"<class_ShaderMaterial>`\\ s with type \"Spatial\"."
+msgstr ""
+
+#: ../../docs/classes/class_material.rst:64
+msgid ":ref:`int <class_int>` **render_priority**"
+msgstr ":ref:`int <class_int>` **render_priority**"
+
+#: ../../docs/classes/class_material.rst:67
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_material.rst:69
+msgid "set_render_priority(value)"
+msgstr "set_render_priority(value)"
+
+#: ../../docs/classes/class_material.rst:71
+msgid "get_render_priority()"
+msgstr "get_render_priority()"
+
+#: ../../docs/classes/class_material.rst:74
+msgid ""
+"Sets the render priority for transparent objects in 3D scenes. Higher "
+"priority objects will be sorted in front of lower priority objects."
+msgstr ""
+
+#: ../../docs/classes/class_material.rst:76
+msgid ""
+"**Note:** this only applies to sorting of transparent objects. This will "
+"not impact how transparent objects are sorted relative to opaque objects."
+" This is because opaque objects are sorted based on depth, while "
+"transparent objects are sorted from back to front (subject to priority)."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`CanvasItemMaterial "
+#~ "<class_CanvasItemMaterial>`, :ref:`ParticlesMaterial "
+#~ "<class_ParticlesMaterial>`, :ref:`ShaderMaterial "
+#~ "<class_ShaderMaterial>`, :ref:`SpatialMaterial "
+#~ "<class_SpatialMaterial>`"
+#~ msgstr ""
+#~ "**子类**：:ref:`CanvasItemMaterial <class_CanvasItemMaterial>`, "
+#~ ":ref:`ParticlesMaterial <class_ParticlesMaterial>`, "
+#~ ":ref:`ShaderMaterial <class_ShaderMaterial>`, "
+#~ ":ref:`SpatialMaterial <class_SpatialMaterial>`"
+
+#~ msgid ""
+#~ "**Note:** only applies to "
+#~ ":ref:`SpatialMaterial <class_SpatialMaterial>`\\ s "
+#~ "and :ref:`ShaderMaterial <class_ShaderMaterial>`\\ s"
+#~ " with type \"Spatial\"."
+#~ msgstr ""
+

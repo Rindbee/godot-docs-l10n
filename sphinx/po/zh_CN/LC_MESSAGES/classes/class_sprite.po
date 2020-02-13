@@ -1,0 +1,637 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-28 19:32+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_sprite.rst:10
+msgid "Sprite"
+msgstr "Sprite"
+
+#: ../../docs/classes/class_sprite.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_sprite.rst:14
+msgid "General-purpose sprite node."
+msgstr "通用精灵节点。"
+
+#: ../../docs/classes/class_sprite.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_sprite.rst:19
+msgid ""
+"A node that displays a 2D texture. The texture displayed can be a region "
+"from a larger atlas texture, or a frame from a sprite sheet animation."
+msgstr "显示2D纹理的节点。显示的纹理可以是较大的图块集纹理的区块，也可以是一个精灵表动画的一帧。"
+
+#: ../../docs/classes/class_sprite.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_sprite.rst:25
+#: ../../docs/classes/class_sprite.rst:27
+#: ../../docs/classes/class_sprite.rst:29
+#: ../../docs/classes/class_sprite.rst:41
+#: ../../docs/classes/class_sprite.rst:43
+#: ../../docs/classes/class_sprite.rst:64
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_sprite.rst:25
+msgid ":ref:`centered <class_Sprite_property_centered>`"
+msgstr ":ref:`centered <class_Sprite_property_centered>`"
+
+#: ../../docs/classes/class_sprite.rst:25
+#: ../../docs/classes/class_sprite.rst:92
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: ../../docs/classes/class_sprite.rst:27
+msgid ":ref:`flip_h <class_Sprite_property_flip_h>`"
+msgstr ":ref:`flip_h <class_Sprite_property_flip_h>`"
+
+#: ../../docs/classes/class_sprite.rst:27
+#: ../../docs/classes/class_sprite.rst:29
+#: ../../docs/classes/class_sprite.rst:41
+#: ../../docs/classes/class_sprite.rst:43
+#: ../../docs/classes/class_sprite.rst:108
+#: ../../docs/classes/class_sprite.rst:124
+#: ../../docs/classes/class_sprite.rst:218
+#: ../../docs/classes/class_sprite.rst:234
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_sprite.rst:29
+msgid ":ref:`flip_v <class_Sprite_property_flip_v>`"
+msgstr ":ref:`flip_v <class_Sprite_property_flip_v>`"
+
+#: ../../docs/classes/class_sprite.rst:31
+#: ../../docs/classes/class_sprite.rst:35
+#: ../../docs/classes/class_sprite.rst:55
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_sprite.rst:31
+msgid ":ref:`frame <class_Sprite_property_frame>`"
+msgstr ":ref:`frame <class_Sprite_property_frame>`"
+
+#: ../../docs/classes/class_sprite.rst:31
+#: ../../docs/classes/class_sprite.rst:140
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite.rst:33
+#: ../../docs/classes/class_sprite.rst:39
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_sprite.rst:33
+msgid ":ref:`frame_coords <class_Sprite_property_frame_coords>`"
+msgstr ":ref:`frame_coords <class_Sprite_property_frame_coords>`"
+
+#: ../../docs/classes/class_sprite.rst:33
+#: ../../docs/classes/class_sprite.rst:39
+#: ../../docs/classes/class_sprite.rst:156
+#: ../../docs/classes/class_sprite.rst:202
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_sprite.rst:35
+msgid ":ref:`hframes <class_Sprite_property_hframes>`"
+msgstr ":ref:`hframes <class_Sprite_property_hframes>`"
+
+#: ../../docs/classes/class_sprite.rst:35
+#: ../../docs/classes/class_sprite.rst:55
+#: ../../docs/classes/class_sprite.rst:172
+#: ../../docs/classes/class_sprite.rst:320
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite.rst:37
+#: ../../docs/classes/class_sprite.rst:51
+#: ../../docs/classes/class_sprite.rst:53
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: ../../docs/classes/class_sprite.rst:37
+msgid ":ref:`normal_map <class_Sprite_property_normal_map>`"
+msgstr ":ref:`normal_map <class_Sprite_property_normal_map>`"
+
+#: ../../docs/classes/class_sprite.rst:39
+msgid ":ref:`offset <class_Sprite_property_offset>`"
+msgstr ":ref:`offset <class_Sprite_property_offset>`"
+
+#: ../../docs/classes/class_sprite.rst:41
+msgid ":ref:`region_enabled <class_Sprite_property_region_enabled>`"
+msgstr ":ref:`region_enabled <class_Sprite_property_region_enabled>`"
+
+#: ../../docs/classes/class_sprite.rst:43
+msgid ":ref:`region_filter_clip <class_Sprite_property_region_filter_clip>`"
+msgstr ":ref:`region_filter_clip <class_Sprite_property_region_filter_clip>`"
+
+#: ../../docs/classes/class_sprite.rst:45
+#: ../../docs/classes/class_sprite.rst:62
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ":ref:`Rect2 <class_Rect2>`"
+
+#: ../../docs/classes/class_sprite.rst:45
+msgid ":ref:`region_rect <class_Sprite_property_region_rect>`"
+msgstr ":ref:`region_rect <class_Sprite_property_region_rect>`"
+
+#: ../../docs/classes/class_sprite.rst:45
+#: ../../docs/classes/class_sprite.rst:250
+#, fuzzy
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr "Rect2( 0, 0, 0, 0 )"
+
+#: ../../docs/classes/class_sprite.rst:47
+#, fuzzy
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_sprite.rst:47
+#, fuzzy
+msgid ":ref:`shininess <class_Sprite_property_shininess>`"
+msgstr ":ref:`hframes <class_Sprite_property_hframes>`"
+
+#: ../../docs/classes/class_sprite.rst:47
+#: ../../docs/classes/class_sprite.rst:266
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite.rst:49
+#, fuzzy
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_sprite.rst:49
+#, fuzzy
+msgid ":ref:`specular_color <class_Sprite_property_specular_color>`"
+msgstr ":ref:`frame_coords <class_Sprite_property_frame_coords>`"
+
+#: ../../docs/classes/class_sprite.rst:49
+#: ../../docs/classes/class_sprite.rst:280
+#, fuzzy
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr "Rect2( 0, 0, 0, 0 )"
+
+#: ../../docs/classes/class_sprite.rst:51
+#, fuzzy
+msgid ":ref:`specular_map <class_Sprite_property_specular_map>`"
+msgstr ":ref:`normal_map <class_Sprite_property_normal_map>`"
+
+#: ../../docs/classes/class_sprite.rst:53
+msgid ":ref:`texture <class_Sprite_property_texture>`"
+msgstr ":ref:`texture <class_Sprite_property_texture>`"
+
+#: ../../docs/classes/class_sprite.rst:55
+msgid ":ref:`vframes <class_Sprite_property_vframes>`"
+msgstr ":ref:`vframes <class_Sprite_property_vframes>`"
+
+#: ../../docs/classes/class_sprite.rst:59
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_sprite.rst:62
+msgid ":ref:`get_rect <class_Sprite_method_get_rect>` **(** **)** const"
+msgstr ":ref:`get_rect <class_Sprite_method_get_rect>` **(** **)** const"
+
+#: ../../docs/classes/class_sprite.rst:64
+msgid ""
+":ref:`is_pixel_opaque <class_Sprite_method_is_pixel_opaque>` **(** "
+":ref:`Vector2 <class_Vector2>` pos **)** const"
+msgstr ""
+":ref:`is_pixel_opaque <class_Sprite_method_is_pixel_opaque>` **(** "
+":ref:`Vector2 <class_Vector2>` pos **)** const"
+
+#: ../../docs/classes/class_sprite.rst:68
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_sprite.rst:72
+msgid "**frame_changed** **(** **)**"
+msgstr "**frame_changed** **(** **)**"
+
+#: ../../docs/classes/class_sprite.rst:74
+msgid "Emitted when the :ref:`frame <class_Sprite_property_frame>` changes."
+msgstr ":ref:`frame <class_Sprite_property_frame>` 更改时发出。"
+
+#: ../../docs/classes/class_sprite.rst:80
+msgid "**texture_changed** **(** **)**"
+msgstr "**texture_changed** **(** **)**"
+
+#: ../../docs/classes/class_sprite.rst:82
+msgid "Emitted when the :ref:`texture <class_Sprite_property_texture>` changes."
+msgstr ":ref:`texture <class_Sprite_property_texture>` 更改时发出。"
+
+#: ../../docs/classes/class_sprite.rst:85
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_sprite.rst:89
+msgid ":ref:`bool <class_bool>` **centered**"
+msgstr ":ref:`bool <class_bool>` **centered**"
+
+#: ../../docs/classes/class_sprite.rst:92
+#: ../../docs/classes/class_sprite.rst:108
+#: ../../docs/classes/class_sprite.rst:124
+#: ../../docs/classes/class_sprite.rst:140
+#: ../../docs/classes/class_sprite.rst:156
+#: ../../docs/classes/class_sprite.rst:172
+#: ../../docs/classes/class_sprite.rst:202
+#: ../../docs/classes/class_sprite.rst:218
+#: ../../docs/classes/class_sprite.rst:234
+#: ../../docs/classes/class_sprite.rst:250
+#: ../../docs/classes/class_sprite.rst:266
+#: ../../docs/classes/class_sprite.rst:280
+#: ../../docs/classes/class_sprite.rst:320
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_sprite.rst:94
+#: ../../docs/classes/class_sprite.rst:110
+#: ../../docs/classes/class_sprite.rst:126
+#: ../../docs/classes/class_sprite.rst:142
+#: ../../docs/classes/class_sprite.rst:158
+#: ../../docs/classes/class_sprite.rst:174
+#: ../../docs/classes/class_sprite.rst:188
+#: ../../docs/classes/class_sprite.rst:204
+#: ../../docs/classes/class_sprite.rst:220
+#: ../../docs/classes/class_sprite.rst:236
+#: ../../docs/classes/class_sprite.rst:252
+#: ../../docs/classes/class_sprite.rst:268
+#: ../../docs/classes/class_sprite.rst:282
+#: ../../docs/classes/class_sprite.rst:294
+#: ../../docs/classes/class_sprite.rst:306
+#: ../../docs/classes/class_sprite.rst:322
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_sprite.rst:94
+msgid "set_centered(value)"
+msgstr "set_centered(value)"
+
+#: ../../docs/classes/class_sprite.rst:96
+#: ../../docs/classes/class_sprite.rst:112
+#: ../../docs/classes/class_sprite.rst:128
+#: ../../docs/classes/class_sprite.rst:144
+#: ../../docs/classes/class_sprite.rst:160
+#: ../../docs/classes/class_sprite.rst:176
+#: ../../docs/classes/class_sprite.rst:190
+#: ../../docs/classes/class_sprite.rst:206
+#: ../../docs/classes/class_sprite.rst:222
+#: ../../docs/classes/class_sprite.rst:238
+#: ../../docs/classes/class_sprite.rst:254
+#: ../../docs/classes/class_sprite.rst:270
+#: ../../docs/classes/class_sprite.rst:284
+#: ../../docs/classes/class_sprite.rst:296
+#: ../../docs/classes/class_sprite.rst:308
+#: ../../docs/classes/class_sprite.rst:324
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_sprite.rst:96
+msgid "is_centered()"
+msgstr "is_centered()"
+
+#: ../../docs/classes/class_sprite.rst:99
+msgid "If ``true``, texture is centered."
+msgstr "如果为 ``true``，则纹理居中。"
+
+#: ../../docs/classes/class_sprite.rst:105
+msgid ":ref:`bool <class_bool>` **flip_h**"
+msgstr ":ref:`bool <class_bool>` **flip_h**"
+
+#: ../../docs/classes/class_sprite.rst:110
+msgid "set_flip_h(value)"
+msgstr "set_flip_h(value)"
+
+#: ../../docs/classes/class_sprite.rst:112
+msgid "is_flipped_h()"
+msgstr "is_flipped_h()"
+
+#: ../../docs/classes/class_sprite.rst:115
+msgid "If ``true``, texture is flipped horizontally."
+msgstr "如果为 ``true``，则纹理水平翻转。"
+
+#: ../../docs/classes/class_sprite.rst:121
+msgid ":ref:`bool <class_bool>` **flip_v**"
+msgstr ":ref:`bool <class_bool>` **flip_v**"
+
+#: ../../docs/classes/class_sprite.rst:126
+msgid "set_flip_v(value)"
+msgstr "set_flip_v(value)"
+
+#: ../../docs/classes/class_sprite.rst:128
+msgid "is_flipped_v()"
+msgstr "is_flipped_v()"
+
+#: ../../docs/classes/class_sprite.rst:131
+msgid "If ``true``, texture is flipped vertically."
+msgstr "如果为 ``true``，则纹理垂直翻转。"
+
+#: ../../docs/classes/class_sprite.rst:137
+msgid ":ref:`int <class_int>` **frame**"
+msgstr ":ref:`int <class_int>` **frame**"
+
+#: ../../docs/classes/class_sprite.rst:142
+msgid "set_frame(value)"
+msgstr "set_frame(value)"
+
+#: ../../docs/classes/class_sprite.rst:144
+msgid "get_frame()"
+msgstr "get_frame()"
+
+#: ../../docs/classes/class_sprite.rst:147
+msgid ""
+"Current frame to display from sprite sheet. :ref:`vframes "
+"<class_Sprite_property_vframes>` or :ref:`hframes "
+"<class_Sprite_property_hframes>` must be greater than 1."
+msgstr ""
+"从精灵表显示的当前帧。:ref:`vframes <class_Sprite_property_vframes>` 或 :ref:`hframes"
+" <class_Sprite_property_hframes>` 必须大于1。"
+
+#: ../../docs/classes/class_sprite.rst:153
+msgid ":ref:`Vector2 <class_Vector2>` **frame_coords**"
+msgstr ":ref:`Vector2 <class_Vector2>` **frame_coords**"
+
+#: ../../docs/classes/class_sprite.rst:158
+msgid "set_frame_coords(value)"
+msgstr "set_frame_coords(value)"
+
+#: ../../docs/classes/class_sprite.rst:160
+msgid "get_frame_coords()"
+msgstr "get_frame_coords()"
+
+#: ../../docs/classes/class_sprite.rst:163
+msgid ""
+"Coordinates of the frame to display from sprite sheet. This is as an "
+"alias for the :ref:`frame <class_Sprite_property_frame>` property. "
+":ref:`vframes <class_Sprite_property_vframes>` or :ref:`hframes "
+"<class_Sprite_property_hframes>` must be greater than 1."
+msgstr ""
+"要从精灵表显示的帧的坐标。这是 :ref:`frame <class_Sprite_property_frame>` "
+"属性的别名。:ref:`vframes <class_Sprite_property_vframes>` 或 :ref:`hframes "
+"<class_Sprite_property_hframes>` 必须大于1。"
+
+#: ../../docs/classes/class_sprite.rst:169
+msgid ":ref:`int <class_int>` **hframes**"
+msgstr ":ref:`int <class_int>` **hframes**"
+
+#: ../../docs/classes/class_sprite.rst:174
+msgid "set_hframes(value)"
+msgstr "set_hframes(value)"
+
+#: ../../docs/classes/class_sprite.rst:176
+msgid "get_hframes()"
+msgstr "get_hframes()"
+
+#: ../../docs/classes/class_sprite.rst:179
+msgid "The number of columns in the sprite sheet."
+msgstr "精灵表中的列数。"
+
+#: ../../docs/classes/class_sprite.rst:185
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **normal_map**"
+msgstr ":ref:`Texture <class_Texture>` **normal_map**"
+
+#: ../../docs/classes/class_sprite.rst:188
+msgid "set_normal_map(value)"
+msgstr "set_normal_map(value)"
+
+#: ../../docs/classes/class_sprite.rst:190
+msgid "get_normal_map()"
+msgstr "get_normal_map()"
+
+#: ../../docs/classes/class_sprite.rst:193
+msgid "The normal map gives depth to the Sprite."
+msgstr "法线贴图为精灵提供深度。"
+
+#: ../../docs/classes/class_sprite.rst:199
+msgid ":ref:`Vector2 <class_Vector2>` **offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **offset**"
+
+#: ../../docs/classes/class_sprite.rst:204
+msgid "set_offset(value)"
+msgstr "set_offset(value)"
+
+#: ../../docs/classes/class_sprite.rst:206
+msgid "get_offset()"
+msgstr "get_offset()"
+
+#: ../../docs/classes/class_sprite.rst:209
+msgid "The texture's drawing offset."
+msgstr "纹理的绘制偏移量。"
+
+#: ../../docs/classes/class_sprite.rst:215
+msgid ":ref:`bool <class_bool>` **region_enabled**"
+msgstr ":ref:`bool <class_bool>` **region_enabled**"
+
+#: ../../docs/classes/class_sprite.rst:220
+msgid "set_region(value)"
+msgstr "set_region(value)"
+
+#: ../../docs/classes/class_sprite.rst:222
+msgid "is_region()"
+msgstr "is_region()"
+
+#: ../../docs/classes/class_sprite.rst:225
+msgid ""
+"If ``true``, texture is cut from a larger atlas texture. See "
+":ref:`region_rect <class_Sprite_property_region_rect>`."
+msgstr ""
+"如果为 ``true``，则从较大的图块集纹理中剪切出纹理。参见 :ref:`region_rect "
+"<class_Sprite_property_region_rect>`。"
+
+#: ../../docs/classes/class_sprite.rst:231
+msgid ":ref:`bool <class_bool>` **region_filter_clip**"
+msgstr ":ref:`bool <class_bool>` **region_filter_clip**"
+
+#: ../../docs/classes/class_sprite.rst:236
+msgid "set_region_filter_clip(value)"
+msgstr "set_region_filter_clip(value)"
+
+#: ../../docs/classes/class_sprite.rst:238
+msgid "is_region_filter_clip_enabled()"
+msgstr "is_region_filter_clip_enabled()"
+
+#: ../../docs/classes/class_sprite.rst:241
+msgid "If ``true``, the outermost pixels get blurred out."
+msgstr "如果为 ``true``，则最外面的像素会模糊掉。"
+
+#: ../../docs/classes/class_sprite.rst:247
+msgid ":ref:`Rect2 <class_Rect2>` **region_rect**"
+msgstr ":ref:`Rect2 <class_Rect2>` **region_rect**"
+
+#: ../../docs/classes/class_sprite.rst:252
+msgid "set_region_rect(value)"
+msgstr "set_region_rect(value)"
+
+#: ../../docs/classes/class_sprite.rst:254
+msgid "get_region_rect()"
+msgstr "get_region_rect()"
+
+#: ../../docs/classes/class_sprite.rst:257
+msgid ""
+"The region of the atlas texture to display. :ref:`region_enabled "
+"<class_Sprite_property_region_enabled>` must be ``true``."
+msgstr ""
+"要显示的图块集纹理的区块。:ref:`region_enabled <class_Sprite_property_region_enabled>`"
+" 必须为 ``true``。"
+
+#: ../../docs/classes/class_sprite.rst:263
+#, fuzzy
+msgid ":ref:`float <class_float>` **shininess**"
+msgstr ":ref:`int <class_int>` **hframes**"
+
+#: ../../docs/classes/class_sprite.rst:268
+#, fuzzy
+msgid "set_shininess(value)"
+msgstr "set_hframes(value)"
+
+#: ../../docs/classes/class_sprite.rst:270
+#, fuzzy
+msgid "get_shininess()"
+msgstr "get_hframes()"
+
+#: ../../docs/classes/class_sprite.rst:277
+#, fuzzy
+msgid ":ref:`Color <class_Color>` **specular_color**"
+msgstr ":ref:`Vector2 <class_Vector2>` **frame_coords**"
+
+#: ../../docs/classes/class_sprite.rst:282
+#, fuzzy
+msgid "set_specular_color(value)"
+msgstr "set_frame_coords(value)"
+
+#: ../../docs/classes/class_sprite.rst:284
+#, fuzzy
+msgid "get_specular_color()"
+msgstr "get_frame_coords()"
+
+#: ../../docs/classes/class_sprite.rst:291
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **specular_map**"
+msgstr ":ref:`Texture <class_Texture>` **normal_map**"
+
+#: ../../docs/classes/class_sprite.rst:294
+#, fuzzy
+msgid "set_specular_map(value)"
+msgstr "set_normal_map(value)"
+
+#: ../../docs/classes/class_sprite.rst:296
+#, fuzzy
+msgid "get_specular_map()"
+msgstr "get_normal_map()"
+
+#: ../../docs/classes/class_sprite.rst:303
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ":ref:`Texture <class_Texture>` **texture**"
+
+#: ../../docs/classes/class_sprite.rst:306
+msgid "set_texture(value)"
+msgstr "set_texture(value)"
+
+#: ../../docs/classes/class_sprite.rst:308
+msgid "get_texture()"
+msgstr "get_texture()"
+
+#: ../../docs/classes/class_sprite.rst:311
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` object to draw."
+msgstr ":ref:`Texture <class_Texture>` object to draw."
+
+#: ../../docs/classes/class_sprite.rst:317
+msgid ":ref:`int <class_int>` **vframes**"
+msgstr ":ref:`int <class_int>` **vframes**"
+
+#: ../../docs/classes/class_sprite.rst:322
+msgid "set_vframes(value)"
+msgstr "set_vframes(value)"
+
+#: ../../docs/classes/class_sprite.rst:324
+msgid "get_vframes()"
+msgstr "get_vframes()"
+
+#: ../../docs/classes/class_sprite.rst:327
+msgid "The number of rows in the sprite sheet."
+msgstr "精灵表中的行数。"
+
+#: ../../docs/classes/class_sprite.rst:330
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_sprite.rst:334
+msgid ":ref:`Rect2 <class_Rect2>` **get_rect** **(** **)** const"
+msgstr ":ref:`Rect2 <class_Rect2>` **get_rect** **(** **)** const"
+
+#: ../../docs/classes/class_sprite.rst:336
+msgid ""
+"Returns a :ref:`Rect2 <class_Rect2>` representing the Sprite's boundary "
+"in local coordinates. Can be used to detect if the Sprite was clicked. "
+"Example:"
+msgstr ""
+"返回一个 :ref:`Rect2 <class_Rect2>`，它表示 ``Sprite`` 在局部坐标中的边界。可用于检测是否点击了 "
+"``Sprite``。例："
+
+#: ../../docs/classes/class_sprite.rst:349
+msgid ""
+":ref:`bool <class_bool>` **is_pixel_opaque** **(** :ref:`Vector2 "
+"<class_Vector2>` pos **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_pixel_opaque** **(** :ref:`Vector2 "
+"<class_Vector2>` pos **)** const"
+
+#: ../../docs/classes/class_sprite.rst:351
+msgid ""
+"Returns ``true``, if the pixel at the given position is opaque and "
+"``false`` in other case."
+msgstr "如果给定位置的像素不透明，则返回 ``true``，否则返回 ``false``。"
+
+#: ../../docs/classes/class_sprite.rst:353
+msgid ""
+"**Note:** It also returns ``false``, if the sprite's texture is ``null`` "
+"or if the given position is invalid."
+msgstr "**注意**：如果精灵的纹理为 ``null``，或给定位置无效，它也会返回 ``false``。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+

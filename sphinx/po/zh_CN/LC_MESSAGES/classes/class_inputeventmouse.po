@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-31 18:27+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_inputeventmouse.rst:10
+msgid "InputEventMouse"
+msgstr "InputEventMouse"
+
+#: ../../docs/classes/class_inputeventmouse.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>` **<** :ref:`InputEvent "
+"<class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEventWithModifiers <class_InputEventWithModifiers>` "
+"**<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:14
+msgid ""
+"**Inherited By:** :ref:`InputEventMouseButton "
+"<class_InputEventMouseButton>`, :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>`"
+msgstr ""
+"**子类**：:ref:`InputEventMouseButton <class_InputEventMouseButton>`, "
+":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:16
+msgid "Base input event type for mouse events."
+msgstr "鼠标事件的基本输入事件类型。"
+
+#: ../../docs/classes/class_inputeventmouse.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_inputeventmouse.rst:21
+msgid "Stores general mouse events information."
+msgstr "存储常规鼠标事件信息。"
+
+#: ../../docs/classes/class_inputeventmouse.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_inputeventmouse.rst:26
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ":doc:`../tutorials/inputs/inputevent`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_inputeventmouse.rst:32
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:32
+msgid ":ref:`button_mask <class_InputEventMouse_property_button_mask>`"
+msgstr ":ref:`button_mask <class_InputEventMouse_property_button_mask>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:32
+#: ../../docs/classes/class_inputeventmouse.rst:47
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventmouse.rst:34
+#: ../../docs/classes/class_inputeventmouse.rst:36
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:34
+msgid ":ref:`global_position <class_InputEventMouse_property_global_position>`"
+msgstr ":ref:`global_position <class_InputEventMouse_property_global_position>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:34
+#: ../../docs/classes/class_inputeventmouse.rst:36
+#: ../../docs/classes/class_inputeventmouse.rst:63
+#: ../../docs/classes/class_inputeventmouse.rst:79
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_inputeventmouse.rst:36
+msgid ":ref:`position <class_InputEventMouse_property_position>`"
+msgstr ":ref:`position <class_InputEventMouse_property_position>`"
+
+#: ../../docs/classes/class_inputeventmouse.rst:40
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_inputeventmouse.rst:44
+msgid ":ref:`int <class_int>` **button_mask**"
+msgstr ":ref:`int <class_int>` **button_mask**"
+
+#: ../../docs/classes/class_inputeventmouse.rst:47
+#: ../../docs/classes/class_inputeventmouse.rst:63
+#: ../../docs/classes/class_inputeventmouse.rst:79
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_inputeventmouse.rst:49
+#: ../../docs/classes/class_inputeventmouse.rst:65
+#: ../../docs/classes/class_inputeventmouse.rst:81
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_inputeventmouse.rst:49
+msgid "set_button_mask(value)"
+msgstr "set_button_mask(value)"
+
+#: ../../docs/classes/class_inputeventmouse.rst:51
+#: ../../docs/classes/class_inputeventmouse.rst:67
+#: ../../docs/classes/class_inputeventmouse.rst:83
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_inputeventmouse.rst:51
+msgid "get_button_mask()"
+msgstr "get_button_mask()"
+
+#: ../../docs/classes/class_inputeventmouse.rst:54
+msgid ""
+"The mouse button mask identifier, one of or a bitwise combination of the "
+":ref:`ButtonList <enum_@GlobalScope_ButtonList>` button masks."
+msgstr "鼠标按钮掩码标识符，是 :ref:`ButtonList <enum_@GlobalScope_ButtonList>` 按钮掩码之一或位组合。"
+
+#: ../../docs/classes/class_inputeventmouse.rst:60
+msgid ":ref:`Vector2 <class_Vector2>` **global_position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **global_position**"
+
+#: ../../docs/classes/class_inputeventmouse.rst:65
+msgid "set_global_position(value)"
+msgstr "set_global_position(value)"
+
+#: ../../docs/classes/class_inputeventmouse.rst:67
+msgid "get_global_position()"
+msgstr "get_global_position()"
+
+#: ../../docs/classes/class_inputeventmouse.rst:70
+msgid ""
+"The global mouse position relative to the current :ref:`Viewport "
+"<class_Viewport>` when used in :ref:`Control._gui_input "
+"<class_Control_method__gui_input>`, otherwise is at 0,0."
+msgstr ""
+"在 :ref:`Control._gui_input <class_Control_method__gui_input>` 中使用时，相对于当前 "
+":ref:`Viewport <class_Viewport>` 的全局鼠标位置，否则在 0,0。"
+
+#: ../../docs/classes/class_inputeventmouse.rst:76
+msgid ":ref:`Vector2 <class_Vector2>` **position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **position**"
+
+#: ../../docs/classes/class_inputeventmouse.rst:81
+msgid "set_position(value)"
+msgstr "set_position(value)"
+
+#: ../../docs/classes/class_inputeventmouse.rst:83
+msgid "get_position()"
+msgstr "get_position()"
+
+#: ../../docs/classes/class_inputeventmouse.rst:86
+msgid ""
+"The local mouse position relative to the :ref:`Viewport "
+"<class_Viewport>`. If used in :ref:`Control._gui_input "
+"<class_Control_method__gui_input>`, the position is relative to the "
+"current :ref:`Control <class_Control>` which is under the mouse."
+msgstr ""
+"相对于 :ref:`Viewport <class_Viewport>` 的局部鼠标位置。如果在 :ref:`Control._gui_input"
+" <class_Control_method__gui_input>` 中使用，则该位置相对于在鼠标下方的当前 :ref:`Control "
+"<class_Control>`。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:10
+msgid "EditorResourcePreview"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:14
+msgid "Helper to generate previews of resources or files."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:19
+msgid "This object is used to generate previews for resources of files."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:33
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:25
+msgid ""
+":ref:`add_preview_generator "
+"<class_EditorResourcePreview_method_add_preview_generator>` **(** "
+":ref:`EditorResourcePreviewGenerator "
+"<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:27
+msgid ""
+":ref:`check_for_invalidation "
+"<class_EditorResourcePreview_method_check_for_invalidation>` **(** "
+":ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:29
+msgid ""
+":ref:`queue_edited_resource_preview "
+"<class_EditorResourcePreview_method_queue_edited_resource_preview>` **(**"
+" :ref:`Resource <class_Resource>` resource, :ref:`Object <class_Object>` "
+"receiver, :ref:`StringName <class_StringName>` receiver_func, "
+":ref:`Variant <class_Variant>` userdata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:31
+msgid ""
+":ref:`queue_resource_preview "
+"<class_EditorResourcePreview_method_queue_resource_preview>` **(** "
+":ref:`String <class_String>` path, :ref:`Object <class_Object>` receiver,"
+" :ref:`StringName <class_StringName>` receiver_func, :ref:`Variant "
+"<class_Variant>` userdata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:33
+msgid ""
+":ref:`remove_preview_generator "
+"<class_EditorResourcePreview_method_remove_preview_generator>` **(** "
+":ref:`EditorResourcePreviewGenerator "
+"<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:37
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:41
+msgid "**preview_invalidated** **(** :ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:43
+msgid ""
+"Emitted if a preview was invalidated (changed). ``path`` corresponds to "
+"the path of the preview."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:46
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:50
+msgid ""
+"void **add_preview_generator** **(** :ref:`EditorResourcePreviewGenerator"
+" <class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:52
+msgid "Create an own, custom preview generator."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:58
+msgid ""
+"void **check_for_invalidation** **(** :ref:`String <class_String>` path "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:60
+msgid ""
+"Check if the resource changed, if so, it will be invalidated and the "
+"corresponding signal emitted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:66
+msgid ""
+"void **queue_edited_resource_preview** **(** :ref:`Resource "
+"<class_Resource>` resource, :ref:`Object <class_Object>` receiver, "
+":ref:`StringName <class_StringName>` receiver_func, :ref:`Variant "
+"<class_Variant>` userdata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:68
+msgid ""
+"Queue a resource being edited for preview (using an instance). Once the "
+"preview is ready, your receiver.receiver_func will be called either "
+"containing the preview texture or an empty texture (if no preview was "
+"possible). Callback must have the format: (path,texture,userdata). "
+"Userdata can be anything."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:74
+msgid ""
+"void **queue_resource_preview** **(** :ref:`String <class_String>` path, "
+":ref:`Object <class_Object>` receiver, :ref:`StringName "
+"<class_StringName>` receiver_func, :ref:`Variant <class_Variant>` "
+"userdata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:76
+msgid ""
+"Queue a resource file for preview (using a path). Once the preview is "
+"ready, your receiver.receiver_func will be called either containing the "
+"preview texture or an empty texture (if no preview was possible). "
+"Callback must have the format: (path,texture,userdata). Userdata can be "
+"anything."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:82
+msgid ""
+"void **remove_preview_generator** **(** "
+":ref:`EditorResourcePreviewGenerator "
+"<class_EditorResourcePreviewGenerator>` generator **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorresourcepreview.rst:84
+msgid "Removes a custom preview generator."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`queue_edited_resource_preview "
+#~ "<class_EditorResourcePreview_method_queue_edited_resource_preview>`"
+#~ " **(** :ref:`Resource <class_Resource>` resource,"
+#~ " :ref:`Object <class_Object>` receiver, "
+#~ ":ref:`String <class_String>` receiver_func, "
+#~ ":ref:`Variant <class_Variant>` userdata **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`queue_resource_preview "
+#~ "<class_EditorResourcePreview_method_queue_resource_preview>` "
+#~ "**(** :ref:`String <class_String>` path, "
+#~ ":ref:`Object <class_Object>` receiver, :ref:`String"
+#~ " <class_String>` receiver_func, :ref:`Variant "
+#~ "<class_Variant>` userdata **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **queue_edited_resource_preview** **(** "
+#~ ":ref:`Resource <class_Resource>` resource, "
+#~ ":ref:`Object <class_Object>` receiver, :ref:`String"
+#~ " <class_String>` receiver_func, :ref:`Variant "
+#~ "<class_Variant>` userdata **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **queue_resource_preview** **(** :ref:`String"
+#~ " <class_String>` path, :ref:`Object "
+#~ "<class_Object>` receiver, :ref:`String "
+#~ "<class_String>` receiver_func, :ref:`Variant "
+#~ "<class_Variant>` userdata **)**"
+#~ msgstr ""
+

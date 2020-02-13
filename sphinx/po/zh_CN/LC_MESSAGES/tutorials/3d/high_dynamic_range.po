@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-10-04 11:52+0800\n"
+"PO-Revision-Date: 2020-02-28 17:48+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:4
 msgid "Light transport in game engines"
-msgstr "游戏引擎中的光传输"
+msgstr "游戏引擎中的光线传输"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:7
 msgid "Introduction"
@@ -32,17 +36,17 @@ msgid ""
 "ready for integration!\" then goes into the game, lighting is setup and the "
 "game runs."
 msgstr ""
-"通常情况下，艺术家会进行所有3D建模，然后进行所有纹理处理，在3D DCC中查看他们"
-"令人敬畏的模型并说``看起来很棒，可以进行整合！`` 然后进入游戏，设置灯光并运行"
-"游戏。"
+"通常，美术师会先进行所有3D建模，然后进行所有纹理处理，然后在3D DCC中查看其令"
+"人敬畏的外观模型，然后说：“看起来很棒，可以整合了！”然后进入游戏，设置灯光并"
+"运行游戏。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:14
 msgid ""
 "So at what point does all this \"HDR\" business come into play? To "
 "understand the answer, we need to look at how displays behave."
 msgstr ""
-"那么，所有这些“ HDR”业务在什么时候发挥作用？要理解答案，我们需要查看显示器的"
-"行为。"
+"那么，所有这些 ``HDR`` 业务在什么时候发挥作用？要理解答案，我们需要查看显示如"
+"何表现。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:17
 msgid ""
@@ -50,6 +54,8 @@ msgid ""
 "intensity. Modern game engines perform complex math on linear light values "
 "in their respective scenes. So what's the problem?"
 msgstr ""
+"您的显示器输出的线性光比率从最大亮度到最小亮度。现代游戏引擎会对各自场景中的"
+"线性光值执行复杂的数学运算。所以有什么问题？"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:21
 msgid ""
@@ -59,6 +65,9 @@ msgid ""
 "bearing in the game engine; there is only a potentially infinitely wide "
 "range of intensity values generated per frame of rendering."
 msgstr ""
+"显示器的亮度范围有限，具体取决于显示器的类型。但是，游戏引擎会渲染无限范围的"
+"亮度值。虽然 ``最大亮度`` 对于sRGB显示器来说意味着某些东西，但它与游戏引擎无"
+"关。仅存在一个潜在的亮度值的无限宽范围生成渲染的每个帧。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:27
 msgid ""
@@ -70,6 +79,10 @@ msgid ""
 "particular camera rendering transform to the scene data, and the output "
 "would be ready for display on a particular display type."
 msgstr ""
+"这意味着需要对场景光亮度的某些转换，也称为场景参考光比率，进行转换和映射，以"
+"适合所选显示器的特定输出范围。如果我们考虑通过虚拟相机虚拟地拍摄我们的游戏引"
+"擎场景，这将是最容易理解的。在这里，我们的虚拟相机会将特定的相机渲染转换应用"
+"于场景数据，并且输出将准备好以一个特定的显示类型显示。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:36
 msgid "Computer displays"
@@ -83,6 +96,9 @@ msgid ""
 "the ratios out of the uniquely colored lights at each reddish, greenish, and "
 "blueish emission site."
 msgstr ""
+"几乎所有显示器都需要对发送给它们的代码值进行非线性编码。显示器又利用其独特的"
+"传输特性，将代码值“解码”为输出的线性光比率，并在每个红色、绿色和蓝色发射点的"
+"独特颜色的光中投射出这些比值。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:44
 msgid ""
@@ -92,6 +108,9 @@ msgid ""
 "including the color of the lights in the LED pixels as well as the transfer "
 "characteristics of the input (OETF) and output (EOTF)."
 msgstr ""
+"对于大多数计算机显示器，显示器的规格是按照IEC 61966-2-1，也称为1996 sRGB规"
+"格，进行概述的。该规范概述了sRGB显示器的行为方式，包括LED像素中的灯光颜色以及"
+"输入（OETF）和输出（EOTF）的传输特性。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:50
 msgid ""
@@ -100,12 +119,15 @@ msgid ""
 "be noted that Godot is limited in its pixel management chain, and only "
 "supports sRGB displays currently."
 msgstr ""
+"并非所有显示器都使用与计算机显示器相同的OETF和EOTF，例如，电视广播显示器使用"
+"BT.1886 EOTF。值得注意的是，Godot的像素管理链受到限制，目前仅支持sRGB显示器。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:55
 msgid ""
 "The sRGB standard is based around the nonlinear relationship between the "
 "current to light output of common desktop computing CRT displays."
 msgstr ""
+"而sRGB标准基于常见的台式计算机CRT显示器的电流与光输出之间的非线性关系。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:60
 msgid ""
@@ -116,35 +138,34 @@ msgid ""
 "simple transfer function of the display however, and therefore a more "
 "complex approach to encoding is required."
 msgstr ""
+"场景参考模型的数学要求我们将场景乘以不同的值，以调整亮度和对不同光照范围的曝"
+"光。然而，显示器的传递函数不能使用显示器的简单传递函数，来适当地渲染游戏引擎"
+"的场景输出的更宽的动态范围，因此需要更复杂的编码方法。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:68
-#, fuzzy
 msgid "Scene linear & asset pipelines"
-msgstr "线性色彩空间和资源管道"
+msgstr "场景线性和素材管道"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:70
-#, fuzzy
 msgid ""
 "Working in scene linear sRGB is not as simple as just pressing a switch. "
 "First, imported image assets must be converted to linear light ratios on "
 "import. Even when linearized, those assets may not be perfectly well suited "
 "for use as textures, depending on how they were generated."
 msgstr ""
-"在HDR中工作不仅仅是按下开关。 首先，导入的图像资源必须在导入时转换为线性空"
-"间。 有两种方法可以做到这一点:"
+"在场景线性sRGB中工作并不像按一下开关那样简单。首先，导入的图像素材必须在导入"
+"时转换为线性光比率。即使将其线性化，这些素材可能也不完全适合用作纹理，具体取"
+"决于它们的生成方式。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:75
-#, fuzzy
 msgid "There are two ways to do this:"
-msgstr "获取证书有两种方法:"
+msgstr "有两种方法可以做到这一点："
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:78
-#, fuzzy
 msgid "sRGB transfer function to display linear ratios on image import"
-msgstr "SRGB ->图像导入的线性转换"
+msgstr "sRGB传递函数可在图像导入时显示线性比率"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:80
-#, fuzzy
 msgid ""
 "This is the easiest, but not the most ideal, method of using sRGB assets. "
 "One issue with this is loss of quality. Using 8 bit per channel to represent "
@@ -152,65 +173,59 @@ msgid ""
 "correctly. These textures might later be compressed too, which can "
 "exacerbate the problem."
 msgstr ""
-"这是使用线性空间资源最兼容的方式，它可以在包括所有移动设备在内的任何地方使"
-"用。 这个问题的主要问题是质量下降，因为存在sRGB以避免同样的问题。 从人眼的角"
-"度来看，每个通道使用8位来表示线性颜色是低效的。 这些纹理可能会在以后被压缩，"
-"这会使问题变得更糟。"
+"这是使用sRGB素材的最简单但不是最理想的方法。一个问题是质量损失。每个通道使用8"
+"位来表示线性光比率是不够的，但是深度不能正确量化这些值。这些纹理以后也可能会"
+"被压缩，这会使问题恶化。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:86
-#, fuzzy
 msgid "Hardware sRGB transfer function to display linear conversion"
-msgstr "硬件sRGB ->线性转换"
+msgstr "硬件sRGB传递函数以显示线性转换"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:88
-#, fuzzy
 msgid ""
 "The GPU will do the conversion after reading the texel using floating point. "
 "This works fine on PC and consoles, but most mobile devices do no support "
 "it, or do not support it on compressed texture format (iOS for example)."
 msgstr ""
-"这是在线性空间中使用资源的最正确方法，因为GPU上的纹理采样器将在使用浮点读取纹"
-"素后执行转换。 这在PC和控制台上运行良好，但大多数移动设备不支持它，或者不支持"
-"压缩纹理格式(例如iOS)。"
+"使用浮点读取纹理元素后，GPU将进行转换。这在PC和游戏机上可以正常工作，但是大多"
+"数移动设备不支持它，或者不支持压缩纹理格式（例如iOS）。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:94
 msgid "Scene linear to display referred nonlinear"
-msgstr ""
+msgstr "场景线性显示参考非线性"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:96
-#, fuzzy
 msgid ""
 "After all the rendering is done, the scene linear render requires "
 "transforming to a suitable output such as an sRGB display. To do this, "
 "enable sRGB conversion in the current :ref:`Environment <class_Environment>` "
 "(more on that below)."
 msgstr ""
-"完成所有渲染后，必须将线性空间渲染图像转换回sRGB。 要做到这一点，只需在当前启"
-"用sRGB转换 :ref:`Environment <class_Environment>` (更多内容见下文)。"
+"完成所有渲染后，场景线性渲染需要转换为合适的输出，例如sRGB显示。为此，请在当"
+"前的 :ref:`Environment <class_Environment>` 中启用sRGB转换（有关更多信息，请"
+"参见下文）。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:100
-#, fuzzy
 msgid ""
 "Keep in mind that sRGB -> Display Linear and Display Linear -> sRGB "
 "conversions must always be **both** enabled. Failing to enable one of them "
 "will result in horrible visuals suitable only for avant-garde experimental "
 "indie games."
 msgstr ""
-"请记住，sRGB ->线性和线性 -> sRGB转换必须始终 **都** 启用。 未能启用其中一个"
-"将导致可怕的视觉效果仅适用于前卫的实验性独立游戏。"
+"请记住，**sRGB -> 线性显示** 和 **线性显示 -> sRGB** 转换 **两者** 必须始终被"
+"启用。未能启用其中之一将导致仅适用于前卫实验性独立游戏的可怕视觉效果。"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:106
 msgid "Parameters of HDR"
 msgstr "HDR的参数"
 
 #: ../../docs/tutorials/3d/high_dynamic_range.rst:108
-#, fuzzy
 msgid ""
 "HDR setting can be found in the :ref:`Environment <class_Environment>` "
 "resource. These are found most of the time inside a :ref:`WorldEnvironment "
 "<class_WorldEnvironment>` node or set in a camera. For more information see :"
 "ref:`doc_environment_and_post_processing`."
 msgstr ""
-"HDR可以在 :ref:`Environment <class_Environment>` 资源中找到。 这些在大多数情"
-"况下都可以在 :ref:`WorldEnvironment <class_WorldEnvironment>` 节点中找到或在"
-"相机中设置。 HDR有许多参数:"
+"HDR设置可以在 :ref:`Environment <class_Environment>` 资源中找到。这些大多数时"
+"间都在一个 :ref:`WorldEnvironment <class_WorldEnvironment>` 节点中或在一个相"
+"机中设置。有关更多信息，请参见 :ref:`doc_environment_and_post_processing`。"

@@ -1,0 +1,582 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:10
+msgid "SpriteFrames"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:14
+msgid "Sprite frame library for AnimatedSprite."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:19
+msgid ""
+"Sprite frame library for :ref:`AnimatedSprite <class_AnimatedSprite>`. "
+"Contains frames and animation data for playback."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:25
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:25
+msgid ":ref:`frames <class_SpriteFrames_property_frames>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:29
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:62
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:32
+msgid ""
+":ref:`add_animation <class_SpriteFrames_method_add_animation>` **(** "
+":ref:`StringName <class_StringName>` anim **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:34
+msgid ""
+":ref:`add_frame <class_SpriteFrames_method_add_frame>` **(** "
+":ref:`StringName <class_StringName>` anim, :ref:`Texture2D "
+"<class_Texture2D>` frame, :ref:`int <class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:36
+msgid ""
+":ref:`clear <class_SpriteFrames_method_clear>` **(** :ref:`StringName "
+"<class_StringName>` anim **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:38
+msgid ":ref:`clear_all <class_SpriteFrames_method_clear_all>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:50
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:40
+msgid ""
+":ref:`get_animation_loop <class_SpriteFrames_method_get_animation_loop>` "
+"**(** :ref:`StringName <class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:42
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:42
+msgid ""
+":ref:`get_animation_names "
+"<class_SpriteFrames_method_get_animation_names>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:44
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:44
+msgid ""
+":ref:`get_animation_speed "
+"<class_SpriteFrames_method_get_animation_speed>` **(** :ref:`StringName "
+"<class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:46
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:46
+msgid ""
+":ref:`get_frame <class_SpriteFrames_method_get_frame>` **(** "
+":ref:`StringName <class_StringName>` anim, :ref:`int <class_int>` idx "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:48
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:48
+msgid ""
+":ref:`get_frame_count <class_SpriteFrames_method_get_frame_count>` **(** "
+":ref:`StringName <class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:50
+msgid ""
+":ref:`has_animation <class_SpriteFrames_method_has_animation>` **(** "
+":ref:`StringName <class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:52
+msgid ""
+":ref:`remove_animation <class_SpriteFrames_method_remove_animation>` "
+"**(** :ref:`StringName <class_StringName>` anim **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:54
+msgid ""
+":ref:`remove_frame <class_SpriteFrames_method_remove_frame>` **(** "
+":ref:`StringName <class_StringName>` anim, :ref:`int <class_int>` idx "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:56
+msgid ""
+":ref:`rename_animation <class_SpriteFrames_method_rename_animation>` "
+"**(** :ref:`StringName <class_StringName>` anim, :ref:`StringName "
+"<class_StringName>` newname **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:58
+msgid ""
+":ref:`set_animation_loop <class_SpriteFrames_method_set_animation_loop>` "
+"**(** :ref:`StringName <class_StringName>` anim, :ref:`bool <class_bool>`"
+" loop **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:60
+msgid ""
+":ref:`set_animation_speed "
+"<class_SpriteFrames_method_set_animation_speed>` **(** :ref:`StringName "
+"<class_StringName>` anim, :ref:`float <class_float>` speed **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:62
+msgid ""
+":ref:`set_frame <class_SpriteFrames_method_set_frame>` **(** "
+":ref:`StringName <class_StringName>` anim, :ref:`int <class_int>` idx, "
+":ref:`Texture2D <class_Texture2D>` txt **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:66
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:70
+msgid ":ref:`Array <class_Array>` **frames**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:72
+msgid "Compatibility property, always equals to an empty array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:75
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:79
+msgid ""
+"void **add_animation** **(** :ref:`StringName <class_StringName>` anim "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:81
+msgid "Adds a new animation to the library."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:87
+msgid ""
+"void **add_frame** **(** :ref:`StringName <class_StringName>` anim, "
+":ref:`Texture2D <class_Texture2D>` frame, :ref:`int <class_int>` "
+"at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:89
+msgid "Adds a frame to the given animation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:95
+msgid "void **clear** **(** :ref:`StringName <class_StringName>` anim **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:97
+msgid "Removes all frames from the given animation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:103
+msgid "void **clear_all** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:105
+msgid "Removes all animations. A \"default\" animation will be created."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:111
+msgid ""
+":ref:`bool <class_bool>` **get_animation_loop** **(** :ref:`StringName "
+"<class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:113
+msgid "If ``true``, the given animation will loop."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:119
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` "
+"**get_animation_names** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:121
+msgid ""
+"Returns an array containing the names associated to each animation. "
+"Values are placed in alphabetical order."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:127
+msgid ""
+":ref:`float <class_float>` **get_animation_speed** **(** :ref:`StringName"
+" <class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:193
+msgid "The animation's speed in frames per second."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:135
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_frame** **(** :ref:`StringName "
+"<class_StringName>` anim, :ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:137
+msgid "Returns the animation's selected frame."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:143
+msgid ""
+":ref:`int <class_int>` **get_frame_count** **(** :ref:`StringName "
+"<class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:145
+msgid "Returns the number of frames in the animation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:151
+msgid ""
+":ref:`bool <class_bool>` **has_animation** **(** :ref:`StringName "
+"<class_StringName>` anim **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:153
+msgid "If ``true``, the named animation exists."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:159
+msgid ""
+"void **remove_animation** **(** :ref:`StringName <class_StringName>` anim"
+" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:161
+msgid "Removes the given animation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:167
+msgid ""
+"void **remove_frame** **(** :ref:`StringName <class_StringName>` anim, "
+":ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:169
+msgid "Removes the animation's selected frame."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:175
+msgid ""
+"void **rename_animation** **(** :ref:`StringName <class_StringName>` "
+"anim, :ref:`StringName <class_StringName>` newname **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:177
+msgid "Changes the animation's name to ``newname``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:183
+msgid ""
+"void **set_animation_loop** **(** :ref:`StringName <class_StringName>` "
+"anim, :ref:`bool <class_bool>` loop **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:185
+msgid "If ``true``, the animation will loop."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:191
+msgid ""
+"void **set_animation_speed** **(** :ref:`StringName <class_StringName>` "
+"anim, :ref:`float <class_float>` speed **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:199
+msgid ""
+"void **set_frame** **(** :ref:`StringName <class_StringName>` anim, "
+":ref:`int <class_int>` idx, :ref:`Texture2D <class_Texture2D>` txt **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_spriteframes.rst:201
+msgid "Sets the texture of the given frame."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_frame <class_SpriteFrames_method_add_frame>` "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`Texture <class_Texture>` frame, :ref:`int "
+#~ "<class_int>` at_position=-1 **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_frame <class_SpriteFrames_method_set_frame>` "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`int <class_int>` idx, :ref:`Texture "
+#~ "<class_Texture>` txt **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_frame** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`Texture <class_Texture>`"
+#~ " frame, :ref:`int <class_int>` at_position=-1 "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture <class_Texture>` **get_frame** **(**"
+#~ " :ref:`String <class_String>` anim, :ref:`int "
+#~ "<class_int>` idx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_frame** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`int <class_int>` "
+#~ "idx, :ref:`Texture <class_Texture>` txt **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_animation <class_SpriteFrames_method_add_animation>`"
+#~ " **(** :ref:`String <class_String>` anim "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_frame <class_SpriteFrames_method_add_frame>` "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`Texture2D <class_Texture2D>` frame, :ref:`int"
+#~ " <class_int>` at_position=-1 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`clear <class_SpriteFrames_method_clear>` **(** "
+#~ ":ref:`String <class_String>` anim **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_animation_loop "
+#~ "<class_SpriteFrames_method_get_animation_loop>` **(** "
+#~ ":ref:`String <class_String>` anim **)** const"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolStringArray <class_PoolStringArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_animation_speed "
+#~ "<class_SpriteFrames_method_get_animation_speed>` **(** "
+#~ ":ref:`String <class_String>` anim **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_frame <class_SpriteFrames_method_get_frame>` "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`int <class_int>` idx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_frame_count "
+#~ "<class_SpriteFrames_method_get_frame_count>` **(** "
+#~ ":ref:`String <class_String>` anim **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_animation <class_SpriteFrames_method_has_animation>`"
+#~ " **(** :ref:`String <class_String>` anim "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_animation "
+#~ "<class_SpriteFrames_method_remove_animation>` **(** "
+#~ ":ref:`String <class_String>` anim **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_frame <class_SpriteFrames_method_remove_frame>` "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`int <class_int>` idx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`rename_animation "
+#~ "<class_SpriteFrames_method_rename_animation>` **(** "
+#~ ":ref:`String <class_String>` anim, :ref:`String "
+#~ "<class_String>` newname **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_animation_loop "
+#~ "<class_SpriteFrames_method_set_animation_loop>` **(** "
+#~ ":ref:`String <class_String>` anim, :ref:`bool "
+#~ "<class_bool>` loop **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_animation_speed "
+#~ "<class_SpriteFrames_method_set_animation_speed>` **(** "
+#~ ":ref:`String <class_String>` anim, :ref:`float "
+#~ "<class_float>` speed **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_frame <class_SpriteFrames_method_set_frame>` "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`int <class_int>` idx, :ref:`Texture2D "
+#~ "<class_Texture2D>` txt **)**"
+#~ msgstr ""
+
+#~ msgid "void **add_animation** **(** :ref:`String <class_String>` anim **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_frame** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`Texture2D "
+#~ "<class_Texture2D>` frame, :ref:`int <class_int>` "
+#~ "at_position=-1 **)**"
+#~ msgstr ""
+
+#~ msgid "void **clear** **(** :ref:`String <class_String>` anim **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **get_animation_loop** "
+#~ "**(** :ref:`String <class_String>` anim **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "**get_animation_names** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`float <class_float>` **get_animation_speed** "
+#~ "**(** :ref:`String <class_String>` anim **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture2D <class_Texture2D>` **get_frame** "
+#~ "**(** :ref:`String <class_String>` anim, "
+#~ ":ref:`int <class_int>` idx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **get_frame_count** **(** "
+#~ ":ref:`String <class_String>` anim **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_animation** **(** "
+#~ ":ref:`String <class_String>` anim **)** const"
+#~ msgstr ""
+
+#~ msgid "void **remove_animation** **(** :ref:`String <class_String>` anim **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **remove_frame** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`int <class_int>` "
+#~ "idx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **rename_animation** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`String <class_String>`"
+#~ " newname **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_animation_loop** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`bool <class_bool>` "
+#~ "loop **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_animation_speed** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`float <class_float>` "
+#~ "speed **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_frame** **(** :ref:`String "
+#~ "<class_String>` anim, :ref:`int <class_int>` "
+#~ "idx, :ref:`Texture2D <class_Texture2D>` txt "
+#~ "**)**"
+#~ msgstr ""
+

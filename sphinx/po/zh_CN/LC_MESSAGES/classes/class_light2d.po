@@ -1,0 +1,815 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-11-01 09:53+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_light2d.rst:10
+msgid "Light2D"
+msgstr "Light2D"
+
+#: ../../docs/classes/class_light2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_light2d.rst:14
+msgid "Casts light in a 2D environment."
+msgstr "在2D环境中投射光线。"
+
+#: ../../docs/classes/class_light2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_light2d.rst:19
+msgid ""
+"Casts light in a 2D environment. Light is defined by a (usually "
+"grayscale) texture, a color, an energy value, a mode (see constants), and"
+" various other parameters (range and shadows-related)."
+msgstr "在2D环境中投射光线。灯光由一个（通常灰度）材质、一个颜色、一个能量值、一个模式（参见常数）、以及各种其他参数（范围和阴影相关的）所定义。"
+
+#: ../../docs/classes/class_light2d.rst:21
+msgid "**Note:** Light2D can also be used as a mask."
+msgstr "**注意**：Light2D也可以用作遮罩。"
+
+#: ../../docs/classes/class_light2d.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_light2d.rst:26
+msgid ":doc:`../tutorials/2d/2d_lights_and_shadows`"
+msgstr ":doc:`../tutorials/2d/2d_lights_and_shadows`"
+
+#: ../../docs/classes/class_light2d.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_light2d.rst:32
+#: ../../docs/classes/class_light2d.rst:58
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`Color <class_Color>`"
+
+#: ../../docs/classes/class_light2d.rst:32
+msgid ":ref:`color <class_Light2D_property_color>`"
+msgstr ":ref:`color <class_Light2D_property_color>`"
+
+#: ../../docs/classes/class_light2d.rst:32
+#: ../../docs/classes/class_light2d.rst:122
+#, fuzzy
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr "Color( 1, 1, 1, 1 )"
+
+#: ../../docs/classes/class_light2d.rst:34
+#: ../../docs/classes/class_light2d.rst:36
+#: ../../docs/classes/class_light2d.rst:60
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_light2d.rst:34
+msgid ":ref:`editor_only <class_Light2D_property_editor_only>`"
+msgstr ":ref:`editor_only <class_Light2D_property_editor_only>`"
+
+#: ../../docs/classes/class_light2d.rst:34
+#: ../../docs/classes/class_light2d.rst:60
+#: ../../docs/classes/class_light2d.rst:138
+#: ../../docs/classes/class_light2d.rst:346
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_light2d.rst:36
+msgid ":ref:`enabled <class_Light2D_property_enabled>`"
+msgstr ":ref:`enabled <class_Light2D_property_enabled>`"
+
+#: ../../docs/classes/class_light2d.rst:36
+#: ../../docs/classes/class_light2d.rst:154
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: ../../docs/classes/class_light2d.rst:38
+#: ../../docs/classes/class_light2d.rst:44
+#: ../../docs/classes/class_light2d.rst:64
+#: ../../docs/classes/class_light2d.rst:70
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_light2d.rst:38
+msgid ":ref:`energy <class_Light2D_property_energy>`"
+msgstr ":ref:`energy <class_Light2D_property_energy>`"
+
+#: ../../docs/classes/class_light2d.rst:38
+#: ../../docs/classes/class_light2d.rst:70
+#: ../../docs/classes/class_light2d.rst:170
+#: ../../docs/classes/class_light2d.rst:424
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: ../../docs/classes/class_light2d.rst:40
+msgid ":ref:`Mode <enum_Light2D_Mode>`"
+msgstr ":ref:`Mode <enum_Light2D_Mode>`"
+
+#: ../../docs/classes/class_light2d.rst:40
+msgid ":ref:`mode <class_Light2D_property_mode>`"
+msgstr ":ref:`mode <class_Light2D_property_mode>`"
+
+#: ../../docs/classes/class_light2d.rst:40
+#: ../../docs/classes/class_light2d.rst:48
+#: ../../docs/classes/class_light2d.rst:50
+#: ../../docs/classes/class_light2d.rst:62
+#: ../../docs/classes/class_light2d.rst:186
+#: ../../docs/classes/class_light2d.rst:250
+#: ../../docs/classes/class_light2d.rst:266
+#: ../../docs/classes/class_light2d.rst:362
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_light2d.rst:42
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_light2d.rst:42
+msgid ":ref:`offset <class_Light2D_property_offset>`"
+msgstr ":ref:`offset <class_Light2D_property_offset>`"
+
+#: ../../docs/classes/class_light2d.rst:42
+#: ../../docs/classes/class_light2d.rst:202
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_light2d.rst:44
+msgid ":ref:`range_height <class_Light2D_property_range_height>`"
+msgstr ":ref:`range_height <class_Light2D_property_range_height>`"
+
+#: ../../docs/classes/class_light2d.rst:44
+#: ../../docs/classes/class_light2d.rst:64
+#: ../../docs/classes/class_light2d.rst:218
+#: ../../docs/classes/class_light2d.rst:378
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: ../../docs/classes/class_light2d.rst:46
+#: ../../docs/classes/class_light2d.rst:48
+#: ../../docs/classes/class_light2d.rst:50
+#: ../../docs/classes/class_light2d.rst:52
+#: ../../docs/classes/class_light2d.rst:54
+#: ../../docs/classes/class_light2d.rst:56
+#: ../../docs/classes/class_light2d.rst:66
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_light2d.rst:46
+msgid ":ref:`range_item_cull_mask <class_Light2D_property_range_item_cull_mask>`"
+msgstr ":ref:`range_item_cull_mask <class_Light2D_property_range_item_cull_mask>`"
+
+#: ../../docs/classes/class_light2d.rst:46
+#: ../../docs/classes/class_light2d.rst:66
+#: ../../docs/classes/class_light2d.rst:234
+#: ../../docs/classes/class_light2d.rst:394
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_light2d.rst:48
+msgid ":ref:`range_layer_max <class_Light2D_property_range_layer_max>`"
+msgstr ":ref:`range_layer_max <class_Light2D_property_range_layer_max>`"
+
+#: ../../docs/classes/class_light2d.rst:50
+msgid ":ref:`range_layer_min <class_Light2D_property_range_layer_min>`"
+msgstr ":ref:`range_layer_min <class_Light2D_property_range_layer_min>`"
+
+#: ../../docs/classes/class_light2d.rst:52
+msgid ":ref:`range_z_max <class_Light2D_property_range_z_max>`"
+msgstr ":ref:`range_z_max <class_Light2D_property_range_z_max>`"
+
+#: ../../docs/classes/class_light2d.rst:52
+#: ../../docs/classes/class_light2d.rst:282
+#, fuzzy
+msgid "``1024``"
+msgstr "1024"
+
+#: ../../docs/classes/class_light2d.rst:54
+msgid ":ref:`range_z_min <class_Light2D_property_range_z_min>`"
+msgstr ":ref:`range_z_min <class_Light2D_property_range_z_min>`"
+
+#: ../../docs/classes/class_light2d.rst:54
+#: ../../docs/classes/class_light2d.rst:298
+#, fuzzy
+msgid "``-1024``"
+msgstr "-1024"
+
+#: ../../docs/classes/class_light2d.rst:56
+msgid ":ref:`shadow_buffer_size <class_Light2D_property_shadow_buffer_size>`"
+msgstr ":ref:`shadow_buffer_size <class_Light2D_property_shadow_buffer_size>`"
+
+#: ../../docs/classes/class_light2d.rst:56
+#: ../../docs/classes/class_light2d.rst:314
+#, fuzzy
+msgid "``2048``"
+msgstr "2048"
+
+#: ../../docs/classes/class_light2d.rst:58
+msgid ":ref:`shadow_color <class_Light2D_property_shadow_color>`"
+msgstr ":ref:`shadow_color <class_Light2D_property_shadow_color>`"
+
+#: ../../docs/classes/class_light2d.rst:58
+#: ../../docs/classes/class_light2d.rst:330
+#, fuzzy
+msgid "``Color( 0, 0, 0, 0 )``"
+msgstr "Color( 0, 0, 0, 0 )"
+
+#: ../../docs/classes/class_light2d.rst:60
+msgid ":ref:`shadow_enabled <class_Light2D_property_shadow_enabled>`"
+msgstr ":ref:`shadow_enabled <class_Light2D_property_shadow_enabled>`"
+
+#: ../../docs/classes/class_light2d.rst:62
+msgid ":ref:`ShadowFilter <enum_Light2D_ShadowFilter>`"
+msgstr ":ref:`ShadowFilter <enum_Light2D_ShadowFilter>`"
+
+#: ../../docs/classes/class_light2d.rst:62
+msgid ":ref:`shadow_filter <class_Light2D_property_shadow_filter>`"
+msgstr ":ref:`shadow_filter <class_Light2D_property_shadow_filter>`"
+
+#: ../../docs/classes/class_light2d.rst:64
+msgid ":ref:`shadow_filter_smooth <class_Light2D_property_shadow_filter_smooth>`"
+msgstr ":ref:`shadow_filter_smooth <class_Light2D_property_shadow_filter_smooth>`"
+
+#: ../../docs/classes/class_light2d.rst:66
+msgid ""
+":ref:`shadow_item_cull_mask "
+"<class_Light2D_property_shadow_item_cull_mask>`"
+msgstr ""
+":ref:`shadow_item_cull_mask "
+"<class_Light2D_property_shadow_item_cull_mask>`"
+
+#: ../../docs/classes/class_light2d.rst:68
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: ../../docs/classes/class_light2d.rst:68
+msgid ":ref:`texture <class_Light2D_property_texture>`"
+msgstr ":ref:`texture <class_Light2D_property_texture>`"
+
+#: ../../docs/classes/class_light2d.rst:70
+msgid ":ref:`texture_scale <class_Light2D_property_texture_scale>`"
+msgstr ":ref:`texture_scale <class_Light2D_property_texture_scale>`"
+
+#: ../../docs/classes/class_light2d.rst:74
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_light2d.rst:86
+msgid "enum **Mode**:"
+msgstr "枚举 **Mode**："
+
+#: ../../docs/classes/class_light2d.rst:88
+msgid ""
+"**MODE_ADD** = **0** --- Adds the value of pixels corresponding to the "
+"Light2D to the values of pixels under it. This is the common behavior of "
+"a light."
+msgstr "**MODE_ADD** = **0** —— 将与Light2D对应的像素值，添加到其下方的像素值。这是灯光的一般行为。"
+
+#: ../../docs/classes/class_light2d.rst:90
+msgid ""
+"**MODE_SUB** = **1** --- Subtracts the value of pixels corresponding to "
+"the Light2D to the values of pixels under it, resulting in inversed light"
+" effect."
+msgstr "**MODE_SUB** = **1** —— 将与Light2D对应的像素值，减去其下的像素值，从而产生逆光效果。"
+
+#: ../../docs/classes/class_light2d.rst:92
+msgid ""
+"**MODE_MIX** = **2** --- Mix the value of pixels corresponding to the "
+"Light2D to the values of pixels under it by linear interpolation."
+msgstr "**MODE_MIX** = **2** —— 通过线性插值，将与Light2D对应的像素值，与其下的像素值混合。"
+
+#: ../../docs/classes/class_light2d.rst:94
+msgid ""
+"**MODE_MASK** = **3** --- The light texture of the Light2D is used as a "
+"mask, hiding or revealing parts of the screen underneath depending on the"
+" value of each pixel of the light (mask) texture."
+msgstr "**MODE_MASK** = **3** —— Light2D的光照纹理用作蒙版，根据光照（蒙版）纹理的每个像素的值，隐藏或显示屏幕下方的部分。"
+
+#: ../../docs/classes/class_light2d.rst:106
+msgid "enum **ShadowFilter**:"
+msgstr "枚举 **ShadowFilter**："
+
+#: ../../docs/classes/class_light2d.rst:108
+msgid ""
+"**SHADOW_FILTER_NONE** = **0** --- No filter applies to the shadow map. "
+"See :ref:`shadow_filter <class_Light2D_property_shadow_filter>`."
+msgstr ""
+"**SHADOW_FILTER_NONE** = **0** —— 没有过滤器应用于阴影贴图。参见 :ref:`shadow_filter "
+"<class_Light2D_property_shadow_filter>`。"
+
+#: ../../docs/classes/class_light2d.rst:110
+#, fuzzy
+msgid ""
+"**SHADOW_FILTER_PCF5** = **1** --- Percentage closer filtering (5 "
+"samples) applies to the shadow map. See :ref:`shadow_filter "
+"<class_Light2D_property_shadow_filter>`."
+msgstr ""
+"**SHADOW_FILTER_PCF5** = **2** —— 百分比相近滤波（5个样本）应用于阴影贴图。参见 "
+":ref:`shadow_filter <class_Light2D_property_shadow_filter>`。"
+
+#: ../../docs/classes/class_light2d.rst:112
+#, fuzzy
+msgid ""
+"**SHADOW_FILTER_PCF13** = **2** --- Percentage closer filtering (13 "
+"samples) applies to the shadow map. See :ref:`shadow_filter "
+"<class_Light2D_property_shadow_filter>`."
+msgstr ""
+"**SHADOW_FILTER_PCF13** = **5** —— 百分比相近滤波（13个样本）应用于阴影贴图。参见 "
+":ref:`shadow_filter <class_Light2D_property_shadow_filter>`。"
+
+#: ../../docs/classes/class_light2d.rst:115
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_light2d.rst:119
+msgid ":ref:`Color <class_Color>` **color**"
+msgstr ":ref:`Color <class_Color>` **color**"
+
+#: ../../docs/classes/class_light2d.rst:122
+#: ../../docs/classes/class_light2d.rst:138
+#: ../../docs/classes/class_light2d.rst:154
+#: ../../docs/classes/class_light2d.rst:170
+#: ../../docs/classes/class_light2d.rst:186
+#: ../../docs/classes/class_light2d.rst:202
+#: ../../docs/classes/class_light2d.rst:218
+#: ../../docs/classes/class_light2d.rst:234
+#: ../../docs/classes/class_light2d.rst:250
+#: ../../docs/classes/class_light2d.rst:266
+#: ../../docs/classes/class_light2d.rst:282
+#: ../../docs/classes/class_light2d.rst:298
+#: ../../docs/classes/class_light2d.rst:314
+#: ../../docs/classes/class_light2d.rst:330
+#: ../../docs/classes/class_light2d.rst:346
+#: ../../docs/classes/class_light2d.rst:362
+#: ../../docs/classes/class_light2d.rst:378
+#: ../../docs/classes/class_light2d.rst:394
+#: ../../docs/classes/class_light2d.rst:424
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_light2d.rst:124
+#: ../../docs/classes/class_light2d.rst:140
+#: ../../docs/classes/class_light2d.rst:156
+#: ../../docs/classes/class_light2d.rst:172
+#: ../../docs/classes/class_light2d.rst:188
+#: ../../docs/classes/class_light2d.rst:204
+#: ../../docs/classes/class_light2d.rst:220
+#: ../../docs/classes/class_light2d.rst:236
+#: ../../docs/classes/class_light2d.rst:252
+#: ../../docs/classes/class_light2d.rst:268
+#: ../../docs/classes/class_light2d.rst:284
+#: ../../docs/classes/class_light2d.rst:300
+#: ../../docs/classes/class_light2d.rst:316
+#: ../../docs/classes/class_light2d.rst:332
+#: ../../docs/classes/class_light2d.rst:348
+#: ../../docs/classes/class_light2d.rst:364
+#: ../../docs/classes/class_light2d.rst:380
+#: ../../docs/classes/class_light2d.rst:396
+#: ../../docs/classes/class_light2d.rst:410
+#: ../../docs/classes/class_light2d.rst:426
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_light2d.rst:124
+msgid "set_color(value)"
+msgstr "set_color(value)"
+
+#: ../../docs/classes/class_light2d.rst:126
+#: ../../docs/classes/class_light2d.rst:142
+#: ../../docs/classes/class_light2d.rst:158
+#: ../../docs/classes/class_light2d.rst:174
+#: ../../docs/classes/class_light2d.rst:190
+#: ../../docs/classes/class_light2d.rst:206
+#: ../../docs/classes/class_light2d.rst:222
+#: ../../docs/classes/class_light2d.rst:238
+#: ../../docs/classes/class_light2d.rst:254
+#: ../../docs/classes/class_light2d.rst:270
+#: ../../docs/classes/class_light2d.rst:286
+#: ../../docs/classes/class_light2d.rst:302
+#: ../../docs/classes/class_light2d.rst:318
+#: ../../docs/classes/class_light2d.rst:334
+#: ../../docs/classes/class_light2d.rst:350
+#: ../../docs/classes/class_light2d.rst:366
+#: ../../docs/classes/class_light2d.rst:382
+#: ../../docs/classes/class_light2d.rst:398
+#: ../../docs/classes/class_light2d.rst:412
+#: ../../docs/classes/class_light2d.rst:428
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_light2d.rst:126
+msgid "get_color()"
+msgstr "get_color()"
+
+#: ../../docs/classes/class_light2d.rst:129
+msgid "The Light2D's :ref:`Color <class_Color>`."
+msgstr "Light2D的 :ref:`Color <class_Color>`。"
+
+#: ../../docs/classes/class_light2d.rst:135
+msgid ":ref:`bool <class_bool>` **editor_only**"
+msgstr ":ref:`bool <class_bool>` **editor_only**"
+
+#: ../../docs/classes/class_light2d.rst:140
+msgid "set_editor_only(value)"
+msgstr "set_editor_only(value)"
+
+#: ../../docs/classes/class_light2d.rst:142
+msgid "is_editor_only()"
+msgstr "is_editor_only()"
+
+#: ../../docs/classes/class_light2d.rst:145
+msgid "If ``true``, Light2D will only appear when editing the scene."
+msgstr "如果为 ``true``，则Light2D仅在编辑场景时出现。"
+
+#: ../../docs/classes/class_light2d.rst:151
+msgid ":ref:`bool <class_bool>` **enabled**"
+msgstr ":ref:`bool <class_bool>` **enabled**"
+
+#: ../../docs/classes/class_light2d.rst:156
+msgid "set_enabled(value)"
+msgstr "set_enabled(value)"
+
+#: ../../docs/classes/class_light2d.rst:158
+msgid "is_enabled()"
+msgstr "is_enabled()"
+
+#: ../../docs/classes/class_light2d.rst:161
+msgid "If ``true``, Light2D will emit light."
+msgstr "如果为 ``true``，则Light2D将发光。"
+
+#: ../../docs/classes/class_light2d.rst:167
+msgid ":ref:`float <class_float>` **energy**"
+msgstr ":ref:`float <class_float>` **energy**"
+
+#: ../../docs/classes/class_light2d.rst:172
+msgid "set_energy(value)"
+msgstr "set_energy(value)"
+
+#: ../../docs/classes/class_light2d.rst:174
+msgid "get_energy()"
+msgstr "get_energy()"
+
+#: ../../docs/classes/class_light2d.rst:177
+msgid "The Light2D's energy value. The larger the value, the stronger the light."
+msgstr "Light2D的能量值。值越大，光线越强。"
+
+#: ../../docs/classes/class_light2d.rst:183
+msgid ":ref:`Mode <enum_Light2D_Mode>` **mode**"
+msgstr ":ref:`Mode <enum_Light2D_Mode>` **mode**"
+
+#: ../../docs/classes/class_light2d.rst:188
+msgid "set_mode(value)"
+msgstr "set_mode(value)"
+
+#: ../../docs/classes/class_light2d.rst:190
+msgid "get_mode()"
+msgstr "get_mode()"
+
+#: ../../docs/classes/class_light2d.rst:193
+#, fuzzy
+msgid ""
+"The Light2D's mode. See :ref:`Mode <enum_Light2D_Mode>` constants for "
+"values."
+msgstr "Light2D的模式。有关值，请参见 ``MODE_*`` 常量。"
+
+#: ../../docs/classes/class_light2d.rst:199
+msgid ":ref:`Vector2 <class_Vector2>` **offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **offset**"
+
+#: ../../docs/classes/class_light2d.rst:204
+msgid "set_texture_offset(value)"
+msgstr "set_texture_offset(value)"
+
+#: ../../docs/classes/class_light2d.rst:206
+msgid "get_texture_offset()"
+msgstr "get_texture_offset()"
+
+#: ../../docs/classes/class_light2d.rst:209
+msgid "The offset of the Light2D's ``texture``."
+msgstr "Light2D的 ``纹理（texture）`` 的偏移量。"
+
+#: ../../docs/classes/class_light2d.rst:215
+msgid ":ref:`float <class_float>` **range_height**"
+msgstr ":ref:`float <class_float>` **range_height**"
+
+#: ../../docs/classes/class_light2d.rst:220
+msgid "set_height(value)"
+msgstr "set_height(value)"
+
+#: ../../docs/classes/class_light2d.rst:222
+msgid "get_height()"
+msgstr "get_height()"
+
+#: ../../docs/classes/class_light2d.rst:225
+msgid "The height of the Light2D. Used with 2D normal mapping."
+msgstr "Light2D的高度。与2D法线贴图一起使用。"
+
+#: ../../docs/classes/class_light2d.rst:231
+msgid ":ref:`int <class_int>` **range_item_cull_mask**"
+msgstr ":ref:`int <class_int>` **range_item_cull_mask**"
+
+#: ../../docs/classes/class_light2d.rst:236
+msgid "set_item_cull_mask(value)"
+msgstr "set_item_cull_mask(value)"
+
+#: ../../docs/classes/class_light2d.rst:238
+msgid "get_item_cull_mask()"
+msgstr "get_item_cull_mask()"
+
+#: ../../docs/classes/class_light2d.rst:241
+msgid ""
+"The layer mask. Only objects with a matching mask will be affected by the"
+" Light2D."
+msgstr "图层蒙版。只有具有一个匹配遮罩的对象，才会受到Light2D的影响。"
+
+#: ../../docs/classes/class_light2d.rst:247
+msgid ":ref:`int <class_int>` **range_layer_max**"
+msgstr ":ref:`int <class_int>` **range_layer_max**"
+
+#: ../../docs/classes/class_light2d.rst:252
+msgid "set_layer_range_max(value)"
+msgstr "set_layer_range_max(value)"
+
+#: ../../docs/classes/class_light2d.rst:254
+msgid "get_layer_range_max()"
+msgstr "get_layer_range_max()"
+
+#: ../../docs/classes/class_light2d.rst:257
+msgid "Maximum layer value of objects that are affected by the Light2D."
+msgstr "受Light2D影响的对象的最大图层值。"
+
+#: ../../docs/classes/class_light2d.rst:263
+msgid ":ref:`int <class_int>` **range_layer_min**"
+msgstr ":ref:`int <class_int>` **range_layer_min**"
+
+#: ../../docs/classes/class_light2d.rst:268
+msgid "set_layer_range_min(value)"
+msgstr "set_layer_range_min(value)"
+
+#: ../../docs/classes/class_light2d.rst:270
+msgid "get_layer_range_min()"
+msgstr "get_layer_range_min()"
+
+#: ../../docs/classes/class_light2d.rst:273
+msgid "Minimum layer value of objects that are affected by the Light2D."
+msgstr "受Light2D影响的对象的最小图层值。"
+
+#: ../../docs/classes/class_light2d.rst:279
+msgid ":ref:`int <class_int>` **range_z_max**"
+msgstr ":ref:`int <class_int>` **range_z_max**"
+
+#: ../../docs/classes/class_light2d.rst:284
+msgid "set_z_range_max(value)"
+msgstr "set_z_range_max(value)"
+
+#: ../../docs/classes/class_light2d.rst:286
+msgid "get_z_range_max()"
+msgstr "get_z_range_max()"
+
+#: ../../docs/classes/class_light2d.rst:289
+msgid "Maximum ``z`` value of objects that are affected by the Light2D."
+msgstr "受Light2D影响的对象的最大 ``z`` 值。"
+
+#: ../../docs/classes/class_light2d.rst:295
+msgid ":ref:`int <class_int>` **range_z_min**"
+msgstr ":ref:`int <class_int>` **range_z_min**"
+
+#: ../../docs/classes/class_light2d.rst:300
+msgid "set_z_range_min(value)"
+msgstr "set_z_range_min(value)"
+
+#: ../../docs/classes/class_light2d.rst:302
+msgid "get_z_range_min()"
+msgstr "get_z_range_min()"
+
+#: ../../docs/classes/class_light2d.rst:305
+msgid "Minimum ``z`` value of objects that are affected by the Light2D."
+msgstr "受Light2D影响的对象的最小 ``z`` 值。"
+
+#: ../../docs/classes/class_light2d.rst:311
+msgid ":ref:`int <class_int>` **shadow_buffer_size**"
+msgstr ":ref:`int <class_int>` **shadow_buffer_size**"
+
+#: ../../docs/classes/class_light2d.rst:316
+msgid "set_shadow_buffer_size(value)"
+msgstr "set_shadow_buffer_size(value)"
+
+#: ../../docs/classes/class_light2d.rst:318
+msgid "get_shadow_buffer_size()"
+msgstr "get_shadow_buffer_size()"
+
+#: ../../docs/classes/class_light2d.rst:321
+msgid "Shadow buffer size."
+msgstr "阴影缓冲区大小。"
+
+#: ../../docs/classes/class_light2d.rst:327
+msgid ":ref:`Color <class_Color>` **shadow_color**"
+msgstr ":ref:`Color <class_Color>` **shadow_color**"
+
+#: ../../docs/classes/class_light2d.rst:332
+msgid "set_shadow_color(value)"
+msgstr "set_shadow_color(value)"
+
+#: ../../docs/classes/class_light2d.rst:334
+msgid "get_shadow_color()"
+msgstr "get_shadow_color()"
+
+#: ../../docs/classes/class_light2d.rst:337
+msgid ":ref:`Color <class_Color>` of shadows cast by the Light2D."
+msgstr "Light2D投射阴影的颜色 :ref:`Color <class_Color>`。"
+
+#: ../../docs/classes/class_light2d.rst:343
+msgid ":ref:`bool <class_bool>` **shadow_enabled**"
+msgstr ":ref:`bool <class_bool>` **shadow_enabled**"
+
+#: ../../docs/classes/class_light2d.rst:348
+msgid "set_shadow_enabled(value)"
+msgstr "set_shadow_enabled(value)"
+
+#: ../../docs/classes/class_light2d.rst:350
+msgid "is_shadow_enabled()"
+msgstr "is_shadow_enabled()"
+
+#: ../../docs/classes/class_light2d.rst:353
+msgid "If ``true``, the Light2D will cast shadows."
+msgstr "如果为 ``true``，则Light2D将投射阴影。"
+
+#: ../../docs/classes/class_light2d.rst:359
+msgid ":ref:`ShadowFilter <enum_Light2D_ShadowFilter>` **shadow_filter**"
+msgstr ":ref:`ShadowFilter <enum_Light2D_ShadowFilter>` **shadow_filter**"
+
+#: ../../docs/classes/class_light2d.rst:364
+msgid "set_shadow_filter(value)"
+msgstr "set_shadow_filter(value)"
+
+#: ../../docs/classes/class_light2d.rst:366
+msgid "get_shadow_filter()"
+msgstr "get_shadow_filter()"
+
+#: ../../docs/classes/class_light2d.rst:369
+msgid ""
+"Shadow filter type. See :ref:`ShadowFilter <enum_Light2D_ShadowFilter>` "
+"for possible values."
+msgstr "阴影过滤类型。请参阅 :ref:`ShadowFilter <enum_Light2D_ShadowFilter>`，以获取可能的值。"
+
+#: ../../docs/classes/class_light2d.rst:375
+msgid ":ref:`float <class_float>` **shadow_filter_smooth**"
+msgstr ":ref:`float <class_float>` **shadow_filter_smooth**"
+
+#: ../../docs/classes/class_light2d.rst:380
+msgid "set_shadow_smooth(value)"
+msgstr "set_shadow_smooth(value)"
+
+#: ../../docs/classes/class_light2d.rst:382
+msgid "get_shadow_smooth()"
+msgstr "get_shadow_smooth()"
+
+#: ../../docs/classes/class_light2d.rst:385
+msgid "Smoothing value for shadows."
+msgstr "阴影的平滑值。"
+
+#: ../../docs/classes/class_light2d.rst:391
+msgid ":ref:`int <class_int>` **shadow_item_cull_mask**"
+msgstr ":ref:`int <class_int>` **shadow_item_cull_mask**"
+
+#: ../../docs/classes/class_light2d.rst:396
+msgid "set_item_shadow_cull_mask(value)"
+msgstr "set_item_shadow_cull_mask(value)"
+
+#: ../../docs/classes/class_light2d.rst:398
+msgid "get_item_shadow_cull_mask()"
+msgstr "get_item_shadow_cull_mask()"
+
+#: ../../docs/classes/class_light2d.rst:401
+#, fuzzy
+msgid ""
+"The shadow mask. Used with :ref:`LightOccluder2D <class_LightOccluder2D>`"
+" to cast shadows. Only occluders with a matching light mask will cast "
+"shadows."
+msgstr ""
+"阴影遮罩。与 :ref:`LightOccluder2D <class_LightOccluder2D>` "
+"配合使用以投射阴影。仅具有一个匹配的阴影遮罩的遮挡物，将投射阴影。"
+
+#: ../../docs/classes/class_light2d.rst:407
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ":ref:`Texture <class_Texture>` **texture**"
+
+#: ../../docs/classes/class_light2d.rst:410
+msgid "set_texture(value)"
+msgstr "set_texture(value)"
+
+#: ../../docs/classes/class_light2d.rst:412
+msgid "get_texture()"
+msgstr "get_texture()"
+
+#: ../../docs/classes/class_light2d.rst:415
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` used for the Light2D's appearance."
+msgstr "纹理 :ref:`Texture <class_Texture>` 用于Light2D的外观。"
+
+#: ../../docs/classes/class_light2d.rst:421
+msgid ":ref:`float <class_float>` **texture_scale**"
+msgstr ":ref:`float <class_float>` **texture_scale**"
+
+#: ../../docs/classes/class_light2d.rst:426
+msgid "set_texture_scale(value)"
+msgstr "set_texture_scale(value)"
+
+#: ../../docs/classes/class_light2d.rst:428
+msgid "get_texture_scale()"
+msgstr "get_texture_scale()"
+
+#: ../../docs/classes/class_light2d.rst:431
+msgid "The ``texture``'s scale factor."
+msgstr "``纹理（texture）`` 的缩放因子。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid ""
+#~ ":ref:`shadow_gradient_length "
+#~ "<class_Light2D_property_shadow_gradient_length>`"
+#~ msgstr ""
+#~ ":ref:`shadow_gradient_length "
+#~ "<class_Light2D_property_shadow_gradient_length>`"
+
+#~ msgid ""
+#~ "**SHADOW_FILTER_PCF3** = **1** --- Percentage"
+#~ " closer filtering (3 samples) applies "
+#~ "to the shadow map. See "
+#~ ":ref:`shadow_filter <class_Light2D_property_shadow_filter>`."
+#~ msgstr ""
+#~ "**SHADOW_FILTER_PCF3** = **1** —— "
+#~ "百分比相近滤波（3个样本）应用于阴影贴图。参见 :ref:`shadow_filter "
+#~ "<class_Light2D_property_shadow_filter>`。"
+
+#~ msgid ""
+#~ "**SHADOW_FILTER_PCF7** = **3** --- Percentage"
+#~ " closer filtering (7 samples) applies "
+#~ "to the shadow map. See "
+#~ ":ref:`shadow_filter <class_Light2D_property_shadow_filter>`."
+#~ msgstr ""
+#~ "**SHADOW_FILTER_PCF7** = **3** —— "
+#~ "百分比相近滤波（7个样本）应用于阴影贴图。参见 :ref:`shadow_filter "
+#~ "<class_Light2D_property_shadow_filter>`。"
+
+#~ msgid ""
+#~ "**SHADOW_FILTER_PCF9** = **4** --- Percentage"
+#~ " closer filtering (9 samples) applies "
+#~ "to the shadow map. See "
+#~ ":ref:`shadow_filter <class_Light2D_property_shadow_filter>`."
+#~ msgstr ""
+#~ "**SHADOW_FILTER_PCF9** = **4** —— "
+#~ "百分比相近滤波（9个样本）应用于阴影贴图。参见 :ref:`shadow_filter "
+#~ "<class_Light2D_property_shadow_filter>`。"
+
+#~ msgid ":ref:`float <class_float>` **shadow_gradient_length**"
+#~ msgstr ":ref:`float <class_float>` **shadow_gradient_length**"
+
+#~ msgid "set_shadow_gradient_length(value)"
+#~ msgstr "set_shadow_gradient_length(value)"
+
+#~ msgid "get_shadow_gradient_length()"
+#~ msgstr "get_shadow_gradient_length()"
+
+#~ msgid "Smooth shadow gradient length."
+#~ msgstr "平滑阴影的渐变长度。"
+

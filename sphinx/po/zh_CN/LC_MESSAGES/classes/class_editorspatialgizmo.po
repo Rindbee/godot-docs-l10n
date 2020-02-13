@@ -1,0 +1,484 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:10
+msgid "EditorSpatialGizmo"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:12
+msgid ""
+"**Inherits:** :ref:`SpatialGizmo <class_SpatialGizmo>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:14
+msgid "Custom gizmo for editing Spatial objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:19
+msgid ""
+"Custom gizmo that is used for providing custom visualization and editing "
+"(handles) for 3D Spatial objects. See :ref:`EditorSpatialGizmoPlugin "
+"<class_EditorSpatialGizmoPlugin>` for more information."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:57
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:25
+msgid ""
+":ref:`add_collision_segments "
+"<class_EditorSpatialGizmo_method_add_collision_segments>` **(** "
+":ref:`PackedVector3Array <class_PackedVector3Array>` segments **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:27
+msgid ""
+":ref:`add_collision_triangles "
+"<class_EditorSpatialGizmo_method_add_collision_triangles>` **(** "
+":ref:`TriangleMesh <class_TriangleMesh>` triangles **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:29
+msgid ""
+":ref:`add_handles <class_EditorSpatialGizmo_method_add_handles>` **(** "
+":ref:`PackedVector3Array <class_PackedVector3Array>` handles, "
+":ref:`Material <class_Material>` material, :ref:`bool <class_bool>` "
+"billboard=false, :ref:`bool <class_bool>` secondary=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:31
+msgid ""
+":ref:`add_lines <class_EditorSpatialGizmo_method_add_lines>` **(** "
+":ref:`PackedVector3Array <class_PackedVector3Array>` lines, "
+":ref:`Material <class_Material>` material, :ref:`bool <class_bool>` "
+"billboard=false, :ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1 ) "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:33
+msgid ""
+":ref:`add_mesh <class_EditorSpatialGizmo_method_add_mesh>` **(** "
+":ref:`ArrayMesh <class_ArrayMesh>` mesh, :ref:`bool <class_bool>` "
+"billboard=false, :ref:`SkinReference <class_SkinReference>` "
+"skeleton=null, :ref:`Material <class_Material>` material=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:35
+msgid ""
+":ref:`add_unscaled_billboard "
+"<class_EditorSpatialGizmo_method_add_unscaled_billboard>` **(** "
+":ref:`Material <class_Material>` material, :ref:`float <class_float>` "
+"default_scale=1, :ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1 ) "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:37
+msgid ":ref:`clear <class_EditorSpatialGizmo_method_clear>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:39
+msgid ""
+":ref:`commit_handle <class_EditorSpatialGizmo_method_commit_handle>` "
+"**(** :ref:`int <class_int>` index, :ref:`Variant <class_Variant>` "
+"restore, :ref:`bool <class_bool>` cancel=false **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:41
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:41
+msgid ""
+":ref:`get_handle_name <class_EditorSpatialGizmo_method_get_handle_name>` "
+"**(** :ref:`int <class_int>` index **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:43
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:43
+msgid ""
+":ref:`get_handle_value "
+"<class_EditorSpatialGizmo_method_get_handle_value>` **(** :ref:`int "
+"<class_int>` index **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:45
+msgid ":ref:`EditorSpatialGizmoPlugin <class_EditorSpatialGizmoPlugin>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:45
+msgid ""
+":ref:`get_plugin <class_EditorSpatialGizmo_method_get_plugin>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:47
+msgid ":ref:`Spatial <class_Spatial>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:47
+msgid ""
+":ref:`get_spatial_node "
+"<class_EditorSpatialGizmo_method_get_spatial_node>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:49
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:49
+msgid ""
+":ref:`is_handle_highlighted "
+"<class_EditorSpatialGizmo_method_is_handle_highlighted>` **(** :ref:`int "
+"<class_int>` index **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:51
+msgid ":ref:`redraw <class_EditorSpatialGizmo_method_redraw>` **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:53
+msgid ""
+":ref:`set_handle <class_EditorSpatialGizmo_method_set_handle>` **(** "
+":ref:`int <class_int>` index, :ref:`Camera <class_Camera>` camera, "
+":ref:`Vector2 <class_Vector2>` point **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:55
+msgid ""
+":ref:`set_hidden <class_EditorSpatialGizmo_method_set_hidden>` **(** "
+":ref:`bool <class_bool>` hidden **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:57
+msgid ""
+":ref:`set_spatial_node "
+"<class_EditorSpatialGizmo_method_set_spatial_node>` **(** :ref:`Node "
+"<class_Node>` node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:61
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:65
+msgid ""
+"void **add_collision_segments** **(** :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` segments **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:71
+msgid ""
+"void **add_collision_triangles** **(** :ref:`TriangleMesh "
+"<class_TriangleMesh>` triangles **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:73
+msgid ""
+"Adds collision triangles to the gizmo for picking. A :ref:`TriangleMesh "
+"<class_TriangleMesh>` can be generated from a regular :ref:`Mesh "
+"<class_Mesh>` too. Call this function during :ref:`redraw "
+"<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:79
+msgid ""
+"void **add_handles** **(** :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` handles, :ref:`Material <class_Material>` "
+"material, :ref:`bool <class_bool>` billboard=false, :ref:`bool "
+"<class_bool>` secondary=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:81
+msgid ""
+"Adds a list of handles (points) which can be used to deform the object "
+"being edited."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:83
+msgid ""
+"There are virtual functions which will be called upon editing of these "
+"handles. Call this function during :ref:`redraw "
+"<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:89
+msgid ""
+"void **add_lines** **(** :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` lines, :ref:`Material <class_Material>` "
+"material, :ref:`bool <class_bool>` billboard=false, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:91
+msgid ""
+"Adds lines to the gizmo (as sets of 2 points), with a given material. The"
+" lines are used for visualizing the gizmo. Call this function during "
+":ref:`redraw <class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:97
+msgid ""
+"void **add_mesh** **(** :ref:`ArrayMesh <class_ArrayMesh>` mesh, "
+":ref:`bool <class_bool>` billboard=false, :ref:`SkinReference "
+"<class_SkinReference>` skeleton=null, :ref:`Material <class_Material>` "
+"material=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:103
+msgid ""
+"void **add_unscaled_billboard** **(** :ref:`Material <class_Material>` "
+"material, :ref:`float <class_float>` default_scale=1, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:105
+msgid ""
+"Adds an unscaled billboard for visualization. Call this function during "
+":ref:`redraw <class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:111
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:117
+msgid ""
+"void **commit_handle** **(** :ref:`int <class_int>` index, :ref:`Variant "
+"<class_Variant>` restore, :ref:`bool <class_bool>` cancel=false **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:119
+msgid ""
+"Commit a handle being edited (handles must have been previously added by "
+":ref:`add_handles <class_EditorSpatialGizmo_method_add_handles>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:121
+msgid ""
+"If the ``cancel`` parameter is ``true``, an option to restore the edited "
+"value to the original is provided."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:127
+msgid ""
+":ref:`String <class_String>` **get_handle_name** **(** :ref:`int "
+"<class_int>` index **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:129
+msgid ""
+"Gets the name of an edited handle (handles must have been previously "
+"added by :ref:`add_handles "
+"<class_EditorSpatialGizmo_method_add_handles>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:131
+msgid "Handles can be named for reference to the user when editing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:137
+msgid ""
+":ref:`Variant <class_Variant>` **get_handle_value** **(** :ref:`int "
+"<class_int>` index **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:139
+msgid ""
+"Gets actual value of a handle. This value can be anything and used for "
+"eventually undoing the motion when calling :ref:`commit_handle "
+"<class_EditorSpatialGizmo_method_commit_handle>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:145
+msgid ""
+":ref:`EditorSpatialGizmoPlugin <class_EditorSpatialGizmoPlugin>` "
+"**get_plugin** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:147
+msgid ""
+"Returns the :ref:`EditorSpatialGizmoPlugin "
+"<class_EditorSpatialGizmoPlugin>` that owns this gizmo. It's useful to "
+"retrieve materials using :ref:`EditorSpatialGizmoPlugin.get_material "
+"<class_EditorSpatialGizmoPlugin_method_get_material>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:153
+msgid ":ref:`Spatial <class_Spatial>` **get_spatial_node** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:155
+msgid "Returns the Spatial node associated with this gizmo."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:161
+msgid ""
+":ref:`bool <class_bool>` **is_handle_highlighted** **(** :ref:`int "
+"<class_int>` index **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:163
+msgid "Gets whether a handle is highlighted or not."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:169
+msgid "void **redraw** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:171
+msgid ""
+"This function is called when the Spatial this gizmo refers to changes "
+"(the :ref:`Spatial.update_gizmo <class_Spatial_method_update_gizmo>` is "
+"called)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:177
+msgid ""
+"void **set_handle** **(** :ref:`int <class_int>` index, :ref:`Camera "
+"<class_Camera>` camera, :ref:`Vector2 <class_Vector2>` point **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:179
+msgid ""
+"This function is used when the user drags a gizmo handle (previously "
+"added with :ref:`add_handles "
+"<class_EditorSpatialGizmo_method_add_handles>`) in screen coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:181
+msgid ""
+"The :ref:`Camera <class_Camera>` is also provided so screen coordinates "
+"can be converted to raycasts."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:187
+msgid "void **set_hidden** **(** :ref:`bool <class_bool>` hidden **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorspatialgizmo.rst:193
+msgid "void **set_spatial_node** **(** :ref:`Node <class_Node>` node **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_lines <class_EditorSpatialGizmo_method_add_lines>` "
+#~ "**(** :ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "lines, :ref:`Material <class_Material>` material,"
+#~ " :ref:`bool <class_bool>` billboard=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_unscaled_billboard "
+#~ "<class_EditorSpatialGizmo_method_add_unscaled_billboard>` **(**"
+#~ " :ref:`Material <class_Material>` material, "
+#~ ":ref:`float <class_float>` default_scale=1 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_lines** **(** :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` lines, :ref:`Material "
+#~ "<class_Material>` material, :ref:`bool <class_bool>`"
+#~ " billboard=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_unscaled_billboard** **(** :ref:`Material"
+#~ " <class_Material>` material, :ref:`float "
+#~ "<class_float>` default_scale=1 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_collision_segments "
+#~ "<class_EditorSpatialGizmo_method_add_collision_segments>` **(**"
+#~ " :ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "segments **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_handles <class_EditorSpatialGizmo_method_add_handles>`"
+#~ " **(** :ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ " handles, :ref:`Material <class_Material>` "
+#~ "material, :ref:`bool <class_bool>` billboard=false,"
+#~ " :ref:`bool <class_bool>` secondary=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_lines <class_EditorSpatialGizmo_method_add_lines>` "
+#~ "**(** :ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "lines, :ref:`Material <class_Material>` material,"
+#~ " :ref:`bool <class_bool>` billboard=false, "
+#~ ":ref:`Color <class_Color>` modulate=Color( 1, "
+#~ "1, 1, 1 ) **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_collision_segments** **(** "
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` segments"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_handles** **(** :ref:`PoolVector3Array"
+#~ " <class_PoolVector3Array>` handles, :ref:`Material "
+#~ "<class_Material>` material, :ref:`bool <class_bool>`"
+#~ " billboard=false, :ref:`bool <class_bool>` "
+#~ "secondary=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_lines** **(** :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` lines, :ref:`Material "
+#~ "<class_Material>` material, :ref:`bool <class_bool>`"
+#~ " billboard=false, :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ) **)**"
+#~ msgstr ""
+

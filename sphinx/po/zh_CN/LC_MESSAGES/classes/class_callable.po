@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:10
+msgid "Callable"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:15
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:18
+msgid ":ref:`Callable <class_Callable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:18
+msgid ""
+":ref:`Callable <class_Callable_method_Callable>` **(** :ref:`Object "
+"<class_Object>` object, :ref:`StringName <class_StringName>` method_name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:20
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:20
+msgid ":ref:`call <class_Callable_method_call>` **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:22
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:22
+msgid ""
+":ref:`call_deferred <class_Callable_method_call_deferred>` **(** ... "
+"**)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:24
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:24
+msgid ":ref:`get_method <class_Callable_method_get_method>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:26
+msgid ":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:26
+msgid ":ref:`get_object <class_Callable_method_get_object>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:30
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:28
+msgid ":ref:`get_object_id <class_Callable_method_get_object_id>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:30
+msgid ":ref:`hash <class_Callable_method_hash>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:36
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:32
+msgid ":ref:`is_custom <class_Callable_method_is_custom>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:34
+msgid ":ref:`is_null <class_Callable_method_is_null>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:36
+msgid ":ref:`is_standard <class_Callable_method_is_standard>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:40
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:44
+msgid ""
+":ref:`Callable <class_Callable>` **Callable** **(** :ref:`Object "
+"<class_Object>` object, :ref:`StringName <class_StringName>` method_name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:50
+msgid ":ref:`Variant <class_Variant>` **call** **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:56
+msgid "void **call_deferred** **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:62
+msgid ":ref:`StringName <class_StringName>` **get_method** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:68
+msgid ":ref:`Object <class_Object>` **get_object** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:74
+msgid ":ref:`int <class_int>` **get_object_id** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:80
+msgid ":ref:`int <class_int>` **hash** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:86
+msgid ":ref:`bool <class_bool>` **is_custom** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:92
+msgid ":ref:`bool <class_bool>` **is_null** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_callable.rst:98
+msgid ":ref:`bool <class_bool>` **is_standard** **(** **)**"
+msgstr ""
+

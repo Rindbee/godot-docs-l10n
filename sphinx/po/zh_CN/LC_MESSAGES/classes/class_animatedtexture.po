@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-29 16:16+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:10
+msgid "AnimatedTexture"
+msgstr "AnimatedTexture"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture "
+"<class_Texture>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:14
+msgid "Proxy texture for simple frame-based animations."
+msgstr "用于基于帧的简单动画的代理纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:19
+#, fuzzy
+msgid ""
+"``AnimatedTexture`` is a resource format for frame-based animations, "
+"where multiple textures can be chained automatically with a predefined "
+"delay for each frame. Unlike :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` or :ref:`AnimatedSprite <class_AnimatedSprite>`,"
+" it isn't a :ref:`Node <class_Node>`, but has the advantage of being "
+"usable anywhere a :ref:`Texture2D <class_Texture2D>` resource can be "
+"used, e.g. in a :ref:`TileSet <class_TileSet>`."
+msgstr ""
+"``AnimatedTexture`` 是一种基于帧动画的资源格式，其中可以为每个帧预定义延迟，从而自动链接多个纹理。与 "
+":ref:`AnimationPlayer <class_AnimationPlayer>` 或 :ref:`AnimatedSprite "
+"<class_AnimatedSprite>` 不同，它不是一个 :ref:`Node "
+"<class_Node>`，但具有的优势是，可以在任何可以使用 :ref:`Texture <class_Texture>` "
+"资源的地方使用，例如，在 :ref:`TileSet <class_TileSet>` 中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:21
+msgid ""
+"The playback of the animation is controlled by the :ref:`fps "
+"<class_AnimatedTexture_property_fps>` property as well as each frame's "
+"optional delay (see :ref:`set_frame_delay "
+"<class_AnimatedTexture_method_set_frame_delay>`). The animation loops, "
+"i.e. it will restart at frame 0 automatically after playing the last "
+"frame."
+msgstr ""
+"动画的播放由 :ref:`fps <class_AnimatedTexture_property_fps>` 属性，以及每个帧的可选延迟（参见 "
+":ref:`set_frame_delay "
+"<class_AnimatedTexture_method_set_frame_delay>`）控制。动画循环播放，即它将在播放最后一帧后，自动从第0帧重新开始。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:23
+msgid ""
+"``AnimatedTexture`` currently requires all frame textures to have the "
+"same size, otherwise the bigger ones will be cropped to match the "
+"smallest one. Also, it doesn't support :ref:`AtlasTexture "
+"<class_AtlasTexture>`. Each frame needs to be separate image."
+msgstr ""
+"``AnimatedTexture`` 当前要求所有帧的纹理，具有相同的大小，否则较大的纹理将被裁剪以匹配最小的纹理。另外，它不支持 "
+":ref:`AtlasTexture <class_AtlasTexture>`。每个帧需要是单独的图像。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:26
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:38
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:29
+msgid ":ref:`fps <class_AnimatedTexture_property_fps>`"
+msgstr ":ref:`fps <class_AnimatedTexture_property_fps>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:62
+#, fuzzy
+msgid "``4.0``"
+msgstr "4.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:31
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:31
+msgid ":ref:`frames <class_AnimatedTexture_property_frames>`"
+msgstr ":ref:`frames <class_AnimatedTexture_property_frames>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:80
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:35
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:38
+msgid ""
+":ref:`get_frame_delay <class_AnimatedTexture_method_get_frame_delay>` "
+"**(** :ref:`int <class_int>` frame **)** const"
+msgstr ""
+":ref:`get_frame_delay <class_AnimatedTexture_method_get_frame_delay>` "
+"**(** :ref:`int <class_int>` frame **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:40
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:40
+msgid ""
+":ref:`get_frame_texture <class_AnimatedTexture_method_get_frame_texture>`"
+" **(** :ref:`int <class_int>` frame **)** const"
+msgstr ""
+":ref:`get_frame_texture <class_AnimatedTexture_method_get_frame_texture>`"
+" **(** :ref:`int <class_int>` frame **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:44
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:42
+msgid ""
+":ref:`set_frame_delay <class_AnimatedTexture_method_set_frame_delay>` "
+"**(** :ref:`int <class_int>` frame, :ref:`float <class_float>` delay "
+"**)**"
+msgstr ""
+":ref:`set_frame_delay <class_AnimatedTexture_method_set_frame_delay>` "
+"**(** :ref:`int <class_int>` frame, :ref:`float <class_float>` delay "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:44
+#, fuzzy
+msgid ""
+":ref:`set_frame_texture <class_AnimatedTexture_method_set_frame_texture>`"
+" **(** :ref:`int <class_int>` frame, :ref:`Texture2D <class_Texture2D>` "
+"texture **)**"
+msgstr ""
+":ref:`set_frame_texture <class_AnimatedTexture_method_set_frame_texture>`"
+" **(** :ref:`int <class_int>` frame, :ref:`Texture <class_Texture>` "
+"texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:48
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:52
+msgid ""
+"**MAX_FRAMES** = **256** --- The maximum number of frames supported by "
+"``AnimatedTexture``. If you need more frames in your animation, use "
+":ref:`AnimationPlayer <class_AnimationPlayer>` or :ref:`AnimatedSprite "
+"<class_AnimatedSprite>`."
+msgstr ""
+"**MAX_FRAMES** = **256** —— ``AnimatedTexture`` 支持的最大帧数。如果您的动画中需要更多帧，请使用 "
+":ref:`AnimationPlayer <class_AnimationPlayer>` 或 :ref:`AnimatedSprite "
+"<class_AnimatedSprite>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:55
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:59
+msgid ":ref:`float <class_float>` **fps**"
+msgstr ":ref:`float <class_float>` **fps**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:80
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:82
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:64
+msgid "set_fps(value)"
+msgstr "set_fps(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:84
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:66
+msgid "get_fps()"
+msgstr "get_fps()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:69
+msgid ""
+"Animation speed in frames per second. This value defines the default time"
+" interval between two frames of the animation, and thus the overall "
+"duration of the animation loop based on the :ref:`frames "
+"<class_AnimatedTexture_property_frames>` property. A value of 0 means no "
+"predefined number of frames per second, the animation will play according"
+" to each frame's frame delay (see :ref:`set_frame_delay "
+"<class_AnimatedTexture_method_set_frame_delay>`)."
+msgstr ""
+"动画速度，以每秒帧数为单位。该值定义了动画的两个帧之间的默认时间间隔，并因此，动画循环的整体持续时间，基于 :ref:`frames "
+"<class_AnimatedTexture_property_frames>` "
+"属性。值为0表示没有预定义每秒帧数，动画将根据每个帧的帧延迟播放（请参阅 :ref:`set_frame_delay "
+"<class_AnimatedTexture_method_set_frame_delay>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:71
+msgid ""
+"For example, an animation with 8 frames, no frame delay and a ``fps`` "
+"value of 2 will run for 4 seconds, with each frame lasting 0.5 seconds."
+msgstr "例如，具有8帧、无帧延迟、且 ``fps`` 值为2的动画，将运行4秒，每帧持续0.5秒。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:77
+msgid ":ref:`int <class_int>` **frames**"
+msgstr ":ref:`int <class_int>` **frames**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:82
+msgid "set_frames(value)"
+msgstr "set_frames(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:84
+msgid "get_frames()"
+msgstr "get_frames()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:87
+msgid ""
+"Number of frames to use in the animation. While you can create the frames"
+" independently with :ref:`set_frame_texture "
+"<class_AnimatedTexture_method_set_frame_texture>`, you need to set this "
+"value for the animation to take new frames into account. The maximum "
+"number of frames is :ref:`MAX_FRAMES "
+"<class_AnimatedTexture_constant_MAX_FRAMES>`."
+msgstr ""
+"动画中要使用的帧数。当您可以使用 :ref:`set_frame_texture "
+"<class_AnimatedTexture_method_set_frame_texture>` "
+"独立创建帧，您需要为动画设置此值以考虑新帧。最大帧数是 :ref:`MAX_FRAMES "
+"<class_AnimatedTexture_constant_MAX_FRAMES>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:90
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:94
+msgid ""
+":ref:`float <class_float>` **get_frame_delay** **(** :ref:`int "
+"<class_int>` frame **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_frame_delay** **(** :ref:`int "
+"<class_int>` frame **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:96
+msgid "Returns the given frame's delay value."
+msgstr "返回给定帧的延迟值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:102
+#, fuzzy
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_frame_texture** **(** :ref:`int "
+"<class_int>` frame **)** const"
+msgstr ""
+":ref:`Texture <class_Texture>` **get_frame_texture** **(** :ref:`int "
+"<class_int>` frame **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:104
+#, fuzzy
+msgid "Returns the given frame's :ref:`Texture2D <class_Texture2D>`."
+msgstr "返回给定帧的 :ref:`Texture <class_Texture>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:110
+msgid ""
+"void **set_frame_delay** **(** :ref:`int <class_int>` frame, :ref:`float "
+"<class_float>` delay **)**"
+msgstr ""
+"void **set_frame_delay** **(** :ref:`int <class_int>` frame, :ref:`float "
+"<class_float>` delay **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:112
+msgid ""
+"Sets an additional delay (in seconds) between this frame and the next "
+"one, that will be added to the time interval defined by :ref:`fps "
+"<class_AnimatedTexture_property_fps>`. By default, frames have no delay "
+"defined. If a delay value is defined, the final time interval between "
+"this frame and the next will be ``1.0 / fps + delay``."
+msgstr ""
+"设置此帧与下一帧之间的额外延迟（以秒为单位），该延迟将添加到由 :ref:`fps "
+"<class_AnimatedTexture_property_fps>` "
+"定义的时间间隔中。默认情况下，帧没有定义延迟。如果定义了一个延迟值，则此帧与下一帧之间的最终时间间隔，将是 ``1.0 / fps + "
+"delay``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:114
+msgid ""
+"For example, for an animation with 3 frames, 2 FPS and a frame delay on "
+"the second frame of 1.2, the resulting playback will be:"
+msgstr "例如，对于具有3帧、2 FPS和第二帧1.2的帧延迟的动画，结果播放将为："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:127
+#, fuzzy
+msgid ""
+"void **set_frame_texture** **(** :ref:`int <class_int>` frame, "
+":ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+"void **set_frame_texture** **(** :ref:`int <class_int>` frame, "
+":ref:`Texture <class_Texture>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:129
+#, fuzzy
+msgid ""
+"Assigns a :ref:`Texture2D <class_Texture2D>` to the given frame. Frame "
+"IDs start at 0, so the first frame has ID 0, and the last frame of the "
+"animation has ID :ref:`frames <class_AnimatedTexture_property_frames>` - "
+"1."
+msgstr ""
+"给给定的帧分配一个 :ref:`Texture "
+"<class_Texture>`。帧ID从0开始，因此第一帧的ID为0，动画的最后一帧的ID为：:ref:`frames "
+"<class_AnimatedTexture_property_frames>` - 1。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedtexture.rst:131
+msgid ""
+"You can define any number of textures up to :ref:`MAX_FRAMES "
+"<class_AnimatedTexture_constant_MAX_FRAMES>`, but keep in mind that only "
+"frames from 0 to :ref:`frames <class_AnimatedTexture_property_frames>` - "
+"1 will be part of the animation."
+msgstr ""
+"您可以定义不超过 :ref:`MAX_FRAMES <class_AnimatedTexture_constant_MAX_FRAMES>` "
+"的任意数量的纹理，但请记住，只有从0到 :ref:`frames <class_AnimatedTexture_property_frames>`"
+" - 1 的帧，是动画的一部分。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "flags"
+#~ msgstr "标志"
+
+#~ msgid "**O:** ``0``"
+#~ msgstr "**O:** 0"
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Texture2D <class_Texture2D>` "
+#~ "**<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+#~ "**基类**：:ref:`Texture <class_Texture>` **<** "
+#~ ":ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+

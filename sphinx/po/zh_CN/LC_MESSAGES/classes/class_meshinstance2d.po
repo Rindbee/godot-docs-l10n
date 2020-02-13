@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-11-01 16:39+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_meshinstance2d.rst:10
+msgid "MeshInstance2D"
+msgstr "MeshInstance2D"
+
+#: ../../docs/classes/class_meshinstance2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:14
+msgid "Node used for displaying a :ref:`Mesh <class_Mesh>` in 2D."
+msgstr "用于在2D中显示 :ref:`Mesh <class_Mesh>` 的节点。"
+
+#: ../../docs/classes/class_meshinstance2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_meshinstance2d.rst:19
+msgid ""
+"Node used for displaying a :ref:`Mesh <class_Mesh>` in 2D. Can be "
+"constructed from an existing :ref:`Sprite <class_Sprite>` via a tool in "
+"the editor toolbar. Select \"Sprite\" then \"Convert to Mesh2D\", select "
+"settings in popup and press \"Create Mesh2D\"."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_meshinstance2d.rst:24
+msgid ":doc:`../tutorials/2d/2d_meshes`"
+msgstr ":doc:`../tutorials/2d/2d_meshes`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_meshinstance2d.rst:30
+msgid ":ref:`Mesh <class_Mesh>`"
+msgstr ":ref:`Mesh <class_Mesh>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:30
+msgid ":ref:`mesh <class_MeshInstance2D_property_mesh>`"
+msgstr ":ref:`mesh <class_MeshInstance2D_property_mesh>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:32
+#: ../../docs/classes/class_meshinstance2d.rst:34
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:32
+msgid ":ref:`normal_map <class_MeshInstance2D_property_normal_map>`"
+msgstr ":ref:`normal_map <class_MeshInstance2D_property_normal_map>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:34
+msgid ":ref:`texture <class_MeshInstance2D_property_texture>`"
+msgstr ":ref:`texture <class_MeshInstance2D_property_texture>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:38
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_meshinstance2d.rst:42
+msgid "**texture_changed** **(** **)**"
+msgstr "**texture_changed** **(** **)**"
+
+#: ../../docs/classes/class_meshinstance2d.rst:44
+#, fuzzy
+msgid ""
+"Emitted when the :ref:`texture <class_MeshInstance2D_property_texture>` "
+"is changed."
+msgstr ":ref:`texture <class_MeshInstance2D_property_texture>`"
+
+#: ../../docs/classes/class_meshinstance2d.rst:47
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_meshinstance2d.rst:51
+msgid ":ref:`Mesh <class_Mesh>` **mesh**"
+msgstr ":ref:`Mesh <class_Mesh>` **mesh**"
+
+#: ../../docs/classes/class_meshinstance2d.rst:54
+#: ../../docs/classes/class_meshinstance2d.rst:68
+#: ../../docs/classes/class_meshinstance2d.rst:82
+msgid "*Setter*"
+msgstr "*设值函数*"
+
+#: ../../docs/classes/class_meshinstance2d.rst:54
+msgid "set_mesh(value)"
+msgstr "set_mesh(value)"
+
+#: ../../docs/classes/class_meshinstance2d.rst:56
+#: ../../docs/classes/class_meshinstance2d.rst:70
+#: ../../docs/classes/class_meshinstance2d.rst:84
+msgid "*Getter*"
+msgstr "*取值函数*"
+
+#: ../../docs/classes/class_meshinstance2d.rst:56
+msgid "get_mesh()"
+msgstr "get_mesh()"
+
+#: ../../docs/classes/class_meshinstance2d.rst:59
+msgid "The :ref:`Mesh <class_Mesh>` that will be drawn by the ``MeshInstance2D``."
+msgstr ":ref:`Mesh <class_Mesh>` 将由 ``MeshInstance2D`` 绘制。"
+
+#: ../../docs/classes/class_meshinstance2d.rst:65
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **normal_map**"
+msgstr ":ref:`Texture <class_Texture>` **normal_map**"
+
+#: ../../docs/classes/class_meshinstance2d.rst:68
+msgid "set_normal_map(value)"
+msgstr "set_normal_map(value)"
+
+#: ../../docs/classes/class_meshinstance2d.rst:70
+msgid "get_normal_map()"
+msgstr "get_normal_map()"
+
+#: ../../docs/classes/class_meshinstance2d.rst:73
+msgid ""
+"The normal map that will be used if using the default "
+":ref:`CanvasItemMaterial <class_CanvasItemMaterial>`."
+msgstr "如果使用默认的 :ref:`CanvasItemMaterial <class_CanvasItemMaterial>`，该法线贴图将被使用。"
+
+#: ../../docs/classes/class_meshinstance2d.rst:79
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ":ref:`Texture <class_Texture>` **texture**"
+
+#: ../../docs/classes/class_meshinstance2d.rst:82
+msgid "set_texture(value)"
+msgstr "set_texture(value)"
+
+#: ../../docs/classes/class_meshinstance2d.rst:84
+msgid "get_texture()"
+msgstr "get_texture()"
+
+#: ../../docs/classes/class_meshinstance2d.rst:87
+#, fuzzy
+msgid ""
+"The :ref:`Texture2D <class_Texture2D>` that will be used if using the "
+"default :ref:`CanvasItemMaterial <class_CanvasItemMaterial>`. Can be "
+"accessed as ``TEXTURE`` in CanvasItem shader."
+msgstr ""
+"如果使用默认的 :ref:`CanvasItemMaterial <class_CanvasItemMaterial>`，则将使用 "
+":ref:`Texture <class_Texture>`。可以在 ``CanvasItem`` 着色器中作为 ``TEXTURE`` 访问。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ""
+#~ "Node used for displaying a :ref:`Mesh"
+#~ " <class_Mesh>` in 2D. Can be "
+#~ "constructed from an existing :ref:`Sprite "
+#~ "<class_Sprite>` use tool in Toolbar. "
+#~ "Select \"Sprite\" then \"Convert to "
+#~ "Mesh2D\", select settings in popup and"
+#~ " press \"Create Mesh2D\"."
+#~ msgstr ""
+#~ "用于在2D中显示 :ref:`Mesh <class_Mesh>` "
+#~ "的节点。可以在工具栏中使用工具，从现有的 :ref:`Sprite <class_Sprite>` "
+#~ "构造。选择 ``Sprite``，然后选择 ``转换为Mesh2D``，在弹出窗口中选择设置，然后按 "
+#~ "``创建Mesh2D``。"
+

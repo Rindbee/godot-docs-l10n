@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2020-03-07 20:33+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:4
 msgid "Optimization using MultiMeshes"
-msgstr ""
+msgstr "使用多重网格优化"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:6
 msgid ""
@@ -27,6 +31,8 @@ msgid ""
 "processed (and certain amount of control needs to be retained), :ref:`using "
 "servers directly <doc_using_servers>` is the recommended optimization."
 msgstr ""
+"对于大量实例（成千上万个），这些实例需要不断处理（并且需要保留一定数量的控制"
+"权），:ref:`使用直接使用服务 <doc_using_servers>` 是建议的优化方式。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:10
 msgid ""
@@ -34,11 +40,12 @@ msgid ""
 "of these approaches are efficient anymore. Still, depending on the "
 "requirements, there is one more optimization possible."
 msgstr ""
+"当对象数量达到数十万或数百万时，这些方法都不再有效。尽管如此，根据要求，还有"
+"另一种可能的优化方法。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:15
-#, fuzzy
 msgid "MultiMeshes"
-msgstr "MultiMesh设置"
+msgstr "多重网格（MultiMeshes）"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:17
 msgid ""
@@ -47,6 +54,9 @@ msgid ""
 "uses the GPU hardware to do this (in OpenGL ES 2.0, it's less efficient "
 "because there is no hardware support for it, though)."
 msgstr ""
+":ref:`MultiMesh<class_MultiMesh>` 是一个绘制图元，可以一次绘制多达数百万个对"
+"象。这是非常有效的，因为它使用GPU硬件来执行此操作（在OpenGL ES 2.0中，效率较"
+"低，因为它没有硬件支持）。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:21
 msgid ""
@@ -56,6 +66,9 @@ msgid ""
 "MultiMesh. It is possible to provide a custom visibility rect for them, but "
 "it will always be *all-or-none* visibility."
 msgstr ""
+"唯一的缺点是个别实例无法进行 *屏幕* 或 *视锥* 剔除。这意味着，将 *始终* 或 *"
+"永远* 绘制数百万个对象，具体取决于整个 ``MultiMesh`` 的可见性。可以为它们提供"
+"自定义可见性 ``rect``，但是它始终是 *全部或没有* 的可见性。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:26
 msgid ""
@@ -64,6 +77,8 @@ msgid ""
 "use case. A workaround is to create several MultiMeshes for different areas "
 "of the world."
 msgstr ""
+"如果对象足够简单（仅几个顶点），通常就不会有太大问题，因为大多数现代GPU都针对"
+"此用例进行了优化。一种解决方法是为世界的不同区域创建多个 ``MultiMesh``。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:30
 msgid ""
@@ -74,6 +89,11 @@ msgid ""
 "Information to the shader can be provided via textures (there are floating "
 "point :ref:`Image<class_Image>` formats which are ideal for this)."
 msgstr ""
+"也可以在顶点着色器内部执行一些逻辑（使用 ``INSTANCE_ID`` 或 "
+"``INSTANCE_CUSTOM`` 内置常量）。有关在 ``MultiMesh`` 中动画化成千上万个对象的"
+"示例，请参见 :ref:`动画化成千上万条鱼 <doc_animating_thousands_of_fish>` 的教"
+"程。可以通过纹理提供给着色器信息（浮点型 :ref:`Image<class_Image>` 格式非常适"
+"合）。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:36
 msgid ""
@@ -84,6 +104,11 @@ msgid ""
 "way, the array can be created with multiple threads, then set in one call, "
 "providing high cache efficiency."
 msgstr ""
+"另一个选择是使用GDNative和C++，它们应该非常高效（可以通过 :ref:`VisualServer."
+"multimesh_set_as_bulk_array() "
+"<class_VisualServer_method_multimesh_set_as_bulk_array>` 函数使用线性内存为所"
+"有对象设置整个状态）。这样，可以使用多个线程创建该数组，然后在一个调用中进行"
+"设置，从而提高缓存效率。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:42
 msgid ""
@@ -94,11 +119,14 @@ msgid ""
 "instances that will be used, then change the amount visible depending on how "
 "many are currently needed."
 msgstr ""
+"最后，不需要使所有 ``MultiMesh`` 实例可见。可见对象的数量可以通过 :ref:"
+"`MultiMesh.visible_instance_count "
+"<class_MultiMesh_property_visible_instance_count>` 属性来控制。典型的工作流程"
+"是分配将使用的最大实例数量，然后根据当前需要多少实例来更改可见数量。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:48
-#, fuzzy
 msgid "Multimesh example"
-msgstr "计时器示例"
+msgstr "Multimesh示例"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:50
 msgid ""
@@ -106,3 +134,5 @@ msgid ""
 "GDScript may be more efficient for millions of objects, but for a few "
 "thousands, GDScript should be fine."
 msgstr ""
+"这是一个代码中使用 ``MultiMesh`` 的示例。GDScript以外的语言可能对数百万个对象"
+"更有效，但对于数千个对象，GDScript应该没问题。"

@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-31 16:01+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:10
+msgid "InputEventAction"
+msgstr "InputEventAction"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:14
+msgid "Input event type for actions."
+msgstr "动作的输入事件类型。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:19
+msgid ""
+"Contains a generic action which can be targeted from several types of "
+"inputs. Actions can be created from the **Input Map** tab in the "
+"**Project > Project Settings** menu. See :ref:`Node._input "
+"<class_Node_method__input>`."
+msgstr ""
+"包含作为可以从多种类型的输入目标的通用操作。可以从 **项目>项目设置（Project > Project Settings）** 菜单中的 "
+"**输入映射（Input Map）** 选项卡创建动作。参见 :ref:`Node._input "
+"<class_Node_method__input>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:24
+msgid ""
+"`#actions <../tutorials/inputs/inputevent.html#actions>`_ in "
+":doc:`../tutorials/inputs/inputevent`"
+msgstr ""
+"在 :doc:`../tutorials/inputs/inputevent` 中的 `#actions "
+"<../tutorials/inputs/inputevent.html#actions>`_"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:30
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:30
+msgid ":ref:`action <class_InputEventAction_property_action>`"
+msgstr ":ref:`action <class_InputEventAction_property_action>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:45
+msgid "``@\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:32
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:32
+msgid ":ref:`pressed <class_InputEventAction_property_pressed>`"
+msgstr ":ref:`pressed <class_InputEventAction_property_pressed>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:61
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:34
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:34
+msgid ":ref:`strength <class_InputEventAction_property_strength>`"
+msgstr ":ref:`strength <class_InputEventAction_property_strength>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:77
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:38
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:42
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>` **action**"
+msgstr ":ref:`String <class_String>` **action**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:77
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:79
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:47
+msgid "set_action(value)"
+msgstr "set_action(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:81
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:49
+msgid "get_action()"
+msgstr "get_action()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:52
+msgid ""
+"The action's name. Actions are accessed via this :ref:`String "
+"<class_String>`."
+msgstr "动作的名称。动作是通过该 :ref:`String <class_String>` 来访问的。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:58
+msgid ":ref:`bool <class_bool>` **pressed**"
+msgstr ":ref:`bool <class_bool>` **pressed**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:63
+msgid "set_pressed(value)"
+msgstr "set_pressed(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:65
+msgid "is_pressed()"
+msgstr "is_pressed()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:68
+msgid ""
+"If ``true``, the action's state is pressed. If ``false``, the action's "
+"state is released."
+msgstr "如果为 ``true``，则动作的状态是按下。如果为 ``false``，则动作的状态是释放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:74
+msgid ":ref:`float <class_float>` **strength**"
+msgstr ":ref:`float <class_float>` **strength**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:79
+msgid "set_strength(value)"
+msgstr "set_strength(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:81
+msgid "get_strength()"
+msgstr "get_strength()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventaction.rst:84
+msgid ""
+"The action's strength between 0 and 1. This value is considered as equal "
+"to 0 if pressed is ``false``. The event strength allows faking analog "
+"joypad motion events, by precising how strongly is the joypad axis bent "
+"or pressed."
+msgstr "动作的强度在0到1之间。如果按下为 ``false``，则该值等于0。通过确定游戏手柄轴的弯曲或按压强度，事件强度允许伪造游戏手柄运动事件。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "\"\""
+#~ msgstr "\"\""
+
+#~ msgid "``\"\"``"
+#~ msgstr ""
+

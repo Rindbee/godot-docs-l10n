@@ -1,0 +1,1133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-28 09:25+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_camera2d.rst:10
+msgid "Camera2D"
+msgstr "Camera2D"
+
+#: ../../docs/classes/class_camera2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_camera2d.rst:14
+msgid "Camera node for 2D scenes."
+msgstr "2D场景的相机节点。"
+
+#: ../../docs/classes/class_camera2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_camera2d.rst:19
+msgid ""
+"Camera node for 2D scenes. It forces the screen (current layer) to scroll"
+" following this node. This makes it easier (and faster) to program "
+"scrollable scenes than manually changing the position of :ref:`CanvasItem"
+" <class_CanvasItem>`-based nodes."
+msgstr ""
+"2D场景的相机节点。它强制屏幕（当前层）在此节点之后滚动。与手动更改基于 :ref:`CanvasItem <class_CanvasItem>`"
+" 的节点的位置相比，这使得对可滚动场景进行编程更加容易（并且速度更快）。"
+
+#: ../../docs/classes/class_camera2d.rst:21
+msgid ""
+"This node is intended to be a simple helper to get things going quickly "
+"and it may happen that more functionality is desired to change how the "
+"camera works. To make your own custom camera node, simply inherit from "
+":ref:`Node2D <class_Node2D>` and change the transform of the canvas by "
+"calling get_viewport().set_canvas_transform(m) in :ref:`Viewport "
+"<class_Viewport>`."
+msgstr ""
+"该节点旨在成为使事情快速进行的简单助手器，并且可能会需要更多功能来更改相机的工作方式。要创建自己的自定义相机节点，只需继承 "
+":ref:`Node2D <class_Node2D>`，并通过调用 :ref:`Viewport <class_Viewport>` 中的 "
+"``get_viewport().set_canvas_transform(m)`` 即可更改画布的变换。"
+
+#: ../../docs/classes/class_camera2d.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_camera2d.rst:27
+msgid ":ref:`AnchorMode <enum_Camera2D_AnchorMode>`"
+msgstr ":ref:`AnchorMode <enum_Camera2D_AnchorMode>`"
+
+#: ../../docs/classes/class_camera2d.rst:27
+msgid ":ref:`anchor_mode <class_Camera2D_property_anchor_mode>`"
+msgstr ":ref:`anchor_mode <class_Camera2D_property_anchor_mode>`"
+
+#: ../../docs/classes/class_camera2d.rst:27
+#: ../../docs/classes/class_camera2d.rst:67
+#: ../../docs/classes/class_camera2d.rst:142
+#: ../../docs/classes/class_camera2d.rst:462
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_camera2d.rst:29
+#: ../../docs/classes/class_camera2d.rst:35
+#: ../../docs/classes/class_camera2d.rst:43
+#: ../../docs/classes/class_camera2d.rst:45
+#: ../../docs/classes/class_camera2d.rst:47
+#: ../../docs/classes/class_camera2d.rst:49
+#: ../../docs/classes/class_camera2d.rst:57
+#: ../../docs/classes/class_camera2d.rst:69
+#: ../../docs/classes/class_camera2d.rst:71
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_camera2d.rst:29
+msgid ":ref:`current <class_Camera2D_property_current>`"
+msgstr ":ref:`current <class_Camera2D_property_current>`"
+
+#: ../../docs/classes/class_camera2d.rst:29
+#: ../../docs/classes/class_camera2d.rst:35
+#: ../../docs/classes/class_camera2d.rst:43
+#: ../../docs/classes/class_camera2d.rst:45
+#: ../../docs/classes/class_camera2d.rst:47
+#: ../../docs/classes/class_camera2d.rst:57
+#: ../../docs/classes/class_camera2d.rst:69
+#: ../../docs/classes/class_camera2d.rst:71
+#: ../../docs/classes/class_camera2d.rst:158
+#: ../../docs/classes/class_camera2d.rst:202
+#: ../../docs/classes/class_camera2d.rst:266
+#: ../../docs/classes/class_camera2d.rst:282
+#: ../../docs/classes/class_camera2d.rst:298
+#: ../../docs/classes/class_camera2d.rst:378
+#: ../../docs/classes/class_camera2d.rst:478
+#: ../../docs/classes/class_camera2d.rst:494
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_camera2d.rst:31
+msgid ":ref:`Node <class_Node>`"
+msgstr ":ref:`Node <class_Node>`"
+
+#: ../../docs/classes/class_camera2d.rst:31
+msgid ":ref:`custom_viewport <class_Camera2D_property_custom_viewport>`"
+msgstr ":ref:`custom_viewport <class_Camera2D_property_custom_viewport>`"
+
+#: ../../docs/classes/class_camera2d.rst:33
+#: ../../docs/classes/class_camera2d.rst:37
+#: ../../docs/classes/class_camera2d.rst:39
+#: ../../docs/classes/class_camera2d.rst:41
+#: ../../docs/classes/class_camera2d.rst:63
+#: ../../docs/classes/class_camera2d.rst:65
+#: ../../docs/classes/class_camera2d.rst:73
+#: ../../docs/classes/class_camera2d.rst:92
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_camera2d.rst:33
+msgid ":ref:`drag_margin_bottom <class_Camera2D_property_drag_margin_bottom>`"
+msgstr ":ref:`drag_margin_bottom <class_Camera2D_property_drag_margin_bottom>`"
+
+#: ../../docs/classes/class_camera2d.rst:33
+#: ../../docs/classes/class_camera2d.rst:37
+#: ../../docs/classes/class_camera2d.rst:39
+#: ../../docs/classes/class_camera2d.rst:41
+#: ../../docs/classes/class_camera2d.rst:186
+#: ../../docs/classes/class_camera2d.rst:218
+#: ../../docs/classes/class_camera2d.rst:234
+#: ../../docs/classes/class_camera2d.rst:250
+#, fuzzy
+msgid "``0.2``"
+msgstr "0.2"
+
+#: ../../docs/classes/class_camera2d.rst:35
+msgid ""
+":ref:`drag_margin_h_enabled "
+"<class_Camera2D_property_drag_margin_h_enabled>`"
+msgstr ""
+":ref:`drag_margin_h_enabled "
+"<class_Camera2D_property_drag_margin_h_enabled>`"
+
+#: ../../docs/classes/class_camera2d.rst:37
+msgid ":ref:`drag_margin_left <class_Camera2D_property_drag_margin_left>`"
+msgstr ":ref:`drag_margin_left <class_Camera2D_property_drag_margin_left>`"
+
+#: ../../docs/classes/class_camera2d.rst:39
+msgid ":ref:`drag_margin_right <class_Camera2D_property_drag_margin_right>`"
+msgstr ":ref:`drag_margin_right <class_Camera2D_property_drag_margin_right>`"
+
+#: ../../docs/classes/class_camera2d.rst:41
+msgid ":ref:`drag_margin_top <class_Camera2D_property_drag_margin_top>`"
+msgstr ":ref:`drag_margin_top <class_Camera2D_property_drag_margin_top>`"
+
+#: ../../docs/classes/class_camera2d.rst:43
+msgid ""
+":ref:`drag_margin_v_enabled "
+"<class_Camera2D_property_drag_margin_v_enabled>`"
+msgstr ""
+":ref:`drag_margin_v_enabled "
+"<class_Camera2D_property_drag_margin_v_enabled>`"
+
+#: ../../docs/classes/class_camera2d.rst:45
+msgid ""
+":ref:`editor_draw_drag_margin "
+"<class_Camera2D_property_editor_draw_drag_margin>`"
+msgstr ""
+":ref:`editor_draw_drag_margin "
+"<class_Camera2D_property_editor_draw_drag_margin>`"
+
+#: ../../docs/classes/class_camera2d.rst:47
+msgid ":ref:`editor_draw_limits <class_Camera2D_property_editor_draw_limits>`"
+msgstr ":ref:`editor_draw_limits <class_Camera2D_property_editor_draw_limits>`"
+
+#: ../../docs/classes/class_camera2d.rst:49
+msgid ":ref:`editor_draw_screen <class_Camera2D_property_editor_draw_screen>`"
+msgstr ":ref:`editor_draw_screen <class_Camera2D_property_editor_draw_screen>`"
+
+#: ../../docs/classes/class_camera2d.rst:49
+#: ../../docs/classes/class_camera2d.rst:314
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: ../../docs/classes/class_camera2d.rst:51
+#: ../../docs/classes/class_camera2d.rst:53
+#: ../../docs/classes/class_camera2d.rst:55
+#: ../../docs/classes/class_camera2d.rst:59
+#: ../../docs/classes/class_camera2d.rst:94
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_camera2d.rst:51
+msgid ":ref:`limit_bottom <class_Camera2D_property_limit_bottom>`"
+msgstr ":ref:`limit_bottom <class_Camera2D_property_limit_bottom>`"
+
+#: ../../docs/classes/class_camera2d.rst:51
+#: ../../docs/classes/class_camera2d.rst:55
+#: ../../docs/classes/class_camera2d.rst:330
+#: ../../docs/classes/class_camera2d.rst:362
+#, fuzzy
+msgid "``10000000``"
+msgstr "10000000"
+
+#: ../../docs/classes/class_camera2d.rst:53
+msgid ":ref:`limit_left <class_Camera2D_property_limit_left>`"
+msgstr ":ref:`limit_left <class_Camera2D_property_limit_left>`"
+
+#: ../../docs/classes/class_camera2d.rst:53
+#: ../../docs/classes/class_camera2d.rst:59
+#: ../../docs/classes/class_camera2d.rst:346
+#: ../../docs/classes/class_camera2d.rst:394
+#, fuzzy
+msgid "``-10000000``"
+msgstr "-10000000"
+
+#: ../../docs/classes/class_camera2d.rst:55
+msgid ":ref:`limit_right <class_Camera2D_property_limit_right>`"
+msgstr ":ref:`limit_right <class_Camera2D_property_limit_right>`"
+
+#: ../../docs/classes/class_camera2d.rst:57
+msgid ":ref:`limit_smoothed <class_Camera2D_property_limit_smoothed>`"
+msgstr ":ref:`limit_smoothed <class_Camera2D_property_limit_smoothed>`"
+
+#: ../../docs/classes/class_camera2d.rst:59
+msgid ":ref:`limit_top <class_Camera2D_property_limit_top>`"
+msgstr ":ref:`limit_top <class_Camera2D_property_limit_top>`"
+
+#: ../../docs/classes/class_camera2d.rst:61
+#: ../../docs/classes/class_camera2d.rst:75
+#: ../../docs/classes/class_camera2d.rst:88
+#: ../../docs/classes/class_camera2d.rst:90
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_camera2d.rst:61
+msgid ":ref:`offset <class_Camera2D_property_offset>`"
+msgstr ":ref:`offset <class_Camera2D_property_offset>`"
+
+#: ../../docs/classes/class_camera2d.rst:61
+#: ../../docs/classes/class_camera2d.rst:410
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_camera2d.rst:63
+msgid ":ref:`offset_h <class_Camera2D_property_offset_h>`"
+msgstr ":ref:`offset_h <class_Camera2D_property_offset_h>`"
+
+#: ../../docs/classes/class_camera2d.rst:63
+#: ../../docs/classes/class_camera2d.rst:65
+#: ../../docs/classes/class_camera2d.rst:426
+#: ../../docs/classes/class_camera2d.rst:444
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: ../../docs/classes/class_camera2d.rst:65
+msgid ":ref:`offset_v <class_Camera2D_property_offset_v>`"
+msgstr ":ref:`offset_v <class_Camera2D_property_offset_v>`"
+
+#: ../../docs/classes/class_camera2d.rst:67
+msgid ":ref:`Camera2DProcessMode <enum_Camera2D_Camera2DProcessMode>`"
+msgstr ":ref:`Camera2DProcessMode <enum_Camera2D_Camera2DProcessMode>`"
+
+#: ../../docs/classes/class_camera2d.rst:67
+msgid ":ref:`process_mode <class_Camera2D_property_process_mode>`"
+msgstr ":ref:`process_mode <class_Camera2D_property_process_mode>`"
+
+#: ../../docs/classes/class_camera2d.rst:69
+msgid ":ref:`rotating <class_Camera2D_property_rotating>`"
+msgstr ":ref:`rotating <class_Camera2D_property_rotating>`"
+
+#: ../../docs/classes/class_camera2d.rst:71
+msgid ":ref:`smoothing_enabled <class_Camera2D_property_smoothing_enabled>`"
+msgstr ":ref:`smoothing_enabled <class_Camera2D_property_smoothing_enabled>`"
+
+#: ../../docs/classes/class_camera2d.rst:73
+msgid ":ref:`smoothing_speed <class_Camera2D_property_smoothing_speed>`"
+msgstr ":ref:`smoothing_speed <class_Camera2D_property_smoothing_speed>`"
+
+#: ../../docs/classes/class_camera2d.rst:73
+#: ../../docs/classes/class_camera2d.rst:510
+#, fuzzy
+msgid "``5.0``"
+msgstr "5.0"
+
+#: ../../docs/classes/class_camera2d.rst:75
+msgid ":ref:`zoom <class_Camera2D_property_zoom>`"
+msgstr ":ref:`zoom <class_Camera2D_property_zoom>`"
+
+#: ../../docs/classes/class_camera2d.rst:75
+#: ../../docs/classes/class_camera2d.rst:526
+#, fuzzy
+msgid "``Vector2( 1, 1 )``"
+msgstr "Vector2( 1, 1 )"
+
+#: ../../docs/classes/class_camera2d.rst:79
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_camera2d.rst:82
+#: ../../docs/classes/class_camera2d.rst:84
+#: ../../docs/classes/class_camera2d.rst:86
+#: ../../docs/classes/class_camera2d.rst:96
+#: ../../docs/classes/class_camera2d.rst:98
+#: ../../docs/classes/class_camera2d.rst:100
+#: ../../docs/classes/class_camera2d.rst:102
+msgid "void"
+msgstr "void"
+
+#: ../../docs/classes/class_camera2d.rst:82
+msgid ":ref:`align <class_Camera2D_method_align>` **(** **)**"
+msgstr ":ref:`align <class_Camera2D_method_align>` **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:84
+msgid ":ref:`clear_current <class_Camera2D_method_clear_current>` **(** **)**"
+msgstr ":ref:`clear_current <class_Camera2D_method_clear_current>` **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:86
+msgid ""
+":ref:`force_update_scroll <class_Camera2D_method_force_update_scroll>` "
+"**(** **)**"
+msgstr ""
+":ref:`force_update_scroll <class_Camera2D_method_force_update_scroll>` "
+"**(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:88
+msgid ""
+":ref:`get_camera_position <class_Camera2D_method_get_camera_position>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_camera_position <class_Camera2D_method_get_camera_position>` "
+"**(** **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:90
+msgid ""
+":ref:`get_camera_screen_center "
+"<class_Camera2D_method_get_camera_screen_center>` **(** **)** const"
+msgstr ""
+":ref:`get_camera_screen_center "
+"<class_Camera2D_method_get_camera_screen_center>` **(** **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:92
+msgid ""
+":ref:`get_drag_margin <class_Camera2D_method_get_drag_margin>` **(** "
+":ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`get_drag_margin <class_Camera2D_method_get_drag_margin>` **(** "
+":ref:`Margin <enum_@GlobalScope_Margin>` margin **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:94
+msgid ""
+":ref:`get_limit <class_Camera2D_method_get_limit>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`get_limit <class_Camera2D_method_get_limit>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:96
+msgid ":ref:`make_current <class_Camera2D_method_make_current>` **(** **)**"
+msgstr ":ref:`make_current <class_Camera2D_method_make_current>` **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:98
+msgid ":ref:`reset_smoothing <class_Camera2D_method_reset_smoothing>` **(** **)**"
+msgstr ":ref:`reset_smoothing <class_Camera2D_method_reset_smoothing>` **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:100
+msgid ""
+":ref:`set_drag_margin <class_Camera2D_method_set_drag_margin>` **(** "
+":ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`float "
+"<class_float>` drag_margin **)**"
+msgstr ""
+":ref:`set_drag_margin <class_Camera2D_method_set_drag_margin>` **(** "
+":ref:`Margin <enum_@GlobalScope_Margin>` margin, :ref:`float "
+"<class_float>` drag_margin **)**"
+
+#: ../../docs/classes/class_camera2d.rst:102
+msgid ""
+":ref:`set_limit <class_Camera2D_method_set_limit>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`int <class_int>` limit **)**"
+msgstr ""
+":ref:`set_limit <class_Camera2D_method_set_limit>` **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin, :ref:`int <class_int>` limit **)**"
+
+#: ../../docs/classes/class_camera2d.rst:106
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_camera2d.rst:114
+msgid "enum **AnchorMode**:"
+msgstr "枚举 **AnchorMode**："
+
+#: ../../docs/classes/class_camera2d.rst:116
+msgid ""
+"**ANCHOR_MODE_FIXED_TOP_LEFT** = **0** --- The camera's position is fixed"
+" so that the top-left corner is always at the origin."
+msgstr "**ANCHOR_MODE_FIXED_TOP_LEFT** = **0** —— 相机的位置是固定的，因此左上角始终位于原点。"
+
+#: ../../docs/classes/class_camera2d.rst:118
+msgid ""
+"**ANCHOR_MODE_DRAG_CENTER** = **1** --- The camera's position takes into "
+"account vertical/horizontal offsets and the screen size."
+msgstr "**ANCHOR_MODE_DRAG_CENTER** = **1** —— 摄像机的位置，考虑了垂直/水平偏移和屏幕尺寸。"
+
+#: ../../docs/classes/class_camera2d.rst:128
+msgid "enum **Camera2DProcessMode**:"
+msgstr "枚举 **Camera2DProcessMode**："
+
+#: ../../docs/classes/class_camera2d.rst:130
+msgid ""
+"**CAMERA2D_PROCESS_PHYSICS** = **0** --- The camera updates with the "
+"``_physics_process`` callback."
+msgstr "**CAMERA2D_PROCESS_PHYSICS** = **0** —— 相机使用 ``_physics_process`` 回调进行更新。"
+
+#: ../../docs/classes/class_camera2d.rst:132
+msgid ""
+"**CAMERA2D_PROCESS_IDLE** = **1** --- The camera updates with the "
+"``_process`` callback."
+msgstr "**CAMERA2D_PROCESS_IDLE** = **1** ——相机使用 ``_process`` 回调进行更新。"
+
+#: ../../docs/classes/class_camera2d.rst:135
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_camera2d.rst:139
+msgid ":ref:`AnchorMode <enum_Camera2D_AnchorMode>` **anchor_mode**"
+msgstr ":ref:`AnchorMode <enum_Camera2D_AnchorMode>` **anchor_mode**"
+
+#: ../../docs/classes/class_camera2d.rst:142
+#: ../../docs/classes/class_camera2d.rst:158
+#: ../../docs/classes/class_camera2d.rst:186
+#: ../../docs/classes/class_camera2d.rst:202
+#: ../../docs/classes/class_camera2d.rst:218
+#: ../../docs/classes/class_camera2d.rst:234
+#: ../../docs/classes/class_camera2d.rst:250
+#: ../../docs/classes/class_camera2d.rst:266
+#: ../../docs/classes/class_camera2d.rst:282
+#: ../../docs/classes/class_camera2d.rst:298
+#: ../../docs/classes/class_camera2d.rst:314
+#: ../../docs/classes/class_camera2d.rst:330
+#: ../../docs/classes/class_camera2d.rst:346
+#: ../../docs/classes/class_camera2d.rst:362
+#: ../../docs/classes/class_camera2d.rst:378
+#: ../../docs/classes/class_camera2d.rst:394
+#: ../../docs/classes/class_camera2d.rst:410
+#: ../../docs/classes/class_camera2d.rst:426
+#: ../../docs/classes/class_camera2d.rst:444
+#: ../../docs/classes/class_camera2d.rst:462
+#: ../../docs/classes/class_camera2d.rst:478
+#: ../../docs/classes/class_camera2d.rst:494
+#: ../../docs/classes/class_camera2d.rst:510
+#: ../../docs/classes/class_camera2d.rst:526
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_camera2d.rst:144
+#: ../../docs/classes/class_camera2d.rst:172
+#: ../../docs/classes/class_camera2d.rst:188
+#: ../../docs/classes/class_camera2d.rst:204
+#: ../../docs/classes/class_camera2d.rst:220
+#: ../../docs/classes/class_camera2d.rst:236
+#: ../../docs/classes/class_camera2d.rst:252
+#: ../../docs/classes/class_camera2d.rst:268
+#: ../../docs/classes/class_camera2d.rst:284
+#: ../../docs/classes/class_camera2d.rst:300
+#: ../../docs/classes/class_camera2d.rst:316
+#: ../../docs/classes/class_camera2d.rst:332
+#: ../../docs/classes/class_camera2d.rst:348
+#: ../../docs/classes/class_camera2d.rst:364
+#: ../../docs/classes/class_camera2d.rst:380
+#: ../../docs/classes/class_camera2d.rst:396
+#: ../../docs/classes/class_camera2d.rst:412
+#: ../../docs/classes/class_camera2d.rst:428
+#: ../../docs/classes/class_camera2d.rst:446
+#: ../../docs/classes/class_camera2d.rst:464
+#: ../../docs/classes/class_camera2d.rst:480
+#: ../../docs/classes/class_camera2d.rst:496
+#: ../../docs/classes/class_camera2d.rst:512
+#: ../../docs/classes/class_camera2d.rst:528
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_camera2d.rst:144
+msgid "set_anchor_mode(value)"
+msgstr "set_anchor_mode(value)"
+
+#: ../../docs/classes/class_camera2d.rst:146
+#: ../../docs/classes/class_camera2d.rst:160
+#: ../../docs/classes/class_camera2d.rst:174
+#: ../../docs/classes/class_camera2d.rst:190
+#: ../../docs/classes/class_camera2d.rst:206
+#: ../../docs/classes/class_camera2d.rst:222
+#: ../../docs/classes/class_camera2d.rst:238
+#: ../../docs/classes/class_camera2d.rst:254
+#: ../../docs/classes/class_camera2d.rst:270
+#: ../../docs/classes/class_camera2d.rst:286
+#: ../../docs/classes/class_camera2d.rst:302
+#: ../../docs/classes/class_camera2d.rst:318
+#: ../../docs/classes/class_camera2d.rst:334
+#: ../../docs/classes/class_camera2d.rst:350
+#: ../../docs/classes/class_camera2d.rst:366
+#: ../../docs/classes/class_camera2d.rst:382
+#: ../../docs/classes/class_camera2d.rst:398
+#: ../../docs/classes/class_camera2d.rst:414
+#: ../../docs/classes/class_camera2d.rst:430
+#: ../../docs/classes/class_camera2d.rst:448
+#: ../../docs/classes/class_camera2d.rst:466
+#: ../../docs/classes/class_camera2d.rst:482
+#: ../../docs/classes/class_camera2d.rst:498
+#: ../../docs/classes/class_camera2d.rst:514
+#: ../../docs/classes/class_camera2d.rst:530
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_camera2d.rst:146
+msgid "get_anchor_mode()"
+msgstr "get_anchor_mode()"
+
+#: ../../docs/classes/class_camera2d.rst:149
+msgid ""
+"The Camera2D's anchor point. See :ref:`AnchorMode "
+"<enum_Camera2D_AnchorMode>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_camera2d.rst:155
+msgid ":ref:`bool <class_bool>` **current**"
+msgstr ":ref:`bool <class_bool>` **current**"
+
+#: ../../docs/classes/class_camera2d.rst:160
+msgid "is_current()"
+msgstr "is_current()"
+
+#: ../../docs/classes/class_camera2d.rst:163
+msgid ""
+"If ``true``, the camera is the active camera for the current scene. Only "
+"one camera can be current, so setting a different camera ``current`` will"
+" disable this one."
+msgstr "如果为 ``true``，则相机是当前场景的活动相机。仅一台相机可以是当前相机，因此将另一台相机设置为 ``current`` 将禁用该相机。"
+
+#: ../../docs/classes/class_camera2d.rst:169
+msgid ":ref:`Node <class_Node>` **custom_viewport**"
+msgstr ":ref:`Node <class_Node>` **custom_viewport**"
+
+#: ../../docs/classes/class_camera2d.rst:172
+msgid "set_custom_viewport(value)"
+msgstr "set_custom_viewport(value)"
+
+#: ../../docs/classes/class_camera2d.rst:174
+msgid "get_custom_viewport()"
+msgstr "get_custom_viewport()"
+
+#: ../../docs/classes/class_camera2d.rst:177
+msgid ""
+"The custom :ref:`Viewport <class_Viewport>` node attached to the "
+"``Camera2D``. If ``null`` or not a :ref:`Viewport <class_Viewport>`, uses"
+" the default viewport instead."
+msgstr ""
+"附加到 ``Camera2D`` 的自定义 :ref:`Viewport <class_Viewport>` 节点。如果为 ``null`` "
+"或不是一个 :ref:`Viewport <class_Viewport>`，则使用默认视图。"
+
+#: ../../docs/classes/class_camera2d.rst:183
+msgid ":ref:`float <class_float>` **drag_margin_bottom**"
+msgstr ":ref:`float <class_float>` **drag_margin_bottom**"
+
+#: ../../docs/classes/class_camera2d.rst:188
+#: ../../docs/classes/class_camera2d.rst:220
+#: ../../docs/classes/class_camera2d.rst:236
+#: ../../docs/classes/class_camera2d.rst:252
+msgid "set_drag_margin(value)"
+msgstr "set_drag_margin(value)"
+
+#: ../../docs/classes/class_camera2d.rst:190
+#: ../../docs/classes/class_camera2d.rst:222
+#: ../../docs/classes/class_camera2d.rst:238
+#: ../../docs/classes/class_camera2d.rst:254
+msgid "get_drag_margin()"
+msgstr "get_drag_margin()"
+
+#: ../../docs/classes/class_camera2d.rst:193
+msgid ""
+"Bottom margin needed to drag the camera. A value of ``1`` makes the "
+"camera move only when reaching the edge of the screen."
+msgstr "拖动相机所需的底边距。值 ``1`` 使相机，仅在到达屏幕边缘时移动。"
+
+#: ../../docs/classes/class_camera2d.rst:199
+msgid ":ref:`bool <class_bool>` **drag_margin_h_enabled**"
+msgstr ":ref:`bool <class_bool>` **drag_margin_h_enabled**"
+
+#: ../../docs/classes/class_camera2d.rst:204
+msgid "set_h_drag_enabled(value)"
+msgstr "set_h_drag_enabled(value)"
+
+#: ../../docs/classes/class_camera2d.rst:206
+msgid "is_h_drag_enabled()"
+msgstr "is_h_drag_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:209
+msgid ""
+"If ``true``, the camera only moves when reaching the horizontal drag "
+"margins. If ``false``, the camera moves horizontally regardless of "
+"margins."
+msgstr "如果为 ``true``，则相机仅在达到水平拖动边距时移动。如果为 ``false``，则相机不考虑边距而水平移动。"
+
+#: ../../docs/classes/class_camera2d.rst:215
+msgid ":ref:`float <class_float>` **drag_margin_left**"
+msgstr ":ref:`float <class_float>` **drag_margin_left**"
+
+#: ../../docs/classes/class_camera2d.rst:225
+msgid ""
+"Left margin needed to drag the camera. A value of ``1`` makes the camera "
+"move only when reaching the edge of the screen."
+msgstr "拖动相机所需的左边距。值 ``1`` 使相机，仅在到达屏幕边缘时移动。"
+
+#: ../../docs/classes/class_camera2d.rst:231
+msgid ":ref:`float <class_float>` **drag_margin_right**"
+msgstr ":ref:`float <class_float>` **drag_margin_right**"
+
+#: ../../docs/classes/class_camera2d.rst:241
+msgid ""
+"Right margin needed to drag the camera. A value of ``1`` makes the camera"
+" move only when reaching the edge of the screen."
+msgstr "拖动相机所需的右边距。值 ``1`` 使相机，仅在到达屏幕边缘时移动。"
+
+#: ../../docs/classes/class_camera2d.rst:247
+msgid ":ref:`float <class_float>` **drag_margin_top**"
+msgstr ":ref:`float <class_float>` **drag_margin_top**"
+
+#: ../../docs/classes/class_camera2d.rst:257
+msgid ""
+"Top margin needed to drag the camera. A value of ``1`` makes the camera "
+"move only when reaching the edge of the screen."
+msgstr "拖动相机所需的顶边距。值 ``1`` 使相机，仅在到达屏幕边缘时移动。"
+
+#: ../../docs/classes/class_camera2d.rst:263
+msgid ":ref:`bool <class_bool>` **drag_margin_v_enabled**"
+msgstr ":ref:`bool <class_bool>` **drag_margin_v_enabled**"
+
+#: ../../docs/classes/class_camera2d.rst:268
+msgid "set_v_drag_enabled(value)"
+msgstr "set_v_drag_enabled(value)"
+
+#: ../../docs/classes/class_camera2d.rst:270
+msgid "is_v_drag_enabled()"
+msgstr "is_v_drag_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:273
+msgid ""
+"If ``true``, the camera only moves when reaching the vertical drag "
+"margins. If ``false``, the camera moves vertically regardless of margins."
+msgstr "如果为 ``true``，则相机仅在达到垂直拖动边距时移动。如果为 ``false``，则相机不考虑边距而垂直移动。"
+
+#: ../../docs/classes/class_camera2d.rst:279
+msgid ":ref:`bool <class_bool>` **editor_draw_drag_margin**"
+msgstr ":ref:`bool <class_bool>` **editor_draw_drag_margin**"
+
+#: ../../docs/classes/class_camera2d.rst:284
+msgid "set_margin_drawing_enabled(value)"
+msgstr "set_margin_drawing_enabled(value)"
+
+#: ../../docs/classes/class_camera2d.rst:286
+msgid "is_margin_drawing_enabled()"
+msgstr "is_margin_drawing_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:289
+msgid "If ``true``, draws the camera's drag margin rectangle in the editor."
+msgstr "如果为 ``true``，则在编辑器中，绘制相机的拖动边距矩形。"
+
+#: ../../docs/classes/class_camera2d.rst:295
+msgid ":ref:`bool <class_bool>` **editor_draw_limits**"
+msgstr ":ref:`bool <class_bool>` **editor_draw_limits**"
+
+#: ../../docs/classes/class_camera2d.rst:300
+msgid "set_limit_drawing_enabled(value)"
+msgstr "set_limit_drawing_enabled(value)"
+
+#: ../../docs/classes/class_camera2d.rst:302
+msgid "is_limit_drawing_enabled()"
+msgstr "is_limit_drawing_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:305
+msgid "If ``true``, draws the camera's limits rectangle in the editor."
+msgstr "如果为 ``true``，则在编辑器中，绘制相机的极限矩形。"
+
+#: ../../docs/classes/class_camera2d.rst:311
+msgid ":ref:`bool <class_bool>` **editor_draw_screen**"
+msgstr ":ref:`bool <class_bool>` **editor_draw_screen**"
+
+#: ../../docs/classes/class_camera2d.rst:316
+msgid "set_screen_drawing_enabled(value)"
+msgstr "set_screen_drawing_enabled(value)"
+
+#: ../../docs/classes/class_camera2d.rst:318
+msgid "is_screen_drawing_enabled()"
+msgstr "is_screen_drawing_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:321
+msgid "If ``true``, draws the camera's screen rectangle in the editor."
+msgstr "如果为 ``true``，则在编辑器中，绘制相机的屏幕矩形。"
+
+#: ../../docs/classes/class_camera2d.rst:327
+msgid ":ref:`int <class_int>` **limit_bottom**"
+msgstr ":ref:`int <class_int>` **limit_bottom**"
+
+#: ../../docs/classes/class_camera2d.rst:332
+#: ../../docs/classes/class_camera2d.rst:348
+#: ../../docs/classes/class_camera2d.rst:364
+#: ../../docs/classes/class_camera2d.rst:396
+msgid "set_limit(value)"
+msgstr "set_limit(value)"
+
+#: ../../docs/classes/class_camera2d.rst:334
+#: ../../docs/classes/class_camera2d.rst:350
+#: ../../docs/classes/class_camera2d.rst:366
+#: ../../docs/classes/class_camera2d.rst:398
+msgid "get_limit()"
+msgstr "get_limit()"
+
+#: ../../docs/classes/class_camera2d.rst:337
+msgid ""
+"Bottom scroll limit in pixels. The camera stops moving when reaching this"
+" value."
+msgstr "底部滚动限制（以像素为单位）。达到此值时，相机停止移动。"
+
+#: ../../docs/classes/class_camera2d.rst:343
+msgid ":ref:`int <class_int>` **limit_left**"
+msgstr ":ref:`int <class_int>` **limit_left**"
+
+#: ../../docs/classes/class_camera2d.rst:353
+msgid ""
+"Left scroll limit in pixels. The camera stops moving when reaching this "
+"value."
+msgstr "左侧滚动限制（以像素为单位）。达到此值时，相机停止移动。"
+
+#: ../../docs/classes/class_camera2d.rst:359
+msgid ":ref:`int <class_int>` **limit_right**"
+msgstr ":ref:`int <class_int>` **limit_right**"
+
+#: ../../docs/classes/class_camera2d.rst:369
+msgid ""
+"Right scroll limit in pixels. The camera stops moving when reaching this "
+"value."
+msgstr "右侧滚动限制（以像素为单位）。达到此值时，相机停止移动。"
+
+#: ../../docs/classes/class_camera2d.rst:375
+msgid ":ref:`bool <class_bool>` **limit_smoothed**"
+msgstr ":ref:`bool <class_bool>` **limit_smoothed**"
+
+#: ../../docs/classes/class_camera2d.rst:380
+msgid "set_limit_smoothing_enabled(value)"
+msgstr "set_limit_smoothing_enabled(value)"
+
+#: ../../docs/classes/class_camera2d.rst:382
+msgid "is_limit_smoothing_enabled()"
+msgstr "is_limit_smoothing_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:385
+msgid "If ``true``, the camera smoothly stops when reaches its limits."
+msgstr "如果为 ``true``，则相机在达到极限时，会平稳停止。"
+
+#: ../../docs/classes/class_camera2d.rst:391
+msgid ":ref:`int <class_int>` **limit_top**"
+msgstr ":ref:`int <class_int>` **limit_top**"
+
+#: ../../docs/classes/class_camera2d.rst:401
+msgid ""
+"Top scroll limit in pixels. The camera stops moving when reaching this "
+"value."
+msgstr "顶部滚动限制（以像素为单位）。达到此值时，相机停止移动。"
+
+#: ../../docs/classes/class_camera2d.rst:407
+msgid ":ref:`Vector2 <class_Vector2>` **offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **offset**"
+
+#: ../../docs/classes/class_camera2d.rst:412
+msgid "set_offset(value)"
+msgstr "set_offset(value)"
+
+#: ../../docs/classes/class_camera2d.rst:414
+msgid "get_offset()"
+msgstr "get_offset()"
+
+#: ../../docs/classes/class_camera2d.rst:417
+msgid "The camera's offset, useful for looking around or camera shake animations."
+msgstr "相机的偏移量，对于环顾四周或相机抖动动画很有用。"
+
+#: ../../docs/classes/class_camera2d.rst:423
+msgid ":ref:`float <class_float>` **offset_h**"
+msgstr ":ref:`float <class_float>` **offset_h**"
+
+#: ../../docs/classes/class_camera2d.rst:428
+msgid "set_h_offset(value)"
+msgstr "set_h_offset(value)"
+
+#: ../../docs/classes/class_camera2d.rst:430
+msgid "get_h_offset()"
+msgstr "get_h_offset()"
+
+#: ../../docs/classes/class_camera2d.rst:433
+msgid "The horizontal offset of the camera, relative to the drag margins."
+msgstr "相机相对于拖动边距的水平偏移。"
+
+#: ../../docs/classes/class_camera2d.rst:435
+msgid ""
+"**Note:** Offset H is used only to force offset relative to margins. It's"
+" not updated in any way if drag margins are enabled and can be used to "
+"set initial offset."
+msgstr "**注意**：偏移量H仅用于强制相对于边距的偏移量。如果启用了拖动边距，并且可以用来设置初始偏移量，则不会进行任何更新。"
+
+#: ../../docs/classes/class_camera2d.rst:441
+msgid ":ref:`float <class_float>` **offset_v**"
+msgstr ":ref:`float <class_float>` **offset_v**"
+
+#: ../../docs/classes/class_camera2d.rst:446
+msgid "set_v_offset(value)"
+msgstr "set_v_offset(value)"
+
+#: ../../docs/classes/class_camera2d.rst:448
+msgid "get_v_offset()"
+msgstr "get_v_offset()"
+
+#: ../../docs/classes/class_camera2d.rst:451
+msgid "The vertical offset of the camera, relative to the drag margins."
+msgstr "相机相对于拖动边距的垂直偏移。"
+
+#: ../../docs/classes/class_camera2d.rst:453
+msgid ""
+"**Note:** Used the same as :ref:`offset_h "
+"<class_Camera2D_property_offset_h>`."
+msgstr "**注意**：用法与 :ref:`offset_h <class_Camera2D_property_offset_h>` 相同。"
+
+#: ../../docs/classes/class_camera2d.rst:459
+msgid ""
+":ref:`Camera2DProcessMode <enum_Camera2D_Camera2DProcessMode>` "
+"**process_mode**"
+msgstr ""
+":ref:`Camera2DProcessMode <enum_Camera2D_Camera2DProcessMode>` "
+"**process_mode**"
+
+#: ../../docs/classes/class_camera2d.rst:464
+msgid "set_process_mode(value)"
+msgstr "set_process_mode(value)"
+
+#: ../../docs/classes/class_camera2d.rst:466
+msgid "get_process_mode()"
+msgstr "get_process_mode()"
+
+#: ../../docs/classes/class_camera2d.rst:469
+msgid ""
+"The camera's process callback. See :ref:`Camera2DProcessMode "
+"<enum_Camera2D_Camera2DProcessMode>`."
+msgstr ""
+"相机的过程回调。请参阅 :ref:`Camera2DProcessMode "
+"<enum_Camera2D_Camera2DProcessMode>`。"
+
+#: ../../docs/classes/class_camera2d.rst:475
+msgid ":ref:`bool <class_bool>` **rotating**"
+msgstr ":ref:`bool <class_bool>` **rotating**"
+
+#: ../../docs/classes/class_camera2d.rst:480
+msgid "set_rotating(value)"
+msgstr "set_rotating(value)"
+
+#: ../../docs/classes/class_camera2d.rst:482
+msgid "is_rotating()"
+msgstr "is_rotating()"
+
+#: ../../docs/classes/class_camera2d.rst:485
+msgid "If ``true``, the camera rotates with the target."
+msgstr "如果为 ``true``，相机随目标旋转。"
+
+#: ../../docs/classes/class_camera2d.rst:491
+msgid ":ref:`bool <class_bool>` **smoothing_enabled**"
+msgstr ":ref:`bool <class_bool>` **smoothing_enabled**"
+
+#: ../../docs/classes/class_camera2d.rst:496
+msgid "set_enable_follow_smoothing(value)"
+msgstr "set_enable_follow_smoothing(value)"
+
+#: ../../docs/classes/class_camera2d.rst:498
+msgid "is_follow_smoothing_enabled()"
+msgstr "is_follow_smoothing_enabled()"
+
+#: ../../docs/classes/class_camera2d.rst:501
+msgid ""
+"If ``true``, the camera smoothly moves towards the target at "
+":ref:`smoothing_speed <class_Camera2D_property_smoothing_speed>`."
+msgstr ""
+"如果为 ``true``，则相机以 :ref:`smoothing_speed "
+"<class_Camera2D_property_smoothing_speed>` 平滑地朝目标移动。"
+
+#: ../../docs/classes/class_camera2d.rst:507
+msgid ":ref:`float <class_float>` **smoothing_speed**"
+msgstr ":ref:`float <class_float>` **smoothing_speed**"
+
+#: ../../docs/classes/class_camera2d.rst:512
+msgid "set_follow_smoothing(value)"
+msgstr "set_follow_smoothing(value)"
+
+#: ../../docs/classes/class_camera2d.rst:514
+msgid "get_follow_smoothing()"
+msgstr "get_follow_smoothing()"
+
+#: ../../docs/classes/class_camera2d.rst:517
+msgid ""
+"Speed in pixels per second of the camera's smoothing effect when "
+":ref:`smoothing_enabled <class_Camera2D_property_smoothing_enabled>` is "
+"``true``."
+msgstr ""
+"当 :ref:`smoothing_enabled <class_Camera2D_property_smoothing_enabled>` 为 "
+"``true`` 时，相机的平滑效果的每秒像素速度。"
+
+#: ../../docs/classes/class_camera2d.rst:523
+msgid ":ref:`Vector2 <class_Vector2>` **zoom**"
+msgstr ":ref:`Vector2 <class_Vector2>` **zoom**"
+
+#: ../../docs/classes/class_camera2d.rst:528
+msgid "set_zoom(value)"
+msgstr "set_zoom(value)"
+
+#: ../../docs/classes/class_camera2d.rst:530
+msgid "get_zoom()"
+msgstr "get_zoom()"
+
+#: ../../docs/classes/class_camera2d.rst:533
+msgid ""
+"The camera's zoom relative to the viewport. Values larger than "
+"``Vector2(1, 1)`` zoom out and smaller values zoom in. For an example, "
+"use ``Vector2(0.5, 0.5)`` for a 2× zoom-in, and ``Vector2(4, 4)`` for a "
+"4× zoom-out."
+msgstr ""
+"相机相对于视图的缩放比例。大于 ``Vector2(1, 1)`` 的值将缩小，较小的值将放大。例如，使用 ``Vector2(0.5, "
+"0.5)`` 进行2倍放大，而使用 ``Vector2(4, 4)`` 进行4倍缩小。"
+
+#: ../../docs/classes/class_camera2d.rst:536
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_camera2d.rst:540
+msgid "void **align** **(** **)**"
+msgstr "void **align** **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:542
+msgid "Aligns the camera to the tracked node."
+msgstr "将相机对准被跟踪的节点。"
+
+#: ../../docs/classes/class_camera2d.rst:548
+msgid "void **clear_current** **(** **)**"
+msgstr "void **clear_current** **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:550
+msgid ""
+"Removes any ``Camera2D`` from the ancestor :ref:`Viewport "
+"<class_Viewport>`'s internal currently-assigned camera."
+msgstr "从祖先 :ref:`Viewport <class_Viewport>` 的内部的当前分配的相机中，删除所有的 ``Camera2D``。"
+
+#: ../../docs/classes/class_camera2d.rst:556
+msgid "void **force_update_scroll** **(** **)**"
+msgstr "void **force_update_scroll** **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:558
+msgid "Forces the camera to update scroll immediately."
+msgstr "强制相机立即更新滚动。"
+
+#: ../../docs/classes/class_camera2d.rst:564
+msgid ":ref:`Vector2 <class_Vector2>` **get_camera_position** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_camera_position** **(** **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:566
+msgid "Returns the camera position."
+msgstr "返回相机位置。"
+
+#: ../../docs/classes/class_camera2d.rst:572
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_camera_screen_center** **(** **)** "
+"const"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **get_camera_screen_center** **(** **)** "
+"const"
+
+#: ../../docs/classes/class_camera2d.rst:574
+msgid ""
+"Returns the location of the ``Camera2D``'s screen-center, relative to the"
+" origin."
+msgstr "返回 ``Camera2D`` 的屏幕中心，相对于原点的位置。"
+
+#: ../../docs/classes/class_camera2d.rst:580
+msgid ""
+":ref:`float <class_float>` **get_drag_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_drag_margin** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:582
+msgid ""
+"Returns the specified margin. See also :ref:`drag_margin_bottom "
+"<class_Camera2D_property_drag_margin_bottom>`, :ref:`drag_margin_top "
+"<class_Camera2D_property_drag_margin_top>`, :ref:`drag_margin_left "
+"<class_Camera2D_property_drag_margin_left>`, and :ref:`drag_margin_right "
+"<class_Camera2D_property_drag_margin_right>`."
+msgstr ""
+"返回指定的边距。另请参见 :ref:`drag_margin_bottom "
+"<class_Camera2D_property_drag_margin_bottom>`、:ref:`drag_margin_top "
+"<class_Camera2D_property_drag_margin_top>`、:ref:`drag_margin_left "
+"<class_Camera2D_property_drag_margin_left>`、和 :ref:`drag_margin_right "
+"<class_Camera2D_property_drag_margin_right>`。"
+
+#: ../../docs/classes/class_camera2d.rst:588
+msgid ""
+":ref:`int <class_int>` **get_limit** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+msgstr ""
+":ref:`int <class_int>` **get_limit** **(** :ref:`Margin "
+"<enum_@GlobalScope_Margin>` margin **)** const"
+
+#: ../../docs/classes/class_camera2d.rst:590
+msgid ""
+"Returns the specified camera limit. See also :ref:`limit_bottom "
+"<class_Camera2D_property_limit_bottom>`, :ref:`limit_top "
+"<class_Camera2D_property_limit_top>`, :ref:`limit_left "
+"<class_Camera2D_property_limit_left>`, and :ref:`limit_right "
+"<class_Camera2D_property_limit_right>`."
+msgstr ""
+"返回指定的相机限制。另请参阅 :ref:`limit_bottom "
+"<class_Camera2D_property_limit_bottom>`、:ref:`limit_top "
+"<class_Camera2D_property_limit_top>`、:ref:`limit_left "
+"<class_Camera2D_property_limit_left>`、和 :ref:`limit_right "
+"<class_Camera2D_property_limit_right>`。"
+
+#: ../../docs/classes/class_camera2d.rst:596
+msgid "void **make_current** **(** **)**"
+msgstr "void **make_current** **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:598
+msgid ""
+"Make this the current 2D camera for the scene (viewport and layer), in "
+"case there are many cameras in the scene."
+msgstr "如果场景中有很多相机，请将其设为场景（视图和图层）的当前2D摄像机。"
+
+#: ../../docs/classes/class_camera2d.rst:604
+msgid "void **reset_smoothing** **(** **)**"
+msgstr "void **reset_smoothing** **(** **)**"
+
+#: ../../docs/classes/class_camera2d.rst:606
+msgid ""
+"Sets the camera's position immediately to its current smoothing "
+"destination."
+msgstr "将相机的位置，立即设置为其当前的平滑终点。"
+
+#: ../../docs/classes/class_camera2d.rst:608
+msgid "This has no effect if smoothing is disabled."
+msgstr "如果禁用平滑功能，则无效。"
+
+#: ../../docs/classes/class_camera2d.rst:614
+msgid ""
+"void **set_drag_margin** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`float <class_float>` drag_margin **)**"
+msgstr ""
+"void **set_drag_margin** **(** :ref:`Margin <enum_@GlobalScope_Margin>` "
+"margin, :ref:`float <class_float>` drag_margin **)**"
+
+#: ../../docs/classes/class_camera2d.rst:616
+msgid ""
+"Sets the specified margin. See also :ref:`drag_margin_bottom "
+"<class_Camera2D_property_drag_margin_bottom>`, :ref:`drag_margin_top "
+"<class_Camera2D_property_drag_margin_top>`, :ref:`drag_margin_left "
+"<class_Camera2D_property_drag_margin_left>`, and :ref:`drag_margin_right "
+"<class_Camera2D_property_drag_margin_right>`."
+msgstr ""
+"设置指定的边距。另请参见 :ref:`drag_margin_bottom "
+"<class_Camera2D_property_drag_margin_bottom>`、:ref:`drag_margin_top "
+"<class_Camera2D_property_drag_margin_top>`、:ref:`drag_margin_left "
+"<class_Camera2D_property_drag_margin_left>`、和 :ref:`drag_margin_right "
+"<class_Camera2D_property_drag_margin_right>`。"
+
+#: ../../docs/classes/class_camera2d.rst:622
+msgid ""
+"void **set_limit** **(** :ref:`Margin <enum_@GlobalScope_Margin>` margin,"
+" :ref:`int <class_int>` limit **)**"
+msgstr ""
+"void **set_limit** **(** :ref:`Margin <enum_@GlobalScope_Margin>` margin,"
+" :ref:`int <class_int>` limit **)**"
+
+#: ../../docs/classes/class_camera2d.rst:624
+msgid ""
+"Sets the specified camera limit. See also :ref:`limit_bottom "
+"<class_Camera2D_property_limit_bottom>`, :ref:`limit_top "
+"<class_Camera2D_property_limit_top>`, :ref:`limit_left "
+"<class_Camera2D_property_limit_left>`, and :ref:`limit_right "
+"<class_Camera2D_property_limit_right>`."
+msgstr ""
+"设置指定的相机限制。另请参阅 :ref:`limit_bottom "
+"<class_Camera2D_property_limit_bottom>`、:ref:`limit_top "
+"<class_Camera2D_property_limit_top>`、:ref:`limit_left "
+"<class_Camera2D_property_limit_left>`、和 :ref:`limit_right "
+"<class_Camera2D_property_limit_right>`。"
+
+#~ msgid "The Camera2D's anchor point. See ``ANCHOR_MODE_*`` constants."
+#~ msgstr "Camera2D的锚点。参见 ``ANCHOR_MODE_*`` 常量。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "1"
+#~ msgstr "1"
+

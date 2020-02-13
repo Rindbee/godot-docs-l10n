@@ -1,0 +1,1343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-31 15:04+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:10
+msgid "Input"
+msgstr "Input"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr "**基类**： :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:14
+msgid "**Inherited By:** :ref:`InputDefault <class_InputDefault>`"
+msgstr "**子类**：:ref:`InputDefault <class_InputDefault>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:16
+#, fuzzy
+msgid "A singleton that deals with inputs."
+msgstr "处理输入的单例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:21
+#, fuzzy
+msgid ""
+"A singleton that deals with inputs. This includes key presses, mouse "
+"buttons and movement, joypads, and input actions. Actions and their "
+"events can be set in the **Input Map** tab in the **Project > Project "
+"Settings**, or with the :ref:`InputMap <class_InputMap>` class."
+msgstr ""
+"处理输入的单例。这包括按键、鼠标按钮和移动、操纵杆、以及输入操作。动作及其事件可以在 **项目>项目设置（Project > Project "
+"Settings）** 的 **输入影射（Input Map）** 选项卡中设置，也可以使用 :ref:`InputMap "
+"<class_InputMap>` 类进行设置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:26
+msgid ":doc:`../tutorials/inputs/index`"
+msgstr ":doc:`../tutorials/inputs/index`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:29
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:110
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:32
+#, fuzzy
+msgid ""
+":ref:`action_press <class_Input_method_action_press>` **(** "
+":ref:`StringName <class_StringName>` action, :ref:`float <class_float>` "
+"strength=1.0 **)**"
+msgstr ""
+":ref:`action_press <class_Input_method_action_press>` **(** :ref:`String "
+"<class_String>` action, :ref:`float <class_float>` strength=1.0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:34
+#, fuzzy
+msgid ""
+":ref:`action_release <class_Input_method_action_release>` **(** "
+":ref:`StringName <class_StringName>` action **)**"
+msgstr ""
+":ref:`action_release <class_Input_method_action_release>` **(** "
+":ref:`String <class_String>` action **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:36
+msgid ""
+":ref:`add_joy_mapping <class_Input_method_add_joy_mapping>` **(** "
+":ref:`String <class_String>` mapping, :ref:`bool <class_bool>` "
+"update_existing=false **)**"
+msgstr ""
+":ref:`add_joy_mapping <class_Input_method_add_joy_mapping>` **(** "
+":ref:`String <class_String>` mapping, :ref:`bool <class_bool>` "
+"update_existing=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:70
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ":ref:`Vector3 <class_Vector3>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:38
+msgid ""
+":ref:`get_accelerometer <class_Input_method_get_accelerometer>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_accelerometer <class_Input_method_get_accelerometer>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:64
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:40
+#, fuzzy
+msgid ""
+":ref:`get_action_strength <class_Input_method_get_action_strength>` **(**"
+" :ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`get_action_strength <class_Input_method_get_action_strength>` **(**"
+" :ref:`String <class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:42
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:42
+msgid ""
+":ref:`get_connected_joypads <class_Input_method_get_connected_joypads>` "
+"**(** **)**"
+msgstr ""
+":ref:`get_connected_joypads <class_Input_method_get_connected_joypads>` "
+"**(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:44
+msgid ":ref:`CursorShape <enum_Input_CursorShape>`"
+msgstr ":ref:`CursorShape <enum_Input_CursorShape>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:44
+msgid ""
+":ref:`get_current_cursor_shape "
+"<class_Input_method_get_current_cursor_shape>` **(** **)** const"
+msgstr ""
+":ref:`get_current_cursor_shape "
+"<class_Input_method_get_current_cursor_shape>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:46
+msgid ":ref:`get_gravity <class_Input_method_get_gravity>` **(** **)** const"
+msgstr ":ref:`get_gravity <class_Input_method_get_gravity>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:48
+msgid ":ref:`get_gyroscope <class_Input_method_get_gyroscope>` **(** **)** const"
+msgstr ":ref:`get_gyroscope <class_Input_method_get_gyroscope>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:50
+msgid ""
+":ref:`get_joy_axis <class_Input_method_get_joy_axis>` **(** :ref:`int "
+"<class_int>` device, :ref:`int <class_int>` axis **)** const"
+msgstr ""
+":ref:`get_joy_axis <class_Input_method_get_joy_axis>` **(** :ref:`int "
+"<class_int>` device, :ref:`int <class_int>` axis **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:72
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:52
+msgid ""
+":ref:`get_joy_axis_index_from_string "
+"<class_Input_method_get_joy_axis_index_from_string>` **(** :ref:`String "
+"<class_String>` axis **)**"
+msgstr ""
+":ref:`get_joy_axis_index_from_string "
+"<class_Input_method_get_joy_axis_index_from_string>` **(** :ref:`String "
+"<class_String>` axis **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:62
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:54
+msgid ""
+":ref:`get_joy_axis_string <class_Input_method_get_joy_axis_string>` **(**"
+" :ref:`int <class_int>` axis_index **)**"
+msgstr ""
+":ref:`get_joy_axis_string <class_Input_method_get_joy_axis_string>` **(**"
+" :ref:`int <class_int>` axis_index **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:56
+msgid ""
+":ref:`get_joy_button_index_from_string "
+"<class_Input_method_get_joy_button_index_from_string>` **(** :ref:`String"
+" <class_String>` button **)**"
+msgstr ""
+":ref:`get_joy_button_index_from_string "
+"<class_Input_method_get_joy_button_index_from_string>` **(** :ref:`String"
+" <class_String>` button **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:58
+msgid ""
+":ref:`get_joy_button_string <class_Input_method_get_joy_button_string>` "
+"**(** :ref:`int <class_int>` button_index **)**"
+msgstr ""
+":ref:`get_joy_button_string <class_Input_method_get_joy_button_string>` "
+"**(** :ref:`int <class_int>` button_index **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:60
+msgid ""
+":ref:`get_joy_guid <class_Input_method_get_joy_guid>` **(** :ref:`int "
+"<class_int>` device **)** const"
+msgstr ""
+":ref:`get_joy_guid <class_Input_method_get_joy_guid>` **(** :ref:`int "
+"<class_int>` device **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:62
+msgid ""
+":ref:`get_joy_name <class_Input_method_get_joy_name>` **(** :ref:`int "
+"<class_int>` device **)**"
+msgstr ""
+":ref:`get_joy_name <class_Input_method_get_joy_name>` **(** :ref:`int "
+"<class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:64
+msgid ""
+":ref:`get_joy_vibration_duration "
+"<class_Input_method_get_joy_vibration_duration>` **(** :ref:`int "
+"<class_int>` device **)**"
+msgstr ""
+":ref:`get_joy_vibration_duration "
+"<class_Input_method_get_joy_vibration_duration>` **(** :ref:`int "
+"<class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:68
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:66
+msgid ""
+":ref:`get_joy_vibration_strength "
+"<class_Input_method_get_joy_vibration_strength>` **(** :ref:`int "
+"<class_int>` device **)**"
+msgstr ""
+":ref:`get_joy_vibration_strength "
+"<class_Input_method_get_joy_vibration_strength>` **(** :ref:`int "
+"<class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:68
+msgid ""
+":ref:`get_last_mouse_speed <class_Input_method_get_last_mouse_speed>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_last_mouse_speed <class_Input_method_get_last_mouse_speed>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:70
+msgid ""
+":ref:`get_magnetometer <class_Input_method_get_magnetometer>` **(** **)**"
+" const"
+msgstr ""
+":ref:`get_magnetometer <class_Input_method_get_magnetometer>` **(** **)**"
+" const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:72
+msgid ""
+":ref:`get_mouse_button_mask <class_Input_method_get_mouse_button_mask>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_mouse_button_mask <class_Input_method_get_mouse_button_mask>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:74
+msgid ":ref:`MouseMode <enum_Input_MouseMode>`"
+msgstr ":ref:`MouseMode <enum_Input_MouseMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:74
+msgid ""
+":ref:`get_mouse_mode <class_Input_method_get_mouse_mode>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_mouse_mode <class_Input_method_get_mouse_mode>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:88
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:76
+#, fuzzy
+msgid ""
+":ref:`is_action_just_pressed <class_Input_method_is_action_just_pressed>`"
+" **(** :ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`is_action_just_pressed <class_Input_method_is_action_just_pressed>`"
+" **(** :ref:`String <class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:78
+#, fuzzy
+msgid ""
+":ref:`is_action_just_released "
+"<class_Input_method_is_action_just_released>` **(** :ref:`StringName "
+"<class_StringName>` action **)** const"
+msgstr ""
+":ref:`is_action_just_released "
+"<class_Input_method_is_action_just_released>` **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:80
+#, fuzzy
+msgid ""
+":ref:`is_action_pressed <class_Input_method_is_action_pressed>` **(** "
+":ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`is_action_pressed <class_Input_method_is_action_pressed>` **(** "
+":ref:`String <class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:82
+msgid ""
+":ref:`is_joy_button_pressed <class_Input_method_is_joy_button_pressed>` "
+"**(** :ref:`int <class_int>` device, :ref:`int <class_int>` button **)** "
+"const"
+msgstr ""
+":ref:`is_joy_button_pressed <class_Input_method_is_joy_button_pressed>` "
+"**(** :ref:`int <class_int>` device, :ref:`int <class_int>` button **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:84
+msgid ""
+":ref:`is_joy_known <class_Input_method_is_joy_known>` **(** :ref:`int "
+"<class_int>` device **)**"
+msgstr ""
+":ref:`is_joy_known <class_Input_method_is_joy_known>` **(** :ref:`int "
+"<class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:86
+#, fuzzy
+msgid ""
+":ref:`is_key_pressed <class_Input_method_is_key_pressed>` **(** :ref:`int"
+" <class_int>` keycode **)** const"
+msgstr ""
+":ref:`is_key_pressed <class_Input_method_is_key_pressed>` **(** :ref:`int"
+" <class_int>` scancode **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:88
+msgid ""
+":ref:`is_mouse_button_pressed "
+"<class_Input_method_is_mouse_button_pressed>` **(** :ref:`int "
+"<class_int>` button **)** const"
+msgstr ""
+":ref:`is_mouse_button_pressed "
+"<class_Input_method_is_mouse_button_pressed>` **(** :ref:`int "
+"<class_int>` button **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:90
+msgid ""
+":ref:`joy_connection_changed <class_Input_method_joy_connection_changed>`"
+" **(** :ref:`int <class_int>` device, :ref:`bool <class_bool>` connected,"
+" :ref:`String <class_String>` name, :ref:`String <class_String>` guid "
+"**)**"
+msgstr ""
+":ref:`joy_connection_changed <class_Input_method_joy_connection_changed>`"
+" **(** :ref:`int <class_int>` device, :ref:`bool <class_bool>` connected,"
+" :ref:`String <class_String>` name, :ref:`String <class_String>` guid "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:92
+msgid ""
+":ref:`parse_input_event <class_Input_method_parse_input_event>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)**"
+msgstr ""
+":ref:`parse_input_event <class_Input_method_parse_input_event>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:94
+msgid ""
+":ref:`remove_joy_mapping <class_Input_method_remove_joy_mapping>` **(** "
+":ref:`String <class_String>` guid **)**"
+msgstr ""
+":ref:`remove_joy_mapping <class_Input_method_remove_joy_mapping>` **(** "
+":ref:`String <class_String>` guid **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:96
+msgid ""
+":ref:`set_custom_mouse_cursor "
+"<class_Input_method_set_custom_mouse_cursor>` **(** :ref:`Resource "
+"<class_Resource>` image, :ref:`CursorShape <enum_Input_CursorShape>` "
+"shape=0, :ref:`Vector2 <class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+msgstr ""
+":ref:`set_custom_mouse_cursor "
+"<class_Input_method_set_custom_mouse_cursor>` **(** :ref:`Resource "
+"<class_Resource>` image, :ref:`CursorShape <enum_Input_CursorShape>` "
+"shape=0, :ref:`Vector2 <class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:98
+msgid ""
+":ref:`set_default_cursor_shape "
+"<class_Input_method_set_default_cursor_shape>` **(** :ref:`CursorShape "
+"<enum_Input_CursorShape>` shape=0 **)**"
+msgstr ""
+":ref:`set_default_cursor_shape "
+"<class_Input_method_set_default_cursor_shape>` **(** :ref:`CursorShape "
+"<enum_Input_CursorShape>` shape=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:100
+msgid ""
+":ref:`set_mouse_mode <class_Input_method_set_mouse_mode>` **(** "
+":ref:`MouseMode <enum_Input_MouseMode>` mode **)**"
+msgstr ""
+":ref:`set_mouse_mode <class_Input_method_set_mouse_mode>` **(** "
+":ref:`MouseMode <enum_Input_MouseMode>` mode **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:102
+msgid ""
+":ref:`set_use_accumulated_input "
+"<class_Input_method_set_use_accumulated_input>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_use_accumulated_input "
+"<class_Input_method_set_use_accumulated_input>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:104
+msgid ""
+":ref:`start_joy_vibration <class_Input_method_start_joy_vibration>` **(**"
+" :ref:`int <class_int>` device, :ref:`float <class_float>` "
+"weak_magnitude, :ref:`float <class_float>` strong_magnitude, :ref:`float "
+"<class_float>` duration=0 **)**"
+msgstr ""
+":ref:`start_joy_vibration <class_Input_method_start_joy_vibration>` **(**"
+" :ref:`int <class_int>` device, :ref:`float <class_float>` "
+"weak_magnitude, :ref:`float <class_float>` strong_magnitude, :ref:`float "
+"<class_float>` duration=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:106
+msgid ""
+":ref:`stop_joy_vibration <class_Input_method_stop_joy_vibration>` **(** "
+":ref:`int <class_int>` device **)**"
+msgstr ""
+":ref:`stop_joy_vibration <class_Input_method_stop_joy_vibration>` **(** "
+":ref:`int <class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:108
+msgid ""
+":ref:`vibrate_handheld <class_Input_method_vibrate_handheld>` **(** "
+":ref:`int <class_int>` duration_ms=500 **)**"
+msgstr ""
+":ref:`vibrate_handheld <class_Input_method_vibrate_handheld>` **(** "
+":ref:`int <class_int>` duration_ms=500 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:110
+msgid ""
+":ref:`warp_mouse_position <class_Input_method_warp_mouse_position>` **(**"
+" :ref:`Vector2 <class_Vector2>` to **)**"
+msgstr ""
+":ref:`warp_mouse_position <class_Input_method_warp_mouse_position>` **(**"
+" :ref:`Vector2 <class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:114
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:118
+msgid ""
+"**joy_connection_changed** **(** :ref:`int <class_int>` device, "
+":ref:`bool <class_bool>` connected **)**"
+msgstr ""
+"**joy_connection_changed** **(** :ref:`int <class_int>` device, "
+":ref:`bool <class_bool>` connected **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:120
+msgid "Emitted when a joypad device has been connected or disconnected."
+msgstr "连接或断开游戏手柄设备时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:123
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:135
+msgid "enum **MouseMode**:"
+msgstr "枚举 **MouseMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:137
+msgid ""
+"**MOUSE_MODE_VISIBLE** = **0** --- Makes the mouse cursor visible if it "
+"is hidden."
+msgstr "**MOUSE_MODE_VISIBLE** = **0** —— 如果鼠标光标处于隐藏状态，则使其可见。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:139
+msgid ""
+"**MOUSE_MODE_HIDDEN** = **1** --- Makes the mouse cursor hidden if it is "
+"visible."
+msgstr "**MOUSE_MODE_HIDDEN** = **1** —— 如果可见，将鼠标光标隐藏。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:141
+msgid ""
+"**MOUSE_MODE_CAPTURED** = **2** --- Captures the mouse. The mouse will be"
+" hidden and unable to leave the game window, but it will still register "
+"movement and mouse button presses. On Windows and Linux, the mouse will "
+"use raw input mode, which means the reported movement will be unaffected "
+"by the OS' mouse acceleration settings."
+msgstr ""
+"**MOUSE_MODE_CAPTURED** = **2** —— "
+"捕获鼠标。鼠标将被隐藏并且无法离开游戏窗口，但仍会注册移动和按下鼠标按钮。在Windows和Linux上，鼠标将使用原始输入模式，这意味着报告的移动，将不受操作系统的鼠标加速设置的影响。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:143
+msgid ""
+"**MOUSE_MODE_CONFINED** = **3** --- Makes the mouse cursor visible but "
+"confines it to the game window."
+msgstr "**MOUSE_MODE_CONFINED** = **3** —— 使鼠标光标可见，但将其限制在游戏窗口中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:183
+msgid "enum **CursorShape**:"
+msgstr "枚举 **CursorShape**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:185
+msgid ""
+"**CURSOR_ARROW** = **0** --- Arrow cursor. Standard, default pointing "
+"cursor."
+msgstr "**CURSOR_ARROW** = **0** —— 箭头光标。标准的默认指针光标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:187
+msgid ""
+"**CURSOR_IBEAM** = **1** --- I-beam cursor. Usually used to show where "
+"the text cursor will appear when the mouse is clicked."
+msgstr "**CURSOR_IBEAM** = **1** —— I字形光标。通常用于显示点击鼠标时，文本光标出现的位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:189
+msgid ""
+"**CURSOR_POINTING_HAND** = **2** --- Pointing hand cursor. Usually used "
+"to indicate the pointer is over a link or other interactable item."
+msgstr "**CURSOR_POINTING_HAND** = **2** —— 指向手形光标。通常用于指示在链接或其他可交互项上的指针。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:191
+msgid ""
+"**CURSOR_CROSS** = **3** --- Cross cursor. Typically appears over regions"
+" in which a drawing operation can be performed or for selections."
+msgstr "**CURSOR_CROSS** = **3** —— 十字光标。通常出现在可以执行绘制操作或进行选择的区域上方。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:193
+msgid ""
+"**CURSOR_WAIT** = **4** --- Wait cursor. Indicates that the application "
+"is busy performing an operation. This cursor shape denotes that the "
+"application is still usable during the operation."
+msgstr "**CURSOR_WAIT** = **4** —— 等待光标。指示应用程序正忙于执行操作。此光标形状，表示该应用程序在操作过程中仍然可用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:195
+msgid ""
+"**CURSOR_BUSY** = **5** --- Busy cursor. Indicates that the application "
+"is busy performing an operation. This cursor shape denotes that the "
+"application isn't usable during the operation (e.g. something is blocking"
+" its main thread)."
+msgstr ""
+"**CURSOR_BUSY** = **5** —— "
+"繁忙光标。指示应用程序正忙于执行操作。此光标形状表示，该应用程序在操作期间无法使用（例如，某些内容阻塞了其主线程）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:197
+msgid ""
+"**CURSOR_DRAG** = **6** --- Drag cursor. Usually displayed when dragging "
+"something."
+msgstr "**CURSOR_DRAG** = **6** —— 拖动光标。通常在拖动时显示。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:199
+msgid ""
+"**CURSOR_CAN_DROP** = **7** --- Can drop cursor. Usually displayed when "
+"dragging something to indicate that it can be dropped at the current "
+"position."
+msgstr "**CURSOR_CAN_DROP** = **7** —— 可以放下光标。通常在拖动某些东西时显示，表明可以将其放置在当前位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:201
+msgid ""
+"**CURSOR_FORBIDDEN** = **8** --- Forbidden cursor. Indicates that the "
+"current action is forbidden (for example, when dragging something) or "
+"that the control at a position is disabled."
+msgstr "**CURSOR_FORBIDDEN** = **8** —— 禁止光标。指示当前操作是禁止的（例如，拖动某些东西时），或某个位置的控件被禁用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:203
+msgid ""
+"**CURSOR_VSIZE** = **9** --- Vertical resize mouse cursor. A double-"
+"headed vertical arrow. It tells the user they can resize the window or "
+"the panel vertically."
+msgstr "**CURSOR_VSIZE** = **9** —— 垂直调整鼠标光标。双向垂直箭头。它告诉用户他们可以垂直调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:205
+msgid ""
+"**CURSOR_HSIZE** = **10** --- Horizontal resize mouse cursor. A double-"
+"headed horizontal arrow. It tells the user they can resize the window or "
+"the panel horizontally."
+msgstr "**CURSOR_HSIZE** = **10** —— 水平调整鼠标光标。双向水平箭头。它告诉用户他们可以水平调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:207
+msgid ""
+"**CURSOR_BDIAGSIZE** = **11** --- Window resize mouse cursor. The cursor "
+"is a double-headed arrow that goes from the bottom left to the top right."
+" It tells the user they can resize the window or the panel both "
+"horizontally and vertically."
+msgstr ""
+"**CURSOR_BDIAGSIZE** = **11** —— "
+"窗口调整鼠标光标。光标是从左下角到右上角的双向箭头。它告诉用户他们可以水平和垂直调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:209
+msgid ""
+"**CURSOR_FDIAGSIZE** = **12** --- Window resize mouse cursor. The cursor "
+"is a double-headed arrow that goes from the top left to the bottom right,"
+" the opposite of :ref:`CURSOR_BDIAGSIZE "
+"<class_Input_constant_CURSOR_BDIAGSIZE>`. It tells the user they can "
+"resize the window or the panel both horizontally and vertically."
+msgstr ""
+"**CURSOR_FDIAGSIZE** = **12** —— 窗口调整鼠标光标。光标是一个双向箭头，从左上角到右下角，与 "
+":ref:`CURSOR_BDIAGSIZE <class_Input_constant_CURSOR_BDIAGSIZE>` "
+"相对。它告诉用户他们可以水平和垂直调整窗口或面板的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:211
+msgid ""
+"**CURSOR_MOVE** = **13** --- Move cursor. Indicates that something can be"
+" moved."
+msgstr "**CURSOR_MOVE** = **13** —— 移动光标。表示可以移动某些东西。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:213
+msgid ""
+"**CURSOR_VSPLIT** = **14** --- Vertical split mouse cursor. On Windows, "
+"it's the same as :ref:`CURSOR_VSIZE <class_Input_constant_CURSOR_VSIZE>`."
+msgstr ""
+"**CURSOR_VSPLIT** = **14** —— 垂直拆分鼠标光标。在Windows上，它与 :ref:`CURSOR_VSIZE "
+"<class_Input_constant_CURSOR_VSIZE>` 相同。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:215
+msgid ""
+"**CURSOR_HSPLIT** = **15** --- Horizontal split mouse cursor. On Windows,"
+" it's the same as :ref:`CURSOR_HSIZE "
+"<class_Input_constant_CURSOR_HSIZE>`."
+msgstr ""
+"**CURSOR_HSPLIT** = **15** —— 水平拆分鼠标光标。在Windows上，它与 :ref:`CURSOR_HSIZE "
+"<class_Input_constant_CURSOR_HSIZE>` 相同。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:217
+msgid "**CURSOR_HELP** = **16** --- Help cursor. Usually a question mark."
+msgstr "**CURSOR_HELP** = **16** —— 帮助光标。通常是一个问号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:220
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:224
+#, fuzzy
+msgid ""
+"void **action_press** **(** :ref:`StringName <class_StringName>` action, "
+":ref:`float <class_float>` strength=1.0 **)**"
+msgstr ""
+"void **action_press** **(** :ref:`String <class_String>` action, "
+":ref:`float <class_float>` strength=1.0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:226
+msgid "This will simulate pressing the specified action."
+msgstr "这将模拟按下指定的动作。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:228
+msgid ""
+"The strength can be used for non-boolean actions, it's ranged between 0 "
+"and 1 representing the intensity of the given action."
+msgstr "强度可用于非布尔型动作，其范围介于0和1之间，代表给定动作的强度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:230
+msgid ""
+"**Note:** This method will not cause any :ref:`Node._input "
+"<class_Node_method__input>` calls. It is intended to be used with "
+":ref:`is_action_pressed <class_Input_method_is_action_pressed>` and "
+":ref:`is_action_just_pressed "
+"<class_Input_method_is_action_just_pressed>`. If you want to simulate "
+"``_input``, use :ref:`parse_input_event "
+"<class_Input_method_parse_input_event>` instead."
+msgstr ""
+"**注意**：此方法不会造成任何 :ref:`Node._input <class_Node_method__input>` 调用。它旨在与 "
+":ref:`is_action_pressed <class_Input_method_is_action_pressed>` 和 "
+":ref:`is_action_just_pressed <class_Input_method_is_action_just_pressed>`"
+" 一起使用。如果要模拟 ``_input``，请改用 :ref:`parse_input_event "
+"<class_Input_method_parse_input_event>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:236
+#, fuzzy
+msgid ""
+"void **action_release** **(** :ref:`StringName <class_StringName>` action"
+" **)**"
+msgstr "void **action_release** **(** :ref:`String <class_String>` action **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:238
+msgid "If the specified action is already pressed, this will release it."
+msgstr "如果已经按了指定的动作，则将其释放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:244
+msgid ""
+"void **add_joy_mapping** **(** :ref:`String <class_String>` mapping, "
+":ref:`bool <class_bool>` update_existing=false **)**"
+msgstr ""
+"void **add_joy_mapping** **(** :ref:`String <class_String>` mapping, "
+":ref:`bool <class_bool>` update_existing=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:246
+msgid ""
+"Adds a new mapping entry (in SDL2 format) to the mapping database. "
+"Optionally update already connected devices."
+msgstr "将一条新的映射条目（SDL2格式），添加到映射数据库。可选地，更新已连接的设备。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:252
+msgid ":ref:`Vector3 <class_Vector3>` **get_accelerometer** **(** **)** const"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_accelerometer** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:254
+msgid ""
+"If the device has an accelerometer, this will return the acceleration. "
+"Otherwise, it returns an empty :ref:`Vector3 <class_Vector3>`."
+msgstr "如果设备具有加速度计，它将返回加速度。否则，它返回一个空的 :ref:`Vector3 <class_Vector3>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:256
+msgid ""
+"Note this method returns an empty :ref:`Vector3 <class_Vector3>` when "
+"running from the editor even when your device has an accelerometer. You "
+"must export your project to a supported device to read values from the "
+"accelerometer."
+msgstr ""
+"请注意，即使在您的设备具有加速度计的情况下，从编辑器运行时，此方法也会返回一个空的 :ref:`Vector3 "
+"<class_Vector3>`。您必须将项目导出到支持的设备，才能从加速度计读取值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:262
+#, fuzzy
+msgid ""
+":ref:`float <class_float>` **get_action_strength** **(** :ref:`StringName"
+" <class_StringName>` action **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_action_strength** **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:264
+msgid ""
+"Returns a value between 0 and 1 representing the intensity of the given "
+"action. In a joypad, for example, the further away the axis (analog "
+"sticks or L2, R2 triggers) is from the dead zone, the closer the value "
+"will be to 1. If the action is mapped to a control that has no axis as "
+"the keyboard, the value returned will be 0 or 1."
+msgstr "返回介于0和1之间的值，代表给定动作的强度。例如，在游戏手柄中，轴（模拟摇杆或L2，R2触发器）离死区越远，该值就越接近1。如果将动作映射到没有轴的控件，如键盘，则返回的值为0或1。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:270
+msgid ":ref:`Array <class_Array>` **get_connected_joypads** **(** **)**"
+msgstr ":ref:`Array <class_Array>` **get_connected_joypads** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:272
+msgid ""
+"Returns an :ref:`Array <class_Array>` containing the device IDs of all "
+"currently connected joypads."
+msgstr "返回一个 :ref:`Array <class_Array>`，其中包含所有当前连接的游戏手柄的设备ID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:278
+msgid ""
+":ref:`CursorShape <enum_Input_CursorShape>` **get_current_cursor_shape** "
+"**(** **)** const"
+msgstr ""
+":ref:`CursorShape <enum_Input_CursorShape>` **get_current_cursor_shape** "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:280
+msgid ""
+"Returns the currently assigned cursor shape (see :ref:`CursorShape "
+"<enum_Input_CursorShape>`)."
+msgstr "返回当前分配的光标形状（请参见 :ref:`CursorShape <enum_Input_CursorShape>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:286
+msgid ":ref:`Vector3 <class_Vector3>` **get_gravity** **(** **)** const"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_gravity** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:288
+msgid ""
+"If the device has an accelerometer, this will return the gravity. "
+"Otherwise, it returns an empty :ref:`Vector3 <class_Vector3>`."
+msgstr "如果设备具有加速度计，这将返回重力。否则，它返回一个空的 :ref:`Vector3 <class_Vector3>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:294
+msgid ":ref:`Vector3 <class_Vector3>` **get_gyroscope** **(** **)** const"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_gyroscope** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:296
+msgid ""
+"If the device has a gyroscope, this will return the rate of rotation in "
+"rad/s around a device's X, Y, and Z axes. Otherwise, it returns an empty "
+":ref:`Vector3 <class_Vector3>`."
+msgstr ""
+"如果设备带有陀螺仪，它将以弧度/s，返回围绕设备的X、Y和Z轴的旋转速率。否则，它返回一个空的 :ref:`Vector3 "
+"<class_Vector3>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:302
+msgid ""
+":ref:`float <class_float>` **get_joy_axis** **(** :ref:`int <class_int>` "
+"device, :ref:`int <class_int>` axis **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_joy_axis** **(** :ref:`int <class_int>` "
+"device, :ref:`int <class_int>` axis **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:304
+msgid ""
+"Returns the current value of the joypad axis at given index (see "
+":ref:`JoystickList <enum_@GlobalScope_JoystickList>`)."
+msgstr ""
+"返回给定索引处的游戏手柄轴的当前值（请参见 :ref:`JoystickList "
+"<enum_@GlobalScope_JoystickList>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:310
+msgid ""
+":ref:`int <class_int>` **get_joy_axis_index_from_string** **(** "
+":ref:`String <class_String>` axis **)**"
+msgstr ""
+":ref:`int <class_int>` **get_joy_axis_index_from_string** **(** "
+":ref:`String <class_String>` axis **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:312
+msgid "Returns the index of the provided axis name."
+msgstr "返回提供的轴名称的索引。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:318
+msgid ""
+":ref:`String <class_String>` **get_joy_axis_string** **(** :ref:`int "
+"<class_int>` axis_index **)**"
+msgstr ""
+":ref:`String <class_String>` **get_joy_axis_string** **(** :ref:`int "
+"<class_int>` axis_index **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:320
+msgid ""
+"Receives a :ref:`JoystickList <enum_@GlobalScope_JoystickList>` axis and "
+"returns its equivalent name as a string."
+msgstr ""
+"接收一个 :ref:`JoystickList <enum_@GlobalScope_JoystickList>` "
+"轴，并以字符串形式返回其等效名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:326
+msgid ""
+":ref:`int <class_int>` **get_joy_button_index_from_string** **(** "
+":ref:`String <class_String>` button **)**"
+msgstr ""
+":ref:`int <class_int>` **get_joy_button_index_from_string** **(** "
+":ref:`String <class_String>` button **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:328
+msgid "Returns the index of the provided button name."
+msgstr "返回提供的按钮名称的索引。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:334
+msgid ""
+":ref:`String <class_String>` **get_joy_button_string** **(** :ref:`int "
+"<class_int>` button_index **)**"
+msgstr ""
+":ref:`String <class_String>` **get_joy_button_string** **(** :ref:`int "
+"<class_int>` button_index **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:336
+msgid ""
+"Receives a gamepad button from :ref:`JoystickList "
+"<enum_@GlobalScope_JoystickList>` and returns its equivalent name as a "
+"string."
+msgstr ""
+"从 :ref:`JoystickList <enum_@GlobalScope_JoystickList>` "
+"接收一个游戏手柄按钮，并以字符串形式返回其等效名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:342
+msgid ""
+":ref:`String <class_String>` **get_joy_guid** **(** :ref:`int "
+"<class_int>` device **)** const"
+msgstr ""
+":ref:`String <class_String>` **get_joy_guid** **(** :ref:`int "
+"<class_int>` device **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:344
+msgid ""
+"Returns a SDL2-compatible device GUID on platforms that use gamepad "
+"remapping. Returns ``\"Default Gamepad\"`` otherwise."
+msgstr "在使用游戏手柄重新映射的平台上，返回与SDL2兼容的设备GUID。否则返回 ``“默认游戏手柄”（\"Default Gamepad\"）``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:350
+msgid ""
+":ref:`String <class_String>` **get_joy_name** **(** :ref:`int "
+"<class_int>` device **)**"
+msgstr ""
+":ref:`String <class_String>` **get_joy_name** **(** :ref:`int "
+"<class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:352
+msgid "Returns the name of the joypad at the specified device index."
+msgstr "返回指定设备索引处的游戏手柄名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:358
+msgid ""
+":ref:`float <class_float>` **get_joy_vibration_duration** **(** :ref:`int"
+" <class_int>` device **)**"
+msgstr ""
+":ref:`float <class_float>` **get_joy_vibration_duration** **(** :ref:`int"
+" <class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:360
+msgid "Returns the duration of the current vibration effect in seconds."
+msgstr "以秒为单位，返回当前振动效果的持续时间。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:366
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_joy_vibration_strength** **(** "
+":ref:`int <class_int>` device **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **get_joy_vibration_strength** **(** "
+":ref:`int <class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:368
+msgid ""
+"Returns the strength of the joypad vibration: x is the strength of the "
+"weak motor, and y is the strength of the strong motor."
+msgstr "返回操纵板振动的强度：x是弱电机的强度，而y是强电机的强度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:374
+msgid ":ref:`Vector2 <class_Vector2>` **get_last_mouse_speed** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_last_mouse_speed** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:376
+msgid ""
+"Returns the mouse speed for the last time the cursor was moved, and this "
+"until the next frame where the mouse moves. This means that even if the "
+"mouse is not moving, this function will still return the value of the "
+"last motion."
+msgstr "返回上一次光标移动的鼠标速度，此速度直到鼠标移动到下一帧为止。这意味着即使鼠标没有移动，此函数仍将返回上一个运动的值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:382
+msgid ":ref:`Vector3 <class_Vector3>` **get_magnetometer** **(** **)** const"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_magnetometer** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:384
+msgid ""
+"If the device has a magnetometer, this will return the magnetic field "
+"strength in micro-Tesla for all axes."
+msgstr "如果设备具有磁力计，则它将返回所有轴的微特斯拉磁场强度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:390
+msgid ":ref:`int <class_int>` **get_mouse_button_mask** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_mouse_button_mask** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:392
+msgid ""
+"Returns mouse buttons as a bitmask. If multiple mouse buttons are pressed"
+" at the same time, the bits are added together."
+msgstr "返回鼠标按钮作为位掩码。如果同时按下多个鼠标按钮，则会将这些位加在一起。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:398
+msgid ""
+":ref:`MouseMode <enum_Input_MouseMode>` **get_mouse_mode** **(** **)** "
+"const"
+msgstr ""
+":ref:`MouseMode <enum_Input_MouseMode>` **get_mouse_mode** **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:400
+msgid "Returns the mouse mode. See the constants for more information."
+msgstr "返回鼠标模式。有关更多信息，请参见常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:406
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_action_just_pressed** **(** "
+":ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_action_just_pressed** **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:408
+msgid ""
+"Returns ``true`` when the user starts pressing the action event, meaning "
+"it's ``true`` only on the frame that the user pressed down the button."
+msgstr "当用户开始按下动作事件时，返回 ``true``，这意味着仅在用户按下按钮的帧上，它才为 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:410
+msgid ""
+"This is useful for code that needs to run only once when an action is "
+"pressed, instead of every frame while it's pressed."
+msgstr "这对于在按下某个动作时只需要运行一次，而不是在按下时，每帧都运行的代码很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:416
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_action_just_released** **(** "
+":ref:`StringName <class_StringName>` action **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_action_just_released** **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:418
+msgid ""
+"Returns ``true`` when the user stops pressing the action event, meaning "
+"it's ``true`` only on the frame that the user released the button."
+msgstr "当用户停止按下动作事件时，返回 ``true``，这意味着仅在用户释放按钮的帧上，它才为 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:424
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_action_pressed** **(** :ref:`StringName "
+"<class_StringName>` action **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_action_pressed** **(** :ref:`String "
+"<class_String>` action **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:426
+msgid ""
+"Returns ``true`` if you are pressing the action event. Note that if an "
+"action has multiple buttons assigned and more than one of them is "
+"pressed, releasing one button will release the action, even if some other"
+" button assigned to this action is still pressed."
+msgstr ""
+"如果您按下动作事件，则返回 "
+"``true``。请注意，如果为一个动作分配了多个按钮，并且按下了多个按钮，那么，释放一个按钮也将释放该动作，即使仍然按下分配给该动作的其他按钮。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:432
+msgid ""
+":ref:`bool <class_bool>` **is_joy_button_pressed** **(** :ref:`int "
+"<class_int>` device, :ref:`int <class_int>` button **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_joy_button_pressed** **(** :ref:`int "
+"<class_int>` device, :ref:`int <class_int>` button **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:434
+msgid ""
+"Returns ``true`` if you are pressing the joypad button (see "
+":ref:`JoystickList <enum_@GlobalScope_JoystickList>`)."
+msgstr ""
+"如果您按下操纵杆按钮，则返回 ``true`` （请参阅 :ref:`JoystickList "
+"<enum_@GlobalScope_JoystickList>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:440
+msgid ""
+":ref:`bool <class_bool>` **is_joy_known** **(** :ref:`int <class_int>` "
+"device **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_joy_known** **(** :ref:`int <class_int>` "
+"device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:442
+msgid ""
+"Returns ``true`` if the system knows the specified device. This means "
+"that it sets all button and axis indices exactly as defined in "
+":ref:`JoystickList <enum_@GlobalScope_JoystickList>`. Unknown joypads are"
+" not expected to match these constants, but you can still retrieve events"
+" from them."
+msgstr ""
+"如果系统知道指定的设备，则返回 ``true``。这意味着它将完全按照 :ref:`JoystickList "
+"<enum_@GlobalScope_JoystickList>` "
+"中的定义，设置所有按钮和轴索引。未知的游戏手柄不希望与这些常量匹配，但是您仍然可以从中检索事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:448
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_key_pressed** **(** :ref:`int <class_int>` "
+"keycode **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_key_pressed** **(** :ref:`int <class_int>` "
+"scancode **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:450
+#, fuzzy
+msgid ""
+"Returns ``true`` if you are pressing the key in the current keyboard "
+"layout. You can pass a :ref:`KeyList <enum_@GlobalScope_KeyList>` "
+"constant."
+msgstr "如果按下键，则返回 ``true``。您可以传递一个 :ref:`KeyList <enum_@GlobalScope_KeyList>` 常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:456
+msgid ""
+":ref:`bool <class_bool>` **is_mouse_button_pressed** **(** :ref:`int "
+"<class_int>` button **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_mouse_button_pressed** **(** :ref:`int "
+"<class_int>` button **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:458
+msgid ""
+"Returns ``true`` if you are pressing the mouse button specified with "
+":ref:`ButtonList <enum_@GlobalScope_ButtonList>`."
+msgstr ""
+"如果按下 :ref:`ButtonList <enum_@GlobalScope_ButtonList>` 指定的鼠标按钮，则返回 "
+"``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:464
+msgid ""
+"void **joy_connection_changed** **(** :ref:`int <class_int>` device, "
+":ref:`bool <class_bool>` connected, :ref:`String <class_String>` name, "
+":ref:`String <class_String>` guid **)**"
+msgstr ""
+"void **joy_connection_changed** **(** :ref:`int <class_int>` device, "
+":ref:`bool <class_bool>` connected, :ref:`String <class_String>` name, "
+":ref:`String <class_String>` guid **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:466
+msgid ""
+"Notifies the ``Input`` singleton that a connection has changed, to update"
+" the state for the ``device`` index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:468
+msgid ""
+"This is used internally and should not have to be called from user "
+"scripts. See :ref:`joy_connection_changed "
+"<class_Input_signal_joy_connection_changed>` for the signal emitted when "
+"this is triggered internally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:474
+msgid ""
+"void **parse_input_event** **(** :ref:`InputEvent <class_InputEvent>` "
+"event **)**"
+msgstr ""
+"void **parse_input_event** **(** :ref:`InputEvent <class_InputEvent>` "
+"event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:476
+msgid ""
+"Feeds an :ref:`InputEvent <class_InputEvent>` to the game. Can be used to"
+" artificially trigger input events from code. Also generates "
+":ref:`Node._input <class_Node_method__input>` calls."
+msgstr ""
+"向游戏提供一个 :ref:`InputEvent <class_InputEvent>`。可用于从代码中，人为触发输入事件。还生成 "
+":ref:`Node._input <class_Node_method__input>` 输入。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:478
+msgid "Example:"
+msgstr "示例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:491
+msgid "void **remove_joy_mapping** **(** :ref:`String <class_String>` guid **)**"
+msgstr "void **remove_joy_mapping** **(** :ref:`String <class_String>` guid **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:493
+msgid "Removes all mappings from the internal database that match the given GUID."
+msgstr "从内部数据库中，删除与给定GUID匹配的所有映射。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:499
+msgid ""
+"void **set_custom_mouse_cursor** **(** :ref:`Resource <class_Resource>` "
+"image, :ref:`CursorShape <enum_Input_CursorShape>` shape=0, :ref:`Vector2"
+" <class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+msgstr ""
+"void **set_custom_mouse_cursor** **(** :ref:`Resource <class_Resource>` "
+"image, :ref:`CursorShape <enum_Input_CursorShape>` shape=0, :ref:`Vector2"
+" <class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:501
+#, fuzzy
+msgid ""
+"Sets a custom mouse cursor image, which is only visible inside the game "
+"window. The hotspot can also be specified. Passing ``null`` to the image "
+"parameter resets to the system cursor. See :ref:`CursorShape "
+"<enum_Input_CursorShape>` for the list of shapes."
+msgstr ""
+"设置一个自定义鼠标光标图像，该图像仅在游戏窗口内可见。也可以指定热点。向图像参数传递 ``null`` "
+"将重置为系统光标。有关形状的列表，请参见枚举 ``CURSOR_*``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:503
+msgid "``image``'s size must be lower than 256×256."
+msgstr "图像 ``image`` 的大小必须小于 ``256×256``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:505
+msgid "``hotspot`` must be within ``image``'s size."
+msgstr "热点 ``hotspot`` 必须在图片 ``image`` 大小范围内。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:507
+msgid ""
+"**Note:** :ref:`AnimatedTexture <class_AnimatedTexture>`\\ s aren't "
+"supported as custom mouse cursors. If using an :ref:`AnimatedTexture "
+"<class_AnimatedTexture>`, only the first frame will be displayed."
+msgstr ""
+"**注意**：不支持将 :ref:`AnimatedTexture <class_AnimatedTexture>` "
+"作为自定义鼠标光标。如果使用一个 :ref:`AnimatedTexture <class_AnimatedTexture>`，则仅显示第一帧。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:509
+msgid ""
+"**Note:** Only images imported with the **Lossless**, **Lossy** or "
+"**Uncompressed** compression modes are supported. The **Video RAM** "
+"compression mode can't be used for custom cursors."
+msgstr ""
+"**注意**：仅支持以 **无损（Lossless）**、**有损（Lossy）** 或 **未压缩（Uncompressed）** "
+"压缩模式导入的图像。**视频RAM（Video RAM）** 压缩模式不能用于自定义光标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:515
+msgid ""
+"void **set_default_cursor_shape** **(** :ref:`CursorShape "
+"<enum_Input_CursorShape>` shape=0 **)**"
+msgstr ""
+"void **set_default_cursor_shape** **(** :ref:`CursorShape "
+"<enum_Input_CursorShape>` shape=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:517
+msgid ""
+"Sets the default cursor shape to be used in the viewport instead of "
+":ref:`CURSOR_ARROW <class_Input_constant_CURSOR_ARROW>`."
+msgstr ""
+"设置要在视图中使用的默认光标形状，而不是 :ref:`CURSOR_ARROW "
+"<class_Input_constant_CURSOR_ARROW>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:519
+msgid ""
+"**Note:** If you want to change the default cursor shape for "
+":ref:`Control <class_Control>`'s nodes, use "
+":ref:`Control.mouse_default_cursor_shape "
+"<class_Control_property_mouse_default_cursor_shape>` instead."
+msgstr ""
+"**注意**：如果要更改 :ref:`Control <class_Control>` 节点的默认光标形状，请使用 "
+":ref:`Control.mouse_default_cursor_shape "
+"<class_Control_property_mouse_default_cursor_shape>` 代替。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:521
+msgid ""
+"**Note:** This method generates an :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` to update cursor immediately."
+msgstr ""
+"**注意**：这个方法会产生一个 :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>`，来立即更新游标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:527
+msgid ""
+"void **set_mouse_mode** **(** :ref:`MouseMode <enum_Input_MouseMode>` "
+"mode **)**"
+msgstr ""
+"void **set_mouse_mode** **(** :ref:`MouseMode <enum_Input_MouseMode>` "
+"mode **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:529
+msgid "Sets the mouse mode. See the constants for more information."
+msgstr "设置鼠标模式。有关更多信息，请参见常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:535
+msgid ""
+"void **set_use_accumulated_input** **(** :ref:`bool <class_bool>` enable "
+"**)**"
+msgstr ""
+"void **set_use_accumulated_input** **(** :ref:`bool <class_bool>` enable "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:537
+msgid ""
+"Whether to accumulate similar input events sent by the operating system. "
+"Enabled by default."
+msgstr "是否累积由操作系统发送的相似输入事件。默认启用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:543
+msgid ""
+"void **start_joy_vibration** **(** :ref:`int <class_int>` device, "
+":ref:`float <class_float>` weak_magnitude, :ref:`float <class_float>` "
+"strong_magnitude, :ref:`float <class_float>` duration=0 **)**"
+msgstr ""
+"void **start_joy_vibration** **(** :ref:`int <class_int>` device, "
+":ref:`float <class_float>` weak_magnitude, :ref:`float <class_float>` "
+"strong_magnitude, :ref:`float <class_float>` duration=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:545
+msgid ""
+"Starts to vibrate the joypad. Joypads usually come with two rumble "
+"motors, a strong and a weak one. ``weak_magnitude`` is the strength of "
+"the weak motor (between 0 and 1) and ``strong_magnitude`` is the strength"
+" of the strong motor (between 0 and 1). ``duration`` is the duration of "
+"the effect in seconds (a duration of 0 will try to play the vibration "
+"indefinitely)."
+msgstr ""
+"开始振动游戏手柄。游戏手柄通常带有两个隆隆声电机，一个强劲的和一个弱小的。``weak_magnitude`` "
+"是弱电机的强度（介于0和1之间），``strong_magnitude`` 是强电机的强度（介于0和1之间）。``duration`` "
+"是效果的持续时间，以秒为单位（持续时间为0，会尝试无限次播放振动）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:547
+msgid ""
+"**Note:** Not every hardware is compatible with long effect durations; it"
+" is recommended to restart an effect if it has to be played for more than"
+" a few seconds."
+msgstr "**注意**：并非每种硬件都可以长时间兼容；如果必须播放超过几秒钟的效果，建议重新启动效果。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:553
+msgid "void **stop_joy_vibration** **(** :ref:`int <class_int>` device **)**"
+msgstr "void **stop_joy_vibration** **(** :ref:`int <class_int>` device **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:555
+msgid "Stops the vibration of the joypad."
+msgstr "停止游戏手柄的振动。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:561
+msgid ""
+"void **vibrate_handheld** **(** :ref:`int <class_int>` duration_ms=500 "
+"**)**"
+msgstr ""
+"void **vibrate_handheld** **(** :ref:`int <class_int>` duration_ms=500 "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:563
+msgid "Vibrate Android and iOS devices."
+msgstr "振动Android和iOS设备。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:565
+msgid ""
+"**Note:** It needs VIBRATE permission for Android at export settings. iOS"
+" does not support duration."
+msgstr "**注意**：在导出设置中，它需要Android的 ``振动（VIBRATE）`` 权限。iOS不支持持续时间。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:571
+msgid "void **warp_mouse_position** **(** :ref:`Vector2 <class_Vector2>` to **)**"
+msgstr "void **warp_mouse_position** **(** :ref:`Vector2 <class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_input.rst:573
+msgid "Sets the mouse position to the specified vector."
+msgstr "将鼠标位置设置为指定的向量。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

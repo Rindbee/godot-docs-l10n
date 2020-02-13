@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_editorsceneimporterassimp.rst:10
+msgid "EditorSceneImporterAssimp"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporterassimp.rst:12
+msgid ""
+"**Inherits:** :ref:`EditorSceneImporter <class_EditorSceneImporter>` "
+"**<** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporterassimp.rst:14
+msgid "FBX 3D asset importer based on `Assimp <http://assimp.org/>`_."
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporterassimp.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporterassimp.rst:19
+msgid ""
+"This is an FBX 3D asset importer based on `Assimp <http://assimp.org/>`_."
+" It currently has many known limitations and works best with static "
+"meshes. Most animated meshes won't import correctly."
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporterassimp.rst:21
+msgid ""
+"If exporting a FBX scene from Autodesk Maya, use these FBX export "
+"settings:"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "Multi-format 3D asset importer based on `Assimp <http://assimp.org/>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is a multi-format 3D asset"
+#~ " importer based on `Assimp "
+#~ "<http://assimp.org/>`_. See `this page <https"
+#~ "://assimp-"
+#~ "docs.readthedocs.io/en/latest/about/intoduction.html#installation>`_"
+#~ " for a full list of supported "
+#~ "formats."
+#~ msgstr ""
+

@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:10
+msgid "VisualShaderNodeTexture"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:20
+msgid ":ref:`Source <enum_VisualShaderNodeTexture_Source>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:20
+msgid ":ref:`source <class_VisualShaderNodeTexture_property_source>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:20
+#: ../../docs/classes/class_visualshadernodetexture.rst:24
+#: ../../docs/classes/class_visualshadernodetexture.rst:84
+#: ../../docs/classes/class_visualshadernodetexture.rst:110
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:22
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:22
+msgid ":ref:`texture <class_VisualShaderNodeTexture_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:24
+msgid ":ref:`TextureType <enum_VisualShaderNodeTexture_TextureType>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:24
+msgid ":ref:`texture_type <class_VisualShaderNodeTexture_property_texture_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:28
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:44
+msgid "enum **Source**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:46
+msgid "**SOURCE_TEXTURE** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:48
+msgid "**SOURCE_SCREEN** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:50
+msgid "**SOURCE_2D_TEXTURE** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:52
+msgid "**SOURCE_2D_NORMAL** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:54
+msgid "**SOURCE_DEPTH** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:56
+msgid "**SOURCE_PORT** = **5**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:68
+msgid "enum **TextureType**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:70
+msgid "**TYPE_DATA** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:72
+msgid "**TYPE_COLOR** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:74
+msgid "**TYPE_NORMALMAP** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:77
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:81
+msgid ":ref:`Source <enum_VisualShaderNodeTexture_Source>` **source**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:84
+#: ../../docs/classes/class_visualshadernodetexture.rst:110
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:86
+#: ../../docs/classes/class_visualshadernodetexture.rst:98
+#: ../../docs/classes/class_visualshadernodetexture.rst:112
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:86
+msgid "set_source(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:88
+#: ../../docs/classes/class_visualshadernodetexture.rst:100
+#: ../../docs/classes/class_visualshadernodetexture.rst:114
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:88
+msgid "get_source()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:95
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:98
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:100
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:107
+msgid ""
+":ref:`TextureType <enum_VisualShaderNodeTexture_TextureType>` "
+"**texture_type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:112
+msgid "set_texture_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:114
+msgid "get_texture_type()"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ":ref:`Array <class_Array>`"
+#~ msgstr ""
+
+#~ msgid "default_input_values"
+#~ msgstr ""
+
+#~ msgid "**O:** [  ]"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>` **texture**"
+#~ msgstr ""
+

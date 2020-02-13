@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-11-10 20:34+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:4
 msgid "Encrypting save games"
-msgstr "加密保存的游戏数据"
+msgstr "加密保存游戏"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:7
 msgid "Why?"
@@ -39,12 +39,13 @@ msgid ""
 "spending money on them to extend their experience, and their preferred way "
 "of doing so is through in-app purchases and virtual currency."
 msgstr ""
-"因为今日的世界不是昨日的世界。一个资本主义寡头统治着世界，强迫我们消费，以便"
-"使这个腐朽社会的齿轮保持运作。因此，当今游戏消费最大的市场是手机游戏市场。这"
-"是一个穷人被迫消费数字内容，以便忘记他们日常生活、通勤的痛苦，或仅仅享受他们"
-"没有被用来为统治阶级生产商品或服务的短暂自由时刻。这些人需要继续集中于他们的"
-"电子游戏(因为不这样做将给他们带来巨大的存在主义焦虑)，所以他们甚至花钱在游戏"
-"上来扩展他们的体验，而他们这样做的首选方式是通过应用内购买和虚拟货币。"
+"因为今天的世界不是昨天的世界。一个资本主义寡头统治世界，强迫我们消费，以便使"
+"这个腐朽社会的齿轮保持在轨道上。因此，当今视频游戏消费最大的市场是移动市场。"
+"这是一个穷人市场，他们被迫强迫消费数字内容，以便忘记他们日常生活、通勤的痛"
+"苦，或仅仅享受他们没有被用来为统治阶级，生产商品或服务的短暂自由时刻。这些人"
+"需要继续专注于自己的视频游戏（因为不这样做将使他们充满巨大的生存忧虑），所以"
+"他们甚至花钱在游戏上，来扩展他们的体验，而他们这样做的首选方式，是通过应用内"
+"购买和虚拟货币。"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:22
 msgid ""
@@ -55,22 +56,22 @@ msgid ""
 "them to think, and the tremendous agony of realizing their own irrelevance "
 "would again take over their life."
 msgstr ""
-"但是，想象一下，如果有人想办法编辑保存的游戏数据，不用任何努力地就可以得到物"
-"品和货币？这将是可怕的，因为它将使得玩家更快地消费游戏内容，导致更快地玩完游"
-"戏。如果这种事情发生了，他们将没有别东西可以用来逃避思考，而意识到他们自己渺"
-"小无用的巨大痛苦将会再次占据他们的生活。"
+"但是，如果有人想找到一种方法，来编辑已保存的游戏，并毫不费力地分配商品和货币"
+"呢？那将是可怕的，因为它将帮助玩家更快地消费内容，并因此比预期更快地耗尽内"
+"容。如果发生这种情况，他们将没有什么可以避免思考，而意识到自己无关紧要的巨大"
+"痛苦将再次占据他们的生活。"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:29
 msgid ""
 "No, we definitely do not want that to happen, so let's see how to encrypt "
 "savegames and protect the world order."
 msgstr ""
-"不，我们绝对不希望这种情况发生，所以让我们看看如何加密保存游戏数据从而保护世"
-"界秩序和平稳定。"
+"不，我们绝对不希望这种情况发生，所以让我们看看如何加密保存游戏，从而维护现实"
+"世界的秩序。"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:33
 msgid "How?"
-msgstr "怎么做？"
+msgstr "怎么用？"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:35
 msgid ""
@@ -78,8 +79,8 @@ msgid ""
 "write data (integers, strings and variants). It also supports encryption. To "
 "create an encrypted file, a passphrase must be provided, like this:"
 msgstr ""
-"类 :ref:`File <class_File>` 可以在一个位置打开文件并读/写数据(整数、字符串和"
-"变量)。它还支持加密。要创建加密文件，必须提供一个密码，如下所示:"
+"类 :ref:`File <class_File>` 可以在一个位置打开文件，并读/写数据（整数、字符串"
+"和 ``variant``）。它还支持加密。要创建加密文件，必须提供一个密码，如下所示："
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:55
 msgid ""
@@ -87,20 +88,18 @@ msgid ""
 "from sharing savefiles. To solve this, use the device unique id or some "
 "unique user identifier, for example:"
 msgstr ""
-"对用户而言，这将使文件不可读，但仍然不会阻止他们分享保存的文件。为了解决这个"
-"问题，可以使用设备唯一id或某个唯一用户标识符，例如:"
+"这将使用户无法读取该文件，但仍不会阻止他们分享保存文件。要解决此问题，请使用"
+"设备唯一的ID或某些唯一的用户标识符，例如："
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:74
 msgid "Note that ``OS.get_unique_id()`` does not work on UWP or HTML5."
-msgstr "请注意， ``OS.get_unique_id()`` 只适用于iOS和Android系统。"
+msgstr "请注意， ``OS.get_unique_id()`` 在UWP或HTML5上不起作用。"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:76
-#, fuzzy
 msgid "That is all! Thank you for your cooperation, citizen."
-msgstr "这就是全部！谢谢您的合作，公民。"
+msgstr "就这些！公民，谢谢您的合作。"
 
 #: ../../docs/tutorials/io/encrypting_save_games.rst:78
-#, fuzzy
 msgid ""
 "This method cannot really prevent players from editing their savegames "
 "locally because, since the encryption key is stored inside the game, the "
@@ -109,7 +108,7 @@ msgid ""
 "server, where players can only make authorized changes to their save data. "
 "If your game deals with real money, you need to be doing this anyway."
 msgstr ""
-"这种方法并不能真正阻止游戏角色在本地编辑他们的保存游戏，因为加密密钥存储在游"
-"戏中，所以游戏角色仍然可以对文件本身进行解密和编辑。防止出现这种情况的唯一方"
-"法是将保存的游戏数据存储在远程服务器上，其中游戏角色只能对其中的保存数据进行"
-"授权更改。如果您的游戏涉及到真正的金钱，您无论如何都需要这样做。"
+"这种方法不能真正阻止玩家，在本地编辑他们的保存游戏，因为由于加密密钥存储在游"
+"戏内部，所以玩家仍然可以自己解密和编辑文件。防止这种情况的唯一方法，是将保存"
+"数据存储在远程服务器上，在该服务器上，玩家只能对其保存数据进行授权的更改。如"
+"果您的游戏涉及到真正的金钱，您无论如何都需要这样做。"

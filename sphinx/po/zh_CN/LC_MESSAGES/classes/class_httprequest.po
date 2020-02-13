@@ -1,0 +1,564 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:10
+msgid "HTTPRequest"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:14
+msgid "A node with the ability to send HTTP(S) requests."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:19
+msgid ""
+"A node with the ability to send HTTP requests. Uses :ref:`HTTPClient "
+"<class_HTTPClient>` internally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:21
+msgid ""
+"Can be used to make HTTP requests, i.e. download or upload files or web "
+"content via HTTP."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:23
+msgid ""
+"**Example of contacting a REST API and printing one of its returned "
+"fields:**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:46
+msgid "**Example of loading and displaying an image using HTTPRequest:**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:78
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:80
+msgid ":doc:`../tutorials/networking/http_request_class`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:82
+msgid ":doc:`../tutorials/networking/ssl_certificates`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:85
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:109
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:88
+msgid ":ref:`body_size_limit <class_HTTPRequest_property_body_size_limit>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:192
+msgid "``-1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:90
+msgid ""
+":ref:`download_chunk_size "
+"<class_HTTPRequest_property_download_chunk_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:208
+msgid "``4096``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:92
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:92
+msgid ":ref:`download_file <class_HTTPRequest_property_download_file>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:226
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:94
+msgid ":ref:`max_redirects <class_HTTPRequest_property_max_redirects>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:242
+msgid "``8``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:96
+msgid ":ref:`timeout <class_HTTPRequest_property_timeout>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:258
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:98
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:98
+msgid ":ref:`use_threads <class_HTTPRequest_property_use_threads>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:272
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:102
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:105
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:105
+msgid ""
+":ref:`cancel_request <class_HTTPRequest_method_cancel_request>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:107
+msgid ""
+":ref:`get_body_size <class_HTTPRequest_method_get_body_size>` **(** **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:109
+msgid ""
+":ref:`get_downloaded_bytes "
+"<class_HTTPRequest_method_get_downloaded_bytes>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:111
+msgid ":ref:`Status <enum_HTTPClient_Status>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:111
+msgid ""
+":ref:`get_http_client_status "
+"<class_HTTPRequest_method_get_http_client_status>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:113
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:113
+msgid ""
+":ref:`request <class_HTTPRequest_method_request>` **(** :ref:`String "
+"<class_String>` url, :ref:`PackedStringArray <class_PackedStringArray>` "
+"custom_headers=PackedStringArray(  ), :ref:`bool <class_bool>` "
+"ssl_validate_domain=true, :ref:`Method <enum_HTTPClient_Method>` "
+"method=0, :ref:`String <class_String>` request_data=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:117
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:121
+msgid ""
+"**request_completed** **(** :ref:`int <class_int>` result, :ref:`int "
+"<class_int>` response_code, :ref:`PackedStringArray "
+"<class_PackedStringArray>` headers, :ref:`PackedByteArray "
+"<class_PackedByteArray>` body **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:123
+msgid "Emitted when a request is completed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:126
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:156
+msgid "enum **Result**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:158
+msgid "**RESULT_SUCCESS** = **0** --- Request successful."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:160
+msgid "**RESULT_CHUNKED_BODY_SIZE_MISMATCH** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:162
+msgid "**RESULT_CANT_CONNECT** = **2** --- Request failed while connecting."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:164
+msgid "**RESULT_CANT_RESOLVE** = **3** --- Request failed while resolving."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:166
+msgid ""
+"**RESULT_CONNECTION_ERROR** = **4** --- Request failed due to connection "
+"(read/write) error."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:168
+msgid ""
+"**RESULT_SSL_HANDSHAKE_ERROR** = **5** --- Request failed on SSL "
+"handshake."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:170
+msgid "**RESULT_NO_RESPONSE** = **6** --- Request does not have a response (yet)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:172
+msgid ""
+"**RESULT_BODY_SIZE_LIMIT_EXCEEDED** = **7** --- Request exceeded its "
+"maximum size limit, see :ref:`body_size_limit "
+"<class_HTTPRequest_property_body_size_limit>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:174
+msgid "**RESULT_REQUEST_FAILED** = **8** --- Request failed (currently unused)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:176
+msgid ""
+"**RESULT_DOWNLOAD_FILE_CANT_OPEN** = **9** --- HTTPRequest couldn't open "
+"the download file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:178
+msgid ""
+"**RESULT_DOWNLOAD_FILE_WRITE_ERROR** = **10** --- HTTPRequest couldn't "
+"write to the download file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:180
+msgid ""
+"**RESULT_REDIRECT_LIMIT_REACHED** = **11** --- Request reached its "
+"maximum redirect limit, see :ref:`max_redirects "
+"<class_HTTPRequest_property_max_redirects>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:182
+msgid "**RESULT_TIMEOUT** = **12**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:185
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:189
+msgid ":ref:`int <class_int>` **body_size_limit**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:208
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:242
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:258
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:272
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:244
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:260
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:274
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:194
+msgid "set_body_size_limit(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:230
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:246
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:262
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:276
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:196
+msgid "get_body_size_limit()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:199
+msgid "Maximum allowed size for response bodies."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:205
+msgid ":ref:`int <class_int>` **download_chunk_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:210
+msgid "set_download_chunk_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:212
+msgid "get_download_chunk_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:215
+msgid ""
+"The size of the buffer used and maximum bytes to read per iteration. See "
+":ref:`HTTPClient.read_chunk_size "
+"<class_HTTPClient_property_read_chunk_size>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:217
+msgid ""
+"Set this to a higher value (e.g. 65536 for 64 KiB) when downloading large"
+" files to achieve better speeds at the cost of memory."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:223
+msgid ":ref:`String <class_String>` **download_file**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:228
+msgid "set_download_file(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:230
+msgid "get_download_file()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:233
+msgid "The file to download into. Will output any received file into it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:239
+msgid ":ref:`int <class_int>` **max_redirects**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:244
+msgid "set_max_redirects(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:246
+msgid "get_max_redirects()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:249
+msgid "Maximum number of allowed redirects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:255
+msgid ":ref:`int <class_int>` **timeout**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:260
+msgid "set_timeout(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:262
+msgid "get_timeout()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:269
+msgid ":ref:`bool <class_bool>` **use_threads**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:274
+msgid "set_use_threads(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:276
+msgid "is_using_threads()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:279
+msgid "If ``true``, multithreading is used to improve performance."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:282
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:286
+msgid "void **cancel_request** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:288
+msgid "Cancels the current request."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:294
+msgid ":ref:`int <class_int>` **get_body_size** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:296
+msgid "Returns the response body length."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:298
+msgid ""
+"**Note:** Some Web servers may not send a body length. In this case, the "
+"value returned will be ``-1``. If using chunked transfer encoding, the "
+"body length will also be ``-1``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:304
+msgid ":ref:`int <class_int>` **get_downloaded_bytes** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:306
+msgid "Returns the amount of bytes this HTTPRequest downloaded."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:312
+msgid ""
+":ref:`Status <enum_HTTPClient_Status>` **get_http_client_status** **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:314
+msgid ""
+"Returns the current status of the underlying :ref:`HTTPClient "
+"<class_HTTPClient>`. See :ref:`Status <enum_HTTPClient_Status>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:320
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **request** **(** :ref:`String "
+"<class_String>` url, :ref:`PackedStringArray <class_PackedStringArray>` "
+"custom_headers=PackedStringArray(  ), :ref:`bool <class_bool>` "
+"ssl_validate_domain=true, :ref:`Method <enum_HTTPClient_Method>` "
+"method=0, :ref:`String <class_String>` request_data=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:322
+msgid ""
+"Creates request on the underlying :ref:`HTTPClient <class_HTTPClient>`. "
+"If there is no configuration errors, it tries to connect using "
+":ref:`HTTPClient.connect_to_host "
+"<class_HTTPClient_method_connect_to_host>` and passes parameters onto "
+":ref:`HTTPClient.request <class_HTTPClient_method_request>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_httprequest.rst:324
+msgid ""
+"Returns :ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>` if "
+"request is successfully created. (Does not imply that the server has "
+"responded), :ref:`@GlobalScope.ERR_UNCONFIGURED "
+"<class_@GlobalScope_constant_ERR_UNCONFIGURED>` if not in the tree, "
+":ref:`@GlobalScope.ERR_BUSY <class_@GlobalScope_constant_ERR_BUSY>` if "
+"still processing previous request, "
+":ref:`@GlobalScope.ERR_INVALID_PARAMETER "
+"<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` if given string is "
+"not a valid URL format, or :ref:`@GlobalScope.ERR_CANT_CONNECT "
+"<class_@GlobalScope_constant_ERR_CANT_CONNECT>` if not using thread and "
+"the :ref:`HTTPClient <class_HTTPClient>` cannot connect to host."
+msgstr ""
+
+#~ msgid "A node with the ability to send HTTP requests."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the current status of the "
+#~ "underlying :ref:`HTTPClient <class_HTTPClient>`. See"
+#~ " ``STATUS_*`` enum on :ref:`HTTPClient "
+#~ "<class_HTTPClient>`."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "-1"
+#~ msgstr ""
+
+#~ msgid "4096"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "8"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "**RESULT_REQUEST_FAILED** = **8** --- Request failed. (Unused)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`request <class_HTTPRequest_method_request>` **(**"
+#~ " :ref:`String <class_String>` url, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "custom_headers=PoolStringArray(  ), :ref:`bool "
+#~ "<class_bool>` ssl_validate_domain=true, :ref:`Method "
+#~ "<enum_HTTPClient_Method>` method=0, :ref:`String "
+#~ "<class_String>` request_data=\"\" **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**request_completed** **(** :ref:`int <class_int>`"
+#~ " result, :ref:`int <class_int>` response_code,"
+#~ " :ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "headers, :ref:`PoolByteArray <class_PoolByteArray>` "
+#~ "body **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Error <enum_@GlobalScope_Error>` **request** "
+#~ "**(** :ref:`String <class_String>` url, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "custom_headers=PoolStringArray(  ), :ref:`bool "
+#~ "<class_bool>` ssl_validate_domain=true, :ref:`Method "
+#~ "<enum_HTTPClient_Method>` method=0, :ref:`String "
+#~ "<class_String>` request_data=\"\" **)**"
+#~ msgstr ""
+

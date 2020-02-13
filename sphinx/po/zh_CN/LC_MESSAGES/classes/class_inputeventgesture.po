@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-31 16:03+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_inputeventgesture.rst:10
+msgid "InputEventGesture"
+msgstr "InputEventGesture"
+
+#: ../../docs/classes/class_inputeventgesture.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>` **<** :ref:`InputEvent "
+"<class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEventWithModifiers <class_InputEventWithModifiers>` "
+"**<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_inputeventgesture.rst:14
+msgid ""
+"**Inherited By:** :ref:`InputEventMagnifyGesture "
+"<class_InputEventMagnifyGesture>`, :ref:`InputEventPanGesture "
+"<class_InputEventPanGesture>`"
+msgstr ""
+"**子类**：:ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`, "
+":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
+
+#: ../../docs/classes/class_inputeventgesture.rst:19
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_inputeventgesture.rst:22
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_inputeventgesture.rst:22
+msgid ":ref:`position <class_InputEventGesture_property_position>`"
+msgstr ":ref:`position <class_InputEventGesture_property_position>`"
+
+#: ../../docs/classes/class_inputeventgesture.rst:22
+#: ../../docs/classes/class_inputeventgesture.rst:33
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_inputeventgesture.rst:26
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_inputeventgesture.rst:30
+msgid ":ref:`Vector2 <class_Vector2>` **position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **position**"
+
+#: ../../docs/classes/class_inputeventgesture.rst:33
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_inputeventgesture.rst:35
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_inputeventgesture.rst:35
+msgid "set_position(value)"
+msgstr "set_position(value)"
+
+#: ../../docs/classes/class_inputeventgesture.rst:37
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_inputeventgesture.rst:37
+msgid "get_position()"
+msgstr "get_position()"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

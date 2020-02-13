@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_animationtree.rst:10
+msgid "AnimationTree"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:17
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:19
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:21
+msgid ""
+"`https://github.com/godotengine/tps-demo <https://github.com/godotengine"
+"/tps-demo>`_"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:27
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:27
+msgid ":ref:`active <class_AnimationTree_property_active>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:27
+#: ../../docs/classes/class_animationtree.rst:76
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:29
+#: ../../docs/classes/class_animationtree.rst:33
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:29
+msgid ":ref:`anim_player <class_AnimationTree_property_anim_player>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:29
+#: ../../docs/classes/class_animationtree.rst:33
+#: ../../docs/classes/class_animationtree.rst:90
+#: ../../docs/classes/class_animationtree.rst:118
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:31
+msgid ":ref:`AnimationProcessMode <enum_AnimationTree_AnimationProcessMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:31
+msgid ":ref:`process_mode <class_AnimationTree_property_process_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:31
+#: ../../docs/classes/class_animationtree.rst:104
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:33
+msgid ":ref:`root_motion_track <class_AnimationTree_property_root_motion_track>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:35
+msgid ":ref:`AnimationNode <class_AnimationNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:35
+msgid ":ref:`tree_root <class_AnimationTree_property_tree_root>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:39
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:42
+#: ../../docs/classes/class_animationtree.rst:46
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:42
+msgid ""
+":ref:`advance <class_AnimationTree_method_advance>` **(** :ref:`float "
+"<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:44
+msgid ":ref:`Transform <class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:44
+msgid ""
+":ref:`get_root_motion_transform "
+"<class_AnimationTree_method_get_root_motion_transform>` **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:46
+msgid ""
+":ref:`rename_parameter <class_AnimationTree_method_rename_parameter>` "
+"**(** :ref:`String <class_String>` old_name, :ref:`String <class_String>`"
+" new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:50
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:60
+msgid "enum **AnimationProcessMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:62
+msgid "**ANIMATION_PROCESS_PHYSICS** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:64
+msgid "**ANIMATION_PROCESS_IDLE** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:66
+msgid "**ANIMATION_PROCESS_MANUAL** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:69
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:73
+msgid ":ref:`bool <class_bool>` **active**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:76
+#: ../../docs/classes/class_animationtree.rst:90
+#: ../../docs/classes/class_animationtree.rst:104
+#: ../../docs/classes/class_animationtree.rst:118
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:78
+#: ../../docs/classes/class_animationtree.rst:92
+#: ../../docs/classes/class_animationtree.rst:106
+#: ../../docs/classes/class_animationtree.rst:120
+#: ../../docs/classes/class_animationtree.rst:132
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:78
+msgid "set_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:80
+#: ../../docs/classes/class_animationtree.rst:94
+#: ../../docs/classes/class_animationtree.rst:108
+#: ../../docs/classes/class_animationtree.rst:122
+#: ../../docs/classes/class_animationtree.rst:134
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:80
+msgid "is_active()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:87
+msgid ":ref:`NodePath <class_NodePath>` **anim_player**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:92
+msgid "set_animation_player(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:94
+msgid "get_animation_player()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:101
+msgid ""
+":ref:`AnimationProcessMode <enum_AnimationTree_AnimationProcessMode>` "
+"**process_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:106
+msgid "set_process_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:108
+msgid "get_process_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:115
+msgid ":ref:`NodePath <class_NodePath>` **root_motion_track**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:120
+msgid "set_root_motion_track(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:122
+msgid "get_root_motion_track()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:129
+msgid ":ref:`AnimationNode <class_AnimationNode>` **tree_root**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:132
+msgid "set_tree_root(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:134
+msgid "get_tree_root()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:138
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:142
+msgid "void **advance** **(** :ref:`float <class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:148
+msgid ""
+":ref:`Transform <class_Transform>` **get_root_motion_transform** **(** "
+"**)** const"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:154
+msgid ""
+"void **rename_parameter** **(** :ref:`String <class_String>` old_name, "
+":ref:`String <class_String>` new_name **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "NodePath(\"\")"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+

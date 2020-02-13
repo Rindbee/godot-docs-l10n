@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_godotsharp.rst:10
+msgid "GodotSharp"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:17
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:20
+#: ../../docs/classes/class_godotsharp.rst:22
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:20
+msgid ":ref:`attach_thread <class_GodotSharp_method_attach_thread>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:22
+msgid ":ref:`detach_thread <class_GodotSharp_method_detach_thread>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:24
+#: ../../docs/classes/class_godotsharp.rst:26
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:24
+msgid ":ref:`get_domain_id <class_GodotSharp_method_get_domain_id>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:26
+msgid ""
+":ref:`get_scripts_domain_id "
+"<class_GodotSharp_method_get_scripts_domain_id>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:28
+#: ../../docs/classes/class_godotsharp.rst:30
+#: ../../docs/classes/class_godotsharp.rst:32
+#: ../../docs/classes/class_godotsharp.rst:34
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:28
+msgid ""
+":ref:`is_domain_finalizing_for_unload "
+"<class_GodotSharp_method_is_domain_finalizing_for_unload>` **(** "
+":ref:`int <class_int>` domain_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:30
+msgid ""
+":ref:`is_runtime_initialized "
+"<class_GodotSharp_method_is_runtime_initialized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:32
+msgid ""
+":ref:`is_runtime_shutting_down "
+"<class_GodotSharp_method_is_runtime_shutting_down>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:34
+msgid ""
+":ref:`is_scripts_domain_loaded "
+"<class_GodotSharp_method_is_scripts_domain_loaded>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:38
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:42
+msgid "void **attach_thread** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:44
+msgid "Attaches the current thread to the mono runtime."
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:50
+msgid "void **detach_thread** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:52
+msgid "Detaches the current thread from the mono runtime."
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:58
+msgid ":ref:`int <class_int>` **get_domain_id** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:64
+msgid ":ref:`int <class_int>` **get_scripts_domain_id** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:70
+msgid ""
+":ref:`bool <class_bool>` **is_domain_finalizing_for_unload** **(** "
+":ref:`int <class_int>` domain_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:72
+msgid "Returns whether the domain is being finalized."
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:78
+msgid ":ref:`bool <class_bool>` **is_runtime_initialized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:84
+msgid ":ref:`bool <class_bool>` **is_runtime_shutting_down** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:90
+msgid ":ref:`bool <class_bool>` **is_scripts_domain_loaded** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_godotsharp.rst:92
+msgid "Returns whether the scripts domain is loaded."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+

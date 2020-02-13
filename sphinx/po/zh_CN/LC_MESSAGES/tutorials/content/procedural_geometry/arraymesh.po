@@ -1,32 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2020-03-07 22:57+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:4
-#, fuzzy
 msgid "Using the ArrayMesh"
-msgstr "使用资源馆"
+msgstr "使用 ``ArrayMesh``"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:6
 msgid ""
 "This tutorial will present the basics of using an :ref:`ArrayMesh "
 "<class_arraymesh>`"
-msgstr ""
+msgstr "本教程将介绍使用 :ref:`ArrayMesh <class_arraymesh>` 的基础知识"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:8
 msgid ""
@@ -34,6 +33,9 @@ msgid ""
 "<class_ArrayMesh_method_add_surface_from_arrays>`, which takes up to four "
 "parameters. The first two are required, while the second two are optional."
 msgstr ""
+"为此，我们将使用函数 :ref:`add_surface_from_arrays() "
+"<class_ArrayMesh_method_add_surface_from_arrays>`，该函数最多接受四个参数。前"
+"两个是必需的，而后两个是可选的。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:11
 msgid ""
@@ -42,6 +44,9 @@ msgid ""
 "is triangles, lines, points, etc. A complete list can be found under the :"
 "ref:`Mesh <class_mesh>` class reference page."
 msgstr ""
+"第一个是 ``PrimitiveType``，这是一个OpenGL概念，指示GPU如何根据给定的三角形，"
+"直线，点等顶点来排列图元。完整的列表可以在 :ref:`Mesh <class_mesh>` 类参考页"
+"面。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:16
 msgid ""
@@ -50,53 +55,59 @@ msgid ""
 "stores a ``Pool**Array`` (e.g. PoolVector3Array, PoolIntArray, etc.) for "
 "each type of information."
 msgstr ""
+"第二个是存储网格信息的实际数组。该数组是一个普通的Godot数组，它使用空括号 "
+"``[]`` 构成。它为每种类型的信息存储一个 ``Pool**Array`` （例如"
+"PoolVector3Array，PoolIntArray等）。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:20
 msgid "``ARRAY_VERTEX`` = 0 | PoolVector3Array or PoolVector2Array"
-msgstr ""
+msgstr "``ARRAY_VERTEX`` = 0 | PoolVector3Array 或 PoolVector2Array"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:21
-#, fuzzy
 msgid "``ARRAY_NORMAL`` = 1 | PoolVector3Array"
-msgstr "PoolVector3Array"
+msgstr "``ARRAY_NORMAL`` = 1 | PoolVector3Array"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:22
 msgid ""
 "``ARRAY_TANGENT`` = 2 | PoolRealArray of groups of 4 floats. first 3 floats "
 "determine the tangent, and the last the binormal direction as -1 or 1."
 msgstr ""
+"``ARRAY_TANGENT`` = 2 | 一组4个浮点数的PoolRealArray。前三个浮点数确定切线，"
+"最后一个法线方向为 -1 或 1。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:24
 msgid "``ARRAY_COLOR`` = 3 | PoolColorArray"
-msgstr ""
+msgstr "``ARRAY_COLOR`` = 3 | PoolColorArray"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:25
 msgid "``ARRAY_TEX_UV`` = 4 | PoolVector2Array or PoolVector3Array"
-msgstr ""
+msgstr "``ARRAY_TEX_UV`` = 4 | PoolVector2Array 或 PoolVector3Array"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:26
 msgid "``ARRAY_TEX_UV2`` = 5 | PoolVector2Array or PoolVector3Array"
-msgstr ""
+msgstr "``ARRAY_TEX_UV2`` = 5 | PoolVector2Array 或 PoolVector3Array"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:27
 msgid ""
 "``ARRAY_BONES`` = 6 | PoolRealArray of groups of 4 floats or PoolIntArray of "
 "groups of 4 ints"
 msgstr ""
+"``ARRAY_BONES`` = 6 | 一组4个浮点数的PoolRealArray，或一组4个整数的"
+"PoolIntArray"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:28
 msgid "``ARRAY_WEIGHTS`` = 7 | PoolRealArray of groups of 4 floats"
-msgstr ""
+msgstr "``ARRAY_WEIGHTS`` = 7 | 一组4个浮点数的PoolRealArray"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:29
 msgid "``ARRAY_INDEX`` = 8 | PoolIntArray"
-msgstr ""
+msgstr "``ARRAY_INDEX`` = 8 | PoolIntArray"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:31
 msgid ""
 "The Array of vertices is always required. All the others are optional and "
 "will only be used if included."
-msgstr ""
+msgstr "始终需要顶点数组。所有其他选项都是可选的，只有在包含时才使用。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:33
 msgid ""
@@ -105,10 +116,13 @@ msgid ""
 "of 4 floats. So the array size will be four times the size of the vertex "
 "array size, but they will have the same number of elements"
 msgstr ""
+"除索引数组外，每个数组都需要具有与顶点数组相同数量的元素。对于像切线这样的数"
+"组，一个元素是一组4个浮点数。因此，数组大小将是顶点数组大小的四倍，但是它们将"
+"具有相同数量的元素"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:37
 msgid "The index array is unique."
-msgstr ""
+msgstr "索引数组是唯一的。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:39
 msgid ""
@@ -116,6 +130,8 @@ msgid ""
 "this tutorial does not cover using blendshapes, it is possible to specify "
 "them when creating a surface from arrays."
 msgstr ""
+"第三个参数是供网格使用的混合形状（blendshapes）数组。虽然本教程没有介绍如何使"
+"用blendshapes，但是可以在根据数组创建曲面时指定它们。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:42
 msgid ""
@@ -124,12 +140,15 @@ msgid ""
 "ref:`VisualServer <class_visualserver>` under :ref:`ArrayFormat "
 "<enum_visualserver_arrayformat>`."
 msgstr ""
+"最后一个参数是压缩标志，用于指定要存储一半位的数组。这些值可以在 :ref:"
+"`ArrayFormat <enum_visualserver_arrayformat>` 下的 :ref:`VisualServer "
+"<class_visualserver>` 的类参考手册中找到。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:45
 msgid ""
 "For normal usage you will find it is best to leave the last two parameters "
 "empty."
-msgstr ""
+msgstr "对于正常使用，您会发现最好将最后两个参数留空。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:48
 msgid "ArrayMesh"
@@ -141,15 +160,17 @@ msgid ""
 "adding an ArrayMesh in the editor is not useful, but in this case it allows "
 "as to access the ArrayMesh from code without creating one."
 msgstr ""
+"将一个 :ref:`ArrayMesh <class_arraymesh>` 添加到一个 ``MeshInstance`` 中。通"
+"常，在编辑器中添加 ``ArrayMesh`` 没什么用，但是在这种情况下，它允许从代码访问"
+"该 ``ArrayMesh`` 而不创建一个。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:54
-#, fuzzy
 msgid "Next, add a script to the MeshInstance."
-msgstr "资源的文字描述。"
+msgstr "接下来，将脚本添加到 ``MeshInstance``。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:56
 msgid "Under ``_ready()``, create a new Array."
-msgstr ""
+msgstr "在 ``_ready()`` 下，创建一个新的数组。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:63
 msgid ""
@@ -157,10 +178,12 @@ msgid ""
 "all the arrays of data that the surface needs. Godot will expect it to be of "
 "size ``Mesh.ARRAY_MAX``, so resize it accordingly."
 msgstr ""
+"这将是我们保存曲面信息的数组，它将保存曲面所需的所有数据数组。Godot希望它的大"
+"小为 ``Mesh.ARRAY_MAX``，因此请相应调整其大小。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:73
 msgid "Next create the arrays for each data type you will use."
-msgstr ""
+msgstr "接下来，为您将使用的每种数据类型创建数组。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:83
 msgid ""
@@ -168,28 +191,31 @@ msgid ""
 "mesh by adding each array to ``surface_array`` and then committing to the "
 "mesh."
 msgstr ""
+"用几何体填充数据数组后，可以通过将每个数组添加到 ``surface_array`` 中，然后提"
+"交到网格来创建一个网格。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:96
 msgid ""
 "In this example, we used ``Mesh.PRIMITIVE_TRIANGLES``, but you can use any "
 "primitive type available from mesh."
 msgstr ""
+"在此示例中，我们使用了 ``Mesh.PRIMITIVE_TRIANGLES``，但是您可以使用网格中可用"
+"的任何图元类型。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:99
-#, fuzzy
 msgid "Put together the full code looks like:"
-msgstr "现在这个星球看起来像:"
+msgstr "完整的代码汇总如下："
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:130
 msgid ""
 "The code that goes in the middle can be whatever you want. Below we will "
 "present some example code that could go in the middle."
 msgstr ""
+"中间的代码可以是您想要的任何代码。下面，我们将介绍一些可能在中间的示例代码。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:134
-#, fuzzy
 msgid "Generating geometry"
-msgstr "生成的几何体"
+msgstr "生成几何"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:136
 msgid ""
@@ -200,10 +226,14 @@ msgid ""
 "are having trouble understanding it or want to learn more about procedural "
 "geometry in general, you can use any tutorial that you find online."
 msgstr ""
+"这是用于生成一个球体的示例代码。尽管代码是用GDScript呈现的，但是Godot并没有特"
+"定于生成它的方法。此实现与 ``ArrayMeshes`` 无关，仅是一个生成球体的通用方法。"
+"如果您在理解它时遇到困难，或者想全面了解程序几何，可以使用在线上找到的任何教"
+"程。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:203
 msgid "Combined with the code above, this code will generate a sphere."
-msgstr ""
+msgstr "结合上面的代码，此代码将生成一个球体。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:205
 msgid ""
@@ -211,11 +241,12 @@ msgid ""
 "understand what goes in each array and then you can follow tutorials for any "
 "language/engine and convert it into Godot."
 msgstr ""
+"在使用 ``ArrayMesh`` 生成几何时，您需要了解每个数组中的内容，然后可以按照任何"
+"语言/引擎的教程进行操作，并将其转换为Godot。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:209
-#, fuzzy
 msgid "Saving"
-msgstr "保存游戏"
+msgstr "保存"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:211
 msgid ""
@@ -223,3 +254,6 @@ msgid ""
 "`ResourceSaver <class_resourcesaver>` class. This is useful when you want to "
 "generate a mesh and then use it later without having to re-generate."
 msgstr ""
+"最后，Godot提供了一种使用 :ref:`ResourceSaver <class_resourcesaver>` 类保存 "
+"``ArrayMeshes`` 的方法。当您要生成网格然后在以后使用它而无需重新生成时，此功"
+"能很有用。"

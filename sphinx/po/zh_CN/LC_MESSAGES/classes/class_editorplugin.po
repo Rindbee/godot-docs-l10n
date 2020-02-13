@@ -1,0 +1,1292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 22:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:10
+msgid "EditorPlugin"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:14
+msgid "Used by the editor to extend its functionality."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:19
+msgid ""
+"Plugins are used by the editor to extend functionality. The most common "
+"types of plugins are those which edit a given node or resource type, "
+"import plugins and export plugins. See also :ref:`EditorScript "
+"<class_EditorScript>` to add functions to the editor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:24
+msgid ":doc:`../tutorials/plugins/editor/index`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:27
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:132
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:30
+msgid ""
+":ref:`add_autoload_singleton "
+"<class_EditorPlugin_method_add_autoload_singleton>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:32
+msgid ":ref:`ToolButton <class_ToolButton>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:32
+msgid ""
+":ref:`add_control_to_bottom_panel "
+"<class_EditorPlugin_method_add_control_to_bottom_panel>` **(** "
+":ref:`Control <class_Control>` control, :ref:`String <class_String>` "
+"title **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:34
+msgid ""
+":ref:`add_control_to_container "
+"<class_EditorPlugin_method_add_control_to_container>` **(** "
+":ref:`CustomControlContainer <enum_EditorPlugin_CustomControlContainer>` "
+"container, :ref:`Control <class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:36
+msgid ""
+":ref:`add_control_to_dock "
+"<class_EditorPlugin_method_add_control_to_dock>` **(** :ref:`DockSlot "
+"<enum_EditorPlugin_DockSlot>` slot, :ref:`Control <class_Control>` "
+"control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:38
+msgid ""
+":ref:`add_custom_type <class_EditorPlugin_method_add_custom_type>` **(** "
+":ref:`String <class_String>` type, :ref:`String <class_String>` base, "
+":ref:`Script <class_Script>` script, :ref:`Texture2D <class_Texture2D>` "
+"icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:40
+msgid ""
+":ref:`add_export_plugin <class_EditorPlugin_method_add_export_plugin>` "
+"**(** :ref:`EditorExportPlugin <class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:42
+msgid ""
+":ref:`add_import_plugin <class_EditorPlugin_method_add_import_plugin>` "
+"**(** :ref:`EditorImportPlugin <class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:44
+msgid ""
+":ref:`add_inspector_plugin "
+"<class_EditorPlugin_method_add_inspector_plugin>` **(** "
+":ref:`EditorInspectorPlugin <class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:46
+msgid ""
+":ref:`add_scene_import_plugin "
+"<class_EditorPlugin_method_add_scene_import_plugin>` **(** "
+":ref:`EditorSceneImporter <class_EditorSceneImporter>` scene_importer "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:48
+msgid ""
+":ref:`add_spatial_gizmo_plugin "
+"<class_EditorPlugin_method_add_spatial_gizmo_plugin>` **(** "
+":ref:`EditorSpatialGizmoPlugin <class_EditorSpatialGizmoPlugin>` plugin "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:50
+msgid ""
+":ref:`add_tool_menu_item <class_EditorPlugin_method_add_tool_menu_item>` "
+"**(** :ref:`String <class_String>` name, :ref:`Object <class_Object>` "
+"handler, :ref:`String <class_String>` callback, :ref:`Variant "
+"<class_Variant>` ud=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:52
+msgid ""
+":ref:`add_tool_submenu_item "
+"<class_EditorPlugin_method_add_tool_submenu_item>` **(** :ref:`String "
+"<class_String>` name, :ref:`Object <class_Object>` submenu **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:54
+msgid ""
+":ref:`apply_changes <class_EditorPlugin_method_apply_changes>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:92
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:56
+msgid ":ref:`build <class_EditorPlugin_method_build>` **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:58
+msgid ":ref:`clear <class_EditorPlugin_method_clear>` **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:60
+msgid ""
+":ref:`disable_plugin <class_EditorPlugin_method_disable_plugin>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:62
+msgid ""
+":ref:`edit <class_EditorPlugin_method_edit>` **(** :ref:`Object "
+"<class_Object>` object **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:64
+msgid ""
+":ref:`enable_plugin <class_EditorPlugin_method_enable_plugin>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:66
+msgid ""
+":ref:`forward_canvas_draw_over_viewport "
+"<class_EditorPlugin_method_forward_canvas_draw_over_viewport>` **(** "
+":ref:`Control <class_Control>` overlay **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:68
+msgid ""
+":ref:`forward_canvas_force_draw_over_viewport "
+"<class_EditorPlugin_method_forward_canvas_force_draw_over_viewport>` "
+"**(** :ref:`Control <class_Control>` overlay **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:70
+msgid ""
+":ref:`forward_canvas_gui_input "
+"<class_EditorPlugin_method_forward_canvas_gui_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:72
+msgid ""
+":ref:`forward_spatial_gui_input "
+"<class_EditorPlugin_method_forward_spatial_gui_input>` **(** :ref:`Camera"
+" <class_Camera>` camera, :ref:`InputEvent <class_InputEvent>` event **)**"
+" virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:74
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:74
+msgid ""
+":ref:`get_breakpoints <class_EditorPlugin_method_get_breakpoints>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:76
+msgid ":ref:`EditorInterface <class_EditorInterface>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:76
+msgid ""
+":ref:`get_editor_interface "
+"<class_EditorPlugin_method_get_editor_interface>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:78
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:78
+msgid ""
+":ref:`get_plugin_icon <class_EditorPlugin_method_get_plugin_icon>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:80
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:80
+msgid ""
+":ref:`get_plugin_name <class_EditorPlugin_method_get_plugin_name>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:82
+msgid ":ref:`ScriptCreateDialog <class_ScriptCreateDialog>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:82
+msgid ""
+":ref:`get_script_create_dialog "
+"<class_EditorPlugin_method_get_script_create_dialog>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:84
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:84
+msgid ":ref:`get_state <class_EditorPlugin_method_get_state>` **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:86
+msgid ":ref:`UndoRedo <class_UndoRedo>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:86
+msgid ":ref:`get_undo_redo <class_EditorPlugin_method_get_undo_redo>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:88
+msgid ""
+":ref:`get_window_layout <class_EditorPlugin_method_get_window_layout>` "
+"**(** :ref:`ConfigFile <class_ConfigFile>` layout **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:90
+msgid ""
+":ref:`handles <class_EditorPlugin_method_handles>` **(** :ref:`Object "
+"<class_Object>` object **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:92
+msgid ""
+":ref:`has_main_screen <class_EditorPlugin_method_has_main_screen>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:94
+msgid ""
+":ref:`hide_bottom_panel <class_EditorPlugin_method_hide_bottom_panel>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:96
+msgid ""
+":ref:`make_bottom_panel_item_visible "
+"<class_EditorPlugin_method_make_bottom_panel_item_visible>` **(** "
+":ref:`Control <class_Control>` item **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:98
+msgid ""
+":ref:`make_visible <class_EditorPlugin_method_make_visible>` **(** "
+":ref:`bool <class_bool>` visible **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:100
+msgid ""
+":ref:`queue_save_layout <class_EditorPlugin_method_queue_save_layout>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:102
+msgid ""
+":ref:`remove_autoload_singleton "
+"<class_EditorPlugin_method_remove_autoload_singleton>` **(** :ref:`String"
+" <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:104
+msgid ""
+":ref:`remove_control_from_bottom_panel "
+"<class_EditorPlugin_method_remove_control_from_bottom_panel>` **(** "
+":ref:`Control <class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:106
+msgid ""
+":ref:`remove_control_from_container "
+"<class_EditorPlugin_method_remove_control_from_container>` **(** "
+":ref:`CustomControlContainer <enum_EditorPlugin_CustomControlContainer>` "
+"container, :ref:`Control <class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:108
+msgid ""
+":ref:`remove_control_from_docks "
+"<class_EditorPlugin_method_remove_control_from_docks>` **(** "
+":ref:`Control <class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:110
+msgid ""
+":ref:`remove_custom_type <class_EditorPlugin_method_remove_custom_type>` "
+"**(** :ref:`String <class_String>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:112
+msgid ""
+":ref:`remove_export_plugin "
+"<class_EditorPlugin_method_remove_export_plugin>` **(** "
+":ref:`EditorExportPlugin <class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:114
+msgid ""
+":ref:`remove_import_plugin "
+"<class_EditorPlugin_method_remove_import_plugin>` **(** "
+":ref:`EditorImportPlugin <class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:116
+msgid ""
+":ref:`remove_inspector_plugin "
+"<class_EditorPlugin_method_remove_inspector_plugin>` **(** "
+":ref:`EditorInspectorPlugin <class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:118
+msgid ""
+":ref:`remove_scene_import_plugin "
+"<class_EditorPlugin_method_remove_scene_import_plugin>` **(** "
+":ref:`EditorSceneImporter <class_EditorSceneImporter>` scene_importer "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:120
+msgid ""
+":ref:`remove_spatial_gizmo_plugin "
+"<class_EditorPlugin_method_remove_spatial_gizmo_plugin>` **(** "
+":ref:`EditorSpatialGizmoPlugin <class_EditorSpatialGizmoPlugin>` plugin "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:122
+msgid ""
+":ref:`remove_tool_menu_item "
+"<class_EditorPlugin_method_remove_tool_menu_item>` **(** :ref:`String "
+"<class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:124
+msgid ""
+":ref:`save_external_data <class_EditorPlugin_method_save_external_data>` "
+"**(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:126
+msgid ""
+":ref:`set_force_draw_over_forwarding_enabled "
+"<class_EditorPlugin_method_set_force_draw_over_forwarding_enabled>` **(**"
+" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:128
+msgid ""
+":ref:`set_input_event_forwarding_always_enabled "
+"<class_EditorPlugin_method_set_input_event_forwarding_always_enabled>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:130
+msgid ""
+":ref:`set_state <class_EditorPlugin_method_set_state>` **(** "
+":ref:`Dictionary <class_Dictionary>` state **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:132
+msgid ""
+":ref:`set_window_layout <class_EditorPlugin_method_set_window_layout>` "
+"**(** :ref:`ConfigFile <class_ConfigFile>` layout **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:134
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:134
+msgid ""
+":ref:`update_overlays <class_EditorPlugin_method_update_overlays>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:138
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:142
+msgid ""
+"**main_screen_changed** **(** :ref:`String <class_String>` screen_name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:144
+msgid ""
+"Emitted when user changes the workspace (**2D**, **3D**, **Script**, "
+"**AssetLib**). Also works with custom screens defined by plugins."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:150
+msgid "**resource_saved** **(** :ref:`Resource <class_Resource>` resource **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:156
+msgid "**scene_changed** **(** :ref:`Node <class_Node>` scene_root **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:158
+msgid ""
+"Emitted when the scene is changed in the editor. The argument will return"
+" the root node of the scene that has just become active. If this scene is"
+" new and empty, the argument will be ``null``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:164
+msgid "**scene_closed** **(** :ref:`String <class_String>` filepath **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:166
+msgid ""
+"Emitted when user closes a scene. The argument is file path to a closed "
+"scene."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:169
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:197
+msgid "enum **CustomControlContainer**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:199
+msgid "**CONTAINER_TOOLBAR** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:201
+msgid "**CONTAINER_SPATIAL_EDITOR_MENU** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:203
+msgid "**CONTAINER_SPATIAL_EDITOR_SIDE_LEFT** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:205
+msgid "**CONTAINER_SPATIAL_EDITOR_SIDE_RIGHT** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:207
+msgid "**CONTAINER_SPATIAL_EDITOR_BOTTOM** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:209
+msgid "**CONTAINER_CANVAS_EDITOR_MENU** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:211
+msgid "**CONTAINER_CANVAS_EDITOR_SIDE_LEFT** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:213
+msgid "**CONTAINER_CANVAS_EDITOR_SIDE_RIGHT** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:215
+msgid "**CONTAINER_CANVAS_EDITOR_BOTTOM** = **8**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:217
+msgid "**CONTAINER_PROPERTY_EDITOR_BOTTOM** = **9**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:219
+msgid "**CONTAINER_PROJECT_SETTING_TAB_LEFT** = **10**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:221
+msgid "**CONTAINER_PROJECT_SETTING_TAB_RIGHT** = **11**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:245
+msgid "enum **DockSlot**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:247
+msgid "**DOCK_SLOT_LEFT_UL** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:249
+msgid "**DOCK_SLOT_LEFT_BL** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:251
+msgid "**DOCK_SLOT_LEFT_UR** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:253
+msgid "**DOCK_SLOT_LEFT_BR** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:255
+msgid "**DOCK_SLOT_RIGHT_UL** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:257
+msgid "**DOCK_SLOT_RIGHT_BL** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:259
+msgid "**DOCK_SLOT_RIGHT_UR** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:261
+msgid "**DOCK_SLOT_RIGHT_BR** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:263
+msgid ""
+"**DOCK_SLOT_MAX** = **8** --- Represents the size of the :ref:`DockSlot "
+"<enum_EditorPlugin_DockSlot>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:266
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:270
+msgid ""
+"void **add_autoload_singleton** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:272
+msgid "Adds a script at ``path`` to the Autoload list as ``name``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:278
+msgid ""
+":ref:`ToolButton <class_ToolButton>` **add_control_to_bottom_panel** "
+"**(** :ref:`Control <class_Control>` control, :ref:`String "
+"<class_String>` title **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:280
+msgid ""
+"Adds a control to the bottom panel (together with Output, Debug, "
+"Animation, etc). Returns a reference to the button added. It's up to you "
+"to hide/show the button when needed. When your plugin is deactivated, "
+"make sure to remove your custom control with "
+":ref:`remove_control_from_bottom_panel "
+"<class_EditorPlugin_method_remove_control_from_bottom_panel>` and free it"
+" with :ref:`Node.queue_free <class_Node_method_queue_free>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:286
+msgid ""
+"void **add_control_to_container** **(** :ref:`CustomControlContainer "
+"<enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control "
+"<class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:288
+msgid ""
+"Adds a custom control to a container (see :ref:`CustomControlContainer "
+"<enum_EditorPlugin_CustomControlContainer>`). There are many locations "
+"where custom controls can be added in the editor UI."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:290
+msgid ""
+"Please remember that you have to manage the visibility of your custom "
+"controls yourself (and likely hide it after adding it)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:292
+msgid ""
+"When your plugin is deactivated, make sure to remove your custom control "
+"with :ref:`remove_control_from_container "
+"<class_EditorPlugin_method_remove_control_from_container>` and free it "
+"with :ref:`Node.queue_free <class_Node_method_queue_free>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:298
+msgid ""
+"void **add_control_to_dock** **(** :ref:`DockSlot "
+"<enum_EditorPlugin_DockSlot>` slot, :ref:`Control <class_Control>` "
+"control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:300
+msgid ""
+"Adds the control to a specific dock slot (see :ref:`DockSlot "
+"<enum_EditorPlugin_DockSlot>` for options)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:302
+msgid ""
+"If the dock is repositioned and as long as the plugin is active, the "
+"editor will save the dock position on further sessions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:304
+msgid ""
+"When your plugin is deactivated, make sure to remove your custom control "
+"with :ref:`remove_control_from_docks "
+"<class_EditorPlugin_method_remove_control_from_docks>` and free it with "
+":ref:`Node.queue_free <class_Node_method_queue_free>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:310
+msgid ""
+"void **add_custom_type** **(** :ref:`String <class_String>` type, "
+":ref:`String <class_String>` base, :ref:`Script <class_Script>` script, "
+":ref:`Texture2D <class_Texture2D>` icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:312
+msgid ""
+"Adds a custom type, which will appear in the list of nodes or resources. "
+"An icon can be optionally passed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:314
+msgid ""
+"When given node or resource is selected, the base type will be instanced "
+"(e.g. \"Spatial\", \"Control\", \"Resource\"), then the script will be "
+"loaded and set to this object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:316
+msgid ""
+"You can use the virtual method :ref:`handles "
+"<class_EditorPlugin_method_handles>` to check if your custom object is "
+"being edited by checking the script or using the ``is`` keyword."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:318
+msgid ""
+"During run-time, this will be a simple object with a script so this "
+"function does not need to be called then."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:324
+msgid ""
+"void **add_export_plugin** **(** :ref:`EditorExportPlugin "
+"<class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:330
+msgid ""
+"void **add_import_plugin** **(** :ref:`EditorImportPlugin "
+"<class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:336
+msgid ""
+"void **add_inspector_plugin** **(** :ref:`EditorInspectorPlugin "
+"<class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:342
+msgid ""
+"void **add_scene_import_plugin** **(** :ref:`EditorSceneImporter "
+"<class_EditorSceneImporter>` scene_importer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:348
+msgid ""
+"void **add_spatial_gizmo_plugin** **(** :ref:`EditorSpatialGizmoPlugin "
+"<class_EditorSpatialGizmoPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:354
+msgid ""
+"void **add_tool_menu_item** **(** :ref:`String <class_String>` name, "
+":ref:`Object <class_Object>` handler, :ref:`String <class_String>` "
+"callback, :ref:`Variant <class_Variant>` ud=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:356
+msgid ""
+"Adds a custom menu item to **Project > Tools** as ``name`` that calls "
+"``callback`` on an instance of ``handler`` with a parameter ``ud`` when "
+"user activates it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:362
+msgid ""
+"void **add_tool_submenu_item** **(** :ref:`String <class_String>` name, "
+":ref:`Object <class_Object>` submenu **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:364
+msgid ""
+"Adds a custom submenu under **Project > Tools >** ``name``. ``submenu`` "
+"should be an object of class :ref:`PopupMenu <class_PopupMenu>`. This "
+"submenu should be cleaned up using ``remove_tool_menu_item(name)``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:370
+msgid "void **apply_changes** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:372
+msgid ""
+"This method is called when the editor is about to save the project, "
+"switch to another tab, etc. It asks the plugin to apply any pending state"
+" changes to ensure consistency."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:374
+msgid ""
+"This is used, for example, in shader editors to let the plugin know that "
+"it must apply the shader code being written by the user to the object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:380
+msgid ":ref:`bool <class_bool>` **build** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:386
+msgid "void **clear** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:388
+msgid ""
+"Clear all the state and reset the object being edited to zero. This "
+"ensures your plugin does not keep editing a currently existing node, or a"
+" node from the wrong scene."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:394
+msgid "void **disable_plugin** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:396
+msgid ""
+"Called by the engine when the user disables the ``EditorPlugin`` in the "
+"Plugin tab of the project settings window."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:402
+msgid "void **edit** **(** :ref:`Object <class_Object>` object **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:404
+msgid ""
+"This function is used for plugins that edit specific object types (nodes "
+"or resources). It requests the editor to edit the given object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:410
+msgid "void **enable_plugin** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:412
+msgid ""
+"Called by the engine when the user enables the ``EditorPlugin`` in the "
+"Plugin tab of the project settings window."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:418
+msgid ""
+"void **forward_canvas_draw_over_viewport** **(** :ref:`Control "
+"<class_Control>` overlay **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:424
+msgid ""
+"void **forward_canvas_force_draw_over_viewport** **(** :ref:`Control "
+"<class_Control>` overlay **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:430
+msgid ""
+":ref:`bool <class_bool>` **forward_canvas_gui_input** **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:432
+msgid ""
+"Called when there is a root node in the current edited scene, "
+":ref:`handles <class_EditorPlugin_method_handles>` is implemented and an "
+":ref:`InputEvent <class_InputEvent>` happens in the 2D viewport. "
+"Intercepts the :ref:`InputEvent <class_InputEvent>`, if ``return true`` "
+"``EditorPlugin`` consumes the ``event``, otherwise forwards ``event`` to "
+"other Editor classes. Example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:441
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:467
+msgid ""
+"Must ``return false`` in order to forward the :ref:`InputEvent "
+"<class_InputEvent>` to other Editor classes. Example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:456
+msgid ""
+":ref:`bool <class_bool>` **forward_spatial_gui_input** **(** :ref:`Camera"
+" <class_Camera>` camera, :ref:`InputEvent <class_InputEvent>` event **)**"
+" virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:458
+msgid ""
+"Called when there is a root node in the current edited scene, "
+":ref:`handles <class_EditorPlugin_method_handles>` is implemented and an "
+":ref:`InputEvent <class_InputEvent>` happens in the 3D viewport. "
+"Intercepts the :ref:`InputEvent <class_InputEvent>`, if ``return true`` "
+"``EditorPlugin`` consumes the ``event``, otherwise forwards ``event`` to "
+"other Editor classes. Example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:482
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_breakpoints** "
+"**(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:484
+msgid ""
+"This is for editors that edit script-based objects. You can return a list"
+" of breakpoints in the format (``script:line``), for example: "
+"``res://path_to_script.gd:25``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:490
+msgid ""
+":ref:`EditorInterface <class_EditorInterface>` **get_editor_interface** "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:492
+msgid ""
+"Returns the :ref:`EditorInterface <class_EditorInterface>` object that "
+"gives you control over Godot editor's window and its functionalities."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:498
+msgid ":ref:`Texture2D <class_Texture2D>` **get_plugin_icon** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:500
+msgid ""
+"Override this method in your plugin to return a :ref:`Texture2D "
+"<class_Texture2D>` in order to give it an icon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:502
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:522
+msgid ""
+"For main screen plugins, this appears at the top of the screen, to the "
+"right of the \"2D\", \"3D\", \"Script\", and \"AssetLib\" buttons."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:504
+msgid ""
+"Ideally, the plugin icon should be white with a transparent background "
+"and 16x16 pixels in size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:518
+msgid ":ref:`String <class_String>` **get_plugin_name** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:520
+msgid ""
+"Override this method in your plugin to provide the name of the plugin "
+"when displayed in the Godot editor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:528
+msgid ""
+":ref:`ScriptCreateDialog <class_ScriptCreateDialog>` "
+"**get_script_create_dialog** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:530
+msgid "Gets the Editor's dialogue used for making scripts."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:532
+msgid "**Note:** Users can configure it before use."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:538
+msgid ":ref:`Dictionary <class_Dictionary>` **get_state** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:540
+msgid ""
+"Gets the state of your plugin editor. This is used when saving the scene "
+"(so state is kept when opening it again) and for switching tabs (so state"
+" can be restored when the tab returns)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:546
+msgid ":ref:`UndoRedo <class_UndoRedo>` **get_undo_redo** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:548
+msgid ""
+"Gets the undo/redo object. Most actions in the editor can be undoable, so"
+" use this object to make sure this happens when it's worth it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:554
+msgid ""
+"void **get_window_layout** **(** :ref:`ConfigFile <class_ConfigFile>` "
+"layout **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:556
+msgid ""
+"Gets the GUI layout of the plugin. This is used to save the project's "
+"editor layout when :ref:`queue_save_layout "
+"<class_EditorPlugin_method_queue_save_layout>` is called or the editor "
+"layout was changed(For example changing the position of a dock)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:562
+msgid ""
+":ref:`bool <class_bool>` **handles** **(** :ref:`Object <class_Object>` "
+"object **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:564
+msgid ""
+"Implement this function if your plugin edits a specific type of object "
+"(Resource or Node). If you return ``true``, then you will get the "
+"functions :ref:`edit <class_EditorPlugin_method_edit>` and "
+":ref:`make_visible <class_EditorPlugin_method_make_visible>` called when "
+"the editor requests them. If you have declared the methods "
+":ref:`forward_canvas_gui_input "
+"<class_EditorPlugin_method_forward_canvas_gui_input>` and "
+":ref:`forward_spatial_gui_input "
+"<class_EditorPlugin_method_forward_spatial_gui_input>` these will be "
+"called too."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:570
+msgid ":ref:`bool <class_bool>` **has_main_screen** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:572
+msgid ""
+"Returns ``true`` if this is a main screen editor plugin (it goes in the "
+"workspace selector together with **2D**, **3D**, **Script** and "
+"**AssetLib**)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:578
+msgid "void **hide_bottom_panel** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:584
+msgid ""
+"void **make_bottom_panel_item_visible** **(** :ref:`Control "
+"<class_Control>` item **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:590
+msgid "void **make_visible** **(** :ref:`bool <class_bool>` visible **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:592
+msgid ""
+"This function will be called when the editor is requested to become "
+"visible. It is used for plugins that edit a specific object type."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:594
+msgid ""
+"Remember that you have to manage the visibility of all your editor "
+"controls manually."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:600
+msgid "void **queue_save_layout** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:602
+msgid "Queue save the project's editor layout."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:608
+msgid ""
+"void **remove_autoload_singleton** **(** :ref:`String <class_String>` "
+"name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:610
+msgid "Removes an Autoload ``name`` from the list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:616
+msgid ""
+"void **remove_control_from_bottom_panel** **(** :ref:`Control "
+"<class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:618
+msgid ""
+"Removes the control from the bottom panel. You have to manually "
+":ref:`Node.queue_free <class_Node_method_queue_free>` the control."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:624
+msgid ""
+"void **remove_control_from_container** **(** :ref:`CustomControlContainer"
+" <enum_EditorPlugin_CustomControlContainer>` container, :ref:`Control "
+"<class_Control>` control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:626
+msgid ""
+"Removes the control from the specified container. You have to manually "
+":ref:`Node.queue_free <class_Node_method_queue_free>` the control."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:632
+msgid ""
+"void **remove_control_from_docks** **(** :ref:`Control <class_Control>` "
+"control **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:634
+msgid ""
+"Removes the control from the dock. You have to manually "
+":ref:`Node.queue_free <class_Node_method_queue_free>` the control."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:640
+msgid "void **remove_custom_type** **(** :ref:`String <class_String>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:642
+msgid ""
+"Removes a custom type added by :ref:`add_custom_type "
+"<class_EditorPlugin_method_add_custom_type>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:648
+msgid ""
+"void **remove_export_plugin** **(** :ref:`EditorExportPlugin "
+"<class_EditorExportPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:654
+msgid ""
+"void **remove_import_plugin** **(** :ref:`EditorImportPlugin "
+"<class_EditorImportPlugin>` importer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:660
+msgid ""
+"void **remove_inspector_plugin** **(** :ref:`EditorInspectorPlugin "
+"<class_EditorInspectorPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:666
+msgid ""
+"void **remove_scene_import_plugin** **(** :ref:`EditorSceneImporter "
+"<class_EditorSceneImporter>` scene_importer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:672
+msgid ""
+"void **remove_spatial_gizmo_plugin** **(** :ref:`EditorSpatialGizmoPlugin"
+" <class_EditorSpatialGizmoPlugin>` plugin **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:678
+msgid ""
+"void **remove_tool_menu_item** **(** :ref:`String <class_String>` name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:680
+msgid "Removes a menu ``name`` from **Project > Tools**."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:686
+msgid "void **save_external_data** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:688
+msgid ""
+"This method is called after the editor saves the project or when it's "
+"closed. It asks the plugin to save edited external scenes/resources."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:694
+msgid "void **set_force_draw_over_forwarding_enabled** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:700
+msgid "void **set_input_event_forwarding_always_enabled** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:702
+msgid ""
+"Use this method if you always want to receive inputs from 3D view screen "
+"inside :ref:`forward_spatial_gui_input "
+"<class_EditorPlugin_method_forward_spatial_gui_input>`. It might be "
+"especially usable if your plugin will want to use raycast in the scene."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:708
+msgid ""
+"void **set_state** **(** :ref:`Dictionary <class_Dictionary>` state **)**"
+" virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:710
+msgid ""
+"Restore the state saved by :ref:`get_state "
+"<class_EditorPlugin_method_get_state>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:716
+msgid ""
+"void **set_window_layout** **(** :ref:`ConfigFile <class_ConfigFile>` "
+"layout **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:718
+msgid ""
+"Restore the plugin GUI layout saved by :ref:`get_window_layout "
+"<class_EditorPlugin_method_get_window_layout>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:724
+msgid ":ref:`int <class_int>` **update_overlays** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorplugin.rst:726
+msgid "Updates the overlays of the editor (2D/3D) viewport."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_custom_type "
+#~ "<class_EditorPlugin_method_add_custom_type>` **(** "
+#~ ":ref:`String <class_String>` type, :ref:`String "
+#~ "<class_String>` base, :ref:`Script <class_Script>`"
+#~ " script, :ref:`Texture <class_Texture>` icon "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_custom_type** **(** :ref:`String "
+#~ "<class_String>` type, :ref:`String <class_String>`"
+#~ " base, :ref:`Script <class_Script>` script, "
+#~ ":ref:`Texture <class_Texture>` icon **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When given node or resource is "
+#~ "selected, the base type will be "
+#~ "instanced (ie, \"Spatial\", \"Control\", "
+#~ "\"Resource\"), then the script will be"
+#~ " loaded and set to this object."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolStringArray <class_PoolStringArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "**get_breakpoints** **(** **)** virtual"
+#~ msgstr ""
+
+#~ msgid ":ref:`Object <class_Object>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`Object <class_Object>` **get_plugin_icon** **(** **)** virtual"
+#~ msgstr ""
+

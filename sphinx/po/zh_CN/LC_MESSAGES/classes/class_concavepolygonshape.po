@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 22:41+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:10
+msgid "ConcavePolygonShape"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:12
+msgid ""
+"**Inherits:** :ref:`Shape <class_Shape>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:14
+msgid "Concave polygon shape."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:19
+msgid ""
+"Concave polygon shape resource, which can be set into a :ref:`PhysicsBody"
+" <class_PhysicsBody>` or area. This shape is created by feeding a list of"
+" triangles."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:21
+msgid ""
+"Note: when used for collision, ``ConcavePolygonShape`` is intended to "
+"work with static :ref:`PhysicsBody <class_PhysicsBody>` nodes like "
+":ref:`StaticBody <class_StaticBody>` and will not work with "
+":ref:`KinematicBody <class_KinematicBody>` or :ref:`RigidBody "
+"<class_RigidBody>` with a mode other than Static."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:24
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:27
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:27
+msgid ""
+":ref:`get_faces <class_ConcavePolygonShape_method_get_faces>` **(** **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:29
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:29
+msgid ""
+":ref:`set_faces <class_ConcavePolygonShape_method_set_faces>` **(** "
+":ref:`PackedVector3Array <class_PackedVector3Array>` faces **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:33
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:37
+msgid ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` **get_faces** **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:39
+msgid "Returns the faces (an array of triangles)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:45
+msgid ""
+"void **set_faces** **(** :ref:`PackedVector3Array "
+"<class_PackedVector3Array>` faces **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_concavepolygonshape.rst:47
+msgid "Sets the faces (an array of triangles)."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_faces <class_ConcavePolygonShape_method_set_faces>`"
+#~ " **(** :ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ " faces **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "**get_faces** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_faces** **(** :ref:`PoolVector3Array "
+#~ "<class_PoolVector3Array>` faces **)**"
+#~ msgstr ""
+

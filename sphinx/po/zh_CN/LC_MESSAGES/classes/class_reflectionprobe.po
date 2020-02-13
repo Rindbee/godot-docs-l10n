@@ -1,0 +1,552 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:10
+msgid "ReflectionProbe"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualInstance <class_VisualInstance>` **<** "
+":ref:`Spatial <class_Spatial>` **<** :ref:`Node <class_Node>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:14
+msgid "Captures its surroundings to create reflections."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:19
+msgid ""
+"Captures its surroundings as a cubemap, and stores versions of it with "
+"increasing levels of blur to simulate different material roughnesses."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:21
+msgid ""
+"The ``ReflectionProbe`` is used to create high-quality reflections at the"
+" cost of performance. It can be combined with :ref:`GIProbe "
+"<class_GIProbe>`\\ s and Screen Space Reflections to achieve high quality"
+" reflections. ``ReflectionProbe``\\ s render all objects within their "
+":ref:`cull_mask <class_ReflectionProbe_property_cull_mask>`, so updating "
+"them can be quite expensive. It is best to update them once with the "
+"important static objects and then leave them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:26
+msgid ":doc:`../tutorials/3d/reflection_probes`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:29
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:48
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:32
+msgid ":ref:`box_projection <class_ReflectionProbe_property_box_projection>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:208
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:34
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:34
+msgid ":ref:`cull_mask <class_ReflectionProbe_property_cull_mask>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:96
+msgid "``1048575``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:36
+msgid ":ref:`enable_shadows <class_ReflectionProbe_property_enable_shadows>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:52
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:38
+msgid ":ref:`extents <class_ReflectionProbe_property_extents>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:128
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:50
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:40
+msgid ":ref:`intensity <class_ReflectionProbe_property_intensity>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:192
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:42
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:42
+msgid ""
+":ref:`interior_ambient_color "
+"<class_ReflectionProbe_property_interior_ambient_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:160
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:44
+msgid ""
+":ref:`interior_ambient_contrib "
+"<class_ReflectionProbe_property_interior_ambient_contrib>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:224
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:46
+msgid ""
+":ref:`interior_ambient_energy "
+"<class_ReflectionProbe_property_interior_ambient_energy>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:48
+msgid ":ref:`interior_enable <class_ReflectionProbe_property_interior_enable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:50
+msgid ":ref:`max_distance <class_ReflectionProbe_property_max_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:52
+msgid ":ref:`origin_offset <class_ReflectionProbe_property_origin_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:240
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:54
+msgid ":ref:`UpdateMode <enum_ReflectionProbe_UpdateMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:54
+msgid ":ref:`update_mode <class_ReflectionProbe_property_update_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:256
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:58
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:66
+msgid "enum **UpdateMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:68
+msgid ""
+"**UPDATE_ONCE** = **0** --- Update the probe once on the next frame. The "
+"corresponding radiance map will be generated over the following six "
+"frames. This is slower to update than :ref:`UPDATE_ALWAYS "
+"<class_ReflectionProbe_constant_UPDATE_ALWAYS>` but can result in higher "
+"quality reflections."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:70
+msgid ""
+"**UPDATE_ALWAYS** = **1** --- Update the probe every frame. This is "
+"needed when you want to capture dynamic objects. However, it results in "
+"an increased render time. Use :ref:`UPDATE_ONCE "
+"<class_ReflectionProbe_constant_UPDATE_ONCE>` whenever possible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:73
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:77
+msgid ":ref:`bool <class_bool>` **box_projection**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:208
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:224
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:240
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:256
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:242
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:258
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:82
+msgid "set_enable_box_projection(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:244
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:260
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:84
+msgid "is_box_projection_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:87
+msgid ""
+"If ``true``, enables box projection. This makes reflections look more "
+"correct in rectangle-shaped rooms by offsetting the reflection center "
+"depending on the camera's location."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:93
+msgid ":ref:`int <class_int>` **cull_mask**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:98
+msgid "set_cull_mask(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:100
+msgid "get_cull_mask()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:103
+msgid ""
+"Sets the cull mask which determines what objects are drawn by this probe."
+" Every :ref:`VisualInstance <class_VisualInstance>` with a layer included"
+" in this cull mask will be rendered by the probe. It is best to only "
+"include large objects which are likely to take up a lot of space in the "
+"reflection in order to save on rendering cost."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:109
+msgid ":ref:`bool <class_bool>` **enable_shadows**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:114
+msgid "set_enable_shadows(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:116
+msgid "are_shadows_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:119
+msgid ""
+"If ``true``, computes shadows in the reflection probe. This makes the "
+"reflection probe slower to render; you may want to disable this if using "
+"the :ref:`UPDATE_ALWAYS <class_ReflectionProbe_constant_UPDATE_ALWAYS>` "
+":ref:`update_mode <class_ReflectionProbe_property_update_mode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:125
+msgid ":ref:`Vector3 <class_Vector3>` **extents**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:130
+msgid "set_extents(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:132
+msgid "get_extents()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:135
+msgid ""
+"The size of the reflection probe. The larger the extents the more space "
+"covered by the probe which will lower the perceived resolution. It is "
+"best to keep the extents only as large as you need them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:141
+msgid ":ref:`float <class_float>` **intensity**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:146
+msgid "set_intensity(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:148
+msgid "get_intensity()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:151
+msgid ""
+"Defines the reflection intensity. Intensity modulates the strength of the"
+" reflection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:157
+msgid ":ref:`Color <class_Color>` **interior_ambient_color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:162
+msgid "set_interior_ambient(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:164
+msgid "get_interior_ambient()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:167
+msgid ""
+"Sets the ambient light color to be used when this probe is set to "
+":ref:`interior_enable <class_ReflectionProbe_property_interior_enable>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:173
+msgid ":ref:`float <class_float>` **interior_ambient_contrib**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:178
+msgid "set_interior_ambient_probe_contribution(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:180
+msgid "get_interior_ambient_probe_contribution()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:183
+msgid ""
+"Sets the contribution value for how much the reflection affects the "
+"ambient light for this reflection probe when set to :ref:`interior_enable"
+" <class_ReflectionProbe_property_interior_enable>`. Useful so that "
+"ambient light matches the color of the room."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:189
+msgid ":ref:`float <class_float>` **interior_ambient_energy**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:194
+msgid "set_interior_ambient_energy(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:196
+msgid "get_interior_ambient_energy()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:199
+msgid ""
+"Sets the energy multiplier for this reflection probe's ambient light "
+"contribution when set to :ref:`interior_enable "
+"<class_ReflectionProbe_property_interior_enable>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:205
+msgid ":ref:`bool <class_bool>` **interior_enable**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:210
+msgid "set_as_interior(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:212
+msgid "is_set_as_interior()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:215
+msgid ""
+"If ``true``, reflections will ignore sky contribution. Ambient lighting "
+"is then controlled by the ``interior_ambient_*`` properties."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:221
+msgid ":ref:`float <class_float>` **max_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:226
+msgid "set_max_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:228
+msgid "get_max_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:231
+msgid ""
+"Sets the max distance away from the probe an object can be before it is "
+"culled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:237
+msgid ":ref:`Vector3 <class_Vector3>` **origin_offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:242
+msgid "set_origin_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:244
+msgid "get_origin_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:247
+msgid ""
+"Sets the origin offset to be used when this reflection probe is in box "
+"project mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:253
+msgid ":ref:`UpdateMode <enum_ReflectionProbe_UpdateMode>` **update_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:258
+msgid "set_update_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:260
+msgid "get_update_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_reflectionprobe.rst:263
+msgid ""
+"Sets how frequently the probe is updated. Can be :ref:`UPDATE_ONCE "
+"<class_ReflectionProbe_constant_UPDATE_ONCE>` or :ref:`UPDATE_ALWAYS "
+"<class_ReflectionProbe_constant_UPDATE_ALWAYS>`."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "1048575"
+#~ msgstr ""
+
+#~ msgid "Vector3( 1, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "Color( 0, 0, 0, 1 )"
+#~ msgstr ""
+
+#~ msgid "0.0"
+#~ msgstr ""
+
+#~ msgid "Vector3( 0, 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "**UPDATE_ONCE** = **0**"
+#~ msgstr ""
+
+#~ msgid "**UPDATE_ALWAYS** = **1**"
+#~ msgstr ""
+
+#~ msgid "Defines the reflection intensity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Capture its surroundings as a dual "
+#~ "parabolid image, and stores versions of"
+#~ " it with increasing levels of blur"
+#~ " to simulate different material "
+#~ "roughnesses."
+#~ msgstr ""
+
+#~ msgid "**UPDATE_ONCE** = **0** --- Update the probe once on the next frame."
+#~ msgstr ""
+

@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:10
+msgid "NavigationRegion"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:12
+msgid ""
+"**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node "
+"<class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:14
+msgid "A region of the navigation map."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:19
+msgid ""
+"A region of the navigation map. It tells the :ref:`Navigation "
+"<class_Navigation>` node what can be navigated and what cannot, based on "
+"the :ref:`NavigationMesh <class_NavigationMesh>` resource. This should be"
+" a child of a :ref:`Navigation <class_Navigation>` node (even not a "
+"direct child)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:25
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:25
+msgid ":ref:`enabled <class_NavigationRegion_property_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:62
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:27
+msgid ":ref:`NavigationMesh <class_NavigationMesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:27
+msgid ":ref:`navmesh <class_NavigationRegion_property_navmesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:31
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:34
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:34
+msgid ""
+":ref:`bake_navigation_mesh "
+"<class_NavigationRegion_method_bake_navigation_mesh>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:38
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:42
+msgid "**bake_finished** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:44
+msgid "Notifies when the navigation mesh bake operation is completed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:50
+msgid "**navigation_mesh_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:52
+msgid ""
+"Notifies when the :ref:`NavigationMesh <class_NavigationMesh>` has "
+"changed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:55
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:59
+msgid ":ref:`bool <class_bool>` **enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:62
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:78
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:64
+msgid "set_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:80
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:66
+msgid "is_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:69
+msgid "Determines if the ``NavigationRegion`` is enabled or disabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:75
+msgid ":ref:`NavigationMesh <class_NavigationMesh>` **navmesh**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:78
+msgid "set_navigation_mesh(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:80
+msgid "get_navigation_mesh()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:83
+msgid "The :ref:`NavigationMesh <class_NavigationMesh>` resource to use."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:86
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:90
+msgid "void **bake_navigation_mesh** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationregion.rst:92
+msgid ""
+"Bakes the :ref:`NavigationMesh <class_NavigationMesh>`. The baking is "
+"done in a seperate thread because navigation baking is not a cheap "
+"operation. This can be done at runtime. When it is completed, it "
+"automatically sets the new :ref:`NavigationMesh <class_NavigationMesh>`."
+msgstr ""
+

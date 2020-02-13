@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:10
+msgid "VisualShaderNodeTransformVecMult"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:20
+msgid ":ref:`Operator <enum_VisualShaderNodeTransformVecMult_Operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:20
+msgid ":ref:`operator <class_VisualShaderNodeTransformVecMult_property_operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:20
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:54
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:24
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:36
+msgid "enum **Operator**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:38
+msgid "**OP_AxB** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:40
+msgid "**OP_BxA** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:42
+msgid "**OP_3x3_AxB** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:44
+msgid "**OP_3x3_BxA** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:47
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:51
+msgid ""
+":ref:`Operator <enum_VisualShaderNodeTransformVecMult_Operator>` "
+"**operator**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:54
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:56
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:56
+msgid "set_operator(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:58
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:58
+msgid "get_operator()"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ":ref:`Array <class_Array>`"
+#~ msgstr ""
+
+#~ msgid "default_input_values"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**O:** [ 0, Transform( 1, 0, 0,"
+#~ " 0, 1, 0, 0, 0, 1, 0, 0,"
+#~ " 0 ), 1, Vector3( 0, 0, 0 "
+#~ ") ]"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+

@@ -1,0 +1,604 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:10
+msgid "NavigationAgent2D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:14
+msgid "2D Agent used in navigation for collision avoidance."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:19
+msgid ""
+"2D Agent that is used in navigation to reach a location while avoiding "
+"static and dynamic obstacles. The dynamic obstacles are avoided using RVO"
+" collision avoidance. The agent needs navigation data to work correctly. "
+"This can be done by having the agent as a child of a :ref:`Navigation2D "
+"<class_Navigation2D>` node, or using :ref:`set_navigation "
+"<class_NavigationAgent2D_method_set_navigation>`. ``NavigationAgent2D`` "
+"is physics safe."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:50
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:25
+msgid ":ref:`max_neighbors <class_NavigationAgent2D_property_max_neighbors>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:112
+msgid "``10``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:44
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:27
+msgid ":ref:`max_speed <class_NavigationAgent2D_property_max_speed>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:128
+msgid "``200.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:29
+msgid ":ref:`neighbor_dist <class_NavigationAgent2D_property_neighbor_dist>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:144
+msgid "``500.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:31
+msgid ""
+":ref:`path_max_distance "
+"<class_NavigationAgent2D_property_path_max_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:160
+msgid "``3.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:33
+msgid ":ref:`radius <class_NavigationAgent2D_property_radius>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:176
+msgid "``10.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:35
+msgid ""
+":ref:`target_desired_distance "
+"<class_NavigationAgent2D_property_target_desired_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:192
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:37
+msgid ":ref:`time_horizon <class_NavigationAgent2D_property_time_horizon>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:208
+msgid "``20.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:41
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:44
+msgid ""
+":ref:`distance_to_target "
+"<class_NavigationAgent2D_method_distance_to_target>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:56
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:46
+msgid ""
+":ref:`get_final_location "
+"<class_NavigationAgent2D_method_get_final_location>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:48
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:48
+msgid ""
+":ref:`get_nav_path <class_NavigationAgent2D_method_get_nav_path>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:50
+msgid ""
+":ref:`get_nav_path_index "
+"<class_NavigationAgent2D_method_get_nav_path_index>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:52
+msgid ":ref:`Node <class_Node>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:52
+msgid ""
+":ref:`get_navigation <class_NavigationAgent2D_method_get_navigation>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:54
+msgid ""
+":ref:`get_next_location "
+"<class_NavigationAgent2D_method_get_next_location>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:56
+msgid ""
+":ref:`get_target_location "
+"<class_NavigationAgent2D_method_get_target_location>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:62
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:58
+msgid ""
+":ref:`is_navigation_finished "
+"<class_NavigationAgent2D_method_is_navigation_finished>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:60
+msgid ""
+":ref:`is_target_reachable "
+"<class_NavigationAgent2D_method_is_target_reachable>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:62
+msgid ""
+":ref:`is_target_reached "
+"<class_NavigationAgent2D_method_is_target_reached>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:68
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:64
+msgid ""
+":ref:`set_navigation <class_NavigationAgent2D_method_set_navigation>` "
+"**(** :ref:`Node <class_Node>` navigation **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:66
+msgid ""
+":ref:`set_target_location "
+"<class_NavigationAgent2D_method_set_target_location>` **(** :ref:`Vector2"
+" <class_Vector2>` location **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:68
+msgid ""
+":ref:`set_velocity <class_NavigationAgent2D_method_set_velocity>` **(** "
+":ref:`Vector2 <class_Vector2>` velocity **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:72
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:76
+msgid "**navigation_finished** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:78
+msgid "Notifies when the final location is reached."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:84
+msgid "**path_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:86
+msgid "Notifies when the navigation path changes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:92
+msgid "**target_reached** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:94
+msgid ""
+"Notifies when the player defined target, set with "
+":ref:`set_target_location "
+"<class_NavigationAgent2D_method_set_target_location>`, is reached."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:100
+msgid ""
+"**velocity_computed** **(** :ref:`Vector3 <class_Vector3>` safe_velocity "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:102
+msgid ""
+"Notifies when the collision avoidance velocity is calculated. Emitted by "
+":ref:`set_velocity <class_NavigationAgent2D_method_set_velocity>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:105
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:109
+msgid ":ref:`int <class_int>` **max_neighbors**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:208
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:210
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:114
+msgid "set_max_neighbors(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:212
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:116
+msgid "get_max_neighbors()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:119
+msgid "The maximum number of neighbors for the agent to consider."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:125
+msgid ":ref:`float <class_float>` **max_speed**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:130
+msgid "set_max_speed(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:132
+msgid "get_max_speed()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:135
+msgid "The maximum speed that an agent can move."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:141
+msgid ":ref:`float <class_float>` **neighbor_dist**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:146
+msgid "set_neighbor_dist(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:148
+msgid "get_neighbor_dist()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:151
+msgid "The distance to search for other agents."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:157
+msgid ":ref:`float <class_float>` **path_max_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:162
+msgid "set_path_max_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:164
+msgid "get_path_max_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:167
+msgid ""
+"The maximum distance the agent is allowed away from the ideal path to the"
+" final location. This can happen due to trying to avoid collisions. When "
+"the maximum distance is exceded, it recalculates the ideal path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:173
+msgid ":ref:`float <class_float>` **radius**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:178
+msgid "set_radius(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:180
+msgid "get_radius()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:183
+msgid "The radius of the agent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:189
+msgid ":ref:`float <class_float>` **target_desired_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:194
+msgid "set_target_desired_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:196
+msgid "get_target_desired_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:199
+msgid ""
+"The distance threshold before a target is considered to be reached. This "
+"will allow an agent to not have to hit a point on the path exactly, but "
+"in the area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:205
+msgid ":ref:`float <class_float>` **time_horizon**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:210
+msgid "set_time_horizon(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:212
+msgid "get_time_horizon()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:215
+msgid ""
+"The minimal amount of time for which this agent's velocities, that are "
+"computed with the collision avoidance algorithim, are safe with respect "
+"to other agents. The larger the number, the sooner the agent will respond"
+" to other agents, but less freedom in choosing its velocities. Must be "
+"positive."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:218
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:222
+msgid ":ref:`float <class_float>` **distance_to_target** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:224
+msgid ""
+"Returns the distance to the target location, using the agent's global "
+"position. The user must set the target location with "
+":ref:`set_target_location "
+"<class_NavigationAgent2D_method_set_target_location>` in order for this "
+"to be accurate."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:230
+msgid ":ref:`Vector2 <class_Vector2>` **get_final_location** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:232
+msgid ""
+"Returns the reachable final location in global coordinates. This can "
+"change if the navigation path is altered in any way."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:238
+msgid ""
+":ref:`PackedVector2Array <class_PackedVector2Array>` **get_nav_path** "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:240
+msgid "Returns the path from start to finish in global coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:246
+msgid ":ref:`int <class_int>` **get_nav_path_index** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:248
+msgid ""
+"Returns which index the agent is currently on in the navigation path's "
+":ref:`PackedVector2Array <class_PackedVector2Array>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:254
+msgid ":ref:`Node <class_Node>` **get_navigation** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:256
+msgid ""
+"Returns the :ref:`Navigation2D <class_Navigation2D>` node that the agent "
+"is using for its navigation system."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:262
+msgid ":ref:`Vector2 <class_Vector2>` **get_next_location** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:264
+msgid ""
+"Returns a :ref:`Vector2 <class_Vector2>` in global coordinates, that can "
+"be moved to, making sure that there are no static objects in the way. If "
+"the agent does not have a navigation path, it will return the position of"
+" the agent's parent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:270
+msgid ":ref:`Vector2 <class_Vector2>` **get_target_location** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:272
+msgid ""
+"Returns the user defined :ref:`Vector2 <class_Vector2>` after setting the"
+" target location."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:278
+msgid ":ref:`bool <class_bool>` **is_navigation_finished** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:280
+msgid "Returns true if the navigation path's final location has been reached."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:286
+msgid ":ref:`bool <class_bool>` **is_target_reachable** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:288
+msgid ""
+"Returns true if the target location is reachable. The target location is "
+"set using :ref:`set_target_location "
+"<class_NavigationAgent2D_method_set_target_location>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:294
+msgid ":ref:`bool <class_bool>` **is_target_reached** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:296
+msgid ""
+"Returns true if the target location is reached. The target location is "
+"set using :ref:`set_target_location "
+"<class_NavigationAgent2D_method_set_target_location>`. It may not always "
+"be possible to reach the target location. It should always be possible to"
+" reach the final location though. See :ref:`get_final_location "
+"<class_NavigationAgent2D_method_get_final_location>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:302
+msgid "void **set_navigation** **(** :ref:`Node <class_Node>` navigation **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:304
+msgid ""
+"Sets the :ref:`Navigation2D <class_Navigation2D>` node used by the agent."
+" Useful when you don't want to make the agent a child of a "
+":ref:`Navigation2D <class_Navigation2D>` node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:310
+msgid ""
+"void **set_target_location** **(** :ref:`Vector2 <class_Vector2>` "
+"location **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:312
+msgid ""
+"Sets the user desired final location. This will clear the current "
+"navigation path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:318
+msgid "void **set_velocity** **(** :ref:`Vector2 <class_Vector2>` velocity **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationagent2d.rst:320
+msgid ""
+"Sends the passed in velocity to the collision avoidance algorithm. It "
+"will adjust the velocity to avoid collisions. Once the adjustment to the "
+"velocity is complete, it will emit the :ref:`velocity_computed "
+"<class_NavigationAgent2D_signal_velocity_computed>` signal."
+msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "**get_nav_path** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns which index the agent is "
+#~ "currently on in the navigation path's"
+#~ " :ref:`PoolVector2Array <class_PoolVector2Array>`."
+#~ msgstr ""
+

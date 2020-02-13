@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:10
+msgid "FuncRef"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:14
+msgid "Reference to a function in an object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:19
+msgid ""
+"In GDScript, functions are not *first-class objects*. This means it is "
+"impossible to store them directly as variables, return them from another "
+"function, or pass them as arguments."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:21
+msgid ""
+"However, by creating a ``FuncRef`` using the :ref:`@GDScript.funcref "
+"<class_@GDScript_method_funcref>` function, a reference to a function in "
+"a given object can be created, passed around and called."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:24
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:29
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:27
+msgid ":ref:`call_func <class_FuncRef_method_call_func>` **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:29
+msgid ""
+":ref:`call_funcv <class_FuncRef_method_call_funcv>` **(** :ref:`Array "
+"<class_Array>` arg_array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:31
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:31
+msgid ":ref:`is_valid <class_FuncRef_method_is_valid>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:35
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:33
+msgid ""
+":ref:`set_function <class_FuncRef_method_set_function>` **(** "
+":ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:35
+msgid ""
+":ref:`set_instance <class_FuncRef_method_set_instance>` **(** "
+":ref:`Object <class_Object>` instance **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:39
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:43
+msgid ":ref:`Variant <class_Variant>` **call_func** **(** ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:45
+msgid ""
+"Calls the referenced function previously set by :ref:`set_function "
+"<class_FuncRef_method_set_function>` or :ref:`@GDScript.funcref "
+"<class_@GDScript_method_funcref>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:51
+msgid ""
+":ref:`Variant <class_Variant>` **call_funcv** **(** :ref:`Array "
+"<class_Array>` arg_array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:53
+msgid ""
+"Calls the referenced function previously set by :ref:`set_function "
+"<class_FuncRef_method_set_function>` or :ref:`@GDScript.funcref "
+"<class_@GDScript_method_funcref>`. Contrarily to :ref:`call_func "
+"<class_FuncRef_method_call_func>`, this method does not support a "
+"variable number of arguments but expects all parameters to be passed via "
+"a single :ref:`Array <class_Array>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:59
+msgid ":ref:`bool <class_bool>` **is_valid** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:61
+msgid "Returns whether the object still exists and has the function assigned."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:67
+msgid ""
+"void **set_function** **(** :ref:`StringName <class_StringName>` name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:69
+msgid ""
+"The name of the referenced function to call on the object, without "
+"parentheses or any parameters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:75
+msgid "void **set_instance** **(** :ref:`Object <class_Object>` instance **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_funcref.rst:77
+msgid ""
+"The object containing the referenced function. This object must be of a "
+"type actually inheriting from :ref:`Object <class_Object>`, not a built-"
+"in type such as :ref:`int <class_int>`, :ref:`Vector2 <class_Vector2>` or"
+" :ref:`Dictionary <class_Dictionary>`."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_function <class_FuncRef_method_set_function>` "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid "void **set_function** **(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+

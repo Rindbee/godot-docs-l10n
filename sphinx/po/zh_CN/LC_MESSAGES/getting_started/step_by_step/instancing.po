@@ -1,31 +1,35 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-05 22:41+0800\n"
+"PO-Revision-Date: 2020-03-06 13:28+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:4
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:4
 msgid "Instancing"
 msgstr "实例化"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:7
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:7
 msgid "Introduction"
 msgstr "简介"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:9
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:9
 msgid ""
 "Creating a single scene and adding nodes into it might work for small "
 "projects, but as a project grows in size and complexity, the number of nodes "
@@ -37,7 +41,7 @@ msgstr ""
 "增长，节点数量可能很快变得无法管理。为了解决这个问题，Godot允许一个项目被分成"
 "许多场景。这提供了一个强大的工具，有助于组织游戏的不同组件。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:15
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:15
 msgid ""
 "In :ref:`doc_scenes_and_nodes` you learned that a scene is a collection of "
 "nodes organized in a tree structure, with a single node as the tree root."
@@ -45,7 +49,7 @@ msgstr ""
 "在 :ref:`doc_scenes_and_nodes` 里，已了解场景是以树结构组织的节点集合，并由单"
 "个节点作为树的根节点。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:20
 msgid ""
 "You can create as many scenes as you like and save them to disk. Scenes "
 "saved in this manner are called \"Packed Scenes\" and have a ``.tscn`` "
@@ -54,22 +58,22 @@ msgstr ""
 "可以创建任意多的场景并将其保存到磁盘。以这种方式保存的场景被称为“打包场景”，"
 "并会有个 ``.tscn`` 扩展名。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:26
 msgid ""
 "Once a scene has been saved, it can be instanced into another scene as if it "
 "were any other node."
 msgstr ""
 "一旦场景被保存，它就可以被实例化到另一个场景中，就像它是任何其他节点一样。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:31
 msgid "In the above picture, Scene B was added to Scene A as an instance."
 msgstr "在上面的图片中，场景B作为实例被添加到A中。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:34
 msgid "Instancing by example"
 msgstr "通过示例实例化"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:36
 msgid ""
 "To learn how instancing works, let's start by downloading a sample project: :"
 "download:`instancing.zip <files/instancing.zip>`."
@@ -77,7 +81,7 @@ msgstr ""
 "要了解实例化如何工作，我们先下载一个示例项目： :download:`instancing.zip "
 "<files/instancing.zip>`。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:39
 msgid ""
 "Unzip this project anywhere you like. Then open Godot and add this project "
 "to the project manager using the 'Import' button:"
@@ -85,7 +89,7 @@ msgstr ""
 "解压该项目到任意位置。然后打开Godot，用 :menuselection:`导入(Import)` 按钮将"
 "项目添加到到项目管理器中："
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:44
 msgid ""
 "Browse to the folder you extracted and open the \"project.godot\" file you "
 "can find inside it. After doing this, the new project will appear on the "
@@ -94,22 +98,22 @@ msgstr ""
 "浏览到解压到的文件夹，然后打开可以在其中找到 ``project.godot`` 文件。执行此操"
 "作后，新项目将显示在项目列表中。按 :menuselection:`编辑(Edit)` 按钮编辑项目。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:48
 msgid ""
 "This project contains two scenes: \"Ball.tscn\" and \"Main.tscn\". The ball "
 "scene uses a :ref:`RigidBody2D <class_RigidBody2D>` to provide physics "
 "behavior while the main scene has a set of obstacles for the ball to collide "
 "with (using :ref:`StaticBody2D <class_StaticBody2D>`)."
 msgstr ""
-"该项目包含两个场景：``Ball.tscn`` 和 ``Main.tscn``。 ball 场景使用 :ref:"
+"该项目包含两个场景：``Ball.tscn`` 和 ``Main.tscn``。 球场景使用 :ref:"
 "`RigidBody2D <class_RigidBody2D>` 来提供物理行为，而主场景有一组用于与球碰撞"
 "的障碍物(使用 :ref:`StaticBody2D <class_StaticBody2D>`)。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:57
 msgid "Open the ``Main`` scene, and then select the root node:"
 msgstr "打开 ``Main`` 场景，然后选择根节点："
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:61
 msgid ""
 "We want to add an instance of the ``Ball`` scene as a child of ``Main``. "
 "Click the \"link\"-shaped button (its hover-text says \"Instance a scene "
@@ -119,7 +123,7 @@ msgstr ""
 "状的按钮(悬浮框写着 ``实例化场景文件作为节点。``)然后选择 ``Ball.tscn`` 文"
 "件。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:67
 msgid ""
 "The ball will be placed at the top-left corner of the screen area (this is "
 "``(0, 0)`` in screen coordinates). Click and drag the ball somewhere near "
@@ -128,15 +132,15 @@ msgstr ""
 "这个球会被放置在屏幕区域的左上角(即屏幕坐标 ``(0, 0)``)。点击并将球拖到场景顶"
 "部中心附近的某处："
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:73
 msgid "Press \"Play\" and watch the ball fall to the bottom of the screen:"
 msgstr "按下 :menuselection:`运行(Play)`，会看到球落到场景底部："
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:78
 msgid "Multiple instances"
 msgstr "多个实例"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:80
 msgid ""
 "You can add as many instances as you like to a scene, either by using the "
 "\"Instance\" button again, or by clicking on the ball instance and pressing "
@@ -146,29 +150,31 @@ msgstr ""
 "(Instance)` 按钮，或者点击球的实例然后选择 :menuselection:`复制(Duplicate)` "
 "(快捷键 :kbd:`Ctrl-D`)："
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:86
 msgid "Run the scene again and all of the balls will fall."
 msgstr "再次运行场景，这些球都会落下来。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:91
 msgid "Editing instances"
 msgstr "编辑实例"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:93
 msgid ""
-"Open the ``Ball`` scene and add a ``PhysicsMaterial`` by clicking on the "
-"down arrow and selecting \"New PhysicsMaterial\"."
+"Open the ``Ball`` scene and add a ``PhysicsMaterial`` by opening the "
+"\"Physics Material Override\" dropdown in the Inspector dock and selecting "
+"\"New PhysicsMaterial\"."
 msgstr ""
-"打开 ``Ball`` 场景，点击向下箭头并选择 :menuselection:`新建物理材质(New "
-"PhysicsMaterial)`，添加一个 ``物理材质``。"
+"打开 ``Ball`` 场景，并通过在属性检查器停靠面板中，打开 ``物理材质替代"
+"（Physics Material Override）`` 下拉列表并选择 ``新建物理材质"
+"（PhysicsMaterial）`` 来添加一个 ``物理材质（PhysicsMaterial）``。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:99
 msgid ""
 "Then, expand the material by clicking on it, and set the ``Bounce`` property "
 "to ``1``."
 msgstr "然后，通过点击它来展开材质，并将 ``反弹`` 属性设置为 ``1``。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:104
 msgid ""
 "Press \"Play\" and notice that all of the instanced balls are now much more "
 "bouncy. Because the instanced balls are based on the saved scene, changes to "
@@ -177,7 +183,7 @@ msgstr ""
 "按下 :menuselection:`播放(Play)`，请注意现在所有被实例化的球会变得更有弹性。"
 "因为被实例化的球基于保存过的场景，更改该场景会影响所有实例。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:108
 msgid ""
 "You can also adjust individual instances. Set the bounce value back to ``0`` "
 "and then in the ``Main`` scene, select one of the instanced balls. Resources "
@@ -188,9 +194,9 @@ msgstr ""
 "也可以调整单个实例。 将反弹值设置回 ``0``，然后在 ``Main`` 场景中，选择实例球"
 "中的一个。 像 ``物理材质`` 这样的资源默认在实例之间共享，所以我们需要使它成为"
 "唯一的。点击向下箭头并选择 :menuselection:`独立化(Make Unique)`。 将其 ``反弹"
-"`` 设置为 ``1`` 并按“播放”。"
+"`` 设置为 ``1`` 并按 :menuselection:`播放(Play)`。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:116
 msgid ""
 "Notice that a grey \"revert\" button appears next to the adjusted property. "
 "When this button is present, it means you modified a property in the "
@@ -203,15 +209,15 @@ msgstr ""
 "钮出现，意味着修改了这个实例化场景属性，覆盖了它原有的值。即便再次修改原场景"
 "的属性，它的值也会保持不变。按下还原按钮将会把属性值还原为原场景设定值。"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:124
 msgid "Conclusion"
 msgstr "总结"
 
-#: ../../docs/getting_started/step_by_step/instancing.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/step_by_step/instancing.rst:126
 msgid ""
 "Instancing can be useful when you want to create many copies of the same "
 "object. It is also possible to create instances in code by using GDScript, "
 "see :ref:`doc_instancing_continued`."
 msgstr ""
-"当您想创建同一对象的多个副本时，实例化会非常有用。您也可以使用GDScript创建实"
-"例(请参阅 :ref:`doc_scripting_continued`)。"
+"当想创建同一对象的多个副本时，实例化会非常有用。也可以使用GDScript创建实例(请"
+"参阅 :ref:`doc_scripting_continued`)。"

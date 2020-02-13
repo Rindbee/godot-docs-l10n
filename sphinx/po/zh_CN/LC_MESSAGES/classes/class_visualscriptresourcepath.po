@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:10
+msgid "VisualScriptResourcePath"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualScriptNode <class_VisualScriptNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:20
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:20
+msgid ":ref:`path <class_VisualScriptResourcePath_property_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:20
+#: ../../docs/classes/class_visualscriptresourcepath.rst:31
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:24
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:28
+msgid ":ref:`String <class_String>` **path**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:31
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:33
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:33
+msgid "set_resource_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:35
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptresourcepath.rst:35
+msgid "get_resource_path()"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+

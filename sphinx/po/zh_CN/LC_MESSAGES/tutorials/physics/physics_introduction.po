@@ -1,36 +1,36 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-11-05 21:44+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:4
 msgid "Physics introduction"
 msgstr "物理介绍"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:6
-#, fuzzy
 msgid ""
 "In game development, you often need to know when two objects in the game "
 "intersect or come into contact. This is known as **collision detection**. "
 "When a collision is detected, you typically want something to happen. This "
 "is known as **collision response**."
 msgstr ""
-"在游戏开发中，您经常需要知道游戏中的两个对象何时相交或接触。 这被称为 **碰撞"
-"检测** 。 检测到碰撞时，您通常希望发生某些事情。 这被称为 **碰撞响应** 。"
+"在游戏开发中，您通常需要知道游戏中的两个对象，何时相交或接触。这就是所谓的 **"
+"碰撞检测**。当检测到碰撞时，您通常希望发生某些事情。这就是所谓的 **碰撞响应"
+"** 。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:11
 msgid ""
@@ -39,8 +39,8 @@ msgid ""
 "project can be confusing. You can avoid problems and simplify development if "
 "you understand how each works and what their pros and cons are."
 msgstr ""
-"Godot在2D和3D中提供了许多碰撞对象，以提供碰撞检测和响应。 试图决定哪一个用于"
-"您的项目可能会令人困惑。 如果您了解每种方法的工作原理以及它们的优缺点，您可以"
+"Godot在2D和3D中，提供了许多碰撞对象，以提供碰撞检测和响应。试图决定哪一个用于"
+"您的项目可能会令人困惑。如果您了解每种方法的工作原理以及它们的优缺点，您可以"
 "避免出现问题并简化开发。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:16
@@ -65,11 +65,10 @@ msgid ""
 "collision shape has a direct equivalent in 3D and in most cases they work in "
 "much the same way."
 msgstr ""
-"本文档的示例将使用2D对象。 每个2D物理对象和碰撞形状在3D中具有直接等价物，并且"
-"在大多数情况下它们以相同的方式工作。"
+"本文档的示例将使用2D对象。每个2D物理对象和碰撞形状，在3D中具有直接等价物，并"
+"且在大多数情况下，它们的工作方式几乎相同。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:27
-#, fuzzy
 msgid "Collision objects"
 msgstr "碰撞对象"
 
@@ -78,29 +77,28 @@ msgid ""
 "Godot offers four kinds of physics bodies, extending :ref:`CollisionObject2D "
 "<class_CollisionObject2D>`:"
 msgstr ""
-"Godot提供了四种扩展自 :ref:`CollisionObject2D <class_CollisionObject2D>` 的物"
-"体:"
+"Godot提供了四种物理体，扩展了 :ref:`CollisionObject2D "
+"<class_CollisionObject2D>`："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:35
 msgid ":ref:`Area2D <class_Area2D>`"
 msgstr ":ref:`Area2D <class_Area2D>`"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:32
-#, fuzzy
 msgid ""
 "``Area2D`` nodes provide **detection** and **influence**. They can detect "
 "when objects overlap and can emit signals when bodies enter or exit. An "
 "``Area2D`` can also be used to override physics properties, such as gravity "
 "or damping, in a defined area."
 msgstr ""
-"``Area2D`` 节点提供 **检测** 和 **影响** 。 它们可以检测物体何时重叠，并在物"
-"体进入或离开时发出信号。 “Area2D”也可用于覆盖物理属性，例如定义区域中的重力或"
-"阻尼。"
+"``Area2D`` 节点提供 **检测** 和 **影响** 。它们可以检测物体何时重叠，并在物体"
+"进入或离开时发出信号。``Area2D`` 也可用于重写一个定义区域中的物理属性，例如重"
+"力或阻尼。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:37
 msgid ""
 "The other three bodies extend :ref:`PhysicsBody2D <class_PhysicsBody2D>`:"
-msgstr "其他三个物体扩展自 :ref:`PhysicsBody2D <class_PhysicsBody2D>` ："
+msgstr "其他三个物体扩展自 :ref:`PhysicsBody2D <class_PhysicsBody2D>`："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:43
 msgid ":ref:`StaticBody2D <class_StaticBody2D>`"
@@ -113,8 +111,8 @@ msgid ""
 "collision. They are most often used for objects that are part of the "
 "environment or that do not need to have any dynamic behavior."
 msgstr ""
-"静态主体是物理引擎不移动的主体。 它参与碰撞检测，但不会响应碰撞而移动。 它们"
-"通常用于属于环境的对象或不需要任何动态行为的对象。"
+"静态物体是不会被物理引擎移动的物体。它参与碰撞检测，但不会响应碰撞而移动。它"
+"们最常用于环境中的对象或不需要任何动态行为的对象。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:48
 msgid ":ref:`RigidBody2D <class_RigidBody2D>`"
@@ -127,9 +125,9 @@ msgid ""
 "impulses, etc.) and the physics engine calculates the resulting movement. :"
 "ref:`Read more about using rigid bodies. <doc_rigid_body>`"
 msgstr ""
-"这是实现模拟2D物理的节点。 您不直接控制 ``RigidBody2D`` ，而是您对它施加力(重"
-"力，冲动等)，物理引擎计算得到的运动。 :ref:`阅读更多关于使用刚体的信息。 "
-"<doc_rigid_body>`"
+"这是实现模拟2D物理的节点。您不必直接控制 ``RigidBody2D``，而是要对其施加力"
+"（重力、冲力等），然后物理引擎将计算出最终的运动。:ref:`阅读更多有关使用刚体"
+"的信息。<doc_rigid_body>`"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:52
 msgid ":ref:`KinematicBody2D <class_KinematicBody2D>`"
@@ -140,7 +138,7 @@ msgid ""
 "A body that provides collision detection, but no physics. All movement and "
 "collision response must be implemented in code."
 msgstr ""
-"提供碰撞检测的物体，但没有物理特性。 所有移动和碰撞响应必须在代码中实现。"
+"提供碰撞检测的物体，但没有物理特性。所有移动和碰撞响应，必须在代码中实现。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:55
 msgid "Collision shapes"
@@ -152,14 +150,14 @@ msgid ""
 "as children. These shapes are used to define the object's collision bounds "
 "and to detect contact with other objects."
 msgstr ""
-"物理体可以包含任意数量的 :ref:`Shape2D <class_Shape2D>` 对象作为子对象。 这些"
-"形状用于定义对象的碰撞边界并检测与其他对象的接触。"
+"一个物理物体可以将任意数量的 :ref:`Shape2D <class_Shape2D>` 对象，作为子对象"
+"保存。这些形状用于定义对象的碰撞边界，并检测与其他对象的接触。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:61
 msgid ""
 "In order to detect collisions, at least one ``Shape2D`` must be assigned to "
 "the object."
-msgstr "为了检测碰撞，必须至少为对象分配一个``Shape2D``。"
+msgstr "为了检测碰撞，必须至少为对象分配一个 ``Shape2D``。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:64
 msgid ""
@@ -168,12 +166,12 @@ msgid ""
 "<class_CollisionPolygon2D>` as a child of the object. These nodes allow you "
 "to draw the shape directly in the editor workspace."
 msgstr ""
-"分配形状的最常用方法是添加 :ref:`CollisionShape2D <class_CollisionShape2D>` "
-"或 :ref:`CollisionPolygon2D <class_CollisionPolygon2D>` 作为对象的子项。 这些"
-"节点允许您直接在编辑器工作区中绘制形状。"
+"分配形状的最常见方式是，添加一个 :ref:`CollisionShape2D "
+"<class_CollisionShape2D>` 或 :ref:`CollisionPolygon2D "
+"<class_CollisionPolygon2D>` 作为对象的子级。这些节点允许您，直接在编辑器工作"
+"区中绘制形状。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:68
-#, fuzzy
 msgid ""
 "Be careful to never scale your collision shapes in the editor. The \"Scale\" "
 "property in the Inspector should remain ``(1, 1)``. When changing the size "
@@ -181,13 +179,13 @@ msgid ""
 "``Node2D`` scale handles. Scaling a shape can result in unexpected collision "
 "behavior."
 msgstr ""
-"小心不要在编辑器中缩放碰撞形状。 属性面板中的“Scale”属性应保持为 ``(1, "
-"1)``。 当改变大小调整碰撞形状时，您应该总是使用大小手柄，**而不是 ``Node2D`` "
-"缩放手柄。 缩放形状可能会导致意外的碰撞行为。"
+"注意不要在编辑器中缩放碰撞形状。属性检查器中的 ``缩放（Scale）`` 属性应保持"
+"为 ``(1, 1)``。当更改碰撞形状的大小时，应始终使用该大小手柄，而 **不是** "
+"``Node2D`` 缩放手柄。缩放形状会导致意外的碰撞行为。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:77
 msgid "Physics process callback"
-msgstr "物理过程回调"
+msgstr "物理处理回调"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:79
 msgid ""
@@ -196,24 +194,22 @@ msgid ""
 "a body's state variables such as ``position`` or ``linear velocity`` may not "
 "be accurate for the current frame."
 msgstr ""
-"物理引擎可能会产生多个线程以提高性能，所以它能使用最多一个帧来处理物理。 因"
-"此，物体状态的变量的值，如 ``position`` 或 ``linear velocity`` ，可能在当前帧"
-"不完全准确。"
+"物理引擎可以产生多个线程以提高性能，所以它最多可以使用一个完整的帧来处理物"
+"理。因此，物体的状态变量（例如 ``位置（position）`` 或 ``线速度（linear "
+"velocity）``）的值，对于当前帧可能不准确。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:84
-#, fuzzy
 msgid ""
 "In order to avoid this inaccuracy, any code that needs to access a body's "
 "properties should be run in the :ref:`Node._physics_process() "
 "<class_Node_method__physics_process>` callback, which is called before each "
 "physics step at a constant frame rate (60 times per second by default)."
 msgstr ""
-"为了避免这种不准确性，任何需要访问物体属性的代码都应该在 :ref:`Node."
-"_physics_process()<class_Node_method__physics_process>` 回调中运行，该回调在"
-"每个物理步骤之前以恒定的帧速率调用(60 默认情况下每秒的时间)。"
+"为了避免这种不准确性，需要访问实体属性的任何代码，都应在 :ref:`Node."
+"_physics_process() <class_Node_method__physics_process>` 回调中运行，该回调在"
+"每个物理步骤之前，以恒定帧速率（默认情况下为每秒60次）被调用。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:90
-#, fuzzy
 msgid "Collision layers and masks"
 msgstr "碰撞层与遮罩"
 
@@ -225,13 +221,13 @@ msgid ""
 "and **masks**. Each ``CollisionObject2D`` has 20 different physics layers it "
 "can interact with."
 msgstr ""
-"碰撞层系统是最强大但经常被误解的碰撞特征之一。 该系统允许您在各种对象之间建立"
-"复杂的交互。 关键概念是 **层(layers)** 和 **遮罩(masks)** 。 每个 "
-"``CollisionObject2D`` 都有20个不同的物理层可以相互作用。"
+"碰撞层系统是最强大，但经常被误解的碰撞特征之一。该系统允许您在各种对象之间建"
+"立复杂的交互。关键概念是 **层（layers）** 和 **遮罩（masks）** 。每个 "
+"``CollisionObject2D`` 都有20个不同的物理层，可以相互作用。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:98
 msgid "Let's look at each of the properties in turn:"
-msgstr "让我们依次看看每个属性:"
+msgstr "让我们依次查看每个属性："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:102
 msgid "collision_layer"
@@ -242,7 +238,7 @@ msgid ""
 "This describes the layers that the object appears **in**. By default, all "
 "bodies are on layer ``1``."
 msgstr ""
-"这描述了对象在 **中出现的图层** 。 默认情况下，所有实体都在图层``1``上。"
+"这描述了对象 **在其中** 出现的层。默认情况下，所有实体都在图层 ``1`` 上。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:107
 msgid "collision_mask"
@@ -254,14 +250,14 @@ msgid ""
 "object isn't in one of the mask layers, the body will ignore it. By default, "
 "all bodies scan layer ``1``."
 msgstr ""
-"这描述了物体将 **扫描** 以进行碰撞的层。 如果对象不在其中一个遮罩层中，则物体"
-"将忽略它。 默认情况下，所有实体都扫描图层是 ``1``。"
+"这描述了物体将 **扫描** 以进行碰撞的层。如果一个对象不在其中一个遮罩层中，则"
+"该物体将忽略它。默认情况下，所有实体都扫描图层是 ``1``。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:109
 msgid ""
 "These properties can be configured via code, or by editing them in the "
 "Inspector."
-msgstr "可以通过代码配置这些属性，也可以在Inspector中对其进行编辑。"
+msgstr "这些属性可以通过代码，或在属性检查器中，进行编辑来配置。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:111
 msgid ""
@@ -269,12 +265,12 @@ msgid ""
 "may find it useful to assign names to the layers you're using. Names can be "
 "assigned in Project Settings -> Layer Names."
 msgstr ""
-"跟踪您正在使用每个图层的内容可能很困难，因此您可能会发现为您正在使用的图层指"
-"定名称很有用。 可以在``项目设置`` ->``图层名称``中指定名称。"
+"跟踪每个图层的用途可能很困难，因此您可能会发现，为使用的图层分配名称很有用。"
+"可以在 ``项目设置->图层名称（Project Settings -> Layer Names）`` 中分配名称。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:117
 msgid "**Example:**"
-msgstr "**示例:**"
+msgstr "**示例：**"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:119
 msgid ""
@@ -283,8 +279,9 @@ msgid ""
 "collisions with both Enemy and Coin, but Enemy and Coin should ignore each "
 "other."
 msgstr ""
-"游戏中有四种节点类型:Walls，Player，Enemy和Coin。 游戏角色和敌人都应该与沃尔"
-"斯碰撞。 游戏角色节点应该检测与敌人和硬币的碰撞，但敌人和硬币应该互相忽略。"
+"游戏中有四种节点类型：``墙（Wall）``、``玩家（Player）``、``敌人（Enemy）``、"
+"和 ``硬币（Coin）``。玩家和敌人都应与墙碰撞。``Player`` 节点应该检测到与 "
+"``Enemy`` 和 ``Coin`` 的冲突，但是 ``Enemy`` 和 ``Coin`` 应该彼此忽略。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:124
 msgid ""
@@ -294,47 +291,47 @@ msgid ""
 "should interact with. For example, the Player's settings would look like "
 "this:"
 msgstr ""
-"首先命名1-4层``墙``，``游戏角色``，``敌人``和``硬币``，然后使用``图层``属性将"
-"每个节点类型放在其各自的图层中。 然后通过选择应与之交互的图层来设置每个节点的"
-"``Mask``属性。 例如，游戏角色的设置如下所示:"
+"首先命名1-4层 ``墙（Wall）``、``玩家（Player）``、``敌人（Enemy）``、和 ``硬"
+"币（Coin）``，然后使用 ``图层（Layer）`` 属性，将每个节点类型放在其各自的图层"
+"中。然后通过选择应与之交互的图层，来设置每个节点的 ``遮罩（Mask）`` 属性。例"
+"如，``玩家（Player）`` 的设置如下所示："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:133
 msgid "Area2D"
 msgstr "Area2D"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:135
-#, fuzzy
 msgid ""
 "Area nodes provide **detection** and **influence**. They can detect when "
 "objects overlap and emit signals when bodies enter or exit. Areas can also "
 "be used to override physics properties, such as gravity or damping, in a "
 "defined area."
 msgstr ""
-"区域节点提供 **检测** 和 **影响** 。 它们可以检测物体何时重叠并在物体进入或离"
-"开时发出信号。 区域也可用于覆盖物理属性，例如定义区域中的重力或阻尼。"
+"``Area`` 节点提供 **检测** 和 **影响** 。它们可以检测物体何时重叠，并在物体进"
+"入或离开时发出信号。``Area`` 也可用于覆盖定义区域中的物理属性，例如重力或阻"
+"尼。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:140
 msgid "There are three main uses for :ref:`Area2D <class_Area2D>`:"
-msgstr "有三个主要用途 :ref:`Area2D <class_Area2D>`:"
+msgstr ":ref:`Area2D <class_Area2D>` 有三个主要用途："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:142
-#, fuzzy
 msgid "Overriding physics parameters (such as gravity) in a given region."
-msgstr "覆盖物理参数，例如给定区域中的重力。"
+msgstr "覆盖给定区域中的物理参数，例如重力。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:144
 msgid ""
 "Detecting when other bodies enter or exit a region or what bodies are "
 "currently in a region."
-msgstr "检测其他实体何时进入或退出某个区域或当前哪个实体位于某个区域。"
+msgstr "检测其他物体何时进入或离开区块，或当前区块中有哪些物体。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:146
 msgid "Checking other areas for overlap."
-msgstr "检查其他区域是否重叠。"
+msgstr "检查其他区块是否重叠。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:148
 msgid "By default, areas also receive mouse and touchscreen input."
-msgstr "默认情况下，区域还会接收鼠标和触摸屏输入。"
+msgstr "默认情况下，区域还接收鼠标和触摸屏输入。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:151
 msgid "StaticBody2D"
@@ -348,24 +345,24 @@ msgid ""
 "**as if** it were moving, using its ``constant_linear_velocity`` and "
 "``constant_angular_velocity`` properties."
 msgstr ""
-"静态主体是物理引擎不移动的主体。 它参与碰撞检测，但不会响应碰撞而移动。 然"
-"而，它可以使用它的 ``constant_linear_velocity`` 和"
-"``constant_angular_velocity``属性将运动或旋转传递给碰撞体**，好像它正在移动一"
-"样。"
+"静态主体是物理引擎不移动的主体。它参与碰撞检测，但不会响应碰撞而移动。然而，"
+"它可以使用它的 ``constant_linear_velocity`` 和``constant_angular_velocity``属"
+"性将运动或旋转传递给碰撞体**，好像它正在移动一样。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:158
 msgid ""
 "``StaticBody2D`` nodes are most often used for objects that are part of the "
 "environment or that do not need to have any dynamic behavior."
-msgstr "``StaticBody2D``节点最常用于属于环境的对象或不需要任何动态行为的对象。"
+msgstr ""
+"``StaticBody2D`` 节点最常用于属于环境的对象或不需要任何动态行为的对象。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:161
 msgid "Example uses for ``StaticBody2D``:"
-msgstr "``StaticBody2D``的示例用法:"
+msgstr "``StaticBody2D`` 的示例用法："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:163
 msgid "Platforms (including moving platforms)"
-msgstr "平台(包括移动平台)"
+msgstr "平台（包括移动的平台）"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:164
 msgid "Conveyor belts"
@@ -380,7 +377,6 @@ msgid "RigidBody2D"
 msgstr "RigidBody2D"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:170
-#, fuzzy
 msgid ""
 "This is the node that implements simulated 2D physics. You do not control a :"
 "ref:`RigidBody2D <class_RigidBody2D>` directly. Instead, you apply forces to "
@@ -388,17 +384,17 @@ msgid ""
 "collisions with other bodies, and collision responses, such as bouncing, "
 "rotating, etc."
 msgstr ""
-"这是实现模拟2D物理的节点。 您不直接控制 :ref:`RigidBody2D "
-"<class_RigidBody2D>` 。 相反，您对它施加力，物理引擎计算得到的运动，包括与其"
-"他物体的碰撞，以及碰撞响应，如弹跳，旋转等。"
+"这是实现模拟2D物理的节点。您不能直接控制 :ref:`RigidBody2D "
+"<class_RigidBody2D>`。而是，您对其施加力，然后物理引擎会计算出最终的运动，包"
+"括与其他物体的碰撞、以及碰撞响应（如反弹、旋转等）。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:176
 msgid ""
 "You can modify a rigid body's behavior via  properties such as \"Mass\", "
 "\"Friction\", or \"Bounce\", which can be set in the Inspector."
 msgstr ""
-"您可以通过``质量``，``摩擦力``或``弹跳``等属性修改刚体的行为，这些属性可以在"
-"属性面板中设置。"
+"您可以通过 ``质量（Mass）``、``摩擦力（Friction）``、或 ``反弹（Bounce）`` 等"
+"属性修改刚体的行为，这些属性可以在属性检查器中设置。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:179
 msgid ""
@@ -406,19 +402,19 @@ msgid ""
 "`Project Settings -> Physics`, or by entering an :ref:`Area2D "
 "<class_Area2D>` that is overriding the global physics properties."
 msgstr ""
-"物体的行为也受到``项目设置 ->物理学``中设置的世界属性的影响，或者通过输入覆盖"
-"全局物理属性的 :ref:`Area2D <class_Area2D>` 。"
+"物体的行为，也受 ``项目设置 ->物理（Project Settings -> Physics）`` 中，或者"
+"通过输入覆盖全局物理属性的 :ref:`Area2D <class_Area2D>`，设置的世界属性的影"
+"响 。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:183
-#, fuzzy
 msgid ""
 "When a rigid body is at rest and hasn't moved for a while, it goes to sleep. "
 "A sleeping body acts like a static body, and its forces are not calculated "
 "by the physics engine. The body will wake up when forces are applied, either "
 "by a collision or via code."
 msgstr ""
-"当刚体处于静止状态并且一段时间没有移动时，它会进入睡眠状态。 沉睡的物体就像一"
-"个静止的物体，它的力量不是由物理引擎计算的。 当施加力时，通过碰撞或通过代码，"
+"当刚体处于静止状态，并且一段时间没有移动时，它会进入睡眠状态。沉睡的物体就像"
+"一个静止的物体，它的力不是由物理引擎计算的。当通过碰撞或通过代码，施加力时，"
 "物体将被唤醒。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:189
@@ -427,40 +423,40 @@ msgstr "刚体模式"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:191
 msgid "A rigid body can be set to one of four modes:"
-msgstr "刚体可以设置为以下四种模式之一:"
+msgstr "刚体可以设置为以下四种模式之一："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:193
 msgid ""
 "**Rigid** - The body behaves as a physical object. It collides with other "
 "bodies and responds to forces applied to it. This is the default mode."
 msgstr ""
-"**Rigid** - 物体表现为具有物理属性的对象。 它与其他物体发生碰撞，并对施加于其"
-"上的力作出反应。 这是默认模式。"
+"**刚性（Rigid）** —— 物体表现为一个物理对象。它与其他物体发生碰撞，并对施加于"
+"其上的力作出反应。这是默认模式。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:194
 msgid ""
 "**Static** - The body behaves like a :ref:`StaticBody2D "
 "<class_StaticBody2D>` and does not move."
 msgstr ""
-"**Static** - 物体表现得像 :ref:`StaticBody2D <class_StaticBody2D>` 并且不会移"
-"动。"
+"**静态（Static）** —— 物体表现得像一个 :ref:`StaticBody2D "
+"<class_StaticBody2D>` 并且不会移动。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:195
-#, fuzzy
 msgid "**Character** - Similar to \"Rigid\" mode, but the body cannot rotate."
-msgstr "**Character** - 类似于“Rigid”模式，但物体无法旋转。"
+msgstr ""
+"**角色（Character）** —— 类似于 ``刚性（Rigid）`` 模式，但物体无法旋转。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:196
 msgid ""
 "**Kinematic** - The body behaves like a :ref:`KinematicBody2D "
 "<class_KinematicBody2D>` and must be moved by code."
 msgstr ""
-"**Kinematic** - 物体的行为类似于 :ref:`KinematicBody2D "
-"<class_KinematicBody2D>` 并且必须通过代码移动。"
+"**运动学（Kinematic）** —— 物体的行为类似于一个 :ref:`KinematicBody2D "
+"<class_KinematicBody2D>`，并且必须通过代码移动。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:199
 msgid "Using RigidBody2D"
-msgstr "使用RigidBody2D"
+msgstr "使用 ``RigidBody2D``"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:201
 msgid ""
@@ -470,12 +466,11 @@ msgid ""
 "create RigidBody2Ds and adjust their properties. Stacking, falling, and "
 "bouncing would automatically be calculated by the physics engine."
 msgstr ""
-"使用刚体的一个好处是，可以``免费``获得许多行为而无需编写任何代码。 例如，如果"
-"您正在制作一个带有下降块的``愤怒的小鸟``式游戏，您只需要创建RigidBody2D并调整"
-"它们的属性。 堆叠，下降和弹跳将由物理引擎自动计算。"
+"使用刚体的好处之一是，无需编写任何代码，即可 ``免费`` 获得许多行为。例如，如"
+"果您要制作带有下降块的 ``愤怒的小鸟`` 式的游戏，则只需创建 ``RigidBody2D`` 并"
+"调整其属性。堆叠、下落和弹跳将由物理引擎自动计算。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:207
-#, fuzzy
 msgid ""
 "However, if you do wish to have some control over the body, you should take "
 "care - altering the ``position``, ``linear_velocity``, or other physics "
@@ -487,17 +482,17 @@ msgid ""
 "which allows for safely changing properties and synchronizing them with the "
 "physics engine."
 msgstr ""
-"但是，如果您希望控制物体，那么您应该注意 - 改变 ``position``, "
-"``linear_velocity``, 或刚体的其他物理属性可能会导致意外行为。 如果您需要改变"
-"任何与物理相关的属性，您应该使用 :ref:`_integrate_forces() "
+"但是，如果您希望对物体有所控制，则应注意：改变刚体的 ``position``、"
+"``linear_velocity``、或其他物理属性，可能会导致意外行为。如果您需要更改任何与"
+"物理相关的属性，则应使用 :ref:`_integrate_forces() "
 "<class_RigidBody2D_method__integrate_forces>` 回调而不是 "
-"``_physics_process()`` 。 在此回调中，您可以访问物体的 :ref:"
+"``_physics_process()``。在此回调中，您可以访问物体的 :ref:"
 "`Physics2DDirectBodyState <class_Physics2DDirectBodyState>`，它允许安全地更改"
-"属性并将它们与物理引擎同步。"
+"属性并将其与物理引擎同步。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:216
 msgid "For example, here is the code for an \"Asteroids\" style spaceship:"
-msgstr "例如，以下是``小行星``式宇宙飞船的代码:"
+msgstr "例如，以下是 ``小行星`` 式太空飞船的代码："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:261
 msgid ""
@@ -506,10 +501,10 @@ msgid ""
 "to the body and letting the physics engine calculate the resulting movement."
 msgstr ""
 "请注意，我们不是直接设置 ``linear_velocity`` 或 ``angular_velocity`` 属性，而"
-"是将力( ``thrust`` 和 ``torque`` )施加到物体上并让物理引擎计算出最终的运动。"
+"是将力（``推力（thrust）`` 和 ``扭力（torque）``）施加到物体上，然后让物理引"
+"擎计算出所产生的运动 。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:265
-#, fuzzy
 msgid ""
 "When a rigid body goes to sleep, the ``_integrate_forces()`` function will "
 "not be called. To override this behavior, you will need to keep the body "
@@ -517,17 +512,16 @@ msgid ""
 "ref:`can_sleep <class_RigidBody2D_property_can_sleep>` property. Be aware "
 "that this can have a negative effect on performance."
 msgstr ""
-"当刚体进入睡眠状态时，不会调用 ``_integrate_forces()`` 函数。 要覆盖此行为，"
-"您需要通过创建碰撞，对其施加力或禁用 :ref:`can_sleep "
-"<class_RigidBody2D_property_can_sleep>` 属性来使物体保持清醒状态。 请注意，这"
-"会对性能产生负面影响。"
+"当刚体进入睡眠状态时，不会调用 ``_integrate_forces()`` 函数。要覆盖此行为，您"
+"需要通过创建碰撞，对其施加力；或禁用 :ref:`can_sleep "
+"<class_RigidBody2D_property_can_sleep>` 属性。来使物体保持清醒状态。请注意，"
+"这会对性能产生负面影响。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:272
 msgid "Contact reporting"
 msgstr "接触报告"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:274
-#, fuzzy
 msgid ""
 "By default, rigid bodies do not keep track of contacts, because this can "
 "require a huge amount of memory if many bodies are in the scene. To enable "
@@ -538,22 +532,22 @@ msgid ""
 "<class_Physics2DDirectBodyState_method_get_contact_count>` and related "
 "functions."
 msgstr ""
-"默认情况下，刚体不存储接触报告，因为如果场景中有许多实体，这可能需要大量内"
-"存。 要启用接触报告，请将 :ref:`contacts_reported "
-"<class_RigidBody2D_property_contacts_reported>` 属性设置为非零值。 然后可以通"
-"过以下方式获得接触: :ref:`Physics2DDirectBodyState.get_contact_count() "
-"<class_Physics2DDirectBodyState_method_get_contact_count>` 及相关函数。"
+"默认情况下，刚体不跟踪接触，因为如果场景中有很多物体，这可能需要大量的内存。"
+"要启用接触报告，请将 :ref:`contacts_reported "
+"<class_RigidBody2D_property_contacts_reported>` 属性设置为非零值。然后可以通"
+"过 :ref:`Physics2DDirectBodyState.get_contact_count() "
+"<class_Physics2DDirectBodyState_method_get_contact_count>` 和相关函数，来获取"
+"接触。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:281
-#, fuzzy
 msgid ""
 "Contact monitoring via signals can be enabled via the :ref:`contact_monitor "
 "<class_RigidBody2D_property_contact_monitor>` property. See :ref:"
 "`RigidBody2D <class_RigidBody2D>` for the list of available signals."
 msgstr ""
 "可以通过 :ref:`contact_monitor <class_RigidBody2D_property_contact_monitor>` "
-"属性启用采用信号的接触监视。 请参阅 :ref:`RigidBody2D <class_RigidBody2D>` 获"
-"取可用的信号列表。"
+"属性，来启用通过信号的接触监视。有关可用信号的列表，请参见 :ref:`RigidBody2D "
+"<class_RigidBody2D>`。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:286
 msgid "KinematicBody2D"
@@ -567,8 +561,8 @@ msgid ""
 "engine will not move a kinematic body."
 msgstr ""
 ":ref:`KinematicBody2D <class_KinematicBody2D>` 物体检测与其他物体的碰撞，但不"
-"受重力或摩擦等物理属性的影响。 相反，它们必须由用户通过代码控制。 物理引擎不"
-"会移动运动体。"
+"受重力或摩擦等物理属性的影响。相反，它们必须由用户通过代码控制。物理引擎不会"
+"移动一个运动学物体。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:293
 msgid ""
@@ -578,14 +572,14 @@ msgid ""
 "if a collision is detected with another body. After the body has collided, "
 "any collision response must be coded manually."
 msgstr ""
-"移动运动体时，不应直接设置其 ``position`` 。 相反，您使用 "
-"``move_and_collide()`` 或 ``move_and_slide()`` 方法。 这些方法沿着给定的向量"
-"移动物体，如果与另一个物体检测到碰撞，它将立即停止。 在物体发生碰撞后，必须手"
-"动编码任何碰撞响应。"
+"当移动运动学物体时，不应直接设置其 ``position`` 。相反，使用 "
+"``move_and_collide()`` 或 ``move_and_slide()`` 方法。这些方法沿着给定的向量移"
+"动物体，如果检测到与另一个物体的碰撞，它将立即停止。在物体发生碰撞后，任何碰"
+"撞响应都必须手动编码。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:300
 msgid "Kinematic collision response"
-msgstr "运动碰撞响应"
+msgstr "运动学碰撞响应"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:302
 msgid ""
@@ -594,11 +588,10 @@ msgid ""
 "collision response depends on which method you used to move the "
 "KinematicBody2D."
 msgstr ""
-"碰撞后，您可能希望物体反弹，沿着墙壁滑动，或者改变它所击中的物体的属性。 处理"
-"碰撞响应的方式取决于您用于移动KinematicBody2D的方法。"
+"碰撞后，您可能希望物体反弹、沿着墙壁滑动、或者改变它所击中的物体的属性。处理"
+"碰撞响应的方式，取决于您用于移动 ``KinematicBody2D`` 的方法。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:307
-#, fuzzy
 msgid ":ref:`move_and_collide <class_KinematicBody2D_method_move_and_collide>`"
 msgstr ""
 ":ref:`move_and_collide <class_KinematicBody2D_method_move_and_collide>`"
@@ -611,21 +604,20 @@ msgid ""
 "information to determine the response."
 msgstr ""
 "当使用 ``move_and_collide()`` 时，该函数返回一个 :ref:`KinematicCollision2D "
-"<class_KinematicCollision2D>` 对象，其中包含有关碰撞和碰撞体的信息。 您可以使"
+"<class_KinematicCollision2D>` 对象，其中包含有关碰撞和碰撞体的信息。您可以使"
 "用此信息来确定响应。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:314
 msgid ""
 "For example, if you want to find the point in space where the collision "
 "occurred:"
-msgstr "例如，如果要查找发生碰撞的空间点:"
+msgstr "例如，如果要查找空间中发生碰撞的点："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:345
 msgid "Or to bounce off of the colliding object:"
-msgstr "或者从碰撞物体反弹:"
+msgstr "或从碰撞对象反弹："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:374
-#, fuzzy
 msgid ":ref:`move_and_slide <class_KinematicBody2D_method_move_and_slide>`"
 msgstr ":ref:`move_and_slide <class_KinematicBody2D_method_move_and_slide>`"
 
@@ -637,16 +629,17 @@ msgid ""
 "``move_and_slide()`` provides a convenient way to implement sliding movement "
 "without writing much code."
 msgstr ""
-"滑动是一种常见的碰撞响应; 想象一个游戏角色在上帝视角的游戏中沿着墙壁移动，或"
-"者在平台游戏中上下坡。 虽然可在使用 ``move_and_collide()`` 之后自己编写这个响"
-"应，但 ``move_and_slide()`` 提供了一种快捷方法来实现滑动且无需编写太多代码。"
+"滑动是一种常见的碰撞响应；想象一个游戏角色在上帝视角的游戏中沿着墙壁移动，或"
+"者在平台游戏中上下坡。虽然可在使用 ``move_and_collide()`` 之后自己编写这个响"
+"应，但 ``move_and_slide()`` 提供了一种无需编写太多代码，即可实现滑动运动的便"
+"捷方法。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:382
 msgid ""
 "``move_and_slide()`` automatically includes the timestep in its calculation, "
 "so you should **not** multiply the velocity vector by ``delta``."
 msgstr ""
-"``move_and_slide()`` 在计算中自动包含时间步长，因此您 **不** 应将速度向量乘"
+"``move_and_slide()`` 会自动在计算中包含时间步长，因此您 **不** 应将速度向量乘"
 "以 ``delta`` 。"
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:386
@@ -654,8 +647,8 @@ msgid ""
 "For example, use the following code to make a character that can walk along "
 "the ground (including slopes) and jump when standing on the ground:"
 msgstr ""
-"例如，使用以下代码制作一个可以沿着地面(包括斜坡)行走的角色，并在站在地面时跳"
-"跃:"
+"例如，使用以下代码制作，一个可以在地面上行走（包括斜坡），并在站立在地面上"
+"时，可以跳跃的角色："
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:451
 msgid ""
@@ -663,4 +656,4 @@ msgid ""
 "``move_and_slide()``, including a demo project with detailed code."
 msgstr ""
 "有关使用 ``move_and_slide()`` 的更多详细信息，请参阅 :ref:"
-"`doc_kinematic_character_2d` ，包括带有详细代码的演示项目。"
+"`doc_kinematic_character_2d` ，包括一个带有详细代码的演示项目。"

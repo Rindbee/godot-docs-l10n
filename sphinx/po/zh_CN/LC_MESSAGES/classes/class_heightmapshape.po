@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:10
+msgid "HeightMapShape"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:12
+msgid ""
+"**Inherits:** :ref:`Shape <class_Shape>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:14
+msgid "Height map shape for 3D physics (Bullet only)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:19
+msgid ""
+"Height map shape resource, which can be added to a :ref:`PhysicsBody "
+"<class_PhysicsBody>` or :ref:`Area <class_Area>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:25
+msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:25
+msgid ":ref:`map_data <class_HeightMapShape_property_map_data>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:40
+msgid "``PackedFloat32Array( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:29
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:27
+msgid ":ref:`map_depth <class_HeightMapShape_property_map_depth>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:72
+msgid "``2``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:29
+msgid ":ref:`map_width <class_HeightMapShape_property_map_width>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:33
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:37
+msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>` **map_data**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:72
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:74
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:42
+msgid "set_map_data(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:76
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:44
+msgid "get_map_data()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:47
+msgid ""
+"Height map data, pool array must be of :ref:`map_width "
+"<class_HeightMapShape_property_map_width>` \\* :ref:`map_depth "
+"<class_HeightMapShape_property_map_depth>` size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:53
+msgid ":ref:`int <class_int>` **map_depth**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:58
+msgid "set_map_depth(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:60
+msgid "get_map_depth()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:63
+msgid ""
+"Depth of the height map data. Changing this will resize the "
+":ref:`map_data <class_HeightMapShape_property_map_data>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:69
+msgid ":ref:`int <class_int>` **map_width**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:74
+msgid "set_map_width(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:76
+msgid "get_map_width()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_heightmapshape.rst:79
+msgid ""
+"Width of the height map data. Changing this will resize the "
+":ref:`map_data <class_HeightMapShape_property_map_data>`."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "PoolRealArray( 0, 0, 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolRealArray <class_PoolRealArray>`"
+#~ msgstr ""
+
+#~ msgid "``PoolRealArray( 0, 0, 0, 0 )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolRealArray <class_PoolRealArray>` **map_data**"
+#~ msgstr ""
+

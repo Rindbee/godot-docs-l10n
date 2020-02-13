@@ -1,0 +1,1490 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:10
+msgid "VisualScript"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:12
+msgid ""
+"**Inherits:** :ref:`Script <class_Script>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:14
+msgid "A script implemented in the Visual Script programming environment."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:19
+msgid ""
+"A script implemented in the  Visual Script programming environment. The "
+"script extends the functionality of all objects that instance it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:21
+msgid ""
+":ref:`Object.set_script <class_Object_method_set_script>` extends an "
+"existing object, if that object's class matches one of the script's base "
+"classes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:23
+msgid ""
+"You are most likely to use this class via the Visual Script editor or "
+"when writing plugins for it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:28
+msgid ":doc:`../getting_started/scripting/visual_script/index`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:31
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:116
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:34
+msgid ""
+":ref:`add_custom_signal <class_VisualScript_method_add_custom_signal>` "
+"**(** :ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:36
+msgid ""
+":ref:`add_function <class_VisualScript_method_add_function>` **(** "
+":ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:38
+msgid ""
+":ref:`add_node <class_VisualScript_method_add_node>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` id, "
+":ref:`VisualScriptNode <class_VisualScriptNode>` node, :ref:`Vector2 "
+"<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:40
+msgid ""
+":ref:`add_variable <class_VisualScript_method_add_variable>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Variant <class_Variant>`"
+" default_value=null, :ref:`bool <class_bool>` export=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:42
+msgid ""
+":ref:`custom_signal_add_argument "
+"<class_VisualScript_method_custom_signal_add_argument>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>` type, :ref:`String <class_String>` "
+"argname, :ref:`int <class_int>` index=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:62
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:44
+msgid ""
+":ref:`custom_signal_get_argument_count "
+"<class_VisualScript_method_custom_signal_get_argument_count>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:46
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:46
+msgid ""
+":ref:`custom_signal_get_argument_name "
+"<class_VisualScript_method_custom_signal_get_argument_name>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:48
+msgid ":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:48
+msgid ""
+":ref:`custom_signal_get_argument_type "
+"<class_VisualScript_method_custom_signal_get_argument_type>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:50
+msgid ""
+":ref:`custom_signal_remove_argument "
+"<class_VisualScript_method_custom_signal_remove_argument>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:52
+msgid ""
+":ref:`custom_signal_set_argument_name "
+"<class_VisualScript_method_custom_signal_set_argument_name>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx,"
+" :ref:`String <class_String>` argname **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:54
+msgid ""
+":ref:`custom_signal_set_argument_type "
+"<class_VisualScript_method_custom_signal_set_argument_type>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx,"
+" :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:56
+msgid ""
+":ref:`custom_signal_swap_argument "
+"<class_VisualScript_method_custom_signal_swap_argument>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx,"
+" :ref:`int <class_int>` withidx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:58
+msgid ""
+":ref:`data_connect <class_VisualScript_method_data_connect>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_port, :ref:`int <class_int>` "
+"to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:60
+msgid ""
+":ref:`data_disconnect <class_VisualScript_method_data_disconnect>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_port, :ref:`int <class_int>` "
+"to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:62
+msgid ""
+":ref:`get_function_node_id "
+"<class_VisualScript_method_get_function_node_id>` **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:68
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:64
+msgid ""
+":ref:`get_function_scroll "
+"<class_VisualScript_method_get_function_scroll>` **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:66
+msgid ":ref:`VisualScriptNode <class_VisualScriptNode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:66
+msgid ""
+":ref:`get_node <class_VisualScript_method_get_node>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` id "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:68
+msgid ""
+":ref:`get_node_position <class_VisualScript_method_get_node_position>` "
+"**(** :ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:70
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:70
+msgid ""
+":ref:`get_variable_default_value "
+"<class_VisualScript_method_get_variable_default_value>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:86
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:72
+msgid ""
+":ref:`get_variable_export "
+"<class_VisualScript_method_get_variable_export>` **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:74
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:74
+msgid ""
+":ref:`get_variable_info <class_VisualScript_method_get_variable_info>` "
+"**(** :ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:76
+msgid ""
+":ref:`has_custom_signal <class_VisualScript_method_has_custom_signal>` "
+"**(** :ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:78
+msgid ""
+":ref:`has_data_connection "
+"<class_VisualScript_method_has_data_connection>` **(** :ref:`StringName "
+"<class_StringName>` func, :ref:`int <class_int>` from_node, :ref:`int "
+"<class_int>` from_port, :ref:`int <class_int>` to_node, :ref:`int "
+"<class_int>` to_port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:80
+msgid ""
+":ref:`has_function <class_VisualScript_method_has_function>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:82
+msgid ""
+":ref:`has_node <class_VisualScript_method_has_node>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` id "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:84
+msgid ""
+":ref:`has_sequence_connection "
+"<class_VisualScript_method_has_sequence_connection>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_output, :ref:`int <class_int>` "
+"to_node **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:86
+msgid ""
+":ref:`has_variable <class_VisualScript_method_has_variable>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:88
+msgid ""
+":ref:`remove_custom_signal "
+"<class_VisualScript_method_remove_custom_signal>` **(** :ref:`StringName "
+"<class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:90
+msgid ""
+":ref:`remove_function <class_VisualScript_method_remove_function>` **(** "
+":ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:92
+msgid ""
+":ref:`remove_node <class_VisualScript_method_remove_node>` **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` id "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:94
+msgid ""
+":ref:`remove_variable <class_VisualScript_method_remove_variable>` **(** "
+":ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:96
+msgid ""
+":ref:`rename_custom_signal "
+"<class_VisualScript_method_rename_custom_signal>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` new_name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:98
+msgid ""
+":ref:`rename_function <class_VisualScript_method_rename_function>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:100
+msgid ""
+":ref:`rename_variable <class_VisualScript_method_rename_variable>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:102
+msgid ""
+":ref:`sequence_connect <class_VisualScript_method_sequence_connect>` "
+"**(** :ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_output, :ref:`int <class_int>` "
+"to_node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:104
+msgid ""
+":ref:`sequence_disconnect "
+"<class_VisualScript_method_sequence_disconnect>` **(** :ref:`StringName "
+"<class_StringName>` func, :ref:`int <class_int>` from_node, :ref:`int "
+"<class_int>` from_output, :ref:`int <class_int>` to_node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:106
+msgid ""
+":ref:`set_function_scroll "
+"<class_VisualScript_method_set_function_scroll>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`Vector2 <class_Vector2>` ofs **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:108
+msgid ""
+":ref:`set_instance_base_type "
+"<class_VisualScript_method_set_instance_base_type>` **(** "
+":ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:110
+msgid ""
+":ref:`set_node_position <class_VisualScript_method_set_node_position>` "
+"**(** :ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"id, :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:112
+msgid ""
+":ref:`set_variable_default_value "
+"<class_VisualScript_method_set_variable_default_value>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Variant <class_Variant>`"
+" value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:114
+msgid ""
+":ref:`set_variable_export "
+"<class_VisualScript_method_set_variable_export>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:116
+msgid ""
+":ref:`set_variable_info <class_VisualScript_method_set_variable_info>` "
+"**(** :ref:`StringName <class_StringName>` name, :ref:`Dictionary "
+"<class_Dictionary>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:120
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:124
+msgid ""
+"**node_ports_changed** **(** :ref:`String <class_String>` function, "
+":ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:126
+msgid "Emitted when the ports of a node are changed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:129
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:133
+msgid ""
+"void **add_custom_signal** **(** :ref:`StringName <class_StringName>` "
+"name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:135
+msgid "Add a custom signal with the specified name to the VisualScript."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:141
+msgid ""
+"void **add_function** **(** :ref:`StringName <class_StringName>` name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:143
+msgid "Add a function with the specified name to the VisualScript."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:149
+msgid ""
+"void **add_node** **(** :ref:`StringName <class_StringName>` func, "
+":ref:`int <class_int>` id, :ref:`VisualScriptNode "
+"<class_VisualScriptNode>` node, :ref:`Vector2 <class_Vector2>` "
+"position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:151
+msgid "Add a node to a function of the VisualScript."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:157
+msgid ""
+"void **add_variable** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`Variant <class_Variant>` default_value=null, :ref:`bool "
+"<class_bool>` export=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:159
+msgid ""
+"Add a variable to the VisualScript, optionally giving it a default value "
+"or marking it as exported."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:165
+msgid ""
+"void **custom_signal_add_argument** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>` type, :ref:`String <class_String>` "
+"argname, :ref:`int <class_int>` index=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:167
+msgid ""
+"Add an argument to a custom signal added with :ref:`add_custom_signal "
+"<class_VisualScript_method_add_custom_signal>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:173
+msgid ""
+":ref:`int <class_int>` **custom_signal_get_argument_count** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:175
+msgid "Get the count of a custom signal's arguments."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:181
+msgid ""
+":ref:`String <class_String>` **custom_signal_get_argument_name** **(** "
+":ref:`StringName <class_StringName>` name, :ref:`int <class_int>` argidx "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:183
+msgid "Get the name of a custom signal's argument."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:189
+msgid ""
+":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` "
+"**custom_signal_get_argument_type** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`int <class_int>` argidx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:191
+msgid "Get the type of a custom signal's argument."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:197
+msgid ""
+"void **custom_signal_remove_argument** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`int <class_int>` argidx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:199
+msgid "Remove a specific custom signal's argument."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:205
+msgid ""
+"void **custom_signal_set_argument_name** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`int <class_int>` argidx, :ref:`String "
+"<class_String>` argname **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:207
+msgid "Rename a custom signal's argument."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:213
+msgid ""
+"void **custom_signal_set_argument_type** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`int <class_int>` argidx, "
+":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:215
+msgid "Change the type of a custom signal's argument."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:221
+msgid ""
+"void **custom_signal_swap_argument** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`int <class_int>` argidx, :ref:`int "
+"<class_int>` withidx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:223
+msgid "Swap two of the arguments of a custom signal."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:229
+msgid ""
+"void **data_connect** **(** :ref:`StringName <class_StringName>` func, "
+":ref:`int <class_int>` from_node, :ref:`int <class_int>` from_port, "
+":ref:`int <class_int>` to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:231
+msgid ""
+"Connect two data ports. The value of ``from_node``'s ``from_port`` would "
+"be fed into ``to_node``'s ``to_port``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:237
+msgid ""
+"void **data_disconnect** **(** :ref:`StringName <class_StringName>` func,"
+" :ref:`int <class_int>` from_node, :ref:`int <class_int>` from_port, "
+":ref:`int <class_int>` to_node, :ref:`int <class_int>` to_port **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:239
+msgid ""
+"Disconnect two data ports previously connected with :ref:`data_connect "
+"<class_VisualScript_method_data_connect>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:245
+msgid ""
+":ref:`int <class_int>` **get_function_node_id** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:247
+msgid "Returns the id of a function's entry point node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:253
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_function_scroll** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:255
+msgid "Returns the position of the center of the screen for a given function."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:261
+msgid ""
+":ref:`VisualScriptNode <class_VisualScriptNode>` **get_node** **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` id "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:263
+msgid "Returns a node given its id and its function."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:269
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_node_position** **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` id "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:271
+msgid "Returns a node's position in pixels."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:277
+msgid ""
+":ref:`Variant <class_Variant>` **get_variable_default_value** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:279
+msgid "Returns the default (initial) value of a variable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:285
+msgid ""
+":ref:`bool <class_bool>` **get_variable_export** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:287
+msgid "Returns whether a variable is exported."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:293
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_variable_info** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:295
+msgid ""
+"Returns the information for a given variable as a dictionary. The "
+"information includes its name, type, hint and usage."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:301
+msgid ""
+":ref:`bool <class_bool>` **has_custom_signal** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:303
+msgid "Returns whether a signal exists with the specified name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:309
+msgid ""
+":ref:`bool <class_bool>` **has_data_connection** **(** :ref:`StringName "
+"<class_StringName>` func, :ref:`int <class_int>` from_node, :ref:`int "
+"<class_int>` from_port, :ref:`int <class_int>` to_node, :ref:`int "
+"<class_int>` to_port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:311
+msgid "Returns whether the specified data ports are connected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:317
+msgid ""
+":ref:`bool <class_bool>` **has_function** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:319
+msgid "Returns whether a function exists with the specified name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:325
+msgid ""
+":ref:`bool <class_bool>` **has_node** **(** :ref:`StringName "
+"<class_StringName>` func, :ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:327
+msgid "Returns whether a node exists with the given id."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:333
+msgid ""
+":ref:`bool <class_bool>` **has_sequence_connection** **(** "
+":ref:`StringName <class_StringName>` func, :ref:`int <class_int>` "
+"from_node, :ref:`int <class_int>` from_output, :ref:`int <class_int>` "
+"to_node **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:335
+msgid "Returns whether the specified sequence ports are connected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:341
+msgid ""
+":ref:`bool <class_bool>` **has_variable** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:343
+msgid "Returns whether a variable exists with the specified name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:349
+msgid ""
+"void **remove_custom_signal** **(** :ref:`StringName <class_StringName>` "
+"name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:351
+msgid "Remove a custom signal with the given name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:357
+msgid ""
+"void **remove_function** **(** :ref:`StringName <class_StringName>` name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:359
+msgid "Remove a specific function and its nodes from the script."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:365
+msgid ""
+"void **remove_node** **(** :ref:`StringName <class_StringName>` func, "
+":ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:367
+msgid "Remove a specific node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:373
+msgid ""
+"void **remove_variable** **(** :ref:`StringName <class_StringName>` name "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:375
+msgid "Remove a variable with the given name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:381
+msgid ""
+"void **rename_custom_signal** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`StringName <class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:383
+msgid "Change the name of a custom signal."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:389
+msgid ""
+"void **rename_function** **(** :ref:`StringName <class_StringName>` name,"
+" :ref:`StringName <class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:391
+msgid "Change the name of a function."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:397
+msgid ""
+"void **rename_variable** **(** :ref:`StringName <class_StringName>` name,"
+" :ref:`StringName <class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:399
+msgid "Change the name of a variable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:405
+msgid ""
+"void **sequence_connect** **(** :ref:`StringName <class_StringName>` "
+"func, :ref:`int <class_int>` from_node, :ref:`int <class_int>` "
+"from_output, :ref:`int <class_int>` to_node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:407
+msgid ""
+"Connect two sequence ports. The execution will flow from of "
+"``from_node``'s ``from_output`` into ``to_node``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:409
+msgid ""
+"Unlike :ref:`data_connect <class_VisualScript_method_data_connect>`, "
+"there isn't a ``to_port``, since the target node can have only one "
+"sequence port."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:415
+msgid ""
+"void **sequence_disconnect** **(** :ref:`StringName <class_StringName>` "
+"func, :ref:`int <class_int>` from_node, :ref:`int <class_int>` "
+"from_output, :ref:`int <class_int>` to_node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:417
+msgid ""
+"Disconnect two sequence ports previously connected with "
+":ref:`sequence_connect <class_VisualScript_method_sequence_connect>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:423
+msgid ""
+"void **set_function_scroll** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Vector2 <class_Vector2>` ofs **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:425
+msgid "Position the center of the screen for a function."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:431
+msgid ""
+"void **set_instance_base_type** **(** :ref:`StringName "
+"<class_StringName>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:433
+msgid "Set the base type of the script."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:439
+msgid ""
+"void **set_node_position** **(** :ref:`StringName <class_StringName>` "
+"func, :ref:`int <class_int>` id, :ref:`Vector2 <class_Vector2>` position "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:441
+msgid "Position a node on the screen."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:447
+msgid ""
+"void **set_variable_default_value** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:449
+msgid "Change the default (initial) value of a variable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:455
+msgid ""
+"void **set_variable_export** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:457
+msgid "Change whether a variable is exported."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:463
+msgid ""
+"void **set_variable_info** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Dictionary <class_Dictionary>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualscript.rst:465
+msgid ""
+"Set a variable's info, using the same format as :ref:`get_variable_info "
+"<class_VisualScript_method_get_variable_info>`."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_custom_signal "
+#~ "<class_VisualScript_method_add_custom_signal>` **(** "
+#~ ":ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_function <class_VisualScript_method_add_function>` "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_node <class_VisualScript_method_add_node>` **(**"
+#~ " :ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` id, :ref:`VisualScriptNode "
+#~ "<class_VisualScriptNode>` node, :ref:`Vector2 "
+#~ "<class_Vector2>` position=Vector2( 0, 0 ) "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_variable <class_VisualScript_method_add_variable>` "
+#~ "**(** :ref:`String <class_String>` name, "
+#~ ":ref:`Variant <class_Variant>` default_value=null, "
+#~ ":ref:`bool <class_bool>` export=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_add_argument "
+#~ "<class_VisualScript_method_custom_signal_add_argument>` **(**"
+#~ " :ref:`String <class_String>` name, "
+#~ ":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` type,"
+#~ " :ref:`String <class_String>` argname, :ref:`int"
+#~ " <class_int>` index=-1 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_get_argument_count "
+#~ "<class_VisualScript_method_custom_signal_get_argument_count>` "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_get_argument_name "
+#~ "<class_VisualScript_method_custom_signal_get_argument_name>` "
+#~ "**(** :ref:`String <class_String>` name, "
+#~ ":ref:`int <class_int>` argidx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_get_argument_type "
+#~ "<class_VisualScript_method_custom_signal_get_argument_type>` "
+#~ "**(** :ref:`String <class_String>` name, "
+#~ ":ref:`int <class_int>` argidx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_remove_argument "
+#~ "<class_VisualScript_method_custom_signal_remove_argument>` **(**"
+#~ " :ref:`String <class_String>` name, :ref:`int "
+#~ "<class_int>` argidx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_set_argument_name "
+#~ "<class_VisualScript_method_custom_signal_set_argument_name>` "
+#~ "**(** :ref:`String <class_String>` name, "
+#~ ":ref:`int <class_int>` argidx, :ref:`String "
+#~ "<class_String>` argname **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_set_argument_type "
+#~ "<class_VisualScript_method_custom_signal_set_argument_type>` "
+#~ "**(** :ref:`String <class_String>` name, "
+#~ ":ref:`int <class_int>` argidx, :ref:`Variant.Type"
+#~ " <enum_@GlobalScope_Variant.Type>` type **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`custom_signal_swap_argument "
+#~ "<class_VisualScript_method_custom_signal_swap_argument>` **(**"
+#~ " :ref:`String <class_String>` name, :ref:`int "
+#~ "<class_int>` argidx, :ref:`int <class_int>` "
+#~ "withidx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`data_connect <class_VisualScript_method_data_connect>` "
+#~ "**(** :ref:`String <class_String>` func, "
+#~ ":ref:`int <class_int>` from_node, :ref:`int "
+#~ "<class_int>` from_port, :ref:`int <class_int>` "
+#~ "to_node, :ref:`int <class_int>` to_port **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`data_disconnect "
+#~ "<class_VisualScript_method_data_disconnect>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` from_node, :ref:`int <class_int>` "
+#~ "from_port, :ref:`int <class_int>` to_node, "
+#~ ":ref:`int <class_int>` to_port **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_function_node_id "
+#~ "<class_VisualScript_method_get_function_node_id>` **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_function_scroll "
+#~ "<class_VisualScript_method_get_function_scroll>` **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_node <class_VisualScript_method_get_node>` **(**"
+#~ " :ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` id **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_node_position "
+#~ "<class_VisualScript_method_get_node_position>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` id **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_variable_default_value "
+#~ "<class_VisualScript_method_get_variable_default_value>` **(**"
+#~ " :ref:`String <class_String>` name **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_variable_export "
+#~ "<class_VisualScript_method_get_variable_export>` **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_variable_info "
+#~ "<class_VisualScript_method_get_variable_info>` **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_custom_signal "
+#~ "<class_VisualScript_method_has_custom_signal>` **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_data_connection "
+#~ "<class_VisualScript_method_has_data_connection>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` from_node, :ref:`int <class_int>` "
+#~ "from_port, :ref:`int <class_int>` to_node, "
+#~ ":ref:`int <class_int>` to_port **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_function <class_VisualScript_method_has_function>` "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_node <class_VisualScript_method_has_node>` **(**"
+#~ " :ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` id **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_sequence_connection "
+#~ "<class_VisualScript_method_has_sequence_connection>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` from_node, :ref:`int <class_int>` "
+#~ "from_output, :ref:`int <class_int>` to_node "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_variable <class_VisualScript_method_has_variable>` "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_custom_signal "
+#~ "<class_VisualScript_method_remove_custom_signal>` **(** "
+#~ ":ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_function "
+#~ "<class_VisualScript_method_remove_function>` **(** "
+#~ ":ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_node <class_VisualScript_method_remove_node>` "
+#~ "**(** :ref:`String <class_String>` func, "
+#~ ":ref:`int <class_int>` id **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_variable "
+#~ "<class_VisualScript_method_remove_variable>` **(** "
+#~ ":ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`rename_custom_signal "
+#~ "<class_VisualScript_method_rename_custom_signal>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`String "
+#~ "<class_String>` new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`rename_function "
+#~ "<class_VisualScript_method_rename_function>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`String "
+#~ "<class_String>` new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`rename_variable "
+#~ "<class_VisualScript_method_rename_variable>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`String "
+#~ "<class_String>` new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`sequence_connect "
+#~ "<class_VisualScript_method_sequence_connect>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` from_node, :ref:`int <class_int>` "
+#~ "from_output, :ref:`int <class_int>` to_node "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`sequence_disconnect "
+#~ "<class_VisualScript_method_sequence_disconnect>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` from_node, :ref:`int <class_int>` "
+#~ "from_output, :ref:`int <class_int>` to_node "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_function_scroll "
+#~ "<class_VisualScript_method_set_function_scroll>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`Vector2 "
+#~ "<class_Vector2>` ofs **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_instance_base_type "
+#~ "<class_VisualScript_method_set_instance_base_type>` **(** "
+#~ ":ref:`String <class_String>` type **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_node_position "
+#~ "<class_VisualScript_method_set_node_position>` **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` id, :ref:`Vector2 <class_Vector2>` "
+#~ "position **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_variable_default_value "
+#~ "<class_VisualScript_method_set_variable_default_value>` **(**"
+#~ " :ref:`String <class_String>` name, :ref:`Variant"
+#~ " <class_Variant>` value **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_variable_export "
+#~ "<class_VisualScript_method_set_variable_export>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`bool "
+#~ "<class_bool>` enable **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_variable_info "
+#~ "<class_VisualScript_method_set_variable_info>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`Dictionary"
+#~ " <class_Dictionary>` value **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_custom_signal** **(** :ref:`String "
+#~ "<class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid "void **add_function** **(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_node** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "id, :ref:`VisualScriptNode <class_VisualScriptNode>` "
+#~ "node, :ref:`Vector2 <class_Vector2>` "
+#~ "position=Vector2( 0, 0 ) **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_variable** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`Variant <class_Variant>`"
+#~ " default_value=null, :ref:`bool <class_bool>` "
+#~ "export=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **custom_signal_add_argument** **(** "
+#~ ":ref:`String <class_String>` name, "
+#~ ":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` type,"
+#~ " :ref:`String <class_String>` argname, :ref:`int"
+#~ " <class_int>` index=-1 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` "
+#~ "**custom_signal_get_argument_count** **(** :ref:`String"
+#~ " <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`String <class_String>` "
+#~ "**custom_signal_get_argument_name** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`int <class_int>` "
+#~ "argidx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` "
+#~ "**custom_signal_get_argument_type** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`int <class_int>` "
+#~ "argidx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **custom_signal_remove_argument** **(** "
+#~ ":ref:`String <class_String>` name, :ref:`int "
+#~ "<class_int>` argidx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **custom_signal_set_argument_name** **(** "
+#~ ":ref:`String <class_String>` name, :ref:`int "
+#~ "<class_int>` argidx, :ref:`String <class_String>`"
+#~ " argname **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **custom_signal_set_argument_type** **(** "
+#~ ":ref:`String <class_String>` name, :ref:`int "
+#~ "<class_int>` argidx, :ref:`Variant.Type "
+#~ "<enum_@GlobalScope_Variant.Type>` type **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **custom_signal_swap_argument** **(** "
+#~ ":ref:`String <class_String>` name, :ref:`int "
+#~ "<class_int>` argidx, :ref:`int <class_int>` "
+#~ "withidx **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **data_connect** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "from_node, :ref:`int <class_int>` from_port, "
+#~ ":ref:`int <class_int>` to_node, :ref:`int "
+#~ "<class_int>` to_port **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **data_disconnect** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "from_node, :ref:`int <class_int>` from_port, "
+#~ ":ref:`int <class_int>` to_node, :ref:`int "
+#~ "<class_int>` to_port **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **get_function_node_id** "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Vector2 <class_Vector2>` **get_function_scroll** "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`VisualScriptNode <class_VisualScriptNode>` "
+#~ "**get_node** **(** :ref:`String <class_String>` "
+#~ "func, :ref:`int <class_int>` id **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Vector2 <class_Vector2>` **get_node_position** "
+#~ "**(** :ref:`String <class_String>` func, "
+#~ ":ref:`int <class_int>` id **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Variant <class_Variant>` "
+#~ "**get_variable_default_value** **(** :ref:`String "
+#~ "<class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **get_variable_export** "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Dictionary <class_Dictionary>` **get_variable_info**"
+#~ " **(** :ref:`String <class_String>` name "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_custom_signal** **(**"
+#~ " :ref:`String <class_String>` name **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_data_connection** "
+#~ "**(** :ref:`String <class_String>` func, "
+#~ ":ref:`int <class_int>` from_node, :ref:`int "
+#~ "<class_int>` from_port, :ref:`int <class_int>` "
+#~ "to_node, :ref:`int <class_int>` to_port **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_function** **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_node** **(** "
+#~ ":ref:`String <class_String>` func, :ref:`int "
+#~ "<class_int>` id **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_sequence_connection** "
+#~ "**(** :ref:`String <class_String>` func, "
+#~ ":ref:`int <class_int>` from_node, :ref:`int "
+#~ "<class_int>` from_output, :ref:`int <class_int>` "
+#~ "to_node **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_variable** **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **remove_custom_signal** **(** :ref:`String "
+#~ "<class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid "void **remove_function** **(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **remove_node** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "id **)**"
+#~ msgstr ""
+
+#~ msgid "void **remove_variable** **(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **rename_custom_signal** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`String <class_String>`"
+#~ " new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **rename_function** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`String <class_String>`"
+#~ " new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **rename_variable** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`String <class_String>`"
+#~ " new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **sequence_connect** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "from_node, :ref:`int <class_int>` from_output, "
+#~ ":ref:`int <class_int>` to_node **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **sequence_disconnect** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "from_node, :ref:`int <class_int>` from_output, "
+#~ ":ref:`int <class_int>` to_node **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_function_scroll** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`Vector2 <class_Vector2>`"
+#~ " ofs **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_instance_base_type** **(** :ref:`String"
+#~ " <class_String>` type **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_node_position** **(** :ref:`String "
+#~ "<class_String>` func, :ref:`int <class_int>` "
+#~ "id, :ref:`Vector2 <class_Vector2>` position "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_variable_default_value** **(** "
+#~ ":ref:`String <class_String>` name, :ref:`Variant "
+#~ "<class_Variant>` value **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_variable_export** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`bool <class_bool>` "
+#~ "enable **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_variable_info** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`Dictionary "
+#~ "<class_Dictionary>` value **)**"
+#~ msgstr ""
+

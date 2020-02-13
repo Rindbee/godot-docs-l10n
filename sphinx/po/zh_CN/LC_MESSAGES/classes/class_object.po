@@ -1,0 +1,1639 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-12-01 13:48+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:10
+msgid "Object"
+msgstr "Object"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:12
+msgid ""
+"**Inherited By:** :ref:`ARVRPositionalTracker "
+"<class_ARVRPositionalTracker>`, :ref:`ARVRServer <class_ARVRServer>`, "
+":ref:`AudioServer <class_AudioServer>`, :ref:`CameraServer "
+"<class_CameraServer>`, :ref:`ClassDB <class_ClassDB>`, "
+":ref:`EditorFileSystemDirectory <class_EditorFileSystemDirectory>`, "
+":ref:`EditorSelection <class_EditorSelection>`, :ref:`EditorVCSInterface "
+"<class_EditorVCSInterface>`, :ref:`Engine <class_Engine>`, :ref:`Geometry"
+" <class_Geometry>`, :ref:`GodotSharp <class_GodotSharp>`, :ref:`IP "
+"<class_IP>`, :ref:`Input <class_Input>`, :ref:`InputMap "
+"<class_InputMap>`, :ref:`JSON <class_JSON>`, :ref:`JSONRPC "
+"<class_JSONRPC>`, :ref:`JavaClassWrapper <class_JavaClassWrapper>`, "
+":ref:`JavaScript <class_JavaScript>`, :ref:`MainLoop <class_MainLoop>`, "
+":ref:`Marshalls <class_Marshalls>`, :ref:`Navigation2DServer "
+"<class_Navigation2DServer>`, :ref:`NavigationMeshGenerator "
+"<class_NavigationMeshGenerator>`, :ref:`NavigationServer "
+"<class_NavigationServer>`, :ref:`Node <class_Node>`, :ref:`OS "
+"<class_OS>`, :ref:`Performance <class_Performance>`, "
+":ref:`Physics2DDirectBodyState <class_Physics2DDirectBodyState>`, "
+":ref:`Physics2DDirectSpaceState <class_Physics2DDirectSpaceState>`, "
+":ref:`Physics2DServer <class_Physics2DServer>`, "
+":ref:`PhysicsDirectBodyState <class_PhysicsDirectBodyState>`, "
+":ref:`PhysicsDirectSpaceState <class_PhysicsDirectSpaceState>`, "
+":ref:`PhysicsServer <class_PhysicsServer>`, :ref:`ProjectSettings "
+"<class_ProjectSettings>`, :ref:`Reference <class_Reference>`, "
+":ref:`RenderingDevice <class_RenderingDevice>`, :ref:`ResourceLoader "
+"<class_ResourceLoader>`, :ref:`ResourceSaver <class_ResourceSaver>`, "
+":ref:`TranslationServer <class_TranslationServer>`, :ref:`TreeItem "
+"<class_TreeItem>`, :ref:`UndoRedo <class_UndoRedo>`, "
+":ref:`VisualScriptEditor <class_VisualScriptEditor>`, :ref:`VisualServer "
+"<class_VisualServer>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:14
+msgid "Base class for all non built-in types."
+msgstr "所有非内置类型的基类。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:19
+msgid "Every class which is not a built-in type inherits from this class."
+msgstr "每个不是内置类型的类，都将从该类继承。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:21
+msgid ""
+"You can construct Objects from scripting languages, using "
+"``Object.new()`` in GDScript, ``new Object`` in C#, or the \"Construct "
+"Object\" node in VisualScript."
+msgstr ""
+"您可以使用，GDScript中的 ``Object.new()``、C#中的 ``new Object``、或VisualScript中的 "
+"``构造对象（Construct Object）`` 节点，从脚本语言构造对象。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:23
+msgid ""
+"Objects do not manage memory. If a class inherits from Object, you will "
+"have to delete instances of it manually. To do so, call the :ref:`free "
+"<class_Object_method_free>` method from your script or delete the "
+"instance from C++."
+msgstr ""
+"``Object`` 不管理内存。如果类继承自 ``Object``，则必须手动删除其实例。为此，请从脚本中调用 :ref:`free "
+"<class_Object_method_free>` 方法、或从C++中删除实例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:25
+msgid ""
+"Some classes that extend Object add memory management. This is the case "
+"of :ref:`Reference <class_Reference>`, which counts references and "
+"deletes itself automatically when no longer referenced. :ref:`Node "
+"<class_Node>`, another fundamental type, deletes all its children when "
+"freed from memory."
+msgstr ""
+"一些扩展 ``Object`` 的类增加了内存管理。:ref:`Reference <class_Reference>` "
+"就是这种情况，它对引用计数，并在不再引用时自动删除自身。:ref:`Node <class_Node>` "
+"是另一种基本类型，当从内存中释放时，会删除其所有子级。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:27
+msgid ""
+"Objects export properties, which are mainly useful for storage and "
+"editing, but not really so much in programming. Properties are exported "
+"in :ref:`_get_property_list <class_Object_method__get_property_list>` and"
+" handled in :ref:`_get <class_Object_method__get>` and :ref:`_set "
+"<class_Object_method__set>`. However, scripting languages and C++ have "
+"simpler means to export them."
+msgstr ""
+"``Object`` 导出属性，主要用于存储和编辑，但在编程中并没有那么多。属性在 :ref:`_get_property_list "
+"<class_Object_method__get_property_list>` 中导出，并在 :ref:`_get "
+"<class_Object_method__get>` 和 :ref:`_set <class_Object_method__set>` "
+"中处理。但是，脚本语言和C++具有更简单的导出方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:29
+msgid "Property membership can be tested directly in GDScript using ``in``:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:37
+msgid ""
+"Objects also receive notifications. Notifications are a simple way to "
+"notify the object about different events, so they can all be handled "
+"together. See :ref:`_notification <class_Object_method__notification>`."
+msgstr ""
+"``Object`` 也接收通知。通知是通知对象有关不同事件的一种简单方法，因此它们可以一起处理。参见 :ref:`_notification "
+"<class_Object_method__notification>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:40
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:91
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ":ref:`Variant <class_Variant>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:43
+#, fuzzy
+msgid ""
+":ref:`_get <class_Object_method__get>` **(** :ref:`StringName "
+"<class_StringName>` property **)** virtual"
+msgstr ""
+":ref:`_get <class_Object_method__get>` **(** :ref:`String <class_String>`"
+" property **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:95
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:45
+msgid ""
+":ref:`_get_property_list <class_Object_method__get_property_list>` **(** "
+"**)** virtual"
+msgstr ""
+":ref:`_get_property_list <class_Object_method__get_property_list>` **(** "
+"**)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:121
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:129
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:47
+msgid ":ref:`_init <class_Object_method__init>` **(** **)** virtual"
+msgstr ":ref:`_init <class_Object_method__init>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:49
+msgid ""
+":ref:`_notification <class_Object_method__notification>` **(** :ref:`int "
+"<class_int>` what **)** virtual"
+msgstr ""
+":ref:`_notification <class_Object_method__notification>` **(** :ref:`int "
+"<class_int>` what **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:109
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:51
+#, fuzzy
+msgid ""
+":ref:`_set <class_Object_method__set>` **(** :ref:`StringName "
+"<class_StringName>` property, :ref:`Variant <class_Variant>` value **)** "
+"virtual"
+msgstr ""
+":ref:`_set <class_Object_method__set>` **(** :ref:`String <class_String>`"
+" property, :ref:`Variant <class_Variant>` value **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:131
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:53
+msgid ":ref:`_to_string <class_Object_method__to_string>` **(** **)** virtual"
+msgstr ":ref:`_to_string <class_Object_method__to_string>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:55
+msgid ""
+":ref:`add_user_signal <class_Object_method_add_user_signal>` **(** "
+":ref:`String <class_String>` signal, :ref:`Array <class_Array>` "
+"arguments=[  ] **)**"
+msgstr ""
+":ref:`add_user_signal <class_Object_method_add_user_signal>` **(** "
+":ref:`String <class_String>` signal, :ref:`Array <class_Array>` "
+"arguments=[  ] **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:57
+#, fuzzy
+msgid ""
+":ref:`call <class_Object_method_call>` **(** :ref:`StringName "
+"<class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`call <class_Object_method_call>` **(** :ref:`String <class_String>`"
+" method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:59
+#, fuzzy
+msgid ""
+":ref:`call_deferred <class_Object_method_call_deferred>` **(** "
+":ref:`StringName <class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`call_deferred <class_Object_method_call_deferred>` **(** "
+":ref:`String <class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:61
+#, fuzzy
+msgid ""
+":ref:`callv <class_Object_method_callv>` **(** :ref:`StringName "
+"<class_StringName>` method, :ref:`Array <class_Array>` arg_array **)**"
+msgstr ""
+":ref:`callv <class_Object_method_callv>` **(** :ref:`String "
+"<class_String>` method, :ref:`Array <class_Array>` arg_array **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:63
+msgid ""
+":ref:`can_translate_messages "
+"<class_Object_method_can_translate_messages>` **(** **)** const"
+msgstr ""
+":ref:`can_translate_messages "
+"<class_Object_method_can_translate_messages>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:65
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ":ref:`Error <enum_@GlobalScope_Error>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:65
+#, fuzzy
+msgid ""
+":ref:`connect <class_Object_method_connect>` **(** :ref:`StringName "
+"<class_StringName>` signal, :ref:`Callable <class_Callable>` callable, "
+":ref:`Array <class_Array>` binds=[  ], :ref:`int <class_int>` flags=0 "
+"**)**"
+msgstr ""
+":ref:`connect <class_Object_method_connect>` **(** :ref:`String "
+"<class_String>` signal, :ref:`Object <class_Object>` target, :ref:`String"
+" <class_String>` method, :ref:`Array <class_Array>` binds=[  ], :ref:`int"
+" <class_int>` flags=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:67
+#, fuzzy
+msgid ""
+":ref:`disconnect <class_Object_method_disconnect>` **(** :ref:`StringName"
+" <class_StringName>` signal, :ref:`Callable <class_Callable>` callable "
+"**)**"
+msgstr ""
+":ref:`disconnect <class_Object_method_disconnect>` **(** :ref:`String "
+"<class_String>` signal, :ref:`Object <class_Object>` target, :ref:`String"
+" <class_String>` method **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:69
+#, fuzzy
+msgid ""
+":ref:`emit_signal <class_Object_method_emit_signal>` **(** "
+":ref:`StringName <class_StringName>` signal, ... **)** vararg"
+msgstr ""
+":ref:`emit_signal <class_Object_method_emit_signal>` **(** :ref:`String "
+"<class_String>` signal, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:71
+msgid ":ref:`free <class_Object_method_free>` **(** **)**"
+msgstr ":ref:`free <class_Object_method_free>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:73
+msgid ""
+":ref:`get <class_Object_method_get>` **(** :ref:`String <class_String>` "
+"property **)** const"
+msgstr ""
+":ref:`get <class_Object_method_get>` **(** :ref:`String <class_String>` "
+"property **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:75
+msgid ":ref:`get_class <class_Object_method_get_class>` **(** **)** const"
+msgstr ":ref:`get_class <class_Object_method_get_class>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:77
+msgid ""
+":ref:`get_incoming_connections "
+"<class_Object_method_get_incoming_connections>` **(** **)** const"
+msgstr ""
+":ref:`get_incoming_connections "
+"<class_Object_method_get_incoming_connections>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:79
+msgid ""
+":ref:`get_indexed <class_Object_method_get_indexed>` **(** :ref:`NodePath"
+" <class_NodePath>` property **)** const"
+msgstr ""
+":ref:`get_indexed <class_Object_method_get_indexed>` **(** :ref:`NodePath"
+" <class_NodePath>` property **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:81
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:81
+msgid ""
+":ref:`get_instance_id <class_Object_method_get_instance_id>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_instance_id <class_Object_method_get_instance_id>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:83
+msgid ""
+":ref:`get_meta <class_Object_method_get_meta>` **(** :ref:`String "
+"<class_String>` name **)** const"
+msgstr ""
+":ref:`get_meta <class_Object_method_get_meta>` **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:85
+#, fuzzy
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ":ref:`PoolStringArray <class_PoolStringArray>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:85
+msgid ":ref:`get_meta_list <class_Object_method_get_meta_list>` **(** **)** const"
+msgstr ":ref:`get_meta_list <class_Object_method_get_meta_list>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:87
+msgid ""
+":ref:`get_method_list <class_Object_method_get_method_list>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_method_list <class_Object_method_get_method_list>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:89
+msgid ""
+":ref:`get_property_list <class_Object_method_get_property_list>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_property_list <class_Object_method_get_property_list>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:91
+msgid ":ref:`get_script <class_Object_method_get_script>` **(** **)** const"
+msgstr ":ref:`get_script <class_Object_method_get_script>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:93
+msgid ""
+":ref:`get_signal_connection_list "
+"<class_Object_method_get_signal_connection_list>` **(** :ref:`String "
+"<class_String>` signal **)** const"
+msgstr ""
+":ref:`get_signal_connection_list "
+"<class_Object_method_get_signal_connection_list>` **(** :ref:`String "
+"<class_String>` signal **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:95
+msgid ""
+":ref:`get_signal_list <class_Object_method_get_signal_list>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_signal_list <class_Object_method_get_signal_list>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:97
+msgid ""
+":ref:`has_meta <class_Object_method_has_meta>` **(** :ref:`String "
+"<class_String>` name **)** const"
+msgstr ""
+":ref:`has_meta <class_Object_method_has_meta>` **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:99
+#, fuzzy
+msgid ""
+":ref:`has_method <class_Object_method_has_method>` **(** :ref:`StringName"
+" <class_StringName>` method **)** const"
+msgstr ""
+":ref:`has_method <class_Object_method_has_method>` **(** :ref:`String "
+"<class_String>` method **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:101
+#, fuzzy
+msgid ""
+":ref:`has_user_signal <class_Object_method_has_user_signal>` **(** "
+":ref:`StringName <class_StringName>` signal **)** const"
+msgstr ""
+":ref:`has_user_signal <class_Object_method_has_user_signal>` **(** "
+":ref:`String <class_String>` signal **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:103
+msgid ""
+":ref:`is_blocking_signals <class_Object_method_is_blocking_signals>` "
+"**(** **)** const"
+msgstr ""
+":ref:`is_blocking_signals <class_Object_method_is_blocking_signals>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:105
+msgid ""
+":ref:`is_class <class_Object_method_is_class>` **(** :ref:`String "
+"<class_String>` class **)** const"
+msgstr ""
+":ref:`is_class <class_Object_method_is_class>` **(** :ref:`String "
+"<class_String>` class **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:107
+#, fuzzy
+msgid ""
+":ref:`is_connected <class_Object_method_is_connected>` **(** "
+":ref:`StringName <class_StringName>` signal, :ref:`Callable "
+"<class_Callable>` callable **)** const"
+msgstr ""
+":ref:`is_connected <class_Object_method_is_connected>` **(** :ref:`String"
+" <class_String>` signal, :ref:`Object <class_Object>` target, "
+":ref:`String <class_String>` method **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:109
+msgid ""
+":ref:`is_queued_for_deletion "
+"<class_Object_method_is_queued_for_deletion>` **(** **)** const"
+msgstr ""
+":ref:`is_queued_for_deletion "
+"<class_Object_method_is_queued_for_deletion>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:111
+msgid ""
+":ref:`notification <class_Object_method_notification>` **(** :ref:`int "
+"<class_int>` what, :ref:`bool <class_bool>` reversed=false **)**"
+msgstr ""
+":ref:`notification <class_Object_method_notification>` **(** :ref:`int "
+"<class_int>` what, :ref:`bool <class_bool>` reversed=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:113
+msgid ""
+":ref:`property_list_changed_notify "
+"<class_Object_method_property_list_changed_notify>` **(** **)**"
+msgstr ""
+":ref:`property_list_changed_notify "
+"<class_Object_method_property_list_changed_notify>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:115
+msgid ""
+":ref:`remove_meta <class_Object_method_remove_meta>` **(** :ref:`String "
+"<class_String>` name **)**"
+msgstr ""
+":ref:`remove_meta <class_Object_method_remove_meta>` **(** :ref:`String "
+"<class_String>` name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:117
+msgid ""
+":ref:`set <class_Object_method_set>` **(** :ref:`String <class_String>` "
+"property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+":ref:`set <class_Object_method_set>` **(** :ref:`String <class_String>` "
+"property, :ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:119
+msgid ""
+":ref:`set_block_signals <class_Object_method_set_block_signals>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+":ref:`set_block_signals <class_Object_method_set_block_signals>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:121
+#, fuzzy
+msgid ""
+":ref:`set_deferred <class_Object_method_set_deferred>` **(** "
+":ref:`StringName <class_StringName>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+":ref:`set_deferred <class_Object_method_set_deferred>` **(** :ref:`String"
+" <class_String>` property, :ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:123
+msgid ""
+":ref:`set_indexed <class_Object_method_set_indexed>` **(** :ref:`NodePath"
+" <class_NodePath>` property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+":ref:`set_indexed <class_Object_method_set_indexed>` **(** :ref:`NodePath"
+" <class_NodePath>` property, :ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:125
+msgid ""
+":ref:`set_message_translation "
+"<class_Object_method_set_message_translation>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_message_translation "
+"<class_Object_method_set_message_translation>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:127
+msgid ""
+":ref:`set_meta <class_Object_method_set_meta>` **(** :ref:`String "
+"<class_String>` name, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+":ref:`set_meta <class_Object_method_set_meta>` **(** :ref:`String "
+"<class_String>` name, :ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:129
+#, fuzzy
+msgid ""
+":ref:`set_script <class_Object_method_set_script>` **(** :ref:`Variant "
+"<class_Variant>` script **)**"
+msgstr ""
+":ref:`set_script <class_Object_method_set_script>` **(** :ref:`Reference "
+"<class_Reference>` script **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:131
+msgid ":ref:`to_string <class_Object_method_to_string>` **(** **)**"
+msgstr ":ref:`to_string <class_Object_method_to_string>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:133
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:133
+#, fuzzy
+msgid ""
+":ref:`tr <class_Object_method_tr>` **(** :ref:`StringName "
+"<class_StringName>` message **)** const"
+msgstr ""
+":ref:`tr <class_Object_method_tr>` **(** :ref:`String <class_String>` "
+"message **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:137
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:141
+msgid "**script_changed** **(** **)**"
+msgstr "**script_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:143
+msgid "Emitted whenever the object's script is changed."
+msgstr "每当对象的脚本更改时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:146
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:158
+msgid "enum **ConnectFlags**:"
+msgstr "枚举 **ConnectFlags**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:160
+msgid ""
+"**CONNECT_DEFERRED** = **1** --- Connects a signal in deferred mode. This"
+" way, signal emissions are stored in a queue, then set on idle time."
+msgstr "**CONNECT_DEFERRED** = **1** —— 在延迟模式下连接信号。这样，信号发射被存储在队列中，然后在空闲时间设置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:162
+msgid ""
+"**CONNECT_PERSIST** = **2** --- Persisting connections are saved when the"
+" object is serialized to file."
+msgstr "**CONNECT_PERSIST** = **2** —— 将对象序列化为文件时，将保存持久化连接。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:164
+msgid ""
+"**CONNECT_ONESHOT** = **4** --- One-shot connections disconnect "
+"themselves after emission."
+msgstr "**CONNECT_ONESHOT** = **4** —— 单次连接在发射后会自行断开。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:166
+msgid ""
+"**CONNECT_REFERENCE_COUNTED** = **8** --- Connect a signal as reference "
+"counted. This means that a given signal can be connected several times to"
+" the same target, and will only be fully disconnected once no references "
+"are left."
+msgstr ""
+"**CONNECT_REFERENCE_COUNTED** = **8** —— "
+"连接一个信号作为参考计数。这意味着一个给定的信号可以多次连接到同一目标，并且只有在没有引用的情况下才会完全断开。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:169
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:175
+msgid ""
+"**NOTIFICATION_POSTINITIALIZE** = **0** --- Called right when the object "
+"is initialized. Not available in script."
+msgstr "**NOTIFICATION_POSTINITIALIZE** = **0** —— 在初始化对象时立即调用。在脚本中不可用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:177
+msgid ""
+"**NOTIFICATION_PREDELETE** = **1** --- Called before the object is about "
+"to be deleted."
+msgstr "**NOTIFICATION_PREDELETE** = **1** --- 在对象将要删除之前调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:180
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:184
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **_get** **(** :ref:`StringName "
+"<class_StringName>` property **)** virtual"
+msgstr ""
+":ref:`Variant <class_Variant>` **_get** **(** :ref:`String "
+"<class_String>` property **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:186
+msgid ""
+"Virtual method which can be overridden to customize the return value of "
+":ref:`get <class_Object_method_get>`."
+msgstr "虚拟方法可以重写，以自定义 :ref:`get <class_Object_method_get>` 的返回值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:188
+msgid ""
+"Returns the given property. Returns ``null`` if the ``property`` does not"
+" exist."
+msgstr "返回给定的属性。如果 ``property`` 不存在，则返回 ``null``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:194
+msgid ":ref:`Array <class_Array>` **_get_property_list** **(** **)** virtual"
+msgstr ":ref:`Array <class_Array>` **_get_property_list** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:196
+msgid ""
+"Virtual method which can be overridden to customize the return value of "
+":ref:`get_property_list <class_Object_method_get_property_list>`."
+msgstr ""
+"虚拟方法可以重写，以自定义 :ref:`get_property_list "
+"<class_Object_method_get_property_list>` 的返回值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:434
+msgid ""
+"Returns the object's property list as an :ref:`Array <class_Array>` of "
+"dictionaries."
+msgstr "以一个字典的 :ref:`Array <class_Array>` 返回该对象的属性列表。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:200
+msgid ""
+"Each property's :ref:`Dictionary <class_Dictionary>` must contain at "
+"least ``name: String`` and ``type: int`` (see :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>`) entries. Optionally, it can also "
+"include ``hint: int`` (see :ref:`PropertyHint "
+"<enum_@GlobalScope_PropertyHint>`), ``hint_string: String``, and ``usage:"
+" int`` (see :ref:`PropertyUsageFlags "
+"<enum_@GlobalScope_PropertyUsageFlags>`)."
+msgstr ""
+"每个属性的 :ref:`Dictionary <class_Dictionary>` 必须至少包含 ``name: String`` 和 "
+"``type: int`` （请参阅 :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>`）条目。可选地，它还可以包含 ``hint: int`` （请参见 "
+":ref:`PropertyHint <enum_@GlobalScope_PropertyHint>`），``hint_string: "
+"String``，和 ``usage: int`` （请参见 :ref:`PropertyUsageFlags "
+"<enum_@GlobalScope_PropertyUsageFlags>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:206
+msgid "void **_init** **(** **)** virtual"
+msgstr "void **_init** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:208
+msgid "Called when the object is initialized."
+msgstr "初始化对象时调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:214
+msgid "void **_notification** **(** :ref:`int <class_int>` what **)** virtual"
+msgstr "void **_notification** **(** :ref:`int <class_int>` what **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:216
+msgid ""
+"Called whenever the object receives a notification, which is identified "
+"in ``what`` by a constant. The base ``Object`` has two constants "
+":ref:`NOTIFICATION_POSTINITIALIZE "
+"<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and "
+":ref:`NOTIFICATION_PREDELETE "
+"<class_Object_constant_NOTIFICATION_PREDELETE>`, but subclasses such as "
+":ref:`Node <class_Node>` define a lot more notifications which are also "
+"received by this method."
+msgstr ""
+"每当对象收到一个通知时调用，该通知由常量标识为 ``what``。基本的 ``Object`` 具有两个常量 "
+":ref:`NOTIFICATION_POSTINITIALIZE "
+"<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` 和 "
+":ref:`NOTIFICATION_PREDELETE "
+"<class_Object_constant_NOTIFICATION_PREDELETE>`，但是 :ref:`Node "
+"<class_Node>` 之类的子类定义了更多的通知，该方法也收到了这些通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:222
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **_set** **(** :ref:`StringName "
+"<class_StringName>` property, :ref:`Variant <class_Variant>` value **)** "
+"virtual"
+msgstr ""
+":ref:`bool <class_bool>` **_set** **(** :ref:`String <class_String>` "
+"property, :ref:`Variant <class_Variant>` value **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:224
+msgid ""
+"Virtual method which can be overridden to customize the return value of "
+":ref:`set <class_Object_method_set>`."
+msgstr "虚拟方法可以重写，以自定义 :ref:`set <class_Object_method_set>` 的返回值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:226
+msgid "Sets a property. Returns ``true`` if the ``property`` exists."
+msgstr "设置一个属性。如果存在 ``property``，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:232
+msgid ":ref:`String <class_String>` **_to_string** **(** **)** virtual"
+msgstr ":ref:`String <class_String>` **_to_string** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:234
+msgid ""
+"Virtual method which can be overridden to customize the return value of "
+":ref:`to_string <class_Object_method_to_string>`, and thus the object's "
+"representation where it is converted to a string, e.g. with "
+"``print(obj)``."
+msgstr ""
+"虚拟方法可以被重写，以自定义 :ref:`to_string <class_Object_method_to_string>` "
+"的返回值，从而将对象的表示形式转换为字符串，例如与 ``print(obj)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:236
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:616
+msgid ""
+"Returns a :ref:`String <class_String>` representing the object. If not "
+"overridden, defaults to ``\"[ClassName:RID]\"``."
+msgstr ""
+"返回表示对象的一个 :ref:`String <class_String>`。如果不被覆盖，则默认为 "
+"``\"[ClassName:RID]\"``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:242
+msgid ""
+"void **add_user_signal** **(** :ref:`String <class_String>` signal, "
+":ref:`Array <class_Array>` arguments=[  ] **)**"
+msgstr ""
+"void **add_user_signal** **(** :ref:`String <class_String>` signal, "
+":ref:`Array <class_Array>` arguments=[  ] **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:244
+msgid ""
+"Adds a user-defined ``signal``. Arguments are optional, but can be added "
+"as an :ref:`Array <class_Array>` of dictionaries, each containing ``name:"
+" String`` and ``type: int`` (see :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>`) entries."
+msgstr ""
+"添加用户定义的 ``signal``。参数是可选的，但可以作为字典的 :ref:`Array <class_Array>` 添加，每个字典包含 "
+"``name: String`` 和 ``type: int`` （请参阅 :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>`）条目。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:250
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **call** **(** :ref:`StringName "
+"<class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **call** **(** :ref:`String "
+"<class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:252
+msgid ""
+"Calls the ``method`` on the object and returns the result. This method "
+"supports a variable number of arguments, so parameters are passed as a "
+"comma separated list. Example:"
+msgstr "在对象上调用 ``method`` 并返回结果。此方法支持可变数量的参数，因此参数以逗号分隔列表的形式传递。例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:262
+#, fuzzy
+msgid ""
+"void **call_deferred** **(** :ref:`StringName <class_StringName>` method,"
+" ... **)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **call_deferred** **(** :ref:`String "
+"<class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:264
+#, fuzzy
+msgid ""
+"Calls the ``method`` on the object during idle time. This method supports"
+" a variable number of arguments, so parameters are passed as a comma "
+"separated list. Example:"
+msgstr "在空闲时间对对象调用 ``method``，并返回结果。此方法支持可变数量的参数，因此参数以逗号分隔列表的形式传递。例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:274
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **callv** **(** :ref:`StringName "
+"<class_StringName>` method, :ref:`Array <class_Array>` arg_array **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **callv** **(** :ref:`String "
+"<class_String>` method, :ref:`Array <class_Array>` arg_array **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:276
+msgid ""
+"Calls the ``method`` on the object and returns the result. Contrarily to "
+":ref:`call <class_Object_method_call>`, this method does not support a "
+"variable number of arguments but expects all parameters to be via a "
+"single :ref:`Array <class_Array>`."
+msgstr ""
+"在对象上调用 ``method`` 并返回结果。与调用 :ref:`call <class_Object_method_call>` "
+"的方法相反，此方法不支持可变数量的参数，但希望所有参数都通过单个 :ref:`Array <class_Array>` 来实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:286
+msgid ":ref:`bool <class_bool>` **can_translate_messages** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **can_translate_messages** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:288
+msgid ""
+"Returns ``true`` if the object can translate strings. See "
+":ref:`set_message_translation "
+"<class_Object_method_set_message_translation>` and :ref:`tr "
+"<class_Object_method_tr>`."
+msgstr ""
+"如果对象可以翻译字符串，则返回 ``true``。请参阅 :ref:`set_message_translation "
+"<class_Object_method_set_message_translation>` 和 :ref:`tr "
+"<class_Object_method_tr>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:294
+#, fuzzy
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **connect** **(** :ref:`StringName"
+" <class_StringName>` signal, :ref:`Callable <class_Callable>` callable, "
+":ref:`Array <class_Array>` binds=[  ], :ref:`int <class_int>` flags=0 "
+"**)**"
+msgstr ""
+":ref:`Error <enum_@GlobalScope_Error>` **connect** **(** :ref:`String "
+"<class_String>` signal, :ref:`Object <class_Object>` target, :ref:`String"
+" <class_String>` method, :ref:`Array <class_Array>` binds=[  ], :ref:`int"
+" <class_int>` flags=0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:296
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:327
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:508
+msgid ""
+"**FIXME:** The syntax changed with the addition of :ref:`Callable "
+"<class_Callable>`, this should be updated."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:298
+msgid ""
+"Connects a ``signal`` to a ``method`` on a ``target`` object. Pass "
+"optional ``binds`` to the call as an :ref:`Array <class_Array>` of "
+"parameters. These parameters will be passed to the method after any "
+"parameter used in the call to :ref:`emit_signal "
+"<class_Object_method_emit_signal>`. Use ``flags`` to set deferred or one-"
+"shot connections. See :ref:`ConnectFlags <enum_Object_ConnectFlags>` "
+"constants."
+msgstr ""
+"将一个 ``signal`` 连接到一个 ``target`` 对象上的一个 ``method``。将可选的 ``binds`` 作为参数的 "
+":ref:`Array <class_Array>` 传递给调用。这些参数将在任何参数在调用 :ref:`emit_signal "
+"<class_Object_method_emit_signal>` 的方法中使用之后传递给方法。使用 ``flags`` "
+"设置延迟或一次性连接。请参阅 :ref:`ConnectFlags <enum_Object_ConnectFlags>` 常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:300
+msgid ""
+"A ``signal`` can only be connected once to a ``method``. It will throw an"
+" error if already connected, unless the signal was connected with "
+":ref:`CONNECT_REFERENCE_COUNTED "
+"<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To avoid this, first,"
+" use :ref:`is_connected <class_Object_method_is_connected>` to check for "
+"existing connections."
+msgstr ""
+"一个 ``signal`` 只能连接到一个 ``method`` 一次。如果已经连接，它将抛出一个错误，除非该信号与 "
+":ref:`CONNECT_REFERENCE_COUNTED "
+"<class_Object_constant_CONNECT_REFERENCE_COUNTED>` 连接。为了避免这种情况，首先，使用 "
+":ref:`is_connected <class_Object_method_is_connected>` 检查现有连接。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:302
+msgid ""
+"If the ``target`` is destroyed in the game's lifecycle, the connection "
+"will be lost."
+msgstr "如果在游戏的生命周期中破坏了 ``target``，则连接将丢失。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:304
+msgid "Examples:"
+msgstr "示例:"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:312
+msgid ""
+"An example of the relationship between ``binds`` passed to :ref:`connect "
+"<class_Object_method_connect>` and parameters used when calling "
+":ref:`emit_signal <class_Object_method_emit_signal>`:"
+msgstr ""
+"传递给 :ref:`connect <class_Object_method_connect>` 的 ``binds`` 与调用 "
+":ref:`emit_signal <class_Object_method_emit_signal>` 时使用的参数，之间的关系的示例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:325
+#, fuzzy
+msgid ""
+"void **disconnect** **(** :ref:`StringName <class_StringName>` signal, "
+":ref:`Callable <class_Callable>` callable **)**"
+msgstr ""
+"void **set_meta** **(** :ref:`String <class_String>` name, :ref:`Variant "
+"<class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:329
+msgid "Disconnects a ``signal`` from a ``method`` on the given ``target``."
+msgstr "在给定的 ``target`` 上从一个 ``method`` 上断开一个 ``signal``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:331
+msgid ""
+"If you try to disconnect a connection that does not exist, the method "
+"will throw an error. Use :ref:`is_connected "
+"<class_Object_method_is_connected>` to ensure that the connection exists."
+msgstr ""
+"如果您尝试断开不存在的连接，则该方法将引发错误。使用 :ref:`is_connected "
+"<class_Object_method_is_connected>` 以确保连接存在。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:337
+#, fuzzy
+msgid ""
+"void **emit_signal** **(** :ref:`StringName <class_StringName>` signal, "
+"... **)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **emit_signal** **(** :ref:`String "
+"<class_String>` signal, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:339
+msgid ""
+"Emits the given ``signal``. The signal must exist, so it should be a "
+"built-in signal of this class or one of its parent classes, or a user-"
+"defined signal. This method supports a variable number of arguments, so "
+"parameters are passed as a comma separated list. Example:"
+msgstr ""
+"发出给定的 "
+"``signal``。该信号必须存在，因此它应该是此类或它的父类之一的一个内置信号，或者是一个用户定义的信号。此方法支持可变数量的参数，因此参数以逗号分隔列表的形式传递。例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:350
+msgid "void **free** **(** **)**"
+msgstr "void **free** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:352
+msgid ""
+"Deletes the object from memory. Any pre-existing reference to the freed "
+"object will now return ``null``."
+msgstr "从内存中删除对象。对已释放的对象的任何先前存在的引用，现在都将返回 ``null``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:358
+msgid ""
+":ref:`Variant <class_Variant>` **get** **(** :ref:`String <class_String>`"
+" property **)** const"
+msgstr ""
+":ref:`Variant <class_Variant>` **get** **(** :ref:`String <class_String>`"
+" property **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:360
+#, fuzzy
+msgid ""
+"Returns the :ref:`Variant <class_Variant>` value of the given "
+"``property``. If the ``property`` doesn't exist, this will return "
+"``null``."
+msgstr "返回给定 ``property`` 的 :ref:`Variant <class_Variant>` 值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:366
+msgid ":ref:`String <class_String>` **get_class** **(** **)** const"
+msgstr ":ref:`String <class_String>` **get_class** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:368
+msgid "Returns the object's class as a :ref:`String <class_String>`."
+msgstr "以一个 :ref:`String <class_String>` 的形式返回对象的类。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:374
+msgid ":ref:`Array <class_Array>` **get_incoming_connections** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_incoming_connections** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:376
+msgid ""
+"Returns an :ref:`Array <class_Array>` of dictionaries with information "
+"about signals that are connected to the object."
+msgstr "返回字典的一个 :ref:`Array <class_Array>`，字典中包含有关连接到对象的信号的信息。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:378
+msgid "Each :ref:`Dictionary <class_Dictionary>` contains three String entries:"
+msgstr "每个 :ref:`Dictionary <class_Dictionary>` 包含三个字符串条目："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:380
+msgid "``source`` is a reference to the signal emitter."
+msgstr "``source`` 是对信号发射器的一个引用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:382
+msgid "``signal_name`` is the name of the connected signal."
+msgstr "``signal_name`` 是所连接信号的名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:384
+msgid ""
+"``method_name`` is the name of the method to which the signal is "
+"connected."
+msgstr "``method_name`` 是信号所连接的方法的名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:390
+msgid ""
+":ref:`Variant <class_Variant>` **get_indexed** **(** :ref:`NodePath "
+"<class_NodePath>` property **)** const"
+msgstr ""
+":ref:`Variant <class_Variant>` **get_indexed** **(** :ref:`NodePath "
+"<class_NodePath>` property **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:392
+msgid ""
+"Gets the object's property indexed by the given :ref:`NodePath "
+"<class_NodePath>`. The node path should be relative to the current object"
+" and can use the colon character (``:``) to access nested properties. "
+"Examples: ``\"position:x\"`` or ``\"material:next_pass:blend_mode\"``."
+msgstr ""
+"获取由给定的 :ref:`NodePath <class_NodePath>` "
+"索引的对象的属性。节点路径应相对于当前对象，并且可以使用冒号（``:``）访问嵌套属性。例如：``\"position:x\"`` 或 "
+"``\"material:next_pass:blend_mode\"``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:398
+msgid ":ref:`int <class_int>` **get_instance_id** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_instance_id** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:400
+msgid "Returns the object's unique instance ID."
+msgstr "返回对象的唯一实例ID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:402
+msgid ""
+"This ID can be saved in :ref:`EncodedObjectAsID "
+"<class_EncodedObjectAsID>`, and can be used to retrieve the object "
+"instance with :ref:`@GDScript.instance_from_id "
+"<class_@GDScript_method_instance_from_id>`."
+msgstr ""
+"该ID可以保存在 :ref:`EncodedObjectAsID <class_EncodedObjectAsID>` 中，并且可以用于和 "
+":ref:`@GDScript.instance_from_id "
+"<class_@GDScript_method_instance_from_id>` 检索对象实例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:408
+msgid ""
+":ref:`Variant <class_Variant>` **get_meta** **(** :ref:`String "
+"<class_String>` name **)** const"
+msgstr ""
+":ref:`Variant <class_Variant>` **get_meta** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:410
+msgid "Returns the object's metadata entry for the given ``name``."
+msgstr "返回给定 ``name`` 的对象的元数据条目。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:416
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_meta_list** "
+"**(** **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_meta_list** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:418
+#, fuzzy
+msgid ""
+"Returns the object's metadata as a :ref:`PackedStringArray "
+"<class_PackedStringArray>`."
+msgstr "以一个 :ref:`PoolStringArray <class_PoolStringArray>` 返回对象的元数据。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:424
+msgid ":ref:`Array <class_Array>` **get_method_list** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_method_list** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:426
+msgid ""
+"Returns the object's methods and their signatures as an :ref:`Array "
+"<class_Array>`."
+msgstr "以一个 :ref:`Array <class_Array>` 的形式，返回对象的方法及其签名。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:432
+msgid ":ref:`Array <class_Array>` **get_property_list** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_property_list** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:436
+msgid ""
+"Each property's :ref:`Dictionary <class_Dictionary>` contain at least "
+"``name: String`` and ``type: int`` (see :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>`) entries. Optionally, it can also "
+"include ``hint: int`` (see :ref:`PropertyHint "
+"<enum_@GlobalScope_PropertyHint>`), ``hint_string: String``, and ``usage:"
+" int`` (see :ref:`PropertyUsageFlags "
+"<enum_@GlobalScope_PropertyUsageFlags>`)."
+msgstr ""
+"每个属性的 :ref:`Dictionary <class_Dictionary>` 至少包含 ``name: String`` 和 "
+"``type: int`` （请参阅 :ref:`Variant.Type "
+"<enum_@GlobalScope_Variant.Type>`）条目。可选地，它还可以包含 ``hint: int`` （请参见 "
+":ref:`PropertyHint <enum_@GlobalScope_PropertyHint>`）、``hint_string: "
+"String``、和 ``usage: int`` （请参见 :ref:`PropertyUsageFlags "
+"<enum_@GlobalScope_PropertyUsageFlags>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:442
+#, fuzzy
+msgid ":ref:`Variant <class_Variant>` **get_script** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_instance_id** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:444
+msgid ""
+"Returns the object's :ref:`Script <class_Script>` instance, or ``null`` "
+"if none is assigned."
+msgstr "返回对象的 :ref:`Script <class_Script>` 实例；如果未分配，则返回 ``null``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:450
+msgid ""
+":ref:`Array <class_Array>` **get_signal_connection_list** **(** "
+":ref:`String <class_String>` signal **)** const"
+msgstr ""
+":ref:`Array <class_Array>` **get_signal_connection_list** **(** "
+":ref:`String <class_String>` signal **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:452
+msgid ""
+"Returns an :ref:`Array <class_Array>` of connections for the given "
+"``signal``."
+msgstr "返回给定 ``signal`` 的连接的 :ref:`Array <class_Array>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:458
+msgid ":ref:`Array <class_Array>` **get_signal_list** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_signal_list** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:460
+msgid ""
+"Returns the list of signals as an :ref:`Array <class_Array>` of "
+"dictionaries."
+msgstr "以字典的一个 :ref:`Array <class_Array>` 的形式，返回信号列表。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:466
+msgid ""
+":ref:`bool <class_bool>` **has_meta** **(** :ref:`String <class_String>` "
+"name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_meta** **(** :ref:`String <class_String>` "
+"name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:468
+msgid "Returns ``true`` if a metadata entry is found with the given ``name``."
+msgstr "如果找到具有给定 ``name`` 的元数据条目，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:474
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_method** **(** :ref:`StringName "
+"<class_StringName>` method **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_method** **(** :ref:`String "
+"<class_String>` method **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:476
+msgid "Returns ``true`` if the object contains the given ``method``."
+msgstr "如果对象包含给定的 ``method``，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:482
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_user_signal** **(** :ref:`StringName "
+"<class_StringName>` signal **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_user_signal** **(** :ref:`String "
+"<class_String>` signal **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:484
+msgid "Returns ``true`` if the given user-defined ``signal`` exists."
+msgstr "如果给定的用户定义的 ``signal`` 存在，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:490
+msgid ":ref:`bool <class_bool>` **is_blocking_signals** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_blocking_signals** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:492
+msgid "Returns ``true`` if signal emission blocking is enabled."
+msgstr "如果启用了信号发射阻止，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:498
+msgid ""
+":ref:`bool <class_bool>` **is_class** **(** :ref:`String <class_String>` "
+"class **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_class** **(** :ref:`String <class_String>` "
+"class **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:500
+msgid "Returns ``true`` if the object inherits from the given ``class``."
+msgstr "如果对象继承自给定的 ``class``，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:506
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_connected** **(** :ref:`StringName "
+"<class_StringName>` signal, :ref:`Callable <class_Callable>` callable "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_connected** **(** :ref:`String "
+"<class_String>` signal, :ref:`Object <class_Object>` target, :ref:`String"
+" <class_String>` method **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:510
+msgid ""
+"Returns ``true`` if a connection exists for a given ``signal``, "
+"``target``, and ``method``."
+msgstr "如果给定的 ``signal``、``target``、和 ``method`` 存在连接，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:516
+msgid ":ref:`bool <class_bool>` **is_queued_for_deletion** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_queued_for_deletion** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:518
+msgid ""
+"Returns ``true`` if the :ref:`Node.queue_free "
+"<class_Node_method_queue_free>` method was called for the object."
+msgstr ""
+"如果为该对象调用了 :ref:`Node.queue_free <class_Node_method_queue_free>` 方法，则返回 "
+"``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:524
+msgid ""
+"void **notification** **(** :ref:`int <class_int>` what, :ref:`bool "
+"<class_bool>` reversed=false **)**"
+msgstr ""
+"void **notification** **(** :ref:`int <class_int>` what, :ref:`bool "
+"<class_bool>` reversed=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:526
+msgid ""
+"Send a given notification to the object, which will also trigger a call "
+"to the :ref:`_notification <class_Object_method__notification>` method of"
+" all classes that the object inherits from."
+msgstr ""
+"向对象发送给定的通知，该通知还将触发——对该对象继承自的，所有类的 :ref:`_notification "
+"<class_Object_method__notification>` 方法的调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:528
+msgid ""
+"If ``reversed`` is ``true``, :ref:`_notification "
+"<class_Object_method__notification>` is called first on the object's own "
+"class, and then up to its successive parent classes. If ``reversed`` is "
+"``false``, :ref:`_notification <class_Object_method__notification>` is "
+"called first on the highest ancestor (``Object`` itself), and then down "
+"to its successive inheriting classes."
+msgstr ""
+"如果 ``reversed`` 为 ``true``，则首先在对象自己的类上，调用 :ref:`_notification "
+"<class_Object_method__notification>`，然后再调用其连续的父类。如果 ``reversed`` 为 "
+"``false``，则首先在最高祖先（``Object`` 本身）上调用 :ref:`_notification "
+"<class_Object_method__notification>`，然后向下调用其连续的子类。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:534
+msgid "void **property_list_changed_notify** **(** **)**"
+msgstr "void **property_list_changed_notify** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:536
+msgid ""
+"Notify the editor that the property list has changed, so that editor "
+"plugins can take the new values into account. Does nothing on export "
+"builds."
+msgstr "通知编辑器属性列表已更改，以便编辑器插件可以考虑新值。在导出版本上不执行任何操作。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:542
+msgid "void **remove_meta** **(** :ref:`String <class_String>` name **)**"
+msgstr "void **remove_meta** **(** :ref:`String <class_String>` name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:544
+msgid "Removes a given entry from the object's metadata."
+msgstr "从对象的元数据中删除给定的条目。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:550
+msgid ""
+"void **set** **(** :ref:`String <class_String>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+"void **set** **(** :ref:`String <class_String>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:552
+msgid ""
+"Assigns a new value to the given property. If the ``property`` does not "
+"exist, nothing will happen."
+msgstr "为给定的属性分配一个新值。如果 ``property`` 不存在，将不会发生任何事情。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:558
+msgid "void **set_block_signals** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_block_signals** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:560
+msgid "If set to ``true``, signal emission is blocked."
+msgstr "如果设置为 ``true``，则会阻止信号发射。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:566
+#, fuzzy
+msgid ""
+"void **set_deferred** **(** :ref:`StringName <class_StringName>` "
+"property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+"void **set_deferred** **(** :ref:`String <class_String>` property, "
+":ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:568
+msgid ""
+"Assigns a new value to the given property, after the current frame's "
+"physics step. This is equivalent to calling :ref:`set "
+"<class_Object_method_set>` via :ref:`call_deferred "
+"<class_Object_method_call_deferred>`, i.e. ``call_deferred(\"set\", "
+"property, value)``."
+msgstr ""
+"在当前帧的物理步骤之后，将新值分配给给定的属性。这等效于通过 :ref:`call_deferred "
+"<class_Object_method_call_deferred>` 调用 :ref:`set "
+"<class_Object_method_set>`，即 ``call_deferred(\"set\", property, value)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:574
+msgid ""
+"void **set_indexed** **(** :ref:`NodePath <class_NodePath>` property, "
+":ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+"void **set_indexed** **(** :ref:`NodePath <class_NodePath>` property, "
+":ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:576
+msgid ""
+"Assigns a new value to the property identified by the :ref:`NodePath "
+"<class_NodePath>`. The node path should be relative to the current object"
+" and can use the colon character (``:``) to access nested properties. "
+"Example:"
+msgstr ""
+"为 :ref:`NodePath <class_NodePath>` "
+"所标识的属性分配一个新值。节点路径应相对于当前对象，并且可以使用冒号（``:``）访问嵌套属性。例："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:588
+msgid ""
+"void **set_message_translation** **(** :ref:`bool <class_bool>` enable "
+"**)**"
+msgstr ""
+"void **set_message_translation** **(** :ref:`bool <class_bool>` enable "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:590
+msgid ""
+"Defines whether the object can translate strings (with calls to :ref:`tr "
+"<class_Object_method_tr>`). Enabled by default."
+msgstr "定义对象是否可以翻译字符串（通过调用 :ref:`tr <class_Object_method_tr>`）。默认启用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:596
+msgid ""
+"void **set_meta** **(** :ref:`String <class_String>` name, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+"void **set_meta** **(** :ref:`String <class_String>` name, :ref:`Variant "
+"<class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:598
+msgid ""
+"Adds or changes a given entry in the object's metadata. Metadata are "
+"serialized, and can take any :ref:`Variant <class_Variant>` value."
+msgstr "在对象的元数据中添加或更改给定的条目。元数据已序列化，并且可以采用任何 :ref:`Variant <class_Variant>` 值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:604
+#, fuzzy
+msgid "void **set_script** **(** :ref:`Variant <class_Variant>` script **)**"
+msgstr "void **set_script** **(** :ref:`Reference <class_Reference>` script **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:606
+msgid ""
+"Assigns a script to the object. Each object can have a single script "
+"assigned to it, which are used to extend its functionality."
+msgstr "将一个脚本分配给对象。每个对象可以分配有一个脚本，该脚本用于扩展其功能。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:608
+msgid ""
+"If the object already had a script, the previous script instance will be "
+"freed and its variables and state will be lost. The new script's "
+":ref:`_init <class_Object_method__init>` method will be called."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:614
+msgid ":ref:`String <class_String>` **to_string** **(** **)**"
+msgstr ":ref:`String <class_String>` **to_string** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:618
+msgid ""
+"Override the method :ref:`_to_string <class_Object_method__to_string>` to"
+" customize the :ref:`String <class_String>` representation."
+msgstr ""
+"覆盖方法 :ref:`_to_string <class_Object_method__to_string>` 以自定义 :ref:`String"
+" <class_String>` 表示形式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:624
+#, fuzzy
+msgid ""
+":ref:`StringName <class_StringName>` **tr** **(** :ref:`StringName "
+"<class_StringName>` message **)** const"
+msgstr ""
+":ref:`String <class_String>` **tr** **(** :ref:`String <class_String>` "
+"message **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:626
+msgid ""
+"Translates a message using translation catalogs configured in the Project"
+" Settings."
+msgstr "使用项目设置中配置的翻译目录翻译消息。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_object.rst:628
+msgid ""
+"Only works if message translation is enabled (which it is by default), "
+"otherwise it returns the ``message`` unchanged. See "
+":ref:`set_message_translation "
+"<class_Object_method_set_message_translation>`."
+msgstr ""
+"仅在启用消息翻译（默认情况下）时才有效，否则它将返回未改变的 ``message``。请参阅 "
+":ref:`set_message_translation "
+"<class_Object_method_set_message_translation>`。"
+
+#~ msgid ""
+#~ "Connects a ``signal`` to a ``method``"
+#~ " on a ``target`` object. Pass "
+#~ "optional ``binds`` to the call as "
+#~ "an :ref:`Array <class_Array>` of parameters."
+#~ " Use ``flags`` to set deferred or "
+#~ "one-shot connections. See :ref:`ConnectFlags"
+#~ " <enum_Object_ConnectFlags>` constants."
+#~ msgstr ""
+#~ "将 ``signal`` 连接到 ``target`` 对象上的 "
+#~ "``method``。将可选的 ``binds`` 作为参数的一个 :ref:`Array "
+#~ "<class_Array>` 传递给调用。使用 ``flags`` 设置延迟或单次连接。请参阅 "
+#~ ":ref:`ConnectFlags <enum_Object_ConnectFlags>` 常量。"
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`ARVRPositionalTracker "
+#~ "<class_ARVRPositionalTracker>`, :ref:`ARVRServer "
+#~ "<class_ARVRServer>`, :ref:`AudioServer "
+#~ "<class_AudioServer>`, :ref:`CameraServer "
+#~ "<class_CameraServer>`, :ref:`ClassDB <class_ClassDB>`, "
+#~ ":ref:`EditorFileSystemDirectory "
+#~ "<class_EditorFileSystemDirectory>`, "
+#~ ":ref:`EditorNavigationMeshGenerator "
+#~ "<class_EditorNavigationMeshGenerator>`, :ref:`EditorSelection"
+#~ " <class_EditorSelection>`, :ref:`EditorVCSInterface "
+#~ "<class_EditorVCSInterface>`, :ref:`Engine <class_Engine>`,"
+#~ " :ref:`Geometry <class_Geometry>`, :ref:`GodotSharp "
+#~ "<class_GodotSharp>`, :ref:`IP <class_IP>`, "
+#~ ":ref:`Input <class_Input>`, :ref:`InputMap "
+#~ "<class_InputMap>`, :ref:`JSON <class_JSON>`, "
+#~ ":ref:`JSONRPC <class_JSONRPC>`, :ref:`JavaScript "
+#~ "<class_JavaScript>`, :ref:`MainLoop <class_MainLoop>`, "
+#~ ":ref:`Node <class_Node>`, :ref:`OS <class_OS>`, "
+#~ ":ref:`Performance <class_Performance>`, "
+#~ ":ref:`Physics2DDirectBodyState "
+#~ "<class_Physics2DDirectBodyState>`, "
+#~ ":ref:`Physics2DDirectSpaceState "
+#~ "<class_Physics2DDirectSpaceState>`, :ref:`Physics2DServer "
+#~ "<class_Physics2DServer>`, :ref:`PhysicsDirectBodyState "
+#~ "<class_PhysicsDirectBodyState>`, :ref:`PhysicsDirectSpaceState"
+#~ " <class_PhysicsDirectSpaceState>`, :ref:`PhysicsServer "
+#~ "<class_PhysicsServer>`, :ref:`ProjectSettings "
+#~ "<class_ProjectSettings>`, :ref:`Reference "
+#~ "<class_Reference>`, :ref:`ResourceLoader "
+#~ "<class_ResourceLoader>`, :ref:`ResourceSaver "
+#~ "<class_ResourceSaver>`, :ref:`TranslationServer "
+#~ "<class_TranslationServer>`, :ref:`TreeItem "
+#~ "<class_TreeItem>`, :ref:`UndoRedo <class_UndoRedo>`, "
+#~ ":ref:`VisualScriptEditor <class_VisualScriptEditor>`, "
+#~ ":ref:`VisualServer <class_VisualServer>`"
+#~ msgstr ""
+#~ "**子类**： :ref:`ARVRPositionalTracker "
+#~ "<class_ARVRPositionalTracker>`, :ref:`ARVRServer "
+#~ "<class_ARVRServer>`, :ref:`AudioServer "
+#~ "<class_AudioServer>`, :ref:`CameraServer "
+#~ "<class_CameraServer>`, :ref:`ClassDB <class_ClassDB>`, "
+#~ ":ref:`EditorFileSystemDirectory "
+#~ "<class_EditorFileSystemDirectory>`, "
+#~ ":ref:`EditorNavigationMeshGenerator "
+#~ "<class_EditorNavigationMeshGenerator>`, :ref:`EditorSelection"
+#~ " <class_EditorSelection>`, :ref:`EditorVCSInterface "
+#~ "<class_EditorVCSInterface>`, :ref:`Engine <class_Engine>`,"
+#~ " :ref:`Geometry <class_Geometry>`, :ref:`GodotSharp "
+#~ "<class_GodotSharp>`, :ref:`IP <class_IP>`, "
+#~ ":ref:`Input <class_Input>`, :ref:`InputMap "
+#~ "<class_InputMap>`, :ref:`JSON <class_JSON>`, "
+#~ ":ref:`JSONRPC <class_JSONRPC>`, :ref:`JavaScript "
+#~ "<class_JavaScript>`, :ref:`MainLoop <class_MainLoop>`, "
+#~ ":ref:`Node <class_Node>`, :ref:`OS <class_OS>`, "
+#~ ":ref:`Performance <class_Performance>`, "
+#~ ":ref:`Physics2DDirectBodyState "
+#~ "<class_Physics2DDirectBodyState>`, "
+#~ ":ref:`Physics2DDirectSpaceState "
+#~ "<class_Physics2DDirectSpaceState>`, :ref:`Physics2DServer "
+#~ "<class_Physics2DServer>`, :ref:`PhysicsDirectBodyState "
+#~ "<class_PhysicsDirectBodyState>`, :ref:`PhysicsDirectSpaceState"
+#~ " <class_PhysicsDirectSpaceState>`, :ref:`PhysicsServer "
+#~ "<class_PhysicsServer>`, :ref:`ProjectSettings "
+#~ "<class_ProjectSettings>`, :ref:`Reference "
+#~ "<class_Reference>`, :ref:`ResourceLoader "
+#~ "<class_ResourceLoader>`, :ref:`ResourceSaver "
+#~ "<class_ResourceSaver>`, :ref:`TranslationServer "
+#~ "<class_TranslationServer>`, :ref:`TreeItem "
+#~ "<class_TreeItem>`, :ref:`UndoRedo <class_UndoRedo>`, "
+#~ ":ref:`VisualScriptEditor <class_VisualScriptEditor>`, "
+#~ ":ref:`VisualServer <class_VisualServer>`"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`ARVRPositionalTracker "
+#~ "<class_ARVRPositionalTracker>`, :ref:`ARVRServer "
+#~ "<class_ARVRServer>`, :ref:`AudioServer "
+#~ "<class_AudioServer>`, :ref:`CameraServer "
+#~ "<class_CameraServer>`, :ref:`ClassDB <class_ClassDB>`, "
+#~ ":ref:`EditorFileSystemDirectory "
+#~ "<class_EditorFileSystemDirectory>`, "
+#~ ":ref:`EditorNavigationMeshGenerator "
+#~ "<class_EditorNavigationMeshGenerator>`, :ref:`EditorSelection"
+#~ " <class_EditorSelection>`, :ref:`EditorVCSInterface "
+#~ "<class_EditorVCSInterface>`, :ref:`Engine <class_Engine>`,"
+#~ " :ref:`Geometry <class_Geometry>`, :ref:`GodotSharp "
+#~ "<class_GodotSharp>`, :ref:`IP <class_IP>`, "
+#~ ":ref:`Input <class_Input>`, :ref:`InputMap "
+#~ "<class_InputMap>`, :ref:`JSON <class_JSON>`, "
+#~ ":ref:`JSONRPC <class_JSONRPC>`, :ref:`JavaClassWrapper "
+#~ "<class_JavaClassWrapper>`, :ref:`JavaScript "
+#~ "<class_JavaScript>`, :ref:`MainLoop <class_MainLoop>`, "
+#~ ":ref:`Node <class_Node>`, :ref:`OS <class_OS>`, "
+#~ ":ref:`Performance <class_Performance>`, "
+#~ ":ref:`Physics2DDirectBodyState "
+#~ "<class_Physics2DDirectBodyState>`, "
+#~ ":ref:`Physics2DDirectSpaceState "
+#~ "<class_Physics2DDirectSpaceState>`, :ref:`Physics2DServer "
+#~ "<class_Physics2DServer>`, :ref:`PhysicsDirectBodyState "
+#~ "<class_PhysicsDirectBodyState>`, :ref:`PhysicsDirectSpaceState"
+#~ " <class_PhysicsDirectSpaceState>`, :ref:`PhysicsServer "
+#~ "<class_PhysicsServer>`, :ref:`ProjectSettings "
+#~ "<class_ProjectSettings>`, :ref:`Reference "
+#~ "<class_Reference>`, :ref:`ResourceLoader "
+#~ "<class_ResourceLoader>`, :ref:`ResourceSaver "
+#~ "<class_ResourceSaver>`, :ref:`TranslationServer "
+#~ "<class_TranslationServer>`, :ref:`TreeItem "
+#~ "<class_TreeItem>`, :ref:`UndoRedo <class_UndoRedo>`, "
+#~ ":ref:`VisualScriptEditor <class_VisualScriptEditor>`, "
+#~ ":ref:`VisualServer <class_VisualServer>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`ARVRPositionalTracker "
+#~ "<class_ARVRPositionalTracker>`, :ref:`ARVRServer "
+#~ "<class_ARVRServer>`, :ref:`AudioServer "
+#~ "<class_AudioServer>`, :ref:`CameraServer "
+#~ "<class_CameraServer>`, :ref:`ClassDB <class_ClassDB>`, "
+#~ ":ref:`EditorFileSystemDirectory "
+#~ "<class_EditorFileSystemDirectory>`, :ref:`EditorSelection "
+#~ "<class_EditorSelection>`, :ref:`EditorVCSInterface "
+#~ "<class_EditorVCSInterface>`, :ref:`Engine <class_Engine>`,"
+#~ " :ref:`Geometry <class_Geometry>`, :ref:`GodotSharp "
+#~ "<class_GodotSharp>`, :ref:`IP <class_IP>`, "
+#~ ":ref:`Input <class_Input>`, :ref:`InputMap "
+#~ "<class_InputMap>`, :ref:`JSON <class_JSON>`, "
+#~ ":ref:`JSONRPC <class_JSONRPC>`, :ref:`JavaClassWrapper "
+#~ "<class_JavaClassWrapper>`, :ref:`JavaScript "
+#~ "<class_JavaScript>`, :ref:`MainLoop <class_MainLoop>`, "
+#~ ":ref:`Navigation2DServer <class_Navigation2DServer>`, "
+#~ ":ref:`NavigationMeshGenerator <class_NavigationMeshGenerator>`,"
+#~ " :ref:`NavigationServer <class_NavigationServer>`, "
+#~ ":ref:`Node <class_Node>`, :ref:`OS <class_OS>`, "
+#~ ":ref:`Performance <class_Performance>`, "
+#~ ":ref:`Physics2DDirectBodyState "
+#~ "<class_Physics2DDirectBodyState>`, "
+#~ ":ref:`Physics2DDirectSpaceState "
+#~ "<class_Physics2DDirectSpaceState>`, :ref:`Physics2DServer "
+#~ "<class_Physics2DServer>`, :ref:`PhysicsDirectBodyState "
+#~ "<class_PhysicsDirectBodyState>`, :ref:`PhysicsDirectSpaceState"
+#~ " <class_PhysicsDirectSpaceState>`, :ref:`PhysicsServer "
+#~ "<class_PhysicsServer>`, :ref:`ProjectSettings "
+#~ "<class_ProjectSettings>`, :ref:`Reference "
+#~ "<class_Reference>`, :ref:`RenderingDevice "
+#~ "<class_RenderingDevice>`, :ref:`ResourceLoader "
+#~ "<class_ResourceLoader>`, :ref:`ResourceSaver "
+#~ "<class_ResourceSaver>`, :ref:`TranslationServer "
+#~ "<class_TranslationServer>`, :ref:`TreeItem "
+#~ "<class_TreeItem>`, :ref:`UndoRedo <class_UndoRedo>`, "
+#~ ":ref:`VisualScriptEditor <class_VisualScriptEditor>`, "
+#~ ":ref:`VisualServer <class_VisualServer>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`Reference <class_Reference>`"
+#~ msgstr ":ref:`Reference <class_Reference>`"
+
+#~ msgid ""
+#~ "void **disconnect** **(** :ref:`String "
+#~ "<class_String>` signal, :ref:`Object <class_Object>`"
+#~ " target, :ref:`String <class_String>` method "
+#~ "**)**"
+#~ msgstr ""
+#~ "void **disconnect** **(** :ref:`String "
+#~ "<class_String>` signal, :ref:`Object <class_Object>`"
+#~ " target, :ref:`String <class_String>` method "
+#~ "**)**"
+
+#~ msgid ":ref:`Reference <class_Reference>` **get_script** **(** **)** const"
+#~ msgstr ":ref:`Reference <class_Reference>` **get_script** **(** **)** const"
+

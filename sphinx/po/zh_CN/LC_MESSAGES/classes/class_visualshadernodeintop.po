@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:10
+msgid "VisualShaderNodeIntOp"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:14
+msgid "An integer scalar operator to be used within the visual shader graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:19
+msgid ""
+"Applies :ref:`operator <class_VisualShaderNodeIntOp_property_operator>` "
+"to two integer inputs: ``a`` and ``b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:25
+msgid ":ref:`Operator <enum_VisualShaderNodeIntOp_Operator>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:25
+msgid ":ref:`operator <class_VisualShaderNodeIntOp_property_operator>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:71
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:29
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:47
+msgid "enum **Operator**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:49
+msgid "**OP_ADD** = **0** --- Sums two numbers using ``a + b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:51
+msgid "**OP_SUB** = **1** --- Subtracts two numbers using ``a - b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:53
+msgid "**OP_MUL** = **2** --- Multiplies two numbers using ``a * b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:55
+msgid "**OP_DIV** = **3** --- Divides two numbers using ``a / b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:57
+msgid ""
+"**OP_MOD** = **4** --- Calculates the remainder of two numbers using ``a "
+"% b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:59
+msgid ""
+"**OP_MAX** = **5** --- Returns the greater of two numbers. Translates to "
+"``max(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:61
+msgid ""
+"**OP_MIN** = **6** --- Returns the lesser of two numbers. Translates to "
+"``max(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:64
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:68
+msgid ":ref:`Operator <enum_VisualShaderNodeIntOp_Operator>` **operator**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:71
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:73
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:73
+msgid "set_operator(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:75
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:75
+msgid "get_operator()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintop.rst:78
+msgid ""
+"An operator to be applied to the inputs. See :ref:`Operator "
+"<enum_VisualShaderNodeIntOp_Operator>` for options."
+msgstr ""
+

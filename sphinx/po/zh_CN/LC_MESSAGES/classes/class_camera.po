@@ -1,0 +1,1056 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_camera.rst:10
+msgid "Camera"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:12
+msgid ""
+"**Inherits:** :ref:`Spatial <class_Spatial>` **<** :ref:`Node "
+"<class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:14
+msgid ""
+"**Inherited By:** :ref:`ARVRCamera <class_ARVRCamera>`, "
+":ref:`ClippedCamera <class_ClippedCamera>`, :ref:`InterpolatedCamera "
+"<class_InterpolatedCamera>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:16
+msgid "Camera node, displays from a point of view."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:21
+msgid ""
+"Camera is a special node that displays what is visible from its current "
+"location. Cameras register themselves in the nearest :ref:`Viewport "
+"<class_Viewport>` node (when ascending the tree). Only one camera can be "
+"active per viewport. If no viewport is available ascending the tree, the "
+"camera will register in the global viewport. In other words, a camera "
+"just provides 3D display capabilities to a :ref:`Viewport "
+"<class_Viewport>`, and, without one, a scene registered in that "
+":ref:`Viewport <class_Viewport>` (or higher viewports) can't be "
+"displayed."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:27
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:27
+msgid ":ref:`cull_mask <class_Camera_property_cull_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:27
+#: ../../docs/classes/class_camera.rst:152
+msgid "``1048575``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:29
+#: ../../docs/classes/class_camera.rst:66
+#: ../../docs/classes/class_camera.rst:70
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:29
+msgid ":ref:`current <class_Camera_property_current>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:29
+#: ../../docs/classes/class_camera.rst:168
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:31
+msgid ":ref:`DopplerTracking <enum_Camera_DopplerTracking>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:31
+msgid ":ref:`doppler_tracking <class_Camera_property_doppler_tracking>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:31
+#: ../../docs/classes/class_camera.rst:49
+#: ../../docs/classes/class_camera.rst:184
+#: ../../docs/classes/class_camera.rst:322
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:33
+msgid ":ref:`CameraEffects <class_CameraEffects>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:33
+msgid ":ref:`effects <class_Camera_property_effects>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:35
+msgid ":ref:`Environment <class_Environment>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:35
+msgid ":ref:`environment <class_Camera_property_environment>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:37
+#: ../../docs/classes/class_camera.rst:39
+#: ../../docs/classes/class_camera.rst:43
+#: ../../docs/classes/class_camera.rst:47
+#: ../../docs/classes/class_camera.rst:51
+#: ../../docs/classes/class_camera.rst:53
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:37
+msgid ":ref:`far <class_Camera_property_far>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:37
+#: ../../docs/classes/class_camera.rst:226
+msgid "``100.0``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:39
+msgid ":ref:`fov <class_Camera_property_fov>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:39
+#: ../../docs/classes/class_camera.rst:242
+msgid "``70.0``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:41
+#: ../../docs/classes/class_camera.rst:90
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:41
+msgid ":ref:`frustum_offset <class_Camera_property_frustum_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:41
+#: ../../docs/classes/class_camera.rst:258
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:43
+msgid ":ref:`h_offset <class_Camera_property_h_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:43
+#: ../../docs/classes/class_camera.rst:53
+#: ../../docs/classes/class_camera.rst:274
+#: ../../docs/classes/class_camera.rst:354
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:45
+msgid ":ref:`KeepAspect <enum_Camera_KeepAspect>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:45
+msgid ":ref:`keep_aspect <class_Camera_property_keep_aspect>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:45
+#: ../../docs/classes/class_camera.rst:290
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:47
+msgid ":ref:`near <class_Camera_property_near>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:47
+#: ../../docs/classes/class_camera.rst:306
+msgid "``0.05``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:49
+msgid ":ref:`Projection <enum_Camera_Projection>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:49
+msgid ":ref:`projection <class_Camera_property_projection>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:51
+msgid ":ref:`size <class_Camera_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:51
+#: ../../docs/classes/class_camera.rst:338
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:53
+msgid ":ref:`v_offset <class_Camera_property_v_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:57
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:60
+#: ../../docs/classes/class_camera.rst:72
+#: ../../docs/classes/class_camera.rst:82
+#: ../../docs/classes/class_camera.rst:84
+#: ../../docs/classes/class_camera.rst:86
+#: ../../docs/classes/class_camera.rst:88
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:60
+msgid ""
+":ref:`clear_current <class_Camera_method_clear_current>` **(** :ref:`bool"
+" <class_bool>` enable_next=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:62
+msgid ":ref:`RID <class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:62
+msgid ""
+":ref:`get_camera_rid <class_Camera_method_get_camera_rid>` **(** **)** "
+"const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:64
+msgid ":ref:`Transform <class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:64
+msgid ""
+":ref:`get_camera_transform <class_Camera_method_get_camera_transform>` "
+"**(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:66
+msgid ""
+":ref:`get_cull_mask_bit <class_Camera_method_get_cull_mask_bit>` **(** "
+":ref:`int <class_int>` layer **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:68
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:68
+msgid ":ref:`get_frustum <class_Camera_method_get_frustum>` **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:70
+msgid ""
+":ref:`is_position_behind <class_Camera_method_is_position_behind>` **(** "
+":ref:`Vector3 <class_Vector3>` world_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:72
+msgid ":ref:`make_current <class_Camera_method_make_current>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:74
+#: ../../docs/classes/class_camera.rst:76
+#: ../../docs/classes/class_camera.rst:78
+#: ../../docs/classes/class_camera.rst:80
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:74
+msgid ""
+":ref:`project_local_ray_normal "
+"<class_Camera_method_project_local_ray_normal>` **(** :ref:`Vector2 "
+"<class_Vector2>` screen_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:76
+msgid ""
+":ref:`project_position <class_Camera_method_project_position>` **(** "
+":ref:`Vector2 <class_Vector2>` screen_point, :ref:`float <class_float>` "
+"z_depth **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:78
+msgid ""
+":ref:`project_ray_normal <class_Camera_method_project_ray_normal>` **(** "
+":ref:`Vector2 <class_Vector2>` screen_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:80
+msgid ""
+":ref:`project_ray_origin <class_Camera_method_project_ray_origin>` **(** "
+":ref:`Vector2 <class_Vector2>` screen_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:82
+msgid ""
+":ref:`set_cull_mask_bit <class_Camera_method_set_cull_mask_bit>` **(** "
+":ref:`int <class_int>` layer, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:84
+msgid ""
+":ref:`set_frustum <class_Camera_method_set_frustum>` **(** :ref:`float "
+"<class_float>` size, :ref:`Vector2 <class_Vector2>` offset, :ref:`float "
+"<class_float>` z_near, :ref:`float <class_float>` z_far **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:86
+msgid ""
+":ref:`set_orthogonal <class_Camera_method_set_orthogonal>` **(** "
+":ref:`float <class_float>` size, :ref:`float <class_float>` z_near, "
+":ref:`float <class_float>` z_far **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:88
+msgid ""
+":ref:`set_perspective <class_Camera_method_set_perspective>` **(** "
+":ref:`float <class_float>` fov, :ref:`float <class_float>` z_near, "
+":ref:`float <class_float>` z_far **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:90
+msgid ""
+":ref:`unproject_position <class_Camera_method_unproject_position>` **(** "
+":ref:`Vector3 <class_Vector3>` world_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:94
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:104
+msgid "enum **Projection**:"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:106
+msgid ""
+"**PROJECTION_PERSPECTIVE** = **0** --- Perspective projection. Objects on"
+" the screen becomes smaller when they are far away."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:108
+msgid ""
+"**PROJECTION_ORTHOGONAL** = **1** --- Orthogonal projection, also known "
+"as orthographic projection. Objects remain the same size on the screen no"
+" matter how far away they are."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:110
+msgid ""
+"**PROJECTION_FRUSTUM** = **2** --- Frustum projection. This mode allows "
+"adjusting :ref:`frustum_offset <class_Camera_property_frustum_offset>` to"
+" create \"tilted frustum\" effects."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:120
+msgid "enum **KeepAspect**:"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:122
+msgid ""
+"**KEEP_WIDTH** = **0** --- Preserves the horizontal aspect ratio; also "
+"known as Vert- scaling. This is usually the best option for projects "
+"running in portrait mode, as taller aspect ratios will benefit from a "
+"wider vertical FOV."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:124
+msgid ""
+"**KEEP_HEIGHT** = **1** --- Preserves the vertical aspect ratio; also "
+"known as Hor+ scaling. This is usually the best option for projects "
+"running in landscape mode, as wider aspect ratios will automatically "
+"benefit from a wider horizontal FOV."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:136
+msgid "enum **DopplerTracking**:"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:138
+msgid ""
+"**DOPPLER_TRACKING_DISABLED** = **0** --- Disables `Doppler effect "
+"<https://en.wikipedia.org/wiki/Doppler_effect>`_ simulation (default)."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:140
+msgid ""
+"**DOPPLER_TRACKING_IDLE_STEP** = **1** --- Simulate `Doppler effect "
+"<https://en.wikipedia.org/wiki/Doppler_effect>`_ by tracking positions of"
+" objects that are changed in ``_process``. Changes in the relative "
+"velocity of this camera compared to those objects affect how Audio is "
+"perceived (changing the Audio's ``pitch shift``)."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:142
+msgid ""
+"**DOPPLER_TRACKING_PHYSICS_STEP** = **2** --- Simulate `Doppler effect "
+"<https://en.wikipedia.org/wiki/Doppler_effect>`_ by tracking positions of"
+" objects that are changed in ``_physics_process``. Changes in the "
+"relative velocity of this camera compared to those objects affect how "
+"Audio is perceived (changing the Audio's ``pitch shift``)."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:145
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:149
+msgid ":ref:`int <class_int>` **cull_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:152
+#: ../../docs/classes/class_camera.rst:168
+#: ../../docs/classes/class_camera.rst:184
+#: ../../docs/classes/class_camera.rst:226
+#: ../../docs/classes/class_camera.rst:242
+#: ../../docs/classes/class_camera.rst:258
+#: ../../docs/classes/class_camera.rst:274
+#: ../../docs/classes/class_camera.rst:290
+#: ../../docs/classes/class_camera.rst:306
+#: ../../docs/classes/class_camera.rst:322
+#: ../../docs/classes/class_camera.rst:338
+#: ../../docs/classes/class_camera.rst:354
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:154
+#: ../../docs/classes/class_camera.rst:170
+#: ../../docs/classes/class_camera.rst:186
+#: ../../docs/classes/class_camera.rst:200
+#: ../../docs/classes/class_camera.rst:212
+#: ../../docs/classes/class_camera.rst:228
+#: ../../docs/classes/class_camera.rst:244
+#: ../../docs/classes/class_camera.rst:260
+#: ../../docs/classes/class_camera.rst:276
+#: ../../docs/classes/class_camera.rst:292
+#: ../../docs/classes/class_camera.rst:308
+#: ../../docs/classes/class_camera.rst:324
+#: ../../docs/classes/class_camera.rst:340
+#: ../../docs/classes/class_camera.rst:356
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:154
+msgid "set_cull_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:156
+#: ../../docs/classes/class_camera.rst:172
+#: ../../docs/classes/class_camera.rst:188
+#: ../../docs/classes/class_camera.rst:202
+#: ../../docs/classes/class_camera.rst:214
+#: ../../docs/classes/class_camera.rst:230
+#: ../../docs/classes/class_camera.rst:246
+#: ../../docs/classes/class_camera.rst:262
+#: ../../docs/classes/class_camera.rst:278
+#: ../../docs/classes/class_camera.rst:294
+#: ../../docs/classes/class_camera.rst:310
+#: ../../docs/classes/class_camera.rst:326
+#: ../../docs/classes/class_camera.rst:342
+#: ../../docs/classes/class_camera.rst:358
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:156
+msgid "get_cull_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:159
+msgid ""
+"The culling mask that describes which 3D render layers are rendered by "
+"this camera."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:165
+msgid ":ref:`bool <class_bool>` **current**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:170
+msgid "set_current(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:172
+msgid "is_current()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:175
+msgid ""
+"If ``true``, the ancestor :ref:`Viewport <class_Viewport>` is currently "
+"using this camera."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:181
+msgid ":ref:`DopplerTracking <enum_Camera_DopplerTracking>` **doppler_tracking**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:186
+msgid "set_doppler_tracking(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:188
+msgid "get_doppler_tracking()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:191
+msgid ""
+"If not :ref:`DOPPLER_TRACKING_DISABLED "
+"<class_Camera_constant_DOPPLER_TRACKING_DISABLED>`, this camera will "
+"simulate the `Doppler effect "
+"<https://en.wikipedia.org/wiki/Doppler_effect>`_ for objects changed in "
+"particular ``_process`` methods. See :ref:`DopplerTracking "
+"<enum_Camera_DopplerTracking>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:197
+msgid ":ref:`CameraEffects <class_CameraEffects>` **effects**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:200
+msgid "set_effects(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:202
+msgid "get_effects()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:209
+msgid ":ref:`Environment <class_Environment>` **environment**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:212
+msgid "set_environment(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:214
+msgid "get_environment()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:217
+msgid "The :ref:`Environment <class_Environment>` to use for this camera."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:223
+msgid ":ref:`float <class_float>` **far**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:228
+msgid "set_zfar(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:230
+msgid "get_zfar()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:233
+msgid ""
+"The distance to the far culling boundary for this camera relative to its "
+"local Z axis."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:239
+msgid ":ref:`float <class_float>` **fov**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:244
+msgid "set_fov(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:246
+msgid "get_fov()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:249
+msgid ""
+"The camera's field of view angle (in degrees). Only applicable in "
+"perspective mode. Since :ref:`keep_aspect "
+"<class_Camera_property_keep_aspect>` locks one axis, ``fov`` sets the "
+"other axis' field of view angle."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:255
+msgid ":ref:`Vector2 <class_Vector2>` **frustum_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:260
+msgid "set_frustum_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:262
+msgid "get_frustum_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:265
+msgid ""
+"The camera's frustum offset. This can be changed from the default to "
+"create \"tilted frustum\" effects such as `Y-shearing "
+"<https://zdoom.org/wiki/Y-shearing>`_."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:271
+msgid ":ref:`float <class_float>` **h_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:276
+msgid "set_h_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:278
+msgid "get_h_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:281
+msgid "The horizontal (X) offset of the camera viewport."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:287
+msgid ":ref:`KeepAspect <enum_Camera_KeepAspect>` **keep_aspect**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:292
+msgid "set_keep_aspect_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:294
+msgid "get_keep_aspect_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:297
+msgid ""
+"The axis to lock during :ref:`fov <class_Camera_property_fov>`/:ref:`size"
+" <class_Camera_property_size>` adjustments. Can be either "
+":ref:`KEEP_WIDTH <class_Camera_constant_KEEP_WIDTH>` or :ref:`KEEP_HEIGHT"
+" <class_Camera_constant_KEEP_HEIGHT>`."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:303
+msgid ":ref:`float <class_float>` **near**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:308
+msgid "set_znear(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:310
+msgid "get_znear()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:313
+msgid ""
+"The distance to the near culling boundary for this camera relative to its"
+" local Z axis."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:319
+msgid ":ref:`Projection <enum_Camera_Projection>` **projection**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:324
+msgid "set_projection(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:326
+msgid "get_projection()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:329
+msgid ""
+"The camera's projection mode. In :ref:`PROJECTION_PERSPECTIVE "
+"<class_Camera_constant_PROJECTION_PERSPECTIVE>` mode, objects' Z distance"
+" from the camera's local space scales their perceived size."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:335
+msgid ":ref:`float <class_float>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:340
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:342
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:345
+msgid ""
+"The camera's size measured as 1/2 the width or height. Only applicable in"
+" orthogonal mode. Since :ref:`keep_aspect "
+"<class_Camera_property_keep_aspect>` locks on axis, ``size`` sets the "
+"other axis' size length."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:351
+msgid ":ref:`float <class_float>` **v_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:356
+msgid "set_v_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:358
+msgid "get_v_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:361
+msgid "The vertical (Y) offset of the camera viewport."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:364
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:368
+msgid ""
+"void **clear_current** **(** :ref:`bool <class_bool>` enable_next=true "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:370
+msgid ""
+"If this is the current camera, remove it from being current. If "
+"``enable_next`` is ``true``, request to make the next camera current, if "
+"any."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:376
+msgid ":ref:`RID <class_RID>` **get_camera_rid** **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:378
+msgid ""
+"Returns the camera's RID from the :ref:`VisualServer "
+"<class_VisualServer>`."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:384
+msgid ""
+":ref:`Transform <class_Transform>` **get_camera_transform** **(** **)** "
+"const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:386
+msgid ""
+"Gets the camera transform. Subclassed cameras such as "
+":ref:`InterpolatedCamera <class_InterpolatedCamera>` may provide "
+"different transforms than the :ref:`Node <class_Node>` transform."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:392
+msgid ""
+":ref:`bool <class_bool>` **get_cull_mask_bit** **(** :ref:`int "
+"<class_int>` layer **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:394
+msgid ""
+"Returns ``true`` if the given ``layer`` in the :ref:`cull_mask "
+"<class_Camera_property_cull_mask>` is enabled, ``false`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:400
+msgid ":ref:`Array <class_Array>` **get_frustum** **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:402
+msgid ""
+"Returns the camera's frustum planes in world-space units as an array of "
+":ref:`Plane <class_Plane>`\\ s in the following order: near, far, left, "
+"top, right, bottom. Not to be confused with :ref:`frustum_offset "
+"<class_Camera_property_frustum_offset>`."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:408
+msgid ""
+":ref:`bool <class_bool>` **is_position_behind** **(** :ref:`Vector3 "
+"<class_Vector3>` world_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:410
+msgid "Returns ``true`` if the given position is behind the camera."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:412
+msgid ""
+"**Note:** A position which returns ``false`` may still be outside the "
+"camera's field of view."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:418
+msgid "void **make_current** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:420
+msgid ""
+"Makes this camera the current camera for the :ref:`Viewport "
+"<class_Viewport>` (see class description). If the camera node is outside "
+"the scene tree, it will attempt to become current once it's added."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:426
+msgid ""
+":ref:`Vector3 <class_Vector3>` **project_local_ray_normal** **(** "
+":ref:`Vector2 <class_Vector2>` screen_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:428
+msgid ""
+"Returns a normal vector from the screen point location directed along the"
+" camera. Orthogonal cameras are normalized. Perspective cameras account "
+"for perspective, screen width/height, etc."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:434
+msgid ""
+":ref:`Vector3 <class_Vector3>` **project_position** **(** :ref:`Vector2 "
+"<class_Vector2>` screen_point, :ref:`float <class_float>` z_depth **)** "
+"const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:436
+msgid ""
+"Returns the 3D point in worldspace that maps to the given 2D coordinate "
+"in the :ref:`Viewport <class_Viewport>` rectangle on a plane that is the "
+"given ``z_depth`` distance into the scene away from the camera."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:442
+msgid ""
+":ref:`Vector3 <class_Vector3>` **project_ray_normal** **(** :ref:`Vector2"
+" <class_Vector2>` screen_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:444
+msgid ""
+"Returns a normal vector in worldspace, that is the result of projecting a"
+" point on the :ref:`Viewport <class_Viewport>` rectangle by the camera "
+"projection. This is useful for casting rays in the form of (origin, "
+"normal) for object intersection or picking."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:450
+msgid ""
+":ref:`Vector3 <class_Vector3>` **project_ray_origin** **(** :ref:`Vector2"
+" <class_Vector2>` screen_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:452
+msgid ""
+"Returns a 3D position in worldspace, that is the result of projecting a "
+"point on the :ref:`Viewport <class_Viewport>` rectangle by the camera "
+"projection. This is useful for casting rays in the form of (origin, "
+"normal) for object intersection or picking."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:458
+msgid ""
+"void **set_cull_mask_bit** **(** :ref:`int <class_int>` layer, :ref:`bool"
+" <class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:460
+msgid ""
+"Enables or disables the given ``layer`` in the :ref:`cull_mask "
+"<class_Camera_property_cull_mask>`."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:466
+msgid ""
+"void **set_frustum** **(** :ref:`float <class_float>` size, :ref:`Vector2"
+" <class_Vector2>` offset, :ref:`float <class_float>` z_near, :ref:`float "
+"<class_float>` z_far **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:468
+msgid ""
+"Sets the camera projection to frustum mode (see :ref:`PROJECTION_FRUSTUM "
+"<class_Camera_constant_PROJECTION_FRUSTUM>`), by specifying a ``size``, "
+"an ``offset``, and the ``z_near`` and ``z_far`` clip planes in world-"
+"space units."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:474
+msgid ""
+"void **set_orthogonal** **(** :ref:`float <class_float>` size, "
+":ref:`float <class_float>` z_near, :ref:`float <class_float>` z_far **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:476
+msgid ""
+"Sets the camera projection to orthogonal mode (see "
+":ref:`PROJECTION_ORTHOGONAL "
+"<class_Camera_constant_PROJECTION_ORTHOGONAL>`), by specifying a "
+"``size``, and the ``z_near`` and ``z_far`` clip planes in world-space "
+"units. (As a hint, 2D games often use this projection, with values "
+"specified in pixels.)"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:482
+msgid ""
+"void **set_perspective** **(** :ref:`float <class_float>` fov, "
+":ref:`float <class_float>` z_near, :ref:`float <class_float>` z_far **)**"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:484
+msgid ""
+"Sets the camera projection to perspective mode (see "
+":ref:`PROJECTION_PERSPECTIVE "
+"<class_Camera_constant_PROJECTION_PERSPECTIVE>`), by specifying a ``fov``"
+" (field of view) angle in degrees, and the ``z_near`` and ``z_far`` clip "
+"planes in world-space units."
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:490
+msgid ""
+":ref:`Vector2 <class_Vector2>` **unproject_position** **(** :ref:`Vector3"
+" <class_Vector3>` world_point **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_camera.rst:492
+msgid ""
+"Returns the 2D coordinate in the :ref:`Viewport <class_Viewport>` "
+"rectangle that maps to the given 3D point in worldspace."
+msgstr ""
+
+#~ msgid ""
+#~ ":ref:`project_position <class_Camera_method_project_position>`"
+#~ " **(** :ref:`Vector2 <class_Vector2>` "
+#~ "screen_point, :ref:`float <class_float>` z_depth=0"
+#~ " **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Vector3 <class_Vector3>` **project_position** "
+#~ "**(** :ref:`Vector2 <class_Vector2>` screen_point,"
+#~ " :ref:`float <class_float>` z_depth=0 **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the 3D point in worldspace "
+#~ "that maps to the given 2D "
+#~ "coordinate in the :ref:`Viewport "
+#~ "<class_Viewport>` rectangle on a plane "
+#~ "that is the given distance into "
+#~ "the scene away from the camera."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**DOPPLER_TRACKING_DISABLED** = **0** --- "
+#~ "Disables Doppler effect simulation (default)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**DOPPLER_TRACKING_IDLE_STEP** = **1** --- "
+#~ "Simulate Doppler effect by tracking "
+#~ "positions of objects that are changed"
+#~ " in ``_process``. Changes in the "
+#~ "relative velocity of this camera "
+#~ "compared to those objects affect how "
+#~ "Audio is perceived (changing the Audio's"
+#~ " ``pitch shift``)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**DOPPLER_TRACKING_PHYSICS_STEP** = **2** --- "
+#~ "Simulate Doppler effect by tracking "
+#~ "positions of objects that are changed"
+#~ " in ``_physics_process``. Changes in the"
+#~ " relative velocity of this camera "
+#~ "compared to those objects affect how "
+#~ "Audio is perceived (changing the Audio's"
+#~ " ``pitch shift``)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If not :ref:`DOPPLER_TRACKING_DISABLED "
+#~ "<class_Camera_constant_DOPPLER_TRACKING_DISABLED>`, this "
+#~ "camera will simulate the Doppler effect"
+#~ " for objects changed in particular "
+#~ "``_process`` methods. See :ref:`DopplerTracking "
+#~ "<enum_Camera_DopplerTracking>` for possible values."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the camera projection to orthogonal"
+#~ " mode, by specifying a width and "
+#~ "the ``near`` and ``far`` clip planes "
+#~ "in worldspace units. (As a hint, "
+#~ "2D games often use this projection, "
+#~ "with values specified in pixels)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the camera projection to "
+#~ "perspective mode, by specifying a "
+#~ "``fov`` angle in degrees (FOV means "
+#~ "Field of View), and the ``near`` "
+#~ "and ``far`` clip planes in world-"
+#~ "space units."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "1048575"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "100.0"
+#~ msgstr ""
+
+#~ msgid "70.0"
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "0.0"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "0.05"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+

@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-31 16:23+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:10
+msgid "InputEventKey"
+msgstr "InputEventKey"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>` **<** :ref:`InputEvent "
+"<class_InputEvent>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEventWithModifiers <class_InputEventWithModifiers>` "
+"**<** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:14
+msgid "Input event type for keyboard events."
+msgstr "键盘事件的输入事件类型。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:19
+msgid ""
+"Stores key presses on the keyboard. Supports key presses, key releases "
+"and :ref:`echo <class_InputEventKey_property_echo>` events."
+msgstr "存储在键盘上按下的键。支持键按下、键释放、和 :ref:`echo <class_InputEventKey_property_echo>` 事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:24
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ":doc:`../tutorials/inputs/inputevent`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:32
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:30
+msgid ":ref:`echo <class_InputEventKey_property_echo>`"
+msgstr ":ref:`echo <class_InputEventKey_property_echo>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:74
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:32
+msgid ":ref:`pressed <class_InputEventKey_property_pressed>`"
+msgstr ":ref:`pressed <class_InputEventKey_property_pressed>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:47
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:34
+#, fuzzy
+msgid ":ref:`keycode <class_InputEventKey_property_keycode>`"
+msgstr ":ref:`echo <class_InputEventKey_property_echo>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:126
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:36
+#, fuzzy
+msgid ":ref:`physical_keycode <class_InputEventKey_property_physical_keycode>`"
+msgstr ":ref:`scancode <class_InputEventKey_property_scancode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:38
+msgid ":ref:`unicode <class_InputEventKey_property_unicode>`"
+msgstr ":ref:`unicode <class_InputEventKey_property_unicode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:42
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:45
+#, fuzzy
+msgid ""
+":ref:`get_keycode_with_modifiers "
+"<class_InputEventKey_method_get_keycode_with_modifiers>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_scancode_with_modifiers "
+"<class_InputEventKey_method_get_scancode_with_modifiers>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:47
+#, fuzzy
+msgid ""
+":ref:`get_physical_keycode_with_modifiers "
+"<class_InputEventKey_method_get_physical_keycode_with_modifiers>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_scancode_with_modifiers "
+"<class_InputEventKey_method_get_scancode_with_modifiers>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:51
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:55
+msgid ":ref:`bool <class_bool>` **echo**"
+msgstr ":ref:`bool <class_bool>` **echo**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:126
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:128
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:60
+msgid "set_echo(value)"
+msgstr "set_echo(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:130
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:62
+msgid "is_echo()"
+msgstr "is_echo()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:65
+msgid ""
+"If ``true``, the key was already pressed before this event. It means the "
+"user is holding the key down."
+msgstr "如果为 ``true``，则在此事件之前已经按下了该键。这意味着用户按住了该键。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:71
+msgid ":ref:`bool <class_bool>` **pressed**"
+msgstr ":ref:`bool <class_bool>` **pressed**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:76
+msgid "set_pressed(value)"
+msgstr "set_pressed(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:78
+msgid "is_pressed()"
+msgstr "is_pressed()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:81
+msgid ""
+"If ``true``, the key's state is pressed. If ``false``, the key's state is"
+" released."
+msgstr "如果为 ``true``，则键的状态是按下。如果为 ``false``，则键的状态是释放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:87
+#, fuzzy
+msgid ":ref:`int <class_int>` **keycode**"
+msgstr ":ref:`int <class_int>` **unicode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:92
+#, fuzzy
+msgid "set_keycode(value)"
+msgstr "set_echo(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:94
+#, fuzzy
+msgid "get_keycode()"
+msgstr "get_unicode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:97
+#, fuzzy
+msgid ""
+"The key keycode, which corresponds to one of the :ref:`KeyList "
+"<enum_@GlobalScope_KeyList>` constants. Represent key in the current "
+"keyboard layout."
+msgstr "键扫描码，:ref:`KeyList <enum_@GlobalScope_KeyList>` 常量之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:117
+msgid ""
+"To get a human-readable representation of the ``InputEventKey``, use "
+"``OS.get_keycode_string(event.keycode)`` where ``event`` is the "
+"``InputEventKey``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:105
+#, fuzzy
+msgid ":ref:`int <class_int>` **physical_keycode**"
+msgstr ":ref:`int <class_int>` **scancode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:110
+#, fuzzy
+msgid "set_physical_keycode(value)"
+msgstr "set_scancode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:112
+#, fuzzy
+msgid "get_physical_keycode()"
+msgstr "get_scancode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:115
+#, fuzzy
+msgid ""
+"Key physical keycode, which corresponds to one of the :ref:`KeyList "
+"<enum_@GlobalScope_KeyList>` constants. Represent the physical location "
+"of a key on the 101/102-key US QWERTY keyboard."
+msgstr "键扫描码，:ref:`KeyList <enum_@GlobalScope_KeyList>` 常量之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:123
+msgid ":ref:`int <class_int>` **unicode**"
+msgstr ":ref:`int <class_int>` **unicode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:128
+msgid "set_unicode(value)"
+msgstr "set_unicode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:130
+msgid "get_unicode()"
+msgstr "get_unicode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:133
+#, fuzzy
+msgid ""
+"The key Unicode identifier (when relevant). Unicode identifiers for the "
+"composite characters and complex scripts may not be available unless IME "
+"input mode is active. See :ref:`OS.set_ime_active "
+"<class_OS_method_set_ime_active>` for more information."
+msgstr ""
+"相关的键Unicode标识符。除非激活了IME输入模式，否则复合字符和复杂脚本的Unicode标识符可能不可用。有关更多信息，请参见 "
+":ref:`OS.set_ime_active <class_OS_method_set_ime_active>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:136
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:140
+#, fuzzy
+msgid ":ref:`int <class_int>` **get_keycode_with_modifiers** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_scancode_with_modifiers** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:142
+#, fuzzy
+msgid ""
+"Returns the keycode combined with modifier keys such as ``Shift`` or "
+"``Alt``. See also :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`."
+msgstr ""
+"返回与修饰键（例如 ``Shift`` 或 ``Alt``）组合的扫描码。另请参见 :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:144
+msgid ""
+"To get a human-readable representation of the ``InputEventKey`` with "
+"modifiers, use "
+"``OS.get_keycode_string(event.get_keycode_with_modifiers())`` where "
+"``event`` is the ``InputEventKey``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:150
+#, fuzzy
+msgid ""
+":ref:`int <class_int>` **get_physical_keycode_with_modifiers** **(** "
+"**)** const"
+msgstr ":ref:`int <class_int>` **get_scancode_with_modifiers** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:152
+#, fuzzy
+msgid ""
+"Returns the physical keycode combined with modifier keys such as "
+"``Shift`` or ``Alt``. See also :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`."
+msgstr ""
+"返回与修饰键（例如 ``Shift`` 或 ``Alt``）组合的扫描码。另请参见 :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_inputeventkey.rst:154
+msgid ""
+"To get a human-readable representation of the ``InputEventKey`` with "
+"modifiers, use "
+"``OS.get_keycode_string(event.get_physical_keycode_with_modifiers())`` "
+"where ``event`` is the ``InputEventKey``."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid ""
+#~ "To get a human-readable representation"
+#~ " of the ``InputEventKey``, use "
+#~ "``OS.get_scancode_string(event.scancode)`` where ``event``"
+#~ " is the ``InputEventKey``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get a human-readable representation"
+#~ " of the ``InputEventKey`` with modifiers,"
+#~ " use "
+#~ "``OS.get_scancode_string(event.get_scancode_with_modifiers())`` "
+#~ "where ``event`` is the ``InputEventKey``."
+#~ msgstr ""
+

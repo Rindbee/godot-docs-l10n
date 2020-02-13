@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-31 16:26+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_inputeventmidi.rst:10
+msgid "InputEventMIDI"
+msgstr "InputEventMIDI"
+
+#: ../../docs/classes/class_inputeventmidi.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`InputEvent <class_InputEvent>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:17
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_inputeventmidi.rst:20
+#: ../../docs/classes/class_inputeventmidi.rst:22
+#: ../../docs/classes/class_inputeventmidi.rst:24
+#: ../../docs/classes/class_inputeventmidi.rst:26
+#: ../../docs/classes/class_inputeventmidi.rst:28
+#: ../../docs/classes/class_inputeventmidi.rst:30
+#: ../../docs/classes/class_inputeventmidi.rst:32
+#: ../../docs/classes/class_inputeventmidi.rst:34
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:20
+msgid ":ref:`channel <class_InputEventMIDI_property_channel>`"
+msgstr ":ref:`channel <class_InputEventMIDI_property_channel>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:20
+#: ../../docs/classes/class_inputeventmidi.rst:22
+#: ../../docs/classes/class_inputeventmidi.rst:24
+#: ../../docs/classes/class_inputeventmidi.rst:26
+#: ../../docs/classes/class_inputeventmidi.rst:28
+#: ../../docs/classes/class_inputeventmidi.rst:30
+#: ../../docs/classes/class_inputeventmidi.rst:32
+#: ../../docs/classes/class_inputeventmidi.rst:34
+#: ../../docs/classes/class_inputeventmidi.rst:45
+#: ../../docs/classes/class_inputeventmidi.rst:59
+#: ../../docs/classes/class_inputeventmidi.rst:73
+#: ../../docs/classes/class_inputeventmidi.rst:87
+#: ../../docs/classes/class_inputeventmidi.rst:101
+#: ../../docs/classes/class_inputeventmidi.rst:115
+#: ../../docs/classes/class_inputeventmidi.rst:129
+#: ../../docs/classes/class_inputeventmidi.rst:143
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventmidi.rst:22
+msgid ":ref:`controller_number <class_InputEventMIDI_property_controller_number>`"
+msgstr ":ref:`controller_number <class_InputEventMIDI_property_controller_number>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:24
+msgid ":ref:`controller_value <class_InputEventMIDI_property_controller_value>`"
+msgstr ":ref:`controller_value <class_InputEventMIDI_property_controller_value>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:26
+msgid ":ref:`instrument <class_InputEventMIDI_property_instrument>`"
+msgstr ":ref:`instrument <class_InputEventMIDI_property_instrument>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:28
+msgid ":ref:`message <class_InputEventMIDI_property_message>`"
+msgstr ":ref:`message <class_InputEventMIDI_property_message>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:30
+msgid ":ref:`pitch <class_InputEventMIDI_property_pitch>`"
+msgstr ":ref:`pitch <class_InputEventMIDI_property_pitch>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:32
+msgid ":ref:`pressure <class_InputEventMIDI_property_pressure>`"
+msgstr ":ref:`pressure <class_InputEventMIDI_property_pressure>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:34
+msgid ":ref:`velocity <class_InputEventMIDI_property_velocity>`"
+msgstr ":ref:`velocity <class_InputEventMIDI_property_velocity>`"
+
+#: ../../docs/classes/class_inputeventmidi.rst:38
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_inputeventmidi.rst:42
+msgid ":ref:`int <class_int>` **channel**"
+msgstr ":ref:`int <class_int>` **channel**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:45
+#: ../../docs/classes/class_inputeventmidi.rst:59
+#: ../../docs/classes/class_inputeventmidi.rst:73
+#: ../../docs/classes/class_inputeventmidi.rst:87
+#: ../../docs/classes/class_inputeventmidi.rst:101
+#: ../../docs/classes/class_inputeventmidi.rst:115
+#: ../../docs/classes/class_inputeventmidi.rst:129
+#: ../../docs/classes/class_inputeventmidi.rst:143
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_inputeventmidi.rst:47
+#: ../../docs/classes/class_inputeventmidi.rst:61
+#: ../../docs/classes/class_inputeventmidi.rst:75
+#: ../../docs/classes/class_inputeventmidi.rst:89
+#: ../../docs/classes/class_inputeventmidi.rst:103
+#: ../../docs/classes/class_inputeventmidi.rst:117
+#: ../../docs/classes/class_inputeventmidi.rst:131
+#: ../../docs/classes/class_inputeventmidi.rst:145
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_inputeventmidi.rst:47
+msgid "set_channel(value)"
+msgstr "set_channel(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:49
+#: ../../docs/classes/class_inputeventmidi.rst:63
+#: ../../docs/classes/class_inputeventmidi.rst:77
+#: ../../docs/classes/class_inputeventmidi.rst:91
+#: ../../docs/classes/class_inputeventmidi.rst:105
+#: ../../docs/classes/class_inputeventmidi.rst:119
+#: ../../docs/classes/class_inputeventmidi.rst:133
+#: ../../docs/classes/class_inputeventmidi.rst:147
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_inputeventmidi.rst:49
+msgid "get_channel()"
+msgstr "get_channel()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:56
+msgid ":ref:`int <class_int>` **controller_number**"
+msgstr ":ref:`int <class_int>` **controller_number**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:61
+msgid "set_controller_number(value)"
+msgstr "set_controller_number(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:63
+msgid "get_controller_number()"
+msgstr "get_controller_number()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:70
+msgid ":ref:`int <class_int>` **controller_value**"
+msgstr ":ref:`int <class_int>` **controller_value**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:75
+msgid "set_controller_value(value)"
+msgstr "set_controller_value(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:77
+msgid "get_controller_value()"
+msgstr "get_controller_value()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:84
+msgid ":ref:`int <class_int>` **instrument**"
+msgstr ":ref:`int <class_int>` **instrument**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:89
+msgid "set_instrument(value)"
+msgstr "set_instrument(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:91
+msgid "get_instrument()"
+msgstr "get_instrument()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:98
+msgid ":ref:`int <class_int>` **message**"
+msgstr ":ref:`int <class_int>` **message**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:103
+msgid "set_message(value)"
+msgstr "set_message(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:105
+msgid "get_message()"
+msgstr "get_message()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:112
+msgid ":ref:`int <class_int>` **pitch**"
+msgstr ":ref:`int <class_int>` **pitch**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:117
+msgid "set_pitch(value)"
+msgstr "set_pitch(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:119
+msgid "get_pitch()"
+msgstr "get_pitch()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:126
+msgid ":ref:`int <class_int>` **pressure**"
+msgstr ":ref:`int <class_int>` **pressure**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:131
+msgid "set_pressure(value)"
+msgstr "set_pressure(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:133
+msgid "get_pressure()"
+msgstr "get_pressure()"
+
+#: ../../docs/classes/class_inputeventmidi.rst:140
+msgid ":ref:`int <class_int>` **velocity**"
+msgstr ":ref:`int <class_int>` **velocity**"
+
+#: ../../docs/classes/class_inputeventmidi.rst:145
+msgid "set_velocity(value)"
+msgstr "set_velocity(value)"
+
+#: ../../docs/classes/class_inputeventmidi.rst:147
+msgid "get_velocity()"
+msgstr "get_velocity()"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

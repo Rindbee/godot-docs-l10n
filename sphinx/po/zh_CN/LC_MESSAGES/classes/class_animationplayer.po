@@ -1,0 +1,1205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-04 18:24+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:10
+msgid "AnimationPlayer"
+msgstr "AnimationPlayer"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr "**基类**：:ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:14
+msgid "Container and player of :ref:`Animation <class_Animation>` resources."
+msgstr ":ref:`Animation <class_Animation>` 资源的容器和播放器。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:19
+msgid ""
+"An animation player is used for general-purpose playback of "
+":ref:`Animation <class_Animation>` resources. It contains a dictionary of"
+" animations (referenced by name) and custom blend times between their "
+"transitions. Additionally, animations can be played and blended in "
+"different channels."
+msgstr ""
+"动画播放器用于 :ref:`Animation <class_Animation>` "
+"资源的通用播放。它包含一个动画字典（按名称引用）和它们的过渡之间的自定义混合时间。此外，可以在不同的通道中播放和混合动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:21
+msgid ""
+"``AnimationPlayer`` is more suited than :ref:`Tween <class_Tween>` for "
+"animations where you know the final values in advance. For example, "
+"fading a screen in and out is more easily done with an "
+"``AnimationPlayer`` node thanks to the animation tools provided by the "
+"editor. That particular example can also be implemented with a "
+":ref:`Tween <class_Tween>` node, but it requires doing everything by "
+"code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:23
+msgid "Updating the target properties of animations occurs at process time."
+msgstr "在处理时，更新动画的目标属性。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:28
+msgid ":doc:`../getting_started/step_by_step/animations`"
+msgstr ":doc:`../getting_started/step_by_step/animations`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:30
+msgid ":doc:`../tutorials/animation/index`"
+msgstr ":doc:`../tutorials/animation/index`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:40
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:36
+msgid ""
+":ref:`assigned_animation "
+"<class_AnimationPlayer_property_assigned_animation>`"
+msgstr ""
+":ref:`assigned_animation "
+"<class_AnimationPlayer_property_assigned_animation>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:38
+msgid ":ref:`autoplay <class_AnimationPlayer_property_autoplay>`"
+msgstr ":ref:`autoplay <class_AnimationPlayer_property_autoplay>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:212
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:40
+msgid ""
+":ref:`current_animation "
+"<class_AnimationPlayer_property_current_animation>`"
+msgstr ""
+":ref:`current_animation "
+"<class_AnimationPlayer_property_current_animation>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:83
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:42
+msgid ""
+":ref:`current_animation_length "
+"<class_AnimationPlayer_property_current_animation_length>`"
+msgstr ""
+":ref:`current_animation_length "
+"<class_AnimationPlayer_property_current_animation_length>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:44
+msgid ""
+":ref:`current_animation_position "
+"<class_AnimationPlayer_property_current_animation_position>`"
+msgstr ""
+":ref:`current_animation_position "
+"<class_AnimationPlayer_property_current_animation_position>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:46
+msgid ""
+":ref:`AnimationMethodCallMode "
+"<enum_AnimationPlayer_AnimationMethodCallMode>`"
+msgstr ""
+":ref:`AnimationMethodCallMode "
+"<enum_AnimationPlayer_AnimationMethodCallMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:46
+msgid ":ref:`method_call_mode <class_AnimationPlayer_property_method_call_mode>`"
+msgstr ":ref:`method_call_mode <class_AnimationPlayer_property_method_call_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:252
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:89
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:48
+msgid ":ref:`playback_active <class_AnimationPlayer_property_playback_active>`"
+msgstr ":ref:`playback_active <class_AnimationPlayer_property_playback_active>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:50
+msgid ""
+":ref:`playback_default_blend_time "
+"<class_AnimationPlayer_property_playback_default_blend_time>`"
+msgstr ""
+":ref:`playback_default_blend_time "
+"<class_AnimationPlayer_property_playback_default_blend_time>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:282
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:52
+msgid ":ref:`AnimationProcessMode <enum_AnimationPlayer_AnimationProcessMode>`"
+msgstr ":ref:`AnimationProcessMode <enum_AnimationPlayer_AnimationProcessMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:52
+msgid ""
+":ref:`playback_process_mode "
+"<class_AnimationPlayer_property_playback_process_mode>`"
+msgstr ""
+":ref:`playback_process_mode "
+"<class_AnimationPlayer_property_playback_process_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:298
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:54
+msgid ":ref:`playback_speed <class_AnimationPlayer_property_playback_speed>`"
+msgstr ":ref:`playback_speed <class_AnimationPlayer_property_playback_speed>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:314
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:56
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ":ref:`NodePath <class_NodePath>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:56
+msgid ":ref:`root_node <class_AnimationPlayer_property_root_node>`"
+msgstr ":ref:`root_node <class_AnimationPlayer_property_root_node>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:330
+#, fuzzy
+msgid "``NodePath(\"..\")``"
+msgstr "NodePath(\"..\")"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:60
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:63
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ":ref:`Error <enum_@GlobalScope_Error>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:63
+#, fuzzy
+msgid ""
+":ref:`add_animation <class_AnimationPlayer_method_add_animation>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Animation "
+"<class_Animation>` animation **)**"
+msgstr ""
+":ref:`add_animation <class_AnimationPlayer_method_add_animation>` **(** "
+":ref:`String <class_String>` name, :ref:`Animation <class_Animation>` "
+"animation **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:105
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:65
+msgid ""
+":ref:`advance <class_AnimationPlayer_method_advance>` **(** :ref:`float "
+"<class_float>` delta **)**"
+msgstr ""
+":ref:`advance <class_AnimationPlayer_method_advance>` **(** :ref:`float "
+"<class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:75
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:67
+#, fuzzy
+msgid ""
+":ref:`animation_get_next "
+"<class_AnimationPlayer_method_animation_get_next>` **(** :ref:`StringName"
+" <class_StringName>` anim_from **)** const"
+msgstr ""
+":ref:`animation_get_next "
+"<class_AnimationPlayer_method_animation_get_next>` **(** :ref:`String "
+"<class_String>` anim_from **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:69
+#, fuzzy
+msgid ""
+":ref:`animation_set_next "
+"<class_AnimationPlayer_method_animation_set_next>` **(** :ref:`StringName"
+" <class_StringName>` anim_from, :ref:`StringName <class_StringName>` "
+"anim_to **)**"
+msgstr ""
+":ref:`animation_set_next "
+"<class_AnimationPlayer_method_animation_set_next>` **(** :ref:`String "
+"<class_String>` anim_from, :ref:`String <class_String>` anim_to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:71
+msgid ""
+":ref:`clear_caches <class_AnimationPlayer_method_clear_caches>` **(** "
+"**)**"
+msgstr ""
+":ref:`clear_caches <class_AnimationPlayer_method_clear_caches>` **(** "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:73
+msgid ":ref:`clear_queue <class_AnimationPlayer_method_clear_queue>` **(** **)**"
+msgstr ":ref:`clear_queue <class_AnimationPlayer_method_clear_queue>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:75
+msgid ""
+":ref:`find_animation <class_AnimationPlayer_method_find_animation>` **(**"
+" :ref:`Animation <class_Animation>` animation **)** const"
+msgstr ""
+":ref:`find_animation <class_AnimationPlayer_method_find_animation>` **(**"
+" :ref:`Animation <class_Animation>` animation **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:77
+msgid ":ref:`Animation <class_Animation>`"
+msgstr ":ref:`Animation <class_Animation>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:77
+#, fuzzy
+msgid ""
+":ref:`get_animation <class_AnimationPlayer_method_get_animation>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`get_animation <class_AnimationPlayer_method_get_animation>` **(** "
+":ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:85
+#, fuzzy
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ":ref:`PoolStringArray <class_PoolStringArray>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:79
+msgid ""
+":ref:`get_animation_list "
+"<class_AnimationPlayer_method_get_animation_list>` **(** **)** const"
+msgstr ""
+":ref:`get_animation_list "
+"<class_AnimationPlayer_method_get_animation_list>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:81
+#, fuzzy
+msgid ""
+":ref:`get_blend_time <class_AnimationPlayer_method_get_blend_time>` **(**"
+" :ref:`StringName <class_StringName>` anim_from, :ref:`StringName "
+"<class_StringName>` anim_to **)** const"
+msgstr ""
+":ref:`get_blend_time <class_AnimationPlayer_method_get_blend_time>` **(**"
+" :ref:`String <class_String>` anim_from, :ref:`String <class_String>` "
+"anim_to **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:83
+msgid ""
+":ref:`get_playing_speed <class_AnimationPlayer_method_get_playing_speed>`"
+" **(** **)** const"
+msgstr ""
+":ref:`get_playing_speed <class_AnimationPlayer_method_get_playing_speed>`"
+" **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:85
+msgid ":ref:`get_queue <class_AnimationPlayer_method_get_queue>` **(** **)**"
+msgstr ":ref:`get_queue <class_AnimationPlayer_method_get_queue>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:87
+#, fuzzy
+msgid ""
+":ref:`has_animation <class_AnimationPlayer_method_has_animation>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`has_animation <class_AnimationPlayer_method_has_animation>` **(** "
+":ref:`String <class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:89
+msgid ""
+":ref:`is_playing <class_AnimationPlayer_method_is_playing>` **(** **)** "
+"const"
+msgstr ""
+":ref:`is_playing <class_AnimationPlayer_method_is_playing>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:91
+#, fuzzy
+msgid ""
+":ref:`play <class_AnimationPlayer_method_play>` **(** :ref:`StringName "
+"<class_StringName>` name=\"\", :ref:`float <class_float>` "
+"custom_blend=-1, :ref:`float <class_float>` custom_speed=1.0, :ref:`bool "
+"<class_bool>` from_end=false **)**"
+msgstr ""
+":ref:`play <class_AnimationPlayer_method_play>` **(** :ref:`String "
+"<class_String>` name=\"\", :ref:`float <class_float>` custom_blend=-1, "
+":ref:`float <class_float>` custom_speed=1.0, :ref:`bool <class_bool>` "
+"from_end=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:93
+#, fuzzy
+msgid ""
+":ref:`play_backwards <class_AnimationPlayer_method_play_backwards>` **(**"
+" :ref:`StringName <class_StringName>` name=\"\", :ref:`float "
+"<class_float>` custom_blend=-1 **)**"
+msgstr ""
+":ref:`play_backwards <class_AnimationPlayer_method_play_backwards>` **(**"
+" :ref:`String <class_String>` name=\"\", :ref:`float <class_float>` "
+"custom_blend=-1 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:95
+#, fuzzy
+msgid ""
+":ref:`queue <class_AnimationPlayer_method_queue>` **(** :ref:`StringName "
+"<class_StringName>` name **)**"
+msgstr ""
+":ref:`queue <class_AnimationPlayer_method_queue>` **(** :ref:`String "
+"<class_String>` name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:97
+#, fuzzy
+msgid ""
+":ref:`remove_animation <class_AnimationPlayer_method_remove_animation>` "
+"**(** :ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+":ref:`remove_animation <class_AnimationPlayer_method_remove_animation>` "
+"**(** :ref:`String <class_String>` name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:99
+#, fuzzy
+msgid ""
+":ref:`rename_animation <class_AnimationPlayer_method_rename_animation>` "
+"**(** :ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` newname **)**"
+msgstr ""
+":ref:`rename_animation <class_AnimationPlayer_method_rename_animation>` "
+"**(** :ref:`String <class_String>` name, :ref:`String <class_String>` "
+"newname **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:101
+msgid ""
+":ref:`seek <class_AnimationPlayer_method_seek>` **(** :ref:`float "
+"<class_float>` seconds, :ref:`bool <class_bool>` update=false **)**"
+msgstr ""
+":ref:`seek <class_AnimationPlayer_method_seek>` **(** :ref:`float "
+"<class_float>` seconds, :ref:`bool <class_bool>` update=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:103
+#, fuzzy
+msgid ""
+":ref:`set_blend_time <class_AnimationPlayer_method_set_blend_time>` **(**"
+" :ref:`StringName <class_StringName>` anim_from, :ref:`StringName "
+"<class_StringName>` anim_to, :ref:`float <class_float>` sec **)**"
+msgstr ""
+":ref:`set_blend_time <class_AnimationPlayer_method_set_blend_time>` **(**"
+" :ref:`String <class_String>` anim_from, :ref:`String <class_String>` "
+"anim_to, :ref:`float <class_float>` sec **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:105
+msgid ""
+":ref:`stop <class_AnimationPlayer_method_stop>` **(** :ref:`bool "
+"<class_bool>` reset=true **)**"
+msgstr ""
+":ref:`stop <class_AnimationPlayer_method_stop>` **(** :ref:`bool "
+"<class_bool>` reset=true **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:109
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:113
+#, fuzzy
+msgid ""
+"**animation_changed** **(** :ref:`StringName <class_StringName>` "
+"old_name, :ref:`StringName <class_StringName>` new_name **)**"
+msgstr ""
+"**animation_changed** **(** :ref:`String <class_String>` old_name, "
+":ref:`String <class_String>` new_name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:115
+msgid ""
+"If the currently being played animation changes, this signal will notify "
+"of such change."
+msgstr "如果当前正在播放的动画发生更改，则此信号将通知此更改。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:121
+#, fuzzy
+msgid ""
+"**animation_finished** **(** :ref:`StringName <class_StringName>` "
+"anim_name **)**"
+msgstr "**animation_finished** **(** :ref:`String <class_String>` anim_name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:123
+msgid "Notifies when an animation finished playing."
+msgstr "动画完成播放时通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:129
+#, fuzzy
+msgid ""
+"**animation_started** **(** :ref:`StringName <class_StringName>` "
+"anim_name **)**"
+msgstr "**animation_started** **(** :ref:`String <class_String>` anim_name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:131
+msgid "Notifies when an animation starts playing."
+msgstr "动画开始播放时通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:137
+msgid "**caches_cleared** **(** **)**"
+msgstr "**caches_cleared** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:139
+msgid ""
+"Notifies when the caches have been cleared, either automatically, or "
+"manually via :ref:`clear_caches "
+"<class_AnimationPlayer_method_clear_caches>`."
+msgstr ""
+"自动或通过 :ref:`clear_caches <class_AnimationPlayer_method_clear_caches>` "
+"手动清除了缓存时通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:142
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:152
+msgid "enum **AnimationProcessMode**:"
+msgstr "枚举 **AnimationProcessMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:154
+msgid ""
+"**ANIMATION_PROCESS_PHYSICS** = **0** --- Process animation during the "
+"physics process. This is especially useful when animating physics bodies."
+msgstr "**ANIMATION_PROCESS_PHYSICS** = **0** —— 在物理处理中处理动画。在动画化物理物体时，这特别有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:156
+msgid ""
+"**ANIMATION_PROCESS_IDLE** = **1** --- Process animation during the idle "
+"process."
+msgstr "**ANIMATION_PROCESS_IDLE** = **1** —— 在空闲处理中处理动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:158
+msgid ""
+"**ANIMATION_PROCESS_MANUAL** = **2** --- Do not process animation. Use "
+":ref:`advance <class_AnimationPlayer_method_advance>` to process the "
+"animation manually."
+msgstr ""
+"**ANIMATION_PROCESS_MANUAL** = **2** —— 不处理动画。使用 :ref:`advance "
+"<class_AnimationPlayer_method_advance>` 手动处理动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:168
+msgid "enum **AnimationMethodCallMode**:"
+msgstr "枚举 **AnimationMethodCallMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:170
+msgid ""
+"**ANIMATION_METHOD_CALL_DEFERRED** = **0** --- Batch method calls during "
+"the animation process, then do the calls after events are processed. This"
+" avoids bugs involving deleting nodes or modifying the AnimationPlayer "
+"while playing."
+msgstr ""
+"**ANIMATION_METHOD_CALL_DEFERRED** = **0** —— "
+"在动画过程中进行批量方法调用，然后在事件处理后处理调用。这样可以避免在播放时，涉及删除节点或修改 ``AnimationPlayer`` 的错误。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:172
+msgid ""
+"**ANIMATION_METHOD_CALL_IMMEDIATE** = **1** --- Make method calls "
+"immediately when reached in the animation."
+msgstr "**ANIMATION_METHOD_CALL_IMMEDIATE** = **1** —— 在动画中到达时，立即进行方法调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:175
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:179
+msgid ":ref:`String <class_String>` **assigned_animation**"
+msgstr ":ref:`String <class_String>` **assigned_animation**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:214
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:254
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:268
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:284
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:300
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:316
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:332
+msgid "*Setter*"
+msgstr "*设值函数*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:182
+msgid "set_assigned_animation(value)"
+msgstr "set_assigned_animation(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:200
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:216
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:240
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:256
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:270
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:286
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:302
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:318
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:334
+msgid "*Getter*"
+msgstr "*取值函数*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:184
+msgid "get_assigned_animation()"
+msgstr "get_assigned_animation()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:187
+msgid ""
+"If playing, the current animation; otherwise, the animation last played. "
+"When set, would change the animation, but would not play it unless "
+"currently playing. See also :ref:`current_animation "
+"<class_AnimationPlayer_property_current_animation>`."
+msgstr ""
+"如果正在播放，则为当前动画；否则，则为最后播放的动画。设置后，将更改动画，但除非当前正在播放，否则将不播放它。另请参见 "
+":ref:`current_animation "
+"<class_AnimationPlayer_property_current_animation>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:193
+msgid ":ref:`String <class_String>` **autoplay**"
+msgstr ":ref:`String <class_String>` **autoplay**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:252
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:282
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:298
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:314
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:330
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:198
+msgid "set_autoplay(value)"
+msgstr "set_autoplay(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:200
+msgid "get_autoplay()"
+msgstr "get_autoplay()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:203
+msgid "The name of the animation to play when the scene loads."
+msgstr "场景加载时，播放的动画的名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:209
+msgid ":ref:`String <class_String>` **current_animation**"
+msgstr ":ref:`String <class_String>` **current_animation**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:214
+msgid "set_current_animation(value)"
+msgstr "set_current_animation(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:216
+msgid "get_current_animation()"
+msgstr "get_current_animation()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:219
+msgid ""
+"The name of the current animation, \"\" if not playing anything. When "
+"being set, does not restart the animation. See also :ref:`play "
+"<class_AnimationPlayer_method_play>`."
+msgstr ""
+"当前动画的名称，如果未播放任何内容，则为\"\"。设置后，不重新启动动画。另请参见 :ref:`play "
+"<class_AnimationPlayer_method_play>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:225
+msgid ":ref:`float <class_float>` **current_animation_length**"
+msgstr ":ref:`float <class_float>` **current_animation_length**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:228
+msgid "get_current_animation_length()"
+msgstr "get_current_animation_length()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:231
+msgid "The length (in seconds) of the currently being played animation."
+msgstr "当前正在播放的动画的长度（以秒为单位）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:237
+msgid ":ref:`float <class_float>` **current_animation_position**"
+msgstr ":ref:`float <class_float>` **current_animation_position**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:240
+msgid "get_current_animation_position()"
+msgstr "get_current_animation_position()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:243
+msgid "The position (in seconds) of the currently playing animation."
+msgstr "当前播放的动画的位置（以秒为单位）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:249
+msgid ""
+":ref:`AnimationMethodCallMode "
+"<enum_AnimationPlayer_AnimationMethodCallMode>` **method_call_mode**"
+msgstr ""
+":ref:`AnimationMethodCallMode "
+"<enum_AnimationPlayer_AnimationMethodCallMode>` **method_call_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:254
+msgid "set_method_call_mode(value)"
+msgstr "set_method_call_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:256
+msgid "get_method_call_mode()"
+msgstr "get_method_call_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:259
+msgid "The call mode to use for Call Method tracks."
+msgstr "用于 ``调用方法`` 轨道的调用模式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:265
+msgid ":ref:`bool <class_bool>` **playback_active**"
+msgstr ":ref:`bool <class_bool>` **playback_active**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:268
+msgid "set_active(value)"
+msgstr "set_active(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:270
+msgid "is_active()"
+msgstr "is_active()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:273
+msgid ""
+"If ``true``, updates animations in response to process-related "
+"notifications."
+msgstr "如果为 ``true``，则更新动画以响应与处理相关的通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:279
+msgid ":ref:`float <class_float>` **playback_default_blend_time**"
+msgstr ":ref:`float <class_float>` **playback_default_blend_time**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:284
+msgid "set_default_blend_time(value)"
+msgstr "set_default_blend_time(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:286
+msgid "get_default_blend_time()"
+msgstr "get_default_blend_time()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:289
+msgid ""
+"The default time in which to blend animations. Ranges from 0 to 4096 with"
+" 0.01 precision."
+msgstr "混合动画的默认时间。范围从0到4096，精度为0.01。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:295
+msgid ""
+":ref:`AnimationProcessMode <enum_AnimationPlayer_AnimationProcessMode>` "
+"**playback_process_mode**"
+msgstr ""
+":ref:`AnimationProcessMode <enum_AnimationPlayer_AnimationProcessMode>` "
+"**playback_process_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:300
+msgid "set_animation_process_mode(value)"
+msgstr "set_animation_process_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:302
+msgid "get_animation_process_mode()"
+msgstr "get_animation_process_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:305
+msgid "The process notification in which to update animations."
+msgstr "更新动画的处理通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:311
+msgid ":ref:`float <class_float>` **playback_speed**"
+msgstr ":ref:`float <class_float>` **playback_speed**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:316
+msgid "set_speed_scale(value)"
+msgstr "set_speed_scale(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:318
+msgid "get_speed_scale()"
+msgstr "get_speed_scale()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:321
+msgid ""
+"The speed scaling ratio. For instance, if this value is 1, then the "
+"animation plays at normal speed. If it's 0.5, then it plays at half "
+"speed. If it's 2, then it plays at double speed."
+msgstr "速度缩放比例。例如，如果此值为1，则动画以正常速度播放。如果为0.5，则以一半速度播放。如果为2，则以两倍的速度播放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:327
+msgid ":ref:`NodePath <class_NodePath>` **root_node**"
+msgstr ":ref:`NodePath <class_NodePath>` **root_node**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:332
+msgid "set_root(value)"
+msgstr "set_root(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:334
+msgid "get_root()"
+msgstr "get_root()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:337
+msgid "The node from which node path references will travel."
+msgstr "节点路径引用，将从其运行的节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:340
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:344
+#, fuzzy
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **add_animation** **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Animation "
+"<class_Animation>` animation **)**"
+msgstr ""
+":ref:`Error <enum_@GlobalScope_Error>` **add_animation** **(** "
+":ref:`String <class_String>` name, :ref:`Animation <class_Animation>` "
+"animation **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:346
+msgid "Adds ``animation`` to the player accessible with the key ``name``."
+msgstr "将 ``动画（animation）`` 添加到可通过 ``名称（name）`` 键访问的播放器。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:352
+msgid "void **advance** **(** :ref:`float <class_float>` delta **)**"
+msgstr "void **advance** **(** :ref:`float <class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:354
+msgid ""
+"Shifts position in the animation timeline and immediately updates the "
+"animation. ``delta`` is the time in seconds to shift. Events between the "
+"current frame and ``delta`` are handled."
+msgstr "移动动画时间轴中的位置，并立即更新动画。``增量（delta）`` 是移动的时间，以秒为单位。处理当前帧和 ``delta`` 之间的事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:360
+#, fuzzy
+msgid ""
+":ref:`StringName <class_StringName>` **animation_get_next** **(** "
+":ref:`StringName <class_StringName>` anim_from **)** const"
+msgstr ""
+":ref:`String <class_String>` **animation_get_next** **(** :ref:`String "
+"<class_String>` anim_from **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:362
+msgid "Returns the name of the next animation in the queue."
+msgstr "返回队列中下一个动画的名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:368
+#, fuzzy
+msgid ""
+"void **animation_set_next** **(** :ref:`StringName <class_StringName>` "
+"anim_from, :ref:`StringName <class_StringName>` anim_to **)**"
+msgstr ""
+"void **animation_set_next** **(** :ref:`String <class_String>` anim_from,"
+" :ref:`String <class_String>` anim_to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:370
+msgid ""
+"Triggers the ``anim_to`` animation when the ``anim_from`` animation "
+"completes."
+msgstr "``anim_from`` 动画完成时，触发 ``anim_to`` 动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:376
+msgid "void **clear_caches** **(** **)**"
+msgstr "void **clear_caches** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:378
+msgid ""
+"``AnimationPlayer`` caches animated nodes. It may not notice if a node "
+"disappears; :ref:`clear_caches "
+"<class_AnimationPlayer_method_clear_caches>` forces it to update the "
+"cache again."
+msgstr ""
+"``AnimationPlayer`` 缓存动画化的节点。它可能不会注意到节点是否消失；:ref:`clear_caches "
+"<class_AnimationPlayer_method_clear_caches>` 强制其再次更新缓存。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:384
+msgid "void **clear_queue** **(** **)**"
+msgstr "void **clear_queue** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:386
+msgid "Clears all queued, unplayed animations."
+msgstr "清除所有排队的，未播放的动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:392
+#, fuzzy
+msgid ""
+":ref:`StringName <class_StringName>` **find_animation** **(** "
+":ref:`Animation <class_Animation>` animation **)** const"
+msgstr ""
+":ref:`String <class_String>` **find_animation** **(** :ref:`Animation "
+"<class_Animation>` animation **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:394
+msgid "Returns the name of ``animation`` or an empty string if not found."
+msgstr "返回 ``animation`` 的名称，或一个空字符串（如果找不到）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:400
+#, fuzzy
+msgid ""
+":ref:`Animation <class_Animation>` **get_animation** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+":ref:`Animation <class_Animation>` **get_animation** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:402
+msgid ""
+"Returns the :ref:`Animation <class_Animation>` with key ``name`` or "
+"``null`` if not found."
+msgstr "返回带有键 ``name`` 的 :ref:`Animation <class_Animation>`，或 ``null`` （如果未找到）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:408
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_animation_list**"
+" **(** **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_animation_list** "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:410
+msgid "Returns the list of stored animation names."
+msgstr "返回已存储动画名称的列表。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:416
+#, fuzzy
+msgid ""
+":ref:`float <class_float>` **get_blend_time** **(** :ref:`StringName "
+"<class_StringName>` anim_from, :ref:`StringName <class_StringName>` "
+"anim_to **)** const"
+msgstr ""
+":ref:`float <class_float>` **get_blend_time** **(** :ref:`String "
+"<class_String>` anim_from, :ref:`String <class_String>` anim_to **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:418
+msgid ""
+"Gets the blend time (in seconds) between two animations, referenced by "
+"their names."
+msgstr "获取两个动画之间的混合时间（以秒为单位），通过它们的名称引用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:424
+msgid ":ref:`float <class_float>` **get_playing_speed** **(** **)** const"
+msgstr ":ref:`float <class_float>` **get_playing_speed** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:426
+#, fuzzy
+msgid ""
+"Gets the actual playing speed of current animation or 0 if not playing. "
+"This speed is the :ref:`playback_speed "
+"<class_AnimationPlayer_property_playback_speed>` property multiplied by "
+"``custom_speed`` argument specified when calling the :ref:`play "
+"<class_AnimationPlayer_method_play>` method."
+msgstr ""
+"获取当前动画的实际播放速度，如果不播放则为0。此速度是 ``playback_speed`` 属性，乘以在调用 ``play`` 方法时指定的 "
+"``custom_speed`` 参数，从而得到的乘积。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:432
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_queue** **(** "
+"**)**"
+msgstr ":ref:`PoolStringArray <class_PoolStringArray>` **get_queue** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:434
+msgid "Returns a list of the animation names that are currently queued to play."
+msgstr "返回当前排队播放的动画名称的列表。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:440
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_animation** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_animation** **(** :ref:`String "
+"<class_String>` name **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:442
+msgid ""
+"Returns ``true`` if the ``AnimationPlayer`` stores an :ref:`Animation "
+"<class_Animation>` with key ``name``."
+msgstr ""
+"如果 ``AnimationPlayer`` 存储带有键 ``name`` 的 :ref:`Animation "
+"<class_Animation>`，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:448
+msgid ":ref:`bool <class_bool>` **is_playing** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_playing** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:450
+msgid "Returns ``true`` if playing an animation."
+msgstr "如果正播放动画，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:456
+#, fuzzy
+msgid ""
+"void **play** **(** :ref:`StringName <class_StringName>` name=\"\", "
+":ref:`float <class_float>` custom_blend=-1, :ref:`float <class_float>` "
+"custom_speed=1.0, :ref:`bool <class_bool>` from_end=false **)**"
+msgstr ""
+"void **play** **(** :ref:`String <class_String>` name=\"\", :ref:`float "
+"<class_float>` custom_blend=-1, :ref:`float <class_float>` "
+"custom_speed=1.0, :ref:`bool <class_bool>` from_end=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:458
+#, fuzzy
+msgid ""
+"Plays the animation with key ``name``. Custom blend times and speed can "
+"be set. If ``custom_speed`` is negative and ``from_end`` is ``true``, the"
+" animation will play backwards (which is equivalent to calling "
+":ref:`play_backwards <class_AnimationPlayer_method_play_backwards>`)."
+msgstr ""
+"用 ``名称（name）`` 键播放动画。可以设置自定义速度和混合时间。如果 ``custom_speed`` 为负，``from_end`` 为"
+" ``true``，则动画将倒放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:460
+msgid ""
+"The ``AnimationPlayer`` keeps track of its current or last played "
+"animation with :ref:`assigned_animation "
+"<class_AnimationPlayer_property_assigned_animation>`. If this method is "
+"called with that same animation ``name``, or with no ``name`` parameter, "
+"the assigned animation will resume playing if it was paused, or restart "
+"if it was stopped (see :ref:`stop <class_AnimationPlayer_method_stop>` "
+"for both pause and stop). If the animation was already playing, it will "
+"keep playing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:462
+#, fuzzy
+msgid ""
+"**Note:** The animation will be updated the next time the "
+"``AnimationPlayer`` is processed. If other variables are updated at the "
+"same time this is called, they may be updated too early. To perform the "
+"update immediately, call ``advance(0)``."
+msgstr ""
+"**注意**：动画将在下次处理 ``AnimationPlayer`` "
+"时进行更新。如果被调用时，其他变量同时被更新，则它们可能更新得太早。要立即执行更新，请调用 ``advance(0)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:468
+#, fuzzy
+msgid ""
+"void **play_backwards** **(** :ref:`StringName <class_StringName>` "
+"name=\"\", :ref:`float <class_float>` custom_blend=-1 **)**"
+msgstr ""
+"void **play_backwards** **(** :ref:`String <class_String>` name=\"\", "
+":ref:`float <class_float>` custom_blend=-1 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:470
+msgid "Plays the animation with key ``name`` in reverse."
+msgstr "倒放带有 ``名称（name）`` 键的动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:472
+msgid ""
+"This method is a shorthand for :ref:`play "
+"<class_AnimationPlayer_method_play>` with ``custom_speed = -1.0`` and "
+"``from_end = true``, so see its description for more information."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:478
+#, fuzzy
+msgid "void **queue** **(** :ref:`StringName <class_StringName>` name **)**"
+msgstr "void **queue** **(** :ref:`String <class_String>` name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:480
+msgid "Queues an animation for playback once the current one is done."
+msgstr "当前动画完成后，将动画排队播放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:482
+msgid ""
+"**Note:** If a looped animation is currently playing, the queued "
+"animation will never play unless the looped animation is stopped somehow."
+msgstr "**注意**：如果当前正在播放循环动画，则除非以某种方式停止循环动画，否则排队的动画将永远不会播放。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:488
+#, fuzzy
+msgid ""
+"void **remove_animation** **(** :ref:`StringName <class_StringName>` name"
+" **)**"
+msgstr "void **remove_animation** **(** :ref:`String <class_String>` name **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:490
+msgid "Removes the animation with key ``name``."
+msgstr "移除键为 ``name`` 的动画。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:496
+#, fuzzy
+msgid ""
+"void **rename_animation** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`StringName <class_StringName>` newname **)**"
+msgstr ""
+"void **rename_animation** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` newname **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:498
+msgid "Renames an existing animation with key ``name`` to ``newname``."
+msgstr "将键为 ``name`` 的现有动画重命名为 ``newname``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:504
+msgid ""
+"void **seek** **(** :ref:`float <class_float>` seconds, :ref:`bool "
+"<class_bool>` update=false **)**"
+msgstr ""
+"void **seek** **(** :ref:`float <class_float>` seconds, :ref:`bool "
+"<class_bool>` update=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:506
+msgid ""
+"Seeks the animation to the ``seconds`` point in time (in seconds). If "
+"``update`` is ``true``, the animation updates too, otherwise it updates "
+"at process time. Events between the current frame and ``seconds`` are "
+"skipped."
+msgstr ""
+"将动画寻找到 ``seconds`` 处的时间点（以秒为单位）。如果 ``update`` 为 "
+"``true``，则动画也会更新，否则会在处理时更新。当前帧和 ``seconds`` 之间的事件将被跳过。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:512
+#, fuzzy
+msgid ""
+"void **set_blend_time** **(** :ref:`StringName <class_StringName>` "
+"anim_from, :ref:`StringName <class_StringName>` anim_to, :ref:`float "
+"<class_float>` sec **)**"
+msgstr ""
+"void **set_blend_time** **(** :ref:`String <class_String>` anim_from, "
+":ref:`String <class_String>` anim_to, :ref:`float <class_float>` sec "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:514
+msgid ""
+"Specifies a blend time (in seconds) between two animations, referenced by"
+" their names."
+msgstr "指定两个动画之间的混合时间（以秒为单位），通过其名称引用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:520
+msgid "void **stop** **(** :ref:`bool <class_bool>` reset=true **)**"
+msgstr "void **stop** **(** :ref:`bool <class_bool>` reset=true **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:522
+#, fuzzy
+msgid ""
+"Stops or pauses the currently playing animation. If ``reset`` is "
+"``true``, the animation position is reset to ``0`` and the playback speed"
+" is reset to ``1.0``."
+msgstr "停止当前播放的动画。如果 ``reset`` 为 ``true``，则动画位置重置为 ``0``，播放速度重置为 ``1.0``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationplayer.rst:524
+msgid ""
+"If ``reset`` is ``false``, the :ref:`current_animation_position "
+"<class_AnimationPlayer_property_current_animation_position>` will be kept"
+" and calling :ref:`play <class_AnimationPlayer_method_play>` or "
+":ref:`play_backwards <class_AnimationPlayer_method_play_backwards>` "
+"without arguments or with the same animation name as "
+":ref:`assigned_animation "
+"<class_AnimationPlayer_property_assigned_animation>` will resume the "
+"animation."
+msgstr ""
+
+#~ msgid ""
+#~ "If the animation has been paused "
+#~ "by :ref:`stop <class_AnimationPlayer_method_stop>`, "
+#~ "it will be resumed. Calling :ref:`play"
+#~ " <class_AnimationPlayer_method_play>` without arguments"
+#~ " will also resume the animation."
+#~ msgstr ""
+#~ "如果动画已通过 :ref:`stop <class_AnimationPlayer_method_stop>`"
+#~ " 暂停，则它将恢复播放。不带参数调用 :ref:`play "
+#~ "<class_AnimationPlayer_method_play>`，也会恢复动画。"
+
+#~ msgid ""
+#~ "If the animation has been paused "
+#~ "by ``stop(true)``, it will be resumed"
+#~ " backwards. Calling ``play_backwards()`` without"
+#~ " arguments will also resume the "
+#~ "animation backwards."
+#~ msgstr ""
+#~ "如果动画已通过 ``stop(true)`` 暂停，倒放时它将恢复。调用不带参数的 "
+#~ "``play_backwards()``，倒放时也将恢复动画。"
+
+#~ msgid ""
+#~ "**Note:** This is the same as "
+#~ "``play`` in regards to process/update "
+#~ "behavior."
+#~ msgstr "**注意**：在处理/更新行为方面，这与 ``播放（play）`` 相同。"
+
+#~ msgid ""
+#~ "If ``reset`` is ``false``, then calling"
+#~ " :ref:`play <class_AnimationPlayer_method_play>` "
+#~ "without arguments or ``play(\"same_as_before\")``"
+#~ " will resume the animation. Works the"
+#~ " same for the :ref:`play_backwards "
+#~ "<class_AnimationPlayer_method_play_backwards>`."
+#~ msgstr ""
+#~ "如果 ``reset`` 为 ``false``，则调用不带参数的 :ref:`play"
+#~ " <class_AnimationPlayer_method_play>` 或 "
+#~ "``play(\"same_as_before\")``，将恢复动画。此工作原理同样适用于 "
+#~ ":ref:`play_backwards "
+#~ "<class_AnimationPlayer_method_play_backwards>`。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "\"\""
+#~ msgstr "\"\""
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+

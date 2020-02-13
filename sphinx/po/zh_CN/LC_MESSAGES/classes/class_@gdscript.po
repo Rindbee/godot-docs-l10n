@@ -1,0 +1,2429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2020-03-06 21:27+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:10
+msgid "@GDScript"
+msgstr "@GDScript"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:12
+msgid "Built-in GDScript functions."
+msgstr "内置的GDScript函数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:17
+msgid ""
+"List of core built-in GDScript functions. Math functions and other "
+"utilities. Everything else is provided by objects. (Keywords: builtin, built "
+"in, global functions.)"
+msgstr ""
+"核心内置GDScript函数列表。数学函数和其他工具函数。其他所有内容均由对象提供。"
+"(关键字：内置(builtin)，内置(built in)，全局(global)函数。)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:20
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:23
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:25
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`Color <class_Color>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:23
+msgid ""
+":ref:`Color8 <class_@GDScript_method_Color8>` **(** :ref:`int <class_int>` "
+"r8, :ref:`int <class_int>` g8, :ref:`int <class_int>` b8, :ref:`int "
+"<class_int>` a8=255 **)**"
+msgstr ""
+":ref:`Color8 <class_@GDScript_method_Color8>` **(** :ref:`int <class_int>` "
+"r8, :ref:`int <class_int>` g8, :ref:`int <class_int>` b8, :ref:`int "
+"<class_int>` a8=255 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:25
+msgid ""
+":ref:`ColorN <class_@GDScript_method_ColorN>` **(** :ref:`String "
+"<class_String>` name, :ref:`float <class_float>` alpha=1.0 **)**"
+msgstr ""
+":ref:`ColorN <class_@GDScript_method_ColorN>` **(** :ref:`String "
+"<class_String>` name, :ref:`float <class_float>` alpha=1.0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:147
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:167
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:169
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:173
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:183
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:201
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:27
+msgid ""
+":ref:`abs <class_@GDScript_method_abs>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`abs <class_@GDScript_method_abs>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:29
+msgid ""
+":ref:`acos <class_@GDScript_method_acos>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`acos <class_@GDScript_method_acos>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:31
+msgid ""
+":ref:`asin <class_@GDScript_method_asin>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`asin <class_@GDScript_method_asin>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:133
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:135
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:137
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:163
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:33
+msgid ""
+":ref:`assert <class_@GDScript_method_assert>` **(** :ref:`bool <class_bool>` "
+"condition **)**"
+msgstr ""
+":ref:`assert <class_@GDScript_method_assert>` **(** :ref:`bool <class_bool>` "
+"condition **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:35
+msgid ""
+":ref:`atan <class_@GDScript_method_atan>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`atan <class_@GDScript_method_atan>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:37
+msgid ""
+":ref:`atan2 <class_@GDScript_method_atan2>` **(** :ref:`float <class_float>` "
+"y, :ref:`float <class_float>` x **)**"
+msgstr ""
+":ref:`atan2 <class_@GDScript_method_atan2>` **(** :ref:`float <class_float>` "
+"y, :ref:`float <class_float>` x **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:181
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ":ref:`Variant <class_Variant>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:39
+#, fuzzy
+msgid ""
+":ref:`bytes2var <class_@GDScript_method_bytes2var>` **(** :ref:"
+"`PackedByteArray <class_PackedByteArray>` bytes, :ref:`bool <class_bool>` "
+"allow_objects=false **)**"
+msgstr ""
+":ref:`bytes2var <class_@GDScript_method_bytes2var>` **(** :ref:"
+"`PoolByteArray <class_PoolByteArray>` bytes, :ref:`bool <class_bool>` "
+"allow_objects=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:119
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:41
+msgid ""
+":ref:`cartesian2polar <class_@GDScript_method_cartesian2polar>` **(** :ref:"
+"`float <class_float>` x, :ref:`float <class_float>` y **)**"
+msgstr ""
+":ref:`cartesian2polar <class_@GDScript_method_cartesian2polar>` **(** :ref:"
+"`float <class_float>` x, :ref:`float <class_float>` y **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:43
+msgid ""
+":ref:`ceil <class_@GDScript_method_ceil>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`ceil <class_@GDScript_method_ceil>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:197
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:45
+msgid ""
+":ref:`char <class_@GDScript_method_char>` **(** :ref:`int <class_int>` code "
+"**)**"
+msgstr ""
+":ref:`char <class_@GDScript_method_char>` **(** :ref:`int <class_int>` code "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:47
+msgid ""
+":ref:`clamp <class_@GDScript_method_clamp>` **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+msgstr ""
+":ref:`clamp <class_@GDScript_method_clamp>` **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:49
+msgid ""
+":ref:`convert <class_@GDScript_method_convert>` **(** :ref:`Variant "
+"<class_Variant>` what, :ref:`int <class_int>` type **)**"
+msgstr ""
+":ref:`convert <class_@GDScript_method_convert>` **(** :ref:`Variant "
+"<class_Variant>` what, :ref:`int <class_int>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:51
+msgid ""
+":ref:`cos <class_@GDScript_method_cos>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`cos <class_@GDScript_method_cos>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:53
+msgid ""
+":ref:`cosh <class_@GDScript_method_cosh>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`cosh <class_@GDScript_method_cosh>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:55
+msgid ""
+":ref:`db2linear <class_@GDScript_method_db2linear>` **(** :ref:`float "
+"<class_float>` db **)**"
+msgstr ""
+":ref:`db2linear <class_@GDScript_method_db2linear>` **(** :ref:`float "
+"<class_float>` db **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:57
+msgid ""
+":ref:`dectime <class_@GDScript_method_dectime>` **(** :ref:`float "
+"<class_float>` value, :ref:`float <class_float>` amount, :ref:`float "
+"<class_float>` step **)**"
+msgstr ""
+":ref:`dectime <class_@GDScript_method_dectime>` **(** :ref:`float "
+"<class_float>` value, :ref:`float <class_float>` amount, :ref:`float "
+"<class_float>` step **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:59
+msgid ""
+":ref:`deg2rad <class_@GDScript_method_deg2rad>` **(** :ref:`float "
+"<class_float>` deg **)**"
+msgstr ""
+":ref:`deg2rad <class_@GDScript_method_deg2rad>` **(** :ref:`float "
+"<class_float>` deg **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:81
+msgid ":ref:`Object <class_Object>`"
+msgstr ":ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:61
+msgid ""
+":ref:`dict2inst <class_@GDScript_method_dict2inst>` **(** :ref:`Dictionary "
+"<class_Dictionary>` dict **)**"
+msgstr ""
+":ref:`dict2inst <class_@GDScript_method_dict2inst>` **(** :ref:`Dictionary "
+"<class_Dictionary>` dict **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:63
+msgid ""
+":ref:`ease <class_@GDScript_method_ease>` **(** :ref:`float <class_float>` "
+"s, :ref:`float <class_float>` curve **)**"
+msgstr ""
+":ref:`ease <class_@GDScript_method_ease>` **(** :ref:`float <class_float>` "
+"s, :ref:`float <class_float>` curve **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:65
+msgid ""
+":ref:`exp <class_@GDScript_method_exp>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`exp <class_@GDScript_method_exp>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:67
+msgid ""
+":ref:`floor <class_@GDScript_method_floor>` **(** :ref:`float <class_float>` "
+"s **)**"
+msgstr ""
+":ref:`floor <class_@GDScript_method_floor>` **(** :ref:`float <class_float>` "
+"s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:69
+msgid ""
+":ref:`fmod <class_@GDScript_method_fmod>` **(** :ref:`float <class_float>` "
+"a, :ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`fmod <class_@GDScript_method_fmod>` **(** :ref:`float <class_float>` "
+"a, :ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:71
+msgid ""
+":ref:`fposmod <class_@GDScript_method_fposmod>` **(** :ref:`float "
+"<class_float>` a, :ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`fposmod <class_@GDScript_method_fposmod>` **(** :ref:`float "
+"<class_float>` a, :ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:73
+msgid ":ref:`FuncRef <class_FuncRef>`"
+msgstr ":ref:`FuncRef <class_FuncRef>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:73
+msgid ""
+":ref:`funcref <class_@GDScript_method_funcref>` **(** :ref:`Object "
+"<class_Object>` instance, :ref:`String <class_String>` funcname **)**"
+msgstr ""
+":ref:`funcref <class_@GDScript_method_funcref>` **(** :ref:`Object "
+"<class_Object>` instance, :ref:`String <class_String>` funcname **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:157
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:75
+msgid ":ref:`get_stack <class_@GDScript_method_get_stack>` **(** **)**"
+msgstr ":ref:`get_stack <class_@GDScript_method_get_stack>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:121
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:175
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:203
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:77
+msgid ""
+":ref:`hash <class_@GDScript_method_hash>` **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+msgstr ""
+":ref:`hash <class_@GDScript_method_hash>` **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:79
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ":ref:`Dictionary <class_Dictionary>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:79
+msgid ""
+":ref:`inst2dict <class_@GDScript_method_inst2dict>` **(** :ref:`Object "
+"<class_Object>` inst **)**"
+msgstr ""
+":ref:`inst2dict <class_@GDScript_method_inst2dict>` **(** :ref:`Object "
+"<class_Object>` inst **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:81
+msgid ""
+":ref:`instance_from_id <class_@GDScript_method_instance_from_id>` **(** :ref:"
+"`int <class_int>` instance_id **)**"
+msgstr ""
+":ref:`instance_from_id <class_@GDScript_method_instance_from_id>` **(** :ref:"
+"`int <class_int>` instance_id **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:83
+msgid ""
+":ref:`inverse_lerp <class_@GDScript_method_inverse_lerp>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` weight **)**"
+msgstr ""
+":ref:`inverse_lerp <class_@GDScript_method_inverse_lerp>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:189
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:85
+msgid ""
+":ref:`is_equal_approx <class_@GDScript_method_is_equal_approx>` **(** :ref:"
+"`float <class_float>` a, :ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`is_equal_approx <class_@GDScript_method_is_equal_approx>` **(** :ref:"
+"`float <class_float>` a, :ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:87
+msgid ""
+":ref:`is_inf <class_@GDScript_method_is_inf>` **(** :ref:`float "
+"<class_float>` s **)**"
+msgstr ""
+":ref:`is_inf <class_@GDScript_method_is_inf>` **(** :ref:`float "
+"<class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:89
+msgid ""
+":ref:`is_instance_valid <class_@GDScript_method_is_instance_valid>` **(** :"
+"ref:`Object <class_Object>` instance **)**"
+msgstr ""
+":ref:`is_instance_valid <class_@GDScript_method_is_instance_valid>` **(** :"
+"ref:`Object <class_Object>` instance **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:91
+msgid ""
+":ref:`is_nan <class_@GDScript_method_is_nan>` **(** :ref:`float "
+"<class_float>` s **)**"
+msgstr ""
+":ref:`is_nan <class_@GDScript_method_is_nan>` **(** :ref:`float "
+"<class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:93
+msgid ""
+":ref:`is_zero_approx <class_@GDScript_method_is_zero_approx>` **(** :ref:"
+"`float <class_float>` s **)**"
+msgstr ""
+":ref:`is_zero_approx <class_@GDScript_method_is_zero_approx>` **(** :ref:"
+"`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:95
+msgid ""
+":ref:`len <class_@GDScript_method_len>` **(** :ref:`Variant <class_Variant>` "
+"var **)**"
+msgstr ""
+":ref:`len <class_@GDScript_method_len>` **(** :ref:`Variant <class_Variant>` "
+"var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:97
+msgid ""
+":ref:`lerp <class_@GDScript_method_lerp>` **(** :ref:`Variant "
+"<class_Variant>` from, :ref:`Variant <class_Variant>` to, :ref:`float "
+"<class_float>` weight **)**"
+msgstr ""
+":ref:`lerp <class_@GDScript_method_lerp>` **(** :ref:`Variant "
+"<class_Variant>` from, :ref:`Variant <class_Variant>` to, :ref:`float "
+"<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:99
+msgid ""
+":ref:`lerp_angle <class_@GDScript_method_lerp_angle>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` weight **)**"
+msgstr ""
+":ref:`lerp_angle <class_@GDScript_method_lerp_angle>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:101
+msgid ""
+":ref:`linear2db <class_@GDScript_method_linear2db>` **(** :ref:`float "
+"<class_float>` nrg **)**"
+msgstr ""
+":ref:`linear2db <class_@GDScript_method_linear2db>` **(** :ref:`float "
+"<class_float>` nrg **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:125
+msgid ":ref:`Resource <class_Resource>`"
+msgstr ":ref:`Resource <class_Resource>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:103
+msgid ""
+":ref:`load <class_@GDScript_method_load>` **(** :ref:`String <class_String>` "
+"path **)**"
+msgstr ""
+":ref:`load <class_@GDScript_method_load>` **(** :ref:`String <class_String>` "
+"path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:105
+msgid ""
+":ref:`log <class_@GDScript_method_log>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`log <class_@GDScript_method_log>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:107
+msgid ""
+":ref:`max <class_@GDScript_method_max>` **(** :ref:`float <class_float>` a, :"
+"ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`max <class_@GDScript_method_max>` **(** :ref:`float <class_float>` a, :"
+"ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:109
+msgid ""
+":ref:`min <class_@GDScript_method_min>` **(** :ref:`float <class_float>` a, :"
+"ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`min <class_@GDScript_method_min>` **(** :ref:`float <class_float>` a, :"
+"ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:111
+msgid ""
+":ref:`move_toward <class_@GDScript_method_move_toward>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` delta **)**"
+msgstr ""
+":ref:`move_toward <class_@GDScript_method_move_toward>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:113
+msgid ""
+":ref:`nearest_po2 <class_@GDScript_method_nearest_po2>` **(** :ref:`int "
+"<class_int>` value **)**"
+msgstr ""
+":ref:`nearest_po2 <class_@GDScript_method_nearest_po2>` **(** :ref:`int "
+"<class_int>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:115
+msgid ""
+":ref:`ord <class_@GDScript_method_ord>` **(** :ref:`String <class_String>` "
+"char **)**"
+msgstr ""
+":ref:`ord <class_@GDScript_method_ord>` **(** :ref:`String <class_String>` "
+"char **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:117
+msgid ""
+":ref:`parse_json <class_@GDScript_method_parse_json>` **(** :ref:`String "
+"<class_String>` json **)**"
+msgstr ""
+":ref:`parse_json <class_@GDScript_method_parse_json>` **(** :ref:`String "
+"<class_String>` json **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:119
+msgid ""
+":ref:`polar2cartesian <class_@GDScript_method_polar2cartesian>` **(** :ref:"
+"`float <class_float>` r, :ref:`float <class_float>` th **)**"
+msgstr ""
+":ref:`polar2cartesian <class_@GDScript_method_polar2cartesian>` **(** :ref:"
+"`float <class_float>` r, :ref:`float <class_float>` th **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:121
+msgid ""
+":ref:`posmod <class_@GDScript_method_posmod>` **(** :ref:`int <class_int>` "
+"a, :ref:`int <class_int>` b **)**"
+msgstr ""
+":ref:`posmod <class_@GDScript_method_posmod>` **(** :ref:`int <class_int>` "
+"a, :ref:`int <class_int>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:123
+msgid ""
+":ref:`pow <class_@GDScript_method_pow>` **(** :ref:`float <class_float>` "
+"base, :ref:`float <class_float>` exp **)**"
+msgstr ""
+":ref:`pow <class_@GDScript_method_pow>` **(** :ref:`float <class_float>` "
+"base, :ref:`float <class_float>` exp **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:125
+msgid ""
+":ref:`preload <class_@GDScript_method_preload>` **(** :ref:`String "
+"<class_String>` path **)**"
+msgstr ""
+":ref:`preload <class_@GDScript_method_preload>` **(** :ref:`String "
+"<class_String>` path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:127
+msgid ":ref:`print <class_@GDScript_method_print>` **(** ... **)** vararg"
+msgstr ":ref:`print <class_@GDScript_method_print>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:129
+msgid ""
+":ref:`print_debug <class_@GDScript_method_print_debug>` **(** ... **)** "
+"vararg"
+msgstr ""
+":ref:`print_debug <class_@GDScript_method_print_debug>` **(** ... **)** "
+"vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:131
+msgid ":ref:`print_stack <class_@GDScript_method_print_stack>` **(** **)**"
+msgstr ":ref:`print_stack <class_@GDScript_method_print_stack>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:133
+msgid ""
+":ref:`printerr <class_@GDScript_method_printerr>` **(** ... **)** vararg"
+msgstr ""
+":ref:`printerr <class_@GDScript_method_printerr>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:135
+msgid ""
+":ref:`printraw <class_@GDScript_method_printraw>` **(** ... **)** vararg"
+msgstr ""
+":ref:`printraw <class_@GDScript_method_printraw>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:137
+msgid ":ref:`prints <class_@GDScript_method_prints>` **(** ... **)** vararg"
+msgstr ":ref:`prints <class_@GDScript_method_prints>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:139
+msgid ":ref:`printt <class_@GDScript_method_printt>` **(** ... **)** vararg"
+msgstr ":ref:`printt <class_@GDScript_method_printt>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:141
+msgid ""
+":ref:`push_error <class_@GDScript_method_push_error>` **(** :ref:`String "
+"<class_String>` message **)**"
+msgstr ""
+":ref:`push_error <class_@GDScript_method_push_error>` **(** :ref:`String "
+"<class_String>` message **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:143
+msgid ""
+":ref:`push_warning <class_@GDScript_method_push_warning>` **(** :ref:`String "
+"<class_String>` message **)**"
+msgstr ""
+":ref:`push_warning <class_@GDScript_method_push_warning>` **(** :ref:`String "
+"<class_String>` message **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:145
+msgid ""
+":ref:`rad2deg <class_@GDScript_method_rad2deg>` **(** :ref:`float "
+"<class_float>` rad **)**"
+msgstr ""
+":ref:`rad2deg <class_@GDScript_method_rad2deg>` **(** :ref:`float "
+"<class_float>` rad **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:147
+msgid ""
+":ref:`rand_range <class_@GDScript_method_rand_range>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to **)**"
+msgstr ""
+":ref:`rand_range <class_@GDScript_method_rand_range>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:149
+msgid ""
+":ref:`rand_seed <class_@GDScript_method_rand_seed>` **(** :ref:`int "
+"<class_int>` seed **)**"
+msgstr ""
+":ref:`rand_seed <class_@GDScript_method_rand_seed>` **(** :ref:`int "
+"<class_int>` seed **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:151
+msgid ":ref:`randf <class_@GDScript_method_randf>` **(** **)**"
+msgstr ":ref:`randf <class_@GDScript_method_randf>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:153
+msgid ":ref:`randi <class_@GDScript_method_randi>` **(** **)**"
+msgstr ":ref:`randi <class_@GDScript_method_randi>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:155
+msgid ":ref:`randomize <class_@GDScript_method_randomize>` **(** **)**"
+msgstr ":ref:`randomize <class_@GDScript_method_randomize>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:157
+msgid ":ref:`range <class_@GDScript_method_range>` **(** ... **)** vararg"
+msgstr ":ref:`range <class_@GDScript_method_range>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:159
+msgid ""
+":ref:`range_lerp <class_@GDScript_method_range_lerp>` **(** :ref:`float "
+"<class_float>` value, :ref:`float <class_float>` istart, :ref:`float "
+"<class_float>` istop, :ref:`float <class_float>` ostart, :ref:`float "
+"<class_float>` ostop **)**"
+msgstr ""
+":ref:`range_lerp <class_@GDScript_method_range_lerp>` **(** :ref:`float "
+"<class_float>` value, :ref:`float <class_float>` istart, :ref:`float "
+"<class_float>` istop, :ref:`float <class_float>` ostart, :ref:`float "
+"<class_float>` ostop **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:161
+msgid ""
+":ref:`round <class_@GDScript_method_round>` **(** :ref:`float <class_float>` "
+"s **)**"
+msgstr ""
+":ref:`round <class_@GDScript_method_round>` **(** :ref:`float <class_float>` "
+"s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:163
+msgid ""
+":ref:`seed <class_@GDScript_method_seed>` **(** :ref:`int <class_int>` seed "
+"**)**"
+msgstr ""
+":ref:`seed <class_@GDScript_method_seed>` **(** :ref:`int <class_int>` seed "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:165
+msgid ""
+":ref:`sign <class_@GDScript_method_sign>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`sign <class_@GDScript_method_sign>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:167
+msgid ""
+":ref:`sin <class_@GDScript_method_sin>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`sin <class_@GDScript_method_sin>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:169
+msgid ""
+":ref:`sinh <class_@GDScript_method_sinh>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`sinh <class_@GDScript_method_sinh>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:171
+msgid ""
+":ref:`smoothstep <class_@GDScript_method_smoothstep>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` weight **)**"
+msgstr ""
+":ref:`smoothstep <class_@GDScript_method_smoothstep>` **(** :ref:`float "
+"<class_float>` from, :ref:`float <class_float>` to, :ref:`float "
+"<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:173
+msgid ""
+":ref:`sqrt <class_@GDScript_method_sqrt>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`sqrt <class_@GDScript_method_sqrt>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:175
+msgid ""
+":ref:`step_decimals <class_@GDScript_method_step_decimals>` **(** :ref:"
+"`float <class_float>` step **)**"
+msgstr ""
+":ref:`step_decimals <class_@GDScript_method_step_decimals>` **(** :ref:"
+"`float <class_float>` step **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:177
+msgid ""
+":ref:`stepify <class_@GDScript_method_stepify>` **(** :ref:`float "
+"<class_float>` s, :ref:`float <class_float>` step **)**"
+msgstr ""
+":ref:`stepify <class_@GDScript_method_stepify>` **(** :ref:`float "
+"<class_float>` s, :ref:`float <class_float>` step **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:179
+msgid ":ref:`str <class_@GDScript_method_str>` **(** ... **)** vararg"
+msgstr ":ref:`str <class_@GDScript_method_str>` **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:181
+msgid ""
+":ref:`str2var <class_@GDScript_method_str2var>` **(** :ref:`String "
+"<class_String>` string **)**"
+msgstr ""
+":ref:`str2var <class_@GDScript_method_str2var>` **(** :ref:`String "
+"<class_String>` string **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:183
+msgid ""
+":ref:`tan <class_@GDScript_method_tan>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`tan <class_@GDScript_method_tan>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:185
+msgid ""
+":ref:`tanh <class_@GDScript_method_tanh>` **(** :ref:`float <class_float>` s "
+"**)**"
+msgstr ""
+":ref:`tanh <class_@GDScript_method_tanh>` **(** :ref:`float <class_float>` s "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:187
+msgid ""
+":ref:`to_json <class_@GDScript_method_to_json>` **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+msgstr ""
+":ref:`to_json <class_@GDScript_method_to_json>` **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:189
+msgid ""
+":ref:`type_exists <class_@GDScript_method_type_exists>` **(** :ref:`String "
+"<class_String>` type **)**"
+msgstr ""
+":ref:`type_exists <class_@GDScript_method_type_exists>` **(** :ref:`String "
+"<class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:191
+msgid ""
+":ref:`typeof <class_@GDScript_method_typeof>` **(** :ref:`Variant "
+"<class_Variant>` what **)**"
+msgstr ""
+":ref:`typeof <class_@GDScript_method_typeof>` **(** :ref:`Variant "
+"<class_Variant>` what **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:193
+msgid ""
+":ref:`validate_json <class_@GDScript_method_validate_json>` **(** :ref:"
+"`String <class_String>` json **)**"
+msgstr ""
+":ref:`validate_json <class_@GDScript_method_validate_json>` **(** :ref:"
+"`String <class_String>` json **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:195
+#, fuzzy
+msgid ":ref:`PackedByteArray <class_PackedByteArray>`"
+msgstr ":ref:`PoolByteArray <class_PoolByteArray>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:195
+msgid ""
+":ref:`var2bytes <class_@GDScript_method_var2bytes>` **(** :ref:`Variant "
+"<class_Variant>` var, :ref:`bool <class_bool>` full_objects=false **)**"
+msgstr ""
+":ref:`var2bytes <class_@GDScript_method_var2bytes>` **(** :ref:`Variant "
+"<class_Variant>` var, :ref:`bool <class_bool>` full_objects=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:197
+msgid ""
+":ref:`var2str <class_@GDScript_method_var2str>` **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+msgstr ""
+":ref:`var2str <class_@GDScript_method_var2str>` **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:199
+msgid ":ref:`WeakRef <class_WeakRef>`"
+msgstr ":ref:`WeakRef <class_WeakRef>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:199
+msgid ""
+":ref:`weakref <class_@GDScript_method_weakref>` **(** :ref:`Object "
+"<class_Object>` obj **)**"
+msgstr ""
+":ref:`weakref <class_@GDScript_method_weakref>` **(** :ref:`Object "
+"<class_Object>` obj **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:201
+msgid ""
+":ref:`wrapf <class_@GDScript_method_wrapf>` **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+msgstr ""
+":ref:`wrapf <class_@GDScript_method_wrapf>` **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:203
+msgid ""
+":ref:`wrapi <class_@GDScript_method_wrapi>` **(** :ref:`int <class_int>` "
+"value, :ref:`int <class_int>` min, :ref:`int <class_int>` max **)**"
+msgstr ""
+":ref:`wrapi <class_@GDScript_method_wrapi>` **(** :ref:`int <class_int>` "
+"value, :ref:`int <class_int>` min, :ref:`int <class_int>` max **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:205
+msgid ":ref:`GDScriptFunctionState <class_GDScriptFunctionState>`"
+msgstr ":ref:`GDScriptFunctionState <class_GDScriptFunctionState>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:205
+msgid ""
+":ref:`yield <class_@GDScript_method_yield>` **(** :ref:`Object "
+"<class_Object>` object=null, :ref:`String <class_String>` signal=\"\" **)**"
+msgstr ""
+":ref:`yield <class_@GDScript_method_yield>` **(** :ref:`Object "
+"<class_Object>` object=null, :ref:`String <class_String>` signal=\"\" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:209
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:219
+msgid ""
+"**PI** = **3.141593** --- Constant that represents how many times the "
+"diameter of a circle fits around its perimeter."
+msgstr "**PI** = **3.141593**——表示圆周长与圆直径之比的常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:221
+msgid ""
+"**TAU** = **6.283185** --- The circle constant, the circumference of the "
+"unit circle."
+msgstr "**TAU** = **6.283185**——圆常数，表示单位圆的周长。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:223
+msgid ""
+"**INF** = **inf** --- A positive infinity. (For negative infinity, use -INF)."
+msgstr "**INF** = **inf**——正无穷大。(对于负无穷大，使用-INF)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:225
+msgid ""
+"**NAN** = **nan** --- Macro constant that expands to an expression of type "
+"float that represents a NaN."
+msgstr "**NAN** = **nan**——宏观常量，扩展为表示NaN的float类型的表达式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:227
+msgid ""
+"The NaN values are used to identify undefined or non-representable values "
+"for floating-point elements, such as the square root of negative numbers or "
+"the result of 0/0."
+msgstr ""
+"NaN值用于标识浮点元素的不确定或不可表示的值，例如负数的平方根或0/0的结果。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:230
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:234
+msgid ""
+":ref:`Color <class_Color>` **Color8** **(** :ref:`int <class_int>` r8, :ref:"
+"`int <class_int>` g8, :ref:`int <class_int>` b8, :ref:`int <class_int>` "
+"a8=255 **)**"
+msgstr ""
+":ref:`Color <class_Color>` **Color8** **(** :ref:`int <class_int>` r8, :ref:"
+"`int <class_int>` g8, :ref:`int <class_int>` b8, :ref:`int <class_int>` "
+"a8=255 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:236
+msgid ""
+"Returns a color constructed from integer red, green, blue, and alpha "
+"channels. Each channel should have 8 bits of information ranging from 0 to "
+"255."
+msgstr ""
+"返回一个由红色、绿色、蓝色和Alpha通道构成的颜色对象。每个通道具有8位信息，范"
+"围从0到255。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:238
+msgid "``r8`` red channel"
+msgstr "``r8`` 红色通道"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:240
+msgid "``g8`` green channel"
+msgstr "``g8`` 绿色通道"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:242
+msgid "``b8`` blue channel"
+msgstr "``b8`` 蓝色通道"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:244
+msgid "``a8`` alpha channel"
+msgstr "``a8`` alpha通道"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:254
+msgid ""
+":ref:`Color <class_Color>` **ColorN** **(** :ref:`String <class_String>` "
+"name, :ref:`float <class_float>` alpha=1.0 **)**"
+msgstr ""
+":ref:`Color <class_Color>` **ColorN** **(** :ref:`String <class_String>` "
+"name, :ref:`float <class_float>` alpha=1.0 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:256
+msgid ""
+"Returns a color according to the standardized ``name`` with ``alpha`` "
+"ranging from 0 to 1."
+msgstr ""
+"根据标准颜色 ``name`` 和介于0-1的 ``alpha`` 值返回一个 ``颜色(Color)`` 对象。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:262
+msgid ""
+"Supported color names are the same as the constants defined in :ref:`Color "
+"<class_Color>`."
+msgstr "支持的颜色名称与 :ref:`Color <class_Color>` 中定义的常量相同。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:268
+msgid ""
+":ref:`float <class_float>` **abs** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **abs** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:270
+msgid ""
+"Returns the absolute value of parameter ``s`` (i.e. unsigned value, works "
+"for integer and float)."
+msgstr "返回参数 ``s`` 的绝对值(即无符号值，适用于整数和浮点数)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:281
+msgid ""
+":ref:`float <class_float>` **acos** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **acos** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:283
+msgid ""
+"Returns the arc cosine of ``s`` in radians. Use to get the angle of cosine "
+"``s``."
+msgstr "以弧度返回 ``s`` 的反余弦值。用于获取余弦 ``s`` 的角度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:294
+msgid ""
+":ref:`float <class_float>` **asin** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **asin** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:296
+msgid ""
+"Returns the arc sine of ``s`` in radians. Use to get the angle of sine ``s``."
+msgstr "以弧度返回 ``s`` 的反正弦值。用于获取正弦 ``s`` 的角度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:307
+msgid "void **assert** **(** :ref:`bool <class_bool>` condition **)**"
+msgstr "void **assert** **(** :ref:`bool <class_bool>` condition **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:309
+msgid ""
+"Asserts that the ``condition`` is ``true`` . If the ``condition`` is "
+"``false``, an error is generated and the program is halted until you resume "
+"it. Only executes in debug builds, or when running the game from the editor. "
+"Use it for debugging purposes, to make sure a statement is ``true`` during "
+"development."
+msgstr ""
+"断言 ``condition`` 为 ``true``。如果 ``condition`` 为 ``false``，则会生成一个"
+"错误并暂停程序，直到恢复它为止。仅在调试版本中执行，或在编辑器中运行游戏时执"
+"行。将其用于调试目的，以确保在开发过程中语句为 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:323
+msgid ""
+":ref:`float <class_float>` **atan** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **atan** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:325
+msgid ""
+"Returns the arc tangent of ``s`` in radians. Use it to get the angle from an "
+"angle's tangent in trigonometry: ``atan(tan(angle)) == angle``."
+msgstr ""
+"以弧度返回 ``s`` 的反正切值。可根据 ``atan(tan(angle)) == angle`` 用它从三角"
+"数学中某个角度的正切值 ``s`` 获取角度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:327
+msgid ""
+"The method cannot know in which quadrant the angle should fall. See :ref:"
+"`atan2 <class_@GDScript_method_atan2>` if you always want an exact angle."
+msgstr ""
+"该方法无法确定角度应落在哪个象限中。如果始终想要精确的角度，参见 :ref:`atan2 "
+"<class_@GDScript_method_atan2>` 。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:337
+msgid ""
+":ref:`float <class_float>` **atan2** **(** :ref:`float <class_float>` y, :"
+"ref:`float <class_float>` x **)**"
+msgstr ""
+":ref:`float <class_float>` **atan2** **(** :ref:`float <class_float>` y, :"
+"ref:`float <class_float>` x **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:339
+msgid ""
+"Returns the arc tangent of ``y/x`` in radians. Use to get the angle of "
+"tangent ``y/x``. To compute the value, the method takes into account the "
+"sign of both arguments in order to determine the quadrant."
+msgstr ""
+"以弧度返回 ``y/x`` 的反正切值。用于获取正切值 ``y/x`` 的角度。为了计算该值，"
+"该方法考虑了两个参数的符号以确定象限。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:349
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **bytes2var** **(** :ref:`PackedByteArray "
+"<class_PackedByteArray>` bytes, :ref:`bool <class_bool>` allow_objects=false "
+"**)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **bytes2var** **(** :ref:`PoolByteArray "
+"<class_PoolByteArray>` bytes, :ref:`bool <class_bool>` allow_objects=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:351
+msgid ""
+"Decodes a byte array back to a value. When ``allow_objects`` is ``true`` "
+"decoding objects is allowed."
+msgstr ""
+"将字节数组解码为一个值。当 ``allow_objects`` 为 ``true`` 时，允许解码对象。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:353
+msgid ""
+"**WARNING:** Deserialized object can contain code which gets executed. Do "
+"not use this option if the serialized object comes from untrusted sources to "
+"avoid potential security threats (remote code execution)."
+msgstr ""
+"**警告**：反序列化的对象可以包含要执行的代码。如果序列化的对象来自不受信任的"
+"来源，请不要使用此选项，以避免潜在的安全威胁(远程执行代码)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:359
+msgid ""
+":ref:`Vector2 <class_Vector2>` **cartesian2polar** **(** :ref:`float "
+"<class_float>` x, :ref:`float <class_float>` y **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **cartesian2polar** **(** :ref:`float "
+"<class_float>` x, :ref:`float <class_float>` y **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:361
+msgid ""
+"Converts a 2D point expressed in the cartesian coordinate system (X and Y "
+"axis) to the polar coordinate system (a distance from the origin and an "
+"angle)."
+msgstr ""
+"将2D点以直角坐标系(X和Y轴)表示的坐标，转换为极坐标系(距原点的距离和角度)坐"
+"标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:367
+msgid ""
+":ref:`float <class_float>` **ceil** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **ceil** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:369
+msgid ""
+"Rounds ``s`` upward, returning the smallest integral value that is not less "
+"than ``s``."
+msgstr "向上舍入 ``s``，返回不小于 ``s`` 的最小整数值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:380
+msgid ""
+":ref:`String <class_String>` **char** **(** :ref:`int <class_int>` code **)**"
+msgstr ""
+":ref:`String <class_String>` **char** **(** :ref:`int <class_int>` code **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:382
+msgid ""
+"Returns a character as a String of the given Unicode code point (which is "
+"compatible with ASCII code)."
+msgstr "返回一个给定Unicode代码点（与ASCII代码兼容）的字符串形式的字符。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:390
+msgid "This is the inverse of :ref:`ord <class_@GDScript_method_ord>`."
+msgstr "这是 :ref:`ord <class_@GDScript_method_ord>` 的反函数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:396
+msgid ""
+":ref:`float <class_float>` **clamp** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+msgstr ""
+":ref:`float <class_float>` **clamp** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:398
+msgid ""
+"Clamps ``value`` and returns a value not less than ``min`` and not more than "
+"``max``."
+msgstr "钳制 ``value`` 并返回一个不小于 ``min`` 且不大于 ``max`` 的值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:414
+msgid ""
+":ref:`Variant <class_Variant>` **convert** **(** :ref:`Variant "
+"<class_Variant>` what, :ref:`int <class_int>` type **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **convert** **(** :ref:`Variant "
+"<class_Variant>` what, :ref:`int <class_int>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:416
+msgid ""
+"Converts from a type to another in the best way possible. The ``type`` "
+"parameter uses the :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` "
+"values."
+msgstr ""
+"尽可能以一种最佳方式将一种类型转换为另一种类型。``type`` 参数使用 :ref:"
+"`Variant.Type <enum_@GlobalScope_Variant.Type>` 值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:431
+msgid ""
+":ref:`float <class_float>` **cos** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **cos** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:433
+msgid "Returns the cosine of angle ``s`` in radians."
+msgstr "返回以弧度表示的角度 ``s`` 的余弦值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:445
+msgid ""
+":ref:`float <class_float>` **cosh** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **cosh** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:447
+msgid "Returns the hyperbolic cosine of ``s`` in radians."
+msgstr "返回以弧度表示的角度 ``s`` 的双曲余弦值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:458
+msgid ""
+":ref:`float <class_float>` **db2linear** **(** :ref:`float <class_float>` db "
+"**)**"
+msgstr ""
+":ref:`float <class_float>` **db2linear** **(** :ref:`float <class_float>` db "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:460
+msgid "Converts from decibels to linear energy (audio)."
+msgstr "从分贝 ``db`` 转换为线性能量(音频)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:466
+msgid ""
+":ref:`float <class_float>` **dectime** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` amount, :ref:`float <class_float>` step "
+"**)**"
+msgstr ""
+":ref:`float <class_float>` **dectime** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` amount, :ref:`float <class_float>` step "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:468
+msgid "Returns the result of ``value`` decreased by ``step`` \\* ``amount``."
+msgstr "返回 ``value`` - ``step`` \\* ``amount`` 的运算结果。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:479
+msgid ""
+":ref:`float <class_float>` **deg2rad** **(** :ref:`float <class_float>` deg "
+"**)**"
+msgstr ""
+":ref:`float <class_float>` **deg2rad** **(** :ref:`float <class_float>` deg "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:481
+msgid "Returns degrees converted to radians."
+msgstr "返回度数转换为弧度的结果。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:492
+msgid ""
+":ref:`Object <class_Object>` **dict2inst** **(** :ref:`Dictionary "
+"<class_Dictionary>` dict **)**"
+msgstr ""
+":ref:`Object <class_Object>` **dict2inst** **(** :ref:`Dictionary "
+"<class_Dictionary>` dict **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:494
+msgid ""
+"Converts a previously converted instance to a dictionary, back into an "
+"instance. Useful for deserializing."
+msgstr "将先前的实例转换成的 ``字典(Dictionary``，转换回实例。用于反序列化。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:500
+msgid ""
+":ref:`float <class_float>` **ease** **(** :ref:`float <class_float>` s, :ref:"
+"`float <class_float>` curve **)**"
+msgstr ""
+":ref:`float <class_float>` **ease** **(** :ref:`float <class_float>` s, :ref:"
+"`float <class_float>` curve **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:502
+msgid ""
+"Easing function, based on exponent. 0 is constant, 1 is linear, 0 to 1 is "
+"ease-in, 1+ is ease out. Negative values are in-out/out in."
+msgstr ""
+"基于指数的缓动函数。0是常数，1是线性，0到1是缓入，1+是缓出。负值是缓入-缓出/"
+"缓出-缓入。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:508
+msgid ""
+":ref:`float <class_float>` **exp** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **exp** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:510
+msgid ""
+"The natural exponential function. It raises the mathematical constant **e** "
+"to the power of ``s`` and returns it."
+msgstr "自然指数函数。计算数学常数 **e** 的 ``s`` 次幂并返回计算结果。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:512
+msgid "**e** has an approximate value of 2.71828."
+msgstr "**e** 的近似值为2.71828。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:514
+msgid ""
+"For exponents to other bases use the method :ref:`pow "
+"<class_@GDScript_method_pow>`."
+msgstr ""
+"对于其他底数的指数，请使用方法 :ref:`pow <class_@GDScript_method_pow>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:524
+msgid ""
+":ref:`float <class_float>` **floor** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **floor** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:526
+msgid "Rounds ``s`` to the closest smaller integer and returns it."
+msgstr "将 ``s`` 舍入到最接近的较小整数并返回。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:535
+msgid ""
+"**Note:** This method returns a float. If you need an integer, you can use "
+"``int(s)`` directly."
+msgstr "**注意：** 此方法返回浮点数。如果需要整数，则可以直接使用 ``int(s)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:541
+msgid ""
+":ref:`float <class_float>` **fmod** **(** :ref:`float <class_float>` a, :ref:"
+"`float <class_float>` b **)**"
+msgstr ""
+":ref:`float <class_float>` **fmod** **(** :ref:`float <class_float>` a, :ref:"
+"`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:543
+msgid ""
+"Returns the floating-point remainder of ``a/b``, keeping the sign of ``a``."
+msgstr "返回 ``a/b`` 的浮点余数，并保留 ``a`` 的符号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:550
+#, python-format
+msgid "For the integer remainder operation, use the % operator."
+msgstr "对于整数余数运算，请使用％运算符。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:556
+msgid ""
+":ref:`float <class_float>` **fposmod** **(** :ref:`float <class_float>` a, :"
+"ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`float <class_float>` **fposmod** **(** :ref:`float <class_float>` a, :"
+"ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:558
+msgid ""
+"Returns the floating-point modulus of ``a/b`` that wraps equally in positive "
+"and negative."
+msgstr "返回 ``a/b`` 的浮点模数，其结果仅与 ``b`` 正负性保持一致。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:567
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:942
+msgid "Produces:"
+msgstr "输出："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:587
+msgid ""
+":ref:`FuncRef <class_FuncRef>` **funcref** **(** :ref:`Object "
+"<class_Object>` instance, :ref:`String <class_String>` funcname **)**"
+msgstr ""
+":ref:`FuncRef <class_FuncRef>` **funcref** **(** :ref:`Object "
+"<class_Object>` instance, :ref:`String <class_String>` funcname **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:589
+msgid ""
+"Returns a reference to the specified function ``funcname`` in the "
+"``instance`` node. As functions aren't first-class objects in GDscript, use "
+"``funcref`` to store a :ref:`FuncRef <class_FuncRef>` in a variable and call "
+"it later."
+msgstr ""
+"返回对 ``instance`` 节点中指定函数 ``funcname`` 的引用。由于函数不是GDscript"
+"中的一级对象，因此请使用 ``funcref`` 将 :ref:`函数引用(FuncRef) "
+"<class_FuncRef>` 存储在变量中，然后再调用它。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:603
+msgid ":ref:`Array <class_Array>` **get_stack** **(** **)**"
+msgstr ":ref:`Array <class_Array>` **get_stack** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:605
+msgid "Returns an array of dictionaries representing the current call stack."
+msgstr "返回表示当前调用堆栈的 ``字典(Dictionary)`` ``数组(Array)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:618
+msgid "would print"
+msgstr "将打印"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:628
+msgid ""
+":ref:`int <class_int>` **hash** **(** :ref:`Variant <class_Variant>` var "
+"**)**"
+msgstr ""
+":ref:`int <class_int>` **hash** **(** :ref:`Variant <class_Variant>` var "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:630
+msgid "Returns the integer hash of the variable passed."
+msgstr "返回传入的变量的整数哈希。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:640
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **inst2dict** **(** :ref:`Object "
+"<class_Object>` inst **)**"
+msgstr ""
+":ref:`Dictionary <class_Dictionary>` **inst2dict** **(** :ref:`Object "
+"<class_Object>` inst **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:642
+msgid ""
+"Returns the passed instance converted to a dictionary (useful for "
+"serializing)."
+msgstr "将传入的实例转换为字典，返回该字典(可用于序列化)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:652
+msgid "Prints out:"
+msgstr "打印输出："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:663
+msgid ""
+":ref:`Object <class_Object>` **instance_from_id** **(** :ref:`int "
+"<class_int>` instance_id **)**"
+msgstr ""
+":ref:`Object <class_Object>` **instance_from_id** **(** :ref:`int "
+"<class_int>` instance_id **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:665
+msgid ""
+"Returns the Object that corresponds to ``instance_id``. All Objects have a "
+"unique instance ID."
+msgstr "返回与 ``instance_id`` 相对应的对象。所有对象都有唯一的实例ID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:679
+msgid ""
+":ref:`float <class_float>` **inverse_lerp** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` weight **)**"
+msgstr ""
+":ref:`float <class_float>` **inverse_lerp** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:681
+#, fuzzy
+msgid ""
+"Returns a normalized value considering the given range. This is the opposite "
+"of :ref:`lerp <class_@GDScript_method_lerp>`."
+msgstr "根据给定范围，返回归一化的权重值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:695
+msgid ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`float "
+"<class_float>` a, :ref:`float <class_float>` b **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`float "
+"<class_float>` a, :ref:`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:697
+msgid ""
+"Returns ``true`` if ``a`` and ``b`` are approximately equal to each other."
+msgstr "如果 ``a`` 和 ``b`` 彼此近似相等，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:703
+msgid ""
+":ref:`bool <class_bool>` **is_inf** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_inf** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:705
+msgid ""
+"Returns whether ``s`` is an infinity value (either positive infinity or "
+"negative infinity)."
+msgstr "返回 ``s`` 是否为无穷大值(正无穷大还是负无穷大)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:711
+msgid ""
+":ref:`bool <class_bool>` **is_instance_valid** **(** :ref:`Object "
+"<class_Object>` instance **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_instance_valid** **(** :ref:`Object "
+"<class_Object>` instance **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:713
+msgid ""
+"Returns whether ``instance`` is a valid object (e.g. has not been deleted "
+"from memory)."
+msgstr "返回 ``instance`` 是否为有效对象(例如尚未从内存中删除)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:719
+msgid ""
+":ref:`bool <class_bool>` **is_nan** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_nan** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:721
+msgid "Returns whether ``s`` is a NaN (Not-A-Number) value."
+msgstr "返回 ``s`` 是否为 :abbr:`NaN (Not-A-Number)` (非数字)值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:727
+msgid ""
+":ref:`bool <class_bool>` **is_zero_approx** **(** :ref:`float <class_float>` "
+"s **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_zero_approx** **(** :ref:`float <class_float>` "
+"s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:729
+msgid "Returns ``true`` if ``s`` is zero or almost zero."
+msgstr "如果 ``s`` 为零或几乎为零，返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:735
+msgid ""
+":ref:`int <class_int>` **len** **(** :ref:`Variant <class_Variant>` var **)**"
+msgstr ""
+":ref:`int <class_int>` **len** **(** :ref:`Variant <class_Variant>` var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:737
+msgid ""
+"Returns length of Variant ``var``. Length is the character count of String, "
+"element count of Array, size of Dictionary, etc."
+msgstr ""
+"返回Variant类型 ``var`` 的长度。长度是字符串的字符计数、数组的元素计数、字典"
+"的尺寸等。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:739
+msgid "**Note:** Generates a fatal error if Variant can not provide a length."
+msgstr "**注意**：如果Variant无法提供长度，则会产生致命错误。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:750
+msgid ""
+":ref:`Variant <class_Variant>` **lerp** **(** :ref:`Variant <class_Variant>` "
+"from, :ref:`Variant <class_Variant>` to, :ref:`float <class_float>` weight "
+"**)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **lerp** **(** :ref:`Variant <class_Variant>` "
+"from, :ref:`Variant <class_Variant>` to, :ref:`float <class_float>` weight "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:752
+msgid ""
+"Linearly interpolates between two values by a normalized value. This is the "
+"opposite of :ref:`inverse_lerp <class_@GDScript_method_inverse_lerp>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:754
+msgid ""
+"If the ``from`` and ``to`` arguments are of type :ref:`int <class_int>` or :"
+"ref:`float <class_float>`, the return value is a :ref:`float <class_float>`."
+msgstr ""
+"如果 ``from`` 和 ``to`` 参数的类型为 :ref:`int <class_int>` 或 :ref:`float "
+"<class_float>`，则返回值为 :ref:`float <class_float>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:756
+msgid ""
+"If both are of the same vector type (:ref:`Vector2 <class_Vector2>`, :ref:"
+"`Vector3 <class_Vector3>` or :ref:`Color <class_Color>`), the return value "
+"will be of the same type (``lerp`` then calls the vector type's "
+"``linear_interpolate`` method)."
+msgstr ""
+"如果两者是相同的矢量类型 (:ref:`Vector2 <class_Vector2>`，:ref:`Vector3 "
+"<class_Vector3>` 或 :ref:`Color <class_Color>`)，则返回值将为相同类型(然后，"
+"``lerp`` 调用矢量类型的 ``linear_interpolate`` 方法)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:767
+msgid ""
+":ref:`float <class_float>` **lerp_angle** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` weight **)**"
+msgstr ""
+":ref:`float<class_float>` **lerp_angle** **(** :ref:`float<class_float>` "
+"from, :ref:`float<class_float>` to, :ref:`float<class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:769
+msgid ""
+"Linearly interpolates between two angles (in radians) by a normalized value."
+msgstr "通过归一化值在两个角度(以弧度为单位)之间进行线性插值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:771
+msgid ""
+"Similar to :ref:`lerp <class_@GDScript_method_lerp>`, but interpolates "
+"correctly when the angles wrap around :ref:`TAU "
+"<class_@GDScript_constant_TAU>`."
+msgstr ""
+"类似于 :ref:`lerp <class_@GDScript_method_lerp>`，但是当角度环绕在 :ref:`TAU "
+"<class_@GDScript_constant_TAU>` 时可以正确插值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:787
+msgid ""
+":ref:`float <class_float>` **linear2db** **(** :ref:`float <class_float>` "
+"nrg **)**"
+msgstr ""
+":ref:`float <class_float>` **linear2db** **(** :ref:`float <class_float>` "
+"nrg **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:789
+msgid ""
+"Converts from linear energy to decibels (audio). This can be used to "
+"implement volume sliders that behave as expected (since volume isn't "
+"linear). Example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:802
+msgid ""
+":ref:`Resource <class_Resource>` **load** **(** :ref:`String <class_String>` "
+"path **)**"
+msgstr ""
+":ref:`Resource <class_Resource>` **load** **(** :ref:`String <class_String>` "
+"path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:804
+msgid "Loads a resource from the filesystem located at ``path``."
+msgstr "从位于 ``path`` 处的文件系统加载资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:806
+msgid ""
+"**Note:** Resource paths can be obtained by right-clicking on a resource in "
+"the FileSystem dock and choosing **Copy Path**."
+msgstr ""
+"**注意**：可以通过右键点击文件系统停靠面板中的资源，并选择 **复制路径** 来获"
+"得资源路径。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:813
+msgid ""
+"**Important:** The path must be absolute, a local path will just return "
+"``null``."
+msgstr "**重要提示：** 路径必须是绝对路径，局部路径将只返回 ``null``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:819
+msgid ""
+":ref:`float <class_float>` **log** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **log** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:821
+msgid ""
+"Natural logarithm. The amount of time needed to reach a certain level of "
+"continuous growth."
+msgstr "自然对数。``log(exp(s))=s`` 达到一定程度的持续增长所需的次数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:823
+msgid ""
+"**Note:** This is not the same as the \"log\" function on most calculators, "
+"which uses a base 10 logarithm."
+msgstr ""
+"**注意**：这与大多数计算器的 ``log`` 函数不同，后者使用以10为底的对数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:833
+msgid ""
+":ref:`float <class_float>` **max** **(** :ref:`float <class_float>` a, :ref:"
+"`float <class_float>` b **)**"
+msgstr ""
+":ref:`float <class_float>` **max** **(** :ref:`float <class_float>` a, :ref:"
+"`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:835
+msgid "Returns the maximum of two values."
+msgstr "返回两个值的最大值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:846
+msgid ""
+":ref:`float <class_float>` **min** **(** :ref:`float <class_float>` a, :ref:"
+"`float <class_float>` b **)**"
+msgstr ""
+":ref:`float <class_float>` **min** **(** :ref:`float <class_float>` a, :ref:"
+"`float <class_float>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:848
+msgid "Returns the minimum of two values."
+msgstr "返回两个值的最小值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:859
+msgid ""
+":ref:`float <class_float>` **move_toward** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` delta **)**"
+msgstr ""
+":ref:`float <class_float>` **move_toward** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:861
+msgid "Moves ``from`` toward ``to`` by the ``delta`` value."
+msgstr "从 ``from`` 值向 ``to`` 值移动 ``delta`` 的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:863
+msgid "Use a negative ``delta`` value to move away."
+msgstr "负 ``delta`` 表示从 ``from`` 远离 ``to``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:873
+msgid ""
+":ref:`int <class_int>` **nearest_po2** **(** :ref:`int <class_int>` value "
+"**)**"
+msgstr ""
+":ref:`int <class_int>` **nearest_po2** **(** :ref:`int <class_int>` value "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:875
+msgid "Returns the nearest larger power of 2 for integer ``value``."
+msgstr "返回整数 ``value`` 的最接近的2的幂。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:887
+msgid ""
+":ref:`int <class_int>` **ord** **(** :ref:`String <class_String>` char **)**"
+msgstr ""
+":ref:`int <class_int>` **ord** **(** :ref:`String <class_String>` char **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:889
+msgid ""
+"Returns an integer representing the Unicode code point of the given Unicode "
+"character ``char``."
+msgstr "返回一个整数，该整数表示给定Unicode字符 ``char`` 的Unicode代码点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:897
+msgid "This is the inverse of :ref:`char <class_@GDScript_method_char>`."
+msgstr "这是 :ref:`char <class_@GDScript_method_char>` 的反函数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:903
+msgid ""
+":ref:`Variant <class_Variant>` **parse_json** **(** :ref:`String "
+"<class_String>` json **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **parse_json** **(** :ref:`String "
+"<class_String>` json **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:905
+msgid ""
+"Parse JSON text to a Variant (use :ref:`typeof "
+"<class_@GDScript_method_typeof>` to check if it is what you expect)."
+msgstr ""
+"将JSON文本解析为Variant（使用 :ref:`typeof <class_@GDScript_method_typeof>` "
+"检查是否符合期望）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:907
+msgid ""
+"Be aware that the JSON specification does not define integer or float types, "
+"but only a number type. Therefore, parsing a JSON text will convert all "
+"numerical values to :ref:`float <class_float>` types."
+msgstr ""
+"请注意，JSON规范未定义整数或浮点类型，而仅定义了数字类型。因此，解析JSON文本"
+"会将所有数值转换为 :ref:`float <class_float>` 类型。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:909
+msgid ""
+"Note that JSON objects do not preserve key order like Godot dictionaries, "
+"thus you should not rely on keys being in a certain order if a dictionary is "
+"constructed from JSON. In contrast, JSON arrays retain the order of their "
+"elements:"
+msgstr ""
+"请注意，JSON对象不会像Godot字典那样保留键顺序，因此，如果使用JSON构造字典，则"
+"不应依赖于特定顺序的键。相反，JSON数组保留其元素的顺序："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:923
+msgid ""
+":ref:`Vector2 <class_Vector2>` **polar2cartesian** **(** :ref:`float "
+"<class_float>` r, :ref:`float <class_float>` th **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **polar2cartesian** **(** :ref:`float "
+"<class_float>` r, :ref:`float <class_float>` th **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:925
+msgid ""
+"Converts a 2D point expressed in the polar coordinate system (a distance "
+"from the origin ``r`` and an angle ``th``) to the cartesian coordinate "
+"system (X and Y axis)."
+msgstr ""
+"将2D点以极坐标系表示的坐标(到原点的距离 ``r`` 和角度 ``th``)，转换为笛卡尔坐"
+"标系坐标(X和Y轴)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:931
+msgid ""
+":ref:`int <class_int>` **posmod** **(** :ref:`int <class_int>` a, :ref:`int "
+"<class_int>` b **)**"
+msgstr ""
+":ref:`int <class_int>` **posmod** **(** :ref:`int <class_int>` a, :ref:`int "
+"<class_int>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:933
+msgid ""
+"Returns the integer modulus of ``a/b`` that wraps equally in positive and "
+"negative."
+msgstr "返回 ``a/b`` 的整数模数，其结果仅与 ``b`` 正负性保持一致。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:962
+msgid ""
+":ref:`float <class_float>` **pow** **(** :ref:`float <class_float>` base, :"
+"ref:`float <class_float>` exp **)**"
+msgstr ""
+":ref:`float <class_float>` **pow** **(** :ref:`float <class_float>` base, :"
+"ref:`float <class_float>` exp **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:964
+msgid "Returns the result of ``x`` raised to the power of ``y``."
+msgstr "返回 ``x`` 的 ``y`` 次幂的结果。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:974
+msgid ""
+":ref:`Resource <class_Resource>` **preload** **(** :ref:`String "
+"<class_String>` path **)**"
+msgstr ""
+":ref:`Resource <class_Resource>` **preload** **(** :ref:`String "
+"<class_String>` path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:976
+msgid ""
+"Returns a resource from the filesystem that is loaded during script parsing."
+msgstr "返回在脚本解析期间从文件系统加载的资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:978
+msgid ""
+"**Note:** Resource paths can be obtained by right clicking on a resource in "
+"the Assets Panel and choosing \"Copy Path\"."
+msgstr ""
+"**注意**：可以通过右键点击文件系统停靠面板中的资源，并选择 ``复制路径`` 来获"
+"得资源路径。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:989
+msgid "void **print** **(** ... **)** vararg"
+msgstr "void **print** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:991
+msgid ""
+"Converts one or more arguments to strings in the best way possible and "
+"prints them to the console."
+msgstr ""
+"以一种尽可能最佳的方式，将一个或多个参数转换为字符串，并将其打印到控制台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1002
+msgid "void **print_debug** **(** ... **)** vararg"
+msgstr "void **print_debug** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1004
+msgid ""
+"Like :ref:`print <class_@GDScript_method_print>`, but prints only when used "
+"in debug mode."
+msgstr ""
+"类似于 :ref:`print <class_@GDScript_method_print>`，但仅在使用调试模式时才打"
+"印。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1010
+msgid "void **print_stack** **(** **)**"
+msgstr "void **print_stack** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1012
+msgid ""
+"Prints a stack track at code location, only works when running with debugger "
+"turned on."
+msgstr "在代码位置打印堆栈轨迹，仅在打开调试器的情况下有效。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1014
+msgid "Output in the console would look something like this:"
+msgstr "控制台中的输出如下所示："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1024
+msgid "void **printerr** **(** ... **)** vararg"
+msgstr "void **printerr** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1026
+msgid ""
+"Prints one or more arguments to strings in the best way possible to standard "
+"error line."
+msgstr "以尽可能最佳的方式，将一个或多个参数打印为字符串，输出到标准错误行。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1036
+msgid "void **printraw** **(** ... **)** vararg"
+msgstr "void **printraw** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1038
+msgid ""
+"Prints one or more arguments to strings in the best way possible to console. "
+"No newline is added at the end."
+msgstr ""
+"以尽可能最佳的方式，将一个或多个参数打印为字符串，输出到控制台。结尾不会换"
+"行。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1046
+msgid ""
+"**Note:** Due to limitations with Godot's built-in console, this only prints "
+"to the terminal. If you need to print in the editor, use another method, "
+"such as :ref:`print <class_@GDScript_method_print>`."
+msgstr ""
+"**注意**：由于Godot内置控制台的限制，此内容仅会打印到终端上。如果需要在编辑器"
+"中打印，请使用其他方法，例如 :ref:`print <class_@GDScript_method_print>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1052
+msgid "void **prints** **(** ... **)** vararg"
+msgstr "void **prints** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1054
+msgid ""
+"Prints one or more arguments to the console with a space between each "
+"argument."
+msgstr "将一个或多个参数打印到控制台，每个参数之间有一个空格。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1064
+msgid "void **printt** **(** ... **)** vararg"
+msgstr "void **printt** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1066
+msgid ""
+"Prints one or more arguments to the console with a tab between each argument."
+msgstr "将一个或多个参数打印到控制台，每个参数之间有一个制表符。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1076
+msgid "void **push_error** **(** :ref:`String <class_String>` message **)**"
+msgstr "void **push_error** **(** :ref:`String <class_String>` message **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1078
+msgid ""
+"Pushes an error message to Godot's built-in debugger and to the OS terminal."
+msgstr "将一条错误 ``message`` 推送到Godot的内置调试器和OS终端。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1088
+msgid "void **push_warning** **(** :ref:`String <class_String>` message **)**"
+msgstr "void **push_warning** **(** :ref:`String <class_String>` message **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1090
+msgid ""
+"Pushes a warning message to Godot's built-in debugger and to the OS terminal."
+msgstr "将一条警告 ``message`` 推送到Godot的内置调试器和OS终端。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1100
+msgid ""
+":ref:`float <class_float>` **rad2deg** **(** :ref:`float <class_float>` rad "
+"**)**"
+msgstr ""
+":ref:`float <class_float>` **rad2deg** **(** :ref:`float <class_float>` rad "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1102
+msgid "Converts from radians to degrees."
+msgstr "从弧度转换为度数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1112
+msgid ""
+":ref:`float <class_float>` **rand_range** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to **)**"
+msgstr ""
+":ref:`float <class_float>` **rand_range** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1114
+msgid "Random range, any floating point value between ``from`` and ``to``."
+msgstr "随机范围，介于 ``from`` 和 ``to`` 之间的任意浮点值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1124
+msgid ""
+":ref:`Array <class_Array>` **rand_seed** **(** :ref:`int <class_int>` seed "
+"**)**"
+msgstr ""
+":ref:`Array <class_Array>` **rand_seed** **(** :ref:`int <class_int>` seed "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1126
+msgid ""
+"Random from seed: pass a ``seed``, and an array with both number and new "
+"seed is returned. \"Seed\" here refers to the internal state of the pseudo "
+"random number generator. The internal state of the current implementation is "
+"64 bits."
+msgstr ""
+"来自种子的随机数：传入一个 ``seed``，并返回包含数字和新种子的数组。这里的“种"
+"子”是指伪随机数生成器的内部状态。当前实现的内部状态为64位。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1132
+msgid ":ref:`float <class_float>` **randf** **(** **)**"
+msgstr ":ref:`float <class_float>` **randf** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1134
+msgid "Returns a random floating point value on the interval ``[0, 1]``."
+msgstr "返回区间为 ``[0, 1]`` 的随机浮点值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1144
+msgid ":ref:`int <class_int>` **randi** **(** **)**"
+msgstr ":ref:`int <class_int>` **randi** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1146
+msgid ""
+"Returns a random unsigned 32 bit integer. Use remainder to obtain a random "
+"value in the interval ``[0, N - 1]`` (where N is smaller than 2^32)."
+msgstr ""
+"返回一个随机的无符号32位整数。使用余数获取区间为 ``[0, N - 1]`` 的随机值(其"
+"中 ``N`` 小于 ``2 ^ 32``)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1159
+msgid "void **randomize** **(** **)**"
+msgstr "void **randomize** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1161
+msgid ""
+"Randomizes the seed (or the internal state) of the random number generator. "
+"Current implementation reseeds using a number based on time."
+msgstr ""
+"随机化随机数生成器的种子(或内部状态)。当前实现使用基于时间的数字来重新设定种"
+"子。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1172
+msgid ":ref:`Array <class_Array>` **range** **(** ... **)** vararg"
+msgstr ":ref:`Array <class_Array>` **range** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1174
+msgid ""
+"Returns an array with the given range. Range can be 1 argument N (0 to N-1), "
+"two arguments (initial, final-1) or three arguments (initial, final-1, "
+"increment)."
+msgstr ""
+"返回具有给定范围的数组。范围可以是1个参数 ``N`` (``0`` 到 ``N-1``)，两个参数"
+"(初始值 ``initial``，最终值 ``final - 1``)或三个参数(初始值 ``initial``，最终"
+"值 ``final - 1``，增量值 ``increment``)。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1185
+msgid "Output:"
+msgstr "输出："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1206
+msgid ""
+":ref:`float <class_float>` **range_lerp** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` istart, :ref:`float <class_float>` istop, :"
+"ref:`float <class_float>` ostart, :ref:`float <class_float>` ostop **)**"
+msgstr ""
+":ref:`float <class_float>` **range_lerp** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` istart, :ref:`float <class_float>` istop, :"
+"ref:`float <class_float>` ostart, :ref:`float <class_float>` ostop **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1208
+msgid "Maps a ``value`` from range ``[istart, istop]`` to ``[ostart, ostop]``."
+msgstr ""
+"将 ``[istart, istop]`` 范围的 ``value`` 映射到 ``[ostart, ostop]``。返回 "
+"``value`` 映射的值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1218
+msgid ""
+":ref:`float <class_float>` **round** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **round** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1220
+msgid ""
+"Returns the integral value that is nearest to ``s``, with halfway cases "
+"rounded away from zero."
+msgstr "返回最接近 ``s`` 的整数值，一半的情况远离零舍入。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1230
+msgid "void **seed** **(** :ref:`int <class_int>` seed **)**"
+msgstr "void **seed** **(** :ref:`int <class_int>` seed **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1232
+msgid "Sets seed for the random number generator."
+msgstr "为随机数生成器设置种子。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1243
+msgid ""
+":ref:`float <class_float>` **sign** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **sign** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1245
+msgid "Returns the sign of ``s``: -1 or 1. Returns 0 if ``s`` is 0."
+msgstr "返回 ``s`` 的符号：-1或1。如果 ``s`` 为0，则返回0。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1257
+msgid ""
+":ref:`float <class_float>` **sin** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **sin** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1259
+msgid "Returns the sine of angle ``s`` in radians."
+msgstr "返回以弧度表示的角度 ``s`` 的正弦值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1269
+msgid ""
+":ref:`float <class_float>` **sinh** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **sinh** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1271
+msgid "Returns the hyperbolic sine of ``s``."
+msgstr "返回以弧度表示的角度 ``s`` 的双曲正弦值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1282
+msgid ""
+":ref:`float <class_float>` **smoothstep** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` weight **)**"
+msgstr ""
+":ref:`float <class_float>` **smoothstep** **(** :ref:`float <class_float>` "
+"from, :ref:`float <class_float>` to, :ref:`float <class_float>` weight **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1284
+msgid ""
+"Returns a number smoothly interpolated between the ``from`` and ``to``, "
+"based on the ``weight``. Similar to :ref:`lerp "
+"<class_@GDScript_method_lerp>`, but interpolates faster at the beginning and "
+"slower at the end."
+msgstr ""
+"返回基于 ``weight`` 在 ``from`` 到 ``to`` 之间，平滑插值的权重。类似于 :ref:"
+"`lerp <class_@GDScript_method_lerp>`，但是插值在开始时较快，而在结束时较慢。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1296
+msgid ""
+":ref:`float <class_float>` **sqrt** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **sqrt** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1298
+msgid "Returns the square root of ``s``."
+msgstr "返回 ``s`` 的平方根。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1308
+msgid ""
+":ref:`int <class_int>` **step_decimals** **(** :ref:`float <class_float>` "
+"step **)**"
+msgstr ""
+":ref:`int <class_int>` **step_decimals** **(** :ref:`float <class_float>` "
+"step **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1310
+msgid ""
+"Returns the position of the first non-zero digit, after the decimal point. "
+"Note that the maximum return value is 10, which is a design decision in the "
+"implementation."
+msgstr ""
+"返回小数点后，第一个非零数字的位置。请注意，最大返回值为10，这是实现中的设计"
+"决策。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1325
+msgid ""
+":ref:`float <class_float>` **stepify** **(** :ref:`float <class_float>` s, :"
+"ref:`float <class_float>` step **)**"
+msgstr ""
+":ref:`float <class_float>` **stepify** **(** :ref:`float <class_float>` s, :"
+"ref:`float <class_float>` step **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1327
+msgid ""
+"Snaps float value ``s`` to a given ``step``. This can also be used to round "
+"a floating point number to an arbitrary number of decimals."
+msgstr ""
+"将浮点值 ``s`` 吸附到给定的 ``step`` 中。这也可以用于将浮点数四舍五入为任意的"
+"小数位数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1338
+msgid ":ref:`String <class_String>` **str** **(** ... **)** vararg"
+msgstr ":ref:`String <class_String>` **str** **(** ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1340
+msgid "Converts one or more arguments to string in the best way possible."
+msgstr "以尽可能最佳的方式，将一个或多个参数转换为字符串。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1353
+msgid ""
+":ref:`Variant <class_Variant>` **str2var** **(** :ref:`String "
+"<class_String>` string **)**"
+msgstr ""
+":ref:`Variant <class_Variant>` **str2var** **(** :ref:`String "
+"<class_String>` string **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1355
+msgid ""
+"Converts a formatted string that was returned by :ref:`var2str "
+"<class_@GDScript_method_var2str>` to the original value."
+msgstr ""
+"将 :ref:`var2str <class_@GDScript_method_var2str>` 返回的格式化字符串，转换为"
+"原始值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1367
+msgid ""
+":ref:`float <class_float>` **tan** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **tan** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1369
+msgid "Returns the tangent of angle ``s`` in radians."
+msgstr "返回弧度角 ``s`` 的切线。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1379
+msgid ""
+":ref:`float <class_float>` **tanh** **(** :ref:`float <class_float>` s **)**"
+msgstr ""
+":ref:`float <class_float>` **tanh** **(** :ref:`float <class_float>` s **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1381
+msgid "Returns the hyperbolic tangent of ``s``."
+msgstr "返回 ``s`` 的双曲正切值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1392
+msgid ""
+":ref:`String <class_String>` **to_json** **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+msgstr ""
+":ref:`String <class_String>` **to_json** **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1394
+msgid ""
+"Converts a Variant ``var`` to JSON text and return the result. Useful for "
+"serializing data to store or send over the network."
+msgstr ""
+"将 ``Variant`` 类型的 ``var`` 转换为 ``JSON`` 文本并返回结果。对于序列化数据"
+"的，存储或通过网络发送，很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1406
+msgid ""
+":ref:`bool <class_bool>` **type_exists** **(** :ref:`String <class_String>` "
+"type **)**"
+msgstr ""
+":ref:`bool <class_bool>` **type_exists** **(** :ref:`String <class_String>` "
+"type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1408
+msgid ""
+"Returns whether the given class exists in :ref:`ClassDB <class_ClassDB>`."
+msgstr "返回给定的类是否存在于 :ref:`ClassDB <class_ClassDB>` 中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1419
+msgid ""
+":ref:`int <class_int>` **typeof** **(** :ref:`Variant <class_Variant>` what "
+"**)**"
+msgstr ""
+":ref:`int <class_int>` **typeof** **(** :ref:`Variant <class_Variant>` what "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1421
+msgid ""
+"Returns the internal type of the given Variant object, using the :ref:"
+"`Variant.Type <enum_@GlobalScope_Variant.Type>` values."
+msgstr ""
+"使用 :ref:`Variant.Type <enum_@GlobalScope_Variant.Type>` 值，返回给定 "
+"``Variant`` 对象的内部类型。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1435
+msgid ""
+":ref:`String <class_String>` **validate_json** **(** :ref:`String "
+"<class_String>` json **)**"
+msgstr ""
+":ref:`String <class_String>` **validate_json** **(** :ref:`String "
+"<class_String>` json **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1437
+msgid ""
+"Checks that ``json`` is valid JSON data. Returns an empty string if valid, "
+"or an error message otherwise."
+msgstr ""
+"检查 ``json`` 是有效的JSON数据。如果有效，则返回空字符串。否则返回错误消息。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1452
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **var2bytes** **(** :ref:"
+"`Variant <class_Variant>` var, :ref:`bool <class_bool>` full_objects=false "
+"**)**"
+msgstr ""
+":ref:`PackedByteArray <class_PackedByteArray>` **var2bytes** **(** :ref:"
+"`Variant <class_Variant>` var, :ref:`bool <class_bool>` full_objects=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1454
+msgid ""
+"Encodes a variable value to a byte array. When ``full_objects`` is ``true`` "
+"encoding objects is allowed (and can potentially include code)."
+msgstr ""
+"将变量值编码为字节数组。当 ``full_objects`` 为 ``true`` 时，允许编码对象（并"
+"可能包含代码）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1460
+msgid ""
+":ref:`String <class_String>` **var2str** **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+msgstr ""
+":ref:`String <class_String>` **var2str** **(** :ref:`Variant "
+"<class_Variant>` var **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1462
+msgid ""
+"Converts a Variant ``var`` to a formatted string that can later be parsed "
+"using :ref:`str2var <class_@GDScript_method_str2var>`."
+msgstr ""
+"将 ``Variant`` 类型的 ``var`` 转换为格式化的字符串，以后可以使用 :ref:"
+"`str2var <class_@GDScript_method_str2var>` 进行解析。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1469
+msgid "prints"
+msgstr "打印"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1482
+msgid ""
+":ref:`WeakRef <class_WeakRef>` **weakref** **(** :ref:`Object "
+"<class_Object>` obj **)**"
+msgstr ""
+":ref:`WeakRef <class_WeakRef>` **weakref** **(** :ref:`Object "
+"<class_Object>` obj **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1484
+msgid "Returns a weak reference to an object."
+msgstr "返回一个对对象的弱引用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1486
+msgid ""
+"A weak reference to an object is not enough to keep the object alive: when "
+"the only remaining references to a referent are weak references, garbage "
+"collection is free to destroy the referent and reuse its memory for "
+"something else. However, until the object is actually destroyed the weak "
+"reference may return the object even if there are no strong references to it."
+msgstr ""
+"对对象的弱引用，不足以使该对象保持活动状态：当仅剩余的对被引用对象的引用是弱"
+"引用时，垃圾回收可以随意销毁该引用，并将其内存重用于其他用途。但是，直到对象"
+"被实际销毁为止，即使没有对其的强引用，弱引用也可能会返回对象。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1492
+msgid ""
+":ref:`float <class_float>` **wrapf** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+msgstr ""
+":ref:`float <class_float>` **wrapf** **(** :ref:`float <class_float>` "
+"value, :ref:`float <class_float>` min, :ref:`float <class_float>` max **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1494
+msgid "Wraps float ``value`` between ``min`` and ``max``."
+msgstr "包装将 ``value`` 浮动在 ``min`` 和 ``max`` 之间。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1496
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1535
+msgid "Usable for creating loop-alike behavior or infinite surfaces."
+msgstr "创建类似循环的行为或无限曲面时，很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1518
+msgid ""
+"**Note:** If you just want to wrap between 0.0 and ``n`` (where ``n`` is a "
+"positive floating-point value), it is better for performance to use the :ref:"
+"`fmod <class_@GDScript_method_fmod>` method like ``fmod(number, n)``."
+msgstr ""
+"**注意**：如果您只想在 ``0.0`` 和 ``n`` 之间换行（其中 ``n`` 是一个正浮点"
+"值），最好使用 :ref:`fmod <class_@GDScript_method_fmod>` 方法，例如 "
+"``fmod(number, n)``，来提高性能。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1520
+msgid ""
+"``wrapf`` is more flexible than using the :ref:`fmod "
+"<class_@GDScript_method_fmod>` approach by giving the user a simple control "
+"over the minimum value. It also fully supports negative numbers, e.g."
+msgstr ""
+"通过为用户提供对最小值的简单控制，``wrapf`` 比使用 :ref:`fmod "
+"<class_@GDScript_method_fmod>` 方法更加灵活。它还完全支持负数，例如。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1531
+msgid ""
+":ref:`int <class_int>` **wrapi** **(** :ref:`int <class_int>` value, :ref:"
+"`int <class_int>` min, :ref:`int <class_int>` max **)**"
+msgstr ""
+":ref:`int <class_int>` **wrapi** **(** :ref:`int <class_int>` value, :ref:"
+"`int <class_int>` min, :ref:`int <class_int>` max **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1533
+msgid "Wraps integer ``value`` between ``min`` and ``max``."
+msgstr "在 ``min`` 和 ``max`` 之间包装整数 ``value``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1552
+msgid ""
+"**Note:** If you just want to wrap between 0 and ``n`` (where ``n`` is a "
+"positive integer value), it is better for performance to use the modulo "
+"operator like ``number % n``."
+msgstr ""
+"**注意**：如果只想在 ``0`` 和 ``n`` 之间换行（其中 ``n`` 是一个正整数），则使"
+"用模数运算符，如 ``number % n``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1554
+msgid ""
+"``wrapi`` is more flexible than using the modulo approach by giving the user "
+"a simple control over the minimum value. It also fully supports negative "
+"numbers, e.g."
+msgstr ""
+"通过为用户提供对最小值的简单控制，``wrapi`` 比使用模方法更灵活。它还完全支持"
+"负数，例如。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1565
+msgid ""
+":ref:`GDScriptFunctionState <class_GDScriptFunctionState>` **yield** **(** :"
+"ref:`Object <class_Object>` object=null, :ref:`String <class_String>` signal="
+"\"\" **)**"
+msgstr ""
+":ref:`GDScriptFunctionState <class_GDScriptFunctionState>` **yield** **(** :"
+"ref:`Object <class_Object>` object=null, :ref:`String <class_String>` signal="
+"\"\" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1567
+msgid ""
+"Stops the function execution and returns the current suspended state to the "
+"calling function."
+msgstr "停止执行函数，并将当前的挂起状态返回给调用函数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1569
+msgid ""
+"From the caller, call :ref:`GDScriptFunctionState.resume "
+"<class_GDScriptFunctionState_method_resume>` on the state to resume "
+"execution. This invalidates the state. Within the resumed function, "
+"``yield()`` returns whatever was passed to the ``resume()`` function call."
+msgstr ""
+"从调用者处，在该状态下调用 :ref:`GDScriptFunctionState.resume "
+"<class_GDScriptFunctionState_method_resume>` 以恢复执行。这会使状态无效。在恢"
+"复的函数中，``yield()`` 返回传递给 ``resume()`` 函数调用的内容。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1571
+msgid ""
+"If passed an object and a signal, the execution is resumed when the object "
+"emits the given signal. In this case, ``yield()`` returns the argument "
+"passed to ``emit_signal()`` if the signal takes only one argument, or an "
+"array containing all the arguments passed to ``emit_signal()`` if the signal "
+"takes multiple arguments."
+msgstr ""
+"如果传递了对象和信号，则在对象发出给定信号时恢复执行。在这种情况下，如果信号"
+"仅接受一个参数，则 ``yield()`` 返回传递给 ``emit_signal()`` 的参数；或如果信"
+"号采用多个参数，则包含所有传递给 ``emit_signal()`` 的参数的数组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1573
+msgid "You can also use ``yield`` to wait for a function to finish:"
+msgstr "您也可以使用 ``yield`` 来等待一个函数完成："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1596
+msgid ""
+"When yielding on a function, the ``completed`` signal will be emitted "
+"automatically when the function returns. It can, therefore, be used as the "
+"``signal`` parameter of the ``yield`` method to resume."
+msgstr ""
+"当正在yeild一个函数时，函数返回时会自动发出 ``completed`` 信号。因此，可以将"
+"其用作要恢复的 ``yield`` 方法的 ``signal`` 参数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_@gdscript.rst:1598
+msgid ""
+"In order to yield on a function, the resulting function should also return a "
+"``GDScriptFunctionState``. Notice ``yield(get_tree(), \"idle_frame\")`` from "
+"the above example."
+msgstr ""
+"为了在一个函数上yield，生成的函数还应该返回一个 ``GDScriptFunctionState``。注"
+"意上例中的 ``yield(get_tree(), \"idle_frame\")``。"
+
+#~ msgid "Linearly interpolates between two values by a normalized value."
+#~ msgstr "通过归一化值在两个值之间线性插值。"
+
+#~ msgid "Converts from linear energy to decibels (audio)."
+#~ msgstr "从线性能量 ``nrg`` 转换为分贝(音频)。"

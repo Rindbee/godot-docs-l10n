@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-13 11:37+0800\n"
+"PO-Revision-Date: 2020-02-13 23:15+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:4
 msgid "Importing 3D scenes"
@@ -39,17 +43,16 @@ msgstr ""
 "整地被导入。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:14
-#, fuzzy
 msgid "Godot supports the following 3D *scene file formats*:"
 msgstr "Godot支持以下3D *场景文件格式*："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:16
 msgid "glTF 2.0. Godot has full support for text and binary formats."
-msgstr ""
+msgstr "glTF 2.0。Godot完全支持文本和二进制格式。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:17
 msgid "DAE (COLLADA), an older format that is fully supported."
-msgstr ""
+msgstr "DAE（COLLADA），一种完全受支持的较旧格式。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:18
 msgid ""
@@ -68,6 +71,8 @@ msgid ""
 "proprietary so we recommend using other formats listed above, if suitable "
 "for your workflow."
 msgstr ""
+"通过开放素材导入库支持的FBX。但是，FBX是专有的，因此，如果适合您的工作流程，"
+"我们建议使用上面列出的其他格式。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:23
 msgid ""
@@ -159,20 +164,19 @@ msgid "Exporting DAE files from Blender"
 msgstr "从Blender导出的DAE文件"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:60
-#, fuzzy
 msgid ""
 "Blender has built-in COLLADA support, but it does not work properly for the "
 "needs of game engines and should not be used as is."
-msgstr "Blender也有内置的COLLADA支持，但它也是损坏的，不应该使用。"
+msgstr ""
+"Blender具有内置的COLLADA支持，但不能满足游戏引擎的需求，因此不能按原样使用。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:63
-#, fuzzy
 msgid ""
 "Godot provides a `Blender plugin <https://github.com/godotengine/collada-"
 "exporter>`_ that will correctly export COLLADA scenes for use in Godot."
 msgstr ""
-"Godot 提供了一个 `Python插件 <https://github.com/godotengine/collada-"
-"exporter>`__，可以更好地导出场景。"
+"Godot 提供了一个 `Blender插件 <https://github.com/godotengine/collada-"
+"exporter>`__，可以正确导出COLLADA场景以在Godot中使用。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:67
 msgid "Exporting ESCN files from Blender"
@@ -567,7 +571,7 @@ msgstr "默认情况下启用动画导入。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:253
 msgid "FPS"
-msgstr "FPS"
+msgstr ":abbr:`FPS(Frames Per Second，每秒传输帧数)`"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:255
 msgid ""
@@ -584,13 +588,10 @@ msgid "Filter Script"
 msgstr "过滤器脚本"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:262
-#, fuzzy
 msgid ""
 "It is possible to specify a filter script in a special syntax to decide "
 "which tracks from which animations should be kept."
-msgstr ""
-"可以使用特殊语法指定过滤器脚本，以决定应保留哪些动画的哪些轨道。（@TODO 这需"
-"要文档）"
+msgstr "可以使用特殊语法指定过滤器脚本，以决定应保留哪些动画的哪些轨道。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:265
 msgid ""
@@ -601,6 +602,10 @@ msgid ""
 "expression match, using ``?`` and ``*`` wildcards (using ``String.matchn()`` "
 "under the hood)."
 msgstr ""
+"该过滤器脚本针对每个导入动画执行。该语法由两种类型的语句组成，第一个用于选择"
+"要过滤的动画，第二个用于过滤匹配的动画中的各个轨道。所有名称模式均使用不区分"
+"大小写的表达式匹配，使用通配符 ``?`` 和 ``*`` 来执行（在幕后使用 ``String."
+"matchn()``）。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:271
 msgid ""
@@ -609,6 +614,8 @@ msgid ""
 "filters to all imported animations which have a name ending in ``\"_Loop"
 "\"``::"
 msgstr ""
+"脚本必须以动画过滤器语句开头（由以 ``@`` 开头的行表示）。例如，如果我们想将过"
+"滤器应用于名称以 ``\"_Loop\"`` 结尾的所有导入的动画："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:277
 msgid ""
@@ -617,6 +624,9 @@ msgid ""
 "with names that begin with ``\"Arm_Left\"``, but also *exclude* all "
 "animations which have names ending in ``\"Attack\"``::"
 msgstr ""
+"同样，可以将其他模式添加到同一行，并以逗号分隔。这是一个修改后的示例，另外可"
+"以 *包含* 所有以 ``\"Arm_Left\"`` 开头的动画，也可以 *排除* 所有以 ``\"Attack"
+"\"`` 结尾的动画："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:283
 msgid ""
@@ -625,6 +635,8 @@ msgid ""
 "no track filter patterns are specified, then all tracks within the matched "
 "animations will be discarded!"
 msgstr ""
+"在动画选择过滤器语句之后，我们添加了轨道过滤模式以指示应保留或丢弃哪些动画轨"
+"道。如果未指定轨道过滤器模式，则匹配动画中的所有轨道将被丢弃！"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:287
 msgid ""
@@ -634,6 +646,9 @@ msgid ""
 "early rule may then be re-included once again by a filter rule further down "
 "in the filter script."
 msgstr ""
+"重要的是要注意，为动画中的每个轨道按顺序应用了轨道过滤器语句，这意味着一行可"
+"能包含一个轨道，以后的规则仍然可以丢弃它。类似地，随后可以由过滤器脚本中进一"
+"步向下的过滤器规则再次包括被早期规则排除的轨道。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:292
 msgid ""
@@ -641,6 +656,9 @@ msgid ""
 "\"``, but discard any tracks affecting a ``\"Skeleton\"`` which end in ``"
 "\"Control\"``, unless they have ``\"Arm\"`` in their name::"
 msgstr ""
+"例如：在动画中包含名称以 ``\"_Loop\"`` 结尾的所有轨道，但丢弃任何轨道影响以 "
+"``\"Control\"`` 结尾的 ``\"Skeleton\"``，除非它们在它们的名字中具有 ``\"Arm"
+"\"`` ："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:301
 msgid ""
@@ -648,11 +666,13 @@ msgid ""
 "discarded, while tracks such as ``\"Skeleton:Head\"`` or ``\"Skeleton:"
 "Arm_Left_Control\"`` would be retained."
 msgstr ""
+"在上面的示例中，``\"Skeleton:Leg_Control\"`` 之类的轨道将被丢弃，而 ``"
+"\"Skeleton:Head\"`` 或 ``\"Skeleton:Arm_Left_Control\"`` 之类的轨道将被保留。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:304
 msgid ""
 "Any track filter lines that do not begin with a ``+`` or ``-`` are ignored."
-msgstr ""
+msgstr "任何不以 ``+`` 或 ``-`` 开头的轨道过滤器线都将被忽略。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:309
 msgid ""
@@ -912,3 +932,30 @@ msgid ""
 msgstr ""
 "在Blender中，这需要使用NLA编辑器，并用 ``loop`` 和 ``cycle`` 前缀或后缀命名动"
 "作。"
+
+#~ msgid "DAE (COLLADA), which is currently the most mature workflow."
+#~ msgstr "DAE（COLLADA），它是当前最成熟的工作流程。"
+
+#~ msgid ""
+#~ "glTF 2.0. Both text and binary formats are supported. Godot has full "
+#~ "support for it, but the format is new and gaining traction."
+#~ msgstr ""
+#~ "gLTF 2.0。支持文本格式和二进制格式。Godot对此提供了全面的支持，此外，这种"
+#~ "格式是新的并且越来越受欢迎。"
+
+#~ msgid "Why not FBX?"
+#~ msgstr "为什么不用 FBX？"
+
+#~ msgid ""
+#~ "Most game engines use the FBX format for importing 3D scenes, which is "
+#~ "definitely one of the most standardized in the industry. However, this "
+#~ "format requires the use of a closed library from Autodesk, which is "
+#~ "distributed with more restrictive licensing terms than Godot."
+#~ msgstr ""
+#~ "大多数游戏引擎使用FBX格式导入3D场景，这绝对是业界最标准化的格式之一。但"
+#~ "是，这种格式要求使用Autodesk的封闭库，该库的分发许可条款比Godot更为严格。"
+
+#~ msgid ""
+#~ "The plan is, sometime in the future, to offer a binary plug-in using "
+#~ "GDNative."
+#~ msgstr "计划是，在未来的某个时候，将使用GDNative提供二进制插件。"

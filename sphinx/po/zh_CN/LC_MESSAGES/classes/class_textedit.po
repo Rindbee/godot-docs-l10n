@@ -1,0 +1,2092 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:10
+msgid "TextEdit"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:14
+msgid "Multiline text editing control."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:19
+msgid ""
+"TextEdit is meant for editing large, multiline text. It also has "
+"facilities for editing code, such as syntax highlighting support and "
+"multiple levels of undo/redo."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:138
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:146
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:25
+msgid ":ref:`breakpoint_gutter <class_TextEdit_property_breakpoint_gutter>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:380
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:396
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:428
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:480
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:496
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:512
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:528
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:544
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:560
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:576
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:604
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:618
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:694
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:710
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:726
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:774
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:27
+msgid ":ref:`caret_blink <class_TextEdit_property_caret_blink>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:77
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:29
+msgid ":ref:`caret_blink_speed <class_TextEdit_property_caret_blink_speed>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:412
+msgid "``0.65``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:31
+msgid ":ref:`caret_block_mode <class_TextEdit_property_caret_block_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:33
+msgid ""
+":ref:`caret_moving_by_right_click "
+"<class_TextEdit_property_caret_moving_by_right_click>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:446
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:464
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:666
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:680
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:35
+msgid ":ref:`context_menu_enabled <class_TextEdit_property_context_menu_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:37
+msgid ":ref:`draw_spaces <class_TextEdit_property_draw_spaces>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:39
+msgid ":ref:`draw_tabs <class_TextEdit_property_draw_tabs>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:41
+msgid ":ref:`FocusMode <enum_Control_FocusMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:41
+msgid "focus_mode"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:41
+msgid "**O:** ``2``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:43
+msgid ":ref:`fold_gutter <class_TextEdit_property_fold_gutter>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:45
+msgid ":ref:`hiding_enabled <class_TextEdit_property_hiding_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:47
+msgid ""
+":ref:`highlight_all_occurrences "
+"<class_TextEdit_property_highlight_all_occurrences>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:49
+msgid ""
+":ref:`highlight_current_line "
+"<class_TextEdit_property_highlight_current_line>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:51
+msgid ":ref:`minimap_draw <class_TextEdit_property_minimap_draw>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:199
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:201
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:231
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:53
+msgid ":ref:`minimap_width <class_TextEdit_property_minimap_width>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:590
+msgid "``80``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:55
+msgid ":ref:`CursorShape <enum_Control_CursorShape>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:55
+msgid "mouse_default_cursor_shape"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:55
+msgid "**O:** ``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:57
+msgid ""
+":ref:`override_selected_font_color "
+"<class_TextEdit_property_override_selected_font_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:59
+msgid ":ref:`readonly <class_TextEdit_property_readonly>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:61
+msgid ":ref:`scroll_horizontal <class_TextEdit_property_scroll_horizontal>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:634
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:63
+msgid ":ref:`scroll_vertical <class_TextEdit_property_scroll_vertical>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:650
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:65
+msgid ":ref:`selecting_enabled <class_TextEdit_property_selecting_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:67
+msgid ""
+":ref:`shortcut_keys_enabled "
+"<class_TextEdit_property_shortcut_keys_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:69
+msgid ":ref:`show_line_numbers <class_TextEdit_property_show_line_numbers>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:71
+msgid ":ref:`smooth_scrolling <class_TextEdit_property_smooth_scrolling>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:73
+msgid ":ref:`syntax_highlighting <class_TextEdit_property_syntax_highlighting>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:136
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:75
+msgid ":ref:`text <class_TextEdit_property_text>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:742
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:77
+msgid ":ref:`v_scroll_speed <class_TextEdit_property_v_scroll_speed>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:758
+msgid "``80.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:79
+msgid ":ref:`wrap_enabled <class_TextEdit_property_wrap_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:83
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:154
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:168
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:170
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:86
+msgid ""
+":ref:`add_color_region <class_TextEdit_method_add_color_region>` **(** "
+":ref:`String <class_String>` begin_key, :ref:`String <class_String>` "
+"end_key, :ref:`Color <class_Color>` color, :ref:`bool <class_bool>` "
+"line_only=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:88
+msgid ""
+":ref:`add_keyword_color <class_TextEdit_method_add_keyword_color>` **(** "
+":ref:`String <class_String>` keyword, :ref:`Color <class_Color>` color "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:90
+msgid ""
+":ref:`can_fold <class_TextEdit_method_can_fold>` **(** :ref:`int "
+"<class_int>` line **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:92
+msgid ""
+":ref:`center_viewport_to_cursor "
+"<class_TextEdit_method_center_viewport_to_cursor>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:94
+msgid ":ref:`clear_colors <class_TextEdit_method_clear_colors>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:96
+msgid ""
+":ref:`clear_undo_history <class_TextEdit_method_clear_undo_history>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:98
+msgid ":ref:`copy <class_TextEdit_method_copy>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:100
+msgid ""
+":ref:`cursor_get_column <class_TextEdit_method_cursor_get_column>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:102
+msgid ""
+":ref:`cursor_get_line <class_TextEdit_method_cursor_get_line>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:104
+msgid ""
+":ref:`cursor_set_column <class_TextEdit_method_cursor_set_column>` **(** "
+":ref:`int <class_int>` column, :ref:`bool <class_bool>` "
+"adjust_viewport=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:106
+msgid ""
+":ref:`cursor_set_line <class_TextEdit_method_cursor_set_line>` **(** "
+":ref:`int <class_int>` line, :ref:`bool <class_bool>` "
+"adjust_viewport=true, :ref:`bool <class_bool>` can_be_hidden=true, "
+":ref:`int <class_int>` wrap_index=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:108
+msgid ":ref:`cut <class_TextEdit_method_cut>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:110
+msgid ":ref:`deselect <class_TextEdit_method_deselect>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:112
+msgid ":ref:`fold_all_lines <class_TextEdit_method_fold_all_lines>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:114
+msgid ""
+":ref:`fold_line <class_TextEdit_method_fold_line>` **(** :ref:`int "
+"<class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:116
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:116
+msgid ""
+":ref:`get_breakpoints <class_TextEdit_method_get_breakpoints>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:181
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:183
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:203
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:211
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:221
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:225
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:227
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:229
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:233
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:235
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:239
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:243
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:245
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:249
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:253
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:118
+msgid ""
+":ref:`get_keyword_color <class_TextEdit_method_get_keyword_color>` **(** "
+":ref:`String <class_String>` keyword **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:120
+msgid ""
+":ref:`get_line <class_TextEdit_method_get_line>` **(** :ref:`int "
+"<class_int>` line **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:122
+msgid ""
+":ref:`get_line_count <class_TextEdit_method_get_line_count>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:124
+msgid ":ref:`PopupMenu <class_PopupMenu>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:124
+msgid ":ref:`get_menu <class_TextEdit_method_get_menu>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:126
+msgid ""
+":ref:`get_selection_from_column "
+"<class_TextEdit_method_get_selection_from_column>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:128
+msgid ""
+":ref:`get_selection_from_line "
+"<class_TextEdit_method_get_selection_from_line>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:130
+msgid ""
+":ref:`get_selection_text <class_TextEdit_method_get_selection_text>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:132
+msgid ""
+":ref:`get_selection_to_column "
+"<class_TextEdit_method_get_selection_to_column>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:134
+msgid ""
+":ref:`get_selection_to_line "
+"<class_TextEdit_method_get_selection_to_line>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:136
+msgid ""
+":ref:`get_word_under_cursor "
+"<class_TextEdit_method_get_word_under_cursor>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:138
+msgid ""
+":ref:`has_keyword_color <class_TextEdit_method_has_keyword_color>` **(** "
+":ref:`String <class_String>` keyword **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:140
+msgid ""
+":ref:`insert_text_at_cursor "
+"<class_TextEdit_method_insert_text_at_cursor>` **(** :ref:`String "
+"<class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:142
+msgid ""
+":ref:`is_folded <class_TextEdit_method_is_folded>` **(** :ref:`int "
+"<class_int>` line **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:144
+msgid ""
+":ref:`is_line_hidden <class_TextEdit_method_is_line_hidden>` **(** "
+":ref:`int <class_int>` line **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:146
+msgid ""
+":ref:`is_selection_active <class_TextEdit_method_is_selection_active>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:148
+msgid ""
+":ref:`menu_option <class_TextEdit_method_menu_option>` **(** :ref:`int "
+"<class_int>` option **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:150
+msgid ":ref:`paste <class_TextEdit_method_paste>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:152
+msgid ":ref:`redo <class_TextEdit_method_redo>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:154
+msgid ""
+":ref:`remove_breakpoints <class_TextEdit_method_remove_breakpoints>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:156
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:156
+msgid ""
+":ref:`search <class_TextEdit_method_search>` **(** :ref:`String "
+"<class_String>` key, :ref:`int <class_int>` flags, :ref:`int <class_int>`"
+" from_line, :ref:`int <class_int>` from_column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:158
+msgid ""
+":ref:`select <class_TextEdit_method_select>` **(** :ref:`int <class_int>`"
+" from_line, :ref:`int <class_int>` from_column, :ref:`int <class_int>` "
+"to_line, :ref:`int <class_int>` to_column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:160
+msgid ":ref:`select_all <class_TextEdit_method_select_all>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:162
+msgid ""
+":ref:`set_line_as_hidden <class_TextEdit_method_set_line_as_hidden>` "
+"**(** :ref:`int <class_int>` line, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:164
+msgid ""
+":ref:`toggle_fold_line <class_TextEdit_method_toggle_fold_line>` **(** "
+":ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:166
+msgid ":ref:`undo <class_TextEdit_method_undo>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:168
+msgid ""
+":ref:`unfold_line <class_TextEdit_method_unfold_line>` **(** :ref:`int "
+"<class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:170
+msgid ""
+":ref:`unhide_all_lines <class_TextEdit_method_unhide_all_lines>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:174
+msgid "Theme Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:177
+msgid "background_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:177
+msgid "Color( 0, 0, 0, 0 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:179
+msgid "bookmark_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:179
+msgid "Color( 0.08, 0.49, 0.98, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:181
+msgid "brace_mismatch_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:181
+msgid "Color( 1, 0.2, 0.2, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:183
+msgid "breakpoint_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:183
+msgid "Color( 0.8, 0.8, 0.4, 0.2 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:185
+msgid "caret_background_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:225
+msgid "Color( 0, 0, 0, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:187
+msgid "caret_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:221
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:189
+msgid "code_folding_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:189
+msgid "Color( 0.8, 0.8, 0.8, 0.8 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:213
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:237
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:241
+msgid ":ref:`StyleBox <class_StyleBox>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:191
+msgid "completion"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:193
+msgid "completion_background_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:193
+msgid "Color( 0.17, 0.16, 0.2, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:195
+msgid "completion_existing_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:195
+msgid "Color( 0.87, 0.87, 0.87, 0.13 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:197
+msgid "completion_font_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:197
+msgid "Color( 0.67, 0.67, 0.67, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:199
+msgid "completion_lines"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:199
+msgid "7"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:201
+msgid "completion_max_width"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:201
+msgid "50"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:203
+msgid "completion_scroll_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:203
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:205
+msgid "completion_scroll_width"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:205
+msgid "3"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:207
+msgid "completion_selected_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:207
+msgid "Color( 0.26, 0.26, 0.27, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:209
+msgid "current_line_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:209
+msgid "Color( 0.25, 0.25, 0.26, 0.8 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:211
+msgid "executing_line_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:211
+msgid "Color( 0.2, 0.8, 0.2, 0.4 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:213
+msgid "focus"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:215
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:217
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:251
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:215
+msgid "fold"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:217
+msgid "folded"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:219
+msgid ":ref:`Font <class_Font>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:219
+msgid "font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:221
+msgid "font_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:223
+msgid "font_color_readonly"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:223
+msgid "Color( 0.88, 0.88, 0.88, 0.5 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:225
+msgid "font_color_selected"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:227
+msgid "function_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:227
+msgid "Color( 0.4, 0.64, 0.81, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:229
+msgid "line_number_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:229
+msgid "Color( 0.67, 0.67, 0.67, 0.4 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:231
+msgid "line_spacing"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:231
+msgid "4"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:233
+msgid "mark_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:233
+msgid "Color( 1, 0.4, 0.4, 0.4 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:235
+msgid "member_variable_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:235
+msgid "Color( 0.9, 0.31, 0.35, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:237
+msgid "normal"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:239
+msgid "number_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:239
+msgid "Color( 0.92, 0.58, 0.2, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:241
+msgid "read_only"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:243
+msgid "safe_line_number_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:243
+msgid "Color( 0.67, 0.78, 0.67, 0.6 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:245
+msgid "selection_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:245
+msgid "Color( 0.49, 0.49, 0.49, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:247
+msgid "space"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:249
+msgid "symbol_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:249
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:251
+msgid "tab"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:253
+msgid "word_highlighted_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:253
+msgid "Color( 0.8, 0.9, 0.9, 0.15 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:257
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:261
+msgid "**breakpoint_toggled** **(** :ref:`int <class_int>` row **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:263
+msgid "Emitted when a breakpoint is placed via the breakpoint gutter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:269
+msgid "**cursor_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:271
+msgid "Emitted when the cursor changes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:277
+msgid ""
+"**info_clicked** **(** :ref:`int <class_int>` row, :ref:`String "
+"<class_String>` info **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:279
+msgid "Emitted when the info icon is clicked."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:285
+msgid "**request_completion** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:291
+msgid ""
+"**symbol_lookup** **(** :ref:`String <class_String>` symbol, :ref:`int "
+"<class_int>` row, :ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:297
+msgid "**text_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:299
+msgid "Emitted when the text changes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:302
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:312
+msgid "enum **SearchFlags**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:314
+msgid "**SEARCH_MATCH_CASE** = **1** --- Match case when searching."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:316
+msgid "**SEARCH_WHOLE_WORDS** = **2** --- Match whole words when searching."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:318
+msgid "**SEARCH_BACKWARDS** = **4** --- Search from end to beginning."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:328
+msgid "enum **SearchResult**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:330
+msgid ""
+"**SEARCH_RESULT_COLUMN** = **0** --- Used to access the result column "
+"from :ref:`search <class_TextEdit_method_search>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:332
+msgid ""
+"**SEARCH_RESULT_LINE** = **1** --- Used to access the result line from "
+":ref:`search <class_TextEdit_method_search>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:354
+msgid "enum **MenuItems**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:356
+msgid "**MENU_CUT** = **0** --- Cuts (copies and clears) the selected text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:358
+msgid "**MENU_COPY** = **1** --- Copies the selected text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:360
+msgid ""
+"**MENU_PASTE** = **2** --- Pastes the clipboard text over the selected "
+"text (or at the cursor's position)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:362
+msgid "**MENU_CLEAR** = **3** --- Erases the whole ``TextEdit`` text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:364
+msgid "**MENU_SELECT_ALL** = **4** --- Selects the whole ``TextEdit`` text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:366
+msgid "**MENU_UNDO** = **5** --- Undoes the previous action."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:368
+msgid "**MENU_REDO** = **6** --- Redoes the previous action."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:370
+msgid ""
+"**MENU_MAX** = **7** --- Represents the size of the :ref:`MenuItems "
+"<enum_TextEdit_MenuItems>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:373
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:377
+msgid ":ref:`bool <class_bool>` **breakpoint_gutter**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:380
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:396
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:412
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:428
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:446
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:464
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:480
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:496
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:512
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:528
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:544
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:560
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:576
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:590
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:604
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:618
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:634
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:650
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:666
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:680
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:694
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:710
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:726
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:742
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:758
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:774
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:382
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:398
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:414
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:430
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:448
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:466
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:482
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:498
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:514
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:530
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:546
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:562
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:578
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:592
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:606
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:620
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:636
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:652
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:668
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:682
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:696
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:712
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:728
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:744
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:760
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:776
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:382
+msgid "set_breakpoint_gutter_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:384
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:400
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:416
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:432
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:450
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:468
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:484
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:500
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:516
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:532
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:548
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:564
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:580
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:594
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:608
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:622
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:638
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:654
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:670
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:684
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:698
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:714
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:730
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:746
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:762
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:778
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:384
+msgid "is_breakpoint_gutter_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:387
+msgid "If ``true``, the breakpoint gutter is visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:393
+msgid ":ref:`bool <class_bool>` **caret_blink**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:398
+msgid "cursor_set_blink_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:400
+msgid "cursor_get_blink_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:403
+msgid "If ``true``, the caret (visual cursor) blinks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:409
+msgid ":ref:`float <class_float>` **caret_blink_speed**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:414
+msgid "cursor_set_blink_speed(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:416
+msgid "cursor_get_blink_speed()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:419
+msgid "Duration (in seconds) of a caret's blinking cycle."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:425
+msgid ":ref:`bool <class_bool>` **caret_block_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:430
+msgid "cursor_set_block_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:432
+msgid "cursor_is_block_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:435
+msgid "If ``true``, the caret displays as a rectangle."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:437
+msgid "If ``false``, the caret displays as a bar."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:443
+msgid ":ref:`bool <class_bool>` **caret_moving_by_right_click**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:448
+msgid "set_right_click_moves_caret(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:450
+msgid "is_right_click_moving_caret()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:453
+msgid ""
+"If ``true``, a right-click moves the cursor at the mouse position before "
+"displaying the context menu."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:455
+msgid "If ``false``, the context menu disregards mouse location."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:461
+msgid ":ref:`bool <class_bool>` **context_menu_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:466
+msgid "set_context_menu_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:468
+msgid "is_context_menu_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:471
+msgid "If ``true``, a right-click displays the context menu."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:477
+msgid ":ref:`bool <class_bool>` **draw_spaces**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:482
+msgid "set_draw_spaces(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:484
+msgid "is_drawing_spaces()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:487
+msgid "If ``true``, the \"space\" character will have a visible representation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:493
+msgid ":ref:`bool <class_bool>` **draw_tabs**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:498
+msgid "set_draw_tabs(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:500
+msgid "is_drawing_tabs()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:503
+msgid "If ``true``, the \"tab\" character will have a visible representation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:509
+msgid ":ref:`bool <class_bool>` **fold_gutter**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:514
+msgid "set_draw_fold_gutter(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:516
+msgid "is_drawing_fold_gutter()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:519
+msgid ""
+"If ``true``, the fold gutter is visible. This enables folding groups of "
+"indented lines."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:525
+msgid ":ref:`bool <class_bool>` **hiding_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:530
+msgid "set_hiding_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:532
+msgid "is_hiding_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:535
+msgid ""
+"If ``true``, all lines that have been set to hidden by "
+":ref:`set_line_as_hidden <class_TextEdit_method_set_line_as_hidden>`, "
+"will not be visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:541
+msgid ":ref:`bool <class_bool>` **highlight_all_occurrences**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:546
+msgid "set_highlight_all_occurrences(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:548
+msgid "is_highlight_all_occurrences_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:551
+msgid "If ``true``, all occurrences of the selected text will be highlighted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:557
+msgid ":ref:`bool <class_bool>` **highlight_current_line**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:562
+msgid "set_highlight_current_line(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:564
+msgid "is_highlight_current_line_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:567
+msgid "If ``true``, the line containing the cursor is highlighted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:573
+msgid ":ref:`bool <class_bool>` **minimap_draw**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:578
+msgid "draw_minimap(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:580
+msgid "is_drawing_minimap()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:587
+msgid ":ref:`int <class_int>` **minimap_width**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:592
+msgid "set_minimap_width(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:594
+msgid "get_minimap_width()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:601
+msgid ":ref:`bool <class_bool>` **override_selected_font_color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:606
+msgid "set_override_selected_font_color(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:608
+msgid "is_overriding_selected_font_color()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:615
+msgid ":ref:`bool <class_bool>` **readonly**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:620
+msgid "set_readonly(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:622
+msgid "is_readonly()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:625
+msgid ""
+"If ``true``, read-only mode is enabled. Existing text cannot be modified "
+"and new text cannot be added."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:631
+msgid ":ref:`int <class_int>` **scroll_horizontal**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:636
+msgid "set_h_scroll(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:638
+msgid "get_h_scroll()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:641
+msgid "The current horizontal scroll value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:647
+msgid ":ref:`float <class_float>` **scroll_vertical**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:652
+msgid "set_v_scroll(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:654
+msgid "get_v_scroll()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:657
+msgid "The current vertical scroll value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:663
+msgid ":ref:`bool <class_bool>` **selecting_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:668
+msgid "set_selecting_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:670
+msgid "is_selecting_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:677
+msgid ":ref:`bool <class_bool>` **shortcut_keys_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:682
+msgid "set_shortcut_keys_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:684
+msgid "is_shortcut_keys_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:691
+msgid ":ref:`bool <class_bool>` **show_line_numbers**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:696
+msgid "set_show_line_numbers(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:698
+msgid "is_show_line_numbers_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:701
+msgid "If ``true``, line numbers are displayed to the left of the text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:707
+msgid ":ref:`bool <class_bool>` **smooth_scrolling**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:712
+msgid "set_smooth_scroll_enable(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:714
+msgid "is_smooth_scroll_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:717
+msgid ""
+"If ``true``, sets the ``step`` of the scrollbars to ``0.25`` which "
+"results in smoother scrolling."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:723
+msgid ":ref:`bool <class_bool>` **syntax_highlighting**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:728
+msgid "set_syntax_coloring(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:730
+msgid "is_syntax_coloring_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:733
+msgid ""
+"If ``true``, any custom color properties that have been set for this "
+"``TextEdit`` will be visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:739
+msgid ":ref:`String <class_String>` **text**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:744
+msgid "set_text(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:746
+msgid "get_text()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:749
+msgid "String value of the ``TextEdit``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:755
+msgid ":ref:`float <class_float>` **v_scroll_speed**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:760
+msgid "set_v_scroll_speed(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:762
+msgid "get_v_scroll_speed()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:765
+msgid "Vertical scroll sensitivity."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:771
+msgid ":ref:`bool <class_bool>` **wrap_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:776
+msgid "set_wrap_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:778
+msgid "is_wrap_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:781
+msgid ""
+"If ``true``, enables text wrapping when it goes beyond the edge of what "
+"is visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:784
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:788
+msgid ""
+"void **add_color_region** **(** :ref:`String <class_String>` begin_key, "
+":ref:`String <class_String>` end_key, :ref:`Color <class_Color>` color, "
+":ref:`bool <class_bool>` line_only=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:790
+msgid "Adds color region (given the delimiters) and its colors."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:796
+msgid ""
+"void **add_keyword_color** **(** :ref:`String <class_String>` keyword, "
+":ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:798
+msgid "Adds a ``keyword`` and its :ref:`Color <class_Color>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:804
+msgid ""
+":ref:`bool <class_bool>` **can_fold** **(** :ref:`int <class_int>` line "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:806
+msgid ""
+"Returns if the given line is foldable, that is, it has indented lines "
+"right below it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:812
+msgid "void **center_viewport_to_cursor** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:818
+msgid "void **clear_colors** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:820
+msgid ""
+"Clears all custom syntax coloring information previously added with "
+":ref:`add_color_region <class_TextEdit_method_add_color_region>` or "
+":ref:`add_keyword_color <class_TextEdit_method_add_keyword_color>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:826
+msgid "void **clear_undo_history** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:828
+msgid "Clears the undo history."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:834
+msgid "void **copy** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:836
+msgid "Copy's the current text selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:842
+msgid ":ref:`int <class_int>` **cursor_get_column** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:844
+msgid "Returns the column the editing cursor is at."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:850
+msgid ":ref:`int <class_int>` **cursor_get_line** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:852
+msgid "Returns the line the editing cursor is at."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:858
+msgid ""
+"void **cursor_set_column** **(** :ref:`int <class_int>` column, "
+":ref:`bool <class_bool>` adjust_viewport=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:860
+msgid "Moves the cursor at the specified ``column`` index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:862
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:872
+msgid ""
+"If ``adjust_viewport`` is set to ``true``, the viewport will center at "
+"the cursor position after the move occurs."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:868
+msgid ""
+"void **cursor_set_line** **(** :ref:`int <class_int>` line, :ref:`bool "
+"<class_bool>` adjust_viewport=true, :ref:`bool <class_bool>` "
+"can_be_hidden=true, :ref:`int <class_int>` wrap_index=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:870
+msgid "Moves the cursor at the specified ``line`` index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:874
+msgid ""
+"If ``can_be_hidden`` is set to ``true``, the specified ``line`` can be "
+"hidden using :ref:`set_line_as_hidden "
+"<class_TextEdit_method_set_line_as_hidden>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:880
+msgid "void **cut** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:882
+msgid "Cut's the current selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:888
+msgid "void **deselect** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:890
+msgid "Deselects the current selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:896
+msgid "void **fold_all_lines** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:898
+msgid ""
+"Folds all lines that are possible to be folded (see :ref:`can_fold "
+"<class_TextEdit_method_can_fold>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:904
+msgid "void **fold_line** **(** :ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:906
+msgid ""
+"Folds the given line, if possible (see :ref:`can_fold "
+"<class_TextEdit_method_can_fold>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:912
+msgid ":ref:`Array <class_Array>` **get_breakpoints** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:914
+msgid "Returns an array containing the line number of each breakpoint."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:920
+msgid ""
+":ref:`Color <class_Color>` **get_keyword_color** **(** :ref:`String "
+"<class_String>` keyword **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:922
+msgid "Returns the :ref:`Color <class_Color>` of the specified ``keyword``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:928
+msgid ""
+":ref:`String <class_String>` **get_line** **(** :ref:`int <class_int>` "
+"line **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:930
+msgid "Returns the text of a specific line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:936
+msgid ":ref:`int <class_int>` **get_line_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:938
+msgid "Returns the amount of total lines in the text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:944
+msgid ":ref:`PopupMenu <class_PopupMenu>` **get_menu** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:946
+msgid ""
+"Returns the :ref:`PopupMenu <class_PopupMenu>` of this ``TextEdit``. By "
+"default, this menu is displayed when right-clicking on the ``TextEdit``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:952
+msgid ":ref:`int <class_int>` **get_selection_from_column** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:954
+msgid "Returns the selection begin column."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:960
+msgid ":ref:`int <class_int>` **get_selection_from_line** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:962
+msgid "Returns the selection begin line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:968
+msgid ":ref:`String <class_String>` **get_selection_text** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:970
+msgid "Returns the text inside the selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:976
+msgid ":ref:`int <class_int>` **get_selection_to_column** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:978
+msgid "Returns the selection end column."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:984
+msgid ":ref:`int <class_int>` **get_selection_to_line** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:986
+msgid "Returns the selection end line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:992
+msgid ":ref:`String <class_String>` **get_word_under_cursor** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:994
+msgid ""
+"Returns a :ref:`String <class_String>` text with the word under the mouse"
+" cursor location."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1000
+msgid ""
+":ref:`bool <class_bool>` **has_keyword_color** **(** :ref:`String "
+"<class_String>` keyword **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1002
+msgid "Returns whether the specified ``keyword`` has a color set to it or not."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1008
+msgid ""
+"void **insert_text_at_cursor** **(** :ref:`String <class_String>` text "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1010
+msgid "Insert the specified text at the cursor position."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1016
+msgid ""
+":ref:`bool <class_bool>` **is_folded** **(** :ref:`int <class_int>` line "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1018
+msgid "Returns whether the line at the specified index is folded or not."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1024
+msgid ""
+":ref:`bool <class_bool>` **is_line_hidden** **(** :ref:`int <class_int>` "
+"line **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1026
+msgid "Returns whether the line at the specified index is hidden or not."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1032
+msgid ":ref:`bool <class_bool>` **is_selection_active** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1034
+msgid "Returns ``true`` if the selection is active."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1040
+msgid "void **menu_option** **(** :ref:`int <class_int>` option **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1042
+msgid ""
+"Triggers a right-click menu action by the specified index. See "
+":ref:`MenuItems <enum_TextEdit_MenuItems>` for a list of available "
+"indexes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1048
+msgid "void **paste** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1050
+msgid "Paste the current selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1056
+msgid "void **redo** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1058
+msgid "Perform redo operation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1064
+msgid "void **remove_breakpoints** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1066
+msgid ""
+"Removes all the breakpoints. This will not fire the "
+":ref:`breakpoint_toggled <class_TextEdit_signal_breakpoint_toggled>` "
+"signal."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1072
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **search** **(** "
+":ref:`String <class_String>` key, :ref:`int <class_int>` flags, :ref:`int"
+" <class_int>` from_line, :ref:`int <class_int>` from_column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1074
+msgid ""
+"Perform a search inside the text. Search flags can be specified in the "
+":ref:`SearchFlags <enum_TextEdit_SearchFlags>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1076
+msgid ""
+"Returns an empty ``PackedInt32Array`` if no result was found. Otherwise, "
+"the result line and column can be accessed at indices specified in the "
+":ref:`SearchResult <enum_TextEdit_SearchResult>` enum, e.g:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1090
+msgid ""
+"void **select** **(** :ref:`int <class_int>` from_line, :ref:`int "
+"<class_int>` from_column, :ref:`int <class_int>` to_line, :ref:`int "
+"<class_int>` to_column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1092
+msgid "Perform selection, from line/column to line/column."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1098
+msgid "void **select_all** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1100
+msgid "Select all the text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1106
+msgid ""
+"void **set_line_as_hidden** **(** :ref:`int <class_int>` line, :ref:`bool"
+" <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1108
+msgid "If ``true``, hides the line of the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1114
+msgid "void **toggle_fold_line** **(** :ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1116
+msgid "Toggle the folding of the code block at the given line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1122
+msgid "void **undo** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1124
+msgid "Perform undo operation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1130
+msgid "void **unfold_line** **(** :ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1132
+msgid "Unfolds the given line, if folded."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1138
+msgid "void **unhide_all_lines** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_textedit.rst:1140
+msgid ""
+"Unhide all lines that were previously set to hidden by "
+":ref:`set_line_as_hidden <class_TextEdit_method_set_line_as_hidden>`."
+msgstr ""
+
+#~ msgid "Clears all the syntax coloring information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If ``adjust_viewport`` is set to true,"
+#~ " the viewport will center at the "
+#~ "cursor position after the move occurs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If ``can_be_hidden`` is set to true, "
+#~ "the specified ``line`` can be hidden "
+#~ "using :ref:`set_line_as_hidden "
+#~ "<class_TextEdit_method_set_line_as_hidden>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perform a search inside the text. "
+#~ "Search flags can be specified in "
+#~ "the``SEARCH_*`` enum."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SEARCH_RESULT_COLUMN** = **0** --- Used "
+#~ "to access the result column from "
+#~ ":ref:`search <class_TextEdit_property_search>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**SEARCH_RESULT_LINE** = **1** --- Used "
+#~ "to access the result line from "
+#~ ":ref:`search <class_TextEdit_property_search>`."
+#~ msgstr ""
+
+#~ msgid "**MENU_CUT** = **0** --- Cuts (Copies and clears) the selected text."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perform a search inside the text. "
+#~ "Search flags can be specified in "
+#~ "the ``SEARCH_*`` enum."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an empty ``PoolIntArray`` if no"
+#~ " result was found. Otherwise, the "
+#~ "result line and column can be "
+#~ "accessed at indices specified in the "
+#~ "``SEARCH_RESULT_*`` enum, e.g:"
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "0.65"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid "**O:** 2"
+#~ msgstr ""
+
+#~ msgid "80"
+#~ msgstr ""
+
+#~ msgid "**O:** 1"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "80.0"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` **search** "
+#~ "**(** :ref:`String <class_String>` key, "
+#~ ":ref:`int <class_int>` flags, :ref:`int "
+#~ "<class_int>` from_line, :ref:`int <class_int>` "
+#~ "from_column **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an empty ``PoolIntArray`` if no"
+#~ " result was found. Otherwise, the "
+#~ "result line and column can be "
+#~ "accessed at indices specified in the "
+#~ ":ref:`SearchResult <enum_TextEdit_SearchResult>` enum, "
+#~ "e.g:"
+#~ msgstr ""
+

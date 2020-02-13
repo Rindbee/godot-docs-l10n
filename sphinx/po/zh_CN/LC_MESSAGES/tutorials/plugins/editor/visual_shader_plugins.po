@@ -1,47 +1,50 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
+"POT-Creation-Date: 2019-10-30 09:13+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:4
-#, fuzzy
 msgid "Visual Shader plugins"
-msgstr ":ref:`doc_visual_shader_plugins`"
+msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:6
 msgid ""
-"Visual Shader plugins are used to create custom :ref:`class_VisualShader` "
-"nodes in GDScript."
+"Visual Shader plugins are used to create custom :ref:`class_VisualShader`"
+" nodes in GDScript."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:9
 msgid ""
-"The creation process is different from usual editor plugins. You do not need "
-"to create a ``plugin.cfg`` file to register it; instead, create and save a "
-"script file and it will be ready to use, provided the custom node is "
-"registered with ``class_name``."
+"The creation process is different from usual editor plugins. You do not "
+"need to create a ``plugin.cfg`` file to register it; instead, create and "
+"save a script file and it will be ready to use, provided the custom node "
+"is registered with ``class_name``."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:14
 msgid ""
 "This short tutorial will explain how to make a Perlin-3D noise node "
-"(original code from this `GPU noise shaders plugin <https://github.com/curly-"
-"brace/Godot-3.0-Noise-Shaders/blob/master/assets/gpu_noise_shaders/"
-"classic_perlin3d.tres>`_."
+"(original code from this `GPU noise shaders plugin <https://github.com"
+"/curly-brace/Godot-3.0-Noise-"
+"Shaders/blob/master/assets/gpu_noise_shaders/classic_perlin3d.tres>`_."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:18
@@ -63,15 +66,15 @@ msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:30
 msgid ""
-"Create a script which derives from :ref:`class_VisualShaderNodeCustom`. This "
-"is all you need to initialize your plugin."
+"Create a script which derives from :ref:`class_VisualShaderNodeCustom`. "
+"This is all you need to initialize your plugin."
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:182
 msgid ""
-"Save it and open the Visual Shader. You should see your new node type within "
-"the member's dialog (if you can't see your new node, try restarting the "
-"editor):"
+"Save it and open the Visual Shader. You should see your new node type "
+"within the member's dialog (if you can't see your new node, try "
+"restarting the editor):"
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:186
@@ -80,6 +83,70 @@ msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/visual_shader_plugins.rst:190
 msgid ""
-"That is everything you need to do, as you can see it is easy to create your "
-"own custom VisualShader nodes!"
+"That is everything you need to do, as you can see it is easy to create "
+"your own custom VisualShader nodes!"
 msgstr ""
+
+#~ msgid "Visual Shader Plugins"
+#~ msgstr ""
+
+#~ msgid "Introduction"
+#~ msgstr "简介"
+
+#~ msgid ""
+#~ "Visual Shader Plugins are used to "
+#~ "create custom Visual Shader nodes in "
+#~ "GDScript."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The creation process is different from"
+#~ " EditorPlugins - you simply create "
+#~ "and save a script file and it "
+#~ "will be ready to use."
+#~ msgstr ""
+
+#~ msgid "Visual Shader Plugin"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This short tutorial will explain how "
+#~ "to make a Perlin-3D noise node "
+#~ "(original code from https://github.com/curly-"
+#~ "brace/Godot-3.0-Noise-"
+#~ "Shaders/blob/master/assets/gpu_noise_shaders/classic_perlin3d.tres)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Assign :ref:`VisualShader <class_VisualShader>` to"
+#~ " the shader slot of the material:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Don't forget to change its mode to"
+#~ " CanvasItem (if you are using a "
+#~ "sprite):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create a script which derives from "
+#~ ":ref:`VisualShaderNodeCustom <class_VisualShaderNodeCustom>`."
+#~ " This is all you need to "
+#~ "initialize your plugin."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Save it and open the visual "
+#~ "shader. You should see your new "
+#~ "node type inside the member's dialog "
+#~ "(if you can't see your new node,"
+#~ " try restarting the editor):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "That is everything you need to do,"
+#~ " as you can see it is very "
+#~ "easy to create your own custom "
+#~ "VisualShader nodes!"
+#~ msgstr ""
+

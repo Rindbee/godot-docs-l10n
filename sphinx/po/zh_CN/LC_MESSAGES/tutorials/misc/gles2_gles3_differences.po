@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2020-03-07 15:17+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:4
 msgid "Differences between GLES2 and GLES3"
-msgstr "GLES2和GLES3之间的一般差异"
+msgstr "GLES2和GLES3之间的差异"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:6
 msgid ""
@@ -27,8 +31,8 @@ msgid ""
 "design and are not the result of bugs. There may be differences that are "
 "unintentional, but they should be reported as bugs."
 msgstr ""
-"本页面记录了GLES2和GLES3之间的差异，这些差异是经过设计的，不是因bug造成的。可"
-"能有些差异是无心之过，但它们应该被报告为bug。"
+"本页记录了GLES2和GLES3之间的差异，这些差异是设计使然，而不是错误的结果。可能"
+"有些差异是无心之过，但应将其报告为错误。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:9
 msgid ""
@@ -38,10 +42,10 @@ msgid ""
 "GLES3 backend maps to OpenGL 3.3 on desktop, OpenGL ES 3.0 on mobile and "
 "WebGL 2.0 on the web."
 msgstr ""
-"“GLES2”和“GLES3”是Godot中，两个基于opengl呈现后端的名称。在图形应用程序编程接"
-"口方面，GLES2后端映射到桌面的OpenGL 2.1，移动版的OpenGL ES 2.0和web版的WebGL "
-"1.0。GLES3后端映射到桌面的OpenGL 3.3，移动版的OpenGL ES 3.0和web版的WebGL "
-"2.0。"
+"``GLES2`` 和 ``GLES3`` 是Godot中用于两个基于OpenGL的渲染后端的名称。在图形API"
+"方面，GLES2后端映射到桌面的OpenGL 2.1，移动设备上的OpenGL ES 2.0和网络上的"
+"WebGL 1.0。GLES3后端映射到台式机上的OpenGL 3.3，移动设备上的OpenGL ES 3.0和"
+"Web上的WebGL 2.0。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:15
 msgid "Particles"
@@ -55,21 +59,23 @@ msgid ""
 "<class_CPUParticles2D>`, which provides a similar interface to a :ref:"
 "`ParticlesMaterial <class_ParticlesMaterial>`."
 msgstr ""
-"GLES2不能使用:参考:`粒子<类_粒子>`或:参考:`二维粒子<类_二维粒子>`节点，因为它"
-"们需要高级GPU特性。相反，使用:参考:`CPU粒子<类_CPU粒子>`或:参考:`CPU二维粒子<"
-"类_CPU二维粒子>`，它提供了与:参考:`粒子材质<类_粒子材质>`类似的接口。"
+"GLES2无法使用 :ref:`Particles <class_Particles>` 或 :ref:`Particles2D "
+"<class_Particles2D>` 节点，因为它们需要高级GPU功能。而是使用 :ref:"
+"`CPUParticles <class_CPUParticles>` 或 :ref:`CPUParticles2D "
+"<class_CPUParticles2D>`，它们提供了与 :ref:`ParticlesMaterial "
+"<class_ParticlesMaterial>` 类似的接口。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:22
 msgid ""
 "Particles and Particles2D can be converted to their CPU equivalent node with "
 "the \"Convert to CPUParticles\" option in the editor."
 msgstr ""
-"粒子和二维粒子可以通过编辑器中的“转换为CPU粒子”选项，转换为它们的等效CPU节"
-"点。"
+"可以使用编辑器中的 ``转换为CPUParticles`` 选项将 ``Particles`` 和 "
+"``Particles2D`` 转换为它们的CPU等效节点。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:26
 msgid "``SCREEN_TEXTURE`` mip-maps"
-msgstr "“屏幕_纹理”变频译码"
+msgstr "``SCREEN_TEXTURE`` mip-maps"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:28
 msgid ""
@@ -77,20 +83,21 @@ msgid ""
 "<class_ShaderMaterial>`) does not have computed mip-maps. So when accessing "
 "at a different LOD, the texture will not appear blurry."
 msgstr ""
-"在GLES2中，“屏幕_纹理”(通过:参考:`着色器纹理<类_着色器纹理>`访问)没有计算变频"
-"译码。所以当访问不同的细节级别时，纹理不会变得模糊。"
+"在GLES2中，``SCREEN_TEXTURE`` （通过 :ref:`ShaderMaterial "
+"<class_ShaderMaterial>` 访问）没有计算 mip-maps。因此，当以不同的 :abbr:`LOD "
+"(Levels of Detail，多层次细节)` 访问时，纹理不会显得模糊。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:32
 msgid "``DEPTH_TEXTURE``"
-msgstr "“深度图纹理”"
+msgstr "``DEPTH_TEXTURE``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:34
 msgid ""
 "While GLES2 supports ``DEPTH_TEXTURE`` in shaders, it may not work on some "
 "old hardware (especially mobile)."
 msgstr ""
-"虽然GLES2在着色器中支持“深度图纹理”，可能在一些旧的硬件上(特别是移动设备)不能"
-"工作。"
+"虽然GLES2在着色器中支持 ``DEPTH_TEXTURE``，但它可能无法在某些旧硬件（特别是移"
+"动设备）上运行。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:37
 msgid "Color space"
@@ -101,8 +108,8 @@ msgid ""
 "GLES2 and GLES3 are in different color spaces. This means that colors will "
 "appear slightly different between them  especially when lighting is used."
 msgstr ""
-"GLES2和GLES3位于不同的色彩空间中。这表示颜色之间会有细微的差别，特别是在使用"
-"灯光的时候。"
+"GLES2和GLES3位于不同的色彩空间中。这意味着它们之间的颜色看起来会略有不同，尤"
+"其是在使用照明时。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:42
 msgid ""
@@ -110,22 +117,23 @@ msgid ""
 "statement check and see if the output is in sRGB, using ``OUTPUT_IS_SRGB``. "
 "``OUTPUT_IS_SRGB`` is ``true`` in GLES2 and ``false`` in GLES3."
 msgstr ""
-"如果您在游戏中同时使用GLES2和GLES3，您可以使用“如果”（if）语句检查输出是否为"
-"sRGB，使用“输出_为_SRGB”。“输出_为_SRGB”在GLES2中返回“真”，在GLES3中返"
-"回“假”。"
+"如果您的游戏将同时使用GLES2和GLES3，则可以使用 ``if`` 语句检查，并使用 "
+"``OUTPUT_IS_SRGB`` 查看输出是否为sRGB。在GLES2中，``OUTPUT_IS_SRGB`` 为 "
+"``true``，在GLES3中为 ``false``。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:47
 msgid "HDR"
-msgstr "高动态范围"
+msgstr ":abbr:`HDR (High-Dynamic Range，高动态范围图像)`"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:49
 msgid ""
-"GLES is not capable of using High Dynamic Range (HDR) rendering features. If "
-"HDR is set for your project, or for a given viewport, Godot will still user "
-"Low Dynamic Range (LDR) which limits viewport values to the ``0-1`` range."
+"GLES2 is not capable of using High Dynamic Range (HDR) rendering features. "
+"If HDR is set for your project, or for a given viewport, Godot will still "
+"user Low Dynamic Range (LDR) which limits viewport values to the ``0-1`` "
+"range."
 msgstr ""
-"GLES不能使用高动态范围(HDR)渲染功能。如果您为项目或指定视区设置了HDR, Godot仍"
-"然会使用低动态范围(LDR)，这将视区值范围限制在“0-1”之间。"
+"GLES2无法使用高动态范围（HDR）渲染功能。如果为您的项目或给定的视图设置了HDR，"
+"则Godot仍将使用低动态范围（LDR），将视图值限制为 ``0-1`` 范围。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:54
 msgid "SpatialMaterial features"
@@ -135,14 +143,15 @@ msgstr "空间材质特性"
 msgid ""
 "In GLES2, the following advanced rendering features in the :ref:"
 "`SpatialMaterial <class_SpatialMaterial>` are missing:"
-msgstr "在GLES2中，在:参考:`空间材质<类_空间材质>`中缺少以下高级渲染特性："
+msgstr ""
+"在GLES2中，缺少 :ref:`BaseMaterial3D <class_BaseMaterial3D>` 中的以下高级渲染"
+"功能："
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:58
 msgid "Refraction"
 msgstr "折射"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:59
-#, fuzzy
 msgid "Subsurface scattering"
 msgstr "次表面散射"
 
@@ -160,7 +169,7 @@ msgstr "深度映射"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:64
 msgid "When using SpatialMaterials they will not even appear in the editor."
-msgstr "使用空间材质时，它们甚至不会出现在编辑器中。"
+msgstr "使用 ``BaseMaterial3Ds`` 时，它们甚至不会出现在编辑器中。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:66
 msgid ""
@@ -169,9 +178,9 @@ msgid ""
 "still be able to set the ``SSS`` built-in (which normally adds subsurface "
 "scattering) in your shader, but nothing will happen."
 msgstr ""
-"在自定义:参考:`着色器材质<类_着色器材质>`中，您可以为这些特性设置值，但它们是"
-"非功能性的。例如,您仍然可以在着色器中设置内置的“次表面散射”(通常会增加次表面"
-"散射)，但什么都不会发生。"
+"在自定义的 :ref:`ShaderMaterials <class_ShaderMaterial>` 中，您可以设置这些功"
+"能的值，但是它们将不起作用。例如，您仍然可以在着色器中设置内置的 ``SSS`` （通"
+"常会添加次表面散射），但是什么也不会发生。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:71
 msgid "Environment features"
@@ -181,7 +190,7 @@ msgstr "环境特性"
 msgid ""
 "In GLES2, the following features in the :ref:`Environment "
 "<class_Environment>` are missing:"
-msgstr "在GLES2中，缺少:参考:`环境<类_环境>`中的以下特性："
+msgstr "在GLES2中，缺少 :ref:`Environment <class_Environment>` 中的以下特性："
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:75
 msgid "Auto exposure"
@@ -197,18 +206,17 @@ msgstr "屏幕空间反射"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:78
 msgid "Screen space ambient occlusion"
-msgstr "屏幕空间环境遮挡"
+msgstr "屏幕空间环境光遮挡"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:80
 msgid "That means that in GLES2 environments you can only set:"
-msgstr "这意味着在GLES2环境中，您只能设置:"
+msgstr "这意味着在GLES2环境中，您只能设置："
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:82
 msgid "Sky (including procedural sky)"
-msgstr "天空(包括程序生成天空)"
+msgstr "天空（包括程序化天空）"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:83
-#, fuzzy
 msgid "Ambient light"
 msgstr "环境光"
 
@@ -222,16 +230,15 @@ msgstr "景深"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:86
 msgid "Glow (also known as bloom)"
-msgstr "辉光(也称为光晕)"
+msgstr "辉光（也称为光晕）"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:87
-#, fuzzy
 msgid "Adjustment"
 msgstr "调整"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:90
 msgid "GIProbes"
-msgstr "全局光照探测器"
+msgstr "GI探针"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:92
 msgid ""
@@ -239,9 +246,9 @@ msgid ""
 "`Baked Lightmaps <class_BakedLightmap>`. For a description of how baked "
 "lightmaps work see the :ref:`Baked Lightmaps tutorial <doc_baked_lightmaps>`."
 msgstr ""
-":参考:`全局光照探测器<类_全局光照探测器>` 在GLES2中不起作用。而是使用:参考:`"
-"烘焙灯光贴图<类_烘焙灯光贴图>`。有关烘焙灯光贴图工作原理的描述，请参见:参考:`"
-"烘焙灯光贴图教程<文档_烘焙_灯光贴图>`。"
+":ref:`GIProbes <class_GIProbe>` 在GLES2中不起作用。而是使用 :ref:"
+"`BakedLightmaps <class_BakedLightmap>`。有关烘焙光照贴图的工作方式的说明，请"
+"参见 :ref:`烘焙光照贴图教程 <doc_baked_lightmaps>`。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:96
 msgid "Contact shadows"
@@ -251,7 +258,9 @@ msgstr "接触阴影"
 msgid ""
 "The ``shadow_contact`` property of :ref:`Lights <class_Light>` is not "
 "supported in GLES2 and so does nothing."
-msgstr "GLES2中不支持“阴影_接触”属性:参考:`灯光<类_灯光>`，并且无效。"
+msgstr ""
+"GLES2不支持 :ref:`Lights <class_Light>` 的 ``shadow_contact`` 属性，因此不执"
+"行任何操作。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:101
 msgid "Light performance"
@@ -264,9 +273,9 @@ msgid ""
 "done in a single pass). Try to limit scenes to as few lights as possible in "
 "order to achieve greatest performance."
 msgstr ""
-"在GLES2中，使用多盏灯光会造成性能不佳，因为每盏灯光都在一个单独的渲染通道中处"
-"理(与GLES3相反，GLES3是一次性完成渲染)。尝试将场景灯光控制在尽可能少的情况，"
-"以达到最好效果。"
+"在GLES2中，由于使用了多个光源，因此性能无法很好地缩放，因为每个光源都是在单独"
+"的渲染通道中进行处理的（与在单个通道中完成的GLES3相反）。尝试将场景限制为尽可"
+"能少的灯光，以实现最佳性能。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:108
 msgid "Texture compression"
@@ -279,9 +288,9 @@ msgid ""
 "sure to set the project setting ``rendering/vram_compression/import_etc`` "
 "and then reimport textures."
 msgstr ""
-"在移动端，GLES2需要进行纹理压缩，而GLES3需要ETC2纹理压缩。默认启用ETC2纹理压"
-"缩，因此，如果使用GLES2导出到移动端，请确保在项目设置中设定了``渲染/显存_压"
-"缩/导入_etc压缩``，然后重新导入纹理。"
+"在移动设备上，GLES2需要ETC纹理压缩，而GLES3需要ETC2。ETC2默认情况下处于启用状"
+"态，因此，如果使用GLES2导出到移动设备，请确保将项目设置设置为 ``rendering/"
+"vram_compression/import_etc``，然后重新导入纹理。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:116
 msgid ""
@@ -290,14 +299,17 @@ msgid ""
 "compression mode (instead of Video RAM). This can be done in the Import dock "
 "after selecting them in the FileSystem dock."
 msgstr ""
+"由于ETC不支持透明性，因此必须重新导入包含Alpha通道的纹理以使用未压缩，有损或"
+"无损压缩模式（而不是显存）。在文件系统停靠面板中选择它们后，可以在导入停靠面"
+"板中完成。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:122
 msgid "Blend shapes"
-msgstr "融合变形"
+msgstr "混合形状"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:124
 msgid "Blend shapes are not supported in GLES2."
-msgstr "在GLES2中不支持融合变形。"
+msgstr "GLES2不支持混合形状。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:127
 msgid "Shading language"
@@ -316,7 +328,8 @@ msgid ""
 "For a complete list of built-in GLSL functions see the :ref:`Shading "
 "Language doc <doc_shading_language>`."
 msgstr ""
-"有关内置GLSL函数的完整列表，请参见:参考:`着色语言文档<文档_着色_语言>`。"
+"有关内置GLSL函数的完整列表，请参见 :ref:`着色语言文档 "
+"<doc_shading_language>`。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:135
 msgid "Function"
@@ -327,24 +340,20 @@ msgid "vec_type **modf** ( vec_type x, out vec_type i )"
 msgstr "vec_type **modf** ( vec_type x, out vec_type i )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:139
-#, fuzzy
 msgid "vec_int_type **floatBitsToInt** ( vec_type x )"
-msgstr "vec_int_type **floatBitsToInt** ( vec_type )"
+msgstr "vec_int_type **floatBitsToInt** ( vec_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:141
-#, fuzzy
 msgid "vec_uint_type **floatBitsToUint** ( vec_type x )"
-msgstr "vec_uint_type **floatBitsToUint** ( vec_type )"
+msgstr "vec_uint_type **floatBitsToUint** ( vec_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:143
-#, fuzzy
 msgid "vec_type **intBitsToFloat** ( vec_int_type x )"
-msgstr "vec_type **intBitsToFloat** ( vec_int_type )"
+msgstr "vec_type **intBitsToFloat** ( vec_int_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:145
-#, fuzzy
 msgid "vec_type **uintBitsToFloat** ( vec_uint_type x )"
-msgstr "vec_type **uintBitsToFloat** ( vec_uint_type )"
+msgstr "vec_type **uintBitsToFloat** ( vec_uint_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:147
 msgid "ivec2 **textureSize** ( sampler2D_type s, int lod )"
@@ -353,83 +362,82 @@ msgstr "ivec2 **textureSize** ( sampler2D_type s, int lod )"
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:147
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:149
 msgid "See workaround below"
-msgstr ""
+msgstr "请参阅下面的解决方法"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:149
 msgid "ivec2 **textureSize** ( samplerCube s, int lod )"
 msgstr "ivec2 **textureSize** ( samplerCube s, int lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:151
-#, fuzzy
 msgid "vec4_type **texture** ( sampler_type s, vec_type uv [, float bias] )"
-msgstr "vec4_type **texture** ( sampler2D_type s, vec2 uv [, float bias] )"
+msgstr "vec4_type **texture** ( sampler_type s, vec_type uv [, float bias] )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:151
 msgid "**bias** not available in vertex shader"
-msgstr "**偏差**在顶点着色器中不可用"
+msgstr "**偏差（bias）** 在顶点着色器中不可用"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:153
-#, fuzzy
 msgid ""
 "vec4_type **textureProj** ( sampler_type s, vec_type uv [, float bias] )"
-msgstr "vec4_type **textureProj** ( sampler2D_type s, vec3 uv [, float bias] )"
+msgstr ""
+"vec4_type **textureProj** ( sampler_type s, vec_type uv [, float bias] )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:155
-#, fuzzy
 msgid "vec4_type **textureLod** ( sampler_type s, vec_type uv, float lod )"
-msgstr "vec4_type **textureLod** ( sampler2D_type s, vec2 uv, float lod )"
+msgstr "vec4_type **textureLod** ( sampler_type s, vec_type uv, float lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:155
 msgid "Only available in vertex shader on some hardware"
 msgstr "只在某些硬件的顶点着色器中可用"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:157
-#, fuzzy
 msgid "vec4_type **textureProjLod** ( sampler_type s, vec_type uv, float lod )"
-msgstr "vec4_type **textureProjLod** ( sampler2D_type s, vec3 uv, float lod )"
+msgstr ""
+"vec4_type **textureProjLod** ( sampler_type s, vec_type uv, float lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:159
-#, fuzzy
 msgid ""
 "vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
 "vec_type dPdy)"
-msgstr "vec4_type **textureLod** ( sampler2D_type s, vec2 uv, float lod )"
+msgstr ""
+"vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
+"vec_type dPdy)"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:161
-#, fuzzy
 msgid "vec_type **dFdx** ( vec_type p )"
-msgstr "vec_type **dFdx** ( vec_type )"
+msgstr "vec_type **dFdx** ( vec_type p )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:163
-#, fuzzy
 msgid "vec_type **dFdy** ( vec_type p )"
-msgstr "vec_type **dFdy** ( vec_type )"
+msgstr "vec_type **dFdy** ( vec_type p )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:165
-#, fuzzy
 msgid "vec_type **fwidth** ( vec_type p )"
-msgstr "vec_type **fwidth** ( vec_type )"
+msgstr "vec_type **fwidth** ( vec_type p )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:168
 msgid ""
 "Functions not in GLES2's GLSL were added with Godots own shader standard "
 "library. These functions may perform worse in GLES2 compared to GLES3."
 msgstr ""
+"Godots自己的着色器标准库添加了GLES2的GLSL中未包含的函数。与GLES3相比，这些函"
+"数在GLES2中的性能可能较差。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:171
 msgid "``textureSize()`` workaround"
-msgstr ""
+msgstr "``textureSize()`` 解决方法"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:173
 msgid ""
 "GLES2 does not support ``textureSize()``. You can get the size of a texture "
 "the old fashioned way by passing in a uniform with the texture size yourself."
 msgstr ""
+"GLES2不支持 ``textureSize()``。您可以通过自己传递带有纹理大小的统一量来以老式"
+"的方式获得纹理的大小。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:189
-#, fuzzy
 msgid "Built in variables and render modes"
-msgstr "渲染模式"
+msgstr "内置变量和渲染模式"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:191
 msgid ""
@@ -438,34 +446,34 @@ msgid ""
 "that, when written to, will have no effect or could even cause issues when "
 "using the GLES2 backend."
 msgstr ""
+"Godot还提供了许多内置变量和渲染模式。某些在GLES2中未被支持。下面是内置变量和"
+"渲染模式的列表，这些变量和渲染模式在写入时将不会起作用，甚至在使用GLES2后端时"
+"可能会引起问题。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:196
-#, fuzzy
 msgid "Variable / Render Mode"
-msgstr "渲染模式"
+msgstr "变量/渲染模式"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:198
 msgid "``ensure_correct_normals``"
-msgstr ""
+msgstr "``ensure_correct_normals``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:200
 msgid "``INSTANCE_ID``"
-msgstr ""
+msgstr "``INSTANCE_ID``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:202
-#, fuzzy
 msgid "``DEPTH``"
-msgstr "“深度图纹理”"
+msgstr "``DEPTH``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:204
 msgid "``ANISOTROPY``"
-msgstr ""
+msgstr "``ANISOTROPY``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:206
-#, fuzzy
 msgid "``ANISOTROPY_FLOW``"
-msgstr "out vec2 **ANISOTROPY_FLOW**"
+msgstr "``ANISOTROPY_FLOW``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:208
 msgid "``SSS_STRENGTH``"
-msgstr ""
+msgstr "``SSS_STRENGTH``"

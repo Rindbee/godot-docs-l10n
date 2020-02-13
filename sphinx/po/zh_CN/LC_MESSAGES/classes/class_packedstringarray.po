@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:10
+msgid "PackedStringArray"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:12
+msgid "A packed :ref:`Array <class_Array>` of :ref:`String <class_String>`\\ s."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:15
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:17
+msgid ""
+"An :ref:`Array <class_Array>` specifically designed to hold :ref:`String "
+"<class_String>`\\ s. Packs data tightly, so it saves memory for large "
+"array sizes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:19
+msgid "**Note:** This type is passed by value and not by reference."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:25
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:25
+msgid ""
+":ref:`PackedStringArray "
+"<class_PackedStringArray_method_PackedStringArray>` **(** :ref:`Array "
+"<class_Array>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:43
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:27
+msgid ""
+":ref:`append <class_PackedStringArray_method_append>` **(** :ref:`String "
+"<class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:29
+msgid ""
+":ref:`append_array <class_PackedStringArray_method_append_array>` **(** "
+":ref:`PackedStringArray <class_PackedStringArray>` array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:31
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:31
+msgid ":ref:`empty <class_PackedStringArray_method_empty>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:45
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:33
+msgid ""
+":ref:`insert <class_PackedStringArray_method_insert>` **(** :ref:`int "
+"<class_int>` idx, :ref:`String <class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:35
+msgid ":ref:`invert <class_PackedStringArray_method_invert>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:37
+msgid ""
+":ref:`push_back <class_PackedStringArray_method_push_back>` **(** "
+":ref:`String <class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:39
+msgid ""
+":ref:`remove <class_PackedStringArray_method_remove>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:41
+msgid ""
+":ref:`resize <class_PackedStringArray_method_resize>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:43
+msgid ""
+":ref:`set <class_PackedStringArray_method_set>` **(** :ref:`int "
+"<class_int>` idx, :ref:`String <class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:45
+msgid ":ref:`size <class_PackedStringArray_method_size>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:49
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:53
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **PackedStringArray** "
+"**(** :ref:`Array <class_Array>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:55
+msgid ""
+"Constructs a new ``PackedStringArray``. Optionally, you can pass in a "
+"generic :ref:`Array <class_Array>` that will be converted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:61
+msgid "void **append** **(** :ref:`String <class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:63
+msgid ""
+"Appends an element at the end of the array (alias of :ref:`push_back "
+"<class_PackedStringArray_method_push_back>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:69
+msgid ""
+"void **append_array** **(** :ref:`PackedStringArray "
+"<class_PackedStringArray>` array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:71
+msgid "Appends a ``PackedStringArray`` at the end of this array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:77
+msgid ":ref:`bool <class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:79
+msgid "Returns ``true`` if the array is empty."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:85
+msgid ""
+":ref:`int <class_int>` **insert** **(** :ref:`int <class_int>` idx, "
+":ref:`String <class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:87
+msgid ""
+"Inserts a new element at a given position in the array. The position must"
+" be valid, or at the end of the array (``idx == size()``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:93
+msgid "void **invert** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:95
+msgid "Reverses the order of the elements in the array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:101
+msgid "void **push_back** **(** :ref:`String <class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:103
+msgid "Appends a string element at end of the array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:109
+msgid "void **remove** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:111
+msgid "Removes an element from the array by index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:117
+msgid "void **resize** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:119
+msgid ""
+"Sets the size of the array. If the array is grown, reserves elements at "
+"the end of the array. If the array is shrunk, truncates the array to the "
+"new size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:125
+msgid ""
+"void **set** **(** :ref:`int <class_int>` idx, :ref:`String "
+"<class_String>` string **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:127
+msgid "Changes the :ref:`String <class_String>` at the given index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:133
+msgid ":ref:`int <class_int>` **size** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedstringarray.rst:135
+msgid "Returns the size of the array."
+msgstr ""
+

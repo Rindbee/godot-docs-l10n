@@ -1,0 +1,1473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:10
+msgid "RichTextLabel"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:14
+msgid "Label that displays rich text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:19
+msgid ""
+"Rich text can contain custom text, fonts, images and some basic "
+"formatting. The label manages these as an internal tag stack. It also "
+"adapts itself to given width/heights."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:21
+msgid ""
+"**Note:** Assignments to :ref:`bbcode_text "
+"<class_RichTextLabel_property_bbcode_text>` clear the tag stack and "
+"reconstruct it from the property's contents. Any edits made to "
+":ref:`bbcode_text <class_RichTextLabel_property_bbcode_text>` will erase "
+"previous edits made from other manual sources such as :ref:`append_bbcode"
+" <class_RichTextLabel_method_append_bbcode>` and the ``push_*`` / "
+":ref:`pop <class_RichTextLabel_method_pop>` methods."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:26
+msgid ":doc:`../tutorials/gui/bbcode_in_richtextlabel`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:29
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:121
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:32
+msgid ":ref:`bbcode_enabled <class_RichTextLabel_property_bbcode_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:323
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:391
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:441
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:457
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:54
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:34
+msgid ":ref:`bbcode_text <class_RichTextLabel_property_bbcode_text>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:339
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:489
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:36
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:36
+msgid ":ref:`custom_effects <class_RichTextLabel_property_custom_effects>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:357
+msgid "``[  ]``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:38
+msgid ":ref:`meta_underlined <class_RichTextLabel_property_meta_underlined>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:375
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:425
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:40
+msgid ""
+":ref:`override_selected_font_color "
+"<class_RichTextLabel_property_override_selected_font_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:42
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:42
+msgid ":ref:`percent_visible <class_RichTextLabel_property_percent_visible>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:407
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:44
+msgid "rect_clip_content"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:44
+msgid "**O:** ``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:46
+msgid ":ref:`scroll_active <class_RichTextLabel_property_scroll_active>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:48
+msgid ":ref:`scroll_following <class_RichTextLabel_property_scroll_following>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:50
+msgid ":ref:`selection_enabled <class_RichTextLabel_property_selection_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:156
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:164
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:52
+msgid ":ref:`tab_size <class_RichTextLabel_property_tab_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:473
+msgid "``4``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:54
+msgid ":ref:`text <class_RichTextLabel_property_text>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:56
+msgid ""
+":ref:`visible_characters "
+"<class_RichTextLabel_property_visible_characters>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:507
+msgid "``-1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:60
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:125
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:63
+msgid ""
+":ref:`add_image <class_RichTextLabel_method_add_image>` **(** "
+":ref:`Texture2D <class_Texture2D>` image, :ref:`int <class_int>` width=0,"
+" :ref:`int <class_int>` height=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:65
+msgid ""
+":ref:`add_text <class_RichTextLabel_method_add_text>` **(** :ref:`String "
+"<class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:85
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:67
+msgid ""
+":ref:`append_bbcode <class_RichTextLabel_method_append_bbcode>` **(** "
+":ref:`String <class_String>` bbcode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:69
+msgid ":ref:`clear <class_RichTextLabel_method_clear>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:71
+msgid ""
+":ref:`get_content_height <class_RichTextLabel_method_get_content_height>`"
+" **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:73
+msgid ""
+":ref:`get_line_count <class_RichTextLabel_method_get_line_count>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:75
+msgid ""
+":ref:`get_total_character_count "
+"<class_RichTextLabel_method_get_total_character_count>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:77
+msgid ":ref:`VScrollBar <class_VScrollBar>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:77
+msgid ":ref:`get_v_scroll <class_RichTextLabel_method_get_v_scroll>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:79
+msgid ""
+":ref:`get_visible_line_count "
+"<class_RichTextLabel_method_get_visible_line_count>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:81
+msgid ""
+":ref:`install_effect <class_RichTextLabel_method_install_effect>` **(** "
+":ref:`Variant <class_Variant>` effect **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:83
+msgid ":ref:`newline <class_RichTextLabel_method_newline>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:85
+msgid ""
+":ref:`parse_bbcode <class_RichTextLabel_method_parse_bbcode>` **(** "
+":ref:`String <class_String>` bbcode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:87
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:87
+msgid ""
+":ref:`parse_expressions_for_values "
+"<class_RichTextLabel_method_parse_expressions_for_values>` **(** "
+":ref:`PackedStringArray <class_PackedStringArray>` expressions **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:89
+msgid ":ref:`pop <class_RichTextLabel_method_pop>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:91
+msgid ""
+":ref:`push_align <class_RichTextLabel_method_push_align>` **(** "
+":ref:`Align <enum_RichTextLabel_Align>` align **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:93
+msgid ":ref:`push_bold <class_RichTextLabel_method_push_bold>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:95
+msgid ""
+":ref:`push_bold_italics <class_RichTextLabel_method_push_bold_italics>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:97
+msgid ":ref:`push_cell <class_RichTextLabel_method_push_cell>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:99
+msgid ""
+":ref:`push_color <class_RichTextLabel_method_push_color>` **(** "
+":ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:101
+msgid ""
+":ref:`push_font <class_RichTextLabel_method_push_font>` **(** :ref:`Font "
+"<class_Font>` font **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:103
+msgid ""
+":ref:`push_indent <class_RichTextLabel_method_push_indent>` **(** "
+":ref:`int <class_int>` level **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:105
+msgid ":ref:`push_italics <class_RichTextLabel_method_push_italics>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:107
+msgid ""
+":ref:`push_list <class_RichTextLabel_method_push_list>` **(** "
+":ref:`ListType <enum_RichTextLabel_ListType>` type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:109
+msgid ""
+":ref:`push_meta <class_RichTextLabel_method_push_meta>` **(** "
+":ref:`Variant <class_Variant>` data **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:111
+msgid ":ref:`push_mono <class_RichTextLabel_method_push_mono>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:113
+msgid ":ref:`push_normal <class_RichTextLabel_method_push_normal>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:115
+msgid ""
+":ref:`push_strikethrough <class_RichTextLabel_method_push_strikethrough>`"
+" **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:117
+msgid ""
+":ref:`push_table <class_RichTextLabel_method_push_table>` **(** :ref:`int"
+" <class_int>` columns **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:119
+msgid ""
+":ref:`push_underline <class_RichTextLabel_method_push_underline>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:121
+msgid ""
+":ref:`remove_line <class_RichTextLabel_method_remove_line>` **(** "
+":ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:123
+msgid ""
+":ref:`scroll_to_line <class_RichTextLabel_method_scroll_to_line>` **(** "
+":ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:125
+msgid ""
+":ref:`set_table_column_expand "
+"<class_RichTextLabel_method_set_table_column_expand>` **(** :ref:`int "
+"<class_int>` column, :ref:`bool <class_bool>` expand, :ref:`int "
+"<class_int>` ratio **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:129
+msgid "Theme Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:152
+msgid ":ref:`Font <class_Font>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:132
+msgid "bold_font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:134
+msgid "bold_italics_font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:154
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:136
+msgid "default_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:136
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:138
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:150
+msgid ":ref:`StyleBox <class_StyleBox>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:138
+msgid "focus"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:140
+msgid "font_color_selected"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:140
+msgid "Color( 0.49, 0.49, 0.49, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:142
+msgid "font_color_shadow"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:142
+msgid "Color( 0, 0, 0, 0 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:144
+msgid "italics_font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:146
+msgid "line_separation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:160
+msgid "1"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:148
+msgid "mono_font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:150
+msgid "normal"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:152
+msgid "normal_font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:154
+msgid "selection_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:154
+msgid "Color( 0.1, 0.1, 1, 0.8 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:156
+msgid "shadow_as_outline"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:156
+msgid "0"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:158
+msgid "shadow_offset_x"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:160
+msgid "shadow_offset_y"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:162
+msgid "table_hseparation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:164
+msgid "3"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:164
+msgid "table_vseparation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:168
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:172
+msgid "**meta_clicked** **(** :ref:`Variant <class_Variant>` meta **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:174
+msgid ""
+"Triggered when the user clicks on content between meta tags. If the meta "
+"is defined in text, e.g. ``[url={\"data\"=\"hi\"}]hi[/url]``, then the "
+"parameter for this signal will be a :ref:`String <class_String>` type. If"
+" a particular type or an object is desired, the :ref:`push_meta "
+"<class_RichTextLabel_method_push_meta>` method must be used to manually "
+"insert the data into the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:180
+msgid "**meta_hover_ended** **(** :ref:`Variant <class_Variant>` meta **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:182
+msgid "Triggers when the mouse exits a meta tag."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:188
+msgid "**meta_hover_started** **(** :ref:`Variant <class_Variant>` meta **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:190
+msgid "Triggers when the mouse enters a meta tag."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:193
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:205
+msgid "enum **Align**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:207
+msgid "**ALIGN_LEFT** = **0** --- Makes text left aligned."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:209
+msgid "**ALIGN_CENTER** = **1** --- Makes text centered."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:211
+msgid "**ALIGN_RIGHT** = **2** --- Makes text right aligned."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:213
+msgid "**ALIGN_FILL** = **3** --- Makes text fill width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:225
+msgid "enum **ListType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:227
+msgid "**LIST_NUMBERS** = **0** --- Each list item has a number marker."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:229
+msgid "**LIST_LETTERS** = **1** --- Each list item has a letter marker."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:231
+msgid "**LIST_DOTS** = **2** --- Each list item has a filled circle marker."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:275
+msgid "enum **ItemType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:277
+msgid "**ITEM_FRAME** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:279
+msgid "**ITEM_TEXT** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:281
+msgid "**ITEM_IMAGE** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:283
+msgid "**ITEM_NEWLINE** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:285
+msgid "**ITEM_FONT** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:287
+msgid "**ITEM_COLOR** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:289
+msgid "**ITEM_UNDERLINE** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:291
+msgid "**ITEM_STRIKETHROUGH** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:293
+msgid "**ITEM_ALIGN** = **8**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:295
+msgid "**ITEM_INDENT** = **9**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:297
+msgid "**ITEM_LIST** = **10**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:299
+msgid "**ITEM_TABLE** = **11**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:301
+msgid "**ITEM_FADE** = **12**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:303
+msgid "**ITEM_SHAKE** = **13**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:305
+msgid "**ITEM_WAVE** = **14**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:307
+msgid "**ITEM_TORNADO** = **15**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:309
+msgid "**ITEM_RAINBOW** = **16**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:311
+msgid "**ITEM_CUSTOMFX** = **18**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:313
+msgid "**ITEM_META** = **17**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:316
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:320
+msgid ":ref:`bool <class_bool>` **bbcode_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:323
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:339
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:357
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:375
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:391
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:407
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:425
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:441
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:457
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:473
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:489
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:507
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:325
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:341
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:359
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:377
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:393
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:409
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:427
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:443
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:459
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:475
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:491
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:509
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:325
+msgid "set_use_bbcode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:327
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:343
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:361
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:379
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:395
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:411
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:429
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:445
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:461
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:477
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:493
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:511
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:327
+msgid "is_using_bbcode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:330
+msgid "If ``true``, the label uses BBCode formatting."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:336
+msgid ":ref:`String <class_String>` **bbcode_text**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:341
+msgid "set_bbcode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:343
+msgid "get_bbcode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:346
+msgid ""
+"The label's text in BBCode format. Is not representative of manual "
+"modifications to the internal tag stack. Erases changes made by other "
+"methods when edited."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:348
+msgid ""
+"**Note:** It is unadvised to use ``+=`` operator with ``bbcode_text`` "
+"(e.g. ``bbcode_text += \"some string\"``) as it replaces the whole text "
+"and can cause slowdowns. Use :ref:`append_bbcode "
+"<class_RichTextLabel_method_append_bbcode>` for adding text instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:354
+msgid ":ref:`Array <class_Array>` **custom_effects**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:359
+msgid "set_effects(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:361
+msgid "get_effects()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:364
+msgid ""
+"The currently installed custom effects. This is an array of "
+":ref:`RichTextEffect <class_RichTextEffect>`\\ s."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:366
+msgid ""
+"To add a custom effect, it's more convenient to use :ref:`install_effect "
+"<class_RichTextLabel_method_install_effect>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:372
+msgid ":ref:`bool <class_bool>` **meta_underlined**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:377
+msgid "set_meta_underline(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:379
+msgid "is_meta_underlined()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:382
+msgid "If ``true``, the label underlines meta tags such as ``[url]{text}[/url]``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:388
+msgid ":ref:`bool <class_bool>` **override_selected_font_color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:393
+msgid "set_override_selected_font_color(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:395
+msgid "is_overriding_selected_font_color()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:398
+msgid "If ``true``, the label uses the custom font color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:404
+msgid ":ref:`float <class_float>` **percent_visible**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:409
+msgid "set_percent_visible(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:411
+msgid "get_percent_visible()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:414
+msgid ""
+"The range of characters to display, as a :ref:`float <class_float>` "
+"between 0.0 and 1.0. When assigned an out of range value, it's the same "
+"as assigning 1.0."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:416
+msgid ""
+"**Note:** Setting this property updates :ref:`visible_characters "
+"<class_RichTextLabel_property_visible_characters>` based on current "
+":ref:`get_total_character_count "
+"<class_RichTextLabel_method_get_total_character_count>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:422
+msgid ":ref:`bool <class_bool>` **scroll_active**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:427
+msgid "set_scroll_active(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:429
+msgid "is_scroll_active()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:432
+msgid ""
+"If ``true``, the scrollbar is visible. Setting this to ``false`` does not"
+" block scrolling completely. See :ref:`scroll_to_line "
+"<class_RichTextLabel_method_scroll_to_line>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:438
+msgid ":ref:`bool <class_bool>` **scroll_following**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:443
+msgid "set_scroll_follow(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:445
+msgid "is_scroll_following()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:448
+msgid "If ``true``, the window scrolls down to display new content automatically."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:454
+msgid ":ref:`bool <class_bool>` **selection_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:459
+msgid "set_selection_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:461
+msgid "is_selection_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:464
+msgid "If ``true``, the label allows text selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:470
+msgid ":ref:`int <class_int>` **tab_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:475
+msgid "set_tab_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:477
+msgid "get_tab_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:480
+msgid ""
+"The number of spaces associated with a single tab length. Does not affect"
+" ``\\t`` in text tags, only indent tags."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:486
+msgid ":ref:`String <class_String>` **text**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:491
+msgid "set_text(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:493
+msgid "get_text()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:496
+msgid "The raw text of the label."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:498
+msgid ""
+"When set, clears the tag stack and adds a raw text tag to the top of it. "
+"Does not parse BBCodes. Does not modify :ref:`bbcode_text "
+"<class_RichTextLabel_property_bbcode_text>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:504
+msgid ":ref:`int <class_int>` **visible_characters**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:509
+msgid "set_visible_characters(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:511
+msgid "get_visible_characters()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:514
+msgid ""
+"The restricted number of characters to display in the label. If ``-1``, "
+"all characters will be displayed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:517
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:521
+msgid ""
+"void **add_image** **(** :ref:`Texture2D <class_Texture2D>` image, "
+":ref:`int <class_int>` width=0, :ref:`int <class_int>` height=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:523
+msgid ""
+"Adds an image's opening and closing tags to the tag stack, optionally "
+"providing a ``width`` and ``height`` to resize the image."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:525
+msgid ""
+"If ``width`` or ``height`` is set to 0, the image size will be adjusted "
+"in order to keep the original aspect ratio."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:531
+msgid "void **add_text** **(** :ref:`String <class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:533
+msgid "Adds raw non-BBCode-parsed text to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:539
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **append_bbcode** **(** "
+":ref:`String <class_String>` bbcode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:541
+msgid ""
+"Parses ``bbcode`` and adds tags to the tag stack as needed. Returns the "
+"result of the parsing, :ref:`@GlobalScope.OK "
+"<class_@GlobalScope_constant_OK>` if successful."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:547
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:549
+msgid ""
+"Clears the tag stack and sets :ref:`bbcode_text "
+"<class_RichTextLabel_property_bbcode_text>` to an empty string."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:555
+msgid ":ref:`int <class_int>` **get_content_height** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:557
+msgid "Returns the height of the content."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:563
+msgid ":ref:`int <class_int>` **get_line_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:565
+msgid ""
+"Returns the total number of newlines in the tag stack's text tags. "
+"Considers wrapped text as one line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:571
+msgid ":ref:`int <class_int>` **get_total_character_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:573
+msgid ""
+"Returns the total number of characters from text tags. Does not include "
+"BBCodes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:579
+msgid ":ref:`VScrollBar <class_VScrollBar>` **get_v_scroll** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:581
+msgid "Returns the vertical scrollbar."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:587
+msgid ":ref:`int <class_int>` **get_visible_line_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:589
+msgid "Returns the number of visible lines."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:595
+msgid "void **install_effect** **(** :ref:`Variant <class_Variant>` effect **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:597
+msgid ""
+"Installs a custom effect. ``effect`` should be a valid "
+":ref:`RichTextEffect <class_RichTextEffect>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:603
+msgid "void **newline** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:605
+msgid "Adds a newline tag to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:611
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **parse_bbcode** **(** "
+":ref:`String <class_String>` bbcode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:613
+msgid ""
+"The assignment version of :ref:`append_bbcode "
+"<class_RichTextLabel_method_append_bbcode>`. Clears the tag stack and "
+"inserts the new content. Returns :ref:`@GlobalScope.OK "
+"<class_@GlobalScope_constant_OK>` if parses ``bbcode`` successfully."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:619
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **parse_expressions_for_values** "
+"**(** :ref:`PackedStringArray <class_PackedStringArray>` expressions "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:621
+msgid "Parses BBCode parameter ``expressions`` into a dictionary."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:627
+msgid "void **pop** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:629
+msgid ""
+"Terminates the current tag. Use after ``push_*`` methods to close BBCodes"
+" manually. Does not need to follow ``add_*`` methods."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:635
+msgid ""
+"void **push_align** **(** :ref:`Align <enum_RichTextLabel_Align>` align "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:637
+msgid ""
+"Adds an ``[align]`` tag based on the given ``align`` value. See "
+":ref:`Align <enum_RichTextLabel_Align>` for possible values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:643
+msgid "void **push_bold** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:645
+msgid ""
+"Adds a ``[font]`` tag with a bold font to the tag stack. This is the same"
+" as adding a ``[b]`` tag if not currently in a ``[i]`` tag."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:651
+msgid "void **push_bold_italics** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:653
+msgid "Adds a ``[font]`` tag with a bold italics font to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:659
+msgid "void **push_cell** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:661
+msgid ""
+"Adds a ``[cell]`` tag to the tag stack. Must be inside a ``[table]`` tag."
+" See :ref:`push_table <class_RichTextLabel_method_push_table>` for "
+"details."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:667
+msgid "void **push_color** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:669
+msgid "Adds a ``[color]`` tag to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:675
+msgid "void **push_font** **(** :ref:`Font <class_Font>` font **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:677
+msgid ""
+"Adds a ``[font]`` tag to the tag stack. Overrides default fonts for its "
+"duration."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:683
+msgid "void **push_indent** **(** :ref:`int <class_int>` level **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:685
+msgid ""
+"Adds an ``[indent]`` tag to the tag stack. Multiplies ``level`` by "
+"current :ref:`tab_size <class_RichTextLabel_property_tab_size>` to "
+"determine new margin length."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:691
+msgid "void **push_italics** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:693
+msgid ""
+"Adds a ``[font]`` tag with a italics font to the tag stack. This is the "
+"same as adding a ``[i]`` tag if not currently in a ``[b]`` tag."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:699
+msgid ""
+"void **push_list** **(** :ref:`ListType <enum_RichTextLabel_ListType>` "
+"type **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:701
+msgid ""
+"Adds a ``[list]`` tag to the tag stack. Similar to the BBCodes ``[ol]`` "
+"or ``[ul]``, but supports more list types. Not fully implemented!"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:707
+msgid "void **push_meta** **(** :ref:`Variant <class_Variant>` data **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:709
+msgid ""
+"Adds a ``[meta]`` tag to the tag stack. Similar to the BBCode "
+"``[url=something]{text}[/url]``, but supports non-:ref:`String "
+"<class_String>` metadata types."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:715
+msgid "void **push_mono** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:717
+msgid "Adds a ``[font]`` tag with a monospace font to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:723
+msgid "void **push_normal** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:725
+msgid "Adds a ``[font]`` tag with a normal font to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:731
+msgid "void **push_strikethrough** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:733
+msgid "Adds a ``[s]`` tag to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:739
+msgid "void **push_table** **(** :ref:`int <class_int>` columns **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:741
+msgid "Adds a ``[table=columns]`` tag to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:747
+msgid "void **push_underline** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:749
+msgid "Adds a ``[u]`` tag to the tag stack."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:755
+msgid ""
+":ref:`bool <class_bool>` **remove_line** **(** :ref:`int <class_int>` "
+"line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:757
+msgid ""
+"Removes a line of content from the label. Returns ``true`` if the line "
+"exists."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:759
+msgid ""
+"The ``line`` argument is the index of the line to remove, it can take "
+"values in the interval ``[0, get_line_count() - 1]``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:765
+msgid "void **scroll_to_line** **(** :ref:`int <class_int>` line **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:767
+msgid "Scrolls the window's top line to match ``line``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:773
+msgid ""
+"void **set_table_column_expand** **(** :ref:`int <class_int>` column, "
+":ref:`bool <class_bool>` expand, :ref:`int <class_int>` ratio **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:775
+msgid ""
+"Edits the selected column's expansion options. If ``expand`` is ``true``,"
+" the column expands in proportion to its expansion ratio versus the other"
+" columns' ratios."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:777
+msgid ""
+"For example, 2 columns with ratios 3 and 4 plus 70 pixels in available "
+"width would expand 30 and 40 pixels, respectively."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_richtextlabel.rst:779
+msgid ""
+"If ``expand`` is ``false``, the column will not contribute to the total "
+"ratio."
+msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_image <class_RichTextLabel_method_add_image>` "
+#~ "**(** :ref:`Texture <class_Texture>` image "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid "void **add_image** **(** :ref:`Texture <class_Texture>` image **)**"
+#~ msgstr ""
+
+#~ msgid "Adds an image's opening and closing tags to the tag stack."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "[  ]"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "**O:** true"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid "-1"
+#~ msgstr ""
+
+#~ msgid "**meta_clicked** **(** :ref:`Nil <class_Nil>` meta **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Triggered when the user clicks on "
+#~ "content between ``[url]`` tags. If the"
+#~ " meta is defined in text, e.g. "
+#~ "``[url={\"data\"=\"hi\"}]hi[/url]``, then the "
+#~ "parameter for this signal will be "
+#~ "a :ref:`String <class_String>` type. If "
+#~ "a particular type or an object is"
+#~ " desired, the :ref:`push_meta "
+#~ "<class_RichTextLabel_method_push_meta>` method must "
+#~ "be used to manually insert the "
+#~ "data into the tag stack."
+#~ msgstr ""
+
+#~ msgid "**meta_hover_ended** **(** :ref:`Nil <class_Nil>` meta **)**"
+#~ msgstr ""
+
+#~ msgid "**meta_hover_started** **(** :ref:`Nil <class_Nil>` meta **)**"
+#~ msgstr ""
+
+#~ msgid "**ALIGN_LEFT** = **0**"
+#~ msgstr ""
+
+#~ msgid "**ALIGN_CENTER** = **1**"
+#~ msgstr ""
+
+#~ msgid "**ALIGN_RIGHT** = **2**"
+#~ msgstr ""
+
+#~ msgid "**ALIGN_FILL** = **3**"
+#~ msgstr ""
+
+#~ msgid "**LIST_NUMBERS** = **0**"
+#~ msgstr ""
+
+#~ msgid "**LIST_LETTERS** = **1**"
+#~ msgstr ""
+
+#~ msgid "**LIST_DOTS** = **2**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The text's visibility, as a :ref:`float"
+#~ " <class_float>` between 0.0 and 1.0."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If ``true``, the scrollbar is visible."
+#~ " Does not block scrolling completely. "
+#~ "See :ref:`scroll_to_line "
+#~ "<class_RichTextLabel_method_scroll_to_line>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adds an ``[indent]`` tag to the "
+#~ "tag stack. Multiplies \"level\" by "
+#~ "current tab_size to determine new margin"
+#~ " length."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_image <class_RichTextLabel_method_add_image>` "
+#~ "**(** :ref:`Texture <class_Texture>` image, "
+#~ ":ref:`int <class_int>` width=0, :ref:`int "
+#~ "<class_int>` height=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_image** **(** :ref:`Texture "
+#~ "<class_Texture>` image, :ref:`int <class_int>` "
+#~ "width=0, :ref:`int <class_int>` height=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`parse_expressions_for_values "
+#~ "<class_RichTextLabel_method_parse_expressions_for_values>` **(**"
+#~ " :ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "expressions **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Dictionary <class_Dictionary>` "
+#~ "**parse_expressions_for_values** **(** "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` expressions"
+#~ " **)**"
+#~ msgstr ""
+

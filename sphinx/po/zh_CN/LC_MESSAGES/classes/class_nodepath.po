@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-12-01 13:40+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_nodepath.rst:10
+msgid "NodePath"
+msgstr "NodePath"
+
+#: ../../docs/classes/class_nodepath.rst:12
+msgid "Pre-parsed scene tree path."
+msgstr "预解析的场景树路径。"
+
+#: ../../docs/classes/class_nodepath.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_nodepath.rst:17
+msgid ""
+"A pre-parsed relative or absolute path in a scene tree, for use with "
+":ref:`Node.get_node <class_Node_method_get_node>` and similar functions. "
+"It can reference a node, a resource within a node, or a property of a "
+"node or resource. For instance, "
+"``\"Path2D/PathFollow2D/Sprite:texture:size\"`` would refer to the "
+"``size`` property of the ``texture`` resource on the node named "
+"``\"Sprite\"`` which is a child of the other named nodes in the path."
+msgstr ""
+"场景树中的预先解析的相对或绝对路径，用于 :ref:`Node.get_node <class_Node_method_get_node>` "
+"和类似函数。它可以引用节点、节点内的资源、或节点/资源的属性。例如，``\"Path2D/PathFollow2D/Sprite:texture:size\"``"
+" 将引用名为 ``\"Sprite\"`` 的节点，即该路径中其他命名节点的子节点，上的 ``texture`` 资源的 ``size`` 属性。"
+
+#: ../../docs/classes/class_nodepath.rst:19
+msgid ""
+"You will usually just pass a string to :ref:`Node.get_node "
+"<class_Node_method_get_node>` and it will be automatically converted, but"
+" you may occasionally want to parse a path ahead of time with "
+"``NodePath`` or the literal syntax ``@\"path\"``. Exporting a "
+"``NodePath`` variable will give you a node selection widget in the "
+"properties panel of the editor, which can often be useful."
+msgstr ""
+"通常您只需要将一个字符串传递给 :ref:`Node.get_node "
+"<class_Node_method_get_node>`，它将被自动转换，但是您有时可能希望，使用 ``NodePath`` 或文字语法 "
+"``@\"path\"``，提前解析路径。导出一个 ``NodePath`` "
+"变量，将在编辑器的属性面板中，为您提供一个节点选择小部件，这通常会很有用。"
+
+#: ../../docs/classes/class_nodepath.rst:21
+msgid ""
+"A ``NodePath`` is composed of a list of slash-separated node names (like "
+"a filesystem path) and an optional colon-separated list of \"subnames\" "
+"which can be resources or properties."
+msgstr ""
+"一个 ``NodePath`` 由，一个斜杠分隔的节点名称列表（如文件系统路径），和一个可选的由冒号分隔的 ``子名称（subnames）`` "
+"列表组成，这些子名称列表可以是资源或属性。"
+
+#: ../../docs/classes/class_nodepath.rst:23
+msgid "Some examples of NodePaths include the following:"
+msgstr "``NodePath`` 的一些示例包括："
+
+#: ../../docs/classes/class_nodepath.rst:39
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_nodepath.rst:42
+#: ../../docs/classes/class_nodepath.rst:44
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ":ref:`NodePath <class_NodePath>`"
+
+#: ../../docs/classes/class_nodepath.rst:42
+msgid ""
+":ref:`NodePath <class_NodePath_method_NodePath>` **(** :ref:`String "
+"<class_String>` from **)**"
+msgstr ""
+":ref:`NodePath <class_NodePath_method_NodePath>` **(** :ref:`String "
+"<class_String>` from **)**"
+
+#: ../../docs/classes/class_nodepath.rst:44
+msgid ""
+":ref:`get_as_property_path <class_NodePath_method_get_as_property_path>` "
+"**(** **)**"
+msgstr ""
+":ref:`get_as_property_path <class_NodePath_method_get_as_property_path>` "
+"**(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:46
+#: ../../docs/classes/class_nodepath.rst:48
+#: ../../docs/classes/class_nodepath.rst:52
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: ../../docs/classes/class_nodepath.rst:46
+msgid ""
+":ref:`get_concatenated_subnames "
+"<class_NodePath_method_get_concatenated_subnames>` **(** **)**"
+msgstr ""
+":ref:`get_concatenated_subnames "
+"<class_NodePath_method_get_concatenated_subnames>` **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:48
+msgid ""
+":ref:`get_name <class_NodePath_method_get_name>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+":ref:`get_name <class_NodePath_method_get_name>` **(** :ref:`int "
+"<class_int>` idx **)**"
+
+#: ../../docs/classes/class_nodepath.rst:50
+#: ../../docs/classes/class_nodepath.rst:54
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_nodepath.rst:50
+msgid ":ref:`get_name_count <class_NodePath_method_get_name_count>` **(** **)**"
+msgstr ":ref:`get_name_count <class_NodePath_method_get_name_count>` **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:52
+msgid ""
+":ref:`get_subname <class_NodePath_method_get_subname>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+":ref:`get_subname <class_NodePath_method_get_subname>` **(** :ref:`int "
+"<class_int>` idx **)**"
+
+#: ../../docs/classes/class_nodepath.rst:54
+msgid ""
+":ref:`get_subname_count <class_NodePath_method_get_subname_count>` **(** "
+"**)**"
+msgstr ""
+":ref:`get_subname_count <class_NodePath_method_get_subname_count>` **(** "
+"**)**"
+
+#: ../../docs/classes/class_nodepath.rst:56
+#: ../../docs/classes/class_nodepath.rst:58
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_nodepath.rst:56
+msgid ":ref:`is_absolute <class_NodePath_method_is_absolute>` **(** **)**"
+msgstr ":ref:`is_absolute <class_NodePath_method_is_absolute>` **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:58
+msgid ":ref:`is_empty <class_NodePath_method_is_empty>` **(** **)**"
+msgstr ":ref:`is_empty <class_NodePath_method_is_empty>` **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:62
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_nodepath.rst:66
+msgid ""
+":ref:`NodePath <class_NodePath>` **NodePath** **(** :ref:`String "
+"<class_String>` from **)**"
+msgstr ""
+":ref:`NodePath <class_NodePath>` **NodePath** **(** :ref:`String "
+"<class_String>` from **)**"
+
+#: ../../docs/classes/class_nodepath.rst:68
+msgid ""
+"Creates a NodePath from a string, e.g. "
+"``\"Path2D/PathFollow2D/Sprite:texture:size\"``. A path is absolute if it"
+" starts with a slash. Absolute paths are only valid in the global scene "
+"tree, not within individual scenes. In a relative path, ``\".\"`` and "
+"``\"..\"`` indicate the current node and its parent."
+msgstr ""
+"从一个字符串，例如 ``\"Path2D/PathFollow2D/Sprite:texture:size\"``，创建一个 "
+"``NodePath``。如果路径以斜杠开头，则它是绝对的。绝对路径仅在全局场景树中有效，而在单个场景中无效。在相对路径中，``\".\"`` 和"
+" ``\"..\"`` 表示当前节点及其父节点。"
+
+#: ../../docs/classes/class_nodepath.rst:70
+msgid ""
+"The \"subnames\" optionally included after the path to the target node "
+"can point to resources or properties, and can also be nested."
+msgstr "到目标节点的路径之后，包括的可选 ``子名称``，可以指向资源或属性，也可以嵌套。"
+
+#: ../../docs/classes/class_nodepath.rst:72
+msgid ""
+"Examples of valid NodePaths (assuming that those nodes exist and have the"
+" referenced resources or properties):"
+msgstr "有效 ``NodePath`` 的示例（假设这些节点存在，并且具有引用的资源或属性）："
+
+#: ../../docs/classes/class_nodepath.rst:93
+msgid ":ref:`NodePath <class_NodePath>` **get_as_property_path** **(** **)**"
+msgstr ":ref:`NodePath <class_NodePath>` **get_as_property_path** **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:95
+msgid ""
+"Returns a node path with a colon character (``:``) prepended, "
+"transforming it to a pure property path with no node name (defaults to "
+"resolving from the current node)."
+msgstr "返回带有冒号（``:``）的节点路径，将其转换为没有节点名称的纯属性路径（默认为从当前节点解析）。"
+
+#: ../../docs/classes/class_nodepath.rst:109
+msgid ":ref:`String <class_String>` **get_concatenated_subnames** **(** **)**"
+msgstr ":ref:`String <class_String>` **get_concatenated_subnames** **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:111
+msgid ""
+"Returns all subnames concatenated with a colon character (``:``) as "
+"separator, i.e. the right side of the first colon in a node path."
+msgstr "返回所有用冒号（``:``）分隔的子名称，即节点路径中第一个冒号的右侧部分。"
+
+#: ../../docs/classes/class_nodepath.rst:122
+msgid ""
+":ref:`String <class_String>` **get_name** **(** :ref:`int <class_int>` "
+"idx **)**"
+msgstr ""
+":ref:`String <class_String>` **get_name** **(** :ref:`int <class_int>` "
+"idx **)**"
+
+#: ../../docs/classes/class_nodepath.rst:124
+msgid ""
+"Gets the node name indicated by ``idx`` (0 to :ref:`get_name_count "
+"<class_NodePath_method_get_name_count>`)."
+msgstr ""
+"获取由 ``idx`` （0到 :ref:`get_name_count "
+"<class_NodePath_method_get_name_count>`）指示的节点名称。"
+
+#: ../../docs/classes/class_nodepath.rst:137
+msgid ":ref:`int <class_int>` **get_name_count** **(** **)**"
+msgstr ":ref:`int <class_int>` **get_name_count** **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:139
+msgid ""
+"Gets the number of node names which make up the path. Subnames (see "
+":ref:`get_subname_count <class_NodePath_method_get_subname_count>`) are "
+"not included."
+msgstr ""
+"获取组成路径的节点名称的数量。不包含子名称（请参阅 :ref:`get_subname_count "
+"<class_NodePath_method_get_subname_count>`）。"
+
+#: ../../docs/classes/class_nodepath.rst:141
+msgid "For example, ``\"Path2D/PathFollow2D/Sprite\"`` has 3 names."
+msgstr "例如，``\"Path2D/PathFollow2D/Sprite\"`` 具有3个名称。"
+
+#: ../../docs/classes/class_nodepath.rst:147
+msgid ""
+":ref:`String <class_String>` **get_subname** **(** :ref:`int <class_int>`"
+" idx **)**"
+msgstr ""
+":ref:`String <class_String>` **get_subname** **(** :ref:`int <class_int>`"
+" idx **)**"
+
+#: ../../docs/classes/class_nodepath.rst:149
+msgid ""
+"Gets the resource or property name indicated by ``idx`` (0 to "
+":ref:`get_subname_count <class_NodePath_method_get_subname_count>`)."
+msgstr ""
+"获取由 ``idx`` （0到 :ref:`get_subname_count "
+"<class_NodePath_method_get_subname_count>`）指示的资源或属性名称。"
+
+#: ../../docs/classes/class_nodepath.rst:161
+msgid ":ref:`int <class_int>` **get_subname_count** **(** **)**"
+msgstr ":ref:`int <class_int>` **get_subname_count** **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:163
+msgid ""
+"Gets the number of resource or property names (\"subnames\") in the path."
+" Each subname is listed after a colon character (``:``) in the node path."
+msgstr "获取路径中资源或属性名称（``子名称``）的数量。每个子名称在节点路径中的冒号（``:``）之后列出。"
+
+#: ../../docs/classes/class_nodepath.rst:165
+msgid ""
+"For example, ``\"Path2D/PathFollow2D/Sprite:texture:load_path\"`` has 2 "
+"subnames."
+msgstr "例如，``\"Path2D/PathFollow2D/Sprite:texture:load_path\"`` 具有2个子名称。"
+
+#: ../../docs/classes/class_nodepath.rst:171
+msgid ":ref:`bool <class_bool>` **is_absolute** **(** **)**"
+msgstr ":ref:`bool <class_bool>` **is_absolute** **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:173
+msgid ""
+"Returns ``true`` if the node path is absolute (as opposed to relative), "
+"which means that it starts with a slash character (``/``). Absolute node "
+"paths can be used to access the root node (``\"/root\"``) or autoloads "
+"(e.g. ``\"/global\"`` if a \"global\" autoload was registered)."
+msgstr ""
+"如果节点路径是绝对路径，则返回 ``true`` "
+"（相对路径则相反），这意味着它以斜杠字符（``/``）开头。绝对节点路径可用于访问根节点（``\"/root\"``）或自动加载（例如，如果已注册一个"
+" ``global`` 自动加载，则为 ``\"/global\"``）。"
+
+#: ../../docs/classes/class_nodepath.rst:179
+msgid ":ref:`bool <class_bool>` **is_empty** **(** **)**"
+msgstr ":ref:`bool <class_bool>` **is_empty** **(** **)**"
+
+#: ../../docs/classes/class_nodepath.rst:181
+msgid "Returns ``true`` if the node path is empty."
+msgstr "如果节点路径为空，则返回 ``true``。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

@@ -1,0 +1,1597 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:10
+msgid "ItemList"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:14
+msgid ""
+"Control that provides a list of selectable items (and/or icons) in a "
+"single column, or optionally in multiple columns."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:19
+msgid ""
+"This control provides a selectable list of items that may be in a single "
+"(or multiple columns) with option of text, icons, or both text and icon. "
+"Tooltips are supported and may be different for every item in the list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:21
+msgid ""
+"Selectable items in the list may be selected or deselected and multiple "
+"selection may be enabled. Selection with right mouse button may also be "
+"enabled to allow use of popup context menus. Items may also be "
+"\"activated\" by double-clicking them or by pressing Enter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:23
+msgid ""
+"Item text only supports single-line strings, newline characters (e.g. "
+"``\\n``) in the string won't produce a newline. Text wrapping is enabled "
+"in :ref:`ICON_MODE_TOP <class_ItemList_constant_ICON_MODE_TOP>` mode, but"
+" column's width is adjusted to fully fit its content by default. You need"
+" to set :ref:`fixed_column_width "
+"<class_ItemList_property_fixed_column_width>` greater than zero to wrap "
+"the text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:26
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:102
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:29
+msgid ":ref:`allow_reselect <class_ItemList_property_allow_reselect>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:268
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:284
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:300
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:422
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:31
+msgid ":ref:`allow_rmb_select <class_ItemList_property_allow_rmb_select>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:33
+msgid ":ref:`auto_height <class_ItemList_property_auto_height>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:163
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:171
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:35
+msgid ":ref:`fixed_column_width <class_ItemList_property_fixed_column_width>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:316
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:440
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:37
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:37
+msgid ":ref:`fixed_icon_size <class_ItemList_property_fixed_icon_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:334
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:39
+msgid ":ref:`FocusMode <enum_Control_FocusMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:39
+msgid "focus_mode"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:39
+msgid "**O:** ``2``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:41
+msgid ":ref:`IconMode <enum_ItemList_IconMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:41
+msgid ":ref:`icon_mode <class_ItemList_property_icon_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:352
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:384
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:404
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:43
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:43
+msgid ":ref:`icon_scale <class_ItemList_property_icon_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:368
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:45
+msgid ":ref:`max_columns <class_ItemList_property_max_columns>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:47
+msgid ":ref:`max_text_lines <class_ItemList_property_max_text_lines>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:49
+msgid "rect_clip_content"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:49
+msgid "**O:** ``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:51
+msgid ":ref:`same_column_width <class_ItemList_property_same_column_width>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:53
+msgid ":ref:`SelectMode <enum_ItemList_SelectMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:53
+msgid ":ref:`select_mode <class_ItemList_property_select_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:57
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:138
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:60
+msgid ""
+":ref:`add_icon_item <class_ItemList_method_add_icon_item>` **(** "
+":ref:`Texture2D <class_Texture2D>` icon, :ref:`bool <class_bool>` "
+"selectable=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:62
+msgid ""
+":ref:`add_item <class_ItemList_method_add_item>` **(** :ref:`String "
+"<class_String>` text, :ref:`Texture2D <class_Texture2D>` icon=null, "
+":ref:`bool <class_bool>` selectable=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:64
+msgid ":ref:`clear <class_ItemList_method_clear>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:66
+msgid ""
+":ref:`ensure_current_is_visible "
+"<class_ItemList_method_ensure_current_is_visible>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:68
+msgid ""
+":ref:`get_item_at_position <class_ItemList_method_get_item_at_position>` "
+"**(** :ref:`Vector2 <class_Vector2>` position, :ref:`bool <class_bool>` "
+"exact=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:70
+msgid ""
+":ref:`get_item_count <class_ItemList_method_get_item_count>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:159
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:72
+msgid ""
+":ref:`get_item_custom_bg_color "
+"<class_ItemList_method_get_item_custom_bg_color>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:74
+msgid ""
+":ref:`get_item_custom_fg_color "
+"<class_ItemList_method_get_item_custom_fg_color>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:76
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:76
+msgid ""
+":ref:`get_item_icon <class_ItemList_method_get_item_icon>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:78
+msgid ""
+":ref:`get_item_icon_modulate "
+"<class_ItemList_method_get_item_icon_modulate>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:80
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:80
+msgid ""
+":ref:`get_item_icon_region <class_ItemList_method_get_item_icon_region>` "
+"**(** :ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:82
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:82
+msgid ""
+":ref:`get_item_metadata <class_ItemList_method_get_item_metadata>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:86
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:84
+msgid ""
+":ref:`get_item_text <class_ItemList_method_get_item_text>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:86
+msgid ""
+":ref:`get_item_tooltip <class_ItemList_method_get_item_tooltip>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:88
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:88
+msgid ""
+":ref:`get_selected_items <class_ItemList_method_get_selected_items>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:90
+msgid ":ref:`VScrollBar <class_VScrollBar>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:90
+msgid ":ref:`get_v_scroll <class_ItemList_method_get_v_scroll>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:92
+msgid ""
+":ref:`is_anything_selected <class_ItemList_method_is_anything_selected>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:94
+msgid ""
+":ref:`is_item_disabled <class_ItemList_method_is_item_disabled>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:96
+msgid ""
+":ref:`is_item_icon_transposed "
+"<class_ItemList_method_is_item_icon_transposed>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:98
+msgid ""
+":ref:`is_item_selectable <class_ItemList_method_is_item_selectable>` "
+"**(** :ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:100
+msgid ""
+":ref:`is_item_tooltip_enabled "
+"<class_ItemList_method_is_item_tooltip_enabled>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:102
+msgid ""
+":ref:`is_selected <class_ItemList_method_is_selected>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:104
+msgid ""
+":ref:`move_item <class_ItemList_method_move_item>` **(** :ref:`int "
+"<class_int>` from_idx, :ref:`int <class_int>` to_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:106
+msgid ""
+":ref:`remove_item <class_ItemList_method_remove_item>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:108
+msgid ""
+":ref:`select <class_ItemList_method_select>` **(** :ref:`int <class_int>`"
+" idx, :ref:`bool <class_bool>` single=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:110
+msgid ""
+":ref:`set_item_custom_bg_color "
+"<class_ItemList_method_set_item_custom_bg_color>` **(** :ref:`int "
+"<class_int>` idx, :ref:`Color <class_Color>` custom_bg_color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:112
+msgid ""
+":ref:`set_item_custom_fg_color "
+"<class_ItemList_method_set_item_custom_fg_color>` **(** :ref:`int "
+"<class_int>` idx, :ref:`Color <class_Color>` custom_fg_color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:114
+msgid ""
+":ref:`set_item_disabled <class_ItemList_method_set_item_disabled>` **(** "
+":ref:`int <class_int>` idx, :ref:`bool <class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:116
+msgid ""
+":ref:`set_item_icon <class_ItemList_method_set_item_icon>` **(** "
+":ref:`int <class_int>` idx, :ref:`Texture2D <class_Texture2D>` icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:118
+msgid ""
+":ref:`set_item_icon_modulate "
+"<class_ItemList_method_set_item_icon_modulate>` **(** :ref:`int "
+"<class_int>` idx, :ref:`Color <class_Color>` modulate **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:120
+msgid ""
+":ref:`set_item_icon_region <class_ItemList_method_set_item_icon_region>` "
+"**(** :ref:`int <class_int>` idx, :ref:`Rect2 <class_Rect2>` rect **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:122
+msgid ""
+":ref:`set_item_icon_transposed "
+"<class_ItemList_method_set_item_icon_transposed>` **(** :ref:`int "
+"<class_int>` idx, :ref:`bool <class_bool>` transposed **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:124
+msgid ""
+":ref:`set_item_metadata <class_ItemList_method_set_item_metadata>` **(** "
+":ref:`int <class_int>` idx, :ref:`Variant <class_Variant>` metadata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:126
+msgid ""
+":ref:`set_item_selectable <class_ItemList_method_set_item_selectable>` "
+"**(** :ref:`int <class_int>` idx, :ref:`bool <class_bool>` selectable "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:128
+msgid ""
+":ref:`set_item_text <class_ItemList_method_set_item_text>` **(** "
+":ref:`int <class_int>` idx, :ref:`String <class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:130
+msgid ""
+":ref:`set_item_tooltip <class_ItemList_method_set_item_tooltip>` **(** "
+":ref:`int <class_int>` idx, :ref:`String <class_String>` tooltip **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:132
+msgid ""
+":ref:`set_item_tooltip_enabled "
+"<class_ItemList_method_set_item_tooltip_enabled>` **(** :ref:`int "
+"<class_int>` idx, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:134
+msgid ""
+":ref:`sort_items_by_text <class_ItemList_method_sort_items_by_text>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:136
+msgid ""
+":ref:`unselect <class_ItemList_method_unselect>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:138
+msgid ":ref:`unselect_all <class_ItemList_method_unselect_all>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:142
+msgid "Theme Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:147
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:167
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:169
+msgid ":ref:`StyleBox <class_StyleBox>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:145
+msgid "bg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:147
+msgid "bg_focus"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:149
+msgid "cursor"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:151
+msgid "cursor_unfocused"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:153
+msgid ":ref:`Font <class_Font>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:153
+msgid "font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:155
+msgid "font_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:155
+msgid "Color( 0.63, 0.63, 0.63, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:157
+msgid "font_color_selected"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:157
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:159
+msgid "guide_color"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:159
+msgid "Color( 0, 0, 0, 0.1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:161
+msgid "hseparation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:163
+msgid "4"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:163
+msgid "icon_margin"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:165
+msgid "line_separation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:171
+msgid "2"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:167
+msgid "selected"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:169
+msgid "selected_focus"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:171
+msgid "vseparation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:175
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:179
+msgid "**item_activated** **(** :ref:`int <class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:181
+msgid ""
+"Triggered when specified list item is activated via double-clicking or by"
+" pressing Enter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:187
+msgid ""
+"**item_rmb_selected** **(** :ref:`int <class_int>` index, :ref:`Vector2 "
+"<class_Vector2>` at_position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:189
+msgid ""
+"Triggered when specified list item has been selected via right mouse "
+"clicking."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:191
+msgid ""
+"The click position is also provided to allow appropriate popup of context"
+" menus at the correct location."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:229
+msgid ""
+":ref:`allow_rmb_select <class_ItemList_property_allow_rmb_select>` must "
+"be enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:199
+msgid "**item_selected** **(** :ref:`int <class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:201
+msgid "Triggered when specified item has been selected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:203
+msgid ""
+":ref:`allow_reselect <class_ItemList_property_allow_reselect>` must be "
+"enabled to reselect an item."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:209
+msgid ""
+"**multi_selected** **(** :ref:`int <class_int>` index, :ref:`bool "
+"<class_bool>` selected **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:211
+msgid ""
+"Triggered when a multiple selection is altered on a list allowing "
+"multiple selection."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:217
+msgid "**nothing_selected** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:219
+msgid ""
+"Triggered when a left mouse click is issued within the rect of the list "
+"but on empty space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:225
+msgid "**rmb_clicked** **(** :ref:`Vector2 <class_Vector2>` at_position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:227
+msgid ""
+"Triggered when a right mouse click is issued within the rect of the list "
+"but on empty space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:232
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:240
+msgid "enum **IconMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:242
+msgid "**ICON_MODE_TOP** = **0** --- Icon is drawn above the text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:244
+msgid "**ICON_MODE_LEFT** = **1** --- Icon is drawn to the left of the text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:254
+msgid "enum **SelectMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:256
+msgid "**SELECT_SINGLE** = **0** --- Only allow selecting a single item."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:258
+msgid ""
+"**SELECT_MULTI** = **1** --- Allows selecting multiple items by holding "
+"Ctrl or Shift."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:261
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:265
+msgid ":ref:`bool <class_bool>` **allow_reselect**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:268
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:284
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:300
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:316
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:334
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:352
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:368
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:384
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:404
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:422
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:440
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:270
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:286
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:302
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:318
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:336
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:354
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:370
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:386
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:406
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:424
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:442
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:270
+msgid "set_allow_reselect(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:272
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:288
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:304
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:320
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:338
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:356
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:372
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:388
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:408
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:426
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:444
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:272
+msgid "get_allow_reselect()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:275
+msgid "If ``true``, the currently selected item can be selected again."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:281
+msgid ":ref:`bool <class_bool>` **allow_rmb_select**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:286
+msgid "set_allow_rmb_select(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:288
+msgid "get_allow_rmb_select()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:291
+msgid "If ``true``, right mouse button click can select items."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:297
+msgid ":ref:`bool <class_bool>` **auto_height**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:302
+msgid "set_auto_height(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:304
+msgid "has_auto_height()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:307
+msgid ""
+"If ``true``, the control will automatically resize the height to fit its "
+"content."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:313
+msgid ":ref:`int <class_int>` **fixed_column_width**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:318
+msgid "set_fixed_column_width(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:320
+msgid "get_fixed_column_width()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:323
+msgid "The width all columns will be adjusted to."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:325
+msgid ""
+"A value of zero disables the adjustment, each item will have a width "
+"equal to the width of its content and the columns will have an uneven "
+"width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:331
+msgid ":ref:`Vector2 <class_Vector2>` **fixed_icon_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:336
+msgid "set_fixed_icon_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:338
+msgid "get_fixed_icon_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:341
+msgid "The size all icons will be adjusted to."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:343
+msgid ""
+"If either X or Y component is not greater than zero, icon size won't be "
+"affected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:349
+msgid ":ref:`IconMode <enum_ItemList_IconMode>` **icon_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:354
+msgid "set_icon_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:356
+msgid "get_icon_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:359
+msgid ""
+"The icon position, whether above or to the left of the text. See the "
+":ref:`IconMode <enum_ItemList_IconMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:365
+msgid ":ref:`float <class_float>` **icon_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:370
+msgid "set_icon_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:372
+msgid "get_icon_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:375
+msgid ""
+"The scale of icon applied after :ref:`fixed_icon_size "
+"<class_ItemList_property_fixed_icon_size>` and transposing takes effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:381
+msgid ":ref:`int <class_int>` **max_columns**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:386
+msgid "set_max_columns(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:388
+msgid "get_max_columns()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:391
+msgid "Maximum columns the list will have."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:393
+msgid ""
+"If greater than zero, the content will be split among the specified "
+"columns."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:395
+msgid ""
+"A value of zero means unlimited columns, i.e. all items will be put in "
+"the same row."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:401
+msgid ":ref:`int <class_int>` **max_text_lines**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:406
+msgid "set_max_text_lines(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:408
+msgid "get_max_text_lines()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:411
+msgid ""
+"Maximum lines of text allowed in each item. Space will be reserved even "
+"when there is not enough lines of text to display."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:413
+msgid ""
+"**Note:** This property takes effect only when :ref:`icon_mode "
+"<class_ItemList_property_icon_mode>` is :ref:`ICON_MODE_TOP "
+"<class_ItemList_constant_ICON_MODE_TOP>`. To make the text wrap, "
+":ref:`fixed_column_width <class_ItemList_property_fixed_column_width>` "
+"should be greater than zero."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:419
+msgid ":ref:`bool <class_bool>` **same_column_width**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:424
+msgid "set_same_column_width(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:426
+msgid "is_same_column_width()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:429
+msgid "Whether all columns will have the same width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:431
+msgid ""
+"If ``true``, the width is equal to the largest column width of all "
+"columns."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:437
+msgid ":ref:`SelectMode <enum_ItemList_SelectMode>` **select_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:442
+msgid "set_select_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:444
+msgid "get_select_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:447
+msgid ""
+"Allows single or multiple item selection. See the :ref:`SelectMode "
+"<enum_ItemList_SelectMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:450
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:454
+msgid ""
+"void **add_icon_item** **(** :ref:`Texture2D <class_Texture2D>` icon, "
+":ref:`bool <class_bool>` selectable=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:456
+msgid "Adds an item to the item list with no text, only an icon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:462
+msgid ""
+"void **add_item** **(** :ref:`String <class_String>` text, "
+":ref:`Texture2D <class_Texture2D>` icon=null, :ref:`bool <class_bool>` "
+"selectable=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:464
+msgid ""
+"Adds an item to the item list with specified text. Specify an ``icon``, "
+"or use ``null`` as the ``icon`` for a list item with no icon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:466
+msgid "If selectable is ``true``, the list item will be selectable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:472
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:474
+msgid "Removes all items from the list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:480
+msgid "void **ensure_current_is_visible** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:482
+msgid ""
+"Ensure current selection is visible, adjusting the scroll position as "
+"necessary."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:488
+msgid ""
+":ref:`int <class_int>` **get_item_at_position** **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`bool <class_bool>` exact=false **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:490
+msgid "Returns the item index at the given ``position``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:492
+msgid ""
+"When there is no item at that point, -1 will be returned if ``exact`` is "
+"``true``, and the closest item index will be returned otherwise."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:498
+msgid ":ref:`int <class_int>` **get_item_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:500
+msgid "Returns the number of items currently in the list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:506
+msgid ""
+":ref:`Color <class_Color>` **get_item_custom_bg_color** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:508
+msgid ""
+"Returns the custom background color of the item specified by ``idx`` "
+"index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:514
+msgid ""
+":ref:`Color <class_Color>` **get_item_custom_fg_color** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:516
+msgid ""
+"Returns the custom foreground color of the item specified by ``idx`` "
+"index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:522
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_item_icon** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:524
+msgid "Returns the icon associated with the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:530
+msgid ""
+":ref:`Color <class_Color>` **get_item_icon_modulate** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:532
+msgid ""
+"Returns a :ref:`Color <class_Color>` modulating item's icon at the "
+"specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:538
+msgid ""
+":ref:`Rect2 <class_Rect2>` **get_item_icon_region** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:540
+msgid ""
+"Returns the region of item's icon used. The whole icon will be used if "
+"the region has no area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:546
+msgid ""
+":ref:`Variant <class_Variant>` **get_item_metadata** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:548
+msgid "Returns the metadata value of the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:554
+msgid ""
+":ref:`String <class_String>` **get_item_text** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:556
+msgid "Returns the text associated with the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:562
+msgid ""
+":ref:`String <class_String>` **get_item_tooltip** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:564
+msgid "Returns the tooltip hint associated with the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:570
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **get_selected_items** "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:572
+msgid "Returns an array with the indexes of the selected items."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:578
+msgid ":ref:`VScrollBar <class_VScrollBar>` **get_v_scroll** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:580
+msgid "Returns the :ref:`Object <class_Object>` ID associated with the list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:586
+msgid ":ref:`bool <class_bool>` **is_anything_selected** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:588
+msgid "Returns ``true`` if one or more items are selected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:594
+msgid ""
+":ref:`bool <class_bool>` **is_item_disabled** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:596
+msgid "Returns ``true`` if the item at the specified index is disabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:602
+msgid ""
+":ref:`bool <class_bool>` **is_item_icon_transposed** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:604
+msgid ""
+"Returns ``true`` if the item icon will be drawn transposed, i.e. the X "
+"and Y axes are swapped."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:610
+msgid ""
+":ref:`bool <class_bool>` **is_item_selectable** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:612
+msgid "Returns ``true`` if the item at the specified index is selectable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:618
+msgid ""
+":ref:`bool <class_bool>` **is_item_tooltip_enabled** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:620
+msgid "Returns ``true`` if the tooltip is enabled for specified item index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:626
+msgid ""
+":ref:`bool <class_bool>` **is_selected** **(** :ref:`int <class_int>` idx"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:628
+msgid "Returns ``true`` if the item at the specified index is currently selected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:634
+msgid ""
+"void **move_item** **(** :ref:`int <class_int>` from_idx, :ref:`int "
+"<class_int>` to_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:636
+msgid "Moves item from index ``from_idx`` to ``to_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:642
+msgid "void **remove_item** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:644
+msgid "Removes the item specified by ``idx`` index from the list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:650
+msgid ""
+"void **select** **(** :ref:`int <class_int>` idx, :ref:`bool "
+"<class_bool>` single=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:652
+msgid "Select the item at the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:654
+msgid "**Note:** This method does not trigger the item selection signal."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:660
+msgid ""
+"void **set_item_custom_bg_color** **(** :ref:`int <class_int>` idx, "
+":ref:`Color <class_Color>` custom_bg_color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:662
+msgid ""
+"Sets the background color of the item specified by ``idx`` index to the "
+"specified :ref:`Color <class_Color>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:673
+msgid ""
+"void **set_item_custom_fg_color** **(** :ref:`int <class_int>` idx, "
+":ref:`Color <class_Color>` custom_fg_color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:675
+msgid ""
+"Sets the foreground color of the item specified by ``idx`` index to the "
+"specified :ref:`Color <class_Color>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:686
+msgid ""
+"void **set_item_disabled** **(** :ref:`int <class_int>` idx, :ref:`bool "
+"<class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:688
+msgid "Disables (or enables) the item at the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:690
+msgid ""
+"Disabled items cannot be selected and do not trigger activation signals "
+"(when double-clicking or pressing Enter)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:696
+msgid ""
+"void **set_item_icon** **(** :ref:`int <class_int>` idx, :ref:`Texture2D "
+"<class_Texture2D>` icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:698
+msgid ""
+"Sets (or replaces) the icon's :ref:`Texture2D <class_Texture2D>` "
+"associated with the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:704
+msgid ""
+"void **set_item_icon_modulate** **(** :ref:`int <class_int>` idx, "
+":ref:`Color <class_Color>` modulate **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:706
+msgid ""
+"Sets a modulating :ref:`Color <class_Color>` of the item associated with "
+"the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:712
+msgid ""
+"void **set_item_icon_region** **(** :ref:`int <class_int>` idx, "
+":ref:`Rect2 <class_Rect2>` rect **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:714
+msgid ""
+"Sets the region of item's icon used. The whole icon will be used if the "
+"region has no area."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:720
+msgid ""
+"void **set_item_icon_transposed** **(** :ref:`int <class_int>` idx, "
+":ref:`bool <class_bool>` transposed **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:722
+msgid "Sets whether the item icon will be drawn transposed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:728
+msgid ""
+"void **set_item_metadata** **(** :ref:`int <class_int>` idx, "
+":ref:`Variant <class_Variant>` metadata **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:730
+msgid ""
+"Sets a value (of any type) to be stored with the item associated with the"
+" specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:736
+msgid ""
+"void **set_item_selectable** **(** :ref:`int <class_int>` idx, :ref:`bool"
+" <class_bool>` selectable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:738
+msgid ""
+"Allows or disallows selection of the item associated with the specified "
+"index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:744
+msgid ""
+"void **set_item_text** **(** :ref:`int <class_int>` idx, :ref:`String "
+"<class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:746
+msgid "Sets text of the item associated with the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:752
+msgid ""
+"void **set_item_tooltip** **(** :ref:`int <class_int>` idx, :ref:`String "
+"<class_String>` tooltip **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:754
+msgid "Sets the tooltip hint for the item associated with the specified index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:760
+msgid ""
+"void **set_item_tooltip_enabled** **(** :ref:`int <class_int>` idx, "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:762
+msgid "Sets whether the tooltip hint is enabled for specified item index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:768
+msgid "void **sort_items_by_text** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:770
+msgid "Sorts items in the list by their text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:776
+msgid "void **unselect** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:778
+msgid "Ensures the item associated with the specified index is not selected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:784
+msgid "void **unselect_all** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_itemlist.rst:786
+msgid "Ensures there are no items selected."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "**O:** 2"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "**O:** true"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_item_icon_transposed "
+#~ "<class_ItemList_method_set_item_icon_transposed>` **(** "
+#~ ":ref:`int <class_int>` idx, :ref:`bool "
+#~ "<class_bool>` rect **)**"
+#~ msgstr ""
+
+#~ msgid "**ICON_MODE_TOP** = **0**"
+#~ msgstr ""
+
+#~ msgid "**ICON_MODE_LEFT** = **1**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the default column width in "
+#~ "pixels. If left to default value, "
+#~ "each item will have a width equal"
+#~ " to the width of its content "
+#~ "and the columns will have an "
+#~ "uneven width."
+#~ msgstr ""
+
+#~ msgid "Sets the default icon size in pixels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the default position of the "
+#~ "icon to either :ref:`ICON_MODE_LEFT "
+#~ "<class_ItemList_constant_ICON_MODE_LEFT>` or "
+#~ ":ref:`ICON_MODE_TOP <class_ItemList_constant_ICON_MODE_TOP>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the icon size to its initial"
+#~ " size multiplied by the specified "
+#~ "scale."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the maximum columns the list "
+#~ "will have. If set to anything "
+#~ "other than the default, the content "
+#~ "will be split among the specified "
+#~ "columns."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If set to ``true``, all columns "
+#~ "will have the same width specified "
+#~ "by :ref:`fixed_column_width "
+#~ "<class_ItemList_property_fixed_column_width>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Given a position within the control "
+#~ "return the item (if any) at that"
+#~ " point."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_item_icon_transposed** **(** :ref:`int"
+#~ " <class_int>` idx, :ref:`bool <class_bool>` "
+#~ "rect **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_icon_item <class_ItemList_method_add_icon_item>` "
+#~ "**(** :ref:`Texture <class_Texture>` icon, "
+#~ ":ref:`bool <class_bool>` selectable=true **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_item <class_ItemList_method_add_item>` **(** "
+#~ ":ref:`String <class_String>` text, :ref:`Texture "
+#~ "<class_Texture>` icon=null, :ref:`bool <class_bool>`"
+#~ " selectable=true **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_item_icon <class_ItemList_method_set_item_icon>` "
+#~ "**(** :ref:`int <class_int>` idx, "
+#~ ":ref:`Texture <class_Texture>` icon **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_icon_item** **(** :ref:`Texture "
+#~ "<class_Texture>` icon, :ref:`bool <class_bool>` "
+#~ "selectable=true **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_item** **(** :ref:`String "
+#~ "<class_String>` text, :ref:`Texture <class_Texture>`"
+#~ " icon=null, :ref:`bool <class_bool>` "
+#~ "selectable=true **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture <class_Texture>` **get_item_icon** "
+#~ "**(** :ref:`int <class_int>` idx **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_item_icon** **(** :ref:`int "
+#~ "<class_int>` idx, :ref:`Texture <class_Texture>` "
+#~ "icon **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets (or replaces) the icon's "
+#~ ":ref:`Texture <class_Texture>` associated with "
+#~ "the specified index."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` "
+#~ "**get_selected_items** **(** **)**"
+#~ msgstr ""
+

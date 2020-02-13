@@ -1,0 +1,615 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-26 18:01+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_basebutton.rst:10
+msgid "BaseButton"
+msgstr "BaseButton"
+
+#: ../../docs/classes/class_basebutton.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_basebutton.rst:14
+msgid ""
+"**Inherited By:** :ref:`Button <class_Button>`, :ref:`LinkButton "
+"<class_LinkButton>`, :ref:`TextureButton <class_TextureButton>`"
+msgstr ""
+"**子类**：:ref:`Button <class_Button>`, :ref:`LinkButton "
+"<class_LinkButton>`, :ref:`TextureButton <class_TextureButton>`"
+
+#: ../../docs/classes/class_basebutton.rst:16
+msgid "Base class for different kinds of buttons."
+msgstr "不同种类的按钮的基类。"
+
+#: ../../docs/classes/class_basebutton.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_basebutton.rst:21
+msgid ""
+"BaseButton is the abstract base class for buttons, so it shouldn't be "
+"used directly (it doesn't display anything). Other types of buttons "
+"inherit from it."
+msgstr "``BaseButton`` 是按钮的抽象基类，因此不应直接使用它（不显示任何内容）。其他类型的按钮继承自它。"
+
+#: ../../docs/classes/class_basebutton.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_basebutton.rst:27
+msgid ":ref:`ActionMode <enum_BaseButton_ActionMode>`"
+msgstr ":ref:`ActionMode <enum_BaseButton_ActionMode>`"
+
+#: ../../docs/classes/class_basebutton.rst:27
+msgid ":ref:`action_mode <class_BaseButton_property_action_mode>`"
+msgstr ":ref:`action_mode <class_BaseButton_property_action_mode>`"
+
+#: ../../docs/classes/class_basebutton.rst:27
+#: ../../docs/classes/class_basebutton.rst:29
+#: ../../docs/classes/class_basebutton.rst:145
+#: ../../docs/classes/class_basebutton.rst:161
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_basebutton.rst:29
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_basebutton.rst:29
+msgid ":ref:`button_mask <class_BaseButton_property_button_mask>`"
+msgstr ":ref:`button_mask <class_BaseButton_property_button_mask>`"
+
+#: ../../docs/classes/class_basebutton.rst:31
+#: ../../docs/classes/class_basebutton.rst:39
+#: ../../docs/classes/class_basebutton.rst:41
+#: ../../docs/classes/class_basebutton.rst:45
+#: ../../docs/classes/class_basebutton.rst:47
+#: ../../docs/classes/class_basebutton.rst:60
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_basebutton.rst:31
+msgid ":ref:`disabled <class_BaseButton_property_disabled>`"
+msgstr ":ref:`disabled <class_BaseButton_property_disabled>`"
+
+#: ../../docs/classes/class_basebutton.rst:31
+#: ../../docs/classes/class_basebutton.rst:39
+#: ../../docs/classes/class_basebutton.rst:41
+#: ../../docs/classes/class_basebutton.rst:47
+#: ../../docs/classes/class_basebutton.rst:179
+#: ../../docs/classes/class_basebutton.rst:225
+#: ../../docs/classes/class_basebutton.rst:241
+#: ../../docs/classes/class_basebutton.rst:287
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_basebutton.rst:33
+#: ../../docs/classes/class_basebutton.rst:35
+msgid ":ref:`FocusMode <enum_Control_FocusMode>`"
+msgstr ":ref:`FocusMode <enum_Control_FocusMode>`"
+
+#: ../../docs/classes/class_basebutton.rst:33
+msgid ":ref:`enabled_focus_mode <class_BaseButton_property_enabled_focus_mode>`"
+msgstr ":ref:`enabled_focus_mode <class_BaseButton_property_enabled_focus_mode>`"
+
+#: ../../docs/classes/class_basebutton.rst:33
+#: ../../docs/classes/class_basebutton.rst:195
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_basebutton.rst:35
+msgid "focus_mode"
+msgstr "focus_mode"
+
+#: ../../docs/classes/class_basebutton.rst:35
+#, fuzzy
+msgid "**O:** ``2``"
+msgstr "**O:** 2"
+
+#: ../../docs/classes/class_basebutton.rst:37
+msgid ":ref:`ButtonGroup <class_ButtonGroup>`"
+msgstr ":ref:`ButtonGroup <class_ButtonGroup>`"
+
+#: ../../docs/classes/class_basebutton.rst:37
+msgid ":ref:`group <class_BaseButton_property_group>`"
+msgstr ":ref:`group <class_BaseButton_property_group>`"
+
+#: ../../docs/classes/class_basebutton.rst:39
+msgid ""
+":ref:`keep_pressed_outside "
+"<class_BaseButton_property_keep_pressed_outside>`"
+msgstr ""
+":ref:`keep_pressed_outside "
+"<class_BaseButton_property_keep_pressed_outside>`"
+
+#: ../../docs/classes/class_basebutton.rst:41
+msgid ":ref:`pressed <class_BaseButton_property_pressed>`"
+msgstr ":ref:`pressed <class_BaseButton_property_pressed>`"
+
+#: ../../docs/classes/class_basebutton.rst:43
+msgid ":ref:`ShortCut <class_ShortCut>`"
+msgstr ":ref:`ShortCut <class_ShortCut>`"
+
+#: ../../docs/classes/class_basebutton.rst:43
+msgid ":ref:`shortcut <class_BaseButton_property_shortcut>`"
+msgstr ":ref:`shortcut <class_BaseButton_property_shortcut>`"
+
+#: ../../docs/classes/class_basebutton.rst:45
+msgid ":ref:`shortcut_in_tooltip <class_BaseButton_property_shortcut_in_tooltip>`"
+msgstr ":ref:`shortcut_in_tooltip <class_BaseButton_property_shortcut_in_tooltip>`"
+
+#: ../../docs/classes/class_basebutton.rst:45
+#: ../../docs/classes/class_basebutton.rst:271
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: ../../docs/classes/class_basebutton.rst:47
+msgid ":ref:`toggle_mode <class_BaseButton_property_toggle_mode>`"
+msgstr ":ref:`toggle_mode <class_BaseButton_property_toggle_mode>`"
+
+#: ../../docs/classes/class_basebutton.rst:51
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_basebutton.rst:54
+#: ../../docs/classes/class_basebutton.rst:56
+msgid "void"
+msgstr "void"
+
+#: ../../docs/classes/class_basebutton.rst:54
+msgid ":ref:`_pressed <class_BaseButton_method__pressed>` **(** **)** virtual"
+msgstr ":ref:`_pressed <class_BaseButton_method__pressed>` **(** **)** virtual"
+
+#: ../../docs/classes/class_basebutton.rst:56
+msgid ""
+":ref:`_toggled <class_BaseButton_method__toggled>` **(** :ref:`bool "
+"<class_bool>` button_pressed **)** virtual"
+msgstr ""
+":ref:`_toggled <class_BaseButton_method__toggled>` **(** :ref:`bool "
+"<class_bool>` button_pressed **)** virtual"
+
+#: ../../docs/classes/class_basebutton.rst:58
+msgid ":ref:`DrawMode <enum_BaseButton_DrawMode>`"
+msgstr ":ref:`DrawMode <enum_BaseButton_DrawMode>`"
+
+#: ../../docs/classes/class_basebutton.rst:58
+msgid ""
+":ref:`get_draw_mode <class_BaseButton_method_get_draw_mode>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_draw_mode <class_BaseButton_method_get_draw_mode>` **(** **)** "
+"const"
+
+#: ../../docs/classes/class_basebutton.rst:60
+msgid ":ref:`is_hovered <class_BaseButton_method_is_hovered>` **(** **)** const"
+msgstr ":ref:`is_hovered <class_BaseButton_method_is_hovered>` **(** **)** const"
+
+#: ../../docs/classes/class_basebutton.rst:64
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_basebutton.rst:68
+msgid "**button_down** **(** **)**"
+msgstr "**button_down** **(** **)**"
+
+#: ../../docs/classes/class_basebutton.rst:70
+msgid "Emitted when the button starts being held down."
+msgstr "当按钮开始按住时发出。"
+
+#: ../../docs/classes/class_basebutton.rst:76
+msgid "**button_up** **(** **)**"
+msgstr "**button_up** **(** **)**"
+
+#: ../../docs/classes/class_basebutton.rst:78
+msgid "Emitted when the button stops being held down."
+msgstr "当按钮停止按住时发出。"
+
+#: ../../docs/classes/class_basebutton.rst:84
+msgid "**pressed** **(** **)**"
+msgstr "**pressed** **(** **)**"
+
+#: ../../docs/classes/class_basebutton.rst:86
+msgid ""
+"Emitted when the button is toggled or pressed. This is on "
+":ref:`button_down <class_BaseButton_signal_button_down>` if "
+":ref:`action_mode <class_BaseButton_property_action_mode>` is "
+":ref:`ACTION_MODE_BUTTON_PRESS "
+"<class_BaseButton_constant_ACTION_MODE_BUTTON_PRESS>` and on "
+":ref:`button_up <class_BaseButton_signal_button_up>` otherwise."
+msgstr ""
+"切换或按下按钮时发出。如果 :ref:`action_mode <class_BaseButton_property_action_mode>` "
+"是 :ref:`ACTION_MODE_BUTTON_PRESS "
+"<class_BaseButton_constant_ACTION_MODE_BUTTON_PRESS>`，将启用 "
+":ref:`button_down <class_BaseButton_signal_button_down>`；否则，启用 "
+":ref:`button_up <class_BaseButton_signal_button_up>`。"
+
+#: ../../docs/classes/class_basebutton.rst:92
+msgid "**toggled** **(** :ref:`bool <class_bool>` button_pressed **)**"
+msgstr "**toggled** **(** :ref:`bool <class_bool>` button_pressed **)**"
+
+#: ../../docs/classes/class_basebutton.rst:94
+msgid ""
+"Emitted when the button was just toggled between pressed and normal "
+"states (only if :ref:`toggle_mode "
+"<class_BaseButton_property_toggle_mode>` is active). The new state is "
+"contained in the ``button_pressed`` argument."
+msgstr ""
+"在仅在按下状态和正常状态之间，切换按钮时发出（仅在激活 :ref:`toggle_mode "
+"<class_BaseButton_property_toggle_mode>` 时）。新状态包含在 ``button_pressed`` "
+"参数中。"
+
+#: ../../docs/classes/class_basebutton.rst:97
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_basebutton.rst:111
+msgid "enum **DrawMode**:"
+msgstr "枚举 **DrawMode**："
+
+#: ../../docs/classes/class_basebutton.rst:113
+msgid ""
+"**DRAW_NORMAL** = **0** --- The normal state (i.e. not pressed, not "
+"hovered, not toggled and enabled) of buttons."
+msgstr "**DRAW_NORMAL** = **0** —— 按钮的正常状态（即未按下、未悬停、未切换和启用）。"
+
+#: ../../docs/classes/class_basebutton.rst:115
+msgid "**DRAW_PRESSED** = **1** --- The state of buttons are pressed."
+msgstr "**DRAW_PRESSED** = **1** —— 按钮的状态是按下的。"
+
+#: ../../docs/classes/class_basebutton.rst:117
+msgid "**DRAW_HOVER** = **2** --- The state of buttons are hovered."
+msgstr "**DRAW_HOVER** = **2** —— 按钮的状态是悬停的。"
+
+#: ../../docs/classes/class_basebutton.rst:119
+msgid "**DRAW_DISABLED** = **3** --- The state of buttons are disabled."
+msgstr "**DRAW_DISABLED** = **3** —— 按钮的状态是禁用的。"
+
+#: ../../docs/classes/class_basebutton.rst:121
+#, fuzzy
+msgid ""
+"**DRAW_HOVER_PRESSED** = **4** --- The state of buttons are both hovered "
+"and pressed."
+msgstr "**DRAW_HOVER** = **2** —— 按钮的状态是悬停的。"
+
+#: ../../docs/classes/class_basebutton.rst:131
+msgid "enum **ActionMode**:"
+msgstr "枚举 **ActionMode**："
+
+#: ../../docs/classes/class_basebutton.rst:133
+msgid ""
+"**ACTION_MODE_BUTTON_PRESS** = **0** --- Require just a press to consider"
+" the button clicked."
+msgstr "**ACTION_MODE_BUTTON_PRESS** = **0** —— 只需按一下即可认为按钮被点击。"
+
+#: ../../docs/classes/class_basebutton.rst:135
+msgid ""
+"**ACTION_MODE_BUTTON_RELEASE** = **1** --- Require a press and a "
+"subsequent release before considering the button clicked."
+msgstr "**ACTION_MODE_BUTTON_RELEASE** = **1** —— 在认为按钮被点击之前，需要按一下并随后释放它。"
+
+#: ../../docs/classes/class_basebutton.rst:138
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_basebutton.rst:142
+msgid ":ref:`ActionMode <enum_BaseButton_ActionMode>` **action_mode**"
+msgstr ":ref:`ActionMode <enum_BaseButton_ActionMode>` **action_mode**"
+
+#: ../../docs/classes/class_basebutton.rst:145
+#: ../../docs/classes/class_basebutton.rst:161
+#: ../../docs/classes/class_basebutton.rst:179
+#: ../../docs/classes/class_basebutton.rst:195
+#: ../../docs/classes/class_basebutton.rst:225
+#: ../../docs/classes/class_basebutton.rst:241
+#: ../../docs/classes/class_basebutton.rst:271
+#: ../../docs/classes/class_basebutton.rst:287
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_basebutton.rst:147
+#: ../../docs/classes/class_basebutton.rst:163
+#: ../../docs/classes/class_basebutton.rst:181
+#: ../../docs/classes/class_basebutton.rst:197
+#: ../../docs/classes/class_basebutton.rst:211
+#: ../../docs/classes/class_basebutton.rst:227
+#: ../../docs/classes/class_basebutton.rst:243
+#: ../../docs/classes/class_basebutton.rst:257
+#: ../../docs/classes/class_basebutton.rst:273
+#: ../../docs/classes/class_basebutton.rst:289
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_basebutton.rst:147
+msgid "set_action_mode(value)"
+msgstr "set_action_mode(value)"
+
+#: ../../docs/classes/class_basebutton.rst:149
+#: ../../docs/classes/class_basebutton.rst:165
+#: ../../docs/classes/class_basebutton.rst:183
+#: ../../docs/classes/class_basebutton.rst:199
+#: ../../docs/classes/class_basebutton.rst:213
+#: ../../docs/classes/class_basebutton.rst:229
+#: ../../docs/classes/class_basebutton.rst:245
+#: ../../docs/classes/class_basebutton.rst:259
+#: ../../docs/classes/class_basebutton.rst:275
+#: ../../docs/classes/class_basebutton.rst:291
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_basebutton.rst:149
+msgid "get_action_mode()"
+msgstr "get_action_mode()"
+
+#: ../../docs/classes/class_basebutton.rst:152
+#, fuzzy
+msgid ""
+"Determines when the button is considered clicked, one of the "
+":ref:`ActionMode <enum_BaseButton_ActionMode>` constants."
+msgstr "确定何时将按钮视为被点击，``ACTION_MODE_*`` 常量之一。"
+
+#: ../../docs/classes/class_basebutton.rst:158
+msgid ":ref:`int <class_int>` **button_mask**"
+msgstr ":ref:`int <class_int>` **button_mask**"
+
+#: ../../docs/classes/class_basebutton.rst:163
+msgid "set_button_mask(value)"
+msgstr "set_button_mask(value)"
+
+#: ../../docs/classes/class_basebutton.rst:165
+msgid "get_button_mask()"
+msgstr "get_button_mask()"
+
+#: ../../docs/classes/class_basebutton.rst:168
+msgid "Binary mask to choose which mouse buttons this button will respond to."
+msgstr "二进制掩码，用于选择此按钮将响应的鼠标按钮。"
+
+#: ../../docs/classes/class_basebutton.rst:170
+msgid ""
+"To allow both left-click and right-click, use ``BUTTON_MASK_LEFT | "
+"BUTTON_MASK_RIGHT``."
+msgstr "要同时允许左键点击和右键点击，请使用 ``BUTTON_MASK_LEFT | BUTTON_MASK_RIGHT``。"
+
+#: ../../docs/classes/class_basebutton.rst:176
+msgid ":ref:`bool <class_bool>` **disabled**"
+msgstr ":ref:`bool <class_bool>` **disabled**"
+
+#: ../../docs/classes/class_basebutton.rst:181
+msgid "set_disabled(value)"
+msgstr "set_disabled(value)"
+
+#: ../../docs/classes/class_basebutton.rst:183
+msgid "is_disabled()"
+msgstr "is_disabled()"
+
+#: ../../docs/classes/class_basebutton.rst:186
+msgid ""
+"If ``true``, the button is in disabled state and can't be clicked or "
+"toggled."
+msgstr "如果为 ``true``，则按钮处于禁用状态，无法点击或切换。"
+
+#: ../../docs/classes/class_basebutton.rst:192
+msgid ":ref:`FocusMode <enum_Control_FocusMode>` **enabled_focus_mode**"
+msgstr ":ref:`FocusMode <enum_Control_FocusMode>` **enabled_focus_mode**"
+
+#: ../../docs/classes/class_basebutton.rst:197
+msgid "set_enabled_focus_mode(value)"
+msgstr "set_enabled_focus_mode(value)"
+
+#: ../../docs/classes/class_basebutton.rst:199
+msgid "get_enabled_focus_mode()"
+msgstr "get_enabled_focus_mode()"
+
+#: ../../docs/classes/class_basebutton.rst:202
+msgid ""
+"Focus access mode to use when switching between enabled/disabled (see "
+":ref:`Control.focus_mode <class_Control_property_focus_mode>` and "
+":ref:`disabled <class_BaseButton_property_disabled>`)."
+msgstr ""
+"在启用/禁用之间切换时，要使用的焦点访问模式（参见 :ref:`Control.focus_mode "
+"<class_Control_property_focus_mode>` 和 :ref:`disabled "
+"<class_BaseButton_property_disabled>`）。"
+
+#: ../../docs/classes/class_basebutton.rst:208
+msgid ":ref:`ButtonGroup <class_ButtonGroup>` **group**"
+msgstr ":ref:`ButtonGroup <class_ButtonGroup>` **group**"
+
+#: ../../docs/classes/class_basebutton.rst:211
+msgid "set_button_group(value)"
+msgstr "set_button_group(value)"
+
+#: ../../docs/classes/class_basebutton.rst:213
+msgid "get_button_group()"
+msgstr "get_button_group()"
+
+#: ../../docs/classes/class_basebutton.rst:216
+msgid ":ref:`ButtonGroup <class_ButtonGroup>` associated to the button."
+msgstr "与按钮关联的 :ref:`ButtonGroup <class_ButtonGroup>`。"
+
+#: ../../docs/classes/class_basebutton.rst:222
+msgid ":ref:`bool <class_bool>` **keep_pressed_outside**"
+msgstr ":ref:`bool <class_bool>` **keep_pressed_outside**"
+
+#: ../../docs/classes/class_basebutton.rst:227
+msgid "set_keep_pressed_outside(value)"
+msgstr "set_keep_pressed_outside(value)"
+
+#: ../../docs/classes/class_basebutton.rst:229
+msgid "is_keep_pressed_outside()"
+msgstr "is_keep_pressed_outside()"
+
+#: ../../docs/classes/class_basebutton.rst:232
+msgid ""
+"If ``true``, the button stays pressed when moving the cursor outside the "
+"button while pressing it."
+msgstr "如果为 ``true``，则在按下鼠标时，且将光标移到按钮外部时，按钮将保持按下状态。"
+
+#: ../../docs/classes/class_basebutton.rst:238
+msgid ":ref:`bool <class_bool>` **pressed**"
+msgstr ":ref:`bool <class_bool>` **pressed**"
+
+#: ../../docs/classes/class_basebutton.rst:243
+msgid "set_pressed(value)"
+msgstr "set_pressed(value)"
+
+#: ../../docs/classes/class_basebutton.rst:245
+msgid "is_pressed()"
+msgstr "is_pressed()"
+
+#: ../../docs/classes/class_basebutton.rst:248
+#, fuzzy
+msgid ""
+"If ``true``, the button's state is pressed. Means the button is pressed "
+"down or toggled (if :ref:`toggle_mode "
+"<class_BaseButton_property_toggle_mode>` is active)."
+msgstr "如果为 ``true``，则按钮的状态是被按下。表示按钮被按下或切换（如果 ``toggle_mode`` 是活动的）。"
+
+#: ../../docs/classes/class_basebutton.rst:254
+msgid ":ref:`ShortCut <class_ShortCut>` **shortcut**"
+msgstr ":ref:`ShortCut <class_ShortCut>` **shortcut**"
+
+#: ../../docs/classes/class_basebutton.rst:257
+msgid "set_shortcut(value)"
+msgstr "set_shortcut(value)"
+
+#: ../../docs/classes/class_basebutton.rst:259
+msgid "get_shortcut()"
+msgstr "get_shortcut()"
+
+#: ../../docs/classes/class_basebutton.rst:262
+msgid ":ref:`ShortCut <class_ShortCut>` associated to the button."
+msgstr "与按钮关联的 :ref:`ShortCut <class_ShortCut>`。"
+
+#: ../../docs/classes/class_basebutton.rst:268
+msgid ":ref:`bool <class_bool>` **shortcut_in_tooltip**"
+msgstr ":ref:`bool <class_bool>` **shortcut_in_tooltip**"
+
+#: ../../docs/classes/class_basebutton.rst:273
+msgid "set_shortcut_in_tooltip(value)"
+msgstr "set_shortcut_in_tooltip(value)"
+
+#: ../../docs/classes/class_basebutton.rst:275
+msgid "is_shortcut_in_tooltip_enabled()"
+msgstr "is_shortcut_in_tooltip_enabled()"
+
+#: ../../docs/classes/class_basebutton.rst:278
+msgid ""
+"If ``true``, the button will add information about its shortcut in the "
+"tooltip."
+msgstr "如果为 ``true``，则该按钮将在工具提示中，添加有关其快捷方式的信息。"
+
+#: ../../docs/classes/class_basebutton.rst:284
+msgid ":ref:`bool <class_bool>` **toggle_mode**"
+msgstr ":ref:`bool <class_bool>` **toggle_mode**"
+
+#: ../../docs/classes/class_basebutton.rst:289
+msgid "set_toggle_mode(value)"
+msgstr "set_toggle_mode(value)"
+
+#: ../../docs/classes/class_basebutton.rst:291
+msgid "is_toggle_mode()"
+msgstr "is_toggle_mode()"
+
+#: ../../docs/classes/class_basebutton.rst:294
+msgid ""
+"If ``true``, the button is in toggle mode. Makes the button flip state "
+"between pressed and unpressed each time its area is clicked."
+msgstr "如果为 ``true``，则按钮处于切换模式。每次按钮区域被点击时，让按钮在按下和未按下之间，翻转状态。"
+
+#: ../../docs/classes/class_basebutton.rst:297
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_basebutton.rst:301
+msgid "void **_pressed** **(** **)** virtual"
+msgstr "void **_pressed** **(** **)** virtual"
+
+#: ../../docs/classes/class_basebutton.rst:303
+msgid "Called when the button is pressed."
+msgstr "当按钮被按下时，调用。"
+
+#: ../../docs/classes/class_basebutton.rst:309
+msgid ""
+"void **_toggled** **(** :ref:`bool <class_bool>` button_pressed **)** "
+"virtual"
+msgstr ""
+"void **_toggled** **(** :ref:`bool <class_bool>` button_pressed **)** "
+"virtual"
+
+#: ../../docs/classes/class_basebutton.rst:311
+#, fuzzy
+msgid ""
+"Called when the button is toggled (only if :ref:`toggle_mode "
+"<class_BaseButton_property_toggle_mode>` is active)."
+msgstr "在切换按钮时调用（仅当 ``toggle_mode`` 为活动时）。"
+
+#: ../../docs/classes/class_basebutton.rst:317
+msgid ""
+":ref:`DrawMode <enum_BaseButton_DrawMode>` **get_draw_mode** **(** **)** "
+"const"
+msgstr ""
+":ref:`DrawMode <enum_BaseButton_DrawMode>` **get_draw_mode** **(** **)** "
+"const"
+
+#: ../../docs/classes/class_basebutton.rst:319
+#, fuzzy
+msgid ""
+"Returns the visual state used to draw the button. This is useful mainly "
+"when implementing your own draw code by either overriding _draw() or "
+"connecting to \"draw\" signal. The visual state of the button is defined "
+"by the :ref:`DrawMode <enum_BaseButton_DrawMode>` enum."
+msgstr ""
+"返回用于绘制按钮的视觉状态。这主要在通过重写 ``_draw()`` 或连接到 ``draw`` "
+"信号，来实现自己的绘制代码时很有用。按钮的视觉状态由 ``DRAW_*`` 枚举定义。"
+
+#: ../../docs/classes/class_basebutton.rst:325
+msgid ":ref:`bool <class_bool>` **is_hovered** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_hovered** **(** **)** const"
+
+#: ../../docs/classes/class_basebutton.rst:327
+msgid ""
+"Returns ``true`` if the mouse has entered the button and has not left it "
+"yet."
+msgstr "如果鼠标已进入按钮但尚未离开按钮，则返回 ``true``。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "**DRAW_HOVER_PRESSED** = **4**"
+#~ msgstr "**DRAW_HOVER_PRESSED** = **4**"
+

@@ -1,0 +1,3465 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:10
+msgid "BaseMaterial3D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:12
+msgid ""
+"**Inherits:** :ref:`Material <class_Material>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:14
+msgid ""
+"**Inherited By:** :ref:`ORMMaterial3D <class_ORMMaterial3D>`, "
+":ref:`StandardMaterial3D <class_StandardMaterial3D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:16
+msgid "Default 3D rendering material."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:21
+msgid ""
+"This provides a default material with a wide variety of rendering "
+"features and properties without the need to write shader code. See the "
+"tutorial below for details."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:26
+msgid ":doc:`../tutorials/3d/spatial_material`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:29
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:202
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:32
+msgid ":ref:`albedo_color <class_BaseMaterial3D_property_albedo_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:769
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:154
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:174
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:188
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:200
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:204
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:216
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:220
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:230
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:232
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:234
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:241
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:243
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:34
+msgid ""
+":ref:`albedo_tex_force_srgb "
+"<class_BaseMaterial3D_property_albedo_tex_force_srgb>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:174
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:188
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:204
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:216
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:220
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:230
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:232
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:234
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:785
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:843
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:873
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:945
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1009
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1203
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1277
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1349
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1365
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1409
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1571
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1587
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1715
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1731
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1803
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1907
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1939
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2029
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2075
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2237
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2253
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2269
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:138
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:168
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:206
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:245
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:36
+msgid ":ref:`albedo_texture <class_BaseMaterial3D_property_albedo_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:172
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:218
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:228
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:38
+msgid ""
+":ref:`alpha_scissor_threshold "
+"<class_BaseMaterial3D_property_alpha_scissor_threshold>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:40
+msgid ":ref:`anisotropy <class_BaseMaterial3D_property_anisotropy>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:42
+msgid ""
+":ref:`anisotropy_enabled "
+"<class_BaseMaterial3D_property_anisotropy_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:44
+msgid ""
+":ref:`anisotropy_flowmap "
+"<class_BaseMaterial3D_property_anisotropy_flowmap>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:46
+msgid ":ref:`ao_enabled <class_BaseMaterial3D_property_ao_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:48
+msgid ":ref:`ao_light_affect <class_BaseMaterial3D_property_ao_light_affect>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:50
+msgid ":ref:`ao_on_uv2 <class_BaseMaterial3D_property_ao_on_uv2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:52
+msgid ":ref:`ao_texture <class_BaseMaterial3D_property_ao_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:170
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:184
+msgid ":ref:`TextureChannel <enum_BaseMaterial3D_TextureChannel>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:54
+msgid ""
+":ref:`ao_texture_channel "
+"<class_BaseMaterial3D_property_ao_texture_channel>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:56
+msgid ""
+":ref:`billboard_keep_scale "
+"<class_BaseMaterial3D_property_billboard_keep_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:58
+msgid ":ref:`BillboardMode <enum_BaseMaterial3D_BillboardMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:58
+msgid ":ref:`billboard_mode <class_BaseMaterial3D_property_billboard_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:190
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:208
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:961
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:977
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1053
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1069
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1555
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1877
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1923
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2059
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:76
+msgid ":ref:`BlendMode <enum_BaseMaterial3D_BlendMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:60
+msgid ":ref:`blend_mode <class_BaseMaterial3D_property_blend_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:62
+msgid ":ref:`clearcoat <class_BaseMaterial3D_property_clearcoat>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:64
+msgid ":ref:`clearcoat_enabled <class_BaseMaterial3D_property_clearcoat_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:66
+msgid ":ref:`clearcoat_gloss <class_BaseMaterial3D_property_clearcoat_gloss>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:68
+msgid ":ref:`clearcoat_texture <class_BaseMaterial3D_property_clearcoat_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:70
+msgid ":ref:`CullMode <enum_BaseMaterial3D_CullMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:70
+msgid ":ref:`cull_mode <class_BaseMaterial3D_property_cull_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:72
+msgid ":ref:`DepthDrawMode <enum_BaseMaterial3D_DepthDrawMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:72
+msgid ":ref:`depth_draw_mode <class_BaseMaterial3D_property_depth_draw_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:74
+msgid ":ref:`detail_albedo <class_BaseMaterial3D_property_detail_albedo>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:76
+msgid ":ref:`detail_blend_mode <class_BaseMaterial3D_property_detail_blend_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:78
+msgid ":ref:`detail_enabled <class_BaseMaterial3D_property_detail_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:80
+msgid ":ref:`detail_mask <class_BaseMaterial3D_property_detail_mask>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:82
+msgid ":ref:`detail_normal <class_BaseMaterial3D_property_detail_normal>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:84
+msgid ":ref:`DetailUV <enum_BaseMaterial3D_DetailUV>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:84
+msgid ":ref:`detail_uv_layer <class_BaseMaterial3D_property_detail_uv_layer>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:86
+msgid ":ref:`DiffuseMode <enum_BaseMaterial3D_DiffuseMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:86
+msgid ":ref:`diffuse_mode <class_BaseMaterial3D_property_diffuse_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:88
+msgid ""
+":ref:`disable_ambient_light "
+"<class_BaseMaterial3D_property_disable_ambient_light>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:90
+msgid ""
+":ref:`disable_receive_shadows "
+"<class_BaseMaterial3D_property_disable_receive_shadows>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:92
+msgid ""
+":ref:`distance_fade_max_distance "
+"<class_BaseMaterial3D_property_distance_fade_max_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:94
+msgid ""
+":ref:`distance_fade_min_distance "
+"<class_BaseMaterial3D_property_distance_fade_min_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:96
+msgid ":ref:`DistanceFadeMode <enum_BaseMaterial3D_DistanceFadeMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:96
+msgid ""
+":ref:`distance_fade_mode "
+"<class_BaseMaterial3D_property_distance_fade_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:98
+msgid ":ref:`emission <class_BaseMaterial3D_property_emission>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:100
+msgid ":ref:`emission_enabled <class_BaseMaterial3D_property_emission_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:102
+msgid ":ref:`emission_energy <class_BaseMaterial3D_property_emission_energy>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:104
+msgid ":ref:`emission_on_uv2 <class_BaseMaterial3D_property_emission_on_uv2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:106
+msgid ":ref:`EmissionOperator <enum_BaseMaterial3D_EmissionOperator>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:106
+msgid ":ref:`emission_operator <class_BaseMaterial3D_property_emission_operator>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:108
+msgid ":ref:`emission_texture <class_BaseMaterial3D_property_emission_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:110
+msgid ":ref:`fixed_size <class_BaseMaterial3D_property_fixed_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:112
+msgid ":ref:`grow <class_BaseMaterial3D_property_grow>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:114
+msgid ":ref:`grow_amount <class_BaseMaterial3D_property_grow_amount>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1381
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1507
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:116
+msgid ""
+":ref:`heightmap_deep_parallax "
+"<class_BaseMaterial3D_property_heightmap_deep_parallax>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:118
+msgid ":ref:`heightmap_enabled <class_BaseMaterial3D_property_heightmap_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:120
+msgid ""
+":ref:`heightmap_flip_binormal "
+"<class_BaseMaterial3D_property_heightmap_flip_binormal>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:122
+msgid ""
+":ref:`heightmap_flip_tangent "
+"<class_BaseMaterial3D_property_heightmap_flip_tangent>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:124
+msgid ""
+":ref:`heightmap_flip_texture "
+"<class_BaseMaterial3D_property_heightmap_flip_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:156
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:126
+msgid ""
+":ref:`heightmap_max_layers "
+"<class_BaseMaterial3D_property_heightmap_max_layers>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:128
+msgid ""
+":ref:`heightmap_min_layers "
+"<class_BaseMaterial3D_property_heightmap_min_layers>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:130
+msgid ":ref:`heightmap_scale <class_BaseMaterial3D_property_heightmap_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:132
+msgid ":ref:`heightmap_texture <class_BaseMaterial3D_property_heightmap_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:134
+msgid ":ref:`metallic <class_BaseMaterial3D_property_metallic>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:136
+msgid ":ref:`metallic_specular <class_BaseMaterial3D_property_metallic_specular>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1523
+msgid "``0.5``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:138
+msgid ":ref:`metallic_texture <class_BaseMaterial3D_property_metallic_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:140
+msgid ""
+":ref:`metallic_texture_channel "
+"<class_BaseMaterial3D_property_metallic_texture_channel>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:142
+msgid ":ref:`no_depth_test <class_BaseMaterial3D_property_no_depth_test>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:144
+msgid ":ref:`normal_enabled <class_BaseMaterial3D_property_normal_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:146
+msgid ":ref:`normal_scale <class_BaseMaterial3D_property_normal_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:148
+msgid ":ref:`normal_texture <class_BaseMaterial3D_property_normal_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:150
+msgid ":ref:`orm_texture <class_BaseMaterial3D_property_orm_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:152
+msgid ""
+":ref:`particles_anim_h_frames "
+"<class_BaseMaterial3D_property_particles_anim_h_frames>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:154
+msgid ""
+":ref:`particles_anim_loop "
+"<class_BaseMaterial3D_property_particles_anim_loop>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:156
+msgid ""
+":ref:`particles_anim_v_frames "
+"<class_BaseMaterial3D_property_particles_anim_v_frames>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:158
+msgid ":ref:`point_size <class_BaseMaterial3D_property_point_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:158
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:218
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1685
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1847
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2221
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:160
+msgid ""
+":ref:`proximity_fade_distance "
+"<class_BaseMaterial3D_property_proximity_fade_distance>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:162
+msgid ""
+":ref:`proximity_fade_enable "
+"<class_BaseMaterial3D_property_proximity_fade_enable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:164
+msgid ""
+":ref:`refraction_enabled "
+"<class_BaseMaterial3D_property_refraction_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:166
+msgid ":ref:`refraction_scale <class_BaseMaterial3D_property_refraction_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:168
+msgid ""
+":ref:`refraction_texture "
+"<class_BaseMaterial3D_property_refraction_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:170
+msgid ""
+":ref:`refraction_texture_channel "
+"<class_BaseMaterial3D_property_refraction_texture_channel>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:172
+msgid ":ref:`rim <class_BaseMaterial3D_property_rim>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:174
+msgid ":ref:`rim_enabled <class_BaseMaterial3D_property_rim_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:176
+msgid ":ref:`rim_texture <class_BaseMaterial3D_property_rim_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:178
+msgid ":ref:`rim_tint <class_BaseMaterial3D_property_rim_tint>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:180
+msgid ":ref:`roughness <class_BaseMaterial3D_property_roughness>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:182
+msgid ":ref:`roughness_texture <class_BaseMaterial3D_property_roughness_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:184
+msgid ""
+":ref:`roughness_texture_channel "
+"<class_BaseMaterial3D_property_roughness_texture_channel>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:186
+msgid ":ref:`ShadingMode <enum_BaseMaterial3D_ShadingMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:186
+msgid ":ref:`shading_mode <class_BaseMaterial3D_property_shading_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:186
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1893
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:188
+msgid ":ref:`shadow_to_opacity <class_BaseMaterial3D_property_shadow_to_opacity>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:190
+msgid ":ref:`SpecularMode <enum_BaseMaterial3D_SpecularMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:190
+msgid ":ref:`specular_mode <class_BaseMaterial3D_property_specular_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:192
+msgid ""
+":ref:`subsurf_scatter_enabled "
+"<class_BaseMaterial3D_property_subsurf_scatter_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:194
+msgid ""
+":ref:`subsurf_scatter_strength "
+"<class_BaseMaterial3D_property_subsurf_scatter_strength>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:196
+msgid ""
+":ref:`subsurf_scatter_texture "
+"<class_BaseMaterial3D_property_subsurf_scatter_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:198
+msgid ":ref:`TextureFilter <enum_BaseMaterial3D_TextureFilter>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:198
+msgid ":ref:`texture_filter <class_BaseMaterial3D_property_texture_filter>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1983
+msgid "``3``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:200
+msgid ":ref:`texture_repeat <class_BaseMaterial3D_property_texture_repeat>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:200
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1999
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:202
+msgid ":ref:`transmission <class_BaseMaterial3D_property_transmission>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:204
+msgid ""
+":ref:`transmission_enabled "
+"<class_BaseMaterial3D_property_transmission_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:206
+msgid ""
+":ref:`transmission_texture "
+"<class_BaseMaterial3D_property_transmission_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:208
+msgid ":ref:`Transparency <enum_BaseMaterial3D_Transparency>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:208
+msgid ":ref:`transparency <class_BaseMaterial3D_property_transparency>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:210
+msgid ":ref:`use_point_size <class_BaseMaterial3D_property_use_point_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:214
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:222
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:224
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:212
+msgid ":ref:`uv1_offset <class_BaseMaterial3D_property_uv1_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:222
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2093
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2173
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:214
+msgid ":ref:`uv1_scale <class_BaseMaterial3D_property_uv1_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:214
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:224
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2189
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:216
+msgid ":ref:`uv1_triplanar <class_BaseMaterial3D_property_uv1_triplanar>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:218
+msgid ""
+":ref:`uv1_triplanar_sharpness "
+"<class_BaseMaterial3D_property_uv1_triplanar_sharpness>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:220
+msgid ""
+":ref:`uv1_world_triplanar "
+"<class_BaseMaterial3D_property_uv1_world_triplanar>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:222
+msgid ":ref:`uv2_offset <class_BaseMaterial3D_property_uv2_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:224
+msgid ":ref:`uv2_scale <class_BaseMaterial3D_property_uv2_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:226
+msgid ":ref:`uv2_triplanar <class_BaseMaterial3D_property_uv2_triplanar>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:228
+msgid ""
+":ref:`uv2_triplanar_sharpness "
+"<class_BaseMaterial3D_property_uv2_triplanar_sharpness>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:230
+msgid ""
+":ref:`uv2_world_triplanar "
+"<class_BaseMaterial3D_property_uv2_world_triplanar>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:232
+msgid ""
+":ref:`vertex_color_is_srgb "
+"<class_BaseMaterial3D_property_vertex_color_is_srgb>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:234
+msgid ""
+":ref:`vertex_color_use_as_albedo "
+"<class_BaseMaterial3D_property_vertex_color_use_as_albedo>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:238
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:241
+msgid ""
+":ref:`get_feature <class_BaseMaterial3D_method_get_feature>` **(** "
+":ref:`Feature <enum_BaseMaterial3D_Feature>` feature **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:243
+msgid ""
+":ref:`get_flag <class_BaseMaterial3D_method_get_flag>` **(** :ref:`Flags "
+"<enum_BaseMaterial3D_Flags>` flag **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:245
+msgid ""
+":ref:`get_texture <class_BaseMaterial3D_method_get_texture>` **(** "
+":ref:`TextureParam <enum_BaseMaterial3D_TextureParam>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:249
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:251
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:247
+msgid ""
+":ref:`set_feature <class_BaseMaterial3D_method_set_feature>` **(** "
+":ref:`Feature <enum_BaseMaterial3D_Feature>` feature, :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:249
+msgid ""
+":ref:`set_flag <class_BaseMaterial3D_method_set_flag>` **(** :ref:`Flags "
+"<enum_BaseMaterial3D_Flags>` flag, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:251
+msgid ""
+":ref:`set_texture <class_BaseMaterial3D_method_set_texture>` **(** "
+":ref:`TextureParam <enum_BaseMaterial3D_TextureParam>` param, "
+":ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:255
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:295
+msgid "enum **TextureParam**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:297
+msgid "**TEXTURE_ALBEDO** = **0** --- Texture specifying per-pixel color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:299
+msgid ""
+"**TEXTURE_METALLIC** = **1** --- Texture specifying per-pixel metallic "
+"value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:301
+msgid ""
+"**TEXTURE_ROUGHNESS** = **2** --- Texture specifying per-pixel roughness "
+"value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:303
+msgid ""
+"**TEXTURE_EMISSION** = **3** --- Texture specifying per-pixel emission "
+"color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:305
+msgid "**TEXTURE_NORMAL** = **4** --- Texture specifying per-pixel normal vector."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:307
+msgid "**TEXTURE_RIM** = **5** --- Texture specifying per-pixel rim value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:309
+msgid ""
+"**TEXTURE_CLEARCOAT** = **6** --- Texture specifying per-pixel clearcoat "
+"value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:311
+msgid ""
+"**TEXTURE_FLOWMAP** = **7** --- Texture specifying per-pixel flowmap "
+"direction for use with :ref:`anisotropy "
+"<class_BaseMaterial3D_property_anisotropy>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:313
+msgid ""
+"**TEXTURE_AMBIENT_OCCLUSION** = **8** --- Texture specifying per-pixel "
+"ambient occlusion value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:315
+msgid "**TEXTURE_HEIGHTMAP** = **9** --- Texture specifying per-pixel height."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:317
+msgid ""
+"**TEXTURE_SUBSURFACE_SCATTERING** = **10** --- Texture specifying per-"
+"pixel subsurface scattering."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:319
+msgid ""
+"**TEXTURE_TRANSMISSION** = **11** --- Texture specifying per-pixel "
+"transmission color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:321
+msgid ""
+"**TEXTURE_REFRACTION** = **12** --- Texture specifying per-pixel "
+"refraction strength."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:323
+msgid ""
+"**TEXTURE_DETAIL_MASK** = **13** --- Texture specifying per-pixel detail "
+"mask blending value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:325
+msgid ""
+"**TEXTURE_DETAIL_ALBEDO** = **14** --- Texture specifying per-pixel "
+"detail color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:327
+msgid ""
+"**TEXTURE_DETAIL_NORMAL** = **15** --- Texture specifying per-pixel "
+"detail normal."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:329
+msgid "**TEXTURE_ORM** = **16**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:331
+msgid ""
+"**TEXTURE_MAX** = **17** --- Represents the size of the "
+":ref:`TextureParam <enum_BaseMaterial3D_TextureParam>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:351
+msgid "enum **TextureFilter**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:353
+msgid "**TEXTURE_FILTER_NEAREST** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:355
+msgid "**TEXTURE_FILTER_LINEAR** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:357
+msgid "**TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:359
+msgid "**TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:361
+msgid "**TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:363
+msgid "**TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:365
+msgid "**TEXTURE_FILTER_MAX** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:375
+msgid "enum **DetailUV**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:377
+msgid "**DETAIL_UV_1** = **0** --- Use ``UV`` with the detail texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:379
+msgid "**DETAIL_UV_2** = **1** --- Use ``UV2`` with the detail texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:395
+msgid "enum **Transparency**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:397
+msgid "**TRANSPARENCY_DISABLED** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:399
+msgid "**TRANSPARENCY_ALPHA** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:401
+msgid "**TRANSPARENCY_ALPHA_SCISSOR** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:403
+msgid "**TRANSPARENCY_ALPHA_DEPTH_PRE_PASS** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:405
+msgid "**TRANSPARENCY_MAX** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:419
+msgid "enum **ShadingMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:421
+msgid "**SHADING_MODE_UNSHADED** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:423
+msgid "**SHADING_MODE_PER_PIXEL** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:425
+msgid "**SHADING_MODE_PER_VERTEX** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:427
+msgid "**SHADING_MODE_MAX** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:457
+msgid "enum **Feature**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:459
+msgid ""
+"**FEATURE_EMISSION** = **0** --- Constant for setting "
+":ref:`emission_enabled <class_BaseMaterial3D_property_emission_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:461
+msgid ""
+"**FEATURE_NORMAL_MAPPING** = **1** --- Constant for setting "
+":ref:`normal_enabled <class_BaseMaterial3D_property_normal_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:463
+msgid ""
+"**FEATURE_RIM** = **2** --- Constant for setting :ref:`rim_enabled "
+"<class_BaseMaterial3D_property_rim_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:465
+msgid ""
+"**FEATURE_CLEARCOAT** = **3** --- Constant for setting "
+":ref:`clearcoat_enabled "
+"<class_BaseMaterial3D_property_clearcoat_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:467
+msgid ""
+"**FEATURE_ANISOTROPY** = **4** --- Constant for setting "
+":ref:`anisotropy_enabled "
+"<class_BaseMaterial3D_property_anisotropy_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:469
+msgid ""
+"**FEATURE_AMBIENT_OCCLUSION** = **5** --- Constant for setting "
+":ref:`ao_enabled <class_BaseMaterial3D_property_ao_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:471
+msgid "**FEATURE_HEIGHT_MAPPING** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:473
+msgid ""
+"**FEATURE_SUBSURACE_SCATTERING** = **7** --- Constant for setting "
+":ref:`subsurf_scatter_enabled "
+"<class_BaseMaterial3D_property_subsurf_scatter_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:475
+msgid ""
+"**FEATURE_TRANSMISSION** = **8** --- Constant for setting "
+":ref:`transmission_enabled "
+"<class_BaseMaterial3D_property_transmission_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:477
+msgid ""
+"**FEATURE_REFRACTION** = **9** --- Constant for setting "
+":ref:`refraction_enabled "
+"<class_BaseMaterial3D_property_refraction_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:479
+msgid ""
+"**FEATURE_DETAIL** = **10** --- Constant for setting :ref:`detail_enabled"
+" <class_BaseMaterial3D_property_detail_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:481
+msgid ""
+"**FEATURE_MAX** = **11** --- Represents the size of the :ref:`Feature "
+"<enum_BaseMaterial3D_Feature>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:495
+msgid "enum **BlendMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:497
+msgid ""
+"**BLEND_MODE_MIX** = **0** --- Default blend mode. The color of the "
+"object is blended over the background based on the object's alpha value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:499
+msgid ""
+"**BLEND_MODE_ADD** = **1** --- The color of the object is added to the "
+"background."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:501
+msgid ""
+"**BLEND_MODE_SUB** = **2** --- The color of the object is subtracted from"
+" the background."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:503
+msgid ""
+"**BLEND_MODE_MUL** = **3** --- The color of the object is multiplied by "
+"the background."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:515
+msgid "enum **DepthDrawMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:517
+msgid ""
+"**DEPTH_DRAW_OPAQUE_ONLY** = **0** --- Default depth draw mode. Depth is "
+"drawn only for opaque objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:519
+msgid ""
+"**DEPTH_DRAW_ALWAYS** = **1** --- Depth draw is calculated for both "
+"opaque and transparent objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:521
+msgid "**DEPTH_DRAW_DISABLED** = **2** --- No depth draw."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:533
+msgid "enum **CullMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:535
+msgid ""
+"**CULL_BACK** = **0** --- Default cull mode. The back of the object is "
+"culled when not visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:537
+msgid ""
+"**CULL_FRONT** = **1** --- The front of the object is culled when not "
+"visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:539
+msgid "**CULL_DISABLED** = **2** --- No culling is performed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:583
+msgid "enum **Flags**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:585
+msgid ""
+"**FLAG_DISABLE_DEPTH_TEST** = **0** --- Disables the depth test, so this "
+"object is drawn on top of all others. However, objects drawn after it in "
+"the draw order may cover it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:587
+msgid ""
+"**FLAG_ALBEDO_FROM_VERTEX_COLOR** = **1** --- Set ``ALBEDO`` to the per-"
+"vertex color specified in the mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:589
+msgid ""
+"**FLAG_SRGB_VERTEX_COLOR** = **2** --- Vertex color is in sRGB space and "
+"needs to be converted to linear. Only applies in the Vulkan renderer."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:591
+msgid ""
+"**FLAG_USE_POINT_SIZE** = **3** --- Uses point size to alter the size of "
+"primitive points. Also changes the albedo texture lookup to use "
+"``POINT_COORD`` instead of ``UV``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:593
+msgid ""
+"**FLAG_FIXED_SIZE** = **4** --- Object is scaled by depth so that it "
+"always appears the same size on screen."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:595
+msgid ""
+"**FLAG_BILLBOARD_KEEP_SCALE** = **5** --- Shader will keep the scale set "
+"for the mesh. Otherwise the scale is lost when billboarding. Only applies"
+" when :ref:`billboard_mode "
+"<class_BaseMaterial3D_property_billboard_mode>` is "
+":ref:`BILLBOARD_ENABLED "
+"<class_BaseMaterial3D_constant_BILLBOARD_ENABLED>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:597
+msgid ""
+"**FLAG_UV1_USE_TRIPLANAR** = **6** --- Use triplanar texture lookup for "
+"all texture lookups that would normally use ``UV``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:599
+msgid ""
+"**FLAG_UV2_USE_TRIPLANAR** = **7** --- Use triplanar texture lookup for "
+"all texture lookups that would normally use ``UV2``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:601
+msgid ""
+"**FLAG_UV1_USE_WORLD_TRIPLANAR** = **8** --- Use triplanar texture lookup"
+" for all texture lookups that would normally use ``UV``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:603
+msgid ""
+"**FLAG_UV2_USE_WORLD_TRIPLANAR** = **9** --- Use triplanar texture lookup"
+" for all texture lookups that would normally use ``UV2``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:605
+msgid ""
+"**FLAG_AO_ON_UV2** = **10** --- Use ``UV2`` coordinates to look up from "
+"the :ref:`ao_texture <class_BaseMaterial3D_property_ao_texture>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:607
+msgid ""
+"**FLAG_EMISSION_ON_UV2** = **11** --- Use ``UV2`` coordinates to look up "
+"from the :ref:`emission_texture "
+"<class_BaseMaterial3D_property_emission_texture>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:609
+msgid ""
+"**FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = **12** --- Forces the shader to "
+"convert albedo from sRGB space to linear space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:611
+msgid ""
+"**FLAG_DONT_RECEIVE_SHADOWS** = **13** --- Disables receiving shadows "
+"from other objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:613
+msgid ""
+"**FLAG_DISABLE_AMBIENT_LIGHT** = **14** --- Disables receiving ambient "
+"light."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:615
+msgid ""
+"**FLAG_USE_SHADOW_TO_OPACITY** = **15** --- Enables the shadow to opacity"
+" feature."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:617
+msgid "**FLAG_USE_TEXTURE_REPEAT** = **16**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:619
+msgid ""
+"**FLAG_INVERT_HEIGHTMAP** = **17** --- Invert values read from a depth "
+"texture to convert them to height values (heightmap)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:621
+msgid ""
+"**FLAG_MAX** = **18** --- Represents the size of the :ref:`Flags "
+"<enum_BaseMaterial3D_Flags>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:637
+msgid "enum **DiffuseMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:639
+msgid "**DIFFUSE_BURLEY** = **0** --- Default diffuse scattering algorithm."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:641
+msgid "**DIFFUSE_LAMBERT** = **1** --- Diffuse scattering ignores roughness."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:643
+msgid ""
+"**DIFFUSE_LAMBERT_WRAP** = **2** --- Extends Lambert to cover more than "
+"90 degrees when roughness increases."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:645
+msgid ""
+"**DIFFUSE_OREN_NAYAR** = **3** --- Attempts to use roughness to emulate "
+"microsurfacing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:647
+msgid ""
+"**DIFFUSE_TOON** = **4** --- Uses a hard cut for lighting, with smoothing"
+" affected by roughness."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:663
+msgid "enum **SpecularMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:665
+msgid "**SPECULAR_SCHLICK_GGX** = **0** --- Default specular blob."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:667
+msgid ""
+"**SPECULAR_BLINN** = **1** --- Older specular algorithm, included for "
+"compatibility."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:669
+msgid ""
+"**SPECULAR_PHONG** = **2** --- Older specular algorithm, included for "
+"compatibility."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:671
+msgid ""
+"**SPECULAR_TOON** = **3** --- Toon blob which changes size based on "
+"roughness."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:673
+msgid "**SPECULAR_DISABLED** = **4** --- No specular blob."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:687
+msgid "enum **BillboardMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:689
+msgid "**BILLBOARD_DISABLED** = **0** --- Billboard mode is disabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:691
+msgid ""
+"**BILLBOARD_ENABLED** = **1** --- The object's Z axis will always face "
+"the camera."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:693
+msgid ""
+"**BILLBOARD_FIXED_Y** = **2** --- The object's X axis will always face "
+"the camera."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:695
+msgid ""
+"**BILLBOARD_PARTICLES** = **3** --- Used for particle systems when "
+"assigned to :ref:`Particles <class_Particles>` and :ref:`CPUParticles "
+"<class_CPUParticles>` nodes. Enables ``particles_anim_*`` properties."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:697
+msgid ""
+"The :ref:`ParticlesMaterial.anim_speed "
+"<class_ParticlesMaterial_property_anim_speed>` or "
+":ref:`CPUParticles.anim_speed <class_CPUParticles_property_anim_speed>` "
+"should also be set to a positive value for the animation to play."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:713
+msgid "enum **TextureChannel**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:715
+msgid ""
+"**TEXTURE_CHANNEL_RED** = **0** --- Used to read from the red channel of "
+"a texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:717
+msgid ""
+"**TEXTURE_CHANNEL_GREEN** = **1** --- Used to read from the green channel"
+" of a texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:719
+msgid ""
+"**TEXTURE_CHANNEL_BLUE** = **2** --- Used to read from the blue channel "
+"of a texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:721
+msgid ""
+"**TEXTURE_CHANNEL_ALPHA** = **3** --- Used to read from the alpha channel"
+" of a texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:723
+msgid "**TEXTURE_CHANNEL_GRAYSCALE** = **4** --- Currently unused."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:733
+msgid "enum **EmissionOperator**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:735
+msgid ""
+"**EMISSION_OP_ADD** = **0** --- Adds the emission color to the color from"
+" the emission texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:737
+msgid ""
+"**EMISSION_OP_MULTIPLY** = **1** --- Multiplies the emission color by the"
+" color from the emission texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:751
+msgid "enum **DistanceFadeMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:753
+msgid "**DISTANCE_FADE_DISABLED** = **0** --- Do not use distance fade."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:755
+msgid ""
+"**DISTANCE_FADE_PIXEL_ALPHA** = **1** --- Smoothly fades the object out "
+"based on each pixel's distance from the camera using the alpha channel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:757
+msgid ""
+"**DISTANCE_FADE_PIXEL_DITHER** = **2** --- Smoothly fades the object out "
+"based on each pixel's distance from the camera using a dither approach. "
+"Dithering discards pixels based on a set pattern to smoothly fade without"
+" enabling transparency. On certain hardware this can be faster than "
+":ref:`DISTANCE_FADE_PIXEL_ALPHA "
+"<class_BaseMaterial3D_constant_DISTANCE_FADE_PIXEL_ALPHA>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:759
+msgid ""
+"**DISTANCE_FADE_OBJECT_DITHER** = **3** --- Smoothly fades the object out"
+" based on the object's distance from the camera using a dither approach. "
+"Dithering discards pixels based on a set pattern to smoothly fade without"
+" enabling transparency. On certain hardware this can be faster than "
+":ref:`DISTANCE_FADE_PIXEL_ALPHA "
+"<class_BaseMaterial3D_constant_DISTANCE_FADE_PIXEL_ALPHA>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:762
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:766
+msgid ":ref:`Color <class_Color>` **albedo_color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:769
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:785
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:843
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:873
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:945
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:961
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:977
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1009
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1053
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1069
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1203
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1277
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1349
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1365
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1381
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1409
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1507
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1523
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1555
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1571
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1587
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1685
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1715
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1731
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1803
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1847
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1877
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1893
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1907
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1923
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1939
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1983
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1999
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2029
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2059
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2075
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2093
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2173
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2221
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2237
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2253
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2269
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:771
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:787
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:801
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:815
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:829
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:845
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:859
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:875
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:889
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:903
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:917
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:931
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:947
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:963
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:979
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:995
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1011
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1025
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1039
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1055
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1071
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1085
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1099
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1173
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1219
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1233
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1249
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1263
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1279
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1293
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1307
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1321
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1335
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1351
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1367
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1383
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1397
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1411
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1423
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1435
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1447
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1459
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1471
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1483
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1495
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1509
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1525
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1541
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1557
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1573
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1589
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1603
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1617
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1631
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1643
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1657
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1671
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1687
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1701
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1717
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1733
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1747
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1761
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1775
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1789
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1805
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1819
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1833
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1849
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1863
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1879
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1895
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1909
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1925
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1941
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1955
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1969
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1985
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2001
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2015
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2031
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2045
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2061
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2077
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2095
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2175
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2239
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2255
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2271
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:771
+msgid "set_albedo(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:773
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:789
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:803
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:817
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:831
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:847
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:861
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:877
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:891
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:905
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:919
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:933
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:949
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:965
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:981
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:997
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1013
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1027
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1041
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1057
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1073
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1087
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1175
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1221
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1235
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1251
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1265
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1281
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1295
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1309
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1323
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1337
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1353
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1369
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1385
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1399
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1413
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1425
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1437
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1449
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1461
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1473
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1485
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1497
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1511
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1527
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1543
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1559
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1575
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1591
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1605
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1619
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1633
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1645
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1659
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1673
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1689
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1703
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1719
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1735
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1749
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1763
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1777
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1791
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1807
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1821
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1835
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1851
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1865
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1881
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1897
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1911
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1927
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1943
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1957
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1971
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1987
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2003
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2017
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2033
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2047
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2063
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2079
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2097
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2225
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2241
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2257
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2273
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:773
+msgid "get_albedo()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:776
+msgid "The material's base color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:782
+msgid ":ref:`bool <class_bool>` **albedo_tex_force_srgb**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:787
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:903
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:947
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1307
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1351
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1447
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1573
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1909
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2001
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2077
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2239
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2255
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2271
+msgid "set_flag(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:789
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:905
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:949
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1207
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1309
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1353
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1449
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1575
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1911
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2003
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2079
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2241
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2257
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2273
+msgid "get_flag()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:792
+msgid ""
+"Forces a conversion of the :ref:`albedo_texture "
+"<class_BaseMaterial3D_property_albedo_texture>` from sRGB space to linear"
+" space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:798
+msgid ":ref:`Texture2D <class_Texture2D>` **albedo_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:801
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:859
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:917
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1039
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1085
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1335
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1495
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1541
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1617
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1631
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1761
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1819
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1863
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1969
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2045
+msgid "set_texture(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:803
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:861
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:919
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1041
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1087
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1337
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1497
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1543
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1619
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1633
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1763
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1821
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1865
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1971
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2047
+msgid "get_texture()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:806
+msgid ""
+"Texture to multiply by :ref:`albedo_color "
+"<class_BaseMaterial3D_property_albedo_color>`. Used for basic texturing "
+"of objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:812
+msgid ":ref:`float <class_float>` **alpha_scissor_threshold**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:815
+msgid "set_alpha_scissor_threshold(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:817
+msgid "get_alpha_scissor_threshold()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:820
+msgid "Threshold at which the alpha scissor will discard values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:826
+msgid ":ref:`float <class_float>` **anisotropy**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:829
+msgid "set_anisotropy(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:831
+msgid "get_anisotropy()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:834
+msgid "The strength of the anisotropy effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:840
+msgid ":ref:`bool <class_bool>` **anisotropy_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:845
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:875
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1011
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1279
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1411
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1589
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1733
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1805
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1941
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2031
+msgid "set_feature(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:847
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:877
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1013
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1281
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1413
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1591
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1735
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1807
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1943
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2033
+msgid "get_feature()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:850
+msgid ""
+"If ``true``, anisotropy is enabled. Changes the shape of the specular "
+"blob and aligns it to tangent space. Mesh tangents are needed for this to"
+" work. If the mesh does not contain tangents the anisotropy effect will "
+"appear broken."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:856
+msgid ":ref:`Texture2D <class_Texture2D>` **anisotropy_flowmap**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:864
+msgid "Texture that offsets the tangent map for anisotropy calculations."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:870
+msgid ":ref:`bool <class_bool>` **ao_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:880
+msgid ""
+"If ``true``, ambient occlusion is enabled. Ambient occlusion darkens "
+"areas based on the :ref:`ao_texture "
+"<class_BaseMaterial3D_property_ao_texture>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:886
+msgid ":ref:`float <class_float>` **ao_light_affect**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:889
+msgid "set_ao_light_affect(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:891
+msgid "get_ao_light_affect()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:894
+msgid ""
+"Amount that ambient occlusion affects lighting from lights. If ``0``, "
+"ambient occlusion only affects ambient light. If ``1``, ambient occlusion"
+" affects lights just as much as it affects ambient light. This can be "
+"used to impact the strength of the ambient occlusion effect, but "
+"typically looks unrealistic."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:900
+msgid ":ref:`bool <class_bool>` **ao_on_uv2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:908
+msgid ""
+"If ``true``, use ``UV2`` coordinates to look up from the :ref:`ao_texture"
+" <class_BaseMaterial3D_property_ao_texture>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:914
+msgid ":ref:`Texture2D <class_Texture2D>` **ao_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:922
+msgid ""
+"Texture that defines the amount of ambient occlusion for a given point on"
+" the object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:928
+msgid ""
+":ref:`TextureChannel <enum_BaseMaterial3D_TextureChannel>` "
+"**ao_texture_channel**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:931
+msgid "set_ao_texture_channel(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:933
+msgid "get_ao_texture_channel()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:936
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1780
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1884
+msgid ""
+"Specifies the channel of the :ref:`ao_texture "
+"<class_BaseMaterial3D_property_ao_texture>` in which the ambient "
+"occlusion information is stored. This is useful when you store the "
+"information for multiple effects in a single texture. For example if you "
+"stored metallic in the red channel, roughness in the blue, and ambient "
+"occlusion in the green you could reduce the number of textures you use."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:942
+msgid ":ref:`bool <class_bool>` **billboard_keep_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:952
+msgid ""
+"If ``true``, the shader will keep the scale set for the mesh. Otherwise "
+"the scale is lost when billboarding. Only applies when "
+":ref:`billboard_mode <class_BaseMaterial3D_property_billboard_mode>` is "
+":ref:`BILLBOARD_ENABLED "
+"<class_BaseMaterial3D_constant_BILLBOARD_ENABLED>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:958
+msgid ""
+":ref:`BillboardMode <enum_BaseMaterial3D_BillboardMode>` "
+"**billboard_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:963
+msgid "set_billboard_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:965
+msgid "get_billboard_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:968
+msgid ""
+"Controls how the object faces the camera. See :ref:`BillboardMode "
+"<enum_BaseMaterial3D_BillboardMode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:974
+msgid ":ref:`BlendMode <enum_BaseMaterial3D_BlendMode>` **blend_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:979
+msgid "set_blend_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:981
+msgid "get_blend_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:984
+msgid "The material's blend mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:986
+msgid ""
+"**Note:** Values other than ``Mix`` force the object into the transparent"
+" pipeline. See :ref:`BlendMode <enum_BaseMaterial3D_BlendMode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:992
+msgid ":ref:`float <class_float>` **clearcoat**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:995
+msgid "set_clearcoat(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:997
+msgid "get_clearcoat()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1000
+msgid ""
+"Sets the strength of the clearcoat effect. Setting to ``0`` looks the "
+"same as disabling the clearcoat effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1006
+msgid ":ref:`bool <class_bool>` **clearcoat_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1016
+msgid ""
+"If ``true``, clearcoat rendering is enabled. Adds a secondary transparent"
+" pass to the lighting calculation resulting in an added specular blob. "
+"This makes materials appear as if they have a clear layer on them that "
+"can be either glossy or rough."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1022
+msgid ":ref:`float <class_float>` **clearcoat_gloss**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1025
+msgid "set_clearcoat_gloss(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1027
+msgid "get_clearcoat_gloss()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1030
+msgid ""
+"Sets the roughness of the clearcoat pass. A higher value results in a "
+"smoother clearcoat while a lower value results in a rougher clearcoat."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1036
+msgid ":ref:`Texture2D <class_Texture2D>` **clearcoat_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1044
+msgid ""
+"Texture that defines the strength of the clearcoat effect and the "
+"glossiness of the clearcoat. Strength is specified in the red channel "
+"while glossiness is specified in the green channel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1050
+msgid ":ref:`CullMode <enum_BaseMaterial3D_CullMode>` **cull_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1055
+msgid "set_cull_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1057
+msgid "get_cull_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1060
+msgid ""
+"Which side of the object is not drawn when backfaces are rendered. See "
+":ref:`CullMode <enum_BaseMaterial3D_CullMode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1066
+msgid ""
+":ref:`DepthDrawMode <enum_BaseMaterial3D_DepthDrawMode>` "
+"**depth_draw_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1071
+msgid "set_depth_draw_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1073
+msgid "get_depth_draw_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1076
+msgid ""
+"Determines when depth rendering takes place. See :ref:`DepthDrawMode "
+"<enum_BaseMaterial3D_DepthDrawMode>`. See also :ref:`transparency "
+"<class_BaseMaterial3D_property_transparency>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1082
+msgid ":ref:`Texture2D <class_Texture2D>` **detail_albedo**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1090
+msgid "Texture that specifies the color of the detail overlay."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1096
+msgid ":ref:`BlendMode <enum_BaseMaterial3D_BlendMode>` **detail_blend_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1099
+msgid "set_detail_blend_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1101
+msgid "get_detail_blend_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1104
+msgid ""
+"Specifies how the :ref:`detail_albedo "
+"<class_BaseMaterial3D_property_detail_albedo>` should blend with the "
+"current ``ALBEDO``. See :ref:`BlendMode <enum_BaseMaterial3D_BlendMode>` "
+"for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1110
+msgid ":ref:`bool <class_bool>` **detail_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1120
+msgid ""
+"If ``true``, enables the detail overlay. Detail is a second texture that "
+"gets mixed over the surface of the object based on :ref:`detail_mask "
+"<class_BaseMaterial3D_property_detail_mask>`. This can be used to add "
+"variation to objects, or to blend between two different albedo/normal "
+"textures."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1126
+msgid ":ref:`Texture2D <class_Texture2D>` **detail_mask**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1134
+msgid ""
+"Texture used to specify how the detail textures get blended with the base"
+" textures."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1140
+msgid ":ref:`Texture2D <class_Texture2D>` **detail_normal**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1148
+msgid "Texture that specifies the per-pixel normal of the detail overlay."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1154
+msgid ":ref:`DetailUV <enum_BaseMaterial3D_DetailUV>` **detail_uv_layer**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1157
+msgid "set_detail_uv(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1159
+msgid "get_detail_uv()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1162
+msgid ""
+"Specifies whether to use ``UV`` or ``UV2`` for the detail layer. See "
+":ref:`DetailUV <enum_BaseMaterial3D_DetailUV>` for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1168
+msgid ":ref:`DiffuseMode <enum_BaseMaterial3D_DiffuseMode>` **diffuse_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1173
+msgid "set_diffuse_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1175
+msgid "get_diffuse_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1178
+msgid ""
+"The algorithm used for diffuse light scattering. See :ref:`DiffuseMode "
+"<enum_BaseMaterial3D_DiffuseMode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1184
+msgid ":ref:`bool <class_bool>` **disable_ambient_light**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1194
+msgid "If ``true``, the object receives no ambient light."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1200
+msgid ":ref:`bool <class_bool>` **disable_receive_shadows**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1210
+msgid ""
+"If ``true``, the object receives no shadow that would otherwise be cast "
+"onto it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1216
+msgid ":ref:`float <class_float>` **distance_fade_max_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1219
+msgid "set_distance_fade_max_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1221
+msgid "get_distance_fade_max_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1224
+msgid "Distance at which the object fades fully and is no longer visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1230
+msgid ":ref:`float <class_float>` **distance_fade_min_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1233
+msgid "set_distance_fade_min_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1235
+msgid "get_distance_fade_min_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1238
+msgid ""
+"Distance at which the object starts to fade. If the object is less than "
+"this distance away it will appear normal."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1244
+msgid ""
+":ref:`DistanceFadeMode <enum_BaseMaterial3D_DistanceFadeMode>` "
+"**distance_fade_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1249
+msgid "set_distance_fade(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1251
+msgid "get_distance_fade()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1254
+msgid ""
+"Specifies which type of fade to use. Can be any of the "
+":ref:`DistanceFadeMode <enum_BaseMaterial3D_DistanceFadeMode>`\\ s."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1260
+msgid ":ref:`Color <class_Color>` **emission**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1263
+msgid "set_emission(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1265
+msgid "get_emission()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1268
+msgid ""
+"The emitted light's color. See :ref:`emission_enabled "
+"<class_BaseMaterial3D_property_emission_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1274
+msgid ":ref:`bool <class_bool>` **emission_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1284
+msgid ""
+"If ``true``, the body emits light. Emitting light makes the object appear"
+" brighter. The object can also cast light on other objects if a "
+":ref:`GIProbe <class_GIProbe>` is used and this object is used in baked "
+"lighting."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1290
+msgid ":ref:`float <class_float>` **emission_energy**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1293
+msgid "set_emission_energy(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1295
+msgid "get_emission_energy()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1298
+msgid ""
+"The emitted light's strength. See :ref:`emission_enabled "
+"<class_BaseMaterial3D_property_emission_enabled>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1304
+msgid ":ref:`bool <class_bool>` **emission_on_uv2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1312
+msgid ""
+"Use ``UV2`` to read from the :ref:`emission_texture "
+"<class_BaseMaterial3D_property_emission_texture>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1318
+msgid ""
+":ref:`EmissionOperator <enum_BaseMaterial3D_EmissionOperator>` "
+"**emission_operator**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1321
+msgid "set_emission_operator(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1323
+msgid "get_emission_operator()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1326
+msgid ""
+"Sets how :ref:`emission <class_BaseMaterial3D_property_emission>` "
+"interacts with :ref:`emission_texture "
+"<class_BaseMaterial3D_property_emission_texture>`. Can either add or "
+"multiply. See :ref:`EmissionOperator "
+"<enum_BaseMaterial3D_EmissionOperator>` for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1332
+msgid ":ref:`Texture2D <class_Texture2D>` **emission_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1340
+msgid "Texture that specifies how much surface emits light at a given point."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1346
+msgid ":ref:`bool <class_bool>` **fixed_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1356
+msgid ""
+"If ``true``, the object is rendered at the same size regardless of "
+"distance."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1362
+msgid ":ref:`bool <class_bool>` **grow**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1367
+msgid "set_grow_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1369
+msgid "is_grow_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1372
+msgid ""
+"If ``true``, enables the vertex grow setting. See :ref:`grow_amount "
+"<class_BaseMaterial3D_property_grow_amount>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1378
+msgid ":ref:`float <class_float>` **grow_amount**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1383
+msgid "set_grow(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1385
+msgid "get_grow()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1388
+msgid "Grows object vertices in the direction of their normals."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1394
+msgid ":ref:`bool <class_bool>` **heightmap_deep_parallax**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1397
+msgid "set_heightmap_deep_parallax(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1399
+msgid "is_heightmap_deep_parallax_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1406
+msgid ":ref:`bool <class_bool>` **heightmap_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1420
+msgid ":ref:`bool <class_bool>` **heightmap_flip_binormal**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1423
+msgid "set_heightmap_deep_parallax_flip_binormal(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1425
+msgid "get_heightmap_deep_parallax_flip_binormal()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1432
+msgid ":ref:`bool <class_bool>` **heightmap_flip_tangent**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1435
+msgid "set_heightmap_deep_parallax_flip_tangent(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1437
+msgid "get_heightmap_deep_parallax_flip_tangent()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1444
+msgid ":ref:`bool <class_bool>` **heightmap_flip_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1456
+msgid ":ref:`int <class_int>` **heightmap_max_layers**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1459
+msgid "set_heightmap_deep_parallax_max_layers(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1461
+msgid "get_heightmap_deep_parallax_max_layers()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1468
+msgid ":ref:`int <class_int>` **heightmap_min_layers**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1471
+msgid "set_heightmap_deep_parallax_min_layers(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1473
+msgid "get_heightmap_deep_parallax_min_layers()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1480
+msgid ":ref:`float <class_float>` **heightmap_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1483
+msgid "set_heightmap_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1485
+msgid "get_heightmap_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1492
+msgid ":ref:`Texture2D <class_Texture2D>` **heightmap_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1504
+msgid ":ref:`float <class_float>` **metallic**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1509
+msgid "set_metallic(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1511
+msgid "get_metallic()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1514
+msgid ""
+"A high value makes the material appear more like a metal. Non-metals use "
+"their albedo as the diffuse color and add diffuse to the specular "
+"reflection. With non-metals, the reflection appears on top of the albedo "
+"color. Metals use their albedo as a multiplier to the specular reflection"
+" and set the diffuse color to black resulting in a tinted reflection. "
+"Materials work better when fully metal or fully non-metal, values between"
+" ``0`` and ``1`` should only be used for blending between metal and non-"
+"metal sections. To alter the amount of reflection use :ref:`roughness "
+"<class_BaseMaterial3D_property_roughness>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1520
+msgid ":ref:`float <class_float>` **metallic_specular**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1525
+msgid "set_specular(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1527
+msgid "get_specular()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1530
+msgid ""
+"Sets the size of the specular lobe. The specular lobe is the bright spot "
+"that is reflected from light sources."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1532
+msgid ""
+"**Note:** unlike :ref:`metallic "
+"<class_BaseMaterial3D_property_metallic>`, this is not energy-conserving,"
+" so it should be left at ``0.5`` in most cases. See also :ref:`roughness "
+"<class_BaseMaterial3D_property_roughness>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1538
+msgid ":ref:`Texture2D <class_Texture2D>` **metallic_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1546
+msgid ""
+"Texture used to specify metallic for an object. This is multiplied by "
+":ref:`metallic <class_BaseMaterial3D_property_metallic>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1552
+msgid ""
+":ref:`TextureChannel <enum_BaseMaterial3D_TextureChannel>` "
+"**metallic_texture_channel**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1557
+msgid "set_metallic_texture_channel(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1559
+msgid "get_metallic_texture_channel()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1562
+msgid ""
+"Specifies the channel of the :ref:`metallic_texture "
+"<class_BaseMaterial3D_property_metallic_texture>` in which the metallic "
+"information is stored. This is useful when you store the information for "
+"multiple effects in a single texture. For example if you stored metallic "
+"in the red channel, roughness in the blue, and ambient occlusion in the "
+"green you could reduce the number of textures you use."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1568
+msgid ":ref:`bool <class_bool>` **no_depth_test**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1578
+msgid ""
+"If ``true``, depth testing is disabled and the object will be drawn in "
+"render order."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1584
+msgid ":ref:`bool <class_bool>` **normal_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1594
+msgid "If ``true``, normal mapping is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1600
+msgid ":ref:`float <class_float>` **normal_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1603
+msgid "set_normal_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1605
+msgid "get_normal_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1608
+msgid "The strength of the normal map's effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1614
+msgid ":ref:`Texture2D <class_Texture2D>` **normal_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1622
+msgid ""
+"Texture used to specify the normal at a given pixel. The "
+"``normal_texture`` only uses the red and green channels. The normal read "
+"from ``normal_texture`` is oriented around the surface normal provided by"
+" the :ref:`Mesh <class_Mesh>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1628
+msgid ":ref:`Texture2D <class_Texture2D>` **orm_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1640
+msgid ":ref:`int <class_int>` **particles_anim_h_frames**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1643
+msgid "set_particles_anim_h_frames(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1645
+msgid "get_particles_anim_h_frames()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1648
+msgid ""
+"The number of horizontal frames in the particle sprite sheet. Only "
+"enabled when using :ref:`BILLBOARD_PARTICLES "
+"<class_BaseMaterial3D_constant_BILLBOARD_PARTICLES>`. See "
+":ref:`billboard_mode <class_BaseMaterial3D_property_billboard_mode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1654
+msgid ":ref:`bool <class_bool>` **particles_anim_loop**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1657
+msgid "set_particles_anim_loop(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1659
+msgid "get_particles_anim_loop()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1662
+msgid ""
+"If ``true``, particle animations are looped. Only enabled when using "
+":ref:`BILLBOARD_PARTICLES "
+"<class_BaseMaterial3D_constant_BILLBOARD_PARTICLES>`. See "
+":ref:`billboard_mode <class_BaseMaterial3D_property_billboard_mode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1668
+msgid ":ref:`int <class_int>` **particles_anim_v_frames**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1671
+msgid "set_particles_anim_v_frames(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1673
+msgid "get_particles_anim_v_frames()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1676
+msgid ""
+"The number of vertical frames in the particle sprite sheet. Only enabled "
+"when using :ref:`BILLBOARD_PARTICLES "
+"<class_BaseMaterial3D_constant_BILLBOARD_PARTICLES>`. See "
+":ref:`billboard_mode <class_BaseMaterial3D_property_billboard_mode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1682
+msgid ":ref:`float <class_float>` **point_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1687
+msgid "set_point_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1689
+msgid "get_point_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1692
+msgid ""
+"The point size in pixels. See :ref:`use_point_size "
+"<class_BaseMaterial3D_property_use_point_size>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1698
+msgid ":ref:`float <class_float>` **proximity_fade_distance**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1701
+msgid "set_proximity_fade_distance(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1703
+msgid "get_proximity_fade_distance()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1706
+msgid ""
+"Distance over which the fade effect takes place. The larger the distance "
+"the longer it takes for an object to fade."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1712
+msgid ":ref:`bool <class_bool>` **proximity_fade_enable**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1717
+msgid "set_proximity_fade(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1719
+msgid "is_proximity_fade_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1722
+msgid ""
+"If ``true``, the proximity fade effect is enabled. The proximity fade "
+"effect fades out each pixel based on its distance to another object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1728
+msgid ":ref:`bool <class_bool>` **refraction_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1738
+msgid ""
+"If ``true``, the refraction effect is enabled. Distorts transparency "
+"based on light from behind the object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1744
+msgid ":ref:`float <class_float>` **refraction_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1747
+msgid "set_refraction(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1749
+msgid "get_refraction()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1752
+msgid "The strength of the refraction effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1758
+msgid ":ref:`Texture2D <class_Texture2D>` **refraction_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1766
+msgid ""
+"Texture that controls the strength of the refraction per-pixel. "
+"Multiplied by :ref:`refraction_scale "
+"<class_BaseMaterial3D_property_refraction_scale>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1772
+msgid ""
+":ref:`TextureChannel <enum_BaseMaterial3D_TextureChannel>` "
+"**refraction_texture_channel**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1775
+msgid "set_refraction_texture_channel(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1777
+msgid "get_refraction_texture_channel()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1786
+msgid ":ref:`float <class_float>` **rim**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1789
+msgid "set_rim(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1791
+msgid "get_rim()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1794
+msgid "Sets the strength of the rim lighting effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1800
+msgid ":ref:`bool <class_bool>` **rim_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1810
+msgid ""
+"If ``true``, rim effect is enabled. Rim lighting increases the brightness"
+" at glancing angles on an object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1816
+msgid ":ref:`Texture2D <class_Texture2D>` **rim_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1824
+msgid ""
+"Texture used to set the strength of the rim lighting effect per-pixel. "
+"Multiplied by :ref:`rim <class_BaseMaterial3D_property_rim>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1830
+msgid ":ref:`float <class_float>` **rim_tint**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1833
+msgid "set_rim_tint(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1835
+msgid "get_rim_tint()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1838
+msgid ""
+"The amount of to blend light and albedo color when rendering rim effect. "
+"If ``0`` the light color is used, while ``1`` means albedo color is used."
+" An intermediate value generally works best."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1844
+msgid ":ref:`float <class_float>` **roughness**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1849
+msgid "set_roughness(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1851
+msgid "get_roughness()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1854
+msgid ""
+"Surface reflection. A value of ``0`` represents a perfect mirror while a "
+"value of ``1`` completely blurs the reflection. See also :ref:`metallic "
+"<class_BaseMaterial3D_property_metallic>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1860
+msgid ":ref:`Texture2D <class_Texture2D>` **roughness_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1868
+msgid ""
+"Texture used to control the roughness per-pixel. Multiplied by "
+":ref:`roughness <class_BaseMaterial3D_property_roughness>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1874
+msgid ""
+":ref:`TextureChannel <enum_BaseMaterial3D_TextureChannel>` "
+"**roughness_texture_channel**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1879
+msgid "set_roughness_texture_channel(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1881
+msgid "get_roughness_texture_channel()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1890
+msgid ":ref:`ShadingMode <enum_BaseMaterial3D_ShadingMode>` **shading_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1895
+msgid "set_shading_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1897
+msgid "get_shading_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1904
+msgid ":ref:`bool <class_bool>` **shadow_to_opacity**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1914
+msgid ""
+"If ``true``, enables the \"shadow to opacity\" render mode where lighting"
+" modifies the alpha so shadowed areas are opaque and non-shadowed areas "
+"are transparent. Useful for overlaying shadows onto a camera feed in AR."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1920
+msgid ":ref:`SpecularMode <enum_BaseMaterial3D_SpecularMode>` **specular_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1925
+msgid "set_specular_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1927
+msgid "get_specular_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1930
+msgid ""
+"The method for rendering the specular blob. See :ref:`SpecularMode "
+"<enum_BaseMaterial3D_SpecularMode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1936
+msgid ":ref:`bool <class_bool>` **subsurf_scatter_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1946
+msgid ""
+"If ``true``, subsurface scattering is enabled. Emulates light that "
+"penetrates an object's surface, is scattered, and then emerges."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1952
+msgid ":ref:`float <class_float>` **subsurf_scatter_strength**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1955
+msgid "set_subsurface_scattering_strength(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1957
+msgid "get_subsurface_scattering_strength()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1960
+msgid "The strength of the subsurface scattering effect."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1966
+msgid ":ref:`Texture2D <class_Texture2D>` **subsurf_scatter_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1974
+msgid ""
+"Texture used to control the subsurface scattering strength. Stored in the"
+" red texture channel. Multiplied by :ref:`subsurf_scatter_strength "
+"<class_BaseMaterial3D_property_subsurf_scatter_strength>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1980
+msgid ""
+":ref:`TextureFilter <enum_BaseMaterial3D_TextureFilter>` "
+"**texture_filter**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1985
+msgid "set_texture_filter(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1987
+msgid "get_texture_filter()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1990
+msgid ""
+"Filter flags for the texture. See :ref:`TextureFilter "
+"<enum_BaseMaterial3D_TextureFilter>` for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:1996
+msgid ":ref:`bool <class_bool>` **texture_repeat**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2006
+msgid ""
+"Repeat flags for the texture. See :ref:`TextureFilter "
+"<enum_BaseMaterial3D_TextureFilter>` for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2012
+msgid ":ref:`Color <class_Color>` **transmission**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2015
+msgid "set_transmission(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2017
+msgid "get_transmission()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2020
+msgid ""
+"The color used by the transmission effect. Represents the light passing "
+"through an object."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2026
+msgid ":ref:`bool <class_bool>` **transmission_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2036
+msgid "If ``true``, the transmission effect is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2042
+msgid ":ref:`Texture2D <class_Texture2D>` **transmission_texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2050
+msgid ""
+"Texture used to control the transmission effect per-pixel. Added to "
+":ref:`transmission <class_BaseMaterial3D_property_transmission>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2056
+msgid ":ref:`Transparency <enum_BaseMaterial3D_Transparency>` **transparency**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2061
+msgid "set_transparency(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2063
+msgid "get_transparency()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2066
+msgid ""
+"If ``true``, transparency is enabled on the body. See also "
+":ref:`blend_mode <class_BaseMaterial3D_property_blend_mode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2072
+msgid ":ref:`bool <class_bool>` **use_point_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2082
+msgid "If ``true``, render point size can be changed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2084
+msgid ""
+"**Note:** this is only effective for objects whose geometry is point-"
+"based rather than triangle-based. See also :ref:`point_size "
+"<class_BaseMaterial3D_property_point_size>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2090
+msgid ":ref:`Vector3 <class_Vector3>` **uv1_offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2095
+msgid "set_uv1_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2097
+msgid "get_uv1_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2100
+msgid ""
+"How much to offset the ``UV`` coordinates. This amount will be added to "
+"``UV`` in the vertex function. This can be used to offset a texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2106
+msgid ":ref:`Vector3 <class_Vector3>` **uv1_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2111
+msgid "set_uv1_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2113
+msgid "get_uv1_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2116
+msgid ""
+"How much to scale the ``UV`` coordinates. This is multiplied by ``UV`` in"
+" the vertex function."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2122
+msgid ":ref:`bool <class_bool>` **uv1_triplanar**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2132
+msgid ""
+"If ``true``, instead of using ``UV`` textures will use a triplanar "
+"texture lookup to determine how to apply textures. Triplanar uses the "
+"orientation of the object's surface to blend between texture coordinates."
+" It reads from the source texture 3 times, once for each axis and then "
+"blends between the results based on how closely the pixel aligns with "
+"each axis. This is often used for natural features to get a realistic "
+"blend of materials. Because triplanar texturing requires many more "
+"texture reads per-pixel it is much slower than normal UV texturing. "
+"Additionally, because it is blending the texture between the three axes, "
+"it is unsuitable when you are trying to achieve crisp texturing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2138
+msgid ":ref:`float <class_float>` **uv1_triplanar_sharpness**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2143
+msgid "set_uv1_triplanar_blend_sharpness(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2145
+msgid "get_uv1_triplanar_blend_sharpness()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2228
+msgid ""
+"A lower number blends the texture more softly while a higher number "
+"blends the texture more sharply."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2154
+msgid ":ref:`bool <class_bool>` **uv1_world_triplanar**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2164
+msgid ""
+"If ``true``, triplanar mapping for ``UV`` is calculated in world space "
+"rather than object local space. See also :ref:`uv1_triplanar "
+"<class_BaseMaterial3D_property_uv1_triplanar>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2170
+msgid ":ref:`Vector3 <class_Vector3>` **uv2_offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2175
+msgid "set_uv2_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2177
+msgid "get_uv2_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2180
+msgid ""
+"How much to offset the ``UV2`` coordinates. This amount will be added to "
+"``UV2`` in the vertex function. This can be used to offset a texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2186
+msgid ":ref:`Vector3 <class_Vector3>` **uv2_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2191
+msgid "set_uv2_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2193
+msgid "get_uv2_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2196
+msgid ""
+"How much to scale the ``UV2`` coordinates. This is multiplied by ``UV2`` "
+"in the vertex function."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2202
+msgid ":ref:`bool <class_bool>` **uv2_triplanar**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2212
+msgid ""
+"If ``true``, instead of using ``UV2`` textures will use a triplanar "
+"texture lookup to determine how to apply textures. Triplanar uses the "
+"orientation of the object's surface to blend between texture coordinates."
+" It reads from the source texture 3 times, once for each axis and then "
+"blends between the results based on how closely the pixel aligns with "
+"each axis. This is often used for natural features to get a realistic "
+"blend of materials. Because triplanar texturing requires many more "
+"texture reads per-pixel it is much slower than normal UV texturing. "
+"Additionally, because it is blending the texture between the three axes, "
+"it is unsuitable when you are trying to achieve crisp texturing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2218
+msgid ":ref:`float <class_float>` **uv2_triplanar_sharpness**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2223
+msgid "set_uv2_triplanar_blend_sharpness(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2225
+msgid "get_uv2_triplanar_blend_sharpness()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2234
+msgid ":ref:`bool <class_bool>` **uv2_world_triplanar**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2244
+msgid ""
+"If ``true``, triplanar mapping for ``UV2`` is calculated in world space "
+"rather than object local space. See also :ref:`uv2_triplanar "
+"<class_BaseMaterial3D_property_uv2_triplanar>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2250
+msgid ":ref:`bool <class_bool>` **vertex_color_is_srgb**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2260
+msgid "If ``true``, the model's vertex colors are processed as sRGB mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2266
+msgid ":ref:`bool <class_bool>` **vertex_color_use_as_albedo**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2276
+msgid "If ``true``, the vertex color is used as albedo color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2279
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2283
+msgid ""
+":ref:`bool <class_bool>` **get_feature** **(** :ref:`Feature "
+"<enum_BaseMaterial3D_Feature>` feature **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2285
+msgid ""
+"Returns ``true``, if the specified :ref:`Feature "
+"<enum_BaseMaterial3D_Feature>` is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2291
+msgid ""
+":ref:`bool <class_bool>` **get_flag** **(** :ref:`Flags "
+"<enum_BaseMaterial3D_Flags>` flag **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2293
+msgid ""
+"Returns ``true``, if the specified flag is enabled. See :ref:`Flags "
+"<enum_BaseMaterial3D_Flags>` enumerator for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2299
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_texture** **(** "
+":ref:`TextureParam <enum_BaseMaterial3D_TextureParam>` param **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2301
+msgid ""
+"Returns the :ref:`Texture <class_Texture>` associated with the specified "
+":ref:`TextureParam <enum_BaseMaterial3D_TextureParam>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2307
+msgid ""
+"void **set_feature** **(** :ref:`Feature <enum_BaseMaterial3D_Feature>` "
+"feature, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2309
+msgid ""
+"If ``true``, enables the specified :ref:`Feature "
+"<enum_BaseMaterial3D_Feature>`. Many features that are available in "
+"``BaseMaterial3D``\\ s need to be enabled before use. This way the cost "
+"for using the feature is only incurred when specified. Features can also "
+"be enabled by setting the corresponding member to ``true``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2315
+msgid ""
+"void **set_flag** **(** :ref:`Flags <enum_BaseMaterial3D_Flags>` flag, "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2317
+msgid ""
+"If ``true``, enables the specified flag. Flags are optional behavior that"
+" can be turned on and off. Only one flag can be enabled at a time with "
+"this function, the flag enumerators cannot be bit-masked together to "
+"enable or disable multiple flags at once. Flags can also be enabled by "
+"setting the corresponding member to ``true``. See :ref:`Flags "
+"<enum_BaseMaterial3D_Flags>` enumerator for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_basematerial3d.rst:2323
+msgid ""
+"void **set_texture** **(** :ref:`TextureParam "
+"<enum_BaseMaterial3D_TextureParam>` param, :ref:`Texture2D "
+"<class_Texture2D>` texture **)**"
+msgstr ""
+
+#~ msgid "**TEXTURE_FILTER_NEAREST_WITH_MIMPAMPS** = **2**"
+#~ msgstr ""
+
+#~ msgid "**TEXTURE_FILTER_NEAREST_WITH_MIMPAMPS_ANISOTROPIC** = **4**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FLAG_SRGB_VERTEX_COLOR** = **2** --- Vertex"
+#~ " color is in sRGB space and "
+#~ "needs to be converted to linear. "
+#~ "Only applies in the GLES3 renderer."
+#~ msgstr ""
+

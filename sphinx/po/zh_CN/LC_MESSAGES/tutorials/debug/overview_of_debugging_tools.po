@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2020-03-06 18:22+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:4
 msgid "Overview of debugging tools"
@@ -25,7 +29,7 @@ msgstr "调试工具概述"
 msgid ""
 "This guide will give you an overview of the available debugging tools in the "
 "engine."
-msgstr ""
+msgstr "本指南会给你一篇在引擎中可用的调试工具的概述。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:9
 msgid ""
@@ -34,58 +38,57 @@ msgid ""
 "performances. It also offers options to visualize collision boxes and "
 "navigation polygons in the running game."
 msgstr ""
+"Godot配备了功能强大的调试器和分析器，可以跟踪错误，在运行时中检查游戏，监视基"
+"本指标，并衡量性能。它还提供了一些选项，来可视化正在运行的游戏中的碰撞盒和导"
+"航多边形。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:14
 msgid ""
 "Finally, you have options to debug the game running on a remote device and "
 "to reload changes to your scenes or your code while the game is running."
 msgstr ""
+"最后，您有些选项来调试在远程设备上运行的游戏，并当游戏运行时将更改重新加载到"
+"场景或代码中。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:18
-#, fuzzy
 msgid "Debug menu options"
-msgstr "调试选项"
+msgstr "调试菜单选项"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:20
-#, fuzzy
 msgid ""
 "There are a few common debug options you can toggle on or off when running "
 "your game in the editor, which can help you in debugging your game."
 msgstr ""
-"在编辑器中运行游戏时可以启用几个选项，以帮助您调试游戏。 这些选项位于主菜单中"
-"的 调试(Debug) 中。"
+"当在编辑器中运行游戏时，可以打开或关闭一些常用的调试选项，这些选项可以帮助您"
+"调试游戏。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:23
-#, fuzzy
 msgid "You can find these options in the **Debug** editor menu."
-msgstr "您可以通过以下菜单在编辑器的3D视图中隐藏小玩意:"
+msgstr "您可以在 **调试（Debug）** 编辑器菜单中找到这些选项。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:27
 msgid "Here are the descriptions of the options:"
-msgstr "下面是这些选项的说明:"
+msgstr "以下是这些选项的说明："
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:30
 msgid "Deploy with Remote Debug"
-msgstr "使用远程调试部署"
+msgstr "使用远程调试进行部署"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:32
-#, fuzzy
 msgid ""
 "When exporting and deploying, the resulting executable will attempt to "
 "connect to the IP of your computer for debugging."
-msgstr ""
-"在导出和发布游戏的调试版本时，导出的可执行文件将尝试连接到您本机的IP进行进行"
-"调试。"
+msgstr "当导出和部署时，生成的可执行文件将尝试连接到计算机的IP进行调试。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:36
 msgid "Small Deploy with Network FS"
-msgstr "使用网络文件系统进行小型部署"
+msgstr "使用网络文件系统小型部署"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:38
 msgid ""
 "This option speeds up testing for games with a large footprint on remote "
 "devices."
-msgstr ""
+msgstr "此选项可加快在远程设备上占用大量资源的游戏的测试速度。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:40
 msgid ""
@@ -93,62 +96,61 @@ msgid ""
 "game, deploying the game builds a minimal executable. The editor then "
 "provides files from the project over the network."
 msgstr ""
+"当 **使用网络文件系统小型部署** 启用时，部署游戏会生成最小的可执行文件，而不"
+"是导出完整的游戏。然后，编辑器通过网络提供项目中的文件。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:44
 msgid ""
 "Also, on Android, the game is deployed using the USB cable to speed up "
 "deployment."
-msgstr ""
+msgstr "另外，在Android上，游戏使用USB数据线部署，以加快部署速度。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:47
 msgid "Visible Collision Shapes"
-msgstr "显示碰撞区域"
+msgstr "可见碰撞形状"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:49
-#, fuzzy
 msgid ""
 "This option makes collision shapes and raycast nodes visible in the running "
 "game."
-msgstr "可以在运行游戏的时候看到碰撞区域和射线节点。"
+msgstr "此选项使碰撞形状和射线投射节点在正在运行的游戏中可见。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:52
 msgid "Visible Navigation"
-msgstr "显示导航"
+msgstr "可见导航"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:54
 msgid "Navigation meshes and polygons will be visible on the running game."
-msgstr "可以在运行的游戏的时候看到导航网格和多边形。"
+msgstr "导航网格和多边形将在正在运行的游戏中可见。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:57
 msgid "Sync Scene Changes"
-msgstr "同步场景修改"
+msgstr "同步场景变更"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:59
-#, fuzzy
 msgid ""
 "With this option, any change you make to a scene in the editor at runtime "
 "appears instantly. When used remotely on a device, this is more efficient "
 "with the network filesystem."
 msgstr ""
-"在编辑器中对场景所做的任何更改都将在正在运行的游戏中出现。 当在设备上远程使用"
-"时，这对网络文件系统更有效。"
+"使用此选项，在运行时中对编辑器中的场景所做的任何更改都会立即显示。当在设备上"
+"远程使用时，与网络文件系统一起使用更为有效。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:64
 msgid "Sync Script Changes"
 msgstr "同步脚本变更"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:66
-#, fuzzy
 msgid ""
 "Any script that is saved will be reloaded on the running game. When used "
 "remotely on a device, this is more efficient with the network filesystem."
 msgstr ""
-"任何已修改并保存的脚本将在正在运行的游戏中重新加载。 当在设备上远程使用时，这"
-"对网络文件系统更有效。"
+"保存的所有脚本都将重新加载到正在运行的游戏中。当在设备上远程使用时，与网络文"
+"件系统一起使用更为有效。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:70
 msgid "Script editor debug tools and options"
-msgstr ""
+msgstr "脚本编辑器调试工具和选项"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:72
 msgid ""
@@ -156,6 +158,8 @@ msgid ""
 "and two options. The breakpoint tools can also be found in the **Debugger** "
 "tab of the debugger."
 msgstr ""
+"脚本编辑器有自己的调试工具集，可用于断点和两个选项。断点工具也可以在调试器的 "
+"**调试器（Debugger）** 选项卡中找到。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:78
 msgid ""
@@ -164,6 +168,10 @@ msgid ""
 "Over** goes to the next line of code, and **Step Into** goes into a function "
 "if possible. Otherwise, it does the same thing as **Step Over**."
 msgstr ""
+"**中断（Break）** 按钮会像断点一样在脚本中导致一个中断。**继续（Continue）** "
+"使游戏在断点处暂停后继续。**单步跳过（Step Over）** 转到代码的下一行，而 **单"
+"步进入（Step Into）** 尽可能进入一个函数。否则，它的作用与 **单步跳过（Step "
+"Over）** 相同。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:83
 msgid ""
@@ -171,28 +179,33 @@ msgid ""
 "been closed. And the **Debug with External Editor** option lets you debug "
 "your game with an external editor."
 msgstr ""
+"**保持调试器打开（Keep Debugger Open）** 选项使场景关闭后，调试器保持打开状"
+"态。而 **使用外部编辑器调试（Debug with External Editor）** 选项可让您使用一"
+"个外部编辑器调试游戏。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:88
-#, fuzzy
 msgid "Debug project settings"
-msgstr "使用项目设置"
+msgstr "调试项目设置"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:90
 msgid ""
 "In the project settings, there is a **Debug** category with three "
 "subcategories which control different things."
 msgstr ""
+"在项目设置中，有一个带有三个子类别的 **调试（Debug）** 类别，它们控制着不同的"
+"事物。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:94
-#, fuzzy
 msgid "Settings"
-msgstr "字符串"
+msgstr "设置"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:96
 msgid ""
 "These are some general settings such as printing the current FPS to the "
 "**Output** panel, the maximum amount of functions when profiling and others."
 msgstr ""
+"这些是一些常规设置，例如将当前FPS打印到 **输出（Output）** 面板，分析时的函数"
+"最大数量以及其他设置。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:101
 msgid "GDScript"
@@ -203,17 +216,18 @@ msgid ""
 "These settings allow you to toggle specific GDScript warnings, such as for "
 "unused variables. You can also turn off warnings completely."
 msgstr ""
+"这些设置使您可以开关特定的GDScript警告，例如未使用的变量。您也可以完全关闭警"
+"告。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:107
-#, fuzzy
 msgid "Shapes"
-msgstr "形状键"
+msgstr "形状"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:109
 msgid ""
 "Shapes are where you can adjust the color of shapes that only appear for "
 "debugging purposes, such as collision and navigation shapes."
-msgstr ""
+msgstr "在形状中，您可以调整仅用于调试目的的形状的颜色，例如碰撞和导航形状。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:113
 msgid "Debugging tools"
@@ -223,12 +237,12 @@ msgstr "调试工具"
 msgid ""
 "You can find the debugger in the bottom panel. Click on **Debugger** to open "
 "it."
-msgstr ""
+msgstr "您可以在底部面板中找到调试器。点击 **调试器（Debugger）** 将其打开。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:119
 msgid ""
 "The debugger is split into several tabs, each focusing on a specific task."
-msgstr ""
+msgstr "调试器分为几个选项卡，每个选项卡专注于一个特定任务。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:122
 msgid "Debugger"
@@ -238,7 +252,7 @@ msgstr "调试器"
 msgid ""
 "The debugger tab opens automatically when the GDScript compiler reaches a "
 "breakpoint in your code."
-msgstr ""
+msgstr "当GDScript编译器在代码中到达一个断点时，调试器选项卡将自动打开。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:127
 msgid ""
@@ -246,40 +260,46 @@ msgid ""
 "information about the state of the object, and buttons to control the "
 "program's execution."
 msgstr ""
+"它为您提供了一个 `堆栈跟踪 <https://en.wikipedia.org/wiki/Stack_trace>`__，有"
+"关对象状态的信息，以及用于控制程序执行的按钮。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:131
 msgid "You can use the buttons in the top-right to:"
-msgstr ""
+msgstr "您可以使用右上角的按钮执行以下操作："
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:133
 msgid ""
 "Skip all breakpoints. That way, you can save breakpoints for future "
 "debugging sessions."
-msgstr ""
+msgstr "跳过所有断点。这样，您可以保存断点以用于将来的调试会话。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:135
 msgid "Copy the current error message."
-msgstr ""
+msgstr "复制当前的错误消息。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:136
 msgid ""
 "**Step Into** the code. This button takes you to the next line of code, and "
 "if it's a function, it steps line-by-line through the function."
 msgstr ""
+"**单步进入（Step Into）** 代码。此按钮将带您到代码的下一行，如果是一个函数，"
+"则逐行浏览该函数。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:138
 msgid ""
 "**Step Over** the code. This button goes to the next line of code, but it "
 "doesn't step line-by-line through functions."
 msgstr ""
+"**单步跳过（Step Over）** 该代码。该按钮转到代码的下一行，但不会逐行浏览函"
+"数。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:140
 msgid "**Break**. This button pauses the game's execution."
-msgstr ""
+msgstr "**中断（Break）**。此按钮暂停游戏的执行。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:141
 msgid "**Continue**. This button resumes the game after a breakpoint or pause."
-msgstr ""
+msgstr "**继续（继续）**。断点或暂停后，此按钮将恢复游戏。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:144
 msgid "Errors"
@@ -288,23 +308,23 @@ msgstr "错误"
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:146
 msgid ""
 "This is where errors and warning messages are printed while running the game."
-msgstr ""
+msgstr "这是当运行游戏时，会打印错误和警告消息的地方。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:149
 msgid "Profiler"
-msgstr "性能分析器"
+msgstr "分析器"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:151
 msgid ""
 "The debugger comes with three profilers for your processor, network "
 "operations, and video memory."
-msgstr ""
+msgstr "该调试器带有三个用于处理器、网络操作、和显存的分析器。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:154
 msgid ""
 "The profiler is used to show why individual frames take as long as they do "
 "to process and render."
-msgstr ""
+msgstr "分析器用于显示为什么单个帧要花这么长时间来处理和渲染。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:157
 msgid ""
@@ -316,6 +336,10 @@ msgid ""
 "records won't go away unless you click clear, or close the game, reopen it "
 "and start the profiler again."
 msgstr ""
+"与其他调试工具不同，分析器不会自动启动。可以在游戏过程中随时按开始按钮来启动"
+"它。您甚至可以在打开游戏之前启动分析器，以分析启动性能。它也可以在游戏运行时"
+"启动和停止，而不会丢失上一次运行时的信息。除非单击清除或关闭游戏，然后重新打"
+"开它并再次启动探查器，否则记录的信息不会消失。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:165
 msgid ""
@@ -324,6 +348,9 @@ msgid ""
 "are everything that contributes to frame time, and they should each have a "
 "value for time and calls for the current frame you are looking at."
 msgstr ""
+"在启动和停止分析器之后，您应该在左边看到跟踪的对象，在右边看到一个图形。左侧"
+"列出的项目是构成帧时间的所有内容，它们每个都是您正在查看的当前帧对应的应具有"
+"时间值和调用。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:170
 msgid ""
@@ -331,6 +358,8 @@ msgid ""
 "looking at. You can change this by using the up or down arrows, typing in "
 "the frame number, or clicking on the graph."
 msgstr ""
+"右上角的帧号告诉您当前正在查看哪一帧。您可以使用向上或向下箭头，输入帧号或点"
+"击图形来更改此设置。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:174
 msgid ""
@@ -338,6 +367,8 @@ msgid ""
 "you can check and uncheck the box next to an item to add or remove it from "
 "the graph."
 msgstr ""
+"如果要向图形中添加某些内容，或者认为它看起来过于混乱，可以选中并取消选中该项"
+"旁边的框，以将其添加到图形中或从图形中删除。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:179
 msgid "Network Profiler"
@@ -350,10 +381,13 @@ msgid ""
 "incoming and outgoing network interactions. It also features a bandwidth "
 "meter that displays the total bandwidth usage at any given moment."
 msgstr ""
+"网络包含一个通过多人API进行通信的所有节点的列表，并且每个节点都包含一些有关传"
+"入和传出网络交互量的计数器。它还具有带宽表，可显示任何给定时刻的总带宽使用情"
+"况。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:187
 msgid "Monitors"
-msgstr "监视"
+msgstr "监控器"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:189
 msgid ""
@@ -363,58 +397,121 @@ msgid ""
 "open while the game is running, you can open it later and see how the values "
 "changed."
 msgstr ""
+"监视器是当游戏运行时各个方面，例如FPS，内存使用情况，场景中有多少个节点等等的"
+"图形。所有监视器都会自动跟踪统计信息，因此，即使在游戏运行时未打开一台监视"
+"器，您也可以稍后打开它，查看其值如何变化。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:195
-#, fuzzy
 msgid "Video Memory"
 msgstr "显存"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:197
-#, fuzzy
 msgid ""
 "The **Video Mem** tab lists the video memory usage of the running game and "
 "the resources using it."
-msgstr "列出运行中的游戏所有的现存占用列表。"
+msgstr ""
+"**显存（Video Mem）** 选项卡列出了正在运行的游戏的显存使用情况以及正使用它的"
+"资源。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:201
 msgid "Misc"
-msgstr "其他"
+msgstr "杂项"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:203
 msgid ""
 "The **Misc** tab contains tools to identify the control nodes you are "
 "clicking at runtime:"
 msgstr ""
+"**杂项（Misc）** 选项卡包含一些工具，这些工具可以标识您在运行时中点击的控制节"
+"点："
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:206
 msgid ""
 "**Clicked Control** tells you where the clicked node is in the scene tree."
-msgstr ""
+msgstr "**点击的控件（Clicked Control）** 告诉您点击的节点在场景树中的位置。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:207
 msgid "**Clicked Control Type** tells you the type of the node you clicked is."
-msgstr ""
+msgstr "**点击的控件类型（Clicked Control Type）** 告诉您点击的节点的类型。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:210
-#, fuzzy
 msgid "Remote in scene dock"
-msgstr "远程场景树"
+msgstr "场景停靠面板中的远程"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:212
-#, fuzzy
 msgid ""
 "When running a game in the editor two options appear at the top of the "
 "**Scene** dock, **Remote** and **Local**. While using **Remote** you can "
 "inspect or change the nodes' parameters in the running project."
 msgstr ""
-"在启动游戏后，``场景 (Scene)`` 停靠窗的顶部会出现一条切页栏，您可以切换到 ``"
-"远程 (Remote) `` 然后检视运行中节点和他们属性的变化。"
+"当在编辑器中运行游戏时，**场景（Scene）** 停靠面板的顶部会显示两个选项：**远"
+"程（Remote）** 和 **本地（Local）**。使用 **远程（Remote）** 时，您可以检查或"
+"更改正在运行的项目中节点的参数。"
 
 #: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:218
-#, fuzzy
 msgid ""
 "Some editor settings related to debugging can be found inside the **Editor "
 "Settings**, under the **Network > Debug** and **Debugger** sections."
 msgstr ""
-"一些与调试相关的编辑器设置可以在“编辑器设置”中找到，在“网络”>“调试和调试器”部"
-"分下。"
+"某些与调试相关的编辑器设置，可在 **编辑器设置（Editor Settings）** 中的 **网"
+"络 > 调试（Network > Debug）** 和 **调试器（Debugger）** 部分下找到。"
+
+#~ msgid "The ``Debugger`` provides certain tools under different tabs."
+#~ msgstr "调试工具中的各个切页提供了不同的的调试功能。"
+
+#~ msgid "Here are some brief descriptions of the tools:"
+#~ msgstr "下面是对这些工具的一些简要说明:"
+
+#~ msgid "Monitor the game running process."
+#~ msgstr "显示正在运行的游戏进程。"
+
+#~ msgid "Print out errors when running the game."
+#~ msgstr "输出游戏运行时发生的错误信息。"
+
+#~ msgid ""
+#~ "Monitors the performance of the running game, such as the fps and physics "
+#~ "collisions."
+#~ msgstr "监视正在运行的游戏的运行状况，例如 FPS 和物理碰撞。"
+
+#~ msgid ""
+#~ "When running your game, a bar will occur at the top of the ``Scene`` "
+#~ "dock. You can switch to ``Remote`` and inspect or change the nodes' "
+#~ "parameters in the running game."
+#~ msgstr ""
+#~ "在启动游戏后，``场景 (Scene)`` 停靠窗的顶部会出现一条切页栏，您可以切换到 "
+#~ "``远程 (Remote) `` 然后检视运行中节点和他们属性的变化。"
+
+#~ msgid "Profiles the performance of any function call in the running game."
+#~ msgstr "对正在运行中的游戏进行性能分析。"
+
+#~ msgid "Miscellaneous options for debug."
+#~ msgstr "调试用的其他选项。"
+
+#~ msgid "Introduction"
+#~ msgstr "简介"
+
+#~ msgid ""
+#~ "When developing your game, you want to test your game and debug when "
+#~ "problems occur. Godot provides several debugging options and tools which "
+#~ "aid your debugging process. There are the debug dropdown options, Script "
+#~ "editor debug options, debug project settings, and the debugger."
+#~ msgstr ""
+#~ "在游戏开发过程中时常需要对游戏进行调试来解决我们遇到的问题。 Godot 提供了"
+#~ "一些调试选项和工具来帮助您进行调试工作。"
+
+#~ msgid ""
+#~ "Export or deploy will produce minimal executable. The filesystem will be "
+#~ "provided from the project by the editor over the network. On Android, "
+#~ "deploy will use the USB cable for faster performance. This option speeds "
+#~ "up testing for games with a large footprint."
+#~ msgstr ""
+#~ "导出时生成最小化的可执行文件。改可执行文件将通过本地网络连接编辑器来使用文"
+#~ "件系统； 在 Android 平台上，可以使用 USB 进行来提高传输效率。 这个选项能够"
+#~ "加速偏大型游戏的测试工作。"
+
+#~ msgid ""
+#~ "The ``Debugger`` can be found in Godot's bottom panel. Click on it and "
+#~ "the panel expands to show all the debugging tools."
+#~ msgstr ""
+#~ "``调试器 (Debugger)`` 按钮在底部面板中可以找到，点击后可以打开调试工具面"
+#~ "板。"

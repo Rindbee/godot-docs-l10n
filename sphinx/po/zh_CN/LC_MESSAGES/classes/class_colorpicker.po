@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:10
+msgid "ColorPicker"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:12
+msgid ""
+"**Inherits:** :ref:`BoxContainer <class_BoxContainer>` **<** "
+":ref:`Container <class_Container>` **<** :ref:`Control <class_Control>` "
+"**<** :ref:`CanvasItem <class_CanvasItem>` **<** :ref:`Node <class_Node>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:14
+msgid "Color picker control."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:19
+msgid ""
+"Displays a color picker widget. Useful for selecting a color from an "
+"RGB/RGBA colorspace."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:25
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:25
+msgid ":ref:`color <class_ColorPicker_property_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:111
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:37
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:27
+msgid ":ref:`deferred_mode <class_ColorPicker_property_deferred_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:209
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:29
+msgid ":ref:`edit_alpha <class_ColorPicker_property_edit_alpha>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:193
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:31
+msgid ":ref:`hsv_mode <class_ColorPicker_property_hsv_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:33
+msgid ":ref:`presets_enabled <class_ColorPicker_property_presets_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:35
+msgid ":ref:`presets_visible <class_ColorPicker_property_presets_visible>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:37
+msgid ":ref:`raw_mode <class_ColorPicker_property_raw_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:41
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:46
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:44
+msgid ""
+":ref:`add_preset <class_ColorPicker_method_add_preset>` **(** :ref:`Color"
+" <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:46
+msgid ""
+":ref:`erase_preset <class_ColorPicker_method_erase_preset>` **(** "
+":ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:48
+msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:48
+msgid ""
+":ref:`get_presets <class_ColorPicker_method_get_presets>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:52
+msgid "Theme Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:71
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:55
+msgid "add_preset"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:57
+msgid "color_hue"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:59
+msgid "color_sample"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:75
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:61
+msgid "h_width"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:61
+msgid "30"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:63
+msgid "label_width"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:63
+msgid "10"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:65
+msgid "margin"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:65
+msgid "4"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:67
+msgid "overbright_indicator"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:69
+msgid "preset_bg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:71
+msgid "screen_picker"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:73
+msgid "sv_height"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:75
+msgid "256"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:75
+msgid "sv_width"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:79
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:83
+msgid "**color_changed** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:85
+msgid "Emitted when the color is changed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:91
+msgid "**preset_added** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:93
+msgid "Emitted when a preset is added."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:99
+msgid "**preset_removed** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:101
+msgid "Emitted when a preset is removed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:104
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:108
+msgid ":ref:`Color <class_Color>` **color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:209
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:211
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:113
+msgid "set_pick_color(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:147
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:163
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:181
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:213
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:115
+msgid "get_pick_color()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:118
+msgid "The currently selected color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:124
+msgid ":ref:`bool <class_bool>` **deferred_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:129
+msgid "set_deferred_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:131
+msgid "is_deferred_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:134
+msgid ""
+"If ``true``, the color will apply only after the user releases the mouse "
+"button, otherwise it will apply immediately even in mouse motion event "
+"(which can cause performance issues)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:140
+msgid ":ref:`bool <class_bool>` **edit_alpha**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:145
+msgid "set_edit_alpha(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:147
+msgid "is_editing_alpha()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:150
+msgid "If ``true``, shows an alpha channel slider (transparency)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:156
+msgid ":ref:`bool <class_bool>` **hsv_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:161
+msgid "set_hsv_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:163
+msgid "is_hsv_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:166
+msgid "If ``true``, allows editing the color with Hue/Saturation/Value sliders."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:168
+msgid "**Note:** Cannot be enabled if raw mode is on."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:174
+msgid ":ref:`bool <class_bool>` **presets_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:179
+msgid "set_presets_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:181
+msgid "are_presets_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:184
+msgid "If ``true``, the \"add preset\" button is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:190
+msgid ":ref:`bool <class_bool>` **presets_visible**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:195
+msgid "set_presets_visible(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:197
+msgid "are_presets_visible()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:200
+msgid "If ``true``, saved color presets are visible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:206
+msgid ":ref:`bool <class_bool>` **raw_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:211
+msgid "set_raw_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:213
+msgid "is_raw_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:216
+msgid ""
+"If ``true``, allows the color R, G, B component values to go beyond 1.0, "
+"which can be used for certain special operations that require it (like "
+"tinting without darkening or rendering sprites in HDR)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:218
+msgid "**Note:** Cannot be enabled if HSV mode is on."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:221
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:225
+msgid "void **add_preset** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:227
+msgid ""
+"Adds the given color to a list of color presets. The presets are "
+"displayed in the color picker and the user will be able to select them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:229
+msgid "**Note:** the presets list is only for *this* color picker."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:235
+msgid "void **erase_preset** **(** :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:237
+msgid ""
+"Removes the given color from the list of color presets of this color "
+"picker."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:243
+msgid ""
+":ref:`PackedColorArray <class_PackedColorArray>` **get_presets** **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_colorpicker.rst:245
+msgid "Returns the list of colors in the presets of the color picker."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "Color( 1, 1, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Control <class_Control>` node displaying "
+#~ "a color picker widget. It's useful "
+#~ "for selecting a color from an "
+#~ "RGB/RGBA colorspace."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolColorArray <class_PoolColorArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolColorArray <class_PoolColorArray>` "
+#~ "**get_presets** **(** **)** const"
+#~ msgstr ""
+

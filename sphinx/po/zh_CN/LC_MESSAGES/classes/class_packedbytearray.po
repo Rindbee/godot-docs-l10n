@@ -1,0 +1,362 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:10
+msgid "PackedByteArray"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:12
+msgid "A packed :ref:`Array <class_Array>` of bytes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:15
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:17
+msgid ""
+"An :ref:`Array <class_Array>` specifically designed to hold bytes. Packs "
+"data tightly, so it saves memory for large array sizes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:19
+msgid "**Note:** This type is passed by value and not by reference."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:57
+msgid ":ref:`PackedByteArray <class_PackedByteArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:25
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray_method_PackedByteArray>` "
+"**(** :ref:`Array <class_Array>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:53
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:27
+msgid ""
+":ref:`append <class_PackedByteArray_method_append>` **(** :ref:`int "
+"<class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:29
+msgid ""
+":ref:`append_array <class_PackedByteArray_method_append_array>` **(** "
+":ref:`PackedByteArray <class_PackedByteArray>` array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:31
+msgid ""
+":ref:`compress <class_PackedByteArray_method_compress>` **(** :ref:`int "
+"<class_int>` compression_mode=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:33
+msgid ""
+":ref:`decompress <class_PackedByteArray_method_decompress>` **(** "
+":ref:`int <class_int>` buffer_size, :ref:`int <class_int>` "
+"compression_mode=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:35
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:35
+msgid ":ref:`empty <class_PackedByteArray_method_empty>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:41
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:37
+msgid ""
+":ref:`get_string_from_ascii "
+"<class_PackedByteArray_method_get_string_from_ascii>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:39
+msgid ""
+":ref:`get_string_from_utf8 "
+"<class_PackedByteArray_method_get_string_from_utf8>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:41
+msgid ":ref:`hex_encode <class_PackedByteArray_method_hex_encode>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:55
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:43
+msgid ""
+":ref:`insert <class_PackedByteArray_method_insert>` **(** :ref:`int "
+"<class_int>` idx, :ref:`int <class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:45
+msgid ":ref:`invert <class_PackedByteArray_method_invert>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:47
+msgid ""
+":ref:`push_back <class_PackedByteArray_method_push_back>` **(** :ref:`int"
+" <class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:49
+msgid ""
+":ref:`remove <class_PackedByteArray_method_remove>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:51
+msgid ""
+":ref:`resize <class_PackedByteArray_method_resize>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:53
+msgid ""
+":ref:`set <class_PackedByteArray_method_set>` **(** :ref:`int "
+"<class_int>` idx, :ref:`int <class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:55
+msgid ":ref:`size <class_PackedByteArray_method_size>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:57
+msgid ""
+":ref:`subarray <class_PackedByteArray_method_subarray>` **(** :ref:`int "
+"<class_int>` from, :ref:`int <class_int>` to **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:61
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:65
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **PackedByteArray** **(** "
+":ref:`Array <class_Array>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:67
+msgid ""
+"Constructs a new ``PackedByteArray``. Optionally, you can pass in a "
+"generic :ref:`Array <class_Array>` that will be converted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:73
+msgid "void **append** **(** :ref:`int <class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:75
+msgid ""
+"Appends an element at the end of the array (alias of :ref:`push_back "
+"<class_PackedByteArray_method_push_back>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:81
+msgid ""
+"void **append_array** **(** :ref:`PackedByteArray "
+"<class_PackedByteArray>` array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:83
+msgid "Appends a ``PackedByteArray`` at the end of this array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:89
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **compress** **(** "
+":ref:`int <class_int>` compression_mode=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:91
+msgid ""
+"Returns a new ``PackedByteArray`` with the data compressed. Set the "
+"compression mode using one of :ref:`CompressionMode "
+"<enum_File_CompressionMode>`'s constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:97
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **decompress** **(** "
+":ref:`int <class_int>` buffer_size, :ref:`int <class_int>` "
+"compression_mode=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:99
+msgid ""
+"Returns a new ``PackedByteArray`` with the data decompressed. Set "
+"``buffer_size`` to the size of the uncompressed data. Set the compression"
+" mode using one of :ref:`CompressionMode <enum_File_CompressionMode>`'s "
+"constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:105
+msgid ":ref:`bool <class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:107
+msgid "Returns ``true`` if the array is empty."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:113
+msgid ":ref:`String <class_String>` **get_string_from_ascii** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:115
+msgid ""
+"Returns a copy of the array's contents as :ref:`String <class_String>`. "
+"Fast alternative to :ref:`get_string_from_utf8 "
+"<class_PackedByteArray_method_get_string_from_utf8>` if the content is "
+"ASCII-only. Unlike the UTF-8 function this function maps every byte to a "
+"character in the array. Multibyte sequences will not be interpreted "
+"correctly. For parsing user input always use :ref:`get_string_from_utf8 "
+"<class_PackedByteArray_method_get_string_from_utf8>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:121
+msgid ":ref:`String <class_String>` **get_string_from_utf8** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:123
+msgid ""
+"Returns a copy of the array's contents as :ref:`String <class_String>`. "
+"Slower than :ref:`get_string_from_ascii "
+"<class_PackedByteArray_method_get_string_from_ascii>` but supports UTF-8 "
+"encoded data. Use this function if you are unsure about the source of the"
+" data. For user input this function should always be preferred."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:129
+msgid ":ref:`String <class_String>` **hex_encode** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:131
+msgid ""
+"Returns a hexadecimal representation of this array as a :ref:`String "
+"<class_String>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:142
+msgid ""
+":ref:`int <class_int>` **insert** **(** :ref:`int <class_int>` idx, "
+":ref:`int <class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:144
+msgid ""
+"Inserts a new element at a given position in the array. The position must"
+" be valid, or at the end of the array (``idx == size()``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:150
+msgid "void **invert** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:152
+msgid "Reverses the order of the elements in the array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:158
+msgid "void **push_back** **(** :ref:`int <class_int>` byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:160
+msgid "Appends an element at the end of the array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:166
+msgid "void **remove** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:168
+msgid "Removes an element from the array by index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:174
+msgid "void **resize** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:176
+msgid ""
+"Sets the size of the array. If the array is grown, reserves elements at "
+"the end of the array. If the array is shrunk, truncates the array to the "
+"new size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:182
+msgid ""
+"void **set** **(** :ref:`int <class_int>` idx, :ref:`int <class_int>` "
+"byte **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:184
+msgid "Changes the byte at the given index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:190
+msgid ":ref:`int <class_int>` **size** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:192
+msgid "Returns the size of the array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:198
+msgid ""
+":ref:`PackedByteArray <class_PackedByteArray>` **subarray** **(** "
+":ref:`int <class_int>` from, :ref:`int <class_int>` to **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedbytearray.rst:200
+msgid ""
+"Returns the slice of the ``PackedByteArray`` between indices (inclusive) "
+"as a new ``PackedByteArray``. Any negative index is considered to be from"
+" the end of the array."
+msgstr ""
+

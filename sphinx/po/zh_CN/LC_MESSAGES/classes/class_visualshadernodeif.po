@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeif.rst:10
+msgid "VisualShaderNodeIf"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeif.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeif.rst:14
+msgid ""
+"Compares two floating-point numbers in order to return a required vector "
+"within the visual shader graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeif.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeif.rst:19
+msgid ""
+"First two ports are scalar floatin-point numbers to compare, third is "
+"tolerance comparsion amount and last three ports represents a vectors "
+"returned if ``a == b``, ``a > b`` and ``a < b`` respectivly."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "Properties"
+#~ msgstr ""
+
+#~ msgid ":ref:`Array <class_Array>`"
+#~ msgstr ""
+
+#~ msgid "default_input_values"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**O:** [ 0, 0.0, 1, 0.0, 2, "
+#~ "1e-05, 3, Vector3( 0, 0, 0 ), "
+#~ "4, Vector3( 0, 0, 0 ), 5, "
+#~ "Vector3( 0, 0, 0 ) ]"
+#~ msgstr ""
+

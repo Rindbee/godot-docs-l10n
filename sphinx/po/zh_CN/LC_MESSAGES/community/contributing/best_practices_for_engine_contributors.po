@@ -1,0 +1,466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2020-03-02 20:16+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:4
+msgid "Best practices for engine contributors"
+msgstr "引擎贡献者的最佳实践"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:7
+msgid "Introduction"
+msgstr "简介"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:9
+msgid ""
+"Godot has a large amount of users who have the ability to contribute, given "
+"the project itself is aimed mainly at users with the ability to do "
+"programming. Despite this, not all of them have the same level of experience "
+"working in large projects or in software engineering, which can lead to "
+"common misunderstandings and bad practices during the process of "
+"contributing code to the project."
+msgstr ""
+"由于项目本身主要针对具有编程能力的用户，因此Godot拥有大量具有贡献能力的用户。"
+"尽管如此，并非所有人都具有相同水平的在大型项目或软件工程中的经验，这可能导致"
+"在向项目贡献代码的过程中，出现常见的误解和不良做法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:12
+msgid "Language"
+msgstr "语言"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:14
+msgid ""
+"The scope of this document is to be a list of best practices for "
+"contributors to follow, as well as to creating a language they can use to "
+"refer to common situations that arise in the process of submitting their "
+"contributions."
+msgstr ""
+"本文件的范围是成为贡献者遵循的最佳实践列表，并创建一种语言，供他们用来指代在"
+"提交他们的贡献的过程中出现的常见情形。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:16
+msgid ""
+"While some may find it useful to extend this to general software "
+"development, our intention is to just restrict to situations that are most "
+"common in our project."
+msgstr ""
+"尽管有些人可能发现将其扩展到通用软件开发很有用，但我们的意图是仅将其限制在我"
+"们的项目中最常见的情形下。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:18
+msgid ""
+"Contributions are most of the time categorized as bug fixes, enhancements or "
+"new features. To abstract this idea, we will call them *Solutions*, because "
+"they always seek to solve something that can be described as a *Problem*."
+msgstr ""
+"贡献大部分时间被归类为错误修复（bug fixes），增强（enhancements）或新功能"
+"（new features）。为了抽象化这个想法，我们将它们称为 *解决方案（Solutions）"
+"*，因为它们始终寻求解决某些可以描述为一个 *问题（Problem）* 的东西。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:21
+msgid "Best Practices"
+msgstr "最佳实践"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:24
+msgid "#1: The problem always comes first"
+msgstr "#1: 问题永远是第一位"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:26
+msgid ""
+"Many contributors are extremely creative and just enjoy the process of "
+"designing abstract data structures, creating nice user interfaces,or simply "
+"love programming. Whatever the case may be, they come up with cool ideas, "
+"which may not be actually solving any actual problems."
+msgstr ""
+"许多贡献者都非常有创造力，并且喜欢设计抽象数据结构，创建漂亮的用户界面或只是"
+"喜欢编程的过程。无论情况怎样，他们都提出了很酷的想法，这些想法可能实际上并不"
+"能解决任何实际问题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:30
+msgid ""
+"These are usually called *Solutions in search of a problem*. In an ideal "
+"world, they would not be harmful but, in reality, code takes time to write, "
+"takes space as source and binary and requires maintenance once it exists. "
+"Avoiding the addition of anything unnecessary is always considered a good "
+"practice in software development."
+msgstr ""
+"这些通常称为 *寻找问题的解决方案（Solutions in search of a problem）*。在理想"
+"的情况下，它们并不会有害，但是实际上，代码需要花费一些时间来编写，并且一旦作"
+"为源代码和二进制文件存在，就需要占用空间和维护。在软件开发中，避免添加不必要"
+"的东西始终被认为是一种好习惯。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:33
+msgid "#2: The problem has to exist"
+msgstr "#2: 问题必须存在"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:35
+msgid ""
+"This is a variation of the previous practice. I believe most developers "
+"agree that adding anything unnecessary is not a good idea, but what "
+"constitutes what is necessary and what isn't?"
+msgstr ""
+"这是之前做法的一种变体。我相信大多数开发人员都同意，添加任何非必需的东西不是"
+"一个好主意，但是什么构成了必需，什么没有构成呢？"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:39
+msgid ""
+"The answer to this question is that the problem needs to *exist*. It must "
+"not be speculation or a belief. The user must be using the software as "
+"intended to create something they *need*. In this process, the user may "
+"stumble into a problem that requires a solution in order to continue, or in "
+"order to achieve greater productivity. In this case, *a solution is needed*."
+msgstr ""
+"这个问题的答案是该问题需要 *存在*。一定不是猜测或信念。用户必须按预期使用软件"
+"来创建他们 *需要* 的东西。在这个过程中，为了继续，或为了实现更高的工作效率，"
+"用户可能偶遇需要解决方案的问题。在这种情况下，*需要一种解决方案*。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:41
+msgid ""
+"Believing that problems may arise in the future and that the software needs "
+"to be ready to solve them by the time they appear is called *\"Future "
+"proofing\"* and its characterized by lines of thought such as:"
+msgstr ""
+"认为将来可能会出现问题，并且该软件需要在问题出现时，就已准备好解决这些问题，"
+"这称为 *“未来证明”*，其特点是思路如下："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:43
+msgid "I think it would be useful for users to..."
+msgstr "我认为这对用户有用..."
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:44
+msgid "I think users will eventually need to..."
+msgstr "我认为用户最终将需要..."
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:46
+msgid ""
+"This is generally considered a bad habit, because trying to solve problems "
+"that *don't actually exist* in the present will very often lead to code that "
+"will be written but never used, or to code that is considerably more complex "
+"to use and maintain than it needs to be."
+msgstr ""
+"这通常被认为是一种坏习惯，因为尝试解决实际 *不存在* 的问题，通常会导致将编写"
+"但从未使用过的代码，或者使用和维护起来比实际需要的更加复杂的代码。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:49
+msgid "#3: The problem has to be complex or frequent"
+msgstr "#3: 问题必须复杂或频繁"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:51
+msgid ""
+"Software is designed to solve problems, but we can't expect it to solve "
+"*every problem that exists under the sun*. As a game engine, Godot will "
+"solve problems for you, so it helps you to make games better and faster, but "
+"it won't make the *entire game* for you. A line must be drawn somewhere."
+msgstr ""
+"软件旨在解决问题，但我们不能指望它能够解决 *阳光下存在的每个问题*。作为游戏引"
+"擎，Godot可以为您解决问题，因此可以帮助您更快更好地开发游戏，但不会为您打造 *"
+"整个游戏*。必须划清界限。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:55
+msgid ""
+"Whether a problem is worth solving is determined by the difficulty the user "
+"has to work around it. This difficulty can be expressed as:"
+msgstr ""
+"一个问题是否值得解决取决于用户必须解决该问题的难度。这种困难可以表示为："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:57
+msgid "The complexity of the problem"
+msgstr "问题的复杂性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:58
+msgid "The frequency the problem"
+msgstr "问题的频率"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:60
+msgid ""
+"If the problem is *too complex* for most users to solve, the software must "
+"offer a ready made solution for it. Likewise, if the problem is easy for the "
+"user to workaround, offering such a solution is unnecessary and it's up to "
+"the user to do it."
+msgstr ""
+"如果问题对于大多数用户而言 *太复杂* 而无法解决，则该软件必须为其提供现成的解"
+"决方案。同样，如果用户很容易解决问题，则不必提供这样的解决方案，这取决于用"
+"户。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:62
+msgid ""
+"The exception, however, is when the user stumbles into this problem "
+"*frequently enough* that having to do the simple solution every time becomes "
+"an annoyance. In this case, the software must offer a solution to simplify "
+"this use case."
+msgstr ""
+"但是，唯一的例外是，当用户偶遇该问题足够频繁时，每次必须执行简单的解决方案就"
+"很烦人。在这种情况下，软件必须提供解决方案以简化此用例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:64
+msgid ""
+"In our experience, in most cases it's usually obvious to tell when a problem "
+"is complex or frequent, but cases may arise where drawing this line is "
+"difficult. This is why discussing with other developers (next point) is "
+"always advised."
+msgstr ""
+"根据我们的经验，在大多数情况下，通常很容易分辨出问题何时复杂或频繁出现，但有"
+"时会出现很难划清界限的情况。这就是为什么总是建议与其他开发人员讨论（下一"
+"点）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:67
+msgid "#4: The solution must be discussed with others"
+msgstr "#4: 解决方案必须与他人讨论"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:69
+msgid ""
+"It is often the case that, when users stumble upon problems, they are only "
+"immersed in their own project, so they will naturally try to solve the "
+"problem from their own perspective, thinking only about their use case."
+msgstr ""
+"通常，当用户偶然发现问题时，他们只会沉浸在自己的项目中，因此他们自然会尝试从"
+"自己的角度解决问题，只考虑他们的用例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:71
+msgid ""
+"Because of this, user proposed solutions don't always contemplate other use "
+"cases that developers are often aware of, so they are often biased towards "
+"their own requirements."
+msgstr ""
+"因此，用户提出的解决方案并不总是考虑开发人员经常意识到的其他用例，因此它们常"
+"常偏向于他们自己的需求。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:75
+msgid ""
+"For developers, the perspective is different. They may find the user's "
+"problem too unique to justify a solution (instead of an user workaround), or "
+"maybe they will suggest a partial (usually simpler or lower level) solution "
+"that applies to a wider range of known problems, and leave the rest of the "
+"solution up to the user."
+msgstr ""
+"对于开发人员而言，观点是不同的。他们可能会发现用户的问题太独特而无法证明解决"
+"方案的合理性（而不是用户的解决方法），或者他们可能会建议适用于更广泛的已知问"
+"题的部分（通常是更简单或更低级的）解决方案，而其余问题解决方案由用户决定。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:77
+msgid ""
+"In any case, before attempting a contribution, it is important to discuss "
+"the actual problems with the other developers or contributors, so a better "
+"agreement on implementation can be reached."
+msgstr ""
+"无论如何，在尝试做出贡献之前，与其他开发人员或贡献者讨论实际问题很重要，这样"
+"才能在实施方面达成更好的共识。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:79
+msgid ""
+"The only exception, in this case, is when an area of code has a clear owner "
+"(agreed by the other contributors), who talks to users directly and has the "
+"most knowledge to implement a solution directly."
+msgstr ""
+"在这种情况下，唯一的例外是当代码区域中有明确的所有者（由其他贡献者同意）时，"
+"该所有者直接与用户对话，并且拥有最了解直接实施解决方案的知识。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:82
+msgid "#5: To each problem, its own solution"
+msgstr "#5: 对于每个问题，都有自己的解决方案"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:84
+msgid ""
+"For programmers, it is always a most enjoyable challenge to find the most "
+"optimal solutions to problems. Things, however, may go overboard sometimes "
+"and programmers will try to come up with solutions that solve as many "
+"problems as possible."
+msgstr ""
+"对于程序员而言，找到问题的最佳解决方案始终是最愉快的挑战。但是，有时候事情可"
+"能会变得极端，程序员将尝试提出解决方案，以解决尽可能多的问题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:86
+msgid ""
+"The situation will often take a turn for the worse when, in order to make "
+"this solution appear even more fantastic and flexible, the pure speculation-"
+"based problems (as described in #2) also make their appearance on stage."
+msgstr ""
+"当为了使该解决方案显得更加出色和灵活时，这种情况通常会变得更糟，因为纯粹基于"
+"投机的问题（如第2点中所述）也出现在舞台上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:90
+msgid ""
+"The main problem is that, in reality, it rarely works this way. Most of the "
+"time, just writing an individual solution to each problem results in code "
+"that is simpler and more maintainable."
+msgstr ""
+"主要问题是，实际上，这种方法很少起作用。在大多数情况下，仅针对每个问题编写单"
+"独的解决方案就会使代码更简单，更可维护。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:92
+msgid ""
+"Additionally, solutions that target individual problems are better for the "
+"users, as they find something that does exactly what they need, without "
+"having to learn and remember a more complex system they will only need for "
+"simple tasks."
+msgstr ""
+"此外，针对单独问题的解决方案对用户来说更好，因为他们找到了完全可以满足他们需"
+"求的东西，而不必学习和记住一个更复杂的系统，他们只需要完成简单任务。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:94
+msgid ""
+"Big and flexible solutions also have an additional drawback which is that, "
+"over time, they rarely are flexible enough for all users, which keep "
+"requesting more functions added (and making the API and codebase more and "
+"more complex)."
+msgstr ""
+"大型且灵活的解决方案还有一个缺点，那就是随着时间的推移，它们对于所有用户而言"
+"都缺乏足够的灵活性，从而不断要求添加更多功能（并使API和代码库变得越来越复"
+"杂）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:97
+msgid "#6: Cater to common use cases, leave the door open for the rare ones"
+msgstr "#6: 迎合常见用例，为稀有案例敞开大门"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:99
+msgid ""
+"This is a continuation of the previous point, which further explains why "
+"this way of thinking and designing software is preferred."
+msgstr "这是先前观点的延续，进一步说明了为什么首选这种思想和设计软件的方式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:101
+msgid ""
+"As mentioned before (in point #2), it is very difficult for us (as human "
+"beings who design software) to actually understand all future user needs. "
+"Trying to write very flexible structures that cater to many use cases at "
+"once is often a mistake."
+msgstr ""
+"如前所述（在第2点中），对于我们（作为设计软件的人）来说，要真正了解所有未来的"
+"用户需求非常困难。尝试编写非常灵活的结构以同时满足许多用例通常是一个错误。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:103
+msgid ""
+"We may come up with something we believe is brilliant, but when it's "
+"actually used, we will find that users will never even use half of it, or "
+"that they will require features that don't quite accommodate our original "
+"design, forcing us to either throw it away or make it even more complex."
+msgstr ""
+"我们可能会想出一些我们认为很棒的东西，但是当实际使用它时，我们会发现用户甚至"
+"不会使用其中的一半，或者他们将需要的功能无法完全适应我们的原始设计，从而迫使"
+"我们要么扔掉它，要么使其变得更加复杂。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:105
+msgid ""
+"The question is then, how to design software that gives users what *we know "
+"they need*, but that is flexible enough to allow them to do *what we don't "
+"know they might need* in the future?"
+msgstr ""
+"那么问题是，如何设计能够为用户提供 *我们知道他们需要的东西*，但又足够灵活的软"
+"件，以使他们在将来能够做 *我们不知道但他们可能需要的东西*？"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:109
+msgid ""
+"The answer to this question is that, to ensure users still can do what they "
+"want to do, we need to give them access to a *low level API* that they can "
+"use to achieve what they want, even if it's more work for them because it "
+"means reimplementing some of the logic that already exists."
+msgstr ""
+"这个问题的答案是，为了确保用户仍然可以做他们想做的事情，我们需要让他们访问一"
+"个 *低级API*，他们可以使用该API来实现他们想要的事情，即使这对他们来说是更多的"
+"工作，因为这意味着重新实现一些已经存在的逻辑。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:111
+msgid ""
+"In real-life scenarios, these use cases will be at most rare and uncommon "
+"anyway, so it makes sense a custom solution needs to be written. This is why "
+"it's important to still provide users the basic building blocks to do it."
+msgstr ""
+"在实际场景中，这些用例无论如何最稀有且少见，因此有必要编写一个自定义解决方"
+"案。这就是为什么仍然要向用户提供执行这些操作的基本构建块很重要。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:114
+msgid "#7: Solutions must be local"
+msgstr "#7: 解决方案必须是局部的"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:116
+msgid ""
+"When looking for a solution to a problem, be it implementing a new feature "
+"or fixing a bug, sometimes the easiest path is to add data or a new function "
+"in the core layers of code."
+msgstr ""
+"在寻找解决方案时，无论是实施新功能还是修复错误，有时最简单的方法是在代码的核"
+"心层中添加数据或新功能。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:118
+msgid ""
+"The main problem here is, adding something to the core layers that will only "
+"be used from a single location far away will not only make the code more "
+"difficult to follow (split in two), but also make the core API larger, more "
+"complex, more difficult to understand in general."
+msgstr ""
+"这样做的主要问题是，在核心层中添加仅在远处才能使用的内容，不仅使代码难以遵循"
+"（分为两部分），而且通常会使核心API变得更大，更复杂，一般来说更难理解。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:120
+msgid ""
+"This is bad, because readability and cleanness of core APIs is always of "
+"extreme importance given how much code relies from it, and because it's key "
+"for new contributors as a starting point to learning the codebase."
+msgstr ""
+"这很不好，因为考虑到多少代码依赖于它，核心API的可读性和简洁性始终至关重要，并"
+"且对于新贡献者而言，这是学习代码库的起点，这是关键。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:126
+msgid ""
+"The common reasoning for wanting to do this is that it's usually less code "
+"to simply add a hack in the core layers."
+msgstr ""
+"对于想要做到这一点的常见理由是，它通常是更少的代码只需在核心层增加一个黑客。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:128
+msgid ""
+"Despite this, this practice is not advised. Generally, the code for a "
+"solution should be closer to where the problem originates, even if it "
+"involves more code, duplicated, more complex or is less efficient. More "
+"creativity might be needed, but this path is always the advised one."
+msgstr ""
+"尽管如此，不建议这种做法。通常，解决方案的代码应该更接近问题的根源，即使它涉"
+"及更多的代码，重复的，更复杂的或效率较低的也是如此。可能需要更多的创造力，但"
+"这始终是建议之路。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:131
+msgid "#8: Don't use complex canned solutions for simple problems"
+msgstr "#8: 简单问题不要使用复杂罐装的解决方案"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:133
+msgid ""
+"Not every problem has a simple solution and, many times, the right choice is "
+"to use a third party library to solve the problem."
+msgstr ""
+"并非每个问题都有一个简单的解决方案，很多时候，正确的选择是使用第三方库来解决"
+"问题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:135
+msgid ""
+"As Godot requires to be shipped in a large amount of platforms, we just "
+"can't link libraries dynamically. Instead, we bundle them in our source tree."
+msgstr ""
+"由于Godot需要在大量平台上交付，因此我们无法动态链接库。相反，我们将它们捆绑在"
+"源代码树中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/community/contributing/best_practices_for_engine_contributors.rst:139
+msgid ""
+"As a result, we are very picky with what goes in, and we tend to prefer "
+"smaller libraries (in fact, single header ones are our favorite). Only in "
+"cases where there is no other choice we end up bundling something larger."
+msgstr ""
+"结果，我们对其中的内容非常挑剔，并且倾向于使用较小的库（实际上，单头库是我们"
+"的最爱）。仅在没有其他选择的情况下，我们最终将更大的东西捆绑在一起。"

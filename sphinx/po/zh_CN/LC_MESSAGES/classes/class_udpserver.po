@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:10
+msgid "UDPServer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:14
+msgid "Helper class to implement a UDP server."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:19
+msgid ""
+"A simple server that opens a UDP socket and returns connected "
+":ref:`PacketPeerUDP <class_PacketPeerUDP>` upon receiving new packets. "
+"See also :ref:`PacketPeerUDP.connect_to_host "
+"<class_PacketPeerUDP_method_connect_to_host>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:21
+msgid "Below a small example of how it can be used:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:69
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:74
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:72
+msgid ""
+":ref:`is_connection_available "
+"<class_UDPServer_method_is_connection_available>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:74
+msgid ""
+":ref:`is_listening <class_UDPServer_method_is_listening>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:76
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:76
+msgid ""
+":ref:`listen <class_UDPServer_method_listen>` **(** :ref:`int "
+"<class_int>` port, :ref:`String <class_String>` bind_address=\"*\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:78
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:78
+msgid ":ref:`stop <class_UDPServer_method_stop>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:80
+msgid ":ref:`PacketPeerUDP <class_PacketPeerUDP>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:80
+msgid ""
+":ref:`take_connection <class_UDPServer_method_take_connection>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:84
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:88
+msgid ":ref:`bool <class_bool>` **is_connection_available** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:90
+msgid ""
+"Returns ``true`` if a packet with a new address/port combination is "
+"received on the socket."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:96
+msgid ":ref:`bool <class_bool>` **is_listening** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:98
+msgid "Returns ``true`` if the socket is open and listening on a port."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:104
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **listen** **(** :ref:`int "
+"<class_int>` port, :ref:`String <class_String>` bind_address=\"*\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:106
+msgid ""
+"Starts the server by opening a UDP socket listening on the given port. "
+"You can optionally specify a ``bind_address`` to only listen for packets "
+"sent to that address. See also :ref:`PacketPeerUDP.listen "
+"<class_PacketPeerUDP_method_listen>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:112
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:114
+msgid ""
+"Stops the server, closing the UDP socket if open. Will not disconnect any"
+" connected :ref:`PacketPeerUDP <class_PacketPeerUDP>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:120
+msgid ":ref:`PacketPeerUDP <class_PacketPeerUDP>` **take_connection** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_udpserver.rst:122
+msgid ""
+"Returns a :ref:`PacketPeerUDP <class_PacketPeerUDP>` connected to the "
+"address/port combination of the first packet in queue. Will return "
+"``null`` if no packet is in queue. See also "
+":ref:`PacketPeerUDP.connect_to_host "
+"<class_PacketPeerUDP_method_connect_to_host>`."
+msgstr ""
+

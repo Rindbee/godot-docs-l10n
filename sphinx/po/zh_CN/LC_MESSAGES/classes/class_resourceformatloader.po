@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:10
+msgid "ResourceFormatLoader"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:14
+msgid ""
+"**Inherited By:** :ref:`ResourceFormatLoaderCrypto "
+"<class_ResourceFormatLoaderCrypto>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:16
+msgid "Loads a specific resource type from a file."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:21
+msgid ""
+"Godot loads resources in the editor or in exported games using "
+"ResourceFormatLoaders. They are queried automatically via the "
+":ref:`ResourceLoader <class_ResourceLoader>` singleton, or when a "
+"resource with internal dependencies is loaded. Each file type may load as"
+" a different resource type, so multiple ResourceFormatLoaders are "
+"registered in the engine."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:23
+msgid ""
+"Extending this class allows you to define your own loader. Be sure to "
+"respect the documented return types and values. You should give it a "
+"global class name with ``class_name`` for it to be registered. Like "
+"built-in ResourceFormatLoaders, it will be called automatically when "
+"loading resources of its handled type(s). You may also implement a "
+":ref:`ResourceFormatSaver <class_ResourceFormatSaver>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:25
+msgid ""
+"**Note:** You can also extend :ref:`EditorImportPlugin "
+"<class_EditorImportPlugin>` if the resource type you need exists but "
+"Godot is unable to load its format. Choosing one way over another depends"
+" if the format is suitable or not for the final exported game. For "
+"example, it's better to import ``.png`` textures as ``.stex`` "
+"(:ref:`StreamTexture <class_StreamTexture>`) first, so they can be loaded"
+" with better efficiency on the graphics card."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:28
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:31
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:31
+msgid ""
+":ref:`get_dependencies "
+"<class_ResourceFormatLoader_method_get_dependencies>` **(** :ref:`String "
+"<class_String>` path, :ref:`String <class_String>` add_types **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:33
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:33
+msgid ""
+":ref:`get_recognized_extensions "
+"<class_ResourceFormatLoader_method_get_recognized_extensions>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:35
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:35
+msgid ""
+":ref:`get_resource_type "
+"<class_ResourceFormatLoader_method_get_resource_type>` **(** :ref:`String"
+" <class_String>` path **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:37
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:37
+msgid ""
+":ref:`handles_type <class_ResourceFormatLoader_method_handles_type>` "
+"**(** :ref:`StringName <class_StringName>` typename **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:39
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:39
+msgid ""
+":ref:`load <class_ResourceFormatLoader_method_load>` **(** :ref:`String "
+"<class_String>` path, :ref:`String <class_String>` original_path **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:41
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:41
+msgid ""
+":ref:`rename_dependencies "
+"<class_ResourceFormatLoader_method_rename_dependencies>` **(** "
+":ref:`String <class_String>` path, :ref:`String <class_String>` renames "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:45
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:49
+msgid ""
+"void **get_dependencies** **(** :ref:`String <class_String>` path, "
+":ref:`String <class_String>` add_types **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:51
+msgid ""
+"If implemented, gets the dependencies of a given resource. If "
+"``add_types`` is ``true``, paths should be appended ``::TypeName``, where"
+" ``TypeName`` is the class name of the dependency."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:71
+msgid ""
+"**Note:** Custom resource types defined by scripts aren't known by the "
+":ref:`ClassDB <class_ClassDB>`, so you might just return ``\"Resource\"``"
+" for them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:59
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` "
+"**get_recognized_extensions** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:61
+msgid "Gets the list of extensions for files this loader is able to read."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:67
+msgid ""
+":ref:`String <class_String>` **get_resource_type** **(** :ref:`String "
+"<class_String>` path **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:69
+msgid ""
+"Gets the class name of the resource associated with the given path. If "
+"the loader cannot handle it, it should return ``\"\"``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:77
+msgid ""
+":ref:`bool <class_bool>` **handles_type** **(** :ref:`StringName "
+"<class_StringName>` typename **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:79
+msgid "Tells which resource class this loader can load."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:81
+msgid ""
+"**Note:** Custom resource types defined by scripts aren't known by the "
+":ref:`ClassDB <class_ClassDB>`, so you might just handle ``\"Resource\"``"
+" for them."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:87
+msgid ""
+":ref:`Variant <class_Variant>` **load** **(** :ref:`String "
+"<class_String>` path, :ref:`String <class_String>` original_path **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:89
+msgid ""
+"Loads a resource when the engine finds this loader to be compatible. If "
+"the loaded resource is the result of an import, ``original_path`` will "
+"target the source file. Returns a :ref:`Resource <class_Resource>` object"
+" on success, or an :ref:`Error <enum_@GlobalScope_Error>` constant in "
+"case of failure."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:95
+msgid ""
+":ref:`int <class_int>` **rename_dependencies** **(** :ref:`String "
+"<class_String>` path, :ref:`String <class_String>` renames **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:97
+msgid ""
+"If implemented, renames dependencies within the given resource and saves "
+"it. ``renames`` is a dictionary ``{ String => String }`` mapping old "
+"dependency paths to new paths."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_resourceformatloader.rst:99
+msgid ""
+"Returns :ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>` on "
+"success, or an :ref:`Error <enum_@GlobalScope_Error>` constant in case of"
+" failure."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolStringArray <class_PoolStringArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`handles_type "
+#~ "<class_ResourceFormatLoader_method_handles_type>` **(** "
+#~ ":ref:`String <class_String>` typename **)** "
+#~ "virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "**get_recognized_extensions** **(** **)** virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **handles_type** **(** "
+#~ ":ref:`String <class_String>` typename **)** "
+#~ "virtual"
+#~ msgstr ""
+

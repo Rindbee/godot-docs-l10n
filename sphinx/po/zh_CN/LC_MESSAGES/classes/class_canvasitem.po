@@ -1,0 +1,2396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-04 13:30+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:10
+msgid "CanvasItem"
+msgstr "CanvasItem"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr "**基类**：:ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:14
+msgid ""
+"**Inherited By:** :ref:`Control <class_Control>`, :ref:`Node2D "
+"<class_Node2D>`"
+msgstr "**子类**：:ref:`Control <class_Control>`, :ref:`Node2D <class_Node2D>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:16
+msgid "Base class of anything 2D."
+msgstr "任何2D的基类。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:21
+#, fuzzy
+msgid ""
+"Base class of anything 2D. Canvas items are laid out in a tree; children "
+"inherit and extend their parent's transform. ``CanvasItem`` is extended "
+"by :ref:`Control <class_Control>` for anything GUI-related, and by "
+":ref:`Node2D <class_Node2D>` for anything related to the 2D engine."
+msgstr ""
+"任何2D的基类。画布项目放置在一棵树上；子级继承并扩展了父级的变换。CanvasItem由 :ref:`Control "
+"<class_Control>` 扩展为与GUI相关的任何内容，由 :ref:`Node2D <class_Node2D>` "
+"扩展为与2D引擎相关的任何内容。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:23
+#, fuzzy
+msgid ""
+"Any ``CanvasItem`` can draw. For this, :ref:`update "
+"<class_CanvasItem_method_update>` must be called, then "
+":ref:`NOTIFICATION_DRAW <class_CanvasItem_constant_NOTIFICATION_DRAW>` "
+"will be received on idle time to request redraw. Because of this, canvas "
+"items don't need to be redrawn on every frame, improving the performance "
+"significantly. Several functions for drawing on the ``CanvasItem`` are "
+"provided (see ``draw_*`` functions). However, they can only be used "
+"inside the :ref:`Object._notification "
+"<class_Object_method__notification>`, signal or :ref:`_draw "
+"<class_CanvasItem_method__draw>` virtual functions."
+msgstr ""
+"任何 ``CanvasItem`` 都可以绘制。为此，须调用 :ref:`update "
+"<class_CanvasItem_method_update>`，然后在空闲时接收 :ref:`NOTIFICATION_DRAW "
+"<class_CanvasItem_constant_NOTIFICATION_DRAW>`，以请求重绘。因此，不需要在每一帧上重新绘制画布项目，从而显著提高了性能。提供了一些在"
+" ``CanvasItem`` 上进行绘制的函数（参见 ``draw_*`` 函数）。但是，它们只能在 "
+":ref:`Object._notification <class_Object_method__notification>`、信号、或 "
+":ref:`_draw <class_CanvasItem_method__draw>` 虚函数内部使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:25
+#, fuzzy
+msgid ""
+"Canvas items are drawn in tree order. By default, children are on top of "
+"their parents so a root ``CanvasItem`` will be drawn behind everything. "
+"This behavior can be changed on a per-item basis."
+msgstr ""
+"画布项目以树的顺序绘制。默认情况下，子级位于父级之上，因此一个根 ``CanvasItem`` "
+"将被绘制在所有对象后面。这种行为可以在每个项目的基础上改变。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:27
+#, fuzzy
+msgid ""
+"A ``CanvasItem`` can also be hidden, which will also hide its children. "
+"It provides many ways to change parameters such as modulation (for itself"
+" and its children) and self modulation (only for itself), as well as its "
+"blend mode."
+msgstr ""
+"一个 ``CanvasItem`` "
+"也可以被隐藏，这也将隐藏其子级。它提供了许多更改参数的方式，例如调制（针对其自身及其子级）和自调制（仅针对自身），以及其混合模式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:29
+msgid ""
+"Ultimately, a transform notification can be requested, which will notify "
+"the node that its global position changed in case the parent tree "
+"changed."
+msgstr "最终，可以请求一个变换通知，以在父级树发生更改的情况下，将通知节点，其全局位置已更改。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:32
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:34
+msgid ":doc:`../tutorials/2d/2d_transforms`"
+msgstr ":doc:`../tutorials/2d/2d_transforms`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:36
+msgid ":doc:`../tutorials/2d/custom_drawing_in_2d`"
+msgstr ":doc:`../tutorials/2d/custom_drawing_in_2d`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:39
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:42
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:42
+msgid ":ref:`light_mask <class_CanvasItem_property_light_mask>`"
+msgstr ":ref:`light_mask <class_CanvasItem_property_light_mask>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:289
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:44
+msgid ":ref:`Material <class_Material>`"
+msgstr ":ref:`Material <class_Material>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:44
+msgid ":ref:`material <class_CanvasItem_property_material>`"
+msgstr ":ref:`material <class_CanvasItem_property_material>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:48
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`Color <class_Color>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:46
+msgid ":ref:`modulate <class_CanvasItem_property_modulate>`"
+msgstr ":ref:`modulate <class_CanvasItem_property_modulate>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:319
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:335
+#, fuzzy
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr "Color( 1, 1, 1, 1 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:48
+msgid ":ref:`self_modulate <class_CanvasItem_property_self_modulate>`"
+msgstr ":ref:`self_modulate <class_CanvasItem_property_self_modulate>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:137
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:143
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:50
+msgid ":ref:`show_behind_parent <class_CanvasItem_property_show_behind_parent>`"
+msgstr ":ref:`show_behind_parent <class_CanvasItem_property_show_behind_parent>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:351
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:403
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:52
+msgid ":ref:`show_on_top <class_CanvasItem_property_show_on_top>`"
+msgstr ":ref:`show_on_top <class_CanvasItem_property_show_on_top>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:54
+msgid ":ref:`TextureFilter <enum_CanvasItem_TextureFilter>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:54
+#, fuzzy
+msgid ":ref:`texture_filter <class_CanvasItem_property_texture_filter>`"
+msgstr ":ref:`visible <class_CanvasItem_property_visible>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:375
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:389
+#, fuzzy
+msgid "``0``"
+msgstr "true"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:56
+msgid ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:56
+#, fuzzy
+msgid ":ref:`texture_repeat <class_CanvasItem_property_texture_repeat>`"
+msgstr ":ref:`use_parent_material <class_CanvasItem_property_use_parent_material>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:58
+msgid ":ref:`use_parent_material <class_CanvasItem_property_use_parent_material>`"
+msgstr ":ref:`use_parent_material <class_CanvasItem_property_use_parent_material>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:60
+msgid ":ref:`visible <class_CanvasItem_property_visible>`"
+msgstr ":ref:`visible <class_CanvasItem_property_visible>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:419
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:64
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:135
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:157
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:67
+msgid ":ref:`_draw <class_CanvasItem_method__draw>` **(** **)** virtual"
+msgstr ":ref:`_draw <class_CanvasItem_method__draw>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:69
+#, fuzzy
+msgid ""
+":ref:`draw_arc <class_CanvasItem_method_draw_arc>` **(** :ref:`Vector2 "
+"<class_Vector2>` center, :ref:`float <class_float>` radius, :ref:`float "
+"<class_float>` start_angle, :ref:`float <class_float>` end_angle, "
+":ref:`int <class_int>` point_count, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_arc <class_CanvasItem_method_draw_arc>` **(** :ref:`Vector2 "
+"<class_Vector2>` center, :ref:`float <class_float>` radius, :ref:`float "
+"<class_float>` start_angle, :ref:`float <class_float>` end_angle, "
+":ref:`int <class_int>` point_count, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0, :ref:`bool <class_bool>` "
+"antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:71
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:71
+msgid ""
+":ref:`draw_char <class_CanvasItem_method_draw_char>` **(** :ref:`Font "
+"<class_Font>` font, :ref:`Vector2 <class_Vector2>` position, :ref:`String"
+" <class_String>` char, :ref:`String <class_String>` next, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+":ref:`draw_char <class_CanvasItem_method_draw_char>` **(** :ref:`Font "
+"<class_Font>` font, :ref:`Vector2 <class_Vector2>` position, :ref:`String"
+" <class_String>` char, :ref:`String <class_String>` next, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:73
+msgid ""
+":ref:`draw_circle <class_CanvasItem_method_draw_circle>` **(** "
+":ref:`Vector2 <class_Vector2>` position, :ref:`float <class_float>` "
+"radius, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+":ref:`draw_circle <class_CanvasItem_method_draw_circle>` **(** "
+":ref:`Vector2 <class_Vector2>` position, :ref:`float <class_float>` "
+"radius, :ref:`Color <class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:75
+msgid ""
+":ref:`draw_colored_polygon "
+"<class_CanvasItem_method_draw_colored_polygon>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, :ref:`Color "
+"<class_Color>` color, :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` uvs=PackedVector2Array(  ), :ref:`Texture2D "
+"<class_Texture2D>` texture=null, :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:77
+#, fuzzy
+msgid ""
+":ref:`draw_line <class_CanvasItem_method_draw_line>` **(** :ref:`Vector2 "
+"<class_Vector2>` from, :ref:`Vector2 <class_Vector2>` to, :ref:`Color "
+"<class_Color>` color, :ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_line <class_CanvasItem_method_draw_line>` **(** :ref:`Vector2 "
+"<class_Vector2>` from, :ref:`Vector2 <class_Vector2>` to, :ref:`Color "
+"<class_Color>` color, :ref:`float <class_float>` width=1.0, :ref:`bool "
+"<class_bool>` antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:79
+msgid ""
+":ref:`draw_mesh <class_CanvasItem_method_draw_mesh>` **(** :ref:`Mesh "
+"<class_Mesh>` mesh, :ref:`Texture2D <class_Texture2D>` texture, "
+":ref:`Texture2D <class_Texture2D>` normal_map=null, :ref:`Texture2D "
+"<class_Texture2D>` specular_map=null, :ref:`Color <class_Color>` "
+"specular_shininess=Color( 1, 1, 1, 1 ), :ref:`Transform2D "
+"<class_Transform2D>` transform=Transform2D( 1, 0, 0, 1, 0, 0 ), "
+":ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:81
+#, fuzzy
+msgid ""
+":ref:`draw_multiline <class_CanvasItem_method_draw_multiline>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, :ref:`Color "
+"<class_Color>` color, :ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_multiline <class_CanvasItem_method_draw_multiline>` **(** "
+":ref:`PoolVector2Array <class_PoolVector2Array>` points, :ref:`Color "
+"<class_Color>` color, :ref:`float <class_float>` width=1.0, :ref:`bool "
+"<class_bool>` antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:83
+#, fuzzy
+msgid ""
+":ref:`draw_multiline_colors "
+"<class_CanvasItem_method_draw_multiline_colors>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, "
+":ref:`PackedColorArray <class_PackedColorArray>` colors, :ref:`float "
+"<class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_multiline_colors "
+"<class_CanvasItem_method_draw_multiline_colors>` **(** "
+":ref:`PoolVector2Array <class_PoolVector2Array>` points, "
+":ref:`PoolColorArray <class_PoolColorArray>` colors, :ref:`float "
+"<class_float>` width=1.0, :ref:`bool <class_bool>` antialiased=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:85
+msgid ""
+":ref:`draw_multimesh <class_CanvasItem_method_draw_multimesh>` **(** "
+":ref:`MultiMesh <class_MultiMesh>` multimesh, :ref:`Texture2D "
+"<class_Texture2D>` texture, :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:87
+msgid ""
+":ref:`draw_polygon <class_CanvasItem_method_draw_polygon>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, "
+":ref:`PackedColorArray <class_PackedColorArray>` colors, "
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"uvs=PackedVector2Array(  ), :ref:`Texture2D <class_Texture2D>` "
+"texture=null, :ref:`Texture2D <class_Texture2D>` normal_map=null, "
+":ref:`Texture2D <class_Texture2D>` specular_map=null, :ref:`Color "
+"<class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:89
+#, fuzzy
+msgid ""
+":ref:`draw_polyline <class_CanvasItem_method_draw_polyline>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, :ref:`Color "
+"<class_Color>` color, :ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_polyline <class_CanvasItem_method_draw_polyline>` **(** "
+":ref:`PoolVector2Array <class_PoolVector2Array>` points, :ref:`Color "
+"<class_Color>` color, :ref:`float <class_float>` width=1.0, :ref:`bool "
+"<class_bool>` antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:91
+#, fuzzy
+msgid ""
+":ref:`draw_polyline_colors "
+"<class_CanvasItem_method_draw_polyline_colors>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, "
+":ref:`PackedColorArray <class_PackedColorArray>` colors, :ref:`float "
+"<class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_polyline_colors "
+"<class_CanvasItem_method_draw_polyline_colors>` **(** "
+":ref:`PoolVector2Array <class_PoolVector2Array>` points, "
+":ref:`PoolColorArray <class_PoolColorArray>` colors, :ref:`float "
+"<class_float>` width=1.0, :ref:`bool <class_bool>` antialiased=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:93
+msgid ""
+":ref:`draw_primitive <class_CanvasItem_method_draw_primitive>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` points, "
+":ref:`PackedColorArray <class_PackedColorArray>` colors, "
+":ref:`PackedVector2Array <class_PackedVector2Array>` uvs, :ref:`Texture2D"
+" <class_Texture2D>` texture=null, :ref:`float <class_float>` width=1.0, "
+":ref:`Texture2D <class_Texture2D>` normal_map=null, :ref:`Texture2D "
+"<class_Texture2D>` specular_map=null, :ref:`Color <class_Color>` "
+"specular_shininess=Color( 1, 1, 1, 1 ), :ref:`TextureFilter "
+"<enum_CanvasItem_TextureFilter>` texture_filter=0, :ref:`TextureRepeat "
+"<enum_CanvasItem_TextureRepeat>` texture_repeat=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:95
+#, fuzzy
+msgid ""
+":ref:`draw_rect <class_CanvasItem_method_draw_rect>` **(** :ref:`Rect2 "
+"<class_Rect2>` rect, :ref:`Color <class_Color>` color, :ref:`bool "
+"<class_bool>` filled=true, :ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+":ref:`draw_rect <class_CanvasItem_method_draw_rect>` **(** :ref:`Rect2 "
+"<class_Rect2>` rect, :ref:`Color <class_Color>` color, :ref:`bool "
+"<class_bool>` filled=true, :ref:`float <class_float>` width=1.0, "
+":ref:`bool <class_bool>` antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:97
+msgid ""
+":ref:`draw_set_transform <class_CanvasItem_method_draw_set_transform>` "
+"**(** :ref:`Vector2 <class_Vector2>` position, :ref:`float <class_float>`"
+" rotation, :ref:`Vector2 <class_Vector2>` scale **)**"
+msgstr ""
+":ref:`draw_set_transform <class_CanvasItem_method_draw_set_transform>` "
+"**(** :ref:`Vector2 <class_Vector2>` position, :ref:`float <class_float>`"
+" rotation, :ref:`Vector2 <class_Vector2>` scale **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:99
+msgid ""
+":ref:`draw_set_transform_matrix "
+"<class_CanvasItem_method_draw_set_transform_matrix>` **(** "
+":ref:`Transform2D <class_Transform2D>` xform **)**"
+msgstr ""
+":ref:`draw_set_transform_matrix "
+"<class_CanvasItem_method_draw_set_transform_matrix>` **(** "
+":ref:`Transform2D <class_Transform2D>` xform **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:101
+msgid ""
+":ref:`draw_string <class_CanvasItem_method_draw_string>` **(** :ref:`Font"
+" <class_Font>` font, :ref:`Vector2 <class_Vector2>` position, "
+":ref:`String <class_String>` text, :ref:`Color <class_Color>` "
+"modulate=Color( 1, 1, 1, 1 ), :ref:`int <class_int>` clip_w=-1 **)**"
+msgstr ""
+":ref:`draw_string <class_CanvasItem_method_draw_string>` **(** :ref:`Font"
+" <class_Font>` font, :ref:`Vector2 <class_Vector2>` position, "
+":ref:`String <class_String>` text, :ref:`Color <class_Color>` "
+"modulate=Color( 1, 1, 1, 1 ), :ref:`int <class_int>` clip_w=-1 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:103
+msgid ""
+":ref:`draw_style_box <class_CanvasItem_method_draw_style_box>` **(** "
+":ref:`StyleBox <class_StyleBox>` style_box, :ref:`Rect2 <class_Rect2>` "
+"rect **)**"
+msgstr ""
+":ref:`draw_style_box <class_CanvasItem_method_draw_style_box>` **(** "
+":ref:`StyleBox <class_StyleBox>` style_box, :ref:`Rect2 <class_Rect2>` "
+"rect **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:105
+msgid ""
+":ref:`draw_texture <class_CanvasItem_method_draw_texture>` **(** "
+":ref:`Texture2D <class_Texture2D>` texture, :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Color <class_Color>` modulate=Color( 1, "
+"1, 1, 1 ), :ref:`Texture2D <class_Texture2D>` normal_map=null, "
+":ref:`Texture2D <class_Texture2D>` specular_map=null, :ref:`Color "
+"<class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:107
+msgid ""
+":ref:`draw_texture_rect <class_CanvasItem_method_draw_texture_rect>` "
+"**(** :ref:`Texture2D <class_Texture2D>` texture, :ref:`Rect2 "
+"<class_Rect2>` rect, :ref:`bool <class_bool>` tile, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool <class_bool>` "
+"transpose=false, :ref:`Texture2D <class_Texture2D>` normal_map=null, "
+":ref:`Texture2D <class_Texture2D>` specular_map=null, :ref:`Color "
+"<class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:109
+msgid ""
+":ref:`draw_texture_rect_region "
+"<class_CanvasItem_method_draw_texture_rect_region>` **(** :ref:`Texture2D"
+" <class_Texture2D>` texture, :ref:`Rect2 <class_Rect2>` rect, :ref:`Rect2"
+" <class_Rect2>` src_rect, :ref:`Color <class_Color>` modulate=Color( 1, "
+"1, 1, 1 ), :ref:`bool <class_bool>` transpose=false, :ref:`Texture2D "
+"<class_Texture2D>` normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+"specular_map=null, :ref:`Color <class_Color>` specular_shininess=Color( "
+"1, 1, 1, 1 ), :ref:`bool <class_bool>` clip_uv=true, :ref:`TextureFilter "
+"<enum_CanvasItem_TextureFilter>` texture_filter=0, :ref:`TextureRepeat "
+"<enum_CanvasItem_TextureRepeat>` texture_repeat=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:111
+msgid ""
+":ref:`force_update_transform "
+"<class_CanvasItem_method_force_update_transform>` **(** **)**"
+msgstr ""
+":ref:`force_update_transform "
+"<class_CanvasItem_method_force_update_transform>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:115
+msgid ":ref:`RID <class_RID>`"
+msgstr ":ref:`RID <class_RID>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:113
+msgid ":ref:`get_canvas <class_CanvasItem_method_get_canvas>` **(** **)** const"
+msgstr ":ref:`get_canvas <class_CanvasItem_method_get_canvas>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:115
+msgid ""
+":ref:`get_canvas_item <class_CanvasItem_method_get_canvas_item>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_canvas_item <class_CanvasItem_method_get_canvas_item>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:117
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:121
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:131
+msgid ":ref:`Transform2D <class_Transform2D>`"
+msgstr ":ref:`Transform2D <class_Transform2D>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:117
+msgid ""
+":ref:`get_canvas_transform "
+"<class_CanvasItem_method_get_canvas_transform>` **(** **)** const"
+msgstr ""
+":ref:`get_canvas_transform "
+"<class_CanvasItem_method_get_canvas_transform>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:145
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:119
+msgid ""
+":ref:`get_global_mouse_position "
+"<class_CanvasItem_method_get_global_mouse_position>` **(** **)** const"
+msgstr ""
+":ref:`get_global_mouse_position "
+"<class_CanvasItem_method_get_global_mouse_position>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:121
+msgid ""
+":ref:`get_global_transform "
+"<class_CanvasItem_method_get_global_transform>` **(** **)** const"
+msgstr ""
+":ref:`get_global_transform "
+"<class_CanvasItem_method_get_global_transform>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:123
+msgid ""
+":ref:`get_global_transform_with_canvas "
+"<class_CanvasItem_method_get_global_transform_with_canvas>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_global_transform_with_canvas "
+"<class_CanvasItem_method_get_global_transform_with_canvas>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:125
+msgid ""
+":ref:`get_local_mouse_position "
+"<class_CanvasItem_method_get_local_mouse_position>` **(** **)** const"
+msgstr ""
+":ref:`get_local_mouse_position "
+"<class_CanvasItem_method_get_local_mouse_position>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:127
+msgid ""
+":ref:`get_transform <class_CanvasItem_method_get_transform>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_transform <class_CanvasItem_method_get_transform>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:129
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ":ref:`Rect2 <class_Rect2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:129
+msgid ""
+":ref:`get_viewport_rect <class_CanvasItem_method_get_viewport_rect>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_viewport_rect <class_CanvasItem_method_get_viewport_rect>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:131
+msgid ""
+":ref:`get_viewport_transform "
+"<class_CanvasItem_method_get_viewport_transform>` **(** **)** const"
+msgstr ""
+":ref:`get_viewport_transform "
+"<class_CanvasItem_method_get_viewport_transform>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:133
+msgid ":ref:`World2D <class_World2D>`"
+msgstr ":ref:`World2D <class_World2D>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:133
+msgid ""
+":ref:`get_world_2d <class_CanvasItem_method_get_world_2d>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_world_2d <class_CanvasItem_method_get_world_2d>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:135
+msgid ":ref:`hide <class_CanvasItem_method_hide>` **(** **)**"
+msgstr ":ref:`hide <class_CanvasItem_method_hide>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:137
+msgid ""
+":ref:`is_local_transform_notification_enabled "
+"<class_CanvasItem_method_is_local_transform_notification_enabled>` **(** "
+"**)** const"
+msgstr ""
+":ref:`is_local_transform_notification_enabled "
+"<class_CanvasItem_method_is_local_transform_notification_enabled>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:139
+msgid ""
+":ref:`is_set_as_toplevel <class_CanvasItem_method_is_set_as_toplevel>` "
+"**(** **)** const"
+msgstr ""
+":ref:`is_set_as_toplevel <class_CanvasItem_method_is_set_as_toplevel>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:141
+msgid ""
+":ref:`is_transform_notification_enabled "
+"<class_CanvasItem_method_is_transform_notification_enabled>` **(** **)** "
+"const"
+msgstr ""
+":ref:`is_transform_notification_enabled "
+"<class_CanvasItem_method_is_transform_notification_enabled>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:143
+msgid ""
+":ref:`is_visible_in_tree <class_CanvasItem_method_is_visible_in_tree>` "
+"**(** **)** const"
+msgstr ""
+":ref:`is_visible_in_tree <class_CanvasItem_method_is_visible_in_tree>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:145
+msgid ""
+":ref:`make_canvas_position_local "
+"<class_CanvasItem_method_make_canvas_position_local>` **(** :ref:`Vector2"
+" <class_Vector2>` screen_point **)** const"
+msgstr ""
+":ref:`make_canvas_position_local "
+"<class_CanvasItem_method_make_canvas_position_local>` **(** :ref:`Vector2"
+" <class_Vector2>` screen_point **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:147
+msgid ":ref:`InputEvent <class_InputEvent>`"
+msgstr ":ref:`InputEvent <class_InputEvent>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:147
+msgid ""
+":ref:`make_input_local <class_CanvasItem_method_make_input_local>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** const"
+msgstr ""
+":ref:`make_input_local <class_CanvasItem_method_make_input_local>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:149
+msgid ""
+":ref:`set_as_toplevel <class_CanvasItem_method_set_as_toplevel>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+":ref:`set_as_toplevel <class_CanvasItem_method_set_as_toplevel>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:151
+msgid ""
+":ref:`set_notify_local_transform "
+"<class_CanvasItem_method_set_notify_local_transform>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_notify_local_transform "
+"<class_CanvasItem_method_set_notify_local_transform>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:153
+msgid ""
+":ref:`set_notify_transform "
+"<class_CanvasItem_method_set_notify_transform>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_notify_transform "
+"<class_CanvasItem_method_set_notify_transform>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:155
+msgid ":ref:`show <class_CanvasItem_method_show>` **(** **)**"
+msgstr ":ref:`show <class_CanvasItem_method_show>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:157
+msgid ":ref:`update <class_CanvasItem_method_update>` **(** **)**"
+msgstr ":ref:`update <class_CanvasItem_method_update>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:161
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:165
+msgid "**draw** **(** **)**"
+msgstr "**draw** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:167
+#, fuzzy
+msgid ""
+"Emitted when the ``CanvasItem`` must redraw. This can only be connected "
+"realtime, as deferred will not allow drawing."
+msgstr "当 ``CanvasItem`` 必须重绘时发出。这只能实时连接，因为推迟将不允许绘制。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:173
+msgid "**hide** **(** **)**"
+msgstr "**hide** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:175
+msgid "Emitted when becoming hidden."
+msgstr "准备隐藏时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:181
+msgid "**item_rect_changed** **(** **)**"
+msgstr "**item_rect_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:183
+msgid "Emitted when the item rect has changed."
+msgstr "条目矩形更改时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:189
+msgid "**visibility_changed** **(** **)**"
+msgstr "**visibility_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:191
+msgid "Emitted when the visibility (hidden/visible) changes."
+msgstr "当可见性（隐藏/可见）更改时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:194
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:214
+msgid "enum **TextureFilter**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:216
+msgid "**TEXTURE_FILTER_PARENT_NODE** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:218
+msgid "**TEXTURE_FILTER_NEAREST** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:220
+msgid "**TEXTURE_FILTER_LINEAR** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:222
+msgid "**TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:224
+msgid "**TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:226
+msgid "**TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:228
+msgid "**TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:230
+msgid "**TEXTURE_FILTER_MAX** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:246
+msgid "enum **TextureRepeat**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:248
+msgid "**TEXTURE_REPEAT_PARENT_NODE** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:250
+msgid "**TEXTURE_REPEAT_DISABLED** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:252
+msgid "**TEXTURE_REPEAT_ENABLED** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:254
+msgid "**TEXTURE_REPEAT_MIRROR** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:256
+msgid "**TEXTURE_REPEAT_MAX** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:259
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:271
+#, fuzzy
+msgid ""
+"**NOTIFICATION_TRANSFORM_CHANGED** = **2000** --- The ``CanvasItem``'s "
+"transform has changed. This notification is only received if enabled by "
+":ref:`set_notify_transform "
+"<class_CanvasItem_method_set_notify_transform>` or "
+":ref:`set_notify_local_transform "
+"<class_CanvasItem_method_set_notify_local_transform>`."
+msgstr ""
+"**NOTIFICATION_TRANSFORM_CHANGED** = **2000** —— CanvasItem的变换已更改。仅当由 "
+":ref:`set_notify_transform "
+"<class_CanvasItem_method_set_notify_transform>` 或 "
+":ref:`set_notify_local_transform "
+"<class_CanvasItem_method_set_notify_local_transform>` 启用时，才会收到此通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:273
+#, fuzzy
+msgid ""
+"**NOTIFICATION_DRAW** = **30** --- The ``CanvasItem`` is requested to "
+"draw."
+msgstr "**NOTIFICATION_DRAW** = **30** —— 要求绘制CanvasItem。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:275
+#, fuzzy
+msgid ""
+"**NOTIFICATION_VISIBILITY_CHANGED** = **31** --- The ``CanvasItem``'s "
+"visibility has changed."
+msgstr "**NOTIFICATION_VISIBILITY_CHANGED** = **31** —— CanvasItem的可见性已更改。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:277
+#, fuzzy
+msgid ""
+"**NOTIFICATION_ENTER_CANVAS** = **32** --- The ``CanvasItem`` has entered"
+" the canvas."
+msgstr "**NOTIFICATION_ENTER_CANVAS** = **32** —— CanvasItem已进入画布。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:279
+#, fuzzy
+msgid ""
+"**NOTIFICATION_EXIT_CANVAS** = **33** --- The ``CanvasItem`` has exited "
+"the canvas."
+msgstr "**NOTIFICATION_EXIT_CANVAS** = **33** —— CanvasItem已退出画布。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:282
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:286
+msgid ":ref:`int <class_int>` **light_mask**"
+msgstr ":ref:`int <class_int>` **light_mask**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:289
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:319
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:335
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:351
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:375
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:389
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:403
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:419
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:291
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:305
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:321
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:337
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:353
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:377
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:391
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:405
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:421
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:291
+msgid "set_light_mask(value)"
+msgstr "set_light_mask(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:293
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:307
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:323
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:339
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:355
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:379
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:393
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:407
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:423
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:293
+msgid "get_light_mask()"
+msgstr "get_light_mask()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:296
+msgid ""
+"The rendering layers in which this ``CanvasItem`` responds to "
+":ref:`Light2D <class_Light2D>` nodes."
+msgstr "在该渲染层中，这个 ``CanvasItem`` 响应 :ref:`Light2D <class_Light2D>` 节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:302
+msgid ":ref:`Material <class_Material>` **material**"
+msgstr ":ref:`Material <class_Material>` **material**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:305
+msgid "set_material(value)"
+msgstr "set_material(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:307
+msgid "get_material()"
+msgstr "get_material()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:310
+msgid "The material applied to textures on this ``CanvasItem``."
+msgstr "该材质应用于此 ``CanvasItem`` 上的纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:316
+msgid ":ref:`Color <class_Color>` **modulate**"
+msgstr ":ref:`Color <class_Color>` **modulate**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:321
+msgid "set_modulate(value)"
+msgstr "set_modulate(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:323
+msgid "get_modulate()"
+msgstr "get_modulate()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:326
+msgid "The color applied to textures on this ``CanvasItem``."
+msgstr "该颜色应用于此 ``CanvasItem`` 上的纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:332
+msgid ":ref:`Color <class_Color>` **self_modulate**"
+msgstr ":ref:`Color <class_Color>` **self_modulate**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:337
+msgid "set_self_modulate(value)"
+msgstr "set_self_modulate(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:339
+msgid "get_self_modulate()"
+msgstr "get_self_modulate()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:342
+msgid ""
+"The color applied to textures on this ``CanvasItem``. This is not "
+"inherited by children ``CanvasItem``\\ s."
+msgstr "该颜色应用于此 ``CanvasItem`` 上的纹理。这不是由子级 ``CanvasItem`` 继承的。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:348
+msgid ":ref:`bool <class_bool>` **show_behind_parent**"
+msgstr ":ref:`bool <class_bool>` **show_behind_parent**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:353
+msgid "set_draw_behind_parent(value)"
+msgstr "set_draw_behind_parent(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:355
+msgid "is_draw_behind_parent_enabled()"
+msgstr "is_draw_behind_parent_enabled()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:358
+msgid "If ``true``, the object draws behind its parent."
+msgstr "如果为 ``true``，则对象将在其父对象后面绘制。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:364
+msgid ":ref:`bool <class_bool>` **show_on_top**"
+msgstr ":ref:`bool <class_bool>` **show_on_top**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:366
+msgid "If ``true``, the object draws on top of its parent."
+msgstr "如果为 ``true``，则对象将在其父对象顶部绘制。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:372
+msgid ":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` **texture_filter**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:377
+#, fuzzy
+msgid "set_texture_filter(value)"
+msgstr "set_visible(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:379
+msgid "get_texture_filter()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:386
+msgid ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` **texture_repeat**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:391
+#, fuzzy
+msgid "set_texture_repeat(value)"
+msgstr "set_use_parent_material(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:393
+msgid "get_texture_repeat()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:400
+msgid ":ref:`bool <class_bool>` **use_parent_material**"
+msgstr ":ref:`bool <class_bool>` **use_parent_material**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:405
+msgid "set_use_parent_material(value)"
+msgstr "set_use_parent_material(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:407
+msgid "get_use_parent_material()"
+msgstr "get_use_parent_material()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:410
+msgid ""
+"If ``true``, the parent ``CanvasItem``'s :ref:`material "
+"<class_CanvasItem_property_material>` property is used as this one's "
+"material."
+msgstr ""
+"如果为 ``true``，则将父 ``CanvasItem`` 的 :ref:`material "
+"<class_CanvasItem_property_material>` 属性用作它的材质。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:416
+msgid ":ref:`bool <class_bool>` **visible**"
+msgstr ":ref:`bool <class_bool>` **visible**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:421
+msgid "set_visible(value)"
+msgstr "set_visible(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:423
+msgid "is_visible()"
+msgstr "is_visible()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:426
+msgid ""
+"If ``true``, this ``CanvasItem`` is drawn. For controls that inherit "
+":ref:`Popup <class_Popup>`, the correct way to make them visible is to "
+"call one of the multiple ``popup*()`` functions instead."
+msgstr ""
+"如果为 ``true``，则绘制此 ``CanvasItem``。对于继承了 :ref:`Popup <class_Popup>` "
+"的控件，使其可见的正确方法是，改为调用多个 ``popup*()`` 函数之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:429
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:433
+msgid "void **_draw** **(** **)** virtual"
+msgstr "void **_draw** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:435
+#, fuzzy
+msgid ""
+"Overridable function called by the engine (if defined) to draw the canvas"
+" item."
+msgstr "调用（如果存在）以绘制画布项目。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:441
+#, fuzzy
+msgid ""
+"void **draw_arc** **(** :ref:`Vector2 <class_Vector2>` center, "
+":ref:`float <class_float>` radius, :ref:`float <class_float>` "
+"start_angle, :ref:`float <class_float>` end_angle, :ref:`int <class_int>`"
+" point_count, :ref:`Color <class_Color>` color, :ref:`float "
+"<class_float>` width=1.0 **)**"
+msgstr ""
+"void **draw_arc** **(** :ref:`Vector2 <class_Vector2>` center, "
+":ref:`float <class_float>` radius, :ref:`float <class_float>` "
+"start_angle, :ref:`float <class_float>` end_angle, :ref:`int <class_int>`"
+" point_count, :ref:`Color <class_Color>` color, :ref:`float "
+"<class_float>` width=1.0, :ref:`bool <class_bool>` antialiased=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:443
+msgid ""
+"Draws an arc between the given angles. The larger the value of "
+"``point_count``, the smoother the curve."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:449
+msgid ""
+":ref:`float <class_float>` **draw_char** **(** :ref:`Font <class_Font>` "
+"font, :ref:`Vector2 <class_Vector2>` position, :ref:`String "
+"<class_String>` char, :ref:`String <class_String>` next, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+":ref:`float <class_float>` **draw_char** **(** :ref:`Font <class_Font>` "
+"font, :ref:`Vector2 <class_Vector2>` position, :ref:`String "
+"<class_String>` char, :ref:`String <class_String>` next, :ref:`Color "
+"<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:451
+msgid ""
+"Draws a string character using a custom font. Returns the advance, "
+"depending on the character width and kerning with an optional next "
+"character."
+msgstr "使用自定义字体绘制字符串字符。返回前进量，具体取决于字符宽度、和带有可选的下一个字符的字距。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:457
+msgid ""
+"void **draw_circle** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`float <class_float>` radius, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+"void **draw_circle** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`float <class_float>` radius, :ref:`Color <class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:459
+msgid "Draws a colored circle."
+msgstr "画一个彩色的圆圈。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:465
+msgid ""
+"void **draw_colored_polygon** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`Color <class_Color>` color, "
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"uvs=PackedVector2Array(  ), :ref:`Texture2D <class_Texture2D>` "
+"texture=null, :ref:`Texture2D <class_Texture2D>` normal_map=null, "
+":ref:`Texture2D <class_Texture2D>` specular_map=null, :ref:`Color "
+"<class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:467
+msgid "Draws a colored polygon of any amount of points, convex or concave."
+msgstr "绘制任意数量的点的彩色多边形，凸或凹。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:473
+#, fuzzy
+msgid ""
+"void **draw_line** **(** :ref:`Vector2 <class_Vector2>` from, "
+":ref:`Vector2 <class_Vector2>` to, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+"void **draw_line** **(** :ref:`Vector2 <class_Vector2>` from, "
+":ref:`Vector2 <class_Vector2>` to, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0, :ref:`bool <class_bool>` "
+"antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:475
+#, fuzzy
+msgid "Draws a line from a 2D point to another, with a given color and width."
+msgstr "用给定的颜色和宽度，从一个2D点到另一点，画一条线。可以选择抗锯齿。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:481
+msgid ""
+"void **draw_mesh** **(** :ref:`Mesh <class_Mesh>` mesh, :ref:`Texture2D "
+"<class_Texture2D>` texture, :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`Transform2D <class_Transform2D>` transform=Transform2D( 1, 0, 0, 1,"
+" 0, 0 ), :ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:483
+msgid ""
+"Draws a :ref:`Mesh <class_Mesh>` in 2D, using the provided texture. See "
+":ref:`MeshInstance2D <class_MeshInstance2D>` for related documentation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:489
+#, fuzzy
+msgid ""
+"void **draw_multiline** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+"void **draw_multiline** **(** :ref:`PoolVector2Array "
+"<class_PoolVector2Array>` points, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0, :ref:`bool <class_bool>` "
+"antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:491
+msgid "Draws multiple, parallel lines with a uniform ``color``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:497
+#, fuzzy
+msgid ""
+"void **draw_multiline_colors** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`PackedColorArray "
+"<class_PackedColorArray>` colors, :ref:`float <class_float>` width=1.0 "
+"**)**"
+msgstr ""
+"void **draw_multiline_colors** **(** :ref:`PoolVector2Array "
+"<class_PoolVector2Array>` points, :ref:`PoolColorArray "
+"<class_PoolColorArray>` colors, :ref:`float <class_float>` width=1.0, "
+":ref:`bool <class_bool>` antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:499
+#, fuzzy
+msgid ""
+"Draws multiple, parallel lines with a uniform ``width`` and segment-by-"
+"segment coloring. Colors assigned to line segments match by index between"
+" ``points`` and ``colors``."
+msgstr ""
+"用统一的 ``width``、逐段着色、和可选的抗锯齿，绘制多条平行线。分配给线段的颜色，按 ``points`` 和 ``colors`` "
+"之间的索引，进行匹配。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:505
+msgid ""
+"void **draw_multimesh** **(** :ref:`MultiMesh <class_MultiMesh>` "
+"multimesh, :ref:`Texture2D <class_Texture2D>` texture, :ref:`Texture2D "
+"<class_Texture2D>` normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+"specular_map=null, :ref:`Color <class_Color>` specular_shininess=Color( "
+"1, 1, 1, 1 ), :ref:`TextureFilter <enum_CanvasItem_TextureFilter>` "
+"texture_filter=0, :ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+"texture_repeat=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:507
+msgid ""
+"Draws a :ref:`MultiMesh <class_MultiMesh>` in 2D with the provided "
+"texture. See :ref:`MultiMeshInstance2D <class_MultiMeshInstance2D>` for "
+"related documentation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:513
+msgid ""
+"void **draw_polygon** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`PackedColorArray "
+"<class_PackedColorArray>` colors, :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` uvs=PackedVector2Array(  ), :ref:`Texture2D "
+"<class_Texture2D>` texture=null, :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:515
+msgid "Draws a polygon of any amount of points, convex or concave."
+msgstr "绘制有任意数量的点的多边形，凸或凹。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:521
+#, fuzzy
+msgid ""
+"void **draw_polyline** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0 **)**"
+msgstr ""
+"void **draw_polyline** **(** :ref:`PoolVector2Array "
+"<class_PoolVector2Array>` points, :ref:`Color <class_Color>` color, "
+":ref:`float <class_float>` width=1.0, :ref:`bool <class_bool>` "
+"antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:523
+#, fuzzy
+msgid "Draws interconnected line segments with a uniform ``color`` and ``width``."
+msgstr "使用统一的 ``color`` 和 ``width`` 以及可选的抗锯齿功能，绘制互连的线段。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:529
+#, fuzzy
+msgid ""
+"void **draw_polyline_colors** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`PackedColorArray "
+"<class_PackedColorArray>` colors, :ref:`float <class_float>` width=1.0 "
+"**)**"
+msgstr ""
+"void **draw_polyline_colors** **(** :ref:`PoolVector2Array "
+"<class_PoolVector2Array>` points, :ref:`PoolColorArray "
+"<class_PoolColorArray>` colors, :ref:`float <class_float>` width=1.0, "
+":ref:`bool <class_bool>` antialiased=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:531
+#, fuzzy
+msgid ""
+"Draws interconnected line segments with a uniform ``width`` and segment-"
+"by-segment coloring. Colors assigned to line segments match by index "
+"between ``points`` and ``colors``."
+msgstr ""
+"绘制具有统一 ``width``、逐段着色、和可选抗锯齿功能的，互连线段。分配给线段的颜色，按 ``points`` 和 ``colors`` "
+"之间的索引，进行匹配。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:537
+msgid ""
+"void **draw_primitive** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` points, :ref:`PackedColorArray "
+"<class_PackedColorArray>` colors, :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` uvs, :ref:`Texture2D <class_Texture2D>` "
+"texture=null, :ref:`float <class_float>` width=1.0, :ref:`Texture2D "
+"<class_Texture2D>` normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+"specular_map=null, :ref:`Color <class_Color>` specular_shininess=Color( "
+"1, 1, 1, 1 ), :ref:`TextureFilter <enum_CanvasItem_TextureFilter>` "
+"texture_filter=0, :ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+"texture_repeat=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:539
+#, fuzzy
+msgid ""
+"Draws a custom primitive. 1 point for a point, 2 points for a line, 3 "
+"points for a triangle, and 4 points for a quad."
+msgstr "绘制一个自定义基本体。1点为1点，直线为2点，三角形为3点，四边形为4点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:545
+#, fuzzy
+msgid ""
+"void **draw_rect** **(** :ref:`Rect2 <class_Rect2>` rect, :ref:`Color "
+"<class_Color>` color, :ref:`bool <class_bool>` filled=true, :ref:`float "
+"<class_float>` width=1.0 **)**"
+msgstr ""
+"void **draw_rect** **(** :ref:`Rect2 <class_Rect2>` rect, :ref:`Color "
+"<class_Color>` color, :ref:`bool <class_bool>` filled=true, :ref:`float "
+"<class_float>` width=1.0, :ref:`bool <class_bool>` antialiased=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:547
+#, fuzzy
+msgid ""
+"Draws a rectangle. If ``filled`` is ``true``, the rectangle will be "
+"filled with the ``color`` specified. If ``filled`` is ``false``, the "
+"rectangle will be drawn as a stroke with the ``color`` and ``width`` "
+"specified."
+msgstr ""
+"绘制一个矩形。如果 ``filled`` 为 ``true``，则矩形将用指定的 ``color`` 填充。如果 ``filled`` 为 "
+"``false``，则将用一支画笔绘制矩形，且使用指定的 ``color`` 和 ``width`` 。如果 ``antialiased`` 为 "
+"``true``，则将对行进行抗锯齿。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:549
+#, fuzzy
+msgid "**Note:** ``width`` is only effective if ``filled`` is ``false``."
+msgstr "**注意**：仅当 ``filled`` 为 ``false`` 时，``width`` 和 ``antialiased`` 才有效。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:555
+msgid ""
+"void **draw_set_transform** **(** :ref:`Vector2 <class_Vector2>` "
+"position, :ref:`float <class_float>` rotation, :ref:`Vector2 "
+"<class_Vector2>` scale **)**"
+msgstr ""
+"void **draw_set_transform** **(** :ref:`Vector2 <class_Vector2>` "
+"position, :ref:`float <class_float>` rotation, :ref:`Vector2 "
+"<class_Vector2>` scale **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:557
+msgid ""
+"Sets a custom transform for drawing via components. Anything drawn "
+"afterwards will be transformed by this."
+msgstr "设置一个自定义变换，以通过组件进行绘制。此后绘制的所有内容，都将由此变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:563
+msgid ""
+"void **draw_set_transform_matrix** **(** :ref:`Transform2D "
+"<class_Transform2D>` xform **)**"
+msgstr ""
+"void **draw_set_transform_matrix** **(** :ref:`Transform2D "
+"<class_Transform2D>` xform **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:565
+msgid ""
+"Sets a custom transform for drawing via matrix. Anything drawn afterwards"
+" will be transformed by this."
+msgstr "设置一个自定义变换，以通过矩阵进行绘制。此后绘制的所有内容，都将由此变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:571
+msgid ""
+"void **draw_string** **(** :ref:`Font <class_Font>` font, :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`String <class_String>` text, :ref:`Color"
+" <class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int <class_int>` "
+"clip_w=-1 **)**"
+msgstr ""
+"void **draw_string** **(** :ref:`Font <class_Font>` font, :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`String <class_String>` text, :ref:`Color"
+" <class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int <class_int>` "
+"clip_w=-1 **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:573
+msgid "Draws a string using a custom font."
+msgstr "使用一个自定义字体，绘制一个字符串。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:579
+msgid ""
+"void **draw_style_box** **(** :ref:`StyleBox <class_StyleBox>` style_box,"
+" :ref:`Rect2 <class_Rect2>` rect **)**"
+msgstr ""
+"void **draw_style_box** **(** :ref:`StyleBox <class_StyleBox>` style_box,"
+" :ref:`Rect2 <class_Rect2>` rect **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:581
+msgid "Draws a styled rectangle."
+msgstr "绘制一个样式化的矩形。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:587
+msgid ""
+"void **draw_texture** **(** :ref:`Texture2D <class_Texture2D>` texture, "
+":ref:`Vector2 <class_Vector2>` position, :ref:`Color <class_Color>` "
+"modulate=Color( 1, 1, 1, 1 ), :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:589
+msgid "Draws a texture at a given position."
+msgstr "在给定位置绘制一个纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:595
+msgid ""
+"void **draw_texture_rect** **(** :ref:`Texture2D <class_Texture2D>` "
+"texture, :ref:`Rect2 <class_Rect2>` rect, :ref:`bool <class_bool>` tile, "
+":ref:`Color <class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool "
+"<class_bool>` transpose=false, :ref:`Texture2D <class_Texture2D>` "
+"normal_map=null, :ref:`Texture2D <class_Texture2D>` specular_map=null, "
+":ref:`Color <class_Color>` specular_shininess=Color( 1, 1, 1, 1 ), "
+":ref:`TextureFilter <enum_CanvasItem_TextureFilter>` texture_filter=0, "
+":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` texture_repeat=0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:597
+msgid ""
+"Draws a textured rectangle at a given position, optionally modulated by a"
+" color. If ``transpose`` is ``true``, the texture will have its X and Y "
+"coordinates swapped."
+msgstr "在给定位置绘制一个纹理的矩形，可以选择通过一个颜色进行调制。如果 ``transpose`` 为 ``true``，则纹理将交换其X和Y坐标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:603
+msgid ""
+"void **draw_texture_rect_region** **(** :ref:`Texture2D "
+"<class_Texture2D>` texture, :ref:`Rect2 <class_Rect2>` rect, :ref:`Rect2 "
+"<class_Rect2>` src_rect, :ref:`Color <class_Color>` modulate=Color( 1, 1,"
+" 1, 1 ), :ref:`bool <class_bool>` transpose=false, :ref:`Texture2D "
+"<class_Texture2D>` normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+"specular_map=null, :ref:`Color <class_Color>` specular_shininess=Color( "
+"1, 1, 1, 1 ), :ref:`bool <class_bool>` clip_uv=true, :ref:`TextureFilter "
+"<enum_CanvasItem_TextureFilter>` texture_filter=0, :ref:`TextureRepeat "
+"<enum_CanvasItem_TextureRepeat>` texture_repeat=0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:605
+msgid ""
+"Draws a textured rectangle region at a given position, optionally "
+"modulated by a color. If ``transpose`` is ``true``, the texture will have"
+" its X and Y coordinates swapped."
+msgstr "在给定位置绘制一个纹理的矩形区块，可以选择通过一个颜色进行调制。如果 ``transpose`` 为 ``true``，则纹理将交换其X和Y坐标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:611
+msgid "void **force_update_transform** **(** **)**"
+msgstr "void **force_update_transform** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:613
+msgid ""
+"Forces the transform to update. Transform changes in physics are not "
+"instant for performance reasons. Transforms are accumulated and then set."
+" Use this if you need an up-to-date transform when doing physics "
+"operations."
+msgstr "强制变换更新。出于性能方面的考虑，物理中变换的改变不是即时的。积累变换，然后设置。如果在进行物理操作时，需要最新的变换，请使用此选项。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:619
+msgid ":ref:`RID <class_RID>` **get_canvas** **(** **)** const"
+msgstr ":ref:`RID <class_RID>` **get_canvas** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:621
+msgid ""
+"Returns the :ref:`RID <class_RID>` of the :ref:`World2D <class_World2D>` "
+"canvas where this item is in."
+msgstr "返回此项所在的 :ref:`World2D <class_World2D>` 画布的 :ref:`RID <class_RID>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:627
+msgid ":ref:`RID <class_RID>` **get_canvas_item** **(** **)** const"
+msgstr ":ref:`RID <class_RID>` **get_canvas_item** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:629
+msgid ""
+"Returns the canvas item RID used by :ref:`VisualServer "
+"<class_VisualServer>` for this item."
+msgstr "返回由针对此项的 :ref:`VisualServer <class_VisualServer>`，使用的画布项RID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:635
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **get_canvas_transform** **(** "
+"**)** const"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **get_canvas_transform** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:637
+#, fuzzy
+msgid "Returns the transform matrix of this item's canvas."
+msgstr "获取此项的画布的变换矩阵。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:643
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_global_mouse_position** **(** **)** "
+"const"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **get_global_mouse_position** **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:645
+#, fuzzy
+msgid "Returns the global position of the mouse."
+msgstr "获取鼠标的全局位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:651
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **get_global_transform** **(** "
+"**)** const"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **get_global_transform** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:653
+#, fuzzy
+msgid "Returns the global transform matrix of this item."
+msgstr "获取此项的全局变换矩阵。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:659
+msgid ""
+":ref:`Transform2D <class_Transform2D>` "
+"**get_global_transform_with_canvas** **(** **)** const"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` "
+"**get_global_transform_with_canvas** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:661
+#, fuzzy
+msgid ""
+"Returns the global transform matrix of this item in relation to the "
+"canvas."
+msgstr "获取相对于画布的，此项的全局变换矩阵。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:667
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_local_mouse_position** **(** **)** "
+"const"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **get_local_mouse_position** **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:669
+#, fuzzy
+msgid "Returns the mouse position relative to this item's position."
+msgstr "获取相对于此项位置的鼠标位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:675
+msgid ":ref:`Transform2D <class_Transform2D>` **get_transform** **(** **)** const"
+msgstr ":ref:`Transform2D <class_Transform2D>` **get_transform** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:677
+#, fuzzy
+msgid "Returns the transform matrix of this item."
+msgstr "获取此项的变换矩阵。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:683
+msgid ":ref:`Rect2 <class_Rect2>` **get_viewport_rect** **(** **)** const"
+msgstr ":ref:`Rect2 <class_Rect2>` **get_viewport_rect** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:685
+#, fuzzy
+msgid "Returns the viewport's boundaries as a :ref:`Rect2 <class_Rect2>`."
+msgstr "以一个 :ref:`Rect2 <class_Rect2>` 的形式，获取视图的边界。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:691
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **get_viewport_transform** **(** "
+"**)** const"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **get_viewport_transform** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:693
+#, fuzzy
+msgid "Returns this item's transform in relation to the viewport."
+msgstr "获取此项相对于视图的变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:699
+msgid ":ref:`World2D <class_World2D>` **get_world_2d** **(** **)** const"
+msgstr ":ref:`World2D <class_World2D>` **get_world_2d** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:701
+#, fuzzy
+msgid "Returns the :ref:`World2D <class_World2D>` where this item is in."
+msgstr "获取此条目所在的 :ref:`World2D <class_World2D>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:707
+msgid "void **hide** **(** **)**"
+msgstr "void **hide** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:709
+#, fuzzy
+msgid "Hide the ``CanvasItem`` if it's currently visible."
+msgstr "如果当前可见，则隐藏CanvasItem。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:715
+msgid ""
+":ref:`bool <class_bool>` **is_local_transform_notification_enabled** "
+"**(** **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_local_transform_notification_enabled** "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:717
+msgid ""
+"Returns ``true`` if local transform notifications are communicated to "
+"children."
+msgstr "如果将本地变换通知传达给子级，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:723
+msgid ":ref:`bool <class_bool>` **is_set_as_toplevel** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_set_as_toplevel** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:725
+msgid ""
+"Returns ``true`` if the node is set as top-level. See "
+":ref:`set_as_toplevel <class_CanvasItem_method_set_as_toplevel>`."
+msgstr ""
+"如果节点设置为顶级，则返回 ``true``。参见 :ref:`set_as_toplevel "
+"<class_CanvasItem_method_set_as_toplevel>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:731
+msgid ""
+":ref:`bool <class_bool>` **is_transform_notification_enabled** **(** "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_transform_notification_enabled** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:733
+msgid ""
+"Returns ``true`` if global transform notifications are communicated to "
+"children."
+msgstr "如果将全局变换通知传达给子级，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:739
+msgid ":ref:`bool <class_bool>` **is_visible_in_tree** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_visible_in_tree** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:741
+msgid ""
+"Returns ``true`` if the node is present in the :ref:`SceneTree "
+"<class_SceneTree>`, its :ref:`visible "
+"<class_CanvasItem_property_visible>` property is ``true`` and its "
+"inherited visibility is also ``true``."
+msgstr ""
+"如果节点存在于场景树 :ref:`SceneTree <class_SceneTree>` 中，其 :ref:`visible "
+"<class_CanvasItem_property_visible>` 属性为 ``true``，并且其继承的可见性也为 "
+"``true``；则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:747
+msgid ""
+":ref:`Vector2 <class_Vector2>` **make_canvas_position_local** **(** "
+":ref:`Vector2 <class_Vector2>` screen_point **)** const"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **make_canvas_position_local** **(** "
+":ref:`Vector2 <class_Vector2>` screen_point **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:749
+msgid "Assigns ``screen_point`` as this node's new local transform."
+msgstr "将 ``screen_point`` 分配为该节点的新本地变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:755
+msgid ""
+":ref:`InputEvent <class_InputEvent>` **make_input_local** **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** const"
+msgstr ""
+":ref:`InputEvent <class_InputEvent>` **make_input_local** **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:757
+msgid ""
+"Transformations issued by ``event``'s inputs are applied in local space "
+"instead of global space."
+msgstr "由事件 ``event`` 的输入发出的转换，将在局部空间而不是全局空间中应用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:763
+msgid "void **set_as_toplevel** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_as_toplevel** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:765
+msgid ""
+"If ``enable`` is ``true``, the node won't inherit its transform from "
+"parent canvas items."
+msgstr "如果 ``enable`` 为 ``true``，则该节点不会从父画布条目中，继承其转换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:771
+msgid ""
+"void **set_notify_local_transform** **(** :ref:`bool <class_bool>` enable"
+" **)**"
+msgstr ""
+"void **set_notify_local_transform** **(** :ref:`bool <class_bool>` enable"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:773
+msgid ""
+"If ``enable`` is ``true``, children will be updated with local transform "
+"data."
+msgstr "如果 ``enable`` 为 ``true``，子项将使用本地变换数据进行更新。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:779
+msgid "void **set_notify_transform** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_notify_transform** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:781
+msgid ""
+"If ``enable`` is ``true``, children will be updated with global transform"
+" data."
+msgstr "如果 ``enable`` 为 ``true``，子项将使用全局变换数据进行更新。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:787
+msgid "void **show** **(** **)**"
+msgstr "void **show** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:789
+#, fuzzy
+msgid ""
+"Show the ``CanvasItem`` if it's currently hidden. For controls that "
+"inherit :ref:`Popup <class_Popup>`, the correct way to make them visible "
+"is to call one of the multiple ``popup*()`` functions instead."
+msgstr ""
+"如果当前处于隐藏状态，显示CanvasItem。对于继承了 :ref:`Popup <class_Popup>` "
+"的控件，使其可见的正确方法是，改为调用多个 ``popup*()`` 函数之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:795
+msgid "void **update** **(** **)**"
+msgstr "void **update** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_canvasitem.rst:797
+#, fuzzy
+msgid ""
+"Queue the ``CanvasItem`` for update. :ref:`NOTIFICATION_DRAW "
+"<class_CanvasItem_constant_NOTIFICATION_DRAW>` will be called on idle "
+"time to request redraw."
+msgstr ""
+"将CanvasItem排队等待更新。:ref:`NOTIFICATION_DRAW "
+"<class_CanvasItem_constant_NOTIFICATION_DRAW>` 将在空闲时间被调用，以请求重绘。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid ""
+#~ ":ref:`draw_colored_polygon "
+#~ "<class_CanvasItem_method_draw_colored_polygon>` **(** "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` points,"
+#~ " :ref:`Color <class_Color>` color, "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`bool "
+#~ "<class_bool>` antialiased=false **)**"
+#~ msgstr ""
+#~ ":ref:`draw_colored_polygon "
+#~ "<class_CanvasItem_method_draw_colored_polygon>` **(** "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` points,"
+#~ " :ref:`Color <class_Color>` color, "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`bool "
+#~ "<class_bool>` antialiased=false **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_mesh <class_CanvasItem_method_draw_mesh>` **(**"
+#~ " :ref:`Mesh <class_Mesh>` mesh, :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`Transform2D "
+#~ "<class_Transform2D>` transform=Transform2D( 1, 0,"
+#~ " 0, 1, 0, 0 ), :ref:`Color "
+#~ "<class_Color>` modulate=Color( 1, 1, 1, "
+#~ "1 ) **)**"
+#~ msgstr ""
+#~ ":ref:`draw_mesh <class_CanvasItem_method_draw_mesh>` **(**"
+#~ " :ref:`Mesh <class_Mesh>` mesh, :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`Transform2D "
+#~ "<class_Transform2D>` transform=Transform2D( 1, 0,"
+#~ " 0, 1, 0, 0 ), :ref:`Color "
+#~ "<class_Color>` modulate=Color( 1, 1, 1, "
+#~ "1 ) **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_multimesh <class_CanvasItem_method_draw_multimesh>`"
+#~ " **(** :ref:`MultiMesh <class_MultiMesh>` "
+#~ "multimesh, :ref:`Texture <class_Texture>` texture,"
+#~ " :ref:`Texture <class_Texture>` normal_map=null "
+#~ "**)**"
+#~ msgstr ""
+#~ ":ref:`draw_multimesh <class_CanvasItem_method_draw_multimesh>`"
+#~ " **(** :ref:`MultiMesh <class_MultiMesh>` "
+#~ "multimesh, :ref:`Texture <class_Texture>` texture,"
+#~ " :ref:`Texture <class_Texture>` normal_map=null "
+#~ "**)**"
+
+#~ msgid ""
+#~ ":ref:`draw_polygon <class_CanvasItem_method_draw_polygon>` "
+#~ "**(** :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "points, :ref:`PoolColorArray <class_PoolColorArray>` "
+#~ "colors, :ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ " uvs=PoolVector2Array(  ), :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`bool "
+#~ "<class_bool>` antialiased=false **)**"
+#~ msgstr ""
+#~ ":ref:`draw_polygon <class_CanvasItem_method_draw_polygon>` "
+#~ "**(** :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "points, :ref:`PoolColorArray <class_PoolColorArray>` "
+#~ "colors, :ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ " uvs=PoolVector2Array(  ), :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`bool "
+#~ "<class_bool>` antialiased=false **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_primitive <class_CanvasItem_method_draw_primitive>`"
+#~ " **(** :ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ " points, :ref:`PoolColorArray <class_PoolColorArray>`"
+#~ " colors, :ref:`PoolVector2Array "
+#~ "<class_PoolVector2Array>` uvs, :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`float "
+#~ "<class_float>` width=1.0, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+#~ msgstr ""
+#~ ":ref:`draw_primitive <class_CanvasItem_method_draw_primitive>`"
+#~ " **(** :ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ " points, :ref:`PoolColorArray <class_PoolColorArray>`"
+#~ " colors, :ref:`PoolVector2Array "
+#~ "<class_PoolVector2Array>` uvs, :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`float "
+#~ "<class_float>` width=1.0, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_texture <class_CanvasItem_method_draw_texture>` "
+#~ "**(** :ref:`Texture <class_Texture>` texture, "
+#~ ":ref:`Vector2 <class_Vector2>` position, :ref:`Color"
+#~ " <class_Color>` modulate=Color( 1, 1, 1,"
+#~ " 1 ), :ref:`Texture <class_Texture>` "
+#~ "normal_map=null **)**"
+#~ msgstr ""
+#~ ":ref:`draw_texture <class_CanvasItem_method_draw_texture>` "
+#~ "**(** :ref:`Texture <class_Texture>` texture, "
+#~ ":ref:`Vector2 <class_Vector2>` position, :ref:`Color"
+#~ " <class_Color>` modulate=Color( 1, 1, 1,"
+#~ " 1 ), :ref:`Texture <class_Texture>` "
+#~ "normal_map=null **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_texture_rect "
+#~ "<class_CanvasItem_method_draw_texture_rect>` **(** "
+#~ ":ref:`Texture <class_Texture>` texture, :ref:`Rect2"
+#~ " <class_Rect2>` rect, :ref:`bool <class_bool>`"
+#~ " tile, :ref:`Color <class_Color>` modulate=Color("
+#~ " 1, 1, 1, 1 ), :ref:`bool "
+#~ "<class_bool>` transpose=false, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+#~ msgstr ""
+#~ ":ref:`draw_texture_rect "
+#~ "<class_CanvasItem_method_draw_texture_rect>` **(** "
+#~ ":ref:`Texture <class_Texture>` texture, :ref:`Rect2"
+#~ " <class_Rect2>` rect, :ref:`bool <class_bool>`"
+#~ " tile, :ref:`Color <class_Color>` modulate=Color("
+#~ " 1, 1, 1, 1 ), :ref:`bool "
+#~ "<class_bool>` transpose=false, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_texture_rect_region "
+#~ "<class_CanvasItem_method_draw_texture_rect_region>` **(** "
+#~ ":ref:`Texture <class_Texture>` texture, :ref:`Rect2"
+#~ " <class_Rect2>` rect, :ref:`Rect2 <class_Rect2>`"
+#~ " src_rect, :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture <class_Texture>` normal_map=null, "
+#~ ":ref:`bool <class_bool>` clip_uv=true **)**"
+#~ msgstr ""
+#~ ":ref:`draw_texture_rect_region "
+#~ "<class_CanvasItem_method_draw_texture_rect_region>` **(** "
+#~ ":ref:`Texture <class_Texture>` texture, :ref:`Rect2"
+#~ " <class_Rect2>` rect, :ref:`Rect2 <class_Rect2>`"
+#~ " src_rect, :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture <class_Texture>` normal_map=null, "
+#~ ":ref:`bool <class_bool>` clip_uv=true **)**"
+
+#~ msgid "enum **BlendMode**:"
+#~ msgstr "枚举 **BlendMode**："
+
+#~ msgid ""
+#~ "**BLEND_MODE_MIX** = **0** --- Mix "
+#~ "blending mode. Colors are assumed to "
+#~ "be independent of the alpha (opacity)"
+#~ " value."
+#~ msgstr "**BLEND_MODE_MIX** = **0** —— 混合混合模式。假定颜色与alpha（不透明度）值无关。"
+
+#~ msgid "**BLEND_MODE_ADD** = **1** --- Additive blending mode."
+#~ msgstr "**BLEND_MODE_ADD** = **1** —— 相加混合模式。"
+
+#~ msgid "**BLEND_MODE_SUB** = **2** --- Subtractive blending mode."
+#~ msgstr "**BLEND_MODE_SUB** = **2** —— 相减混合模式。"
+
+#~ msgid "**BLEND_MODE_MUL** = **3** --- Multiplicative blending mode."
+#~ msgstr "**BLEND_MODE_MUL** = **3** —— 相乘混合模式。"
+
+#~ msgid ""
+#~ "**BLEND_MODE_PREMULT_ALPHA** = **4** --- Mix"
+#~ " blending mode. Colors are assumed to"
+#~ " be premultiplied by the alpha "
+#~ "(opacity) value."
+#~ msgstr "**BLEND_MODE_PREMULT_ALPHA** = **4** —— 混合混合模式。假定颜色已预先乘以alpha（不透明度）值。"
+
+#~ msgid ""
+#~ "**BLEND_MODE_DISABLED** = **5** --- Disables"
+#~ " blending mode. Colors including alpha "
+#~ "are written as-is. Only applicable "
+#~ "for render targets with a transparent"
+#~ " background. No lighting will be "
+#~ "applied."
+#~ msgstr ""
+#~ "**BLEND_MODE_DISABLED** = **5** —— "
+#~ "禁用混合模式。包括alpha的颜色均按原样书写。仅适用于具有透明背景的渲染目标。没有光线被应用。"
+
+#~ msgid ""
+#~ "void **draw_colored_polygon** **(** "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` points,"
+#~ " :ref:`Color <class_Color>` color, "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`bool "
+#~ "<class_bool>` antialiased=false **)**"
+#~ msgstr ""
+#~ "void **draw_colored_polygon** **(** "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` points,"
+#~ " :ref:`Color <class_Color>` color, "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null, :ref:`bool "
+#~ "<class_bool>` antialiased=false **)**"
+
+#~ msgid ""
+#~ "void **draw_mesh** **(** :ref:`Mesh "
+#~ "<class_Mesh>` mesh, :ref:`Texture <class_Texture>`"
+#~ " texture, :ref:`Texture <class_Texture>` "
+#~ "normal_map=null, :ref:`Transform2D <class_Transform2D>`"
+#~ " transform=Transform2D( 1, 0, 0, 1, "
+#~ "0, 0 ), :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ) **)**"
+#~ msgstr ""
+#~ "void **draw_mesh** **(** :ref:`Mesh "
+#~ "<class_Mesh>` mesh, :ref:`Texture <class_Texture>`"
+#~ " texture, :ref:`Texture <class_Texture>` "
+#~ "normal_map=null, :ref:`Transform2D <class_Transform2D>`"
+#~ " transform=Transform2D( 1, 0, 0, 1, "
+#~ "0, 0 ), :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ) **)**"
+
+#~ msgid ""
+#~ "Draws multiple, parallel lines with a"
+#~ " uniform ``color``. ``width`` and "
+#~ "``antialiased`` are currently not implemented"
+#~ " and have no effect."
+#~ msgstr "用统一的颜色 ``color`` 绘制多条平行线。"
+
+#~ msgid ""
+#~ "void **draw_multimesh** **(** :ref:`MultiMesh "
+#~ "<class_MultiMesh>` multimesh, :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+#~ msgstr ""
+#~ "void **draw_multimesh** **(** :ref:`MultiMesh "
+#~ "<class_MultiMesh>` multimesh, :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+
+#~ msgid ""
+#~ "void **draw_polygon** **(** :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` points, :ref:`PoolColorArray"
+#~ " <class_PoolColorArray>` colors, :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` uvs=PoolVector2Array(  ),"
+#~ " :ref:`Texture <class_Texture>` texture=null, "
+#~ ":ref:`Texture <class_Texture>` normal_map=null, "
+#~ ":ref:`bool <class_bool>` antialiased=false **)**"
+#~ msgstr ""
+#~ "void **draw_polygon** **(** :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` points, :ref:`PoolColorArray"
+#~ " <class_PoolColorArray>` colors, :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` uvs=PoolVector2Array(  ),"
+#~ " :ref:`Texture <class_Texture>` texture=null, "
+#~ ":ref:`Texture <class_Texture>` normal_map=null, "
+#~ ":ref:`bool <class_bool>` antialiased=false **)**"
+
+#~ msgid ""
+#~ "void **draw_primitive** **(** :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` points, :ref:`PoolColorArray"
+#~ " <class_PoolColorArray>` colors, :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` uvs, :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`float "
+#~ "<class_float>` width=1.0, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+#~ msgstr ""
+#~ "void **draw_primitive** **(** :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` points, :ref:`PoolColorArray"
+#~ " <class_PoolColorArray>` colors, :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` uvs, :ref:`Texture "
+#~ "<class_Texture>` texture=null, :ref:`float "
+#~ "<class_float>` width=1.0, :ref:`Texture "
+#~ "<class_Texture>` normal_map=null **)**"
+
+#~ msgid ""
+#~ "void **draw_texture** **(** :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Vector2 "
+#~ "<class_Vector2>` position, :ref:`Color "
+#~ "<class_Color>` modulate=Color( 1, 1, 1, "
+#~ "1 ), :ref:`Texture <class_Texture>` "
+#~ "normal_map=null **)**"
+#~ msgstr ""
+#~ "void **draw_texture** **(** :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Vector2 "
+#~ "<class_Vector2>` position, :ref:`Color "
+#~ "<class_Color>` modulate=Color( 1, 1, 1, "
+#~ "1 ), :ref:`Texture <class_Texture>` "
+#~ "normal_map=null **)**"
+
+#~ msgid ""
+#~ "void **draw_texture_rect** **(** :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Rect2 <class_Rect2>`"
+#~ " rect, :ref:`bool <class_bool>` tile, "
+#~ ":ref:`Color <class_Color>` modulate=Color( 1, "
+#~ "1, 1, 1 ), :ref:`bool <class_bool>` "
+#~ "transpose=false, :ref:`Texture <class_Texture>` "
+#~ "normal_map=null **)**"
+#~ msgstr ""
+#~ "void **draw_texture_rect** **(** :ref:`Texture "
+#~ "<class_Texture>` texture, :ref:`Rect2 <class_Rect2>`"
+#~ " rect, :ref:`bool <class_bool>` tile, "
+#~ ":ref:`Color <class_Color>` modulate=Color( 1, "
+#~ "1, 1, 1 ), :ref:`bool <class_bool>` "
+#~ "transpose=false, :ref:`Texture <class_Texture>` "
+#~ "normal_map=null **)**"
+
+#~ msgid ""
+#~ "void **draw_texture_rect_region** **(** "
+#~ ":ref:`Texture <class_Texture>` texture, :ref:`Rect2"
+#~ " <class_Rect2>` rect, :ref:`Rect2 <class_Rect2>`"
+#~ " src_rect, :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture <class_Texture>` normal_map=null, "
+#~ ":ref:`bool <class_bool>` clip_uv=true **)**"
+#~ msgstr ""
+#~ "void **draw_texture_rect_region** **(** "
+#~ ":ref:`Texture <class_Texture>` texture, :ref:`Rect2"
+#~ " <class_Rect2>` rect, :ref:`Rect2 <class_Rect2>`"
+#~ " src_rect, :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture <class_Texture>` normal_map=null, "
+#~ ":ref:`bool <class_bool>` clip_uv=true **)**"
+
+#~ msgid ""
+#~ ":ref:`draw_colored_polygon "
+#~ "<class_CanvasItem_method_draw_colored_polygon>` **(** "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` points,"
+#~ " :ref:`Color <class_Color>` color, "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_mesh <class_CanvasItem_method_draw_mesh>` **(**"
+#~ " :ref:`Mesh <class_Mesh>` mesh, :ref:`Texture2D"
+#~ " <class_Texture2D>` texture=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=Color( 1, 1, "
+#~ "1, 1 ), :ref:`Color <class_Color>` "
+#~ "transform=Transform2D( 1, 0, 0, 1, 0,"
+#~ " 0 ), :ref:`Transform2D <class_Transform2D>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`Color <class_Color>` specular_shinness=Color( "
+#~ "1, 1, 1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_multimesh <class_CanvasItem_method_draw_multimesh>`"
+#~ " **(** :ref:`MultiMesh <class_MultiMesh>` "
+#~ "multimesh, :ref:`Texture2D <class_Texture2D>` "
+#~ "texture=null, :ref:`Texture2D <class_Texture2D>` "
+#~ "normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+#~ "specular_map=null, :ref:`Color <class_Color>` "
+#~ "specular_shinness=Color( 1, 1, 1, 1 ),"
+#~ " :ref:`TextureFilter <enum_CanvasItem_TextureFilter>` "
+#~ "texture_filter=0, :ref:`TextureRepeat "
+#~ "<enum_CanvasItem_TextureRepeat>` texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_polygon <class_CanvasItem_method_draw_polygon>` "
+#~ "**(** :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "points, :ref:`PoolColorArray <class_PoolColorArray>` "
+#~ "colors, :ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ " uvs=PoolVector2Array(  ), :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_primitive <class_CanvasItem_method_draw_primitive>`"
+#~ " **(** :ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ " points, :ref:`PoolColorArray <class_PoolColorArray>`"
+#~ " colors, :ref:`PoolVector2Array "
+#~ "<class_PoolVector2Array>` uvs, :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`float "
+#~ "<class_float>` width=1.0, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_texture <class_CanvasItem_method_draw_texture>` "
+#~ "**(** :ref:`Texture2D <class_Texture2D>` texture,"
+#~ " :ref:`Vector2 <class_Vector2>` position, "
+#~ ":ref:`Color <class_Color>` modulate=Color( 1, "
+#~ "1, 1, 1 ), :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_texture_rect "
+#~ "<class_CanvasItem_method_draw_texture_rect>` **(** "
+#~ ":ref:`Texture2D <class_Texture2D>` texture, "
+#~ ":ref:`Rect2 <class_Rect2>` rect, :ref:`bool "
+#~ "<class_bool>` tile, :ref:`Color <class_Color>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture2D <class_Texture2D>` normal_map=null, "
+#~ ":ref:`Texture2D <class_Texture2D>` specular_map=null, "
+#~ ":ref:`Color <class_Color>` specular_shinness=Color( "
+#~ "1, 1, 1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`draw_texture_rect_region "
+#~ "<class_CanvasItem_method_draw_texture_rect_region>` **(** "
+#~ ":ref:`Texture2D <class_Texture2D>` texture, "
+#~ ":ref:`Rect2 <class_Rect2>` rect, :ref:`Rect2 "
+#~ "<class_Rect2>` src_rect, :ref:`Color <class_Color>`"
+#~ " modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture2D <class_Texture2D>` normal_map=null, "
+#~ ":ref:`Texture2D <class_Texture2D>` specular_map=null, "
+#~ ":ref:`Color <class_Color>` clip_uv=true, :ref:`bool"
+#~ " <class_bool>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid "**TEXTURE_FILTER_NEAREST_WITH_MIMPAMPS** = **3**"
+#~ msgstr ""
+
+#~ msgid "**TEXTURE_FILTER_NEAREST_WITH_MIMPAMPS_ANISOTROPIC** = **5**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_colored_polygon** **(** "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` points,"
+#~ " :ref:`Color <class_Color>` color, "
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "uvs=PoolVector2Array(  ), :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_mesh** **(** :ref:`Mesh "
+#~ "<class_Mesh>` mesh, :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=Color( 1, 1, "
+#~ "1, 1 ), :ref:`Color <class_Color>` "
+#~ "transform=Transform2D( 1, 0, 0, 1, 0,"
+#~ " 0 ), :ref:`Transform2D <class_Transform2D>` "
+#~ "modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`Color <class_Color>` specular_shinness=Color( "
+#~ "1, 1, 1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_multimesh** **(** :ref:`MultiMesh "
+#~ "<class_MultiMesh>` multimesh, :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_polygon** **(** :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` points, :ref:`PoolColorArray"
+#~ " <class_PoolColorArray>` colors, :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` uvs=PoolVector2Array(  ),"
+#~ " :ref:`Texture2D <class_Texture2D>` texture=null, "
+#~ ":ref:`Texture2D <class_Texture2D>` normal_map=null, "
+#~ ":ref:`Texture2D <class_Texture2D>` specular_map=null, "
+#~ ":ref:`Color <class_Color>` specular_shinness=Color( "
+#~ "1, 1, 1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_primitive** **(** :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` points, :ref:`PoolColorArray"
+#~ " <class_PoolColorArray>` colors, :ref:`PoolVector2Array"
+#~ " <class_PoolVector2Array>` uvs, :ref:`Texture2D "
+#~ "<class_Texture2D>` texture=null, :ref:`float "
+#~ "<class_float>` width=1.0, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_texture** **(** :ref:`Texture2D "
+#~ "<class_Texture2D>` texture, :ref:`Vector2 "
+#~ "<class_Vector2>` position, :ref:`Color "
+#~ "<class_Color>` modulate=Color( 1, 1, 1, "
+#~ "1 ), :ref:`Texture2D <class_Texture2D>` "
+#~ "normal_map=null, :ref:`Texture2D <class_Texture2D>` "
+#~ "specular_map=null, :ref:`Color <class_Color>` "
+#~ "specular_shinness=Color( 1, 1, 1, 1 ),"
+#~ " :ref:`TextureFilter <enum_CanvasItem_TextureFilter>` "
+#~ "texture_filter=0, :ref:`TextureRepeat "
+#~ "<enum_CanvasItem_TextureRepeat>` texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_texture_rect** **(** :ref:`Texture2D "
+#~ "<class_Texture2D>` texture, :ref:`Rect2 "
+#~ "<class_Rect2>` rect, :ref:`bool <class_bool>` "
+#~ "tile, :ref:`Color <class_Color>` modulate=Color( "
+#~ "1, 1, 1, 1 ), :ref:`bool "
+#~ "<class_bool>` transpose=false, :ref:`Texture2D "
+#~ "<class_Texture2D>` normal_map=null, :ref:`Texture2D "
+#~ "<class_Texture2D>` specular_map=null, :ref:`Color "
+#~ "<class_Color>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **draw_texture_rect_region** **(** "
+#~ ":ref:`Texture2D <class_Texture2D>` texture, "
+#~ ":ref:`Rect2 <class_Rect2>` rect, :ref:`Rect2 "
+#~ "<class_Rect2>` src_rect, :ref:`Color <class_Color>`"
+#~ " modulate=Color( 1, 1, 1, 1 ), "
+#~ ":ref:`bool <class_bool>` transpose=false, "
+#~ ":ref:`Texture2D <class_Texture2D>` normal_map=null, "
+#~ ":ref:`Texture2D <class_Texture2D>` specular_map=null, "
+#~ ":ref:`Color <class_Color>` clip_uv=true, :ref:`bool"
+#~ " <class_bool>` specular_shinness=Color( 1, 1, "
+#~ "1, 1 ), :ref:`TextureFilter "
+#~ "<enum_CanvasItem_TextureFilter>` texture_filter=0, "
+#~ ":ref:`TextureRepeat <enum_CanvasItem_TextureRepeat>` "
+#~ "texture_repeat=0 **)**"
+#~ msgstr ""
+

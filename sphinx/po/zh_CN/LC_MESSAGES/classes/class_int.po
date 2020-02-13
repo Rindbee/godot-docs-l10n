@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-23 12:06+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_int.rst:10
+msgid "int"
+msgstr "int"
+
+#: ../../docs/classes/class_int.rst:12
+msgid "Integer built-in type."
+msgstr "整型内置类型。"
+
+#: ../../docs/classes/class_int.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_int.rst:17
+msgid "Signed 64-bit integer type."
+msgstr "有符号的64位整数类型。"
+
+#: ../../docs/classes/class_int.rst:19
+msgid ""
+"It can take values in the interval ``[-2^63, 2^63 - 1]``, i.e. "
+"``[-9223372036854775808, 9223372036854775807]``. Exceeding those bounds "
+"will wrap around."
+msgstr ""
+"它的取值范围为区间 ``[-2^63, 2^63 - 1]``，即 ``[-9223372036854775808, "
+"9223372036854775807]``。超出这些界限将环绕。"
+
+#: ../../docs/classes/class_int.rst:21
+msgid ""
+"``int`` is a :ref:`Variant <class_Variant>` type, and will thus be used "
+"when assigning an integer value to a :ref:`Variant <class_Variant>`. It "
+"can also be enforced with the ``: int`` type hint."
+msgstr ""
+"``int`` 是一种 :ref:`Variant <class_Variant>` 类型，因此在将整数值赋给 :ref:`Variant "
+"<class_Variant>` 时使用。也可以使用 ``: int`` 类型提示来强制类型。"
+
+#: ../../docs/classes/class_int.rst:37
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_int.rst:40 ../../docs/classes/class_int.rst:42
+#: ../../docs/classes/class_int.rst:44
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_int.rst:40
+msgid ""
+":ref:`int <class_int_method_int>` **(** :ref:`bool <class_bool>` from "
+"**)**"
+msgstr ""
+":ref:`int <class_int_method_int>` **(** :ref:`bool <class_bool>` from "
+"**)**"
+
+#: ../../docs/classes/class_int.rst:42
+msgid ""
+":ref:`int <class_int_method_int>` **(** :ref:`float <class_float>` from "
+"**)**"
+msgstr ""
+":ref:`int <class_int_method_int>` **(** :ref:`float <class_float>` from "
+"**)**"
+
+#: ../../docs/classes/class_int.rst:44
+msgid ""
+":ref:`int <class_int_method_int>` **(** :ref:`String <class_String>` from"
+" **)**"
+msgstr ""
+":ref:`int <class_int_method_int>` **(** :ref:`String <class_String>` from"
+" **)**"
+
+#: ../../docs/classes/class_int.rst:48
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_int.rst:52
+msgid ":ref:`int <class_int>` **int** **(** :ref:`bool <class_bool>` from **)**"
+msgstr ":ref:`int <class_int>` **int** **(** :ref:`bool <class_bool>` from **)**"
+
+#: ../../docs/classes/class_int.rst:54
+msgid ""
+"Cast a :ref:`bool <class_bool>` value to an integer value, ``int(true)`` "
+"will be equals to 1 and ``int(false)`` will be equals to 0."
+msgstr ""
+"将 :ref:`bool <class_bool>` 值强制转换为整数值，``int(true)`` 将等于1，而 ``int(false)`` "
+"将等于0。"
+
+#: ../../docs/classes/class_int.rst:58
+msgid ":ref:`int <class_int>` **int** **(** :ref:`float <class_float>` from **)**"
+msgstr ":ref:`int <class_int>` **int** **(** :ref:`float <class_float>` from **)**"
+
+#: ../../docs/classes/class_int.rst:60
+msgid ""
+"Cast a float value to an integer value, this method simply removes the "
+"number fractions, so for example ``int(2.7)`` will be equals to 2, "
+"``int(.1)`` will be equals to 0 and ``int(-2.7)`` will be equals to -2."
+msgstr ""
+"将浮点值强制转换为整数值，此方法只删除数字分数部分，因此例如 ``int(2.7)`` 将等于2，``int(.1)`` 将等于0，而 "
+"``int(-2.7)`` 等于-2。"
+
+#: ../../docs/classes/class_int.rst:64
+msgid ""
+":ref:`int <class_int>` **int** **(** :ref:`String <class_String>` from "
+"**)**"
+msgstr ""
+":ref:`int <class_int>` **int** **(** :ref:`String <class_String>` from "
+"**)**"
+
+#: ../../docs/classes/class_int.rst:66
+msgid ""
+"Cast a :ref:`String <class_String>` value to an integer value, this "
+"method is an integer parser from a string, so calling this method with an"
+" invalid integer string will return 0, a valid string will be something "
+"like ``'1.7'``. This method will ignore all non-number characters, so "
+"calling ``int('1e3')`` will return 13."
+msgstr ""
+"将 :ref:`String <class_String>` "
+"值转换为整数值，此方法是字符串的整数解析器，因此使用无效的整数字符串调用此方法将返回0，有效的字符串将类似于 "
+"``'1.7'``。此方法将忽略所有非数字字符，因此调用 ``int('1e3')`` 将返回13。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

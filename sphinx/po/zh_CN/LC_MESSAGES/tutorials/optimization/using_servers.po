@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-11-08 19:40+0800\n"
+"PO-Revision-Date: 2020-03-07 19:59+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:4
 msgid "Optimization using Servers"
-msgstr ""
+msgstr "使用服务优化"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:6
 msgid ""
@@ -28,26 +32,29 @@ msgid ""
 "`Scene System<doc_scene_tree>`. Using nodes and resources simplifies project "
 "organization and asset management in complex games."
 msgstr ""
+"像Godot这样的引擎由于其高水平的构造和功能，从而提供了更高的易用性。它们中的大"
+"多数都可以通过 :ref:`场景系统 <doc_scene_tree>` 访问和使用。使用节点和资源可"
+"简化复杂游戏中的项目组织和素材管理。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:10
 msgid "There are, of course, always drawbacks:"
-msgstr ""
+msgstr "当然，总会有缺点："
 
 #: ../../docs/tutorials/optimization/using_servers.rst:12
 msgid "There is an extra layer of complexity"
-msgstr ""
+msgstr "有一层额外的复杂性"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:13
 msgid "Performance is lower than using simple APIs directly"
-msgstr ""
+msgstr "性能低于直接使用简单的API"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:14
 msgid "It is not possible to use multiple threads to control them"
-msgstr ""
+msgstr "使用多个线程来控制它们不大可能"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:15
 msgid "More memory is needed."
-msgstr ""
+msgstr "需要更多的内存。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:17
 msgid ""
@@ -57,6 +64,9 @@ msgid ""
 "instances for something that needs to be processed every frame can be a "
 "bottleneck."
 msgstr ""
+"在许多情况下，这并不是真正的问题（Godot进行了高度优化，并且大多数操作都通过信"
+"号进行处理，因此不需要轮询）。尽管如此，有时候还可能是个问题。例如，处理每帧"
+"需要处理的成千上万个实例可能会成为一个瓶颈。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:21
 msgid ""
@@ -64,15 +74,16 @@ msgid ""
 "and wish they could go back to a more handcrafted, low level implementation "
 "of game code."
 msgstr ""
+"这种情况使得程序员后悔自己正在使用的游戏引擎，并希望他们可以返回到更加手工"
+"的，底层的游戏代码实现。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:24
 msgid "Still, Godot is designed to work around this problem."
-msgstr ""
+msgstr "尽管如此，Godot被设计来解决此问题。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:27
-#, fuzzy
 msgid "Servers"
-msgstr "**服务器**"
+msgstr "服务"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:29
 msgid ""
@@ -80,6 +91,8 @@ msgid ""
 "whole scene system is *optional*. While it is not currently possible to "
 "compile it out, it can be completely bypassed."
 msgstr ""
+"Godot最有趣的设计决策之一是整个场景系统是 *可选的* 的事实。尽管目前尚无法将其"
+"编译出来，但可以完全忽略它。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:32
 msgid ""
@@ -87,39 +100,45 @@ msgid ""
 "to control rendering, physics, sound, etc. The scene system is built on top "
 "of them and uses them directly. The most common servers are:"
 msgstr ""
+"Godot的核心是服务概念。它们是用于控制渲染、物理、声音等的非常底层的API。场景"
+"系统建立在它们之上，并直接使用它们。最常见的服务是："
 
 #: ../../docs/tutorials/optimization/using_servers.rst:36
 msgid ""
 ":ref:`VisualServer <class_VisualServer>`: handles everything related to "
 "graphics."
-msgstr ""
+msgstr ":ref:`VisualServer <class_VisualServer>`：处理与图形有关的所有内容。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:37
 msgid ""
 ":ref:`PhysicsServer <class_PhysicsServer>`: handles everything related to 3D "
 "physics."
 msgstr ""
+":ref:`PhysicsServer <class_PhysicsServer>`：处理与3D物理有关的所有内容。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:38
 msgid ""
 ":ref:`Physics2DServer <class_Physics2DServer>`: handles everything related "
 "to 2D physics."
 msgstr ""
+":ref:`Physics2DServer <class_Physics2DServer>`：处理与2D物理有关的所有内容。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:39
 msgid ""
 ":ref:`AudioServer <class_AudioServer>`: handles everything related to audio."
-msgstr ""
+msgstr ":ref:`AudioServer <class_AudioServer>`：处理与音频有关的所有内容。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:41
 msgid ""
 "Just explore their APIs and you will realize that the all functions provided "
 "are low-level implementations of everything Godot allows you to do."
 msgstr ""
+"只需浏览它们的API，您就会意识到，提供的所有功能都是Godot允许您执行的所有操作"
+"的底层实现。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:45
 msgid "RIDs"
-msgstr ""
+msgstr "RIDs"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:47
 msgid ""
@@ -128,6 +147,9 @@ msgid ""
 "implementation. They are allocated and freed manually. Almost every function "
 "in the servers requires RIDs to access the actual resource."
 msgstr ""
+"使用服务的关键是了解资源ID（:ref:`RID <class_RID>`）对象。这些是服务实现的不"
+"透明句柄。它们是手动分配和释放的。服务中几乎所有函数都需要RID才能访问实际资"
+"源。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:51
 msgid ""
@@ -139,20 +161,24 @@ msgid ""
 "RIDs. Just make sure to keep references to the resources outside the server, "
 "because if the resource is erased, the internal RID is erased too."
 msgstr ""
+"在内部，服务的大多数Godot节点和资源都包含这些RID，并且可以使用不同的函数获得"
+"它们。实际上，任何继承 :ref:`Resource <class_Resource>` 的东西都可以直接转换"
+"为一个RID（并非所有资源都包含一个RID，但是在这种情况下RID将为空）。实际上，资"
+"源可以作为RID传递到服务API。只需确保保留对服务外部资源的引用，因为如果资源被"
+"擦除，内部RID也将被擦除。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:58
 msgid "For nodes, there are many functions available:"
-msgstr ""
+msgstr "对于节点，有许多可用函数："
 
 #: ../../docs/tutorials/optimization/using_servers.rst:60
-#, fuzzy
 msgid ""
 "For CanvasItem, the :ref:`CanvasItem.get_canvas_item() "
 "<class_CanvasItem_method_get_canvas_item>` method will return the canvas "
 "item RID in the server."
 msgstr ""
-":ref:`CanvasItem.get_canvas_transform() "
-"<class_CanvasItem_method_get_canvas_transform>`"
+"对于CanvasItem，:ref:`CanvasItem.get_canvas_item() "
+"<class_CanvasItem_method_get_canvas_item>` 方法将在服务中返回该画布项目RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:62
 msgid ""
@@ -160,6 +186,8 @@ msgid ""
 "<class_CanvasLayer_method_get_canvas>` method will return the canvas RID in "
 "the server."
 msgstr ""
+"对于CanvasLayer，:ref:`CanvasLayer.get_canvas() "
+"<class_CanvasLayer_method_get_canvas>` 方法将在服务中返回该画布RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:64
 msgid ""
@@ -167,6 +195,8 @@ msgid ""
 "<class_Viewport_method_get_viewport_rid>` method will return the viewport "
 "RID in the server."
 msgstr ""
+"对于Viewport，:ref:`Viewport.get_viewport_rid() "
+"<class_Viewport_method_get_viewport_rid>` 方法将在服务中返回该视图RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:66
 msgid ""
@@ -176,6 +206,10 @@ msgid ""
 "*PhysicsServer Space*. This allows creating 3D objects directly with the "
 "server API and using them."
 msgstr ""
+"对于3D，:ref:`World <class_World>` 资源（可在 :ref:`Viewport "
+"<class_Viewport>` 和 :ref:`Spatial <class_Spatial>` 节点中获得）包含用于获取 "
+"*VisualServer方案* 以及 *PhysicsServer空间* 的函数。这允许使用服务API直接创建"
+"3D对象并使用它们。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:70
 msgid ""
@@ -185,6 +219,10 @@ msgid ""
 "*Physics2DServer Space*. This allows creating 2D objects directly with the "
 "server API and using them."
 msgstr ""
+"对于2D，:ref:`World2D <class_World2D>` 资源（可在 :ref:`Viewport "
+"<class_Viewport>` 和 :ref:`CanvasItem <class_CanvasItem>` 节点中获取）包含获"
+"取 *VisualServer画布* 以及 *Physics2DServer空间* 的函数。这允许使用服务API直"
+"接创建2D对象并使用它们。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:74
 msgid ""
@@ -194,12 +232,16 @@ msgid ""
 "`VisualInstance.get_base() <class_VisualInstance_method_get_base>` "
 "respectively."
 msgstr ""
+":ref:`VisualInstance<class_VisualInstance>` 类，允许通过 :ref:"
+"`VisualInstance.get_instance() <class_VisualInstance_method_get_instance>` "
+"和 :ref:`VisualInstance.get_base() <class_VisualInstance_method_get_base>` 分"
+"别获取场景 *实例* 和 *实例基* 。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:78
 msgid ""
 "Just explore the nodes and resources you are familiar with and find the "
 "functions to obtain the server *RIDs*."
-msgstr ""
+msgstr "只需浏览您熟悉的节点和资源并找到获取服务 *RIDs* 的函数即可。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:80
 msgid ""
@@ -207,17 +249,20 @@ msgid ""
 "associated. Instead, server functions should always be used for creating and "
 "controlling new ones and interacting with the existing ones."
 msgstr ""
+"不建议从已经具有节点关联的对象中控制RID。相反，服务函数应始终用于创建和控制新"
+"RID以及与现有RID进行交互。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:84
-#, fuzzy
 msgid "Creating a sprite"
-msgstr "创建一个脚本"
+msgstr "创建一个精灵"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:86
 msgid ""
 "This is a simple example of how to create a sprite from code and move it "
 "using the low-level :ref:`CanvasItem <class_CanvasItem>` API."
 msgstr ""
+"这是一个简单的示例，说明如何通过代码创建一个精灵，并使用底层的 :ref:"
+"`CanvasItem <class_CanvasItem>` API对其进行移动。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:108
 msgid ""
@@ -226,35 +271,36 @@ msgid ""
 "primitives re-added (this is not the case for setting the transform, which "
 "can be done as many times as desired)."
 msgstr ""
+"服务中的画布项目API允许您向其添加绘制图元。添加后，便无法修改。需要清除项目并"
+"重新添加图元（设置变换不是这种情况，可以根据需要执行多次）。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:112
 msgid "Primitives are cleared this way:"
-msgstr ""
+msgstr "通过以下方式清除图元："
 
 #: ../../docs/tutorials/optimization/using_servers.rst:121
 msgid "Instantiating a Mesh into 3D space"
-msgstr ""
+msgstr "将网格实例化到3D空间"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:123
 msgid ""
 "The 3D APIs are different than the 2D ones, so the instantiation API must be "
 "used."
-msgstr ""
+msgstr "3D API与2D API不同，因此必须使用实例化API。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:146
 msgid "Creating a 2D RigidBody and moving a sprite with it"
-msgstr ""
+msgstr "创建一个2D RigidBody并使用它移动一个精灵"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:148
-#, fuzzy
 msgid ""
 "This creates a :ref:`RigidBody2D <class_RigidBody2D>` using the :ref:"
 "`Physics2DServer <class_Physics2DServer>` API, and moves a :ref:`CanvasItem "
 "<class_CanvasItem>` when the body moves."
 msgstr ""
-"结果空间 :ref:`RID <class_RID>` 可在3D的 :ref:`PhysicsServer "
-"<class_PhysicsServer>` 和2D的 :ref:`Physics2DServer <class_Physics2DServer>` "
-"中。"
+"这会使用 :ref:`Physics2DServer <class_Physics2DServer>` API创建一个 :ref:"
+"`RigidBody2D <class_RigidBody2D>`，并在当物体移动时移动一个 :ref:`CanvasItem "
+"<class_CanvasItem>`。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:176
 msgid ""
@@ -262,11 +308,12 @@ msgid ""
 "identical (using :ref:`RigidBody <class_RigidBody>` and :ref:`PhysicsServer "
 "<class_PhysicsServer>` respectively)."
 msgstr ""
+"3D版本应该非常相似，因为2D和3D物理服务是相同的（分别使用 :ref:`RigidBody "
+"<class_RigidBody>` 和 :ref:`PhysicsServer <class_PhysicsServer>`）。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:180
-#, fuzzy
 msgid "Getting data from the servers"
-msgstr "将数据发送到服务器"
+msgstr "从服务获取数据"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:182
 msgid ""
@@ -278,6 +325,11 @@ msgid ""
 "called. This will severely decrease performance if you call them every frame "
 "(and it won't be obvious why)."
 msgstr ""
+"除非您知道自己在做什么，否则 **绝不** 尝试通过调用函数来从 ``VisualServer``、"
+"``PhysicsServer`` 或 ``Physics2DServer`` 中请求任何信息。这些服务通常会异步运"
+"行以提高性能，调用任何返回值的函数都会使它们停顿，并迫使它们处理所有未决的事"
+"情，直到实际调用该函数为止。如果您每帧都调用它们，将严重降低性能（并且原因不"
+"明显）。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:188
 msgid ""
@@ -285,3 +337,5 @@ msgid ""
 "possible to request information back, until it's actual data that can be "
 "saved."
 msgstr ""
+"因此，此类服务中的大多数API都是经过设计的，因此，只有在可以保存实际数据之前，"
+"才可能要求回发信息。"

@@ -1,0 +1,886 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-12-01 14:05+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:10
+msgid "Vector2"
+msgstr "Vector2"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:12
+msgid "Vector used for 2D math using floating point coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:17
+msgid ""
+"2-element structure that can be used to represent positions in 2D space "
+"or any other pair of numeric values."
+msgstr "2元素结构，可用于表示2D空间中的位置，或任何其他成对的数值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:19
+msgid "It uses floating point coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:24
+msgid ":doc:`../tutorials/math/index`"
+msgstr ":doc:`../tutorials/math/index`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:79
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:30
+msgid ":ref:`x <class_Vector2_property_x>`"
+msgstr ":ref:`x <class_Vector2_property_x>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:169
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:32
+msgid ":ref:`y <class_Vector2_property_y>`"
+msgstr ":ref:`y <class_Vector2_property_y>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:36
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:107
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:39
+#, fuzzy
+msgid ""
+":ref:`Vector2 <class_Vector2_method_Vector2>` **(** :ref:`Vector2i "
+"<class_Vector2i>` from **)**"
+msgstr ""
+":ref:`reflect <class_Vector2_method_reflect>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:41
+msgid ""
+":ref:`Vector2 <class_Vector2_method_Vector2>` **(** :ref:`float "
+"<class_float>` x, :ref:`float <class_float>` y **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2_method_Vector2>` **(** :ref:`float "
+"<class_float>` x, :ref:`float <class_float>` y **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:43
+msgid ":ref:`abs <class_Vector2_method_abs>` **(** **)**"
+msgstr ":ref:`abs <class_Vector2_method_abs>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:45
+msgid ":ref:`angle <class_Vector2_method_angle>` **(** **)**"
+msgstr ":ref:`angle <class_Vector2_method_angle>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:47
+msgid ""
+":ref:`angle_to <class_Vector2_method_angle_to>` **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+msgstr ""
+":ref:`angle_to <class_Vector2_method_angle_to>` **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:49
+msgid ""
+":ref:`angle_to_point <class_Vector2_method_angle_to_point>` **(** "
+":ref:`Vector2 <class_Vector2>` to **)**"
+msgstr ""
+":ref:`angle_to_point <class_Vector2_method_angle_to_point>` **(** "
+":ref:`Vector2 <class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:51
+msgid ":ref:`aspect <class_Vector2_method_aspect>` **(** **)**"
+msgstr ":ref:`aspect <class_Vector2_method_aspect>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:53
+msgid ""
+":ref:`bounce <class_Vector2_method_bounce>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+msgstr ""
+":ref:`bounce <class_Vector2_method_bounce>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:55
+msgid ":ref:`ceil <class_Vector2_method_ceil>` **(** **)**"
+msgstr ":ref:`ceil <class_Vector2_method_ceil>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:57
+msgid ""
+":ref:`clamped <class_Vector2_method_clamped>` **(** :ref:`float "
+"<class_float>` length **)**"
+msgstr ""
+":ref:`clamped <class_Vector2_method_clamped>` **(** :ref:`float "
+"<class_float>` length **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:59
+msgid ""
+":ref:`cross <class_Vector2_method_cross>` **(** :ref:`Vector2 "
+"<class_Vector2>` with **)**"
+msgstr ""
+":ref:`cross <class_Vector2_method_cross>` **(** :ref:`Vector2 "
+"<class_Vector2>` with **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:61
+msgid ""
+":ref:`cubic_interpolate <class_Vector2_method_cubic_interpolate>` **(** "
+":ref:`Vector2 <class_Vector2>` b, :ref:`Vector2 <class_Vector2>` pre_a, "
+":ref:`Vector2 <class_Vector2>` post_b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`cubic_interpolate <class_Vector2_method_cubic_interpolate>` **(** "
+":ref:`Vector2 <class_Vector2>` b, :ref:`Vector2 <class_Vector2>` pre_a, "
+":ref:`Vector2 <class_Vector2>` post_b, :ref:`float <class_float>` t **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:63
+msgid ""
+":ref:`direction_to <class_Vector2_method_direction_to>` **(** "
+":ref:`Vector2 <class_Vector2>` b **)**"
+msgstr ""
+":ref:`direction_to <class_Vector2_method_direction_to>` **(** "
+":ref:`Vector2 <class_Vector2>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:65
+msgid ""
+":ref:`distance_squared_to <class_Vector2_method_distance_squared_to>` "
+"**(** :ref:`Vector2 <class_Vector2>` to **)**"
+msgstr ""
+":ref:`distance_squared_to <class_Vector2_method_distance_squared_to>` "
+"**(** :ref:`Vector2 <class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:67
+msgid ""
+":ref:`distance_to <class_Vector2_method_distance_to>` **(** :ref:`Vector2"
+" <class_Vector2>` to **)**"
+msgstr ""
+":ref:`distance_to <class_Vector2_method_distance_to>` **(** :ref:`Vector2"
+" <class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:69
+msgid ""
+":ref:`dot <class_Vector2_method_dot>` **(** :ref:`Vector2 "
+"<class_Vector2>` with **)**"
+msgstr ""
+":ref:`dot <class_Vector2_method_dot>` **(** :ref:`Vector2 "
+"<class_Vector2>` with **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:71
+msgid ":ref:`floor <class_Vector2_method_floor>` **(** **)**"
+msgstr ":ref:`floor <class_Vector2_method_floor>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:75
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:73
+msgid ""
+":ref:`is_equal_approx <class_Vector2_method_is_equal_approx>` **(** "
+":ref:`Vector2 <class_Vector2>` v **)**"
+msgstr ""
+":ref:`is_equal_approx <class_Vector2_method_is_equal_approx>` **(** "
+":ref:`Vector2 <class_Vector2>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:75
+msgid ":ref:`is_normalized <class_Vector2_method_is_normalized>` **(** **)**"
+msgstr ":ref:`is_normalized <class_Vector2_method_is_normalized>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:77
+msgid ":ref:`length <class_Vector2_method_length>` **(** **)**"
+msgstr ":ref:`length <class_Vector2_method_length>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:79
+msgid ":ref:`length_squared <class_Vector2_method_length_squared>` **(** **)**"
+msgstr ":ref:`length_squared <class_Vector2_method_length_squared>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:81
+msgid ""
+":ref:`linear_interpolate <class_Vector2_method_linear_interpolate>` **(**"
+" :ref:`Vector2 <class_Vector2>` b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`linear_interpolate <class_Vector2_method_linear_interpolate>` **(**"
+" :ref:`Vector2 <class_Vector2>` b, :ref:`float <class_float>` t **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:83
+msgid ""
+":ref:`move_toward <class_Vector2_method_move_toward>` **(** :ref:`Vector2"
+" <class_Vector2>` to, :ref:`float <class_float>` delta **)**"
+msgstr ""
+":ref:`move_toward <class_Vector2_method_move_toward>` **(** :ref:`Vector2"
+" <class_Vector2>` to, :ref:`float <class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:85
+msgid ":ref:`normalized <class_Vector2_method_normalized>` **(** **)**"
+msgstr ":ref:`normalized <class_Vector2_method_normalized>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:87
+msgid ""
+":ref:`posmod <class_Vector2_method_posmod>` **(** :ref:`float "
+"<class_float>` mod **)**"
+msgstr ""
+":ref:`posmod <class_Vector2_method_posmod>` **(** :ref:`float "
+"<class_float>` mod **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:89
+msgid ""
+":ref:`posmodv <class_Vector2_method_posmodv>` **(** :ref:`Vector2 "
+"<class_Vector2>` modv **)**"
+msgstr ""
+":ref:`posmodv <class_Vector2_method_posmodv>` **(** :ref:`Vector2 "
+"<class_Vector2>` modv **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:91
+msgid ""
+":ref:`project <class_Vector2_method_project>` **(** :ref:`Vector2 "
+"<class_Vector2>` b **)**"
+msgstr ""
+":ref:`project <class_Vector2_method_project>` **(** :ref:`Vector2 "
+"<class_Vector2>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:93
+msgid ""
+":ref:`reflect <class_Vector2_method_reflect>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+msgstr ""
+":ref:`reflect <class_Vector2_method_reflect>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:95
+msgid ""
+":ref:`rotated <class_Vector2_method_rotated>` **(** :ref:`float "
+"<class_float>` phi **)**"
+msgstr ""
+":ref:`rotated <class_Vector2_method_rotated>` **(** :ref:`float "
+"<class_float>` phi **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:97
+msgid ":ref:`round <class_Vector2_method_round>` **(** **)**"
+msgstr ":ref:`round <class_Vector2_method_round>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:99
+msgid ":ref:`sign <class_Vector2_method_sign>` **(** **)**"
+msgstr ":ref:`sign <class_Vector2_method_sign>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:101
+msgid ""
+":ref:`slerp <class_Vector2_method_slerp>` **(** :ref:`Vector2 "
+"<class_Vector2>` b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`slerp <class_Vector2_method_slerp>` **(** :ref:`Vector2 "
+"<class_Vector2>` b, :ref:`float <class_float>` t **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:103
+msgid ""
+":ref:`slide <class_Vector2_method_slide>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+msgstr ""
+":ref:`slide <class_Vector2_method_slide>` **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:105
+msgid ""
+":ref:`snapped <class_Vector2_method_snapped>` **(** :ref:`Vector2 "
+"<class_Vector2>` by **)**"
+msgstr ""
+":ref:`snapped <class_Vector2_method_snapped>` **(** :ref:`Vector2 "
+"<class_Vector2>` by **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:107
+msgid ":ref:`tangent <class_Vector2_method_tangent>` **(** **)**"
+msgstr ":ref:`tangent <class_Vector2_method_tangent>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:111
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:131
+msgid "**AXIS_X** = **0** --- Enumerated value for the X axis."
+msgstr "**AXIS_X** = **0** —— X轴的枚举值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:133
+msgid "**AXIS_Y** = **1** --- Enumerated value for the Y axis."
+msgstr "**AXIS_Y** = **1** —— Y轴的枚举值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:135
+msgid "**ZERO** = **Vector2( 0, 0 )** --- Zero vector."
+msgstr "**ZERO** = **Vector2( 0, 0 )** —— 零向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:137
+msgid "**ONE** = **Vector2( 1, 1 )** --- One vector."
+msgstr "**ONE** = **Vector2( 1, 1 )** —— 1向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:139
+msgid "**INF** = **Vector2( inf, inf )** --- Infinity vector."
+msgstr "**INF** = **Vector2( inf, inf )** —— 无限向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:141
+msgid "**LEFT** = **Vector2( -1, 0 )** --- Left unit vector."
+msgstr "**LEFT** = **Vector2( -1, 0 )** —— 左单位向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:143
+msgid "**RIGHT** = **Vector2( 1, 0 )** --- Right unit vector."
+msgstr "**RIGHT** = **Vector2( 1, 0 )** —— 右单位向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:145
+msgid "**UP** = **Vector2( 0, -1 )** --- Up unit vector."
+msgstr "**UP** = **Vector2( 0, -1 )** —— 上单位向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:147
+msgid "**DOWN** = **Vector2( 0, 1 )** --- Down unit vector."
+msgstr "**DOWN** = **Vector2( 0, 1 )** —— 下单位向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:150
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:154
+msgid ":ref:`float <class_float>` **x**"
+msgstr ":ref:`float <class_float>` **x**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:169
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:160
+msgid ""
+"The vector's X component. Also accessible by using the index position "
+"``[0]``."
+msgstr "向量的X分量。也可以通过使用索引位置 ``[0]`` 进行访问。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:166
+msgid ":ref:`float <class_float>` **y**"
+msgstr ":ref:`float <class_float>` **y**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:172
+msgid ""
+"The vector's Y component. Also accessible by using the index position "
+"``[1]``."
+msgstr "向量的Y分量。也可以通过使用索引位置 ``[1]`` 进行访问。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:175
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:179
+#, fuzzy
+msgid ""
+":ref:`Vector2 <class_Vector2>` **Vector2** **(** :ref:`Vector2i "
+"<class_Vector2i>` from **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **reflect** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:181
+msgid "Constructs a new ``Vector2`` from :ref:`Vector2i <class_Vector2i>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:185
+msgid ""
+":ref:`Vector2 <class_Vector2>` **Vector2** **(** :ref:`float "
+"<class_float>` x, :ref:`float <class_float>` y **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **Vector2** **(** :ref:`float "
+"<class_float>` x, :ref:`float <class_float>` y **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:187
+#, fuzzy
+msgid "Constructs a new ``Vector2`` from the given ``x`` and ``y``."
+msgstr "根据给定的 ``x`` 和 ``y`` 构造一个新的 ``Vector2``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:193
+msgid ":ref:`Vector2 <class_Vector2>` **abs** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **abs** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:195
+msgid ""
+"Returns a new vector with all components in absolute values (i.e. "
+"positive)."
+msgstr "返回一个新向量，其中所有分量均为绝对值（即正数）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:201
+msgid ":ref:`float <class_float>` **angle** **(** **)**"
+msgstr ":ref:`float <class_float>` **angle** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:203
+msgid ""
+"Returns the vector's angle in radians with respect to the X axis, or "
+"``(1, 0)`` vector."
+msgstr "返回向量相对于X轴的弧度角，或 ``(1, 0)`` 向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:205
+msgid ""
+"Equivalent to the result of :ref:`@GDScript.atan2 "
+"<class_@GDScript_method_atan2>` when called with the vector's :ref:`x "
+"<class_Vector2_property_x>` and :ref:`y <class_Vector2_property_y>` as "
+"parameters: ``atan2(x, y)``."
+msgstr ""
+"等同于，使用向量的 :ref:`x <class_Vector2_property_x>` 和 :ref:`y "
+"<class_Vector2_property_y>` 作为参数时，调用 :ref:`@GDScript.atan2 "
+"<class_@GDScript_method_atan2>` 的结果：``atan2(x, y)``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:211
+msgid ""
+":ref:`float <class_float>` **angle_to** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+msgstr ""
+":ref:`float <class_float>` **angle_to** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:213
+msgid "Returns the angle in radians between the two vectors."
+msgstr "返回两个向量之间的弧度角。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:219
+msgid ""
+":ref:`float <class_float>` **angle_to_point** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+msgstr ""
+":ref:`float <class_float>` **angle_to_point** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:221
+msgid ""
+"Returns the angle in radians between the line connecting the two points "
+"and the X coordinate."
+msgstr "返回连接两个点的线和X坐标之间的弧度角。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:227
+msgid ":ref:`float <class_float>` **aspect** **(** **)**"
+msgstr ":ref:`float <class_float>` **aspect** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:229
+msgid ""
+"Returns the ratio of :ref:`x <class_Vector2_property_x>` to :ref:`y "
+"<class_Vector2_property_y>`."
+msgstr ""
+"返回 :ref:`x <class_Vector2_property_x>` 相对于 :ref:`y "
+"<class_Vector2_property_y>` 的比例。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:235
+msgid ""
+":ref:`Vector2 <class_Vector2>` **bounce** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **bounce** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:237
+msgid ""
+"Returns the vector \"bounced off\" from a plane defined by the given "
+"normal."
+msgstr "返回从给定法线定义的平面 ``反弹`` 的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:243
+msgid ":ref:`Vector2 <class_Vector2>` **ceil** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **ceil** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:245
+msgid "Returns the vector with all components rounded up."
+msgstr "返回所有分量均向上舍入的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:251
+msgid ""
+":ref:`Vector2 <class_Vector2>` **clamped** **(** :ref:`float "
+"<class_float>` length **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **clamped** **(** :ref:`float "
+"<class_float>` length **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:253
+msgid "Returns the vector with a maximum length."
+msgstr "返回最大长度的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:259
+msgid ""
+":ref:`float <class_float>` **cross** **(** :ref:`Vector2 <class_Vector2>`"
+" with **)**"
+msgstr ""
+":ref:`float <class_float>` **cross** **(** :ref:`Vector2 <class_Vector2>`"
+" with **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:261
+msgid ""
+"Returns the 2-dimensional analog of the cross product with the given "
+"vector."
+msgstr "返回具有给定向量的、叉积的二维类似物。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:267
+msgid ""
+":ref:`Vector2 <class_Vector2>` **cubic_interpolate** **(** :ref:`Vector2 "
+"<class_Vector2>` b, :ref:`Vector2 <class_Vector2>` pre_a, :ref:`Vector2 "
+"<class_Vector2>` post_b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **cubic_interpolate** **(** :ref:`Vector2 "
+"<class_Vector2>` b, :ref:`Vector2 <class_Vector2>` pre_a, :ref:`Vector2 "
+"<class_Vector2>` post_b, :ref:`float <class_float>` t **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:269
+msgid ""
+"Cubically interpolates between this vector and ``b`` using ``pre_a`` and "
+"``post_b`` as handles, and returns the result at position ``t``. ``t`` is"
+" in the range of ``0.0 - 1.0``, representing the amount of interpolation."
+msgstr ""
+"使用 ``pre_a`` 和 ``post_b`` 作为控制柄，在此向量和 ``b`` 之间，进行立方插值，并在 ``t`` "
+"位置返回结果。``t`` 在 ``0.0 - 1.0`` 的范围内，表示插值量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:275
+msgid ""
+":ref:`Vector2 <class_Vector2>` **direction_to** **(** :ref:`Vector2 "
+"<class_Vector2>` b **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **direction_to** **(** :ref:`Vector2 "
+"<class_Vector2>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:277
+msgid "Returns the normalized vector pointing from this vector to ``b``."
+msgstr "返回从该向量指向 ``b`` 的归一化向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:283
+msgid ""
+":ref:`float <class_float>` **distance_squared_to** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+msgstr ""
+":ref:`float <class_float>` **distance_squared_to** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:285
+msgid ""
+"Returns the squared distance to vector ``b``. Prefer this function over "
+":ref:`distance_to <class_Vector2_method_distance_to>` if you need to sort"
+" vectors or need the squared distance for some formula."
+msgstr ""
+"返回到向量 ``b`` 的平方距离。如果您需要对向量进行排序，或某些公式需要平方距离，则最好优先于 :ref:`distance_to "
+"<class_Vector2_method_distance_to>` 使用此函数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:291
+msgid ""
+":ref:`float <class_float>` **distance_to** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+msgstr ""
+":ref:`float <class_float>` **distance_to** **(** :ref:`Vector2 "
+"<class_Vector2>` to **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:293
+msgid "Returns the distance to vector ``b``."
+msgstr "返回到向量 ``b`` 的距离。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:299
+msgid ""
+":ref:`float <class_float>` **dot** **(** :ref:`Vector2 <class_Vector2>` "
+"with **)**"
+msgstr ""
+":ref:`float <class_float>` **dot** **(** :ref:`Vector2 <class_Vector2>` "
+"with **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:301
+msgid "Returns the dot product with vector ``b``."
+msgstr "返回带有向量 ``b`` 的点积。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:307
+msgid ":ref:`Vector2 <class_Vector2>` **floor** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **floor** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:309
+msgid "Returns the vector with all components rounded down."
+msgstr "返回所有分量均向下舍入的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:315
+msgid ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Vector2 "
+"<class_Vector2>` v **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Vector2 "
+"<class_Vector2>` v **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:317
+msgid ""
+"Returns ``true`` if this vector and ``v`` are approximately equal, by "
+"running :ref:`@GDScript.is_equal_approx "
+"<class_@GDScript_method_is_equal_approx>` on each component."
+msgstr ""
+"如果通过在每个组件上运行 :ref:`@GDScript.is_equal_approx "
+"<class_@GDScript_method_is_equal_approx>`，此向量和 ``v`` 大致相等，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:323
+msgid ":ref:`bool <class_bool>` **is_normalized** **(** **)**"
+msgstr ":ref:`bool <class_bool>` **is_normalized** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:325
+msgid "Returns ``true`` if the vector is normalized."
+msgstr "如果向量已归一化，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:331
+msgid ":ref:`float <class_float>` **length** **(** **)**"
+msgstr ":ref:`float <class_float>` **length** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:333
+msgid "Returns the vector's length."
+msgstr "返回向量的长度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:339
+msgid ":ref:`float <class_float>` **length_squared** **(** **)**"
+msgstr ":ref:`float <class_float>` **length_squared** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:341
+msgid ""
+"Returns the vector's length squared. Prefer this method over :ref:`length"
+" <class_Vector2_method_length>` if you need to sort vectors or need the "
+"squared length for some formula."
+msgstr ""
+"返回向量的长度平方。如果您需要对向量进行排序，或某些公式需要平方长度，则最好使用这种方法，优先于 :ref:`length "
+"<class_Vector2_method_length>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:347
+msgid ""
+":ref:`Vector2 <class_Vector2>` **linear_interpolate** **(** :ref:`Vector2"
+" <class_Vector2>` b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **linear_interpolate** **(** :ref:`Vector2"
+" <class_Vector2>` b, :ref:`float <class_float>` t **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:349
+msgid ""
+"Returns the result of the linear interpolation between this vector and "
+"``b`` by amount ``t``. ``t`` is in the range of ``0.0 - 1.0``, "
+"representing the amount of interpolation."
+msgstr "返回此向量和 ``b`` 之间线性插值的结果，其数量为 ``t``。``t`` 在 ``0.0 - 1.0`` 的范围内，表示插值量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:355
+msgid ""
+":ref:`Vector2 <class_Vector2>` **move_toward** **(** :ref:`Vector2 "
+"<class_Vector2>` to, :ref:`float <class_float>` delta **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **move_toward** **(** :ref:`Vector2 "
+"<class_Vector2>` to, :ref:`float <class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:357
+msgid "Moves the vector toward ``to`` by the fixed ``delta`` amount."
+msgstr "将向量向 ``to`` 移动固定的 ``delta`` 量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:363
+msgid ":ref:`Vector2 <class_Vector2>` **normalized** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **normalized** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:365
+msgid ""
+"Returns the vector scaled to unit length. Equivalent to ``v / "
+"v.length()``."
+msgstr "返回缩放到单位长度的向量。相当于 ``v / v.length()``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:371
+msgid ""
+":ref:`Vector2 <class_Vector2>` **posmod** **(** :ref:`float "
+"<class_float>` mod **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **posmod** **(** :ref:`float "
+"<class_float>` mod **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:373
+msgid ""
+"Returns a vector composed of the ``fposmod`` of this vector's components "
+"and ``mod``."
+msgstr "返回一个，由该向量的组件的 ``fposmod``、和 ``mod``，组成的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:379
+msgid ""
+":ref:`Vector2 <class_Vector2>` **posmodv** **(** :ref:`Vector2 "
+"<class_Vector2>` modv **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **posmodv** **(** :ref:`Vector2 "
+"<class_Vector2>` modv **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:381
+msgid ""
+"Returns a vector composed of the ``fposmod`` of this vector's components "
+"and ``modv``'s components."
+msgstr "返回由该向量的组件的 ``fposmod`` 和 ``modv`` 的组件，组成的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:387
+msgid ""
+":ref:`Vector2 <class_Vector2>` **project** **(** :ref:`Vector2 "
+"<class_Vector2>` b **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **project** **(** :ref:`Vector2 "
+"<class_Vector2>` b **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:389
+msgid "Returns the vector projected onto the vector ``b``."
+msgstr "返回投影到向量 ``b`` 上的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:395
+msgid ""
+":ref:`Vector2 <class_Vector2>` **reflect** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **reflect** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:397
+msgid "Returns the vector reflected from a plane defined by the given normal."
+msgstr "返回从给定法线定义的平面，反射的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:403
+msgid ""
+":ref:`Vector2 <class_Vector2>` **rotated** **(** :ref:`float "
+"<class_float>` phi **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **rotated** **(** :ref:`float "
+"<class_float>` phi **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:405
+msgid ""
+"Returns the vector rotated by ``phi`` radians. See also "
+":ref:`@GDScript.deg2rad <class_@GDScript_method_deg2rad>`."
+msgstr ""
+"返回以 ``phi`` 弧度旋转的向量。另请参阅 :ref:`@GDScript.deg2rad "
+"<class_@GDScript_method_deg2rad>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:411
+msgid ":ref:`Vector2 <class_Vector2>` **round** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **round** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:413
+msgid ""
+"Returns the vector with all components rounded to the nearest integer, "
+"with halfway cases rounded away from zero."
+msgstr "返回向量，其中所有分量都四舍五入到最接近的整数，有一半的情况四舍五入远离零。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:419
+msgid ":ref:`Vector2 <class_Vector2>` **sign** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **sign** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:421
+msgid ""
+"Returns the vector with each component set to one or negative one, "
+"depending on the signs of the components."
+msgstr "返回向量，每个组件设置为一个或相反的一个，具体取决于这些分量的符号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:427
+msgid ""
+":ref:`Vector2 <class_Vector2>` **slerp** **(** :ref:`Vector2 "
+"<class_Vector2>` b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **slerp** **(** :ref:`Vector2 "
+"<class_Vector2>` b, :ref:`float <class_float>` t **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:429
+msgid ""
+"Returns the result of spherical linear interpolation between this vector "
+"and ``b``, by amount ``t``. ``t`` is in the range of ``0.0 - 1.0``, "
+"representing the amount of interpolation."
+msgstr "返回此向量和 ``b`` 之间球面线性插值的结果，其数量为 ``t``。``t`` 在 ``0.0 - 1.0`` 的范围内，表示插值量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:431
+msgid "**Note:** Both vectors must be normalized."
+msgstr "**注意**：两个向量都必须归一化。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:437
+msgid ""
+":ref:`Vector2 <class_Vector2>` **slide** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **slide** **(** :ref:`Vector2 "
+"<class_Vector2>` n **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:439
+msgid ""
+"Returns the component of the vector along a plane defined by the given "
+"normal."
+msgstr "返回向量沿给定法线定义的平面上的分量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:445
+msgid ""
+":ref:`Vector2 <class_Vector2>` **snapped** **(** :ref:`Vector2 "
+"<class_Vector2>` by **)**"
+msgstr ""
+":ref:`Vector2 <class_Vector2>` **snapped** **(** :ref:`Vector2 "
+"<class_Vector2>` by **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:447
+msgid "Returns the vector snapped to a grid with the given size."
+msgstr "返回吸附到具有给定大小的网格的向量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:453
+msgid ":ref:`Vector2 <class_Vector2>` **tangent** **(** **)**"
+msgstr ":ref:`Vector2 <class_Vector2>` **tangent** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_vector2.rst:455
+msgid "Returns a perpendicular vector."
+msgstr "返回垂直向量。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "Vector used for 2D math."
+#~ msgstr "用于2D数学的向量。"
+

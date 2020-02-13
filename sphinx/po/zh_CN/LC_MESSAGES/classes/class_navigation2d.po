@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:10
+msgid "Navigation2D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:14
+msgid "2D navigation and pathfinding node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:19
+msgid ""
+"Navigation2D provides navigation and pathfinding within a 2D area, "
+"specified as a collection of :ref:`NavigationPolygon "
+"<class_NavigationPolygon>` resources. These are automatically collected "
+"from child :ref:`NavigationRegion2D <class_NavigationRegion2D>` nodes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:27
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:25
+msgid ":ref:`cell_size <class_Navigation2D_property_cell_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:51
+msgid "``10.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:27
+msgid ""
+":ref:`edge_connection_margin "
+"<class_Navigation2D_property_edge_connection_margin>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:65
+msgid "``100.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:31
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:34
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:34
+msgid ""
+":ref:`get_closest_point <class_Navigation2D_method_get_closest_point>` "
+"**(** :ref:`Vector2 <class_Vector2>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:38
+msgid ":ref:`RID <class_RID>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:36
+msgid ""
+":ref:`get_closest_point_owner "
+"<class_Navigation2D_method_get_closest_point_owner>` **(** :ref:`Vector2 "
+"<class_Vector2>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:38
+msgid ":ref:`get_rid <class_Navigation2D_method_get_rid>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:40
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:40
+msgid ""
+":ref:`get_simple_path <class_Navigation2D_method_get_simple_path>` **(** "
+":ref:`Vector2 <class_Vector2>` start, :ref:`Vector2 <class_Vector2>` end,"
+" :ref:`bool <class_bool>` optimize=true **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:44
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:48
+msgid ":ref:`float <class_float>` **cell_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:65
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:67
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:53
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:69
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:55
+msgid "get_cell_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:62
+msgid ":ref:`float <class_float>` **edge_connection_margin**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:67
+msgid "set_edge_connection_margin(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:69
+msgid "get_edge_connection_margin()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:73
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:77
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_closest_point** **(** :ref:`Vector2 "
+"<class_Vector2>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:79
+msgid ""
+"Returns the point closest to the provided ``to_point`` on the navigation "
+"mesh surface."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:85
+msgid ""
+":ref:`RID <class_RID>` **get_closest_point_owner** **(** :ref:`Vector2 "
+"<class_Vector2>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:87
+msgid ""
+"Returns the owner region RID for the point returned by "
+":ref:`get_closest_point <class_Navigation2D_method_get_closest_point>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:93
+msgid ":ref:`RID <class_RID>` **get_rid** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:99
+msgid ""
+":ref:`PackedVector2Array <class_PackedVector2Array>` **get_simple_path** "
+"**(** :ref:`Vector2 <class_Vector2>` start, :ref:`Vector2 "
+"<class_Vector2>` end, :ref:`bool <class_bool>` optimize=true **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigation2d.rst:101
+msgid ""
+"Returns the path between two given points. Points are in local coordinate"
+" space. If ``optimize`` is ``true`` (the default), the path is smoothed "
+"by merging path segments where possible."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigation2D provides navigation and "
+#~ "pathfinding within a 2D area, specified"
+#~ " as a collection of :ref:`NavigationPolygon"
+#~ " <class_NavigationPolygon>` resources. By "
+#~ "default, these are automatically collected "
+#~ "from child :ref:`NavigationPolygonInstance "
+#~ "<class_NavigationPolygonInstance>` nodes, but they"
+#~ " can also be added on the fly"
+#~ " with :ref:`navpoly_add "
+#~ "<class_Navigation2D_method_navpoly_add>`."
+#~ msgstr ""
+
+#~ msgid ":ref:`Vector2 <class_Vector2>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_closest_point "
+#~ "<class_Navigation2D_method_get_closest_point>` **(** "
+#~ ":ref:`Vector2 <class_Vector2>` to_point **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`Object <class_Object>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_closest_point_owner "
+#~ "<class_Navigation2D_method_get_closest_point_owner>` **(** "
+#~ ":ref:`Vector2 <class_Vector2>` to_point **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`navpoly_add <class_Navigation2D_method_navpoly_add>` "
+#~ "**(** :ref:`NavigationPolygon <class_NavigationPolygon>`"
+#~ " mesh, :ref:`Transform2D <class_Transform2D>` "
+#~ "xform, :ref:`Object <class_Object>` owner=null "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid "void"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`navpoly_remove <class_Navigation2D_method_navpoly_remove>`"
+#~ " **(** :ref:`int <class_int>` id **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`navpoly_set_transform "
+#~ "<class_Navigation2D_method_navpoly_set_transform>` **(** "
+#~ ":ref:`int <class_int>` id, :ref:`Transform2D "
+#~ "<class_Transform2D>` xform **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Vector2 <class_Vector2>` **get_closest_point** "
+#~ "**(** :ref:`Vector2 <class_Vector2>` to_point "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the navigation point closest to"
+#~ " the point given. Points are in "
+#~ "local coordinate space."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Object <class_Object>` **get_closest_point_owner**"
+#~ " **(** :ref:`Vector2 <class_Vector2>` to_point"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the owner of the "
+#~ ":ref:`NavigationPolygon <class_NavigationPolygon>` which"
+#~ " contains the navigation point closest "
+#~ "to the point given. This is "
+#~ "usually a :ref:`NavigationPolygonInstance "
+#~ "<class_NavigationPolygonInstance>`. For polygons "
+#~ "added via :ref:`navpoly_add "
+#~ "<class_Navigation2D_method_navpoly_add>`, returns the "
+#~ "owner that was given (or ``null`` "
+#~ "if the ``owner`` parameter was omitted)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **navpoly_add** **(** "
+#~ ":ref:`NavigationPolygon <class_NavigationPolygon>` mesh,"
+#~ " :ref:`Transform2D <class_Transform2D>` xform, "
+#~ ":ref:`Object <class_Object>` owner=null **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adds a :ref:`NavigationPolygon "
+#~ "<class_NavigationPolygon>`. Returns an ID for"
+#~ " use with :ref:`navpoly_remove "
+#~ "<class_Navigation2D_method_navpoly_remove>` or "
+#~ ":ref:`navpoly_set_transform "
+#~ "<class_Navigation2D_method_navpoly_set_transform>`. If "
+#~ "given, a :ref:`Transform2D <class_Transform2D>` "
+#~ "is applied to the polygon. The "
+#~ "optional ``owner`` is used as return "
+#~ "value for :ref:`get_closest_point_owner "
+#~ "<class_Navigation2D_method_get_closest_point_owner>`."
+#~ msgstr ""
+
+#~ msgid "void **navpoly_remove** **(** :ref:`int <class_int>` id **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Removes the :ref:`NavigationPolygon "
+#~ "<class_NavigationPolygon>` with the given ID."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **navpoly_set_transform** **(** :ref:`int "
+#~ "<class_int>` id, :ref:`Transform2D "
+#~ "<class_Transform2D>` xform **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the transform applied to the "
+#~ ":ref:`NavigationPolygon <class_NavigationPolygon>` with"
+#~ " the given ID."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigation2D provides navigation and "
+#~ "pathfinding within a 2D area, specified"
+#~ " as a collection of :ref:`NavigationPolygon"
+#~ " <class_NavigationPolygon>` resources. These are"
+#~ " automatically collected from child "
+#~ ":ref:`NavigationPolygonInstance "
+#~ "<class_NavigationPolygonInstance>` nodes."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_simple_path "
+#~ "<class_Navigation2D_method_get_simple_path>` **(** "
+#~ ":ref:`Vector2 <class_Vector2>` start, :ref:`Vector2"
+#~ " <class_Vector2>` end, :ref:`bool <class_bool>`"
+#~ " optimize=true **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "**get_simple_path** **(** :ref:`Vector2 "
+#~ "<class_Vector2>` start, :ref:`Vector2 "
+#~ "<class_Vector2>` end, :ref:`bool <class_bool>` "
+#~ "optimize=true **)**"
+#~ msgstr ""
+

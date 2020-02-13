@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-26 19:45+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_texturebutton.rst:10
+msgid "TextureButton"
+msgstr "TextureButton"
+
+#: ../../docs/classes/class_texturebutton.rst:12
+msgid ""
+"**Inherits:** :ref:`BaseButton <class_BaseButton>` **<** :ref:`Control "
+"<class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`BaseButton <class_BaseButton>` **<** :ref:`Control "
+"<class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_texturebutton.rst:14
+msgid ""
+"Texture-based button. Supports Pressed, Hover, Disabled and Focused "
+"states."
+msgstr "基于纹理的按钮。支持按下、悬停、禁用和聚焦状态。"
+
+#: ../../docs/classes/class_texturebutton.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_texturebutton.rst:19
+msgid ""
+"``TextureButton`` has the same functionality as :ref:`Button "
+"<class_Button>`, except it uses sprites instead of Godot's :ref:`Theme "
+"<class_Theme>` resource. It is faster to create, but it doesn't support "
+"localization like more complex :ref:`Control <class_Control>`\\ s."
+msgstr ""
+"``TextureButton`` 具有与 :ref:`Button <class_Button>` 相同的功能，除了它使用精灵而不是 "
+":ref:`Theme <class_Theme>` 资源。创建起来速度更快，但是它不像更复杂的 :ref:`Control "
+"<class_Control>` 那样支持本地化。"
+
+#: ../../docs/classes/class_texturebutton.rst:21
+msgid ""
+"The \"normal\" state must contain a texture (:ref:`texture_normal "
+"<class_TextureButton_property_texture_normal>`); other textures are "
+"optional."
+msgstr ""
+"``正常`` 状态必须包含一个纹理（:ref:`texture_normal "
+"<class_TextureButton_property_texture_normal>`）； 其他纹理是可选的。"
+
+#: ../../docs/classes/class_texturebutton.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_texturebutton.rst:27
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_texturebutton.rst:27
+msgid ":ref:`expand <class_TextureButton_property_expand>`"
+msgstr ":ref:`expand <class_TextureButton_property_expand>`"
+
+#: ../../docs/classes/class_texturebutton.rst:27
+#: ../../docs/classes/class_texturebutton.rst:87
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_texturebutton.rst:29
+msgid ":ref:`StretchMode <enum_TextureButton_StretchMode>`"
+msgstr ":ref:`StretchMode <enum_TextureButton_StretchMode>`"
+
+#: ../../docs/classes/class_texturebutton.rst:29
+msgid ":ref:`stretch_mode <class_TextureButton_property_stretch_mode>`"
+msgstr ":ref:`stretch_mode <class_TextureButton_property_stretch_mode>`"
+
+#: ../../docs/classes/class_texturebutton.rst:29
+#: ../../docs/classes/class_texturebutton.rst:103
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:31
+msgid ":ref:`BitMap <class_BitMap>`"
+msgstr ":ref:`BitMap <class_BitMap>`"
+
+#: ../../docs/classes/class_texturebutton.rst:31
+msgid ""
+":ref:`texture_click_mask "
+"<class_TextureButton_property_texture_click_mask>`"
+msgstr ""
+":ref:`texture_click_mask "
+"<class_TextureButton_property_texture_click_mask>`"
+
+#: ../../docs/classes/class_texturebutton.rst:33
+#: ../../docs/classes/class_texturebutton.rst:35
+#: ../../docs/classes/class_texturebutton.rst:37
+#: ../../docs/classes/class_texturebutton.rst:39
+#: ../../docs/classes/class_texturebutton.rst:41
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: ../../docs/classes/class_texturebutton.rst:33
+msgid ":ref:`texture_disabled <class_TextureButton_property_texture_disabled>`"
+msgstr ":ref:`texture_disabled <class_TextureButton_property_texture_disabled>`"
+
+#: ../../docs/classes/class_texturebutton.rst:35
+msgid ":ref:`texture_focused <class_TextureButton_property_texture_focused>`"
+msgstr ":ref:`texture_focused <class_TextureButton_property_texture_focused>`"
+
+#: ../../docs/classes/class_texturebutton.rst:37
+msgid ":ref:`texture_hover <class_TextureButton_property_texture_hover>`"
+msgstr ":ref:`texture_hover <class_TextureButton_property_texture_hover>`"
+
+#: ../../docs/classes/class_texturebutton.rst:39
+msgid ":ref:`texture_normal <class_TextureButton_property_texture_normal>`"
+msgstr ":ref:`texture_normal <class_TextureButton_property_texture_normal>`"
+
+#: ../../docs/classes/class_texturebutton.rst:41
+msgid ":ref:`texture_pressed <class_TextureButton_property_texture_pressed>`"
+msgstr ":ref:`texture_pressed <class_TextureButton_property_texture_pressed>`"
+
+#: ../../docs/classes/class_texturebutton.rst:45
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_texturebutton.rst:63
+msgid "enum **StretchMode**:"
+msgstr "枚举 **StretchMode**："
+
+#: ../../docs/classes/class_texturebutton.rst:65
+msgid "**STRETCH_SCALE** = **0** --- Scale to fit the node's bounding rectangle."
+msgstr "**STRETCH_SCALE** = **0** —— 缩放以适合节点的边界矩形。"
+
+#: ../../docs/classes/class_texturebutton.rst:67
+msgid "**STRETCH_TILE** = **1** --- Tile inside the node's bounding rectangle."
+msgstr "**STRETCH_TILE** = **1** —— 在节点的边界矩形内平铺。"
+
+#: ../../docs/classes/class_texturebutton.rst:69
+msgid ""
+"**STRETCH_KEEP** = **2** --- The texture keeps its original size and "
+"stays in the bounding rectangle's top-left corner."
+msgstr "**STRETCH_KEEP** = **2** —— 纹理保持其原始大小，并停留在边界矩形的左上角。"
+
+#: ../../docs/classes/class_texturebutton.rst:71
+msgid ""
+"**STRETCH_KEEP_CENTERED** = **3** --- The texture keeps its original size"
+" and stays centered in the node's bounding rectangle."
+msgstr "**STRETCH_KEEP_CENTERED** = **3** —— 纹理保持其原始大小，并保持在节点边界矩形的中心。"
+
+#: ../../docs/classes/class_texturebutton.rst:73
+msgid ""
+"**STRETCH_KEEP_ASPECT** = **4** --- Scale the texture to fit the node's "
+"bounding rectangle, but maintain the texture's aspect ratio."
+msgstr "**STRETCH_KEEP_ASPECT** = **4** —— 缩放纹理以适合节点的边界矩形，但保持纹理的纵横比。"
+
+#: ../../docs/classes/class_texturebutton.rst:75
+msgid ""
+"**STRETCH_KEEP_ASPECT_CENTERED** = **5** --- Scale the texture to fit the"
+" node's bounding rectangle, center it, and maintain its aspect ratio."
+msgstr "**STRETCH_KEEP_ASPECT_CENTERED** = **5** —— 缩放纹理以适合节点的边界矩形，使其居中并保持其纵横比。"
+
+#: ../../docs/classes/class_texturebutton.rst:77
+msgid ""
+"**STRETCH_KEEP_ASPECT_COVERED** = **6** --- Scale the texture so that the"
+" shorter side fits the bounding rectangle. The other side clips to the "
+"node's limits."
+msgstr "**STRETCH_KEEP_ASPECT_COVERED** = **6** —— 缩放纹理，以使较短的一侧适合边界矩形。另一侧钳制了节点的限制。"
+
+#: ../../docs/classes/class_texturebutton.rst:80
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_texturebutton.rst:84
+msgid ":ref:`bool <class_bool>` **expand**"
+msgstr ":ref:`bool <class_bool>` **expand**"
+
+#: ../../docs/classes/class_texturebutton.rst:87
+#: ../../docs/classes/class_texturebutton.rst:103
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_texturebutton.rst:89
+#: ../../docs/classes/class_texturebutton.rst:105
+#: ../../docs/classes/class_texturebutton.rst:119
+#: ../../docs/classes/class_texturebutton.rst:133
+#: ../../docs/classes/class_texturebutton.rst:147
+#: ../../docs/classes/class_texturebutton.rst:161
+#: ../../docs/classes/class_texturebutton.rst:175
+#: ../../docs/classes/class_texturebutton.rst:189
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_texturebutton.rst:89
+msgid "set_expand(value)"
+msgstr "set_expand(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:91
+#: ../../docs/classes/class_texturebutton.rst:107
+#: ../../docs/classes/class_texturebutton.rst:121
+#: ../../docs/classes/class_texturebutton.rst:135
+#: ../../docs/classes/class_texturebutton.rst:149
+#: ../../docs/classes/class_texturebutton.rst:163
+#: ../../docs/classes/class_texturebutton.rst:177
+#: ../../docs/classes/class_texturebutton.rst:191
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_texturebutton.rst:91
+msgid "get_expand()"
+msgstr "get_expand()"
+
+#: ../../docs/classes/class_texturebutton.rst:94
+msgid ""
+"If ``true``, the texture stretches to the edges of the node's bounding "
+"rectangle using the :ref:`stretch_mode "
+"<class_TextureButton_property_stretch_mode>`. If ``false``, the texture "
+"will not scale with the node."
+msgstr ""
+"如果为 ``true``，则使用 :ref:`stretch_mode "
+"<class_TextureButton_property_stretch_mode>`，将纹理拉伸到节点边界矩形的边缘。如果为 "
+"``false``，则纹理将不会随节点缩放。"
+
+#: ../../docs/classes/class_texturebutton.rst:100
+msgid ":ref:`StretchMode <enum_TextureButton_StretchMode>` **stretch_mode**"
+msgstr ":ref:`StretchMode <enum_TextureButton_StretchMode>` **stretch_mode**"
+
+#: ../../docs/classes/class_texturebutton.rst:105
+msgid "set_stretch_mode(value)"
+msgstr "set_stretch_mode(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:107
+msgid "get_stretch_mode()"
+msgstr "get_stretch_mode()"
+
+#: ../../docs/classes/class_texturebutton.rst:110
+#, fuzzy
+msgid ""
+"Controls the texture's behavior when you resize the node's bounding "
+"rectangle, **only if** :ref:`expand "
+"<class_TextureButton_property_expand>` is ``true``. Set it to one of the "
+":ref:`StretchMode <enum_TextureButton_StretchMode>` constants. See the "
+"constants to learn more."
+msgstr ""
+"调整节点的边界矩形大小时，控制纹理的行为，**仅当**:ref:`expand "
+"<class_TextureButton_property_expand>` 为 ``true``。将其设置为 ``STRETCH_*`` "
+"常量之一。参见常量以了解更多信息。"
+
+#: ../../docs/classes/class_texturebutton.rst:116
+msgid ":ref:`BitMap <class_BitMap>` **texture_click_mask**"
+msgstr ":ref:`BitMap <class_BitMap>` **texture_click_mask**"
+
+#: ../../docs/classes/class_texturebutton.rst:119
+msgid "set_click_mask(value)"
+msgstr "set_click_mask(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:121
+msgid "get_click_mask()"
+msgstr "get_click_mask()"
+
+#: ../../docs/classes/class_texturebutton.rst:124
+msgid ""
+"Pure black and white :ref:`BitMap <class_BitMap>` image to use for click "
+"detection. On the mask, white pixels represent the button's clickable "
+"area. Use it to create buttons with curved shapes."
+msgstr ""
+"用于点击检测的纯黑白 :ref:`BitMap <class_BitMap>` "
+"图像。在蒙版上，白色像素代表按钮的可点击区域。使用它来创建具有弯曲形状的按钮。"
+
+#: ../../docs/classes/class_texturebutton.rst:130
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture_disabled**"
+msgstr ":ref:`Texture <class_Texture>` **texture_disabled**"
+
+#: ../../docs/classes/class_texturebutton.rst:133
+msgid "set_disabled_texture(value)"
+msgstr "set_disabled_texture(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:135
+msgid "get_disabled_texture()"
+msgstr "get_disabled_texture()"
+
+#: ../../docs/classes/class_texturebutton.rst:138
+msgid ""
+"Texture to display when the node is disabled. See "
+":ref:`BaseButton.disabled <class_BaseButton_property_disabled>`."
+msgstr ""
+"禁用节点时显示的纹理。请参阅 :ref:`BaseButton.disabled "
+"<class_BaseButton_property_disabled>`。"
+
+#: ../../docs/classes/class_texturebutton.rst:144
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture_focused**"
+msgstr ":ref:`Texture <class_Texture>` **texture_focused**"
+
+#: ../../docs/classes/class_texturebutton.rst:147
+msgid "set_focused_texture(value)"
+msgstr "set_focused_texture(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:149
+msgid "get_focused_texture()"
+msgstr "get_focused_texture()"
+
+#: ../../docs/classes/class_texturebutton.rst:152
+msgid "Texture to display when the node has mouse or keyboard focus."
+msgstr "当节点具有鼠标或键盘焦点时，显示的纹理。"
+
+#: ../../docs/classes/class_texturebutton.rst:158
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture_hover**"
+msgstr ":ref:`Texture <class_Texture>` **texture_hover**"
+
+#: ../../docs/classes/class_texturebutton.rst:161
+msgid "set_hover_texture(value)"
+msgstr "set_hover_texture(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:163
+msgid "get_hover_texture()"
+msgstr "get_hover_texture()"
+
+#: ../../docs/classes/class_texturebutton.rst:166
+msgid "Texture to display when the mouse hovers the node."
+msgstr "当鼠标悬停节点时，显示的纹理。"
+
+#: ../../docs/classes/class_texturebutton.rst:172
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture_normal**"
+msgstr ":ref:`Texture <class_Texture>` **texture_normal**"
+
+#: ../../docs/classes/class_texturebutton.rst:175
+msgid "set_normal_texture(value)"
+msgstr "set_normal_texture(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:177
+msgid "get_normal_texture()"
+msgstr "get_normal_texture()"
+
+#: ../../docs/classes/class_texturebutton.rst:180
+msgid ""
+"Texture to display by default, when the node is **not** in the disabled, "
+"focused, hover or pressed state."
+msgstr "当节点 **未** 处于禁用、聚焦、悬停或按下状态时，默认情况下显示的纹理。"
+
+#: ../../docs/classes/class_texturebutton.rst:186
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture_pressed**"
+msgstr ":ref:`Texture <class_Texture>` **texture_pressed**"
+
+#: ../../docs/classes/class_texturebutton.rst:189
+msgid "set_pressed_texture(value)"
+msgstr "set_pressed_texture(value)"
+
+#: ../../docs/classes/class_texturebutton.rst:191
+msgid "get_pressed_texture()"
+msgstr "get_pressed_texture()"
+
+#: ../../docs/classes/class_texturebutton.rst:194
+msgid ""
+"Texture to display on mouse down over the node, if the node has keyboard "
+"focus and the player presses the Enter key or if the player presses the "
+":ref:`BaseButton.shortcut <class_BaseButton_property_shortcut>` key."
+msgstr ""
+"如果节点具有键盘焦点并且玩家按 ``Enter`` 键，或者如果玩家按 :ref:`BaseButton.shortcut "
+"<class_BaseButton_property_shortcut>` 键，则在鼠标下方节点，显示的纹理。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

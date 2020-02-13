@@ -1,0 +1,2022 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-12-01 14:04+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:10
+msgid "Viewport"
+msgstr "Viewport"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr "**基类**：:ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:14
+msgid "Creates a sub-view into the screen."
+msgstr "创建一个子视图到在屏幕中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:19
+msgid ""
+"A Viewport creates a different view into the screen, or a sub-view inside"
+" another viewport. Children 2D Nodes will display on it, and children "
+"Camera 3D nodes will render on it too."
+msgstr ""
+"``Viewport`` 会在屏幕中创建一个不同的视图，或在另一个 ``Viewport`` "
+"中创建一个子视图。子级2D节点将显示在其上，子级相机、3D节点也将在其上进行渲染。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:21
+msgid ""
+"Optionally, a viewport can have its own 2D or 3D world, so they don't "
+"share what they draw with other viewports."
+msgstr "可选地，一个视图对象可以具有自己的2D或3D世界，因此它们不与其他视图对象，共享其绘制的内容。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:23
+msgid ""
+"If a viewport is a child of a :ref:`ViewportContainer "
+"<class_ViewportContainer>`, it will automatically take up its size, "
+"otherwise it must be set manually."
+msgstr ""
+"如果一个视图对象是 :ref:`ViewportContainer <class_ViewportContainer>` "
+"的子级，它将自动占用其大小，否则必须手动设置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:25
+msgid ""
+"Viewports can also choose to be audio listeners, so they generate "
+"positional audio depending on a 2D or 3D camera child of it."
+msgstr "视图对象还可以选择成为音频侦听器，因此它们将根据它的一个2D或3D相机子级，生成位置音频。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:27
+msgid ""
+"Also, viewports can be assigned to different screens in case the devices "
+"have multiple screens."
+msgstr "此外，如果设备具有多个屏幕，则可以将视图对象，分配给不同的屏幕。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:29
+msgid ""
+"Finally, viewports can also behave as render targets, in which case they "
+"will not be visible unless the associated texture is used to draw."
+msgstr "最后，视图对象还可以充当渲染目标，在这种情况下，除非使用关联的纹理进行绘制，否则它们将不可见。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:32
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:34
+msgid ":doc:`../tutorials/2d/2d_transforms`"
+msgstr ":doc:`../tutorials/2d/2d_transforms`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:36
+msgid ":doc:`../tutorials/viewports/index`"
+msgstr ":doc:`../tutorials/viewports/index`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:39
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:133
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:135
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:42
+msgid ":ref:`arvr <class_Viewport_property_arvr>`"
+msgstr ":ref:`arvr <class_Viewport_property_arvr>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:414
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:430
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:446
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:534
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:596
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:612
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:628
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:774
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:790
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:44
+msgid ""
+":ref:`audio_listener_enable_2d "
+"<class_Viewport_property_audio_listener_enable_2d>`"
+msgstr ""
+":ref:`audio_listener_enable_2d "
+"<class_Viewport_property_audio_listener_enable_2d>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:46
+msgid ""
+":ref:`audio_listener_enable_3d "
+"<class_Viewport_property_audio_listener_enable_3d>`"
+msgstr ""
+":ref:`audio_listener_enable_3d "
+"<class_Viewport_property_audio_listener_enable_3d>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:48
+msgid ""
+":ref:`DefaultCanvasItemTextureFilter "
+"<enum_Viewport_DefaultCanvasItemTextureFilter>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:48
+#, fuzzy
+msgid ""
+":ref:`canvas_item_default_texture_filter "
+"<class_Viewport_property_canvas_item_default_texture_filter>`"
+msgstr ":ref:`canvas_transform <class_Viewport_property_canvas_transform>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:462
+#, fuzzy
+msgid "``1``"
+msgstr "true"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:50
+msgid ""
+":ref:`DefaultCanvasItemTextureRepeat "
+"<enum_Viewport_DefaultCanvasItemTextureRepeat>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:50
+#, fuzzy
+msgid ""
+":ref:`canvas_item_default_texture_repeat "
+"<class_Viewport_property_canvas_item_default_texture_repeat>`"
+msgstr ":ref:`canvas_transform <class_Viewport_property_canvas_transform>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:476
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:504
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:580
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:644
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:740
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:107
+msgid ":ref:`Transform2D <class_Transform2D>`"
+msgstr ":ref:`Transform2D <class_Transform2D>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:52
+msgid ":ref:`canvas_transform <class_Viewport_property_canvas_transform>`"
+msgstr ":ref:`canvas_transform <class_Viewport_property_canvas_transform>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:54
+msgid ":ref:`DebugDraw <enum_Viewport_DebugDraw>`"
+msgstr ":ref:`DebugDraw <enum_Viewport_DebugDraw>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:54
+msgid ":ref:`debug_draw <class_Viewport_property_debug_draw>`"
+msgstr ":ref:`debug_draw <class_Viewport_property_debug_draw>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:56
+msgid ""
+":ref:`global_canvas_transform "
+"<class_Viewport_property_global_canvas_transform>`"
+msgstr ""
+":ref:`global_canvas_transform "
+"<class_Viewport_property_global_canvas_transform>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:58
+msgid ":ref:`gui_disable_input <class_Viewport_property_gui_disable_input>`"
+msgstr ":ref:`gui_disable_input <class_Viewport_property_gui_disable_input>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:60
+msgid ""
+":ref:`gui_snap_controls_to_pixels "
+"<class_Viewport_property_gui_snap_controls_to_pixels>`"
+msgstr ""
+":ref:`gui_snap_controls_to_pixels "
+"<class_Viewport_property_gui_snap_controls_to_pixels>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:550
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:566
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:62
+msgid ":ref:`handle_input_locally <class_Viewport_property_handle_input_locally>`"
+msgstr ":ref:`handle_input_locally <class_Viewport_property_handle_input_locally>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:64
+msgid ":ref:`MSAA <enum_Viewport_MSAA>`"
+msgstr ":ref:`MSAA <enum_Viewport_MSAA>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:64
+msgid ":ref:`msaa <class_Viewport_property_msaa>`"
+msgstr ":ref:`msaa <class_Viewport_property_msaa>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:66
+msgid ":ref:`own_world <class_Viewport_property_own_world>`"
+msgstr ":ref:`own_world <class_Viewport_property_own_world>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:68
+msgid ""
+":ref:`physics_object_picking "
+"<class_Viewport_property_physics_object_picking>`"
+msgstr ""
+":ref:`physics_object_picking "
+"<class_Viewport_property_physics_object_picking>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:70
+msgid ""
+":ref:`render_direct_to_screen "
+"<class_Viewport_property_render_direct_to_screen>`"
+msgstr ""
+":ref:`render_direct_to_screen "
+"<class_Viewport_property_render_direct_to_screen>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:72
+msgid ":ref:`ClearMode <enum_Viewport_ClearMode>`"
+msgstr ":ref:`ClearMode <enum_Viewport_ClearMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:72
+msgid ""
+":ref:`render_target_clear_mode "
+"<class_Viewport_property_render_target_clear_mode>`"
+msgstr ""
+":ref:`render_target_clear_mode "
+"<class_Viewport_property_render_target_clear_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:74
+msgid ":ref:`UpdateMode <enum_Viewport_UpdateMode>`"
+msgstr ":ref:`UpdateMode <enum_Viewport_UpdateMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:74
+msgid ""
+":ref:`render_target_update_mode "
+"<class_Viewport_property_render_target_update_mode>`"
+msgstr ""
+":ref:`render_target_update_mode "
+"<class_Viewport_property_render_target_update_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:660
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:676
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:692
+msgid "``2``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:115
+msgid ":ref:`ShadowAtlasQuadrantSubdiv <enum_Viewport_ShadowAtlasQuadrantSubdiv>`"
+msgstr ":ref:`ShadowAtlasQuadrantSubdiv <enum_Viewport_ShadowAtlasQuadrantSubdiv>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:76
+msgid ":ref:`shadow_atlas_quad_0 <class_Viewport_property_shadow_atlas_quad_0>`"
+msgstr ":ref:`shadow_atlas_quad_0 <class_Viewport_property_shadow_atlas_quad_0>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:78
+msgid ":ref:`shadow_atlas_quad_1 <class_Viewport_property_shadow_atlas_quad_1>`"
+msgstr ":ref:`shadow_atlas_quad_1 <class_Viewport_property_shadow_atlas_quad_1>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:80
+msgid ":ref:`shadow_atlas_quad_2 <class_Viewport_property_shadow_atlas_quad_2>`"
+msgstr ":ref:`shadow_atlas_quad_2 <class_Viewport_property_shadow_atlas_quad_2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:708
+msgid "``3``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:82
+msgid ":ref:`shadow_atlas_quad_3 <class_Viewport_property_shadow_atlas_quad_3>`"
+msgstr ":ref:`shadow_atlas_quad_3 <class_Viewport_property_shadow_atlas_quad_3>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:724
+msgid "``4``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:113
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:84
+msgid ":ref:`shadow_atlas_size <class_Viewport_property_shadow_atlas_size>`"
+msgstr ":ref:`shadow_atlas_size <class_Viewport_property_shadow_atlas_size>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:117
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:86
+msgid ":ref:`size <class_Viewport_property_size>`"
+msgstr ":ref:`size <class_Viewport_property_size>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:758
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:88
+msgid ""
+":ref:`size_override_stretch "
+"<class_Viewport_property_size_override_stretch>`"
+msgstr ""
+":ref:`size_override_stretch "
+"<class_Viewport_property_size_override_stretch>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:90
+msgid ":ref:`transparent_bg <class_Viewport_property_transparent_bg>`"
+msgstr ":ref:`transparent_bg <class_Viewport_property_transparent_bg>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:101
+msgid ":ref:`World <class_World>`"
+msgstr ":ref:`World <class_World>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:92
+msgid ":ref:`world <class_Viewport_property_world>`"
+msgstr ":ref:`world <class_Viewport_property_world>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:103
+msgid ":ref:`World2D <class_World2D>`"
+msgstr ":ref:`World2D <class_World2D>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:94
+msgid ":ref:`world_2d <class_Viewport_property_world_2d>`"
+msgstr ":ref:`world_2d <class_Viewport_property_world_2d>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:98
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:101
+msgid ":ref:`find_world <class_Viewport_method_find_world>` **(** **)** const"
+msgstr ":ref:`find_world <class_Viewport_method_find_world>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:103
+msgid ""
+":ref:`find_world_2d <class_Viewport_method_find_world_2d>` **(** **)** "
+"const"
+msgstr ""
+":ref:`find_world_2d <class_Viewport_method_find_world_2d>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:105
+msgid ":ref:`Camera <class_Camera>`"
+msgstr ":ref:`Camera <class_Camera>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:105
+msgid ":ref:`get_camera <class_Viewport_method_get_camera>` **(** **)** const"
+msgstr ":ref:`get_camera <class_Viewport_method_get_camera>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:107
+msgid ""
+":ref:`get_final_transform <class_Viewport_method_get_final_transform>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_final_transform <class_Viewport_method_get_final_transform>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:109
+msgid ":ref:`Control <class_Control>`"
+msgstr ":ref:`Control <class_Control>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:109
+msgid ""
+":ref:`get_modal_stack_top <class_Viewport_method_get_modal_stack_top>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_modal_stack_top <class_Viewport_method_get_modal_stack_top>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:111
+msgid ""
+":ref:`get_mouse_position <class_Viewport_method_get_mouse_position>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_mouse_position <class_Viewport_method_get_mouse_position>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:113
+msgid ""
+":ref:`get_render_info <class_Viewport_method_get_render_info>` **(** "
+":ref:`RenderInfo <enum_Viewport_RenderInfo>` info **)**"
+msgstr ""
+":ref:`get_render_info <class_Viewport_method_get_render_info>` **(** "
+":ref:`RenderInfo <enum_Viewport_RenderInfo>` info **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:115
+msgid ""
+":ref:`get_shadow_atlas_quadrant_subdiv "
+"<class_Viewport_method_get_shadow_atlas_quadrant_subdiv>` **(** :ref:`int"
+" <class_int>` quadrant **)** const"
+msgstr ""
+":ref:`get_shadow_atlas_quadrant_subdiv "
+"<class_Viewport_method_get_shadow_atlas_quadrant_subdiv>` **(** :ref:`int"
+" <class_int>` quadrant **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:117
+msgid ""
+":ref:`get_size_override <class_Viewport_method_get_size_override>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_size_override <class_Viewport_method_get_size_override>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:119
+msgid ":ref:`ViewportTexture <class_ViewportTexture>`"
+msgstr ":ref:`ViewportTexture <class_ViewportTexture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:119
+msgid ":ref:`get_texture <class_Viewport_method_get_texture>` **(** **)** const"
+msgstr ":ref:`get_texture <class_Viewport_method_get_texture>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:121
+msgid ":ref:`RID <class_RID>`"
+msgstr ":ref:`RID <class_RID>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:121
+msgid ""
+":ref:`get_viewport_rid <class_Viewport_method_get_viewport_rid>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_viewport_rid <class_Viewport_method_get_viewport_rid>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:123
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ":ref:`Rect2 <class_Rect2>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:123
+msgid ""
+":ref:`get_visible_rect <class_Viewport_method_get_visible_rect>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_visible_rect <class_Viewport_method_get_visible_rect>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:125
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ":ref:`Variant <class_Variant>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:125
+msgid ""
+":ref:`gui_get_drag_data <class_Viewport_method_gui_get_drag_data>` **(** "
+"**)** const"
+msgstr ""
+":ref:`gui_get_drag_data <class_Viewport_method_gui_get_drag_data>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:127
+msgid ""
+":ref:`gui_has_modal_stack <class_Viewport_method_gui_has_modal_stack>` "
+"**(** **)** const"
+msgstr ""
+":ref:`gui_has_modal_stack <class_Viewport_method_gui_has_modal_stack>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:129
+msgid ""
+":ref:`gui_is_dragging <class_Viewport_method_gui_is_dragging>` **(** "
+"**)** const"
+msgstr ""
+":ref:`gui_is_dragging <class_Viewport_method_gui_is_dragging>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:137
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:147
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:149
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:131
+msgid ""
+":ref:`input <class_Viewport_method_input>` **(** :ref:`InputEvent "
+"<class_InputEvent>` local_event **)**"
+msgstr ""
+":ref:`input <class_Viewport_method_input>` **(** :ref:`InputEvent "
+"<class_InputEvent>` local_event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:133
+msgid ""
+":ref:`is_input_handled <class_Viewport_method_is_input_handled>` **(** "
+"**)** const"
+msgstr ""
+":ref:`is_input_handled <class_Viewport_method_is_input_handled>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:135
+msgid ""
+":ref:`is_size_override_enabled "
+"<class_Viewport_method_is_size_override_enabled>` **(** **)** const"
+msgstr ""
+":ref:`is_size_override_enabled "
+"<class_Viewport_method_is_size_override_enabled>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:137
+msgid ""
+":ref:`set_attach_to_screen_rect "
+"<class_Viewport_method_set_attach_to_screen_rect>` **(** :ref:`Rect2 "
+"<class_Rect2>` rect **)**"
+msgstr ""
+":ref:`set_attach_to_screen_rect "
+"<class_Viewport_method_set_attach_to_screen_rect>` **(** :ref:`Rect2 "
+"<class_Rect2>` rect **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:139
+msgid ""
+":ref:`set_input_as_handled <class_Viewport_method_set_input_as_handled>` "
+"**(** **)**"
+msgstr ""
+":ref:`set_input_as_handled <class_Viewport_method_set_input_as_handled>` "
+"**(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:141
+msgid ""
+":ref:`set_shadow_atlas_quadrant_subdiv "
+"<class_Viewport_method_set_shadow_atlas_quadrant_subdiv>` **(** :ref:`int"
+" <class_int>` quadrant, :ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv **)**"
+msgstr ""
+":ref:`set_shadow_atlas_quadrant_subdiv "
+"<class_Viewport_method_set_shadow_atlas_quadrant_subdiv>` **(** :ref:`int"
+" <class_int>` quadrant, :ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:143
+msgid ""
+":ref:`set_size_override <class_Viewport_method_set_size_override>` **(** "
+":ref:`bool <class_bool>` enable, :ref:`Vector2 <class_Vector2>` "
+"size=Vector2( -1, -1 ), :ref:`Vector2 <class_Vector2>` margin=Vector2( 0,"
+" 0 ) **)**"
+msgstr ""
+":ref:`set_size_override <class_Viewport_method_set_size_override>` **(** "
+":ref:`bool <class_bool>` enable, :ref:`Vector2 <class_Vector2>` "
+"size=Vector2( -1, -1 ), :ref:`Vector2 <class_Vector2>` margin=Vector2( 0,"
+" 0 ) **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:145
+msgid ""
+":ref:`unhandled_input <class_Viewport_method_unhandled_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` local_event **)**"
+msgstr ""
+":ref:`unhandled_input <class_Viewport_method_unhandled_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` local_event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:147
+msgid ":ref:`update_worlds <class_Viewport_method_update_worlds>` **(** **)**"
+msgstr ":ref:`update_worlds <class_Viewport_method_update_worlds>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:149
+msgid ""
+":ref:`warp_mouse <class_Viewport_method_warp_mouse>` **(** :ref:`Vector2 "
+"<class_Vector2>` to_position **)**"
+msgstr ""
+":ref:`warp_mouse <class_Viewport_method_warp_mouse>` **(** :ref:`Vector2 "
+"<class_Vector2>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:153
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:157
+#, fuzzy
+msgid "**gui_focus_changed** **(** :ref:`Control <class_Control>` node **)**"
+msgstr "void **warp_mouse** **(** :ref:`Vector2 <class_Vector2>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:159
+msgid "Emitted when a Control node grabs keyboard focus."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:165
+msgid "**size_changed** **(** **)**"
+msgstr "**size_changed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:167
+msgid ""
+"Emitted when the size of the viewport is changed, whether by "
+":ref:`set_size_override <class_Viewport_method_set_size_override>`, "
+"resize of window, or some other means."
+msgstr ""
+"无论是通过 :ref:`set_size_override "
+"<class_Viewport_method_set_size_override>`、调整窗口大小、还是通过其他方式，更改视图大小时发出的信号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:170
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:182
+msgid "enum **UpdateMode**:"
+msgstr "枚举 **UpdateMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:184
+msgid "**UPDATE_DISABLED** = **0** --- Do not update the render target."
+msgstr "**UPDATE_DISABLED** = **0** —— 不要更新渲染目标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:186
+msgid ""
+"**UPDATE_ONCE** = **1** --- Update the render target once, then switch to"
+" :ref:`UPDATE_DISABLED <class_Viewport_constant_UPDATE_DISABLED>`."
+msgstr ""
+"**UPDATE_ONCE** = **1** —— 更新渲染目标一次，然后切换到 :ref:`UPDATE_DISABLED "
+"<class_Viewport_constant_UPDATE_DISABLED>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:188
+msgid ""
+"**UPDATE_WHEN_VISIBLE** = **2** --- Update the render target only when it"
+" is visible. This is the default value."
+msgstr "**UPDATE_WHEN_VISIBLE** = **2** —— 仅在渲染目标可见时更新它。这是默认值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:190
+msgid "**UPDATE_ALWAYS** = **3** --- Always update the render target."
+msgstr "**UPDATE_ALWAYS** = **3** —— 始终更新渲染目标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:212
+msgid "enum **ShadowAtlasQuadrantSubdiv**:"
+msgstr "枚举 **ShadowAtlasQuadrantSubdiv**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:214
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_DISABLED** = **0** --- This quadrant will "
+"not be used."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:216
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_1** = **1** --- This quadrant will only be"
+" used by one shadow map."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:218
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_4** = **2** --- This quadrant will be "
+"split in 4 and used by up to 4 shadow maps."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:220
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_16** = **3** --- This quadrant will be "
+"split 16 ways and used by up to 16 shadow maps."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:222
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_64** = **4** --- This quadrant will be "
+"split 64 ways and used by up to 64 shadow maps."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:224
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_256** = **5** --- This quadrant will be "
+"split 256 ways and used by up to 256 shadow maps. Unless the "
+":ref:`shadow_atlas_size <class_Viewport_property_shadow_atlas_size>` is "
+"very high, the shadows in this quadrant will be very low resolution."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:226
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_1024** = **6** --- This quadrant will be "
+"split 1024 ways and used by up to 1024 shadow maps. Unless the "
+":ref:`shadow_atlas_size <class_Viewport_property_shadow_atlas_size>` is "
+"very high, the shadows in this quadrant will be very low resolution."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:228
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_MAX** = **7** --- Represents the size of "
+"the :ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` enum."
+msgstr ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_MAX** = **7** —— 表示 "
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` 枚举的大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:248
+msgid "enum **RenderInfo**:"
+msgstr "枚举 **RenderInfo**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:250
+msgid "**RENDER_INFO_OBJECTS_IN_FRAME** = **0** --- Amount of objects in frame."
+msgstr "**RENDER_INFO_OBJECTS_IN_FRAME** = **0** —— 帧中的对象数量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:252
+msgid "**RENDER_INFO_VERTICES_IN_FRAME** = **1** --- Amount of vertices in frame."
+msgstr "**RENDER_INFO_VERTICES_IN_FRAME** = **1** —— 帧中的顶点数量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:254
+msgid ""
+"**RENDER_INFO_MATERIAL_CHANGES_IN_FRAME** = **2** --- Amount of material "
+"changes in frame."
+msgstr "**RENDER_INFO_MATERIAL_CHANGES_IN_FRAME** = **2** —— 帧中的材质变化量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:256
+msgid ""
+"**RENDER_INFO_SHADER_CHANGES_IN_FRAME** = **3** --- Amount of shader "
+"changes in frame."
+msgstr "**RENDER_INFO_SHADER_CHANGES_IN_FRAME** = **3** —— 帧中着色器的变化量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:258
+msgid ""
+"**RENDER_INFO_SURFACE_CHANGES_IN_FRAME** = **4** --- Amount of surface "
+"changes in frame."
+msgstr "**RENDER_INFO_SURFACE_CHANGES_IN_FRAME** = **4** —— 帧中的表面变化量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:260
+msgid ""
+"**RENDER_INFO_DRAW_CALLS_IN_FRAME** = **5** --- Amount of draw calls in "
+"frame."
+msgstr "**RENDER_INFO_DRAW_CALLS_IN_FRAME** = **5** —— 帧中绘制的调用数量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:262
+msgid ""
+"**RENDER_INFO_MAX** = **6** --- Represents the size of the "
+":ref:`RenderInfo <enum_Viewport_RenderInfo>` enum."
+msgstr ""
+"**RENDER_INFO_MAX** = **6** —— 表示 :ref:`RenderInfo "
+"<enum_Viewport_RenderInfo>` 枚举的大小."
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:290
+msgid "enum **DebugDraw**:"
+msgstr "枚举 **DebugDraw**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:292
+msgid "**DEBUG_DRAW_DISABLED** = **0** --- Objects are displayed normally."
+msgstr "**DEBUG_DRAW_DISABLED** = **0** —— 对象正常显示。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:294
+msgid ""
+"**DEBUG_DRAW_UNSHADED** = **1** --- Objects are displayed without light "
+"information."
+msgstr "**DEBUG_DRAW_UNSHADED** = **1** —— 显示的对象没有灯光信息。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:296
+#, fuzzy
+msgid ""
+"**DEBUG_DRAW_OVERDRAW** = **3** --- Objected are displayed semi-"
+"transparent with additive blending so you can see where they intersect."
+msgstr "**DEBUG_DRAW_OVERDRAW** = **2** —— 对象将显示为半透明，并带有附加混合，因此您可以看到它们相交的位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:298
+#, fuzzy
+msgid ""
+"**DEBUG_DRAW_WIREFRAME** = **4** --- Objects are displayed in wireframe "
+"style."
+msgstr "**DEBUG_DRAW_WIREFRAME** = **3** —— 对象以线框样式显示。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:300
+msgid "**DEBUG_DRAW_GI_PROBE_ALBEDO** = **6**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:302
+msgid "**DEBUG_DRAW_GI_PROBE_LIGHTING** = **7**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:304
+msgid "**DEBUG_DRAW_GI_PROBE_EMISSION** = **8**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:306
+msgid "**DEBUG_DRAW_SHADOW_ATLAS** = **9**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:308
+msgid "**DEBUG_DRAW_DIRECTIONAL_SHADOW_ATLAS** = **10**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:310
+msgid "**DEBUG_DRAW_SCENE_LUMINANCE** = **11**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:312
+msgid "**DEBUG_DRAW_SSAO** = **12**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:328
+msgid "enum **MSAA**:"
+msgstr "枚举 **MSAA**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:330
+msgid ""
+"**MSAA_DISABLED** = **0** --- Multisample anti-aliasing mode disabled. "
+"This is the default value."
+msgstr "**MSAA_DISABLED** = **0** —— 禁用多样本抗锯齿模式。这是默认值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:332
+msgid "**MSAA_2X** = **1** --- Use 2x Multisample Antialiasing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:334
+msgid "**MSAA_4X** = **2** --- Use 4x Multisample Antialiasing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:336
+msgid ""
+"**MSAA_8X** = **3** --- Use 8x Multisample Antialiasing. Likely "
+"unsupported on low-end and older hardware."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:338
+msgid ""
+"**MSAA_16X** = **4** --- Use 16x Multisample Antialiasing. Likely "
+"unsupported on medium and low-end hardware."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:350
+msgid "enum **ClearMode**:"
+msgstr "枚举 **ClearMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:352
+msgid ""
+"**CLEAR_MODE_ALWAYS** = **0** --- Always clear the render target before "
+"drawing."
+msgstr "**CLEAR_MODE_ALWAYS** = **0** —— 始终在绘制之前清除渲染目标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:354
+msgid "**CLEAR_MODE_NEVER** = **1** --- Never clear the render target."
+msgstr "**CLEAR_MODE_NEVER** = **1** —— 永不清除渲染目标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:356
+msgid ""
+"**CLEAR_MODE_ONLY_NEXT_FRAME** = **2** --- Clear the render target next "
+"frame, then switch to :ref:`CLEAR_MODE_NEVER "
+"<class_Viewport_constant_CLEAR_MODE_NEVER>`."
+msgstr ""
+"**CLEAR_MODE_ONLY_NEXT_FRAME** = **2** —— 下一帧清除渲染目标，然后切换到 "
+":ref:`CLEAR_MODE_NEVER <class_Viewport_constant_CLEAR_MODE_NEVER>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:372
+msgid "enum **DefaultCanvasItemTextureFilter**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:374
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_NEAREST** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:376
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_LINEAR** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:378
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:380
+#, fuzzy
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = **3**"
+msgstr "set_canvas_transform(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:382
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_MAX** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:396
+msgid "enum **DefaultCanvasItemTextureRepeat**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:398
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_REPEAT_DISABLED** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:400
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_REPEAT_ENABLED** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:402
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_REPEAT_MIRROR** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:404
+msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_REPEAT_MAX** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:407
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:411
+msgid ":ref:`bool <class_bool>` **arvr**"
+msgstr ":ref:`bool <class_bool>` **arvr**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:414
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:430
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:446
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:462
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:476
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:504
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:534
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:550
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:566
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:580
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:596
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:612
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:628
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:644
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:660
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:676
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:692
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:708
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:724
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:740
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:758
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:774
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:790
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:416
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:432
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:448
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:464
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:478
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:490
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:506
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:520
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:536
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:552
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:568
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:582
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:598
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:614
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:630
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:646
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:662
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:678
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:694
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:710
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:726
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:742
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:760
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:776
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:792
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:806
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:820
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:416
+msgid "set_use_arvr(value)"
+msgstr "set_use_arvr(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:418
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:434
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:450
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:466
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:480
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:492
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:508
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:522
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:538
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:554
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:570
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:584
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:600
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:616
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:632
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:648
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:664
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:680
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:696
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:712
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:728
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:744
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:762
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:778
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:794
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:808
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:822
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:418
+msgid "use_arvr()"
+msgstr "use_arvr()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:421
+msgid "If ``true``, the viewport will be used in AR/VR process."
+msgstr "如果为 ``true``，则视图对象将在AR/VR过程中使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:427
+msgid ":ref:`bool <class_bool>` **audio_listener_enable_2d**"
+msgstr ":ref:`bool <class_bool>` **audio_listener_enable_2d**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:432
+msgid "set_as_audio_listener_2d(value)"
+msgstr "set_as_audio_listener_2d(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:434
+msgid "is_audio_listener_2d()"
+msgstr "is_audio_listener_2d()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:437
+msgid "If ``true``, the viewport will process 2D audio streams."
+msgstr "如果为 ``true``，则视图对象将处理2D音频流。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:443
+msgid ":ref:`bool <class_bool>` **audio_listener_enable_3d**"
+msgstr ":ref:`bool <class_bool>` **audio_listener_enable_3d**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:448
+msgid "set_as_audio_listener(value)"
+msgstr "set_as_audio_listener(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:450
+msgid "is_audio_listener()"
+msgstr "is_audio_listener()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:453
+msgid "If ``true``, the viewport will process 3D audio streams."
+msgstr "如果为 ``true``，则视图对象将处理3D音频流。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:459
+msgid ""
+":ref:`DefaultCanvasItemTextureFilter "
+"<enum_Viewport_DefaultCanvasItemTextureFilter>` "
+"**canvas_item_default_texture_filter**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:464
+#, fuzzy
+msgid "set_default_canvas_item_texture_filter(value)"
+msgstr "set_canvas_transform(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:466
+msgid "get_default_canvas_item_texture_filter()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:473
+msgid ""
+":ref:`DefaultCanvasItemTextureRepeat "
+"<enum_Viewport_DefaultCanvasItemTextureRepeat>` "
+"**canvas_item_default_texture_repeat**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:478
+msgid "set_default_canvas_item_texture_repeat(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:480
+msgid "get_default_canvas_item_texture_repeat()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:487
+msgid ":ref:`Transform2D <class_Transform2D>` **canvas_transform**"
+msgstr ":ref:`Transform2D <class_Transform2D>` **canvas_transform**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:490
+msgid "set_canvas_transform(value)"
+msgstr "set_canvas_transform(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:492
+msgid "get_canvas_transform()"
+msgstr "get_canvas_transform()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:495
+msgid ""
+"The canvas transform of the viewport, useful for changing the on-screen "
+"positions of all child :ref:`CanvasItem <class_CanvasItem>`\\ s. This is "
+"relative to the global canvas transform of the viewport."
+msgstr ""
+"视图对象的画布变换，可用于更改所有子级 :ref:`CanvasItem <class_CanvasItem>` "
+"在屏幕上的位置。这是相对于视图的全局画布变换而言的。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:501
+msgid ":ref:`DebugDraw <enum_Viewport_DebugDraw>` **debug_draw**"
+msgstr ":ref:`DebugDraw <enum_Viewport_DebugDraw>` **debug_draw**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:506
+msgid "set_debug_draw(value)"
+msgstr "set_debug_draw(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:508
+msgid "get_debug_draw()"
+msgstr "get_debug_draw()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:511
+msgid "The overlay mode for test rendered geometry in debug purposes."
+msgstr "用于调试目的的测试渲染几何体的覆盖模式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:517
+msgid ":ref:`Transform2D <class_Transform2D>` **global_canvas_transform**"
+msgstr ":ref:`Transform2D <class_Transform2D>` **global_canvas_transform**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:520
+msgid "set_global_canvas_transform(value)"
+msgstr "set_global_canvas_transform(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:522
+msgid "get_global_canvas_transform()"
+msgstr "get_global_canvas_transform()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:525
+msgid ""
+"The global canvas transform of the viewport. The canvas transform is "
+"relative to this."
+msgstr "视图的全局画布变换。画布变换与此相关。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:531
+msgid ":ref:`bool <class_bool>` **gui_disable_input**"
+msgstr ":ref:`bool <class_bool>` **gui_disable_input**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:536
+msgid "set_disable_input(value)"
+msgstr "set_disable_input(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:538
+msgid "is_input_disabled()"
+msgstr "is_input_disabled()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:541
+msgid "If ``true``, the viewport will not receive input event."
+msgstr "如果为 ``true``，则视图将不会接收输入事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:547
+msgid ":ref:`bool <class_bool>` **gui_snap_controls_to_pixels**"
+msgstr ":ref:`bool <class_bool>` **gui_snap_controls_to_pixels**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:552
+msgid "set_snap_controls_to_pixels(value)"
+msgstr "set_snap_controls_to_pixels(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:554
+msgid "is_snap_controls_to_pixels_enabled()"
+msgstr "is_snap_controls_to_pixels_enabled()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:557
+msgid "If ``true``, the GUI controls on the viewport will lay pixel perfectly."
+msgstr "如果为 ``true``，则视图上的GUI控件将完美放置像素。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:563
+msgid ":ref:`bool <class_bool>` **handle_input_locally**"
+msgstr ":ref:`bool <class_bool>` **handle_input_locally**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:568
+msgid "set_handle_input_locally(value)"
+msgstr "set_handle_input_locally(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:570
+msgid "is_handling_input_locally()"
+msgstr "is_handling_input_locally()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:577
+msgid ":ref:`MSAA <enum_Viewport_MSAA>` **msaa**"
+msgstr ":ref:`MSAA <enum_Viewport_MSAA>` **msaa**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:582
+msgid "set_msaa(value)"
+msgstr "set_msaa(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:584
+msgid "get_msaa()"
+msgstr "get_msaa()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:587
+msgid ""
+"The multisample anti-aliasing mode. A higher number results in smoother "
+"edges at the cost of significantly worse performance. A value of 4 is "
+"best unless targeting very high-end systems."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:593
+msgid ":ref:`bool <class_bool>` **own_world**"
+msgstr ":ref:`bool <class_bool>` **own_world**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:598
+msgid "set_use_own_world(value)"
+msgstr "set_use_own_world(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:600
+msgid "is_using_own_world()"
+msgstr "is_using_own_world()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:603
+msgid ""
+"If ``true``, the viewport will use :ref:`World <class_World>` defined in "
+"``world`` property."
+msgstr "如果为 ``true``，则视图将使用 ``world`` 属性中，定义的 :ref:`World <class_World>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:609
+msgid ":ref:`bool <class_bool>` **physics_object_picking**"
+msgstr ":ref:`bool <class_bool>` **physics_object_picking**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:614
+msgid "set_physics_object_picking(value)"
+msgstr "set_physics_object_picking(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:616
+msgid "get_physics_object_picking()"
+msgstr "get_physics_object_picking()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:619
+msgid ""
+"If ``true``, the objects rendered by viewport become subjects of mouse "
+"picking process."
+msgstr "如果为 ``true``，则视图渲染的对象，将成为鼠标拾取过程的主题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:625
+msgid ":ref:`bool <class_bool>` **render_direct_to_screen**"
+msgstr ":ref:`bool <class_bool>` **render_direct_to_screen**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:630
+msgid "set_use_render_direct_to_screen(value)"
+msgstr "set_use_render_direct_to_screen(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:632
+msgid "is_using_render_direct_to_screen()"
+msgstr "is_using_render_direct_to_screen()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:635
+msgid ""
+"If ``true``, renders the Viewport directly to the screen instead of to "
+"the root viewport. Only available in GLES2. This is a low-level "
+"optimization and should not be used in most cases. If used, reading from "
+"the Viewport or from ``SCREEN_TEXTURE`` becomes unavailable. For more "
+"information see :ref:`VisualServer.viewport_set_render_direct_to_screen "
+"<class_VisualServer_method_viewport_set_render_direct_to_screen>`."
+msgstr ""
+"如果为 "
+"``true``，则将视图直接渲染到屏幕，而不是到根视图。仅在GLES2中可用。这是底层优化，在大多数情况下不应该使用。如果使用该选项，则无法从视图或"
+" ``SCREEN_TEXTURE`` 进行读取。有关更多信息，参见 "
+":ref:`VisualServer.viewport_set_render_direct_to_screen "
+"<class_VisualServer_method_viewport_set_render_direct_to_screen>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:641
+msgid ":ref:`ClearMode <enum_Viewport_ClearMode>` **render_target_clear_mode**"
+msgstr ":ref:`ClearMode <enum_Viewport_ClearMode>` **render_target_clear_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:646
+msgid "set_clear_mode(value)"
+msgstr "set_clear_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:648
+msgid "get_clear_mode()"
+msgstr "get_clear_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:651
+msgid "The clear mode when viewport used as a render target."
+msgstr "当视图用作渲染目标时的清除模式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:657
+msgid ":ref:`UpdateMode <enum_Viewport_UpdateMode>` **render_target_update_mode**"
+msgstr ":ref:`UpdateMode <enum_Viewport_UpdateMode>` **render_target_update_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:662
+msgid "set_update_mode(value)"
+msgstr "set_update_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:664
+msgid "get_update_mode()"
+msgstr "get_update_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:667
+msgid "The update mode when viewport used as a render target."
+msgstr "当视图用作渲染目标时的更新模式。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:673
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_0**"
+msgstr ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_0**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:678
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:694
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:710
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:726
+msgid "set_shadow_atlas_quadrant_subdiv(value)"
+msgstr "set_shadow_atlas_quadrant_subdiv(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:680
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:696
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:712
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:728
+msgid "get_shadow_atlas_quadrant_subdiv()"
+msgstr "get_shadow_atlas_quadrant_subdiv()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:683
+#, fuzzy
+msgid "The subdivision amount of the first quadrant on the shadow atlas."
+msgstr "阴影地图上第一象限的细分量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:689
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_1**"
+msgstr ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_1**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:699
+#, fuzzy
+msgid "The subdivision amount of the second quadrant on the shadow atlas."
+msgstr "阴影地图上第二象限的细分量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:705
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_2**"
+msgstr ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_2**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:715
+#, fuzzy
+msgid "The subdivision amount of the third quadrant on the shadow atlas."
+msgstr "阴影地图上第三象限的细分量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:721
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_3**"
+msgstr ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` **shadow_atlas_quad_3**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:731
+#, fuzzy
+msgid "The subdivision amount of the fourth quadrant on the shadow atlas."
+msgstr "阴影地图上第四象限的细分量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:737
+msgid ":ref:`int <class_int>` **shadow_atlas_size**"
+msgstr ":ref:`int <class_int>` **shadow_atlas_size**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:742
+msgid "set_shadow_atlas_size(value)"
+msgstr "set_shadow_atlas_size(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:744
+msgid "get_shadow_atlas_size()"
+msgstr "get_shadow_atlas_size()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:747
+msgid ""
+"The shadow atlas' resolution (used for omni and spot lights). The value "
+"will be rounded up to the nearest power of 2."
+msgstr "阴影地图的分辨率（用于全向和聚光灯）。该值将四舍五入到最接近的2的幂。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:749
+msgid ""
+"**Note:** If this is set to 0, shadows won't be visible. Since user-"
+"created viewports default to a value of 0, this value must be set above 0"
+" manually."
+msgstr "**注意**：如果将其设置为0，则阴影将不可见。由于用户创建的视图默认值为0，因此必须手动将该值设置为大于0。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:755
+msgid ":ref:`Vector2 <class_Vector2>` **size**"
+msgstr ":ref:`Vector2 <class_Vector2>` **size**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:760
+msgid "set_size(value)"
+msgstr "set_size(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:762
+msgid "get_size()"
+msgstr "get_size()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:765
+msgid "The width and height of viewport."
+msgstr "视图的宽度和高度。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:771
+msgid ":ref:`bool <class_bool>` **size_override_stretch**"
+msgstr ":ref:`bool <class_bool>` **size_override_stretch**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:776
+msgid "set_size_override_stretch(value)"
+msgstr "set_size_override_stretch(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:778
+msgid "is_size_override_stretch_enabled()"
+msgstr "is_size_override_stretch_enabled()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:781
+msgid "If ``true``, the size override affects stretch as well."
+msgstr "如果为 ``true``，则大小覆盖也会影响拉伸。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:787
+msgid ":ref:`bool <class_bool>` **transparent_bg**"
+msgstr ":ref:`bool <class_bool>` **transparent_bg**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:792
+msgid "set_transparent_background(value)"
+msgstr "set_transparent_background(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:794
+msgid "has_transparent_background()"
+msgstr "has_transparent_background()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:797
+msgid "If ``true``, the viewport should render its background as transparent."
+msgstr "如果为 ``true``，则视图应将其背景渲染为透明。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:803
+msgid ":ref:`World <class_World>` **world**"
+msgstr ":ref:`World <class_World>` **world**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:806
+msgid "set_world(value)"
+msgstr "set_world(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:808
+msgid "get_world()"
+msgstr "get_world()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:811
+msgid ""
+"The custom :ref:`World <class_World>` which can be used as 3D environment"
+" source."
+msgstr "自定义 :ref:`World <class_World>`，可用作3D环境源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:817
+msgid ":ref:`World2D <class_World2D>` **world_2d**"
+msgstr ":ref:`World2D <class_World2D>` **world_2d**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:820
+msgid "set_world_2d(value)"
+msgstr "set_world_2d(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:822
+msgid "get_world_2d()"
+msgstr "get_world_2d()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:825
+msgid ""
+"The custom :ref:`World2D <class_World2D>` which can be used as 2D "
+"environment source."
+msgstr "自定义 :ref:`World2D <class_World2D>`，可用作2D环境源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:828
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:832
+msgid ":ref:`World <class_World>` **find_world** **(** **)** const"
+msgstr ":ref:`World <class_World>` **find_world** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:834
+msgid ""
+"Returns the 3D world of the viewport, or if none the world of the parent "
+"viewport."
+msgstr "返回视图的3D世界，如果没有，则返回父视图的世界。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:840
+msgid ":ref:`World2D <class_World2D>` **find_world_2d** **(** **)** const"
+msgstr ":ref:`World2D <class_World2D>` **find_world_2d** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:842
+msgid "Returns the 2D world of the viewport."
+msgstr "返回视图的2D世界。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:848
+msgid ":ref:`Camera <class_Camera>` **get_camera** **(** **)** const"
+msgstr ":ref:`Camera <class_Camera>` **get_camera** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:850
+msgid "Returns the active 3D camera."
+msgstr "返回活动的3D相机。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:856
+msgid ""
+":ref:`Transform2D <class_Transform2D>` **get_final_transform** **(** "
+"**)** const"
+msgstr ""
+":ref:`Transform2D <class_Transform2D>` **get_final_transform** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:858
+msgid "Returns the total transform of the viewport."
+msgstr "返回视图的总变换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:864
+msgid ":ref:`Control <class_Control>` **get_modal_stack_top** **(** **)** const"
+msgstr ":ref:`Control <class_Control>` **get_modal_stack_top** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:866
+msgid "Returns the topmost modal in the stack."
+msgstr "返回堆栈中最顶层的模态。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:872
+msgid ":ref:`Vector2 <class_Vector2>` **get_mouse_position** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_mouse_position** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:874
+msgid "Returns the mouse position relative to the viewport."
+msgstr "返回鼠标相对于视图的位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:880
+msgid ""
+":ref:`int <class_int>` **get_render_info** **(** :ref:`RenderInfo "
+"<enum_Viewport_RenderInfo>` info **)**"
+msgstr ""
+":ref:`int <class_int>` **get_render_info** **(** :ref:`RenderInfo "
+"<enum_Viewport_RenderInfo>` info **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:882
+msgid "Returns information about the viewport from the rendering pipeline."
+msgstr "从渲染管道，返回有关视图的信息。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:888
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**get_shadow_atlas_quadrant_subdiv** **(** :ref:`int <class_int>` "
+"quadrant **)** const"
+msgstr ""
+":ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**get_shadow_atlas_quadrant_subdiv** **(** :ref:`int <class_int>` "
+"quadrant **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:890
+#, fuzzy
+msgid ""
+"Returns the :ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` of the specified quadrant."
+msgstr ":ref:`ShadowAtlasQuadrantSubdiv <enum_Viewport_ShadowAtlasQuadrantSubdiv>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:896
+msgid ":ref:`Vector2 <class_Vector2>` **get_size_override** **(** **)** const"
+msgstr ":ref:`Vector2 <class_Vector2>` **get_size_override** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:898
+msgid ""
+"Returns the size override set with :ref:`set_size_override "
+"<class_Viewport_method_set_size_override>`."
+msgstr ""
+"返回使用 :ref:`set_size_override <class_Viewport_method_set_size_override>` "
+"设置的覆盖尺寸。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:904
+msgid ""
+":ref:`ViewportTexture <class_ViewportTexture>` **get_texture** **(** "
+"**)** const"
+msgstr ""
+":ref:`ViewportTexture <class_ViewportTexture>` **get_texture** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:906
+msgid "Returns the viewport's texture."
+msgstr "返回视图的纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:908
+#, fuzzy
+msgid ""
+"**Note:** Due to the way OpenGL works, the resulting "
+":ref:`ViewportTexture <class_ViewportTexture>` is flipped vertically. You"
+" can use :ref:`Image.flip_y <class_Image_method_flip_y>` on the result of"
+" :ref:`Texture2D.get_data <class_Texture2D_method_get_data>` to flip it "
+"back, for example:"
+msgstr ""
+"**注意**：由于OpenGL的工作方式，结果的 :ref:`ViewportTexture <class_ViewportTexture>` "
+"垂直翻转。您可以对 :ref:`Texture.get_data <class_Texture_method_get_data>` 的结果，使用 "
+":ref:`Image.flip_y <class_Image_method_flip_y>` 将其向后翻转，例如："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:919
+msgid ":ref:`RID <class_RID>` **get_viewport_rid** **(** **)** const"
+msgstr ":ref:`RID <class_RID>` **get_viewport_rid** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:921
+msgid ""
+"Returns the viewport's RID from the :ref:`VisualServer "
+"<class_VisualServer>`."
+msgstr "从 :ref:`VisualServer <class_VisualServer>` 返回视图的RID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:927
+msgid ":ref:`Rect2 <class_Rect2>` **get_visible_rect** **(** **)** const"
+msgstr ":ref:`Rect2 <class_Rect2>` **get_visible_rect** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:929
+msgid "Returns the visible rectangle in global screen coordinates."
+msgstr "返回全局屏幕坐标中的可见矩形。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:935
+msgid ":ref:`Variant <class_Variant>` **gui_get_drag_data** **(** **)** const"
+msgstr ":ref:`Variant <class_Variant>` **gui_get_drag_data** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:937
+msgid ""
+"Returns the drag data from the GUI, that was previously returned by "
+":ref:`Control.get_drag_data <class_Control_method_get_drag_data>`."
+msgstr ""
+"从GUI返回拖动数据，该拖动数据先前由 :ref:`Control.get_drag_data "
+"<class_Control_method_get_drag_data>` 返回。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:943
+msgid ":ref:`bool <class_bool>` **gui_has_modal_stack** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **gui_has_modal_stack** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:945
+msgid "Returns ``true`` if there are visible modals on-screen."
+msgstr "如果屏幕上有可见的模态，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:951
+msgid ":ref:`bool <class_bool>` **gui_is_dragging** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **gui_is_dragging** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:953
+msgid "Returns ``true`` if the viewport is currently performing a drag operation."
+msgstr "如果视图当前正在执行拖动操作，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:959
+msgid ""
+"void **input** **(** :ref:`InputEvent <class_InputEvent>` local_event "
+"**)**"
+msgstr ""
+"void **input** **(** :ref:`InputEvent <class_InputEvent>` local_event "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:965
+msgid ":ref:`bool <class_bool>` **is_input_handled** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_input_handled** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:971
+msgid ":ref:`bool <class_bool>` **is_size_override_enabled** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_size_override_enabled** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:973
+msgid ""
+"Returns ``true`` if the size override is enabled. See "
+":ref:`set_size_override <class_Viewport_method_set_size_override>`."
+msgstr ""
+"如果启用了尺寸覆盖，则返回 ``true``。请参阅 :ref:`set_size_override "
+"<class_Viewport_method_set_size_override>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:979
+msgid ""
+"void **set_attach_to_screen_rect** **(** :ref:`Rect2 <class_Rect2>` rect "
+"**)**"
+msgstr ""
+"void **set_attach_to_screen_rect** **(** :ref:`Rect2 <class_Rect2>` rect "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:981
+msgid ""
+"Attaches this ``Viewport`` to the root ``Viewport`` with the specified "
+"rectangle. This bypasses the need for another node to display this "
+"``Viewport`` but makes you responsible for updating the position of this "
+"``Viewport`` manually."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:987
+msgid "void **set_input_as_handled** **(** **)**"
+msgstr "void **set_input_as_handled** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:989
+msgid ""
+"Stops the input from propagating further down the :ref:`SceneTree "
+"<class_SceneTree>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:995
+msgid ""
+"void **set_shadow_atlas_quadrant_subdiv** **(** :ref:`int <class_int>` "
+"quadrant, :ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv **)**"
+msgstr ""
+"void **set_shadow_atlas_quadrant_subdiv** **(** :ref:`int <class_int>` "
+"quadrant, :ref:`ShadowAtlasQuadrantSubdiv "
+"<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:997
+msgid ""
+"Sets the number of subdivisions to use in the specified quadrant. A "
+"higher number of subdivisions allows you to have more shadows in the "
+"scene at once, but reduces the quality of the shadows. A good practice is"
+" to have quadrants with a varying number of subdivisions and to have as "
+"few subdivisions as possible."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1003
+msgid ""
+"void **set_size_override** **(** :ref:`bool <class_bool>` enable, "
+":ref:`Vector2 <class_Vector2>` size=Vector2( -1, -1 ), :ref:`Vector2 "
+"<class_Vector2>` margin=Vector2( 0, 0 ) **)**"
+msgstr ""
+"void **set_size_override** **(** :ref:`bool <class_bool>` enable, "
+":ref:`Vector2 <class_Vector2>` size=Vector2( -1, -1 ), :ref:`Vector2 "
+"<class_Vector2>` margin=Vector2( 0, 0 ) **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1005
+msgid ""
+"Sets the size override of the viewport. If the ``enable`` parameter is "
+"``true`` the override is used, otherwise it uses the default size. If the"
+" size parameter is ``(-1, -1)``, it won't update the size."
+msgstr ""
+"设置视图的尺寸覆盖。 如果 ``enable`` 参数为 ``true``，则使用覆盖，否则使用默认大小。如果 ``size`` 参数为 "
+"``(-1, -1)``，它将不会更新大小。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1011
+msgid ""
+"void **unhandled_input** **(** :ref:`InputEvent <class_InputEvent>` "
+"local_event **)**"
+msgstr ""
+"void **unhandled_input** **(** :ref:`InputEvent <class_InputEvent>` "
+"local_event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1017
+msgid "void **update_worlds** **(** **)**"
+msgstr "void **update_worlds** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1019
+msgid "Forces update of the 2D and 3D worlds."
+msgstr "强制更新2D和3D世界。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1025
+msgid "void **warp_mouse** **(** :ref:`Vector2 <class_Vector2>` to_position **)**"
+msgstr "void **warp_mouse** **(** :ref:`Vector2 <class_Vector2>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_viewport.rst:1027
+msgid "Warps the mouse to a position relative to the viewport."
+msgstr "将鼠标扭曲到一个相对于视图的位置。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_DISABLED** = **0**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_DISABLED** = **0**"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_1** = **1**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_1** = **1**"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_4** = **2**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_4** = **2**"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_16** = **3**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_16** = **3**"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_64** = **4**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_64** = **4**"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_256** = **5**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_256** = **5**"
+
+#~ msgid "**SHADOW_ATLAS_QUADRANT_SUBDIV_1024** = **6**"
+#~ msgstr "**SHADOW_ATLAS_QUADRANT_SUBDIV_1024** = **6**"
+
+#~ msgid "**MSAA_2X** = **1**"
+#~ msgstr "**MSAA_2X** = **1**"
+
+#~ msgid "**MSAA_4X** = **2**"
+#~ msgstr "**MSAA_4X** = **2**"
+
+#~ msgid "**MSAA_8X** = **3**"
+#~ msgstr "**MSAA_8X** = **3**"
+
+#~ msgid "**MSAA_16X** = **4**"
+#~ msgstr "**MSAA_16X** = **4**"
+
+#~ msgid "**USAGE_2D** = **0**"
+#~ msgstr "**USAGE_2D** = **0**"
+
+#~ msgid "**USAGE_2D_NO_SAMPLING** = **1**"
+#~ msgstr "**USAGE_2D_NO_SAMPLING** = **1**"
+
+#~ msgid "**USAGE_3D** = **2**"
+#~ msgstr "**USAGE_3D** = **2**"
+
+#~ msgid "**USAGE_3D_NO_EFFECTS** = **3**"
+#~ msgstr "**USAGE_3D_NO_EFFECTS** = **3**"
+
+#~ msgid ""
+#~ "If ``true``, the viewport rendering will"
+#~ " receive benefits from High Dynamic "
+#~ "Range algorithm."
+#~ msgstr "如果为 ``true``，则视图渲染将从高动态范围算法中受益。"
+
+#~ msgid "The multisample anti-aliasing mode."
+#~ msgstr "多采样抗锯齿模式。"
+
+#~ msgid ":ref:`disable_3d <class_Viewport_property_disable_3d>`"
+#~ msgstr ":ref:`disable_3d <class_Viewport_property_disable_3d>`"
+
+#~ msgid ":ref:`hdr <class_Viewport_property_hdr>`"
+#~ msgstr ":ref:`hdr <class_Viewport_property_hdr>`"
+
+#~ msgid ":ref:`keep_3d_linear <class_Viewport_property_keep_3d_linear>`"
+#~ msgstr ":ref:`keep_3d_linear <class_Viewport_property_keep_3d_linear>`"
+
+#~ msgid ""
+#~ ":ref:`render_target_v_flip "
+#~ "<class_Viewport_property_render_target_v_flip>`"
+#~ msgstr ""
+#~ ":ref:`render_target_v_flip "
+#~ "<class_Viewport_property_render_target_v_flip>`"
+
+#~ msgid ":ref:`Usage <enum_Viewport_Usage>`"
+#~ msgstr ":ref:`Usage <enum_Viewport_Usage>`"
+
+#~ msgid ":ref:`usage <class_Viewport_property_usage>`"
+#~ msgstr ":ref:`usage <class_Viewport_property_usage>`"
+
+#~ msgid "enum **Usage**:"
+#~ msgstr "枚举 **Usage**："
+
+#~ msgid ""
+#~ "**USAGE_2D** = **0** --- Allocates all"
+#~ " buffers needed for drawing 2D "
+#~ "scenes. This takes less VRAM than "
+#~ "the 3D usage modes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**USAGE_2D_NO_SAMPLING** = **1** --- Allocates"
+#~ " buffers needed for 2D scenes without"
+#~ " allocating a buffer for screen copy."
+#~ " Accordingly, you cannot read from "
+#~ "the screen. Of the :ref:`Usage "
+#~ "<enum_Viewport_Usage>` types, this requires "
+#~ "the least VRAM."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**USAGE_3D** = **2** --- Allocates full"
+#~ " buffers for drawing 3D scenes and"
+#~ " all 3D effects including buffers "
+#~ "needed for 2D scenes and effects."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**USAGE_3D_NO_EFFECTS** = **3** --- Allocates"
+#~ " buffers needed for drawing 3D "
+#~ "scenes. But does not allocate buffers"
+#~ " needed for reading from the screen"
+#~ " and post-processing effects. Saves "
+#~ "some VRAM."
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>` **disable_3d**"
+#~ msgstr ":ref:`bool <class_bool>` **disable_3d**"
+
+#~ msgid "set_disable_3d(value)"
+#~ msgstr "set_disable_3d(value)"
+
+#~ msgid "is_3d_disabled()"
+#~ msgstr "is_3d_disabled()"
+
+#~ msgid ""
+#~ "If ``true``, the viewport will disable"
+#~ " 3D rendering. For actual disabling "
+#~ "use ``usage``."
+#~ msgstr "如果为 ``true``，则视图将禁用3D渲染。对于实际禁用，请使用 ``usage``。"
+
+#~ msgid ":ref:`bool <class_bool>` **hdr**"
+#~ msgstr ":ref:`bool <class_bool>` **hdr**"
+
+#~ msgid "set_hdr(value)"
+#~ msgstr "set_hdr(value)"
+
+#~ msgid "get_hdr()"
+#~ msgstr "get_hdr()"
+
+#~ msgid ""
+#~ "If ``true``, the viewport rendering will"
+#~ " receive benefits from High Dynamic "
+#~ "Range algorithm. High Dynamic Range "
+#~ "allows the viewport to receive values"
+#~ " that are outside the 0-1 range. "
+#~ "In Godot HDR uses 16 bits, meaning"
+#~ " it does not store the full "
+#~ "range of a floating point number."
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>` **keep_3d_linear**"
+#~ msgstr ":ref:`bool <class_bool>` **keep_3d_linear**"
+
+#~ msgid "set_keep_3d_linear(value)"
+#~ msgstr "set_keep_3d_linear(value)"
+
+#~ msgid "get_keep_3d_linear()"
+#~ msgstr "get_keep_3d_linear()"
+
+#~ msgid ""
+#~ "If ``true``, the result after 3D "
+#~ "rendering will not have a linear "
+#~ "to sRGB color conversion applied. This"
+#~ " is important when the viewport is"
+#~ " used as a render target where "
+#~ "the result is used as a texture"
+#~ " on a 3D object rendered in "
+#~ "another viewport. It is also important"
+#~ " if the viewport is used to "
+#~ "create data that is not color "
+#~ "based (noise, heightmaps, pickmaps, etc.). "
+#~ "Do not enable this when the "
+#~ "viewport is used as a texture on"
+#~ " a 2D object or if the viewport"
+#~ " is your final output."
+#~ msgstr ""
+#~ "如果为 "
+#~ "``true``，则3D渲染后的结果，将不会应用线性到sRGB的颜色转换。这很重要，当视图用作渲染目标，其结果用作另一个视图中渲染的3D对象的纹理时。如果将视图用于创建非基于颜色的数据（噪声、高度图、拾取图等），这也很重要。"
+#~ " 当视图用作2D对象的纹理，或视图是最终输出时，请勿启用此功能。"
+
+#~ msgid ""
+#~ "The multisample anti-aliasing mode. A"
+#~ " higher number results in smoother "
+#~ "edges at the cost of significantly "
+#~ "worse performance. A value of 4 is"
+#~ " best unless targetting very high-end"
+#~ " systems."
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>` **render_target_v_flip**"
+#~ msgstr ":ref:`bool <class_bool>` **render_target_v_flip**"
+
+#~ msgid "set_vflip(value)"
+#~ msgstr "set_vflip(value)"
+
+#~ msgid "get_vflip()"
+#~ msgstr "get_vflip()"
+
+#~ msgid "If ``true``, the result of rendering will be flipped vertically."
+#~ msgstr "如果为 ``true``，则渲染结果将垂直翻转。"
+
+#~ msgid ":ref:`Usage <enum_Viewport_Usage>` **usage**"
+#~ msgstr ":ref:`Usage <enum_Viewport_Usage>` **usage**"
+
+#~ msgid "set_usage(value)"
+#~ msgstr "set_usage(value)"
+
+#~ msgid "get_usage()"
+#~ msgstr "get_usage()"
+
+#~ msgid "The rendering mode of viewport."
+#~ msgstr "视图的渲染模式。"
+
+#~ msgid "**DEFAULT_CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIMPAMPS** = **3**"
+#~ msgstr ""
+

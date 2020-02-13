@@ -1,52 +1,55 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2020-03-02 20:17+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:4
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:4
 msgid "Compiling for macOS"
 msgstr "为macOS平台编译"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:9
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:9
 msgid "Requirements"
-msgstr "需求"
+msgstr "要求"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:11
-msgid ""
-"For compiling under Linux or other Unix variants, the following is required:"
-msgstr "要在Linux或其他类Unix系统下进行编译，需要满足以下条件："
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:11
+msgid "For compiling under macOS, the following is required:"
+msgstr "要在macOS下进行编译，需要满足以下条件："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:14
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:13
 msgid "Python 2.7+ or Python 3.5+"
 msgstr "Python 2.7+或Python 3.5+"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:15
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:14
 msgid "SCons build system"
 msgstr "Scons 构建系统"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:16
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:15
 msgid "Xcode (or the more lightweight Command Line Tools for Xcode)"
 msgstr "Xcode（或更轻巧的Xcode命令行工具）"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:17
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:16
 msgid "*Optional* - yasm (for WebM SIMD optimizations)"
 msgstr "*可选*——yasm（用于WebM SIMD优化）"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:19
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:18
 msgid ""
 "For a general overview of SCons usage for Godot, see :ref:"
 "`doc_introduction_to_the_buildsystem`."
@@ -54,16 +57,16 @@ msgstr ""
 "有关Godot的SCons用法的一般概述，请参阅 :ref:"
 "`doc_introduction_to_the_buildsystem`。"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:23
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:22
 msgid "Compiling"
 msgstr "开始编译"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:24
 msgid ""
 "Start a terminal, go to the root dir of the engine source code and type:"
 msgstr "启动终端，然后进入引擎源代码的根目录。键入下面的指令："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:30
 msgid ""
 "If all goes well, the resulting binary executable will be placed in the \"bin"
 "\" subdirectory. This executable file contains the whole engine and runs "
@@ -72,7 +75,7 @@ msgstr ""
 "如果一切顺利，生成的二进制可执行文件将放在 `` bin`` 子目录中。该可执行文件包"
 "含整个引擎，并且运行时无需任何依赖项。 执行它将会启动项目管理器。"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:35
 msgid ""
 "To create an .app like in the official builds, you need to use the template "
 "located in ``misc/dist/osx_tools.app``. Typically, for a \".64\" optimised "
@@ -82,11 +85,11 @@ msgstr ""
 "模板。通常，使用 ``scons p=osx target=release_debug`` 用于 ``.64`` 优化二进制"
 "文件构建："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:47
 msgid "Compiling for 32 and 64-bit"
 msgstr "同时为32位和64位编译"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:49
 msgid ""
 "All macOS versions after 10.6 are 64-bit exclusive, so the executable will "
 "be a \".64\" file by default for most users. If you would like to compile a "
@@ -97,11 +100,11 @@ msgstr ""
 "为 ``.64`` 的。如果要编译同时包含32位和64位代码的 ``.fat`` 可执行文件，您可以"
 "通过在scons命令中指定位来实现，如下所示："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:59
 msgid "Cross-compiling"
 msgstr "交叉编译"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:61
 msgid ""
 "It is possible to compile for macOS in a Linux environment (and maybe also "
 "in Windows with Cygwin). For that you will need `OSXCross <https://github."
@@ -112,7 +115,7 @@ msgstr ""
 "`OSXCross <https://github.com/tpoechtrager/osxcross>`__ 才能使用macOS作为目标"
 "平台。首先，按照说明安装它："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:67
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:66
 msgid ""
 "Clone the `OSXCross repository <https://github.com/tpoechtrager/osxcross>` "
 "somewhere on your machine (or download a zip file and extract it somewhere), "
@@ -121,21 +124,21 @@ msgstr ""
 "在您机器的某个地方克隆 `OSXCross存储库 <https://github.com/tpoechtrager/"
 "osxcross>`_ （或下载一个zip文件并将其解压缩到某处），例如："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:74
 msgid ""
 "Follow the instructions to package the SDK: https://github.com/tpoechtrager/"
 "osxcross#packaging-the-sdk"
 msgstr ""
 "按照说明打包SDK：https://github.com/tpoechtrager/osxcross#packaging-the-sdk"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:76
 msgid ""
 "Follow the instructions to install OSXCross: https://github.com/tpoechtrager/"
 "osxcross#installation"
 msgstr ""
 "按照说明安装OSXCross：https://github.com/tpoechtrager/osxcross#installation"
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:79
 msgid ""
 "After that, you will need to define the ``OSXCROSS_ROOT`` as the path to the "
 "OSXCross installation (the same place where you cloned the repository/"
@@ -144,11 +147,11 @@ msgstr ""
 "之后，您需要将 ``OSXCROSS_ROOT`` 定义为OSXCross的安装路径（您克隆存储库/提取"
 "zip的位置），例如："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:87
 msgid "Now you can compile with SCons like you normally would:"
 msgstr "现在您可以像通常那样使用SCons进行编译："
 
-#: ../../docs/development/compiling/compiling_for_osx.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/development/compiling/compiling_for_osx.rst:93
 msgid ""
 "If you have an OSXCross SDK version different from the one expected by the "
 "SCons buildsystem, you can specify a custom one with the ``osxcross_sdk`` "

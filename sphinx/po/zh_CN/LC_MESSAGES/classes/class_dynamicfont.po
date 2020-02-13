@@ -1,0 +1,539 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_dynamicfont.rst:10
+msgid "DynamicFont"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:12
+msgid ""
+"**Inherits:** :ref:`Font <class_Font>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:14
+msgid "DynamicFont renders vector font files at runtime."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:19
+msgid ""
+"DynamicFont renders vector font files (such as TTF or OTF) dynamically at"
+" runtime instead of using a prerendered texture atlas like "
+":ref:`BitmapFont <class_BitmapFont>`. This trades the faster loading time"
+" of :ref:`BitmapFont <class_BitmapFont>`\\ s for the ability to change "
+"font parameters like size and spacing during runtime. "
+":ref:`DynamicFontData <class_DynamicFontData>` is used for referencing "
+"the font file paths. DynamicFont also supports defining one or more "
+"fallbacks fonts, which will be used when displaying a character not "
+"supported by the main font."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:21
+msgid ""
+"DynamicFont uses the `FreeType <https://www.freetype.org/>`_ library for "
+"rasterization."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:34
+#: ../../docs/classes/class_dynamicfont.rst:36
+#: ../../docs/classes/class_dynamicfont.rst:38
+#: ../../docs/classes/class_dynamicfont.rst:40
+#: ../../docs/classes/class_dynamicfont.rst:46
+#: ../../docs/classes/class_dynamicfont.rst:48
+#: ../../docs/classes/class_dynamicfont.rst:59
+#: ../../docs/classes/class_dynamicfont.rst:61
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:34
+msgid ""
+":ref:`extra_spacing_bottom "
+"<class_DynamicFont_property_extra_spacing_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:34
+#: ../../docs/classes/class_dynamicfont.rst:36
+#: ../../docs/classes/class_dynamicfont.rst:38
+#: ../../docs/classes/class_dynamicfont.rst:40
+#: ../../docs/classes/class_dynamicfont.rst:46
+#: ../../docs/classes/class_dynamicfont.rst:101
+#: ../../docs/classes/class_dynamicfont.rst:117
+#: ../../docs/classes/class_dynamicfont.rst:133
+#: ../../docs/classes/class_dynamicfont.rst:149
+#: ../../docs/classes/class_dynamicfont.rst:197
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:36
+msgid ":ref:`extra_spacing_char <class_DynamicFont_property_extra_spacing_char>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:38
+msgid ""
+":ref:`extra_spacing_space "
+"<class_DynamicFont_property_extra_spacing_space>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:40
+msgid ":ref:`extra_spacing_top <class_DynamicFont_property_extra_spacing_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:42
+#: ../../docs/classes/class_dynamicfont.rst:57
+msgid ":ref:`DynamicFontData <class_DynamicFontData>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:42
+msgid ":ref:`font_data <class_DynamicFont_property_font_data>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:44
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:44
+msgid ":ref:`outline_color <class_DynamicFont_property_outline_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:44
+#: ../../docs/classes/class_dynamicfont.rst:179
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:46
+msgid ":ref:`outline_size <class_DynamicFont_property_outline_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:48
+msgid ":ref:`size <class_DynamicFont_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:48
+#: ../../docs/classes/class_dynamicfont.rst:213
+msgid "``16``"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:52
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:55
+#: ../../docs/classes/class_dynamicfont.rst:63
+#: ../../docs/classes/class_dynamicfont.rst:65
+#: ../../docs/classes/class_dynamicfont.rst:67
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:55
+msgid ""
+":ref:`add_fallback <class_DynamicFont_method_add_fallback>` **(** "
+":ref:`DynamicFontData <class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:57
+msgid ""
+":ref:`get_fallback <class_DynamicFont_method_get_fallback>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:59
+msgid ""
+":ref:`get_fallback_count <class_DynamicFont_method_get_fallback_count>` "
+"**(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:61
+msgid ""
+":ref:`get_spacing <class_DynamicFont_method_get_spacing>` **(** :ref:`int"
+" <class_int>` type **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:63
+msgid ""
+":ref:`remove_fallback <class_DynamicFont_method_remove_fallback>` **(** "
+":ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:65
+msgid ""
+":ref:`set_fallback <class_DynamicFont_method_set_fallback>` **(** "
+":ref:`int <class_int>` idx, :ref:`DynamicFontData "
+"<class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:67
+msgid ""
+":ref:`set_spacing <class_DynamicFont_method_set_spacing>` **(** :ref:`int"
+" <class_int>` type, :ref:`int <class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:71
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:83
+msgid "enum **SpacingType**:"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:85
+msgid "**SPACING_TOP** = **0** --- Spacing at the top."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:87
+msgid "**SPACING_BOTTOM** = **1** --- Spacing at the bottom."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:89
+msgid "**SPACING_CHAR** = **2** --- Character spacing."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:91
+msgid "**SPACING_SPACE** = **3** --- Space spacing."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:94
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:98
+msgid ":ref:`int <class_int>` **extra_spacing_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:101
+#: ../../docs/classes/class_dynamicfont.rst:117
+#: ../../docs/classes/class_dynamicfont.rst:133
+#: ../../docs/classes/class_dynamicfont.rst:149
+#: ../../docs/classes/class_dynamicfont.rst:179
+#: ../../docs/classes/class_dynamicfont.rst:197
+#: ../../docs/classes/class_dynamicfont.rst:213
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:103
+#: ../../docs/classes/class_dynamicfont.rst:119
+#: ../../docs/classes/class_dynamicfont.rst:135
+#: ../../docs/classes/class_dynamicfont.rst:151
+#: ../../docs/classes/class_dynamicfont.rst:165
+#: ../../docs/classes/class_dynamicfont.rst:181
+#: ../../docs/classes/class_dynamicfont.rst:199
+#: ../../docs/classes/class_dynamicfont.rst:215
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:103
+#: ../../docs/classes/class_dynamicfont.rst:119
+#: ../../docs/classes/class_dynamicfont.rst:135
+#: ../../docs/classes/class_dynamicfont.rst:151
+msgid "set_spacing(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:105
+#: ../../docs/classes/class_dynamicfont.rst:121
+#: ../../docs/classes/class_dynamicfont.rst:137
+#: ../../docs/classes/class_dynamicfont.rst:153
+#: ../../docs/classes/class_dynamicfont.rst:167
+#: ../../docs/classes/class_dynamicfont.rst:183
+#: ../../docs/classes/class_dynamicfont.rst:201
+#: ../../docs/classes/class_dynamicfont.rst:217
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:105
+#: ../../docs/classes/class_dynamicfont.rst:121
+#: ../../docs/classes/class_dynamicfont.rst:137
+#: ../../docs/classes/class_dynamicfont.rst:153
+msgid "get_spacing()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:108
+msgid "Extra spacing at the bottom in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:114
+msgid ":ref:`int <class_int>` **extra_spacing_char**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:124
+msgid "Extra character spacing in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:130
+msgid ":ref:`int <class_int>` **extra_spacing_space**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:140
+msgid "Extra space spacing in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:146
+msgid ":ref:`int <class_int>` **extra_spacing_top**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:156
+msgid "Extra spacing at the top in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:162
+msgid ":ref:`DynamicFontData <class_DynamicFontData>` **font_data**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:165
+msgid "set_font_data(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:167
+msgid "get_font_data()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:170
+msgid "The font data."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:176
+msgid ":ref:`Color <class_Color>` **outline_color**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:181
+msgid "set_outline_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:183
+msgid "get_outline_color()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:186
+msgid "The font outline's color."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:188
+msgid ""
+"**Note:** It's recommended to leave this at the default value so that you"
+" can adjust it in individual controls. For example, if the outline is "
+"made black here, it won't be possible to change its color using a Label's"
+" font outline modulate theme item."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:194
+msgid ":ref:`int <class_int>` **outline_size**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:199
+msgid "set_outline_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:201
+msgid "get_outline_size()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:204
+msgid "The font outline's thickness in pixels (not relative to the font size)."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:210
+msgid ":ref:`int <class_int>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:215
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:217
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:220
+msgid "The font size in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:223
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:227
+msgid ""
+"void **add_fallback** **(** :ref:`DynamicFontData "
+"<class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:229
+msgid "Adds a fallback font."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:235
+msgid ""
+":ref:`DynamicFontData <class_DynamicFontData>` **get_fallback** **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:237
+msgid "Returns the fallback font at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:243
+msgid ":ref:`int <class_int>` **get_fallback_count** **(** **)** const"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:245
+msgid "Returns the number of fallback fonts."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:251
+msgid ""
+":ref:`int <class_int>` **get_spacing** **(** :ref:`int <class_int>` type "
+"**)** const"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:253
+msgid ""
+"Returns the spacing for the given ``type`` (see :ref:`SpacingType "
+"<enum_DynamicFont_SpacingType>`)."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:259
+msgid "void **remove_fallback** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:261
+msgid "Removes the fallback font at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:267
+msgid ""
+"void **set_fallback** **(** :ref:`int <class_int>` idx, "
+":ref:`DynamicFontData <class_DynamicFontData>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:269
+msgid "Sets the fallback font at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:275
+msgid ""
+"void **set_spacing** **(** :ref:`int <class_int>` type, :ref:`int "
+"<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfont.rst:277
+msgid ""
+"Sets the spacing for ``type`` (see :ref:`SpacingType "
+"<enum_DynamicFont_SpacingType>`) to ``value`` in pixels (not relative to "
+"the font size)."
+msgstr ""
+
+#~ msgid ""
+#~ "DynamicFont renders vector font files "
+#~ "(such as TTF or OTF) dynamically "
+#~ "at runtime instead of using a "
+#~ "prerendered texture atlas like "
+#~ ":ref:`BitmapFont <class_BitmapFont>`. This trades"
+#~ " the faster loading time of "
+#~ ":ref:`BitmapFont <class_BitmapFont>`\\ s for "
+#~ "the ability to change font parameters"
+#~ " like size and spacing during "
+#~ "runtime. :ref:`DynamicFontData <class_DynamicFontData>`"
+#~ " is used for referencing the font "
+#~ "file paths."
+#~ msgstr ""
+
+#~ msgid "The font size."
+#~ msgstr ""
+
+#~ msgid "If ``true``, filtering is used."
+#~ msgstr ""
+
+#~ msgid "If ``true``, mipmapping is used."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "Color( 1, 1, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "16"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`use_filter <class_DynamicFont_property_use_filter>`"
+#~ msgstr ""
+
+#~ msgid "``false``"
+#~ msgstr ""
+
+#~ msgid ":ref:`use_mipmaps <class_DynamicFont_property_use_mipmaps>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>` **use_filter**"
+#~ msgstr ""
+
+#~ msgid "set_use_filter(value)"
+#~ msgstr ""
+
+#~ msgid "get_use_filter()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If ``true``, filtering is used. This "
+#~ "makes the font blurry instead of "
+#~ "pixelated when scaling it if font "
+#~ "oversampling is disabled or ineffective. "
+#~ "It's recommended to enable this when "
+#~ "using the font in a control whose"
+#~ " size changes over time, unless a "
+#~ "pixel art aesthetic is desired."
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>` **use_mipmaps**"
+#~ msgstr ""
+
+#~ msgid "set_use_mipmaps(value)"
+#~ msgstr ""
+
+#~ msgid "get_use_mipmaps()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If ``true``, mipmapping is used. This"
+#~ " improves the font's appearance when "
+#~ "downscaling it if font oversampling is"
+#~ " disabled or ineffective."
+#~ msgstr ""
+

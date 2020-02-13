@@ -1,0 +1,3319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 22:41+0800\n"
+"PO-Revision-Date: 2019-12-01 13:32+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:10
+msgid "Node"
+msgstr "Node"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr "**基类**： :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:14
+msgid ""
+"**Inherited By:** :ref:`AnimationPlayer <class_AnimationPlayer>`, "
+":ref:`AnimationTree <class_AnimationTree>`, :ref:`AudioStreamPlayer "
+"<class_AudioStreamPlayer>`, :ref:`CanvasItem <class_CanvasItem>`, "
+":ref:`CanvasLayer <class_CanvasLayer>`, :ref:`EditorFileSystem "
+"<class_EditorFileSystem>`, :ref:`EditorInterface "
+"<class_EditorInterface>`, :ref:`EditorPlugin <class_EditorPlugin>`, "
+":ref:`EditorResourcePreview <class_EditorResourcePreview>`, "
+":ref:`HTTPRequest <class_HTTPRequest>`, :ref:`InstancePlaceholder "
+"<class_InstancePlaceholder>`, :ref:`NavigationAgent "
+"<class_NavigationAgent>`, :ref:`NavigationAgent2D "
+"<class_NavigationAgent2D>`, :ref:`NavigationObstacle "
+"<class_NavigationObstacle>`, :ref:`NavigationObstacle2D "
+"<class_NavigationObstacle2D>`, :ref:`ResourcePreloader "
+"<class_ResourcePreloader>`, :ref:`SkeletonIK <class_SkeletonIK>`, "
+":ref:`Spatial <class_Spatial>`, :ref:`Timer <class_Timer>`, :ref:`Tween "
+"<class_Tween>`, :ref:`Viewport <class_Viewport>`, :ref:`WorldEnvironment "
+"<class_WorldEnvironment>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:16
+msgid "Base class for all *scene* objects."
+msgstr "所有 *场景* 对象的基类。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:21
+msgid ""
+"Nodes are Godot's building blocks. They can be assigned as the child of "
+"another node, resulting in a tree arrangement. A given node can contain "
+"any number of nodes as children with the requirement that all siblings "
+"(direct children of a node) should have unique names."
+msgstr "节点是Godot的基石。可以将它们指定为另一个节点的子节点，从而形成树形结构。给定节点可以包含任意数量的节点作为子节点，要求所有同级节点（一个节点的直接子节点）都应具有唯一的名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:23
+msgid ""
+"A tree of nodes is called a *scene*. Scenes can be saved to the disk and "
+"then instanced into other scenes. This allows for very high flexibility "
+"in the architecture and data model of Godot projects."
+msgstr "节点树称为 **场景**。场景可以保存到磁盘，然后实例化为其他场景。这使Godot项目的体系结构和数据模型，具有很高的灵活性。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:25
+msgid ""
+"**Scene tree:** The :ref:`SceneTree <class_SceneTree>` contains the "
+"active tree of nodes. When a node is added to the scene tree, it receives"
+" the :ref:`NOTIFICATION_ENTER_TREE "
+"<class_Node_constant_NOTIFICATION_ENTER_TREE>` notification and its "
+":ref:`_enter_tree <class_Node_method__enter_tree>` callback is triggered."
+" Child nodes are always added *after* their parent node, i.e. the "
+":ref:`_enter_tree <class_Node_method__enter_tree>` callback of a parent "
+"node will be triggered before its child's."
+msgstr ""
+"**场景树**：:ref:`SceneTree <class_SceneTree>` 包含活动的节点树。将节点添加到场景树时，它会收到通知 "
+":ref:`NOTIFICATION_ENTER_TREE "
+"<class_Node_constant_NOTIFICATION_ENTER_TREE>` 通知，并触发其 :ref:`_enter_tree "
+"<class_Node_method__enter_tree>` 回调。子节点总是在其父节点 **之后** 添加，即，在其子节点 **之前** "
+"会触发父节点的 :ref:`_enter_tree <class_Node_method__enter_tree>` 回调。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:27
+msgid ""
+"Once all nodes have been added in the scene tree, they receive the "
+":ref:`NOTIFICATION_READY <class_Node_constant_NOTIFICATION_READY>` "
+"notification and their respective :ref:`_ready "
+"<class_Node_method__ready>` callbacks are triggered. For groups of nodes,"
+" the :ref:`_ready <class_Node_method__ready>` callback is called in "
+"reverse order, starting with the children and moving up to the parent "
+"nodes."
+msgstr ""
+"一旦将所有节点添加到场景树中，它们就会收到 :ref:`NOTIFICATION_READY "
+"<class_Node_constant_NOTIFICATION_READY>` 通知，并触发其各自的 :ref:`_ready "
+"<class_Node_method__ready>` 回调。对于节点编组，以相反的顺序调用 :ref:`_ready "
+"<class_Node_method__ready>` 回调，从子级开始，一直向上移动到父级节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:29
+msgid ""
+"This means that when adding a node to the scene tree, the following order"
+" will be used for the callbacks: :ref:`_enter_tree "
+"<class_Node_method__enter_tree>` of the parent, :ref:`_enter_tree "
+"<class_Node_method__enter_tree>` of the children, :ref:`_ready "
+"<class_Node_method__ready>` of the children and finally :ref:`_ready "
+"<class_Node_method__ready>` of the parent (recursively for the entire "
+"scene tree)."
+msgstr ""
+"这意味着在将节点添加到场景树时，将按以下顺序进行回调：父级的 :ref:`_enter_tree "
+"<class_Node_method__enter_tree>`、子级的 :ref:`_enter_tree "
+"<class_Node_method__enter_tree>`、子元素的 :ref:`_ready "
+"<class_Node_method__ready>`、最后是父元素的 :ref:`_ready "
+"<class_Node_method__ready>` （递归整个场景树）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:31
+msgid ""
+"**Processing:** Nodes can override the \"process\" state, so that they "
+"receive a callback on each frame requesting them to process (do "
+"something). Normal processing (callback :ref:`_process "
+"<class_Node_method__process>`, toggled with :ref:`set_process "
+"<class_Node_method_set_process>`) happens as fast as possible and is "
+"dependent on the frame rate, so the processing time *delta* is passed as "
+"an argument. Physics processing (callback :ref:`_physics_process "
+"<class_Node_method__physics_process>`, toggled with "
+":ref:`set_physics_process <class_Node_method_set_physics_process>`) "
+"happens a fixed number of times per second (60 by default) and is useful "
+"for code related to the physics engine."
+msgstr ""
+"**处理**：节点可以重写 ``处理`` 状态，以便节点在每个帧上收到一个回调，要求它们进行处理（执行某些操作）。正常处理（回调 "
+":ref:`_process <class_Node_method__process>`，并使用 :ref:`set_process "
+"<class_Node_method_set_process>` 切换）尽可能快地发生，并且取决于帧速率，因此处理时间 ``delta`` "
+"作为一个参数。物理处理（回调 :ref:`_physics_process "
+"<class_Node_method__physics_process>`，并使用 :ref:`set_physics_process "
+"<class_Node_method_set_physics_process>` "
+"切换）每秒发生固定次数（默认为60次），对于与物理引擎相关的代码很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:33
+msgid ""
+"Nodes can also process input events. When present, the :ref:`_input "
+"<class_Node_method__input>` function will be called for each input that "
+"the program receives. In many cases, this can be overkill (unless used "
+"for simple projects), and the :ref:`_unhandled_input "
+"<class_Node_method__unhandled_input>` function might be preferred; it is "
+"called when the input event was not handled by anyone else (typically, "
+"GUI :ref:`Control <class_Control>` nodes), ensuring that the node only "
+"receives the events that were meant for it."
+msgstr ""
+"节点还可以处理输入事件。如果 :ref:`_input <class_Node_method__input>` "
+"函数存在，将为程序收到的每个输入调用该函数。在许多情况下，这可能是过大的（除非用于简单的项目），并且最好使用 "
+":ref:`_unhandled_input <class_Node_method__unhandled_input>` "
+"函数；当输入事件未由任何其他节点（通常是GUI :ref:`Control <class_Control>` "
+"节点）处理时，将调用此方法，以确保该节点仅接收针对它的事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:35
+msgid ""
+"To keep track of the scene hierarchy (especially when instancing scenes "
+"into other scenes), an \"owner\" can be set for the node with the "
+":ref:`owner <class_Node_property_owner>` property. This keeps track of "
+"who instanced what. This is mostly useful when writing editors and tools,"
+" though."
+msgstr ""
+"为了跟踪场景的层次结构（尤其是当将场景实例化为其他场景时），可以使用 :ref:`owner "
+"<class_Node_property_owner>` 属性为节点设置 "
+"``所有者（owner）``。这会跟踪谁实例化了什么。但是，这在编写编辑器和工具时最有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:37
+msgid ""
+"Finally, when a node is freed with :ref:`Object.free "
+"<class_Object_method_free>` or :ref:`queue_free "
+"<class_Node_method_queue_free>`, it will also free all its children."
+msgstr ""
+"最终，当使用 :ref:`Object.free <class_Object_method_free>` 或 :ref:`queue_free "
+"<class_Node_method_queue_free>` 释放节点时，它还将释放它的所有子节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:39
+msgid ""
+"**Groups:** Nodes can be added to as many groups as you want to be easy "
+"to manage, you could create groups like \"enemies\" or \"collectables\" "
+"for example, depending on your game. See :ref:`add_to_group "
+"<class_Node_method_add_to_group>`, :ref:`is_in_group "
+"<class_Node_method_is_in_group>` and :ref:`remove_from_group "
+"<class_Node_method_remove_from_group>`. You can then retrieve all nodes "
+"in these groups, iterate them and even call methods on groups via the "
+"methods on :ref:`SceneTree <class_SceneTree>`."
+msgstr ""
+"**编组**：可以将节点添加到尽可能多的编组中，以便于管理，例如，您可以根据自己的游戏，来创建 ``敌人`` 或 ``收藏品`` 之类的编组。参见"
+" :ref:`add_to_group <class_Node_method_add_to_group>`、:ref:`is_in_group "
+"<class_Node_method_is_in_group>` 和 :ref:`remove_from_group "
+"<class_Node_method_remove_from_group>`。然后，您可以检索这些编组中的所有节点，对其进行迭代，甚至通过 "
+":ref:`SceneTree <class_SceneTree>` 中的方法，来调用编组中的方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:41
+msgid ""
+"**Networking with nodes:** After connecting to a server (or making one, "
+"see :ref:`NetworkedMultiplayerENet <class_NetworkedMultiplayerENet>`), it"
+" is possible to use the built-in RPC (remote procedure call) system to "
+"communicate over the network. By calling :ref:`rpc "
+"<class_Node_method_rpc>` with a method name, it will be called locally "
+"and in all connected peers (peers = clients and the server that accepts "
+"connections). To identify which node receives the RPC call, Godot will "
+"use its :ref:`NodePath <class_NodePath>` (make sure node names are the "
+"same on all peers). Also, take a look at the high-level networking "
+"tutorial and corresponding demos."
+msgstr ""
+"**与节点联网**：连接到一个服务（或创建一个服务，请参阅 :ref:`NetworkedMultiplayerENet "
+"<class_NetworkedMultiplayerENet>`）之后，可以使用内置的RPC（远程过程调用）系统，在网络上进行通信。通过使用方法名称调用"
+" :ref:`rpc "
+"<class_Node_method_rpc>`，它将在本地以及所有连接的对等方（对等=接受连接的客户端和服务端）中被调用。为了确定哪个节点收到RPC调用，Godot将使用它的"
+" :ref:`NodePath <class_NodePath>` （确保所有对等节点的节点名称均相同）。另外，请参阅高级网络教程和相应的演示。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:44
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:46
+msgid ":doc:`../getting_started/step_by_step/scenes_and_nodes`"
+msgstr ":doc:`../getting_started/step_by_step/scenes_and_nodes`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:49
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:56
+msgid ":ref:`MultiplayerAPI <class_MultiplayerAPI>`"
+msgstr ":ref:`MultiplayerAPI <class_MultiplayerAPI>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:52
+msgid ":ref:`custom_multiplayer <class_Node_property_custom_multiplayer>`"
+msgstr ":ref:`custom_multiplayer <class_Node_property_custom_multiplayer>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:75
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:54
+msgid ":ref:`filename <class_Node_property_filename>`"
+msgstr ":ref:`filename <class_Node_property_filename>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:56
+msgid ":ref:`multiplayer <class_Node_property_multiplayer>`"
+msgstr ":ref:`multiplayer <class_Node_property_multiplayer>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:58
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:58
+msgid ":ref:`name <class_Node_property_name>`"
+msgstr ":ref:`name <class_Node_property_name>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:103
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:121
+msgid ":ref:`Node <class_Node>`"
+msgstr ":ref:`Node <class_Node>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:60
+msgid ":ref:`owner <class_Node_property_owner>`"
+msgstr ":ref:`owner <class_Node_property_owner>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:62
+msgid ":ref:`PauseMode <enum_Node_PauseMode>`"
+msgstr ":ref:`PauseMode <enum_Node_PauseMode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:62
+msgid ":ref:`pause_mode <class_Node_property_pause_mode>`"
+msgstr ":ref:`pause_mode <class_Node_property_pause_mode>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:549
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:565
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:207
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:64
+msgid ":ref:`process_priority <class_Node_property_process_priority>`"
+msgstr ":ref:`process_priority <class_Node_property_process_priority>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:68
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:169
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:173
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:175
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:177
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:179
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:181
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:183
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:189
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:191
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:193
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:205
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:209
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:211
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:213
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:215
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:217
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:219
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:221
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:223
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:225
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:227
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:229
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:231
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:233
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:235
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:71
+msgid ":ref:`_enter_tree <class_Node_method__enter_tree>` **(** **)** virtual"
+msgstr ":ref:`_enter_tree <class_Node_method__enter_tree>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:73
+msgid ":ref:`_exit_tree <class_Node_method__exit_tree>` **(** **)** virtual"
+msgstr ":ref:`_exit_tree <class_Node_method__exit_tree>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:75
+msgid ""
+":ref:`_get_configuration_warning "
+"<class_Node_method__get_configuration_warning>` **(** **)** virtual"
+msgstr ""
+":ref:`_get_configuration_warning "
+"<class_Node_method__get_configuration_warning>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:77
+msgid ""
+":ref:`_input <class_Node_method__input>` **(** :ref:`InputEvent "
+"<class_InputEvent>` event **)** virtual"
+msgstr ""
+":ref:`_input <class_Node_method__input>` **(** :ref:`InputEvent "
+"<class_InputEvent>` event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:79
+msgid ""
+":ref:`_physics_process <class_Node_method__physics_process>` **(** "
+":ref:`float <class_float>` delta **)** virtual"
+msgstr ""
+":ref:`_physics_process <class_Node_method__physics_process>` **(** "
+":ref:`float <class_float>` delta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:81
+msgid ""
+":ref:`_process <class_Node_method__process>` **(** :ref:`float "
+"<class_float>` delta **)** virtual"
+msgstr ""
+":ref:`_process <class_Node_method__process>` **(** :ref:`float "
+"<class_float>` delta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:83
+msgid ":ref:`_ready <class_Node_method__ready>` **(** **)** virtual"
+msgstr ":ref:`_ready <class_Node_method__ready>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:85
+msgid ""
+":ref:`_unhandled_input <class_Node_method__unhandled_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+msgstr ""
+":ref:`_unhandled_input <class_Node_method__unhandled_input>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:87
+msgid ""
+":ref:`_unhandled_key_input <class_Node_method__unhandled_key_input>` "
+"**(** :ref:`InputEventKey <class_InputEventKey>` event **)** virtual"
+msgstr ""
+":ref:`_unhandled_key_input <class_Node_method__unhandled_key_input>` "
+"**(** :ref:`InputEventKey <class_InputEventKey>` event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:89
+msgid ""
+":ref:`add_child <class_Node_method_add_child>` **(** :ref:`Node "
+"<class_Node>` node, :ref:`bool <class_bool>` legible_unique_name=false "
+"**)**"
+msgstr ""
+":ref:`add_child <class_Node_method_add_child>` **(** :ref:`Node "
+"<class_Node>` node, :ref:`bool <class_bool>` legible_unique_name=false "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:91
+#, fuzzy
+msgid ""
+":ref:`add_child_below_node <class_Node_method_add_child_below_node>` "
+"**(** :ref:`Node <class_Node>` preceding_node, :ref:`Node <class_Node>` "
+"node, :ref:`bool <class_bool>` legible_unique_name=false **)**"
+msgstr ""
+":ref:`add_child_below_node <class_Node_method_add_child_below_node>` "
+"**(** :ref:`Node <class_Node>` node, :ref:`Node <class_Node>` child_node,"
+" :ref:`bool <class_bool>` legible_unique_name=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:93
+#, fuzzy
+msgid ""
+":ref:`add_to_group <class_Node_method_add_to_group>` **(** "
+":ref:`StringName <class_StringName>` group, :ref:`bool <class_bool>` "
+"persistent=false **)**"
+msgstr ""
+":ref:`add_to_group <class_Node_method_add_to_group>` **(** :ref:`String "
+"<class_String>` group, :ref:`bool <class_bool>` persistent=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:133
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:145
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:147
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:159
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:161
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:163
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:165
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:167
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:95
+msgid ":ref:`can_process <class_Node_method_can_process>` **(** **)** const"
+msgstr ":ref:`can_process <class_Node_method_can_process>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:97
+msgid ""
+":ref:`duplicate <class_Node_method_duplicate>` **(** :ref:`int "
+"<class_int>` flags=15 **)** const"
+msgstr ""
+":ref:`duplicate <class_Node_method_duplicate>` **(** :ref:`int "
+"<class_int>` flags=15 **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:99
+msgid ""
+":ref:`find_node <class_Node_method_find_node>` **(** :ref:`String "
+"<class_String>` mask, :ref:`bool <class_bool>` recursive=true, :ref:`bool"
+" <class_bool>` owned=true **)** const"
+msgstr ""
+":ref:`find_node <class_Node_method_find_node>` **(** :ref:`String "
+"<class_String>` mask, :ref:`bool <class_bool>` recursive=true, :ref:`bool"
+" <class_bool>` owned=true **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:101
+msgid ""
+":ref:`find_parent <class_Node_method_find_parent>` **(** :ref:`String "
+"<class_String>` mask **)** const"
+msgstr ""
+":ref:`find_parent <class_Node_method_find_parent>` **(** :ref:`String "
+"<class_String>` mask **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:103
+msgid ""
+":ref:`get_child <class_Node_method_get_child>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+":ref:`get_child <class_Node_method_get_child>` **(** :ref:`int "
+"<class_int>` idx **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:105
+msgid ""
+":ref:`get_child_count <class_Node_method_get_child_count>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_child_count <class_Node_method_get_child_count>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:109
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:117
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:107
+msgid ":ref:`get_children <class_Node_method_get_children>` **(** **)** const"
+msgstr ":ref:`get_children <class_Node_method_get_children>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:109
+msgid ":ref:`get_groups <class_Node_method_get_groups>` **(** **)** const"
+msgstr ":ref:`get_groups <class_Node_method_get_groups>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:111
+msgid ":ref:`get_index <class_Node_method_get_index>` **(** **)** const"
+msgstr ":ref:`get_index <class_Node_method_get_index>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:113
+msgid ""
+":ref:`get_network_master <class_Node_method_get_network_master>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_network_master <class_Node_method_get_network_master>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:115
+msgid ""
+":ref:`get_node <class_Node_method_get_node>` **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+":ref:`get_node <class_Node_method_get_node>` **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:117
+msgid ""
+":ref:`get_node_and_resource <class_Node_method_get_node_and_resource>` "
+"**(** :ref:`NodePath <class_NodePath>` path **)**"
+msgstr ""
+":ref:`get_node_and_resource <class_Node_method_get_node_and_resource>` "
+"**(** :ref:`NodePath <class_NodePath>` path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:119
+msgid ""
+":ref:`get_node_or_null <class_Node_method_get_node_or_null>` **(** "
+":ref:`NodePath <class_NodePath>` path **)** const"
+msgstr ""
+":ref:`get_node_or_null <class_Node_method_get_node_or_null>` **(** "
+":ref:`NodePath <class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:121
+msgid ":ref:`get_parent <class_Node_method_get_parent>` **(** **)** const"
+msgstr ":ref:`get_parent <class_Node_method_get_parent>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:125
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ":ref:`NodePath <class_NodePath>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:123
+msgid ":ref:`get_path <class_Node_method_get_path>` **(** **)** const"
+msgstr ":ref:`get_path <class_Node_method_get_path>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:125
+msgid ""
+":ref:`get_path_to <class_Node_method_get_path_to>` **(** :ref:`Node "
+"<class_Node>` node **)** const"
+msgstr ""
+":ref:`get_path_to <class_Node_method_get_path_to>` **(** :ref:`Node "
+"<class_Node>` node **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:131
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:127
+msgid ""
+":ref:`get_physics_process_delta_time "
+"<class_Node_method_get_physics_process_delta_time>` **(** **)** const"
+msgstr ""
+":ref:`get_physics_process_delta_time "
+"<class_Node_method_get_physics_process_delta_time>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:129
+msgid ""
+":ref:`get_position_in_parent <class_Node_method_get_position_in_parent>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_position_in_parent <class_Node_method_get_position_in_parent>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:131
+msgid ""
+":ref:`get_process_delta_time <class_Node_method_get_process_delta_time>` "
+"**(** **)** const"
+msgstr ""
+":ref:`get_process_delta_time <class_Node_method_get_process_delta_time>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:133
+msgid ""
+":ref:`get_scene_instance_load_placeholder "
+"<class_Node_method_get_scene_instance_load_placeholder>` **(** **)** "
+"const"
+msgstr ""
+":ref:`get_scene_instance_load_placeholder "
+"<class_Node_method_get_scene_instance_load_placeholder>` **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:135
+msgid ":ref:`SceneTree <class_SceneTree>`"
+msgstr ":ref:`SceneTree <class_SceneTree>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:135
+msgid ":ref:`get_tree <class_Node_method_get_tree>` **(** **)** const"
+msgstr ":ref:`get_tree <class_Node_method_get_tree>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:137
+msgid ":ref:`Viewport <class_Viewport>`"
+msgstr ":ref:`Viewport <class_Viewport>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:137
+msgid ":ref:`get_viewport <class_Node_method_get_viewport>` **(** **)** const"
+msgstr ":ref:`get_viewport <class_Node_method_get_viewport>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:139
+msgid ""
+":ref:`has_node <class_Node_method_has_node>` **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+":ref:`has_node <class_Node_method_has_node>` **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:141
+msgid ""
+":ref:`has_node_and_resource <class_Node_method_has_node_and_resource>` "
+"**(** :ref:`NodePath <class_NodePath>` path **)** const"
+msgstr ""
+":ref:`has_node_and_resource <class_Node_method_has_node_and_resource>` "
+"**(** :ref:`NodePath <class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:143
+msgid ""
+":ref:`is_a_parent_of <class_Node_method_is_a_parent_of>` **(** :ref:`Node"
+" <class_Node>` node **)** const"
+msgstr ""
+":ref:`is_a_parent_of <class_Node_method_is_a_parent_of>` **(** :ref:`Node"
+" <class_Node>` node **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:145
+msgid ""
+":ref:`is_displayed_folded <class_Node_method_is_displayed_folded>` **(** "
+"**)** const"
+msgstr ""
+":ref:`is_displayed_folded <class_Node_method_is_displayed_folded>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:147
+msgid ""
+":ref:`is_greater_than <class_Node_method_is_greater_than>` **(** "
+":ref:`Node <class_Node>` node **)** const"
+msgstr ""
+":ref:`is_greater_than <class_Node_method_is_greater_than>` **(** "
+":ref:`Node <class_Node>` node **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:149
+#, fuzzy
+msgid ""
+":ref:`is_in_group <class_Node_method_is_in_group>` **(** :ref:`StringName"
+" <class_StringName>` group **)** const"
+msgstr ""
+":ref:`is_in_group <class_Node_method_is_in_group>` **(** :ref:`String "
+"<class_String>` group **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:151
+msgid ":ref:`is_inside_tree <class_Node_method_is_inside_tree>` **(** **)** const"
+msgstr ":ref:`is_inside_tree <class_Node_method_is_inside_tree>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:153
+msgid ""
+":ref:`is_network_master <class_Node_method_is_network_master>` **(** "
+"**)** const"
+msgstr ""
+":ref:`is_network_master <class_Node_method_is_network_master>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:155
+msgid ""
+":ref:`is_physics_processing <class_Node_method_is_physics_processing>` "
+"**(** **)** const"
+msgstr ""
+":ref:`is_physics_processing <class_Node_method_is_physics_processing>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:157
+msgid ""
+":ref:`is_physics_processing_internal "
+"<class_Node_method_is_physics_processing_internal>` **(** **)** const"
+msgstr ""
+":ref:`is_physics_processing_internal "
+"<class_Node_method_is_physics_processing_internal>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:159
+msgid ":ref:`is_processing <class_Node_method_is_processing>` **(** **)** const"
+msgstr ":ref:`is_processing <class_Node_method_is_processing>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:161
+msgid ""
+":ref:`is_processing_input <class_Node_method_is_processing_input>` **(** "
+"**)** const"
+msgstr ""
+":ref:`is_processing_input <class_Node_method_is_processing_input>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:163
+msgid ""
+":ref:`is_processing_internal <class_Node_method_is_processing_internal>` "
+"**(** **)** const"
+msgstr ""
+":ref:`is_processing_internal <class_Node_method_is_processing_internal>` "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:165
+msgid ""
+":ref:`is_processing_unhandled_input "
+"<class_Node_method_is_processing_unhandled_input>` **(** **)** const"
+msgstr ""
+":ref:`is_processing_unhandled_input "
+"<class_Node_method_is_processing_unhandled_input>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:167
+msgid ""
+":ref:`is_processing_unhandled_key_input "
+"<class_Node_method_is_processing_unhandled_key_input>` **(** **)** const"
+msgstr ""
+":ref:`is_processing_unhandled_key_input "
+"<class_Node_method_is_processing_unhandled_key_input>` **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:169
+msgid ""
+":ref:`move_child <class_Node_method_move_child>` **(** :ref:`Node "
+"<class_Node>` child_node, :ref:`int <class_int>` to_position **)**"
+msgstr ""
+":ref:`move_child <class_Node_method_move_child>` **(** :ref:`Node "
+"<class_Node>` child_node, :ref:`int <class_int>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:171
+msgid ":ref:`print_stray_nodes <class_Node_method_print_stray_nodes>` **(** **)**"
+msgstr ":ref:`print_stray_nodes <class_Node_method_print_stray_nodes>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:173
+msgid ":ref:`print_tree <class_Node_method_print_tree>` **(** **)**"
+msgstr ":ref:`print_tree <class_Node_method_print_tree>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:175
+msgid ":ref:`print_tree_pretty <class_Node_method_print_tree_pretty>` **(** **)**"
+msgstr ":ref:`print_tree_pretty <class_Node_method_print_tree_pretty>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:177
+#, fuzzy
+msgid ""
+":ref:`propagate_call <class_Node_method_propagate_call>` **(** "
+":ref:`StringName <class_StringName>` method, :ref:`Array <class_Array>` "
+"args=[  ], :ref:`bool <class_bool>` parent_first=false **)**"
+msgstr ""
+":ref:`propagate_call <class_Node_method_propagate_call>` **(** "
+":ref:`String <class_String>` method, :ref:`Array <class_Array>` args=[  "
+"], :ref:`bool <class_bool>` parent_first=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:179
+msgid ""
+":ref:`propagate_notification <class_Node_method_propagate_notification>` "
+"**(** :ref:`int <class_int>` what **)**"
+msgstr ""
+":ref:`propagate_notification <class_Node_method_propagate_notification>` "
+"**(** :ref:`int <class_int>` what **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:181
+msgid ":ref:`queue_free <class_Node_method_queue_free>` **(** **)**"
+msgstr ":ref:`queue_free <class_Node_method_queue_free>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:183
+msgid ":ref:`raise <class_Node_method_raise>` **(** **)**"
+msgstr ":ref:`raise <class_Node_method_raise>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:185
+msgid ":ref:`remove_and_skip <class_Node_method_remove_and_skip>` **(** **)**"
+msgstr ":ref:`remove_and_skip <class_Node_method_remove_and_skip>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:187
+msgid ""
+":ref:`remove_child <class_Node_method_remove_child>` **(** :ref:`Node "
+"<class_Node>` node **)**"
+msgstr ""
+":ref:`remove_child <class_Node_method_remove_child>` **(** :ref:`Node "
+"<class_Node>` node **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:189
+#, fuzzy
+msgid ""
+":ref:`remove_from_group <class_Node_method_remove_from_group>` **(** "
+":ref:`StringName <class_StringName>` group **)**"
+msgstr ""
+":ref:`remove_from_group <class_Node_method_remove_from_group>` **(** "
+":ref:`String <class_String>` group **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:191
+msgid ""
+":ref:`replace_by <class_Node_method_replace_by>` **(** :ref:`Node "
+"<class_Node>` node, :ref:`bool <class_bool>` keep_data=false **)**"
+msgstr ""
+":ref:`replace_by <class_Node_method_replace_by>` **(** :ref:`Node "
+"<class_Node>` node, :ref:`bool <class_bool>` keep_data=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:193
+msgid ":ref:`request_ready <class_Node_method_request_ready>` **(** **)**"
+msgstr ":ref:`request_ready <class_Node_method_request_ready>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:195
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:199
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:201
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:203
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ":ref:`Variant <class_Variant>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:195
+#, fuzzy
+msgid ""
+":ref:`rpc <class_Node_method_rpc>` **(** :ref:`StringName "
+"<class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`rpc <class_Node_method_rpc>` **(** :ref:`String <class_String>` "
+"method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:197
+#, fuzzy
+msgid ""
+":ref:`rpc_config <class_Node_method_rpc_config>` **(** :ref:`StringName "
+"<class_StringName>` method, :ref:`RPCMode <enum_MultiplayerAPI_RPCMode>` "
+"mode **)**"
+msgstr ""
+":ref:`rpc_config <class_Node_method_rpc_config>` **(** :ref:`String "
+"<class_String>` method, :ref:`RPCMode <enum_MultiplayerAPI_RPCMode>` mode"
+" **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:199
+#, fuzzy
+msgid ""
+":ref:`rpc_id <class_Node_method_rpc_id>` **(** :ref:`int <class_int>` "
+"peer_id, :ref:`StringName <class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`rpc_id <class_Node_method_rpc_id>` **(** :ref:`int <class_int>` "
+"peer_id, :ref:`String <class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:201
+#, fuzzy
+msgid ""
+":ref:`rpc_unreliable <class_Node_method_rpc_unreliable>` **(** "
+":ref:`StringName <class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`rpc_unreliable <class_Node_method_rpc_unreliable>` **(** "
+":ref:`String <class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:203
+#, fuzzy
+msgid ""
+":ref:`rpc_unreliable_id <class_Node_method_rpc_unreliable_id>` **(** "
+":ref:`int <class_int>` peer_id, :ref:`StringName <class_StringName>` "
+"method, ... **)** vararg"
+msgstr ""
+":ref:`rpc_unreliable_id <class_Node_method_rpc_unreliable_id>` **(** "
+":ref:`int <class_int>` peer_id, :ref:`String <class_String>` method, ... "
+"**)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:205
+#, fuzzy
+msgid ""
+":ref:`rset <class_Node_method_rset>` **(** :ref:`StringName "
+"<class_StringName>` property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+":ref:`rset <class_Node_method_rset>` **(** :ref:`String <class_String>` "
+"property, :ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:207
+#, fuzzy
+msgid ""
+":ref:`rset_config <class_Node_method_rset_config>` **(** :ref:`StringName"
+" <class_StringName>` property, :ref:`RPCMode "
+"<enum_MultiplayerAPI_RPCMode>` mode **)**"
+msgstr ""
+":ref:`rset_config <class_Node_method_rset_config>` **(** :ref:`String "
+"<class_String>` property, :ref:`RPCMode <enum_MultiplayerAPI_RPCMode>` "
+"mode **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:209
+#, fuzzy
+msgid ""
+":ref:`rset_id <class_Node_method_rset_id>` **(** :ref:`int <class_int>` "
+"peer_id, :ref:`StringName <class_StringName>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+":ref:`rset_id <class_Node_method_rset_id>` **(** :ref:`int <class_int>` "
+"peer_id, :ref:`String <class_String>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:211
+#, fuzzy
+msgid ""
+":ref:`rset_unreliable <class_Node_method_rset_unreliable>` **(** "
+":ref:`StringName <class_StringName>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+":ref:`rset_unreliable <class_Node_method_rset_unreliable>` **(** "
+":ref:`String <class_String>` property, :ref:`Variant <class_Variant>` "
+"value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:213
+#, fuzzy
+msgid ""
+":ref:`rset_unreliable_id <class_Node_method_rset_unreliable_id>` **(** "
+":ref:`int <class_int>` peer_id, :ref:`StringName <class_StringName>` "
+"property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+":ref:`rset_unreliable_id <class_Node_method_rset_unreliable_id>` **(** "
+":ref:`int <class_int>` peer_id, :ref:`String <class_String>` property, "
+":ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:215
+msgid ""
+":ref:`set_display_folded <class_Node_method_set_display_folded>` **(** "
+":ref:`bool <class_bool>` fold **)**"
+msgstr ""
+":ref:`set_display_folded <class_Node_method_set_display_folded>` **(** "
+":ref:`bool <class_bool>` fold **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:217
+msgid ""
+":ref:`set_network_master <class_Node_method_set_network_master>` **(** "
+":ref:`int <class_int>` id, :ref:`bool <class_bool>` recursive=true **)**"
+msgstr ""
+":ref:`set_network_master <class_Node_method_set_network_master>` **(** "
+":ref:`int <class_int>` id, :ref:`bool <class_bool>` recursive=true **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:219
+msgid ""
+":ref:`set_physics_process <class_Node_method_set_physics_process>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+":ref:`set_physics_process <class_Node_method_set_physics_process>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:221
+msgid ""
+":ref:`set_physics_process_internal "
+"<class_Node_method_set_physics_process_internal>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_physics_process_internal "
+"<class_Node_method_set_physics_process_internal>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:223
+msgid ""
+":ref:`set_process <class_Node_method_set_process>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_process <class_Node_method_set_process>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:225
+msgid ""
+":ref:`set_process_input <class_Node_method_set_process_input>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+":ref:`set_process_input <class_Node_method_set_process_input>` **(** "
+":ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:227
+msgid ""
+":ref:`set_process_internal <class_Node_method_set_process_internal>` "
+"**(** :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+":ref:`set_process_internal <class_Node_method_set_process_internal>` "
+"**(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:229
+msgid ""
+":ref:`set_process_unhandled_input "
+"<class_Node_method_set_process_unhandled_input>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_process_unhandled_input "
+"<class_Node_method_set_process_unhandled_input>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:231
+msgid ""
+":ref:`set_process_unhandled_key_input "
+"<class_Node_method_set_process_unhandled_key_input>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+msgstr ""
+":ref:`set_process_unhandled_key_input "
+"<class_Node_method_set_process_unhandled_key_input>` **(** :ref:`bool "
+"<class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:233
+msgid ""
+":ref:`set_scene_instance_load_placeholder "
+"<class_Node_method_set_scene_instance_load_placeholder>` **(** :ref:`bool"
+" <class_bool>` load_placeholder **)**"
+msgstr ""
+":ref:`set_scene_instance_load_placeholder "
+"<class_Node_method_set_scene_instance_load_placeholder>` **(** :ref:`bool"
+" <class_bool>` load_placeholder **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:235
+msgid ""
+":ref:`update_configuration_warning "
+"<class_Node_method_update_configuration_warning>` **(** **)**"
+msgstr ""
+":ref:`update_configuration_warning "
+"<class_Node_method_update_configuration_warning>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:239
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:243
+msgid "**ready** **(** **)**"
+msgstr "**ready** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:245
+msgid "Emitted when the node is ready."
+msgstr "当节点准备就绪时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:251
+msgid "**renamed** **(** **)**"
+msgstr "**renamed** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:253
+msgid "Emitted when the node is renamed."
+msgstr "当重命名节点时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:259
+msgid "**tree_entered** **(** **)**"
+msgstr "**tree_entered** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:261
+msgid "Emitted when the node enters the tree."
+msgstr "当节点进入树时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:267
+msgid "**tree_exited** **(** **)**"
+msgstr "**tree_exited** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:269
+msgid "Emitted after the node exits the tree and is no longer active."
+msgstr "在节点退出树，并且不再处于活动状态之后，发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:275
+msgid "**tree_exiting** **(** **)**"
+msgstr "**tree_exiting** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:277
+msgid ""
+"Emitted when the node is still active but about to exit the tree. This is"
+" the right place for de-initialization (or a \"destructor\", if you "
+"will)."
+msgstr "在节点仍处于活动状态但即将退出树时发出。这是取消初始化（或者，如果需要的话，也可以是 ``析构函数``）的正确位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:280
+msgid "Enumerations"
+msgstr "枚举"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:290
+msgid "enum **PauseMode**:"
+msgstr "枚举 **PauseMode**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:292
+msgid ""
+"**PAUSE_MODE_INHERIT** = **0** --- Inherits pause mode from the node's "
+"parent. For the root node, it is equivalent to :ref:`PAUSE_MODE_STOP "
+"<class_Node_constant_PAUSE_MODE_STOP>`. Default."
+msgstr ""
+"**PAUSE_MODE_INHERIT** = **0** —— 从节点的父级继承暂停模式。对于根节点，它等效于 "
+":ref:`PAUSE_MODE_STOP <class_Node_constant_PAUSE_MODE_STOP>`。默认。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:294
+msgid ""
+"**PAUSE_MODE_STOP** = **1** --- Stops processing when the :ref:`SceneTree"
+" <class_SceneTree>` is paused."
+msgstr ""
+"**PAUSE_MODE_STOP** = **1** —— 当 :ref:`SceneTree <class_SceneTree>` "
+"暂停时，停止处理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:296
+msgid ""
+"**PAUSE_MODE_PROCESS** = **2** --- Continue to process regardless of the "
+":ref:`SceneTree <class_SceneTree>` pause state."
+msgstr ""
+"**PAUSE_MODE_PROCESS** = **2** —— 继续处理，无论 :ref:`SceneTree "
+"<class_SceneTree>` 暂停状态如何。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:310
+msgid "enum **DuplicateFlags**:"
+msgstr "枚举 **DuplicateFlags**："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:312
+msgid "**DUPLICATE_SIGNALS** = **1** --- Duplicate the node's signals."
+msgstr "**DUPLICATE_SIGNALS** = **1** —— 复制节点的信号。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:314
+msgid "**DUPLICATE_GROUPS** = **2** --- Duplicate the node's groups."
+msgstr "**DUPLICATE_GROUPS** = **2** —— 复制节点的编组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:316
+msgid "**DUPLICATE_SCRIPTS** = **4** --- Duplicate the node's scripts."
+msgstr "**DUPLICATE_SCRIPTS** = **4** —— 复制节点的脚本。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:318
+msgid "**DUPLICATE_USE_INSTANCING** = **8** --- Duplicate using instancing."
+msgstr "**DUPLICATE_USE_INSTANCING** = **8** —— 使用实例复制。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:320
+msgid ""
+"An instance stays linked to the original so when the original changes, "
+"the instance changes too."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:323
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:385
+msgid ""
+"**NOTIFICATION_ENTER_TREE** = **10** --- Notification received when the "
+"node enters a :ref:`SceneTree <class_SceneTree>`."
+msgstr ""
+"**NOTIFICATION_ENTER_TREE** = **10** —— 节点进入 :ref:`SceneTree "
+"<class_SceneTree>` 时收到的通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:387
+msgid ""
+"**NOTIFICATION_EXIT_TREE** = **11** --- Notification received when the "
+"node is about to exit a :ref:`SceneTree <class_SceneTree>`."
+msgstr ""
+"**NOTIFICATION_EXIT_TREE** = **11** —— 当节点即将退出 :ref:`SceneTree "
+"<class_SceneTree>` 时收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:389
+msgid ""
+"**NOTIFICATION_MOVED_IN_PARENT** = **12** --- Notification received when "
+"the node is moved in the parent."
+msgstr "**NOTIFICATION_MOVED_IN_PARENT** = **12** —— 当节点在父节点中移动时收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:391
+msgid ""
+"**NOTIFICATION_READY** = **13** --- Notification received when the node "
+"is ready. See :ref:`_ready <class_Node_method__ready>`."
+msgstr ""
+"**NOTIFICATION_READY** = **13** —— 节点准备就绪时收到通知。参见 :ref:`_ready "
+"<class_Node_method__ready>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:393
+msgid ""
+"**NOTIFICATION_PAUSED** = **14** --- Notification received when the node "
+"is paused."
+msgstr "**NOTIFICATION_PAUSED** = **14** —— 节点暂停时收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:395
+msgid ""
+"**NOTIFICATION_UNPAUSED** = **15** --- Notification received when the "
+"node is unpaused."
+msgstr "**NOTIFICATION_UNPAUSED** = **15** —— 节点取消暂停时收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:397
+msgid ""
+"**NOTIFICATION_PHYSICS_PROCESS** = **16** --- Notification received every"
+" frame when the physics process flag is set (see "
+":ref:`set_physics_process <class_Node_method_set_physics_process>`)."
+msgstr ""
+"**NOTIFICATION_PHYSICS_PROCESS** = **16** —— 当设置了物理过程标记时，每帧都会收到通知（请参阅 "
+":ref:`set_physics_process <class_Node_method_set_physics_process>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:399
+msgid ""
+"**NOTIFICATION_PROCESS** = **17** --- Notification received every frame "
+"when the process flag is set (see :ref:`set_process "
+"<class_Node_method_set_process>`)."
+msgstr ""
+"**NOTIFICATION_PROCESS** = **17** —— 当设置了处理标志时，每帧都会收到通知（请参阅 "
+":ref:`set_process <class_Node_method_set_process>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:401
+msgid ""
+"**NOTIFICATION_PARENTED** = **18** --- Notification received when a node "
+"is set as a child of another node."
+msgstr "**NOTIFICATION_PARENTED** = **18** —— 当一个节点，设置为另一个节点的子节点时，收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:403
+msgid ""
+"**Note:** This doesn't mean that a node entered the :ref:`SceneTree "
+"<class_SceneTree>`."
+msgstr "**注意**：这并不意味着一个节点进入了 :ref:`SceneTree <class_SceneTree>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:405
+msgid ""
+"**NOTIFICATION_UNPARENTED** = **19** --- Notification received when a "
+"node is unparented (parent removed it from the list of children)."
+msgstr "**NOTIFICATION_UNPARENTED** = **19** —— 当将节点取消父级（父级将其从子级列表中删除）时，收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:407
+msgid ""
+"**NOTIFICATION_INSTANCED** = **20** --- Notification received when the "
+"node is instanced."
+msgstr "**NOTIFICATION_INSTANCED** = **20** —— 当实例化节点时，收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:409
+msgid ""
+"**NOTIFICATION_DRAG_BEGIN** = **21** --- Notification received when a "
+"drag begins."
+msgstr "**NOTIFICATION_DRAG_BEGIN** = **21** —— 当开始拖动时，收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:411
+msgid ""
+"**NOTIFICATION_DRAG_END** = **22** --- Notification received when a drag "
+"ends."
+msgstr "**NOTIFICATION_DRAG_END** = **22** —— 当拖动结束时收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:413
+msgid ""
+"**NOTIFICATION_PATH_CHANGED** = **23** --- Notification received when the"
+" node's :ref:`NodePath <class_NodePath>` changed."
+msgstr ""
+"**NOTIFICATION_PATH_CHANGED** = **23** —— 节点的 :ref:`NodePath "
+"<class_NodePath>` 更改时收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:415
+msgid ""
+"**NOTIFICATION_INTERNAL_PROCESS** = **25** --- Notification received "
+"every frame when the internal process flag is set (see "
+":ref:`set_process_internal <class_Node_method_set_process_internal>`)."
+msgstr ""
+"**NOTIFICATION_INTERNAL_PROCESS** = **25** —— 设置内部进程标志时，每帧都会收到通知（请参阅 "
+":ref:`set_process_internal <class_Node_method_set_process_internal>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:417
+msgid ""
+"**NOTIFICATION_INTERNAL_PHYSICS_PROCESS** = **26** --- Notification "
+"received every frame when the internal physics process flag is set (see "
+":ref:`set_physics_process_internal "
+"<class_Node_method_set_physics_process_internal>`)."
+msgstr ""
+"**NOTIFICATION_INTERNAL_PHYSICS_PROCESS** = **26** —— "
+"设置内部物理过程标志时，每帧都会收到通知（请参阅 :ref:`set_physics_process_internal "
+"<class_Node_method_set_physics_process_internal>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:419
+msgid ""
+"**NOTIFICATION_WM_MOUSE_ENTER** = **1002** --- Notification received from"
+" the OS when the mouse enters the game window."
+msgstr "**NOTIFICATION_WM_MOUSE_ENTER** = **1002** —— 当鼠标进入游戏窗口时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:421
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:425
+msgid "Implemented on desktop and web platforms."
+msgstr "在桌面和Web平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:423
+msgid ""
+"**NOTIFICATION_WM_MOUSE_EXIT** = **1003** --- Notification received from "
+"the OS when the mouse leaves the game window."
+msgstr "**NOTIFICATION_WM_MOUSE_EXIT** = **1003** —— 当鼠标离开游戏窗口时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:427
+msgid ""
+"**NOTIFICATION_WM_FOCUS_IN** = **1004** --- Notification received from "
+"the OS when the game window is focused."
+msgstr "**NOTIFICATION_WM_FOCUS_IN** = **1004** —— 聚焦游戏窗口时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:429
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:433
+msgid "Implemented on all platforms."
+msgstr "在所有平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:431
+msgid ""
+"**NOTIFICATION_WM_FOCUS_OUT** = **1005** --- Notification received from "
+"the OS when the game window is unfocused."
+msgstr "**NOTIFICATION_WM_FOCUS_OUT** = **1005** —— 当游戏窗口未聚焦时，会从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:435
+msgid ""
+"**NOTIFICATION_WM_QUIT_REQUEST** = **1006** --- Notification received "
+"from the OS when a quit request is sent (e.g. closing the window with a "
+"\"Close\" button or Alt+F4)."
+msgstr ""
+"**NOTIFICATION_WM_QUIT_REQUEST** = **1006** —— 发送退出请求时（例如，使用关闭按钮、或Alt + "
+"F4关闭窗口），从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:437
+msgid "Implemented on desktop platforms."
+msgstr "在桌面平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:439
+msgid ""
+"**NOTIFICATION_WM_GO_BACK_REQUEST** = **1007** --- Notification received "
+"from the OS when a go back request is sent (e.g. pressing the \"Back\" "
+"button on Android)."
+msgstr ""
+"**NOTIFICATION_WM_GO_BACK_REQUEST** = **1007** —— "
+"发送回退请求时（例如，按Android上的后退按钮），从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:441
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:467
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:471
+msgid "Specific to the Android platform."
+msgstr "特定于Android平台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:443
+msgid ""
+"**NOTIFICATION_WM_UNFOCUS_REQUEST** = **1008** --- Notification received "
+"from the OS when an unfocus request is sent (e.g. another OS window wants"
+" to take the focus)."
+msgstr ""
+"**NOTIFICATION_WM_UNFOCUS_REQUEST** = **1008** —— "
+"当发送取消聚焦请求时（例如，另一个操作系统窗口希望获得焦点），从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:445
+msgid "No supported platforms currently send this notification."
+msgstr "当前没有支持的平台，发送此通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:447
+msgid ""
+"**NOTIFICATION_OS_MEMORY_WARNING** = **1009** --- Notification received "
+"from the OS when the application is exceeding its allocated memory."
+msgstr "**NOTIFICATION_OS_MEMORY_WARNING** = **1009** —— 当应用程序超出其分配的内存时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:449
+msgid "Specific to the iOS platform."
+msgstr "特定于iOS平台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:451
+msgid ""
+"**NOTIFICATION_TRANSLATION_CHANGED** = **1010** --- Notification received"
+" when translations may have changed. Can be triggered by the user "
+"changing the locale. Can be used to respond to language changes, for "
+"example to change the UI strings on the fly. Useful when working with the"
+" built-in translation support, like :ref:`Object.tr "
+"<class_Object_method_tr>`."
+msgstr ""
+"**NOTIFICATION_TRANSLATION_CHANGED** = **1010** —— "
+"翻译可能已更改时，收到通知。可以由用户更改区域设置来触发。可用于响应语言更改，例如即时更改UI字符串。在使用内置翻译支持（如 "
+":ref:`Object.tr <class_Object_method_tr>`）时，有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:453
+msgid ""
+"**NOTIFICATION_WM_ABOUT** = **1011** --- Notification received from the "
+"OS when a request for \"About\" information is sent."
+msgstr ""
+"**NOTIFICATION_WM_ABOUT** = **1011** —— 发送有关 ``关于（About）`` "
+"信息的请求时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:455
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:463
+msgid "Specific to the macOS platform."
+msgstr "特定于macOS平台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:457
+msgid ""
+"**NOTIFICATION_CRASH** = **1012** --- Notification received from Godot's "
+"crash handler when the engine is about to crash."
+msgstr "**NOTIFICATION_CRASH** = **1012** —— 当引擎即将崩溃时，从Godot的崩溃处理程序收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:459
+msgid "Implemented on desktop platforms if the crash handler is enabled."
+msgstr "如果启用了崩溃处理程序，则在桌面平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:461
+msgid ""
+"**NOTIFICATION_OS_IME_UPDATE** = **1013** --- Notification received from "
+"the OS when an update of the Input Method Engine occurs (e.g. change of "
+"IME cursor position or composition string)."
+msgstr ""
+"**NOTIFICATION_OS_IME_UPDATE** = **1013** —— "
+"发生输入法引擎更新时，从操作系统收到的通知（例如，IME光标位置或组成字符串的更改）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:465
+msgid ""
+"**NOTIFICATION_APP_RESUMED** = **1014** --- Notification received from "
+"the OS when the app is resumed."
+msgstr "**NOTIFICATION_APP_RESUMED** = **1014** —— 当恢复应用时，会从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:469
+msgid ""
+"**NOTIFICATION_APP_PAUSED** = **1015** --- Notification received from the"
+" OS when the app is paused."
+msgstr "**NOTIFICATION_APP_PAUSED** = **1015** —— 当暂停应用程序时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:474
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:478
+msgid ":ref:`MultiplayerAPI <class_MultiplayerAPI>` **custom_multiplayer**"
+msgstr ":ref:`MultiplayerAPI <class_MultiplayerAPI>` **custom_multiplayer**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:481
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:495
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:521
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:535
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:551
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:567
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:481
+msgid "set_custom_multiplayer(value)"
+msgstr "set_custom_multiplayer(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:483
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:497
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:509
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:523
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:537
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:553
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:569
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:483
+msgid "get_custom_multiplayer()"
+msgstr "get_custom_multiplayer()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:486
+msgid ""
+"The override to the default :ref:`MultiplayerAPI <class_MultiplayerAPI>`."
+" Set to ``null`` to use the default :ref:`SceneTree <class_SceneTree>` "
+"one."
+msgstr ""
+"重写默认的 :ref:`MultiplayerAPI <class_MultiplayerAPI>`。设置为 ``null`` 以使用默认的 "
+":ref:`SceneTree <class_SceneTree>` 的那个。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:492
+msgid ":ref:`String <class_String>` **filename**"
+msgstr ":ref:`String <class_String>` **filename**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:495
+msgid "set_filename(value)"
+msgstr "set_filename(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:497
+msgid "get_filename()"
+msgstr "get_filename()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:500
+msgid ""
+"When a scene is instanced from a file, its topmost node contains the "
+"filename from which it was loaded."
+msgstr "从一个文件实例化一个场景时，场景的最上层节点，包含它从何处加载的文件名。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:506
+msgid ":ref:`MultiplayerAPI <class_MultiplayerAPI>` **multiplayer**"
+msgstr ":ref:`MultiplayerAPI <class_MultiplayerAPI>` **multiplayer**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:509
+msgid "get_multiplayer()"
+msgstr "get_multiplayer()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:512
+msgid ""
+"The :ref:`MultiplayerAPI <class_MultiplayerAPI>` instance associated with"
+" this node. Either the :ref:`custom_multiplayer "
+"<class_Node_property_custom_multiplayer>`, or the default SceneTree one "
+"(if inside tree)."
+msgstr ""
+"与此节点关联的 :ref:`MultiplayerAPI <class_MultiplayerAPI>` "
+"实例。:ref:`custom_multiplayer <class_Node_property_custom_multiplayer>` "
+"或默认的SceneTree的那个（如果在树中），两者中的任一个。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:518
+#, fuzzy
+msgid ":ref:`StringName <class_StringName>` **name**"
+msgstr ":ref:`String <class_String>` **name**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:521
+msgid "set_name(value)"
+msgstr "set_name(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:523
+msgid "get_name()"
+msgstr "get_name()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:526
+msgid ""
+"The name of the node. This name is unique among the siblings (other child"
+" nodes from the same parent). When set to an existing name, the node will"
+" be automatically renamed."
+msgstr "该节点的名称。此名称在同级兄弟（同一父级的其他子节点）之间是唯一的。当设置为一个现有名称时，该节点将自动重命名。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:532
+msgid ":ref:`Node <class_Node>` **owner**"
+msgstr ":ref:`Node <class_Node>` **owner**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:535
+msgid "set_owner(value)"
+msgstr "set_owner(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:537
+msgid "get_owner()"
+msgstr "get_owner()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:540
+msgid ""
+"The node owner. A node can have any other node as owner (as long as it is"
+" a valid parent, grandparent, etc. ascending in the tree). When saving a "
+"node (using :ref:`PackedScene <class_PackedScene>`), all the nodes it "
+"owns will be saved with it. This allows for the creation of complex "
+":ref:`SceneTree <class_SceneTree>`\\ s, with instancing and "
+"subinstancing."
+msgstr ""
+"该节点的所有者。一个节点可以具有任何其他节点作为所有者（只要它是在树中升序的有效父级，祖父级等）。保存节点时（使用 "
+":ref:`PackedScene "
+"<class_PackedScene>`），它拥有的所有节点都将与它一起保存。这允许使用实例化和子实例化，来创建复杂的 "
+":ref:`SceneTree <class_SceneTree>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:546
+msgid ":ref:`PauseMode <enum_Node_PauseMode>` **pause_mode**"
+msgstr ":ref:`PauseMode <enum_Node_PauseMode>` **pause_mode**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:549
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:565
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:551
+msgid "set_pause_mode(value)"
+msgstr "set_pause_mode(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:553
+msgid "get_pause_mode()"
+msgstr "get_pause_mode()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:556
+msgid ""
+"Pause mode. How the node will behave if the :ref:`SceneTree "
+"<class_SceneTree>` is paused."
+msgstr "暂停模式。如果暂停了 :ref:`SceneTree <class_SceneTree>`，则节点如何表现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:562
+msgid ":ref:`int <class_int>` **process_priority**"
+msgstr ":ref:`int <class_int>` **process_priority**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:567
+msgid "set_process_priority(value)"
+msgstr "set_process_priority(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:569
+msgid "get_process_priority()"
+msgstr "get_process_priority()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:572
+msgid ""
+"The node's priority in the execution order of the enabled processing "
+"callbacks (i.e. :ref:`NOTIFICATION_PROCESS "
+"<class_Node_constant_NOTIFICATION_PROCESS>`, "
+":ref:`NOTIFICATION_PHYSICS_PROCESS "
+"<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` and their internal "
+"counterparts). Nodes whose process priority value is *lower* will have "
+"their processing callbacks executed first."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:575
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:579
+msgid "void **_enter_tree** **(** **)** virtual"
+msgstr "void **_enter_tree** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:581
+msgid ""
+"Called when the node enters the :ref:`SceneTree <class_SceneTree>` (e.g. "
+"upon instancing, scene changing, or after calling :ref:`add_child "
+"<class_Node_method_add_child>` in a script). If the node has children, "
+"its :ref:`_enter_tree <class_Node_method__enter_tree>` callback will be "
+"called first, and then that of the children."
+msgstr ""
+"当节点进入 :ref:`SceneTree <class_SceneTree>` （例如实例化、场景更改、或在脚本中调用 "
+":ref:`add_child <class_Node_method_add_child>` 之后）时调用。如果节点有子节点，则将首先调用其 "
+":ref:`_enter_tree <class_Node_method__enter_tree>` 回调，然后再调用子节点的回调。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:583
+msgid ""
+"Corresponds to the :ref:`NOTIFICATION_ENTER_TREE "
+"<class_Node_constant_NOTIFICATION_ENTER_TREE>` notification in "
+":ref:`Object._notification <class_Object_method__notification>`."
+msgstr ""
+"对应于 :ref:`Object._notification <class_Object_method__notification>` 中的 "
+":ref:`NOTIFICATION_ENTER_TREE "
+"<class_Node_constant_NOTIFICATION_ENTER_TREE>` 通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:589
+msgid "void **_exit_tree** **(** **)** virtual"
+msgstr "void **_exit_tree** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:591
+msgid ""
+"Called when the node is about to leave the :ref:`SceneTree "
+"<class_SceneTree>` (e.g. upon freeing, scene changing, or after calling "
+":ref:`remove_child <class_Node_method_remove_child>` in a script). If the"
+" node has children, its :ref:`_exit_tree <class_Node_method__exit_tree>` "
+"callback will be called last, after all its children have left the tree."
+msgstr ""
+"当节点即将离开 :ref:`SceneTree <class_SceneTree>` 时调用（例如，在释放、更改场景、或在脚本中调用 "
+":ref:`remove_child <class_Node_method_remove_child>` "
+"之后）。如果节点有子节点，则它的所有子节点都离开树后，将最后调用它的 :ref:`_exit_tree "
+"<class_Node_method__exit_tree>` 回调。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:593
+#, fuzzy
+msgid ""
+"Corresponds to the :ref:`NOTIFICATION_EXIT_TREE "
+"<class_Node_constant_NOTIFICATION_EXIT_TREE>` notification in "
+":ref:`Object._notification <class_Object_method__notification>` and "
+"signal :ref:`tree_exiting <class_Node_signal_tree_exiting>`. To get "
+"notified when the node has already left the active tree, connect to the "
+":ref:`tree_exited <class_Node_signal_tree_exited>`."
+msgstr ""
+"对应于 :ref:`Object._notification <class_Object_method__notification>` 中的 "
+":ref:`NOTIFICATION_EXIT_TREE "
+"<class_Node_constant_NOTIFICATION_EXIT_TREE>` 通知，和 :ref:`tree_exiting "
+"<class_Node_signal_tree_exiting>` 信号。要在节点已经离开活动树时得到通知，请连接到 "
+":ref:`tree_exited <class_Node_signal_tree_exited>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:599
+msgid ""
+":ref:`String <class_String>` **_get_configuration_warning** **(** **)** "
+"virtual"
+msgstr ""
+":ref:`String <class_String>` **_get_configuration_warning** **(** **)** "
+"virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:601
+msgid ""
+"The string returned from this method is displayed as a warning in the "
+"Scene Dock if the script that overrides it is a ``tool`` script."
+msgstr "如果重写此方法的脚本是一个 ``tool`` 脚本，则此方法返回的字符串将在场景停靠面板中显示为警告。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:603
+msgid "Returning an empty string produces no warning."
+msgstr "返回一个空字符串不会产生任何警告。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:605
+msgid ""
+"Call :ref:`update_configuration_warning "
+"<class_Node_method_update_configuration_warning>` when the warning needs "
+"to be updated for this node."
+msgstr ""
+"当需要为此节点更新警告时，请调用 :ref:`update_configuration_warning "
+"<class_Node_method_update_configuration_warning>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:611
+msgid ""
+"void **_input** **(** :ref:`InputEvent <class_InputEvent>` event **)** "
+"virtual"
+msgstr ""
+"void **_input** **(** :ref:`InputEvent <class_InputEvent>` event **)** "
+"virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:613
+msgid ""
+"Called when there is an input event. The input event propagates up "
+"through the node tree until a node consumes it."
+msgstr "有输入事件时调用。输入事件在节点树中向上传播，直到一个节点将其消耗为止。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:615
+msgid ""
+"It is only called if input processing is enabled, which is done "
+"automatically if this method is overridden, and can be toggled with "
+":ref:`set_process_input <class_Node_method_set_process_input>`."
+msgstr ""
+"仅在启用输入处理的情况下才调用它，如果此方法被重写，它将自动完成启用，并且可以使用 :ref:`set_process_input "
+"<class_Node_method_set_process_input>` 来切换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:617
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:669
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:683
+msgid ""
+"To consume the input event and stop it propagating further to other "
+"nodes, :ref:`SceneTree.set_input_as_handled "
+"<class_SceneTree_method_set_input_as_handled>` can be called."
+msgstr ""
+"为了消耗输入事件并停止它传播到其他节点，可以调用 :ref:`SceneTree.set_input_as_handled "
+"<class_SceneTree_method_set_input_as_handled>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:619
+msgid ""
+"For gameplay input, :ref:`_unhandled_input "
+"<class_Node_method__unhandled_input>` and :ref:`_unhandled_key_input "
+"<class_Node_method__unhandled_key_input>` are usually a better fit as "
+"they allow the GUI to intercept the events first."
+msgstr ""
+"对于游戏输入，通常 :ref:`_unhandled_input <class_Node_method__unhandled_input>` 和 "
+":ref:`_unhandled_key_input <class_Node_method__unhandled_key_input>` "
+"比较合适，因为它们允许GUI首先截获事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:625
+msgid ""
+"void **_physics_process** **(** :ref:`float <class_float>` delta **)** "
+"virtual"
+msgstr ""
+"void **_physics_process** **(** :ref:`float <class_float>` delta **)** "
+"virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:627
+msgid ""
+"Called during the physics processing step of the main loop. Physics "
+"processing means that the frame rate is synced to the physics, i.e. the "
+"``delta`` variable should be constant."
+msgstr "在主循环的物理处理步骤中调用。物理处理意味着将帧速率同步到物理上，即 ``delta`` 变量应为常数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:629
+msgid ""
+"It is only called if physics processing is enabled, which is done "
+"automatically if this method is overridden, and can be toggled with "
+":ref:`set_physics_process <class_Node_method_set_physics_process>`."
+msgstr ""
+"仅在启用了物理处理的情况下才调用它，如果此方法被重写，它将自动完成启用，并且可以使用 :ref:`set_physics_process "
+"<class_Node_method_set_physics_process>` 进行切换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:631
+msgid ""
+"Corresponds to the :ref:`NOTIFICATION_PHYSICS_PROCESS "
+"<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` notification in "
+":ref:`Object._notification <class_Object_method__notification>`."
+msgstr ""
+"对应于 :ref:`Object._notification <class_Object_method__notification>` 中的 "
+":ref:`NOTIFICATION_PHYSICS_PROCESS "
+"<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` 通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:637
+msgid "void **_process** **(** :ref:`float <class_float>` delta **)** virtual"
+msgstr "void **_process** **(** :ref:`float <class_float>` delta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:639
+msgid ""
+"Called during the processing step of the main loop. Processing happens at"
+" every frame and as fast as possible, so the ``delta`` time since the "
+"previous frame is not constant."
+msgstr "在主循环的处理步骤中调用。处理发生在每个帧上并尽可能快，因此自上一帧以来的 ``delta`` 时间不是恒定的。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:641
+msgid ""
+"It is only called if processing is enabled, which is done automatically "
+"if this method is overridden, and can be toggled with :ref:`set_process "
+"<class_Node_method_set_process>`."
+msgstr ""
+"仅在启用处理后才调用它，如果此方法被重写，它将自动完成启用，并且可以通过 :ref:`set_process "
+"<class_Node_method_set_process>` 来切换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:643
+msgid ""
+"Corresponds to the :ref:`NOTIFICATION_PROCESS "
+"<class_Node_constant_NOTIFICATION_PROCESS>` notification in "
+":ref:`Object._notification <class_Object_method__notification>`."
+msgstr ""
+"对应于 :ref:`Object._notification <class_Object_method__notification>` 中的 "
+":ref:`NOTIFICATION_PROCESS <class_Node_constant_NOTIFICATION_PROCESS>` "
+"通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:649
+msgid "void **_ready** **(** **)** virtual"
+msgstr "void **_ready** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:651
+msgid ""
+"Called when the node is \"ready\", i.e. when both the node and its "
+"children have entered the scene tree. If the node has children, their "
+":ref:`_ready <class_Node_method__ready>` callbacks get triggered first, "
+"and the parent node will receive the ready notification afterwards."
+msgstr ""
+"在节点 ``就绪（ready）`` 时，即节点及其子节点都进入场景树时调用。如果节点有子节点，它们的 :ref:`_ready "
+"<class_Node_method__ready>` 回调将首先被触发，然后父节点将收到 ``就绪（ready）`` 通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:653
+msgid ""
+"Corresponds to the :ref:`NOTIFICATION_READY "
+"<class_Node_constant_NOTIFICATION_READY>` notification in "
+":ref:`Object._notification <class_Object_method__notification>`. See also"
+" the ``onready`` keyword for variables."
+msgstr ""
+"对应于 :ref:`Object._notification <class_Object_method__notification>` 中的 "
+":ref:`NOTIFICATION_READY <class_Node_constant_NOTIFICATION_READY>` "
+"通知。另请参见变量的 ``onready`` 关键字。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:655
+msgid ""
+"Usually used for initialization. For even earlier initialization, "
+":ref:`Object._init <class_Object_method__init>` may be used. See also "
+":ref:`_enter_tree <class_Node_method__enter_tree>`."
+msgstr ""
+"通常用于初始化。对于更早的初始化，也可以使用 :ref:`Object._init "
+"<class_Object_method__init>`。另请参见 :ref:`_enter_tree "
+"<class_Node_method__enter_tree>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:657
+msgid ""
+"**Note:** :ref:`_ready <class_Node_method__ready>` may be called only "
+"once for each node. After removing a node from the scene tree and adding "
+"again, ``_ready`` will not be called for the second time. This can be "
+"bypassed with requesting another call with :ref:`request_ready "
+"<class_Node_method_request_ready>`, which may be called anywhere before "
+"adding the node again."
+msgstr ""
+"**注意**：:ref:`_ready <class_Node_method__ready>` "
+"对于每个节点只能调用一次。从场景树中删除一个节点并再次添加之后，将不会再次调用 ``_ready``。可以使用 "
+":ref:`request_ready "
+"<class_Node_method_request_ready>`——可以在再次添加节点之前，在任何地方调用——请求另一个调用，来绕过该调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:663
+msgid ""
+"void **_unhandled_input** **(** :ref:`InputEvent <class_InputEvent>` "
+"event **)** virtual"
+msgstr ""
+"void **_unhandled_input** **(** :ref:`InputEvent <class_InputEvent>` "
+"event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:665
+msgid ""
+"Called when an :ref:`InputEvent <class_InputEvent>` hasn't been consumed "
+"by :ref:`_input <class_Node_method__input>` or any GUI. The input event "
+"propagates up through the node tree until a node consumes it."
+msgstr ""
+"当一个 :ref:`InputEvent <class_InputEvent>` 尚未被 :ref:`_input "
+"<class_Node_method__input>` 或任何GUI消耗时调用。输入事件在节点树中向上传播，直到一个节点将其消耗为止。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:667
+msgid ""
+"It is only called if unhandled input processing is enabled, which is done"
+" automatically if this method is overridden, and can be toggled with "
+":ref:`set_process_unhandled_input "
+"<class_Node_method_set_process_unhandled_input>`."
+msgstr ""
+"仅在启用了未处理的输入处理的情况下才调用此方法，如果重写了此方法，则将自动完成启用，并且可以使用 "
+":ref:`set_process_unhandled_input "
+"<class_Node_method_set_process_unhandled_input>` 进行切换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:671
+msgid ""
+"For gameplay input, this and :ref:`_unhandled_key_input "
+"<class_Node_method__unhandled_key_input>` are usually a better fit than "
+":ref:`_input <class_Node_method__input>` as they allow the GUI to "
+"intercept the events first."
+msgstr ""
+"对于游戏输入，通常本方法和 :ref:`_unhandled_key_input "
+"<class_Node_method__unhandled_key_input>` 比 :ref:`_input "
+"<class_Node_method__input>` 更合适，因为它们允许GUI首先截获事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:677
+msgid ""
+"void **_unhandled_key_input** **(** :ref:`InputEventKey "
+"<class_InputEventKey>` event **)** virtual"
+msgstr ""
+"void **_unhandled_key_input** **(** :ref:`InputEventKey "
+"<class_InputEventKey>` event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:679
+msgid ""
+"Called when an :ref:`InputEventKey <class_InputEventKey>` hasn't been "
+"consumed by :ref:`_input <class_Node_method__input>` or any GUI. The "
+"input event propagates up through the node tree until a node consumes it."
+msgstr ""
+"当一个 :ref:`InputEventKey <class_InputEventKey>` 尚未被 :ref:`_input "
+"<class_Node_method__input>` 或任何GUI消耗时调用。输入事件在节点树中向上传播，直到一个节点将其消耗为止。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:681
+msgid ""
+"It is only called if unhandled key input processing is enabled, which is "
+"done automatically if this method is overridden, and can be toggled with "
+":ref:`set_process_unhandled_key_input "
+"<class_Node_method_set_process_unhandled_key_input>`."
+msgstr ""
+"仅在启用了未处理的键输入处理的情况下才调用它，如果此方法被重写，启用将自动完成，并且可以使用 "
+":ref:`set_process_unhandled_key_input "
+"<class_Node_method_set_process_unhandled_key_input>` 进行切换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:685
+msgid ""
+"For gameplay input, this and :ref:`_unhandled_input "
+"<class_Node_method__unhandled_input>` are usually a better fit than "
+":ref:`_input <class_Node_method__input>` as they allow the GUI to "
+"intercept the events first."
+msgstr ""
+"对于游戏输入，通常本方法和 :ref:`_unhandled_input "
+"<class_Node_method__unhandled_input>` 比 :ref:`_input "
+"<class_Node_method__input>` 更合适，因为它们允许GUI首先截获事件。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:691
+msgid ""
+"void **add_child** **(** :ref:`Node <class_Node>` node, :ref:`bool "
+"<class_bool>` legible_unique_name=false **)**"
+msgstr ""
+"void **add_child** **(** :ref:`Node <class_Node>` node, :ref:`bool "
+"<class_bool>` legible_unique_name=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:693
+msgid ""
+"Adds a child node. Nodes can have any number of children, but every child"
+" must have a unique name. Child nodes are automatically deleted when the "
+"parent node is deleted, so an entire scene can be removed by deleting its"
+" topmost node."
+msgstr "添加一个子节点。节点可以具有任意数量的子级，但是每个子级必须具有唯一的名称。删除父节点后，子节点将自动删除，因此可以通过删除其最高节点来删除整个场景。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:695
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:717
+msgid ""
+"If ``legible_unique_name`` is ``true``, the child node will have an "
+"human-readable name based on the name of the node being instanced instead"
+" of its type."
+msgstr "如果 ``legible_unique_name`` 为 ``true``，则子节点将，根据被实例化的节点名称而不是其类型，具有人类可读的名称。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:697
+msgid ""
+"**Note:** If the child node already has a parent, the function will fail."
+" Use :ref:`remove_child <class_Node_method_remove_child>` first to remove"
+" the node from its current parent. For example:"
+msgstr ""
+"**注意**：如果子节点已经有一个父节点，该函数将失败。首先使用 :ref:`remove_child "
+"<class_Node_method_remove_child>` 从当前父节点中删除该节点。例如："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:705
+msgid ""
+"If you need the child node to be added below a specific node in the list "
+"of children, use :ref:`add_child_below_node "
+"<class_Node_method_add_child_below_node>` instead of this method."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:707
+msgid ""
+"**Note:** If you want a child to be persisted to a :ref:`PackedScene "
+"<class_PackedScene>`, you must set :ref:`owner "
+"<class_Node_property_owner>` in addition to calling :ref:`add_child "
+"<class_Node_method_add_child>`. This is typically relevant for `tool "
+"scripts "
+"<https://godot.readthedocs.io/en/latest/tutorials/misc/running_code_in_the_editor.html>`_"
+" and `editor plugins "
+"<https://godot.readthedocs.io/en/latest/tutorials/plugins/editor/index.html>`_."
+" If :ref:`add_child <class_Node_method_add_child>` is called without "
+"setting :ref:`owner <class_Node_property_owner>`, the newly added "
+"``Node`` will not be visible in the scene tree, though it will be visible"
+" in the 2D/3D view."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:713
+#, fuzzy
+msgid ""
+"void **add_child_below_node** **(** :ref:`Node <class_Node>` "
+"preceding_node, :ref:`Node <class_Node>` node, :ref:`bool <class_bool>` "
+"legible_unique_name=false **)**"
+msgstr ""
+"void **add_child_below_node** **(** :ref:`Node <class_Node>` node, "
+":ref:`Node <class_Node>` child_node, :ref:`bool <class_bool>` "
+"legible_unique_name=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:715
+msgid "Adds a child node below the ``preceding_node``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:719
+msgid ""
+"Use :ref:`add_child <class_Node_method_add_child>` instead of this method"
+" if you don't need the child node to be added below a specific node in "
+"the list of children."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:725
+#, fuzzy
+msgid ""
+"void **add_to_group** **(** :ref:`StringName <class_StringName>` group, "
+":ref:`bool <class_bool>` persistent=false **)**"
+msgstr ""
+"void **add_to_group** **(** :ref:`String <class_String>` group, "
+":ref:`bool <class_bool>` persistent=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:727
+msgid ""
+"Adds the node to a group. Groups are helpers to name and organize a "
+"subset of nodes, for example \"enemies\" or \"collectables\". A node can "
+"be in any number of groups. Nodes can be assigned a group at any time, "
+"but will not be added until they are inside the scene tree (see "
+":ref:`is_inside_tree <class_Node_method_is_inside_tree>`). See notes in "
+"the description, and the group methods in :ref:`SceneTree "
+"<class_SceneTree>`."
+msgstr ""
+"将节点添加到编组。编组是命名和组织节点子集的助手，例如 ``敌人`` 或 "
+"``收藏品``。一个节点可以处于任意数量的编组中。可以在任何时候为节点分配一个组，但是直到它们在场景树中时，才被添加（请参见 "
+":ref:`is_inside_tree <class_Node_method_is_inside_tree>`）。请参阅说明中的注释，以及 "
+":ref:`SceneTree <class_SceneTree>` 中的编组方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:729
+msgid ""
+"The ``persistent`` option is used when packing node to :ref:`PackedScene "
+"<class_PackedScene>` and saving to file. Non-persistent groups aren't "
+"stored."
+msgstr ""
+"当将节点打包到 :ref:`PackedScene <class_PackedScene>` 并保存到文件时，将使用 ``persistent``"
+" 选项。不存储非持久性编组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:735
+msgid ":ref:`bool <class_bool>` **can_process** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **can_process** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:737
+msgid ""
+"Returns ``true`` if the node can process while the scene tree is paused "
+"(see :ref:`pause_mode <class_Node_property_pause_mode>`). Always returns "
+"``true`` if the scene tree is not paused, and ``false`` if the node is "
+"not in the tree."
+msgstr ""
+"如果节点可以在场景树暂停时进行处理，则返回 ``true`` （请参阅 :ref:`pause_mode "
+"<class_Node_property_pause_mode>`）。如果未暂停场景树，则始终返回 ``true``，如果节点不在树中，则始终返回"
+" ``false``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:743
+msgid ""
+":ref:`Node <class_Node>` **duplicate** **(** :ref:`int <class_int>` "
+"flags=15 **)** const"
+msgstr ""
+":ref:`Node <class_Node>` **duplicate** **(** :ref:`int <class_int>` "
+"flags=15 **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:745
+msgid "Duplicates the node, returning a new node."
+msgstr "复制本节点，返回一个新节点。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:747
+msgid ""
+"You can fine-tune the behavior using the ``flags`` (see "
+":ref:`DuplicateFlags <enum_Node_DuplicateFlags>`)."
+msgstr ""
+"您可以使用 ``flags`` 微调行为（请参见 :ref:`DuplicateFlags "
+"<enum_Node_DuplicateFlags>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:749
+msgid ""
+"**Note:** It will not work properly if the node contains a script with "
+"constructor arguments (i.e. needs to supply arguments to "
+":ref:`Object._init <class_Object_method__init>` method). In that case, "
+"the node will be duplicated without a script."
+msgstr ""
+"**注意**：如果节点包含一个带有构造函数参数（即需要向 :ref:`Object._init "
+"<class_Object_method__init>` 方法提供参数）的脚本，它将无法正常工作。在这种情况下，节点被复制且不带脚本。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:755
+msgid ""
+":ref:`Node <class_Node>` **find_node** **(** :ref:`String <class_String>`"
+" mask, :ref:`bool <class_bool>` recursive=true, :ref:`bool <class_bool>` "
+"owned=true **)** const"
+msgstr ""
+":ref:`Node <class_Node>` **find_node** **(** :ref:`String <class_String>`"
+" mask, :ref:`bool <class_bool>` recursive=true, :ref:`bool <class_bool>` "
+"owned=true **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:757
+msgid ""
+"Finds a descendant of this node whose name matches ``mask`` as in "
+":ref:`String.match <class_String_method_match>` (i.e. case-sensitive, but"
+" ``\"*\"`` matches zero or more characters and ``\"?\"`` matches any "
+"single character except ``\".\"``)."
+msgstr ""
+"查找该节点的后代，其名称与 ``mask`` 中的名称匹配，如同在 :ref:`String.match "
+"<class_String_method_match>` 中一样匹配（即区分大小写，但 ``\"*\"`` 匹配零个或多个字符，而 "
+"``\"?\"`` 匹配除 ``\".\"`` 之外的任何单个字符。）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:759
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:771
+msgid ""
+"**Note:** It does not match against the full path, just against "
+"individual node names."
+msgstr "**注意**：它不与完整路径匹配，仅与单个节点名称匹配。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:761
+msgid ""
+"If ``owned`` is ``true``, this method only finds nodes whose owner is "
+"this node. This is especially important for scenes instantiated through a"
+" script, because those scenes don't have an owner."
+msgstr "如果 ``owned`` 为 ``true``，则此方法仅查找其所有者为该节点的节点。这对于通过脚本实例化的场景尤其重要，因为这些场景没有所有者。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:767
+msgid ""
+":ref:`Node <class_Node>` **find_parent** **(** :ref:`String "
+"<class_String>` mask **)** const"
+msgstr ""
+":ref:`Node <class_Node>` **find_parent** **(** :ref:`String "
+"<class_String>` mask **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:769
+msgid ""
+"Finds the first parent of the current node whose name matches ``mask`` as"
+" in :ref:`String.match <class_String_method_match>` (i.e. case-sensitive,"
+" but ``\"*\"`` matches zero or more characters and ``\"?\"`` matches any "
+"single character except ``\".\"``)."
+msgstr ""
+"查找名称与 ``mask`` 匹配的当前节点的第一个父节点，如同在 :ref:`String.match "
+"<class_String_method_match>` 中一样匹配（即区分大小写，但 ``\"*\"`` 匹配零个或多个字符，而 "
+"``\"?\"`` 匹配除 ``\".\"`` 之外的任何单个字符。）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:777
+msgid ""
+":ref:`Node <class_Node>` **get_child** **(** :ref:`int <class_int>` idx "
+"**)** const"
+msgstr ""
+":ref:`Node <class_Node>` **get_child** **(** :ref:`int <class_int>` idx "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:779
+msgid ""
+"Returns a child node by its index (see :ref:`get_child_count "
+"<class_Node_method_get_child_count>`). This method is often used for "
+"iterating all children of a node."
+msgstr ""
+"通过索引（请参阅 :ref:`get_child_count "
+"<class_Node_method_get_child_count>`）返回一个子节点。此方法通常用于迭代节点的所有子级。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:781
+msgid ""
+"To access a child node via its name, use :ref:`get_node "
+"<class_Node_method_get_node>`."
+msgstr "要通过其名称访问子节点，请使用 :ref:`get_node <class_Node_method_get_node>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:787
+msgid ":ref:`int <class_int>` **get_child_count** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_child_count** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:789
+msgid "Returns the number of child nodes."
+msgstr "返回子节点的数量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:795
+msgid ":ref:`Array <class_Array>` **get_children** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_children** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:797
+msgid "Returns an array of references to node's children."
+msgstr "返回对节点的子级的引用的数组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:803
+msgid ":ref:`Array <class_Array>` **get_groups** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_groups** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:805
+msgid "Returns an array listing the groups that the node is a member of."
+msgstr "返回一个列出该节点所属编组的数组。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:811
+msgid ":ref:`int <class_int>` **get_index** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_index** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:813
+msgid ""
+"Returns the node's index, i.e. its position among the siblings of its "
+"parent."
+msgstr "返回节点的索引，即节点在其父级的同级中的位置。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:819
+msgid ":ref:`int <class_int>` **get_network_master** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_network_master** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:821
+msgid ""
+"Returns the peer ID of the network master for this node. See "
+":ref:`set_network_master <class_Node_method_set_network_master>`."
+msgstr ""
+"返回此节点的网络主机的对等ID。参见 :ref:`set_network_master "
+"<class_Node_method_set_network_master>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:827
+msgid ""
+":ref:`Node <class_Node>` **get_node** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+":ref:`Node <class_Node>` **get_node** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:829
+msgid ""
+"Fetches a node. The :ref:`NodePath <class_NodePath>` can be either a "
+"relative path (from the current node) or an absolute path (in the scene "
+"tree) to a node. If the path does not exist, a ``null instance`` is "
+"returned and an error is logged. Attempts to access methods on the return"
+" value will result in an \"Attempt to call <method> on a null instance.\""
+" error."
+msgstr ""
+"获取一个节点。:ref:`NodePath <class_NodePath>` "
+"可以是到节点的相对路径（从当前节点开始）或绝对路径（在场景树中）。如果路径不存在，则返回一个 ``null "
+"instance``，并记录错误。尝试访问返回值上的方法将导致一个 ``尝试在null实例上调用 <方法>`` 错误。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:831
+msgid ""
+"**Note:** Fetching absolute paths only works when the node is inside the "
+"scene tree (see :ref:`is_inside_tree "
+"<class_Node_method_is_inside_tree>`)."
+msgstr ""
+"**注意**：只有当节点在场景树中时，才可以获取绝对路径（请参见 :ref:`is_inside_tree "
+"<class_Node_method_is_inside_tree>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:833
+msgid "**Example:** Assume your current node is Character and the following tree:"
+msgstr "**示例**：假设您当前的节点是角色 ``Character``，并且是下面的树："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:846
+msgid "Possible paths are:"
+msgstr "可能的路径是："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:859
+msgid ""
+":ref:`Array <class_Array>` **get_node_and_resource** **(** :ref:`NodePath"
+" <class_NodePath>` path **)**"
+msgstr ""
+":ref:`Array <class_Array>` **get_node_and_resource** **(** :ref:`NodePath"
+" <class_NodePath>` path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:861
+msgid ""
+"Fetches a node and one of its resources as specified by the "
+":ref:`NodePath <class_NodePath>`'s subname (e.g. "
+"``Area2D/CollisionShape2D:shape``). If several nested resources are "
+"specified in the :ref:`NodePath <class_NodePath>`, the last one will be "
+"fetched."
+msgstr ""
+"按照使用 :ref:`NodePath <class_NodePath>` 的子名称指定的方式，获取一个节点及其资源之一（例如 "
+"``Area2D/CollisionShape2D:shape``）。如果在 :ref:`NodePath <class_NodePath>` "
+"中指定了多个嵌套资源，则将获取最后一个资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:863
+msgid ""
+"The return value is an array of size 3: the first index points to the "
+"``Node`` (or ``null`` if not found), the second index points to the "
+":ref:`Resource <class_Resource>` (or ``null`` if not found), and the "
+"third index is the remaining :ref:`NodePath <class_NodePath>`, if any."
+msgstr ""
+"返回值是一个大小为3的数组：第一个索引指向该 ``Node`` （如果没有找到，则为 ``null``），第二个索引指向 "
+":ref:`Resource <class_Resource>` （如果没有找到，则为 ``null``），第三个索引是剩余的 "
+":ref:`NodePath <class_NodePath>` （如果有的话）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:865
+msgid ""
+"For example, assuming that ``Area2D/CollisionShape2D`` is a valid node "
+"and that its ``shape`` property has been assigned a "
+":ref:`RectangleShape2D <class_RectangleShape2D>` resource, one could have"
+" this kind of output:"
+msgstr ""
+"例如，假设 ``Area2D/CollisionShape2D`` 是有效节点，并且其 ``shape`` 属性已分配了一个 "
+":ref:`RectangleShape2D <class_RectangleShape2D>` 资源，则可能会有这种输出："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:877
+msgid ""
+":ref:`Node <class_Node>` **get_node_or_null** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+":ref:`Node <class_Node>` **get_node_or_null** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:879
+msgid ""
+"Similar to :ref:`get_node <class_Node_method_get_node>`, but does not log"
+" an error if ``path`` does not point to a valid ``Node``."
+msgstr ""
+"类似于 :ref:`get_node <class_Node_method_get_node>`，但是如果 ``path`` 不指向一个有效的 "
+"``Node``，则不会记录一个错误。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:885
+msgid ":ref:`Node <class_Node>` **get_parent** **(** **)** const"
+msgstr ":ref:`Node <class_Node>` **get_parent** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:887
+msgid ""
+"Returns the parent node of the current node, or an empty ``Node`` if the "
+"node lacks a parent."
+msgstr "返回当前节点的父节点，如果该节点缺少父节点，则返回一个空的 ``Node``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:893
+msgid ":ref:`NodePath <class_NodePath>` **get_path** **(** **)** const"
+msgstr ":ref:`NodePath <class_NodePath>` **get_path** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:895
+msgid ""
+"Returns the absolute path of the current node. This only works if the "
+"current node is inside the scene tree (see :ref:`is_inside_tree "
+"<class_Node_method_is_inside_tree>`)."
+msgstr ""
+"返回当前节点的绝对路径。这仅在当前节点在场景树内部时才有效（请参见 :ref:`is_inside_tree "
+"<class_Node_method_is_inside_tree>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:901
+msgid ""
+":ref:`NodePath <class_NodePath>` **get_path_to** **(** :ref:`Node "
+"<class_Node>` node **)** const"
+msgstr ""
+":ref:`NodePath <class_NodePath>` **get_path_to** **(** :ref:`Node "
+"<class_Node>` node **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:903
+msgid ""
+"Returns the relative :ref:`NodePath <class_NodePath>` from this node to "
+"the specified ``node``. Both nodes must be in the same scene or the "
+"function will fail."
+msgstr ""
+"返回从此节点到指定 ``node`` 的相对的 :ref:`NodePath "
+"<class_NodePath>`。两个节点必须在同一场景中，否则函数将失败。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:909
+msgid ""
+":ref:`float <class_float>` **get_physics_process_delta_time** **(** **)**"
+" const"
+msgstr ""
+":ref:`float <class_float>` **get_physics_process_delta_time** **(** **)**"
+" const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:911
+#, fuzzy
+msgid ""
+"Returns the time elapsed since the last physics-bound frame (see "
+":ref:`_physics_process <class_Node_method__physics_process>`). This is "
+"always a constant value in physics processing unless the frames per "
+"second is changed via :ref:`Engine.iterations_per_second "
+"<class_Engine_property_iterations_per_second>`."
+msgstr ""
+"返回自上一个物理绑定帧以来经过的时间（请参阅 :ref:`_physics_process "
+"<class_Node_method__physics_process>`）。在物理处理中，这始终是一个恒定值，除非通过 "
+":ref:`Engine.target_fps <class_Engine_property_target_fps>` 更改每秒帧数。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:917
+msgid ":ref:`int <class_int>` **get_position_in_parent** **(** **)** const"
+msgstr ":ref:`int <class_int>` **get_position_in_parent** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:919
+msgid ""
+"Returns the node's order in the scene tree branch. For example, if called"
+" on the first child node the position is ``0``."
+msgstr "返回节点在场景树分支中的顺序。例如，如果在第一个子节点上调用，则位置为 ``0``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:925
+msgid ":ref:`float <class_float>` **get_process_delta_time** **(** **)** const"
+msgstr ":ref:`float <class_float>` **get_process_delta_time** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:927
+msgid ""
+"Returns the time elapsed (in seconds) since the last process callback. "
+"This value may vary from frame to frame."
+msgstr "返回自上次进程回调以来经过的时间（以秒为单位）。此值可能因帧而异。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:933
+msgid ""
+":ref:`bool <class_bool>` **get_scene_instance_load_placeholder** **(** "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **get_scene_instance_load_placeholder** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:935
+msgid ""
+"Returns ``true`` if this is an instance load placeholder. See "
+":ref:`InstancePlaceholder <class_InstancePlaceholder>`."
+msgstr ""
+"如果这是实例加载占位符，则返回 ``true``。参见 :ref:`InstancePlaceholder "
+"<class_InstancePlaceholder>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:941
+msgid ":ref:`SceneTree <class_SceneTree>` **get_tree** **(** **)** const"
+msgstr ":ref:`SceneTree <class_SceneTree>` **get_tree** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:943
+msgid "Returns the :ref:`SceneTree <class_SceneTree>` that contains this node."
+msgstr "返回包含此节点的 :ref:`SceneTree <class_SceneTree>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:949
+msgid ":ref:`Viewport <class_Viewport>` **get_viewport** **(** **)** const"
+msgstr ":ref:`Viewport <class_Viewport>` **get_viewport** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:951
+msgid "Returns the node's :ref:`Viewport <class_Viewport>`."
+msgstr "返回节点的 :ref:`Viewport <class_Viewport>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:957
+msgid ""
+":ref:`bool <class_bool>` **has_node** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_node** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:959
+msgid ""
+"Returns ``true`` if the node that the :ref:`NodePath <class_NodePath>` "
+"points to exists."
+msgstr "如果 :ref:`NodePath <class_NodePath>` 指向的节点存在，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:965
+msgid ""
+":ref:`bool <class_bool>` **has_node_and_resource** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **has_node_and_resource** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:967
+msgid ""
+"Returns ``true`` if the :ref:`NodePath <class_NodePath>` points to a "
+"valid node and its subname points to a valid resource, e.g. "
+"``Area2D/CollisionShape2D:shape``. Properties with a non-:ref:`Resource "
+"<class_Resource>` type (e.g. nodes or primitive math types) are not "
+"considered resources."
+msgstr ""
+"如果 :ref:`NodePath <class_NodePath>` 指向有效节点，且其子名称指向有效资源，如 "
+"``Area2D/CollisionShape2D:shape``，则返回 ``true``。具有非 :ref:`Resource "
+"<class_Resource>` 类型的属性（例如节点或原始数学类型），不被视为资源。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:973
+msgid ""
+":ref:`bool <class_bool>` **is_a_parent_of** **(** :ref:`Node "
+"<class_Node>` node **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_a_parent_of** **(** :ref:`Node "
+"<class_Node>` node **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:975
+msgid ""
+"Returns ``true`` if the given node is a direct or indirect child of the "
+"current node."
+msgstr "如果给定节点是当前节点的直接或间接子节点，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:981
+msgid ":ref:`bool <class_bool>` **is_displayed_folded** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_displayed_folded** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:983
+msgid "Returns ``true`` if the node is folded (collapsed) in the Scene dock."
+msgstr "如果节点在场景停靠面板中折叠，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:989
+msgid ""
+":ref:`bool <class_bool>` **is_greater_than** **(** :ref:`Node "
+"<class_Node>` node **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_greater_than** **(** :ref:`Node "
+"<class_Node>` node **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:991
+msgid ""
+"Returns ``true`` if the given node occurs later in the scene hierarchy "
+"than the current node."
+msgstr "如果给定节点，在场景层次结构中的出现时间，比当前节点晚，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:997
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **is_in_group** **(** :ref:`StringName "
+"<class_StringName>` group **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_in_group** **(** :ref:`String "
+"<class_String>` group **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:999
+msgid ""
+"Returns ``true`` if this node is in the specified group. See notes in the"
+" description, and the group methods in :ref:`SceneTree "
+"<class_SceneTree>`."
+msgstr ""
+"如果此节点在指定的编组中，则返回 ``true``。请参阅说明中的注释，以及 :ref:`SceneTree <class_SceneTree>`"
+" 中的编组方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1005
+msgid ":ref:`bool <class_bool>` **is_inside_tree** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_inside_tree** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1007
+msgid ""
+"Returns ``true`` if this node is currently inside a :ref:`SceneTree "
+"<class_SceneTree>`."
+msgstr "如果此节点，当前位于一个 :ref:`SceneTree <class_SceneTree>` 中，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1013
+msgid ":ref:`bool <class_bool>` **is_network_master** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_network_master** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1015
+msgid "Returns ``true`` if the local system is the master of this node."
+msgstr "如果本地系统是此节点的 ``master``，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1021
+msgid ":ref:`bool <class_bool>` **is_physics_processing** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_physics_processing** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1023
+msgid ""
+"Returns ``true`` if physics processing is enabled (see "
+":ref:`set_physics_process <class_Node_method_set_physics_process>`)."
+msgstr ""
+"如果启用了物理处理，则返回 ``true`` （请参见 :ref:`set_physics_process "
+"<class_Node_method_set_physics_process>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1029
+msgid ""
+":ref:`bool <class_bool>` **is_physics_processing_internal** **(** **)** "
+"const"
+msgstr ""
+":ref:`bool <class_bool>` **is_physics_processing_internal** **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1031
+msgid ""
+"Returns ``true`` if internal physics processing is enabled (see "
+":ref:`set_physics_process_internal "
+"<class_Node_method_set_physics_process_internal>`)."
+msgstr ""
+"如果启用了内部物理处理，则返回 ``true`` （请参阅 :ref:`set_physics_process_internal "
+"<class_Node_method_set_physics_process_internal>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1037
+msgid ":ref:`bool <class_bool>` **is_processing** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_processing** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1039
+msgid ""
+"Returns ``true`` if processing is enabled (see :ref:`set_process "
+"<class_Node_method_set_process>`)."
+msgstr ""
+"如果启用了处理，则返回 ``true`` （请参见 :ref:`set_process "
+"<class_Node_method_set_process>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1045
+msgid ":ref:`bool <class_bool>` **is_processing_input** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_processing_input** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1047
+msgid ""
+"Returns ``true`` if the node is processing input (see "
+":ref:`set_process_input <class_Node_method_set_process_input>`)."
+msgstr ""
+"如果节点正在处理输入，则返回 ``true`` （请参阅 :ref:`set_process_input "
+"<class_Node_method_set_process_input>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1053
+msgid ":ref:`bool <class_bool>` **is_processing_internal** **(** **)** const"
+msgstr ":ref:`bool <class_bool>` **is_processing_internal** **(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1055
+msgid ""
+"Returns ``true`` if internal processing is enabled (see "
+":ref:`set_process_internal <class_Node_method_set_process_internal>`)."
+msgstr ""
+"如果启用了内部处理，则返回 ``true`` （请参见 :ref:`set_process_internal "
+"<class_Node_method_set_process_internal>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1061
+msgid ""
+":ref:`bool <class_bool>` **is_processing_unhandled_input** **(** **)** "
+"const"
+msgstr ""
+":ref:`bool <class_bool>` **is_processing_unhandled_input** **(** **)** "
+"const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1063
+msgid ""
+"Returns ``true`` if the node is processing unhandled input (see "
+":ref:`set_process_unhandled_input "
+"<class_Node_method_set_process_unhandled_input>`)."
+msgstr ""
+"如果节点正在处理未处理的输入，则返回 ``true`` （请参阅 :ref:`set_process_unhandled_input "
+"<class_Node_method_set_process_unhandled_input>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1069
+msgid ""
+":ref:`bool <class_bool>` **is_processing_unhandled_key_input** **(** "
+"**)** const"
+msgstr ""
+":ref:`bool <class_bool>` **is_processing_unhandled_key_input** **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1071
+msgid ""
+"Returns ``true`` if the node is processing unhandled key input (see "
+":ref:`set_process_unhandled_key_input "
+"<class_Node_method_set_process_unhandled_key_input>`)."
+msgstr ""
+"如果节点正在处理未处理的键输入，则返回 ``true`` （请参阅 :ref:`set_process_unhandled_key_input "
+"<class_Node_method_set_process_unhandled_key_input>`）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1077
+msgid ""
+"void **move_child** **(** :ref:`Node <class_Node>` child_node, :ref:`int "
+"<class_int>` to_position **)**"
+msgstr ""
+"void **move_child** **(** :ref:`Node <class_Node>` child_node, :ref:`int "
+"<class_int>` to_position **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1079
+msgid ""
+"Moves a child node to a different position (order) among the other "
+"children. Since calls, signals, etc are performed by tree order, changing"
+" the order of children nodes may be useful."
+msgstr "将子节点移动到其他子节点中的其他位置（顺序）。由于调用、信号等按树顺序执行，因此更改子节点的顺序可能很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1085
+msgid "void **print_stray_nodes** **(** **)**"
+msgstr "void **print_stray_nodes** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1087
+msgid ""
+"Prints all stray nodes (nodes outside the :ref:`SceneTree "
+"<class_SceneTree>`). Used for debugging. Works only in debug builds."
+msgstr "打印所有杂散节点（:ref:`SceneTree <class_SceneTree>` 外部的节点）。用于调试。仅在调试版本中有效。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1093
+msgid "void **print_tree** **(** **)**"
+msgstr "void **print_tree** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1095
+msgid ""
+"Prints the tree to stdout. Used mainly for debugging purposes. This "
+"version displays the path relative to the current node, and is good for "
+"copy/pasting into the :ref:`get_node <class_Node_method_get_node>` "
+"function."
+msgstr ""
+"将树打印到标准输出。主要用于调试目的。这个文本显示相对于当前节点的路径，非常适合复制/粘贴到 :ref:`get_node "
+"<class_Node_method_get_node>` 函数中。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1097
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1116
+msgid "**Example output:**"
+msgstr "**示例输出：**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1112
+msgid "void **print_tree_pretty** **(** **)**"
+msgstr "void **print_tree_pretty** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1114
+msgid ""
+"Similar to :ref:`print_tree <class_Node_method_print_tree>`, this prints "
+"the tree to stdout. This version displays a more graphical representation"
+" similar to what is displayed in the scene inspector. It is useful for "
+"inspecting larger trees."
+msgstr ""
+"类似于 :ref:`print_tree "
+"<class_Node_method_print_tree>`，这会将树打印到标准输出。此文本显示的图形化表示，与场景检查器中显示的类似。这对于检查较大的树很有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1131
+#, fuzzy
+msgid ""
+"void **propagate_call** **(** :ref:`StringName <class_StringName>` "
+"method, :ref:`Array <class_Array>` args=[  ], :ref:`bool <class_bool>` "
+"parent_first=false **)**"
+msgstr ""
+"void **propagate_call** **(** :ref:`String <class_String>` method, "
+":ref:`Array <class_Array>` args=[  ], :ref:`bool <class_bool>` "
+"parent_first=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1133
+msgid ""
+"Calls the given method (if present) with the arguments given in ``args`` "
+"on this node and recursively on all its children. If the ``parent_first``"
+" argument is ``true``, the method will be called on the current node "
+"first, then on all its children. If ``parent_first`` is ``false``, the "
+"children will be called first."
+msgstr ""
+"在此节点上，使用 ``args`` 中给出的参数，调用给定方法（如果存在），并在其所有子节点上递归调用。如果 ``parent_first`` "
+"参数为 ``true``，则将首先在当前节点上调用该方法，然后在其所有子节点上调用该方法。如果 ``parent_first`` 为 "
+"``false``，则首先调用子级。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1139
+msgid "void **propagate_notification** **(** :ref:`int <class_int>` what **)**"
+msgstr "void **propagate_notification** **(** :ref:`int <class_int>` what **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1141
+msgid ""
+"Notifies the current node and all its children recursively by calling "
+":ref:`Object.notification <class_Object_method_notification>` on all of "
+"them."
+msgstr ""
+"通过在当前节点及其所有子节点上，调用 :ref:`Object.notification "
+"<class_Object_method_notification>`，来递归通知它们。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1147
+msgid "void **queue_free** **(** **)**"
+msgstr "void **queue_free** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1149
+msgid ""
+"Queues a node for deletion at the end of the current frame. When deleted,"
+" all of its child nodes will be deleted as well. This method ensures it's"
+" safe to delete the node, contrary to :ref:`Object.free "
+"<class_Object_method_free>`. Use :ref:`Object.is_queued_for_deletion "
+"<class_Object_method_is_queued_for_deletion>` to check whether a node "
+"will be deleted at the end of the frame."
+msgstr ""
+"在当前帧的末尾，排队要删除的节点。删除后，其所有子节点也将被删除。与 :ref:`Object.free "
+"<class_Object_method_free>` 相反，此方法可确保安全删除节点。使用 "
+":ref:`Object.is_queued_for_deletion "
+"<class_Object_method_is_queued_for_deletion>` 检查节点是否在帧末尾被删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1155
+msgid "void **raise** **(** **)**"
+msgstr "void **raise** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1157
+msgid ""
+"Moves this node to the bottom of parent node's children hierarchy. This "
+"is often useful in GUIs (:ref:`Control <class_Control>` nodes), because "
+"their order of drawing depends on their order in the tree, i.e. the "
+"further they are on the node list, the higher they are drawn. After using"
+" ``raise``, a Control will be drawn on top of their siblings."
+msgstr ""
+"将此节点移到父节点的子层次结构的底部。这在GUI（:ref:`Control <class_Control>` "
+"节点）中通常很有用，因为它们的绘制顺序取决于它们在树中的顺序，即它们在节点列表中的位置越远，绘制的位置就越高。使用 ``raise`` "
+"后，``Control`` 将被绘制在其同级之上。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1163
+msgid "void **remove_and_skip** **(** **)**"
+msgstr "void **remove_and_skip** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1165
+msgid ""
+"Removes a node and sets all its children as children of the parent node "
+"(if it exists). All event subscriptions that pass by the removed node "
+"will be unsubscribed."
+msgstr "删除节点并将其所有子节点设置为父节点（如果存在）的子节点。已删除节点传递的所有事件订阅将被取消订阅。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1171
+msgid "void **remove_child** **(** :ref:`Node <class_Node>` node **)**"
+msgstr "void **remove_child** **(** :ref:`Node <class_Node>` node **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1173
+msgid ""
+"Removes a child node. The node is NOT deleted and must be deleted "
+"manually."
+msgstr "删除一个子节点。该节点未删除，必须手动删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1179
+#, fuzzy
+msgid ""
+"void **remove_from_group** **(** :ref:`StringName <class_StringName>` "
+"group **)**"
+msgstr "void **remove_from_group** **(** :ref:`String <class_String>` group **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1181
+msgid ""
+"Removes a node from a group. See notes in the description, and the group "
+"methods in :ref:`SceneTree <class_SceneTree>`."
+msgstr "从编组中删除一个节点。请参阅说明中的注释，以及 :ref:`SceneTree <class_SceneTree>` 中的编组方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1187
+msgid ""
+"void **replace_by** **(** :ref:`Node <class_Node>` node, :ref:`bool "
+"<class_bool>` keep_data=false **)**"
+msgstr ""
+"void **replace_by** **(** :ref:`Node <class_Node>` node, :ref:`bool "
+"<class_bool>` keep_data=false **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1189
+msgid ""
+"Replaces a node in a scene by the given one. Subscriptions that pass "
+"through this node will be lost."
+msgstr "用给定的节点替换场景中的节点。该节点传递的订阅将丢失。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1195
+msgid "void **request_ready** **(** **)**"
+msgstr "void **request_ready** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1197
+msgid ""
+"Requests that ``_ready`` be called again. Note that the method won't be "
+"called immediately, but is scheduled for when the node is added to the "
+"scene tree again (see :ref:`_ready <class_Node_method__ready>`). "
+"``_ready`` is called only for the node which requested it, which means "
+"that you need to request ready for each child if you want them to call "
+"``_ready`` too (in which case, ``_ready`` will be called in the same "
+"order as it would normally)."
+msgstr ""
+"请求再次调用 ``_ready``。请注意，该方法不会立即被调用，而是在将该节点再次添加到场景树中时被调度（参见 :ref:`_ready "
+"<class_Node_method__ready>`）。``_ready`` 仅被请求的节点调用，这意味着如果您也希望每个子级也都调用 "
+"``_ready``，则需要为每个子级准备就绪（在这种情况下，``_ready`` 将会是以通常的顺序调用）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1203
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **rpc** **(** :ref:`StringName "
+"<class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **rpc** **(** :ref:`String <class_String>`"
+" method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1205
+msgid ""
+"Sends a remote procedure call request for the given ``method`` to peers "
+"on the network (and locally), optionally sending all additional arguments"
+" as arguments to the method called by the RPC. The call request will only"
+" be received by nodes with the same :ref:`NodePath <class_NodePath>`, "
+"including the exact same node name. Behaviour depends on the RPC "
+"configuration for the given method, see :ref:`rpc_config "
+"<class_Node_method_rpc_config>`. Methods are not exposed to RPCs by "
+"default. See also :ref:`rset <class_Node_method_rset>` and "
+":ref:`rset_config <class_Node_method_rset_config>` for properties. "
+"Returns an empty :ref:`Variant <class_Variant>`."
+msgstr ""
+"将给定 ``method`` "
+"的远程过程调用请求，发送到网络上的对等方（以及本地），可以选择将所有其他参数作为参数，发送给RPC调用的方法。调用请求将仅由具有相同 "
+":ref:`NodePath <class_NodePath>` 的节点接收，其中包括完全相同的节点名称。行为取决于给定方法的RPC配置，参见 "
+":ref:`rpc_config "
+"<class_Node_method_rpc_config>`。默认情况下，方法不公开给RPC。有关属性，另请参见 :ref:`rset "
+"<class_Node_method_rset>` 和 :ref:`rset_config "
+"<class_Node_method_rset_config>` 。返回一个空的 :ref:`Variant <class_Variant>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1207
+msgid ""
+"**Note:** You can only safely use RPCs on clients after you received the "
+"``connected_to_server`` signal from the :ref:`SceneTree "
+"<class_SceneTree>`. You also need to keep track of the connection state, "
+"either by the :ref:`SceneTree <class_SceneTree>` signals like "
+"``server_disconnected`` or by checking "
+"``SceneTree.network_peer.get_connection_status() == "
+"CONNECTION_CONNECTED``."
+msgstr ""
+"**注意**：仅当您从 :ref:`SceneTree <class_SceneTree>` 接收到 "
+"``connected_to_server`` 信号后，才能安全地在客户端上使用RPC。您还需要通过诸如 "
+"``server_disconnected`` 之类的 :ref:`SceneTree <class_SceneTree>` "
+"信号，来跟踪连接状态；或者通过检查 ``SceneTree.network_peer.get_connection_status() == "
+"CONNECTION_CONNECTED`` 来跟踪连接状态。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1213
+#, fuzzy
+msgid ""
+":ref:`int <class_int>` **rpc_config** **(** :ref:`StringName "
+"<class_StringName>` method, :ref:`RPCMode <enum_MultiplayerAPI_RPCMode>` "
+"mode **)**"
+msgstr ""
+"void **rpc_config** **(** :ref:`String <class_String>` method, "
+":ref:`RPCMode <enum_MultiplayerAPI_RPCMode>` mode **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1215
+msgid ""
+"Changes the RPC mode for the given ``method`` to the given ``mode``. See "
+":ref:`RPCMode <enum_MultiplayerAPI_RPCMode>`. An alternative is "
+"annotating methods and properties with the corresponding keywords "
+"(``remote``, ``master``, ``puppet``, ``remotesync``, ``mastersync``, "
+"``puppetsync``). By default, methods are not exposed to networking (and "
+"RPCs). See also :ref:`rset <class_Node_method_rset>` and "
+":ref:`rset_config <class_Node_method_rset_config>` for properties."
+msgstr ""
+"将给定 ``method`` 的RPC模式更改为给定 ``mode``。参见 :ref:`RPCMode "
+"<enum_MultiplayerAPI_RPCMode>`。另一种方法是使用相应的关键字（``remote``, ``master``, "
+"``puppet``, ``remotesync``, ``mastersync``, "
+"``puppetsync``）注解方法和属性。默认情况下，方法不公开给网络（和RPC）。有关属性，另请参见 :ref:`rset "
+"<class_Node_method_rset>` 和 :ref:`rset_config "
+"<class_Node_method_rset_config>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1221
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **rpc_id** **(** :ref:`int <class_int>` "
+"peer_id, :ref:`StringName <class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **rpc_id** **(** :ref:`int <class_int>` "
+"peer_id, :ref:`String <class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1223
+msgid ""
+"Sends a :ref:`rpc <class_Node_method_rpc>` to a specific peer identified "
+"by ``peer_id`` (see :ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`). Returns an "
+"empty :ref:`Variant <class_Variant>`."
+msgstr ""
+"将一个 :ref:`rpc <class_Node_method_rpc>` 发送给由 ``peer_id`` （参见 "
+":ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`）标识的特定对等方。返回一个空的 "
+":ref:`Variant <class_Variant>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1229
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **rpc_unreliable** **(** :ref:`StringName "
+"<class_StringName>` method, ... **)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **rpc_unreliable** **(** :ref:`String "
+"<class_String>` method, ... **)** vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1231
+msgid ""
+"Sends a :ref:`rpc <class_Node_method_rpc>` using an unreliable protocol. "
+"Returns an empty :ref:`Variant <class_Variant>`."
+msgstr ""
+"使用不可靠的协议发送一个 :ref:`rpc <class_Node_method_rpc>`。返回一个空的 :ref:`Variant "
+"<class_Variant>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1237
+#, fuzzy
+msgid ""
+":ref:`Variant <class_Variant>` **rpc_unreliable_id** **(** :ref:`int "
+"<class_int>` peer_id, :ref:`StringName <class_StringName>` method, ... "
+"**)** vararg"
+msgstr ""
+":ref:`Variant <class_Variant>` **rpc_unreliable_id** **(** :ref:`int "
+"<class_int>` peer_id, :ref:`String <class_String>` method, ... **)** "
+"vararg"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1239
+msgid ""
+"Sends a :ref:`rpc <class_Node_method_rpc>` to a specific peer identified "
+"by ``peer_id`` using an unreliable protocol (see "
+":ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`). Returns an "
+"empty :ref:`Variant <class_Variant>`."
+msgstr ""
+"使用不可靠的协议（参见 :ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`），将一个 :ref:`rpc "
+"<class_Node_method_rpc>` 发送到由 ``peer_id`` 标识的特定对等方。返回一个空的 :ref:`Variant "
+"<class_Variant>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1245
+#, fuzzy
+msgid ""
+"void **rset** **(** :ref:`StringName <class_StringName>` property, "
+":ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+"void **rset** **(** :ref:`String <class_String>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1247
+msgid ""
+"Remotely changes a property's value on other peers (and locally). "
+"Behaviour depends on the RPC configuration for the given property, see "
+":ref:`rset_config <class_Node_method_rset_config>`. See also :ref:`rpc "
+"<class_Node_method_rpc>` for RPCs for methods, most information applies "
+"to this method as well."
+msgstr ""
+"远程更改其他对等方（和本地）上的属性值。行为取决于给定属性的RPC配置，参见 :ref:`rset_config "
+"<class_Node_method_rset_config>`。另请参见RPC的方法 :ref:`rpc "
+"<class_Node_method_rpc>`，大多数信息也适用于此方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1253
+#, fuzzy
+msgid ""
+":ref:`int <class_int>` **rset_config** **(** :ref:`StringName "
+"<class_StringName>` property, :ref:`RPCMode "
+"<enum_MultiplayerAPI_RPCMode>` mode **)**"
+msgstr ""
+"void **rset_config** **(** :ref:`String <class_String>` property, "
+":ref:`RPCMode <enum_MultiplayerAPI_RPCMode>` mode **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1255
+msgid ""
+"Changes the RPC mode for the given ``property`` to the given ``mode``. "
+"See :ref:`RPCMode <enum_MultiplayerAPI_RPCMode>`. An alternative is "
+"annotating methods and properties with the corresponding keywords "
+"(``remote``, ``master``, ``puppet``, ``remotesync``, ``mastersync``, "
+"``puppetsync``). By default, properties are not exposed to networking "
+"(and RPCs). See also :ref:`rpc <class_Node_method_rpc>` and "
+":ref:`rpc_config <class_Node_method_rpc_config>` for methods."
+msgstr ""
+"将给定 ``property`` 的RPC模式更改为给定 ``mode``。参见 :ref:`RPCMode "
+"<enum_MultiplayerAPI_RPCMode>`。另一种方法是使用相应的关键字（``remote``, ``master``, "
+"``puppet``, ``remotesync``, ``mastersync``, "
+"``puppetsync``）注解方法和属性。默认情况下，属性不公开给网络（和RPC）。有关方法，另请参见 :ref:`rpc "
+"<class_Node_method_rpc>` 和 :ref:`rpc_config "
+"<class_Node_method_rpc_config>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1261
+#, fuzzy
+msgid ""
+"void **rset_id** **(** :ref:`int <class_int>` peer_id, :ref:`StringName "
+"<class_StringName>` property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+"void **rset_id** **(** :ref:`int <class_int>` peer_id, :ref:`String "
+"<class_String>` property, :ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1263
+msgid ""
+"Remotely changes the property's value on a specific peer identified by "
+"``peer_id`` (see :ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`)."
+msgstr ""
+"远程更改由 ``peer_id`` （请参见 :ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`）标识的特定对等方的属性值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1269
+#, fuzzy
+msgid ""
+"void **rset_unreliable** **(** :ref:`StringName <class_StringName>` "
+"property, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+"void **rset_unreliable** **(** :ref:`String <class_String>` property, "
+":ref:`Variant <class_Variant>` value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1271
+msgid ""
+"Remotely changes the property's value on other peers (and locally) using "
+"an unreliable protocol."
+msgstr "使用不可靠的协议，远程更改其他对等方（和本地地）的属性值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1277
+#, fuzzy
+msgid ""
+"void **rset_unreliable_id** **(** :ref:`int <class_int>` peer_id, "
+":ref:`StringName <class_StringName>` property, :ref:`Variant "
+"<class_Variant>` value **)**"
+msgstr ""
+"void **rset_unreliable_id** **(** :ref:`int <class_int>` peer_id, "
+":ref:`String <class_String>` property, :ref:`Variant <class_Variant>` "
+"value **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1279
+msgid ""
+"Remotely changes property's value on a specific peer identified by "
+"``peer_id`` using an unreliable protocol (see "
+":ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`)."
+msgstr ""
+"使用不可靠的协议（请参见 :ref:`NetworkedMultiplayerPeer.set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>`），远程更改由 "
+"``peer_id`` 标识的特定对等方的属性值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1285
+msgid "void **set_display_folded** **(** :ref:`bool <class_bool>` fold **)**"
+msgstr "void **set_display_folded** **(** :ref:`bool <class_bool>` fold **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1287
+msgid "Sets the folded state of the node in the Scene dock."
+msgstr "设置场景停靠面板中，节点的折叠状态。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1293
+msgid ""
+"void **set_network_master** **(** :ref:`int <class_int>` id, :ref:`bool "
+"<class_bool>` recursive=true **)**"
+msgstr ""
+"void **set_network_master** **(** :ref:`int <class_int>` id, :ref:`bool "
+"<class_bool>` recursive=true **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1295
+msgid ""
+"Sets the node's network master to the peer with the given peer ID. The "
+"network master is the peer that has authority over the node on the "
+"network. Useful in conjunction with the ``master`` and ``puppet`` "
+"keywords. Inherited from the parent node by default, which ultimately "
+"defaults to peer ID 1 (the server). If ``recursive``, the given peer is "
+"recursively set as the master for all children of this node."
+msgstr ""
+"将节点的网络 ``master`` 设置为具有给定对等ID的对等方。网络 ``master`` 是对网络上的节点具有权限的对等方。与 "
+"``master`` 和 ``puppet`` 关键字结合使用时非常有用。默认情况下继承自父节点，最终默认为对等ID 1（服务端）。如果为 "
+"``recursive``，则将给定对等方递归设置为该节点所有子节点的 ``master``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1301
+msgid "void **set_physics_process** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_physics_process** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1303
+#, fuzzy
+msgid ""
+"Enables or disables physics (i.e. fixed framerate) processing. When a "
+"node is being processed, it will receive a "
+":ref:`NOTIFICATION_PHYSICS_PROCESS "
+"<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` at a fixed (usually "
+"60 FPS, see :ref:`Engine.iterations_per_second "
+"<class_Engine_property_iterations_per_second>` to change) interval (and "
+"the :ref:`_physics_process <class_Node_method__physics_process>` callback"
+" will be called if exists). Enabled automatically if "
+":ref:`_physics_process <class_Node_method__physics_process>` is "
+"overridden. Any calls to this before :ref:`_ready "
+"<class_Node_method__ready>` will be ignored."
+msgstr ""
+"启用或禁用物理（即固定帧频）处理。在处理节点时，它将以固定的（通常为60 FPS，参见 :ref:`Engine.target_fps "
+"<class_Engine_property_target_fps>` 以更改）间隔（如果存在的话，将会调用 "
+":ref:`_physics_process <class_Node_method__physics_process>` 回调）来接收一个 "
+":ref:`NOTIFICATION_PHYSICS_PROCESS "
+"<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>`。如果 "
+":ref:`_physics_process <class_Node_method__physics_process>` "
+"被重写，则自动启用。:ref:`_ready <class_Node_method__ready>` 之前，任何对此的调用，将被忽略。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1309
+msgid ""
+"void **set_physics_process_internal** **(** :ref:`bool <class_bool>` "
+"enable **)**"
+msgstr ""
+"void **set_physics_process_internal** **(** :ref:`bool <class_bool>` "
+"enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1311
+msgid ""
+"Enables or disables internal physics for this node. Internal physics "
+"processing happens in isolation from the normal :ref:`_physics_process "
+"<class_Node_method__physics_process>` calls and is used by some nodes "
+"internally to guarantee proper functioning even if the node is paused or "
+"physics processing is disabled for scripting (:ref:`set_physics_process "
+"<class_Node_method_set_physics_process>`). Only useful for advanced uses "
+"to manipulate built-in nodes' behaviour."
+msgstr ""
+"启用或禁用此节点的内部物理。内部物理处理独立于普通的 :ref:`_physics_process "
+"<class_Node_method__physics_process>` "
+"调用发生，并且即使节点暂停或为编写脚本禁用了物理处理（:ref:`set_physics_process "
+"<class_Node_method_set_physics_process>`），某些节点内部也使用内部物理来保证其功能正常。仅对用于操纵内置节点行为的高级用途有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1317
+msgid "void **set_process** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_process** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1319
+msgid ""
+"Enables or disables processing. When a node is being processed, it will "
+"receive a :ref:`NOTIFICATION_PROCESS "
+"<class_Node_constant_NOTIFICATION_PROCESS>` on every drawn frame (and the"
+" :ref:`_process <class_Node_method__process>` callback will be called if "
+"exists). Enabled automatically if :ref:`_process "
+"<class_Node_method__process>` is overridden. Any calls to this before "
+":ref:`_ready <class_Node_method__ready>` will be ignored."
+msgstr ""
+"启用或禁用处理。处理节点时，它将在每个绘制的帧上收到一个 :ref:`NOTIFICATION_PROCESS "
+"<class_Node_constant_NOTIFICATION_PROCESS>` （如果存在，则将调用 :ref:`_process "
+"<class_Node_method__process>` 回调）。如果 :ref:`_process "
+"<class_Node_method__process>` 被重写，则自动启用。:ref:`_ready "
+"<class_Node_method__ready>` 之前，任何对此的调用，将被忽略。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1325
+msgid "void **set_process_input** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_process_input** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1327
+msgid ""
+"Enables or disables input processing. This is not required for GUI "
+"controls! Enabled automatically if :ref:`_input "
+"<class_Node_method__input>` is overridden. Any calls to this before "
+":ref:`_ready <class_Node_method__ready>` will be ignored."
+msgstr ""
+"启用或禁用输入处理。GUI控件不需要此函数！如果 :ref:`_input <class_Node_method__input>` "
+"被重写，则自动启用。:ref:`_ready <class_Node_method__ready>` 之前，任何对此的调用，将被忽略。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1333
+msgid "void **set_process_internal** **(** :ref:`bool <class_bool>` enable **)**"
+msgstr "void **set_process_internal** **(** :ref:`bool <class_bool>` enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1335
+msgid ""
+"Enables or disabled internal processing for this node. Internal "
+"processing happens in isolation from the normal :ref:`_process "
+"<class_Node_method__process>` calls and is used by some nodes internally "
+"to guarantee proper functioning even if the node is paused or processing "
+"is disabled for scripting (:ref:`set_process "
+"<class_Node_method_set_process>`). Only useful for advanced uses to "
+"manipulate built-in nodes' behaviour."
+msgstr ""
+"启用或禁用此节点的内部处理。内部处理独立于正常的 :ref:`_process <class_Node_method__process>` "
+"调用而发生，并且即使节点暂停或为编写脚本禁用了处理（:ref:`set_process "
+"<class_Node_method_set_process>`），某些节点内部也使用内部处理来保证其功能正常。仅对用于操纵内置节点行为的高级用途有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1341
+msgid ""
+"void **set_process_unhandled_input** **(** :ref:`bool <class_bool>` "
+"enable **)**"
+msgstr ""
+"void **set_process_unhandled_input** **(** :ref:`bool <class_bool>` "
+"enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1343
+msgid ""
+"Enables unhandled input processing. This is not required for GUI "
+"controls! It enables the node to receive all input that was not "
+"previously handled (usually by a :ref:`Control <class_Control>`). Enabled"
+" automatically if :ref:`_unhandled_input "
+"<class_Node_method__unhandled_input>` is overridden. Any calls to this "
+"before :ref:`_ready <class_Node_method__ready>` will be ignored."
+msgstr ""
+"启用未处理的输入处理。GUI控件不需要此函数！它使节点能够接收，以前未处理（通常由一个 :ref:`Control "
+"<class_Control>` 处理）的所有输入。如果 :ref:`_unhandled_input "
+"<class_Node_method__unhandled_input>` 被重写，则自动启用。:ref:`_ready "
+"<class_Node_method__ready>` 之前，任何对此的调用，将被忽略。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1349
+msgid ""
+"void **set_process_unhandled_key_input** **(** :ref:`bool <class_bool>` "
+"enable **)**"
+msgstr ""
+"void **set_process_unhandled_key_input** **(** :ref:`bool <class_bool>` "
+"enable **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1351
+msgid ""
+"Enables unhandled key input processing. Enabled automatically if "
+":ref:`_unhandled_key_input <class_Node_method__unhandled_key_input>` is "
+"overridden. Any calls to this before :ref:`_ready "
+"<class_Node_method__ready>` will be ignored."
+msgstr ""
+"启用未处理的按键输入处理。如果 :ref:`_unhandled_key_input "
+"<class_Node_method__unhandled_key_input>` 被重写，则自动启用。:ref:`_ready "
+"<class_Node_method__ready>` 之前，任何对此的调用，将被忽略。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1357
+msgid ""
+"void **set_scene_instance_load_placeholder** **(** :ref:`bool "
+"<class_bool>` load_placeholder **)**"
+msgstr ""
+"void **set_scene_instance_load_placeholder** **(** :ref:`bool "
+"<class_bool>` load_placeholder **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1359
+msgid ""
+"Sets whether this is an instance load placeholder. See "
+":ref:`InstancePlaceholder <class_InstancePlaceholder>`."
+msgstr "设置这是否是实例加载占位符。参见 :ref:`InstancePlaceholder <class_InstancePlaceholder>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1365
+msgid "void **update_configuration_warning** **(** **)**"
+msgstr "void **update_configuration_warning** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1367
+msgid "Updates the warning displayed for this node in the Scene Dock."
+msgstr "在场景停靠面板中，更新为此节点显示的警告。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_node.rst:1369
+msgid ""
+"Use :ref:`_get_configuration_warning "
+"<class_Node_method__get_configuration_warning>` to setup the warning "
+"message to display."
+msgstr ""
+"使用 :ref:`_get_configuration_warning "
+"<class_Node_method__get_configuration_warning>` 设置要显示的警告消息。"
+
+#~ msgid ""
+#~ ":ref:`set_process_priority "
+#~ "<class_Node_method_set_process_priority>` **(** :ref:`int"
+#~ " <class_int>` priority **)**"
+#~ msgstr ""
+#~ ":ref:`set_process_priority "
+#~ "<class_Node_method_set_process_priority>` **(** :ref:`int"
+#~ " <class_int>` priority **)**"
+
+#~ msgid ""
+#~ "void **set_process_priority** **(** :ref:`int "
+#~ "<class_int>` priority **)**"
+#~ msgstr ""
+#~ "void **set_process_priority** **(** :ref:`int "
+#~ "<class_int>` priority **)**"
+
+#~ msgid ""
+#~ "The node's priority in the execution "
+#~ "order of the enabled processing "
+#~ "callbacks (i.e. :ref:`NOTIFICATION_PROCESS "
+#~ "<class_Node_constant_NOTIFICATION_PROCESS>`, "
+#~ ":ref:`NOTIFICATION_PHYSICS_PROCESS "
+#~ "<class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` and "
+#~ "their internal counterparts). Nodes with "
+#~ "a higher process priority will have "
+#~ "their processing callbacks executed first."
+#~ msgstr ""
+#~ "节点的优先级按照已启用的处理回调的执行顺序（即 :ref:`NOTIFICATION_PROCESS "
+#~ "<class_Node_constant_NOTIFICATION_PROCESS>`、:ref:`NOTIFICATION_PHYSICS_PROCESS"
+#~ " <class_Node_constant_NOTIFICATION_PHYSICS_PROCESS>` "
+#~ "、和它们的内部对应物）。具有较高进程优先级的节点，将首先执行其处理回调。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`AnimationPlayer "
+#~ "<class_AnimationPlayer>`, :ref:`AnimationTree "
+#~ "<class_AnimationTree>`, :ref:`AnimationTreePlayer "
+#~ "<class_AnimationTreePlayer>`, :ref:`AudioStreamPlayer "
+#~ "<class_AudioStreamPlayer>`, :ref:`CanvasItem "
+#~ "<class_CanvasItem>`, :ref:`CanvasLayer "
+#~ "<class_CanvasLayer>`, :ref:`EditorFileSystem "
+#~ "<class_EditorFileSystem>`, :ref:`EditorInterface "
+#~ "<class_EditorInterface>`, :ref:`EditorPlugin "
+#~ "<class_EditorPlugin>`, :ref:`EditorResourcePreview "
+#~ "<class_EditorResourcePreview>`, :ref:`HTTPRequest "
+#~ "<class_HTTPRequest>`, :ref:`InstancePlaceholder "
+#~ "<class_InstancePlaceholder>`, :ref:`ResourcePreloader "
+#~ "<class_ResourcePreloader>`, :ref:`SkeletonIK "
+#~ "<class_SkeletonIK>`, :ref:`Spatial <class_Spatial>`, "
+#~ ":ref:`Timer <class_Timer>`, :ref:`Tween "
+#~ "<class_Tween>`, :ref:`Viewport <class_Viewport>`, "
+#~ ":ref:`WorldEnvironment <class_WorldEnvironment>`"
+#~ msgstr ""
+#~ "**子类**：:ref:`AnimationPlayer <class_AnimationPlayer>`, "
+#~ ":ref:`AnimationTree <class_AnimationTree>`, "
+#~ ":ref:`AnimationTreePlayer <class_AnimationTreePlayer>`, "
+#~ ":ref:`AudioStreamPlayer <class_AudioStreamPlayer>`, "
+#~ ":ref:`CanvasItem <class_CanvasItem>`, :ref:`CanvasLayer"
+#~ " <class_CanvasLayer>`, :ref:`EditorFileSystem "
+#~ "<class_EditorFileSystem>`, :ref:`EditorInterface "
+#~ "<class_EditorInterface>`, :ref:`EditorPlugin "
+#~ "<class_EditorPlugin>`, :ref:`EditorResourcePreview "
+#~ "<class_EditorResourcePreview>`, :ref:`HTTPRequest "
+#~ "<class_HTTPRequest>`, :ref:`InstancePlaceholder "
+#~ "<class_InstancePlaceholder>`, :ref:`ResourcePreloader "
+#~ "<class_ResourcePreloader>`, :ref:`SkeletonIK "
+#~ "<class_SkeletonIK>`, :ref:`Spatial <class_Spatial>`, "
+#~ ":ref:`Timer <class_Timer>`, :ref:`Tween "
+#~ "<class_Tween>`, :ref:`Viewport <class_Viewport>`, "
+#~ ":ref:`WorldEnvironment <class_WorldEnvironment>`"
+
+#~ msgid ""
+#~ "Adds a child node. The child is"
+#~ " placed below the given node in "
+#~ "the list of children."
+#~ msgstr "添加一个子节点。该子级在子级列表中，位于给定节点的下方。"
+

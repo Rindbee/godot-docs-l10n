@@ -1,0 +1,974 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-11-01 07:53+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:10
+msgid "Theme"
+msgstr "Theme"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:14
+msgid "Theme for controls."
+msgstr "控件的主题。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:19
+msgid ""
+"A theme for skinning controls. Controls can be skinned individually, but "
+"for complex applications, it's more practical to just create a global "
+"theme that defines everything. This theme can be applied to any "
+":ref:`Control <class_Control>`; the Control and its children will "
+"automatically use it."
+msgstr ""
+"控件外观的主题。控件可以单独设置外观，但是对于复杂的应用程序，创建一个定义所有内容的全局主题更为实用。该主题可以应用于任何 "
+":ref:`Control <class_Control>`；控件及其子级将自动使用它。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:21
+msgid ""
+"Theme resources can alternatively be loaded by writing them in a "
+"``.theme`` file, see the documentation for more information."
+msgstr "也可以通过将主题资源写入 ``.theme`` 文件中，来加载主题资源，有关更多信息，请参见文档。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:26
+msgid ":doc:`../tutorials/gui/gui_skinning`"
+msgstr ":doc:`../tutorials/gui/gui_skinning`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:63
+msgid ":ref:`Font <class_Font>`"
+msgstr ":ref:`Font <class_Font>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:32
+msgid ":ref:`default_font <class_Theme_property_default_font>`"
+msgstr ":ref:`default_font <class_Theme_property_default_font>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:36
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:97
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:39
+msgid ":ref:`clear <class_Theme_method_clear>` **(** **)**"
+msgstr ":ref:`clear <class_Theme_method_clear>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:41
+#, fuzzy
+msgid ""
+":ref:`clear_color <class_Theme_method_clear_color>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)**"
+msgstr ""
+":ref:`clear_color <class_Theme_method_clear_color>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:43
+#, fuzzy
+msgid ""
+":ref:`clear_constant <class_Theme_method_clear_constant>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)**"
+msgstr ""
+":ref:`clear_constant <class_Theme_method_clear_constant>` **(** "
+":ref:`String <class_String>` name, :ref:`String <class_String>` type "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:45
+#, fuzzy
+msgid ""
+":ref:`clear_font <class_Theme_method_clear_font>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+":ref:`clear_font <class_Theme_method_clear_font>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:47
+#, fuzzy
+msgid ""
+":ref:`clear_icon <class_Theme_method_clear_icon>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+":ref:`clear_icon <class_Theme_method_clear_icon>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:49
+#, fuzzy
+msgid ""
+":ref:`clear_stylebox <class_Theme_method_clear_stylebox>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)**"
+msgstr ""
+":ref:`clear_stylebox <class_Theme_method_clear_stylebox>` **(** "
+":ref:`String <class_String>` name, :ref:`String <class_String>` type "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:51
+msgid ""
+":ref:`copy_default_theme <class_Theme_method_copy_default_theme>` **(** "
+"**)**"
+msgstr ""
+":ref:`copy_default_theme <class_Theme_method_copy_default_theme>` **(** "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:53
+msgid ""
+":ref:`copy_theme <class_Theme_method_copy_theme>` **(** :ref:`Theme "
+"<class_Theme>` other **)**"
+msgstr ""
+":ref:`copy_theme <class_Theme_method_copy_theme>` **(** :ref:`Theme "
+"<class_Theme>` other **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:55
+msgid ":ref:`Color <class_Color>`"
+msgstr ":ref:`Color <class_Color>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:55
+#, fuzzy
+msgid ""
+":ref:`get_color <class_Theme_method_get_color>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`get_color <class_Theme_method_get_color>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:77
+#, fuzzy
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ":ref:`PoolStringArray <class_PoolStringArray>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:57
+msgid ""
+":ref:`get_color_list <class_Theme_method_get_color_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`get_color_list <class_Theme_method_get_color_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:59
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:59
+#, fuzzy
+msgid ""
+":ref:`get_constant <class_Theme_method_get_constant>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)** const"
+msgstr ""
+":ref:`get_constant <class_Theme_method_get_constant>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:61
+msgid ""
+":ref:`get_constant_list <class_Theme_method_get_constant_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`get_constant_list <class_Theme_method_get_constant_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:63
+#, fuzzy
+msgid ""
+":ref:`get_font <class_Theme_method_get_font>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`get_font <class_Theme_method_get_font>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:65
+msgid ""
+":ref:`get_font_list <class_Theme_method_get_font_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`get_font_list <class_Theme_method_get_font_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:67
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:67
+#, fuzzy
+msgid ""
+":ref:`get_icon <class_Theme_method_get_icon>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`get_icon <class_Theme_method_get_icon>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:69
+msgid ""
+":ref:`get_icon_list <class_Theme_method_get_icon_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`get_icon_list <class_Theme_method_get_icon_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:71
+msgid ":ref:`StyleBox <class_StyleBox>`"
+msgstr ":ref:`StyleBox <class_StyleBox>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:71
+#, fuzzy
+msgid ""
+":ref:`get_stylebox <class_Theme_method_get_stylebox>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)** const"
+msgstr ""
+":ref:`get_stylebox <class_Theme_method_get_stylebox>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:73
+msgid ""
+":ref:`get_stylebox_list <class_Theme_method_get_stylebox_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`get_stylebox_list <class_Theme_method_get_stylebox_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:75
+msgid ""
+":ref:`get_stylebox_types <class_Theme_method_get_stylebox_types>` **(** "
+"**)** const"
+msgstr ""
+":ref:`get_stylebox_types <class_Theme_method_get_stylebox_types>` **(** "
+"**)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:77
+msgid ""
+":ref:`get_type_list <class_Theme_method_get_type_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`get_type_list <class_Theme_method_get_type_list>` **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:83
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:87
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:79
+#, fuzzy
+msgid ""
+":ref:`has_color <class_Theme_method_has_color>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`has_color <class_Theme_method_has_color>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:81
+#, fuzzy
+msgid ""
+":ref:`has_constant <class_Theme_method_has_constant>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)** const"
+msgstr ""
+":ref:`has_constant <class_Theme_method_has_constant>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:83
+#, fuzzy
+msgid ""
+":ref:`has_font <class_Theme_method_has_font>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`has_font <class_Theme_method_has_font>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:85
+#, fuzzy
+msgid ""
+":ref:`has_icon <class_Theme_method_has_icon>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`has_icon <class_Theme_method_has_icon>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:87
+#, fuzzy
+msgid ""
+":ref:`has_stylebox <class_Theme_method_has_stylebox>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type **)** const"
+msgstr ""
+":ref:`has_stylebox <class_Theme_method_has_stylebox>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:89
+#, fuzzy
+msgid ""
+":ref:`set_color <class_Theme_method_set_color>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type, "
+":ref:`Color <class_Color>` color **)**"
+msgstr ""
+":ref:`set_color <class_Theme_method_set_color>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type, :ref:`Color "
+"<class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:91
+#, fuzzy
+msgid ""
+":ref:`set_constant <class_Theme_method_set_constant>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type, :ref:`int <class_int>` constant **)**"
+msgstr ""
+":ref:`set_constant <class_Theme_method_set_constant>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type, :ref:`int "
+"<class_int>` constant **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:93
+#, fuzzy
+msgid ""
+":ref:`set_font <class_Theme_method_set_font>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type, "
+":ref:`Font <class_Font>` font **)**"
+msgstr ""
+":ref:`set_font <class_Theme_method_set_font>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type, :ref:`Font "
+"<class_Font>` font **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:95
+#, fuzzy
+msgid ""
+":ref:`set_icon <class_Theme_method_set_icon>` **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type, "
+":ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+":ref:`set_icon <class_Theme_method_set_icon>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type, :ref:`Texture "
+"<class_Texture>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:97
+#, fuzzy
+msgid ""
+":ref:`set_stylebox <class_Theme_method_set_stylebox>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` type, :ref:`StyleBox <class_StyleBox>` texture **)**"
+msgstr ""
+":ref:`set_stylebox <class_Theme_method_set_stylebox>` **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type, :ref:`StyleBox "
+"<class_StyleBox>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:101
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:105
+msgid ":ref:`Font <class_Font>` **default_font**"
+msgstr ":ref:`Font <class_Font>` **default_font**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:108
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:108
+msgid "set_default_font(value)"
+msgstr "set_default_font(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:110
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:110
+msgid "get_default_font()"
+msgstr "get_default_font()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:113
+msgid "The theme's default font."
+msgstr "主题的默认字体。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:116
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:120
+msgid "void **clear** **(** **)**"
+msgstr "void **clear** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:122
+msgid "Clears all values on the theme."
+msgstr "清除主题上的所有值。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:128
+#, fuzzy
+msgid ""
+"void **clear_color** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+"void **clear_color** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:130
+#, fuzzy
+msgid ""
+"Clears the :ref:`Color <class_Color>` at ``name`` if the theme has "
+"``type``."
+msgstr "如果主题有 ``type``，则清除 ``name`` 处的 :ref:`Color <class_Color>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:136
+#, fuzzy
+msgid ""
+"void **clear_constant** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+"void **clear_constant** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:138
+#, fuzzy
+msgid "Clears the constant at ``name`` if the theme has ``type``."
+msgstr "如果主题有 ``type``，则清除 ``name`` 处的常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:144
+#, fuzzy
+msgid ""
+"void **clear_font** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+"void **clear_font** **(** :ref:`String <class_String>` name, :ref:`String"
+" <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:146
+#, fuzzy
+msgid "Clears the :ref:`Font <class_Font>` at ``name`` if the theme has ``type``."
+msgstr "如果主题有 ``type``，则清除 ``name`` 处的 :ref:`Font <class_Font>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:152
+#, fuzzy
+msgid ""
+"void **clear_icon** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+"void **clear_icon** **(** :ref:`String <class_String>` name, :ref:`String"
+" <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:154
+#, fuzzy
+msgid "Clears the icon at ``name`` if the theme has ``type``."
+msgstr "如果主题有 ``type``，则清除 ``name`` 处的图标。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:160
+#, fuzzy
+msgid ""
+"void **clear_stylebox** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type **)**"
+msgstr ""
+"void **clear_stylebox** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` type **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:162
+#, fuzzy
+msgid ""
+"Clears :ref:`StyleBox <class_StyleBox>` at ``name`` if the theme has "
+"``type``."
+msgstr "如果主题有 ``type``，则清除 ``name`` 处的 :ref:`StyleBox <class_StyleBox>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:168
+msgid "void **copy_default_theme** **(** **)**"
+msgstr "void **copy_default_theme** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:170
+#, fuzzy
+msgid "Sets the theme's values to a copy of the default theme values."
+msgstr "将主题的值设置为默认主题值的副本。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:176
+msgid "void **copy_theme** **(** :ref:`Theme <class_Theme>` other **)**"
+msgstr "void **copy_theme** **(** :ref:`Theme <class_Theme>` other **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:178
+#, fuzzy
+msgid "Sets the theme's values to a copy of a given theme."
+msgstr "将主题的值设置为给定主题的副本。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:184
+#, fuzzy
+msgid ""
+":ref:`Color <class_Color>` **get_color** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`Color <class_Color>` **get_color** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:186
+#, fuzzy
+msgid ""
+"Returns the :ref:`Color <class_Color>` at ``name`` if the theme has "
+"``type``."
+msgstr "如果主题有 ``type``，则返回 ``name`` 处的 :ref:`Color <class_Color>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:192
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_color_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_color_list** **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:194
+#, fuzzy
+msgid ""
+"Returns all the :ref:`Color <class_Color>`\\ s as a "
+":ref:`PackedStringArray <class_PackedStringArray>` filled with each "
+":ref:`Color <class_Color>`'s name, for use in :ref:`get_color "
+"<class_Theme_method_get_color>`, if the theme has ``type``."
+msgstr ""
+"将所有 :ref:`Color <class_Color>` 作为一个 :ref:`PoolStringArray "
+"<class_PoolStringArray>` 返回，并以每个 :ref:`Color <class_Color>` 的名称填充，然后在 "
+":ref:`get_color <class_Theme_method_get_color>` 中使用，如果主题具有 ``type``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:200
+#, fuzzy
+msgid ""
+":ref:`int <class_int>` **get_constant** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`int <class_int>` **get_constant** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:202
+#, fuzzy
+msgid "Returns the constant at ``name`` if the theme has ``type``."
+msgstr "如果主题有 ``type``，则返回 ``name`` 处的常量。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:208
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_constant_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_constant_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:210
+#, fuzzy
+msgid ""
+"Returns all the constants as a :ref:`PackedStringArray "
+"<class_PackedStringArray>` filled with each constant's name, for use in "
+":ref:`get_constant <class_Theme_method_get_constant>`, if the theme has "
+"``type``."
+msgstr ""
+"将所有常量作为一个 :ref:`PoolStringArray <class_PoolStringArray>` "
+"返回，并以每个常量的名称填充，然后在 :ref:`get_constant <class_Theme_method_get_constant>` "
+"中使用，如果主题具有 ``type``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:216
+#, fuzzy
+msgid ""
+":ref:`Font <class_Font>` **get_font** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`Font <class_Font>` **get_font** **(** :ref:`String <class_String>` "
+"name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:218
+#, fuzzy
+msgid ""
+"Returns the :ref:`Font <class_Font>` at ``name`` if the theme has "
+"``type``."
+msgstr "如果主题有 ``type``，则返回 ``name`` 处的 :ref:`Font <class_Font>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:224
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_font_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_font_list** **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:226
+#, fuzzy
+msgid ""
+"Returns all the :ref:`Font <class_Font>`\\ s as a :ref:`PackedStringArray"
+" <class_PackedStringArray>` filled with each :ref:`Font <class_Font>`'s "
+"name, for use in :ref:`get_font <class_Theme_method_get_font>`, if the "
+"theme has ``type``."
+msgstr ""
+"将所有 :ref:`Font <class_Font>` 作为一个 :ref:`PoolStringArray "
+"<class_PoolStringArray>` 返回，并以每个 :ref:`Font <class_Font>` 的名称填充，然后在 "
+":ref:`get_font <class_Theme_method_get_font>` 中使用，如果主题具有 ``type``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:232
+#, fuzzy
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_icon** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`Texture <class_Texture>` **get_icon** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:234
+#, fuzzy
+msgid ""
+"Returns the icon :ref:`Texture2D <class_Texture2D>` at ``name`` if the "
+"theme has ``type``."
+msgstr "如果主题有 ``type``，则返回 ``name`` 处的图标 :ref:`Texture <class_Texture>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:240
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_icon_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_icon_list** **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:242
+#, fuzzy
+msgid ""
+"Returns all the icons as a :ref:`PackedStringArray "
+"<class_PackedStringArray>` filled with each :ref:`Texture2D "
+"<class_Texture2D>`'s name, for use in :ref:`get_icon "
+"<class_Theme_method_get_icon>`, if the theme has ``type``."
+msgstr ""
+"将所有图标作为一个 :ref:`PoolStringArray <class_PoolStringArray>` 返回，并以每个 "
+":ref:`Texture <class_Texture>` 的名称填充，然后在 :ref:`get_icon "
+"<class_Theme_method_get_icon>` 中使用，如果主题具有 ``type``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:248
+#, fuzzy
+msgid ""
+":ref:`StyleBox <class_StyleBox>` **get_stylebox** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`StyleBox <class_StyleBox>` **get_stylebox** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:250
+#, fuzzy
+msgid ""
+"Returns the icon :ref:`StyleBox <class_StyleBox>` at ``name`` if the "
+"theme has ``type``."
+msgstr "如果主题有 ``type``，则返回 ``name`` 处的图标 :ref:`StyleBox <class_StyleBox>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:256
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_stylebox_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_stylebox_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:258
+#, fuzzy
+msgid ""
+"Returns all the :ref:`StyleBox <class_StyleBox>`\\ s as a "
+":ref:`PackedStringArray <class_PackedStringArray>` filled with each "
+":ref:`StyleBox <class_StyleBox>`'s name, for use in :ref:`get_stylebox "
+"<class_Theme_method_get_stylebox>`, if the theme has ``type``."
+msgstr ""
+"将所有 :ref:`StyleBox <class_StyleBox>` 作为一个 :ref:`PoolStringArray "
+"<class_PoolStringArray>` 返回，并以每个 :ref:`StyleBox <class_StyleBox>` "
+"的名称填充，然后在 :ref:`get_stylebox <class_Theme_method_get_stylebox>` "
+"中使用，如果主题具有 ``type``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:264
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_stylebox_types**"
+" **(** **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_stylebox_types** "
+"**(** **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:266
+#, fuzzy
+msgid ""
+"Returns all the :ref:`StyleBox <class_StyleBox>` types as a "
+":ref:`PackedStringArray <class_PackedStringArray>` filled with each "
+":ref:`StyleBox <class_StyleBox>`'s type, for use in :ref:`get_stylebox "
+"<class_Theme_method_get_stylebox>` and/or :ref:`get_stylebox_list "
+"<class_Theme_method_get_stylebox_list>`, if the theme has ``type``."
+msgstr ""
+"将所有 :ref:`StyleBox <class_StyleBox>` 作为一个 :ref:`PoolStringArray "
+"<class_PoolStringArray>` 返回，并以每个 :ref:`StyleBox <class_StyleBox>` "
+"的名称填充，然后在 :ref:`get_stylebox <class_Theme_method_get_stylebox>` 和/或 "
+":ref:`get_stylebox_list <class_Theme_method_get_stylebox_list>` "
+"中使用，如果主题具有 ``type``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:272
+#, fuzzy
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_type_list** "
+"**(** :ref:`String <class_String>` type **)** const"
+msgstr ""
+":ref:`PoolStringArray <class_PoolStringArray>` **get_type_list** **(** "
+":ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:274
+#, fuzzy
+msgid ""
+"Returns all the types in ``type`` as a :ref:`PackedStringArray "
+"<class_PackedStringArray>` for use in any of the ``get_*`` functions, if "
+"the theme has ``type``."
+msgstr ""
+"如果主题有 ``type``，则将 ``type`` 内的所有类型，作为一个 :ref:`PoolStringArray "
+"<class_PoolStringArray>` 返回，以便在任何 ``get_*`` 函数中使用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:280
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_color** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`bool <class_bool>` **has_color** **(** :ref:`String <class_String>`"
+" name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:282
+msgid ""
+"Returns ``true`` if :ref:`Color <class_Color>` with ``name`` is in "
+"``type``."
+msgstr "如果具有 ``name`` 的 :ref:`Color <class_Color>` 位于 ``type`` 中，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:284
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:294
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:304
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:314
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:324
+#, fuzzy
+msgid "Returns ``false`` if the theme does not have ``type``."
+msgstr "如果主题不具有 ``type``，则返回 ``false``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:290
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_constant** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`bool <class_bool>` **has_constant** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:292
+msgid "Returns ``true`` if constant with ``name`` is in ``type``."
+msgstr "如果具有 ``name`` 的常量位于 ``type`` 中，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:300
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_font** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`bool <class_bool>` **has_font** **(** :ref:`String <class_String>` "
+"name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:302
+msgid "Returns ``true`` if :ref:`Font <class_Font>` with ``name`` is in ``type``."
+msgstr "如果具有 ``name`` 的 :ref:`Font <class_Font>` 位于 ``type`` 中，则返回 ``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:310
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_icon** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`bool <class_bool>` **has_icon** **(** :ref:`String <class_String>` "
+"name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:312
+#, fuzzy
+msgid ""
+"Returns ``true`` if icon :ref:`Texture2D <class_Texture2D>` with ``name``"
+" is in ``type``."
+msgstr ""
+"如果具有 ``name`` 的图标 :ref:`Texture <class_Texture>` 位于 ``type`` 中，则返回 "
+"``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:320
+#, fuzzy
+msgid ""
+":ref:`bool <class_bool>` **has_stylebox** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`StringName <class_StringName>` type **)**"
+" const"
+msgstr ""
+":ref:`bool <class_bool>` **has_stylebox** **(** :ref:`String "
+"<class_String>` name, :ref:`String <class_String>` type **)** const"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:322
+msgid ""
+"Returns ``true`` if :ref:`StyleBox <class_StyleBox>` with ``name`` is in "
+"``type``."
+msgstr ""
+"如果具有 ``name`` 的 :ref:`StyleBox <class_StyleBox>` 位于 ``type`` 中，则返回 "
+"``true``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:330
+#, fuzzy
+msgid ""
+"void **set_color** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type, :ref:`Color <class_Color>` "
+"color **)**"
+msgstr ""
+"void **set_color** **(** :ref:`String <class_String>` name, :ref:`String "
+"<class_String>` type, :ref:`Color <class_Color>` color **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:332
+#, fuzzy
+msgid ""
+"Sets the theme's :ref:`Color <class_Color>` to ``color`` at ``name`` in "
+"``type``."
+msgstr "将在 ``type`` 中 ``name`` 处的主题 :ref:`Color <class_Color>`，设为 ``color``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:334
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:344
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:354
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:364
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:374
+#, fuzzy
+msgid "Does nothing if the theme does not have ``type``."
+msgstr "如果主题没有 ``type``，则不执行任何操作。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:340
+#, fuzzy
+msgid ""
+"void **set_constant** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type, :ref:`int <class_int>` "
+"constant **)**"
+msgstr ""
+"void **set_constant** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` type, :ref:`int <class_int>` constant **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:342
+#, fuzzy
+msgid "Sets the theme's constant to ``constant`` at ``name`` in ``type``."
+msgstr "将在 ``type`` 中 ``name`` 处的主题常量，设为 ``constant``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:350
+#, fuzzy
+msgid ""
+"void **set_font** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type, :ref:`Font <class_Font>` font "
+"**)**"
+msgstr ""
+"void **set_font** **(** :ref:`String <class_String>` name, :ref:`String "
+"<class_String>` type, :ref:`Font <class_Font>` font **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:352
+#, fuzzy
+msgid ""
+"Sets the theme's :ref:`Font <class_Font>` to ``font`` at ``name`` in "
+"``type``."
+msgstr "将在 ``type`` 中 ``name`` 处的主题 :ref:`Font <class_Font>`，设为 ``font``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:360
+#, fuzzy
+msgid ""
+"void **set_icon** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type, :ref:`Texture2D "
+"<class_Texture2D>` texture **)**"
+msgstr ""
+"void **set_icon** **(** :ref:`String <class_String>` name, :ref:`String "
+"<class_String>` type, :ref:`Texture <class_Texture>` texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:362
+#, fuzzy
+msgid ""
+"Sets the theme's icon :ref:`Texture2D <class_Texture2D>` to ``texture`` "
+"at ``name`` in ``type``."
+msgstr ""
+"将在 ``type`` 中 ``name`` 处的主题图标 :ref:`Texture <class_Texture>` ，设为 "
+"``texture``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:370
+#, fuzzy
+msgid ""
+"void **set_stylebox** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` type, :ref:`StyleBox "
+"<class_StyleBox>` texture **)**"
+msgstr ""
+"void **set_stylebox** **(** :ref:`String <class_String>` name, "
+":ref:`String <class_String>` type, :ref:`StyleBox <class_StyleBox>` "
+"texture **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_theme.rst:372
+#, fuzzy
+msgid ""
+"Sets theme's :ref:`StyleBox <class_StyleBox>` to ``stylebox`` at ``name``"
+" in ``type``."
+msgstr ""
+"将在 ``type`` 中 ``name`` 处的主题 :ref:`StyleBox <class_StyleBox>`，设为 "
+"``stylebox``。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

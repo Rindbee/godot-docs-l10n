@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:10
+msgid "NavigationServer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:14
+msgid "Server interface for low-level 3D navigation access"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:19
+msgid ""
+"NavigationServer is the server responsible for all 3D navigation. It "
+"creates the agents, maps, and regions for navigation to work as expected."
+" This keeps tracks of any call and executes them during the sync phase. "
+"This means that you can request any change to the map, using any thread, "
+"without worrying."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:83
+msgid ":ref:`RID <class_RID>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:25
+msgid ""
+":ref:`agent_create <class_NavigationServer_method_agent_create>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:69
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:27
+msgid ""
+":ref:`agent_is_map_changed "
+"<class_NavigationServer_method_agent_is_map_changed>` **(** :ref:`RID "
+"<class_RID>` agent **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:75
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:77
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:89
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:91
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:29
+msgid ""
+":ref:`agent_set_callback "
+"<class_NavigationServer_method_agent_set_callback>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`Object <class_Object>` receiver, "
+":ref:`StringName <class_StringName>` method, :ref:`Variant "
+"<class_Variant>` userdata=null **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:31
+msgid ""
+":ref:`agent_set_map <class_NavigationServer_method_agent_set_map>` **(** "
+":ref:`RID <class_RID>` agent, :ref:`RID <class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:33
+msgid ""
+":ref:`agent_set_max_neighbors "
+"<class_NavigationServer_method_agent_set_max_neighbors>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`int <class_int>` count **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:35
+msgid ""
+":ref:`agent_set_max_speed "
+"<class_NavigationServer_method_agent_set_max_speed>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`float <class_float>` max_speed **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:37
+msgid ""
+":ref:`agent_set_neighbor_dist "
+"<class_NavigationServer_method_agent_set_neighbor_dist>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`float <class_float>` dist **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:39
+msgid ""
+":ref:`agent_set_position "
+"<class_NavigationServer_method_agent_set_position>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`Vector3 <class_Vector3>` position **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:41
+msgid ""
+":ref:`agent_set_radius <class_NavigationServer_method_agent_set_radius>` "
+"**(** :ref:`RID <class_RID>` agent, :ref:`float <class_float>` radius "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:43
+msgid ""
+":ref:`agent_set_target_velocity "
+"<class_NavigationServer_method_agent_set_target_velocity>` **(** "
+":ref:`RID <class_RID>` agent, :ref:`Vector3 <class_Vector3>` "
+"target_velocity **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:45
+msgid ""
+":ref:`agent_set_time_horizon "
+"<class_NavigationServer_method_agent_set_time_horizon>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`float <class_float>` time **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:47
+msgid ""
+":ref:`agent_set_velocity "
+"<class_NavigationServer_method_agent_set_velocity>` **(** :ref:`RID "
+"<class_RID>` agent, :ref:`Vector3 <class_Vector3>` velocity **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:49
+msgid ""
+":ref:`free <class_NavigationServer_method_free>` **(** :ref:`RID "
+"<class_RID>` object **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:51
+msgid ""
+":ref:`map_create <class_NavigationServer_method_map_create>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:63
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:53
+msgid ""
+":ref:`map_get_cell_size "
+"<class_NavigationServer_method_map_get_cell_size>` **(** :ref:`RID "
+"<class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:67
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:55
+msgid ""
+":ref:`map_get_closest_point "
+"<class_NavigationServer_method_map_get_closest_point>` **(** :ref:`RID "
+"<class_RID>` map, :ref:`Vector3 <class_Vector3>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:57
+msgid ""
+":ref:`map_get_closest_point_normal "
+"<class_NavigationServer_method_map_get_closest_point_normal>` **(** "
+":ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` to_point **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:59
+msgid ""
+":ref:`map_get_closest_point_owner "
+"<class_NavigationServer_method_map_get_closest_point_owner>` **(** "
+":ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` to_point **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:61
+msgid ""
+":ref:`map_get_closest_point_to_segment "
+"<class_NavigationServer_method_map_get_closest_point_to_segment>` **(** "
+":ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` start, "
+":ref:`Vector3 <class_Vector3>` end, :ref:`bool <class_bool>` "
+"use_collision=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:63
+msgid ""
+":ref:`map_get_edge_connection_margin "
+"<class_NavigationServer_method_map_get_edge_connection_margin>` **(** "
+":ref:`RID <class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:65
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:65
+msgid ""
+":ref:`map_get_path <class_NavigationServer_method_map_get_path>` **(** "
+":ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` origin, "
+":ref:`Vector3 <class_Vector3>` destination, :ref:`bool <class_bool>` "
+"optimize **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:67
+msgid ""
+":ref:`map_get_up <class_NavigationServer_method_map_get_up>` **(** "
+":ref:`RID <class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:69
+msgid ""
+":ref:`map_is_active <class_NavigationServer_method_map_is_active>` **(** "
+":ref:`RID <class_RID>` nap **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:71
+msgid ""
+":ref:`map_set_active <class_NavigationServer_method_map_set_active>` "
+"**(** :ref:`RID <class_RID>` map, :ref:`bool <class_bool>` active **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:73
+msgid ""
+":ref:`map_set_cell_size "
+"<class_NavigationServer_method_map_set_cell_size>` **(** :ref:`RID "
+"<class_RID>` map, :ref:`float <class_float>` cell_size **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:75
+msgid ""
+":ref:`map_set_edge_connection_margin "
+"<class_NavigationServer_method_map_set_edge_connection_margin>` **(** "
+":ref:`RID <class_RID>` map, :ref:`float <class_float>` margin **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:77
+msgid ""
+":ref:`map_set_up <class_NavigationServer_method_map_set_up>` **(** "
+":ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` up **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:79
+msgid ""
+":ref:`process <class_NavigationServer_method_process>` **(** :ref:`float "
+"<class_float>` delta_time **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:81
+msgid ""
+":ref:`region_bake_navmesh "
+"<class_NavigationServer_method_region_bake_navmesh>` **(** "
+":ref:`NavigationMesh <class_NavigationMesh>` mesh, :ref:`Node "
+"<class_Node>` node **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:83
+msgid ""
+":ref:`region_create <class_NavigationServer_method_region_create>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:85
+msgid ""
+":ref:`region_set_map <class_NavigationServer_method_region_set_map>` "
+"**(** :ref:`RID <class_RID>` region, :ref:`RID <class_RID>` map **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:87
+msgid ""
+":ref:`region_set_navmesh "
+"<class_NavigationServer_method_region_set_navmesh>` **(** :ref:`RID "
+"<class_RID>` region, :ref:`NavigationMesh <class_NavigationMesh>` "
+"nav_mesh **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:89
+msgid ""
+":ref:`region_set_transform "
+"<class_NavigationServer_method_region_set_transform>` **(** :ref:`RID "
+"<class_RID>` region, :ref:`Transform <class_Transform>` transform **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:91
+msgid ""
+":ref:`set_active <class_NavigationServer_method_set_active>` **(** "
+":ref:`bool <class_bool>` active **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:95
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:99
+msgid ":ref:`RID <class_RID>` **agent_create** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:101
+msgid "Creates the agent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:107
+msgid ""
+":ref:`bool <class_bool>` **agent_is_map_changed** **(** :ref:`RID "
+"<class_RID>` agent **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:109
+msgid "Returns true if the map got changed the previous frame."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:115
+msgid ""
+"void **agent_set_callback** **(** :ref:`RID <class_RID>` agent, "
+":ref:`Object <class_Object>` receiver, :ref:`StringName "
+"<class_StringName>` method, :ref:`Variant <class_Variant>` userdata=null "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:117
+msgid "Callback called at the end of the RVO process."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:123
+msgid ""
+"void **agent_set_map** **(** :ref:`RID <class_RID>` agent, :ref:`RID "
+"<class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:125
+msgid "Puts the agent in the map."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:131
+msgid ""
+"void **agent_set_max_neighbors** **(** :ref:`RID <class_RID>` agent, "
+":ref:`int <class_int>` count **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:133
+msgid ""
+"Sets the maximum number of other agents the agent takes into account in "
+"the navigation. The larger this number, the longer the running time of "
+"the simulation. If the number is too low, the simulation will not be "
+"safe."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:139
+msgid ""
+"void **agent_set_max_speed** **(** :ref:`RID <class_RID>` agent, "
+":ref:`float <class_float>` max_speed **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:141
+msgid "Sets the maximum speed of the agent. Must be positive."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:147
+msgid ""
+"void **agent_set_neighbor_dist** **(** :ref:`RID <class_RID>` agent, "
+":ref:`float <class_float>` dist **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:149
+msgid ""
+"Sets the maximum distance to other agents this agent takes into account "
+"in the navigation. The larger this number, the longer the running time of"
+" the simulation. If the number is too low, the simulation will not be "
+"safe."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:155
+msgid ""
+"void **agent_set_position** **(** :ref:`RID <class_RID>` agent, "
+":ref:`Vector3 <class_Vector3>` position **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:157
+msgid "Sets the position of the agent in world space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:163
+msgid ""
+"void **agent_set_radius** **(** :ref:`RID <class_RID>` agent, :ref:`float"
+" <class_float>` radius **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:165
+msgid "Sets the radius of the agent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:171
+msgid ""
+"void **agent_set_target_velocity** **(** :ref:`RID <class_RID>` agent, "
+":ref:`Vector3 <class_Vector3>` target_velocity **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:173
+msgid "Sets the new target velocity."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:179
+msgid ""
+"void **agent_set_time_horizon** **(** :ref:`RID <class_RID>` agent, "
+":ref:`float <class_float>` time **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:181
+msgid ""
+"The minimal amount of time for which the agent's velocities that are "
+"computed by the simulation are safe with respect to other agents. The "
+"larger this number, the sooner this agent will respond to the presence of"
+" other agents, but the less freedom this agent has in choosing its "
+"velocities. Must be positive."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:187
+msgid ""
+"void **agent_set_velocity** **(** :ref:`RID <class_RID>` agent, "
+":ref:`Vector3 <class_Vector3>` velocity **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:189
+msgid "Sets the current velocity of the agent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:195
+msgid "void **free** **(** :ref:`RID <class_RID>` object **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:197
+msgid "Destroy the RID"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:203
+msgid ":ref:`RID <class_RID>` **map_create** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:205
+msgid "Create a new map."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:211
+msgid ""
+":ref:`float <class_float>` **map_get_cell_size** **(** :ref:`RID "
+"<class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:213
+msgid "Returns the map cell size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:219
+msgid ""
+":ref:`Vector3 <class_Vector3>` **map_get_closest_point** **(** :ref:`RID "
+"<class_RID>` map, :ref:`Vector3 <class_Vector3>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:221
+msgid ""
+"Returns the point closest to the provided ``point`` on the navigation "
+"mesh surface."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:227
+msgid ""
+":ref:`Vector3 <class_Vector3>` **map_get_closest_point_normal** **(** "
+":ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` to_point **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:229
+msgid ""
+"Returns the normal for the point returned by :ref:`map_get_closest_point "
+"<class_NavigationServer_method_map_get_closest_point>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:235
+msgid ""
+":ref:`RID <class_RID>` **map_get_closest_point_owner** **(** :ref:`RID "
+"<class_RID>` map, :ref:`Vector3 <class_Vector3>` to_point **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:237
+msgid ""
+"Returns the owner region RID for the point returned by "
+":ref:`map_get_closest_point "
+"<class_NavigationServer_method_map_get_closest_point>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:243
+msgid ""
+":ref:`Vector3 <class_Vector3>` **map_get_closest_point_to_segment** **(**"
+" :ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` start, "
+":ref:`Vector3 <class_Vector3>` end, :ref:`bool <class_bool>` "
+"use_collision=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:245
+msgid "Returns the closest point between the navigation surface and the segment."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:251
+msgid ""
+":ref:`float <class_float>` **map_get_edge_connection_margin** **(** "
+":ref:`RID <class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:253
+msgid "Returns the edge connection margin of the map."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:259
+msgid ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` **map_get_path** "
+"**(** :ref:`RID <class_RID>` map, :ref:`Vector3 <class_Vector3>` origin, "
+":ref:`Vector3 <class_Vector3>` destination, :ref:`bool <class_bool>` "
+"optimize **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:261
+msgid "Returns the navigation path to reach the destination from the origin."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:267
+msgid ""
+":ref:`Vector3 <class_Vector3>` **map_get_up** **(** :ref:`RID "
+"<class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:269
+msgid "Returns the map's up direction."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:275
+msgid ""
+":ref:`bool <class_bool>` **map_is_active** **(** :ref:`RID <class_RID>` "
+"nap **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:277
+msgid "Returns true if the map is active."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:283
+msgid ""
+"void **map_set_active** **(** :ref:`RID <class_RID>` map, :ref:`bool "
+"<class_bool>` active **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:285
+msgid "Sets the map active."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:291
+msgid ""
+"void **map_set_cell_size** **(** :ref:`RID <class_RID>` map, :ref:`float "
+"<class_float>` cell_size **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:293
+msgid "Set the map cell size used to weld the navigation mesh polygons."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:299
+msgid ""
+"void **map_set_edge_connection_margin** **(** :ref:`RID <class_RID>` map,"
+" :ref:`float <class_float>` margin **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:301
+msgid ""
+"Set the map edge connection margein used to weld the compatible region "
+"edges."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:307
+msgid ""
+"void **map_set_up** **(** :ref:`RID <class_RID>` map, :ref:`Vector3 "
+"<class_Vector3>` up **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:309
+msgid "Sets the map up direction."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:315
+msgid "void **process** **(** :ref:`float <class_float>` delta_time **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:317
+msgid "Process the collision avoidance agents."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:319
+msgid ""
+"The result of this process is needed by the physics server, so this must "
+"be called in the main thread."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:321
+msgid "Note: This function is not thread safe."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:327
+msgid ""
+"void **region_bake_navmesh** **(** :ref:`NavigationMesh "
+"<class_NavigationMesh>` mesh, :ref:`Node <class_Node>` node **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:329
+msgid "Bakes the navigation mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:335
+msgid ":ref:`RID <class_RID>` **region_create** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:337
+msgid "Creates a new region."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:343
+msgid ""
+"void **region_set_map** **(** :ref:`RID <class_RID>` region, :ref:`RID "
+"<class_RID>` map **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:345
+msgid "Sets the map for the region."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:351
+msgid ""
+"void **region_set_navmesh** **(** :ref:`RID <class_RID>` region, "
+":ref:`NavigationMesh <class_NavigationMesh>` nav_mesh **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:353
+msgid "Sets the navigation mesh for the region."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:359
+msgid ""
+"void **region_set_transform** **(** :ref:`RID <class_RID>` region, "
+":ref:`Transform <class_Transform>` transform **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:361
+msgid "Sets the global transformation for the region."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:367
+msgid "void **set_active** **(** :ref:`bool <class_bool>` active **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_navigationserver.rst:369
+msgid "Control activation of this server."
+msgstr ""
+
+#~ msgid ""
+#~ ":ref:`agent_set_callback "
+#~ "<class_NavigationServer_method_agent_set_callback>` **(** "
+#~ ":ref:`RID <class_RID>` agent, :ref:`Object "
+#~ "<class_Object>` receiver, :ref:`String "
+#~ "<class_String>` method, :ref:`Variant "
+#~ "<class_Variant>` userdata=null **)** const"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`step <class_NavigationServer_method_step>` **(** "
+#~ ":ref:`float <class_float>` delta_time **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **agent_set_callback** **(** :ref:`RID "
+#~ "<class_RID>` agent, :ref:`Object <class_Object>` "
+#~ "receiver, :ref:`String <class_String>` method, "
+#~ ":ref:`Variant <class_Variant>` userdata=null **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "**map_get_path** **(** :ref:`RID <class_RID>` "
+#~ "map, :ref:`Vector3 <class_Vector3>` origin, "
+#~ ":ref:`Vector3 <class_Vector3>` destination, "
+#~ ":ref:`bool <class_bool>` optimize **)** const"
+#~ msgstr ""
+
+#~ msgid "void **step** **(** :ref:`float <class_float>` delta_time **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Steps the server. This is not "
+#~ "threadsafe and must be called in "
+#~ "single thread."
+#~ msgstr ""
+

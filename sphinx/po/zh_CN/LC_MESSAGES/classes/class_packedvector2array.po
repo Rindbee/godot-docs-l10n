@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:10
+msgid "PackedVector2Array"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:12
+msgid "A packed :ref:`Array <class_Array>` of :ref:`Vector2 <class_Vector2>`\\ s."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:15
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:17
+msgid ""
+"An :ref:`Array <class_Array>` specifically designed to hold :ref:`Vector2"
+" <class_Vector2>`. Packs data tightly, so it saves memory for large array"
+" sizes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:19
+msgid "**Note:** This type is passed by value and not by reference."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:25
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:25
+msgid ""
+":ref:`PackedVector2Array "
+"<class_PackedVector2Array_method_PackedVector2Array>` **(** :ref:`Array "
+"<class_Array>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:43
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:27
+msgid ""
+":ref:`append <class_PackedVector2Array_method_append>` **(** "
+":ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:29
+msgid ""
+":ref:`append_array <class_PackedVector2Array_method_append_array>` **(** "
+":ref:`PackedVector2Array <class_PackedVector2Array>` array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:31
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:31
+msgid ":ref:`empty <class_PackedVector2Array_method_empty>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:45
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:33
+msgid ""
+":ref:`insert <class_PackedVector2Array_method_insert>` **(** :ref:`int "
+"<class_int>` idx, :ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:35
+msgid ":ref:`invert <class_PackedVector2Array_method_invert>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:37
+msgid ""
+":ref:`push_back <class_PackedVector2Array_method_push_back>` **(** "
+":ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:39
+msgid ""
+":ref:`remove <class_PackedVector2Array_method_remove>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:41
+msgid ""
+":ref:`resize <class_PackedVector2Array_method_resize>` **(** :ref:`int "
+"<class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:43
+msgid ""
+":ref:`set <class_PackedVector2Array_method_set>` **(** :ref:`int "
+"<class_int>` idx, :ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:45
+msgid ":ref:`size <class_PackedVector2Array_method_size>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:49
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:53
+msgid ""
+":ref:`PackedVector2Array <class_PackedVector2Array>` "
+"**PackedVector2Array** **(** :ref:`Array <class_Array>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:55
+msgid ""
+"Constructs a new ``PackedVector2Array``. Optionally, you can pass in a "
+"generic :ref:`Array <class_Array>` that will be converted."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:61
+msgid "void **append** **(** :ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:63
+msgid ""
+"Appends an element at the end of the array (alias of :ref:`push_back "
+"<class_PackedVector2Array_method_push_back>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:69
+msgid ""
+"void **append_array** **(** :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` array **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:71
+msgid "Appends a ``PackedVector2Array`` at the end of this array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:77
+msgid ":ref:`bool <class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:79
+msgid "Returns ``true`` if the array is empty."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:85
+msgid ""
+":ref:`int <class_int>` **insert** **(** :ref:`int <class_int>` idx, "
+":ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:87
+msgid ""
+"Inserts a new element at a given position in the array. The position must"
+" be valid, or at the end of the array (``idx == size()``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:93
+msgid "void **invert** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:95
+msgid "Reverses the order of the elements in the array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:101
+msgid "void **push_back** **(** :ref:`Vector2 <class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:103
+msgid "Inserts a :ref:`Vector2 <class_Vector2>` at the end."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:109
+msgid "void **remove** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:111
+msgid "Removes an element from the array by index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:117
+msgid "void **resize** **(** :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:119
+msgid ""
+"Sets the size of the array. If the array is grown, reserves elements at "
+"the end of the array. If the array is shrunk, truncates the array to the "
+"new size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:125
+msgid ""
+"void **set** **(** :ref:`int <class_int>` idx, :ref:`Vector2 "
+"<class_Vector2>` vector2 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:127
+msgid "Changes the :ref:`Vector2 <class_Vector2>` at the given index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:133
+msgid ":ref:`int <class_int>` **size** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_packedvector2array.rst:135
+msgid "Returns the size of the array."
+msgstr ""
+

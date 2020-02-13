@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:10
+msgid "VisualShaderNodeFloatOp"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:14
+msgid ""
+"A floating-point scalar operator to be used within the visual shader "
+"graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:19
+msgid ""
+"Applies :ref:`operator <class_VisualShaderNodeFloatOp_property_operator>`"
+" to two floating-point inputs: ``a`` and ``b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:25
+msgid ":ref:`Operator <enum_VisualShaderNodeFloatOp_Operator>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:25
+msgid ":ref:`operator <class_VisualShaderNodeFloatOp_property_operator>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:83
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:29
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:53
+msgid "enum **Operator**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:55
+msgid "**OP_ADD** = **0** --- Sums two numbers using ``a + b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:57
+msgid "**OP_SUB** = **1** --- Subtracts two numbers using ``a - b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:59
+msgid "**OP_MUL** = **2** --- Multiplies two numbers using ``a * b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:61
+msgid "**OP_DIV** = **3** --- Divides two numbers using ``a / b``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:63
+msgid ""
+"**OP_MOD** = **4** --- Calculates the remainder of two numbers. "
+"Translates to ``mod(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:65
+msgid ""
+"**OP_POW** = **5** --- Raises the ``a`` to the power of ``b``. Translates"
+" to ``pow(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:67
+msgid ""
+"**OP_MAX** = **6** --- Returns the greater of two numbers. Translates to "
+"``max(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:69
+msgid ""
+"**OP_MIN** = **7** --- Returns the lesser of two numbers. Translates to "
+"``min(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:71
+msgid ""
+"**OP_ATAN2** = **8** --- Returns the arc-tangent of the parameters. "
+"Translates to ``atan(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:73
+msgid ""
+"**OP_STEP** = **9** --- Generates a step function by comparing ``b``\\ "
+"(x) to ``a``\\ (edge). Returns 0.0 if ``x`` is smaller than ``edge`` and "
+"otherwise 1.0. Translates to ``step(a, b)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:76
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:80
+msgid ":ref:`Operator <enum_VisualShaderNodeFloatOp_Operator>` **operator**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:83
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:85
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:85
+msgid "set_operator(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:87
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:87
+msgid "get_operator()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodefloatop.rst:90
+msgid ""
+"An operator to be applied to the inputs. See :ref:`Operator "
+"<enum_VisualShaderNodeFloatOp_Operator>` for options."
+msgstr ""
+

@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2020-03-06 16:38+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:4
 msgid "Complying with Licenses"
@@ -32,9 +36,9 @@ msgid ""
 "contributor that submits code to the project does it under this same license "
 "and keeps ownership of the contribution."
 msgstr ""
-"Godot是根据`MIT License <https://opensource.org/licenses/MIT>`_创建并分发的。"
-"它也没有唯一的所有者，因为向该项目提交代码的每个贡献者都在相同的许可证下执行"
-"该代码，并保留贡献的所有权。"
+"Godot是根据 `MIT许可证 <https://opensource.org/licenses/MIT>`_ 创建并分发的。"
+"它也没有唯一的所有者，因为向该项目提交代码的每个贡献者都在相同的许可证下拥有"
+"它，并保留该贡献的所有权。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:11
 msgid ""
@@ -43,12 +47,12 @@ msgid ""
 "it). Your game or project can have a different license, but it still needs "
 "to comply with the original one."
 msgstr ""
-"许可证是您（或您的公司）使用和分发软件（以及衍生项目，包括用它制作的游戏）的"
-"法律要求。您的游戏或项目可以具有不同的许可证，但仍需要遵守原始许可证。"
+"许可证是您（或您的公司）使用和分发软件（及衍生项目，包括用它制作的游戏）的法"
+"律要求。您的游戏或项目可以具有不同的许可证，但仍需要遵守原始许可证。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:15
 msgid "Requirements"
-msgstr "需求"
+msgstr "要求"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:17
 msgid ""
@@ -58,20 +62,19 @@ msgstr "对于MIT许可证，唯一的要求是将许可证文本包含在您的
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:19
 msgid "This text reads as follows:"
-msgstr "文本内容如下："
+msgstr "文本内容如下（中文大意参考，推荐原文）："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:22
 msgid "This game uses Godot Engine, available under the following license:"
-msgstr "该游戏使用Godot Engine，可通过以下许可获得："
+msgstr "该游戏使用Godot游戏引擎，可通过以下许可获得："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:24
-#, fuzzy
 msgid ""
 "Copyright (c) 2007-2020 Juan Linietsky, Ariel Manzur. Copyright (c) "
 "2014-2020 Godot Engine contributors."
 msgstr ""
-"版权所有（c）2007-2019 Juan Linietsky，Ariel Manzur。版权所有（c）2014-2019 "
-"Godot Engine贡献者。"
+"版权所有（c）2007-2020 Juan Linietsky，Ariel Manzur。版权所有（c）2014-2020 "
+"Godot游戏引擎贡献者。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:27
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:88
@@ -83,13 +86,16 @@ msgid ""
 "sell copies of the Software, and to permit persons to whom the Software is "
 "furnished to do so, subject to the following conditions:"
 msgstr ""
+"特此免费授予获得此软件和相关文档文件（该“软件”）副本的任何人，无限制使用软件"
+"的权利，包括但不限于使用、复制、修改、合并、发布、分发、再许可、和/或出售本软"
+"件的副本的权利，并允许该软件被提供给的人员这样做，但须满足以下条件："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:29
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:90
 msgid ""
 "The above copyright notice and this permission notice shall be included in "
 "all copies or substantial portions of the Software."
-msgstr "以上版权声明和本许可声明应包含在本软件的所有副本或大部分内容中。"
+msgstr "上述版权声明和此许可声明应包含在本软件的所有副本或大部分内容中。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:31
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:92
@@ -102,6 +108,10 @@ msgid ""
 "FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
 "IN THE SOFTWARE."
 msgstr ""
+"本软件按“原样”提供，不提供任何形式的明示或暗示的保证，包括但不限于对适销性，"
+"特定目的的适用性和非侵权性的保证。无论是由于软件，使用或其他方式产生的，与之"
+"有关或与之有关的合同，侵权或其他形式的任何索赔，损害或其他责任，作者或版权所"
+"有者概不负责。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:34
 msgid ""
@@ -109,12 +119,12 @@ msgid ""
 "your Godot projects under any license and to create commercial games with "
 "the engine."
 msgstr ""
-"您的游戏无需获得相同的许可。您可以根据任何许可自由发布Godot项目，并使用该引擎"
-"创建商业游戏。"
+"您的游戏无需遵循相同的许可证。您可以遵循任何许可自由发布Godot项目，以及使用该"
+"引擎创建商业游戏。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:37
 msgid "Inclusion"
-msgstr "包含"
+msgstr "包容性"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:39
 msgid ""
@@ -127,7 +137,7 @@ msgstr ""
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:42
 msgid "Credits screen"
-msgstr ""
+msgstr "鸣谢画面"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:44
 msgid ""
@@ -135,20 +145,21 @@ msgid ""
 "the bottom after showing the rest of the credits. Most large studios use "
 "this approach with open source licenses."
 msgstr ""
+"在鸣谢画面中的某处包含以上许可证文本。它可以位于底部，在显示完所有鸣谢后。大"
+"多数大型工作室都将这种方法处理开源许可证。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:47
-#, fuzzy
 msgid "Licenses screen"
-msgstr "许可证"
+msgstr "许可证画面"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:49
 msgid ""
 "Some games have a special menu (often in the settings) to display licenses."
-msgstr ""
+msgstr "某些游戏具有特殊菜单（通常在设置中）以显示许可证。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:52
 msgid "Output log"
-msgstr ""
+msgstr "输出日志"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:54
 msgid ""
@@ -156,31 +167,33 @@ msgid ""
 "<class_@GDScript_method_print>` function may be enough on platforms where a "
 "global output log is readable (as an example, mobile devices)."
 msgstr ""
+"在可读取全局输出日志的平台上（例如，移动设备），仅使用一个 :ref:`print() "
+"<class_@GDScript_method_print>` 函数打印许可文本就足够了。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:57
 msgid "Accompanying file"
-msgstr ""
+msgstr "随附文件"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:59
 msgid ""
 "If the game is distributed on desktop operating systems, a file containing "
 "the license can be added to the software that is installed to the user PC."
 msgstr ""
+"如果游戏在桌面操作系统上发行，则可以将包含许可证的文件添加到用户PC上安装的软"
+"件中。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:62
-#, fuzzy
 msgid "Printed manual"
-msgstr "编辑器手册"
+msgstr "印刷手册"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:64
 msgid ""
 "If the game includes printed manuals, license text can be included there."
-msgstr ""
+msgstr "如果游戏包括印刷手册，则可以在其中包含许可文本。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:67
-#, fuzzy
 msgid "Third Party licenses"
-msgstr "第三方工具"
+msgstr "第三方许可"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:69
 msgid ""
@@ -189,11 +202,13 @@ msgid ""
 "license inclusion, but some do. Make sure to do it if you are using them. "
 "Here is a list of which ones require it:"
 msgstr ""
+"Godot本身包含由 `第三方 <https://github.com/godotengine/godot/blob/master/"
+"COPYRIGHT.txt>`_ 编写的软件。大多数不需要许可证，但有些需要。如果要使用它们，"
+"请确保执行此操作。以下是哪些需要它的列表："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:72
-#, fuzzy
 msgid "FreeType"
-msgstr "类型"
+msgstr "FreeType"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:74
 msgid ""
@@ -201,30 +216,36 @@ msgid ""
 "license requires attribution, so the following text must be included "
 "together with the Godot license:"
 msgstr ""
+"Godot使用 `FreeType <https://www.freetype.org/>`_ 来渲染字体。它的许可证需要"
+"注明出处，因此以下文本必须与Godot许可证一起包含（推荐英文）："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:77
 msgid ""
 "Portions of this software are copyright © <year> The FreeType Project (www."
 "freetype.org).  All rights reserved."
 msgstr ""
+"本软件的部分版权归 © <year> The FreeType Project（www.freetype.org）所有。保"
+"留所有权利。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:81
 msgid "ENet"
-msgstr ""
+msgstr "ENet"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:83
 msgid ""
 "If the project being created is a multiplayer game using the `ENet <http://"
 "enet.bespin.org/>`_ driver, ENet has similar licensing terms as Godot"
 msgstr ""
+"如果正在创建的项目是使用 `ENet <http://enet.bespin.org/>`_ 驱动程序的多人游"
+"戏，则ENet具有与Godot类似的许可条款（推荐英文）"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:86
 msgid "Copyright (c) 2002-2016 Lee Salzman"
-msgstr ""
+msgstr "版权所有（c）2002-2016 Lee Salzman"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:95
 msgid "MBedTLS"
-msgstr ""
+msgstr "MBedTLS"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:97
 msgid ""
@@ -232,10 +253,13 @@ msgid ""
 "through HTTP requests), the `MBedTLS <https://tls.mbed.org>`_ Apache license "
 "needs to be complied by including the following text:"
 msgstr ""
+"如果该项目是使用Godot 3.1或更高版本完成的，并且使用了SSL（通常通过HTTP请"
+"求），则需要通过添加以下文本来符合 `MBedTLS <https://tls.mbed.org>`_ Apache许"
+"可（推荐英文）："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:100
 msgid "MBedTLS is Copyright (C) 2013-2019 ARM"
-msgstr ""
+msgstr "MBedTLS是（C）2013-2019 ARM 版权所有"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:102
 msgid ""
@@ -243,10 +267,12 @@ msgid ""
 "not use this file except in compliance with the License. You may obtain a "
 "copy of the License at"
 msgstr ""
+"根据Apache许可证，2.0版（该“许可证”）获得许可；除非遵守许可，否则不得使用此文"
+"件。您可以在以下位置获得许可的副本："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:104
 msgid "http://www.apache.org/licenses/LICENSE-2.0"
-msgstr ""
+msgstr "http://www.apache.org/licenses/LICENSE-2.0"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:106
 msgid ""
@@ -256,9 +282,12 @@ msgid ""
 "License for the specific language governing permissions and limitations "
 "under the License."
 msgstr ""
+"除非适用法律要求或以书面形式达成协议，否则根据该许可分发的软件均按“原样”分"
+"发，没有任何明示或暗示的保证或条件。有关许可下特定的语言管理权限和限制，请参"
+"阅许可。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:108
 msgid ""
 "Keep in mind that Godot 2.x and 3.0 use `OpenSSL <https://www.openssl.org>`_ "
 "instead."
-msgstr ""
+msgstr "请记住，Godot 2.x和3.0使用 `OpenSSL <https://www.openssl.org>`_ 代替。"

@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2020-02-18 13:38+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:4
 msgid "3D performance and limitations"
@@ -31,8 +31,8 @@ msgid ""
 "there are always trade-offs, which consist of trading speed for usability "
 "and flexibility. Some practical examples of this are:"
 msgstr ""
-"Godot遵循平衡的表现理念。 在绩效世界中，总是需要权衡交易的可用性和灵活性。 一"
-"些实际的示例是:"
+"Godot遵循平衡的性能理念。在性能世界中，总是存在权衡取舍，其中包括提高可用性和"
+"灵活性的交易。一些实际的例子是："
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:13
 msgid ""
@@ -42,9 +42,9 @@ msgid ""
 "efficient, but, at the same time, fewer objects are rendered, so efficiency "
 "overall improves."
 msgstr ""
-"高效地渲染对象很容易，但是当必须渲染大型场景时，它会变得效率低下。 要解决这个"
-"问题，必须将可见性计算添加到渲染中，这会使渲染效率降低，但同时渲染的对象也会"
-"减少，因此整体效率会提高。"
+"高效地渲染对象很容易，但是当必须渲染大型场景时，效率可能会降低。为了解决这个"
+"问题，必须将可见性计算添加到渲染中，这会使渲染效率降低，但是同时渲染的对象更"
+"少，因此总体效率得以提高。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:18
 msgid ""
@@ -52,8 +52,8 @@ msgid ""
 "be rendered is also slow. To solve this, objects are sorted by material to "
 "reduce the costs, but at the same time sorting has a cost."
 msgstr ""
-"为每个需要渲染的对象配置每种材质的属性也很慢。 为了解决这个问题，对象按材质分"
-"类以降低成本，但同时排序会产生成本。"
+"为每个需要渲染的对象配置每种材质的属性也很慢。为了解决这个问题，通过材质对对"
+"象进行分类以降低成本，但是同时进行分类也需要成本。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:22
 msgid ""
@@ -63,9 +63,9 @@ msgid ""
 "removal, as well as ray-casting, will not be able to handle as many active "
 "objects."
 msgstr ""
-"在3D物理学中，会发生类似的情况。 处理大量物理对象(例如SAP)的最佳算法在插入/移"
-"除对象和光线投射时很慢。 允许更快插入和移除以及光线投射的算法将无法处理尽可能"
-"多的活动对象。"
+"在3D物理学中，也会发生类似情况。处理大量物理对象（例如SAP）的最佳算法在插入/"
+"移除对象和光线投射方面很慢。允许更快地插入和移除以及光线投射的算法将无法处理"
+"那么多活动对象。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:28
 msgid ""
@@ -74,8 +74,9 @@ msgid ""
 "that might be fast in some situations and slow in others.. or algorithms "
 "that are fast but make usability more difficult."
 msgstr ""
-"还有更多的示例！ 游戏引擎本质上是通用的，因此平衡算法总是比在某些情况下可能快"
-"速且在其他情况下速度慢的算法更受青睐。或者算法速度快但使可用性更难。"
+"还有更多这样的例子！游戏引擎本质上是努力成为通用的，因此平衡算法总是比在某些"
+"情况下可能很快而在另一些情况下很慢的算法，或快速但使可用性更加困难的算法更受"
+"青睐。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:33
 msgid ""
@@ -84,14 +85,14 @@ msgid ""
 "ones that are there for now) prioritize balance and flexibility over "
 "performance."
 msgstr ""
-"Godot不是一个例外，虽然它被设计为可以为不同的算法交换后端，但默认的(或者更像"
-"是现在唯一的那些)优先考虑平衡和灵活性而不是性能。"
+"Godot也不例外，尽管它被设计为可交换不同算法的后端，但默认算法（或更像是目前唯"
+"一的算法）优先考虑平衡和灵活性，而不是性能。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:38
 msgid ""
 "With this clear, the aim of this tutorial is to explain how to get the "
 "maximum performance out of Godot."
-msgstr "有了这个清楚，本教程的目的是解释如何从Godot中获得最大的性能。"
+msgstr "清楚此处，本教程的目的是说明如何从Godot中获得最大的性能。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:42
 msgid "Rendering"
@@ -101,11 +102,11 @@ msgstr "渲染"
 msgid ""
 "3D rendering is one of the most difficult areas to get performance from, so "
 "this section will have a list of tips."
-msgstr "3D渲染是获得性能最困难的领域之一，因此本节将提供一系列提示。"
+msgstr "3D渲染是获得性能最困难的领域之一，因此本节将列出一些技巧。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:48
 msgid "Reuse shaders and materials"
-msgstr "重复使用着色器和材质"
+msgstr "重用着色器和材质"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:50
 msgid ""
@@ -115,9 +116,9 @@ msgid ""
 "similar shaders but, if custom shaders are used, make sure to reuse them as "
 "much as possible. Godot's priorities will be like this:"
 msgstr ""
-"Godot渲染器与那里的渲染器略有不同。 它旨在尽可能减少GPU状态的变化。 :ref:"
-"`class_SpatialMaterial` 在重用需要类似着色器的材质方面做得很好但是，如果使用"
-"自定义着色器，请确保尽可能多地重用它们。 Godot的优先事项如下:"
+"Godot渲染器与外面的渲染器略有不同。它旨在最大程度地减少GPU状态变化。:ref:"
+"`class_SpatialMaterial` 在重用需要相似着色器的材质方面做得很好，但是，如果使"
+"用自定义着色器，请确保尽可能多地重用它们。Godot的工作重点如下："
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:57
 msgid ""
@@ -126,8 +127,8 @@ msgid ""
 "the hundreds or thousands) try reusing the materials or in the worst case "
 "use atlases."
 msgstr ""
-"**重复使用材质**:场景中不同的材质越少，渲染速度就越快。 如果一个场景有大量的"
-"物体(数百或数千)，请尝试重复使用这些材质，或者在最坏的情况下使用地图集。"
+"**重用材质**：场景中不同的材质越少，渲染速度就越快。如果场景中有大量对象（成"
+"百上千个），请尝试重新使用材质，或者在最坏的情况下使用图集。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:61
 msgid ""
@@ -135,8 +136,8 @@ msgid ""
 "shaders (or SpatialMaterials with different parameters but the same "
 "configuration)."
 msgstr ""
-"**重用着色器**: 如果材质无法重复使用，至少尝试重新使用着色器(或具有不同参数但"
-"配置相同的SpatialMaterials)。"
+"**重用着色器**：如果无法重复使用材质，则至少尝试重新使用着色器（或具有不同参"
+"数但配置相同的 ``SpatialMaterials``）。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:65
 msgid ""
@@ -144,8 +145,8 @@ msgid ""
 "each, rendering will be slow. If the same scene has 20.000 objects, but only "
 "uses 100 materials, rendering will be blazingly fast."
 msgstr ""
-"例如，如果一个场景有20.000个对象，每个对象有20.000个不同的材质，那么渲染将会"
-"很慢。如果同一场景有20.000个对象，但只使用100个素材，渲染将非常迅速。"
+"例如，如果一个场景有20,000个对象，每个对象具有20,000种不同的材质，则渲染将很"
+"慢。如果同一场景有20,000个对象，但仅使用100种材质，则渲染速度将非常快。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:71
 msgid "Pixel cost vs vertex cost"
@@ -157,23 +158,23 @@ msgid ""
 "faster it will be rendered. This is *really* relative and depends on many "
 "factors."
 msgstr ""
-"人们普遍认为，模型中多边形的数量越少，渲染的速度就越快。这确实是相对的，取决"
-"于很多因素。"
+"通常认为，模型中多边形的数量越少，渲染速度越快。这确实是相对的，并取决于许多"
+"因素。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:77
 msgid ""
 "On a modern PC and console, vertex cost is low. GPUs originally only "
 "rendered triangles, so all the vertices:"
 msgstr ""
-"在现代PC和控制台上，顶点成本很低。 GPU最初只渲染三角形，所以所有顶点都是:"
+"在现代PC和游戏主机上，顶点成本很低。GPU最初仅渲染三角形，因此所有顶点："
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:80
 msgid "Had to be transformed by the CPU (including clipping)."
-msgstr "不得不被CPU改造(包括剪裁)。"
+msgstr "必须由CPU变换（包括裁剪）。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:82
 msgid "Had to be sent to the GPU memory from the main RAM."
-msgstr "不得不从主RAM发送到GPU内存。"
+msgstr "必须从主RAM发送到GPU内存。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:84
 msgid ""
@@ -184,9 +185,10 @@ msgid ""
 "performance. Truth is, a model rendered by a 3D engine is much more optimal "
 "than how 3D DCCs display them."
 msgstr ""
-"如今，所有这些都是在GPU内部处理的，因此性能非常高。 3D艺术家通常对多计数性能"
-"有错误的感觉，因为3D DCC(例如Blender，Max等)需要将几何保留在CPU内存中以便进行"
-"编辑，从而降低实际性能。 事实上，3D引擎渲染的模型比3D DCC显示模型更加优化。"
+"如今，所有这些都在GPU内部处理，因此性能非常高。3D艺术家通常对多计数性能有错误"
+"的感觉，因为3D DCC（例如Blender，Max等）需要将几何保留在CPU内存中才能进行编"
+"辑，从而降低了实际性能。事实是，由3D引擎渲染的模型比3D DCC显示它们的方式更加"
+"优化。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:91
 msgid ""
@@ -195,8 +197,8 @@ msgid ""
 "grid. Mobile GPUs are limited to a tiny battery, so they need to be a lot "
 "more power efficient."
 msgstr ""
-"在移动设备上，故事是不同的。 PC和控制台GPU是蛮力的怪物，可以从电网中获取所需"
-"的电量。 移动GPU仅限于小型电池，因此它们需要更高的功率效率。"
+"在移动设备上，故事则不同。PC和游戏主机GPU是蛮力怪兽，可以从电网汲取所需的电"
+"量。移动GPU仅限于一块很小的电池，因此它们需要更加节能。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:96
 msgid ""
@@ -209,11 +211,11 @@ msgid ""
 "this and just throw more pixel processors to the hardware to increase "
 "performance (but this also increases power consumption)."
 msgstr ""
-"为了提高效率，移动GPU试图避免 *透支* 。 这意味着，屏幕上的相同像素被渲染(如，"
-"通过照明计算等)不止一次。 想象一个有几座建筑的小镇，GPU不知道什么是可见的，什"
-"么是隐藏的，直到它们绘制它。 可能会绘制一个房子，然后在它前面的另一个房子(对"
-"于同一个像素渲染两次！)。 PC GPU通常不关心这一点，只是将更多像素处理器投入硬"
-"件以提高性能(但这也增加了功耗)。"
+"为了提高效率，移动GPU尝试避免 **过度绘制**。这意味着屏幕上的同一像素被渲染一"
+"次（例如，通过光照计算等）。想象一下一个小镇上有几座建筑物，GPU在绘制之前不知"
+"道可见的东西和隐藏的东西。可能先绘制一个房子，然后再绘制一个前面的房子（对于"
+"同一像素，渲染发生了两次！）。PC GPU通常对此并不在意，只是将更多像素处理器投"
+"入硬件以提高性能（但这也会增加功耗）。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:106
 msgid ""
@@ -225,11 +227,11 @@ msgid ""
 "toll on vertex performance. As a result, fewer vertices and triangles can be "
 "processed for drawing."
 msgstr ""
-"在移动设备上，提供更多功率不是一种选择，因此使用了一种称为“基于平铺的渲染”的"
-"技术(几乎每个移动硬件都使用它的一种变体)，它将屏幕划分为网格。 每个单元格保留"
-"绘制到它的三角形列表，并按深度对它们进行排序，以最小化 *重绘* 。 这种技术可以"
-"提高性能并降低功耗，但会降低顶点性能。 因此，可以处理更少的顶点和三角形以进行"
-"绘制。"
+"在移动设备上，不能选择增加功率，因此使用了一种称为“基于图块的渲染”的技术（几"
+"乎每个移动硬件都使用它的一种变体），该技术将屏幕划分为一个栅格。每个单元格保"
+"留绘制的三角形列表，并按深度对它们进行排序，以最大程度地减少 *过度绘制*。此技"
+"术可以提高性能并降低功耗，但会损害顶点性能。结果，可以处理更少的顶点和三角形"
+"以进行绘制。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:114
 msgid ""
@@ -240,9 +242,9 @@ msgid ""
 "all the other cells must wait for it to complete in order to display the "
 "frame)."
 msgstr ""
-"一般来说，这并不是那么糟糕，但在移动设备上有一个必须避免的角落情况，即在屏幕"
-"的一小部分内具有大量几何形状的小物体。 这迫使移动GPU在单个屏幕单元上施加了很"
-"大的压力，大大降低了性能(因为所有其他单元必须等待它完成才能显示帧)。"
+"通常，这还算不错，但是必须避免在移动设备上遇到一个极端的情况，那就是在屏幕的"
+"一小部分内放置具有很多几何形状的小物体。这迫使移动GPU在单个屏幕单元上施加很大"
+"压力，从而大大降低了性能（因为所有其他单元必须等待其完成才能显示帧）。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:121
 msgid ""
@@ -251,27 +253,27 @@ msgid ""
 "example, a character, NPC, vehicle, etc. is far away (so it looks tiny), use "
 "a smaller level of detail (LOD) model instead."
 msgstr ""
-"为了简化它，不要担心移动设备上的顶点数量如此之多，但要避免在屏幕的小部分中集"
-"中顶点。 例如，如果角色，NPC，车辆等距离较远(因此看起来很小)，请使用较小的细"
-"节(LOD)模型。"
+"简而言之，不必担心移动设备上的顶点数量太多，而要避免将顶点集中在屏幕的一小部"
+"分。例如，如果角色，NPC，车辆等距离较远（因此看起来很小），请改用较小级别的细"
+"节（LOD）模型。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:126
 msgid ""
 "An extra situation where vertex cost must be considered is objects that have "
 "extra processing per vertex, such as:"
-msgstr "必须考虑顶点成本的额外情况是每个顶点具有额外处理的对象，例如:"
+msgstr "必须考虑顶点成本的另一种情况是每个顶点具有额外处理的对象，例如："
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:129
 msgid "Skinning (skeletal animation)"
-msgstr "剥皮(骨骼动画)"
+msgstr "蒙皮（骨骼动画）"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:130
 msgid "Morphs (shape keys)"
-msgstr "变形(形状键)"
+msgstr "变形（形状键）"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:131
 msgid "Vertex Lit Objects (common on mobile)"
-msgstr "顶点对象(在移动设备上常见)"
+msgstr "顶点点亮对象（在移动设备上常见）"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:134
 msgid "Texture compression"
@@ -283,33 +285,32 @@ msgid ""
 "compression). Video RAM compression is not as efficient in size as PNG or "
 "JPG when stored, but increases performance enormously when drawing."
 msgstr ""
-"Godot提供在导入时压缩3D模型的纹理(VRAM压缩)。 视频RAM压缩在存储时的大小不如"
-"PNG或JPG，但在绘制时极大地提高了性能。"
+"Godot可以在导入时压缩3D模型的纹理（VRAM压缩）。存储时，视频RAM压缩的大小不如"
+"PNG或JPG高效，但是在绘制时大大提高了性能。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:140
 msgid ""
 "This is because the main goal of texture compression is bandwidth reduction "
 "between memory and the GPU."
-msgstr "这是因为纹理压缩的主要目标是在内存和GPU之间减少带宽。"
+msgstr "这是因为纹理压缩的主要目标是减少内存和GPU之间的带宽。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:143
-#, fuzzy
 msgid ""
 "In 3D, the shapes of objects depend more on the geometry than the texture, "
 "so compression is generally not noticeable. In 2D, compression depends more "
 "on shapes inside the textures, so the artifacts resulting from 2D "
 "compression are more noticeable."
 msgstr ""
-"在3D中，对象的形状更多地取决于几何形状而不是纹理，因此压缩通常不明显。 在2D"
-"中，压缩更多地取决于纹理内部的形状，因此压缩产生的伪像更加明显。"
+"在3D中，对象的形状相比纹理更依赖于几何形状，因此压缩通常不明显。在2D中，压缩"
+"更多地取决于纹理内部的形状，因此2D压缩产生的失真更加明显。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:148
 msgid ""
 "As a warning, most Android devices do not support texture compression of "
 "textures with transparency (only opaque), so keep this in mind."
 msgstr ""
-"作为警告，大多数Android设备不支持具有透明度的纹理的纹理压缩(仅不透明)，因此请"
-"记住这一点。"
+"作为警告，大多数Android设备不支持具有透明性的纹理的纹理（仅不透明）压缩，因此"
+"请记住这一点。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:152
 msgid "Transparent objects"
@@ -324,14 +325,13 @@ msgid ""
 "a minimum! If an object has a small section with transparency, try to make "
 "that section a separate material."
 msgstr ""
-"如前所述，Godot通过材质和着色器对对象进行排序以提高性能。 但是，这不能在透明"
-"对象上完成。 透明对象从后向前呈现，以便与工作背后的内容进行混合。 因此，请尽"
-"量将透明物体保持在最低限度！ 如果对象具有透明度较小的部分，请尝试将该部分作为"
-"单独的材质。"
+"如前所述，Godot按材质和着色器对对象进行排序以提高性能。但是，这不能在透明对象"
+"上完成。从后到前渲染透明对象，以与工作背后的内容进行融合。因此，请尽量减少透"
+"明物体！如果对象的透明区域较小，请尝试将该区域作为单独的材质。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:162
 msgid "Level of detail (LOD)"
-msgstr "细节程度(LOD)"
+msgstr "详细程度（LOD）"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:164
 msgid ""
@@ -341,13 +341,14 @@ msgid ""
 "a visibility range that can be defined. Having several GeometryInstance "
 "objects in different ranges works as LOD."
 msgstr ""
-"如前所述，在某些情况下，使用具有较少顶点的对象可以提高性能。 Godot有一个简单"
-"的系统来改变细节层次 :ref:`GeometryInstance <class_GeometryInstance>` 基于对"
-"象的可见范围可以定义。 在不同范围内具有多个GeometryInstance对象可用作LOD。"
+"如前所述，在某些情况下，使用顶点较少的对象可以提高性能。Godot有一个简单的系统"
+"来更改详细程度，基于 :ref:`GeometryInstance <class_GeometryInstance>` 的对象"
+"具有可以定义的可见范围。在不同范围内具有多个 ``GeometryInstance`` 对象可以用"
+"作LOD。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:172
 msgid "Use instancing (MultiMesh)"
-msgstr "使用实例化(MultiMesh)"
+msgstr "使用实例化（MultiMesh）"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:174
 msgid ""
@@ -356,9 +357,9 @@ msgid ""
 "drawing of dozens of thousands of objects at very little performance cost, "
 "making it ideal for flocks, grass, particles, etc."
 msgstr ""
-"如果必须在同一个地方或附近绘制几个相同的对象，请尝试使用 :ref:`MultiMesh "
-"<class_MultiMesh>` 。 MultiMesh允许以极低的性能成本绘制数十万个物体，使其成为"
-"鸡群，草，颗粒等的理想选择。"
+"如果必须在同一位置或附近绘制几个相同的对象，请尝试使用 :ref:`MultiMesh "
+"<class_MultiMesh>` 代替。``MultiMesh`` 可以以极低的性能成本绘制成千上万的对"
+"象，因此非常适用于羊群，草丛，颗粒等。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:181
 msgid "Bake lighting"
@@ -371,12 +372,12 @@ msgid ""
 "ref:`doc_baked_lightmaps`). Baking can also improve the scene quality by "
 "adding indirect light bounces."
 msgstr ""
-"小灯通常不是性能问题。 阴影多一点。 一般来说，如果几个灯需要影响一个场景，理"
-"想的是烘焙它( :ref:`doc_baked_lightmaps` )。 烘焙还可以通过添加间接光反弹来改"
-"善场景质量。"
+"小灯通常不是性能问题。 阴影多一点。通常，如果需要几个灯光来影响一个场景，则最"
+"好将其烘焙（:ref:`doc_baked_lightmaps`）。烘焙还可以通过添加间接光反射来改善"
+"场景质量。"
 
 #: ../../docs/tutorials/3d/3d_performance_and_limitations.rst:188
 msgid ""
 "If working on mobile, baking to texture is recommended, since this method is "
 "even faster."
-msgstr "如果在移动设备上工作，建议烘焙到纹理，因为这种方法更快。"
+msgstr "如果在移动设备上工作，则建议烘焙到纹理，因为这种方法甚至更快。"

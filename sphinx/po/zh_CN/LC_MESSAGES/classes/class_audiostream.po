@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-11-05 14:09+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_audiostream.rst:10
+msgid "AudioStream"
+msgstr "AudioStream"
+
+#: ../../docs/classes/class_audiostream.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_audiostream.rst:14
+msgid ""
+"**Inherited By:** :ref:`AudioStreamGenerator "
+"<class_AudioStreamGenerator>`, :ref:`AudioStreamMicrophone "
+"<class_AudioStreamMicrophone>`, :ref:`AudioStreamOGGVorbis "
+"<class_AudioStreamOGGVorbis>`, :ref:`AudioStreamRandomPitch "
+"<class_AudioStreamRandomPitch>`, :ref:`AudioStreamSample "
+"<class_AudioStreamSample>`"
+msgstr ""
+"**子类**：:ref:`AudioStreamGenerator <class_AudioStreamGenerator>`, "
+":ref:`AudioStreamMicrophone <class_AudioStreamMicrophone>`, "
+":ref:`AudioStreamOGGVorbis <class_AudioStreamOGGVorbis>`, "
+":ref:`AudioStreamRandomPitch <class_AudioStreamRandomPitch>`, "
+":ref:`AudioStreamSample <class_AudioStreamSample>`"
+
+#: ../../docs/classes/class_audiostream.rst:16
+msgid "Base class for audio streams."
+msgstr "音频流的基类。"
+
+#: ../../docs/classes/class_audiostream.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_audiostream.rst:21
+msgid ""
+"Base class for audio streams. Audio streams are used for sound effects "
+"and music playback, and support WAV (via :ref:`AudioStreamSample "
+"<class_AudioStreamSample>`) and OGG (via :ref:`AudioStreamOGGVorbis "
+"<class_AudioStreamOGGVorbis>`) file formats."
+msgstr ""
+"音频流的基类。音频流用于声音效果和音乐播放，并支持WAV（通过 :ref:`AudioStreamSample "
+"<class_AudioStreamSample>`）和OGG（通过 :ref:`AudioStreamOGGVorbis "
+"<class_AudioStreamOGGVorbis>`）文件格式。"
+
+#: ../../docs/classes/class_audiostream.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_audiostream.rst:26
+msgid ":doc:`../tutorials/audio/audio_streams`"
+msgstr ":doc:`../tutorials/audio/audio_streams`"
+
+#: ../../docs/classes/class_audiostream.rst:29
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_audiostream.rst:32
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_audiostream.rst:32
+msgid ":ref:`get_length <class_AudioStream_method_get_length>` **(** **)** const"
+msgstr ":ref:`get_length <class_AudioStream_method_get_length>` **(** **)** const"
+
+#: ../../docs/classes/class_audiostream.rst:36
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_audiostream.rst:40
+msgid ":ref:`float <class_float>` **get_length** **(** **)** const"
+msgstr ":ref:`float <class_float>` **get_length** **(** **)** const"
+
+#: ../../docs/classes/class_audiostream.rst:42
+msgid "Returns the length of the audio stream in seconds."
+msgstr "返回音频流的长度（以秒为单位）。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

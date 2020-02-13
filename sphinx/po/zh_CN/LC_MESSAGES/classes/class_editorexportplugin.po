@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:10
+msgid "EditorExportPlugin"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:17
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:20
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:22
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:40
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:20
+msgid ""
+":ref:`_export_begin <class_EditorExportPlugin_method__export_begin>` "
+"**(** :ref:`PackedStringArray <class_PackedStringArray>` features, "
+":ref:`bool <class_bool>` is_debug, :ref:`String <class_String>` path, "
+":ref:`int <class_int>` flags **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:22
+msgid ""
+":ref:`_export_end <class_EditorExportPlugin_method__export_end>` **(** "
+"**)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:24
+msgid ""
+":ref:`_export_file <class_EditorExportPlugin_method__export_file>` **(** "
+":ref:`String <class_String>` path, :ref:`String <class_String>` type, "
+":ref:`PackedStringArray <class_PackedStringArray>` features **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:26
+msgid ""
+":ref:`add_file <class_EditorExportPlugin_method_add_file>` **(** "
+":ref:`String <class_String>` path, :ref:`PackedByteArray "
+"<class_PackedByteArray>` file, :ref:`bool <class_bool>` remap **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:28
+msgid ""
+":ref:`add_ios_bundle_file "
+"<class_EditorExportPlugin_method_add_ios_bundle_file>` **(** :ref:`String"
+" <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:30
+msgid ""
+":ref:`add_ios_cpp_code "
+"<class_EditorExportPlugin_method_add_ios_cpp_code>` **(** :ref:`String "
+"<class_String>` code **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:32
+msgid ""
+":ref:`add_ios_framework "
+"<class_EditorExportPlugin_method_add_ios_framework>` **(** :ref:`String "
+"<class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:34
+msgid ""
+":ref:`add_ios_linker_flags "
+"<class_EditorExportPlugin_method_add_ios_linker_flags>` **(** "
+":ref:`String <class_String>` flags **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:36
+msgid ""
+":ref:`add_ios_plist_content "
+"<class_EditorExportPlugin_method_add_ios_plist_content>` **(** "
+":ref:`String <class_String>` plist_content **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:38
+msgid ""
+":ref:`add_shared_object "
+"<class_EditorExportPlugin_method_add_shared_object>` **(** :ref:`String "
+"<class_String>` path, :ref:`PackedStringArray <class_PackedStringArray>` "
+"tags **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:40
+msgid ":ref:`skip <class_EditorExportPlugin_method_skip>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:44
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:48
+msgid ""
+"void **_export_begin** **(** :ref:`PackedStringArray "
+"<class_PackedStringArray>` features, :ref:`bool <class_bool>` is_debug, "
+":ref:`String <class_String>` path, :ref:`int <class_int>` flags **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:54
+msgid "void **_export_end** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:60
+msgid ""
+"void **_export_file** **(** :ref:`String <class_String>` path, "
+":ref:`String <class_String>` type, :ref:`PackedStringArray "
+"<class_PackedStringArray>` features **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:66
+msgid ""
+"void **add_file** **(** :ref:`String <class_String>` path, "
+":ref:`PackedByteArray <class_PackedByteArray>` file, :ref:`bool "
+"<class_bool>` remap **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:72
+msgid "void **add_ios_bundle_file** **(** :ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:78
+msgid "void **add_ios_cpp_code** **(** :ref:`String <class_String>` code **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:84
+msgid "void **add_ios_framework** **(** :ref:`String <class_String>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:90
+msgid ""
+"void **add_ios_linker_flags** **(** :ref:`String <class_String>` flags "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:96
+msgid ""
+"void **add_ios_plist_content** **(** :ref:`String <class_String>` "
+"plist_content **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:102
+msgid ""
+"void **add_shared_object** **(** :ref:`String <class_String>` path, "
+":ref:`PackedStringArray <class_PackedStringArray>` tags **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_editorexportplugin.rst:108
+msgid "void **skip** **(** **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`_export_begin "
+#~ "<class_EditorExportPlugin_method__export_begin>` **(** "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` features,"
+#~ " :ref:`bool <class_bool>` is_debug, :ref:`String"
+#~ " <class_String>` path, :ref:`int <class_int>` "
+#~ "flags **)** virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`_export_file "
+#~ "<class_EditorExportPlugin_method__export_file>` **(** "
+#~ ":ref:`String <class_String>` path, :ref:`String "
+#~ "<class_String>` type, :ref:`PoolStringArray "
+#~ "<class_PoolStringArray>` features **)** virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_file <class_EditorExportPlugin_method_add_file>` "
+#~ "**(** :ref:`String <class_String>` path, "
+#~ ":ref:`PoolByteArray <class_PoolByteArray>` file, "
+#~ ":ref:`bool <class_bool>` remap **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_shared_object "
+#~ "<class_EditorExportPlugin_method_add_shared_object>` **(** "
+#~ ":ref:`String <class_String>` path, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` tags "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **_export_begin** **(** :ref:`PoolStringArray"
+#~ " <class_PoolStringArray>` features, :ref:`bool "
+#~ "<class_bool>` is_debug, :ref:`String <class_String>`"
+#~ " path, :ref:`int <class_int>` flags **)**"
+#~ " virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **_export_file** **(** :ref:`String "
+#~ "<class_String>` path, :ref:`String <class_String>`"
+#~ " type, :ref:`PoolStringArray <class_PoolStringArray>`"
+#~ " features **)** virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_file** **(** :ref:`String "
+#~ "<class_String>` path, :ref:`PoolByteArray "
+#~ "<class_PoolByteArray>` file, :ref:`bool "
+#~ "<class_bool>` remap **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_shared_object** **(** :ref:`String "
+#~ "<class_String>` path, :ref:`PoolStringArray "
+#~ "<class_PoolStringArray>` tags **)**"
+#~ msgstr ""
+

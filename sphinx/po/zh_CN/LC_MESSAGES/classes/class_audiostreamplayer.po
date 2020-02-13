@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:10
+msgid "AudioStreamPlayer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:14
+msgid "Plays back audio non-positionally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:19
+msgid "Plays an audio stream non-positionally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:24
+msgid ":doc:`../tutorials/audio/audio_streams`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:27
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:42
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:30
+msgid ":ref:`autoplay <class_AudioStreamPlayer_property_autoplay>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:190
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:32
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:32
+msgid ":ref:`bus <class_AudioStreamPlayer_property_bus>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:114
+msgid "``@\"Master\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:34
+msgid ":ref:`MixTarget <enum_AudioStreamPlayer_MixTarget>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:34
+msgid ":ref:`mix_target <class_AudioStreamPlayer_property_mix_target>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:130
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:51
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:36
+msgid ":ref:`pitch_scale <class_AudioStreamPlayer_property_pitch_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:146
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:38
+msgid ":ref:`playing <class_AudioStreamPlayer_property_playing>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:40
+msgid ":ref:`AudioStream <class_AudioStream>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:40
+msgid ":ref:`stream <class_AudioStreamPlayer_property_stream>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:42
+msgid ":ref:`stream_paused <class_AudioStreamPlayer_property_stream_paused>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:44
+msgid ":ref:`volume_db <class_AudioStreamPlayer_property_volume_db>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:206
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:48
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:51
+msgid ""
+":ref:`get_playback_position "
+"<class_AudioStreamPlayer_method_get_playback_position>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:53
+msgid ":ref:`AudioStreamPlayback <class_AudioStreamPlayback>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:53
+msgid ""
+":ref:`get_stream_playback "
+"<class_AudioStreamPlayer_method_get_stream_playback>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:59
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:55
+msgid ""
+":ref:`play <class_AudioStreamPlayer_method_play>` **(** :ref:`float "
+"<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:57
+msgid ""
+":ref:`seek <class_AudioStreamPlayer_method_seek>` **(** :ref:`float "
+"<class_float>` to_position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:59
+msgid ":ref:`stop <class_AudioStreamPlayer_method_stop>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:63
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:67
+msgid "**finished** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:69
+msgid "Emitted when the audio stops playing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:72
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:82
+msgid "enum **MixTarget**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:84
+msgid ""
+"**MIX_TARGET_STEREO** = **0** --- The audio will be played only on the "
+"first channel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:86
+msgid ""
+"**MIX_TARGET_SURROUND** = **1** --- The audio will be played on all "
+"surround channels."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:88
+msgid ""
+"**MIX_TARGET_CENTER** = **2** --- The audio will be played on the second "
+"channel, which is usually the center."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:91
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:95
+msgid ":ref:`bool <class_bool>` **autoplay**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:190
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:206
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:208
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:100
+msgid "set_autoplay(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:210
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:102
+msgid "is_autoplay_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:105
+msgid "If ``true``, audio plays when added to scene tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:111
+msgid ":ref:`StringName <class_StringName>` **bus**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:116
+msgid "set_bus(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:118
+msgid "get_bus()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:121
+msgid "Bus on which this audio is playing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:127
+msgid ":ref:`MixTarget <enum_AudioStreamPlayer_MixTarget>` **mix_target**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:132
+msgid "set_mix_target(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:134
+msgid "get_mix_target()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:137
+msgid ""
+"If the audio configuration has more than two speakers, this sets the "
+"target channels. See :ref:`MixTarget <enum_AudioStreamPlayer_MixTarget>` "
+"constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:143
+msgid ":ref:`float <class_float>` **pitch_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:148
+msgid "set_pitch_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:150
+msgid "get_pitch_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:153
+msgid "Changes the pitch and the tempo of the audio."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:159
+msgid ":ref:`bool <class_bool>` **playing**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:164
+msgid "is_playing()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:167
+msgid "If ``true``, audio is playing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:173
+msgid ":ref:`AudioStream <class_AudioStream>` **stream**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:176
+msgid "set_stream(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:178
+msgid "get_stream()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:181
+msgid "The :ref:`AudioStream <class_AudioStream>` object to be played."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:187
+msgid ":ref:`bool <class_bool>` **stream_paused**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:192
+msgid "set_stream_paused(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:194
+msgid "get_stream_paused()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:197
+msgid ""
+"If ``true``, the playback is paused. You can resume it by setting "
+"``stream_paused`` to ``false``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:203
+msgid ":ref:`float <class_float>` **volume_db**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:208
+msgid "set_volume_db(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:210
+msgid "get_volume_db()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:213
+msgid "Volume of sound, in dB."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:216
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:220
+msgid ":ref:`float <class_float>` **get_playback_position** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:222
+msgid ""
+"Returns the position in the :ref:`AudioStream <class_AudioStream>` in "
+"seconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:228
+msgid ""
+":ref:`AudioStreamPlayback <class_AudioStreamPlayback>` "
+"**get_stream_playback** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:230
+msgid ""
+"Returns the :ref:`AudioStreamPlayback <class_AudioStreamPlayback>` object"
+" associated with this ``AudioStreamPlayer``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:236
+msgid "void **play** **(** :ref:`float <class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:238
+msgid "Plays the audio from the given ``from_position``, in seconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:244
+msgid "void **seek** **(** :ref:`float <class_float>` to_position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:246
+msgid "Sets the position from which audio will be played, in seconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:252
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_audiostreamplayer.rst:254
+msgid "Stops the audio."
+msgstr ""
+
+#~ msgid ""
+#~ "If the audio configuration has more "
+#~ "than two speakers, this sets the "
+#~ "target channels. See ``MIX_TARGET_*`` "
+#~ "constants."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "\"Master\""
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "1.0"
+#~ msgstr ""
+
+#~ msgid "0.0"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>`"
+#~ msgstr ""
+
+#~ msgid "``\"Master\"``"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **bus**"
+#~ msgstr ""
+

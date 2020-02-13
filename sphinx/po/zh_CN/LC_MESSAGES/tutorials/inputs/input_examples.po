@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-11-10 16:25+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:4
-#, fuzzy
 msgid "Input examples"
-msgstr "一个示例:"
+msgstr "输入示例"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:7
 msgid "Introduction"
@@ -35,16 +34,17 @@ msgid ""
 "will show you some of the most common scenarios, which you can use as "
 "starting points for your own projects."
 msgstr ""
-"在本教程中，您将学习如何使用Godot的:ref:`输入事件<class_InputEvent>`系统捕获"
-"玩家输入。您的游戏可以使用多种不同类型的输入——键盘，游戏手柄，鼠标等等。还有"
-"许多不同的方法，将这些输入转化为游戏中的动作。本文将向您展示一些最常见的场"
-"景，您可以将其作为您自己项目的起点。"
+"在本教程中，您将学习如何使用Godot的 :ref:`InputEvent <class_InputEvent>` 系统"
+"来捕获玩家输入。游戏可能会使用许多不同类型的输入——键盘、游戏手柄、鼠标等——以"
+"及将这些输入，转换为游戏中动作的许多不同方法。本文档将向您展示一些最常见的场"
+"景，您可以将它们用作自己项目的起点。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:16
 msgid ""
 "For a detailed overview of how Godot's input event system works, see :ref:"
 "`doc_inputevent`."
-msgstr "要详细了解Godot的输入事件系统是如何工作的，请见:ref:`文档_输入事件`。"
+msgstr ""
+"有关Godot输入事件系统如何工作的详细概述，请参阅 :ref:`doc_inputevent`。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:20
 msgid "Events versus polling"
@@ -60,26 +60,26 @@ msgid ""
 "`Input <class_Input>` singleton, which you can use to query the state of an "
 "input."
 msgstr ""
-"有时候，你想让游戏对某个输入事件做出反应——例如按下“跳跃”按钮。对于其他情况，"
-"可能希望只要按下键就会发生一些事情，比如移动。在第一种情况下，您可以使"
-"用“_input()”函数，它将在发生输入事件时调用。在第二种情况下，Godot提供了:ref:`"
-"输入<class_Input>`单例，您可以使用它来查询输入的状态。"
+"有时候，你想让游戏对某个输入事件做出反应——例如按下 ``跳跃`` 按钮。对于其他情"
+"况，可能希望只要按下键就会发生一些事情，比如移动。在第一种情况下，您可以使用 "
+"``_input()`` 函数，只要发生输入事件，就会调用该函数。在第二种情况下，Godot提"
+"供了 :ref:`Input <class_Input>` 单例，您可以使用它来查询输入的状态。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:29
 msgid "Examples:"
-msgstr "示例:"
+msgstr "示例："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:45
 msgid ""
 "This gives you the flexibility to mix-and-match the type of input processing "
 "you do."
-msgstr "这使您能够灵活地混合和匹配所执行输入的处理类型。"
+msgstr "这使您可以灵活地混合和匹配您执行的输入处理的类型。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:48
 msgid ""
 "For the remainder of this tutorial, we'll focus on capturing individual "
 "events in ``_input()``."
-msgstr "对于本教程的其余部分，我们将专注于使用“_input ()”捕捉单个事件。"
+msgstr "对于本教程的其余部分，我们将专注于在 ``_input()`` 中捕捉单个事件。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:52
 msgid "Input events"
@@ -92,16 +92,16 @@ msgid ""
 "specific properties related to that event. To see what events actually look "
 "like, add a Node and attach the following script:"
 msgstr ""
-"输入事件是继承自:ref:`输入事件<class_InputEvent>`的对象。根据事件类型，对象将"
-"包含与该事件相关的特定属性。为了了解事件的实际情况，添加一个节点并附加以下脚"
-"本:"
+"输入事件是继承自 :ref:`InputEvent <class_InputEvent>` 的对象。根据事件类型，"
+"对象将包含与该事件相关的特定属性。 要查看事件的实际情况，请添加一个 ``Node`` "
+"并附加以下脚本："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:67
 msgid ""
 "As you press keys, move the mouse, and perform other inputs, you'll see each "
 "event scroll by in the output window. Here's an example of the output:"
 msgstr ""
-"当你按下按键，移动鼠标，并执行其他输入，您会在输出窗口中看到每个事件滚动。下"
+"当你按下按键、移动鼠标、并执行其他输入，您会在输出窗口中看到每个事件滚动。下"
 "面是输出的一个例子："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:81
@@ -111,45 +111,46 @@ msgid ""
 "consider :ref:`InputEventMouseButton <class_InputEventMouseButton>`. It "
 "inherits from the following classes:"
 msgstr ""
-"如你所见，对于不同类型的输入，结果是非常不同的。按键事件甚至被打印为按键符"
-"号。例如，让我们考虑:ref:`鼠标按钮输入事件<class_InputEventMouseButton>`。它"
-"继承自以下类："
+"如你所见，不同类型的输入的结果截然不同。按键事件甚至被打印为按键符号。例如，"
+"让我们考虑 :ref:`InputEventMouseButton <class_InputEventMouseButton>`。它继承"
+"自以下类："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:85
-#, fuzzy
 msgid ""
 ":ref:`InputEvent <class_InputEvent>` - the base class for all input events"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
+msgstr ":ref:`InputEvent <class_InputEvent>`——所有输入事件的基本类"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:86
 msgid ""
 ":ref:`InputEventWithModifiers <class_InputEventWithModifiers>` - adds the "
 "ability to check if modifiers are pressed, such as ``Shift`` or ``Alt``."
 msgstr ""
-":ref:`带有修饰符的输入事件<class_InputEventWithModifiers>`加入了检查是否按下"
-"修饰符的功能，例如“Shift”或“Alt”。"
+":ref:`InputEventWithModifiers <class_InputEventWithModifiers>`——增加了检查是"
+"否按下修饰键的能力，例如 ``Shift`` 或 ``Alt``。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:87
-#, fuzzy
 msgid ""
 ":ref:`InputEventMouse <class_InputEventMouse>` - adds mouse event "
 "properties, such as ``position``"
-msgstr ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
+msgstr ""
+":ref:`InputEventMouse <class_InputEventMouse>`——添加鼠标事件属性，例如 "
+"``position``"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:88
 msgid ""
 ":ref:`InputEventMouseButton <class_InputEventMouseButton>` - contains the "
 "index of the button that was pressed, whether it was a double-click, etc."
 msgstr ""
-":ref:`鼠标按钮输入事件<class_InputEventMouseButton>`包含按下的按钮的索引，无"
-"论是双击，或是其他。"
+":ref:`InputEventMouseButton <class_InputEventMouseButton>`——包含所按下按钮的"
+"索引，是否为双击等。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:90
 msgid ""
 "It's a good idea to keep the class reference open while you're working with "
 "events so you can check the event type's available properties and methods."
 msgstr ""
-"在处理事件时，打开类引用是一个好主意，这样可以检查事件类型的可用属性和方法。"
+"在处理事件时，最好使类引用保持打开状态，以便您可以检查事件类型的可用属性和方"
+"法。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:94
 msgid ""
@@ -157,10 +158,12 @@ msgid ""
 "that doesn't contain it - calling ``position`` on ``InputEventKey`` for "
 "example. To avoid this, make sure to test the event type first:"
 msgstr ""
+"如果尝试访问不包含该属性的输入类型的属性——例如，在 ``InputEventKey`` 上调用 "
+"``position``，则会遇到错误。为避免这种情况，请确保首先测试事件类型："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:107
 msgid "InputMap"
-msgstr "InputMap"
+msgstr "输入映射"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:109
 msgid ""
@@ -171,15 +174,14 @@ msgid ""
 "defined. To see them, and to add your own, open Project -> Project Settings "
 "and select the InputMap tab:"
 msgstr ""
-":ref:`事件表<class_InputMap>`是处理各种输入的最灵活的方法。您可以通过创建命名"
-"的输入*动作*来使用它，可以为它分配任意数量的输入事件，例如按键或鼠标点击。一"
-"个新的Godot项目已经包含许多默认定义操作。看看它们，然后添加你自己的，打开项"
-"目->项目设置，并选择事件表选项卡："
+":ref:`InputMap <class_InputMap>` 是处理各种输入的最灵活的方法。您可以通过创建"
+"命名的输入*动作* 来使用它，可以为它分配任意数量的输入事件，例如按键或鼠标点"
+"击。一个新的Godot项目已经包含许多已经定义的默认动作。要查看它们，然后添加你自"
+"己的，打开 项目->项目设置，并选择输入映射（InputMap）选项卡："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:119
-#, fuzzy
 msgid "Capturing actions"
-msgstr "静态函数"
+msgstr "捕捉动作"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:121
 msgid ""
@@ -187,8 +189,8 @@ msgid ""
 "``is_action_pressed()`` and ``is_action_released()`` by passing the name of "
 "the action you're looking for:"
 msgstr ""
-"一旦你定义了动作，可以在脚本中使用“is_action_pressed()”和“is_action_released "
-"()”处理它们。通过名称查找响应的动作:"
+"一旦你定义了动作，可以通过传递您要查找的动作的名称，在脚本中使用 "
+"``is_action_pressed()`` 和 ``is_action_released()`` 对其进行处理："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:133
 msgid "Keyboard events"
@@ -201,8 +203,9 @@ msgid ""
 "where you want to specifically look at key events. For this example, let's "
 "check for the \"T\" key:"
 msgstr ""
-"键盘事件在:参考:‘输入事件键位 <类_输入事件键位>’中捕获。虽然建议使用输入行"
-"为，在某些情况下，您可能希望特别关注关键事件。对于这个示例，我们检查“T”键:"
+"键盘事件在 :ref:`InputEventKey <class_InputEventKey>` 中捕获。虽然建议改用输"
+"入操作，但是在某些情况下，您可能希望专门查看关键事件。对于此示例，让我们检查 "
+"``T`` 键："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:148
 #: ../../docs/tutorials/inputs/input_examples.rst:171
@@ -210,11 +213,12 @@ msgid ""
 "See :ref:`@GlobalScope_KeyList <enum_@GlobalScope_KeyList>` for a list of "
 "scancode constants."
 msgstr ""
-"详见:参考:“@全局范围_键位列表<枚举_@全局范围_键位列表>”获取扫描代码常量列表。"
+"请参阅 :ref:`@GlobalScope_KeyList <enum_@GlobalScope_KeyList>` 以获取扫描码常"
+"量的列表。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:152
 msgid "Keyboard modifiers"
-msgstr "键盘修饰符"
+msgstr "键盘修饰键"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:154
 msgid ""
@@ -224,9 +228,9 @@ msgid ""
 "happen when the \"T\" key is pressed, but something different when it's "
 "\"Shift+T\":"
 msgstr ""
-"修饰符属性继承自:参考:‘带有修饰符的输入事件<类_带有修饰符的输入事件>’。这允许"
-"您使用布尔属性检查修饰符组合。假设您希望在按下“T”键时发生一件事情，但当它"
-"是“Shift+T”时，情况就不一样了:"
+"修饰键属性继承自 :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>`。这允许您使用布尔属性检查修饰键组合。假设您"
+"希望在按下 ``T`` 键时发生一件事情，但当它是 ``Shift+T`` 时，情况就不一样了："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:175
 msgid "Mouse events"
@@ -240,9 +244,10 @@ msgid ""
 "<class_InputEventMouseMotion>`. Note that this means that all mouse events "
 "will contain a ``position`` property."
 msgstr ""
-"鼠标事件继承自:参考:'鼠标输入事件<类_鼠标输入事件>'类，并被分成两种类型::参"
-"考:'鼠标按钮输入事件<类_鼠标按钮输入事件>'和:参考:“鼠标行为输入事件<类_鼠标行"
-"为输入事件>”。注意，这意味着所有鼠标事件将包含一个“位置”（position）属性。"
+"鼠标事件继承自 :ref:`InputEventMouse <class_InputEventMouse>` 类，并被分成两"
+"种类型：:ref:`InputEventMouseButton <class_InputEventMouseButton>` 和 :ref:"
+"`InputEventMouseMotion <class_InputEventMouseMotion>`。注意，这意味着所有鼠标"
+"事件将包含一个位置 ``position`` 属性。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:183
 msgid "Mouse buttons"
@@ -257,14 +262,15 @@ msgid ""
 "as a button - two buttons, to be precise, with both ``BUTTON_WHEEL_UP`` and "
 "``BUTTON_WHEEL_DOWN`` being separate events."
 msgstr ""
-"捕获鼠标按钮与处理按键事件非常相似。:ref:`@全局作用域_按钮列表"
-"<enum_@GlobalScope_ButtonList>` 包含每个可能按钮的“按钮_*”常量列表，它将在事"
-"件的“按钮_索引”属性中报告。注意，鼠标滚轮也可以算作一个按钮——准确地说，是两个"
-"按钮，“按钮_滚轮_上”和“按钮_滚轮_下”都是独立的事件。"
+"捕获鼠标按钮与处理按键事件非常相似。:ref:`@GlobalScope_ButtonList "
+"<enum_@GlobalScope_ButtonList>` 包含每个可能按钮的 ``BUTTON_*`` 常量列表，它"
+"将在事件的 ``button_index`` 属性中报告。注意，鼠标滚轮也可以算作一个按钮——准"
+"确地说，是两个按钮，``BUTTON_WHEEL_UP`` 和 ``BUTTON_WHEEL_DOWN`` 都是独立的事"
+"件。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:202
 msgid "Mouse motion"
-msgstr "鼠标行为"
+msgstr "鼠标运动"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:204
 msgid ""
@@ -272,19 +278,19 @@ msgid ""
 "whenever the mouse moves. You can find the move's distance with the "
 "``relative`` property."
 msgstr ""
-":ref:`鼠标移动输入事件<class_InputEventMouseMotion>`事件在鼠标移动时发生。可"
-"以通过“相对”属性找到移动的距离。"
+":ref:`InputEventMouseMotion <class_InputEventMouseMotion>` 事件在鼠标移动时发"
+"生。可以通过 ``relative`` 属性找到移动的距离。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:208
 msgid ""
 "Here's an example using mouse events to drag-and-drop a :ref:`Sprite "
 "<class_Sprite>` node:"
-msgstr "下面是一个使用鼠标事件拖放:ref:`精灵<class_Sprite>`节点的例子："
+msgstr ""
+"这是一个使用鼠标事件，拖放一个 :ref:`Sprite <class_Sprite>` 节点的示例："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:234
-#, fuzzy
 msgid "Touch events"
-msgstr "输入事件"
+msgstr "触摸事件"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:236
 msgid ""
@@ -293,9 +299,10 @@ msgid ""
 "mouse click event, and :ref:`InputEventScreenDrag "
 "<class_InputEventScreenDrag>` works much the same as mouse motion."
 msgstr ""
-"如果使用触摸屏设备，可以生成触摸事件。:ref:`触摸屏幕输入事件"
-"<class_InputEventScreenTouch>`相当于鼠标点击事件，并且:ref:`拖拽屏幕输入事件"
-"<class_InputEventScreenDrag>`的工作原理与鼠标移动非常相似。"
+"如果使用触摸屏设备，可以生成触摸事件。:ref:`InputEventScreenTouch "
+"<class_InputEventScreenTouch>` 相当于鼠标点击事件，并且 :ref:"
+"`InputEventScreenDrag <class_InputEventScreenDrag>` 的工作原理与鼠标移动非常"
+"相似。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:241
 msgid ""
@@ -304,5 +311,6 @@ msgid ""
 "From Mouse\" and your project will interpret mouse clicks and motion as "
 "touch events."
 msgstr ""
-"要在非触摸屏设备上测试触摸事件，打开项目设置，进入“输入设备/指向”部分。启"
-"用“模拟鼠标触摸”，您的项目将把鼠标单击和移动解释为触摸事件。"
+"要在非触摸屏设备上测试触摸事件，打开项目设置，进入 ``输入设备/指向（Input "
+"Devices/Pointing）`` 部分。启用 ``从鼠标模拟触摸``，您的项目将把鼠标点击和移"
+"动解释为触摸事件。"

@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-30 23:24+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_physicsbody2d.rst:10
+msgid "PhysicsBody2D"
+msgstr "PhysicsBody2D"
+
+#: ../../docs/classes/class_physicsbody2d.rst:12
+msgid ""
+"**Inherits:** :ref:`CollisionObject2D <class_CollisionObject2D>` **<** "
+":ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` "
+"**<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`CollisionObject2D <class_CollisionObject2D>` **<** "
+":ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` "
+"**<** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:14
+msgid ""
+"**Inherited By:** :ref:`KinematicBody2D <class_KinematicBody2D>`, "
+":ref:`RigidBody2D <class_RigidBody2D>`, :ref:`StaticBody2D "
+"<class_StaticBody2D>`"
+msgstr ""
+"**子类**：:ref:`KinematicBody2D <class_KinematicBody2D>`, :ref:`RigidBody2D "
+"<class_RigidBody2D>`, :ref:`StaticBody2D <class_StaticBody2D>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:16
+msgid "Base class for all objects affected by physics in 2D space."
+msgstr "二维空间中受物理影响的所有对象的基类。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_physicsbody2d.rst:21
+msgid ""
+"PhysicsBody2D is an abstract base class for implementing a physics body. "
+"All \\*Body2D types inherit from it."
+msgstr "``PhysicsBody2D`` 是用于实现物理实体的抽象基类。所有 ``*Body2D`` 类型都继承自它。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_physicsbody2d.rst:26
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ":doc:`../tutorials/physics/physics_introduction`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_physicsbody2d.rst:32
+#: ../../docs/classes/class_physicsbody2d.rst:34
+#: ../../docs/classes/class_physicsbody2d.rst:38
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:32
+msgid ":ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>`"
+msgstr ":ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:32
+#: ../../docs/classes/class_physicsbody2d.rst:34
+#: ../../docs/classes/class_physicsbody2d.rst:68
+#: ../../docs/classes/class_physicsbody2d.rst:88
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody2d.rst:34
+msgid ":ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>`"
+msgstr ":ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:36
+#: ../../docs/classes/class_physicsbody2d.rst:49
+#: ../../docs/classes/class_physicsbody2d.rst:51
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:36
+msgid "input_pickable"
+msgstr "input_pickable"
+
+#: ../../docs/classes/class_physicsbody2d.rst:36
+#, fuzzy
+msgid "**O:** ``false``"
+msgstr "**O:** false"
+
+#: ../../docs/classes/class_physicsbody2d.rst:38
+msgid ":ref:`layers <class_PhysicsBody2D_property_layers>`"
+msgstr ":ref:`layers <class_PhysicsBody2D_property_layers>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:42
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_physicsbody2d.rst:45
+#: ../../docs/classes/class_physicsbody2d.rst:53
+#: ../../docs/classes/class_physicsbody2d.rst:55
+#: ../../docs/classes/class_physicsbody2d.rst:57
+msgid "void"
+msgstr "void"
+
+#: ../../docs/classes/class_physicsbody2d.rst:45
+msgid ""
+":ref:`add_collision_exception_with "
+"<class_PhysicsBody2D_method_add_collision_exception_with>` **(** "
+":ref:`Node <class_Node>` body **)**"
+msgstr ""
+":ref:`add_collision_exception_with "
+"<class_PhysicsBody2D_method_add_collision_exception_with>` **(** "
+":ref:`Node <class_Node>` body **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:47
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: ../../docs/classes/class_physicsbody2d.rst:47
+msgid ""
+":ref:`get_collision_exceptions "
+"<class_PhysicsBody2D_method_get_collision_exceptions>` **(** **)**"
+msgstr ""
+":ref:`get_collision_exceptions "
+"<class_PhysicsBody2D_method_get_collision_exceptions>` **(** **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:49
+msgid ""
+":ref:`get_collision_layer_bit "
+"<class_PhysicsBody2D_method_get_collision_layer_bit>` **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+":ref:`get_collision_layer_bit "
+"<class_PhysicsBody2D_method_get_collision_layer_bit>` **(** :ref:`int "
+"<class_int>` bit **)** const"
+
+#: ../../docs/classes/class_physicsbody2d.rst:51
+msgid ""
+":ref:`get_collision_mask_bit "
+"<class_PhysicsBody2D_method_get_collision_mask_bit>` **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+":ref:`get_collision_mask_bit "
+"<class_PhysicsBody2D_method_get_collision_mask_bit>` **(** :ref:`int "
+"<class_int>` bit **)** const"
+
+#: ../../docs/classes/class_physicsbody2d.rst:53
+msgid ""
+":ref:`remove_collision_exception_with "
+"<class_PhysicsBody2D_method_remove_collision_exception_with>` **(** "
+":ref:`Node <class_Node>` body **)**"
+msgstr ""
+":ref:`remove_collision_exception_with "
+"<class_PhysicsBody2D_method_remove_collision_exception_with>` **(** "
+":ref:`Node <class_Node>` body **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:55
+msgid ""
+":ref:`set_collision_layer_bit "
+"<class_PhysicsBody2D_method_set_collision_layer_bit>` **(** :ref:`int "
+"<class_int>` bit, :ref:`bool <class_bool>` value **)**"
+msgstr ""
+":ref:`set_collision_layer_bit "
+"<class_PhysicsBody2D_method_set_collision_layer_bit>` **(** :ref:`int "
+"<class_int>` bit, :ref:`bool <class_bool>` value **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:57
+msgid ""
+":ref:`set_collision_mask_bit "
+"<class_PhysicsBody2D_method_set_collision_mask_bit>` **(** :ref:`int "
+"<class_int>` bit, :ref:`bool <class_bool>` value **)**"
+msgstr ""
+":ref:`set_collision_mask_bit "
+"<class_PhysicsBody2D_method_set_collision_mask_bit>` **(** :ref:`int "
+"<class_int>` bit, :ref:`bool <class_bool>` value **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:61
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_physicsbody2d.rst:65
+msgid ":ref:`int <class_int>` **collision_layer**"
+msgstr ":ref:`int <class_int>` **collision_layer**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:68
+#: ../../docs/classes/class_physicsbody2d.rst:88
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_physicsbody2d.rst:70
+#: ../../docs/classes/class_physicsbody2d.rst:90
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_physicsbody2d.rst:70
+msgid "set_collision_layer(value)"
+msgstr "set_collision_layer(value)"
+
+#: ../../docs/classes/class_physicsbody2d.rst:72
+#: ../../docs/classes/class_physicsbody2d.rst:92
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_physicsbody2d.rst:72
+msgid "get_collision_layer()"
+msgstr "get_collision_layer()"
+
+#: ../../docs/classes/class_physicsbody2d.rst:75
+msgid "The physics layers this area is in."
+msgstr "该区域所在的物理层。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:77
+msgid ""
+"Collidable objects can exist in any of 32 different layers. These layers "
+"work like a tagging system, and are not visual. A collidable can use "
+"these layers to select with which objects it can collide, using the "
+":ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>` "
+"property."
+msgstr ""
+"可碰撞的对象可以存在于32个不同的层中的任何一个层中。这些层像标记系统一样工作，并且不可见。可碰撞对象可以使用这些图层，通过使用 "
+":ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>` "
+"属性，来选择它可以与哪些对象碰撞。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:79
+msgid ""
+"A contact is detected if object A is in any of the layers that object B "
+"scans, or object B is in any layer scanned by object A."
+msgstr "如果对象A在对象B扫描的任何层中，或者对象B在对象A扫描的任何层中，则检测到接触。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:85
+msgid ":ref:`int <class_int>` **collision_mask**"
+msgstr ":ref:`int <class_int>` **collision_mask**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:90
+msgid "set_collision_mask(value)"
+msgstr "set_collision_mask(value)"
+
+#: ../../docs/classes/class_physicsbody2d.rst:92
+msgid "get_collision_mask()"
+msgstr "get_collision_mask()"
+
+#: ../../docs/classes/class_physicsbody2d.rst:95
+msgid "The physics layers this area scans for collisions."
+msgstr "该区域扫描碰撞的物理层。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:101
+msgid ":ref:`int <class_int>` **layers**"
+msgstr ":ref:`int <class_int>` **layers**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:103
+msgid ""
+"Both :ref:`collision_layer "
+"<class_PhysicsBody2D_property_collision_layer>` and :ref:`collision_mask "
+"<class_PhysicsBody2D_property_collision_mask>`. Returns "
+":ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>` "
+"when accessed. Updates :ref:`collision_layer "
+"<class_PhysicsBody2D_property_collision_layer>` and :ref:`collision_mask "
+"<class_PhysicsBody2D_property_collision_mask>` when modified."
+msgstr ""
+":ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>` 和 "
+":ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>` "
+"两者。访问时，返回 :ref:`collision_layer "
+"<class_PhysicsBody2D_property_collision_layer>`。修改时，更新 "
+":ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>` 和 "
+":ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>`。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:106
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_physicsbody2d.rst:110
+msgid ""
+"void **add_collision_exception_with** **(** :ref:`Node <class_Node>` body"
+" **)**"
+msgstr ""
+"void **add_collision_exception_with** **(** :ref:`Node <class_Node>` body"
+" **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:112
+msgid "Adds a body to the list of bodies that this body can't collide with."
+msgstr "将一个实体添加到该实体无法碰撞的实体列表中。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:118
+msgid ":ref:`Array <class_Array>` **get_collision_exceptions** **(** **)**"
+msgstr ":ref:`Array <class_Array>` **get_collision_exceptions** **(** **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:120
+msgid ""
+"Returns an array of nodes that were added as collision exceptions for "
+"this body."
+msgstr "返回作为此主体的碰撞例外添加的节点的数组。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:126
+msgid ""
+":ref:`bool <class_bool>` **get_collision_layer_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **get_collision_layer_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+
+#: ../../docs/classes/class_physicsbody2d.rst:128
+msgid ""
+"Returns an individual bit on the :ref:`collision_layer "
+"<class_PhysicsBody2D_property_collision_layer>`."
+msgstr ""
+"返回 :ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>` "
+"上的单个位。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:134
+msgid ""
+":ref:`bool <class_bool>` **get_collision_mask_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+msgstr ""
+":ref:`bool <class_bool>` **get_collision_mask_bit** **(** :ref:`int "
+"<class_int>` bit **)** const"
+
+#: ../../docs/classes/class_physicsbody2d.rst:136
+msgid ""
+"Returns an individual bit on the :ref:`collision_mask "
+"<class_PhysicsBody2D_property_collision_mask>`."
+msgstr ""
+"返回 :ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>` "
+"上的单个位。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:142
+msgid ""
+"void **remove_collision_exception_with** **(** :ref:`Node <class_Node>` "
+"body **)**"
+msgstr ""
+"void **remove_collision_exception_with** **(** :ref:`Node <class_Node>` "
+"body **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:144
+msgid "Removes a body from the list of bodies that this body can't collide with."
+msgstr "从该物体不能碰撞的物体列表中，移除一个物体。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:150
+msgid ""
+"void **set_collision_layer_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+msgstr ""
+"void **set_collision_layer_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:152
+msgid ""
+"Sets individual bits on the :ref:`collision_layer "
+"<class_PhysicsBody2D_property_collision_layer>` bitmask. Use this if you "
+"only need to change one layer's value."
+msgstr ""
+"在 :ref:`collision_layer <class_PhysicsBody2D_property_collision_layer>` "
+"位掩码上设置各个位。如果只需要更改一层的值，请使用此选项。"
+
+#: ../../docs/classes/class_physicsbody2d.rst:158
+msgid ""
+"void **set_collision_mask_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+msgstr ""
+"void **set_collision_mask_bit** **(** :ref:`int <class_int>` bit, "
+":ref:`bool <class_bool>` value **)**"
+
+#: ../../docs/classes/class_physicsbody2d.rst:160
+msgid ""
+"Sets individual bits on the :ref:`collision_mask "
+"<class_PhysicsBody2D_property_collision_mask>` bitmask. Use this if you "
+"only need to change one layer's value."
+msgstr ""
+"在 :ref:`collision_mask <class_PhysicsBody2D_property_collision_mask>` "
+"位掩码上设置各个位。如果只需要更改一层的值，请使用此选项。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "1"
+#~ msgstr "1"
+

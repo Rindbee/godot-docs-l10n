@@ -1,0 +1,685 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:10
+msgid "AStar"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:14
+msgid ""
+"An implementation of A\\* to find shortest paths among connected points "
+"in space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:19
+msgid ""
+"A\\* (A star) is a computer algorithm that is widely used in pathfinding "
+"and graph traversal, the process of plotting short paths among vertices "
+"(points), passing through a given set of edges (segments). It enjoys "
+"widespread use due to its performance and accuracy. Godot's A\\* "
+"implementation uses points in three-dimensional space and Euclidean "
+"distances by default."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:21
+msgid ""
+"You must add points manually with :ref:`add_point "
+"<class_AStar_method_add_point>` and create segments manually with "
+":ref:`connect_points <class_AStar_method_connect_points>`. Then you can "
+"test if there is a path between two points with the "
+":ref:`are_points_connected <class_AStar_method_are_points_connected>` "
+"function, get a path containing indices by :ref:`get_id_path "
+"<class_AStar_method_get_id_path>`, or one containing actual coordinates "
+"with :ref:`get_point_path <class_AStar_method_get_point_path>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:23
+msgid ""
+"It is also possible to use non-Euclidean distances. To do so, create a "
+"class that extends ``AStar`` and override methods :ref:`_compute_cost "
+"<class_AStar_method__compute_cost>` and :ref:`_estimate_cost "
+"<class_AStar_method__estimate_cost>`. Both take two indices and return a "
+"length, as is shown in the following example."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:36
+msgid ""
+":ref:`_estimate_cost <class_AStar_method__estimate_cost>` should return a"
+" lower bound of the distance, i.e. ``_estimate_cost(u, v) <= "
+"_compute_cost(u, v)``. This serves as a hint to the algorithm because the"
+" custom ``_compute_cost`` might be computation-heavy. If this is not the "
+"case, make :ref:`_estimate_cost <class_AStar_method__estimate_cost>` "
+"return the same value as :ref:`_compute_cost "
+"<class_AStar_method__compute_cost>` to provide the algorithm with the "
+"most accurate information."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:39
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:74
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:42
+msgid ""
+":ref:`_compute_cost <class_AStar_method__compute_cost>` **(** :ref:`int "
+"<class_int>` from_id, :ref:`int <class_int>` to_id **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:44
+msgid ""
+":ref:`_estimate_cost <class_AStar_method__estimate_cost>` **(** :ref:`int"
+" <class_int>` from_id, :ref:`int <class_int>` to_id **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:90
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:46
+msgid ""
+":ref:`add_point <class_AStar_method_add_point>` **(** :ref:`int "
+"<class_int>` id, :ref:`Vector3 <class_Vector3>` position, :ref:`float "
+"<class_float>` weight_scale=1.0 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:80
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:48
+msgid ""
+":ref:`are_points_connected <class_AStar_method_are_points_connected>` "
+"**(** :ref:`int <class_int>` id, :ref:`int <class_int>` to_id, :ref:`bool"
+" <class_bool>` bidirectional=true **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:50
+msgid ":ref:`clear <class_AStar_method_clear>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:52
+msgid ""
+":ref:`connect_points <class_AStar_method_connect_points>` **(** :ref:`int"
+" <class_int>` id, :ref:`int <class_int>` to_id, :ref:`bool <class_bool>` "
+"bidirectional=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:54
+msgid ""
+":ref:`disconnect_points <class_AStar_method_disconnect_points>` **(** "
+":ref:`int <class_int>` id, :ref:`int <class_int>` to_id, :ref:`bool "
+"<class_bool>` bidirectional=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:68
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:56
+msgid ""
+":ref:`get_available_point_id <class_AStar_method_get_available_point_id>`"
+" **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:58
+msgid ""
+":ref:`get_closest_point <class_AStar_method_get_closest_point>` **(** "
+":ref:`Vector3 <class_Vector3>` to_position, :ref:`bool <class_bool>` "
+"include_disabled=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:72
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:60
+msgid ""
+":ref:`get_closest_position_in_segment "
+"<class_AStar_method_get_closest_position_in_segment>` **(** :ref:`Vector3"
+" <class_Vector3>` to_position **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:66
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:62
+msgid ""
+":ref:`get_id_path <class_AStar_method_get_id_path>` **(** :ref:`int "
+"<class_int>` from_id, :ref:`int <class_int>` to_id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:64
+msgid ""
+":ref:`get_point_capacity <class_AStar_method_get_point_capacity>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:66
+msgid ""
+":ref:`get_point_connections <class_AStar_method_get_point_connections>` "
+"**(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:68
+msgid ""
+":ref:`get_point_count <class_AStar_method_get_point_count>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:70
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:70
+msgid ""
+":ref:`get_point_path <class_AStar_method_get_point_path>` **(** :ref:`int"
+" <class_int>` from_id, :ref:`int <class_int>` to_id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:72
+msgid ""
+":ref:`get_point_position <class_AStar_method_get_point_position>` **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:74
+msgid ""
+":ref:`get_point_weight_scale <class_AStar_method_get_point_weight_scale>`"
+" **(** :ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:76
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:76
+msgid ":ref:`get_points <class_AStar_method_get_points>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:78
+msgid ""
+":ref:`has_point <class_AStar_method_has_point>` **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:80
+msgid ""
+":ref:`is_point_disabled <class_AStar_method_is_point_disabled>` **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:82
+msgid ""
+":ref:`remove_point <class_AStar_method_remove_point>` **(** :ref:`int "
+"<class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:84
+msgid ""
+":ref:`reserve_space <class_AStar_method_reserve_space>` **(** :ref:`int "
+"<class_int>` num_nodes **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:86
+msgid ""
+":ref:`set_point_disabled <class_AStar_method_set_point_disabled>` **(** "
+":ref:`int <class_int>` id, :ref:`bool <class_bool>` disabled=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:88
+msgid ""
+":ref:`set_point_position <class_AStar_method_set_point_position>` **(** "
+":ref:`int <class_int>` id, :ref:`Vector3 <class_Vector3>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:90
+msgid ""
+":ref:`set_point_weight_scale <class_AStar_method_set_point_weight_scale>`"
+" **(** :ref:`int <class_int>` id, :ref:`float <class_float>` weight_scale"
+" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:94
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:98
+msgid ""
+":ref:`float <class_float>` **_compute_cost** **(** :ref:`int <class_int>`"
+" from_id, :ref:`int <class_int>` to_id **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:100
+msgid "Called when computing the cost between two connected points."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:112
+msgid "Note that this function is hidden in the default ``AStar`` class."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:108
+msgid ""
+":ref:`float <class_float>` **_estimate_cost** **(** :ref:`int "
+"<class_int>` from_id, :ref:`int <class_int>` to_id **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:110
+msgid ""
+"Called when estimating the cost between a point and the path's ending "
+"point."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:118
+msgid ""
+"void **add_point** **(** :ref:`int <class_int>` id, :ref:`Vector3 "
+"<class_Vector3>` position, :ref:`float <class_float>` weight_scale=1.0 "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:120
+msgid ""
+"Adds a new point at the given position with the given identifier. The "
+"algorithm prefers points with lower ``weight_scale`` to form a path. The "
+"``id`` must be 0 or larger, and the ``weight_scale`` must be 1 or larger."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:127
+msgid ""
+"If there already exists a point for the given ``id``, its position and "
+"weight scale are updated to the given values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:133
+msgid ""
+":ref:`bool <class_bool>` **are_points_connected** **(** :ref:`int "
+"<class_int>` id, :ref:`int <class_int>` to_id, :ref:`bool <class_bool>` "
+"bidirectional=true **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:135
+msgid ""
+"Returns whether the two given points are directly connected by a segment."
+" If ``bidirectional`` is ``false``, returns whether movement from ``id`` "
+"to ``to_id`` is possible through this segment."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:141
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:143
+msgid "Clears all the points and segments."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:149
+msgid ""
+"void **connect_points** **(** :ref:`int <class_int>` id, :ref:`int "
+"<class_int>` to_id, :ref:`bool <class_bool>` bidirectional=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:151
+msgid ""
+"Creates a segment between the given points. If ``bidirectional`` is "
+"``false``, only movement from ``id`` to ``to_id`` is allowed, not the "
+"reverse direction."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:164
+msgid ""
+"void **disconnect_points** **(** :ref:`int <class_int>` id, :ref:`int "
+"<class_int>` to_id, :ref:`bool <class_bool>` bidirectional=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:166
+msgid ""
+"Deletes the segment between the given points. If ``bidirectional`` is "
+"``false``, only movement from ``id`` to ``to_id`` is prevented, and a "
+"unidirectional segment possibly remains."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:172
+msgid ":ref:`int <class_int>` **get_available_point_id** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:174
+msgid "Returns the next available point ID with no point associated to it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:180
+msgid ""
+":ref:`int <class_int>` **get_closest_point** **(** :ref:`Vector3 "
+"<class_Vector3>` to_position, :ref:`bool <class_bool>` "
+"include_disabled=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:182
+msgid ""
+"Returns the ID of the closest point to ``to_position``, optionally taking"
+" disabled points into account. Returns -1 if there are no points in the "
+"points pool."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:188
+msgid ""
+":ref:`Vector3 <class_Vector3>` **get_closest_position_in_segment** **(** "
+":ref:`Vector3 <class_Vector3>` to_position **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:190
+msgid ""
+"Returns the closest position to ``to_position`` that resides inside a "
+"segment between two connected points."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:200
+msgid ""
+"The result is in the segment that goes from ``y = 0`` to ``y = 5``. It's "
+"the closest position in the segment to the given point."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:206
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **get_id_path** **(** "
+":ref:`int <class_int>` from_id, :ref:`int <class_int>` to_id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:208
+msgid ""
+"Returns an array with the IDs of the points that form the path found by "
+"AStar between the given points. The array is ordered from the starting "
+"point to the ending point of the path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:225
+msgid ""
+"If you change the 2nd point's weight to 3, then the result will be ``[1, "
+"4, 3]`` instead, because now even though the distance is longer, it's "
+"\"easier\" to get through point 4 than through point 2."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:231
+msgid ":ref:`int <class_int>` **get_point_capacity** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:233
+msgid ""
+"Returns the capacity of the structure backing the points, useful in "
+"conjunction with ``reserve_space``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:239
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` "
+"**get_point_connections** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:241
+msgid ""
+"Returns an array with the IDs of the points that form the connection with"
+" the given point."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:260
+msgid ":ref:`int <class_int>` **get_point_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:262
+msgid "Returns the number of points currently in the points pool."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:268
+msgid ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` **get_point_path** "
+"**(** :ref:`int <class_int>` from_id, :ref:`int <class_int>` to_id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:270
+msgid ""
+"Returns an array with the points that are in the path found by AStar "
+"between the given points. The array is ordered from the starting point to"
+" the ending point of the path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:276
+msgid ""
+":ref:`Vector3 <class_Vector3>` **get_point_position** **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:278
+msgid "Returns the position of the point associated with the given ``id``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:284
+msgid ""
+":ref:`float <class_float>` **get_point_weight_scale** **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:286
+msgid "Returns the weight scale of the point associated with the given ``id``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:292
+msgid ":ref:`Array <class_Array>` **get_points** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:294
+msgid "Returns an array of all points."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:300
+msgid ""
+":ref:`bool <class_bool>` **has_point** **(** :ref:`int <class_int>` id "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:302
+msgid "Returns whether a point associated with the given ``id`` exists."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:308
+msgid ""
+":ref:`bool <class_bool>` **is_point_disabled** **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:310
+msgid ""
+"Returns whether a point is disabled or not for pathfinding. By default, "
+"all points are enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:316
+msgid "void **remove_point** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:318
+msgid "Removes the point associated with the given ``id`` from the points pool."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:324
+msgid "void **reserve_space** **(** :ref:`int <class_int>` num_nodes **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:326
+msgid ""
+"Reserves space internally for ``num_nodes`` points, useful if you're "
+"adding a known large number of points at once, for a grid for instance. "
+"New capacity must be greater or equals to old capacity."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:332
+msgid ""
+"void **set_point_disabled** **(** :ref:`int <class_int>` id, :ref:`bool "
+"<class_bool>` disabled=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:334
+msgid ""
+"Disables or enables the specified point for pathfinding. Useful for "
+"making a temporary obstacle."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:340
+msgid ""
+"void **set_point_position** **(** :ref:`int <class_int>` id, "
+":ref:`Vector3 <class_Vector3>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:342
+msgid "Sets the ``position`` for the point with the given ``id``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:348
+msgid ""
+"void **set_point_weight_scale** **(** :ref:`int <class_int>` id, "
+":ref:`float <class_float>` weight_scale **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_astar.rst:350
+msgid "Sets the ``weight_scale`` for the point with the given ``id``."
+msgstr ""
+
+#~ msgid "AStar class representation that uses 3d-vectors as edges."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`are_points_connected "
+#~ "<class_AStar_method_are_points_connected>` **(** :ref:`int"
+#~ " <class_int>` id, :ref:`int <class_int>` "
+#~ "to_id **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`disconnect_points <class_AStar_method_disconnect_points>`"
+#~ " **(** :ref:`int <class_int>` id, :ref:`int"
+#~ " <class_int>` to_id **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A\\* (A star) is a computer "
+#~ "algorithm that is widely used in "
+#~ "pathfinding and graph traversal, the "
+#~ "process of plotting an efficiently "
+#~ "directed path between multiple points. "
+#~ "It enjoys widespread use due to "
+#~ "its performance and accuracy. Godot's "
+#~ "A\\* implementation make use of vectors"
+#~ " as points."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You must add points manually with "
+#~ ":ref:`add_point <class_AStar_method_add_point>` and "
+#~ "create segments manually with "
+#~ ":ref:`connect_points <class_AStar_method_connect_points>`. "
+#~ "So you can test if there is "
+#~ "a path between two points with the"
+#~ " :ref:`are_points_connected "
+#~ "<class_AStar_method_are_points_connected>` function, get"
+#~ " the list of existing ids in "
+#~ "the found path with :ref:`get_id_path "
+#~ "<class_AStar_method_get_id_path>`, or the points "
+#~ "list with :ref:`get_point_path "
+#~ "<class_AStar_method_get_point_path>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **are_points_connected** "
+#~ "**(** :ref:`int <class_int>` id, :ref:`int "
+#~ "<class_int>` to_id **)** const"
+#~ msgstr ""
+
+#~ msgid "Returns whether there is a connection/segment between the given points."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **disconnect_points** **(** :ref:`int "
+#~ "<class_int>` id, :ref:`int <class_int>` to_id"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid "Deletes the segment between the given points."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` **get_id_path**"
+#~ " **(** :ref:`int <class_int>` from_id, "
+#~ ":ref:`int <class_int>` to_id **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` "
+#~ "**get_point_connections** **(** :ref:`int "
+#~ "<class_int>` id **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "**get_point_path** **(** :ref:`int <class_int>` "
+#~ "from_id, :ref:`int <class_int>` to_id **)**"
+#~ msgstr ""
+

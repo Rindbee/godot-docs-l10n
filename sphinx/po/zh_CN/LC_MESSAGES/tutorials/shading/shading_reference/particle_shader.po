@@ -1,37 +1,40 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-11-04 12:42+0800\n"
+"PO-Revision-Date: 2019-11-18 20:48+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:4
-#, fuzzy
 msgid "Particle shaders"
-msgstr "ParticlesMaterial"
+msgstr "粒子着色器"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:6
-#, fuzzy
 msgid ""
 "Particle shaders are a special type of vertex shader that runs before the "
 "object is drawn. They are used for calculating material properties such as "
 "color, position, and rotation. They are drawn with any regular material for "
 "CanvasItem or Spatial, depending on whether they are 2D or 3D."
 msgstr ""
-"粒子阴影仅支持顶点处理。 它们使用CanvasItem或Spatial的任何常规材质绘制，具体"
-"取决于它们是2D还是3D。"
+"粒子着色器是一种特殊类型的顶点着色器，可在绘制对象之前运行。它们用于计算材质"
+"属性，例如颜色、位置、和旋转。它们是使用 ``CanvasItem`` 或 ``Spatial`` 的任何"
+"常规材质绘制的，具体取决于它们是2D还是3D。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:11
 msgid ""
@@ -40,9 +43,9 @@ msgid ""
 "by the CanvasItem of Spatial shader. They contain only a vertex processor "
 "function that outputs multiple properties (see built-ins below)."
 msgstr ""
-"粒子着色器是独特的，因为它们不用于绘制对象本身；被用来计算粒子的性质，然后由"
-"空间着色器的画布组件使用。它们只包含一个顶点处理器函数，输出多个属性的内置函"
-"数(见下文)。"
+"粒子着色器是唯一的，因为它们不用于绘制对象本身。它们用于计算粒子属性，然后由 "
+"``Spatial`` 着色器的 ``CanvasItem`` 使用。它们仅包含一个输出多个属性的顶点处"
+"理器函数（请参阅下面的内置）。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:16
 msgid ""
@@ -54,31 +57,31 @@ msgid ""
 "shaders that discard the data they have calculated once they draw to the "
 "frame buffer."
 msgstr ""
-"粒子着色器使用转换反馈着色器，这是一种单独运行的特殊类型的顶点着色器。它像普"
-"通顶点着色器那样在缓冲区中接受数据，但是也输出到数据缓冲区，而不是输出到片段"
-"着色器进行像素处理。正因为如此，转换反馈着色器可以在每次运行时自行构建，与其"
-"他着色器不同，其他着色器一旦绘制到帧缓冲区，就会丢弃它们计算的数据。"
+"粒子着色器使用变换反馈着色器，它是一种自行运行的特殊类型的顶点着色器。它像常"
+"规顶点着色器一样在缓冲区中接收数据，但它也输出到数据缓冲区，而不是输出到片段"
+"着色器进行像素处理。因此，变换反馈着色器可以在每次运行时自行构建，而其他着色"
+"器在绘制到帧缓冲区后会丢弃已计算的数据。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:23
 msgid ""
 "Particle shaders are only available in the GLES3 backend. If you need "
 "particles in GLES2, use :ref:`CPUParticles <class_CPUParticles>`."
 msgstr ""
+"粒子着色器仅在GLES3后端中可用。如果在GLES2中需要粒子，请使用 :ref:"
+"`CPUParticles <class_CPUParticles>`。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:27
-#, fuzzy
 msgid "Render modes"
 msgstr "渲染模式"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:30
-#, fuzzy
 msgid "Render mode"
 msgstr "渲染模式"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:30
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:51
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:32
 msgid "**keep_data**"
@@ -86,7 +89,7 @@ msgstr "**keep_data**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:32
 msgid "Do not clear previous data on restart."
-msgstr "不要在重启时清除以前的数据。"
+msgstr "重新启动时请勿清除先前的数据。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:34
 msgid "**disable_force**"
@@ -94,32 +97,30 @@ msgstr "**disable_force**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:34
 msgid "Disable attractor force. (Not currently implemented in 3.1)"
-msgstr "禁用吸引力。(目前在3.1版本中未实现)"
+msgstr "禁用吸引力。（目前尚未在3.1中实现）"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:36
 msgid "**disable_velocity**"
 msgstr "**disable_velocity**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:36
-#, fuzzy
 msgid "Ignore **VELOCITY** value."
-msgstr "out vec3 **VELOCITY**"
+msgstr "忽略 **VELOCITY** 值。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:40
-#, fuzzy
 msgid "Vertex built-ins"
 msgstr "顶点内置"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:42
-#, fuzzy
 msgid ""
 "Values marked as \"in\" are read-only. Values marked as \"out\" are for "
 "optional writing and will not necessarily contain sensible values. Values "
 "marked as \"inout\" provide a sensible default value, and can optionally be "
 "written to. Samplers are not subjects of writing and they are not marked."
 msgstr ""
-"标记为“in”的值是只读的。 标记为“out”的值用于可选写入。 取样器不是书写对象，也"
-"没有标记。"
+"标记为 ``in`` 的值是只读的。标记为 ``out`` 的值用于可选写入，不一定包含合理的"
+"值。标记为 ``inout`` 的值提供合理的默认值，并且可以选择将其写入。采样器不是写"
+"入的主体，也没有标记。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:47
 msgid ""
@@ -127,28 +128,26 @@ msgid ""
 "``use_vertex_as_albedo`` to ``true``. In a ShaderMaterial, access it with "
 "the ``COLOR`` variable."
 msgstr ""
-"为了在空间材质中使用“颜色”变量，将“使用_顶点_作为_反照率”设置为“真”值。在空间"
-"材质中，使用“颜色”变量访问它。"
+"为了在 ``SpatialMaterial`` 中使用 ``COLOR`` 变量，请将 "
+"``use_vertex_as_albedo`` 设置为 ``true``。在 ``ShaderMaterial`` 中，使用 "
+"``COLOR`` 变量进行访问。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:51
 msgid "Built-in"
-msgstr "内建的"
+msgstr "内置"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:53
-#, fuzzy
 msgid "inout vec4 **COLOR**"
-msgstr "out vec4 **COLOR**"
+msgstr "inout vec4 **COLOR**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:53
-#, fuzzy
 msgid ""
 "Particle color, can be written to and accessed in mesh's vertex function."
-msgstr "粒子颜色，可写入。"
+msgstr "可以在网格的顶点函数中，写入和访问粒子颜色。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:55
-#, fuzzy
 msgid "inout vec3 **VELOCITY**"
-msgstr "out vec3 **VELOCITY**"
+msgstr "inout vec3 **VELOCITY**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:55
 msgid "Particle velocity, can be modified."
@@ -159,43 +158,37 @@ msgid "out float **MASS**"
 msgstr "out float **MASS**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:57
-#, fuzzy
 msgid "Particle mass, use for attractors (not implemented in 3.1)."
-msgstr "粒子质量，用于吸引子(默认1)。"
+msgstr "粒子质量，用于吸引子（在3.1中未实现）。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:59
-#, fuzzy
 msgid "inout bool **ACTIVE**"
-msgstr "out bool **ACTIVE**"
+msgstr "inout bool **ACTIVE**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:59
-#, fuzzy
 msgid "``true`` when Particle is active, can be set to ``false``."
-msgstr "粒子是活动的，可以设置为false。"
+msgstr "当启用粒子时，为 ``true``，可以设置为 ``false``。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:61
 msgid "in bool **RESTART**"
 msgstr "in bool **RESTART**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:61
-#, fuzzy
 msgid "``true`` when particle must restart (lifetime cycled)."
-msgstr "当粒子必须重新启动(生命周期循环)时设置为true。"
+msgstr "当粒子必须重新启动（生命周期循环）时为 ``true``。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:63
-#, fuzzy
 msgid "inout vec4 **CUSTOM**"
-msgstr "out vec4 **CUSTOM**"
+msgstr "inout vec4 **CUSTOM**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:63
 msgid ""
 "Custom particle data. Accessible from shader of mesh as **INSTANCE_CUSTOM**."
-msgstr "自定义粒子数据。可从网格着色器作为**实例化_自定义**访问。"
+msgstr "自定义粒子数据。可从网格着色器以 **INSTANCE_CUSTOM** 进行访问。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:65
-#, fuzzy
 msgid "inout mat4 **TRANSFORM**"
-msgstr "out mat4 **TRANSFORM**"
+msgstr "inout mat4 **TRANSFORM**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:65
 msgid "Particle transform."
@@ -207,7 +200,7 @@ msgstr "in float **TIME**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:67
 msgid "Global time in seconds."
-msgstr "全球时间以秒为单位。"
+msgstr "全局时间，以秒为单位。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:69
 msgid "in float **LIFETIME**"
@@ -223,7 +216,7 @@ msgstr "in float **DELTA**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:71
 msgid "Delta process time."
-msgstr "达美处理时间。"
+msgstr "增量处理时间。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:73
 msgid "in uint **NUMBER**"
@@ -231,7 +224,7 @@ msgstr "in uint **NUMBER**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:73
 msgid "Unique number since emission start."
-msgstr "排放开始后的唯一编号。"
+msgstr "自发射开始以来的唯一编号。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:75
 msgid "in int **INDEX**"
@@ -239,7 +232,7 @@ msgstr "in int **INDEX**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:75
 msgid "Particle index (from total particles)."
-msgstr "颗粒指数(来自总颗粒)。"
+msgstr "粒子索引（来自总粒子）。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:77
 msgid "in mat4 **EMISSION_TRANSFORM**"
@@ -247,7 +240,7 @@ msgstr "in mat4 **EMISSION_TRANSFORM**"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:77
 msgid "Emitter transform (used for non-local systems)."
-msgstr "发射器变换(用于非本地系统)。"
+msgstr "发射器变换（用于非局部系统）。"
 
 #: ../../docs/tutorials/shading/shading_reference/particle_shader.rst:79
 msgid "in uint **RANDOM_SEED**"

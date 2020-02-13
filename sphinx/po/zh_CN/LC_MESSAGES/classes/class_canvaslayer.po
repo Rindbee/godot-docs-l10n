@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-28 09:40+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_canvaslayer.rst:10
+msgid "CanvasLayer"
+msgstr "CanvasLayer"
+
+#: ../../docs/classes/class_canvaslayer.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr "**基类**：:ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:14
+msgid "**Inherited By:** :ref:`ParallaxBackground <class_ParallaxBackground>`"
+msgstr "**子类**：:ref:`ParallaxBackground <class_ParallaxBackground>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:16
+msgid "Canvas drawing layer."
+msgstr "画布绘制图层。"
+
+#: ../../docs/classes/class_canvaslayer.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_canvaslayer.rst:21
+msgid ""
+"Canvas drawing layer. :ref:`CanvasItem <class_CanvasItem>` nodes that are"
+" direct or indirect children of a ``CanvasLayer`` will be drawn in that "
+"layer. The layer is a numeric index that defines the draw order. The "
+"default 2D scene renders with index 0, so a ``CanvasLayer`` with index -1"
+" will be drawn below, and one with index 1 will be drawn above. This is "
+"very useful for HUDs (in layer 1+ or above), or backgrounds (in layer -1 "
+"or below)."
+msgstr ""
+"画布绘图层。:ref:`CanvasItem <class_CanvasItem>` 节点是一个 ``CanvasLayer`` "
+"的直接或间接子节点，将在该层中绘制。该层是定义绘制顺序的数字索引。默认的2D场景使用索引0渲染，因此一个带有索引 ``-1`` 的 "
+"``CanvasLayer`` 将被绘制在下面，而一个带有索引 ``1`` 的 ``CanvasLayer`` "
+"将被绘制在上面。这对于HUD（在+1层或更高层中）或背景（在-1层或更低层中）非常有用。"
+
+#: ../../docs/classes/class_canvaslayer.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_canvaslayer.rst:26
+msgid ":doc:`../tutorials/2d/2d_transforms`"
+msgstr ":doc:`../tutorials/2d/2d_transforms`"
+
+#: ../../docs/classes/class_canvaslayer.rst:28
+msgid ":doc:`../tutorials/2d/canvas_layers`"
+msgstr ":doc:`../tutorials/2d/canvas_layers`"
+
+#: ../../docs/classes/class_canvaslayer.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_canvaslayer.rst:34
+msgid ":ref:`Node <class_Node>`"
+msgstr ":ref:`Node <class_Node>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:34
+msgid ":ref:`custom_viewport <class_CanvasLayer_property_custom_viewport>`"
+msgstr ":ref:`custom_viewport <class_CanvasLayer_property_custom_viewport>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:36
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:36
+msgid ""
+":ref:`follow_viewport_enable "
+"<class_CanvasLayer_property_follow_viewport_enable>`"
+msgstr ""
+":ref:`follow_viewport_enable "
+"<class_CanvasLayer_property_follow_viewport_enable>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:36
+#: ../../docs/classes/class_canvaslayer.rst:82
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_canvaslayer.rst:38
+#: ../../docs/classes/class_canvaslayer.rst:44
+#: ../../docs/classes/class_canvaslayer.rst:46
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:38
+msgid ""
+":ref:`follow_viewport_scale "
+"<class_CanvasLayer_property_follow_viewport_scale>`"
+msgstr ""
+":ref:`follow_viewport_scale "
+"<class_CanvasLayer_property_follow_viewport_scale>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:38
+#: ../../docs/classes/class_canvaslayer.rst:98
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: ../../docs/classes/class_canvaslayer.rst:40
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:40
+msgid ":ref:`layer <class_CanvasLayer_property_layer>`"
+msgstr ":ref:`layer <class_CanvasLayer_property_layer>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:40
+#: ../../docs/classes/class_canvaslayer.rst:114
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:42
+#: ../../docs/classes/class_canvaslayer.rst:48
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:42
+msgid ":ref:`offset <class_CanvasLayer_property_offset>`"
+msgstr ":ref:`offset <class_CanvasLayer_property_offset>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:42
+#: ../../docs/classes/class_canvaslayer.rst:130
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_canvaslayer.rst:44
+msgid ":ref:`rotation <class_CanvasLayer_property_rotation>`"
+msgstr ":ref:`rotation <class_CanvasLayer_property_rotation>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:44
+#: ../../docs/classes/class_canvaslayer.rst:46
+#: ../../docs/classes/class_canvaslayer.rst:146
+#: ../../docs/classes/class_canvaslayer.rst:162
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: ../../docs/classes/class_canvaslayer.rst:46
+msgid ":ref:`rotation_degrees <class_CanvasLayer_property_rotation_degrees>`"
+msgstr ":ref:`rotation_degrees <class_CanvasLayer_property_rotation_degrees>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:48
+msgid ":ref:`scale <class_CanvasLayer_property_scale>`"
+msgstr ":ref:`scale <class_CanvasLayer_property_scale>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:48
+#: ../../docs/classes/class_canvaslayer.rst:178
+#, fuzzy
+msgid "``Vector2( 1, 1 )``"
+msgstr "Vector2( 1, 1 )"
+
+#: ../../docs/classes/class_canvaslayer.rst:50
+msgid ":ref:`Transform2D <class_Transform2D>`"
+msgstr ":ref:`Transform2D <class_Transform2D>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:50
+msgid ":ref:`transform <class_CanvasLayer_property_transform>`"
+msgstr ":ref:`transform <class_CanvasLayer_property_transform>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:50
+#: ../../docs/classes/class_canvaslayer.rst:194
+#, fuzzy
+msgid "``Transform2D( 1, 0, 0, 1, 0, 0 )``"
+msgstr "Transform2D( 1, 0, 0, 1, 0, 0 )"
+
+#: ../../docs/classes/class_canvaslayer.rst:54
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_canvaslayer.rst:57
+msgid ":ref:`RID <class_RID>`"
+msgstr ":ref:`RID <class_RID>`"
+
+#: ../../docs/classes/class_canvaslayer.rst:57
+msgid ":ref:`get_canvas <class_CanvasLayer_method_get_canvas>` **(** **)** const"
+msgstr ":ref:`get_canvas <class_CanvasLayer_method_get_canvas>` **(** **)** const"
+
+#: ../../docs/classes/class_canvaslayer.rst:61
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_canvaslayer.rst:65
+msgid ":ref:`Node <class_Node>` **custom_viewport**"
+msgstr ":ref:`Node <class_Node>` **custom_viewport**"
+
+#: ../../docs/classes/class_canvaslayer.rst:68
+#: ../../docs/classes/class_canvaslayer.rst:84
+#: ../../docs/classes/class_canvaslayer.rst:100
+#: ../../docs/classes/class_canvaslayer.rst:116
+#: ../../docs/classes/class_canvaslayer.rst:132
+#: ../../docs/classes/class_canvaslayer.rst:148
+#: ../../docs/classes/class_canvaslayer.rst:164
+#: ../../docs/classes/class_canvaslayer.rst:180
+#: ../../docs/classes/class_canvaslayer.rst:196
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_canvaslayer.rst:68
+msgid "set_custom_viewport(value)"
+msgstr "set_custom_viewport(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:70
+#: ../../docs/classes/class_canvaslayer.rst:86
+#: ../../docs/classes/class_canvaslayer.rst:102
+#: ../../docs/classes/class_canvaslayer.rst:118
+#: ../../docs/classes/class_canvaslayer.rst:134
+#: ../../docs/classes/class_canvaslayer.rst:150
+#: ../../docs/classes/class_canvaslayer.rst:166
+#: ../../docs/classes/class_canvaslayer.rst:182
+#: ../../docs/classes/class_canvaslayer.rst:198
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_canvaslayer.rst:70
+msgid "get_custom_viewport()"
+msgstr "get_custom_viewport()"
+
+#: ../../docs/classes/class_canvaslayer.rst:73
+msgid ""
+"The custom :ref:`Viewport <class_Viewport>` node assigned to the "
+"``CanvasLayer``. If ``null``, uses the default viewport instead."
+msgstr ""
+"分配给 ``CanvasLayer`` 的自定义 :ref:`Viewport <class_Viewport>` 节点。如果为 "
+"``null``，则使用默认视图。"
+
+#: ../../docs/classes/class_canvaslayer.rst:79
+msgid ":ref:`bool <class_bool>` **follow_viewport_enable**"
+msgstr ":ref:`bool <class_bool>` **follow_viewport_enable**"
+
+#: ../../docs/classes/class_canvaslayer.rst:82
+#: ../../docs/classes/class_canvaslayer.rst:98
+#: ../../docs/classes/class_canvaslayer.rst:114
+#: ../../docs/classes/class_canvaslayer.rst:130
+#: ../../docs/classes/class_canvaslayer.rst:146
+#: ../../docs/classes/class_canvaslayer.rst:162
+#: ../../docs/classes/class_canvaslayer.rst:178
+#: ../../docs/classes/class_canvaslayer.rst:194
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_canvaslayer.rst:84
+msgid "set_follow_viewport(value)"
+msgstr "set_follow_viewport(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:86
+msgid "is_following_viewport()"
+msgstr "is_following_viewport()"
+
+#: ../../docs/classes/class_canvaslayer.rst:89
+msgid ""
+"Sets the layer to follow the viewport in order to simulate a pseudo 3D "
+"effect."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:95
+msgid ":ref:`float <class_float>` **follow_viewport_scale**"
+msgstr ":ref:`float <class_float>` **follow_viewport_scale**"
+
+#: ../../docs/classes/class_canvaslayer.rst:100
+msgid "set_follow_viewport_scale(value)"
+msgstr "set_follow_viewport_scale(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:102
+msgid "get_follow_viewport_scale()"
+msgstr "get_follow_viewport_scale()"
+
+#: ../../docs/classes/class_canvaslayer.rst:105
+msgid ""
+"Scales the layer when using :ref:`follow_viewport_enable "
+"<class_CanvasLayer_property_follow_viewport_enable>`. Layers moving into "
+"the foreground should have increasing scales, while layers moving into "
+"the background should have decreasing scales."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:111
+msgid ":ref:`int <class_int>` **layer**"
+msgstr ":ref:`int <class_int>` **layer**"
+
+#: ../../docs/classes/class_canvaslayer.rst:116
+msgid "set_layer(value)"
+msgstr "set_layer(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:118
+msgid "get_layer()"
+msgstr "get_layer()"
+
+#: ../../docs/classes/class_canvaslayer.rst:121
+msgid "Layer index for draw order. Lower values are drawn first."
+msgstr "绘制顺序的图层索引。首先绘制较低的值。"
+
+#: ../../docs/classes/class_canvaslayer.rst:127
+msgid ":ref:`Vector2 <class_Vector2>` **offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **offset**"
+
+#: ../../docs/classes/class_canvaslayer.rst:132
+msgid "set_offset(value)"
+msgstr "set_offset(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:134
+msgid "get_offset()"
+msgstr "get_offset()"
+
+#: ../../docs/classes/class_canvaslayer.rst:137
+msgid "The layer's base offset."
+msgstr "图层的基本偏移量。"
+
+#: ../../docs/classes/class_canvaslayer.rst:143
+msgid ":ref:`float <class_float>` **rotation**"
+msgstr ":ref:`float <class_float>` **rotation**"
+
+#: ../../docs/classes/class_canvaslayer.rst:148
+msgid "set_rotation(value)"
+msgstr "set_rotation(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:150
+msgid "get_rotation()"
+msgstr "get_rotation()"
+
+#: ../../docs/classes/class_canvaslayer.rst:153
+msgid "The layer's rotation in radians."
+msgstr "图层的旋转度（以弧度为单位）。"
+
+#: ../../docs/classes/class_canvaslayer.rst:159
+msgid ":ref:`float <class_float>` **rotation_degrees**"
+msgstr ":ref:`float <class_float>` **rotation_degrees**"
+
+#: ../../docs/classes/class_canvaslayer.rst:164
+msgid "set_rotation_degrees(value)"
+msgstr "set_rotation_degrees(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:166
+msgid "get_rotation_degrees()"
+msgstr "get_rotation_degrees()"
+
+#: ../../docs/classes/class_canvaslayer.rst:169
+msgid "The layer's rotation in degrees."
+msgstr "图层的旋转度（以度为单位）。"
+
+#: ../../docs/classes/class_canvaslayer.rst:175
+msgid ":ref:`Vector2 <class_Vector2>` **scale**"
+msgstr ":ref:`Vector2 <class_Vector2>` **scale**"
+
+#: ../../docs/classes/class_canvaslayer.rst:180
+msgid "set_scale(value)"
+msgstr "set_scale(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:182
+msgid "get_scale()"
+msgstr "get_scale()"
+
+#: ../../docs/classes/class_canvaslayer.rst:185
+msgid "The layer's scale."
+msgstr "图层的缩放。"
+
+#: ../../docs/classes/class_canvaslayer.rst:191
+msgid ":ref:`Transform2D <class_Transform2D>` **transform**"
+msgstr ":ref:`Transform2D <class_Transform2D>` **transform**"
+
+#: ../../docs/classes/class_canvaslayer.rst:196
+msgid "set_transform(value)"
+msgstr "set_transform(value)"
+
+#: ../../docs/classes/class_canvaslayer.rst:198
+msgid "get_transform()"
+msgstr "get_transform()"
+
+#: ../../docs/classes/class_canvaslayer.rst:201
+msgid "The layer's transform."
+msgstr "图层的变换。"
+
+#: ../../docs/classes/class_canvaslayer.rst:204
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_canvaslayer.rst:208
+msgid ":ref:`RID <class_RID>` **get_canvas** **(** **)** const"
+msgstr ":ref:`RID <class_RID>` **get_canvas** **(** **)** const"
+
+#: ../../docs/classes/class_canvaslayer.rst:210
+msgid "Returns the RID of the canvas used by this layer."
+msgstr "返回此图层使用的画布的RID。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "1"
+#~ msgstr "1"
+

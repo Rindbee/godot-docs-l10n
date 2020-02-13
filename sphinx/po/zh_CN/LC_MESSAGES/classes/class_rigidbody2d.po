@@ -1,0 +1,1225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-31 11:54+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_rigidbody2d.rst:10
+msgid "RigidBody2D"
+msgstr "RigidBody2D"
+
+#: ../../docs/classes/class_rigidbody2d.rst:12
+msgid ""
+"**Inherits:** :ref:`PhysicsBody2D <class_PhysicsBody2D>` **<** "
+":ref:`CollisionObject2D <class_CollisionObject2D>` **<** :ref:`Node2D "
+"<class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`PhysicsBody2D <class_PhysicsBody2D>` **<** "
+":ref:`CollisionObject2D <class_CollisionObject2D>` **<** :ref:`Node2D "
+"<class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:14
+msgid "A body that is controlled by the 2D physics engine."
+msgstr "由2D物理引擎控制的物体。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_rigidbody2d.rst:19
+msgid ""
+"This node implements simulated 2D physics. You do not control a "
+"RigidBody2D directly. Instead you apply forces to it (gravity, impulses, "
+"etc.) and the physics simulation calculates the resulting movement based "
+"on its mass, friction, and other physical properties."
+msgstr ""
+"该节点实现模拟的2D物理。您不能直接控制 "
+"``RigidBody2D``。取而代之的是对它施加力（重力、冲力等），然后物理模拟根据其质量、摩擦力、和其他物理性质，来计算结果的运动。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:21
+msgid ""
+"A RigidBody2D has 4 behavior :ref:`mode "
+"<class_RigidBody2D_property_mode>`\\ s: Rigid, Static, Character, and "
+"Kinematic."
+msgstr ""
+"``RigidBody2D`` 具有以下4种行为 :ref:`mode "
+"<class_RigidBody2D_property_mode>`：刚体、静态、角色和运动。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:23
+msgid ""
+"**Note:** You should not change a RigidBody2D's ``position`` or "
+"``linear_velocity`` every frame or even very often. If you need to "
+"directly affect the body's state, use :ref:`_integrate_forces "
+"<class_RigidBody2D_method__integrate_forces>`, which allows you to "
+"directly access the physics state."
+msgstr ""
+"**注意**：您不应每帧甚至经常更改 ``RigidBody2D`` 的 ``position`` 或 ``linear_velocity`` "
+"。如果您需要直接影响物体的状态，请使用 :ref:`_integrate_forces "
+"<class_RigidBody2D_method__integrate_forces>`，它允许您直接访问物理状态。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:25
+msgid ""
+"Please also keep in mind that physics bodies manage their own transform "
+"which overwrites the ones you set. So any direct or indirect "
+"transformation (including scaling of the node or its parent) will be "
+"visible in the editor only, and immediately reset at runtime."
+msgstr "还请记住，物理物体管理它们自己的变换，该变换会覆盖您设置的变换。因此，任何直接或间接转换（包括节点或其父级的缩放）仅在编辑器中可见，并在运行时中立即重置。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:27
+msgid ""
+"If you need to override the default physics behavior or add a "
+"transformation at runtime, you can write a custom force integration. See "
+":ref:`custom_integrator <class_RigidBody2D_property_custom_integrator>`."
+msgstr ""
+"如果需要覆盖默认的物理行为，或在运行时中添加转换，则您可以编写自定义合力。请参阅 :ref:`custom_integrator "
+"<class_RigidBody2D_property_custom_integrator>`。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:30
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_rigidbody2d.rst:33
+#: ../../docs/classes/class_rigidbody2d.rst:35
+#: ../../docs/classes/class_rigidbody2d.rst:39
+#: ../../docs/classes/class_rigidbody2d.rst:51
+#: ../../docs/classes/class_rigidbody2d.rst:53
+#: ../../docs/classes/class_rigidbody2d.rst:55
+#: ../../docs/classes/class_rigidbody2d.rst:59
+#: ../../docs/classes/class_rigidbody2d.rst:67
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:33
+msgid ":ref:`angular_damp <class_RigidBody2D_property_angular_damp>`"
+msgstr ":ref:`angular_damp <class_RigidBody2D_property_angular_damp>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:33
+#: ../../docs/classes/class_rigidbody2d.rst:55
+#: ../../docs/classes/class_rigidbody2d.rst:185
+#: ../../docs/classes/class_rigidbody2d.rst:361
+#, fuzzy
+msgid "``-1.0``"
+msgstr "-1.0"
+
+#: ../../docs/classes/class_rigidbody2d.rst:35
+msgid ":ref:`angular_velocity <class_RigidBody2D_property_angular_velocity>`"
+msgstr ":ref:`angular_velocity <class_RigidBody2D_property_angular_velocity>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:35
+#: ../../docs/classes/class_rigidbody2d.rst:39
+#: ../../docs/classes/class_rigidbody2d.rst:201
+#: ../../docs/classes/class_rigidbody2d.rst:233
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: ../../docs/classes/class_rigidbody2d.rst:37
+#: ../../docs/classes/class_rigidbody2d.rst:57
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:37
+msgid ":ref:`applied_force <class_RigidBody2D_property_applied_force>`"
+msgstr ":ref:`applied_force <class_RigidBody2D_property_applied_force>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:37
+#: ../../docs/classes/class_rigidbody2d.rst:57
+#: ../../docs/classes/class_rigidbody2d.rst:217
+#: ../../docs/classes/class_rigidbody2d.rst:377
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_rigidbody2d.rst:39
+msgid ":ref:`applied_torque <class_RigidBody2D_property_applied_torque>`"
+msgstr ":ref:`applied_torque <class_RigidBody2D_property_applied_torque>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:41
+#: ../../docs/classes/class_rigidbody2d.rst:43
+#: ../../docs/classes/class_rigidbody2d.rst:49
+#: ../../docs/classes/class_rigidbody2d.rst:65
+#: ../../docs/classes/class_rigidbody2d.rst:92
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:41
+msgid ":ref:`can_sleep <class_RigidBody2D_property_can_sleep>`"
+msgstr ":ref:`can_sleep <class_RigidBody2D_property_can_sleep>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:41
+#: ../../docs/classes/class_rigidbody2d.rst:249
+#, fuzzy
+msgid "``true``"
+msgstr "true"
+
+#: ../../docs/classes/class_rigidbody2d.rst:43
+msgid ":ref:`contact_monitor <class_RigidBody2D_property_contact_monitor>`"
+msgstr ":ref:`contact_monitor <class_RigidBody2D_property_contact_monitor>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:43
+#: ../../docs/classes/class_rigidbody2d.rst:49
+#: ../../docs/classes/class_rigidbody2d.rst:65
+#: ../../docs/classes/class_rigidbody2d.rst:265
+#: ../../docs/classes/class_rigidbody2d.rst:315
+#: ../../docs/classes/class_rigidbody2d.rst:441
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_rigidbody2d.rst:45
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:45
+msgid ":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>`"
+msgstr ":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:45
+#: ../../docs/classes/class_rigidbody2d.rst:47
+#: ../../docs/classes/class_rigidbody2d.rst:61
+#: ../../docs/classes/class_rigidbody2d.rst:281
+#: ../../docs/classes/class_rigidbody2d.rst:297
+#: ../../docs/classes/class_rigidbody2d.rst:409
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_rigidbody2d.rst:47
+msgid ":ref:`CCDMode <enum_RigidBody2D_CCDMode>`"
+msgstr ":ref:`CCDMode <enum_RigidBody2D_CCDMode>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:47
+msgid ":ref:`continuous_cd <class_RigidBody2D_property_continuous_cd>`"
+msgstr ":ref:`continuous_cd <class_RigidBody2D_property_continuous_cd>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:49
+msgid ":ref:`custom_integrator <class_RigidBody2D_property_custom_integrator>`"
+msgstr ":ref:`custom_integrator <class_RigidBody2D_property_custom_integrator>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:51
+msgid ":ref:`gravity_scale <class_RigidBody2D_property_gravity_scale>`"
+msgstr ":ref:`gravity_scale <class_RigidBody2D_property_gravity_scale>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:51
+#: ../../docs/classes/class_rigidbody2d.rst:59
+#: ../../docs/classes/class_rigidbody2d.rst:331
+#: ../../docs/classes/class_rigidbody2d.rst:393
+#, fuzzy
+msgid "``1.0``"
+msgstr "1.0"
+
+#: ../../docs/classes/class_rigidbody2d.rst:53
+msgid ":ref:`inertia <class_RigidBody2D_property_inertia>`"
+msgstr ":ref:`inertia <class_RigidBody2D_property_inertia>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:55
+msgid ":ref:`linear_damp <class_RigidBody2D_property_linear_damp>`"
+msgstr ":ref:`linear_damp <class_RigidBody2D_property_linear_damp>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:57
+msgid ":ref:`linear_velocity <class_RigidBody2D_property_linear_velocity>`"
+msgstr ":ref:`linear_velocity <class_RigidBody2D_property_linear_velocity>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:59
+msgid ":ref:`mass <class_RigidBody2D_property_mass>`"
+msgstr ":ref:`mass <class_RigidBody2D_property_mass>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:61
+msgid ":ref:`Mode <enum_RigidBody2D_Mode>`"
+msgstr ":ref:`Mode <enum_RigidBody2D_Mode>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:61
+msgid ":ref:`mode <class_RigidBody2D_property_mode>`"
+msgstr ":ref:`mode <class_RigidBody2D_property_mode>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:63
+msgid ":ref:`PhysicsMaterial <class_PhysicsMaterial>`"
+msgstr ":ref:`PhysicsMaterial <class_PhysicsMaterial>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:63
+msgid ""
+":ref:`physics_material_override "
+"<class_RigidBody2D_property_physics_material_override>`"
+msgstr ""
+":ref:`physics_material_override "
+"<class_RigidBody2D_property_physics_material_override>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:65
+msgid ":ref:`sleeping <class_RigidBody2D_property_sleeping>`"
+msgstr ":ref:`sleeping <class_RigidBody2D_property_sleeping>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:67
+msgid ":ref:`weight <class_RigidBody2D_property_weight>`"
+msgstr ":ref:`weight <class_RigidBody2D_property_weight>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:67
+#: ../../docs/classes/class_rigidbody2d.rst:457
+#, fuzzy
+msgid "``9.8``"
+msgstr "9.8"
+
+#: ../../docs/classes/class_rigidbody2d.rst:71
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_rigidbody2d.rst:74
+#: ../../docs/classes/class_rigidbody2d.rst:76
+#: ../../docs/classes/class_rigidbody2d.rst:78
+#: ../../docs/classes/class_rigidbody2d.rst:80
+#: ../../docs/classes/class_rigidbody2d.rst:82
+#: ../../docs/classes/class_rigidbody2d.rst:84
+#: ../../docs/classes/class_rigidbody2d.rst:86
+#: ../../docs/classes/class_rigidbody2d.rst:90
+msgid "void"
+msgstr "void"
+
+#: ../../docs/classes/class_rigidbody2d.rst:74
+msgid ""
+":ref:`_integrate_forces <class_RigidBody2D_method__integrate_forces>` "
+"**(** :ref:`Physics2DDirectBodyState <class_Physics2DDirectBodyState>` "
+"state **)** virtual"
+msgstr ""
+":ref:`_integrate_forces <class_RigidBody2D_method__integrate_forces>` "
+"**(** :ref:`Physics2DDirectBodyState <class_Physics2DDirectBodyState>` "
+"state **)** virtual"
+
+#: ../../docs/classes/class_rigidbody2d.rst:76
+msgid ""
+":ref:`add_central_force <class_RigidBody2D_method_add_central_force>` "
+"**(** :ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+":ref:`add_central_force <class_RigidBody2D_method_add_central_force>` "
+"**(** :ref:`Vector2 <class_Vector2>` force **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:78
+msgid ""
+":ref:`add_force <class_RigidBody2D_method_add_force>` **(** :ref:`Vector2"
+" <class_Vector2>` offset, :ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+":ref:`add_force <class_RigidBody2D_method_add_force>` **(** :ref:`Vector2"
+" <class_Vector2>` offset, :ref:`Vector2 <class_Vector2>` force **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:80
+msgid ""
+":ref:`add_torque <class_RigidBody2D_method_add_torque>` **(** :ref:`float"
+" <class_float>` torque **)**"
+msgstr ""
+":ref:`add_torque <class_RigidBody2D_method_add_torque>` **(** :ref:`float"
+" <class_float>` torque **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:82
+msgid ""
+":ref:`apply_central_impulse "
+"<class_RigidBody2D_method_apply_central_impulse>` **(** :ref:`Vector2 "
+"<class_Vector2>` impulse **)**"
+msgstr ""
+":ref:`apply_central_impulse "
+"<class_RigidBody2D_method_apply_central_impulse>` **(** :ref:`Vector2 "
+"<class_Vector2>` impulse **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:84
+msgid ""
+":ref:`apply_impulse <class_RigidBody2D_method_apply_impulse>` **(** "
+":ref:`Vector2 <class_Vector2>` offset, :ref:`Vector2 <class_Vector2>` "
+"impulse **)**"
+msgstr ""
+":ref:`apply_impulse <class_RigidBody2D_method_apply_impulse>` **(** "
+":ref:`Vector2 <class_Vector2>` offset, :ref:`Vector2 <class_Vector2>` "
+"impulse **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:86
+msgid ""
+":ref:`apply_torque_impulse "
+"<class_RigidBody2D_method_apply_torque_impulse>` **(** :ref:`float "
+"<class_float>` torque **)**"
+msgstr ""
+":ref:`apply_torque_impulse "
+"<class_RigidBody2D_method_apply_torque_impulse>` **(** :ref:`float "
+"<class_float>` torque **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:88
+msgid ":ref:`Array <class_Array>`"
+msgstr ":ref:`Array <class_Array>`"
+
+#: ../../docs/classes/class_rigidbody2d.rst:88
+msgid ""
+":ref:`get_colliding_bodies "
+"<class_RigidBody2D_method_get_colliding_bodies>` **(** **)** const"
+msgstr ""
+":ref:`get_colliding_bodies "
+"<class_RigidBody2D_method_get_colliding_bodies>` **(** **)** const"
+
+#: ../../docs/classes/class_rigidbody2d.rst:90
+msgid ""
+":ref:`set_axis_velocity <class_RigidBody2D_method_set_axis_velocity>` "
+"**(** :ref:`Vector2 <class_Vector2>` axis_velocity **)**"
+msgstr ""
+":ref:`set_axis_velocity <class_RigidBody2D_method_set_axis_velocity>` "
+"**(** :ref:`Vector2 <class_Vector2>` axis_velocity **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:92
+msgid ""
+":ref:`test_motion <class_RigidBody2D_method_test_motion>` **(** "
+":ref:`Vector2 <class_Vector2>` motion, :ref:`bool <class_bool>` "
+"infinite_inertia=true, :ref:`float <class_float>` margin=0.08, "
+":ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>` "
+"result=null **)**"
+msgstr ""
+":ref:`test_motion <class_RigidBody2D_method_test_motion>` **(** "
+":ref:`Vector2 <class_Vector2>` motion, :ref:`bool <class_bool>` "
+"infinite_inertia=true, :ref:`float <class_float>` margin=0.08, "
+":ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>` "
+"result=null **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:96
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_rigidbody2d.rst:100
+msgid "**body_entered** **(** :ref:`Node <class_Node>` body **)**"
+msgstr "**body_entered** **(** :ref:`Node <class_Node>` body **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:102
+msgid ""
+"Emitted when a body enters into contact with this one. "
+":ref:`contact_monitor <class_RigidBody2D_property_contact_monitor>` must "
+"be ``true`` and :ref:`contacts_reported "
+"<class_RigidBody2D_property_contacts_reported>` greater than ``0``."
+msgstr ""
+"当一个物体进入与该物体接触时发出。:ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` 必须为 ``true``，并且 "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"大于 ``0``。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:108
+msgid "**body_exited** **(** :ref:`Node <class_Node>` body **)**"
+msgstr "**body_exited** **(** :ref:`Node <class_Node>` body **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:110
+msgid ""
+"Emitted when a body exits contact with this one. :ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` must be ``true`` and "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"greater than ``0``."
+msgstr ""
+"当物体退出与该物体的接触时发出。:ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` 必须为 ``true``，并且 "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"大于 ``0``。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:116
+msgid ""
+"**body_shape_entered** **(** :ref:`int <class_int>` body_id, :ref:`Node "
+"<class_Node>` body, :ref:`int <class_int>` body_shape, :ref:`int "
+"<class_int>` local_shape **)**"
+msgstr ""
+"**body_shape_entered** **(** :ref:`int <class_int>` body_id, :ref:`Node "
+"<class_Node>` body, :ref:`int <class_int>` body_shape, :ref:`int "
+"<class_int>` local_shape **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:118
+msgid ""
+"Emitted when a body enters into contact with this one. Reports colliding "
+"shape information. See :ref:`CollisionObject2D <class_CollisionObject2D>`"
+" for shape index information. :ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` must be ``true`` and "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"greater than ``0``."
+msgstr ""
+"当一个物体进入与该物体接触时发出。报告碰撞形状信息。有关形状索引信息，请参见 :ref:`CollisionObject2D "
+"<class_CollisionObject2D>`。:ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` 必须为 ``true``，并且 "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"大于 ``0``。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:124
+msgid ""
+"**body_shape_exited** **(** :ref:`int <class_int>` body_id, :ref:`Node "
+"<class_Node>` body, :ref:`int <class_int>` body_shape, :ref:`int "
+"<class_int>` local_shape **)**"
+msgstr ""
+"**body_shape_exited** **(** :ref:`int <class_int>` body_id, :ref:`Node "
+"<class_Node>` body, :ref:`int <class_int>` body_shape, :ref:`int "
+"<class_int>` local_shape **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:126
+msgid ""
+"Emitted when a body shape exits contact with this one. Reports colliding "
+"shape information. See :ref:`CollisionObject2D <class_CollisionObject2D>`"
+" for shape index information. :ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` must be ``true`` and "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"greater than ``0``."
+msgstr ""
+"当一个物体退出与该物体的接触时发出。报告碰撞形状信息。有关形状索引信息，请参见 :ref:`CollisionObject2D "
+"<class_CollisionObject2D>`。:ref:`contact_monitor "
+"<class_RigidBody2D_property_contact_monitor>` 必须为 ``true``，并且 "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"大于 ``0``。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:132
+msgid "**sleeping_state_changed** **(** **)**"
+msgstr "**sleeping_state_changed** **(** **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:134
+msgid ""
+"Emitted when :ref:`sleeping <class_RigidBody2D_property_sleeping>` "
+"changes."
+msgstr "当 :ref:`sleeping <class_RigidBody2D_property_sleeping>` 改变时发出。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:137
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_rigidbody2d.rst:149
+msgid "enum **Mode**:"
+msgstr "枚举 **Mode**："
+
+#: ../../docs/classes/class_rigidbody2d.rst:151
+msgid ""
+"**MODE_RIGID** = **0** --- Rigid mode. The body behaves as a physical "
+"object. It collides with other bodies and responds to forces applied to "
+"it. This is the default mode."
+msgstr "**MODE_RIGID** = **0** —— 刚性模式。物体表现为物理对象。它会与其他物体碰撞，并对其施加的力作出反应。这是默认模式。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:153
+msgid ""
+"**MODE_STATIC** = **1** --- Static mode. The body behaves like a "
+":ref:`StaticBody2D <class_StaticBody2D>` and does not move."
+msgstr ""
+"**MODE_STATIC** = **1** —— 静态模式。物体的行为类似于 :ref:`StaticBody2D "
+"<class_StaticBody2D>`，并且不会移动。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:155
+msgid ""
+"**MODE_CHARACTER** = **2** --- Character mode. Similar to "
+":ref:`MODE_RIGID <class_RigidBody2D_constant_MODE_RIGID>`, but the body "
+"can not rotate."
+msgstr ""
+"**MODE_CHARACTER** = **2** —— 角色模式。类似于 :ref:`MODE_RIGID "
+"<class_RigidBody2D_constant_MODE_RIGID>`，但是物体无法旋转。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:157
+msgid ""
+"**MODE_KINEMATIC** = **3** --- Kinematic mode. The body behaves like a "
+":ref:`KinematicBody2D <class_KinematicBody2D>`, and must be moved by "
+"code."
+msgstr ""
+"**MODE_KINEMATIC** = **3** —— 运动模式。物体的行为类似于 :ref:`KinematicBody2D "
+"<class_KinematicBody2D>`，并且必须通过代码移动。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:169
+msgid "enum **CCDMode**:"
+msgstr "枚举 **CCDMode**："
+
+#: ../../docs/classes/class_rigidbody2d.rst:171
+msgid ""
+"**CCD_MODE_DISABLED** = **0** --- Continuous collision detection "
+"disabled. This is the fastest way to detect body collisions, but can miss"
+" small, fast-moving objects."
+msgstr "**CCD_MODE_DISABLED** = **0** —— 连续碰撞检测已禁用。这是检测物体碰撞的最快方法，但会丢失快速移动的小物体。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:173
+msgid ""
+"**CCD_MODE_CAST_RAY** = **1** --- Continuous collision detection enabled "
+"using raycasting. This is faster than shapecasting but less precise."
+msgstr "**CCD_MODE_CAST_RAY** = **1** —— 使用光线投射启用连续碰撞检测。这比形状投影更快，但精度较低。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:175
+msgid ""
+"**CCD_MODE_CAST_SHAPE** = **2** --- Continuous collision detection "
+"enabled using shapecasting. This is the slowest CCD method and the most "
+"precise."
+msgstr ""
+"**CCD_MODE_CAST_SHAPE** = **2** —— 使用形状投影进行连续碰撞检测。这是最慢的 "
+":abbr:`CCD(Continuous Collision Detection，连续碰撞检测)` 方法，也是最精确的方法。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:178
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_rigidbody2d.rst:182
+msgid ":ref:`float <class_float>` **angular_damp**"
+msgstr ":ref:`float <class_float>` **angular_damp**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:185
+#: ../../docs/classes/class_rigidbody2d.rst:201
+#: ../../docs/classes/class_rigidbody2d.rst:217
+#: ../../docs/classes/class_rigidbody2d.rst:233
+#: ../../docs/classes/class_rigidbody2d.rst:249
+#: ../../docs/classes/class_rigidbody2d.rst:265
+#: ../../docs/classes/class_rigidbody2d.rst:281
+#: ../../docs/classes/class_rigidbody2d.rst:297
+#: ../../docs/classes/class_rigidbody2d.rst:315
+#: ../../docs/classes/class_rigidbody2d.rst:331
+#: ../../docs/classes/class_rigidbody2d.rst:361
+#: ../../docs/classes/class_rigidbody2d.rst:377
+#: ../../docs/classes/class_rigidbody2d.rst:393
+#: ../../docs/classes/class_rigidbody2d.rst:409
+#: ../../docs/classes/class_rigidbody2d.rst:441
+#: ../../docs/classes/class_rigidbody2d.rst:457
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_rigidbody2d.rst:187
+#: ../../docs/classes/class_rigidbody2d.rst:203
+#: ../../docs/classes/class_rigidbody2d.rst:219
+#: ../../docs/classes/class_rigidbody2d.rst:235
+#: ../../docs/classes/class_rigidbody2d.rst:251
+#: ../../docs/classes/class_rigidbody2d.rst:267
+#: ../../docs/classes/class_rigidbody2d.rst:283
+#: ../../docs/classes/class_rigidbody2d.rst:299
+#: ../../docs/classes/class_rigidbody2d.rst:317
+#: ../../docs/classes/class_rigidbody2d.rst:333
+#: ../../docs/classes/class_rigidbody2d.rst:347
+#: ../../docs/classes/class_rigidbody2d.rst:363
+#: ../../docs/classes/class_rigidbody2d.rst:379
+#: ../../docs/classes/class_rigidbody2d.rst:395
+#: ../../docs/classes/class_rigidbody2d.rst:411
+#: ../../docs/classes/class_rigidbody2d.rst:425
+#: ../../docs/classes/class_rigidbody2d.rst:443
+#: ../../docs/classes/class_rigidbody2d.rst:459
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_rigidbody2d.rst:187
+msgid "set_angular_damp(value)"
+msgstr "set_angular_damp(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:189
+#: ../../docs/classes/class_rigidbody2d.rst:205
+#: ../../docs/classes/class_rigidbody2d.rst:221
+#: ../../docs/classes/class_rigidbody2d.rst:237
+#: ../../docs/classes/class_rigidbody2d.rst:253
+#: ../../docs/classes/class_rigidbody2d.rst:269
+#: ../../docs/classes/class_rigidbody2d.rst:285
+#: ../../docs/classes/class_rigidbody2d.rst:301
+#: ../../docs/classes/class_rigidbody2d.rst:319
+#: ../../docs/classes/class_rigidbody2d.rst:335
+#: ../../docs/classes/class_rigidbody2d.rst:349
+#: ../../docs/classes/class_rigidbody2d.rst:365
+#: ../../docs/classes/class_rigidbody2d.rst:381
+#: ../../docs/classes/class_rigidbody2d.rst:397
+#: ../../docs/classes/class_rigidbody2d.rst:413
+#: ../../docs/classes/class_rigidbody2d.rst:427
+#: ../../docs/classes/class_rigidbody2d.rst:445
+#: ../../docs/classes/class_rigidbody2d.rst:461
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_rigidbody2d.rst:189
+msgid "get_angular_damp()"
+msgstr "get_angular_damp()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:192
+msgid ""
+"Damps the body's :ref:`angular_velocity "
+"<class_RigidBody2D_property_angular_velocity>`. If ``-1``, the body will "
+"use the **Default Angular Damp** defined in **Project > Project Settings "
+"> Physics > 2d**."
+msgstr ""
+"阻尼物体的 :ref:`angular_velocity "
+"<class_RigidBody2D_property_angular_velocity>`。如果为 ``-1``，则物体将使用在 "
+"**项目>项目设置>物理> 2d（Project > Project Settings > Physics > 2d）** 中定义的 "
+"**默认角度阻尼（Default Angular Damp）**。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:198
+msgid ":ref:`float <class_float>` **angular_velocity**"
+msgstr ":ref:`float <class_float>` **angular_velocity**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:203
+msgid "set_angular_velocity(value)"
+msgstr "set_angular_velocity(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:205
+msgid "get_angular_velocity()"
+msgstr "get_angular_velocity()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:208
+msgid "The body's rotational velocity."
+msgstr "物体的旋转速度。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:214
+msgid ":ref:`Vector2 <class_Vector2>` **applied_force**"
+msgstr ":ref:`Vector2 <class_Vector2>` **applied_force**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:219
+msgid "set_applied_force(value)"
+msgstr "set_applied_force(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:221
+msgid "get_applied_force()"
+msgstr "get_applied_force()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:224
+msgid "The body's total applied force."
+msgstr "物体的总作用力。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:230
+msgid ":ref:`float <class_float>` **applied_torque**"
+msgstr ":ref:`float <class_float>` **applied_torque**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:235
+msgid "set_applied_torque(value)"
+msgstr "set_applied_torque(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:237
+msgid "get_applied_torque()"
+msgstr "get_applied_torque()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:240
+msgid "The body's total applied torque."
+msgstr "物体的总施加扭矩。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:246
+msgid ":ref:`bool <class_bool>` **can_sleep**"
+msgstr ":ref:`bool <class_bool>` **can_sleep**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:251
+msgid "set_can_sleep(value)"
+msgstr "set_can_sleep(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:253
+msgid "is_able_to_sleep()"
+msgstr "is_able_to_sleep()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:256
+msgid ""
+"If ``true``, the body will not calculate forces and will act as a static "
+"body if there is no movement. The body will wake up when other forces are"
+" applied via collisions or by using :ref:`apply_impulse "
+"<class_RigidBody2D_method_apply_impulse>` or :ref:`add_force "
+"<class_RigidBody2D_method_add_force>`."
+msgstr ""
+"如果为 ``true``，则该物体将不计算力，并且如果没有运动将充当为一个静态物体。当通过碰撞或使用 :ref:`apply_impulse "
+"<class_RigidBody2D_method_apply_impulse>` 或 :ref:`add_force "
+"<class_RigidBody2D_method_add_force>` 施加其他力时，物体将醒来。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:262
+msgid ":ref:`bool <class_bool>` **contact_monitor**"
+msgstr ":ref:`bool <class_bool>` **contact_monitor**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:267
+msgid "set_contact_monitor(value)"
+msgstr "set_contact_monitor(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:269
+msgid "is_contact_monitor_enabled()"
+msgstr "is_contact_monitor_enabled()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:272
+msgid ""
+"If ``true``, the body will emit signals when it collides with another "
+"RigidBody2D. See also :ref:`contacts_reported "
+"<class_RigidBody2D_property_contacts_reported>`."
+msgstr ""
+"如果为 ``true``，则物体与另一个 ``RigidBody2D`` 碰撞时，将发出信号。另请参阅 "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>`。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:278
+msgid ":ref:`int <class_int>` **contacts_reported**"
+msgstr ":ref:`int <class_int>` **contacts_reported**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:283
+msgid "set_max_contacts_reported(value)"
+msgstr "set_max_contacts_reported(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:285
+msgid "get_max_contacts_reported()"
+msgstr "get_max_contacts_reported()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:288
+msgid "The maximum number of contacts to report."
+msgstr "要报告的最大联系人数。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:294
+msgid ":ref:`CCDMode <enum_RigidBody2D_CCDMode>` **continuous_cd**"
+msgstr ":ref:`CCDMode <enum_RigidBody2D_CCDMode>` **continuous_cd**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:299
+msgid "set_continuous_collision_detection_mode(value)"
+msgstr "set_continuous_collision_detection_mode(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:301
+msgid "get_continuous_collision_detection_mode()"
+msgstr "get_continuous_collision_detection_mode()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:304
+msgid "Continuous collision detection mode."
+msgstr "连续碰撞检测模式。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:306
+msgid ""
+"Continuous collision detection tries to predict where a moving body will "
+"collide instead of moving it and correcting its movement after collision."
+" Continuous collision detection is slower, but more precise and misses "
+"fewer collisions with small, fast-moving objects. Raycasting and "
+"shapecasting methods are available. See :ref:`CCDMode "
+"<enum_RigidBody2D_CCDMode>` for details."
+msgstr ""
+"连续碰撞检测试图预测移动物体将发生碰撞的位置，而不是移动它并在碰撞后校正其运动。连续碰撞检测速度较慢，但精度更高，并且与快速移动的小型物体的碰撞次数更少。可以使用射线投射和形状投射方法。有关详细信息，请参见"
+" :ref:`CCDMode <enum_RigidBody2D_CCDMode>`。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:312
+msgid ":ref:`bool <class_bool>` **custom_integrator**"
+msgstr ":ref:`bool <class_bool>` **custom_integrator**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:317
+msgid "set_use_custom_integrator(value)"
+msgstr "set_use_custom_integrator(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:319
+msgid "is_using_custom_integrator()"
+msgstr "is_using_custom_integrator()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:322
+msgid ""
+"If ``true``, internal force integration is disabled for this body. Aside "
+"from collision response, the body will only move as determined by the "
+":ref:`_integrate_forces <class_RigidBody2D_method__integrate_forces>` "
+"function."
+msgstr ""
+"如果为 ``true``，则禁用此物体的内部整合力。除了碰撞响应之外，物体将仅按照 :ref:`_integrate_forces "
+"<class_RigidBody2D_method__integrate_forces>` 函数确定的方式运动。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:328
+msgid ":ref:`float <class_float>` **gravity_scale**"
+msgstr ":ref:`float <class_float>` **gravity_scale**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:333
+msgid "set_gravity_scale(value)"
+msgstr "set_gravity_scale(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:335
+msgid "get_gravity_scale()"
+msgstr "get_gravity_scale()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:338
+msgid ""
+"Multiplies the gravity applied to the body. The body's gravity is "
+"calculated from the **Default Gravity** value in **Project > Project "
+"Settings > Physics > 2d** and/or any additional gravity vector applied by"
+" :ref:`Area2D <class_Area2D>`\\ s."
+msgstr ""
+"乘以施加到物体的重力。物体的重力是根据 **项目>项目设置>物理> 2d（Project > Project Settings > Physics"
+" > 2d）** 中的 **默认重力（Default Gravity）** 值，和/或由 :ref:`Area2D <class_Area2D>`"
+" 应用的任何其他重力向量计算得出的。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:344
+msgid ":ref:`float <class_float>` **inertia**"
+msgstr ":ref:`float <class_float>` **inertia**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:347
+msgid "set_inertia(value)"
+msgstr "set_inertia(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:349
+msgid "get_inertia()"
+msgstr "get_inertia()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:352
+msgid ""
+"The body's moment of inertia. This is like mass, but for rotation: it "
+"determines how much torque it takes to rotate the body. The moment of "
+"inertia is usually computed automatically from the mass and the shapes, "
+"but this function allows you to set a custom value. Set 0 inertia to "
+"return to automatically computing it."
+msgstr "物体惯性矩。这就像质量，但对于旋转：它确定旋转物体需要多少扭矩。惯性矩通常是根据质量和形状自动计算的，但是此功能允许您设置自定义值。设置为0惯性以返回到自动计算。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:358
+msgid ":ref:`float <class_float>` **linear_damp**"
+msgstr ":ref:`float <class_float>` **linear_damp**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:363
+msgid "set_linear_damp(value)"
+msgstr "set_linear_damp(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:365
+msgid "get_linear_damp()"
+msgstr "get_linear_damp()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:368
+msgid ""
+"Damps the body's :ref:`linear_velocity "
+"<class_RigidBody2D_property_linear_velocity>`. If ``-1``, the body will "
+"use the **Default Linear Damp** in **Project > Project Settings > Physics"
+" > 2d**."
+msgstr ""
+"阻尼物体的 :ref:`linear_velocity "
+"<class_RigidBody2D_property_linear_velocity>`。 如果为 ``-1``，则物体将使用 "
+"**项目>项目设置>物理> 2d（Project > Project Settings > Physics > 2d）** 中的 "
+"**默认线性阻尼（Default Linear Damp）**。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:374
+msgid ":ref:`Vector2 <class_Vector2>` **linear_velocity**"
+msgstr ":ref:`Vector2 <class_Vector2>` **linear_velocity**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:379
+msgid "set_linear_velocity(value)"
+msgstr "set_linear_velocity(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:381
+msgid "get_linear_velocity()"
+msgstr "get_linear_velocity()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:384
+msgid "The body's linear velocity."
+msgstr "物体的线性速度。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:390
+msgid ":ref:`float <class_float>` **mass**"
+msgstr ":ref:`float <class_float>` **mass**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:395
+msgid "set_mass(value)"
+msgstr "set_mass(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:397
+msgid "get_mass()"
+msgstr "get_mass()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:400
+msgid "The body's mass."
+msgstr "物体的质量。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:406
+msgid ":ref:`Mode <enum_RigidBody2D_Mode>` **mode**"
+msgstr ":ref:`Mode <enum_RigidBody2D_Mode>` **mode**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:411
+msgid "set_mode(value)"
+msgstr "set_mode(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:413
+msgid "get_mode()"
+msgstr "get_mode()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:416
+msgid ""
+"The body's mode. See :ref:`Mode <enum_RigidBody2D_Mode>` for possible "
+"values."
+msgstr "物体的模式。有关可能的值，请参见 :ref:`Mode <enum_RigidBody2D_Mode>`。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:422
+msgid ""
+":ref:`PhysicsMaterial <class_PhysicsMaterial>` "
+"**physics_material_override**"
+msgstr ""
+":ref:`PhysicsMaterial <class_PhysicsMaterial>` "
+"**physics_material_override**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:425
+msgid "set_physics_material_override(value)"
+msgstr "set_physics_material_override(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:427
+msgid "get_physics_material_override()"
+msgstr "get_physics_material_override()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:430
+msgid "The physics material override for the body."
+msgstr "物体的物理材质覆盖。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:432
+msgid ""
+"If a material is assigned to this property, it will be used instead of "
+"any other physics material, such as an inherited one."
+msgstr "如果将一种材质分配给该属性，则将使用该材质代替任何其他物理材质，例如继承的材质。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:438
+msgid ":ref:`bool <class_bool>` **sleeping**"
+msgstr ":ref:`bool <class_bool>` **sleeping**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:443
+msgid "set_sleeping(value)"
+msgstr "set_sleeping(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:445
+msgid "is_sleeping()"
+msgstr "is_sleeping()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:448
+msgid ""
+"If ``true``, the body is sleeping and will not calculate forces until "
+"woken up by a collision or by using :ref:`apply_impulse "
+"<class_RigidBody2D_method_apply_impulse>` or :ref:`add_force "
+"<class_RigidBody2D_method_add_force>`."
+msgstr ""
+"如果为 ``true``，则物体处于睡眠状态，直到被碰撞或使用 :ref:`apply_impulse "
+"<class_RigidBody2D_method_apply_impulse>` 或 :ref:`add_force "
+"<class_RigidBody2D_method_add_force>` 唤醒后，物体才会计算力。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:454
+msgid ":ref:`float <class_float>` **weight**"
+msgstr ":ref:`float <class_float>` **weight**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:459
+msgid "set_weight(value)"
+msgstr "set_weight(value)"
+
+#: ../../docs/classes/class_rigidbody2d.rst:461
+msgid "get_weight()"
+msgstr "get_weight()"
+
+#: ../../docs/classes/class_rigidbody2d.rst:464
+msgid ""
+"The body's weight based on its mass and the **Default Gravity** value in "
+"**Project > Project Settings > Physics > 2d**."
+msgstr ""
+"物体的重量取决于其质量和 **项目>项目设置>物理> 2d（Project > Project Settings > Physics > "
+"2d）** 中的 **默认重力（Default Gravity）** 值。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:467
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_rigidbody2d.rst:471
+msgid ""
+"void **_integrate_forces** **(** :ref:`Physics2DDirectBodyState "
+"<class_Physics2DDirectBodyState>` state **)** virtual"
+msgstr ""
+"void **_integrate_forces** **(** :ref:`Physics2DDirectBodyState "
+"<class_Physics2DDirectBodyState>` state **)** virtual"
+
+#: ../../docs/classes/class_rigidbody2d.rst:473
+msgid ""
+"Allows you to read and safely modify the simulation state for the object."
+" Use this instead of :ref:`Node._physics_process "
+"<class_Node_method__physics_process>` if you need to directly change the "
+"body's ``position`` or other physics properties. By default, it works in "
+"addition to the usual physics behavior, but :ref:`custom_integrator "
+"<class_RigidBody2D_property_custom_integrator>` allows you to disable the"
+" default behavior and write custom force integration for a body."
+msgstr ""
+"允许您读取并安全地修改对象的模拟状态。如果您需要直接更改物体的 ``position`` 或其他物理属性，请使用它代替 "
+":ref:`Node._physics_process "
+"<class_Node_method__physics_process>`。默认情况下，它可以工作，除了通常的物理行为外，而且还有 "
+":ref:`custom_integrator <class_RigidBody2D_property_custom_integrator>` "
+"允许您禁用默认行为并编写物体的自定义合力。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:479
+msgid ""
+"void **add_central_force** **(** :ref:`Vector2 <class_Vector2>` force "
+"**)**"
+msgstr ""
+"void **add_central_force** **(** :ref:`Vector2 <class_Vector2>` force "
+"**)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:481
+msgid "Adds a constant directional force without affecting rotation."
+msgstr "在不影响旋转的情况下，增加恒定的方向力。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:487
+msgid ""
+"void **add_force** **(** :ref:`Vector2 <class_Vector2>` offset, "
+":ref:`Vector2 <class_Vector2>` force **)**"
+msgstr ""
+"void **add_force** **(** :ref:`Vector2 <class_Vector2>` offset, "
+":ref:`Vector2 <class_Vector2>` force **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:489
+msgid ""
+"Adds a positioned force to the body. Both the force and the offset from "
+"the body origin are in global coordinates."
+msgstr "向物体添加定位力。力和与物体原点的偏移，都在全局坐标中。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:495
+msgid "void **add_torque** **(** :ref:`float <class_float>` torque **)**"
+msgstr "void **add_torque** **(** :ref:`float <class_float>` torque **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:497
+msgid "Adds a constant rotational force."
+msgstr "增加恒定的旋转力。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:503
+msgid ""
+"void **apply_central_impulse** **(** :ref:`Vector2 <class_Vector2>` "
+"impulse **)**"
+msgstr ""
+"void **apply_central_impulse** **(** :ref:`Vector2 <class_Vector2>` "
+"impulse **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:505
+msgid "Applies a directional impulse without affecting rotation."
+msgstr "应用一个方向性冲力而不影响旋转。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:511
+msgid ""
+"void **apply_impulse** **(** :ref:`Vector2 <class_Vector2>` offset, "
+":ref:`Vector2 <class_Vector2>` impulse **)**"
+msgstr ""
+"void **apply_impulse** **(** :ref:`Vector2 <class_Vector2>` offset, "
+":ref:`Vector2 <class_Vector2>` impulse **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:513
+msgid ""
+"Applies a positioned impulse to the body. An impulse is time-independent!"
+" Applying an impulse every frame would result in a framerate-dependent "
+"force. For this reason it should only be used when simulating one-time "
+"impacts (use the \"_force\" functions otherwise). The position uses the "
+"rotation of the global coordinate system, but is centered at the object's"
+" origin."
+msgstr ""
+"向物体施加一个定位冲力。冲力与时间无关！每帧施加一个冲力将产生一个依赖帧速率的力。因此，仅在模拟一次性冲击时才应使用它（否则请使用 "
+"``_force`` 函数）。该位置使用全局坐标系的旋转，但以对象的原点为中心。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:519
+msgid ""
+"void **apply_torque_impulse** **(** :ref:`float <class_float>` torque "
+"**)**"
+msgstr ""
+"void **apply_torque_impulse** **(** :ref:`float <class_float>` torque "
+"**)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:521
+msgid "Applies a rotational impulse to the body."
+msgstr "向物体施加旋转冲力。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:527
+msgid ":ref:`Array <class_Array>` **get_colliding_bodies** **(** **)** const"
+msgstr ":ref:`Array <class_Array>` **get_colliding_bodies** **(** **)** const"
+
+#: ../../docs/classes/class_rigidbody2d.rst:529
+msgid ""
+"Returns a list of the bodies colliding with this one. Use "
+":ref:`contacts_reported <class_RigidBody2D_property_contacts_reported>` "
+"to set the maximum number reported. You must also set "
+":ref:`contact_monitor <class_RigidBody2D_property_contact_monitor>` to "
+"``true``."
+msgstr ""
+"返回与该物体碰撞的物体的列表。使用 :ref:`contacts_reported "
+"<class_RigidBody2D_property_contacts_reported>` 设置报告的最大数量。您还必须将 "
+":ref:`contact_monitor <class_RigidBody2D_property_contact_monitor>` 设置为 "
+"``true``。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:531
+msgid ""
+"**Note:** The result of this test is not immediate after moving objects. "
+"For performance, list of collisions is updated once per frame and before "
+"the physics step. Consider using signals instead."
+msgstr "**注意**：移动物体后，该测试的结果不是立即产生的。为了提高性能，重叠列表每帧和物理步骤之前更新一次。考虑改用信号。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:537
+msgid ""
+"void **set_axis_velocity** **(** :ref:`Vector2 <class_Vector2>` "
+"axis_velocity **)**"
+msgstr ""
+"void **set_axis_velocity** **(** :ref:`Vector2 <class_Vector2>` "
+"axis_velocity **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:539
+msgid ""
+"Sets the body's velocity on the given axis. The velocity in the given "
+"vector axis will be set as the given vector length. This is useful for "
+"jumping behavior."
+msgstr "设置物体在给定轴上的速度。给定向量轴上的速度将设置为给定向量长度。这对于跳跃行为很有用。"
+
+#: ../../docs/classes/class_rigidbody2d.rst:545
+msgid ""
+":ref:`bool <class_bool>` **test_motion** **(** :ref:`Vector2 "
+"<class_Vector2>` motion, :ref:`bool <class_bool>` infinite_inertia=true, "
+":ref:`float <class_float>` margin=0.08, :ref:`Physics2DTestMotionResult "
+"<class_Physics2DTestMotionResult>` result=null **)**"
+msgstr ""
+":ref:`bool <class_bool>` **test_motion** **(** :ref:`Vector2 "
+"<class_Vector2>` motion, :ref:`bool <class_bool>` infinite_inertia=true, "
+":ref:`float <class_float>` margin=0.08, :ref:`Physics2DTestMotionResult "
+"<class_Physics2DTestMotionResult>` result=null **)**"
+
+#: ../../docs/classes/class_rigidbody2d.rst:547
+msgid ""
+"Returns ``true`` if a collision would result from moving in the given "
+"vector. ``margin`` increases the size of the shapes involved in the "
+"collision detection, and ``result`` is an object of type "
+":ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>`, which"
+" contains additional information about the collision (should there be "
+"one)."
+msgstr ""
+"如果在给定向量中移动会导致碰撞，则返回 ``true``。``margin`` 增加了碰撞检测中涉及的形状的大小，而 ``result`` "
+"是类型为 :ref:`Physics2DTestMotionResult <class_Physics2DTestMotionResult>` "
+"的对象，其中包含有关碰撞（应该有一个 ）的其他信息。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid ":ref:`bounce <class_RigidBody2D_property_bounce>`"
+#~ msgstr ":ref:`bounce <class_RigidBody2D_property_bounce>`"
+
+#~ msgid ":ref:`friction <class_RigidBody2D_property_friction>`"
+#~ msgstr ":ref:`friction <class_RigidBody2D_property_friction>`"
+
+#~ msgid ":ref:`float <class_float>` **bounce**"
+#~ msgstr ":ref:`float <class_float>` **bounce**"
+
+#~ msgid "set_bounce(value)"
+#~ msgstr "set_bounce(value)"
+
+#~ msgid "get_bounce()"
+#~ msgstr "get_bounce()"
+
+#~ msgid ""
+#~ "The body's bounciness. Values range from"
+#~ " ``0`` (no bounce) to ``1`` (full "
+#~ "bounciness)."
+#~ msgstr "物体的弹跳。值的范围从 ``0`` （无反弹）到 ``1`` （全反弹）。"
+
+#~ msgid ""
+#~ "Deprecated, use :ref:`PhysicsMaterial.bounce "
+#~ "<class_PhysicsMaterial_property_bounce>` instead via "
+#~ ":ref:`physics_material_override "
+#~ "<class_RigidBody2D_property_physics_material_override>`."
+#~ msgstr ""
+#~ "不推荐使用，而是通过 :ref:`physics_material_override "
+#~ "<class_RigidBody2D_property_physics_material_override>` 使用 "
+#~ ":ref:`PhysicsMaterial.bounce "
+#~ "<class_PhysicsMaterial_property_bounce>` 代替。"
+
+#~ msgid ":ref:`float <class_float>` **friction**"
+#~ msgstr ":ref:`float <class_float>` **friction**"
+
+#~ msgid "set_friction(value)"
+#~ msgstr "set_friction(value)"
+
+#~ msgid "get_friction()"
+#~ msgstr "get_friction()"
+
+#~ msgid ""
+#~ "The body's friction. Values range from"
+#~ " ``0`` (frictionless) to ``1`` (maximum "
+#~ "friction)."
+#~ msgstr "物体的摩擦。值的范围从 ``0`` （无摩擦）到 ``1`` （全摩擦）。"
+
+#~ msgid ""
+#~ "Deprecated, use :ref:`PhysicsMaterial.friction "
+#~ "<class_PhysicsMaterial_property_friction>` instead via "
+#~ ":ref:`physics_material_override "
+#~ "<class_RigidBody2D_property_physics_material_override>`."
+#~ msgstr ""
+#~ "不推荐使用，而是通过 :ref:`physics_material_override "
+#~ "<class_RigidBody2D_property_physics_material_override>` 使用 "
+#~ ":ref:`PhysicsMaterial.friction "
+#~ "<class_PhysicsMaterial_property_friction>` 代替。"
+

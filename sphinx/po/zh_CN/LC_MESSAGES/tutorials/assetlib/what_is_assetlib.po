@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2020-02-16 13:40+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:4
 msgid "About the Asset Library"
-msgstr "关于资产库"
+msgstr "关于素材库"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:6
 msgid ""
@@ -29,12 +29,11 @@ msgid ""
 "download directly from within the engine, but it can also be accessed at "
 "Godot's `official website <https://godotengine.org/asset-library/asset>`_."
 msgstr ""
-"Godot资源馆，也称为AssetLib，是用户提交的Godot插件，脚本，工具和其他资源(统称"
-"为资源)的存储库。 它们可供所有Godot用户直接从引擎内下载，或从Godot的 `官方网"
-"站 <https://godotengine.org/asset-library/asset>`_ 上下载。"
+"Godot素材库，也称为AssetLib，是用户提交的Godot插件、脚本、工具和其他资源（统"
+"称为素材）的存储库。所有Godot用户都可以直接从引擎内下载它们，但是也可以在 "
+"`Godot的官方网站 <https://godotengine.org/asset-library/asset>`_ 上进行访问。"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:11
-#, fuzzy
 msgid ""
 "On the surface, the Asset Library might look and function similar to asset "
 "stores available for other engines, such as Unity's Asset Store, or Unreal "
@@ -43,9 +42,9 @@ msgid ""
 "distributed under non-free, proprietary licenses, limiting what you can do "
 "with them."
 msgstr ""
-"从表面上看，资源馆的外观和功能类似于其他引擎的资源商店，例如Unity的资源商店或"
-"虚幻引擎的市场，您可以在其中提交可自由使用的资源以及付费的商业资源。 此外，此"
-"类资源通常在非自由的专有许可下分发，限制了您对它们的使用。"
+"从表面上看，素材库的外观和功能可能类似于其他引擎可用的素材商店，例如Unity的素"
+"材商店或Unreal Engine的市场，您可以在其中提交免费可用的素材以及付费的商业素"
+"材。此外，此类素材通常是在非自由的专有许可下分配的，从而限制了您使用它们。"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:17
 msgid ""
@@ -54,8 +53,8 @@ msgid ""
 "and the Boost Software License). This makes the AssetLib more similar to the "
 "software repositories of a Linux distribution."
 msgstr ""
-"资源馆是不同的 - 所有资源都是免费分发的，并且服从多种开源许可证(例如MIT许可"
-"证，GPL和Boost软件许可证)。 这使得AssetLib更类似于Linux发行版的软件存储库。"
+"素材库是不同的——所有素材都是免费分发的，并获得大量开源许可（例如MIT许可，GPL"
+"和Boost软件许可）。这使得AssetLib更类似于Linux发行版的软件存储库。"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:21
 msgid ""
@@ -63,8 +62,8 @@ msgid ""
 "Godot, and on the website), how you can submit your own assets, and what the "
 "guidelines for submission are."
 msgstr ""
-"接下的内容将介绍如何使用AssetLib(从Godot引擎内部或网站上)，如何提交自己的资"
-"源，以及提交指南。"
+"这组页面将介绍如何使用AssetLib（既在Godot内部，也在网站上），如何提交自己的素"
+"材以及提交指南。"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:24
 msgid ""
@@ -74,25 +73,23 @@ msgid ""
 "asset-library>`_, where you can submit pull requests and issues, so please "
 "do not hesitate to visit it!"
 msgstr ""
-"请注意，AssetLib相对年轻 - 它可能有各种不足，错误和可用性问题。 与所有Godot项"
-"目一样，AssetLib的代码存储库可以在 `GitHub <https://github.com/godotengine/"
-"godot-asset-library>`_ 上找到，您可以在那里提交请求和问题，请不要犹豫地访问它"
-"吧！"
+"请注意，AssetLib相对较年轻——它可能会遇到各种不足、错误和可用性问题。与所有"
+"Godot项目一样，代码存储库位于 `GitHub <https://github.com/godotengine/godot-"
+"asset-library>`_ 上，您可以在其中提交请求和问题，因此请随时访问它！"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:29
 msgid "Frequently asked questions"
-msgstr "常见问题"
+msgstr "常问问题"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:32
 msgid "Can paid assets be uploaded to the asset library?"
-msgstr "需要收费的资源可以上传到资源馆吗？"
+msgstr "可以将已支付素材上载到素材库吗？"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:34
-#, fuzzy
 msgid ""
 "Not to the official one, though in the future, there might be other asset "
 "libraries which allow it. That said, you are allowed to monetize and sell "
 "Godot assets outside the Asset Library."
 msgstr ""
-"官方的资源馆不行，不过将来可能有其他的资源馆允许这样做。也就是说，您可以在资"
-"源馆之外出售Godot资源。"
+"官方的资源馆不行，不过将来可能有其他的资源馆允许这样做。 也就是说，您可以在素"
+"材库之外将Godot素材货币化和出售。"

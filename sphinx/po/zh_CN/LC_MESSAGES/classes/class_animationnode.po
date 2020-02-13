@@ -1,0 +1,713 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:10
+msgid "AnimationNode"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:14
+msgid ""
+"**Inherited By:** :ref:`AnimationNodeAdd2 <class_AnimationNodeAdd2>`, "
+":ref:`AnimationNodeAdd3 <class_AnimationNodeAdd3>`, "
+":ref:`AnimationNodeBlend2 <class_AnimationNodeBlend2>`, "
+":ref:`AnimationNodeBlend3 <class_AnimationNodeBlend3>`, "
+":ref:`AnimationNodeOneShot <class_AnimationNodeOneShot>`, "
+":ref:`AnimationNodeOutput <class_AnimationNodeOutput>`, "
+":ref:`AnimationNodeTimeScale <class_AnimationNodeTimeScale>`, "
+":ref:`AnimationNodeTimeSeek <class_AnimationNodeTimeSeek>`, "
+":ref:`AnimationNodeTransition <class_AnimationNodeTransition>`, "
+":ref:`AnimationRootNode <class_AnimationRootNode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:16
+msgid "Base resource for :ref:`AnimationTree <class_AnimationTree>` nodes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:21
+msgid ""
+"Base resource for :ref:`AnimationTree <class_AnimationTree>` nodes. In "
+"general, it's not used directly, but you can create custom ones with "
+"custom blending formulas."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:23
+msgid ""
+"Inherit this when creating nodes mainly for use in "
+":ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`, otherwise "
+":ref:`AnimationRootNode <class_AnimationRootNode>` should be used "
+"instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:28
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:31
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:67
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:34
+msgid ":ref:`filter_enabled <class_AnimationNode_property_filter_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:38
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:69
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:71
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:73
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:75
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:41
+msgid ""
+":ref:`add_input <class_AnimationNode_method_add_input>` **(** "
+":ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:43
+msgid ""
+":ref:`blend_animation <class_AnimationNode_method_blend_animation>` **(**"
+" :ref:`StringName <class_StringName>` animation, :ref:`float "
+"<class_float>` time, :ref:`float <class_float>` delta, :ref:`bool "
+"<class_bool>` seeked, :ref:`float <class_float>` blend **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:47
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:45
+msgid ""
+":ref:`blend_input <class_AnimationNode_method_blend_input>` **(** "
+":ref:`int <class_int>` input_index, :ref:`float <class_float>` time, "
+":ref:`bool <class_bool>` seek, :ref:`float <class_float>` blend, "
+":ref:`FilterAction <enum_AnimationNode_FilterAction>` filter=0, "
+":ref:`bool <class_bool>` optimize=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:47
+msgid ""
+":ref:`blend_node <class_AnimationNode_method_blend_node>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`AnimationNode "
+"<class_AnimationNode>` node, :ref:`float <class_float>` time, :ref:`bool "
+"<class_bool>` seek, :ref:`float <class_float>` blend, :ref:`FilterAction "
+"<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool <class_bool>` "
+"optimize=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:57
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:49
+msgid ""
+":ref:`get_caption <class_AnimationNode_method_get_caption>` **(** **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:51
+msgid ":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:51
+msgid ""
+":ref:`get_child_by_name <class_AnimationNode_method_get_child_by_name>` "
+"**(** :ref:`String <class_String>` name **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:53
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:53
+msgid ""
+":ref:`get_child_nodes <class_AnimationNode_method_get_child_nodes>` **(**"
+" **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:55
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:55
+msgid ""
+":ref:`get_input_count <class_AnimationNode_method_get_input_count>` **(**"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:57
+msgid ""
+":ref:`get_input_name <class_AnimationNode_method_get_input_name>` **(** "
+":ref:`int <class_int>` input **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:61
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:59
+msgid ""
+":ref:`get_parameter <class_AnimationNode_method_get_parameter>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:61
+msgid ""
+":ref:`get_parameter_default_value "
+"<class_AnimationNode_method_get_parameter_default_value>` **(** "
+":ref:`StringName <class_StringName>` name **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:63
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:63
+msgid ""
+":ref:`get_parameter_list <class_AnimationNode_method_get_parameter_list>`"
+" **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:65
+msgid ""
+":ref:`has_filter <class_AnimationNode_method_has_filter>` **(** **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:67
+msgid ""
+":ref:`is_path_filtered <class_AnimationNode_method_is_path_filtered>` "
+"**(** :ref:`NodePath <class_NodePath>` path **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:69
+msgid ""
+":ref:`process <class_AnimationNode_method_process>` **(** :ref:`float "
+"<class_float>` time, :ref:`bool <class_bool>` seek **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:71
+msgid ""
+":ref:`remove_input <class_AnimationNode_method_remove_input>` **(** "
+":ref:`int <class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:73
+msgid ""
+":ref:`set_filter_path <class_AnimationNode_method_set_filter_path>` **(**"
+" :ref:`NodePath <class_NodePath>` path, :ref:`bool <class_bool>` enable "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:75
+msgid ""
+":ref:`set_parameter <class_AnimationNode_method_set_parameter>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Variant <class_Variant>`"
+" value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:79
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:83
+msgid "**removed_from_graph** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:85
+msgid "Called when the node was removed from the graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:91
+msgid "**tree_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:93
+msgid ""
+"Emitted by nodes that inherit from this class and that have an internal "
+"tree when one of their nodes changes. The nodes that emit this signal are"
+" :ref:`AnimationNodeBlendSpace1D <class_AnimationNodeBlendSpace1D>`, "
+":ref:`AnimationNodeBlendSpace2D <class_AnimationNodeBlendSpace2D>`, "
+":ref:`AnimationNodeStateMachine <class_AnimationNodeStateMachine>`, and "
+":ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:96
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:108
+msgid "enum **FilterAction**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:110
+msgid "**FILTER_IGNORE** = **0** --- Do not use filtering."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:112
+msgid ""
+"**FILTER_PASS** = **1** --- Paths matching the filter will be allowed to "
+"pass."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:114
+msgid "**FILTER_STOP** = **2** --- Paths matching the filter will be discarded."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:116
+msgid ""
+"**FILTER_BLEND** = **3** --- Paths matching the filter will be blended "
+"(by the blend value)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:119
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:123
+msgid ":ref:`bool <class_bool>` **filter_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:126
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:126
+msgid "set_filter_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:128
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:128
+msgid "is_filter_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:131
+msgid "If ``true``, filtering is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:134
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:138
+msgid "void **add_input** **(** :ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:140
+msgid ""
+"Adds an input to the node. This is only useful for nodes created for use "
+"in an :ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:146
+msgid ""
+"void **blend_animation** **(** :ref:`StringName <class_StringName>` "
+"animation, :ref:`float <class_float>` time, :ref:`float <class_float>` "
+"delta, :ref:`bool <class_bool>` seeked, :ref:`float <class_float>` blend "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:148
+msgid ""
+"Blend an animation by ``blend`` amount (name must be valid in the linked "
+":ref:`AnimationPlayer <class_AnimationPlayer>`). A ``time`` and ``delta``"
+" may be passed, as well as whether ``seek`` happened."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:154
+msgid ""
+":ref:`float <class_float>` **blend_input** **(** :ref:`int <class_int>` "
+"input_index, :ref:`float <class_float>` time, :ref:`bool <class_bool>` "
+"seek, :ref:`float <class_float>` blend, :ref:`FilterAction "
+"<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool <class_bool>` "
+"optimize=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:156
+msgid ""
+"Blend an input. This is only useful for nodes created for an "
+":ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`. The "
+"``time`` parameter is a relative delta, unless ``seek`` is ``true``, in "
+"which case it is absolute. A filter mode may be optionally passed (see "
+":ref:`FilterAction <enum_AnimationNode_FilterAction>` for options)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:162
+msgid ""
+":ref:`float <class_float>` **blend_node** **(** :ref:`StringName "
+"<class_StringName>` name, :ref:`AnimationNode <class_AnimationNode>` "
+"node, :ref:`float <class_float>` time, :ref:`bool <class_bool>` seek, "
+":ref:`float <class_float>` blend, :ref:`FilterAction "
+"<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool <class_bool>` "
+"optimize=true **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:164
+msgid ""
+"Blend another animation node (in case this node contains children "
+"animation nodes). This function is only useful if you inherit from "
+":ref:`AnimationRootNode <class_AnimationRootNode>` instead, else editors "
+"will not display your node for addition."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:170
+msgid ":ref:`String <class_String>` **get_caption** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:172
+msgid "Gets the text caption for this node (used by some editors)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:178
+msgid ""
+":ref:`Object <class_Object>` **get_child_by_name** **(** :ref:`String "
+"<class_String>` name **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:180
+msgid ""
+"Gets a child node by index (used by editors inheriting from "
+":ref:`AnimationRootNode <class_AnimationRootNode>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:186
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_child_nodes** **(** **)** "
+"virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:188
+msgid ""
+"Gets all children nodes in order as a ``name: node`` dictionary. Only "
+"useful when inheriting :ref:`AnimationRootNode "
+"<class_AnimationRootNode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:194
+msgid ":ref:`int <class_int>` **get_input_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:196
+msgid ""
+"Amount of inputs in this node, only useful for nodes that go into "
+":ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:202
+msgid ""
+":ref:`String <class_String>` **get_input_name** **(** :ref:`int "
+"<class_int>` input **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:204
+msgid "Gets the name of an input by index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:210
+msgid ""
+":ref:`Variant <class_Variant>` **get_parameter** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:212
+msgid ""
+"Gets the value of a parameter. Parameters are custom local memory used "
+"for your nodes, given a resource can be reused in multiple trees."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:218
+msgid ""
+":ref:`Variant <class_Variant>` **get_parameter_default_value** **(** "
+":ref:`StringName <class_StringName>` name **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:220
+msgid ""
+"Gets the default value of a parameter. Parameters are custom local memory"
+" used for your nodes, given a resource can be reused in multiple trees."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:226
+msgid ":ref:`Array <class_Array>` **get_parameter_list** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:228
+msgid ""
+"Gets the property information for parameter. Parameters are custom local "
+"memory used for your nodes, given a resource can be reused in multiple "
+"trees. Format is similar to :ref:`Object.get_property_list "
+"<class_Object_method_get_property_list>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:234
+msgid ":ref:`bool <class_bool>` **has_filter** **(** **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:236
+msgid ""
+"Returns ``true`` whether you want the blend tree editor to display filter"
+" editing on this node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:242
+msgid ""
+":ref:`bool <class_bool>` **is_path_filtered** **(** :ref:`NodePath "
+"<class_NodePath>` path **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:244
+msgid "Returns ``true`` whether a given path is filtered."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:250
+msgid ""
+"void **process** **(** :ref:`float <class_float>` time, :ref:`bool "
+"<class_bool>` seek **)** virtual"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:252
+msgid ""
+"User-defined callback called when a custom node is processed. The "
+"``time`` parameter is a relative delta, unless ``seek`` is ``true``, in "
+"which case it is absolute."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:254
+msgid ""
+"Here, call the :ref:`blend_input "
+"<class_AnimationNode_method_blend_input>`, :ref:`blend_node "
+"<class_AnimationNode_method_blend_node>` or :ref:`blend_animation "
+"<class_AnimationNode_method_blend_animation>` functions. You can also use"
+" :ref:`get_parameter <class_AnimationNode_method_get_parameter>` and "
+":ref:`set_parameter <class_AnimationNode_method_set_parameter>` to modify"
+" local memory."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:256
+msgid ""
+"This function should return the time left for the current animation to "
+"finish (if unsure, pass the value from the main blend being called)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:262
+msgid "void **remove_input** **(** :ref:`int <class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:264
+msgid "Removes an input, call this only when inactive."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:270
+msgid ""
+"void **set_filter_path** **(** :ref:`NodePath <class_NodePath>` path, "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:272
+msgid "Adds or removes a path for the filter."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:278
+msgid ""
+"void **set_parameter** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnode.rst:280
+msgid ""
+"Sets a custom parameter. These are used as local storage, because "
+"resources can be reused across the tree or scenes."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "Returns whether filtering is enabled."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adds an input to the node. This"
+#~ " is only useful for nodes created "
+#~ "for use in an :ref:`AnimationNodeBlendTree "
+#~ "<class_AnimationNodeBlendTree>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Blend an animation by \"blend\" amount"
+#~ " (name must be valid in the "
+#~ "linked :ref:`AnimationPlayer <class_AnimationPlayer>`)."
+#~ " A time and delta mas be "
+#~ "passed, as well as whether seek "
+#~ "happened."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Blend an input. This is only "
+#~ "useful for nodes created for an "
+#~ ":ref:`AnimationNodeBlendTree <class_AnimationNodeBlendTree>`."
+#~ " Time is a delta, unless \"seek\" "
+#~ "is ``true``, in which case it is"
+#~ " absolute. A filter mode may be "
+#~ "optionally passed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Called when a custom node is "
+#~ "processed. The argument \"time\" is "
+#~ "relative, unless \"seek\" is ``true`` "
+#~ "(in which case it is absolute)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Here, call the :ref:`blend_input "
+#~ "<class_AnimationNode_method_blend_input>`, :ref:`blend_node "
+#~ "<class_AnimationNode_method_blend_node>` or "
+#~ ":ref:`blend_animation "
+#~ "<class_AnimationNode_method_blend_animation>` functions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also use :ref:`get_parameter "
+#~ "<class_AnimationNode_method_get_parameter>` and "
+#~ ":ref:`set_parameter <class_AnimationNode_method_set_parameter>`"
+#~ " to modify local memory."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This function returns the time left "
+#~ "for the current animation to finish "
+#~ "(if unsure, just pass  the value "
+#~ "from the main blend being called)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`blend_animation "
+#~ "<class_AnimationNode_method_blend_animation>` **(** "
+#~ ":ref:`String <class_String>` animation, :ref:`float"
+#~ " <class_float>` time, :ref:`float <class_float>`"
+#~ " delta, :ref:`bool <class_bool>` seeked, "
+#~ ":ref:`float <class_float>` blend **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`blend_node <class_AnimationNode_method_blend_node>` "
+#~ "**(** :ref:`String <class_String>` name, "
+#~ ":ref:`AnimationNode <class_AnimationNode>` node, "
+#~ ":ref:`float <class_float>` time, :ref:`bool "
+#~ "<class_bool>` seek, :ref:`float <class_float>` "
+#~ "blend, :ref:`FilterAction "
+#~ "<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool"
+#~ " <class_bool>` optimize=true **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_parameter <class_AnimationNode_method_get_parameter>`"
+#~ " **(** :ref:`String <class_String>` name "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_parameter_default_value "
+#~ "<class_AnimationNode_method_get_parameter_default_value>` **(**"
+#~ " :ref:`String <class_String>` name **)** "
+#~ "virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_parameter <class_AnimationNode_method_set_parameter>`"
+#~ " **(** :ref:`String <class_String>` name, "
+#~ ":ref:`Variant <class_Variant>` value **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **blend_animation** **(** :ref:`String "
+#~ "<class_String>` animation, :ref:`float "
+#~ "<class_float>` time, :ref:`float <class_float>` "
+#~ "delta, :ref:`bool <class_bool>` seeked, "
+#~ ":ref:`float <class_float>` blend **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`float <class_float>` **blend_node** **(** "
+#~ ":ref:`String <class_String>` name, "
+#~ ":ref:`AnimationNode <class_AnimationNode>` node, "
+#~ ":ref:`float <class_float>` time, :ref:`bool "
+#~ "<class_bool>` seek, :ref:`float <class_float>` "
+#~ "blend, :ref:`FilterAction "
+#~ "<enum_AnimationNode_FilterAction>` filter=0, :ref:`bool"
+#~ " <class_bool>` optimize=true **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Variant <class_Variant>` **get_parameter** "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Variant <class_Variant>` "
+#~ "**get_parameter_default_value** **(** :ref:`String "
+#~ "<class_String>` name **)** virtual"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **has_filter** **(** **)** virtual"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_parameter** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`Variant <class_Variant>`"
+#~ " value **)**"
+#~ msgstr ""
+

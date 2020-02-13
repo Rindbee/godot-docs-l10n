@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-31 09:23+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_staticbody2d.rst:10
+msgid "StaticBody2D"
+msgstr "StaticBody2D"
+
+#: ../../docs/classes/class_staticbody2d.rst:12
+msgid ""
+"**Inherits:** :ref:`PhysicsBody2D <class_PhysicsBody2D>` **<** "
+":ref:`CollisionObject2D <class_CollisionObject2D>` **<** :ref:`Node2D "
+"<class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+"**基类**：:ref:`PhysicsBody2D <class_PhysicsBody2D>` **<** "
+":ref:`CollisionObject2D <class_CollisionObject2D>` **<** :ref:`Node2D "
+"<class_Node2D>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:14
+msgid "Static body for 2D physics."
+msgstr "2D物理的静态物体。"
+
+#: ../../docs/classes/class_staticbody2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_staticbody2d.rst:19
+msgid ""
+"Static body for 2D physics. A StaticBody2D is a body that is not intended"
+" to move. It is ideal for implementing objects in the environment, such "
+"as walls or platforms."
+msgstr "2D物理的静态物体。``StaticBody2D`` 是不能移动的物体。它是在环境中实现对象（例如墙或平台）的理想选择。"
+
+#: ../../docs/classes/class_staticbody2d.rst:21
+msgid ""
+"Additionally, a constant linear or angular velocity can be set for the "
+"static body, which will affect colliding bodies as if it were moving (for"
+" example, a conveyor belt)."
+msgstr "此外，可以为静态物体设置恒定的线速度或角速度，这将影响碰撞物体，就像它在移动一样（例如，传送带）。"
+
+#: ../../docs/classes/class_staticbody2d.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_staticbody2d.rst:27
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:27
+msgid ""
+":ref:`constant_angular_velocity "
+"<class_StaticBody2D_property_constant_angular_velocity>`"
+msgstr ""
+":ref:`constant_angular_velocity "
+"<class_StaticBody2D_property_constant_angular_velocity>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:27
+#: ../../docs/classes/class_staticbody2d.rst:42
+#, fuzzy
+msgid "``0.0``"
+msgstr "0.0"
+
+#: ../../docs/classes/class_staticbody2d.rst:29
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:29
+msgid ""
+":ref:`constant_linear_velocity "
+"<class_StaticBody2D_property_constant_linear_velocity>`"
+msgstr ""
+":ref:`constant_linear_velocity "
+"<class_StaticBody2D_property_constant_linear_velocity>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:29
+#: ../../docs/classes/class_staticbody2d.rst:58
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_staticbody2d.rst:31
+msgid ":ref:`PhysicsMaterial <class_PhysicsMaterial>`"
+msgstr ":ref:`PhysicsMaterial <class_PhysicsMaterial>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:31
+msgid ""
+":ref:`physics_material_override "
+"<class_StaticBody2D_property_physics_material_override>`"
+msgstr ""
+":ref:`physics_material_override "
+"<class_StaticBody2D_property_physics_material_override>`"
+
+#: ../../docs/classes/class_staticbody2d.rst:35
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_staticbody2d.rst:39
+msgid ":ref:`float <class_float>` **constant_angular_velocity**"
+msgstr ":ref:`float <class_float>` **constant_angular_velocity**"
+
+#: ../../docs/classes/class_staticbody2d.rst:42
+#: ../../docs/classes/class_staticbody2d.rst:58
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_staticbody2d.rst:44
+#: ../../docs/classes/class_staticbody2d.rst:60
+#: ../../docs/classes/class_staticbody2d.rst:74
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_staticbody2d.rst:44
+msgid "set_constant_angular_velocity(value)"
+msgstr "set_constant_angular_velocity(value)"
+
+#: ../../docs/classes/class_staticbody2d.rst:46
+#: ../../docs/classes/class_staticbody2d.rst:62
+#: ../../docs/classes/class_staticbody2d.rst:76
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_staticbody2d.rst:46
+msgid "get_constant_angular_velocity()"
+msgstr "get_constant_angular_velocity()"
+
+#: ../../docs/classes/class_staticbody2d.rst:49
+msgid ""
+"The body's constant angular velocity. This does not rotate the body, but "
+"affects colliding bodies, as if it were rotating."
+msgstr "物体的恒定角速度。这不会旋转该物体，但会影响碰撞的物体，就像它在旋转一样。"
+
+#: ../../docs/classes/class_staticbody2d.rst:55
+msgid ":ref:`Vector2 <class_Vector2>` **constant_linear_velocity**"
+msgstr ":ref:`Vector2 <class_Vector2>` **constant_linear_velocity**"
+
+#: ../../docs/classes/class_staticbody2d.rst:60
+msgid "set_constant_linear_velocity(value)"
+msgstr "set_constant_linear_velocity(value)"
+
+#: ../../docs/classes/class_staticbody2d.rst:62
+msgid "get_constant_linear_velocity()"
+msgstr "get_constant_linear_velocity()"
+
+#: ../../docs/classes/class_staticbody2d.rst:65
+msgid ""
+"The body's constant linear velocity. This does not move the body, but "
+"affects colliding bodies, as if it were moving."
+msgstr "物体的恒定线速度。这不会移动该物体，但会影响碰撞的物体，就像它在移动一样。"
+
+#: ../../docs/classes/class_staticbody2d.rst:71
+msgid ""
+":ref:`PhysicsMaterial <class_PhysicsMaterial>` "
+"**physics_material_override**"
+msgstr ""
+":ref:`PhysicsMaterial <class_PhysicsMaterial>` "
+"**physics_material_override**"
+
+#: ../../docs/classes/class_staticbody2d.rst:74
+msgid "set_physics_material_override(value)"
+msgstr "set_physics_material_override(value)"
+
+#: ../../docs/classes/class_staticbody2d.rst:76
+msgid "get_physics_material_override()"
+msgstr "get_physics_material_override()"
+
+#: ../../docs/classes/class_staticbody2d.rst:79
+msgid "The physics material override for the body."
+msgstr "物体的物理材质覆盖。"
+
+#: ../../docs/classes/class_staticbody2d.rst:81
+msgid ""
+"If a material is assigned to this property, it will be used instead of "
+"any other physics material, such as an inherited one."
+msgstr "如果将一种材质分配给该属性，则将使用该材质代替任何其他物理材质，例如继承的材质。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid ":ref:`bounce <class_StaticBody2D_property_bounce>`"
+#~ msgstr ":ref:`bounce <class_StaticBody2D_property_bounce>`"
+
+#~ msgid ":ref:`friction <class_StaticBody2D_property_friction>`"
+#~ msgstr ":ref:`friction <class_StaticBody2D_property_friction>`"
+
+#~ msgid ":ref:`float <class_float>` **bounce**"
+#~ msgstr ":ref:`float <class_float>` **bounce**"
+
+#~ msgid "set_bounce(value)"
+#~ msgstr "set_bounce(value)"
+
+#~ msgid "get_bounce()"
+#~ msgstr "get_bounce()"
+
+#~ msgid ""
+#~ "The body's bounciness. Values range from"
+#~ " ``0`` (no bounce) to ``1`` (full "
+#~ "bounciness)."
+#~ msgstr "物体的弹跳。值的范围从 ``0`` （无反弹）到 ``1`` （全反弹）。"
+
+#~ msgid ""
+#~ "Deprecated, use :ref:`PhysicsMaterial.bounce "
+#~ "<class_PhysicsMaterial_property_bounce>` instead via "
+#~ ":ref:`physics_material_override "
+#~ "<class_StaticBody2D_property_physics_material_override>`."
+#~ msgstr ""
+#~ "不推荐使用，而是通过 :ref:`physics_material_override "
+#~ "<class_StaticBody2D_property_physics_material_override>` 使用 "
+#~ ":ref:`PhysicsMaterial.bounce "
+#~ "<class_PhysicsMaterial_property_bounce>` 代替。"
+
+#~ msgid ":ref:`float <class_float>` **friction**"
+#~ msgstr ":ref:`float <class_float>` **friction**"
+
+#~ msgid "set_friction(value)"
+#~ msgstr "set_friction(value)"
+
+#~ msgid "get_friction()"
+#~ msgstr "get_friction()"
+
+#~ msgid ""
+#~ "The body's friction. Values range from"
+#~ " ``0`` (no friction) to ``1`` (full"
+#~ " friction)."
+#~ msgstr "物体的摩擦。值的范围从 ``0`` （无摩擦）到 ``1`` （全摩擦）。"
+
+#~ msgid ""
+#~ "Deprecated, use :ref:`PhysicsMaterial.friction "
+#~ "<class_PhysicsMaterial_property_friction>` instead via "
+#~ ":ref:`physics_material_override "
+#~ "<class_StaticBody2D_property_physics_material_override>`."
+#~ msgstr ""
+#~ "不推荐使用，而是通过 :ref:`physics_material_override "
+#~ "<class_StaticBody2D_property_physics_material_override>` 使用 "
+#~ ":ref:`PhysicsMaterial.friction "
+#~ "<class_PhysicsMaterial_property_friction>` 代替。"
+

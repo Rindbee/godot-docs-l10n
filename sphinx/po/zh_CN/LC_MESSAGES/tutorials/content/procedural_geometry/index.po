@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2020-03-07 22:23+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:2
-#, fuzzy
 msgid "Procedural geometry"
-msgstr ":ref:`粒子着色器 <doc_particle_shader>`"
+msgstr "程序几何"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:4
 msgid ""
@@ -29,11 +28,13 @@ msgid ""
 "benefits and drawbacks, so it is best to understand each one and how it can "
 "be useful in a given situation."
 msgstr ""
+"有多种方法可以在Godot中以程序方式生成几何图形。在本系列教程中，我们将探索其中"
+"的一些。每种技术都有其自身的优点和缺点，因此最好了解每种方法以及在给定情况下"
+"如何有用。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:18
-#, fuzzy
 msgid "What is geometry?"
-msgstr "它是什么？"
+msgstr "什么是几何？"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:20
 msgid ""
@@ -41,11 +42,12 @@ msgid ""
 "typically represented by an array of positions called \"vertices\". In "
 "Godot, geometry is represented by Meshes."
 msgstr ""
+"几何形状是表达形状的一种好方法。在计算机图形学中，几何图形通常由称为 ``顶点"
+"（vertices）`` 的位置数组表示。在Godot中，几何体由网格表示。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:24
-#, fuzzy
 msgid "What is a Mesh?"
-msgstr "它是什么？"
+msgstr "什么是网格？"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:26
 msgid ""
@@ -55,6 +57,11 @@ msgid ""
 "`MultiMeshInstance <class_MultiMeshInstance>`. While they are all related, "
 "they have slightly different uses."
 msgstr ""
+"Godot中的许多东西在它们的名字中都有 ``mesh``： :ref:`Mesh <class_Mesh>`，:"
+"ref:`ArrayMesh <class_ArrayMesh>`，:ref:`MeshInstance "
+"<class_MeshInstance>`，:ref:`MultiMesh <class_MultiMesh>` 和 :ref:"
+"`MultiMeshInstance <class_MultiMeshInstance>`。虽然它们都是相关的，但它们的用"
+"途略有不同。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:30
 msgid ""
@@ -65,6 +72,10 @@ msgid ""
 "different parts of your scene with different materials or transformations "
 "(scale, rotation, position etc.)."
 msgstr ""
+"``Mesh`` 和 ``ArrayMesh`` 是使用 ``MeshInstance`` 节点绘制的资源。无法将诸如 "
+"``Mesh`` 和 ``ArrayMesh`` 之类的资源直接添加到场景中。``MeshInstance`` 表示场"
+"景中一个网格的一个实例。您可以在多个 ``MeshInstance`` 中重用单个网格，以使用"
+"不同的材质或变换（比例，旋转，位置等）将其绘制到场景的不同部分。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:36
 msgid ""
@@ -76,11 +87,15 @@ msgid ""
 "store different colors and transformations for each instance, but all the "
 "instances use the same material."
 msgstr ""
+"如果要多次绘制同一对象，则将 ``MultiMesh`` 与 ``MultiMeshInstance`` 一起使用"
+"可能会有所帮助。``MultiMeshInstance`` 绘制网格数千次非常便宜。为此，它需要利"
+"用硬件实例化。使用 ``MultiMeshInstance`` 的缺点是，所有实例只能使用一种材质。"
+"它使用一个实例数组为每个实例存储不同的颜色和变换，但是所有实例都使用相同的材"
+"质。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:44
-#, fuzzy
 msgid "What a Mesh is"
-msgstr "空间节点"
+msgstr "网格是什么"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:46
 msgid ""
@@ -91,11 +106,14 @@ msgid ""
 "construct a Mesh manually by passing in an array containing the surface "
 "information."
 msgstr ""
+"一个网格由一个或多个曲面组成。一个曲面是一个由多个包含顶点，法线，UV等的子数"
+"组组成的数组。通常，在 :ref:`VisualServer <class_VisualServer>` 中，用户不知"
+"道构造曲面和网格的过程，但是使用 ``ArrayMeshes`` 时， 用户可以通过传入一个包"
+"含曲面信息的数组来手动构造一个网格。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:52
-#, fuzzy
 msgid "Surfaces"
-msgstr "目标表面"
+msgstr "曲面"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:54
 msgid ""
@@ -103,11 +121,12 @@ msgid ""
 "material for all surfaces in the Mesh when you use a MeshInstance using "
 "``MeshInstance.override_material``."
 msgstr ""
+"每个曲面都有自己的材质。或者，当您使用 ``MeshInstance.override_material`` 来"
+"使用 ``MeshInstance`` 时，可以覆盖 ``Mesh`` 中所有曲面的材质。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:58
-#, fuzzy
 msgid "Surface array"
-msgstr "raw array"
+msgstr "曲面数组"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:60
 msgid ""
@@ -116,6 +135,9 @@ msgid ""
 "information. For example, the array located at ``ArrayMesh.ARRAY_NORMAL`` is "
 "a :ref:`PoolVector3Array <class_PoolVector3Array>` of vertex normals."
 msgstr ""
+"曲面数组是长度为 ``ArrayMesh.ARRAY_MAX`` 的数组。数组中的每个位置都填充有包含"
+"每个顶点信息的子数组。例如，位于 ``ArrayMesh.ARRAY_NORMAL`` 处的数组是一个顶"
+"点法线的 :ref:`PackedVector3Array <class_PackedVector3Array>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:64
 msgid ""
@@ -130,6 +152,12 @@ msgid ""
 "vertex data between triangles, which is not always desired (e.g. when you "
 "want per-face normals)."
 msgstr ""
+"曲面数组可以是索引的或非索引的。创建一个未索引的数组就像不在索引 ``ArrayMesh."
+"ARRAY_INDEX`` 处分配一个数组一样容易。一个非索引数组为每个三角形存储唯一的顶"
+"点信息，这意味着当两个三角形共享一个顶点时，该顶点在数组中重复。索引曲面数组"
+"仅存储每个唯一顶点的顶点信息，然后还存储一个索引数组，该索引映射出如何从顶点"
+"数组构造三角形。通常，使用索引数组的速度更快，但这意味着您必须在三角形之间共"
+"享顶点数据，这并非总是希望的（例如，当您需要每个面的法线时）。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:73
 msgid "Tools"
@@ -140,6 +168,7 @@ msgid ""
 "Godot provides different ways of accessing and working with geometry. More "
 "information on each will be provided in the following tutorials."
 msgstr ""
+"Godot提供了访问和使用几何的不同方式。以下教程将提供有关每种方法的更多信息。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:79
 msgid "ArrayMesh"
@@ -151,56 +180,57 @@ msgid ""
 "functions, and most importantly, the ability to construct a Mesh surface "
 "through scripting."
 msgstr ""
+"``ArrayMesh`` 资源扩展了 ``Mesh``，以添加一些不同质量的生活函数，最重要的是，"
+"可以通过脚本构建一个 ``Mesh`` 曲面。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:84
-#, fuzzy
 msgid ""
 "For more information about the ArrayMesh, please see the :ref:`ArrayMesh "
 "tutorial <doc_arraymesh>`."
 msgstr ""
-"有关着色器如果在Godot中工作的更多信息，请参阅 :ref:`着色器 <doc_shaders>`。"
+"有关 ``ArrayMesh`` 的更多信息，请参见 :ref:`ArrayMesh教程 <doc_arraymesh>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:87
 msgid "MeshDataTool"
-msgstr ""
+msgstr "网格数据工具（MeshDataTool）"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:89
 msgid ""
 "The MeshDataTool is a resource that converts Mesh data into arrays of "
 "vertices, faces, and edges that can be modified at runtime."
 msgstr ""
+"``MeshDataTool`` 是一种资源，可将 ``Mesh`` 数据转换为可在运行时中修改的顶点、"
+"面、和边的数组。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:92
-#, fuzzy
 msgid ""
 "For more information about the MeshDataTool, please see the :ref:"
 "`MeshDataTool tutorial <doc_meshdatatool>`."
 msgstr ""
-"有关内置GLSL函数的完整列表，请参见:参考:`着色语言文档<文档_着色_语言>`。"
+"有关 ``MeshDataTool`` 的更多信息，请参见 :ref:`MeshDataTool教程 "
+"<doc_meshdatatool>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:95
 msgid "SurfaceTool"
-msgstr ""
+msgstr "曲面工具（SurfaceTool）"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:97
 msgid ""
 "The SurfaceTool allows the creation of Meshes using an OpenGL 1.x immediate "
 "mode style interface."
-msgstr ""
+msgstr "``SurfaceTool`` 允许使用一个OpenGL 1.x立即模式风格接口来创建网格。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:99
-#, fuzzy
 msgid ""
 "For more information about the SurfaceTool, please see the :ref:`SurfaceTool "
 "tutorial <doc_surfacetool>`."
 msgstr ""
-"有关Godot如何处理输入的更多信息，请阅读 :ref:`Input Event "
-"Tutorial<doc_inputevent>` 。"
+"有关 ``SurfaceTool`` 的更多信息，请参见 :ref:`SurfaceTool教程 "
+"<doc_surfacetool>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:102
-#, fuzzy
 msgid "ImmediateGeometry"
-msgstr "立即几何体"
+msgstr "立即几何"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:104
 msgid ""
@@ -210,6 +240,10 @@ msgid ""
 "added to the scene tree and is drawn directly from the code. The SurfaceTool "
 "generates a Mesh that needs to be added a MeshInstance to be seen."
 msgstr ""
+"``InstantGeometry`` 是一个使用一个即时模式风格接口（类似 ``SurfaceTool``）绘"
+"制对象的节点。``InstantGeometry`` 和 ``SurfaceTool`` 之间的区别在于，"
+"``InstantGeometry`` 是一个节点，本身可以添加到场景树中，并直接从代码中绘制。"
+"``SurfaceTool`` 生成一个 ``Mesh``，需要添加一个 ``MeshInstance`` 才能看到。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:109
 msgid ""
@@ -218,32 +252,35 @@ msgid ""
 "useful for quickly adding simple geometry to debug visually (e.g. by drawing "
 "lines to visualize physics raycasts etc.)."
 msgstr ""
+"由于使用了直接的API，``InstantGeometry`` 对于原型制作非常有用，但由于每帧都会"
+"重新构建几何，因此它很慢。对于快速添加简单的几何图形以进行可视化调试（例如通"
+"过绘制线条以可视化物理射线投射等）而言，这非常有用。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:113
-#, fuzzy
 msgid ""
 "For more information about ImmediateGeometry, please see the :ref:"
 "`ImmediateGeometry tutorial <doc_immediategeometry>`."
 msgstr ""
-"有关Godot如何处理输入的更多信息，请阅读 :ref:`Input Event "
-"Tutorial<doc_inputevent>` 。"
+"有关 ``InstantGeometry`` 的更多信息，请参见 :ref:`ImmediateGeometry教程 "
+"<doc_immediategeometry>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:116
-#, fuzzy
 msgid "Which one should I use?"
-msgstr "使用哪种运动方式？"
+msgstr "我应该使用哪一个？"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:118
 msgid ""
 "Which method you use depends on what you are trying to do and what kind of "
 "procedure you are comfortable with."
-msgstr ""
+msgstr "您使用哪种方法取决于你正在尝试做什么以及您喜欢哪种程序。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:120
 msgid ""
 "Both SurfaceTool and ArrayMesh are excellent for generating static geometry "
 "(meshes) that don't change over time."
 msgstr ""
+"``SurfaceTool`` 和 ``ArrayMesh`` 都非常适合生成不会随时间变化的静态几何（网"
+"格）。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:122
 msgid ""
@@ -251,6 +288,9 @@ msgid ""
 "is more a little more challenging. Additionally, SurfaceTool has a few "
 "quality of life methods such as ``generate_normals()`` and ``index()``."
 msgstr ""
+"使用 ``ArrayMesh`` 比使用 ``SurfaceTool`` 快一点，但是API更具挑战性。此外，"
+"``SurfaceTool`` 具有一些生活质量函数，例如 ``generate_normals()`` 和 "
+"``index()``。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:125
 msgid ""
@@ -259,6 +299,9 @@ msgid ""
 "every frame anyway it provides a much easier interface that may even be a "
 "little faster than generating an ArrayMesh every frame."
 msgstr ""
+"``InstantGeometry`` 每帧都会重新生成网格，因此它比 ``ArrayMesh`` 或 "
+"``SurfaceTool`` 慢得多。但是，如果您需要无论如何都要改变每一帧的几何形状，它"
+"都会提供一个更简单的接口，甚至比每帧生成一个 ``ArrayMesh`` 还要快一些。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:129
 msgid ""
@@ -269,3 +312,7 @@ msgid ""
 "needed. The MeshDataTool is best used if you are going to be using an "
 "algorithm that requires access to the face or edge array."
 msgstr ""
+"``MeshDataTool`` 并不快，但是它使您可以访问其他网格无法获得的各种网格属性"
+"（边、面等）。当您需要那种数据来变换网格时，它非常有用，但是如果不需要该信"
+"息，则不是一个好主意。如果您要使用需要访问面或边数组的算法，则最好使用 "
+"``MeshDataTool``。"

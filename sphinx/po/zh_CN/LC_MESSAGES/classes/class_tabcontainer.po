@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:10
+msgid "TabContainer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:12
+msgid ""
+"**Inherits:** :ref:`Container <class_Container>` **<** :ref:`Control "
+"<class_Control>` **<** :ref:`CanvasItem <class_CanvasItem>` **<** "
+":ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:14
+msgid "Tabbed container."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:19
+msgid ""
+"Sets the active tab's ``visible`` property to the value ``true``. Sets "
+"all other children's to ``false``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:21
+msgid "Ignores non-:ref:`Control <class_Control>` children."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:23
+msgid ""
+"Individual tabs are always visible unless you use :ref:`set_tab_disabled "
+"<class_TabContainer_method_set_tab_disabled>` and :ref:`set_tab_title "
+"<class_TabContainer_method_set_tab_title>` to hide it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:25
+msgid ""
+"To hide only a tab's content, nest the content inside a child "
+":ref:`Control <class_Control>`, so it receives the ``TabContainer``'s "
+"visibility setting instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:28
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:54
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:91
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:103
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:31
+msgid ":ref:`current_tab <class_TabContainer_property_current_tab>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:164
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:56
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:33
+msgid ""
+":ref:`drag_to_rearrange_enabled "
+"<class_TabContainer_property_drag_to_rearrange_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:228
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:35
+msgid ":ref:`TabAlign <enum_TabContainer_TabAlign>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:35
+msgid ":ref:`tab_align <class_TabContainer_property_tab_align>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:196
+msgid "``1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:37
+msgid ":ref:`tabs_visible <class_TabContainer_property_tabs_visible>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:212
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:39
+msgid ""
+":ref:`use_hidden_tabs_for_min_size "
+"<class_TabContainer_property_use_hidden_tabs_for_min_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:43
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:52
+msgid ":ref:`Control <class_Control>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:46
+msgid ""
+":ref:`get_current_tab_control "
+"<class_TabContainer_method_get_current_tab_control>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:48
+msgid ":ref:`Popup <class_Popup>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:48
+msgid ":ref:`get_popup <class_TabContainer_method_get_popup>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:50
+msgid ""
+":ref:`get_previous_tab <class_TabContainer_method_get_previous_tab>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:52
+msgid ""
+":ref:`get_tab_control <class_TabContainer_method_get_tab_control>` **(** "
+":ref:`int <class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:54
+msgid ""
+":ref:`get_tab_count <class_TabContainer_method_get_tab_count>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:56
+msgid ""
+":ref:`get_tab_disabled <class_TabContainer_method_get_tab_disabled>` "
+"**(** :ref:`int <class_int>` tab_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:81
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:93
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:95
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:99
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:58
+msgid ""
+":ref:`get_tab_icon <class_TabContainer_method_get_tab_icon>` **(** "
+":ref:`int <class_int>` tab_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:60
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:60
+msgid ""
+":ref:`get_tab_title <class_TabContainer_method_get_tab_title>` **(** "
+":ref:`int <class_int>` tab_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:62
+msgid ""
+":ref:`get_tabs_rearrange_group "
+"<class_TabContainer_method_get_tabs_rearrange_group>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:72
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:64
+msgid ""
+":ref:`set_popup <class_TabContainer_method_set_popup>` **(** :ref:`Node "
+"<class_Node>` popup **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:66
+msgid ""
+":ref:`set_tab_disabled <class_TabContainer_method_set_tab_disabled>` "
+"**(** :ref:`int <class_int>` tab_idx, :ref:`bool <class_bool>` disabled "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:68
+msgid ""
+":ref:`set_tab_icon <class_TabContainer_method_set_tab_icon>` **(** "
+":ref:`int <class_int>` tab_idx, :ref:`Texture2D <class_Texture2D>` icon "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:70
+msgid ""
+":ref:`set_tab_title <class_TabContainer_method_set_tab_title>` **(** "
+":ref:`int <class_int>` tab_idx, :ref:`String <class_String>` title **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:72
+msgid ""
+":ref:`set_tabs_rearrange_group "
+"<class_TabContainer_method_set_tabs_rearrange_group>` **(** :ref:`int "
+"<class_int>` group_id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:76
+msgid "Theme Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:79
+msgid "decrement"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:81
+msgid "decrement_highlight"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:83
+msgid ":ref:`Font <class_Font>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:83
+msgid "font"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:85
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:87
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:89
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:85
+msgid "font_color_bg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:85
+msgid "Color( 0.69, 0.69, 0.69, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:87
+msgid "font_color_disabled"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:87
+msgid "Color( 0.9, 0.9, 0.9, 0.2 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:89
+msgid "font_color_fg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:89
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:91
+msgid "hseparation"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:91
+msgid "4"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:93
+msgid "increment"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:95
+msgid "increment_highlight"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:97
+msgid "menu"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:99
+msgid "menu_highlight"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:105
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:107
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:109
+msgid ":ref:`StyleBox <class_StyleBox>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:101
+msgid "panel"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:103
+msgid "side_margin"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:103
+msgid "8"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:105
+msgid "tab_bg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:107
+msgid "tab_disabled"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:109
+msgid "tab_fg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:113
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:117
+msgid "**pre_popup_pressed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:119
+msgid ""
+"Emitted when the ``TabContainer``'s :ref:`Popup <class_Popup>` button is "
+"clicked. See :ref:`set_popup <class_TabContainer_method_set_popup>` for "
+"details."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:125
+msgid "**tab_changed** **(** :ref:`int <class_int>` tab **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:127
+msgid "Emitted when switching to another tab."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:133
+msgid "**tab_selected** **(** :ref:`int <class_int>` tab **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:135
+msgid "Emitted when a tab is selected, even if it is the current tab."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:138
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:148
+msgid "enum **TabAlign**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:150
+msgid "**ALIGN_LEFT** = **0** --- Align the tabs to the left."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:152
+msgid "**ALIGN_CENTER** = **1** --- Align the tabs to the center."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:154
+msgid "**ALIGN_RIGHT** = **2** --- Align the tabs to the right."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:157
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:161
+msgid ":ref:`int <class_int>` **current_tab**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:228
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:214
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:230
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:166
+msgid "set_current_tab(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:168
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:200
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:216
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:232
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:168
+msgid "get_current_tab()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:171
+msgid ""
+"The current tab index. When set, this index's :ref:`Control "
+"<class_Control>` node's ``visible`` property is set to ``true`` and all "
+"others are set to ``false``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:177
+msgid ":ref:`bool <class_bool>` **drag_to_rearrange_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:182
+msgid "set_drag_to_rearrange_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:184
+msgid "get_drag_to_rearrange_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:187
+msgid "If ``true``, tabs can be rearranged with mouse drag."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:193
+msgid ":ref:`TabAlign <enum_TabContainer_TabAlign>` **tab_align**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:198
+msgid "set_tab_align(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:200
+msgid "get_tab_align()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:203
+msgid ""
+"The alignment of all tabs in the tab container. See the :ref:`TabAlign "
+"<enum_TabContainer_TabAlign>` constants for details."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:209
+msgid ":ref:`bool <class_bool>` **tabs_visible**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:214
+msgid "set_tabs_visible(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:216
+msgid "are_tabs_visible()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:219
+msgid ""
+"If ``true``, tabs are visible. If ``false``, tabs' content and titles are"
+" hidden."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:225
+msgid ":ref:`bool <class_bool>` **use_hidden_tabs_for_min_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:230
+msgid "set_use_hidden_tabs_for_min_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:232
+msgid "get_use_hidden_tabs_for_min_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:235
+msgid ""
+"If ``true``, children :ref:`Control <class_Control>` nodes that are "
+"hidden have their minimum size take into account in the total, instead of"
+" only the currently visible one."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:238
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:242
+msgid ""
+":ref:`Control <class_Control>` **get_current_tab_control** **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:244
+msgid ""
+"Returns the child :ref:`Control <class_Control>` node located at the "
+"active tab index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:250
+msgid ":ref:`Popup <class_Popup>` **get_popup** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:252
+msgid ""
+"Returns the :ref:`Popup <class_Popup>` node instance if one has been set "
+"already with :ref:`set_popup <class_TabContainer_method_set_popup>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:258
+msgid ":ref:`int <class_int>` **get_previous_tab** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:260
+msgid "Returns the previously active tab index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:266
+msgid ""
+":ref:`Control <class_Control>` **get_tab_control** **(** :ref:`int "
+"<class_int>` idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:268
+msgid "Returns the currently visible tab's :ref:`Control <class_Control>` node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:274
+msgid ":ref:`int <class_int>` **get_tab_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:276
+msgid "Returns the number of tabs."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:282
+msgid ""
+":ref:`bool <class_bool>` **get_tab_disabled** **(** :ref:`int "
+"<class_int>` tab_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:284
+msgid "Returns ``true`` if the tab at index ``tab_idx`` is disabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:290
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_tab_icon** **(** :ref:`int "
+"<class_int>` tab_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:292
+msgid ""
+"Returns the :ref:`Texture2D <class_Texture2D>` for the tab at index "
+"``tab_idx`` or ``null`` if the tab has no :ref:`Texture2D "
+"<class_Texture2D>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:298
+msgid ""
+":ref:`String <class_String>` **get_tab_title** **(** :ref:`int "
+"<class_int>` tab_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:300
+msgid ""
+"Returns the title of the tab at index ``tab_idx``. Tab titles default to "
+"the name of the indexed child node, but this can be overridden with "
+":ref:`set_tab_title <class_TabContainer_method_set_tab_title>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:306
+msgid ":ref:`int <class_int>` **get_tabs_rearrange_group** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:308
+msgid "Returns the ``TabContainer`` rearrange group id."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:314
+msgid "void **set_popup** **(** :ref:`Node <class_Node>` popup **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:316
+msgid ""
+"If set on a :ref:`Popup <class_Popup>` node instance, a popup menu icon "
+"appears in the top-right corner of the ``TabContainer``. Clicking it will"
+" expand the :ref:`Popup <class_Popup>` node."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:322
+msgid ""
+"void **set_tab_disabled** **(** :ref:`int <class_int>` tab_idx, "
+":ref:`bool <class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:324
+msgid "If ``disabled`` is ``false``, hides the tab at index ``tab_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:326
+msgid ""
+"**Note:** Its title text will remain, unless also removed with "
+":ref:`set_tab_title <class_TabContainer_method_set_tab_title>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:332
+msgid ""
+"void **set_tab_icon** **(** :ref:`int <class_int>` tab_idx, "
+":ref:`Texture2D <class_Texture2D>` icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:334
+msgid "Sets an icon for the tab at index ``tab_idx``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:340
+msgid ""
+"void **set_tab_title** **(** :ref:`int <class_int>` tab_idx, :ref:`String"
+" <class_String>` title **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:342
+msgid ""
+"Sets a title for the tab at index ``tab_idx``. Tab titles default to the "
+"name of the indexed child node, but this can be overridden with "
+":ref:`set_tab_title <class_TabContainer_method_set_tab_title>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:348
+msgid ""
+"void **set_tabs_rearrange_group** **(** :ref:`int <class_int>` group_id "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_tabcontainer.rst:350
+msgid ""
+"Defines rearrange group id, choose for each ``TabContainer`` the same "
+"value to enable tab drag between ``TabContainer``. Enable drag with "
+"``set_drag_to_rearrange_enabled(true)``."
+msgstr ""
+
+#~ msgid ""
+#~ "The alignment of all tabs in the"
+#~ " tab container. See the ``ALIGN_*`` "
+#~ "constants for details."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_tab_icon <class_TabContainer_method_set_tab_icon>` "
+#~ "**(** :ref:`int <class_int>` tab_idx, "
+#~ ":ref:`Texture <class_Texture>` icon **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture <class_Texture>` **get_tab_icon** "
+#~ "**(** :ref:`int <class_int>` tab_idx **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the :ref:`Texture <class_Texture>` for"
+#~ " the tab at index ``tab_idx`` or "
+#~ "``null`` if the tab has no "
+#~ ":ref:`Texture <class_Texture>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_tab_icon** **(** :ref:`int "
+#~ "<class_int>` tab_idx, :ref:`Texture <class_Texture>`"
+#~ " icon **)**"
+#~ msgstr ""
+
+#~ msgid "label_valign_bg"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "label_valign_fg"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "top_margin"
+#~ msgstr ""
+
+#~ msgid "24"
+#~ msgstr ""
+

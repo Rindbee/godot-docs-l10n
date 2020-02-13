@@ -1,25 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-11-04 12:42+0800\n"
+"PO-Revision-Date: 2020-02-17 10:34+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:4
 msgid "AR/VR primer"
-msgstr "AR / VR示例"
+msgstr "AR / VR入门"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:6
 msgid ""
@@ -28,7 +32,6 @@ msgid ""
 msgstr "本教程为您提供了迈向Godot游戏引擎中AR和VR世界的跳板。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:8
-#, fuzzy
 msgid ""
 "A new architecture was introduced in Godot 3 called the AR/VR Server. On top "
 "of this architecture, specific implementations are available as interfaces, "
@@ -40,29 +43,27 @@ msgid ""
 "documented on the relevant interfaces and fall outside of the scope of this "
 "primer."
 msgstr ""
-"在Godot 3中引入了一种称为AR / VR Server的新架构。 在此体系结构之上，特定的实"
-"现可用作接口，其中大多数是基于GDNative的插件。 本教程仅关注核心架构抽象的核心"
-"元素。 此体系结构具有足够的功能，您可以创建整个VR体验，然后可以为各种界面进行"
-"部署。 但是，每个平台通常都有一些不可能抽象的独特功能。 这些特征将记录在相关"
-"界面上，并且不属于本入门手册的范围。"
+"Godot 3中引入了一种称为AR/VR服务器的新架构。在此体系结构之上，特定的实现可用"
+"作界面，其中大多数是基于GDNative的插件。本教程仅关注核心体系结构抽象的核心元"
+"素。该架构具有足够的功能，可让您创建完整的VR体验，然后将其部署到各种界面。但"
+"是，每个平台通常都有一些无法抽象的独特功能。此类功能将记录在相关界面上，并且"
+"不属于本入门指南的范围。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:12
 msgid "AR/VR server"
-msgstr "AR / VR服务器"
+msgstr "AR/VR服务器"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:14
-#, fuzzy
 msgid ""
 "When Godot starts, each available interface will make itself known to the AR/"
 "VR server. GDNative interfaces are setup as singletons; as long as they are "
 "added to the list of GDNative singletons in your project, they will make "
 "themselves known to the server."
 msgstr ""
-"当Godot启动时，每个可用的接口将使自己为AR / VR服务器所知。 GDNative接口设置为"
+"当Godot启动时，每个可用的界面将使自己为AR / VR服务器所知。GDNative界面设置为"
 "单例，只要它们被添加到项目中的GDNative单例列表中，它们就会让服务器知道它们。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:16
-#, fuzzy
 msgid ""
 "You can use the function :ref:`get_interfaces() "
 "<class_ARVRServer_method_get_interfaces>` to return a list of available "
@@ -73,30 +74,29 @@ msgid ""
 "It is also available in the Godot core and outputs to screen on desktop, "
 "which makes it ideal for prototyping or a tutorial such as this one."
 msgstr ""
-"您可以使用函数 :ref:`get_interfaces <class_ARVRServer_get_interfaces>` 返回可"
-"用接口列表，但在本教程中，我们将在示例中使用 :ref:`native mobile VR "
-"interface <class_MobileVRInterface>` 。 此界面是一种简单的实现，它使用手机上"
-"的3DOF传感器进行定位并将立体图像输出到屏幕。 它也可以在Godot核心中使用，并输"
-"出到桌面上的屏幕，这使其成为原型设计或此类教程的理想选择。"
+"您可以使用函数 :ref:`get_interfaces() "
+"<class_ARVRServer_method_get_interfaces>` 返回可用界面列表，但在本教程中，我"
+"们将在示例中使用 :ref:`native mobile VR interface "
+"<class_MobileVRInterface>`。此界面是一种简单的实现，它使用手机上的3DOF传感器"
+"进行定位并将立体图像输出到屏幕。它也可以在Godot核心中使用，并输出到桌面上的屏"
+"幕，这使其成为原型设计或此类教程的理想选择。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:18
-#, fuzzy
 msgid "To enable an interface, you execute the following code:"
-msgstr "要启用界面，请执行以下代码:"
+msgstr "要启用界面，请执行以下代码："
 
 #: ../../docs/tutorials/vr/vr_primer.rst:35
-#, fuzzy
 msgid ""
 "This code finds the interface we wish to use, initializes it and, if that is "
 "successful, binds the main viewport to the interface. This last step gives "
 "some control over the viewport to the interface, which automatically enables "
 "things like stereoscopic rendering on the viewport."
 msgstr ""
-"此代码找到我们希望使用的界面，对其进行初始化，如果成功，则将主视区绑定到界"
-"面。 最后一步是对视区的一些控制，它可以自动启用视区上的立体渲染。"
+"此代码找到我们希望使用的界面，对其进行初始化，如果成功，则将主视图绑定到该界"
+"面。最后一步是对界面的视图进行一些控制，从而自动启用视图上的立体渲染之类的功"
+"能。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:37
-#, fuzzy
 msgid ""
 "For our mobile VR interface, and any interface where the main input is "
 "directly displayed on screen, the main viewport needs to be the viewport "
@@ -106,13 +106,12 @@ msgid ""
 "screen will show an undistorted version of the left eye, while showing the "
 "fully processed stereoscopic output on the device."
 msgstr ""
-"对于我们的移动vr界面，以及主要输入直接显示在屏幕上的任何界面，主视区需要是"
-"arvr设置为true的视区。 但是对于在外部连接设备上呈现的界面，您可以使用辅助视"
-"区。 在后一种情况下，在屏幕上显示其输出的视区将显示左眼的未失真版本，同时在设"
-"备上显示完全处理的立体输出。"
+"对于我们的移动VR界面，以及主要输入直接显示在屏幕上的任何界面，主视图必须是其"
+"中 :ref:`arvr<class_Viewport_property_arvr>` 设置为 ``true`` 的视图。但是对于"
+"在外部连接的设备上呈现的界面，可以使用辅助视图。在后一种情况下，在屏幕上显示"
+"其输出的视图将显示左眼的未失真版本，同时在设备上显示经过完全处理的立体输出。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:39
-#, fuzzy
 msgid ""
 "Finally, you should only initialize an interface once; switching scenes and "
 "reinitializing interfaces will just introduce a lot of overhead. If you want "
@@ -121,9 +120,10 @@ msgid ""
 "scenarios though, you wouldn't disable the headset once you're in VR, this "
 "can be disconcerting to the gamer."
 msgstr ""
-"最后您应该只初始化一次界面，切换场景和重新初始化界面只会引入很多开销。 如果要"
-"暂时关闭耳机，只需禁用视区或在视区上将arvr设置为false。 在大多数情况下，虽然"
-"您在VR中不会禁用耳机，但这可能会让游戏游戏角色感到不安。"
+"最后，您只应初始化一次界面；切换场景和重新初始化界面只会带来很多开销。如果您"
+"想暂时关闭耳机，只需禁用视图或在视图上将 :ref:"
+"`arvr<class_Viewport_property_arvr>` 设置为 ``false``。不过，在大多数情况下，"
+"一旦进入VR，您就不会禁用头戴式耳机，这会让玩家感到不安。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:42
 msgid "New AR/VR nodes"
@@ -134,44 +134,45 @@ msgid ""
 "Three new node types have been added for supporting AR and VR in Godot and "
 "one additional node type especially for AR. These are:"
 msgstr ""
-"添加了三种新节点类型，用于支持Godot中的AR和VR，以及一种额外的节点类型，尤其是"
-"AR。 这些是:"
+"添加了三种新的节点类型，以在Godot中支持AR和VR，另外一种是专门针对AR的节点类"
+"型。这些是："
 
 #: ../../docs/tutorials/vr/vr_primer.rst:46
 msgid ":ref:`ARVROrigin <class_ARVROrigin>` - our origin point in the world"
-msgstr ":ref:`ARVROrigin <class_ARVROrigin>` - 我们在世界上的起源点"
+msgstr ":ref:`ARVROrigin <class_ARVROrigin>` —— 我们在世界上的起源点"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:47
-#, fuzzy
 msgid ""
 ":ref:`ARVRCamera <class_ARVRCamera>` - a special subclass of the camera, "
 "which is positionally tracked"
-msgstr ":ref:`ARVRCamera <class_ARVRCamera>` - 位置跟踪的摄像机的特殊子类"
+msgstr ""
+":ref:`ARVRCamera <class_ARVRCamera>` —— 摄像机的特殊子类，可以在位置上进行跟"
+"踪"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:48
-#, fuzzy
 msgid ""
 ":ref:`ARVRController <class_ARVRController>` - a new spatial class, which "
 "tracks the location of a controller"
 msgstr ""
-":ref:`ARVRController <class_ARVRController>` - 一个轨道控制器位置的新空间类"
+":ref:`ARVRController <class_ARVRController>` —— 一个新的空间类，该类跟踪控制"
+"器的位置"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:49
 msgid ""
 ":ref:`ARVRAnchor <class_ARVRAnchor>` - an anchor point for an AR "
 "implementation mapping a real world location into your virtual world"
 msgstr ""
-":ref:`ARVRAnchor <class_ARVRAnchor>` - AR实现的一个定位点，将真实世界的位置映"
-"射到您的虚拟世界"
+":ref:`ARVRAnchor <class_ARVRAnchor>` —— AR实现的定位点，将现实世界的位置映射"
+"到您的虚拟世界"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:51
 msgid ""
 "The first two must exist in your scene for AR/VR to work and this tutorial "
 "focuses purely on them."
-msgstr "前两个必须存在于场景中，AR / VR才能工作，本教程仅关注它们。"
+msgstr ""
+"前两个必须存在于您的场景中，AR / VR才能正常工作，本教程仅重点介绍它们。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:53
-#, fuzzy
 msgid ""
 ":ref:`ARVROrigin <class_ARVROrigin>` is an important node, you must have one "
 "and only one of these somewhere in your scene. This node maps the center of "
@@ -185,15 +186,15 @@ msgid ""
 "HMD is tracked in relation to this center position and the tracking is "
 "mirror in the virtual world."
 msgstr ""
-":ref:`ARVROrigin <class_ARVROrigin>` 是一个重要的节点，您必须在场景中的某个地"
-"方只有一个节点。 此节点将您的真实世界跟踪空间的中心映射到虚拟世界中的某个位"
-"置。 其他所有内容都与这一点进行了位置跟踪。 这一点与一个实现完全不同，但理解"
-"该节点如何工作的最佳示例是查看房间比例位置。 虽然我们有调整点的功能，但默认情"
-"况下，原点将是您所在房间的中心位置。当您在房间内走动时，HMD的位置会相对于该中"
-"心进行跟踪 位置和跟踪在虚拟世界中是镜像。"
+":ref:`ARVROrigin <class_ARVROrigin>` 是一个重要的节点，您在场景中的某个位置必"
+"须有且仅有一个该节点。该节点将现实世界跟踪空间的中心映射到虚拟世界中的某个位"
+"置。相对于这一点，其他所有位置都会被跟踪。这一点的确切位置因一个实现与另一个"
+"实现而完全不同，但是了解此节点如何工作的最佳示例是查看房间比例位置。虽然我们"
+"具有默认情况下可以将点调整为在游戏角色上居中的函数，但原点将是您所在房间的中"
+"心位置。当您在房间中四处走动时，将相对于此中心位置跟踪HMD的位置，并且该跟踪在"
+"虚拟世界中是镜像的。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:55
-#, fuzzy
 msgid ""
 "To keep things simple, when you physically move around your room, the ARVR "
 "Origin point stays where it is, the position of the camera and controllers "
@@ -202,12 +203,11 @@ msgid ""
 "teleport system, it is the position of the origin point which you will have "
 "to adjust."
 msgstr ""
-"为了简单起见，当您在房间内移动时，ARVR Origin点保持原样，相机和控制器的位置将"
-"根据您的移动进行调整。 当您在虚拟世界中移动时，无论是通过控制器输入还是实施传"
-"送系统，它都是您必须调整位置的原点。"
+"为简单起见，当您在房间中四处移动时，ARVR原点保持在原处，摄像机和控制器的位置"
+"将根据您的移动进行调整。在虚拟环境中（通过控制器输入或实现传送系统）移动时，"
+"它是必须调整的原点位置。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:58
-#, fuzzy
 msgid ""
 ":ref:`ARVRCamera <class_ARVRCamera>` is the second node that must always be "
 "a part of your scene and it must always be a child node of your origin node. "
@@ -219,53 +219,50 @@ msgid ""
 "that are used are the near and far plane settings. The FOV, aspect ratio and "
 "projection mode are all ignored."
 msgstr ""
-":ref:`ARVRCamera <class_ARVRCamera>` 是第二个必须始终作为场景一部分的节点，它"
-"必须始终是原始节点的子节点。 它是Godot普通相机的子类。 然而，其位置基于HMD的"
-"物理定向和位置每帧自动更新。 此外，由于渲染到HMD或在真实世界相机上渲染AR覆盖"
-"所需的精度，大多数标准相机属性都被忽略。 使用的相机的唯一属性是近平面和远平面"
-"设置。 FOV，宽高比和投影模式都被忽略。"
+":ref:`ARVRCamera <class_ARVRCamera>` 是第二个节点，必须始终是场景的一部分，并"
+"且必须始终是原始节点的子节点。它是Godot普通相机的子类。但是，其位置会根据HMD"
+"的物理方向和位置自动在每个帧中更新。同样，由于渲染到HMD或渲染现实相机上的AR叠"
+"加所需的精度，大多数标准相机属性都将被忽略。使用的相机的唯一属性是近平面和远"
+"平面设置。FOV，纵横比和投影模式都将被忽略。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:60
-#, fuzzy
 msgid ""
 "Note that, for our native mobile VR implementation, there is no positional "
 "tracking, only the orientation of the phone and by extension, the HMD is "
 "tracked. This implementation artificially places the camera at a height (Y) "
 "of 1.85."
 msgstr ""
-"请注意，对于我们的原生移动VR实施，没有位置跟踪，只跟踪电话的方向和扩展HMD。 "
-"该实现人为地将相机放置在1.85的高度(Y)处。"
+"请注意，对于我们的原生移动VR实现，没有位置跟踪，仅跟踪电话的方向，并且通过跟"
+"踪，还跟踪了HMD。此实现人为地将相机放置在1.85的高度（Y）上。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:62
-#, fuzzy
 msgid ""
 "Conclusion: your minimum setup in your scene to make AR or VR work should "
 "look like this:"
-msgstr "结论，您在场景中进行AR或VR工作的最小设置应如下所示:"
+msgstr "结论：场景中使AR或VR工作的最低设置应如下所示："
 
 #: ../../docs/tutorials/vr/vr_primer.rst:66
-#, fuzzy
 msgid ""
 "And that's all you need to get started. Obviously, you need to add something "
 "more into your scene, so there is something to see, but after that, you can "
 "export the game to your phone of choice, pop it into a viewer and away you "
 "go."
 msgstr ""
-"这就是您开始所需要的一切。 显然您需要在场景中添加更多内容，以便有一些东西可以"
-"看，但之后您可以将游戏导出到您选择的手机中，将其弹出到观众中然后离开。"
+"这就是您开始所需要的一切。显然，您需要在场景中添加更多内容，这样才能看到一些"
+"东西，但是之后，您可以将游戏导出到您选择的手机，将其弹出到查看器中，然后离"
+"开。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:69
 msgid "Other things to consider"
-msgstr "其他需要考虑的事情"
+msgstr "其他要考虑的事情"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:71
 msgid ""
 "There are a few other subjects that we need to briefly touch upon in this "
 "primer that are important to know."
-msgstr "我们需要在本入门手册中简要介绍一些其他一些重要的知识。"
+msgstr "在本入门手册中，我们需要简要介绍其他一些重要的知识。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:73
-#, fuzzy
 msgid ""
 "The first are our units. In normal 3D games, you don't have to think a lot "
 "about units. As long as everything is at the same scale, a box sized 1 unit "
@@ -281,27 +278,25 @@ msgid ""
 "scale. For instance, setting this to a value of 10 changes our coordinate "
 "system so 10 units = 1 meter."
 msgstr ""
-"首先是我们的单位。 在普通的3D游戏中，您不必考虑很多单位。 只要所有东西都处于"
-"相同的比例，一个1个单位乘1个单位的盒子就可以是任何大小，从您可以握在手中的立"
-"方体到建筑物的大小。 在AR和VR中，这会发生变化，因为虚拟世界中的事物被映射到现"
-"实世界中的事物。 如果您在现实世界中向前迈出1米，但是您只在您的虚拟世界中向前"
-"移动1厘米，那您就有问题了。 与控制器的位置相同，如果它们没有出现在正确的相对"
-"空间中，则会打破游戏角色的沉浸感。 大多数VR平台，包括我们的AR / VR服务器，假"
-"设1个单位= 1米。 然而，AR / VR服务器具有一个属性，为方便起见，该属性也在称为"
-"世界规模的ARVROrigin节点上公开。 例如，将其设置为值10，它会更改我们的坐标系，"
-"因此10个单位= 1米。"
+"首先是我们的单位。在普通的3D游戏中，您无需对单元进行太多思考。 只要所有内容的"
+"大小相同，一个您可以握在手中的大小为1乘1乘1的盒子的大小都可以从立方体到建筑物"
+"大小的任何尺寸。在AR和VR中，这发生了变化，因为虚拟世界中的事物已映射到现实世"
+"界中的事物。如果您在现实世界中向前走1米，但在虚拟世界中仅向前走1厘米，那么您"
+"将遇到问题。与控制器的位置相同；如果它们没有出现在正确的相对空间中，则会破坏"
+"玩家的沉浸感。包括我们的AR / VR服务器在内的大多数VR平台都假定1单位= 1米。但"
+"是，为方便起见，AR / VR服务器具有一个属性，该属性也被公开在称为世界范围的"
+"ARVROrigin节点上。例如，将此值设置为10会更改我们的坐标系，因此10个单位= 1米。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:77
-#, fuzzy
 msgid ""
 "Performance is another thing that needs to be carefully considered. "
 "Especially VR taxes your game a lot more than most people realise. For "
 "mobile VR, you have to be extra careful here, but even for desktop games, "
 "there are three factors that make life extra difficult:"
 msgstr ""
-"性能是另一件需要仔细考虑的事情。 特别是VR对您的游戏征税比大多数人意识到的要多"
-"得多。 对于移动VR，您必须要格外小心，但即使是桌面游戏，也有三个因素会让生活变"
-"得更加困难:"
+"性能是另一件事，需要仔细考虑。特别是，VR对游戏的负担比大多数人意识到的要多得"
+"多。对于移动VR，您在这里必须格外小心，但即使对于桌面游戏，也有三个因素使生活"
+"更加困难："
 
 #: ../../docs/tutorials/vr/vr_primer.rst:79
 msgid ""
@@ -310,11 +305,11 @@ msgid ""
 "the new MultiView OpenGL extension in mind, there still is an extra workload "
 "in rendering images for both eyes"
 msgstr ""
-"您正在渲染立体，两个以一个的价格。 虽然没有完全加倍工作量和管道中的东西，例如"
-"考虑到支持新的MultiView OpenGL扩展，但双眼渲染图像仍然存在额外的工作量"
+"您正在渲染立体图像，其中两倍单个价格的代价。尽管工作负载并没有完全增加一倍，"
+"并且考虑到了诸如支持新的MultiView OpenGL扩展之类的工作，但为双眼渲染图像仍然"
+"存在额外的工作量"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:80
-#, fuzzy
 msgid ""
 "A normal game will run acceptably on 30fps and ideally manages 60fps. That "
 "gives you a big range to play with between lower end and higher end "
@@ -322,9 +317,9 @@ msgid ""
 "absolute minimum and you should target your games to run at a stable 90fps "
 "to ensure your users don't get motion sickness right off the bat."
 msgstr ""
-"正常游戏将以30fps的速度运行，理想情况下可以管理60fps。 这使您可以在低端和高端"
-"硬件之间进行大范围的操作。 对于AR或VR的任何HMD应用，但60fps是绝对最小值，您应"
-"该将游戏定位为稳定的90fps，以确保您的用户不会立即晕车。"
+"普通游戏的运行速度可以达到30fps，理想情况下可以达到60fps。这使您可以在低端和"
+"高端硬件之间玩耍。但是，对于AR或VR的任何HMD应用程序，绝对最低值为60fps，并且"
+"您应该将游戏定位为以稳定的90fps运行，以确保用户不会马上晕车。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:81
 msgid ""
@@ -333,12 +328,11 @@ msgid ""
 "1080x1200 per eye, we're rendering each eye at 2160x2400 as a result. This "
 "is less of an issue for most AR applications."
 msgstr ""
-"高FOV和相关的镜头失真效果需要许多VR体验才能以两倍的分辨率呈现。 是的，VIVE可"
-"能只有每只眼睛1080x1200的分辨率，因此我们将每只眼睛渲染为2160x2400。 对于大多"
-"数AR应用程序来说，这不是一个问题。"
+"高FOV和相关的镜头失真效果需要很多VR体验才能以两倍的分辨率进行渲染。是的，VIVE"
+"的每只眼睛可能只有1080x1200的分辨率，因此，我们将每只眼睛的渲染为2160x2400。"
+"对于大多数AR应用程序而言，这并不是一个大问题。"
 
 #: ../../docs/tutorials/vr/vr_primer.rst:83
-#, fuzzy
 msgid ""
 "All in all, the workload your GPU has in comparison with a normal 3D game is "
 "a fair amount higher. While things are in the pipeline to improve this, such "
@@ -348,7 +342,7 @@ msgid ""
 "notice they're a bit more conservative on the effects or use some good old "
 "optical trickery."
 msgstr ""
-"总而言之，与普通3D游戏相比，GPU的工作负载相当高。 虽然有些东西正在改进中，例"
-"如MultiView和foveated渲染，但并不是所有设备都支持这些。 这就是为什么您看到许"
-"多VR游戏使用更多的艺术风格，如果您密切关注那些真实的VR游戏，您可能会注意到它"
-"们对效果更加保守或使用一些好的旧光学技巧。"
+"总而言之，与普通3D游戏相比，GPU的工作负载要高得多。尽管有多种方法可以改善此问"
+"题，例如MultiView和集中式渲染，但并非所有设备都支持这些功能。这就是为什么您会"
+"看到许多使用更艺术风格的VR游戏，并且如果您密切关注那些逼真的VR游戏，您可能会"
+"注意到它们在效果上更为保守，或者使用了一些不错的老式光学技巧 。"

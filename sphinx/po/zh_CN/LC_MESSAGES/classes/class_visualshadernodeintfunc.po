@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:10
+msgid "VisualShaderNodeIntFunc"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:14
+msgid "A scalar integer function to be used within the visual shader graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:19
+msgid ""
+"Accept an integer scalar (``x``) to the input port and transform it "
+"according to :ref:`function "
+"<class_VisualShaderNodeIntFunc_property_function>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:25
+msgid ":ref:`Function <enum_VisualShaderNodeIntFunc_Function>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:25
+msgid ":ref:`function <class_VisualShaderNodeIntFunc_property_function>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:59
+msgid "``3``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:29
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:41
+msgid "enum **Function**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:43
+msgid ""
+"**FUNC_ABS** = **0** --- Returns the absolute value of the parameter. "
+"Translates to ``abs(x)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:45
+msgid ""
+"**FUNC_CLAMP** = **1** --- Constrains a parameter between ``min`` and "
+"``max``. Translates to ``clamp(x, min, max)`` in the Godot Shader "
+"Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:47
+msgid "**FUNC_NEGATE** = **2** --- Negates the ``x`` using ``-(x)``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:49
+msgid ""
+"**FUNC_SIGN** = **3** --- Extracts the sign of the parameter. Translates "
+"to ``sign(x)`` in the Godot Shader Language."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:52
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:56
+msgid ":ref:`Function <enum_VisualShaderNodeIntFunc_Function>` **function**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:59
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:61
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:61
+msgid "set_function(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:63
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:63
+msgid "get_function()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodeintfunc.rst:66
+msgid ""
+"A function to be applied to the scalar. See :ref:`Function "
+"<enum_VisualShaderNodeIntFunc_Function>` for options."
+msgstr ""
+

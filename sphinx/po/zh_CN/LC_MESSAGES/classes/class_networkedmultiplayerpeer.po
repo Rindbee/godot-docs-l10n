@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-05 23:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:10
+msgid "NetworkedMultiplayerPeer"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:12
+msgid ""
+"**Inherits:** :ref:`PacketPeer <class_PacketPeer>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:14
+msgid ""
+"**Inherited By:** :ref:`MultiplayerPeerGDNative "
+"<class_MultiplayerPeerGDNative>`, :ref:`NetworkedMultiplayerENet "
+"<class_NetworkedMultiplayerENet>`, :ref:`WebRTCMultiplayer "
+"<class_WebRTCMultiplayer>`, :ref:`WebSocketMultiplayerPeer "
+"<class_WebSocketMultiplayerPeer>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:16
+msgid "A high-level network interface to simplify multiplayer interactions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:21
+msgid ""
+"Manages the connection to network peers. Assigns unique IDs to each "
+"client connected to the server."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:26
+msgid ":doc:`../tutorials/networking/high_level_multiplayer`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:29
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:32
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:32
+msgid ""
+":ref:`refuse_new_connections "
+"<class_NetworkedMultiplayerPeer_property_refuse_new_connections>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:149
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:34
+msgid ":ref:`TransferMode <enum_NetworkedMultiplayerPeer_TransferMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:34
+msgid ""
+":ref:`transfer_mode "
+"<class_NetworkedMultiplayerPeer_property_transfer_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:165
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:38
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:41
+msgid ":ref:`ConnectionStatus <enum_NetworkedMultiplayerPeer_ConnectionStatus>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:41
+msgid ""
+":ref:`get_connection_status "
+"<class_NetworkedMultiplayerPeer_method_get_connection_status>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:45
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:43
+msgid ""
+":ref:`get_packet_peer "
+"<class_NetworkedMultiplayerPeer_method_get_packet_peer>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:45
+msgid ""
+":ref:`get_unique_id "
+"<class_NetworkedMultiplayerPeer_method_get_unique_id>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:49
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:47
+msgid ":ref:`poll <class_NetworkedMultiplayerPeer_method_poll>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:49
+msgid ""
+":ref:`set_target_peer "
+"<class_NetworkedMultiplayerPeer_method_set_target_peer>` **(** :ref:`int "
+"<class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:53
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:57
+msgid "**connection_failed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:59
+msgid "Emitted when a connection attempt fails."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:65
+msgid "**connection_succeeded** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:67
+msgid "Emitted when a connection attempt succeeds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:73
+msgid "**peer_connected** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:75
+msgid "Emitted by the server when a client connects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:81
+msgid "**peer_disconnected** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:83
+msgid "Emitted by the server when a client disconnects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:89
+msgid "**server_disconnected** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:91
+msgid "Emitted by clients when the server disconnects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:94
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:104
+msgid "enum **TransferMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:106
+msgid ""
+"**TRANSFER_MODE_UNRELIABLE** = **0** --- Packets are not acknowledged, no"
+" resend attempts are made for lost packets. Packets may arrive in any "
+"order. Potentially faster than :ref:`TRANSFER_MODE_UNRELIABLE_ORDERED "
+"<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_UNRELIABLE_ORDERED>`."
+" Use for non-critical data, and always consider whether the order "
+"matters."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:108
+msgid ""
+"**TRANSFER_MODE_UNRELIABLE_ORDERED** = **1** --- Packets are not "
+"acknowledged, no resend attempts are made for lost packets. Packets are "
+"received in the order they were sent in. Potentially faster than "
+":ref:`TRANSFER_MODE_RELIABLE "
+"<class_NetworkedMultiplayerPeer_constant_TRANSFER_MODE_RELIABLE>`. Use "
+"for non-critical data or data that would be outdated if received late due"
+" to resend attempt(s) anyway, for example movement and positional data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:110
+msgid ""
+"**TRANSFER_MODE_RELIABLE** = **2** --- Packets must be received and "
+"resend attempts should be made until the packets are acknowledged. "
+"Packets must be received in the order they were sent in. Most reliable "
+"transfer mode, but potentially the slowest due to the overhead. Use for "
+"critical data that must be transmitted and arrive in order, for example "
+"an ability being triggered or a chat message. Consider carefully if the "
+"information really is critical, and use sparingly."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:122
+msgid "enum **ConnectionStatus**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:124
+msgid ""
+"**CONNECTION_DISCONNECTED** = **0** --- The ongoing connection "
+"disconnected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:126
+msgid "**CONNECTION_CONNECTING** = **1** --- A connection attempt is ongoing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:128
+msgid "**CONNECTION_CONNECTED** = **2** --- The connection attempt succeeded."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:131
+msgid "Constants"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:137
+msgid ""
+"**TARGET_PEER_BROADCAST** = **0** --- Packets are sent to the server and "
+"then redistributed to other peers."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:139
+msgid "**TARGET_PEER_SERVER** = **1** --- Packets are sent to the server alone."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:142
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:146
+msgid ":ref:`bool <class_bool>` **refuse_new_connections**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:149
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:165
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:167
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:151
+msgid "set_refuse_new_connections(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:169
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:153
+msgid "is_refusing_new_connections()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:156
+msgid "If ``true``, this ``NetworkedMultiplayerPeer`` refuses new connections."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:162
+msgid ""
+":ref:`TransferMode <enum_NetworkedMultiplayerPeer_TransferMode>` "
+"**transfer_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:167
+msgid "set_transfer_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:169
+msgid "get_transfer_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:172
+msgid ""
+"The manner in which to send packets to the ``target_peer``. See "
+":ref:`TransferMode <enum_NetworkedMultiplayerPeer_TransferMode>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:175
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:179
+msgid ""
+":ref:`ConnectionStatus <enum_NetworkedMultiplayerPeer_ConnectionStatus>` "
+"**get_connection_status** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:181
+msgid ""
+"Returns the current state of the connection. See :ref:`ConnectionStatus "
+"<enum_NetworkedMultiplayerPeer_ConnectionStatus>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:187
+msgid ":ref:`int <class_int>` **get_packet_peer** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:189
+msgid ""
+"Returns the ID of the ``NetworkedMultiplayerPeer`` who sent the most "
+"recent packet."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:195
+msgid ":ref:`int <class_int>` **get_unique_id** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:197
+msgid "Returns the ID of this ``NetworkedMultiplayerPeer``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:203
+msgid "void **poll** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:205
+msgid "Waits up to 1 second to receive a new network event."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:211
+msgid "void **set_target_peer** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:213
+msgid "Sets the peer to which packets will be sent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_networkedmultiplayerpeer.rst:215
+msgid ""
+"The ``id`` can be one of: :ref:`TARGET_PEER_BROADCAST "
+"<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_BROADCAST>` to send "
+"to all connected peers, :ref:`TARGET_PEER_SERVER "
+"<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_SERVER>` to send to "
+"the peer acting as server, a valid peer ID to send to that specific peer,"
+" a negative peer ID to send to all peers except that one. By default, the"
+" target peer is :ref:`TARGET_PEER_BROADCAST "
+"<class_NetworkedMultiplayerPeer_constant_TARGET_PEER_BROADCAST>`."
+msgstr ""
+

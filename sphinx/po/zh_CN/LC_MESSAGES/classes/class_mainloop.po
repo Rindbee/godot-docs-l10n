@@ -1,0 +1,569 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-27 08:30+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:10
+msgid "MainLoop"
+msgstr "MainLoop"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr "**基类**： :ref:`Object <class_Object>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:14
+msgid "**Inherited By:** :ref:`SceneTree <class_SceneTree>`"
+msgstr "**子类**：:ref:`SceneTree <class_SceneTree>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:16
+msgid "Abstract base class for the game's main loop."
+msgstr "游戏主循环的抽象基类。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:19
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:21
+msgid ""
+"``MainLoop`` is the abstract base class for a Godot project's game loop. "
+"It is inherited by :ref:`SceneTree <class_SceneTree>`, which is the "
+"default game loop implementation used in Godot projects, though it is "
+"also possible to write and use one's own ``MainLoop`` subclass instead of"
+" the scene tree."
+msgstr ""
+"``MainLoop`` 是Godot项目游戏循环的抽象基类。它是被 :ref:`SceneTree <class_SceneTree>` "
+"继承的，而该子类是Godot项目中，使用的默认游戏循环实现，尽管也可以编写和使用自己的 ``MainLoop`` 子类来代替场景树。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:23
+msgid ""
+"Upon the application start, a ``MainLoop`` implementation must be "
+"provided to the OS; otherwise, the application will exit. This happens "
+"automatically (and a :ref:`SceneTree <class_SceneTree>` is created) "
+"unless a main :ref:`Script <class_Script>` is provided from the command "
+"line (with e.g. ``godot -s my_loop.gd``, which should then be a "
+"``MainLoop`` implementation."
+msgstr ""
+"应用程序启动后，必须向操作系统提供一个 ``MainLoop`` 实现；否则，应用程序将退出。这将自动发生（并创建一个 "
+":ref:`SceneTree <class_SceneTree>`），除非从命令行中提供了一个主 :ref:`Script "
+"<class_Script>` （例如 ``godot -s my_loop.gd``，这应该是一个 ``MainLoop`` 实现）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:25
+msgid "Here is an example script implementing a simple ``MainLoop``:"
+msgstr "这是一个实现简单的 ``MainLoop`` 的示例脚本："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:61
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:88
+msgid "void"
+msgstr "void"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:64
+#, fuzzy
+msgid ""
+":ref:`_drop_files <class_MainLoop_method__drop_files>` **(** "
+":ref:`PackedStringArray <class_PackedStringArray>` files, :ref:`int "
+"<class_int>` from_screen **)** virtual"
+msgstr ""
+":ref:`_drop_files <class_MainLoop_method__drop_files>` **(** "
+":ref:`PoolStringArray <class_PoolStringArray>` files, :ref:`int "
+"<class_int>` from_screen **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:66
+msgid ":ref:`_finalize <class_MainLoop_method__finalize>` **(** **)** virtual"
+msgstr ":ref:`_finalize <class_MainLoop_method__finalize>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:68
+msgid ""
+":ref:`_global_menu_action <class_MainLoop_method__global_menu_action>` "
+"**(** :ref:`Variant <class_Variant>` id, :ref:`Variant <class_Variant>` "
+"meta **)** virtual"
+msgstr ""
+":ref:`_global_menu_action <class_MainLoop_method__global_menu_action>` "
+"**(** :ref:`Variant <class_Variant>` id, :ref:`Variant <class_Variant>` "
+"meta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:90
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:70
+msgid ""
+":ref:`_idle <class_MainLoop_method__idle>` **(** :ref:`float "
+"<class_float>` delta **)** virtual"
+msgstr ""
+":ref:`_idle <class_MainLoop_method__idle>` **(** :ref:`float "
+"<class_float>` delta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:72
+msgid ":ref:`_initialize <class_MainLoop_method__initialize>` **(** **)** virtual"
+msgstr ":ref:`_initialize <class_MainLoop_method__initialize>` **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:74
+msgid ""
+":ref:`_input_event <class_MainLoop_method__input_event>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+msgstr ""
+":ref:`_input_event <class_MainLoop_method__input_event>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:76
+msgid ""
+":ref:`_input_text <class_MainLoop_method__input_text>` **(** :ref:`String"
+" <class_String>` text **)** virtual"
+msgstr ""
+":ref:`_input_text <class_MainLoop_method__input_text>` **(** :ref:`String"
+" <class_String>` text **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:78
+msgid ""
+":ref:`_iteration <class_MainLoop_method__iteration>` **(** :ref:`float "
+"<class_float>` delta **)** virtual"
+msgstr ""
+":ref:`_iteration <class_MainLoop_method__iteration>` **(** :ref:`float "
+"<class_float>` delta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:80
+msgid ":ref:`finish <class_MainLoop_method_finish>` **(** **)**"
+msgstr ":ref:`finish <class_MainLoop_method_finish>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:82
+msgid ""
+":ref:`idle <class_MainLoop_method_idle>` **(** :ref:`float <class_float>`"
+" delta **)**"
+msgstr ""
+":ref:`idle <class_MainLoop_method_idle>` **(** :ref:`float <class_float>`"
+" delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:84
+msgid ":ref:`init <class_MainLoop_method_init>` **(** **)**"
+msgstr ":ref:`init <class_MainLoop_method_init>` **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:86
+msgid ""
+":ref:`input_event <class_MainLoop_method_input_event>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)**"
+msgstr ""
+":ref:`input_event <class_MainLoop_method_input_event>` **(** "
+":ref:`InputEvent <class_InputEvent>` event **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:88
+msgid ""
+":ref:`input_text <class_MainLoop_method_input_text>` **(** :ref:`String "
+"<class_String>` text **)**"
+msgstr ""
+":ref:`input_text <class_MainLoop_method_input_text>` **(** :ref:`String "
+"<class_String>` text **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:90
+msgid ""
+":ref:`iteration <class_MainLoop_method_iteration>` **(** :ref:`float "
+"<class_float>` delta **)**"
+msgstr ""
+":ref:`iteration <class_MainLoop_method_iteration>` **(** :ref:`float "
+"<class_float>` delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:94
+msgid "Signals"
+msgstr "信号"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:98
+msgid ""
+"**on_request_permissions_result** **(** :ref:`String <class_String>` "
+"permission, :ref:`bool <class_bool>` granted **)**"
+msgstr ""
+"**on_request_permissions_result** **(** :ref:`String <class_String>` "
+"permission, :ref:`bool <class_bool>` granted **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:100
+#, fuzzy
+msgid "Emitted when a user responds to a permission request."
+msgstr "当用户响应权限请求时发出。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:103
+msgid "Constants"
+msgstr "常量"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:133
+msgid ""
+"**NOTIFICATION_WM_MOUSE_ENTER** = **1002** --- Notification received from"
+" the OS when the mouse enters the game window."
+msgstr "**NOTIFICATION_WM_MOUSE_ENTER** = **1002** —— 当鼠标进入游戏窗口时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:135
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:139
+msgid "Implemented on desktop and web platforms."
+msgstr "在桌面和Web平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:137
+msgid ""
+"**NOTIFICATION_WM_MOUSE_EXIT** = **1003** --- Notification received from "
+"the OS when the mouse leaves the game window."
+msgstr "**NOTIFICATION_WM_MOUSE_EXIT** = **1003** —— 当鼠标离开游戏窗口时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:141
+msgid ""
+"**NOTIFICATION_WM_FOCUS_IN** = **1004** --- Notification received from "
+"the OS when the game window is focused."
+msgstr "**NOTIFICATION_WM_FOCUS_IN** = **1004** —— 聚焦游戏窗口时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:147
+msgid "Implemented on all platforms."
+msgstr "在所有平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:145
+msgid ""
+"**NOTIFICATION_WM_FOCUS_OUT** = **1005** --- Notification received from "
+"the OS when the game window is unfocused."
+msgstr "**NOTIFICATION_WM_FOCUS_OUT** = **1005** —— 当游戏窗口未聚焦时，会从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:149
+msgid ""
+"**NOTIFICATION_WM_QUIT_REQUEST** = **1006** --- Notification received "
+"from the OS when a quit request is sent (e.g. closing the window with a "
+"\"Close\" button or Alt+F4)."
+msgstr ""
+"**NOTIFICATION_WM_QUIT_REQUEST** = **1006** —— 发送退出请求时（例如，使用关闭按钮、或Alt + "
+"F4关闭窗口），从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:151
+msgid "Implemented on desktop platforms."
+msgstr "在桌面平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:153
+msgid ""
+"**NOTIFICATION_WM_GO_BACK_REQUEST** = **1007** --- Notification received "
+"from the OS when a go back request is sent (e.g. pressing the \"Back\" "
+"button on Android)."
+msgstr ""
+"**NOTIFICATION_WM_GO_BACK_REQUEST** = **1007** —— "
+"发送回退请求时（例如，按Android上的后退按钮），从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:181
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:185
+msgid "Specific to the Android platform."
+msgstr "特定于Android平台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:157
+msgid ""
+"**NOTIFICATION_WM_UNFOCUS_REQUEST** = **1008** --- Notification received "
+"from the OS when an unfocus request is sent (e.g. another OS window wants"
+" to take the focus)."
+msgstr ""
+"**NOTIFICATION_WM_UNFOCUS_REQUEST** = **1008** —— "
+"当发送取消聚焦请求时（例如，另一个操作系统窗口希望获得焦点），从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:159
+msgid "No supported platforms currently send this notification."
+msgstr "当前没有支持的平台，发送此通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:161
+msgid ""
+"**NOTIFICATION_OS_MEMORY_WARNING** = **1009** --- Notification received "
+"from the OS when the application is exceeding its allocated memory."
+msgstr "**NOTIFICATION_OS_MEMORY_WARNING** = **1009** —— 当应用程序超出其分配的内存时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:163
+msgid "Specific to the iOS platform."
+msgstr "特定于iOS平台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:165
+msgid ""
+"**NOTIFICATION_TRANSLATION_CHANGED** = **1010** --- Notification received"
+" when translations may have changed. Can be triggered by the user "
+"changing the locale. Can be used to respond to language changes, for "
+"example to change the UI strings on the fly. Useful when working with the"
+" built-in translation support, like :ref:`Object.tr "
+"<class_Object_method_tr>`."
+msgstr ""
+"**NOTIFICATION_TRANSLATION_CHANGED** = **1010** —— "
+"翻译可能已更改时，收到通知。可以由用户更改区域设置来触发。可用于响应语言更改，例如即时更改UI字符串。在使用内置翻译支持（如 "
+":ref:`Object.tr <class_Object_method_tr>`）时，有用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:167
+msgid ""
+"**NOTIFICATION_WM_ABOUT** = **1011** --- Notification received from the "
+"OS when a request for \"About\" information is sent."
+msgstr ""
+"**NOTIFICATION_WM_ABOUT** = **1011** —— 发送有关 ``关于（About）`` "
+"信息的请求时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:169
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:177
+msgid "Specific to the macOS platform."
+msgstr "特定于macOS平台。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:171
+msgid ""
+"**NOTIFICATION_CRASH** = **1012** --- Notification received from Godot's "
+"crash handler when the engine is about to crash."
+msgstr "**NOTIFICATION_CRASH** = **1012** —— 当引擎即将崩溃时，从Godot的崩溃处理程序收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:173
+msgid "Implemented on desktop platforms if the crash handler is enabled."
+msgstr "如果启用了崩溃处理程序，则在桌面平台上实现。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:175
+msgid ""
+"**NOTIFICATION_OS_IME_UPDATE** = **1013** --- Notification received from "
+"the OS when an update of the Input Method Engine occurs (e.g. change of "
+"IME cursor position or composition string)."
+msgstr ""
+"**NOTIFICATION_OS_IME_UPDATE** = **1013** —— "
+"发生输入法引擎更新时，从操作系统收到的通知（例如，IME光标位置或组成字符串的更改）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:179
+msgid ""
+"**NOTIFICATION_APP_RESUMED** = **1014** --- Notification received from "
+"the OS when the app is resumed."
+msgstr "**NOTIFICATION_APP_RESUMED** = **1014** —— 当恢复应用时，会从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:183
+msgid ""
+"**NOTIFICATION_APP_PAUSED** = **1015** --- Notification received from the"
+" OS when the app is paused."
+msgstr "**NOTIFICATION_APP_PAUSED** = **1015** —— 当暂停应用程序时，从操作系统收到通知。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:188
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:192
+#, fuzzy
+msgid ""
+"void **_drop_files** **(** :ref:`PackedStringArray "
+"<class_PackedStringArray>` files, :ref:`int <class_int>` from_screen "
+"**)** virtual"
+msgstr ""
+"void **_drop_files** **(** :ref:`PoolStringArray <class_PoolStringArray>`"
+" files, :ref:`int <class_int>` from_screen **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:194
+msgid ""
+"Called when files are dragged from the OS file manager and dropped in the"
+" game window. The arguments are a list of file paths and the identifier "
+"of the screen where the drag originated."
+msgstr "当文件从操作系统文件管理器中，拖放到游戏窗口中时调用。参数是文件路径的列表，以及拖动起源的屏幕的标识符。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:200
+msgid "void **_finalize** **(** **)** virtual"
+msgstr "void **_finalize** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:202
+msgid "Called before the program exits."
+msgstr "在程序退出之前调用。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:208
+msgid ""
+"void **_global_menu_action** **(** :ref:`Variant <class_Variant>` id, "
+":ref:`Variant <class_Variant>` meta **)** virtual"
+msgstr ""
+"void **_global_menu_action** **(** :ref:`Variant <class_Variant>` id, "
+":ref:`Variant <class_Variant>` meta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:210
+msgid ""
+"Called when the user performs an action in the system global menu (e.g. "
+"the Mac OS menu bar)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:216
+msgid ""
+":ref:`bool <class_bool>` **_idle** **(** :ref:`float <class_float>` delta"
+" **)** virtual"
+msgstr ""
+":ref:`bool <class_bool>` **_idle** **(** :ref:`float <class_float>` delta"
+" **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:218
+msgid ""
+"Called each idle frame with the time since the last idle frame as "
+"argument (in seconds). Equivalent to :ref:`Node._process "
+"<class_Node_method__process>`."
+msgstr ""
+"以自上一个空闲帧以来的时间（以秒为单位），作为参数被每个空闲帧调用。等效于 :ref:`Node._process "
+"<class_Node_method__process>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:220
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:254
+msgid ""
+"If implemented, the method must return a boolean value. ``true`` ends the"
+" main loop, while ``false`` lets it proceed to the next frame."
+msgstr "如果实现，则该方法必须返回布尔值。``true`` 结束主循环，而 ``false`` 使其进入下一帧。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:226
+msgid "void **_initialize** **(** **)** virtual"
+msgstr "void **_initialize** **(** **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:228
+msgid "Called once during initialization."
+msgstr "在初始化期间调用一次。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:234
+msgid ""
+"void **_input_event** **(** :ref:`InputEvent <class_InputEvent>` event "
+"**)** virtual"
+msgstr ""
+"void **_input_event** **(** :ref:`InputEvent <class_InputEvent>` event "
+"**)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:236
+msgid ""
+"Called whenever an :ref:`InputEvent <class_InputEvent>` is received by "
+"the main loop."
+msgstr "每当主循环接收到一个 :ref:`InputEvent <class_InputEvent>` 时，就会调用此方法。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:242
+msgid "void **_input_text** **(** :ref:`String <class_String>` text **)** virtual"
+msgstr "void **_input_text** **(** :ref:`String <class_String>` text **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:244
+msgid ""
+"Deprecated callback, does not do anything. Use :ref:`_input_event "
+"<class_MainLoop_method__input_event>` to parse text input. Will be "
+"removed in Godot 4.0."
+msgstr ""
+"不建议使用的回调，不执行任何操作。使用 :ref:`_input_event "
+"<class_MainLoop_method__input_event>` 解析文本输入。将在Godot 4.0中删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:250
+msgid ""
+":ref:`bool <class_bool>` **_iteration** **(** :ref:`float <class_float>` "
+"delta **)** virtual"
+msgstr ""
+":ref:`bool <class_bool>` **_iteration** **(** :ref:`float <class_float>` "
+"delta **)** virtual"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:252
+msgid ""
+"Called each physics frame with the time since the last physics frame as "
+"argument (in seconds). Equivalent to :ref:`Node._physics_process "
+"<class_Node_method__physics_process>`."
+msgstr ""
+"以自上一个物理帧以来的时间（以秒为单位），作为参数被每个物理帧调用。等效于 :ref:`Node._physics_process "
+"<class_Node_method__physics_process>`。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:260
+msgid "void **finish** **(** **)**"
+msgstr "void **finish** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:262
+msgid ""
+"Should not be called manually, override :ref:`_finalize "
+"<class_MainLoop_method__finalize>` instead. Will be removed in Godot 4.0."
+msgstr ""
+"不应手动调用，而是重写 :ref:`_finalize <class_MainLoop_method__finalize>`。将在Godot "
+"4.0中删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:268
+msgid ""
+":ref:`bool <class_bool>` **idle** **(** :ref:`float <class_float>` delta "
+"**)**"
+msgstr ""
+":ref:`bool <class_bool>` **idle** **(** :ref:`float <class_float>` delta "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:270
+msgid ""
+"Should not be called manually, override :ref:`_idle "
+"<class_MainLoop_method__idle>` instead. Will be removed in Godot 4.0."
+msgstr "不应手动调用，而是重写 :ref:`_idle <class_MainLoop_method__idle>`。将在Godot 4.0中删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:276
+msgid "void **init** **(** **)**"
+msgstr "void **init** **(** **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:278
+msgid ""
+"Should not be called manually, override :ref:`_initialize "
+"<class_MainLoop_method__initialize>` instead. Will be removed in Godot "
+"4.0."
+msgstr ""
+"不应手动调用，而是重写 :ref:`_initialize "
+"<class_MainLoop_method__initialize>`。将在Godot 4.0中删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:284
+msgid ""
+"void **input_event** **(** :ref:`InputEvent <class_InputEvent>` event "
+"**)**"
+msgstr ""
+"void **input_event** **(** :ref:`InputEvent <class_InputEvent>` event "
+"**)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:286
+msgid ""
+"Should not be called manually, override :ref:`_input_event "
+"<class_MainLoop_method__input_event>` instead. Will be removed in Godot "
+"4.0."
+msgstr ""
+"不应手动调用，而是重写 :ref:`_input_event "
+"<class_MainLoop_method__input_event>`。将在Godot 4.0中删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:292
+msgid "void **input_text** **(** :ref:`String <class_String>` text **)**"
+msgstr "void **input_text** **(** :ref:`String <class_String>` text **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:294
+msgid ""
+"Should not be called manually, override :ref:`_input_text "
+"<class_MainLoop_method__input_text>` instead. Will be removed in Godot "
+"4.0."
+msgstr ""
+"不应手动调用，而是重写 :ref:`_input_text "
+"<class_MainLoop_method__input_text>`。将在Godot 4.0中删除。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:300
+msgid ""
+":ref:`bool <class_bool>` **iteration** **(** :ref:`float <class_float>` "
+"delta **)**"
+msgstr ""
+":ref:`bool <class_bool>` **iteration** **(** :ref:`float <class_float>` "
+"delta **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mainloop.rst:302
+msgid ""
+"Should not be called manually, override :ref:`_iteration "
+"<class_MainLoop_method__iteration>` instead. Will be removed in Godot "
+"4.0."
+msgstr ""
+"不应手动调用，而是重写 :ref:`_iteration <class_MainLoop_method__iteration>`。将在Godot "
+"4.0中删除。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

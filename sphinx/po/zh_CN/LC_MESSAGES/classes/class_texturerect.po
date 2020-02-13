@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-10-26 14:20+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_texturerect.rst:10
+msgid "TextureRect"
+msgstr "TextureRect"
+
+#: ../../docs/classes/class_texturerect.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_texturerect.rst:14
+msgid "Control for drawing textures."
+msgstr "用于绘制纹理的控件。"
+
+#: ../../docs/classes/class_texturerect.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_texturerect.rst:19
+msgid ""
+"Used to draw icons and sprites in a user interface. The texture's "
+"placement can be controlled with the :ref:`stretch_mode "
+"<class_TextureRect_property_stretch_mode>` property. It can scale, tile, "
+"or stay centered inside its bounding rectangle."
+msgstr ""
+"用于在用户界面中绘制图标和精灵。纹理的位置可以通过 :ref:`stretch_mode "
+"<class_TextureRect_property_stretch_mode>` 属性来控制。它可以缩放、平铺或保持居中于其边界矩形内。"
+
+#: ../../docs/classes/class_texturerect.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_texturerect.rst:25
+#: ../../docs/classes/class_texturerect.rst:27
+#: ../../docs/classes/class_texturerect.rst:29
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_texturerect.rst:25
+msgid ":ref:`expand <class_TextureRect_property_expand>`"
+msgstr ":ref:`expand <class_TextureRect_property_expand>`"
+
+#: ../../docs/classes/class_texturerect.rst:25
+#: ../../docs/classes/class_texturerect.rst:27
+#: ../../docs/classes/class_texturerect.rst:29
+#: ../../docs/classes/class_texturerect.rst:85
+#: ../../docs/classes/class_texturerect.rst:101
+#: ../../docs/classes/class_texturerect.rst:117
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: ../../docs/classes/class_texturerect.rst:27
+msgid ":ref:`flip_h <class_TextureRect_property_flip_h>`"
+msgstr ":ref:`flip_h <class_TextureRect_property_flip_h>`"
+
+#: ../../docs/classes/class_texturerect.rst:29
+msgid ":ref:`flip_v <class_TextureRect_property_flip_v>`"
+msgstr ":ref:`flip_v <class_TextureRect_property_flip_v>`"
+
+#: ../../docs/classes/class_texturerect.rst:31
+msgid ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+msgstr ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+
+#: ../../docs/classes/class_texturerect.rst:31
+msgid "mouse_filter"
+msgstr "mouse_filter"
+
+#: ../../docs/classes/class_texturerect.rst:31
+#, fuzzy
+msgid "**O:** ``1``"
+msgstr "**O:** 1"
+
+#: ../../docs/classes/class_texturerect.rst:33
+msgid ":ref:`StretchMode <enum_TextureRect_StretchMode>`"
+msgstr ":ref:`StretchMode <enum_TextureRect_StretchMode>`"
+
+#: ../../docs/classes/class_texturerect.rst:33
+msgid ":ref:`stretch_mode <class_TextureRect_property_stretch_mode>`"
+msgstr ":ref:`stretch_mode <class_TextureRect_property_stretch_mode>`"
+
+#: ../../docs/classes/class_texturerect.rst:33
+#: ../../docs/classes/class_texturerect.rst:133
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:35
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ":ref:`Texture <class_Texture>`"
+
+#: ../../docs/classes/class_texturerect.rst:35
+msgid ":ref:`texture <class_TextureRect_property_texture>`"
+msgstr ":ref:`texture <class_TextureRect_property_texture>`"
+
+#: ../../docs/classes/class_texturerect.rst:39
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_texturerect.rst:59
+msgid "enum **StretchMode**:"
+msgstr "枚举 **StretchMode**："
+
+#: ../../docs/classes/class_texturerect.rst:61
+msgid ""
+"**STRETCH_SCALE_ON_EXPAND** = **0** --- Scale to fit the node's bounding "
+"rectangle, only if ``expand`` is ``true``. Default ``stretch_mode``, for "
+"backwards compatibility. Until you set ``expand`` to ``true``, the "
+"texture will behave like :ref:`STRETCH_KEEP "
+"<class_TextureRect_constant_STRETCH_KEEP>`."
+msgstr ""
+"**STRETCH_SCALE_ON_EXPAND** = **0** —— 仅当 ``expand`` 为 ``true`` "
+"时，才缩放以适合节点的边界矩形。默认为 ``stretch_mode``，以实现向后兼容。在将 ``expand`` 设置为 ``true`` "
+"之前，纹理的行为将类似于 :ref:`STRETCH_KEEP "
+"<class_TextureRect_constant_STRETCH_KEEP>`。"
+
+#: ../../docs/classes/class_texturerect.rst:63
+msgid "**STRETCH_SCALE** = **1** --- Scale to fit the node's bounding rectangle."
+msgstr "**STRETCH_SCALE** = **1** —— 缩放以适合节点的边界矩形。"
+
+#: ../../docs/classes/class_texturerect.rst:65
+msgid "**STRETCH_TILE** = **2** --- Tile inside the node's bounding rectangle."
+msgstr "**STRETCH_TILE** = **2** —— 在节点的边界矩形内平铺。"
+
+#: ../../docs/classes/class_texturerect.rst:67
+msgid ""
+"**STRETCH_KEEP** = **3** --- The texture keeps its original size and "
+"stays in the bounding rectangle's top-left corner."
+msgstr "**STRETCH_KEEP** = **3** —— 纹理保持其原始大小，并停留在边界矩形的左上角。"
+
+#: ../../docs/classes/class_texturerect.rst:69
+msgid ""
+"**STRETCH_KEEP_CENTERED** = **4** --- The texture keeps its original size"
+" and stays centered in the node's bounding rectangle."
+msgstr "**STRETCH_KEEP_CENTERED** = **4** —— 纹理保持其原始大小，并在节点边界矩形，保持居中。"
+
+#: ../../docs/classes/class_texturerect.rst:71
+msgid ""
+"**STRETCH_KEEP_ASPECT** = **5** --- Scale the texture to fit the node's "
+"bounding rectangle, but maintain the texture's aspect ratio."
+msgstr "**STRETCH_KEEP_ASPECT** = **5** —— 缩放纹理以适合节点的边界矩形，但保持纹理的纵横比。"
+
+#: ../../docs/classes/class_texturerect.rst:73
+msgid ""
+"**STRETCH_KEEP_ASPECT_CENTERED** = **6** --- Scale the texture to fit the"
+" node's bounding rectangle, center it and maintain its aspect ratio."
+msgstr "**STRETCH_KEEP_ASPECT_CENTERED** = **6** —— 缩放纹理以适合节点的边界矩形，使其居中并保持其纵横比。"
+
+#: ../../docs/classes/class_texturerect.rst:75
+msgid ""
+"**STRETCH_KEEP_ASPECT_COVERED** = **7** --- Scale the texture so that the"
+" shorter side fits the bounding rectangle. The other side clips to the "
+"node's limits."
+msgstr "**STRETCH_KEEP_ASPECT_COVERED** = **7** —— 缩放纹理，以使较短的一侧适合边界矩形。另一侧钳制了节点的限制。"
+
+#: ../../docs/classes/class_texturerect.rst:78
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_texturerect.rst:82
+msgid ":ref:`bool <class_bool>` **expand**"
+msgstr ":ref:`bool <class_bool>` **expand**"
+
+#: ../../docs/classes/class_texturerect.rst:85
+#: ../../docs/classes/class_texturerect.rst:101
+#: ../../docs/classes/class_texturerect.rst:117
+#: ../../docs/classes/class_texturerect.rst:133
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_texturerect.rst:87
+#: ../../docs/classes/class_texturerect.rst:103
+#: ../../docs/classes/class_texturerect.rst:119
+#: ../../docs/classes/class_texturerect.rst:135
+#: ../../docs/classes/class_texturerect.rst:149
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: ../../docs/classes/class_texturerect.rst:87
+msgid "set_expand(value)"
+msgstr "set_expand(value)"
+
+#: ../../docs/classes/class_texturerect.rst:89
+#: ../../docs/classes/class_texturerect.rst:105
+#: ../../docs/classes/class_texturerect.rst:121
+#: ../../docs/classes/class_texturerect.rst:137
+#: ../../docs/classes/class_texturerect.rst:151
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_texturerect.rst:89
+msgid "has_expand()"
+msgstr "has_expand()"
+
+#: ../../docs/classes/class_texturerect.rst:92
+msgid "If ``true``, the texture scales to fit its bounding rectangle."
+msgstr "如果为 ``true``，则纹理会缩放以适合其边界矩形。"
+
+#: ../../docs/classes/class_texturerect.rst:98
+msgid ":ref:`bool <class_bool>` **flip_h**"
+msgstr ":ref:`bool <class_bool>` **flip_h**"
+
+#: ../../docs/classes/class_texturerect.rst:103
+msgid "set_flip_h(value)"
+msgstr "set_flip_h(value)"
+
+#: ../../docs/classes/class_texturerect.rst:105
+msgid "is_flipped_h()"
+msgstr "is_flipped_h()"
+
+#: ../../docs/classes/class_texturerect.rst:108
+msgid "If ``true``, texture is flipped horizontally."
+msgstr "如果为 ``true``，则纹理水平翻转。"
+
+#: ../../docs/classes/class_texturerect.rst:114
+msgid ":ref:`bool <class_bool>` **flip_v**"
+msgstr ":ref:`bool <class_bool>` **flip_v**"
+
+#: ../../docs/classes/class_texturerect.rst:119
+msgid "set_flip_v(value)"
+msgstr "set_flip_v(value)"
+
+#: ../../docs/classes/class_texturerect.rst:121
+msgid "is_flipped_v()"
+msgstr "is_flipped_v()"
+
+#: ../../docs/classes/class_texturerect.rst:124
+msgid "If ``true``, texture is flipped vertically."
+msgstr "如果为 ``true``，则纹理垂直翻转。"
+
+#: ../../docs/classes/class_texturerect.rst:130
+msgid ":ref:`StretchMode <enum_TextureRect_StretchMode>` **stretch_mode**"
+msgstr ":ref:`StretchMode <enum_TextureRect_StretchMode>` **stretch_mode**"
+
+#: ../../docs/classes/class_texturerect.rst:135
+msgid "set_stretch_mode(value)"
+msgstr "set_stretch_mode(value)"
+
+#: ../../docs/classes/class_texturerect.rst:137
+msgid "get_stretch_mode()"
+msgstr "get_stretch_mode()"
+
+#: ../../docs/classes/class_texturerect.rst:140
+msgid ""
+"Controls the texture's behavior when resizing the node's bounding "
+"rectangle. See :ref:`StretchMode <enum_TextureRect_StretchMode>`."
+msgstr ""
+"在调整节点的边界矩形大小时，控制纹理的行为。参见 :ref:`StretchMode "
+"<enum_TextureRect_StretchMode>`。"
+
+#: ../../docs/classes/class_texturerect.rst:146
+#, fuzzy
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ":ref:`Texture <class_Texture>` **texture**"
+
+#: ../../docs/classes/class_texturerect.rst:149
+msgid "set_texture(value)"
+msgstr "set_texture(value)"
+
+#: ../../docs/classes/class_texturerect.rst:151
+msgid "get_texture()"
+msgstr "get_texture()"
+
+#: ../../docs/classes/class_texturerect.rst:154
+#, fuzzy
+msgid "The node's :ref:`Texture2D <class_Texture2D>` resource."
+msgstr "节点的 :ref:`Texture <class_Texture>` 资源。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

@@ -1,0 +1,872 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:10
+msgid "Polygon2D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:14
+msgid "A 2D polygon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:19
+msgid ""
+"A Polygon2D is defined by a set of points. Each point is connected to the"
+" next, with the final point being connected to the first, resulting in a "
+"closed polygon. Polygon2Ds can be filled with color (solid or gradient) "
+"or filled with a given texture."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:35
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:25
+msgid ":ref:`antialiased <class_Polygon2D_property_antialiased>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:169
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:43
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:27
+msgid ":ref:`bones <class_Polygon2D_property_bones>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:231
+msgid "``[  ]``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:49
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:29
+msgid ":ref:`color <class_Polygon2D_property_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:273
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:78
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:31
+msgid ""
+":ref:`internal_vertex_count "
+"<class_Polygon2D_property_internal_vertex_count>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:139
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:59
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:33
+msgid ":ref:`invert_border <class_Polygon2D_property_invert_border>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:153
+msgid "``100.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:35
+msgid ":ref:`invert_enable <class_Polygon2D_property_invert_enable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:53
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:37
+msgid ":ref:`normal_map <class_Polygon2D_property_normal_map>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:61
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:39
+msgid ":ref:`offset <class_Polygon2D_property_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:313
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:63
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:41
+msgid ":ref:`polygon <class_Polygon2D_property_polygon>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:63
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:213
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:375
+msgid "``PackedVector2Array(  )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:43
+msgid ":ref:`polygons <class_Polygon2D_property_polygons>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:45
+msgid ":ref:`shininess <class_Polygon2D_property_shininess>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:245
+msgid "``1.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:80
+msgid ":ref:`NodePath <class_NodePath>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:47
+msgid ":ref:`skeleton <class_Polygon2D_property_skeleton>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:259
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:49
+msgid ":ref:`specular_color <class_Polygon2D_property_specular_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:51
+msgid ":ref:`specular_map <class_Polygon2D_property_specular_map>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:53
+msgid ":ref:`texture <class_Polygon2D_property_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:55
+msgid ":ref:`texture_offset <class_Polygon2D_property_texture_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:57
+msgid ":ref:`texture_rotation <class_Polygon2D_property_texture_rotation>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:59
+msgid ""
+":ref:`texture_rotation_degrees "
+"<class_Polygon2D_property_texture_rotation_degrees>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:343
+msgid "``0.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:61
+msgid ":ref:`texture_scale <class_Polygon2D_property_texture_scale>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:359
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:63
+msgid ":ref:`uv <class_Polygon2D_property_uv>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:65
+msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:65
+msgid ":ref:`vertex_colors <class_Polygon2D_property_vertex_colors>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:65
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:391
+msgid "``PackedColorArray(  )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:69
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:86
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:72
+msgid ""
+":ref:`add_bone <class_Polygon2D_method_add_bone>` **(** :ref:`NodePath "
+"<class_NodePath>` path, :ref:`PackedFloat32Array "
+"<class_PackedFloat32Array>` weights **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:74
+msgid ":ref:`clear_bones <class_Polygon2D_method_clear_bones>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:76
+msgid ""
+":ref:`erase_bone <class_Polygon2D_method_erase_bone>` **(** :ref:`int "
+"<class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:78
+msgid ""
+":ref:`get_bone_count <class_Polygon2D_method_get_bone_count>` **(** **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:80
+msgid ""
+":ref:`get_bone_path <class_Polygon2D_method_get_bone_path>` **(** "
+":ref:`int <class_int>` index **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:82
+msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:82
+msgid ""
+":ref:`get_bone_weights <class_Polygon2D_method_get_bone_weights>` **(** "
+":ref:`int <class_int>` index **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:84
+msgid ""
+":ref:`set_bone_path <class_Polygon2D_method_set_bone_path>` **(** "
+":ref:`int <class_int>` index, :ref:`NodePath <class_NodePath>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:86
+msgid ""
+":ref:`set_bone_weights <class_Polygon2D_method_set_bone_weights>` **(** "
+":ref:`int <class_int>` index, :ref:`PackedFloat32Array "
+"<class_PackedFloat32Array>` weights **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:90
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:94
+msgid ":ref:`bool <class_bool>` **antialiased**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:97
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:123
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:139
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:153
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:169
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:197
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:213
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:231
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:245
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:259
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:273
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:313
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:343
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:359
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:375
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:391
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:99
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:125
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:141
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:155
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:171
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:185
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:199
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:215
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:233
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:247
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:261
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:275
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:287
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:299
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:315
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:329
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:345
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:361
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:377
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:393
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:99
+msgid "set_antialiased(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:101
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:143
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:157
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:173
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:187
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:201
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:217
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:235
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:249
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:263
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:277
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:289
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:301
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:317
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:331
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:347
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:363
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:379
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:395
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:101
+msgid "get_antialiased()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:104
+msgid "If ``true``, polygon edges will be anti-aliased."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:110
+msgid ":ref:`Array <class_Array>` **bones**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:120
+msgid ":ref:`Color <class_Color>` **color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:125
+msgid "set_color(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:127
+msgid "get_color()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:130
+msgid ""
+"The polygon's fill color. If ``texture`` is defined, it will be "
+"multiplied by this color. It will also be the default color for vertices "
+"not set in ``vertex_colors``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:136
+msgid ":ref:`int <class_int>` **internal_vertex_count**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:141
+msgid "set_internal_vertex_count(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:143
+msgid "get_internal_vertex_count()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:150
+msgid ":ref:`float <class_float>` **invert_border**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:155
+msgid "set_invert_border(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:157
+msgid "get_invert_border()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:160
+msgid ""
+"Added padding applied to the bounding box when using ``invert``. Setting "
+"this value too small may result in a \"Bad Polygon\" error."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:166
+msgid ":ref:`bool <class_bool>` **invert_enable**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:171
+msgid "set_invert(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:173
+msgid "get_invert()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:176
+msgid ""
+"If ``true``, polygon will be inverted, containing the area outside the "
+"defined points and extending to the ``invert_border``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:182
+msgid ":ref:`Texture2D <class_Texture2D>` **normal_map**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:185
+msgid "set_normal_map(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:187
+msgid "get_normal_map()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:194
+msgid ":ref:`Vector2 <class_Vector2>` **offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:199
+msgid "set_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:201
+msgid "get_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:204
+msgid "The offset applied to each vertex."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:210
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>` **polygon**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:215
+msgid "set_polygon(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:217
+msgid "get_polygon()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:220
+msgid ""
+"The polygon's list of vertices. The final point will be connected to the "
+"first."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:222
+msgid ""
+"**Note:** This returns a copy of the :ref:`PackedVector2Array "
+"<class_PackedVector2Array>` rather than a reference."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:228
+msgid ":ref:`Array <class_Array>` **polygons**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:233
+msgid "set_polygons(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:235
+msgid "get_polygons()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:242
+msgid ":ref:`float <class_float>` **shininess**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:247
+msgid "set_shininess(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:249
+msgid "get_shininess()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:256
+msgid ":ref:`NodePath <class_NodePath>` **skeleton**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:261
+msgid "set_skeleton(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:263
+msgid "get_skeleton()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:270
+msgid ":ref:`Color <class_Color>` **specular_color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:275
+msgid "set_specular_color(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:277
+msgid "get_specular_color()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:284
+msgid ":ref:`Texture2D <class_Texture2D>` **specular_map**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:287
+msgid "set_specular_map(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:289
+msgid "get_specular_map()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:296
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:299
+msgid "set_texture(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:301
+msgid "get_texture()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:304
+msgid "The polygon's fill texture. Use ``uv`` to set texture coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:310
+msgid ":ref:`Vector2 <class_Vector2>` **texture_offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:315
+msgid "set_texture_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:317
+msgid "get_texture_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:320
+msgid ""
+"Amount to offset the polygon's ``texture``. If ``(0, 0)`` the texture's "
+"origin (its top-left corner) will be placed at the polygon's "
+"``position``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:326
+msgid ":ref:`float <class_float>` **texture_rotation**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:329
+msgid "set_texture_rotation(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:331
+msgid "get_texture_rotation()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:334
+msgid "The texture's rotation in radians."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:340
+msgid ":ref:`float <class_float>` **texture_rotation_degrees**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:345
+msgid "set_texture_rotation_degrees(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:347
+msgid "get_texture_rotation_degrees()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:350
+msgid "The texture's rotation in degrees."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:356
+msgid ":ref:`Vector2 <class_Vector2>` **texture_scale**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:361
+msgid "set_texture_scale(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:363
+msgid "get_texture_scale()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:366
+msgid ""
+"Amount to multiply the ``uv`` coordinates when using a ``texture``. "
+"Larger values make the texture smaller, and vice versa."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:372
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>` **uv**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:377
+msgid "set_uv(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:379
+msgid "get_uv()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:382
+msgid ""
+"Texture coordinates for each vertex of the polygon. There should be one "
+"``uv`` per polygon vertex. If there are fewer, undefined vertices will "
+"use ``(0, 0)``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:388
+msgid ":ref:`PackedColorArray <class_PackedColorArray>` **vertex_colors**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:393
+msgid "set_vertex_colors(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:395
+msgid "get_vertex_colors()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:398
+msgid ""
+"Color for each vertex. Colors are interpolated between vertices, "
+"resulting in smooth gradients. There should be one per polygon vertex. If"
+" there are fewer, undefined vertices will use ``color``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:401
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:405
+msgid ""
+"void **add_bone** **(** :ref:`NodePath <class_NodePath>` path, "
+":ref:`PackedFloat32Array <class_PackedFloat32Array>` weights **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:411
+msgid "void **clear_bones** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:417
+msgid "void **erase_bone** **(** :ref:`int <class_int>` index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:423
+msgid ":ref:`int <class_int>` **get_bone_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:429
+msgid ""
+":ref:`NodePath <class_NodePath>` **get_bone_path** **(** :ref:`int "
+"<class_int>` index **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:435
+msgid ""
+":ref:`PackedFloat32Array <class_PackedFloat32Array>` **get_bone_weights**"
+" **(** :ref:`int <class_int>` index **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:441
+msgid ""
+"void **set_bone_path** **(** :ref:`int <class_int>` index, :ref:`NodePath"
+" <class_NodePath>` path **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_polygon2d.rst:447
+msgid ""
+"void **set_bone_weights** **(** :ref:`int <class_int>` index, "
+":ref:`PackedFloat32Array <class_PackedFloat32Array>` weights **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "[  ]"
+#~ msgstr ""
+
+#~ msgid "Color( 1, 1, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "100.0"
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "PoolVector2Array(  )"
+#~ msgstr ""
+
+#~ msgid "NodePath(\"\")"
+#~ msgstr ""
+
+#~ msgid "0.0"
+#~ msgstr ""
+
+#~ msgid "Vector2( 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "PoolColorArray(  )"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>` **texture**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ msgstr ""
+
+#~ msgid "``PoolVector2Array(  )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolColorArray <class_PoolColorArray>`"
+#~ msgstr ""
+
+#~ msgid "``PoolColorArray(  )``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_bone <class_Polygon2D_method_add_bone>` **(**"
+#~ " :ref:`NodePath <class_NodePath>` path, "
+#~ ":ref:`PoolRealArray <class_PoolRealArray>` weights "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolRealArray <class_PoolRealArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_bone_weights "
+#~ "<class_Polygon2D_method_set_bone_weights>` **(** :ref:`int"
+#~ " <class_int>` index, :ref:`PoolRealArray "
+#~ "<class_PoolRealArray>` weights **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>` **polygon**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Note:** This returns a copy of "
+#~ "the :ref:`PoolVector2Array <class_PoolVector2Array>` "
+#~ "rather than a reference."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>` **uv**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolColorArray <class_PoolColorArray>` **vertex_colors**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_bone** **(** :ref:`NodePath "
+#~ "<class_NodePath>` path, :ref:`PoolRealArray "
+#~ "<class_PoolRealArray>` weights **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolRealArray <class_PoolRealArray>` "
+#~ "**get_bone_weights** **(** :ref:`int <class_int>`"
+#~ " index **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_bone_weights** **(** :ref:`int "
+#~ "<class_int>` index, :ref:`PoolRealArray "
+#~ "<class_PoolRealArray>` weights **)**"
+#~ msgstr ""
+

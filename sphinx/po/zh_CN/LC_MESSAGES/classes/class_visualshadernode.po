@@ -1,0 +1,565 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:10
+msgid "VisualShaderNode"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:14
+msgid ""
+"**Inherited By:** :ref:`VisualShaderNodeBooleanConstant "
+"<class_VisualShaderNodeBooleanConstant>`, "
+":ref:`VisualShaderNodeColorConstant "
+"<class_VisualShaderNodeColorConstant>`, :ref:`VisualShaderNodeColorFunc "
+"<class_VisualShaderNodeColorFunc>`, :ref:`VisualShaderNodeColorOp "
+"<class_VisualShaderNodeColorOp>`, :ref:`VisualShaderNodeCompare "
+"<class_VisualShaderNodeCompare>`, :ref:`VisualShaderNodeCubemap "
+"<class_VisualShaderNodeCubemap>`, :ref:`VisualShaderNodeCustom "
+"<class_VisualShaderNodeCustom>`, :ref:`VisualShaderNodeDeterminant "
+"<class_VisualShaderNodeDeterminant>`, :ref:`VisualShaderNodeDotProduct "
+"<class_VisualShaderNodeDotProduct>`, :ref:`VisualShaderNodeFaceForward "
+"<class_VisualShaderNodeFaceForward>`, :ref:`VisualShaderNodeFloatConstant"
+" <class_VisualShaderNodeFloatConstant>`, :ref:`VisualShaderNodeFloatFunc "
+"<class_VisualShaderNodeFloatFunc>`, :ref:`VisualShaderNodeFloatOp "
+"<class_VisualShaderNodeFloatOp>`, :ref:`VisualShaderNodeFresnel "
+"<class_VisualShaderNodeFresnel>`, :ref:`VisualShaderNodeGroupBase "
+"<class_VisualShaderNodeGroupBase>`, :ref:`VisualShaderNodeIf "
+"<class_VisualShaderNodeIf>`, :ref:`VisualShaderNodeInput "
+"<class_VisualShaderNodeInput>`, :ref:`VisualShaderNodeIntConstant "
+"<class_VisualShaderNodeIntConstant>`, :ref:`VisualShaderNodeIntFunc "
+"<class_VisualShaderNodeIntFunc>`, :ref:`VisualShaderNodeIntOp "
+"<class_VisualShaderNodeIntOp>`, :ref:`VisualShaderNodeIs "
+"<class_VisualShaderNodeIs>`, :ref:`VisualShaderNodeOuterProduct "
+"<class_VisualShaderNodeOuterProduct>`, :ref:`VisualShaderNodeOutput "
+"<class_VisualShaderNodeOutput>`, :ref:`VisualShaderNodeScalarClamp "
+"<class_VisualShaderNodeScalarClamp>`, "
+":ref:`VisualShaderNodeScalarDerivativeFunc "
+"<class_VisualShaderNodeScalarDerivativeFunc>`, "
+":ref:`VisualShaderNodeScalarInterp <class_VisualShaderNodeScalarInterp>`,"
+" :ref:`VisualShaderNodeScalarSmoothStep "
+"<class_VisualShaderNodeScalarSmoothStep>`, :ref:`VisualShaderNodeSwitch "
+"<class_VisualShaderNodeSwitch>`, :ref:`VisualShaderNodeTexture "
+"<class_VisualShaderNodeTexture>`, :ref:`VisualShaderNodeTransformCompose "
+"<class_VisualShaderNodeTransformCompose>`, "
+":ref:`VisualShaderNodeTransformConstant "
+"<class_VisualShaderNodeTransformConstant>`, "
+":ref:`VisualShaderNodeTransformDecompose "
+"<class_VisualShaderNodeTransformDecompose>`, "
+":ref:`VisualShaderNodeTransformFunc "
+"<class_VisualShaderNodeTransformFunc>`, "
+":ref:`VisualShaderNodeTransformMult "
+"<class_VisualShaderNodeTransformMult>`, "
+":ref:`VisualShaderNodeTransformVecMult "
+"<class_VisualShaderNodeTransformVecMult>`, :ref:`VisualShaderNodeUniform "
+"<class_VisualShaderNodeUniform>`, :ref:`VisualShaderNodeVec3Constant "
+"<class_VisualShaderNodeVec3Constant>`, :ref:`VisualShaderNodeVectorClamp "
+"<class_VisualShaderNodeVectorClamp>`, :ref:`VisualShaderNodeVectorCompose"
+" <class_VisualShaderNodeVectorCompose>`, "
+":ref:`VisualShaderNodeVectorDecompose "
+"<class_VisualShaderNodeVectorDecompose>`, "
+":ref:`VisualShaderNodeVectorDerivativeFunc "
+"<class_VisualShaderNodeVectorDerivativeFunc>`, "
+":ref:`VisualShaderNodeVectorDistance "
+"<class_VisualShaderNodeVectorDistance>`, :ref:`VisualShaderNodeVectorFunc"
+" <class_VisualShaderNodeVectorFunc>`, :ref:`VisualShaderNodeVectorInterp "
+"<class_VisualShaderNodeVectorInterp>`, :ref:`VisualShaderNodeVectorLen "
+"<class_VisualShaderNodeVectorLen>`, :ref:`VisualShaderNodeVectorOp "
+"<class_VisualShaderNodeVectorOp>`, :ref:`VisualShaderNodeVectorRefract "
+"<class_VisualShaderNodeVectorRefract>`, "
+":ref:`VisualShaderNodeVectorScalarMix "
+"<class_VisualShaderNodeVectorScalarMix>`, "
+":ref:`VisualShaderNodeVectorScalarSmoothStep "
+"<class_VisualShaderNodeVectorScalarSmoothStep>`, "
+":ref:`VisualShaderNodeVectorScalarStep "
+"<class_VisualShaderNodeVectorScalarStep>`, "
+":ref:`VisualShaderNodeVectorSmoothStep "
+"<class_VisualShaderNodeVectorSmoothStep>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:19
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:21
+msgid ":doc:`../tutorials/shading/visual_shaders`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:24
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:27
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:27
+msgid ""
+":ref:`output_port_for_preview "
+"<class_VisualShaderNode_property_output_port_for_preview>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:95
+msgid "``-1``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:31
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:34
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:34
+msgid ""
+":ref:`get_default_input_values "
+"<class_VisualShaderNode_method_get_default_input_values>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:36
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:36
+msgid ""
+":ref:`get_input_port_default_value "
+"<class_VisualShaderNode_method_get_input_port_default_value>` **(** "
+":ref:`int <class_int>` port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:40
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:38
+msgid ""
+":ref:`set_default_input_values "
+"<class_VisualShaderNode_method_set_default_input_values>` **(** "
+":ref:`Array <class_Array>` values **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:40
+msgid ""
+":ref:`set_input_port_default_value "
+"<class_VisualShaderNode_method_set_input_port_default_value>` **(** "
+":ref:`int <class_int>` port, :ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:44
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:48
+msgid "**editor_refresh_request** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:50
+msgid ""
+"Emitted when the node requests an editor refresh. Currently called only "
+"in setter of :ref:`VisualShaderNodeTexture.source "
+"<class_VisualShaderNodeTexture_property_source>`, "
+":ref:`VisualShaderNodeTexture <class_VisualShaderNodeTexture>`, and "
+":ref:`VisualShaderNodeCubemap <class_VisualShaderNodeCubemap>` (and their"
+" derivatives)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:53
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:71
+msgid "enum **PortType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:73
+msgid ""
+"**PORT_TYPE_SCALAR** = **0** --- Floating-point scalar. Translated to "
+"``float`` type in shader code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:75
+msgid ""
+"**PORT_TYPE_SCALAR_INT** = **1** --- Integer scalar. Translated to "
+"``int`` type in shader code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:77
+msgid ""
+"**PORT_TYPE_VECTOR** = **2** --- 3D vector of floating-point values. "
+"Translated to ``vec3`` type in shader code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:79
+msgid ""
+"**PORT_TYPE_BOOLEAN** = **3** --- Boolean type. Translated to ``bool`` "
+"type in shader code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:81
+msgid ""
+"**PORT_TYPE_TRANSFORM** = **4** --- Transform type. Translated to "
+"``mat4`` type in shader code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:83
+msgid ""
+"**PORT_TYPE_SAMPLER** = **5** --- Sampler type. Translated to reference "
+"of sampler uniform in shader code. Can only be used for input ports in "
+"non-uniform nodes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:85
+msgid ""
+"**PORT_TYPE_MAX** = **6** --- Represents the size of the :ref:`PortType "
+"<enum_VisualShaderNode_PortType>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:88
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:92
+msgid ":ref:`int <class_int>` **output_port_for_preview**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:95
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:97
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:97
+msgid "set_output_port_for_preview(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:99
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:99
+msgid "get_output_port_for_preview()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:102
+msgid ""
+"Sets the output port index which will be showed for preview. If set to "
+"``-1`` no port will be open for preview."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:105
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:109
+msgid ":ref:`Array <class_Array>` **get_default_input_values** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:111
+msgid ""
+"Returns an :ref:`Array <class_Array>` containing default values for all "
+"of the input ports of the node in the form ``[index0, value0, index1, "
+"value1, ...]``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:117
+msgid ""
+":ref:`Variant <class_Variant>` **get_input_port_default_value** **(** "
+":ref:`int <class_int>` port **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:119
+msgid "Returns the default value of the input ``port``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:125
+msgid ""
+"void **set_default_input_values** **(** :ref:`Array <class_Array>` values"
+" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:127
+msgid ""
+"Sets the default input ports values using an :ref:`Array <class_Array>` "
+"of the form ``[index0, value0, index1, value1, ...]``. For example: ``[0,"
+" Vector3(0, 0, 0), 1, Vector3(0, 0, 0)]``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:133
+msgid ""
+"void **set_input_port_default_value** **(** :ref:`int <class_int>` port, "
+":ref:`Variant <class_Variant>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernode.rst:135
+msgid "Sets the default value for the selected input ``port``."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`default_input_values "
+#~ "<class_VisualShaderNode_property_default_input_values>`"
+#~ msgstr ""
+
+#~ msgid "[ 0, Vector3( 0, 0, 0 ) ]"
+#~ msgstr ""
+
+#~ msgid "-1"
+#~ msgstr ""
+
+#~ msgid ":ref:`Array <class_Array>` **default_input_values**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`VisualShaderNodeBooleanConstant"
+#~ " <class_VisualShaderNodeBooleanConstant>`, "
+#~ ":ref:`VisualShaderNodeColorConstant "
+#~ "<class_VisualShaderNodeColorConstant>`, "
+#~ ":ref:`VisualShaderNodeColorFunc "
+#~ "<class_VisualShaderNodeColorFunc>`, "
+#~ ":ref:`VisualShaderNodeColorOp <class_VisualShaderNodeColorOp>`,"
+#~ " :ref:`VisualShaderNodeCompare "
+#~ "<class_VisualShaderNodeCompare>`, :ref:`VisualShaderNodeCubeMap"
+#~ " <class_VisualShaderNodeCubeMap>`, "
+#~ ":ref:`VisualShaderNodeCustom <class_VisualShaderNodeCustom>`,"
+#~ " :ref:`VisualShaderNodeDeterminant "
+#~ "<class_VisualShaderNodeDeterminant>`, "
+#~ ":ref:`VisualShaderNodeDotProduct "
+#~ "<class_VisualShaderNodeDotProduct>`, "
+#~ ":ref:`VisualShaderNodeFaceForward "
+#~ "<class_VisualShaderNodeFaceForward>`, "
+#~ ":ref:`VisualShaderNodeFresnel <class_VisualShaderNodeFresnel>`,"
+#~ " :ref:`VisualShaderNodeGroupBase "
+#~ "<class_VisualShaderNodeGroupBase>`, :ref:`VisualShaderNodeIf "
+#~ "<class_VisualShaderNodeIf>`, :ref:`VisualShaderNodeInput "
+#~ "<class_VisualShaderNodeInput>`, :ref:`VisualShaderNodeIs "
+#~ "<class_VisualShaderNodeIs>`, :ref:`VisualShaderNodeOuterProduct"
+#~ " <class_VisualShaderNodeOuterProduct>`, "
+#~ ":ref:`VisualShaderNodeOutput <class_VisualShaderNodeOutput>`,"
+#~ " :ref:`VisualShaderNodeScalarClamp "
+#~ "<class_VisualShaderNodeScalarClamp>`, "
+#~ ":ref:`VisualShaderNodeScalarConstant "
+#~ "<class_VisualShaderNodeScalarConstant>`, "
+#~ ":ref:`VisualShaderNodeScalarDerivativeFunc "
+#~ "<class_VisualShaderNodeScalarDerivativeFunc>`, "
+#~ ":ref:`VisualShaderNodeScalarFunc "
+#~ "<class_VisualShaderNodeScalarFunc>`, "
+#~ ":ref:`VisualShaderNodeScalarInterp "
+#~ "<class_VisualShaderNodeScalarInterp>`, "
+#~ ":ref:`VisualShaderNodeScalarOp "
+#~ "<class_VisualShaderNodeScalarOp>`, "
+#~ ":ref:`VisualShaderNodeScalarSmoothStep "
+#~ "<class_VisualShaderNodeScalarSmoothStep>`, "
+#~ ":ref:`VisualShaderNodeSwitch <class_VisualShaderNodeSwitch>`,"
+#~ " :ref:`VisualShaderNodeTexture "
+#~ "<class_VisualShaderNodeTexture>`, "
+#~ ":ref:`VisualShaderNodeTransformCompose "
+#~ "<class_VisualShaderNodeTransformCompose>`, "
+#~ ":ref:`VisualShaderNodeTransformConstant "
+#~ "<class_VisualShaderNodeTransformConstant>`, "
+#~ ":ref:`VisualShaderNodeTransformDecompose "
+#~ "<class_VisualShaderNodeTransformDecompose>`, "
+#~ ":ref:`VisualShaderNodeTransformFunc "
+#~ "<class_VisualShaderNodeTransformFunc>`, "
+#~ ":ref:`VisualShaderNodeTransformMult "
+#~ "<class_VisualShaderNodeTransformMult>`, "
+#~ ":ref:`VisualShaderNodeTransformVecMult "
+#~ "<class_VisualShaderNodeTransformVecMult>`, "
+#~ ":ref:`VisualShaderNodeUniform <class_VisualShaderNodeUniform>`,"
+#~ " :ref:`VisualShaderNodeVec3Constant "
+#~ "<class_VisualShaderNodeVec3Constant>`, "
+#~ ":ref:`VisualShaderNodeVectorClamp "
+#~ "<class_VisualShaderNodeVectorClamp>`, "
+#~ ":ref:`VisualShaderNodeVectorCompose "
+#~ "<class_VisualShaderNodeVectorCompose>`, "
+#~ ":ref:`VisualShaderNodeVectorDecompose "
+#~ "<class_VisualShaderNodeVectorDecompose>`, "
+#~ ":ref:`VisualShaderNodeVectorDerivativeFunc "
+#~ "<class_VisualShaderNodeVectorDerivativeFunc>`, "
+#~ ":ref:`VisualShaderNodeVectorDistance "
+#~ "<class_VisualShaderNodeVectorDistance>`, "
+#~ ":ref:`VisualShaderNodeVectorFunc "
+#~ "<class_VisualShaderNodeVectorFunc>`, "
+#~ ":ref:`VisualShaderNodeVectorInterp "
+#~ "<class_VisualShaderNodeVectorInterp>`, "
+#~ ":ref:`VisualShaderNodeVectorLen "
+#~ "<class_VisualShaderNodeVectorLen>`, "
+#~ ":ref:`VisualShaderNodeVectorOp "
+#~ "<class_VisualShaderNodeVectorOp>`, "
+#~ ":ref:`VisualShaderNodeVectorRefract "
+#~ "<class_VisualShaderNodeVectorRefract>`, "
+#~ ":ref:`VisualShaderNodeVectorScalarMix "
+#~ "<class_VisualShaderNodeVectorScalarMix>`, "
+#~ ":ref:`VisualShaderNodeVectorScalarSmoothStep "
+#~ "<class_VisualShaderNodeVectorScalarSmoothStep>`, "
+#~ ":ref:`VisualShaderNodeVectorScalarStep "
+#~ "<class_VisualShaderNodeVectorScalarStep>`, "
+#~ ":ref:`VisualShaderNodeVectorSmoothStep "
+#~ "<class_VisualShaderNodeVectorSmoothStep>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Emitted when the node requests an "
+#~ "editor refresh. Currently called only in"
+#~ " setter of :ref:`VisualShaderNodeTexture.source "
+#~ "<class_VisualShaderNodeTexture_property_source>`, "
+#~ ":ref:`VisualShaderNodeTexture <class_VisualShaderNodeTexture>`,"
+#~ " and :ref:`VisualShaderNodeCubeMap "
+#~ "<class_VisualShaderNodeCubeMap>` (and their "
+#~ "derivatives)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`VisualShaderNodeBooleanConstant"
+#~ " <class_VisualShaderNodeBooleanConstant>`, "
+#~ ":ref:`VisualShaderNodeColorConstant "
+#~ "<class_VisualShaderNodeColorConstant>`, "
+#~ ":ref:`VisualShaderNodeColorFunc "
+#~ "<class_VisualShaderNodeColorFunc>`, "
+#~ ":ref:`VisualShaderNodeColorOp <class_VisualShaderNodeColorOp>`,"
+#~ " :ref:`VisualShaderNodeCompare "
+#~ "<class_VisualShaderNodeCompare>`, :ref:`VisualShaderNodeCubemap"
+#~ " <class_VisualShaderNodeCubemap>`, "
+#~ ":ref:`VisualShaderNodeCustom <class_VisualShaderNodeCustom>`,"
+#~ " :ref:`VisualShaderNodeDeterminant "
+#~ "<class_VisualShaderNodeDeterminant>`, "
+#~ ":ref:`VisualShaderNodeDotProduct "
+#~ "<class_VisualShaderNodeDotProduct>`, "
+#~ ":ref:`VisualShaderNodeFaceForward "
+#~ "<class_VisualShaderNodeFaceForward>`, "
+#~ ":ref:`VisualShaderNodeFresnel <class_VisualShaderNodeFresnel>`,"
+#~ " :ref:`VisualShaderNodeGroupBase "
+#~ "<class_VisualShaderNodeGroupBase>`, :ref:`VisualShaderNodeIf "
+#~ "<class_VisualShaderNodeIf>`, :ref:`VisualShaderNodeInput "
+#~ "<class_VisualShaderNodeInput>`, :ref:`VisualShaderNodeIs "
+#~ "<class_VisualShaderNodeIs>`, :ref:`VisualShaderNodeOuterProduct"
+#~ " <class_VisualShaderNodeOuterProduct>`, "
+#~ ":ref:`VisualShaderNodeOutput <class_VisualShaderNodeOutput>`,"
+#~ " :ref:`VisualShaderNodeScalarClamp "
+#~ "<class_VisualShaderNodeScalarClamp>`, "
+#~ ":ref:`VisualShaderNodeScalarConstant "
+#~ "<class_VisualShaderNodeScalarConstant>`, "
+#~ ":ref:`VisualShaderNodeScalarDerivativeFunc "
+#~ "<class_VisualShaderNodeScalarDerivativeFunc>`, "
+#~ ":ref:`VisualShaderNodeScalarFunc "
+#~ "<class_VisualShaderNodeScalarFunc>`, "
+#~ ":ref:`VisualShaderNodeScalarInterp "
+#~ "<class_VisualShaderNodeScalarInterp>`, "
+#~ ":ref:`VisualShaderNodeScalarOp "
+#~ "<class_VisualShaderNodeScalarOp>`, "
+#~ ":ref:`VisualShaderNodeScalarSmoothStep "
+#~ "<class_VisualShaderNodeScalarSmoothStep>`, "
+#~ ":ref:`VisualShaderNodeSwitch <class_VisualShaderNodeSwitch>`,"
+#~ " :ref:`VisualShaderNodeTexture "
+#~ "<class_VisualShaderNodeTexture>`, "
+#~ ":ref:`VisualShaderNodeTransformCompose "
+#~ "<class_VisualShaderNodeTransformCompose>`, "
+#~ ":ref:`VisualShaderNodeTransformConstant "
+#~ "<class_VisualShaderNodeTransformConstant>`, "
+#~ ":ref:`VisualShaderNodeTransformDecompose "
+#~ "<class_VisualShaderNodeTransformDecompose>`, "
+#~ ":ref:`VisualShaderNodeTransformFunc "
+#~ "<class_VisualShaderNodeTransformFunc>`, "
+#~ ":ref:`VisualShaderNodeTransformMult "
+#~ "<class_VisualShaderNodeTransformMult>`, "
+#~ ":ref:`VisualShaderNodeTransformVecMult "
+#~ "<class_VisualShaderNodeTransformVecMult>`, "
+#~ ":ref:`VisualShaderNodeUniform <class_VisualShaderNodeUniform>`,"
+#~ " :ref:`VisualShaderNodeVec3Constant "
+#~ "<class_VisualShaderNodeVec3Constant>`, "
+#~ ":ref:`VisualShaderNodeVectorClamp "
+#~ "<class_VisualShaderNodeVectorClamp>`, "
+#~ ":ref:`VisualShaderNodeVectorCompose "
+#~ "<class_VisualShaderNodeVectorCompose>`, "
+#~ ":ref:`VisualShaderNodeVectorDecompose "
+#~ "<class_VisualShaderNodeVectorDecompose>`, "
+#~ ":ref:`VisualShaderNodeVectorDerivativeFunc "
+#~ "<class_VisualShaderNodeVectorDerivativeFunc>`, "
+#~ ":ref:`VisualShaderNodeVectorDistance "
+#~ "<class_VisualShaderNodeVectorDistance>`, "
+#~ ":ref:`VisualShaderNodeVectorFunc "
+#~ "<class_VisualShaderNodeVectorFunc>`, "
+#~ ":ref:`VisualShaderNodeVectorInterp "
+#~ "<class_VisualShaderNodeVectorInterp>`, "
+#~ ":ref:`VisualShaderNodeVectorLen "
+#~ "<class_VisualShaderNodeVectorLen>`, "
+#~ ":ref:`VisualShaderNodeVectorOp "
+#~ "<class_VisualShaderNodeVectorOp>`, "
+#~ ":ref:`VisualShaderNodeVectorRefract "
+#~ "<class_VisualShaderNodeVectorRefract>`, "
+#~ ":ref:`VisualShaderNodeVectorScalarMix "
+#~ "<class_VisualShaderNodeVectorScalarMix>`, "
+#~ ":ref:`VisualShaderNodeVectorScalarSmoothStep "
+#~ "<class_VisualShaderNodeVectorScalarSmoothStep>`, "
+#~ ":ref:`VisualShaderNodeVectorScalarStep "
+#~ "<class_VisualShaderNodeVectorScalarStep>`, "
+#~ ":ref:`VisualShaderNodeVectorSmoothStep "
+#~ "<class_VisualShaderNodeVectorSmoothStep>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PORT_TYPE_VECTOR** = **1** --- 3D "
+#~ "vector of floating-point values. "
+#~ "Translated to ``vec3`` type in shader"
+#~ " code."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PORT_TYPE_BOOLEAN** = **2** --- Boolean "
+#~ "type. Translated to ``bool`` type in "
+#~ "shader code."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PORT_TYPE_TRANSFORM** = **3** --- Transform"
+#~ " type. Translated to ``mat4`` type in"
+#~ " shader code."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PORT_TYPE_SAMPLER** = **4** --- Sampler "
+#~ "type. Translated to reference of sampler"
+#~ " uniform in shader code. Can only "
+#~ "be used for input ports in non-"
+#~ "uniform nodes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PORT_TYPE_MAX** = **5** --- Represents "
+#~ "the size of the :ref:`PortType "
+#~ "<enum_VisualShaderNode_PortType>` enum."
+#~ msgstr ""
+

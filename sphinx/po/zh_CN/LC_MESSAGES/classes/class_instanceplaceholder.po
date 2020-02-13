@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:10
+msgid "InstancePlaceholder"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:12
+msgid "**Inherits:** :ref:`Node <class_Node>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:14
+msgid ""
+"Placeholder for the root :ref:`Node <class_Node>` of a :ref:`PackedScene "
+"<class_PackedScene>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:19
+msgid ""
+"Turning on the option **Load As Placeholder** for an instanced scene in "
+"the editor causes it to be replaced by an ``InstancePlaceholder`` when "
+"running the game. This makes it possible to delay actually loading the "
+"scene until calling :ref:`create_instance "
+"<class_InstancePlaceholder_method_create_instance>`. This is useful to "
+"avoid loading large scenes all at once by loading parts of it "
+"selectively."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:21
+msgid ""
+"The ``InstancePlaceholder`` does not have a transform. This causes any "
+"child nodes to be positioned relatively to the :ref:`Viewport "
+"<class_Viewport>` from point (0,0), rather than their parent as displayed"
+" in the editor. Replacing the placeholder with a scene with a transform "
+"will transform children relatively to their parent again."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:24
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:27
+msgid ":ref:`Node <class_Node>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:27
+msgid ""
+":ref:`create_instance <class_InstancePlaceholder_method_create_instance>`"
+" **(** :ref:`bool <class_bool>` replace=false, :ref:`PackedScene "
+"<class_PackedScene>` custom_scene=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:29
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:29
+msgid ""
+":ref:`get_instance_path "
+"<class_InstancePlaceholder_method_get_instance_path>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:31
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:31
+msgid ""
+":ref:`get_stored_values "
+"<class_InstancePlaceholder_method_get_stored_values>` **(** :ref:`bool "
+"<class_bool>` with_order=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:35
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:39
+msgid ""
+":ref:`Node <class_Node>` **create_instance** **(** :ref:`bool "
+"<class_bool>` replace=false, :ref:`PackedScene <class_PackedScene>` "
+"custom_scene=null **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:45
+msgid ":ref:`String <class_String>` **get_instance_path** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:47
+msgid ""
+"Gets the path to the :ref:`PackedScene <class_PackedScene>` resource file"
+" that is loaded by default when calling :ref:`create_instance "
+"<class_InstancePlaceholder_method_create_instance>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_instanceplaceholder.rst:53
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_stored_values** **(** "
+":ref:`bool <class_bool>` with_order=false **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Turning on the option **Load As "
+#~ "Placeholder** for an instanced scene in"
+#~ " the editor causes it to be "
+#~ "replaced by an InstancePlaceholder when "
+#~ "running the game. This makes it "
+#~ "possible to delay actually loading the"
+#~ " scene until calling :ref:`replace_by_instance"
+#~ " <class_InstancePlaceholder_method_replace_by_instance>`. "
+#~ "This is useful to avoid loading "
+#~ "large scenes all at once by "
+#~ "loading parts of it selectively."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The InstancePlaceholder does not have a"
+#~ " transform. This causes any child "
+#~ "nodes to be positioned relatively to "
+#~ "the Viewport from point (0,0), rather"
+#~ " than their parent as displayed in"
+#~ " the editor. Replacing the placeholder "
+#~ "with a scene with a transform will"
+#~ " transform children relatively to their "
+#~ "parent again."
+#~ msgstr ""
+
+#~ msgid "void"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`replace_by_instance "
+#~ "<class_InstancePlaceholder_method_replace_by_instance>` **(**"
+#~ " :ref:`PackedScene <class_PackedScene>` "
+#~ "custom_scene=null **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Gets the path to the :ref:`PackedScene"
+#~ " <class_PackedScene>` resource file that is"
+#~ " loaded by default when calling "
+#~ ":ref:`replace_by_instance "
+#~ "<class_InstancePlaceholder_method_replace_by_instance>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **replace_by_instance** **(** :ref:`PackedScene"
+#~ " <class_PackedScene>` custom_scene=null **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Replaces this placeholder by the scene"
+#~ " handed as an argument, or the "
+#~ "original scene if no argument is "
+#~ "given. As for all resources, the "
+#~ "scene is loaded only if it's not"
+#~ " loaded already. By manually loading "
+#~ "the scene beforehand, delays caused by"
+#~ " this function can be avoided."
+#~ msgstr ""
+

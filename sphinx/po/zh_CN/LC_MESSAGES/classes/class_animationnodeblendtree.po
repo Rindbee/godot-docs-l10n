@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:10
+msgid "AnimationNodeBlendTree"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:12
+msgid ""
+"**Inherits:** :ref:`AnimationRootNode <class_AnimationRootNode>` **<** "
+":ref:`AnimationNode <class_AnimationNode>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:17
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:19
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:40
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:25
+msgid ":ref:`graph_offset <class_AnimationNodeBlendTree_property_graph_offset>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:86
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:29
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:48
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:32
+msgid ""
+":ref:`add_node <class_AnimationNodeBlendTree_method_add_node>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`AnimationNode "
+"<class_AnimationNode>` node, :ref:`Vector2 <class_Vector2>` "
+"position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:34
+msgid ""
+":ref:`connect_node <class_AnimationNodeBlendTree_method_connect_node>` "
+"**(** :ref:`StringName <class_StringName>` input_node, :ref:`int "
+"<class_int>` input_index, :ref:`StringName <class_StringName>` "
+"output_node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:36
+msgid ""
+":ref:`disconnect_node "
+"<class_AnimationNodeBlendTree_method_disconnect_node>` **(** "
+":ref:`StringName <class_StringName>` input_node, :ref:`int <class_int>` "
+"input_index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:38
+msgid ":ref:`AnimationNode <class_AnimationNode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:38
+msgid ""
+":ref:`get_node <class_AnimationNodeBlendTree_method_get_node>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:40
+msgid ""
+":ref:`get_node_position "
+"<class_AnimationNodeBlendTree_method_get_node_position>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:42
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:42
+msgid ""
+":ref:`has_node <class_AnimationNodeBlendTree_method_has_node>` **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:44
+msgid ""
+":ref:`remove_node <class_AnimationNodeBlendTree_method_remove_node>` "
+"**(** :ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:46
+msgid ""
+":ref:`rename_node <class_AnimationNodeBlendTree_method_rename_node>` "
+"**(** :ref:`StringName <class_StringName>` name, :ref:`StringName "
+"<class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:48
+msgid ""
+":ref:`set_node_position "
+"<class_AnimationNodeBlendTree_method_set_node_position>` **(** "
+":ref:`StringName <class_StringName>` name, :ref:`Vector2 <class_Vector2>`"
+" position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:52
+msgid "Constants"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:66
+msgid "**CONNECTION_OK** = **0**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:68
+msgid "**CONNECTION_ERROR_NO_INPUT** = **1**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:70
+msgid "**CONNECTION_ERROR_NO_INPUT_INDEX** = **2**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:72
+msgid "**CONNECTION_ERROR_NO_OUTPUT** = **3**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:74
+msgid "**CONNECTION_ERROR_SAME_NODE** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:76
+msgid "**CONNECTION_ERROR_CONNECTION_EXISTS** = **5**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:79
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:83
+msgid ":ref:`Vector2 <class_Vector2>` **graph_offset**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:86
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:88
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:88
+msgid "set_graph_offset(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:90
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:90
+msgid "get_graph_offset()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:94
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:98
+msgid ""
+"void **add_node** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`AnimationNode <class_AnimationNode>` node, :ref:`Vector2 "
+"<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:104
+msgid ""
+"void **connect_node** **(** :ref:`StringName <class_StringName>` "
+"input_node, :ref:`int <class_int>` input_index, :ref:`StringName "
+"<class_StringName>` output_node **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:110
+msgid ""
+"void **disconnect_node** **(** :ref:`StringName <class_StringName>` "
+"input_node, :ref:`int <class_int>` input_index **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:116
+msgid ""
+":ref:`AnimationNode <class_AnimationNode>` **get_node** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:122
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_node_position** **(** "
+":ref:`StringName <class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:128
+msgid ""
+":ref:`bool <class_bool>` **has_node** **(** :ref:`StringName "
+"<class_StringName>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:134
+msgid "void **remove_node** **(** :ref:`StringName <class_StringName>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:140
+msgid ""
+"void **rename_node** **(** :ref:`StringName <class_StringName>` name, "
+":ref:`StringName <class_StringName>` new_name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animationnodeblendtree.rst:146
+msgid ""
+"void **set_node_position** **(** :ref:`StringName <class_StringName>` "
+"name, :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_node <class_AnimationNodeBlendTree_method_add_node>`"
+#~ " **(** :ref:`String <class_String>` name, "
+#~ ":ref:`AnimationNode <class_AnimationNode>` node, "
+#~ ":ref:`Vector2 <class_Vector2>` position=Vector2( 0,"
+#~ " 0 ) **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`connect_node "
+#~ "<class_AnimationNodeBlendTree_method_connect_node>` **(** "
+#~ ":ref:`String <class_String>` input_node, :ref:`int"
+#~ " <class_int>` input_index, :ref:`String "
+#~ "<class_String>` output_node **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`disconnect_node "
+#~ "<class_AnimationNodeBlendTree_method_disconnect_node>` **(** "
+#~ ":ref:`String <class_String>` input_node, :ref:`int"
+#~ " <class_int>` input_index **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_node <class_AnimationNodeBlendTree_method_get_node>`"
+#~ " **(** :ref:`String <class_String>` name "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_node_position "
+#~ "<class_AnimationNodeBlendTree_method_get_node_position>` **(**"
+#~ " :ref:`String <class_String>` name **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`has_node <class_AnimationNodeBlendTree_method_has_node>`"
+#~ " **(** :ref:`String <class_String>` name "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`remove_node "
+#~ "<class_AnimationNodeBlendTree_method_remove_node>` **(** "
+#~ ":ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`rename_node "
+#~ "<class_AnimationNodeBlendTree_method_rename_node>` **(** "
+#~ ":ref:`String <class_String>` name, :ref:`String "
+#~ "<class_String>` new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_node_position "
+#~ "<class_AnimationNodeBlendTree_method_set_node_position>` **(**"
+#~ " :ref:`String <class_String>` name, :ref:`Vector2"
+#~ " <class_Vector2>` position **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_node** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`AnimationNode "
+#~ "<class_AnimationNode>` node, :ref:`Vector2 "
+#~ "<class_Vector2>` position=Vector2( 0, 0 ) "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **connect_node** **(** :ref:`String "
+#~ "<class_String>` input_node, :ref:`int <class_int>`"
+#~ " input_index, :ref:`String <class_String>` "
+#~ "output_node **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **disconnect_node** **(** :ref:`String "
+#~ "<class_String>` input_node, :ref:`int <class_int>`"
+#~ " input_index **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`AnimationNode <class_AnimationNode>` **get_node**"
+#~ " **(** :ref:`String <class_String>` name "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Vector2 <class_Vector2>` **get_node_position** "
+#~ "**(** :ref:`String <class_String>` name **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **has_node** **(** "
+#~ ":ref:`String <class_String>` name **)** const"
+#~ msgstr ""
+
+#~ msgid "void **remove_node** **(** :ref:`String <class_String>` name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **rename_node** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`String <class_String>`"
+#~ " new_name **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_node_position** **(** :ref:`String "
+#~ "<class_String>` name, :ref:`Vector2 <class_Vector2>`"
+#~ " position **)**"
+#~ msgstr ""
+

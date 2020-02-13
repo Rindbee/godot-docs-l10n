@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: 2019-11-01 17:23+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_parallaxlayer.rst:10
+msgid "ParallaxLayer"
+msgstr "ParallaxLayer"
+
+#: ../../docs/classes/class_parallaxlayer.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_parallaxlayer.rst:14
+msgid ""
+"A parallax scrolling layer to be used with :ref:`ParallaxBackground "
+"<class_ParallaxBackground>`."
+msgstr "要与 :ref:`ParallaxBackground <class_ParallaxBackground>` 一起使用的视差滚动层。"
+
+#: ../../docs/classes/class_parallaxlayer.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_parallaxlayer.rst:19
+msgid ""
+"A ParallaxLayer must be the child of a :ref:`ParallaxBackground "
+"<class_ParallaxBackground>` node. Each ParallaxLayer can be set to move "
+"at different speeds relative to the camera movement or the "
+":ref:`ParallaxBackground.scroll_offset "
+"<class_ParallaxBackground_property_scroll_offset>` value."
+msgstr ""
+"``ParallaxLayer`` 必须是 :ref:`ParallaxBackground "
+"<class_ParallaxBackground>` 节点的子级。可以将每个 ``ParallaxLayer`` "
+"设置为以不同的速度，相对于相机移动或设置为 :ref:`ParallaxBackground.scroll_offset "
+"<class_ParallaxBackground_property_scroll_offset>` 值。"
+
+#: ../../docs/classes/class_parallaxlayer.rst:21
+msgid "This node's children will be affected by its scroll offset."
+msgstr "该节点的子节点，将受其滚动偏移量的影响。"
+
+#: ../../docs/classes/class_parallaxlayer.rst:23
+msgid ""
+"**Note:** Any changes to this node's position and scale made after it "
+"enters the scene will be ignored."
+msgstr "**注意**：进入场景后，对该节点的位置和比例，所做的任何更改都将被忽略。"
+
+#: ../../docs/classes/class_parallaxlayer.rst:26
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_parallaxlayer.rst:29
+#: ../../docs/classes/class_parallaxlayer.rst:31
+#: ../../docs/classes/class_parallaxlayer.rst:33
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_parallaxlayer.rst:29
+msgid ":ref:`motion_mirroring <class_ParallaxLayer_property_motion_mirroring>`"
+msgstr ":ref:`motion_mirroring <class_ParallaxLayer_property_motion_mirroring>`"
+
+#: ../../docs/classes/class_parallaxlayer.rst:29
+#: ../../docs/classes/class_parallaxlayer.rst:31
+#: ../../docs/classes/class_parallaxlayer.rst:44
+#: ../../docs/classes/class_parallaxlayer.rst:60
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_parallaxlayer.rst:31
+msgid ":ref:`motion_offset <class_ParallaxLayer_property_motion_offset>`"
+msgstr ":ref:`motion_offset <class_ParallaxLayer_property_motion_offset>`"
+
+#: ../../docs/classes/class_parallaxlayer.rst:33
+msgid ":ref:`motion_scale <class_ParallaxLayer_property_motion_scale>`"
+msgstr ":ref:`motion_scale <class_ParallaxLayer_property_motion_scale>`"
+
+#: ../../docs/classes/class_parallaxlayer.rst:33
+#: ../../docs/classes/class_parallaxlayer.rst:76
+#, fuzzy
+msgid "``Vector2( 1, 1 )``"
+msgstr "Vector2( 1, 1 )"
+
+#: ../../docs/classes/class_parallaxlayer.rst:37
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_parallaxlayer.rst:41
+msgid ":ref:`Vector2 <class_Vector2>` **motion_mirroring**"
+msgstr ":ref:`Vector2 <class_Vector2>` **motion_mirroring**"
+
+#: ../../docs/classes/class_parallaxlayer.rst:44
+#: ../../docs/classes/class_parallaxlayer.rst:60
+#: ../../docs/classes/class_parallaxlayer.rst:76
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_parallaxlayer.rst:46
+#: ../../docs/classes/class_parallaxlayer.rst:62
+#: ../../docs/classes/class_parallaxlayer.rst:78
+msgid "*Setter*"
+msgstr "*设值函数*"
+
+#: ../../docs/classes/class_parallaxlayer.rst:46
+msgid "set_mirroring(value)"
+msgstr "set_mirroring(value)"
+
+#: ../../docs/classes/class_parallaxlayer.rst:48
+#: ../../docs/classes/class_parallaxlayer.rst:64
+#: ../../docs/classes/class_parallaxlayer.rst:80
+msgid "*Getter*"
+msgstr "*取值函数*"
+
+#: ../../docs/classes/class_parallaxlayer.rst:48
+msgid "get_mirroring()"
+msgstr "get_mirroring()"
+
+#: ../../docs/classes/class_parallaxlayer.rst:51
+#, fuzzy
+msgid ""
+"The ParallaxLayer's :ref:`Texture2D <class_Texture2D>` mirroring. Useful "
+"for creating an infinite scrolling background. If an axis is set to "
+"``0``, the :ref:`Texture2D <class_Texture2D>` will not be mirrored."
+msgstr ""
+"``ParallaxLayer`` 的 :ref:`Texture <class_Texture>` 镜像。用于创建无限滚动背景。如果将轴设置为 "
+"``0``，则不会镜像 :ref:`Texture <class_Texture>`。"
+
+#: ../../docs/classes/class_parallaxlayer.rst:57
+msgid ":ref:`Vector2 <class_Vector2>` **motion_offset**"
+msgstr ":ref:`Vector2 <class_Vector2>` **motion_offset**"
+
+#: ../../docs/classes/class_parallaxlayer.rst:62
+msgid "set_motion_offset(value)"
+msgstr "set_motion_offset(value)"
+
+#: ../../docs/classes/class_parallaxlayer.rst:64
+msgid "get_motion_offset()"
+msgstr "get_motion_offset()"
+
+#: ../../docs/classes/class_parallaxlayer.rst:67
+msgid ""
+"The ParallaxLayer's offset relative to the parent ParallaxBackground's "
+":ref:`ParallaxBackground.scroll_offset "
+"<class_ParallaxBackground_property_scroll_offset>`."
+msgstr ""
+"相对于父级 ``ParallaxBackground`` 的 :ref:`ParallaxBackground.scroll_offset "
+"<class_ParallaxBackground_property_scroll_offset>`，``ParallaxLayer`` "
+"的偏移量。"
+
+#: ../../docs/classes/class_parallaxlayer.rst:73
+msgid ":ref:`Vector2 <class_Vector2>` **motion_scale**"
+msgstr ":ref:`Vector2 <class_Vector2>` **motion_scale**"
+
+#: ../../docs/classes/class_parallaxlayer.rst:78
+msgid "set_motion_scale(value)"
+msgstr "set_motion_scale(value)"
+
+#: ../../docs/classes/class_parallaxlayer.rst:80
+msgid "get_motion_scale()"
+msgstr "get_motion_scale()"
+
+#: ../../docs/classes/class_parallaxlayer.rst:83
+msgid ""
+"Multiplies the ParallaxLayer's motion. If an axis is set to ``0``, it "
+"will not scroll."
+msgstr "乘以 ``ParallaxLayer`` 的运动。如果将轴设置为 ``0``，它将不会滚动。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:10
+msgid "Thread"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:14
+msgid "A unit of execution in a process."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:19
+msgid ""
+"A unit of execution in a process. Can run methods on :ref:`Object "
+"<class_Object>`\\ s simultaneously. The use of synchronization via "
+":ref:`Mutex <class_Mutex>` or :ref:`Semaphore <class_Semaphore>` is "
+"advised if working with shared objects."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:24
+msgid ":doc:`../tutorials/threads/using_multiple_threads`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:27
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:30
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:30
+msgid ":ref:`get_id <class_Thread_method_get_id>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:32
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:32
+msgid ":ref:`is_active <class_Thread_method_is_active>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:34
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:34
+msgid ""
+":ref:`start <class_Thread_method_start>` **(** :ref:`Object "
+"<class_Object>` instance, :ref:`StringName <class_StringName>` method, "
+":ref:`Variant <class_Variant>` userdata=null, :ref:`Priority "
+"<enum_Thread_Priority>` priority=1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:36
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:36
+msgid ":ref:`wait_to_finish <class_Thread_method_wait_to_finish>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:40
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:50
+msgid "enum **Priority**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:52
+msgid ""
+"**PRIORITY_LOW** = **0** --- A thread running with lower priority than "
+"normally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:54
+msgid "**PRIORITY_NORMAL** = **1** --- A thread with a standard priority."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:56
+msgid ""
+"**PRIORITY_HIGH** = **2** --- A thread running with higher priority than "
+"normally."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:59
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:63
+msgid ":ref:`String <class_String>` **get_id** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:65
+msgid ""
+"Returns the current ``Thread``'s ID, uniquely identifying it among all "
+"threads."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:71
+msgid ":ref:`bool <class_bool>` **is_active** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:73
+msgid ""
+"Returns ``true`` if this ``Thread`` is currently active. An active "
+"``Thread`` cannot start work on a new method but can be joined with "
+":ref:`wait_to_finish <class_Thread_method_wait_to_finish>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:79
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **start** **(** :ref:`Object "
+"<class_Object>` instance, :ref:`StringName <class_StringName>` method, "
+":ref:`Variant <class_Variant>` userdata=null, :ref:`Priority "
+"<enum_Thread_Priority>` priority=1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:81
+msgid ""
+"Starts a new ``Thread`` that runs ``method`` on object ``instance`` with "
+"``userdata`` passed as an argument. The ``priority`` of the ``Thread`` "
+"can be changed by passing a value from the :ref:`Priority "
+"<enum_Thread_Priority>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:83
+msgid ""
+"Returns :ref:`@GlobalScope.OK <class_@GlobalScope_constant_OK>` on "
+"success, or :ref:`@GlobalScope.ERR_CANT_CREATE "
+"<class_@GlobalScope_constant_ERR_CANT_CREATE>` on failure."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:89
+msgid ":ref:`Variant <class_Variant>` **wait_to_finish** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_thread.rst:91
+msgid ""
+"Joins the ``Thread`` and waits for it to finish. Returns what the method "
+"called returned."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "**PRIORITY_LOW** = **0**"
+#~ msgstr ""
+
+#~ msgid "**PRIORITY_NORMAL** = **1**"
+#~ msgstr ""
+
+#~ msgid "**PRIORITY_HIGH** = **2**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`start <class_Thread_method_start>` **(** "
+#~ ":ref:`Object <class_Object>` instance, :ref:`String"
+#~ " <class_String>` method, :ref:`Variant "
+#~ "<class_Variant>` userdata=null, :ref:`Priority "
+#~ "<enum_Thread_Priority>` priority=1 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Error <enum_@GlobalScope_Error>` **start** "
+#~ "**(** :ref:`Object <class_Object>` instance, "
+#~ ":ref:`String <class_String>` method, :ref:`Variant"
+#~ " <class_Variant>` userdata=null, :ref:`Priority "
+#~ "<enum_Thread_Priority>` priority=1 **)**"
+#~ msgstr ""
+

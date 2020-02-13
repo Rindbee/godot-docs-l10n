@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
 # This file is distributed under the same license as the Godot Engine package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-09-02 11:13+0200\n"
+"PO-Revision-Date: 2019-11-20 09:42+0800\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:4
-#, fuzzy
 msgid "What are shaders?"
-msgstr "空间节点"
+msgstr "什么是着色器？"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:7
 msgid "Introduction"
@@ -32,16 +31,16 @@ msgid ""
 "can be used to create interesting effects that run incredibly fast. You have "
 "also likely heard that they are terrifying. Both are true."
 msgstr ""
-"你已经决定尝试编写着色器了。你可能已经听说过，它们可用来快速创造非常有趣的效"
-"果。可能也听说过它们很可怕。以上两种说法都对。"
+"因此，您决定尝试使用着色器。您可能听说过，它们可用于创建令人难以置信的快速运"
+"行的有趣效果。您可能还听说过它们令人恐惧。两者都是对的。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:13
 msgid ""
 "Shaders can be used to create a wide range of effects (in fact everything "
 "drawn in a modern rendering engine is done with shaders)."
 msgstr ""
-"着色器可以用来创建广泛的效果(事实上，现代渲染引擎中绘制的所有东西都是用着色器"
-"绘制的)。"
+"着色器可用于创建各种效果（实际上，现代渲染引擎中绘制的所有内容都由着色器完"
+"成）。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:16
 msgid ""
@@ -52,14 +51,14 @@ msgid ""
 "still unintuitive and restricting, especially for users who are used to "
 "GDScript."
 msgstr ""
-"对于不熟悉着色器的人来说，编写着色器也是非常困难的。Godot试图通过公开许多有用"
-"的内置特性，并为您处理一些较低级别的初始化工作，使编写着色器变得更容易一些。"
-"然而，GLSL (OpenGL着色语言，也是Godot使用的)仍然是不直观和受限制的，特别是对"
-"于习惯使用GDScript的用户。"
+"对于不熟悉着色器的人来说，编写着色器也可能非常困难。Godot公开了许多有用的内置"
+"功能，并为您处理了一些较低级别的初始化工作，从而使编写着色器更加容易。但是，"
+"GLSL（Godot使用的OpenGL着色语言）仍然是不直观且有局限性的，尤其是对于那些习惯"
+"于GDScript的用户而言。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:22
 msgid "But what are they?"
-msgstr "可是它是什么？"
+msgstr "可是它们是什么？"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:24
 msgid ""
@@ -70,9 +69,10 @@ msgid ""
 "rendering because they are optimized for running thousands of instructions "
 "in parallel."
 msgstr ""
-"着色器是一种在图形处理单元(GPU)上运行的特殊程序。大多数电脑都有GPU，一个集成"
-"到他们的CPU或离散的(这意味着它是一个单独的硬件组件，例如，标准显卡)。GPU对于"
-"呈现特别有用，因为它们被优化为并行运行数千条指令。"
+"着色器是一种运行在图形处理单元（GPU）上的特殊程序。大多数计算机都有某种GPU，"
+"既可以集成到其CPU中，也可以是独立的GPU（这意味着它是一个单独的硬件组件，例如"
+"典型的显卡）。GPU对于渲染特别有用，因为它们已针对并行运行数千条指令进行了优"
+"化。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:29
 msgid ""
@@ -84,29 +84,30 @@ msgid ""
 "or corner of a Sprite) goes and the fragment shader decides what color "
 "individual pixels receive."
 msgstr ""
-"着色器的输出通常是绘制到视图端口的对象的彩色像素。但是一些着色器允许特殊的输"
-"出(对于像Vulkan这样的应用程序接口尤其如此)。着色器在着色器管道中操作。标准流"
-"程是顶点->片段着色器管道。顶点着色器用于决定每个顶点的位置(3D模型中的点，或者"
-"精灵的一角)去和片段着色器决定什么颜色个别像素接收。"
+"着色器的输出通常是绘制到视口的对象的彩色像素。但是某些着色器允许特殊的输出"
+"（对于Vulkan这样的API尤其如此）。着色器在着色器管道内部运行。标准过程是顶点->"
+"片段着色器管道。顶点着色器用于确定每个顶点（3D模型中的点，或 ``Sprite`` 的"
+"角）的位置，片段着色器确定各个像素接收的颜色。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:35
 msgid ""
 "Suppose you want to update all the pixels in a texture to a given color, on "
 "the CPU you would write:"
-msgstr "假设你想要将纹理中的所有像素更新为给定的颜色，你可以在CPU上这样写："
+msgstr "假设您要在要编写的CPU上，将纹理中的所有像素更新为给定的颜色："
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:43
 msgid ""
 "In a shader you are given access only to the inside of the loop so what you "
 "write looks like this:"
-msgstr "在着色器中，你只能访问循环的内部，所以你写的是这样的："
+msgstr "在着色器中，你只能访问循环的内部，所以你编写的内容如下所示："
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:52
 msgid ""
 "You have no control over how this function is called. So you have to design "
 "your shaders differently from how you would design programs on the CPU."
 msgstr ""
-"您无法控制如何调用此函数。您必须设计不同于在中央处理器上设计程序的着色器。"
+"您无法控制如何调用此函数。因此，您必须以与在CPU上设计程序不同的方式来设计着色"
+"器。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:55
 msgid ""
@@ -117,14 +118,14 @@ msgid ""
 "parallel, as they do not depend on each other. This lack of flexibility is "
 "designed to work with the GPU which allows shaders to be incredibly fast."
 msgstr ""
-"着色器管道的一个后果是，您无法访问着色器上次运行的结果，您无法从正在绘制的像"
-"素中访问其他像素，而且不能在当前绘制的像素之外编写。这使得GPU能够并行地为不同"
-"的像素执行着色器，因为他们彼此不耦合。这种灵活性的缺乏是为GPU的工作设计，使着"
-"色器难以置信的快。"
+"着色器管线的一个结果是，您无法访问上一次着色器的结果，不能从正在绘制的像素中"
+"访问其他像素，也不能在当前绘制的像素之外进行写入。这使GPU可以为不同像素并行执"
+"行着色器，因为它们彼此不依赖。这种缺乏灵活性的设计是为了与GPU配合使用，从而使"
+"着色器变得异常快。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:62
 msgid "What can they do"
-msgstr "它能做什么"
+msgstr "它们能做什么"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:64
 msgid "position vertices very fast"
@@ -144,7 +145,7 @@ msgstr "进行大量的数学计算"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:70
 msgid "What can't they do"
-msgstr "它不能做什么"
+msgstr "它们不能做什么"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:72
 msgid "draw outside mesh"
@@ -152,7 +153,7 @@ msgstr "绘制外部网格"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:73
 msgid "access other pixels from current pixel (or vertices)"
-msgstr "从当前像素(或顶点)访问其他像素"
+msgstr "从当前像素（或顶点）访问其他像素"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:74
 msgid "store previous iterations"
@@ -160,7 +161,7 @@ msgstr "储存之前的迭代"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:75
 msgid "update on the fly (they can, but they need to be compiled)"
-msgstr "动态更新(可以，但是需要编译)"
+msgstr "即时更新（可以，但需要进行编译）"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:78
 msgid "Structure of a shader"
@@ -171,16 +172,16 @@ msgid ""
 "In Godot, shaders are made up of 3 main functions: the ``vertex()`` "
 "function, the ``fragment()`` function and the ``light()`` function."
 msgstr ""
-"在Godot中，着色器由3个主要函数组成:“vertex()”函数，“fragment()”和“light()”函"
-"数。"
+"在Godot中，着色器由3个主要函数组成：``vertex()`` 函数、``fragment()`` 函数、"
+"和 ``light()`` 函数。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:83
 msgid ""
 "The ``vertex()`` function runs over all the vertices in the mesh and sets "
 "their positions as well as some other per-vertex variables."
 msgstr ""
-"“vertex()”函数运行在网格中的所有顶点上，并设置它们的位置以及部分其他每个顶点"
-"的变量。"
+"``vertex()`` 函数运行在网格中的所有顶点上，并设置它们的位置以及部分其他每个顶"
+"点的变量。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:86
 msgid ""
@@ -189,24 +190,25 @@ msgid ""
 "variables from the ``vertex()`` function are interpolated between the "
 "vertices to provide the values for the ``fragment()`` function."
 msgstr ""
-"函数的作用是:为网格所覆盖的每个像素运行“fragment()”函数。它使用“vertex()”函数"
-"中的变量来运行。“vertex()”函数中的变量在顶点之间进行插值，以提"
-"供“fragment()”函数的值。"
+"``fragment()`` 函数针对网格覆盖的每个像素运行。它使用来自 ``vertex()`` 函数中"
+"的变量来运行。来自 ``vertex()`` 函数的变量将在顶点之间进行插值，以提供 "
+"``fragment()`` 函数的值。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:90
 msgid ""
 "The ``light()`` function runs for every pixel and for every light. It takes "
 "variables from the ``fragment()`` function and from previous runs of itself."
 msgstr ""
-"“light()”函数用于每个像素和每束光照。它从“fragment()”函数和以前的运行中获取变"
-"量。"
+"``light()`` 函数针对每个像素和每个光源运行。它从 ``fragment()`` 函数以及其自"
+"身的先前运行中获取变量。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:93
 msgid ""
 "For more information about how shaders operate specifically in Godot see "
 "the :ref:`Shaders <doc_shaders>` doc."
 msgstr ""
-"有关着色器如果在Godot中工作的更多信息，请参阅 :ref:`着色器 <doc_shaders>`。"
+"有关着色器如何在Godot中专门操作的更多信息，请参见 :ref:`着色器 "
+"<doc_shaders>` 文档。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:96
 msgid "Technical overview"
@@ -222,10 +224,10 @@ msgid ""
 "quickly, but only when many or all cores are doing the same calculation at "
 "once, but with different data."
 msgstr ""
-"GPU渲染图形的速度要比CPU快得多，原因如下:但最值得注意的是，它们能够大规模并行"
-"运行计算。CPU通常有4或8个内核，而GPU通常有数千个。这意味着GPU可以一次完成数百"
-"项任务。GPU架构师已经利用了这种方式，允许快速地进行许多计算，但只有当多个或所"
-"有核心同时进行相同的计算时，但数据不同。"
+"GPU能够比CPU更快地渲染图形的一些原因中，最值得注意的是，因为它们能够大规模并"
+"行运行计算。一个CPU通常具有4或8个内核，而GPU通常具有数千个内核。这意味着GPU可"
+"以一次执行数百个任务。GPU架构师已经利用这种方法允许非常快速地执行许多计算，但"
+"是仅当许多或所有内核同时执行相同的计算，却使用不同的数据时才是如此。"
 
 #: ../../docs/tutorials/shading/your_first_shader/what_are_shaders.rst:104
 msgid ""
@@ -242,10 +244,10 @@ msgid ""
 "rendering time will decrease. On a GPU, you have to speed up the entire "
 "wavefront to speed up rendering."
 msgstr ""
-"这就是着色器的作用。GPU会同时调用着色器很多次，然后对不同的数据位(顶点或像素)"
-"进行操作。这些数据束通常被称为波前。一个着色器将在波前运行相同的每一个线程。"
-"例如，如果给定的GPU可以处理每个波前100个线程，波前将一起运行在一个10x10像素块"
-"上。它将继续运行在波前的所有像素，直到它们完成。因此，如果你有一个像素比其他"
-"像素慢(由于过度分支)，整个区域都会减速，导致渲染时间大大降低。这与基于CPU的操"
-"作不同，在CPU上，如果你能加快哪怕一个像素，整个渲染时间都会减少。在GPU上，你"
-"必须加速整个波前来加速渲染。"
+"这就是着色器的作用。GPU将同时调用着色器多次，然后对不同的数据位（顶点或像素）"
+"进行操作。这些数据通常被称为波前。着色器将对波前中的每个线程运行相同的操作。"
+"例如，如果给定的GPU每个波前可以处理100个线程，则波前将一起运行在10x10像素块"
+"上。并且它将继续针对该波前中的所有像素运行，直到完成。因此，如果您有一个像素"
+"慢于其余像素（由于过度分支），则整个块都会变慢，从而导致渲染时间大大降低。这"
+"与基于CPU的操作不同，在CPU上，即使您可以加速一个像素，整个渲染时间也会减少。"
+"在GPU上，您必须加快整个波前速度，以加快渲染速度。"

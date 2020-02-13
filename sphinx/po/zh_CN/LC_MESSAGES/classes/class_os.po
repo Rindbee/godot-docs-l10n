@@ -1,0 +1,3053 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:10
+msgid "OS"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:14
+msgid "Operating System functions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:19
+msgid ""
+"Operating System functions. OS wraps the most common functionality to "
+"communicate with the host operating system, such as the clipboard, video "
+"driver, date and time, timers, environment variables, execution of "
+"binaries, command line, etc."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:92
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:160
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:170
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:25
+msgid ":ref:`clipboard <class_OS_property_clipboard>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:442
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:90
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:154
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:162
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:168
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:172
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:27
+msgid ":ref:`current_screen <class_OS_property_current_screen>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:458
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:474
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:572
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:29
+msgid ":ref:`exit_code <class_OS_property_exit_code>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:70
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:72
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:186
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:188
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:190
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:194
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:200
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:202
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:204
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:206
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:234
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:236
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:31
+msgid ":ref:`keep_screen_on <class_OS_property_keep_screen_on>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:43
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:59
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:492
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:588
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:728
+msgid "``true``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:33
+msgid ""
+":ref:`low_processor_usage_mode "
+"<class_OS_property_low_processor_usage_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:33
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:508
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:604
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:624
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:642
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:658
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:674
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:690
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:35
+msgid ""
+":ref:`low_processor_usage_mode_sleep_usec "
+"<class_OS_property_low_processor_usage_mode_sleep_usec>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:524
+msgid "``6900``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:138
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:37
+msgid ":ref:`max_window_size <class_OS_property_max_window_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:61
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:540
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:556
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:712
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:744
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:39
+msgid ":ref:`min_window_size <class_OS_property_min_window_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:41
+msgid ":ref:`ScreenOrientation <enum_OS_ScreenOrientation>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:41
+msgid ":ref:`screen_orientation <class_OS_property_screen_orientation>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:43
+msgid ":ref:`vsync_enabled <class_OS_property_vsync_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:45
+msgid ":ref:`vsync_via_compositor <class_OS_property_vsync_via_compositor>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:47
+msgid ":ref:`window_borderless <class_OS_property_window_borderless>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:49
+msgid ":ref:`window_fullscreen <class_OS_property_window_fullscreen>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:51
+msgid ":ref:`window_maximized <class_OS_property_window_maximized>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:53
+msgid ":ref:`window_minimized <class_OS_property_window_minimized>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:55
+msgid ""
+":ref:`window_per_pixel_transparency_enabled "
+"<class_OS_property_window_per_pixel_transparency_enabled>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:57
+msgid ":ref:`window_position <class_OS_property_window_position>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:59
+msgid ":ref:`window_resizable <class_OS_property_window_resizable>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:61
+msgid ":ref:`window_size <class_OS_property_window_size>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:65
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:176
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:178
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:192
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:214
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:218
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:220
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:222
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:224
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:230
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:232
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:238
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:240
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:242
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:244
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:248
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:250
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:252
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:256
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:68
+msgid ""
+":ref:`alert <class_OS_method_alert>` **(** :ref:`String <class_String>` "
+"text, :ref:`String <class_String>` title=\"Alert!\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:70
+msgid ":ref:`can_draw <class_OS_method_can_draw>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:72
+msgid ":ref:`can_use_threads <class_OS_method_can_use_threads>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:74
+msgid ":ref:`center_window <class_OS_method_center_window>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:76
+msgid ":ref:`close_midi_inputs <class_OS_method_close_midi_inputs>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:78
+msgid ""
+":ref:`delay_msec <class_OS_method_delay_msec>` **(** :ref:`int "
+"<class_int>` msec **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:80
+msgid ""
+":ref:`delay_usec <class_OS_method_delay_usec>` **(** :ref:`int "
+"<class_int>` usec **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:82
+msgid ""
+":ref:`dump_memory_to_file <class_OS_method_dump_memory_to_file>` **(** "
+":ref:`String <class_String>` file **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:84
+msgid ""
+":ref:`dump_resources_to_file <class_OS_method_dump_resources_to_file>` "
+"**(** :ref:`String <class_String>` file **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:86
+msgid ""
+":ref:`execute <class_OS_method_execute>` **(** :ref:`String "
+"<class_String>` path, :ref:`PackedStringArray <class_PackedStringArray>` "
+"arguments, :ref:`bool <class_bool>` blocking=true, :ref:`Array "
+"<class_Array>` output=[  ], :ref:`bool <class_bool>` read_stderr=false "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:88
+msgid ""
+":ref:`find_keycode_from_string "
+"<class_OS_method_find_keycode_from_string>` **(** :ref:`String "
+"<class_String>` string **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:90
+msgid ""
+":ref:`get_audio_driver_count <class_OS_method_get_audio_driver_count>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:92
+msgid ""
+":ref:`get_audio_driver_name <class_OS_method_get_audio_driver_name>` "
+"**(** :ref:`int <class_int>` driver **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:110
+msgid ":ref:`PackedStringArray <class_PackedStringArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:94
+msgid ":ref:`get_cmdline_args <class_OS_method_get_cmdline_args>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:96
+msgid ""
+":ref:`get_connected_midi_inputs "
+"<class_OS_method_get_connected_midi_inputs>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:98
+msgid ":ref:`VideoDriver <enum_OS_VideoDriver>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:98
+msgid ""
+":ref:`get_current_video_driver "
+"<class_OS_method_get_current_video_driver>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:104
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:156
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:158
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:100
+msgid ""
+":ref:`get_date <class_OS_method_get_date>` **(** :ref:`bool <class_bool>`"
+" utc=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:102
+msgid ""
+":ref:`get_datetime <class_OS_method_get_datetime>` **(** :ref:`bool "
+"<class_bool>` utc=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:104
+msgid ""
+":ref:`get_datetime_from_unix_time "
+"<class_OS_method_get_datetime_from_unix_time>` **(** :ref:`int "
+"<class_int>` unix_time_val **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:106
+msgid ""
+":ref:`get_environment <class_OS_method_get_environment>` **(** "
+":ref:`String <class_String>` environment **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:108
+msgid ""
+":ref:`get_executable_path <class_OS_method_get_executable_path>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:110
+msgid ""
+":ref:`get_granted_permissions <class_OS_method_get_granted_permissions>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:112
+msgid ""
+":ref:`get_ime_selection <class_OS_method_get_ime_selection>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:114
+msgid ":ref:`get_ime_text <class_OS_method_get_ime_text>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:116
+msgid ""
+":ref:`get_latin_keyboard_variant "
+"<class_OS_method_get_latin_keyboard_variant>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:118
+msgid ":ref:`get_locale <class_OS_method_get_locale>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:120
+msgid ":ref:`get_model_name <class_OS_method_get_model_name>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:122
+msgid ":ref:`get_name <class_OS_method_get_name>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:124
+msgid ":ref:`get_process_id <class_OS_method_get_process_id>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:126
+msgid ""
+":ref:`get_processor_count <class_OS_method_get_processor_count>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:128
+msgid ""
+":ref:`get_real_window_size <class_OS_method_get_real_window_size>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:130
+msgid ""
+":ref:`get_keycode_string <class_OS_method_get_keycode_string>` **(** "
+":ref:`int <class_int>` code **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:132
+msgid ""
+":ref:`get_screen_count <class_OS_method_get_screen_count>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:134
+msgid ""
+":ref:`get_screen_dpi <class_OS_method_get_screen_dpi>` **(** :ref:`int "
+"<class_int>` screen=-1 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:136
+msgid ""
+":ref:`get_screen_position <class_OS_method_get_screen_position>` **(** "
+":ref:`int <class_int>` screen=-1 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:138
+msgid ""
+":ref:`get_screen_size <class_OS_method_get_screen_size>` **(** :ref:`int "
+"<class_int>` screen=-1 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:140
+msgid ""
+":ref:`get_splash_tick_msec <class_OS_method_get_splash_tick_msec>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:142
+msgid ""
+":ref:`get_static_memory_peak_usage "
+"<class_OS_method_get_static_memory_peak_usage>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:144
+msgid ""
+":ref:`get_static_memory_usage <class_OS_method_get_static_memory_usage>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:146
+msgid ""
+":ref:`get_system_dir <class_OS_method_get_system_dir>` **(** "
+":ref:`SystemDir <enum_OS_SystemDir>` dir **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:148
+msgid ""
+":ref:`get_system_time_msecs <class_OS_method_get_system_time_msecs>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:150
+msgid ""
+":ref:`get_system_time_secs <class_OS_method_get_system_time_secs>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:152
+msgid ":ref:`get_ticks_msec <class_OS_method_get_ticks_msec>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:154
+msgid ":ref:`get_ticks_usec <class_OS_method_get_ticks_usec>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:156
+msgid ""
+":ref:`get_time <class_OS_method_get_time>` **(** :ref:`bool <class_bool>`"
+" utc=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:158
+msgid ""
+":ref:`get_time_zone_info <class_OS_method_get_time_zone_info>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:160
+msgid ":ref:`get_unique_id <class_OS_method_get_unique_id>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:162
+msgid ":ref:`get_unix_time <class_OS_method_get_unix_time>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:164
+msgid ""
+":ref:`get_unix_time_from_datetime "
+"<class_OS_method_get_unix_time_from_datetime>` **(** :ref:`Dictionary "
+"<class_Dictionary>` datetime **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:166
+msgid ""
+":ref:`get_user_data_dir <class_OS_method_get_user_data_dir>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:168
+msgid ""
+":ref:`get_video_driver_count <class_OS_method_get_video_driver_count>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:170
+msgid ""
+":ref:`get_video_driver_name <class_OS_method_get_video_driver_name>` "
+"**(** :ref:`VideoDriver <enum_OS_VideoDriver>` driver **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:172
+msgid ""
+":ref:`get_virtual_keyboard_height "
+"<class_OS_method_get_virtual_keyboard_height>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:174
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:174
+msgid ""
+":ref:`get_window_safe_area <class_OS_method_get_window_safe_area>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:176
+msgid ""
+":ref:`global_menu_add_item <class_OS_method_global_menu_add_item>` **(** "
+":ref:`String <class_String>` menu, :ref:`String <class_String>` label, "
+":ref:`Variant <class_Variant>` id, :ref:`Variant <class_Variant>` meta "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:178
+msgid ""
+":ref:`global_menu_add_separator "
+"<class_OS_method_global_menu_add_separator>` **(** :ref:`String "
+"<class_String>` menu **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:180
+msgid ""
+":ref:`global_menu_clear <class_OS_method_global_menu_clear>` **(** "
+":ref:`String <class_String>` menu **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:182
+msgid ""
+":ref:`global_menu_remove_item <class_OS_method_global_menu_remove_item>` "
+"**(** :ref:`String <class_String>` menu, :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:184
+msgid ""
+":ref:`has_environment <class_OS_method_has_environment>` **(** "
+":ref:`String <class_String>` environment **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:186
+msgid ""
+":ref:`has_feature <class_OS_method_has_feature>` **(** :ref:`String "
+"<class_String>` tag_name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:188
+msgid ""
+":ref:`has_touchscreen_ui_hint <class_OS_method_has_touchscreen_ui_hint>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:190
+msgid ""
+":ref:`has_virtual_keyboard <class_OS_method_has_virtual_keyboard>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:192
+msgid ""
+":ref:`hide_virtual_keyboard <class_OS_method_hide_virtual_keyboard>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:194
+msgid ":ref:`is_debug_build <class_OS_method_is_debug_build>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:196
+msgid ""
+":ref:`is_ok_left_and_cancel_right "
+"<class_OS_method_is_ok_left_and_cancel_right>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:198
+msgid ""
+":ref:`is_keycode_unicode <class_OS_method_is_keycode_unicode>` **(** "
+":ref:`int <class_int>` code **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:200
+msgid ""
+":ref:`is_stdout_verbose <class_OS_method_is_stdout_verbose>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:202
+msgid ""
+":ref:`is_userfs_persistent <class_OS_method_is_userfs_persistent>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:204
+msgid ""
+":ref:`is_window_always_on_top <class_OS_method_is_window_always_on_top>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:206
+msgid ""
+":ref:`is_window_focused <class_OS_method_is_window_focused>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:208
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:216
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:246
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:254
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:208
+msgid ":ref:`kill <class_OS_method_kill>` **(** :ref:`int <class_int>` pid **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:210
+msgid ""
+":ref:`move_window_to_foreground "
+"<class_OS_method_move_window_to_foreground>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:212
+msgid ""
+":ref:`native_video_is_playing <class_OS_method_native_video_is_playing>` "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:214
+msgid ":ref:`native_video_pause <class_OS_method_native_video_pause>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:216
+msgid ""
+":ref:`native_video_play <class_OS_method_native_video_play>` **(** "
+":ref:`String <class_String>` path, :ref:`float <class_float>` volume, "
+":ref:`String <class_String>` audio_track, :ref:`String <class_String>` "
+"subtitle_track **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:218
+msgid ":ref:`native_video_stop <class_OS_method_native_video_stop>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:220
+msgid ""
+":ref:`native_video_unpause <class_OS_method_native_video_unpause>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:222
+msgid ":ref:`open_midi_inputs <class_OS_method_open_midi_inputs>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:224
+msgid ""
+":ref:`print_all_resources <class_OS_method_print_all_resources>` **(** "
+":ref:`String <class_String>` tofile=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:226
+msgid ""
+":ref:`print_all_textures_by_size "
+"<class_OS_method_print_all_textures_by_size>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:228
+msgid ""
+":ref:`print_resources_by_type <class_OS_method_print_resources_by_type>` "
+"**(** :ref:`PackedStringArray <class_PackedStringArray>` types **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:230
+msgid ""
+":ref:`print_resources_in_use <class_OS_method_print_resources_in_use>` "
+"**(** :ref:`bool <class_bool>` short=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:232
+msgid ":ref:`request_attention <class_OS_method_request_attention>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:234
+msgid ""
+":ref:`request_permission <class_OS_method_request_permission>` **(** "
+":ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:236
+msgid ""
+":ref:`request_permissions <class_OS_method_request_permissions>` **(** "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:238
+msgid ""
+":ref:`set_icon <class_OS_method_set_icon>` **(** :ref:`Image "
+"<class_Image>` icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:240
+msgid ""
+":ref:`set_ime_active <class_OS_method_set_ime_active>` **(** :ref:`bool "
+"<class_bool>` active **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:242
+msgid ""
+":ref:`set_ime_position <class_OS_method_set_ime_position>` **(** "
+":ref:`Vector2 <class_Vector2>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:244
+msgid ""
+":ref:`set_native_icon <class_OS_method_set_native_icon>` **(** "
+":ref:`String <class_String>` filename **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:246
+msgid ""
+":ref:`set_thread_name <class_OS_method_set_thread_name>` **(** "
+":ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:248
+msgid ""
+":ref:`set_use_file_access_save_and_swap "
+"<class_OS_method_set_use_file_access_save_and_swap>` **(** :ref:`bool "
+"<class_bool>` enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:250
+msgid ""
+":ref:`set_window_always_on_top "
+"<class_OS_method_set_window_always_on_top>` **(** :ref:`bool "
+"<class_bool>` enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:252
+msgid ""
+":ref:`set_window_title <class_OS_method_set_window_title>` **(** "
+":ref:`String <class_String>` title **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:254
+msgid ""
+":ref:`shell_open <class_OS_method_shell_open>` **(** :ref:`String "
+"<class_String>` uri **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:256
+msgid ""
+":ref:`show_virtual_keyboard <class_OS_method_show_virtual_keyboard>` "
+"**(** :ref:`String <class_String>` existing_text=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:260
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:268
+msgid "enum **VideoDriver**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:270
+msgid ""
+"**VIDEO_DRIVER_GLES2** = **0** --- The GLES2 rendering backend. It uses "
+"OpenGL ES 2.0 on mobile devices, OpenGL 2.1 on desktop platforms and "
+"WebGL 1.0 on the web."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:272
+msgid "**VIDEO_DRIVER_VULKAN** = **1** --- The Vulkan rendering backend."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:292
+msgid "enum **Weekday**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:294
+msgid "**DAY_SUNDAY** = **0** --- Sunday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:296
+msgid "**DAY_MONDAY** = **1** --- Monday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:298
+msgid "**DAY_TUESDAY** = **2** --- Tuesday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:300
+msgid "**DAY_WEDNESDAY** = **3** --- Wednesday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:302
+msgid "**DAY_THURSDAY** = **4** --- Thursday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:304
+msgid "**DAY_FRIDAY** = **5** --- Friday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:306
+msgid "**DAY_SATURDAY** = **6** --- Saturday."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:336
+msgid "enum **Month**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:338
+msgid "**MONTH_JANUARY** = **1** --- January."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:340
+msgid "**MONTH_FEBRUARY** = **2** --- February."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:342
+msgid "**MONTH_MARCH** = **3** --- March."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:344
+msgid "**MONTH_APRIL** = **4** --- April."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:346
+msgid "**MONTH_MAY** = **5** --- May."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:348
+msgid "**MONTH_JUNE** = **6** --- June."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:350
+msgid "**MONTH_JULY** = **7** --- July."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:352
+msgid "**MONTH_AUGUST** = **8** --- August."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:354
+msgid "**MONTH_SEPTEMBER** = **9** --- September."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:356
+msgid "**MONTH_OCTOBER** = **10** --- October."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:358
+msgid "**MONTH_NOVEMBER** = **11** --- November."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:360
+msgid "**MONTH_DECEMBER** = **12** --- December."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:380
+msgid "enum **ScreenOrientation**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:382
+msgid "**SCREEN_ORIENTATION_LANDSCAPE** = **0** --- Landscape screen orientation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:384
+msgid "**SCREEN_ORIENTATION_PORTRAIT** = **1** --- Portrait screen orientation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:386
+msgid ""
+"**SCREEN_ORIENTATION_REVERSE_LANDSCAPE** = **2** --- Reverse landscape "
+"screen orientation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:388
+msgid ""
+"**SCREEN_ORIENTATION_REVERSE_PORTRAIT** = **3** --- Reverse portrait "
+"screen orientation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:390
+msgid ""
+"**SCREEN_ORIENTATION_SENSOR_LANDSCAPE** = **4** --- Uses landscape or "
+"reverse landscape based on the hardware sensor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:392
+msgid ""
+"**SCREEN_ORIENTATION_SENSOR_PORTRAIT** = **5** --- Uses portrait or "
+"reverse portrait based on the hardware sensor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:394
+msgid ""
+"**SCREEN_ORIENTATION_SENSOR** = **6** --- Uses most suitable orientation "
+"based on the hardware sensor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:416
+msgid "enum **SystemDir**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:418
+msgid "**SYSTEM_DIR_DESKTOP** = **0** --- Desktop directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:420
+msgid ""
+"**SYSTEM_DIR_DCIM** = **1** --- DCIM (Digital Camera Images) directory "
+"path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:422
+msgid "**SYSTEM_DIR_DOCUMENTS** = **2** --- Documents directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:424
+msgid "**SYSTEM_DIR_DOWNLOADS** = **3** --- Downloads directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:426
+msgid "**SYSTEM_DIR_MOVIES** = **4** --- Movies directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:428
+msgid "**SYSTEM_DIR_MUSIC** = **5** --- Music directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:430
+msgid "**SYSTEM_DIR_PICTURES** = **6** --- Pictures directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:432
+msgid "**SYSTEM_DIR_RINGTONES** = **7** --- Ringtones directory path."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:435
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:439
+msgid ":ref:`String <class_String>` **clipboard**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:442
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:458
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:474
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:492
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:508
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:524
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:540
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:556
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:572
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:588
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:604
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:624
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:642
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:658
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:674
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:690
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:712
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:728
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:744
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:444
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:460
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:476
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:494
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:510
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:526
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:542
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:558
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:574
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:590
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:606
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:626
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:644
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:660
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:676
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:692
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:714
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:730
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:746
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:444
+msgid "set_clipboard(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:446
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:462
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:478
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:496
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:512
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:528
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:544
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:560
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:576
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:592
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:608
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:628
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:646
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:662
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:678
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:694
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:716
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:732
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:748
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:446
+msgid "get_clipboard()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:449
+msgid "The clipboard from the host OS. Might be unavailable on some platforms."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:455
+msgid ":ref:`int <class_int>` **current_screen**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:460
+msgid "set_current_screen(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:462
+msgid "get_current_screen()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:465
+msgid "The current screen index (starting from 0)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:471
+msgid ":ref:`int <class_int>` **exit_code**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:476
+msgid "set_exit_code(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:478
+msgid "get_exit_code()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:481
+msgid ""
+"The exit code passed to the OS when the main loop exits. By convention, "
+"an exit code of ``0`` indicates success whereas a non-zero exit code "
+"indicates an error. For portability reasons, the exit code should be set "
+"between 0 and 125 (inclusive)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:483
+msgid ""
+"**Note:** This value will be ignored if using :ref:`SceneTree.quit "
+"<class_SceneTree_method_quit>` with an ``exit_code`` argument passed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:489
+msgid ":ref:`bool <class_bool>` **keep_screen_on**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:494
+msgid "set_keep_screen_on(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:496
+msgid "is_keep_screen_on()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:499
+msgid ""
+"If ``true``, the engine tries to keep the screen on while the game is "
+"running. Useful on mobile."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:505
+msgid ":ref:`bool <class_bool>` **low_processor_usage_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:510
+msgid "set_low_processor_usage_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:512
+msgid "is_in_low_processor_usage_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:515
+msgid ""
+"If ``true``, the engine optimizes for low processor usage by only "
+"refreshing the screen if needed. Can improve battery consumption on "
+"mobile."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:521
+msgid ":ref:`int <class_int>` **low_processor_usage_mode_sleep_usec**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:526
+msgid "set_low_processor_usage_mode_sleep_usec(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:528
+msgid "get_low_processor_usage_mode_sleep_usec()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:531
+msgid ""
+"The amount of sleeping between frames when the low-processor usage mode "
+"is enabled (in microseconds). Higher values will result in lower CPU "
+"usage."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:537
+msgid ":ref:`Vector2 <class_Vector2>` **max_window_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:542
+msgid "set_max_window_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:544
+msgid "get_max_window_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:547
+msgid ""
+"The maximum size of the window (without counting window manager "
+"decorations). Does not affect fullscreen mode. Set to ``(0, 0)`` to reset"
+" to the system default value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:553
+msgid ":ref:`Vector2 <class_Vector2>` **min_window_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:558
+msgid "set_min_window_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:560
+msgid "get_min_window_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:563
+msgid ""
+"The minimum size of the window (without counting window manager "
+"decorations). Does not affect fullscreen mode. Set to ``(0, 0)`` to reset"
+" to the system default value."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:569
+msgid ""
+":ref:`ScreenOrientation <enum_OS_ScreenOrientation>` "
+"**screen_orientation**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:574
+msgid "set_screen_orientation(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:576
+msgid "get_screen_orientation()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:579
+msgid "The current screen orientation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:585
+msgid ":ref:`bool <class_bool>` **vsync_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:590
+msgid "set_use_vsync(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:592
+msgid "is_vsync_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:595
+msgid "If ``true``, vertical synchronization (Vsync) is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:601
+msgid ":ref:`bool <class_bool>` **vsync_via_compositor**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:606
+msgid "set_vsync_via_compositor(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:608
+msgid "is_vsync_via_compositor_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:611
+msgid ""
+"If ``true`` and ``vsync_enabled`` is true, the operating system's window "
+"compositor will be used for vsync when the compositor is enabled and the "
+"game is in windowed mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:613
+msgid ""
+"**Note:** This option is experimental and meant to alleviate stutter "
+"experienced by some users. However, some users have experienced a Vsync "
+"framerate halving (e.g. from 60 FPS to 30 FPS) when using it."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:615
+msgid "**Note:** This property is only implemented on Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:621
+msgid ":ref:`bool <class_bool>` **window_borderless**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:626
+msgid "set_borderless_window(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:628
+msgid "get_borderless_window()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:631
+msgid "If ``true``, removes the window frame."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:633
+msgid ""
+"**Note:** Setting ``window_borderless`` to ``false`` disables per-pixel "
+"transparency."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:639
+msgid ":ref:`bool <class_bool>` **window_fullscreen**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:644
+msgid "set_window_fullscreen(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:646
+msgid "is_window_fullscreen()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:649
+msgid "If ``true``, the window is fullscreen."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:655
+msgid ":ref:`bool <class_bool>` **window_maximized**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:660
+msgid "set_window_maximized(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:662
+msgid "is_window_maximized()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:665
+msgid "If ``true``, the window is maximized."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:671
+msgid ":ref:`bool <class_bool>` **window_minimized**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:676
+msgid "set_window_minimized(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:678
+msgid "is_window_minimized()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:681
+msgid "If ``true``, the window is minimized."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:687
+msgid ":ref:`bool <class_bool>` **window_per_pixel_transparency_enabled**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:692
+msgid "set_window_per_pixel_transparency_enabled(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:694
+msgid "get_window_per_pixel_transparency_enabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:697
+msgid ""
+"If ``true``, the window background is transparent and window frame is "
+"removed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:699
+msgid ""
+"Use ``get_tree().get_root().set_transparent_background(true)`` to disable"
+" main viewport background rendering."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:701
+msgid ""
+"**Note:** This property has no effect if **Project > Project Settings > "
+"Display > Window > Per-pixel transparency > Allowed** setting is "
+"disabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:703
+msgid "**Note:** This property is implemented on HTML5, Linux, macOS and Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:709
+msgid ":ref:`Vector2 <class_Vector2>` **window_position**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:714
+msgid "set_window_position(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:716
+msgid "get_window_position()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:719
+msgid ""
+"The window position relative to the screen, the origin is the top left "
+"corner, +Y axis goes to the bottom and +X axis goes to the right."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:725
+msgid ":ref:`bool <class_bool>` **window_resizable**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:730
+msgid "set_window_resizable(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:732
+msgid "is_window_resizable()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:735
+msgid "If ``true``, the window is resizable by the user."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:741
+msgid ":ref:`Vector2 <class_Vector2>` **window_size**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:746
+msgid "set_window_size(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:748
+msgid "get_window_size()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:751
+msgid "The size of the window (without counting window manager decorations)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:754
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:758
+msgid ""
+"void **alert** **(** :ref:`String <class_String>` text, :ref:`String "
+"<class_String>` title=\"Alert!\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:760
+msgid ""
+"Displays a modal dialog box using the host OS' facilities. Execution is "
+"blocked until the dialog is closed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:766
+msgid ":ref:`bool <class_bool>` **can_draw** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:768
+msgid "Returns ``true`` if the host OS allows drawing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:774
+msgid ":ref:`bool <class_bool>` **can_use_threads** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:776
+msgid "Returns ``true`` if the current host platform is using multiple threads."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:782
+msgid "void **center_window** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:784
+msgid "Centers the window on the screen if in windowed mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:790
+msgid "void **close_midi_inputs** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:792
+msgid "Shuts down system MIDI driver."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:794
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:915
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1444
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1504
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1546
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1592
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1602
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1640
+msgid "**Note:** This method is implemented on Linux, macOS and Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:800
+msgid "void **delay_msec** **(** :ref:`int <class_int>` msec **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:802
+msgid "Delay execution of the current thread by ``msec`` milliseconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:808
+msgid "void **delay_usec** **(** :ref:`int <class_int>` usec **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:810
+msgid "Delay execution of the current thread by ``usec`` microseconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:816
+msgid "void **dump_memory_to_file** **(** :ref:`String <class_String>` file **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:818
+msgid "Dumps the memory allocation ringlist to a file (only works in debug)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:820
+msgid "Entry format per line: \"Address - Size - Description\"."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:826
+msgid ""
+"void **dump_resources_to_file** **(** :ref:`String <class_String>` file "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:828
+msgid "Dumps all used resources to file (only works in debug)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:830
+msgid "Entry format per line: \"Resource Type : Resource Location\"."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:832
+msgid "At the end of the file is a statistic of all used Resource Types."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:838
+msgid ""
+":ref:`int <class_int>` **execute** **(** :ref:`String <class_String>` "
+"path, :ref:`PackedStringArray <class_PackedStringArray>` arguments, "
+":ref:`bool <class_bool>` blocking=true, :ref:`Array <class_Array>` "
+"output=[  ], :ref:`bool <class_bool>` read_stderr=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:840
+msgid ""
+"Execute the file at the given path with the arguments passed as an array "
+"of strings. Platform path resolution will take place. The resolved file "
+"must exist and be executable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:842
+msgid ""
+"The arguments are used in the given order and separated by a space, so "
+"``OS.execute(\"ping\", [\"-w\", \"3\", \"godotengine.org\"], false)`` "
+"will resolve to ``ping -w 3 godotengine.org`` in the system's shell."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:844
+msgid ""
+"This method has slightly different behavior based on whether the "
+"``blocking`` mode is enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:846
+msgid ""
+"If ``blocking`` is ``true``, the Godot thread will pause its execution "
+"while waiting for the process to terminate. The shell output of the "
+"process will be written to the ``output`` array as a single string. When "
+"the process terminates, the Godot thread will resume execution."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:848
+msgid ""
+"If ``blocking`` is ``false``, the Godot thread will continue while the "
+"new process runs. It is not possible to retrieve the shell output in non-"
+"blocking mode, so ``output`` will be empty."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:850
+msgid ""
+"The return value also depends on the blocking mode. When blocking, the "
+"method will return an exit code of the process. When non-blocking, the "
+"method returns a process ID, which you can use to monitor the process "
+"(and potentially terminate it with :ref:`kill <class_OS_method_kill>`). "
+"If the process forking (non-blocking) or opening (blocking) fails, the "
+"method will return ``-1`` or another exit code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:852
+msgid "Example of blocking mode and retrieving the shell output:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:859
+msgid ""
+"Example of non-blocking mode, running another instance of the project and"
+" storing its process ID:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:865
+msgid ""
+"If you wish to access a shell built-in or perform a composite command, a "
+"platform-specific shell can be invoked. For example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:871
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1047
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1434
+msgid ""
+"**Note:** This method is implemented on Android, iOS, Linux, macOS and "
+"Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:877
+msgid ""
+":ref:`int <class_int>` **find_keycode_from_string** **(** :ref:`String "
+"<class_String>` string **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:879
+msgid "Returns the keycode of the given string (e.g. \"Escape\")."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:885
+msgid ":ref:`int <class_int>` **get_audio_driver_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:887
+msgid "Returns the total number of available audio drivers."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:893
+msgid ""
+":ref:`String <class_String>` **get_audio_driver_name** **(** :ref:`int "
+"<class_int>` driver **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:895
+msgid "Returns the audio driver name for the given index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:901
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` **get_cmdline_args** "
+"**(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:903
+msgid "Returns the command line arguments passed to the engine."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:909
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` "
+"**get_connected_midi_inputs** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:911
+msgid "Returns an array of MIDI device names."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:913
+msgid ""
+"The returned array will be empty if the system MIDI driver has not "
+"previously been initialised with :ref:`open_midi_inputs "
+"<class_OS_method_open_midi_inputs>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:921
+msgid ""
+":ref:`VideoDriver <enum_OS_VideoDriver>` **get_current_video_driver** "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:923
+msgid ""
+"Returns the currently used video driver, using one of the values from "
+":ref:`VideoDriver <enum_OS_VideoDriver>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:929
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_date** **(** :ref:`bool "
+"<class_bool>` utc=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:931
+msgid ""
+"Returns current date as a dictionary of keys: ``year``, ``month``, "
+"``day``, ``weekday``, ``dst`` (Daylight Savings Time)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:937
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_datetime** **(** :ref:`bool "
+"<class_bool>` utc=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:939
+msgid ""
+"Returns current datetime as a dictionary of keys: ``year``, ``month``, "
+"``day``, ``weekday``, ``dst`` (Daylight Savings Time), ``hour``, "
+"``minute``, ``second``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:945
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_datetime_from_unix_time** "
+"**(** :ref:`int <class_int>` unix_time_val **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:947
+msgid ""
+"Gets a dictionary of time values corresponding to the given UNIX epoch "
+"time (in seconds)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:949
+msgid ""
+"The returned Dictionary's values will be the same as :ref:`get_datetime "
+"<class_OS_method_get_datetime>`, with the exception of Daylight Savings "
+"Time as it cannot be determined from the epoch."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:955
+msgid ""
+":ref:`String <class_String>` **get_environment** **(** :ref:`String "
+"<class_String>` environment **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:957
+msgid "Returns an environment variable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:963
+msgid ":ref:`String <class_String>` **get_executable_path** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:965
+msgid "Returns the path to the current engine executable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:971
+msgid ""
+":ref:`PackedStringArray <class_PackedStringArray>` "
+"**get_granted_permissions** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:973
+msgid ""
+"With this function you can get the list of dangerous permissions that "
+"have been granted to the Android application."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:975
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1564
+msgid "**Note:** This method is implemented on Android."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:981
+msgid ":ref:`Vector2 <class_Vector2>` **get_ime_selection** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:983
+msgid ""
+"Returns the IME cursor position (the currently-edited portion of the "
+"string) relative to the characters in the composition string."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:985
+msgid ""
+":ref:`MainLoop.NOTIFICATION_OS_IME_UPDATE "
+"<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>` is sent to the "
+"application to notify it of changes to the IME cursor position."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:987
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:999
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1288
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1298
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1308
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1318
+msgid "**Note:** This method is implemented on macOS."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:993
+msgid ":ref:`String <class_String>` **get_ime_text** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:995
+msgid "Returns the IME intermediate composition string."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:997
+msgid ""
+":ref:`MainLoop.NOTIFICATION_OS_IME_UPDATE "
+"<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>` is sent to the "
+"application to notify it of changes to the IME composition string."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1005
+msgid ""
+":ref:`String <class_String>` **get_latin_keyboard_variant** **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1007
+msgid "Returns the current latin keyboard variant as a String."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1009
+msgid ""
+"Possible return values are: ``\"QWERTY\"``, ``\"AZERTY\"``, "
+"``\"QZERTY\"``, ``\"DVORAK\"``, ``\"NEO\"``, ``\"COLEMAK\"`` or "
+"``\"ERROR\"``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1011
+msgid ""
+"**Note:** This method is implemented on Linux, macOS and Windows. Returns"
+" ``\"QWERTY\"`` on unsupported platforms."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1017
+msgid ":ref:`String <class_String>` **get_locale** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1019
+msgid "Returns the host OS locale."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1025
+msgid ":ref:`String <class_String>` **get_model_name** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1027
+msgid "Returns the model name of the current device."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1029
+msgid ""
+"**Note:** This method is implemented on Android and iOS. Returns "
+"``\"GenericDevice\"`` on unsupported platforms."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1035
+msgid ":ref:`String <class_String>` **get_name** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1037
+msgid ""
+"Returns the name of the host OS. Possible values are: ``\"Android\"``, "
+"``\"Haiku\"``, ``\"iOS\"``, ``\"HTML5\"``, ``\"OSX\"``, ``\"Server\"``, "
+"``\"Windows\"``, ``\"UWP\"``, ``\"X11\"``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1043
+msgid ":ref:`int <class_int>` **get_process_id** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1045
+msgid "Returns the project's process ID."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1053
+msgid ":ref:`int <class_int>` **get_processor_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1055
+msgid "Returns the number of threads available on the host machine."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1061
+msgid ":ref:`Vector2 <class_Vector2>` **get_real_window_size** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1063
+msgid "Returns the window size including decorations like window borders."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1069
+msgid ""
+":ref:`String <class_String>` **get_keycode_string** **(** :ref:`int "
+"<class_int>` code **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1071
+msgid ""
+"Returns the given keycode as a string (e.g. Return values: "
+"``\"Escape\"``, ``\"Shift+Escape\"``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1073
+msgid ""
+"See also :ref:`InputEventKey.keycode "
+"<class_InputEventKey_property_keycode>` and "
+":ref:`InputEventKey.get_keycode_with_modifiers "
+"<class_InputEventKey_method_get_keycode_with_modifiers>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1079
+msgid ":ref:`int <class_int>` **get_screen_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1081
+msgid "Returns the number of displays attached to the host machine."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1087
+msgid ""
+":ref:`int <class_int>` **get_screen_dpi** **(** :ref:`int <class_int>` "
+"screen=-1 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1089
+msgid ""
+"Returns the dots per inch density of the specified screen. If ``screen`` "
+"is ``-1`` (the default value), the current screen will be used."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1091
+msgid ""
+"On Android devices, the actual screen densities are grouped into six "
+"generalized densities:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1102
+msgid ""
+"**Note:** This method is implemented on Android, Linux, macOS and "
+"Windows. Returns ``72`` on unsupported platforms."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1108
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_screen_position** **(** :ref:`int "
+"<class_int>` screen=-1 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1110
+msgid ""
+"Returns the position of the specified screen by index. If ``screen`` is "
+"``-1`` (the default value), the current screen will be used."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1116
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_screen_size** **(** :ref:`int "
+"<class_int>` screen=-1 **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1118
+msgid ""
+"Returns the dimensions in pixels of the specified screen. If ``screen`` "
+"is ``-1`` (the default value), the current screen will be used."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1124
+msgid ":ref:`int <class_int>` **get_splash_tick_msec** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1126
+msgid ""
+"Returns the amount of time in milliseconds it took for the boot logo to "
+"appear."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1132
+msgid ":ref:`int <class_int>` **get_static_memory_peak_usage** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1134
+msgid "Returns the maximum amount of static memory used (only works in debug)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1140
+msgid ":ref:`int <class_int>` **get_static_memory_usage** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1142
+msgid "Returns the amount of static memory being used by the program in bytes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1148
+msgid ""
+":ref:`String <class_String>` **get_system_dir** **(** :ref:`SystemDir "
+"<enum_OS_SystemDir>` dir **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1150
+msgid ""
+"Returns the actual path to commonly used folders across different "
+"platforms. Available locations are specified in :ref:`SystemDir "
+"<enum_OS_SystemDir>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1152
+msgid "**Note:** This method is implemented on Android, Linux, macOS and Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1158
+msgid ":ref:`int <class_int>` **get_system_time_msecs** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1160
+msgid "Returns the epoch time of the operating system in milliseconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1166
+msgid ":ref:`int <class_int>` **get_system_time_secs** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1168
+msgid "Returns the epoch time of the operating system in seconds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1174
+msgid ":ref:`int <class_int>` **get_ticks_msec** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1176
+msgid ""
+"Returns the amount of time passed in milliseconds since the engine "
+"started."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1182
+msgid ":ref:`int <class_int>` **get_ticks_usec** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1184
+msgid ""
+"Returns the amount of time passed in microseconds since the engine "
+"started."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1190
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_time** **(** :ref:`bool "
+"<class_bool>` utc=false **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1192
+msgid "Returns current time as a dictionary of keys: hour, minute, second."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1198
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_time_zone_info** **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1200
+msgid ""
+"Returns the current time zone as a dictionary with the keys: bias and "
+"name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1206
+msgid ":ref:`String <class_String>` **get_unique_id** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1208
+msgid "Returns a string that is unique to the device."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1210
+msgid ""
+"**Note:** Returns an empty string on HTML5 and UWP, as this method isn't "
+"implemented on those platforms yet."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1216
+msgid ":ref:`int <class_int>` **get_unix_time** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1218
+msgid "Returns the current UNIX epoch timestamp."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1224
+msgid ""
+":ref:`int <class_int>` **get_unix_time_from_datetime** **(** "
+":ref:`Dictionary <class_Dictionary>` datetime **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1226
+msgid "Gets an epoch time value from a dictionary of time values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1228
+msgid ""
+"``datetime`` must be populated with the following keys: ``year``, "
+"``month``, ``day``, ``hour``, ``minute``, ``second``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1230
+msgid ""
+"You can pass the output from :ref:`get_datetime_from_unix_time "
+"<class_OS_method_get_datetime_from_unix_time>` directly into this "
+"function. Daylight Savings Time (``dst``), if present, is ignored."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1236
+msgid ":ref:`String <class_String>` **get_user_data_dir** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1238
+msgid ""
+"Returns the absolute directory path where user data is written "
+"(``user://``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1240
+msgid ""
+"On Linux, this is ``~/.local/share/godot/app_userdata/[project_name]``, "
+"or ``~/.local/share/[custom_name]`` if ``use_custom_user_dir`` is set."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1242
+msgid ""
+"On macOS, this is ``~/Library/Application "
+"Support/Godot/app_userdata/[project_name]``, or ``~/Library/Application "
+"Support/[custom_name]`` if ``use_custom_user_dir`` is set."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1244
+msgid ""
+"On Windows, this is ``%APPDATA%\\Godot\\app_userdata\\[project_name]``, "
+"or ``%APPDATA%\\[custom_name]`` if ``use_custom_user_dir`` is set. "
+"``%APPDATA%`` expands to ``%USERPROFILE%\\AppData\\Roaming``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1246
+msgid "If the project name is empty, ``user://`` falls back to ``res://``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1252
+msgid ":ref:`int <class_int>` **get_video_driver_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1254
+msgid "Returns the number of video drivers supported on the current platform."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1260
+msgid ""
+":ref:`String <class_String>` **get_video_driver_name** **(** "
+":ref:`VideoDriver <enum_OS_VideoDriver>` driver **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1262
+msgid ""
+"Returns the name of the video driver matching the given ``driver`` index."
+" This index is a value from :ref:`VideoDriver <enum_OS_VideoDriver>`, and"
+" you can use :ref:`get_current_video_driver "
+"<class_OS_method_get_current_video_driver>` to get the current backend's "
+"index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1268
+msgid ":ref:`int <class_int>` **get_virtual_keyboard_height** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1270
+msgid ""
+"Returns the on-screen keyboard's height in pixels. Returns 0 if there is "
+"no keyboard or if it is currently hidden."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1276
+msgid ":ref:`Rect2 <class_Rect2>` **get_window_safe_area** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1278
+msgid ""
+"Returns unobscured area of the window where interactive controls should "
+"be rendered."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1284
+msgid ""
+"void **global_menu_add_item** **(** :ref:`String <class_String>` menu, "
+":ref:`String <class_String>` label, :ref:`Variant <class_Variant>` id, "
+":ref:`Variant <class_Variant>` meta **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1286
+msgid ""
+"Add a new item with text \"label\" to global menu. Use \"_dock\" menu to "
+"add item to the macOS dock icon menu."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1294
+msgid ""
+"void **global_menu_add_separator** **(** :ref:`String <class_String>` "
+"menu **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1296
+msgid "Add a separator between items. Separators also occupy an index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1304
+msgid "void **global_menu_clear** **(** :ref:`String <class_String>` menu **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1306
+msgid "Clear the global menu, in effect removing all items."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1314
+msgid ""
+"void **global_menu_remove_item** **(** :ref:`String <class_String>` menu,"
+" :ref:`int <class_int>` idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1316
+msgid ""
+"Removes the item at index \"idx\" from the global menu. Note that the "
+"indexes of items after the removed item are going to be shifted by one."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1324
+msgid ""
+":ref:`bool <class_bool>` **has_environment** **(** :ref:`String "
+"<class_String>` environment **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1326
+msgid "Returns ``true`` if an environment variable exists."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1332
+msgid ""
+":ref:`bool <class_bool>` **has_feature** **(** :ref:`String "
+"<class_String>` tag_name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1334
+msgid ""
+"Returns ``true`` if the feature for the given feature tag is supported in"
+" the currently running instance, depending on platform, build etc. Can be"
+" used to check whether you're currently running a debug build, on a "
+"certain platform or arch, etc. Refer to the `Feature Tags "
+"<https://docs.godotengine.org/en/latest/getting_started/workflow/export/feature_tags.html>`_"
+" documentation for more details."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1336
+msgid "**Note:** Tag names are case-sensitive."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1342
+msgid ":ref:`bool <class_bool>` **has_touchscreen_ui_hint** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1344
+msgid "Returns ``true`` if the device has a touchscreen or emulates one."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1350
+msgid ":ref:`bool <class_bool>` **has_virtual_keyboard** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1352
+msgid ""
+"Returns ``true`` if the platform has a virtual keyboard, ``false`` "
+"otherwise."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1358
+msgid "void **hide_virtual_keyboard** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1360
+msgid "Hides the virtual keyboard if it is shown, does nothing otherwise."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1366
+msgid ":ref:`bool <class_bool>` **is_debug_build** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1368
+msgid ""
+"Returns ``true`` if the Godot binary used to run the project is a *debug*"
+" export template, or when running in the editor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1370
+msgid ""
+"Returns ``false`` if the Godot binary used to run the project is a "
+"*release* export template."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1372
+msgid ""
+"To check whether the Godot binary used to run the project is an export "
+"template (debug or release), use ``OS.has_feature(\"standalone\")`` "
+"instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1378
+msgid ":ref:`bool <class_bool>` **is_ok_left_and_cancel_right** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1380
+msgid ""
+"Returns ``true`` if the **OK** button should appear on the left and "
+"**Cancel** on the right."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1386
+msgid ""
+":ref:`bool <class_bool>` **is_keycode_unicode** **(** :ref:`int "
+"<class_int>` code **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1388
+msgid "Returns ``true`` if the input keycode corresponds to a Unicode character."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1394
+msgid ":ref:`bool <class_bool>` **is_stdout_verbose** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1396
+msgid "Returns ``true`` if the engine was executed with ``-v`` (verbose stdout)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1402
+msgid ":ref:`bool <class_bool>` **is_userfs_persistent** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1404
+msgid ""
+"If ``true``, the ``user://`` file system is persistent, so that its state"
+" is the same after a player quits and starts the game again. Relevant to "
+"the HTML5 platform, where this persistence may be unavailable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1410
+msgid ":ref:`bool <class_bool>` **is_window_always_on_top** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1412
+msgid "Returns ``true`` if the window should always be on top of other windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1418
+msgid ":ref:`bool <class_bool>` **is_window_focused** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1420
+msgid "Returns ``true`` if the window is currently focused."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1422
+msgid ""
+"**Note:** Only implemented on desktop platforms. On other platforms, it "
+"will always return ``true``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1428
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **kill** **(** :ref:`int "
+"<class_int>` pid **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1430
+msgid ""
+"Kill (terminate) the process identified by the given process ID "
+"(``pid``), e.g. the one returned by :ref:`execute "
+"<class_OS_method_execute>` in non-blocking mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1432
+msgid ""
+"**Note:** This method can also be used to kill processes that were not "
+"spawned by the game."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1440
+msgid "void **move_window_to_foreground** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1442
+msgid "Moves the window to the front."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1450
+msgid ":ref:`bool <class_bool>` **native_video_is_playing** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1452
+msgid "Returns ``true`` if native video is playing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1454
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1464
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1484
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1494
+msgid "**Note:** This method is implemented on Android and iOS."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1460
+msgid "void **native_video_pause** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1462
+msgid "Pauses native video playback."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1470
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **native_video_play** **(** "
+":ref:`String <class_String>` path, :ref:`float <class_float>` volume, "
+":ref:`String <class_String>` audio_track, :ref:`String <class_String>` "
+"subtitle_track **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1472
+msgid ""
+"Plays native video from the specified path, at the given volume and with "
+"audio and subtitle tracks."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1474
+msgid ""
+"**Note:** This method is implemented on Android and iOS, and the current "
+"Android implementation does not support the ``volume``, ``audio_track`` "
+"and ``subtitle_track`` options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1480
+msgid "void **native_video_stop** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1482
+msgid "Stops native video playback."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1490
+msgid "void **native_video_unpause** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1492
+msgid "Resumes native video playback."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1500
+msgid "void **open_midi_inputs** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1502
+msgid "Initialises the singleton for the system MIDI driver."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1510
+msgid ""
+"void **print_all_resources** **(** :ref:`String <class_String>` "
+"tofile=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1512
+msgid ""
+"Shows all resources in the game. Optionally, the list can be written to a"
+" file by specifying a file path in ``tofile``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1518
+msgid "void **print_all_textures_by_size** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1520
+msgid "Shows the list of loaded textures sorted by size in memory."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1526
+msgid ""
+"void **print_resources_by_type** **(** :ref:`PackedStringArray "
+"<class_PackedStringArray>` types **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1528
+msgid "Shows the number of resources loaded by the game of the given types."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1534
+msgid ""
+"void **print_resources_in_use** **(** :ref:`bool <class_bool>` "
+"short=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1536
+msgid "Shows all resources currently used by the game."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1542
+msgid "void **request_attention** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1544
+msgid ""
+"Request the user attention to the window. It'll flash the taskbar button "
+"on Windows or bounce the dock icon on OSX."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1552
+msgid ""
+":ref:`bool <class_bool>` **request_permission** **(** :ref:`String "
+"<class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1554
+msgid ""
+"At the moment this function is only used by ``AudioDriverOpenSL`` to "
+"request permission for ``RECORD_AUDIO`` on Android."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1560
+msgid ":ref:`bool <class_bool>` **request_permissions** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1562
+msgid ""
+"With this function you can request dangerous permissions since normal "
+"permissions are automatically granted at install time in Android "
+"application."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1570
+msgid "void **set_icon** **(** :ref:`Image <class_Image>` icon **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1572
+msgid "Sets the game's icon using an :ref:`Image <class_Image>` resource."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1574
+msgid ""
+"The same image is used for window caption, taskbar/dock and window "
+"selection dialog. Image is scaled as needed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1576
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1652
+msgid "**Note:** This method is implemented on HTML5, Linux, macOS and Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1582
+msgid "void **set_ime_active** **(** :ref:`bool <class_bool>` active **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1584
+msgid "Sets whether IME input mode should be enabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1586
+msgid ""
+"If active IME handles key events before the application and creates an "
+"composition string and suggestion list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1588
+msgid ""
+"Application can retrieve the composition status by using "
+":ref:`get_ime_selection <class_OS_method_get_ime_selection>` and "
+":ref:`get_ime_text <class_OS_method_get_ime_text>` functions."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1590
+msgid "Completed composition string is committed when input is finished."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1598
+msgid ""
+"void **set_ime_position** **(** :ref:`Vector2 <class_Vector2>` position "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1600
+msgid "Sets position of IME suggestion list popup (in window coordinates)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1608
+msgid "void **set_native_icon** **(** :ref:`String <class_String>` filename **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1610
+msgid ""
+"Sets the game's icon using a multi-size platform-specific icon file "
+"(``*.ico`` on Windows and ``*.icns`` on macOS)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1612
+msgid ""
+"Appropriate size sub-icons are used for window caption, taskbar/dock and "
+"window selection dialog."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1614
+msgid "**Note:** This method is implemented on macOS and Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1620
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **set_thread_name** **(** "
+":ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1622
+msgid "Sets the name of the current thread."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1628
+msgid ""
+"void **set_use_file_access_save_and_swap** **(** :ref:`bool <class_bool>`"
+" enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1630
+msgid "Enables backup saves if ``enabled`` is ``true``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1636
+msgid ""
+"void **set_window_always_on_top** **(** :ref:`bool <class_bool>` enabled "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1638
+msgid "Sets whether the window should always be on top."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1646
+msgid "void **set_window_title** **(** :ref:`String <class_String>` title **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1648
+msgid "Sets the window title to the specified string."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1650
+msgid ""
+"**Note:** This should be used sporadically. Don't set this every frame, "
+"as that will negatively affect performance on some window managers."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1658
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **shell_open** **(** :ref:`String "
+"<class_String>` uri **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1660
+msgid ""
+"Requests the OS to open a resource with the most appropriate program. For"
+" example:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1662
+msgid ""
+"``OS.shell_open(\"C:\\\\Users\\name\\Downloads\")`` on Windows opens the "
+"file explorer at the user's Downloads folder."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1664
+msgid ""
+"``OS.shell_open(\"https://godotengine.org\")`` opens the default web "
+"browser on the official Godot website."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1666
+msgid ""
+"``OS.shell_open(\"mailto:example@example.com\")`` opens the default email"
+" client with the \"To\" field set to ``example@example.com``. See "
+"`Customizing ``mailto:`` Links <https://blog.escapecreative.com"
+"/customizing-mailto-links/>`_ for a list of fields that can be added."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1668
+msgid ""
+"**Note:** This method is implemented on Android, iOS, HTML5, Linux, macOS"
+" and Windows."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1674
+msgid ""
+"void **show_virtual_keyboard** **(** :ref:`String <class_String>` "
+"existing_text=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1676
+msgid ""
+"Shows the virtual keyboard if the platform has one. The ``existing_text``"
+" parameter is useful for implementing your own LineEdit, as it tells the "
+"virtual keyboard what text has already been typed (the virtual keyboard "
+"uses it for auto-correct and predictions)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_os.rst:1678
+msgid "**Note:** This method is implemented on Android, iOS and UWP."
+msgstr ""
+
+#~ msgid "Returns the amount of battery left in the device as a percentage."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an estimate of the time "
+#~ "left in seconds before the device "
+#~ "runs out of battery."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Note:** This method is only "
+#~ "implemented on Android and iOS, and "
+#~ "the current Android implementation does "
+#~ "not support the ``volume``, ``audio_track``"
+#~ " and ``subtitle_track`` options."
+#~ msgstr ""
+
+#~ msgid "**Note:** This method is only implemented on macOS and Windows."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "true"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "6900"
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`execute <class_OS_method_execute>` **(** "
+#~ ":ref:`String <class_String>` path, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` arguments,"
+#~ " :ref:`bool <class_bool>` blocking, :ref:`Array"
+#~ " <class_Array>` output=[  ], :ref:`bool "
+#~ "<class_bool>` read_stderr=false **)**"
+#~ msgstr ""
+
+#~ msgid "The exit code passed to the OS when the main loop exits."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **execute** **(** "
+#~ ":ref:`String <class_String>` path, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` arguments,"
+#~ " :ref:`bool <class_bool>` blocking, :ref:`Array"
+#~ " <class_Array>` output=[  ], :ref:`bool "
+#~ "<class_bool>` read_stderr=false **)**"
+#~ msgstr ""
+
+#~ msgid "Returns ``true`` if the build is a debug build."
+#~ msgstr ""
+
+#~ msgid "Returns ``true`` when running in the editor."
+#~ msgstr ""
+
+#~ msgid "Returns ``false`` if the build is a release build."
+#~ msgstr ""
+
+#~ msgid "**Note:** This property is implemented on Linux, macOS and Windows."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`execute <class_OS_method_execute>` **(** "
+#~ ":ref:`String <class_String>` path, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` arguments,"
+#~ " :ref:`bool <class_bool>` blocking=true, "
+#~ ":ref:`Array <class_Array>` output=[  ], "
+#~ ":ref:`bool <class_bool>` read_stderr=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`find_scancode_from_string "
+#~ "<class_OS_method_find_scancode_from_string>` **(** "
+#~ ":ref:`String <class_String>` string **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolStringArray <class_PoolStringArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_dynamic_memory_usage "
+#~ "<class_OS_method_get_dynamic_memory_usage>` **(** **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_power_percent_left "
+#~ "<class_OS_method_get_power_percent_left>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_power_seconds_left "
+#~ "<class_OS_method_get_power_seconds_left>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PowerState <enum_OS_PowerState>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`get_power_state <class_OS_method_get_power_state>` **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_scancode_string <class_OS_method_get_scancode_string>`"
+#~ " **(** :ref:`int <class_int>` code **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`is_scancode_unicode <class_OS_method_is_scancode_unicode>`"
+#~ " **(** :ref:`int <class_int>` code **)**"
+#~ " const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`print_resources_by_type "
+#~ "<class_OS_method_print_resources_by_type>` **(** "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` types "
+#~ "**)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**VIDEO_DRIVER_GLES2** = **1** --- The "
+#~ "GLES2 rendering backend. It uses OpenGL"
+#~ " ES 2.0 on mobile devices, OpenGL "
+#~ "2.1 on desktop platforms and WebGL "
+#~ "1.0 on the web."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**VIDEO_DRIVER_GLES3** = **0** --- The "
+#~ "GLES3 rendering backend. It uses OpenGL"
+#~ " ES 3.0 on mobile devices, OpenGL "
+#~ "3.3 on desktop platforms and WebGL "
+#~ "2.0 on the web."
+#~ msgstr ""
+
+#~ msgid "enum **PowerState**:"
+#~ msgstr ""
+
+#~ msgid "**POWERSTATE_UNKNOWN** = **0** --- Unknown powerstate."
+#~ msgstr ""
+
+#~ msgid "**POWERSTATE_ON_BATTERY** = **1** --- Unplugged, running on battery."
+#~ msgstr ""
+
+#~ msgid "**POWERSTATE_NO_BATTERY** = **2** --- Plugged in, no battery available."
+#~ msgstr ""
+
+#~ msgid "**POWERSTATE_CHARGING** = **3** --- Plugged in, battery charging."
+#~ msgstr ""
+
+#~ msgid "**POWERSTATE_CHARGED** = **4** --- Plugged in, battery fully charged."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **execute** **(** "
+#~ ":ref:`String <class_String>` path, "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` arguments,"
+#~ " :ref:`bool <class_bool>` blocking=true, "
+#~ ":ref:`Array <class_Array>` output=[  ], "
+#~ ":ref:`bool <class_bool>` read_stderr=false **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`int <class_int>` **find_scancode_from_string** "
+#~ "**(** :ref:`String <class_String>` string "
+#~ "**)** const"
+#~ msgstr ""
+
+#~ msgid "Returns the scancode of the given string (e.g. \"Escape\")."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "**get_cmdline_args** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "**get_connected_midi_inputs** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_dynamic_memory_usage** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid "Returns the total amount of dynamic memory used (only works in debug)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` "
+#~ "**get_granted_permissions** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_power_percent_left** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the amount of battery left "
+#~ "in the device as a percentage. "
+#~ "Returns ``-1`` if power state is "
+#~ "unknown."
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_power_seconds_left** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns an estimate of the time "
+#~ "left in seconds before the device "
+#~ "runs out of battery. Returns ``-1`` "
+#~ "if power state is unknown."
+#~ msgstr ""
+
+#~ msgid ":ref:`PowerState <enum_OS_PowerState>` **get_power_state** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the current state of the "
+#~ "device regarding battery and power. See"
+#~ " :ref:`PowerState <enum_OS_PowerState>` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`String <class_String>` **get_scancode_string** "
+#~ "**(** :ref:`int <class_int>` code **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the given scancode as a "
+#~ "string (e.g. Return values: ``\"Escape\"``,"
+#~ " ``\"Shift+Escape\"``)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "See also :ref:`InputEventKey.scancode "
+#~ "<class_InputEventKey_property_scancode>` and "
+#~ ":ref:`InputEventKey.get_scancode_with_modifiers "
+#~ "<class_InputEventKey_method_get_scancode_with_modifiers>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`bool <class_bool>` **is_scancode_unicode** "
+#~ "**(** :ref:`int <class_int>` code **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns ``true`` if the input scancode"
+#~ " corresponds to a Unicode character."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **print_resources_by_type** **(** "
+#~ ":ref:`PoolStringArray <class_PoolStringArray>` types "
+#~ "**)**"
+#~ msgstr ""
+

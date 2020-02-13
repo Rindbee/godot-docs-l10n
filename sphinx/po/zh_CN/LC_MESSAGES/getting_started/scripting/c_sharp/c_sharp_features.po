@@ -1,42 +1,46 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2020-03-02 20:34+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.3\n"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:4
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:4
 msgid "Features"
 msgstr "功能"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:6
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:6
 msgid ""
 "This page provides an overview of the commonly used features of both C# and "
 "Godot and how they are used together."
 msgstr "本页概述了C#和Godot的常用功能以及它们如何一起使用。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:12
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:12
 msgid "Type conversion and casting"
 msgstr "类型转换和强制转换"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:14
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:14
 msgid ""
 "C# is a statically typed language. Therefore, you can't do the following:"
 msgstr "C#是一种静态类型语言。因此，您无法执行以下操作："
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:21
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:21
 msgid ""
 "The method ``GetNode()`` returns a ``Node`` instance. You must explicitly "
 "convert it to the desired derived type, ``Sprite`` in this case."
@@ -44,15 +48,15 @@ msgstr ""
 "方法 ``GetNode()`` 返回一个 ``Node`` 实例。在这种情况下，您必须将其显式转换为"
 "所需的派生类型， ``Sprite``。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:24
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:24
 msgid "For this, you have various options in C#."
 msgstr "为此，在C#中有多种选择。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:26
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:26
 msgid "**Casting and Type Checking**"
 msgstr "**强制转换和类型检查**"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:28
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:28
 msgid ""
 "Throws ``InvalidCastException`` if the returned node cannot be cast to "
 "Sprite. You would use it instead of the ``as`` operator if you are pretty "
@@ -61,29 +65,28 @@ msgstr ""
 "如果返回的节点无法转换为Sprite，则抛出 ``InvalidCastException`` 。如果您非常"
 "确定它不会失败，您可以使用它而不是 ``as`` 运算符。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:36
 msgid "**Using the AS operator**"
 msgstr "**使用AS运算符**"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:38
-#, fuzzy
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:38
 msgid ""
 "The ``as`` operator returns ``null`` if the node cannot be cast to Sprite, "
 "and for that reason, it cannot be used with value types."
 msgstr ""
-"如果节点无法转换为 ``Sprite``，则 ``as`` 运算符返回 ``null``，因此它不能与值"
-"类型一起使用。"
+"如果节点无法转换为 ``Sprite``，则 ``as`` 运算符返回 ``null``，因此，它不能与"
+"值类型一起使用。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:47
 msgid "**Using the generic methods**"
 msgstr "**使用泛型方法**"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:49
 msgid ""
 "Generic methods are also provided to make this type conversion transparent."
 msgstr "还提供了泛型方法以使该类型转换透明。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:51
 msgid ""
 "``GetNode<T>()`` casts the node before returning it. It will throw an "
 "``InvalidCastException`` if the node cannot be cast to the desired type."
@@ -91,7 +94,7 @@ msgstr ""
 "``GetNode <T>()`` 在返回之前强制转换节点。如果节点无法强制转换为所需类型，它"
 "将抛出一个 ``InvalidCastException``。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:58
 msgid ""
 "``GetNodeOrNull<T>()`` uses the ``as`` operator and will return ``null`` if "
 "the node cannot be cast to the desired type."
@@ -99,11 +102,11 @@ msgstr ""
 "``GetNodeOrNull <T>()`` 使用 ``as`` 运算符，如果节点无法强制转换为所需类型，"
 "则返回 ``null``。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:66
 msgid "**Type checking using the IS operator**"
 msgstr "**使用IS运算符进行类型检查**"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:68
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:68
 msgid ""
 "To check if the node can be cast to Sprite, you can use the ``is`` operator. "
 "The ``is`` operator returns false if the node cannot be cast to Sprite, "
@@ -112,7 +115,7 @@ msgstr ""
 "要检查节点是否可以强制转换为 ``Sprite``，可以使用 ``is`` 运算符。如果节点无法"
 "转换为 ``Sprite``，则 ``is`` 运算符返回 ``false``，否则返回 ``true``。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:79
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:79
 msgid ""
 "For more advanced type checking, you can look into `Pattern Matching "
 "<https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching>`_."
@@ -120,11 +123,11 @@ msgstr ""
 "对于更高级的类型检查，您可以查看 `模式匹配 <https://docs.microsoft.com/en-us/"
 "dotnet/csharp/pattern-matching>`_。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:84
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:84
 msgid "C# signals"
 msgstr "C# 信号"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:86
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:86
 msgid ""
 "For a complete C# example, see the **Handling a signal** section in the step "
 "by step :ref:`doc_scripting` tutorial."
@@ -132,14 +135,14 @@ msgstr ""
 "有关完整的C#示例，请参阅逐步 :ref:`doc_scripting` 教程中的 **处理信号** 部"
 "分。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:88
 msgid ""
 "Declaring a signal in C# is done with the ``[Signal]`` attribute on a "
 "delegate."
 msgstr ""
 "在C#中声明一个信号是通过一个 ``delegate`` 上的 ``[Signal]`` 属性完成的。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:98
 msgid ""
 "These signals can then be connected either in the editor or from code with "
 "``Connect``. If you want to connect a signal in the editor, you need to "
@@ -147,12 +150,15 @@ msgid ""
 "manually triggered by clicking the “Build” button at the top right corner of "
 "the editor window."
 msgstr ""
+"这些信号然后可以在编辑器中或通过带有 ``Connect`` 的代码连接。如果要在编辑器中"
+"连接信号，则需要（重新）构建项目程序集以查看新信号。单击编辑器窗口右上角的“构"
+"建”按钮可以手动触发此构建。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:119
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:119
 msgid "Emitting signals is done with the ``EmitSignal`` method."
 msgstr "发射信号是通过 ``EmitSignal`` 方法完成的。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:129
 msgid ""
 "Notice that you can always reference a signal name with the ``nameof`` "
 "keyword (applied on the delegate itself)."
@@ -160,13 +166,13 @@ msgstr ""
 "请注意，您始终可以使用 ``nameof`` 关键字引用信号名称（应用于 ``委托"
 "（delegate）`` 本身）。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:131
 msgid ""
 "It is possible to bind values when establishing a connection by passing an "
 "object array."
 msgstr "建立连接时可以通过传递对象数组来绑定值。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:151
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:151
 msgid ""
 "Signals support parameters and bound values of all the `built-in types "
 "<https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/"
@@ -181,7 +187,7 @@ msgstr ""
 "``Reference`` 将自动兼容，但是自定义数据对象将需要从 ``Godot.Object`` 或其子"
 "类之中扩展。"
 
-#: ../../docs/getting_started/scripting/c_sharp/c_sharp_features.rst:163
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:163
 msgid ""
 "Finally, signals can be created by calling ``AddUserSignal``, but be aware "
 "that it should be executed before any use of said signals (with ``Connect`` "
@@ -189,3 +195,103 @@ msgid ""
 msgstr ""
 "最后，可以通过调用 ``AddUserSignal`` 来创建信号，但要注意它应该在使用所述信号"
 "之前执行（使用 ``Connect`` 或 ``EmitSignal``）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:174
+msgid "Preprocessor defines"
+msgstr "预处理器定义"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:176
+msgid ""
+"Godot has a set of defines that allow you to change your C# code depending "
+"on the environment you are compiling to."
+msgstr "Godot有一组定义，可让您根据要编译的环境来更改C#代码。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:179
+msgid ""
+"If you created your project before Godot 3.2, you have to modify or "
+"regenerate your `csproj` file to use this feature (compare "
+"``<DefineConstants>`` with a new 3.2+ project)."
+msgstr ""
+"如果您在Godot 3.2之前创建了项目，则必须修改或重新生成 ``csproj`` 文件才能使用"
+"此功能（将 ``<DefineConstants>`` 与一个新的3.2+项目进行比较）。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:184
+msgid "Examples"
+msgstr "示例"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:186
+msgid "For example, you can change code based on the platform:"
+msgstr "例如，您可以根据平台更改代码："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:203
+msgid ""
+"Or you can detect which engine your code is in, useful for making cross-"
+"engine libraries:"
+msgstr "或者，您可以检测代码所在的引擎，这对于创建跨引擎库很有用："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:219
+msgid "Full list of defines"
+msgstr "定义的完整列表"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:221
+msgid "``GODOT`` is always defined for Godot projects."
+msgstr "总是为Godot项目定义 ``GODOT``。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:223
+msgid ""
+"One of ``GODOT_64`` or ``GODOT_32`` is defined depending on if the "
+"architecture is 64-bit or 32-bit."
+msgstr "根据体系结构是64位还是32位，定义了 ``GODOT_64`` 或 ``GODOT_32`` 之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:225
+msgid ""
+"One of ``GODOT_X11``, ``GODOT_WINDOWS``, ``GODOT_OSX``, ``GODOT_ANDROID``, "
+"``GODOT_HTML5``, or ``GODOT_SERVER`` depending on the OS. These names may "
+"change in the future. These are created from the ``get_name()`` method of "
+"the :ref:``OS <class_OS>`` singleton, but not every possible OS the method "
+"returns is an OS that Godot with Mono runs on."
+msgstr ""
+"取决于操作系统，``GODOT_X11``、``GODOT_WINDOWS``、``GODOT_OSX``、"
+"``GODOT_ANDROID``、``GODOT_HTML5``、或 ``GODOT_SERVER`` 之一。这些名称将来可"
+"能会更改。这些是从 :ref:`OS <class_OS>` 单例的 ``get_name()`` 方法创建的，但"
+"并非该方法返回的每个可能的操作系统都是运行Godot和Mono的操作系统。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:230
+msgid ""
+"When **exporting**, the following may also be defined depending on the "
+"export features:"
+msgstr "**导出** 时，还可以根据导出功能定义以下内容："
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:232
+msgid ""
+"One of ``GODOT_PC``, ``GODOT_MOBILE``, or ``GODOT_WEB`` depending on the "
+"platform type."
+msgstr ""
+"取决于平台类型，``GODOT_PC``、``GODOT_MOBILE``、或 ``GODOT_WEB`` 之一。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:234
+msgid ""
+"One of ``GODOT_ARM64_V8A`` or ``GODOT_ARMEABI_V7A`` on Android only "
+"depending on the architecture."
+msgstr ""
+"Android上的 ``GODOT_ARM64_V8A`` 或 ``GODOT_ARMEABI_V7A`` 之一，仅取决于架构。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:236
+msgid ""
+"One of ``GODOT_S3TC``, ``GODOT_ETC``, or ``GODOT_ETC2`` depending on the "
+"texture compression type."
+msgstr ""
+"``GODOT_S3TC``、``GODOT_ETC``、或 ``GODOT_ETC2`` 中的一种，取决于纹理压缩类"
+"型。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/getting_started/scripting/c_sharp/c_sharp_features.rst:238
+msgid ""
+"Any custom features added in the export menu will be capitalized and "
+"prefixed: ``foo`` -> ``GODOT_FOO``."
+msgstr ""
+"在导出菜单中添加的所有自定义功能都将大写并加前缀：``foo`` -> ``GODOT_FOO``。"
+
+#~ msgid ""
+#~ "These signals can then be connected either in the editor or from code "
+#~ "with ``Connect``."
+#~ msgstr "然后可以在编辑器中或通过 ``Connect`` 连接代码连接这些信号。"

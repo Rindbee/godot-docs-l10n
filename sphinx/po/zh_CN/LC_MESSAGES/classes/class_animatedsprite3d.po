@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:10
+msgid "AnimatedSprite3D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:12
+msgid ""
+"**Inherits:** :ref:`SpriteBase3D <class_SpriteBase3D>` **<** "
+":ref:`GeometryInstance <class_GeometryInstance>` **<** "
+":ref:`VisualInstance <class_VisualInstance>` **<** :ref:`Spatial "
+"<class_Spatial>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:14
+msgid ""
+"2D sprite node in 3D world, that can use multiple 2D textures for "
+"animation."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:19
+msgid ""
+"Animations are created using a :ref:`SpriteFrames <class_SpriteFrames>` "
+"resource, which can be configured in the editor via the SpriteFrames "
+"panel."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:25
+msgid ":ref:`StringName <class_StringName>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:25
+msgid ":ref:`animation <class_AnimatedSprite3D_property_animation>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:62
+msgid "``@\"default\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:27
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:27
+msgid ":ref:`frame <class_AnimatedSprite3D_property_frame>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:78
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:29
+msgid ":ref:`SpriteFrames <class_SpriteFrames>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:29
+msgid ":ref:`frames <class_AnimatedSprite3D_property_frames>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:38
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:31
+msgid ":ref:`playing <class_AnimatedSprite3D_property_playing>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:108
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:35
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:38
+msgid ""
+":ref:`is_playing <class_AnimatedSprite3D_method_is_playing>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:42
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:40
+msgid ""
+":ref:`play <class_AnimatedSprite3D_method_play>` **(** :ref:`StringName "
+"<class_StringName>` anim=@\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:42
+msgid ":ref:`stop <class_AnimatedSprite3D_method_stop>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:46
+msgid "Signals"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:50
+msgid "**frame_changed** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:52
+msgid "Emitted when :ref:`frame <class_AnimatedSprite3D_property_frame>` changed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:55
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:59
+msgid ":ref:`StringName <class_StringName>` **animation**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:108
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:94
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:64
+msgid "set_animation(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:66
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:82
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:96
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:66
+msgid "get_animation()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:69
+msgid ""
+"The current animation from the ``frames`` resource. If this value "
+"changes, the ``frame`` counter is reset."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:75
+msgid ":ref:`int <class_int>` **frame**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:80
+msgid "set_frame(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:82
+msgid "get_frame()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:85
+msgid "The displayed animation frame's index."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:91
+msgid ":ref:`SpriteFrames <class_SpriteFrames>` **frames**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:94
+msgid "set_sprite_frames(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:96
+msgid "get_sprite_frames()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:99
+msgid ""
+"The :ref:`SpriteFrames <class_SpriteFrames>` resource containing the "
+"animation(s)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:105
+msgid ":ref:`bool <class_bool>` **playing**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:111
+msgid ""
+"If ``true``, the :ref:`animation "
+"<class_AnimatedSprite3D_property_animation>` is currently playing."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:114
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:118
+msgid ":ref:`bool <class_bool>` **is_playing** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:120
+msgid "Returns ``true`` if an animation is currently being played."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:126
+msgid "void **play** **(** :ref:`StringName <class_StringName>` anim=@\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:128
+msgid ""
+"Plays the animation named ``anim``. If no ``anim`` is provided, the "
+"current animation is played."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:134
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_animatedsprite3d.rst:136
+msgid "Stops the current animation (does not reset the frame counter)."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "\"default\""
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>`"
+#~ msgstr ""
+
+#~ msgid "``\"default\"``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`play <class_AnimatedSprite3D_method_play>` **(** "
+#~ ":ref:`String <class_String>` anim=\"\" **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`String <class_String>` **animation**"
+#~ msgstr ""
+
+#~ msgid "void **play** **(** :ref:`String <class_String>` anim=\"\" **)**"
+#~ msgstr ""
+

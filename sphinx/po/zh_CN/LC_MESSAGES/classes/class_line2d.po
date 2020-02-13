@@ -1,0 +1,704 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:10
+msgid "Line2D"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D <class_Node2D>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:14
+msgid "A 2D line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:19
+msgid "A line through several points in 2D space."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:25
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:25
+msgid ":ref:`antialiased <class_Line2D_property_antialiased>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:132
+msgid "``false``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:31
+msgid ":ref:`LineCapMode <enum_Line2D_LineCapMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:27
+msgid ":ref:`begin_cap_mode <class_Line2D_property_begin_cap_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:45
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:288
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:29
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:29
+msgid ":ref:`default_color <class_Line2D_property_default_color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:164
+msgid "``Color( 0.4, 0.5, 1, 1 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:31
+msgid ":ref:`end_cap_mode <class_Line2D_property_end_cap_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:33
+msgid ":ref:`Gradient <class_Gradient>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:33
+msgid ":ref:`gradient <class_Line2D_property_gradient>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:35
+msgid ":ref:`LineJointMode <enum_Line2D_LineJointMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:35
+msgid ":ref:`joint_mode <class_Line2D_property_joint_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:37
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:37
+msgid ":ref:`points <class_Line2D_property_points>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:37
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:226
+msgid "``PackedVector2Array(  )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:60
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:39
+msgid ":ref:`round_precision <class_Line2D_property_round_precision>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:39
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:242
+msgid "``8``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:47
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:41
+msgid ":ref:`sharp_limit <class_Line2D_property_sharp_limit>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:41
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:258
+msgid "``2.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:43
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:43
+msgid ":ref:`texture <class_Line2D_property_texture>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:45
+msgid ":ref:`LineTextureMode <enum_Line2D_LineTextureMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:45
+msgid ":ref:`texture_mode <class_Line2D_property_texture_mode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:47
+msgid ":ref:`width <class_Line2D_property_width>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:304
+msgid "``10.0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:49
+msgid ":ref:`Curve <class_Curve>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:49
+msgid ":ref:`width_curve <class_Line2D_property_width_curve>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:53
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:64
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:66
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:56
+msgid ""
+":ref:`add_point <class_Line2D_method_add_point>` **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`int <class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:58
+msgid ":ref:`clear_points <class_Line2D_method_clear_points>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:60
+msgid ""
+":ref:`get_point_count <class_Line2D_method_get_point_count>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:62
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:62
+msgid ""
+":ref:`get_point_position <class_Line2D_method_get_point_position>` **(** "
+":ref:`int <class_int>` i **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:64
+msgid ""
+":ref:`remove_point <class_Line2D_method_remove_point>` **(** :ref:`int "
+"<class_int>` i **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:66
+msgid ""
+":ref:`set_point_position <class_Line2D_method_set_point_position>` **(** "
+":ref:`int <class_int>` i, :ref:`Vector2 <class_Vector2>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:70
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:80
+msgid "enum **LineJointMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:82
+msgid ""
+"**LINE_JOINT_SHARP** = **0** --- The line's joints will be pointy. If "
+"``sharp_limit`` is greater than the rotation of a joint, it becomes a "
+"bevel joint instead."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:84
+msgid ""
+"**LINE_JOINT_BEVEL** = **1** --- The line's joints will be "
+"bevelled/chamfered."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:86
+msgid "**LINE_JOINT_ROUND** = **2** --- The line's joints will be rounded."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:98
+msgid "enum **LineCapMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:100
+msgid "**LINE_CAP_NONE** = **0** --- Don't draw a line cap."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:102
+msgid "**LINE_CAP_BOX** = **1** --- Draws the line cap as a box."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:104
+msgid "**LINE_CAP_ROUND** = **2** --- Draws the line cap as a circle."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:116
+msgid "enum **LineTextureMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:118
+msgid ""
+"**LINE_TEXTURE_NONE** = **0** --- Takes the left pixels of the texture "
+"and renders it over the whole line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:120
+msgid ""
+"**LINE_TEXTURE_TILE** = **1** --- Tiles the texture over the line. The "
+"texture must be imported with **Repeat** enabled for it to work properly."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:122
+msgid ""
+"**LINE_TEXTURE_STRETCH** = **2** --- Stretches the texture across the "
+"line. Import the texture with **Repeat** disabled for best results."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:125
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:129
+msgid ":ref:`bool <class_bool>` **antialiased**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:164
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:180
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:242
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:258
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:288
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:304
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:166
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:182
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:196
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:228
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:244
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:260
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:274
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:290
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:306
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:320
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:134
+msgid "set_antialiased(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:168
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:184
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:198
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:214
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:230
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:246
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:262
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:276
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:292
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:308
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:322
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:136
+msgid "get_antialiased()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:139
+msgid "If ``true``, the line's border will be anti-aliased."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:145
+msgid ":ref:`LineCapMode <enum_Line2D_LineCapMode>` **begin_cap_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:150
+msgid "set_begin_cap_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:152
+msgid "get_begin_cap_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:155
+msgid ""
+"Controls the style of the line's first point. Use :ref:`LineCapMode "
+"<enum_Line2D_LineCapMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:161
+msgid ":ref:`Color <class_Color>` **default_color**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:166
+msgid "set_default_color(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:168
+msgid "get_default_color()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:171
+msgid "The line's color. Will not be used if a gradient is set."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:177
+msgid ":ref:`LineCapMode <enum_Line2D_LineCapMode>` **end_cap_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:182
+msgid "set_end_cap_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:184
+msgid "get_end_cap_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:187
+msgid ""
+"Controls the style of the line's last point. Use :ref:`LineCapMode "
+"<enum_Line2D_LineCapMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:193
+msgid ":ref:`Gradient <class_Gradient>` **gradient**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:196
+msgid "set_gradient(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:198
+msgid "get_gradient()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:201
+msgid ""
+"The gradient is drawn through the whole line from start to finish. The "
+"default color will not be used if a gradient is set."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:207
+msgid ":ref:`LineJointMode <enum_Line2D_LineJointMode>` **joint_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:212
+msgid "set_joint_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:214
+msgid "get_joint_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:217
+msgid "The style for the points between the start and the end."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:223
+msgid ":ref:`PackedVector2Array <class_PackedVector2Array>` **points**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:228
+msgid "set_points(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:230
+msgid "get_points()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:233
+msgid ""
+"The points that form the lines. The line is drawn between every point set"
+" in this array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:239
+msgid ":ref:`int <class_int>` **round_precision**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:244
+msgid "set_round_precision(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:246
+msgid "get_round_precision()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:249
+msgid ""
+"The smoothness of the rounded joints and caps. This is only used if a cap"
+" or joint is set as round."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:255
+msgid ":ref:`float <class_float>` **sharp_limit**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:260
+msgid "set_sharp_limit(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:262
+msgid "get_sharp_limit()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:265
+msgid ""
+"The direction difference in radians between vector points. This value is "
+"only used if ``joint mode`` is set to :ref:`LINE_JOINT_SHARP "
+"<class_Line2D_constant_LINE_JOINT_SHARP>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:271
+msgid ":ref:`Texture2D <class_Texture2D>` **texture**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:274
+msgid "set_texture(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:276
+msgid "get_texture()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:279
+msgid ""
+"The texture used for the line's texture. Uses ``texture_mode`` for "
+"drawing style."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:285
+msgid ":ref:`LineTextureMode <enum_Line2D_LineTextureMode>` **texture_mode**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:290
+msgid "set_texture_mode(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:292
+msgid "get_texture_mode()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:295
+msgid ""
+"The style to render the ``texture`` on the line. Use "
+":ref:`LineTextureMode <enum_Line2D_LineTextureMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:301
+msgid ":ref:`float <class_float>` **width**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:306
+msgid "set_width(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:308
+msgid "get_width()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:311
+msgid "The line's width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:317
+msgid ":ref:`Curve <class_Curve>` **width_curve**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:320
+msgid "set_curve(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:322
+msgid "get_curve()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:325
+msgid ""
+"The line's width varies with the curve. The original width is simply "
+"multiply by the value of the Curve."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:328
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:332
+msgid ""
+"void **add_point** **(** :ref:`Vector2 <class_Vector2>` position, "
+":ref:`int <class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:334
+msgid ""
+"Adds a point at the ``position``. Appends the point at the end of the "
+"line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:336
+msgid ""
+"If ``at_position`` is given, the point is inserted before the point "
+"number ``at_position``, moving that point (and every point after) after "
+"the inserted point. If ``at_position`` is not given, or is an illegal "
+"value (``at_position < 0`` or ``at_position >= [method "
+"get_point_count]``), the point will be appended at the end of the point "
+"list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:342
+msgid "void **clear_points** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:344
+msgid "Removes all points from the line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:350
+msgid ":ref:`int <class_int>` **get_point_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:352
+msgid "Returns the Line2D's amount of points."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:358
+msgid ""
+":ref:`Vector2 <class_Vector2>` **get_point_position** **(** :ref:`int "
+"<class_int>` i **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:360
+msgid "Returns point ``i``'s position."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:366
+msgid "void **remove_point** **(** :ref:`int <class_int>` i **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:368
+msgid "Removes the point at index ``i`` from the line."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:374
+msgid ""
+"void **set_point_position** **(** :ref:`int <class_int>` i, :ref:`Vector2"
+" <class_Vector2>` position **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_line2d.rst:376
+msgid "Overwrites the position in point ``i`` with the supplied ``position``."
+msgstr ""
+
+#~ msgid ""
+#~ "Controls the style of the line's "
+#~ "first point. Use ``LINE_CAP_*`` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controls the style of the line's "
+#~ "last point. Use ``LINE_CAP_*`` constants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The style to render the ``texture`` "
+#~ "on the line. Use ``LINE_TEXTURE_*`` "
+#~ "constants."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "false"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid "Color( 0.4, 0.5, 1, 1 )"
+#~ msgstr ""
+
+#~ msgid "PoolVector2Array(  )"
+#~ msgstr ""
+
+#~ msgid "8"
+#~ msgstr ""
+
+#~ msgid "2.0"
+#~ msgstr ""
+
+#~ msgid "10.0"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>` **texture**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>`"
+#~ msgstr ""
+
+#~ msgid "``PoolVector2Array(  )``"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector2Array <class_PoolVector2Array>` **points**"
+#~ msgstr ""
+

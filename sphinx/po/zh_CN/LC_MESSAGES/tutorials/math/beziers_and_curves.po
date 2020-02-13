@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-13 11:37+0800\n"
+"PO-Revision-Date: 2020-02-13 23:06+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:4
 msgid "Beziers, curves and paths"
@@ -27,15 +31,16 @@ msgid ""
 "We use them to represent a curve with as little information as possible and "
 "with a high level of flexibility."
 msgstr ""
-"贝塞尔曲线是一种自然几何形状的数学近似。我们用它们来代表一个曲线，含有尽可能"
-"少的信息，保持高水平的灵活性。"
+"贝塞尔曲线是自然几何形状的数学近似。我们使用它们来表示一条曲线，该曲线具有尽"
+"可能少的信息并具有很高的灵活性。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:10
 msgid ""
 "Unlike more abstract mathematical concepts, Bezier curves were created for "
 "industrial design. They are a popular tool in the graphics software industry."
 msgstr ""
-"不像抽象的数学概念，贝塞尔曲线是为工业设计。它们是图形软件行业中的流行工具。"
+"与更抽象的数学概念不同，贝塞尔曲线是为工业设计而创建的。它们是图形软件行业中"
+"流行的工具。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:13
 msgid ""
@@ -44,9 +49,9 @@ msgid ""
 "better understand how Bezier curves work, let's start from its simplest "
 "form: Quadratic Bezier."
 msgstr ""
-"它们依赖于:ref:`插值<doc_interpolation>`，我们在上一篇文章中看到，如何结合多"
-"个步骤来创建平滑的曲线。为了更好地理解贝塞尔曲线的工作原理，我们从最简单的形"
-"式开始：二次贝塞尔曲线。"
+"它们依赖于我们在上一篇文章中看到的 :ref:`插值 <doc_interpolation>`，它结合了"
+"多个步骤来创建平滑曲线。为了更好地了解贝塞尔曲线的工作原理，让我们从其最简单"
+"的形式开始：二次贝塞尔曲线（Quadratic Bezier）。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:19
 msgid "Quadratic Bezier"
@@ -54,7 +59,7 @@ msgstr "二次贝塞尔曲线"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:21
 msgid "Take three points, the minimum required for Quadratic Bezier to work:"
-msgstr "取三个点，这是建立二次贝塞尔曲线所需的最小值："
+msgstr "取三个点，这是建立二次贝塞尔曲线所需的最小数量："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:25
 msgid ""
@@ -63,23 +68,24 @@ msgid ""
 "values ranging from 0 to 1. This gives us two points that move along the "
 "segments as we change the value of ``t`` from 0 to 1."
 msgstr ""
-"为了在它们之间画一条曲线，我们首先在由这三个点构成的两个线段的每个顶点上逐步"
-"插值，使用0到1之间的值。当我们把“t”值从0变成1时，就给出两个沿着线段移动的点。"
+"为了在它们之间绘制一条曲线，首先由三个点组成的两条线段，我们使用0到1范围内的"
+"值，在每条线段的两个顶点上逐步进行插值。当我们将 ``t`` 的值从0更改为1时，这给"
+"出了我们两个沿着线段移动的点。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:37
 msgid ""
 "We then interpolate ``q0`` and ``q1`` to obtain a single point ``r`` that "
 "moves along a curve."
-msgstr "然后，我们插值“q0”和“q1”，以获得沿着曲线移动的单点“r”。"
+msgstr "然后，我们插值 ``q0`` 和 ``q1``，以获得沿着曲线移动的单个点 ``r``。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:46
 msgid "This type of is called a *Quadratic Bezier* curve."
-msgstr "这种类型就被称为*二次贝塞尔*曲线。"
+msgstr "这种类型就被称为 *二次贝塞尔* 曲线。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:50
 #: ../../docs/tutorials/math/beziers_and_curves.rst:114
 msgid "*(Image credit: Wikipedia)*"
-msgstr "*（图像来源：维基百科）*"
+msgstr "*（图片来源：维基百科）*"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:53
 msgid "Cubic Bezier"
@@ -89,15 +95,16 @@ msgstr "三次贝塞尔曲线"
 msgid ""
 "Building upon the previous example, we can get more control by interpolating "
 "between four points."
-msgstr "基于前面的例子，我们可以通过在四个点之间插值得到更多的控制。"
+msgstr ""
+"在前面的示例的基础上，我们可以通过在四个点之间，进行插值来获得更多控制。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:60
 msgid ""
 "We first use a function with four parameters to take four points as an "
 "input, ``p0``, ``p1``, ``p2`` and ``p3``:"
 msgstr ""
-"首先我们使用一个带有四个参数的函数，以四个点作为输"
-"入，“p0”，“p1”，“p2”和“p3”："
+"我们首先使用具有四个参数的函数，以四个点作为输入，分别为 ``p0``, ``p1``, "
+"``p2`` 和 ``p3``："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:68
 msgid ""
@@ -107,17 +114,15 @@ msgstr "我们对每两个点进行线性插值，将它们减少到三个："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:78
 msgid "We then take our three points and reduce them to two:"
-msgstr "然后我们把这三个点缩减为两个点："
+msgstr "然后，我们使用这三点，并简化为两点："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:86
-#, fuzzy
 msgid "And to one:"
-msgstr "以及如何运行它:"
+msgstr "然后到一个点："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:94
-#, fuzzy
 msgid "Here is the full function:"
-msgstr "以下是需要注意的事项:"
+msgstr "这是完整函数："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:110
 msgid ""
@@ -128,12 +133,12 @@ msgstr "结果将是在所有四个点之间的平滑曲线插值："
 msgid ""
 "Cubic Bezier interpolation works the same in 3D, just use ``Vector3`` "
 "instead of ``Vector2``."
-msgstr "三次贝塞尔插值在三维中也是一样的，只需使用“三维向量”而不是“二维向量”。"
+msgstr ""
+"三次贝塞尔插值，在3D中也是一样的，只需使用 ``Vector3`` 而不是 ``Vector2``。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:120
-#, fuzzy
 msgid "Adding control points"
-msgstr "添加灯光"
+msgstr "添加控制点"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:122
 msgid ""
@@ -142,24 +147,24 @@ msgid ""
 "``p2`` and ``p3``, we will store them as:"
 msgstr ""
 "在三次贝塞尔的基础上，我们可以改变两个点的工作方式，来自由地控制曲线的形状。"
-"我们不使用“p0”、“p1”、“p2”和“p3”，而是将它们存储为："
+"我们不使用 ``p0``、``p1``、``p2`` 和 ``p3``，而是将它们存储为："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:126
 msgid "``point0 = p0``: Is the first point, the source"
-msgstr "“point0 = p0”:是第一个点，即源"
+msgstr "``point0 = p0``：是第一个点，即源点"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:127
 msgid "``control0 = p1 - p0``: Is a vector relative to the first control point"
-msgstr "“control0 = p1 - p0”：是相对于第一个控制点的向量"
+msgstr "``control0 = p1 - p0``：是一个相对于第一个控制点的向量"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:128
 msgid ""
 "``control1 = p3 - p2``: Is a vector relative to the second control point"
-msgstr "“control1 = p3 - p2”：是相对于第二个控制点的向量"
+msgstr "``control1 = p3 - p2``：是相对于第二个控制点的向量"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:129
 msgid "``point1 = p3``: Is the second point, the destination"
-msgstr "“point1 = p3”：是第二个点，即终点"
+msgstr "``point1 = p3``：是第二个点，即终点"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:131
 msgid ""
@@ -175,20 +180,20 @@ msgid ""
 "This is how graphics software presents Bezier curves to the users, and how "
 "they work and look in Godot."
 msgstr ""
-"这就是图形软件如何向用户呈现贝塞尔曲线，以及它们在Godot引擎内的工作原理。"
+"这就是图形软件如何向用户呈现贝塞尔曲线，以及它们在Godot引擎内的工作原理和外"
+"观。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:141
 msgid "Curve2D, Curve3D, Path and Path2D"
-msgstr "二维曲线，三维曲线，路径和二维路径"
+msgstr "Curve2D、Curve3D、Path 和 Path2D"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:143
-#, fuzzy
 msgid ""
 "There are two objects that contain curves: :ref:`Curve3D <class_Curve3D>` "
 "and :ref:`Curve2D <class_Curve2D>` (for 3D and 2D respectively)."
 msgstr ""
-"CurveTables 是相同的事情, 除了映射到浮点值的数组或 :ref:`Curve "
-"<class_Curve>`/ :ref:`Curve2D <class_Curve2D>` 资源对象。"
+"有两个包含曲线的对象： :ref:`Curve3D <class_Curve3D>` 和 :ref:`Curve2D "
+"<class_Curve2D>` （分别用于3D和2D）。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:145
 msgid ""
@@ -196,8 +201,8 @@ msgid ""
 "possible to set them to nodes: :ref:`Path <class_Path>` and :ref:`Path2D "
 "<class_Path2D>` (also for 3D and 2D respectively):"
 msgstr ""
-"它们可以包含几个点，允许更长的路径。也可以将它们设置为节点：:ref:`路径"
-"<class_Path>` 和:ref:`二维路径<class_Path2D>` (在三维和二维内都适用):"
+"它们可以包含多个点，从而可以使用更长的路径。也可以将它们设置为节点：:ref:"
+"`Path <class_Path>` 和 :ref:`Path2D <class_Path2D>` （也分别用于3D和2D）："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:149
 msgid ""
@@ -218,14 +223,14 @@ msgid ""
 "distances between points ``p0``, ``p1``, ``p2`` and ``p3`` and there is not "
 "a mathematically simple way to traverse the curve at constant speed."
 msgstr ""
-"评估它们可能是一种选择，但在大多数情况下，它不是很有用。贝塞尔曲线最大的缺点"
-"是如果你以恒定的速度穿过它们，从“t = 0”到“t = 1”，实际的插值不会以恒定的速度"
-"移动。速度也是点“p0”、“p1”、“p2”、“p3”之间距离的插值，没有一个简单的数学方法"
-"以恒定的速度通过曲线。"
+"仅评估它们可能是一种选择，但是在大多数情况下，它不是很有用。贝塞尔曲线的最大"
+"缺点是，如果以恒定速度从 ``t = 0`` 到 ``t = 1`` 遍历它们，则实际插值将 *不会"
+"* 以恒定速度移动。速度也是点 ``p0``、``p1``、``p2`` 和 ``p3`` 之间的距离之间"
+"的插值，并且没有一种数学上简单的方法可以恒速遍历曲线。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:156
 msgid "Let's do a simple example with the following pseudocode:"
-msgstr "让我们用下面的伪代码举个简单的例子："
+msgstr "让我们用下面的伪代码，做一个简单的例子："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:170
 msgid ""
@@ -233,8 +238,8 @@ msgid ""
 "though ``t`` is increased at constant speed. This makes beziers difficult to "
 "use for anything practical out of the box."
 msgstr ""
-"如你所见，圆的速度(以像素/秒为单位)变化，即使“t”值以恒定的速度递增。这也使贝"
-"塞尔难以任何实际的开箱即用。"
+"如您所见，即使 ``t`` 以恒定速度增加，圆的速度（以每秒像素为单位）也有所变化。"
+"这使得贝塞尔曲线，难以在开箱即用的情况下使用。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:173
 msgid "Drawing"
@@ -247,16 +252,16 @@ msgid ""
 "converted to some sort of segments. This is normally difficult, however, "
 "without creating a very high amount of them."
 msgstr ""
-"绘制贝塞尔(或基于曲线的对象)是很常见的用例，但这也不容易。几乎在任何情况下，"
-"贝塞尔曲线需要被转换成某种线段。这通常很难，然而，并没有创建非常高数量的线"
-"段。"
+"绘制贝塞尔曲线（或基于曲线的对象）是一种非常常见的用例，但这也不容易。在几乎"
+"任何情况下，贝塞尔曲线都需要转换为某种线段。这通常很困难，即使，无需创建大量"
+"的对象。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:177
 msgid ""
 "The reason is that some sections of a curve (specifically, corners) may "
 "require considerable amounts of points, while other sections may not:"
 msgstr ""
-"原因是曲线的某些部分(具体来说是角落)可能需要相当多的点，而其他部分不一定："
+"原因是曲线的某些部分（特别是拐角），可能需要大量的点，而其他部分可能不需要："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:181
 msgid ""
@@ -264,17 +269,16 @@ msgid ""
 "relative vectors), the Bezier curve would just be a straight line (so "
 "drawing a high amount of points would be wasteful)."
 msgstr ""
-"另外，如果两个控制点都是“0，0”(请记住它们是相对向量)，贝塞尔曲线就是一条直线"
-"(所以画很多点就是在浪费时间)。"
+"此外，如果两个控制点均为 ``0, 0`` （请记住它们是相对向量），则Bezier曲线就是"
+"一条直线（因此绘制大量的点将是浪费）。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:183
-#, fuzzy
 msgid ""
 "Before drawing Bezier curves, *tessellation* is required. This is often done "
 "with a recursive or divide and conquer function that splits the curve until "
 "the curvature amount becomes less than a certain threshold."
 msgstr ""
-"在绘制贝塞尔曲线之前，必须进行*细分曲面*。一般通过递归或分治函数来完成，该函"
+"在绘制贝塞尔曲线之前，必须进行 *细分曲面*。一般通过递归或分治函数来完成，该函"
 "数将曲线分割，直到曲率值小于某个阈值。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:185
@@ -284,9 +288,10 @@ msgid ""
 "``stages`` of recursion and angle ``tolerance`` arguments). This way, "
 "drawing something based on a curve is easier."
 msgstr ""
-"*曲线*类通过:ref:`二维曲线.细分曲面() <class_Curve2D_method_tessellate>`提供"
-"了这个特性。（其接收可选的递归“阶段”和角度“公差”参数）。这样，根据曲线画东西"
-"就容易多了。"
+"*曲线（Curve）* 类通过 :ref:`Curve2D.tessellate() "
+"<class_Curve2D_method_tessellate>` 函数，提供了这个特性。（该函数接收可选的递"
+"归 ``阶段（stages）`` 和角度 ``公差（tolerance）`` 参数）。这样，根据曲线画东"
+"西就容易多了。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:189
 msgid "Traversal"
@@ -296,7 +301,8 @@ msgstr "遍历"
 msgid ""
 "The last common use case for the curves is to traverse them. Because of what "
 "was mentioned before regarding constant speed, this is also difficult."
-msgstr "最后曲线最常见的用例是遍历。因为之前提到关于匀速的内容，这也是困难的。"
+msgstr ""
+"曲线的最后一个常见用例是遍历它们。由于前面提到的有关恒速的内容，这也很困难。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:193
 msgid ""
@@ -308,18 +314,18 @@ msgid ""
 "get_baked_length()<class_Curve2D_method_get_baked_length>`. The first call "
 "to either of them will bake the curve internally."
 msgstr ""
-"为了更简单，这些曲线需要被“烘焙”成等距点。这样，它们就可以用正则插值逼近（其"
-"可以通过立方选项进一步改进）。要做到这一点，只需使用:ref:`曲线.插值_烘培"
-"()<class_Curve_method_interpolate_baked>`方法结合:ref:`二维曲线.获取_烘焙_长"
-"度()<class_Curve2D_method_get_baked_length>`。第一次调用它们中的任何一个，都"
-"会在内部烘培出曲线。"
+"为了使此操作更容易，需要将曲线 *烘焙* 为等距的点。这样，它们可以通过常规插值"
+"进行近似（可以通过三次选项进一步改进）。为此，只需使用 :ref:`Curve."
+"interpolate_baked()<class_Curve_method_interpolate_baked>` 方法和 :ref:"
+"`Curve2D.get_baked_length()<class_Curve2D_method_get_baked_length>`。第一次调"
+"用它们中的任何一个，都会在内部烘焙曲线。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:196
 msgid ""
 "Traversal at constant speed, then, can be done with the following pseudo-"
 "code:"
-msgstr "匀速遍历，然后，可以用下面的伪代码："
+msgstr "然后，可以使用以下伪代码完成恒速遍历："
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:207
 msgid "And the output will, then, move at constant speed:"
-msgstr "并且输出，然后匀速移动："
+msgstr "然后，输出将以恒定速度移动："

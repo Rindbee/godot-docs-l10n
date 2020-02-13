@@ -1,0 +1,705 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:10
+msgid "Mesh"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:14
+msgid ""
+"**Inherited By:** :ref:`ArrayMesh <class_ArrayMesh>`, :ref:`PrimitiveMesh"
+" <class_PrimitiveMesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:16
+msgid ""
+"A :ref:`Resource <class_Resource>` that contains vertex array-based "
+"geometry."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:21
+msgid ""
+"Mesh is a type of :ref:`Resource <class_Resource>` that contains vertex "
+"array-based geometry, divided in *surfaces*. Each surface contains a "
+"completely separate array and a material used to draw it. Design wise, a "
+"mesh with multiple surfaces is preferred to a single surface, because "
+"objects created in 3D editing software commonly contain multiple "
+"materials."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:24
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:27
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:27
+msgid ":ref:`lightmap_size_hint <class_Mesh_property_lightmap_size_hint>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:226
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:31
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:34
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:38
+msgid ":ref:`Shape <class_Shape>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:34
+msgid ""
+":ref:`create_convex_shape <class_Mesh_method_create_convex_shape>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:36
+msgid ":ref:`Mesh <class_Mesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:36
+msgid ""
+":ref:`create_outline <class_Mesh_method_create_outline>` **(** "
+":ref:`float <class_float>` margin **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:38
+msgid ""
+":ref:`create_trimesh_shape <class_Mesh_method_create_trimesh_shape>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:40
+msgid ":ref:`TriangleMesh <class_TriangleMesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:40
+msgid ""
+":ref:`generate_triangle_mesh <class_Mesh_method_generate_triangle_mesh>` "
+"**(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:42
+msgid ":ref:`AABB <class_AABB>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:42
+msgid ":ref:`get_aabb <class_Mesh_method_get_aabb>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:44
+msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:44
+msgid ":ref:`get_faces <class_Mesh_method_get_faces>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:46
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:46
+msgid ""
+":ref:`get_surface_count <class_Mesh_method_get_surface_count>` **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:50
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:48
+msgid ""
+":ref:`surface_get_arrays <class_Mesh_method_surface_get_arrays>` **(** "
+":ref:`int <class_int>` surf_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:50
+msgid ""
+":ref:`surface_get_blend_shape_arrays "
+"<class_Mesh_method_surface_get_blend_shape_arrays>` **(** :ref:`int "
+"<class_int>` surf_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:52
+msgid ":ref:`Material <class_Material>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:52
+msgid ""
+":ref:`surface_get_material <class_Mesh_method_surface_get_material>` "
+"**(** :ref:`int <class_int>` surf_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:54
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:54
+msgid ""
+":ref:`surface_set_material <class_Mesh_method_surface_set_material>` "
+"**(** :ref:`int <class_int>` surf_idx, :ref:`Material <class_Material>` "
+"material **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:58
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:72
+msgid "enum **PrimitiveType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:74
+msgid ""
+"**PRIMITIVE_POINTS** = **0** --- Render array as points (one vertex "
+"equals one point)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:76
+msgid ""
+"**PRIMITIVE_LINES** = **1** --- Render array as lines (every two vertices"
+" a line is created)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:78
+msgid "**PRIMITIVE_LINE_STRIP** = **2** --- Render array as line strip."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:80
+msgid ""
+"**PRIMITIVE_TRIANGLES** = **3** --- Render array as triangles (every "
+"three vertices a triangle is created)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:82
+msgid "**PRIMITIVE_TRIANGLE_STRIP** = **4** --- Render array as triangle strips."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:92
+msgid "enum **BlendShapeMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:94
+msgid "**BLEND_SHAPE_MODE_NORMALIZED** = **0** --- Blend shapes are normalized."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:96
+msgid ""
+"**BLEND_SHAPE_MODE_RELATIVE** = **1** --- Blend shapes are relative to "
+"base weight."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:136
+msgid "enum **ArrayFormat**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:138
+msgid ""
+"**ARRAY_FORMAT_VERTEX** = **1** --- Mesh array contains vertices. All "
+"meshes require a vertex array so this should always be present."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:140
+msgid "**ARRAY_FORMAT_NORMAL** = **2** --- Mesh array contains normals."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:142
+msgid "**ARRAY_FORMAT_TANGENT** = **4** --- Mesh array contains tangents."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:144
+msgid "**ARRAY_FORMAT_COLOR** = **8** --- Mesh array contains colors."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:146
+msgid "**ARRAY_FORMAT_TEX_UV** = **16** --- Mesh array contains UVs."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:148
+msgid "**ARRAY_FORMAT_TEX_UV2** = **32** --- Mesh array contains second UV."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:150
+msgid "**ARRAY_FORMAT_BONES** = **64** --- Mesh array contains bones."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:152
+msgid "**ARRAY_FORMAT_WEIGHTS** = **128** --- Mesh array contains bone weights."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:154
+msgid "**ARRAY_FORMAT_INDEX** = **256** --- Mesh array uses indices."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:156
+msgid ""
+"**ARRAY_COMPRESS_NORMAL** = **1024** --- Flag used to mark a compressed "
+"(half float) normal array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:158
+msgid ""
+"**ARRAY_COMPRESS_TANGENT** = **2048** --- Flag used to mark a compressed "
+"(half float) tangent array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:160
+msgid ""
+"**ARRAY_COMPRESS_COLOR** = **4096** --- Flag used to mark a compressed "
+"(half float) color array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:162
+msgid ""
+"**ARRAY_COMPRESS_TEX_UV** = **8192** --- Flag used to mark a compressed "
+"(half float) UV coordinates array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:164
+msgid ""
+"**ARRAY_COMPRESS_TEX_UV2** = **16384** --- Flag used to mark a compressed"
+" (half float) UV coordinates array for the second UV coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:166
+msgid ""
+"**ARRAY_COMPRESS_INDEX** = **131072** --- Flag used to mark a compressed "
+"index array."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:168
+msgid ""
+"**ARRAY_FLAG_USE_2D_VERTICES** = **262144** --- Flag used to mark that "
+"the array contains 2D vertices."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:170
+msgid ""
+"**ARRAY_COMPRESS_DEFAULT** = **31744** --- Used to set flags "
+":ref:`ARRAY_COMPRESS_NORMAL <class_Mesh_constant_ARRAY_COMPRESS_NORMAL>`,"
+" :ref:`ARRAY_COMPRESS_TANGENT "
+"<class_Mesh_constant_ARRAY_COMPRESS_TANGENT>`, :ref:`ARRAY_COMPRESS_COLOR"
+" <class_Mesh_constant_ARRAY_COMPRESS_COLOR>`, :ref:`ARRAY_COMPRESS_TEX_UV"
+" <class_Mesh_constant_ARRAY_COMPRESS_TEX_UV>` and "
+":ref:`ARRAY_COMPRESS_TEX_UV2 "
+"<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV2>` quickly."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:196
+msgid "enum **ArrayType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:198
+msgid "**ARRAY_VERTEX** = **0** --- Array of vertices."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:200
+msgid "**ARRAY_NORMAL** = **1** --- Array of normals."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:202
+msgid ""
+"**ARRAY_TANGENT** = **2** --- Array of tangents as an array of floats, 4 "
+"floats per tangent."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:204
+msgid "**ARRAY_COLOR** = **3** --- Array of colors."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:206
+msgid "**ARRAY_TEX_UV** = **4** --- Array of UV coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:208
+msgid "**ARRAY_TEX_UV2** = **5** --- Array of second set of UV coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:210
+msgid "**ARRAY_BONES** = **6** --- Array of bone data."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:212
+msgid "**ARRAY_WEIGHTS** = **7** --- Array of weights."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:214
+msgid "**ARRAY_INDEX** = **8** --- Array of indices."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:216
+msgid ""
+"**ARRAY_MAX** = **9** --- Represents the size of the :ref:`ArrayType "
+"<enum_Mesh_ArrayType>` enum."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:219
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:223
+msgid ":ref:`Vector2 <class_Vector2>` **lightmap_size_hint**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:226
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:228
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:228
+msgid "set_lightmap_size_hint(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:230
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:230
+msgid "get_lightmap_size_hint()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:233
+msgid "Sets a hint to be used for lightmap resolution."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:236
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:240
+msgid ":ref:`Shape <class_Shape>` **create_convex_shape** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:242
+msgid ""
+"Calculate a :ref:`ConvexPolygonShape <class_ConvexPolygonShape>` from the"
+" mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:248
+msgid ""
+":ref:`Mesh <class_Mesh>` **create_outline** **(** :ref:`float "
+"<class_float>` margin **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:250
+msgid ""
+"Calculate an outline mesh at a defined offset (margin) from the original "
+"mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:252
+msgid ""
+"**Note:** This method typically returns the vertices in reverse order "
+"(e.g. clockwise to counterclockwise)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:258
+msgid ":ref:`Shape <class_Shape>` **create_trimesh_shape** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:260
+msgid ""
+"Calculate a :ref:`ConcavePolygonShape <class_ConcavePolygonShape>` from "
+"the mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:266
+msgid ""
+":ref:`TriangleMesh <class_TriangleMesh>` **generate_triangle_mesh** **(**"
+" **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:268
+msgid "Generate a :ref:`TriangleMesh <class_TriangleMesh>` from the mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:274
+msgid ":ref:`AABB <class_AABB>` **get_aabb** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:276
+msgid ""
+"Returns the smallest :ref:`AABB <class_AABB>` enclosing this mesh. Not "
+"affected by ``custom_aabb``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:278
+msgid ""
+"**Note:** This is only implemented for :ref:`ArrayMesh <class_ArrayMesh>`"
+" and :ref:`PrimitiveMesh <class_PrimitiveMesh>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:284
+msgid ""
+":ref:`PackedVector3Array <class_PackedVector3Array>` **get_faces** **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:286
+msgid ""
+"Returns all the vertices that make up the faces of the mesh. Each three "
+"vertices represent one triangle."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:292
+msgid ":ref:`int <class_int>` **get_surface_count** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:294
+msgid "Returns the amount of surfaces that the ``Mesh`` holds."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:300
+msgid ""
+":ref:`Array <class_Array>` **surface_get_arrays** **(** :ref:`int "
+"<class_int>` surf_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:302
+msgid ""
+"Returns the arrays for the vertices, normals, uvs, etc. that make up the "
+"requested surface (see :ref:`ArrayMesh.add_surface_from_arrays "
+"<class_ArrayMesh_method_add_surface_from_arrays>`)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:308
+msgid ""
+":ref:`Array <class_Array>` **surface_get_blend_shape_arrays** **(** "
+":ref:`int <class_int>` surf_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:310
+msgid "Returns the blend shape arrays for the requested surface."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:316
+msgid ""
+":ref:`Material <class_Material>` **surface_get_material** **(** :ref:`int"
+" <class_int>` surf_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:318
+msgid ""
+"Returns a :ref:`Material <class_Material>` in a given surface. Surface is"
+" rendered using this material."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:324
+msgid ""
+"void **surface_set_material** **(** :ref:`int <class_int>` surf_idx, "
+":ref:`Material <class_Material>` material **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_mesh.rst:326
+msgid ""
+"Sets a :ref:`Material <class_Material>` for a given surface. Surface will"
+" be rendered using this material."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "Vector2( 0, 0 )"
+#~ msgstr ""
+
+#~ msgid "**BLEND_SHAPE_MODE_NORMALIZED** = **0**"
+#~ msgstr ""
+
+#~ msgid "**BLEND_SHAPE_MODE_RELATIVE** = **1**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_VERTEX** = **1**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_NORMAL** = **2**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_TANGENT** = **4**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_COLOR** = **8**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_TEX_UV** = **16**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_TEX_UV2** = **32**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_BONES** = **64**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_WEIGHTS** = **128**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FORMAT_INDEX** = **256**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_BASE** = **9**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_VERTEX** = **512**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_NORMAL** = **1024**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_TANGENT** = **2048**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_COLOR** = **4096**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_TEX_UV** = **8192**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_TEX_UV2** = **16384**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_BONES** = **32768**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_WEIGHTS** = **65536**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_INDEX** = **131072**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FLAG_USE_2D_VERTICES** = **262144**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_FLAG_USE_16_BIT_BONES** = **524288**"
+#~ msgstr ""
+
+#~ msgid "**ARRAY_COMPRESS_DEFAULT** = **97280**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PRIMITIVE_LINE_LOOP** = **3** --- Render "
+#~ "array as line loop (like line "
+#~ "strip, but closed)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PRIMITIVE_TRIANGLES** = **4** --- Render "
+#~ "array as triangles (every three vertices"
+#~ " a triangle is created)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**PRIMITIVE_TRIANGLE_STRIP** = **5** --- "
+#~ "Render array as triangle strips."
+#~ msgstr ""
+
+#~ msgid "**PRIMITIVE_TRIANGLE_FAN** = **6** --- Render array as triangle fans."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ARRAY_COMPRESS_BASE** = **9** --- Used "
+#~ "internally to calculate other "
+#~ "``ARRAY_COMPRESS_*`` enum values. Do not "
+#~ "use."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ARRAY_COMPRESS_VERTEX** = **512** --- Flag"
+#~ " used to mark a compressed (half "
+#~ "float) vertex array."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ARRAY_COMPRESS_BONES** = **32768** --- Flag"
+#~ " used to mark a compressed bone "
+#~ "array."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ARRAY_COMPRESS_WEIGHTS** = **65536** --- "
+#~ "Flag used to mark a compressed "
+#~ "(half float) weight array."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ARRAY_FLAG_USE_16_BIT_BONES** = **524288** --- "
+#~ "Flag used to mark that the array"
+#~ " uses 16-bit bones instead of 8-bit."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**ARRAY_COMPRESS_DEFAULT** = **97280** --- "
+#~ "Used to set flags :ref:`ARRAY_COMPRESS_VERTEX"
+#~ " <class_Mesh_constant_ARRAY_COMPRESS_VERTEX>`, "
+#~ ":ref:`ARRAY_COMPRESS_NORMAL "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_NORMAL>`, "
+#~ ":ref:`ARRAY_COMPRESS_TANGENT "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_TANGENT>`, "
+#~ ":ref:`ARRAY_COMPRESS_COLOR "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_COLOR>`, "
+#~ ":ref:`ARRAY_COMPRESS_TEX_UV "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV>`, "
+#~ ":ref:`ARRAY_COMPRESS_TEX_UV2 "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV2>` and "
+#~ ":ref:`ARRAY_COMPRESS_WEIGHTS "
+#~ "<class_Mesh_constant_ARRAY_COMPRESS_WEIGHTS>` quickly."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets a hint to be used for "
+#~ "lightmap resolution in :ref:`BakedLightmap "
+#~ "<class_BakedLightmap>`. Overrides "
+#~ ":ref:`BakedLightmap.bake_default_texels_per_unit "
+#~ "<class_BakedLightmap_property_bake_default_texels_per_unit>`."
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolVector3Array <class_PoolVector3Array>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolVector3Array <class_PoolVector3Array>` "
+#~ "**get_faces** **(** **)** const"
+#~ msgstr ""
+

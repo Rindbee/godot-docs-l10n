@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:10
+msgid "Rect2i"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:12
+msgid "2D axis-aligned bounding box using integer coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:15
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:17
+msgid ""
+"``Rect2i`` consists of a position, a size, and several utility functions."
+" It is typically used for fast overlap tests."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:19
+msgid "It uses integer coordinates."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:24
+msgid ":doc:`../tutorials/math/index`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:27
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:30
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:32
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:34
+msgid ":ref:`Rect2i <class_Rect2i>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:30
+msgid ""
+":ref:`Rect2i <class_Rect2i_method_Rect2i>` **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Vector2 <class_Vector2>` size **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:32
+msgid ""
+":ref:`Rect2i <class_Rect2i_method_Rect2i>` **(** :ref:`int <class_int>` "
+"x, :ref:`int <class_int>` y, :ref:`int <class_int>` width, :ref:`int "
+"<class_int>` height **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:34
+msgid ""
+":ref:`Rect2i <class_Rect2i_method_Rect2i>` **(** :ref:`Rect2 "
+"<class_Rect2>` from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:38
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:42
+msgid ""
+":ref:`Rect2i <class_Rect2i>` **Rect2i** **(** :ref:`Vector2 "
+"<class_Vector2>` position, :ref:`Vector2 <class_Vector2>` size **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:44
+msgid "Constructs a ``Rect2i`` by position and size."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:48
+msgid ""
+":ref:`Rect2i <class_Rect2i>` **Rect2i** **(** :ref:`int <class_int>` x, "
+":ref:`int <class_int>` y, :ref:`int <class_int>` width, :ref:`int "
+"<class_int>` height **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:50
+msgid "Constructs a ``Rect2i`` by x, y, width, and height."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:54
+msgid ""
+":ref:`Rect2i <class_Rect2i>` **Rect2i** **(** :ref:`Rect2 <class_Rect2>` "
+"from **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_rect2i.rst:56
+msgid ""
+"Constructs a new ``Rect2i`` from :ref:`Rect2 <class_Rect2>`. The floating"
+" point coordinates will be truncated."
+msgstr ""
+

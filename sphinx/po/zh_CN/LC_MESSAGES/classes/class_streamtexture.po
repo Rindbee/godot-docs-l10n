@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-30 13:10+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:10
+msgid "StreamTexture"
+msgstr "StreamTexture"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture "
+"<class_Texture>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:14
+msgid "A ``.stex`` texture."
+msgstr "``.stex`` 纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:19
+msgid "A texture that is loaded from a ``.stex`` file."
+msgstr "从 ``.stex`` 文件加载的纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:25
+msgid ":ref:`String <class_String>`"
+msgstr ":ref:`String <class_String>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:25
+msgid ":ref:`load_path <class_StreamTexture_property_load_path>`"
+msgstr ":ref:`load_path <class_StreamTexture_property_load_path>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:43
+msgid "``\"\"``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:29
+msgid "Methods"
+msgstr "方法"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:32
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ":ref:`Error <enum_@GlobalScope_Error>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:32
+msgid ""
+":ref:`load <class_StreamTexture_method_load>` **(** :ref:`String "
+"<class_String>` path **)**"
+msgstr ""
+":ref:`load <class_StreamTexture_method_load>` **(** :ref:`String "
+"<class_String>` path **)**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:36
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:40
+msgid ":ref:`String <class_String>` **load_path**"
+msgstr ":ref:`String <class_String>` **load_path**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:43
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:45
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:45
+msgid "load(value)"
+msgstr "load(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:47
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:47
+msgid "get_load_path()"
+msgstr "get_load_path()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:50
+msgid "The StreamTexture's file path to a ``.stex`` file."
+msgstr "``StreamTexture`` 的 ``.stex`` 文件路径。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:53
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_streamtexture.rst:57
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **load** **(** :ref:`String "
+"<class_String>` path **)**"
+msgstr ""
+":ref:`Error <enum_@GlobalScope_Error>` **load** **(** :ref:`String "
+"<class_String>` path **)**"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "\"\""
+#~ msgstr "\"\""
+
+#~ msgid ":ref:`int <class_int>`"
+#~ msgstr ":ref:`int <class_int>`"
+
+#~ msgid "flags"
+#~ msgstr "flags"
+
+#~ msgid "**O:** ``0``"
+#~ msgstr "**O:** 0"
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Texture2D <class_Texture2D>` "
+#~ "**<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+#~ "**基类**：:ref:`Texture <class_Texture>` **<** "
+#~ ":ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+

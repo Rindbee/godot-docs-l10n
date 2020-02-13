@@ -1,0 +1,352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:10
+msgid "VisualShaderNodeCompare"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode <class_VisualShaderNode>` **<** "
+":ref:`Resource <class_Resource>` **<** :ref:`Reference <class_Reference>`"
+" **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:14
+msgid "A comparison function for common types within the visual shader graph."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:19
+msgid ""
+"Compares ``a`` and ``b`` of :ref:`type "
+"<class_VisualShaderNodeCompare_property_type>` by :ref:`function "
+"<class_VisualShaderNodeCompare_property_function>`. Returns a boolean "
+"scalar. Translates to ``if`` instruction in shader code."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:25
+msgid ":ref:`Condition <enum_VisualShaderNodeCompare_Condition>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:25
+msgid ":ref:`condition <class_VisualShaderNodeCompare_property_condition>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:143
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:27
+msgid ":ref:`Function <enum_VisualShaderNodeCompare_Function>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:27
+msgid ":ref:`function <class_VisualShaderNodeCompare_property_function>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:29
+msgid ":ref:`ComparisonType <enum_VisualShaderNodeCompare_ComparisonType>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:29
+msgid ":ref:`type <class_VisualShaderNodeCompare_property_type>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:33
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:47
+msgid "enum **ComparisonType**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:49
+msgid "**CTYPE_SCALAR** = **0** --- A floating-point scalar."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:51
+msgid "**CTYPE_SCALAR_INT** = **1** --- An integer scalar."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:53
+msgid "**CTYPE_VECTOR** = **2** --- A 3D vector type."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:55
+msgid "**CTYPE_BOOLEAN** = **3** --- A boolean type."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:57
+msgid "**CTYPE_TRANSFORM** = **4** --- A transform (``mat4``) type."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:75
+msgid "enum **Function**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:77
+msgid "**FUNC_EQUAL** = **0** --- Comparison for equality (``a == b``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:79
+msgid "**FUNC_NOT_EQUAL** = **1** --- Comparison for inequality (``a != b``)."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:81
+msgid ""
+"**FUNC_GREATER_THAN** = **2** --- Comparison for greater than (``a > "
+"b``). Cannot be used if :ref:`type "
+"<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN"
+" <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or "
+":ref:`CTYPE_TRANSFORM "
+"<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:83
+msgid ""
+"**FUNC_GREATER_THAN_EQUAL** = **3** --- Comparison for greater than or "
+"equal (``a >= b``). Cannot be used if :ref:`type "
+"<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN"
+" <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or "
+":ref:`CTYPE_TRANSFORM "
+"<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:85
+msgid ""
+"**FUNC_LESS_THAN** = **4** --- Comparison for less than (``a < b``). "
+"Cannot be used if :ref:`type "
+"<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN"
+" <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or "
+":ref:`CTYPE_TRANSFORM "
+"<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:87
+msgid ""
+"**FUNC_LESS_THAN_EQUAL** = **5** --- Comparison for less than or equal "
+"(``a <= b``). Cannot be used if :ref:`type "
+"<class_VisualShaderNodeCompare_property_type>` set to :ref:`CTYPE_BOOLEAN"
+" <class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or "
+":ref:`CTYPE_TRANSFORM "
+"<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:97
+msgid "enum **Condition**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:99
+msgid ""
+"**COND_ALL** = **0** --- The result will be true if all of component in "
+"vector satisfy the comparison condition."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:101
+msgid ""
+"**COND_ANY** = **1** --- The result will be true if any of component in "
+"vector satisfy the comparison condition."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:104
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:108
+msgid ":ref:`Condition <enum_VisualShaderNodeCompare_Condition>` **condition**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:111
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:127
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:143
+msgid "*Default*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:113
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:129
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:145
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:113
+msgid "set_condition(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:115
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:131
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:147
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:115
+msgid "get_condition()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:118
+msgid ""
+"Extra condition which is applied if :ref:`type "
+"<class_VisualShaderNodeCompare_property_type>` is set to "
+":ref:`CTYPE_VECTOR "
+"<class_VisualShaderNodeCompare_constant_CTYPE_VECTOR>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:124
+msgid ":ref:`Function <enum_VisualShaderNodeCompare_Function>` **function**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:129
+msgid "set_function(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:131
+msgid "get_function()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:134
+msgid ""
+"A comparison function. See :ref:`Function "
+"<enum_VisualShaderNodeCompare_Function>` for options."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:140
+msgid ""
+":ref:`ComparisonType <enum_VisualShaderNodeCompare_ComparisonType>` "
+"**type**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:145
+msgid "set_comparison_type(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:147
+msgid "get_comparison_type()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_visualshadernodecompare.rst:150
+msgid ""
+"The type to be used in the comparison. See :ref:`ComparisonType "
+"<enum_VisualShaderNodeCompare_ComparisonType>` for options."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "0"
+#~ msgstr ""
+
+#~ msgid ":ref:`Array <class_Array>`"
+#~ msgstr ""
+
+#~ msgid "default_input_values"
+#~ msgstr ""
+
+#~ msgid "**O:** [ 0, 0.0, 1, 0.0, 2, 1e-05 ]"
+#~ msgstr ""
+
+#~ msgid ":ref:`ComparsionType <enum_VisualShaderNodeCompare_ComparsionType>`"
+#~ msgstr ""
+
+#~ msgid "enum **ComparsionType**:"
+#~ msgstr ""
+
+#~ msgid "**CTYPE_SCALAR** = **0**"
+#~ msgstr ""
+
+#~ msgid "**CTYPE_VECTOR** = **1**"
+#~ msgstr ""
+
+#~ msgid "**CTYPE_BOOLEAN** = **2**"
+#~ msgstr ""
+
+#~ msgid "**CTYPE_TRANSFORM** = **3**"
+#~ msgstr ""
+
+#~ msgid "**FUNC_EQUAL** = **0**"
+#~ msgstr ""
+
+#~ msgid "**FUNC_NOT_EQUAL** = **1**"
+#~ msgstr ""
+
+#~ msgid "**FUNC_GREATER_THAN** = **2**"
+#~ msgstr ""
+
+#~ msgid "**FUNC_GREATER_THAN_EQUAL** = **3**"
+#~ msgstr ""
+
+#~ msgid "**FUNC_LESS_THAN** = **4**"
+#~ msgstr ""
+
+#~ msgid "**FUNC_LESS_THAN_EQUAL** = **5**"
+#~ msgstr ""
+
+#~ msgid "**COND_ALL** = **0**"
+#~ msgstr ""
+
+#~ msgid "**COND_ANY** = **1**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`ComparsionType "
+#~ "<enum_VisualShaderNodeCompare_ComparsionType>` **type**"
+#~ msgstr ""
+
+#~ msgid "set_comparsion_type(value)"
+#~ msgstr ""
+
+#~ msgid "get_comparsion_type()"
+#~ msgstr ""
+
+#~ msgid "**CTYPE_VECTOR** = **1** --- A 3D vector type."
+#~ msgstr ""
+
+#~ msgid "**CTYPE_BOOLEAN** = **2** --- A boolean type."
+#~ msgstr ""
+
+#~ msgid "**CTYPE_TRANSFORM** = **3** --- A transform (``mat4``) type."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**FUNC_LESS_THAN_EQUAL** = **5** --- "
+#~ "Comparison for less than or equal "
+#~ "(``a < b``). Cannot be used if "
+#~ ":ref:`type <class_VisualShaderNodeCompare_property_type>` "
+#~ "set to :ref:`CTYPE_BOOLEAN "
+#~ "<class_VisualShaderNodeCompare_constant_CTYPE_BOOLEAN>` or "
+#~ ":ref:`CTYPE_TRANSFORM "
+#~ "<class_VisualShaderNodeCompare_constant_CTYPE_TRANSFORM>`."
+#~ msgstr ""
+

@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_container.rst:10
+msgid "Container"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:12
+msgid ""
+"**Inherits:** :ref:`Control <class_Control>` **<** :ref:`CanvasItem "
+"<class_CanvasItem>` **<** :ref:`Node <class_Node>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:14
+msgid ""
+"**Inherited By:** :ref:`BoxContainer <class_BoxContainer>`, "
+":ref:`CenterContainer <class_CenterContainer>`, :ref:`EditorProperty "
+"<class_EditorProperty>`, :ref:`GraphNode <class_GraphNode>`, "
+":ref:`GridContainer <class_GridContainer>`, :ref:`MarginContainer "
+"<class_MarginContainer>`, :ref:`PanelContainer <class_PanelContainer>`, "
+":ref:`ScrollContainer <class_ScrollContainer>`, :ref:`SplitContainer "
+"<class_SplitContainer>`, :ref:`TabContainer <class_TabContainer>`, "
+":ref:`ViewportContainer <class_ViewportContainer>`"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:16
+msgid "Base node for containers."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:21
+msgid ""
+"Base node for containers. A ``Container`` contains other controls and "
+"automatically arranges them in a certain way."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:23
+msgid "A Control can inherit this to create custom container classes."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:26
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:29
+msgid ":ref:`MouseFilter <enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:29
+msgid "mouse_filter"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:29
+msgid "**O:** ``1``"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:36
+#: ../../docs/classes/class_container.rst:38
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:36
+msgid ""
+":ref:`fit_child_in_rect <class_Container_method_fit_child_in_rect>` **(**"
+" :ref:`Control <class_Control>` child, :ref:`Rect2 <class_Rect2>` rect "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:38
+msgid ":ref:`queue_sort <class_Container_method_queue_sort>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:42
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:46
+msgid "**sort_children** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:48
+msgid "Emitted when sorting the children is needed."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:51
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:55
+msgid ""
+"**NOTIFICATION_SORT_CHILDREN** = **50** --- Notification for when sorting"
+" the children, it must be obeyed immediately."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:58
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:62
+msgid ""
+"void **fit_child_in_rect** **(** :ref:`Control <class_Control>` child, "
+":ref:`Rect2 <class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:64
+msgid ""
+"Fit a child control in a given rect. This is mainly a helper for creating"
+" custom container classes."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:70
+msgid "void **queue_sort** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:72
+msgid ""
+"Queue resort of the contained children. This is called automatically "
+"anyway, but can be called upon request."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+

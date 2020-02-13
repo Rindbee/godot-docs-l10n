@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-12-30 19:27+0800\n"
+"PO-Revision-Date: 2020-02-13 16:36+0800\n"
+"Last-Translator: \n"
 "Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../docs/about/docs_changelog.rst:4
 msgid "Documentation changelog"
@@ -56,7 +60,7 @@ msgstr ":ref:`doc_android_custom_build`"
 #: ../../docs/about/docs_changelog.rst:22
 #: ../../docs/about/docs_changelog.rst:132
 msgid "2D"
-msgstr "2D"
+msgstr "二维"
 
 #: ../../docs/about/docs_changelog.rst:24
 msgid ":ref:`doc_2d_sprite_animation`"
@@ -224,7 +228,7 @@ msgstr "自3.0版本以来的新教程"
 
 #: ../../docs/about/docs_changelog.rst:105
 msgid "Step by step"
-msgstr "渐进式教程"
+msgstr "逐步"
 
 #: ../../docs/about/docs_changelog.rst:107
 msgid ":ref:`doc_signals`"
@@ -296,7 +300,7 @@ msgstr ":ref:`doc_2d_meshes`"
 
 #: ../../docs/about/docs_changelog.rst:138
 msgid "3D"
-msgstr "3D"
+msgstr "三维"
 
 #: ../../docs/about/docs_changelog.rst:140
 msgid ":ref:`doc_csg_tools`"
@@ -416,7 +420,7 @@ msgstr ":ref:`doc_making_trees`"
 
 #: ../../docs/about/docs_changelog.rst:204
 msgid "Miscellaneous"
-msgstr "其他"
+msgstr "其它"
 
 #: ../../docs/about/docs_changelog.rst:206
 msgid ":ref:`doc_jitter_stutter`"

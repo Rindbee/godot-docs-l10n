@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-31 11:58+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:10
+msgid "Physics2DTestMotionResult"
+msgstr "Physics2DTestMotionResult"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:17
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:20
+msgid ":ref:`Object <class_Object>`"
+msgstr ":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:20
+msgid ":ref:`collider <class_Physics2DTestMotionResult_property_collider>`"
+msgstr ":ref:`collider <class_Physics2DTestMotionResult_property_collider>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:22
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:26
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:22
+msgid ":ref:`collider_id <class_Physics2DTestMotionResult_property_collider_id>`"
+msgstr ":ref:`collider_id <class_Physics2DTestMotionResult_property_collider_id>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:22
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:26
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:57
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:79
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:24
+msgid ":ref:`RID <class_RID>`"
+msgstr ":ref:`RID <class_RID>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:24
+msgid ""
+":ref:`collider_rid "
+"<class_Physics2DTestMotionResult_property_collider_rid>`"
+msgstr ""
+":ref:`collider_rid "
+"<class_Physics2DTestMotionResult_property_collider_rid>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:26
+msgid ""
+":ref:`collider_shape "
+"<class_Physics2DTestMotionResult_property_collider_shape>`"
+msgstr ""
+":ref:`collider_shape "
+"<class_Physics2DTestMotionResult_property_collider_shape>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:28
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:30
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:32
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:34
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:36
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:28
+msgid ""
+":ref:`collider_velocity "
+"<class_Physics2DTestMotionResult_property_collider_velocity>`"
+msgstr ""
+":ref:`collider_velocity "
+"<class_Physics2DTestMotionResult_property_collider_velocity>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:28
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:30
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:32
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:34
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:36
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:91
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:103
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:115
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:127
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:139
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:30
+msgid ""
+":ref:`collision_normal "
+"<class_Physics2DTestMotionResult_property_collision_normal>`"
+msgstr ""
+":ref:`collision_normal "
+"<class_Physics2DTestMotionResult_property_collision_normal>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:32
+msgid ""
+":ref:`collision_point "
+"<class_Physics2DTestMotionResult_property_collision_point>`"
+msgstr ""
+":ref:`collision_point "
+"<class_Physics2DTestMotionResult_property_collision_point>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:34
+msgid ":ref:`motion <class_Physics2DTestMotionResult_property_motion>`"
+msgstr ":ref:`motion <class_Physics2DTestMotionResult_property_motion>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:36
+msgid ""
+":ref:`motion_remainder "
+"<class_Physics2DTestMotionResult_property_motion_remainder>`"
+msgstr ""
+":ref:`motion_remainder "
+"<class_Physics2DTestMotionResult_property_motion_remainder>`"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:40
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:44
+msgid ":ref:`Object <class_Object>` **collider**"
+msgstr ":ref:`Object <class_Object>` **collider**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:47
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:59
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:69
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:81
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:93
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:105
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:117
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:129
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:141
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:47
+msgid "get_collider()"
+msgstr "get_collider()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:54
+msgid ":ref:`int <class_int>` **collider_id**"
+msgstr ":ref:`int <class_int>` **collider_id**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:57
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:79
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:91
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:103
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:115
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:127
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:139
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:59
+msgid "get_collider_id()"
+msgstr "get_collider_id()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:66
+msgid ":ref:`RID <class_RID>` **collider_rid**"
+msgstr ":ref:`RID <class_RID>` **collider_rid**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:69
+msgid "get_collider_rid()"
+msgstr "get_collider_rid()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:76
+msgid ":ref:`int <class_int>` **collider_shape**"
+msgstr ":ref:`int <class_int>` **collider_shape**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:81
+msgid "get_collider_shape()"
+msgstr "get_collider_shape()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:88
+msgid ":ref:`Vector2 <class_Vector2>` **collider_velocity**"
+msgstr ":ref:`Vector2 <class_Vector2>` **collider_velocity**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:93
+msgid "get_collider_velocity()"
+msgstr "get_collider_velocity()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:100
+msgid ":ref:`Vector2 <class_Vector2>` **collision_normal**"
+msgstr ":ref:`Vector2 <class_Vector2>` **collision_normal**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:105
+msgid "get_collision_normal()"
+msgstr "get_collision_normal()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:112
+msgid ":ref:`Vector2 <class_Vector2>` **collision_point**"
+msgstr ":ref:`Vector2 <class_Vector2>` **collision_point**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:117
+msgid "get_collision_point()"
+msgstr "get_collision_point()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:124
+msgid ":ref:`Vector2 <class_Vector2>` **motion**"
+msgstr ":ref:`Vector2 <class_Vector2>` **motion**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:129
+msgid "get_motion()"
+msgstr "get_motion()"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:136
+msgid ":ref:`Vector2 <class_Vector2>` **motion_remainder**"
+msgstr ":ref:`Vector2 <class_Vector2>` **motion_remainder**"
+
+#: ../../docs/classes/class_physics2dtestmotionresult.rst:141
+msgid "get_motion_remainder()"
+msgstr "get_motion_remainder()"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+

@@ -1,0 +1,630 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-12-01 13:22+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_basis.rst:10
+msgid "Basis"
+msgstr "Basis"
+
+#: ../../docs/classes/class_basis.rst:12
+msgid "3×3 matrix datatype."
+msgstr "3×3矩阵数据类型。"
+
+#: ../../docs/classes/class_basis.rst:15
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_basis.rst:17
+msgid ""
+"3×3 matrix used for 3D rotation and scale. Contains 3 vector fields X, Y "
+"and Z as its columns, which can be interpreted as the local basis vectors"
+" of a transformation. Can also be accessed as array of 3D vectors. These "
+"vectors are orthogonal to each other, but are not necessarily normalized "
+"(due to scaling). Almost always used as an orthogonal basis for a "
+":ref:`Transform <class_Transform>`."
+msgstr ""
+"3×3矩阵，用于3D旋转和缩放。包含3个向量字段X、Y和Z作为其列，这些字段可以解释为变换的局部基础向量。也可以作为3D向量数组访问。这些向量彼此正交，但不一定要归一化（由于缩放）。对于一个"
+" :ref:`Transform <class_Transform>`，几乎总是用作一个正交基础。"
+
+#: ../../docs/classes/class_basis.rst:19
+msgid ""
+"For such use, it is composed of a scaling and a rotation matrix, in that "
+"order (M = R.S)."
+msgstr "对于这种用途，它由一个缩放和一个旋转矩阵，按该顺序（``M = R.S``）组成。"
+
+#: ../../docs/classes/class_basis.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_basis.rst:24
+msgid ":doc:`../tutorials/3d/using_transforms`"
+msgstr ":doc:`../tutorials/3d/using_transforms`"
+
+#: ../../docs/classes/class_basis.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_basis.rst:30 ../../docs/classes/class_basis.rst:32
+#: ../../docs/classes/class_basis.rst:34 ../../docs/classes/class_basis.rst:51
+#: ../../docs/classes/class_basis.rst:57 ../../docs/classes/class_basis.rst:79
+#: ../../docs/classes/class_basis.rst:81
+msgid ":ref:`Vector3 <class_Vector3>`"
+msgstr ":ref:`Vector3 <class_Vector3>`"
+
+#: ../../docs/classes/class_basis.rst:30
+msgid ":ref:`x <class_Basis_property_x>`"
+msgstr ":ref:`x <class_Basis_property_x>`"
+
+#: ../../docs/classes/class_basis.rst:30 ../../docs/classes/class_basis.rst:111
+#, fuzzy
+msgid "``Vector3( 1, 0, 0 )``"
+msgstr "Vector3( 1, 0, 0 )"
+
+#: ../../docs/classes/class_basis.rst:32
+msgid ":ref:`y <class_Basis_property_y>`"
+msgstr ":ref:`y <class_Basis_property_y>`"
+
+#: ../../docs/classes/class_basis.rst:32 ../../docs/classes/class_basis.rst:123
+#, fuzzy
+msgid "``Vector3( 0, 1, 0 )``"
+msgstr "Vector3( 0, 1, 0 )"
+
+#: ../../docs/classes/class_basis.rst:34
+msgid ":ref:`z <class_Basis_property_z>`"
+msgstr ":ref:`z <class_Basis_property_z>`"
+
+#: ../../docs/classes/class_basis.rst:34 ../../docs/classes/class_basis.rst:135
+#, fuzzy
+msgid "``Vector3( 0, 0, 1 )``"
+msgstr "Vector3( 0, 0, 1 )"
+
+#: ../../docs/classes/class_basis.rst:38
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_basis.rst:41 ../../docs/classes/class_basis.rst:43
+#: ../../docs/classes/class_basis.rst:45 ../../docs/classes/class_basis.rst:47
+#: ../../docs/classes/class_basis.rst:59 ../../docs/classes/class_basis.rst:63
+#: ../../docs/classes/class_basis.rst:65 ../../docs/classes/class_basis.rst:67
+#: ../../docs/classes/class_basis.rst:69 ../../docs/classes/class_basis.rst:77
+msgid ":ref:`Basis <class_Basis>`"
+msgstr ":ref:`Basis <class_Basis>`"
+
+#: ../../docs/classes/class_basis.rst:41
+msgid ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Quat <class_Quat>` "
+"from **)**"
+msgstr ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Quat <class_Quat>` "
+"from **)**"
+
+#: ../../docs/classes/class_basis.rst:43
+msgid ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Vector3 "
+"<class_Vector3>` from **)**"
+msgstr ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Vector3 "
+"<class_Vector3>` from **)**"
+
+#: ../../docs/classes/class_basis.rst:45
+msgid ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Vector3 "
+"<class_Vector3>` axis, :ref:`float <class_float>` phi **)**"
+msgstr ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Vector3 "
+"<class_Vector3>` axis, :ref:`float <class_float>` phi **)**"
+
+#: ../../docs/classes/class_basis.rst:47
+msgid ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Vector3 "
+"<class_Vector3>` x_axis, :ref:`Vector3 <class_Vector3>` y_axis, "
+":ref:`Vector3 <class_Vector3>` z_axis **)**"
+msgstr ""
+":ref:`Basis <class_Basis_method_Basis>` **(** :ref:`Vector3 "
+"<class_Vector3>` x_axis, :ref:`Vector3 <class_Vector3>` y_axis, "
+":ref:`Vector3 <class_Vector3>` z_axis **)**"
+
+#: ../../docs/classes/class_basis.rst:49 ../../docs/classes/class_basis.rst:71
+#: ../../docs/classes/class_basis.rst:73 ../../docs/classes/class_basis.rst:75
+msgid ":ref:`float <class_float>`"
+msgstr ":ref:`float <class_float>`"
+
+#: ../../docs/classes/class_basis.rst:49
+msgid ":ref:`determinant <class_Basis_method_determinant>` **(** **)**"
+msgstr ":ref:`determinant <class_Basis_method_determinant>` **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:51
+msgid ":ref:`get_euler <class_Basis_method_get_euler>` **(** **)**"
+msgstr ":ref:`get_euler <class_Basis_method_get_euler>` **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:53
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_basis.rst:53
+msgid ""
+":ref:`get_orthogonal_index <class_Basis_method_get_orthogonal_index>` "
+"**(** **)**"
+msgstr ""
+":ref:`get_orthogonal_index <class_Basis_method_get_orthogonal_index>` "
+"**(** **)**"
+
+#: ../../docs/classes/class_basis.rst:55
+msgid ":ref:`Quat <class_Quat>`"
+msgstr ":ref:`Quat <class_Quat>`"
+
+#: ../../docs/classes/class_basis.rst:55
+msgid ""
+":ref:`get_rotation_quat <class_Basis_method_get_rotation_quat>` **(** "
+"**)**"
+msgstr ""
+":ref:`get_rotation_quat <class_Basis_method_get_rotation_quat>` **(** "
+"**)**"
+
+#: ../../docs/classes/class_basis.rst:57
+msgid ":ref:`get_scale <class_Basis_method_get_scale>` **(** **)**"
+msgstr ":ref:`get_scale <class_Basis_method_get_scale>` **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:59
+msgid ":ref:`inverse <class_Basis_method_inverse>` **(** **)**"
+msgstr ":ref:`inverse <class_Basis_method_inverse>` **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:61
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: ../../docs/classes/class_basis.rst:61
+msgid ""
+":ref:`is_equal_approx <class_Basis_method_is_equal_approx>` **(** "
+":ref:`Basis <class_Basis>` b, :ref:`float <class_float>` epsilon=0.00001 "
+"**)**"
+msgstr ""
+":ref:`is_equal_approx <class_Basis_method_is_equal_approx>` **(** "
+":ref:`Basis <class_Basis>` b, :ref:`float <class_float>` epsilon=0.00001 "
+"**)**"
+
+#: ../../docs/classes/class_basis.rst:63
+msgid ":ref:`orthonormalized <class_Basis_method_orthonormalized>` **(** **)**"
+msgstr ":ref:`orthonormalized <class_Basis_method_orthonormalized>` **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:65
+msgid ""
+":ref:`rotated <class_Basis_method_rotated>` **(** :ref:`Vector3 "
+"<class_Vector3>` axis, :ref:`float <class_float>` phi **)**"
+msgstr ""
+":ref:`rotated <class_Basis_method_rotated>` **(** :ref:`Vector3 "
+"<class_Vector3>` axis, :ref:`float <class_float>` phi **)**"
+
+#: ../../docs/classes/class_basis.rst:67
+msgid ""
+":ref:`scaled <class_Basis_method_scaled>` **(** :ref:`Vector3 "
+"<class_Vector3>` scale **)**"
+msgstr ""
+":ref:`scaled <class_Basis_method_scaled>` **(** :ref:`Vector3 "
+"<class_Vector3>` scale **)**"
+
+#: ../../docs/classes/class_basis.rst:69
+msgid ""
+":ref:`slerp <class_Basis_method_slerp>` **(** :ref:`Basis <class_Basis>` "
+"b, :ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`slerp <class_Basis_method_slerp>` **(** :ref:`Basis <class_Basis>` "
+"b, :ref:`float <class_float>` t **)**"
+
+#: ../../docs/classes/class_basis.rst:71
+msgid ""
+":ref:`tdotx <class_Basis_method_tdotx>` **(** :ref:`Vector3 "
+"<class_Vector3>` with **)**"
+msgstr ""
+":ref:`tdotx <class_Basis_method_tdotx>` **(** :ref:`Vector3 "
+"<class_Vector3>` with **)**"
+
+#: ../../docs/classes/class_basis.rst:73
+msgid ""
+":ref:`tdoty <class_Basis_method_tdoty>` **(** :ref:`Vector3 "
+"<class_Vector3>` with **)**"
+msgstr ""
+":ref:`tdoty <class_Basis_method_tdoty>` **(** :ref:`Vector3 "
+"<class_Vector3>` with **)**"
+
+#: ../../docs/classes/class_basis.rst:75
+msgid ""
+":ref:`tdotz <class_Basis_method_tdotz>` **(** :ref:`Vector3 "
+"<class_Vector3>` with **)**"
+msgstr ""
+":ref:`tdotz <class_Basis_method_tdotz>` **(** :ref:`Vector3 "
+"<class_Vector3>` with **)**"
+
+#: ../../docs/classes/class_basis.rst:77
+msgid ":ref:`transposed <class_Basis_method_transposed>` **(** **)**"
+msgstr ":ref:`transposed <class_Basis_method_transposed>` **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:79
+msgid ""
+":ref:`xform <class_Basis_method_xform>` **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+msgstr ""
+":ref:`xform <class_Basis_method_xform>` **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+
+#: ../../docs/classes/class_basis.rst:81
+msgid ""
+":ref:`xform_inv <class_Basis_method_xform_inv>` **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+msgstr ""
+":ref:`xform_inv <class_Basis_method_xform_inv>` **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+
+#: ../../docs/classes/class_basis.rst:85
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_basis.rst:95
+msgid ""
+"**IDENTITY** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )** --- The identity "
+"basis. This is identical to calling ``Basis()`` without any parameters. "
+"This constant can be used to make your code clearer."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:97
+msgid ""
+"**FLIP_X** = **Basis( -1, 0, 0, 0, 1, 0, 0, 0, 1 )** --- The basis that "
+"will flip something along the X axis when used in a transformation."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:99
+msgid ""
+"**FLIP_Y** = **Basis( 1, 0, 0, 0, -1, 0, 0, 0, 1 )** --- The basis that "
+"will flip something along the Y axis when used in a transformation."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:101
+msgid ""
+"**FLIP_Z** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, -1 )** --- The basis that "
+"will flip something along the Z axis when used in a transformation."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:104
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_basis.rst:108
+msgid ":ref:`Vector3 <class_Vector3>` **x**"
+msgstr ":ref:`Vector3 <class_Vector3>` **x**"
+
+#: ../../docs/classes/class_basis.rst:111
+#: ../../docs/classes/class_basis.rst:123
+#: ../../docs/classes/class_basis.rst:135
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_basis.rst:114
+msgid "The basis matrix's X vector."
+msgstr "该 ``basis`` 矩阵的X向量。"
+
+#: ../../docs/classes/class_basis.rst:120
+msgid ":ref:`Vector3 <class_Vector3>` **y**"
+msgstr ":ref:`Vector3 <class_Vector3>` **y**"
+
+#: ../../docs/classes/class_basis.rst:126
+msgid "The basis matrix's Y vector."
+msgstr "该 ``basis`` 矩阵的Y向量。"
+
+#: ../../docs/classes/class_basis.rst:132
+msgid ":ref:`Vector3 <class_Vector3>` **z**"
+msgstr ":ref:`Vector3 <class_Vector3>` **z**"
+
+#: ../../docs/classes/class_basis.rst:138
+msgid "The basis matrix's Z vector."
+msgstr "该 ``basis`` 矩阵的Z向量。"
+
+#: ../../docs/classes/class_basis.rst:141
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_basis.rst:145
+msgid ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Quat <class_Quat>` from "
+"**)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Quat <class_Quat>` from "
+"**)**"
+
+#: ../../docs/classes/class_basis.rst:147
+msgid "Create a rotation matrix from the given quaternion."
+msgstr "从给定的四元数创建一个旋转矩阵。"
+
+#: ../../docs/classes/class_basis.rst:151
+msgid ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Vector3 <class_Vector3>`"
+" from **)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Vector3 <class_Vector3>`"
+" from **)**"
+
+#: ../../docs/classes/class_basis.rst:153
+msgid ""
+"Create a rotation matrix (in the YXZ convention: first Z, then X, and Y "
+"last) from the specified Euler angles, given in the vector format as (X "
+"angle, Y angle, Z angle)."
+msgstr "从指定的欧拉角，以矢量格式给出（X角，Y角，Z角），创建一个旋转矩阵（按照YXZ约定：首先是Z，然后是X，最后是Y）。"
+
+#: ../../docs/classes/class_basis.rst:157
+msgid ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Vector3 <class_Vector3>`"
+" axis, :ref:`float <class_float>` phi **)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Vector3 <class_Vector3>`"
+" axis, :ref:`float <class_float>` phi **)**"
+
+#: ../../docs/classes/class_basis.rst:159
+msgid ""
+"Create a rotation matrix which rotates around the given axis by the "
+"specified angle, in radians. The axis must be a normalized vector."
+msgstr "创建一个旋转矩阵，该矩阵以弧度为单位，围绕给定轴，旋转指定角度。该轴必须是归一化向量。"
+
+#: ../../docs/classes/class_basis.rst:163
+msgid ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Vector3 <class_Vector3>`"
+" x_axis, :ref:`Vector3 <class_Vector3>` y_axis, :ref:`Vector3 "
+"<class_Vector3>` z_axis **)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **Basis** **(** :ref:`Vector3 <class_Vector3>`"
+" x_axis, :ref:`Vector3 <class_Vector3>` y_axis, :ref:`Vector3 "
+"<class_Vector3>` z_axis **)**"
+
+#: ../../docs/classes/class_basis.rst:165
+msgid "Create a matrix from 3 axis vectors."
+msgstr "从3个轴向量创建一个矩阵。"
+
+#: ../../docs/classes/class_basis.rst:171
+msgid ":ref:`float <class_float>` **determinant** **(** **)**"
+msgstr ":ref:`float <class_float>` **determinant** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:173
+msgid "Returns the determinant of the matrix."
+msgstr "返回矩阵的行列式。"
+
+#: ../../docs/classes/class_basis.rst:179
+msgid ":ref:`Vector3 <class_Vector3>` **get_euler** **(** **)**"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_euler** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:181
+msgid ""
+"Returns the basis's rotation in the form of Euler angles (in the YXZ "
+"convention: first Z, then X, and Y last). The returned vector contains "
+"the rotation angles in the format (X angle, Y angle, Z angle). See "
+":ref:`get_rotation_quat <class_Basis_method_get_rotation_quat>` if you "
+"need a quaternion instead."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:187
+msgid ":ref:`int <class_int>` **get_orthogonal_index** **(** **)**"
+msgstr ":ref:`int <class_int>` **get_orthogonal_index** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:189
+#, fuzzy
+msgid ""
+"This function considers a discretization of rotations into 24 points on "
+"unit sphere, lying along the vectors (x,y,z) with each component being "
+"either -1, 0, or 1, and returns the index of the point best representing "
+"the orientation of the object. It is mainly used by the grid map editor. "
+"For further details, refer to the Godot source code."
+msgstr "此函数考虑一个旋转离散化为分布在单位球面上的24个点，沿矢量（x，y，z），每个分量为-1、0或1，并返回最能代表物体方向的点的索引。它主要由栅格地图编辑器使用。有关更多详细信息，请参阅Godot源代码。"
+
+#: ../../docs/classes/class_basis.rst:195
+msgid ":ref:`Quat <class_Quat>` **get_rotation_quat** **(** **)**"
+msgstr ":ref:`Quat <class_Quat>` **get_rotation_quat** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:197
+msgid ""
+"Returns the basis's rotation in the form of a quaternion. See "
+":ref:`get_euler <class_Basis_method_get_euler>` if you need Euler angles,"
+" but keep in mind quaternions should generally be preferred to Euler "
+"angles."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:203
+msgid ":ref:`Vector3 <class_Vector3>` **get_scale** **(** **)**"
+msgstr ":ref:`Vector3 <class_Vector3>` **get_scale** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:205
+msgid ""
+"Assuming that the matrix is the combination of a rotation and scaling, "
+"return the absolute value of scaling factors along each axis."
+msgstr "假设矩阵是一个旋转和一个缩放的组合，返回沿每个轴的缩放因子的绝对值。"
+
+#: ../../docs/classes/class_basis.rst:211
+msgid ":ref:`Basis <class_Basis>` **inverse** **(** **)**"
+msgstr ":ref:`Basis <class_Basis>` **inverse** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:213
+msgid "Returns the inverse of the matrix."
+msgstr "返回矩阵的逆。"
+
+#: ../../docs/classes/class_basis.rst:219
+msgid ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Basis "
+"<class_Basis>` b, :ref:`float <class_float>` epsilon=0.00001 **)**"
+msgstr ""
+":ref:`bool <class_bool>` **is_equal_approx** **(** :ref:`Basis "
+"<class_Basis>` b, :ref:`float <class_float>` epsilon=0.00001 **)**"
+
+#: ../../docs/classes/class_basis.rst:221
+msgid ""
+"Returns ``true`` if this basis and ``b`` are approximately equal, by "
+"calling ``is_equal_approx`` on each component."
+msgstr "如果通过在每个组件上调用 ``is_equal_approx``，此 ``AABB`` 和 ``aabb`` 大致相等，则返回 ``true``。"
+
+#: ../../docs/classes/class_basis.rst:227
+msgid ":ref:`Basis <class_Basis>` **orthonormalized** **(** **)**"
+msgstr ":ref:`Basis <class_Basis>` **orthonormalized** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:229
+msgid ""
+"Returns the orthonormalized version of the matrix (useful to call from "
+"time to time to avoid rounding error for orthogonal matrices). This "
+"performs a Gram-Schmidt orthonormalization on the basis of the matrix."
+msgstr "返回矩阵的正交化版本（用于不时调用，以避免正交矩阵的舍入误差）。这将基于矩阵执行Gram-Schmidt正交归一化。"
+
+#: ../../docs/classes/class_basis.rst:235
+msgid ""
+":ref:`Basis <class_Basis>` **rotated** **(** :ref:`Vector3 "
+"<class_Vector3>` axis, :ref:`float <class_float>` phi **)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **rotated** **(** :ref:`Vector3 "
+"<class_Vector3>` axis, :ref:`float <class_float>` phi **)**"
+
+#: ../../docs/classes/class_basis.rst:237
+msgid ""
+"Introduce an additional rotation around the given axis by phi (radians). "
+"The axis must be a normalized vector."
+msgstr "通过 ``phi`` （弧度）围绕给定的轴 ``axis`` 进行一个额外的旋转。该轴 ``axis`` 必须是归一化向量。"
+
+#: ../../docs/classes/class_basis.rst:243
+msgid ""
+":ref:`Basis <class_Basis>` **scaled** **(** :ref:`Vector3 "
+"<class_Vector3>` scale **)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **scaled** **(** :ref:`Vector3 "
+"<class_Vector3>` scale **)**"
+
+#: ../../docs/classes/class_basis.rst:245
+msgid "Introduce an additional scaling specified by the given 3D scaling factor."
+msgstr "引入由给定的3D缩放因子，指定的一个其他缩放。"
+
+#: ../../docs/classes/class_basis.rst:251
+msgid ""
+":ref:`Basis <class_Basis>` **slerp** **(** :ref:`Basis <class_Basis>` b, "
+":ref:`float <class_float>` t **)**"
+msgstr ""
+":ref:`Basis <class_Basis>` **slerp** **(** :ref:`Basis <class_Basis>` b, "
+":ref:`float <class_float>` t **)**"
+
+#: ../../docs/classes/class_basis.rst:253
+msgid ""
+"Assuming that the matrix is a proper rotation matrix, slerp performs a "
+"spherical-linear interpolation with another rotation matrix."
+msgstr "假设矩阵是一个适当的旋转矩阵，则 ``slerp`` 用另一个旋转矩阵执行球面线性插值。"
+
+#: ../../docs/classes/class_basis.rst:259
+msgid ""
+":ref:`float <class_float>` **tdotx** **(** :ref:`Vector3 <class_Vector3>`"
+" with **)**"
+msgstr ""
+":ref:`float <class_float>` **tdotx** **(** :ref:`Vector3 <class_Vector3>`"
+" with **)**"
+
+#: ../../docs/classes/class_basis.rst:261
+msgid "Transposed dot product with the X axis of the matrix."
+msgstr "与矩阵X轴的转置点积。"
+
+#: ../../docs/classes/class_basis.rst:267
+msgid ""
+":ref:`float <class_float>` **tdoty** **(** :ref:`Vector3 <class_Vector3>`"
+" with **)**"
+msgstr ""
+":ref:`float <class_float>` **tdoty** **(** :ref:`Vector3 <class_Vector3>`"
+" with **)**"
+
+#: ../../docs/classes/class_basis.rst:269
+msgid "Transposed dot product with the Y axis of the matrix."
+msgstr "与矩阵Y轴的转置点积。"
+
+#: ../../docs/classes/class_basis.rst:275
+msgid ""
+":ref:`float <class_float>` **tdotz** **(** :ref:`Vector3 <class_Vector3>`"
+" with **)**"
+msgstr ""
+":ref:`float <class_float>` **tdotz** **(** :ref:`Vector3 <class_Vector3>`"
+" with **)**"
+
+#: ../../docs/classes/class_basis.rst:277
+msgid "Transposed dot product with the Z axis of the matrix."
+msgstr "与矩阵Z轴的转置点积。"
+
+#: ../../docs/classes/class_basis.rst:283
+msgid ":ref:`Basis <class_Basis>` **transposed** **(** **)**"
+msgstr ":ref:`Basis <class_Basis>` **transposed** **(** **)**"
+
+#: ../../docs/classes/class_basis.rst:285
+msgid "Returns the transposed version of the matrix."
+msgstr "返回矩阵的转置版本。"
+
+#: ../../docs/classes/class_basis.rst:291
+msgid ""
+":ref:`Vector3 <class_Vector3>` **xform** **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+msgstr ""
+":ref:`Vector3 <class_Vector3>` **xform** **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+
+#: ../../docs/classes/class_basis.rst:293
+msgid "Returns a vector transformed (multiplied) by the matrix."
+msgstr "返回由矩阵转换（相乘）的向量。"
+
+#: ../../docs/classes/class_basis.rst:299
+msgid ""
+":ref:`Vector3 <class_Vector3>` **xform_inv** **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+msgstr ""
+":ref:`Vector3 <class_Vector3>` **xform_inv** **(** :ref:`Vector3 "
+"<class_Vector3>` v **)**"
+
+#: ../../docs/classes/class_basis.rst:301
+msgid "Returns a vector transformed (multiplied) by the transposed matrix."
+msgstr "返回由转置矩阵转换（相乘）的向量。"
+
+#: ../../docs/classes/class_basis.rst:303
+msgid ""
+"**Note:** This results in a multiplication by the inverse of the matrix "
+"only if it represents a rotation-reflection."
+msgstr "**注意**：仅当它表示旋转反射时，才乘以矩阵的逆。"
+
+#~ msgid "**IDENTITY** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )**"
+#~ msgstr "**IDENTITY** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )**"
+
+#~ msgid "**FLIP_X** = **Basis( -1, 0, 0, 0, 1, 0, 0, 0, 1 )**"
+#~ msgstr "**FLIP_X** = **Basis( -1, 0, 0, 0, 1, 0, 0, 0, 1 )**"
+
+#~ msgid "**FLIP_Y** = **Basis( 1, 0, 0, 0, -1, 0, 0, 0, 1 )**"
+#~ msgstr "**FLIP_Y** = **Basis( 1, 0, 0, 0, -1, 0, 0, 0, 1 )**"
+
+#~ msgid "**FLIP_Z** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, -1 )**"
+#~ msgstr "**FLIP_Z** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, -1 )**"
+
+#~ msgid ""
+#~ "Assuming that the matrix is a "
+#~ "proper rotation matrix (orthonormal matrix "
+#~ "with determinant +1), return Euler "
+#~ "angles (in the YXZ convention: first "
+#~ "Z, then X, and Y last). Returned"
+#~ " vector contains the rotation angles "
+#~ "in the format (X angle, Y angle,"
+#~ " Z angle)."
+#~ msgstr "假设矩阵是一个适当的旋转矩阵（行列式为+1的正交矩阵），则返回欧拉角（按照YXZ约定：第一个Z，然后是X，最后是Y）。返回的向量包含，格式为（X角，Y角，Z角）的旋转角。"
+
+#~ msgid "**Category:** Built-In Types"
+#~ msgstr "**类别**：内置类型"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+

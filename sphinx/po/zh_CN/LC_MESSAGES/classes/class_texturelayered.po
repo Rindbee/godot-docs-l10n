@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:10
+msgid "TextureLayered"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture <class_Texture>` **<** :ref:`Resource "
+"<class_Resource>` **<** :ref:`Reference <class_Reference>` **<** "
+":ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:14
+msgid ""
+"**Inherited By:** :ref:`Cubemap <class_Cubemap>`, :ref:`CubemapArray "
+"<class_CubemapArray>`, :ref:`Texture2DArray <class_Texture2DArray>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:16
+msgid "Base class for 3D texture types."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:19
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:21
+msgid ""
+"Base class for :ref:`Texture2DArray <class_Texture2DArray>`, "
+":ref:`Cubemap <class_Cubemap>` and :ref:`CubemapArray "
+"<class_CubemapArray>`. Cannot be used directly, but contains all the "
+"functions necessary for accessing the derived resource types. Data is set"
+" on a per-layer basis. For :ref:`Texture2DArray <class_Texture2DArray>`\\"
+" s, the layer specifies the array layer."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:24
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:27
+msgid ":ref:`Error <enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:27
+msgid ""
+":ref:`create_from_images "
+"<class_TextureLayered_method_create_from_images>` **(** :ref:`Array "
+"<class_Array>` images **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:29
+msgid ":ref:`Format <enum_Image_Format>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:29
+msgid ""
+":ref:`get_format <class_TextureLayered_method_get_format>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:35
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:37
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:31
+msgid ""
+":ref:`get_height <class_TextureLayered_method_get_height>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:33
+msgid ":ref:`Image <class_Image>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:33
+msgid ""
+":ref:`get_layer_data <class_TextureLayered_method_get_layer_data>` **(** "
+":ref:`int <class_int>` layer **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:35
+msgid ""
+":ref:`get_layers <class_TextureLayered_method_get_layers>` **(** **)** "
+"const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:37
+msgid ":ref:`get_width <class_TextureLayered_method_get_width>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:39
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:39
+msgid ""
+":ref:`update_layer <class_TextureLayered_method_update_layer>` **(** "
+":ref:`Image <class_Image>` image, :ref:`int <class_int>` layer **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:43
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:47
+msgid ""
+":ref:`Error <enum_@GlobalScope_Error>` **create_from_images** **(** "
+":ref:`Array <class_Array>` images **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:53
+msgid ":ref:`Format <enum_Image_Format>` **get_format** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:55
+msgid ""
+"Returns the current format being used by this texture. See :ref:`Format "
+"<enum_Image_Format>` for details."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:61
+msgid ":ref:`int <class_int>` **get_height** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:63
+msgid ""
+"Returns the height of the texture. Height is typically represented by the"
+" Y-axis."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:69
+msgid ""
+":ref:`Image <class_Image>` **get_layer_data** **(** :ref:`int "
+"<class_int>` layer **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:71
+msgid ""
+"Returns an :ref:`Image <class_Image>` resource with the data from "
+"specified ``layer``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:77
+msgid ":ref:`int <class_int>` **get_layers** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:83
+msgid ":ref:`int <class_int>` **get_width** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:85
+msgid ""
+"Returns the width of the texture. Width is typically represented by the "
+"X-axis."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_texturelayered.rst:91
+msgid ""
+"void **update_layer** **(** :ref:`Image <class_Image>` image, :ref:`int "
+"<class_int>` layer **)**"
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "{\"depth\": 0,\"flags\": 4,\"format\": "
+#~ "37,\"height\": 0,\"layers\": [  ],\"width\": "
+#~ "0}"
+#~ msgstr ""
+
+#~ msgid "4"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherited By:** :ref:`Texture3D "
+#~ "<class_Texture3D>`, :ref:`TextureArray "
+#~ "<class_TextureArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Base class for :ref:`Texture3D "
+#~ "<class_Texture3D>` and :ref:`TextureArray "
+#~ "<class_TextureArray>`. Cannot be used "
+#~ "directly."
+#~ msgstr ""
+
+#~ msgid "Properties"
+#~ msgstr ""
+
+#~ msgid ":ref:`Dictionary <class_Dictionary>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`data <class_TextureLayered_property_data>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``{\"depth\": 0,\"flags\": 4,\"format\": "
+#~ "37,\"height\": 0,\"layers\": [  ],\"width\": "
+#~ "0}``"
+#~ msgstr ""
+
+#~ msgid ":ref:`flags <class_TextureLayered_property_flags>`"
+#~ msgstr ""
+
+#~ msgid "``4``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`create <class_TextureLayered_method_create>` **(**"
+#~ " :ref:`int <class_int>` width, :ref:`int "
+#~ "<class_int>` height, :ref:`int <class_int>` "
+#~ "depth, :ref:`Format <enum_Image_Format>` format, "
+#~ ":ref:`int <class_int>` flags=4 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`get_depth <class_TextureLayered_method_get_depth>` "
+#~ "**(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_data_partial "
+#~ "<class_TextureLayered_method_set_data_partial>` **(** "
+#~ ":ref:`Image <class_Image>` image, :ref:`int "
+#~ "<class_int>` x_offset, :ref:`int <class_int>` "
+#~ "y_offset, :ref:`int <class_int>` layer, "
+#~ ":ref:`int <class_int>` mipmap=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_layer_data "
+#~ "<class_TextureLayered_method_set_layer_data>` **(** "
+#~ ":ref:`Image <class_Image>` image, :ref:`int "
+#~ "<class_int>` layer **)**"
+#~ msgstr ""
+
+#~ msgid "Enumerations"
+#~ msgstr ""
+
+#~ msgid "enum **Flags**:"
+#~ msgstr ""
+
+#~ msgid "**FLAG_MIPMAPS** = **1**"
+#~ msgstr ""
+
+#~ msgid "**FLAG_REPEAT** = **2**"
+#~ msgstr ""
+
+#~ msgid "**FLAG_FILTER** = **4**"
+#~ msgstr ""
+
+#~ msgid "**FLAGS_DEFAULT** = **4**"
+#~ msgstr ""
+
+#~ msgid "Property Descriptions"
+#~ msgstr ""
+
+#~ msgid ":ref:`Dictionary <class_Dictionary>` **data**"
+#~ msgstr ""
+
+#~ msgid "*Default*"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **flags**"
+#~ msgstr ""
+
+#~ msgid "*Setter*"
+#~ msgstr ""
+
+#~ msgid "set_flags(value)"
+#~ msgstr ""
+
+#~ msgid "*Getter*"
+#~ msgstr ""
+
+#~ msgid "get_flags()"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **create** **(** :ref:`int <class_int>`"
+#~ " width, :ref:`int <class_int>` height, "
+#~ ":ref:`int <class_int>` depth, :ref:`Format "
+#~ "<enum_Image_Format>` format, :ref:`int <class_int>`"
+#~ " flags=4 **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`int <class_int>` **get_depth** **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_data_partial** **(** :ref:`Image "
+#~ "<class_Image>` image, :ref:`int <class_int>` "
+#~ "x_offset, :ref:`int <class_int>` y_offset, "
+#~ ":ref:`int <class_int>` layer, :ref:`int "
+#~ "<class_int>` mipmap=0 **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_layer_data** **(** :ref:`Image "
+#~ "<class_Image>` image, :ref:`int <class_int>` "
+#~ "layer **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Resource <class_Resource>` **<**"
+#~ " :ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+

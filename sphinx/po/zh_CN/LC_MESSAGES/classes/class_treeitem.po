@@ -1,0 +1,1389 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:10
+msgid "TreeItem"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:12
+msgid "**Inherits:** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:14
+msgid "Control for a single item inside a :ref:`Tree <class_Tree>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:19
+msgid ""
+"Control for a single item inside a :ref:`Tree <class_Tree>`. May have "
+"child ``TreeItem``\\ s and be styled as well as contain buttons."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:22
+msgid "Properties"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:94
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:96
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:98
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:100
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:102
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:104
+msgid ":ref:`bool <class_bool>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:25
+msgid ":ref:`collapsed <class_TreeItem_property_collapsed>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:50
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:66
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:27
+msgid ""
+":ref:`custom_minimum_height "
+"<class_TreeItem_property_custom_minimum_height>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:29
+msgid ":ref:`disable_folding <class_TreeItem_property_disable_folding>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:33
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:36
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:40
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:106
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:108
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:110
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:112
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:114
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:116
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:118
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:120
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:122
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:124
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:126
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:128
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:130
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:132
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:134
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:136
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:138
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:140
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:142
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:144
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:146
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:148
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:150
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:152
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:154
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:36
+msgid ""
+":ref:`add_button <class_TreeItem_method_add_button>` **(** :ref:`int "
+"<class_int>` column, :ref:`Texture2D <class_Texture2D>` button, :ref:`int"
+" <class_int>` button_idx=-1, :ref:`bool <class_bool>` disabled=false, "
+":ref:`String <class_String>` tooltip=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:38
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:72
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:38
+msgid ""
+":ref:`call_recursive <class_TreeItem_method_call_recursive>` **(** "
+":ref:`StringName <class_StringName>` method, ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:40
+msgid ""
+":ref:`clear_custom_bg_color "
+"<class_TreeItem_method_clear_custom_bg_color>` **(** :ref:`int "
+"<class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:42
+msgid ""
+":ref:`clear_custom_color <class_TreeItem_method_clear_custom_color>` "
+"**(** :ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:44
+msgid ""
+":ref:`deselect <class_TreeItem_method_deselect>` **(** :ref:`int "
+"<class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:46
+msgid ""
+":ref:`erase_button <class_TreeItem_method_erase_button>` **(** :ref:`int "
+"<class_int>` column, :ref:`int <class_int>` button_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:48
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:64
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:48
+msgid ""
+":ref:`get_button <class_TreeItem_method_get_button>` **(** :ref:`int "
+"<class_int>` column, :ref:`int <class_int>` button_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:50
+msgid ""
+":ref:`get_button_count <class_TreeItem_method_get_button_count>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:52
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:88
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:92
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:52
+msgid ""
+":ref:`get_button_tooltip <class_TreeItem_method_get_button_tooltip>` "
+"**(** :ref:`int <class_int>` column, :ref:`int <class_int>` button_idx "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:54
+msgid ":ref:`TreeCellMode <enum_TreeItem_TreeCellMode>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:54
+msgid ""
+":ref:`get_cell_mode <class_TreeItem_method_get_cell_mode>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:56
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:74
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:76
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:78
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:80
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:82
+msgid ":ref:`TreeItem <class_TreeItem>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:56
+msgid ":ref:`get_children <class_TreeItem_method_get_children>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:68
+msgid ":ref:`Color <class_Color>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:58
+msgid ""
+":ref:`get_custom_bg_color <class_TreeItem_method_get_custom_bg_color>` "
+"**(** :ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:60
+msgid ""
+":ref:`get_custom_color <class_TreeItem_method_get_custom_color>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:62
+msgid ""
+":ref:`get_expand_right <class_TreeItem_method_get_expand_right>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:64
+msgid ""
+":ref:`get_icon <class_TreeItem_method_get_icon>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:66
+msgid ""
+":ref:`get_icon_max_width <class_TreeItem_method_get_icon_max_width>` "
+"**(** :ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:68
+msgid ""
+":ref:`get_icon_modulate <class_TreeItem_method_get_icon_modulate>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:70
+msgid ":ref:`Rect2 <class_Rect2>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:70
+msgid ""
+":ref:`get_icon_region <class_TreeItem_method_get_icon_region>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:72
+msgid ""
+":ref:`get_metadata <class_TreeItem_method_get_metadata>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:74
+msgid ":ref:`get_next <class_TreeItem_method_get_next>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:76
+msgid ""
+":ref:`get_next_visible <class_TreeItem_method_get_next_visible>` **(** "
+":ref:`bool <class_bool>` wrap=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:78
+msgid ":ref:`get_parent <class_TreeItem_method_get_parent>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:80
+msgid ":ref:`get_prev <class_TreeItem_method_get_prev>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:82
+msgid ""
+":ref:`get_prev_visible <class_TreeItem_method_get_prev_visible>` **(** "
+":ref:`bool <class_bool>` wrap=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:84
+msgid ":ref:`float <class_float>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:84
+msgid ""
+":ref:`get_range <class_TreeItem_method_get_range>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:86
+msgid ":ref:`Dictionary <class_Dictionary>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:86
+msgid ""
+":ref:`get_range_config <class_TreeItem_method_get_range_config>` **(** "
+":ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:88
+msgid ""
+":ref:`get_text <class_TreeItem_method_get_text>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:90
+msgid ":ref:`TextAlign <enum_TreeItem_TextAlign>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:90
+msgid ""
+":ref:`get_text_align <class_TreeItem_method_get_text_align>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:92
+msgid ""
+":ref:`get_tooltip <class_TreeItem_method_get_tooltip>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:94
+msgid ""
+":ref:`is_button_disabled <class_TreeItem_method_is_button_disabled>` "
+"**(** :ref:`int <class_int>` column, :ref:`int <class_int>` button_idx "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:96
+msgid ""
+":ref:`is_checked <class_TreeItem_method_is_checked>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:98
+msgid ""
+":ref:`is_custom_set_as_button "
+"<class_TreeItem_method_is_custom_set_as_button>` **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:100
+msgid ""
+":ref:`is_editable <class_TreeItem_method_is_editable>` **(** :ref:`int "
+"<class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:102
+msgid ""
+":ref:`is_selectable <class_TreeItem_method_is_selectable>` **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:104
+msgid ""
+":ref:`is_selected <class_TreeItem_method_is_selected>` **(** :ref:`int "
+"<class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:106
+msgid ":ref:`move_to_bottom <class_TreeItem_method_move_to_bottom>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:108
+msgid ":ref:`move_to_top <class_TreeItem_method_move_to_top>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:110
+msgid ""
+":ref:`remove_child <class_TreeItem_method_remove_child>` **(** "
+":ref:`Object <class_Object>` child **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:112
+msgid ""
+":ref:`select <class_TreeItem_method_select>` **(** :ref:`int <class_int>`"
+" column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:114
+msgid ""
+":ref:`set_button <class_TreeItem_method_set_button>` **(** :ref:`int "
+"<class_int>` column, :ref:`int <class_int>` button_idx, :ref:`Texture2D "
+"<class_Texture2D>` button **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:116
+msgid ""
+":ref:`set_button_disabled <class_TreeItem_method_set_button_disabled>` "
+"**(** :ref:`int <class_int>` column, :ref:`int <class_int>` button_idx, "
+":ref:`bool <class_bool>` disabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:118
+msgid ""
+":ref:`set_cell_mode <class_TreeItem_method_set_cell_mode>` **(** "
+":ref:`int <class_int>` column, :ref:`TreeCellMode "
+"<enum_TreeItem_TreeCellMode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:120
+msgid ""
+":ref:`set_checked <class_TreeItem_method_set_checked>` **(** :ref:`int "
+"<class_int>` column, :ref:`bool <class_bool>` checked **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:122
+msgid ""
+":ref:`set_custom_as_button <class_TreeItem_method_set_custom_as_button>` "
+"**(** :ref:`int <class_int>` column, :ref:`bool <class_bool>` enable "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:124
+msgid ""
+":ref:`set_custom_bg_color <class_TreeItem_method_set_custom_bg_color>` "
+"**(** :ref:`int <class_int>` column, :ref:`Color <class_Color>` color, "
+":ref:`bool <class_bool>` just_outline=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:126
+msgid ""
+":ref:`set_custom_color <class_TreeItem_method_set_custom_color>` **(** "
+":ref:`int <class_int>` column, :ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:128
+msgid ""
+":ref:`set_custom_draw <class_TreeItem_method_set_custom_draw>` **(** "
+":ref:`int <class_int>` column, :ref:`Object <class_Object>` object, "
+":ref:`StringName <class_StringName>` callback **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:130
+msgid ""
+":ref:`set_editable <class_TreeItem_method_set_editable>` **(** :ref:`int "
+"<class_int>` column, :ref:`bool <class_bool>` enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:132
+msgid ""
+":ref:`set_expand_right <class_TreeItem_method_set_expand_right>` **(** "
+":ref:`int <class_int>` column, :ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:134
+msgid ""
+":ref:`set_icon <class_TreeItem_method_set_icon>` **(** :ref:`int "
+"<class_int>` column, :ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:136
+msgid ""
+":ref:`set_icon_max_width <class_TreeItem_method_set_icon_max_width>` "
+"**(** :ref:`int <class_int>` column, :ref:`int <class_int>` width **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:138
+msgid ""
+":ref:`set_icon_modulate <class_TreeItem_method_set_icon_modulate>` **(** "
+":ref:`int <class_int>` column, :ref:`Color <class_Color>` modulate **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:140
+msgid ""
+":ref:`set_icon_region <class_TreeItem_method_set_icon_region>` **(** "
+":ref:`int <class_int>` column, :ref:`Rect2 <class_Rect2>` region **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:142
+msgid ""
+":ref:`set_metadata <class_TreeItem_method_set_metadata>` **(** :ref:`int "
+"<class_int>` column, :ref:`Variant <class_Variant>` meta **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:144
+msgid ""
+":ref:`set_range <class_TreeItem_method_set_range>` **(** :ref:`int "
+"<class_int>` column, :ref:`float <class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:146
+msgid ""
+":ref:`set_range_config <class_TreeItem_method_set_range_config>` **(** "
+":ref:`int <class_int>` column, :ref:`float <class_float>` min, "
+":ref:`float <class_float>` max, :ref:`float <class_float>` step, "
+":ref:`bool <class_bool>` expr=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:148
+msgid ""
+":ref:`set_selectable <class_TreeItem_method_set_selectable>` **(** "
+":ref:`int <class_int>` column, :ref:`bool <class_bool>` selectable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:150
+msgid ""
+":ref:`set_text <class_TreeItem_method_set_text>` **(** :ref:`int "
+"<class_int>` column, :ref:`String <class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:152
+msgid ""
+":ref:`set_text_align <class_TreeItem_method_set_text_align>` **(** "
+":ref:`int <class_int>` column, :ref:`TextAlign <enum_TreeItem_TextAlign>`"
+" text_align **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:154
+msgid ""
+":ref:`set_tooltip <class_TreeItem_method_set_tooltip>` **(** :ref:`int "
+"<class_int>` column, :ref:`String <class_String>` tooltip **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:158
+msgid "Enumerations"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:172
+msgid "enum **TreeCellMode**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:174
+msgid "**CELL_MODE_STRING** = **0** --- Cell contains a string."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:176
+msgid "**CELL_MODE_CHECK** = **1** --- Cell can be checked."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:178
+msgid "**CELL_MODE_RANGE** = **2** --- Cell contains a range."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:180
+msgid "**CELL_MODE_ICON** = **3** --- Cell contains an icon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:182
+msgid "**CELL_MODE_CUSTOM** = **4**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:194
+msgid "enum **TextAlign**:"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:196
+msgid ""
+"**ALIGN_LEFT** = **0** --- Align text to the left. See "
+"``set_text_align()``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:198
+msgid "**ALIGN_CENTER** = **1** --- Center text. See ``set_text_align()``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:200
+msgid ""
+"**ALIGN_RIGHT** = **2** --- Align text to the right. See "
+"``set_text_align()``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:203
+msgid "Property Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:207
+msgid ":ref:`bool <class_bool>` **collapsed**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:210
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:224
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:238
+msgid "*Setter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:210
+msgid "set_collapsed(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:212
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:226
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:240
+msgid "*Getter*"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:212
+msgid "is_collapsed()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:215
+msgid "If ``true``, the TreeItem is collapsed."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:221
+msgid ":ref:`int <class_int>` **custom_minimum_height**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:224
+msgid "set_custom_minimum_height(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:226
+msgid "get_custom_minimum_height()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:229
+msgid "The custom minimum height."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:235
+msgid ":ref:`bool <class_bool>` **disable_folding**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:238
+msgid "set_disable_folding(value)"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:240
+msgid "is_folding_disabled()"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:243
+msgid "If ``true``, folding is disabled for this TreeItem."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:246
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:250
+msgid ""
+"void **add_button** **(** :ref:`int <class_int>` column, :ref:`Texture2D "
+"<class_Texture2D>` button, :ref:`int <class_int>` button_idx=-1, "
+":ref:`bool <class_bool>` disabled=false, :ref:`String <class_String>` "
+"tooltip=\"\" **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:252
+msgid ""
+"Adds a button with :ref:`Texture2D <class_Texture2D>` ``button`` at "
+"column ``column``. The ``button_idx`` index is used to identify the "
+"button when calling other methods. If not specified, the next available "
+"index is used, which may be retrieved by calling :ref:`get_button_count "
+"<class_TreeItem_method_get_button_count>` immediately after this method. "
+"Optionally, the button can be ``disabled`` and have a ``tooltip"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:254
+msgid "``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:260
+msgid ""
+":ref:`Variant <class_Variant>` **call_recursive** **(** :ref:`StringName "
+"<class_StringName>` method, ... **)** vararg"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:262
+msgid ""
+"Calls the ``method`` on the actual TreeItem and its children recursively."
+" Pass parameters as a comma separated list."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:268
+msgid "void **clear_custom_bg_color** **(** :ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:270
+msgid "Resets the background color for the given column to default."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:276
+msgid "void **clear_custom_color** **(** :ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:278
+msgid "Resets the color for the given column to default."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:284
+msgid "void **deselect** **(** :ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:286
+msgid "Deselects the given column."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:292
+msgid ""
+"void **erase_button** **(** :ref:`int <class_int>` column, :ref:`int "
+"<class_int>` button_idx **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:294
+msgid "Removes the button at index ``button_idx`` in column ``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:300
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_button** **(** :ref:`int "
+"<class_int>` column, :ref:`int <class_int>` button_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:302
+msgid ""
+"Returns the :ref:`Texture2D <class_Texture2D>` of the button at index "
+"``button_idx`` in column ``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:308
+msgid ""
+":ref:`int <class_int>` **get_button_count** **(** :ref:`int <class_int>` "
+"column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:310
+msgid ""
+"Returns the number of buttons in column ``column``. May be used to get "
+"the most recently added button's index, if no index was specified."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:316
+msgid ""
+":ref:`String <class_String>` **get_button_tooltip** **(** :ref:`int "
+"<class_int>` column, :ref:`int <class_int>` button_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:318
+msgid ""
+"Returns the tooltip string for the button at index ``button_idx`` in "
+"column ``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:324
+msgid ""
+":ref:`TreeCellMode <enum_TreeItem_TreeCellMode>` **get_cell_mode** **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:326
+msgid "Returns the column's cell mode."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:332
+msgid ":ref:`TreeItem <class_TreeItem>` **get_children** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:334
+msgid "Returns the TreeItem's child items."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:340
+msgid ""
+":ref:`Color <class_Color>` **get_custom_bg_color** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:342
+msgid "Returns the custom background color of column ``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:348
+msgid ""
+":ref:`Color <class_Color>` **get_custom_color** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:350
+msgid "Returns the custom color of column ``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:356
+msgid ""
+":ref:`bool <class_bool>` **get_expand_right** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:358
+msgid "Returns ``true`` if ``expand_right`` is set."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:364
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_icon** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:366
+msgid ""
+"Returns the given column's icon :ref:`Texture2D <class_Texture2D>`. Error"
+" if no icon is set."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:372
+msgid ""
+":ref:`int <class_int>` **get_icon_max_width** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:374
+msgid "Returns the column's icon's maximum width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:380
+msgid ""
+":ref:`Color <class_Color>` **get_icon_modulate** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:382
+msgid "Returns the :ref:`Color <class_Color>` modulating the column's icon."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:388
+msgid ""
+":ref:`Rect2 <class_Rect2>` **get_icon_region** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:390
+msgid ""
+"Returns the icon :ref:`Texture2D <class_Texture2D>` region as :ref:`Rect2"
+" <class_Rect2>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:396
+msgid ""
+":ref:`Variant <class_Variant>` **get_metadata** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:402
+msgid ":ref:`TreeItem <class_TreeItem>` **get_next** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:404
+msgid "Returns the next TreeItem in the tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:410
+msgid ""
+":ref:`TreeItem <class_TreeItem>` **get_next_visible** **(** :ref:`bool "
+"<class_bool>` wrap=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:412
+msgid "Returns the next visible TreeItem in the tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:414
+msgid ""
+"If ``wrap`` is enabled, the method will wrap around to the first visible "
+"element in the tree when called on the last visible element, otherwise it"
+" returns ``null``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:420
+msgid ":ref:`TreeItem <class_TreeItem>` **get_parent** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:422
+msgid "Returns the parent TreeItem."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:428
+msgid ":ref:`TreeItem <class_TreeItem>` **get_prev** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:430
+msgid "Returns the previous TreeItem in the tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:436
+msgid ""
+":ref:`TreeItem <class_TreeItem>` **get_prev_visible** **(** :ref:`bool "
+"<class_bool>` wrap=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:438
+msgid "Returns the previous visible TreeItem in the tree."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:440
+msgid ""
+"If ``wrap`` is enabled, the method will wrap around to the last visible "
+"element in the tree when called on the first visible element, otherwise "
+"it returns ``null``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:446
+msgid ""
+":ref:`float <class_float>` **get_range** **(** :ref:`int <class_int>` "
+"column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:452
+msgid ""
+":ref:`Dictionary <class_Dictionary>` **get_range_config** **(** :ref:`int"
+" <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:458
+msgid ""
+":ref:`String <class_String>` **get_text** **(** :ref:`int <class_int>` "
+"column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:460
+msgid "Returns the given column's text."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:466
+msgid ""
+":ref:`TextAlign <enum_TreeItem_TextAlign>` **get_text_align** **(** "
+":ref:`int <class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:468
+msgid "Returns the given column's text alignment."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:474
+msgid ""
+":ref:`String <class_String>` **get_tooltip** **(** :ref:`int <class_int>`"
+" column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:476
+msgid "Returns the given column's tooltip."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:482
+msgid ""
+":ref:`bool <class_bool>` **is_button_disabled** **(** :ref:`int "
+"<class_int>` column, :ref:`int <class_int>` button_idx **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:484
+msgid ""
+"Returns ``true`` if the button at index ``button_idx`` for the given "
+"column is disabled."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:490
+msgid ""
+":ref:`bool <class_bool>` **is_checked** **(** :ref:`int <class_int>` "
+"column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:492
+msgid "Returns ``true`` if the given column is checked."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:498
+msgid ""
+":ref:`bool <class_bool>` **is_custom_set_as_button** **(** :ref:`int "
+"<class_int>` column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:504
+msgid ""
+":ref:`bool <class_bool>` **is_editable** **(** :ref:`int <class_int>` "
+"column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:506
+msgid "Returns ``true`` if column ``column`` is editable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:512
+msgid ""
+":ref:`bool <class_bool>` **is_selectable** **(** :ref:`int <class_int>` "
+"column **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:514
+msgid "Returns ``true`` if column ``column`` is selectable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:520
+msgid ""
+":ref:`bool <class_bool>` **is_selected** **(** :ref:`int <class_int>` "
+"column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:522
+msgid "Returns ``true`` if column ``column`` is selected."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:528
+msgid "void **move_to_bottom** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:530
+msgid ""
+"Moves this TreeItem to the bottom in the :ref:`Tree <class_Tree>` "
+"hierarchy."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:536
+msgid "void **move_to_top** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:538
+msgid "Moves this TreeItem to the top in the :ref:`Tree <class_Tree>` hierarchy."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:544
+msgid "void **remove_child** **(** :ref:`Object <class_Object>` child **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:546
+msgid "Removes the given child TreeItem."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:552
+msgid "void **select** **(** :ref:`int <class_int>` column **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:554
+msgid "Selects the column ``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:560
+msgid ""
+"void **set_button** **(** :ref:`int <class_int>` column, :ref:`int "
+"<class_int>` button_idx, :ref:`Texture2D <class_Texture2D>` button **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:562
+msgid ""
+"Sets the given column's button :ref:`Texture2D <class_Texture2D>` at "
+"index ``button_idx`` to ``button``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:568
+msgid ""
+"void **set_button_disabled** **(** :ref:`int <class_int>` column, "
+":ref:`int <class_int>` button_idx, :ref:`bool <class_bool>` disabled "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:570
+msgid ""
+"If ``true``, disables the button at index ``button_idx`` in column "
+"``column``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:576
+msgid ""
+"void **set_cell_mode** **(** :ref:`int <class_int>` column, "
+":ref:`TreeCellMode <enum_TreeItem_TreeCellMode>` mode **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:578
+msgid ""
+"Sets the given column's cell mode to ``mode``. See :ref:`TreeCellMode "
+"<enum_TreeItem_TreeCellMode>` constants."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:584
+msgid ""
+"void **set_checked** **(** :ref:`int <class_int>` column, :ref:`bool "
+"<class_bool>` checked **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:586
+msgid "If ``true``, the column ``column`` is checked."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:592
+msgid ""
+"void **set_custom_as_button** **(** :ref:`int <class_int>` column, "
+":ref:`bool <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:598
+msgid ""
+"void **set_custom_bg_color** **(** :ref:`int <class_int>` column, "
+":ref:`Color <class_Color>` color, :ref:`bool <class_bool>` "
+"just_outline=false **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:600
+msgid ""
+"Sets the given column's custom background color and whether to just use "
+"it as an outline."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:606
+msgid ""
+"void **set_custom_color** **(** :ref:`int <class_int>` column, "
+":ref:`Color <class_Color>` color **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:608
+msgid "Sets the given column's custom color."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:614
+msgid ""
+"void **set_custom_draw** **(** :ref:`int <class_int>` column, "
+":ref:`Object <class_Object>` object, :ref:`StringName <class_StringName>`"
+" callback **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:616
+msgid ""
+"Sets the given column's custom draw callback to ``callback`` method on "
+"``object``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:618
+msgid ""
+"The ``callback`` should accept two arguments: the ``TreeItem`` that is "
+"drawn and its position and size as a :ref:`Rect2 <class_Rect2>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:624
+msgid ""
+"void **set_editable** **(** :ref:`int <class_int>` column, :ref:`bool "
+"<class_bool>` enabled **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:626
+msgid "If ``true``, column ``column`` is editable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:632
+msgid ""
+"void **set_expand_right** **(** :ref:`int <class_int>` column, :ref:`bool"
+" <class_bool>` enable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:634
+msgid "If ``true``, column ``column`` is expanded to the right."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:640
+msgid ""
+"void **set_icon** **(** :ref:`int <class_int>` column, :ref:`Texture2D "
+"<class_Texture2D>` texture **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:642
+msgid "Sets the given column's icon :ref:`Texture2D <class_Texture2D>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:648
+msgid ""
+"void **set_icon_max_width** **(** :ref:`int <class_int>` column, "
+":ref:`int <class_int>` width **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:650
+msgid "Sets the given column's icon's maximum width."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:656
+msgid ""
+"void **set_icon_modulate** **(** :ref:`int <class_int>` column, "
+":ref:`Color <class_Color>` modulate **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:658
+msgid "Modulates the given column's icon with ``modulate``."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:664
+msgid ""
+"void **set_icon_region** **(** :ref:`int <class_int>` column, :ref:`Rect2"
+" <class_Rect2>` region **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:666
+msgid "Sets the given column's icon's texture region."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:672
+msgid ""
+"void **set_metadata** **(** :ref:`int <class_int>` column, :ref:`Variant "
+"<class_Variant>` meta **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:678
+msgid ""
+"void **set_range** **(** :ref:`int <class_int>` column, :ref:`float "
+"<class_float>` value **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:684
+msgid ""
+"void **set_range_config** **(** :ref:`int <class_int>` column, "
+":ref:`float <class_float>` min, :ref:`float <class_float>` max, "
+":ref:`float <class_float>` step, :ref:`bool <class_bool>` expr=false "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:690
+msgid ""
+"void **set_selectable** **(** :ref:`int <class_int>` column, :ref:`bool "
+"<class_bool>` selectable **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:692
+msgid "If ``true``, the given column is selectable."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:698
+msgid ""
+"void **set_text** **(** :ref:`int <class_int>` column, :ref:`String "
+"<class_String>` text **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:704
+msgid ""
+"void **set_text_align** **(** :ref:`int <class_int>` column, "
+":ref:`TextAlign <enum_TreeItem_TextAlign>` text_align **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:706
+msgid ""
+"Sets the given column's text alignment. See :ref:`TextAlign "
+"<enum_TreeItem_TextAlign>` for possible values."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:712
+msgid ""
+"void **set_tooltip** **(** :ref:`int <class_int>` column, :ref:`String "
+"<class_String>` tooltip **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_treeitem.rst:714
+msgid "Sets the given column's tooltip text."
+msgstr ""
+
+#~ msgid ""
+#~ "Sets the given column's cell mode "
+#~ "to ``mode``. See ``CELL_MODE_*`` constants."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`add_button <class_TreeItem_method_add_button>` **(**"
+#~ " :ref:`int <class_int>` column, :ref:`Texture "
+#~ "<class_Texture>` button, :ref:`int <class_int>` "
+#~ "button_idx=-1, :ref:`bool <class_bool>` "
+#~ "disabled=false, :ref:`String <class_String>` "
+#~ "tooltip=\"\" **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_button <class_TreeItem_method_set_button>` **(**"
+#~ " :ref:`int <class_int>` column, :ref:`int "
+#~ "<class_int>` button_idx, :ref:`Texture "
+#~ "<class_Texture>` button **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_icon <class_TreeItem_method_set_icon>` **(** "
+#~ ":ref:`int <class_int>` column, :ref:`Texture "
+#~ "<class_Texture>` texture **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **add_button** **(** :ref:`int "
+#~ "<class_int>` column, :ref:`Texture <class_Texture>`"
+#~ " button, :ref:`int <class_int>` button_idx=-1,"
+#~ " :ref:`bool <class_bool>` disabled=false, "
+#~ ":ref:`String <class_String>` tooltip=\"\" **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adds a button with :ref:`Texture "
+#~ "<class_Texture>` ``button`` at column "
+#~ "``column``. The ``button_idx`` index is "
+#~ "used to identify the button when "
+#~ "calling other methods. If not specified,"
+#~ " the next available index is used,"
+#~ " which may be retrieved by calling"
+#~ " :ref:`get_button_count "
+#~ "<class_TreeItem_method_get_button_count>` immediately "
+#~ "after this method. Optionally, the "
+#~ "button can be ``disabled`` and have "
+#~ "a ``tooltip``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture <class_Texture>` **get_button** **(**"
+#~ " :ref:`int <class_int>` column, :ref:`int "
+#~ "<class_int>` button_idx **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the :ref:`Texture <class_Texture>` of"
+#~ " the button at index ``button_idx`` "
+#~ "in column ``column``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture <class_Texture>` **get_icon** **(**"
+#~ " :ref:`int <class_int>` column **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the given column's icon "
+#~ ":ref:`Texture <class_Texture>`. Error if no"
+#~ " icon is set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the icon :ref:`Texture "
+#~ "<class_Texture>` region as :ref:`Rect2 "
+#~ "<class_Rect2>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_button** **(** :ref:`int "
+#~ "<class_int>` column, :ref:`int <class_int>` "
+#~ "button_idx, :ref:`Texture <class_Texture>` button"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sets the given column's button "
+#~ ":ref:`Texture <class_Texture>` at index "
+#~ "``button_idx`` to ``button``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_icon** **(** :ref:`int <class_int>`"
+#~ " column, :ref:`Texture <class_Texture>` texture"
+#~ " **)**"
+#~ msgstr ""
+
+#~ msgid "Sets the given column's icon :ref:`Texture <class_Texture>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`call_recursive <class_TreeItem_method_call_recursive>` "
+#~ "**(** :ref:`String <class_String>` method, ..."
+#~ " **)** vararg"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_custom_draw <class_TreeItem_method_set_custom_draw>`"
+#~ " **(** :ref:`int <class_int>` column, "
+#~ ":ref:`Object <class_Object>` object, :ref:`String"
+#~ " <class_String>` callback **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Variant <class_Variant>` **call_recursive** "
+#~ "**(** :ref:`String <class_String>` method, ..."
+#~ " **)** vararg"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_custom_draw** **(** :ref:`int "
+#~ "<class_int>` column, :ref:`Object <class_Object>`"
+#~ " object, :ref:`String <class_String>` callback"
+#~ " **)**"
+#~ msgstr ""
+

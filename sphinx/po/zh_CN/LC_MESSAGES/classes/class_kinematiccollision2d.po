@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 16:37+0800\n"
+"PO-Revision-Date: 2019-10-30 23:43+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:10
+msgid "KinematicCollision2D"
+msgstr "KinematicCollision2D"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+msgstr ""
+"**基类**：:ref:`Reference <class_Reference>` **<** :ref:`Object "
+"<class_Object>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:14
+msgid ""
+"Collision data for :ref:`KinematicBody2D <class_KinematicBody2D>` "
+"collisions."
+msgstr ":ref:`KinematicBody2D <class_KinematicBody2D>` 碰撞的碰撞数据。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:17
+msgid "Description"
+msgstr "说明"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:19
+msgid ""
+"Contains collision data for :ref:`KinematicBody2D "
+"<class_KinematicBody2D>` collisions. When a :ref:`KinematicBody2D "
+"<class_KinematicBody2D>` is moved using "
+":ref:`KinematicBody2D.move_and_collide "
+"<class_KinematicBody2D_method_move_and_collide>`, it stops if it detects "
+"a collision with another body. If a collision is detected, a "
+"KinematicCollision2D object is returned."
+msgstr ""
+"包含 :ref:`KinematicBody2D <class_KinematicBody2D>` 碰撞的碰撞数据。当使用 "
+":ref:`KinematicBody2D.move_and_collide "
+"<class_KinematicBody2D_method_move_and_collide>` 来移动 "
+":ref:`KinematicBody2D <class_KinematicBody2D>` "
+"时，如果检测到与另一个物体的碰撞，它将停止。如果检测到冲突，则返回一个 ``KinematicCollision2D`` 对象。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:21
+msgid ""
+"This object contains information about the collision, including the "
+"colliding object, the remaining motion, and the collision position. This "
+"information can be used to calculate a collision response."
+msgstr "该对象包含有关碰撞的信息，包括碰撞对象、剩余运动、和碰撞位置。该信息可用于计算碰撞响应。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:27
+#: ../../docs/classes/class_kinematiccollision2d.rst:33
+#: ../../docs/classes/class_kinematiccollision2d.rst:39
+msgid ":ref:`Object <class_Object>`"
+msgstr ":ref:`Object <class_Object>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:27
+msgid ":ref:`collider <class_KinematicCollision2D_property_collider>`"
+msgstr ":ref:`collider <class_KinematicCollision2D_property_collider>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:29
+#: ../../docs/classes/class_kinematiccollision2d.rst:35
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:29
+msgid ":ref:`collider_id <class_KinematicCollision2D_property_collider_id>`"
+msgstr ":ref:`collider_id <class_KinematicCollision2D_property_collider_id>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:29
+#: ../../docs/classes/class_kinematiccollision2d.rst:35
+#: ../../docs/classes/class_kinematiccollision2d.rst:70
+#: ../../docs/classes/class_kinematiccollision2d.rst:108
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:31
+msgid ":ref:`Variant <class_Variant>`"
+msgstr ":ref:`Variant <class_Variant>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:31
+msgid ""
+":ref:`collider_metadata "
+"<class_KinematicCollision2D_property_collider_metadata>`"
+msgstr ""
+":ref:`collider_metadata "
+"<class_KinematicCollision2D_property_collider_metadata>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:33
+msgid ":ref:`collider_shape <class_KinematicCollision2D_property_collider_shape>`"
+msgstr ":ref:`collider_shape <class_KinematicCollision2D_property_collider_shape>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:35
+msgid ""
+":ref:`collider_shape_index "
+"<class_KinematicCollision2D_property_collider_shape_index>`"
+msgstr ""
+":ref:`collider_shape_index "
+"<class_KinematicCollision2D_property_collider_shape_index>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:37
+#: ../../docs/classes/class_kinematiccollision2d.rst:41
+#: ../../docs/classes/class_kinematiccollision2d.rst:43
+#: ../../docs/classes/class_kinematiccollision2d.rst:45
+#: ../../docs/classes/class_kinematiccollision2d.rst:47
+msgid ":ref:`Vector2 <class_Vector2>`"
+msgstr ":ref:`Vector2 <class_Vector2>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:37
+msgid ""
+":ref:`collider_velocity "
+"<class_KinematicCollision2D_property_collider_velocity>`"
+msgstr ""
+":ref:`collider_velocity "
+"<class_KinematicCollision2D_property_collider_velocity>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:37
+#: ../../docs/classes/class_kinematiccollision2d.rst:41
+#: ../../docs/classes/class_kinematiccollision2d.rst:43
+#: ../../docs/classes/class_kinematiccollision2d.rst:45
+#: ../../docs/classes/class_kinematiccollision2d.rst:47
+#: ../../docs/classes/class_kinematiccollision2d.rst:122
+#: ../../docs/classes/class_kinematiccollision2d.rst:148
+#: ../../docs/classes/class_kinematiccollision2d.rst:162
+#: ../../docs/classes/class_kinematiccollision2d.rst:176
+#: ../../docs/classes/class_kinematiccollision2d.rst:190
+#, fuzzy
+msgid "``Vector2( 0, 0 )``"
+msgstr "Vector2( 0, 0 )"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:39
+msgid ":ref:`local_shape <class_KinematicCollision2D_property_local_shape>`"
+msgstr ":ref:`local_shape <class_KinematicCollision2D_property_local_shape>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:41
+msgid ":ref:`normal <class_KinematicCollision2D_property_normal>`"
+msgstr ":ref:`normal <class_KinematicCollision2D_property_normal>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:43
+msgid ":ref:`position <class_KinematicCollision2D_property_position>`"
+msgstr ":ref:`position <class_KinematicCollision2D_property_position>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:45
+msgid ":ref:`remainder <class_KinematicCollision2D_property_remainder>`"
+msgstr ":ref:`remainder <class_KinematicCollision2D_property_remainder>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:47
+msgid ":ref:`travel <class_KinematicCollision2D_property_travel>`"
+msgstr ":ref:`travel <class_KinematicCollision2D_property_travel>`"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:51
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:55
+msgid ":ref:`Object <class_Object>` **collider**"
+msgstr ":ref:`Object <class_Object>` **collider**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:58
+#: ../../docs/classes/class_kinematiccollision2d.rst:72
+#: ../../docs/classes/class_kinematiccollision2d.rst:84
+#: ../../docs/classes/class_kinematiccollision2d.rst:96
+#: ../../docs/classes/class_kinematiccollision2d.rst:110
+#: ../../docs/classes/class_kinematiccollision2d.rst:124
+#: ../../docs/classes/class_kinematiccollision2d.rst:136
+#: ../../docs/classes/class_kinematiccollision2d.rst:150
+#: ../../docs/classes/class_kinematiccollision2d.rst:164
+#: ../../docs/classes/class_kinematiccollision2d.rst:178
+#: ../../docs/classes/class_kinematiccollision2d.rst:192
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:58
+msgid "get_collider()"
+msgstr "get_collider()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:61
+msgid "The colliding body."
+msgstr "碰撞体。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:67
+msgid ":ref:`int <class_int>` **collider_id**"
+msgstr ":ref:`int <class_int>` **collider_id**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:70
+#: ../../docs/classes/class_kinematiccollision2d.rst:108
+#: ../../docs/classes/class_kinematiccollision2d.rst:122
+#: ../../docs/classes/class_kinematiccollision2d.rst:148
+#: ../../docs/classes/class_kinematiccollision2d.rst:162
+#: ../../docs/classes/class_kinematiccollision2d.rst:176
+#: ../../docs/classes/class_kinematiccollision2d.rst:190
+msgid "*Default*"
+msgstr "*默认*"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:72
+msgid "get_collider_id()"
+msgstr "get_collider_id()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:75
+#, fuzzy
+msgid ""
+"The colliding body's unique instance ID. See :ref:`Object.get_instance_id"
+" <class_Object_method_get_instance_id>`."
+msgstr "碰撞体的元数据。参见 :ref:`Object <class_Object>`。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:81
+msgid ":ref:`Variant <class_Variant>` **collider_metadata**"
+msgstr ":ref:`Variant <class_Variant>` **collider_metadata**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:84
+msgid "get_collider_metadata()"
+msgstr "get_collider_metadata()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:87
+msgid "The colliding body's metadata. See :ref:`Object <class_Object>`."
+msgstr "碰撞体的元数据。参见 :ref:`Object <class_Object>`。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:93
+msgid ":ref:`Object <class_Object>` **collider_shape**"
+msgstr ":ref:`Object <class_Object>` **collider_shape**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:96
+msgid "get_collider_shape()"
+msgstr "get_collider_shape()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:99
+msgid "The colliding body's shape."
+msgstr "碰撞体的形状。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:105
+msgid ":ref:`int <class_int>` **collider_shape_index**"
+msgstr ":ref:`int <class_int>` **collider_shape_index**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:110
+msgid "get_collider_shape_index()"
+msgstr "get_collider_shape_index()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:113
+msgid ""
+"The colliding shape's index. See :ref:`CollisionObject2D "
+"<class_CollisionObject2D>`."
+msgstr "碰撞形状的索引。请参阅 :ref:`CollisionObject2D <class_CollisionObject2D>`。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:119
+msgid ":ref:`Vector2 <class_Vector2>` **collider_velocity**"
+msgstr ":ref:`Vector2 <class_Vector2>` **collider_velocity**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:124
+msgid "get_collider_velocity()"
+msgstr "get_collider_velocity()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:127
+msgid "The colliding object's velocity."
+msgstr "碰撞物体的速度。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:133
+msgid ":ref:`Object <class_Object>` **local_shape**"
+msgstr ":ref:`Object <class_Object>` **local_shape**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:136
+msgid "get_local_shape()"
+msgstr "get_local_shape()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:139
+msgid "The moving object's colliding shape."
+msgstr "运动对象的碰撞形状。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:145
+msgid ":ref:`Vector2 <class_Vector2>` **normal**"
+msgstr ":ref:`Vector2 <class_Vector2>` **normal**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:150
+msgid "get_normal()"
+msgstr "get_normal()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:153
+msgid "The colliding body's shape's normal at the point of collision."
+msgstr "碰撞点处，碰撞物体的形状的法线。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:159
+msgid ":ref:`Vector2 <class_Vector2>` **position**"
+msgstr ":ref:`Vector2 <class_Vector2>` **position**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:164
+msgid "get_position()"
+msgstr "get_position()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:167
+#, fuzzy
+msgid "The point of collision, in global coordinates."
+msgstr "碰撞点。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:173
+msgid ":ref:`Vector2 <class_Vector2>` **remainder**"
+msgstr ":ref:`Vector2 <class_Vector2>` **remainder**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:178
+msgid "get_remainder()"
+msgstr "get_remainder()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:181
+msgid "The moving object's remaining movement vector."
+msgstr "运动对象的剩余运动向量。"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:187
+msgid ":ref:`Vector2 <class_Vector2>` **travel**"
+msgstr ":ref:`Vector2 <class_Vector2>` **travel**"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:192
+msgid "get_travel()"
+msgstr "get_travel()"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:195
+msgid "The distance the moving object traveled before collision."
+msgstr "碰撞之前移动物体移动的距离。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "Brief Description"
+#~ msgstr "简要说明"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "The colliding body's unique :ref:`RID <class_RID>`."
+#~ msgstr "碰撞体的唯一 :ref:`RID <class_RID>`。"
+

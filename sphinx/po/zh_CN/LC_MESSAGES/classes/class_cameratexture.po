@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: 2019-10-29 16:41+0800\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:10
+msgid "CameraTexture"
+msgstr "CameraTexture"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture2D <class_Texture2D>` **<** :ref:`Texture "
+"<class_Texture>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:14
+#, fuzzy
+msgid "Texture provided by a :ref:`CameraFeed <class_CameraFeed>`."
+msgstr "该纹理可以访问由 :ref:`CameraFeed <class_CameraFeed>` 提供的相机纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:17
+#, fuzzy
+msgid "Description"
+msgstr "简要说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:19
+msgid ""
+"This texture gives access to the camera texture provided by a "
+":ref:`CameraFeed <class_CameraFeed>`."
+msgstr "该纹理可以访问由 :ref:`CameraFeed <class_CameraFeed>` 提供的相机纹理。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:21
+msgid ""
+"**Note:** Many cameras supply YCbCr images which need to be converted in "
+"a shader."
+msgstr "**注意**：许多相机提供 ``YCbCr`` 图像，需要在着色器中对其进行转换。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:27
+msgid ":ref:`int <class_int>`"
+msgstr ":ref:`int <class_int>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:27
+msgid ":ref:`camera_feed_id <class_CameraTexture_property_camera_feed_id>`"
+msgstr ":ref:`camera_feed_id <class_CameraTexture_property_camera_feed_id>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:31
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:74
+msgid "``0``"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:29
+msgid ":ref:`bool <class_bool>`"
+msgstr ":ref:`bool <class_bool>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:29
+msgid ":ref:`camera_is_active <class_CameraTexture_property_camera_is_active>`"
+msgstr ":ref:`camera_is_active <class_CameraTexture_property_camera_is_active>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:58
+#, fuzzy
+msgid "``false``"
+msgstr "false"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:31
+msgid ":ref:`FeedImage <enum_CameraServer_FeedImage>`"
+msgstr ":ref:`FeedImage <enum_CameraServer_FeedImage>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:31
+msgid ":ref:`which_feed <class_CameraTexture_property_which_feed>`"
+msgstr ":ref:`which_feed <class_CameraTexture_property_which_feed>`"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:35
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:39
+msgid ":ref:`int <class_int>` **camera_feed_id**"
+msgstr ":ref:`int <class_int>` **camera_feed_id**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:42
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:58
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:74
+msgid "*Default*"
+msgstr "*默认*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:44
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:60
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:76
+msgid "*Setter*"
+msgstr "*Setter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:44
+msgid "set_camera_feed_id(value)"
+msgstr "set_camera_feed_id(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:46
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:62
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:78
+msgid "*Getter*"
+msgstr "*Getter*"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:46
+msgid "get_camera_feed_id()"
+msgstr "get_camera_feed_id()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:49
+msgid ""
+"The ID of the :ref:`CameraFeed <class_CameraFeed>` for which we want to "
+"display the image."
+msgstr "我们要显示图像的 :ref:`CameraFeed <class_CameraFeed>` 的ID。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:55
+msgid ":ref:`bool <class_bool>` **camera_is_active**"
+msgstr ":ref:`bool <class_bool>` **camera_is_active**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:60
+msgid "set_camera_active(value)"
+msgstr "set_camera_active(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:62
+msgid "get_camera_active()"
+msgstr "get_camera_active()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:65
+msgid ""
+"Convenience property that gives access to the active property of the "
+":ref:`CameraFeed <class_CameraFeed>`."
+msgstr "可访问 :ref:`CameraFeed <class_CameraFeed>` 的 ``active`` 属性的便利属性。"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:71
+msgid ":ref:`FeedImage <enum_CameraServer_FeedImage>` **which_feed**"
+msgstr ":ref:`FeedImage <enum_CameraServer_FeedImage>` **which_feed**"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:76
+msgid "set_which_feed(value)"
+msgstr "set_which_feed(value)"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:78
+msgid "get_which_feed()"
+msgstr "get_which_feed()"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_cameratexture.rst:81
+msgid ""
+"Which image within the :ref:`CameraFeed <class_CameraFeed>` we want "
+"access to, important if the camera image is split in a Y and CbCr "
+"component."
+msgstr ""
+"我们要访问 :ref:`CameraFeed <class_CameraFeed>` 中的哪个图像，如果将相机图像分为一个 ``Y`` 和 "
+"``CbCr`` 分量，则很重要。"
+
+#~ msgid "**Category:** Core"
+#~ msgstr "**类别**：核心"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "flags"
+#~ msgstr "标志"
+
+#~ msgid "**O:** ``0``"
+#~ msgstr "**O:** 0"
+
+#~ msgid ""
+#~ "**Inherits:** :ref:`Texture2D <class_Texture2D>` "
+#~ "**<** :ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+#~ msgstr ""
+#~ "**基类**：:ref:`Texture <class_Texture>` **<** "
+#~ ":ref:`Resource <class_Resource>` **<** "
+#~ ":ref:`Reference <class_Reference>` **<** "
+#~ ":ref:`Object <class_Object>`"
+

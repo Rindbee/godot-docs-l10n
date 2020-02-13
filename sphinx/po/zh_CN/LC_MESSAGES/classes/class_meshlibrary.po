@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-02 19:33+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:10
+msgid "MeshLibrary"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource <class_Resource>` **<** :ref:`Reference "
+"<class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:14
+msgid "Library of meshes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:17
+msgid "Description"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:19
+msgid ""
+"A library of meshes. Contains a list of :ref:`Mesh <class_Mesh>` "
+"resources, each with a name and ID. Each item can also include collision "
+"and navigation shapes. This resource is used in :ref:`GridMap "
+"<class_GridMap>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:22
+msgid "Methods"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:25
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:27
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:47
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:49
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:51
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:53
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:55
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:57
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:59
+msgid "void"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:25
+msgid ":ref:`clear <class_MeshLibrary_method_clear>` **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:27
+msgid ""
+":ref:`create_item <class_MeshLibrary_method_create_item>` **(** :ref:`int"
+" <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:29
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:45
+msgid ":ref:`int <class_int>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:29
+msgid ""
+":ref:`find_item_by_name <class_MeshLibrary_method_find_item_by_name>` "
+"**(** :ref:`String <class_String>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:31
+msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:31
+msgid ""
+":ref:`get_item_list <class_MeshLibrary_method_get_item_list>` **(** **)**"
+" const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:33
+msgid ":ref:`Mesh <class_Mesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:33
+msgid ""
+":ref:`get_item_mesh <class_MeshLibrary_method_get_item_mesh>` **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:35
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:35
+msgid ""
+":ref:`get_item_name <class_MeshLibrary_method_get_item_name>` **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:37
+msgid ":ref:`NavigationMesh <class_NavigationMesh>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:37
+msgid ""
+":ref:`get_item_navmesh <class_MeshLibrary_method_get_item_navmesh>` **(**"
+" :ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:39
+msgid ":ref:`Transform <class_Transform>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:39
+msgid ""
+":ref:`get_item_navmesh_transform "
+"<class_MeshLibrary_method_get_item_navmesh_transform>` **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:41
+msgid ":ref:`Texture2D <class_Texture2D>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:41
+msgid ""
+":ref:`get_item_preview <class_MeshLibrary_method_get_item_preview>` **(**"
+" :ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:43
+msgid ":ref:`Array <class_Array>`"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:43
+msgid ""
+":ref:`get_item_shapes <class_MeshLibrary_method_get_item_shapes>` **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:45
+msgid ""
+":ref:`get_last_unused_item_id "
+"<class_MeshLibrary_method_get_last_unused_item_id>` **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:47
+msgid ""
+":ref:`remove_item <class_MeshLibrary_method_remove_item>` **(** :ref:`int"
+" <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:49
+msgid ""
+":ref:`set_item_mesh <class_MeshLibrary_method_set_item_mesh>` **(** "
+":ref:`int <class_int>` id, :ref:`Mesh <class_Mesh>` mesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:51
+msgid ""
+":ref:`set_item_name <class_MeshLibrary_method_set_item_name>` **(** "
+":ref:`int <class_int>` id, :ref:`String <class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:53
+msgid ""
+":ref:`set_item_navmesh <class_MeshLibrary_method_set_item_navmesh>` **(**"
+" :ref:`int <class_int>` id, :ref:`NavigationMesh <class_NavigationMesh>` "
+"navmesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:55
+msgid ""
+":ref:`set_item_navmesh_transform "
+"<class_MeshLibrary_method_set_item_navmesh_transform>` **(** :ref:`int "
+"<class_int>` id, :ref:`Transform <class_Transform>` navmesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:57
+msgid ""
+":ref:`set_item_preview <class_MeshLibrary_method_set_item_preview>` **(**"
+" :ref:`int <class_int>` id, :ref:`Texture2D <class_Texture2D>` texture "
+"**)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:59
+msgid ""
+":ref:`set_item_shapes <class_MeshLibrary_method_set_item_shapes>` **(** "
+":ref:`int <class_int>` id, :ref:`Array <class_Array>` shapes **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:63
+msgid "Method Descriptions"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:67
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:69
+msgid "Clears the library."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:75
+msgid "void **create_item** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:77
+msgid "Creates a new item in the library with the given ID."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:79
+msgid ""
+"You can get an unused ID from :ref:`get_last_unused_item_id "
+"<class_MeshLibrary_method_get_last_unused_item_id>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:85
+msgid ""
+":ref:`int <class_int>` **find_item_by_name** **(** :ref:`String "
+"<class_String>` name **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:87
+msgid "Returns the first item with the given name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:93
+msgid ""
+":ref:`PackedInt32Array <class_PackedInt32Array>` **get_item_list** **(** "
+"**)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:95
+msgid "Returns the list of item IDs in use."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:101
+msgid ""
+":ref:`Mesh <class_Mesh>` **get_item_mesh** **(** :ref:`int <class_int>` "
+"id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:103
+msgid "Returns the item's mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:109
+msgid ""
+":ref:`String <class_String>` **get_item_name** **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:111
+msgid "Returns the item's name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:117
+msgid ""
+":ref:`NavigationMesh <class_NavigationMesh>` **get_item_navmesh** **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:119
+msgid "Returns the item's navigation mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:125
+msgid ""
+":ref:`Transform <class_Transform>` **get_item_navmesh_transform** **(** "
+":ref:`int <class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:127
+msgid "Returns the transform applied to the item's navigation mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:133
+msgid ""
+":ref:`Texture2D <class_Texture2D>` **get_item_preview** **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:135
+msgid ""
+"When running in the editor, returns a generated item preview (a 3D "
+"rendering in isometric perspective). When used in a running project, "
+"returns the manually-defined item preview which can be set using "
+":ref:`set_item_preview <class_MeshLibrary_method_set_item_preview>`. "
+"Returns an empty :ref:`Texture2D <class_Texture2D>` if no preview was "
+"manually set in a running project."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:141
+msgid ""
+":ref:`Array <class_Array>` **get_item_shapes** **(** :ref:`int "
+"<class_int>` id **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:143
+msgid "Returns an item's collision shapes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:145
+msgid ""
+"The array consists of each :ref:`Shape <class_Shape>` followed by its "
+":ref:`Transform <class_Transform>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:151
+msgid ":ref:`int <class_int>` **get_last_unused_item_id** **(** **)** const"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:153
+msgid "Gets an unused ID for a new item."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:159
+msgid "void **remove_item** **(** :ref:`int <class_int>` id **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:161
+msgid "Removes the item."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:167
+msgid ""
+"void **set_item_mesh** **(** :ref:`int <class_int>` id, :ref:`Mesh "
+"<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:169
+msgid "Sets the item's mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:175
+msgid ""
+"void **set_item_name** **(** :ref:`int <class_int>` id, :ref:`String "
+"<class_String>` name **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:177
+msgid "Sets the item's name."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:179
+msgid ""
+"This name is shown in the editor. It can also be used to look up the item"
+" later using :ref:`find_item_by_name "
+"<class_MeshLibrary_method_find_item_by_name>`."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:185
+msgid ""
+"void **set_item_navmesh** **(** :ref:`int <class_int>` id, "
+":ref:`NavigationMesh <class_NavigationMesh>` navmesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:187
+msgid "Sets the item's navigation mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:193
+msgid ""
+"void **set_item_navmesh_transform** **(** :ref:`int <class_int>` id, "
+":ref:`Transform <class_Transform>` navmesh **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:195
+msgid "Sets the transform to apply to the item's navigation mesh."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:201
+msgid ""
+"void **set_item_preview** **(** :ref:`int <class_int>` id, "
+":ref:`Texture2D <class_Texture2D>` texture **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:203
+msgid "Sets a texture to use as the item's preview icon in the editor."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:209
+msgid ""
+"void **set_item_shapes** **(** :ref:`int <class_int>` id, :ref:`Array "
+"<class_Array>` shapes **)**"
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:211
+msgid "Sets an item's collision shapes."
+msgstr ""
+
+#: /home/bee/code/godot/godot-docs-l10n/docs/classes/class_meshlibrary.rst:213
+msgid ""
+"The array should consist of :ref:`Shape <class_Shape>` objects, each "
+"followed by a :ref:`Transform <class_Transform>` that will be applied to "
+"it. For shapes that should not have a transform, use "
+":ref:`Transform.IDENTITY <class_Transform_constant_IDENTITY>`."
+msgstr ""
+
+#~ msgid ""
+#~ "A library of meshes. Contains a "
+#~ "list of :ref:`Mesh <class_Mesh>` resources,"
+#~ " each with a name and ID. This"
+#~ " resource is used in :ref:`GridMap "
+#~ "<class_GridMap>`."
+#~ msgstr ""
+
+#~ msgid "Create a new item in the library, supplied as an ID."
+#~ msgstr ""
+
+#~ msgid "Returns the list of items."
+#~ msgstr ""
+
+#~ msgid "Returns the mesh of the item."
+#~ msgstr ""
+
+#~ msgid "Returns the name of the item."
+#~ msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid ":ref:`Texture <class_Texture>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`set_item_preview "
+#~ "<class_MeshLibrary_method_set_item_preview>` **(** "
+#~ ":ref:`int <class_int>` id, :ref:`Texture "
+#~ "<class_Texture>` texture **)**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`Texture <class_Texture>` **get_item_preview** "
+#~ "**(** :ref:`int <class_int>` id **)** "
+#~ "const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Note:** Since item previews are only"
+#~ " generated in an editor context, this"
+#~ " function will return an empty "
+#~ ":ref:`Texture <class_Texture>` in a running"
+#~ " project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "void **set_item_preview** **(** :ref:`int "
+#~ "<class_int>` id, :ref:`Texture <class_Texture>` "
+#~ "texture **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`PoolIntArray <class_PoolIntArray>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`PoolIntArray <class_PoolIntArray>` **get_item_list**"
+#~ " **(** **)** const"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns a generated item preview (a "
+#~ "3D rendering in isometric perspective)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Note:** Since item previews are only"
+#~ " generated in an editor context, this"
+#~ " function will return an empty "
+#~ ":ref:`Texture2D <class_Texture2D>` in a "
+#~ "running project."
+#~ msgstr ""
+

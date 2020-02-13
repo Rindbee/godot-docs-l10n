@@ -1,26 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-10-14 07:18+0800\n"
+"PO-Revision-Date: 2019-11-10 22:43+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:4
-#, fuzzy
 msgid "Localization using gettext"
-msgstr "本地化"
+msgstr "使用 ``gettext`` 进行本地化"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:6
 msgid ""
@@ -28,6 +31,8 @@ msgid ""
 "supports loading translation files written in the GNU gettext (``.po``) "
 "format."
 msgstr ""
+"除了CSV格式的 :ref:`doc_importing_translations` 外，Godot还支持加载以GNU "
+"gettext（``.po``）格式编写的翻译文件。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:10
 msgid ""
@@ -36,17 +41,21 @@ msgid ""
 "html>`_. It's written with C projects in mind, but much of the advice also "
 "applies to Godot (with the exception of ``xgettext``)."
 msgstr ""
+"有关gettext的介绍，请查看 `快速Gettext教程 <https://www.labri.fr/perso/"
+"fleury/posts/programming/a-quick-gettext-tutorial.html>`_。它是在考虑C项目的"
+"情况下编写的，但许多建议也适用于Godot（``xgettext`` 除外）。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:16
-#, fuzzy
 msgid "Advantages"
-msgstr "**优势:**"
+msgstr "优点"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:18
 msgid ""
 "gettext is a standard format, which can be edited using any text editor or "
 "GUI editors such as `Poedit <https://poedit.net/>`_."
 msgstr ""
+"gettext是一种标准格式，可以使用任何文本编辑器或GUI编辑器（如 `Poedit "
+"<https://poedit.net/>`_）进行编辑。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:20
 msgid ""
@@ -54,29 +63,33 @@ msgid ""
 "www.transifex.com/>`_ and `Weblate <https://weblate.org/>`_, which makes it "
 "easier for people to collaborate to localization."
 msgstr ""
+"翻译平台（例如 `Transifex <https://www.transifex.com/>`_ 和 `Weblate "
+"<https://weblate.org/>`_）支持gettext，这使人们更易于协作进行本地化 。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:23
 msgid ""
 "Compared to CSV, gettext works better with version control systems like Git, "
 "as each locale has its own messages file."
 msgstr ""
+"与CSV相比，gettext在版本控制系统（如Git）中效果更好，因为每个语言环境都有自己"
+"的消息文件。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:25
 msgid ""
 "Multiline strings are more convenient to edit in gettext files compared to "
 "CSV files."
-msgstr ""
+msgstr "与CSV文件相比，多行字符串在gettext文件中进行编辑更方便。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:29
-#, fuzzy
 msgid "Disadvantages"
-msgstr "**优势:**"
+msgstr "缺点"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:31
 msgid ""
 "gettext is a more complex format than CSV and can be harder to grasp for "
 "people new to software localization."
 msgstr ""
+"gettext是一种比CSV更复杂的格式，对于刚接触软件本地化的人来说，很难掌握。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:33
 msgid ""
@@ -85,10 +98,12 @@ msgid ""
 "(``.mo``), translators can test their work without having to install gettext "
 "tools."
 msgstr ""
+"维护本地化文件的人将必须在系统上安装gettext工具。但是，由于Godot不使用已编译"
+"的消息对象文件（``.mo``），因此翻译人员无需安装gettext工具即可测试其工作。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:39
 msgid "Caveats"
-msgstr ""
+msgstr "注意事项"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:41
 msgid ""
@@ -96,11 +111,12 @@ msgid ""
 "limited than the reference GNU gettext implementation), some features such "
 "as pluralization aren't supported."
 msgstr ""
+"由于Godot在幕后，使用其自己的PO文件解析器（比参考GNU gettext实现更受限制），"
+"因此不支持诸如多元化之类的某些功能。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:46
-#, fuzzy
 msgid "Installing gettext tools"
-msgstr "安装模板"
+msgstr "安装gettext工具"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:48
 msgid ""
@@ -108,6 +124,8 @@ msgid ""
 "operations, such as updating message files. Therefore, it's strongly "
 "recommended to install them."
 msgstr ""
+"需要使用命令行gettext工具来执行维护操作，例如更新消息文件。因此，强烈建议安装"
+"它们。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:52
 msgid ""
@@ -115,23 +133,29 @@ msgid ""
 "io/articles/gettext-iconv-windows.html>`_. Any architecture and binary type "
 "(shared or static) works; if in doubt, choose the 64-bit static installer."
 msgstr ""
+"**Windows**：从 `此页面 <https://mlocati.github.io/articles/gettext-iconv-"
+"windows.html>`_ 下载安装程序。任何体系结构和二进制类型（共享或静态）都可以工"
+"作；如有疑问，请选择64位静态安装程序。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:56
 msgid ""
 "**macOS:** Use `Homebrew <https://brew.sh/>`_ to install gettext with the "
 "``brew install gettext`` command."
 msgstr ""
+"**macOS**：使用 `Homebrew <https://brew.sh/>`_ 通过 ``brew install gettext`` "
+"命令安装gettext。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:58
 msgid ""
 "**Linux:** On most distributions, install the ``gettext`` package from your "
 "distribution's package manager."
 msgstr ""
+"**Linux**：在大多数发行版中，从发行版的软件包管理器中，安装 ``gettext`` 软件"
+"包。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:62
-#, fuzzy
 msgid "Creating the PO template (POT) manually"
-msgstr "创建UWP导出模板"
+msgstr "手动创建PO模板（POT）"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:64
 msgid ""
@@ -140,12 +164,17 @@ msgid ""
 "be placed anywhere in the project directory, but it's recommended to keep it "
 "in a subdirectory, as each locale will be defined in its own file."
 msgstr ""
+"Godot当前不支持使用 ``xgettext`` 提取源字符串，因此必须手动创建 ``.pot`` 文"
+"件。该文件可以放置在项目目录中的任何位置，但是建议将其保存在子目录中，因为每"
+"个语言环境都将在其自己的文件中定义。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:69
 msgid ""
 "Create a directory named `locale` in the project directory. In this "
 "directory, save a file named ``messages.pot`` with the following contents:"
 msgstr ""
+"在项目目录中创建一个名为 ``locale`` 的目录。在此目录中，保存一个名为 "
+"``messages.pot`` 的文件，其中包含以下内容："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:81
 msgid ""
@@ -153,17 +182,20 @@ msgid ""
 "the source string (usually in English), ``msgstr`` will be the translated "
 "string."
 msgstr ""
+"Gettext中的消息由 ``msgid`` 和 ``msgstr`` 对组成。``msgid`` 是源字符串（通常"
+"是英语），``msgstr`` 将是翻译后的字符串。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:85
 msgid ""
 "The ``msgstr`` value in PO template files (``.pot``) should **always** be "
 "empty. Localization will be done in the generated ``.po`` files instead."
 msgstr ""
+"PO模板文件（``.pot``）中的 ``msgstr`` 值应始终为空。本地化将在生成的 ``.po`` "
+"文件中进行。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:89
-#, fuzzy
 msgid "Creating the PO template (POT) using pybabel"
-msgstr "创建UWP导出模板"
+msgstr "使用pybabel创建PO模板（POT）"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:91
 msgid ""
@@ -171,10 +203,11 @@ msgid ""
 "automatically create and update the POT file from your scene files and "
 "scripts."
 msgstr ""
+"Python工具pybabel支持Godot，可用于从场景文件和脚本，自动创建和更新POT文件。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:94
 msgid "After installing ``babel`` and ``babel-godot``, for example using pip:"
-msgstr ""
+msgstr "在安装 ``babel`` 和 ``babel-godot`` 之后，例如使用pip："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:100
 msgid ""
@@ -182,10 +215,12 @@ msgid ""
 "files pybabel needs to process (note that we process GDScript as Python, "
 "which is generally sufficient):"
 msgstr ""
+"编写一个映射文件（例如 ``babelrc``），该文件将指示pybabel需要处理哪些文件（请"
+"注意，我们将GDScript作为Python处理，通常就足够了）："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:112
 msgid "You can then run pybabel like so:"
-msgstr ""
+msgstr "然后，您可以像这样运行pybabel："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:118
 msgid ""
@@ -194,10 +229,13 @@ msgid ""
 "well as properties named \"text\" (commonly used by Control nodes) and "
 "LineEdit's \"placeholder_text\" property."
 msgstr ""
+"使用 ``-k`` 选项指定需要提取的内容。在这种情况下，将翻译 :ref:`tr() "
+"<class_Object_method_tr>` 的参数，以及名为 ``text`` 的属性（通常由 "
+"``Control`` 节点使用）和LineEdit的 ``placeholder_text`` 属性。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:124
 msgid "Creating a messages file from a PO template"
-msgstr ""
+msgstr "从PO模板创建消息文件"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:126
 msgid ""
@@ -205,23 +243,26 @@ msgid ""
 "For instance, to create a French localization file, use the following "
 "command while in the ``locale`` directory:"
 msgstr ""
+"``msginit`` 命令用于将PO模板转换为消息文件。例如，要创建法语本地化文件，请在 "
+"``locale`` 目录中使用以下命令："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:134
 msgid ""
 "The command above will create a file named ``fr.po`` in the same directory "
 "as the PO template."
-msgstr ""
+msgstr "上面的命令将在与PO模板相同的目录中，创建一个名为 ``fr.po`` 的文件。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:137
 msgid ""
 "Alternatively, you can do that graphically using Poedit, or by uploading the "
 "POT file to your web platform of choice."
 msgstr ""
+"或者，您可以使用Poedit，或通过将POT文件上传到您选择的Web平台，以图形方式进行"
+"操作。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:141
-#, fuzzy
 msgid "Loading a messages file in Godot"
-msgstr "在 Godot 3.0+ 中导入资源"
+msgstr "在Godot中加载消息文件"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:143
 msgid ""
@@ -231,19 +272,23 @@ msgid ""
 "dialog. The locale will be inferred from the ``\"Language: <code>\\n\"`` "
 "property in the messages file."
 msgstr ""
+"要将一个消息文件注册为一个项目中的一个翻译，请打开 **项目设置（Project "
+"Settings）**，然后转到 **本地化（Localization）** 选项卡。在 **翻译"
+"（Translations）** 中，单击 **添加...（Add…）**，然后在文件对话框中选择 ``."
+"po`` 文件。语言环境将从消息文件中的 ``\"Language: <code>\\n\"`` 属性推断出"
+"来。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:149
-#, fuzzy
 msgid ""
 "See :ref:`doc_internationalizing_games` for more information on importing "
 "and testing translations in Godot."
 msgstr ""
-"请参阅 :ref:`Ray-casting <doc_ray-casting>` 了解有关Godot的光线投射的更多信"
-"息。"
+"有关在Godot中导入和测试翻译的更多信息，请参见 :ref:"
+"`doc_internationalizing_games`。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:153
 msgid "Updating message files to follow the PO template"
-msgstr ""
+msgstr "更新消息文件以遵循PO模板"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:155
 msgid ""
@@ -252,25 +297,31 @@ msgid ""
 "present in the PO template removed in the PO template. This can be done "
 "automatically using the ``msgmerge`` tool:"
 msgstr ""
+"更新PO模板后，您将必须更新消息文件，使其包含新的字符串，同时删除在PO模板中删"
+"除的，PO模板中不再存在的字符串。这可以使用msgmerge工具自动完成："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:165
 msgid ""
 "If you want to keep a backup of the original message file (which would be "
 "saved as ``fr.po~`` in this example), remove the ``--backup=none`` argument."
 msgstr ""
+"如果要保留原始消息文件的备份（在本示例中将其保存为 ``fr.po~``），请删除 ``--"
+"backup=none`` 参数。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:169
 msgid "Checking the validity of a PO file or template"
-msgstr ""
+msgstr "检查PO文件或模板的有效性"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:171
 msgid ""
 "It is possible to check whether a gettext file's syntax is valid by running "
 "the command below:"
-msgstr ""
+msgstr "通过运行以下命令，可以检查gettext文件的语法是否有效："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:178
 msgid ""
 "If there are syntax errors or warnings, they will be displayed in the "
 "console. Otherwise, ``msgfmt`` won't output anything."
 msgstr ""
+"如果存在语法错误或警告，它们将显示在控制台中。否则，``msgfmt`` 将不会输出任何"
+"内容。"

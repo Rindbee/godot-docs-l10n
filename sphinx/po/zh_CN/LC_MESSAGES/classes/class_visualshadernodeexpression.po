@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 15:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:10
+msgid "VisualShaderNodeExpression"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNodeGroupBase "
+"<class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNode "
+"<class_VisualShaderNode>` **<** :ref:`Resource <class_Resource>` **<** "
+":ref:`Reference <class_Reference>` **<** :ref:`Object <class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:14
+msgid ""
+"**Inherited By:** :ref:`VisualShaderNodeGlobalExpression "
+"<class_VisualShaderNodeGlobalExpression>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:16
+msgid "A custom visual shader graph expression written in Godot Shading Language."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:21
+msgid ""
+"Custom Godot Shading Language expression, with a custom amount of input "
+"and output ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:23
+msgid ""
+"The provided code is directly injected into the graph's matching shader "
+"function (``vertex``, ``fragment``, or ``light``), so it cannot be used "
+"to to declare functions, varyings, uniforms, or global constants. See "
+":ref:`VisualShaderNodeGlobalExpression "
+"<class_VisualShaderNodeGlobalExpression>` for such global definitions."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:26
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:29
+msgid ":ref:`String <class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:29
+msgid ":ref:`expression <class_VisualShaderNodeExpression_property_expression>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:29
+#: ../../docs/classes/class_visualshadernodeexpression.rst:40
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:33
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:37
+msgid ":ref:`String <class_String>` **expression**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:40
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:42
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:42
+msgid "set_expression(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:44
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:44
+msgid "get_expression()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeexpression.rst:47
+msgid ""
+"An expression in Godot Shading Language, which will be injected at the "
+"start of the graph's matching shader function (``vertex``, ``fragment``, "
+"or ``light``), and thus cannot be used to declare functions, varyings, "
+"uniforms, or global constants."
+msgstr ""
+
+#~ msgid "**Category:** Core"
+#~ msgstr ""
+
+#~ msgid "Brief Description"
+#~ msgstr ""
+
+#~ msgid "**O:** true"
+#~ msgstr ""
+
+#~ msgid "\"\""
+#~ msgstr ""
+
+#~ msgid "Methods"
+#~ msgstr ""
+
+#~ msgid "void"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":ref:`build <class_VisualShaderNodeExpression_method_build>` "
+#~ "**(** **)**"
+#~ msgstr ""
+
+#~ msgid "Method Descriptions"
+#~ msgstr ""
+
+#~ msgid "void **build** **(** **)**"
+#~ msgstr ""
+
+#~ msgid ":ref:`bool <class_bool>`"
+#~ msgstr ""
+
+#~ msgid "editable"
+#~ msgstr ""
+
+#~ msgid "**O:** ``true``"
+#~ msgstr ""
+

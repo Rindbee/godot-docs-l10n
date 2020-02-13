@@ -1,21 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 2014-2019, Juan Linietsky, Ariel Manzur and the Godot
+# community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-08 22:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2019-10-04 11:52+0800\n"
+"PO-Revision-Date: 2019-11-08 11:02+0800\n"
 "Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: ../../docs/tutorials/math/interpolation.rst:4
 msgid "Interpolation"
@@ -34,25 +38,25 @@ msgstr ""
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
 "represents the states in-between."
-msgstr "基本思想是从A转换到B。“t”值是介于两者之间的状态。"
+msgstr "基本思想是从A转换到B。``t`` 值是介于两者之间的状态。"
 
 #: ../../docs/tutorials/math/interpolation.rst:10
 msgid ""
 "As an example if ``t`` is 0, then the state is A. If ``t`` is 1, then the "
 "state is B. Anything in-between is an *interpolation*."
 msgstr ""
-"举个例子，如果“t”值为0，那么状态是A。如果“t”值是1，状态是B。任何介于两者之间"
-"的都是*插值*。"
+"举个例子，如果 ``t`` 值为0，那么状态是A。如果 ``t`` 值是1，状态是B。任何介于"
+"两者之间的都是 *插值*。"
 
 #: ../../docs/tutorials/math/interpolation.rst:12
 msgid ""
 "Between two real (floating point) numbers, a simple interpolation is usually "
 "described as:"
-msgstr "在两个实数(浮点数)之间，一个简单的插值通常描述为："
+msgstr "在两个实数（浮点数）之间，一个简单的插值通常描述为："
 
 #: ../../docs/tutorials/math/interpolation.rst:19
 msgid "And often simplified to:"
-msgstr "通常简化为:"
+msgstr "并且通常简化为："
 
 #: ../../docs/tutorials/math/interpolation.rst:26
 msgid ""
@@ -60,8 +64,8 @@ msgid ""
 "another at *constant speed* is *\"linear\"*. So, when you hear about *Linear "
 "Interpolation*, you know they are referring to this simple formula."
 msgstr ""
-"这类型的插值名字,将一个值以*恒定速度*转换成另一个值*“线性”*。当你听说线性插值"
-"时，就知道他们是指这个简单的公式。"
+"这种类型的插值被称为 **线性**，即以 *恒定速度* 将值转换为另一个值。因此，当您"
+"听到 *线性插值* 时，您知道他们指的是这个简单的公式。"
 
 #: ../../docs/tutorials/math/interpolation.rst:28
 msgid ""
@@ -69,13 +73,12 @@ msgid ""
 "recommended read afterwards is the :ref:`Bezier <doc_beziers_and_curves>` "
 "page."
 msgstr ""
-"还有其他类型的插值，这里将不做讨论。建议之后阅读:参考:`贝塞尔<文档_贝塞尔_及_"
-"曲线>`页面。"
+"还有其他类型的插值，这里将不做讨论。建议之后阅读 :ref:`Bezier "
+"<doc_beziers_and_curves>` 页面。"
 
 #: ../../docs/tutorials/math/interpolation.rst:31
-#, fuzzy
 msgid "Vector interpolation"
-msgstr "轨道插补"
+msgstr "向量插值"
 
 #: ../../docs/tutorials/math/interpolation.rst:33
 msgid ""
@@ -85,10 +88,10 @@ msgid ""
 "<class_Vector2_method_linear_interpolate>` and :ref:`Vector3."
 "linear_interpolate() <class_Vector3_method_linear_interpolate>`."
 msgstr ""
-"向量类型(:参考:`二维向量<类_二维向量>` 和 :参考:`三维向量<类_三维向量>`)也可"
-"以插值，它们提供了方便的函数来实现这一点:参考:`二维向量.线性_插值() <类_二维"
-"向量_方法_线性_插值>` 和:参考:`三维向量.线性_插值() <类_三维向量_方法_线性_插"
-"值>`。"
+"向量类型（:ref:`Vector2 <class_Vector2>` 和 :ref:`Vector3 <class_Vector3>`）"
+"也可以被插值，它们带有方便的函数 :ref:`Vector2.linear_interpolate() "
+"<class_Vector2_method_linear_interpolate>` 和 :ref:`Vector3."
+"linear_interpolate() <class_Vector3_method_linear_interpolate>` 来实现插值。"
 
 #: ../../docs/tutorials/math/interpolation.rst:36
 msgid ""
@@ -97,24 +100,23 @@ msgid ""
 "cubic_interpolate() <class_Vector3_method_linear_interpolate>`, which do a :"
 "ref:`Bezier <doc_beziers_and_curves>` style interpolation."
 msgstr ""
-"以及立方插值，请参见:参考:`二维向量.立方_插值() <类_二维向量_方法_线性_插值>`"
-"和:参考:`三维向量.立方_插值() <类_三维向量_方法_线性_插值>`，使用:参考:`贝塞"
-"尔<文档_贝塞尔_及_曲线>`制作风格插值。"
+"对于三次插值，还有 :ref:`Vector2.cubic_interpolate() "
+"<class_Vector2_method_linear_interpolate>` 和 :ref:`Vector3."
+"cubic_interpolate() <class_Vector3_method_linear_interpolate>`，它们执行一"
+"个 :ref:`Bezier <doc_beziers_and_curves>` 风格的插值。"
 
 #: ../../docs/tutorials/math/interpolation.rst:38
 msgid ""
 "Here is simple pseudo-code for going from point A to B using interpolation:"
-msgstr "下面是使用插值从A点到B点的简单伪代码:"
+msgstr "这是从A点到B点，使用插值的简单伪代码："
 
 #: ../../docs/tutorials/math/interpolation.rst:48
-#, fuzzy
 msgid "It will produce the following motion:"
-msgstr "这样做会产生以下行为:"
+msgstr "它将产生以下运动："
 
 #: ../../docs/tutorials/math/interpolation.rst:53
-#, fuzzy
 msgid "Transform interpolation"
-msgstr "轨道插补"
+msgstr "变换插值"
 
 #: ../../docs/tutorials/math/interpolation.rst:55
 msgid ""
@@ -123,44 +125,45 @@ msgid ""
 "the function :ref:`Transform.interpolate_with() "
 "<class_Transform_method_interpolate_with>` can be used."
 msgstr ""
-"也可以插值整个变换(确保它们要么具有统一的刻度，要么至少具有相同的非均匀刻"
-"度)。为此，可以使用这个函数:参考:`变换.插值_与() <类_变换_方法_插值_与>`。"
+"也可以插值整个变换（确保它们具有统一的缩放，或者至少具有相同的非统一缩放）。"
+"为此，可以使用 :ref:`Transform.interpolate_with() "
+"<class_Transform_method_interpolate_with>` 函数。"
 
 #: ../../docs/tutorials/math/interpolation.rst:58
 msgid ""
 "Here is an example of transforming a monkey from Position1 to Position2:"
-msgstr "下面是将猴子从位置1转换为位置2的例子："
+msgstr "以下是将猴子从 ``Position1`` 转换为 ``Position2`` 的示例："
 
 #: ../../docs/tutorials/math/interpolation.rst:62
-#, fuzzy
 msgid "Using the following pseudocode:"
-msgstr "添加以下代码:"
+msgstr "使用以下伪代码："
 
 #: ../../docs/tutorials/math/interpolation.rst:74
-#, fuzzy
 msgid "And again, it will produce the following motion:"
-msgstr "这样做会产生以下行为:"
+msgstr "再次，它将产生以下运动："
 
 #: ../../docs/tutorials/math/interpolation.rst:80
-#, fuzzy
 msgid "Smoothing motion"
-msgstr "根骨骼运动"
+msgstr "平滑运动"
 
 #: ../../docs/tutorials/math/interpolation.rst:82
 msgid ""
 "Interpolation can be used to smooth movement, rotation, etc. Here is an "
 "example of a circle following the mouse using smoothed motion:"
-msgstr "插值可用于平滑运动、旋转等。下面是使用平滑运动跟随鼠标的圆圈的例子："
+msgstr ""
+"可以使用插值来平滑移动、旋转等。这是一个圆圈，使用平滑运动，跟随鼠标的示例："
 
 #: ../../docs/tutorials/math/interpolation.rst:94
-#, fuzzy
 msgid "Here is how it looks:"
-msgstr "下面是它的外观图:"
+msgstr "看起来像这样："
 
 #: ../../docs/tutorials/math/interpolation.rst:98
 msgid ""
 "This useful for smoothing camera movement, allies following you (ensuring "
 "they stay within a certain range), and many other common game patterns."
 msgstr ""
-"这对平滑相机运动很有用，队友在跟随你(确保他们保持在一定范围内)，以及许多其他"
-"常见的游戏模式。"
+"这对平滑的相机运动、队友在跟随你（确保他们保持在一定范围内）、以及许多其他常"
+"见的游戏模式，很有用。"
+
+#~ msgid "which is exactly the same."
+#~ msgstr "实际上，这是不一样的:"
