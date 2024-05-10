@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Particle turbulence"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid ""
 "Turbulence uses a noise texture to add variation and interesting patterns to "
@@ -29,13 +28,11 @@ msgid ""
 "behavior."
 msgstr ""
 
-#, fuzzy
 msgid "Turbulence properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
-#, fuzzy
 msgid "Particle turbulence properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "There are two things you have to do before turbulence has any effect on a "
@@ -55,9 +52,8 @@ msgid ""
 "Using turbulence is not recommended when targeting mobile/web platforms."
 msgstr ""
 
-#, fuzzy
 msgid "Noise properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "The basis for particle turbulence is a noise pattern. There are several "
@@ -129,9 +125,8 @@ msgid ""
 "higher panning speeds when repetition becomes noticeable faster."
 msgstr ""
 
-#, fuzzy
 msgid "Influence properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "The influence properties determine how much each particle is affected by "
@@ -159,9 +154,8 @@ msgid ""
 "influence values (right)"
 msgstr ""
 
-#, fuzzy
 msgid "Displacement properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "Displacement changes a particle's starting position. Use ``Initial "

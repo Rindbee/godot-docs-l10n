@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgstr ""
 "инициализирует свои свойства."
 
 msgid "The C# equivalent to GDScript's ``_init()`` method is the constructor."
-msgstr ""
+msgstr "Конструктор в C#, является эквивалентом метода GDScript ``_init()``."
 
 #, fuzzy
 msgid ""
@@ -246,11 +246,15 @@ msgid ""
 "**``_init()`` assignment:** the property's value is replaced by any "
 "assignments made in ``_init()``, triggering the setter."
 msgstr ""
+"**``_init()`` назначение:** значение свойства заменяется любыми "
+"назначениями, сделанными в ``_init()``, вызывая сеттер."
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "
 "replaced by any value set in the Inspector, triggering the setter."
 msgstr ""
+"**Присвоение экспортируемого значения:** значение экспортируемого свойства "
+"снова заменяется любым значением, установленным в инспекторе, вызывая сеттер."
 
 #, fuzzy
 msgid ""

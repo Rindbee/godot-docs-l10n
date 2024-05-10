@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,9 +160,8 @@ msgid ""
 "<doc_debugger_tools_and_options>`."
 msgstr ""
 
-#, fuzzy
 msgid "Official editor plugins"
-msgstr "プラグインの初期化"
+msgstr "公式エディタプラグイン"
 
 msgid "We have official plugins for the following code editors:"
 msgstr ""
@@ -172,9 +171,8 @@ msgid ""
 "`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
 msgstr "`GitHub <https://github.com/godotengine/>`_"
 
-#, fuzzy
 msgid "`Emacs <https://github.com/godotengine/emacs-gdscript-mode>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`Emacs <https://github.com/godotengine/emacs-gdscript-mode>`_"
 
 #, fuzzy
 msgid "LSP/DAP support"
@@ -204,11 +202,12 @@ msgstr ""
 msgid "Below are some configuration steps for specific editors:"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You need to install the official `Visual Studio Code plugin <https://github."
 "com/godotengine/godot-vscode-plugin>`_."
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr ""
+"公式の `Visual Studio Code プラグイン <https://github.com/godotengine/godot-"
+"vscode-plugin>`_ をインストールする必要があります。"
 
 msgid ""
 "For **LSP**, follow `these instructions <https://github.com/godotengine/"

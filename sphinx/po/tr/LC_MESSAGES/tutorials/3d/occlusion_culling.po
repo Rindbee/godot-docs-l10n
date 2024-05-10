@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,15 +37,11 @@ msgstr ""
 msgid "Troubleshooting common issues with occlusion culling."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can see how occlusion culling works in action using the `Occlusion "
 "Culling and Mesh LOD demo project <https://github.com/godotengine/godot-demo-"
 "projects/tree/master/3d/occlusion_culling_mesh_lod>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Why use occlusion culling"
 msgstr ""
@@ -128,7 +124,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The engine then uses this low-resolution buffer to test occludees' :abbr:"
+"The engine then uses this low-resolution buffer to test the occludee's :abbr:"
 "`AABB (Axis-Aligned Bounding Box)` against the occluder shapes. The "
 "occludee's :abbr:`AABB (Axis-Aligned Bounding Box)` must be *fully occluded* "
 "by the occluder shape to be culled."
@@ -140,9 +136,8 @@ msgid ""
 "effective than smaller ones (such as decoration props)."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up occlusion culling"
-msgstr "Eklentinizi ayarlamak"
+msgstr ""
 
 msgid ""
 "The first step to using occlusion culling is to enable the **Rendering > "
@@ -163,9 +158,8 @@ msgid ""
 "simplified representation of the scene with only static objects to be baked."
 msgstr ""
 
-#, fuzzy
 msgid "There are two ways to set up occluders in a scene:"
-msgstr "Bir projeyi, bir sunucu için dışa aktarmanın iki yolu var:"
+msgstr ""
 
 msgid "Automatically baking occluders (recommended)"
 msgstr ""
@@ -284,9 +278,8 @@ msgid ""
 "running project."
 msgstr ""
 
-#, fuzzy
 msgid "Performance considerations"
-msgstr "Performans izleme araçları."
+msgstr ""
 
 msgid "Design your levels to take advantage of occlusion culling"
 msgstr ""

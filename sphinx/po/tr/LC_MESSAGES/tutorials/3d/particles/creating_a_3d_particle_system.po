@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Creating a 3D particle system"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
-#, fuzzy
 msgid "Required particle node properties"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
 msgid ""
 "To get started with particles, the first thing we need to do is add a "
@@ -32,9 +30,8 @@ msgid ""
 "Material`` and at least one ``Draw Pass``."
 msgstr ""
 
-#, fuzzy
 msgid "The process material"
-msgstr "Fizik malzeme"
+msgstr ""
 
 msgid ""
 "To add a process material to your particles node, go to ``Process Material`` "
@@ -42,9 +39,8 @@ msgid ""
 "from the dropdown menu select ``New ParticleProcessMaterial``."
 msgstr ""
 
-#, fuzzy
 msgid "Creating a process material"
-msgstr "Uzaysal Malzeme"
+msgstr ""
 
 msgid ""
 ":ref:`class_ParticleProcessMaterial` is a special kind of material. We don't "
@@ -92,9 +88,8 @@ msgid ""
 "effects more interesting."
 msgstr ""
 
-#, fuzzy
 msgid "Particle conversion"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid "Turning GPU into CPU particles"
 msgstr ""
@@ -122,60 +117,47 @@ msgstr ""
 msgid "turbulence"
 msgstr ""
 
-#, fuzzy
 msgid "sub-emitters"
-msgstr "Titreşme"
+msgstr ""
 
-#, fuzzy
 msgid "trails"
-msgstr "Braille"
+msgstr ""
 
-#, fuzzy
 msgid "attractors"
-msgstr "İşleçler"
+msgstr ""
 
-#, fuzzy
 msgid "collision"
-msgstr "Çarpışma Kipi"
+msgstr ""
 
-#, fuzzy
 msgid "You also lose the following properties:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
-#, fuzzy
 msgid "``Ammount Ratio``"
-msgstr "``Rotation``"
+msgstr ""
 
-#, fuzzy
 msgid "``Interp to End``"
-msgstr "Ara Değerleme"
+msgstr ""
 
 msgid "``Damping as Friction``"
 msgstr ""
 
-#, fuzzy
 msgid "``Emission Shape Offset``"
-msgstr "Yayılım Şekilleri"
+msgstr ""
 
-#, fuzzy
 msgid "``Emission Shape Scale``"
-msgstr "Yayılım Şekilleri"
+msgstr ""
 
-#, fuzzy
 msgid "``Inherit Velocity Ratio``"
-msgstr "Başlangıç Hızı"
+msgstr ""
 
-#, fuzzy
 msgid "``Velocity Pivot``"
-msgstr "Vektör"
+msgstr ""
 
-#, fuzzy
 msgid "``Directional Velocity``"
-msgstr "Başlangıç Hızı"
+msgstr ""
 
-#, fuzzy
 msgid "``Radial Velocity``"
-msgstr "Başlangıç Hızı"
+msgstr ""
 
 msgid "``Velocity Limit``"
 msgstr ""

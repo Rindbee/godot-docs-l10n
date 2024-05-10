@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,9 +32,8 @@ msgstr ""
 msgid "Importing the project"
 msgstr ""
 
-#, fuzzy
 msgid "From the Android Studio's welcome window select **Open**."
-msgstr "Android Studio hoş geldiniz penceresi."
+msgstr ""
 
 msgid "Android Studio's welcome window."
 msgstr "Android Studio hoş geldiniz penceresi."
@@ -47,9 +46,8 @@ msgstr ""
 msgid "Android Studio will import and index the project."
 msgstr ""
 
-#, fuzzy
 msgid "Android Studio project layout"
-msgstr "Android Studio"
+msgstr ""
 
 msgid ""
 "The project is organized using `Android Studio's modules <https://developer."
@@ -75,9 +73,8 @@ msgid ""
 "maven.org/maven2/org/godotengine/godot/>`_."
 msgstr ""
 
-#, fuzzy
 msgid "``editor`` module:"
-msgstr "``editor`` module:"
+msgstr ""
 
 msgid ""
 "Located under ``<Godot root directory>/platform/android/java/editor``, this "
@@ -191,13 +188,10 @@ msgid ""
 "<https://developer.android.com/studio/run/rundebugconfig#running>`_."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "If you run into any issues, ask for help in `Godot's Android dev channel "
 "<https://chat.godotengine.org/channel/android>`__."
 msgstr ""
-"Bir sorunla karşılaşırsanız, `Godot topluluk kanalları <https://godotengine."
-"org/community>`__ 'ndan yardım isteyebilirsiniz."
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,21 +144,17 @@ msgstr ""
 msgid "The content of a scene helps to define:"
 msgstr "シーンのコンテンツは、以下を定義するのに役立ちます:"
 
-#, fuzzy
 msgid "What nodes are available to the script."
-msgstr "スクリプトで使用可能なノード"
+msgstr "スクリプトで使用可能なノード。"
 
-#, fuzzy
 msgid "How they are organized."
-msgstr "どのように構成されているか"
+msgstr "どのように構成されているか。"
 
-#, fuzzy
 msgid "How they are initialized."
-msgstr "どのように初期化されるか"
+msgstr "どのように初期化されるか。"
 
-#, fuzzy
 msgid "What signal connections they have with each other."
-msgstr "それら相互のシグナル接続"
+msgstr "それらが互いにどのようなシグナルで接続されているか。"
 
 #, fuzzy
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,15 +52,11 @@ msgid ""
 "the :ref:`doc_standard_material_3d` tutorial."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can compare various types of lights in action using the `3D Lights and "
 "Shadows demo project <https://github.com/godotengine/godot-demo-projects/"
 "tree/master/3d/lights_and_shadows>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Light nodes"
 msgstr ""
@@ -228,9 +224,8 @@ msgid ""
 "`doc_lights_and_shadows_shadow_filter_mode`."
 msgstr ""
 
-#, fuzzy
 msgid "Tweaking shadow bias"
-msgstr "Projeyi ayarlamak"
+msgstr ""
 
 msgid ""
 "Below is an image of what tweaking bias looks like. Default values work for "
@@ -637,9 +632,8 @@ msgid ""
 "the root :ref:`class_Viewport`."
 msgstr ""
 
-#, fuzzy
 msgid "Shadow map size"
-msgstr "**Gölge haritalama:**"
+msgstr ""
 
 msgid ""
 "High shadow resolutions result in sharper shadows, but at a significant "
@@ -759,9 +753,8 @@ msgid ""
 "``light_size`` property to ``0.0`` in a script."
 msgstr ""
 
-#, fuzzy
 msgid "Projector filter mode"
-msgstr "Proje iş akışı"
+msgstr ""
 
 msgid ""
 "The way projectors are rendered also has an impact on performance. The "

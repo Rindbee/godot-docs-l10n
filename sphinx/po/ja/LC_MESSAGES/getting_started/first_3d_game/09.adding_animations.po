@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,9 +33,8 @@ msgstr "\\ |image0|"
 msgid "image0"
 msgstr "image0"
 
-#, fuzzy
 msgid "We'll start with an introduction to using the animation editor."
-msgstr "2Dアニメーション機能の紹介"
+msgstr "まずはアニメーションエディターの使い方から始めます。"
 
 #, fuzzy
 msgid "Using the animation editor"
@@ -75,9 +74,8 @@ msgstr "\\ |image2|"
 msgid "image2"
 msgstr "image2"
 
-#, fuzzy
 msgid "Name the animation \"float\"."
-msgstr "アニメーションを実行する"
+msgstr "アニメーションの名前は \"float\" にします。"
 
 msgid "|image3|"
 msgstr "\\ |image3|"

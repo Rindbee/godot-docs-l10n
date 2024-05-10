@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -200,7 +200,7 @@ msgid "Type"
 msgstr "Тип"
 
 msgid "Equivalent"
-msgstr ""
+msgstr "Эквивалент"
 
 msgid "Description"
 msgstr "Описание"
@@ -212,7 +212,7 @@ msgid "out vec4"
 msgstr ""
 
 msgid "COLOR"
-msgstr ""
+msgstr "ЦВЕТ"
 
 msgid "Output color for each pixel."
 msgstr ""
@@ -230,7 +230,7 @@ msgid "For full screen quads. For smaller quads, use UV."
 msgstr ""
 
 msgid "VERTEX"
-msgstr ""
+msgstr "ВЕРШИНА"
 
 msgid "Position of Vertex, output from Vertex Shader."
 msgstr ""
@@ -242,7 +242,7 @@ msgid "float"
 msgstr "float"
 
 msgid "POINT_SIZE"
-msgstr ""
+msgstr "РАЗМЕР_ТОЧКИ"
 
 msgid "Size of Point primitive."
 msgstr ""
@@ -254,7 +254,7 @@ msgid "vec2"
 msgstr ""
 
 msgid "POINT_COORD"
-msgstr ""
+msgstr "МЕСТОПОЛОЖЕНИЕ_ТОЧКИ"
 
 msgid "Position on point when drawing Point primitives."
 msgstr ""

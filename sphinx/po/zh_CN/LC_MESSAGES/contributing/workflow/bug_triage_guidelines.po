@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,90 +242,83 @@ msgstr ""
 "proposal* 和 *Discussion*."
 
 msgid "**Topics:**"
-msgstr "**话题:**"
+msgstr "**话题：**"
 
 msgid ""
 "*2D*: relates to 2D-specific issues. Should be coupled with one of the "
 "labels below, and should not be coupled with *3D*."
 msgstr ""
-"*2D*: 涉及 2D 特定问题。应该与下面的某个标签组合使用，而不应该与 *3D* 组合。"
+"*2D*\\ ：与 2D 相关的问题。应该与下面的某个标签组合使用，不应该与 *3D* 组合。"
 
 msgid ""
 "*3D*: relates to 3D-specific issues. Should be coupled with one of the "
 "labels below, and should not be coupled with *2D*."
 msgstr ""
-"*3D*: 涉及 3D 特定问题。应该与下面的某个标签组合使用，而不应该与 *2D* 组合。"
+"*3D*\\ ：与 3D 相关的问题。应该与下面的某个标签组合使用，不应该与 *2D* 组合。"
 
-#, fuzzy
 msgid "*Animation*: relates to the Animation system, editors and importers."
-msgstr "*Navigation*\\ ：与导航系统（包括 A* 和导航网格）有关。"
+msgstr "*Animation*\\ ：与动画系统、动画编辑器、动画导入器相关。"
 
 msgid "*Assetlib*: relates to issues with the asset library."
-msgstr "*Assetlib*: 与在线资源库的问题有关."
+msgstr "*Assetlib*\\ ：与资产库相关的问题。"
 
 msgid "*Audio*: relates to the audio features (low and high level)."
-msgstr "*Audio*: 与音频功能(低级别和高级别)有关."
+msgstr "*Audio*\\ ：与音频功能相关（底层和高阶均可）。"
 
 msgid ""
 "*Buildsystem*: relates to building issues, either linked to the SCons "
 "buildsystem or to compiler peculiarities."
-msgstr "*Buildsystem*: 与构建问题有关, 可以链接到SCons构建系统或编译器特性."
+msgstr ""
+"*Buildsystem*\\ ：与构建相关的问题，可以是与 Scons 构建系统相关，也可以是与编"
+"译器特性相关。"
 
 msgid "*Codestyle*: relates to the programming style used within the codebase."
 msgstr "*Codestyle*\\ ：与代码库所使用的编程风格有关。"
 
-#, fuzzy
 msgid ""
 "*Core*: anything related to the core engine. Specific topics are split off "
 "separately as they crop up."
 msgstr ""
-"*Core*: 与核心引擎有关的任何事物. 稍后可能会进一步拆分, 因为这是一个很大的话"
-"题."
+"*Core*\\ ：任何与核心引擎相关的话题。特定的话题增长到一定程度就会拆分出来。"
 
-#, fuzzy
 msgid "*Dotnet*: relates to the C# / Dotnet bindings."
-msgstr "*Mono*\\ ：与 C# / Mono 绑定有关。"
+msgstr "*Dotnet*\\ ：与 C# / .net 绑定相关。"
 
 msgid "*Editor*: relates to issues in the editor (mainly UI)."
-msgstr "*Editor*: 与编辑器中的问题(主要是UI)有关."
+msgstr "*Editor*\\ ：与编辑器中的问题（主要是 UI）有关。"
 
-#, fuzzy
 msgid "*Export*: relates to the export system and templates."
-msgstr "*Import*\\ ：与资源导入系统有关。"
+msgstr "*Export*\\ ：与导出系统和模板有关。"
 
 msgid "*GDExtension*: relates to the GDExtension system for native extensions."
-msgstr ""
+msgstr "*GDExtension*\\ ：与原生扩展 GDExtension 系统相关。"
 
 msgid "*GDScript*: relates to GDScript."
-msgstr "*GDScript*: 与GDScript有关."
+msgstr "*GDScript*\\ ：与 GDScript 相关。"
 
-#, fuzzy
 msgid ""
 "*GUI*: relates to GUI (Control) nodes or to Nodes that compose user "
 "interfaces."
-msgstr "*Mono*\\ ：与 GUI（Control）节点有关。"
+msgstr "*GUI*\\ ：与 GUI（Control）节点相关或与构成用户界面的 Node 相关。"
 
 msgid "*Import*: relates to the resource import system."
 msgstr "*Import*\\ ：与资源导入系统有关。"
 
-#, fuzzy
 msgid "*Input*: relates to the input system."
-msgstr "*Input*\\ ：与输入系统有关。"
+msgstr "*Input*\\ ：与输入系统相关。"
 
 msgid "*Multiplayer*: relates to multiplayer (high-level networking) systems."
-msgstr ""
+msgstr "*Multiplayer*\\ ：与多人系统（高阶网络）相关。"
 
 msgid ""
 "*Navigation*: relates to the navigation system (including A* and navmeshes)."
 msgstr "*Navigation*\\ ：与导航系统（包括 A* 和导航网格）有关。"
 
-#, fuzzy
 msgid "*Network*: relates to (lot-level) networking."
-msgstr "*Network*\\ ：与网络有关。"
+msgstr "*Network*\\ ：与（底层）网络相关。"
 
-#, fuzzy
 msgid "*Particles*: particles, particle systems and their editors."
-msgstr "用于粒子系统的 :ref:`particles <doc_particle_shader>`\\ 。"
+msgstr "*Particles*\\ ：粒子和粒子系统，以及对应的编辑器。"
 
 msgid "*Physics*: relates to the physics engine (2D/3D)."
 msgstr "*Physics*\\ ：与物理引擎（2D/3D）有关。"
@@ -397,7 +390,8 @@ msgstr "*Bug*\\ ：现有页面中的错误信息。请勿对\\ *缺失*\\ 信�
 msgid "*Dependencies*: describes pull requests that update a dependency file."
 msgstr ""
 
-msgid "*Enhancememnt*: new information to be added in an existing page."
+#, fuzzy
+msgid "*Enhancement*: new information to be added in an existing page."
 msgstr "*Enhancememnt*\\ ：为现有页面加入新信息。"
 
 msgid "*Python*: Pull requests that update Python code."

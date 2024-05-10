@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,16 +68,16 @@ msgid "Value"
 msgstr "Hodnota"
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid "null"
 msgstr "null"
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 msgid "2"
 msgstr ""
@@ -86,160 +86,160 @@ msgid "integer"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "float"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "string"
 msgstr "string"
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "vector2"
 msgstr ""
 
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgid "rect2"
 msgstr ""
 
 msgid "7"
-msgstr ""
+msgstr "7"
 
 msgid "vector3"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "transform2d"
 msgstr ""
 
 msgid "9"
-msgstr ""
+msgstr "9"
 
 msgid "plane"
 msgstr ""
 
 msgid "10"
-msgstr ""
+msgstr "10"
 
 msgid "quaternion"
 msgstr ""
 
 msgid "11"
-msgstr ""
+msgstr "11"
 
 msgid "aabb"
 msgstr ""
 
 msgid "12"
-msgstr ""
+msgstr "12"
 
 msgid "basis"
 msgstr ""
 
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #, fuzzy
 msgid "transform3d"
 msgstr "Transformace"
 
 msgid "14"
-msgstr ""
+msgstr "14"
 
 msgid "color"
 msgstr "barva"
 
 msgid "15"
-msgstr ""
+msgstr "15"
 
 msgid "node path"
 msgstr ""
 
 msgid "16"
-msgstr ""
+msgstr "16"
 
 msgid "rid"
 msgstr ""
 
 msgid "17"
-msgstr ""
+msgstr "17"
 
 msgid "object"
 msgstr ""
 
 msgid "18"
-msgstr ""
+msgstr "18"
 
 msgid "dictionary"
 msgstr ""
 
 msgid "19"
-msgstr ""
+msgstr "19"
 
 msgid "array"
 msgstr ""
 
 msgid "20"
-msgstr ""
+msgstr "20"
 
 msgid "raw array"
 msgstr ""
 
 msgid "21"
-msgstr ""
+msgstr "21"
 
 msgid "int32 array"
 msgstr ""
 
 msgid "22"
-msgstr ""
+msgstr "22"
 
 msgid "int64 array"
 msgstr ""
 
 msgid "23"
-msgstr ""
+msgstr "23"
 
 #, fuzzy
 msgid "float32 array"
 msgstr "Místní pole"
 
 msgid "24"
-msgstr ""
+msgstr "24"
 
 #, fuzzy
 msgid "float64 array"
 msgstr "Místní pole"
 
 msgid "25"
-msgstr ""
+msgstr "25"
 
 msgid "string array"
 msgstr ""
 
 msgid "26"
-msgstr ""
+msgstr "26"
 
 msgid "vector2 array"
 msgstr ""
 
 msgid "27"
-msgstr ""
+msgstr "27"
 
 msgid "vector3 array"
 msgstr ""
 
 msgid "28"
-msgstr ""
+msgstr "28"
 
 msgid "color array"
 msgstr ""
@@ -248,7 +248,7 @@ msgid "29"
 msgstr ""
 
 msgid "max"
-msgstr ""
+msgstr "max"
 
 msgid ""
 "Following this is the actual packet contents, which varies for each type of "
@@ -327,7 +327,7 @@ msgid "String length (in bytes)"
 msgstr ""
 
 msgid "X"
-msgstr ""
+msgstr "X"
 
 msgid "Bytes"
 msgstr ""
@@ -433,13 +433,13 @@ msgid "The X component of the Z column vector, accessed via [2][0]"
 msgstr ""
 
 msgid "32"
-msgstr ""
+msgstr "32"
 
 msgid "The Y component of the Z column vector, accessed via [2][1]"
 msgstr ""
 
 msgid "36"
-msgstr ""
+msgstr "36"
 
 msgid "The Z component of the Z column vector, accessed via [2][2]"
 msgstr ""
@@ -449,19 +449,19 @@ msgid "13: :ref:`Transform3D<class_transform3d>`"
 msgstr ":ref:`Transform <class_Transform>`"
 
 msgid "40"
-msgstr ""
+msgstr "40"
 
 msgid "The X component of the origin vector, accessed via [3][0]"
 msgstr ""
 
 msgid "44"
-msgstr ""
+msgstr "44"
 
 msgid "The Y component of the origin vector, accessed via [3][1]"
 msgstr ""
 
 msgid "48"
-msgstr ""
+msgstr "48"
 
 msgid "The Z component of the origin vector, accessed via [3][2]"
 msgstr ""
@@ -633,7 +633,7 @@ msgid "8..8+length"
 msgstr ""
 
 msgid "Byte"
-msgstr ""
+msgstr "Byt"
 
 msgid "Byte (0..255)"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,15 +48,20 @@ msgid ""
 "restrictions in navigation meshes is commonly referred to as navigation mesh "
 "baking."
 msgstr ""
+"导航系统的工作独立于渲染或物理等其他引擎部分。导航系统在寻路时只考虑导航网"
+"格，视觉效果和碰撞形状等会被导航系统完全忽略。如果在寻路时需要考虑其他数据"
+"（例如视觉效果），则需要对导航网格进行相应调整。在导航网格中考虑导航限制的过"
+"程通常称为导航网格烘焙。"
 
-#, fuzzy
 msgid "Navigation mesh polygon convex vs concave comparison"
-msgstr "可以在运行的游戏的时候看到导航网格和多边形."
+msgstr "导航网格凸多边形与凹多边形的比较"
 
 msgid ""
 "A navigation mesh describes a surface that an agent can stand on safely with "
 "its center compared to physics shapes that describe outer collision bounds."
 msgstr ""
+"导航网格描述的是代理的中心点能够安全站立的表面，而物理形状描述的则是外部的碰"
+"撞范围。"
 
 msgid ""
 "If you experience clipping or collision problems while following navigation "
@@ -66,8 +71,11 @@ msgid ""
 "shape or visual mesh\" because it only knows that \"here I was told I can "
 "path safely because it is on a navigation mesh\"."
 msgstr ""
+"如果你在遵循导航路径时遇到剪切或碰撞问题，请务必记住，你需要通过合适的导航网"
+"格告诉导航系统你的意图。导航系统本身永远不会知道 \"这是树木/岩石/墙壁碰撞形状"
+"或可视化网格\"，因为它只知道 \"我被告知在这里可以安全通过，因为它在导航网格上"
+"\"。"
 
-#, fuzzy
 msgid ""
 "Navigation mesh baking can be done either by using a :ref:"
 "`NavigationRegion2D<class_NavigationRegion2D>` or :ref:"
@@ -75,26 +83,27 @@ msgid ""
 "`NavigationServer2D<class_NavigationServer2D>` and :ref:"
 "`NavigationServer3D<class_NavigationServer3D>` API directly."
 msgstr ""
-"NavigationServer 即导航服务器。2D 和 3D 版本的 NavigationServer 分别为 :ref:"
-"`NavigationServer2D<class_NavigationServer2D>` 和 :ref:"
-"`NavigationServer3D<class_NavigationServer3D>`\\ 。"
+"导航网格的烘焙可以使用 :ref:`NavigationRegion2D<class_NavigationRegion2D>` "
+"或 :ref:`NavigationRegion3D<class_NavigationRegion3D>` 实现，也可以直接使用 :"
+"ref:`NavigationServer2D<class_NavigationServer2D>` 和 :ref:"
+"`NavigationServer3D<class_NavigationServer3D>` 的 API。"
 
-#, fuzzy
 msgid "Baking a navigation mesh with a NavigationRegion"
-msgstr "使用 NavigationPolygon 绘制工具定义可移动导航区域。"
+msgstr "使用导航区块 NavigationRegion 烘焙导航网格"
 
-#, fuzzy
 msgid "Navigation mesh baking steps"
-msgstr "运行时烘焙 NavigationMesh"
+msgstr "烘焙导航网格的步骤"
 
 msgid "Baking a navigation mesh with agent radius offset from geometry."
-msgstr ""
+msgstr "根据代理半径和几何体之间的偏移量烘焙导航网格。"
 
 msgid ""
 "The navigation mesh baking is made more accessible with the NavigationRegion "
 "node. When baking with a NavigationRegion node, the individual parsing, "
 "baking, and region update steps are all combined into one function."
 msgstr ""
+"使用导航区块节点可以更方便地进行导航网格烘焙。使用导航区域节点进行烘焙时，所"
+"有解析、烘焙和区块更新步骤都会合并到一个函数中。"
 
 #, fuzzy
 msgid ""
@@ -105,20 +114,21 @@ msgstr ""
 "2D 和 3D 版本分别为 :ref:`NavigationRegion2D<class_NavigationRegion2D>` 和 :"
 "ref:`NavigationRegion3D<class_NavigationRegion3D>`\\ 。"
 
-#, fuzzy
 msgid "Baking with a NavigationRegion2D"
-msgstr "使用 NavigationRegion"
+msgstr "使用导航区块2D（NavigationRegion2D）进行烘焙"
 
 msgid ""
 "When a NavigationRegion2D node is selected in the Editor, bake options as "
 "well as polygon draw tools appear in the top bar of the Editor."
 msgstr ""
+"在编辑器中选择导航区块2D节点时，编辑器顶部栏会显示烘焙选项和多边形绘制工具。"
 
-#, fuzzy
 msgid ""
 "In order for the region to work a :ref:"
 "`NavigationPolygon<class_NavigationPolygon>` resource needs to be added."
-msgstr ":ref:`NavigationPolygon<class_NavigationPolygon>` 资源"
+msgstr ""
+"为了使区块工作，需要添加一个 :ref:"
+"`NavigationPolygon<class_NavigationPolygon>` 资源。"
 
 msgid ""
 "The properties to parse and bake a navigation mesh are then part of the used "
@@ -173,38 +183,40 @@ msgid "The NavigationRegion2D baking can also be used at runtime with scripts."
 msgstr ""
 
 msgid "To quickly test the 2D baking with default settings:"
-msgstr ""
+msgstr "要使用默认设置快速测试 2D 烘焙："
 
-#, fuzzy
 msgid "Add a :ref:`NavigationRegion2D<class_NavigationRegion2D>`."
-msgstr ":ref:`NavigationRegion2D<class_NavigationRegion2D>` 节点"
+msgstr "添加一个 :ref:`NavigationRegion2D<class_NavigationRegion2D>`\\ 。"
 
-#, fuzzy
 msgid ""
 "Add a :ref:`NavigationPolygon<class_NavigationPolygon>` resource to the "
 "NavigationRegion2D."
-msgstr ":ref:`NavigationPolygon<class_NavigationPolygon>` 资源"
+msgstr ""
+"为 NavigationRegion2D 添加一个 :ref:"
+"`NavigationPolygon<class_NavigationPolygon>` 资源。"
 
 msgid "Add a :ref:`Polygon2D<class_Polygon2D>` below the NavigationRegion2D."
 msgstr ""
+"在 NavigationRegion2D 下面添加一个 :ref:`Polygon2D<class_Polygon2D>`\\ 。"
 
-#, fuzzy
 msgid ""
 "Draw 1 NavigationPolygon outline with the selected NavigationRegion2D draw "
 "tool."
-msgstr "使用 NavigationPolygon 绘制工具定义可移动导航区域。"
+msgstr ""
+"使用选中的 NavigationRegion2D 绘制工具绘制一个 NavigationPolygon 轮廓。"
 
 msgid ""
 "Draw 1 Polygon2D outline inside the NavigationPolygon outline with the "
 "selected Polygon2D draw tool."
 msgstr ""
+"使用选中的 Polygon2D 绘制工具在 NavigationPolygon 轮廓中绘制一个 Polygon2D 轮"
+"廓。"
 
 msgid "Hit the Editor bake button and a navigation mesh should appear."
-msgstr ""
+msgstr "点击编辑器的烘焙按钮，就会出现导航网格。"
 
-#, fuzzy
 msgid "Baking with a NavigationRegion3D"
-msgstr "使用 NavigationRegion"
+msgstr "使用 NavigationRegion3D 进行烘焙"
 
 msgid ""
 "When a NavigationRegion3D node is selected in the Editor, bake options "
@@ -244,31 +256,30 @@ msgid "The NavigationRegion3D baking can also be used at runtime with scripts."
 msgstr ""
 
 msgid "To quickly test the 3D baking with default settings:"
-msgstr ""
+msgstr "要使用默认设置快速测试 3D 烘焙："
 
-#, fuzzy
 msgid "Add a :ref:`NavigationRegion3D<class_NavigationRegion3D>`."
-msgstr ":ref:`NavigationRegion3D<class_NavigationRegion3D>` 节点"
+msgstr "添加一个 :ref:`NavigationRegion3D<class_NavigationRegion3D>`\\ 。"
 
-#, fuzzy
 msgid ""
 "Add a :ref:`NavigationMesh<class_NavigationMesh>` resource to the "
 "NavigationRegion3D."
-msgstr ":ref:`NavigationMesh<class_NavigationMesh>` 资源"
+msgstr ""
+"为 NavigationRegion3D 添加一个 :ref:`NavigationMesh<class_NavigationMesh>` 资"
+"源。"
 
-#, fuzzy
 msgid ""
 "Add a :ref:`MeshInstance3D<class_MeshInstance3D>` below the "
 "NavigationRegion3D."
-msgstr "向场景添加一个新的 :ref:`MeshInstance3D <class_MeshInstance3D>` 节点。"
+msgstr ""
+"在 NavigationRegion3D 下面添加一个 :ref:"
+"`MeshInstance3D<class_MeshInstance3D>`\\ 。"
 
-#, fuzzy
 msgid "Add a :ref:`PlaneMesh<class_PlaneMesh>` to the MeshInstance3D."
-msgstr "这会在场景中添加一个 :ref:`PlaneMesh <class_planemesh>` ."
+msgstr "为 MeshInstance3D 添加一个 :ref:`PlaneMesh<class_PlaneMesh>`\\ 。"
 
-#, fuzzy
 msgid "Baking a navigation mesh with the NavigationServer"
-msgstr "与 NavigationServer 通信"
+msgstr "使用 NavigationServer 烘焙导航网格"
 
 #, fuzzy
 msgid ""

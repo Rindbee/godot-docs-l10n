@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,9 +123,8 @@ msgid ""
 "depending on scene brightness."
 msgstr ""
 
-#, fuzzy
 msgid "There are two kinds of CameraAttribute resources available:"
-msgstr "Kullanabileceğiniz iki tür işlem var:"
+msgstr ""
 
 msgid ""
 "**CameraAttributesPractical:** Features are exposed using arbitrary units, "
@@ -192,9 +191,8 @@ msgid ""
 "be taken into account when tweaking lighting in your scene."
 msgstr ""
 
-#, fuzzy
 msgid "There are several background modes available:"
-msgstr "Bunun için bir çok neden var:"
+msgstr ""
 
 msgid ""
 "**Clear Color** uses the default clear color defined in the project "
@@ -222,9 +220,8 @@ msgid ""
 "\"hall of mirrors\" visual glitch if the sky is visible at any time."
 msgstr ""
 
-#, fuzzy
 msgid "Sky materials"
-msgstr "Malzemeler"
+msgstr ""
 
 msgid ""
 "When using the **Sky** background mode (or the ambient/reflected light mode "
@@ -293,9 +290,8 @@ msgid ""
 "depending on the camera's position and viewing angle."
 msgstr ""
 
-#, fuzzy
 msgid "There are several types of ambient light to choose from:"
-msgstr "Bunun için bir çok neden var:"
+msgstr ""
 
 msgid ""
 "**Background:** Source ambient light from the background, such as the sky, "
@@ -355,9 +351,8 @@ msgid ""
 "lighting with ambient lighting from the probes."
 msgstr ""
 
-#, fuzzy
 msgid "Reflected light"
-msgstr "Yansımalar"
+msgstr ""
 
 msgid ""
 "Reflected light (also called specular light) is the other of the two "
@@ -869,9 +864,8 @@ msgstr ""
 msgid "Using glow in 2D"
 msgstr ""
 
-#, fuzzy
 msgid "There are 2 ways to use glow in 2D:"
-msgstr "Bunu yapmanın iki yolu var:"
+msgstr ""
 
 msgid ""
 "Since Godot 4.2, you can enable HDR for 2D rendering when using the Forward+ "
@@ -972,9 +966,8 @@ msgid ""
 "**Contrast**, and **Saturation** properties:"
 msgstr ""
 
-#, fuzzy
 msgid "**Color correction using a 1D gradient**"
-msgstr "Tek-boyutlu yokuş kullanarak renk düzeltme."
+msgstr ""
 
 msgid ""
 "The second adjustment is by supplying a color correction gradient. This can "
@@ -994,9 +987,8 @@ msgid ""
 "But creating custom ones will allow to map each channel to a different color:"
 msgstr ""
 
-#, fuzzy
 msgid "**Color correction using a 3D LUT**"
-msgstr "Tek-boyutlu yokuş kullanarak renk düzeltme."
+msgstr ""
 
 msgid ""
 "A 3D look-up-texture (LUT) can also be used for color correction. This is a "
@@ -1098,9 +1090,8 @@ msgid ""
 "distance, focal length, and aperture."
 msgstr ""
 
-#, fuzzy
 msgid "Exposure"
-msgstr "Dışa Aktar"
+msgstr ""
 
 msgid ""
 "This multiplies the overall scene brightness visible from the camera. Higher "

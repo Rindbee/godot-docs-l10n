@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,11 +45,8 @@ msgid ""
 "baking."
 msgstr ""
 
-#, fuzzy
 msgid "Navigation mesh polygon convex vs concave comparison"
-msgstr ""
-"Las mallas de navegación y los polígonos serán visibles en el juego mientras "
-"se está ejecutando."
+msgstr "Comparación de mallas de navegación convexa versus cóncava"
 
 msgid ""
 "A navigation mesh describes a surface that an agent can stand on safely with "
@@ -104,11 +101,12 @@ msgid ""
 "well as polygon draw tools appear in the top bar of the Editor."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "In order for the region to work a :ref:"
 "`NavigationPolygon<class_NavigationPolygon>` resource needs to be added."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
+"Para que una región funcione, debe agregarse un recurso :ref:"
+"`NavigationPolygon<class_NavigationPolygon>`."
 
 msgid ""
 "The properties to parse and bake a navigation mesh are then part of the used "
@@ -169,15 +167,15 @@ msgstr ""
 msgid "To quickly test the 2D baking with default settings:"
 msgstr ""
 
-#, fuzzy
 msgid "Add a :ref:`NavigationRegion2D<class_NavigationRegion2D>`."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr "Agrega un :ref:`NavigationRegion2D<class_NavigationRegion2D>`."
 
-#, fuzzy
 msgid ""
 "Add a :ref:`NavigationPolygon<class_NavigationPolygon>` resource to the "
 "NavigationRegion2D."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
+"Agrega un recurso :ref:`NavigationPolygon<class_NavigationPolygon>` al "
+"NavigationRegion2D."
 
 msgid "Add a :ref:`Polygon2D<class_Polygon2D>` below the NavigationRegion2D."
 msgstr ""
@@ -204,11 +202,12 @@ msgid ""
 "appear in the top bar of the Editor."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "In order for the region to work a :ref:"
 "`NavigationMesh<class_NavigationMesh>` resource needs to be added."
-msgstr ":ref:`Navigation<class_Navigation>` (obsoleto)"
+msgstr ""
+"Para que la región funcione, se necesita agregar un recurso :ref:"
+"`NavigationMesh<class_NavigationMesh>`."
 
 msgid ""
 "The ``cell_size`` and ``cell_height`` sets the rasterization voxel grid size "
@@ -237,15 +236,15 @@ msgstr ""
 msgid "To quickly test the 3D baking with default settings:"
 msgstr ""
 
-#, fuzzy
 msgid "Add a :ref:`NavigationRegion3D<class_NavigationRegion3D>`."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr "Agrega un :ref:`NavigationRegion3D<class_NavigationRegion3D>`."
 
-#, fuzzy
 msgid ""
 "Add a :ref:`NavigationMesh<class_NavigationMesh>` resource to the "
 "NavigationRegion3D."
-msgstr ":ref:`Navigation<class_Navigation>` (obsoleto)"
+msgstr ""
+"Agrega un recurso :ref:`NavigationMesh<class_NavigationMesh>` al "
+"NavigationRegion3D."
 
 #, fuzzy
 msgid ""
@@ -450,4 +449,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

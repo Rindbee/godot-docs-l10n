@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Particle sub-emitters"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid "Chained sub-emitters"
 msgstr ""
@@ -39,9 +38,8 @@ msgstr ""
 msgid "Click to assign a sub-emitter..."
 msgstr ""
 
-#, fuzzy
 msgid "List particle systems"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
 msgid "\\...and select one from the scene"
 msgstr ""
@@ -83,9 +81,8 @@ msgid ""
 "other kind of recursive or self-referential sub-emitter setup."
 msgstr ""
 
-#, fuzzy
 msgid "Emitter mode"
-msgstr "Titreşme"
+msgstr ""
 
 msgid ""
 "When you assign a sub-emitter, you don't see it spawn right away. Emitting "

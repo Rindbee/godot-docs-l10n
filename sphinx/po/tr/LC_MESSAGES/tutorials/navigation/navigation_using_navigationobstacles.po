@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using NavigationObstacles"
-msgstr "Gezinti Engeli, NavigationObstacle3D"
+msgstr ""
 
 msgid ""
 "NavigationObstacles can be used either as static or dynamic obstacles to "
@@ -48,9 +47,8 @@ msgid ""
 "controlled by avoidance."
 msgstr ""
 
-#, fuzzy
 msgid "Static obstacles"
-msgstr "Durağan cisimler."
+msgstr ""
 
 msgid ""
 "A NavigationObstacle is considered static when its ``vertices`` property is "
@@ -150,8 +148,8 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgid "Procedual obstacles"
-msgstr "Yöntemsel gökyüzü."
+msgid "Procedural obstacles"
+msgstr "Yöntemsel geometri"
 
 msgid ""
 "New obstacles can be created without a Node directly on the NavigationServer."

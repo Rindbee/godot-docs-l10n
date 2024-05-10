@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,29 +46,23 @@ msgid ""
 "learn more:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_compiling_for_android`"
-msgstr ":ref:`doc_optimizing_for_size`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_compiling_for_ios`"
-msgstr ":ref:`doc_optimizing_for_size`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_compiling_for_linuxbsd`"
-msgstr ":ref:`doc_complying_with_licenses`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_compiling_for_macos`"
-msgstr ":ref:`doc_optimizing_for_size`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_compiling_for_web`"
-msgstr ":ref:`doc_optimizing_for_size`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_compiling_for_windows`"
-msgstr ":ref:`doc_optimizing_for_size`"
+msgstr ""
 
 msgid ""
 "These articles cover in great detail both how to setup your environment to "
@@ -77,9 +71,8 @@ msgid ""
 "reference platform-specific and universal configuration options."
 msgstr ""
 
-#, fuzzy
 msgid "Using multi-threading"
-msgstr "Çoklu iş parçaları"
+msgstr ""
 
 msgid ""
 "The build process may take a while, depending on how powerful your system "
@@ -89,9 +82,8 @@ msgid ""
 "parameter to specify how many threads will be used for the build."
 msgstr ""
 
-#, fuzzy
 msgid "Example for using 4 threads::"
-msgstr "Örnek:"
+msgstr ""
 
 msgid "Platform selection"
 msgstr ""
@@ -125,8 +117,9 @@ msgid ""
 "generally with this naming convention::"
 msgstr ""
 
-msgid "For the previous build attempt, the result would look like this::"
-msgstr ""
+#, fuzzy
+msgid "For the previous build attempt, the result would look like this:"
+msgstr "Son halinde bunun gibi görünmelidir:"
 
 msgid ""
 "This means that the binary is for Linux *or* \\*BSD (*not* both), is not "
@@ -177,9 +170,8 @@ msgid ""
 "can run projects but does not include the editor or the Project Manager."
 msgstr ""
 
-#, fuzzy
 msgid "Development and production aliases"
-msgstr "Geliştirme ipuçları"
+msgstr ""
 
 msgid ""
 "When creating builds for development (running debugging/:ref:`profiling "
@@ -241,9 +233,8 @@ msgid ""
 "ref:`doc_using_sanitizers` for more information."
 msgstr ""
 
-#, fuzzy
 msgid "Debugging symbols"
-msgstr "Hata Ayıklama"
+msgstr ""
 
 msgid ""
 "By default, ``debug_symbols=no`` is used, which means **no** debugging "
@@ -274,9 +265,8 @@ msgid ""
 "a binary you've already compiled."
 msgstr ""
 
-#, fuzzy
 msgid "Optimization level"
-msgstr "En İyileştirme"
+msgstr ""
 
 msgid "Several compiler optimization levels can be chosen from:"
 msgstr ""
@@ -317,9 +307,8 @@ msgid ""
 "using the ``CFLAGS``, ``CCFLAGS`` and ``CXXFLAGS`` SCons options."
 msgstr ""
 
-#, fuzzy
 msgid "Architecture"
-msgstr "dokular"
+msgstr ""
 
 msgid ""
 "The ``arch`` option is meant to control the CPU or OS version intended to "
@@ -365,9 +354,8 @@ msgid ""
 "to override built-in module implementations."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_custom_modules_in_cpp`"
-msgstr ":ref:`doc_custom_modules_in_c++`"
+msgstr ""
 
 msgid "Cleaning generated files"
 msgstr ""

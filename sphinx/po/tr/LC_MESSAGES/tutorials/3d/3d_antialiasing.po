@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D antialiasing"
-msgstr "**Kenar yumuşatma:**"
+msgstr ""
 
 msgid ""
 "Godot also supports antialiasing in 2D rendering. This is covered on the :"
@@ -52,19 +51,14 @@ msgid ""
 "are detailed below."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can compare antialiasing algorithms in action using the `3D Antialiasing "
 "demo project <https://github.com/godotengine/godot-demo-projects/tree/"
 "master/3d/antialiasing>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
-#, fuzzy
 msgid "Multisample antialiasing (MSAA)"
-msgstr "Çok-örnekli kenar yumuşatma (MSAA)."
+msgstr ""
 
 msgid ""
 "This technique is the \"historical\" way of dealing with aliasing. MSAA is "
@@ -110,9 +104,8 @@ msgid ""
 "Note that alpha antialiasing is not used here:"
 msgstr ""
 
-#, fuzzy
 msgid "Temporal antialiasing (TAA)"
-msgstr "Çok-örnekli kenar yumuşatma (MSAA)."
+msgstr ""
 
 msgid ""
 "*This is only available in the Clustered Forward backend, not the Forward "
@@ -189,9 +182,8 @@ msgid ""
 "screenshot."
 msgstr ""
 
-#, fuzzy
 msgid "Fast approximate antialiasing (FXAA)"
-msgstr "Hızlı yaklaşıklık kenar yumuşatması (FXAA)."
+msgstr ""
 
 msgid ""
 "*This is only available in the Clustered Forward and Forward Mobile "
@@ -227,9 +219,8 @@ msgstr ""
 msgid "Comparison between no antialiasing (left) and FXAA (right):"
 msgstr ""
 
-#, fuzzy
 msgid "Supersample antialiasing (SSAA)"
-msgstr "Çok-örnekli kenar yumuşatma (MSAA)."
+msgstr ""
 
 msgid ""
 "Supersampling provides the highest quality of antialiasing possible, but "
@@ -318,9 +309,8 @@ msgid ""
 "that occurs on geometry edges on detailed meshes."
 msgstr ""
 
-#, fuzzy
 msgid "Which antialiasing technique should I use?"
-msgstr "Hangi dili kullanmalıyım?"
+msgstr ""
 
 msgid ""
 "**There is no \"one size fits all\" antialiasing technique.** Since "

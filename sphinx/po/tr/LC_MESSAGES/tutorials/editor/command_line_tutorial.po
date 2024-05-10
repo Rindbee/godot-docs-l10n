@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,13 +48,11 @@ msgstr "Komut satırı başvurusu"
 msgid "release"
 msgstr ""
 
-#, fuzzy
 msgid "debug"
-msgstr "Hata Ayıklama"
+msgstr ""
 
-#, fuzzy
 msgid "editor"
-msgstr "Düzenleyici"
+msgstr ""
 
 msgid "**Legend**"
 msgstr ""
@@ -133,9 +131,8 @@ msgstr ""
 msgid "|editor| Start the Project Manager, even if a project is auto-detected."
 msgstr ""
 
-#, fuzzy
 msgid "``--debug-server <uri>``"
-msgstr "``debugger/step_over``"
+msgstr ""
 
 msgid ""
 "|editor| Start the editor debug server (``<protocol>://<host/IP>[:<port>]``, "
@@ -281,9 +278,8 @@ msgstr ""
 msgid "``-f``, ``--fullscreen``"
 msgstr ""
 
-#, fuzzy
 msgid "|release| Request fullscreen mode."
-msgstr "Tam ekran kipi."
+msgstr ""
 
 msgid "``-m``, ``--maximized``"
 msgstr ""
@@ -402,9 +398,8 @@ msgstr ""
 msgid "|debug| Show collision shapes when running the scene."
 msgstr ""
 
-#, fuzzy
 msgid "``--debug-paths``"
-msgstr "``yol``"
+msgstr ""
 
 msgid "|debug| Show path lines when running the scene."
 msgstr ""
@@ -415,9 +410,8 @@ msgstr ""
 msgid "|debug| Show navigation polygons when running the scene."
 msgstr ""
 
-#, fuzzy
 msgid "``--debug-avoidance``"
-msgstr "``debugger/continue``"
+msgstr ""
 
 msgid "|debug| Show navigation avoidance debug visuals when running the scene."
 msgstr ""
@@ -492,9 +486,8 @@ msgstr ""
 msgid "``-s``, ``--script <script>``"
 msgstr ""
 
-#, fuzzy
 msgid "|release| Run a script."
-msgstr "Bir betik çalıştır."
+msgstr ""
 
 msgid "``--check-only``"
 msgstr ""

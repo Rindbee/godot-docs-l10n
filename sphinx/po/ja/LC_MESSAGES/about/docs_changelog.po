@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,9 +169,8 @@ msgstr "アニメーション"
 msgid ":ref:`doc_creating_movies`"
 msgstr "\\ :ref:`doc_making_trees`"
 
-#, fuzzy
 msgid "Assets pipeline"
-msgstr "アセットの名前。"
+msgstr "アセットパイプライン"
 
 #, fuzzy
 msgid ":ref:`doc_retargeting_3d_skeletons`"
@@ -323,11 +322,8 @@ msgstr "エンジン貢献者のベストプラクティス"
 msgid ":ref:`doc_bisecting_regressions`"
 msgstr "\\ :ref:`doc_using_servers`"
 
-#, fuzzy
 msgid ":ref:`doc_editor_and_docs_localization`"
-msgstr ""
-"SCons (詳細については、\\ :ref:`doc_compiling_for_windows`\\ を参照してくださ"
-"い)。"
+msgstr ":ref:`doc_editor_and_docs_localization`"
 
 #, fuzzy
 msgid ":ref:`doc_introduction_to_editor_development`"
@@ -345,27 +341,24 @@ msgstr "メソッドとクラスの記述方法"
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr "\\ :ref:`doc_animation_tree`"
 
-#, fuzzy
 msgid ":ref:`doc_gdscript_grammar`"
-msgstr "\\ :ref:`doc_2d_sprite_animation`"
+msgstr ":ref:`doc_gdscript_grammar`"
 
 msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
-msgstr ""
+msgstr "IDEの設定: :ref:`doc_configuring_an_ide_code_blocks`"
 
 #, fuzzy
 msgid ":ref:`doc_default_key_mapping`"
 msgstr "\\ :ref:`doc_thread_safe_apis`"
 
-#, fuzzy
 msgid ":ref:`doc_using_the_web_editor`"
-msgstr ":ref:`Web <doc_using_the_web_editor>`"
+msgstr ":ref:`doc_using_the_web_editor`"
 
 msgid "Export"
 msgstr "エクスポート"
 
-#, fuzzy
 msgid ":ref:`doc_exporting_for_dedicated_servers`"
-msgstr "Webのエクスポート"
+msgstr ":ref:`doc_exporting_for_dedicated_servers`"
 
 msgid "Input"
 msgstr "入力"
@@ -377,9 +370,8 @@ msgstr "\\ :ref:`doc_controlling_thousands_of_fish`"
 msgid "Math"
 msgstr "数学"
 
-#, fuzzy
 msgid ":ref:`doc_random_number_generation`"
-msgstr "乱数生成関数"
+msgstr ":ref:`doc_random_number_generation`"
 
 #, fuzzy
 msgid ":ref:`doc_plugins_for_ios`"
@@ -393,9 +385,8 @@ msgstr "\\ :ref:`doc_android_plugin`"
 msgid ":ref:`doc_html5_shell_classref`"
 msgstr "\\ :ref:`doc_what_are_godot_classes`"
 
-#, fuzzy
 msgid ":ref:`doc_collision_shapes_2d`"
-msgstr ":ref:`doc_visual_shaders`"
+msgstr ":ref:`doc_collision_shapes_2d`"
 
 #, fuzzy
 msgid ":ref:`doc_collision_shapes_3d`"
@@ -405,9 +396,8 @@ msgstr ":ref:`doc_visual_shaders`"
 msgid ":ref:`doc_shaders_style_guide`"
 msgstr "\\ :ref:`doc_shading_language`"
 
-#, fuzzy
 msgid ":ref:`doc_debugger_panel`"
-msgstr "GDScript\\ :ref:`デバッガ <doc_debugger_panel>`\\ 。"
+msgstr ":ref:`doc_debugger_panel`"
 
 #, fuzzy
 msgid ":ref:`doc_creating_script_templates`"

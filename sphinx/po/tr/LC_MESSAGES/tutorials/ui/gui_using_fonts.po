@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using Fonts"
-msgstr "Taşıyıcılar Kullanmak"
+msgstr ""
 
 msgid "Godot allows you to set specific fonts for different UI nodes."
 msgstr ""
@@ -70,15 +69,11 @@ msgid ""
 "using it, as not all fonts allow commercial use without purchasing a license."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can see how fonts work in action using the `BiDI and Font Features demo "
 "project <https://github.com/godotengine/godot-demo-projects/tree/master/gui/"
 "bidi_and_font_features>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Dynamic fonts"
 msgstr "Dinamik yazı tipleri"
@@ -136,9 +131,8 @@ msgid ""
 "wikipedia.org/wiki/ASCII>`__ characters and follows standard ASCII ordering:"
 msgstr ""
 
-#, fuzzy
 msgid "Bitmap font example"
-msgstr "Dahili oda örneği"
+msgstr ""
 
 msgid ""
 "Credit: `LibreQuake <https://github.com/MissLav/LibreQuake/blob/master/lq1/"
@@ -184,9 +178,8 @@ msgid ""
 "Margin**. This margin is applied for every imported glyph."
 msgstr ""
 
-#, fuzzy
 msgid "Loading a font file"
-msgstr "Bir dosya kullanmak"
+msgstr ""
 
 msgid ""
 "To load a font file (dynamic or bitmap), use the resource dropdown's **Quick "
@@ -225,9 +218,8 @@ msgid ""
 "<class_CanvasItem_property_texture_filter>`."
 msgstr ""
 
-#, fuzzy
 msgid "Font outlines and shadows"
-msgstr "Projeyi ayarlamak"
+msgstr ""
 
 msgid ""
 "Font outlines and shadows can be used to improve readability when the "
@@ -246,9 +238,8 @@ msgid ""
 "should look like this:"
 msgstr ""
 
-#, fuzzy
 msgid "Font outline example"
-msgstr "Çoklu-örgü örneği"
+msgstr ""
 
 msgid ""
 "If using a font with MSDF rendering, its **MSDF Pixel Range** import option "
@@ -269,13 +260,11 @@ msgstr ""
 msgid "Configuring font shadow in a Label node"
 msgstr ""
 
-#, fuzzy
 msgid "The result should look like this:"
-msgstr "Son halinde bunun gibi görünmelidir:"
+msgstr ""
 
-#, fuzzy
 msgid "Font shadow example"
-msgstr "Windows örnekleri:"
+msgstr "Yazı tipi gölge örneği"
 
 msgid ""
 "You can create local overrides to font display in Label nodes by creating a :"
@@ -283,13 +272,11 @@ msgid ""
 "resource takes priority over :ref:`theme properties <doc_gui_skinning>`."
 msgstr ""
 
-#, fuzzy
 msgid "Advanced font features"
-msgstr "Ortam özellikleri"
+msgstr ""
 
-#, fuzzy
 msgid "Antialiasing"
-msgstr "**Kenar yumuşatma:**"
+msgstr ""
 
 msgid ""
 "You can adjust how the font should be smoothed out when rendering by "
@@ -331,9 +318,8 @@ msgid ""
 "antialiasing."
 msgstr ""
 
-#, fuzzy
 msgid "Hinting"
-msgstr "İpucu"
+msgstr ""
 
 msgid ""
 "Hinting controls how aggressively glyph edges should be snapped to pixels "
@@ -439,9 +425,8 @@ msgid ""
 "the first time, as there is no rasterization performed."
 msgstr ""
 
-#, fuzzy
 msgid "The downsides of MSDF font rendering are:"
-msgstr "``GIProbe``'un asıl kötü yanları şunlar:"
+msgstr ""
 
 msgid ""
 "Higher baseline cost for font rendering. This is usually not noticeable on "
@@ -486,9 +471,8 @@ msgstr ""
 msgid "Enabling MSDF in the font's import options"
 msgstr ""
 
-#, fuzzy
 msgid "Using emoji"
-msgstr "Çerçeveleri kullanmak"
+msgstr ""
 
 msgid "Godot has limited support for emoji fonts:"
 msgstr ""
@@ -546,9 +530,8 @@ msgid "It's possible to use a system font as a fallback font too."
 msgstr ""
 "Bir sistem yazı tipini sonçare yazı tipi olarak kullanmak da mümkündür."
 
-#, fuzzy
 msgid "Using icon fonts"
-msgstr "Çerçeveleri kullanmak"
+msgstr ""
 
 msgid ""
 "Tools like `Fontello <https://fontello.com/>`__ can be used to generate font "
@@ -625,9 +608,8 @@ msgid ""
 "to the Import dock then choose **Advanced…** at the bottom:"
 msgstr ""
 
-#, fuzzy
 msgid "Import dock"
-msgstr "İçe Aktar"
+msgstr ""
 
 msgid ""
 "In the dialog that appears, look for **Fallbacks** section on the sidebar on "
@@ -658,9 +640,8 @@ msgid ""
 "brevity reasons."
 msgstr ""
 
-#, fuzzy
 msgid "Variable fonts"
-msgstr "Alt-Çeşit"
+msgstr ""
 
 msgid ""
 "Godot has full support for `variable fonts <https://variablefonts.io/>`__, "
@@ -675,9 +656,8 @@ msgid ""
 "FontVariation resource:"
 msgstr ""
 
-#, fuzzy
 msgid "Creating a FontVariation resource"
-msgstr "Animasyon Ağacı oluşturmak"
+msgstr ""
 
 msgid "Loading a font file into the FontVariation resource"
 msgstr ""
@@ -688,9 +668,8 @@ msgid ""
 "adjusted:"
 msgstr ""
 
-#, fuzzy
 msgid "List of variation axes"
-msgstr "Özellikler listesi"
+msgstr ""
 
 msgid ""
 "The set of axes you can adjust depends on the font loaded. Some variable "
@@ -813,9 +792,8 @@ msgid ""
 "generally not designed to be displayed with stretching."
 msgstr ""
 
-#, fuzzy
 msgid "OpenType font features"
-msgstr "Ortam özellikleri"
+msgstr ""
 
 msgid ""
 "Godot supports enabling OpenType font features, which are a standardized way "
@@ -830,9 +808,8 @@ msgid ""
 "toggleable features."
 msgstr ""
 
-#, fuzzy
 msgid "There are 2 ways to use OpenType font features:"
-msgstr "Bir projeyi, bir sunucu için dışa aktarmanın iki yolu var:"
+msgstr ""
 
 msgid "**Globally on a font file**"
 msgstr ""
@@ -928,9 +905,8 @@ msgid ""
 "to use the system font:"
 msgstr ""
 
-#, fuzzy
 msgid "Creating a SystemFont resource"
-msgstr "Animasyon Ağacı oluşturmak"
+msgstr ""
 
 msgid "Specifying a font name to use in a SystemFont resource"
 msgstr ""
@@ -941,16 +917,14 @@ msgid ""
 "\"standard\" default font for the system:"
 msgstr ""
 
-#, fuzzy
 msgid "Font alias"
-msgstr "Önden Görünüm"
+msgstr ""
 
 msgid "Windows"
 msgstr "Windows"
 
-#, fuzzy
 msgid "macOS/iOS"
-msgstr "macOS"
+msgstr ""
 
 msgid "Linux"
 msgstr "Linux"
@@ -979,16 +953,14 @@ msgstr ""
 msgid "Times New Roman"
 msgstr ""
 
-#, fuzzy
 msgid "Times"
-msgstr "Zaman damgası"
+msgstr ""
 
 msgid "Noto Serif"
 msgstr ""
 
-#, fuzzy
 msgid "``monospace``"
-msgstr "sabit aralıklı yazıtipi"
+msgstr ""
 
 msgid "Courier New"
 msgstr ""
@@ -1008,9 +980,8 @@ msgstr ""
 msgid "Apple Chancery"
 msgstr ""
 
-#, fuzzy
 msgid "Dancing Script"
-msgstr "Ana betik"
+msgstr ""
 
 msgid "``fantasy``"
 msgstr ""
@@ -1058,9 +1029,8 @@ msgid ""
 "<doc_runtime_file_loading_and_saving_fonts>` for details."
 msgstr ""
 
-#, fuzzy
 msgid "Font prerendering"
-msgstr "İşleme"
+msgstr ""
 
 msgid ""
 "When using traditional rasterized fonts, Godot caches glyphs on a per-font "
@@ -1111,9 +1081,8 @@ msgid ""
 "It is possible to use both approaches in a cumulative manner:"
 msgstr ""
 
-#, fuzzy
 msgid "**Using text from translations**"
-msgstr "Çevirileri test etmek"
+msgstr ""
 
 msgid ""
 "For most projects, this approach is the most convenient to use, as it "
@@ -1214,9 +1183,8 @@ msgid ""
 "Russian, **Cyrillic** needs to be enabled, and so on."
 msgstr ""
 
-#, fuzzy
 msgid "Default project font properties"
-msgstr "Hata ayıklama proje ayarları"
+msgstr ""
 
 msgid ""
 "In the **GUI > Theme** section of the advanced Project Settings, you can "

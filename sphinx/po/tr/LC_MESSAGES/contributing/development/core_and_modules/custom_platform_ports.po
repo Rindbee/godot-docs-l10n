@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Custom platform ports"
-msgstr "Platform desteği"
+msgstr ""
 
 msgid ""
 "Similar to :ref:`doc_custom_modules_in_cpp`, Godot's multi-platform "
@@ -70,57 +69,38 @@ msgid ""
 "from the :ref:`class_OS` singleton."
 msgstr ""
 
-#, fuzzy
 msgid "Official platform ports"
-msgstr "Resmi düzenleyici eklentileri"
+msgstr ""
 
 msgid ""
 "The official platform ports can be used as a reference when creating a "
 "custom platform port:"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`Windows <https://github.com/godotengine/godot/tree/master/platform/"
 "windows>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid ""
 "`macOS <https://github.com/godotengine/godot/tree/master/platform/macos>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid ""
 "`Linux/\\*BSD <https://github.com/godotengine/godot/tree/master/platform/"
 "linuxbsd>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid ""
 "`Android <https://github.com/godotengine/godot/tree/master/platform/"
 "android>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid "`iOS <https://github.com/godotengine/godot/tree/master/platform/ios>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid "`Web <https://github.com/godotengine/godot/tree/master/platform/web>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
 msgid ""
 "While platform code is usually self-contained, there are exceptions to this "
@@ -167,9 +147,8 @@ msgid ""
 "as a reference."
 msgstr ""
 
-#, fuzzy
 msgid "**detect.py file**"
-msgstr "**Doku fitreleme:**"
+msgstr ""
 
 msgid ""
 "A ``detect.py`` file must be created within the platform's folder with all "
@@ -275,13 +254,10 @@ msgid ""
 "logs aren't readily accessible."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`Text-to-speech driver <https://github.com/godotengine/godot/blob/master/"
 "platform/linuxbsd/tts_linux.cpp>`__ (for accessibility)."
 msgstr ""
-"`core/io/fileaccess.h <https://github.com/godotengine/godot/blob/master/core/"
-"os/file_access.h>`_"
 
 msgid ""
 "`Export handler <https://github.com/godotengine/godot/tree/master/platform/"

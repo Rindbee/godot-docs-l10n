@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using NavigationServer"
-msgstr "Animasyon Ağacını (AnimationTree) kullanmak"
+msgstr ""
 
 msgid ""
 "2D and 3D version of the NavigationServer are available as :ref:"
@@ -50,9 +49,8 @@ msgid ""
 "node in the scene tree has a function that returns the RID for this node."
 msgstr ""
 
-#, fuzzy
 msgid "Threading and Synchronization"
-msgstr "Animasyon Ağacı oluşturmak"
+msgstr ""
 
 msgid ""
 "The NavigationServer does not update every change immediately but waits "
@@ -107,9 +105,8 @@ msgstr ""
 msgid "``map_set_cell_size()``"
 msgstr ""
 
-#, fuzzy
 msgid "``map_set_edge_connection_margin()``"
-msgstr "``connection_failed``"
+msgstr ""
 
 msgid "``region_set_map()``"
 msgstr ""
@@ -216,9 +213,8 @@ msgid ""
 "custom build."
 msgstr ""
 
-#, fuzzy
 msgid "Waiting for synchronization"
-msgstr "Belgelerin yazılması"
+msgstr ""
 
 msgid ""
 "At the start of the game, a new scene or procedural navigation changes any "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5301,11 +5301,10 @@ msgid "Anguilla"
 msgstr ""
 
 msgid "AL"
-msgstr ""
+msgstr "AL"
 
-#, fuzzy
 msgid "Albania"
-msgstr "Albanese"
+msgstr "Albania"
 
 msgid "AM"
 msgstr ""
@@ -5336,11 +5335,10 @@ msgid "Antarctica"
 msgstr "Zucchero sintattico"
 
 msgid "AR"
-msgstr ""
+msgstr "AR"
 
-#, fuzzy
 msgid "Argentina"
-msgstr "Spagnolo (Argentina)"
+msgstr "Argentina"
 
 #, fuzzy
 msgid "AS"
@@ -5350,19 +5348,16 @@ msgid "American Samoa"
 msgstr ""
 
 msgid "AT"
-msgstr ""
+msgstr "AT"
 
-#, fuzzy
 msgid "Austria"
-msgstr "string"
+msgstr "Austria"
 
-#, fuzzy
 msgid "AU"
-msgstr "TAU"
+msgstr "AU"
 
-#, fuzzy
 msgid "Australia"
-msgstr "Inglese (Australia)"
+msgstr "Australia"
 
 msgid "AW"
 msgstr ""
@@ -5419,11 +5414,10 @@ msgid "Burkina Faso"
 msgstr ""
 
 msgid "BG"
-msgstr ""
+msgstr "BG"
 
-#, fuzzy
 msgid "Bulgaria"
-msgstr "Bulgaro"
+msgstr "Bulgaria"
 
 msgid "BH"
 msgstr ""

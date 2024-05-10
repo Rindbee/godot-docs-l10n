@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,9 +37,8 @@ msgid ""
 "concepts apply in 3D as well."
 msgstr ""
 
-#, fuzzy
 msgid "What is a character body?"
-msgstr "Alan nedir?"
+msgstr ""
 
 msgid ""
 "``CharacterBody2D`` is for implementing bodies that are controlled via code. "
@@ -280,9 +279,8 @@ msgid ""
 "See :ref:`doc_2d_movement` for examples of implementing 2D movement schemes."
 msgstr ""
 
-#, fuzzy
 msgid "Attach a script to the CharacterBody2D and add the following code:"
-msgstr "Sahne -> Yeni Sahne 'ye tıklayın, ve aşağıdaki düğümleri ekleyin:"
+msgstr ""
 
 msgid ""
 "Run this scene and you'll see that ``move_and_collide()`` works as expected, "

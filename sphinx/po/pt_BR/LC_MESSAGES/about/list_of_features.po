@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,10 +20,10 @@ msgstr ""
 msgid "List of features"
 msgstr "Lista de funcionalidades"
 
-#, fuzzy
 msgid "This page aims to list **all** features currently supported by Godot."
 msgstr ""
-"Esta página visa listar todos os recursos atualmente suportados pelo Godot."
+"Esta página visa listar **todos** os recursos atualmente suportados pelo "
+"Godot."
 
 #, fuzzy
 msgid ""
@@ -43,6 +43,7 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"Veja :ref:`doc_system_requirements` para requisitos de hardware e software."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr ""
@@ -53,7 +54,7 @@ msgid "Windows (x86, 64-bit and 32-bit)."
 msgstr "Windows 7 e superior (64-bit e 32-bit)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 and ARM, apenas para sistemas de 64-bit)."
 
 #, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
@@ -88,7 +89,7 @@ msgid "**Runs exported projects:**"
 msgstr "**É possível executar apenas projetos exportados em:**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`Consoles <doc_consoles>`."
@@ -135,14 +136,15 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`depurador <doc_debugger_panel>`."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Por enquanto, sem suporte para depuração em threads."
+msgstr "Suporte para depuração em threads está disponível desde a versão 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
 "rendering pipeline."
 msgstr ""
+"Analisador gráfico com indicações de tempo de CPU e GPU para cada passo do "
+"pipeline de renderização."
 
 msgid ""
 "Performance monitoring tools, including :ref:`custom performance monitors "
@@ -459,6 +461,8 @@ msgid ""
 ":ref:`doc_variable_rate_shading` on supported GPUs in Forward+ and Forward "
 "Mobile."
 msgstr ""
+":ref:`doc_variable_rate_shading` em GPU suportadas por Avançado+ e Avançado "
+"Mobile."
 
 msgid "**Physically-based rendering (built-in material features):**"
 msgstr ""
@@ -467,7 +471,6 @@ msgstr ""
 msgid "Follows the Disney PBR model."
 msgstr "Segue o modelo Disney PBR."
 
-#, fuzzy
 msgid ""
 "Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
 "shading modes."
@@ -475,7 +478,6 @@ msgstr ""
 "Suporta os modos de sombreamento difuso Lambert, Lambert Wrap (meio "
 "Lambert), Oren-Nayar e Toon."
 
-#, fuzzy
 msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
 msgstr ""
 "Suporta os modos de sombreamento especular Schlick-GGX, Blinn, Phong, Toon e "
@@ -485,18 +487,16 @@ msgid "Uses a roughness-metallic workflow with support for ORM textures."
 msgstr ""
 "Utiliza o fluxo de trabalho roughness-metallic com suporte para texturas ORM."
 
-#, fuzzy
 msgid ""
 "Uses horizon specular occlusion (Filament model) to improve material "
 "appearance."
 msgstr ""
 "Usa oclusão especular do horizonte (modelo de filamento) para melhorar a "
-"aparência do material"
+"aparência do material."
 
 msgid "Normal mapping."
 msgstr "Mapeamento Normal."
 
-#, fuzzy
 msgid ""
 "Parallax/relief mapping with automatic level of detail based on distance."
 msgstr ""
@@ -510,7 +510,6 @@ msgstr "Mapeamento detalhado para os mapas albedo e normal."
 msgid "Sub-surface scattering and transmittance."
 msgstr "*GLES3:* Espalhamento e transmitância sub-superficiais."
 
-#, fuzzy
 msgid ""
 "Screen-space refraction with support for material roughness (resulting in "
 "blurry refraction)."
@@ -519,11 +518,11 @@ msgstr ""
 "refração borrada). No GLES2, a refração ainda é funcional, mas não tem "
 "suporte para a rugosidade do material."
 
-#, fuzzy
 msgid "Proximity fade (soft particles) and distance fade."
-msgstr "*GLES3:* Desvanecimento de proximidade (partículas suaves)."
+msgstr ""
+"Desvanecimento de proximidade (partículas suaves) e desvanecimento de "
+"distância."
 
-#, fuzzy
 msgid ""
 "Distance fade can use alpha blending or dithering to avoid going through the "
 "transparent pipeline."
@@ -546,11 +545,12 @@ msgstr "Luzes unidirecionais."
 msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "Focos de luz com ajuste de ângulo por cone e atenuação."
 
-#, fuzzy
 msgid ""
 "Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
 "light basis."
-msgstr "A energia especular pode ser ajustada por luz."
+msgstr ""
+"Neblina especular, luz indireta e neblina volumétrica pode ser ajustada por "
+"luz."
 
 msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
@@ -568,12 +568,20 @@ msgid ""
 "Clustered rendering also lifts any limits on the number of lights that can "
 "be used on a mesh."
 msgstr ""
+"Quando usando o backend Avançado( padrão no desktop), luzes são rederizadas "
+"com otimizações futuras agrupadas para diminuir o custo individual de "
+"processamento. A renderização em cluster também elimina quaisquer limites no "
+"número de luzes que podem ser usadas em uma malha."
 
+#, fuzzy
 msgid ""
 "When using the Forward Mobile backend, up to 8 omni lights and 8 spot lights "
 "can be displayed per mesh resource. Baked lighting can be used to overcome "
 "this limit if needed."
 msgstr ""
+"Quando usando o backend Mobile, até 8 omni luzes e 8 spot de luz pode ser "
+"mostrados por recursos de mesh. A iluminação gerada pode ser usada para "
+"superar esse limite"
 
 msgid "**Shadow mapping:**"
 msgstr "**Mapeamento de sombras:**"
@@ -592,9 +600,8 @@ msgstr ""
 "*OmniLight:* Paraboloide duplo (rápido) ou mapa do cubo (mais lento, porém "
 "mais preciso ). Suporta texturas de projeção de cores na forma de panoramas."
 
-#, fuzzy
 msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr "*Destaque:* Textura única."
+msgstr "*SpotLight:* Textura única. Suporta projeção de texturas coloridas."
 
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "
@@ -748,6 +755,10 @@ msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
 msgstr "Filtragem mais próxima, bilinear, trilinear ou anisotrópica."
+
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "

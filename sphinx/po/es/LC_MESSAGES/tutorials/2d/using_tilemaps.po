@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -248,9 +248,8 @@ msgstr ""
 msgid "From left to right, the painting modes and tools you can choose are:"
 msgstr "De izquierda a derecha en la barra de herramientas:"
 
-#, fuzzy
 msgid "Selection"
-msgstr "Reflexión"
+msgstr "Selección"
 
 msgid ""
 "Select tiles by clicking a single tile, or by holding down the left mouse "
@@ -286,9 +285,8 @@ msgid ""
 "`Escape` to cancel pasting."
 msgstr ""
 
-#, fuzzy
 msgid "Paint"
-msgstr "Dibujar Tile"
+msgstr "Pintar"
 
 msgid ""
 "The standard Paint mode allows you to place tiles by clicking or holding "
@@ -351,9 +349,8 @@ msgid ""
 "Using the line tool after selecting two tiles to draw platforms diagonally"
 msgstr ""
 
-#, fuzzy
 msgid "Rectangle"
-msgstr "Arcotangente"
+msgstr "Rectángulo"
 
 msgid ""
 "After selecting Rectangle Paint mode, you can draw in an axis-aligned "
@@ -411,9 +408,8 @@ msgstr ""
 msgid "Using the Bucket Fill tool"
 msgstr "Usando SurfaceTool"
 
-#, fuzzy
 msgid "Picker"
-msgstr "ColorPicker"
+msgstr "Selector"
 
 msgid ""
 "After selecting Picker mode, you can pick existing tiles in the 2D editor by "
@@ -428,9 +424,8 @@ msgid ""
 "`Ctrl` then clicking or dragging the mouse."
 msgstr ""
 
-#, fuzzy
 msgid "Eraser"
-msgstr "Phaser"
+msgstr "Borrador"
 
 msgid ""
 "This mode is combined with any other painting mode (Paint, Line, Rectangle, "
@@ -605,4 +600,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

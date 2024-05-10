@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,9 +304,8 @@ msgstr ""
 msgid "Line 2."
 msgstr ""
 
-#, fuzzy
 msgid "``[b]`` ``[/b]``"
-msgstr "``<<`` ``>>``"
+msgstr "``[b]`` ``[/b]``"
 
 msgid "Bold"
 msgstr "Жирный"
@@ -317,9 +316,8 @@ msgstr ""
 msgid "Some **bold** text."
 msgstr ""
 
-#, fuzzy
 msgid "``[i]`` ``[/i]``"
-msgstr "``<<`` ``>>``"
+msgstr "``[i]`` ``[/i]``"
 
 msgid "Italic"
 msgstr "Italic"
@@ -337,9 +335,8 @@ msgstr ""
 msgid "Keyboard/mouse shortcut"
 msgstr "Сочетание клавиш"
 
-#, fuzzy
 msgid "``Some [kbd]Ctrl + C[/kbd] key.``"
-msgstr "Некоторые :kbd:`Ctrl + C` key."
+msgstr "``Некоторые [kbd]Ctrl + C[/kbd] клавиши.``"
 
 msgid "Some :kbd:`Ctrl + C` key."
 msgstr "Некоторые :kbd:`Ctrl + C` key."
@@ -375,9 +372,8 @@ msgstr ""
 msgid "Codeblock for multiple languages"
 msgstr ""
 
-#, fuzzy
 msgid "``[gdscript]`` ``[/gdscript]``"
-msgstr "/ [gdscript] [/gdscript]"
+msgstr "``[gdscript]`` ``[/gdscript]``"
 
 msgid "GDScript codeblock tab in codeblocks"
 msgstr ""

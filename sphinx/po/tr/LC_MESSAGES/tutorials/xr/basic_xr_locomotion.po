@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Basic XR Locomotion"
-msgstr "Kök hareket"
+msgstr ""
 
 msgid ""
 "For basic locomotion we're going to continue using our Godot XR Tools "
@@ -27,9 +26,8 @@ msgid ""
 "features."
 msgstr ""
 
-#, fuzzy
 msgid "Adding our player body"
-msgstr "Oyuncuyu Kodlamak"
+msgstr ""
 
 msgid ""
 "The first step we need to do is to add a helper node to our :ref:`XROrigin3D "
@@ -47,9 +45,8 @@ msgid ""
 "godot-xr-tools/player/player_body.tscn`` and add this node."
 msgstr ""
 
-#, fuzzy
 msgid "Adding a floor"
-msgstr "Bir kamera eklemek"
+msgstr ""
 
 msgid ""
 "This node governs the in game movement of your character and will "
@@ -77,9 +74,8 @@ msgid ""
 "generator>`_."
 msgstr ""
 
-#, fuzzy
 msgid "Direct movement"
-msgstr "Yön"
+msgstr ""
 
 msgid ""
 "We're going to start adding some basic direct movement to our setup. This "
@@ -150,11 +146,10 @@ msgid ""
 "orientation by using the left hand controllers joystick."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "If you've followed all instructions correctly your scene should now look "
 "something like this:"
-msgstr "Şimdi sahneniz bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid "More advanced movement features"
 msgstr ""

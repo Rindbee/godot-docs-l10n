@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Setting up XR"
-msgstr "Ayar"
+msgstr ""
 
-#, fuzzy
 msgid "Introduction to the XR system in Godot"
-msgstr "Godot 'ya Giriş"
+msgstr ""
 
 msgid ""
 "Godot provides a modular XR system that abstracts many of the different XR "
@@ -129,9 +127,8 @@ msgid ""
 "renderer for now due to it having the best XR performance."
 msgstr ""
 
-#, fuzzy
 msgid "OpenXR"
-msgstr "OpenXR eklentileri"
+msgstr ""
 
 msgid ""
 "OpenXR is a new industry standard that allows different XR platforms to "
@@ -161,9 +158,8 @@ msgid ""
 "go into detail in another section of the documentation."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up the XR scene"
-msgstr "Ana sahneyi ayarlamak"
+msgstr ""
 
 msgid ""
 "Every XR application needs at least an :ref:`XROrigin3D <class_xrorigin3d>` "

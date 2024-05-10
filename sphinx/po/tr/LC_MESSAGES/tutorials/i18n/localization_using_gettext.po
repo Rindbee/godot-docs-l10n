@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,13 +98,11 @@ msgid ""
 "distribution's package manager."
 msgstr ""
 
-#, fuzzy
 msgid "Creating the PO template"
-msgstr "Düşman oluşturmak"
+msgstr ""
 
-#, fuzzy
 msgid "Automatic generation using the editor"
-msgstr "Uzak yöntem çağrılarını (RPC'ler) kullanarak otomatik çoğaltma."
+msgstr ""
 
 msgid ""
 "Since Godot 4.0, the editor can generate a PO template automatically from "
@@ -149,9 +147,8 @@ msgid ""
 "update translations for outdated strings."
 msgstr ""
 
-#, fuzzy
 msgid "Manual creation"
-msgstr "El ayarlı kamera ara değerlemesi"
+msgstr ""
 
 msgid ""
 "If the automatic generation approach doesn't work out for your needs, you "

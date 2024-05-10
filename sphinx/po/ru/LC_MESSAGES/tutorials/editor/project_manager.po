@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,8 @@ msgid ""
 "In the window's top-right corner, a drop-down menu allows you to change the "
 "editor's language."
 msgstr ""
+"В правом верхнем углу окна находится выпадающее меню, позволяющее изменить "
+"язык редактора."
 
 #, fuzzy
 msgid "Creating and importing projects"
@@ -41,7 +43,7 @@ msgstr "Создание нового проекта"
 
 #, fuzzy
 msgid "To create a new project:"
-msgstr "Создайте новый проект."
+msgstr "Создание нового проекта:"
 
 #, fuzzy
 msgid "Click the **New** button on the top-left of the window."
@@ -53,6 +55,8 @@ msgid ""
 "Give the project a name, choose an empty folder on your computer to save the "
 "files, and select a rendering backend."
 msgstr ""
+"Дайте проекту имя, выберите пустую папку на вашем компьютере для сохранения "
+"файлов и выберите бэкенд для рендеринга."
 
 #, fuzzy
 msgid ""
@@ -69,12 +73,17 @@ msgid ""
 "Click the **Browse** button to open Godot's file browser and pick a location "
 "or type the folder's path in the Project Path field."
 msgstr ""
+"Нажмите кнопку **Browse**, чтобы открыть браузер файлов Godot, и выберите "
+"местоположение или введите путь к папке в поле Путь Проекта (Project Path)."
 
 msgid ""
 "When you see the green tick on the right, it means the engine detects an "
 "empty folder. You can also click the **Create Folder** button to create an "
 "empty folder based on your project's name."
 msgstr ""
+"Когда вы увидите зеленую галочку справа, это означает, что движок обнаружил "
+"пустую папку. Вы также можете нажать кнопку **Создать папку**, чтобы создать "
+"пустую папку на основе названия вашего проекта."
 
 #, fuzzy
 msgid "Opening and importing projects"
@@ -84,15 +93,20 @@ msgid ""
 "The next time you open the Project Manager, you'll see your new project in "
 "the list. Double click on it to open it in the editor."
 msgstr ""
+"Когда вы в следующий раз откроете Менеджер проектов, вы увидите в списке "
+"свой новый проект. Дважды щелкните на нем, чтобы открыть его в редакторе."
 
 msgid ""
 "You can similarly import existing projects using the **Import** button. "
 "Locate the folder that contains the project or the **project.godot** file to "
 "import and edit it."
 msgstr ""
+"Аналогичным образом можно импортировать существующие проекты с помощью "
+"кнопки **Импорт**. Найдите папку, содержащую проект или файл **project."
+"godot** для импорта, и отредактируйте его."
 
 msgid "When the folder path is correct, you'll see a green checkmark."
-msgstr ""
+msgstr "Если путь к папке указан правильно, вы увидите зеленую галочку."
 
 #, fuzzy
 msgid "Downloading demos and templates"
@@ -103,12 +117,15 @@ msgid ""
 "templates and demos from the :ref:`Asset Library <doc_what_is_assetlib>` to "
 "help you get started faster."
 msgstr ""
+"На вкладке **Asset Library Projects** вы можете загрузить шаблоны проектов с "
+"открытым исходным кодом и демо-версии из :ref:`Asset Library "
+"<doc_what_is_assetlib>`, чтобы помочь вам быстрее начать работу."
 
 msgid "To download a demo or template:"
-msgstr ""
+msgstr "Чтобы загрузить демо-версию или шаблон:"
 
 msgid "Click on its title."
-msgstr ""
+msgstr "Щелкните на название."
 
 #, fuzzy
 msgid "On the page that opens, click the download button."
@@ -118,6 +135,8 @@ msgid ""
 "Once it finished downloading, click install and choose where you want to "
 "save the project."
 msgstr ""
+"После завершения загрузки нажмите кнопку \"Установить\" и выберите место, "
+"где вы хотите сохранить проект."
 
 msgid "Translation status"
 msgstr "Статус перевода"

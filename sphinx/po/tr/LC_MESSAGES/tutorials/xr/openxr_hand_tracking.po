@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "The OpenXR hand tracking"
-msgstr "Düğüm-tabanlı el izleme"
+msgstr ""
 
 msgid ""
 "Hand tracking is the process by which the position and orientation of the "
@@ -152,9 +151,8 @@ msgstr ""
 msgid "Left hand"
 msgstr ""
 
-#, fuzzy
 msgid "Right hand"
-msgstr "Işık Pişirme"
+msgstr ""
 
 msgid "Palm_L"
 msgstr ""
@@ -216,13 +214,11 @@ msgstr ""
 msgid "Index_Distal_R"
 msgstr ""
 
-#, fuzzy
 msgid "Index_Tip_L"
-msgstr "Indeks"
+msgstr ""
 
-#, fuzzy
 msgid "Index_Tip_R"
-msgstr "Indeks"
+msgstr ""
 
 msgid "Middle_Metacarpal_L"
 msgstr ""
@@ -358,9 +354,8 @@ msgid ""
 "action map. Each tracker is assigned a usage within the SteamVR interface."
 msgstr ""
 
-#, fuzzy
 msgid "These are exposed through the following trackers:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
 msgid "HTC trackers"
 msgstr ""

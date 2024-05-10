@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,9 +26,8 @@ msgid ""
 "attention to when migrating your project."
 msgstr ""
 
-#, fuzzy
 msgid "Breaking changes"
-msgstr "Değişikliklere katkı yapmak"
+msgstr ""
 
 msgid ""
 "If you are migrating from 4.0 to 4.1, the breaking changes listed here might "
@@ -62,9 +61,8 @@ msgstr ""
 msgid "Change"
 msgstr "Değiştir"
 
-#, fuzzy
 msgid "GDScript Compatible"
-msgstr "GDScript biçim dizeleri"
+msgstr ""
 
 msgid "C# Binary Compatible"
 msgstr ""
@@ -72,13 +70,11 @@ msgstr ""
 msgid "C# Source Compatible"
 msgstr ""
 
-#, fuzzy
 msgid "Introduced"
-msgstr "Giriş"
+msgstr ""
 
-#, fuzzy
 msgid "**Basis**"
-msgstr "Temel"
+msgstr ""
 
 msgid "Method ``looking_at`` adds a new ``use_model_front`` optional parameter"
 msgstr ""
@@ -89,9 +85,8 @@ msgstr ""
 msgid "`GH-76082`_"
 msgstr ""
 
-#, fuzzy
 msgid "**Object**"
-msgstr "Nesne"
+msgstr ""
 
 msgid ""
 "Method ``get_meta_list`` changes return type from ``PackedStringArray`` to "
@@ -104,9 +99,8 @@ msgstr ""
 msgid "`GH-76418`_"
 msgstr ""
 
-#, fuzzy
 msgid "**Transform3D**"
-msgstr "**Transform2D**"
+msgstr ""
 
 msgid "**UndoRedo**"
 msgstr ""
@@ -135,9 +129,8 @@ msgstr ""
 msgid "Animation"
 msgstr "Animasyon"
 
-#, fuzzy
 msgid "**AnimationNode**"
-msgstr "Animasyon Kipi"
+msgstr ""
 
 msgid "Method ``_process`` adds a new ``test_only`` parameter"
 msgstr ""
@@ -159,9 +152,8 @@ msgid ""
 "``Array[StringName]``"
 msgstr ""
 
-#, fuzzy
 msgid "2D nodes"
-msgstr "Düğümler"
+msgstr ""
 
 msgid "**PathFollow2D**"
 msgstr ""
@@ -172,22 +164,19 @@ msgstr ""
 msgid "`GH-72842`_"
 msgstr ""
 
-#, fuzzy
 msgid "3D nodes"
-msgstr "Düğümler"
+msgstr ""
 
-#, fuzzy
 msgid "**Geometry3D**"
-msgstr "**Genel:**"
+msgstr ""
 
 msgid ""
 "Method ``segment_intersects_convex`` changes ``planes`` parameter type from "
 "untyped ``Array`` to ``Array[Plane]``"
 msgstr ""
 
-#, fuzzy
 msgid "**MeshInstance3D**"
-msgstr "**Sabit**"
+msgstr ""
 
 msgid ""
 "Method ``create_multiple_convex_collisions`` adds a new ``settings`` "
@@ -197,9 +186,8 @@ msgstr ""
 msgid "`GH-72152`_"
 msgstr ""
 
-#, fuzzy
 msgid "**Node3D**"
-msgstr "**Düğümler:**"
+msgstr ""
 
 msgid "Method ``look_at`` adds a new ``use_model_front`` optional parameter"
 msgstr ""
@@ -209,9 +197,8 @@ msgid ""
 "parameter"
 msgstr ""
 
-#, fuzzy
 msgid "GUI nodes"
-msgstr "Düğümleri almak"
+msgstr ""
 
 msgid "**CodeEdit**"
 msgstr ""
@@ -259,9 +246,8 @@ msgstr ""
 msgid "Physics"
 msgstr "Fizik"
 
-#, fuzzy
 msgid "**Area2D**"
-msgstr "**Transform2D**"
+msgstr ""
 
 msgid "Property ``priority`` changes type from ``float`` to ``int``"
 msgstr ""
@@ -302,18 +288,16 @@ msgid ""
 "to ``Array[StringName]``"
 msgstr ""
 
-#, fuzzy
 msgid "**RenderingDevice**"
-msgstr "İşleme"
+msgstr ""
 
 msgid ""
 "Method ``draw_list_begin`` changes ``storage_textures`` parameter type from "
 "untyped ``Array`` to ``Array[RID]``"
 msgstr ""
 
-#, fuzzy
 msgid "**RenderingServer**"
-msgstr "**Sunucu**"
+msgstr ""
 
 msgid ""
 "Method ``global_shader_parameter_get_list`` changes return type from "
@@ -331,9 +315,8 @@ msgstr ""
 msgid "Navigation"
 msgstr "Gezinti"
 
-#, fuzzy
 msgid "**NavigationAgent2D**"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid "Method ``set_velocity`` replaced with ``velocity`` property"
 msgstr ""
@@ -346,9 +329,8 @@ msgid ""
 "``time_horizon_obstacles``"
 msgstr ""
 
-#, fuzzy
 msgid "**NavigationAgent3D**"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid "Property ``agent_height_offset`` renamed to ``path_height_offset``"
 msgstr ""
@@ -356,9 +338,8 @@ msgstr ""
 msgid "Property ``ignore_y`` removed"
 msgstr ""
 
-#, fuzzy
 msgid "**NavigationObstacle2D**"
-msgstr "Gezinti Engeli, NavigationObstacle3D"
+msgstr ""
 
 msgid "Property ``estimate_radius`` removed"
 msgstr ""
@@ -366,13 +347,11 @@ msgstr ""
 msgid "Method ``get_rid`` renamed to ``get_agent_rid``"
 msgstr ""
 
-#, fuzzy
 msgid "**NavigationObstacle3D**"
-msgstr "Gezinti Engeli, NavigationObstacle3D"
+msgstr ""
 
-#, fuzzy
 msgid "**NavigationServer2D**"
-msgstr "NavigationMeshes"
+msgstr ""
 
 msgid ""
 "Method ``agent_set_callback`` renamed to ``agent_set_avoidance_callback``"
@@ -386,9 +365,8 @@ msgid ""
 "``agent_set_time_horizon_agents`` and ``agent_set_time_horizon_obstacles``"
 msgstr ""
 
-#, fuzzy
 msgid "**NavigationServer3D**"
-msgstr "NavigationMeshes"
+msgstr ""
 
 msgid "Networking"
 msgstr "Ağ oluşturma"
@@ -407,20 +385,17 @@ msgstr ""
 msgid "Editor plugins"
 msgstr ""
 
-#, fuzzy
 msgid "**AnimationTrackEditPlugin**"
-msgstr "Animasyon İzi Düzenleyicisi"
+msgstr ""
 
-#, fuzzy
 msgid "Type ``AnimationTrackEditPlugin`` removed"
-msgstr "Animasyon İzi Düzenleyicisi"
+msgstr ""
 
 msgid "`GH-76413`_"
 msgstr ""
 
-#, fuzzy
 msgid "**EditorInterface**"
-msgstr "**düzenleyici**"
+msgstr ""
 
 msgid ""
 "Type ``EditorInterface`` changes inheritance from ``Node`` to ``Object``"
@@ -480,9 +455,8 @@ msgid ""
 "`GH-79128`_ for details."
 msgstr ""
 
-#, fuzzy
 msgid "**Viewport**"
-msgstr "Çerçeveler"
+msgstr ""
 
 msgid ""
 "``Viewport`` nodes, that have Physics Picking enabled, now automatically set "
@@ -511,16 +485,14 @@ msgid ""
 "to their source code."
 msgstr ""
 
-#, fuzzy
 msgid "In Godot 4.0, your \"entry_symbol\" function looks something like this:"
-msgstr "Şimdi sahneniz bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid "However, for Godot 4.1, it should look like:"
 msgstr ""
 
-#, fuzzy
 msgid "There are two small changes:"
-msgstr "Bunu yapmanın iki yolu var:"
+msgstr ""
 
 msgid ""
 "The first argument changes from ``const GDExtensionInterface *p_interface`` "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,9 +85,8 @@ msgid ""
 "limitation of the system."
 msgstr ""
 
-#, fuzzy
 msgid "The default action map"
-msgstr "Yüzme animasyonu"
+msgstr ""
 
 msgid ""
 "Godot will automatically create a default action map if no action map file "
@@ -111,9 +110,8 @@ msgid ""
 "remove the controllers that you do not wish to setup, more on this later."
 msgstr ""
 
-#, fuzzy
 msgid "Action sets"
-msgstr "Eylem ismi"
+msgstr ""
 
 msgid ""
 "Before we dive in, you will see the term XR runtime used throughout this "
@@ -195,13 +193,11 @@ msgid ""
 "set`` button:"
 msgstr ""
 
-#, fuzzy
 msgid "The columns in our table are as follows:"
-msgstr "Bu metnin tamamı şöyledir:"
+msgstr ""
 
-#, fuzzy
 msgid "Col"
-msgstr "Renk"
+msgstr ""
 
 msgid "Value"
 msgstr "Değer"
@@ -342,9 +338,8 @@ msgstr ""
 msgid "Pose"
 msgstr ""
 
-#, fuzzy
 msgid "The type of this action."
-msgstr "Tema tür değişimleri"
+msgstr ""
 
 msgid ""
 "OpenXR defines a number of bindable input poses that are commonly available "
@@ -353,7 +348,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The aim pose on most controllers is positioned slightly infront of the "
+"The aim pose on most controllers is positioned slightly in front of the "
 "controller and aims forward. This is a great pose to use for laser pointers "
 "or to align the muzzle of a weapon with."
 msgstr ""
@@ -461,9 +456,8 @@ msgstr ""
 msgid "Now that we have our basic actions defined, it's time to hook them up."
 msgstr ""
 
-#, fuzzy
 msgid "Profiles"
-msgstr "Profil çıkarıcılar"
+msgstr ""
 
 msgid ""
 "In OpenXR controller bindings are captured in so-called \"Interaction "

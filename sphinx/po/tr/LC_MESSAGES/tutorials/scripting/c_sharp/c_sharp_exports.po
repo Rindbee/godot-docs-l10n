@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "C# exported properties"
-msgstr "**Dışa aktarılan projeleri çalıştırır:**"
+msgstr ""
 
 msgid ""
 "In Godot, class members can be exported. This means their value gets saved "
@@ -50,9 +49,8 @@ msgid ""
 "see :ref:`doc_gdscript_exports`."
 msgstr ""
 
-#, fuzzy
 msgid "Basic use"
-msgstr "Temel"
+msgstr ""
 
 msgid "Exporting can work with fields and properties."
 msgstr ""
@@ -66,9 +64,8 @@ msgstr ""
 msgid "Resources and nodes can be exported."
 msgstr ""
 
-#, fuzzy
 msgid "Grouping exports"
-msgstr "GDScript dışa aktarmaları"
+msgstr ""
 
 msgid ""
 "It is possible to group your exported properties inside the Inspector with "
@@ -98,9 +95,8 @@ msgid ""
 "creating projects for public use."
 msgstr ""
 
-#, fuzzy
 msgid "Strings as paths"
-msgstr "Dize uzunluğu"
+msgstr ""
 
 msgid "Property hints can be used to export strings as paths"
 msgstr ""
@@ -130,9 +126,8 @@ msgid ""
 "editing over multiple lines."
 msgstr ""
 
-#, fuzzy
 msgid "Limiting editor input ranges"
-msgstr "Var olan sayfaları düzenlemek"
+msgstr ""
 
 msgid ""
 "Using the range property hint allows you to limit what can be input as a "
@@ -160,9 +155,8 @@ msgstr ""
 msgid "Display a visual representation of the 'ease()' function when editing."
 msgstr ""
 
-#, fuzzy
 msgid "Colors"
-msgstr "Renk"
+msgstr ""
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr ""
@@ -254,9 +248,8 @@ msgid ""
 "doubt, use boolean variables instead."
 msgstr ""
 
-#, fuzzy
 msgid "Exporting enums"
-msgstr "Dışa Aktarım"
+msgstr ""
 
 msgid ""
 "Members whose type is an enum can be exported and their values are limited "
@@ -280,9 +273,8 @@ msgstr ""
 msgid "If you want to set an initial value, you must specify it explicitly:"
 msgstr ""
 
-#, fuzzy
 msgid "Exporting collections"
-msgstr "Windows için dışa aktarmak"
+msgstr ""
 
 msgid ""
 "As explained in the :ref:`C# Variant <doc_c_sharp_variant>` documentation, "
@@ -291,9 +283,8 @@ msgid ""
 "can be exported."
 msgstr ""
 
-#, fuzzy
 msgid "Exporting Godot arrays"
-msgstr "Windows için dışa aktarmak"
+msgstr ""
 
 msgid ""
 "Using the generic ``Godot.Collections.Array<T>`` allows to specify the type "
@@ -311,9 +302,8 @@ msgid ""
 "and-dropping multiple files from the FileSystem dock."
 msgstr ""
 
-#, fuzzy
 msgid "Exporting Godot dictionaries"
-msgstr "Windows için dışa aktarmak"
+msgstr ""
 
 msgid ""
 "Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows to "
@@ -331,9 +321,8 @@ msgid ""
 "specified:"
 msgstr ""
 
-#, fuzzy
 msgid "Exporting C# arrays"
-msgstr "Dışa Aktarım"
+msgstr ""
 
 msgid ""
 "C# arrays can exported as long as the element type is a :ref:`Variant-"

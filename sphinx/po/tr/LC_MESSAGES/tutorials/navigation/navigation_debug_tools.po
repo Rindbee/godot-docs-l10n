@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Navigation debug tools"
-msgstr "Gezinti Kipi"
+msgstr ""
 
 msgid ""
 "The debug tools, properties and functions are only available in Godot debug "
 "builds. Do not use any of them in code that will be part of a release build."
 msgstr ""
 
-#, fuzzy
 msgid "Enabling navigation debug"
-msgstr "Görünür Gezinti"
+msgstr ""
 
 msgid ""
 "The navigation debug visualizations are enabled by default inside the "
@@ -41,9 +39,8 @@ msgid ""
 "NavigationServer singletons from scripts."
 msgstr ""
 
-#, fuzzy
 msgid "Navigation debug settings"
-msgstr "Gezinti Kipi"
+msgstr ""
 
 msgid ""
 "The appearance of navigation debug can be changed in the ProjectSettings "
@@ -66,9 +63,8 @@ msgid ""
 "with the color specified in ``geometry_face_color``."
 msgstr ""
 
-#, fuzzy
 msgid "Debug edge connections"
-msgstr "Hata ayıklama menüsü seçenekleri"
+msgstr ""
 
 msgid ""
 "When two navigation meshes are connected within ``edge_connection_margin`` "
@@ -80,9 +76,8 @@ msgstr ""
 msgid "Edge connections are only visible when the NavigationServer is active."
 msgstr ""
 
-#, fuzzy
 msgid "Debug performance"
-msgstr "**Performans:**"
+msgstr ""
 
 msgid ""
 "To measure NavigationServer performance a dedicated monitor exists that can "

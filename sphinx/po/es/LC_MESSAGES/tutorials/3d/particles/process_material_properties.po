@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The ``Daming as Friction`` property changes the behavior of damping from a "
+"The ``Damping as Friction`` property changes the behavior of damping from a "
 "constant deceleration to a deceleration based on speed."
 msgstr ""
 
@@ -312,9 +312,8 @@ msgstr ""
 msgid "Tangential acceleration"
 msgstr "Tangential Acceleration (Aceleración Tangencial)"
 
-#, fuzzy
 msgid "Tangents on a circle"
-msgstr "Tangente en coordenadas locales."
+msgstr "Tangentes en un círculo"
 
 msgid ""
 "This property adds particle acceleration in the direction of the tangent to "
@@ -399,9 +398,8 @@ msgid ""
 "own ``Color`` or ``Texture`` property."
 msgstr ""
 
-#, fuzzy
 msgid "Particle color ramp"
-msgstr "Transformación de partícula."
+msgstr "Cambio de color de partículas"
 
 #, fuzzy
 msgid "Setting up a color ramp"
@@ -558,9 +556,8 @@ msgid ""
 "something like ``3`` to reach an acceptable framerate."
 msgstr ""
 
-#, fuzzy
 msgid "Animated particles lifetimes"
-msgstr "La vida de las partículas."
+msgstr "Vida de partículas animadas"
 
 msgid ""
 "The same particle system at different lifetimes: 1 second (left), 2 seconds "
@@ -659,4 +656,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

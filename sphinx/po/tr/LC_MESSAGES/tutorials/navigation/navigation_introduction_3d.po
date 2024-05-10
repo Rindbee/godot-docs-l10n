@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D navigation overview"
-msgstr "Gezinti Kipi"
+msgstr ""
 
 msgid ""
 "Godot provides multiple objects, classes and servers to facilitate grid-"
@@ -31,9 +30,8 @@ msgstr ""
 msgid "Godot provides the following objects and classes for 3D navigation:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Astar3D<class_Astar3D>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "``Astar3D`` objects provide an option to find the shortest path in a graph "
@@ -46,9 +44,8 @@ msgid ""
 "predefined, distinct positions."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`NavigationServer3D<class_NavigationServer3D>`"
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "``NavigationServer3D`` provides a powerful server API to find the shortest "
@@ -107,9 +104,8 @@ msgid ""
 "radius value."
 msgstr ""
 
-#, fuzzy
 msgid "NavObstacle RID"
-msgstr "Gezinti Engeli, NavigationObstacle3D"
+msgstr ""
 
 msgid ""
 "Reference to a specific avoidance obstacle used to affect and constrain the "
@@ -121,9 +117,8 @@ msgid ""
 "NavigationServer3D API."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`NavigationRegion3D<class_NavigationRegion3D>` Node"
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "A Node that holds a Navigation Mesh resource that defines a navigation mesh "
@@ -143,9 +138,8 @@ msgid ""
 "proximity for a combined navigation mesh."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`NavigationLink3D<class_NavigationLink3D>` Node"
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "A Node that connects two positions on navigation meshes over arbitrary "
@@ -163,9 +157,8 @@ msgid ""
 "actual agent handling and movement needs to happen in custom scripts."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`NavigationAgent3D<class_NavigationAgent3D>` Node"
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "A helper Node used to facilitate common NavigationServer3D API calls for "
@@ -173,9 +166,8 @@ msgid ""
 "Node."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`NavigationObstacle3D<class_NavigationObstacle3D>` Node"
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "A Node that can be used to affect and constrain the avoidance velocity of "
@@ -183,13 +175,11 @@ msgid ""
 "agents. You need to change the navigation meshes for that instead."
 msgstr ""
 
-#, fuzzy
 msgid "The 3D navigation meshes are defined with the following resources:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`NavigationMesh<class_NavigationMesh>` Resource"
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "A resource that holds 3D navigation mesh data. It provides 3D geometry "
@@ -211,15 +201,11 @@ msgid ""
 "defined for each grid cell."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can see how 3D navigation works in action using the `3D Navigation demo "
 "project <https://github.com/godotengine/godot-demo-projects/tree/master/3d/"
 "navigation>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Setup for 3D scene"
 msgstr ""

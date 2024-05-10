@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,13 +31,10 @@ msgstr ""
 msgid "Advantages of upgrading"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Along with the `new features present in 4.0 <https://github.com/godotengine/"
 "godot/blob/master/CHANGELOG.md>`__, upgrading gives the following advantages:"
 msgstr ""
-"`Belgeler deposu (github) <https://github.com/godotengine/godot-docs>`__ "
-"'nda, şu etiketleri kullanıyoruz:"
 
 msgid ""
 "Many bugs are fixed in 4.0, but cannot be resolved in 3.x for various "
@@ -188,16 +185,14 @@ msgid ""
 "folder to another location."
 msgstr ""
 
-#, fuzzy
 msgid "Using the Project Manager"
-msgstr "Proje yöneticisi"
+msgstr ""
 
 msgid "To use the project upgrade tool:"
 msgstr ""
 
-#, fuzzy
 msgid "Open the Godot 4 Project Manager."
-msgstr "Proje yöneticisi"
+msgstr ""
 
 msgid ""
 "Import the Godot 3.x project using the **Import** button, or use the "
@@ -234,9 +229,8 @@ msgid ""
 "will allow you to override the converter's size limits."
 msgstr ""
 
-#, fuzzy
 msgid "Using the command line"
-msgstr "Ana sahneyi ayarlamak"
+msgstr ""
 
 msgid ""
 "To use the project upgrade tool from the :ref:`command line "
@@ -286,9 +280,8 @@ msgid ""
 "remains manual."
 msgstr ""
 
-#, fuzzy
 msgid "Automatically renamed nodes and resources"
-msgstr "Öğreticiler ve kaynaklar"
+msgstr ""
 
 msgid ""
 "The list below refers to nodes which were simply renamed for consistency or "
@@ -314,28 +307,23 @@ msgstr ""
 msgid "New name (Godot 4)"
 msgstr ""
 
-#, fuzzy
 msgid "AnimatedSprite"
-msgstr "AnimatedSprite ile grafik öğe kağıdı"
+msgstr ""
 
 msgid "AnimatedSprite2D"
 msgstr ""
 
-#, fuzzy
 msgid "ARVRCamera"
-msgstr "Kamera"
+msgstr ""
 
-#, fuzzy
 msgid "XRCamera3D"
-msgstr "Kamera"
+msgstr ""
 
-#, fuzzy
 msgid "ARVRController"
-msgstr "Control"
+msgstr ""
 
-#, fuzzy
 msgid "XRController3D"
-msgstr "Control"
+msgstr ""
 
 msgid "ARVRAnchor"
 msgstr ""
@@ -361,32 +349,26 @@ msgstr ""
 msgid "XRPositionalTracker"
 msgstr ""
 
-#, fuzzy
 msgid "ARVRServer"
-msgstr "**Sunucu**"
+msgstr ""
 
-#, fuzzy
 msgid "XRServer"
-msgstr "**Sunucu**"
+msgstr ""
 
-#, fuzzy
 msgid "CubeMesh"
-msgstr "Örgü"
+msgstr ""
 
-#, fuzzy
 msgid "BoxMesh"
-msgstr "Örgü"
+msgstr ""
 
-#, fuzzy
 msgid "EditorSpatialGizmo"
-msgstr "Düzenleyici verisi"
+msgstr ""
 
 msgid "EditorNode3DGizmo"
 msgstr ""
 
-#, fuzzy
 msgid "EditorSpatialGizmoPlugin"
-msgstr ":ref:`doc_spatial_gizmo_plugins`"
+msgstr ""
 
 msgid "EditorNode3DGizmoPlugin"
 msgstr ""
@@ -403,17 +385,14 @@ msgstr ""
 msgid "VoxelGIData"
 msgstr ""
 
-#, fuzzy
 msgid "GradientTexture"
-msgstr "Dokuları okumak"
+msgstr ""
 
-#, fuzzy
 msgid "GradientTexture1D"
-msgstr "Dokuları okumak"
+msgstr ""
 
-#, fuzzy
 msgid "KinematicBody"
-msgstr "Kinematik cisimler."
+msgstr ""
 
 msgid "CharacterBody3D"
 msgstr ""
@@ -424,13 +403,11 @@ msgstr ""
 msgid "CharacterBody2D"
 msgstr ""
 
-#, fuzzy
 msgid "Light2D"
-msgstr "Işıklar"
+msgstr ""
 
-#, fuzzy
 msgid "PointLight2D"
-msgstr "Ortamsal Işık"
+msgstr ""
 
 msgid "LineShape2D"
 msgstr ""
@@ -444,29 +421,23 @@ msgstr ""
 msgid "AudioListener3D"
 msgstr ""
 
-#, fuzzy
 msgid "NavigationMeshInstance"
-msgstr "NavigationMeshes"
+msgstr ""
 
-#, fuzzy
 msgid "NavigationRegion3D"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
-#, fuzzy
 msgid "NavigationPolygonInstance"
-msgstr "Gezinti Engeli, NavigationObstacle3D"
+msgstr ""
 
-#, fuzzy
 msgid "NavigationRegion2D"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
-#, fuzzy
 msgid "Navigation2DServer"
-msgstr "Gezinti"
+msgstr ""
 
-#, fuzzy
 msgid "NavigationServer2D"
-msgstr "Gezinti"
+msgstr ""
 
 msgid "PanoramaSky"
 msgstr ""
@@ -477,24 +448,20 @@ msgstr ""
 msgid "Particles"
 msgstr "Parçacıklar"
 
-#, fuzzy
 msgid "GPUParticles3D"
-msgstr "Parçacıklar"
+msgstr ""
 
-#, fuzzy
 msgid "Particles2D"
-msgstr "Parçacıklar"
+msgstr ""
 
-#, fuzzy
 msgid "GPUParticles2D"
-msgstr "Parçacıklar"
+msgstr ""
 
 msgid "ParticlesMaterial"
 msgstr ""
 
-#, fuzzy
 msgid "ParticleProcessMaterial"
-msgstr "Uzaysal Malzeme"
+msgstr ""
 
 msgid "Physics2DDirectBodyState"
 msgstr ""
@@ -508,13 +475,11 @@ msgstr ""
 msgid "PhysicsDirectSpaceState2D"
 msgstr ""
 
-#, fuzzy
 msgid "Physics2DServer"
-msgstr "Fizik"
+msgstr ""
 
-#, fuzzy
 msgid "PhysicsServer2D"
-msgstr "Fizik"
+msgstr ""
 
 msgid "Physics2DShapeQueryParameters"
 msgstr ""
@@ -528,41 +493,35 @@ msgstr ""
 msgid "PhysicsTestMotionResult2D"
 msgstr ""
 
-#, fuzzy
 msgid "PlaneShape"
-msgstr "Düzlem"
+msgstr ""
 
 msgid "WorldBoundaryShape3D"
 msgstr ""
 
-#, fuzzy
 msgid "Position2D"
-msgstr "gl_Position"
+msgstr ""
 
 msgid "Marker2D"
 msgstr ""
 
-#, fuzzy
 msgid "Position3D"
-msgstr "gl_Position"
+msgstr ""
 
 msgid "Marker3D"
 msgstr ""
 
-#, fuzzy
 msgid "ProceduralSky"
-msgstr "Yöntemsel gökyüzü."
+msgstr ""
 
-#, fuzzy
 msgid "RayShape"
-msgstr "Şekiller"
+msgstr ""
 
 msgid "SeparationRayShape3D"
 msgstr ""
 
-#, fuzzy
 msgid "RayShape2D"
-msgstr "Şekiller"
+msgstr ""
 
 msgid "SeparationRayShape2D"
 msgstr ""
@@ -576,24 +535,20 @@ msgstr ""
 msgid "Spatial"
 msgstr ""
 
-#, fuzzy
 msgid "Node3D"
-msgstr "Düğümler"
+msgstr ""
 
-#, fuzzy
 msgid "SpatialGizmo"
-msgstr "partial"
+msgstr ""
 
 msgid "Node3DGizmo"
 msgstr ""
 
-#, fuzzy
 msgid "SpatialMaterial"
-msgstr "Uzaysal Malzeme"
+msgstr ""
 
-#, fuzzy
 msgid "StandardMaterial3D"
-msgstr "Uzaysal Malzeme"
+msgstr ""
 
 msgid "Sprite"
 msgstr ""
@@ -601,23 +556,20 @@ msgstr ""
 msgid "Sprite2D"
 msgstr ""
 
-#, fuzzy
 msgid "StreamTexture"
-msgstr "Doku"
+msgstr ""
 
 msgid "CompressedTexture2D"
 msgstr ""
 
-#, fuzzy
 msgid "TextureProgress"
-msgstr "Doku"
+msgstr ""
 
 msgid "TextureProgressBar"
 msgstr ""
 
-#, fuzzy
 msgid "VideoPlayer"
-msgstr "Oynatıcıyı (VideoPlayer) Ayarlamak"
+msgstr ""
 
 msgid "VideoStreamPlayer"
 msgstr ""
@@ -628,105 +580,83 @@ msgstr ""
 msgid "SubViewportContainer"
 msgstr ""
 
-#, fuzzy
 msgid "Viewport"
-msgstr "Çerçeveler"
+msgstr ""
 
-#, fuzzy
 msgid "SubViewport"
-msgstr "Çerçeveler"
+msgstr ""
 
-#, fuzzy
 msgid "VisibilityEnabler"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
 msgid "VisibleOnScreenEnabler3D"
 msgstr ""
 
-#, fuzzy
 msgid "VisibilityNotifier"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
 msgid "VisibleOnScreenNotifier3D"
 msgstr ""
 
-#, fuzzy
 msgid "VisibilityNotifier2D"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
 msgid "VisibleOnScreenNotifier2D"
 msgstr ""
 
-#, fuzzy
 msgid "VisibilityNotifier3D"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
-#, fuzzy
 msgid "VisualServer"
-msgstr "VisualScript"
+msgstr ""
 
-#, fuzzy
 msgid "RenderingServer"
-msgstr "İşleme"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarConstant"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeFloatConstant"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarFunc"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeFloatFunc"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarOp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeFloatOp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarClamp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeClamp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeVectorClamp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarInterp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeMix"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeVectorInterp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeVectorScalarMix"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeScalarSmoothStep"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeSmoothStep"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeVectorSmoothStep"
 msgstr ""
@@ -737,68 +667,56 @@ msgstr ""
 msgid "VisualShaderNodeVectorScalarStep"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeStep"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarSwitch"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeSwitch"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeScalarTransformMult"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeTransformOp"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeScalarDerivativeFunc"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeDerivativeFunc"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeVectorDerivativeFunc"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeBooleanUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeBooleanParameter"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeColorUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeColorParameter"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeScalarUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeFloatParameter"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeCubeMapUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeCubeMapParameter"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeTextureUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid "VisualShaderNodeTexture2DParameter"
 msgstr ""
@@ -809,43 +727,32 @@ msgstr ""
 msgid "VisualShaderNodeTextureParameterTriplanar"
 msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeTransformUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeTransformParameter"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeVec3Uniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeVec3Parameter"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeUniform"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeParameter"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeUniformRef"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "VisualShaderNodeParameterRef"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "Manually renaming methods, properties, signals and constants"
 msgstr ""
-"Sınıfa ait özellikler, yöntemler, sinyaller, numaralandırmalar (enum), ve "
-"sabitlerin açıklamaları."
 
 msgid ""
 "Due to how the project upgrade tool works, not all :abbr:`API (Application "
@@ -875,9 +782,8 @@ msgid ""
 "notation)."
 msgstr ""
 
-#, fuzzy
 msgid "**Methods**"
-msgstr "**Statik Yöntemler**"
+msgstr ""
 
 msgid ""
 "File and Directory classes were replaced by :ref:`class_FileAccess` and :ref:"
@@ -1003,9 +909,8 @@ msgstr ""
 msgid "TileMap's ``map_to_world()`` is now ``map_to_local()``."
 msgstr ""
 
-#, fuzzy
 msgid "**Properties**"
-msgstr "Özellikler"
+msgstr ""
 
 msgid ""
 "If a property is listed here, its associated getter and setter methods must "
@@ -1050,9 +955,8 @@ msgstr ""
 msgid "CPUParticles2D's ``FLAG_MAX`` is now ``PARTICLE_FLAG_MAX``."
 msgstr ""
 
-#, fuzzy
 msgid "**Signals**"
-msgstr "Sinyaller"
+msgstr ""
 
 msgid "FileSystemDock's ``instantiate`` is now ``instance``."
 msgstr ""
@@ -1068,9 +972,8 @@ msgstr ""
 msgid "EditorSettings' ``changed`` is now ``settings_changed``."
 msgstr ""
 
-#, fuzzy
 msgid "**Constants**"
-msgstr "**Sabit**"
+msgstr ""
 
 msgid ""
 "Color names are now uppercase and use underscores between words. For "
@@ -1087,9 +990,8 @@ msgid ""
 "``NOTIFICATION_WM_CLOSE_REQUEST``."
 msgstr ""
 
-#, fuzzy
 msgid "Checking project settings"
-msgstr "Hata ayıklama proje ayarları"
+msgstr ""
 
 msgid ""
 "Several project settings were renamed, and some of them had their enums "
@@ -1099,9 +1001,8 @@ msgid ""
 "all project settings."
 msgstr ""
 
-#, fuzzy
 msgid "Checking Environment settings"
-msgstr "Ortam seçenekleri"
+msgstr ""
 
 msgid ""
 "Graphics quality settings were moved from Environment properties to project "
@@ -1124,9 +1025,8 @@ msgid ""
 "remain within the Environment resource."
 msgstr ""
 
-#, fuzzy
 msgid "Updating shaders"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid ""
 "There have been some changes to shaders that aren't covered by the upgrade "
@@ -1150,18 +1050,16 @@ msgstr ""
 msgid "``hint_albedo`` is now ``source_color``."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"
-msgstr ":ref:`Spatial shaders <doc_spatial_shader>`"
+msgstr ""
 
 msgid ""
 "Particles shaders no longer use the ``vertex()`` processor function. Instead "
 "they use ``start()`` and ``process()``."
 msgstr ""
 
-#, fuzzy
 msgid "See :ref:`doc_shading_language` for more information."
-msgstr ":ref:`doc_shading_language`"
+msgstr ""
 
 msgid "Updating scripts to take backwards-incompatible changes into account"
 msgstr ""
@@ -1358,16 +1256,14 @@ msgstr ""
 msgid "Removed node"
 msgstr ""
 
-#, fuzzy
 msgid "Closest approximation"
-msgstr "ışık animasyonu"
+msgstr ""
 
 msgid "Comment"
 msgstr "Yorum"
 
-#, fuzzy
 msgid "AnimationTreePlayer"
-msgstr "AnimationPlayer"
+msgstr ""
 
 msgid "AnimationTree"
 msgstr "AnimationTree"
@@ -1378,13 +1274,11 @@ msgstr ""
 msgid "BakedLightmap"
 msgstr ""
 
-#, fuzzy
 msgid "LightmapGI"
-msgstr "Işıklar"
+msgstr ""
 
-#, fuzzy
 msgid "See :ref:`doc_using_lightmap_gi`."
-msgstr ":ref:`doc_using_multimesh`"
+msgstr ""
 
 msgid "BakedLightmapData"
 msgstr ""
@@ -1395,13 +1289,11 @@ msgstr ""
 msgid "BitmapFont"
 msgstr ""
 
-#, fuzzy
 msgid "FontFile"
-msgstr "Dosyaları Filtrele"
+msgstr ""
 
-#, fuzzy
 msgid "See :ref:`doc_gui_using_fonts`."
-msgstr ":ref:`doc_gui_containers`"
+msgstr ""
 
 msgid "DynamicFont"
 msgstr ""
@@ -1409,9 +1301,8 @@ msgstr ""
 msgid "DynamicFontData"
 msgstr ""
 
-#, fuzzy
 msgid "Navigation2D"
-msgstr "Gezinti"
+msgstr ""
 
 msgid "Node2D"
 msgstr ""
@@ -1420,9 +1311,8 @@ msgid ""
 "Replaced by :ref:`other 2D Navigation nodes <doc_navigation_overview_2d>`."
 msgstr ""
 
-#, fuzzy
 msgid "Navigation3D"
-msgstr "Gezinti"
+msgstr ""
 
 msgid ""
 "Replaced by :ref:`other 3D Navigation nodes <doc_navigation_overview_3d>`."
@@ -1439,13 +1329,11 @@ msgid ""
 "for 4D noise as it's absent from the FastNoiseLite library."
 msgstr ""
 
-#, fuzzy
 msgid "ToolButton"
-msgstr "Düğmeler."
+msgstr ""
 
-#, fuzzy
 msgid "Button"
-msgstr "Düğmeler."
+msgstr ""
 
 msgid "ToolButton was Button with the **Flat** property enabled by default."
 msgstr ""
@@ -1465,9 +1353,8 @@ msgstr ""
 msgid ":ref:`class_VisibleOnScreenNotifier3D` can act as a replacement."
 msgstr ""
 
-#, fuzzy
 msgid "Portal"
-msgstr "Geçit Etkin"
+msgstr ""
 
 msgid ""
 "Portal and room occlusion culling was replaced by raster :ref:`occlusion "
@@ -1481,13 +1368,11 @@ msgstr ""
 msgid "RoomManager"
 msgstr "RoomManager (Oda Yöneticisi)"
 
-#, fuzzy
 msgid "RoomGroup"
-msgstr "Oda Grupları (RoomGroup'ları)"
+msgstr ""
 
-#, fuzzy
 msgid "Occluder"
-msgstr "Perdeleyici Düğümler"
+msgstr ""
 
 msgid ""
 "Geometry occlusion culling was replaced by raster :ref:`occlusion culling "
@@ -1498,18 +1383,16 @@ msgstr ""
 msgid "OccluderShapeSphere"
 msgstr ""
 
-#, fuzzy
 msgid "Resource"
-msgstr "Kaynaklar"
+msgstr ""
 
 msgid ""
 "If loading an old project, the node will be replaced with its *Closest "
 "approximation* automatically (even if not using the project upgrade tool)."
 msgstr ""
 
-#, fuzzy
 msgid "**Threading changes**"
-msgstr "**Temalaştırma:**"
+msgstr ""
 
 msgid ""
 ":ref:`Threading <doc_using_multiple_threads>` APIs have changed in 4.0. For "
@@ -1549,9 +1432,8 @@ msgid ""
 "automatically <doc_upgrading_to_godot_4_manual_rename>`."
 msgstr ""
 
-#, fuzzy
 msgid "Porting editor settings"
-msgstr "Düzenleyici ayarları"
+msgstr ""
 
 msgid ""
 "Godot 3.x and 4.0 use different editor settings files. This means their "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "GDScript reference"
-msgstr "GDScript dışa aktarmaları"
+msgstr ""
 
 msgid ""
 ":ref:`GDScript<doc_gdscript>` is a high-level, `object-oriented <https://en."
@@ -191,9 +190,8 @@ msgid ""
 "type."
 msgstr ""
 
-#, fuzzy
 msgid "in"
-msgstr "Bul"
+msgstr ""
 
 msgid ""
 "Tests whether a value is within a string, array, range, dictionary, or node. "
@@ -342,9 +340,8 @@ msgstr ""
 msgid "``x[index]``"
 msgstr ""
 
-#, fuzzy
 msgid "Subscription"
-msgstr "Abonelikler"
+msgstr ""
 
 msgid "``x.attribute``"
 msgstr ""
@@ -364,13 +361,11 @@ msgstr ""
 msgid "`Awaiting for signals or coroutines`_"
 msgstr ""
 
-#, fuzzy
 msgid "``x is Node``"
-msgstr "``$DüğümYolu``"
+msgstr ""
 
-#, fuzzy
 msgid "Type checking"
-msgstr "Tip dönüştürme"
+msgstr ""
 
 msgid ""
 "See also :ref:`is_instance_of() <class_@GDScript_method_is_instance_of>` "
@@ -406,9 +401,8 @@ msgstr ""
 msgid "``-x``"
 msgstr ""
 
-#, fuzzy
 msgid "Identity / Negation"
-msgstr "Girinti"
+msgstr ""
 
 msgid "``x * y``"
 msgstr ""
@@ -487,9 +481,8 @@ msgstr ""
 msgid "``x >= y``"
 msgstr ""
 
-#, fuzzy
 msgid "Comparison"
-msgstr "Sıkıştırma"
+msgstr ""
 
 msgid "See a detailed note after the table."
 msgstr ""
@@ -500,9 +493,8 @@ msgstr ""
 msgid "``x not in y``"
 msgstr ""
 
-#, fuzzy
 msgid "Inclusion checking"
-msgstr "Dahil Etme"
+msgstr ""
 
 msgid "``in`` is also used with the for_ keyword as part of the syntax."
 msgstr ""
@@ -540,13 +532,11 @@ msgstr ""
 msgid "Ternary if/else"
 msgstr ""
 
-#, fuzzy
 msgid "``x as Node``"
-msgstr "``$DüğümYolu``"
+msgstr ""
 
-#, fuzzy
 msgid "`Type casting <casting_>`_"
-msgstr "Tip dönüştürme"
+msgstr ""
 
 msgid "``x = y``"
 msgstr ""
@@ -637,23 +627,20 @@ msgstr ""
 msgid "Literals"
 msgstr ""
 
-#, fuzzy
 msgid "**Example(s)**"
-msgstr "**Örnek:**"
+msgstr ""
 
 msgid "``null``"
 msgstr ""
 
-#, fuzzy
 msgid "Null value"
-msgstr "değer"
+msgstr ""
 
 msgid "``false``, ``true``"
 msgstr ""
 
-#, fuzzy
 msgid "Boolean values"
-msgstr "değer"
+msgstr ""
 
 msgid "``45``"
 msgstr ""
@@ -682,9 +669,8 @@ msgstr ""
 msgid "``\"Hello\"``, ``'Hi'``"
 msgstr ""
 
-#, fuzzy
 msgid "Regular strings"
-msgstr "Köşe Işıklandırması"
+msgstr ""
 
 msgid "``\"\"\"Hello\"\"\"``, ``'''Hi'''``"
 msgstr ""
@@ -695,27 +681,23 @@ msgstr ""
 msgid "``r\"Hello\"``, ``r'Hi'``"
 msgstr ""
 
-#, fuzzy
 msgid "Raw strings"
-msgstr "Dizeler"
+msgstr ""
 
 msgid "``r\"\"\"Hello\"\"\"``, ``r'''Hi'''``"
 msgstr ""
 
-#, fuzzy
 msgid "Triple-quoted raw strings"
-msgstr "GDScript biçim dizeleri"
+msgstr ""
 
 msgid "``&\"name\"``"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`StringName <class_StringName>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid "``^\"Node/Label\"``"
-msgstr "``$DüğümYolu``"
+msgstr ""
 
 msgid ":ref:`NodePath <class_NodePath>`"
 msgstr ""
@@ -825,11 +807,10 @@ msgstr ""
 msgid "UTF-32 Unicode codepoint ``XXXXXX`` (hexadecimal, case-insensitive)"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "There are two ways to represent an escaped Unicode character above "
 "``0xFFFF``:"
-msgstr "Bir projeyi, bir sunucu için dışa aktarmanın iki yolu var:"
+msgstr ""
 
 msgid ""
 "as a `UTF-16 surrogate pair <https://en.wikipedia.org/wiki/"
@@ -862,9 +843,8 @@ msgstr ""
 msgid "GDScript also supports :ref:`format strings <doc_gdscript_printf>`."
 msgstr ""
 
-#, fuzzy
 msgid "Annotations"
-msgstr "Girinti"
+msgstr ""
 
 msgid ""
 "There are some special tokens in GDScript that act like keywords but are "
@@ -968,9 +948,8 @@ msgid ""
 "**Text Editor > Theme > Comment Markers** section of the Editor Settings."
 msgstr ""
 
-#, fuzzy
 msgid "Code regions"
-msgstr "Godot sürümleri"
+msgstr ""
 
 msgid ""
 "Code regions are special types of comments that the script editor "
@@ -980,9 +959,8 @@ msgid ""
 "square to be distinguishable from standard code folding."
 msgstr ""
 
-#, fuzzy
 msgid "The syntax is as follows:"
-msgstr "Bu metnin tamamı şöyledir:"
+msgstr ""
 
 msgid ""
 "To create a code region quickly, select several lines in the script editor, "
@@ -993,9 +971,8 @@ msgstr ""
 msgid "It is possible to nest code regions within other code regions."
 msgstr ""
 
-#, fuzzy
 msgid "Here's a concrete usage example of code regions:"
-msgstr "Geçişin bir çok türü var:"
+msgstr ""
 
 msgid ""
 "This can be useful to organize large chunks of code into easier to "
@@ -1012,9 +989,8 @@ msgid ""
 "group multiple elements together."
 msgstr ""
 
-#, fuzzy
 msgid "Line continuation"
-msgstr "Doğrusal ara değerleme"
+msgstr ""
 
 msgid ""
 "A line of code in GDScript can be continued on the next line by using a "
@@ -1107,9 +1083,8 @@ msgid ""
 "array."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Vector2i <class_Vector2i>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "Same as a Vector2 but the components are integers. Useful for representing "
@@ -1132,9 +1107,8 @@ msgid ""
 "accessed as an array."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Vector3i <class_Vector3i>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "Same as Vector3 but the components are integers. Can be use for indexing "
@@ -1155,9 +1129,8 @@ msgid ""
 "a ``d`` scalar distance."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Quaternion <class_Quaternion>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "Quaternion is a datatype used for representing a 3D rotation. It's useful "
@@ -1181,9 +1154,8 @@ msgid ""
 "(``x``, ``y`` and ``z``) and can also be accessed as an array of 3D vectors."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Transform3D <class_Transform3D>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "3D Transform contains a Basis field ``basis`` and a Vector3 field ``origin``."
@@ -1263,9 +1235,8 @@ msgid ""
 "untyped arrays are considered unsafe."
 msgstr ""
 
-#, fuzzy
 msgid "Packed arrays"
-msgstr "Yerel diziler"
+msgstr ""
 
 msgid ""
 "GDScript arrays are allocated linearly in memory for speed. Large arrays "
@@ -1346,9 +1317,8 @@ msgid ""
 "<class_Object_method_set>` methods instead."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Signal <class_Signal>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "A signal is a message that can be emitted by an object to those who want to "
@@ -1360,9 +1330,8 @@ msgid ""
 "button_up``."
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Callable <class_Callable>`"
-msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
+msgstr ""
 
 msgid ""
 "Contains an object and a function, which is useful for passing functions as "
@@ -1449,13 +1418,11 @@ msgid ""
 "the project settings. See :ref:`doc_gdscript_warning_system` for details."
 msgstr ""
 
-#, fuzzy
 msgid "Initialization order"
-msgstr "İlk değerleme örneği:"
+msgstr "İlk değerleme sırası"
 
-#, fuzzy
 msgid "Member variables are initialized in the following order:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
 msgid ""
 "Depending on the variable's static type, the variable is either ``null`` "
@@ -1500,9 +1467,8 @@ msgid ""
 "definition or remove the empty dictionary assignment (``= {}``)."
 msgstr ""
 
-#, fuzzy
 msgid "Static variables"
-msgstr "Değişkenleri düzenlemek"
+msgstr ""
 
 msgid "A class member variable can be declared static::"
 msgstr ""
@@ -1717,9 +1683,8 @@ msgid ""
 "issues on direct function calls."
 msgstr ""
 
-#, fuzzy
 msgid "Lambda functions"
-msgstr "fonksiyon"
+msgstr ""
 
 msgid ""
 "Lambda functions allow you to declare functions that do not belong to a "
@@ -1772,9 +1737,8 @@ msgid ""
 "optional."
 msgstr ""
 
-#, fuzzy
 msgid "Expressions"
-msgstr "Sıkıştırma"
+msgstr ""
 
 msgid ""
 "Expressions are sequences of operators and their operands in orderly "
@@ -1789,9 +1753,8 @@ msgid ""
 "and thus does not return any value."
 msgstr ""
 
-#, fuzzy
 msgid "Here are some examples of expressions::"
-msgstr "Geçişin bir çok türü var:"
+msgstr ""
 
 msgid ""
 "Identifiers, attributes, and subscripts are valid assignment targets. Other "
@@ -1866,9 +1829,8 @@ msgid ""
 "equal to the StringName ``&\"hello\"``."
 msgstr ""
 
-#, fuzzy
 msgid "Basic syntax"
-msgstr "Kullanımı"
+msgstr ""
 
 msgid "Crash-course for people who are familiar with switch statements"
 msgstr ""
@@ -1885,9 +1847,8 @@ msgstr ""
 msgid "Change ``default`` to a single underscore."
 msgstr ""
 
-#, fuzzy
 msgid "Control flow"
-msgstr "Control"
+msgstr ""
 
 msgid ""
 "The patterns are matched from top to bottom. If a pattern matches, the first "
@@ -1903,16 +1864,14 @@ msgstr ""
 msgid "The following pattern types are available:"
 msgstr ""
 
-#, fuzzy
 msgid "Literal pattern"
-msgstr "Sabit kalıplar"
+msgstr ""
 
 msgid "Matches a `literal <Literals_>`_::"
 msgstr ""
 
-#, fuzzy
 msgid "Expression pattern"
-msgstr "Sıkıştırma"
+msgstr ""
 
 msgid ""
 "Matches a constant expression, an identifier, or an attribute access (``A."
@@ -1996,9 +1955,8 @@ msgid ""
 "aren't allowed to have any bindings in them."
 msgstr ""
 
-#, fuzzy
 msgid "Pattern guards"
-msgstr "Eastern Mari"
+msgstr ""
 
 msgid ""
 "Only one branch can be executed per ``match``. Once a branch is chosen, the "
@@ -2179,9 +2137,8 @@ msgid ""
 "constructor as well, not just variables, e.g.::"
 msgstr ""
 
-#, fuzzy
 msgid "Static constructor"
-msgstr "Kurucu Yöntemler"
+msgstr ""
 
 msgid ""
 "A static constructor is a static function ``_static_init`` that is called "
@@ -2235,9 +2192,8 @@ msgid ""
 "assigned."
 msgstr ""
 
-#, fuzzy
 msgid "Example::"
-msgstr "Örnek:"
+msgstr ""
 
 msgid ""
 "Unlike ``setget`` in previous Godot versions, the properties setter and "
@@ -2247,9 +2203,8 @@ msgid ""
 "variable for direct access and make the property code use that name."
 msgstr ""
 
-#, fuzzy
 msgid "Alternative syntax"
-msgstr "Harici Dosyalar"
+msgstr ""
 
 msgid ""
 "Also there is another notation to use existing class functions if you want "
@@ -2258,9 +2213,8 @@ msgid ""
 "the setter/getter is being called for)::"
 msgstr ""
 
-#, fuzzy
 msgid "This can also be done in the same line::"
-msgstr "Bu aynı satırda da yapılabilir."
+msgstr "Bu aynı satırda da yapılabilir:"
 
 msgid ""
 "The setter and getter must use the same notation, mixing styles for the same "
@@ -2444,9 +2398,8 @@ msgid ""
 "argument::"
 msgstr ""
 
-#, fuzzy
 msgid "Awaiting for signals or coroutines"
-msgstr "Asıl içeriğin yerini bulmak"
+msgstr ""
 
 msgid ""
 "The ``await`` keyword can be used to create `coroutines <https://en."

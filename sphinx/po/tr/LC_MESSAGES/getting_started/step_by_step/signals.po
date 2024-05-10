@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,17 +46,12 @@ msgstr ""
 "Coupling_(computer_programming)>`_ 'yı sınırlandırır ve kodunuzun esnek "
 "kalmasını sağlar."
 
-#, fuzzy
 msgid ""
 "For example, you might have a life bar on the screen that represents the "
 "player's health. When the player takes damage or uses a healing potion, you "
 "want the bar to reflect the change. To do so, in Godot, you would use "
 "signals."
 msgstr ""
-"Örneğin ekrnda, oyuncunun sağlığını temsil eden bir yaşam çubuğunuz "
-"olabilir. Oyuncu hasar alınca ya da sağlık iksiri kullanırsa, çubuğun bu "
-"değişimi yansıtmasını istersiniz. Bunu yapmak için, Godot'da, sinyalleri "
-"kullanırdınız."
 
 msgid ""
 "As mentioned in the introduction, signals are Godot's version of the "
@@ -77,46 +72,32 @@ msgstr ""
 msgid "Scene setup"
 msgstr "Sahne ayarları"
 
-#, fuzzy
 msgid ""
-"To add a button to our game, we will create a new main scene which will "
-"include both a :ref:`Button <class_button>` and the ``sprite_2d.tscn`` scene "
-"we created in the :ref:`doc_scripting_first_script` lesson."
+"To add a button to our game, we will create a new scene which will include "
+"both a :ref:`Button <class_button>` and the ``sprite_2d.tscn`` scene we "
+"created in the :ref:`doc_scripting_first_script` lesson."
 msgstr ""
-"Oyunumuza bir düğme eklemek için, yeni bir \"ana\" sahne oluşturacak ve "
-"içine hem bir düğme hem de daha önceki derslerde betiğini de yazdığımız "
-"``Sprite.tscn`` sahnesini dahil edeceğiz."
 
 msgid "Create a new scene by going to the menu Scene -> New Scene."
 msgstr "Sahne -> Yeni Sahne menüsüne giderek yeni bir sahne oluşturun."
 
-#, fuzzy
 msgid ""
 "In the Scene dock, click the 2D Scene button. This will add a :ref:`Node2D "
 "<class_Node2D>` as our root."
 msgstr ""
-"Sahne yuvasında, 2B Sahne düğmesine tıklayın. Bu kök sahnemiz olarak bir "
-"Node2D ekleyecek."
 
-#, fuzzy
 msgid ""
 "In the FileSystem dock, click and drag the ``sprite_2d.tscn`` file you saved "
 "previously onto the Node2D to instantiate it."
 msgstr ""
-"DosyaSistemi yuvasında, daha önce kaydettiğiniz ``Sprite.tscn`` dosyasına "
-"tıklayın ve bir örneklemesini oluşturmak için Node2D 'nin üzerine sürükleyin."
 
-#, fuzzy
 msgid ""
 "We want to add another node as a sibling of the Sprite2D. To do so, right-"
 "click on Node2D and select Add Child Node."
 msgstr ""
-"Grafik öğemizin, Sprite, kardeş-öğesi olarak bir başka düğüm eklemek "
-"istiyoruz. Bunun için, Node2D 'yi sağ tıklayın ve Alt-öğe Ekle 'yi seçin."
 
-#, fuzzy
 msgid "Search for the :ref:`Button <class_button>` node and add it."
-msgstr "Button (düğme) düğüm tipini arayın ve ekleyin."
+msgstr ""
 
 msgid ""
 "The node is small by default. Click and drag on the bottom-right handle of "
@@ -136,41 +117,29 @@ msgstr ""
 msgid "Click and drag on the button itself to move it closer to the sprite."
 msgstr "Düğmenin kendi üzerine tıklayın ve grafik öğenin yakınına taşıyın."
 
-#, fuzzy
 msgid ""
 "You can also write a label on the Button by editing its Text property in the "
 "Inspector. Enter ``Toggle motion``."
 msgstr ""
-"Ayrıca, Denetleyicide düğmenin metin özelliğini (Text) düzenleyerek ona bir "
-"etiket yazabilirsiniz. \"Toggle motion\" yazın (hareketi aç/kapat)."
 
 msgid "Your scene tree and viewport should look like this."
 msgstr "Sahne ağacınız ve çerçeve bunun gibi görünmelidir."
 
-#, fuzzy
 msgid ""
 "Save your newly created scene as ``node_2d.tscn``, if you haven't already. "
 "You can then run it with :kbd:`F6` (:kbd:`Cmd + R` on macOS). At the moment, "
 "the button will be visible, but nothing will happen if you press it."
 msgstr ""
-"Yeni oluşturduğunuz sahnenizi kaydedin. Bunu daha sonra :kbd:`F6` ile "
-"çalıştırabilirsiniz. Şu an için, düğme görünür durumda olacak, ama "
-"bastığınızda hiç bir şey olmayacaktır."
 
 msgid "Connecting a signal in the editor"
 msgstr "Bir sinyali, düzenleyici içinden bağlamak"
 
-#, fuzzy
 msgid ""
 "Here, we want to connect the Button's \"pressed\" signal to our Sprite2D, "
 "and we want to call a new function that will toggle its motion on and off. "
 "We need to have a script attached to the Sprite2D node, which we do from the "
 "previous lesson."
 msgstr ""
-"Burada, düğmenin (Button) \"pressed\" sinyalini grafik öğemize (Sprite) "
-"bağlamak istiyoruz, ve bunun hareketini açıp kapayacak bir fonksiyon "
-"çağırmak istiyoruz. Sprite düğümüne bir betik bağlamamız gerekiyor, ki bunu "
-"önceki derste yapmıştık."
 
 msgid ""
 "You can connect signals in the Node dock. Select the Button node and, on the "
@@ -190,7 +159,6 @@ msgid "Double-click the \"pressed\" signal to open the node connection window."
 msgstr ""
 "Düğüm bağlantı penceresini açmak için \"pressed\" sinyaline çift-tıklayın."
 
-#, fuzzy
 msgid ""
 "There, you can connect the signal to the Sprite2D node. The node needs a "
 "receiver method, a function that Godot will call when the Button emits the "
@@ -198,11 +166,6 @@ msgid ""
 "callback methods \"_on_node_name_signal_name\". Here, it'll be "
 "\"_on_button_pressed\"."
 msgstr ""
-"Oradan, bu sinyali Sprite düğümüne bağlayabilirsiniz. Düğümün bir alıcı "
-"yönteme, Button bir sinyal yayınladığında Godot'un çağıracağı bir "
-"fonksiyona, ihtiyacı var. Düzenleyici sizin için bir tane üretecek. "
-"Geleneksel olarak, bu geri çağrı yöntemlerini \"_on_Düğümİsmi_sinyal_ismi\" "
-"olarak isimlendiriyoruz. Burada, bunun ismi \"_on_Button_pressed\" olacak."
 
 msgid ""
 "When connecting signals via the editor's Node dock, you can use two modes. "
@@ -248,7 +211,6 @@ msgstr ""
 "Hadi şimdi, ``pass`` anahtar kelimesi olan satırı, düğümün hareketini açıp "
 "kapatacak olan kod ile değiştirelim."
 
-#, fuzzy
 msgid ""
 "Our Sprite2D moves thanks to code in the ``_process()`` function. Godot "
 "provides a method to toggle processing on and off: :ref:`Node.set_process() "
@@ -256,12 +218,6 @@ msgid ""
 "``is_processing()``, returns ``true`` if idle processing is active. We can "
 "use the ``not`` keyword to invert the value."
 msgstr ""
-"``_process()`` fonksiyonundaki kod sayesinde grafik öğemiz hareket "
-"edebiliyor. Godot bize bu işlemeyi açıp kapatmak için bir yöntem sunuyor: :"
-"ref:`Node.set_process() <class_Node_method_set_process>`. Node sınıfının bir "
-"başka yöntemi, ``is_processing()``, boşta (idle) işleme etkin ise ``true`` "
-"(doğru) döndürür. Bu değeri tersine çevirmek için ``not`` (değil) anahtar "
-"kelimesini kullanabiliriz."
 
 msgid ""
 "This function will toggle processing and, in turn, the icon's motion on and "
@@ -279,9 +235,8 @@ msgstr ""
 "ettirip oyuncudan giriş beklemeyecek şekilde basitleştirmeliyiz. Bunu, iki "
 "ders önce gördüğümüz, aşağıdaki kod ile değiştirin:"
 
-#, fuzzy
 msgid "Your complete ``sprite_2d.gd`` code should look like the following."
-msgstr "Tamamlanmış ``Sprite.gd`` kodunuz şunun gibi görünmelidir."
+msgstr ""
 
 msgid ""
 "Run the scene now and click the button to see the sprite start and stop."
@@ -308,73 +263,48 @@ msgstr ""
 "silah doldurma, ve daha pek çok şey için kullanışlı olan bir zamanlayıcı, :"
 "ref:`Timer <class_Timer>`, düğümü vardır."
 
-#, fuzzy
 msgid ""
 "Head back to the 2D workspace. You can either click the \"2D\" text at the "
 "top of the window or press :kbd:`Ctrl + F1` (:kbd:`Ctrl + Cmd + 1` on macOS)."
 msgstr ""
-"2B çalışma alanına geri dönün. Bunun için, pencerenin en üstündeki \"2B\" "
-"yazısına tıklayabilir, ya da :kbd:`Ctrl + F1` (macOS için :kbd:`Alt + 1`) "
-"tuşlarına basabilirsiniz."
 
-#, fuzzy
 msgid ""
 "In the Scene dock, right-click on the Sprite2D node and add a new child "
 "node. Search for Timer and add the corresponding node. Your scene should now "
 "look like this."
 msgstr ""
-"Sahne yuvasında, grafik öğe, Sprite, düğümüne sağ-tıklayın ve yeni bir alt-"
-"öğe ekleyin. Zamanlayıcıyı, Timer, arayın ve ilgili düğüme ekleyin. Sahneniz "
-"bunun gibi görünmelidir."
 
-#, fuzzy
 msgid ""
 "With the Timer node selected, go to the Inspector and enable the "
 "**Autostart** property."
 msgstr ""
-"Timer düğümü seçiliyken, Denetleyiciye gidin ve **Otobaşlat** özelliğini "
-"işaretleyin."
 
-#, fuzzy
 msgid ""
 "Click the script icon next to Sprite2D to jump back to the scripting "
 "workspace."
 msgstr ""
-"Betik çalışma alanına geri sıçramak için, Sprite'ın yanındaki betik "
-"simgesine tıklayın."
 
 msgid "We need to do two operations to connect the nodes via code:"
 msgstr "Düğümü kodun içinden bağlamak için iki işlem yapmamız gerekiyor:"
 
-#, fuzzy
 msgid "Get a reference to the Timer from the Sprite2D."
-msgstr "Sprite içinden Timer 'a bir başvuru almak."
+msgstr ""
 
-#, fuzzy
 msgid "Call the ``connect()`` method on the Timer's \"timeout\" signal."
-msgstr "Timer 'ın ``connect()`` yöntemini çağırmak."
+msgstr ""
 
-#, fuzzy
 msgid ""
 "To connect to a signal via code, you need to call the ``connect()`` method "
 "of the signal you want to listen to. In this case, we want to listen to the "
 "Timer's \"timeout\" signal."
 msgstr ""
-"Bir sinyali kodun içinden bağlamak için, dinlemek istediğiniz düğümün "
-"``connect()`` (bağlan) yöntemini çağırmanız gerekiyor. Bu durumda, Timer "
-"düğümünün \"timeout\" sinyalini dinlemek istiyoruz."
 
-#, fuzzy
 msgid ""
 "We want to connect the signal when the scene is instantiated, and we can do "
 "that using the :ref:`Node._ready() <class_Node_private_method__ready>` built-"
 "in function, which is called automatically by the engine when a node is "
 "fully instantiated."
 msgstr ""
-"Sinyali, sahne örneklemesi tamamlanınca bağlamak istiyoruz, ve bunu :ref:"
-"`Node._ready() <class_Node_method__ready>` (hazır) yerleşik fonksiyonu ile "
-"yapabiliriz; bu, bir düğümün örneklemesi bütünüyle tamamlandığı zaman, motor "
-"tarafından otomatik olarak çağırılır."
 
 msgid ""
 "To get a reference to a node relative to the current one, we use the method :"
@@ -385,26 +315,17 @@ msgstr ""
 "`Node.get_node() <class_Node_method_get_node>` (düğüm al) yöntemini "
 "kullanırız. Bu başvuruyu bir değişkende saklayabiliriz."
 
-#, fuzzy
 msgid ""
 "The function ``get_node()`` looks at the Sprite2D's children and gets nodes "
 "by their name. For example, if you renamed the Timer node to "
 "\"BlinkingTimer\" in the editor, you would have to change the call to "
 "``get_node(\"BlinkingTimer\")``."
 msgstr ""
-"``get_node()`` fonksiyonu, Sprite 'ın alt-öğelerine bakar ve onları "
-"isimleriyle alır. Örneğin, eğer düzenleyicide Timer düğümünün ismini "
-"\"YanSönZamanlayıcı\" olarak değiştirmiş olsaydınız, bu çağrıyı "
-"``get_node(\"YanSönZamanlayıcı\")`` olarak değiştirmeniz gerekecekti."
 
-#, fuzzy
 msgid ""
 "We can now connect the Timer to the Sprite2D in the ``_ready()`` function."
 msgstr ""
-"Şimdi artık Timer ile Sprite bağlantısını ``_ready()`` fonksiyonu içinde "
-"yapabiliriz."
 
-#, fuzzy
 msgid ""
 "The line reads like so: we connect the Timer's \"timeout\" signal to the "
 "node to which the script is attached. When the Timer emits ``timeout``, we "
@@ -412,11 +333,6 @@ msgid ""
 "Let's add it at the bottom of our script and use it to toggle our sprite's "
 "visibility."
 msgstr ""
-"Bu satırlar şunu söylüyor: Timer 'ın \"timeout\" sinyalini, betiğin bağlı "
-"olduğu bu düğüme (``self``) bağlıyoruz. Timer düğümü \"timeout\" sinyalini "
-"yayınladığında, \"_on_Timer_timeout\" fonksiyonunu çağırmak istiyoruz; bu "
-"fonksiyonu da tanımlamamız gerekiyor. Hadi bunu da betiğimizin altına "
-"ekleyelim ve grafik öğemizin görünürlüğünü açıp kapatmak için kullanalım."
 
 msgid ""
 "By convention, we name these callback methods in GDScript as "
@@ -444,13 +360,10 @@ msgstr ""
 msgid "Complete script"
 msgstr "Tamamlanmış betik"
 
-#, fuzzy
 msgid ""
 "That's it for our little moving and blinking Godot icon demo! Here is the "
 "complete ``sprite_2d.gd`` file for reference."
 msgstr ""
-"Hareket eden ve yanıp sönen Godot simgeli küçük projemizden bu kadar! "
-"Başvuru amaçlı, tamamlanmış ``Sprite.gd`` dosyası aşağıdadır."
 
 msgid "Custom signals"
 msgstr "Özel sinyaller"
@@ -489,11 +402,8 @@ msgstr ""
 "Sizin sinyaliniz de aynı yerleşik olanlar gibi çalışır: Düğüm sekmesinde "
 "görünürler ve bunlara aynı diğerleri gibi bağlanabilirsiniz."
 
-#, fuzzy
 msgid "To emit a signal in your scripts, call ``emit()`` on the signal."
 msgstr ""
-"Betiğinizin içinden bir sinyal yayınlamak için, ``emit_signal()`` çağrısı "
-"yapın."
 
 msgid ""
 "A signal can optionally declare one or more arguments. Specify the argument "
@@ -515,13 +425,10 @@ msgstr ""
 "de yayabilirsiniz. Yani, doğru değerleri yayınlamak sizin "
 "sorumluluğunuzdadır."
 
-#, fuzzy
 msgid ""
 "To emit values along with the signal, add them as extra arguments to the "
 "``emit()`` function:"
 msgstr ""
-"Sinyal ile birlikte değerler de yayınlamak için, bunları ``emit_signal()`` "
-"fonksiyonuna ek girdi değişkenleri olarak ekleyin:"
 
 msgid "Summary"
 msgstr "Özet"

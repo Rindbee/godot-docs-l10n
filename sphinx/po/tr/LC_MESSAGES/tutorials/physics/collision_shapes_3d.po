@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,21 +55,17 @@ msgstr "İlkel çarpışma şekilleri"
 msgid "Godot provides the following primitive collision shape types:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_BoxShape3D`"
-msgstr ":ref:`class_BoxShape`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_SphereShape3D`"
-msgstr ":ref:`class_SphereShape`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_CapsuleShape3D`"
-msgstr ":ref:`class_CapsuleShape`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_CylinderShape3D`"
-msgstr ":ref:`class_CylinderShape`"
+msgstr ""
 
 msgid ""
 "You can represent the collision of most smaller objects using one or more "

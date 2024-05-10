@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,9 +135,8 @@ msgid ""
 "release build (add it to your ``$HOME/.bashrc`` or similar):"
 msgstr ""
 
-#, fuzzy
 msgid "Example usage:"
-msgstr "Örnek:"
+msgstr ""
 
 msgid ""
 "To refer to the latest state of the master branch, you can use ``master`` "
@@ -145,9 +144,8 @@ msgid ""
 "commit hashes, ``master`` is a perpetually moving target."
 msgstr ""
 
-#, fuzzy
 msgid "Build the engine"
-msgstr "Motora katkıda bulunmak"
+msgstr ""
 
 msgid ""
 ":ref:`Get Godot's source code using Git <doc_getting_source>`. Once this is "
@@ -158,9 +156,8 @@ msgstr ""
 msgid "Compile Godot. This assumes you've set up a build environment:"
 msgstr ""
 
-#, fuzzy
 msgid "Run the engine"
-msgstr "Sahneyi çalıştırmak"
+msgstr ""
 
 msgid ""
 "Run the binary located in the ``bin/`` folder and try to reproduce the bug."

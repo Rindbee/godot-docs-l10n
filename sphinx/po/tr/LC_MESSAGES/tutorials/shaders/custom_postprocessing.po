@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,9 +49,8 @@ msgid ""
 "created ``ColorRect``, and set the ``ColorRect``'s layout to \"Full Rect\"."
 msgstr ""
 
-#, fuzzy
 msgid "Your scene tree will look something like this:"
-msgstr "Şimdi sahneniz bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid ""
 "Another more efficient method is to use a :ref:`BackBufferCopy "
@@ -84,9 +83,8 @@ msgid ""
 "shader by `arlez80 <https://bitbucket.org/arlez80/hex-mosaic/src/master/>`_,"
 msgstr ""
 
-#, fuzzy
 msgid "The sheep will look something like this:"
-msgstr "Şimdi sahneniz bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid "Multi-pass post-processing"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,9 +310,8 @@ msgstr ""
 msgid "Spawning monsters randomly"
 msgstr ""
 
-#, fuzzy
 msgid "Right-click on the ``Main`` node and attach a new script to it."
-msgstr "\"Ana\" düğümüne sağ-tıklayın ve buna yeni bir betik iliştirin."
+msgstr ""
 
 msgid ""
 "We first export a variable to the *Inspector* so that we can assign ``mob."
@@ -337,11 +336,10 @@ msgstr ""
 msgid "image20"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Add a new :ref:`Timer <class_Timer>` node as a child of ``Main``. Name it "
 "``MobTimer``."
-msgstr "``MessageTimer`` isminde bir :ref:`Timer <class_Timer>` düğümü."
+msgstr ""
 
 msgid "|image21|"
 msgstr ""
@@ -420,9 +418,8 @@ msgid ""
 "alongside the edges of the viewport!"
 msgstr ""
 
-#, fuzzy
 msgid "Here is the complete ``main.gd`` script so far, for reference."
-msgstr "Tamamlanmış ``Sprite.gd`` dosyası, başvuru amaçlı aşağıda verilmiştir."
+msgstr ""
 
 msgid ""
 "You can test the scene by pressing :kbd:`F6`. You should see the monsters "

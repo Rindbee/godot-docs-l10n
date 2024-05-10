@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Creating movies"
-msgstr "Düğüm oluşturmak"
+msgstr ""
 
 msgid ""
 "Godot can record **non-real-time** video and audio from any 2D or 3D "
@@ -167,9 +166,8 @@ msgid ""
 "automatically used when running the project from the editor."
 msgstr ""
 
-#, fuzzy
 msgid "Command line usage"
-msgstr "Komut satırı başvurusu"
+msgstr ""
 
 msgid ""
 "Movie Maker can also be enabled from the :ref:`command line "
@@ -209,9 +207,8 @@ msgid ""
 "project that will record a video file."
 msgstr ""
 
-#, fuzzy
 msgid "Choosing an output format"
-msgstr "Animasyonları seçme"
+msgstr ""
 
 msgid ""
 "Output formats are provided by the :ref:`MovieWriter <class_MovieWriter>` "
@@ -219,9 +216,8 @@ msgid ""
 "more can be implemented by extensions:"
 msgstr ""
 
-#, fuzzy
 msgid "AVI (recommended)"
-msgstr "glTF 2.0 *(önerilen)*."
+msgstr ""
 
 msgid ""
 "AVI container with MJPEG for video and uncompressed audio. Features lossy "
@@ -269,9 +265,8 @@ msgid ""
 "the same name as the ``.png`` file (minus the extension)."
 msgstr ""
 
-#, fuzzy
 msgid "Custom"
-msgstr "Özel klasör"
+msgstr ""
 
 msgid ""
 "If you need to encode directly to a different format or pipe a stream "
@@ -454,9 +449,8 @@ msgid ""
 "those settings with the ``movie`` :ref:`feature tag <doc_feature_tags>`."
 msgstr ""
 
-#, fuzzy
 msgid "Post-processing steps"
-msgstr "**Sonra-işleme**"
+msgstr ""
 
 msgid "Some common post-processing steps are listed below."
 msgstr ""
@@ -467,9 +461,8 @@ msgid ""
 "avoiding multiple lossy encoding steps."
 msgstr ""
 
-#, fuzzy
 msgid "Converting AVI video to MP4"
-msgstr "Girintiyi Sekmelere Dönüştür"
+msgstr ""
 
 msgid ""
 "While some platforms such as YouTube support uploading the AVI file "
@@ -526,9 +519,8 @@ msgid ""
 "support storing transparency, so you can use WebM/VP9 as an alternative:"
 msgstr ""
 
-#, fuzzy
 msgid "Cutting video"
-msgstr "Düğümleri almak"
+msgstr ""
 
 msgid ""
 "You can trim parts of the video you don't want to keep after the video is "
@@ -549,9 +541,8 @@ msgid ""
 "preserving its existing aspect ratio:"
 msgstr ""
 
-#, fuzzy
 msgid "Reducing framerate"
-msgstr "Bir kamera eklemek"
+msgstr ""
 
 msgid ""
 "The following command changes a video's framerate to 30 FPS, dropping some "

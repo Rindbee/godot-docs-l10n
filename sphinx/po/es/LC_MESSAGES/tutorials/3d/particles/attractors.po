@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D Particle attractors"
-msgstr "Transformación de partícula."
+msgstr "Atractores de partículas 3D"
 
-#, fuzzy
 msgid "Particle attractors"
-msgstr "Transformación de partícula."
+msgstr "Atractores de partículas"
 
 msgid ""
 "Particle attractors are nodes that apply a force to all particles within "
@@ -128,9 +126,8 @@ msgstr ""
 msgid "Box attractors"
 msgstr "Itineradores personalizados"
 
-#, fuzzy
 msgid "Particle attractor box"
-msgstr "Transformación de partícula."
+msgstr "Caja de atractor de partículas"
 
 msgid "Box attractor in the node list"
 msgstr ""
@@ -161,9 +158,8 @@ msgstr ""
 msgid "Sphere attractors"
 msgstr "Operadores"
 
-#, fuzzy
 msgid "Particle attractor sphere"
-msgstr "Transformación de partícula."
+msgstr "Esfera de atractor de partículas"
 
 #, fuzzy
 msgid "Sphere attractor in the node list"
@@ -276,4 +272,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

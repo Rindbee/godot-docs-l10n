@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -498,27 +498,23 @@ msgid ""
 "The value of the last JavaScript statement is converted to a GDScript value "
 "and returned by ``eval()`` under certain circumstances:"
 msgstr ""
-"最后一个JavaScript语句的值转换为GDScript值, 并在某些情况下由 ``eval()`` 返回:"
+"最后一个JavaScript语句的值转换为GDScript值，并在某些情况下由 ``eval()`` 返回:"
 
-#, fuzzy
 msgid "JavaScript ``number`` is returned as :ref:`class_float`"
-msgstr "JavaScript ``number`` 作为GDScript的 :ref:`class_float` 返回"
+msgstr "JavaScript ``number`` 会以 :ref:`class_float` 返回"
 
-#, fuzzy
 msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
-msgstr "JavaScript ``boolean`` 作为GDScript的 :ref:`class_bool` 返回"
+msgstr "JavaScript ``boolean`` 会以 :ref:`class_bool` 返回"
 
-#, fuzzy
 msgid "JavaScript ``string`` is returned as :ref:`class_String`"
-msgstr "JavaScript ``string`` 作为GDScript的 :ref:`class_String` 返回"
+msgstr "JavaScript ``string`` 会以 :ref:`class_String` 返回"
 
-#, fuzzy
 msgid ""
 "JavaScript ``ArrayBuffer``, ``TypedArray`` and ``DataView`` are returned as :"
 "ref:`PackedByteArray<class_PackedByteArray>`"
 msgstr ""
-"JavaScript ``RellBuffer``, ``TypedArray`` 和 ``DataView`` 作为GDScript的 :"
-"ref:`class_PoolByteArray` 返回"
+"JavaScript ``RellBuffer`` ， ``TypedArray`` 和 ``DataView`` 会以 :ref:"
+"`class_PoolByteArray` 返回"
 
 msgid "Any other JavaScript value is returned as ``null``."
 msgstr "任何其他JavaScript值都返回为 ``null`` ."

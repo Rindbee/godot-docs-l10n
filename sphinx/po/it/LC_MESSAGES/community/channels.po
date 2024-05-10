@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,13 +112,11 @@ msgstr "`Youtube <https://www.youtube.com/c/GodotEngineOfficial>`_"
 msgid "`Steam <https://steamcommunity.com/app/404790>`_"
 msgstr "`Steam <https://steamcommunity.com/app/404790>`_"
 
-#, fuzzy
 msgid "`itch.io <https://godotengine.itch.io/godot>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`itch.io <https://godotengine.itch.io/godot>`_"
 
-#, fuzzy
 msgid "`linkin.bio <https://linkin.bio/godot>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`linkin.bio <https://linkin.bio/godot>`_"
 
 msgid "Language-based communities"
 msgstr "Comunità basate sulla lingua"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Singletons (Autoload)"
-msgstr "Tekil nesneler"
+msgstr ""
 
 msgid "Introduction"
 msgstr "Giriş"
@@ -87,9 +86,8 @@ msgid ""
 "<doc_making_plugins_autoload>` when the plugin is enabled."
 msgstr ""
 
-#, fuzzy
 msgid "Autoload"
-msgstr "Otomatik Yükleme"
+msgstr ""
 
 msgid ""
 "You can create an Autoload to load a scene or a script that inherits from :"
@@ -116,14 +114,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"This means that any node can access a singleton named \"PlayerVariables\" "
-"with:"
-msgstr ""
-
-msgid ""
 "If the **Enable** column is checked (which is the default), then the "
-"singleton can be accessed directly in GDScript, without requiring "
-"``get_node()``:"
+"singleton can be accessed directly in GDScript:"
 msgstr ""
 
 msgid ""
@@ -161,9 +153,8 @@ msgid ""
 "``scene_1.tscn``. However, pressing the button does nothing."
 msgstr ""
 
-#, fuzzy
 msgid "Creating the script"
-msgstr "Yeni bir betik oluşturmak"
+msgstr ""
 
 msgid ""
 "Open the **Script** window and create a new script called ``global.gd``. "

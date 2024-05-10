@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,28 +91,34 @@ msgstr ""
 msgid "If you have an Apple Developer ID Certificate and exporting from macOS"
 msgstr "如果你有 Apple 开发者 ID 证书"
 
+#, fuzzy
 msgid ""
 "Install `Xcode <https://developer.apple.com/xcode/>`__ command line tools "
 "and open Xcode at least once or run the ``sudo xcodebuild -license accept`` "
 "command to accept license agreement."
 msgstr ""
+"安装`Xcode <https://developer.apple.com/xcode/>`__命令行工具并打开Xcode，或者"
+"运行命令``sudo xcodebuild -license accept``以接受许可协议。"
 
+#, fuzzy
 msgid "To sign exported app"
-msgstr ""
+msgstr "为导出的应用签名"
 
 msgid "Select ``Xcode codesign`` in the ``Code Signing > Codesign`` option."
-msgstr ""
+msgstr "在 ``Code Signing > Codesign`` 选项卡中选择 ``Xcode codesign`` 选项。"
 
 msgid ""
 "Set valid Apple ID certificate identity (certificate \"Common Name\") in the "
 "``Code Signing > Identity`` section."
 msgstr ""
+"在“Code Signing>Identity”部分中设置有效的Apple ID证书Identity（证书“Common "
+"Name”）。"
 
 msgid "To notarize exported app"
 msgstr ""
 
 msgid "Select ``Xcode altool`` in the ``Notarization > Notarization`` option."
-msgstr ""
+msgstr "在“Notarization>Notarization”选项中选择“Xcode altool”。"
 
 #, fuzzy
 msgid "Disable the ``Debugging`` entitlement."
@@ -123,6 +129,9 @@ msgid ""
 "<https://developer.apple.com/documentation/appstoreconnectapi>`__ API UUID / "
 "Key in the ``Notarization`` section."
 msgstr ""
+"设置有效的Apple ID登录/App。特定密码或`App Store Connect <https://developer."
+"apple.com/documentation/appstoreconnectapi>`__API UUID/Key在'Notarization'部"
+"分。"
 
 msgid ""
 "You can use the ``xcrun notarytool history`` command to check notarization "
@@ -163,35 +172,42 @@ msgid ""
 "tree/main/apple-codesign>`__, and configure the path to ``rcodesign`` in the "
 "``Editor Settings > Export > macOS > rcodesign``."
 msgstr ""
+"那么就安装 `PyOxidizer rcodesign <https://github.com/indygreg/apple-platform-"
+"rs/tree/main/apple-codesign>` ，并在 ``Editor Settings > Export > macOS > "
+"rcodesign`` 中配置 ``rcodesign`` 路径。"
 
 msgid ""
 "Select ``PyOxidizer rcodesign`` in the ``Code Signing > Codesign`` option."
 msgstr ""
+"在 ``Code Signing > Codesign`` 选项中选中 ``Code Signing > Codesign`` 。"
 
 msgid ""
 "Set valid Apple ID PKCS #12 certificate file and password in the ``Code "
 "Signing`` section."
-msgstr ""
+msgstr "在 ``Code Signing`` 模块设置有效的 Apple ID PKCS #12 证书文件和密码。"
 
 msgid ""
 "Select ``PyOxidizer rcodesign`` in the ``Notarization > Notarization`` "
 "option."
 msgstr ""
+"在 ``Notarization > Notarization`` 选项中选中 ``PyOxidizer rcodesign`` 。"
 
 msgid ""
 "Set valid `App Store Connect <https://developer.apple.com/documentation/"
 "appstoreconnectapi>`__ API UUID / Key in the ``Notarization`` section."
 msgstr ""
+"在 ``Notarization`` 模块须设置有效的 `App Store Connect <https://developer."
+"apple.com/documentation/appstoreconnectapi>`__ API UUID / Key 。"
 
 msgid ""
 "You can use the ``rcodesign notary-log`` command to check notarization "
 "status."
-msgstr ""
+msgstr "你可以使用 ``rcodesign notary-log`` 命令来检查公证状态。"
 
 msgid ""
 "After notarization is completed, use the ``rcodesign staple`` command to "
 "staple the ticket to the exported project."
-msgstr ""
+msgstr "当公证完成，用 ``rcodesign staple`` 命令将公证证书导出到项目。"
 
 msgid "If you do not have an Apple Developer ID Certificate"
 msgstr "如果你没有 Apple 开发者 ID 证书"
@@ -199,9 +215,11 @@ msgstr "如果你没有 Apple 开发者 ID 证书"
 msgid ""
 "Select ``Built-in (ad-hoc only)`` in the ``Code Signing > Codesign`` option."
 msgstr ""
+"在“代码签名[Code Signing ]>[Codesign]”选项中选择“内置（仅特设）[Built-in (ad-"
+"hoc only)]”。"
 
 msgid "Select ``Disabled`` in the ``Notarization > Notarization`` option."
-msgstr ""
+msgstr "在“公证[Notarization]>公证[Notarization]”选项中选择“Disabled”。"
 
 #, fuzzy
 msgid ""
@@ -245,35 +263,34 @@ msgid "Certificate File"
 msgstr "SSL 证书"
 
 msgid "The PKCS #12 certificate file. [2]_"
-msgstr ""
+msgstr "PKCS#12证书文件"
 
 #, fuzzy
 msgid "Certificate Password"
 msgstr "SSL 证书"
 
 msgid "Password for the certificate file. [2]_"
-msgstr ""
+msgstr "证书文件的密码"
 
 #, fuzzy
 msgid "Custom Options"
 msgstr "自定义信号"
 
 msgid "Array of command line arguments passed to the code signing tool."
-msgstr ""
+msgstr "传递给代码签名工具的命令行参数数组。"
 
 #, fuzzy
 msgid "This option is visible only when signing with Xcode codesign."
 msgstr "这个选项仅在运行 macOS 的计算机上导出时可见。"
 
 msgid "These options are visible only when signing with PyOxidizer rcodesign."
-msgstr ""
+msgstr "这些选项只有在使用PyOxidizer rcodesign签名时才可见。"
 
 msgid "Notarization Options"
 msgstr "公证选项"
 
-#, fuzzy
 msgid "Notarization"
-msgstr "归一化"
+msgstr "公证"
 
 #, fuzzy
 msgid "Tool to use for notarization."
@@ -313,23 +330,26 @@ msgid ""
 "Apple `App Store Connect <https://developer.apple.com/documentation/"
 "appstoreconnectapi>`__ API issuer UUID."
 msgstr ""
+"苹果App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API发行人UUID。"
 
 msgid "API Key"
-msgstr ""
+msgstr "API Key"
 
 msgid ""
 "Apple `App Store Connect <https://developer.apple.com/documentation/"
 "appstoreconnectapi>`__ API key."
 msgstr ""
+"苹果 `App Store Connect <https://developer.apple.com/documentation/"
+"appstoreconnectapi>`__ API密钥。"
 
 msgid ""
 "You should set either Apple ID Name/Password or App Store Connect API UUID/"
 "Key."
-msgstr ""
+msgstr "你应该设置Apple ID名称/密码或App Store Connect API UUID/Key。"
 
-#, fuzzy
 msgid "These options are visible only when notarizing with Xcode altool."
-msgstr "这个选项仅在运行 macOS 的计算机上导出时可见。"
+msgstr "这些选项只会在使用 Xcode altool 进行公证时显示。"
 
 msgid ""
 "See `Notarizing macOS Software Before Distribution <https://developer.apple."

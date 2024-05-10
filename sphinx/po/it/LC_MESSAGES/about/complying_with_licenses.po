@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -192,17 +192,11 @@ msgid ""
 "these ones in your project, but they're listed here for reference:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Engine.get_author_info<class_Engine_method_get_author_info>`"
-msgstr ""
-":ref:`CanvasItem.get_global_transform() "
-"<class_CanvasItem_method_get_global_transform>`"
+msgstr ":ref:`Engine.get_author_info<class_Engine_method_get_author_info>`"
 
-#, fuzzy
 msgid ":ref:`Engine.get_donor_info<class_Engine_method_get_donor_info>`"
-msgstr ""
-":ref:`CanvasItem.get_viewport_transform() "
-"<class_CanvasItem_method_get_viewport_transform>`"
+msgstr ":ref:`Engine.get_donor_info<class_Engine_method_get_donor_info>`"
 
 msgid "Credits screen"
 msgstr "Schermata dei crediti"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "GD0105: Attempted to export indexer property"
-msgstr ""
+msgstr "GD0105: Attempted to export indexer property"
 
 msgid "**Rule ID**"
 msgstr "**Regel-ID**"
 
-#, fuzzy
 msgid "GD0105"
-msgstr "GD0107"
+msgstr "GD0105"
 
 msgid "**Category**"
 msgstr "**Kategorie**"
@@ -34,11 +33,10 @@ msgid "Usage"
 msgstr "Verwendung"
 
 msgid "**Fix is breaking or non-breaking**"
-msgstr "**Breaking- oder nicht-Breaking-Fix**"
+msgstr "**Fix führt oder führt nicht zu Kompatibilitätsbruch**"
 
-#, fuzzy
 msgid "Non-breaking"
-msgstr "Breaking"
+msgstr "Kein Kompatibilitätsbruch"
 
 msgid "**Enabled by default**"
 msgstr "**Standardmäßig aktiviert**"
@@ -53,31 +51,33 @@ msgid ""
 "An indexer is annotated with the ``[Export]`` attribute. Indexers can't be "
 "exported."
 msgstr ""
+"Ein Indexer wird mit dem Attribut ``[Export]`` annotiert. Indexer können "
+"nicht exportiert werden."
 
 msgid "Rule description"
-msgstr "Beschreibung der Regel"
+msgstr "Regelbeschreibung"
 
 msgid "Godot doesn't allow exporting indexer properties."
-msgstr ""
+msgstr "Godot erlaubt nicht den Export von Indexer-Propertys."
 
 msgid "How to fix violations"
 msgstr "Wie man Verstöße behebt"
 
 msgid "To fix a violation of this rule, remove the ``[Export]`` attribute."
 msgstr ""
+"Um einen Verstoß gegen diese Regel zu beheben, entfernen Sie das Attribut "
+"``[Export]``."
 
 msgid "When to suppress warnings"
-msgstr "Wann Warnungen unterdrückt werden sollten"
+msgstr "Wann man Warnungen unterdrücken sollte"
 
-#, fuzzy
 msgid ""
 "Do not suppress a warning from this rule. Indexers can't be exported so they "
 "will be ignored by Godot, resulting in runtime errors."
 msgstr ""
-"Unterdrücken Sie nicht eine Warnung dieser Regel. Typen, die nicht von "
-"``Node`` ableiten, sind nicht in der Lage, die richtige Node-Instanz für "
-"exportierte ``Node``-Member zu finden, was zu unerwarteten Laufzeitfehlern "
-"führt."
+"Unterdrücken Sie nicht eine Warnung zu dieser Regel. Da Indexer nicht "
+"exportiert werden können, werden sie von Godot ignoriert, was zu "
+"Laufzeitfehlern führt."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

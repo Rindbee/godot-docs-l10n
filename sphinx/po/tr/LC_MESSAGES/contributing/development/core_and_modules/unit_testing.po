@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Unit testing"
-msgstr "Düzenleyici ayarı"
+msgstr ""
 
 msgid ""
 "Godot Engine allows to write unit tests directly in C++. The engine "
@@ -30,9 +29,8 @@ msgid ""
 "instead, which is located at the root of the engine source code."
 msgstr ""
 
-#, fuzzy
 msgid "Platform and target support"
-msgstr "Platform desteği"
+msgstr ""
 
 msgid ""
 "C++ unit tests can be run on Linux, macOS, and Windows operating systems."
@@ -43,9 +41,8 @@ msgid ""
 "templates cannot be tested currently."
 msgstr ""
 
-#, fuzzy
 msgid "Running tests"
-msgstr "Sahneyi çalıştırmak"
+msgstr ""
 
 msgid ""
 "Before tests can be actually run, the engine must be compiled with the "
@@ -77,9 +74,8 @@ msgid ""
 "opening a pull request."
 msgstr ""
 
-#, fuzzy
 msgid "Filtering tests"
-msgstr "Dosyaları Filtrele"
+msgstr ""
 
 msgid ""
 "By default, all tests are run if you don't supply any extra arguments after "
@@ -94,16 +90,14 @@ msgid ""
 "in test suites, test cases, and source file names:"
 msgstr ""
 
-#, fuzzy
 msgid "**Filter options**"
-msgstr "**Yansımalar:**"
+msgstr ""
 
 msgid "**Shorthand**"
 msgstr ""
 
-#, fuzzy
 msgid "**Examples**"
-msgstr "**Örnek:**"
+msgstr "**Örnekler**"
 
 msgid "``--test-suite``"
 msgstr ""
@@ -147,9 +141,8 @@ msgid ""
 "In order to skip those kind of tests, run the following command:"
 msgstr ""
 
-#, fuzzy
 msgid "Writing tests"
-msgstr "El kitabı yazılması"
+msgstr ""
 
 msgid ""
 "Test suites represent C++ header files which must be included as part of the "
@@ -198,18 +191,16 @@ msgid ""
 "write module tests, refer to :ref:`doc_custom_module_unit_tests`."
 msgstr ""
 
-#, fuzzy
 msgid "Assertions"
-msgstr "**Sürüm**"
+msgstr ""
 
 msgid ""
 "A list of all commonly used assertions used throughout the Godot tests, "
 "sorted by severity."
 msgstr ""
 
-#, fuzzy
 msgid "**Assertion**"
-msgstr "**Sürüm**"
+msgstr ""
 
 msgid "**Description**"
 msgstr ""
@@ -278,9 +269,8 @@ msgid ""
 "doc/markdown/assertions.md>`_."
 msgstr ""
 
-#, fuzzy
 msgid "Logging"
-msgstr "Hata Ayıklama"
+msgstr ""
 
 msgid ""
 "The test output is handled by doctest itself, and does not rely on Godot "
@@ -324,9 +314,8 @@ msgid ""
 "markdown/logging.md>`_."
 msgstr ""
 
-#, fuzzy
 msgid "Testing failure paths"
-msgstr "Çevirileri test etmek"
+msgstr ""
 
 msgid ""
 "Sometimes, it's not always feasible to test for an *expected* result. With "
@@ -349,9 +338,8 @@ msgid ""
 "from the engine, for instance:"
 msgstr ""
 
-#, fuzzy
 msgid "Test tools"
-msgstr "2B araçlar"
+msgstr ""
 
 msgid ""
 "Test tools are advanced methods which allow you to run arbitrary procedures "
@@ -403,9 +391,8 @@ msgstr ""
 msgid "tests for warnings;"
 msgstr ""
 
-#, fuzzy
 msgid "tests for features."
-msgstr "Özellikler listesi"
+msgstr ""
 
 msgid ""
 "Therefore, the process of writing integration tests for GDScript is the "

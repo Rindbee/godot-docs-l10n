@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,9 +38,8 @@ msgid ""
 "<doc_c_sharp_platforms>`."
 msgstr ""
 
-#, fuzzy
 msgid "Install OpenJDK 17"
-msgstr "OpenJDK 11 yükleyin"
+msgstr ""
 
 msgid ""
 "Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
@@ -74,9 +73,8 @@ msgstr ""
 msgid "Android SDK Build-Tools version 33.0.2"
 msgstr ""
 
-#, fuzzy
 msgid "Android SDK Platform 33"
-msgstr "Android SDK Platform 31"
+msgstr ""
 
 msgid "Android SDK Command-line Tools (latest)"
 msgstr ""
@@ -88,14 +86,18 @@ msgid "NDK version r23c (23.2.8568313)"
 msgstr ""
 
 msgid ""
-"Alternatively, you can install the Android SDK using the `command line tools "
-"<https://developer.android.com/studio/#command-line-tools-only>`__."
+"Alternatively, you can install the Android SDK with the `sdkmanager` command "
+"line tool."
 msgstr ""
 
 msgid ""
-"Once the command line tools are installed, run the `sdkmanager <https://"
-"developer.android.com/studio/command-line/sdkmanager>`__ command to complete "
-"the setup process:"
+"Install the command line tools package using these `instructions <https://"
+"developer.android.com/tools/sdkmanager>`__."
+msgstr ""
+
+msgid ""
+"Once the command line tools are installed, run the following `sdkmanager` "
+"command to complete the setup process:"
 msgstr ""
 
 msgid ""
@@ -309,17 +311,14 @@ msgid ""
 "that you set in the export menu."
 msgstr ""
 
-#, fuzzy
 msgid "Android export environment variables"
-msgstr "Android (deneysel)"
+msgstr ""
 
-#, fuzzy
 msgid "Export option"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
-#, fuzzy
 msgid "Environment variable"
-msgstr "Ortam özellikleri"
+msgstr ""
 
 msgid "Encryption / Encryption Key"
 msgstr ""

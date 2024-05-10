@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1758,101 +1758,144 @@ msgstr "``animation_editor/goto_prev_step``"
 msgid "Tile Map Editor"
 msgstr "Éditeur de Tile Map(Carte de Tuile)"
 
-msgid "Find Tile"
-msgstr "Rechercher une tuile"
+msgid "Select"
+msgstr "Sélectionner"
 
-msgid "``tile_map_editor/find_tile``"
+#, fuzzy
+msgid "``tiles_editor/selection_tool``"
+msgstr "``tile_map_editor/cut_selection``"
+
+msgid "Cut Selection"
+msgstr "Couper la sélection"
+
+#, fuzzy
+msgid "``tiles_editor/cut``"
+msgstr "``tile_map_editor/select``"
+
+#, fuzzy
+msgid "``tiles_editor/copy``"
+msgstr "``script_text_editor/copy``"
+
+#, fuzzy
+msgid "Paste Selection"
+msgstr "Supprimer la sélection"
+
+#, fuzzy
+msgid "``tiles_editor/paste``"
+msgstr "``tile_map_editor/paint_tile``"
+
+#, fuzzy
+msgid "``tiles_editor/delete``"
+msgstr "``tile_map_editor/select``"
+
+msgid "Cancel"
+msgstr ""
+
+#, fuzzy
+msgid ":kbd:`Esc`"
+msgstr ":kbd:`E`"
+
+#, fuzzy
+msgid "``tiles_editor/cancel``"
+msgstr "``tile_map_editor/select``"
+
+msgid "Paint"
+msgstr "Peindre"
+
+#, fuzzy
+msgid "``tiles_editor/paint_tool``"
+msgstr "``tile_map_editor/paint_tile``"
+
+msgid "Line"
+msgstr ""
+
+#, fuzzy
+msgid ":kbd:`L`"
+msgstr ":kbd:`Q`"
+
+#, fuzzy
+msgid "``tiles_editor/line_tool``"
 msgstr "``tile_map_editor/find_tile``"
 
-msgid "Pick Tile"
-msgstr "Sélectionner une tuile"
+#, fuzzy
+msgid "Rect"
+msgstr "Rect2"
 
-msgid ":kbd:`I`"
-msgstr ":kbd:`I`"
+#, fuzzy
+msgid "``tiles_editor/rect_tool``"
+msgstr "``tile_map_editor/select``"
 
-msgid "``tile_map_editor/pick_tile``"
-msgstr "``tile_map_editor/pick_tile``"
+#, fuzzy
+msgid "Bucket"
+msgstr "Remplissage du seau"
 
-msgid "Paint Tile"
-msgstr "Peindre la tuile"
+#, fuzzy
+msgid ":kbd:`B`"
+msgstr ":kbd:`Q`"
+
+#, fuzzy
+msgid "``tiles_editor/bucket_tool``"
+msgstr "``tile_map_editor/bucket_fill``"
+
+msgid "Picker"
+msgstr "Sélecteur"
 
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
 
-msgid "``tile_map_editor/paint_tile``"
-msgstr "``tile_map_editor/paint_tile``"
+#, fuzzy
+msgid "``tiles_editor/picker``"
+msgstr "``tile_map_editor/pick_tile``"
 
-msgid "Bucket Fill"
-msgstr "Remplissage du seau"
+#, fuzzy
+msgid "Eraser"
+msgstr "Phaser"
 
-msgid "``tile_map_editor/bucket_fill``"
-msgstr "``tile_map_editor/bucket_fill``"
-
-msgid "Transpose"
-msgstr "Transposer"
-
-msgid "``tile_map_editor/transpose``"
-msgstr "``tile_map_editor/transpose``"
+#, fuzzy
+msgid "``tiles_editor/eraser``"
+msgstr "``tileset_editor/next_shape``"
 
 msgid "Flip Horizontally"
 msgstr "Retourner horizontalement"
 
-msgid ":kbd:`X`"
-msgstr ":kbd:`X`"
+#, fuzzy
+msgid ":kbd:`C`"
+msgstr ":kbd:`Q`"
 
-msgid "``tile_map_editor/flip_horizontal``"
+#, fuzzy
+msgid "``tiles_editor/flip_tile_horizontal``"
 msgstr "``tile_map_editor/flip_horizontal``"
 
 msgid "Flip Vertically"
 msgstr "Retourner verticalement"
 
-msgid ":kbd:`Z`"
-msgstr ":kbd:`Z`"
+#, fuzzy
+msgid ":kbd:`V`"
+msgstr ":kbd:`Q`"
 
-msgid "``tile_map_editor/flip_vertical``"
+#, fuzzy
+msgid "``tiles_editor/flip_tile_vertical``"
 msgstr "``tile_map_editor/flip_vertical``"
 
 msgid "Rotate Left"
 msgstr "Rotation vers la gauche"
 
-msgid "``tile_map_editor/rotate_left``"
+msgid ":kbd:`Z`"
+msgstr ":kbd:`Z`"
+
+#, fuzzy
+msgid "``tiles_editor/rotate_tile_left``"
 msgstr "``tile_map_editor/rotate_left``"
 
 msgid "Rotate Right"
 msgstr "Rotation vers la droite"
 
-msgid "``tile_map_editor/rotate_right``"
+msgid ":kbd:`X`"
+msgstr ":kbd:`X`"
+
+#, fuzzy
+msgid "``tiles_editor/rotate_tile_right``"
 msgstr "``tile_map_editor/rotate_right``"
-
-msgid "Clear Transform"
-msgstr "Supprimer la transformation"
-
-msgid "``tile_map_editor/clear_transform``"
-msgstr "``tile_map_editor/clear_transform``"
-
-msgid "Select"
-msgstr "Sélectionner"
-
-msgid ":kbd:`M`"
-msgstr ":kbd:`M`"
-
-msgid "``tile_map_editor/select``"
-msgstr "``tile_map_editor/select``"
-
-msgid "Cut Selection"
-msgstr "Couper la sélection"
-
-msgid "``tile_map_editor/cut_selection``"
-msgstr "``tile_map_editor/cut_selection``"
-
-msgid "``tile_map_editor/copy_selection``"
-msgstr "``tile_map_editor/copy_selection``"
-
-msgid "Erase Selection"
-msgstr "Supprimer la sélection"
-
-msgid "``tile_map_editor/erase_selection``"
-msgstr "``tile_map_editor/erase_selection``"
 
 msgid "Tileset Editor"
 msgstr "Éditeur de Tileset"

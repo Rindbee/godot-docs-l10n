@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,15 +45,11 @@ msgid ""
 "trenchbroom/>`__ and import them in Godot."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can check how to use CSG nodes to build various shapes (such as stairs "
 "or roads) using the `Constructive Solid Geometry demo project <https://"
 "github.com/godotengine/godot-demo-projects/tree/master/3d/csg>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Introduction to CSG nodes"
 msgstr "CSG düğümlerine giriş"
@@ -63,30 +59,26 @@ msgid ""
 "are the CSG nodes:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`CSGBox3D <class_CSGBox3D>`"
-msgstr ":ref:`class_BoxShape`"
+msgstr ""
 
 msgid ":ref:`CSGCylinder3D <class_CSGCylinder3D>` (also supports cone)"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`CSGSphere3D <class_CSGSphere3D>`"
-msgstr ":ref:`class_SphereShape`"
+msgstr ""
 
 msgid ":ref:`CSGTorus3D <class_CSGTorus3D>`"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`CSGPolygon3D <class_CSGPolygon3D>`"
-msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
+msgstr ""
 
 msgid ":ref:`CSGMesh3D <class_CSGMesh3D>`"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`CSGCombiner3D <class_CSGCombiner3D>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid "CSG tools features"
 msgstr ""
@@ -256,13 +248,10 @@ msgid ""
 "adjust its dimension for the mattress."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "We will create another CSGCombiner3D named ``pillow`` as the child of  "
 "``bed``. The scene tree should look like this:"
 msgstr ""
-"``bed`` 'in alt-öğesi olarak ``pillow`` (yastık) isminde başka bir "
-"CSGCombiner oluşturacağız. Sahne ağacınız bunun gibi görünmelidir:"
 
 msgid ""
 "We will combine 3 CSGSphere3D nodes in **Union** mode to form a pillow. "
@@ -395,9 +384,8 @@ msgid ""
 "choose **Paste**."
 msgstr ""
 
-#, fuzzy
 msgid "Exporting as glTF"
-msgstr "Dışa Aktarım"
+msgstr ""
 
 msgid ""
 "It can be useful to block out a level using CSG, then export it as a 3d "

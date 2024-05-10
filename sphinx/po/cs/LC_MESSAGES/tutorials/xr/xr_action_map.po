@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,7 +211,7 @@ msgid "Description"
 msgstr "Popis"
 
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #, fuzzy
 msgid "my_first_action_set"
@@ -235,10 +235,10 @@ msgid ""
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "0"
-msgstr ""
+msgstr "0"
 
 msgid ""
 "This is the priority of the action set. If multiple active action sets have "
@@ -247,7 +247,7 @@ msgid ""
 msgstr ""
 
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 msgid ""
 "In the XR action map, actions are the entities that your game/application "
@@ -355,7 +355,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The aim pose on most controllers is positioned slightly infront of the "
+"The aim pose on most controllers is positioned slightly in front of the "
 "controller and aims forward. This is a great pose to use for laser pointers "
 "or to align the muzzle of a weapon with."
 msgstr ""

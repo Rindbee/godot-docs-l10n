@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,9 +20,8 @@ msgstr ""
 msgid "Running code in the editor"
 msgstr ""
 
-#, fuzzy
 msgid "What is ``@tool``?"
-msgstr "Godot nedir?"
+msgstr ""
 
 msgid ""
 "``@tool`` is a powerful line of code that, when added at the top of your "
@@ -63,9 +62,8 @@ msgid ""
 "free a node while the editor runs logic involving it."
 msgstr ""
 
-#, fuzzy
 msgid "How to use ``@tool``"
-msgstr "Godot nedir?"
+msgstr "``@tool`` nasıl kullanılır"
 
 msgid ""
 "To turn a script into a tool, add the ``@tool`` annotation at the top of "
@@ -208,9 +206,8 @@ msgid ""
 "sensitive):"
 msgstr ""
 
-#, fuzzy
 msgid "Creating an editor script in the script editor creation dialog"
-msgstr "Denetleyici ile etkileşmek"
+msgstr ""
 
 msgid ""
 "This will automatically select a script template that is suited for "

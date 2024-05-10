@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "C# Variant"
-msgstr "Alt-Çeşit"
+msgstr ""
 
 msgid ""
 "For a detailed explanation of Variant in general, see the :ref:`Variant "
@@ -73,13 +72,11 @@ msgstr ""
 msgid "Full list of Variant types and their equivalent C# type:"
 msgstr ""
 
-#, fuzzy
 msgid "Variant.Type"
-msgstr "Alt-Çeşit"
+msgstr ""
 
-#, fuzzy
 msgid "C# Type"
-msgstr "Tip"
+msgstr ""
 
 msgid "``Nil``"
 msgstr ""
@@ -99,31 +96,26 @@ msgstr ""
 msgid "``long`` (Godot stores 64-bit integers in Variant)"
 msgstr ""
 
-#, fuzzy
 msgid "``Float``"
-msgstr "Float"
+msgstr ""
 
 msgid "``double`` (Godot stores 64-bit floats in Variant)"
 msgstr ""
 
-#, fuzzy
 msgid "``String``"
-msgstr "Dize"
+msgstr ""
 
-#, fuzzy
 msgid "``string``"
-msgstr "Dize"
+msgstr ""
 
-#, fuzzy
 msgid "``Vector2``"
-msgstr "Vektör"
+msgstr ""
 
 msgid "``Godot.Vector2``"
 msgstr ""
 
-#, fuzzy
 msgid "``Vector2I``"
-msgstr "Vektör"
+msgstr ""
 
 msgid "``Godot.Vector2I``"
 msgstr ""
@@ -140,56 +132,47 @@ msgstr ""
 msgid "``Godot.Rect2I``"
 msgstr ""
 
-#, fuzzy
 msgid "``Vector3``"
-msgstr "Vektör"
+msgstr ""
 
 msgid "``Godot.Vector3``"
 msgstr ""
 
-#, fuzzy
 msgid "``Vector3I``"
-msgstr "Vektör"
+msgstr ""
 
 msgid "``Godot.Vector3I``"
 msgstr ""
 
-#, fuzzy
 msgid "``Transform2D``"
-msgstr "``dönüştürme``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.Transform2D``"
-msgstr "``dönüştürme``"
+msgstr ""
 
-#, fuzzy
 msgid "``Vector4``"
-msgstr "Vektör"
+msgstr ""
 
 msgid "``Godot.Vector4``"
 msgstr ""
 
-#, fuzzy
 msgid "``Vector4I``"
-msgstr "Vektör"
+msgstr ""
 
 msgid "``Godot.Vector4I``"
 msgstr ""
 
-#, fuzzy
 msgid "``Plane``"
-msgstr "Düzlem"
+msgstr ""
 
 msgid "``Godot.Plane``"
 msgstr ""
 
-#, fuzzy
 msgid "``Quaternion``"
-msgstr "``Rotation``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.Quaternion``"
-msgstr "``Rotation``"
+msgstr ""
 
 msgid "``Aabb``"
 msgstr ""
@@ -197,51 +180,41 @@ msgstr ""
 msgid "``Godot.Aabb``"
 msgstr ""
 
-#, fuzzy
 msgid "``Basis``"
-msgstr "Temel"
+msgstr ""
 
 msgid "``Godot.Basis``"
 msgstr ""
 
-#, fuzzy
 msgid "``Transform3D``"
-msgstr "``dönüştürme``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.Transform3D``"
-msgstr "``dönüştürme``"
+msgstr ""
 
-#, fuzzy
 msgid "``Projection``"
-msgstr "``bağlantı``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.Projection``"
-msgstr "``bağlantı``"
+msgstr ""
 
-#, fuzzy
 msgid "``Color``"
-msgstr "``Color8``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.Color``"
-msgstr "``Color8``"
+msgstr ""
 
-#, fuzzy
 msgid "``StringName``"
-msgstr "Dize"
+msgstr ""
 
 msgid "``Godot.StringName``"
 msgstr ""
 
-#, fuzzy
 msgid "``NodePath``"
-msgstr "``$DüğümYolu``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.NodePath``"
-msgstr "``$DüğümYolu``"
+msgstr ""
 
 msgid "``Rid``"
 msgstr ""
@@ -249,9 +222,8 @@ msgstr ""
 msgid "``Godot.Rid``"
 msgstr ""
 
-#, fuzzy
 msgid "``Object``"
-msgstr "Nesne"
+msgstr ""
 
 msgid "``Godot.GodotObject`` or any derived type."
 msgstr ""
@@ -262,16 +234,14 @@ msgstr ""
 msgid "``Godot.Callable``"
 msgstr ""
 
-#, fuzzy
 msgid "``Signal``"
-msgstr "Sinyal"
+msgstr ""
 
 msgid "``Godot.Signal``"
 msgstr ""
 
-#, fuzzy
 msgid "``Dictionary``"
-msgstr "``bağlantı``"
+msgstr ""
 
 msgid "``Godot.Collections.Dictionary``"
 msgstr ""
@@ -297,9 +267,8 @@ msgstr ""
 msgid "``PackedInt64Array``"
 msgstr ""
 
-#, fuzzy
 msgid "``long[]``"
-msgstr "``Color[]``"
+msgstr ""
 
 msgid "``PackedFloat32Array``"
 msgstr ""
@@ -310,38 +279,32 @@ msgstr ""
 msgid "``PackedFloat64Array``"
 msgstr ""
 
-#, fuzzy
 msgid "``double[]``"
-msgstr "``Color[]``"
+msgstr ""
 
 msgid "``PackedStringArray``"
 msgstr ""
 
-#, fuzzy
 msgid "``string[]``"
-msgstr "``[]``"
+msgstr ""
 
 msgid "``PackedVector2Array``"
 msgstr ""
 
-#, fuzzy
 msgid "``Godot.Vector2[]``"
-msgstr "``Color[]``"
+msgstr ""
 
 msgid "``PackedVector3Array``"
 msgstr ""
 
-#, fuzzy
 msgid "``Godot.Vector3[]``"
-msgstr "``Color[]``"
+msgstr ""
 
-#, fuzzy
 msgid "``PackedColorArray``"
-msgstr "``Color8``"
+msgstr ""
 
-#, fuzzy
 msgid "``Godot.Color[]``"
-msgstr "``Color[]``"
+msgstr ""
 
 msgid ""
 "Godot uses 64-bit integers and floats in Variant. Smaller integer and float "

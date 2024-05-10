@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1117,9 +1117,8 @@ msgstr "Satırı Katla/Aç"
 msgid ":kbd:`Alt + F`"
 msgstr ":kbd:`Alt + F`"
 
-#, fuzzy
 msgid ":kbd:`Ctrl + Cmd + F`"
-msgstr ":kbd:`Ctrl + Cmd + J`"
+msgstr ""
 
 msgid "``script_text_editor/toggle_fold_line``"
 msgstr "``script_text_editor/toggle_fold_line``"
@@ -1133,9 +1132,8 @@ msgstr ":kbd:`Ctrl + Shift + D`"
 msgid ":kbd:`Cmd + Shift + C`"
 msgstr ":kbd:`Cmd + Shift + C`"
 
-#, fuzzy
 msgid "``script_text_editor/duplicate_selection``"
-msgstr "``script_text_editor/evaluate_selection``"
+msgstr ""
 
 msgid "Complete Symbol"
 msgstr "Sembolü Tamamla"
@@ -1680,13 +1678,11 @@ msgstr "``scene_tree/batch_rename``"
 msgid "Copy Node Path"
 msgstr "Düğüm Yolunu Kopyala"
 
-#, fuzzy
 msgid ":kbd:`Ctrl + Shift + C`"
-msgstr ":kbd:`Ctrl + Shift + W`"
+msgstr ""
 
-#, fuzzy
 msgid ":kbd:`Cmd + Shift +  C`"
-msgstr ":kbd:`Cmd + Shift + C`"
+msgstr ""
 
 msgid "``scene_tree/copy_node_path``"
 msgstr "``scene_tree/copy_node_path``"
@@ -1760,101 +1756,143 @@ msgstr "``animation_editor/goto_prev_step``"
 msgid "Tile Map Editor"
 msgstr "Karo Haritası Düzenleyici"
 
-msgid "Find Tile"
-msgstr "Karo Bul"
+msgid "Select"
+msgstr "Seç"
 
-msgid "``tile_map_editor/find_tile``"
+#, fuzzy
+msgid "``tiles_editor/selection_tool``"
+msgstr "``tile_map_editor/cut_selection``"
+
+msgid "Cut Selection"
+msgstr "Seçimi Kes"
+
+#, fuzzy
+msgid "``tiles_editor/cut``"
+msgstr "``tile_map_editor/select``"
+
+#, fuzzy
+msgid "``tiles_editor/copy``"
+msgstr "``script_text_editor/copy``"
+
+#, fuzzy
+msgid "Paste Selection"
+msgstr "Seçimi Sil"
+
+#, fuzzy
+msgid "``tiles_editor/paste``"
+msgstr "``tile_map_editor/paint_tile``"
+
+#, fuzzy
+msgid "``tiles_editor/delete``"
+msgstr "``tile_map_editor/select``"
+
+#, fuzzy
+msgid "Cancel"
+msgstr "France"
+
+#, fuzzy
+msgid ":kbd:`Esc`"
+msgstr ":kbd:`E`"
+
+#, fuzzy
+msgid "``tiles_editor/cancel``"
+msgstr "``tile_map_editor/select``"
+
+msgid "Paint"
+msgstr ""
+
+#, fuzzy
+msgid "``tiles_editor/paint_tool``"
+msgstr "``tile_map_editor/paint_tile``"
+
+msgid "Line"
+msgstr ""
+
+#, fuzzy
+msgid ":kbd:`L`"
+msgstr ":kbd:`Q`"
+
+#, fuzzy
+msgid "``tiles_editor/line_tool``"
 msgstr "``tile_map_editor/find_tile``"
 
-msgid "Pick Tile"
-msgstr "Karo Seç"
+msgid "Rect"
+msgstr ""
 
-msgid ":kbd:`I`"
-msgstr ":kbd:`I`"
+#, fuzzy
+msgid "``tiles_editor/rect_tool``"
+msgstr "``tile_map_editor/select``"
 
-msgid "``tile_map_editor/pick_tile``"
-msgstr "``tile_map_editor/pick_tile``"
+#, fuzzy
+msgid "Bucket"
+msgstr "Doldurma Kovası"
 
-msgid "Paint Tile"
-msgstr "Karo Boya"
+#, fuzzy
+msgid ":kbd:`B`"
+msgstr ":kbd:`Q`"
+
+#, fuzzy
+msgid "``tiles_editor/bucket_tool``"
+msgstr "``tile_map_editor/bucket_fill``"
+
+msgid "Picker"
+msgstr ""
 
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
 
-msgid "``tile_map_editor/paint_tile``"
-msgstr "``tile_map_editor/paint_tile``"
+#, fuzzy
+msgid "``tiles_editor/picker``"
+msgstr "``tile_map_editor/pick_tile``"
 
-msgid "Bucket Fill"
-msgstr "Doldurma Kovası"
+msgid "Eraser"
+msgstr ""
 
-msgid "``tile_map_editor/bucket_fill``"
-msgstr "``tile_map_editor/bucket_fill``"
-
-msgid "Transpose"
-msgstr "Tersini Al"
-
-msgid "``tile_map_editor/transpose``"
-msgstr "``tile_map_editor/transpose``"
+#, fuzzy
+msgid "``tiles_editor/eraser``"
+msgstr "``tileset_editor/next_shape``"
 
 msgid "Flip Horizontally"
 msgstr "Yatayda Ters Çevir"
 
-msgid ":kbd:`X`"
-msgstr ":kbd:`X`"
+#, fuzzy
+msgid ":kbd:`C`"
+msgstr ":kbd:`Q`"
 
-msgid "``tile_map_editor/flip_horizontal``"
+#, fuzzy
+msgid "``tiles_editor/flip_tile_horizontal``"
 msgstr "``tile_map_editor/flip_horizontal``"
 
 msgid "Flip Vertically"
 msgstr "Dikeyde Ters Çevir"
 
-msgid ":kbd:`Z`"
-msgstr ":kbd:`Z`"
+#, fuzzy
+msgid ":kbd:`V`"
+msgstr ":kbd:`Q`"
 
-msgid "``tile_map_editor/flip_vertical``"
+#, fuzzy
+msgid "``tiles_editor/flip_tile_vertical``"
 msgstr "``tile_map_editor/flip_vertical``"
 
 msgid "Rotate Left"
 msgstr "Sola Döndür"
 
-msgid "``tile_map_editor/rotate_left``"
+msgid ":kbd:`Z`"
+msgstr ":kbd:`Z`"
+
+#, fuzzy
+msgid "``tiles_editor/rotate_tile_left``"
 msgstr "``tile_map_editor/rotate_left``"
 
 msgid "Rotate Right"
 msgstr "Sağa Döndür"
 
-msgid "``tile_map_editor/rotate_right``"
+msgid ":kbd:`X`"
+msgstr ":kbd:`X`"
+
+#, fuzzy
+msgid "``tiles_editor/rotate_tile_right``"
 msgstr "``tile_map_editor/rotate_right``"
-
-msgid "Clear Transform"
-msgstr "Dönüştürmeyi Temizle"
-
-msgid "``tile_map_editor/clear_transform``"
-msgstr "``tile_map_editor/clear_transform``"
-
-msgid "Select"
-msgstr "Seç"
-
-msgid ":kbd:`M`"
-msgstr ":kbd:`M`"
-
-msgid "``tile_map_editor/select``"
-msgstr "``tile_map_editor/select``"
-
-msgid "Cut Selection"
-msgstr "Seçimi Kes"
-
-msgid "``tile_map_editor/cut_selection``"
-msgstr "``tile_map_editor/cut_selection``"
-
-msgid "``tile_map_editor/copy_selection``"
-msgstr "``tile_map_editor/copy_selection``"
-
-msgid "Erase Selection"
-msgstr "Seçimi Sil"
-
-msgid "``tile_map_editor/erase_selection``"
-msgstr "``tile_map_editor/erase_selection``"
 
 msgid "Tileset Editor"
 msgstr "Karo Seti Düzenleyici"

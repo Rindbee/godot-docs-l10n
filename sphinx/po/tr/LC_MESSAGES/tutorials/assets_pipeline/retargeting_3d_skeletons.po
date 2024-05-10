@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,9 +111,8 @@ msgid ""
 "sections below."
 msgstr ""
 
-#, fuzzy
 msgid "Remove Tracks"
-msgstr "Tüm Kesme Noktalarını Kaldır"
+msgstr ""
 
 msgid ""
 "If you import resources as an :ref:`class_animationlibrary` that will be "
@@ -123,16 +122,14 @@ msgid ""
 "the accessories to not animate."
 msgstr ""
 
-#, fuzzy
 msgid "Except Bone Transform"
-msgstr "Dönüştürmeyi Temizle"
+msgstr ""
 
 msgid "Removes any tracks except the bone Transform track from the animations."
 msgstr ""
 
-#, fuzzy
 msgid "Unimportant Positions"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
 msgid ""
 "Removes Position tracks other than ``root_bone`` and ``scale_base_bone`` "
@@ -149,9 +146,8 @@ msgstr ""
 msgid "Removes unmapped bone Transform tracks from the animations."
 msgstr ""
 
-#, fuzzy
 msgid "Bone Renamer"
-msgstr "Toplu Yeniden İsimlendir"
+msgstr ""
 
 msgid "Rename Bones"
 msgstr ""
@@ -159,9 +155,8 @@ msgstr ""
 msgid "Rename the mapped bones."
 msgstr ""
 
-#, fuzzy
 msgid "Unique Node"
-msgstr "Düğümleri Kes"
+msgstr ""
 
 msgid ""
 "Makes Skeleton a unique node with the name specified in the "
@@ -198,9 +193,8 @@ msgid ""
 "fix it with these options."
 msgstr ""
 
-#, fuzzy
 msgid "Apply Node Transform"
-msgstr "Dönüştürmeyi Temizle"
+msgstr ""
 
 msgid ""
 "If the asset is not exported correctly for sharing, the imported Skeleton "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using decals"
-msgstr "Sinyalleri kullanmak"
+msgstr ""
 
 msgid ""
 "Decals are only supported in the Clustered Forward and Forward Mobile "
@@ -57,13 +56,10 @@ msgstr ""
 msgid "How to balance decal configuration between performance and quality."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The Godot demo projects repository contains a `3D decals demo <https://"
 "github.com/godotengine/godot-demo-projects/tree/4.0-dev/3d/decals>`__."
 msgstr ""
-"Örnekler için `3B çerçeve ölçekleme demosu <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/viewport/3d_scaling>`__ 'na bakın."
 
 msgid ""
 "If you're looking to write arbitrary 3D text on top of a surface, use :ref:"
@@ -108,9 +104,8 @@ msgid ""
 "time (and then be removed using ``queue_free()``) to improve performance."
 msgstr ""
 
-#, fuzzy
 msgid "Blob shadows"
-msgstr "Gölgeler"
+msgstr ""
 
 msgid ""
 "Blob shadows are frequently used in mobile projects (or to follow a retro "
@@ -142,13 +137,11 @@ msgstr ""
 msgid "Quick start guide"
 msgstr ""
 
-#, fuzzy
 msgid "Creating decals in the editor"
-msgstr "Bir sinyali, düzenleyici içinden bağlamak"
+msgstr ""
 
-#, fuzzy
 msgid "Create a Decal node in the 3D editor."
-msgstr "Godot düzenleyici kullanarak tamamlanmış bir 2B oyun oluşturmak."
+msgstr ""
 
 msgid ""
 "In the inspector, expand the **Textures** section and load a texture in "
@@ -173,9 +166,8 @@ msgid ""
 "disable layer 2 in the decal's **Cull Mask** property."
 msgstr ""
 
-#, fuzzy
 msgid "Decal node properties"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
 msgid ""
 "**Extents:** The size of the decal. The Y axis determines the length of the "
@@ -243,9 +235,8 @@ msgid ""
 "performance cost due to the added normal angle computations."
 msgstr ""
 
-#, fuzzy
 msgid "Vertical Fade"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid ""
 "**Upper Fade:** The curve over which the decal will fade as the surface gets "
@@ -259,9 +250,8 @@ msgid ""
 "(away from the decal's projection angle). Only positive values are valid."
 msgstr ""
 
-#, fuzzy
 msgid "Distance Fade"
-msgstr "Mesafe"
+msgstr ""
 
 msgid ""
 "**Enabled:** Controls whether distance fade (a form of :abbr:`LOD (Level of "
@@ -282,9 +272,8 @@ msgid ""
 "transition, which is more suited when the camera moves fast."
 msgstr ""
 
-#, fuzzy
 msgid "Cull Mask"
-msgstr "Çarpışma Maskesi"
+msgstr ""
 
 msgid ""
 "**Cull Mask:** Specifies which VisualInstance3D layers this decal will "

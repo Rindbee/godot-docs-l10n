@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -418,9 +418,8 @@ msgstr "Реализация"
 
 #, fuzzy
 msgid ""
-"`drivers/vulkan/rendering_device_driver_vulkan.cpp <https://github.com/"
-"godotengine/godot/blob/4.2/drivers/vulkan/rendering_device_driver_vulkan."
-"cpp>`__"
+"`drivers/vulkan/rendering_device_vulkan.cpp <https://github.com/godotengine/"
+"godot/blob/4.2/drivers/vulkan/rendering_device_vulkan.cpp>`__"
 msgstr "https://github.com/godotengine/godot-demo-projects"
 
 #, fuzzy
@@ -796,14 +795,16 @@ msgid ""
 "yet."
 msgstr ""
 
-#, fuzzy
 msgid "Temporal antialiasing"
-msgstr "Множественная выборка сглаживания (MSAA)"
+msgstr "Временное сглаживание"
 
+#, fuzzy
 msgid ""
 "Only available in the Forward+ backend, not the Forward Mobile or "
 "Compatibility methods."
 msgstr ""
+"Доступно только в отрисовщике Forward+, не в методах Forward Mobile или "
+"Compatibility."
 
 msgid ""
 "Godot uses a custom TAA implementation based on the old TAA implementation "
@@ -829,9 +830,14 @@ msgid ""
 "top of the RenderingDevice abstraction as opposed to using AMD's reference "
 "code directly."
 msgstr ""
+"Альтернативно, FSR 2.2 можно использовать в качестве решения для "
+"масштабирования, которое также предоставляет собственный алгоритм временного "
+"сглаживания. FSR 2.2 реализован поверх абстракции RenderingDevice, а не "
+"напрямую с использованием референсного кода AMD."
 
+#, fuzzy
 msgid "**TAA resolve:**"
-msgstr ""
+msgstr "**TAA решение:**"
 
 #, fuzzy
 msgid ""
@@ -841,7 +847,7 @@ msgid ""
 msgstr "https://github.com/godotengine/godot-demo-projects"
 
 msgid "**FSR 2.2:**"
-msgstr ""
+msgstr "**FSR 2.2:**"
 
 #, fuzzy
 msgid ""
@@ -894,7 +900,7 @@ msgid ""
 msgstr ""
 
 msgid "**Core GI C++ code:**"
-msgstr ""
+msgstr "**Core GI C++ код:**"
 
 #, fuzzy
 msgid ""
@@ -973,8 +979,9 @@ msgid ""
 "shaders/environment/sdfgi_direct_light.glsl>`__"
 msgstr "https://github.com/godotengine/godot-demo-projects"
 
+#, fuzzy
 msgid "**Lightmapper C++ code:**"
-msgstr ""
+msgstr "**Lightmapper C++ код:**"
 
 #, fuzzy
 msgid ""
@@ -1034,10 +1041,13 @@ msgstr ""
 msgid "Depth of field"
 msgstr "Глубина резкости"
 
+#, fuzzy
 msgid ""
 "Only available in the Forward+ and Forward Mobile methods, not the "
 "Compatibility backend."
 msgstr ""
+"Доступно только в методах Forward+ и Forward Mobile, а не в отрисовщике "
+"Compatibility."
 
 msgid ""
 "The Forward+ and Forward Mobile methods use different approaches to DOF "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,21 +38,19 @@ msgstr "平台"
 msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
-msgstr ""
+msgstr "软硬件版本需求见 :ref:`doc_system_requirements`\\ 。"
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**可以运行编辑器以及导出项目的：**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 以及更新的系统版本（64 位和 32 位）。"
+msgstr "Windows（x86、64 位和 32 位）。"
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS（x86 和 ARM，仅 64 位）。"
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 以及更新的系统版本（64 位和 32 位）。"
+msgstr "Linux（x86 和 ARM，64 位和 32 位）。"
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -66,10 +64,12 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"官方可执行文件使用 `Godot Engine buildroot <https://github.com/godotengine/"
+"buildroot>`__ 编译，可执行文件能够在常见 Linux 发行版（包括对应的 LTS 版本）"
+"上正常运行。"
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr "Android 6.0及更高版本（编辑器支持是实验性的）。"
+msgstr "Android（编辑器支持是实验性的）。"
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -82,7 +82,7 @@ msgid "**Runs exported projects:**"
 msgstr "**运行导出的项目：**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS。"
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`主机 <doc_consoles>`。"
@@ -126,9 +126,8 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`调试器 <doc_debugger_panel>`。"
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "尚不支持在线程中调试。"
+msgstr "从 4.2 版本开始支持多线程调试。"
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -715,6 +714,13 @@ msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
 msgstr "支持最近邻、双线性、三线性、各向异性纹理过滤（全局设置）。"
+
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"可以选择距离渐变系统（distance fade system）来渐变远处的灯光及其阴影，提高性"
+"能。"
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -1839,7 +1845,7 @@ msgstr "使用宽松的 MIT 许可。"
 msgid ""
 "Open development process with :ref:`contributions welcome "
 "<doc_ways_to_contribute>`."
-msgstr "开放的开发过程, :ref:`欢迎贡献 <doc_ways_to_contribute>`\\ 。"
+msgstr "开放的开发过程，\\ :ref:`欢迎贡献 <doc_ways_to_contribute>`\\ 。"
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

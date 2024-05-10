@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Import configuration"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
 msgid ""
 "Godot provides several ways to customize the imported data, such as the "
@@ -87,9 +86,8 @@ msgid ""
 "or possibly both."
 msgstr ""
 
-#, fuzzy
 msgid "Using the Import dock"
-msgstr "Tema düzenleyiciyi kullanmak"
+msgstr ""
 
 msgid ""
 "The following options can be adjusted in the Import dock after selecting a "
@@ -117,9 +115,8 @@ msgid ""
 "multiply the scale of the root node instead."
 msgstr ""
 
-#, fuzzy
 msgid "**Meshes**"
-msgstr "Örgüler"
+msgstr ""
 
 msgid ""
 "**Ensure Tangents:** If checked, generate vertex tangents using `Mikktspace "
@@ -163,9 +160,8 @@ msgid ""
 "lightmap sizes and longer bake times."
 msgstr ""
 
-#, fuzzy
 msgid "**Skins**"
-msgstr "**Gökyüzü:**"
+msgstr ""
 
 msgid ""
 "**Use Named Skins:** If checked, use named :ref:`Skins <class_Skin>` for "
@@ -202,9 +198,8 @@ msgid ""
 "common in models exported from other tools such as Maya."
 msgstr ""
 
-#, fuzzy
 msgid "**Animation**"
-msgstr "Animasyon"
+msgstr ""
 
 msgid "**Import:** If checked, import animations from the 3D scene."
 msgstr ""
@@ -232,9 +227,8 @@ msgid ""
 "certain 3D scenes, depending on the contents of their animation tracks."
 msgstr ""
 
-#, fuzzy
 msgid "**Import Script**"
-msgstr "**Özellik Açıklamaları**"
+msgstr ""
 
 msgid ""
 "**Path:** Path to an import script, which can run code *after* the import "
@@ -274,9 +268,8 @@ msgid ""
 "Poly Haven <https://polyhaven.com/a/modern_arm_chair_01>`__"
 msgstr ""
 
-#, fuzzy
 msgid "**Configuring node import options**"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
 msgid ""
 "You can select individual nodes that compose the scene while in the "
@@ -375,11 +368,10 @@ msgid ""
 "individual meshes or materials:"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Switch to the **Meshes** or **Materials** tab in the top-left corner of the "
 "dialog."
-msgstr "Toplar, çerçevenin sol-üst köşesinde ortaya çıkarlar."
+msgstr ""
 
 msgid ""
 "Stay in the **Scene** tab, but unfold the options on the tree view on the "
@@ -396,9 +388,8 @@ msgstr ""
 msgid "Advanced Import Settings dialog (Meshes tab)"
 msgstr ""
 
-#, fuzzy
 msgid "The options are as follows:"
-msgstr "Bu metnin tamamı şöyledir:"
+msgstr ""
 
 msgid ""
 "**Save to File:** Saves the :ref:`class_Mesh` *resource* to an external file "
@@ -569,9 +560,8 @@ msgid ""
 "entirely different)."
 msgstr ""
 
-#, fuzzy
 msgid "Using animation libraries"
-msgstr "Animasyon Ağacını (AnimationTree) kullanmak"
+msgstr ""
 
 msgid ""
 "As of Godot 4.0, you can choose to import **only** animations from a glTF "
@@ -602,9 +592,8 @@ msgid ""
 "`doc_importing_3d_scenes_using_the_import_dock` for more information."
 msgstr ""
 
-#, fuzzy
 msgid "Filter script"
-msgstr "Betik Filtrele"
+msgstr ""
 
 msgid ""
 "It is possible to specify a filter script in a special syntax to decide "

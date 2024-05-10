@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using the Android editor"
-msgstr "Tema düzenleyiciyi kullanmak"
+msgstr ""
 
 msgid ""
 "In 2023, `we added <https://godotengine.org/article/"
@@ -48,13 +47,11 @@ msgstr ""
 msgid "Android-powered netbooks"
 msgstr ""
 
-#, fuzzy
 msgid "Chromebooks supporting Android apps"
-msgstr "Android eklentileri oluşturmak"
+msgstr ""
 
-#, fuzzy
 msgid "Required Permissions"
-msgstr "Gereklilikler"
+msgstr ""
 
 msgid ""
 "The Android editor requires the `All files access permission <https://"
@@ -71,13 +68,11 @@ msgstr ""
 msgid "Here are the known limitations and issues of the Android editor:"
 msgstr ""
 
-#, fuzzy
 msgid "No C#/Mono support"
-msgstr "C#/Mono desteği yok."
+msgstr ""
 
-#, fuzzy
 msgid "No support for external script editors"
-msgstr "Harici betik düzenleyiciler için destek yok."
+msgstr ""
 
 msgid ""
 "While available, the *Vulkan Forward+* renderer is not recommended due to "

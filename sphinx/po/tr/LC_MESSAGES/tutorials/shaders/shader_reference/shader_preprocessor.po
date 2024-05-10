@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Shader preprocessor"
-msgstr "Ön İşlem"
+msgstr ""
 
 msgid "Why use a shader preprocessor?"
 msgstr ""
@@ -49,9 +48,8 @@ msgid ""
 "visual shaders."
 msgstr ""
 
-#, fuzzy
 msgid "Directives"
-msgstr "Yön"
+msgstr ""
 
 msgid "General syntax"
 msgstr ""
@@ -278,9 +276,8 @@ msgid ""
 "``#else`` directives."
 msgstr ""
 
-#, fuzzy
 msgid "#include"
-msgstr "Başlık dosya içermeleri"
+msgstr ""
 
 msgid "**Syntax:** ``#include \"path\"``"
 msgstr ""

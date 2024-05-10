@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,15 +52,11 @@ msgid ""
 "`doc_class_reference_primer`."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can see how BBCode in RichTextLabel works in action using the `Rich Text "
 "Label with BBCode demo project <https://github.com/godotengine/godot-demo-"
 "projects/tree/master/gui/rich_text_bbcode>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Using BBCode"
 msgstr ""
@@ -161,9 +157,8 @@ msgid ""
 "during gameplay when the RichTextLabel's text is updated."
 msgstr ""
 
-#, fuzzy
 msgid "There are several ways to alleviate this:"
-msgstr "Şeritlenmeyi gidermek için iki ana yol vardır:"
+msgstr ""
 
 msgid ""
 "Use the ``append_text()`` function instead of appending to the ``text`` "
@@ -366,9 +361,8 @@ msgstr ""
 msgid "``[url={link}]{text}[/url]``"
 msgstr ""
 
-#, fuzzy
 msgid "**hint**"
-msgstr "**Yazı Tipi:**"
+msgstr ""
 
 msgid ""
 "Creates a tooltip hint that is displayed when hovering the text with the "
@@ -469,9 +463,8 @@ msgid ""
 "{bottom}]{text}[/dropcap]``"
 msgstr ""
 
-#, fuzzy
 msgid "**opentype_features**"
-msgstr "**Özellikler:**"
+msgstr ""
 
 msgid ""
 "Enables custom OpenType font features for ``{text}``. Features must be "
@@ -514,9 +507,8 @@ msgstr ""
 msgid "``[color={code/name}]{text}[/color]``"
 msgstr ""
 
-#, fuzzy
 msgid "**bgcolor**"
-msgstr "**Color**"
+msgstr ""
 
 msgid ""
 "Draws the color behind ``{text}``. This can be used to highlight text. "
@@ -526,9 +518,8 @@ msgstr ""
 msgid "``[bgcolor={code/name}]{text}[/bgcolor]``"
 msgstr ""
 
-#, fuzzy
 msgid "**fgcolor**"
-msgstr "**Color**"
+msgstr ""
 
 msgid ""
 "Draws the color in front of ``{text}``. This can be used to \"redact\" text "
@@ -551,9 +542,8 @@ msgstr ""
 msgid "``[/outline_size]``"
 msgstr ""
 
-#, fuzzy
 msgid "**outline_color**"
-msgstr "**Color**"
+msgstr ""
 
 msgid ""
 "Use custom outline color for ``{text}``. Accepts same values as the "
@@ -713,9 +703,8 @@ msgstr ""
 msgid "**align**"
 msgstr ""
 
-#, fuzzy
 msgid "`Values`"
-msgstr "Değer"
+msgstr ""
 
 msgid "``left``, ``center``, ``right``, ``fill``"
 msgstr ""
@@ -751,16 +740,14 @@ msgstr ""
 msgid "Inherit"
 msgstr "Miras Al"
 
-#, fuzzy
 msgid "Base BiDi direction."
-msgstr "Verilen yönde hareket et."
+msgstr ""
 
 msgid "**language**, **lang**"
 msgstr ""
 
-#, fuzzy
 msgid "ISO language codes. See :ref:`doc_locales`"
-msgstr "*Resimler:* Bakınız :ref:`doc_import_images`."
+msgstr ""
 
 msgid ""
 "Locale override. Some font files may contain script-specific substitutes, in "
@@ -810,9 +797,8 @@ msgid ""
 "``meta_clicked`` signal. For example:"
 msgstr ""
 
-#, fuzzy
 msgid "Image options"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
 msgid "Color name or color in HEX format"
 msgstr ""
@@ -823,9 +809,8 @@ msgstr ""
 msgid "**height**"
 msgstr ""
 
-#, fuzzy
 msgid "Number in pixels"
-msgstr "Sayılar"
+msgstr ""
 
 msgid "Target height of the image."
 msgstr ""
@@ -836,9 +821,8 @@ msgstr ""
 msgid "Target width of the image."
 msgstr ""
 
-#, fuzzy
 msgid "**region**"
-msgstr "**Sürüm**"
+msgstr ""
 
 msgid "x,y,width,height in pixels"
 msgstr ""
@@ -876,9 +860,8 @@ msgid ""
 "(``baseline``), and ``b`` (``bottom``)."
 msgstr ""
 
-#, fuzzy
 msgid "Font options"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
 msgid "**name**, **n**"
 msgstr ""
@@ -886,9 +869,8 @@ msgstr ""
 msgid "A valid Font resource path."
 msgstr ""
 
-#, fuzzy
 msgid "Font resource path."
-msgstr "Kaynak Yolu"
+msgstr ""
 
 msgid "**size**, **s**"
 msgstr ""
@@ -896,13 +878,11 @@ msgstr ""
 msgid "Number in pixels."
 msgstr ""
 
-#, fuzzy
 msgid "Custom font size."
-msgstr "Özel örgüler"
+msgstr ""
 
-#, fuzzy
 msgid "Named colors"
-msgstr "İsimlendirilmiş tipler"
+msgstr ""
 
 msgid ""
 "For tags that allow specifying a color by name you can use names of the "
@@ -928,16 +908,14 @@ msgid ""
 "supported as well."
 msgstr ""
 
-#, fuzzy
 msgid "Cell options"
-msgstr "Kaynak seçenekleri"
+msgstr ""
 
 msgid "**expand**"
 msgstr ""
 
-#, fuzzy
 msgid "Integer number"
-msgstr "sayı"
+msgstr ""
 
 msgid "1"
 msgstr "1"
@@ -947,9 +925,8 @@ msgid ""
 "proportionally to other cells and their expansion ratios."
 msgstr ""
 
-#, fuzzy
 msgid "**border**"
-msgstr "**Sunucu**"
+msgstr ""
 
 msgid "Cell border color."
 msgstr ""
@@ -980,9 +957,8 @@ msgid ""
 "paste directly in the ``bullet`` parameter."
 msgstr ""
 
-#, fuzzy
 msgid "Ordered list types"
-msgstr "Bildirilmiş tipler"
+msgstr ""
 
 msgid ""
 "Ordered lists can be used to automatically mark items with numbers or "
@@ -998,9 +974,8 @@ msgstr ""
 msgid "``i``, ``I`` - Lower and upper case Roman numerals."
 msgstr ""
 
-#, fuzzy
 msgid "Text effects"
-msgstr "Ses efektleri"
+msgstr ""
 
 msgid ""
 "BBCode can also be used to create different text effects that can optionally "

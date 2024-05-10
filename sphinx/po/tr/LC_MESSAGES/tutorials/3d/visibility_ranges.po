@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Visibility ranges (HLOD)"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
 msgid ""
 "Along with :ref:`doc_mesh_lod` and :ref:`doc_occlusion_culling`, visibility "
@@ -87,9 +86,8 @@ msgid ""
 "relevant to the player."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up visibility range"
-msgstr "Otomatik imzalamayı ayarlamak"
+msgstr ""
 
 msgid ""
 "This is a quick-start guide for configuring a basic LOD system. After "
@@ -136,9 +134,8 @@ msgid ""
 "transition from a sphere to a box as the camera moves away."
 msgstr ""
 
-#, fuzzy
 msgid "Visibility range properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "In the inspector of any node that inherits from GeometryInstance3D, you can "
@@ -191,7 +188,7 @@ msgid ""
 "**Disabled:** Uses hysteresis to switch between LOD levels instantly. This "
 "prevents situations where LOD levels are switched back and forth quickly "
 "when the player moves forward and then backward at the LOD transition point. "
-"The hystereis distance is determined by **Visibility Range > Begin Margin** "
+"The hysteresis distance is determined by **Visibility Range > Begin Margin** "
 "and **Visibility Range > End Margin**. This mode provides the best "
 "performance as it doesn't force rendering to become transparent during the "
 "fade transition."
@@ -218,9 +215,8 @@ msgid ""
 "hierarchical LOD."
 msgstr ""
 
-#, fuzzy
 msgid "Visibility parent"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
 msgid ""
 "The **Visibility Parent** property makes it easier to set up :abbr:`HLOD "
@@ -291,9 +287,8 @@ msgid ""
 "the visibility parent."
 msgstr ""
 
-#, fuzzy
 msgid "Configuration tips"
-msgstr "Animasyon ipuçları"
+msgstr ""
 
 msgid "Use simpler materials at a distance to improve performance"
 msgstr ""
@@ -339,20 +334,17 @@ msgstr "Yükseklik"
 msgid "Subsurface Scattering"
 msgstr "Yüzeyaltı Saçılması"
 
-#, fuzzy
 msgid "Back Lighting"
-msgstr "Işıklandırma"
+msgstr ""
 
 msgid "Refraction"
 msgstr "Kırılma"
 
-#, fuzzy
 msgid "Proximity Fade"
-msgstr "Öncelik Kipi"
+msgstr ""
 
-#, fuzzy
 msgid "Use dithering for LOD transitions"
-msgstr "Çevirileri test etmek"
+msgstr ""
 
 msgid ""
 "Godot currently only supports alpha-based fading for visibility ranges. You "

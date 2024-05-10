@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,9 +148,8 @@ msgstr ""
 msgid "13"
 msgstr ""
 
-#, fuzzy
 msgid "transform3d"
-msgstr "Dönüştürme"
+msgstr ""
 
 msgid "14"
 msgstr ""
@@ -209,16 +208,14 @@ msgstr ""
 msgid "23"
 msgstr ""
 
-#, fuzzy
 msgid "float32 array"
-msgstr "Yerel diziler"
+msgstr ""
 
 msgid "24"
 msgstr ""
 
-#, fuzzy
 msgid "float64 array"
-msgstr "Yerel diziler"
+msgstr ""
 
 msgid "25"
 msgstr ""
@@ -244,9 +241,8 @@ msgstr ""
 msgid "color array"
 msgstr ""
 
-#, fuzzy
 msgid "29"
-msgstr "2"
+msgstr ""
 
 msgid "max"
 msgstr ""
@@ -399,9 +395,8 @@ msgstr ""
 msgid "Distance"
 msgstr "Mesafe"
 
-#, fuzzy
 msgid "10: :ref:`Quaternion<class_quaternion>`"
-msgstr "3: :ref:`float<class_float>`"
+msgstr ""
 
 msgid "Imaginary X"
 msgstr ""
@@ -445,9 +440,8 @@ msgstr ""
 msgid "The Z component of the Z column vector, accessed via [2][2]"
 msgstr ""
 
-#, fuzzy
 msgid "13: :ref:`Transform3D<class_transform3d>`"
-msgstr "3: :ref:`float<class_float>`"
+msgstr ""
 
 msgid "40"
 msgstr ""
@@ -522,9 +516,8 @@ msgstr ""
 msgid "16: :ref:`RID<class_rid>` (unsupported)"
 msgstr ""
 
-#, fuzzy
 msgid "17: :ref:`Object<class_object>`"
-msgstr "3: :ref:`float<class_float>`"
+msgstr ""
 
 msgid ""
 "An Object could be serialized in three different ways: as a null value, with "
@@ -546,9 +539,8 @@ msgstr ""
 msgid "``full_objects`` enabled"
 msgstr ""
 
-#, fuzzy
 msgid "Class name (String length)"
-msgstr "Dize uzunluğu"
+msgstr ""
 
 msgid "Class name (UTF-8 encoded string)"
 msgstr ""
@@ -565,9 +557,8 @@ msgstr ""
 msgid "Y"
 msgstr ""
 
-#, fuzzy
 msgid "Property name (String length)"
-msgstr "Dize uzunluğu"
+msgstr ""
 
 msgid "Y+4"
 msgstr ""
@@ -584,9 +575,8 @@ msgstr ""
 msgid "W"
 msgstr ""
 
-#, fuzzy
 msgid "<variable>"
-msgstr "Yerel değişkenler"
+msgstr ""
 
 msgid "Property value, using this same format"
 msgstr ""
@@ -623,9 +613,8 @@ msgid ""
 "other, using this same format."
 msgstr ""
 
-#, fuzzy
 msgid "20: :ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "Array length (Bytes)"
 msgstr ""
@@ -642,9 +631,8 @@ msgstr ""
 msgid "The array data is padded to 4 bytes."
 msgstr ""
 
-#, fuzzy
 msgid "21: :ref:`PackedInt32Array<class_PackedInt32Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "Array length (Integers)"
 msgstr ""
@@ -652,16 +640,14 @@ msgstr ""
 msgid "8..8+length\\*4"
 msgstr ""
 
-#, fuzzy
 msgid "22: :ref:`PackedInt64Array<class_PackedInt64Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "8..8+length\\*8"
 msgstr ""
 
-#, fuzzy
 msgid "23: :ref:`PackedFloat32Array<class_PackedFloat32Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "Array length (Floats)"
 msgstr ""
@@ -669,16 +655,14 @@ msgstr ""
 msgid "32-bit IEEE 754 single-precision float"
 msgstr ""
 
-#, fuzzy
 msgid "24: :ref:`PackedFloat64Array<class_PackedFloat64Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "64-bit IEEE 754 double-precision float"
 msgstr ""
 
-#, fuzzy
 msgid "25: :ref:`PackedStringArray<class_PackedStringArray>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "Array length (Strings)"
 msgstr ""
@@ -689,9 +673,8 @@ msgstr ""
 msgid "Every string is padded to 4 bytes."
 msgstr ""
 
-#, fuzzy
 msgid "26: :ref:`PackedVector2Array<class_PackedVector2Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "Array length"
 msgstr "Dizi uzunluğu"
@@ -699,9 +682,8 @@ msgstr "Dizi uzunluğu"
 msgid "8..12+length\\*8"
 msgstr ""
 
-#, fuzzy
 msgid "27: :ref:`PackedVector3Array<class_PackedVector3Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "8..8+length\\*12"
 msgstr ""
@@ -712,9 +694,8 @@ msgstr ""
 msgid "8..16+length\\*12"
 msgstr ""
 
-#, fuzzy
 msgid "28: :ref:`PackedColorArray<class_PackedColorArray>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "8..8+length\\*16"
 msgstr ""

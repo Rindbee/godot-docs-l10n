@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Troubleshooting physics issues"
-msgstr "İşleme sorunlarına çözüm bulma"
+msgstr ""
 
 msgid ""
 "When working with a physics engine, you may encounter unexpected results."
@@ -111,9 +110,8 @@ msgstr ""
 msgid "Thin objects are wobbly when resting on the floor"
 msgstr ""
 
-#, fuzzy
 msgid "This can be due to one of two causes:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
 msgid "The floor's collision shape is too thin."
 msgstr ""
@@ -143,9 +141,8 @@ msgid ""
 "smooth appearance on most displays."
 msgstr ""
 
-#, fuzzy
 msgid "Cylinder collision shapes are unstable"
-msgstr "Çarpışma şekli ayarlamaları"
+msgstr ""
 
 msgid ""
 "During the transition from Bullet to GodotPhysics in Godot 4, cylinder "

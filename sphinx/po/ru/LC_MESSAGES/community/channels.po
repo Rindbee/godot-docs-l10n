@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,9 +41,8 @@ msgstr ""
 "Краткий обзор этих и других каналов также доступен на `веб-сайте Godot "
 "<https://godotengine.org/community>`_."
 
-#, fuzzy
 msgid "Forums"
-msgstr "Форум"
+msgstr "Форумы"
 
 #, fuzzy
 msgid "`Official Godot Forum <https://forum.godotengine.org/>`_"
@@ -54,7 +53,7 @@ msgid "`Community Forum <https://godotforums.org/>`_"
 msgstr "`Форумы Godot <https://godotforums.org/>`_"
 
 msgid "Chats"
-msgstr ""
+msgstr "Чаты"
 
 #, fuzzy
 msgid "`Godot Contributors Chat <https://chat.godotengine.org/>`_"

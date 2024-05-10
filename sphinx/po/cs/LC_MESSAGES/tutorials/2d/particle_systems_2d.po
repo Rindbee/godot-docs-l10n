@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgid "Your GPUParticles2D node should now be emitting white points downward."
 msgstr ""
 
 msgid "Texture"
-msgstr ""
+msgstr "Textura"
 
 msgid ""
 "A particle system can use a single texture or an animation *flipbook*. A "
@@ -226,7 +226,7 @@ msgid ""
 msgstr ""
 
 msgid "Randomness"
-msgstr ""
+msgstr "Náhodnost"
 
 msgid ""
 "All physics parameters can be randomized. Random values range from ``0`` to "
@@ -334,13 +334,13 @@ msgid ""
 msgstr ""
 
 msgid "Flatness"
-msgstr ""
+msgstr "Plochost"
 
 msgid "This property is only useful for 3D particles."
 msgstr ""
 
 msgid "Gravity"
-msgstr ""
+msgstr "Gravitace"
 
 msgid "The gravity applied to every particle."
 msgstr ""

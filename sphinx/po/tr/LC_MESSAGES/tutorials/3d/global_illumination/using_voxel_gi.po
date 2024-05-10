@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,9 +46,8 @@ msgstr ""
 msgid "VoxelGI enabled."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up VoxelGI"
-msgstr "Oynatıcıyı (VideoPlayer) Ayarlamak"
+msgstr ""
 
 msgid ""
 "Make sure your static level geometry is imported with the Light Baking "
@@ -89,9 +88,8 @@ msgid ""
 "ensuring it loads and saves quickly."
 msgstr ""
 
-#, fuzzy
 msgid "VoxelGI node properties"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
 msgid ""
 "The following properties can be adjusted in the VoxelGI node inspector "
@@ -162,9 +160,8 @@ msgid ""
 "leaking from the environment."
 msgstr ""
 
-#, fuzzy
 msgid "VoxelGI interaction with lights and objects"
-msgstr "Denetleyici ile etkileşmek"
+msgstr ""
 
 msgid ""
 "To ensure correct visuals when using VoxelGI, you must configure your meshes "

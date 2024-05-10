@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,9 +46,8 @@ msgid ""
 "current class. Here ``Control`` and ``Node2D`` both inherit ``CanvasItem``."
 msgstr ""
 
-#, fuzzy
 msgid "Brief Description"
-msgstr "Tanım"
+msgstr ""
 
 msgid ""
 "Next a brief description of the class. This text appears in Godot Editor "
@@ -81,9 +80,8 @@ msgstr ""
 msgid "Links to other related parts of the Godot API."
 msgstr ""
 
-#, fuzzy
 msgid "Tutorials"
-msgstr "Metin tabanlı öğreticiler"
+msgstr ""
 
 msgid ""
 "The page then provides links to parts of the manual which mention or make "
@@ -202,9 +200,8 @@ msgid ""
 "triggers the notification."
 msgstr ""
 
-#, fuzzy
 msgid "Property Descriptions"
-msgstr "**Özellik Açıklamaları**"
+msgstr ""
 
 msgid "The Property Descriptions list details everything about each property."
 msgstr ""
@@ -228,9 +225,8 @@ msgid ""
 "name or :ref:`Callable<class_Callable>` to something."
 msgstr ""
 
-#, fuzzy
 msgid "Method Descriptions"
-msgstr "Tanım"
+msgstr ""
 
 msgid "The Method Descriptions list details everything about each method."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Complex emission shapes"
-msgstr "Çarpışma Şekilleri"
+msgstr ""
 
 msgid ""
 "When it is not enough to emit particles from one of the simple shapes "
@@ -39,9 +38,8 @@ msgid ""
 "into one in an external DCC software."
 msgstr ""
 
-#, fuzzy
 msgid "Creating emission points"
-msgstr "Düğüm oluşturmak"
+msgstr ""
 
 msgid "Create particle emission points..."
 msgstr ""
@@ -99,13 +97,11 @@ msgid ""
 "the source mesh."
 msgstr ""
 
-#, fuzzy
 msgid "Emission shape textures"
-msgstr "Yayılım Şekilleri"
+msgstr ""
 
-#, fuzzy
 msgid "Emission textures"
-msgstr "Yayılım Şekilleri"
+msgstr ""
 
 msgid "The available emission shape textures"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,20 +42,20 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"Véase :ref`doc_system_requirements` para los requerimientos de hardware y "
+"software."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Puede correr, tanto el editor como los proyectos exportados:**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 y posteriores (64-bit y 32-bit)."
+msgstr "Windows (x86, 64-bit y 32-bit)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 y ARM, 64-bit solamente)."
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 y posteriores (64-bit y 32-bit)."
+msgstr "Linux (x86 y ARM, 64-bit y 32-bit)."
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -70,10 +70,13 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"Los archivos binarios oficiales son compilados utilizando el `Godot Engine "
+"buildroot <https://github.com/godotengine/buildroot>`__, lo que permite "
+"crear archivos binarios que funcionan en las distribuciones Linux más "
+"comunes (incluyendo las versiones LTS)."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr "Android 6.0 y posteriores (el soporte del editor es experimental)."
+msgstr "Android (el soporte del editor es experimental)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -86,7 +89,7 @@ msgid "**Runs exported projects:**"
 msgstr "**Ejecutando proyectos exportados:**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`Consolas <doc_consoles>`."
@@ -134,9 +137,8 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`depurador <doc_debugger_panel>`."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Aún no se admite la depuración en subprocesos."
+msgstr "La depuración en subprocesos esta disponible desde la 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -813,6 +815,13 @@ msgstr ""
 "Soporte de filtro más cercano, bilineal, trilineal o anisotrópico "
 "(configurado globalmente)."
 
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"Sistema opcional de atenuación a distancia para atenuar las luces distantes "
+"y sus sombras, mejorando el rendimiento."
+
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
 "with clustered forward optimizations to decrease their individual cost. "
@@ -918,7 +927,7 @@ msgid "Each fog volume can have its own custom shader."
 msgstr "Cada volumen de niebla puede tener su propio shader personalizado."
 
 msgid "Can be used together with traditional fog."
-msgstr "Puede ser utilizado con niebla tradicional."
+msgstr "Se puede utilizar junto con niebla tradicional."
 
 msgid "**Particles:**"
 msgstr "**Partículas:**"
@@ -2121,4 +2130,4 @@ msgstr ""
 "comunidad y que pueden implementarse en futuras versiones de Godot."
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

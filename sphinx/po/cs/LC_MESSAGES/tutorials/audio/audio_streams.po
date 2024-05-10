@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,9 @@ msgid ""
 "AudioStreamPlayers. Each one loads an AudioStream and plays it back."
 msgstr ""
 
+#, fuzzy
 msgid "AudioStream"
-msgstr ""
+msgstr "AudioStream"
 
 msgid ""
 "An audio stream is an abstract object that emits sound. The sound can come "
@@ -48,7 +49,7 @@ msgid ""
 msgstr ""
 
 msgid "AudioStreamPlayer"
-msgstr ""
+msgstr "AudioStreamPřehrávač"
 
 msgid ""
 "This is the standard, non-positional stream player. It can play to any bus. "
@@ -56,7 +57,7 @@ msgid ""
 msgstr ""
 
 msgid "AudioStreamPlayer2D"
-msgstr ""
+msgstr "AudioStreamPřehrávač2D"
 
 msgid ""
 "This is a variant of AudioStreamPlayer, but emits sound in a 2D positional "
@@ -72,7 +73,7 @@ msgid ""
 msgstr ""
 
 msgid "AudioStreamPlayer3D"
-msgstr ""
+msgstr "AudioStreamPřehrávač3D"
 
 msgid ""
 "This is a variant of AudioStreamPlayer, but emits sound in a 3D positional "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,9 +74,8 @@ msgstr "**Özellik etiketi**"
 msgid "**Description**"
 msgstr ""
 
-#, fuzzy
 msgid "**android**"
-msgstr "Android"
+msgstr ""
 
 msgid "Running on Android (but not within a Web browser)"
 msgstr ""
@@ -105,9 +104,8 @@ msgstr ""
 msgid "Running on iOS (but not within a Web browser)"
 msgstr ""
 
-#, fuzzy
 msgid "**windows**"
-msgstr "Windows"
+msgstr ""
 
 msgid "Running on Windows"
 msgstr ""
@@ -136,23 +134,20 @@ msgstr "**düzenleyici**"
 msgid "Running on an editor build"
 msgstr ""
 
-#, fuzzy
 msgid "**template**"
-msgstr "**Yayınlanma tarihi**"
+msgstr ""
 
 msgid "Running on a non-editor (export template) build"
 msgstr ""
 
-#, fuzzy
 msgid "**double**"
-msgstr "**mobil**"
+msgstr ""
 
 msgid "Running on a double-precision build"
 msgstr ""
 
-#, fuzzy
 msgid "**single**"
-msgstr "**mobil**"
+msgstr ""
 
 msgid "Running on a single-precision build"
 msgstr ""
@@ -319,9 +314,8 @@ msgstr ""
 msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr ""
 
-#, fuzzy
 msgid "**movie**"
-msgstr "**mobil**"
+msgstr ""
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,22 +20,19 @@ msgstr ""
 msgid "List of features"
 msgstr "Lista funkcji"
 
-#, fuzzy
 msgid "This page aims to list **all** features currently supported by Godot."
 msgstr ""
 "Ta strona ma na celu wyszczególnienie wszystkich funkcji aktualnie "
 "obsługiwanych przez Godot."
 
-#, fuzzy
 msgid ""
 "This page lists features supported by the current stable version of Godot. "
 "Some of these features may not be available in the `LTS release series (3.x) "
 "<https://docs.godotengine.org/en/3.5/about/list_of_features.html>`__."
 msgstr ""
 "Ta strona zawiera listę funkcji wspieranych przez obecną stabilną wersję "
-"Godota (3.5). `Szerszy zakres funkcjonalności <https://docs.godotengine.org/"
-"en/latest/about/list_of_features.html>`__ jest dostępny w najnowszej wersji "
-"deweloperskiej (4.0)."
+"silnika Godot. Niektóre z tych funkcji mogą być niedostępne w wydaniu `LTS "
+"(3.x)<https://docs.godotengine.org/en/3.5/about/list_of_features.html>`__."
 
 msgid "Platforms"
 msgstr "Platformy"
@@ -44,20 +41,20 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"Zobacz sekcję :ref:`doc_system_requirements` aby zapoznać się z wymaganiami "
+"systemowymi oraz sprzętowymi."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Można uruchomić zarówno edytor jak i wyeksportowane projekty:**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 lub nowszy (64-bitowy i 32-bitowy)."
+msgstr "Windows (x86, 64-bitowy i 32-bitowy)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 oraz ARM, wyłącznie 64-bitowy)."
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 lub nowszy (64-bitowy i 32-bitowy)."
+msgstr "Linux (x86 oraz ARM 64-bitowy i 32-bitowy)."
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -71,10 +68,12 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"Oficjalne pliki binarne są skompilowane przy użyciu `Godot Engine buildroot "
+"<https://github.com/godotengine/buildroot>`__, pozwalając na działanie na "
+"różnych dystrybucjach Linuksa (w tym LTS)."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr "Android 6.0 lub nowszy (obsługa edytora jest eksperymentalna)."
+msgstr "Android (obsługa edytora jest eksperymentalna)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -88,18 +87,18 @@ msgid "**Runs exported projects:**"
 msgstr "**Uruchamia wyeksportowane projekty:**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr "1: :ref:`Konsole<doc_consoles>`."
 
-#, fuzzy
 msgid ""
 "Godot aims to be as platform-independent as possible and can be :ref:`ported "
 "to new platforms <doc_custom_platform_ports>` with relative ease."
 msgstr ""
-"Godot ma na celu jak największą niezależność od platform i może być "
-"względnie prosto przeniesiony na nowe."
+"Godot ma na celu być jak najbardziej niezależny od platform i może być "
+"względnie prosto :ref:`przeniesiony na nowe "
+"platformy<doc_custom_platform_ports>`"
 
 msgid ""
 "Projects written in C# using Godot 4 currently cannot be exported to the web "
@@ -135,9 +134,8 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr ":ref:`Debuger <doc_debugger_panel>` GDScript."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Obecnie brak wsparcia dla debugowania w wątkach."
+msgstr "Wsparcie dla debugowania w wątkach jest dostępne od wersji 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -182,9 +180,8 @@ msgstr "Przejęcie kontroli nad kamerą."
 msgid "Move the in-editor camera and see the result in the running project."
 msgstr "Ruszanie kamerą w edytorze wpływa na kamerę w uruchomionym projekcie."
 
-#, fuzzy
 msgid "Built-in offline class reference documentation."
-msgstr "Wbudowane odwołania do klas w dokumentacji offline."
+msgstr "Wbudowane odnośniki do klas w dokumentacji offline."
 
 msgid "Use the editor in dozens of languages contributed by the community."
 msgstr "Używaj edytora w dziesiątkach języków dodanych przez społeczność."
@@ -206,13 +203,12 @@ msgstr ""
 ":ref:`Twórz swoje własne wtyczki <doc_making_plugins>` wykorzystując "
 "GDScript, by dodać nowe funkcjonalności lub przyspieszyć swoją pracę."
 
-#, fuzzy
 msgid ""
 ":ref:`Download projects from the asset library <doc_using_assetlib_editor>` "
 "in the Project Manager and import them directly."
 msgstr ""
-":ref:`Pobieraj projekty z biblioteki zasobów <doc_using_assetlib_editor>` w "
-"menadżerze projektów i importuj je bezpośrednio."
+":ref:`Pobierz projekty z biblioteki zasobów <doc_using_assetlib_editor>` w "
+"Menadżerze Projektów i importuj je bezpośrednio."
 
 msgid "Rendering"
 msgstr "Renderowanie"
@@ -258,18 +254,15 @@ msgstr "Grafika 2D"
 msgid "Sprite, polygon and line rendering."
 msgstr "Renderowanie duszków, wielokątów i linii."
 
-#, fuzzy
 msgid ""
 "High-level tools to draw lines and polygons such as :ref:`class_Polygon2D` "
 "and :ref:`class_Line2D`, with support for texturing."
 msgstr ""
-"Wysokopoziomowe narzędzia do rysowania linii i wielokątów takie jak "
-"Polygon2D i Line2D."
+"Wysoko-poziomowe narzędzia do rysowania linii i wielokątów, takie jak :ref:"
+"`class_Polygon2D` i :ref:`class_Line2D` ze wsparciem dla teksturowania."
 
-#, fuzzy
 msgid "AnimatedSprite2D as a helper for creating animated sprites."
-msgstr ""
-"AnimatedSprite jako pomoc przy tworzeniu animowanych duszków (Sprites)."
+msgstr "AnimatedSprite2D jako pomoc przy tworzeniu animowanych sprite'ów."
 
 msgid "Parallax layers."
 msgstr "Płótna."
@@ -284,13 +277,11 @@ msgstr ""
 ":ref:` Oświetlenie 2D <doc_2d_lights_and_shadows>` z mapami normalnymi i "
 "mapami lustrzanymi."
 
-#, fuzzy
 msgid "Point (omni/spot) and directional 2D lights."
-msgstr "Wielokierunkowe światła."
+msgstr "Punktowe (dookólne/miejscowe) i kierunkowe światła 2D."
 
-#, fuzzy
 msgid "Hard or soft shadows (adjustable on a per-light basis)."
-msgstr "Dithering można określić na podstawie co-piksel lub co-obiekt."
+msgstr "Twarde lub miękkie cienie (regulowane na podstawie światła)."
 
 msgid ""
 "Custom shaders can access a real-time :abbr:`SDF (Signed Distance Field)` "
@@ -311,27 +302,25 @@ msgstr ""
 "rasteryzacja przy użyciu FreeType lub wielokanałowych podpisanych pól "
 "odległości (MSDF)."
 
-#, fuzzy
 msgid ""
 "Bitmap fonts can be exported using tools like BMFont, or imported from "
 "images (for fixed-width fonts only)."
 msgstr ""
 "Czcionki bitmapowe mogą zostać wyeksportowane przy użyciu narzędzi takich "
-"jak BMFont."
+"jak BMFont, lub zostać zaimportowane z obrazów (tylko dla czcionek z stałą "
+"szerokością)."
 
-#, fuzzy
 msgid ""
 "Dynamic fonts support monochrome fonts as well as colored fonts (e.g. for "
 "emoji). Supported formats are TTF, OTF, WOFF1 and WOFF2."
 msgstr ""
-"DynamicFont obsługuje zarówno czcionki monochromatyczne, jak i kolorowe (np. "
-"emotikony). Obsługiwane formaty to TTF, OTF, WOFF1 oraz WOFF1."
+"Dynamic Font obsługuje zarówno czcionki monochromatyczne, jak i kolorowe "
+"(np. emotikony). Obsługiwane formaty to TTF, OTF, WOFF1 oraz WOFF2."
 
-#, fuzzy
 msgid ""
 "Dynamic fonts support optional font outlines with adjustable width and color."
 msgstr ""
-"DynamicFont obsługuje opcjonalne kontury z regulowaną szerokością i kolorem."
+"Dynamic Font obsługuje opcjonalne kontury z regulowaną szerokością i kolorem."
 
 msgid ""
 "Dynamic fonts support variable fonts and OpenType features including "
@@ -347,12 +336,11 @@ msgstr ""
 "Czcionki dynamiczne obsługują symulowane pogrubienie i kursywę, gdy plik "
 "czcionki nie zawiera tych stylów."
 
-#, fuzzy
 msgid ""
 "Dynamic fonts support oversampling to keep fonts sharp at higher resolutions."
 msgstr ""
-"Obsługa nadpróbkowania czcionek w celu utrzymania ostrości przy wyższych "
-"rozdzielczościach."
+"Dynamic Fonts wspiera nadpróbkowania w celu utrzymania ostrości przy "
+"wyższych rozdzielczościach."
 
 msgid ""
 "Dynamic fonts support subpixel positioning to make fonts crisper at low "
@@ -439,9 +427,8 @@ msgstr ""
 msgid "Rigid bodies."
 msgstr "Obiekty sztywne."
 
-#, fuzzy
 msgid "Character bodies."
-msgstr "Obiekty statyczne."
+msgstr "Obiekty postaci."
 
 msgid "Joints."
 msgstr "Połączenia."
@@ -452,17 +439,18 @@ msgstr "Obszary wykrywające wchodzące lub opuszczające obiekty."
 msgid "**Collision detection:**"
 msgstr "**Detekcja kolizji:**"
 
-#, fuzzy
 msgid ""
 "Built-in shapes: line, box, circle, capsule, world boundary (infinite plane)."
-msgstr "Wbudowane kształty: linia, prostokąt, koło, kapsuła."
+msgstr ""
+"Wbudowane kształty: linia, prostokąt, koło, kapsuła, granica świata "
+"(nieskończona płaszczyzna)."
 
 msgid ""
 "Collision polygons (can be drawn manually or generated from a sprite in the "
 "editor)."
 msgstr ""
-"Wielokąty (mogą być narysowane manualnie lub wygenerowane z duszka w "
-"edytorze)."
+"Wielokąty kolizyjne (mogą być narysowane manualnie lub wygenerowane ze "
+"sprite w edytorze)."
 
 msgid "3D graphics"
 msgstr "Grafika 3D"
@@ -495,13 +483,12 @@ msgstr "**Renderowanie oparte na fizyce (wbudowane właściwości materiałów):
 msgid "Follows the Disney PBR model."
 msgstr "Naśladuje model PBR Disneya."
 
-#, fuzzy
 msgid ""
 "Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
 "shading modes."
 msgstr ""
-"Obsługuje tryby cieniowania: Lambert, Lambert Wrap (half-Lambert), Oren-"
-"Nayar i Toon."
+"Obsługuje tryby cieniowania: Burley, Lambert, Lambert Wrap (half-Lambert) "
+"oraz Toon."
 
 #, fuzzy
 msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
@@ -514,31 +501,29 @@ msgstr ""
 "Wykorzystuje przepływ pracy zbudowany wokół skali metaliczność-chropowatość "
 "z obsługą tekstur ORM."
 
-#, fuzzy
 msgid ""
 "Uses horizon specular occlusion (Filament model) to improve material "
 "appearance."
 msgstr ""
 "Wykorzystuje okluzję zwierciadlaną horyzontu (model Filament), aby poprawić "
-"wygląd materiału"
+"wygląd materiału."
 
 msgid "Normal mapping."
 msgstr "Mapowanie normalnych."
 
-#, fuzzy
 msgid ""
 "Parallax/relief mapping with automatic level of detail based on distance."
 msgstr ""
-"*GLES3: * Mapowanie paralaksy / wypukłości z automatycznym poziomem "
-"szczegółowości na podstawie odległości."
+"Mapowanie paralaksy / wypukłości z automatycznym poziomem szczegółowości na "
+"podstawie odległości."
 
-#, fuzzy
 msgid "Detail mapping for the albedo and normal maps."
-msgstr "Szczegółowe mapowanie dla albedo I normal mapsów."
+msgstr ""
+"Mapowanie szczegółów (detali) dla albedo (kolor bazowy) i map normal "
+"(wypukłość)."
 
-#, fuzzy
 msgid "Sub-surface scattering and transmittance."
-msgstr "*GLES3: * Przepuszczalność i rozpraszanie podpowierzchniowe."
+msgstr "Pod-powierzchowne rozpraszanie i przepuszczalność."
 
 #, fuzzy
 msgid ""
@@ -789,6 +774,13 @@ msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
 msgstr "Filtrowanie, bliskie, dwuliniowe, trójliniowe lub anizotropiczne."
+
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"Nieobowiązkowy system zanikania na odległość aby światła znikały i ich "
+"cienie, poprawiając wydajność."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "

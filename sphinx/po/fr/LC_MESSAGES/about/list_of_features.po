@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,17 +25,15 @@ msgstr ""
 "Cette page vise à lister **toutes** les fonctionnalités actuellement "
 "supportées par Godot."
 
-#, fuzzy
 msgid ""
 "This page lists features supported by the current stable version of Godot. "
 "Some of these features may not be available in the `LTS release series (3.x) "
 "<https://docs.godotengine.org/en/3.5/about/list_of_features.html>`__."
 msgstr ""
 "Cette page liste les fonctionnalités supportées par la version stable "
-"actuelle de Godot (4.0). Certaines de ces fonctionnalités pourraient ne pas "
-"être disponibles dans la `série de sorties avec un support à long terme "
-"(LTS) (3.x) <https://docs.godotengine.org/en/3.5/about/list_of_features."
-"html>`__."
+"actuelle de Godot. Certaines de ces fonctionnalités pourraient ne pas être "
+"disponibles dans la `série de version LTS (3.x) <https://docs.godotengine."
+"org/en/3.5/about/list_of_features.html>`__."
 
 msgid "Platforms"
 msgstr "Plates-formes"
@@ -44,20 +42,20 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"Voir :ref:`doc_system_requirements` pour les prérequis de matériels et de "
+"version de logiciels."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Peut exécuter à la fois l'éditeur et les projets exportés :**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 et versions ultérieures (64 bits et 32 bits)."
+msgstr "Windows (x86, 64 bits et 32 bits)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 and ARM, 64-bit uniquement)."
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 et versions ultérieures (64 bits et 32 bits)."
+msgstr "Linux (x86 et ARM, 64-bit et 32-bit)."
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -72,11 +70,12 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"Les binaires officiels sont compilés en utilisant le `Godot Engine buildroot "
+"<https://github.com/godotengine/buildroot>`__, permettant aux binaires de "
+"fonctionner sur les distributions Linux courantes (variantes LTS incluses)."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr ""
-"Android 6.0 et versions ultérieur (le support de l'éditeur est expérimental)."
+msgstr "Android (le support de l'éditeur est expérimental)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -89,7 +88,7 @@ msgid "**Runs exported projects:**"
 msgstr "**Exécute les projets exportés :**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`Consoles <doc_consoles>`."
@@ -102,7 +101,6 @@ msgstr ""
 "être :ref:`porté sur de nouvelles plateformes <doc_custom_platform_ports>` "
 "avec une relative facilité."
 
-#, fuzzy
 msgid ""
 "Projects written in C# using Godot 4 currently cannot be exported to the web "
 "platform. To use C# on that platform, consider Godot 3 instead. Android and "
@@ -112,7 +110,7 @@ msgstr ""
 "Les projets écrits en C# utilisant Godot 4 ne peuvent à l'heure actuelle "
 "être exportés sur la plateforme web. Pour utiliser C# sur cette plateforme, "
 "préférez Godot 3. Le support des plateformes Android et iOS sont eux "
-"disponibles dans Godot 4.2 mais de manière expérimentale et :ref:`certaines "
+"disponibles dans Godot 4.2 mais de manière expérimentale et :ref:`certaines "
 "limitations s'appliquent alors<doc_c_sharp_platforms>`."
 
 msgid "Editor"
@@ -137,9 +135,10 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr ":ref:`Débogueur <doc_debugger_panel>` GDScript."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Pas encore de support pour le débogage dans les flux d'exécution."
+msgstr ""
+"Le traitement du débogage des tâches concurrentes est disponible depuis la "
+"version 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -378,26 +377,24 @@ msgstr ""
 "multi-canaux permet aux polices de caractères SDF d'être réduites à de plus "
 "petites tailles comparés à des polices SDF monochromes."
 
-#, fuzzy
 msgid ""
 "GPU-based :ref:`particles <doc_particle_systems_2d>` with support for :ref:"
 "`custom particle shaders <doc_particle_shader>`."
 msgstr ""
-"Particules calculées par le GPU avec prise en charge de shaders de "
-"particules personnalisés."
+":ref:`Particules <doc_particle_systems_2d>` calculées par le GPU avec prise "
+"en charge de :ref:`shaders de particules personnalisés<doc_particle_shader>`."
 
 msgid "CPU-based particles."
 msgstr "Particules générées par le CPU."
 
-#, fuzzy
 msgid ""
 "Optional :ref:`2D HDR rendering "
 "<doc_environment_and_post_processing_using_glow_in_2d>` for better glow "
 "capabilities."
 msgstr ""
-"Optionnel :ref:`Rendement 2D HDR "
+"Optionnel :ref:`Rendement 2D HDR "
 "<doc_environment_and_post_processing_using_glow_in_2d>` pour de meilleurs "
-"effets de rayonnements."
+"effets de brillance."
 
 msgid "2D tools"
 msgstr "Outils 2D"
@@ -419,9 +416,8 @@ msgstr "Peut être dessiné dans l'éditeur ou généré de manière procédural
 msgid "PathFollow2D node to make nodes follow a Path2D."
 msgstr "PathFollow2D pour que les nœuds suivent un Path2D."
 
-#, fuzzy
 msgid ":ref:`2D geometry helper class <class_Geometry2D>`."
-msgstr "Classe d'aide à la géométrie 2D."
+msgstr ":ref:`Classe d'aide à la géométrie 2D<class_Geometry2D>`."
 
 msgid "2D physics"
 msgstr "Physique 2D"
@@ -455,10 +451,11 @@ msgstr "Areas pour détecter les corps qui y entrent ou en sortent."
 msgid "**Collision detection:**"
 msgstr "**Détection de collision :**"
 
-#, fuzzy
 msgid ""
 "Built-in shapes: line, box, circle, capsule, world boundary (infinite plane)."
-msgstr "Formes intégrées : ligne, boîte, cercle, capsule."
+msgstr ""
+"Formes intégrées : ligne, boîte, cercle, capsule, limite du monde (plan "
+"infini)."
 
 msgid ""
 "Collision polygons (can be drawn manually or generated from a sprite in the "
@@ -468,7 +465,7 @@ msgstr ""
 "partir d'un sprite dans l'éditeur)."
 
 msgid "3D graphics"
-msgstr "Graphiques 3D"
+msgstr "Graphismes en 3D"
 
 msgid "HDR rendering with sRGB."
 msgstr "Rendu HDR avec sRGB."
@@ -476,14 +473,13 @@ msgstr "Rendu HDR avec sRGB."
 msgid "Perspective, orthographic and frustum-offset cameras."
 msgstr "Caméras perspective, orthographiques et frustum-offset."
 
-#, fuzzy
 msgid ""
 "When using the Forward+ backend, a depth prepass is used to improve "
 "performance in complex scenes by reducing the cost of overdraw."
 msgstr ""
-"Lors de l'utilisation du backend Forward+, un pré-calcul de profondeur est "
-"utilisé pour améliorer les performances dans les scènes complexes en "
-"réduisant le coût du surdessin."
+"Lors de l'utilisation de Forward+, un pré-calcul de profondeur est utilisé "
+"pour améliorer les performances dans les scènes complexes en réduisant le "
+"coût du surdessin."
 
 msgid ""
 ":ref:`doc_variable_rate_shading` on supported GPUs in Forward+ and Forward "
@@ -498,13 +494,12 @@ msgstr "**Rendu basé sur la physique (fonctionnalités de matériau intégrés)
 msgid "Follows the Disney PBR model."
 msgstr "Suit le modèle Disney PBR."
 
-#, fuzzy
 msgid ""
 "Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
 "shading modes."
 msgstr ""
-"Supporte les modes Lambert, Lambert Wrap (demi-Lambert), Oren-Nayar et "
-"ombrage de diffusion Toon."
+"Supporte les modes d'ombrage diffus Burley, Lambert, Lambert Wrap (demi-"
+"Lambert) et Toon."
 
 #, fuzzy
 msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
@@ -527,19 +522,17 @@ msgstr ""
 msgid "Normal mapping."
 msgstr "Normal mapping."
 
-#, fuzzy
 msgid ""
 "Parallax/relief mapping with automatic level of detail based on distance."
 msgstr ""
-"*GLES3 :* Cartographie parallaxe/relief avec niveau de détail automatique "
-"basé sur la distance."
+"Cartographie parallaxe/relief avec niveau de détail automatique basé sur la "
+"distance."
 
 msgid "Detail mapping for the albedo and normal maps."
 msgstr "Mapping de détail pour l'albedo et les normal maps."
 
-#, fuzzy
 msgid "Sub-surface scattering and transmittance."
-msgstr "*GLES3 :* Diffusion et transmittance sous la surface."
+msgstr "Diffusion sous-surface et transmittance."
 
 #, fuzzy
 msgid ""
@@ -552,14 +545,13 @@ msgstr ""
 
 #, fuzzy
 msgid "Proximity fade (soft particles) and distance fade."
-msgstr "*GLES3 :* Fondu de proximité (particules molles)."
+msgstr "*GLES3 :* Fondu de proximité (particules molles)."
 
-#, fuzzy
 msgid ""
 "Distance fade can use alpha blending or dithering to avoid going through the "
 "transparent pipeline."
 msgstr ""
-"Fondu de distance qui peut utiliser le mélange alpha ou le dithering pour "
+"Le fondu de distance peut utiliser le mélange alpha ou le dithering pour "
 "éviter de passer par le pipeline transparent."
 
 msgid "Dithering can be determined on a per-pixel or per-object basis."
@@ -577,11 +569,12 @@ msgstr "Lumières omnidirectionnelles."
 msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "Lumières spot avec angle de cône et atténuation réglables."
 
-#, fuzzy
 msgid ""
 "Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
 "light basis."
-msgstr "L'énergie spéculaire peuvent être ajustée pour chaque lumière."
+msgstr ""
+"L'énergie spéculaire, la lumière indirecte et le brouillard volumétrique "
+"peuvent être ajustés sur une base par lumière."
 
 msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
@@ -613,6 +606,10 @@ msgid ""
 "can be displayed per mesh resource. Baked lighting can be used to overcome "
 "this limit if needed."
 msgstr ""
+"Lors de l'utilisation du moteur de rendu Forward Mobile, jusqu'à 8 lumières "
+"omnidirectionnelles et 8 lumières spots peuvent être affichés par ressource "
+"de maillage. Un éclairage pré-calculé peut être utilisé pour surmonter cette "
+"limite si nécessaire."
 
 msgid "**Shadow mapping:**"
 msgstr "**Shadow mapping :**"
@@ -632,19 +629,24 @@ msgstr ""
 "précis). Supporte les textures colorées du projecteur sous forme de "
 "panoramas."
 
-#, fuzzy
 msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr "*SpotLight :* Texture unique."
+msgstr ""
+"*SpotLight :* Texture unique. Supporte les textures de projecteur colorées."
 
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "
 "visible shadow acne and peter-panning."
 msgstr ""
+"Décalage du biais de l'offset normal des ombres et compression des ombres "
+"pour réduire la quantité d'acné des ombres et l'effet Peter Pan."
 
 msgid ""
 ":abbr:`PCSS (Percentage Closer Soft Shadows)`-like shadow blur based on the "
 "light size and distance from the surface the shadow is cast on."
 msgstr ""
+"Flou d'ombre de type :abbr:PCSS (Ombres Douces Plus Proches en Pourcentage) "
+"basé sur la taille de la lumière et la distance par rapport à la surface sur "
+"laquelle l'ombre est projetée."
 
 #, fuzzy
 msgid "Adjustable shadow blur on a per-light basis."
@@ -670,12 +672,11 @@ msgstr ""
 "chaque lumière afin de permettre le pré-calcul de configurations "
 "d'éclairages hybrides."
 
-#, fuzzy
 msgid ""
 "Supports lighting dynamic objects using automatic and manually placed probes."
 msgstr ""
 "Supporte l'éclairage dynamique d'objets en utilisant un système automatique "
-"basé sur un octree. Aucun placement manuel de sonde n'est requis."
+"et manuel de sondes."
 
 msgid ""
 "Optionally supports directional lighting and rough reflections based on "
@@ -801,6 +802,13 @@ msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
 msgstr "Filtrage nearest, bilinear, trilinear ou anisotropic."
+
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"Système d'estompage optionnel basé sur la distance pour atténuer les "
+"lumières lointaines et leurs ombres, améliorant ainsi les performances."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -1281,9 +1289,8 @@ msgstr ""
 "Il est recommandé d'utiliser un éditeur externe pour bénéficier des "
 "fonctionnalités d'un IDE."
 
-#, fuzzy
 msgid "**GDExtension (C, C++, Rust, D, ...):**"
-msgstr "**GDNative (C, C++, Rust, D, ...) :**"
+msgstr "**GDExtension (C, C++, Rust, D, ...):**"
 
 msgid ""
 "When you need it, link to native libraries for higher performance and third-"

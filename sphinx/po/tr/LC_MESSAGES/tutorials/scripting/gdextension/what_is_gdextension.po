@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "What is GDExtension?"
-msgstr "GDNative nedir?"
+msgstr ""
 
 msgid "Introduction"
 msgstr "Giriş"
@@ -39,13 +38,10 @@ msgstr ""
 msgid "Differences between GDExtension and C++ modules"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can use both GDExtension and :ref:`C++ modules "
 "<doc_custom_modules_in_cpp>` to run C or C++ code in a Godot project."
 msgstr ""
-"Hem GDNative hem de :ref:`C++ birimleri <doc_custom_modules_in_c++>` "
-"kullanarak, projenizde C veya C++ kodları çalıştırabilirsiniz."
 
 msgid ""
 "They also both allow you to integrate third-party libraries into Godot. The "
@@ -103,13 +99,10 @@ msgstr ""
 msgid "Advantages of C++ modules"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "We recommend :ref:`C++ modules <doc_custom_modules_in_cpp>` in cases where "
 "GDExtension isn't enough:"
 msgstr ""
-"GDNative 'in yeterli olmadığı durumlarda :ref:`C++ birimleri "
-"<doc_custom_modules_in_c++>` 'ni öneririz:"
 
 msgid ""
 "C++ modules provide deeper integration into the engine. GDExtension's access "
@@ -136,9 +129,8 @@ msgid ""
 "GDExtension:"
 msgstr ""
 
-#, fuzzy
 msgid "C++ :ref:`(tutorial) <doc_gdextension_cpp_example>`"
-msgstr "C :ref:`(öğretici) <doc_gdnative_c_example>`"
+msgstr ""
 
 msgid ""
 "There are no plans to support additional languages with GDExtension "
@@ -149,25 +141,20 @@ msgstr ""
 msgid "The bindings below are developed and maintained by the community:"
 msgstr ""
 
-#, fuzzy
 msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
-msgstr "`Rust <https://github.com/godot-rust/godot-rust>`__"
+msgstr ""
 
-#, fuzzy
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
-msgstr "`Rust <https://github.com/godot-rust/godot-rust>`__"
+msgstr ""
 
-#, fuzzy
 msgid "`Haxe <https://hxgodot.github.io/>`__"
-msgstr "`D <https://github.com/godot-d/godot-d>`__"
+msgstr ""
 
-#, fuzzy
 msgid "`Rust <https://github.com/godot-rust/gdext>`__"
-msgstr "`Rust <https://github.com/godot-rust/godot-rust>`__"
+msgstr ""
 
-#, fuzzy
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
-msgstr "`Rust <https://github.com/godot-rust/godot-rust>`__"
+msgstr ""
 
 msgid ""
 "Not all bindings mentioned here may be production-ready. Make sure to "

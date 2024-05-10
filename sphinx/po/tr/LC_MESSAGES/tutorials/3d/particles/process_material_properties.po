@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,17 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Process material properties"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
-#, fuzzy
 msgid "ParticleProcessMaterial properties"
-msgstr "Uzaysal Malzeme"
+msgstr ""
 
-#, fuzzy
 msgid "Min, max, and curve properties"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
 msgid ""
 "The properties in this material control how particles behave and change over "
@@ -42,9 +39,8 @@ msgid ""
 "expressed this way."
 msgstr ""
 
-#, fuzzy
 msgid "Time"
-msgstr "Zaman damgası"
+msgstr ""
 
 msgid ""
 "The ``Lifetime Randomness`` property controls how much randomness to apply "
@@ -55,9 +51,8 @@ msgid ""
 "[0.0, ``Lifetime``]."
 msgstr ""
 
-#, fuzzy
 msgid "Particle flags"
-msgstr "Parçacıklar"
+msgstr ""
 
 msgid ""
 "The ``Align Y`` property aligns each particle's Y-axis with its velocity. "
@@ -83,16 +78,15 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The ``Daming as Friction`` property changes the behavior of damping from a "
+"The ``Damping as Friction`` property changes the behavior of damping from a "
 "constant deceleration to a deceleration based on speed."
 msgstr ""
 
 msgid "Spawn"
 msgstr ""
 
-#, fuzzy
 msgid "Emission shape"
-msgstr "Yayılım Şekilleri"
+msgstr ""
 
 msgid ""
 "Particles can emit from a single point in space or in a way that they fill "
@@ -104,22 +98,19 @@ msgid ""
 "instead of filling it out, all particles spawn on the sphere's surface."
 msgstr ""
 
-#, fuzzy
 msgid "Simple particle emission shapes"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
 msgid ""
 "Particles emitting from a point (left), in a sphere (middle), and in a box "
 "(right)"
 msgstr ""
 
-#, fuzzy
 msgid "Ring-shaped particle system"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
-#, fuzzy
 msgid "A ring-shaped particle system"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
 msgid ""
 "The ``Ring`` emission shape makes particles emit in the shape of a ring. You "
@@ -205,9 +196,8 @@ msgid ""
 "next."
 msgstr ""
 
-#, fuzzy
 msgid "Initial velocity"
-msgstr "Başlangıç Hızı"
+msgstr ""
 
 msgid ""
 "While the ``Direction`` property controls a particle's movement direction, "
@@ -220,9 +210,8 @@ msgid ""
 "setting a negative velocity."
 msgstr ""
 
-#, fuzzy
 msgid "Accelerations"
-msgstr "**Sürüm**"
+msgstr ""
 
 msgid "Gravity"
 msgstr "Yer Çekimi"
@@ -245,9 +234,8 @@ msgid ""
 "Left\\: (X=0,Y=-9.8,Z=0), middle\\: (X=0,Y=9.8,Z=0), right\\: (X=4,Y=2,Z=0)."
 msgstr ""
 
-#, fuzzy
 msgid "Angular velocity"
-msgstr "Açısal Hız"
+msgstr ""
 
 msgid ""
 "``Angular Velocity`` controls a particle's speed of rotation `as described "
@@ -262,9 +250,8 @@ msgid ""
 "The `Damping <#damping>`__ property has no effect on the angular velocity."
 msgstr ""
 
-#, fuzzy
 msgid "Linear acceleration"
-msgstr "Seçimi Merkeze Getir"
+msgstr ""
 
 msgid ""
 "A particle's velocity is a constant value: once it's set, it doesn't change "
@@ -290,9 +277,8 @@ msgid ""
 "acceleration is changed again."
 msgstr ""
 
-#, fuzzy
 msgid "Radial acceleration"
-msgstr "El ayarlı kamera ara değerlemesi"
+msgstr ""
 
 msgid ""
 "The ``Radial Accel`` property adds a gravity-like force to all particles, "
@@ -308,9 +294,8 @@ msgstr ""
 msgid "Negative (left) and positive (right) radial acceleration"
 msgstr ""
 
-#, fuzzy
 msgid "Tangential acceleration"
-msgstr "El ayarlı kamera ara değerlemesi"
+msgstr ""
 
 msgid "Tangents on a circle"
 msgstr ""
@@ -360,9 +345,8 @@ msgid ""
 "takes to bring particles to a complete halt."
 msgstr ""
 
-#, fuzzy
 msgid "Attractor interaction"
-msgstr "Vektör ara değerlemesi"
+msgstr ""
 
 msgid ""
 "If you want the particle system to interact with :ref:`particle attractors "
@@ -397,13 +381,11 @@ msgid ""
 "own ``Color`` or ``Texture`` property."
 msgstr ""
 
-#, fuzzy
 msgid "Particle color ramp"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
-#, fuzzy
 msgid "Setting up a color ramp"
-msgstr "Eklentinizi ayarlamak"
+msgstr ""
 
 msgid ""
 "There are two ``Ramp`` properties in the ``Color`` group. These allow you to "
@@ -425,9 +407,8 @@ msgid ""
 "to the range to change its color."
 msgstr ""
 
-#, fuzzy
 msgid "Hue variation"
-msgstr "Onaylanma Seçenekleri"
+msgstr ""
 
 msgid ""
 "Like the ``Color`` property, ``Hue Variation`` controls a particle's color, "
@@ -521,9 +502,8 @@ msgid ""
 "starting position."
 msgstr ""
 
-#, fuzzy
 msgid "Animated particles"
-msgstr "AnimatedSprite ile grafik öğe kağıdı"
+msgstr ""
 
 msgid "Three different particle systems using the same smoke sprite sheet"
 msgstr ""
@@ -555,9 +535,8 @@ msgid ""
 "something like ``3`` to reach an acceptable framerate."
 msgstr ""
 
-#, fuzzy
 msgid "Animated particles lifetimes"
-msgstr "AnimatedSprite ile grafik öğe kağıdı"
+msgstr ""
 
 msgid ""
 "The same particle system at different lifetimes: 1 second (left), 2 seconds "
@@ -584,9 +563,8 @@ msgid ""
 "<doc_3d_particles_turbulence>`."
 msgstr ""
 
-#, fuzzy
 msgid "Collision"
-msgstr "Çarpışma Kipi"
+msgstr ""
 
 msgid ""
 "The ``Mode`` property controls how and if emitters collide with particle "
@@ -618,16 +596,14 @@ msgid ""
 "<doc_3d_particles_collision>` section in this manual."
 msgstr ""
 
-#, fuzzy
 msgid "Sub-emitter"
-msgstr "Titreşme"
+msgstr ""
 
 msgid "Sub-emitter modes"
 msgstr ""
 
-#, fuzzy
 msgid "The available sub-emitter modes"
-msgstr "Mevcut öğeleri sorgulama"
+msgstr ""
 
 msgid ""
 "The ``Mode`` property controls how and when sub-emitters are spawned. Set it "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,9 +20,8 @@ msgstr ""
 msgid "Importing audio samples"
 msgstr ""
 
-#, fuzzy
 msgid "Supported audio formats"
-msgstr "Desteklenen resim biçimleri"
+msgstr ""
 
 msgid ""
 "Godot provides 3 options to import your audio data: WAV, Ogg Vorbis and MP3."
@@ -148,9 +147,8 @@ msgid ""
 "`doc_audio_streams` for more information."
 msgstr ""
 
-#, fuzzy
 msgid "Import options (WAV)"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
 msgid "Force > 8 Bit"
 msgstr ""
@@ -257,9 +255,8 @@ msgid ""
 "playing indefinitely."
 msgstr ""
 
-#, fuzzy
 msgid "Compress > Mode"
-msgstr "Sıkıştır"
+msgstr ""
 
 msgid ""
 "Two compression modes can be chosen for WAV files: **Disabled** (default) or "
@@ -385,9 +382,8 @@ msgstr ""
 msgid "Best practices"
 msgstr ""
 
-#, fuzzy
 msgid "Use appropriate quality settings"
-msgstr "Uygun animasyonu oynat."
+msgstr ""
 
 msgid ""
 "While keeping pristine-quality audio sources is important if you're "

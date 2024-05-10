@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,9 +59,8 @@ msgstr ""
 msgid "Saving the built-in TileSet resource to an external resource file"
 msgstr ""
 
-#, fuzzy
 msgid "Creating TileMap layers"
-msgstr "Oyuncu sahnesini oluşturmak"
+msgstr ""
 
 msgid ""
 "As of Godot 4.0, you can place several *layers* in a single TileMap node. "
@@ -133,9 +132,8 @@ msgid ""
 "all tiles that were placed on the layer."
 msgstr ""
 
-#, fuzzy
 msgid "Opening the TileMap editor"
-msgstr "Tema düzenleyiciyi kullanmak"
+msgstr ""
 
 msgid ""
 "Select the TileMap node, then open the TileMap panel at the bottom of the "
@@ -209,9 +207,8 @@ msgid ""
 "painting on the right of the base tiles:"
 msgstr ""
 
-#, fuzzy
 msgid "Selecting an alternative tile in the TileMap editor"
-msgstr "Bir sinyali, düzenleyici içinden bağlamak"
+msgstr ""
 
 msgid ""
 "Lastly, if you've created a *scenes collection* in the TileSet, you can "
@@ -221,9 +218,8 @@ msgstr ""
 msgid "Placing a scene tile containing particles using the TileMap editor"
 msgstr ""
 
-#, fuzzy
 msgid "Painting modes and tools"
-msgstr "Odaları ve Geçitleri Düzenlemek"
+msgstr ""
 
 msgid ""
 "Using the toolbar at the top of the TileMap editor, you can choose between "
@@ -234,9 +230,8 @@ msgstr ""
 msgid "From left to right, the painting modes and tools you can choose are:"
 msgstr ""
 
-#, fuzzy
 msgid "Selection"
-msgstr "Seçimi Kes"
+msgstr ""
 
 msgid ""
 "Select tiles by clicking a single tile, or by holding down the left mouse "
@@ -272,9 +267,8 @@ msgid ""
 "`Escape` to cancel pasting."
 msgstr ""
 
-#, fuzzy
 msgid "Paint"
-msgstr "Karo Boya"
+msgstr ""
 
 msgid ""
 "The standard Paint mode allows you to place tiles by clicking or holding "
@@ -392,13 +386,11 @@ msgid ""
 "tool, you can place them in a repeating pattern within the filled area."
 msgstr ""
 
-#, fuzzy
 msgid "Using the Bucket Fill tool"
-msgstr "Tema düzenleyiciyi kullanmak"
+msgstr ""
 
-#, fuzzy
 msgid "Picker"
-msgstr "Karo Seç"
+msgstr ""
 
 msgid ""
 "After selecting Picker mode, you can pick existing tiles in the 2D editor by "

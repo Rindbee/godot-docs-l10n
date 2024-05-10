@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,23 +23,23 @@ msgstr "静的型付けGDScript"
 msgid "In this guide, you will learn:"
 msgstr "このガイドでは、次の内容について学習します:"
 
-#, fuzzy
 msgid "how to use static typing in GDScript;"
-msgstr "静的型付けGDScript"
+msgstr "GDScriptでの静的型付けの使い方;"
 
-#, fuzzy
 msgid "that static types can help you avoid bugs;"
-msgstr "静的型は\\ **バグの回避に役立ちます**"
+msgstr "静的型がバグの回避に役立つこと;"
 
 msgid "that static typing improves your experience with the editor."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Where and how you use this language feature is entirely up to you: you can "
 "use it only in some sensitive GDScript files, use it everywhere, or don't "
 "use it at all."
-msgstr "この新しい言語機能をどこで、どのように使うかは完全にあなた次第です！"
+msgstr ""
+"この言語機能をどこでどのように使用するかは完全にあなた次第です。一部の機密性"
+"の高いGDScriptファイルでのみ使用することも、あらゆる場所で使用することも、"
+"まったく使用しないこともできます。"
 
 msgid ""
 "Static types can be used on variables, constants, functions, parameters, and "
@@ -167,9 +167,8 @@ msgstr ""
 "はありません。ただしコードの意図をより明確にするために、これを自分で行うこと"
 "もできます。"
 
-#, fuzzy
 msgid "What can be a type hint"
-msgstr "このエンジンで出来ることは？"
+msgstr "型ヒント(Type Hint)として使用できるもの"
 
 #, fuzzy
 msgid "Here is a complete list of what can be used as a type hint:"
@@ -607,13 +606,11 @@ msgstr ""
 "配列の個々のメンバの型を指定することはできません。これにより、エラーが発生し"
 "ます:"
 
-#, fuzzy
 msgid "Nested types are not currently supported::"
-msgstr "**モバイルブラウザは、現在はまだサポートされていません。**"
+msgstr "ネストされた型は現在サポートされていません:"
 
-#, fuzzy
 msgid "Typed dictionaries are not currently supported::"
-msgstr "**モバイルブラウザは、現在はまだサポートされていません。**"
+msgstr "型付きDictionaryは現在サポートされていません:"
 
 msgid "Summary"
 msgstr "概要"

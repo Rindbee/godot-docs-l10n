@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -332,9 +332,8 @@ msgid ""
 "to create flickering static torches that have their indirect light baked."
 msgstr ""
 
-#, fuzzy
 msgid "Static"
-msgstr "Durağan cisimler."
+msgstr ""
 
 msgid ""
 "Both indirect and direct lighting will be baked. Since static surfaces can "
@@ -647,9 +646,8 @@ msgid ""
 "be lit in real-time)."
 msgstr ""
 
-#, fuzzy
 msgid "There are 2 ways to add light probes to a scene:"
-msgstr "Bir projeyi, bir sunucu için dışa aktarmanın iki yolu var:"
+msgstr ""
 
 msgid ""
 "**Automatic:** Set **Gen Probes > Subdiv** to a value other than "

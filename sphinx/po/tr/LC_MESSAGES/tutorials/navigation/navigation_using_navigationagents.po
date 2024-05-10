@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using NavigationAgents"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid ""
 "NavigationsAgents are helper nodes that combine functionality for "
@@ -45,9 +44,8 @@ msgid ""
 "and direct calls to the NavigationServer API."
 msgstr ""
 
-#, fuzzy
 msgid "NavigationAgent Pathfinding"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid ""
 "NavigationAgents query a new navigation path on their current navigation map "
@@ -83,9 +81,8 @@ msgid ""
 "Disabling path meta flags will disable related signal emissions on the agent."
 msgstr ""
 
-#, fuzzy
 msgid "NavigationAgent Pathfollowing"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid ""
 "After a ``target_position`` has been set for the agent, the next position to "
@@ -211,9 +208,8 @@ msgid ""
 "position."
 msgstr ""
 
-#, fuzzy
 msgid "NavigationAgent Avoidance"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid ""
 "This section explains how to use the navigation avoidance specific to "
@@ -337,9 +333,8 @@ msgid ""
 "avoidance modes."
 msgstr ""
 
-#, fuzzy
 msgid "NavigationAgent Script Templates"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid ""
 "The following sections provides script templates for nodes commonly used "

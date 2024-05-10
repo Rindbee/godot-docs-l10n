@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,9 +70,8 @@ msgid ""
 "allowing the creation of very complex layouts that resize effortlessly."
 msgstr ""
 
-#, fuzzy
 msgid "Sizing options"
-msgstr "İmzalama Seçenekleri"
+msgstr ""
 
 msgid ""
 "When adding a node to a container, the way the container treats each child "
@@ -248,9 +247,8 @@ msgid ""
 "is together with a *VBoxContainer* as child."
 msgstr ""
 
-#, fuzzy
 msgid "AspectRatioContainer"
-msgstr "Taşıyıcılar Kullanmak"
+msgstr ""
 
 msgid ""
 "A container type that arranges its child controls in a way that preserves "
@@ -267,9 +265,8 @@ msgid ""
 "proportionally without losing their intended shapes."
 msgstr ""
 
-#, fuzzy
 msgid "FlowContainer"
-msgstr "Taşıyıcılar Kullanmak"
+msgstr ""
 
 msgid ""
 "FlowContainer is a container that arranges its child controls either "
@@ -284,9 +281,8 @@ msgid ""
 "automatically to the available space without overlapping."
 msgstr ""
 
-#, fuzzy
 msgid "CenterContainer"
-msgstr "Taşıyıcılar Kullanmak"
+msgstr ""
 
 msgid ""
 "CenterContainer is a container that automatically keeps all of its child "

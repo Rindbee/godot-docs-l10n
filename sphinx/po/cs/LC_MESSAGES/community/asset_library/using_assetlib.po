@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,7 +196,7 @@ msgid "The ability to submit new assets."
 msgstr ""
 
 msgid "|image6|"
-msgstr ""
+msgstr "|obrázek6|"
 
 msgid "image6"
 msgstr "image6"
@@ -232,13 +232,13 @@ msgid "You can also access the AssetLib directly from Godot:"
 msgstr ""
 
 msgid "|image7|"
-msgstr ""
+msgstr "|obrázek7|"
 
 msgid "image7"
 msgstr "image7"
 
 msgid "|image14|"
-msgstr ""
+msgstr "|obrázek14|"
 
 msgid "image14"
 msgstr "image14"
@@ -250,7 +250,7 @@ msgid ""
 msgstr ""
 
 msgid "|image8|"
-msgstr ""
+msgstr "|obrázek8|"
 
 msgid "image8"
 msgstr "image8"
@@ -282,7 +282,7 @@ msgid "When you click on an asset, you will see more information about it."
 msgstr ""
 
 msgid "|image9|"
-msgstr ""
+msgstr "|obrázek9|"
 
 msgid "image9"
 msgstr "image9"
@@ -294,7 +294,7 @@ msgid ""
 msgstr ""
 
 msgid "|image10|"
-msgstr ""
+msgstr "|obrázek10|"
 
 msgid "image10"
 msgstr "image10"
@@ -305,7 +305,7 @@ msgid ""
 msgstr ""
 
 msgid "|image11|"
-msgstr ""
+msgstr "|obrázek11|"
 
 msgid "image11"
 msgstr "image11"
@@ -319,7 +319,7 @@ msgid ""
 msgstr ""
 
 msgid "|image12|"
-msgstr ""
+msgstr "|obrázek12|"
 
 msgid "image12"
 msgstr "image12"
@@ -332,7 +332,7 @@ msgid ""
 msgstr ""
 
 msgid "|image13|"
-msgstr ""
+msgstr "|obrázek13|"
 
 msgid "image13"
 msgstr "image13"

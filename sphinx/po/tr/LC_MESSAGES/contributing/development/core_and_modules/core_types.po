@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,13 +62,10 @@ msgstr ""
 msgid "References:"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/typedefs.h <https://github.com/godotengine/godot/blob/master/core/"
 "typedefs.h>`__"
 msgstr ""
-"`core/typedefs.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"typedefs.h>`__"
 
 msgid "Memory model"
 msgstr ""
@@ -160,21 +157,15 @@ msgid ""
 "amount of accesses."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/os/memory.h <https://github.com/godotengine/godot/blob/master/core/os/"
 "memory.h>`__"
 msgstr ""
-"`core/os/memory.h <https://github.com/godotengine/godot/blob/3.x/core/os/"
-"memory.h>`__"
 
-#, fuzzy
 msgid ""
 "`core/pool_vector.h <https://github.com/godotengine/godot/blob/master/core/"
 "pool_vector.cpp>`__"
 msgstr ""
-"`core/pool_vector.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"pool_vector.cpp>`__"
 
 msgid "Containers"
 msgstr ""
@@ -213,36 +204,25 @@ msgid ""
 "counter."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/templates/vector.h <https://github.com/godotengine/godot/blob/master/"
 "core/templates/vector.h>`__"
 msgstr ""
-"`core/vector.h <https://github.com/godotengine/godot/blob/3.x/core/vector."
-"h>`__"
 
-#, fuzzy
 msgid ""
 "`core/templates/list.h <https://github.com/godotengine/godot/blob/master/"
 "core/templates/list.h>`__"
 msgstr ""
-"`core/list.h <https://github.com/godotengine/godot/blob/3.x/core/list.h>`__"
 
-#, fuzzy
 msgid ""
 "`core/templates/set.h <https://github.com/godotengine/godot/blob/master/core/"
 "templates/hash_set.h>`__"
 msgstr ""
-"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
-"core/math/audio_frame.h>`__"
 
-#, fuzzy
 msgid ""
 "`core/templates/map.h <https://github.com/godotengine/godot/blob/master/core/"
 "templates/hash_map.h>`__"
 msgstr ""
-"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
-"core/math/audio_frame.h>`__"
 
 msgid "String"
 msgstr "Dize"
@@ -254,13 +234,10 @@ msgid ""
 "visualization."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/string/ustring.h <https://github.com/godotengine/godot/blob/master/"
 "core/string/ustring.h>`__"
 msgstr ""
-"`core/ustring.h <https://github.com/godotengine/godot/blob/3.x/core/ustring."
-"h>`__"
 
 msgid "StringName"
 msgstr ""
@@ -277,13 +254,10 @@ msgid ""
 "fast."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/string/string_name.h <https://github.com/godotengine/godot/blob/master/"
 "core/string/string_name.h>`__"
 msgstr ""
-"`core/string_name.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"string_name.h>`__"
 
 msgid "Math types"
 msgstr ""
@@ -292,11 +266,9 @@ msgid ""
 "There are several linear math types available in the core/math directory."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
 msgstr ""
-"`core/math <https://github.com/godotengine/godot/tree/3.x/core/math>`__"
 
 msgid "NodePath"
 msgstr ""
@@ -306,13 +278,10 @@ msgid ""
 "referencing them fast."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/string/node_path.h <https://github.com/godotengine/godot/blob/master/"
 "core/string/node_path.h>`__"
 msgstr ""
-"`core/node_path.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"node_path.h>`__"
 
 msgid "RID"
 msgstr ""
@@ -323,12 +292,10 @@ msgid ""
 "directly. RIDs are unique, even for different types of referenced data."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
 "templates/rid.h>`__"
 msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/3.x/core/rid.h>`__"
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

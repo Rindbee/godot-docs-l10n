@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -230,9 +230,8 @@ msgid ""
 "documentation."
 msgstr ""
 
-#, fuzzy
 msgid "Compress > Mode"
-msgstr "Sıkıştır"
+msgstr ""
 
 msgid ""
 "Images are one of the largest assets in a game. To handle them efficiently, "
@@ -295,9 +294,8 @@ msgstr ""
 msgid "bad"
 msgstr ""
 
-#, fuzzy
 msgid "Compress mode"
-msgstr "Sıkıştır"
+msgstr ""
 
 msgid "Lossless"
 msgstr ""
@@ -305,9 +303,8 @@ msgstr ""
 msgid "Lossy"
 msgstr ""
 
-#, fuzzy
 msgid "VRAM Compressed"
-msgstr "Sıkıştır"
+msgstr ""
 
 msgid "VRAM Uncompressed"
 msgstr ""
@@ -354,9 +351,8 @@ msgstr ""
 msgid "|good| Small"
 msgstr ""
 
-#, fuzzy
 msgid "**Performance**"
-msgstr "**Performans:**"
+msgstr ""
 
 msgid "|regular| Normal"
 msgstr ""
@@ -364,9 +360,8 @@ msgstr ""
 msgid "|good| Fast"
 msgstr ""
 
-#, fuzzy
 msgid "**Quality loss**"
-msgstr "Kalite"
+msgstr ""
 
 msgid "|good| None"
 msgstr ""
@@ -386,9 +381,8 @@ msgstr ""
 msgid "Estimated memory usage for a single RGBA8 texture with mipmaps enabled:"
 msgstr ""
 
-#, fuzzy
 msgid "Texture size"
-msgstr "Doku"
+msgstr ""
 
 msgid "**128×128**"
 msgstr ""
@@ -522,9 +516,8 @@ msgid ""
 "an alpha channel. To perform this, the alpha channel is discarded on import."
 msgstr ""
 
-#, fuzzy
 msgid "Compress > Normal Map"
-msgstr "Normal Haritası"
+msgstr ""
 
 msgid ""
 "When using a texture as normal map, only the red and green channels are "
@@ -624,9 +617,8 @@ msgid ""
 "enabling mipmaps but memory usage will increase."
 msgstr ""
 
-#, fuzzy
 msgid "Mipmaps > Limit"
-msgstr "Mip-haritaları"
+msgstr ""
 
 msgid ""
 "**Mipmaps > Limit** is currently not implemented and has no effect when "
@@ -640,18 +632,16 @@ msgid ""
 "graininess."
 msgstr ""
 
-#, fuzzy
 msgid "Roughness > Mode"
-msgstr "Pürüzlülük"
+msgstr ""
 
 msgid ""
 "The color channel to consider as a roughness map in this texture. Only "
 "effective if **Roughness > Src Normal** is not empty."
 msgstr ""
 
-#, fuzzy
 msgid "Roughness > Src Normal"
-msgstr "Pürüzlülük"
+msgstr ""
 
 msgid ""
 "The path to the texture to consider as a normal map for roughness filtering "
@@ -662,9 +652,8 @@ msgstr ""
 msgid "Roughness filtering on import is only used in 3D rendering, not 2D."
 msgstr ""
 
-#, fuzzy
 msgid "Process > Fix Alpha Border"
-msgstr "Alfa Kenarını Düzelt"
+msgstr ""
 
 msgid ""
 "This puts pixels of the same surrounding color in transition from "
@@ -702,9 +691,8 @@ msgstr ""
 msgid "Process > Normal Map Invert Y"
 msgstr ""
 
-#, fuzzy
 msgid "Process > HDR as sRGB"
-msgstr "HDR'yi sRGB Olarak Al"
+msgstr ""
 
 msgid ""
 "Some HDR images you can find online may be broken and contain sRGB color "
@@ -767,9 +755,8 @@ msgid ""
 "in 3D), but choosing **VRAM Compressed** or **Basis Universal** will."
 msgstr ""
 
-#, fuzzy
 msgid "SVG > Scale"
-msgstr "Hız Ölçeği"
+msgstr ""
 
 msgid "*This is only available for SVG images.*"
 msgstr ""
@@ -840,9 +827,8 @@ msgid ""
 "blurriness, which is typically 4K in modern desktop games)."
 msgstr ""
 
-#, fuzzy
 msgid "There are 2 ways to proceed:"
-msgstr "Bunu yapmanın iki yolu var:"
+msgstr ""
 
 msgid ""
 "Use a high base resolution in the project settings (such as 4K), then use "

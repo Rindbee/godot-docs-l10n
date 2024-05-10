@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,8 @@ msgstr "系統需求"
 msgid "To compile export templates for the Web, the following is required:"
 msgstr "要為網頁平台進行編譯，需滿足下列需求："
 
-msgid "`Emscripten 1.39.9+ <https://emscripten.org>`__."
+#, fuzzy
+msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
 msgstr "`Emscripten 1.39.0+ <https://emscripten.org>`__ 。"
 
 msgid "`Python 3.6+ <https://www.python.org/>`__."
@@ -53,6 +54,14 @@ msgid ""
 msgstr ""
 "有關配合 Godot 使用 SCons 的一般說明，請參考 :ref:"
 "`doc_introduction_to_the_buildsystem` 。"
+
+msgid ""
+"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
+msgstr ""
+
+msgid ""
+"Please note that the minimum requirement for GDExtension support is 3.1.14."
+msgstr ""
 
 msgid "Building export templates"
 msgstr "建置匯出樣板"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,14 +70,12 @@ msgid "macOS: ``$HOME/Library/Application Support/Godot/script_templates/``"
 msgstr "macOS: ``$HOME/Library/Application Support/Godot/script_templates/``"
 
 msgid ""
-"If no ``script_templates`` is detected, Godot will create a default set of "
-"built-in templates automatically, so this logic can be used to reset the "
-"default templates in case you've accidentally overwritten them."
+"If you're getting Godot from somewhere other than the official website, such "
+"as Steam, the folder might be in a different location. You can find it using "
+"the Godot editor. Go to ``Editor > Open Editor Data/Settings Folder`` and it "
+"will open a folder in your file browser, inside that folder is the "
+"``script_templates`` folder."
 msgstr ""
-"Якщо ``script_templates`` не виявлено, то Godot автоматично створить набір "
-"вбудованих шаблонів за замовчуванням, тому ця логіка може бути використана "
-"для скидання шаблонів за замовчуванням у випадку, якщо ви їх випадково "
-"перезаписали."
 
 msgid "Project-defined templates"
 msgstr "Шаблони, визначені проєктом"
@@ -265,7 +263,8 @@ msgstr "Назва нового класу (використовується л�
 msgid "``_CLASS_``"
 msgstr "``%CLASS%``"
 
-msgid "The name of the new class (used in C# only)."
+#, fuzzy
+msgid "The name of the new class."
 msgstr "Назва нового класу (використовується лише в C#)."
 
 #, fuzzy

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -369,9 +369,8 @@ msgid ""
 "crash."
 msgstr ""
 
-#, fuzzy
 msgid "Global arrays"
-msgstr "Yerel diziler"
+msgstr ""
 
 msgid "You can declare arrays at global space like:"
 msgstr ""
@@ -421,9 +420,8 @@ msgid ""
 "using the ``uint(x)`` built-in conversion function."
 msgstr ""
 
-#, fuzzy
 msgid "Structs"
-msgstr "Kurucu Yöntemler"
+msgstr ""
 
 msgid ""
 "Structs are compound types which can be used for better abstraction of "
@@ -789,9 +787,8 @@ msgstr ""
 msgid "Restricted to values in a range (with min/max/step)."
 msgstr ""
 
-#, fuzzy
 msgid "Used as albedo color."
-msgstr "Albedo olarak Kullan"
+msgstr ""
 
 msgid "hint_normal"
 msgstr ""
@@ -817,9 +814,8 @@ msgstr ""
 msgid "As value or albedo color, default to transparent black."
 msgstr ""
 
-#, fuzzy
 msgid "hint_anisotropy"
-msgstr "Eşyönsüzlük"
+msgstr ""
 
 msgid "As flowmap, default to right."
 msgstr ""
@@ -884,17 +880,14 @@ msgstr ""
 msgid "For example, a bvec2 of (bx, by) could be created in the following way:"
 msgstr ""
 
-#, fuzzy
 msgid "**Vector2i**"
-msgstr "**Sürüm**"
+msgstr ""
 
-#, fuzzy
 msgid "**Vector3i**"
-msgstr "**Sürüm**"
+msgstr ""
 
-#, fuzzy
 msgid "**Vector4i**"
-msgstr "**Sürüm**"
+msgstr ""
 
 msgid "**Vector2**"
 msgstr ""
@@ -924,31 +917,26 @@ msgstr ""
 msgid "**Transform2D**"
 msgstr "**Transform2D**"
 
-#, fuzzy
 msgid "**Basis**"
-msgstr "Temel"
+msgstr ""
 
 msgid "**mat4** **mat4**"
 msgstr ""
 
-#, fuzzy
 msgid "**Projection**, **Transform3D**"
-msgstr "**Transform2D**"
+msgstr ""
 
 msgid "When a Transform3D is used, the w Vector is set to the identity."
 msgstr ""
 
-#, fuzzy
 msgid "**Texture2D**"
-msgstr "Doku"
+msgstr ""
 
-#, fuzzy
 msgid "**Texture2DArray**"
-msgstr "**Özellik etiketi**"
+msgstr ""
 
-#, fuzzy
 msgid "**Texture3D**"
-msgstr "Doku"
+msgstr ""
 
 msgid "**Cubemap**"
 msgstr ""
@@ -983,9 +971,8 @@ msgid ""
 "group before this):"
 msgstr ""
 
-#, fuzzy
 msgid "Global uniforms"
-msgstr "Genel yerleşikler"
+msgstr ""
 
 msgid ""
 "Sometimes, you want to modify a parameter in many different shaders at once. "
@@ -1151,13 +1138,11 @@ msgstr ":ref:`Kanvas öğesi gölgelendiriciler <doc_canvas_item_shader>`"
 msgid ":ref:`Particle shaders <doc_particle_shader>`"
 msgstr ":ref:`Parçacık gölgelendiriciler <doc_particle_shader>`"
 
-#, fuzzy
 msgid ":ref:`Sky shaders <doc_sky_shader>`"
-msgstr ":ref:`Spatial shaders <doc_spatial_shader>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Fog shaders <doc_fog_shader>`"
-msgstr ":ref:`Spatial shaders <doc_spatial_shader>`"
+msgstr ""
 
 msgid "Built-in functions"
 msgstr ""
@@ -1177,16 +1162,14 @@ msgstr ""
 msgid "vec_type **radians** (vec_type degrees)"
 msgstr ""
 
-#, fuzzy
 msgid "Convert degrees to radians."
-msgstr "Girintiyi Sekmelere Dönüştür"
+msgstr ""
 
 msgid "vec_type **degrees** (vec_type radians)"
 msgstr ""
 
-#, fuzzy
 msgid "Convert radians to degrees."
-msgstr "Girintiyi Boşluklara Dönüştür"
+msgstr ""
 
 msgid "vec_type **sin** (vec_type x)"
 msgstr ""
@@ -1203,9 +1186,8 @@ msgstr ""
 msgid "vec_type **tan** (vec_type x)"
 msgstr ""
 
-#, fuzzy
 msgid "Tangent."
-msgstr "Teğetlerden Emin Ol"
+msgstr ""
 
 msgid "vec_type **asin** (vec_type x)"
 msgstr ""
@@ -1346,9 +1328,8 @@ msgstr ""
 msgid "vec_type **trunc** (vec_type x)"
 msgstr ""
 
-#, fuzzy
 msgid "Truncation."
-msgstr "fonksiyon"
+msgstr ""
 
 msgid "vec_type **ceil** (vec_type x)"
 msgstr ""
@@ -1475,9 +1456,8 @@ msgstr ""
 msgid "float **length** (vec_type x)"
 msgstr ""
 
-#, fuzzy
 msgid "Vector length."
-msgstr "Vektör uzunluğu"
+msgstr ""
 
 msgid "float **distance** (vec_type a, vec_type b)"
 msgstr ""
@@ -1506,16 +1486,14 @@ msgstr ""
 msgid "vec3 **reflect** (vec3 I, vec3 N)"
 msgstr ""
 
-#, fuzzy
 msgid "Reflect."
-msgstr "Yansımalar"
+msgstr ""
 
 msgid "vec3 **refract** (vec3 I, vec3 N, float eta)"
 msgstr ""
 
-#, fuzzy
 msgid "Refract."
-msgstr "Kırılma"
+msgstr ""
 
 msgid "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
 msgstr ""
@@ -1538,9 +1516,8 @@ msgstr ""
 msgid "mat_type **transpose** (mat_type m)"
 msgstr ""
 
-#, fuzzy
 msgid "Transpose matrix."
-msgstr "Tersini Al"
+msgstr ""
 
 msgid "float **determinant** (mat_type m)"
 msgstr ""
@@ -1605,9 +1582,8 @@ msgstr ""
 msgid "bvec_type **not** (bvec_type x)"
 msgstr ""
 
-#, fuzzy
 msgid "Invert boolean vector."
-msgstr "Rengi Ters Çevir"
+msgstr ""
 
 msgid "ivec2 **textureSize** (gsampler2D s, int lod)"
 msgstr ""

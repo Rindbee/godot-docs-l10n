@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,9 +43,8 @@ msgstr ""
 msgid "**Enabled by default**"
 msgstr ""
 
-#, fuzzy
 msgid "Yes"
-msgstr "es"
+msgstr ""
 
 msgid "Cause"
 msgstr ""
@@ -53,9 +52,8 @@ msgstr ""
 msgid "This is a bug in the engine and must be reported."
 msgstr ""
 
-#, fuzzy
 msgid "Rule description"
-msgstr "`<brief_description>` (kısa açıklama)"
+msgstr ""
 
 msgid ""
 "The ``MustBeVariantAnalyzer`` has found an unhandled case in the user source "

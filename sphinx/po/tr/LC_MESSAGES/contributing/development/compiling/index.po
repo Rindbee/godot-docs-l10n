@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,9 +47,8 @@ msgid ""
 "which options to use to compile it regardless of your target platform."
 msgstr ""
 
-#, fuzzy
 msgid "Building for target platforms"
-msgstr "Desteklenen platformlar"
+msgstr ""
 
 msgid ""
 "Below you can find instructions for compiling the engine for your specific "
@@ -59,9 +58,8 @@ msgid ""
 "their best to cover all possible situations."
 msgstr ""
 
-#, fuzzy
 msgid "Other compilation targets and options"
-msgstr "Kaynak seçenekleri"
+msgstr ""
 
 msgid ""
 "Some additional universal compilation options require further setup. Namely, "

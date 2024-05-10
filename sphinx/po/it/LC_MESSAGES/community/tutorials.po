@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,13 +84,12 @@ msgstr ""
 msgid "Video tutorials"
 msgstr "Tutorial video"
 
-#, fuzzy
 msgid ""
 "`BornCG <https://www.youtube.com/playlist?"
 "list=PLda3VoSoc_TTp8Ng3C57spnNkOw3Hm_35>`_ (2D and 3D, GDScript)"
 msgstr ""
 "`BornCG <https://www.youtube.com/playlist?"
-"list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ>`_ (2D e 3D, GDScript)."
+"list=PLda3VoSoc_TTp8Ng3C57spnNkOw3Hm_35>`_ (2D e 3D, GDScript)"
 
 #, fuzzy
 msgid ""
@@ -122,11 +121,10 @@ msgstr ""
 "`GDQuest <https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/"
 "playlists>`_ (2D e 3D, GDScript, VisualScript e C#)."
 
-#, fuzzy
 msgid ""
 "`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)"
 msgstr ""
-"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)."
+"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)"
 
 #, fuzzy
 msgid ""
@@ -136,17 +134,15 @@ msgstr ""
 "`Game Development Center <https://www.youtube.com/c/GameDevelopmentCenter>`_ "
 "(2D, multiplayer in rete, GDScript)."
 
-#, fuzzy
 msgid ""
 "`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
 "videos>`_ (2D, GDScript)"
 msgstr ""
 "`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)."
+"videos>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid "`Gwizz <https://www.youtube.com/@Gwizz1027>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
+msgstr "`Gwizz <https://www.youtube.com/@Gwizz1027>`_ (2D, GDScript)"
 
 #, fuzzy
 msgid ""
@@ -154,35 +150,29 @@ msgid ""
 msgstr ""
 "`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)."
 
-#, fuzzy
 msgid "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
+msgstr "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid ""
 "`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
 "playlists>`__ (2D and 3D, GDScript)"
 msgstr ""
 "`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
-"playlists>`__ (2D e 3D, GDScript e VisualScript)."
+"playlists>`__ (2D e 3D, GDScript)"
 
-#, fuzzy
 msgid "`Maker Tech <https://www.youtube.com/@MakerTech/>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
+msgstr "`Maker Tech <https://www.youtube.com/@MakerTech/>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid "`Pigdev <https://www.youtube.com/@pigdev>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
+msgstr "`Pigdev <https://www.youtube.com/@pigdev>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid ""
 "`Queble <https://www.youtube.com/@queblegamedevelopment4143>`_ (2D, GDScript)"
 msgstr ""
-"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)."
+"`Queble <https://www.youtube.com/@queblegamedevelopment4143>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
+msgstr "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
 
 msgid "Text tutorials"
 msgstr "Tutorial testuali"
@@ -221,9 +211,8 @@ msgstr ""
 "`Bastiaan Olij (AR e VR) <https://www.youtube.com/channel/UCrbLJYzJjDf2p-"
 "vJC011lYw/videos>`_"
 
-#, fuzzy
 msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
-msgstr "`Youtube <https://www.youtube.com/c/GodotEngineOfficial>`_"
+msgstr "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
 
 msgid "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"
 msgstr "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"

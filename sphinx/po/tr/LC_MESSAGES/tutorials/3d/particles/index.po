@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Particle systems (3D)"
-msgstr "Parçacık sistemleri (2B)"
+msgstr ""
 
 msgid ""
 "This section of the tutorial covers (3D) GPU-accelerated particle systems. "
@@ -62,9 +61,8 @@ msgid ""
 "as individual particles."
 msgstr ""
 
-#, fuzzy
 msgid "Emitters"
-msgstr "Titreşme"
+msgstr ""
 
 msgid ""
 "An emitter is what's creating the particles. Emitters are usually not "
@@ -75,9 +73,8 @@ msgid ""
 "the embers and the flames."
 msgstr ""
 
-#, fuzzy
 msgid "Node overview"
-msgstr "Özet"
+msgstr ""
 
 msgid "A list of nodes related to 3D particles"
 msgstr ""
@@ -134,9 +131,8 @@ msgstr ""
 msgid "Basic usage"
 msgstr ""
 
-#, fuzzy
 msgid "Advanced topics"
-msgstr "Gelişmiş vektör matematiği"
+msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

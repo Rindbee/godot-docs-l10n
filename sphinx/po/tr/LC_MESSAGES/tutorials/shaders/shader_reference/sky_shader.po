@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Sky shaders"
-msgstr "gölgelendiriciler"
+msgstr ""
 
 msgid ""
 "Sky shaders are a special type of shader used for drawing sky backgrounds "
@@ -243,8 +242,8 @@ msgid "in float **LIGHTX_SIZE**"
 msgstr ""
 
 msgid ""
-"Angular diameter of ``LIGHTX`` in the sky. Expressed in degrees. For "
-"reference, the sun from earth is about 0.5 degrees."
+"Angular diameter of ``LIGHTX`` in the sky. Expressed in radians. For "
+"reference, the sun from earth is about .0087 radians (0.5 degrees)."
 msgstr ""
 
 msgid "in float **PI**"
@@ -271,9 +270,8 @@ msgid ""
 "logarithm."
 msgstr ""
 
-#, fuzzy
 msgid "Sky built-ins"
-msgstr "Yerleşikler"
+msgstr ""
 
 msgid "in vec3 **EYEDIR**"
 msgstr ""
@@ -316,9 +314,8 @@ msgstr ""
 msgid "out vec3 **COLOR**"
 msgstr ""
 
-#, fuzzy
 msgid "Output color."
-msgstr "Çıktı günlüğü"
+msgstr ""
 
 msgid "out float **ALPHA**"
 msgstr ""

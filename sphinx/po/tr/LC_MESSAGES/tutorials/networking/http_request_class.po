@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,9 +78,8 @@ msgid ""
 "blocked by the Android OS."
 msgstr ""
 
-#, fuzzy
 msgid "Preparing the scene"
-msgstr "Sahneyi test etmek"
+msgstr ""
 
 msgid ""
 "Create a new empty scene, add a root :ref:`Node <class_Node>` and add a "
@@ -88,9 +87,8 @@ msgid ""
 "child."
 msgstr ""
 
-#, fuzzy
 msgid "Scripting the request"
-msgstr "Betik dilleri"
+msgstr ""
 
 msgid ""
 "When the project is started (so in ``_ready()``), we're going to send an "

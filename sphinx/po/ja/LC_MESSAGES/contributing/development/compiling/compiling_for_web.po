@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "To compile export templates for the Web, the following is required:"
 msgstr "Webのエクスポートテンプレートをコンパイルするには、次のことが必要です:"
 
 #, fuzzy
-msgid "`Emscripten 1.39.9+ <https://emscripten.org>`__."
+msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
 msgstr "`Python 3.5 以降 <https://www.python.org/>`_\\ 。"
 
 #, fuzzy
@@ -55,6 +55,14 @@ msgid ""
 msgstr ""
 "Godotにおける基本的なSconsの使い方については、\\ :ref:"
 "`doc_introduction_to_the_buildsystem`\\ を参照してください。"
+
+msgid ""
+"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
+msgstr ""
+
+msgid ""
+"Please note that the minimum requirement for GDExtension support is 3.1.14."
+msgstr ""
 
 msgid "Building export templates"
 msgstr "エクスポートテンプレートの構築"

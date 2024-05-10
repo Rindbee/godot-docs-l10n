@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,9 +76,8 @@ msgstr ""
 msgid "Physical light units are only available in 3D rendering, not 2D."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up physical light units"
-msgstr "Otomatik imzalamayı ayarlamak"
+msgstr ""
 
 msgid ""
 "Physical light units can be enabled separately from physical camera units."
@@ -87,13 +86,11 @@ msgstr ""
 msgid "To enable physical light units correctly, there are 4 steps required:"
 msgstr ""
 
-#, fuzzy
 msgid "Enable the project setting."
-msgstr "Hata ayıklama proje ayarları"
+msgstr ""
 
-#, fuzzy
 msgid "Configure the camera."
-msgstr "Oyuncuyu Kodlamak"
+msgstr ""
 
 msgid "Configure the environment."
 msgstr ""
@@ -110,9 +107,8 @@ msgid ""
 "decreased in the advanced Project Settings."
 msgstr ""
 
-#, fuzzy
 msgid "Enable the project setting"
-msgstr "Hata ayıklama proje ayarları"
+msgstr ""
 
 msgid ""
 "Open the Project Settings, enable the **Advanced** toggle then enable "
@@ -120,9 +116,8 @@ msgid ""
 "editor."
 msgstr ""
 
-#, fuzzy
 msgid "Configure the camera"
-msgstr "Oyuncuyu Kodlamak"
+msgstr ""
 
 msgid ""
 "When physical light units are enabled and if you have a WorldEnvironment "
@@ -237,9 +232,8 @@ msgid ""
 "this energy is multiplied by the intensity."
 msgstr ""
 
-#, fuzzy
 msgid "Configure the light nodes"
-msgstr "Düğüm oluşturmak"
+msgstr ""
 
 msgid ""
 "After enabling physical light units, 2 new properties become available in "
@@ -295,9 +289,8 @@ msgid ""
 "lux."
 msgstr ""
 
-#, fuzzy
 msgid "**Color temperature**"
-msgstr "**Color**"
+msgstr ""
 
 msgid ""
 "6500 Kelvin is white. Higher values result in colder (bluer) colors, while "
@@ -320,9 +313,8 @@ msgid ""
 "non-realistic properties."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up physical camera units"
-msgstr "Oyun sahasını ayarlamak"
+msgstr ""
 
 msgid ""
 "Physical camera units can be enabled separately from physical light units."

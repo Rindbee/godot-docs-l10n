@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "System requirements"
-msgstr "Вимоги"
+msgstr "Системні вимоги"
 
 msgid ""
 "This page contains system requirements for the editor and exported projects. "
@@ -27,101 +26,122 @@ msgid ""
 "be referred to if you're looking to build or upgrade a system to use Godot "
 "on."
 msgstr ""
+"Ця сторінка містить системні вимоги для редактора та експортованих проектів. "
+"Ці специфікації наведені виключно в інформативних цілях, але вони можуть "
+"використовуватися вами, якщо ви забажаєте зібрати, або оновити, систему для "
+"використання Godot."
 
-#, fuzzy
 msgid "Godot editor"
-msgstr "Приготування проєкту"
+msgstr "Редактор Godot"
 
 msgid ""
 "These are the **minimum** specifications required to run the Godot editor "
 "and work on a simple 2D or 3D project:"
 msgstr ""
+"Це **мінімальні** вимоги, необхідні для запуску редактора Godot і роботи над "
+"простим 2D, або 3D, проектом:"
 
 msgid "Desktop or laptop PC - Minimum"
-msgstr ""
+msgstr "Мінімальні вимоги до ПК, або ноутбуку"
 
 msgid "**CPU**"
-msgstr ""
+msgstr "**CPU**"
 
 msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
 msgstr ""
+"**Windows:** x86_32 процесор з інструкціями SSE2, або будь-яким процесором "
+"x86_64"
 
 msgid "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
-msgstr ""
+msgstr "*Зразок: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
 
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
-msgstr ""
+msgstr "**macOS:** процесор x86_64, або ARM (Apple Silicon)"
 
 msgid "*Example: Intel Core 2 Duo SU9400, Apple M1*"
-msgstr ""
+msgstr "*Зразок: Intel Core 2 Duo SU9400, Apple M1*"
 
 msgid ""
 "**Linux:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv7 or ARMv8 CPU"
 msgstr ""
+"**Linux:** x86_32 процесор з інструкціями SSE2, x86_64 процесор, ARMv7, або "
+"ARMv8 процесор"
 
 msgid ""
 "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 msgstr ""
+"*Зразок: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 
 msgid "**GPU**"
-msgstr ""
+msgstr "**GPU**"
 
 msgid ""
 "**Forward+ rendering method:** Integrated graphics with full Vulkan 1.0 "
 "support"
 msgstr ""
+"**Метод рендерингу Forward+:** Вбудована графіка з повною підтримкою Vulkan "
+"1.0"
 
 msgid ""
 "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
+"*Зразок: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics (Kaveri)*"
 
 msgid ""
 "**Mobile rendering method:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
+"**Метод рендерингу Мобільний:** Вбудована графіка з повною підтримкою Vulkan "
+"1.0"
 
 msgid ""
 "**Compatibility rendering method:** Integrated graphics with full OpenGL 3.3 "
 "support"
 msgstr ""
+"**Метод рендерингу Сумісність:** Вбудована графіка з повною підтримкою "
+"OpenGL 3.3"
 
 msgid ""
 "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
+"*Зразок: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
+"(Kaveri)*"
 
 msgid "**RAM**"
-msgstr ""
+msgstr "**RAM**"
 
-#, fuzzy
 msgid "**Native editor:** 4 GB"
-msgstr "**Для редактора:**"
+msgstr "**Чистий редактор:** 4 GB"
 
-#, fuzzy
 msgid "**Web editor:** 8 GB"
-msgstr "**Для редактора:**"
+msgstr "**Веб-редактор:** 8 GB"
 
-#, fuzzy
 msgid "**Storage**"
-msgstr "Сховище даних"
+msgstr "**Сховище**"
 
 msgid ""
 "200 MB (used for the executable, project files and cache). Exporting "
 "projects requires downloading export templates separately (1.3 GB after "
 "installation)."
 msgstr ""
+"200 МБ (використовується для виконуваного файлу, файлів проекту та кешу). "
+"Для експорту проектів потрібно окремо завантажувати шаблони експорту (1,3 Гб "
+"після установки)."
 
-#, fuzzy
 msgid "**Operating system**"
-msgstr "Система попередження"
+msgstr "**Операційна система**"
 
 msgid ""
 "**Native editor:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 "
 "(Forward+/Mobile), Linux distribution released after 2016"
 msgstr ""
+"**Чистий редактор:** Windows 7, macOS 10.13 (Сумісність) or macOS 10.15 "
+"(Forward+/Мобільний), дистрибутив Linux, випущений після 2016 року"
 
 msgid "**Web editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr ""
+"**Веб-редактор:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 
 msgid ""
 "Windows 7/8/8.1 are supported on a best-effort basis. These versions are not "
@@ -130,172 +150,212 @@ msgid ""
 "for Windows 7/8/8.1 may be removed in a :ref:`future Godot 4.x release "
 "<doc_release_policy>`."
 msgstr ""
+"Windows 7/8/8.1 підтримуються з максимальною віддачею. Ці версії тестуються "
+"не регулярно, і деякі функції можуть бути відсутніми (наприклад, кольоровий :"
+"ref:`print_rich<class_@GlobalScope_method_print_rich>` для консольного "
+"виводу). Підтримка Windows 7/8/8.1 може бути видалена в :ref:`майбутньому "
+"випуску Godot 4.x <doc_release_policy>`."
 
 msgid ""
 "Vulkan drivers for these Windows versions are known to have issues with "
 "memory leaks. As a result, it's recommended to stick to the Compatibility "
 "rendering method when running Godot on an Windows version older than 10."
 msgstr ""
+"Відомо, що драйвери Vulkan для цих версій Windows мають проблеми з витоком "
+"пам'яті. У зв'язку з цим рекомендується дотримуватися методу рендерингу "
+"Сумісність під час запуску Godot на версіях Windows старше 10."
 
 msgid "Mobile device (smartphone/tablet) - Minimum"
-msgstr ""
+msgstr "Мінімальні вимоги для мобільних пристроїв (смартфонів/планшетів)"
 
 msgid "**Android:** SoC with any 32-bit or 64-bit ARM or x86 CPU"
 msgstr ""
+"**Android:** SoC з будь-яким 32-бітним, чи 64-бітним, ARM, або x86, "
+"процесором"
 
 msgid "*Example: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
-msgstr ""
+msgstr "*Зразок: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
 
-#, fuzzy
 msgid "**iOS:** *Cannot run the editor*"
-msgstr "**Для редактора:**"
+msgstr "**iOS:** *Запустити редактор неможливо*"
 
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
+"**Метод рендерингу Forward+:** SoC з графічним процесором з повною "
+"підтримкою Vulkan 1.0"
 
 msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2*"
-msgstr ""
+msgstr "*Зразок: Qualcomm Adreno 505, Mali-G71 MP2*"
 
 msgid ""
 "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
+"**Метод рендерингу Мобільний:** SoC з графічним процесором з повною "
+"підтримкою Vulkan 1.0"
 
 msgid ""
 "**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES "
 "3.0 support"
 msgstr ""
+"**Метод рендерингу Сумісність:** SoC з графічним процесором з повною "
+"підтримкою OpenGL ES 3.0"
 
 msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
-msgstr ""
+msgstr "*Зразок: Qualcomm Adreno 306, Mali-T628 MP6*"
 
-#, fuzzy
 msgid "**Native editor:** 3 GB"
-msgstr "**Для редактора:**"
+msgstr "**Чистий редактор:** 3Гб"
 
-#, fuzzy
 msgid "**Web editor:** 6 GB"
-msgstr "**Для редактора:**"
+msgstr "**Веб-редактор:** 6 Гб"
 
 msgid ""
 "**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
 "Mobile), iOS 11.0"
 msgstr ""
+"**Чистий редактор:** Android 6.0 (Сумісність), або Android 9.0 (Forward+/"
+"Мобільний), iOS 11.0"
 
 msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
+"**Веб-редактор:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
+"Samsung Internet 15"
 
 msgid ""
 "These are the **recommended** specifications to get a smooth experience with "
 "the Godot editor on a simple 2D or 3D project:"
 msgstr ""
+"Це **рекомендовані** вимоги для безперебійної роботи з редактором Godot над "
+"простим 2D, або 3D, проектом:"
 
 msgid "Desktop or laptop PC - Recommended"
-msgstr ""
+msgstr "Рекомендовані вимоги до ПК, або ноутбуку"
 
 msgid ""
 "**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
 "more"
 msgstr ""
+"**Windows:** x86_64 процесор з інструкціями SSE4.2, з 4, чи більше, "
+"фізичними ядрами"
 
 msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr ""
+msgstr "*Зразок: Intel Core i5-6600K, AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
-msgstr ""
+msgstr "*Зразок: Intel Core i5-8500, Apple M1*"
 
 msgid ""
 "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 with "
 "overclocking*"
 msgstr ""
+"*Зразок: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 з розгоном*"
 
 msgid ""
 "**Forward+ rendering method:** Dedicated graphics with full Vulkan 1.2 "
 "support"
 msgstr ""
+"**Метод рендерингу Forward+:** Виділена графіка з повною підтримкою Vulkan "
+"1.2"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 msgstr ""
+"*Зразок: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 
 msgid ""
 "**Mobile rendering method:** Dedicated graphics with full Vulkan 1.2 support"
 msgstr ""
+"**Метод рендерингу Мобільний:** Виділена графіка з повною підтримкою Vulkan "
+"1.2"
 
 msgid ""
 "**Compatibility rendering method:** Dedicated graphics with full OpenGL 4.6 "
 "support"
 msgstr ""
+"**Метод рендерингу Сумісність:** Виділена графіка з повною підтримкою OpenGL "
+"4.6"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 msgstr ""
+"*Зразок: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 
-#, fuzzy
 msgid "**Native editor:** 8 GB"
-msgstr "**Для редактора:**"
+msgstr "**Чистий редактор:** 8Гб"
 
-#, fuzzy
 msgid "**Web editor:** 12 GB"
-msgstr "**Для редактора:**"
+msgstr "**Веб-редактор:** 12 Гб"
 
 msgid ""
 "1.5 GB (used for the executable, project files, all export templates and "
 "cache)"
 msgstr ""
+"1,5 ГБ (використовується для виконуваного файлу, файлів проекту, всіх "
+"шаблонів експорту та кешу)"
 
 msgid ""
 "**Native editor:** Windows 10, macOS 10.15, Linux distribution released "
 "after 2020"
 msgstr ""
+"**Чистий редактор:** Windows 10, macOS 10.15, дистрибутив Linux, випущений "
+"після 2020 року"
 
 msgid "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
-msgstr ""
+msgstr "**Веб-редактор:** Остання версія Firefox, Chrome, Edge, Safari, Opera"
 
 msgid "Mobile device (smartphone/tablet) - Recommended"
-msgstr ""
+msgstr "Рекомендовані вимоги для мобільного пристрою (смартфона/планшета)"
 
 msgid ""
 "**Android:** SoC with 64-bit ARM or x86 CPU, with 3 \"performance\" cores or "
 "more"
 msgstr ""
+"**Android:** SoC з 64-бітним процесором ARM, або x86, з 3-ма, або більше, "
+"\"продуктивними\" ядрами"
 
 msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
-msgstr ""
+msgstr "*Зразок: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
 
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
+"**Метод рендерингу Forward+:** SoC з графічним процесором з повною "
+"підтримкою Vulkan 1.2"
 
 msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
-msgstr ""
+msgstr "*Зразок: Qualcomm Adreno 630, Mali-G72 MP18*"
 
 msgid ""
 "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
+"**Метод рендерингу Мобільний:** SoC з графічним процесором з повною "
+"підтримкою Vulkan 1.2"
 
 msgid ""
 "**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES "
 "3.2 support"
 msgstr ""
+"**Метод рендерингу Сумісність:** SoC з графічним процесором з повною "
+"підтримкою OpenGL ES 3.2"
 
-#, fuzzy
 msgid "**Native editor:** 6 GB"
-msgstr "**Для редактора:**"
+msgstr "**Чистий редактор:** 6Гб"
 
 msgid "**Native editor:** Android 9.0 or iOS 11.0"
-msgstr ""
+msgstr "**Чистий редактор:** Android 9.0, або iOS 11.0"
 
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
 msgstr ""
+"**Веб-редактор:** Остання версіяf Firefox, Chrome, Edge, Safari, Opera, "
+"Samsung Internet"
 
-#, fuzzy
 msgid "Exported Godot project"
-msgstr "Експорт проєкта Godot на Xcode"
+msgstr "Експортований проект Godot"
 
 msgid ""
 "The requirements below are a baseline for a **simple** 2D or 3D project, "
@@ -305,6 +365,13 @@ msgid ""
 "programs running on the system while the project is running will also "
 "compete for resources, including RAM and video RAM."
 msgstr ""
+"Наведені нижче вимоги є базовими для **простого** 2D, або 3D, проекту, з "
+"базовими скриптом і невеликою кількістю візуальних ефектів. CPU, GPU, RAM і "
+"вимоги до сховища будуть сильно відрізнятися в залежності від обсягу вашого "
+"проекту, вибраного методу рендерингу, роздільної здатності вікна перегляду "
+"та налаштування графіки. Інші програми, запущені в системі під час роботи "
+"проекту також будуть конкурувати за ресурси, включаючи оперативну пам'ять і "
+"відео-пам'ять."
 
 msgid ""
 "It is strongly recommended to do your own testing on low-end hardware to "
@@ -313,110 +380,134 @@ msgid ""
 "<https://github.com/godotengine/godot-demo-projects/tree/master/3d/"
 "graphics_settings>`__ to your project."
 msgstr ""
+"Нагально рекомендується провести власне тестування на апаратному "
+"забезпеченні низького класу, щоб переконатися, що ваш проект працює з "
+"потрібною швидкістю. Для забезпечення масштабованості апаратного "
+"забезпечення низького класу, вам також потрібно буде ввести у ваш проект "
+"`меню графічних параметрів<https://github.com/godotengine/godot-demo-"
+"projects/tree/master/3d/graphics_settings>`__."
 
 msgid ""
 "These are the **minimum** specifications required to run a simple 2D or 3D "
 "project exported with Godot:"
 msgstr ""
+"Це мінімальні **вимоги**, необхідні для запуску простого 2D, або 3D, "
+"проекту, експортованого за допомогою Godot:"
 
-#, fuzzy
 msgid "**For native exports:** 2 GB"
-msgstr "**Для редактора:**"
+msgstr "**Для чистого експорту:** 2 Гб"
 
-#, fuzzy
 msgid "**For web exports:** 4 GB"
-msgstr "**Для редактора:**"
+msgstr "**Для веб-експорту:** 4 Гб"
 
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr ""
+"150 МБ (використовується для виконуваного файлу, файлів проекту та кешу)"
 
 msgid ""
 "**For native exports:** Windows 7, macOS 10.13 (Compatibility) or macOS "
 "10.15 (Forward+/Mobile), Linux distribution released after 2016"
 msgstr ""
+"**Для чистого експорту:** Windows 7, macOS 10.13 (Сумісність) or macOS 10.15 "
+"(Forward+/Мобільний), дистрибутив Linux випущений після 2016"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr ""
+"**Для веб експорту:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 
 msgid "**iOS:** SoC with any 64-bit ARM CPU"
-msgstr ""
+msgstr "**iOS:** SoC з будь-яким 64-бітним ARM процесором"
 
 msgid "*Example: Apple A7 (iPhone 5S)*"
-msgstr ""
+msgstr "*Зразок: Apple A7 (iPhone 5S)*"
 
 msgid ""
 "*Example: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
 "SE 1)*"
 msgstr ""
+"*Зразок: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
+"SE 1)*"
 
 msgid ""
 "*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
 msgstr ""
+"*Зразок: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
 
-#, fuzzy
 msgid "**For native exports:** 1 GB"
-msgstr "**Для редактора:**"
+msgstr "**Для чистого експорту:** 1 Гб"
 
-#, fuzzy
 msgid "**For web exports:** 2 GB"
-msgstr "**Для редактора:**"
+msgstr "**Для веб експорту:** 2 Гб"
 
 msgid ""
 "**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
 "Mobile), iOS 11.0"
 msgstr ""
+"**Для чистого експорту:** Android 6.0 (Сумісність), або Android 9.0 "
+"(Forward+/Мобільний), iOS 11.0"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
+"**Для веб експорту:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
+"Samsung Internet 15"
 
 msgid ""
 "These are the **recommended** specifications to get a smooth experience with "
 "a simple 2D or 3D project exported with Godot:"
 msgstr ""
+"Це **рекомендовані** параметри, щоб отримати безперебійну роботу простого "
+"2D, або 3D, проекту, експортованого за допомогою Godot:"
 
-#, fuzzy
 msgid "**For native exports:** 4 GB"
-msgstr "**Для редактора:**"
+msgstr "**Для чистого експорту:** 4 Гб"
 
-#, fuzzy
 msgid "**For web exports:** 8 GB"
-msgstr "**Для редактора:**"
+msgstr "**Для веб експорту:** 8 Гб"
 
 msgid ""
 "**For native exports:** Windows 10, macOS 10.15, Linux distribution released "
 "after 2020"
 msgstr ""
+"**Для чистого експорту:** Windows 10, macOS 10.15, дистрибутив Linux "
+"випущений після 2020"
 
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 msgstr ""
+"**Для веб експорту:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 
 msgid "**iOS:** SoC with 64-bit ARM CPU"
-msgstr ""
+msgstr "**iOS:** SoC з 64-бітним ARM процесором"
 
 msgid "*Example: Apple A11 (iPhone XS/XR)*"
-msgstr ""
+msgstr "*Зразок: Apple A11 (iPhone XS/XR)*"
 
 msgid ""
 "*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
 msgstr ""
+"*Зразок: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
 
 msgid "**For native exports:** Android 9.0 or iOS 11.0"
-msgstr ""
+msgstr "**Для чистого експорту:** Android 9.0, або iOS 11.0"
 
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
 msgstr ""
+"**Для веб експорту:** Остання версія Firefox, Chrome, Edge, Safari, Opera, "
+"Samsung Internet"
 
 msgid ""
 "Godot doesn't use OpenGL/OpenGL ES extensions introduced after OpenGL 3.3/"
 "OpenGL ES 3.0, but GPUs supporting newer OpenGL/OpenGL ES versions generally "
 "have fewer driver issues."
 msgstr ""
+"Godot не використовує розширення OpenGL/OpenGL ES, введені після OpenGL 3.3/"
+"OpenGL ES 3.0, але графічні процесори, що підтримують новіші версії OpenGL/"
+"OpenGL ES як правило, мають менше проблем з драйверами."
 
 msgid "Translation status"
 msgstr "Стан перекладу"

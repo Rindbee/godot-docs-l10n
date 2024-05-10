@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,20 +41,20 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"Informace o požadavcích na hardware a verzi softwaru naleznete v :ref:"
+"`doc_system_requirements`."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Dokáží spustit jak editor, tak exportované projekty:**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 a novější (64bitový a 32bitový)."
+msgstr "Windows (x86, 64-bit a 32-bit)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 a ARM, pouze 64-bit)."
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 a novější (64bitový a 32bitový)."
+msgstr "Linux (x86 a ARM, 64-bit a 32-bit)."
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -68,10 +68,12 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"Oficiální binární soubory jsou kompilovány pomocí `Godot Engine buildroot "
+"<https://github.com/godotengine/buildroot>`__, což umožňuje, aby binární "
+"soubory fungovaly v běžných distribucích Linuxu (včetně variant LTS)."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr "Android 6.0 nebo novější (podpora editoru je ve experimentální)."
+msgstr "Android (podpora editoru je experimentální)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -83,8 +85,9 @@ msgstr ""
 msgid "**Runs exported projects:**"
 msgstr "**Spustí exportované projekty:**"
 
+#, fuzzy
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`Konzole <doc_consoles>`."
@@ -130,9 +133,8 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDSkript :ref:`debugger <doc_debugger_panel>`."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Zatím neexistuje podpora pro ladění ve vláknech."
+msgstr "Podpora ladění ve vláknech je k dispozici od verze 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -458,6 +460,8 @@ msgid ""
 "When using the Forward+ backend, a depth prepass is used to improve "
 "performance in complex scenes by reducing the cost of overdraw."
 msgstr ""
+"Při použití backendu Forward+ se ke zlepšení výkonu ve složitých scénách "
+"používá hloubkový prepass, který snižuje náklady na překreslení."
 
 msgid ""
 ":ref:`doc_variable_rate_shading` on supported GPUs in Forward+ and Forward "
@@ -474,9 +478,11 @@ msgid ""
 "Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
 "shading modes."
 msgstr ""
+"Podporuje Burley, Lambert, Lambert Wrap (poloviční-Lambert) a Toon diffuse "
+"stínovací model."
 
 msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
-msgstr ""
+msgstr "Podporuje Schlick-GGX, Toon a Disabled specular stínovací mód."
 
 msgid "Uses a roughness-metallic workflow with support for ORM textures."
 msgstr "Používá roughness-metallic postup s podporou ORM textury."
@@ -489,24 +495,23 @@ msgstr ""
 msgid "Normal mapping."
 msgstr "Normální mapování."
 
-#, fuzzy
 msgid ""
 "Parallax/relief mapping with automatic level of detail based on distance."
 msgstr ""
-"*GLES3:* Parallax / reliéfní mapování s automatickou úrovní detailů na "
-"základě vzdálenosti."
+"Parallax / reliéfní mapování s automatickou úrovní detailů podle vzdálenosti."
 
 msgid "Detail mapping for the albedo and normal maps."
-msgstr ""
+msgstr "Detailní mapování pro albedo a normal mapy."
 
-#, fuzzy
 msgid "Sub-surface scattering and transmittance."
-msgstr "*GLES3:* Podpovrchový rozptyl a propustnost."
+msgstr "Podpovrchový rozptyl a propustnost."
 
 msgid ""
 "Screen-space refraction with support for material roughness (resulting in "
 "blurry refraction)."
 msgstr ""
+"Lom v prostoru obrazovky s podporou drsnosti materiálu (výsledkem je "
+"rozmazaný lom)."
 
 #, fuzzy
 msgid "Proximity fade (soft particles) and distance fade."
@@ -537,21 +542,26 @@ msgstr "Všesměrová světla."
 msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "Bodová světla s nastavitelným úhlem kužele a útlumem."
 
-#, fuzzy
 msgid ""
 "Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
 "light basis."
-msgstr "Zrcadlovou energii lze nastavit pro každé světlo zvlášť."
+msgstr ""
+"Zrcadlové, nepřímé světlo a sílu objemové mlhy lze nastavit pro každé světlo "
+"zvlášť."
 
 msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
 "blurrier)."
 msgstr ""
+"Nastavitelná \"velikost\" světla pro falešná plošná světla (díky tomu budou "
+"stíny rozmazanější)."
 
 msgid ""
 "Optional distance fade system to fade distant lights and their shadows, "
 "improving performance."
 msgstr ""
+"Volitelný systém ztlumení vzdálenosti pro ztlumení vzdálených světel a "
+"jejich stínů, což zlepšuje výkon."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), lights are rendered "
@@ -583,9 +593,8 @@ msgstr ""
 "*OmniLight:* Duální parabolid (rychlý) nebo cubemap (pomalejší, ale "
 "přesnější). Podporuje barevné textury projektorů ve formě panoramat."
 
-#, fuzzy
 msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr "*SpotLight:* Jedna textura."
+msgstr "*SpotLight:* Jedna textura. Podporuje barevné textury projektoru."
 
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "
@@ -723,11 +732,19 @@ msgid ""
 "every frame."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
-msgstr "Nejbližší, bilineární, trilineární nebo anizotropní filtrování."
+msgstr ""
+"Podpora nejbližšího, bilineárního, trilineárního nebo anizotropního "
+"filtrování textur (konfigurováno globálně)."
+
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"Volitelný systém ztlumení vzdálenosti pro ztlumení vzdálených světel a "
+"jejich stínů, což zlepšuje výkon."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -771,26 +788,23 @@ msgstr ""
 msgid "Exponential height fog."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Support for automatic fog color depending on the sky color (aerial "
 "perspective)."
 msgstr ""
-"Podpora automatické hloubkové barvy mlhy v závislosti na směru kamery (podle "
-"barvy slunce)."
+"Podpora automatické barvy mlhy v závislosti na barvě nebe (letecká "
+"perspektiva)."
 
-#, fuzzy
 msgid "Support for sun scattering in the fog."
-msgstr "Podpora doplňků vizuálních shaderu."
+msgstr "Podpora rozptylu slunce v mlze."
 
 msgid ""
 "Support for controlling how much fog rendering should affect the sky, with "
 "separate controls for traditional and volumetric fog."
 msgstr ""
 
-#, fuzzy
 msgid "Support for making specific materials ignore fog."
-msgstr "Podpora doplňků vizuálních shaderu."
+msgstr "Podpora pro ignorování mlhy u konkrétních materiálů."
 
 msgid "**Volumetric fog:**"
 msgstr ""
@@ -853,11 +867,12 @@ msgstr "**Následné zpracování:**"
 msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
 msgstr "Tonemapování (lineární, Reinhard, filmový, ACES)."
 
-#, fuzzy
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
-msgstr "*GLES3:* Automatické úpravy expozice na základě jasu výřezu."
+msgstr ""
+"*GLES3:*Automatické nastavení expozice na základě jasu na obrazovce (a ruční "
+"přenastavení expozice)."
 
 msgid ""
 "Near and far depth of field with adjustable bokeh simulation (box, hexagon, "
@@ -868,13 +883,12 @@ msgstr ""
 msgid "Screen-space ambient occlusion (SSAO) at half or full resolution."
 msgstr "*GLES3:* Okolní okluze obrazovky."
 
-#, fuzzy
 msgid ""
 "Glow/bloom with optional bicubic upscaling and several blend modes "
 "available: Screen, Soft Light, Add, Replace, Mix."
 msgstr ""
-"GLow/bloom s volitelným bikubickým upscalingem a několika dostupnými režimy "
-"prolnutí: Obrazovka, Měkké světlo, Přidat, Nahradit."
+"GLow/bloom s volitelným bikubickým zvětšením a několika dostupnými režimy "
+"prolnutí: Screen, Soft Light, Add, Replace, Mix."
 
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
 msgstr ""
@@ -884,9 +898,8 @@ msgid ""
 "<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
 msgstr ""
 
-#, fuzzy
 msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
-msgstr "Korekce barev pomocí jednorozměrné rampy."
+msgstr "Korekce barev pomocí jednorozměrné rampy nebo 3D LUT textury."
 
 msgid "Roughness limiter to reduce the impact of specular aliasing."
 msgstr ""
@@ -900,12 +913,11 @@ msgstr "**Filtrování textur:**"
 msgid "Nearest, bilinear, trilinear or anisotropic filtering."
 msgstr "Nejbližší, bilineární, trilineární nebo anizotropní filtrování."
 
-#, fuzzy
 msgid ""
 "Filtering options are defined on a per-use basis, not a per-texture basis."
 msgstr ""
-"Dithering lze určit na základě počtu pixelů nebo na základě jednotlivých "
-"objektů."
+"Možnosti filtrování jsou definovány pro jednotlivá použití, nikoli pro "
+"jednotlivé textury."
 
 msgid "**Texture compression:**"
 msgstr "**Komprese textur:**"
@@ -913,19 +925,16 @@ msgstr "**Komprese textur:**"
 msgid "Basis Universal (slow, but results in smaller files)."
 msgstr ""
 
-#, fuzzy
 msgid "BPTC for high-quality compression (not supported on macOS)."
 msgstr ""
 "*GLES3:* BPTC pro vysoce kvalitní kompresi (není podporováno v systému "
-"MacOS)."
+"macOS)."
 
-#, fuzzy
 msgid "ETC2 (not supported on macOS)."
-msgstr "*GLES3:* ETC2 (není podporováno v systému MacOS)."
+msgstr "*GLES3:* ETC2 (není podporováno v systému macOS)."
 
-#, fuzzy
 msgid "S3TC (not supported on mobile/Web platforms)."
-msgstr "S3TC (podporováno pouze na platformách pro stolní počítače)."
+msgstr "S3TC (není podporováno na mobilních/webových platformách)."
 
 msgid "**Anti-aliasing:**"
 msgstr "**Anti aliasing:**"
@@ -957,9 +966,8 @@ msgid ""
 "material basis."
 msgstr ""
 
-#, fuzzy
 msgid "**Resolution scaling:**"
-msgstr "**Odrazy:**"
+msgstr "**zvyšování rozlišení**"
 
 msgid ""
 "Support for :ref:`rendering 3D at a lower resolution "
@@ -978,26 +986,24 @@ msgid ""
 "lower resolution scales. It can also be modified with a manual offset."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Most effects listed above can be adjusted for better performance or to "
 "further improve quality. This can be helpful when :ref:`using Godot for "
 "offline rendering <doc_creating_movies>`."
 msgstr ""
-"Většina z těchto efektů může být upravena pro lepší výkon nebo pro další "
-"zlepšení kvality. To může být užitečné při použití Godota pro offline "
-"vykreslování."
+"Většinu výše uvedených efektů lze upravit pro lepší výkon nebo další "
+"zlepšení kvality. To může být užitečné při :ref:`používání Godota pro "
+"offline renderování <doc_creating_movies>`."
 
 msgid "3D tools"
 msgstr "3D nástroje"
 
-#, fuzzy
 msgid ""
 "Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad, "
 "torus, ribbon, tube."
 msgstr ""
-"Vestavěná oka: kostka, válec / kužel, (hemi) koule, hranol, rovina, "
-"čtyřúhelník."
+"Vestavěné sítě: krychle, válec/kužel, (polo)koule, hranol, rovina, "
+"čtyřúhelník, torus, stuha, trubka."
 
 msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
 msgstr ""
@@ -1023,11 +1029,12 @@ msgstr "Uzel PathFollow3D, aby uzly sledovaly Path3D."
 msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
 msgstr "Pomocná třída 3D geometrie."
 
-#, fuzzy
 msgid ""
 "Support for exporting the current scene as a glTF 2.0 file, both from the "
 "editor and at run-time from an exported project."
-msgstr "Generování navigačních sítí z editoru."
+msgstr ""
+"Podpora exportu aktuální scény jako souboru glTF 2.0, a to jak z editoru, "
+"tak za běhu z exportovaného projektu."
 
 msgid "3D physics"
 msgstr "3D fyzika"
@@ -1041,11 +1048,12 @@ msgstr "Měkká tělesa."
 msgid "Ragdolls."
 msgstr "Ragdoll."
 
-#, fuzzy
 msgid ""
 "Built-in shapes: cuboid, sphere, capsule, cylinder, world boundary (infinite "
 "plane)."
-msgstr "Vestavěné tvary: kvádr, koule, kapsle, válec."
+msgstr ""
+"Vestavěné tvary: krychle, koule, kapsle, válec, hranice světa (nekonečná "
+"rovina)."
 
 msgid "Generate triangle collision shapes for any mesh from the editor."
 msgstr ""
@@ -1097,11 +1105,10 @@ msgid ""
 msgstr ""
 "Podpora pro :ref:`cross-language scripting <doc_cross_language_scripting>`."
 
-#, fuzzy
 msgid ""
 "Many 2D, 3D and 4D linear algebra data types such as vectors and transforms."
 msgstr ""
-"Mnoho typů pro 2D a 3D lineární algebru, jako jsou vektory a transformace."
+"Mnoho 2D, 3D a 4D lineárních typů dat, jako jsou vektory a transformace."
 
 msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 msgstr ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
@@ -1140,7 +1147,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Full support for the C# 10.0 syntax and features."
-msgstr "Plná podpora syntaxe a funkcí C # 7.0."
+msgstr "Kompletní podpora syntaxe C# 10.0 a funkcí."
 
 msgid ""
 "Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
@@ -1166,9 +1173,8 @@ msgid ""
 msgstr ""
 "Doporučujeme používat externí editor, abyste mohli využívat funkce IDE."
 
-#, fuzzy
 msgid "**GDExtension (C, C++, Rust, D, ...):**"
-msgstr "**GDNative (C, C ++, Rust, D, ...):**"
+msgstr "**GDRozšíření (C, C++, Rust, D, ...):**"
 
 msgid ""
 "When you need it, link to native libraries for higher performance and third-"
@@ -1224,13 +1230,11 @@ msgid ""
 "AudioStreamPlayer node)."
 msgstr ""
 
-#, fuzzy
 msgid "Support for random volume and pitch."
-msgstr "Podpora doplňků vizuálních shaderu."
+msgstr "Podpora náhodné hlasitosti a výšky tónu."
 
-#, fuzzy
 msgid "Support for real-time pitch scaling."
-msgstr "Podpora doplňků vizuálních shaderu."
+msgstr "Podpora změny výšky tónu v reálném čase."
 
 msgid ""
 "Support for sequential/random sample selection, including repetition "
@@ -1243,10 +1247,10 @@ msgid ""
 msgstr ""
 "Uzel Listener2D (Listener3D) k poslechu z jiné polohy než kamera ve 2D (3D)."
 
-#, fuzzy
 msgid ""
 "Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
-msgstr ":ref:`Proceduralní geometrie <toc-procedural_geometry>`."
+msgstr ""
+"Podpora pro :ref:`procedural audio generation <class_AudioStreamGenerator>`."
 
 msgid "Audio input to record microphones."
 msgstr ""
@@ -1278,9 +1282,8 @@ msgstr "Podpora pro :ref:`custom import plugins <doc_import_plugins>`."
 msgid "**Formats:**"
 msgstr "**Formáty:**"
 
-#, fuzzy
 msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr "*Obrázky:* Viz: odkaz: `doc_import_images`."
+msgstr "*Obrázky:* Viz: ref: `doc_import_images`."
 
 msgid "*Audio:*"
 msgstr "*Zvuk:*"
@@ -1294,9 +1297,8 @@ msgstr "Ogg Vorbis."
 msgid "MP3."
 msgstr "MP3."
 
-#, fuzzy
 msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr "*Obrázky:* Viz: odkaz: `doc_import_images`."
+msgstr "*3D scény:* viz :ref:`doc_importing_3d_scenes`."
 
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2,0 *(doporučeno)*."
@@ -1319,11 +1321,11 @@ msgid ""
 "imported as a 3D scene)."
 msgstr "Wavefront OBJ (pouze statické scény, lze načíst přímo jako síť)."
 
-#, fuzzy
 msgid ""
 "Support for loading glTF 2.0 scenes at run-time, including from an exported "
 "project."
-msgstr "Generování navigačních sítí z editoru."
+msgstr ""
+"Podpora načítání scén glTF 2.0 za běhu, a to i z exportovaného projektu."
 
 msgid ""
 "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
@@ -1396,20 +1398,22 @@ msgid ""
 "<doc_navigation_overview_2d>` and :ref:`3D <doc_navigation_overview_3d>`."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Generate navigation meshes from the editor or at run-time (including from an "
 "exported project)."
-msgstr "Generování navigačních sítí z editoru."
+msgstr ""
+"Vygenerovat navigační sítě z editoru nebo v době běhu (včetně z "
+"exportovaného projektu)."
 
 msgid "Networking"
 msgstr "Sítě"
 
-#, fuzzy
 msgid ""
 "Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
 "`class_TCPServer`."
-msgstr "Nízkoúrovňové sítě TCP pomocí StreamPeer a TCP_Server."
+msgstr ""
+"Nízkoúrovňové sítě TCP pomocí :ref:`class_StreamPeer` and :ref:"
+"`class_TCPServer`."
 
 #, fuzzy
 msgid ""
@@ -1562,7 +1566,6 @@ msgid ""
 "without a GPU or display server."
 msgstr ""
 
-#, fuzzy
 msgid "Mobile"
 msgstr "Mobilní"
 

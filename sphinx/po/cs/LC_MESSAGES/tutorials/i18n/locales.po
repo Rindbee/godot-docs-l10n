@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "Name"
 msgstr "Název kořene"
 
 msgid "aa"
-msgstr ""
+msgstr "aa"
 
 msgid "Afar"
 msgstr ""
@@ -205,10 +205,10 @@ msgid "Angika"
 msgstr ""
 
 msgid "ar"
-msgstr ""
+msgstr "ar"
 
 msgid "Arabic"
-msgstr ""
+msgstr "Arabština"
 
 #, fuzzy
 msgid "arc"
@@ -395,10 +395,10 @@ msgid "Ghomala"
 msgstr ""
 
 msgid "be"
-msgstr ""
+msgstr "be"
 
 msgid "Belarusian"
-msgstr ""
+msgstr "Běloruština"
 
 msgid "bej"
 msgstr ""
@@ -445,10 +445,10 @@ msgid "Badaga"
 msgstr ""
 
 msgid "bg"
-msgstr ""
+msgstr "bg"
 
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bulharština"
 
 msgid "bhb"
 msgstr ""
@@ -512,16 +512,16 @@ msgid "Bambara"
 msgstr ""
 
 msgid "bn"
-msgstr ""
+msgstr "bn"
 
 msgid "Bengali"
-msgstr ""
+msgstr "Bengálština"
 
 msgid "bo"
-msgstr ""
+msgstr "bo"
 
 msgid "Tibetan"
-msgstr ""
+msgstr "Tibetština"
 
 msgid "bpy"
 msgstr ""
@@ -599,10 +599,10 @@ msgid "Medumba"
 msgstr ""
 
 msgid "ca"
-msgstr ""
+msgstr "ca"
 
 msgid "Catalan"
-msgstr ""
+msgstr "Katalánština"
 
 #, fuzzy
 msgid "cad"
@@ -779,10 +779,10 @@ msgid "Seselwa Creole French"
 msgstr ""
 
 msgid "cs"
-msgstr ""
+msgstr "cs"
 
 msgid "Czech"
-msgstr ""
+msgstr "Čeština"
 
 msgid "cu"
 msgstr ""
@@ -803,10 +803,10 @@ msgid "Welsh"
 msgstr ""
 
 msgid "da"
-msgstr ""
+msgstr "da"
 
 msgid "Danish"
-msgstr ""
+msgstr "Dánština"
 
 msgid "dak"
 msgstr ""
@@ -828,10 +828,10 @@ msgid "Taita"
 msgstr ""
 
 msgid "de"
-msgstr ""
+msgstr "de"
 
 msgid "German"
-msgstr ""
+msgstr "Němčina"
 
 #, fuzzy
 msgid "del"
@@ -969,10 +969,10 @@ msgid "Ekajuk"
 msgstr ""
 
 msgid "el"
-msgstr ""
+msgstr "el"
 
 msgid "Greek"
-msgstr ""
+msgstr "Řečtina"
 
 #, fuzzy
 msgid "elx"
@@ -985,7 +985,7 @@ msgid "en"
 msgstr "en"
 
 msgid "English"
-msgstr ""
+msgstr "Angličtina"
 
 #, fuzzy
 msgid "enm"
@@ -995,7 +995,7 @@ msgid "Middle English"
 msgstr ""
 
 msgid "eo"
-msgstr ""
+msgstr "eo"
 
 msgid "Esperanto"
 msgstr ""
@@ -1004,7 +1004,7 @@ msgid "es"
 msgstr "es"
 
 msgid "Spanish"
-msgstr ""
+msgstr "Španělština"
 
 #, fuzzy
 msgid "esu"
@@ -1014,13 +1014,13 @@ msgid "Central Yupik"
 msgstr ""
 
 msgid "et"
-msgstr ""
+msgstr "et"
 
 msgid "Estonian"
-msgstr ""
+msgstr "Estonština"
 
 msgid "eu"
-msgstr ""
+msgstr "eu"
 
 msgid "Basque"
 msgstr ""
@@ -1040,10 +1040,10 @@ msgid "Extremaduran"
 msgstr ""
 
 msgid "fa"
-msgstr ""
+msgstr "fa"
 
 msgid "Persian"
-msgstr ""
+msgstr "Perština"
 
 #, fuzzy
 msgid "fan"
@@ -1066,16 +1066,16 @@ msgid "Fulah"
 msgstr ""
 
 msgid "fi"
-msgstr ""
+msgstr "fi"
 
 msgid "Finnish"
-msgstr ""
+msgstr "Finština"
 
 msgid "fil"
-msgstr ""
+msgstr "fil"
 
 msgid "Filipino"
-msgstr ""
+msgstr "Filipínština"
 
 msgid "fit"
 msgstr ""
@@ -1104,10 +1104,10 @@ msgid "Fon"
 msgstr ""
 
 msgid "fr"
-msgstr ""
+msgstr "fr"
 
 msgid "French"
-msgstr ""
+msgstr "Francouzština"
 
 #, fuzzy
 msgid "frc"
@@ -1166,10 +1166,10 @@ msgid "Western Frisian"
 msgstr ""
 
 msgid "ga"
-msgstr ""
+msgstr "ga"
 
 msgid "Irish"
-msgstr ""
+msgstr "Irština"
 
 msgid "gaa"
 msgstr ""
@@ -1367,13 +1367,13 @@ msgid "he, iw"
 msgstr ""
 
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebrejština"
 
 msgid "hi"
-msgstr ""
+msgstr "hi"
 
 msgid "Hindi"
-msgstr ""
+msgstr "Hindština"
 
 #, fuzzy
 msgid "hif"
@@ -1415,10 +1415,10 @@ msgid "Chhattisgarhi"
 msgstr ""
 
 msgid "hr"
-msgstr ""
+msgstr "hr"
 
 msgid "Croatian"
-msgstr ""
+msgstr "Chorvatština"
 
 msgid "hsb"
 msgstr ""
@@ -1440,10 +1440,10 @@ msgid "Haitian"
 msgstr ""
 
 msgid "hu"
-msgstr ""
+msgstr "hu"
 
 msgid "Hungarian"
-msgstr ""
+msgstr "Maďarština"
 
 msgid "hup"
 msgstr ""
@@ -1494,7 +1494,7 @@ msgid "id, in"
 msgstr ""
 
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonéština"
 
 msgid "ie"
 msgstr ""
@@ -1543,13 +1543,13 @@ msgid "is"
 msgstr "is"
 
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandština"
 
 msgid "it"
-msgstr ""
+msgstr "it"
 
 msgid "Italian"
-msgstr ""
+msgstr "Italština"
 
 msgid "iu"
 msgstr ""
@@ -1567,7 +1567,7 @@ msgid "ja"
 msgstr "ja"
 
 msgid "Japanese"
-msgstr ""
+msgstr "Japonština"
 
 #, fuzzy
 msgid "jam"
@@ -1620,7 +1620,7 @@ msgid "Javanese"
 msgstr "Jávština"
 
 msgid "ka"
-msgstr ""
+msgstr "ka"
 
 msgid "Georgian"
 msgstr ""
@@ -1805,10 +1805,10 @@ msgid "Kannada"
 msgstr ""
 
 msgid "ko"
-msgstr ""
+msgstr "ko"
 
 msgid "Korean"
-msgstr ""
+msgstr "Korejština"
 
 msgid "koi"
 msgstr ""
@@ -1897,10 +1897,10 @@ msgid "Colognian"
 msgstr ""
 
 msgid "ku"
-msgstr ""
+msgstr "ku"
 
 msgid "Kurdish"
-msgstr ""
+msgstr "Kurdština"
 
 msgid "kum"
 msgstr ""
@@ -2062,7 +2062,7 @@ msgid "Northern Luri"
 msgstr ""
 
 msgid "lt"
-msgstr ""
+msgstr "lt"
 
 msgid "Lithuanian"
 msgstr ""
@@ -2119,7 +2119,7 @@ msgid "Luyia"
 msgstr ""
 
 msgid "lv"
-msgstr ""
+msgstr "lv"
 
 msgid "Latvian"
 msgstr ""
@@ -2262,7 +2262,7 @@ msgid "Eastern Mari"
 msgstr ""
 
 msgid "mi"
-msgstr ""
+msgstr "mi"
 
 msgid "Māori"
 msgstr ""
@@ -2295,13 +2295,13 @@ msgid "Karbi"
 msgstr ""
 
 msgid "mk"
-msgstr ""
+msgstr "mk"
 
 msgid "Macedonian"
-msgstr ""
+msgstr "Makedonština"
 
 msgid "ml"
-msgstr ""
+msgstr "ml"
 
 msgid "Malayalam"
 msgstr ""
@@ -2363,7 +2363,7 @@ msgid "Malay"
 msgstr ""
 
 msgid "mt"
-msgstr ""
+msgstr "mt"
 
 msgid "Maltese"
 msgstr ""
@@ -2517,10 +2517,10 @@ msgid "Ao Naga"
 msgstr ""
 
 msgid "nl"
-msgstr ""
+msgstr "nl"
 
 msgid "Dutch"
-msgstr ""
+msgstr "Nizozemština"
 
 msgid "nmg"
 msgstr ""
@@ -2529,7 +2529,7 @@ msgid "Kwasio"
 msgstr ""
 
 msgid "nn"
-msgstr ""
+msgstr "nn"
 
 msgid "Norwegian Nynorsk"
 msgstr ""
@@ -2639,7 +2639,7 @@ msgid "Ojibwa"
 msgstr ""
 
 msgid "om"
-msgstr ""
+msgstr "om"
 
 msgid "Oromo"
 msgstr ""
@@ -2697,7 +2697,7 @@ msgid "Pampanga"
 msgstr ""
 
 msgid "pap"
-msgstr ""
+msgstr "pap"
 
 msgid "Papiamento"
 msgstr ""
@@ -2760,10 +2760,10 @@ msgid "Pali"
 msgstr ""
 
 msgid "pl"
-msgstr ""
+msgstr "pl"
 
 msgid "Polish"
-msgstr ""
+msgstr "Polština"
 
 #, fuzzy
 msgid "pms"
@@ -2786,10 +2786,10 @@ msgid "Pohnpeian"
 msgstr ""
 
 msgid "pr"
-msgstr ""
+msgstr "pr"
 
 msgid "Pirate"
-msgstr ""
+msgstr "Pirát"
 
 msgid "prg"
 msgstr ""
@@ -2819,10 +2819,10 @@ msgid "Pushto"
 msgstr ""
 
 msgid "pt"
-msgstr ""
+msgstr "pt"
 
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugalština"
 
 msgid "qu"
 msgstr ""
@@ -2899,10 +2899,10 @@ msgid "Rundi"
 msgstr ""
 
 msgid "ro"
-msgstr ""
+msgstr "ro"
 
 msgid "Romanian"
-msgstr ""
+msgstr "Rumunština"
 
 msgid "rof"
 msgstr ""
@@ -2923,10 +2923,10 @@ msgid "Rotuman"
 msgstr ""
 
 msgid "ru"
-msgstr ""
+msgstr "ru"
 
 msgid "Russian"
-msgstr ""
+msgstr "Ruština"
 
 msgid "rue"
 msgstr ""
@@ -3039,10 +3039,10 @@ msgid "Sicilian"
 msgstr ""
 
 msgid "sco"
-msgstr ""
+msgstr "sco"
 
 msgid "Scots"
-msgstr ""
+msgstr "Skotština"
 
 msgid "sd"
 msgstr ""
@@ -3154,7 +3154,7 @@ msgid "Chadian Arabic"
 msgstr ""
 
 msgid "si"
-msgstr ""
+msgstr "si"
 
 msgid "Sinhala"
 msgstr ""
@@ -3166,16 +3166,16 @@ msgid "Sidamo"
 msgstr ""
 
 msgid "sk"
-msgstr ""
+msgstr "sk"
 
 msgid "Slovak"
-msgstr ""
+msgstr "Slovenština"
 
 msgid "sl"
-msgstr ""
+msgstr "sl"
 
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovinština"
 
 msgid "sli"
 msgstr ""
@@ -3233,10 +3233,10 @@ msgid "Soninke"
 msgstr ""
 
 msgid "so"
-msgstr ""
+msgstr "so"
 
 msgid "Somali"
-msgstr ""
+msgstr "Somálština"
 
 msgid "sog"
 msgstr ""
@@ -3251,16 +3251,16 @@ msgid "Songhai"
 msgstr ""
 
 msgid "sq"
-msgstr ""
+msgstr "sq"
 
 msgid "Albanian"
-msgstr ""
+msgstr "Albánština"
 
 msgid "sr"
-msgstr ""
+msgstr "sr"
 
 msgid "Serbian"
-msgstr ""
+msgstr "Srbština"
 
 #, fuzzy
 msgid "srn"
@@ -3325,10 +3325,10 @@ msgid "Sumerian"
 msgstr ""
 
 msgid "sv"
-msgstr ""
+msgstr "sv"
 
 msgid "Swedish"
-msgstr ""
+msgstr "Švédština"
 
 msgid "sw"
 msgstr ""
@@ -3367,7 +3367,7 @@ msgid "Silesian"
 msgstr ""
 
 msgid "ta"
-msgstr ""
+msgstr "ta"
 
 msgid "Tamil"
 msgstr ""
@@ -3379,7 +3379,7 @@ msgid "Tulu"
 msgstr ""
 
 msgid "te"
-msgstr ""
+msgstr "te"
 
 msgid "Telugu"
 msgstr ""
@@ -3418,10 +3418,10 @@ msgid "Tajik"
 msgstr ""
 
 msgid "th"
-msgstr ""
+msgstr "th"
 
 msgid "Thai"
-msgstr ""
+msgstr "Thajština"
 
 msgid "the"
 msgstr ""
@@ -3430,7 +3430,7 @@ msgid "Chitwania Tharu"
 msgstr ""
 
 msgid "ti"
-msgstr ""
+msgstr "ti"
 
 msgid "Tigrinya"
 msgstr ""
@@ -3527,7 +3527,7 @@ msgid "tr"
 msgstr ""
 
 msgid "Turkish"
-msgstr ""
+msgstr "Turečtina"
 
 msgid "tru"
 msgstr ""
@@ -3634,10 +3634,10 @@ msgid "Ugaritic"
 msgstr ""
 
 msgid "uk"
-msgstr ""
+msgstr "uk"
 
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrajinština"
 
 #, fuzzy
 msgid "umb"
@@ -3654,13 +3654,13 @@ msgid "Unami"
 msgstr "Unami"
 
 msgid "ur"
-msgstr ""
+msgstr "ur"
 
 msgid "Urdu"
-msgstr ""
+msgstr "Urdština"
 
 msgid "uz"
-msgstr ""
+msgstr "uz"
 
 msgid "Uzbek"
 msgstr ""
@@ -3693,10 +3693,10 @@ msgid "Veps"
 msgstr ""
 
 msgid "vi"
-msgstr ""
+msgstr "vi"
 
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamština"
 
 msgid "vls"
 msgstr ""
@@ -3903,10 +3903,10 @@ msgid "Standard Moroccan Tamazight"
 msgstr ""
 
 msgid "zh"
-msgstr ""
+msgstr "zh"
 
 msgid "Chinese"
-msgstr ""
+msgstr "Čínština"
 
 msgid "zu"
 msgstr ""

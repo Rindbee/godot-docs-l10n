@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,13 +30,10 @@ msgid ""
 "same level as statically linked C++ modules."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can download the included example in the test folder of the godot-cpp "
 "repository `on GitHub <https://github.com/godotengine/godot-cpp>`__."
 msgstr ""
-"`godot-docs deposu <https://github.com/godotengine/godot-docs/>`__ 'nu "
-"klonlayın."
 
 msgid "Setting up the project"
 msgstr "Projeyi ayarlamak"
@@ -190,9 +187,8 @@ msgid ""
 "GDExtension module."
 msgstr ""
 
-#, fuzzy
 msgid "Your folder structure should now look like this:"
-msgstr "Sahneniz bunun gibi görünmelidir:"
+msgstr ""
 
 msgid ""
 "In the ``src`` folder, we'll start with creating our header file for the "
@@ -359,9 +355,8 @@ msgstr ""
 msgid "We're finally ready to run the project:"
 msgstr ""
 
-#, fuzzy
 msgid "Custom editor icon"
-msgstr "Özel klasör"
+msgstr ""
 
 msgid ""
 "By default, Godot uses the node icon in the scene dock for GDExtension "

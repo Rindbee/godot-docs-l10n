@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,9 +213,8 @@ msgid ""
 "`doc_running_code_in_the_editor` for more information."
 msgstr ""
 
-#, fuzzy
 msgid "Example 1: drawing a custom shape"
-msgstr "Aquí hay un ejemplo de creación de un tipo de dato personalizado:"
+msgstr "Ejemplo 1: dibujando una figura personalizada"
 
 #, fuzzy
 msgid ""
@@ -383,9 +382,8 @@ msgid ""
 "this:"
 msgstr ""
 
-#, fuzzy
 msgid "You should now be able to see the following shape on screen:"
-msgstr "Ahora deberías poder encontrar el módulo en ``demo/bin/<platform>``."
+msgstr "Ahora deberías ser capaz de ver la siguiente figura en pantalla:"
 
 msgid ""
 "Note that if multiple unconnected lines are going to be drawn at the same "
@@ -621,4 +619,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

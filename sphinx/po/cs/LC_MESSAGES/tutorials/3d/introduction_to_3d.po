@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Introduction to 3D"
-msgstr ""
+msgstr "Úvod do 3D"
 
 msgid ""
 "Creating a 3D game can be challenging. That extra Z coordinate makes many of "
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 msgid "2D in 3D"
-msgstr ""
+msgstr "2D v 3D"
 
 msgid ""
 "While Godot packs a powerful 2D engine, many types of games use 2D in a 3D "
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 
 msgid "Environment"
-msgstr ""
+msgstr "Prostředí"
 
 msgid ""
 "Besides editing a scene, it is often common to edit the environment. Godot "
@@ -189,13 +189,13 @@ msgid ""
 msgstr ""
 
 msgid "**X** is sides"
-msgstr ""
+msgstr "**X** je bokem"
 
 msgid "**Y** is up/down"
-msgstr ""
+msgstr "**Y** je nahoru/dolu"
 
 msgid "**Z** is front/back"
-msgstr ""
+msgstr "**Z** je vpřed/zad"
 
 msgid "See this chart for comparison with other 3D software:"
 msgstr ""

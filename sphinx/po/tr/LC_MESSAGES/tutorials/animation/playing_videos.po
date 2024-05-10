@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,20 +56,16 @@ msgid ""
 "extensions are videos - some of them may only contain audio."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up VideoStreamPlayer"
-msgstr "Oynatıcıyı (VideoPlayer) Ayarlamak"
+msgstr ""
 
 msgid "Create a VideoStreamPlayer node using the Create New Node dialog."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Select the VideoStreamPlayer node in the scene tree dock, go to the "
 "inspector and load an ``.ogv`` file in the Stream property."
 msgstr ""
-"Timer düğümü seçiliyken, Denetleyiciye gidin ve **Otobaşlat** özelliğini "
-"işaretleyin."
 
 msgid ""
 "If you don't have your video in Ogg Theora format yet, jump to :ref:"
@@ -197,9 +193,8 @@ msgstr ""
 "ve `3B GUI demo <https://github.com/godotengine/godot-demo-projects/tree/"
 "master/viewport/gui_in_3d>`__ 'ya bakın."
 
-#, fuzzy
 msgid "Looping a video"
-msgstr "Düğümleri almak"
+msgstr ""
 
 msgid ""
 "For looping a video, the **Loop** property can be enabled. This will "
@@ -372,9 +367,8 @@ msgid ""
 "and using a `VideoStreamPlayer` node to display the video content."
 msgstr ""
 
-#, fuzzy
 msgid "Scene Setup"
-msgstr "Sahne ayarları"
+msgstr ""
 
 msgid ""
 "Ensure that the scene contains a `VideoStreamPlayer` node to play the video "
@@ -382,9 +376,8 @@ msgid ""
 "effect."
 msgstr ""
 
-#, fuzzy
 msgid "Writing the Custom Shader"
-msgstr "El kitabı yazılması"
+msgstr ""
 
 msgid "To implement the chroma key effect, follow these steps:"
 msgstr ""
@@ -414,9 +407,8 @@ msgid ""
 "and users can customize it according to their specific requirements."
 msgstr ""
 
-#, fuzzy
 msgid "UI Controls"
-msgstr "Control"
+msgstr ""
 
 msgid ""
 "To allow users to manipulate the chroma key effect in real-time, we created "
@@ -429,9 +421,8 @@ msgid ""
 "are :"
 msgstr ""
 
-#, fuzzy
 msgid "Signal Handling"
-msgstr "Giriş"
+msgstr ""
 
 msgid ""
 "Connect the appropriate signal from the UI elements to the `Control` node's "

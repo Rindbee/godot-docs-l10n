@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,10 @@ msgid "GD0401: The class must derive from GodotObject or a derived class"
 msgstr ""
 
 msgid "**Rule ID**"
-msgstr ""
+msgstr "**規則 ID**"
 
 msgid "GD0401"
-msgstr ""
+msgstr "GD0401"
 
 #, fuzzy
 msgid "**Category**"
@@ -50,7 +50,7 @@ msgid "Yes"
 msgstr "es"
 
 msgid "Cause"
-msgstr ""
+msgstr "原因"
 
 msgid ""
 "A type annotated with the ``[GlobalClass]`` attribute does not derive from "

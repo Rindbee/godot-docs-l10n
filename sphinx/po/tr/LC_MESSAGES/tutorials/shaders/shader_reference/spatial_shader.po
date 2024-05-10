@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,9 +95,8 @@ msgstr ""
 msgid "**sss_mode_skin**"
 msgstr ""
 
-#, fuzzy
 msgid "Subsurface Scattering mode for skin."
-msgstr "Yüzeyaltı Saçılması"
+msgstr ""
 
 msgid "**cull_back**"
 msgstr ""
@@ -216,9 +215,8 @@ msgstr ""
 msgid "Use vertex-based lighting."
 msgstr ""
 
-#, fuzzy
 msgid "**particle_trails**"
-msgstr "**Parçacıklar:**"
+msgstr ""
 
 msgid "Enables the trails when used on particles geometry."
 msgstr ""
@@ -226,12 +224,10 @@ msgstr ""
 msgid "**alpha_to_coverage**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Alpha antialiasing mode, see `here <https://github.com/godotengine/godot/"
 "pull/40364>`_ for more."
 msgstr ""
-"`core/set.h <https://github.com/godotengine/godot/blob/3.x/core/set.h>`__"
 
 msgid "**alpha_to_coverage_and_one**"
 msgstr ""
@@ -930,9 +926,8 @@ msgstr ""
 msgid "in float **METALLIC**"
 msgstr ""
 
-#, fuzzy
 msgid "Metallic."
-msgstr "Metalik"
+msgstr ""
 
 msgid "in float **ROUGHNESS**"
 msgstr ""

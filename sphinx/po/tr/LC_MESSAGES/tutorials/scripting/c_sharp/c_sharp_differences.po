@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,13 +157,11 @@ msgstr ""
 msgid "List of Godot's global scope functions and their equivalent in C#:"
 msgstr ""
 
-#, fuzzy
 msgid "abs"
-msgstr "Etiketler."
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.Abs"
-msgstr "Matematik"
+msgstr ""
 
 msgid "absf"
 msgstr ""
@@ -180,13 +178,11 @@ msgstr ""
 msgid "acosh"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.Acosh"
-msgstr "Matematik"
+msgstr ""
 
-#, fuzzy
 msgid "angle_difference"
-msgstr "Gölgelendirme Başvurusu:"
+msgstr "angle_difference"
 
 msgid "Mathf.AngleDifference"
 msgstr ""
@@ -200,9 +196,8 @@ msgstr ""
 msgid "asinh"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.Asinh"
-msgstr "Matematik"
+msgstr ""
 
 msgid "atan"
 msgstr ""
@@ -219,9 +214,8 @@ msgstr ""
 msgid "atanh"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.Atanh"
-msgstr "Matematik"
+msgstr ""
 
 msgid "bezier_derivative"
 msgstr ""
@@ -229,13 +223,11 @@ msgstr ""
 msgid "Mathf.BezierDerivative"
 msgstr ""
 
-#, fuzzy
 msgid "bezier_interpolate"
-msgstr "Doğrusal ara değerle"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.BezierInterpolate"
-msgstr "Doğrusal ara değerle"
+msgstr ""
 
 msgid "bytes_to_var"
 msgstr ""
@@ -273,17 +265,14 @@ msgstr ""
 msgid "clampf"
 msgstr ""
 
-#, fuzzy
 msgid "clampi"
-msgstr "Yavaşlatma"
+msgstr ""
 
-#, fuzzy
 msgid "cos"
-msgstr "cs"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.Cos"
-msgstr "Matematik"
+msgstr ""
 
 msgid "cosh"
 msgstr ""
@@ -291,17 +280,14 @@ msgstr ""
 msgid "Mathf.Cosh"
 msgstr ""
 
-#, fuzzy
 msgid "cubic_interpolate"
-msgstr "Doğrusal ara değerle"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.CubicInterpolate"
-msgstr "Doğrusal ara değerle"
+msgstr ""
 
-#, fuzzy
 msgid "cubic_interpolate_angle"
-msgstr "Doğrusal ara değerle"
+msgstr ""
 
 msgid "Mathf.CubicInterpolateAngle"
 msgstr ""
@@ -339,32 +325,26 @@ msgstr ""
 msgid "error_string"
 msgstr ""
 
-#, fuzzy
 msgid "Error.ToString"
-msgstr "Dize"
+msgstr ""
 
 msgid "exp"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.Exp"
-msgstr "Matematik"
+msgstr ""
 
-#, fuzzy
 msgid "floor"
-msgstr "Zemin"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.Floor"
-msgstr "Zemin"
+msgstr ""
 
-#, fuzzy
 msgid "floorf"
-msgstr "Zemin"
+msgstr ""
 
-#, fuzzy
 msgid "floori"
-msgstr "Zemin"
+msgstr ""
 
 msgid "Mathf.FloorToInt"
 msgstr ""
@@ -372,9 +352,8 @@ msgstr ""
 msgid "fmod"
 msgstr ""
 
-#, fuzzy
 msgid "operator %"
-msgstr "İşleç"
+msgstr ""
 
 msgid "fposmod"
 msgstr ""
@@ -469,20 +448,17 @@ msgstr ""
 msgid "Mathf.LinearToDb"
 msgstr ""
 
-#, fuzzy
 msgid "log"
-msgstr "Sis"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.Log"
-msgstr "Matematik"
+msgstr ""
 
 msgid "max"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.Max"
-msgstr "Matematik"
+msgstr ""
 
 msgid "maxf"
 msgstr ""
@@ -493,9 +469,8 @@ msgstr ""
 msgid "min"
 msgstr "min"
 
-#, fuzzy
 msgid "Mathf.Min"
-msgstr "Matematik"
+msgstr ""
 
 msgid "minf"
 msgstr ""
@@ -527,9 +502,8 @@ msgstr ""
 msgid "pow"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.Pow"
-msgstr "Matematik"
+msgstr ""
 
 msgid "print"
 msgstr ""
@@ -561,9 +535,8 @@ msgstr ""
 msgid "GD.PrintRaw"
 msgstr ""
 
-#, fuzzy
 msgid "prints"
-msgstr "Eklemler."
+msgstr ""
 
 msgid "GD.PrintS"
 msgstr ""
@@ -625,17 +598,14 @@ msgstr ""
 msgid "randi_range"
 msgstr ""
 
-#, fuzzy
 msgid "randomize"
-msgstr "Rastgelelik"
+msgstr ""
 
-#, fuzzy
 msgid "GD.Randomize"
-msgstr "Rastgelelik"
+msgstr ""
 
-#, fuzzy
 msgid "remap"
-msgstr "Uyumharitası"
+msgstr ""
 
 msgid "Mathf.Remap"
 msgstr ""
@@ -652,24 +622,20 @@ msgstr ""
 msgid "rotate_toward"
 msgstr ""
 
-#, fuzzy
 msgid "Mathf.RotateToward"
-msgstr "Zemin"
+msgstr ""
 
-#, fuzzy
 msgid "round"
-msgstr "Arkaplan"
+msgstr ""
 
 msgid "Mathf.Round"
 msgstr ""
 
-#, fuzzy
 msgid "roundf"
-msgstr "Arkaplan"
+msgstr ""
 
-#, fuzzy
 msgid "roundi"
-msgstr "Arkaplan"
+msgstr ""
 
 msgid "Mathf.RoundToInt"
 msgstr ""
@@ -692,13 +658,11 @@ msgstr ""
 msgid "signi"
 msgstr ""
 
-#, fuzzy
 msgid "sin"
-msgstr "si"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.Sin"
-msgstr "Matematik"
+msgstr ""
 
 msgid "sinh"
 msgstr ""
@@ -736,13 +700,11 @@ msgstr ""
 msgid "Mathf.StepDecimals"
 msgstr ""
 
-#, fuzzy
 msgid "str"
-msgstr "sr"
+msgstr ""
 
-#, fuzzy
 msgid "Use `$ string interpolation`_"
-msgstr "Vektör ara değerlemesi"
+msgstr ""
 
 msgid "str_to_var"
 msgstr ""
@@ -750,13 +712,11 @@ msgstr ""
 msgid "GD.StrToVar"
 msgstr ""
 
-#, fuzzy
 msgid "tan"
-msgstr "ta"
+msgstr ""
 
-#, fuzzy
 msgid "Mathf.Tan"
-msgstr "Matematik"
+msgstr ""
 
 msgid "tanh"
 msgstr ""
@@ -773,13 +733,11 @@ msgstr ""
 msgid "type_string"
 msgstr ""
 
-#, fuzzy
 msgid "Variant.Type.ToString"
-msgstr "Alt-Çeşit"
+msgstr ""
 
-#, fuzzy
 msgid "typeof"
-msgstr "tip"
+msgstr ""
 
 msgid "Variant.VariantType"
 msgstr ""
@@ -802,9 +760,8 @@ msgstr ""
 msgid "GD.VarToStr"
 msgstr ""
 
-#, fuzzy
 msgid "weakref"
-msgstr "İnce ayarlar"
+msgstr ""
 
 msgid "GodotObject.WeakRef"
 msgstr ""
@@ -854,13 +811,11 @@ msgstr ""
 msgid "inst_to_dict"
 msgstr ""
 
-#, fuzzy
 msgid "len"
-msgstr "en"
+msgstr ""
 
-#, fuzzy
 msgid "load"
-msgstr "Ön Yükle"
+msgstr ""
 
 msgid "GD.Load"
 msgstr ""
@@ -877,9 +832,8 @@ msgstr ""
 msgid "GD.Print(`System.Environment.StackTrace`_)"
 msgstr ""
 
-#, fuzzy
 msgid "range"
-msgstr "Değişiklikler"
+msgstr ""
 
 msgid "GD.Range or `System.Linq.Enumerable.Range`_"
 msgstr ""
@@ -1003,9 +957,8 @@ msgstr ""
 msgid "StringExtensions.CUnescape"
 msgstr ""
 
-#, fuzzy
 msgid "capitalize"
-msgstr "İlk harfi büyük yap"
+msgstr ""
 
 msgid "StringExtensions.Capitalize"
 msgstr ""
@@ -1021,24 +974,20 @@ msgstr ""
 msgid "chr"
 msgstr "chr"
 
-#, fuzzy
 msgid "contains"
-msgstr "Taşıyıcı türler"
+msgstr ""
 
-#, fuzzy
 msgid "`string.Contains`_"
-msgstr "Taşıyıcılar Kullanmak"
+msgstr ""
 
-#, fuzzy
 msgid "count"
-msgstr "Miktar"
+msgstr ""
 
 msgid "StringExtensions.Count (Consider using `RegEx`_)"
 msgstr ""
 
-#, fuzzy
 msgid "countn"
-msgstr "Miktar"
+msgstr ""
 
 msgid "StringExtensions.CountN (Consider using `RegEx`_)"
 msgstr ""
@@ -1055,9 +1004,8 @@ msgstr ""
 msgid "`string.EndsWith`_"
 msgstr ""
 
-#, fuzzy
 msgid "erase"
-msgstr "Kameralar"
+msgstr ""
 
 msgid ""
 "`string.Remove`_ (Consider using `StringBuilder`_ to manipulate strings)"
@@ -1079,9 +1027,8 @@ msgid ""
 "IndexOfAny`_)"
 msgstr ""
 
-#, fuzzy
 msgid "format"
-msgstr "Biçim"
+msgstr ""
 
 msgid "get_base_dir"
 msgstr ""
@@ -1145,9 +1092,8 @@ msgstr ""
 msgid "StringExtensions.Indent"
 msgstr ""
 
-#, fuzzy
 msgid "insert"
-msgstr "assert"
+msgstr ""
 
 msgid ""
 "`string.Insert`_ (Consider using `StringBuilder`_ to manipulate strings)"
@@ -1249,13 +1195,11 @@ msgid ""
 "AsSpan`_)"
 msgstr ""
 
-#, fuzzy
 msgid "length"
-msgstr "Dizi uzunluğu"
+msgstr ""
 
-#, fuzzy
 msgid "`string.Length`_"
-msgstr "Dize uzunluğu"
+msgstr ""
 
 msgid "lpad"
 msgstr ""
@@ -1311,9 +1255,8 @@ msgid ""
 "`string.Equals`_ or `string.Compare`_)"
 msgstr ""
 
-#, fuzzy
 msgid "num"
-msgstr "sayı"
+msgstr ""
 
 msgid "`float.ToString`_ or `double.ToString`_"
 msgstr ""
@@ -1351,23 +1294,20 @@ msgstr ""
 msgid "StringExtensions.PathJoin"
 msgstr ""
 
-#, fuzzy
 msgid "repeat"
-msgstr "Tekrar Et"
+msgstr ""
 
 msgid "Use `string constructor`_ or a `StringBuilder`_"
 msgstr ""
 
-#, fuzzy
 msgid "replace"
-msgstr "Değiştir"
+msgstr ""
 
 msgid "`string.Replace`_ or `RegEx`_"
 msgstr ""
 
-#, fuzzy
 msgid "replacen"
-msgstr "Değiştir"
+msgstr ""
 
 msgid ""
 "StringExtensions.ReplaceN (Consider using `string.Replace`_ or `RegEx`_)"
@@ -1392,9 +1332,8 @@ msgid ""
 "LastIndexOfAny`_)"
 msgstr ""
 
-#, fuzzy
 msgid "right"
-msgstr "Işıklar"
+msgstr ""
 
 msgid ""
 "StringExtensions.Right (Consider using `string.Substring`_ or `string."
@@ -1508,9 +1447,8 @@ msgstr ""
 msgid "StringExtensions.ToCamelCase"
 msgstr ""
 
-#, fuzzy
 msgid "to_float"
-msgstr "Float"
+msgstr ""
 
 msgid ""
 "StringExtensions.ToFloat (Consider using `float.TryParse`_ or `double."
@@ -1723,13 +1661,11 @@ msgid ""
 "`doc_c_sharp_signals`."
 msgstr ""
 
-#, fuzzy
 msgid "Callable"
-msgstr "Çağır"
+msgstr ""
 
-#, fuzzy
 msgid "``Target``"
-msgstr "Hedef"
+msgstr ""
 
 msgid "``get_method()``"
 msgstr ""
@@ -1771,9 +1707,8 @@ msgstr ""
 msgid "RID"
 msgstr ""
 
-#, fuzzy
 msgid "This type is named ``Rid`` in C# to follow the .NET naming convention."
-msgstr "Bu proje için, Godot isimlendirme geleneğini takip edeceğiz."
+msgstr ""
 
 msgid "``get_id()``"
 msgstr ""
@@ -1824,9 +1759,8 @@ msgstr ""
 msgid "``Skew``"
 msgstr ""
 
-#, fuzzy
 msgid "Transform3D"
-msgstr "Dönüştürme"
+msgstr ""
 
 msgid ""
 "Structs cannot have parameterless constructors in C#. Therefore, ``new "
@@ -1865,9 +1799,8 @@ msgstr ""
 msgid "AABB"
 msgstr ""
 
-#, fuzzy
 msgid "This type is named ``Aabb`` in C# to follow the .NET naming convention."
-msgstr "Bu proje için, Godot isimlendirme geleneğini takip edeceğiz."
+msgstr ""
 
 msgid "``get_volume()``"
 msgstr ""
@@ -1885,9 +1818,8 @@ msgid ""
 "GDScript and C++."
 msgstr ""
 
-#, fuzzy
 msgid "Projection"
-msgstr "Yön"
+msgstr ""
 
 msgid ""
 "Structs cannot have parameterless constructors in C#. Therefore, ``new "
@@ -1937,16 +1869,14 @@ msgstr ""
 msgid "``hex(int)``"
 msgstr ""
 
-#, fuzzy
 msgid "``Color(uint)``"
-msgstr "``Color8``"
+msgstr ""
 
 msgid "``hex64(int)``"
 msgstr ""
 
-#, fuzzy
 msgid "``Color(ulong)``"
-msgstr "``Color8``"
+msgstr ""
 
 msgid "Array"
 msgstr ""

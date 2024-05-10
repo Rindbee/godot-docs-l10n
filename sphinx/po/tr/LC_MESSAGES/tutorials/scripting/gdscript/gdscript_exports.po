@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "GDScript exported properties"
-msgstr "GDScript dışa aktarmaları"
+msgstr ""
 
 msgid ""
 "In Godot, class members can be exported. This means their value gets saved "
@@ -53,9 +52,8 @@ msgid ""
 "information on C# exports."
 msgstr ""
 
-#, fuzzy
 msgid "Basic use"
-msgstr "Temel"
+msgstr ""
 
 msgid ""
 "If the exported value assigns a constant or constant expression, the type "
@@ -68,9 +66,8 @@ msgstr ""
 msgid "Resources and nodes can be exported."
 msgstr ""
 
-#, fuzzy
 msgid "Grouping Exports"
-msgstr "GDScript dışa aktarmaları"
+msgstr ""
 
 msgid ""
 "It is possible to group your exported properties inside the Inspector with "
@@ -102,9 +99,8 @@ msgid ""
 "creating projects for public use."
 msgstr ""
 
-#, fuzzy
 msgid "Strings as paths"
-msgstr "Dize uzunluğu"
+msgstr ""
 
 msgid "String as a path to a file."
 msgstr ""
@@ -131,9 +127,8 @@ msgid ""
 "editing over multiple lines."
 msgstr ""
 
-#, fuzzy
 msgid "Limiting editor input ranges"
-msgstr "Var olan sayfaları düzenlemek"
+msgstr ""
 
 msgid "Allow integer values from 0 to 20."
 msgstr ""
@@ -155,9 +150,8 @@ msgstr ""
 msgid "Display a visual representation of the 'ease()' function when editing."
 msgstr ""
 
-#, fuzzy
 msgid "Colors"
-msgstr "Renk"
+msgstr ""
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr ""
@@ -242,9 +236,8 @@ msgid ""
 "doubt, use boolean variables instead."
 msgstr ""
 
-#, fuzzy
 msgid "Exporting enums"
-msgstr "Dışa Aktarım"
+msgstr ""
 
 msgid ""
 "Properties can be exported with a type hint referencing an enum to limit "

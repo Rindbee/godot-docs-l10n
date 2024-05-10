@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D Particle attractors"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
-#, fuzzy
 msgid "Particle attractors"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid ""
 "Particle attractors are nodes that apply a force to all particles within "
@@ -46,17 +44,14 @@ msgid ""
 "properties in Godot, you can also change this at runtime."
 msgstr ""
 
-#, fuzzy
 msgid "Common properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
-#, fuzzy
 msgid "Common particle attractor properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
-#, fuzzy
 msgid "Common attractor properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "There are some properties that you can find on all attractors. They're "
@@ -154,13 +149,11 @@ msgid ""
 "moves through it."
 msgstr ""
 
-#, fuzzy
 msgid "Sphere attractors"
-msgstr "İşleçler"
+msgstr ""
 
-#, fuzzy
 msgid "Particle attractor sphere"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid "Sphere attractor in the node list"
 msgstr ""
@@ -189,9 +182,8 @@ msgid ""
 "it moves through it."
 msgstr ""
 
-#, fuzzy
 msgid "Vector field attractors"
-msgstr "Vektör ara değerlemesi"
+msgstr ""
 
 msgid "Particle attractor vector field"
 msgstr ""

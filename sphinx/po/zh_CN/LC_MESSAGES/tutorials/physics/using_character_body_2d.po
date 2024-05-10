@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,7 +263,7 @@ msgstr ""
 "<class_KinematicCollision2D>` ."
 
 msgid "Which movement method to use?"
-msgstr "使用哪种运动方式？"
+msgstr "使用哪种移动方式？"
 
 #, fuzzy
 msgid ""
@@ -463,7 +463,7 @@ msgstr ""
 "我们为墙壁添加了一个颜色闪烁效果来演示这一点."
 
 msgid "Platformer movement"
-msgstr "平台运动"
+msgstr "平台移动"
 
 #, fuzzy
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -496,28 +496,34 @@ msgid "Method ``get_connection_output_slot`` removed"
 msgstr ""
 
 msgid "Method ``get_connection_output_type`` removed"
-msgstr ""
+msgstr "Метод ``get_connection_output_type`` удалён"
 
 msgid "Property ``language`` removed"
-msgstr ""
+msgstr "Свойство ``language`` удалено"
 
 msgid "Signal ``node_deselected`` moved to base class ``GraphElement``"
 msgstr ""
+"Сигнал ``node_deselected`` был перемещён в базовый класс ``GraphElement``"
 
 msgid "Signal ``node_selected`` moved to base class ``GraphElement``"
 msgstr ""
+"Сигнал ``node_selected`` был перемещён в базовый класс ``GraphElement``"
 
 msgid "Property ``overlay`` removed"
-msgstr ""
+msgstr "Свойство ``overlay`` удалено"
 
 msgid "Property ``position_offset`` moved to base class ``GraphElement``"
 msgstr ""
+"Свойство ``position_offset`` было перемещено в базовый класс ``GraphElement``"
 
 msgid "Signal ``position_offset_changed`` moved to base class ``GraphElement``"
 msgstr ""
+"Сигнал ``position_offset_changed`` был перемещён в базовый класс "
+"``GraphElement``"
 
 msgid "Signal ``raise_request`` moved to base class ``GraphElement``"
 msgstr ""
+"Сигнал ``raise_request`` был перемещён в базовый класс ``GraphElement``"
 
 msgid "Property ``resizable`` moved to base class ``GraphElement``"
 msgstr ""

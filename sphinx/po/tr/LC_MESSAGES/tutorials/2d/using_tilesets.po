@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using TileSets"
-msgstr "Bir dosya kullanmak"
+msgstr ""
 
 msgid "Introduction"
 msgstr "Giriş"
@@ -49,13 +48,11 @@ msgid ""
 "they can be rectangular, hexagonal, or isometric (pseudo-3D perspective)."
 msgstr ""
 
-#, fuzzy
 msgid "Creating a new TileSet"
-msgstr "Yeni bir betik oluşturmak"
+msgstr ""
 
-#, fuzzy
 msgid "Using a tilesheet"
-msgstr "Bir dosya kullanmak"
+msgstr ""
 
 msgid ""
 "This demonstration will use the following tiles taken from `Kenney's "
@@ -253,9 +250,8 @@ msgid ""
 "TileSet editor, and create a new **Scenes Collection** in the left column:"
 msgstr ""
 
-#, fuzzy
 msgid "Creating a scenes collection in the TileSet editor"
-msgstr "Bir sinyali, düzenleyici içinden bağlamak"
+msgstr ""
 
 msgid ""
 "After creating a scenes collection, you can enter a descriptive name for the "
@@ -529,9 +525,8 @@ msgid ""
 "Assigning custom data in the TileSet editor using tile property painting"
 msgstr ""
 
-#, fuzzy
 msgid "Creating terrain sets (autotiling)"
-msgstr "Girdi eylemlerini oluşturmak"
+msgstr ""
 
 msgid ""
 "This functionality was implemented in a different form as *autotiling* in "
@@ -589,9 +584,8 @@ msgid ""
 "*within* the terrain set:"
 msgstr ""
 
-#, fuzzy
 msgid "Creating a terrain within the terrain set"
-msgstr "Denetleyici ile etkileşmek"
+msgstr ""
 
 msgid ""
 "In the TileSet editor, switch to Select mode and click a tile. In the middle "
@@ -682,9 +676,8 @@ msgid ""
 "Selecting multiple tiles using the Select mode, then applying properties"
 msgstr ""
 
-#, fuzzy
 msgid "Using tile property painting"
-msgstr "Yeniden deneme seçeneğini kodlamak"
+msgstr ""
 
 msgid ""
 "If you wish to apply a single property to several tiles at once, you can use "
@@ -697,9 +690,8 @@ msgid ""
 "properties onto tiles."
 msgstr ""
 
-#, fuzzy
 msgid "Painting tile properties using the TileSet editor"
-msgstr "Metinleri bir metin düzenleyici ile düzenleyin."
+msgstr ""
 
 msgid ""
 "Tile property painting is especially useful with properties that are time-"
@@ -709,9 +701,8 @@ msgstr ""
 msgid "Painting a collision polygon, then left-clicking tiles to apply it"
 msgstr ""
 
-#, fuzzy
 msgid "Creating alternative tiles"
-msgstr "Animasyon Ağacı oluşturmak"
+msgstr ""
 
 msgid ""
 "Sometimes, you want to use a single tile image (found only once within the "

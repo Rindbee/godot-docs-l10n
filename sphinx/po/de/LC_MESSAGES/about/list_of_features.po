@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,20 +42,20 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"Siehe :ref:`doc_system_requirements` für Hardware- und Software-"
+"Versionsanforderungen."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Mit Editor und exportierten Projekten kompatibel:**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 und neuer (64-bit und 32-bit)."
+msgstr "Windows (x86, 64-bit und 32-bit)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 und ARM, nur 64-bit)."
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 und neuer (64-bit und 32-bit)."
+msgstr "Linux (x86 und ARM, 64-bit und 32-bit)."
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -70,10 +70,13 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"Offizielle Binärdateien werden unter Verwendung des `Godot Engine-Buildroot "
+"<https://github.com/godotengine/buildroot>`__ kompiliert, so dass die "
+"Binärdateien mit allen gängigen Linux-Distributionen (einschließlich LTS-"
+"Varianten) funktionieren."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr "Android 6.0 und neuer (Editor-Unterstützung ist experimentell)."
+msgstr "Android (Editor-Unterstützung ist experimentell)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -86,7 +89,7 @@ msgid "**Runs exported projects:**"
 msgstr "**Nur mit exportierten Projekten kompatibel:**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`Konsolen <doc_consoles>`."
@@ -134,9 +137,8 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript-:ref:`Debugger <doc_debugger_panel>`."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Momentan keine Unterstützung zum Debuggen in Threads."
+msgstr "Unterstützung für das Debugging in Threads ist seit 4.2 verfügbar."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -815,6 +817,13 @@ msgid ""
 msgstr ""
 "Unterstützung für Nearest, Bilinear, Trilinear oder Anisotropic Texture "
 "Filtering (global konfiguriert)."
+
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"Optionales Fernausblendungssystem zum Ausblenden entfernter Lichter und "
+"ihrer Schatten, um die Leistung zu verbessern."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,13 +52,11 @@ msgid ""
 "abstraction over Vulkan/Direct3D 12."
 msgstr ""
 
-#, fuzzy
 msgid "Rendering methods"
-msgstr "İşleme"
+msgstr ""
 
-#, fuzzy
 msgid "Forward+"
-msgstr "İleri Git"
+msgstr ""
 
 msgid ""
 "This is a forward renderer that uses a *clustered* approach to lighting."
@@ -76,9 +74,8 @@ msgid ""
 "hardware, but is substantially less efficient on mobile."
 msgstr ""
 
-#, fuzzy
 msgid "Forward Mobile"
-msgstr "Mobil"
+msgstr ""
 
 msgid ""
 "This is a forward renderer that uses a traditional single-pass approach to "
@@ -154,9 +151,8 @@ msgid ""
 "processing effects are also not available."
 msgstr ""
 
-#, fuzzy
 msgid "Compatibility"
-msgstr "Derleme"
+msgstr ""
 
 msgid ""
 "This is the only rendering method available when using the OpenGL driver. "
@@ -221,9 +217,8 @@ msgid ""
 "could be used in situations where performance is favored over flexibility."
 msgstr ""
 
-#, fuzzy
 msgid "Rendering drivers"
-msgstr "İşleme"
+msgstr ""
 
 msgid "Godot 4 supports the following graphics APIs:"
 msgstr ""
@@ -253,28 +248,21 @@ msgstr ""
 msgid "**Vulkan context creation:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`drivers/vulkan/vulkan_context.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/drivers/vulkan/vulkan_context.cpp>`__"
 msgstr ""
-"`core/variant.h <https://github.com/godotengine/godot/blob/3.x/core/variant."
-"h>`__"
 
 msgid "**Direct3D 12 context creation:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`drivers/d3d12/d3d12_context.cpp <https://github.com/godotengine/godot/blob/"
 "master/drivers/d3d12/d3d12_context.cpp>`__"
 msgstr ""
-"`core/variant.h <https://github.com/godotengine/godot/blob/3.x/core/variant."
-"h>`__"
 
-#, fuzzy
 msgid "Direct3D 12"
-msgstr "Yön"
+msgstr ""
 
 msgid ""
 "Like Vulkan, the Direct3D 12 driver targets modern platforms only. It is "
@@ -305,9 +293,8 @@ msgid ""
 "more information."
 msgstr ""
 
-#, fuzzy
 msgid "Metal"
-msgstr "Metalik"
+msgstr ""
 
 msgid ""
 "Godot supports Metal rendering via `MoltenVK <https://github.com/"
@@ -362,9 +349,8 @@ msgid ""
 "possible:"
 msgstr ""
 
-#, fuzzy
 msgid "Vulkan + Forward+"
-msgstr "İleri Serbest Bakış"
+msgstr ""
 
 msgid "Vulkan + Forward Mobile"
 msgstr ""
@@ -415,9 +401,8 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"`drivers/vulkan/rendering_device_driver_vulkan.cpp <https://github.com/"
-"godotengine/godot/blob/4.2/drivers/vulkan/rendering_device_driver_vulkan."
-"cpp>`__"
+"`drivers/vulkan/rendering_device_vulkan.cpp <https://github.com/godotengine/"
+"godot/blob/4.2/drivers/vulkan/rendering_device_vulkan.cpp>`__"
 msgstr ""
 "`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
 "blob/master/servers/register_server_types.cpp>`__"
@@ -425,14 +410,11 @@ msgstr ""
 msgid "**Direct3D 12 RenderingDevice implementation:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`drivers/d3d12/rendering_device_driver_d3d12.cpp <https://github.com/"
 "godotengine/godot/blob/master/drivers/d3d12/rendering_device_driver_d3d12."
 "cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "Core rendering classes architecture"
 msgstr ""
@@ -448,18 +430,14 @@ msgid ""
 "rendering_architecture_diagram.webp>`__"
 msgstr ""
 
-#, fuzzy
 msgid "Core shaders"
-msgstr "Özel gölgelendiriciler"
+msgstr ""
 
-#, fuzzy
 msgid ""
 "While shaders in Godot projects are written using a :ref:`custom language "
 "inspired by GLSL <doc_shading_language>`, core shaders are written directly "
 "in GLSL."
 msgstr ""
-":ref:`GLSL'den ilham alan gölgelendirici dili <doc_shading_language>` "
-"kullanan metin tabanlı gölgelendiriciler."
 
 msgid ""
 "These core shaders are embedded in the editor and export template binaries "
@@ -523,73 +501,54 @@ msgstr ""
 msgid "**Core GLSL material shaders:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Forward+: `servers/rendering/renderer_rd/shaders/forward_clustered/"
 "scene_forward_clustered.glsl <https://github.com/godotengine/godot/blob/4.2/"
 "servers/rendering/renderer_rd/shaders/forward_clustered/"
 "scene_forward_clustered.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "Forward Mobile: `servers/rendering/renderer_rd/shaders/forward_mobile/"
 "scene_forward_mobile.glsl <https://github.com/godotengine/godot/blob/4.2/"
 "servers/rendering/renderer_rd/shaders/forward_mobile/scene_forward_mobile."
 "glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "Compatibility: `drivers/gles3/shaders/scene.glsl <https://github.com/"
 "godotengine/godot/blob/4.2/drivers/gles3/shaders/scene.glsl>`__"
 msgstr ""
-"`core/reference.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"reference.h>`__"
 
 msgid "**Material shader generation:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`scene/resources/material.cpp <https://github.com/godotengine/godot/blob/4.2/"
 "scene/resources/material.cpp>`__"
 msgstr ""
-"`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/3.x/"
-"core/io/resource_saver.h>`__"
 
 msgid ""
 "**Other GLSL shaders for Forward+ and Forward Mobile rendering methods:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/ <https://github.com/godotengine/"
 "godot/blob/4.2/servers/rendering/renderer_rd/shaders/>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`modules/lightmapper_rd/ <https://github.com/godotengine/godot/blob/4.2/"
 "modules/lightmapper_rd>`__"
 msgstr ""
-"`core/map.h <https://github.com/godotengine/godot/blob/3.x/core/map.h>`__"
 
 msgid "**Other GLSL shaders for the Compatibility rendering method:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`drivers/gles3/shaders/ <https://github.com/godotengine/godot/blob/4.2/"
 "drivers/gles3/shaders/>`__"
 msgstr ""
-"`core/list.h <https://github.com/godotengine/godot/blob/3.x/core/list.h>`__"
 
 msgid "2D and 3D rendering separation"
 msgstr ""
@@ -637,37 +596,27 @@ msgstr ""
 msgid "**2D and 3D rendering buffer configuration C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/storage_rd/render_scene_buffers_rd.cpp "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "storage_rd/render_scene_buffers_rd.cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "**FSR 1.0:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/effects/fsr.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/effects/fsr.cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`thirdparty/amd-fsr/ <https://github.com/godotengine/godot/tree/master/"
 "thirdparty/amd-fsr>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid "2D rendering techniques"
-msgstr "işleme/yığınlama/seçenekler"
+msgstr ""
 
 msgid ""
 "2D light rendering is performed in a single pass to allow for better "
@@ -703,22 +652,17 @@ msgstr ""
 msgid "**2D SDF generation GLSL shader:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/canvas_sdf.glsl <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/canvas_sdf."
 "glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid "3D rendering techniques"
-msgstr "işleme/yığınlama/seçenekler"
+msgstr ""
 
-#, fuzzy
 msgid "Batching and instancing"
-msgstr "Animasyon ve giydirme"
+msgstr ""
 
 msgid ""
 "In the Forward+ backend, Vulkan instancing is used to group rendering of "
@@ -726,9 +670,8 @@ msgid ""
 "merging, but it still allows instances to be culled individually."
 msgstr ""
 
-#, fuzzy
 msgid "Light, decal and reflection probe rendering"
-msgstr "Grafik öğe (sprite), çokgen, ve çizgi işleme."
+msgstr ""
 
 msgid ""
 "Reflection probe and decal rendering are currently not available in the "
@@ -843,46 +786,33 @@ msgstr ""
 msgid "**TAA resolve:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/taa_resolve.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "effects/taa_resolve.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "**FSR 2.2:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/effects/fsr2.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/effects/fsr2.cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/fsr2/ <https://github.com/"
 "godotengine/godot/tree/master/servers/rendering/renderer_rd/shaders/effects/"
 "fsr2>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`thirdparty/amd-fsr2/ <https://github.com/godotengine/godot/tree/master/"
 "thirdparty/amd-fsr2>`__"
 msgstr ""
-"`editor/icons <https://github.com/godotengine/godot/tree/master/editor/"
-"icons>`__"
 
-#, fuzzy
 msgid "Global illumination"
-msgstr "Genel yerleşikler"
+msgstr ""
 
 msgid ""
 "VoxelGI and SDFGI are only available in the Forward+ backend, not the "
@@ -914,164 +844,111 @@ msgstr ""
 msgid "**Core GI C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/environment/gi.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/environment/gi."
 "cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`scene/3d/voxel_gi.cpp <https://github.com/godotengine/godot/blob/4.2/"
 "scene/3d/voxel_gi.cpp>`__ - VoxelGI node"
 msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`editor/plugins/voxel_gi_editor_plugin.cpp <https://github.com/godotengine/"
 "godot/blob/4.2/editor/plugins/voxel_gi_editor_plugin.cpp>`__ - Editor UI for "
 "the VoxelGI node"
 msgstr ""
-"`editor/editor_node.cpp <https://github.com/godotengine/godot/blob/3.x/"
-"editor/editor_node.cpp>`__: Ana düzenleyici ilk başlatma dosyası. Etkin "
-"olarak da, \"ana sahne\" nin düzenleyicisi."
 
 msgid "**Core GI GLSL shaders:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/voxel_gi.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "environment/voxel_gi.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/voxel_gi_debug.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/environment/voxel_gi_debug.glsl>`__ - VoxelGI debug draw mode"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/sdfgi_debug.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "environment/sdfgi_debug.glsl>`__ - SDFGI Cascades debug draw mode"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/sdfgi_debug_probes.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/environment/sdfgi_debug_probes.glsl>`__ - SDFGI Probes debug draw "
 "mode"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/sdfgi_integrate.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/environment/sdfgi_integrate.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/sdfgi_preprocess.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/environment/sdfgi_preprocess.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/sdfgi_direct_light.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/environment/sdfgi_direct_light.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "**Lightmapper C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`scene/3d/lightmap_gi.cpp <https://github.com/godotengine/godot/blob/4.2/"
 "scene/3d/lightmap_gi.cpp>`__ - LightmapGI node"
 msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`editor/plugins/lightmap_gi_editor_plugin.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/editor/plugins/lightmap_gi_editor_plugin.cpp>`__ "
 "- Editor UI for the LightmapGI node"
 msgstr ""
-"`editor/editor_node.cpp <https://github.com/godotengine/godot/blob/3.x/"
-"editor/editor_node.cpp>`__: Ana düzenleyici ilk başlatma dosyası. Etkin "
-"olarak da, \"ana sahne\" nin düzenleyicisi."
 
-#, fuzzy
 msgid ""
 "`scene/3d/lightmapper.cpp <https://github.com/godotengine/godot/blob/4.2/"
 "scene/3d/lightmapper.cpp>`__ - Abstract class"
 msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`modules/lightmapper_rd/lightmapper_rd.cpp <https://github.com/godotengine/"
 "godot/blob/4.2/modules/lightmapper_rd/lightmapper_rd.cpp>`__ - GPU-based "
 "lightmapper implementation"
 msgstr ""
-"`core/io/image_loader.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/image_loader.h>`_"
 
 msgid "**Lightmapper GLSL shaders:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`modules/lightmapper_rd/lm_raster.glsl <https://github.com/godotengine/godot/"
 "blob/4.2/modules/lightmapper_rd/lm_raster.glsl>`__"
 msgstr ""
-"`core/io/image_loader.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/image_loader.h>`_"
 
-#, fuzzy
 msgid ""
 "`modules/lightmapper_rd/lm_compute.glsl <https://github.com/godotengine/"
 "godot/blob/4.2/modules/lightmapper_rd/lm_compute.glsl>`__"
 msgstr ""
-"`core/typedefs.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"typedefs.h>`__"
 
-#, fuzzy
 msgid ""
 "`modules/lightmapper_rd/lm_blendseams.glsl <https://github.com/godotengine/"
 "godot/blob/4.2/modules/lightmapper_rd/lm_blendseams.glsl>`__"
 msgstr ""
-"`core/typedefs.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"typedefs.h>`__"
 
 msgid "Depth of field"
 msgstr ""
@@ -1098,38 +975,29 @@ msgstr ""
 msgid "**Depth of field C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/effects/bokeh_dof.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/effects/bokeh_dof."
 "cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "**Depth of field GLSL shader (compute - used for Forward+):**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/bokeh_dof.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "effects/bokeh_dof.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "**Depth of field GLSL shader (raster - used for Forward Mobile):**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/bokeh_dof_raster.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/effects/bokeh_dof_raster.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "Screen-space effects (SSAO, SSIL, SSR, SSS)"
 msgstr ""
@@ -1157,150 +1025,105 @@ msgid ""
 "performance."
 msgstr ""
 
-#, fuzzy
 msgid "**Screen-space effects C++ code:**"
-msgstr "*GLES3:* Ekran-uzayı yansımaları."
+msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/effects/ss_effects.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/effects/ss_effects."
 "cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid "**Screen-space ambient occlusion GLSL shader:**"
-msgstr "*GLES3:* Ekran-uzayı ortam perdelemesi (SSAO)."
+msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssao.glsl <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/effects/"
 "ssao.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssao_blur.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "effects/ssao_blur.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssao_interleave.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "effects/ssao_interleave.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssao_importance_map.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/effects/ssao_importance_map.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "**Screen-space indirect lighting GLSL shader:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssil.glsl <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/effects/"
 "ssil.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssil_blur.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "effects/ssil_blur.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssil_interleave.glsl <https://"
 "github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/shaders/"
 "effects/ssil_interleave.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/ssil_importance_map.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/effects/ssil_importance_map.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid "**Screen-space reflections GLSL shader:**"
-msgstr "*GLES3:* Ekran-uzayı yansımaları."
+msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/screen_space_reflection.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/effects/screen_space_reflection.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/screen_space_reflection_scale."
 "glsl <https://github.com/godotengine/godot/blob/4.2/servers/rendering/"
 "renderer_rd/shaders/effects/screen_space_reflection_scale.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/"
 "screen_space_reflection_filter.glsl <https://github.com/godotengine/godot/"
 "blob/4.2/servers/rendering/renderer_rd/shaders/effects/"
 "screen_space_reflection_filter.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid "**Subsurface scattering GLSL:**"
-msgstr "Yüzeyaltı Saçılması"
+msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/effects/subsurface_scattering.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/effects/subsurface_scattering.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid "Sky rendering"
-msgstr "İşleme"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_sky_shader`"
-msgstr ":ref:`doc_spatial_shader`"
+msgstr ""
 
 msgid ""
 "Godot supports using shaders to render the sky background. The radiance map "
@@ -1323,32 +1146,23 @@ msgstr ""
 msgid "**Sky rendering C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/environment/sky.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/environment/sky."
 "cpp>`__ - Sky rendering"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`scene/resources/sky.cpp <https://github.com/godotengine/godot/blob/4.2/"
 "scene/resources/sky.cpp>`__ - Sky resource (not to be confused with sky "
 "rendering)"
 msgstr ""
-"`core/resource.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"resource.h>`__"
 
-#, fuzzy
 msgid ""
 "`scene/resources/sky_material.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/scene/resources/sky_material.cpp>`__ SkyMaterial resources (used in "
 "the Sky resource)"
 msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
 
 msgid "**Sky rendering GLSL shader:**"
 msgstr ""
@@ -1356,9 +1170,8 @@ msgstr ""
 msgid "Volumetric fog"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_fog_shader`"
-msgstr ":ref:`doc_spatial_shader`"
+msgstr ""
 
 msgid ""
 "Godot supports a frustum-aligned voxel (froxel) approach to volumetric fog "
@@ -1382,52 +1195,37 @@ msgstr ""
 msgid "**Volumetric fog C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/environment/fog.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_rd/environment/fog."
 "cpp>`__ - General volumetric fog"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`scene/3d/fog_volume.cpp <https://github.com/godotengine/godot/blob/4.2/"
 "scene/3d/fog_volume.cpp>`__ - FogVolume node"
 msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`scene/resources/fog_material.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/scene/resources/fog_material.cpp>`__ - FogMaterial resource (used "
 "by FogVolume)"
 msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
 
 msgid "**Volumetric fog GLSL shaders:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/volumetric_fog.glsl "
 "<https://github.com/godotengine/godot/blob/4.2/servers/rendering/renderer_rd/"
 "shaders/environment/volumetric_fog.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_rd/shaders/environment/volumetric_fog_process."
 "glsl <https://github.com/godotengine/godot/blob/4.2/servers/rendering/"
 "renderer_rd/shaders/environment/volumetric_fog_process.glsl>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "Occlusion culling"
 msgstr ""
@@ -1489,26 +1287,19 @@ msgstr ""
 msgid "**Occlusion culling C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`scene/3d/occluder_instance_3d.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/scene/3d/occluder_instance_3d.cpp>`__"
 msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__"
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_scene_occlusion_cull.cpp <https://github.com/"
 "godotengine/godot/blob/4.2/servers/rendering/renderer_scene_occlusion_cull."
 "cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
-#, fuzzy
 msgid "Visibility range (LOD)"
-msgstr "Görünürlük Dikdörtgeni"
+msgstr ""
 
 msgid ""
 "Godot supports manually authored hierarchical level of detail (HLOD), with "
@@ -1525,13 +1316,10 @@ msgstr ""
 msgid "**Visibility range C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`servers/rendering/renderer_scene_cull.cpp <https://github.com/godotengine/"
 "godot/blob/4.2/servers/rendering/renderer_scene_cull.cpp>`__"
 msgstr ""
-"`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
-"blob/master/servers/register_server_types.cpp>`__"
 
 msgid "Automatic mesh LOD"
 msgstr ""
@@ -1572,13 +1360,10 @@ msgstr ""
 msgid "**Mesh LOD generation on import C++ code:**"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`scene/resources/importer_mesh.cpp <https://github.com/godotengine/godot/"
 "blob/4.2/scene/resources/importer_mesh.cpp>`__"
 msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
 
 msgid "**Mesh LOD determination C++ code:**"
 msgstr ""

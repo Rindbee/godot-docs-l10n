@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,7 +182,8 @@ msgstr ""
 "位符類別儲存影像大小（因為它有時用於在 2D 場景中定位元素），但不儲存其他內"
 "容。"
 
-msgid "**Keep:** Export this resource as usual, with visual files interact."
+#, fuzzy
+msgid "**Keep:** Export this resource as usual, with visual files intact."
 msgstr "**保留：**照常匯出此資源，與視覺檔案互動。"
 
 msgid ""

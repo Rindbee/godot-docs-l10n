@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "System requirements"
-msgstr "Gereklilikler"
+msgstr ""
 
 msgid ""
 "This page contains system requirements for the editor and exported projects. "
@@ -28,9 +27,8 @@ msgid ""
 "on."
 msgstr ""
 
-#, fuzzy
 msgid "Godot editor"
-msgstr "Android Studio"
+msgstr ""
 
 msgid ""
 "These are the **minimum** specifications required to run the Godot editor "
@@ -93,17 +91,14 @@ msgstr ""
 msgid "**RAM**"
 msgstr ""
 
-#, fuzzy
 msgid "**Native editor:** 4 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**Web editor:** 8 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**Storage**"
-msgstr "Depolama"
+msgstr ""
 
 msgid ""
 "200 MB (used for the executable, project files and cache). Exporting "
@@ -145,9 +140,8 @@ msgstr ""
 msgid "*Example: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
 msgstr ""
 
-#, fuzzy
 msgid "**iOS:** *Cannot run the editor*"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
@@ -168,13 +162,11 @@ msgstr ""
 msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
 msgstr ""
 
-#, fuzzy
 msgid "**Native editor:** 3 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**Web editor:** 6 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid ""
 "**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
@@ -232,13 +224,11 @@ msgid ""
 "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 msgstr ""
 
-#, fuzzy
 msgid "**Native editor:** 8 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**Web editor:** 12 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid ""
 "1.5 GB (used for the executable, project files, all export templates and "
@@ -280,9 +270,8 @@ msgid ""
 "3.2 support"
 msgstr ""
 
-#, fuzzy
 msgid "**Native editor:** 6 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid "**Native editor:** Android 9.0 or iOS 11.0"
 msgstr ""
@@ -292,9 +281,8 @@ msgid ""
 "Samsung Internet"
 msgstr ""
 
-#, fuzzy
 msgid "Exported Godot project"
-msgstr "Oyuncu sahnesini oluşturmak"
+msgstr ""
 
 msgid ""
 "The requirements below are a baseline for a **simple** 2D or 3D project, "
@@ -318,13 +306,11 @@ msgid ""
 "project exported with Godot:"
 msgstr ""
 
-#, fuzzy
 msgid "**For native exports:** 2 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**For web exports:** 4 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr ""
@@ -353,13 +339,11 @@ msgid ""
 "*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
 msgstr ""
 
-#, fuzzy
 msgid "**For native exports:** 1 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**For web exports:** 2 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid ""
 "**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
@@ -376,13 +360,11 @@ msgid ""
 "a simple 2D or 3D project exported with Godot:"
 msgstr ""
 
-#, fuzzy
 msgid "**For native exports:** 4 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
-#, fuzzy
 msgid "**For web exports:** 8 GB"
-msgstr "**Düzenleyici için.**"
+msgstr ""
 
 msgid ""
 "**For native exports:** Windows 10, macOS 10.15, Linux distribution released "

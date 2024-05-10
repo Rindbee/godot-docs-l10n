@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,9 +101,8 @@ msgstr ""
 msgid "Box collision with particle systems"
 msgstr "Sistemas de partículas"
 
-#, fuzzy
 msgid "Two particle systems collide with a box collision node"
-msgstr "``true`` cuando la partícula debe reiniciar (ciclo de vida)."
+msgstr "Dos sistemas de aprtículas colisionan con una caja de nodo de colisión"
 
 #, fuzzy
 msgid "Sphere collision"
@@ -134,9 +133,9 @@ msgstr ""
 msgid "Sphere collision with particle systems"
 msgstr ""
 
-#, fuzzy
 msgid "Two particle systems collide with a sphere collision node"
-msgstr "``true`` cuando la partícula debe reiniciar (ciclo de vida)."
+msgstr ""
+"Dos sistemas de partículas que colisionan con un nodo de colisión esférico"
 
 #, fuzzy
 msgid "Height field collision"
@@ -246,9 +245,8 @@ msgid ""
 "and cannot change at runtime."
 msgstr ""
 
-#, fuzzy
 msgid "SDF particle collision"
-msgstr "Escala el tamaño de las partículas para colisiones."
+msgstr "Colisiones de partículas SDF"
 
 msgid ""
 "SDF particle collision allows for very detailed 3-dimensional collision "
@@ -294,4 +292,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

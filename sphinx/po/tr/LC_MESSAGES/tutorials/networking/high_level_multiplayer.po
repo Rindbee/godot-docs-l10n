@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,12 +107,6 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If you want to use your low-level networking library of choice instead of "
-"Godot's built-in networking, see here for an example: https://github.com/"
-"PerduGames/gdnet3"
-msgstr ""
-
-msgid ""
 "Adding networking to your game comes with some responsibility. It can make "
 "your application vulnerable if done wrong and may lead to cheats or "
 "exploits. It may even allow an attacker to compromise the machines your "
@@ -164,9 +158,8 @@ msgid ""
 "available in case a game has specific needs for a lower-level API."
 msgstr ""
 
-#, fuzzy
 msgid "Hosting considerations"
-msgstr "Animasyonları seçme"
+msgstr ""
 
 msgid ""
 "When hosting a server, clients on your :abbr:`LAN (Local Area Network)` can "
@@ -266,13 +259,11 @@ msgstr ""
 msgid "The rest are only emitted on clients:"
 msgstr ""
 
-#, fuzzy
 msgid "``connected_to_server()``"
-msgstr "``connected_to_server``"
+msgstr ""
 
-#, fuzzy
 msgid "``connection_failed()``"
-msgstr "``connection_failed``"
+msgstr ""
 
 msgid "``server_disconnected()``"
 msgstr ""
@@ -398,9 +389,8 @@ msgid ""
 "unique id of an rpc sender, when used within the function called by rpc."
 msgstr ""
 
-#, fuzzy
 msgid "Channels"
-msgstr "Değişiklikler"
+msgstr ""
 
 msgid ""
 "Modern networking protocols support channels, which are separate connections "

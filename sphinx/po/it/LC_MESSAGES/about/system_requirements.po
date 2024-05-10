@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "System requirements"
-msgstr "Requisiti"
+msgstr "Requisiti di sistema"
 
 msgid ""
 "This page contains system requirements for the editor and exported projects. "
@@ -41,7 +40,7 @@ msgid "Desktop or laptop PC - Minimum"
 msgstr ""
 
 msgid "**CPU**"
-msgstr ""
+msgstr "**CPU**"
 
 msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
 msgstr ""
@@ -64,7 +63,7 @@ msgid ""
 msgstr ""
 
 msgid "**GPU**"
-msgstr ""
+msgstr "**GPU**"
 
 msgid ""
 "**Forward+ rendering method:** Integrated graphics with full Vulkan 1.0 "
@@ -91,7 +90,7 @@ msgid ""
 msgstr ""
 
 msgid "**RAM**"
-msgstr ""
+msgstr "**RAM**"
 
 #, fuzzy
 msgid "**Native editor:** 4 GB"

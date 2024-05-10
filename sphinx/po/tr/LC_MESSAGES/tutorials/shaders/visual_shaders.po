@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,9 +145,8 @@ msgid ""
 "the scalar will be the average of the vector's components."
 msgstr ""
 
-#, fuzzy
 msgid "Visual Shader node interface"
-msgstr "Görsel Gölgelendirici düğümleri"
+msgstr ""
 
 msgid ""
 "Visual shader nodes have input and output ports. The input ports are located "
@@ -161,24 +160,20 @@ msgstr ""
 msgid "scalar"
 msgstr ""
 
-#, fuzzy
 msgid "vector"
-msgstr "Vektör"
+msgstr ""
 
 msgid "boolean"
 msgstr ""
 
-#, fuzzy
 msgid "transform"
-msgstr "Dönüştürme"
+msgstr ""
 
-#, fuzzy
 msgid "sampler"
-msgstr "Örnek:"
+msgstr "örnekleyici"
 
-#, fuzzy
 msgid "Port types"
-msgstr "Taşıyıcı türler"
+msgstr ""
 
 msgid "Type"
 msgstr "Tip"
@@ -192,9 +187,8 @@ msgstr "Tanım"
 msgid "Example"
 msgstr ""
 
-#, fuzzy
 msgid "Scalar"
-msgstr "Ölçek"
+msgstr ""
 
 msgid "Cyan"
 msgstr ""
@@ -214,13 +208,11 @@ msgstr ""
 msgid "Vector is a set of values."
 msgstr ""
 
-#, fuzzy
 msgid "|vector|"
-msgstr "Vektör"
+msgstr ""
 
-#, fuzzy
 msgid "Boolean"
-msgstr "değer"
+msgstr ""
 
 msgid "Blue"
 msgstr ""
@@ -234,20 +226,17 @@ msgstr ""
 msgid "Transform"
 msgstr "Dönüştürme"
 
-#, fuzzy
 msgid "Orange"
-msgstr "Değişiklikler"
+msgstr ""
 
 msgid "A matrix, usually used to transform vertices."
 msgstr ""
 
-#, fuzzy
 msgid "|transform|"
-msgstr "Dönüştürme"
+msgstr ""
 
-#, fuzzy
 msgid "Sampler"
-msgstr "Derleme"
+msgstr ""
 
 msgid "Yellow"
 msgstr ""

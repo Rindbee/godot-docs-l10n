@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -394,7 +394,8 @@ msgstr "*Bug*：現有頁面中的錯誤資訊。請勿對*缺失*資訊使用�
 msgid "*Dependencies*: describes pull requests that update a dependency file."
 msgstr "*依賴項*：描述更新相依性檔案的拉取請求。"
 
-msgid "*Enhancememnt*: new information to be added in an existing page."
+#, fuzzy
+msgid "*Enhancement*: new information to be added in an existing page."
 msgstr "*Enhancememnt*：為現有頁面加入新資訊。"
 
 msgid "*Python*: Pull requests that update Python code."

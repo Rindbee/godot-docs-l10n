@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Compiling for Linux, \\*BSD"
-msgstr "Linux için dışa aktarmak"
+msgstr ""
 
 msgid ""
 "This page describes how to compile Linux editor and export template binaries "
@@ -66,9 +65,8 @@ msgstr ""
 msgid "ALSA."
 msgstr ""
 
-#, fuzzy
 msgid "PulseAudio."
-msgstr "Ses"
+msgstr ""
 
 msgid "*Optional* - libudev (build with ``udev=yes``)."
 msgstr ""
@@ -85,13 +83,11 @@ msgstr ""
 msgid "Distro-specific one-liners"
 msgstr ""
 
-#, fuzzy
 msgid "Alpine Linux"
-msgstr "Windows, Linux"
+msgstr ""
 
-#, fuzzy
 msgid "Arch Linux"
-msgstr "Linux"
+msgstr ""
 
 msgid "Debian/Ubuntu"
 msgstr ""
@@ -276,9 +272,8 @@ msgstr ""
 msgid "If this error occurs::"
 msgstr ""
 
-#, fuzzy
 msgid "There are two solutions:"
-msgstr "Bunu yapmanın iki yolu var:"
+msgstr ""
 
 msgid "In your SCons command, add the parameter ``use_static_cpp=no``."
 msgstr ""

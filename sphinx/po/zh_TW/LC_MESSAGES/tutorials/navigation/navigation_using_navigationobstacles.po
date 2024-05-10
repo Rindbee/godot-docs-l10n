@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,7 +174,8 @@ msgstr ""
 "和代理類似，障礙物也能夠使用 ``avoidance_layers`` 位元遮罩。自身的避障遮罩中"
 "與之存在配對位元的代理都會躲避這個障礙物。"
 
-msgid "Procedual obstacles"
+#, fuzzy
+msgid "Procedural obstacles"
 msgstr "程式性天空。"
 
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,8 @@ msgstr ""
 "Pour compiler des modèles d'exportation pour le Web, ce qui suit est "
 "nécessaire :"
 
-msgid "`Emscripten 1.39.9+ <https://emscripten.org>`__."
+#, fuzzy
+msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
 msgstr "`Emscripten 1.39.9+ <https://emscripten.org>`__."
 
 #, fuzzy
@@ -62,6 +63,14 @@ msgid ""
 msgstr ""
 "Pour un aperçu général de l'utilisation de SCons pour Godot, voir :ref:"
 "`doc_introduction_to_the_buildsystem`."
+
+msgid ""
+"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
+msgstr ""
+
+msgid ""
+"Please note that the minimum requirement for GDExtension support is 3.1.14."
+msgstr ""
 
 msgid "Building export templates"
 msgstr "Création de modèles d'exportation"

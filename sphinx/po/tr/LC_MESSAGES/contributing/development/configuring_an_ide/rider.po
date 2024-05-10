@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,9 +69,8 @@ msgid ""
 "able to build the project from Rider."
 msgstr ""
 
-#, fuzzy
 msgid "Compiling and debugging the project"
-msgstr "Proje düzeni oluşturma"
+msgstr ""
 
 msgid ""
 "Rider comes with a built-in debugger that can be used to debug the Godot "
@@ -80,12 +79,9 @@ msgid ""
 "debug the editor, you need to configure the debugger first."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Click on the **Godot > Edit Configurations** option at the top of the screen."
 msgstr ""
-"Label düğümünün üzerine tıklayıp seçin, ve sonra pencerenin alt tarafındaki "
-"Oluştur düğmesine tıklayın."
 
 msgid ""
 "Delete what is under **Program arguments** and paste the following line:"

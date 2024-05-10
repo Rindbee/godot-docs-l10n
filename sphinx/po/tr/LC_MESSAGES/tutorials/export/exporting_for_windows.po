@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,8 @@ msgid ""
 "editor and debugger."
 msgstr ""
 
-#, fuzzy
 msgid "Code signing"
-msgstr "Godot sürümleri"
+msgstr ""
 
 msgid ""
 "Godot is capable of automatic code signing on export. To do this you must "
@@ -99,13 +98,11 @@ msgstr ""
 msgid "Windows export environment variables"
 msgstr ""
 
-#, fuzzy
 msgid "Export option"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
-#, fuzzy
 msgid "Environment variable"
-msgstr "Ortam özellikleri"
+msgstr ""
 
 msgid "Encryption / Encryption Key"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,9 +190,8 @@ msgstr "Seçenek"
 msgid "Description"
 msgstr "Tanım"
 
-#, fuzzy
 msgid "Codesign"
-msgstr "Düğümler"
+msgstr ""
 
 msgid "Tool to use for code signing."
 msgstr ""
@@ -205,9 +204,8 @@ msgid ""
 "macOS keychain. [1]_"
 msgstr ""
 
-#, fuzzy
 msgid "Certificate File"
-msgstr "Klasör Oluştur"
+msgstr ""
 
 msgid "The PKCS #12 certificate file. [2]_"
 msgstr ""
@@ -218,9 +216,8 @@ msgstr ""
 msgid "Password for the certificate file. [2]_"
 msgstr ""
 
-#, fuzzy
 msgid "Custom Options"
-msgstr "Özel sinyaller"
+msgstr ""
 
 msgid "Array of command line arguments passed to the code signing tool."
 msgstr ""
@@ -234,9 +231,8 @@ msgstr ""
 msgid "Notarization Options"
 msgstr "Onaylanma Seçenekleri"
 
-#, fuzzy
 msgid "Notarization"
-msgstr "Onaylanma Seçenekleri"
+msgstr ""
 
 msgid "Tool to use for notarization."
 msgstr ""
@@ -477,37 +473,32 @@ msgid ""
 "required to use wireless controllers."
 msgstr ""
 
-#, fuzzy
 msgid "Files Downloads [7]_"
-msgstr "Dosyalar Filmler [6]_"
+msgstr ""
 
 msgid "Allows read or write access to the user's \"Downloads\" folder."
 msgstr ""
 
-#, fuzzy
 msgid "Files Pictures [7]_"
-msgstr "Dosyalar Resimler [6]_"
+msgstr ""
 
 msgid "Allows read or write access to the user's \"Pictures\" folder."
 msgstr ""
 
-#, fuzzy
 msgid "Files Music [7]_"
-msgstr "Dosyalar Müzik [6]_"
+msgstr ""
 
 msgid "Allows read or write access to the user's \"Music\" folder."
 msgstr ""
 
-#, fuzzy
 msgid "Files Movies [7]_"
-msgstr "Dosyalar Filmler [6]_"
+msgstr ""
 
 msgid "Allows read or write access to the user's \"Movies\" folder."
 msgstr ""
 
-#, fuzzy
 msgid "Files User Selected [7]_"
-msgstr "Dosyalar Kullanıcı Seçimli [6]_"
+msgstr ""
 
 msgid ""
 "Allows read or write access to arbitrary folder. To gain access, a folder "
@@ -544,13 +535,11 @@ msgstr ""
 msgid "macOS export environment variables"
 msgstr ""
 
-#, fuzzy
 msgid "Export option"
-msgstr "İçe aktarma seçenekleri"
+msgstr ""
 
-#, fuzzy
 msgid "Environment variable"
-msgstr "Ortam özellikleri"
+msgstr ""
 
 msgid "Encryption / Encryption Key"
 msgstr ""

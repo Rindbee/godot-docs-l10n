@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,9 +35,8 @@ msgid ""
 "avoid having to update the script every time the node's path is changed."
 msgstr ""
 
-#, fuzzy
 msgid "Creation and usage"
-msgstr "Düğüm oluşturmak"
+msgstr ""
 
 msgid ""
 "In the Scene tree dock, right-click on a node and select **Access as Unique "
@@ -55,9 +54,8 @@ msgid ""
 "node's name:"
 msgstr ""
 
-#, fuzzy
 msgid "Same-scene limitation"
-msgstr "Gölgelendirici dili sınırlamaları"
+msgstr ""
 
 msgid ""
 "A scene unique node can only be retrieved by a node inside the same scene. "
@@ -110,9 +108,8 @@ msgstr ""
 msgid "``get_node(\"%Sword/%Hilt\")`` returns the **Hilt** node."
 msgstr ""
 
-#, fuzzy
 msgid "Alternatives"
-msgstr "Harici Dosyalar"
+msgstr ""
 
 msgid ""
 "Scene unique nodes are a useful tool to navigate a scene. However, there are "

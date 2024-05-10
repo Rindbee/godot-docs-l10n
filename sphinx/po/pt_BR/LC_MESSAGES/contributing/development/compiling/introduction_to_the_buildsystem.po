@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,8 @@ msgstr ""
 "Os executáveis resultantes serão colocados na subpasta ``bin/``, geralmente "
 "com esta convenção de nomenclatura::"
 
-msgid "For the previous build attempt, the result would look like this::"
+#, fuzzy
+msgid "For the previous build attempt, the result would look like this:"
 msgstr "Para a tentativa de compilação anterior, o resultado ficaria assim:"
 
 msgid ""

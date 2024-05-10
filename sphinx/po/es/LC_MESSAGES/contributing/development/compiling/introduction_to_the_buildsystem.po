@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,7 +141,8 @@ msgstr ""
 "Los archivos binarios resultantes se ubicarán en el subdirectorio ``bin/``, "
 "generalmente con esta convención de nombres:"
 
-msgid "For the previous build attempt, the result would look like this::"
+#, fuzzy
+msgid "For the previous build attempt, the result would look like this:"
 msgstr "Para el intento anterior de compilación, el resultado se verá así:"
 
 #, fuzzy
@@ -638,4 +639,4 @@ msgstr ""
 "más fácil para configurar esto."
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

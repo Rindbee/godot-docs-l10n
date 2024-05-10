@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,9 +26,8 @@ msgid ""
 "attention to when migrating your project."
 msgstr ""
 
-#, fuzzy
 msgid "Breaking changes"
-msgstr "Değişikliklere katkı yapmak"
+msgstr ""
 
 msgid ""
 "If you are migrating from 4.1 to 4.2, the breaking changes listed here might "
@@ -92,9 +91,8 @@ msgstr ""
 msgid "Change"
 msgstr "Değiştir"
 
-#, fuzzy
 msgid "GDScript Compatible"
-msgstr "GDScript biçim dizeleri"
+msgstr ""
 
 msgid "C# Binary Compatible"
 msgstr ""
@@ -102,13 +100,11 @@ msgstr ""
 msgid "C# Source Compatible"
 msgstr ""
 
-#, fuzzy
 msgid "Introduced"
-msgstr "Giriş"
+msgstr ""
 
-#, fuzzy
 msgid "**Node**"
-msgstr "**Düğümler:**"
+msgstr ""
 
 msgid "Constant ``NOTIFICATION_NODE_RECACHE_REQUESTED`` removed"
 msgstr ""
@@ -125,9 +121,8 @@ msgstr ""
 msgid "Animation"
 msgstr "Animasyon"
 
-#, fuzzy
 msgid "**AnimationPlayer**"
-msgstr "AnimationPlayer"
+msgstr ""
 
 msgid ""
 "Method ``_post_process_key_value`` moved to base class ``AnimationMixer``"
@@ -230,9 +225,8 @@ msgstr ""
 msgid "Method ``seek`` adds a new ``update_only`` optional parameter"
 msgstr ""
 
-#, fuzzy
 msgid "**AnimationTree**"
-msgstr "AnimationTree"
+msgstr ""
 
 msgid "Property ``active`` moved to base class ``AnimationMixer``"
 msgstr ""
@@ -276,9 +270,8 @@ msgid ""
 "``AnimationRootNode``"
 msgstr ""
 
-#, fuzzy
 msgid "GUI nodes"
-msgstr "Düğümleri almak"
+msgstr ""
 
 msgid "**PopupMenu**"
 msgstr ""
@@ -313,9 +306,8 @@ msgstr ""
 msgid "Rendering"
 msgstr "İşleme"
 
-#, fuzzy
 msgid "**ImporterMesh**"
-msgstr "**Özellik Açıklamaları**"
+msgstr ""
 
 msgid ""
 "Method ``add_surface`` changes ``flags`` parameter type from ``uint32`` to "
@@ -330,9 +322,8 @@ msgid ""
 "``uint64``"
 msgstr ""
 
-#, fuzzy
 msgid "**MeshDataTool**"
-msgstr "Örgüler"
+msgstr ""
 
 msgid ""
 "Method ``commit_to_surface`` adds a new ``compression_flags`` optional "
@@ -342,9 +333,8 @@ msgstr ""
 msgid "Method ``get_format`` changes return type from ``uint32`` to ``uint64``"
 msgstr ""
 
-#, fuzzy
 msgid "**RenderingDevice**"
-msgstr "İşleme"
+msgstr ""
 
 msgid ""
 "Enum field ``BarrierMask.BARRIER_MASK_RASTER`` changes value from ``1`` to "
@@ -385,9 +375,8 @@ msgid ""
 "``uint64``"
 msgstr ""
 
-#, fuzzy
 msgid "Text"
-msgstr "Doku"
+msgstr ""
 
 msgid "**Font**"
 msgstr "**Yazı Tipi:**"
@@ -434,9 +423,8 @@ msgstr ""
 msgid "Property ``use_snap`` renamed to ``snapping_enabled``"
 msgstr ""
 
-#, fuzzy
 msgid "**GraphNode**"
-msgstr "**Düğümler:**"
+msgstr ""
 
 msgid "Property ``comment`` removed"
 msgstr ""
@@ -533,9 +521,8 @@ msgstr ""
 msgid "Property ``text_direction`` removed"
 msgstr ""
 
-#, fuzzy
 msgid "TileMap"
-msgstr "Karo Haritası Düzenleyici"
+msgstr ""
 
 msgid "**TileMap**"
 msgstr ""
@@ -546,13 +533,11 @@ msgstr ""
 msgid "`GH-81070`_"
 msgstr ""
 
-#, fuzzy
 msgid "XR"
-msgstr "X"
+msgstr ""
 
-#, fuzzy
 msgid "**XRInterface**"
-msgstr "**düzenleyici**"
+msgstr ""
 
 msgid "Property ``environment_blend_mode`` added"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using compute shaders"
-msgstr "Görsel gölgelendiriciler, VisualShader, kullanmak"
+msgstr ""
 
 msgid ""
 "This tutorial will walk you through the process of creating a minimal "
@@ -200,9 +199,8 @@ msgstr ""
 msgid "The steps we need to do to compute our result are:"
 msgstr ""
 
-#, fuzzy
 msgid "Create a new pipeline."
-msgstr "Yeni bir betik oluşturmak"
+msgstr ""
 
 msgid "Begin a list of instructions for our GPU to execute."
 msgstr ""
@@ -216,9 +214,8 @@ msgstr ""
 msgid "Specify how many workgroups to use"
 msgstr ""
 
-#, fuzzy
 msgid "End the list of instructions"
-msgstr "Düzenleyici bütünleşmesi"
+msgstr ""
 
 msgid ""
 "Note that we are dispatching the compute shader with 5 work groups in the X "

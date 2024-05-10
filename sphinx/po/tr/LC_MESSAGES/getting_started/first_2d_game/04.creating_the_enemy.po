@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,23 +39,20 @@ msgstr ""
 msgid "Node setup"
 msgstr "Düğüm ayarı"
 
-#, fuzzy
 msgid "Click Scene -> New Scene from the top menu and add the following nodes:"
-msgstr "Sahne -> Yeni Sahne 'ye tıklayın, ve aşağıdaki düğümleri ekleyin:"
+msgstr ""
 
 msgid ":ref:`RigidBody2D <class_RigidBody2D>` (named ``Mob``)"
 msgstr ":ref:`RigidBody2D <class_RigidBody2D>` (``Mob`` isimli)"
 
-#, fuzzy
 msgid ":ref:`AnimatedSprite2D <class_AnimatedSprite2D>`"
-msgstr ":ref:`AnimatedSprite <class_AnimatedSprite>`"
+msgstr ""
 
 msgid ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 
-#, fuzzy
 msgid ":ref:`VisibleOnScreenNotifier2D <class_VisibleOnScreenNotifier2D>`"
-msgstr ":ref:`VisibilityNotifier2D <class_VisibilityNotifier2D>`"
+msgstr ""
 
 msgid ""
 "Don't forget to set the children so they can't be selected, like you did "
@@ -70,29 +67,18 @@ msgid ""
 "will prevent the mob from falling downwards."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "In addition, under the :ref:`CollisionObject2D <class_CollisionObject2D>` "
 "section just beneath the **RigidBody2D** section, expand the **Collision** "
 "group and uncheck the ``1`` inside the ``Mask`` property. This will ensure "
 "the mobs do not collide with each other."
 msgstr ""
-":ref:`RigidBody2D <class_RigidBody2D>` özelliklerinde, ``Yerçekimi Ölçeği`` "
-"'ni ``0`` yapın, bu şekilde düşmanlar aşağıya doğru düşmeyecekler. Ek "
-"olarak, :ref:`CollisionObject2D <class_CollisionObject2D>` kısmında, "
-"``Maske`` özelliğine tıklayıp ilk kutunun seçimini kaldırın. Bu, düşmanların "
-"birbirleriyle çarpışmasını önleyecektir."
 
-#, fuzzy
 msgid ""
 "Set up the :ref:`AnimatedSprite2D <class_AnimatedSprite2D>` like you did for "
 "the player. This time, we have 3 animations: ``fly``, ``swim``, and "
 "``walk``. There are two images for each animation in the art folder."
 msgstr ""
-"Oyuncu için yaptığınız gibi, bir :ref:`AnimatedSprite "
-"<class_AnimatedSprite>` ayarlayın. Bu sefer, 3 tane animasyonumuz var: "
-"``fly``, ``swim``, ve ``walk`` (uç, yüz, yürü). \"art\" klasöründe, her "
-"animasyon için iki tane resim var."
 
 msgid ""
 "The ``Animation Speed`` property has to be set for each individual "
@@ -111,24 +97,16 @@ msgstr ""
 "Bu animasyonlardan birini rastgele seçeceğiz, böylece düşmanların biraz "
 "çeşitliliği olacak."
 
-#, fuzzy
 msgid ""
 "Like the player images, these mob images need to be scaled down. Set the "
 "``AnimatedSprite2D``'s ``Scale`` property to ``(0.75, 0.75)``."
 msgstr ""
-"Oyuncu resimlerinde olduğu gibi, bu düşman resimlerinin de küçültülmesi "
-"gerekiyor. ``AnimatedSprite`` öğesinin ``Ölçek`` özelliğini ``(0.75, 0.75)`` "
-"olarak ayarlayın."
 
-#, fuzzy
 msgid ""
 "As in the ``Player`` scene, add a ``CapsuleShape2D`` for the collision. To "
 "align the shape with the image, you'll need to set the ``Rotation`` property "
 "to ``90`` (under \"Transform\" in the Inspector)."
 msgstr ""
-"``Player`` sahnesinde olduğu gibi, çarpışma için bir ``CapsuleShape2D`` "
-"ekleyin. Şekil ile resmi hizalamak için ``Dönme Açıları`` özelliğini ``90`` "
-"olarak ayarlamanız gerekir (Denetleyici içinde \"Dönüştürme\" altında)."
 
 msgid "Save the scene."
 msgstr "Sahneyi kaydedin."
@@ -146,15 +124,11 @@ msgstr ""
 "Şimdi betiğin geri kalanına bakalım. \"_ready() '' fonksiyonunda, bir "
 "animasyon oynatıyoruz ve üç animasyon türünden birini rastgele seçiyoruz:"
 
-#, fuzzy
 msgid ""
 "First, we get the list of animation names from the AnimatedSprite2D's "
 "``sprite_frames`` property. This returns an Array containing all three "
 "animation names: ``[\"walk\", \"swim\", \"fly\"]``."
 msgstr ""
-"İlk olarak, AnimatedSprite 'ın ``frames`` özelliğini kullanıp animasyon "
-"isimlerinin listesini alıyoruz. Bu bize, üç animasyon ismini içeren bir dizi "
-"(Array) döndürür: ``[\"walk\", \"swim\", \"fly\"]`` (yürü, yüz,uç)."
 
 msgid ""
 "We then need to pick a random number between ``0`` and ``2`` to select one "
@@ -166,15 +140,11 @@ msgstr ""
 "başlar). ``randi() % n`` işlemi, ``0`` ile ``n-1`` arasında rastgele bir "
 "tamsayı seçer."
 
-#, fuzzy
 msgid ""
 "The last piece is to make the mobs delete themselves when they leave the "
 "screen. Connect the ``screen_exited()`` signal of the "
 "``VisibleOnScreenNotifier2D`` node to the ``Mob`` and add this code:"
 msgstr ""
-"Son parça, düşmanlar ekrandan ayrıldıklarında kendilerini silmelerini "
-"sağlamak olacak. ``VisibilityNotifier2D`` düğümünün ``screen_exited()`` "
-"sinyalini bağlayın, ve şu kodu ekleyin:"
 
 msgid "This completes the `Mob` scene."
 msgstr "Bu `Mob` sahnesini tamamlar."

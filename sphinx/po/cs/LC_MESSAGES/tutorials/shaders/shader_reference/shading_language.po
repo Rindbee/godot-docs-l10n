@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,7 +249,7 @@ msgid ""
 msgstr ""
 
 msgid "Example:"
-msgstr ""
+msgstr "Příklad:"
 
 msgid ""
 "Default integer constants are signed, so casting is always needed to convert "
@@ -480,7 +480,7 @@ msgid "**+, -, !, ~**"
 msgstr ""
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "multiplicative"
 msgstr ""
@@ -489,7 +489,7 @@ msgid "**/, \\*, %**"
 msgstr ""
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "additive"
 msgstr ""
@@ -498,7 +498,7 @@ msgid "**+, -**"
 msgstr ""
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "bit-wise shift"
 msgstr ""
@@ -507,7 +507,7 @@ msgid "**<<, >>**"
 msgstr ""
 
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgid "relational"
 msgstr ""
@@ -516,7 +516,7 @@ msgid "**<, >, <=, >=**"
 msgstr ""
 
 msgid "7"
-msgstr ""
+msgstr "7"
 
 msgid "equality"
 msgstr ""
@@ -525,7 +525,7 @@ msgid "**==, !=**"
 msgstr ""
 
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgid "bit-wise AND"
 msgstr ""
@@ -534,7 +534,7 @@ msgid "**&**"
 msgstr ""
 
 msgid "9"
-msgstr ""
+msgstr "9"
 
 msgid "bit-wise exclusive OR"
 msgstr ""
@@ -543,7 +543,7 @@ msgid "**^**"
 msgstr ""
 
 msgid "10"
-msgstr ""
+msgstr "10"
 
 msgid "bit-wise inclusive OR"
 msgstr ""
@@ -552,7 +552,7 @@ msgid "**|**"
 msgstr ""
 
 msgid "11"
-msgstr ""
+msgstr "11"
 
 msgid "logical AND"
 msgstr ""

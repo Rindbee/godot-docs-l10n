@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,9 +78,8 @@ msgstr "1"
 msgid "``ARRAY_NORMAL``"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "2"
 msgstr "2"
@@ -101,9 +100,8 @@ msgstr "3"
 msgid "``ARRAY_COLOR``"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid "4"
 msgstr "4"
@@ -153,9 +151,8 @@ msgstr ""
 msgid "``ARRAY_INDEX``"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
+msgstr ""
 
 msgid ""
 "In most cases when creating a mesh, we define it by its vertex positions. So "
@@ -181,9 +178,8 @@ msgid ""
 "are typically left empty."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up the ArrayMesh"
-msgstr "Projeyi ayarlamak"
+msgstr ""
 
 msgid ""
 "In the editor, create a :ref:`MeshInstance3D <class_meshinstance3d>` and add "

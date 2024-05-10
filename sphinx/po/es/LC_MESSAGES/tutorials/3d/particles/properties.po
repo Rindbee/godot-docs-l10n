@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,9 +21,8 @@ msgstr ""
 msgid "3D Particle system properties"
 msgstr "Sistemas de partículas"
 
-#, fuzzy
 msgid "Emitter properties"
-msgstr "Propiedades editables."
+msgstr "Propiedades del emisor"
 
 msgid ""
 "The checkbox next to the ``Emitting`` property activates and deactivates the "
@@ -44,7 +43,7 @@ msgid ""
 "particles emitted through the lifetime will be the ``Ammount`` * ``Amount "
 "Ratio``. Changing this value while emitted doesn't affect already created "
 "particles and doesn't cause the particle system to restart. It's useful for "
-"making effects where the number of emitted particels varies over time."
+"making effects where the number of emitted particles varies over time."
 msgstr ""
 
 msgid ""
@@ -242,9 +241,8 @@ msgstr ""
 msgid "Trail properties"
 msgstr "Propiedades del área"
 
-#, fuzzy
 msgid "Particle trails"
-msgstr "Transformación de partícula."
+msgstr "Rastros de partículas"
 
 #, fuzzy
 msgid "Particle trail properties"
@@ -267,4 +265,4 @@ msgid ""
 msgstr ""
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

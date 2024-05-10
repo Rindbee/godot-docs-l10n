@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Large world coordinates"
-msgstr "Önceki Koordinat"
+msgstr ""
 
 msgid ""
 "Large world coordinates are mainly useful in 3D projects; they are rarely "
@@ -90,15 +89,14 @@ msgstr ""
 
 msgid ""
 "**Double-precision float range (represent all integers):** Between -9 "
-"quadrillon and 9 quadrillon"
+"quadrillion and 9 quadrillion"
 msgstr ""
 
 msgid "Range"
 msgstr "Menzil"
 
-#, fuzzy
 msgid "Single step"
-msgstr "Tekil nesneler"
+msgstr ""
 
 msgid "Double step"
 msgstr ""

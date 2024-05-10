@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,13 +184,12 @@ msgstr "**Fecha de publicación*"
 msgid "**Support level**"
 msgstr "**Nivel de soporte**"
 
-#, fuzzy
 msgid "Godot 4.3 (`master`)"
-msgstr "Godot 4.2 (`master`)"
+msgstr "Godot 4.3 (`master`)"
 
 #, fuzzy
-msgid "April 2024 (estimate)"
-msgstr "Q3 2023 (estimado)"
+msgid "June 2024 (estimate)"
+msgstr "El primer trimestre de 2024 (estimado)"
 
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
@@ -203,13 +202,11 @@ msgstr ""
 msgid "unstable"
 msgstr "inestable"
 
-#, fuzzy
 msgid "Godot 4.2"
-msgstr "Godot 4.1"
+msgstr "Godot 4.2"
 
-#, fuzzy
 msgid "November 2023"
-msgstr "Noviembre de 2021"
+msgstr "Noviembre de 2023"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -233,9 +230,8 @@ msgstr "Godot 4.0"
 msgid "March 2023"
 msgstr "Marzo de 2023"
 
-#, fuzzy
 msgid "|eol| No longer supported (last update: 4.0.4)."
-msgstr "|eol| Esta versión ya no es sostenida (ultima actualización: 2.0.4.1)."
+msgstr "|eol| Ya no recibe soporte (ultima actualización: 4.0.4)."
 
 msgid "eol"
 msgstr "eol"
@@ -243,9 +239,8 @@ msgstr "eol"
 msgid "Godot 3.6 (`3.x`, LTS)"
 msgstr "Godot 3.6 (`3.x`, LTS)"
 
-#, fuzzy
 msgid "Q1 2024 (estimate)"
-msgstr "Q3 2023 (estimado)"
+msgstr "El primer trimestre de 2024 (estimado)"
 
 msgid ""
 "|supported| *Beta.* Receives new features, usability and performance "
@@ -266,9 +261,8 @@ msgstr "Godot 3.4"
 msgid "November 2021"
 msgstr "Noviembre de 2021"
 
-#, fuzzy
 msgid "|eol| No longer supported (last update: 3.4.5)."
-msgstr "|eol| Esta versión ya no es soportada (última actualización: 3.2.3)."
+msgstr "|eol| Esta versión ya no recibe soporte (última actualización: 3.4.5)."
 
 msgid "Godot 3.3"
 msgstr "Godot 3.3"
@@ -276,9 +270,8 @@ msgstr "Godot 3.3"
 msgid "April 2021"
 msgstr "Abril de 2021"
 
-#, fuzzy
 msgid "|eol| No longer supported (last update: 3.3.4)."
-msgstr "|eol| Esta versión ya no es soportada (última actualización: 3.2.3)."
+msgstr "|eol| Esta versión ya no recibe soporte (última actualización: 3.3.4)."
 
 msgid "Godot 3.2"
 msgstr "Godot 3.2"
@@ -404,9 +397,9 @@ msgid ""
 msgstr ""
 "Actualizar software mientras se trabaja en un proyecto es inherentemente "
 "riesgoso, así que considera si será una buena idea para tu proyecto antes de "
-"intentar actualizar. También haz backups para tu proyecto o utiliza un "
-"sistema de control de versiones para prevenir la pérdida de datos en caso de "
-"que una actualización salga mal."
+"intentar actualizar. También haz copias de seguridad de tu proyecto o "
+"utiliza un sistema de control de versiones para prevenir la pérdida de datos "
+"en caso de que una actualización salga mal."
 
 msgid ""
 "That said, we do our best to keep minor and especially patch releases "
@@ -478,10 +471,11 @@ msgstr ""
 "limite, nos esforzamos por publicar lanzamientos menores con relativa "
 "frecuencia."
 
+#, fuzzy
 msgid ""
 "In particular, after the very length release cycle for 4.0, we are pivoting "
-"to a faster paced development workflow, with the 4.1 release expected within "
-"late Q2 / early Q3 2023."
+"to a faster paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1"
 msgstr ""
 "En particular, después del largo ciclo de lanzamiento para 4.0, estamos "
 "cambiando a un flujo de desarrollo más rápido, con 4.1 esperado al final de "
@@ -665,4 +659,4 @@ msgstr ""
 "godot/pull/76446>`_ para más información."
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

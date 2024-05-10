@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Godot Android library"
-msgstr "Fotoğraf Kütüphanesi"
+msgstr ""
 
 msgid ""
 "The Godot Engine for Android platforms is designed to be used as an `Android "
@@ -50,9 +49,8 @@ msgid ""
 "enables."
 msgstr ""
 
-#, fuzzy
 msgid "Using the Godot Android library"
-msgstr "Tema düzenleyiciyi kullanmak"
+msgstr ""
 
 msgid ""
 "The Godot Android library is packaged as an AAR archive file and hosted on "
@@ -66,9 +64,8 @@ msgid ""
 "the following non-exhaustive use-cases."
 msgstr ""
 
-#, fuzzy
 msgid "Godot Android plugins"
-msgstr "Android eklentileri"
+msgstr ""
 
 msgid ""
 "Android plugins are powerful tools to extend the capabilities of the Godot "
@@ -153,9 +150,8 @@ msgid ""
 "topics/manifest/activity-element#config>`_."
 msgstr ""
 
-#, fuzzy
 msgid "1. Create the Android app"
-msgstr "Bir Android eklentisini yüklemek ve kullanmak"
+msgstr ""
 
 msgid ""
 "The Android sample app was created using `Android Studio <https://developer."
@@ -276,9 +272,8 @@ msgid ""
 "guide/topics/manifest/activity-element#config>`_"
 msgstr ""
 
-#, fuzzy
 msgid "2. Create the Godot project"
-msgstr "Oyuncu sahnesini oluşturmak"
+msgstr ""
 
 msgid ""
 "On Android, Godot's project files are exported to the ``assets`` directory "
@@ -319,9 +314,8 @@ msgid ""
 "Samples/tree/master/apps/gltf_viewer/src/main/assets>`_ for reference"
 msgstr ""
 
-#, fuzzy
 msgid "Configure the Godot project as desired"
-msgstr "Düğüm oluşturmak"
+msgstr ""
 
 msgid ""
 "Make sure the `orientation <https://docs.godotengine.org/en/stable/classes/"
@@ -353,9 +347,8 @@ msgid ""
 "``gdscript`` logic to render the model."
 msgstr ""
 
-#, fuzzy
 msgid "3. Build and run the app"
-msgstr "Bir Android eklentisini yüklemek ve kullanmak"
+msgstr ""
 
 msgid ""
 "Once you complete configuration of your Godot project, build and run the "

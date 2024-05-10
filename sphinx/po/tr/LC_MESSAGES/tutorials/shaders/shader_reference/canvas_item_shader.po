@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,9 +242,8 @@ msgstr ""
 msgid "inout vec2 **VERTEX**"
 msgstr ""
 
-#, fuzzy
 msgid "Vertex, in local space."
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid "in int **VERTEX_ID**"
 msgstr ""
@@ -424,9 +423,8 @@ msgstr ""
 msgid "in vec3 **NORMAL**"
 msgstr ""
 
-#, fuzzy
 msgid "Input Normal."
-msgstr "Giriş"
+msgstr ""
 
 msgid "in vec4 **COLOR**"
 msgstr ""
@@ -489,9 +487,8 @@ msgstr ""
 msgid "inout vec4 **LIGHT**"
 msgstr ""
 
-#, fuzzy
 msgid "Output color for this Light."
-msgstr "Çıktı günlüğü"
+msgstr ""
 
 msgid "Specular shininess, as set in the object's texture."
 msgstr ""
@@ -502,9 +499,8 @@ msgstr ""
 msgid "Multiply shadows cast at this point by this color."
 msgstr ""
 
-#, fuzzy
 msgid "SDF functions"
-msgstr "Fonksiyonlar"
+msgstr ""
 
 msgid ""
 "There are a few additional functions implemented to sample an automatically "
@@ -544,9 +540,8 @@ msgstr ""
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr ""
 
-#, fuzzy
 msgid "Converts screen UV to a SDF."
-msgstr "Girintiyi Sekmelere Dönüştür"
+msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

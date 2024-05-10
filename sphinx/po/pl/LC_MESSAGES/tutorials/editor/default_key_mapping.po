@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1749,100 +1749,125 @@ msgstr ""
 msgid "Tile Map Editor"
 msgstr "Kamery"
 
-msgid "Find Tile"
-msgstr "Znajdź kafelek"
-
-msgid "``tile_map_editor/find_tile``"
-msgstr ""
-
-msgid "Pick Tile"
-msgstr "Wybierz kafelek"
-
-msgid ":kbd:`I`"
-msgstr ""
-
-msgid "``tile_map_editor/pick_tile``"
-msgstr ""
-
-msgid "Paint Tile"
-msgstr "Maluj kafelek"
-
-msgid ":kbd:`P`"
-msgstr ""
-
-msgid "``tile_map_editor/paint_tile``"
-msgstr ""
-
-msgid "Bucket Fill"
-msgstr "Wypełnienie"
-
-msgid "``tile_map_editor/bucket_fill``"
-msgstr ""
-
-msgid "Transpose"
-msgstr "Transpozycja"
-
-msgid "``tile_map_editor/transpose``"
-msgstr ""
-
-msgid "Flip Horizontally"
-msgstr "Odbij poziomo"
-
-msgid ":kbd:`X`"
-msgstr ""
-
-msgid "``tile_map_editor/flip_horizontal``"
-msgstr ""
-
-msgid "Flip Vertically"
-msgstr "Odbij pionowo"
-
-msgid ":kbd:`Z`"
-msgstr ""
-
-msgid "``tile_map_editor/flip_vertical``"
-msgstr ""
-
-msgid "Rotate Left"
-msgstr "Obróć w lewo"
-
-msgid "``tile_map_editor/rotate_left``"
-msgstr ""
-
-msgid "Rotate Right"
-msgstr "Obróć w prawo"
-
-msgid "``tile_map_editor/rotate_right``"
-msgstr ""
-
-msgid "Clear Transform"
-msgstr "Wyczyść przekształcenie"
-
-msgid "``tile_map_editor/clear_transform``"
-msgstr ""
-
 msgid "Select"
 msgstr "Zaznacz"
 
-msgid ":kbd:`M`"
-msgstr ""
-
-msgid "``tile_map_editor/select``"
+msgid "``tiles_editor/selection_tool``"
 msgstr ""
 
 msgid "Cut Selection"
 msgstr "Wytnij zaznaczenie"
 
-msgid "``tile_map_editor/cut_selection``"
+msgid "``tiles_editor/cut``"
 msgstr ""
 
-msgid "``tile_map_editor/copy_selection``"
+msgid "``tiles_editor/copy``"
 msgstr ""
 
-msgid "Erase Selection"
+#, fuzzy
+msgid "Paste Selection"
 msgstr "Usuń zaznaczenie"
 
-msgid "``tile_map_editor/erase_selection``"
+msgid "``tiles_editor/paste``"
+msgstr ""
+
+msgid "``tiles_editor/delete``"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid ":kbd:`Esc`"
+msgstr ""
+
+#, fuzzy
+msgid "``tiles_editor/cancel``"
+msgstr "inst2dict"
+
+#, fuzzy
+msgid "Paint"
+msgstr "Maluj kafelek"
+
+msgid "``tiles_editor/paint_tool``"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid ":kbd:`L`"
+msgstr ""
+
+msgid "``tiles_editor/line_tool``"
+msgstr ""
+
+#, fuzzy
+msgid "Rect"
+msgstr "Rect2"
+
+msgid "``tiles_editor/rect_tool``"
+msgstr ""
+
+#, fuzzy
+msgid "Bucket"
+msgstr "Wypełnienie"
+
+msgid ":kbd:`B`"
+msgstr ""
+
+msgid "``tiles_editor/bucket_tool``"
+msgstr ""
+
+#, fuzzy
+msgid "Picker"
+msgstr "Kolor"
+
+msgid ":kbd:`P`"
+msgstr ""
+
+msgid "``tiles_editor/picker``"
+msgstr ""
+
+msgid "Eraser"
+msgstr ""
+
+msgid "``tiles_editor/eraser``"
+msgstr ""
+
+msgid "Flip Horizontally"
+msgstr "Odbij poziomo"
+
+msgid ":kbd:`C`"
+msgstr ""
+
+#, fuzzy
+msgid "``tiles_editor/flip_tile_horizontal``"
+msgstr "get_rotation()"
+
+msgid "Flip Vertically"
+msgstr "Odbij pionowo"
+
+msgid ":kbd:`V`"
+msgstr ""
+
+msgid "``tiles_editor/flip_tile_vertical``"
+msgstr ""
+
+msgid "Rotate Left"
+msgstr "Obróć w lewo"
+
+msgid ":kbd:`Z`"
+msgstr ""
+
+msgid "``tiles_editor/rotate_tile_left``"
+msgstr ""
+
+msgid "Rotate Right"
+msgstr "Obróć w prawo"
+
+msgid ":kbd:`X`"
+msgstr ""
+
+msgid "``tiles_editor/rotate_tile_right``"
 msgstr ""
 
 #, fuzzy

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,13 +38,11 @@ msgstr ""
 msgid "Typical content controls include:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Buttons <class_Button>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Labels <class_Label>`"
-msgstr "``Message`` isminde bir :ref:`Label <class_Label>` düğümü."
+msgstr ""
 
 msgid ":ref:`LineEdits <class_LineEdit>` and :ref:`TextEdits <class_TextEdit>`"
 msgstr ""
@@ -52,25 +50,20 @@ msgstr ""
 msgid "Typical layout controls include:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`BoxContainers <class_BoxContainer>`"
-msgstr ":ref:`Yığın <class_BoxContainer>` yerleşim düzenleri."
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`MarginContainers <class_MarginContainer>`"
-msgstr ":ref:`Izgara <class_GridContainer>` yerleşim düzenleri."
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`ScrollContainers <class_ScrollContainer>`"
-msgstr ":ref:`Yığın <class_BoxContainer>` yerleşim düzenleri."
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`TabContainers <class_TabContainer>`"
-msgstr ":ref:`Yığın <class_BoxContainer>` yerleşim düzenleri."
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Popups <class_Popup>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid "The following pages explain the basics of using such controls."
 msgstr ""

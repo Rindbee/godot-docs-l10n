@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -493,7 +493,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Using emoji"
-msgstr "Использование кода"
+msgstr "Использование эмоджи"
 
 msgid "Godot has limited support for emoji fonts:"
 msgstr ""
@@ -549,11 +549,11 @@ msgstr ""
 
 #, fuzzy
 msgid "It's possible to use a system font as a fallback font too."
-msgstr "Можно ли использовать Godot как библиотеку?"
+msgstr "Системный шрифт также можно использовать в качестве запасного."
 
 #, fuzzy
 msgid "Using icon fonts"
-msgstr "Сложение векторов"
+msgstr "Использование шрифтов-значков"
 
 msgid ""
 "Tools like `Fontello <https://fontello.com/>`__ can be used to generate font "
@@ -607,8 +607,9 @@ msgid ""
 "main font's characters will take priority over the fallback font's ligatures."
 msgstr ""
 
+#, fuzzy
 msgid "Font fallbacks"
-msgstr ""
+msgstr "Резервные шрифты"
 
 msgid ""
 "Godot supports defining one or more fallbacks when the main font lacks a "
@@ -616,19 +617,31 @@ msgid ""
 "fallbacks:"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Use a font that only supports Latin character sets, but use another font to "
 "be able to display text another character set such as Cyrillic."
 msgstr ""
+"Используйте шрифт, поддерживающий только латинские наборы символов, но "
+"используйте другой шрифт, для возможности отображать текст другим набором "
+"символов, например кириллицей."
 
+#, fuzzy
 msgid "Use a font to render text, and another font to render emoji or icons."
 msgstr ""
+"Используйте шрифт для отображения текста, и другой шрифт, чтобы сделать "
+"emoji или иконки."
 
+#, fuzzy
 msgid ""
 "Open the Advanced Import Settings dialog by double-clicking the font file in "
 "the FileSystem dock. You can also select the font in the FileSystem dock, go "
 "to the Import dock then choose **Advanced…** at the bottom:"
 msgstr ""
+"Откройте диалог Расширенных Параметров Импорта, дважды щелкнув на файл "
+"шрифта в панеле Файловой системы. Вы также можете выбрать шрифт в панели "
+"Файловой системы, перейти в панель Импорта затем выбрать **Advanced...** "
+"внизу:"
 
 #, fuzzy
 msgid "Import dock"
@@ -666,7 +679,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Variable fonts"
-msgstr "Переменные"
+msgstr "Переменные шрифты"
 
 msgid ""
 "Godot has full support for `variable fonts <https://variablefonts.io/>`__, "
@@ -724,8 +737,9 @@ msgid ""
 "other places:"
 msgstr ""
 
+#, fuzzy
 msgid "Saving FontVariation to an external resource file"
-msgstr ""
+msgstr "Сохранение FontVariation во внешний ресурсный файл"
 
 msgid "Faux bold and italic"
 msgstr ""

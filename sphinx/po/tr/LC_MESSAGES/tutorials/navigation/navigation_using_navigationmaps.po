@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using NavigationMaps"
-msgstr "Görünür Gezinti"
+msgstr ""
 
 msgid ""
 "A NavigationMap is an abstract navigation world on the NavigationServer "
@@ -62,9 +61,8 @@ msgid ""
 "get_navigation_map()`` from any :ref:`Node3D<class_Node3D>` inheriting Node."
 msgstr ""
 
-#, fuzzy
 msgid "Creating new navigation maps"
-msgstr "Girdi eylemlerini oluşturmak"
+msgstr ""
 
 msgid ""
 "The NavigationServer can create and support as many navigation maps as "

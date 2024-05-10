@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,9 +41,8 @@ msgstr ""
 "in una ricetta. Ci sono dozzine di tipi che possono mostrare un’immagine, "
 "riprodurre un suono, rappresentare una camera, e molto altro."
 
-#, fuzzy
 msgid "All nodes have the following characteristics:"
-msgstr "Tutti i nodi hanno i seguenti attributi:"
+msgstr "Tutti i nodi hanno le seguenti caratteristiche:"
 
 msgid "A name."
 msgstr "Un nome."
@@ -125,7 +124,8 @@ msgstr ""
 msgid "On top of acting like nodes, scenes have the following characteristics:"
 msgstr "Oltre a comportarsi come nodi, le scene hanno i seguenti attributi:"
 
-msgid "They always have one root node, like the \"Character\" in our example."
+#, fuzzy
+msgid "They always have one root node, like the \"Player\" in our example."
 msgstr ""
 "Essi hanno sempre un nodo radice, come il \"Personaggio\" nel nostro esempio."
 

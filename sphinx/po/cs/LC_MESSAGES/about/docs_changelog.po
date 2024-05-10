@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgid "New pages since version 4.1"
 msgstr "Nové tutorialy od verze 3.0"
 
 msgid "C#"
-msgstr ""
+msgstr "C#"
 
 #, fuzzy
 msgid ":ref:`doc_c_sharp_diagnostics`"
@@ -59,9 +59,8 @@ msgstr "Vývoj"
 msgid ":ref:`doc_2d_coordinate_systems`"
 msgstr ":ref:`doc_what_are_godot_classes`"
 
-#, fuzzy
 msgid "Migrating"
-msgstr "Osvětlení"
+msgstr "Migrování"
 
 #, fuzzy
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
@@ -267,7 +266,7 @@ msgid "New pages since version 3.3"
 msgstr "Nové výukové programy od verze 3.1"
 
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #, fuzzy
 msgid ":ref:`doc_cpp_usage_guidelines`"

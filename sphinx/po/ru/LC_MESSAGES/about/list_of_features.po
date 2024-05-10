@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,20 +42,20 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
+"См. :ref:`doc_system_requirements' чтобы узнать системные требования и "
+"необходимые для работы программы."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Редактор и экспортированные проекты можно запустить на:**"
 
-#, fuzzy
 msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 и выше (64-битная и 32-битная)."
+msgstr "Windows (x86, 64-bit и 32-bit)."
 
 msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
+msgstr "macOS (x86 и ARM, только 64-bit)."
 
-#, fuzzy
 msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 и выше (64-битная и 32-битная)."
+msgstr "Linux (x86 и ARM, 64-bit и 32-bit)."
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -69,10 +69,12 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
+"Официальные бинарные файлы скомпилированы с помощью `Godot Engine buildroot "
+"<https://github.com/godotengine/buildroot>`__, позволяя использовать "
+"бинарные файлы, работающие в общих дистрибутивах Linux (включая LTS версии)."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
-msgstr "Android 6.0 и новее (поддержка редактора является экспериментальной)."
+msgstr "Android (поддержка редактора является экспериментальной)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -85,7 +87,7 @@ msgid "**Runs exported projects:**"
 msgstr "**Запускает экспортированные проекты:**"
 
 msgid "iOS."
-msgstr ""
+msgstr "iOS."
 
 msgid ":ref:`Consoles <doc_consoles>`."
 msgstr ":ref:`Консоли <doc_consoles>`."
@@ -132,9 +134,8 @@ msgstr ""
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`отладчик <doc_debugger_panel>`."
 
-#, fuzzy
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "Пока не поддерживается отладка в потоках."
+msgstr "Поддержка отладки в потоках доступна с версии 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -278,9 +279,8 @@ msgstr ""
 ":ref:`2D освещение <doc_2d_lights_and_shadows>` с картами нормалей и картами "
 "отражений."
 
-#, fuzzy
 msgid "Point (omni/spot) and directional 2D lights."
-msgstr "Всенаправленный свет."
+msgstr "Точечное (всенаправленное/спотовое) и направленное 2D освещение."
 
 msgid "Hard or soft shadows (adjustable on a per-light basis)."
 msgstr "Жесткие или мягкие тени (изменяются для каждого источника)."
@@ -304,7 +304,6 @@ msgstr ""
 "растеризация с помощью FreeType или многоканальных знаковых полей расстояний "
 "(MSDF)."
 
-#, fuzzy
 msgid ""
 "Bitmap fonts can be exported using tools like BMFont, or imported from "
 "images (for fixed-width fonts only)."
@@ -313,19 +312,17 @@ msgstr ""
 "BMFont, или импортировать из изображений (только для шрифтов с фиксированной "
 "шириной)."
 
-#, fuzzy
 msgid ""
 "Dynamic fonts support monochrome fonts as well as colored fonts (e.g. for "
 "emoji). Supported formats are TTF, OTF, WOFF1 and WOFF2."
 msgstr ""
-"DynamicFont поддерживает монохромные шрифты, а также цветные шрифты "
+"Динамичные шрифты поддерживают монохромные шрифты, а также цветные шрифты "
 "(например, для эмодзи). Поддерживаемые форматы: TTF, OTF, WOFF1 и WOFF2."
 
-#, fuzzy
 msgid ""
 "Dynamic fonts support optional font outlines with adjustable width and color."
 msgstr ""
-"DynamicFont поддерживает дополнительные контуры шрифтов с регулируемой "
+"Динамичные шрифты поддерживают дополнительные контуры шрифтов с регулируемой "
 "шириной и цветом."
 
 msgid ""
@@ -342,12 +339,11 @@ msgstr ""
 "Динамические шрифты поддерживают симмуляцию жирного шрифта и курсива для "
 "случаев, когда в файле шрифтов отсутствуют эти стили."
 
-#, fuzzy
 msgid ""
 "Dynamic fonts support oversampling to keep fonts sharp at higher resolutions."
 msgstr ""
-"Поддержка передискретизации шрифтов для сохранения резкости шрифтов при "
-"более высоком разрешении."
+"Динамичные шрифты поддерживают передискретизацию шрифтов для сохранения "
+"четкости шрифтов при более высоком разрешении."
 
 msgid ""
 "Dynamic fonts support subpixel positioning to make fonts crisper at low "
@@ -373,11 +369,12 @@ msgstr ""
 "многоканальности позволяет масштабировать многоканальные SDF-шрифты до "
 "мелких размеров лучше, по сравнению с монохромными SDF-шрифтами."
 
-#, fuzzy
 msgid ""
 "GPU-based :ref:`particles <doc_particle_systems_2d>` with support for :ref:"
 "`custom particle shaders <doc_particle_shader>`."
-msgstr "Частицы на базе GPU с поддержкой пользовательских шейдеров частиц."
+msgstr ""
+":ref:`Частицы <doc_particle_systems_2d>` на базе GPU с поддержкой :ref:"
+"`пользовательских шейдеров частиц <doc_particle_shader>`."
 
 msgid "CPU-based particles."
 msgstr "Частицы на базе процессора."
@@ -411,9 +408,8 @@ msgstr "Пути могут быть нарисованы в редакторе 
 msgid "PathFollow2D node to make nodes follow a Path2D."
 msgstr "Узел PathFollow2D, чтобы заставить узлы следовать по Path2D."
 
-#, fuzzy
 msgid ":ref:`2D geometry helper class <class_Geometry2D>`."
-msgstr "Вспомогательный класс 2D геометрии."
+msgstr ":ref:`2D geometry вспомогательный класс <class_Geometry2D>`."
 
 msgid "2D physics"
 msgstr "2D физика"
@@ -434,9 +430,8 @@ msgstr ""
 msgid "Rigid bodies."
 msgstr "Жёсткие тела (rigid bodies)."
 
-#, fuzzy
 msgid "Character bodies."
-msgstr "Статические тела."
+msgstr "Тела персонажей."
 
 msgid "Joints."
 msgstr "Суставы."
@@ -497,7 +492,6 @@ msgstr ""
 "Поддерживает режимы затенения Lambert, Lambert Wrap (half-Lambert), Oren-"
 "Nayar и Toon."
 
-#, fuzzy
 msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
 msgstr ""
 "Поддерживает режимы Schlick-GGX, Blinn, Phong, Toon и отключенный specular "
@@ -520,36 +514,31 @@ msgstr "Карты нормалей."
 msgid ""
 "Parallax/relief mapping with automatic level of detail based on distance."
 msgstr ""
-"*GLES3:* Карты parallax/relief с автоматическим определением уровня "
-"детализации в зависимости от расстояния (LOD)."
+"Карты параллакса/рельефа с автоматическим определением уровня детализации в "
+"зависимости от расстояния (LOD)."
 
 msgid "Detail mapping for the albedo and normal maps."
 msgstr "Детальное отображение для карт альбедо и нормалей."
 
-#, fuzzy
 msgid "Sub-surface scattering and transmittance."
-msgstr "*GLES3:* Подповерхностное рассеяние и пропускание."
+msgstr "Подповерхностное рассеивание и пропускание."
 
-#, fuzzy
 msgid ""
 "Screen-space refraction with support for material roughness (resulting in "
 "blurry refraction)."
 msgstr ""
-"*GLES3:* преломление с поддержкой шероховатости материала (что приводит к "
-"размытому преломлению). На GLES2 рефракция все еще функциональна, но не "
-"имеет поддержки шероховатости материала."
+"Преломление пространства экрана с поддержкой шероховатости материала (что "
+"приводит к размытому преломлению)."
 
-#, fuzzy
 msgid "Proximity fade (soft particles) and distance fade."
-msgstr "*GLES3:* Proximity fade (мягкие частицы)."
+msgstr "Затухание близости (мягкие частицы) и затухание расстояния."
 
-#, fuzzy
 msgid ""
 "Distance fade can use alpha blending or dithering to avoid going through the "
 "transparent pipeline."
 msgstr ""
-"Уменьшение расстояния, при котором можно использовать альфа-смешение или "
-"сглаживание, чтобы избежать прохождения прозрачного конвейера."
+"Затухание дальности может использовать дизеринг или сглаживание для "
+"избежания прохождения конвейера прозрачности."
 
 msgid "Dithering can be determined on a per-pixel or per-object basis."
 msgstr ""
@@ -626,14 +615,15 @@ msgstr ""
 "*OmniLight:* Двойной параболоид (быстрый) или кубическая карта (медленнее, "
 "но точнее). Поддерживает цветные текстуры проектора в виде панорам."
 
-#, fuzzy
 msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr "*SpotLight:* Одна текстура."
+msgstr "*SpotLight:* Одна текстура. Поддерживает цветную проекцию текстур."
 
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "
 "visible shadow acne and peter-panning."
 msgstr ""
+"Смещение нормального смещения тени и панорамирование теней, чтобы уменьшить "
+"количество видимых прыщей в тенях и панорамирования."
 
 msgid ""
 ":abbr:`PCSS (Percentage Closer Soft Shadows)`-like shadow blur based on the "
@@ -665,14 +655,12 @@ msgstr ""
 "и непрямого освещения. Режим запекания можно регулировать в зависимости от "
 "освещённости, что позволяет использовать гибридное облегчённое запекание."
 
-#, fuzzy
 msgid ""
 "Supports lighting dynamic objects using automatic and manually placed probes."
 msgstr ""
-"Поддерживает освещение динамических объектов с помощью автоматической "
-"системы на основе октодерева. Установка датчика вручную не требуется."
+"Поддерживает освещение динамических объектов используя автоматические и "
+"ручные датчики."
 
-#, fuzzy
 msgid ""
 "Optionally supports directional lighting and rough reflections based on "
 "spherical harmonics."
@@ -788,7 +776,6 @@ msgstr ""
 "При использовании рендерера Forward Mobile, на один меш могут отображаться "
 "до восьми Reflection Probe."
 
-#, fuzzy
 msgid "**Decals:**"
 msgstr "**Возможности:**"
 
@@ -827,6 +814,13 @@ msgid ""
 msgstr ""
 "Поддержка ближайшей, билинейной, трилинейной или анизотропной фильтрации "
 "текстур (настраивается глобально)."
+
+#, fuzzy
+msgid ""
+"Optional distance fade system to fade distant decals, improving performance."
+msgstr ""
+"Система опционального затухания на дистанции обеспечивает затухание далёкого "
+"света, а также теней, созданных им, улучшает производительность."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -890,9 +884,8 @@ msgstr ""
 "Поддержка автоматического изменения цвета тумана в зависимости от цвета неба "
 "(aerial perspective)."
 
-#, fuzzy
 msgid "Support for sun scattering in the fog."
-msgstr "Поддержка плагинов визуальных шейдеров."
+msgstr "Поддержка рассеивания солнца в тумане."
 
 msgid ""
 "Support for controlling how much fog rendering should affect the sky, with "
@@ -992,8 +985,8 @@ msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
 msgstr ""
-"*GLES3:* Автоматическая регулировка экспозиции в зависимости от яркости "
-"области просмотра."
+"Автоматическая регулировка экспозиции в зависимости от яркости области "
+"просмотра (и ручного переопределения)."
 
 msgid ""
 "Near and far depth of field with adjustable bokeh simulation (box, hexagon, "
@@ -1002,19 +995,19 @@ msgstr ""
 "Глубина резкости вблизи и вдали с настраиваемой имитацией боке (коробка, "
 "шестиугольник, круг)."
 
-#, fuzzy
 msgid "Screen-space ambient occlusion (SSAO) at half or full resolution."
 msgstr ""
-"*GLES3:* Преграждение окружающего света в экранном пространстве (SSAO)."
+"Окружающая окклюзия экранного пространства (SSAO) при половинном или полном "
+"разрешении."
 
 #, fuzzy
 msgid ""
 "Glow/bloom with optional bicubic upscaling and several blend modes "
 "available: Screen, Soft Light, Add, Replace, Mix."
 msgstr ""
-"Свечение/блум c возможным увеличением разрешения и несколькими доступными "
-"режимами смешения: Screen (Экран), Soft Light (Мягкий свет), Add (Добавить), "
-"Replace (Заменить)."
+"Свечение/блум c возможностью бикубического апскейлинга и несколькими "
+"доступными режимами смешения: Screen (Экран), Soft Light (Мягкий свет), Add "
+"(Добавить), Replace (Заменить), Mix (Смешивание)."
 
 #, fuzzy
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
@@ -1033,7 +1026,7 @@ msgstr ""
 msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
 msgstr ""
 "Коррекция цвета с использованием одномерной рамп-функции (линейно-временной "
-"функции)."
+"функции) или текстуры 3D LUT."
 
 msgid "Roughness limiter to reduce the impact of specular aliasing."
 msgstr ""
@@ -1062,18 +1055,14 @@ msgid "Basis Universal (slow, but results in smaller files)."
 msgstr ""
 "Basis Universal (медленно, но позволяет получить файлы меньшего размера)."
 
-#, fuzzy
 msgid "BPTC for high-quality compression (not supported on macOS)."
-msgstr ""
-"*GLES3:* BPTC для высококачественного сжатия (не поддерживается на macOS)."
+msgstr "BPTC для высококачественного сжатия (не поддерживается на macOS)."
 
-#, fuzzy
 msgid "ETC2 (not supported on macOS)."
-msgstr "*GLES3:* ETC2 (не поддерживается на macOS)."
+msgstr "ETC2 (не поддерживается на macOS)."
 
-#, fuzzy
 msgid "S3TC (not supported on mobile/Web platforms)."
-msgstr "*GLES3:* S3TC (поддерживается лишь на настольных компьютерах)."
+msgstr "S3TC (не поддерживается на мобильных/Web платформах)."
 
 msgid "**Anti-aliasing:**"
 msgstr "**Сглаживание:**"
@@ -1114,7 +1103,6 @@ msgstr ""
 "Альфа-сглаживание, альфа-сглаживание MSAA для покрытия и альфа-хэширование "
 "на основе каждого материала."
 
-#, fuzzy
 msgid "**Resolution scaling:**"
 msgstr "**Масштабирование разрешения:**"
 
@@ -1151,9 +1139,10 @@ msgid ""
 "further improve quality. This can be helpful when :ref:`using Godot for "
 "offline rendering <doc_creating_movies>`."
 msgstr ""
-"Большинство этих эффектов можно отрегулировать для улучшения "
-"производительности или дальнейшего повышения качества. Это может быть "
-"полезно при использовании Godot для оффлайн рендеринга."
+"Большинство перечисленных выше эффектов можно отрегулировать для повышения "
+"производительности или дальнейшего улучшения качества. Это может быть "
+"полезно при :ref:`использовании Godot для оффлайн рендеринга "
+"<doc_creating_movies>`."
 
 msgid "3D tools"
 msgstr "3D инструменты"
@@ -1164,7 +1153,7 @@ msgid ""
 "torus, ribbon, tube."
 msgstr ""
 "Встроенные сетки: куб, цилиндр/конус, (полу)сфера, призма, плоскость, "
-"четырёхугольник."
+"четырёхугольник, тор, лента, труба."
 
 msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
 msgstr ""
@@ -1191,13 +1180,15 @@ msgstr "Узел PathFollow3D, чтобы заставить узлы следо
 
 #, fuzzy
 msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
-msgstr "Вспомогательный класс 3D геометрии."
+msgstr ":ref:`Вспомогательный класс 3D геометрии <class_Geometry3D>`."
 
 #, fuzzy
 msgid ""
 "Support for exporting the current scene as a glTF 2.0 file, both from the "
 "editor and at run-time from an exported project."
-msgstr "Поддержка экспорта текущей сцены как glTF 2.0 файла из редактора."
+msgstr ""
+"Поддержка экспорта текущей сцены как glTF 2.0 файла, прямо из редактора и во "
+"время выполнения из экспортированного проекта."
 
 msgid "3D physics"
 msgstr "3D физика"
@@ -1213,11 +1204,12 @@ msgstr "Sоft bodies."
 msgid "Ragdolls."
 msgstr "Система Ragdolls."
 
-#, fuzzy
 msgid ""
 "Built-in shapes: cuboid, sphere, capsule, cylinder, world boundary (infinite "
 "plane)."
-msgstr "Встроенные формы: куб, сфера, капсула, цилиндр."
+msgstr ""
+"Встроенные формы: кубоид, сфера, капсула, цилиндр, граница мира (бесконечная "
+"плоскость)."
 
 msgid "Generate triangle collision shapes for any mesh from the editor."
 msgstr "Создание треугольных форм столкновения для любой сетки из редактора."
@@ -1270,11 +1262,10 @@ msgid ""
 msgstr ""
 "Поддержка :ref:`межъязыковых сценариев <doc_cross_language_scripting>`."
 
-#, fuzzy
 msgid ""
 "Many 2D, 3D and 4D linear algebra data types such as vectors and transforms."
 msgstr ""
-"Многие типы данных 2D и 3D линейной алгебры, такие как векторы и "
+"Многие типы данных 2D, 3D и 4D линейной алгебры, такие как векторы и "
 "трансформации."
 
 msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
@@ -1312,9 +1303,8 @@ msgstr ""
 msgid "Supports .NET 6 and higher."
 msgstr "Поддерживает .NET 6 и выше."
 
-#, fuzzy
 msgid "Full support for the C# 10.0 syntax and features."
-msgstr "Полная поддержка синтаксиса и возможностей C# 7.0."
+msgstr "Полная поддержка C# 10.0 синтаксиса и возможностей."
 
 msgid ""
 "Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
@@ -1349,9 +1339,8 @@ msgstr ""
 "Для использования функциональных возможностей IDE рекомендуется использовать "
 "внешний редактор."
 
-#, fuzzy
 msgid "**GDExtension (C, C++, Rust, D, ...):**"
-msgstr "**GDNative (C, C++, Rust, D, ..):**"
+msgstr "**GDExtension (C, C++, Rust, D, ...):**"
 
 msgid ""
 "When you need it, link to native libraries for higher performance and third-"
@@ -1419,11 +1408,11 @@ msgstr ""
 
 #, fuzzy
 msgid "Support for random volume and pitch."
-msgstr "Поддержка плагинов визуальных шейдеров."
+msgstr "Поддержка случайной громкости и высоты тона."
 
 #, fuzzy
 msgid "Support for real-time pitch scaling."
-msgstr "Поддержка плагинов визуальных шейдеров."
+msgstr "Поддержка масштабирования тона в реальном времени."
 
 msgid ""
 "Support for sequential/random sample selection, including repetition "
@@ -1443,8 +1432,7 @@ msgstr ""
 msgid ""
 "Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
 msgstr ""
-"Инструменты для :ref:`генерации процедурной геометрии "
-"<doc_procedural_geometry>`."
+"Поддержка :ref:`процедурной генерации звука <class_AudioStreamGenerator>`."
 
 msgid "Audio input to record microphones."
 msgstr "Аудиовход для записи микрофонов."
@@ -1479,7 +1467,7 @@ msgstr "**Форматы:**"
 
 #, fuzzy
 msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr "*Изображения:* Cмотреть :ref:`doc_import_images`."
+msgstr "*Изображения:* Cмотреть :ref:`doc_importing_images`."
 
 msgid "*Audio:*"
 msgstr "*Аудио:*"
@@ -1495,7 +1483,7 @@ msgstr "MP3."
 
 #, fuzzy
 msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr "*Изображения:* Cмотреть :ref:`doc_import_images`."
+msgstr "*3D сцены:* Cмотреть :ref:`doc_importing_3d_scenes`."
 
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2.0 *(рекомендуется)*."
@@ -1520,15 +1508,14 @@ msgid ""
 "imported as a 3D scene)."
 msgstr ""
 "Wavefront OBJ (только статические сцены, могут быть загружены "
-"непосредственно как сетка)."
+"непосредственно как сетка или импортированы как 3D-сцена)."
 
-#, fuzzy
 msgid ""
 "Support for loading glTF 2.0 scenes at run-time, including from an exported "
 "project."
 msgstr ""
-"Генерируйте навигационные сетки в редакторе или во время выполнения (включая "
-"из экспортированного проекта)."
+"Поддержка загрузки сцен glTF 2.0 во время выполнения, в том числе из "
+"экспортированного проекта."
 
 msgid ""
 "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
@@ -1542,13 +1529,12 @@ msgstr ""
 msgid "Input"
 msgstr "Вход"
 
-#, fuzzy
 msgid ""
 ":ref:`Input mapping system <doc_input_examples>` using hardcoded input "
 "events or remappable input actions."
 msgstr ""
-"Система сопоставления ввода с использованием жёстко запрограммированных "
-"событий ввода или переназначаемых действий ввода."
+":ref:`Система сопоставления ввода <doc_input_examples>` с использованием "
+"жёстко запрограммированных событий ввода или переназначаемых действий ввода."
 
 msgid ""
 "Axis values can be mapped to two different actions with a configurable "
@@ -1621,21 +1607,26 @@ msgstr "Сеть"
 msgid ""
 "Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
 "`class_TCPServer`."
-msgstr "Низкоуровневая сеть TCP с использованием StreamPeer и TCP_Server."
+msgstr ""
+"Низкоуровневая сеть TCP с использованием :ref:`class_StreamPeer`и :ref:"
+"`class_TCPServer`."
 
 #, fuzzy
 msgid ""
 "Low-level UDP networking using :ref:`class_PacketPeer` and :ref:"
 "`class_UDPServer`."
-msgstr "Низкоуровневая сеть UDP с использованием PacketPeer и UDPServer."
+msgstr ""
+"Низкоуровневая сеть UDP с использованием :ref:`class_PacketPeer` и :ref:"
+"`class_UDPServer`."
 
 #, fuzzy
 msgid "Low-level HTTP requests using :ref:`class_HTTPClient`."
-msgstr "Низкоуровневые HTTP-запросы с использованием HTTPClient."
+msgstr "Низкоуровневые HTTP-запросы с использованием :ref:`class_HTTPClient`."
 
 #, fuzzy
 msgid "High-level HTTP requests using :ref:`class_HTTPRequest`."
-msgstr "Высокоуровневые HTTP-запросы с использованием HTTPRequest."
+msgstr ""
+"Высокоуровневые HTTP-запросы с использованием :ref:`class_HTTPRequest`."
 
 msgid "Supports HTTPS out of the box using bundled certificates."
 msgstr ""
@@ -1645,7 +1636,9 @@ msgstr ""
 msgid ""
 ":ref:`High-level multiplayer <doc_high_level_multiplayer>` API using UDP and "
 "ENet."
-msgstr "Многопользовательский API высокого уровня с использованием UDP и ENet."
+msgstr ""
+":ref:`Высокоуровневый мультиплеерный <doc_high_level_multiplayer>`API с "
+"использованием UDP и ENet."
 
 msgid "Automatic replication using remote procedure calls (RPCs)."
 msgstr ""
@@ -1658,20 +1651,23 @@ msgstr "Поддержка ненадёжных, надёжных и заказ�
 msgid ""
 ":ref:`WebSocket <doc_websocket>` client and server, available on all "
 "platforms."
-msgstr "Клиент и сервер WebSocket, доступные на всех платформах."
+msgstr ""
+":ref:`WebSocket <doc_websocket>` клиент и сервер, доступные на всех "
+"платформах."
 
 #, fuzzy
 msgid ""
 ":ref:`WebRTC <doc_webrtc>` client and server, available on all platforms."
-msgstr "Клиент и сервер WebRTC, доступные на всех платформах."
+msgstr ""
+":ref:`WebRTC <doc_webrtc>` клиент и сервер, доступные на всех платформах."
 
 #, fuzzy
 msgid ""
 "Support for :ref:`UPnP <class_UPNP>` to sidestep the requirement to forward "
 "ports when hosting a server behind a NAT."
 msgstr ""
-"Поддержка UPnP для обхода требования пересылки портов при размещении сервера "
-"за NAT."
+"Поддержка :ref:`UPnP <class_UPNP>` для обхода требования пересылки портов "
+"при размещении сервера за NAT."
 
 msgid "Internationalization"
 msgstr "Интернационализация"
@@ -1689,7 +1685,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Support for generating gettext POT and PO files from the editor."
-msgstr "Поддержка экспорта текущей сцены как glTF 2.0 файла из редактора."
+msgstr "Поддержка генерации gettext POT и PO файлов из редактора."
 
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
@@ -1771,7 +1767,9 @@ msgstr "Интеграция глобального меню в macOS."
 msgid ""
 "Execute commands in a blocking or non-blocking manner (including running "
 "multiple instances of the same project)."
-msgstr "Выполнять команды блокирующим или неблокирующим образом."
+msgstr ""
+"Выполнять команды блокирующим или неблокирующим образом (включая запуск "
+"нескольких экземпляров одного и того же проекта)."
 
 msgid ""
 "Open file paths and URLs using default or custom protocol handlers (if "
@@ -1819,7 +1817,8 @@ msgid ""
 "Including support for popular desktop headsets like the Valve Index, WMR "
 "headsets, and Quest over Link."
 msgstr ""
-"Включает поддержку популярных гарнитур, таких как Meta Quest и Valve Index."
+"Включает поддержку популярных настольных гарнитур, таких как Valve Index, "
+"WMR гарнитуры и Quest over Link."
 
 msgid ""
 "Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
@@ -1833,7 +1832,8 @@ msgid ""
 "Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
 "and Pro, Pico 4, Magic Leap 2, and Lynx R1."
 msgstr ""
-"Включает поддержку популярных гарнитур, таких как Meta Quest и Valve Index."
+"Включает поддержку популярных автономных гарнитур, таких как Meta Quest "
+"1/2/3 и Pro, Pico 4, Magic Leap 2, и Lynx R1."
 
 msgid "Other devices supported through an XR plugin structure."
 msgstr "Другие устройства, поддерживаемые через структуру плагинов XR."
@@ -1879,7 +1879,8 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Dropdown menus using :ref:`class_PopupMenu` and :ref:`class_OptionButton`."
-msgstr "Выпадающие меню с помощью PopupMenu и OptionButton."
+msgstr ""
+"Выпадающие меню с помощью :ref:`class_PopupMenu` и :ref:`class_OptionButton`."
 
 msgid "Scrollbars."
 msgstr "Полосы прокрутки."
@@ -1893,7 +1894,8 @@ msgid ""
 "<doc_bbcode_in_richtextlabel>`, with support for animated custom effects."
 msgstr ""
 "RichTextLabel для :ref:`текста, отформатированного с использованием BBCode "
-"<doc_bbcode_in_richtextlabel>`."
+"<doc_bbcode_in_richtextlabel>`, с поддержкой анимированных пользовательских "
+"эффектов."
 
 msgid "Trees (can also be used to represent tables)."
 msgstr "Деревья (также могут использоваться для представления таблиц)."
@@ -1926,7 +1928,9 @@ msgstr ":ref:`Grid <class_GridContainer>`-компоновка."
 #, fuzzy
 msgid ""
 ":ref:`Flow <class_FlowContainer>` layouts (similar to autowrapping text)."
-msgstr ":ref:`Stack <class_BoxContainer>`-компоновка."
+msgstr ""
+":ref:`Flow <class_FlowContainer>`-компоновка (аналогично автоматическому "
+"переносу текста)."
 
 #, fuzzy
 msgid ""
@@ -1934,8 +1938,9 @@ msgid ""
 "<class_CenterContainer>` and :ref:`aspect ratio "
 "<class_AspectRatioContainer>` layouts."
 msgstr ""
-":ref:`Margin <class_MarginContainer>` и :ref:`centered "
-"<class_CenterContainer>`-компоновка."
+":ref:`Margin <class_MarginContainer>`, :ref:`centered "
+"<class_CenterContainer>`и :ref:`aspect ratio <class_AspectRatioContainer>` -"
+"компоновка."
 
 msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
 msgstr "Макеты :ref:`Переносимого разделителя <class_SplitContainer>`."
@@ -1945,8 +1950,8 @@ msgid ""
 "Scale to :ref:`multiple resolutions <doc_multiple_resolutions>` using the "
 "``canvas_items`` or ``viewport`` stretch modes."
 msgstr ""
-"Масштабирование до нескольких разрешений с помощью режимов растяжения ``2d`` "
-"или ``viewport``."
+"Масштабирование до :ref:`нескольких разрешений <doc_multiple_resolutions>` с "
+"помощью ``canvas_items`` или ``viewport`` режимов растяжения."
 
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
@@ -2019,10 +2024,10 @@ msgid "Binary formats are faster to save/load for large scenes/resources."
 msgstr ""
 "Двоичные форматы быстрее сохранять/загружать для больших сцен/ресурсов."
 
-#, fuzzy
 msgid "Read and write text or binary files using :ref:`class_FileAccess`."
 msgstr ""
-"Чтение и запись текстовых или двоичных файлов с помощью :ref:`class_File`."
+"Чтение и запись текстовых или двоичных файлов с помощью :ref:"
+"`class_FileAccess`."
 
 msgid "Can optionally be compressed or encrypted."
 msgstr "При необходимости могут быть сжаты или зашифрованы."
@@ -2118,17 +2123,15 @@ msgstr ""
 "Выведите цветной текст на стандартный вывод на всех платформах, используя :"
 "ref:`print_rich <class_@GlobalScope_method_print_rich>`."
 
-#, fuzzy
 msgid ""
 "Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked "
 "into the engine binary."
 msgstr ""
-"Поддержка :ref:`модулей C++ <doc_custom_modules_in_c++>`, статически "
+"Поддержка :ref:`C++ модулей <doc_custom_modules_in_cpp>`, статически "
 "связанных с двоичным файлом движка."
 
-#, fuzzy
 msgid "Engine and editor written in C++17."
-msgstr "Движок и редактор написаны на C++03."
+msgstr "Движок и редактор написаны на C++17."
 
 msgid ""
 "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, "

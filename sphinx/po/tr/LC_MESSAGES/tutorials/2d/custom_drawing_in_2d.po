@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,9 +220,8 @@ msgid ""
 "Vector2 coordinates) and its color, like this:"
 msgstr ""
 
-#, fuzzy
 msgid "When running it you should see something like this:"
-msgstr "Animasyonun bitmiş hali bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid ""
 "Note the lower part of the logo looks segmented- this is because a low "
@@ -237,9 +236,8 @@ msgid ""
 "order to have a closed shape."
 msgstr ""
 
-#, fuzzy
 msgid "Drawing connected lines"
-msgstr "İçerik oluşturma"
+msgstr ""
 
 msgid ""
 "Drawing a sequence of connected lines that don't close down to form a "
@@ -286,9 +284,8 @@ msgid ""
 "for other constants and ways to define Colors."
 msgstr ""
 
-#, fuzzy
 msgid "Drawing circles"
-msgstr "Çizim"
+msgstr ""
 
 msgid ""
 "To create the eyes, we are going to add 4 additional calls to draw the eye "
@@ -302,9 +299,8 @@ msgid ""
 "center, the second is its radius, and the third is its color:"
 msgstr ""
 
-#, fuzzy
 msgid "When executing it, you should have something like this:"
-msgstr "Animasyonun bitmiş hali bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid ""
 "For partial, unfilled arcs (portions of a circle shape between certain "
@@ -312,9 +308,8 @@ msgid ""
 "<class_CanvasItem_method_draw_arc>`."
 msgstr ""
 
-#, fuzzy
 msgid "Drawing lines"
-msgstr "Çizim"
+msgstr ""
 
 msgid ""
 "To draw the final shape (the nose) we will use a line to approximate it."
@@ -336,9 +331,8 @@ msgid ""
 "<class_CanvasItem_method_draw_multiline>` method."
 msgstr ""
 
-#, fuzzy
 msgid "Drawing text"
-msgstr "Biçimlendirme"
+msgstr ""
 
 msgid ""
 "While using the :ref:`Label <class_Label>` Node is the most common way to "
@@ -358,9 +352,8 @@ msgid ""
 "parameters: font, position, text, horizontal alignment, width, and font size."
 msgstr ""
 
-#, fuzzy
 msgid "You should see the following on your screen:"
-msgstr "Aşağıdaki kodu betiğin içine ekleyin:"
+msgstr ""
 
 msgid ""
 "Additional parameters as well as other methods related to text and "
@@ -442,9 +435,8 @@ msgid ""
 "`sin<class_@globalscope_method_sin>`) curve:"
 msgstr ""
 
-#, fuzzy
 msgid "It will look somewhat like this when run:"
-msgstr "Şimdi sahneniz bunun gibi bir şeye benzemelidir:"
+msgstr ""
 
 msgid ""
 "Please note that ``_mouth_width`` is a user defined property like any other "
@@ -499,15 +491,13 @@ msgid ""
 "top left corner and that obtained position."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The width, color, and position of the starting point can be configured with "
 "with the corresponding properties."
-msgstr "Yol bulmanın sonucu aşağıdaki özelliklerden etkilenebilir."
+msgstr ""
 
-#, fuzzy
 msgid "It should look like this when run:"
-msgstr "Son halinde bunun gibi görünmelidir:"
+msgstr ""
 
 msgid "Drawing an arc between 2 points"
 msgstr ""

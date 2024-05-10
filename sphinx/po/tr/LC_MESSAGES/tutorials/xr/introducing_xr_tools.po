@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Introducing XR tools"
-msgstr "Dışa aktarımlara giriş"
+msgstr ""
 
 msgid ""
 "Out of the box Godot gives you all the basic support to setup an XR project. "
@@ -50,9 +49,8 @@ msgid ""
 "once Godot XR Tools becomes available for Godot 4 through the asset library."
 msgstr ""
 
-#, fuzzy
 msgid "Installing XR Tools"
-msgstr "Eklentileri kurmak"
+msgstr ""
 
 msgid ""
 "Continuing on from our project we started in :ref:`doc_setting_up_xr` we "
@@ -80,9 +78,8 @@ msgid ""
 "the ``Plugins`` tab and enable the plugin."
 msgstr ""
 
-#, fuzzy
 msgid "Basic hands"
-msgstr "Temel"
+msgstr ""
 
 msgid ""
 "Just to get a feel of things we're going to add a few standard components "
@@ -130,9 +127,8 @@ msgid ""
 "bones. We'll look at how that can be used in another tutorial."
 msgstr ""
 
-#, fuzzy
 msgid "We repeat the same for the right hand."
-msgstr "Sprite içinden Timer 'a bir başvuru almak."
+msgstr ""
 
 msgid "More information"
 msgstr "Daha fazla bilgi"

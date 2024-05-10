@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,7 +190,7 @@ msgid "These ports are colored to differentiate type of port:"
 msgstr ""
 
 msgid "scalar"
-msgstr ""
+msgstr "純量"
 
 #, fuzzy
 msgid "vector"
@@ -228,19 +228,19 @@ msgid "Scalar"
 msgstr "縮放"
 
 msgid "Cyan"
-msgstr ""
+msgstr "青色"
 
 msgid "Scalar is a single value."
 msgstr ""
 
 msgid "|scalar|"
-msgstr ""
+msgstr "|純量|"
 
 msgid "Vector"
 msgstr "向量 Vector"
 
 msgid "Purple"
-msgstr ""
+msgstr "紫色"
 
 msgid "Vector is a set of values."
 msgstr ""
@@ -254,7 +254,7 @@ msgid "Boolean"
 msgstr "boolean"
 
 msgid "Blue"
-msgstr ""
+msgstr "藍色"
 
 msgid "On or off, true or false."
 msgstr ""
@@ -283,7 +283,7 @@ msgid "Sampler"
 msgstr "Sampler2D"
 
 msgid "Yellow"
-msgstr ""
+msgstr "黃色"
 
 msgid "A texture sampler. It can be used to sample textures."
 msgstr ""

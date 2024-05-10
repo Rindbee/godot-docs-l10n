@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,13 +41,10 @@ msgstr ""
 msgid "References:"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/object/object.h <https://github.com/godotengine/godot/blob/master/core/"
 "object/object.h>`__"
 msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/3.x/core/object."
-"h>`__"
 
 msgid "Registering an Object"
 msgstr ""
@@ -107,13 +104,10 @@ msgid ""
 "a string passing the name can be passed for brevity."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/object/class_db.h <https://github.com/godotengine/godot/blob/master/"
 "core/object/class_db.h>`__"
 msgstr ""
-"`core/class_db.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"class_db.h>`__"
 
 msgid "Constants"
 msgstr "Sabitler"
@@ -260,13 +254,10 @@ msgid ""
 "templates point to it."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
 "core/object/ref_counted.h>`__"
 msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/3.x/core/object."
-"h>`__"
 
 msgid "Resources"
 msgstr "Kaynaklar"
@@ -283,13 +274,10 @@ msgstr ""
 msgid "Resources without a path are fine too."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/io/resource.h <https://github.com/godotengine/godot/blob/master/core/"
 "io/resource.h>`__"
 msgstr ""
-"`core/resource.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"resource.h>`__"
 
 msgid "Resource loading"
 msgstr ""
@@ -306,13 +294,10 @@ msgstr ""
 msgid "resourceinteractiveloader (TODO)"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/io/resource_loader.h <https://github.com/godotengine/godot/blob/master/"
 "core/io/resource_loader.h>`__"
 msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
 
 msgid "Resource saving"
 msgstr ""
@@ -327,13 +312,10 @@ msgid ""
 "someresource.res::1``. This also helps to cache them when loaded."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/"
 "core/io/resource_saver.h>`__"
 msgstr ""
-"`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/3.x/"
-"core/io/resource_saver.h>`__"
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

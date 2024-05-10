@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,9 +20,8 @@ msgstr ""
 msgid "Variable rate shading"
 msgstr ""
 
-#, fuzzy
 msgid "What is variable rate shading?"
-msgstr "İkiye ayırma nedir?"
+msgstr ""
 
 msgid ""
 "In modern 3D rendering engines, shaders are much more complex compared to "
@@ -79,9 +78,8 @@ msgid ""
 "performance)"
 msgstr ""
 
-#, fuzzy
 msgid "Hardware support"
-msgstr "Tarayıcı desteği"
+msgstr ""
 
 msgid "Variable rate shading is only supported on specific GPUs:"
 msgstr ""
@@ -103,9 +101,8 @@ msgstr ""
 msgid "Intel integrated graphics do not support variable rate shading."
 msgstr ""
 
-#, fuzzy
 msgid "**Mobile SoCs:**"
-msgstr "**mobil**"
+msgstr ""
 
 msgid "Snapdragon 888 and newer"
 msgstr ""
@@ -163,9 +160,8 @@ msgid ""
 "`command line argument <doc_command_line_tutorial>`."
 msgstr ""
 
-#, fuzzy
 msgid "Creating a VRS density map"
-msgstr "Yeni bir betik oluşturmak"
+msgstr ""
 
 msgid ""
 "If using the **Texture** VRS mode, you *must* set a texture to be used as a "
@@ -181,9 +177,8 @@ msgid ""
 "the performance gains from VRS."
 msgstr ""
 
-#, fuzzy
 msgid "The texture must follow these rules:"
-msgstr "Bu metnin tamamı şöyledir:"
+msgstr ""
 
 msgid ""
 "The texture *must* use a lossless compression format so that colors can be "
@@ -304,9 +299,8 @@ msgid ""
 "low, or textures will appear grainy."
 msgstr ""
 
-#, fuzzy
 msgid "Performance comparison"
-msgstr "Performans izleme araçları."
+msgstr ""
 
 msgid ""
 "To give an idea of how much VRS can improve performance in theory, here's a "
@@ -318,21 +312,17 @@ msgid ""
 "Results were captured on a GeForce RTX 4090 with the NVIDIA 525.60.11 driver."
 msgstr ""
 
-#, fuzzy
 msgid "Resolution"
-msgstr "Kaynak seçenekleri"
+msgstr ""
 
-#, fuzzy
 msgid "VRS disabled"
-msgstr "Devre Dışı"
+msgstr ""
 
-#, fuzzy
 msgid "VRS enabled"
-msgstr "Etkin"
+msgstr ""
 
-#, fuzzy
 msgid "Performance improvement"
-msgstr "Performans izleme araçları."
+msgstr ""
 
 msgid "1920×1080 (Full HD)"
 msgstr ""

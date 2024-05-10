@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -605,7 +605,7 @@ msgid "additive"
 msgstr "аддитивный (additive)"
 
 msgid "**+, -**"
-msgstr ""
+msgstr "**+, -**"
 
 msgid "5"
 msgstr "5"
@@ -614,7 +614,7 @@ msgid "bit-wise shift"
 msgstr "побитовый сдвиг"
 
 msgid "**<<, >>**"
-msgstr ""
+msgstr "**<<, >>**"
 
 msgid "6"
 msgstr "6"
@@ -623,7 +623,7 @@ msgid "relational"
 msgstr "реляционный (relational)"
 
 msgid "**<, >, <=, >=**"
-msgstr ""
+msgstr "**<, >, <=, >=**"
 
 msgid "7"
 msgstr "7"
@@ -632,7 +632,7 @@ msgid "equality"
 msgstr "равенства (equality)"
 
 msgid "**==, !=**"
-msgstr ""
+msgstr "**==, !=**"
 
 msgid "8"
 msgstr "8"
@@ -968,7 +968,7 @@ msgid "Used as color."
 msgstr "Используется как цвет."
 
 msgid "**int, float**"
-msgstr ""
+msgstr "**int, float**"
 
 msgid "hint_range(min, max[, step])"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Compiling for Android"
-msgstr ""
+msgstr "Компиляция для Android"
 
 msgid ""
 "This page describes how to compile Android export template binaries from "
 "source. If you're looking to export your project to Android instead, read :"
 "ref:`doc_exporting_for_android`."
 msgstr ""
+"Эта страница описывает, как скомпилировать \"шаблон экспорта\" Android из "
+"исходных файлов. Если вы хотите экспортировать свой проект в Android, "
+"читайте :ref:`doc_exporting_for_android`."
 
 msgid "Note"
 msgstr "Примечание"
@@ -34,18 +37,24 @@ msgid ""
 "enough. Compiling the Android APK manually is mostly useful for custom "
 "builds or custom packages for the deployer."
 msgstr ""
+"В большинстве случаев достаточно использовать встроенный шаблоны экспорта. "
+"Компиляция Android APK вручную полезна в основном для пользовательских "
+"сборок."
 
 msgid ""
 "Also, you still need to follow the steps mentioned in the :ref:"
 "`doc_exporting_for_android` tutorial before attempting to build a custom "
 "export template."
 msgstr ""
+"Кроме того, перед тем как приступить к созданию шаблона экспорта, необходимо "
+"выполнить шаги, описанные в руководстве :ref:`doc_exporting_for_android`."
 
 msgid "Requirements"
 msgstr "Требования"
 
 msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr ""
+"Для компиляции на системах Windows, Linux или macOS необходимо следующее:"
 
 #, fuzzy
 msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
@@ -60,37 +69,33 @@ msgid ""
 "(command-line tools are sufficient)."
 msgstr ""
 "`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
-"(достаточно инструментов командной строки)."
+"(достаточно лишь \"command-line tools\")."
 
-#, fuzzy
 msgid "Required SDK components will be automatically installed."
-msgstr "Теперь ваш проект будет автоматически подписан при экспорте."
+msgstr "Необходимые компоненты SDK будут установлены автоматически."
 
-#, fuzzy
 msgid "On Linux,"
-msgstr "Linux"
+msgstr "На Linux,"
 
-#, fuzzy
 msgid ""
 "**do not use an Android SDK provided by your distribution's repositories as "
 "it will often be outdated**."
 msgstr ""
-"Если вы используете Linux, **не используйте Android SDK, предоставляемый "
-"репозиториями вашего дистрибутива, поскольку он часто будет устаревшим**."
+"**Не используйте Android SDK из репозиториев вашего дистрибутива, так как он "
+"часто бывает устаревшим**."
 
 msgid "Gradle (will be downloaded and installed automatically if missing)."
-msgstr ""
+msgstr "Gradle (будет загружен и установлен автоматически, если отсутствует)."
 
 msgid "JDK 17 (either OpenJDK or Oracle JDK)."
-msgstr ""
+msgstr "JDK 17 (либо OpenJDK, либо Oracle JDK)."
 
-#, fuzzy
 msgid ""
 "You can download a build from `ojdkbuild <https://adoptium.net/temurin/"
 "releases/?variant=openjdk17>`_."
 msgstr ""
-"Скачайте и установите `OpenJDK 8 <https://adoptopenjdk.net/index.html?"
-"variant=openjdk8&jvmVariant=hotspot>`__."
+"Вы можете скачать билд из `ojdkbuild <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17>`_."
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -104,7 +109,7 @@ msgstr ""
 "`doc_introduction_to_the_buildsystem`."
 
 msgid "Setting up the buildsystem"
-msgstr ""
+msgstr "Настройка билда"
 
 msgid ""
 "Set the environment variable ``ANDROID_HOME`` to point to the Android SDK. "

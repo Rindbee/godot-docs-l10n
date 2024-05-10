@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,9 +61,8 @@ msgstr ""
 msgid "Required SDK components will be automatically installed."
 msgstr ""
 
-#, fuzzy
 msgid "On Linux,"
-msgstr "Linux"
+msgstr ""
 
 msgid ""
 "**do not use an Android SDK provided by your distribution's repositories as "
@@ -236,9 +235,8 @@ msgid ""
 "time you build you will automatically have the custom templates referenced."
 msgstr ""
 
-#, fuzzy
 msgid "Building the Godot editor"
-msgstr "Yerleşik tema düzenleyici."
+msgstr ""
 
 msgid ""
 "Compiling the editor is done by calling SCons from the Godot root directory "
@@ -250,17 +248,15 @@ msgid ""
 "android_editor-release.apk``."
 msgstr ""
 
-#, fuzzy
 msgid "Removing the Editor templates"
-msgstr "Düzenleyici özelliklerini yönetmek"
+msgstr ""
 
 msgid ""
 "You can use the following commands to remove the generated editor templates:"
 msgstr ""
 
-#, fuzzy
 msgid "Installing the Godot editor"
-msgstr "Tema düzenleyiciyi kullanmak"
+msgstr ""
 
 msgid ""
 "With an Android device with Developer Options enabled, connect the Android "

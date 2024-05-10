@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -183,7 +183,7 @@ msgid ""
 msgstr "Немедленный переход к следующей итерации ``for`` или ``while`` циклов."
 
 msgid "pass"
-msgstr "пропуск"
+msgstr "pass"
 
 msgid ""
 "Used where a statement is required syntactically but execution of code is "
@@ -199,7 +199,7 @@ msgid "Returns a value from a function."
 msgstr "Возвращает значение из функции."
 
 msgid "class"
-msgstr "класс"
+msgstr "class"
 
 #, fuzzy
 msgid "Defines an inner class. See `Inner classes`_."
@@ -229,9 +229,8 @@ msgstr ""
 "Проверяет, расширяет ли переменная данный класс, или принадлежит ли она "
 "данному встроенному типу."
 
-#, fuzzy
 msgid "in"
-msgstr "Найти"
+msgstr "in"
 
 msgid ""
 "Tests whether a value is within a string, array, range, dictionary, or node. "
@@ -304,7 +303,7 @@ msgstr ""
 "Предварительно загружает класс или переменную. См. `Классы как ресурсы`_."
 
 msgid "await"
-msgstr ""
+msgstr "await"
 
 msgid ""
 "Waits for a signal or a coroutine to finish. See `Awaiting for signals or "
@@ -312,7 +311,7 @@ msgid ""
 msgstr ""
 
 msgid "yield"
-msgstr "выход"
+msgstr "yield"
 
 msgid "Previously used for coroutines. Kept as keyword for transition."
 msgstr ""
@@ -372,9 +371,8 @@ msgstr "**Оператор**"
 msgid "**Description**"
 msgstr "**Описание**"
 
-#, fuzzy
 msgid "``(`` ``)``"
-msgstr "``<<`` ``>>``"
+msgstr "``(`` ``)``"
 
 #, fuzzy
 msgid "Grouping (highest priority)"
@@ -732,26 +730,26 @@ msgid "Floating-point number (real)"
 msgstr "Число с плавающей точкой (вещественное число)"
 
 msgid "``\"Hello\"``, ``'Hi'``"
-msgstr "``\"Здравствуй\"``, ``\"Привет!\"``"
+msgstr "``\"Здравствуй\"``, ``'Привет!'``"
 
 msgid "Regular strings"
 msgstr "Обычные строки"
 
 msgid "``\"\"\"Hello\"\"\"``, ``'''Hi'''``"
-msgstr "``\"Здравствуй\"``, ``\"Привет!\"``"
+msgstr "``\"\"\"Здравствуй\"\"\"``, ``'''Привет!'''``"
 
 msgid "Triple-quoted regular strings"
 msgstr "Строки в тройных кавычках"
 
 msgid "``r\"Hello\"``, ``r'Hi'``"
-msgstr "``\"Здравствуй\"``, ``\"Привет\"``"
+msgstr "``r\"Здравствуй\"``, ``r'Привет'``"
 
 #, fuzzy
 msgid "Raw strings"
 msgstr "string"
 
 msgid "``r\"\"\"Hello\"\"\"``, ``r'''Hi'''``"
-msgstr "``\"Здравствуй\"``, ``\"Привет\"``"
+msgstr "``r\"\"\"Здравствуй\"\"\"``, ``r'''Привет'''``"
 
 #, fuzzy
 msgid "Triple-quoted raw strings"
@@ -884,11 +882,12 @@ msgstr "``\\uXXXX``"
 msgid "UTF-32 Unicode codepoint ``XXXXXX`` (hexadecimal, case-insensitive)"
 msgstr "Символ Unicode ``XXXX``(шестнадцатеричный, без учета регистра )"
 
-#, fuzzy
 msgid ""
 "There are two ways to represent an escaped Unicode character above "
 "``0xFFFF``:"
-msgstr "Есть два способа экспортирования проекта на сервер:"
+msgstr ""
+"Есть два способа представить экранированный символ Unicode с кодом выше "
+"``0xFFFF``:"
 
 msgid ""
 "as a `UTF-16 surrogate pair <https://en.wikipedia.org/wiki/"
@@ -937,9 +936,13 @@ msgid ""
 "Annotations affect how the script is treated by external tools and usually "
 "don't change the behavior."
 msgstr ""
+"Аннотации определяют как со скриптом обращаются внешние инструменты и обычно "
+"не меняют его поведение."
 
 msgid "For instance, you can use it to export a value to the editor::"
 msgstr ""
+"Например вы можете использовать эту аннотацию чтобы экспортировать значение "
+"переменной в редактор:"
 
 #, fuzzy
 msgid ""
@@ -961,7 +964,7 @@ msgid ""
 msgstr ""
 
 msgid "Both of these are the same::"
-msgstr ""
+msgstr "Обе записи одинаковы и делают одно и то же:"
 
 msgid "``@onready`` annotation"
 msgstr "Пометка ``@onready``"

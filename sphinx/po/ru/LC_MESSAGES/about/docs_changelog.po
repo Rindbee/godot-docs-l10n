@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,7 @@ msgid ":ref:`doc_upgrading_to_godot_4.2`"
 msgstr ":ref:`doc_converting_glsl_to_godot_shaders`"
 
 msgid "I/O"
-msgstr ""
+msgstr "I/O"
 
 #, fuzzy
 msgid ":ref:`doc_runtime_loading_and_saving`"
@@ -321,11 +321,10 @@ msgstr "Правила и рекомендации для разработчик
 msgid ":ref:`doc_bisecting_regressions`"
 msgstr ":ref:`doc_using_servers`"
 
-#, fuzzy
 msgid ":ref:`doc_editor_and_docs_localization`"
 msgstr ""
 "Дополнительную информацию смотрите здесь: :ref:"
-"`doc_editor_and_docs_localization`."
+"`doc_editor_and_docs_localization`"
 
 #, fuzzy
 msgid ":ref:`doc_introduction_to_editor_development`"
@@ -403,9 +402,8 @@ msgstr ":ref:`doc_visual_shaders`"
 msgid ":ref:`doc_shaders_style_guide`"
 msgstr ":ref:`doc_shading_language`"
 
-#, fuzzy
 msgid ":ref:`doc_debugger_panel`"
-msgstr "GDScript :ref:`отладчик <doc_debugger_panel>`."
+msgstr "GDScript :ref:`отладчик <doc_debugger_panel>`"
 
 #, fuzzy
 msgid ":ref:`doc_creating_script_templates`"
@@ -423,6 +421,8 @@ msgid ""
 ":ref:`doc_gdscript_warning_system` (split from :ref:"
 "`doc_gdscript_static_typing`)"
 msgstr ""
+":ref:`doc_gdscript_warning_system` (отделить от :ref:"
+"`doc_gdscript_static_typing`)"
 
 #, fuzzy
 msgid "User Interface (UI)"

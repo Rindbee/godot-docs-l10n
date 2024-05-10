@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,10 +271,8 @@ msgstr ""
 msgid "*Network*: relates to (lot-level) networking."
 msgstr ""
 
-#, fuzzy
 msgid "*Particles*: particles, particle systems and their editors."
 msgstr ""
-"parçacık sistemi için :ref:`parçacık gölgelendirici <doc_particle_shader>`."
 
 msgid "*Physics*: relates to the physics engine (2D/3D)."
 msgstr ""
@@ -338,15 +336,14 @@ msgstr ""
 msgid "*Dependencies*: describes pull requests that update a dependency file."
 msgstr ""
 
-msgid "*Enhancememnt*: new information to be added in an existing page."
+msgid "*Enhancement*: new information to be added in an existing page."
 msgstr ""
 
 msgid "*Python*: Pull requests that update Python code."
 msgstr ""
 
-#, fuzzy
 msgid "**Area:**"
-msgstr "**Kamera:**"
+msgstr ""
 
 msgid ""
 "*About*: Issues and PRs related to the About section of the documentation "
@@ -378,9 +375,8 @@ msgid ""
 "documentation."
 msgstr ""
 
-#, fuzzy
 msgid "**Content:**"
-msgstr "**Sabit**"
+msgstr ""
 
 msgid ""
 "*Images*: Issues and PRs involving outdated or incorrect images in articles."

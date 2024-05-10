@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,9 +95,8 @@ msgid ""
 "choice. Godot currently supports the following external editors:"
 msgstr ""
 
-#, fuzzy
 msgid "Visual Studio 2022"
-msgstr "Visual Studio"
+msgstr ""
 
 msgid "Visual Studio Code"
 msgstr ""
@@ -185,9 +184,8 @@ msgstr ""
 msgid "While installing Visual Studio, select this workload:"
 msgstr ""
 
-#, fuzzy
 msgid ".NET desktop development"
-msgstr "Düzenleyiciyi geliştirmek"
+msgstr ""
 
 msgid ""
 "Set **Dotnet** -> **Editor** -> **External Editor** to **Visual Studio**."
@@ -270,17 +268,12 @@ msgstr ""
 msgid "For more information, see the :ref:`doc_c_sharp_differences` page."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You need to (re)build the project assemblies whenever you want to see new "
 "exported variables or signals in the editor. This build can be manually "
 "triggered by clicking the **Build** button in the top right corner of the "
 "editor."
 msgstr ""
-"Eğer C# kullanıyorsanız, yeni dışa aktarılan değişkenleri yada sinyalleri "
-"görmek istediğinizde, projeyi (tekrar) derlemeniz gerekir. Bu derlemeyi elle "
-"başlatmak için, düzenleyici penceresinin alt tarafındaki \"Mono\" kelimesine "
-"tıklayıp Mono Paneli'ni açın, ve \"Projeyi Derle\" düğmesine tıklayın."
 
 msgid ""
 "You will also need to rebuild the project assemblies to apply changes in "
@@ -330,9 +323,8 @@ msgid ""
 "releases."
 msgstr ""
 
-#, fuzzy
 msgid "Common pitfalls"
-msgstr "Yorumlar"
+msgstr ""
 
 msgid ""
 "You might encounter the following error when trying to modify some values in "
@@ -423,9 +415,8 @@ msgstr ""
 msgid "Standalone JetBrains dotTrace/dotMemory."
 msgstr ""
 
-#, fuzzy
 msgid "Visual Studio."
-msgstr "Visual Studio"
+msgstr ""
 
 msgid ""
 "Profiling managed and unmanaged code at once is possible with both JetBrains "

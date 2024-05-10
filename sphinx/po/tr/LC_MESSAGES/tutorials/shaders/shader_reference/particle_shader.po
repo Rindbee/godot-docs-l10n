@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,9 +82,8 @@ msgstr ""
 msgid "**collision_use_scale**"
 msgstr ""
 
-#, fuzzy
 msgid "Scale the particle's size for collisions."
-msgstr "Çarpışmalar için hazırlık"
+msgstr ""
 
 msgid "Built-ins"
 msgstr "Yerleşikler"
@@ -295,9 +294,8 @@ msgid ""
 "with the ``COLOR`` variable."
 msgstr ""
 
-#, fuzzy
 msgid "Start built-ins"
-msgstr "Işık yerleşikleri"
+msgstr ""
 
 msgid "in bool **RESTART_POSITION**"
 msgstr ""
@@ -344,9 +342,8 @@ msgid ""
 "``FLAG_EMIT_CUSTOM`` flag)."
 msgstr ""
 
-#, fuzzy
 msgid "Process built-ins"
-msgstr "Genel yerleşikler"
+msgstr ""
 
 msgid "in bool **RESTART**"
 msgstr ""
@@ -382,9 +379,8 @@ msgstr ""
 msgid "A combined force of the attractors at the moment on that particle."
 msgstr ""
 
-#, fuzzy
 msgid "Process functions"
-msgstr "İşlem Kipleri"
+msgstr ""
 
 msgid ""
 "``emit_subparticle`` is currently the only custom function supported by "

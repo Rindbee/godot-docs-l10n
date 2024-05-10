@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D Particle trails"
-msgstr "**Parçacıklar:**"
+msgstr ""
 
-#, fuzzy
 msgid "Particle trails"
-msgstr "**Parçacıklar:**"
+msgstr ""
 
-#, fuzzy
 msgid "Particle trail params"
-msgstr "**Parçacıklar:**"
+msgstr ""
 
-#, fuzzy
 msgid "Setting up particle trails"
-msgstr "Oyun sahasını ayarlamak"
+msgstr ""
 
 msgid ""
 "Godot provides several types of trails you can add to a particle system. "
@@ -53,9 +49,8 @@ msgstr ""
 msgid "Ribbon trails"
 msgstr ""
 
-#, fuzzy
 msgid "Particle ribbon"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid "Important ribbon mesh parameters"
 msgstr ""
@@ -97,9 +92,8 @@ msgid ""
 "total length."
 msgstr ""
 
-#, fuzzy
 msgid "Particle ribbon sections"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid ""
 "3 sections, 1m section length (left) vs. 12 sections, 0.25m section length "
@@ -116,9 +110,8 @@ msgid ""
 "curve's value at ``1.0`` at the trail's tail."
 msgstr ""
 
-#, fuzzy
 msgid "Particle ribbon curves"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid ""
 "Particle trails shaped by different curves. The trails move from left to "
@@ -133,9 +126,8 @@ msgid ""
 "curve more closely."
 msgstr ""
 
-#, fuzzy
 msgid "Particle ribbon segments"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid ""
 "Particle trail shape smoothness: 1 segment per section (top), 12 segments "
@@ -151,9 +143,8 @@ msgid ""
 "of quads."
 msgstr ""
 
-#, fuzzy
 msgid "Particle tube trails"
-msgstr "**Parçacıklar:**"
+msgstr ""
 
 msgid "Tube trails emit cylindrical particles"
 msgstr ""
@@ -168,9 +159,8 @@ msgid ""
 "should now be emitting in long, cylindrical trails."
 msgstr ""
 
-#, fuzzy
 msgid "Particle tube"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid "Important tube mesh parameters"
 msgstr ""
@@ -202,9 +192,8 @@ msgid ""
 "tail."
 msgstr ""
 
-#, fuzzy
 msgid "Particle tubes"
-msgstr "Parçacık düğümleri"
+msgstr ""
 
 msgid ""
 "Particle tube trails with a custom curve shape: 4 radial steps, 3 sections, "
@@ -220,9 +209,8 @@ msgid ""
 "particle trail keeps its Y-axis aligned along the direction of its movement."
 msgstr ""
 
-#, fuzzy
 msgid "Particle tubes aligned"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid ""
 "Particle tube trails without alignment (left) and with Y-axis aligned to "

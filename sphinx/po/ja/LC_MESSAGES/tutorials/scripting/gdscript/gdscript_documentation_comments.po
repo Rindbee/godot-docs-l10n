@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,9 +84,8 @@ msgstr ""
 msgid "``@tutorial(The Title Here):``"
 msgstr ""
 
-#, fuzzy
 msgid "Deprecated"
-msgstr "複製"
+msgstr "非推奨"
 
 #, fuzzy
 msgid "``@deprecated``"
@@ -417,9 +416,8 @@ msgstr "とある [i]italic[/i] テキスト。"
 msgid "Some *italic* text."
 msgstr "とある *italic* テキスト。"
 
-#, fuzzy
 msgid "``[kbd]`` ``[/kbd]``"
-msgstr "\\ [kbd] [/kbd]"
+msgstr "``[kbd]`` ``[/kbd]``"
 
 msgid "Keyboard/mouse shortcut"
 msgstr "キーボードとマウスのショートカット"
@@ -431,9 +429,8 @@ msgstr "とある [kbd]Ctrl + C[/kbd] キー。"
 msgid "Some :kbd:`Ctrl + C` key."
 msgstr "とある :kbd:`Ctrl + C` キー。"
 
-#, fuzzy
 msgid "``[code]`` ``[/code]``"
-msgstr "\\ [code] [/code]"
+msgstr "``[code]`` ``[/code]``"
 
 msgid "Monospace"
 msgstr "モノスペース"
@@ -445,9 +442,8 @@ msgstr "とある [code]monospace[/code] テキスト。"
 msgid "Some ``monospace`` text."
 msgstr "とある ``monospace`` テキスト。"
 
-#, fuzzy
 msgid "``[codeblock]`` ``[/codeblock]``"
-msgstr "\\ [codeblock] [/codeblock]"
+msgstr "``[codeblock]`` ``[/codeblock]``"
 
 msgid "Multiline preformatted block"
 msgstr "マルチラインプリフォーマットブロック"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,9 +110,8 @@ msgid ""
 "to **Enabled** in the Sprite2D's properties."
 msgstr ""
 
-#, fuzzy
 msgid "Point lights"
-msgstr "Ortamsal Işık"
+msgstr ""
 
 msgid ""
 "Point lights (also called positional lights) are the most common element in "
@@ -155,9 +154,8 @@ msgid ""
 "\"neutral\" point light texture (right-click > **Save Image As…**):"
 msgstr ""
 
-#, fuzzy
 msgid "Neutral point light texture"
-msgstr "Dokuları okumak"
+msgstr ""
 
 msgid ""
 "If you need different falloff, you can procedurally create a texture by "
@@ -213,9 +211,8 @@ msgid ""
 "generated from LightOccluder2D nodes present in the scene."
 msgstr ""
 
-#, fuzzy
 msgid "Common light properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "Both PointLight2D and DirectionalLight2D offer common properties, which are "
@@ -267,9 +264,8 @@ msgid ""
 "Mask**. This can be used to prevent certain objects from receiving light."
 msgstr ""
 
-#, fuzzy
 msgid "Setting up shadows"
-msgstr "Projeyi ayarlamak"
+msgstr ""
 
 msgid ""
 "After enabling the **Shadow > Enabled** property on a PointLight2D or "
@@ -304,9 +300,8 @@ msgid ""
 "objects from casting shadows."
 msgstr ""
 
-#, fuzzy
 msgid "There are two ways to create light occluders:"
-msgstr "Bunu yapmanın iki yolu var:"
+msgstr ""
 
 msgid "Automatically generating a light occluder"
 msgstr ""
@@ -369,9 +364,8 @@ msgid ""
 "depending on their respective **Occluder Light Mask** properties."
 msgstr ""
 
-#, fuzzy
 msgid "Hard shadows"
-msgstr "Sert veya yumuşak gölgeler."
+msgstr ""
 
 msgid "Soft shadows (PCF13, Filter Smooth 1.5)"
 msgstr ""
@@ -381,9 +375,8 @@ msgid ""
 "(PCF5, Filter Smooth 4)"
 msgstr ""
 
-#, fuzzy
 msgid "Occluder draw order"
-msgstr "Perdeleyici Düğümler"
+msgstr ""
 
 msgid ""
 "**LightOccluder2Ds follows the usual 2D drawing order.** This is important "

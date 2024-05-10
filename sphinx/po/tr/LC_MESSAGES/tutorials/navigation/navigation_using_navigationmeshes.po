@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using navigation meshes"
-msgstr "NavigationMeshes"
+msgstr ""
 
 msgid ""
 "2D and 3D versions of the navigation mesh are available as :ref:"
@@ -73,9 +72,8 @@ msgstr ""
 msgid "Baking a navigation mesh with a NavigationRegion"
 msgstr ""
 
-#, fuzzy
 msgid "Navigation mesh baking steps"
-msgstr "NavigationMeshes"
+msgstr ""
 
 msgid "Baking a navigation mesh with agent radius offset from geometry."
 msgstr ""
@@ -92,31 +90,28 @@ msgid ""
 "`NavigationRegion3D<class_NavigationRegion3D>` respectively."
 msgstr ""
 
-#, fuzzy
 msgid "Baking with a NavigationRegion2D"
-msgstr "Görünür Gezinti"
+msgstr ""
 
 msgid ""
 "When a NavigationRegion2D node is selected in the Editor, bake options as "
 "well as polygon draw tools appear in the top bar of the Editor."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "In order for the region to work a :ref:"
 "`NavigationPolygon<class_NavigationPolygon>` resource needs to be added."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "The properties to parse and bake a navigation mesh are then part of the used "
 "resource and can be found in the resource Inspector."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The result of the source geometry parsing can be influenced with the "
 "following properties."
-msgstr "Yol bulmanın sonucu aşağıdaki özelliklerden etkilenebilir."
+msgstr ""
 
 msgid ""
 "The ``parsed_geometry_type`` that filters if visual objects or physics "
@@ -140,11 +135,10 @@ msgid ""
 "should be parsed. Depends on the selected ``source_geometry_mode``."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "With the source geometry added, the result of the baking can be controlled "
 "with the following properties."
-msgstr "Yol bulmanın sonucu aşağıdaki özelliklerden etkilenebilir."
+msgstr ""
 
 msgid ""
 "The ``cell_size`` sets the rasterization grid size and should match the "
@@ -162,15 +156,13 @@ msgstr ""
 msgid "To quickly test the 2D baking with default settings:"
 msgstr ""
 
-#, fuzzy
 msgid "Add a :ref:`NavigationRegion2D<class_NavigationRegion2D>`."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
-#, fuzzy
 msgid ""
 "Add a :ref:`NavigationPolygon<class_NavigationPolygon>` resource to the "
 "NavigationRegion2D."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid "Add a :ref:`Polygon2D<class_Polygon2D>` below the NavigationRegion2D."
 msgstr ""
@@ -188,20 +180,18 @@ msgstr ""
 msgid "Hit the Editor bake button and a navigation mesh should appear."
 msgstr ""
 
-#, fuzzy
 msgid "Baking with a NavigationRegion3D"
-msgstr "Görünür Gezinti"
+msgstr ""
 
 msgid ""
 "When a NavigationRegion3D node is selected in the Editor, bake options "
 "appear in the top bar of the Editor."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "In order for the region to work a :ref:"
 "`NavigationMesh<class_NavigationMesh>` resource needs to be added."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "The ``cell_size`` and ``cell_height`` sets the rasterization voxel grid size "
@@ -230,15 +220,13 @@ msgstr ""
 msgid "To quickly test the 3D baking with default settings:"
 msgstr ""
 
-#, fuzzy
 msgid "Add a :ref:`NavigationRegion3D<class_NavigationRegion3D>`."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
-#, fuzzy
 msgid ""
 "Add a :ref:`NavigationMesh<class_NavigationMesh>` resource to the "
 "NavigationRegion3D."
-msgstr ":ref:`NavigationAgent<class_NavigationAgent>`"
+msgstr ""
 
 msgid ""
 "Add a :ref:`MeshInstance3D<class_MeshInstance3D>` below the "
@@ -355,18 +343,16 @@ msgid ""
 "StaticBody2D shape."
 msgstr ""
 
-#, fuzzy
 msgid "Navigation mesh baking common problems"
-msgstr "NavigationMeshes"
+msgstr ""
 
 msgid ""
 "There are some common user problems and important caveats to consider when "
 "creating or baking navigation meshes."
 msgstr ""
 
-#, fuzzy
 msgid "Navigation mesh baking creates frame rate problems at runtime"
-msgstr "NavigationMeshes"
+msgstr ""
 
 msgid ""
 "The navigation mesh baking is by default done on a background thread, so as "
@@ -423,9 +409,8 @@ msgid ""
 "possible so the cells are occupied with something."
 msgstr ""
 
-#, fuzzy
 msgid "Navigation mesh script templates"
-msgstr "Gezinti Vekili, NavigationAgent3D"
+msgstr ""
 
 msgid ""
 "The following script uses the NavigationServer to parse source geometry from "

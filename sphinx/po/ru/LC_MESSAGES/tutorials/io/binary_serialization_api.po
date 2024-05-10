@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +173,7 @@ msgid "15"
 msgstr "15"
 
 msgid "node path"
-msgstr ""
+msgstr "путь к узлу"
 
 msgid "16"
 msgstr "16"
@@ -203,7 +203,7 @@ msgid "20"
 msgstr "20"
 
 msgid "raw array"
-msgstr ""
+msgstr "необработанный массив"
 
 msgid "21"
 msgstr "21"
@@ -237,25 +237,25 @@ msgid "25"
 msgstr "25"
 
 msgid "string array"
-msgstr ""
+msgstr "строковый массив"
 
 msgid "26"
 msgstr "26"
 
 msgid "vector2 array"
-msgstr ""
+msgstr "vector2 массив"
 
 msgid "27"
 msgstr "27"
 
 msgid "vector3 array"
-msgstr ""
+msgstr "vector3 массив"
 
 msgid "28"
 msgstr "28"
 
 msgid "color array"
-msgstr ""
+msgstr "цветовая матрица"
 
 #, fuzzy
 msgid "29"
@@ -281,10 +281,10 @@ msgstr ""
 "использует двойную точность."
 
 msgid "0: null"
-msgstr ""
+msgstr "0: null"
 
 msgid "1: :ref:`bool<class_bool>`"
-msgstr ""
+msgstr "1: :ref:`bool<class_bool>`"
 
 msgid "Offset"
 msgstr "Отступ"
@@ -302,7 +302,7 @@ msgid "0 for False, 1 for True"
 msgstr "0 для False, 1 для True"
 
 msgid "2: :ref:`int<class_int>`"
-msgstr ""
+msgstr "2: :ref:`int<class_int>`"
 
 msgid ""
 "If no flags are set (flags == 0), the integer is sent as a 32 bit integer:"
@@ -352,7 +352,7 @@ msgid "IEEE 754 double-precision float"
 msgstr "IEE 754 32-Битное Число с плавающей точкой"
 
 msgid "4: :ref:`String<class_string>`"
-msgstr ""
+msgstr "4: :ref:`String<class_string>`"
 
 #, fuzzy
 msgid "String length (in bytes)"
@@ -372,7 +372,7 @@ msgid "This field is padded to 4 bytes."
 msgstr "Это поле укладывается в 4 байта."
 
 msgid "5: :ref:`Vector2<class_vector2>`"
-msgstr ""
+msgstr "5: :ref:`Vector2<class_vector2>`"
 
 #, fuzzy
 msgid "X coordinate"
@@ -383,23 +383,23 @@ msgid "Y coordinate"
 msgstr "Координата по оси Y"
 
 msgid "6: :ref:`Rect2<class_rect2>`"
-msgstr ""
+msgstr "6: :ref:`Rect2<class_rect2>`"
 
 msgid "X size"
-msgstr ""
+msgstr "размер Х"
 
 msgid "Y size"
-msgstr ""
+msgstr "Размер Y"
 
 msgid "7: :ref:`Vector3<class_vector3>`"
-msgstr ""
+msgstr "7: :ref:`Vector3<class_vector3>`"
 
 #, fuzzy
 msgid "Z coordinate"
 msgstr "Координата по оси Z"
 
 msgid "8: :ref:`Transform2D<class_transform2d>`"
-msgstr ""
+msgstr "8: :ref:`Transform2D<class_transform2d>`"
 
 msgid "The X component of the X column vector, accessed via [0][0]"
 msgstr ""
@@ -426,7 +426,7 @@ msgstr ""
 "Компонент Y исходного вектора, доступ к которому осуществляется через [2][1]"
 
 msgid "9: :ref:`Plane<class_plane>`"
-msgstr ""
+msgstr "9: :ref:`Plane<class_plane>`"
 
 msgid "Normal X"
 msgstr "Нормаль по оси X"
@@ -457,13 +457,13 @@ msgid "Real W"
 msgstr "Настоящее значение по оси W"
 
 msgid "11: :ref:`AABB<class_aabb>`"
-msgstr ""
+msgstr "11: :ref:`AABB<class_aabb>`"
 
 msgid "Z size"
-msgstr ""
+msgstr "Размер Z"
 
 msgid "12: :ref:`Basis<class_basis>`"
-msgstr ""
+msgstr "12: :ref:`Basis<class_basis>`"
 
 msgid "The Z component of the X column vector, accessed via [0][2]"
 msgstr ""
@@ -517,22 +517,22 @@ msgstr ""
 "Компонент Z исходного вектора, доступ к которому осуществляется через [3][2]"
 
 msgid "14: :ref:`Color<class_color>`"
-msgstr ""
+msgstr "14: :ref:`Color<class_color>`"
 
 msgid "Red (typically 0..1, can be above 1 for overbright colors)"
-msgstr ""
+msgstr "Красный (обычно 0..1, может быть больше 1 для особо ярких цветов)"
 
 msgid "Green (typically 0..1, can be above 1 for overbright colors)"
-msgstr ""
+msgstr "Зеленый (обычно 0..1, может быть больше 1 для особо ярких цветов)"
 
 msgid "Blue (typically 0..1, can be above 1 for overbright colors)"
-msgstr ""
+msgstr "Синий (обычно 0..1, может быть больше 1 для особо ярких цветов)"
 
 msgid "Alpha (0..1)"
 msgstr "Альфа (0..1)"
 
 msgid "15: :ref:`NodePath<class_nodepath>`"
-msgstr ""
+msgstr "15: :ref:`NodePath<class_nodepath>`"
 
 #, fuzzy
 msgid ""
@@ -573,7 +573,7 @@ msgid "Every name string is padded to 4 bytes."
 msgstr "Каждая строка имени уложена в 4 байта."
 
 msgid "16: :ref:`RID<class_rid>` (unsupported)"
-msgstr ""
+msgstr "16: :ref:`RID<class_rid>` (Не поддерживается)"
 
 #, fuzzy
 msgid "17: :ref:`Object<class_object>`"
@@ -666,10 +666,10 @@ msgid ""
 msgstr ""
 
 msgid "18: :ref:`Dictionary<class_dictionary>`"
-msgstr ""
+msgstr "18: :ref:`Dictionary<class_dictionary>`"
 
 msgid "val&0x7FFFFFFF = elements, val&0x80000000 = shared (bool)"
-msgstr ""
+msgstr "val&0x7FFFFFFF = элементы, val&0x80000000 = общий (bool)"
 
 msgid ""
 "Then what follows is, for amount of \"elements\", pairs of key and value, "
@@ -679,7 +679,7 @@ msgstr ""
 "другим, использует тот же формат."
 
 msgid "19: :ref:`Array<class_array>`"
-msgstr ""
+msgstr "19: :ref:`Array<class_array>`"
 
 msgid ""
 "Then what follows is, for amount of \"elements\", values one after the "

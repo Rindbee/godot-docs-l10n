@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "GD0104: The exported property is write-only"
-msgstr ""
+msgstr "GD0104: The exported property is write-only"
 
 msgid "**Rule ID**"
 msgstr "**Regel-ID**"
 
-#, fuzzy
 msgid "GD0104"
-msgstr "GD0107"
+msgstr "GD0104"
 
 msgid "**Category**"
 msgstr "**Kategorie**"
@@ -34,11 +33,10 @@ msgid "Usage"
 msgstr "Verwendung"
 
 msgid "**Fix is breaking or non-breaking**"
-msgstr "**Breaking- oder nicht-Breaking-Fix**"
+msgstr "**Fix führt oder führt nicht zu Kompatibilitätsbruch**"
 
-#, fuzzy
 msgid "Non-breaking"
-msgstr "Breaking"
+msgstr "Kein Kompatibilitätsbruch"
 
 msgid "**Enabled by default**"
 msgstr "**Standardmäßig aktiviert**"
@@ -53,12 +51,14 @@ msgid ""
 "A write-only property is annotated with the ``[Export]`` attribute. Write-"
 "only properties can't be exported."
 msgstr ""
+"Eine lesegeschützte Property ist mit dem Attribut ``[Export]`` annotiert. "
+"Lesegeschützte Propertys können nicht exportiert werden."
 
 msgid "Rule description"
-msgstr "Beschreibung der Regel"
+msgstr "Regelbeschreibung"
 
 msgid "Godot doesn't allow exporting write-only properties."
-msgstr ""
+msgstr "Godot lässt den Export von lesegeschützten Propertys nicht zu."
 
 msgid "How to fix violations"
 msgstr "Wie man Verstöße behebt"
@@ -67,19 +67,20 @@ msgid ""
 "To fix a violation of this rule, make sure the property declares both a "
 "getter and a setter, or remove the ``[Export]`` attribute."
 msgstr ""
+"Um einen Verstoß gegen diese Regel zu beheben, stellen Sie sicher, dass die "
+"Property sowohl einen Getter als auch einen Setter deklariert, oder "
+"entfernen Sie das Attribut ``[Export]``."
 
 msgid "When to suppress warnings"
-msgstr "Wann Warnungen unterdrückt werden sollten"
+msgstr "Wann man Warnungen unterdrücken sollte"
 
-#, fuzzy
 msgid ""
 "Do not suppress a warning from this rule. Write-only members can't be "
 "exported so they will be ignored by Godot, resulting in runtime errors."
 msgstr ""
-"Unterdrücken Sie nicht eine Warnung dieser Regel. Typen, die nicht von "
-"``Node`` ableiten, sind nicht in der Lage, die richtige Node-Instanz für "
-"exportierte ``Node``-Member zu finden, was zu unerwarteten Laufzeitfehlern "
-"führt."
+"Unterdrücken Sie nicht eine Warnung zu dieser Regel. Lesegeschützte Member "
+"können nicht exportiert werden, so dass sie von Godot ignoriert werden, was "
+"zu Laufzeitfehlern führt."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

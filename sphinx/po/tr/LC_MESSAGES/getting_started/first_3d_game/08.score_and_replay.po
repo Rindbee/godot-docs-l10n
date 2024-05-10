@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,9 +36,9 @@ msgid ""
 "the 2D screen, where you can edit your User Interface (UI)."
 msgstr ""
 
-#, fuzzy
 msgid "Add a :ref:`Label <class_Label>` node and name it ``ScoreLabel``"
-msgstr "``ScoreLabel`` isminde bir :ref:`Label <class_Label>` düğümü."
+msgstr ""
+"Bir :ref:`Label <class_Label>` düğümü ekleyin ve adını ``ScoreLabel`` koyun"
 
 msgid "|image1|"
 msgstr "|image1|"
@@ -373,14 +373,10 @@ msgid ""
 "also use it to create globally accessible objects."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Create a new scene by going to the *Scene* menu and clicking *New Scene* or "
 "by using the *+* icon next to your currently opened scene."
 msgstr ""
-"Sol-üstteki Sahne menüsüne gidip *Yeni Sahne* öğesine tıklayarak yeni bir "
-"sahne oluşturun. Kök olarak bir *KinematicBody* düğümü oluşturun ve *Player* "
-"ismini verin."
 
 msgid "|image15|"
 msgstr "|image15|"
@@ -471,9 +467,8 @@ msgid ""
 "to make the game both look and feel much nicer."
 msgstr ""
 
-#, fuzzy
 msgid "Here is the complete ``main.gd`` script for reference."
-msgstr "Tamamlanmış ``Sprite.gd`` dosyası, başvuru amaçlı aşağıda verilmiştir."
+msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

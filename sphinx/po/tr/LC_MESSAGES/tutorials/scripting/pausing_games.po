@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,9 +119,8 @@ msgid ""
 "made active while the game is paused by using their ``set_active`` methods."
 msgstr ""
 
-#, fuzzy
 msgid "Pause menu example"
-msgstr "Duraklatma Menüsü Örnekleri"
+msgstr ""
 
 msgid "Start by creating a button that will be used to pause the game."
 msgstr ""
@@ -145,9 +144,8 @@ msgid ""
 "Inside that method, unpause the game and hide the pause menu."
 msgstr ""
 
-#, fuzzy
 msgid "You should now have a working pause menu."
-msgstr "Sahne sekmeniz şimdi tek bir Sprite düğümü içermelidir."
+msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

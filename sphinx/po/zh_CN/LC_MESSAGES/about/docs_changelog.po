@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,45 +37,38 @@ msgstr ""
 "本文档仅包含新页面，因此并未反映所有更改，许多页面已经大幅更新，但未反映在本"
 "文档中。"
 
-#, fuzzy
 msgid "New pages since version 4.1"
-msgstr "4.0 版本加入的新页面"
+msgstr "4.1 版本加入的新页面"
 
 msgid "C#"
 msgstr "C#"
 
-#, fuzzy
 msgid ":ref:`doc_c_sharp_diagnostics`"
-msgstr ":ref:`doc_c_sharp_variant`"
+msgstr ":ref:`doc_c_sharp_diagnostics`"
 
 msgid "Development"
 msgstr "开发"
 
-#, fuzzy
 msgid ":ref:`doc_2d_coordinate_systems`"
-msgstr ":ref:`doc_large_world_coordinates`"
+msgstr ":ref:`doc_2d_coordinate_systems`"
 
 msgid "Migrating"
 msgstr "迁移"
 
-#, fuzzy
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
-msgstr ":ref:`doc_upgrading_to_godot_4.1`"
+msgstr ":ref:`doc_upgrading_to_godot_4.2`"
 
-#, fuzzy
 msgid "I/O"
-msgstr "IO"
+msgstr "I/O"
 
-#, fuzzy
 msgid ":ref:`doc_runtime_loading_and_saving`"
-msgstr ":ref:`doc_importing_translations`"
+msgstr ":ref:`doc_runtime_loading_and_saving`"
 
 msgid "Platform-specific"
 msgstr "平台相关"
 
-#, fuzzy
 msgid ":ref:`doc_android_library`"
-msgstr ":ref:`doc_android_plugin`"
+msgstr ":ref:`doc_android_library`"
 
 msgid "New pages since version 4.0"
 msgstr "4.0 版本加入的新页面"

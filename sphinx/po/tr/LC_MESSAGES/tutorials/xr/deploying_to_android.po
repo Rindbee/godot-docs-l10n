@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Deploying to Android"
-msgstr "Android için dışa aktarılıyor"
+msgstr ""
 
 msgid "Setup"
 msgstr "Kurulum"
@@ -34,17 +33,14 @@ msgid ""
 "setup your system to export to Android in general, including:"
 msgstr ""
 
-#, fuzzy
 msgid "Installing OpenJDK 17"
-msgstr "OpenJDK 11 yükleyin"
+msgstr ""
 
-#, fuzzy
 msgid "Installing Android Studio"
-msgstr "Android Studio"
+msgstr ""
 
-#, fuzzy
 msgid "Creating a debug.keystore"
-msgstr "Düğüm oluşturmak"
+msgstr ""
 
 msgid "Configuring the location of the Android SDK and debug.keystore in Godot"
 msgstr ""
@@ -54,9 +50,8 @@ msgid ""
 "when you've finished these steps."
 msgstr ""
 
-#, fuzzy
 msgid "Gradle Android build"
-msgstr "Özel klasör"
+msgstr ""
 
 msgid ""
 "Official support for the Android platform wasn't added to the OpenXR "
@@ -81,16 +76,12 @@ msgid ""
 "file browser."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can read more about gradle builds here: :ref:`doc_android_gradle_build`."
 msgstr ""
-"Varlık kütüphanesi hakkında daha fazlasını :ref:`doc_what_is_assetlib` "
-"sayfasında öğrenebilirsiniz."
 
-#, fuzzy
 msgid "Installing the vendors plugin"
-msgstr "Bir eklentiyi kurmak"
+msgstr ""
 
 msgid ""
 "The Android plugin structure has been restructured in Godot 4.2, and the "
@@ -99,42 +90,34 @@ msgid ""
 "delete it from the `android/plugins` folder."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The vendors plugin can be downloaded from the asset library, search for "
 "\"OpenXR vendors\" and install the plugin:"
 msgstr ""
-"Düzenleyicinin işlevselliğini arttırmak için, :ref:`varlık kütüphanesi "
-"<doc_what_is_assetlib>` 'nden düzenleyici eklentileri indirilebilir."
+"Üretici (vendor) eklentisi varlık kütüphanesinden indirilebilir, \"OpenXR "
+"vendors\" için arama yapın ve eklentiyi yükleyin:"
 
 msgid "You will find the installed files inside the **addons** folder."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "Alternatively you can manually install the vendors plugin by downloading the "
 "v2.x version of the plugin `from the release page here <https://github.com/"
 "GodotVR/godot_openxr_vendors/releases>`__."
 msgstr ""
-"Projenin tamamlanmış halini `OpenVR GitHub deposu <https://github.com/"
-"GodotVR/godot_openvr_fps>`__ üzerinde bulabilirsiniz."
 
 msgid ""
 "You will need to copy the `assets/addons/godotopenxrvendors` folder from the "
 "zip file into your projects `addons` folder."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can find the main repository of the vendors plugin `here <https://github."
 "com/GodotVR/godot_openxr_vendors>`__."
 msgstr ""
-"Projenin tamamlanmış halini `OpenVR GitHub deposu <https://github.com/"
-"GodotVR/godot_openvr_fps>`__ üzerinde bulabilirsiniz."
 
-#, fuzzy
 msgid "Enabling the vendors plugin"
-msgstr "Bir eklentiyi kurmak"
+msgstr ""
 
 msgid ""
 "The vendors plugin needs to be enabled before the export settings become "
@@ -142,9 +125,8 @@ msgid ""
 "**Plugins** tab. Enable the **GodotOpenXRVendors** plugin."
 msgstr ""
 
-#, fuzzy
 msgid "Creating the export presets"
-msgstr "Oyuncu sahnesini oluşturmak"
+msgstr ""
 
 msgid ""
 "You will need to setup a separate export preset for each device, as each "
@@ -175,9 +157,8 @@ msgid ""
 "use these features."
 msgstr ""
 
-#, fuzzy
 msgid "Now you can repeat the same process for the other devices."
-msgstr "Sahnede bunlardan bir sürü olana kadar bu işlemi tekrar edebilirsiniz."
+msgstr ""
 
 msgid ""
 "There are separate loaders for the Meta Quest, Pico and Lynx R1 headsets."

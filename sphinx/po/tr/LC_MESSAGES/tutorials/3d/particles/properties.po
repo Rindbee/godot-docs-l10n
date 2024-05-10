@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D Particle system properties"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
-#, fuzzy
 msgid "Emitter properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "The checkbox next to the ``Emitting`` property activates and deactivates the "
@@ -44,7 +42,7 @@ msgid ""
 "particles emitted through the lifetime will be the ``Ammount`` * ``Amount "
 "Ratio``. Changing this value while emitted doesn't affect already created "
 "particles and doesn't cause the particle system to restart. It's useful for "
-"making effects where the number of emitted particels varies over time."
+"making effects where the number of emitted particles varies over time."
 msgstr ""
 
 msgid ""
@@ -54,9 +52,8 @@ msgid ""
 "explanation of how to add a sub-emitter to a particle system."
 msgstr ""
 
-#, fuzzy
 msgid "Time properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "The ``Lifetime`` property controls how long each particle exists before it "
@@ -166,9 +163,8 @@ msgid ""
 "running at ``10`` FPS appears as smooth as running at ``60``."
 msgstr ""
 
-#, fuzzy
 msgid "Collision properties"
-msgstr "Çarpışma nesneleri"
+msgstr ""
 
 msgid ""
 "The ``Base Size`` property defines each particle's default collision size, "
@@ -179,13 +175,11 @@ msgid ""
 "collision geometry."
 msgstr ""
 
-#, fuzzy
 msgid "Drawing properties"
-msgstr "Bir düğümün özelliklerini değiştirmek"
+msgstr ""
 
-#, fuzzy
 msgid "Particle drawing properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "The ``Visibility AABB`` property defines a box around the particle system's "
@@ -238,17 +232,14 @@ msgid ""
 "velocity."
 msgstr ""
 
-#, fuzzy
 msgid "Trail properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
-#, fuzzy
 msgid "Particle trails"
-msgstr "**Parçacıklar:**"
+msgstr ""
 
-#, fuzzy
 msgid "Particle trail properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "The ``Enabled`` property controls whether particles are rendered as trails. "

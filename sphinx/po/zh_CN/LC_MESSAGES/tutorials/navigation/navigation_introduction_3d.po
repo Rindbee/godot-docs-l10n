@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,13 +41,12 @@ msgid ""
 "of weighted **points**."
 msgstr "``Astar3D`` 对象能够在由具有权重的\\ **点**\\ 构成的图中查找最短路径。"
 
-#, fuzzy
 msgid ""
 "The AStar3D class is best suited for cell-based 3D gameplay that does not "
 "require actors to reach any possible position within an area but only "
 "predefined, distinct positions."
 msgstr ""
-"AStar3D 类最适合的是基于单元格的 3D 游戏，不需要角色到达区域中的任意位置，只"
+"AStar3D 类最适合的是基于单元格的 3D 游戏，角色不需要到达区域中的任意位置，只"
 "需要到达预先指定的一些独立位置。"
 
 msgid ":ref:`NavigationServer3D<class_NavigationServer3D>`"
@@ -73,7 +72,6 @@ msgstr ""
 "由导航网格定义。基于网格的导航能够轻松扩展到大型游戏世界，因为大型区域通常能"
 "够使用单一多边形定义，如果换成栅格则会需要定义许许多多的单元格。"
 
-#, fuzzy
 msgid ""
 "The NavigationServer holds different navigation maps that each consist of "
 "regions that hold navigation mesh data. Agents can be placed on a map for "
@@ -90,19 +88,17 @@ msgstr "NavigationServer 中可用的 RID 类型如下。"
 msgid "NavMap RID"
 msgstr "导航地图 RID"
 
-#, fuzzy
 msgid ""
 "Reference to a specific navigation map that holds regions and agents. The "
 "map will attempt to join the navigation meshes of the regions by proximity. "
 "The map will synchronize regions and agents each physics frame."
 msgstr ""
-"引用指定的导航地图，地图中存放的是区块和代理。地图会尝试将发生区块中更改的导"
-"航网格根据距离进行合并。每一个物理帧，地图都会同步区块和代理。"
+"引用指定的导航地图，地图中存放的是区块和代理。地图会尝试将区块中的导航网格根"
+"据距离进行合并。每一个物理帧，地图都会同步区块和代理。"
 
 msgid "NavRegion RID"
 msgstr "导航区块 RID"
 
-#, fuzzy
 msgid ""
 "Reference to a specific navigation region that can hold navigation mesh "
 "data. The region can be enabled / disabled or the use restricted with a "
@@ -131,11 +127,10 @@ msgstr "引用指定的避障代理，包含半径值，只会在避障中使用
 msgid "NavObstacle RID"
 msgstr "导航障碍物 RID"
 
-#, fuzzy
 msgid ""
 "Reference to a specific avoidance obstacle used to affect and constrain the "
 "avoidance velocity of agents."
-msgstr "引用指定的避障代理，包含半径值，只会在避障中使用。"
+msgstr "引用指定的避障障碍物，会对代理的避障速度产生影响和约束。"
 
 #, fuzzy
 msgid ""
@@ -171,7 +166,6 @@ msgstr "区块可以根据距离将不同的导航网格合并成一个导航网
 msgid ":ref:`NavigationLink3D<class_NavigationLink3D>` Node"
 msgstr ":ref:`NavigationLink3D<class_NavigationLink3D>` 节点"
 
-#, fuzzy
 msgid ""
 "A Node that connects two positions on navigation meshes over arbitrary "
 "distances for pathfinding."
@@ -310,14 +304,13 @@ msgstr ""
 "动目标，NavigationServer 有时间进行同步。另外，添加一个 Camera3D、一些灯光以"
 "及环境，这样才能够看到东西。"
 
-#, fuzzy
 msgid ""
 "On the first frame the NavigationServer map has not synchronized region data "
 "and any path query will return empty. Wait for the NavigationServer "
 "synchronization by awaiting one frame in the script."
 msgstr ""
 "第一帧的时候，NavigationServer 上的地图还没有同步区块数据，请求路径时都会返回"
-"空。等待一帧就可以让脚本暂停，让 NavigationServer 有时间进行同步。"
+"空。在脚本中等待一帧就可以让 NavigationServer 进行同步。"
 
 msgid "Translation status"
 msgstr "翻译状态"

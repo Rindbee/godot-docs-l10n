@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,7 +165,7 @@ msgid ""
 msgstr ""
 
 msgid "|image6|"
-msgstr ""
+msgstr "|obrázek6|"
 
 msgid "image6"
 msgstr "image6"
@@ -177,7 +177,7 @@ msgid ""
 msgstr ""
 
 msgid "|image7|"
-msgstr ""
+msgstr "|obrázek7|"
 
 msgid "image7"
 msgstr "image7"
@@ -197,7 +197,7 @@ msgid "To add an action, write its name in the bar at the top and press Enter."
 msgstr ""
 
 msgid "|image8|"
-msgstr ""
+msgstr "|obrázek8|"
 
 msgid "image8"
 msgstr "image8"
@@ -207,7 +207,7 @@ msgid "Create the following five actions:"
 msgstr "Existují následující omezení:"
 
 msgid "|image9|"
-msgstr ""
+msgstr "|obrázek9|"
 
 msgid "image9"
 msgstr "image9"
@@ -221,7 +221,7 @@ msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr ""
 
 msgid "|image12|"
-msgstr ""
+msgstr "|obrázek12|"
 
 msgid "image12"
 msgstr "image12"

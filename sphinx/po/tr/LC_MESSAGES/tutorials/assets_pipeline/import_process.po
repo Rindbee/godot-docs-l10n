@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,9 +170,8 @@ msgid ""
 "dialog:"
 msgstr ""
 
-#, fuzzy
 msgid "Further reading"
-msgstr "Çoklu iş parçaları"
+msgstr ""
 
 msgid ""
 "This workflow takes a little time to get used to, but it enforces a more "
@@ -184,21 +183,17 @@ msgid ""
 "understand how to work with all of them:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_importing_images`"
-msgstr ":ref:`doc_exporting_basics`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_importing_audio_samples`"
-msgstr ":ref:`doc_exporting_basics`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_importing_3d_scenes`"
-msgstr ":ref:`doc_exporting_basics`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`doc_importing_translations`"
-msgstr ":ref:`doc_exporting_basics`"
+msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

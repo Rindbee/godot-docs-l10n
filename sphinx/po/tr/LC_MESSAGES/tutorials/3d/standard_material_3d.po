@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,9 +75,8 @@ msgid ""
 "it's with the export preset for unreal engine, which also uses ORM textures."
 msgstr ""
 
-#, fuzzy
 msgid "Transparency"
-msgstr "Saydam"
+msgstr ""
 
 msgid ""
 "By default, materials in Godot are opaque. This is fast to render, but it "
@@ -197,9 +196,8 @@ msgid ""
 "another transparency mode is more suited for your needs."
 msgstr ""
 
-#, fuzzy
 msgid "Alpha Antialiasing"
-msgstr "**Kenar yumuşatma:**"
+msgstr ""
 
 msgid ""
 "This property is only visible when the transparency mode is **Alpha "
@@ -215,9 +213,8 @@ msgid ""
 "exhibit ghosting artifacts."
 msgstr ""
 
-#, fuzzy
 msgid "There are 3 alpha antialiasing modes available:"
-msgstr "Bunun için bir çok neden var:"
+msgstr ""
 
 msgid ""
 "**Disabled:** No alpha antialiasing. Edges of transparent materials will "
@@ -365,36 +362,42 @@ msgstr ""
 msgid "Shading"
 msgstr "Gölgelendirme"
 
-#, fuzzy
 msgid "Shading mode"
-msgstr "Gölgelendirme"
+msgstr ""
 
 msgid ""
-"Godot has a more or less uniform cost per pixel thanks to depth pre-pass. "
-"All lighting calculations are made by running the lighting shader on every "
-"pixel."
+"Godot has a more or less uniform cost per pixel thanks to the depth pre-"
+"pass. All lighting calculations are made by running the lighting shader on "
+"every pixel."
 msgstr ""
 
 msgid ""
 "As these calculations are costly, performance can be brought down "
 "considerably in some corner cases such as drawing several layers of "
-"transparency (which is common in particle systems). Switching to per-vertex "
-"lighting may help in these cases."
+"transparency (which is common in particle systems). Switching to the "
+"**Unshaded** shading mode may help improve performance in these cases, "
+"especially when the camera is close to particles."
 msgstr ""
 
 msgid ""
-"Additionally, on low-end or mobile devices, switching to vertex lighting can "
-"considerably increase rendering performance."
+"Additionally, on low-end or mobile devices, switching to unshaded rendering "
+"can considerably increase rendering performance."
 msgstr ""
 
 msgid ""
-"Keep in mind that when vertex lighting is enabled, only directional lighting "
-"can produce shadows (for performance reasons)."
+"Keep in mind that when unshaded rendering is enabled, lights will not affect "
+"the material at all."
 msgstr ""
 
 msgid ""
-"However, in some cases you might want to show just the albedo (color) and "
-"ignore the rest. To do this you can set the shading mode to unshaded"
+"**Per-Vertex** shading is listed as an option in the shading mode property. "
+"However, per-vertex shading is currently unimplemented and will act "
+"identical to per-pixel shading."
+msgstr ""
+
+msgid ""
+"Support for per-vertex shading is planned to be reimplemented in a future "
+"Godot release."
 msgstr ""
 
 msgid "Diffuse Mode"
@@ -402,7 +405,7 @@ msgstr "Karışma Kipi"
 
 msgid ""
 "Specifies the algorithm used by diffuse scattering of light when hitting the "
-"object. The default is *Burley*. Other modes are also available:"
+"object. The default is **Burley**. Other modes are also available:"
 msgstr ""
 
 msgid ""
@@ -417,11 +420,6 @@ msgid ""
 "**Lambert Wrap:** Extends Lambert to cover more than 90 degrees when "
 "roughness increases. Works great for hair and simulating cheap subsurface "
 "scattering. This implementation is energy conserving."
-msgstr ""
-
-msgid ""
-"**Oren Nayar:** This implementation aims to take microsurfacing into account "
-"(via roughness). Works well for clay-like materials and some types of cloth."
 msgstr ""
 
 msgid ""
@@ -465,9 +463,8 @@ msgid ""
 "otherwise light it."
 msgstr ""
 
-#, fuzzy
 msgid "Disable Fog"
-msgstr "Devre Dışı"
+msgstr ""
 
 msgid ""
 "Makes the object unaffected by depth-based or volumetric fog. This is useful "
@@ -652,9 +649,8 @@ msgid ""
 "marble, colored liquids, etc."
 msgstr ""
 
-#, fuzzy
 msgid "Back Lighting"
-msgstr "Işıklandırma"
+msgstr ""
 
 msgid ""
 "This controls how much light from the lit side (visible to light) is "
@@ -799,9 +795,8 @@ msgid ""
 "option makes it use world space instead."
 msgstr ""
 
-#, fuzzy
 msgid "Sampling"
-msgstr "Derleme"
+msgstr ""
 
 msgid "Filter"
 msgstr "Filtrele"
@@ -841,9 +836,8 @@ msgid ""
 "AR."
 msgstr ""
 
-#, fuzzy
 msgid "Billboard"
-msgstr "Pano"
+msgstr ""
 
 msgid "Billboard Mode"
 msgstr ""
@@ -948,9 +942,8 @@ msgid ""
 "better, **Object Dither** (which is even faster than **Pixel Dither**)."
 msgstr ""
 
-#, fuzzy
 msgid "Material Settings"
-msgstr "Malzemeler"
+msgstr ""
 
 msgid "Render priority"
 msgstr ""
@@ -961,9 +954,8 @@ msgid ""
 "but no color draw, such as cracks on the floor)."
 msgstr ""
 
-#, fuzzy
 msgid "Next Pass"
-msgstr "Sonraki sekme"
+msgstr ""
 
 msgid ""
 "Sets the material to be used for the next pass. This renders the object "

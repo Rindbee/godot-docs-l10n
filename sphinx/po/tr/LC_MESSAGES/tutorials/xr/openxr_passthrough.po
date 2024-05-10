@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "The OpenXR passthrough"
-msgstr "İçindengeçme"
+msgstr ""
 
 msgid ""
 "Passthrough is a technique where camera images are used to present the "
@@ -33,9 +32,8 @@ msgid ""
 "is a work in progress."
 msgstr ""
 
-#, fuzzy
 msgid "Passthrough extension"
-msgstr "İçindengeçme"
+msgstr ""
 
 msgid ""
 "OpenXR has a vendor extension for passthrough submitted by Meta. Currently "
@@ -84,9 +82,8 @@ msgid ""
 "export property:"
 msgstr ""
 
-#, fuzzy
 msgid "Passthrough through AR"
-msgstr "İçindengeçme"
+msgstr ""
 
 msgid ""
 "Some of the headsets recently adding OpenXR support have taken a different "

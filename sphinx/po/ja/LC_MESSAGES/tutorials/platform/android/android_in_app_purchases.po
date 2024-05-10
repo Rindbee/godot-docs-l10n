@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,9 +67,8 @@ msgstr ""
 msgid "Call ``startConnection``"
 msgstr "\\ ``connection``"
 
-#, fuzzy
 msgid "Initialization example:"
-msgstr "最小限の接続例"
+msgstr "初期化の例:"
 
 msgid ""
 "The API must be in a connected state prior to use. The ``connected`` signal "
@@ -164,9 +163,8 @@ msgid ""
 "billingclient/api/Purchase>`_ class."
 msgstr ""
 
-#, fuzzy
 msgid "Purchase fields:"
-msgstr "ユーザーがアイテムを購入したかどうかを確認する"
+msgstr "購入フィールド:"
 
 #, fuzzy
 msgid "Check purchase state"

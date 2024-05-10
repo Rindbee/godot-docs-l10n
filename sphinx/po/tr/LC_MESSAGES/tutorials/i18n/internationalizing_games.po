@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 msgid ""
 "We will be using the official demo as an example; you can `download it from "
-"the Asset Library <https://godotengine.org/asset-library/asset/134>`_."
+"the Asset Library <https://godotengine.org/asset-library/asset/2776>`_."
 msgstr ""
 
 msgid "Configuring the imported translation"
@@ -140,9 +140,8 @@ msgid ""
 "define the DynamicFont as the Default Font in the theme."
 msgstr ""
 
-#, fuzzy
 msgid "Placeholders"
-msgstr "Parçacık gölgelendirileri"
+msgstr ""
 
 msgid ""
 "To feature placeholders in your translated strings, use :ref:"
@@ -153,9 +152,8 @@ msgid ""
 "translators to choose the *order* in which placeholders appear:"
 msgstr ""
 
-#, fuzzy
 msgid "Translation contexts"
-msgstr "Çeviri durumu"
+msgstr ""
 
 msgid ""
 "If you're using plain English as source strings (rather than message codes "
@@ -166,9 +164,8 @@ msgid ""
 "string is identical:"
 msgstr ""
 
-#, fuzzy
 msgid "Pluralization"
-msgstr "Gezinti"
+msgstr ""
 
 msgid ""
 "Most languages require different strings depending on whether an object is "
@@ -189,9 +186,8 @@ msgid ""
 "for which singular and plural don't clearly apply."
 msgstr ""
 
-#, fuzzy
 msgid "This can be combined with a context if needed:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
 msgid ""
 "Providing pluralized translations is only supported with :ref:"
@@ -327,15 +323,11 @@ msgstr ""
 msgid "``layout_direction``, overrides control mirroring."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can see how right-to-left typesetting works in action using the `BiDI "
 "and Font Features demo project <https://github.com/godotengine/godot-demo-"
 "projects/tree/master/gui/bidi_and_font_features>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Adding break iterator data to exported project"
 msgstr ""
@@ -384,9 +376,8 @@ msgid ""
 "convert it back."
 msgstr ""
 
-#, fuzzy
 msgid "Localizing icons and images"
-msgstr "Sahneleri ve örnekleri düzenleme"
+msgstr ""
 
 msgid ""
 "Icons with left and right pointing arrows which may need to be reversed for "

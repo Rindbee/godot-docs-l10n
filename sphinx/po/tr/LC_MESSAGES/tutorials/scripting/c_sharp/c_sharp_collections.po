@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "C# collections"
-msgstr "Seçimi Kes"
+msgstr ""
 
 msgid ""
 "The .NET base class library contains multiple collection types that can be "
@@ -27,9 +26,8 @@ msgid ""
 "that are tightly integrated with the rest of the engine."
 msgstr ""
 
-#, fuzzy
 msgid "Choose a collection"
-msgstr "Seçimi Kopyala"
+msgstr ""
 
 msgid ""
 "The main difference between the `.NET collections <https://learn.microsoft."
@@ -120,9 +118,8 @@ msgid ""
 "key."
 msgstr ""
 
-#, fuzzy
 msgid "Godot collections"
-msgstr "Godot bildirimleri"
+msgstr ""
 
 msgid "PackedArray"
 msgstr ""
@@ -151,9 +148,8 @@ msgstr ""
 msgid "``PackedInt64Array``"
 msgstr ""
 
-#, fuzzy
 msgid "``long[]``"
-msgstr "``Color[]``"
+msgstr ""
 
 msgid "``PackedByteArray``"
 msgstr ""
@@ -170,20 +166,17 @@ msgstr ""
 msgid "``PackedFloat64Array``"
 msgstr ""
 
-#, fuzzy
 msgid "``double[]``"
-msgstr "``Color[]``"
+msgstr ""
 
 msgid "``PackedStringArray``"
 msgstr ""
 
-#, fuzzy
 msgid "``string[]``"
-msgstr "``[]``"
+msgstr ""
 
-#, fuzzy
 msgid "``PackedColorArray``"
-msgstr "``Color8``"
+msgstr ""
 
 msgid "``Color[]``"
 msgstr "``Color[]``"
@@ -235,9 +228,8 @@ msgstr ""
 msgid "List of Godot's Array methods and their equivalent in C#:"
 msgstr ""
 
-#, fuzzy
 msgid "all"
-msgstr "Çağır"
+msgstr ""
 
 msgid "`System.Linq.Enumerable.All`_"
 msgstr ""
@@ -251,9 +243,8 @@ msgstr ""
 msgid "append"
 msgstr ""
 
-#, fuzzy
 msgid "Add"
-msgstr "Android"
+msgstr ""
 
 msgid "append_array"
 msgstr ""
@@ -293,23 +284,20 @@ msgstr ""
 msgid "Clear"
 msgstr "Temizle"
 
-#, fuzzy
 msgid "count"
-msgstr "Miktar"
+msgstr ""
 
 msgid "`System.Linq.Enumerable.Count`_"
 msgstr ""
 
-#, fuzzy
 msgid "duplicate"
-msgstr "Kopyasını Oluştur"
+msgstr ""
 
 msgid "Duplicate"
 msgstr "Kopyasını Oluştur"
 
-#, fuzzy
 msgid "erase"
-msgstr "Kameralar"
+msgstr ""
 
 msgid "Remove"
 msgstr "Kaldır"
@@ -320,9 +308,8 @@ msgstr ""
 msgid "Fill"
 msgstr "Doldur"
 
-#, fuzzy
 msgid "filter"
-msgstr "Filtrele"
+msgstr ""
 
 msgid "Use `System.Linq.Enumerable.Where`_"
 msgstr ""
@@ -330,9 +317,8 @@ msgstr ""
 msgid "find"
 msgstr ""
 
-#, fuzzy
 msgid "IndexOf"
-msgstr "Indeks"
+msgstr ""
 
 msgid "front"
 msgstr ""
@@ -351,13 +337,11 @@ msgstr ""
 msgid "get_typed_script"
 msgstr ""
 
-#, fuzzy
 msgid "has"
-msgstr "Şekiller"
+msgstr ""
 
-#, fuzzy
 msgid "Contains"
-msgstr "İçerikler"
+msgstr ""
 
 msgid "hash"
 msgstr ""
@@ -365,13 +349,11 @@ msgstr ""
 msgid "GD.Hash"
 msgstr ""
 
-#, fuzzy
 msgid "insert"
-msgstr "assert"
+msgstr ""
 
-#, fuzzy
 msgid "Insert"
-msgstr "Anahtar Ekle"
+msgstr ""
 
 msgid "is_empty"
 msgstr ""
@@ -388,9 +370,8 @@ msgstr ""
 msgid "is_same_typed"
 msgstr ""
 
-#, fuzzy
 msgid "is_typed"
-msgstr "tip"
+msgstr ""
 
 msgid "make_read_only"
 msgstr ""
@@ -398,9 +379,8 @@ msgstr ""
 msgid "MakeReadOnly"
 msgstr ""
 
-#, fuzzy
 msgid "map"
-msgstr "pap"
+msgstr ""
 
 msgid "`System.Linq.Enumerable.Select`_"
 msgstr ""
@@ -408,9 +388,8 @@ msgstr ""
 msgid "max"
 msgstr ""
 
-#, fuzzy
 msgid "Max"
-msgstr "Harita"
+msgstr ""
 
 msgid "min"
 msgstr "min"
@@ -481,9 +460,8 @@ msgstr ""
 msgid "rfind"
 msgstr ""
 
-#, fuzzy
 msgid "LastIndexOf"
-msgstr "Indeks"
+msgstr ""
 
 msgid "shuffle"
 msgstr ""
@@ -515,43 +493,35 @@ msgstr ""
 msgid "`System.Linq.Enumerable.OrderBy`_"
 msgstr ""
 
-#, fuzzy
 msgid "operator !="
-msgstr "İşleç"
+msgstr ""
 
 msgid "!RecursiveEqual"
 msgstr ""
 
-#, fuzzy
 msgid "operator +"
-msgstr "İşleç"
+msgstr ""
 
-#, fuzzy
 msgid "operator <"
-msgstr "İşleç"
+msgstr ""
 
-#, fuzzy
 msgid "operator <="
-msgstr "İşleç"
+msgstr ""
 
-#, fuzzy
 msgid "operator =="
-msgstr "İşleç"
+msgstr ""
 
 msgid "RecursiveEqual"
 msgstr ""
 
-#, fuzzy
 msgid "operator >"
-msgstr "İşleç"
+msgstr ""
 
-#, fuzzy
 msgid "operator >="
-msgstr "İşleç"
+msgstr ""
 
-#, fuzzy
 msgid "operator []"
-msgstr "İşleç"
+msgstr ""
 
 msgid "Array[int] indexer"
 msgstr ""
@@ -587,16 +557,14 @@ msgstr ""
 msgid "find_key"
 msgstr ""
 
-#, fuzzy
 msgid "get"
-msgstr "et"
+msgstr ""
 
 msgid "Dictionary[Variant] indexer or TryGetValue"
 msgstr ""
 
-#, fuzzy
 msgid "ContainsKey"
-msgstr "Devam Et"
+msgstr ""
 
 msgid "has_all"
 msgstr ""
@@ -613,13 +581,11 @@ msgstr ""
 msgid "Merge"
 msgstr ""
 
-#, fuzzy
 msgid "values"
-msgstr "değer"
+msgstr ""
 
-#, fuzzy
 msgid "Values"
-msgstr "Değer"
+msgstr ""
 
 msgid "Dictionary[Variant] indexer, Add or TryGetValue"
 msgstr ""

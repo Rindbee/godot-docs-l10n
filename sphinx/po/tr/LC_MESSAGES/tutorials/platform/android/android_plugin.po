@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Godot Android plugins"
-msgstr "Android eklentileri"
+msgstr ""
 
 msgid "Introduction"
 msgstr "Giriş"
@@ -51,9 +50,8 @@ msgid ""
 "architecture for Android plugins."
 msgstr ""
 
-#, fuzzy
 msgid "v2 Architecture"
-msgstr "dokular"
+msgstr ""
 
 msgid ""
 "Godot Android plugin leverages the :ref:`Gradle build system "
@@ -77,24 +75,20 @@ msgid ""
 "engine with:"
 msgstr ""
 
-#, fuzzy
 msgid "Android platform APIs"
-msgstr "Android SDK Platform 31"
+msgstr ""
 
-#, fuzzy
 msgid "Android libraries"
-msgstr "Android eklentileri"
+msgstr ""
 
-#, fuzzy
 msgid "Kotlin and Java libraries"
-msgstr "Animasyon Ağacını (AnimationTree) kullanmak"
+msgstr ""
 
 msgid "Native libraries (via JNI)"
 msgstr ""
 
-#, fuzzy
 msgid "GDExtension libraries"
-msgstr "Geliştirme kütüphaneleri:"
+msgstr "GDExtension kütüphaneleri"
 
 msgid ""
 "Each plugin has an init class extending from the `GodotPlugin <https://"
@@ -128,9 +122,8 @@ msgid ""
 "turn has been extended to properly support Android plugins."
 msgstr ""
 
-#, fuzzy
 msgid "Building a v2 Android plugin"
-msgstr "Bir Android eklentisi inşa etmek"
+msgstr ""
 
 msgid ""
 "A github project template **is provided** at https://github.com/m4gr3d/Godot-"
@@ -232,9 +225,8 @@ msgid ""
 "set up your own Godot Android plugin project."
 msgstr ""
 
-#, fuzzy
 msgid "Migrating a v1 Android plugin to v2"
-msgstr "Android eklentileri oluşturmak"
+msgstr ""
 
 msgid ""
 "Use the following steps if you have a v1 Android plugin you want to migrate "
@@ -277,9 +269,8 @@ msgid ""
 "`Packaging a v2 Android plugin`_ section to set up the plugin configuration."
 msgstr ""
 
-#, fuzzy
 msgid "Packaging a v2 Android plugin"
-msgstr "Bir Android eklentisi inşa etmek"
+msgstr ""
 
 msgid ""
 "As mentioned, a v2 Android plugin is now provided to the Godot Editor as an "
@@ -431,9 +422,8 @@ msgid ""
 "use them to load and initialize the bundled GDExtension libraries."
 msgstr ""
 
-#, fuzzy
 msgid "Using a v2 Android plugin"
-msgstr "Bir Android eklentisi inşa etmek"
+msgstr ""
 
 msgid "Godot 4.2 or higher is required"
 msgstr ""
@@ -488,9 +478,8 @@ msgstr ""
 msgid "Connect an Android device to your machine and run the project on it"
 msgstr ""
 
-#, fuzzy
 msgid "Using a v2 Android plugin as an Android library"
-msgstr "Bir Android eklentisini yüklemek ve kullanmak"
+msgstr ""
 
 msgid ""
 "Since they are also Android libraries, Godot v2 Android plugins can be "
@@ -500,43 +489,35 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If targetting this use-case, make sure to include additional instructions "
-"for how the ``AAR`` binaries should be included (e.g: custom additions to "
-"the Android app's manifest)."
+"If targeting this use-case, make sure to include additional instructions for "
+"how the ``AAR`` binaries should be included (e.g: custom additions to the "
+"Android app's manifest)."
 msgstr ""
 
 msgid "Reference implementations"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`Godot Android Plugins Samples <https://github.com/m4gr3d/Godot-Android-"
 "Samples/tree/master/plugins>`_"
 msgstr ""
-"`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
 
-#, fuzzy
 msgid ""
 "`Godot Android Plugin Template <https://github.com/m4gr3d/Godot-Android-"
 "Plugin-Template>`_"
 msgstr ""
-"`Visual Studio Code <https://github.com/godotengine/godot-vscode-plugin>`_"
 
 msgid ""
 "`GDExtension Android Plugin Template <https://github.com/m4gr3d/GDExtension-"
 "Android-Plugin-Template>`_"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "`Godot OpenXR Loaders <https://github.com/GodotVR/godot_openxr_loaders>`_"
 msgstr ""
-"Projenin tamamlanmış halini `OpenVR GitHub deposu <https://github.com/"
-"GodotVR/godot_openvr_fps>`__ üzerinde bulabilirsiniz."
 
-#, fuzzy
 msgid "Tips and Guidelines"
-msgstr "Kılavuzlar"
+msgstr ""
 
 msgid "Simplify access to the exposed Java / Kotlin APIs"
 msgstr ""

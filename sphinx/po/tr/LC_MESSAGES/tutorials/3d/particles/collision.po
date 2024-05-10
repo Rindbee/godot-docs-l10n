@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "3D Particle collisions"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
-#, fuzzy
 msgid "Particle collisions"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
 msgid ""
 "Since GPU particles are processed entirely on the GPU, they don't have "
@@ -38,17 +36,14 @@ msgstr ""
 msgid "GPU Particle collision is not yet implemented for 2D particle systems."
 msgstr ""
 
-#, fuzzy
 msgid "Common properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
-#, fuzzy
 msgid "Common particle collision properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
-#, fuzzy
 msgid "Common collision properties"
-msgstr "Düzenlenebilir özellikler."
+msgstr ""
 
 msgid ""
 "There are some properties that you can find on all collision nodes. They're "
@@ -70,17 +65,14 @@ msgid ""
 "it is fixed."
 msgstr ""
 
-#, fuzzy
 msgid "Box collision"
-msgstr "Dışbükey çarpışma şekilleri"
+msgstr ""
 
-#, fuzzy
 msgid "Particle collision box"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
-#, fuzzy
 msgid "Box collision in the node list"
-msgstr "Dışbükey çarpışma şekilleri"
+msgstr ""
 
 msgid ""
 "Box collision nodes are shaped like a solid, rectangular box. You control "
@@ -97,20 +89,17 @@ msgid ""
 "effects."
 msgstr ""
 
-#, fuzzy
 msgid "Box collision with particle systems"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
 msgid "Two particle systems collide with a box collision node"
 msgstr ""
 
-#, fuzzy
 msgid "Sphere collision"
-msgstr "Kesinlik"
+msgstr ""
 
-#, fuzzy
 msgid "Particle collision sphere"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
 msgid "Sphere collision in the node list"
 msgstr ""
@@ -136,13 +125,11 @@ msgstr ""
 msgid "Two particle systems collide with a sphere collision node"
 msgstr ""
 
-#, fuzzy
 msgid "Height field collision"
-msgstr "Çarpışmalar için hazırlık"
+msgstr ""
 
-#, fuzzy
 msgid "Particle collision height field"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
 msgid "Height field collision in the node list"
 msgstr ""
@@ -210,13 +197,11 @@ msgid ""
 "sight or too far away."
 msgstr ""
 
-#, fuzzy
 msgid "SDF collision"
-msgstr "Fonksiyonlar"
+msgstr ""
 
-#, fuzzy
 msgid "Particle collision SDF"
-msgstr "İlkel çarpışma şekilleri"
+msgstr ""
 
 msgid "SDF collision in the node list"
 msgstr ""
@@ -243,9 +228,8 @@ msgid ""
 "and cannot change at runtime."
 msgstr ""
 
-#, fuzzy
 msgid "SDF particle collision"
-msgstr "Çarpışmalar için hazırlık"
+msgstr ""
 
 msgid ""
 "SDF particle collision allows for very detailed 3-dimensional collision "
@@ -267,9 +251,8 @@ msgid ""
 "meshes completely."
 msgstr ""
 
-#, fuzzy
 msgid "Resolution comparison"
-msgstr "Kaynak seçenekleri"
+msgstr ""
 
 msgid ""
 "The same area covered by a signed distance field at different resolutions: "

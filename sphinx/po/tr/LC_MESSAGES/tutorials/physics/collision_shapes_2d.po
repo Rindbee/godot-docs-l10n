@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Collision shapes (2D)"
-msgstr "Çarpışma şekilleri (3B)"
+msgstr ""
 
 msgid "This guide explains:"
 msgstr ""
@@ -30,9 +29,8 @@ msgstr ""
 msgid "Using an image converted to a polygon as a collision shape."
 msgstr ""
 
-#, fuzzy
 msgid "Performance considerations regarding 2D collisions."
-msgstr "Performans izleme araçları."
+msgstr ""
 
 msgid ""
 "Godot provides many kinds of collision shapes, with different performance "
@@ -58,21 +56,17 @@ msgstr "İlkel çarpışma şekilleri"
 msgid "Godot provides the following primitive collision shape types:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_RectangleShape2D`"
-msgstr ":ref:`class_CapsuleShape`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_CircleShape2D`"
-msgstr ":ref:`class_CapsuleShape`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_CapsuleShape2D`"
-msgstr ":ref:`class_CapsuleShape`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`class_SegmentShape2D`"
-msgstr ":ref:`class_SphereShape`"
+msgstr ""
 
 msgid ":ref:`class_SeparationRayShape2D` (designed for characters)"
 msgstr ""

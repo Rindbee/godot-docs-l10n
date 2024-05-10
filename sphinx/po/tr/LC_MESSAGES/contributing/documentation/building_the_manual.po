@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,9 +29,8 @@ msgstr ""
 msgid "Before you get started, make sure that you have:"
 msgstr ""
 
-#, fuzzy
 msgid "`Git <https://git-scm.com/>`_"
-msgstr "`D <https://github.com/godot-d/godot-d>`__"
+msgstr ""
 
 msgid ""
 "`make <https://www.gnu.org/software/make/>`_ (unless you're using Windows)"
@@ -59,9 +58,8 @@ msgstr ""
 msgid "Windows"
 msgstr "Windows"
 
-#, fuzzy
 msgid "Other platforms"
-msgstr "Desteklenen platformlar"
+msgstr ""
 
 msgid "Activate the virtual environment:"
 msgstr ""
@@ -101,9 +99,8 @@ msgid ""
 "in your web browser."
 msgstr ""
 
-#, fuzzy
 msgid "Dealing with errors"
-msgstr "Kuaterniyonlarla ara değerleme yapmak"
+msgstr ""
 
 msgid "If you run into errors, you may try the following command:"
 msgstr ""
@@ -121,13 +118,11 @@ msgid ""
 "issues/3157>`__ for more detail."
 msgstr ""
 
-#, fuzzy
 msgid "Hints for performance"
-msgstr "Denetleyici performans ipuçları"
+msgstr ""
 
-#, fuzzy
 msgid "RAM usage"
-msgstr "Elden kullanım"
+msgstr ""
 
 msgid ""
 "Building the documentation requires at least 8 GB of RAM to run without disk "

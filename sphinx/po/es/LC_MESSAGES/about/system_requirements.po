@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "System requirements"
-msgstr "Requerimientos"
+msgstr "Requerimientos del sistema"
 
 msgid ""
 "This page contains system requirements for the editor and exported projects. "
@@ -27,101 +26,119 @@ msgid ""
 "be referred to if you're looking to build or upgrade a system to use Godot "
 "on."
 msgstr ""
+"Esta página contiene los requerimientos del sistema para el editor y los "
+"proyectos exportados. Estas especificaciones son dadas solo para propósitos "
+"informativos, pero pueden ser consultados si estas pensando en construir o "
+"mejorar un sistema en el que usar Godot."
 
-#, fuzzy
 msgid "Godot editor"
-msgstr "Depurando el editor de Godot"
+msgstr "Editor de Godot"
 
 msgid ""
 "These are the **minimum** specifications required to run the Godot editor "
 "and work on a simple 2D or 3D project:"
 msgstr ""
+"Estos son las **mínimas** especificaciones requeridas para correr el editor "
+"de Godot y trabajar en un proyecto 2D o 3D simple:"
 
 msgid "Desktop or laptop PC - Minimum"
-msgstr ""
+msgstr "PC de escritorio o laptop - Mínimo"
 
 msgid "**CPU**"
-msgstr ""
+msgstr "**CPU**"
 
 msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
-msgstr ""
+msgstr "**Windows:** x86_32 CPU con instrucciones SSE2, o cualquier x86_64 CPU"
 
 msgid "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
-msgstr ""
+msgstr "*Ejemplo: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300*"
 
 msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
-msgstr ""
+msgstr "**macOS:** x86_64 o ARM CPU (Apple Silicon)"
 
 msgid "*Example: Intel Core 2 Duo SU9400, Apple M1*"
-msgstr ""
+msgstr "*Ejemplo: Intel Core 2 Duo SU9400, Apple M1*"
 
 msgid ""
 "**Linux:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv7 or ARMv8 CPU"
 msgstr ""
+"**Linux:** x86_32 CPU con instrucciones SSE2, x86_64 CPU, ARMv7 o ARMv8 CPU"
 
 msgid ""
 "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 msgstr ""
+"*Ejemplo: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 
 msgid "**GPU**"
-msgstr ""
+msgstr "**GPU**"
 
 msgid ""
 "**Forward+ rendering method:** Integrated graphics with full Vulkan 1.0 "
 "support"
 msgstr ""
+"**Método de renderizado Forward+:** Gráficos integrados con soporte total de "
+"Vulkan 1.0"
 
 msgid ""
 "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
+"*Ejemplo: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
+"(Kaveri)*"
 
 msgid ""
 "**Mobile rendering method:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
+"**Método de renderizado Mobile:** Gráficos integrados con soporte total de "
+"Vulkan 1.0"
 
 msgid ""
 "**Compatibility rendering method:** Integrated graphics with full OpenGL 3.3 "
 "support"
 msgstr ""
+"**Método de renderizado Compatibility:** Gráficos integrados con soporte "
+"total de OpenGL 3.3"
 
 msgid ""
 "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
+"*Ejemplo: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
+"(Kaveri)*"
 
 msgid "**RAM**"
-msgstr ""
+msgstr "**RAM**"
 
-#, fuzzy
 msgid "**Native editor:** 4 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor nativo:** 4GB"
 
-#, fuzzy
 msgid "**Web editor:** 8 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor web:** 8GB"
 
-#, fuzzy
 msgid "**Storage**"
-msgstr "Almacenamiento"
+msgstr "**Almacenamiento**"
 
 msgid ""
 "200 MB (used for the executable, project files and cache). Exporting "
 "projects requires downloading export templates separately (1.3 GB after "
 "installation)."
 msgstr ""
+"200MB (usados para el ejecutable, archivos del proyecto y caché). Exportar "
+"proyectos requiere descargar plantillas de exportación por separado (1.3GB "
+"después de la instalación)."
 
-#, fuzzy
 msgid "**Operating system**"
-msgstr "Sistema de advertencias"
+msgstr "**Sistema opertivo**"
 
 msgid ""
 "**Native editor:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 "
 "(Forward+/Mobile), Linux distribution released after 2016"
 msgstr ""
+"**Editor nativo:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 "
+"(Forward+/Mobile), Distribuciones de Linux lanzadas después de 2016"
 
 msgid "**Web editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
-msgstr ""
+msgstr "**Editor web:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 
 msgid ""
 "Windows 7/8/8.1 are supported on a best-effort basis. These versions are not "
@@ -130,172 +147,212 @@ msgid ""
 "for Windows 7/8/8.1 may be removed in a :ref:`future Godot 4.x release "
 "<doc_release_policy>`."
 msgstr ""
+"Windows 7/8/8.1 aon soportadas en una base de mejor esfuerzo. Estas "
+"versiones no son regularmente probadas y puede que algunas caracteristicas "
+"falten (como la salida de consola coloreada :ref:`print_rich "
+"<class_@GlobalScope_method_print_rich>`). El soporte para Windows 7/8/8.1 "
+"podría ser retirado en una :ref:`future Godot 4.x release "
+"<doc_release_policy>`."
 
 msgid ""
 "Vulkan drivers for these Windows versions are known to have issues with "
 "memory leaks. As a result, it's recommended to stick to the Compatibility "
 "rendering method when running Godot on an Windows version older than 10."
 msgstr ""
+"Los controladores de Vulkan para estas verisiones de windows son conocidas "
+"por tener problemas con fugas de memoria. Como resultado, es recomendado "
+"quedarse en el metodo de renderizado Compatibility al correr Godot en una "
+"version de Windows posterior a la 10."
 
 msgid "Mobile device (smartphone/tablet) - Minimum"
-msgstr ""
+msgstr "Dispositivos móviles (teléfonos inteligentes/tabletas) - Mínimo"
 
 msgid "**Android:** SoC with any 32-bit or 64-bit ARM or x86 CPU"
-msgstr ""
+msgstr "**Android:** SoC con cualquier 32-bit o 64-bit ARM o x86 CPU"
 
 msgid "*Example: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
-msgstr ""
+msgstr "*Ejemplo: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
 
-#, fuzzy
 msgid "**iOS:** *Cannot run the editor*"
-msgstr "**Para el editor:**"
+msgstr "**iOS:** *No puede ejecutar el editor*"
 
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
+"**Método de renderizado Forward+:** SoC con un GPU con soporte total de "
+"Vulkan 1.0"
 
 msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2*"
-msgstr ""
+msgstr "*Ejemplo: Qualcomm Adreno 505, Mali-G71 MP2*"
 
 msgid ""
 "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
+"**Método de renderizado Mobile** SoC con GPU con soporte total de Vulkan 1.0"
 
 msgid ""
 "**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES "
 "3.0 support"
 msgstr ""
+"**Método de renderizado Compatibility:** SoC con GPU con soporte total de "
+"OpenGL ES 3.0"
 
 msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
-msgstr ""
+msgstr "*Ejemplo: Qualcomm Adreno 306, Mali-T628 MP6*"
 
-#, fuzzy
 msgid "**Native editor:** 3 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor nativo:** 3 GB"
 
-#, fuzzy
 msgid "**Web editor:** 6 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor web:** 6 GB"
 
 msgid ""
 "**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
 "Mobile), iOS 11.0"
 msgstr ""
+"**Editor nativo:** Android 6.0 (Compatibility) o Android 9.0 (Forward+/"
+"Mobile), iOS 11.0"
 
 msgid ""
 "**Web editor:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
+"**Editor web:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
+"Samsung Internet 15"
 
 msgid ""
 "These are the **recommended** specifications to get a smooth experience with "
 "the Godot editor on a simple 2D or 3D project:"
 msgstr ""
+"Estos son las especificaciones **recomendadas** para conseguir una "
+"experiencia fluida con el editor de Godot en un proyecto simple 2D o 3D:"
 
 msgid "Desktop or laptop PC - Recommended"
-msgstr ""
+msgstr "PC de escritorio o laptop - Recomendado"
 
 msgid ""
 "**Windows:** x86_64 CPU with SSE4.2 instructions, with 4 physical cores or "
 "more"
 msgstr ""
+"**Windows:** x86_64 CPU con instrucciones SSE4.2, con 4 núcleos físicos o más"
 
 msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr ""
+msgstr "*Ejemplo: Intel Core i5-6600K, AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
-msgstr ""
+msgstr "*Ejemplo: Intel Core i5-8500, Apple M1*"
 
 msgid ""
 "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 with "
 "overclocking*"
 msgstr ""
+"*Ejemplo: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 con "
+"overclocking*"
 
 msgid ""
 "**Forward+ rendering method:** Dedicated graphics with full Vulkan 1.2 "
 "support"
 msgstr ""
+"**Método de renderizado Forward+:** Gráficos dedicados con soporte total de "
+"Vulkan 1.2"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 msgstr ""
+"*Ejemplo: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 
 msgid ""
 "**Mobile rendering method:** Dedicated graphics with full Vulkan 1.2 support"
 msgstr ""
+"**Método de renderizado Mobile** Gráficos dedicados con soporte total de "
+"Vulkan 1.2"
 
 msgid ""
 "**Compatibility rendering method:** Dedicated graphics with full OpenGL 4.6 "
 "support"
 msgstr ""
+"** Método de renderizado Compatibility:** Gráficos integrados con soporte "
+"total de OpenGL 4.6"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 msgstr ""
+"*Ejemplo: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 
-#, fuzzy
 msgid "**Native editor:** 8 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor nativo:** 8 GB"
 
-#, fuzzy
 msgid "**Web editor:** 12 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor web:** 12 GB"
 
 msgid ""
 "1.5 GB (used for the executable, project files, all export templates and "
 "cache)"
 msgstr ""
+"1.5 GB (utilizados para el ejecutable, los archivos del proyecto , las "
+"plantillas de exportación y el caché)"
 
 msgid ""
 "**Native editor:** Windows 10, macOS 10.15, Linux distribution released "
 "after 2020"
 msgstr ""
+"**Editor nativo:** Windows 10, macOS 10.15, las distribuciones Linux "
+"lanzadas a partir del 2020"
 
 msgid "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 msgstr ""
+"**Editor Web:** Últimas versiones de Firefox, Chrome, Edge, Safari, Opera"
 
 msgid "Mobile device (smartphone/tablet) - Recommended"
-msgstr ""
+msgstr "Dispositivo móvil (teléfono inteligente/tableta) - Recomendado"
 
 msgid ""
 "**Android:** SoC with 64-bit ARM or x86 CPU, with 3 \"performance\" cores or "
 "more"
 msgstr ""
+"**Android:** SoC con CPU de 64 bits ARM o x86, con 3 núcleos de "
+"\"rendimiento\" o más"
 
 msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
-msgstr ""
+msgstr "*Ejemplo: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
 
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
+"**Método de renderizado Forward+:** SoC que incluye GPU con soporte completo "
+"para Vulkan 1.2"
 
 msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
-msgstr ""
+msgstr "*Ejemplo: Qualcomm Adreno 630, Mali-G72 MP18*"
 
 msgid ""
 "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
+"**Método de renderizado móvil:** SoC con GPU con soporte completo para "
+"Vulkan 1.2"
 
 msgid ""
 "**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES "
 "3.2 support"
 msgstr ""
+"**Método de renderizado de compatibilidad:** SoC con GPU con soporte "
+"completo para OpenGL ES 3.2"
 
-#, fuzzy
 msgid "**Native editor:** 6 GB"
-msgstr "**Para el editor:**"
+msgstr "**Editor nativo:** 6 GB"
 
 msgid "**Native editor:** Android 9.0 or iOS 11.0"
-msgstr ""
+msgstr "**Editor nativo:** Android 9.0 o iOS 11.0"
 
 msgid ""
 "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
 msgstr ""
+"**Editor Web:** Últimas versiones de Firefox, Chrome, Edge, Safari, Opera, "
+"Samsung Internet"
 
-#, fuzzy
 msgid "Exported Godot project"
-msgstr "Exportar un proyecto de Godot a Xcode"
+msgstr "Proyecto de Godot exportado"
 
 msgid ""
 "The requirements below are a baseline for a **simple** 2D or 3D project, "
@@ -305,6 +362,13 @@ msgid ""
 "programs running on the system while the project is running will also "
 "compete for resources, including RAM and video RAM."
 msgstr ""
+"Los requisitos a continuación son una base para un proyecto **simple** en 2D "
+"o 3D, con scripts básicos y pocos detalles visuales. Los requisitos de CPU, "
+"GPU, RAM y almacenamiento variarán considerablemente dependiendo del alcance "
+"de tu proyecto, su método de renderizado, la resolución del viewport y los "
+"ajustes gráficos elegidos. Otros programas que se ejecutan en el sistema "
+"mientras el proyecto está en funcionamiento también competirán por recursos, "
+"incluida la RAM y la RAM de video."
 
 msgid ""
 "It is strongly recommended to do your own testing on low-end hardware to "
@@ -313,110 +377,134 @@ msgid ""
 "<https://github.com/godotengine/godot-demo-projects/tree/master/3d/"
 "graphics_settings>`__ to your project."
 msgstr ""
+"Se recomienda encarecidamente realizar pruebas en hardware de gama baja para "
+"asegurarte de que tu proyecto se ejecute a la velocidad deseada. Para "
+"proporcionar adaptabilidad para hardware de gama baja, también necesitarás "
+"incorporar un `menú de opciones gráficas <https://github.com/godotengine/"
+"godot-demo-projects/tree/master/3d/graphics_settings>`__ en tu proyecto."
 
 msgid ""
 "These are the **minimum** specifications required to run a simple 2D or 3D "
 "project exported with Godot:"
 msgstr ""
+"Estas son las especificaciones **mínimas** requeridas para ejecutar un "
+"proyecto simple en 2D o 3D exportado con Godot:"
 
-#, fuzzy
 msgid "**For native exports:** 2 GB"
-msgstr "**Para el editor:**"
+msgstr "**Para exportaciones nativas:** 2 GB"
 
-#, fuzzy
 msgid "**For web exports:** 4 GB"
-msgstr "**Para el editor:**"
+msgstr "**Para exportaciones web:** 4 GB"
 
 msgid "150 MB (used for the executable, project files and cache)"
-msgstr ""
+msgstr "150 MB (utilizados para el ejecutable, archivos del proyecto y caché)"
 
 msgid ""
 "**For native exports:** Windows 7, macOS 10.13 (Compatibility) or macOS "
 "10.15 (Forward+/Mobile), Linux distribution released after 2016"
 msgstr ""
+"**Para exportaciones nativas:** Windows 7, macOS 10.13 (Compatibilidad) o "
+"macOS 10.15 (Forward+/Mobile), distribución de Linux lanzada después de 2016"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr ""
+"**Para exportaciones web:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, "
+"Opera 64"
 
 msgid "**iOS:** SoC with any 64-bit ARM CPU"
-msgstr ""
+msgstr "**iOS:** SoC con cualquier CPU ARM de 64 bits"
 
 msgid "*Example: Apple A7 (iPhone 5S)*"
-msgstr ""
+msgstr "*Ejemplo: Apple A7 (iPhone 5S)*"
 
 msgid ""
 "*Example: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
 "SE 1)*"
 msgstr ""
+"*Ejemplo: Qualcomm Adreno 505, Mali-G71 MP2, PowerVR G6430 (iPhone 6S/iPhone "
+"SE 1)*"
 
 msgid ""
 "*Example: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
 msgstr ""
+"*Ejemplo: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
 
-#, fuzzy
 msgid "**For native exports:** 1 GB"
-msgstr "**Para el editor:**"
+msgstr "**Para exportaciones nativas:** 1 GB"
 
-#, fuzzy
 msgid "**For web exports:** 2 GB"
-msgstr "**Para el editor:**"
+msgstr "**Para exportaciones web:** 2 GB"
 
 msgid ""
 "**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
 "Mobile), iOS 11.0"
 msgstr ""
+"**Para exportaciones nativas:** Android 6.0 (Compatibilidad) o Android 9.0 "
+"(Forward+/Mobile), iOS 11.0"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, Opera 64, "
 "Samsung Internet 15"
 msgstr ""
+"**Para exportaciones web:** Firefox 79, Chrome 88, Edge 79, Safari 15.2, "
+"Opera 64, Samsung Internet 15"
 
 msgid ""
 "These are the **recommended** specifications to get a smooth experience with "
 "a simple 2D or 3D project exported with Godot:"
 msgstr ""
+"Estas son las especificaciones **recomendadas** para obtener una experiencia "
+"fluida con un proyecto simple en 2D o 3D exportado con Godot:"
 
-#, fuzzy
 msgid "**For native exports:** 4 GB"
-msgstr "**Para el editor:**"
+msgstr "**Para exportaciones nativas:** 4 GB"
 
-#, fuzzy
 msgid "**For web exports:** 8 GB"
-msgstr "**Para el editor:**"
+msgstr "**Para exportaciones web:** 8 GB"
 
 msgid ""
 "**For native exports:** Windows 10, macOS 10.15, Linux distribution released "
 "after 2020"
 msgstr ""
+"**Para exportaciones nativas:** Windows 10, macOS 10.15, distribución Linux "
+"lanzada después de 2020"
 
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 msgstr ""
+"**Para exportaciones web:** Últimas versiones de Firefox, Chrome, Edge, "
+"Safari, Opera"
 
 msgid "**iOS:** SoC with 64-bit ARM CPU"
-msgstr ""
+msgstr "**iOS:** SoC con CPU ARM de 64 bits"
 
 msgid "*Example: Apple A11 (iPhone XS/XR)*"
-msgstr ""
+msgstr "*Ejemplo: Apple A11 (iPhone XS/XR)*"
 
 msgid ""
 "*Example: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
 msgstr ""
+"*Ejemplo: Qualcomm Adreno 630, Mali-G72 MP18, Apple G11P (iPhone XR/XS)*"
 
 msgid "**For native exports:** Android 9.0 or iOS 11.0"
-msgstr ""
+msgstr "**Para exportaciones nativas:** Android 9.0 o iOS 11.0"
 
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
 msgstr ""
+"**Para exportaciones web:** Últimas versiones de Firefox, Chrome, Edge, "
+"Safari, Opera, Samsung Internet"
 
 msgid ""
 "Godot doesn't use OpenGL/OpenGL ES extensions introduced after OpenGL 3.3/"
 "OpenGL ES 3.0, but GPUs supporting newer OpenGL/OpenGL ES versions generally "
 "have fewer driver issues."
 msgstr ""
+"Godot no utiliza extensiones de OpenGL/OpenGL ES introducidas después de "
+"OpenGL 3.3/OpenGL ES 3.0, pero las GPUs que admiten versiones más recientes "
+"de OpenGL/OpenGL ES generalmente tienen menos problemas de controladores."
 
 msgid "Translation status"
-msgstr "Estado de traducción"
+msgstr "Estado de la traducción"

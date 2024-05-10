@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,16 +204,14 @@ msgstr ""
 msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
 msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
 
-#, fuzzy
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`Go <https://github.com/grow-graphics/gd>`__"
 
 msgid "`Haxe <https://hxgodot.github.io/>`__"
 msgstr "`Haxe <https://hxgodot.github.io/>`__"
 
-#, fuzzy
 msgid "`Rust <https://github.com/godot-rust/gdext>`__"
-msgstr "`Rust <https://github.com/godot-rust/gdextension>`__"
+msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
 
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"

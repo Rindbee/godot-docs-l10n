@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -430,9 +430,8 @@ msgid ""
 "you might encounter an error similar to the following:"
 msgstr ""
 
-#, fuzzy
 msgid "Writing custom unit tests"
-msgstr "Belgelerin yazılması"
+msgstr ""
 
 msgid ""
 "It's possible to write self-contained unit tests as part of a C++ module. If "
@@ -440,9 +439,8 @@ msgid ""
 "refer to :ref:`doc_unit_testing`."
 msgstr ""
 
-#, fuzzy
 msgid "The procedure is the following:"
-msgstr "Bu, aşağıdaki adımlar takip edilerek yapılabilir:"
+msgstr ""
 
 msgid "Create a new directory named ``tests/`` under your module's root:"
 msgstr ""

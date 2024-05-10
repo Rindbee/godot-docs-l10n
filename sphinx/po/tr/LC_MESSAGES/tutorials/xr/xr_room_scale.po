@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Room scale in XR"
-msgstr "Kök Ölçeği"
+msgstr ""
 
 msgid ""
 "One of the staples of XR projects is the ability to walk around freely in a "
@@ -118,14 +117,11 @@ msgstr ""
 msgid "Processing our character movement is now done in three steps."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The `Origin centric movement demo <https://github.com/godotengine/godot-demo-"
 "projects/tree/master/xr/openxr_origin_centric_movement>`__ contains a more "
 "elaborate example of the technique described below."
 msgstr ""
-"Örnekler için `3B çerçeve ölçekleme demosu <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/viewport/3d_scaling>`__ 'na bakın."
 
 msgid "Step 1"
 msgstr "Adım 1"
@@ -189,9 +185,8 @@ msgid ""
 "look at adding comfort settings."
 msgstr ""
 
-#, fuzzy
 msgid "Character body centric solution"
-msgstr "Karakter canlandırması"
+msgstr ""
 
 msgid ""
 "In this setup we are going to keep our character body as our root node and "
@@ -208,14 +203,11 @@ msgid ""
 "implemented slightly differently."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The `Character centric movement demo <https://github.com/godotengine/godot-"
 "demo-projects/tree/master/xr/openxr_character_centric_movement>`__ contains "
 "a more elaborate example of the technique described below."
 msgstr ""
-"Örnekler için `3B çerçeve ölçekleme demosu <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/viewport/3d_scaling>`__ 'na bakın."
 
 msgid ""
 "In this approach step 1 is where all the magic happens. Just like with our "

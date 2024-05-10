@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,15 +153,15 @@ msgstr ""
 "Agent durch den Link bewegen kann, um an der anderen Position des Links zu "
 "landen (z. B. durch Teleport oder Animation), und den Weg fortzusetzen."
 
-#, fuzzy
 msgid "Navigation link script templates"
-msgstr "NavigationAgent-Skriptvorlagen"
+msgstr "Skriptvorlagen für Navigationslinks"
 
-#, fuzzy
 msgid ""
 "The following script uses the NavigationServer to create a new navigation "
 "link."
-msgstr "Die folgenden NavigationServer-RID-Typen sind verfügbar."
+msgstr ""
+"Das folgende Skript verwendet den NavigationServer, um einen neuen "
+"Navigationslink zu erstellen."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,9 +50,8 @@ msgid ""
 "enable it."
 msgstr ""
 
-#, fuzzy
 msgid "Initialize the plugin"
-msgstr "Bir eklentiyi kurmak"
+msgstr ""
 
 msgid "To use the ``GodotGooglePlayBilling`` API:"
 msgstr ""
@@ -63,9 +62,8 @@ msgstr ""
 msgid "Connect handlers for the plugin signals"
 msgstr ""
 
-#, fuzzy
 msgid "Call ``startConnection``"
-msgstr "``bağlantı``"
+msgstr ""
 
 msgid "Initialization example:"
 msgstr "İlk değerleme örneği:"

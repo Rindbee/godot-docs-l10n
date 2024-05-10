@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,10 @@ msgstr ""
 msgid "Runtime file loading and saving"
 msgstr ""
 
-#, fuzzy
 msgid ""
 "See :ref:`doc_saving_games` for information on saving and loading game "
 "progression."
-msgstr ":ref:`doc_shading_language`"
+msgstr ""
 
 msgid ""
 "Sometimes, :ref:`exporting packs, patches, and mods <doc_exporting_pcks>` is "
@@ -74,15 +73,11 @@ msgid ""
 "ref:`doc_import_process` for details."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can see how saving and loading works in action using the `Run-time File "
 "Saving and Loading (Serialization) demo project <https://github.com/"
 "godotengine/godot-demo-projects/blob/master/loading/runtime_save_load>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Plain text and binary files"
 msgstr ""
@@ -107,9 +102,8 @@ msgid ""
 "``decode_`` and ``encode_``. See also :ref:`doc_binary_serialization_api`."
 msgstr ""
 
-#, fuzzy
 msgid "Images"
-msgstr "image0"
+msgstr ""
 
 msgid ""
 "Image's :ref:`Image.load_from_file <class_Image_method_load_from_file>` "
@@ -194,9 +188,8 @@ msgid ""
 "node (which requires conversion to :ref:`class_ImageTexture`):"
 msgstr ""
 
-#, fuzzy
 msgid "Audio/video files"
-msgstr "Ses efektleri"
+msgstr ""
 
 msgid ""
 "Godot supports loading Ogg Vorbis audio at runtime. Note that not *all* "
@@ -228,9 +221,8 @@ msgid ""
 "procedurally generated audio or microphone recordings."
 msgstr ""
 
-#, fuzzy
 msgid "3D scenes"
-msgstr "sahneler"
+msgstr ""
 
 msgid ""
 "Godot has first-class support for glTF 2.0, both in the editor and exported "
@@ -261,9 +253,8 @@ msgid ""
 "append_from_file <class_GLTFDocument_method_append_from_file>`."
 msgstr ""
 
-#, fuzzy
 msgid "Fonts"
-msgstr "Önden Görünüm"
+msgstr ""
 
 msgid ""
 ":ref:`FontFile.load_dynamic_font <class_FontFile_method_load_bitmap_font>` "

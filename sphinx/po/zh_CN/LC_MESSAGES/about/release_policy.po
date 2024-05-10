@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,13 +159,12 @@ msgstr "**发布日期**"
 msgid "**Support level**"
 msgstr "**支持级别**"
 
-#, fuzzy
 msgid "Godot 4.3 (`master`)"
-msgstr "Godot 4.2（\\ `master`\\ ）"
+msgstr "Godot 4.3（\\ `master`\\ ）"
 
 #, fuzzy
-msgid "April 2024 (estimate)"
-msgstr "2023 年第三季度（预计）"
+msgid "June 2024 (estimate)"
+msgstr "2024 年第一季度（预计）"
 
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
@@ -177,13 +176,11 @@ msgstr ""
 msgid "unstable"
 msgstr "unstable"
 
-#, fuzzy
 msgid "Godot 4.2"
-msgstr "Godot 4.1"
+msgstr "Godot 4.2"
 
-#, fuzzy
 msgid "November 2023"
-msgstr "2021 年 11 月"
+msgstr "2023 年 11 月"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -205,9 +202,8 @@ msgstr "Godot 4.0"
 msgid "March 2023"
 msgstr "2023 年 3 月"
 
-#, fuzzy
 msgid "|eol| No longer supported (last update: 4.0.4)."
-msgstr "|eol| 不再支持（最后更新：2.0.4.1）。"
+msgstr "|eol| 不再支持（最后更新：4.0.4）。"
 
 msgid "eol"
 msgstr "eol"
@@ -215,9 +211,8 @@ msgstr "eol"
 msgid "Godot 3.6 (`3.x`, LTS)"
 msgstr "Godot 3.6（\\ `3.x`\\ 、LTS）"
 
-#, fuzzy
 msgid "Q1 2024 (estimate)"
-msgstr "2023 年第三季度（预计）"
+msgstr "2024 年第一季度（预计）"
 
 msgid ""
 "|supported| *Beta.* Receives new features, usability and performance "
@@ -238,9 +233,8 @@ msgstr "Godot 3.4"
 msgid "November 2021"
 msgstr "2021 年 11 月"
 
-#, fuzzy
 msgid "|eol| No longer supported (last update: 3.4.5)."
-msgstr "|eol| 不再支持（最后更新：3.2.3）。"
+msgstr "|eol| 不再支持（最后更新：3.4.5）。"
 
 msgid "Godot 3.3"
 msgstr "Godot 3.3"
@@ -248,9 +242,8 @@ msgstr "Godot 3.3"
 msgid "April 2021"
 msgstr "2021 年 4 月"
 
-#, fuzzy
 msgid "|eol| No longer supported (last update: 3.3.4)."
-msgstr "|eol| 不再支持（最后更新：3.2.3）。"
+msgstr "|eol| 不再支持（最后更新：3.3.4）。"
 
 msgid "Godot 3.2"
 msgstr "Godot 3.2"
@@ -429,10 +422,11 @@ msgid ""
 msgstr ""
 "虽然 Godot 贡献者的工作没有设置截止日期，次要版本我们会尽量相对高频率地发布。"
 
+#, fuzzy
 msgid ""
 "In particular, after the very length release cycle for 4.0, we are pivoting "
-"to a faster paced development workflow, with the 4.1 release expected within "
-"late Q2 / early Q3 2023."
+"to a faster paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1"
 msgstr ""
 "尤其是在 4.0 经历了漫长的发布周期之后，我们正在转向更快节奏的开发工作流程，预"
 "计 4.1 版本将在 2023 年第二季度末 / 第三季度初发布。"

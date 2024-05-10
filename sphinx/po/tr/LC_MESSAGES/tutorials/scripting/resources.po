@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,33 +43,26 @@ msgid ""
 "`Resource <class_Resource>` examples:"
 msgstr ""
 
-#, fuzzy
 msgid ":ref:`Texture <class_Texture>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Script <class_Script>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Mesh <class_Mesh>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Animation <class_Animation>`"
-msgstr ":ref:`AnimatedSprite <class_AnimatedSprite>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`AudioStream <class_AudioStream>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Font <class_Font>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
-#, fuzzy
 msgid ":ref:`Translation <class_Translation>`"
-msgstr ":ref:`int <class_int>`"
+msgstr ""
 
 msgid ""
 "When the engine loads a resource from disk, **it only loads it once**. If a "
@@ -185,7 +178,7 @@ msgid ""
 "Like any Object in Godot, users can also script Resources. Resource scripts "
 "inherit the ability to freely translate between object properties and "
 "serialized text or binary data (\\*.tres, \\*.res). They also inherit the "
-"reference-counting memory management from the Reference type."
+"reference-counting memory management from the RefCounted type."
 msgstr ""
 
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Introduction to global illumination"
-msgstr "Grafik Kullnıcı Arayüzünü (GUI) giydirmeye giriş"
+msgstr ""
 
 msgid "What is global illumination?"
 msgstr "Genel aydınlatma nedir?"
@@ -97,9 +96,8 @@ msgid ""
 "limitations documentation for ways to reduce this effect."
 msgstr ""
 
-#, fuzzy
 msgid "Specular lighting"
-msgstr "Köşe Işıklandırması"
+msgstr ""
 
 msgid ""
 "Specular lighting is also referred to as *reflections*. This is the lighting "
@@ -122,9 +120,8 @@ msgid ""
 "targeting low-end hardware."
 msgstr ""
 
-#, fuzzy
 msgid "Which global illumination technique should I use?"
-msgstr "Hangi dili kullanmalıyım?"
+msgstr ""
 
 msgid ""
 "When determining a global illumination (GI) technique to use, there are "
@@ -173,9 +170,8 @@ msgstr ""
 msgid "In order of performance from fastest to slowest:"
 msgstr ""
 
-#, fuzzy
 msgid "**ReflectionProbe:**"
-msgstr "**Yansımalar:**"
+msgstr ""
 
 msgid ""
 "ReflectionProbes with their update mode set to **Always** are much more "
@@ -209,9 +205,8 @@ msgid ""
 "**Not available** *when using the Forward Mobile or Compatibility backends.*"
 msgstr ""
 
-#, fuzzy
 msgid "**Screen-space indirect lighting (SSIL):**"
-msgstr "*GLES3:* Ekran-uzayı ortam perdelemesi (SSAO)."
+msgstr ""
 
 msgid ""
 "The SSIL quality and number of blur passes can be adjusted in the Project "
@@ -231,9 +226,8 @@ msgid ""
 "*when using the Forward Mobile or Compatibility backends.*"
 msgstr ""
 
-#, fuzzy
 msgid "Visuals"
-msgstr "VisualScript"
+msgstr ""
 
 msgid ""
 "For comparison, here's a 3D scene with no global illumination options used:"
@@ -352,9 +346,8 @@ msgid ""
 "reflective sphere."
 msgstr ""
 
-#, fuzzy
 msgid "Real-time ability"
-msgstr "**Gerçek-zamanlı ışıklandırma:**"
+msgstr ""
 
 msgid "**VoxelGI:** |good| Fully real-time."
 msgstr ""
@@ -489,15 +482,11 @@ msgid ""
 "See also :ref:`doc_introduction_to_global_illumination_alternatives`."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You can compare global illumination techniques in action using the `Global "
 "Illumination demo project <https://github.com/godotengine/godot-demo-"
 "projects/tree/master/3d/global_illumination>`__."
 msgstr ""
-"Eğer bir örneğe bakarak daha iyi öğreniyorsanız, bir demo projeyi `burada "
-"<https://github.com/godotengine/godot-demo-projects/tree/master/mobile/"
-"android_iap>`__ bulabilirsiniz."
 
 msgid "Which global illumination mode should I use on meshes and lights?"
 msgstr ""

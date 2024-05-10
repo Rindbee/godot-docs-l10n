@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "2D particle systems"
-msgstr "Parçacık Sistemleri"
+msgstr ""
 
 msgid "Intro"
 msgstr ""
@@ -72,9 +71,8 @@ msgid ""
 "needs a ParticleProcessMaterial to function."
 msgstr ""
 
-#, fuzzy
 msgid "ParticleProcessMaterial"
-msgstr "Uzaysal Malzeme"
+msgstr ""
 
 msgid ""
 "To add a process material to your particles node, go to ``Process Material`` "
@@ -98,9 +96,8 @@ msgstr ""
 msgid "The texture is set via the **Texture** property:"
 msgstr ""
 
-#, fuzzy
 msgid "Using an animation flipbook"
-msgstr "Animasyon Ağacını (AnimationTree) kullanmak"
+msgstr ""
 
 msgid ""
 "Particle flipbooks are suited to reproduce complex effects such as smoke, "
@@ -425,9 +422,8 @@ msgstr "Renk"
 msgid "Used to change the color of the particles being emitted."
 msgstr ""
 
-#, fuzzy
 msgid "Hue Variation"
-msgstr "Onaylanma Seçenekleri"
+msgstr ""
 
 msgid ""
 "The ``Variation`` value sets the initial hue variation applied to each "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Class reference primer"
-msgstr "Sınıf başvuru kılavuları"
+msgstr ""
 
 msgid ""
 "This page explains how to write the class reference. You will learn where to "
@@ -179,9 +178,8 @@ msgid ""
 "tags, usage examples and the results after conversion to reStructuredText."
 msgstr ""
 
-#, fuzzy
 msgid "Linking"
-msgstr "Işık Pişirme"
+msgstr ""
 
 msgid ""
 "Whenever you link to a member of another class, you need to specify the "
@@ -189,9 +187,8 @@ msgid ""
 "be omitted."
 msgstr ""
 
-#, fuzzy
 msgid "Tag and Description"
-msgstr "Tanım"
+msgstr ""
 
 msgid "Example"
 msgstr ""
@@ -199,28 +196,23 @@ msgstr ""
 msgid "Result"
 msgstr "Sonucu"
 
-#, fuzzy
 msgid "``[Class]``"
-msgstr "[Class]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to class"
-msgstr "Bir sınıfa bağlantı verir"
+msgstr ""
 
-#, fuzzy
 msgid "``Move the [Sprite2D].``"
-msgstr "Grafik öğeyi, [Sprite], taşıyın."
+msgstr ""
 
-#, fuzzy
 msgid "Move the :ref:`class_Sprite2D`."
-msgstr "Grafik öğeyi, :ref:`class_Sprite`, taşıyın."
+msgstr ""
 
 msgid "``[annotation Class.name]``"
 msgstr ""
 
-#, fuzzy
 msgid "Link to annotation"
-msgstr "Başka bir sınıfa ait bir yönteme bağlantı verin"
+msgstr ""
 
 msgid "``See [annotation @GDScript.@export].``"
 msgstr ""
@@ -228,13 +220,11 @@ msgstr ""
 msgid "See :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`."
 msgstr ""
 
-#, fuzzy
 msgid "``[constant Class.name]``"
-msgstr "[signal Sınıf.sinyal_ismi]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to constant"
-msgstr "PI sabiti."
+msgstr ""
 
 msgid "``See [constant @GlobalScope.KEY_F1].``"
 msgstr ""
@@ -242,13 +232,11 @@ msgstr ""
 msgid "See :ref:`@GlobalScope.KEY_F1 <class_@GlobalScope_constant_KEY_F1>`."
 msgstr ""
 
-#, fuzzy
 msgid "``[enum Class.name]``"
-msgstr "[member Sınıf.üye_ismi]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to enum"
-msgstr "Lisanlara bağlantı"
+msgstr ""
 
 msgid "``See [enum Mesh.ArrayType].``"
 msgstr ""
@@ -256,61 +244,47 @@ msgstr ""
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 msgstr ""
 
-#, fuzzy
 msgid "``[method Class.name]``"
-msgstr "[method Sınıf.yöntem_ismi]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to method"
-msgstr "Bu sınıftaki bir yönteme bağlantı verin"
+msgstr ""
 
-#, fuzzy
 msgid "``Call [method Node3D.hide].``"
-msgstr "[method hide] çağrısı yapın."
+msgstr ""
 
-#, fuzzy
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
-msgstr ":ref:`hide <class_Spatial_method_hide>` çağrısı yapın."
+msgstr ""
 
-#, fuzzy
 msgid "``[member Class.name]``"
-msgstr "[member Sınıf.üye_ismi]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to member"
-msgstr "Üyeyi Düzenle"
+msgstr ""
 
-#, fuzzy
 msgid "``Get [member Node2D.scale].``"
-msgstr "[member Node2D.scale] değerini getir."
+msgstr ""
 
-#, fuzzy
 msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr ":ref:`scale <class_Node2D_property_scale>` değerini getir."
+msgstr ""
 
-#, fuzzy
 msgid "``[signal Class.name]``"
-msgstr "[signal Sınıf.sinyal_ismi]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to signal"
-msgstr "Sinyalleri kullanmak"
+msgstr ""
 
-#, fuzzy
 msgid "``Emit [signal Node.renamed].``"
-msgstr "[signal Node.renamed] sinyalini yayınla."
+msgstr ""
 
-#, fuzzy
 msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
-msgstr ":ref:`renamed <class_Node_signal_renamed>` sinyalini yayınla."
+msgstr ""
 
-#, fuzzy
 msgid "``[theme_item Class.name]``"
-msgstr "[method Sınıf.yöntem_ismi]"
+msgstr ""
 
-#, fuzzy
 msgid "Link to theme item"
-msgstr "Lisanlara bağlantı"
+msgstr ""
 
 msgid "``See [theme_item Label.font].``"
 msgstr ""
@@ -321,9 +295,8 @@ msgstr ""
 msgid "Currently only :ref:`class_@GDScript` has annotations."
 msgstr ""
 
-#, fuzzy
 msgid "Formatting text"
-msgstr "Biçimlendirme"
+msgstr ""
 
 msgid "``[param name]``"
 msgstr ""
@@ -355,30 +328,26 @@ msgstr ""
 msgid "Line 2."
 msgstr ""
 
-#, fuzzy
 msgid "``[b]`` ``[/b]``"
-msgstr "[b] [/b]"
+msgstr ""
 
 msgid "Bold"
 msgstr "Kalın harfli"
 
-#, fuzzy
 msgid "``Some [b]bold[/b] text.``"
-msgstr "Bazı [b]kalın harfli[/b] metin."
+msgstr ""
 
 msgid "Some **bold** text."
 msgstr "Bazı **kalın harfli** metin."
 
-#, fuzzy
 msgid "``[i]`` ``[/i]``"
-msgstr "[i] [/i]"
+msgstr ""
 
 msgid "Italic"
 msgstr "Eğik harfli"
 
-#, fuzzy
 msgid "``Some [i]italic[/i] text.``"
-msgstr "Bazı [i]eğik harfli[/i] yazı."
+msgstr ""
 
 msgid "Some *italic* text."
 msgstr "Bazı **eğik harfli** yazı."
@@ -389,16 +358,14 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Klavye/fare kısayolu"
 
-#, fuzzy
 msgid "``Some [kbd]Ctrl + C[/kbd] key.``"
-msgstr "[kbd]Ctrl + C[/kbd] tuşlarına bas."
+msgstr ""
 
 msgid "Some :kbd:`Ctrl + C` key."
 msgstr ":kbd:`Ctrl + C` tuşlarına bas."
 
-#, fuzzy
 msgid "Formatting code"
-msgstr "Biçimlendirme"
+msgstr ""
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
@@ -406,9 +373,8 @@ msgstr "``[code]`` ``[/code]``"
 msgid "Monospace"
 msgstr "sabit aralıklı yazıtipi"
 
-#, fuzzy
 msgid "``Some [code]monospace[/code] text.``"
-msgstr "Bazı [code]sabit aralıklı yazıtipi[/code] metni."
+msgstr ""
 
 msgid "Some ``monospace`` text."
 msgstr "Bazı ``sabit aralıklı yazıtipi`` metni."
@@ -425,9 +391,8 @@ msgstr "*Aşağıya bakın.*"
 msgid "``[codeblocks]`` ``[/codeblocks]``"
 msgstr "``[codeblocks]`` ``[/codeblocks]``"
 
-#, fuzzy
 msgid "Codeblock for multiple languages"
-msgstr "Çoklu diller için [codeblock]"
+msgstr ""
 
 msgid "``[gdscript]`` ``[/gdscript]``"
 msgstr "``[gdscript]`` ``[/gdscript]``"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Validation layers"
-msgstr "AnimationPlayer"
+msgstr ""
 
 msgid ""
 "Validation layers enable developers to verify their application's correct "
@@ -77,20 +76,17 @@ msgid ""
 "occurs."
 msgstr ""
 
-#, fuzzy
 msgid "Linux, \\*BSD"
-msgstr "X11 (Linux, \\*BSD)"
+msgstr ""
 
 msgid "Install Vulkan validation layers from your distribution's repositories:"
 msgstr ""
 
-#, fuzzy
 msgid "Alpine Linux"
-msgstr "Windows, Linux"
+msgstr ""
 
-#, fuzzy
 msgid "Arch Linux"
-msgstr "Linux"
+msgstr ""
 
 msgid "Debian/Ubuntu"
 msgstr ""
@@ -181,9 +177,8 @@ msgid ""
 "create it."
 msgstr ""
 
-#, fuzzy
 msgid "Compile and run the Android app"
-msgstr "Bir Android eklentisini yüklemek ve kullanmak"
+msgstr ""
 
 msgid ""
 "Linked validation layers are automatically loaded and enabled in Android "
