@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,6 @@ msgstr ""
 msgid "Using RichTextLabel's ``[lb]`` and/or ``[rb]`` tags, we can replace the opening and/or closing brackets of any BBCode tag in a message with those escaped tags. This prevents users from using BBCode that will be parsed as tags – instead, the BBCode will be displayed as text."
 msgstr ""
 
-#: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:106
 #: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:106
 msgid "Example of unescaped user input resulting in BBCode injection (2nd line) and escaped user input (3rd line)"
 msgstr ""
@@ -453,8 +452,6 @@ msgstr ""
 msgid "``[opentype_features={list}]``"
 msgstr ""
 
-#: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:0
-#: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:0
 #: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:0
 msgid "``{text}``"
 msgstr ""
@@ -1114,7 +1111,6 @@ msgstr ""
 msgid "You can extend the :ref:`class_RichTextEffect` resource type to create your own custom BBCode tags. Create a new script file that extends the :ref:`class_RichTextEffect` resource type and give the script a ``class_name`` so that the effect can be selected in the inspector. Add the ``@tool`` annotation to your GDScript file if you wish to have these custom effects run within the editor itself. The RichTextLabel does not need to have a script attached, nor does it need to be running in ``tool`` mode. The new effect can be registered in the Inspector by adding it to the **Markup > Custom Effects** array, or in code with the :ref:`install_effect() <class_RichTextLabel_method_install_effect>` method:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:866
 #: ../../docs/tutorials/ui/bbcode_in_richtextlabel.rst:866
 msgid "Selecting a custom RichTextEffect after saving a script that extends RichTextEffect with a ``class_name``"
 msgstr ""

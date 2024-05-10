@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,16 +29,13 @@ msgid "By default, 2D scenes in Godot are unshaded, with no lights and shadows v
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:18
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:18
 msgid "No 2D lights or shadows, scene is unshaded"
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:24
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:24
 msgid "2D lights enabled (without shadows)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:30
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:30
 msgid "2D lights and shadows enabled"
 msgstr ""
@@ -131,7 +128,6 @@ msgstr ""
 msgid "If you don't have a pre-made texture to use in a light, you can use this \"neutral\" point light texture (right-click > **Save Image As…**):"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:106
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:106
 msgid "Neutral point light texture"
 msgstr ""
@@ -285,16 +281,13 @@ msgid "**Item Cull Mask:** Controls which LightOccluder2D nodes cast shadows, de
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:244
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:244
 msgid "Hard shadows"
 msgstr ""
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:250
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:250
 msgid "Soft shadows (PCF13, Filter Smooth 1.5)"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:256
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:256
 msgid "Soft shadows with streaking artifacts due to Filter Smooth being too high (PCF5, Filter Smooth 4)"
 msgstr ""
@@ -343,7 +336,6 @@ msgstr ""
 msgid "To set up normal maps and/or specular maps on a 2D node, create a new CanvasTexture resource for the property that draws the node's texture. For example, on a Sprite2D:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:310
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:310
 msgid "Creating a CanvasTexture resource for a Sprite2D node"
 msgstr ""

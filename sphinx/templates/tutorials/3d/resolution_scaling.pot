@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -401,46 +401,46 @@ msgid "The texture LOD bias currently affects both 2D and 3D rendering in the sa
 msgstr ""
 
 #: ../../docs/tutorials/3d/resolution_scaling.rst:226
-msgid "The formula used to determine the texture mipmap bias is: TODO"
+msgid "The formula used to determine the texture mipmap bias is: ``log2f(min(scaling_3d_scale, 1.0)) + custom_texture_mipmap_bias``"
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:228
+#: ../../docs/tutorials/3d/resolution_scaling.rst:229
 msgid "To counteract the blurriness added by some antialiasing methods, Godot also adds a ``-0.25`` offset when FXAA is enabled, and a ``-0.5`` offset when TAA is enabled. If both are enabled at the same time, a ``-0.75`` offset is used. This mipmap bias offset is applied *before* the resolution scaling offset, so it does not change depending on resolution scale."
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:234
+#: ../../docs/tutorials/3d/resolution_scaling.rst:235
 msgid "The texture LOD bias can manually be changed by adjusting the **Rendering > Textures > Default Filters > Texture Mipmap Bias** advanced project setting. It can also be changed at run-time on :ref:`Viewports <class_Viewport>` by adjusting the ``texture_mipmap_bias`` property."
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:241
+#: ../../docs/tutorials/3d/resolution_scaling.rst:242
 msgid "Adjusting the mipmap LOD bias manually can be useful in certain scenarios, but this should be done carefully to prevent the final image from looking grainy in motion."
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:245
+#: ../../docs/tutorials/3d/resolution_scaling.rst:246
 msgid "*Negative* mipmap LOD bias can also decrease performance due to higher-resolution mips having to be sampled further away. Recommended values for a manual offset are between ``-0.5`` and ``0.0``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:249
+#: ../../docs/tutorials/3d/resolution_scaling.rst:250
 msgid "*Positive* mipmap LOD bias will make mipmapped textures appear blurrier than intended. This may improve performance slightly, but is otherwise not recommended as the loss in visual quality is usually not worth the performance gain."
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:254
+#: ../../docs/tutorials/3d/resolution_scaling.rst:255
 msgid "The example below shows an extreme case, with a mipmap LOD bias of ``-1.0`` and anisotropic filtering disabled to make the difference more noticeable:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:260
+#: ../../docs/tutorials/3d/resolution_scaling.rst:261
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:263
+#: ../../docs/tutorials/3d/resolution_scaling.rst:264
 msgid "Performance does not increase much when decreasing resolution scale"
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:265
+#: ../../docs/tutorials/3d/resolution_scaling.rst:266
 msgid "If performance doesn't increase much when decreasing resolution scale to a value like ``0.5``, it likely means the performance bottleneck is elsewhere in your scene. For example, your scene could have too many draw calls, causing a CPU bottleneck to occur. Likewise, you may have too many graphics effects enabled for your GPU to handle (such as SDFGI, SSAO or SSR)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/resolution_scaling.rst:271
+#: ../../docs/tutorials/3d/resolution_scaling.rst:272
 msgid "See the :ref:`doc_performance` tutorials for more information."
 msgstr ""
 

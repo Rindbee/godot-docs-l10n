@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "Format conversion"
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:39
-msgid "The current format for images in Godot's documentation is WebP (``.webp``). While some Linux programs will support saving screenshots in this format, macOS and the Snip & Sketch program on Windows do not. For images that don't need editing, such as precise cropping or adding outlines, Squoosh can be used. `Squoosh <https://squoosh.app/>`_ is a converter developed by Google, is open source, and doesn't give Google any image rights by using it. When choosing compression if you can get an image that's under 300KB in size use lossless compression. If it's over 300KB use just enough lossy compression to get it under that size. If this results in noticable compression artifacts using less compression is fine, even if the file size is bigger."
+msgid "The current format for images in Godot's documentation is WebP (``.webp``). While some Linux programs will support saving screenshots in this format, macOS and the Snip & Sketch program on Windows do not. For images that don't need editing, such as precise cropping or adding outlines, Squoosh can be used. `Squoosh <https://squoosh.app/>`_ is a converter developed by Google, is open source, and doesn't give Google any image rights by using it. When choosing compression if you can get an image that's under 300KB in size use lossless compression. If it's over 300KB, use just enough lossy compression to get it under that size. If this results in noticable compression artifacts using less compression is fine, even if the file size is bigger."
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:50
@@ -105,7 +105,7 @@ msgid "To save an image as webp if it isn't already one, Go to **File > Save As*
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:108
-msgid "If the image is over 300KB in size try compressing it losslessly using `Squoosh <https://squoosh.app/>`_. If it's still over 300KB change to lossy compression and slowly increase the compression until it's under 300KB. If this results in noticable compression artifacts using less compression is fine, even if the file size is bigger."
+msgid "If the image is over 300KB in size try compressing it losslessly using `Squoosh <https://squoosh.app/>`_. If it's still over 300KB change to lossy compression and slowly increase the compression until it's under 300KB. If this results in noticeable compression artifacts using less compression is fine, even if the file size is bigger."
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_image_guidelines.rst:114

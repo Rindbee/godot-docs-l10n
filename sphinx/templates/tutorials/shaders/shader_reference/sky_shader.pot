@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,7 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:130
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:155
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:193
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:194
 msgid "Description"
 msgstr ""
 
@@ -151,7 +151,7 @@ msgid "There are 4 ``LIGHTX`` lights, accessed as ``LIGHT0``, ``LIGHT1``, ``LIGH
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:155
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:193
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:194
 msgid "Built-in"
 msgstr ""
 
@@ -240,94 +240,94 @@ msgid "in float **LIGHTX_SIZE**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:177
-msgid "Angular diameter of ``LIGHTX`` in the sky. Expressed in degrees. For reference, the sun from earth is about 0.5 degrees."
+msgid "Angular diameter of ``LIGHTX`` in the sky. Expressed in radians. For reference, the sun from earth is about .0087 radians (0.5 degrees)."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:179
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:180
 msgid "in float **PI**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:179
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:180
 msgid "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its diameter and amount of radians in half turn."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:182
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:183
 msgid "in float **TAU**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:182
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:183
 msgid "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of radians in full turn."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:185
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
 msgid "in float **E**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:185
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
 msgid "A ``E`` constant (``2.718281``). Euler's number and a base of the natural logarithm."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:190
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:191
 msgid "Sky built-ins"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:195
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:196
 msgid "in vec3 **EYEDIR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:195
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:196
 msgid "Normalized direction of current pixel. Use this as your basic direction for procedural effects."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:197
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:198
 msgid "in vec2 **SCREEN_UV**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:197
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:198
 msgid "Screen UV coordinate for current pixel. Used to map a texture to the full screen."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:199
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:200
 msgid "in vec2 **SKY_COORDS**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:199
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:200
 msgid "Sphere UV. Used to map a panorama texture to the sky."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:201
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
 msgid "in vec4 **HALF_RES_COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:201
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
 msgid "Color value of corresponding pixel from half resolution pass. Uses linear filter."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:203
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
 msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:203
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
 msgid "Color value of corresponding pixel from quarter resolution pass. Uses linear filter."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:205
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
 msgid "out vec3 **COLOR**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:205
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
 msgid "Output color."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:207
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
 msgid "out float **ALPHA**"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:207
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
 msgid "Output alpha value, can only be used in subpasses."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:209
+#: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:210
 msgid "out vec4 **FOG**"
 msgstr ""
 

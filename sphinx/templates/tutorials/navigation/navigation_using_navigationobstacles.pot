@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgid "Similar to agents the obstacles can make use of the ``avoidance_layers`` 
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:53
-msgid "Procedual obstacles"
+msgid "Procedural obstacles"
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationobstacles.rst:55

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,6 @@ msgid "Click and drag on the edge of any dock or panel to resize it horizontally
 msgstr ""
 
 #: ../../docs/tutorials/editor/customizing_editor.rst:20
-#: ../../docs/tutorials/editor/customizing_editor.rst:20
 msgid "Resizing a dock in the editor"
 msgstr ""
 
@@ -41,7 +40,6 @@ msgstr ""
 msgid "Click the \"3 vertical dots\" icon at the top of any dock to change its location, or split it to a separate window by choosing **Make Floating** in the submenu that appears:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/customizing_editor.rst:29
 #: ../../docs/tutorials/editor/customizing_editor.rst:29
 msgid "Moving a dock in the editor"
 msgstr ""
@@ -71,7 +69,6 @@ msgid "To split the script editor to its own window, click the corresponding but
 msgstr ""
 
 #: ../../docs/tutorials/editor/customizing_editor.rst:62
-#: ../../docs/tutorials/editor/customizing_editor.rst:62
 msgid "Splitting the script editor to its own window"
 msgstr ""
 
@@ -79,7 +76,6 @@ msgstr ""
 msgid "To split the shader editor to its own window, click the corresponding button in the top-right corner of the script editor:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/customizing_editor.rst:71
 #: ../../docs/tutorials/editor/customizing_editor.rst:71
 msgid "Splitting the shader editor to its own window"
 msgstr ""
@@ -156,7 +152,6 @@ msgstr ""
 msgid "In the **Editor** menu at the top of the editor, you can find an **Editor Settings** option. This opens a window similar to the Project Settings, but with settings used by the editor. These settings are shared across all projects and are not saved in the project files."
 msgstr ""
 
-#: ../../docs/tutorials/editor/customizing_editor.rst:142
 #: ../../docs/tutorials/editor/customizing_editor.rst:142
 msgid "The Editor Settings window"
 msgstr ""

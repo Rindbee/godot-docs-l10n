@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,15 +101,13 @@ msgid "Godot 4.3 (`master`)"
 msgstr ""
 
 #: ../../docs/about/release_policy.rst:83
-msgid "April 2024 (estimate)"
+msgid "June 2024 (estimate)"
 msgstr ""
 
 #: ../../docs/about/release_policy.rst:83
 msgid "|unstable| *Development.* Receives new features, usability and performance improvements, as well as bug fixes, while under development."
 msgstr ""
 
-#: ../../docs/about/release_policy.rst:122
-#: ../../docs/about/release_policy.rst:122
 #: ../../docs/about/release_policy.rst:122
 msgid "unstable"
 msgstr ""
@@ -128,11 +126,6 @@ msgstr ""
 msgid "|supported| Receives fixes for bugs and security issues, as well as patches that enable platform support."
 msgstr ""
 
-#: ../../docs/about/release_policy.rst:119
-#: ../../docs/about/release_policy.rst:119
-#: ../../docs/about/release_policy.rst:119
-#: ../../docs/about/release_policy.rst:119
-#: ../../docs/about/release_policy.rst:119
 #: ../../docs/about/release_policy.rst:119
 msgid "supported"
 msgstr ""
@@ -157,17 +150,6 @@ msgstr ""
 msgid "|eol| No longer supported (last update: 4.0.4)."
 msgstr ""
 
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
-#: ../../docs/about/release_policy.rst:121
 #: ../../docs/about/release_policy.rst:121
 msgid "eol"
 msgstr ""
@@ -298,7 +280,6 @@ msgid "December 2014"
 msgstr ""
 
 #: ../../docs/about/release_policy.rst:120
-#: ../../docs/about/release_policy.rst:120
 msgid "partial"
 msgstr ""
 
@@ -359,7 +340,7 @@ msgid "While Godot contributors aren't working under any deadlines, we strive to
 msgstr ""
 
 #: ../../docs/about/release_policy.rst:200
-msgid "In particular, after the very length release cycle for 4.0, we are pivoting to a faster paced development workflow, with the 4.1 release expected within late Q2 / early Q3 2023."
+msgid "In particular, after the very length release cycle for 4.0, we are pivoting to a faster paced development workflow, 4.1 released 4 months after 4.0, and 4.2 released 4 months after 4.1"
 msgstr ""
 
 #: ../../docs/about/release_policy.rst:204

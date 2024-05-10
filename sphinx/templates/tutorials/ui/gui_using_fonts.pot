@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,6 @@ msgid "The following import options can be used to import the above font image s
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:102
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:102
 msgid "Import options to use for the above example font"
 msgstr ""
 
@@ -191,7 +190,6 @@ msgid "To enable outline for a font on a given node, configure the theme overrid
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:177
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:177
 msgid "Font outline example"
 msgstr ""
 
@@ -204,7 +202,6 @@ msgid "Support for font shadows is more limited: they are only available in :ref
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:197
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:197
 msgid "Configuring font shadow in a Label node"
 msgstr ""
 
@@ -212,7 +209,6 @@ msgstr ""
 msgid "The result should look like this:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:205
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:205
 msgid "Font shadow example"
 msgstr ""
@@ -374,7 +370,6 @@ msgid "To enable MSDF rendering for a given font, select it in the FileSystem do
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:369
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:369
 msgid "Enabling MSDF in the font's import options"
 msgstr ""
 
@@ -403,7 +398,6 @@ msgid "For Godot to be able to display emoji, the font used (or one of its :ref:
 msgstr ""
 
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:393
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:393
 msgid "Default appearance when trying to use emoji in a label"
 msgstr ""
 
@@ -411,7 +405,6 @@ msgstr ""
 msgid "After adding a font to display emoji such as `Noto Color Emoji <https://fonts.google.com/noto/specimen/Noto+Color+Emoji>`__, you get the expected result:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:403
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:403
 msgid "Correct appearance after adding an emoji font to the label"
 msgstr ""
@@ -581,7 +574,6 @@ msgstr ""
 msgid "To allow bold and italic fonts to be displayed without having to ship additional fonts (or use a variable font that is larger in size), Godot supports *faux* bold and italic."
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:593
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:593
 msgid "Faux bold/italic (top), real bold/italic (bottom). Normal font used: Open Sans SemiBold"
 msgstr ""
@@ -891,7 +883,6 @@ msgstr ""
 msgid "Move to the **Pre-render Configurations** tab of the Advanced Import Settings dialog, then add a configuration by clicking the \"plus\" symbol:"
 msgstr ""
 
-#: ../../docs/tutorials/ui/gui_using_fonts.rst:848
 #: ../../docs/tutorials/ui/gui_using_fonts.rst:848
 msgid "Adding a new prerendering configuration in the Advanced Import Settings dialog"
 msgstr ""

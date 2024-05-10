@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -696,7 +696,6 @@ msgstr ""
 msgid "Set the blend mode to **Replace** and **HDR Luminance Cap** to ``1.0``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/environment_and_post_processing.rst:707
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:707
 msgid "Example of using glow to blur the 2D rendering in the menu's background"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,6 @@ msgid "The AnimationPlayer node type is the data container for your animations. 
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:33
-#: ../../docs/tutorials/animation/introduction.rst:33
 msgid "The AnimationPlayer node"
 msgstr ""
 
@@ -66,7 +65,6 @@ msgid "After you create an AnimationPlayer node, click on it to open the Animati
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:41
-#: ../../docs/tutorials/animation/introduction.rst:41
 msgid "The animation panel position"
 msgstr ""
 
@@ -74,7 +72,6 @@ msgstr ""
 msgid "The animation panel consists of four parts:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:48
 #: ../../docs/tutorials/animation/introduction.rst:48
 msgid "The animation panel"
 msgstr ""
@@ -108,7 +105,6 @@ msgid "Diamond shapes represent keyframes in the timeline. A line between two ke
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:67
-#: ../../docs/tutorials/animation/introduction.rst:67
 msgid "Keyframes in Godot"
 msgstr ""
 
@@ -116,7 +112,6 @@ msgstr ""
 msgid "You set values of a node's properties and create animation keyframes for them. When the animation runs, the engine will interpolate the values between the keyframes, resulting in them gradually changing over time."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:76
 #: ../../docs/tutorials/animation/introduction.rst:76
 msgid "Two keyframes are all it takes to obtain a smooth motion"
 msgstr ""
@@ -126,7 +121,6 @@ msgid "The timeline defines how long the animation will take. You can insert key
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:84
-#: ../../docs/tutorials/animation/introduction.rst:84
 msgid "The timeline in the animation panel"
 msgstr ""
 
@@ -135,7 +129,6 @@ msgid "Each line in the Animation Panel is an animation track that references a 
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:95
-#: ../../docs/tutorials/animation/introduction.rst:95
 msgid "Example of Normal animation tracks"
 msgstr ""
 
@@ -143,8 +136,6 @@ msgstr ""
 msgid "If you animate the wrong property, you can edit a track's path at any time by double-clicking on it and typing the new path. Play the animation using the \"Play from beginning\" button |Play from beginning| (or pressing :kbd:`Shift + D` on keyboard) to see the changes instantly."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:339
-#: ../../docs/tutorials/animation/introduction.rst:339
 #: ../../docs/tutorials/animation/introduction.rst:339
 msgid "Play from beginning"
 msgstr ""
@@ -161,7 +152,6 @@ msgstr ""
 msgid "For this tutorial, we'll create a Sprite node with an AnimationPlayer as its child. We will animate the sprite to move between two points on the screen."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:116
 #: ../../docs/tutorials/animation/introduction.rst:116
 msgid "Our scene setup"
 msgstr ""
@@ -187,11 +177,9 @@ msgid "Select the AnimationPlayer node and click the \"Animation\" button in the
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:340
-#: ../../docs/tutorials/animation/introduction.rst:340
 msgid "Add Animation"
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:141
 #: ../../docs/tutorials/animation/introduction.rst:141
 msgid "Add a new animation"
 msgstr ""
@@ -205,7 +193,6 @@ msgid "For reusability, the animation is registered in a list in the animation l
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:151
-#: ../../docs/tutorials/animation/introduction.rst:151
 msgid "Manage animations"
 msgstr ""
 
@@ -213,7 +200,6 @@ msgstr ""
 msgid "If there are multiple animation libraries and you try to add an animation, a dialog box will appear with options."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:158
 #: ../../docs/tutorials/animation/introduction.rst:158
 msgid "Add a new animation with library option"
 msgstr ""
@@ -226,7 +212,6 @@ msgstr ""
 msgid "To add a new track for our sprite, select it and take a look at the toolbar:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:169
 #: ../../docs/tutorials/animation/introduction.rst:169
 msgid "Convenience buttons"
 msgstr ""
@@ -244,7 +229,6 @@ msgid "Godot will create a new track and insert our first keyframe at the beginn
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:186
-#: ../../docs/tutorials/animation/introduction.rst:186
 msgid "The sprite track"
 msgstr ""
 
@@ -260,7 +244,6 @@ msgstr ""
 msgid "Let's say we want it to take two seconds to move between the points. By default, the animation is set to last only one second, so change the animation length to 2 in the controls on the right side of the animation panel's timeline header."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:201
 #: ../../docs/tutorials/animation/introduction.rst:201
 msgid "Animation length"
 msgstr ""
@@ -286,7 +269,6 @@ msgid "Yay! Our animation runs:"
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:219
-#: ../../docs/tutorials/animation/introduction.rst:219
 msgid "The animation"
 msgstr ""
 
@@ -303,7 +285,6 @@ msgid "This means we can extend the animation length to four seconds now, and Go
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:235
-#: ../../docs/tutorials/animation/introduction.rst:235
 msgid "Animation loop"
 msgstr ""
 
@@ -312,7 +293,6 @@ msgid "You can change this behavior by changing the track's loop mode. This is c
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:241
-#: ../../docs/tutorials/animation/introduction.rst:249
 #: ../../docs/tutorials/animation/introduction.rst:249
 msgid "Track settings"
 msgstr ""
@@ -337,7 +317,6 @@ msgstr ""
 msgid "**Capture:** if the first keyframe's time is greater than ``0.0``, the current value of the property will be remembered and will be blended with the first animation key. For example, you could use the Capture mode to move a node that's located anywhere to a specific location."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:265
 #: ../../docs/tutorials/animation/introduction.rst:265
 msgid "Track mode"
 msgstr ""
@@ -371,7 +350,6 @@ msgid "Cubic Angle (Only appears in rotation property): Cubic mode with shortest
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:284
-#: ../../docs/tutorials/animation/introduction.rst:284
 msgid "Track interpolation"
 msgstr ""
 
@@ -383,7 +361,6 @@ msgstr ""
 msgid "Godot supports two loop modes, which affect the animation when it's set to loop:"
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:297
 #: ../../docs/tutorials/animation/introduction.rst:297
 msgid "Loop modes"
 msgstr ""
@@ -397,7 +374,6 @@ msgid "Wrap loop interpolation: When this is selected, Godot calculates the anim
 msgstr ""
 
 #: ../../docs/tutorials/animation/introduction.rst:307
-#: ../../docs/tutorials/animation/introduction.rst:320
 #: ../../docs/tutorials/animation/introduction.rst:320
 msgid "Keyframes for other properties"
 msgstr ""
@@ -418,7 +394,6 @@ msgstr ""
 msgid "You can click on a keyframe in the animation timeline to display and edit its value in the *Inspector*."
 msgstr ""
 
-#: ../../docs/tutorials/animation/introduction.rst:331
 #: ../../docs/tutorials/animation/introduction.rst:331
 msgid "Keyframe editor editing a key"
 msgstr ""

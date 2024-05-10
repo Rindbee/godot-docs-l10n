@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "When the ``Disable Z`` property is enabled, particles will not move along
 msgstr ""
 
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:47
-msgid "The ``Daming as Friction`` property changes the behavior of damping from a constant deceleration to a deceleration based on speed."
+msgid "The ``Damping as Friction`` property changes the behavior of damping from a constant deceleration to a deceleration based on speed."
 msgstr ""
 
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:51
@@ -225,7 +225,6 @@ msgid "Tangential acceleration"
 msgstr ""
 
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:213
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:213
 msgid "Tangents on a circle"
 msgstr ""
 
@@ -241,7 +240,6 @@ msgstr ""
 msgid "A tangent to a circle is a straight line that \"touches\" the circle in a right angle to the circle's radius at the touch point. A circle on the particle system's XZ-plane is the circle that you see when you look straight down at the particle system from above."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/process_material_properties.rst:229
 #: ../../docs/tutorials/3d/particles/process_material_properties.rst:229
 msgid "Tangential acceleration from above"
 msgstr ""

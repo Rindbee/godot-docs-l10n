@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,6 @@ msgid "|image0|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:336
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:336
 msgid "image0"
 msgstr ""
 
@@ -54,7 +53,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:337
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:337
 msgid "image1"
 msgstr ""
 
@@ -66,7 +64,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:338
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:338
 msgid "image2"
 msgstr ""
@@ -87,7 +84,6 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:339
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:339
 msgid "image4"
 msgstr ""
@@ -125,7 +121,6 @@ msgid "|image5|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:340
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:340
 msgid "image5"
 msgstr ""
 
@@ -137,7 +132,6 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:341
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:341
 msgid "image6"
 msgstr ""
@@ -158,7 +152,6 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:342
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:342
 msgid "image7"
 msgstr ""
@@ -204,7 +197,6 @@ msgid "|image8|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:343
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:343
 msgid "image8"
 msgstr ""
 
@@ -216,7 +208,6 @@ msgstr ""
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:344
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:344
 msgid "image9"
 msgstr ""
@@ -230,12 +221,11 @@ msgid "|image10|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:345
-#: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:345
 msgid "image10"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:235
-msgid "This will take you back to the script editor and add a new function for you, ``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the ``queue_free()`` method. This function destroy the instance it's called on."
+msgid "This will take you back to the script editor and add a new function for you, ``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the ``queue_free()`` method. This function destroys the instance it's called on."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/04.mob_scene.rst:254

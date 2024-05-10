@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,6 @@ msgid "Here is an example of LOD meshes generated on import. Lower detailed mesh
 msgstr ""
 
 #: ../../docs/tutorials/3d/mesh_lod.rst:52
-#: ../../docs/tutorials/3d/mesh_lod.rst:52
 msgid "From most detailed (left) to least detailed (right), shaded view"
 msgstr ""
 
@@ -81,7 +80,6 @@ msgstr ""
 msgid "Here's the same image with wireframe rendering to make the decimation easier to see:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:60
 #: ../../docs/tutorials/3d/mesh_lod.rst:60
 msgid "From most detailed (left) to least detailed (right), wireframe view"
 msgstr ""
@@ -106,7 +104,6 @@ msgstr ""
 msgid "To make an OBJ file have mesh LOD generated for it, select it in the FileSystem dock, go to the Import dock, change its **Import As** option to **Scene** then click **Reimport**:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:88
 #: ../../docs/tutorials/3d/mesh_lod.rst:88
 msgid "Changing the import type on an OBJ file in the Import dock"
 msgstr ""
@@ -135,7 +132,6 @@ msgstr ""
 msgid "To disable mesh LOD in the editor for comparison purposes, use the **Disable Mesh LOD** advanced debug draw mode. This can be done using the menu in the top-left corner of the 3D viewport (labeled **Perspective** or **Orthogonal** depending on camera mode):"
 msgstr ""
 
-#: ../../docs/tutorials/3d/mesh_lod.rst:118
 #: ../../docs/tutorials/3d/mesh_lod.rst:118
 msgid "Disabling mesh LOD in the 3D viewport's top-left menu"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,26 +206,26 @@ msgid "Click on the region node and add a new NavigationPolygon Resource to the 
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:97
-msgid "Define the moveable navigation area with the NavigationPolygon draw tool."
+msgid "Define the movable navigation area with the NavigationPolygon draw tool. Then click the `Bake NavigationPolygon`` button on the toolbar."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:103
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:104
 msgid "The navigation mesh defines the area where an actor can stand and move with its center. Leave enough margin between the navigation polygon edges and collision objects to not get path following actors repeatedly stuck on collision."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:106
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:107
 msgid "Add a CharacterBody2D node in the scene with a basic collision shape and a sprite or mesh for visuals."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:109
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:110
 msgid "Add a NavigationAgent2D node below the character node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:113
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:114
 msgid "Add the following script to the CharacterBody2D node. We make sure to set a movement target after the scene has fully loaded and the NavigationServer had time to sync."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:215
+#: ../../docs/tutorials/navigation/navigation_introduction_2d.rst:216
 msgid "On the first frame the NavigationServer map has not synchronized region data and any path query will return empty. Wait for the NavigationServer synchronization by awaiting one frame in the script."
 msgstr ""
 

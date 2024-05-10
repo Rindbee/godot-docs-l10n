@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -472,7 +472,6 @@ msgid "Adjustable light \"size\" for fake area lights (will also make shadows bl
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:216
-#: ../../docs/about/list_of_features.rst:292
 msgid "Optional distance fade system to fade distant lights and their shadows, improving performance."
 msgstr ""
 
@@ -606,6 +605,10 @@ msgstr ""
 
 #: ../../docs/about/list_of_features.rst:291
 msgid "Support for nearest, bilinear, trilinear or anisotropic texture filtering (configured globally)."
+msgstr ""
+
+#: ../../docs/about/list_of_features.rst:292
+msgid "Optional distance fade system to fade distant decals, improving performance."
 msgstr ""
 
 #: ../../docs/about/list_of_features.rst:293

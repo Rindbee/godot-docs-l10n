@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -388,12 +388,8 @@ msgid "Multiline preformatted block"
 msgstr ""
 
 #: ../../docs/contributing/documentation/class_reference_primer.rst:200
-#: ../../docs/contributing/documentation/class_reference_primer.rst:200
-#: ../../docs/contributing/documentation/class_reference_primer.rst:203
 #: ../../docs/contributing/documentation/class_reference_primer.rst:203
 #: ../../docs/contributing/documentation/class_reference_primer.rst:206
-#: ../../docs/contributing/documentation/class_reference_primer.rst:206
-#: ../../docs/contributing/documentation/class_reference_primer.rst:209
 #: ../../docs/contributing/documentation/class_reference_primer.rst:209
 msgid "*See below.*"
 msgstr ""

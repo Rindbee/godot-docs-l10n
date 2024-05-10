@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,6 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:334
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:334
 msgid "image0"
 msgstr ""
@@ -50,7 +49,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:335
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:335
 msgid "image1"
 msgstr ""
 
@@ -62,7 +60,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:336
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:336
 msgid "image2"
 msgstr ""
@@ -88,7 +85,6 @@ msgid "|image3|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:337
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:337
 msgid "image3"
 msgstr ""
 
@@ -105,7 +101,6 @@ msgid "|image4|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:338
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:338
 msgid "image4"
 msgstr ""
 
@@ -117,7 +112,6 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:339
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:339
 msgid "image5"
 msgstr ""
@@ -131,7 +125,6 @@ msgid "|image6|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:340
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:340
 msgid "image6"
 msgstr ""
 
@@ -143,7 +136,6 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:341
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:341
 msgid "image7"
 msgstr ""
@@ -157,7 +149,6 @@ msgid "|image8|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:342
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:342
 msgid "image8"
 msgstr ""
 
@@ -169,7 +160,6 @@ msgstr ""
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:343
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:343
 msgid "image9"
 msgstr ""
@@ -187,7 +177,6 @@ msgid "|image10|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:344
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:344
 msgid "image10"
 msgstr ""
 
@@ -199,7 +188,6 @@ msgstr ""
 msgid "|image11|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:345
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:345
 msgid "image11"
 msgstr ""
@@ -221,7 +209,6 @@ msgid "|image12|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:346
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:346
 msgid "image12"
 msgstr ""
 
@@ -233,7 +220,6 @@ msgstr ""
 msgid "|image13|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:347
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:347
 msgid "image13"
 msgstr ""
@@ -255,7 +241,6 @@ msgid "|image14|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:348
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:348
 msgid "image14"
 msgstr ""
 
@@ -268,7 +253,6 @@ msgid "|image15|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:349
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:349
 msgid "image15"
 msgstr ""
 
@@ -280,7 +264,6 @@ msgstr ""
 msgid "|image16|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:350
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:350
 msgid "image16"
 msgstr ""
@@ -298,7 +281,6 @@ msgid "|image17|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:351
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:351
 msgid "image17"
 msgstr ""
 
@@ -311,7 +293,6 @@ msgid "|image18|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:352
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:352
 msgid "image18"
 msgstr ""
 
@@ -323,7 +304,6 @@ msgstr ""
 msgid "|image19|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:353
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:353
 msgid "image19"
 msgstr ""
@@ -357,7 +337,6 @@ msgid "|image20|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:354
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:354
 msgid "image20"
 msgstr ""
 
@@ -370,7 +349,6 @@ msgid "|image21|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:355
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:355
 msgid "image21"
 msgstr ""
 
@@ -382,7 +360,6 @@ msgstr ""
 msgid "|image22|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:356
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:356
 msgid "image22"
 msgstr ""
@@ -400,7 +377,6 @@ msgid "|image23|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:357
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:357
 msgid "image23"
 msgstr ""
 
@@ -412,7 +388,6 @@ msgstr ""
 msgid "|image24|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:358
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:358
 msgid "image24"
 msgstr ""
@@ -461,7 +436,6 @@ msgstr ""
 msgid "|image25|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:359
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:359
 msgid "image25"
 msgstr ""

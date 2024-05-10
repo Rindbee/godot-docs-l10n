@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,26 +133,21 @@ msgid "These ports are colored to differentiate type of port:"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/visual_shaders.rst:104
-#: ../../docs/tutorials/shaders/visual_shaders.rst:104
 msgid "scalar"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:105
 #: ../../docs/tutorials/shaders/visual_shaders.rst:105
 msgid "vector"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/visual_shaders.rst:106
-#: ../../docs/tutorials/shaders/visual_shaders.rst:106
 msgid "boolean"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/visual_shaders.rst:107
-#: ../../docs/tutorials/shaders/visual_shaders.rst:107
 msgid "transform"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/visual_shaders.rst:108
 #: ../../docs/tutorials/shaders/visual_shaders.rst:108
 msgid "sampler"
 msgstr ""

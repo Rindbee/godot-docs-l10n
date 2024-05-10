@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -296,7 +296,7 @@ msgid "OpenXR defines a number of bindable input poses that are commonly availab
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:204
-msgid "The aim pose on most controllers is positioned slightly infront of the controller and aims forward. This is a great pose to use for laser pointers or to align the muzzle of a weapon with."
+msgid "The aim pose on most controllers is positioned slightly in front of the controller and aims forward. This is a great pose to use for laser pointers or to align the muzzle of a weapon with."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:206

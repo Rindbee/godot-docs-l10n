@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,6 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:166
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:166
 msgid "image0"
 msgstr ""
@@ -66,7 +65,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:167
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:167
 msgid "image1"
 msgstr ""
 
@@ -78,7 +76,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:168
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:168
 msgid "image2"
 msgstr ""
@@ -100,7 +97,6 @@ msgid "|image3|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:169
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:169
 msgid "image3"
 msgstr ""
 
@@ -117,7 +113,6 @@ msgid "|image4|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:170
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:170
 msgid "image4"
 msgstr ""
 
@@ -129,7 +124,6 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:171
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:171
 msgid "image5"
 msgstr ""
@@ -159,7 +153,6 @@ msgid "|image6|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:172
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:172
 msgid "image6"
 msgstr ""
 
@@ -171,7 +164,6 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:173
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:173
 msgid "image7"
 msgstr ""
@@ -193,7 +185,6 @@ msgid "|image8|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:174
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:174
 msgid "image8"
 msgstr ""
 
@@ -205,7 +196,6 @@ msgstr ""
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:175
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:175
 msgid "image9"
 msgstr ""
@@ -222,7 +212,6 @@ msgstr ""
 msgid "|image12|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:177
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:177
 msgid "image12"
 msgstr ""
@@ -252,7 +241,6 @@ msgid "|image15|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:178
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:178
 msgid "image15"
 msgstr ""
 
@@ -265,7 +253,6 @@ msgid "|image16|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:179
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:179
 msgid "image16"
 msgstr ""
 
@@ -277,7 +264,6 @@ msgstr ""
 msgid "|image18|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/02.player_input.rst:181
 #: ../../docs/getting_started/first_3d_game/02.player_input.rst:181
 msgid "image18"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid ":ref:`Resource <class_Resource>`: Only slightly more complex than RefCoun
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/node_alternatives.rst:51
-msgid "**Example:** Scripts, PackedScene (for scene files), and other types like each of the :ref:`AudioEffect <class_AudioEffect>` classes. Each of these can be save and loaded, therefore they extend from Resource."
+msgid "**Example:** Scripts, PackedScene (for scene files), and other types like each of the :ref:`AudioEffect <class_AudioEffect>` classes. Each of these can be saved and loaded, therefore they extend from Resource."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/node_alternatives.rst:55

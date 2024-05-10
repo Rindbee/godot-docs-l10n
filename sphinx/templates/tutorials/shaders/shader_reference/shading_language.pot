@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,6 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:27
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:819
-#: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:819
 msgid "**bool**"
 msgstr ""
 
@@ -100,7 +99,6 @@ msgstr ""
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:821
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:831
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:833
-#: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:835
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:835
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:843
 msgid "**int**"
@@ -174,7 +172,6 @@ msgid "Four-component vector of unsigned integers."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:51
-#: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:851
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:851
 msgid "**float**"
 msgstr ""
@@ -1132,7 +1129,6 @@ msgid "To create a global uniform, open the **Project Settings** then go to the 
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:956
-#: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:956
 msgid "Adding a global uniform in the Shader Globals tab of the Project Settings"
 msgstr ""
 
@@ -1188,7 +1184,6 @@ msgstr ""
 msgid "After saving the shader, you can change the per-instance uniform's value using the inspector:"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:1053
 #: ../../docs/tutorials/shaders/shader_reference/shading_language.rst:1053
 msgid "Setting a per-instance uniform's value in the GeometryInstance3D section of the inspector"
 msgstr ""

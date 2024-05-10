@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,28 +131,20 @@ msgstr ""
 
 #: ../../docs/tutorials/io/binary_serialization_api.rst:53
 #: ../../docs/tutorials/io/binary_serialization_api.rst:122
-#: ../../docs/tutorials/io/binary_serialization_api.rst:122
-#: ../../docs/tutorials/io/binary_serialization_api.rst:133
 #: ../../docs/tutorials/io/binary_serialization_api.rst:133
 #: ../../docs/tutorials/io/binary_serialization_api.rst:142
 #: ../../docs/tutorials/io/binary_serialization_api.rst:153
-#: ../../docs/tutorials/io/binary_serialization_api.rst:153
 #: ../../docs/tutorials/io/binary_serialization_api.rst:162
 #: ../../docs/tutorials/io/binary_serialization_api.rst:171
-#: ../../docs/tutorials/io/binary_serialization_api.rst:171
-#: ../../docs/tutorials/io/binary_serialization_api.rst:184
 #: ../../docs/tutorials/io/binary_serialization_api.rst:184
 #: ../../docs/tutorials/io/binary_serialization_api.rst:186
-#: ../../docs/tutorials/io/binary_serialization_api.rst:195
 #: ../../docs/tutorials/io/binary_serialization_api.rst:195
 #: ../../docs/tutorials/io/binary_serialization_api.rst:197
 #: ../../docs/tutorials/io/binary_serialization_api.rst:199
 #: ../../docs/tutorials/io/binary_serialization_api.rst:201
 #: ../../docs/tutorials/io/binary_serialization_api.rst:210
-#: ../../docs/tutorials/io/binary_serialization_api.rst:210
 #: ../../docs/tutorials/io/binary_serialization_api.rst:212
 #: ../../docs/tutorials/io/binary_serialization_api.rst:214
-#: ../../docs/tutorials/io/binary_serialization_api.rst:223
 #: ../../docs/tutorials/io/binary_serialization_api.rst:223
 #: ../../docs/tutorials/io/binary_serialization_api.rst:225
 #: ../../docs/tutorials/io/binary_serialization_api.rst:227
@@ -160,23 +152,19 @@ msgstr ""
 #: ../../docs/tutorials/io/binary_serialization_api.rst:231
 #: ../../docs/tutorials/io/binary_serialization_api.rst:233
 #: ../../docs/tutorials/io/binary_serialization_api.rst:242
-#: ../../docs/tutorials/io/binary_serialization_api.rst:242
 #: ../../docs/tutorials/io/binary_serialization_api.rst:244
 #: ../../docs/tutorials/io/binary_serialization_api.rst:246
 #: ../../docs/tutorials/io/binary_serialization_api.rst:248
 #: ../../docs/tutorials/io/binary_serialization_api.rst:257
-#: ../../docs/tutorials/io/binary_serialization_api.rst:257
 #: ../../docs/tutorials/io/binary_serialization_api.rst:259
 #: ../../docs/tutorials/io/binary_serialization_api.rst:261
 #: ../../docs/tutorials/io/binary_serialization_api.rst:263
-#: ../../docs/tutorials/io/binary_serialization_api.rst:272
 #: ../../docs/tutorials/io/binary_serialization_api.rst:272
 #: ../../docs/tutorials/io/binary_serialization_api.rst:274
 #: ../../docs/tutorials/io/binary_serialization_api.rst:276
 #: ../../docs/tutorials/io/binary_serialization_api.rst:278
 #: ../../docs/tutorials/io/binary_serialization_api.rst:280
 #: ../../docs/tutorials/io/binary_serialization_api.rst:282
-#: ../../docs/tutorials/io/binary_serialization_api.rst:291
 #: ../../docs/tutorials/io/binary_serialization_api.rst:291
 #: ../../docs/tutorials/io/binary_serialization_api.rst:293
 #: ../../docs/tutorials/io/binary_serialization_api.rst:295
@@ -186,7 +174,6 @@ msgstr ""
 #: ../../docs/tutorials/io/binary_serialization_api.rst:303
 #: ../../docs/tutorials/io/binary_serialization_api.rst:305
 #: ../../docs/tutorials/io/binary_serialization_api.rst:307
-#: ../../docs/tutorials/io/binary_serialization_api.rst:316
 #: ../../docs/tutorials/io/binary_serialization_api.rst:316
 #: ../../docs/tutorials/io/binary_serialization_api.rst:318
 #: ../../docs/tutorials/io/binary_serialization_api.rst:320
@@ -200,51 +187,36 @@ msgstr ""
 #: ../../docs/tutorials/io/binary_serialization_api.rst:336
 #: ../../docs/tutorials/io/binary_serialization_api.rst:338
 #: ../../docs/tutorials/io/binary_serialization_api.rst:347
-#: ../../docs/tutorials/io/binary_serialization_api.rst:347
 #: ../../docs/tutorials/io/binary_serialization_api.rst:349
 #: ../../docs/tutorials/io/binary_serialization_api.rst:351
 #: ../../docs/tutorials/io/binary_serialization_api.rst:353
 #: ../../docs/tutorials/io/binary_serialization_api.rst:362
-#: ../../docs/tutorials/io/binary_serialization_api.rst:362
-#: ../../docs/tutorials/io/binary_serialization_api.rst:382
 #: ../../docs/tutorials/io/binary_serialization_api.rst:382
 #: ../../docs/tutorials/io/binary_serialization_api.rst:384
 #: ../../docs/tutorials/io/binary_serialization_api.rst:392
 #: ../../docs/tutorials/io/binary_serialization_api.rst:414
-#: ../../docs/tutorials/io/binary_serialization_api.rst:414
 #: ../../docs/tutorials/io/binary_serialization_api.rst:423
-#: ../../docs/tutorials/io/binary_serialization_api.rst:432
 #: ../../docs/tutorials/io/binary_serialization_api.rst:432
 #: ../../docs/tutorials/io/binary_serialization_api.rst:436
 #: ../../docs/tutorials/io/binary_serialization_api.rst:444
 #: ../../docs/tutorials/io/binary_serialization_api.rst:468
-#: ../../docs/tutorials/io/binary_serialization_api.rst:468
-#: ../../docs/tutorials/io/binary_serialization_api.rst:480
 #: ../../docs/tutorials/io/binary_serialization_api.rst:480
 #: ../../docs/tutorials/io/binary_serialization_api.rst:492
-#: ../../docs/tutorials/io/binary_serialization_api.rst:492
-#: ../../docs/tutorials/io/binary_serialization_api.rst:505
 #: ../../docs/tutorials/io/binary_serialization_api.rst:505
 #: ../../docs/tutorials/io/binary_serialization_api.rst:507
 #: ../../docs/tutorials/io/binary_serialization_api.rst:516
 #: ../../docs/tutorials/io/binary_serialization_api.rst:527
-#: ../../docs/tutorials/io/binary_serialization_api.rst:527
 #: ../../docs/tutorials/io/binary_serialization_api.rst:529
 #: ../../docs/tutorials/io/binary_serialization_api.rst:538
-#: ../../docs/tutorials/io/binary_serialization_api.rst:538
-#: ../../docs/tutorials/io/binary_serialization_api.rst:549
 #: ../../docs/tutorials/io/binary_serialization_api.rst:549
 #: ../../docs/tutorials/io/binary_serialization_api.rst:557
-#: ../../docs/tutorials/io/binary_serialization_api.rst:570
 #: ../../docs/tutorials/io/binary_serialization_api.rst:570
 #: ../../docs/tutorials/io/binary_serialization_api.rst:572
 #: ../../docs/tutorials/io/binary_serialization_api.rst:574
 #: ../../docs/tutorials/io/binary_serialization_api.rst:583
-#: ../../docs/tutorials/io/binary_serialization_api.rst:583
 #: ../../docs/tutorials/io/binary_serialization_api.rst:585
 #: ../../docs/tutorials/io/binary_serialization_api.rst:587
 #: ../../docs/tutorials/io/binary_serialization_api.rst:589
-#: ../../docs/tutorials/io/binary_serialization_api.rst:598
 #: ../../docs/tutorials/io/binary_serialization_api.rst:598
 #: ../../docs/tutorials/io/binary_serialization_api.rst:600
 #: ../../docs/tutorials/io/binary_serialization_api.rst:602

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,6 @@ msgid "|image0|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:368
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:368
 msgid "image0"
 msgstr ""
 
@@ -81,7 +80,6 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:369
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:369
 msgid "image1"
 msgstr ""
@@ -103,7 +101,6 @@ msgid "|image2|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:370
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:370
 msgid "image2"
 msgstr ""
 
@@ -115,7 +112,6 @@ msgstr ""
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:371
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:371
 msgid "image3"
 msgstr ""
@@ -133,7 +129,6 @@ msgid "|image4|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:372
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:372
 msgid "image4"
 msgstr ""
 
@@ -150,7 +145,6 @@ msgid "|image5|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:373
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:373
 msgid "image5"
 msgstr ""
 
@@ -166,7 +160,6 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:374
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:374
 msgid "image6"
 msgstr ""
@@ -236,7 +229,6 @@ msgid "|image7|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:375
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:375
 msgid "image7"
 msgstr ""
 
@@ -248,7 +240,6 @@ msgstr ""
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:376
 #: ../../docs/getting_started/first_3d_game/06.jump_and_squash.rst:376
 msgid "image8"
 msgstr ""

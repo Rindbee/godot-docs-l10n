@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,6 @@ msgstr ""
 msgid "Several options are available in the Import dock after selecting a WAV file in the FileSystem dock:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:72
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:72
 msgid "Import options in the Import dock after selecting a WAV file in the FileSystem dock"
 msgstr ""
@@ -315,7 +314,6 @@ msgstr ""
 msgid "If you double-click an Ogg Vorbis or MP3 file in the FileSystem dock (or choose **Advanced…** in the Import dock), you will see a dialog appear:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:251
 #: ../../docs/tutorials/assets_pipeline/importing_audio_samples.rst:251
 msgid "Advanced dialog when double-clicking a Ogg Vorbis or MP3 file in the FileSystem dock"
 msgstr ""

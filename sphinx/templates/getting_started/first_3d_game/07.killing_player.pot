@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,6 @@ msgid "|image0|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/07.killing_player.rst:526
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:526
 msgid "image0"
 msgstr ""
 
@@ -54,7 +53,6 @@ msgid "|image1|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/07.killing_player.rst:527
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:527
 msgid "image1"
 msgstr ""
 
@@ -66,7 +64,6 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:528
 #: ../../docs/getting_started/first_3d_game/07.killing_player.rst:528
 msgid "image2"
 msgstr ""
@@ -88,7 +85,6 @@ msgid "|image3|"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/07.killing_player.rst:529
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:529
 msgid "image3"
 msgstr ""
 
@@ -100,7 +96,6 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:530
 #: ../../docs/getting_started/first_3d_game/07.killing_player.rst:530
 msgid "image4"
 msgstr ""
@@ -141,7 +136,6 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/07.killing_player.rst:531
 #: ../../docs/getting_started/first_3d_game/07.killing_player.rst:531
 msgid "image5"
 msgstr ""

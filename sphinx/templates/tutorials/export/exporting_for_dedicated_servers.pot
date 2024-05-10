@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,6 @@ msgid "To begin doing so, make sure you have a dedicated export preset for your 
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:66
-#: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:66
 msgid "Choosing the **Export as dedicated server** export mode in the export preset"
 msgstr ""
 
@@ -101,7 +100,6 @@ msgstr ""
 msgid "After selecting this export mode, you will be presented with a list of resources in the project:"
 msgstr ""
 
-#: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:85
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:85
 msgid "Choosing resources to keep, keep with stripped visuals or remove"
 msgstr ""
@@ -119,7 +117,7 @@ msgid "**Strip Visuals:** Export this resource, with visual files (textures and 
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:99
-msgid "**Keep:** Export this resource as usual, with visual files interact."
+msgid "**Keep:** Export this resource as usual, with visual files intact."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_dedicated_servers.rst:100

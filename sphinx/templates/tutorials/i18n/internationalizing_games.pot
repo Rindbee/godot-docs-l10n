@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "Localization is usually done by specific studios hired for the job. Despi
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:25
-msgid "We will be using the official demo as an example; you can `download it from the Asset Library <https://godotengine.org/asset-library/asset/134>`_."
+msgid "We will be using the official demo as an example; you can `download it from the Asset Library <https://godotengine.org/asset-library/asset/2776>`_."
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:29

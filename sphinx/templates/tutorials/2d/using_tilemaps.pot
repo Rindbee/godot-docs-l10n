@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,6 @@ msgid "The recommended way to reuse the same TileSet in several TileMap nodes is
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:40
-#: ../../docs/tutorials/2d/using_tilemaps.rst:40
 msgid "Saving the built-in TileSet resource to an external resource file"
 msgstr ""
 
@@ -61,7 +60,6 @@ msgstr ""
 msgid "By default, a TileMap node automatically has one premade layer. You do not have to create additional layers if you only need a single layer, but if you wish to do so now, select the TileMap node and unfold the **Layers** section in the inspector:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:59
 #: ../../docs/tutorials/2d/using_tilemaps.rst:59
 msgid "Creating layers in a TileMap node (example with \"background\" and \"foreground\")"
 msgstr ""
@@ -111,7 +109,6 @@ msgid "Select the TileMap node, then open the TileMap panel at the bottom of the
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:101
-#: ../../docs/tutorials/2d/using_tilemaps.rst:101
 msgid "Opening the TileMap panel at the bottom of the editor. The TileMap node must be selected first."
 msgstr ""
 
@@ -123,7 +120,6 @@ msgstr ""
 msgid "First, if you've created additional layers above, make sure you've selected the layer you wish to paint on:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:113
 #: ../../docs/tutorials/2d/using_tilemaps.rst:113
 msgid "Selecting a layer to paint on in the TileMap editor"
 msgstr ""
@@ -141,7 +137,6 @@ msgid "Before you can place tiles in the 2D editor, you must select one or more 
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:133
-#: ../../docs/tutorials/2d/using_tilemaps.rst:133
 msgid "Selecting a tile in the TileMap editor by clicking it"
 msgstr ""
 
@@ -158,7 +153,6 @@ msgid "The final selection does not have to be contiguous: if there is empty spa
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:154
-#: ../../docs/tutorials/2d/using_tilemaps.rst:154
 msgid "Selecting multiple tiles in the TileMap editor by holding down the left mouse button"
 msgstr ""
 
@@ -167,7 +161,6 @@ msgid "If you've created alternative tiles in your TileSet, you can select them 
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:163
-#: ../../docs/tutorials/2d/using_tilemaps.rst:163
 msgid "Selecting an alternative tile in the TileMap editor"
 msgstr ""
 
@@ -175,7 +168,6 @@ msgstr ""
 msgid "Lastly, if you've created a *scenes collection* in the TileSet, you can place scene tiles in the TileMap:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:171
 #: ../../docs/tutorials/2d/using_tilemaps.rst:171
 msgid "Placing a scene tile containing particles using the TileMap editor"
 msgstr ""
@@ -269,7 +261,6 @@ msgid "You can toggle this mode temporarily while in Paint or Eraser mode by hol
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:255
-#: ../../docs/tutorials/2d/using_tilemaps.rst:255
 msgid "Using the line tool after selecting two tiles to draw platforms diagonally"
 msgstr ""
 
@@ -318,7 +309,6 @@ msgid "If you have selected multiple tiles in the TileMap or using the Selection
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:298
-#: ../../docs/tutorials/2d/using_tilemaps.rst:298
 msgid "Using the Bucket Fill tool"
 msgstr ""
 
@@ -363,7 +353,6 @@ msgid "Example when using Paint mode:"
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:342
-#: ../../docs/tutorials/2d/using_tilemaps.rst:342
 msgid "Selecting from several times to randomly choose, then painting by holding down the left mouse button"
 msgstr ""
 
@@ -371,7 +360,6 @@ msgstr ""
 msgid "Example when using Bucket Fill mode:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:350
 #: ../../docs/tutorials/2d/using_tilemaps.rst:350
 msgid "Using Bucket Fill tool with a single tile, but with randomization and scattering enabled"
 msgstr ""
@@ -393,7 +381,6 @@ msgid "To create a new pattern, switch to Select mode, perform a selection and p
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:372
-#: ../../docs/tutorials/2d/using_tilemaps.rst:372
 msgid "Creating a new pattern from a selection in the TileMap editor"
 msgstr ""
 
@@ -401,7 +388,6 @@ msgstr ""
 msgid "To use an existing pattern, click its image in the **Patterns** tab, switch to any painting mode, then left-click somewhere in the 2D editor:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:381
 #: ../../docs/tutorials/2d/using_tilemaps.rst:381
 msgid "Placing an existing pattern using the TileMap editor"
 msgstr ""
@@ -443,11 +429,9 @@ msgid "The Connect mode is easier to use, but Path is more flexible as it allows
 msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:418
-#: ../../docs/tutorials/2d/using_tilemaps.rst:418
 msgid "Selecting Connect mode in the TileMap editor's Terrains tab"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:424
 #: ../../docs/tutorials/2d/using_tilemaps.rst:424
 msgid "Selecting Path mode in the TileMap editor's Terrains tab"
 msgstr ""
@@ -456,7 +440,6 @@ msgstr ""
 msgid "Lastly, you can select specific tiles from the terrain to resolve conflicts in certain situations:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:433
 #: ../../docs/tutorials/2d/using_tilemaps.rst:433
 msgid "Painting with specific tiles in the TileMap editor's Terrains tab"
 msgstr ""
@@ -473,7 +456,6 @@ msgstr ""
 msgid "If you remove tiles in the TileSet that are referenced in a TileMap, the TileMap will display a placeholder to indicate that an invalid tile ID is placed:"
 msgstr ""
 
-#: ../../docs/tutorials/2d/using_tilemaps.rst:448
 #: ../../docs/tutorials/2d/using_tilemaps.rst:448
 msgid "Missing tiles in the TileMap editor due to the TileSet reference being broken"
 msgstr ""

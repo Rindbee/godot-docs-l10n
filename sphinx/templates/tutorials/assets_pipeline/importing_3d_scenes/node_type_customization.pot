@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,6 @@ msgstr ""
 msgid "With Collada files, the option ``-colonly`` can also be used with Blender's empty objects. On import, it will create a :ref:`class_StaticBody3D` with a collision node as a child. The collision node will have one of a number of predefined shapes, depending on Blender's empty draw type:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.rst:69
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/node_type_customization.rst:69
 msgid "Choosing a draw type for an Empty on creation in Blender"
 msgstr ""

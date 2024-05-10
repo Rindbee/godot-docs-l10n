@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-27 19:04+0100\n"
+"POT-Creation-Date: 2024-05-10 15:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,6 @@ msgid "For comparison, here's a 3D scene with no global illumination options use
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:167
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:167
 msgid "A 3D scene without any form of global illumination (only constant environment lighting). The box and sphere near the camera are both dynamic objects."
 msgstr ""
 
@@ -181,12 +180,6 @@ msgstr ""
 msgid "**VoxelGI:** |average| Good reflections and indirect lighting, but beware of leaks."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
 #: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:322
 msgid "average"
 msgstr ""
@@ -242,9 +235,6 @@ msgstr ""
 msgid "**LightmapGI:** |good| Excellent indirect lighting, decent reflections (optional)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:320
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:320
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:320
 #: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:320
 msgid "good"
 msgstr ""
@@ -311,7 +301,6 @@ msgstr ""
 msgid "**LightmapGI:** |bad| Baked, and therefore not real-time."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:324
 #: ../../docs/tutorials/3d/global_illumination/introduction_to_global_illumination.rst:324
 msgid "bad"
 msgstr ""
