@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,9 @@ msgstr "|image1|"
 
 msgid "image1"
 msgstr "image1"
+
+msgid "If you still have *Input Map* open, switch to the *General* tab."
+msgstr ""
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -458,6 +461,14 @@ msgid ""
 "the path, 1 is the end of the path. The path we have set is around the "
 "camera's viewport, so any random value between 0 and 1 is a random position "
 "alongside the edges of the viewport!"
+msgstr ""
+
+msgid ""
+"Note that if you remove the ``Player`` from the main scene, the following "
+"line"
+msgstr ""
+
+msgid "gives an error because there is no $Player!"
 msgstr ""
 
 #, fuzzy

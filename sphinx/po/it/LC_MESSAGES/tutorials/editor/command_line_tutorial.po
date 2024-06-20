@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -549,6 +549,15 @@ msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr ""
 
 #, fuzzy
+msgid "``--import``"
+msgstr "``--quiet``"
+
+msgid ""
+"|editor| Starts the editor, waits for any resources to be imported, and then "
+"quits. Implies ``--editor`` and ``--quit``."
+msgstr ""
+
+#, fuzzy
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-debug <target>``"
 
@@ -557,14 +566,16 @@ msgid ""
 "template. The preset name should match one defined in export_presets.cfg. "
 "``<path>`` should be absolute or relative to the project directory, and "
 "include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist."
+"directory should exist. Implies ``--import``."
 msgstr ""
 
 #, fuzzy
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <target>``"
 
-msgid "|editor| Like ``--export-release``, but use debug template."
+msgid ""
+"|editor| Like ``--export-release``, but use debug template. Implies ``--"
+"import``."
 msgstr ""
 
 msgid "``--export-pack <preset> <path>``"
@@ -573,7 +584,7 @@ msgstr ""
 msgid ""
 "|editor| Like ``--export-release``, but only export the game pack for the "
 "given preset. The ``<path>`` extension determines whether it will be in PCK "
-"or ZIP format."
+"or ZIP format. Implies ``--import``."
 msgstr ""
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"

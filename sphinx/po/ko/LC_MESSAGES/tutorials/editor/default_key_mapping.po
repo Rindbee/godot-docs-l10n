@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,8 @@ msgstr "2D 에디터 열기"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
-msgid ":kbd:`Alt + 1`"
+#, fuzzy
+msgid ":kbd:`Opt + 1`"
 msgstr ":kbd:`Alt + 1`"
 
 msgid "``editor/editor_2d``"
@@ -91,7 +92,8 @@ msgstr "3D 에디터 열기"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
 
-msgid ":kbd:`Alt + 2`"
+#, fuzzy
+msgid ":kbd:`Opt + 2`"
 msgstr ":kbd:`Alt + 2`"
 
 msgid "``editor/editor_3d``"
@@ -103,7 +105,8 @@ msgstr "스크립트 에디터 열기"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
 
-msgid ":kbd:`Alt + 3`"
+#, fuzzy
+msgid ":kbd:`Opt + 3`"
 msgstr ":kbd:`Alt + 3`"
 
 msgid "``editor/editor_script``"
@@ -115,7 +118,8 @@ msgstr "도움말 검색"
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
 
-msgid ":kbd:`Alt + Space`"
+#, fuzzy
+msgid ":kbd:`Opt + Space`"
 msgstr ":kbd:`Alt + Space`"
 
 msgid "``editor/editor_help``"
@@ -163,8 +167,9 @@ msgstr "파일 필터"
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ":kbd:`Ctrl + Alt + P`"
 
-msgid ":kbd:`Cmd + Alt + P`"
-msgstr ":kbd:`Cmd + Alt + P`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + P`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``editor/filter_files``"
 msgstr "``editor/filter_files``"
@@ -236,7 +241,8 @@ msgstr "모든 씬 저장"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ":kbd:`Ctrl + Shift + Alt + S`"
 
-msgid ":kbd:`Cmd + Shift + Alt + S`"
+#, fuzzy
+msgid ":kbd:`Cmd + Shift + Opt + S`"
 msgstr ":kbd:`Cmd + Shift + Alt + S`"
 
 msgid "``editor/save_all_scenes``"
@@ -246,6 +252,10 @@ msgid "Quick Open"
 msgstr ""
 
 msgid ":kbd:`Shift + Alt + O`"
+msgstr ":kbd:`Shift + Alt + O`"
+
+#, fuzzy
+msgid ":kbd:`Shift + Opt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
 
 msgid "``editor/quick_open``"
@@ -270,8 +280,9 @@ msgstr "GDScript의 빠른 예제:"
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ":kbd:`Ctrl + Alt + O`"
 
-msgid ":kbd:`Cmd + Alt + O`"
-msgstr ":kbd:`Cmd + Alt + O`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + O`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``editor/quick_open_script``"
 msgstr "``editor/quick_open_script``"
@@ -318,8 +329,9 @@ msgstr "종료 후 프로젝트 목록으로 이동"
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ""
 
-msgid ":kbd:`Shift + Alt + Q`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Shift + Opt + Q`"
+msgstr ":kbd:`Shift + Alt + O`"
 
 msgid "``editor/quit_to_project_list``"
 msgstr ""
@@ -712,6 +724,10 @@ msgstr "자유 시점 감속 수정자"
 msgid ":kbd:`Alt`"
 msgstr ""
 
+#, fuzzy
+msgid ":kbd:`Opt`"
+msgstr ":kbd:`F1`"
+
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr ""
 
@@ -766,6 +782,10 @@ msgstr "하단 뷰"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ""
 
+#, fuzzy
+msgid ":kbd:`Opt + Num 7`"
+msgstr ":kbd:`Alt + 1`"
+
 msgid "``spatial_editor/bottom_view``"
 msgstr ""
 
@@ -784,6 +804,10 @@ msgstr "후면 뷰"
 msgid ":kbd:`Alt + Num 1`"
 msgstr ""
 
+#, fuzzy
+msgid ":kbd:`Opt + Num 1`"
+msgstr ":kbd:`Alt + 1`"
+
 msgid "``spatial_editor/rear_view``"
 msgstr ""
 
@@ -801,6 +825,10 @@ msgstr "좌측 뷰"
 
 msgid ":kbd:`Alt + Num 3`"
 msgstr ""
+
+#, fuzzy
+msgid ":kbd:`Opt + Num 3`"
+msgstr ":kbd:`Alt + 3`"
 
 msgid "``spatial_editor/left_view``"
 msgstr ""
@@ -844,8 +872,9 @@ msgstr "변형을 뷰에 정렬"
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + M`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + M`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``spatial_editor/align_transform_with_view``"
 msgstr ""
@@ -856,8 +885,9 @@ msgstr "회전을 뷰에 정렬"
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + F`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + F`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``spatial_editor/align_rotation_with_view``"
 msgstr ""
@@ -892,8 +922,9 @@ msgstr "뷰포트 2개 (다른 방식)"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + 2`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + 2`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``spatial_editor/2_viewports_alt``"
 msgstr ""
@@ -916,8 +947,9 @@ msgstr "뷰포트 3개 (다른 방식)"
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + 3`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + 3`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``spatial_editor/3_viewports_alt``"
 msgstr ""
@@ -1039,9 +1071,6 @@ msgstr "바꾸기"
 msgid ":kbd:`Ctrl + R`"
 msgstr ""
 
-msgid ":kbd:`Alt + Cmd + F`"
-msgstr ""
-
 msgid "``script_text_editor/replace``"
 msgstr ""
 
@@ -1072,6 +1101,10 @@ msgstr "위로 이동"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ""
 
+#, fuzzy
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ":kbd:`Alt + 1`"
+
 msgid "``script_text_editor/move_up``"
 msgstr ""
 
@@ -1079,6 +1112,9 @@ msgid "Move Down"
 msgstr "아래로 이동"
 
 msgid ":kbd:`Alt + Down Arrow`"
+msgstr ""
+
+msgid ":kbd:`Opt + Down Arrow`"
 msgstr ""
 
 msgid "``script_text_editor/move_down``"
@@ -1160,8 +1196,9 @@ msgstr "후행 공백 문자 제거"
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + T`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + T`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr ""
@@ -1235,8 +1272,9 @@ msgstr "북마크 토글"
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + B`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + B`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``script_text_editor/toggle_bookmark``"
 msgstr ""
@@ -1325,8 +1363,9 @@ msgstr "상황에 맞는 도움말"
 msgid ":kbd:`Alt + F1`"
 msgstr ""
 
-msgid ":kbd:`Alt + Shift + Space`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Shift + Space`"
+msgstr ":kbd:`Ctrl + Shift + S`"
 
 msgid "``script_text_editor/contextual_help``"
 msgstr ""
@@ -1349,11 +1388,19 @@ msgstr ""
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ""
 
+#, fuzzy
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Alt + O`"
+
 msgid "``script_editor/window_move_up``"
 msgstr ""
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ""
+
+#, fuzzy
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd:`Shift + Alt + O`"
 
 msgid "``script_editor/window_move_down``"
 msgstr ""
@@ -1394,8 +1441,9 @@ msgstr "저장"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + S`"
-msgstr ""
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + S`"
+msgstr ":kbd:`Ctrl + F1`"
 
 msgid "``script_editor/save``"
 msgstr ""
@@ -1418,6 +1466,10 @@ msgstr "이전 기록"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ""
 
+#, fuzzy
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ":kbd:`Ctrl + Shift + W`"
+
 msgid "``script_editor/history_previous``"
 msgstr ""
 
@@ -1425,6 +1477,9 @@ msgid "History Next"
 msgstr "다음 기록"
 
 msgid ":kbd:`Alt + Right Arrow`"
+msgstr ""
+
+msgid ":kbd:`Opt + Right Arrow`"
 msgstr ""
 
 msgid "``script_editor/history_next``"
@@ -1567,6 +1622,10 @@ msgstr ""
 msgid "Toggle Favorite"
 msgstr "즐겨찾기 토글"
 
+#, fuzzy
+msgid ":kbd:`Opt + F`"
+msgstr ":kbd:`Ctrl + F1`"
+
 msgid "``file_dialog/toggle_favorite``"
 msgstr ""
 
@@ -1575,6 +1634,10 @@ msgstr "모드 토글"
 
 msgid ":kbd:`Alt + V`"
 msgstr ""
+
+#, fuzzy
+msgid ":kbd:`Opt + V`"
+msgstr ":kbd:`Alt + 1`"
 
 msgid "``file_dialog/toggle_mode``"
 msgstr ""

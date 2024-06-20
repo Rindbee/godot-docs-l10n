@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,96 +95,8 @@ msgid ""
 "made by navigation related nodes in the scene tree or through scripts."
 msgstr ""
 
-msgid ""
-"The following functions will be executed in the synchronization phase only:"
+msgid "All setters and delete functions require synchronization."
 msgstr ""
-
-#, fuzzy
-msgid "``map_set_active()``"
-msgstr "``get_area()``"
-
-#, fuzzy
-msgid "``map_set_up()``"
-msgstr "``get_area()``"
-
-#, fuzzy
-msgid "``map_set_cell_size()``"
-msgstr "``get_scale()`` (propiedad)"
-
-#, fuzzy
-msgid "``map_set_edge_connection_margin()``"
-msgstr "``connection_failed``"
-
-#, fuzzy
-msgid "``region_set_map()``"
-msgstr "Transformación de estiramiento"
-
-#, fuzzy
-msgid "``region_set_transform()``"
-msgstr "Transformación de estiramiento"
-
-#, fuzzy
-msgid "``region_set_enter_cost()``"
-msgstr "Transformación de estiramiento"
-
-#, fuzzy
-msgid "``region_set_travel_cost()``"
-msgstr "Transformación de estiramiento"
-
-#, fuzzy
-msgid "``region_set_navigation_layers()``"
-msgstr "Crear navigation (-navmesh)"
-
-#, fuzzy
-msgid "``region_set_navigation_mesh()``"
-msgstr "Crear navigation (-navmesh)"
-
-#, fuzzy
-msgid "``agent_set_map()``"
-msgstr "``get_scale()`` (propiedad)"
-
-#, fuzzy
-msgid "``agent_set_neighbor_dist()``"
-msgstr "``method``"
-
-#, fuzzy
-msgid "``agent_set_max_neighbors()``"
-msgstr "``method``"
-
-#, fuzzy
-msgid "``agent_set_time_horizon()``"
-msgstr "``get_rotation()``"
-
-#, fuzzy
-msgid "``agent_set_radius()``"
-msgstr "``method``"
-
-#, fuzzy
-msgid "``agent_set_max_speed()``"
-msgstr "``get_scale()`` (propiedad)"
-
-#, fuzzy
-msgid "``agent_set_velocity()``"
-msgstr "``get_area()``"
-
-msgid "``agent_set_target_velocity()``"
-msgstr ""
-
-#, fuzzy
-msgid "``agent_set_position()``"
-msgstr "``get_rotation()``"
-
-#, fuzzy
-msgid "``agent_set_ignore_y()``"
-msgstr "``method``"
-
-#, fuzzy
-msgid "``agent_set_callback()``"
-msgstr "``get_scale()`` (propiedad)"
-
-#, fuzzy
-msgid "``free()``"
-msgstr "``foo()``"
 
 msgid "2D and 3D NavigationServer differences"
 msgstr ""
@@ -290,7 +202,7 @@ msgstr "comienza el frame físico."
 msgid "``_physics_process(delta)``."
 msgstr "_physics_process(delta)."
 
-msgid "``set_velocity()`` on NavigationAgent Node."
+msgid "``velocity`` property is set on NavigationAgent Node."
 msgstr ""
 
 msgid "Agent sends velocity and position to NavigationServer."

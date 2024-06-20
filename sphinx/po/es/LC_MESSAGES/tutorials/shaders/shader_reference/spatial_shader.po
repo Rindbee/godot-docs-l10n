@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -320,7 +320,7 @@ msgid "in float **E**"
 msgstr "en real **TIME**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -358,11 +358,14 @@ msgstr ""
 "Otras incorporadas, tales como UV, UV2 y COLOR, son también pasadas a la "
 "función fragmento si no se modifican."
 
+#, fuzzy
 msgid ""
 "Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. When ``POSITION`` is used, the value from ``VERTEX`` "
-"is ignored and projection does not happen. However, the value passed to the "
-"fragment shader still comes from ``VERTEX``."
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
 "Los usuarios pueden sobreescribir la vista del modelo y las transformaciones "
 "de la proyección usando la ``POSICIÓN`` incorporada. Cuando se usa "
@@ -416,6 +419,16 @@ msgstr "en mat4 **INV_CAMERA_MATRIX**"
 msgid "View space to world space transform."
 msgstr "Transform de espacio de vista a espacio de mundo."
 
+#, fuzzy
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "en mat4 **INV_CAMERA_MATRIX**"
+
+#, fuzzy
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr "Transform de espacio de vista a espacio de mundo."
+
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
 
@@ -450,6 +463,13 @@ msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **ATTENUATION**"
 
 msgid "Camera world space direction."
+msgstr ""
+
+#, fuzzy
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr "in uint **RANDOM_SEED**"
+
+msgid "Cull layers of the camera rendering the current pass."
 msgstr ""
 
 msgid "in bool **OUTPUT_IS_SRGB**"
@@ -588,15 +608,15 @@ msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "inout mat4 **MODELVIEW_MATRIX**"
 
 #, fuzzy
-msgid "inout mat4 **MODEL_MATRIX**"
-msgstr "inout mat4 **MODELVIEW_MATRIX**"
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "in mat4 **WORLD_MATRIX**"
 
 msgid "Model space to world space transform."
 msgstr "Modelo de transformación del espacio en el mundo."
 
 #, fuzzy
-msgid "inout mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "inout mat4 **MODELVIEW_MATRIX**"
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
+msgstr "en mat4 **CAMERA_MATRIX**"
 
 msgid "inout mat4 **PROJECTION_MATRIX**"
 msgstr "inout mat4 **PROJECTION_MATRIX**"
@@ -605,11 +625,11 @@ msgid "View space to clip space transform."
 msgstr "Ver el espacio para recortar la transformación del espacio."
 
 #, fuzzy
-msgid "inout uvec4 **BONE_INDICES**"
+msgid "in uvec4 **BONE_INDICES**"
 msgstr "inout vec4 **CUSTOM**"
 
 #, fuzzy
-msgid "inout vec4 **BONE_WEIGHTS**"
+msgid "in vec4 **BONE_WEIGHTS**"
 msgstr "inout vec4 **LIGHT**"
 
 #, fuzzy
@@ -675,7 +695,7 @@ msgid "in bool **FRONT_FACING**"
 msgstr "in booleano **FRONT_FACING**"
 
 #, fuzzy
-msgid "``true`` if current face if front face."
+msgid "``true`` if current face is front facing."
 msgstr "``true`` si la cara actual es la cara frontal."
 
 msgid "in vec3 **VIEW**"
@@ -713,14 +733,6 @@ msgstr "in vec2 **POINT_COORD**"
 msgid "Point Coordinate for drawing points with POINT_SIZE."
 msgstr "Coordenadas de puntos para dibujar puntos con POINT_SIZE."
 
-#, fuzzy
-msgid "in mat4 **MODEL_MATRIX**"
-msgstr "in mat4 **WORLD_MATRIX**"
-
-#, fuzzy
-msgid "in mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "en mat4 **CAMERA_MATRIX**"
-
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "in mat4 **PROJECTION_MATRIX**"
 
@@ -746,6 +758,15 @@ msgid "Vertex that comes from vertex function (default, in view space)."
 msgstr ""
 "Vértice que proviene de la función de vértice (por defecto, en el espacio de "
 "visión)."
+
+#, fuzzy
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "inout vec3 **VERTEX**"
+
+msgid ""
+"A writable version of ``VERTEX`` that can be used to alter light and "
+"shadows. Writing to this will not change the position of the fragment."
+msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
@@ -814,9 +835,10 @@ msgstr "Albedo (blanco por defecto)."
 msgid "out float **ALPHA**"
 msgstr "out real **ALPHA**"
 
+#, fuzzy
 msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
+"Alpha (0..1); if read from or written to, the material will go to the "
+"transparent pipeline."
 msgstr "Alfa (0..1); si se escribe, el material irá a la tubería transparente."
 
 #, fuzzy
@@ -1110,6 +1132,11 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "Resultado de la luz especular."
+
+msgid ""
+"Alpha (0..1); if written to, the material will go to the transparent "
+"pipeline."
+msgstr "Alfa (0..1); si se escribe, el material irá a la tubería transparente."
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

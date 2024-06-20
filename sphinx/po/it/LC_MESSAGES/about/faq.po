@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -648,15 +648,17 @@ msgstr ""
 "trasferiti tra le macchine se si copia la cartella contenente l'eseguibile "
 "Godot. Vedi :ref:`doc_data_paths` per maggiori informazioni."
 
+#, fuzzy
 msgid ""
-"If *true* portable operation is desired (e.g. for use on an USB stick), "
+"If *true* portable operation is desired (e.g. for use on a USB stick), "
 "follow the steps in :ref:`doc_data_paths_self_contained_mode`."
 msgstr ""
 "Se si è interessati a operazioni *veramente* portabili (ad esempio per l'uso "
 "su una chiavetta USB), seguire i passaggi in :ref:"
 "`doc_data_paths_self_contained_mode`."
 
-msgid "Why does Godot use Vulkan or OpenGL instead of Direct3D?"
+#, fuzzy
+msgid "Why does Godot prioritize Vulkan and OpenGL over Direct3D?"
 msgstr "Perché Godot usa Vulkan o OpenGL invece di Direct3D?"
 
 #, fuzzy
@@ -674,25 +676,13 @@ msgstr ""
 "macOS e altro."
 
 msgid ""
-"Since Godot only has a few people working on its renderer, we would prefer "
-"having fewer rendering backends to maintain. On top of that, using a single "
-"API on all platforms allows for greater consistency with fewer platform-"
-"specific issues."
+"While Vulkan and OpenGL remain our primary focus for their open standard and "
+"cross-platform benefits, Godot 4.3 introduced experimental support for "
+"Direct3D 12. This addition aims to enhance performance and compatibility on "
+"platforms where Direct3D 12 is prevalent, such as Windows and Xbox. However, "
+"Vulkan and OpenGL will continue as the default rendering backends on all "
+"platforms, including Windows."
 msgstr ""
-"Poiché Godot ha solo poche persone che lavorano sul suo renderer, "
-"preferiremmo avere meno backend di rendering da mantenere. Inoltre, "
-"l'utilizzo di una singola API su tutte le piattaforme permette maggiore "
-"consistenza e meno problemi riguardanti una piattaforma specifica."
-
-#, fuzzy
-msgid ""
-"In the long term, we may develop a Direct3D 12 renderer for Godot (mainly "
-"for Xbox), but Vulkan and OpenGL will remain the default rendering backends "
-"on all platforms, including Windows."
-msgstr ""
-"Nel lungo termine, potremmo sviluppare un renderer Direct3D 12 per Godot "
-"(principalmente per Xbox), ma Vulkan e OpenGL rimarranno i backend di "
-"rendering predefiniti su tutte le piattaforme, incluso Windows."
 
 msgid "Why does Godot aim to keep its core feature set small?"
 msgstr ""

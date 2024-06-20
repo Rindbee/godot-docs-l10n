@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,10 +77,10 @@ msgstr ""
 msgid "Tutorial"
 msgstr "Textové tutoriály"
 
-msgid "``@tutorial:``"
+msgid "``@tutorial: https://example.com``"
 msgstr ""
 
-msgid "``@tutorial(The Title Here):``"
+msgid "``@tutorial(The Title Here): https://example.com``"
 msgstr ""
 
 #, fuzzy
@@ -90,12 +90,18 @@ msgstr "Duplikovat"
 msgid "``@deprecated``"
 msgstr ""
 
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr ""
+
 msgid "Experimental"
 msgstr "Experimentální"
 
 #, fuzzy
 msgid "``@experimental``"
 msgstr "Android (experimentální)"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr ""
 
 msgid "For example::"
 msgstr "Například::"
@@ -152,6 +158,12 @@ msgstr ""
 msgid "No tag."
 msgstr ""
 
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr ""
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr ""
+
 msgid "Alternatively, you can use inline documentation comments::"
 msgstr ""
 
@@ -172,7 +184,9 @@ msgstr ""
 msgid ""
 "You can mark a class or any of its members as deprecated or experimental. "
 "This will add the corresponding indicator in the built-in documentation "
-"viewer. This can be especially useful for plugin and library creators."
+"viewer. Optionally, you can provide a short message explaining why the API "
+"is not recommended. This can be especially useful for plugin and library "
+"creators."
 msgstr ""
 
 msgid ""
@@ -198,17 +212,11 @@ msgid "BBCode and class reference"
 msgstr "Dokumentace tříd"
 
 msgid ""
-"The editor help window which renders the documentation supports :ref:`bbcode "
-"<doc_bbcode_in_richtextlabel>`. As a result it's possible to align and "
-"format the documentation. Color texts, images, fonts, tables, URLs, "
-"animation effects, etc. can be added with the :ref:`bbcode "
-"<doc_bbcode_in_richtextlabel>`."
-msgstr ""
-
-msgid ""
 "Godot's class reference supports BBCode-like tags. They add nice formatting "
 "to the text which could also be used in the documentation. See also :ref:"
-"`class reference bbcode <doc_class_reference_bbcode>`."
+"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
+"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"<doc_bbcode_in_richtextlabel>`."
 msgstr ""
 
 msgid ""
@@ -254,11 +262,12 @@ msgstr ""
 msgid "Link to annotation"
 msgstr "Integrace editoru"
 
-msgid "``See [annotation @GDScript.@export].``"
+msgid "``See [annotation @GDScript.@rpc].``"
 msgstr ""
 
-msgid "See :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`."
-msgstr ""
+#, fuzzy
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr ":ref:`int <class_int>`"
 
 msgid "``[constant Class.name]``"
 msgstr ""
@@ -267,11 +276,12 @@ msgstr ""
 msgid "Link to constant"
 msgstr "Definuje konstantu."
 
-msgid "``See [constant @GlobalScope.KEY_F1].``"
+msgid "``See [constant Color.RED].``"
 msgstr ""
 
-msgid "See :ref:`@GlobalScope.KEY_F1 <class_@GlobalScope_constant_KEY_F1>`."
-msgstr ""
+#, fuzzy
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr ":ref:`Color <class_Color>`"
 
 msgid "``[enum Class.name]``"
 msgstr ""
@@ -285,6 +295,20 @@ msgstr ""
 
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 msgstr ""
+
+msgid "``[member Class.name]``"
+msgstr ""
+
+#, fuzzy
+msgid "Link to member (property)"
+msgstr "Upravit členy"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr ""
+
+#, fuzzy
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr ":ref:`NodePath <class_NodePath>`"
 
 msgid "``[method Class.name]``"
 msgstr ""
@@ -300,19 +324,34 @@ msgstr ""
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr ":ref:`NodePath <class_NodePath>`"
 
-msgid "``[member Class.name]``"
+msgid "``[constructor Class.name]``"
 msgstr ""
 
 #, fuzzy
-msgid "Link to member"
-msgstr "Upravit členy"
+msgid "Link to built-in constructor"
+msgstr "Konstruktor třídy"
 
-msgid "``Get [member Node2D.scale].``"
+msgid "``Use [constructor Color.Color].``"
 msgstr ""
 
 #, fuzzy
-msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr ":ref:`NodePath <class_NodePath>`"
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr ":ref:`Color <class_Color>`"
+
+#, fuzzy
+msgid "``[operator Class.name]``"
+msgstr "Třída"
+
+#, fuzzy
+msgid "Link to built-in operator"
+msgstr "Vektorové vestavěné typy"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr ""
+
+#, fuzzy
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr ":ref:`Color <class_Color>`"
 
 msgid "``[signal Class.name]``"
 msgstr ""
@@ -344,7 +383,7 @@ msgstr ""
 msgid "``[param name]``"
 msgstr ""
 
-msgid "Formats a parameter name (as code)"
+msgid "Parameter name (as code)"
 msgstr ""
 
 msgid "``Takes [param size] for the size.``"
@@ -372,16 +411,29 @@ msgstr ""
 msgid "Line 2."
 msgstr ""
 
+#, fuzzy
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[b]`` ``[/b]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr ""
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr ""
+
+msgid "[b]text[/b]"
+msgstr ""
+
 msgid "``[b]`` ``[/b]``"
 msgstr "``[b]`` ``[/b]``"
 
 msgid "Bold"
 msgstr ""
 
-msgid "``Some [b]bold[/b] text.``"
+msgid "``Do [b]not[/b] call this method.``"
 msgstr ""
 
-msgid "Some **bold** text."
+msgid "Do **not** call this method."
 msgstr ""
 
 msgid "``[i]`` ``[/i]``"
@@ -390,10 +442,94 @@ msgstr "``[i]`` ``[/i]``"
 msgid "Italic"
 msgstr ""
 
-msgid "``Some [i]italic[/i] text.``"
+msgid "``Returns the [i]global[/i] position.``"
 msgstr ""
 
-msgid "Some *italic* text."
+msgid "Returns the *global* position."
+msgstr ""
+
+#, fuzzy
+msgid "``[u]`` ``[/u]``"
+msgstr "``[b]`` ``[/b]``"
+
+#, fuzzy
+msgid "Underline"
+msgstr "Číslo"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr ""
+
+#, fuzzy
+msgid "``[s]`` ``[/s]``"
+msgstr "``[b]`` ``[/b]``"
+
+msgid "Strikethrough"
+msgstr ""
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[color]`` ``[/color]``"
+msgstr "``[b]`` ``[/b]``"
+
+msgid "Color"
+msgstr "Barva"
+
+msgid "``[color=red]Error![/color]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[font]`` ``[/font]``"
+msgstr "``[b]`` ``[/b]``"
+
+#, fuzzy
+msgid "Font"
+msgstr "Pohled zepředu"
+
+msgid "``[font=res://mono.ttf]LICENSE[/font]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[img]`` ``[/img]``"
+msgstr "``[i]`` ``[/i]``"
+
+#, fuzzy
+msgid "Image"
+msgstr "| image0 |"
+
+msgid "``[img width=32]res://icon.svg[/img]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[url]`` ``[/url]``"
+msgstr "``[b]`` ``[/b]``"
+
+msgid "Hyperlink"
+msgstr ""
+
+msgid "``[url]https://example.com[/url]``"
+msgstr ""
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr ""
+
+msgid "https://example.com"
+msgstr ""
+
+#, fuzzy
+msgid "`Website <https://example.com>`_"
+msgstr "`D <https://github.com/godot-d/godot-d>`__"
+
+#, fuzzy
+msgid "``[center]`` ``[/center]``"
+msgstr "``[b]`` ``[/b]``"
+
+#, fuzzy
+msgid "Horizontal centering"
+msgstr "Vodorovný znak tabulátoru"
+
+msgid "``[center]2 + 2 = 4[/center]``"
 msgstr ""
 
 msgid "``[kbd]`` ``[/kbd]``"
@@ -402,34 +538,42 @@ msgstr ""
 msgid "Keyboard/mouse shortcut"
 msgstr ""
 
-msgid "``Some [kbd]Ctrl + C[/kbd] key.``"
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
 msgstr ""
 
-msgid "Some :kbd:`Ctrl + C` key."
-msgstr ""
+#, fuzzy
+msgid "Press :kbd:`Ctrl + C`."
+msgstr ":kbd:`Ctrl + C`"
 
 msgid "``[code]`` ``[/code]``"
 msgstr ""
 
-msgid "Monospace"
+msgid "Inline code fragment"
 msgstr ""
 
-msgid "``Some [code]monospace[/code] text.``"
+msgid "``Returns [code]true[/code].``"
 msgstr ""
 
-msgid "Some ``monospace`` text."
+#, fuzzy
+msgid "Returns ``true``."
+msgstr "Návratový typ"
+
+msgid "``[codeblock]``"
 msgstr ""
 
-msgid "``[codeblock]`` ``[/codeblock]``"
+msgid "``[/codeblock]``"
 msgstr ""
 
-msgid "Multiline preformatted block"
+msgid "Multiline code block"
 msgstr ""
 
 msgid "*See below.*"
 msgstr ""
 
 msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr ""
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
 msgstr ""
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
@@ -442,6 +586,21 @@ msgstr ""
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
 "always use **four spaces** for indentation (the parser will delete tabs)."
+msgstr ""
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr ""
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr ""
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
 msgstr ""
 
 msgid "Translation status"

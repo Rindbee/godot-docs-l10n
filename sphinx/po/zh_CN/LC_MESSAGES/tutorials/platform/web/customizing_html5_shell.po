@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,6 +126,11 @@ msgstr ""
 "义字符串. 它是在*Html / Head Include*部分的导出选项中自定义的. 虽然你可以完全"
 "控制你所创建的HTML页面, 但这个变量对于从Godot Editor中配置HTML``head`` 元素的"
 "部分内容很有用, 例如, 对于不同的Web导出预设."
+
+msgid ""
+"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
+"the Project Settings."
+msgstr ""
 
 msgid ""
 "When the custom page is ready, it can be selected in the export options "

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,8 +176,9 @@ msgstr ""
 msgid "in float **E**"
 msgstr "in float **E**"
 
+#, fuzzy
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 "Eine ``E``-Konstante (``2,718281``). Eulersche Zahl und eine Basis des "
@@ -319,6 +320,12 @@ msgstr "inout float **POINT_SIZE**"
 msgid "Point size for point drawing."
 msgstr "Punktgröße für Punktzeichnen."
 
+msgid "in vec4 **CUSTOM0**"
+msgstr "in vec4 **CUSTOM0**"
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "in vec4 **CUSTOM1**"
+
 msgid "Fragment built-ins"
 msgstr "Fragment-Built-ins"
 
@@ -355,9 +362,10 @@ msgstr ""
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
 
+#, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
+"window. Origin is upper-left."
 msgstr ""
 "Koordinate der Pixelmitte. Im Screen Space. ``xy`` spezifiziert die Position "
 "im Fenster. Der Ursprung ist unten links."
@@ -509,6 +517,13 @@ msgstr ""
 "Unten sehen Sie ein Beispiel für einen Licht-Shader, der die Normal Map "
 "eines CanvasItems berücksichtigt:"
 
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"Koordinate der Pixelmitte. Im Screen Space. ``xy`` spezifiziert die Position "
+"im Fenster. Der Ursprung ist unten links."
+
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
@@ -638,13 +653,15 @@ msgstr "Berechnet eine Normale aus der SDF-Textur."
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 
-msgid "Converts a SDF to screen UV."
+#, fuzzy
+msgid "Converts an SDF to screen UV."
 msgstr "Konvertiert ein SDF in eine Bildschirm-UV."
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec2 **screen_uv_to_sdf** (vec2 uv)"
 
-msgid "Converts screen UV to a SDF."
+#, fuzzy
+msgid "Converts screen UV to an SDF."
 msgstr "Konvertiert Bildschirm-UV in ein SDF."
 
 msgid "Translation status"

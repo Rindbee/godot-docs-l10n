@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,9 +32,10 @@ msgstr ""
 msgid "Each format has different advantages:"
 msgstr "各有優點。"
 
+#, fuzzy
 msgid ""
-"WAV files use raw data or light compression (IMA-ADPCM). They are "
-"lightweight on the CPU to play back (hundreds of simultaneous voices in this "
+"WAV files use raw data or light compression (IMA-ADPCM or QOA). They are "
+"lightweight to play back on the CPU (hundreds of simultaneous voices in this "
 "format are fine). The downside is that they take up a lot of disk space."
 msgstr ""
 "WAV 檔使用原始資料或輕度壓縮，播放時不太吃 CPU (使用該格式可同時播放數百個聲"
@@ -46,11 +47,12 @@ msgid ""
 msgstr ""
 "Ogg Vorbis 檔使用強力壓縮，因此檔案大小較小，但需要更多的效能才能播放。"
 
+#, fuzzy
 msgid ""
-"MP3 files use better compression than WAV with IMA-ADPCM, but worse than Ogg "
-"Vorbis. This means that a MP3 file with roughly equal quality to Ogg Vorbis "
-"will be significantly larger. On the bright side, MP3 requires less CPU "
-"usage to play back compared to Ogg Vorbis."
+"MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse "
+"than Ogg Vorbis. This means that an MP3 file with roughly equal quality to "
+"Ogg Vorbis will be significantly larger. On the bright side, MP3 requires "
+"less CPU usage to play back compared to Ogg Vorbis."
 msgstr ""
 "MP3 檔案的壓縮比的 WAV 的 IMA-ADPCM 好，但比 Ogg Vorbis 差。這意味著，一個與 "
 "Ogg Vorbis 品質大致相同的 MP3 檔明顯更大。從好的方面來看，與 Ogg Vorbis 相"
@@ -87,11 +89,19 @@ msgstr "WAV 16 位元, 44 kHz, 單聲道"
 msgid "88 KB"
 msgstr "88 KB"
 
-msgid "WAV 16-bit, IMA-ADPCM, mono"
-msgstr "WAV 16 位元, IMA-ADPCM, 單聲道"
+#, fuzzy
+msgid "WAV IMA-ADPCM, 44 kHz, mono"
+msgstr "WAV 16 位元, 44 kHz, 單聲道"
 
 msgid "22 KB"
 msgstr "22 KB"
+
+#, fuzzy
+msgid "WAV QOA, 44 kHz, mono"
+msgstr "WAV 16 位元, 44 kHz, 單聲道"
+
+msgid "17 KB"
+msgstr ""
 
 msgid "MP3 192 Kb/s, stereo"
 msgstr "Ogg Vorbis 128 Kb/秒, 立體聲"
@@ -145,18 +155,21 @@ msgid ""
 "FileSystem dock"
 msgstr "在檔案系統擴充座中選擇 WAV 檔案後，匯入擴充座中的匯入選項"
 
+#, fuzzy
 msgid ""
-"The set of options available after selecting a Ogg Vorbis or MP3 file is "
+"The set of options available after selecting an Ogg Vorbis or MP3 file is "
 "different:"
 msgstr "選擇 Ogg Vorbis 或 MP3 檔案後可用的選項集有所不同："
 
+#, fuzzy
 msgid ""
-"Import options in the Import dock after selecting a MP3 file in the "
+"Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock"
 msgstr "在檔案系統擴充座中選擇 MP3 檔案後，匯入擴充塢中的匯入選項"
 
+#, fuzzy
 msgid ""
-"Import options in the Import dock after selecting a MP3 file in the "
+"Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock. Options are identical for Ogg Vorbis files."
 msgstr ""
 "在檔案系統擴充座中選擇 MP3 檔案後，匯入擴充塢中的匯入選項。 Ogg Vorbis 檔案的"
@@ -308,10 +321,15 @@ msgstr ""
 msgid "Compress > Mode"
 msgstr "壓縮模式"
 
+#, fuzzy
 msgid ""
-"Two compression modes can be chosen for WAV files: **Disabled** (default) or "
-"**RAM (Ima-ADPCM)**. **RAM (Ima-ADPCM)** reduces file size and memory usage "
-"a little, at the cost of decreasing quality in an audible manner."
+"Three compression modes can be chosen from for WAV files: **Disabled** "
+"(default), **RAM (Ima-ADPCM)**, or **QOA (Quite OK Audio)**. **RAM (Ima-"
+"ADPCM)** reduces file size and memory usage a little, at the cost of "
+"decreasing quality in an audible manner. **QOA (Quite OK Audio)** reduces "
+"file size a bit more than **RAM (Ima-ADPCM)** and the quality decrease is "
+"much less noticeable, at the cost of higher CPU usage (still much lower than "
+"MP3)."
 msgstr ""
 "WAV 檔案可以選擇兩種壓縮模式：**停用**（預設）或**RAM (Ima-ADPCM)**。 **RAM "
 "(Ima-ADPCM)** 稍微減少了檔案大小和記憶體使用量，但代價是以可聽見的方式降低了"
@@ -438,8 +456,9 @@ msgstr ""
 "按兩下檔案系統面板中的 Ogg Vorbis 或 MP3 檔（或者在匯入面板中選擇**高級..."
 "**），就會出現一個對話方塊："
 
+#, fuzzy
 msgid ""
-"Advanced dialog when double-clicking a Ogg Vorbis or MP3 file in the "
+"Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "
 "FileSystem dock"
 msgstr "按兩下檔案系統面板中的 Ogg Vorbis 或 MP3 檔案時的高級對話方塊"
 

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,7 +186,7 @@ msgid "in float **E**"
 msgstr "in float **TIME**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -329,6 +329,14 @@ msgstr "inout float **POINT_SIZE**"
 msgid "Point size for point drawing."
 msgstr "Taille des points pour le dessin de point."
 
+#, fuzzy
+msgid "in vec4 **CUSTOM0**"
+msgstr "inout vec4 **CUSTOM**"
+
+#, fuzzy
+msgid "in vec4 **CUSTOM1**"
+msgstr "inout vec4 **CUSTOM**"
+
 msgid "Fragment built-ins"
 msgstr "Variables intégrées de fragment"
 
@@ -369,7 +377,7 @@ msgstr "in vec4 **FRAGCOORD**"
 #, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
+"window. Origin is upper-left."
 msgstr ""
 "Coordonnées du centre du pixel. Dans l'espace écran. ``xy`` indiquent la "
 "position dans la fenêtre, ``z`` retourne la profondeur du fragment si "
@@ -521,6 +529,15 @@ msgid ""
 "into account:"
 msgstr ""
 
+#, fuzzy
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"Coordonnées du centre du pixel. Dans l'espace écran. ``xy`` indiquent la "
+"position dans la fenêtre, ``z`` retourne la profondeur du fragment si "
+"``DEPTH`` n'est pas utilisé. L'origine est en bas à gauche."
+
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
@@ -660,15 +677,16 @@ msgstr "Texture 2D des normales par défaut."
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr ""
 
-msgid "Converts a SDF to screen UV."
-msgstr ""
+#, fuzzy
+msgid "Converts an SDF to screen UV."
+msgstr "Convertir les indentations en tabulations"
 
 #, fuzzy
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec3 **cross** (vec3 a, vec3 b)"
 
 #, fuzzy
-msgid "Converts screen UV to a SDF."
+msgid "Converts screen UV to an SDF."
 msgstr "Convertir les indentations en tabulations"
 
 msgid "Translation status"

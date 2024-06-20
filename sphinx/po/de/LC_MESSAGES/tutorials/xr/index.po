@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,23 @@ msgstr ""
 msgid "XR"
 msgstr "XR"
 
+#, fuzzy
+msgid ""
+"This section of the manual covers everything related to XR ( Virtual Reality "
+"and Augmented Reality)."
+msgstr ""
+"Dieser Abschnitt des Tutorials behandelt die Verwendung der beiden "
+"Animations-Nodes in Godot, und den Animations-Editor."
+
 msgid "Basic Tutorial"
 msgstr "Grundlagen-Tutorial"
 
 msgid "Advanced topics"
 msgstr "Fortgeschrittene Themen"
 
-msgid ""
-"Documentation for XR in Godot 4.0 XR is still a work in progress. Please "
-"check back in the future."
-msgstr ""
-"Die Dokumentation für XR in Godot 4.0 XR ist noch in Arbeit. Bitte schauen "
-"Sie in Zukunft wieder vorbei."
+#, fuzzy
+msgid "Godot XR Tools"
+msgstr "Installation der XR-Tools"
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

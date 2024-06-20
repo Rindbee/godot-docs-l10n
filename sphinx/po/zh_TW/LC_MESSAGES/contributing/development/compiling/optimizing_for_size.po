@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,6 +209,11 @@ msgid ""
 msgstr ""
 "必須要禁用 Tools 才能使用該旗標，因為編輯器並非設計給不支援 3D 的情景。關閉 "
 "3D 支援後，二進位檔的大小約可以減少 15%。"
+
+msgid ""
+"Disabling 3D support also disables all navigation. This includes 2D "
+"navigation, as it uses the 3D navigation system internally."
+msgstr ""
 
 msgid "Disabling advanced GUI objects"
 msgstr "禁用進階 GUI 節點"

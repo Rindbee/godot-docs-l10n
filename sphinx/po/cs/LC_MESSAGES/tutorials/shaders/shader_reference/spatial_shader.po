@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -289,7 +289,7 @@ msgid "in float **E**"
 msgstr ""
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -319,9 +319,11 @@ msgstr ""
 
 msgid ""
 "Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. When ``POSITION`` is used, the value from ``VERTEX`` "
-"is ignored and projection does not happen. However, the value passed to the "
-"fragment shader still comes from ``VERTEX``."
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
 
 msgid ""
@@ -362,6 +364,14 @@ msgstr ""
 msgid "View space to world space transform."
 msgstr ""
 
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr ""
+
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr ""
+
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr ""
 
@@ -392,6 +402,12 @@ msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr ""
 
 msgid "Camera world space direction."
+msgstr ""
+
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr ""
+
+msgid "Cull layers of the camera rendering the current pass."
 msgstr ""
 
 msgid "in bool **OUTPUT_IS_SRGB**"
@@ -517,13 +533,13 @@ msgstr ""
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr ""
 
-msgid "inout mat4 **MODEL_MATRIX**"
+msgid "in mat4 **MODEL_MATRIX**"
 msgstr ""
 
 msgid "Model space to world space transform."
 msgstr ""
 
-msgid "inout mat3 **MODEL_NORMAL_MATRIX**"
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
 msgstr ""
 
 msgid "inout mat4 **PROJECTION_MATRIX**"
@@ -532,10 +548,10 @@ msgstr ""
 msgid "View space to clip space transform."
 msgstr ""
 
-msgid "inout uvec4 **BONE_INDICES**"
+msgid "in uvec4 **BONE_INDICES**"
 msgstr ""
 
-msgid "inout vec4 **BONE_WEIGHTS**"
+msgid "in vec4 **BONE_WEIGHTS**"
 msgstr ""
 
 msgid "in vec4 **CUSTOM0**"
@@ -580,7 +596,7 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr ""
 
-msgid "``true`` if current face if front face."
+msgid "``true`` if current face is front facing."
 msgstr ""
 
 msgid "in vec3 **VIEW**"
@@ -615,12 +631,6 @@ msgstr ""
 msgid "Point Coordinate for drawing points with POINT_SIZE."
 msgstr ""
 
-msgid "in mat4 **MODEL_MATRIX**"
-msgstr ""
-
-msgid "in mat3 **MODEL_NORMAL_MATRIX**"
-msgstr ""
-
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr ""
 
@@ -640,6 +650,14 @@ msgid "in vec3 **VERTEX**"
 msgstr ""
 
 msgid "Vertex that comes from vertex function (default, in view space)."
+msgstr ""
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr ""
+
+msgid ""
+"A writable version of ``VERTEX`` that can be used to alter light and "
+"shadows. Writing to this will not change the position of the fragment."
 msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
@@ -702,8 +720,8 @@ msgid "out float **ALPHA**"
 msgstr ""
 
 msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
+"Alpha (0..1); if read from or written to, the material will go to the "
+"transparent pipeline."
 msgstr ""
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -951,6 +969,11 @@ msgid "out vec3 **SPECULAR_LIGHT**"
 msgstr ""
 
 msgid "Specular light result."
+msgstr ""
+
+msgid ""
+"Alpha (0..1); if written to, the material will go to the transparent "
+"pipeline."
 msgstr ""
 
 msgid ""

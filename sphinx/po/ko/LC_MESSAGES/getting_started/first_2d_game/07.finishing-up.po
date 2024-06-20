@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,9 +52,10 @@ msgstr ""
 "깔을 고르고 \"레이아웃(Layout)\" -> \"사각형 전체(Full Rect)\"를 선택해서 화"
 "면을 덮어주세요."
 
+#, fuzzy
 msgid ""
-"You could also add a background image, if you have one, by using a "
-"``TextureRect`` node instead."
+"You could also add a background image, if you have one, by using a :ref:"
+"`TextureRect <class_TextureRect>` node instead."
 msgstr "대신 ``TextureRect`` 노드를 사용해 배경 이미지를 추가할 수도 있습니다."
 
 msgid "Sound effects"

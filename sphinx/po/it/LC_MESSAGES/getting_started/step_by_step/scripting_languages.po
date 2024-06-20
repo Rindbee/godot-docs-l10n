@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -280,6 +280,11 @@ msgid ""
 "iOS platform support is available as of Godot 4.2, but is experimental and :"
 "ref:`some limitations apply <doc_c_sharp_platforms>`."
 msgstr ""
+
+msgid ""
+"To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page."
+msgstr ""
+"Per saperne di più su C#, vai alla pagina :ref:`basi di C# <doc_c_sharp>`."
 
 msgid "C++ via GDExtension"
 msgstr ""

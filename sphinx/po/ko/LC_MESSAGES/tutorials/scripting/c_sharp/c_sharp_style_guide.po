@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,10 +60,12 @@ msgstr ""
 msgid "Language specification"
 msgstr "언어 사양"
 
+#, fuzzy
 msgid ""
-"Godot currently uses **C# version 7.0** in its engine and example source "
-"code. So, before we move to a newer version, care must be taken to avoid "
-"mixing language features only available in C# 7.1 or later."
+"Godot currently uses **C# version 10.0** in its engine and example source "
+"code, as this is the version supported by .NET 6.0 (the current baseline "
+"requirement). So, before we move to a newer version, care must be taken to "
+"avoid mixing language features only available in C# 11.0 or later."
 msgstr ""
 "현재 Godot은 엔진과 예제 소스 코드에 C# 7.0 버전을 사용합니다. 그러므로 신규 "
 "버전을 사용할 때는 C# 7.1 이상에서만 지원하는 기능이 섞이지 않도록 주의해야 "
@@ -222,14 +224,16 @@ msgstr ""
 "한 줄 주석 상징 (``//``)이후, 주석이 코드 뒤의 줄 마지막에 위치한 경우 상징"
 "의 앞에도 공백을 넣습니다."
 
+msgid ""
+"After the opening brace, and before the closing brace in a single line "
+"initializer."
+msgstr ""
+
 msgid "Do not use a space:"
 msgstr "공백을 사용하지 마세요:"
 
 msgid "After type cast parentheses."
 msgstr "타입 캐스트 괄호 이후."
-
-msgid "Within single line initializer braces."
-msgstr "한 줄 이니셜라이저 중괄호 안."
 
 msgid ""
 "The following example shows a proper use of spaces, according to some of the "

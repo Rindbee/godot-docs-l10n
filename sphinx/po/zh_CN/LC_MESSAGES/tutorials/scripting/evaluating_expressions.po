@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,9 @@ msgstr "类似 ``(2 + 4) * 16/4.0`` 的数学表达式。"
 msgid "A built-in method call like ``deg_to_rad(90)``."
 msgstr "类似 ``deg2rad(90)`` 的内置方法调用。"
 
+#, fuzzy
 msgid ""
-"A method call on an user-provided script like ``update_health()``, if "
+"A method call on a user-provided script like ``update_health()``, if "
 "``base_instance`` is set to a value other than ``null`` when calling :ref:"
 "`Expression.execute() <class_Expression_method_execute>`."
 msgstr ""

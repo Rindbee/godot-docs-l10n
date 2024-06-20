@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -298,7 +298,7 @@ msgid "in float **E**"
 msgstr "in float **E**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -331,11 +331,14 @@ msgid ""
 msgstr ""
 "其他的内置函数, 如UV, UV2和COLOR, 如果没有修改, 也会传递给fragment片段函数."
 
+#, fuzzy
 msgid ""
 "Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. When ``POSITION`` is used, the value from ``VERTEX`` "
-"is ignored and projection does not happen. However, the value passed to the "
-"fragment shader still comes from ``VERTEX``."
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
 "用户可以使用内置的 ``POSITION`` 覆盖模型视图矩阵和投影转换。当使用 "
 "``POSITION`` 时，将忽略 ``VERTEX`` 中的值，不会发生投影。然而，传递给片段着色"
@@ -382,6 +385,16 @@ msgstr "in mat4 **INV_VIEW_MATRIX**"
 msgid "View space to world space transform."
 msgstr "视图空间向世界空间变换."
 
+#, fuzzy
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "in mat4 **INV_VIEW_MATRIX**"
+
+#, fuzzy
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr "视图空间向世界空间变换."
+
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
 
@@ -411,6 +424,13 @@ msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
 msgid "Camera world space direction."
 msgstr "相机在世界空间的方向。"
+
+#, fuzzy
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr "in uint **RANDOM_SEED**"
+
+msgid "Cull layers of the camera rendering the current pass."
+msgstr ""
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
@@ -537,14 +557,14 @@ msgstr "模型空间向视图空间变换(如果可用)."
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 
-msgid "inout mat4 **MODEL_MATRIX**"
-msgstr "inout mat4 **MODEL_MATRIX**"
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "in mat4 **MODEL_MATRIX**"
 
 msgid "Model space to world space transform."
 msgstr "模型空间到世界空间变换."
 
-msgid "inout mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "inout mat3 **MODEL_NORMAL_MATRIX**"
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
+msgstr "in mat3 **MODEL_NORMAL_MATRIX**"
 
 msgid "inout mat4 **PROJECTION_MATRIX**"
 msgstr "inout mat4 **PROJECTION_MATRIX**"
@@ -552,10 +572,12 @@ msgstr "inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "视图空间向裁剪空间变换."
 
-msgid "inout uvec4 **BONE_INDICES**"
+#, fuzzy
+msgid "in uvec4 **BONE_INDICES**"
 msgstr "inout uvec4 **BONE_INDICES**"
 
-msgid "inout vec4 **BONE_WEIGHTS**"
+#, fuzzy
+msgid "in vec4 **BONE_WEIGHTS**"
 msgstr "inout vec4 **BONE_WEIGHTS**"
 
 msgid "in vec4 **CUSTOM0**"
@@ -609,7 +631,7 @@ msgid "in bool **FRONT_FACING**"
 msgstr "in bool **FRONT_FACING**"
 
 #, fuzzy
-msgid "``true`` if current face if front face."
+msgid "``true`` if current face is front facing."
 msgstr "``true`` , 如果当前面是正面."
 
 msgid "in vec3 **VIEW**"
@@ -645,12 +667,6 @@ msgstr "in vec2 **POINT_COORD**"
 msgid "Point Coordinate for drawing points with POINT_SIZE."
 msgstr "用POINT_SIZE绘制的点坐标."
 
-msgid "in mat4 **MODEL_MATRIX**"
-msgstr "in mat4 **MODEL_MATRIX**"
-
-msgid "in mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "in mat3 **MODEL_NORMAL_MATRIX**"
-
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "in mat4 **PROJECTION_MATRIX**"
 
@@ -671,6 +687,14 @@ msgstr "in vec3 **VERTEX**"
 
 msgid "Vertex that comes from vertex function (default, in view space)."
 msgstr "来自顶点函数的顶点(默认情况下, 在视图空间中)."
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "inout vec3 **LIGHT_VERTEX**"
+
+msgid ""
+"A writable version of ``VERTEX`` that can be used to alter light and "
+"shadows. Writing to this will not change the position of the fragment."
+msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
@@ -735,9 +759,10 @@ msgstr "反射(默认为白色)."
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
 
+#, fuzzy
 msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
+"Alpha (0..1); if read from or written to, the material will go to the "
+"transparent pipeline."
 msgstr "Alpha (0..1);如果写入, 材质将进入透明管道."
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -998,6 +1023,11 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "镜面反射光效果。"
+
+msgid ""
+"Alpha (0..1); if written to, the material will go to the transparent "
+"pipeline."
+msgstr "Alpha (0..1);如果写入, 材质将进入透明管道."
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

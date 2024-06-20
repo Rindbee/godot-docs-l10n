@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,14 +124,18 @@ msgstr ""
 msgid "Here is how a ``_process()`` function might look for you:"
 msgstr "Hier sieht man wie eine ``_process()`` Funktion aussehen könnte:"
 
+#, fuzzy
+msgid "Important information"
+msgstr "Weitere Informationen"
+
+#, fuzzy
 msgid ""
-"Modifications in the editor are permanent. For example, in the following "
-"case, when we remove the script, the node will keep its rotation. Be careful "
-"to avoid making unwanted modifications."
+"Any other GDScript that your tool script uses must *also* be a tool. Any "
+"GDScript without ``@tool`` used by the editor will act like an empty file!"
 msgstr ""
-"Änderungen im Editor sind dauerhaft. Wenn wir zum Beispiel im folgenden Fall "
-"das Skript entfernen, behält der Node seine Drehung bei. Seien Sie "
-"vorsichtig, um unerwünschte Änderungen zu vermeiden."
+"Neben dem EditorPlugin-Skript muss auch jedes andere GDSkript, das Ihr "
+"Plugin verwendet, *auch* ein Tool sein. Jedes GDScript ohne ``@tool``, das "
+"in den Editor importiert wird, verhält sich wie eine leere Datei!"
 
 msgid ""
 "Extending a ``@tool`` script does not automatically make the extending "
@@ -143,6 +147,16 @@ msgstr ""
 "automatisch zu einem ``@tool``. Das Weglassen von ``@tool`` im erweiternden "
 "Skript deaktiviert das Tool-Verhalten der Superklasse. Daher sollte das "
 "erweiternde Skript auch das ``@tool``-Schlüsselwort enthalten."
+
+#, fuzzy
+msgid ""
+"Modifications in the editor are permanent. For example, in the next section "
+"when we remove the script, the node will keep its rotation. Be careful to "
+"avoid making unwanted modifications."
+msgstr ""
+"Änderungen im Editor sind dauerhaft. Wenn wir zum Beispiel im folgenden Fall "
+"das Skript entfernen, behält der Node seine Drehung bei. Seien Sie "
+"vorsichtig, um unerwünschte Änderungen zu vermeiden."
 
 msgid "Try ``@tool`` out"
 msgstr "Probieren Sie ``@tool`` aus"
@@ -211,6 +225,29 @@ msgstr ""
 "sowie deren Default-Propertys zugreifen, aber nicht auf Benutzervariablen. "
 "Wenn Sie dies tun wollen, müssen andere Nodes ebenfalls im Editor laufen. "
 "Auf Autoloading-Nodes kann im Editor überhaupt nicht zugegriffen werden."
+
+#, fuzzy
+msgid "Getting notified when resources change"
+msgstr "Beschaffung des Quellcodes"
+
+msgid ""
+"Some times you want your tool to use a resource. However, when you change a "
+"property of that resource in the editor, the ``set()`` method of your tool "
+"will not be called."
+msgstr ""
+
+msgid ""
+"To get around this problem you first have to make your resource a tool and "
+"make it emit the ``changed`` signal whenever a property is set:"
+msgstr ""
+
+msgid "You then want to connect the signal when a new resource is set:"
+msgstr ""
+
+msgid ""
+"Lastly, remember to disconnect the signal as the old resource being used and "
+"changed somewhere else would cause unneeded updates."
+msgstr ""
 
 msgid "Reporting node configuration warnings"
 msgstr "Meldung von Warnungen bei der Node-Konfiguration"

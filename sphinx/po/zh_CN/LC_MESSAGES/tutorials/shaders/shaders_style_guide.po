@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,6 +178,22 @@ msgid ""
 msgstr ""
 "在着色器编辑器中, 要使选定的代码成为注释或取消注释, 按 :kbd:`Ctrl + K` . 该功"
 "能在所选行的开头添加或删除 ``//`` ."
+
+#, fuzzy
+msgid "Documentation comments"
+msgstr "GDScript 文档注释"
+
+msgid ""
+"Use the following format for documentation comments above uniforms, with "
+"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
+msgstr ""
+
+msgid ""
+"These comments will appear when hovering a property in the inspector. If you "
+"don't wish the comment to be visible in the inspector, use the standard "
+"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
+"asterisk)."
+msgstr ""
 
 msgid "Whitespace"
 msgstr "空格"

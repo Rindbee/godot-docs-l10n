@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +180,28 @@ msgstr ""
 "만약 위와 같이 호출할 함수의 첫 인자가 배열일 때에는, 배열을 ``object`` 로 타"
 "입 변환해야 합니다. 그렇지 않으면 배열의 각 원소들이 하나의 인자로 취급되어 "
 "함수 원형과 맞지 않게 됩니다."
+
+#, fuzzy
+msgid "Connecting to signals"
+msgstr "메인에 HUD를 연결하기"
+
+#, fuzzy
+msgid "Connecting to C# signals from GDScript"
+msgstr "GDScript에서 C# 멤버 변수에 접근하기"
+
+msgid ""
+"Connecting to a C# signal from GDScript is the same as connecting to a "
+"signal defined in GDScript:"
+msgstr ""
+
+#, fuzzy
+msgid "Connecting to GDScript signals from C#"
+msgstr "C#에서 GDScript 멤버 변수 접근하기"
+
+msgid ""
+"Connecting to a GDScript signal from C# only works with the ``Connect`` "
+"method because no C# static types exist for signals defined by GDScript:"
+msgstr ""
 
 msgid "Inheritance"
 msgstr "상속(Inheritance)"

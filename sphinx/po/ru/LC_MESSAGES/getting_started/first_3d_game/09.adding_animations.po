@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,12 +115,17 @@ msgstr ""
 "Мы хотим, чтобы анимация начинала воспроизводиться автоматически в начале "
 "игры. Кроме того, она должна быть зациклена."
 
+#, fuzzy
 msgid ""
-"To do so, you can click the button with an \"A+\" icon in the animation "
+"To do so, you can click the autoplay button (|Autoplay|) in the animation "
 "toolbar and the looping arrows, respectively."
 msgstr ""
 "Для этого можно нажать кнопку с пиктограммой \"A+\" на панели инструментов "
 "анимации и зацикленные стрелки соответственно."
+
+#, fuzzy
+msgid "Autoplay"
+msgstr "Автозагрузка"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -262,6 +267,12 @@ msgstr ""
 "Переместите курсор времени на ``0,5`` секунд, щелкнув и перетащив его на "
 "серой временной шкале."
 
+msgid "|timeline_05_click|"
+msgstr ""
+
+msgid "timeline_05_click"
+msgstr ""
+
 #, fuzzy
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
@@ -270,6 +281,11 @@ msgstr ""
 "Переместите курсор времени на ``0.5`` секунды, щёлкнув и перетащив его на "
 "серой временной шкале. В инспекторе установите *Translation* по оси *Y* "
 "примерно на ``0.65`` метров, а *Rotation Degrees* по оси *X* на ``8``."
+
+msgid ""
+"If you don't see the properties in the *Inspector* panel, first click on the "
+"``Character`` node again in the *Scene* dock."
+msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -280,6 +296,12 @@ msgstr "image13"
 #, fuzzy
 msgid "Create a keyframe for both properties"
 msgstr "Ключевые кадры для других свойств"
+
+msgid "|second_keys_both|"
+msgstr ""
+
+msgid "second_keys_both"
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -317,6 +339,14 @@ msgstr ""
 "Переместите курсор времени в конец анимации, на ``1.2`` секунд. Установите "
 "перемещение по Y примерно на ``0.35`` и поворот по X на ``-9`` градусов. "
 "Снова создайте ключ для обоих свойств."
+
+#, fuzzy
+msgid "|animation_final_keyframes|"
+msgstr "Компьютерная анимация опирается на ключевые кадры"
+
+#, fuzzy
+msgid "animation_final_keyframes"
+msgstr "Компьютерная анимация опирается на ключевые кадры"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -515,15 +545,27 @@ msgstr ""
 "Например, обе сцены *Mob* и *Player* имеют узел *Pivot* и узел *Character*, "
 "поэтому мы можем повторно использовать анимацию между ними."
 
+msgid ""
+"Open the *Player* scene, select the AnimationPlayer node and then click on "
+"**Animation > Manage Animations...**. Click the *Copy animation to "
+"clipboard* button (two small squares) alongside the *float* animation. Click "
+"OK to close the window."
+msgstr ""
+
+msgid ""
+"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` child node and select it. Click **Animation > "
+"Manage Animations**, then **Add Library**. You should see the message "
+"\"Global library will be created.\" Leave the text field blank and click OK. "
+"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
+"OK to close the window."
+msgstr ""
+
 #, fuzzy
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and open the "
-"\"float\" animation. Next, click on **Animation > Copy**. Then open ``mob."
-"tscn``, create an AnimationPlayer child node and select it. Click "
-"**Animation > Paste** and make sure that the button with an \"A+\" icon "
-"(Autoplay on Load) and the looping arrows (Animation looping) are also "
-"turned on in the animation editor in the bottom panel. That's it; all "
-"monsters will now play the float animation."
+"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
+"(Animation looping) are also turned on in the animation editor in the bottom "
+"panel. That's it; all monsters will now play the float animation."
 msgstr ""
 "Откройте сцену *Player*, выберите узел animation player и откройте анимацию "
 "\"float\". Затем нажмите на **Animation > Copy**. Затем откройте ``Mob."

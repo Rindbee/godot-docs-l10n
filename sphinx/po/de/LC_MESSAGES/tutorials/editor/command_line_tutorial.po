@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -583,15 +583,25 @@ msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr ""
 "|release| Nur auf Fehler prüfen und beenden (mit ``--script`` verwenden)."
 
+#, fuzzy
+msgid "``--import``"
+msgstr "``--gpu-abort``"
+
+msgid ""
+"|editor| Starts the editor, waits for any resources to be imported, and then "
+"quits. Implies ``--editor`` and ``--quit``."
+msgstr ""
+
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
 
+#, fuzzy
 msgid ""
 "|editor| Export the project using the given preset and matching release "
 "template. The preset name should match one defined in export_presets.cfg. "
 "``<path>`` should be absolute or relative to the project directory, and "
 "include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist."
+"directory should exist. Implies ``--import``."
 msgstr ""
 "|editor| Projekt mit der angegebenen Vorgabe und der passenden Release-"
 "Vorlage exportieren. Der Name der Vorgabe sollte mit einem in export_presets."
@@ -602,16 +612,20 @@ msgstr ""
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"
 
-msgid "|editor| Like ``--export-release``, but use debug template."
+#, fuzzy
+msgid ""
+"|editor| Like ``--export-release``, but use debug template. Implies ``--"
+"import``."
 msgstr "|editor| Wie ``--export-release``, aber mit Debug-Vorlage."
 
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
 
+#, fuzzy
 msgid ""
 "|editor| Like ``--export-release``, but only export the game pack for the "
 "given preset. The ``<path>`` extension determines whether it will be in PCK "
-"or ZIP format."
+"or ZIP format. Implies ``--import``."
 msgstr ""
 "|editor| Wie ``--export-release``, aber exportiert nur das Spielpaket für "
 "die angegebene Voreinstellung. Die ``<Pfad>``-Erweiterung bestimmt, ob es im "

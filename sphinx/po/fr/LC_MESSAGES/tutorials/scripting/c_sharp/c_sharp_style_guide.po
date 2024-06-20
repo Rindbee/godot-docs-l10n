@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,10 +63,12 @@ msgstr ""
 msgid "Language specification"
 msgstr "Spécification du langage"
 
+#, fuzzy
 msgid ""
-"Godot currently uses **C# version 7.0** in its engine and example source "
-"code. So, before we move to a newer version, care must be taken to avoid "
-"mixing language features only available in C# 7.1 or later."
+"Godot currently uses **C# version 10.0** in its engine and example source "
+"code, as this is the version supported by .NET 6.0 (the current baseline "
+"requirement). So, before we move to a newer version, care must be taken to "
+"avoid mixing language features only available in C# 11.0 or later."
 msgstr ""
 "Actuellement, Godot utilise **C# version 7.0** dans son moteur et son code "
 "source d'exemple. Ainsi, avant de passer à une nouvelle version, il faut "
@@ -234,14 +236,16 @@ msgstr ""
 "Après le symbole de commentaire d'une seule ligne ('//'), et avant si celui-"
 "ci est utilisé à la fin d'une ligne."
 
+msgid ""
+"After the opening brace, and before the closing brace in a single line "
+"initializer."
+msgstr ""
+
 msgid "Do not use a space:"
 msgstr "N'utilisez pas d'espace :"
 
 msgid "After type cast parentheses."
 msgstr "Après les parenthèses de conversion de type."
-
-msgid "Within single line initializer braces."
-msgstr "Dans les accolades d'initialisation monoligne."
 
 msgid ""
 "The following example shows a proper use of spaces, according to some of the "

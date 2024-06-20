@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,8 +115,9 @@ msgstr ""
 msgid "These files should contain the following:"
 msgstr "这些文件应包含以下内容:"
 
+#, fuzzy
 msgid ""
-"Next, we need to create a ``SCsub`` file so the build system compiles this "
+"Next, we need to create an ``SCsub`` file so the build system compiles this "
 "module:"
 msgstr "接下来, 我们需要创建一个 ``SCsub`` 文件, 以便构建系统编译此模块:"
 

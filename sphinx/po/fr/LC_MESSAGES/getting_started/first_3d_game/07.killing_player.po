@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,28 +158,6 @@ msgstr ""
 "Nous pouvons envelopper ces opérations dans une fonction ``die()`` qui nous "
 "aide à mettre un terme descriptif sur le code."
 
-#, fuzzy
-msgid ""
-"Try the game again by pressing :kbd:`F5`. If everything is set up correctly, "
-"the character should die when an enemy runs into the collider. Note that "
-"without a ``Player``, the following line"
-msgstr ""
-"Essayez le jeu à nouveau en appuyant sur :kbd:`F5`. Si tout est configuré "
-"correctement, le personnage devrait mourir quand un ennemi lui fonce dessus."
-
-msgid "gives error because there is no $Player!"
-msgstr "donne une erreur car il n'y a pas de $Player !"
-
-#, fuzzy
-msgid ""
-"Also note that the enemy colliding with the player and dying depends on the "
-"size and position of the ``Player`` and the ``Mob``\\ 's collision shapes. "
-"You may need to move them and resize them to achieve a tight game feel."
-msgstr ""
-"Cependant, notez que cela dépend entièrement de la taille et de la position "
-"des formes de collision du *Player* et du *Mob*. Vous devrez peut-être les "
-"déplacer et les redimensionner pour obtenir une meilleure sensation de jeu."
-
 msgid "Ending the game"
 msgstr "Arrêter le jeu"
 
@@ -217,6 +195,22 @@ msgid ""
 msgstr ""
 "Si vous essayez le jeu maintenant, les monstres cesseront d'apparaître "
 "lorsque vous mourrez, et ceux qui restent quitteront l'écran."
+
+msgid ""
+"Notice also that the game no longer crashes or displays an error when the "
+"player dies. Because we are stopping the MobTimer, it no longer triggers the "
+"``_on_mob_timer_timeout()`` function."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Also note that the enemy colliding with the player and dying depends on the "
+"size and position of the ``Player`` and the ``Mob``\\ 's collision shapes. "
+"You may need to move them and resize them to achieve a tight game feel."
+msgstr ""
+"Cependant, notez que cela dépend entièrement de la taille et de la position "
+"des formes de collision du *Player* et du *Mob*. Vous devrez peut-être les "
+"déplacer et les redimensionner pour obtenir une meilleure sensation de jeu."
 
 msgid ""
 "You can pat yourself in the back: you prototyped a complete 3D game, even if "

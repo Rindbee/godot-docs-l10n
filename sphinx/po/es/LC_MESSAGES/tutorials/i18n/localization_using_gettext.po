@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -358,7 +358,8 @@ msgstr ""
 "en formato de texto. Los archivos binarios MO son más pequeños y más rápidos "
 "de leer que los archivos PO equivalentes."
 
-msgid "You can generate a MO file with the command below:"
+#, fuzzy
+msgid "You can generate an MO file with the command below:"
 msgstr "Puedes generar un archivo MO con el siguiente comando:"
 
 #, fuzzy
@@ -370,10 +371,11 @@ msgstr ""
 "al archivo PO. Este archivo MO luego puede cargarse en Godot según se "
 "describe a continuación."
 
+#, fuzzy
 msgid ""
 "The original PO file should be kept in version control so you can update "
 "your translation in the future. In case you lose the original PO file and "
-"wish to decompile a MO file into a text-based PO file, you can do so with:"
+"wish to decompile an MO file into a text-based PO file, you can do so with:"
 msgstr ""
 "El archivo PO original debe mantenerse en el control de versiones para poder "
 "actualizar la traducción en el futuro. En caso de que pierdas el archivo PO "

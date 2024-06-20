@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -302,7 +302,7 @@ msgid "in float **E**"
 msgstr "in float **TIME**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -332,9 +332,11 @@ msgstr ""
 
 msgid ""
 "Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. When ``POSITION`` is used, the value from ``VERTEX`` "
-"is ignored and projection does not happen. However, the value passed to the "
-"fragment shader still comes from ``VERTEX``."
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
 
 msgid ""
@@ -381,6 +383,15 @@ msgid "View space to world space transform."
 msgstr ""
 
 #, fuzzy
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "in mat4 **INV_CAMERA_MATRIX**"
+
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr ""
+
+#, fuzzy
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
 
@@ -413,6 +424,13 @@ msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **ATTENUATION**"
 
 msgid "Camera world space direction."
+msgstr ""
+
+#, fuzzy
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr "in uint **RANDOM_SEED**"
+
+msgid "Cull layers of the camera rendering the current pass."
 msgstr ""
 
 #, fuzzy
@@ -559,15 +577,15 @@ msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "inout mat4 **MODELVIEW_MATRIX**"
 
 #, fuzzy
-msgid "inout mat4 **MODEL_MATRIX**"
-msgstr "inout mat4 **MODELVIEW_MATRIX**"
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "in mat4 **WORLD_MATRIX**"
 
 msgid "Model space to world space transform."
 msgstr ""
 
 #, fuzzy
-msgid "inout mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "inout mat4 **MODELVIEW_MATRIX**"
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
+msgstr "in mat4 **CAMERA_MATRIX**"
 
 #, fuzzy
 msgid "inout mat4 **PROJECTION_MATRIX**"
@@ -577,11 +595,11 @@ msgid "View space to clip space transform."
 msgstr ""
 
 #, fuzzy
-msgid "inout uvec4 **BONE_INDICES**"
+msgid "in uvec4 **BONE_INDICES**"
 msgstr "inout vec4 **CUSTOM**"
 
 #, fuzzy
-msgid "inout vec4 **BONE_WEIGHTS**"
+msgid "in vec4 **BONE_WEIGHTS**"
 msgstr "inout vec4 **LIGHT**"
 
 #, fuzzy
@@ -632,7 +650,7 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "in bool **FRONT_FACING**"
 
-msgid "``true`` if current face if front face."
+msgid "``true`` if current face is front facing."
 msgstr ""
 
 #, fuzzy
@@ -673,14 +691,6 @@ msgid "Point Coordinate for drawing points with POINT_SIZE."
 msgstr ""
 
 #, fuzzy
-msgid "in mat4 **MODEL_MATRIX**"
-msgstr "in mat4 **WORLD_MATRIX**"
-
-#, fuzzy
-msgid "in mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "in mat4 **CAMERA_MATRIX**"
-
-#, fuzzy
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "in mat4 **PROJECTION_MATRIX**"
 
@@ -701,6 +711,15 @@ msgid "in vec3 **VERTEX**"
 msgstr "in vec3 **VERTEX**"
 
 msgid "Vertex that comes from vertex function (default, in view space)."
+msgstr ""
+
+#, fuzzy
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "inout vec3 **VERTEX**"
+
+msgid ""
+"A writable version of ``VERTEX`` that can be used to alter light and "
+"shadows. Writing to this will not change the position of the fragment."
 msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
@@ -769,8 +788,8 @@ msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
 
 msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
+"Alpha (0..1); if read from or written to, the material will go to the "
+"transparent pipeline."
 msgstr ""
 
 #, fuzzy
@@ -1053,6 +1072,11 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 #, fuzzy
 msgid "Specular light result."
 msgstr "Risultato di luce speculare."
+
+msgid ""
+"Alpha (0..1); if written to, the material will go to the transparent "
+"pipeline."
+msgstr ""
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

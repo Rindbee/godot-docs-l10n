@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,9 @@ msgid ""
 "automatically."
 msgstr ""
 
-msgid "All the suffixes described below are **case-sensitive**."
+msgid ""
+"All the suffixes described below can be used with ``-``, ``$``, and ``_`` "
+"and are **case-insensitive**."
 msgstr ""
 
 msgid "Remove nodes (-noimp)"

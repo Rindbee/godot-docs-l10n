@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,6 +99,10 @@ msgstr ""
 "botón entre los botones *Detener escena* y *Reproducir escena* en el editor "
 "para abrir rápidamente el juego en el navegador predeterminado para realizar "
 "pruebas."
+
+msgid ""
+"If your project uses GDExtension **Extension Support** needs to be enabled."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -524,86 +528,14 @@ msgid ""
 "nginx."
 msgstr ""
 
-msgid "Calling JavaScript from script"
-msgstr "Llamada a JavaScript desde script"
-
 #, fuzzy
-msgid ""
-"In web builds, the ``JavaScriptBridge`` singleton is implemented. It offers "
-"a single method called ``eval`` that works similarly to the JavaScript "
-"function of the same name. It takes a string as an argument and executes it "
-"as JavaScript code. This allows interacting with the browser in ways not "
-"possible with script languages integrated into Godot."
-msgstr ""
-"En las desarrollos web, se implementa el singleton ``JavaScript``. Ofrece un "
-"único método llamado ``eval`` que funciona de forma similar a la función "
-"JavaScript del mismo nombre. Toma una cadena como argumento y la ejecuta "
-"como código JavaScript. Esto permite interactuar con el navegador de formas "
-"que no son posibles con lenguajes de script integrados en Godot."
+msgid "Interacting with the browser and JavaScript"
+msgstr "Interactuar con el inspector"
 
 msgid ""
-"The value of the last JavaScript statement is converted to a GDScript value "
-"and returned by ``eval()`` under certain circumstances:"
+"See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
+"with JavaScript and access some unique Web browser features."
 msgstr ""
-"El valor de la última sentencia JavaScript es convertido a un valor GDScript "
-"y devuelto por ``eval()`` bajo ciertas circunstancias:"
-
-#, fuzzy
-msgid "JavaScript ``number`` is returned as :ref:`class_float`"
-msgstr "JavaScript ``number`` se devuelve como GDScript :ref:`class_float`"
-
-#, fuzzy
-msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
-msgstr "JavaScript ``boolean`` se devuelve como GDScript :ref:`class_bool`"
-
-#, fuzzy
-msgid "JavaScript ``string`` is returned as :ref:`class_String`"
-msgstr "JavaScript ``string`` se devuelve como GDScript :ref:`class_String`"
-
-#, fuzzy
-msgid ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` and ``DataView`` are returned as :"
-"ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` y ``DataView`` se devuelven como "
-"GDScript :ref:`class_PoolByteArray`"
-
-msgid "Any other JavaScript value is returned as ``null``."
-msgstr "Cualquier otro valor de JavaScript se devuelve como ``null``."
-
-#, fuzzy
-msgid ""
-"HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
-"support for the singleton to improve security. With such templates, and on "
-"platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also "
-"return ``null``. The availability of the singleton can be checked with the "
-"``web`` :ref:`feature tag <doc_feature_tags>`:"
-msgstr ""
-"Las plantillas de exportación HTML5 pueden ser: ref:`built "
-"<doc_compiling_for_web>` sin soporte para el singleton para mejorar la "
-"seguridad. Con tales plantillas, y en plataformas distintas de HTML5, llamar "
-"a ``JavaScript.eval`` también devolverá ``null``. La disponibilidad del "
-"singleton se puede verificar con el ``JavaScript`` :ref:`feature tag "
-"<doc_feature_tags>`::"
-
-msgid ""
-"GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
-"``my_func3()`` above, are useful to keep JavaScript code readable."
-msgstr ""
-"Los strings multilinea de GDScript, rodeados por 3 comillas dobles "
-"``\"\"\"`` como arriba en ``my_func3()``, son útiles para mantener el código "
-"JavaScript más legible."
-
-#, fuzzy
-msgid ""
-"The ``eval`` method also accepts a second, optional Boolean argument, which "
-"specifies whether to execute the code in the global execution context, "
-"defaulting to ``false`` to prevent polluting the global namespace:"
-msgstr ""
-"El método ``eval`` también acepta un segundo argumento booleano opcional, "
-"que especifica si se debe ejecutar el código en el contexto de ejecución "
-"global, por defecto ``false`` para evitar contaminar el espacio de nombres "
-"global:"
 
 msgid "Environment variables"
 msgstr "Variables de entorno"

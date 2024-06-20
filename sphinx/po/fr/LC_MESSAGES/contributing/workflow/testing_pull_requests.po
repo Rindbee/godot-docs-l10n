@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,6 +181,10 @@ msgstr ""
 "des configurations qui ne sont pas prises en charge par la configuration des "
 "actions GitHub de Godot."
 
+#, fuzzy
+msgid "Downloading a zipped pull request branch"
+msgstr "Compilation d'une branche de pull request à partir de la source"
+
 msgid ""
 "Now that you are on the fork's branch page, click the green **Code** button "
 "on the right of the page then choose **Download ZIP** in the dropdown:"
@@ -192,6 +196,35 @@ msgstr ""
 msgid ""
 "Extract the ZIP archive and follow the :ref:`compiling <toc-devel-"
 "compiling>` instructions for your operating system."
+msgstr ""
+"Extrayez l'archive ZIP et suivez les instructions de :ref:`compilation <toc-"
+"devel-compilation>` pour votre système d'exploitation."
+
+#, fuzzy
+msgid "Checking out a pull request branch with git"
+msgstr "Compilation d'une branche de pull request à partir de la source"
+
+msgid "Alternatively, you can checkout the pull request directly with git:"
+msgstr ""
+
+msgid ""
+"Open the pull request page. Note the pull request *number* (``PR_NUMBER``), "
+"and the *branch name* (``BRANCH_NAME``), but without the user name."
+msgstr ""
+
+msgid "Construct the command using this pattern:"
+msgstr ""
+
+msgid "So for the pull request above, the actual command will be:"
+msgstr ""
+
+msgid "Once the pull request finishes downloading, checkout its branch:"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"And follow the :ref:`compiling <toc-devel-compiling>` instructions for your "
+"operating system."
 msgstr ""
 "Extrayez l'archive ZIP et suivez les instructions de :ref:`compilation <toc-"
 "devel-compilation>` pour votre système d'exploitation."

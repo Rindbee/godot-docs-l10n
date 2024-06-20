@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -249,6 +249,26 @@ msgstr ""
 "리눅스에서 이 오버레이 사용을 중지하려면, ``nvidia-settings``\\ 을 열고, **X "
 "Screen 0 > OpenGL Setting**\\ 에서 **Enable Graphics API Visual "
 "Indicator**\\ 를 선택 취소합니다."
+
+#, fuzzy
+msgid ""
+"A microphone or \"refresh\" icon appears in the bottom-right corner of the "
+"Project Manager and editor window"
+msgstr ""
+"프로젝트 매니저 및 에디터 창의 왼쪽 위 구석에 \"NO DC\"와 같은 텍스트가 나타"
+"납니다."
+
+msgid ""
+"This is caused by the NVIDIA graphics driver injecting an overlay to display "
+"instant replay information on ShadowPlay recording. This overlay can only be "
+"seen on Windows, as Linux does not have support for ShadowPlay."
+msgstr ""
+
+msgid ""
+"To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
+"NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
+"the NVIDIA overlay."
+msgstr ""
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "에디터 또는 프로젝트가 지나치게 날카롭거나 흐리게 표시됩니다"

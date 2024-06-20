@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,12 +112,17 @@ msgstr ""
 "Queremos que a animação inicie a reprodução automaticamente no início do "
 "jogo. Além disso, ele deve fazer um loop."
 
+#, fuzzy
 msgid ""
-"To do so, you can click the button with an \"A+\" icon in the animation "
+"To do so, you can click the autoplay button (|Autoplay|) in the animation "
 "toolbar and the looping arrows, respectively."
 msgstr ""
 "Para fazer isso, você pode clicar no botão com um ícone \"A +\" na barra de "
 "ferramentas de animação e nas setas em loop, respectivamente."
+
+#, fuzzy
+msgid "Autoplay"
+msgstr "AutoLoad"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -253,12 +258,23 @@ msgstr ""
 "Mova o cursor de tempo para ``0.5`` segundos clicando e arrastando na linha "
 "do tempo cinza."
 
+msgid "|timeline_05_click|"
+msgstr ""
+
+msgid "timeline_05_click"
+msgstr ""
+
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
 "*Rotation*' *X* axis to ``8``."
 msgstr ""
 "No *Inspetor*, defina o eixo *Position* *Y* para os metros ``0.65`` e o eixo "
 "*Rotation* *X* para ``8``."
+
+msgid ""
+"If you don't see the properties in the *Inspector* panel, first click on the "
+"``Character`` node again in the *Scene* dock."
+msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -268,6 +284,12 @@ msgstr "imagem13"
 
 msgid "Create a keyframe for both properties"
 msgstr "Crie um quadro-chave para ambas propriedades"
+
+msgid "|second_keys_both|"
+msgstr ""
+
+msgid "second_keys_both"
+msgstr ""
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -303,6 +325,14 @@ msgstr ""
 "Mova o cursor de tempo para o final da animação, em ``1.2`` segundos. Defina "
 "a posição Y para cerca de ``0.35`` e a rotação X para ``-9`` graus. Mais uma "
 "vez, crie uma chave para ambas as propriedades."
+
+#, fuzzy
+msgid "|animation_final_keyframes|"
+msgstr "A animação por computador depende de quadros-chave"
+
+#, fuzzy
+msgid "animation_final_keyframes"
+msgstr "A animação por computador depende de quadros-chave"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -496,13 +526,26 @@ msgstr ""
 "``Character``, para que possamos reutilizar animações entre elas."
 
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and open the "
-"\"float\" animation. Next, click on **Animation > Copy**. Then open ``mob."
-"tscn``, create an AnimationPlayer child node and select it. Click "
-"**Animation > Paste** and make sure that the button with an \"A+\" icon "
-"(Autoplay on Load) and the looping arrows (Animation looping) are also "
-"turned on in the animation editor in the bottom panel. That's it; all "
-"monsters will now play the float animation."
+"Open the *Player* scene, select the AnimationPlayer node and then click on "
+"**Animation > Manage Animations...**. Click the *Copy animation to "
+"clipboard* button (two small squares) alongside the *float* animation. Click "
+"OK to close the window."
+msgstr ""
+
+msgid ""
+"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` child node and select it. Click **Animation > "
+"Manage Animations**, then **Add Library**. You should see the message "
+"\"Global library will be created.\" Leave the text field blank and click OK. "
+"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
+"OK to close the window."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
+"(Animation looping) are also turned on in the animation editor in the bottom "
+"panel. That's it; all monsters will now play the float animation."
 msgstr ""
 "Abra a cena *Player*, selecione o nó AnimationPlayer e abra a animação "
 "\"float\". Em seguida, clique em **Animação > Entendido. Em seguida, abra "

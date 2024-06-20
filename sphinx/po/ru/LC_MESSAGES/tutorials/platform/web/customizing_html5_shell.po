@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,6 +112,11 @@ msgstr ""
 "контролируете создаваемую HTML-страницу, эта переменная может быть полезна "
 "для настройки частей HTML ``head`` элемента из редактора Godot Editor, "
 "например, для различных предварительных настроек веб-экспорта."
+
+msgid ""
+"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
+"the Project Settings."
+msgstr ""
 
 msgid ""
 "When the custom page is ready, it can be selected in the export options "

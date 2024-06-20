@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,8 +21,110 @@ msgid "Using NavigationObstacles"
 msgstr "使用 NavigationObstacle"
 
 msgid ""
-"NavigationObstacles can be used either as static or dynamic obstacles to "
-"affect avoidance controlled agents."
+"2D and 3D versions of NavigationObstacles nodes are available as :ref:"
+"`NavigationObstacle2D<class_NavigationObstacle2D>` and :ref:"
+"`NavigationObstacle3D<class_NavigationObstacle3D>`  respectively."
+msgstr ""
+"2D 和 3D 版本的 NavigationObstacle 节点分别为 :ref:"
+"`NavigationObstacle2D<class_NavigationObstacle2D>` 和 :ref:"
+"`NavigationObstacle3D<class_NavigationObstacle3D>` 。"
+
+msgid ""
+"Navigation obstacles are dual purpose in that they can affect both the "
+"navigation mesh baking, and the agent avoidance."
+msgstr ""
+
+msgid ""
+"With ``affect_navigation_mesh`` enabled the obstacle will affect navigation "
+"mesh when baked."
+msgstr ""
+
+msgid "With ``avoidance_enabled`` the obstacle will affect avoidance agents."
+msgstr ""
+
+msgid ""
+"Avoidance is enabled by default. If the obstacle is not used for avoidance "
+"disable ``enabled_avoidance`` to save performance."
+msgstr ""
+
+#, fuzzy
+msgid "Obstacles and navigation mesh"
+msgstr "使用导航网格"
+
+#, fuzzy
+msgid "Navigation obstacles affecting navigation mesh baking"
+msgstr "烘焙导航网格的性能问题"
+
+#, fuzzy
+msgid "Navigation obstacles affecting navigation mesh baking."
+msgstr "烘焙导航网格的性能问题"
+
+msgid ""
+"For navigation mesh baking obstacles can be used to discard parts of all "
+"other source geometry inside the obstacle shape."
+msgstr ""
+
+msgid ""
+"This can be used to stop navigation meshes being baked in unwanted places, e."
+"g. inside \"solid\" geometry like thick walls or on top of other geometry "
+"that should not be included for gameplay like roofs."
+msgstr ""
+
+msgid "Navigation obstacles discard of unwanted navigation mesh"
+msgstr ""
+
+msgid "Navigation obstacles discard of unwanted navigation mesh."
+msgstr ""
+
+msgid ""
+"An obstacle does not add geometry in the baking process, it only removes "
+"geometry. It does so by nullifying all the (voxel) cells with rasterized "
+"source geometry that are within the obstacle shape. As such its effect and "
+"shape detail is limited to the cell resolution used by the baking process."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For more details on the navigation mesh baking see :ref:"
+"`doc_navigation_using_navigationmeshes`."
+msgstr ""
+"更多 NavigationAgent 相关的信息见 :ref:"
+"`doc_navigation_using_navigationagents`\\ 。"
+
+msgid ""
+"The property ``affect_navigation_mesh`` makes the obstacle contribute to the "
+"navigation mesh baking. It will be parsed or unparsed like all other node "
+"objects in a navigation mesh baking process."
+msgstr ""
+
+msgid ""
+"The ``carve_navigation_mesh`` property makes the shape unaffected by offsets "
+"of the baking, e.g. the offset added by the navigation mesh "
+"``agent_radius``. It will basically act as a stencil and cut into the "
+"already offset navigation mesh surface. It will still be affected by further "
+"postprocessing of the baking process like edge simplification."
+msgstr ""
+
+msgid ""
+"The obstacle shape and placement is defined with the ``height`` and "
+"``vertices`` properties, and the ``global_position`` of the obstacle. The y-"
+"axis value of any Vector3 used for the vertices is ignored as the obstacle "
+"is projected on a flat horizontal plane."
+msgstr ""
+
+msgid ""
+"When baking navigation meshes in scripts obstacles can be added procedurally "
+"as a projected obstruction. Obstacles are not involved in the source "
+"geometry parsing so adding them just before baking is enough."
+msgstr ""
+
+msgid "Obstacles and agent avoidance"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For avoidance navigation obstacles can be used either as static or dynamic "
+"obstacles to affect avoidance controlled agents."
 msgstr ""
 "NavigationObstacle 即导航障碍物，可以用作静态或动态障碍物，影响由避障系统控制"
 "的代理。"
@@ -37,32 +139,25 @@ msgid ""
 "agents in a radius around them."
 msgstr "当动态使用时，导览障碍会推开其周围半径范围内的回避控制代理。"
 
-msgid ""
-"2D and 3D versions of NavigationObstacles nodes are available as :ref:"
-"`NavigationObstacle2D<class_NavigationObstacle2D>` and :ref:"
-"`NavigationObstacle3D<class_NavigationObstacle3D>`  respectively."
-msgstr ""
-"2D 和 3D 版本的 NavigationObstacle 节点分别为 :ref:"
-"`NavigationObstacle2D<class_NavigationObstacle2D>` 和 :ref:"
-"`NavigationObstacle3D<class_NavigationObstacle3D>` 。"
-
-msgid ""
-"NavigationObstacles do not change or influence the pathfinding in any way. "
-"NavigationObstacles only affect the avoidance velocities of agents "
-"controlled by avoidance."
-msgstr ""
-"导航障碍不会以任何方式改变或影响寻路。导航障碍只影响由回避控制的主体的回避速"
-"度。"
-
-msgid "Static obstacles"
+#, fuzzy
+msgid "Static avoidance obstacles"
 msgstr "静态障碍物"
 
+#, fuzzy
 msgid ""
-"A NavigationObstacle is considered static when its ``vertices`` property is "
+"An avoidance obstacle is considered static when its ``vertices`` property is "
 "populated with an outline array of positions to form a polygon."
 msgstr ""
 "当NavigationObstruct的 ``vertices`` 属性由位置的轮廓数组填充以形成多边形时，"
 "它被视为静态的。"
+
+msgid ""
+"Static obstacle drawn in the editor to block or contain navigation agents"
+msgstr ""
+
+msgid ""
+"Static obstacle drawn in the editor to block or contain navigation agents."
+msgstr ""
 
 msgid ""
 "Static obstacles act as hard do-not-cross boundaries for avoidance using "
@@ -87,10 +182,11 @@ msgid ""
 "pushed out or sucked in."
 msgstr "如果代理人被推出或吸入，静态障碍物透过顶点的缠绕顺序来定义。"
 
+#, fuzzy
 msgid ""
 "Static obstacles can not change their position. They can only be warped to a "
-"new position and rebuild from scratch. Static obstacles as a result are ill-"
-"suited for usages where the position is changed every frame as the constant "
+"new position and rebuilt from scratch. Static obstacles as a result are ill-"
+"suited for usages where the position is changed every frame, as the constant "
 "rebuild has a high performance cost."
 msgstr ""
 "静态障碍物不能改变其位置。它们只能扭曲到新的位置并从头开始重建。因此，静态障"
@@ -116,11 +212,13 @@ msgstr ""
 "海拔高度。代理将忽略3D中低于或高于其的静态障碍物。这是由障碍物和代理的全局y轴"
 "位置自动确定为海拔高度以及它们各自的高度属性。"
 
-msgid "Dynamic obstacles"
+#, fuzzy
+msgid "Dynamic avoidance obstacles"
 msgstr "动态障碍物"
 
+#, fuzzy
 msgid ""
-"A NavigationObstacle is considered dynamic when its ``radius`` property is "
+"An avoidance obstacle is considered dynamic when its ``radius`` property is "
 "greater than zero."
 msgstr "NavigationObstacle 的 ``radius`` 属性大于零时就会被认为是动态障碍物。"
 
@@ -151,15 +249,16 @@ msgid ""
 "narrow spaces."
 msgstr "动态障碍物不适合用来将代理限制在拥挤、狭窄的空间中。"
 
+#, fuzzy
 msgid ""
 "While both static and dynamic properties can be active at the same time on "
 "the same obstacle this is not recommended for performance. Ideally when an "
 "obstacle is moving the static vertices are removed and instead the radius "
 "activated. When the obstacle reaches the new final position it should "
 "gradually enlarge its radius to push all other agents away. With enough "
-"created save space around the obstacle it should add the static vertices "
-"again and remove the radius. This helps to avoid getting agents stuck in the "
-"suddenly appearing static obstacle when the rebuild static boundary is "
+"created safe space around the obstacle it should add the static vertices "
+"again and remove the radius. This helps avoid getting agents stuck in the "
+"suddenly appearing static obstacle when the rebuilt static boundary is "
 "finished."
 msgstr ""
 "虽然障碍物可以同时激活静态和动态属性，但是出于性能的考虑不建议这么做。理想情"
@@ -180,8 +279,10 @@ msgstr ""
 msgid "Procedural obstacles"
 msgstr "程序式障碍物"
 
+#, fuzzy
 msgid ""
-"New obstacles can be created without a Node directly on the NavigationServer."
+"New obstacles can be created in a script without a Node by using the "
+"NavigationServer directly."
 msgstr "可以不借助节点，直接在 NavigationServer 上新建障碍物。"
 
 msgid ""

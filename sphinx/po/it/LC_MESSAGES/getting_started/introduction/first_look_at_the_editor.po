@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,11 +53,20 @@ msgstr ""
 "la libreria dei contenuti. Per ora clicca cancella, ci daremo un occhiata "
 "successivamente."
 
-#, fuzzy
 msgid ""
 "At the top of the window, there is another tab named \"Asset Library "
-"Projects\". You can search for demo projects in the open source asset "
-"library, which includes many projects developed by the community."
+"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
+"button. For privacy reasons the Godot project manager does not access the "
+"internet by default. To change this click the \"Go Online button\", if you "
+"want to change your network mode back to \"offline\" you can do so from the "
+"project manager settings."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Once your network mode is set to \"online\" you can search for demo projects "
+"in the open source asset library, which includes many projects developed by "
+"the community."
 msgstr ""
 "Nella parte superiore della finestra, c'è un'altra scheda chiamata "
 "\"Templates\". Puoi cercare progetti demo nella libreria dei contenuti open-"
@@ -67,15 +76,14 @@ msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr ""
 
-#, fuzzy
 msgid ""
-"You can also change the editor's language using the drop-down menu to the "
-"right of the engine's version in the window's top-right corner. By default, "
-"it is in English (EN)."
+"You can also change the editor's language by going into the settings menu."
 msgstr ""
-"Puoi anche cambiare la lingua dell'editor utilizzando il menu a discesa a "
-"destra della versione del motore nell'angolo in alto a destra della "
-"finestra. Per impostazione predefinita, è in inglese (EN)."
+
+msgid ""
+"From here use the language drop down menu to select your language. By "
+"default, it is in English (EN)."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -245,7 +253,7 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Alt + Space` on macOS, or :kbd:`fn + F1` for "
+"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
 "laptops with a :kbd:`fn` key) anywhere in the editor."
 msgstr ""
 "Premendo :kbd:`F1` (o :kbd:`Alt + Space` su macOS) in qualsiasi punto "

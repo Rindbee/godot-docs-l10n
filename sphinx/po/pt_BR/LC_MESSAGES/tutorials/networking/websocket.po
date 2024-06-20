@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,8 +72,9 @@ msgid ""
 "server, and how to send and receive data."
 msgstr ""
 
-msgid "This will print:"
-msgstr "Isto vai imprimir:"
+#, fuzzy
+msgid "This will print something similar to:"
+msgstr "Sua hierarquia de cenas será mais ou menos assim:"
 
 msgid "Minimal server example"
 msgstr "Exemplo mínimo de servidor"

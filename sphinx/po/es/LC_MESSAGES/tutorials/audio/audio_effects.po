@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,6 +238,21 @@ msgstr ""
 "El filtro es lo que todos los demás filtros heredan y no debe ser usado "
 "directamente."
 
+#, fuzzy
+msgid "HardLimiter"
+msgstr "Limitador"
+
+#, fuzzy
+msgid ""
+"A limiter is similar to a compressor, but it's less flexible and designed to "
+"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
+"limiter to the final point of the Master bus is good practice, as it offers "
+"an easy safeguard against clipping."
+msgstr ""
+"Un limitador es similar a un compresor, pero es menos flexible y esta "
+"diseñado para omitir el sonido al exceder el limite de dB. Añadir uno al "
+"Master Bus es siempre recomendado para reducir los efectos de los recortes."
+
 msgid "HighPassFilter"
 msgstr "Filtro de paso alto"
 
@@ -260,16 +275,21 @@ msgstr ""
 msgid "Limiter"
 msgstr "Limitador"
 
-#, fuzzy
 msgid ""
-"A limiter is similar to a compressor, but it's less flexible and designed to "
-"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
-"limiter to the final point of the Master bus is good practice, as it offers "
-"an easy safeguard against clipping."
+"This is the old limiter effect, and it is recommended to use the new "
+"HardLimiter effect instead."
 msgstr ""
-"Un limitador es similar a un compresor, pero es menos flexible y esta "
-"diseñado para omitir el sonido al exceder el limite de dB. Añadir uno al "
-"Master Bus es siempre recomendado para reducir los efectos de los recortes."
+
+msgid ""
+"Here is an example of how this effect works, if the ceiling is set to -12 "
+"dB, and the threshold is 0 dB, all samples going through get reduced by "
+"12dB. This changes the waveform of the sound and introduces distortion."
+msgstr ""
+
+msgid ""
+"This effect is being kept to preserve compatibility, however it should be "
+"considered deprecated."
+msgstr ""
 
 msgid "LowPassFilter"
 msgstr "Filtro de paso bajo"

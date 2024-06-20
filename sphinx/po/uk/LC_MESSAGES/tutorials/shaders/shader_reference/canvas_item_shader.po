@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,7 +154,7 @@ msgid "in float **E**"
 msgstr "**float**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -274,6 +274,12 @@ msgstr ""
 msgid "Point size for point drawing."
 msgstr ""
 
+msgid "in vec4 **CUSTOM0**"
+msgstr ""
+
+msgid "in vec4 **CUSTOM1**"
+msgstr ""
+
 msgid "Fragment built-ins"
 msgstr ""
 
@@ -299,7 +305,7 @@ msgstr ""
 
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
+"window. Origin is upper-left."
 msgstr ""
 
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
@@ -428,6 +434,11 @@ msgid ""
 "into account:"
 msgstr ""
 
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+
 msgid "in vec3 **NORMAL**"
 msgstr ""
 
@@ -543,13 +554,15 @@ msgstr ""
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr ""
 
-msgid "Converts a SDF to screen UV."
-msgstr ""
+#, fuzzy
+msgid "Converts an SDF to screen UV."
+msgstr "Перетворює екранний UV на SDF."
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr ""
 
-msgid "Converts screen UV to a SDF."
+#, fuzzy
+msgid "Converts screen UV to an SDF."
 msgstr "Перетворює екранний UV на SDF."
 
 msgid "Translation status"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,17 +76,45 @@ msgid ""
 msgstr ""
 
 msgid ""
-"To create such a track, click \"Add Track -> Call Method Track.\" Then, a "
-"window opens and lets you select the node to associate with the track. To "
-"call one of the node's methods, right-click the timeline and select \"Insert "
-"Key\". A window opens with a list of available methods. Double-click one to "
-"finish creating the keyframe."
+"To create such a track in the editor, click \"Add Track -> Call Method Track."
+"\" Then, a window opens and lets you select the node to associate with the "
+"track. To call one of the node's methods, right-click the timeline and "
+"select \"Insert Key\". A window opens with a list of available methods. "
+"Double-click one to finish creating the keyframe."
 msgstr ""
 
 msgid ""
 "To change the method call or its arguments, click on the key and head to the "
 "inspector dock. There, you can change the method to call. If you expand the "
 "\"Args\" section, you will see a list of arguments you can edit."
+msgstr ""
+
+msgid ""
+"To create such a track through code, pass a dictionary that contains the "
+"target method's name and parameters as the Variant for ``key`` in "
+"``Animation.track_insert_key()``. The keys and their expected values are as "
+"follows:"
+msgstr ""
+
+msgid "**Key**"
+msgstr ""
+
+#, fuzzy
+msgid "**Value**"
+msgstr "Wartość"
+
+#, fuzzy
+msgid "``\"method\"``"
+msgstr "Funkcje statyczne."
+
+#, fuzzy
+msgid "The name of the method as a ``String``"
+msgstr "Ścieżka bezwzględna do pliku."
+
+msgid "``\"args\"``"
+msgstr ""
+
+msgid "The arguments to pass to the function as an ``Array``"
 msgstr ""
 
 msgid "Bezier Curve Track"
@@ -113,6 +141,14 @@ msgstr ""
 msgid ""
 "In the editor, keys are represented by filled diamonds and the outlined "
 "diamonds connected to them by a line control curve's shape."
+msgstr ""
+
+msgid ""
+"For better precision while manually working with curves, you might want to "
+"alter the zoom levels of the editor. The slider on the bottom right of the "
+"editor can be used to zoom in and out on the time axis, you can also do that "
+"with :kbd:`Ctrl + Shift + Mouse wheel`. Using :kbd:`Ctrl + Alt + Mouse "
+"wheel` will zoom in and out on the Y axis"
 msgstr ""
 
 msgid "In the right click panel of the editor, you can select the handle mode:"

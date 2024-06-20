@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -166,6 +166,56 @@ msgstr ""
 "Le nom sous ``program`` dépend de la configuration de votre compilation, par "
 "exemple ``godot.x11.tools.64`` pour une plate-forme X11 64 bits avec "
 "``tools`` activé."
+
+#, fuzzy
+msgid "Configuring Intellisense"
+msgstr "Configuration de l’exécution"
+
+msgid "For the C/C++ extension:"
+msgstr ""
+
+msgid ""
+"To fix include errors you may be having, you need to configure some settings "
+"in the ``c_cpp_properties.json`` file."
+msgstr ""
+
+msgid ""
+"First, make sure to build the project since some files need to be generated."
+msgstr ""
+
+msgid "Edit the C/C++ Configuration file either with the UI or with text:"
+msgstr ""
+
+msgid ""
+"Add an include path for your platform, for example, ``${workspaceFolder}/"
+"platform/windows``."
+msgstr ""
+
+msgid ""
+"Add defines for the editor ``TOOLS_ENABLED``, debug builds "
+"``DEBUG_ENABLED``, and tests ``TESTS_ENABLED``."
+msgstr ""
+
+msgid ""
+"Make sure the compiler path is configured correctly to the compiler you are "
+"using. See :ref:`doc_introduction_to_the_buildsystem` for further "
+"information on your platform."
+msgstr ""
+
+msgid ""
+"The ``c_cpp_properties.json`` file should look similar to this for Windows:"
+msgstr ""
+
+msgid ""
+"Alternatively, you can use the scons argument ``compiledb=yes`` and set the "
+"compile commands setting ``compileCommands`` to ``compile_commands.json``, "
+"found in the advanced section of the C/C++ Configuration UI."
+msgstr ""
+
+msgid ""
+"This argument can be added to your build task in ``tasks.json`` since it "
+"will need to be run whenever files are added or moved."
+msgstr ""
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

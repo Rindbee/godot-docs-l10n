@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,12 +80,13 @@ msgid ""
 "animation is previewed in the editor for safety."
 msgstr "为了安全起见，在编辑器中预览动画时，方法调用轨道上的事件不会被执行。"
 
+#, fuzzy
 msgid ""
-"To create such a track, click \"Add Track -> Call Method Track.\" Then, a "
-"window opens and lets you select the node to associate with the track. To "
-"call one of the node's methods, right-click the timeline and select \"Insert "
-"Key\". A window opens with a list of available methods. Double-click one to "
-"finish creating the keyframe."
+"To create such a track in the editor, click \"Add Track -> Call Method Track."
+"\" Then, a window opens and lets you select the node to associate with the "
+"track. To call one of the node's methods, right-click the timeline and "
+"select \"Insert Key\". A window opens with a list of available methods. "
+"Double-click one to finish creating the keyframe."
 msgstr ""
 "要创建这样的轨道，请单击“添加轨道 -> 方法调用轨道”。然后，一个窗口会打开，让"
 "你选择要与轨道关联的节点。要调用节点的方法，请右键单击时间轴，然后选择“插入关"
@@ -98,6 +99,34 @@ msgid ""
 msgstr ""
 "要更改方法调用或其参数，请单击关键帧并转到检查器面板。在那里，你可以更改要调"
 "用的方法。如果展开“Args”部分，你将看到一个可编辑的参数列表。"
+
+msgid ""
+"To create such a track through code, pass a dictionary that contains the "
+"target method's name and parameters as the Variant for ``key`` in "
+"``Animation.track_insert_key()``. The keys and their expected values are as "
+"follows:"
+msgstr ""
+
+msgid "**Key**"
+msgstr ""
+
+#, fuzzy
+msgid "**Value**"
+msgstr "值"
+
+#, fuzzy
+msgid "``\"method\"``"
+msgstr "``Method``"
+
+#, fuzzy
+msgid "The name of the method as a ``String``"
+msgstr "新建类的名称(只在 C# 中使用)."
+
+msgid "``\"args\"``"
+msgstr ""
+
+msgid "The arguments to pass to the function as an ``Array``"
+msgstr ""
 
 msgid "Bezier Curve Track"
 msgstr "贝塞尔曲线轨道"
@@ -130,6 +159,14 @@ msgid ""
 "In the editor, keys are represented by filled diamonds and the outlined "
 "diamonds connected to them by a line control curve's shape."
 msgstr "在编辑器中，帧由实心菱形表示，空心菱形通过线控制曲线的形状连接到它们。"
+
+msgid ""
+"For better precision while manually working with curves, you might want to "
+"alter the zoom levels of the editor. The slider on the bottom right of the "
+"editor can be used to zoom in and out on the time axis, you can also do that "
+"with :kbd:`Ctrl + Shift + Mouse wheel`. Using :kbd:`Ctrl + Alt + Mouse "
+"wheel` will zoom in and out on the Y axis"
+msgstr ""
 
 msgid "In the right click panel of the editor, you can select the handle mode:"
 msgstr "在编辑器右键面板中，可以选择控柄模式："

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,7 +75,8 @@ msgstr "打开 2D 编辑器"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
-msgid ":kbd:`Alt + 1`"
+#, fuzzy
+msgid ":kbd:`Opt + 1`"
 msgstr ":kbd:`Alt+1`"
 
 msgid "``editor/editor_2d``"
@@ -87,7 +88,8 @@ msgstr "打开 3D 编辑器"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
 
-msgid ":kbd:`Alt + 2`"
+#, fuzzy
+msgid ":kbd:`Opt + 2`"
 msgstr ":kbd:`Alt+2`"
 
 msgid "``editor/editor_3d``"
@@ -99,7 +101,8 @@ msgstr "打开脚本编辑器"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
 
-msgid ":kbd:`Alt + 3`"
+#, fuzzy
+msgid ":kbd:`Opt + 3`"
 msgstr ":kbd:`Alt+3`"
 
 msgid "``editor/editor_script``"
@@ -111,7 +114,8 @@ msgstr "搜索帮助"
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
 
-msgid ":kbd:`Alt + Space`"
+#, fuzzy
+msgid ":kbd:`Opt + Space`"
 msgstr ":kbd:`Alt+Space`"
 
 msgid "``editor/editor_help``"
@@ -159,8 +163,9 @@ msgstr "筛选文件"
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ":kbd:`Ctrl + Alt + P`"
 
-msgid ":kbd:`Cmd + Alt + P`"
-msgstr ":kbd:`Cmd + Alt + P`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + P`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``editor/filter_files``"
 msgstr "``editor/filter_files``"
@@ -231,7 +236,8 @@ msgstr "保存所有场景"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ":kbd:`Ctrl + Shift + Alt + S`"
 
-msgid ":kbd:`Cmd + Shift + Alt + S`"
+#, fuzzy
+msgid ":kbd:`Cmd + Shift + Opt + S`"
 msgstr ":kbd:`Cmd + Shift + Alt + S`"
 
 msgid "``editor/save_all_scenes``"
@@ -241,6 +247,10 @@ msgid "Quick Open"
 msgstr "快速打开"
 
 msgid ":kbd:`Shift + Alt + O`"
+msgstr ":kbd:`Shift + Alt + O`"
+
+#, fuzzy
+msgid ":kbd:`Shift + Opt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
 
 msgid "``editor/quick_open``"
@@ -264,8 +274,9 @@ msgstr "快速打开脚本"
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ":kbd:`Ctrl + Alt + O`"
 
-msgid ":kbd:`Cmd + Alt + O`"
-msgstr ":kbd:`Cmd + Alt + O`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + O`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``editor/quick_open_script``"
 msgstr "``editor/quick_open_script``"
@@ -312,7 +323,8 @@ msgstr "退出到项目列表"
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ":kbd:`Ctrl + Shift + Q`"
 
-msgid ":kbd:`Shift + Alt + Q`"
+#, fuzzy
+msgid ":kbd:`Shift + Opt + Q`"
 msgstr ":kbd:`Shift + Alt + Q`"
 
 msgid "``editor/quit_to_project_list``"
@@ -705,6 +717,10 @@ msgstr "缓慢自由视图速度"
 msgid ":kbd:`Alt`"
 msgstr ":kbd:`Alt`"
 
+#, fuzzy
+msgid ":kbd:`Opt`"
+msgstr ":kbd:`O`"
+
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr "``spatial_editor/freelook_slow_modifier``"
 
@@ -759,6 +775,10 @@ msgstr "底视图"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ":kbd:`Alt + Num 7`"
 
+#, fuzzy
+msgid ":kbd:`Opt + Num 7`"
+msgstr ":kbd:`Alt + Num 7`"
+
 msgid "``spatial_editor/bottom_view``"
 msgstr "``spatial_editor/bottom_view``"
 
@@ -777,6 +797,10 @@ msgstr "后视图"
 msgid ":kbd:`Alt + Num 1`"
 msgstr ":kbd:`Alt + Num 1`"
 
+#, fuzzy
+msgid ":kbd:`Opt + Num 1`"
+msgstr ":kbd:`Alt + Num 1`"
+
 msgid "``spatial_editor/rear_view``"
 msgstr "``spatial_editor/rear_view``"
 
@@ -793,6 +817,10 @@ msgid "Left View"
 msgstr "左视图"
 
 msgid ":kbd:`Alt + Num 3`"
+msgstr ":kbd:`Alt + Num 3`"
+
+#, fuzzy
+msgid ":kbd:`Opt + Num 3`"
 msgstr ":kbd:`Alt + Num 3`"
 
 msgid "``spatial_editor/left_view``"
@@ -837,8 +865,9 @@ msgstr "将变换与视图对齐"
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ":kbd:`Ctrl + Alt + M`"
 
-msgid ":kbd:`Cmd + Alt + M`"
-msgstr ":kbd:`Cmd + Alt + M`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + M`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/align_transform_with_view``"
 msgstr "``spatial_editor/align_transform_with_view``"
@@ -849,8 +878,9 @@ msgstr "将旋转与视图对齐"
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ":kbd:`Ctrl + Alt + F`"
 
-msgid ":kbd:`Cmd + Alt + F`"
-msgstr ":kbd:`Cmd + Alt + F`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + F`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/align_rotation_with_view``"
 msgstr "``spatial_editor/align_rotation_with_view``"
@@ -885,8 +915,9 @@ msgstr "2 个视口(备选)"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ":kbd:`Ctrl + Alt + 2`"
 
-msgid ":kbd:`Cmd + Alt + 2`"
-msgstr ":kbd:`Cmd + Alt + 2`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + 2`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/2_viewports_alt``"
 msgstr "``spatial_editor/2_viewports_alt``"
@@ -909,8 +940,9 @@ msgstr "3 个视口(备选)"
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ":kbd:`Ctrl + Alt + 3`"
 
-msgid ":kbd:`Cmd + Alt + 3`"
-msgstr ":kbd:`Cmd + Alt + 3`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + 3`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/3_viewports_alt``"
 msgstr "``spatial_editor/3_viewports_alt``"
@@ -1032,9 +1064,6 @@ msgstr "替换"
 msgid ":kbd:`Ctrl + R`"
 msgstr ":kbd:`Ctrl + R`"
 
-msgid ":kbd:`Alt + Cmd + F`"
-msgstr ":kbd:`Alt + Cmd + F`"
-
 msgid "``script_text_editor/replace``"
 msgstr "``script_text_editor/replace``"
 
@@ -1065,6 +1094,10 @@ msgstr "向上移动"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ":kbd:`Alt + Up Arrow`"
 
+#, fuzzy
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ":kbd:`Alt + Up Arrow`"
+
 msgid "``script_text_editor/move_up``"
 msgstr "``script_text_editor/move_up``"
 
@@ -1072,6 +1105,10 @@ msgid "Move Down"
 msgstr "向下移动"
 
 msgid ":kbd:`Alt + Down Arrow`"
+msgstr ":kbd:`Alt + Down Arrow`"
+
+#, fuzzy
+msgid ":kbd:`Opt + Down Arrow`"
 msgstr ":kbd:`Alt + Down Arrow`"
 
 msgid "``script_text_editor/move_down``"
@@ -1152,8 +1189,9 @@ msgstr "移除行尾空格"
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ":kbd:`Ctrl + Alt + T`"
 
-msgid ":kbd:`Cmd + Alt + T`"
-msgstr ":kbd:`Cmd + Alt + T`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + T`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr "``script_text_editor/trim_trailing_whitespace``"
@@ -1227,8 +1265,9 @@ msgstr "切换书签"
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ":kbd:`Ctrl + Alt + B`"
 
-msgid ":kbd:`Cmd + Alt + B`"
-msgstr ":kbd:`Cmd + Alt + B`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + B`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``script_text_editor/toggle_bookmark``"
 msgstr "``script_text_editor/toggle_bookmark``"
@@ -1317,7 +1356,8 @@ msgstr "上下文帮助"
 msgid ":kbd:`Alt + F1`"
 msgstr ":kbd:`Alt + F1`"
 
-msgid ":kbd:`Alt + Shift + Space`"
+#, fuzzy
+msgid ":kbd:`Opt + Shift + Space`"
 msgstr ":kbd:`Alt + Shift + Space`"
 
 msgid "``script_text_editor/contextual_help``"
@@ -1341,10 +1381,18 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Up Arrow`"
 
+#, fuzzy
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Alt + Up Arrow`"
+
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
+msgstr ":kbd:`Shift + Alt + Down Arrow`"
+
+#, fuzzy
+msgid ":kbd:`Shift + Opt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Down Arrow`"
 
 msgid "``script_editor/window_move_down``"
@@ -1386,8 +1434,9 @@ msgstr "保存"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ":kbd:`Ctrl + Alt + S`"
 
-msgid ":kbd:`Cmd + Alt + S`"
-msgstr ":kbd:`Cmd + Alt + S`"
+#, fuzzy
+msgid ":kbd:`Opt + Cmd + S`"
+msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``script_editor/save``"
 msgstr "``script_editor/save``"
@@ -1410,6 +1459,10 @@ msgstr "后退"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ":kbd:`Alt + Left Arrow`"
 
+#, fuzzy
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ":kbd:`Alt + Left Arrow`"
+
 msgid "``script_editor/history_previous``"
 msgstr "``script_editor/history_previous``"
 
@@ -1417,6 +1470,10 @@ msgid "History Next"
 msgstr "前进"
 
 msgid ":kbd:`Alt + Right Arrow`"
+msgstr ":kbd:`Alt + Right Arrow`"
+
+#, fuzzy
+msgid ":kbd:`Opt + Right Arrow`"
 msgstr ":kbd:`Alt + Right Arrow`"
 
 msgid "``script_editor/history_next``"
@@ -1557,6 +1614,10 @@ msgstr "``file_dialog/toggle_hidden_files``"
 msgid "Toggle Favorite"
 msgstr "开关收藏"
 
+#, fuzzy
+msgid ":kbd:`Opt + F`"
+msgstr ":kbd:`Alt + F`"
+
 msgid "``file_dialog/toggle_favorite``"
 msgstr "``file_dialog/toggle_favorite``"
 
@@ -1564,6 +1625,10 @@ msgid "Toggle Mode"
 msgstr "切换模式"
 
 msgid ":kbd:`Alt + V`"
+msgstr ":kbd:`Alt + V`"
+
+#, fuzzy
+msgid ":kbd:`Opt + V`"
 msgstr ":kbd:`Alt + V`"
 
 msgid "``file_dialog/toggle_mode``"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,6 +269,15 @@ msgstr ""
 msgid "``[code]{text}[/code]``"
 msgstr ""
 
+msgid "**char**"
+msgstr ""
+
+msgid "Adds Unicode character with hexadecimal UTF-32 ``{codepoint}``."
+msgstr ""
+
+msgid "``[char={codepoint}]``"
+msgstr ""
+
 msgid "**p**"
 msgstr ""
 
@@ -392,8 +401,14 @@ msgid ""
 msgstr ""
 
 msgid ""
+"Add ``%`` to the end of ``{width}`` or ``{height}`` value to specify it as "
+"percentages of the control width instead of pixels."
+msgstr ""
+
+msgid ""
 "If ``{valign}`` configuration is provided, the image will try to align to "
-"the surrounding text, see :ref:`doc_bbcode_in_richtextlabel_image_alignment`."
+"the surrounding text, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
 msgstr ""
 
 msgid ""
@@ -459,8 +474,9 @@ msgid ""
 msgstr ""
 
 msgid ""
-"``[dropcap font_size={size} color={color} margins={left},{top},{right},"
-"{bottom}]{text}[/dropcap]``"
+"``[dropcap font={font} font_size={size} color={color} outline_size={size} "
+"outline_color={color} margins={left},{top},{right},{bottom}]{text}[/"
+"dropcap]``"
 msgstr ""
 
 msgid "**opentype_features**"
@@ -564,7 +580,24 @@ msgid ""
 "define table cells."
 msgstr ""
 
+msgid ""
+"If ``{valign}`` configuration is provided, the table will try to align to "
+"the surrounding text, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+msgstr ""
+
+msgid ""
+"If baseline alignment is used, the table is aligned to the baseline of the "
+"row with index ``{alignment_row}`` (zero-based)."
+msgstr ""
+
 msgid "``[table={number}]{cells}[/table]``"
+msgstr ""
+
+msgid "``[table={number},{valign}]{cells}[/table]``"
+msgstr ""
+
+msgid "``[table={number},{valign},{alignment_row}]{cells}[/table]``"
 msgstr ""
 
 msgid "**cell**"
@@ -706,7 +739,9 @@ msgstr ""
 msgid "`Values`"
 msgstr ""
 
-msgid "``left``, ``center``, ``right``, ``fill``"
+msgid ""
+"``left`` (or ``l``), ``center`` (or ``c``), ``right`` (or ``r``), ``fill`` "
+"(or ``f``)"
 msgstr ""
 
 msgid "`Default`"
@@ -722,7 +757,8 @@ msgid "**bidi_override**, **st**"
 msgstr ""
 
 msgid ""
-"``default``, ``uri``, ``file``, ``email``, ``list``, ``none``, ``custom``"
+"``default`` (of ``d``), ``uri`` (or ``u``), ``file`` (or ``f``), ``email`` "
+"(or ``e``), ``list`` (or ``l``), ``none`` (or ``n``), ``custom`` (or ``c``)"
 msgstr ""
 
 msgid "``default``"
@@ -731,10 +767,28 @@ msgstr ""
 msgid "Structured text override."
 msgstr ""
 
+msgid "**justification_flags**, **jst**"
+msgstr ""
+
+msgid ""
+"Comma-separated list of the following values: ``kashida`` (or ``k``), "
+"``word`` (or ``w``), ``trim`` (or ``tr``), ``after_last_tab`` (or ``lt``), "
+"``skip_last`` (or ``sl``), ``skip_last_with_chars`` (or ``sv``),  "
+"``do_not_skip_single`` (or ``ns``)."
+msgstr ""
+
+msgid "``word,kashida,skip_last,do_not_skip_single``"
+msgstr ""
+
+msgid ""
+"Justification (fill alignment) option. See :ref:`class_TextServer` for more "
+"details."
+msgstr ""
+
 msgid "**direction**, **dir**"
 msgstr ""
 
-msgid "``ltr``, ``rtl``, ``auto``"
+msgid "``ltr`` (or ``l``), ``rtl`` (or ``r``), ``auto`` (or ``a``)"
 msgstr ""
 
 msgid "Inherit"
@@ -809,16 +863,20 @@ msgstr ""
 msgid "**height**"
 msgstr ""
 
-msgid "Number in pixels"
+msgid "Integer number"
 msgstr ""
 
-msgid "Target height of the image."
+msgid ""
+"Target height of the image in pixels, add ``%`` to the end of value to "
+"specify it as percentages of the control width instead of pixels."
 msgstr ""
 
 msgid "**width**"
 msgstr ""
 
-msgid "Target width of the image."
+msgid ""
+"Target width of the image, add ``%`` to the end of value to specify it as "
+"percentages of the control width instead of pixels."
 msgstr ""
 
 msgid "**region**"
@@ -832,21 +890,46 @@ msgid ""
 "spritesheet."
 msgstr ""
 
-msgid "Image vertical alignment"
+msgid "**pad**"
+msgstr ""
+
+msgid "``false``, ``true``"
+msgstr ""
+
+msgid "``false``"
 msgstr ""
 
 msgid ""
-"When a vertical alignment value is provided with the ``[img]`` tag the image "
-"will try to align itself against the surrounding text. Alignment is "
-"performed using a vertical point of the image and a vertical point of the "
-"text. There are 3 possible points on the image (``top``, ``center``, and "
-"``bottom``) and 4 possible points on the text (``top``, ``center``, "
-"``baseline``, and ``bottom``), which can be used in any combination."
+"If set to ``true``, and the image is smaller than the size specified by "
+"``width`` and ``height``, the image padding is added to match the size "
+"instead of upscaling."
+msgstr ""
+
+msgid "**tootip**"
+msgstr ""
+
+msgid "String"
+msgstr "Dize"
+
+msgid "Image tooltip."
+msgstr ""
+
+msgid "Image and table vertical alignment"
+msgstr ""
+
+msgid ""
+"When a vertical alignment value is provided with the ``[img]`` or "
+"``[table]``` tag the image/table will try to align itself against the "
+"surrounding text. Alignment is performed using a vertical point of the image "
+"and a vertical point of the text. There are 3 possible points on the image "
+"(``top``, ``center``, and ``bottom``) and 4 possible points on the text and "
+"table (``top``, ``center``, ``baseline``, and ``bottom``), which can be used "
+"in any combination."
 msgstr ""
 
 msgid ""
 "To specify both points, use their full or short names as a value of the "
-"image tag:"
+"image/table tag:"
 msgstr ""
 
 msgid ""
@@ -879,6 +962,91 @@ msgid "Number in pixels."
 msgstr ""
 
 msgid "Custom font size."
+msgstr ""
+
+msgid "**glyph_spacing**, **gl**"
+msgstr ""
+
+msgid "Extra spacing for each glyph."
+msgstr ""
+
+msgid "**glyph_spacing**, **sp**"
+msgstr ""
+
+msgid "Extra spacing for the space character."
+msgstr ""
+
+msgid "**top_spacing**, **top**"
+msgstr ""
+
+msgid "Extra spacing at the top of the line."
+msgstr ""
+
+msgid "**bottom_spacing**, **bt**"
+msgstr ""
+
+msgid "Extra spacing at the bottom of the line."
+msgstr ""
+
+msgid "**embolden**, **emb**"
+msgstr ""
+
+msgid "Floating-point number."
+msgstr ""
+
+msgid "``0.0``"
+msgstr ""
+
+msgid ""
+"Font embolden strength, if it is not equal to zero, emboldens the font "
+"outlines. Negative values reduce the outline thickness."
+msgstr ""
+
+msgid "**face_index**, **fi**"
+msgstr ""
+
+#, fuzzy
+msgid "Integer number."
+msgstr "Interlingue"
+
+msgid "``0``"
+msgstr ""
+
+msgid "An active face index in the TrueType / OpenType collection."
+msgstr ""
+
+msgid "**slant**, **sln**"
+msgstr ""
+
+msgid ""
+"Font slant strength, positive values slant glyphs to the right. Negative "
+"values to the left."
+msgstr ""
+
+msgid "**opentype_variation**, **otv**"
+msgstr ""
+
+msgid "Comma-separated list of the OpenType variation tags."
+msgstr ""
+
+msgid ""
+"Font OpenType variation coordinates. See `OpenType variation tags <https://"
+"docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg>`__."
+msgstr ""
+
+msgid ""
+"Note: The value should be enclosed in ``\"`` to allow using ``=`` inside it:"
+msgstr ""
+
+msgid "**opentype_features**, **otf**"
+msgstr ""
+
+msgid "Comma-separated list of the OpenType feature tags."
+msgstr ""
+
+msgid ""
+"Font OpenType features. See `OpenType features tags <https://docs.microsoft."
+"com/en-us/typography/opentype/spec/featuretags>`__."
 msgstr ""
 
 msgid "Named colors"
@@ -914,9 +1082,6 @@ msgstr ""
 msgid "**expand**"
 msgstr ""
 
-msgid "Integer number"
-msgstr ""
-
 msgid "1"
 msgstr "1"
 
@@ -937,6 +1102,19 @@ msgstr ""
 msgid ""
 "Cell background color. For alternating odd/even row backgrounds, you can use "
 "``bg=odd_color,even_color``."
+msgstr ""
+
+#, fuzzy
+msgid "**padding**"
+msgstr "Dolgulama"
+
+msgid "4 comma-separated floating-point numbers"
+msgstr ""
+
+msgid "0, 0, 0, 0"
+msgstr ""
+
+msgid "Left, top, right, and bottom cell padding."
 msgstr ""
 
 msgid "Unordered list bullet"

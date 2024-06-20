@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,6 +95,10 @@ msgstr ""
 "実行可能なWeb書き出しテンプレートが使用可能な場合は、エディタの [シーンを停"
 "止] ボタンと [編集したシーンを再生] ボタンの間にボタンが表示され、既定のブラ"
 "ウザでゲームをすばやく開いてテストできます。"
+
+msgid ""
+"If your project uses GDExtension **Extension Support** needs to be enabled."
+msgstr ""
 
 msgid ""
 "If you plan to use :ref:`VRAM compression <doc_importing_images>` make sure "
@@ -470,84 +474,14 @@ msgid ""
 "nginx."
 msgstr ""
 
-msgid "Calling JavaScript from script"
-msgstr "スクリプトからJavaScriptを呼び出す"
-
 #, fuzzy
-msgid ""
-"In web builds, the ``JavaScriptBridge`` singleton is implemented. It offers "
-"a single method called ``eval`` that works similarly to the JavaScript "
-"function of the same name. It takes a string as an argument and executes it "
-"as JavaScript code. This allows interacting with the browser in ways not "
-"possible with script languages integrated into Godot."
-msgstr ""
-"Webビルドでは、\\ ``JavaScript`` シングルトンが実装されます。同名のJavaScript"
-"関数と同様に機能する ``eval`` と呼ばれる単一のメソッドを提供します。文字列を"
-"引数として受け取り、JavaScriptコードとして実行します。これにより、Godotに統合"
-"されたスクリプト言語では不可能な方法でブラウザと対話できます。"
+msgid "Interacting with the browser and JavaScript"
+msgstr "ライトとの相互作用"
 
 msgid ""
-"The value of the last JavaScript statement is converted to a GDScript value "
-"and returned by ``eval()`` under certain circumstances:"
+"See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
+"with JavaScript and access some unique Web browser features."
 msgstr ""
-"最後のJavaScriptステートメントの値はGDScriptの値に変換され、特定の状況下では "
-"``eval()`` によって返されます:"
-
-#, fuzzy
-msgid "JavaScript ``number`` is returned as :ref:`class_float`"
-msgstr ""
-"JavaScriptの ``number`` はGDScriptの :ref:`class_float` として返されます"
-
-#, fuzzy
-msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
-msgstr ""
-"JavaScriptの ``boolean`` はGDScriptの :ref:`class_bool` として返されます"
-
-#, fuzzy
-msgid "JavaScript ``string`` is returned as :ref:`class_String`"
-msgstr ""
-"JavaScriptの ``string`` はGDScriptの :ref:`class_String` として返されます"
-
-#, fuzzy
-msgid ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` and ``DataView`` are returned as :"
-"ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ""
-"JavaScriptの ``ArrayBuffer``, ``TypedArray`` および ``DataView`` はGDScript"
-"の :ref:`class_PoolByteArray` として返されます"
-
-msgid "Any other JavaScript value is returned as ``null``."
-msgstr "その他の JavaScriptの値は ``null`` として返されます。"
-
-#, fuzzy
-msgid ""
-"HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
-"support for the singleton to improve security. With such templates, and on "
-"platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also "
-"return ``null``. The availability of the singleton can be checked with the "
-"``web`` :ref:`feature tag <doc_feature_tags>`:"
-msgstr ""
-"HTML5エクスポートテンプレートは、シングルトンをサポートせずに構築できます。 "
-"このようなテンプレートおよびHTML5以外のプラットフォームでは、 ``JavaScript."
-"eval`` を呼び出すと ``null`` も返されます。 シングルトンの可用性は、 "
-"``JavaScript`` :ref:`feature tag <doc_feature_tags>`\\ で確認できます:"
-
-msgid ""
-"GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
-"``my_func3()`` above, are useful to keep JavaScript code readable."
-msgstr ""
-"上記の ``my_func3()`` のように、3つの引用符 ``\"\"\"`` で囲まれたGDScriptの複"
-"数行の文字列は、JavaScriptコードを読みやすくするのに役立ちます。"
-
-#, fuzzy
-msgid ""
-"The ``eval`` method also accepts a second, optional Boolean argument, which "
-"specifies whether to execute the code in the global execution context, "
-"defaulting to ``false`` to prevent polluting the global namespace:"
-msgstr ""
-"``eval`` メソッドはグローバルな実行コンテキストでコードを実行するかどうかを指"
-"定する2番目のオプションのブール引数も受け入れます。デフォルトではグローバルな"
-"名前空間を汚染しないように ``false`` になります:"
 
 msgid "Environment variables"
 msgstr "環境変数"

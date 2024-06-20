@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,6 +168,28 @@ msgstr ""
 "如你所见，若被调用方法的第一个参数为数组类型，则需要强制转为 ``object``\\ 类"
 "型，否则该数组内的每个元素都将会被当做单个参数传入，导致与被调用的参数不匹"
 "配。"
+
+#, fuzzy
+msgid "Connecting to signals"
+msgstr "将 HUD 场景连接到 Main 场景"
+
+#, fuzzy
+msgid "Connecting to C# signals from GDScript"
+msgstr "从 GDScript 中访问 C# 字段"
+
+msgid ""
+"Connecting to a C# signal from GDScript is the same as connecting to a "
+"signal defined in GDScript:"
+msgstr ""
+
+#, fuzzy
+msgid "Connecting to GDScript signals from C#"
+msgstr "从 C# 中访问 GDSscript"
+
+msgid ""
+"Connecting to a GDScript signal from C# only works with the ``Connect`` "
+"method because no C# static types exist for signals defined by GDScript:"
+msgstr ""
 
 msgid "Inheritance"
 msgstr "继承"

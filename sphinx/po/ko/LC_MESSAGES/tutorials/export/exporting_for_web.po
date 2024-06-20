@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,6 +93,10 @@ msgstr ""
 "실행 가능한 웹 내보내기 템플릿을 이용할 수 있다면, 편집기에서 *씬 멈추기* 버"
 "튼과 *편집 중인 씬 실행* 버튼 사이에 버튼이 나타나 테스트를 위해 빠르게 기본 "
 "브라우저에서 게임을 열 수 있습니다."
+
+msgid ""
+"If your project uses GDExtension **Extension Support** needs to be enabled."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -487,82 +491,14 @@ msgid ""
 "nginx."
 msgstr ""
 
-msgid "Calling JavaScript from script"
-msgstr "스크립트에서 JavaScript 호출하기"
-
 #, fuzzy
-msgid ""
-"In web builds, the ``JavaScriptBridge`` singleton is implemented. It offers "
-"a single method called ``eval`` that works similarly to the JavaScript "
-"function of the same name. It takes a string as an argument and executes it "
-"as JavaScript code. This allows interacting with the browser in ways not "
-"possible with script languages integrated into Godot."
-msgstr ""
-"웹 빌드에서 ``JavaScript`` 싱글톤이 구현됩니다. ``eval``\\ 이라는 하나의 메서"
-"드를 제공하는데, 같은 이름의 JavaScript 함수와 비슷하게 작동합니다. 문자열을 "
-"인수로 가지며 JavaScript 코드로 실행합니다. 이걸로 Godot와 통합될 수 없는 스"
-"크립트 언어를 브라우저와 상호작용할 수 있게됩니다."
+msgid "Interacting with the browser and JavaScript"
+msgstr "쿼터니언(quaternions) 으로 보간하기"
 
 msgid ""
-"The value of the last JavaScript statement is converted to a GDScript value "
-"and returned by ``eval()`` under certain circumstances:"
+"See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
+"with JavaScript and access some unique Web browser features."
 msgstr ""
-"마지막 JavaScript 명령문의 값은 GDScript 값으로 변환되며 특정 경우에 "
-"``eval()``\\ 에 의해 반환됩니다:"
-
-#, fuzzy
-msgid "JavaScript ``number`` is returned as :ref:`class_float`"
-msgstr "JavaScript ``number``\\ 는 GDScript에서 :ref:`class_float`\\ 로 반환됨"
-
-#, fuzzy
-msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
-msgstr "JavaScript ``boolean``\\ 은 GDScript에서 :ref:`class_bool`\\ 로 반환됨"
-
-#, fuzzy
-msgid "JavaScript ``string`` is returned as :ref:`class_String`"
-msgstr "JavaScript ``string``\\ GDScript에서 :ref:`class_String`\\ 으로 반환됨"
-
-#, fuzzy
-msgid ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` and ``DataView`` are returned as :"
-"ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` 그리고 ``DataView``\\ 는 GDScript"
-"에서 :ref:`class_PoolByteArray`\\ 로 반환됨"
-
-msgid "Any other JavaScript value is returned as ``null``."
-msgstr "다른 JavaScript 값은 ``null``\\ 로 반환됩니다."
-
-#, fuzzy
-msgid ""
-"HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
-"support for the singleton to improve security. With such templates, and on "
-"platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also "
-"return ``null``. The availability of the singleton can be checked with the "
-"``web`` :ref:`feature tag <doc_feature_tags>`:"
-msgstr ""
-"HTML5 내보내기 템플릿은 보안성을 위해 싱글턴을 지원하지 않고 :ref:`빌드 "
-"<doc_compiling_for_web>`되었을 수 있습니다. 그런 템플릿의 경우 HTML5 이외의 "
-"플랫폼에서 ``JavaScript.eval`` 를 호출하면 ``null`` 을 반환합니다. 싱글턴의 "
-"지원여부는 아래와 같이 ``JavaScript`` :ref:`기능 태그 <doc_feature_tags>`로 "
-"확인할 수 있습니다::"
-
-msgid ""
-"GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
-"``my_func3()`` above, are useful to keep JavaScript code readable."
-msgstr ""
-"``my_func3()`` 처럼 3개의 큰따옴표 ``\"\"\"`` 로 둘러싸인 GDScript의 멀티라"
-"인 문자열은 JavaScript 코드의 가독성을 높이는데 유용합니다."
-
-#, fuzzy
-msgid ""
-"The ``eval`` method also accepts a second, optional Boolean argument, which "
-"specifies whether to execute the code in the global execution context, "
-"defaulting to ``false`` to prevent polluting the global namespace:"
-msgstr ""
-"``eval`` 메서드는 두번째 옵션인 Boolean 인자도 받으며 이 인자는 전역 실행 컨"
-"텍스트에서 코드를 실행하는 것들을 지정합니다, 전역 네임스페이스가 오염되지않"
-"기 위해 기본적으로 ``false``\\ 입니다::"
 
 msgid "Environment variables"
 msgstr ""

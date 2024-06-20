@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,10 +77,10 @@ msgstr ""
 msgid "Tutorial"
 msgstr "Навчальні посібники"
 
-msgid "``@tutorial:``"
+msgid "``@tutorial: https://example.com``"
 msgstr ""
 
-msgid "``@tutorial(The Title Here):``"
+msgid "``@tutorial(The Title Here): https://example.com``"
 msgstr ""
 
 #, fuzzy
@@ -91,6 +91,9 @@ msgstr "Дублювати"
 msgid "``@deprecated``"
 msgstr "imported"
 
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr ""
+
 #, fuzzy
 msgid "Experimental"
 msgstr "Android (експериментальний)"
@@ -98,6 +101,9 @@ msgstr "Android (експериментальний)"
 #, fuzzy
 msgid "``@experimental``"
 msgstr "Android (експериментальний)"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr ""
 
 #, fuzzy
 msgid "For example::"
@@ -155,6 +161,12 @@ msgstr ""
 msgid "No tag."
 msgstr ""
 
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr ""
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr ""
+
 msgid "Alternatively, you can use inline documentation comments::"
 msgstr ""
 
@@ -175,7 +187,9 @@ msgstr ""
 msgid ""
 "You can mark a class or any of its members as deprecated or experimental. "
 "This will add the corresponding indicator in the built-in documentation "
-"viewer. This can be especially useful for plugin and library creators."
+"viewer. Optionally, you can provide a short message explaining why the API "
+"is not recommended. This can be especially useful for plugin and library "
+"creators."
 msgstr ""
 
 msgid ""
@@ -201,17 +215,11 @@ msgid "BBCode and class reference"
 msgstr "Довідник з класів"
 
 msgid ""
-"The editor help window which renders the documentation supports :ref:`bbcode "
-"<doc_bbcode_in_richtextlabel>`. As a result it's possible to align and "
-"format the documentation. Color texts, images, fonts, tables, URLs, "
-"animation effects, etc. can be added with the :ref:`bbcode "
-"<doc_bbcode_in_richtextlabel>`."
-msgstr ""
-
-msgid ""
 "Godot's class reference supports BBCode-like tags. They add nice formatting "
 "to the text which could also be used in the documentation. See also :ref:"
-"`class reference bbcode <doc_class_reference_bbcode>`."
+"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
+"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"<doc_bbcode_in_richtextlabel>`."
 msgstr ""
 
 msgid ""
@@ -256,11 +264,12 @@ msgstr ""
 msgid "Link to annotation"
 msgstr "Запуск анімації"
 
-msgid "``See [annotation @GDScript.@export].``"
+msgid "``See [annotation @GDScript.@rpc].``"
 msgstr ""
 
-msgid "See :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`."
-msgstr ""
+#, fuzzy
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr ":ref:`Sprite <class_Sprite>`"
 
 #, fuzzy
 msgid "``[constant Class.name]``"
@@ -269,11 +278,13 @@ msgstr "[signal Class.signalname]"
 msgid "Link to constant"
 msgstr "Посилання на константу"
 
-msgid "``See [constant @GlobalScope.KEY_F1].``"
-msgstr ""
+#, fuzzy
+msgid "``See [constant Color.RED].``"
+msgstr "[signal Class.signalname]"
 
-msgid "See :ref:`@GlobalScope.KEY_F1 <class_@GlobalScope_constant_KEY_F1>`."
-msgstr ""
+#, fuzzy
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr ":ref:`Color <class_Color>`"
 
 #, fuzzy
 msgid "``[enum Class.name]``"
@@ -288,6 +299,19 @@ msgstr ""
 
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 msgstr ""
+
+msgid "``[member Class.name]``"
+msgstr ""
+
+#, fuzzy
+msgid "Link to member (property)"
+msgstr "Редагувати член"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr ""
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr "Отримати :ref:`Node2D.scale <клас_Node2D_властивості_масштабу>`."
 
 #, fuzzy
 msgid "``[method Class.name]``"
@@ -304,18 +328,35 @@ msgstr ""
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr "Див.: Ref: `сховати <class_spatial_method_hide>`."
 
-msgid "``[member Class.name]``"
+#, fuzzy
+msgid "``[constructor Class.name]``"
+msgstr "[signal Class.signalname]"
+
+#, fuzzy
+msgid "Link to built-in constructor"
+msgstr "Конструктор класу"
+
+msgid "``Use [constructor Color.Color].``"
 msgstr ""
 
 #, fuzzy
-msgid "Link to member"
-msgstr "Редагувати член"
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr ":ref:`Color <class_Color>`"
 
-msgid "``Get [member Node2D.scale].``"
+#, fuzzy
+msgid "``[operator Class.name]``"
+msgstr "'method'"
+
+#, fuzzy
+msgid "Link to built-in operator"
+msgstr "Векторні вбудовані типи"
+
+msgid "``Use [operator Color.operator *].``"
 msgstr ""
 
-msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr "Отримати :ref:`Node2D.scale <клас_Node2D_властивості_масштабу>`."
+#, fuzzy
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr ":ref:`Color <class_Color>`"
 
 #, fuzzy
 msgid "``[signal Class.name]``"
@@ -348,7 +389,7 @@ msgstr ""
 msgid "``[param name]``"
 msgstr "Назва"
 
-msgid "Formats a parameter name (as code)"
+msgid "Parameter name (as code)"
 msgstr ""
 
 msgid "``Takes [param size] for the size.``"
@@ -377,17 +418,33 @@ msgid "Line 2."
 msgstr ""
 
 #, fuzzy
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[b]{текст}[/b]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr ""
+
+#, fuzzy
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr "``[b]{текст}[/b]``"
+
+#, fuzzy
+msgid "[b]text[/b]"
+msgstr "``[b]{текст}[/b]``"
+
+#, fuzzy
 msgid "``[b]`` ``[/b]``"
 msgstr "``[b]{текст}[/b]``"
 
 msgid "Bold"
 msgstr "Напівжирний"
 
-msgid "``Some [b]bold[/b] text.``"
+#, fuzzy
+msgid "``Do [b]not[/b] call this method.``"
 msgstr "''Деякий [b]жирний[/b] текст.''"
 
-msgid "Some **bold** text."
-msgstr "Якийсь текст **напівжирним шрифтом**."
+msgid "Do **not** call this method."
+msgstr ""
 
 #, fuzzy
 msgid "``[i]`` ``[/i]``"
@@ -396,11 +453,99 @@ msgstr "``[i]{текст}[/i]``"
 msgid "Italic"
 msgstr "Курсив"
 
-msgid "``Some [i]italic[/i] text.``"
-msgstr "``Деякий [i]курсивний[/i] текст.``"
+msgid "``Returns the [i]global[/i] position.``"
+msgstr ""
 
-msgid "Some *italic* text."
-msgstr "Якийсь текст *курсивом*."
+#, fuzzy
+msgid "Returns the *global* position."
+msgstr "Отримати позицію гравця."
+
+#, fuzzy
+msgid "``[u]`` ``[/u]``"
+msgstr "``[b]{текст}[/b]``"
+
+#, fuzzy
+msgid "Underline"
+msgstr "Інтерлінгва (Франція)"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr ""
+
+#, fuzzy
+msgid "``[s]`` ``[/s]``"
+msgstr "``[b]{текст}[/b]``"
+
+msgid "Strikethrough"
+msgstr ""
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[color]`` ``[/color]``"
+msgstr "``[codeblock]`` ``[/codeblock]``"
+
+msgid "Color"
+msgstr "Колір"
+
+#, fuzzy
+msgid "``[color=red]Error![/color]``"
+msgstr "``[color=<код/назва>]{текст}[/color]``"
+
+#, fuzzy
+msgid "``[font]`` ``[/font]``"
+msgstr "``[b]{текст}[/b]``"
+
+#, fuzzy
+msgid "Font"
+msgstr "Вигляд спереду"
+
+msgid "``[font=res://mono.ttf]LICENSE[/font]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[img]`` ``[/img]``"
+msgstr "``[i]{текст}[/i]``"
+
+#, fuzzy
+msgid "Image"
+msgstr "Імпортування зображень"
+
+msgid "``[img width=32]res://icon.svg[/img]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[url]`` ``[/url]``"
+msgstr "``[b]{текст}[/b]``"
+
+#, fuzzy
+msgid "Hyperlink"
+msgstr "Гіперболічний синус."
+
+msgid "``[url]https://example.com[/url]``"
+msgstr ""
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr ""
+
+msgid "https://example.com"
+msgstr ""
+
+#, fuzzy
+msgid "`Website <https://example.com>`_"
+msgstr "`GitHub <https://github.com/godotengine/>`_"
+
+#, fuzzy
+msgid "``[center]`` ``[/center]``"
+msgstr "``[center]{текст}[/center]``"
+
+#, fuzzy
+msgid "Horizontal centering"
+msgstr "Горизонтальний символ табуляції"
+
+#, fuzzy
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr "``[center]{текст}[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -409,34 +554,46 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Гарячі клавіші"
 
-msgid "``Some [kbd]Ctrl + C[/kbd] key.``"
+#, fuzzy
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
 msgstr "``Якась клавіша [kbd]Ctrl + C[/kbd].``"
 
-msgid "Some :kbd:`Ctrl + C` key."
-msgstr ""
+#, fuzzy
+msgid "Press :kbd:`Ctrl + C`."
+msgstr ":kbd:`Ctrl + C`"
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
-msgid "Monospace"
-msgstr "Моноширинний"
+msgid "Inline code fragment"
+msgstr ""
 
-msgid "``Some [code]monospace[/code] text.``"
-msgstr "``Деякий [code]монопросторовий[/code] текст.``"
+#, fuzzy
+msgid "``Returns [code]true[/code].``"
+msgstr "``[code]{текст}[/code]``"
 
-msgid "Some ``monospace`` text."
-msgstr "Якийсь текст ``моноширинним шрифтом``."
+#, fuzzy
+msgid "Returns ``true``."
+msgstr "Повернення"
 
-msgid "``[codeblock]`` ``[/codeblock]``"
+#, fuzzy
+msgid "``[codeblock]``"
 msgstr "``[codeblock]`` ``[/codeblock]``"
 
-msgid "Multiline preformatted block"
+#, fuzzy
+msgid "``[/codeblock]``"
+msgstr "``[codeblock]`` ``[/codeblock]``"
+
+msgid "Multiline code block"
 msgstr ""
 
 msgid "*See below.*"
 msgstr "*Див. нижче.*"
 
 msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr ""
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
 msgstr ""
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
@@ -449,6 +606,21 @@ msgstr ""
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
 "always use **four spaces** for indentation (the parser will delete tabs)."
+msgstr ""
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr ""
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr ""
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
 msgstr ""
 
 msgid "Translation status"

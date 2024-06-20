@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -529,15 +529,25 @@ msgstr "``--check-only``"
 msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr "僅解析錯誤並退出（與 ``--script`` 一起使用）。"
 
+#, fuzzy
+msgid "``--import``"
+msgstr "``--quiet``"
+
+msgid ""
+"|editor| Starts the editor, waits for any resources to be imported, and then "
+"quits. Implies ``--editor`` and ``--quit``."
+msgstr ""
+
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
 
+#, fuzzy
 msgid ""
 "|editor| Export the project using the given preset and matching release "
 "template. The preset name should match one defined in export_presets.cfg. "
 "``<path>`` should be absolute or relative to the project directory, and "
 "include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist."
+"directory should exist. Implies ``--import``."
 msgstr ""
 "|editor|使用給定的預設和配對的發布模板匯出專案。預設名稱應與export_presets."
 "cfg 中定義的名稱相符。 ``<path>`` 應該是絕對路徑或相對於專案目錄的路徑，並包"
@@ -546,16 +556,20 @@ msgstr ""
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
 
-msgid "|editor| Like ``--export-release``, but use debug template."
+#, fuzzy
+msgid ""
+"|editor| Like ``--export-release``, but use debug template. Implies ``--"
+"import``."
 msgstr "|editor|類似於“--export-release”，但使用除錯模板。"
 
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
 
+#, fuzzy
 msgid ""
 "|editor| Like ``--export-release``, but only export the game pack for the "
 "given preset. The ``<path>`` extension determines whether it will be in PCK "
-"or ZIP format."
+"or ZIP format. Implies ``--import``."
 msgstr ""
 "與 ``--export`` 相同，但會使用給定的預設設定來匯出遊戲打包。會依照 <path> 的"
 "副檔名來判斷匯出的格式是 PCK 還是 ZIP。(必須啟用 :ref:`工具 "

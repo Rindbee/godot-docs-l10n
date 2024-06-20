@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -317,9 +317,10 @@ msgstr ""
 "Нам всё еще нужно уничтожать мобов, когда они покидают экран. Для этого мы "
 "подключим сигнал нашего узла *VisibilityNotifier* ``screen_exited`` к *Mob*."
 
+#, fuzzy
 msgid ""
 "Head back to the 3D viewport by clicking on the *3D* label at the top of the "
-"editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Alt + 2` on macOS)."
+"editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
 msgstr ""
 "Вернитесь в 3D окно просмотра, нажав на ярлык *3D* в верхней части "
 "редактора. Вы также можете нажать :kbd:`Ctrl + F2` (:kbd:`Alt + 2` на macOS)."
@@ -357,7 +358,7 @@ msgstr "image10"
 
 #, fuzzy
 msgid ""
-"This will take you back to the script editor and add a new function for you, "
+"This will add a new function for you in your mob script, "
 "``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
 "``queue_free()`` method. This function destroys the instance it's called on."
 msgstr ""

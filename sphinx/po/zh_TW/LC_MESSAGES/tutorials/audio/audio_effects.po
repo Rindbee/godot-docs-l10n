@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -218,6 +218,20 @@ msgid ""
 "directly."
 msgstr "濾波器是所有其他處理器繼承自的效果，不能直接使用。"
 
+#, fuzzy
+msgid "HardLimiter"
+msgstr "限幅器(Limiter)"
+
+#, fuzzy
+msgid ""
+"A limiter is similar to a compressor, but it's less flexible and designed to "
+"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
+"limiter to the final point of the Master bus is good practice, as it offers "
+"an easy safeguard against clipping."
+msgstr ""
+"限幅器類似於壓縮器，但靈活性較差，功能是限制聲音不能超過給定的dB閾值。在主匯"
+"流排上新增一個限制器是防止削波的防護措施。"
+
 msgid "HighPassFilter"
 msgstr "Filter - 篩選"
 
@@ -236,15 +250,21 @@ msgstr "減少所有高於特定 *截斷* 值的頻率。"
 msgid "Limiter"
 msgstr "限幅器(Limiter)"
 
-#, fuzzy
 msgid ""
-"A limiter is similar to a compressor, but it's less flexible and designed to "
-"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
-"limiter to the final point of the Master bus is good practice, as it offers "
-"an easy safeguard against clipping."
+"This is the old limiter effect, and it is recommended to use the new "
+"HardLimiter effect instead."
 msgstr ""
-"限幅器類似於壓縮器，但靈活性較差，功能是限制聲音不能超過給定的dB閾值。在主匯"
-"流排上新增一個限制器是防止削波的防護措施。"
+
+msgid ""
+"Here is an example of how this effect works, if the ceiling is set to -12 "
+"dB, and the threshold is 0 dB, all samples going through get reduced by "
+"12dB. This changes the waveform of the sound and introduces distortion."
+msgstr ""
+
+msgid ""
+"This effect is being kept to preserve compatibility, however it should be "
+"considered deprecated."
+msgstr ""
 
 msgid "LowPassFilter"
 msgstr "Filter - 篩選"

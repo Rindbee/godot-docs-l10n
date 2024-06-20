@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,7 +164,7 @@ msgid "in float **E**"
 msgstr "in float **E**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -294,6 +294,12 @@ msgstr "inout float **POINT_SIZE**"
 msgid "Point size for point drawing."
 msgstr "点绘图的点大小."
 
+msgid "in vec4 **CUSTOM0**"
+msgstr "in vec4 **CUSTOM0**"
+
+msgid "in vec4 **CUSTOM1**"
+msgstr "in vec4 **CUSTOM1**"
+
 msgid "Fragment built-ins"
 msgstr "片段内置"
 
@@ -329,7 +335,7 @@ msgstr "in vec4 **FRAGCOORD**"
 #, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
+"window. Origin is upper-left."
 msgstr ""
 "像素中心的坐标。在屏幕空间中，\\ ``xy`` 表示窗口中的位置，如果没有用 "
 "``DEPTH``\\ ，则 ``z`` 表示片段深度。原点位于左下角。"
@@ -466,6 +472,14 @@ msgid ""
 "into account:"
 msgstr ""
 
+#, fuzzy
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"像素中心的坐标。在屏幕空间中，\\ ``xy`` 表示窗口中的位置，如果没有用 "
+"``DEPTH``\\ ，则 ``z`` 表示片段深度。原点位于左下角。"
+
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
@@ -586,13 +600,15 @@ msgstr "默认 2D 法线纹理。"
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr ""
 
-msgid "Converts a SDF to screen UV."
-msgstr ""
+#, fuzzy
+msgid "Converts an SDF to screen UV."
+msgstr "将缩进转为制表符。"
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec2 **screen_uv_to_sdf** (vec2 uv)"
 
-msgid "Converts screen UV to a SDF."
+#, fuzzy
+msgid "Converts screen UV to an SDF."
 msgstr "将缩进转为制表符。"
 
 msgid "Translation status"

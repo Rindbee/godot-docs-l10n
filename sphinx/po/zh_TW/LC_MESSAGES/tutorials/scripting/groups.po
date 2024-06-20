@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,10 @@ msgstr ""
 msgid "There are two ways to add/remove nodes to groups:"
 msgstr "Godot 沒有使用限制"
 
-msgid "During design, by using the Node dock in the editor."
+#, fuzzy
+msgid ""
+"During design, by using the Node dock in the editor, or the Global Groups in "
+"project settings."
 msgstr "執行編輯器"
 
 msgid ""
@@ -66,58 +69,64 @@ msgstr ""
 msgid "Using the Node dock"
 msgstr "使用模組"
 
-msgid ""
-"You can add nodes in the current scene to groups using the Groups tab in the "
-"Node dock."
+#, fuzzy
+msgid "You can create new groups using the Groups tab in the Node dock."
 msgstr "你可以使用“節點”停靠面板中的“群組”分頁，將目前場景中的節點加進群組中。"
 
+#, fuzzy
 msgid ""
-"Select one or more nodes in the Scene dock and write the group name in the "
-"field, then click Add."
+"Select one or more nodes in the Scene dock then click the add button with "
+"the + symbol."
 msgstr ""
 "在“場景”面板中選中若干個節點，在輸入框中填寫群組名稱，然後按一下“新增”。"
 
-msgid "You should now see the group appear."
-msgstr "現在你就應該會看到出現了群組。"
-
 msgid ""
-"In a complex project, you may end up with many groups or large scenes with "
-"many nodes. You can add or remove any node to groups using the Group Editor "
-"window. To access it, click the Manage Groups button."
+"You should now see the Create New Group modal appear. Write the group name "
+"in the field."
 msgstr ""
-"在複雜的專案中，你可能會用到很多包含許多節點的群組或者大型場景。你可以使用“群"
-"組編輯器”視窗來為群組新增或刪除節點。這個視窗可以通過點擊“管理群組”按鈕打開。"
 
 msgid ""
-"The Group Editor window appears. Here's a screenshot from a complex project "
-"to illustrate the tool's purpose."
+"You can optionally mark the option \"Global\", which will make the group "
+"visible project-wide, and able to be reused in any project scene. This will "
+"also allow you to give it a description."
 msgstr ""
-"出現“群組編輯器”視窗。這是一個複雜專案中的截圖，用於展示這個工具的用途。"
 
-msgid "It has three columns:"
-msgstr "它有三列："
-
-msgid "A list of groups used by nodes in the current scene."
-msgstr "目前場景中的節點所用到的群組列表。"
-
-msgid "A list of nodes that are not part of the selected group."
-msgstr "不在目前選中的群組中的節點列表。"
-
-msgid "A list of nodes in the group."
-msgstr "在群組中的節點列表。"
-
-msgid ""
-"The fields at the bottom allow you to add new groups or filter nodes in the "
-"second and third columns."
-msgstr "底部的輸入框可以用來新增新的群組，或者篩選第二第三列中的節點。"
-
-msgid ""
-"Any node name that's greyed out means the node was added to the group in a "
-"different scene and you cannot edit it here. This happens on scene instances "
-"in particular."
+msgid "When done, press Ok to create it."
 msgstr ""
-"灰色的節點名稱意味著這個節點是從別的場景加入該群組的，你無法在這裡進行編輯。"
-"這種情況一般發生在產生實體的場景上。"
+
+msgid ""
+"You should see the new groups appear in the Groups tab under Scene Groups if "
+"the Global option was unmarked, or under Global Groups if that option was "
+"marked."
+msgstr ""
+
+msgid ""
+"Selected Node(s) from the Scene dock can be added into groups by marking the "
+"checkbox on the left side of the groups in the Groups dock. The node(s) you "
+"had selected when creating a new group will be automatically checked."
+msgstr ""
+
+msgid ""
+"All groups present in the project that were marked as Global, created from "
+"any scene, will be visible under Global Groups."
+msgstr ""
+
+msgid ""
+"Any other group derived from nodes in the current scene will appear under "
+"Scene Groups."
+msgstr ""
+
+msgid ""
+"The same underlying logic is used for both Global and Scene groups. Groups "
+"with the same name are considered one and the same. This feature is purely "
+"organizational."
+msgstr ""
+
+msgid ""
+"You can manage Global Groups in the Global Groups dock, inside Project "
+"Settings. There, you will be able to add new global groups, or change "
+"existing groups' names and descriptions."
+msgstr ""
 
 msgid "Using code"
 msgstr "使用空白字元"

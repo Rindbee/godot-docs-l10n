@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,8 +37,9 @@ msgstr ""
 "godotengine/godot-demo-projects/tree/master/audio/mic_record> `_."
 
 msgid ""
-"You will need to enable audio input in the project settings, or you'll just "
-"get empty audio files."
+"You will need to enable audio input in the project settings ``Project "
+"Settings -> Audio -> Driver -> Enable Input``, or you'll just get empty "
+"audio files."
 msgstr ""
 
 msgid "The structure of the demo"

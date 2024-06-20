@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Creating documentation images"
+#, fuzzy
+msgid "Creating documentation images and videos"
 msgstr "创建文档图像"
 
+#, fuzzy
 msgid ""
-"Throughout documentation images are often needed to make the explanation of "
-"a feature or concept as clear as possible for a reader. This page will "
-"explain the process from beginning to end."
+"Throughout the documentation, images are often needed to make the "
+"explanation of a feature or concept as clear as possible for a reader. This "
+"page will explain the process from beginning to end."
 msgstr ""
 "在整个文档中，通常需要图像来使读者尽可能清楚地解释功能或概念。本页将从头到尾"
 "解释该过程。"
 
+msgid "Images"
+msgstr "图像"
+
 msgid "Capturing an image"
 msgstr "截图"
 
+#, fuzzy
 msgid ""
-"To take a picture of something in Godot a screen capture tool can be used."
+"To take a picture of something in Godot, a screen capture tool can be used."
 msgstr "可以使用屏幕截图工具截取 Godot 中的内容。"
 
 msgid ""
@@ -78,6 +84,7 @@ msgstr ""
 msgid "Format conversion"
 msgstr "格式转换"
 
+#, fuzzy
 msgid ""
 "The current format for images in Godot's documentation is WebP (``.webp``). "
 "While some Linux programs will support saving screenshots in this format, "
@@ -87,7 +94,7 @@ msgid ""
 "is open source, and doesn't give Google any image rights by using it. When "
 "choosing compression if you can get an image that's under 300KB in size use "
 "lossless compression. If it's over 300KB, use just enough lossy compression "
-"to get it under that size. If this results in noticable compression "
+"to get it under that size. If this results in noticeable compression "
 "artifacts using less compression is fine, even if the file size is bigger."
 msgstr ""
 "Godot 文档中当前的图像格式是 WebP (``.webp``)。虽然某些 Linux 程序支持以这种"
@@ -109,8 +116,9 @@ msgstr ""
 msgid "Cropping"
 msgstr "裁剪"
 
+#, fuzzy
 msgid ""
-"For a screenshot of a 2D or 3D scene in the editor the above steps will be "
+"For a screenshot of a 2D or 3D scene in the editor, the above steps will be "
 "enough. But for most UI images some extra work should be done, specifically "
 "cropping to make an image look clean. Below is an example of good cropping."
 msgstr ""
@@ -186,11 +194,12 @@ msgstr ""
 msgid "Saving as WebP in Krita"
 msgstr "在 Krita 中保存为 WebP"
 
+#, fuzzy
 msgid ""
 "To save an image as webp if it isn't already one, Go to **File > Save As**. "
 "Select **webp** from the **Save as type:** dropdown, then choose wherever "
 "you want to save it. After clicking **Save** a menu will popup with webp "
-"options. Make sure **Losses** is checked and **Quality** is set to 100%. "
+"options. Make sure **Lossless** is checked and **Quality** is set to 100%. "
 "This means the image will not lose detail and will be as small as possible."
 msgstr ""
 "要将图像另存为 webp（如果还不是），请转至 **文件 > 另存为** 。从 **保存类型："
@@ -211,7 +220,8 @@ msgstr ""
 "300KB。如果这导致使用较少的压缩产生明显的压缩伪影，那么即使文件大小更大，也没"
 "有关系。"
 
-msgid "Outlines arrows and text"
+#, fuzzy
+msgid "Outlines, arrows and text"
 msgstr "为箭头和文本添加轮廓"
 
 msgid ""
@@ -285,6 +295,123 @@ msgid ""
 msgstr ""
 "其中 ``documentation_image.webp`` 将更改为所创建图像的名称。以明确的方式为图"
 "像命名，可以的话使用前缀明确表示它们与文档页面的关系。"
+
+#, fuzzy
+msgid "Videos"
+msgstr "显存"
+
+#, fuzzy
+msgid "Capturing a video"
+msgstr "截图"
+
+msgid ""
+"To record a video of something in Godot, a screen capture tool can be used. "
+"Operating systems generally don't come with tools that are flexible enough "
+"for this, so you'll need to install a third-party utility."
+msgstr ""
+
+msgid ""
+"`OBS Studio <https://obsproject.com/>`__ is the most popular option, but "
+"`SimpleScreenRecorder <https://www.maartenbaert.be/simplescreenrecorder/>`__ "
+"can be used as an alternative on Linux. `ShareX <https://getsharex.com/>`__ "
+"can be used as an alternative on Windows. All these tools can be configured "
+"to record the entire screen, a specific window or a predetermined rectangle."
+msgstr ""
+
+msgid ""
+"The recommended framerate for video recordings is 60 FPS, although you can "
+"use 30 FPS for longer videos to reduce their file size. For fullscreen "
+"videos, use a resolution of 1280×720."
+msgstr ""
+
+msgid ""
+"Godot's :ref:`Movie Maker mode <doc_creating_movies>` can be used to record "
+"the output of a running project, including its audio. This doesn't require "
+"installing any third-party software and avoids any frame drops (even when "
+"recording on a slow device), but it's less flexible."
+msgstr ""
+
+#, fuzzy
+msgid "Compressing the captured video"
+msgstr "完成骨架"
+
+msgid ""
+"The recommendation is to record your video in the highest quality possible "
+"(without dropping frames due to excessive CPU/GPU utilization), then re-"
+"encode it later to reduce its file size. This results in more efficient "
+"compression than directly aiming for a small file size, as real-time "
+"compression methods are less efficient than slower compression methods."
+msgstr ""
+
+msgid ""
+"To re-encode videos for a smaller file size, use `HandBrake <https://"
+"handbrake.fr/>`__ or the `FFmpeg <https://ffmpeg.org/>` command line below:"
+msgstr ""
+
+msgid ""
+"The number after ``-crf`` adjusts the video quality, with higher numbers "
+"resulting in *lower* quality (and smaller file sizes). A CRF of ``23`` is a "
+"good starting point, but you may need to use a higher value for longer "
+"videos to ensure the file size remains reasonable. Try to aim for a file "
+"size under 2 MB if possible."
+msgstr ""
+
+msgid ""
+"If the video was recorded in a higher resolution or framerate, you can "
+"adjust its output resolution and framerate as follows:"
+msgstr ""
+
+msgid ""
+"This results in a video resolution around 1280×720 at 30 FPS. The exact "
+"video resolution will vary depending on the source's aspect ratio."
+msgstr ""
+
+msgid ""
+"If the video was recorded with an audio track but this audio track is not "
+"necessary, consider stripping it by adding the ``-an`` option to the FFmpeg "
+"command line (before the output file name). This will reduce file size and "
+"also ensure audio controls don't show up on the video when played in a "
+"browser."
+msgstr ""
+
+#, fuzzy
+msgid "Adding a video to a documentation page"
+msgstr "将图像添加到文档页面"
+
+#, fuzzy
+msgid ""
+"Once you've finished working on your video, it can be added to the "
+"documentation. All videos are stored in folders named ``video`` next to the "
+"page they are used in."
+msgstr ""
+"完成图像处理后，就可以将它添加到文档中了。所有的图像都保存在使用它们的页面旁"
+"边的名为 ``img`` 的文件夹中。"
+
+#, fuzzy
+msgid ""
+"To add your video, add it to the ``video`` folder that's in the same folder "
+"as the ``.rst`` file for the page (create it if it doesn't exist). In the ``."
+"rst`` page, videos should be included with the following code snippet::"
+msgstr ""
+"要添加图像，请将其添加到 ``img`` 文件夹中，该文件夹与页面的 ``.rst`` 文件位于"
+"同一文件夹中（如果不存在，请创建它）。在 ``.rst`` 页面中，图像应包含在以下代"
+"码段中 ::"
+
+#, fuzzy
+msgid ""
+"Where ``documentation_video.webp`` would be changed to the name of the video "
+"you created. Name your videos in a way that makes their meaning clear, "
+"possibly with a prefix that makes their relationship to a documentation page "
+"explicit."
+msgstr ""
+"其中 ``documentation_image.webp`` 将更改为所创建图像的名称。以明确的方式为图"
+"像命名，可以的话使用前缀明确表示它们与文档页面的关系。"
+
+msgid ""
+"The ``:autoplay:``, ``:loop:`` and ``:muted:`` flags should always be "
+"specified unless the video needs to play audio. In this case, do not specify "
+"*any* of these flags."
+msgstr ""
 
 msgid "Translation status"
 msgstr "翻译状态"

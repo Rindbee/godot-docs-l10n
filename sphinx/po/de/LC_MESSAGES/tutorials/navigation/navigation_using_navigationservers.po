@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,76 +137,8 @@ msgstr ""
 "für alle Änderungen, die durch navigationsbezogene Nodes im Szenenbaum oder "
 "durch Skripte vorgenommen werden."
 
-msgid ""
-"The following functions will be executed in the synchronization phase only:"
+msgid "All setters and delete functions require synchronization."
 msgstr ""
-"Die folgenden Funktionen werden nur in der Synchronisationsphase ausgeführt:"
-
-msgid "``map_set_active()``"
-msgstr "``map_set_active()``"
-
-msgid "``map_set_up()``"
-msgstr "``map_set_up()``"
-
-msgid "``map_set_cell_size()``"
-msgstr "``map_set_cell_size()``"
-
-msgid "``map_set_edge_connection_margin()``"
-msgstr "``map_set_edge_connection_margin()``"
-
-msgid "``region_set_map()``"
-msgstr "``region_set_map()``"
-
-msgid "``region_set_transform()``"
-msgstr "``region_set_transform()``"
-
-msgid "``region_set_enter_cost()``"
-msgstr "``region_set_enter_cost()``"
-
-msgid "``region_set_travel_cost()``"
-msgstr "``region_set_travel_cost()``"
-
-msgid "``region_set_navigation_layers()``"
-msgstr "``region_set_navigation_layers()``"
-
-msgid "``region_set_navigation_mesh()``"
-msgstr "``region_set_navigation_mesh()``"
-
-msgid "``agent_set_map()``"
-msgstr "``agent_set_map()``"
-
-msgid "``agent_set_neighbor_dist()``"
-msgstr "``agent_set_neighbor_dist()``"
-
-msgid "``agent_set_max_neighbors()``"
-msgstr "``agent_set_max_neighbors()``"
-
-msgid "``agent_set_time_horizon()``"
-msgstr "``agent_set_time_horizon()``"
-
-msgid "``agent_set_radius()``"
-msgstr "``agent_set_radius()``"
-
-msgid "``agent_set_max_speed()``"
-msgstr "``agent_set_max_speed()``"
-
-msgid "``agent_set_velocity()``"
-msgstr "``agent_set_velocity()``"
-
-msgid "``agent_set_target_velocity()``"
-msgstr "``agent_set_target_velocity()``"
-
-msgid "``agent_set_position()``"
-msgstr "``agent_set_position()``"
-
-msgid "``agent_set_ignore_y()``"
-msgstr "``agent_set_ignore_y()``"
-
-msgid "``agent_set_callback()``"
-msgstr "``agent_set_callback()``"
-
-msgid "``free()``"
-msgstr "``free()``"
 
 msgid "2D and 3D NavigationServer differences"
 msgstr "Unterschiede zwischen 2D- und 3D-NavigationServern"
@@ -359,7 +291,8 @@ msgstr "Physik-Frame beginnt."
 msgid "``_physics_process(delta)``."
 msgstr "``_physics_process(delta)``."
 
-msgid "``set_velocity()`` on NavigationAgent Node."
+#, fuzzy
+msgid "``velocity`` property is set on NavigationAgent Node."
 msgstr "``set_velocity()`` auf NavigationAgent-Node."
 
 msgid "Agent sends velocity and position to NavigationServer."

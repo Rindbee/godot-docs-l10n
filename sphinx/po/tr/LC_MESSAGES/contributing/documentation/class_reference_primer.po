@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -214,10 +214,10 @@ msgstr ""
 msgid "Link to annotation"
 msgstr ""
 
-msgid "``See [annotation @GDScript.@export].``"
+msgid "``See [annotation @GDScript.@rpc].``"
 msgstr ""
 
-msgid "See :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`."
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
 msgstr ""
 
 msgid "``[constant Class.name]``"
@@ -226,10 +226,10 @@ msgstr ""
 msgid "Link to constant"
 msgstr ""
 
-msgid "``See [constant @GlobalScope.KEY_F1].``"
+msgid "``See [constant Color.RED].``"
 msgstr ""
 
-msgid "See :ref:`@GlobalScope.KEY_F1 <class_@GlobalScope_constant_KEY_F1>`."
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
 msgstr ""
 
 msgid "``[enum Class.name]``"
@@ -244,6 +244,18 @@ msgstr ""
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 msgstr ""
 
+msgid "``[member Class.name]``"
+msgstr ""
+
+msgid "Link to member"
+msgstr ""
+
+msgid "``Get [member Node2D.scale].``"
+msgstr ""
+
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr ""
+
 msgid "``[method Class.name]``"
 msgstr ""
 
@@ -256,16 +268,30 @@ msgstr ""
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr ""
 
-msgid "``[member Class.name]``"
+msgid "``[constructor Class.name]``"
 msgstr ""
 
-msgid "Link to member"
+#, fuzzy
+msgid "Link to built-in constructor"
+msgstr "Işık yerleşikleri"
+
+msgid "``Use [constructor Color.Color].``"
 msgstr ""
 
-msgid "``Get [member Node2D.scale].``"
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
 msgstr ""
 
-msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgid "``[operator Class.name]``"
+msgstr ""
+
+#, fuzzy
+msgid "Link to built-in operator"
+msgstr "Işık yerleşikleri"
+
+msgid "``Use [operator Color.operator *].``"
+msgstr ""
+
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
 msgstr ""
 
 msgid "``[signal Class.name]``"
@@ -292,22 +318,22 @@ msgstr ""
 msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
 msgstr ""
 
-msgid "Currently only :ref:`class_@GDScript` has annotations."
-msgstr ""
-
-msgid "Formatting text"
-msgstr ""
-
 msgid "``[param name]``"
 msgstr ""
 
-msgid "Formats a parameter name (as code)"
+msgid "Parameter name (as code)"
 msgstr ""
 
 msgid "``Takes [param size] for the size.``"
 msgstr ""
 
 msgid "Takes ``size`` for the size."
+msgstr ""
+
+msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr ""
+
+msgid "Formatting text"
 msgstr ""
 
 msgid "``[br]``"
@@ -328,17 +354,30 @@ msgstr ""
 msgid "Line 2."
 msgstr ""
 
+#, fuzzy
+msgid "``[lb]`` ``[rb]``"
+msgstr "``[kbd]`` ``[/kbd]``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr ""
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr ""
+
+msgid "[b]text[/b]"
+msgstr ""
+
 msgid "``[b]`` ``[/b]``"
 msgstr ""
 
 msgid "Bold"
 msgstr "Kalın harfli"
 
-msgid "``Some [b]bold[/b] text.``"
+msgid "``Do [b]not[/b] call this method.``"
 msgstr ""
 
-msgid "Some **bold** text."
-msgstr "Bazı **kalın harfli** metin."
+msgid "Do **not** call this method."
+msgstr ""
 
 msgid "``[i]`` ``[/i]``"
 msgstr ""
@@ -346,11 +385,61 @@ msgstr ""
 msgid "Italic"
 msgstr "Eğik harfli"
 
-msgid "``Some [i]italic[/i] text.``"
+msgid "``Returns the [i]global[/i] position.``"
 msgstr ""
 
-msgid "Some *italic* text."
-msgstr "Bazı **eğik harfli** yazı."
+msgid "Returns the *global* position."
+msgstr ""
+
+#, fuzzy
+msgid "``[u]`` ``[/u]``"
+msgstr "``[kbd]`` ``[/kbd]``"
+
+#, fuzzy
+msgid "Underline"
+msgstr "Interlingue"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr ""
+
+#, fuzzy
+msgid "``[s]`` ``[/s]``"
+msgstr "``[kbd]`` ``[/kbd]``"
+
+msgid "Strikethrough"
+msgstr ""
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[url]`` ``[/url]``"
+msgstr "``[kbd]`` ``[/kbd]``"
+
+msgid "Hyperlink"
+msgstr ""
+
+msgid "``[url]https://example.com[/url]``"
+msgstr ""
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr ""
+
+msgid "https://example.com"
+msgstr ""
+
+msgid "`Website <https://example.com>`_"
+msgstr ""
+
+#, fuzzy
+msgid "``[center]`` ``[/center]``"
+msgstr "``[code]`` ``[/code]``"
+
+msgid "Horizontal centering"
+msgstr ""
+
+msgid "``[center]2 + 2 = 4[/center]``"
+msgstr ""
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -358,55 +447,68 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Klavye/fare kısayolu"
 
-msgid "``Some [kbd]Ctrl + C[/kbd] key.``"
-msgstr ""
+#, fuzzy
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
+msgstr "``[kbd]`` ``[/kbd]``"
 
-msgid "Some :kbd:`Ctrl + C` key."
-msgstr ":kbd:`Ctrl + C` tuşlarına bas."
-
-msgid "Formatting code"
-msgstr ""
+#, fuzzy
+msgid "Press :kbd:`Ctrl + C`."
+msgstr ":kbd:`Ctrl + C`"
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
-msgid "Monospace"
-msgstr "sabit aralıklı yazıtipi"
-
-msgid "``Some [code]monospace[/code] text.``"
+msgid "Inline code fragment"
 msgstr ""
 
-msgid "Some ``monospace`` text."
-msgstr "Bazı ``sabit aralıklı yazıtipi`` metni."
+#, fuzzy
+msgid "``Returns [code]true[/code].``"
+msgstr "``[code]`` ``[/code]``"
 
-msgid "``[codeblock]`` ``[/codeblock]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
+#, fuzzy
+msgid "Returns ``true``."
+msgstr "Döndürme tipi"
 
-msgid "Multiline preformatted block"
-msgstr "Çok satırlı ön-biçimli parça"
-
-msgid "*See below.*"
-msgstr "*Aşağıya bakın.*"
-
-msgid "``[codeblocks]`` ``[/codeblocks]``"
-msgstr "``[codeblocks]`` ``[/codeblocks]``"
-
-msgid "Codeblock for multiple languages"
+msgid ""
+"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
+"because they are not recommended in the engine documentation."
 msgstr ""
 
-msgid "``[gdscript]`` ``[/gdscript]``"
-msgstr "``[gdscript]`` ``[/gdscript]``"
-
-msgid "GDScript codeblock tab in codeblocks"
-msgstr "codeblocks içindeki bir GDScript codeblock sekmesi"
-
-msgid "``[csharp]`` ``[/csharp]``"
-msgstr "``[csharp]`` ``[/csharp]``"
-
-msgid "C# codeblock tab in codeblocks"
-msgstr "codeblocks içindeki bir C# codeblock sekmesi"
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
+msgstr ""
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
+msgstr ""
+
+#, fuzzy
+msgid "Formatting code blocks"
+msgstr "Biçimlendirme"
+
+msgid "There are two options for formatting code blocks:"
+msgstr ""
+
+msgid ""
+"Use ``[codeblock]`` if you want to add an example for a specific language."
+msgstr ""
+
+msgid ""
+"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
+"the same example for both languages, GDScript and C#."
+msgstr ""
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr ""
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr ""
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
 msgstr ""
 
 msgid ""
@@ -449,6 +551,9 @@ msgstr ""
 msgid "The above will display as:"
 msgstr "Yukarıdaki kod şöyle görüntülenir:"
 
+msgid "Formatting notes and warnings"
+msgstr ""
+
 msgid ""
 "To denote important information, add a paragraph starting with \"[b]Note:[/"
 "b]\" at the end of the description:"
@@ -466,20 +571,24 @@ msgstr ""
 "sonunda \"[b]Uyarı:[/b]\" ile başlayan bir parağraf ekleyin:"
 
 msgid ""
-"For deprecated properties, add a paragraph starting with \"[i]Deprecated.[/"
-"i]\". Notice the use of italics instead of bold:"
-msgstr ""
-"Kullanımdan kaldırılmış özellikler için, [i]Kullanımdan kalktı.[/i] ile "
-"başlayan bir satır ekleyin. Kalın harf yerine eğik harf kullanıldığına "
-"dikkat edin:"
-
-msgid ""
 "In all the paragraphs described above, make sure the punctuation is part of "
 "the BBCode tags for consistency."
 msgstr ""
 "Yukarıda belirtilen bütün parağraflarda, tutarlılığı sürdürmek için BBCode "
 "etiketlerinin parçası olan noktalama işaretlerini doğru kullandığınızdan "
 "emin olun."
+
+msgid "Marking API as deprecated/experimental"
+msgstr ""
+
+msgid ""
+"To mark an API as deprecated or experimental, you need to add the "
+"corresponding XML attribute. The attribute value must be a message "
+"explaining why the API is not recommended (BBCode markup is supported) or an "
+"empty string (the default message will be used). If an API element is marked "
+"as deprecated/experimental, then it is considered documented even if the "
+"description is empty."
+msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

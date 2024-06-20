@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,6 +97,10 @@ msgstr ""
 "Якщо доступний робочий шаблон вебекспорту, у редакторі з’являється кнопка "
 "між кнопками *Зупинити сцену* та *Відтворити відредаговану сцену*, щоб "
 "швидко відкрити гру у браузері за замовчуванням для тестування."
+
+msgid ""
+"If your project uses GDExtension **Extension Support** needs to be enabled."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -511,84 +515,14 @@ msgid ""
 "nginx."
 msgstr ""
 
-msgid "Calling JavaScript from script"
-msgstr "Виклик JavaScript із скрипта"
-
 #, fuzzy
-msgid ""
-"In web builds, the ``JavaScriptBridge`` singleton is implemented. It offers "
-"a single method called ``eval`` that works similarly to the JavaScript "
-"function of the same name. It takes a string as an argument and executes it "
-"as JavaScript code. This allows interacting with the browser in ways not "
-"possible with script languages integrated into Godot."
-msgstr ""
-"У вебзбірках реалізовано синглтон ``JavaScript``. Він пропонує єдиний метод "
-"із назвою ``eval``, який працює подібно до однойменної функції JavaScript. "
-"Він приймає рядок як аргумент і виконує його як код JavaScript. Це дозволяє "
-"скриптовим мовам інтегрованим в Godot взаємодіяти з браузером неможливими "
-"шляхами."
+msgid "Interacting with the browser and JavaScript"
+msgstr "Інтерполяція"
 
 msgid ""
-"The value of the last JavaScript statement is converted to a GDScript value "
-"and returned by ``eval()`` under certain circumstances:"
+"See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
+"with JavaScript and access some unique Web browser features."
 msgstr ""
-"Значення останнього оператора JavaScript перетворюється у значення GDScript "
-"і повертається ``eval()`` за певних обставин:"
-
-#, fuzzy
-msgid "JavaScript ``number`` is returned as :ref:`class_float`"
-msgstr "``number`` JavaScript повертається як :ref:`class_float` GDScript"
-
-#, fuzzy
-msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
-msgstr "``boolean`` JavaScript повертається як :ref:`class_bool` GDScript"
-
-#, fuzzy
-msgid "JavaScript ``string`` is returned as :ref:`class_String`"
-msgstr "``string`` JavaScript повертається як :ref:`class_String` GDScript"
-
-#, fuzzy
-msgid ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` and ``DataView`` are returned as :"
-"ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` і ``DataView`` повертаються як :"
-"ref:`class_PoolByteArray` GDScript"
-
-msgid "Any other JavaScript value is returned as ``null``."
-msgstr "Будь-яке інше значення JavaScript повертається як ``null``."
-
-#, fuzzy
-msgid ""
-"HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
-"support for the singleton to improve security. With such templates, and on "
-"platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also "
-"return ``null``. The availability of the singleton can be checked with the "
-"``web`` :ref:`feature tag <doc_feature_tags>`:"
-msgstr ""
-"Шаблони експорту HTML5 можуть бути :ref:`побудовані <doc_compiling_for_web>` "
-"без підтримки синглтонів для покращення безпеки. З такими шаблонами та на "
-"платформах, відмінних від HTML5, виклик ``JavaScript.eval`` буде також "
-"повертати ``null``. Наявність синглтона можна перевірити за допомогою :ref:"
-"`тега функції <doc_feature_tags>` ``JavaScript``:"
-
-msgid ""
-"GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
-"``my_func3()`` above, are useful to keep JavaScript code readable."
-msgstr ""
-"Багаторядні рядки GDScript, оточені 3 лапками, ``\"\"\"`` як зазначено вище "
-"в ``my_func3()``, корисні для збереження коду JavaScript читабельним."
-
-#, fuzzy
-msgid ""
-"The ``eval`` method also accepts a second, optional Boolean argument, which "
-"specifies whether to execute the code in the global execution context, "
-"defaulting to ``false`` to prevent polluting the global namespace:"
-msgstr ""
-"Метод ``eval`` також приймає другий, додатковий аргумент Boolean, який "
-"визначає , чи слід виконати код в глобальному контексті виконання, за "
-"замовчуванням ``false`` , щоб запобігти забрудненню глобального простору "
-"імен:"
 
 msgid "Environment variables"
 msgstr "Змінні середовища"

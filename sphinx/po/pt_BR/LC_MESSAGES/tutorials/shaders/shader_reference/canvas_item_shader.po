@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,7 +153,7 @@ msgid "in float **E**"
 msgstr "**int, float**"
 
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 
@@ -275,6 +275,14 @@ msgstr ""
 msgid "Point size for point drawing."
 msgstr ""
 
+#, fuzzy
+msgid "in vec4 **CUSTOM0**"
+msgstr "in vec3 **NORMAL**"
+
+#, fuzzy
+msgid "in vec4 **CUSTOM1**"
+msgstr "in vec3 **NORMAL**"
+
 msgid "Fragment built-ins"
 msgstr "Fragmentos embutidos"
 
@@ -301,7 +309,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
+"window. Origin is upper-left."
 msgstr ""
 "Coordenada do centro do pixel no espaço da tela. ``xy`` especifica a posição "
 "na janela, ``z`` especifica a profundidade do fragmento se ``DEPTH`` não for "
@@ -437,6 +445,15 @@ msgid ""
 "into account:"
 msgstr ""
 
+#, fuzzy
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"Coordenada do centro do pixel no espaço da tela. ``xy`` especifica a posição "
+"na janela, ``z`` especifica a profundidade do fragmento se ``DEPTH`` não for "
+"usado. A origem está no canto inferior esquerdo."
+
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
@@ -560,14 +577,15 @@ msgstr ""
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr ""
 
-msgid "Converts a SDF to screen UV."
-msgstr ""
+#, fuzzy
+msgid "Converts an SDF to screen UV."
+msgstr "Converter Recuo em Tabulação"
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr ""
 
 #, fuzzy
-msgid "Converts screen UV to a SDF."
+msgid "Converts screen UV to an SDF."
 msgstr "Converter Recuo em Tabulação"
 
 msgid "Translation status"

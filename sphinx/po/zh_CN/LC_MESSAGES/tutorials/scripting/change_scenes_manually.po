@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,9 +118,10 @@ msgstr "好处: 如果需要, 仍然可以访问数据."
 msgid "Pro: There's no need to move any more nodes around to save data."
 msgstr "好处: 无需再移动任何节点来保存数据."
 
+#, fuzzy
 msgid ""
-"Con: More data is being kept in memory which will be become a problem on "
-"memory-sensitive platforms like web or mobile."
+"Con: More data is being kept in memory which will become a problem on memory-"
+"sensitive platforms like web or mobile."
 msgstr ""
 "坏处: 更多数据被保存在内存中, 这将成为对内存敏感平台(如Web或移动设备)的问题."
 
@@ -183,10 +184,11 @@ msgstr ""
 "或其他通过访问 :ref:`SceneTree <class_SceneTree>` 才能得到的数据，则它将变为"
 "陈旧。"
 
+#, fuzzy
 msgid ""
 "There are also cases where one may wish to have many scenes present at the "
 "same time. Perhaps one is adding their own singleton at runtime, or "
-"preserving a a scene's data between scene changes (adding the scene to the "
+"preserving a scene's data between scene changes (adding the scene to the "
 "root node)."
 msgstr ""
 "在有些情况下, 人们可能希望有许多场景同时存在. 也许人们在运行时添加他们自己的"

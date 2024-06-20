@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,8 +80,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"You can Ctrl-click any underlined text like the name of a class, property, "
-"method, signal, or constant to jump to it."
+"You can Ctrl-click (Cmd-click on MacOS) any underlined text like the name of "
+"a class, property, method, signal, or constant to jump to it."
 msgstr ""
 
 msgid "Learning to think like a programmer"

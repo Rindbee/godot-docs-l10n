@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,13 +72,15 @@ msgid "Deploy with Remote Debug"
 msgstr "リモートデバッグでデプロイ"
 
 msgid ""
-"When exporting and deploying, the resulting executable will attempt to "
-"connect to the IP of your computer for debugging."
+"When this option is enabled, using one-click deploy will make the executable "
+"attempt to connect to this computer's IP so the running project can be "
+"debugged. This option is intended to be used for remote debugging (typically "
+"with a mobile device). You don't need to enable it to use the GDScript "
+"debugger locally."
 msgstr ""
-"エクスポートおよびデプロイするとき、結果として生成される実行可能ファイルは、"
-"デバッグのためにコンピューターのIPに接続しようとします。"
 
-msgid "Small Deploy with Network FS"
+#, fuzzy
+msgid "Small Deploy with Network Filesystem"
 msgstr "ネットワークファイルシステムでスモールデプロイ"
 
 msgid ""
@@ -88,10 +90,11 @@ msgstr ""
 "このオプションは、リモートデバイス上で大きなフットプリントを持つゲームのテス"
 "トを高速化します。"
 
+#, fuzzy
 msgid ""
-"When **Small Deploy with Network FS** is on, instead of exporting the full "
-"game, deploying the game builds a minimal executable. The editor then "
-"provides files from the project over the network."
+"When **Small Deploy with Network Filesystem** is on, instead of exporting "
+"the full game, deploying the game builds a minimal executable. The editor "
+"then provides files from the project over the network."
 msgstr ""
 "**ネットワークファイルシステムでスモールデプロイ** がオンの場合、ゲーム全体を"
 "エクスポートする代わりに、ゲームをデプロイすると最小限の実行可能ファイルがビ"
@@ -108,9 +111,22 @@ msgstr ""
 msgid "Visible Collision Shapes"
 msgstr "コリジョン形状を表示"
 
+#, fuzzy
 msgid ""
-"This option makes collision shapes and raycast nodes visible in the running "
-"game."
+"When this option is enabled, collision shapes and raycast nodes (for 2D and "
+"3D) will be visible in the running project."
+msgstr ""
+"このオプションは、実行中のゲームでコリジョンシェイプとレイキャストノードを表"
+"示します。"
+
+#, fuzzy
+msgid "Visible Paths"
+msgstr "可視領域矩形(Visibility Rect)"
+
+#, fuzzy
+msgid ""
+"When this option is enabled, curve resources used by path nodes will be "
+"visible in the running project."
 msgstr ""
 "このオプションは、実行中のゲームでコリジョンシェイプとレイキャストノードを表"
 "示します。"
@@ -118,31 +134,182 @@ msgstr ""
 msgid "Visible Navigation"
 msgstr "ナビゲーションを表示"
 
-msgid "Navigation meshes and polygons will be visible on the running game."
+#, fuzzy
+msgid ""
+"When this option is enabled, navigation meshes, and polygons will be visible "
+"in the running project."
 msgstr "ナビゲーションメッシュとポリゴンは、実行中のゲームに表示されます。"
 
-msgid "Sync Scene Changes"
-msgstr "シーンの変更を同期"
+#, fuzzy
+msgid "Visible Avoidance"
+msgstr "ナビゲーションを表示"
 
 msgid ""
-"With this option, any change you make to a scene in the editor at runtime "
-"appears instantly. When used remotely on a device, this is more efficient "
-"with the network filesystem."
+"When this option is enabled, avoidance object shapes, radiuses, and "
+"velocities will be visible in the running project."
+msgstr ""
+
+#, fuzzy
+msgid "Debug CanvasItem Redraws"
+msgstr "CanvasItemシェーダー"
+
+msgid ""
+"When this option is enabled, redraw requests of 2D objects will become "
+"visible (as a short flash) in the running project. This is useful to "
+"troubleshoot low processor mode."
+msgstr ""
+
+#, fuzzy
+msgid "Synchronize Scene Changes"
+msgstr "シーンの変更を同期"
+
+#, fuzzy
+msgid ""
+"When this option is enabled, any changes made to the scene in the editor "
+"will be replicated in the running project. When used remotely on a device, "
+"this is more efficient when the network filesystem option is enabled."
 msgstr ""
 "このオプションを使用すると、実行時にエディタでシーンに加えた変更が即座に表示"
 "されます。デバイスでリモートで使用する場合、これはネットワークファイルシステ"
 "ムで使用すると、より効率的です。"
 
-msgid "Sync Script Changes"
+#, fuzzy
+msgid "Synchronize Script Changes"
 msgstr "スクリプトの変更を同期"
 
+#, fuzzy
 msgid ""
-"Any script that is saved will be reloaded on the running game. When used "
-"remotely on a device, this is more efficient with the network filesystem."
+"When this option is enabled, any changes made to the script in the editor "
+"will be reloaded in the running project. When used remotely on a device, "
+"this is more efficient with the network filesystem."
 msgstr ""
-"保存されたスクリプトは、実行中のゲームにリロードされます。デバイスでリモート"
-"で使用する場合、これはネットワークファイルシステムで使用すると、より効率的で"
-"す。"
+"このオプションを使用すると、実行時にエディタでシーンに加えた変更が即座に表示"
+"されます。デバイスでリモートで使用する場合、これはネットワークファイルシステ"
+"ムで使用すると、より効率的です。"
+
+msgid "Keep Debug Server Open"
+msgstr ""
+
+msgid ""
+"When this option is enabled, the editor debug server will stay open and "
+"listen for new sessions started outside of the editor itself."
+msgstr ""
+
+msgid "Customize Run Instances..."
+msgstr ""
+
+msgid ""
+"This opens a dialog allowing you to tell Godot to run multiple instances of "
+"the game at once, and to specify the command line arguments for each "
+"instance. This is especially useful when building and debugging multiplayer "
+"games."
+msgstr ""
+
+#, fuzzy
+msgid "Enable Multiple Instances"
+msgstr "マルチメッシュインスタンス(MultiMeshInstance)の使用"
+
+msgid ""
+"When this option is enabled, the editor will run multiple instances of the "
+"project at once when you Run Project."
+msgstr ""
+
+msgid "Below this checkbox is a selector to pick how many instances to run."
+msgstr ""
+
+msgid ""
+"Checking the box and setting this to only 1 is the same as not checking this "
+"box at all."
+msgstr ""
+
+msgid "Main Run Args"
+msgstr ""
+
+msgid ""
+"These are the arguments that will be passed to **every** instance of the "
+"project when you Run Project, unless you select \"Enabled\" under \"Override "
+"Main Run Args\" for a specific instance."
+msgstr ""
+
+msgid "Note that these arguments are space-separated."
+msgstr ""
+
+msgid ""
+"These arguments can be accessed in your script by using :ref:"
+"`get_cmdline_args<class_OS_method_get_cmdline_args>`."
+msgstr ""
+
+msgid ""
+"Even if you uncheck \"Enable Multiple Instances\" these arguments will be "
+"passed when you Run Project."
+msgstr ""
+
+#, fuzzy
+msgid "Main Feature Tags"
+msgstr "フィーチャータグ"
+
+msgid ""
+"These are the feature tags that will be passed to **every** instance of the "
+"project when you Run Project, unless you select \"Enabled\" under \"Override "
+"Main Tags\" for a specific instance."
+msgstr ""
+
+msgid "Override Main Run Args"
+msgstr ""
+
+msgid ""
+"When this is enabled, the arguments in the \"Main Run Args\" field will "
+"**not be passed** to this specific instance of the project when you Run "
+"Project."
+msgstr ""
+
+#, fuzzy
+msgid "Launch Arguments"
+msgstr "引数"
+
+msgid ""
+"These are the arguments that will be passed to this specific instance of the "
+"project when you Run Project. They will be **combined with** the \"Main Run "
+"Args\" unless you select \"Enabled\" under \"Override Main Run Args\"."
+msgstr ""
+
+#, fuzzy
+msgid "Override Main Tags"
+msgstr "オーバーライド可能な関数"
+
+msgid ""
+"When this is enabled, the tags in the \"Main Feature Tags\" field will **not "
+"be passed** to this specific instance of the project when you Run Project."
+msgstr ""
+
+#, fuzzy
+msgid "Feature Tags"
+msgstr "フィーチャータグ"
+
+msgid ""
+"These are the feature tags that will be passed to this specific instance of "
+"the project when you Run Project. They will be **combined with** the \"Main "
+"Feature Tags\" unless you select \"Enabled\" under \"Override Main Tags\"."
+msgstr ""
+
+msgid ""
+"If you want to pass \"User\" arguments, that can be accessed with :ref:"
+"`get_cmdline_user_args<class_OS_method_get_cmdline_user_args>` then you must "
+"prefix them with two dashes **and a space** like `-- one two three`."
+msgstr ""
+
+msgid ""
+"Be aware that these dashes will apply to arguments added later in the "
+"\"Launch Arguments\" on a per instance basis, which can cause some confusion "
+"when combining the `Main Run Args` and `Launch Arguments`."
+msgstr ""
+
+msgid ""
+"If you place `-- one two three` in the \"Main Run Args\" and `-- four five "
+"six` in the \"Launch Arguments\" then the final command line arguments will "
+"be `one two three -- four five six`. This is because the `--` is repeated in "
+"the \"Launch Arguments\"."
+msgstr ""
 
 msgid "Script editor debug tools and options"
 msgstr "スクリプトエディタのデバッグツールとオプション"
@@ -186,10 +353,9 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"The **Keep Debugger Open** option keeps the debugger open after a scene has "
-"been closed. The **Debug with External Editor** option lets you debug your "
-"game with an external editor. This option is also accessible in **Editor "
-"Settings > Debugger**."
+"The **Debug with External Editor** option lets you debug your game with an "
+"external editor. This option is also accessible in **Editor Settings > "
+"Debugger**."
 msgstr ""
 "[**デバッガを開いたままに**]オプションは、シーンが閉じられた後もデバッガを開"
 "いたままにします。また、\\ **外部エディタでデバッグ**\\ オプションを使用する"

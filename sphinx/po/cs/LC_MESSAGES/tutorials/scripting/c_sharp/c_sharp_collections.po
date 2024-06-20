@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,8 +84,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If yes, since Godot only supports :ref:`Variant-compatible "
-"<doc_c_sharp_variant>` types, use a Godot collection."
+"If yes, since Godot only supports :ref:`c_sharp_variant_compatible_types`, "
+"use a Godot collection."
 msgstr ""
 
 msgid ""
@@ -143,6 +143,12 @@ msgstr "GDSkript"
 msgid "C#"
 msgstr "C#"
 
+msgid "``PackedByteArray``"
+msgstr ""
+
+msgid "``byte[]``"
+msgstr ""
+
 msgid "``PackedInt32Array``"
 msgstr ""
 
@@ -155,12 +161,6 @@ msgstr ""
 #, fuzzy
 msgid "``long[]``"
 msgstr "``Barva []``"
-
-msgid "``PackedByteArray``"
-msgstr ""
-
-msgid "``byte[]``"
-msgstr ""
 
 msgid "``PackedFloat32Array``"
 msgstr ""
@@ -182,13 +182,6 @@ msgstr ""
 msgid "``string[]``"
 msgstr "string"
 
-#, fuzzy
-msgid "``PackedColorArray``"
-msgstr "``Color8``"
-
-msgid "``Color[]``"
-msgstr "``Barva []``"
-
 msgid "``PackedVector2Array``"
 msgstr ""
 
@@ -201,10 +194,17 @@ msgstr ""
 msgid "``Vector3[]``"
 msgstr ""
 
+#, fuzzy
+msgid "``PackedColorArray``"
+msgstr "``Color8``"
+
+msgid "``Color[]``"
+msgstr "``Barva []``"
+
 msgid ""
 "Other C# arrays are not supported by the Godot C# API since a packed array "
-"equivalent does not exist. See :ref:`Variant <doc_c_sharp_variant>` for a "
-"list of all the compatible types."
+"equivalent does not exist. See the list of :ref:"
+"`c_sharp_variant_compatible_types`."
 msgstr ""
 
 msgid "Array"
@@ -218,7 +218,8 @@ msgstr ""
 
 msgid ""
 "The generic ``Godot.Collections.Array<T>`` type allows restricting the "
-"element type to a :ref:`Variant-compatible <doc_c_sharp_variant>` type."
+"element type to a :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>`."
 msgstr ""
 
 msgid ""
@@ -574,8 +575,8 @@ msgstr ""
 
 msgid ""
 "The generic ``Godot.Collections.Dictionary<TKey, TValue>`` type allows "
-"restricting the key and value types to a :ref:`Variant-compatible "
-"<doc_c_sharp_variant>` type."
+"restricting the key and value types to a :ref:`Variant-compatible type "
+"<c_sharp_variant_compatible_types>`."
 msgstr ""
 
 msgid ""

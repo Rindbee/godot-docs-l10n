@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,8 +181,9 @@ msgstr ""
 "覆盖的主题项目可以直接在右侧面板中编辑，除非它们是资源。资源具有可用的基本控"
 "件，但必须在检查器栏中进行编辑。"
 
+#, fuzzy
 msgid ""
-"Styleboxes have an unique feature available, where you can pin an individual "
+"Styleboxes have a unique feature available, where you can pin an individual "
 "stylebox from the list. Pinned stylebox acts like the leader of the pack, "
 "and all styleboxes of the same type are updated alongside it when you change "
 "its properties. This allows you to edit properties of several styleboxes at "

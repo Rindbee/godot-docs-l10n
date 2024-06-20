@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,9 +46,9 @@ msgstr ""
 "或遊戲設計師之後就能通過修改數值來更改程式的執行方式。為此有一個特殊的匯出語"
 "法。"
 
+#, fuzzy
 msgid ""
-"Exporting can only be done with :ref:`Variant-compatible "
-"<doc_c_sharp_variant>` types."
+"Exporting can only be done with :ref:`c_sharp_variant_compatible_types`."
 msgstr "匯出只適用於:ref:`與 Variant 相容 <doc_c_sharp_variant>`的型別。"
 
 msgid ""
@@ -59,7 +59,10 @@ msgstr "GDScript 中也能夠匯出屬性，相關資訊見 :ref:`doc_gdscript_e
 msgid "Basic use"
 msgstr "Basic use"
 
-msgid "Exporting can work with fields and properties."
+#, fuzzy
+msgid ""
+"Exporting works with fields and properties. They can have any access "
+"modifier."
 msgstr "匯出套件、修正檔與 Mod"
 
 msgid ""
@@ -71,8 +74,49 @@ msgstr ""
 "microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-"
 "values>」。"
 
-msgid "Resources and nodes can be exported."
-msgstr "可以匯出資源和節點。"
+msgid ""
+"An ``int`` like ``Number`` defaults to ``0``. ``Text`` defaults to null "
+"because ``string`` is a reference type."
+msgstr ""
+
+msgid "Default values can be specified for fields and properties."
+msgstr ""
+
+msgid ""
+"Properties with a backing field use the default value of the backing field."
+msgstr ""
+
+msgid ""
+"A property's ``get`` is not actually executed to determine the default "
+"value. Instead, Godot analyzes the C# source code. This works fine for most "
+"cases, such as the examples on this page. However, some properties are too "
+"complex for the analyzer to understand."
+msgstr ""
+
+msgid ""
+"For example, the following property attempts to use math to display the "
+"default value as ``5`` in the property editor, but it doesn't work:"
+msgstr ""
+
+msgid ""
+"The analyzer doesn't understand this code and falls back to the default "
+"value for ``int``, ``0``. However, when running the scene or inspecting a "
+"node with an attached tool script, ``_number`` will be ``2``, and "
+"``NumberWithBackingField`` will return ``5``. This difference may cause "
+"confusing behavior. To avoid this, don't use complex properties. "
+"Alternatively, if the default value can be explicitly specified, it can be "
+"overridden with the :ref:`_PropertyCanRevert() "
+"<class_Object_private_method__property_can_revert>` and :ref:"
+"`_PropertyGetRevert() <class_Object_private_method__property_get_revert>` "
+"methods."
+msgstr ""
+
+msgid ""
+"Any type of ``Resource`` or ``Node`` can be exported. The property editor "
+"shows a user-friendly assignment dialog for these types. This can be used "
+"instead of ``GD.Load`` and ``GetNode``. See :ref:`Nodes and Resources "
+"<doc_c_sharp_exports_nodes>`."
+msgstr ""
 
 msgid "Grouping exports"
 msgstr "建立屬性群組"
@@ -192,7 +236,16 @@ msgid ""
 msgstr "從Godot 4.0開始，可以直接匯出節點，而無需使用NodePaths。"
 
 msgid ""
-"Custom node classes can also be used, see :ref:`doc_c_sharp_global_classes`."
+"A specific type of node can also be directly exported. The list of nodes "
+"shown after pressing \"Assign\" in the inspector is filtered to the "
+"specified type, and only a correct node can be assigned."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Custom node classes can also be exported directly. The filtering behavior "
+"depends on whether the custom class is a :ref:`global class "
+"<doc_c_sharp_global_classes>`."
 msgstr "也可以使用自訂節點類，請參閱 doc_c_sharp_global_classes`。"
 
 msgid ""
@@ -245,9 +298,15 @@ msgstr ""
 "員。該值將儲存為整數。"
 
 msgid ""
+"A flags enum uses powers of 2 for the values of the enum members. Members "
+"that combine multiple flags using logical OR (``|``) are also possible."
+msgstr ""
+
+#, fuzzy
+msgid ""
 "Integers used as bit flags can store multiple ``true``/``false`` (boolean) "
-"values in one property. By using the ``Flags`` property hint, they can be "
-"set from the editor."
+"values in one property. By using the ``Flags`` property hint, any of the "
+"given flags can be set from the editor."
 msgstr ""
 "作為位元旗標的整數可以在單一屬性內儲存多個 ``true``/``false`` (布林) 值。只需"
 "要使用匯出提示 ``int, FLAGS, …`` 就可以在編輯器中設定："
@@ -330,16 +389,18 @@ msgstr ""
 msgid "Exporting Godot arrays"
 msgstr "匯出陣列"
 
+#, fuzzy
 msgid ""
-"Using the generic ``Godot.Collections.Array<T>`` allows to specify the type "
-"of the array elements which will be used as a hint for the editor. The "
+"Using the generic ``Godot.Collections.Array<T>`` allows specifying the type "
+"of the array elements, which will be used as a hint for the editor. The "
 "Inspector will restrict the elements to the specified type."
 msgstr ""
 "使用通用的「Godot.Collections.Array<T>」允許指定將用作編輯器提示的陣列元素的"
 "型別。屬性面板會將元素限制為指定型別。"
 
+#, fuzzy
 msgid ""
-"The default value of Godot arrays is null, a different default can be "
+"The default value of Godot arrays is null. A different default can be "
 "specified:"
 msgstr "Godot 陣列的預設值為 null，可以指定不同的預設值："
 
@@ -353,9 +414,10 @@ msgstr ""
 msgid "Exporting Godot dictionaries"
 msgstr "其他建議"
 
+#, fuzzy
 msgid ""
-"Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows to "
-"specify the type of the key and value elements of the dictionary."
+"Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows "
+"specifying the types of the key and value elements of the dictionary."
 msgstr ""
 "使用通用的「Godot.Collections.Dictionary<TKey, TValue>」允許指定字典的鍵和值"
 "元素的型別。"
@@ -368,23 +430,26 @@ msgstr ""
 "目前 Godot 編輯器不支援型別化字典，因此 Inspector 不會限制可以指派的型別，這"
 "可能會導致執行時期異常。"
 
+#, fuzzy
 msgid ""
-"The default value of Godot dictionaries is null, a different default can be "
+"The default value of Godot dictionaries is null. A different default can be "
 "specified:"
 msgstr "Godot 字典的預設值為 null，可以指定不同的預設值："
 
 msgid "Exporting C# arrays"
 msgstr "匯出陣列"
 
+#, fuzzy
 msgid ""
 "C# arrays can exported as long as the element type is a :ref:`Variant-"
-"compatible <doc_c_sharp_variant>` type."
+"compatible type <c_sharp_variant_compatible_types>`."
 msgstr ""
 "只要元素型別是 Variant 相容的 <doc_c_sharp_variant> 型別，就可以匯出 C# 陣"
 "列。"
 
+#, fuzzy
 msgid ""
-"The default value of C# arrays is null, a different default can be specified:"
+"The default value of C# arrays is null. A different default can be specified:"
 msgstr "C# 陣列的預設值為 null，可以指定不同的預設值："
 
 msgid "Setting exported variables from a tool script"

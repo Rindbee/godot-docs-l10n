@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,6 +381,17 @@ msgstr "Verwendet die Mono-Schriftart von ``RichTextLabel`` für ``{text}``."
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{text}[/code]``"
 
+#, fuzzy
+msgid "**char**"
+msgstr "char"
+
+msgid "Adds Unicode character with hexadecimal UTF-32 ``{codepoint}``."
+msgstr ""
+
+#, fuzzy
+msgid "``[char={codepoint}]``"
+msgstr "``[outline_color={code/name}]``"
+
 msgid "**p**"
 msgstr "**p**"
 
@@ -524,8 +535,15 @@ msgstr ""
 "Bild auf diese Größe skaliert."
 
 msgid ""
+"Add ``%`` to the end of ``{width}`` or ``{height}`` value to specify it as "
+"percentages of the control width instead of pixels."
+msgstr ""
+
+#, fuzzy
+msgid ""
 "If ``{valign}`` configuration is provided, the image will try to align to "
-"the surrounding text, see :ref:`doc_bbcode_in_richtextlabel_image_alignment`."
+"the surrounding text, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
 msgstr ""
 "Wenn die Konfiguration ``{valign}`` angegeben ist, wird das Bild versuchen, "
 "sich an dem umgebenden Text auszurichten, siehe :ref:"
@@ -607,9 +625,11 @@ msgstr ""
 "Seitenränder sind besonders nützlich, um den Rest des Absatzes unterhalb des "
 "Dropcaps anzeigen zu lassen."
 
+#, fuzzy
 msgid ""
-"``[dropcap font_size={size} color={color} margins={left},{top},{right},"
-"{bottom}]{text}[/dropcap]``"
+"``[dropcap font={font} font_size={size} color={color} outline_size={size} "
+"outline_color={color} margins={left},{top},{right},{bottom}]{text}[/"
+"dropcap]``"
 msgstr ""
 "``[dropcap font_size={size} color={color} margins={left},{top},{right},"
 "{bottom}]{text}[/dropcap]``"
@@ -736,7 +756,30 @@ msgstr ""
 "Erzeugt eine Tabelle mit der ``{number}`` von Spalten. Verwenden Sie den "
 "``cell``-Tag, um Tabellenzellen zu definieren."
 
+#, fuzzy
+msgid ""
+"If ``{valign}`` configuration is provided, the table will try to align to "
+"the surrounding text, see :ref:"
+"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
+msgstr ""
+"Wenn die Konfiguration ``{valign}`` angegeben ist, wird das Bild versuchen, "
+"sich an dem umgebenden Text auszurichten, siehe :ref:"
+"`doc_bbcode_in_richtextlabel_image_alignment`."
+
+msgid ""
+"If baseline alignment is used, the table is aligned to the baseline of the "
+"row with index ``{alignment_row}`` (zero-based)."
+msgstr ""
+
 msgid "``[table={number}]{cells}[/table]``"
+msgstr "``[table={number}]{cells}[/table]``"
+
+#, fuzzy
+msgid "``[table={number},{valign}]{cells}[/table]``"
+msgstr "``[table={number}]{cells}[/table]``"
+
+#, fuzzy
+msgid "``[table={number},{valign},{alignment_row}]{cells}[/table]``"
 msgstr "``[table={number}]{cells}[/table]``"
 
 msgid "**cell**"
@@ -920,7 +963,10 @@ msgstr "**align**"
 msgid "`Values`"
 msgstr "`Values`"
 
-msgid "``left``, ``center``, ``right``, ``fill``"
+#, fuzzy
+msgid ""
+"``left`` (or ``l``), ``center`` (or ``c``), ``right`` (or ``r``), ``fill`` "
+"(or ``f``)"
 msgstr "``left``, ``center``, ``right``, ``fill``"
 
 msgid "`Default`"
@@ -935,8 +981,10 @@ msgstr "Horizontale Ausrichtung des Textes."
 msgid "**bidi_override**, **st**"
 msgstr "**bidi_override**, **st**"
 
+#, fuzzy
 msgid ""
-"``default``, ``uri``, ``file``, ``email``, ``list``, ``none``, ``custom``"
+"``default`` (of ``d``), ``uri`` (or ``u``), ``file`` (or ``f``), ``email`` "
+"(or ``e``), ``list`` (or ``l``), ``none`` (or ``n``), ``custom`` (or ``c``)"
 msgstr ""
 "``default``, ``uri``, ``file``, ``email``, ``list``, ``none``, ``custom``"
 
@@ -946,10 +994,29 @@ msgstr "``default``"
 msgid "Structured text override."
 msgstr "Überschreiben von strukturiertem Text."
 
+msgid "**justification_flags**, **jst**"
+msgstr ""
+
+msgid ""
+"Comma-separated list of the following values: ``kashida`` (or ``k``), "
+"``word`` (or ``w``), ``trim`` (or ``tr``), ``after_last_tab`` (or ``lt``), "
+"``skip_last`` (or ``sl``), ``skip_last_with_chars`` (or ``sv``),  "
+"``do_not_skip_single`` (or ``ns``)."
+msgstr ""
+
+msgid "``word,kashida,skip_last,do_not_skip_single``"
+msgstr ""
+
+msgid ""
+"Justification (fill alignment) option. See :ref:`class_TextServer` for more "
+"details."
+msgstr ""
+
 msgid "**direction**, **dir**"
 msgstr "**direction**, **dir**"
 
-msgid "``ltr``, ``rtl``, ``auto``"
+#, fuzzy
+msgid "``ltr`` (or ``l``), ``rtl`` (or ``r``), ``auto`` (or ``a``)"
 msgstr "``ltr``, ``rtl``, ``auto``"
 
 msgid "Inherit"
@@ -1043,17 +1110,21 @@ msgstr "Farbtönung des Bildes (Modulation)."
 msgid "**height**"
 msgstr "**height**"
 
-msgid "Number in pixels"
-msgstr "Anzahl in Pixeln"
+msgid "Integer number"
+msgstr "Integer-Zahl"
 
-msgid "Target height of the image."
-msgstr "Zielhöhe des Bildes."
+msgid ""
+"Target height of the image in pixels, add ``%`` to the end of value to "
+"specify it as percentages of the control width instead of pixels."
+msgstr ""
 
 msgid "**width**"
 msgstr "**width**"
 
-msgid "Target width of the image."
-msgstr "Zielbreite des Bildes."
+msgid ""
+"Target width of the image, add ``%`` to the end of value to specify it as "
+"percentages of the control width instead of pixels."
+msgstr ""
 
 msgid "**region**"
 msgstr "**region**"
@@ -1068,16 +1139,46 @@ msgstr ""
 "Bereichs-Rechteck des Bildes. Dies kann verwendet werden, um ein einzelnes "
 "Bild aus einem Spritesheet anzuzeigen."
 
-msgid "Image vertical alignment"
-msgstr "Vertikale Ausrichtung des Bildes"
+#, fuzzy
+msgid "**pad**"
+msgstr "**Schlecht**:"
+
+msgid "``false``, ``true``"
+msgstr "``false``, ``true``"
+
+#, fuzzy
+msgid "``false``"
+msgstr "``fantasy``"
 
 msgid ""
-"When a vertical alignment value is provided with the ``[img]`` tag the image "
-"will try to align itself against the surrounding text. Alignment is "
-"performed using a vertical point of the image and a vertical point of the "
-"text. There are 3 possible points on the image (``top``, ``center``, and "
-"``bottom``) and 4 possible points on the text (``top``, ``center``, "
-"``baseline``, and ``bottom``), which can be used in any combination."
+"If set to ``true``, and the image is smaller than the size specified by "
+"``width`` and ``height``, the image padding is added to match the size "
+"instead of upscaling."
+msgstr ""
+
+msgid "**tootip**"
+msgstr ""
+
+msgid "String"
+msgstr "String"
+
+#, fuzzy
+msgid "Image tooltip."
+msgstr "Bild-Optionen"
+
+#, fuzzy
+msgid "Image and table vertical alignment"
+msgstr "Vertikale Ausrichtung des Bildes"
+
+#, fuzzy
+msgid ""
+"When a vertical alignment value is provided with the ``[img]`` or "
+"``[table]``` tag the image/table will try to align itself against the "
+"surrounding text. Alignment is performed using a vertical point of the image "
+"and a vertical point of the text. There are 3 possible points on the image "
+"(``top``, ``center``, and ``bottom``) and 4 possible points on the text and "
+"table (``top``, ``center``, ``baseline``, and ``bottom``), which can be used "
+"in any combination."
 msgstr ""
 "Wenn ein Wert für die vertikale Ausrichtung mit dem ``[img]``-Tag angegeben "
 "wird, versucht das Bild, sich an dem umgebenden Text auszurichten. Die "
@@ -1087,9 +1188,10 @@ msgstr ""
 "(``top``, ``center``, ``baseline`` und ``bottom``), die in jeder Kombination "
 "verwendet werden können."
 
+#, fuzzy
 msgid ""
 "To specify both points, use their full or short names as a value of the "
-"image tag:"
+"image/table tag:"
 msgstr ""
 "Um beide Punkte anzugeben, verwenden Sie ihre vollständigen oder kurzen "
 "Namen als Wert des Bild-Tags:"
@@ -1130,6 +1232,102 @@ msgstr "Anzahl in Pixeln."
 
 msgid "Custom font size."
 msgstr "Benutzerdefinierte Schriftgröße."
+
+#, fuzzy
+msgid "**glyph_spacing**, **gl**"
+msgstr "**language**, **lang**"
+
+msgid "Extra spacing for each glyph."
+msgstr ""
+
+#, fuzzy
+msgid "**glyph_spacing**, **sp**"
+msgstr "**size**, **s**"
+
+msgid "Extra spacing for the space character."
+msgstr ""
+
+#, fuzzy
+msgid "**top_spacing**, **top**"
+msgstr "**size**, **s**"
+
+#, fuzzy
+msgid "Extra spacing at the top of the line."
+msgstr "Nach einem Komma, das nicht am Ende der Zeile steht."
+
+#, fuzzy
+msgid "**bottom_spacing**, **bt**"
+msgstr "**lb**, **rb**"
+
+msgid "Extra spacing at the bottom of the line."
+msgstr ""
+
+#, fuzzy
+msgid "**embolden**, **emb**"
+msgstr "**lb**, **rb**"
+
+#, fuzzy
+msgid "Floating-point number."
+msgstr "Float-Zahlen"
+
+#, fuzzy
+msgid "``0.0``"
+msgstr "``0.50``"
+
+msgid ""
+"Font embolden strength, if it is not equal to zero, emboldens the font "
+"outlines. Negative values reduce the outline thickness."
+msgstr ""
+
+#, fuzzy
+msgid "**face_index**, **fi**"
+msgstr "**name**, **n**"
+
+#, fuzzy
+msgid "Integer number."
+msgstr "Integer-Zahl"
+
+msgid "``0``"
+msgstr ""
+
+msgid "An active face index in the TrueType / OpenType collection."
+msgstr ""
+
+#, fuzzy
+msgid "**slant**, **sln**"
+msgstr "**language**, **lang**"
+
+msgid ""
+"Font slant strength, positive values slant glyphs to the right. Negative "
+"values to the left."
+msgstr ""
+
+msgid "**opentype_variation**, **otv**"
+msgstr ""
+
+msgid "Comma-separated list of the OpenType variation tags."
+msgstr ""
+
+msgid ""
+"Font OpenType variation coordinates. See `OpenType variation tags <https://"
+"docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg>`__."
+msgstr ""
+
+msgid ""
+"Note: The value should be enclosed in ``\"`` to allow using ``=`` inside it:"
+msgstr ""
+
+#, fuzzy
+msgid "**opentype_features**, **otf**"
+msgstr "**opentype_features**"
+
+msgid "Comma-separated list of the OpenType feature tags."
+msgstr ""
+
+msgid ""
+"Font OpenType features. See `OpenType features tags <https://docs.microsoft."
+"com/en-us/typography/opentype/spec/featuretags>`__."
+msgstr ""
 
 msgid "Named colors"
 msgstr "Benannte Farben"
@@ -1177,9 +1375,6 @@ msgstr "Zellenoptionen"
 msgid "**expand**"
 msgstr "**expand**"
 
-msgid "Integer number"
-msgstr "Integer-Zahl"
-
 msgid "1"
 msgstr "1"
 
@@ -1206,6 +1401,20 @@ msgid ""
 msgstr ""
 "Hintergrundfarbe der Zelle. Für abwechselnde ungerade/gerade "
 "Zeilenhintergründe können Sie ``bg=odd_color,even_color`` verwenden."
+
+#, fuzzy
+msgid "**padding**"
+msgstr "**lang**"
+
+#, fuzzy
+msgid "4 comma-separated floating-point numbers"
+msgstr "Float-Zahlen"
+
+msgid "0, 0, 0, 0"
+msgstr ""
+
+msgid "Left, top, right, and bottom cell padding."
+msgstr ""
 
 msgid "Unordered list bullet"
 msgstr "Aufzählungszeichen für ungeordnete Listen"

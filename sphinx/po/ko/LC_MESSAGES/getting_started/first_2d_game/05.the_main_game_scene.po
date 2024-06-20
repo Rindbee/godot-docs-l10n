@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +42,9 @@ msgid ""
 "your saved ``player.tscn``."
 msgstr ""
 
+#, fuzzy
 msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown "
-"(values are in seconds):"
+"Now, add the following nodes as children of ``Main``, and name them as shown:"
 msgstr ""
 "``Main`` 의 자식으로 다음의 노드들을 추가하고, 설명대로 이름을 지으세요 (값"
 "은 초 단위입니다):"
@@ -78,8 +78,10 @@ msgstr ""
 ":ref:`Position2D <class_Position2D>` (``StartPosition`` 이라고 이름지음) - 플"
 "레이어의 시작 지점을 표시하기 위해 사용"
 
+#, fuzzy
 msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows:"
+"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
+"(values are in seconds):"
 msgstr "각 ``Timer``\\ 마다 ``Wait Time`` 속성을 다음과 같이 설정하세요:"
 
 msgid "``MobTimer``: ``0.5``"

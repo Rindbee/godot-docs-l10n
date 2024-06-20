@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -428,6 +428,11 @@ msgid ""
 "``bot_stats.tres``. Without a script, it's useless, so let's add some data "
 "and logic! Attach a script to it named ``bot_stats.gd`` (or just create a "
 "new script, and then drag it to it)."
+msgstr ""
+
+msgid ""
+"If you're using C#, you need to annotate your Resource class with the "
+"``[GlobalClass]`` attribute for it to show up in the create resource GUI."
 msgstr ""
 
 msgid ""

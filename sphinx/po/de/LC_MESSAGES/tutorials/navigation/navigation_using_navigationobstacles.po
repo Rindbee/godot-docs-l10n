@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,8 +21,110 @@ msgid "Using NavigationObstacles"
 msgstr "Verwenden von NavigationObstacles"
 
 msgid ""
-"NavigationObstacles can be used either as static or dynamic obstacles to "
-"affect avoidance controlled agents."
+"2D and 3D versions of NavigationObstacles nodes are available as :ref:"
+"`NavigationObstacle2D<class_NavigationObstacle2D>` and :ref:"
+"`NavigationObstacle3D<class_NavigationObstacle3D>`  respectively."
+msgstr ""
+"2D- und 3D-Versionen von NavigationObstacle-Nodes sind als :ref:"
+"`NavigationObstacle2D<class_NavigationObstacle2D>` bzw. :ref:"
+"`NavigationObstacle3D<class_NavigationObstacle3D>` verfügbar."
+
+msgid ""
+"Navigation obstacles are dual purpose in that they can affect both the "
+"navigation mesh baking, and the agent avoidance."
+msgstr ""
+
+msgid ""
+"With ``affect_navigation_mesh`` enabled the obstacle will affect navigation "
+"mesh when baked."
+msgstr ""
+
+msgid "With ``avoidance_enabled`` the obstacle will affect avoidance agents."
+msgstr ""
+
+msgid ""
+"Avoidance is enabled by default. If the obstacle is not used for avoidance "
+"disable ``enabled_avoidance`` to save performance."
+msgstr ""
+
+#, fuzzy
+msgid "Obstacles and navigation mesh"
+msgstr "Verwenden von Navigations-Meshes"
+
+#, fuzzy
+msgid "Navigation obstacles affecting navigation mesh baking"
+msgstr "Performance-Probleme beim Backen von Navigations-Meshes"
+
+#, fuzzy
+msgid "Navigation obstacles affecting navigation mesh baking."
+msgstr "Performance-Probleme beim Backen von Navigations-Meshes"
+
+msgid ""
+"For navigation mesh baking obstacles can be used to discard parts of all "
+"other source geometry inside the obstacle shape."
+msgstr ""
+
+msgid ""
+"This can be used to stop navigation meshes being baked in unwanted places, e."
+"g. inside \"solid\" geometry like thick walls or on top of other geometry "
+"that should not be included for gameplay like roofs."
+msgstr ""
+
+msgid "Navigation obstacles discard of unwanted navigation mesh"
+msgstr ""
+
+msgid "Navigation obstacles discard of unwanted navigation mesh."
+msgstr ""
+
+msgid ""
+"An obstacle does not add geometry in the baking process, it only removes "
+"geometry. It does so by nullifying all the (voxel) cells with rasterized "
+"source geometry that are within the obstacle shape. As such its effect and "
+"shape detail is limited to the cell resolution used by the baking process."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For more details on the navigation mesh baking see :ref:"
+"`doc_navigation_using_navigationmeshes`."
+msgstr ""
+"Weitere Informationen zu NavigationAgents finden Sie unter :ref:"
+"`doc_navigation_using_navigationagents`."
+
+msgid ""
+"The property ``affect_navigation_mesh`` makes the obstacle contribute to the "
+"navigation mesh baking. It will be parsed or unparsed like all other node "
+"objects in a navigation mesh baking process."
+msgstr ""
+
+msgid ""
+"The ``carve_navigation_mesh`` property makes the shape unaffected by offsets "
+"of the baking, e.g. the offset added by the navigation mesh "
+"``agent_radius``. It will basically act as a stencil and cut into the "
+"already offset navigation mesh surface. It will still be affected by further "
+"postprocessing of the baking process like edge simplification."
+msgstr ""
+
+msgid ""
+"The obstacle shape and placement is defined with the ``height`` and "
+"``vertices`` properties, and the ``global_position`` of the obstacle. The y-"
+"axis value of any Vector3 used for the vertices is ignored as the obstacle "
+"is projected on a flat horizontal plane."
+msgstr ""
+
+msgid ""
+"When baking navigation meshes in scripts obstacles can be added procedurally "
+"as a projected obstruction. Obstacles are not involved in the source "
+"geometry parsing so adding them just before baking is enough."
+msgstr ""
+
+msgid "Obstacles and agent avoidance"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"For avoidance navigation obstacles can be used either as static or dynamic "
+"obstacles to affect avoidance controlled agents."
 msgstr ""
 "NavigationObstacles können entweder als statische oder dynamische "
 "Hindernisse verwendet werden, um ausweichgesteuerte Agenten zu beeinflussen."
@@ -42,34 +144,26 @@ msgstr ""
 "Wenn sie dynamisch eingesetzt werden, stoßen Navigationshindernisse die "
 "ausweichgesteuerten Agenten in einem Radius um sie herum weg."
 
-msgid ""
-"2D and 3D versions of NavigationObstacles nodes are available as :ref:"
-"`NavigationObstacle2D<class_NavigationObstacle2D>` and :ref:"
-"`NavigationObstacle3D<class_NavigationObstacle3D>`  respectively."
-msgstr ""
-"2D- und 3D-Versionen von NavigationObstacle-Nodes sind als :ref:"
-"`NavigationObstacle2D<class_NavigationObstacle2D>` bzw. :ref:"
-"`NavigationObstacle3D<class_NavigationObstacle3D>` verfügbar."
-
-msgid ""
-"NavigationObstacles do not change or influence the pathfinding in any way. "
-"NavigationObstacles only affect the avoidance velocities of agents "
-"controlled by avoidance."
-msgstr ""
-"NavigationObstacles verändern oder beeinflussen die Wegfindung in keiner "
-"Weise. Navigationshindernisse wirken sich nur auf die "
-"Ausweichgeschwindigkeiten von ausweichgesteuerten Agenten aus."
-
-msgid "Static obstacles"
+#, fuzzy
+msgid "Static avoidance obstacles"
 msgstr "Statische Hindernisse"
 
+#, fuzzy
 msgid ""
-"A NavigationObstacle is considered static when its ``vertices`` property is "
+"An avoidance obstacle is considered static when its ``vertices`` property is "
 "populated with an outline array of positions to form a polygon."
 msgstr ""
 "Ein NavigationObstacle wird als statisch angesehen, wenn seine ``vertices``-"
 "Property mit einem Array von Positionen gefüllt ist, um ein Polygon zu "
 "bilden."
+
+msgid ""
+"Static obstacle drawn in the editor to block or contain navigation agents"
+msgstr ""
+
+msgid ""
+"Static obstacle drawn in the editor to block or contain navigation agents."
+msgstr ""
 
 msgid ""
 "Static obstacles act as hard do-not-cross boundaries for avoidance using "
@@ -100,10 +194,11 @@ msgstr ""
 "Statische Hindernisse definieren sich durch die Wicklungsrichtung der "
 "Vertices, wenn Agenten herausgeschoben oder hineingesaugt werden."
 
+#, fuzzy
 msgid ""
 "Static obstacles can not change their position. They can only be warped to a "
-"new position and rebuild from scratch. Static obstacles as a result are ill-"
-"suited for usages where the position is changed every frame as the constant "
+"new position and rebuilt from scratch. Static obstacles as a result are ill-"
+"suited for usages where the position is changed every frame, as the constant "
 "rebuild has a high performance cost."
 msgstr ""
 "Statische Hindernisse können ihre Position nicht verändern. Sie können nur "
@@ -138,11 +233,13 @@ msgstr ""
 "Agenten als Höhenebene sowie durch ihre jeweiligen Höheneigenschaften "
 "bestimmt."
 
-msgid "Dynamic obstacles"
+#, fuzzy
+msgid "Dynamic avoidance obstacles"
 msgstr "Dynamische Objekte"
 
+#, fuzzy
 msgid ""
-"A NavigationObstacle is considered dynamic when its ``radius`` property is "
+"An avoidance obstacle is considered dynamic when its ``radius`` property is "
 "greater than zero."
 msgstr ""
 "Ein NavigationObstacle wird als dynamisch angesehen, wenn seine Property "
@@ -183,15 +280,16 @@ msgstr ""
 "Dynamische Hindernisse sind kein zuverlässiges Mittel, um Agenten in "
 "überfüllten oder engen Räumen einzuschränken."
 
+#, fuzzy
 msgid ""
 "While both static and dynamic properties can be active at the same time on "
 "the same obstacle this is not recommended for performance. Ideally when an "
 "obstacle is moving the static vertices are removed and instead the radius "
 "activated. When the obstacle reaches the new final position it should "
 "gradually enlarge its radius to push all other agents away. With enough "
-"created save space around the obstacle it should add the static vertices "
-"again and remove the radius. This helps to avoid getting agents stuck in the "
-"suddenly appearing static obstacle when the rebuild static boundary is "
+"created safe space around the obstacle it should add the static vertices "
+"again and remove the radius. This helps avoid getting agents stuck in the "
+"suddenly appearing static obstacle when the rebuilt static boundary is "
 "finished."
 msgstr ""
 "Obwohl sowohl statische als auch dynamische Propertys gleichzeitig für ein "
@@ -218,8 +316,10 @@ msgstr ""
 msgid "Procedural obstacles"
 msgstr "Prozedurale Hindernisse"
 
+#, fuzzy
 msgid ""
-"New obstacles can be created without a Node directly on the NavigationServer."
+"New obstacles can be created in a script without a Node by using the "
+"NavigationServer directly."
 msgstr ""
 "Neue Hindernisse können ohne einen Node direkt auf dem NavigationServer "
 "erstellt werden."

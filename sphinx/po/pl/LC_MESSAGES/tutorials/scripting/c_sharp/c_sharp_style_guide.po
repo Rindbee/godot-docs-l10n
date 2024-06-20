@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,9 +60,10 @@ msgstr "Specyfikacja języka"
 
 #, fuzzy
 msgid ""
-"Godot currently uses **C# version 7.0** in its engine and example source "
-"code. So, before we move to a newer version, care must be taken to avoid "
-"mixing language features only available in C# 7.1 or later."
+"Godot currently uses **C# version 10.0** in its engine and example source "
+"code, as this is the version supported by .NET 6.0 (the current baseline "
+"requirement). So, before we move to a newer version, care must be taken to "
+"avoid mixing language features only available in C# 11.0 or later."
 msgstr ""
 "Obecnie Godot używa C# wersji 6.0 w swoim silniku i przykładowym kodzie "
 "źródłowym. Tak więc, zanim przejdziemy do nowszej wersji, należy uważać, aby "
@@ -224,15 +225,17 @@ msgstr ""
 "Po symbolu komentarza jednowierszowego (\"//\"), a przed nim, jeśli jest "
 "używany na końcu wiersza."
 
+msgid ""
+"After the opening brace, and before the closing brace in a single line "
+"initializer."
+msgstr ""
+
 msgid "Do not use a space:"
 msgstr "Nie należy używać spacji:"
 
 #, fuzzy
 msgid "After type cast parentheses."
 msgstr "Po nawiasach typu rzutowania."
-
-msgid "Within single line initializer braces."
-msgstr ""
 
 #, fuzzy
 msgid ""

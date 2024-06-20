@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,8 +91,9 @@ msgstr ""
 "本示例将向你展示如何创建与远程服务器的 WebSocket 连接, 以及如何发送和接收数"
 "据."
 
-msgid "This will print:"
-msgstr "这将打印:"
+#, fuzzy
+msgid "This will print something similar to:"
+msgstr "将打印出类似这样的内容:"
 
 msgid "Minimal server example"
 msgstr "最小服务器示例"

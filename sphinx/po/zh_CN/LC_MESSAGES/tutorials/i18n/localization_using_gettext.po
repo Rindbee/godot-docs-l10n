@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -333,7 +333,8 @@ msgstr ""
 "二进制的 MO 消息文件可能更加划算。二进制 MO 文件比对应的 PO 文件更小、读起来"
 "更快。"
 
-msgid "You can generate a MO file with the command below:"
+#, fuzzy
+msgid "You can generate an MO file with the command below:"
 msgstr "你可以使用下面的命令生成 MO 文件："
 
 #, fuzzy
@@ -344,10 +345,11 @@ msgstr ""
 "如果这个 PO 文件是有效的，这个命令就会在 PO 文件的旁边创建一个 ``fr.mo`` 文"
 "件。这个 MO 文件可以按照下文的方法加载进 Godot。"
 
+#, fuzzy
 msgid ""
 "The original PO file should be kept in version control so you can update "
 "your translation in the future. In case you lose the original PO file and "
-"wish to decompile a MO file into a text-based PO file, you can do so with:"
+"wish to decompile an MO file into a text-based PO file, you can do so with:"
 msgstr ""
 "应该在版本控制中保留原始 PO 文件，这样以后就可以更新翻译。如果你丢失了原始的 "
 "PO 文件，希望将 MO 文件反编译为基于文本的 PO 文件，你可以这样做："

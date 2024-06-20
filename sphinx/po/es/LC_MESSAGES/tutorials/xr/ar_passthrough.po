@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, fuzzy
+msgid "AR / Passthrough"
+msgstr "Traspaso (Passthrough)"
+
+msgid ""
+"Augmented Reality is supported through various methods depending on the "
+"capabilities of the hardware."
+msgstr ""
+
+msgid ""
+"Headsets such as the Magic Leap and glasses such as TiltFive show the "
+"rendered result on `see-through displays <https://en.wikipedia.org/wiki/See-"
+"through_display>`__ allowing the user to see the real world."
+msgstr ""
+
+msgid ""
+"Headsets such as the Quest, HTC Elite, and Lynx R1 implement this through a "
+"technique called video passthrough, where cameras record the real world and "
+"these images are used as the background on top of which our rendered result "
+"is used."
+msgstr ""
+
+msgid "Passthrough is implemented very differently across platforms."
+msgstr ""
+
+msgid ""
+"In Godot 4.3 we have implemented a unified approach that is explained on "
+"this help page so you don't need to worry about these differences, the :ref:"
+"`XRInterface <class_xrinterface>` implementation is now responsible for "
+"applying the correct platform dependent method [#]_."
+msgstr ""
+
+msgid ""
+"For headsets such as the Meta Quest and HTC Elite you will need to use the "
+"`OpenXR vendors plugin v3.0.0 <https://github.com/GodotVR/"
+"godot_openxr_vendors/releases>`__ or later to enable video passthrough."
+msgstr ""
+
+msgid ""
+"For backwards compatibility the old API for passthrough is still available "
+"but it is recommended to follow the new instructions below."
+msgstr ""
+
+#, fuzzy
+msgid "Environment blend modes"
+msgstr "Variables de entorno"
+
+msgid ""
+"The way we configure VR or AR functionality is through setting the "
+"environment blend mode. This mode determines how the (real world) "
+"environment is blended with the virtual world."
+msgstr ""
+
+#, fuzzy
+msgid "Blend modes"
+msgstr "Modo de Fusión"
+
+#, fuzzy
+msgid "Blend mode"
+msgstr "Modo de Fusión"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "XR_ENV_BLEND_MODE_OPAQUE"
+msgstr ""
+
+msgid ""
+"The rendered image is opaque, we do not see the real world. We're in VR "
+"mode. This will turn off passthrough if video-passthrough is used."
+msgstr ""
+
+msgid "XR_ENV_BLEND_MODE_ADDITIVE"
+msgstr ""
+
+msgid ""
+"The rendered image is added to the real world and will look semi "
+"transparent. This mode is generally used with see-through devices that are "
+"unable to obscure the real world. This will turn on passthrough if video-"
+"passthrough is used."
+msgstr ""
+
+msgid "XR_ENV_BLEND_MODE_ALPHA_BLEND"
+msgstr ""
+
+msgid ""
+"The rendered image is alpha blended with the real world. On see-through "
+"devices that support this, the alpha will control the translucency of the "
+"optics. On video-passthrough devices alpha blending is applied with the "
+"video image. passthrough will also be enabled if applicable."
+msgstr ""
+
+msgid ""
+"You can set the environment blend mode for your application through the "
+"``environment_blend_mode`` property of the :ref:`XRInterface "
+"<class_xrinterface>` instance."
+msgstr ""
+
+msgid ""
+"You can query the supported blend modes on the hardware using the "
+"``get_supported_environment_blend_modes`` property on the same instance."
+msgstr ""
+
+#, fuzzy
+msgid "Configuring your background"
+msgstr "Configurando la ejecución"
+
+msgid ""
+"When setting the blend mode to ``XR_ENV_BLEND_MODE_ALPHA_BLEND`` you must "
+"set the ``transparent_bg`` property on :ref:`Viewport <class_viewport>` to "
+"true. When using the ``XR_ENV_BLEND_MODE_ADDITIVE`` blend mode you should "
+"set your background color to black."
+msgstr ""
+
+msgid ""
+"Either solution will result in the background rendering not contributing to "
+"lighting. It is thus also recommended you adjust your environment settings "
+"accordingly and ensure there is adequate ambient light set to illuminate "
+"your scene."
+msgstr ""
+
+msgid ""
+"Some AR SDKs do provide ambient lighting information or even provide a full "
+"radiance map to allow for real world reflections in your virtual objects. "
+"The core Godot XR functionality doesn't currently have support for this, "
+"however this functionality can be exposed through plugins."
+msgstr ""
+
+msgid "OpenXR specific"
+msgstr ""
+
+msgid ""
+"In OpenXR you can configure the default blend mode you want to use. Godot "
+"will select this blend mode at startup if available. If not available Godot "
+"will default to the first supported blend mode provided by the XR runtime."
+msgstr ""
+
+msgid ""
+"For passthrough devices OpenXR requires additional settings to be "
+"configured. These settings are platform dependent and provided through the "
+"OpenXR vendors plugin."
+msgstr ""
+
+msgid "For example, these are the settings required on Meta Quest:"
+msgstr ""
+
+msgid ""
+"The ``Passthrough`` setting defines whether passthrough is supported or even "
+"required."
+msgstr ""
+
+msgid ""
+"The ``Boundary Mode`` allows you to define whether the guardian is needed, "
+"disabling this fully requires passthrough to be enabled at all times."
+msgstr ""
+
+#, fuzzy
+msgid "Putting it together"
+msgstr "Poniendo todo junto"
+
+#, fuzzy
+msgid "Putting the above together we can use the following code as a base:"
+msgstr "Esto significa que podemos usar los siguientes nombres de portal:"
+
+#, fuzzy
+msgid "Shadow to opacity"
+msgstr "Usar la sombra para la opacidad"
+
+msgid ""
+"Shadow to opacity is a render mode for Godot spatial shaders that was "
+"introduced in Godot 3 specifically for AR. It is a special render mode where "
+"the more a surface is in shadow, the more opaque the surface becomes. When a "
+"surface is fully lit, the surface becomes fully transparent and thus shows "
+"the real world."
+msgstr ""
+
+msgid ""
+"However the surface is rendered during the opaque state effectively. This "
+"has two consequences:"
+msgstr ""
+
+msgid ""
+"As both the depth buffer and color buffer are written to, we occlude any "
+"geometry behind our surface even when fully transparent."
+msgstr ""
+
+msgid ""
+"As we are making the surface opaque if in shadow, we can have virtual "
+"objects cast shadows on real world objects [#]_."
+msgstr ""
+
+msgid "Image showing shadow to opacity being used to show the users desk."
+msgstr ""
+
+#, fuzzy
+msgid "This enabled the following use cases:"
+msgstr "Hay las siguientes advertencias:"
+
+msgid ""
+"You can render a box mesh around a real world table, this ensures the table "
+"remains visible even if a virtual object is placed underneath it. The "
+"virtual object will be correctly occluded. Placing a virtual object on top "
+"of the real world table, will result in a shadow being cast on the table."
+msgstr ""
+
+msgid ""
+"You can use a shader with this render mode when render a hand mesh using the "
+"hand tracking functionality, and ensure your hands properly occlude virtual "
+"objects."
+msgstr ""
+
+msgid "The following shader code is a good base for this functionality:"
+msgstr ""
+
+msgid "Restrictions may apply depending on XR interface implementation."
+msgstr ""
+
+msgid "This feature is still being perfected."
+msgstr ""
+
+msgid "Translation status"
+msgstr "Estado de la traducción"

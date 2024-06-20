@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,9 @@ msgid ""
 msgstr ""
 "點擊 **產生實體** 按鈕（由鏈條圖示表示）並選擇保存的 ``player.tscn`` 。"
 
+#, fuzzy
 msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown "
-"(values are in seconds):"
+"Now, add the following nodes as children of ``Main``, and name them as shown:"
 msgstr ""
 "現在，將下列節點新增為 ``Main`` 的子節點，並他們的名稱如下（數值單位為秒）："
 
@@ -71,8 +71,10 @@ msgstr ""
 ":ref:`Position2D <class_Position2D>` （名為 ``StartPosition`` ）——用以判斷玩"
 "家的起始位置"
 
+#, fuzzy
 msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows:"
+"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
+"(values are in seconds):"
 msgstr "將每個 ``Timer`` 節點的 ``Wait Time`` （等待時間）屬性按照如下設定："
 
 msgid "``MobTimer``: ``0.5``"

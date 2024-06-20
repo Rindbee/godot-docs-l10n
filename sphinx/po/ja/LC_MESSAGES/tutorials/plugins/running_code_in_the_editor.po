@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,13 +126,17 @@ msgid "Here is how a ``_process()`` function might look for you:"
 msgstr "以下は ``_process()`` 関数がどのように見えるかです:"
 
 #, fuzzy
+msgid "Important information"
+msgstr "より多くの情報"
+
+#, fuzzy
 msgid ""
-"Modifications in the editor are permanent. For example, in the following "
-"case, when we remove the script, the node will keep its rotation. Be careful "
-"to avoid making unwanted modifications."
+"Any other GDScript that your tool script uses must *also* be a tool. Any "
+"GDScript without ``@tool`` used by the editor will act like an empty file!"
 msgstr ""
-"エディタでの変更は永続的です。この場合、スクリプトを削除すると、ノードは回転"
-"方向を維持します。不要な変更を加えないように注意してください。"
+"EditorPluginスクリプトに加えて、プラグインが使用する他のGDScriptは、\\ "
+"*tool* である必要があります。 エディタにインポートされた ``tool`` のない"
+"GDScriptは、空のファイルのようにふるまいます！"
 
 msgid ""
 "Extending a ``@tool`` script does not automatically make the extending "
@@ -140,6 +144,15 @@ msgid ""
 "disable tool behavior from the super class. Therefore the extending script "
 "should also specify the ``@tool`` annotation."
 msgstr ""
+
+#, fuzzy
+msgid ""
+"Modifications in the editor are permanent. For example, in the next section "
+"when we remove the script, the node will keep its rotation. Be careful to "
+"avoid making unwanted modifications."
+msgstr ""
+"エディタでの変更は永続的です。この場合、スクリプトを削除すると、ノードは回転"
+"方向を維持します。不要な変更を加えないように注意してください。"
 
 #, fuzzy
 msgid "Try ``@tool`` out"
@@ -204,6 +217,29 @@ msgstr ""
 "セスできますが、ユーザー変数にはアクセスできません。そうしたい場合は、他の"
 "ノードもエディタで実行する必要があります。 AutoLoadノードにはエディタではまっ"
 "たくアクセスできません。"
+
+#, fuzzy
+msgid "Getting notified when resources change"
+msgstr "ソースの取得"
+
+msgid ""
+"Some times you want your tool to use a resource. However, when you change a "
+"property of that resource in the editor, the ``set()`` method of your tool "
+"will not be called."
+msgstr ""
+
+msgid ""
+"To get around this problem you first have to make your resource a tool and "
+"make it emit the ``changed`` signal whenever a property is set:"
+msgstr ""
+
+msgid "You then want to connect the signal when a new resource is set:"
+msgstr ""
+
+msgid ""
+"Lastly, remember to disconnect the signal as the old resource being used and "
+"changed somewhere else would cause unneeded updates."
+msgstr ""
 
 #, fuzzy
 msgid "Reporting node configuration warnings"

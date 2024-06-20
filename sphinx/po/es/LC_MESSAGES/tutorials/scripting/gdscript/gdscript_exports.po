@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -346,6 +346,42 @@ msgstr ""
 msgid "Packed type arrays also work, but only initialized empty:"
 msgstr ""
 
+msgid "Other export variants can also be used when exporting arrays:"
+msgstr ""
+
+#, fuzzy
+msgid "``@export_storage``"
+msgstr "Android (experimental)"
+
+msgid "By default, exporting a property has two effects:"
+msgstr ""
+
+msgid ""
+"makes the property stored in the scene/resource file (:ref:"
+"`PROPERTY_USAGE_STORAGE "
+"<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`);"
+msgstr ""
+
+msgid ""
+"adds a field to the Inspector (:ref:`PROPERTY_USAGE_EDITOR "
+"<class_@GlobalScope_constant_PROPERTY_USAGE_EDITOR>`)."
+msgstr ""
+
+msgid ""
+"However, sometimes you may want to make a property serializable, but not "
+"display it in the editor to prevent unintentional changes and cluttering the "
+"interface."
+msgstr ""
+
+msgid ""
+"To do this you can use :ref:`@export_storage "
+"<class_@GDScript_annotation_@export_storage>`. This can be useful for :ref:"
+"`@tool <class_@GDScript_annotation_@tool>` scripts. Also the property value "
+"is copied when :ref:`Resource.duplicate() <class_Resource_method_duplicate>` "
+"or :ref:`Node.duplicate() <class_Node_method_duplicate>` is called, unlike "
+"non-exported variables."
+msgstr ""
+
 msgid "Setting exported variables from a tool script"
 msgstr "Configurando variables exportadas desde un script en modo tool"
 
@@ -399,8 +435,9 @@ msgstr ""
 "Para vincular propiedades usando los métodos mostrados anteriormente en C++, "
 "ver :ref:`doc_binding_properties_using_set_get_property_list`."
 
+#, fuzzy
 msgid ""
-"The script must operate in the ``tool`` mode so the above methods can work "
+"The script must operate in the ``@tool`` mode so the above methods can work "
 "from within the editor."
 msgstr ""
 "El script deberá funcionar en modo ``tool`` para que los métodos mostrados "

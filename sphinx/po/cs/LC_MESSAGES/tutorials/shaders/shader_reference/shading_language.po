@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,6 +236,28 @@ msgid "**samplerCubeArray**"
 msgstr ""
 
 msgid "Sampler type for binding Cubemap arrays, which are read as float."
+msgstr ""
+
+msgid "Comments"
+msgstr "Komentáře"
+
+msgid ""
+"The shading language supports the same comment syntax as used in C# and C++:"
+msgstr ""
+
+msgid ""
+"Additionally, you can use documentation comments that are displayed in the "
+"inspector when hovering a shader parameter. Documentation comments are "
+"currently only supported when placed immediately above a ``uniform`` "
+"declaration. These documentation comments only support the **multiline** "
+"comment syntax and must use **two** leading asterisks (``/**``) instead of "
+"just one (``/*``):"
+msgstr ""
+
+msgid ""
+"The asterisks on the follow-up lines are not required, but are recommended "
+"as per the :ref:`doc_shaders_style_guide`. These asterisks are automatically "
+"stripped by the inspector, so they won't appear in the tooltip."
 msgstr ""
 
 msgid "Casting"
@@ -926,9 +948,6 @@ msgstr ""
 msgid "**Basis**"
 msgstr "**Základ**"
 
-msgid "**mat4** **mat4**"
-msgstr ""
-
 msgid "**Projection**, **Transform3D**"
 msgstr ""
 
@@ -1064,6 +1083,11 @@ msgid "Per-instance uniforms"
 msgstr ""
 
 msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
+msgstr ""
+
+msgid ""
+"Per-instance uniforms are not supported when using the Compatibility "
+"renderer."
 msgstr ""
 
 msgid ""

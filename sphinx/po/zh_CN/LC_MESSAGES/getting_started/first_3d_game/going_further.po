@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,9 +48,10 @@ msgstr ""
 "你应该从哪里入手呢？下面列出了一些可以开始探索的页面，可以拓展你目前所学到的"
 "知识。"
 
+#, fuzzy
 msgid ""
 "But before that, here's a link to download a completed version of the "
-"project: `<https://github.com/godotengine/godot-3d-dodge-the-creeps>`_."
+"project: `<https://github.com/godotengine/godot-demo-projects/releases>`_."
 msgstr ""
 "不过在此之前，这是这个项目的完整版下载链接：\\ `<https://github.com/"
 "godotengine/godot-3d-dodge-the-creeps>`_\\ 。"

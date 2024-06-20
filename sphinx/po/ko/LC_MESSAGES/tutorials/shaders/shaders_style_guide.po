@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,6 +194,22 @@ msgid ""
 msgstr ""
 "스크립트 편집기에서 선택한 코드를 주석으로 바꾸려면 <kbd>Ctrl</kbd> <kbd>K</"
 "kbd>\\ 를 누르세요. 누르면 선택한 줄의 처음 부분에 # 기호가 생깁니다."
+
+#, fuzzy
+msgid "Documentation comments"
+msgstr "문서의 구조"
+
+msgid ""
+"Use the following format for documentation comments above uniforms, with "
+"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
+msgstr ""
+
+msgid ""
+"These comments will appear when hovering a property in the inspector. If you "
+"don't wish the comment to be visible in the inspector, use the standard "
+"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
+"asterisk)."
+msgstr ""
 
 msgid "Whitespace"
 msgstr "공백"

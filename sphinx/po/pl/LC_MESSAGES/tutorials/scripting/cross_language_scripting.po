@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,6 +144,28 @@ msgid ""
 "As you can see, if the first argument of the called method is an array, "
 "you'll need to cast it as ``object``. Otherwise, each element of your array "
 "will be treated as a single argument and the function signature won't match."
+msgstr ""
+
+#, fuzzy
+msgid "Connecting to signals"
+msgstr "Podłączenie HUD do Main"
+
+#, fuzzy
+msgid "Connecting to C# signals from GDScript"
+msgstr "Ładowanie go do GDScript"
+
+msgid ""
+"Connecting to a C# signal from GDScript is the same as connecting to a "
+"signal defined in GDScript:"
+msgstr ""
+
+#, fuzzy
+msgid "Connecting to GDScript signals from C#"
+msgstr "Interpolacja"
+
+msgid ""
+"Connecting to a GDScript signal from C# only works with the ``Connect`` "
+"method because no C# static types exist for signals defined by GDScript:"
 msgstr ""
 
 msgid "Inheritance"

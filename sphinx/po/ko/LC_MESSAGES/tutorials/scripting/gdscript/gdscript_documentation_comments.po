@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,10 +77,10 @@ msgstr ""
 msgid "Tutorial"
 msgstr "튜토리얼"
 
-msgid "``@tutorial:``"
+msgid "``@tutorial: https://example.com``"
 msgstr ""
 
-msgid "``@tutorial(The Title Here):``"
+msgid "``@tutorial(The Title Here): https://example.com``"
 msgstr ""
 
 #, fuzzy
@@ -91,6 +91,9 @@ msgstr "복제"
 msgid "``@deprecated``"
 msgstr "``end``"
 
+msgid "``@deprecated: Use [AnotherClass] instead.``"
+msgstr ""
+
 #, fuzzy
 msgid "Experimental"
 msgstr "Android (시험용)"
@@ -98,6 +101,9 @@ msgstr "Android (시험용)"
 #, fuzzy
 msgid "``@experimental``"
 msgstr "Android (시험용)"
+
+msgid "``@experimental: This class is unstable.``"
+msgstr ""
 
 #, fuzzy
 msgid "For example::"
@@ -155,6 +161,12 @@ msgstr ""
 msgid "No tag."
 msgstr ""
 
+msgid "``@deprecated: Use [member another] instead.``"
+msgstr ""
+
+msgid "``@experimental: This method is incomplete.``"
+msgstr ""
+
 msgid "Alternatively, you can use inline documentation comments::"
 msgstr ""
 
@@ -175,7 +187,9 @@ msgstr ""
 msgid ""
 "You can mark a class or any of its members as deprecated or experimental. "
 "This will add the corresponding indicator in the built-in documentation "
-"viewer. This can be especially useful for plugin and library creators."
+"viewer. Optionally, you can provide a short message explaining why the API "
+"is not recommended. This can be especially useful for plugin and library "
+"creators."
 msgstr ""
 
 msgid ""
@@ -201,17 +215,11 @@ msgid "BBCode and class reference"
 msgstr "클래스 레퍼런스"
 
 msgid ""
-"The editor help window which renders the documentation supports :ref:`bbcode "
-"<doc_bbcode_in_richtextlabel>`. As a result it's possible to align and "
-"format the documentation. Color texts, images, fonts, tables, URLs, "
-"animation effects, etc. can be added with the :ref:`bbcode "
-"<doc_bbcode_in_richtextlabel>`."
-msgstr ""
-
-msgid ""
 "Godot's class reference supports BBCode-like tags. They add nice formatting "
 "to the text which could also be used in the documentation. See also :ref:"
-"`class reference bbcode <doc_class_reference_bbcode>`."
+"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
+"slightly different from the ``RichTextLabel`` :ref:`BBCode "
+"<doc_bbcode_in_richtextlabel>`."
 msgstr ""
 
 msgid ""
@@ -257,11 +265,12 @@ msgstr ""
 msgid "Link to annotation"
 msgstr "벡터 연산"
 
-msgid "``See [annotation @GDScript.@export].``"
+msgid "``See [annotation @GDScript.@rpc].``"
 msgstr ""
 
-msgid "See :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`."
-msgstr ""
+#, fuzzy
+msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
+msgstr ":ref:`Sprite <class_Sprite>`"
 
 msgid "``[constant Class.name]``"
 msgstr ""
@@ -270,11 +279,12 @@ msgstr ""
 msgid "Link to constant"
 msgstr "상수를 정의합니다."
 
-msgid "``See [constant @GlobalScope.KEY_F1].``"
+msgid "``See [constant Color.RED].``"
 msgstr ""
 
-msgid "See :ref:`@GlobalScope.KEY_F1 <class_@GlobalScope_constant_KEY_F1>`."
-msgstr ""
+#, fuzzy
+msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
+msgstr ":ref:`Color <class_Color>`"
 
 msgid "``[enum Class.name]``"
 msgstr ""
@@ -288,6 +298,20 @@ msgstr ""
 
 msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 msgstr ""
+
+msgid "``[member Class.name]``"
+msgstr ""
+
+#, fuzzy
+msgid "Link to member (property)"
+msgstr "멤버 편집"
+
+msgid "``Get [member Node2D.scale].``"
+msgstr ""
+
+#, fuzzy
+msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
+msgstr ":ref:`NodePath <class_NodePath>`"
 
 #, fuzzy
 msgid "``[method Class.name]``"
@@ -304,19 +328,35 @@ msgstr ""
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr ":ref:`Sprite <class_Sprite>`"
 
-msgid "``[member Class.name]``"
+#, fuzzy
+msgid "``[constructor Class.name]``"
+msgstr "메서드"
+
+#, fuzzy
+msgid "Link to built-in constructor"
+msgstr "클래스 생성자(Class Constructor)"
+
+msgid "``Use [constructor Color.Color].``"
 msgstr ""
 
 #, fuzzy
-msgid "Link to member"
-msgstr "멤버 편집"
+msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
+msgstr ":ref:`Color <class_Color>`"
 
-msgid "``Get [member Node2D.scale].``"
+#, fuzzy
+msgid "``[operator Class.name]``"
+msgstr "메서드"
+
+#, fuzzy
+msgid "Link to built-in operator"
+msgstr "벡터 내장 타입"
+
+msgid "``Use [operator Color.operator *].``"
 msgstr ""
 
 #, fuzzy
-msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr ":ref:`NodePath <class_NodePath>`"
+msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
+msgstr ":ref:`Color <class_Color>`"
 
 msgid "``[signal Class.name]``"
 msgstr ""
@@ -348,7 +388,7 @@ msgstr ""
 msgid "``[param name]``"
 msgstr ""
 
-msgid "Formats a parameter name (as code)"
+msgid "Parameter name (as code)"
 msgstr ""
 
 msgid "``Takes [param size] for the size.``"
@@ -377,16 +417,29 @@ msgid "Line 2."
 msgstr ""
 
 #, fuzzy
+msgid "``[lb]`` ``[rb]``"
+msgstr "``<<`` ``>>``"
+
+msgid "``[`` and ``]`` respectively"
+msgstr ""
+
+msgid "``[lb]b[rb]text[lb]/b[rb]``"
+msgstr ""
+
+msgid "[b]text[/b]"
+msgstr ""
+
+#, fuzzy
 msgid "``[b]`` ``[/b]``"
 msgstr "``<<`` ``>>``"
 
 msgid "Bold"
 msgstr ""
 
-msgid "``Some [b]bold[/b] text.``"
+msgid "``Do [b]not[/b] call this method.``"
 msgstr ""
 
-msgid "Some **bold** text."
+msgid "Do **not** call this method."
 msgstr ""
 
 #, fuzzy
@@ -396,10 +449,94 @@ msgstr "``<<`` ``>>``"
 msgid "Italic"
 msgstr ""
 
-msgid "``Some [i]italic[/i] text.``"
+msgid "``Returns the [i]global[/i] position.``"
 msgstr ""
 
-msgid "Some *italic* text."
+msgid "Returns the *global* position."
+msgstr ""
+
+#, fuzzy
+msgid "``[u]`` ``[/u]``"
+msgstr "``<<`` ``>>``"
+
+#, fuzzy
+msgid "Underline"
+msgstr "보간"
+
+msgid "``[u]Always[/u] use this method.``"
+msgstr ""
+
+#, fuzzy
+msgid "``[s]`` ``[/s]``"
+msgstr "``<<`` ``>>``"
+
+msgid "Strikethrough"
+msgstr ""
+
+msgid "``[s]Outdated information.[/s]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[color]`` ``[/color]``"
+msgstr "``<<`` ``>>``"
+
+msgid "Color"
+msgstr "색상"
+
+msgid "``[color=red]Error![/color]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[font]`` ``[/font]``"
+msgstr "``<<`` ``>>``"
+
+#, fuzzy
+msgid "Font"
+msgstr "정면 뷰"
+
+msgid "``[font=res://mono.ttf]LICENSE[/font]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[img]`` ``[/img]``"
+msgstr "``<<`` ``>>``"
+
+#, fuzzy
+msgid "Image"
+msgstr "메인 이미지(mainImage)"
+
+msgid "``[img width=32]res://icon.svg[/img]``"
+msgstr ""
+
+#, fuzzy
+msgid "``[url]`` ``[/url]``"
+msgstr "``<<`` ``>>``"
+
+msgid "Hyperlink"
+msgstr ""
+
+msgid "``[url]https://example.com[/url]``"
+msgstr ""
+
+msgid "``[url=https://example.com]Website[/url]``"
+msgstr ""
+
+msgid "https://example.com"
+msgstr ""
+
+#, fuzzy
+msgid "`Website <https://example.com>`_"
+msgstr "https://github.com/godotengine/godot-demo-projects"
+
+#, fuzzy
+msgid "``[center]`` ``[/center]``"
+msgstr "``<<`` ``>>``"
+
+#, fuzzy
+msgid "Horizontal centering"
+msgstr "수평 탭 문자"
+
+msgid "``[center]2 + 2 = 4[/center]``"
 msgstr ""
 
 msgid "``[kbd]`` ``[/kbd]``"
@@ -409,34 +546,42 @@ msgstr ""
 msgid "Keyboard/mouse shortcut"
 msgstr "키보드 단축키"
 
-msgid "``Some [kbd]Ctrl + C[/kbd] key.``"
+msgid "``Press [kbd]Ctrl + C[/kbd].``"
 msgstr ""
 
-msgid "Some :kbd:`Ctrl + C` key."
-msgstr ""
+#, fuzzy
+msgid "Press :kbd:`Ctrl + C`."
+msgstr ":kbd:`Ctrl + O`"
 
 msgid "``[code]`` ``[/code]``"
 msgstr ""
 
-msgid "Monospace"
+msgid "Inline code fragment"
 msgstr ""
 
-msgid "``Some [code]monospace[/code] text.``"
+msgid "``Returns [code]true[/code].``"
 msgstr ""
 
-msgid "Some ``monospace`` text."
+#, fuzzy
+msgid "Returns ``true``."
+msgstr "Return(반환)"
+
+msgid "``[codeblock]``"
 msgstr ""
 
-msgid "``[codeblock]`` ``[/codeblock]``"
+msgid "``[/codeblock]``"
 msgstr ""
 
-msgid "Multiline preformatted block"
+msgid "Multiline code block"
 msgstr ""
 
 msgid "*See below.*"
 msgstr ""
 
 msgid "Currently only :ref:`class_@GDScript` has annotations."
+msgstr ""
+
+msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
 msgstr ""
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
@@ -449,6 +594,21 @@ msgstr ""
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
 "always use **four spaces** for indentation (the parser will delete tabs)."
+msgstr ""
+
+msgid ""
+"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
+"using the ``lang`` attribute. Currently supported options are:"
+msgstr ""
+
+msgid "``[codeblock lang=text]`` disables syntax highlighting;"
+msgstr ""
+
+msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
+msgstr ""
+
+msgid ""
+"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
 msgstr ""
 
 msgid "Translation status"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,32 +65,107 @@ msgid ""
 msgstr ""
 
 msgid ""
-"**HTML5:** Starts a local web server and runs the exported project by "
-"opening the default web browser."
+"**iOS:** Exports the project with debugging enabled and runs it on the "
+"connected device or simulator."
 msgstr ""
 
-msgid "Support for more platforms such as iOS is planned."
+msgid ""
+"Make sure to follow the steps described in :ref:`doc_exporting_for_ios`. "
+"Otherwise, the one-click deploy button won't appear."
+msgstr ""
+
+msgid ""
+"For each new bundle identifier, export the project, open it in the Xcode, "
+"and build at least once to create new provisioning profile or create a "
+"provisioning profile in the Apple Developer account dashboard."
+msgstr ""
+
+msgid ""
+"**Desktop platforms:** Exports the project with debugging enabled and runs "
+"it on the remote computer via SSH."
+msgstr ""
+
+msgid ""
+"**Web:** Starts a local web server and runs the exported project by opening "
+"the default web browser. This is only accessible on ``localhost`` by "
+"default. See :ref:`Troubleshooting <doc_one-"
+"click_deploy_troubleshooting_web>` for making the exported project "
+"accessible on remote devices."
 msgstr ""
 
 msgid "Using one-click deploy"
 msgstr "Použití nasazení jedním kliknutím"
 
+#, fuzzy
+msgid "**Android:**"
+msgstr "**Android**"
+
 msgid ""
-"If deploying to Android, enable developer mode on your mobile device then "
-"enable USB debugging in the device's settings."
+"Enable developer mode on your mobile device then enable USB debugging in the "
+"device's settings."
 msgstr ""
 
 msgid ""
-"After enabling USB debugging, connect the device to your PC using an USB "
+"After enabling USB debugging, connect the device to your PC using a USB "
 "cable."
 msgstr ""
 
 msgid "For advanced users, it should also be possible to use wireless ADB."
 msgstr ""
 
+msgid "**iOS:**"
+msgstr ""
+
+msgid ""
+"Install Xcode, accept Xcode license and login with your Apple Developer "
+"account."
+msgstr ""
+
+msgid ""
+"If you are using Xcode 14 or earlier, install `ios-deploy <https://github."
+"com/ios-control/ios-deploy>`__ and set path to `ios-deploy` in the Editor "
+"Settings (see `Export ⇾ iOS ⇾ iOS Deploy`)."
+msgstr ""
+
+msgid "For running on device:"
+msgstr ""
+
+msgid "Pair your mobile device with a Mac."
+msgstr ""
+
+msgid "Enable developer mode on your device."
+msgstr ""
+
+msgid "Device can be connected via USB or local network."
+msgstr ""
+
+msgid ""
+"Make sure the device is on the same local network and a correct network "
+"interface is selected in the editor settings (see `Network ⇾ Debug ⇾ Remote "
+"Host`). By default, the editor is listening for `localhost` connections only."
+msgstr ""
+
+msgid "For running in simulator:"
+msgstr ""
+
+msgid "Install and start simulator from the Xcode."
+msgstr ""
+
+msgid "Device screen should be unlocked."
+msgstr ""
+
+#, fuzzy
+msgid "**Desktop platforms:**"
+msgstr "**Popis**"
+
+msgid ""
+"Enable `SSH Remote Deploy` and configure connection settings in the project "
+"export setting."
+msgstr ""
+
 msgid ""
 "Make sure there is an export preset marked as **Runnable** for the target "
-"platform (Android or HTML5)."
+"platform (Android, iOS or Web)."
 msgstr ""
 
 msgid ""
@@ -134,6 +209,53 @@ msgstr ""
 msgid ""
 "On Linux, you may be missing the required `udev rules <https://github.com/"
 "M0Rf30/android-udev-rules>`__ for your device to be recognized."
+msgstr ""
+
+msgid "Web"
+msgstr "Web"
+
+msgid ""
+"By default, the web server started by the editor is only accessible from "
+"``localhost``. This means the web server can't be reached by other devices "
+"on the local network or the Internet (if port forwarding is set up on the "
+"router). This is done for security reasons, as you may not want other "
+"devices to be able to access the exported project while you're testing it. "
+"Binding to ``localhost`` also prevents a firewall popup from appearing when "
+"you use one-click deploy for the web platform."
+msgstr ""
+
+msgid ""
+"To make the local web server accessible over the local network, you'll need "
+"to change the **Export > Web > HTTP Host** editor setting to ``0.0.0.0``. "
+"You will also need to enable **Export > Web > Use TLS** as SharedArrayBuffer "
+"requires the use of a secure connection to work, *unless* connecting to "
+"``localhost``. However, since other clients will be connecting to a remote "
+"device, the use of TLS is absolutely required here."
+msgstr ""
+
+msgid ""
+"To make the local web server accessible over the Internet, you'll also need "
+"to forward the **Export > Web > HTTP Port** port specified in the Editor "
+"Settings (``8060`` by default) in TCP on your router. This is usually done "
+"by accessing your router's web interface then adding a NAT rule for the port "
+"in question. For IPv6 connections, you should allow the port in the router's "
+"IPv6 firewall instead. Like for local network devices, you will also need to "
+"enable **Export > Web > Use TLS**."
+msgstr ""
+
+msgid ""
+"When **Use TLS** is enabled, you will get a warning from your web browser as "
+"Godot will use a temporary self-signed certificate. You can safely ignore it "
+"and bypass the warning by clicking **Advanced** and then **Proceed to "
+"(address)**."
+msgstr ""
+
+msgid ""
+"If you have an SSL/TLS certificate that is trusted by browsers, you can "
+"specify the paths to the key and certificate files in the **Export > Web > "
+"TLS Key** and **Export > Web > TLS Certificate**. This will only work if the "
+"project is accessed through a domain name that is part of the TLS "
+"certificate."
 msgstr ""
 
 msgid "Translation status"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -247,6 +247,24 @@ msgid ""
 msgstr ""
 "要在Linux上禁用此覆蓋，請打開``nvidia-settings``，轉到**X Screen 0 > OpenGL "
 "Settings**，然後取消選中**Enable Graphics API Visual Indicator**。"
+
+#, fuzzy
+msgid ""
+"A microphone or \"refresh\" icon appears in the bottom-right corner of the "
+"Project Manager and editor window"
+msgstr "在專案管理員與編輯器視窗左上角出現\"NO DC\"之類的文字"
+
+msgid ""
+"This is caused by the NVIDIA graphics driver injecting an overlay to display "
+"instant replay information on ShadowPlay recording. This overlay can only be "
+"seen on Windows, as Linux does not have support for ShadowPlay."
+msgstr ""
+
+msgid ""
+"To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
+"NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
+"the NVIDIA overlay."
+msgstr ""
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "編輯器或專案顯示看起來過於銳利或模糊"

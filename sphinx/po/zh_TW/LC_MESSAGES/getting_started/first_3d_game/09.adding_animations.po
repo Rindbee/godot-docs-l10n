@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,10 +105,15 @@ msgid ""
 "game. Also, it should loop."
 msgstr "我們希望讓這個動畫在遊戲開始時自動開始播放，而且還應該迴圈播放。"
 
+#, fuzzy
 msgid ""
-"To do so, you can click the button with an \"A+\" icon in the animation "
+"To do so, you can click the autoplay button (|Autoplay|) in the animation "
 "toolbar and the looping arrows, respectively."
 msgstr "要實作這個需求，可以按一下動畫工具列上對應的“A+”圖示和迴圈箭頭。"
+
+#, fuzzy
+msgid "Autoplay"
+msgstr "自動載入"
 
 msgid "|image5|"
 msgstr "\\ |image5|"
@@ -232,6 +237,12 @@ msgid ""
 "timeline."
 msgstr "在灰色的時間線上按一下並拖拽，將時間游標移動至 ``0.5`` 秒位置。"
 
+msgid "|timeline_05_click|"
+msgstr ""
+
+msgid "timeline_05_click"
+msgstr ""
+
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
 "*Rotation*' *X* axis to ``8``."
@@ -239,6 +250,11 @@ msgstr ""
 "按一下灰色的時間線並拖動，將時間游標移動到 ``0.5`` 秒的位置。在*屬性面板*中"
 "將 *Translation* 的 *Y* 軸設為約 ``0.65`` 米，將 *Rotation Degrees* 的 *X* 軸"
 "設為 ``8``。"
+
+msgid ""
+"If you don't see the properties in the *Inspector* panel, first click on the "
+"``Character`` node again in the *Scene* dock."
+msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -248,6 +264,12 @@ msgstr "image13"
 
 msgid "Create a keyframe for both properties"
 msgstr "為這兩個屬性分別建立一個關鍵影格"
+
+msgid "|second_keys_both|"
+msgstr ""
+
+msgid "second_keys_both"
+msgstr ""
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -278,6 +300,14 @@ msgid ""
 msgstr ""
 "將時間游標移動到動畫結尾，即 ``1.2`` 秒。將 Y 平移量設為約 ``0.35``、X 旋轉量"
 "設為 ``-9`` 度。再次為這兩個屬性新增關鍵影格。"
+
+#, fuzzy
+msgid "|animation_final_keyframes|"
+msgstr "電腦動畫依賴於關鍵影格"
+
+#, fuzzy
+msgid "animation_final_keyframes"
+msgstr "電腦動畫依賴於關鍵影格"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -455,13 +485,26 @@ msgstr ""
 "它們之間複用動畫。"
 
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and open the "
-"\"float\" animation. Next, click on **Animation > Copy**. Then open ``mob."
-"tscn``, create an AnimationPlayer child node and select it. Click "
-"**Animation > Paste** and make sure that the button with an \"A+\" icon "
-"(Autoplay on Load) and the looping arrows (Animation looping) are also "
-"turned on in the animation editor in the bottom panel. That's it; all "
-"monsters will now play the float animation."
+"Open the *Player* scene, select the AnimationPlayer node and then click on "
+"**Animation > Manage Animations...**. Click the *Copy animation to "
+"clipboard* button (two small squares) alongside the *float* animation. Click "
+"OK to close the window."
+msgstr ""
+
+msgid ""
+"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` child node and select it. Click **Animation > "
+"Manage Animations**, then **Add Library**. You should see the message "
+"\"Global library will be created.\" Leave the text field blank and click OK. "
+"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
+"OK to close the window."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
+"(Animation looping) are also turned on in the animation editor in the bottom "
+"panel. That's it; all monsters will now play the float animation."
 msgstr ""
 "打開 *Player* 場景，選中動畫播放機節點，打開浮動動畫。然後點擊*動畫 -> 複製"
 "*。然後打開 ``Mob.tscn`` 並打開其中的動畫播放機。點擊*動畫 -> 貼上*。這樣就行"

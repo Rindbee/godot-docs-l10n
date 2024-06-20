@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,10 @@ msgstr ""
 "為了簡化此一工作流程，Godot 提供了一些可以在 3D 建模軟體中放在物件名稱後的後"
 "置詞。匯入時，Godot 會偵測出這些名稱後置詞並自動執行操作。"
 
-msgid "All the suffixes described below are **case-sensitive**."
+#, fuzzy
+msgid ""
+"All the suffixes described below can be used with ``-``, ``$``, and ``_`` "
+"and are **case-insensitive**."
 msgstr "下方介紹的所有後置詞都 **有區分大小寫** 。"
 
 msgid "Remove nodes (-noimp)"

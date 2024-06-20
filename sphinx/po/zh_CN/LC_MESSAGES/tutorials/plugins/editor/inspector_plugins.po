@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,9 +76,10 @@ msgstr ""
 "查器插件，你必须加载对应的脚本，然后创建并调用 ``add_inspector_plugin()`` 来"
 "添加实例。禁用插件时，你应该调用 ``remove_inspector_plugin()`` 将该实例移除。"
 
+#, fuzzy
 msgid ""
 "Here, you are loading a script and not a packed scene. Therefore you should "
-"use ``new()`` instead of ``instance()``."
+"use ``new()`` instead of ``instantiate()``."
 msgstr ""
 "因为你在这里读取的是脚本而不是场景包，所以应该使用 ``new()`` 而不是 "
 "``instance()``\\ 。"

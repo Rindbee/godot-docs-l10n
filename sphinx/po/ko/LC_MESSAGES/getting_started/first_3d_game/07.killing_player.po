@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,21 +120,6 @@ msgid ""
 "``die()`` function that helps us put a descriptive label on the code."
 msgstr ""
 
-msgid ""
-"Try the game again by pressing :kbd:`F5`. If everything is set up correctly, "
-"the character should die when an enemy runs into the collider. Note that "
-"without a ``Player``, the following line"
-msgstr ""
-
-msgid "gives error because there is no $Player!"
-msgstr ""
-
-msgid ""
-"Also note that the enemy colliding with the player and dying depends on the "
-"size and position of the ``Player`` and the ``Mob``\\ 's collision shapes. "
-"You may need to move them and resize them to achieve a tight game feel."
-msgstr ""
-
 #, fuzzy
 msgid "Ending the game"
 msgstr "게임 실행하기"
@@ -162,6 +147,18 @@ msgstr ""
 msgid ""
 "If you try the game now, the monsters will stop spawning when you die, and "
 "the remaining ones will leave the screen."
+msgstr ""
+
+msgid ""
+"Notice also that the game no longer crashes or displays an error when the "
+"player dies. Because we are stopping the MobTimer, it no longer triggers the "
+"``_on_mob_timer_timeout()`` function."
+msgstr ""
+
+msgid ""
+"Also note that the enemy colliding with the player and dying depends on the "
+"size and position of the ``Player`` and the ``Mob``\\ 's collision shapes. "
+"You may need to move them and resize them to achieve a tight game feel."
 msgstr ""
 
 msgid ""

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,6 +106,10 @@ msgid ""
 msgstr ""
 "如果可以使用可运行的Web导出模板, 则编辑器中的 *停止场景* 和 *播放编辑的场景* "
 "按钮之间会出现一个按钮, 可以在默认浏览器中快速打开游戏进行测试."
+
+msgid ""
+"If your project uses GDExtension **Extension Support** needs to be enabled."
+msgstr ""
 
 #, fuzzy
 msgid ""
@@ -504,74 +508,14 @@ msgstr ""
 "请注意，对于生产用例，不应使用此基于Python的Web服务器。相反，你应该使用已建立"
 "的Web服务器，例如Apache或nginx。"
 
-msgid "Calling JavaScript from script"
-msgstr "从脚本调用 JavaScript"
-
 #, fuzzy
-msgid ""
-"In web builds, the ``JavaScriptBridge`` singleton is implemented. It offers "
-"a single method called ``eval`` that works similarly to the JavaScript "
-"function of the same name. It takes a string as an argument and executes it "
-"as JavaScript code. This allows interacting with the browser in ways not "
-"possible with script languages integrated into Godot."
-msgstr ""
-"在Web构建中, 实现了 ``JavaScript`` 单例. 它提供一个名为 ``eval`` 的方法, 其工"
-"作方式与同名的JavaScript函数类似. 它将字符串作为参数, 并将其作为JavaScript代"
-"码执行. 这允许以与集成到Godot中的脚本语言不可能的方式与浏览器交互."
+msgid "Interacting with the browser and JavaScript"
+msgstr "与检查器交互"
 
 msgid ""
-"The value of the last JavaScript statement is converted to a GDScript value "
-"and returned by ``eval()`` under certain circumstances:"
+"See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
+"with JavaScript and access some unique Web browser features."
 msgstr ""
-"最后一个JavaScript语句的值转换为GDScript值，并在某些情况下由 ``eval()`` 返回:"
-
-msgid "JavaScript ``number`` is returned as :ref:`class_float`"
-msgstr "JavaScript ``number`` 会以 :ref:`class_float` 返回"
-
-msgid "JavaScript ``boolean`` is returned as :ref:`class_bool`"
-msgstr "JavaScript ``boolean`` 会以 :ref:`class_bool` 返回"
-
-msgid "JavaScript ``string`` is returned as :ref:`class_String`"
-msgstr "JavaScript ``string`` 会以 :ref:`class_String` 返回"
-
-msgid ""
-"JavaScript ``ArrayBuffer``, ``TypedArray`` and ``DataView`` are returned as :"
-"ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ""
-"JavaScript ``RellBuffer`` ， ``TypedArray`` 和 ``DataView`` 会以 :ref:"
-"`class_PoolByteArray` 返回"
-
-msgid "Any other JavaScript value is returned as ``null``."
-msgstr "任何其他JavaScript值都返回为 ``null`` ."
-
-#, fuzzy
-msgid ""
-"HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
-"support for the singleton to improve security. With such templates, and on "
-"platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also "
-"return ``null``. The availability of the singleton can be checked with the "
-"``web`` :ref:`feature tag <doc_feature_tags>`:"
-msgstr ""
-"HTML5 导出模板可能为了提高安全性而在 :ref:`构建 <doc_compiling_for_web>` 时关"
-"闭单例支持。使用这样的模板或者在 HTML5 以外的平台上调用 ``JavaScript.eval`` "
-"也会返回 ``null``\\ 。可以通过 ``JavaScript`` :ref:`feature 标签 "
-"<doc_feature_tags>` 来检查单例的可用性： ::"
-
-msgid ""
-"GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
-"``my_func3()`` above, are useful to keep JavaScript code readable."
-msgstr ""
-"GDScript中的多行字符串由3双引号 ``\"\"\"`` 包围, 如同上文中的 ``my_func3()`` "
-"那样, 有助于保证JavaScript代码的可读性."
-
-#, fuzzy
-msgid ""
-"The ``eval`` method also accepts a second, optional Boolean argument, which "
-"specifies whether to execute the code in the global execution context, "
-"defaulting to ``false`` to prevent polluting the global namespace:"
-msgstr ""
-"``eval`` 方法也接受第二个可选的布尔参数，它指定是否在全局执行上下文中执行代"
-"码，默认为 ``false`` 以防止污染全局命名空间： ::"
 
 msgid "Environment variables"
 msgstr "环境变量"

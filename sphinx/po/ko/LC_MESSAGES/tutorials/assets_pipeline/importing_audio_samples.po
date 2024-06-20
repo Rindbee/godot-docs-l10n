@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,9 +35,10 @@ msgstr ""
 msgid "Each format has different advantages:"
 msgstr "각각에는 서로 다른 장점이 있습니다."
 
+#, fuzzy
 msgid ""
-"WAV files use raw data or light compression (IMA-ADPCM). They are "
-"lightweight on the CPU to play back (hundreds of simultaneous voices in this "
+"WAV files use raw data or light compression (IMA-ADPCM or QOA). They are "
+"lightweight to play back on the CPU (hundreds of simultaneous voices in this "
 "format are fine). The downside is that they take up a lot of disk space."
 msgstr ""
 "Wav 파일은 압축되지 않은 데이터나 가벼운 압축을 사용합니다 (IMA-ADPCM). 재생"
@@ -53,10 +54,10 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"MP3 files use better compression than WAV with IMA-ADPCM, but worse than Ogg "
-"Vorbis. This means that a MP3 file with roughly equal quality to Ogg Vorbis "
-"will be significantly larger. On the bright side, MP3 requires less CPU "
-"usage to play back compared to Ogg Vorbis."
+"MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse "
+"than Ogg Vorbis. This means that an MP3 file with roughly equal quality to "
+"Ogg Vorbis will be significantly larger. On the bright side, MP3 requires "
+"less CPU usage to play back compared to Ogg Vorbis."
 msgstr ""
 "MP3 파일은 WAV의 IMA-ADPCM보다는 압축률이 높지만 Ogg Vorbis보다는 압축률이 작"
 "습니다. 따라서 MP3는 Ogg Vorbis보다 용량은 크면서 음질은 거의 비슷합니다. 하"
@@ -95,10 +96,18 @@ msgstr "WAV 16-bit, 44 kHz, 모노"
 msgid "88 KB"
 msgstr ""
 
-msgid "WAV 16-bit, IMA-ADPCM, mono"
-msgstr "WAV 16-bit, IMA-ADPCM, 모노"
+#, fuzzy
+msgid "WAV IMA-ADPCM, 44 kHz, mono"
+msgstr "WAV 16-bit, 44 kHz, 모노"
 
 msgid "22 KB"
+msgstr ""
+
+#, fuzzy
+msgid "WAV QOA, 44 kHz, mono"
+msgstr "WAV 16-bit, 44 kHz, 모노"
+
+msgid "17 KB"
 msgstr ""
 
 msgid "MP3 192 Kb/s, stereo"
@@ -153,17 +162,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The set of options available after selecting a Ogg Vorbis or MP3 file is "
+"The set of options available after selecting an Ogg Vorbis or MP3 file is "
 "different:"
 msgstr ""
 
+#, fuzzy
 msgid ""
-"Import options in the Import dock after selecting a MP3 file in the "
+"Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock"
-msgstr ""
+msgstr "파일 시스템 독에서 스크립트를 찾기."
 
 msgid ""
-"Import options in the Import dock after selecting a MP3 file in the "
+"Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock. Options are identical for Ogg Vorbis files."
 msgstr ""
 
@@ -292,9 +302,13 @@ msgid "Compress > Mode"
 msgstr "압축 모드"
 
 msgid ""
-"Two compression modes can be chosen for WAV files: **Disabled** (default) or "
-"**RAM (Ima-ADPCM)**. **RAM (Ima-ADPCM)** reduces file size and memory usage "
-"a little, at the cost of decreasing quality in an audible manner."
+"Three compression modes can be chosen from for WAV files: **Disabled** "
+"(default), **RAM (Ima-ADPCM)**, or **QOA (Quite OK Audio)**. **RAM (Ima-"
+"ADPCM)** reduces file size and memory usage a little, at the cost of "
+"decreasing quality in an audible manner. **QOA (Quite OK Audio)** reduces "
+"file size a bit more than **RAM (Ima-ADPCM)** and the quality decrease is "
+"much less noticeable, at the cost of higher CPU usage (still much lower than "
+"MP3)."
 msgstr ""
 
 msgid ""
@@ -397,7 +411,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Advanced dialog when double-clicking a Ogg Vorbis or MP3 file in the "
+"Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "
 "FileSystem dock"
 msgstr ""
 

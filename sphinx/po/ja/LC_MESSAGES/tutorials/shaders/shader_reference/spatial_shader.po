@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -307,8 +307,9 @@ msgstr ""
 msgid "in float **E**"
 msgstr "\\ in float **E**"
 
+#, fuzzy
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
 
@@ -345,11 +346,14 @@ msgstr ""
 "UV、UV2、COLORなどの他のビルトインも、変更されていない場合はフラグメント関数"
 "に渡されます。"
 
+#, fuzzy
 msgid ""
 "Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. When ``POSITION`` is used, the value from ``VERTEX`` "
-"is ignored and projection does not happen. However, the value passed to the "
-"fragment shader still comes from ``VERTEX``."
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
 "ユーザーは、組み込みの ``POSITION`` を使用して、モデルビューと投影変換をオー"
 "バーライドできます。\\ ``POSITION`` を使用すると、\\ ``VERTEX`` の値は無視さ"
@@ -399,6 +403,18 @@ msgstr "\\ in mat4 **INV_VIEW_MATRIX**"
 msgid "View space to world space transform."
 msgstr "ビュー空間からワールド空間への変換。"
 
+#, fuzzy
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "\\ in mat4 **INV_VIEW_MATRIX**"
+
+#, fuzzy
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr ""
+"ローカル空間からワールド空間への変換。ワールド空間はエディタで通常使用される"
+"座標です。"
+
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "\\ in mat4 **INV_PROJECTION_MATRIX**"
 
@@ -428,6 +444,13 @@ msgstr "\\ in vec3 **CAMERA_DIRECTION_WORLD**"
 
 msgid "Camera world space direction."
 msgstr "カメラのワールド空間の向き。"
+
+#, fuzzy
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr "\\ in uint **RANDOM_SEED**"
+
+msgid "Cull layers of the camera rendering the current pass."
+msgstr ""
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "\\ in bool **OUTPUT_IS_SRGB**"
@@ -559,14 +582,14 @@ msgstr "モデル空間からビュー空間への変換(可能な場合は使�
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "\\ inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 
-msgid "inout mat4 **MODEL_MATRIX**"
-msgstr "\\ inout mat4 **MODEL_MATRIX**"
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "\\ in mat4 **MODEL_MATRIX**"
 
 msgid "Model space to world space transform."
 msgstr "モデル空間からワールド空間への変換。"
 
-msgid "inout mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "\\ inout mat3 **MODEL_NORMAL_MATRIX**"
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
+msgstr "\\ in mat3 **MODEL_NORMAL_MATRIX**"
 
 msgid "inout mat4 **PROJECTION_MATRIX**"
 msgstr "\\ inout mat4 **PROJECTION_MATRIX**"
@@ -574,10 +597,12 @@ msgstr "\\ inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "ビュー空間からクリップ空間への変換。"
 
-msgid "inout uvec4 **BONE_INDICES**"
+#, fuzzy
+msgid "in uvec4 **BONE_INDICES**"
 msgstr "\\ inout uvec4 **BONE_INDICES**"
 
-msgid "inout vec4 **BONE_WEIGHTS**"
+#, fuzzy
+msgid "in vec4 **BONE_WEIGHTS**"
 msgstr "\\ inout vec4 **BONE_WEIGHTS**"
 
 msgid "in vec4 **CUSTOM0**"
@@ -633,7 +658,8 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "\\ in bool **FRONT_FACING**"
 
-msgid "``true`` if current face if front face."
+#, fuzzy
+msgid "``true`` if current face is front facing."
 msgstr "現在の面が前面(面の法線がこちらを向いている)の場合は ``true`` 。"
 
 msgid "in vec3 **VIEW**"
@@ -670,12 +696,6 @@ msgstr "\\ in vec2 **POINT_COORD**"
 msgid "Point Coordinate for drawing points with POINT_SIZE."
 msgstr "POINT_SIZEでポイントを描画するためのポイント座標。"
 
-msgid "in mat4 **MODEL_MATRIX**"
-msgstr "\\ in mat4 **MODEL_MATRIX**"
-
-msgid "in mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "\\ in mat3 **MODEL_NORMAL_MATRIX**"
-
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "\\ in mat4 **PROJECTION_MATRIX**"
 
@@ -699,6 +719,14 @@ msgstr "\\ in vec3 **VERTEX**"
 
 msgid "Vertex that comes from vertex function (default, in view space)."
 msgstr "頂点関数からの頂点(デフォルト、ビュー空間内)。"
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr "\\ inout vec3 **LIGHT_VERTEX**"
+
+msgid ""
+"A writable version of ``VERTEX`` that can be used to alter light and "
+"shadows. Writing to this will not change the position of the fragment."
+msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "\\ sampler2D **SCREEN_TEXTURE**"
@@ -762,9 +790,10 @@ msgstr "アルベド(デフォルトは白)。"
 msgid "out float **ALPHA**"
 msgstr "\\ out float **ALPHA**"
 
+#, fuzzy
 msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
+"Alpha (0..1); if read from or written to, the material will go to the "
+"transparent pipeline."
 msgstr ""
 "アルファ(0..1); 書き込まれた場合、マテリアルはtransparentパイプラインに送られ"
 "ます。"
@@ -1049,6 +1078,13 @@ msgstr "\\ out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "鏡面反射光の結果。"
+
+msgid ""
+"Alpha (0..1); if written to, the material will go to the transparent "
+"pipeline."
+msgstr ""
+"アルファ(0..1); 書き込まれた場合、マテリアルはtransparentパイプラインに送られ"
+"ます。"
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

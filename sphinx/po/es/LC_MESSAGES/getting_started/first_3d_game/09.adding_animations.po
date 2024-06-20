@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,13 +113,18 @@ msgstr ""
 "Queremos que la animación comience a reproducirse automáticamente al inicio "
 "del juego. Además, debe repetirse en bucle."
 
+#, fuzzy
 msgid ""
-"To do so, you can click the button with an \"A+\" icon in the animation "
+"To do so, you can click the autoplay button (|Autoplay|) in the animation "
 "toolbar and the looping arrows, respectively."
 msgstr ""
 "Para hacerlo, puedes hacer clic en el botón con un icono de \"A+\" en la "
 "barra de herramientas de animación y en las flechas de repetición, "
 "respectivamente."
+
+#, fuzzy
+msgid "Autoplay"
+msgstr "AutoLoad"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -258,12 +263,23 @@ msgstr ""
 "Mueve el cursor a ``0.5`` segundos haciendo clic y arrastrando en la línea "
 "de tiempo gris."
 
+msgid "|timeline_05_click|"
+msgstr ""
+
+msgid "timeline_05_click"
+msgstr ""
+
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
 "*Rotation*' *X* axis to ``8``."
 msgstr ""
 "En el *Inspector*, establece el eje *Y* de *Position* a aproximadamente "
 "``0.65`` metros y el eje *X* de *Rotation* a ``8``."
+
+msgid ""
+"If you don't see the properties in the *Inspector* panel, first click on the "
+"``Character`` node again in the *Scene* dock."
+msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -273,6 +289,12 @@ msgstr "image13"
 
 msgid "Create a keyframe for both properties"
 msgstr "Crea claves para ambas propiedades"
+
+msgid "|second_keys_both|"
+msgstr ""
+
+msgid "second_keys_both"
+msgstr ""
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -310,6 +332,14 @@ msgstr ""
 "Establece la posición en el eje Y a aproximadamente ``0.35`` y la rotación "
 "en el eje X a ``-9`` grados. Una vez más, crea una clave para ambas "
 "propiedades."
+
+#, fuzzy
+msgid "|animation_final_keyframes|"
+msgstr "La animación por computadora se basa en fotogramas clave"
+
+#, fuzzy
+msgid "animation_final_keyframes"
+msgstr "La animación por computadora se basa en fotogramas clave"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -511,13 +541,26 @@ msgstr ""
 "entre ellos."
 
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and open the "
-"\"float\" animation. Next, click on **Animation > Copy**. Then open ``mob."
-"tscn``, create an AnimationPlayer child node and select it. Click "
-"**Animation > Paste** and make sure that the button with an \"A+\" icon "
-"(Autoplay on Load) and the looping arrows (Animation looping) are also "
-"turned on in the animation editor in the bottom panel. That's it; all "
-"monsters will now play the float animation."
+"Open the *Player* scene, select the AnimationPlayer node and then click on "
+"**Animation > Manage Animations...**. Click the *Copy animation to "
+"clipboard* button (two small squares) alongside the *float* animation. Click "
+"OK to close the window."
+msgstr ""
+
+msgid ""
+"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` child node and select it. Click **Animation > "
+"Manage Animations**, then **Add Library**. You should see the message "
+"\"Global library will be created.\" Leave the text field blank and click OK. "
+"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
+"OK to close the window."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
+"(Animation looping) are also turned on in the animation editor in the bottom "
+"panel. That's it; all monsters will now play the float animation."
 msgstr ""
 "Abre la escena *Player*, selecciona el nodo de animación y abre la animación "
 "\"float\". A continuación, haz clic en **Animación > Copiar**. Luego abre el "

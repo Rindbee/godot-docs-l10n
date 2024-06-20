@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,24 +35,18 @@ msgid ""
 msgstr ""
 "Linux またはその他の Unix バリアントでコンパイルするには、次のことが必要です:"
 
-msgid "GCC 7+ or Clang 6+."
+#, fuzzy
+msgid "GCC 9+ or Clang 6+."
 msgstr "GCC 7以降 または Clang 6以降。"
 
 #, fuzzy
 msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
 msgstr "`Python 3.5 以降 <https://www.python.org/downloads/>`_\\ 。"
 
-msgid "`SCons 3.0+ <https://scons.org/pages/download.html>`_ build system."
+#, fuzzy
+msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
 msgstr ""
 "`3.0以降のSCons <https://scons.org/pages/download.html>`_ ビルドシステム。"
-
-msgid ""
-"If your distribution uses Python 2 by default, or you are using a version of "
-"SCons prior to 3.1.2, you will need to change the version of Python that "
-"SCons uses by changing the shebang (the first line) of the SCons script file "
-"to ``#! /usr/bin/python3``. Use the command ``which scons`` to find the "
-"location of the SCons script file."
-msgstr ""
 
 #, fuzzy
 msgid "pkg-config (used to detect the development libraries listed below)."
@@ -65,6 +59,9 @@ msgstr "ALSA開発用ライブラリ。"
 #, fuzzy
 msgid "X11, Xcursor, Xinerama, Xi and XRandR."
 msgstr "X11、Xcursor、Xinerama、XiおよびXRandR開発用ライブラリ。"
+
+msgid "Wayland and wayland-scanner."
+msgstr ""
 
 msgid "Mesa."
 msgstr ""
@@ -172,33 +169,30 @@ msgid "If you wish to compile using Clang rather than GCC, use this command:"
 msgstr ""
 "GCCではなくClangを使用してコンパイルする場合は、次のコマンドを使用します:"
 
+#, fuzzy
 msgid ""
 "Using Clang appears to be a requirement for OpenBSD, otherwise fonts would "
-"not build."
+"not build. For RISC-V architecture devices, use the Clang compiler instead "
+"of the GCC compiler."
 msgstr ""
 "Clangを使うことはOpenBSDの要件のようで、そうしないとフォントが作れません。"
 
 #, fuzzy
 msgid ""
-"If you are compiling Godot for production use, then you can make the final "
-"executable smaller and faster by adding the SCons options "
-"``target=template_release production=yes``."
+"If you are compiling Godot for production use, you can make the final "
+"executable smaller and faster by adding the SCons option ``production=yes``. "
+"This enables additional compiler optimizations and link-time optimization."
 msgstr ""
 "制作に使うGodotをコンパイルするなら、SConsのオプション "
 "``target=release_debug`` を追加すれば、より小さくて高速な実行ファイルにするこ"
 "とができます。"
 
-#, fuzzy
 msgid ""
-"If you are compiling Godot with GCC, you can make the binary even smaller "
-"and faster by adding the SCons option ``lto=full``. As link-time "
-"optimization is a memory-intensive process, this will require about 7 GB of "
-"available RAM while compiling."
+"LTO takes some time to run and requires about 7 GB of available RAM while "
+"compiling. If you're running out of memory with the above option, use "
+"``production=yes lto=none`` or ``production=yes lto=thin`` for a lightweight "
+"but less effective form of LTO."
 msgstr ""
-"GCCでGodotをコンパイルしている場合、SConsオプション ``use_lto=yes`` を追加す"
-"ることにより、バイナリをさらに小さく高速化できます。リンク時最適化はメモリを"
-"集中的に使用するプロセスであるため、コンパイルには約3GBの使用可能なRAMが必要"
-"です。"
 
 msgid ""
 "If you want to use separate editor settings for your own Godot builds and "
@@ -355,8 +349,8 @@ msgid ""
 "``libatomic_ops``. Then, copy ``/usr/lib/libatomic_ops.a`` to ``/usr/lib/"
 "libatomic.a``, or create a soft link to ``libatomic_ops`` by command ``ln -"
 "s /usr/lib/libatomic_ops.a /usr/lib/libatomic.a``. The soft link can ensure "
-"the latest ``libatomic_ops`` will be used without the need to copy it "
-"everytime when it is updated."
+"the latest ``libatomic_ops`` will be used without the need to copy it every "
+"time when it is updated."
 msgstr ""
 
 #, fuzzy
@@ -382,7 +376,7 @@ msgstr ""
 "コピー。"
 
 msgid ""
-"Extract the ``.tar.gz`` file, then move the extraced folder to a location "
+"Extract the ``.tar.gz`` file, then move the extracted folder to a location "
 "such as ``.local/share/mold``."
 msgstr ""
 

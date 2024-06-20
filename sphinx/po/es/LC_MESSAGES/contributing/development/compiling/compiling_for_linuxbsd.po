@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,32 +38,19 @@ msgid ""
 msgstr ""
 "Para compilar en Linux u otras variantes de Unix, se requiere lo siguiente:"
 
-msgid "GCC 7+ or Clang 6+."
+#, fuzzy
+msgid "GCC 9+ or Clang 6+."
 msgstr "GCC 7+ o Clang 6+."
 
 #, fuzzy
 msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
 msgstr "`Python 3.5+ <https://www.python.org/downloads/>`_."
 
-msgid "`SCons 3.0+ <https://scons.org/pages/download.html>`_ build system."
+#, fuzzy
+msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
 msgstr ""
 "El sistema de construcción `SCons 3.0+ <https://scons.org/pages/download."
 "html>`_."
-
-#, fuzzy
-msgid ""
-"If your distribution uses Python 2 by default, or you are using a version of "
-"SCons prior to 3.1.2, you will need to change the version of Python that "
-"SCons uses by changing the shebang (the first line) of the SCons script file "
-"to ``#! /usr/bin/python3``. Use the command ``which scons`` to find the "
-"location of the SCons script file."
-msgstr ""
-"Sistema de compilación SCons 3.0 o superior. Si tu distribución utiliza "
-"Python 2 por defecto o estás usando una versión de SCons anterior a 3.1.2, "
-"necesitarás cambiar la versión de Python que utiliza SCons modificando el "
-"shebang (la primera línea) del archivo de script de SCons a ``#! /usr/bin/"
-"python3``. Utiliza el comando ``which scons`` para encontrar la ubicación "
-"del archivo de script de SCons."
 
 #, fuzzy
 msgid "pkg-config (used to detect the development libraries listed below)."
@@ -77,6 +64,9 @@ msgstr "Librerías de desarrollo:"
 #, fuzzy
 msgid "X11, Xcursor, Xinerama, Xi and XRandR."
 msgstr "Las bibliotecas de desarrollo X11, Xcursor, Xinerama, Xi y XRandR."
+
+msgid "Wayland and wayland-scanner."
+msgstr ""
 
 msgid "Mesa."
 msgstr ""
@@ -185,35 +175,31 @@ msgstr ""
 msgid "If you wish to compile using Clang rather than GCC, use this command:"
 msgstr "Si deseas compilar utilizando Clang en lugar de GCC, usa este comando:"
 
+#, fuzzy
 msgid ""
 "Using Clang appears to be a requirement for OpenBSD, otherwise fonts would "
-"not build."
+"not build. For RISC-V architecture devices, use the Clang compiler instead "
+"of the GCC compiler."
 msgstr ""
 "El uso de Clang parece ser un requisito para OpenBSD, de lo contrario, las "
 "fuentes no se compilarían correctamente."
 
 #, fuzzy
 msgid ""
-"If you are compiling Godot for production use, then you can make the final "
-"executable smaller and faster by adding the SCons options "
-"``target=template_release production=yes``."
+"If you are compiling Godot for production use, you can make the final "
+"executable smaller and faster by adding the SCons option ``production=yes``. "
+"This enables additional compiler optimizations and link-time optimization."
 msgstr ""
 "Si estás compilando Godot para uso en producción, puedes hacer que el "
 "ejecutable final sea más pequeño y rápido agregando la opción de SCons "
 "``target=release_debug``."
 
-#, fuzzy
 msgid ""
-"If you are compiling Godot with GCC, you can make the binary even smaller "
-"and faster by adding the SCons option ``lto=full``. As link-time "
-"optimization is a memory-intensive process, this will require about 7 GB of "
-"available RAM while compiling."
+"LTO takes some time to run and requires about 7 GB of available RAM while "
+"compiling. If you're running out of memory with the above option, use "
+"``production=yes lto=none`` or ``production=yes lto=thin`` for a lightweight "
+"but less effective form of LTO."
 msgstr ""
-"Si estás compilando Godot con GCC, puedes hacer que el binario sea aún más "
-"pequeño y rápido agregando la opción ``use_lto=yes`` en SCons. Dado que la "
-"optimización en tiempo de enlace (LTO) requiere una cantidad significativa "
-"de memoria, necesitarás alrededor de 7 GB de RAM disponible durante la "
-"compilación."
 
 msgid ""
 "If you want to use separate editor settings for your own Godot builds and "
@@ -390,8 +376,8 @@ msgid ""
 "``libatomic_ops``. Then, copy ``/usr/lib/libatomic_ops.a`` to ``/usr/lib/"
 "libatomic.a``, or create a soft link to ``libatomic_ops`` by command ``ln -"
 "s /usr/lib/libatomic_ops.a /usr/lib/libatomic.a``. The soft link can ensure "
-"the latest ``libatomic_ops`` will be used without the need to copy it "
-"everytime when it is updated."
+"the latest ``libatomic_ops`` will be used without the need to copy it every "
+"time when it is updated."
 msgstr ""
 
 #, fuzzy
@@ -416,7 +402,7 @@ msgstr ""
 "com/rui314/mold/releases/latest>`__."
 
 msgid ""
-"Extract the ``.tar.gz`` file, then move the extraced folder to a location "
+"Extract the ``.tar.gz`` file, then move the extracted folder to a location "
 "such as ``.local/share/mold``."
 msgstr ""
 

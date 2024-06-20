@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,8 +175,9 @@ msgstr ""
 msgid "in float **E**"
 msgstr ""
 
+#, fuzzy
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 "Константа ``E`` (``2,718281``). Число Эйлера и основание натурального "
@@ -317,6 +318,12 @@ msgstr ""
 msgid "Point size for point drawing."
 msgstr "Размер точки для отрисовки."
 
+msgid "in vec4 **CUSTOM0**"
+msgstr ""
+
+msgid "in vec4 **CUSTOM1**"
+msgstr ""
+
 msgid "Fragment built-ins"
 msgstr "Фрагментные встроенные константы"
 
@@ -356,7 +363,7 @@ msgstr "vec4 **FRAGCOORD**"
 #, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
+"window. Origin is upper-left."
 msgstr ""
 "Координата центра пикселя в пространстве экрана. ``xy`` задает позицию в "
 "окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. Начало "
@@ -504,6 +511,15 @@ msgstr ""
 "Ниже приведён пример шейдера света (light), который учитывает карту нормалей "
 "CanvasItem:"
 
+#, fuzzy
+msgid ""
+"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
+"window. Origin is lower-left."
+msgstr ""
+"Координата центра пикселя в пространстве экрана. ``xy`` задает позицию в "
+"окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. Начало "
+"координат - левый нижний угол."
+
 msgid "in vec3 **NORMAL**"
 msgstr ""
 
@@ -630,13 +646,15 @@ msgstr "Вычисляет нормаль из текстуры SDF."
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr ""
 
-msgid "Converts a SDF to screen UV."
+#, fuzzy
+msgid "Converts an SDF to screen UV."
 msgstr "Преобразует SDF в экранный UV."
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr ""
 
-msgid "Converts screen UV to a SDF."
+#, fuzzy
+msgid "Converts screen UV to an SDF."
 msgstr "Преобразует экранный UV в SDF."
 
 msgid "Translation status"

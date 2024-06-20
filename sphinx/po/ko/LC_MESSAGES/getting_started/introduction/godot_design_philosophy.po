@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,9 +284,10 @@ msgstr ""
 "심 개발자들에 의해 개발되는 새로운 기능은 대부분의 사용자에게 가장 먼저 혜택"
 "을 주는 것에 초점을 맞추는 경우가 많습니다."
 
+#, fuzzy
 msgid ""
 "That said, although a handful of core developers work on it full-time, the "
-"project has over 600 contributors at the time of writing. Benevolent "
+"project has thousands of contributors at the time of writing. Benevolent "
 "programmers work on features they may need themselves, so you'll see "
 "improvements in all corners of the engine at the same time in every major "
 "release."

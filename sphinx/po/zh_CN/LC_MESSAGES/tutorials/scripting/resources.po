@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -347,6 +347,11 @@ msgstr ""
 "``bot_stats``\\ 。此时文件面板中会显示全名 ``bot_stats.tres``\\ 。不带脚本的"
 "话这个文件没什么意义，那我们就来添加一些数据和逻辑吧！给它附加一个名叫 "
 "``bot_stats.gd`` 的脚本（或者新建一个脚本之后把它拖上来）。"
+
+msgid ""
+"If you're using C#, you need to annotate your Resource class with the "
+"``[GlobalClass]`` attribute for it to show up in the create resource GUI."
+msgstr ""
 
 msgid ""
 "Now, create a :ref:`CharacterBody3D <class_CharacterBody3D>`, name it "

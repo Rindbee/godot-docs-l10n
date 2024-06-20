@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,6 +184,28 @@ msgstr ""
 "você precisará convertê-lo para ``object``. Caso contrário, cada elemento de "
 "seu array será tratado como um único argumento e a assinatura da função não "
 "corresponderá."
+
+#, fuzzy
+msgid "Connecting to signals"
+msgstr "Conectando HUD a Principal"
+
+#, fuzzy
+msgid "Connecting to C# signals from GDScript"
+msgstr "Acessando campos C# a partir do GDScript"
+
+msgid ""
+"Connecting to a C# signal from GDScript is the same as connecting to a "
+"signal defined in GDScript:"
+msgstr ""
+
+#, fuzzy
+msgid "Connecting to GDScript signals from C#"
+msgstr "Acessando campos do GDScript no C#"
+
+msgid ""
+"Connecting to a GDScript signal from C# only works with the ``Connect`` "
+"method because no C# static types exist for signals defined by GDScript:"
+msgstr ""
 
 msgid "Inheritance"
 msgstr "Herança"

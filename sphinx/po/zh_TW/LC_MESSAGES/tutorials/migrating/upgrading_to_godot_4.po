@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1184,6 +1184,10 @@ msgid ""
 msgstr "紋理篩選和重複模式現在在單獨的 uniform 上設定，而不是在紋理檔本身。"
 
 msgid "``hint_albedo`` is now ``source_color``."
+msgstr "``hint_albedo`` 現在是 ``source_color``。"
+
+#, fuzzy
+msgid "``hint_color`` is now ``source_color``."
 msgstr "``hint_albedo`` 現在是 ``source_color``。"
 
 msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"

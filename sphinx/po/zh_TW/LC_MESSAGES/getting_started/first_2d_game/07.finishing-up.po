@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,9 +48,10 @@ msgstr ""
 "性： ``Color`` （色彩）。選擇一個你喜歡的顏色，並選擇「畫面配置」->「全矩"
 "形」，這樣就會覆蓋整個畫面。"
 
+#, fuzzy
 msgid ""
-"You could also add a background image, if you have one, by using a "
-"``TextureRect`` node instead."
+"You could also add a background image, if you have one, by using a :ref:"
+"`TextureRect <class_TextureRect>` node instead."
 msgstr ""
 "如果你有適合的圖片的話，也可以用圖片作為背景。改用 ``TextureRect`` 節點即可。"
 

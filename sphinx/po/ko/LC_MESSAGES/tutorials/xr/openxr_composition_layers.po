@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "OpenXR composition layers"
+msgstr ""
+
+msgid "Introduction"
+msgstr "소개"
+
+msgid ""
+"In XR games you generally want to create user interactions that happen in 3D "
+"space and involve users touching objects as if they are touching them in "
+"real life."
+msgstr ""
+
+msgid ""
+"Sometimes however creating a more traditional 2D interface is unavoidable. "
+"In XR however you can't just add 2D components to your scene. Godot needs "
+"depth information to properly position these elements so they appear at a "
+"comfortable place for the user. Even with depth information there are "
+"headsets with slanted displays that make it impossible for the standard 2D "
+"pipeline to correctly render the 2D elements."
+msgstr ""
+
+msgid ""
+"The solution then is to render the UI to a :ref:`SubViewport "
+"<class_subviewport>` and display the result of this using a :ref:"
+"`ViewportTexture <class_viewporttexture>` on a 3D mesh. The :ref:`QuadMesh "
+"<class_quadmesh>` is a suitable option for this."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"See the `GUI in 3D <https://github.com/godotengine/godot-demo-projects/tree/"
+"master/viewport/gui_in_3d>`_ example project for an example of this approach."
+msgstr ""
+"이 문서 외에 여러가지 `Godot 데모 프로젝트들 <https://github.com/godotengine/"
+"godot-demo-projects>`_\\ 도 살펴보면 좋습니다."
+
+msgid ""
+"The problem with displaying the viewport in this way is that the rendered "
+"result is sampled for lens distortion by the XR runtime and the resulting "
+"quality loss can make UI text hard to read."
+msgstr ""
+
+msgid ""
+"OpenXR offers a solution to this problem through composition layers. With "
+"composition layers it is possible for the contents of a viewport to be "
+"projected on a surface after lens distortion resulting in a much higher "
+"quality end result."
+msgstr ""
+
+msgid ""
+"As not all XR runtimes support all composition layer types, Godot implements "
+"a fallback solution where we render the viewport as part of the normal scene "
+"but with the aforementioned quality limitations."
+msgstr ""
+
+msgid ""
+"When the composition layer is supported, it is the XR runtime that presents "
+"the subviewport. This means the UI is only visible in the headset, it will "
+"not be accessible by Godot and will thus not be shown when you have a "
+"spectator view on the desktop."
+msgstr ""
+
+msgid "There are currently 3 nodes that expose this functionality:"
+msgstr ""
+
+msgid ""
+":ref:`OpenXRCompositionLayerCylinder <class_OpenXRCompositionLayerCylinder>` "
+"shows the contents of the SubViewport on the inside of a cylinder (or "
+"\"slice\" of a cylinder)."
+msgstr ""
+
+msgid ""
+":ref:`OpenXRCompositionLayerEquirect <class_OpenXRCompositionLayerEquirect>` "
+"shows the contents of the SubViewport on the interior of a sphere (or "
+"\"slice\" of a sphere)."
+msgstr ""
+
+msgid ""
+":ref:`OpenXRCompositionLayerQuad <class_OpenXRCompositionLayerQuad>` shows "
+"the contents of the SubViewport on a flat rectangle."
+msgstr ""
+
+#, fuzzy
+msgid "Setting up the SubViewport"
+msgstr "뷰포트(Viewport) 설정하기"
+
+msgid ""
+"The first step is adding a SubViewport for our 2D UI, this doesn't require "
+"any specific steps. For our example we do mark the viewport as transparent."
+msgstr ""
+
+msgid ""
+"You can now create the 2D UI by adding child nodes to the SubViewport as you "
+"normally would. It is advisable to save the 2D UI in a subscene, this makes "
+"it easier to do your layout."
+msgstr ""
+
+msgid ""
+"The update mode \"When Visible\" will not work as Godot can't determine "
+"whether the viewport is visible to the user. When assigning our viewport to "
+"a composition layer Godot will automatically adjust this."
+msgstr ""
+
+#, fuzzy
+msgid "Adding a composition layer"
+msgstr "스크립트 추가하기"
+
+msgid ""
+"The second step is adding our composition layer. We simply add the correct "
+"composition layer node as a child node of our :ref:`XROrigin3D "
+"<class_xrorigin3d>` node. This is very important as the XR runtime positions "
+"everything in relation to our origin."
+msgstr ""
+
+msgid ""
+"We want to position the composition layer so it is at eye height and roughly "
+"1 to 1.5 meters away from the player."
+msgstr ""
+
+msgid ""
+"We now assign the SubViewport to the ``Layer Viewport`` property and enable "
+"Alpha Blend."
+msgstr ""
+
+msgid ""
+"As the player can walk away from the origin point, you will want to "
+"reposition the composition layer when the player recenters the view. Using "
+"the reference space ``Local Floor`` will apply this logic automatically."
+msgstr ""
+
+#, fuzzy
+msgid "Making the interface work"
+msgstr "빌드 커스터마이징하기"
+
+msgid ""
+"So far we're only displaying our UI, to make it work we need to add some "
+"code. For this example we're going to keep things simple and make one of the "
+"controllers work as a pointer. We'll then simulate mouse actions with this "
+"pointer."
+msgstr ""
+
+msgid ""
+"This code also requires a ``MeshInstance3D`` node called ``Pointer`` to be "
+"added as a child to our ``OpenXRCompositionLayerQuad`` node. We configure a "
+"``SphereMesh`` with a radius ``0.01`` meters. We'll be using this as a "
+"helper to visualize where the user is pointing."
+msgstr ""
+
+msgid ""
+"The main function that drives this functionality is the ``intersects_ray`` "
+"function on our composition layer node. This function takes the global "
+"position and orientation of our pointer and returns the UV where our ray "
+"intersects our viewport. It returns ``Vector2(-1.0, -1.0)`` if we're not "
+"pointing at our viewport."
+msgstr ""
+
+msgid ""
+"We start with setting up some variables, important here are the export "
+"variables which identify our controller node with which we point to our "
+"screen."
+msgstr ""
+
+msgid ""
+"Next we define a helper function that takes the value returned from "
+"``intersects_ray`` and gives us the global position for that intersection "
+"point. This implementation only works for our ``OpenXRCompositionLayerQuad`` "
+"node."
+msgstr ""
+
+msgid ""
+"We also define a helper function that takes our ``intersect`` value and "
+"returns our location in the viewports local coordinate system:"
+msgstr ""
+
+msgid ""
+"The main logic happens in our ``_process`` function. Here we start by hiding "
+"our pointer, we then check if we have a valid controller and viewport, and "
+"we call ``intersects_ray`` with the position and orientation of our "
+"controller:"
+msgstr ""
+
+msgid ""
+"Next we check if we're intersecting with our viewport. If so, we check if "
+"our button is pressed and place our pointer at our intersection point."
+msgstr ""
+
+msgid ""
+"If we were intersecting in our previous process call and our pointer has "
+"moved, we prepare a :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>` object to simulate our mouse moving and send "
+"that to our viewport for further processing."
+msgstr ""
+
+msgid ""
+"If we've just released our button we also prepare a :ref:"
+"`InputEventMouseButton <class_InputEventMouseButton>` object to simulate a "
+"button release and send that to our viewport for further processing."
+msgstr ""
+
+msgid ""
+"Or if we've just pressed our button we prepare a :ref:`InputEventMouseButton "
+"<class_InputEventMouseButton>` object to simulate a button press and send "
+"that to our viewport for further processing."
+msgstr ""
+
+msgid "Next we remember our state for next frame."
+msgstr ""
+
+msgid "Finally, if we aren't intersecting, we simply clear our state."
+msgstr ""
+
+msgid "Hole punching"
+msgstr ""
+
+msgid ""
+"As the composition layer is composited on top of the render result, it can "
+"be rendered in front of objects that are actually forward of the viewport."
+msgstr ""
+
+msgid ""
+"By enabling hole punch you instruct Godot to render a transparent object "
+"where our viewport is displayed. It does this in a way that fills the depth "
+"buffer and clears the current rendering result. Anything behind our viewport "
+"will now be cleared, while anything in front of our viewport will be "
+"rendered as usual."
+msgstr ""
+
+msgid ""
+"You also need to set ``Sort Order`` to a negative value, the XR compositor "
+"will now draw the viewport first, and then overlay our rendering result."
+msgstr ""
+
+msgid ""
+"Use case showing how the users hand is incorrectly obscured by a composition "
+"layer when hole punching is not used."
+msgstr ""
+
+msgid "Translation status"
+msgstr "번역 상태"

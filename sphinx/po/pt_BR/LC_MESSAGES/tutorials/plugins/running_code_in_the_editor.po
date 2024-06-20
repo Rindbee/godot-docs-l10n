@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,17 +94,32 @@ msgstr ""
 msgid "Here is how a ``_process()`` function might look for you:"
 msgstr ""
 
+#, fuzzy
+msgid "Important information"
+msgstr "Mais informações"
+
+#, fuzzy
 msgid ""
-"Modifications in the editor are permanent. For example, in the following "
-"case, when we remove the script, the node will keep its rotation. Be careful "
-"to avoid making unwanted modifications."
+"Any other GDScript that your tool script uses must *also* be a tool. Any "
+"GDScript without ``@tool`` used by the editor will act like an empty file!"
 msgstr ""
+"Além do script do EditorPlugin, qualquer outro script usado pelo seu plug-in "
+"*também* deve ser uma ferramenta. * Qualquer GDScript sem ``tool`` importado "
+"para o editor funcionará como um arquivo vazio! * Qualquer classe C# sem "
+"``[Tool]`` não será recarregada quando o projeto for construído, forçando "
+"você a reativar o plugin!"
 
 msgid ""
 "Extending a ``@tool`` script does not automatically make the extending "
 "script a ``@tool``. Omitting ``@tool`` from the extending script will "
 "disable tool behavior from the super class. Therefore the extending script "
 "should also specify the ``@tool`` annotation."
+msgstr ""
+
+msgid ""
+"Modifications in the editor are permanent. For example, in the next section "
+"when we remove the script, the node will keep its rotation. Be careful to "
+"avoid making unwanted modifications."
 msgstr ""
 
 msgid "Try ``@tool`` out"
@@ -150,6 +165,29 @@ msgid ""
 "but you can't access user variables. If you want to do so, other nodes have "
 "to run in the editor too. Autoload nodes cannot be accessed in the editor at "
 "all."
+msgstr ""
+
+#, fuzzy
+msgid "Getting notified when resources change"
+msgstr "Adquirindo o código fonte"
+
+msgid ""
+"Some times you want your tool to use a resource. However, when you change a "
+"property of that resource in the editor, the ``set()`` method of your tool "
+"will not be called."
+msgstr ""
+
+msgid ""
+"To get around this problem you first have to make your resource a tool and "
+"make it emit the ``changed`` signal whenever a property is set:"
+msgstr ""
+
+msgid "You then want to connect the signal when a new resource is set:"
+msgstr ""
+
+msgid ""
+"Lastly, remember to disconnect the signal as the old resource being used and "
+"changed somewhere else would cause unneeded updates."
 msgstr ""
 
 #, fuzzy

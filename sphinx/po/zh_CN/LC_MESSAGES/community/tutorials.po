@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,13 @@ msgstr "下面提到的一些教程提供了更高级的教程, 例如3D或着�
 
 msgid "Video tutorials"
 msgstr "视频教程"
+
+#, fuzzy
+msgid ""
+"`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR and VR, "
+"GDScript)"
+msgstr ""
+"`HeartBeast <https://www.youtube.com/@uheartbeast>`_\\ （2D、GDScript）"
 
 msgid ""
 "`BornCG <https://www.youtube.com/playlist?"
@@ -142,6 +149,20 @@ msgid "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
 msgstr ""
 "`HeartBeast <https://www.youtube.com/@uheartbeast>`_\\ （2D、GDScript）"
 
+#, fuzzy
+msgid ""
+"`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR and VR, GDScript)"
+msgstr ""
+"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_\\ （2D、"
+"GDScript）"
+
+#, fuzzy
+msgid ""
+"`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D and VR, GDSCript)"
+msgstr ""
+"`Godotneers <https://www.youtube.com/@godotneers>`_\\ （2D、着色器、"
+"GDScript）"
+
 msgid ""
 "`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
 "playlists>`__ (2D and 3D, GDScript)"
@@ -163,6 +184,14 @@ msgstr ""
 
 msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
 msgstr "`Quiver <https://quiver.dev/>`_\\ （2D、GDScript）"
+
+#, fuzzy
+msgid ""
+"`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, networked "
+"multiplayer, AR and VR, GDScript)"
+msgstr ""
+"`Game Development Center <https://www.youtube.com/c/"
+"GameDevelopmentCenter>`_\\ （2D、网络多人、GDScript）"
 
 msgid "Text tutorials"
 msgstr "文字教程"
@@ -195,13 +224,6 @@ msgstr ""
 
 msgid "Devlogs"
 msgstr "开发日志"
-
-msgid ""
-"`Bastiaan Olij (AR & VR) <https://www.youtube.com/channel/UCrbLJYzJjDf2p-"
-"vJC011lYw/videos>`_"
-msgstr ""
-"`Bastiaan Olij（AR & VR） <https://www.youtube.com/channel/UCrbLJYzJjDf2p-"
-"vJC011lYw/videos>`_"
 
 msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
 msgstr "`bitbrain <https://www.youtube.com/@bitbraindev>`_"

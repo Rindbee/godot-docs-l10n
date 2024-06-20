@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,14 @@ msgstr ""
 
 msgid "Video tutorials"
 msgstr "영상 튜토리얼"
+
+#, fuzzy
+msgid ""
+"`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR and VR, "
+"GDScript)"
+msgstr ""
+"`Gonkee <https://www.youtube.com/channel/UCJqCPFHdbc6443G3Sz6VYDw>`_ (2D, "
+"3D, GDScript, Shaders)."
 
 #, fuzzy
 msgid ""
@@ -149,6 +157,20 @@ msgstr ""
 
 #, fuzzy
 msgid ""
+"`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR and VR, GDScript)"
+msgstr ""
+"`Gonkee <https://www.youtube.com/channel/UCJqCPFHdbc6443G3Sz6VYDw>`_ (2D, "
+"3D, GDScript, Shaders)."
+
+#, fuzzy
+msgid ""
+"`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D and VR, GDSCript)"
+msgstr ""
+"`Gonkee <https://www.youtube.com/channel/UCJqCPFHdbc6443G3Sz6VYDw>`_ (2D, "
+"3D, GDScript, Shaders)."
+
+#, fuzzy
+msgid ""
 "`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
 "playlists>`__ (2D and 3D, GDScript)"
 msgstr ""
@@ -176,6 +198,14 @@ msgstr ""
 
 #, fuzzy
 msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
+msgstr ""
+"`Gonkee <https://www.youtube.com/channel/UCJqCPFHdbc6443G3Sz6VYDw>`_ (2D, "
+"3D, GDScript, Shaders)."
+
+#, fuzzy
+msgid ""
+"`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, networked "
+"multiplayer, AR and VR, GDScript)"
 msgstr ""
 "`Gonkee <https://www.youtube.com/channel/UCJqCPFHdbc6443G3Sz6VYDw>`_ (2D, "
 "3D, GDScript, Shaders)."
@@ -212,13 +242,6 @@ msgstr ""
 
 msgid "Devlogs"
 msgstr "개발로그"
-
-msgid ""
-"`Bastiaan Olij (AR & VR) <https://www.youtube.com/channel/UCrbLJYzJjDf2p-"
-"vJC011lYw/videos>`_"
-msgstr ""
-"`Bastiaan Olij (AR & VR) <https://www.youtube.com/channel/UCrbLJYzJjDf2p-"
-"vJC011lYw/videos>`_"
 
 #, fuzzy
 msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"

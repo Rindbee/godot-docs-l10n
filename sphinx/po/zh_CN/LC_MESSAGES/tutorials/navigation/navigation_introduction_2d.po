@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,9 +52,10 @@ msgstr ""
 msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 msgstr ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 
+#, fuzzy
 msgid ""
 "``NavigationServer2D`` provides a powerful server API to find the shortest "
-"path between two positions on a area defined by a navigation mesh."
+"path between two positions on an area defined by a navigation mesh."
 msgstr ""
 "``NavigationServer2D`` 提供了强大的服务器 API，能够在区域中查找两个位置之间的"
 "最短路径，区域由导航网格定义。"

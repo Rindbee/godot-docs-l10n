@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,8 +145,9 @@ msgstr ""
 "지하는 것입니다. 설정을 통해 Godot에서 ``escn`` 파일을 열 때 외부 ``."
 "material`` 파일을 생성하도록 할 수 있습니다."
 
+#, fuzzy
 msgid ""
-"``.material`` file can be assigned to any material slot to be a external "
+"``.material`` file can be assigned to any material slot to be an external "
 "resource."
 msgstr ""
 "``.material`` 파일은 아무 머티리얼 슬롯에 지정해 외부 리소스로 사용될 수 있습"

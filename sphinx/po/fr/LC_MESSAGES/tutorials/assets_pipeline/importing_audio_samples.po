@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,9 +34,10 @@ msgstr ""
 msgid "Each format has different advantages:"
 msgstr "Chaque format a différents avantages :"
 
+#, fuzzy
 msgid ""
-"WAV files use raw data or light compression (IMA-ADPCM). They are "
-"lightweight on the CPU to play back (hundreds of simultaneous voices in this "
+"WAV files use raw data or light compression (IMA-ADPCM or QOA). They are "
+"lightweight to play back on the CPU (hundreds of simultaneous voices in this "
 "format are fine). The downside is that they take up a lot of disk space."
 msgstr ""
 "Les fichiers WAV utilisent des données brutes ou une compression légère (IMA-"
@@ -54,10 +55,10 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"MP3 files use better compression than WAV with IMA-ADPCM, but worse than Ogg "
-"Vorbis. This means that a MP3 file with roughly equal quality to Ogg Vorbis "
-"will be significantly larger. On the bright side, MP3 requires less CPU "
-"usage to play back compared to Ogg Vorbis."
+"MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse "
+"than Ogg Vorbis. This means that an MP3 file with roughly equal quality to "
+"Ogg Vorbis will be significantly larger. On the bright side, MP3 requires "
+"less CPU usage to play back compared to Ogg Vorbis."
 msgstr ""
 "Les fichiers MP3 utilisent une meilleure compression que wav avec IMA-ADPCM, "
 "mais pire qu’Ogg Vorbis. Cela signifie qu’un fichier MP3 avec une qualité à "
@@ -97,11 +98,19 @@ msgstr "WAV 16 bits, 44 kHz, Mono"
 msgid "88 KB"
 msgstr "88 Ko"
 
-msgid "WAV 16-bit, IMA-ADPCM, mono"
-msgstr "WAV 16 bits, IMA-ADPCM, Mono"
+#, fuzzy
+msgid "WAV IMA-ADPCM, 44 kHz, mono"
+msgstr "WAV 16 bits, 44 kHz, Mono"
 
 msgid "22 KB"
 msgstr "22 Ko"
+
+#, fuzzy
+msgid "WAV QOA, 44 kHz, mono"
+msgstr "WAV 16 bits, 44 kHz, Mono"
+
+msgid "17 KB"
+msgstr ""
 
 msgid "MP3 192 Kb/s, stereo"
 msgstr "MP3 192 Kb/s, stéréo"
@@ -156,17 +165,18 @@ msgid ""
 msgstr ""
 
 msgid ""
-"The set of options available after selecting a Ogg Vorbis or MP3 file is "
+"The set of options available after selecting an Ogg Vorbis or MP3 file is "
 "different:"
 msgstr ""
 
+#, fuzzy
 msgid ""
-"Import options in the Import dock after selecting a MP3 file in the "
+"Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock"
-msgstr ""
+msgstr "Recherchez le script dans le dock de système de fichiers."
 
 msgid ""
-"Import options in the Import dock after selecting a MP3 file in the "
+"Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock. Options are identical for Ogg Vorbis files."
 msgstr ""
 
@@ -298,9 +308,13 @@ msgid "Compress > Mode"
 msgstr "Mode de compression"
 
 msgid ""
-"Two compression modes can be chosen for WAV files: **Disabled** (default) or "
-"**RAM (Ima-ADPCM)**. **RAM (Ima-ADPCM)** reduces file size and memory usage "
-"a little, at the cost of decreasing quality in an audible manner."
+"Three compression modes can be chosen from for WAV files: **Disabled** "
+"(default), **RAM (Ima-ADPCM)**, or **QOA (Quite OK Audio)**. **RAM (Ima-"
+"ADPCM)** reduces file size and memory usage a little, at the cost of "
+"decreasing quality in an audible manner. **QOA (Quite OK Audio)** reduces "
+"file size a bit more than **RAM (Ima-ADPCM)** and the quality decrease is "
+"much less noticeable, at the cost of higher CPU usage (still much lower than "
+"MP3)."
 msgstr ""
 
 msgid ""
@@ -403,7 +417,7 @@ msgstr ""
 
 #, fuzzy
 msgid ""
-"Advanced dialog when double-clicking a Ogg Vorbis or MP3 file in the "
+"Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "
 "FileSystem dock"
 msgstr ""
 "Vous pouvez également double-cliquer sur le fichier ``Main.gd`` dans le dock "

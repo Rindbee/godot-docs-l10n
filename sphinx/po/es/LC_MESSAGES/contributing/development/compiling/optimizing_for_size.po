@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,6 +227,11 @@ msgstr ""
 "Las herramientas deben estar deshabilitadas para usar esta opción, ya que el "
 "editor no está diseñado para funcionar sin soporte 3D. Sin él, el tamaño del "
 "binario puede reducirse aproximadamente en un 15%."
+
+msgid ""
+"Disabling 3D support also disables all navigation. This includes 2D "
+"navigation, as it uses the 3D navigation system internally."
+msgstr ""
 
 msgid "Disabling advanced GUI objects"
 msgstr "Deshabilitar objetos de la GUI avanzados"

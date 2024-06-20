@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,6 +57,9 @@ msgstr "|image1|"
 
 msgid "image1"
 msgstr "|image1|"
+
+msgid "If you still have *Input Map* open, switch to the *General* tab."
+msgstr ""
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -525,6 +528,15 @@ msgstr ""
 "ruta, 1 es el fin de la ruta. La ruta que hemos creado está alrededor del "
 "viewport de la cámara, así que cualquier valor al azar entre 0 y 1 será una "
 "posición al azar a lo largo del borde del viewport!"
+
+msgid ""
+"Note that if you remove the ``Player`` from the main scene, the following "
+"line"
+msgstr ""
+
+#, fuzzy
+msgid "gives an error because there is no $Player!"
+msgstr "dará error porque no hay $Player!"
 
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr "Aqui está el script ``main.gd`` completo hasta ahora, como referencia."

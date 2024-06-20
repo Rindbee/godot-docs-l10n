@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,9 +105,10 @@ msgid ""
 msgstr ""
 "新的 NavigationRegion 節點將自動註冊到其 2D/3D 維度的預設世界導覽地圖。"
 
+#, fuzzy
 msgid ""
 "The region RID can then be obtained from NavigationRegion Nodes with "
-"``get_region_rid()``."
+"``get_rid()``."
 msgstr "然後可以使用 get_region_rid() 從 NavigationRegion 節點取得區域 RID。"
 
 msgid ""
@@ -121,9 +122,11 @@ msgid ""
 msgstr ""
 "如果直接使用 NavigationServer API 建立區域，則需要手動為其指派導覽地圖。"
 
+#, fuzzy
 msgid ""
-"NavigationRegions can only be assigned to a single NavigationMap. If an "
-"existing region is assigned to a new map it will leave the old map."
+"Navigation regions can only be assigned to a single navigation map. If an "
+"existing region is assigned to a new navigation map it will leave the old "
+"map."
 msgstr ""
 "NavigationRegions 只能分配給單一 NavigationMap。如果將現有區域分配給新地圖，"
 "它將保留舊地圖。"

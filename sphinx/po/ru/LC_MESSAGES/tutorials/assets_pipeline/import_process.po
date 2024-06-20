@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -201,6 +201,16 @@ msgid ""
 msgstr ""
 "Некоторые исходники ассетов можно импортировать как ресурсы разных типов. "
 "Для этого выберите нужный тип ресурса и нажмите \"Reimport\":"
+
+msgid ""
+"Select ``Keep File (exported as is)`` as resource type to skip file import, "
+"files with this resource type will be preserved as is during project export."
+msgstr ""
+
+msgid ""
+"Select ``Skip File (not exported)`` as resource type to skip file import and "
+"ignore file during project export."
+msgstr ""
 
 msgid "Changing default import parameters"
 msgstr "Изменение параметров импорта по умолчанию"

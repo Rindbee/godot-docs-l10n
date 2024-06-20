@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,8 +311,9 @@ msgstr ""
 msgid "in float **E**"
 msgstr ""
 
+#, fuzzy
 msgid ""
-"A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
+"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
 msgstr ""
 "Константа ``E`` (``2,718281``). Число Эйлера и основание натурального "
@@ -352,11 +353,14 @@ msgstr ""
 "Другие встроенные функции, такие как UV, UV2 и COLOR, также передаются в "
 "функцию fragment, если они не изменены."
 
+#, fuzzy
 msgid ""
 "Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. When ``POSITION`` is used, the value from ``VERTEX`` "
-"is ignored and projection does not happen. However, the value passed to the "
-"fragment shader still comes from ``VERTEX``."
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
 "Пользователи могут переопределить преобразования вида модели и проекции с "
 "помощью встроенной функции ``POSITION``. При использовании ``POSITION`` "
@@ -406,6 +410,18 @@ msgstr ""
 msgid "View space to world space transform."
 msgstr ""
 
+#, fuzzy
+msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
+msgstr "mat4 **MODEL_MATRIX**"
+
+#, fuzzy
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr ""
+"Трансформация локального пространства в мировое. Мировое пространство — это "
+"координаты, которые вы обычно используете в редакторе."
+
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr ""
 
@@ -436,6 +452,12 @@ msgstr ""
 
 msgid "Camera world space direction."
 msgstr "Направление камеры в мировом пространстве."
+
+msgid "in uint **CAMERA_VISIBLE_LAYERS**"
+msgstr ""
+
+msgid "Cull layers of the camera rendering the current pass."
+msgstr ""
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr ""
@@ -568,14 +590,14 @@ msgstr ""
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr ""
 
-msgid "inout mat4 **MODEL_MATRIX**"
-msgstr ""
+msgid "in mat4 **MODEL_MATRIX**"
+msgstr "mat4 **MODEL_MATRIX**"
 
 msgid "Model space to world space transform."
 msgstr "Преобразование пространства модели в мировое пространство."
 
-msgid "inout mat3 **MODEL_NORMAL_MATRIX**"
-msgstr ""
+msgid "in mat3 **MODEL_NORMAL_MATRIX**"
+msgstr "mat3 **MODEL_NORMAL_MATRIX**"
 
 msgid "inout mat4 **PROJECTION_MATRIX**"
 msgstr ""
@@ -583,11 +605,13 @@ msgstr ""
 msgid "View space to clip space transform."
 msgstr "Преобразование пространства просмотра для обрезки пространства."
 
-msgid "inout uvec4 **BONE_INDICES**"
-msgstr ""
+#, fuzzy
+msgid "in uvec4 **BONE_INDICES**"
+msgstr "vec4 **COLOR**"
 
-msgid "inout vec4 **BONE_WEIGHTS**"
-msgstr ""
+#, fuzzy
+msgid "in vec4 **BONE_WEIGHTS**"
+msgstr "в vec2 **LIGHT_UV**"
 
 msgid "in vec4 **CUSTOM0**"
 msgstr ""
@@ -644,7 +668,8 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "bool **FRONT_FACING**"
 
-msgid "``true`` if current face if front face."
+#, fuzzy
+msgid "``true`` if current face is front facing."
 msgstr "``true``, если текущая грань передняя."
 
 msgid "in vec3 **VIEW**"
@@ -682,12 +707,6 @@ msgstr "vec2 **POINT_COORD**"
 msgid "Point Coordinate for drawing points with POINT_SIZE."
 msgstr "Координата точки для рисования точек с POINT_SIZE (РАЗМЕР_ТОЧКИ)."
 
-msgid "in mat4 **MODEL_MATRIX**"
-msgstr "mat4 **MODEL_MATRIX**"
-
-msgid "in mat3 **MODEL_NORMAL_MATRIX**"
-msgstr "mat3 **MODEL_NORMAL_MATRIX**"
-
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "mat4 **PROJECTION_MATRIX**"
 
@@ -710,6 +729,14 @@ msgid "Vertex that comes from vertex function (default, in view space)."
 msgstr ""
 "Вершина, полученная из вершинной функции (по умолчанию, в пространстве "
 "просмотра)."
+
+msgid "inout vec3 **LIGHT_VERTEX**"
+msgstr ""
+
+msgid ""
+"A writable version of ``VERTEX`` that can be used to alter light and "
+"shadows. Writing to this will not change the position of the fragment."
+msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr ""
@@ -780,9 +807,10 @@ msgstr "Альбедо (по умолчанию белый)."
 msgid "out float **ALPHA**"
 msgstr ""
 
+#, fuzzy
 msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
+"Alpha (0..1); if read from or written to, the material will go to the "
+"transparent pipeline."
 msgstr ""
 "Альфа (0..1); если записано в, материал будет передан в конвейер "
 "прозрачности."
@@ -1066,6 +1094,13 @@ msgstr ""
 
 msgid "Specular light result."
 msgstr ""
+
+msgid ""
+"Alpha (0..1); if written to, the material will go to the transparent "
+"pipeline."
+msgstr ""
+"Альфа (0..1); если записано в, материал будет передан в конвейер "
+"прозрачности."
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

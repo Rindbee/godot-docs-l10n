@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -455,7 +455,8 @@ msgstr ""
 
 msgid ""
 "Make sure to mention shortcuts that differ on macOS compared to other "
-"platforms. On macOS, ``Cmd`` often replaces ``Ctrl`` in keyboard shortcuts."
+"platforms. You can find a list of all shortcuts, including what they are on "
+"macOS, on :ref:`this page <doc_default_key_mapping>`."
 msgstr ""
 
 msgid ""
@@ -464,7 +465,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Cmd + Alt + "
+"Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Opt + Cmd + "
 "T``` on macOS)."
 msgstr ""
 

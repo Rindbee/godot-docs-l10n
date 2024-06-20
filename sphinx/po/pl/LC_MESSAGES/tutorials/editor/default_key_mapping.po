@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,7 +72,7 @@ msgstr "Otwórz edytor 2D"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ""
 
-msgid ":kbd:`Alt + 1`"
+msgid ":kbd:`Opt + 1`"
 msgstr ""
 
 msgid "``editor/editor_2d``"
@@ -84,7 +84,7 @@ msgstr "Otwórz edytor 3D"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ""
 
-msgid ":kbd:`Alt + 2`"
+msgid ":kbd:`Opt + 2`"
 msgstr ""
 
 msgid "``editor/editor_3d``"
@@ -96,7 +96,7 @@ msgstr "Otwórz edytor skryptów"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ""
 
-msgid ":kbd:`Alt + 3`"
+msgid ":kbd:`Opt + 3`"
 msgstr ""
 
 msgid "``editor/editor_script``"
@@ -108,7 +108,7 @@ msgstr "Wyszukaj w pomocy"
 msgid ":kbd:`F1`"
 msgstr ""
 
-msgid ":kbd:`Alt + Space`"
+msgid ":kbd:`Opt + Space`"
 msgstr ""
 
 msgid "``editor/editor_help``"
@@ -156,7 +156,7 @@ msgstr "Filtruj pliki"
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + P`"
+msgid ":kbd:`Opt + Cmd + P`"
 msgstr ""
 
 msgid "``editor/filter_files``"
@@ -229,7 +229,7 @@ msgstr "Zapisz wszystkie sceny"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Shift + Alt + S`"
+msgid ":kbd:`Cmd + Shift + Opt + S`"
 msgstr ""
 
 msgid "``editor/save_all_scenes``"
@@ -239,6 +239,9 @@ msgid "Quick Open"
 msgstr ""
 
 msgid ":kbd:`Shift + Alt + O`"
+msgstr ""
+
+msgid ":kbd:`Shift + Opt + O`"
 msgstr ""
 
 msgid "``editor/quick_open``"
@@ -262,7 +265,7 @@ msgstr ""
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + O`"
+msgid ":kbd:`Opt + Cmd + O`"
 msgstr ""
 
 msgid "``editor/quick_open_script``"
@@ -310,7 +313,7 @@ msgstr "Wyjdź do listy projektów"
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ""
 
-msgid ":kbd:`Shift + Alt + Q`"
+msgid ":kbd:`Shift + Opt + Q`"
 msgstr ""
 
 msgid "``editor/quit_to_project_list``"
@@ -704,6 +707,9 @@ msgstr "Wolny modyfikator swobodnego widoku"
 msgid ":kbd:`Alt`"
 msgstr ""
 
+msgid ":kbd:`Opt`"
+msgstr ""
+
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr ""
 
@@ -758,6 +764,9 @@ msgstr "Widok z dołu"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ""
 
+msgid ":kbd:`Opt + Num 7`"
+msgstr ""
+
 msgid "``spatial_editor/bottom_view``"
 msgstr ""
 
@@ -776,6 +785,9 @@ msgstr "Widok z tyłu"
 msgid ":kbd:`Alt + Num 1`"
 msgstr ""
 
+msgid ":kbd:`Opt + Num 1`"
+msgstr ""
+
 msgid "``spatial_editor/rear_view``"
 msgstr ""
 
@@ -792,6 +804,9 @@ msgid "Left View"
 msgstr "Widok z lewej"
 
 msgid ":kbd:`Alt + Num 3`"
+msgstr ""
+
+msgid ":kbd:`Opt + Num 3`"
 msgstr ""
 
 msgid "``spatial_editor/left_view``"
@@ -836,7 +851,7 @@ msgstr "Dopasuj położenie do widoku"
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + M`"
+msgid ":kbd:`Opt + Cmd + M`"
 msgstr ""
 
 msgid "``spatial_editor/align_transform_with_view``"
@@ -848,7 +863,7 @@ msgstr "Dopasuj obrót do widoku"
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + F`"
+msgid ":kbd:`Opt + Cmd + F`"
 msgstr ""
 
 msgid "``spatial_editor/align_rotation_with_view``"
@@ -884,7 +899,7 @@ msgstr "2 widoki (alternatywnie)"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + 2`"
+msgid ":kbd:`Opt + Cmd + 2`"
 msgstr ""
 
 msgid "``spatial_editor/2_viewports_alt``"
@@ -908,7 +923,7 @@ msgstr "3 widoki (alternatywnie)"
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + 3`"
+msgid ":kbd:`Opt + Cmd + 3`"
 msgstr ""
 
 msgid "``spatial_editor/3_viewports_alt``"
@@ -1031,9 +1046,6 @@ msgstr "Zastąp"
 msgid ":kbd:`Ctrl + R`"
 msgstr ""
 
-msgid ":kbd:`Alt + Cmd + F`"
-msgstr ""
-
 msgid "``script_text_editor/replace``"
 msgstr ""
 
@@ -1064,6 +1076,9 @@ msgstr "Przesuń w górę"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ""
 
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ""
+
 msgid "``script_text_editor/move_up``"
 msgstr ""
 
@@ -1071,6 +1086,9 @@ msgid "Move Down"
 msgstr "Przesuń w dół"
 
 msgid ":kbd:`Alt + Down Arrow`"
+msgstr ""
+
+msgid ":kbd:`Opt + Down Arrow`"
 msgstr ""
 
 msgid "``script_text_editor/move_down``"
@@ -1151,7 +1169,7 @@ msgstr "Przytnij końcowe białe znaki"
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + T`"
+msgid ":kbd:`Opt + Cmd + T`"
 msgstr ""
 
 msgid "``script_text_editor/trim_trailing_whitespace``"
@@ -1226,7 +1244,7 @@ msgstr "Przełącz zakładkę"
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + B`"
+msgid ":kbd:`Opt + Cmd + B`"
 msgstr ""
 
 msgid "``script_text_editor/toggle_bookmark``"
@@ -1316,7 +1334,7 @@ msgstr "Pomoc kontekstowa"
 msgid ":kbd:`Alt + F1`"
 msgstr ""
 
-msgid ":kbd:`Alt + Shift + Space`"
+msgid ":kbd:`Opt + Shift + Space`"
 msgstr ""
 
 msgid "``script_text_editor/contextual_help``"
@@ -1340,10 +1358,16 @@ msgstr ""
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ""
 
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ""
+
 msgid "``script_editor/window_move_up``"
 msgstr ""
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
+msgstr ""
+
+msgid ":kbd:`Shift + Opt + Down Arrow`"
 msgstr ""
 
 msgid "``script_editor/window_move_down``"
@@ -1385,7 +1409,7 @@ msgstr "Zapisz"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ""
 
-msgid ":kbd:`Cmd + Alt + S`"
+msgid ":kbd:`Opt + Cmd + S`"
 msgstr ""
 
 msgid "``script_editor/save``"
@@ -1409,6 +1433,9 @@ msgstr "Poprzedni plik"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ""
 
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ""
+
 msgid "``script_editor/history_previous``"
 msgstr ""
 
@@ -1416,6 +1443,9 @@ msgid "History Next"
 msgstr "Następny plik"
 
 msgid ":kbd:`Alt + Right Arrow`"
+msgstr ""
+
+msgid ":kbd:`Opt + Right Arrow`"
 msgstr ""
 
 msgid "``script_editor/history_next``"
@@ -1557,6 +1587,9 @@ msgstr ""
 msgid "Toggle Favorite"
 msgstr "Przełącz ulubione"
 
+msgid ":kbd:`Opt + F`"
+msgstr ""
+
 msgid "``file_dialog/toggle_favorite``"
 msgstr ""
 
@@ -1564,6 +1597,9 @@ msgid "Toggle Mode"
 msgstr "Przełącz tryb"
 
 msgid ":kbd:`Alt + V`"
+msgstr ""
+
+msgid ":kbd:`Opt + V`"
 msgstr ""
 
 msgid "``file_dialog/toggle_mode``"

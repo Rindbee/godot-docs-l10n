@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,6 +242,29 @@ msgstr "**samplerCubeArray**"
 
 msgid "Sampler type for binding Cubemap arrays, which are read as float."
 msgstr "用于绑定立方体贴图数组的采样器类型，作为 float 读取。"
+
+msgid "Comments"
+msgstr "注释"
+
+#, fuzzy
+msgid ""
+"The shading language supports the same comment syntax as used in C# and C++:"
+msgstr "Godot 着色器语言支持最常见的控制流类型："
+
+msgid ""
+"Additionally, you can use documentation comments that are displayed in the "
+"inspector when hovering a shader parameter. Documentation comments are "
+"currently only supported when placed immediately above a ``uniform`` "
+"declaration. These documentation comments only support the **multiline** "
+"comment syntax and must use **two** leading asterisks (``/**``) instead of "
+"just one (``/*``):"
+msgstr ""
+
+msgid ""
+"The asterisks on the follow-up lines are not required, but are recommended "
+"as per the :ref:`doc_shaders_style_guide`. These asterisks are automatically "
+"stripped by the inspector, so they won't appear in the tooltip."
+msgstr ""
 
 msgid "Casting"
 msgstr "类型转换"
@@ -1025,10 +1048,6 @@ msgid "**Basis**"
 msgstr "**Basis**"
 
 #, fuzzy
-msgid "**mat4** **mat4**"
-msgstr "**mat4**"
-
-#, fuzzy
 msgid "**Projection**, **Transform3D**"
 msgstr "**Transform2D**"
 
@@ -1179,6 +1198,11 @@ msgstr "单实例 uniform"
 
 msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
 msgstr "只有 ``spatial``\\ （3D）着色器中才可以使用单实例 uniform。"
+
+msgid ""
+"Per-instance uniforms are not supported when using the Compatibility "
+"renderer."
+msgstr ""
 
 msgid ""
 "Sometimes, you want to modify a parameter on each node using the material. "

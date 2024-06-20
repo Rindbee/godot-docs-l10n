@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,6 +237,21 @@ msgstr ""
 "використовуватися безпосередньо."
 
 #, fuzzy
+msgid "HardLimiter"
+msgstr "Обмежувач"
+
+#, fuzzy
+msgid ""
+"A limiter is similar to a compressor, but it's less flexible and designed to "
+"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
+"limiter to the final point of the Master bus is good practice, as it offers "
+"an easy safeguard against clipping."
+msgstr ""
+"Обмежувач схожий на компресор, але він менш гнучкий і призначений для "
+"запобігання перевищення заданого порога дБ амплітудою сигналу. Додавання "
+"обмежувача до шини Master є захистом від відсікання."
+
+#, fuzzy
 msgid "HighPassFilter"
 msgstr "Filter (Фільтр)"
 
@@ -256,16 +271,21 @@ msgstr "Зменшує всі частоти вище певної частот�
 msgid "Limiter"
 msgstr "Обмежувач"
 
-#, fuzzy
 msgid ""
-"A limiter is similar to a compressor, but it's less flexible and designed to "
-"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
-"limiter to the final point of the Master bus is good practice, as it offers "
-"an easy safeguard against clipping."
+"This is the old limiter effect, and it is recommended to use the new "
+"HardLimiter effect instead."
 msgstr ""
-"Обмежувач схожий на компресор, але він менш гнучкий і призначений для "
-"запобігання перевищення заданого порога дБ амплітудою сигналу. Додавання "
-"обмежувача до шини Master є захистом від відсікання."
+
+msgid ""
+"Here is an example of how this effect works, if the ceiling is set to -12 "
+"dB, and the threshold is 0 dB, all samples going through get reduced by "
+"12dB. This changes the waveform of the sound and introduces distortion."
+msgstr ""
+
+msgid ""
+"This effect is being kept to preserve compatibility, however it should be "
+"considered deprecated."
+msgstr ""
 
 #, fuzzy
 msgid "LowPassFilter"
