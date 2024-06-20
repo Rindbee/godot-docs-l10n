@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/index.rst:65
+#: ../../docs/index.rst:63
 msgid "About"
 msgstr ""
 
-#: ../../docs/index.rst:79
+#: ../../docs/index.rst:77
 msgid "Getting started"
 msgstr ""
 
-#: ../../docs/index.rst:94
+#: ../../docs/index.rst:92
 msgid "Manual"
 msgstr ""
 
-#: ../../docs/index.rst:128
+#: ../../docs/index.rst:126
 msgid "Contributing"
 msgstr ""
 
-#: ../../docs/index.rst:140
+#: ../../docs/index.rst:138
 msgid "Community"
 msgstr ""
 
-#: ../../docs/index.rst:151
+#: ../../docs/index.rst:149
 msgid "Class reference"
 msgstr ""
 
@@ -93,9 +93,9 @@ msgid "Offline documentation"
 msgstr ""
 
 #: ../../docs/index.rst:54
-msgid "To browse the documentation offline, you can `download an HTML copy <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-master.zip>`__ for offline reading (updated every Monday). Extract the ZIP archive then open the top-level ``index.html`` in a web browser."
+msgid "To browse the documentation offline, you can download an HTML copy (updated every Monday): `stable <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-stable.zip>`__, `latest <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-master.zip>`__, `3.6 <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-html-3.6.zip>`__. Extract the ZIP archive then open the top-level ``index.html`` in a web browser."
 msgstr ""
 
-#: ../../docs/index.rst:58
-msgid "For mobile devices or e-readers, you can also `download an ePub copy <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-epub-master.zip>`__ for offline reading (updated every Monday). Extract the ZIP archive then open the ``GodotEngine.epub`` file in an e-book reader application."
+#: ../../docs/index.rst:57
+msgid "For mobile devices or e-readers, you can also download an ePub copy (updated every Monday): `stable <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-epub-stable.zip>`__, `latest <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-epub-master.zip>`__, `3.6 <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-epub-3.6.zip>`__. Extract the ZIP archive then open the ``GodotEngine.epub`` file in an e-book reader application."
 msgstr ""
