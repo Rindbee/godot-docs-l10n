@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,43 +176,43 @@ msgstr ""
 msgid "You can change uniforms from code using the function ``set_shader_parameter()`` which is called on the node's material resource. With a Sprite2D node, the following code can be used to set the ``blue`` uniform."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:205
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:212
 msgid "Note that the name of the uniform is a string. The string must match exactly with how it is written in the shader, including spelling and case."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:209
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:216
 msgid "Your first vertex function"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:211
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:218
 msgid "Now that we have a fragment function, let's write a vertex function."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:213
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:220
 msgid "Use the vertex function to calculate where on the screen each vertex should end up."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:216
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:223
 msgid "The most important variable in the vertex function is ``VERTEX``. Initially, it specifies the vertex coordinates in your model, but you also write to it to determine where to actually draw those vertices. ``VERTEX`` is a ``vec2`` that is initially presented in local-space (i.e. not relative to the camera, viewport, or parent nodes)."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:222
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:229
 msgid "You can offset the vertices by directly adding to ``VERTEX``."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:230
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:237
 msgid "Combined with the ``TIME`` built-in variable, this can be used for basic animation."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:241
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:248
 msgid "Conclusion"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:243
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:250
 msgid "At their core, shaders do what you have seen so far, they compute ``VERTEX`` and ``COLOR``. It is up to you to dream up more complex mathematical strategies for assigning values to those variables."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:247
+#: ../../docs/tutorials/shaders/your_first_shader/your_first_2d_shader.rst:254
 msgid "For inspiration, take a look at some of the more advanced shader tutorials, and look at other sites like `Shadertoy <https://www.shadertoy.com/results?query=&sort=popular&from=10&num=4>`_ and `The Book of Shaders <https://thebookofshaders.com>`_."
 msgstr ""
 

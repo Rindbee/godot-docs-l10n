@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,378 +25,422 @@ msgid "For a detailed explanation of Variant in general, see the :ref:`Variant <
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:8
-msgid "``Godot.Variant`` is used to represent Godot's native :ref:`Variant <class_Variant>` type. Any Variant-compatible type can be converted from/to it. We recommend avoiding ``Godot.Variant`` unless it is necessary to interact with untyped engine APIs. Take advantage of C#'s type safety when possible."
+msgid "``Godot.Variant`` is used to represent Godot's native :ref:`Variant <class_Variant>` type. Any :ref:`Variant-compatible type <c_sharp_variant_compatible_types>` can be converted from/to it. We recommend avoiding ``Godot.Variant`` unless it is necessary to interact with untyped engine APIs. Take advantage of C#'s type safety when possible."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:12
-msgid "Any of ``Variant.As{TYPE}`` methods or the generic ``Variant.As<T>`` method can be used to convert a ``Godot.Variant`` to a C# type. Since the ``Godot.Variant`` type contains implicit conversions defined for all the supported types, calling these methods directly is usually not necessary."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:13
+msgid "Converting from a Variant-compatible C# type to ``Godot.Variant`` can be done using implicit conversions. There are also ``CreateFrom`` method overloads and the generic ``Variant.From<T>`` methods. Only the syntax is different: the behavior is the same."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:16
-msgid "Use ``CreateFrom`` method overloads or the generic ``Variant.From<T>`` method to convert a C# type to a ``Godot.Variant``."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:26
+msgid "Implicit conversions to ``Godot.Variant`` make passing variants as method arguments very convenient. For example, the third argument of :ref:`tween_property<class_Tween_method_tween_property>` specifying the final color of the tween is a ``Godot.Variant``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:21
-msgid "Since the Variant type in C# is a struct, it can't be null. To create a \"null\" Variant use the ``default`` keyword or the parameterless constructor."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:35
+msgid "Converting from ``Godot.Variant`` to a C# type can be done using explicit conversions. There are also ``Variant.As{TYPE}`` methods and the generic ``Variant.As<T>`` method. All of these behave the same."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:25
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:49
+msgid "The ``Variant.As{TYPE}`` methods are typically named after C# types (``Int32``), not C# keywords (``int``)."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:52
+msgid "If the Variant type doesn't match the conversion target type, the consequences vary depending on the source and target values."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:55
+msgid "The conversion may examine the value and return a similar but potentially unexpected value of the target type. For example, the string ``\"42a\"`` may be converted to the integer ``42``."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:57
+msgid "The default value of the target type may be returned."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:58
+msgid "An empty array may be returned."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:59
+msgid "An exception may be thrown."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:61
+msgid "Converting to the correct type avoids complicated behavior and should be preferred."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:63
+msgid "The ``Variant.Obj`` property returns a C# ``object`` with the correct value for any variant. This may be useful when the type of Variant is completely unknown. However, when possible, prefer more specific conversions. ``Variant.Obj`` evaluates a ``switch`` on ``Variant.VariantType`` and it may not be necessary. Also, if the result is a value type, it is boxed."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:68
+msgid "For example, if the potential for ``Variant.As<MyNode>()`` to throw an invalid cast exception isn't acceptable, consider using a ``Variant.As<GodotObject>() is MyNode n`` type pattern instead."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:73
+msgid "Since the Variant type in C# is a struct, it can't be null. To create a \"null\" Variant, use the ``default`` keyword or the ``Godot.Variant`` parameterless constructor."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:79
 msgid "Variant-compatible types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:27
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:81
+msgid "A Variant-compatible type can be converted to and from a ``Godot.Variant``. These C# types are Variant-compatible:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:84
 msgid "All the `built-in value types <https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/built-in-types-table>`_, except ``decimal``, ``nint`` and ``nuint``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:29
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:86
 msgid "``string``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:30
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:87
 msgid "Classes derived from :ref:`GodotObject <class_Object>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:31
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:88
 msgid "Collections types defined in the ``Godot.Collections`` namespace."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:33
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:90
 msgid "Full list of Variant types and their equivalent C# type:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:36
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:93
 msgid "Variant.Type"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:36
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:93
 msgid "C# Type"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:38
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:95
 msgid "``Nil``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:38
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:95
 msgid "``null`` (Not a type)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:39
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:96
 msgid "``Bool``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:39
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:96
 msgid "``bool``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:40
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:97
 msgid "``Int``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:40
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:97
 msgid "``long`` (Godot stores 64-bit integers in Variant)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:41
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:98
 msgid "``Float``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:41
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:98
 msgid "``double`` (Godot stores 64-bit floats in Variant)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:42
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:99
 msgid "``String``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:42
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:99
 msgid "``string``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:43
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:100
 msgid "``Vector2``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:43
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:100
 msgid "``Godot.Vector2``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:44
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:101
 msgid "``Vector2I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:44
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:101
 msgid "``Godot.Vector2I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:45
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:102
 msgid "``Rect2``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:45
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:102
 msgid "``Godot.Rect2``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:46
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:103
 msgid "``Rect2I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:46
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:103
 msgid "``Godot.Rect2I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:47
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:104
 msgid "``Vector3``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:47
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:104
 msgid "``Godot.Vector3``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:48
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:105
 msgid "``Vector3I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:48
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:105
 msgid "``Godot.Vector3I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:49
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:106
 msgid "``Transform2D``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:49
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:106
 msgid "``Godot.Transform2D``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:50
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:107
 msgid "``Vector4``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:50
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:107
 msgid "``Godot.Vector4``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:51
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:108
 msgid "``Vector4I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:51
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:108
 msgid "``Godot.Vector4I``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:52
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:109
 msgid "``Plane``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:52
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:109
 msgid "``Godot.Plane``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:53
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:110
 msgid "``Quaternion``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:53
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:110
 msgid "``Godot.Quaternion``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:54
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:111
 msgid "``Aabb``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:54
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:111
 msgid "``Godot.Aabb``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:55
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:112
 msgid "``Basis``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:55
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:112
 msgid "``Godot.Basis``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:56
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:113
 msgid "``Transform3D``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:56
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:113
 msgid "``Godot.Transform3D``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:57
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:114
 msgid "``Projection``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:57
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:114
 msgid "``Godot.Projection``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:58
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:115
 msgid "``Color``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:58
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:115
 msgid "``Godot.Color``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:59
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:116
 msgid "``StringName``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:59
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:116
 msgid "``Godot.StringName``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:60
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:117
 msgid "``NodePath``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:60
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:117
 msgid "``Godot.NodePath``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:61
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:118
 msgid "``Rid``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:61
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:118
 msgid "``Godot.Rid``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:62
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:119
 msgid "``Object``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:62
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:119
 msgid "``Godot.GodotObject`` or any derived type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:63
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:120
 msgid "``Callable``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:63
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:120
 msgid "``Godot.Callable``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:64
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:121
 msgid "``Signal``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:64
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:121
 msgid "``Godot.Signal``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:65
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:122
 msgid "``Dictionary``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:65
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:122
 msgid "``Godot.Collections.Dictionary``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:66
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:123
 msgid "``Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:66
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:123
 msgid "``Godot.Collections.Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:67
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:124
 msgid "``PackedByteArray``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:67
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:124
 msgid "``byte[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:68
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:125
 msgid "``PackedInt32Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:68
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:125
 msgid "``int[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:69
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:126
 msgid "``PackedInt64Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:69
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:126
 msgid "``long[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:70
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:127
 msgid "``PackedFloat32Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:70
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:127
 msgid "``float[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:71
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:128
 msgid "``PackedFloat64Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:71
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:128
 msgid "``double[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:72
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:129
 msgid "``PackedStringArray``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:72
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:129
 msgid "``string[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:73
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:130
 msgid "``PackedVector2Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:73
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:130
 msgid "``Godot.Vector2[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:74
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:131
 msgid "``PackedVector3Array``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:74
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:131
 msgid "``Godot.Vector3[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:75
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:132
 msgid "``PackedColorArray``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:75
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:132
 msgid "``Godot.Color[]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:80
-msgid "Godot uses 64-bit integers and floats in Variant. Smaller integer and float types such as ``int``, ``short`` and ``float`` are supported since they can fit in the bigger type. Be aware that an implicit conversion is performed so using the wrong type will result in potential precision loss."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:137
+msgid "Godot uses 64-bit integers and floats in Variant. Smaller integer and float types such as ``int``, ``short`` and ``float`` are supported since they can fit in the bigger type. Be aware that when a conversion is performed, using the wrong type will result in potential precision loss."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:87
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:144
 msgid "Enums are supported by ``Godot.Variant`` since their underlying type is an integer type which are all compatible. However, implicit conversions don't exist, enums must be manually converted to their underlying integer type before they can converted to/from ``Godot.Variant`` or use the generic ``Variant.As<T>`` and ``Variant.From<T>`` methods to convert them."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:104
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:161
 msgid "Using Variant in a generic context"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:106
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:163
 msgid "When using generics, you may be interested in restricting the generic ``T`` type to be only one of the Variant-compatible types. This can be achieved using the ``[MustBeVariant]`` attribute."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:117
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:174
 msgid "Combined with the generic ``Variant.From<T>`` allows you to obtain an instance of ``Godot.Variant`` from an instance of a generic ``T`` type. Then it can be used in any API that only supports the ``Godot.Variant`` struct."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:134
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_variant.rst:191
 msgid "In order to invoke a method with a generic parameter annotated with the ``[MustBeVariant]`` attribute, the value must be a Variant-compatible type or a generic ``T`` type annotated with the ``[MustBeVariant]`` attribute as well."
 msgstr ""
 

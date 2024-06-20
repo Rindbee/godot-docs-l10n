@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgid "The ``velocity_computed`` signal of the NavigationAgent node must be conn
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:101
-msgid "Use ``set_velocity()`` on the NavigationAgent node in ``_physics_process()`` to update the agent with the current velocity of the agent's parent node."
+msgid "Set the ``velocity`` of the NavigationAgent node in ``_physics_process()`` to update the agent with the current velocity of the agent's parent node."
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:103
@@ -236,39 +236,43 @@ msgstr ""
 msgid "Avoidance does not affect the pathfinding. It should be seen as an additional option for constantly moving objects that cannot be (re)baked to a navigation mesh efficiently in order to move around them."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:134
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:136
+msgid "RVO avoidance makes implicit assumptions about natural agent behavior. E.g. that agents move on reasonable passing sides that can be assigned when they encounter each other. This means that very clinical avoidance test scenarios will commonly fail. E.g. agents moved directly against each other with perfect opposite velocities will fail because the agents can not get their passing sides assigned."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:139
 msgid "Using the NavigationAgent ``enable_avoidance`` property is the preferred option to toggle avoidance. The following code snippets can be used to toggle avoidance on agents, create or delete avoidance callbacks or switch avoidance modes."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:175
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:180
 msgid "NavigationAgent Script Templates"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:177
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:182
 msgid "The following sections provides script templates for nodes commonly used with NavigationAgents."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:180
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:185
 msgid "Actor as Node3D"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:182
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:187
 msgid "This script adds basic navigation movement to a :ref:`Node3D <class_Node3D>` with a :ref:`NavigationAgent3D <class_NavigationAgent3D>` child node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:215
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:220
 msgid "Actor as CharacterBody3D"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:217
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:222
 msgid "This script adds basic navigation movement to a :ref:`CharacterBody3D <class_CharacterBody3D>` with a :ref:`NavigationAgent3D <class_NavigationAgent3D>` child node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:249
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:254
 msgid "Actor as RigidBody3D"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:251
+#: ../../docs/tutorials/navigation/navigation_using_navigationagents.rst:256
 msgid "This script adds basic navigation movement to a :ref:`RigidBody3D <class_RigidBody3D>` with a :ref:`NavigationAgent3D <class_NavigationAgent3D>` child node."
 msgstr ""
 

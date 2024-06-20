@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/animation/index.rst:2
+#: ../../docs/tutorials/animation/index.rst:4
 msgid "Animation"
 msgstr ""
 
-#: ../../docs/tutorials/animation/index.rst:4
+#: ../../docs/tutorials/animation/index.rst:6
 msgid "This section of the tutorial covers using the two animation nodes in Godot and the animation editor."
 msgstr ""
 
-#: ../../docs/tutorials/animation/index.rst:19
+#: ../../docs/tutorials/animation/index.rst:21
 msgid "See :ref:`doc_importing_3d_scenes` for information on importing animations from a 3D model."
 msgstr ""
 

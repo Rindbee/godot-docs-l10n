@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -222,221 +222,229 @@ msgid "Refers to current class instance."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:190
-msgid "signal"
+msgid "super"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:190
+msgid "Resolves the scope of the parent method. See `Inheritance`_."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:192
+msgid "signal"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:192
 msgid "Defines a signal."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:192
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:194
 msgid "func"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:192
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:194
 msgid "Defines a function."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:194
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:196
 msgid "static"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:194
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:196
 msgid "Defines a static function or a static member variable."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:196
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:198
 msgid "const"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:196
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:198
 msgid "Defines a constant."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:198
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:200
 msgid "enum"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:198
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:200
 msgid "Defines an enum."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:200
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:202
 msgid "var"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:200
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:202
 msgid "Defines a variable."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:202
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:204
 msgid "breakpoint"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:202
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:204
 msgid "Editor helper for debugger breakpoints. Unlike breakpoints created by clicking in the gutter, ``breakpoint`` is stored in the script itself. This makes it persistent across different machines when using version control."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:205
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:207
 msgid "preload"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:205
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:207
 msgid "Preloads a class or variable. See `Classes as resources`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:207
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:209
 msgid "await"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:207
-msgid "Waits for a signal or a coroutine to finish. See `Awaiting for signals or coroutines`_."
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:209
+msgid "Waits for a signal or a coroutine to finish. See `Awaiting signals or coroutines`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:209
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:211
 msgid "yield"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:209
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:211
 msgid "Previously used for coroutines. Kept as keyword for transition."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:211
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:213
 msgid "assert"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:211
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:213
 msgid "Asserts a condition, logs error on failure. Ignored in non-debug builds. See `Assert keyword`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:213
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:215
 msgid "void"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:213
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:215
 msgid "Used to represent that a function does not return any value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:215
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:217
 msgid "PI"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:215
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:217
 msgid "PI constant."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:217
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:219
 msgid "TAU"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:217
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:219
 msgid "TAU constant."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:219
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:221
 msgid "INF"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:219
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:221
 msgid "Infinity constant. Used for comparisons and as result of calculations."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:221
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:223
 msgid "NAN"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:221
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:223
 msgid "NAN (not a number) constant. Used as impossible result from calculations."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:225
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:227
 msgid "Operators"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:227
-msgid "The following is the list of supported operators and their precedence."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:230
-msgid "**Operator**"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:230
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:344
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:374
-msgid "**Description**"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:232
-msgid "``(`` ``)``"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:232
-msgid "Grouping (highest priority)"
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:229
+msgid "The following is the list of supported operators and their precedence. All binary operators are `left-associative <https://en.wikipedia.org/wiki/Operator_associativity>`_, including the ``**`` operator. This means that ``2 ** 2 ** 3`` is equal to ``(2 ** 2) ** 3``. Use parentheses to explicitly specify precedence you need, for example ``2 ** (2 ** 3)``. The ternary ``if/else`` operator is right-associative."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:234
+msgid "**Operator**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:234
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:342
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:372
+msgid "**Description**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:236
+msgid "``(`` ``)``"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:236
+msgid "Grouping (highest priority)"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:238
 msgid "Parentheses are not really an operator, but allow you to explicitly specify the precedence of an operation."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:237
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:241
 msgid "``x[index]``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:237
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:241
 msgid "Subscription"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:239
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:243
 msgid "``x.attribute``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:239
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:243
 msgid "Attribute reference"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:241
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:245
 msgid "``foo()``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:241
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:245
 msgid "Function call"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:243
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:247
 msgid "``await x``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:243
-msgid "`Awaiting for signals or coroutines`_"
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:247
+msgid "`Awaiting signals or coroutines`_"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:245
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:0
 msgid "``x is Node``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:245
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:0
+msgid "``x is not Node``"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:249
 msgid "Type checking"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:247
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:251
 msgid "See also :ref:`is_instance_of() <class_@GDScript_method_is_instance_of>` function."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:250
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:254
 msgid "``x ** y``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:250
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:254
 msgid "Power"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:252
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:256
 msgid "Multiplies ``x`` by itself ``y`` times, similar to calling :ref:`pow() <class_@GlobalScope_method_pow>` function."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:255
-msgid "**Note:** In GDScript, the ``**`` operator is `left-associative <https://en.wikipedia.org/wiki/Operator_associativity>`_. See a detailed note after the table."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:259
@@ -704,941 +712,937 @@ msgid "For negative values, the ``%`` operator and ``fmod()`` use `truncation <h
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:333
-msgid "The ``**`` operator is `left-associative <https://en.wikipedia.org/wiki/Operator_associativity>`_. This means that ``2 ** 2 ** 3`` is equal to ``(2 ** 2) ** 3``. Use parentheses to explicitly specify precedence you need, for example ``2 ** (2 ** 3)``."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:335
 msgid "The ``==`` and ``!=`` operators sometimes allow you to compare values of different types (for example, ``1 == 1.0`` is true), but in other cases it can cause a runtime error. If you're not sure about the types of the operands, you can safely use the :ref:`is_same() <class_@GlobalScope_method_is_same>` function (but note that it is more strict about types and references). To compare floats, use the :ref:`is_equal_approx() <class_@GlobalScope_method_is_equal_approx>` and :ref:`is_zero_approx() <class_@GlobalScope_method_is_zero_approx>` functions instead."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:341
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:339
 msgid "Literals"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:344
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:342
 msgid "**Example(s)**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:346
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:344
 msgid "``null``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:346
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:344
 msgid "Null value"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:348
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:346
 msgid "``false``, ``true``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:348
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:346
 msgid "Boolean values"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:350
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:348
 msgid "``45``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:350
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:348
 msgid "Base 10 integer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:352
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:350
 msgid "``0x8f51``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:352
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:350
 msgid "Base 16 (hexadecimal) integer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:354
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:352
 msgid "``0b101010``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:354
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:352
 msgid "Base 2 (binary) integer"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:356
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:354
 msgid "``3.14``, ``58.1e-10``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:356
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:354
 msgid "Floating-point number (real)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:358
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:356
 msgid "``\"Hello\"``, ``'Hi'``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:358
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:356
 msgid "Regular strings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:360
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:358
 msgid "``\"\"\"Hello\"\"\"``, ``'''Hi'''``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:360
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:358
 msgid "Triple-quoted regular strings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:362
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:360
 msgid "``r\"Hello\"``, ``r'Hi'``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:362
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:360
 msgid "Raw strings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:364
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:362
 msgid "``r\"\"\"Hello\"\"\"``, ``r'''Hi'''``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:364
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:362
 msgid "Triple-quoted raw strings"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:366
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:364
 msgid "``&\"name\"``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:366
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:704
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:364
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:710
 msgid ":ref:`StringName <class_StringName>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:368
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:366
 msgid "``^\"Node/Label\"``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:368
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:711
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:366
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:717
 msgid ":ref:`NodePath <class_NodePath>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:371
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:369
 msgid "There are also two constructs that look like literals, but actually are not:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:374
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:372
 msgid "**Example**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:376
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:374
 msgid "``$NodePath``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:376
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:374
 msgid "Shorthand for ``get_node(\"NodePath\")``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:378
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:376
 msgid "``%UniqueNode``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:378
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:376
 msgid "Shorthand for ``get_node(\"%UniqueNode\")``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:381
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:379
 msgid "Integers and floats can have their numbers separated with ``_`` to make them more readable. The following ways to write numbers are all valid::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:389
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:387
 msgid "**Regular string literals** can contain the following escape sequences:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:392
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:390
 msgid "**Escape sequence**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:392
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:390
 msgid "**Expands to**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:394
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:392
 msgid "``\\n``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:394
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:392
 msgid "Newline (line feed)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:396
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:394
 msgid "``\\t``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:396
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:394
 msgid "Horizontal tab character"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:398
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:396
 msgid "``\\r``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:398
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:396
 msgid "Carriage return"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:400
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:398
 msgid "``\\a``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:400
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:398
 msgid "Alert (beep/bell)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:402
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:400
 msgid "``\\b``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:402
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:400
 msgid "Backspace"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:404
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:402
 msgid "``\\f``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:404
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:402
 msgid "Formfeed page break"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:406
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:404
 msgid "``\\v``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:406
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:404
 msgid "Vertical tab character"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:408
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:406
 msgid "``\\\"``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:408
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:406
 msgid "Double quote"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:410
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:408
 msgid "``\\'``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:410
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:408
 msgid "Single quote"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:412
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:410
 msgid "``\\\\``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:412
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:410
 msgid "Backslash"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:414
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:412
 msgid "``\\uXXXX``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:414
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:412
 msgid "UTF-16 Unicode codepoint ``XXXX`` (hexadecimal, case-insensitive)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:418
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:416
 msgid "``\\UXXXXXX``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:418
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:416
 msgid "UTF-32 Unicode codepoint ``XXXXXX`` (hexadecimal, case-insensitive)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:423
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:421
 msgid "There are two ways to represent an escaped Unicode character above ``0xFFFF``:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:425
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:423
 msgid "as a `UTF-16 surrogate pair <https://en.wikipedia.org/wiki/UTF-16#Code_points_from_U+010000_to_U+10FFFF>`_ ``\\uXXXX\\uXXXX``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:426
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:424
 msgid "as a single UTF-32 codepoint ``\\UXXXXXX``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:428
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:426
 msgid "Also, using ``\\`` followed by a newline inside a string will allow you to continue it in the next line, without inserting a newline character in the string itself."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:431
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:429
 msgid "A string enclosed in quotes of one type (for example ``\"``) can contain quotes of another type (for example ``'``) without escaping. Triple-quoted strings allow you to avoid escaping up to two consecutive quotes of the same type (unless they are adjacent to the string edges)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:435
-msgid "**Raw string literals** always encode the string as it appears in the source code. This is especially useful for regular expressions. Raw strings do not process escape sequences, but you can \"escape\" a quote or backslash (they replace themselves)."
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:433
+msgid "**Raw string literals** always encode the string as it appears in the source code. This is especially useful for regular expressions. A raw string literal doesn't process escape sequences, however it does recognize ``\\\\`` and ``\\\"`` (``\\'``) and replaces them with themselves. Thus, a string can have a quote that matches the opening one, but only if it's preceded by a backslash."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:444
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:445
+msgid "Some strings cannot be represented using raw string literals: you cannot have an odd number of backslashes at the end of a string or have an unescaped opening quote inside the string. However, in practice this doesn't matter since you can use a different quote type or use concatenation with a regular string literal."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:450
 msgid "GDScript also supports :ref:`format strings <doc_gdscript_printf>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:447
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:453
 msgid "Annotations"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:449
-msgid "There are some special tokens in GDScript that act like keywords but are not, they are *annotations* instead. Every annotation start with the ``@`` character and is specified by a name. A detailed description and example for each annotation can be found inside the :ref:`GDScript class reference <class_@GDScript>`."
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:455
+msgid "Annotations are special tokens in GDScript that act as modifiers to a script or its code and may affect how the script is treated by the Godot engine or editor."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:454
-msgid "Annotations affect how the script is treated by external tools and usually don't change the behavior."
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:459
+msgid "Every annotation starts with the ``@`` character and is specified by a name. A detailed description and example for each annotation can be found inside the :ref:`GDScript class reference <class_@GDScript>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:457
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:463
 msgid "For instance, you can use it to export a value to the editor::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:462
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:468
 msgid "For more information about exporting properties, read the :ref:`GDScript exports <doc_gdscript_exports>` article."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:465
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:471
 msgid "Any constant expression compatible with the required argument type can be passed as an annotation argument value::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:472
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:478
 msgid "Annotations can be specified one per line or all in the same line. They affect the next statement that isn't an annotation. Annotations can have arguments sent between parentheses and separated by commas."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:476
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:482
 msgid "Both of these are the same::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:487
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:493
 msgid "``@onready`` annotation"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:489
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:495
 msgid "When using nodes, it's common to desire to keep references to parts of the scene in a variable. As scenes are only warranted to be configured when entering the active scene tree, the sub-nodes can only be obtained when a call to ``Node._ready()`` is made."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:502
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:508
 msgid "This can get a little cumbersome, especially when nodes and external references pile up. For this, GDScript has the ``@onready`` annotation, that defers initialization of a member variable until ``_ready()`` is called. It can replace the above code with a single line::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:511
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:517
 msgid "Applying ``@onready`` and any ``@export`` annotation to the same variable doesn't work as you might expect. The ``@onready`` annotation will cause the default value to be set after the ``@export`` takes effect and will override it::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:529
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:535
 msgid "Therefore, the ``ONREADY_WITH_EXPORT`` warning is generated, which is treated as an error by default. We do not recommend disabling or ignoring it."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:533
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:539
 msgid "Comments"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:535
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:541
 msgid "Anything from a ``#`` to the end of the line is ignored and is considered a comment."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:544
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:550
 msgid "In the Godot script editor, special keywords are highlighted within comments to bring the user's attention to specific comments:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:547
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:553
 msgid "**Critical** *(appears in red)*: ``ALERT``, ``ATTENTION``, ``CAUTION``, ``CRITICAL``, ``DANGER``, ``SECURITY``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:549
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:555
 msgid "**Warning** *(appears in yellow)*: ``BUG``, ``DEPRECATED``, ``FIXME``, ``HACK``, ``TASK``, ``TBD``, ``TODO``, ``WARNING``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:551
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:557
 msgid "**Notice** *(appears in green)*: ``INFO``, ``NOTE``, ``NOTICE``, ``TEST``, ``TESTING``"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:554
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:560
 msgid "These keywords are case-sensitive, so they must be written in uppercase for them to be recognized:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:564
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:570
 msgid "The list of highlighted keywords and their colors can be changed in the **Text Editor > Theme > Comment Markers** section of the Editor Settings."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:570
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:576
 msgid "Code regions"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:572
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:578
 msgid "Code regions are special types of comments that the script editor understands as *foldable regions*. This means that after writing code region comments, you can collapse and expand the region by clicking the arrow that appears at the left of the comment. This arrow appears within a purple square to be distinguishable from standard code folding."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:578
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:584
 msgid "The syntax is as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:596
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:602
 msgid "To create a code region quickly, select several lines in the script editor, right-click the selection then choose **Create Code Region**. The region description will be selected automatically for editing."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:600
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:606
 msgid "It is possible to nest code regions within other code regions."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:602
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:608
 msgid "Here's a concrete usage example of code regions:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:624
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:630
 msgid "This can be useful to organize large chunks of code into easier to understand sections. However, remember that external editors generally don't support this feature, so make sure your code is easy to follow even when not relying on folding code regions."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:631
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:637
 msgid "Individual functions and indented sections (such as ``if`` and ``for``) can *always* be collapsed in the script editor. This means you should avoid using a code region to contain a single function or indented section, as it won't bring much of a benefit. Code regions work best when they're used to group multiple elements together."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:638
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:644
 msgid "Line continuation"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:640
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:646
 msgid "A line of code in GDScript can be continued on the next line by using a backslash (``\\``). Add one at the end of a line and the code on the next line will act like it's where the backslash is. Here is an example:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:649
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:655
 msgid "A line can be continued multiple times like this:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:659
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:665
 msgid "Built-in types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:661
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:667
 msgid "Built-in types are stack-allocated. They are passed as values. This means a copy is created on each assignment or when passing them as arguments to functions. The exceptions are ``Object``, ``Array``, ``Dictionary``, and packed arrays (such as ``PackedByteArray``), which are passed by reference so they are shared. All arrays, ``Dictionary``, and some objects (``Node``, ``Resource``) have a ``duplicate()`` method that allows you to make a copy."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:669
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:675
 msgid "Basic built-in types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:671
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:677
 msgid "A variable in GDScript can be assigned to several built-in types."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:674
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:680
 msgid "null"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:676
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:682
 msgid "``null`` is an empty data type that contains no information and can not be assigned any other value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:680
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:686
 msgid ":ref:`bool <class_bool>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:682
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:688
 msgid "Short for \"boolean\", it can only contain ``true`` or ``false``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:685
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:691
 msgid ":ref:`int <class_int>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:687
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:693
 msgid "Short for \"integer\", it stores whole numbers (positive and negative). It is stored as a 64-bit value, equivalent to ``int64_t`` in C++."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:691
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:697
 msgid ":ref:`float <class_float>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:693
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:699
 msgid "Stores real numbers, including decimals, using floating-point values. It is stored as a 64-bit value, equivalent to ``double`` in C++. Note: Currently, data structures such as ``Vector2``, ``Vector3``, and ``PackedFloat32Array`` store 32-bit single-precision ``float`` values."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:699
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:705
 msgid ":ref:`String <class_String>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:701
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:707
 msgid "A sequence of characters in `Unicode format <https://en.wikipedia.org/wiki/Unicode>`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:706
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:712
 msgid "An immutable string that allows only one instance of each name. They are slower to create and may result in waiting for locks when multithreading. In exchange, they're very fast to compare, which makes them good candidates for dictionary keys."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:713
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:719
 msgid "A pre-parsed path to a node or a node property.  It can be easily assigned to, and from, a String. They are useful to interact with the tree to get a node, or affecting properties like with :ref:`Tweens <class_Tween>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:718
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:724
 msgid "Vector built-in types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:721
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:727
 msgid ":ref:`Vector2 <class_Vector2>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:723
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:729
 msgid "2D vector type containing ``x`` and ``y`` fields. Can also be accessed as an array."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:727
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:733
 msgid ":ref:`Vector2i <class_Vector2i>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:729
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:735
 msgid "Same as a Vector2 but the components are integers. Useful for representing items in a 2D grid."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:733
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:739
 msgid ":ref:`Rect2 <class_Rect2>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:735
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:741
 msgid "2D Rectangle type containing two vectors fields: ``position`` and ``size``. Also contains an ``end`` field which is ``position + size``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:739
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:745
 msgid ":ref:`Vector3 <class_Vector3>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:741
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:747
 msgid "3D vector type containing ``x``, ``y`` and ``z`` fields. This can also be accessed as an array."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:745
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:751
 msgid ":ref:`Vector3i <class_Vector3i>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:747
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:753
 msgid "Same as Vector3 but the components are integers. Can be use for indexing items in a 3D grid."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:751
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:757
 msgid ":ref:`Transform2D <class_Transform2D>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:753
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:759
 msgid "3×2 matrix used for 2D transforms."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:756
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:762
 msgid ":ref:`Plane <class_Plane>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:758
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:764
 msgid "3D Plane type in normalized form that contains a ``normal`` vector field and a ``d`` scalar distance."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:762
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:768
 msgid ":ref:`Quaternion <class_Quaternion>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:764
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:770
 msgid "Quaternion is a datatype used for representing a 3D rotation. It's useful for interpolating rotations."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:768
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:774
 msgid ":ref:`AABB <class_AABB>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:770
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:776
 msgid "Axis-aligned bounding box (or 3D box) contains 2 vectors fields: ``position`` and ``size``. Also contains an ``end`` field which is ``position + size``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:775
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:781
 msgid ":ref:`Basis <class_Basis>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:777
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:783
 msgid "3x3 matrix used for 3D rotation and scale. It contains 3 vector fields (``x``, ``y`` and ``z``) and can also be accessed as an array of 3D vectors."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:782
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:788
 msgid ":ref:`Transform3D <class_Transform3D>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:784
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:790
 msgid "3D Transform contains a Basis field ``basis`` and a Vector3 field ``origin``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:788
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:794
 msgid "Engine built-in types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:791
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:797
 msgid ":ref:`Color <class_Color>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:793
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:799
 msgid "Color data type contains ``r``, ``g``, ``b``, and ``a`` fields. It can also be accessed as ``h``, ``s``, and ``v`` for hue/saturation/value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:797
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:803
 msgid ":ref:`RID <class_RID>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:799
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:805
 msgid "Resource ID (RID). Servers use generic RIDs to reference opaque data."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:802
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:808
 msgid ":ref:`Object <class_Object>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:804
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:810
 msgid "Base class for anything that is not a built-in type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:807
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:813
 msgid "Container built-in types"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:810
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:816
 msgid ":ref:`Array <class_Array>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:812
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:818
 msgid "Generic sequence of arbitrary object types, including other arrays or dictionaries (see below). The array can resize dynamically. Arrays are indexed starting from index ``0``. Negative indices count from the end."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:827
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:833
 msgid "Typed arrays"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:829
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:835
 msgid "Godot 4.0 added support for typed arrays. On write operations, Godot checks that element values match the specified type, so the array cannot contain invalid values. The GDScript static analyzer takes typed arrays into account, however array methods like ``front()`` and ``back()`` still have the ``Variant`` return type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:834
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:840
 msgid "Typed arrays have the syntax ``Array[Type]``, where ``Type`` can be any ``Variant`` type, native or user class, or enum. Nested array types (like ``Array[Array[int]]``) are not supported."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:845
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:851
 msgid "``Array`` and ``Array[Variant]`` are the same thing."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:849
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:855
 msgid "Arrays are passed by reference, so the array element type is also an attribute of the in-memory structure referenced by a variable in runtime. The static type of a variable restricts the structures that it can reference to. Therefore, you **cannot** assign an array with a different element type, even if the type is a subtype of the required type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:854
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:860
 msgid "If you want to *convert* a typed array, you can create a new array and use the :ref:`Array.assign() <class_Array_method_assign>` method::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:869
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:875
 msgid "The only exception was made for the ``Array`` (``Array[Variant]``) type, for user convenience and compatibility with old code. However, operations on untyped arrays are considered unsafe."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:873
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:879
 msgid "Packed arrays"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:875
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:881
 msgid "GDScript arrays are allocated linearly in memory for speed. Large arrays (more than tens of thousands of elements) may however cause memory fragmentation. If this is a concern, special types of arrays are available. These only accept a single data type. They avoid memory fragmentation and use less memory, but are atomic and tend to run slower than generic arrays. They are therefore only recommended to use for large data sets:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:882
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:888
 msgid ":ref:`PackedByteArray <class_PackedByteArray>`: An array of bytes (integers from 0 to 255)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:883
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:889
 msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`: An array of 32-bit integers."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:884
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:890
 msgid ":ref:`PackedInt64Array <class_PackedInt64Array>`: An array of 64-bit integers."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:885
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:891
 msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>`: An array of 32-bit floats."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:886
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:892
 msgid ":ref:`PackedFloat64Array <class_PackedFloat64Array>`: An array of 64-bit floats."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:887
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:893
 msgid ":ref:`PackedStringArray <class_PackedStringArray>`: An array of strings."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:888
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:894
 msgid ":ref:`PackedVector2Array <class_PackedVector2Array>`: An array of :ref:`Vector2 <class_Vector2>` values."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:889
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:895
 msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`: An array of :ref:`Vector3 <class_Vector3>` values."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:890
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:896
 msgid ":ref:`PackedColorArray <class_PackedColorArray>`: An array of :ref:`Color <class_Color>` values."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:893
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:899
 msgid ":ref:`Dictionary <class_Dictionary>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:895
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:901
 msgid "Associative container which contains values referenced by unique keys."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:908
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:914
 msgid "Lua-style table syntax is also supported. Lua-style uses ``=`` instead of ``:`` and doesn't use quotes to mark string keys (making for slightly less to write). However, keys written in this form can't start with a digit (like any GDScript identifier), and must be string literals."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:922
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:928
 msgid "To add a key to an existing dictionary, access it like an existing key and assign to it::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:938
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:944
 msgid "The bracket syntax can be used to access properties of any :ref:`class_Object`, not just Dictionaries. Keep in mind it will cause a script error when attempting to index a non-existing property. To avoid this, use the :ref:`Object.get() <class_Object_method_get>` and :ref:`Object.set() <class_Object_method_set>` methods instead."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:945
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:951
 msgid ":ref:`Signal <class_Signal>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:947
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:953
 msgid "A signal is a message that can be emitted by an object to those who want to listen to it. The Signal type can be used for passing the emitter around."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:950
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:956
 msgid "Signals are better used by getting them from actual objects, e.g. ``$Button.button_up``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:953
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:959
 msgid ":ref:`Callable <class_Callable>`"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:955
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:961
 msgid "Contains an object and a function, which is useful for passing functions as values (e.g. when connecting to signals)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:958
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:964
 msgid "Getting a method as a member returns a callable. ``var x = $Sprite2D.rotate`` will set the value of ``x`` to a callable with ``$Sprite2D`` as the object and ``rotate`` as the method."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:962
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:968
 msgid "You can call it using the ``call`` method: ``x.call(PI)``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:965
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:971
 msgid "Data"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:968
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:974
 msgid "Variables"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:970
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:976
 msgid "Variables can exist as class members or local to functions. They are created with the ``var`` keyword and may, optionally, be assigned a value upon initialization."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:981
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:987
 msgid "Variables can optionally have a type specification. When a type is specified, the variable will be forced to have always that same type, and trying to assign an incompatible value will raise an error."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:985
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:991
 msgid "Types are specified in the variable declaration using a ``:`` (colon) symbol after the variable name, followed by the type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:993
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:999
 msgid "If the variable is initialized within the declaration, the type can be inferred, so it's possible to omit the type name::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:999
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1005
 msgid "Type inference is only possible if the assigned value has a defined type, otherwise it will raise an error."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1002
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1008
 msgid "Valid types are:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1004
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1010
 msgid "Built-in types (Array, Vector2, int, String, etc.)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1005
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1011
 msgid "Engine classes (Node, Resource, Reference, etc.)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1006
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1012
 msgid "Constant names if they contain a script resource (``MyScript`` if you declared ``const MyScript = preload(\"res://my_script.gd\")``)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1007
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1013
 msgid "Other classes in the same script, respecting scope (``InnerClass.NestedClass`` if you declared ``class NestedClass`` inside the ``class InnerClass`` in the same scope)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1008
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1014
 msgid "Script classes declared with the ``class_name`` keyword."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1009
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1015
 msgid "Autoloads registered as singletons."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1013
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1019
 msgid "While ``Variant`` is a valid type specification, it's not an actual type. It only means there's no set type and is equivalent to not having a static type at all. Therefore, inference is not allowed by default for ``Variant``, since it's likely a mistake."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1018
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1024
 msgid "You can turn off this check, or make it only a warning, by changing it in the project settings. See :ref:`doc_gdscript_warning_system` for details."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1022
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1028
 msgid "Initialization order"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1024
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1030
 msgid "Member variables are initialized in the following order:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1026
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1032
 msgid "Depending on the variable's static type, the variable is either ``null`` (untyped variables and objects) or has a default value of the type (``0`` for ``int``, ``false`` for ``bool``, etc.)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1029
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1035
 msgid "The specified values are assigned in the order of the variables in the script, from top to bottom. - *(Only for ``Node``-derived classes)* If the ``@onready`` annotation is applied to a variable, its initialization is deferred to step 5."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1032
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1038
 msgid "If defined, the ``_init()`` method is called."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1033
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1039
 msgid "When instantiating scenes and resources, the exported values are assigned."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1034
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1040
 msgid "*(Only for ``Node``-derived classes)* ``@onready`` variables are initialized."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1035
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1041
 msgid "*(Only for ``Node``-derived classes)* If defined, the ``_ready()`` method is called."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1039
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1045
 msgid "You can specify a complex expression as a variable initializer, including function calls. Make sure the variables are initialized in the correct order, otherwise your values may be overwritten. For example::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1055
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1061
 msgid "Will print::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1061
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1067
 msgid "To fix this, move the ``_data`` variable definition above the ``a`` definition or remove the empty dictionary assignment (``= {}``)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1065
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1071
 msgid "Static variables"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1067
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1073
 msgid "A class member variable can be declared static::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1071
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1077
 msgid "Static variables belong to the class, not instances. This means that static variables share values between multiple instances, unlike regular member variables."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1074
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1080
 msgid "From inside a class, you can access static variables from any function, both static and non-static. From outside the class, you can access static variables using the class or an instance (the second is not recommended as it is less readable)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1080
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1086
 msgid "The ``@export`` and ``@onready`` annotations cannot be applied to a static variable. Local variables cannot be static."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1083
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1089
 msgid "The following example defines a ``Person`` class with a static variable named ``max_id``. We increment the ``max_id`` in the ``_init()`` function. This makes it easy to keep track of the number of ``Person`` instances in our game."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1102
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1108
 msgid "In this code, we create two instances of our ``Person`` class and check that the class and every instance have the same ``max_id`` value, because the variable is static and accessible to every instance."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1121
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1127
 msgid "Static variables can have type hints, setters and getters::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1131
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1137
 msgid "A base class static variable can also be accessed via a child class::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1147
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1153
 msgid "``@static_unload`` annotation"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1149
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1155
 msgid "Since GDScript classes are resources, having static variables in a script prevents it from being unloaded even if there are no more instances of that class and no other references left. This can be important if static variables store large amounts of data or hold references to other project resources, such as scenes. You should clean up this data manually, or use the :ref:`@static_unload <class_@GDScript_annotation_@static_unload>` annotation if static variables don't store important data and can be reset."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1157
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1163
 msgid "Currently, due to a bug, scripts are never freed, even if ``@static_unload`` annotation is used."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1159
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1165
 msgid "Note that ``@static_unload`` applies to the entire script (including inner classes) and must be placed at the top of the script, before ``class_name`` and ``extends``::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1166
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1172
 msgid "See also `Static functions`_ and `Static constructor`_."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1169
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1175
 msgid "Casting"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1171
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1177
 msgid "Values assigned to typed variables must have a compatible type. If it's needed to coerce a value to be of a certain type, in particular for object types, you can use the casting operator ``as``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1175
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1181
 msgid "Casting between object types results in the same object if the value is of the same type or a subtype of the cast type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1183
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1189
 msgid "If the value is not a subtype, the casting operation will result in a ``null`` value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1190
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1196
 msgid "For built-in types, they will be forcibly converted if possible, otherwise the engine will raise an error."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1199
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1205
 msgid "Casting is also useful to have better type-safe variables when interacting with the scene tree::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1209
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1215
 msgid "Constants"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1211
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1217
 msgid "Constants are values you cannot change when the game is running. Their value must be known at compile-time. Using the ``const`` keyword allows you to give a constant value a name. Trying to assign a value to a constant after it's declared will give you an error."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1216
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1222
 msgid "We recommend using constants whenever a value is not meant to change."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1229
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1235
 msgid "Although the type of constants is inferred from the assigned value, it's also possible to add explicit type specification::"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1235
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1241
 msgid "Assigning a value of an incompatible type will raise an error."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1237
+#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1243
 msgid "You can also create constants inside a function, which is useful to name local magic values."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1242
-msgid "Since objects, arrays and dictionaries are passed by reference, constants are \"flat\". This means that if you declare a constant array or dictionary, it can still be modified afterwards. They can't be reassigned with another value though."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:1247
@@ -2130,7 +2134,7 @@ msgid "Classes as resources"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2016
-msgid "Classes stored as files are treated as :ref:`resources <class_GDScript>`. They must be loaded from disk to access them in other classes. This is done using either the ``load`` or ``preload`` functions (see below). Instancing of a loaded class resource is done by calling the ``new`` function on the class object::"
+msgid "Classes stored as files are treated as :ref:`GDScripts <class_GDScript>`. They must be loaded from disk to access them in other classes. This is done using either the ``load`` or ``preload`` functions (see below). Instancing of a loaded class resource is done by calling the ``new`` function on the class object::"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2033
@@ -2302,7 +2306,7 @@ msgid "Our ``BattleLog`` node receives each element in the binds array as an ext
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2351
-msgid "Awaiting for signals or coroutines"
+msgid "Awaiting signals or coroutines"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2353
@@ -2314,7 +2318,7 @@ msgid "For example, to stop execution until the user presses a button, you can d
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2366
-msgid "In this case, the ``wait_confirmation`` becomes a coroutine, which means that the caller also needs to await for it::"
+msgid "In this case, the ``wait_confirmation`` becomes a coroutine, which means that the caller also needs to await it::"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2376
@@ -2330,7 +2334,7 @@ msgid "If you use await with an expression that isn't a signal nor a coroutine, 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2398
-msgid "This also means that returning a signal from a function that isn't a coroutine will make the caller await on that signal::"
+msgid "This also means that returning a signal from a function that isn't a coroutine will make the caller await that signal::"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_basics.rst:2407

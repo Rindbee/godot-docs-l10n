@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "There are two ways to add/remove nodes to groups:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:24
-msgid "During design, by using the Node dock in the editor."
+msgid "During design, by using the Node dock in the editor, or the Global Groups in project settings."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:25
@@ -65,74 +65,74 @@ msgid "Using the Node dock"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:32
-msgid "You can add nodes in the current scene to groups using the Groups tab in the Node dock."
+msgid "You can create new groups using the Groups tab in the Node dock."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:37
-msgid "Select one or more nodes in the Scene dock and write the group name in the field, then click Add."
+#: ../../docs/tutorials/scripting/groups.rst:36
+msgid "Select one or more nodes in the Scene dock then click the add button with the + symbol."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/groups.rst:40
+msgid "You should now see the Create New Group modal appear. Write the group name in the field."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:42
-msgid "You should now see the group appear."
+msgid "You can optionally mark the option \"Global\", which will make the group visible project-wide, and able to be reused in any project scene. This will also allow you to give it a description."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:46
-msgid "In a complex project, you may end up with many groups or large scenes with many nodes. You can add or remove any node to groups using the Group Editor window. To access it, click the Manage Groups button."
+#: ../../docs/tutorials/scripting/groups.rst:45
+msgid "When done, press Ok to create it."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/groups.rst:49
+msgid "You should see the new groups appear in the Groups tab under Scene Groups if the Global option was unmarked, or under Global Groups if that option was marked."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:52
-msgid "The Group Editor window appears. Here's a screenshot from a complex project to illustrate the tool's purpose."
+msgid "Selected Node(s) from the Scene dock can be added into groups by marking the checkbox on the left side of the groups in the Groups dock. The node(s) you had selected when creating a new group will be automatically checked."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:57
-msgid "It has three columns:"
+msgid "All groups present in the project that were marked as Global, created from any scene, will be visible under Global Groups."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:59
-msgid "A list of groups used by nodes in the current scene."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/groups.rst:60
-msgid "A list of nodes that are not part of the selected group."
+msgid "Any other group derived from nodes in the current scene will appear under Scene Groups."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:61
-msgid "A list of nodes in the group."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/groups.rst:63
-msgid "The fields at the bottom allow you to add new groups or filter nodes in the second and third columns."
+msgid "The same underlying logic is used for both Global and Scene groups. Groups with the same name are considered one and the same. This feature is purely organizational."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/groups.rst:66
-msgid "Any node name that's greyed out means the node was added to the group in a different scene and you cannot edit it here. This happens on scene instances in particular."
+msgid "You can manage Global Groups in the Global Groups dock, inside Project Settings. There, you will be able to add new global groups, or change existing groups' names and descriptions."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:71
+#: ../../docs/tutorials/scripting/groups.rst:72
 msgid "Using code"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:73
+#: ../../docs/tutorials/scripting/groups.rst:74
 msgid "You can also manage groups from scripts. The following code adds the node to which you attach the script to the ``guards`` group as soon as it enters the scene tree."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:92
+#: ../../docs/tutorials/scripting/groups.rst:93
 msgid "Imagine you're creating an infiltration game. When an enemy spots the player, you want all guards and robots to be on alert."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:95
+#: ../../docs/tutorials/scripting/groups.rst:96
 msgid "In the fictional example below, we use ``SceneTree.call_group()`` to alert all enemies that the player was spotted."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:111
+#: ../../docs/tutorials/scripting/groups.rst:112
 msgid "The above code calls the function ``enter_alert_mode`` on every member of the group ``guards``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:114
+#: ../../docs/tutorials/scripting/groups.rst:115
 msgid "To get the full list of nodes in the ``guards`` group as an array, you can call :ref:`SceneTree.get_nodes_in_group() <class_SceneTree_method_get_nodes_in_group>`:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/groups.rst:127
+#: ../../docs/tutorials/scripting/groups.rst:128
 msgid "The :ref:`SceneTree <class_SceneTree>` class provides many more useful methods to interact with scenes, their node hierarchy, and groups. It allows you to switch scenes easily or reload them, quit the game or pause and unpause it. It also provides useful signals."
 msgstr ""
 

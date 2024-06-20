@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,6 +157,7 @@ msgid "Visual Profiler is supported when using any rendering method (Forward+, M
 msgstr ""
 
 #: ../../docs/tutorials/scripting/debug/debugger_panel.rst:131
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:131
 msgid "Example results from a 2D scene in the Visual Profiler"
 msgstr ""
 
@@ -164,6 +165,7 @@ msgstr ""
 msgid "To give another example with Forward+, a 3D scene with shadow-casting lights and various effects enabled will result in the following categories enabled:"
 msgstr ""
 
+#: ../../docs/tutorials/scripting/debug/debugger_panel.rst:139
 #: ../../docs/tutorials/scripting/debug/debugger_panel.rst:139
 msgid "Example results from a 3D scene in the Visual Profiler"
 msgstr ""

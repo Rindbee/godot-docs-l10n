@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -414,6 +414,7 @@ msgid "The developers chose some specific words to refer to areas of the interfa
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:467
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:467
 msgid "Overview of the interface and common vocabulary"
 msgstr ""
 
@@ -442,22 +443,22 @@ msgid "Keyboard and mouse shortcuts should make use of the ``:kbd:`` tag, which 
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:499
-msgid "Make sure to mention shortcuts that differ on macOS compared to other platforms. On macOS, ``Cmd`` often replaces ``Ctrl`` in keyboard shortcuts."
+msgid "Make sure to mention shortcuts that differ on macOS compared to other platforms. You can find a list of all shortcuts, including what they are on macOS, on :ref:`this page <doc_default_key_mapping>`."
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:502
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:503
 msgid "Try to integrate the shortcut into sentences the best you can. Here are some examples with the ``:kbd:`` tag left as-is for better visibility:"
 msgstr ""
 
-#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:505
-msgid "Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Cmd + Alt + T``` on macOS)."
-msgstr ""
-
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:506
-msgid "Press ``:kbd:`Space``` and hold the left mouse button to pan in the 2D editor."
+msgid "Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Opt + Cmd + T``` on macOS)."
 msgstr ""
 
 #: ../../docs/contributing/documentation/docs_writing_guidelines.rst:507
+msgid "Press ``:kbd:`Space``` and hold the left mouse button to pan in the 2D editor."
+msgstr ""
+
+#: ../../docs/contributing/documentation/docs_writing_guidelines.rst:508
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
 msgstr ""
 

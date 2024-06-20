@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,9 +45,11 @@ msgid "Visual comparison"
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:38
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:38
 msgid "Reflection probe disabled. Environment sky is used as a fallback."
 msgstr ""
 
+#: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:44
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:44
 #: ../../docs/tutorials/3d/global_illumination/reflection_probes.rst:51
 msgid "Reflection probe enabled."

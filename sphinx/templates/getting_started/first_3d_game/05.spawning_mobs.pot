@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,40 +16,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:6
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:4
 msgid "Spawning monsters"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:8
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:6
 msgid "In this part, we're going to spawn monsters along a path randomly. By the end, you will have monsters roaming the game board."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:11
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:9
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:334
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:348
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:348
 msgid "image0"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:13
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:11
 msgid "Double-click on ``main.tscn`` in the *FileSystem* dock to open the ``Main`` scene."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:15
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:13
 msgid "Before drawing the path, we're going to change the game resolution. Our game has a default window size of ``1152x648``. We're going to set it to ``720x540``, a nice little box."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:19
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:17
 msgid "Go to *Project -> Project Settings*."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:21
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:19
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:335
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:349
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:349
 msgid "image1"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:21
+msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:23
@@ -60,7 +66,8 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:336
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:350
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:350
 msgid "image2"
 msgstr ""
 
@@ -84,7 +91,8 @@ msgstr ""
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:337
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:351
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:351
 msgid "image3"
 msgstr ""
 
@@ -100,7 +108,8 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:338
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:352
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:352
 msgid "image4"
 msgstr ""
 
@@ -112,7 +121,8 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:339
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:353
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:353
 msgid "image5"
 msgstr ""
 
@@ -124,7 +134,8 @@ msgstr ""
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:340
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:354
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:354
 msgid "image6"
 msgstr ""
 
@@ -136,7 +147,8 @@ msgstr ""
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:341
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:355
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:355
 msgid "image7"
 msgstr ""
 
@@ -148,7 +160,8 @@ msgstr ""
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:342
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:356
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:356
 msgid "image8"
 msgstr ""
 
@@ -160,7 +173,8 @@ msgstr ""
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:343
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:357
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:357
 msgid "image9"
 msgstr ""
 
@@ -176,7 +190,8 @@ msgstr ""
 msgid "|image10|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:344
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:358
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:358
 msgid "image10"
 msgstr ""
 
@@ -188,7 +203,8 @@ msgstr ""
 msgid "|image11|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:345
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:359
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:359
 msgid "image11"
 msgstr ""
 
@@ -208,7 +224,8 @@ msgstr ""
 msgid "|image12|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:346
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:360
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:360
 msgid "image12"
 msgstr ""
 
@@ -220,7 +237,8 @@ msgstr ""
 msgid "|image13|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:347
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:361
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:361
 msgid "image13"
 msgstr ""
 
@@ -240,7 +258,8 @@ msgstr ""
 msgid "|image14|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:348
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:362
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:362
 msgid "image14"
 msgstr ""
 
@@ -252,7 +271,8 @@ msgstr ""
 msgid "|image15|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:349
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:363
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:363
 msgid "image15"
 msgstr ""
 
@@ -264,7 +284,8 @@ msgstr ""
 msgid "|image16|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:350
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:364
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:364
 msgid "image16"
 msgstr ""
 
@@ -280,7 +301,8 @@ msgstr ""
 msgid "|image17|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:351
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:365
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:365
 msgid "image17"
 msgstr ""
 
@@ -292,7 +314,8 @@ msgstr ""
 msgid "|image18|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:352
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:366
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:366
 msgid "image18"
 msgstr ""
 
@@ -304,7 +327,8 @@ msgstr ""
 msgid "|image19|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:353
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:367
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:367
 msgid "image19"
 msgstr ""
 
@@ -336,7 +360,8 @@ msgstr ""
 msgid "|image20|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:354
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:368
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:368
 msgid "image20"
 msgstr ""
 
@@ -348,7 +373,8 @@ msgstr ""
 msgid "|image21|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:355
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:369
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:369
 msgid "image21"
 msgstr ""
 
@@ -360,7 +386,8 @@ msgstr ""
 msgid "|image22|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:356
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:370
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:370
 msgid "image22"
 msgstr ""
 
@@ -376,7 +403,8 @@ msgstr ""
 msgid "|image23|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:357
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:371
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:371
 msgid "image23"
 msgstr ""
 
@@ -388,7 +416,8 @@ msgstr ""
 msgid "|image24|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:358
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:372
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:372
 msgid "image24"
 msgstr ""
 
@@ -425,22 +454,31 @@ msgid "Above, ``randf()`` produces a random value between ``0`` and ``1``, which
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:272
+msgid "Note that if you remove the ``Player`` from the main scene, the following line"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:284
+msgid "gives an error because there is no $Player!"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:286
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:326
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:340
 msgid "You can test the scene by pressing :kbd:`F6`. You should see the monsters spawn and move in a straight line."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:329
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:343
 msgid "|image25|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:359
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:373
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:373
 msgid "image25"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:331
+#: ../../docs/getting_started/first_3d_game/05.spawning_mobs.rst:345
 msgid "For now, they bump and slide against one another when their paths cross. We'll address this in the next part."
 msgstr ""
 

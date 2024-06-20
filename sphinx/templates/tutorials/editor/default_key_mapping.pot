@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/editor/default_key_mapping.rst:-1
+#: ../../docs/tutorials/editor/default_key_mapping.rst:3
 msgid "cheatsheet, cheat sheet, shortcut"
 msgstr ""
 
@@ -113,7 +113,7 @@ msgid ":kbd:`Ctrl + F1`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:31
-msgid ":kbd:`Alt + 1`"
+msgid ":kbd:`Opt + 1`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:31
@@ -130,7 +130,7 @@ msgid ":kbd:`Ctrl + F2`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:33
-msgid ":kbd:`Alt + 2`"
+msgid ":kbd:`Opt + 2`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:33
@@ -146,7 +146,7 @@ msgid ":kbd:`Ctrl + F3`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:35
-msgid ":kbd:`Alt + 3`"
+msgid ":kbd:`Opt + 3`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:35
@@ -162,7 +162,7 @@ msgid ":kbd:`F1`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:37
-msgid ":kbd:`Alt + Space`"
+msgid ":kbd:`Opt + Space`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:37
@@ -226,7 +226,7 @@ msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:45
-msgid ":kbd:`Cmd + Alt + P`"
+msgid ":kbd:`Opt + Cmd + P`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:45
@@ -326,7 +326,7 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:57
 #: ../../docs/tutorials/editor/default_key_mapping.rst:325
-msgid ":kbd:`Cmd + Shift + Alt + S`"
+msgid ":kbd:`Cmd + Shift + Opt + S`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:57
@@ -339,6 +339,10 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:59
 msgid ":kbd:`Shift + Alt + O`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:59
+msgid ":kbd:`Shift + Opt + O`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:59
@@ -370,7 +374,7 @@ msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:63
-msgid ":kbd:`Cmd + Alt + O`"
+msgid ":kbd:`Opt + Cmd + O`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:63
@@ -438,7 +442,7 @@ msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:71
-msgid ":kbd:`Shift + Alt + Q`"
+msgid ":kbd:`Shift + Opt + Q`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:71
@@ -482,6 +486,7 @@ msgid "Play"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:77
+#: ../../docs/tutorials/editor/default_key_mapping.rst:382
 #: ../../docs/tutorials/editor/default_key_mapping.rst:382
 msgid ":kbd:`F5`"
 msgstr ""
@@ -567,6 +572,7 @@ msgid "Expand Bottom Panel"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:87
+#: ../../docs/tutorials/editor/default_key_mapping.rst:87
 msgid ":kbd:`Shift + F12`"
 msgstr ""
 
@@ -639,6 +645,7 @@ msgid "Pan View"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:102
+#: ../../docs/tutorials/editor/default_key_mapping.rst:102
 msgid ":kbd:`Space`"
 msgstr ""
 
@@ -652,7 +659,10 @@ msgid "Select Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:104
+#: ../../docs/tutorials/editor/default_key_mapping.rst:104
 #: ../../docs/tutorials/editor/default_key_mapping.rst:161
+#: ../../docs/tutorials/editor/default_key_mapping.rst:161
+#: ../../docs/tutorials/editor/default_key_mapping.rst:167
 #: ../../docs/tutorials/editor/default_key_mapping.rst:167
 msgid ":kbd:`Q`"
 msgstr ""
@@ -667,7 +677,10 @@ msgid "Move Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:106
+#: ../../docs/tutorials/editor/default_key_mapping.rst:106
 #: ../../docs/tutorials/editor/default_key_mapping.rst:155
+#: ../../docs/tutorials/editor/default_key_mapping.rst:155
+#: ../../docs/tutorials/editor/default_key_mapping.rst:169
 #: ../../docs/tutorials/editor/default_key_mapping.rst:169
 msgid ":kbd:`W`"
 msgstr ""
@@ -682,8 +695,12 @@ msgid "Rotate Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:108
+#: ../../docs/tutorials/editor/default_key_mapping.rst:108
+#: ../../docs/tutorials/editor/default_key_mapping.rst:159
 #: ../../docs/tutorials/editor/default_key_mapping.rst:159
 #: ../../docs/tutorials/editor/default_key_mapping.rst:171
+#: ../../docs/tutorials/editor/default_key_mapping.rst:171
+#: ../../docs/tutorials/editor/default_key_mapping.rst:482
 #: ../../docs/tutorials/editor/default_key_mapping.rst:482
 msgid ":kbd:`E`"
 msgstr ""
@@ -698,7 +715,10 @@ msgid "Scale Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:110
+#: ../../docs/tutorials/editor/default_key_mapping.rst:110
 #: ../../docs/tutorials/editor/default_key_mapping.rst:157
+#: ../../docs/tutorials/editor/default_key_mapping.rst:157
+#: ../../docs/tutorials/editor/default_key_mapping.rst:460
 #: ../../docs/tutorials/editor/default_key_mapping.rst:460
 msgid ":kbd:`S`"
 msgstr ""
@@ -712,7 +732,10 @@ msgid "Ruler Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:112
+#: ../../docs/tutorials/editor/default_key_mapping.rst:112
 #: ../../docs/tutorials/editor/default_key_mapping.rst:173
+#: ../../docs/tutorials/editor/default_key_mapping.rst:173
+#: ../../docs/tutorials/editor/default_key_mapping.rst:476
 #: ../../docs/tutorials/editor/default_key_mapping.rst:476
 msgid ":kbd:`R`"
 msgstr ""
@@ -726,6 +749,7 @@ msgid "Use Smart Snap"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:114
+#: ../../docs/tutorials/editor/default_key_mapping.rst:114
 msgid ":kbd:`Shift + S`"
 msgstr ""
 
@@ -737,6 +761,7 @@ msgstr ""
 msgid "Use Grid Snap"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:116
 #: ../../docs/tutorials/editor/default_key_mapping.rst:116
 msgid ":kbd:`Shift + G`"
 msgstr ""
@@ -750,6 +775,7 @@ msgid "Multiply grid step by 2"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:118
+#: ../../docs/tutorials/editor/default_key_mapping.rst:118
 msgid ":kbd:`Num *`"
 msgstr ""
 
@@ -761,6 +787,7 @@ msgstr ""
 msgid "Divide grid step by 2"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:120
 #: ../../docs/tutorials/editor/default_key_mapping.rst:120
 msgid ":kbd:`Num /`"
 msgstr ""
@@ -774,6 +801,7 @@ msgid "Always Show Grid"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:122
+#: ../../docs/tutorials/editor/default_key_mapping.rst:122
 msgid ":kbd:`G`"
 msgstr ""
 
@@ -785,6 +813,7 @@ msgstr ""
 msgid "Show Helpers"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:124
 #: ../../docs/tutorials/editor/default_key_mapping.rst:124
 msgid ":kbd:`H`"
 msgstr ""
@@ -798,6 +827,8 @@ msgid "Show Guides"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:126
+#: ../../docs/tutorials/editor/default_key_mapping.rst:126
+#: ../../docs/tutorials/editor/default_key_mapping.rst:177
 #: ../../docs/tutorials/editor/default_key_mapping.rst:177
 msgid ":kbd:`Y`"
 msgstr ""
@@ -811,6 +842,8 @@ msgid "Center Selection"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:128
+#: ../../docs/tutorials/editor/default_key_mapping.rst:128
+#: ../../docs/tutorials/editor/default_key_mapping.rst:199
 #: ../../docs/tutorials/editor/default_key_mapping.rst:199
 msgid ":kbd:`F`"
 msgstr ""
@@ -824,6 +857,8 @@ msgid "Frame Selection"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:130
+#: ../../docs/tutorials/editor/default_key_mapping.rst:130
+#: ../../docs/tutorials/editor/default_key_mapping.rst:149
 #: ../../docs/tutorials/editor/default_key_mapping.rst:149
 msgid ":kbd:`Shift + F`"
 msgstr ""
@@ -852,6 +887,7 @@ msgstr ""
 msgid "Insert Key"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:134
 #: ../../docs/tutorials/editor/default_key_mapping.rst:134
 msgid ":kbd:`Ins`"
 msgstr ""
@@ -900,6 +936,7 @@ msgid "Clear Pose"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:140
+#: ../../docs/tutorials/editor/default_key_mapping.rst:140
 msgid ":kbd:`Shift + K`"
 msgstr ""
 
@@ -924,6 +961,7 @@ msgid "Freelook Left"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:151
+#: ../../docs/tutorials/editor/default_key_mapping.rst:151
 msgid ":kbd:`A`"
 msgstr ""
 
@@ -936,6 +974,8 @@ msgid "Freelook Right"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:153
+#: ../../docs/tutorials/editor/default_key_mapping.rst:153
+#: ../../docs/tutorials/editor/default_key_mapping.rst:472
 #: ../../docs/tutorials/editor/default_key_mapping.rst:472
 msgid ":kbd:`D`"
 msgstr ""
@@ -981,6 +1021,7 @@ msgid "Freelook Speed Modifier"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:163
+#: ../../docs/tutorials/editor/default_key_mapping.rst:163
 msgid ":kbd:`Shift`"
 msgstr ""
 
@@ -994,6 +1035,10 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:165
 msgid ":kbd:`Alt`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:165
+msgid ":kbd:`Opt`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:165
@@ -1021,6 +1066,7 @@ msgid "Use Local Space"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:175
+#: ../../docs/tutorials/editor/default_key_mapping.rst:175
 msgid ":kbd:`T`"
 msgstr ""
 
@@ -1041,6 +1087,8 @@ msgid "Snap Object to Floor"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:179
+#: ../../docs/tutorials/editor/default_key_mapping.rst:179
+#: ../../docs/tutorials/editor/default_key_mapping.rst:499
 #: ../../docs/tutorials/editor/default_key_mapping.rst:499
 msgid ":kbd:`PgDown`"
 msgstr ""
@@ -1053,6 +1101,7 @@ msgstr ""
 msgid "Top View"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:181
 #: ../../docs/tutorials/editor/default_key_mapping.rst:181
 msgid ":kbd:`Num 7`"
 msgstr ""
@@ -1070,6 +1119,10 @@ msgid ":kbd:`Alt + Num 7`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:183
+msgid ":kbd:`Opt + Num 7`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:183
 msgid "``spatial_editor/bottom_view``"
 msgstr ""
 
@@ -1077,6 +1130,7 @@ msgstr ""
 msgid "Front View"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:185
 #: ../../docs/tutorials/editor/default_key_mapping.rst:185
 msgid ":kbd:`Num 1`"
 msgstr ""
@@ -1094,6 +1148,10 @@ msgid ":kbd:`Alt + Num 1`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:187
+msgid ":kbd:`Opt + Num 1`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:187
 msgid "``spatial_editor/rear_view``"
 msgstr ""
 
@@ -1101,6 +1159,7 @@ msgstr ""
 msgid "Right View"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:189
 #: ../../docs/tutorials/editor/default_key_mapping.rst:189
 msgid ":kbd:`Num 3`"
 msgstr ""
@@ -1118,6 +1177,10 @@ msgid ":kbd:`Alt + Num 3`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:191
+msgid ":kbd:`Opt + Num 3`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:191
 msgid "``spatial_editor/left_view``"
 msgstr ""
 
@@ -1125,6 +1188,7 @@ msgstr ""
 msgid "Switch Perspective/Orthogonal View"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:193
 #: ../../docs/tutorials/editor/default_key_mapping.rst:193
 msgid ":kbd:`Num 5`"
 msgstr ""
@@ -1138,6 +1202,7 @@ msgid "Insert Animation Key"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:195
+#: ../../docs/tutorials/editor/default_key_mapping.rst:195
 msgid ":kbd:`K`"
 msgstr ""
 
@@ -1149,6 +1214,7 @@ msgstr ""
 msgid "Focus Origin"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:197
 #: ../../docs/tutorials/editor/default_key_mapping.rst:197
 msgid ":kbd:`O`"
 msgstr ""
@@ -1174,7 +1240,7 @@ msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:201
-msgid ":kbd:`Cmd + Alt + M`"
+msgid ":kbd:`Opt + Cmd + M`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:201
@@ -1191,7 +1257,8 @@ msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:203
-msgid ":kbd:`Cmd + Alt + F`"
+#: ../../docs/tutorials/editor/default_key_mapping.rst:240
+msgid ":kbd:`Opt + Cmd + F`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:203
@@ -1239,7 +1306,7 @@ msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:209
-msgid ":kbd:`Cmd + Alt + 2`"
+msgid ":kbd:`Opt + Cmd + 2`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:209
@@ -1271,7 +1338,7 @@ msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:213
-msgid ":kbd:`Cmd + Alt + 3`"
+msgid ":kbd:`Opt + Cmd + 3`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:213
@@ -1400,6 +1467,7 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:234
 #: ../../docs/tutorials/editor/default_key_mapping.rst:307
+#: ../../docs/tutorials/editor/default_key_mapping.rst:307
 msgid ":kbd:`F3`"
 msgstr ""
 
@@ -1417,6 +1485,7 @@ msgid "Find Previous"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:236
+#: ../../docs/tutorials/editor/default_key_mapping.rst:309
 #: ../../docs/tutorials/editor/default_key_mapping.rst:309
 msgid ":kbd:`Shift + F3`"
 msgstr ""
@@ -1454,10 +1523,6 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:240
 msgid ":kbd:`Ctrl + R`"
-msgstr ""
-
-#: ../../docs/tutorials/editor/default_key_mapping.rst:240
-msgid ":kbd:`Alt + Cmd + F`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:240
@@ -1505,6 +1570,11 @@ msgid ":kbd:`Alt + Up Arrow`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:248
+#: ../../docs/tutorials/editor/default_key_mapping.rst:380
+msgid ":kbd:`Opt + Up Arrow`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:248
 msgid "``script_text_editor/move_up``"
 msgstr ""
 
@@ -1516,6 +1586,10 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:250
 msgid ":kbd:`Alt + Down Arrow`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:250
+msgid ":kbd:`Opt + Down Arrow`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:250
@@ -1596,6 +1670,7 @@ msgid "Complete Symbol"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:260
+#: ../../docs/tutorials/editor/default_key_mapping.rst:260
 msgid ":kbd:`Ctrl + Space`"
 msgstr ""
 
@@ -1628,7 +1703,7 @@ msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:264
-msgid ":kbd:`Cmd + Alt + T`"
+msgid ":kbd:`Opt + Cmd + T`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:264
@@ -1639,6 +1714,7 @@ msgstr ""
 msgid "Uppercase"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:266
 #: ../../docs/tutorials/editor/default_key_mapping.rst:266
 msgid ":kbd:`Shift + F4`"
 msgstr ""
@@ -1652,6 +1728,7 @@ msgid "Lowercase"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:268
+#: ../../docs/tutorials/editor/default_key_mapping.rst:268
 msgid ":kbd:`Shift + F5`"
 msgstr ""
 
@@ -1663,6 +1740,7 @@ msgstr ""
 msgid "Capitalize"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:270
 #: ../../docs/tutorials/editor/default_key_mapping.rst:270
 msgid ":kbd:`Shift + F6`"
 msgstr ""
@@ -1728,7 +1806,7 @@ msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:278
-msgid ":kbd:`Cmd + Alt + B`"
+msgid ":kbd:`Opt + Cmd + B`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:278
@@ -1848,7 +1926,7 @@ msgid ":kbd:`Alt + F1`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:296
-msgid ":kbd:`Alt + Shift + Space`"
+msgid ":kbd:`Opt + Shift + Space`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:296
@@ -1880,11 +1958,19 @@ msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:313
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:313
 msgid "``script_editor/window_move_up``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:315
 msgid ":kbd:`Shift + Alt + Down Arrow`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:315
+msgid ":kbd:`Shift + Opt + Down Arrow`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:315
@@ -1940,7 +2026,7 @@ msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:323
-msgid ":kbd:`Cmd + Alt + S`"
+msgid ":kbd:`Opt + Cmd + S`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:323
@@ -1973,6 +2059,11 @@ msgid ":kbd:`Alt + Left Arrow`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:329
+#: ../../docs/tutorials/editor/default_key_mapping.rst:376
+msgid ":kbd:`Opt + Left Arrow`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:329
 msgid "``script_editor/history_previous``"
 msgstr ""
 
@@ -1983,6 +2074,11 @@ msgstr ""
 #: ../../docs/tutorials/editor/default_key_mapping.rst:331
 #: ../../docs/tutorials/editor/default_key_mapping.rst:378
 msgid ":kbd:`Alt + Right Arrow`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:331
+#: ../../docs/tutorials/editor/default_key_mapping.rst:378
+msgid ":kbd:`Opt + Right Arrow`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:331
@@ -2083,6 +2179,7 @@ msgid "Step Into"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:363
+#: ../../docs/tutorials/editor/default_key_mapping.rst:363
 msgid ":kbd:`F11`"
 msgstr ""
 
@@ -2095,6 +2192,7 @@ msgid "Step Over"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:365
+#: ../../docs/tutorials/editor/default_key_mapping.rst:365
 msgid ":kbd:`F10`"
 msgstr ""
 
@@ -2106,6 +2204,7 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:367
 #: ../../docs/tutorials/editor/default_key_mapping.rst:367
 msgid ":kbd:`F12`"
 msgstr ""
@@ -2171,6 +2270,10 @@ msgid "Toggle Favorite"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:386
+msgid ":kbd:`Opt + F`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:386
 msgid "``file_dialog/toggle_favorite``"
 msgstr ""
 
@@ -2180,6 +2283,10 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:388
 msgid ":kbd:`Alt + V`"
+msgstr ""
+
+#: ../../docs/tutorials/editor/default_key_mapping.rst:388
+msgid ":kbd:`Opt + V`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:388
@@ -2360,6 +2467,7 @@ msgid "Force Delete"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:428
+#: ../../docs/tutorials/editor/default_key_mapping.rst:428
 msgid ":kbd:`Shift + Del`"
 msgstr ""
 
@@ -2481,6 +2589,7 @@ msgid "Cancel"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:470
+#: ../../docs/tutorials/editor/default_key_mapping.rst:470
 msgid ":kbd:`Esc`"
 msgstr ""
 
@@ -2500,6 +2609,7 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:474
 #: ../../docs/tutorials/editor/default_key_mapping.rst:474
 msgid ":kbd:`L`"
 msgstr ""
@@ -2521,6 +2631,7 @@ msgid "Bucket"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:478
+#: ../../docs/tutorials/editor/default_key_mapping.rst:478
 msgid ":kbd:`B`"
 msgstr ""
 
@@ -2532,6 +2643,7 @@ msgstr ""
 msgid "Picker"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:480
 #: ../../docs/tutorials/editor/default_key_mapping.rst:480
 msgid ":kbd:`P`"
 msgstr ""
@@ -2553,6 +2665,7 @@ msgid "Flip Horizontally"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:484
+#: ../../docs/tutorials/editor/default_key_mapping.rst:484
 msgid ":kbd:`C`"
 msgstr ""
 
@@ -2564,6 +2677,7 @@ msgstr ""
 msgid "Flip Vertically"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:486
 #: ../../docs/tutorials/editor/default_key_mapping.rst:486
 msgid ":kbd:`V`"
 msgstr ""
@@ -2577,6 +2691,7 @@ msgid "Rotate Left"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:488
+#: ../../docs/tutorials/editor/default_key_mapping.rst:488
 msgid ":kbd:`Z`"
 msgstr ""
 
@@ -2588,6 +2703,7 @@ msgstr ""
 msgid "Rotate Right"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:490
 #: ../../docs/tutorials/editor/default_key_mapping.rst:490
 msgid ":kbd:`X`"
 msgstr ""
@@ -2613,6 +2729,7 @@ msgid "Previous Coordinate"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:501
+#: ../../docs/tutorials/editor/default_key_mapping.rst:501
 msgid ":kbd:`PgUp`"
 msgstr ""
 
@@ -2624,6 +2741,7 @@ msgstr ""
 msgid "Region Mode"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:503
 #: ../../docs/tutorials/editor/default_key_mapping.rst:503
 msgid ":kbd:`1`"
 msgstr ""
@@ -2637,6 +2755,7 @@ msgid "Collision Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:505
+#: ../../docs/tutorials/editor/default_key_mapping.rst:505
 msgid ":kbd:`2`"
 msgstr ""
 
@@ -2648,6 +2767,7 @@ msgstr ""
 msgid "Occlusion Mode"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:507
 #: ../../docs/tutorials/editor/default_key_mapping.rst:507
 msgid ":kbd:`3`"
 msgstr ""
@@ -2661,6 +2781,7 @@ msgid "Navigation Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:509
+#: ../../docs/tutorials/editor/default_key_mapping.rst:509
 msgid ":kbd:`4`"
 msgstr ""
 
@@ -2672,6 +2793,7 @@ msgstr ""
 msgid "Bitmask Mode"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:511
 #: ../../docs/tutorials/editor/default_key_mapping.rst:511
 msgid ":kbd:`5`"
 msgstr ""
@@ -2685,6 +2807,7 @@ msgid "Priority Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:513
+#: ../../docs/tutorials/editor/default_key_mapping.rst:513
 msgid ":kbd:`6`"
 msgstr ""
 
@@ -2697,6 +2820,7 @@ msgid "Icon Mode"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:515
+#: ../../docs/tutorials/editor/default_key_mapping.rst:515
 msgid ":kbd:`7`"
 msgstr ""
 
@@ -2708,6 +2832,7 @@ msgstr ""
 msgid "Z Index Mode"
 msgstr ""
 
+#: ../../docs/tutorials/editor/default_key_mapping.rst:517
 #: ../../docs/tutorials/editor/default_key_mapping.rst:517
 msgid ":kbd:`8`"
 msgstr ""

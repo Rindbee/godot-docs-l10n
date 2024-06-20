@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgid "Add a :ref:`BoneAttachment3D <class_BoneAttachment3D>` node under the ske
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:49
-msgid "``BoneAttachment3D`` node is to attach objects to a bone of a armature. The attached object will follow the bone's movement, weapon of a character can be attached this way."
+msgid "``BoneAttachment3D`` node is to attach objects to a bone of an armature. The attached object will follow the bone's movement, weapon of a character can be attached this way."
 msgstr ""
 
 #: ../../docs/tutorials/physics/soft_body.rst:53

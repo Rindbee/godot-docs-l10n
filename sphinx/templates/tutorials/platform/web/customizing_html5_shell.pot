@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,106 +89,110 @@ msgid "``$GODOT_HEAD_INCLUDE``: A custom string to include in the HTML document 
 msgstr ""
 
 #: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:74
+msgid "``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in the Project Settings."
+msgstr ""
+
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:77
 msgid "When the custom page is ready, it can be selected in the export options under the *Html / Custom Html Shell* section."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:80
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:83
 msgid "Starting the project"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:81
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:84
 msgid "To be able to start the game, you need to write a script that initializes the engine — the control code. This process consists of three steps, but as shown here, most of them can be skipped depending on how much customization is needed."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:85
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:88
 msgid "See the :ref:`HTML5 shell class reference <doc_html5_shell_classref>`, for the full list of methods and options available."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:87
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:90
 msgid "First, the engine must be loaded, then it needs to be initialized, and after this the project can finally be started. You can perform every of these steps manually and with great control. However, in the simplest case all you need to do is to create an instance of the :js:class:`Engine` class with the exported configuration, and then call the :js:meth:`engine.startGame <Engine.prototype.startGame>` method optionally overriding any :js:attr:`EngineConfig` parameters."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:103
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:106
 msgid "This snippet of code automatically loads and initializes the engine before starting the game. It uses the given configuration to load the engine. The :js:meth:`engine.startGame <Engine.prototype.startGame>` method is asynchronous and returns a ``Promise``. This allows your control code to track if the game was loaded correctly without blocking execution or relying on polling."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:108
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:111
 msgid "In case your project needs to have special control over the start arguments and dependency files, the :js:meth:`engine.start <Engine.prototype.start>` method can be used instead. Note, that this method do not automatically preload the ``pck`` file, so you will probably want to manually preload it (and any other extra file) via the :js:meth:`engine.preloadFile <Engine.prototype.preloadFile>` method."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:113
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:116
 msgid "Optionally, you can also manually :js:meth:`engine.init <Engine.prototype.init>` to perform specific actions after the module initialization, but before the engine starts."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:116
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:119
 msgid "This process is a bit more complex, but gives you full control over the engine startup process."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:135
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:138
 msgid "To load the engine manually the :js:meth:`Engine.load` static method must be called. As this method is static, multiple engine instances can be spawned if the share the same ``wasm``."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:138
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:141
 msgid "Multiple instances cannot be spawned by default, as the engine is immediately unloaded after it is initialized. To prevent this from happening see the :js:attr:`unloadAfterInit` override option. It is still possible to unload the engine manually afterwards by calling the :js:meth:`Engine.unload` static method. Unloading the engine frees browser memory by unloading files that are no longer needed once the instance is initialized."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:144
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:147
 msgid "Customizing the behavior"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:145
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:148
 msgid "In the Web environment several methods can be used to guarantee that the game will work as intended."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:147
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:150
 msgid "If you target a specific version of WebGL, or just want to check if WebGL is available at all, you can call the :js:meth:`Engine.isWebGLAvailable` method. It optionally takes an argument that allows to test for a specific major version of WebGL."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:151
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:154
 msgid "As the real executable file does not exist in the Web environment, the engine only stores a virtual filename formed from the base name of loaded engine files. This value affects the output of the :ref:`OS.get_executable_path() <class_OS_method_get_executable_path>` method and defines the name of the automatically started main pack. The :js:attr:`executable` override option can be used to override this value."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:158
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:161
 msgid "Customizing the presentation"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:159
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:162
 msgid "Several configuration options can be used to further customize the look and behavior of the game on your page."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:161
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:164
 msgid "By default, the first canvas element on the page is used for rendering. To use a different canvas element the :js:attr:`canvas` override option can be used. It requires a reference to the DOM element itself."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:170
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:173
 msgid "The way the engine resize the canvas can be configured via the :js:attr:`canvasResizePolicy` override option."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:173
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:176
 msgid "If your game takes some time to load, it may be useful to display a custom loading UI which tracks the progress. This can be achieved with the :js:attr:`onProgress` callback option, which allows to set up a callback function that will be called regularly as the engine loads new bytes."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:184
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:187
 msgid "Be aware that in some cases ``total`` can be ``0``. This means that it cannot be calculated."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:186
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:189
 msgid "If your game supports multiple languages, the :js:attr:`locale` override option can be used to force a specific locale, provided you have a valid language code string. It may be good to use server-side logic to determine which languages a user may prefer. This way the language code can be taken from the ``Accept-Language`` HTTP header, or determined by a GeoIP service."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:192
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:195
 msgid "Debugging"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:193
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:196
 msgid "To debug exported projects, it may be useful to read the standard output and error streams generated by the engine. This is similar to the output shown in the editor console window. By default, standard ``console.log`` and ``console.warn`` are used for the output and error streams respectively. This behavior can be customized by setting your own functions to handle messages."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:198
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:201
 msgid "Use the :js:attr:`onPrint` override option to set a callback function for the output stream, and the :js:attr:`onPrintError` override option to set a callback function for the error stream."
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:211
+#: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:214
 msgid "When handling the engine output, keep in mind that it may not be desirable to print it out in the finished product."
 msgstr ""
 

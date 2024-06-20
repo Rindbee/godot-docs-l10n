@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -309,10 +309,10 @@ msgid "Translating the project name"
 msgstr ""
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:317
-msgid "The project name becomes the app name when exporting to different operating systems and platforms. To specify the project name in more than one language, create a new setting ``application/name`` in the **Project Settings** and append the locale identifier to it. For instance, for Spanish, this would be ``application/name_es``:"
+msgid "The project name becomes the app name when exporting to different operating systems and platforms. To specify the project name in more than one language go to **Project > Project Settings> Application > Config**. From here click on the button that says ``Localizable String (Size 0)``. Now there should be a button below that which says ``Add Translation``. Click on that and it will take you to a page where you can choose the language (and country if needed) for your project name translation. After doing that you can now type in the localized name."
 msgstr ""
 
-#: ../../docs/tutorials/i18n/internationalizing_games.rst:325
+#: ../../docs/tutorials/i18n/internationalizing_games.rst:328
 msgid "If you are unsure about the language code to use, refer to the :ref:`list of locale codes <doc_locales>`."
 msgstr ""
 

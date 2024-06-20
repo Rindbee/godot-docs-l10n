@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,11 +44,11 @@ msgstr ""
 msgid "In scripts the following helper functions can be used to work with the ``navigation_layers`` bitmask."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationlayers.rst:59
+#: ../../docs/tutorials/navigation/navigation_using_navigationlayers.rst:92
 msgid "Changing navigation layers for path queries is a performance friendly alternative to enabling / disabling entire navigation regions. Compared to region changes a navigation path query with different navigation layers does not trigger large scale updates on the NavigationServer."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationlayers.rst:64
+#: ../../docs/tutorials/navigation/navigation_using_navigationlayers.rst:97
 msgid "Changing the navigation layers of NavigationAgent nodes will have an immediate effect on the next path query. Changing the navigation layers of regions will have an immediate effect on the region but any new region connect or disconnect will only be in effect after the next physics frame."
 msgstr ""
 

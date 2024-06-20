@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,9 +41,11 @@ msgid "Here's a scene rendered with rate shading disabled then enabled, using th
 msgstr ""
 
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:36
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:36
 msgid "Variable rate shading disabled in textured scene"
 msgstr ""
 
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:42
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:42
 msgid "Variable rate shading enabled in textured scene (lower quality but higher performance)"
 msgstr ""
@@ -53,9 +55,11 @@ msgid "When used in scenes with low-frequency detail (such as scenes with a styl
 msgstr ""
 
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:52
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:52
 msgid "Variable rate shading disabled in untextured scene"
 msgstr ""
 
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:58
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:58
 msgid "Variable rate shading enabled in untextured scene (lower quality but higher performance)"
 msgstr ""
@@ -266,6 +270,7 @@ msgstr ""
 msgid "For example, this VRS density texture provides the highest shading density in the center of the viewport, and the lowest shading density in the corners:"
 msgstr ""
 
+#: ../../docs/tutorials/3d/variable_rate_shading.rst:163
 #: ../../docs/tutorials/3d/variable_rate_shading.rst:163
 msgid "Example VRS density map texture, simulating foveated rendering"
 msgstr ""

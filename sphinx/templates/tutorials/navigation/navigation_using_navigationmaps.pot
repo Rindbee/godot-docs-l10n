@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,27 +52,27 @@ msgstr ""
 msgid "The 3D default navigation map RID can be obtained with ``get_world_3d().get_navigation_map()`` from any :ref:`Node3D<class_Node3D>` inheriting Node."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:43
+#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:44
 msgid "Creating new navigation maps"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:45
+#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:46
 msgid "The NavigationServer can create and support as many navigation maps as required for specific gameplay. Additional navigation maps are created and handled by using the NavigationServer API directly e.g. to support different avoidance agent or actor locomotion types."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:49
+#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:50
 msgid "For example uses of different navigation maps see :ref:`doc_navigation_different_actor_types` and :ref:`doc_navigation_different_actor_locomotion`."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:51
+#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:52
 msgid "Each navigation map individually synchronizes queued changes to its navigation regions and avoidance agents. A navigation map that has not received changes will consume little to no processing time. Navigation regions and avoidance agents can only be part of a single navigation map but they can switch map at any time."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:57
+#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:58
 msgid "A navigation map switch will take effect only after the next NavigationServer synchronization."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:77
+#: ../../docs/tutorials/navigation/navigation_using_navigationmaps.rst:79
 msgid "There is no difference between navigation maps created with the NavigationServer2D API or the NavigationServer3D API."
 msgstr ""
 

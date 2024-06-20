@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "CSV files must be formatted as follows:"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_translations.rst:50
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:69
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:70
 msgid "keys"
 msgstr ""
 
@@ -78,7 +78,13 @@ msgid "KEY1"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_translations.rst:52
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:52
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:52
 #: ../../docs/tutorials/assets_pipeline/importing_translations.rst:54
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:54
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:54
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:56
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:56
 #: ../../docs/tutorials/assets_pipeline/importing_translations.rst:56
 msgid "string"
 msgstr ""
@@ -92,106 +98,106 @@ msgid "KEYN"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_translations.rst:59
-msgid "The \"lang\" tags must represent a language, which must be one of the :ref:`valid locales <doc_locales>` supported by the engine. The \"KEY\" tags must be unique and represent a string universally (they are usually in uppercase, to differentiate from other strings). These keys will be replaced at runtime by the matching translated string. Note that the case is important, \"KEY1\" and \"Key1\" will be different keys. The top-left cell is ignored and can be left empty or having any content. Here's an example:"
+msgid "The \"lang\" tags must represent a language, which must be one of the :ref:`valid locales <doc_locales>` supported by the engine, or they must start with an underscore (`_`), which means the related column is served as comment and won't be imported. The \"KEY\" tags must be unique and represent a string universally (they are usually in uppercase, to differentiate from other strings). These keys will be replaced at runtime by the matching translated string. Note that the case is important, \"KEY1\" and \"Key1\" will be different keys. The top-left cell is ignored and can be left empty or having any content. Here's an example:"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:69
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:70
 msgid "en"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:69
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:70
 msgid "es"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:69
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:70
 msgid "ja"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:71
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:72
 msgid "GREET"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:71
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:72
 msgid "Hello, friend!"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:71
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:72
 msgid "Hola, amigo!"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:71
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:72
 msgid "こんにちは"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:73
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:74
 msgid "ASK"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:73
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:74
 msgid "How are you?"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:73
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:74
 msgid "Cómo está?"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:73
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:74
 msgid "元気ですか"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:75
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:76
 msgid "BYE"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:75
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:76
 msgid "Goodbye"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:75
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:76
 msgid "Adiós"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:75
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:76
 msgid "さようなら"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:77
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:78
 msgid "QUOTE"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:77
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:78
 msgid "\"Hello\" said the man."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:77
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:78
 msgid "\"Hola\" dijo el hombre."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:77
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:78
 msgid "「こんにちは」男は言いました"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:80
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:81
 msgid "The same example is shown below as a comma-separated plain text file, which should be the result of editing the above in a spreadsheet. When editing the plain text version, be sure to enclose with double quotes any message that contains commas, line breaks or double quotes, so that commas are not parsed as delimiters, line breaks don't create new entries and double quotes are not parsed as enclosing characters. Be sure to escape any double quotes a message may contain by preceding them with another double quote. Alternatively, you can select another delimiter than comma in the import options."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:99
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:100
 msgid "CSV importer"
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:101
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:102
 msgid "Godot will treat CSV files as translations by default. It will import them and generate one or more compressed translation resource files next to it."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:104
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:105
 msgid "Importing will also add the translation to the list of translations to load when the game runs, specified in project.godot (or the project settings). Godot allows loading and removing translations at runtime as well."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:109
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:110
 msgid "Select the ``.csv`` file and access the **Import** dock to define import options. You can toggle the compression of the imported translations, and select the delimiter to use when parsing the CSV file."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:115
+#: ../../docs/tutorials/assets_pipeline/importing_translations.rst:116
 msgid "Be sure to click **Reimport** after any change to these options."
 msgstr ""
 

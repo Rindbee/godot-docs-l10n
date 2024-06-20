@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,19 +240,19 @@ msgstr ""
 msgid "Next, add this code to the function:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:418
+#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:419
 msgid "Each time an enemy hits the player, the signal is going to be emitted. We need to disable the player's collision so that we don't trigger the ``hit`` signal more than once."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:422
+#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:423
 msgid "Disabling the area's collision shape can cause an error if it happens in the middle of the engine's collision processing. Using ``set_deferred()`` tells Godot to wait to disable the shape until it's safe to do so."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:427
+#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:428
 msgid "The last piece is to add a function we can call to reset the player when starting a new game."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:447
+#: ../../docs/getting_started/first_2d_game/03.coding_the_player.rst:448
 msgid "With the player working, we'll work on the enemy in the next lesson."
 msgstr ""
 

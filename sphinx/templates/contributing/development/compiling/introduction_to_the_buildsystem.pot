@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,11 @@ msgid "Godot is a primarily C++ project and it :ref:`uses the SCons build system
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:15
-msgid "This produces an *export template* for your current platform, operating system, and architecture. An export template is a build of the engine that is used for running exported projects. To build the *editor* instead you can run the following command::"
+msgid "This produces an editor build for your current platform, operating system, and architecture. You can change what gets built by specifying a target, a platform, and/or an architecture. For example, to build an export template used for running exported games, you can run::"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:21
-msgid "If you plan to debug or develop the engine, then you might want to add another option to the command::"
+msgid "If you plan to debug or develop the engine, then you might want to enable the ``dev_build`` option to enable dev-only debugging code::"
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:26
@@ -241,7 +241,7 @@ msgid "``optimize=none``: Do not perform any optimization. This provides the fas
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:238
-msgid "``optimize=custom`` *(advanced users only)*: Do not pass optimization arguments to the C/C++ compilers. You will have to pass arguments manually using the ``CFLAGS``, ``CCFLAGS`` and ``CXXFLAGS`` SCons options."
+msgid "``optimize=custom`` *(advanced users only)*: Do not pass optimization arguments to the C/C++ compilers. You will have to pass arguments manually using the ``cflags``, ``ccflags`` and ``cxxflags`` SCons options."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:243
@@ -365,7 +365,7 @@ msgid "For the folders accelerated by this option, multiple ``.cpp`` files are c
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:400
-msgid "To make a SCU build, use the ``scu_build=yes`` SCons option."
+msgid "To perform an SCU build, use the ``scu_build=yes`` SCons option."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:402
@@ -384,15 +384,15 @@ msgstr ""
 msgid "If you download the official export templates package and unzip it, you will notice that most files are optimized binaries or packages for each platform:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:440
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:454
 msgid "To create those yourself, follow the instructions detailed for each platform in this same tutorial section. Each platform explains how to create its own template."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:444
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:458
 msgid "The ``version.txt`` file should contain the corresponding Godot version identifier. This file is used to install export templates in a version-specific directory to avoid conflicts. For instance, if you are building export templates for Godot 3.1.1, ``version.txt`` should contain ``3.1.1.stable`` on the first line (and nothing else). This version identifier is based on the ``major``, ``minor``, ``patch`` (if present) and ``status`` lines of the `version.py file in the Godot Git repository <https://github.com/godotengine/godot/blob/master/version.py>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:452
+#: ../../docs/contributing/development/compiling/introduction_to_the_buildsystem.rst:466
 msgid "If you are developing for multiple platforms, macOS is definitely the most convenient host platform for cross-compilation, since you can cross-compile for every target. Linux and Windows come in second place, but Linux has the advantage of being the easier platform to set this up."
 msgstr ""
 

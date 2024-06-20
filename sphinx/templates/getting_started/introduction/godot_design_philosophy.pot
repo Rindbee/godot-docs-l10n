@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,6 +65,7 @@ msgid "|image0|"
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:176
+#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:176
 msgid "image0"
 msgstr ""
 
@@ -80,6 +81,7 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
+#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:177
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:177
 msgid "image1"
 msgstr ""
@@ -100,6 +102,7 @@ msgstr ""
 msgid "|image2|"
 msgstr ""
 
+#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:178
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:178
 msgid "image2"
 msgstr ""
@@ -128,6 +131,7 @@ msgstr ""
 msgid "|image4|"
 msgstr ""
 
+#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:179
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:179
 msgid "image4"
 msgstr ""
@@ -165,7 +169,7 @@ msgid "**Godot is made by its community, for the community, and for all game cre
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:134
-msgid "That said, although a handful of core developers work on it full-time, the project has over 600 contributors at the time of writing. Benevolent programmers work on features they may need themselves, so you'll see improvements in all corners of the engine at the same time in every major release."
+msgid "That said, although a handful of core developers work on it full-time, the project has thousands of contributors at the time of writing. Benevolent programmers work on features they may need themselves, so you'll see improvements in all corners of the engine at the same time in every major release."
 msgstr ""
 
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:141
@@ -184,6 +188,7 @@ msgstr ""
 msgid "|image5|"
 msgstr ""
 
+#: ../../docs/getting_started/introduction/godot_design_philosophy.rst:180
 #: ../../docs/getting_started/introduction/godot_design_philosophy.rst:180
 msgid "image5"
 msgstr ""

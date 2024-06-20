@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,6 +85,7 @@ msgid "To enable Movie Maker mode, click the \"movie reel\" button in the top-ri
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:67
+#: ../../docs/tutorials/animation/creating_movies.rst:67
 msgid "Movie Maker mode is disabled, click the \"movie reel\" icon to enable"
 msgstr ""
 
@@ -92,6 +93,7 @@ msgstr ""
 msgid "The icon gets a background matching the accent color when Movie Maker mode is enabled:"
 msgstr ""
 
+#: ../../docs/tutorials/animation/creating_movies.rst:76
 #: ../../docs/tutorials/animation/creating_movies.rst:76
 msgid "Movie Maker mode is enabled, click the \"movie reel\" icon again to disable"
 msgstr ""
@@ -109,6 +111,7 @@ msgid "Before you can record video by running the project, you still need to con
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:93
+#: ../../docs/tutorials/animation/creating_movies.rst:93
 msgid "Movie Maker project settings (with Advanced toggle enabled)"
 msgstr ""
 
@@ -116,6 +119,7 @@ msgstr ""
 msgid "Alternatively, you can set the output file path on a per-scene basis by adding a String metadata with the name ``movie_file`` to the scene's **root node**. This is only used when the main scene is set to the scene in question, or when running the scene directly by pressing :kbd:`F6` (:kbd:`Cmd + R` on macOS)."
 msgstr ""
 
+#: ../../docs/tutorials/animation/creating_movies.rst:104
 #: ../../docs/tutorials/animation/creating_movies.rst:104
 msgid "Inspector view after creating a ``movie_file`` metadata of type String"
 msgstr ""
@@ -137,7 +141,7 @@ msgid "Movie Maker can also be enabled from the :ref:`command line <doc_command_
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:121
-msgid "If the output path is relative, then it is **relative to the project folder**, not the current working directory. In the above example, the file will be written to ``/path/to/your_project/output.avi``. This behavior is similar to the ``--export`` command line argument."
+msgid "If the output path is relative, then it is **relative to the project folder**, not the current working directory. In the above example, the file will be written to ``/path/to/your_project/output.avi``. This behavior is similar to the ``--export-release`` command line argument."
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:126
@@ -333,7 +337,7 @@ msgid "While some platforms such as YouTube support uploading the AVI file direc
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:362
-msgid "The command below converts an AVI video to a MP4 (H.264) video with a Constant Rate Factor (CRF) of 15. This results in a relatively large file, but is well-suited for platforms that will re-encode your videos to reduce their size (such as most video sharing websites):"
+msgid "The command below converts an AVI video to an MP4 (H.264) video with a Constant Rate Factor (CRF) of 15. This results in a relatively large file, but is well-suited for platforms that will re-encode your videos to reduce their size (such as most video sharing websites):"
 msgstr ""
 
 #: ../../docs/tutorials/animation/creating_movies.rst:371

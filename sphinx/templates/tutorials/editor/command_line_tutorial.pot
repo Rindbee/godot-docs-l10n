@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,13 +37,89 @@ msgid "Command line reference"
 msgstr ""
 
 #: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:30
 msgid "release"
 msgstr ""
 
 #: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:31
 msgid "debug"
 msgstr ""
 
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:32
 #: ../../docs/tutorials/editor/command_line_tutorial.rst:32
 msgid "editor"
 msgstr ""
@@ -569,274 +645,282 @@ msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr ""
 
 #: ../../docs/tutorials/editor/command_line_tutorial.rst:195
-msgid "``--export-release <preset> <path>``"
+msgid "``--import``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/command_line_tutorial.rst:195
-msgid "|editor| Export the project using the given preset and matching release template. The preset name should match one defined in export_presets.cfg. ``<path>`` should be absolute or relative to the project directory, and include the filename for the binary (e.g. 'builds/game.exe'). The target directory should exist."
+msgid "|editor| Starts the editor, waits for any resources to be imported, and then quits. Implies ``--editor`` and ``--quit``."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:199
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:197
+msgid "``--export-release <preset> <path>``"
+msgstr ""
+
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:197
+msgid "|editor| Export the project using the given preset and matching release template. The preset name should match one defined in export_presets.cfg. ``<path>`` should be absolute or relative to the project directory, and include the filename for the binary (e.g. 'builds/game.exe'). The target directory should exist. Implies ``--import``."
+msgstr ""
+
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:201
 msgid "``--export-debug <preset> <path>``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:199
-msgid "|editor| Like ``--export-release``, but use debug template."
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:201
+msgid "|editor| Like ``--export-release``, but use debug template. Implies ``--import``."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:201
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:203
 msgid "``--export-pack <preset> <path>``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:201
-msgid "|editor| Like ``--export-release``, but only export the game pack for the given preset. The ``<path>`` extension determines whether it will be in PCK or ZIP format."
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:203
+msgid "|editor| Like ``--export-release``, but only export the game pack for the given preset. The ``<path>`` extension determines whether it will be in PCK or ZIP format. Implies ``--import``."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:204
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:206
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:204
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:206
 msgid "|editor| Convert project from Godot 3.x to Godot 4.x."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:206
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:208
 msgid "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:206
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:208
 msgid "|editor| Show what elements will be renamed when converting project from Godot 3.x to Godot 4.x."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:208
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:210
 msgid "``--doctool [<path>]``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:208
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:210
 msgid "|editor| Dump the engine API reference to the given ``<path>`` in XML format, merging if existing files are found."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:210
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:212
 msgid "``--no-docbase``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:210
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:212
 msgid "|editor| Disallow dumping the base types (used with ``--doctool``)."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:212
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:214
 msgid "``--gdscript-docs <path>``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:212
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:214
 msgid "|editor| Rather than dumping the engine API, generate API reference from the inline documentation in the GDScript files found in <path> (used with ``--doctool``)."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:215
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:217
 msgid "``--build-solutions``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:215
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:217
 msgid "|editor| Build the scripting solutions (e.g. for C# projects). Implies ``--editor`` and requires a valid project to edit."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:217
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:219
 msgid "``--dump-gdextension-interface``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:217
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:219
 msgid "|editor| Generate GDExtension header file 'gdnative_interface.h' in the current folder. This file is the base file required to implement a GDExtension."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:219
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:221
 msgid "``--dump-extension-api``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:219
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:221
 msgid "|editor| Generate JSON dump of the Godot API for GDExtension bindings named 'extension_api.json' in the current folder."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:221
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:223
 msgid "``--validate-extension-api <path>``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:221
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:223
 msgid "|editor| Validate an extension API file dumped (with the option above) from a previous version of the engine to ensure API compatibility. If incompatibilities or errors are detected, the return code will be non-zero."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:224
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:226
 msgid "``--benchmark``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:224
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:226
 msgid "|editor| Benchmark the run time and print it to console."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:226
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:228
 msgid "``--benchmark-file <path>``"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:226
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:228
 msgid "|editor| Benchmark the run time and save it to a given file in JSON format. The path should be absolute."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:230
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:232
 msgid "Path"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:232
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:234
 msgid "It is recommended to place your Godot editor binary in your ``PATH`` environment variable, so it can be executed easily from any place by typing ``godot``. You can do so on Linux by placing the Godot binary in ``/usr/local/bin`` and making sure it is called ``godot`` (case-sensitive)."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:237
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:239
 msgid "To achieve this on Windows or macOS easily, you can install Godot using `Scoop <https://scoop.sh>`__ (on Windows) or `Homebrew <https://brew.sh>`__ (on macOS). This will automatically make the copy of Godot installed available in the ``PATH``:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:261
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:263
 msgid "Setting the project path"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:263
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:265
 msgid "Depending on where your Godot binary is located and what your current working directory is, you may need to set the path to your project for any of the following commands to work correctly."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:267
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:269
 msgid "When running the editor, this can be done by giving the path to the ``project.godot`` file of your project as either the first argument, like this:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:274
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:276
 msgid "For all commands, this can be done by using the ``--path`` argument:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:280
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:282
 msgid "For example, the full command for exporting your game (as explained below) might look like this:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:286
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:288
 msgid "When starting from a subdirectory of your project, use the ``--upwards`` argument for Godot to automatically find the ``project.godot`` file by recursively searching the parent directories."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:289
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:291
 msgid "For example, running a scene (as explained below) nested in a subdirectory might look like this when your working directory is in the same path:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:300
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:302
 msgid "Creating a project"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:303
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:305
 msgid "Creating a project from the command line can be done by navigating the shell to the desired place and making a ``project.godot`` file."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:314
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:316
 msgid "The project can now be opened with Godot."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:318
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:320
 msgid "Running the editor"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:320
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:322
 msgid "Running the editor is done by executing Godot with the ``-e`` flag. This must be done from within the project directory or by setting the project path as explained above, otherwise the command is ignored and the Project Manager appears."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:328
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:330
 msgid "When passing in the full path to the ``project.godot`` file, the ``-e`` flag may be omitted."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:330
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:332
 msgid "If a scene has been created and saved, it can be edited later by running the same code with that scene as argument."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:338
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:340
 msgid "Erasing a scene"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:340
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:342
 msgid "Godot is friends with your filesystem and will not create extra metadata files. Use ``rm`` to erase a scene file. Make sure nothing references that scene. Otherwise, an error will be thrown upon opening the project."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:349
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:351
 msgid "Running the game"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:351
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:353
 msgid "To run the game, execute Godot within the project directory or with the project path as explained above."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:357
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:359
 msgid "Note that passing in the ``project.godot`` file will always run the editor instead of running the game."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:359
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:361
 msgid "When a specific scene needs to be tested, pass that scene to the command line."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:366
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:368
 msgid "Debugging"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:368
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:370
 msgid "Catching errors in the command line can be a difficult task because they scroll quickly. For this, a command line debugger is provided by adding ``-d``. It works for running either the game or a single scene."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:383
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:385
 msgid "Exporting"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:385
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:387
 msgid "Exporting the project from the command line is also supported. This is especially useful for continuous integration setups."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:390
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:392
 msgid "Using the ``--headless`` command line argument is **required** on platforms that do not have GPU access (such as continuous integration). On platforms with GPU access, ``--headless`` prevents a window from spawning while the project is exporting."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:403
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:405
 msgid "The preset name must match the name of an export preset defined in the project's ``export_presets.cfg`` file. If the preset name contains spaces or special characters (such as \"Windows Desktop\"), it must be surrounded with quotes."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:407
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:409
 msgid "To export a debug version of the game, use the ``--export-debug`` switch instead of ``--export-release``. Their parameters and usage are the same."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:410
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:412
 msgid "To export only a PCK file, use the ``--export-pack`` option followed by the preset name and output path, with the file extension, instead of ``--export-release`` or ``--export-debug``. The output path extension determines the package's format, either PCK or ZIP."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:417
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:419
 msgid "When specifying a relative path as the path for ``--export-release``, ``--export-debug`` or ``--export-pack``, the path will be relative to the directory containing the ``project.godot`` file, **not** relative to the current working directory."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:422
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:424
 msgid "Running a script"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:424
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:426
 msgid "It is possible to run a ``.gd`` script from the command line. This feature is especially useful in large projects, e.g. for batch conversion of assets or custom import/export."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:428
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:430
 msgid "The script must inherit from ``SceneTree`` or ``MainLoop``."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:430
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:432
 msgid "Here is an example ``sayhello.gd``, showing how it works:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:441
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:443
 msgid "And how to run it:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:448
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:450
 msgid "If no ``project.godot`` exists at the path, current path is assumed to be the current working directory (unless ``--path`` is specified)."
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:451
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:453
 msgid "The first line of ``sayhello.gd`` above is commonly referred to as a *shebang*. If the Godot binary is in your ``PATH`` as ``godot``, it allows you to run the script as follows in modern Linux distributions, as well as macOS:"
 msgstr ""
 
-#: ../../docs/tutorials/editor/command_line_tutorial.rst:463
+#: ../../docs/tutorials/editor/command_line_tutorial.rst:465
 msgid "If the above doesn't work in your current version of Linux or macOS, you can always have the shebang run Godot straight from where it is located as follows:"
 msgstr ""
 

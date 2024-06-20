@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,66 +178,66 @@ msgid "Add the code below to ``HUD`` to update the score"
 msgstr ""
 
 #: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:187
-msgid "Connect the ``pressed()`` signal of ``StartButton`` and the ``timeout()`` signal of ``MessageTimer``, and add the following code to the new functions:"
-msgstr ""
-
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:214
-msgid "Connecting HUD to Main"
+msgid "Connect the ``pressed()`` signal of ``StartButton`` and the ``timeout()`` signal of ``MessageTimer`` to the ``HUD`` node, and add the following code to the new functions:"
 msgstr ""
 
 #: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:216
+msgid "Connecting HUD to Main"
+msgstr ""
+
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:218
 msgid "Now that we're done creating the ``HUD`` scene, go back to ``Main``. Instance the ``HUD`` scene in ``Main`` like you did the ``Player`` scene. The scene tree should look like this, so make sure you didn't miss anything:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:222
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:224
 msgid "Now we need to connect the ``HUD`` functionality to our ``Main`` script. This requires a few additions to the ``Main`` scene:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:225
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:227
 msgid "In the Node tab, connect the HUD's ``start_game`` signal to the ``new_game()`` function of the Main node by clicking the \"Pick\" button in the \"Connect a Signal\" window and selecting the ``new_game()`` method or type \"new_game\" below \"Receiver Method\" in the window. Verify that the green connection icon now appears next to ``func new_game()`` in the script."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:231
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:233
 msgid "In ``new_game()``, update the score display and show the \"Get Ready\" message:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:245
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:247
 msgid "In ``game_over()`` we need to call the corresponding ``HUD`` function:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:256
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:258
 msgid "Finally, add this to ``_on_score_timer_timeout()`` to keep the display in sync with the changing score:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:270
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:272
 msgid "Remember to remove the call to ``new_game()`` from ``_ready()`` if you haven't already, otherwise your game will start automatically."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:274
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:276
 msgid "Now you're ready to play! Click the \"Play the Project\" button. You will be asked to select a main scene, so choose ``main.tscn``."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:278
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:280
 msgid "Removing old creeps"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:280
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:282
 msgid "If you play until \"Game Over\" and then start a new game right away, the creeps from the previous game may still be on the screen. It would be better if they all disappeared at the start of a new game. We just need a way to tell *all* the mobs to remove themselves. We can do this with the \"group\" feature."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:285
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:287
 msgid "In the ``Mob`` scene, select the root node and click the \"Node\" tab next to the Inspector (the same place where you find the node's signals). Next to \"Signals\", click \"Groups\" and you can type a new group name and click \"Add\"."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:291
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:293
 msgid "Now all mobs will be in the \"mobs\" group. We can then add the following line to the ``new_game()`` function in ``Main``:"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:305
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:307
 msgid "The ``call_group()`` function calls the named function on every node in a group - in this case we are telling every mob to delete itself."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:308
+#: ../../docs/getting_started/first_2d_game/06.heads_up_display.rst:310
 msgid "The game's mostly done at this point. In the next and last part, we'll polish it a bit by adding a background, looping music, and some keyboard shortcuts."
 msgstr ""
 

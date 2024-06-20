@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:2
+#: ../../docs/contributing/development/core_and_modules/index.rst:4
 msgid "Engine core and modules"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:4
+#: ../../docs/contributing/development/core_and_modules/index.rst:6
 msgid "The following pages are meant to introduce the global organization of Godot Engine's source code, and give useful tips for extending and fixing the engine on the C++ side."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:8
+#: ../../docs/contributing/development/core_and_modules/index.rst:10
 msgid "Getting started with Godot's source code"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:10
+#: ../../docs/contributing/development/core_and_modules/index.rst:12
 msgid "This section covers the basics that you will encounter in (almost) every source file."
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:26
+#: ../../docs/contributing/development/core_and_modules/index.rst:29
 msgid "Extending Godot by modifying its source code"
 msgstr ""
 
-#: ../../docs/contributing/development/core_and_modules/index.rst:28
+#: ../../docs/contributing/development/core_and_modules/index.rst:31
 msgid "This section covers what you can do by modifying Godot's C++ source code."
 msgstr ""
 

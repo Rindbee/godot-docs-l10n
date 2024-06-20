@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "One of the fundamental benefits of exporting member variables is to have 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:29
-msgid "Exporting can only be done with :ref:`Variant-compatible <doc_c_sharp_variant>` types."
+msgid "Exporting can only be done with :ref:`c_sharp_variant_compatible_types`."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:33
@@ -45,287 +45,319 @@ msgid "Basic use"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:39
-msgid "Exporting can work with fields and properties."
+msgid "Exporting works with fields and properties. They can have any access modifier."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:49
 msgid "Exported members can specify a default value; otherwise, the `default value of the type <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values>`_ is used instead."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:74
-msgid "Resources and nodes can be exported."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:51
+msgid "An ``int`` like ``Number`` defaults to ``0``. ``Text`` defaults to null because ``string`` is a reference type."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:85
-msgid "Grouping exports"
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:62
+msgid "Default values can be specified for fields and properties."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:72
+msgid "Properties with a backing field use the default value of the backing field."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:87
-msgid "It is possible to group your exported properties inside the Inspector with the ``[ExportGroup]`` attribute. Every exported property after this attribute will be added to the group. Start a new group or use ``[ExportGroup(\"\")]`` to break out."
+msgid "A property's ``get`` is not actually executed to determine the default value. Instead, Godot analyzes the C# source code. This works fine for most cases, such as the examples on this page. However, some properties are too complex for the analyzer to understand."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:97
-msgid "The second argument of the attribute can be used to only group properties with the specified prefix."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:92
+msgid "For example, the following property attempts to use math to display the default value as ``5`` in the property editor, but it doesn't work:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:99
-msgid "Groups cannot be nested, use ``[ExportSubgroup]`` to create subgroups within a group."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:106
+msgid "The analyzer doesn't understand this code and falls back to the default value for ``int``, ``0``. However, when running the scene or inspecting a node with an attached tool script, ``_number`` will be ``2``, and ``NumberWithBackingField`` will return ``5``. This difference may cause confusing behavior. To avoid this, don't use complex properties. Alternatively, if the default value can be explicitly specified, it can be overridden with the :ref:`_PropertyCanRevert() <class_Object_private_method__property_can_revert>` and :ref:`_PropertyGetRevert() <class_Object_private_method__property_get_revert>` methods."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:109
-msgid "You can also change the name of your main category, or create additional categories in the property list with the ``[ExportCategory]`` attribute."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:115
+msgid "Any type of ``Resource`` or ``Node`` can be exported. The property editor shows a user-friendly assignment dialog for these types. This can be used instead of ``GD.Load`` and ``GetNode``. See :ref:`Nodes and Resources <doc_c_sharp_exports_nodes>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:126
-msgid "The list of properties is organized based on the class inheritance, and new categories break that expectation. Use them carefully, especially when creating projects for public use."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:128
+msgid "Grouping exports"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:130
+msgid "It is possible to group your exported properties inside the Inspector with the ``[ExportGroup]`` attribute. Every exported property after this attribute will be added to the group. Start a new group or use ``[ExportGroup(\"\")]`` to break out."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:140
+msgid "The second argument of the attribute can be used to only group properties with the specified prefix."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:142
+msgid "Groups cannot be nested, use ``[ExportSubgroup]`` to create subgroups within a group."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:152
+msgid "You can also change the name of your main category, or create additional categories in the property list with the ``[ExportCategory]`` attribute."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:169
+msgid "The list of properties is organized based on the class inheritance, and new categories break that expectation. Use them carefully, especially when creating projects for public use."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:173
 msgid "Strings as paths"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:132
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:175
 msgid "Property hints can be used to export strings as paths"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:134
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:177
 msgid "String as a path to a file."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:141
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:184
 msgid "String as a path to a directory."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:148
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:191
 msgid "String as a path to a file, custom filter provided as hint."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:155
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:198
 msgid "Using paths in the global filesystem is also possible, but only in scripts in tool mode."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:158
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:201
 msgid "String as a path to a PNG file in the global filesystem."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:165
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:208
 msgid "String as a path to a directory in the global filesystem."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:172
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:215
 msgid "The multiline annotation tells the editor to show a large input field for editing over multiple lines."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:181
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:224
 msgid "Limiting editor input ranges"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:183
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:226
 msgid "Using the range property hint allows you to limit what can be input as a value using the editor."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:186
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:229
 msgid "Allow integer values from 0 to 20."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:193
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:236
 msgid "Allow integer values from -10 to 20."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:200
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:243
 msgid "Allow floats from -10 to 20 and snap the value to multiples of 0.2."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:207
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:250
 msgid "If you add the hints \"or_greater\" and/or \"or_less\" you can go above or below the limits when adjusting the value by typing it instead of using the slider."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:217
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:260
 msgid "Floats with easing hint"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:219
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:262
 msgid "Display a visual representation of the 'ease()' function when editing."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:228
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:271
 msgid "Colors"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:230
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:273
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:237
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:280
 msgid "Color given as red-green-blue value (alpha will always be 1)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:245
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:290
 msgid "Nodes"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:247
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:292
 msgid "Since Godot 4.0, nodes can be directly exported without having to use NodePaths."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:254
-msgid "Custom node classes can also be used, see :ref:`doc_c_sharp_global_classes`."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:299
+msgid "A specific type of node can also be directly exported. The list of nodes shown after pressing \"Assign\" in the inspector is filtered to the specified type, and only a correct node can be assigned."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:256
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:308
+msgid "Custom node classes can also be exported directly. The filtering behavior depends on whether the custom class is a :ref:`global class <doc_c_sharp_global_classes>`."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:312
 msgid "Exporting NodePaths like in Godot 3.x is still possible, in case you need it:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:269
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:325
 msgid "Resources"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:276
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:332
 msgid "In the Inspector, you can then drag and drop a resource file from the FileSystem dock into the variable slot."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:279
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:335
 msgid "Opening the inspector dropdown may result in an extremely long list of possible classes to create, however. Therefore, if you specify a type derived from Resource such as:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:288
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:344
 msgid "The drop-down menu will be limited to AnimationNode and all its inherited classes. Custom resource classes can also be used, see :ref:`doc_c_sharp_global_classes`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:292
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:348
 msgid "It must be noted that even if the script is not being run while in the editor, the exported properties are still editable. This can be used in conjunction with a :ref:`script in \"tool\" mode <doc_gdscript_tool_mode>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:297
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:353
 msgid "Exporting bit flags"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:299
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:355
 msgid "Members whose type is an enum with the ``[Flags]`` attribute can be exported and their values are limited to the members of the enum type. The editor will create a widget in the Inspector, allowing to select none, one, or multiple of the enum members. The value will be stored as an integer."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:322
-msgid "Integers used as bit flags can store multiple ``true``/``false`` (boolean) values in one property. By using the ``Flags`` property hint, they can be set from the editor."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:360
+msgid "A flags enum uses powers of 2 for the values of the enum members. Members that combine multiple flags using logical OR (``|``) are also possible."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:332
-msgid "You must provide a string description for each flag. In this example, ``Fire`` has value 1, ``Water`` has value 2, ``Earth`` has value 4 and ``Wind`` corresponds to value 8. Usually, constants should be defined accordingly (e.g. ``private const int ElementWind = 8`` and so on)."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:337
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:399
-msgid "You can add explicit values using a colon:"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:344
-msgid "Only power of 2 values are valid as bit flags options. The lowest allowed value is 1, as 0 means that nothing is selected. You can also add options that are a combination of other flags:"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:353
-msgid "Export annotations are also provided for the physics and render layers defined in the project settings."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:366
-msgid "Using bit flags requires some understanding of bitwise operations. If in doubt, use boolean variables instead."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:370
-msgid "Exporting enums"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:372
-msgid "Members whose type is an enum can be exported and their values are limited to the members of the enum type. The editor will create a widget in the Inspector, enumerating the following as \"Thing 1\", \"Thing 2\", \"Another Thing\". The value will be stored as an integer."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:379
+msgid "Integers used as bit flags can store multiple ``true``/``false`` (boolean) values in one property. By using the ``Flags`` property hint, any of the given flags can be set from the editor."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:388
-msgid "Integer and string members can also be limited to a specific list of values using the ``[Export]`` annotation with the ``PropertyHint.Enum`` hint. The editor will create a widget in the Inspector, enumerating the following as Warrior, Magician, Thief. The value will be stored as an integer, corresponding to the index of the selected option (i.e. ``0``, ``1``, or ``2``)."
+msgid "You must provide a string description for each flag. In this example, ``Fire`` has value 1, ``Water`` has value 2, ``Earth`` has value 4 and ``Wind`` corresponds to value 8. Usually, constants should be defined accordingly (e.g. ``private const int ElementWind = 8`` and so on)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:406
-msgid "If the type is ``string``, the value will be stored as a string."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:393
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:455
+msgid "You can add explicit values using a colon:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:413
-msgid "If you want to set an initial value, you must specify it explicitly:"
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:400
+msgid "Only power of 2 values are valid as bit flags options. The lowest allowed value is 1, as 0 means that nothing is selected. You can also add options that are a combination of other flags:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:421
-msgid "Exporting collections"
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:409
+msgid "Export annotations are also provided for the physics and render layers defined in the project settings."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:423
-msgid "As explained in the :ref:`C# Variant <doc_c_sharp_variant>` documentation, only certain C# arrays and the collection types defined in the ``Godot.Collections`` namespace are Variant-compatible, therefore, only those types can be exported."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:422
+msgid "Using bit flags requires some understanding of bitwise operations. If in doubt, use boolean variables instead."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:426
+msgid "Exporting enums"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:428
-msgid "Exporting Godot arrays"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:435
-msgid "Using the generic ``Godot.Collections.Array<T>`` allows to specify the type of the array elements which will be used as a hint for the editor. The Inspector will restrict the elements to the specified type."
+msgid "Members whose type is an enum can be exported and their values are limited to the members of the enum type. The editor will create a widget in the Inspector, enumerating the following as \"Thing 1\", \"Thing 2\", \"Another Thing\". The value will be stored as an integer."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:444
-msgid "The default value of Godot arrays is null, a different default can be specified:"
+msgid "Integer and string members can also be limited to a specific list of values using the ``[Export]`` annotation with the ``PropertyHint.Enum`` hint. The editor will create a widget in the Inspector, enumerating the following as Warrior, Magician, Thief. The value will be stored as an integer, corresponding to the index of the selected option (i.e. ``0``, ``1``, or ``2``)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:456
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:462
+msgid "If the type is ``string``, the value will be stored as a string."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:469
+msgid "If you want to set an initial value, you must specify it explicitly:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:477
+msgid "Exporting collections"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:479
+msgid "As explained in the :ref:`C# Variant <doc_c_sharp_variant>` documentation, only certain C# arrays and the collection types defined in the ``Godot.Collections`` namespace are Variant-compatible, therefore, only those types can be exported."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:484
+msgid "Exporting Godot arrays"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:491
+msgid "Using the generic ``Godot.Collections.Array<T>`` allows specifying the type of the array elements, which will be used as a hint for the editor. The Inspector will restrict the elements to the specified type."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:500
+msgid "The default value of Godot arrays is null. A different default can be specified:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:512
 msgid "Arrays with specified types which inherit from resource can be set by drag-and-dropping multiple files from the FileSystem dock."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:468
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:524
 msgid "Exporting Godot dictionaries"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:475
-msgid "Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows to specify the type of the key and value elements of the dictionary."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:531
+msgid "Using the generic ``Godot.Collections.Dictionary<TKey, TValue>`` allows specifying the types of the key and value elements of the dictionary."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:480
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:536
 msgid "Typed dictionaries are currently unsupported in the Godot editor, so the Inspector will not restrict the types that can be assigned, potentially resulting in runtime exceptions."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:489
-msgid "The default value of Godot dictionaries is null, a different default can be specified:"
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:545
+msgid "The default value of Godot dictionaries is null. A different default can be specified:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:502
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:558
 msgid "Exporting C# arrays"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:504
-msgid "C# arrays can exported as long as the element type is a :ref:`Variant-compatible <doc_c_sharp_variant>` type."
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:560
+msgid "C# arrays can exported as long as the element type is a :ref:`Variant-compatible type <c_sharp_variant_compatible_types>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:514
-msgid "The default value of C# arrays is null, a different default can be specified:"
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:570
+msgid "The default value of C# arrays is null. A different default can be specified:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:526
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:582
 msgid "Setting exported variables from a tool script"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:528
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:584
 msgid "When changing an exported variable's value from a script in :ref:`doc_gdscript_tool_mode`, the value in the inspector won't be updated automatically. To update it, call :ref:`NotifyPropertyListChanged() <class_Object_method_notify_property_list_changed>` after setting the exported variable's value."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:535
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:591
 msgid "Advanced exports"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:537
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:593
 msgid "Not every type of export can be provided on the level of the language itself to avoid unnecessary design complexity. The following describes some more or less common exporting features which can be implemented with a low-level API."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:541
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:597
 msgid "Before reading further, you should get familiar with the way properties are handled and how they can be customized with :ref:`_Set() <class_Object_private_method__set>`, :ref:`_Get() <class_Object_private_method__get>`, and :ref:`_GetPropertyList() <class_Object_private_method__get_property_list>` methods as described in :ref:`doc_accessing_data_or_logic_from_object`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:548
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:604
 msgid "For binding properties using the above methods in C++, see :ref:`doc_binding_properties_using_set_get_property_list`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:551
+#: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:607
 msgid "The script must operate in the ``tool`` mode so the above methods can work from within the editor."
 msgstr ""
 

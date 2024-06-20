@@ -9,6 +9,7 @@ about/release_policy.pot
 about/docs_changelog.pot
 getting_started/introduction/index.pot
 getting_started/introduction/introduction_to_godot.pot
+getting_started/introduction/learn_to_code_with_gdscript.pot
 getting_started/introduction/key_concepts_overview.pot
 getting_started/introduction/first_look_at_the_editor.pot
 getting_started/introduction/learning_new_features.pot
@@ -257,6 +258,7 @@ tutorials/platform/ios/index.pot
 tutorials/platform/ios/ios_plugin.pot
 tutorials/platform/ios/plugins_for_ios.pot
 tutorials/platform/web/index.pot
+tutorials/platform/web/javascript_bridge.pot
 tutorials/platform/web/html5_shell_classref.pot
 tutorials/platform/web/customizing_html5_shell.pot
 tutorials/platform/consoles.pot
@@ -274,6 +276,7 @@ tutorials/rendering/index.pot
 tutorials/rendering/viewports.pot
 tutorials/rendering/multiple_resolutions.pot
 tutorials/rendering/jitter_stutter.pot
+tutorials/rendering/compositor.pot
 tutorials/scripting/index.pot
 tutorials/scripting/gdscript/index.pot
 tutorials/scripting/gdscript/gdscript_basics.pot
@@ -297,6 +300,7 @@ tutorials/scripting/c_sharp/c_sharp_style_guide.pot
 tutorials/scripting/c_sharp/diagnostics/index.pot
 tutorials/scripting/c_sharp/diagnostics/GD0001.pot
 tutorials/scripting/c_sharp/diagnostics/GD0002.pot
+tutorials/scripting/c_sharp/diagnostics/GD0003.pot
 tutorials/scripting/c_sharp/diagnostics/GD0101.pot
 tutorials/scripting/c_sharp/diagnostics/GD0102.pot
 tutorials/scripting/c_sharp/diagnostics/GD0103.pot
@@ -374,12 +378,16 @@ tutorials/ui/bbcode_in_richtextlabel.pot
 tutorials/xr/index.pot
 tutorials/xr/setting_up_xr.pot
 tutorials/xr/deploying_to_android.pot
-tutorials/xr/introducing_xr_tools.pot
-tutorials/xr/basic_xr_locomotion.pot
+tutorials/xr/a_better_xr_start_script.pot
+tutorials/xr/ar_passthrough.pot
+tutorials/xr/xr_next_steps.pot
+tutorials/xr/openxr_settings.pot
 tutorials/xr/xr_action_map.pot
 tutorials/xr/xr_room_scale.pot
+tutorials/xr/openxr_composition_layers.pot
 tutorials/xr/openxr_hand_tracking.pot
-tutorials/xr/openxr_passthrough.pot
+tutorials/xr/introducing_xr_tools.pot
+tutorials/xr/basic_xr_locomotion.pot
 contributing/ways_to_contribute.pot
 contributing/workflow/index.pot
 contributing/workflow/bisecting_regressions.pot
@@ -391,6 +399,7 @@ contributing/development/index.pot
 contributing/development/best_practices_for_engine_contributors.pot
 contributing/development/code_style_guidelines.pot
 contributing/development/cpp_usage_guidelines.pot
+contributing/development/handling_compatibility_breakages.pot
 contributing/development/configuring_an_ide/index.pot
 contributing/development/configuring_an_ide/android_studio.pot
 contributing/development/configuring_an_ide/clion.pot
@@ -429,6 +438,7 @@ contributing/development/core_and_modules/object_class.pot
 contributing/development/core_and_modules/inheritance_class_tree.pot
 contributing/development/core_and_modules/internal_rendering_architecture.pot
 contributing/development/core_and_modules/2d_coordinate_systems.pot
+contributing/development/core_and_modules/scripting_development.pot
 contributing/development/core_and_modules/custom_modules_in_cpp.pot
 contributing/development/core_and_modules/binding_to_external_libraries.pot
 contributing/development/core_and_modules/custom_godot_servers.pot

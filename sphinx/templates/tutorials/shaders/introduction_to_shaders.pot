@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,38 +153,38 @@ msgid "Vertex processor"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/introduction_to_shaders.rst:141
-msgid "The ``vertex()`` processing function is called once for every vertex in ``spatial`` and ``canvas_item`` shaders. For ``particles`` shaders, it is called once for every particle."
+msgid "The ``vertex()`` processing function is called once for every vertex in ``spatial`` and ``canvas_item`` shaders."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:145
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:144
 msgid "Each vertex in your world's geometry has properties like a position and color. The function modifies those values and passes them to the fragment function. You can also use it to send extra data to the fragment function using varyings."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:149
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:148
 msgid "By default, Godot transforms your vertex information for you, which is necessary to project geometry onto the screen. You can use render modes to transform the data yourself; see the :ref:`Spatial shader doc <doc_spatial_shader>` for an example."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:155
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:154
 msgid "Fragment processor"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:157
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:156
 msgid "The ``fragment()`` processing function is used to set up the Godot material parameters per pixel. This code runs on every visible pixel the object or primitive draws. It is only available in ``spatial``, ``canvas_item``, and ``sky`` shaders."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:161
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:160
 msgid "The standard use of the fragment function is to set up material properties used to calculate lighting. For example, you would set values for ``ROUGHNESS``, ``RIM``, or ``TRANSMISSION``, which would tell the light function how the lights respond to that fragment. This makes it possible to control a complex shading pipeline without the user having to write much code. If you don't need this built-in functionality, you can ignore it and write your own light processing function, and Godot will optimize it away. For example, if you do not write a value to ``RIM``, Godot will not calculate rim lighting. During compilation, Godot checks to see if ``RIM`` is used; if not, it cuts all the corresponding code out. Therefore, you will not waste calculations on the effects that you do not use."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:174
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:173
 msgid "Light processor"
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:176
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:175
 msgid "The ``light()`` processor runs per pixel too, and it runs once for every light that affects the object. It does not run if no lights affect the object. It exists as a function called inside the ``fragment()`` processor and typically operates on the material properties setup inside the ``fragment()`` function."
 msgstr ""
 
-#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:181
+#: ../../docs/tutorials/shaders/introduction_to_shaders.rst:180
 msgid "The ``light()`` processor works differently in 2D than it does in 3D; for a description of how it works in each, see their documentation, :ref:`CanvasItem shaders <doc_canvas_item_shader>` and :ref:`Spatial shaders <doc_spatial_shader>`, respectively."
 msgstr ""
 

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,6 +85,7 @@ msgid "Particle flipbooks are suited to reproduce complex effects such as smoke,
 msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:87
+#: ../../docs/tutorials/2d/particle_systems_2d.rst:87
 msgid "Example of a particle system that uses a flipbook texture"
 msgstr ""
 
@@ -105,6 +106,7 @@ msgid "To use an animation flipbook, you must create a new CanvasItemMaterial in
 msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:108
+#: ../../docs/tutorials/2d/particle_systems_2d.rst:108
 msgid "Creating a CanvasItemMaterial at the bottom of the particles node inspector"
 msgstr ""
 
@@ -112,6 +114,7 @@ msgstr ""
 msgid "In this CanvasItemMaterial, enable **Particle Animation** and set **H Frames** and **V Frames** to the number of columns and rows present in your flipbook texture:"
 msgstr ""
 
+#: ../../docs/tutorials/2d/particle_systems_2d.rst:117
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:117
 msgid "Configuring the CanvasItemMaterial for the example flipbook texture"
 msgstr ""
@@ -405,6 +408,7 @@ msgid "To set up the particle flipbook for linear playback, set the **Speed Min*
 msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:388
+#: ../../docs/tutorials/2d/particle_systems_2d.rst:388
 msgid "Setting up particle animation for playback during the particle's lifetime"
 msgstr ""
 
@@ -430,6 +434,7 @@ msgstr ""
 msgid "If you wish the particle flipbook to be used as a source of random particle textures for every particle, keep the speed values at 0 and set **Offset Max** to 1 instead:"
 msgstr ""
 
+#: ../../docs/tutorials/2d/particle_systems_2d.rst:417
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:417
 msgid "Setting up particle animation for random offset on emission"
 msgstr ""

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,423 +16,491 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:6
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:4
 msgid "Character animation"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:8
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:6
 msgid "In this final lesson, we'll use Godot's built-in animation tools to make our characters float and flap. You'll learn to design animations in the editor and use code to make your game feel alive."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:12
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:10
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:608
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:616
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:616
 msgid "image0"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:14
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:12
 msgid "We'll start with an introduction to using the animation editor."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:17
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:15
 msgid "Using the animation editor"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:19
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:17
 msgid "The engine comes with tools to author animations in the editor. You can then use the code to play and control them at runtime."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:22
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:20
 msgid "Open the player scene, select the ``Player`` node, and add an :ref:`AnimationPlayer <class_AnimationPlayer>` node."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:24
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:22
 msgid "The *Animation* dock appears in the bottom panel."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:26
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:24
 msgid "|image1|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:609
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:617
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:617
 msgid "image1"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:28
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:26
 msgid "It features a toolbar and the animation drop-down menu at the top, a track editor in the middle that's currently empty, and filter, snap, and zoom options at the bottom."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:32
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:30
 msgid "Let's create an animation. Click on *Animation -> New*."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:34
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:32
 msgid "|image2|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:610
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:618
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:618
 msgid "image2"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:36
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:34
 msgid "Name the animation \"float\"."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:38
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:36
 msgid "|image3|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:611
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:619
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:619
 msgid "image3"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:40
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:38
 msgid "Once you've created the animation, the timeline appears with numbers representing time in seconds."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:43
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:41
 msgid "|image4|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:612
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:620
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:620
 msgid "image4"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:45
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:43
 msgid "We want the animation to start playback automatically at the start of the game. Also, it should loop."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:48
-msgid "To do so, you can click the button with an \"A+\" icon in the animation toolbar and the looping arrows, respectively."
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:46
+msgid "To do so, you can click the autoplay button (|Autoplay|) in the animation toolbar and the looping arrows, respectively."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:51
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:642
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:642
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:642
+msgid "Autoplay"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:49
 msgid "|image5|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:613
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:621
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:621
 msgid "image5"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:53
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:51
 msgid "You can also pin the animation editor by clicking the pin icon in the top-right. This prevents it from folding when you click on the viewport and deselect the nodes."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:57
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:55
 msgid "|image6|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:614
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:622
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:622
 msgid "image6"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:59
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:57
 msgid "Set the animation duration to ``1.2`` seconds in the top-right of the dock."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:61
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:59
 msgid "|image7|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:615
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:623
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:623
 msgid "image7"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:63
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:61
 msgid "You should see the gray ribbon widen a bit. It shows you the start and end of your animation and the vertical blue line is your time cursor."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:66
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:64
 msgid "|image8|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:616
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:624
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:624
 msgid "image8"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:68
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:66
 msgid "You can click and drag the slider in the bottom-right to zoom in and out of the timeline."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:71
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:69
 msgid "|image9|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:617
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:625
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:625
 msgid "image9"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:74
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:72
 msgid "The float animation"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:76
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:74
 msgid "With the animation player node, you can animate most properties on as many nodes as you need. Notice the key icon next to properties in the *Inspector*. You can click any of them to create a keyframe, a time and value pair for the corresponding property. The keyframe gets inserted where your time cursor is in the timeline."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:82
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:80
 msgid "Let's insert our first keys. Here, we will animate both the position and the rotation of the ``Character`` node."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:85
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:83
 msgid "Select the ``Character`` and in the *Inspector* expand the *Transform* section. Click the key icon next to *Position*, and *Rotation*."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:87
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:85
 msgid "|image10|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:618
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:626
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:626
 msgid "image10"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:91
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:89
 msgid "For this tutorial, just create RESET Track(s) which is the default choice"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:93
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:91
 msgid "Two tracks appear in the editor with a diamond icon representing each keyframe."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:95
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:93
 msgid "|image11|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:619
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:627
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:627
 msgid "image11"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:97
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:95
 msgid "You can click and drag on the diamonds to move them in time. Move the position key to ``0.3`` seconds and the rotation key to ``0.1`` seconds."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:100
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:98
 msgid "|image12|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:620
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:628
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:628
 msgid "image12"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:102
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:100
 msgid "Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray timeline."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:107
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:103
+msgid "|timeline_05_click|"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:641
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:641
+msgid "timeline_05_click"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:105
 msgid "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the *Rotation*' *X* axis to ``8``."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:109
-msgid "|image13|"
-msgstr ""
-
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:621
-msgid "image13"
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:108
+msgid "If you don't see the properties in the *Inspector* panel, first click on the ``Character`` node again in the *Scene* dock."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:111
+msgid "|image13|"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:629
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:629
+msgid "image13"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:113
 msgid "Create a keyframe for both properties"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:115
+msgid "|second_keys_both|"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:640
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:640
+msgid "second_keys_both"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:117
 msgid "Now, move the position keyframe to ``0.7`` seconds by dragging it on the timeline."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:118
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:120
 msgid "|image14|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:622
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:630
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:630
 msgid "image14"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:122
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:124
 msgid "A lecture on the principles of animation is beyond the scope of this tutorial. Just note that you don't want to time and space everything evenly. Instead, animators play with timing and spacing, two core animation principles. You want to offset and contrast in your character's motion to make them feel alive."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:128
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:130
 msgid "Move the time cursor to the end of the animation, at ``1.2`` seconds. Set the Y position to about ``0.35`` and the X rotation to ``-9`` degrees. Once again, create a key for both properties."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:134
+msgid "|animation_final_keyframes|"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:639
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:639
+msgid "animation_final_keyframes"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:136
 msgid "You can preview the result by clicking the play button or pressing :kbd:`Shift + D`. Click the stop button or press :kbd:`S` to stop playback."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:137
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:139
 msgid "|image15|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:623
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:631
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:631
 msgid "image15"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:139
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:141
 msgid "You can see that the engine interpolates between your keyframes to produce a continuous animation. At the moment, though, the motion feels very robotic. This is because the default interpolation is linear, causing constant transitions, unlike how living things move in the real world."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:144
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:146
 msgid "We can control the transition between keyframes using easing curves."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:146
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:148
 msgid "Click and drag around the first two keys in the timeline to box select them."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:148
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:150
 msgid "|image16|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:624
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:632
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:632
 msgid "image16"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:150
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:152
 msgid "You can edit the properties of both keys simultaneously in the *Inspector*, where you can see an *Easing* property."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:153
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:155
 msgid "|image17|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:625
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:633
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:633
 msgid "image17"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:155
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:157
 msgid "Click and drag on the curve, pulling it towards the left. This will make it ease-out, that is to say, transition fast initially and slow down as the time cursor reaches the next keyframe."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:159
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:161
 msgid "|image18|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:626
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:634
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:634
 msgid "image18"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:161
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:163
 msgid "Play the animation again to see the difference. The first half should already feel a bit bouncier."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:164
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:166
 msgid "Apply an ease-out to the second keyframe in the rotation track."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:166
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:168
 msgid "|image19|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:627
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:635
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:635
 msgid "image19"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:168
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:170
 msgid "Do the opposite for the second position keyframe, dragging it to the right."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:170
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:172
 msgid "|image20|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:628
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:636
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:636
 msgid "image20"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:172
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:174
 msgid "Your animation should look something like this."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:174
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:176
 msgid "|image21|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:629
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:637
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:637
 msgid "image21"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:178
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:180
 msgid "Animations update the properties of the animated nodes every frame, overriding initial values. If we directly animated the *Player* node, it would prevent us from moving it in code. This is where the *Pivot* node comes in handy: even though we animated the *Character*, we can still move and rotate the *Pivot* and layer changes on top of the animation in a script."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:185
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:187
 msgid "If you play the game, the player's creature will now float!"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:187
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:189
 msgid "If the creature is a little too close to the floor, you can move the ``Pivot`` up to offset it."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:191
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:193
 msgid "Controlling the animation in code"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:193
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:195
 msgid "We can use code to control the animation playback based on the player's input. Let's change the animation speed when the character is moving."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:196
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:198
 msgid "Open the ``Player``'s script by clicking the script icon next to it."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:198
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:200
 msgid "|image22|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:630
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:638
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:638
 msgid "image22"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:200
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:202
 msgid "In ``_physics_process()``, after the line where we check the ``direction`` vector, add the following code."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:230
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:232
 msgid "This code makes it so when the player moves, we multiply the playback speed by ``4``. When they stop, we reset it to normal."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:233
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:235
 msgid "We mentioned that the ``Pivot`` could layer transforms on top of the animation. We can make the character arc when jumping using the following line of code. Add it at the end of ``_physics_process()``."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:254
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:256
 msgid "Animating the mobs"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:256
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:258
 msgid "Here's another nice trick with animations in Godot: as long as you use a similar node structure, you can copy them to different scenes."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:259
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:261
 msgid "For example, both the ``Mob`` and the ``Player`` scenes have a ``Pivot`` and a ``Character`` node, so we can reuse animations between them."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:262
-msgid "Open the *Player* scene, select the AnimationPlayer node and open the \"float\" animation. Next, click on **Animation > Copy**. Then open ``mob.tscn``, create an AnimationPlayer child node and select it. Click **Animation > Paste** and make sure that the button with an \"A+\" icon (Autoplay on Load) and the looping arrows (Animation looping) are also turned on in the animation editor in the bottom panel. That's it; all monsters will now play the float animation."
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:264
+msgid "Open the *Player* scene, select the AnimationPlayer node and then click on **Animation > Manage Animations...**. Click the *Copy animation to clipboard* button (two small squares) alongside the *float* animation. Click OK to close the window."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:269
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:268
+msgid "Then open ``mob.tscn``, create an :ref:`AnimationPlayer <class_AnimationPlayer>` child node and select it. Click **Animation > Manage Animations**, then **Add Library**. You should see the message \"Global library will be created.\" Leave the text field blank and click OK. Click the *Paste* icon (clipboard) and it should appear in the window. Click OK to close the window."
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:274
+msgid "Next, make sure that the autoplay button (|Autoplay|) and the looping arrows (Animation looping) are also turned on in the animation editor in the bottom panel. That's it; all monsters will now play the float animation."
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:278
 msgid "We can change the playback speed based on the creature's ``random_speed``. Open the *Mob*'s script and at the end of the ``initialize()`` function, add the following line."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:288
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:296
 msgid "And with that, you finished coding your first complete 3D game."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:290
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:298
 msgid "**Congratulations**!"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:292
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:300
 msgid "In the next part, we'll quickly recap what you learned and give you some links to keep learning more. But for now, here are the complete ``Player.gd`` and ``Mob.gd`` so you can check your code against them."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:296
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:304
 msgid "Here's the *Player* script."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:509
+#: ../../docs/getting_started/first_3d_game/09.adding_animations.rst:517
 msgid "And the *Mob*'s script."
 msgstr ""
 

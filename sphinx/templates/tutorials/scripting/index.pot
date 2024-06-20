@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/tutorials/scripting/index.rst:2
+#: ../../docs/tutorials/scripting/index.rst:4
 msgid "Scripting"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:4
+#: ../../docs/tutorials/scripting/index.rst:6
 msgid "This section covers programming languages and core features to code your games in Godot."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:7
+#: ../../docs/tutorials/scripting/index.rst:9
 msgid "Here, you will find information that is not already covered in more specific sections. For instance, to learn about inputs, we recommend you to read :ref:`Inputs <toc-learn-features-inputs>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:12
+#: ../../docs/tutorials/scripting/index.rst:14
 msgid "Programming languages"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:14
+#: ../../docs/tutorials/scripting/index.rst:16
 msgid "The sections below each focus on a given programming language."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:25
+#: ../../docs/tutorials/scripting/index.rst:27
 msgid "Core features"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/index.rst:27
+#: ../../docs/tutorials/scripting/index.rst:29
 msgid "Some features are specific to the engine and are available in all supported languages. Whether you code in GDScript, C#, or another language, the pages below will help you make the most of Godot."
 msgstr ""
 

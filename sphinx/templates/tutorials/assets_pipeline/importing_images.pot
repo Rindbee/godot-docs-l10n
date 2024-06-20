@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -201,9 +201,53 @@ msgid "In this table, each of the 5 options are described together with their ad
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:202
 msgid "good"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:200
 msgid "bad"
 msgstr ""
@@ -266,18 +310,35 @@ msgid "**Size on disk**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:189
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:189
 msgid "|regular| Small"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:204
 msgid "regular"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:189
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:189
 msgid "|good| Very small"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:189
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:191
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:191
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:191
 msgid "|bad| Large"
 msgstr ""
@@ -287,6 +348,7 @@ msgid "**Memory usage**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:191
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:191
 msgid "|good| Small"
 msgstr ""
 
@@ -295,10 +357,14 @@ msgid "**Performance**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:193
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:193
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:193
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:197
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:197
 msgid "|regular| Normal"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:193
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:193
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:197
 msgid "|good| Fast"
@@ -309,6 +375,7 @@ msgid "**Quality loss**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:195
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:195
 msgid "|good| None"
 msgstr ""
 
@@ -317,6 +384,7 @@ msgid "|regular| Slight"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:195
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:195
 msgid "|bad| Moderate"
 msgstr ""
 
@@ -324,6 +392,7 @@ msgstr ""
 msgid "**Load time**"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:197
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:197
 msgid "|bad| Slow"
 msgstr ""
@@ -341,10 +410,14 @@ msgid "**128×128**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:211
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:211
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:211
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:213
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:213
 msgid "|good| 85 KiB"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:211
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:211
 msgid "|good| 21 KiB"
 msgstr ""
@@ -354,6 +427,9 @@ msgid "**256×256**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:213
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:213
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:213
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:215
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:215
 msgid "|good| 341 KiB"
 msgstr ""
@@ -363,6 +439,9 @@ msgid "**512×512**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:215
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:215
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:215
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:217
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:217
 msgid "|good| 1.33 MiB"
 msgstr ""
@@ -372,6 +451,9 @@ msgid "**1024×1024**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:217
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:217
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:217
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:219
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:219
 msgid "|regular| 5.33 MiB"
 msgstr ""
@@ -381,6 +463,9 @@ msgid "**2048×2048**"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:219
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:219
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:219
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:221
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:221
 msgid "|bad| 21.33 MiB"
 msgstr ""
@@ -389,6 +474,8 @@ msgstr ""
 msgid "**4096×4096**"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:221
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:221
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:221
 msgid "|bad| 85.33 MiB"
 msgstr ""
@@ -477,6 +564,7 @@ msgstr ""
 msgid "In the example below, the normal map with :abbr:`RGTC (Red-Green Texture Compression)` compression is able to preserve its detail much better, while using the same amount of memory as a standard RGBA VRAM-compressed texture:"
 msgstr ""
 
+#: ../../docs/tutorials/assets_pipeline/importing_images.rst:317
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:317
 msgid "Normal map with standard VRAM compression (left) and with RGTC VRAM compression (right)"
 msgstr ""
@@ -690,7 +778,7 @@ msgid "Select your text object in Inkscape, then duplicate it in place by pressi
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:529
-msgid "Use the Inkscape command line to export a SVG from another SVG file with text converted to paths:"
+msgid "Use the Inkscape command line to export an SVG from another SVG file with text converted to paths:"
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_images.rst:537

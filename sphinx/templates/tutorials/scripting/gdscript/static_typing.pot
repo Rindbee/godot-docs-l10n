@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,7 +64,7 @@ msgstr ""
 msgid "You've probably encountered a lack of autocomplete suggestions after a dot:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:-1
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:None
 msgid "Completion options for dynamic typed code."
 msgstr ""
 
@@ -72,7 +72,7 @@ msgstr ""
 msgid "This is due to dynamic code. Godot cannot know what value type you're passing to the function. If you write the type explicitly however, you will get all methods, properties, constants, etc. from the value:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:-1
+#: ../../docs/tutorials/scripting/gdscript/static_typing.rst:None
 msgid "Completion options for static typed code."
 msgstr ""
 

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +92,7 @@ msgstr ""
 msgid "The glTF import process first loads the glTF file's data into an in-memory GLTFState class. This data is then used to generate a Godot scene. When importing files at runtime, this scene can be directly added to the tree. The export process is the reverse of this, a Godot scene is converted to a GLTFState class, then the glTF file is generated from that."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:-1
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
 msgid "Diagram explaining the runtime import and export process for glTF files in Godot"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "When importing glTF files in the editor, there are two more steps. After generating the Godot scene, the ResourceImporterScene class is used to apply additional import settings, including settings you set through the Import dock and the Advanced Import Settings dialog. This is then saved as a Godot scene file, which is what gets used when you run/export your game."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:-1
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
 msgid "Diagram explaining the editor import process for glTF files in Godot"
 msgstr ""
 
@@ -152,7 +152,7 @@ msgstr ""
 msgid "The ``.blend`` import process converts to glTF first, so it still uses Godot's glTF import code. Therefore, the ``.blend`` import process is the same as the glTF import process, but with an extra step at the beginning."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:-1
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
 msgid "Diagram explaining the import process for Blender files in Godot"
 msgstr ""
 
@@ -220,7 +220,7 @@ msgstr ""
 msgid "The FBX import process converts to glTF first, so it still uses Godot's glTF import code. Therefore, the FBX import process is the same as the glTF import process, but with an extra step at the beginning."
 msgstr ""
 
-#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:-1
+#: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/available_formats.rst:None
 msgid "Diagram explaining the import process for FBX files in Godot"
 msgstr ""
 

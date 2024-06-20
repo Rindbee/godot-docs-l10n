@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,106 +153,122 @@ msgid "Filter is what all other filters inherit from and should not be used dire
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:127
-msgid "HighPassFilter"
+msgid "HardLimiter"
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:129
-msgid "Cuts frequencies below a specific *Cutoff* frequency. HighPassFilter is used to reduce the bass content of a signal."
-msgstr ""
-
-#: ../../docs/tutorials/audio/audio_effects.rst:134
-msgid "HighShelfFilter"
-msgstr ""
-
-#: ../../docs/tutorials/audio/audio_effects.rst:136
-msgid "Reduces all frequencies above a specific *Cutoff* frequency."
-msgstr ""
-
-#: ../../docs/tutorials/audio/audio_effects.rst:141
-msgid "Limiter"
-msgstr ""
-
-#: ../../docs/tutorials/audio/audio_effects.rst:143
 msgid "A limiter is similar to a compressor, but it's less flexible and designed to prevent a signal's amplitude exceeding a given dB threshold. Adding a limiter to the final point of the Master bus is good practice, as it offers an easy safeguard against clipping."
 msgstr ""
 
+#: ../../docs/tutorials/audio/audio_effects.rst:134
+msgid "HighPassFilter"
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:136
+msgid "Cuts frequencies below a specific *Cutoff* frequency. HighPassFilter is used to reduce the bass content of a signal."
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:141
+msgid "HighShelfFilter"
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:143
+msgid "Reduces all frequencies above a specific *Cutoff* frequency."
+msgstr ""
+
 #: ../../docs/tutorials/audio/audio_effects.rst:148
-msgid "LowPassFilter"
+msgid "Limiter"
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:150
-msgid "Cuts frequencies above a specific *Cutoff* frequency and can also resonate (boost frequencies close to the *Cutoff* frequency). Low pass filters can be used to simulate \"muffled\" sound. For instance, underwater sounds, sounds blocked by walls, or distant sounds."
+msgid "This is the old limiter effect, and it is recommended to use the new HardLimiter effect instead."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:156
-msgid "LowShelfFilter"
+#: ../../docs/tutorials/audio/audio_effects.rst:153
+msgid "Here is an example of how this effect works, if the ceiling is set to -12 dB, and the threshold is 0 dB, all samples going through get reduced by 12dB. This changes the waveform of the sound and introduces distortion."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:158
-msgid "Reduces all frequencies below a specific *Cutoff* frequency."
+#: ../../docs/tutorials/audio/audio_effects.rst:157
+msgid "This effect is being kept to preserve compatibility, however it should be considered deprecated."
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:161
-msgid "NotchFilter"
+msgid "LowPassFilter"
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:163
-msgid "The opposite of the BandPassFilter, it removes a band of sound from the frequency spectrum at a given *Cutoff* frequency."
-msgstr ""
-
-#: ../../docs/tutorials/audio/audio_effects.rst:167
-msgid "Panner"
+msgid "Cuts frequencies above a specific *Cutoff* frequency and can also resonate (boost frequencies close to the *Cutoff* frequency). Low pass filters can be used to simulate \"muffled\" sound. For instance, underwater sounds, sounds blocked by walls, or distant sounds."
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:169
-msgid "The Panner allows the stereo balance of a signal to be adjusted between the left and right channels. Headphones are recommended when configuring in this effect."
+msgid "LowShelfFilter"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:173
-msgid "Phaser"
+#: ../../docs/tutorials/audio/audio_effects.rst:171
+msgid "Reduces all frequencies below a specific *Cutoff* frequency."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:175
-msgid "This effect is formed by de-phasing two duplicates of the same sound so they cancel each other out in an interesting way. Phaser produces a pleasant whooshing sound that moves back and forth through the audio spectrum, and can be a great way to create sci-fi effects or Darth Vader-like voices."
+#: ../../docs/tutorials/audio/audio_effects.rst:174
+msgid "NotchFilter"
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:176
+msgid "The opposite of the BandPassFilter, it removes a band of sound from the frequency spectrum at a given *Cutoff* frequency."
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:180
+msgid "Panner"
 msgstr ""
 
 #: ../../docs/tutorials/audio/audio_effects.rst:182
+msgid "The Panner allows the stereo balance of a signal to be adjusted between the left and right channels. Headphones are recommended when configuring in this effect."
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:186
+msgid "Phaser"
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:188
+msgid "This effect is formed by de-phasing two duplicates of the same sound so they cancel each other out in an interesting way. Phaser produces a pleasant whooshing sound that moves back and forth through the audio spectrum, and can be a great way to create sci-fi effects or Darth Vader-like voices."
+msgstr ""
+
+#: ../../docs/tutorials/audio/audio_effects.rst:195
 msgid "PitchShift"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:184
+#: ../../docs/tutorials/audio/audio_effects.rst:197
 msgid "This effect allows the adjustment of the signal's pitch independently of its speed. All frequencies can be increased/decreased with minimal effect on transients. PitchShift can be useful to create unusually high or deep voices. Do note that altering pitch can sound unnatural when pushed outside of a narrow window."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:191
+#: ../../docs/tutorials/audio/audio_effects.rst:204
 msgid "Record"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:193
+#: ../../docs/tutorials/audio/audio_effects.rst:206
 msgid "The Record effect allows the user to record sound from a microphone."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:196
+#: ../../docs/tutorials/audio/audio_effects.rst:209
 msgid "Reverb"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:198
+#: ../../docs/tutorials/audio/audio_effects.rst:211
 msgid "Reverb simulates rooms of different sizes. It has adjustable parameters that can be tweaked to obtain the sound of a specific room. Reverb is commonly outputted from :ref:`Area3Ds <class_Area3D>` (see :ref:`Reverb buses <doc_audio_streams_reverb_buses>`), or to apply a \"chamber\" feel to all sounds."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:205
+#: ../../docs/tutorials/audio/audio_effects.rst:218
 msgid "SpectrumAnalyzer"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:207
+#: ../../docs/tutorials/audio/audio_effects.rst:220
 msgid "This effect doesn't alter audio, instead, you add this effect to buses you want a spectrum analysis of. This would typically be used for audio visualization. Visualizing voices can be a great way to draw attention to them without just increasing their volume. A demo project using this can be found `here <https://github.com/godotengine/godot-demo-projects/tree/master/audio/spectrum>`__."
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:214
+#: ../../docs/tutorials/audio/audio_effects.rst:227
 msgid "StereoEnhance"
 msgstr ""
 
-#: ../../docs/tutorials/audio/audio_effects.rst:216
+#: ../../docs/tutorials/audio/audio_effects.rst:229
 msgid "This effect uses a few algorithms to enhance a signal's stereo width."
 msgstr ""
 

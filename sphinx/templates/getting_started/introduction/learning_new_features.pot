@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgid "If the manual or class reference is missing or has insufficient informati
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:59
-msgid "You can Ctrl-click any underlined text like the name of a class, property, method, signal, or constant to jump to it."
+msgid "You can Ctrl-click (Cmd-click on MacOS) any underlined text like the name of a class, property, method, signal, or constant to jump to it."
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:63

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgid "If you're hosting a server on your own machine and want non-LAN clients t
 msgstr ""
 
 #: ../../docs/tutorials/networking/high_level_multiplayer.rst:89
-msgid "After forwarding an UDP port and making sure your server uses that port, you can use `this website <https://icanhazip.com/>`__ to find your public IP address. Then give this public IP address to any Internet clients that wish to connect to your server."
+msgid "After forwarding a UDP port and making sure your server uses that port, you can use `this website <https://icanhazip.com/>`__ to find your public IP address. Then give this public IP address to any Internet clients that wish to connect to your server."
 msgstr ""
 
 #: ../../docs/tutorials/networking/high_level_multiplayer.rst:94

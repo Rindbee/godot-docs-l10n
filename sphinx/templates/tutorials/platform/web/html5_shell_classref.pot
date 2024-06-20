@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,6 +111,18 @@ msgid "Create a new Engine instance with the given configuration."
 msgstr ""
 
 #: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 msgid "Arguments"
 msgstr ""
 
@@ -132,6 +144,11 @@ msgid "Base path of the engine to load."
 msgstr ""
 
 #: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 msgid "Returns"
 msgstr ""
 
@@ -139,6 +156,11 @@ msgstr ""
 msgid "A Promise that resolves once the engine is loaded."
 msgstr ""
 
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 #: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 msgid "Return type"
 msgstr ""
@@ -280,8 +302,14 @@ msgstr ""
 msgid "Properties"
 msgstr ""
 
-#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 #: ../../docs/tutorials/platform/web/html5_shell_classref.rst:189
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 msgid "type"
 msgstr ""
 
@@ -385,6 +413,12 @@ msgstr ""
 msgid "Whether the unload the engine automatically after the instance is initialized."
 msgstr ""
 
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
+#: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 #: ../../docs/tutorials/platform/web/html5_shell_classref.rst:0
 msgid "value"
 msgstr ""

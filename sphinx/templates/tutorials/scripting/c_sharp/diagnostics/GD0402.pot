@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0402.rst:2
-msgid "GD0402: The class must not contain generic arguments"
+msgid "GD0402: The class must not be generic"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0402.rst:7
@@ -65,7 +65,7 @@ msgid "Rule description"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0402.rst:21
-msgid "The Godot editor assumes every :ref:`global class <doc_c_sharp_global_classes>` is instantiable, but generic types can't be instantiated because the type arguments are unbound."
+msgid "The Godot editor assumes every :ref:`global class <doc_c_sharp_global_classes>` is instantiable, but generic types can't be instantiated because the type parameters are unbound."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/diagnostics/GD0402.rst:36

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,39 +144,43 @@ msgstr ""
 msgid "Projects written in C# using Godot 4 currently cannot be exported to the web platform. To use C# on that platform, consider Godot 3 instead. Android and iOS platform support is available as of Godot 4.2, but is experimental and :ref:`some limitations apply <doc_c_sharp_platforms>`."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:137
-msgid "C++ via GDExtension"
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:136
+msgid "To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page."
 msgstr ""
 
 #: ../../docs/getting_started/step_by_step/scripting_languages.rst:139
+msgid "C++ via GDExtension"
+msgstr ""
+
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:141
 msgid "GDExtension allows you to write game code in C++ without needing to recompile Godot."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:144
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:146
 msgid "You can use any version of the language or mix compiler brands and versions for the generated shared libraries, thanks to our use of an internal C API Bridge."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:147
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:149
 msgid "GDExtension is the best choice for performance. You don't need to use it throughout an entire game, as you can write other parts in GDScript or C#."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:150
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:152
 msgid "When working with GDExtension, the available types, functions, and properties closely resemble Godot's actual C++ API."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:154
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:156
 msgid "Summary"
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:156
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:158
 msgid "Scripts are files containing code that you attach to a node to extend its functionality."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:159
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:161
 msgid "Godot supports four official scripting languages, offering you flexibility between performance and ease of use."
 msgstr ""
 
-#: ../../docs/getting_started/step_by_step/scripting_languages.rst:162
+#: ../../docs/getting_started/step_by_step/scripting_languages.rst:164
 msgid "You can mix languages, for instance, to implement demanding algorithms with C or C++ and write most of the game logic with GDScript or C#."
 msgstr ""
 

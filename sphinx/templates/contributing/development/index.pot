@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,23 +16,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../docs/contributing/development/index.rst:4
+#: ../../docs/contributing/development/index.rst:6
 msgid "Engine development"
 msgstr ""
 
-#: ../../docs/contributing/development/index.rst:6
+#: ../../docs/contributing/development/index.rst:8
 msgid "The guides below explain how to contribute to the engine's codebase. You will learn about best practices when working on solutions and features, the code style and the internal structure of the codebase, how to set up your working environment, and more."
 msgstr ""
 
-#: ../../docs/contributing/development/index.rst:10
+#: ../../docs/contributing/development/index.rst:12
 msgid "Be sure to also check the :ref:`workflow guidelines <doc_contributing_workflow>`, especially if you're new to using Git or GitHub."
 msgstr ""
 
-#: ../../docs/contributing/development/index.rst:22
+#: ../../docs/contributing/development/index.rst:25
 msgid "Buildsystem and work environment"
 msgstr ""
 
-#: ../../docs/contributing/development/index.rst:33
+#: ../../docs/contributing/development/index.rst:36
 msgid "Engine architecture"
 msgstr ""
 

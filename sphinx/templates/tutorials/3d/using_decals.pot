@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,6 +77,7 @@ msgid "Since decals can inject their own :abbr:`PBR (Physically-Based Rendering)
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:58
+#: ../../docs/tutorials/3d/using_decals.rst:58
 msgid "Dirt added on top of level geometry using decals"
 msgstr ""
 
@@ -108,6 +109,7 @@ msgstr ""
 msgid "Even with real-time lighting, blob shadows can still be useful as a form of ambient occlusion for situations where SSAO is too expensive or too unstable due to its screen-space nature. For example, vehicles' underside shadows are well-represented using blob shadows."
 msgstr ""
 
+#: ../../docs/tutorials/3d/using_decals.rst:93
 #: ../../docs/tutorials/3d/using_decals.rst:93
 msgid "Blob shadow under object comparison"
 msgstr ""
@@ -221,42 +223,63 @@ msgid "**Cull Mask:** Specifies which VisualInstance3D layers this decal will pr
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:196
-msgid "Tweaking performance and quality"
+msgid "Decal rendering order"
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:198
-msgid "Decal rendering performance is mostly determined by their screen coverage, but also their number. In general, a few large decals that cover up most of the screen will be more expensive to render than many small decals that are scattered around."
+msgid "By default, decals are ordered based on the size of their :abbr:`AABB (Axis-Aligned Bounding Box)` and the distance to the camera. AABBs that are closer to the camera are rendered first, which means that decal rendering order can sometimes appear to change depending on camera position if some decals are positioned at the same location."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:203
-msgid "To improve rendering performance, you can enable the **Distance Fade** property as described above. This will make distant decals fade out when they are far away from the camera (and may have little to no impact on the final scene rendering). Using node groups, you can also prevent non-essential decorative decals from spawning based on user configuration."
+#: ../../docs/tutorials/3d/using_decals.rst:204
+msgid "To resolve this, you can adjust the **Sorting Offset** property in the VisualInstance3D section of the Decal node inspector. This offset is not a strict priority order, but a *guideline* that the renderer will use as the AABB size still affects how decal sorting works. Therefore, higher values will *always* result in the decal being drawn above other decals with a lower sorting offset."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:209
-msgid "The way decals are rendered also has an impact on performance. The **Rendering > Textures > Decals > Filter** advanced project setting lets you control how decal textures should be filtered. **Nearest/Linear** does not use mipmaps. However, decals will look grainy at a distance. **Nearest/Linear Mipmaps** will look smoother at a distance, but decals will look blurry when viewed from oblique angles. This can be resolved by using **Nearest/Linear Mipmaps Anisotropic**, which provides the highest quality but is also slower to render."
+#: ../../docs/tutorials/3d/using_decals.rst:211
+msgid "If you want to ensure a decal is always rendered on top of other decals, you need to set its **Sorting Offset** property to a positive value greater than the AABB length of the largest decal that may overlap it. To make this decal drawn behind other decals instead, set the **Sorting Offset** to the same negative value."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:217
-msgid "If your project has a pixel art style, consider setting the filter to one of the **Nearest** values so that decals use nearest-neighbor filtering. Otherwise, stick to **Linear**."
-msgstr ""
-
-#: ../../docs/tutorials/3d/using_decals.rst:222
-msgid "Limitations"
+#: ../../docs/tutorials/3d/using_decals.rst:221
+#: ../../docs/tutorials/3d/using_decals.rst:221
+msgid "VisualInstance3D Sorting Offset comparison on Decals"
 msgstr ""
 
 #: ../../docs/tutorials/3d/using_decals.rst:224
+msgid "Tweaking performance and quality"
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_decals.rst:226
+msgid "Decal rendering performance is mostly determined by their screen coverage, but also their number. In general, a few large decals that cover up most of the screen will be more expensive to render than many small decals that are scattered around."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_decals.rst:231
+msgid "To improve rendering performance, you can enable the **Distance Fade** property as described above. This will make distant decals fade out when they are far away from the camera (and may have little to no impact on the final scene rendering). Using node groups, you can also prevent non-essential decorative decals from spawning based on user configuration."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_decals.rst:237
+msgid "The way decals are rendered also has an impact on performance. The **Rendering > Textures > Decals > Filter** advanced project setting lets you control how decal textures should be filtered. **Nearest/Linear** does not use mipmaps. However, decals will look grainy at a distance. **Nearest/Linear Mipmaps** will look smoother at a distance, but decals will look blurry when viewed from oblique angles. This can be resolved by using **Nearest/Linear Mipmaps Anisotropic**, which provides the highest quality but is also slower to render."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_decals.rst:245
+msgid "If your project has a pixel art style, consider setting the filter to one of the **Nearest** values so that decals use nearest-neighbor filtering. Otherwise, stick to **Linear**."
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_decals.rst:250
+msgid "Limitations"
+msgstr ""
+
+#: ../../docs/tutorials/3d/using_decals.rst:252
 msgid "Decals cannot affect material properties other than the ones listed above, such as height (for parallax mapping)."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:227
+#: ../../docs/tutorials/3d/using_decals.rst:255
 msgid "For performance reasons, decals use purely fixed rendering logic. This means decals cannot use custom shaders. However, custom shaders on the projected surfaces are able to read the information that is overridden by decals on top of them, such as roughness and metallic."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:232
+#: ../../docs/tutorials/3d/using_decals.rst:260
 msgid "When using the Forward+ renderer, Godot uses a *clustering* approach for decal rendering. As many decals as desired can be added (as long as performance allows). However, there's still a default limit of 512 *clustered elements* that can be present in the current camera view. A clustered element is an omni light, a spot light, a :ref:`decal <doc_using_decals>` or a :ref:`reflection probe <doc_reflection_probes>`. This limit can be increased by adjusting the **Rendering > Limits > Cluster Builder > Max Clustered Elements** advanced project setting."
 msgstr ""
 
-#: ../../docs/tutorials/3d/using_decals.rst:241
+#: ../../docs/tutorials/3d/using_decals.rst:269
 msgid "When using the Forward Mobile backend, only 8 decals can be applied on each individual Mesh *resource*. If there are more decals affecting a single mesh, not all of them will be rendered on the mesh."
 msgstr ""
 

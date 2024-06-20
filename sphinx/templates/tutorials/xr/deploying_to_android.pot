@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,62 +113,66 @@ msgid "The vendors plugin needs to be enabled before the export settings become 
 msgstr ""
 
 #: ../../docs/tutorials/xr/deploying_to_android.rst:66
+msgid "This is no longer required from vendors plugin 2.0.3 onwards as it now uses GDExtension. The plugin will not be shown in this list. You can verify it is installed correctly by checking if the export presets contain the entries described below."
+msgstr ""
+
+#: ../../docs/tutorials/xr/deploying_to_android.rst:72
 msgid "Creating the export presets"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:67
+#: ../../docs/tutorials/xr/deploying_to_android.rst:73
 msgid "You will need to setup a separate export preset for each device, as each device will need its own loader included."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:69
+#: ../../docs/tutorials/xr/deploying_to_android.rst:75
 msgid "Open **Project** and select **Export..**. Click on **Add..** and select **Android**. Next change the name of the export preset for the device you're setting this up for, say **Meta Quest**. And enable **Use Gradle Build**. If you want to use one-click deploy (described below), ensure that **Runnable** is enabled."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:75
+#: ../../docs/tutorials/xr/deploying_to_android.rst:81
 msgid "If the loader plugins were installed correctly you should find entries for the different headsets, select the entry for meta:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:79
+#: ../../docs/tutorials/xr/deploying_to_android.rst:85
 msgid "Also change the **XR Mode** to **OpenXR**."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:81
+#: ../../docs/tutorials/xr/deploying_to_android.rst:87
 msgid "Scroll to the bottom of the list and you'll find additional XR feature sections, currently only **Meta XR Features** is available. The hand tracking and passthrough settings here currently only work for the Meta Quest and you will need to select the appropriate settings if you wish to use these features."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:86
+#: ../../docs/tutorials/xr/deploying_to_android.rst:92
 msgid "Now you can repeat the same process for the other devices."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:89
+#: ../../docs/tutorials/xr/deploying_to_android.rst:95
 msgid "There are separate loaders for the Meta Quest, Pico and Lynx R1 headsets."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:91
+#: ../../docs/tutorials/xr/deploying_to_android.rst:97
 msgid "The fourth option is the official Khronos loader, in due time all headsets should work with this loader. At the moment this loader has been tested with the Magic Leap 2 and standalone HTC headsets."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:95
+#: ../../docs/tutorials/xr/deploying_to_android.rst:101
 msgid "While the Mobile Vulkan renderer has many optimizations targeted at mobile devices, we're still working out the kinks. It is highly advisable to use the compatibility renderer (OpenGL) for the time being when targeting Android based XR devices."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:99
+#: ../../docs/tutorials/xr/deploying_to_android.rst:105
 msgid "Running on your device from the Godot editor"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:100
+#: ../../docs/tutorials/xr/deploying_to_android.rst:106
 msgid "If you've setup your export settings as described above, and your headset is connected to your computer and correctly recognized, you can launch it directly from the Godot editor using :ref:`doc_one-click_deploy`:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:104
+#: ../../docs/tutorials/xr/deploying_to_android.rst:110
 msgid "For some devices on some platforms, you may need to perform some extra steps in order for your device to be recognized correctly, so be sure to check the developer documentation from your headset vendor."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:106
+#: ../../docs/tutorials/xr/deploying_to_android.rst:112
 msgid "For example, with the Meta Quest 2, you need to enable developer mode on the headset, and if you're on Windows, you'll need to install special ADB drivers. See the `official Meta Quest developer documentation <https://developer.oculus.com/documentation/native/android/mobile-device-setup/>`_ for more details."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:108
+#: ../../docs/tutorials/xr/deploying_to_android.rst:114
 msgid "If you're having any issues with one-click deploy, check the :ref:`Troubleshooting section <doc_one-click_deploy_troubleshooting>`."
 msgstr ""
 

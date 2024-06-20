@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -353,14 +353,14 @@ msgid "Sliding is a common collision response; imagine a player moving along wal
 msgstr ""
 
 #: ../../docs/tutorials/physics/physics_introduction.rst:430
-msgid "``move_and_slide()`` automatically includes the timestep in its calculation, so you should **not** multiply the velocity vector by ``delta``."
+msgid "``move_and_slide()`` automatically includes the timestep in its calculation, so you should **not** multiply the velocity vector by ``delta``. This does **not** apply to ``gravity`` as it is an acceleration and is time dependent, and needs to be scaled by ``delta``."
 msgstr ""
 
-#: ../../docs/tutorials/physics/physics_introduction.rst:434
+#: ../../docs/tutorials/physics/physics_introduction.rst:436
 msgid "For example, use the following code to make a character that can walk along the ground (including slopes) and jump when standing on the ground:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/physics_introduction.rst:504
+#: ../../docs/tutorials/physics/physics_introduction.rst:506
 msgid "See :ref:`doc_kinematic_character_2d` for more details on using ``move_and_slide()``, including a demo project with detailed code."
 msgstr ""
 

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,139 +33,139 @@ msgid "For compiling under Linux or other Unix variants, the following is requir
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:19
-msgid "GCC 7+ or Clang 6+."
+msgid "GCC 9+ or Clang 6+."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:21
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:20
 msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:23
-msgid "`SCons 3.0+ <https://scons.org/pages/download.html>`_ build system."
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:21
+msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:27
-msgid "If your distribution uses Python 2 by default, or you are using a version of SCons prior to 3.1.2, you will need to change the version of Python that SCons uses by changing the shebang (the first line) of the SCons script file to ``#! /usr/bin/python3``. Use the command ``which scons`` to find the location of the SCons script file."
-msgstr ""
-
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:32
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:22
 msgid "pkg-config (used to detect the development libraries listed below)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:33
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:23
 msgid "Development libraries:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:35
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:25
 msgid "X11, Xcursor, Xinerama, Xi and XRandR."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:36
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:26
+msgid "Wayland and wayland-scanner."
+msgstr ""
+
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:27
 msgid "Mesa."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:37
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:28
 msgid "ALSA."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:38
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:29
 msgid "PulseAudio."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:40
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:31
 msgid "*Optional* - libudev (build with ``udev=yes``)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:44
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:35
 msgid "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:46
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:37
 msgid "For a general overview of SCons usage for Godot, see :ref:`doc_introduction_to_the_buildsystem`."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:51
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:42
 msgid "Distro-specific one-liners"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:55
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:46
 msgid "Alpine Linux"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:74
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:65
 msgid "Arch Linux"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:92
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:84
 msgid "Debian/Ubuntu"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:112
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:105
 msgid "Fedora"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:133
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:127
 msgid "FreeBSD"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:149
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:143
 msgid "Gentoo"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:165
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:160
 msgid "Mageia"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:182
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:178
 msgid "NetBSD"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:192
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:188
 msgid "For audio support, you can optionally install ``pulseaudio``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:194
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:190
 msgid "OpenBSD"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:203
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:199
 msgid "openSUSE"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:222
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:219
 msgid "Solus"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:239
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:237
 msgid "Compiling"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:241
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:239
 msgid "Start a terminal, go to the root dir of the engine source code and type:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:249
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:247
 msgid "Prior to Godot 4.0, the Linux/\\*BSD target was called ``x11`` instead of ``linuxbsd``. If you are looking to compile Godot 3.x, make sure to use the `3.x branch of this documentation <https://docs.godotengine.org/en/3.6/development/compiling/compiling_for_x11.html>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:253
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:251
 msgid "If all goes well, the resulting binary executable will be placed in the \"bin\" subdirectory. This executable file contains the whole engine and runs without any dependencies. Executing it will bring up the Project Manager."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:260
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:258
 msgid "If you wish to compile using Clang rather than GCC, use this command:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:266
-msgid "Using Clang appears to be a requirement for OpenBSD, otherwise fonts would not build."
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:264
+msgid "Using Clang appears to be a requirement for OpenBSD, otherwise fonts would not build. For RISC-V architecture devices, use the Clang compiler instead of the GCC compiler."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:269
-msgid "If you are compiling Godot for production use, then you can make the final executable smaller and faster by adding the SCons options ``target=template_release production=yes``."
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:268
+msgid "If you are compiling Godot for production use, you can make the final executable smaller and faster by adding the SCons option ``production=yes``. This enables additional compiler optimizations and link-time optimization."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:273
-msgid "If you are compiling Godot with GCC, you can make the binary even smaller and faster by adding the SCons option ``lto=full``. As link-time optimization is a memory-intensive process, this will require about 7 GB of available RAM while compiling."
+msgid "LTO takes some time to run and requires about 7 GB of available RAM while compiling. If you're running out of memory with the above option, use ``production=yes lto=none`` or ``production=yes lto=thin`` for a lightweight but less effective form of LTO."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:278
@@ -224,155 +224,155 @@ msgstr ""
 msgid "and named like this (even for \\*BSD which is seen as \"Linux/X11\" by Godot):"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:352
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:356
 msgid "However, if you are writing your custom modules or custom C++ code, you might instead want to configure your binaries as custom export templates here:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:358
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:362
 msgid "You don't even need to copy them, you can just reference the resulting files in the ``bin/`` directory of your Godot source folder, so the next time you build, you automatically have the custom templates referenced."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:363
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:367
 msgid "Using Clang and LLD for faster development"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:365
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:369
 msgid "You can also use Clang and LLD to build Godot. This has two upsides compared to the default GCC + GNU ld setup:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:368
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:372
 msgid "LLD links Godot significantly faster compared to GNU ld or gold. This leads to faster iteration times."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:370
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:374
 msgid "Clang tends to give more useful error messages compared to GCC."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:372
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:376
 msgid "To do so, install Clang and the ``lld`` package from your distribution's package manager then use the following SCons command::"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:377
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:381
 msgid "After the build is completed, a new binary with a ``.llvm`` suffix will be created in the ``bin/`` folder."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:380
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:384
 msgid "It's still recommended to use GCC for production builds as they can be compiled using link-time optimization, making the resulting binaries smaller and faster."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:383
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:387
 msgid "If this error occurs::"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:387
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:391
 msgid "There are two solutions:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:389
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:393
 msgid "In your SCons command, add the parameter ``use_static_cpp=no``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:390
-msgid "Follow `these instructions <https://github.com/ivmai/libatomic_ops#installation-and-usage>`__ to configure, build, and install ``libatomic_ops``. Then, copy ``/usr/lib/libatomic_ops.a`` to ``/usr/lib/libatomic.a``, or create a soft link to ``libatomic_ops`` by command ``ln -s /usr/lib/libatomic_ops.a /usr/lib/libatomic.a``. The soft link can ensure the latest ``libatomic_ops`` will be used without the need to copy it everytime when it is updated."
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:394
+msgid "Follow `these instructions <https://github.com/ivmai/libatomic_ops#installation-and-usage>`__ to configure, build, and install ``libatomic_ops``. Then, copy ``/usr/lib/libatomic_ops.a`` to ``/usr/lib/libatomic.a``, or create a soft link to ``libatomic_ops`` by command ``ln -s /usr/lib/libatomic_ops.a /usr/lib/libatomic.a``. The soft link can ensure the latest ``libatomic_ops`` will be used without the need to copy it every time when it is updated."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:396
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:400
 msgid "Using mold for faster development"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:398
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:402
 msgid "For even faster linking compared to LLD, you can use `mold <https://github.com/rui314/mold>`__. mold can be used with either GCC or Clang."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:401
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:405
 msgid "As of January 2023, mold is not readily available in Linux distribution repositories, so you will have to install its binaries manually."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:404
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:408
 msgid "Download mold binaries from its `releases page <https://github.com/rui314/mold/releases/latest>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:405
-msgid "Extract the ``.tar.gz`` file, then move the extraced folder to a location such as ``.local/share/mold``."
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:409
+msgid "Extract the ``.tar.gz`` file, then move the extracted folder to a location such as ``.local/share/mold``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:406
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:410
 msgid "Add ``$HOME/.local/share/mold/bin`` to your user's ``PATH`` environment variable. For example, you can add the following line at the end of your ``$HOME/.bash_profile`` file:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:413
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:417
 msgid "Open a new terminal (or run ``source \"$HOME/.bash_profile\"``), then use the following SCons command when compiling Godot::"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:419
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:423
 msgid "Using system libraries for faster development"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:421
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:425
 msgid "`Godot bundles the source code of various third-party libraries. <https://github.com/godotengine/godot/tree/master/thirdparty>`__ You can choose to use system versions of third-party libraries instead. This makes the Godot binary faster to link, as third-party libraries are dynamically linked. Therefore, they don't need to be statically linked every time you build the engine (even on small incremental changes)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:427
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:431
 msgid "However, not all Linux distributions have packages for third-party libraries available (or they may not be up-to-date)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:430
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:434
 msgid "Moving to system libraries can reduce linking times by several seconds on slow CPUs, but it requires manual testing depending on your Linux distribution. Also, you may not be able to use system libraries for everything due to bugs in the system library packages (or in the build system, as this feature is less tested)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:436
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:440
 msgid "To compile Godot with system libraries, install these dependencies *on top* of the ones listed in the :ref:`doc_compiling_for_linuxbsd_oneliners`:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:440
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:444
 msgid "**Fedora**"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:447
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:451
 msgid "After installing all required packages, use the following command to build Godot:"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:456
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:460
 msgid "You can view a list of all built-in libraries that have system alternatives by running ``scons -h``, then looking for options starting with ``builtin_``."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:461
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:465
 msgid "When using system libraries, the resulting library is **not** portable across Linux distributions anymore. Do not use this approach for creating binaries you intend to distribute to others, unless you're creating a package for a Linux distribution."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:467
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:471
 msgid "Using Pyston for faster development"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:469
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:473
 msgid "You can use `Pyston <https://www.pyston.org/>`__ to run SCons. Pyston is a JIT-enabled implementation of the Python language (which SCons is written in). It is currently only compatible with Linux. Pyston can speed up incremental builds significantly, often by a factor between 1.5× and 2×. Pyston can be combined with Clang and LLD to get even faster builds."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:475
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:479
 msgid "Download the `latest portable Pyston release <https://github.com/pyston/pyston/releases/latest>`__."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:476
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:480
 msgid "Extract the portable ``.tar.gz`` to a set location, such as ``$HOME/.local/opt/pyston/`` (create folders as needed)."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:477
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:481
 msgid "Use ``cd`` to reach the extracted Pyston folder from a terminal, then run ``./pyston -m pip install scons`` to install SCons within Pyston."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:479
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:483
 msgid "To make SCons via Pyston easier to run, create a symbolic link of its wrapper script to a location in your ``PATH`` environment variable::"
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:484
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:488
 msgid "Instead of running ``scons <build arguments>``, run ``pyston-scons <build arguments>`` to compile Godot."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:487
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:491
 msgid "If you can't run ``pyston-scons`` after creating the symbolic link, make sure ``$HOME/.local/bin/`` is part of your user's ``PATH`` environment variable."
 msgstr ""
 
-#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:492
+#: ../../docs/contributing/development/compiling/compiling_for_linuxbsd.rst:496
 msgid "Alternatively, you can run ``python -m pip install pyston_lite_autoload`` then run SCons as usual. This will automatically load a subset of Pyston's optimizations in any Python program you run. However, this won't bring as much of a performance improvement compared to installing \"full\" Pyston."
 msgstr ""
 

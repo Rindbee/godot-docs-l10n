@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.2\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 16:36+0200\n"
+"POT-Creation-Date: 2024-06-20 18:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,19 +61,19 @@ msgid "New NavigationRegion nodes will automatically register to the default wor
 msgstr ""
 
 #: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:39
-msgid "The region RID can then be obtained from NavigationRegion Nodes with ``get_region_rid()``."
+msgid "The region RID can then be obtained from NavigationRegion Nodes with ``get_rid()``."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:48
+#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:54
 msgid "New regions can also be created with the NavigationServer API and added to any existing map."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:50
+#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:56
 msgid "If regions are created with the NavigationServer API directly they need to be assigned a navigation map manually."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:72
-msgid "NavigationRegions can only be assigned to a single NavigationMap. If an existing region is assigned to a new map it will leave the old map."
+#: ../../docs/tutorials/navigation/navigation_using_navigationregions.rst:79
+msgid "Navigation regions can only be assigned to a single navigation map. If an existing region is assigned to a new navigation map it will leave the old map."
 msgstr ""
 
 #: ../../docs/<rst_epilog>:0
