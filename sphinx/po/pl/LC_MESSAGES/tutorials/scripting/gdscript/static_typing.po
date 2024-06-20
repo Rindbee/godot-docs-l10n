@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,9 +25,8 @@ msgstr "Ładowanie go do GDScript"
 msgid "In this guide, you will learn:"
 msgstr "W tym poradniku nauczysz się:"
 
-#, fuzzy
 msgid "how to use static typing in GDScript;"
-msgstr "Ładowanie go do GDScript"
+msgstr "jak używać statycznego typowania w GDScript;"
 
 msgid "that static types can help you avoid bugs;"
 msgstr ""
@@ -133,9 +132,8 @@ msgid ""
 "default."
 msgstr ""
 
-#, fuzzy
 msgid "What can be a type hint"
-msgstr "Co potrafi silnik?"
+msgstr "Co może być wskazówką dotyczącą typu"
 
 #, fuzzy
 msgid "Here is a complete list of what can be used as a type hint:"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,6 @@ msgstr ""
 "Coupling_(컴퓨터_프로그래밍)>`_ 을 제한하고 코드를 유연하게 유지할 수 있습니"
 "다."
 
-#, fuzzy
 msgid ""
 "For example, you might have a life bar on the screen that represents the "
 "player's health. When the player takes damage or uses a healing potion, you "
@@ -80,7 +79,7 @@ msgid ""
 msgstr ""
 
 msgid "Create a new scene by going to the menu Scene -> New Scene."
-msgstr ""
+msgstr "새로운 씬을 만들기 위해 메뉴 씬 -> 새 씬으로 갑니다."
 
 msgid ""
 "In the Scene dock, click the 2D Scene button. This will add a :ref:`Node2D "
@@ -105,6 +104,8 @@ msgid ""
 "The node is small by default. Click and drag on the bottom-right handle of "
 "the Button in the viewport to resize it."
 msgstr ""
+"노드는 기본적으로 작습니다. 버튼의 하단 오른쪽 핸들을 클릭하고 드래그하십시"
+"오."
 
 msgid ""
 "If you don't see the handles, ensure the select tool is active in the "
@@ -112,7 +113,7 @@ msgid ""
 msgstr ""
 
 msgid "Click and drag on the button itself to move it closer to the sprite."
-msgstr ""
+msgstr "버튼을 클릭하고 드래그하여 스프라이트에 더 가까이 이동하십시오."
 
 msgid ""
 "You can also write a label on the Button by editing its Text property in the "
@@ -140,17 +141,20 @@ msgid ""
 "previous lesson."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "You can connect signals in the Node dock. Select the Button node and, on the "
 "right side of the editor, click on the tab named \"Node\" next to the "
 "Inspector."
 msgstr ""
+"Node Dock에서 신호를 연결할 수 있습니다. 버튼 노드를 선택하고, 편집기의 오른"
+"쪽에, Inspector 옆에 \"Node\"라는 탭을 클릭하십시오."
 
 msgid "The dock displays a list of signals available on the selected node."
-msgstr ""
+msgstr "Dock은 선택한 노드에서 사용할 수 있는 시그널을 표시합니다."
 
 msgid "Double-click the \"pressed\" signal to open the node connection window."
-msgstr ""
+msgstr "\"pressed\" 신호를 더블클릭하여 노드 연결 창을 엽니다."
 
 msgid ""
 "There, you can connect the signal to the Sprite2D node. The node needs a "
@@ -178,11 +182,14 @@ msgid ""
 "the left margin."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "If you click the icon, a window pops up and displays information about the "
 "connection. This feature is only available when connecting nodes in the "
 "editor."
 msgstr ""
+"아이콘을 클릭하면 창이 팝업하고 연결에 대한 정보를 표시합니다. 이 기능은 편집"
+"기에서 노드를 연결할 때만 사용할 수 있습니다."
 
 msgid ""
 "Let's replace the line with the ``pass`` keyword with code that'll toggle "
@@ -221,10 +228,13 @@ msgstr "씬을 실행하고 버튼을 누르면 다음과 같은 결과를 얻�
 msgid "Connecting a signal via code"
 msgstr "노드에서 시그널 연결하기"
 
+#, fuzzy
 msgid ""
 "You can connect signals via code instead of using the editor. This is "
 "necessary when you create nodes or instantiate scenes inside of a script."
 msgstr ""
+"에디터를 사용하는 대신 코드를 통해 시그널을 연결할 수 있습니다. 이것은 스크립"
+"트 내부의 노드를 만들거나 또는 씬을 인스턴스화할 때 필요합니다."
 
 msgid ""
 "Let's use a different node here. Godot has a :ref:`Timer <class_Timer>` node "
@@ -257,7 +267,7 @@ msgid ""
 msgstr ""
 
 msgid "We need to do two operations to connect the nodes via code:"
-msgstr ""
+msgstr "우리는 노드를 코드로써 연결하는 두 작업을 수행해야 합니다:"
 
 #, fuzzy
 msgid "Get a reference to the Timer from the Sprite2D."
@@ -284,6 +294,9 @@ msgid ""
 "ref:`Node.get_node() <class_Node_method_get_node>`. We can store the "
 "reference in a variable."
 msgstr ""
+"현재 노드에 대한 참조를 얻기 위해, 우리는 메서드를 사용합니다 :ref :`Node."
+"get_node() <class_Node_method_get_node>`. 우리는 변수의 참조를 저장할 수 있습"
+"니다."
 
 msgid ""
 "The function ``get_node()`` looks at the Sprite2D's children and gets nodes "
@@ -355,6 +368,8 @@ msgid ""
 "Your signals work the same way as built-in ones: they appear in the Node tab "
 "and you can connect to them like any other."
 msgstr ""
+"시그널은 내장된 것과 동일한 방식으로 작동합니다. 노드 탭에 나타나며 다른 것"
+"과 같이 연결할 수 있습니다."
 
 #, fuzzy
 msgid "To emit a signal in your scripts, call ``emit()`` on the signal."

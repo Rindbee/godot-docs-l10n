@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,7 +138,7 @@ msgid "ScoreLabel"
 msgstr "ScoreLabel"
 
 msgid "Add the text ``0``."
-msgstr ""
+msgstr "Ajouter le texte ``0``."
 
 msgid ""
 "Set the \"Horizontal Alignment\" and \"Vertical Alignment\" to ``Center``."
@@ -169,9 +169,8 @@ msgstr ""
 msgid "StartButton"
 msgstr "StartButton"
 
-#, fuzzy
 msgid "Add the text ``Start``."
-msgstr "*Text* : ``Start``"
+msgstr "Ajoutez le texte ``Start``."
 
 msgid ""
 "Under \"Control - Layout/Transform\", set \"Size X\" to ``200`` and \"Size "
@@ -194,13 +193,12 @@ msgstr ""
 msgid "Now add this script to ``HUD``:"
 msgstr "Ajoutez à présent ce script au ``HUD`` :"
 
-#, fuzzy
 msgid ""
 "We now want to display a message temporarily, such as \"Get Ready\", so we "
 "add the following code"
 msgstr ""
-"Cette fonction est appelée lorsque nous voulons afficher temporairement un "
-"message, tel que \"Get Ready\"."
+"Nous pouvant maintenant afficher un message temporaire, comme \"Prêt\", nous "
+"ajoutons donc le code suivant"
 
 #, fuzzy
 msgid ""

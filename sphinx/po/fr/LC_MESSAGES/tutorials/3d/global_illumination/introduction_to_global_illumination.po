@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgid "Global illumination is composed of several key concepts:"
 msgstr ""
 
 msgid "Indirect diffuse lighting"
-msgstr ""
+msgstr "Lumière indirecte diffuse"
 
 msgid ""
 "This is the lighting that does not change depending on the camera's angle. "
@@ -201,7 +201,7 @@ msgid ""
 msgstr ""
 
 msgid "**VoxelGI:**"
-msgstr ""
+msgstr "**VoxelGI:**"
 
 msgid ""
 "The bake's number of subdivisions can be adjusted to balance between "
@@ -223,7 +223,7 @@ msgid ""
 msgstr ""
 
 msgid "**SDFGI:**"
-msgstr ""
+msgstr "**SDFGI:**"
 
 msgid ""
 "The number of cascades can be adjusted to balance performance and quality. "
@@ -272,7 +272,7 @@ msgid ""
 msgstr ""
 
 msgid "VoxelGI in action."
-msgstr ""
+msgstr "VoxelGI en action."
 
 msgid ""
 "**SDFGI:** |average| Good reflections and indirect lighting, but beware of "
@@ -361,7 +361,7 @@ msgid "Real-time ability"
 msgstr "**Éclairage en temps réel :**"
 
 msgid "**VoxelGI:** |good| Fully real-time."
-msgstr ""
+msgstr "**VoxelGI:** |bon| complètement en temps réel."
 
 msgid ""
 "Indirect lighting and reflections are fully real-time. Dynamic objects can "
@@ -376,7 +376,7 @@ msgid ""
 msgstr ""
 
 msgid "**SDFGI:** |average| Semi-real-time."
-msgstr ""
+msgstr "**SDFGI:** |moyenne| Semi temps réel."
 
 msgid ""
 "Cascades are generated in real-time, making SDFGI viable for procedurally "
@@ -414,7 +414,7 @@ msgid ""
 msgstr ""
 
 msgid "**ReflectionProbe:** |average| Optionally real-time."
-msgstr ""
+msgstr "**ReflectionProbe:** |moyenne| Optionnellement en temps réel."
 
 msgid ""
 "By default, reflections update when the probe is moved. They update as often "
@@ -429,7 +429,7 @@ msgid ""
 msgstr ""
 
 msgid "User work needed"
-msgstr ""
+msgstr "Travail de l'utilisateur nécessaire"
 
 msgid "**VoxelGI:** One or more VoxelGI nodes need to be created and baked."
 msgstr ""
@@ -441,8 +441,9 @@ msgid ""
 "seconds for a scene of medium complexity."
 msgstr ""
 
+#, fuzzy
 msgid "**SDFGI:** Very little."
-msgstr ""
+msgstr "**SDFGI:** Très petit."
 
 msgid ""
 "SDFGI is fully automatic; it only needs to be enabled in the Environment "

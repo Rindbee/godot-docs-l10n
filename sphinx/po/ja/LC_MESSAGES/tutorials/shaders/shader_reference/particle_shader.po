@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,46 +18,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Particle shaders"
-msgstr "パーティクルシェーダー"
+msgstr "Particleシェーダー"
 
-#, fuzzy
 msgid ""
 "Particle shaders are a special type of shader that runs before the object is "
 "drawn. They are used for calculating material properties such as color, "
 "position, and rotation. They are drawn with any regular material for "
 "CanvasItem or Spatial, depending on whether they are 2D or 3D."
 msgstr ""
-"パーティクルシェーダーは、オブジェクトが描画される前に実行される特別なタイプ"
-"の頂点シェーダーです。これらは、色、位置、回転などのマテリアル特性の計算に使"
-"用されます。 2Dか3Dかによって、CanvasItemまたはSpatialの通常のマテリアルで描"
-"画されます。"
+"Particleシェーダーはオブジェクトが描画される前に実行される特別なタイプの"
+"シェーダーです。これらは、色、位置、回転などのマテリアルのプロパティを計算す"
+"るために使用されます。これらは2Dか3Dかに応じて、CanvasItemまたはSpatialの通常"
+"のマテリアルを使用して描画されます。"
 
-#, fuzzy
 msgid ""
 "Particle shaders are unique because they are not used to draw the object "
 "itself; they are used to calculate particle properties, which are then used "
 "by a CanvasItem or Spatial shader. They contain two processor functions: "
 "``start()`` and ``process()``."
 msgstr ""
-"パーティクルシェーダーは、オブジェクト自体の描画には使用されないため、ユニー"
-"クです。これらはパーティクルプロパティの計算に使用され、Spatialシェーダーの"
-"CanvasItemによって使用されます。これらには、複数のプロパティを出力する頂点プ"
-"ロセッサ関数のみが含まれています(以下のビルトインを参照)。"
+"Particleシェーダーはオブジェクト自体を描画するためには使用されないという点で"
+"ユニークです。これらはパーティクルのプロパティを計算するために使用され、その"
+"後CanvasItemまたはSpatialシェーダーによって使用されます。これらには "
+"``start()`` と ``process()`` という 2 つのプロセッサー関数が含まれています。"
 
 msgid ""
 "Unlike other shader types, particle shaders keep the data that was output "
 "the previous frame. Therefore, particle shaders can be used for complex "
 "effects that take place over multiple frames."
 msgstr ""
+"他のシェーダータイプとは異なり、Particleシェーダーは前のフレームに出力された"
+"データを保持します。したがってParticleシェーダーは複数のフレームにわたって実"
+"行される複雑なエフェクトに使用できます。"
 
-#, fuzzy
 msgid ""
 "Particle shaders are only available with GPU-based particle nodes (:ref:"
 "`class_GPUParticles2D` and :ref:`class_GPUParticles3D`)."
 msgstr ""
-"パーティクルシェーダーは、GLES3バックエンドでのみ使用できます。 GLES2でパー"
-"ティクルが必要な場合は、\\ :ref:`CPUParticles <class_CPUParticles>` を使用し"
-"ます。"
+"ParticleシェーダはGPUベースのパーティクル ノード (:ref:"
+"`class_GPUParticles2D` および :ref:`class_GPUParticles3D`) でのみ使用できま"
+"す。"
 
 msgid ""
 "CPU-based particle nodes (:ref:`class_CPUParticles2D` and :ref:"
@@ -65,6 +65,10 @@ msgid ""
 "custom CanvasItem or Spatial shaders), but their motion is *simulated* on "
 "the CPU."
 msgstr ""
+"CPUベースのパーティクルノード (:ref:`class_CPUParticles2D` および :ref:"
+"`class_CPUParticles3D`) は、GPU上で *レンダリング* されます (つまりカスタム"
+"CanvasItemまたはSpatialシェーダーを使用できる) が、その動きは CPU 上で *シ"
+"ミュレート* されます。"
 
 msgid "Render modes"
 msgstr "レンダリングモード"
@@ -85,7 +89,7 @@ msgid "**disable_force**"
 msgstr "\\ **disable_force**"
 
 msgid "Disable attractor force."
-msgstr ""
+msgstr "アトラクターの力を無効にします。"
 
 msgid "**disable_velocity**"
 msgstr "\\ **disable_velocity**"
@@ -93,15 +97,12 @@ msgstr "\\ **disable_velocity**"
 msgid "Ignore **VELOCITY** value."
 msgstr "**VELOCITY** 値を無視します。"
 
-#, fuzzy
 msgid "**collision_use_scale**"
-msgstr "\\ collision_layer"
+msgstr "\\ **collision_use_scale**"
 
-#, fuzzy
 msgid "Scale the particle's size for collisions."
-msgstr "コリジョン(衝突/当り判定)の準備"
+msgstr "コリジョンにパーティクルサイズを適用します。"
 
-#, fuzzy
 msgid "Built-ins"
 msgstr "ビルトイン"
 
@@ -111,17 +112,16 @@ msgid ""
 "marked as \"inout\" provide a sensible default value, and can optionally be "
 "written to. Samplers are not subjects of writing and they are not marked."
 msgstr ""
-"\"in\"としてマークされた値は読み取り専用です。\"out\"とマークされた値はオプ"
-"ションの書き込み用であり、必ずしも適切な値を含むとは限りません。\"inout\"と"
-"マークされた値は、適切なデフォルト値を提供し、オプションで書き込むことができ"
-"ます。サンプラーは書込みの対象ではなく、マークされていません。"
+"\"in\"としてマークされた変数は読み取り専用です。\"out\"とマークされた変数はオ"
+"プションの書き込み用であり、必ずしも適切な値を含むとは限りません。\"inout\"と"
+"マークされた変数は、適切なデフォルト値を提供し、オプションで書き込むことがで"
+"きます。サンプラーは書込みの対象ではなく、マークされていません。"
 
-#, fuzzy
 msgid "Global built-ins"
-msgstr "フラグメント用ビルトイン"
+msgstr "グローバルビルトイン"
 
 msgid "Global built-ins are available everywhere, including custom functions."
-msgstr ""
+msgstr "グローバルビルトインは、カスタム関数を含め、どこでも使用できます。"
 
 msgid "Built-in"
 msgstr "ビルトイン"
@@ -132,44 +132,43 @@ msgstr "\\ in float **TIME**"
 msgid "Global time, in seconds."
 msgstr "秒単位のグローバル時間。"
 
-#, fuzzy
 msgid "in float **PI**"
-msgstr "\\ in float **TIME**"
+msgstr "\\ in float **PI**"
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
+"定数 ``PI`` は円周率 (``3.141592``)。円の円周と直径の比率と、半回転のラジアン"
+"量です。"
 
-#, fuzzy
 msgid "in float **TAU**"
-msgstr "\\ in float **DELTA**"
+msgstr "\\ in float **TAU**"
 
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
 msgstr ""
+"定数 `TAU`` は円周率の2倍 (``6.283185``)。 ``PI * 2`` と、1回転のラジアン量に"
+"相当します。"
 
-#, fuzzy
 msgid "in float **E**"
-msgstr "\\ in float **TIME**"
+msgstr "\\ in float **E**"
 
 msgid ""
 "A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
-msgstr ""
+msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
 
-#, fuzzy
 msgid "Start and Process built-ins"
-msgstr "頂点用ビルトイン"
+msgstr "start()とprocess()のビルトイン"
 
-#, fuzzy
 msgid ""
 "These properties can be accessed from both the ``start()`` and ``process()`` "
 "functions."
 msgstr ""
-"次に、\\ ``vertex`` 関数をセットアップします。パーティクルシェーダーには頂点"
-"関数のみが含まれ、その他は含まれません。"
+"これらのプロパティは ``start()`` 関数と ``process()`` 関数の両方からアクセス"
+"できます。"
 
 msgid "Function"
 msgstr "関数"
@@ -184,7 +183,7 @@ msgid "in float **DELTA**"
 msgstr "\\ in float **DELTA**"
 
 msgid "Delta process time."
-msgstr "デルタプロセス時間。"
+msgstr "デルタ時間。"
 
 msgid "in uint **NUMBER**"
 msgstr "\\ in uint **NUMBER**"
@@ -192,9 +191,8 @@ msgstr "\\ in uint **NUMBER**"
 msgid "Unique number since emission start."
 msgstr "放出開始以降のユニークな番号。"
 
-#, fuzzy
 msgid "in uint **INDEX**"
-msgstr "\\ in int **INDEX**"
+msgstr "\\ in uint **INDEX**"
 
 msgid "Particle index (from total particles)."
 msgstr "パーティクル インデックス(パーティクル全体から)。"
@@ -214,29 +212,31 @@ msgstr "乱数のベースとして使用される乱数シード。"
 msgid "inout bool **ACTIVE**"
 msgstr "\\ inout bool **ACTIVE**"
 
-#, fuzzy
 msgid "``true`` when the particle is active, can be set ``false``."
 msgstr ""
-"パーティクルがアクティブな場合は ``true`` を ``false`` に設定できます。"
+"パーティクルがアクティブな場合は ``true`` 。更新中に ``false`` に設定できま"
+"す。"
 
 msgid "inout vec4 **COLOR**"
 msgstr "\\ inout vec4 **COLOR**"
 
 msgid ""
 "Particle color, can be written to and accessed in mesh's vertex function."
-msgstr "パーティクルの色。メッシュの頂点関数に書き込み、アクセスできます。"
+msgstr ""
+"パーティクルの色。書き込むことができ、メッシュのシェーダーからアクセスされま"
+"す。"
 
 msgid "inout vec3 **VELOCITY**"
 msgstr "\\ inout vec3 **VELOCITY**"
 
 msgid "Particle velocity, can be modified."
-msgstr "パーティクルの速度は変更できます。"
+msgstr "パーティクルの速度。更新中に変更できます。"
 
 msgid "inout mat4 **TRANSFORM**"
 msgstr "\\ inout mat4 **TRANSFORM**"
 
 msgid "Particle transform."
-msgstr "パーティクルの変換。"
+msgstr "パーティクルのトランスフォーム。"
 
 msgid "inout vec4 **CUSTOM**"
 msgstr "\\ inout vec4 **CUSTOM**"
@@ -247,205 +247,210 @@ msgstr ""
 "カスタムパーティクルデータ。メッシュのシェーダーから **INSTANCE_CUSTOM** とし"
 "てアクセス可能。"
 
-#, fuzzy
 msgid "inout float **MASS**"
-msgstr "\\ out float **MASS**"
+msgstr "\\ inout float **MASS**"
 
 msgid ""
 "Particle mass, intended to be used with attractors. Equals ``1.0`` by "
 "default."
 msgstr ""
+"パーティクルの質量。アトラクターの処理で使用されることを意図しています。デ"
+"フォルトは ``1.0`` 。"
 
-#, fuzzy
 msgid "in vec4 **USERDATAX**"
-msgstr "\\ in vec3 **VERTEX**"
+msgstr "\\in vec4 **USERDATAX**"
 
 msgid ""
 "Vector that enables the integration of supplementary user-defined data into "
 "the particle process shader. ``USERDATAX`` are six built-ins identified by "
 "number, ``X`` can be numbers between 1 and 6."
 msgstr ""
+"補足的なユーザー定義データをParticleシェーダーに統合できるようにするベクト"
+"ル。 ``USERDATAX`` は番号で識別される 6 つのビルトインであり、``X`` には 1 か"
+"ら 6 までの番号を指定できます。"
 
-#, fuzzy
 msgid "in uint **FLAG_EMIT_POSITION**"
-msgstr "\\ in uint **RANDOM_SEED**"
+msgstr "\\ in uint **FLAG_EMIT_POSITION**"
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a position to a new particle's transform."
 msgstr ""
+"``emit_subparticle`` 関数の最後の引数で使用するフラグ。新しいパーティクルのト"
+"ランスフォームの位置を設定します。"
 
-#, fuzzy
 msgid "in uint **FLAG_EMIT_ROT_SCALE**"
-msgstr "\\ in uint **RANDOM_SEED**"
+msgstr "\\ in uint **FLAG_EMIT_ROT_SCALE**"
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign the rotation and scale to a new particle's transform."
 msgstr ""
+"``emit_subparticle`` 関数の最後の引数で使用するフラグ。新しいパーティクルのト"
+"ランスフォームの回転とスケールを設定します。"
 
-#, fuzzy
 msgid "in uint **FLAG_EMIT_VELOCITY**"
-msgstr "\\ inout vec3 **VELOCITY**"
+msgstr "\\ in uint **FLAG_EMIT_VELOCITY**"
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a velocity to a new particle."
 msgstr ""
+"``emit_subparticle`` 関数の最後の引数で使用するフラグ。新しいパーティクルの速"
+"度を設定します。"
 
-#, fuzzy
 msgid "in uint **FLAG_EMIT_COLOR**"
-msgstr "\\ in vec3 **LIGHT_COLOR**"
+msgstr "\\ in uint **FLAG_EMIT_COLOR**"
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a color to a new particle."
 msgstr ""
+"``emit_subparticle`` 関数の最後の引数で使用するフラグ。新しいパーティクルの色"
+"を設定します。"
 
-#, fuzzy
 msgid "in uint **FLAG_EMIT_CUSTOM**"
-msgstr "\\ in uint **RANDOM_SEED**"
+msgstr "\\ in uint **FLAG_EMIT_CUSTOM**"
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a custom data vector to a new particle."
 msgstr ""
+"``emit_subparticle`` 関数の最後の引数で使用するフラグ。新しいパーティクルのカ"
+"スタムデータベクトルを設定します。"
 
-#, fuzzy
 msgid "in vec3 **EMITTER_VELOCITY**"
-msgstr "\\ inout vec3 **VELOCITY**"
+msgstr "\\ in vec3 **EMITTER_VELOCITY**"
 
-#, fuzzy
 msgid "Velocity of the Particles node."
-msgstr "*Main* ノードに接続する。"
+msgstr "パーティクルノードの速度。"
 
-#, fuzzy
 msgid "in float **INTERPOLATE_TO_END**"
-msgstr "\\ in vec3 **ATTENUATION**"
+msgstr "\\ in float **INTERPOLATE_TO_END**"
 
 msgid "Value of ``interp_to_end`` property of Particles node."
-msgstr ""
+msgstr "パーティクルノードの ``interp_to_end`` プロパティの値。"
 
-#, fuzzy
 msgid "in uint **AMOUNT_RATIO**"
-msgstr "\\ in uint **RANDOM_SEED**"
+msgstr "\\ in uint **AMOUNT_RATIO**"
 
 msgid "Value of ``amount_ratio`` property of Particles node."
-msgstr ""
+msgstr "パーティクルノードの ``amount_ratio`` プロパティの値。"
 
-#, fuzzy
 msgid ""
 "In order to use the ``COLOR`` variable in a StandardMaterial3D, set "
 "``vertex_color_use_as_albedo`` to ``true``. In a ShaderMaterial, access it "
 "with the ``COLOR`` variable."
 msgstr ""
-"SpatialMaterialで ``COLOR`` 変数を使用するには、\\ ``use_vertex_as_albedo`` "
-"を ``true`` に設定します。 ShaderMaterialで、\\ ``COLOR`` 変数を使用してアク"
-"セスします。"
+"StandardMaterial3D で ``COLOR`` 変数を使用するには、 "
+"``vertex_color_use_as_albedo`` を ``true`` に設定します。 ShaderMaterial で"
+"は ``COLOR`` 変数を使用してアクセスします。"
 
-#, fuzzy
 msgid "Start built-ins"
-msgstr "頂点用ビルトイン"
+msgstr "start()のビルトイン"
 
-#, fuzzy
 msgid "in bool **RESTART_POSITION**"
-msgstr "\\ in bool **RESTART**"
+msgstr "\\ in bool **RESTART_POSITION**"
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom position (i."
 "e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_POSITION`` flag)."
 msgstr ""
+"``true``のとき、パーティクルが再起動された、またはカスタムの位置が設定されず"
+"に放出された (つまりこのパーティクルが ``FLAG_EMIT_POSITION`` フラグなしで "
+"``emit_subparticle()`` によって作成された)。"
 
-#, fuzzy
 msgid "in bool **RESTART_ROT_SCALE**"
-msgstr "\\ in bool **RESTART**"
+msgstr "\\ in bool **RESTART_ROT_SCALE**"
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom rotation or "
 "scale (i.e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_ROT_SCALE`` flag)."
 msgstr ""
+"``true``のとき、パーティクルが再起動された、またはカスタムの回転とスケールが"
+"設定されずに放出された (つまりこのパーティクルが ``FLAG_EMIT_ROT_SCALE`` フラ"
+"グなしで ``emit_subparticle()`` によって作成された)。"
 
-#, fuzzy
 msgid "in bool **RESTART_VELOCITY**"
-msgstr "\\ in bool **RESTART**"
+msgstr "\\ in bool **RESTART_VELOCITY**"
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom velocity (i."
 "e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_VELOCITY`` flag)."
 msgstr ""
+"``true``のとき、パーティクルが再起動された、またはカスタムの速度が設定されず"
+"に放出された (つまりこのパーティクルが ``FLAG_EMIT_VELOCITY`` フラグなしで "
+"``emit_subparticle()`` によって作成された)。"
 
-#, fuzzy
 msgid "in bool **RESTART_COLOR**"
-msgstr "\\ in bool **RESTART**"
+msgstr "\\ in bool **RESTART_COLOR**"
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom color (i.e. "
 "this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_COLOR`` flag)."
 msgstr ""
+"``true``のとき、パーティクルが再起動された、またはカスタムの色が設定されずに"
+"放出された (つまりこのパーティクルが ``FLAG_EMIT_COLOR`` フラグなしで "
+"``emit_subparticle()`` によって作成された)。"
 
-#, fuzzy
 msgid "in bool **RESTART_CUSTOM**"
-msgstr "\\ in bool **RESTART**"
+msgstr "\\ in bool **RESTART_CUSTOM**"
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom property (i."
 "e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_CUSTOM`` flag)."
 msgstr ""
+"``true``のとき、パーティクルが再起動された、またはカスタムのプロパティが設定"
+"されずに放出された (つまりこのパーティクルが ``FLAG_EMIT_CUSTOM`` フラグなし"
+"で ``emit_subparticle()`` によって作成された)。"
 
-#, fuzzy
 msgid "Process built-ins"
-msgstr "頂点用ビルトイン"
+msgstr "process()のビルトイン"
 
 msgid "in bool **RESTART**"
 msgstr "\\ in bool **RESTART**"
 
-#, fuzzy
 msgid "``true`` if the current process frame is first for the particle."
-msgstr "現在の面が前面(面の法線がこちらを向いている)の場合は ``true``。"
+msgstr "現在のプロセスフレームがパーティクルの初回であるときは ``true`` 。"
 
-#, fuzzy
 msgid "in bool **COLLIDED**"
-msgstr "\\ inout bool **ACTIVE**"
+msgstr "\\ in bool **COLLIDED**"
 
-#, fuzzy
 msgid "``true`` when the particle has collided with a particle collider."
-msgstr ""
-"パーティクルを再起動する必要がある(ライフサイクルが繰り返される)場合は "
-"``true``\\ 。"
+msgstr "パーティクルがパーティクルコライダーと衝突した時は ``true`` 。"
 
-#, fuzzy
 msgid "in vec3 **COLLISION_NORMAL**"
-msgstr "\\ in vec3 **NORMAL**"
+msgstr "\\ in vec3 **COLLISION_NORMAL**"
 
 msgid ""
 "A normal of the last collision. If there is no collision detected it is "
 "equal to ``vec3(0.0)``."
 msgstr ""
+"最後の衝突時の法線ベクトル。衝突が検出されていない場合 ``vec3(0.0)`` になりま"
+"す。"
 
-#, fuzzy
 msgid "in float **COLLISION_DEPTH**"
-msgstr "\\ inout float ** NORMALMAP_DEPTH **"
+msgstr "\\ in float **COLLISION_DEPTH**"
 
 msgid ""
 "A length of normal of the last collision. If there is no collision detected "
 "it is equal to ``0.0``."
 msgstr ""
+"最後の衝突時の法線の長さ。衝突が検出されていない場合 ``0.0`` になります。"
 
-#, fuzzy
 msgid "in vec3 **ATTRACTOR_FORCE**"
-msgstr "\\ in vec3 **ATTENUATION**"
+msgstr "\\ in vec3 **ATTRACTOR_FORCE**"
 
 msgid "A combined force of the attractors at the moment on that particle."
-msgstr ""
+msgstr "パーティクルに対するその時点でのアトラクターの合成された力。"
 
-#, fuzzy
 msgid "Process functions"
-msgstr "プロセッサー関数"
+msgstr "process()で使える関数"
 
 msgid ""
 "``emit_subparticle`` is currently the only custom function supported by "
@@ -455,14 +460,22 @@ msgid ""
 "code will emit a particle with a specified position, velocity, and color, "
 "but unspecified rotation, scale, and custom value:"
 msgstr ""
+"``emit_subparticle`` は現在Particleシェーダでサポートされている唯一のカスタム"
+"関数です。これを使うとユーザーはサブエミッターから指定されたパラメーターを持"
+"つ新しいパーティクルを追加できます。新しく作成されたパーティクルは、 "
+"``flags`` パラメーターと対応するプロパティのみが設定されます。たとえば次の"
+"コードは、指定された位置と速度と色を持つパーティクルを放出しますが、回転とス"
+"ケールとカスタム値は設定されません。"
 
 msgid ""
 "bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
 "custom, uint flags)"
 msgstr ""
+"\\ bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
+"custom, uint flags)"
 
 msgid "Emits a particle from a sub-emitter."
-msgstr ""
+msgstr "サブエミッターからパーティクルを放出します。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

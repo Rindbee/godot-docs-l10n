@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,7 +78,7 @@ msgstr "Librerías de desarrollo:"
 msgid "X11, Xcursor, Xinerama, Xi and XRandR."
 msgstr "Las bibliotecas de desarrollo X11, Xcursor, Xinerama, Xi y XRandR."
 
-msgid "MesaGL."
+msgid "Mesa."
 msgstr ""
 
 msgid "ALSA."
@@ -135,20 +135,20 @@ msgid "Mageia"
 msgstr "**Mageia**"
 
 #, fuzzy
-msgid "OpenBSD"
-msgstr "**OpenBSD**"
-
-#, fuzzy
-msgid "openSUSE"
-msgstr "**openSUSE**"
-
-#, fuzzy
 msgid "NetBSD"
 msgstr "**NetBSD**"
 
 msgid "For audio support, you can optionally install ``pulseaudio``."
 msgstr ""
 "Para tener soporte de audio, opcionalmente puedes instalar \"pulseaudio\"."
+
+#, fuzzy
+msgid "OpenBSD"
+msgstr "**OpenBSD**"
+
+#, fuzzy
+msgid "openSUSE"
+msgstr "**openSUSE**"
 
 #, fuzzy
 msgid "Solus"

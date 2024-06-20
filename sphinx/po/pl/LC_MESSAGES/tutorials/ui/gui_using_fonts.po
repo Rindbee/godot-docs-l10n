@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -546,9 +546,9 @@ msgid ""
 "system fonts is not supported on all platforms."
 msgstr ""
 
-#, fuzzy
 msgid "It's possible to use a system font as a fallback font too."
-msgstr "Czy jest możliwe używać Godota jako biblioteki?"
+msgstr ""
+"Możliwe jest również użycie czcionki systemowej jako czcionki awaryjnej."
 
 #, fuzzy
 msgid "Using icon fonts"

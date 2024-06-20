@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,10 +65,10 @@ msgid ""
 msgstr ""
 
 msgid "Options for Retargeting"
-msgstr ""
+msgstr "Options pour le re-ciblage"
 
 msgid "Bone Map"
-msgstr ""
+msgstr "Carte d'os"
 
 msgid ""
 "When you select the Skeleton3D node in the advanced scene import menu, a "
@@ -144,7 +144,7 @@ msgid ""
 msgstr ""
 
 msgid "Unmapped Bones"
-msgstr ""
+msgstr "Os sans map"
 
 msgid "Removes unmapped bone Transform tracks from the animations."
 msgstr ""
@@ -239,8 +239,9 @@ msgid ""
 "therefore the Hips' height is used as the ``motion_scale``."
 msgstr ""
 
+#, fuzzy
 msgid "Overwrite Axis"
-msgstr ""
+msgstr "Axe surchargé"
 
 msgid ""
 "Unifies the models' Bone Rests by overwriting it to match the reference "
@@ -256,7 +257,7 @@ msgid ""
 msgstr ""
 
 msgid "Fix Silhouette"
-msgstr ""
+msgstr "Fixer la silhouette"
 
 msgid ""
 "Attempts to make the model's silhouette match that of the reference poses "

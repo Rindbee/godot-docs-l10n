@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +144,7 @@ msgid "10"
 msgstr "10"
 
 msgid "quaternion"
-msgstr ""
+msgstr "quaternion"
 
 msgid "11"
 msgstr "11"
@@ -335,9 +335,8 @@ msgstr ""
 "Si aucun drapeau n'est défini (flags == 0), le flottant est envoyé en tant "
 "que précision simple de 32 bits :"
 
-#, fuzzy
 msgid "Float"
-msgstr "Nombre à virgule flottante"
+msgstr "Float"
 
 msgid "IEEE 754 single-precision float"
 msgstr "IEEE 754 single-precision float"
@@ -579,14 +578,14 @@ msgid "Zero (32-bit signed integer)"
 msgstr "Entier 32 bits signé"
 
 msgid "``full_objects`` disabled"
-msgstr ""
+msgstr "``full_objects`` désactivé"
 
 #, fuzzy
 msgid "The Object instance ID (64-bit signed integer)"
 msgstr "Entier signé 64 bits"
 
 msgid "``full_objects`` enabled"
-msgstr ""
+msgstr "``full_objects`` activé"
 
 #, fuzzy
 msgid "Class name (String length)"
@@ -607,7 +606,7 @@ msgid "For each property:"
 msgstr "Pour chaque propriété :"
 
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #, fuzzy
 msgid "Property name (String length)"
@@ -618,17 +617,17 @@ msgid "Y+4"
 msgstr "X+4"
 
 msgid "Z"
-msgstr ""
+msgstr "Z"
 
 #, fuzzy
 msgid "Property name (UTF-8 encoded string)"
 msgstr "Chaîne de caractère codée en UTF-8"
 
 msgid "Y+4+Z"
-msgstr ""
+msgstr "Y+4+Z"
 
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #, fuzzy
 msgid "<variable>"

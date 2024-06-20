@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,34 +17,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Sky shaders"
-msgstr "シェーダー"
+msgstr "Skyシェーダー"
 
 msgid ""
 "Sky shaders are a special type of shader used for drawing sky backgrounds "
 "and for updating radiance cubemaps which are used for image-based lighting "
 "(IBL). Sky shaders only have one processing function, the ``sky()`` function."
 msgstr ""
+"Skyシェーダーは空の背景を描画したり、Image-Based lighting (IBL) に使用される"
+"放射キューブマップを更新したりするために使用される特別なタイプのシェーダで"
+"す。 Skyシェーダーには ``sky()`` 関数という 1 つのプロセッサー関数しかありま"
+"せん。"
 
-#, fuzzy
 msgid "There are three places the sky shader is used."
-msgstr "ディテールの使用をコントロールする設定がいくつかあります。"
+msgstr "Skyシェーダが使用される場所は3つあります。"
 
 msgid ""
 "First the sky shader is used to draw the sky when you have selected to use a "
 "Sky as the background in your scene."
 msgstr ""
+"まずシーンの背景にSkyを使用することを選択した場合、Skyシェーダーを使用して空"
+"を描画します。"
 
 msgid ""
 "Second, the sky shader is used to update the radiance cubemap when using the "
 "Sky for ambient color or reflections."
 msgstr ""
+"2番目にアンビエントカラーまたは反射にSkyを使用するときに、Skyシェーダーを使用"
+"して放射キューブマップが更新されます。"
 
 msgid ""
 "Third, the sky shader is used to draw the lower res subpasses which can be "
 "used in the high-res background or cubemap pass."
 msgstr ""
+"3番目にSkyシェーダーを使用して、高解像度の背景またはキューブマップパスで使用"
+"できる低解像度のサブパスを描画します。"
 
 msgid ""
 "In total, this means the sky shader can run up to six times per frame, "
@@ -53,12 +61,20 @@ msgid ""
 "be used. You can change the behavior of the shader based on where it is "
 "called by checking the ``AT_*_PASS`` booleans. For example:"
 msgstr ""
+"これは合計でSkyシェーダーがフレームごとに最大6回実行できることを意味します"
+"が、放射キューブマップはフレームごとに更新する必要がなく、すべてのサブパスが"
+"使用されるわけではないため、実際にはそれよりも少なくなります。 ``AT_*_PASS`` "
+"のブール値をチェックすることで、シェーダーが呼び出される場所に基づいてシェー"
+"ダーの動作を変更できます。例えば："
 
 msgid ""
 "When using the sky shader to draw a background, the shader will be called "
 "for all non-occluded fragments on the screen. However, for the background's "
 "subpasses, the shader will be called for every pixel of the subpass."
 msgstr ""
+"Skyシェーダーを使用して背景を描画する場合、画面上のオクルージョンされていない"
+"すべてのフラグメントに対してシェーダが呼び出されます。ただし背景のサブパスの"
+"場合、シェーダはサブパスのピクセルごとに呼び出されます。"
 
 msgid ""
 "When using the sky shader to update the radiance cubemap, the sky shader "
@@ -69,23 +85,32 @@ msgid ""
 "cubemap will update every frame. The following list of changes force an "
 "update of the radiance cubemap:"
 msgstr ""
+"Skyシェーダーを使用して放射キューブマップを更新する場合、Skyシェーダーは"
+"キューブマップ内のすべてのピクセルに対して呼び出されます。一方、シェーダーは"
+"放射キューブマップを更新する必要がある場合にのみ呼び出されます。いずれかの"
+"シェーダパラメーターが更新されると、放射キューブマップも更新する必要がありま"
+"す。たとえばシェーダーで ``TIME`` が使用されている場合、放射キューブマップは"
+"フレームごとに更新されます。次の変更のリストに応じて放射キューブマップの更新"
+"が強制されます。"
 
 msgid "``TIME`` is used."
-msgstr ""
+msgstr "``TIME`` が使われている。"
 
 msgid "``POSITION`` is used and the camera position changes."
-msgstr ""
+msgstr "``POSITION`` が使われており、カメラの位置が変更された場合。"
 
 msgid ""
 "If any ``LIGHTX_*`` properties are used and any :ref:`DirectionalLight3D "
 "<class_DirectionalLight3D>` changes."
 msgstr ""
+"``LIGHTX_*`` プロパティが使用されており、いずれかの :ref:`DirectionalLight3D "
+"<class_DirectionalLight3D>` が変更された場合。"
 
 msgid "If any uniform is changed in the shader."
-msgstr ""
+msgstr "シェーダー内のUniformが変更された場合。"
 
 msgid "If the screen is resized and either of the subpasses are used."
-msgstr ""
+msgstr "画面のサイズが変更され、いずれかのサブパスが使用される場合。"
 
 msgid ""
 "Try to avoid updating the radiance cubemap needlessly. If you do need to "
@@ -93,6 +118,10 @@ msgid ""
 "mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
 "<class_Sky_constant_PROCESS_MODE_REALTIME>`."
 msgstr ""
+"なるべく放射キューブマップを不必要に更新しないようにしてください。もし各フ"
+"レームで放射キューブマップを更新する必要がある場合は、:ref:`Skyプロセス モー"
+"ド <class_Sky_property_process_mode>` が :ref:`REALTIME "
+"<class_Sky_constant_PROCESS_MODE_REALTIME>` に設定するようにしてください。"
 
 msgid ""
 "Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
@@ -105,11 +134,23 @@ msgid ""
 "cubemap when rendering the visible sky. With a completely static sky, this "
 "means that it needs to be rendered only once."
 msgstr ""
+":ref:`プロセス モード <class_Sky_property_process_mode>` は、放射キューブマッ"
+"プのレンダリングにのみ影響することに注意してください。可視範囲の空はピクセル"
+"ごとにフラグメントシェーダーを呼び出すことによって常にレンダリングされます。"
+"複雑なフラグメントシェーダを使用すると、レンダリングのオーバーヘッドが高くな"
+"る可能性があります。空が静的である (上記の条件が満たされている) か、ゆっくり"
+"と変化する場合フレームごとにフルのフラグメントシェーダーを実行する必要はあり"
+"ません。これは、全ての空を放射キューブマップにレンダリングし、可視範囲の空を"
+"レンダリングするときにこのキューブマップから読み取ることで回避できます。完全"
+"に静的な空の場合は、レンダリングする必要があるのは 1 回だけであることを意味し"
+"ます。"
 
 msgid ""
 "The following code renders the full sky into the radiance cubemap and reads "
 "from that cubemap for displaying the visible sky:"
 msgstr ""
+"次のコードは全ての空を放射キューブマップにレンダリングし、そのキューブマップ"
+"から読み取って可視範囲の空を表示します。"
 
 msgid ""
 "This way, the complex calculations happen only in the cubemap pass, which "
@@ -118,6 +159,10 @@ msgid ""
 "<class_Sky_property_radiance_size>` to get the desired balance between "
 "performance and visual fidelity."
 msgstr ""
+"このように複雑な計算はキューブマップパス内でのみ行われ、空の :ref:`プロセス "
+"モード <class_Sky_property_process_mode>` と :ref:`放射サイズ "
+"<class_Sky_property_radiance_size>` を設定することで最適化して、パフォーマン"
+"スと視覚的な忠実度の間の望ましいバランスを得ることができます。"
 
 msgid "Render modes"
 msgstr "レンダリングモード"
@@ -127,6 +172,9 @@ msgid ""
 "to speed up your shaders. For example the following code renders clouds at a "
 "lower resolution than the rest of the sky:"
 msgstr ""
+"サブパスを使用すると、より低解像度でより負荷の高い計算を実行してシェーダを高"
+"速化できます。たとえば次のコードは空の他の部分よりも低い解像度で雲をレンダリ"
+"ングします。"
 
 msgid "Render mode"
 msgstr "レンダリングモード"
@@ -134,53 +182,49 @@ msgstr "レンダリングモード"
 msgid "Description"
 msgstr "説明"
 
-#, fuzzy
 msgid "**use_half_res_pass**"
-msgstr "\\ **depth_draw_alpha_prepass**"
+msgstr "\\ **use_half_res_pass**"
 
 msgid "Allows the shader to write to and access the half resolution pass."
-msgstr ""
+msgstr "シェーダーが1/2解像度パスに書き込み、アクセスできるようにします。"
 
 msgid "**use_quarter_res_pass**"
-msgstr ""
+msgstr "\\ **use_quarter_res_pass**"
 
 msgid "Allows the shader to write to and access the quarter resolution pass."
-msgstr ""
+msgstr "シェーダが1/4解像度パスに書き込み、アクセスできるようにします。"
 
-#, fuzzy
 msgid "**disable_fog**"
-msgstr "\\ **disable_force**"
+msgstr "\\ **disable_fog**"
 
 msgid "If used, fog will not affect the sky."
-msgstr ""
+msgstr "指定すると、フォグは空に影響を与えません。"
 
-#, fuzzy
 msgid "Built-ins"
 msgstr "ビルトイン"
 
-#, fuzzy
 msgid ""
 "Values marked as \"in\" are read-only. Values marked as \"out\" are for "
 "optional writing and will not necessarily contain sensible values. Samplers "
 "cannot be written to so they are not marked."
 msgstr ""
-"\"in\"としてマークされた値は読み取り専用です。\"out\"とマークされた値はオプ"
-"ションの書き込み用であり、必ずしも適切な値を含むとは限りません。\"inout\"と"
-"マークされた値は、適切なデフォルト値を提供し、オプションで書き込むことができ"
-"ます。サンプラーは書込みの対象ではなく、マークされていません。"
+"\"in\"とマークされた値は読み取り専用です。 \"out\"とマークされた値はオプショ"
+"ンの書き込み用であり、必ずしも適切な値を含むとは限りません。サンプラーには書"
+"き込む対象ではないためマークされません。"
 
-#, fuzzy
 msgid "Global built-ins"
-msgstr "フラグメント用ビルトイン"
+msgstr "グローバルビルトイン"
 
 msgid ""
 "Global built-ins are available everywhere, including in custom functions."
-msgstr ""
+msgstr "グローバルビルトインはカスタム関数を含めあらゆる場所で使用できます。"
 
 msgid ""
 "There are 4 ``LIGHTX`` lights, accessed as ``LIGHT0``, ``LIGHT1``, "
 "``LIGHT2``, and ``LIGHT3``."
 msgstr ""
+"4つの ``LIGHTX`` ライトがあり、 ``LIGHT0`` 、 ``LIGHT1`` 、 ``LIGHT2`` 、 "
+"``LIGHT3`` としてアクセスします。"
 
 msgid "Built-in"
 msgstr "ビルトイン"
@@ -191,171 +235,164 @@ msgstr "\\ in float **TIME**"
 msgid "Global time, in seconds."
 msgstr "秒単位のグローバル時間。"
 
-#, fuzzy
 msgid "in vec3 **POSITION**"
-msgstr "\\ out vec4 **POSITION**"
+msgstr "\\ in vec3 **POSITION**"
 
-#, fuzzy
 msgid "Camera position in world space"
-msgstr "ビュー空間内の法線ベクトル。"
+msgstr "ワールド空間でのカメラの位置"
 
-#, fuzzy
 msgid "samplerCube **RADIANCE**"
-msgstr "\\ **samplerCube**"
+msgstr "\\ samplerCube **RADIANCE**"
 
 msgid ""
 "Radiance cubemap. Can only be read from during background pass. Check ``!"
 "AT_CUBEMAP_PASS`` before using."
 msgstr ""
+"放射キューブマップ。背景パス中でのみ読み取ることができます。使用前に ``!"
+"AT_CUBEMAP_PASS`` をチェックしてください。"
 
-#, fuzzy
 msgid "in bool **AT_HALF_RES_PASS**"
-msgstr "\\ in bool **AT_LIGHT_PASS**"
+msgstr "\\ in bool **AT_HALF_RES_PASS**"
 
 msgid "Currently rendering to half resolution pass."
-msgstr ""
+msgstr "現在のパスが1/2解像度パスでレンダリングしていることを示します。"
 
-#, fuzzy
 msgid "in bool **AT_QUARTER_RES_PASS**"
-msgstr "\\ in bool **AT_LIGHT_PASS**"
+msgstr "\\ in bool **AT_QUARTER_RES_PASS**"
 
 msgid "Currently rendering to quarter resolution pass."
-msgstr ""
+msgstr "現在のパスが1/4解像度パスでレンダリングしていることを示します。"
 
-#, fuzzy
 msgid "in bool **AT_CUBEMAP_PASS**"
-msgstr "\\ in bool **AT_LIGHT_PASS**"
+msgstr "\\ in bool **AT_CUBEMAP_PASS**"
 
 msgid "Currently rendering to radiance cubemap."
 msgstr ""
+"現在のパスが放射キューブマップパスでレンダリングしていることを示します。"
 
-#, fuzzy
 msgid "in bool **LIGHTX_ENABLED**"
-msgstr "\\ in bool **AT_LIGHT_PASS**"
+msgstr "\\ in bool **LIGHTX_ENABLED**"
 
 msgid ""
 "``LightX`` is visible and in the scene. If ``false``, other light properties "
 "may be garbage."
 msgstr ""
+"``LIGHTX`` がシーン内にあります。 もし ``false`` の場合、他の LIGHTX_ プロパ"
+"ティは使用できない可能性があります。"
 
-#, fuzzy
 msgid "in float **LIGHTX_ENERGY**"
-msgstr "\\ inout float **LIGHT_HEIGHT**"
+msgstr "\\ in float **LIGHTX_ENERGY**"
 
 msgid "Energy multiplier for ``LIGHTX``."
-msgstr ""
+msgstr "``LIGHTX`` のエネルギー倍率。"
 
-#, fuzzy
 msgid "in vec3 **LIGHTX_DIRECTION**"
-msgstr "\\ in vec3 **LIGHT_COLOR**"
+msgstr "\\ in vec3 **LIGHTX_DIRECTION**"
 
 msgid "Direction that ``LIGHTX`` is facing."
-msgstr ""
+msgstr "``LIGHTX`` が向いている方向。"
 
-#, fuzzy
 msgid "in vec3 **LIGHTX_COLOR**"
-msgstr "\\ in vec3 **LIGHT_COLOR**"
+msgstr "\\ in vec3 **LIGHTX_COLOR**"
 
-#, fuzzy
 msgid "Color of ``LIGHTX``."
-msgstr "ライトの色。"
+msgstr "``LIGHTX``の色。"
 
-#, fuzzy
 msgid "in float **LIGHTX_SIZE**"
-msgstr "\\ inout float **POINT_SIZE**"
+msgstr "\\ in float **LIGHTX_SIZE**"
 
 msgid ""
 "Angular diameter of ``LIGHTX`` in the sky. Expressed in radians. For "
 "reference, the sun from earth is about .0087 radians (0.5 degrees)."
 msgstr ""
+"空における ``LIGHTX`` の角直径でラジアンで表されます。参考までに地球からの太"
+"陽の距離は約 0.0087 ラジアン (0.5 度) です。"
 
-#, fuzzy
 msgid "in float **PI**"
-msgstr "\\ in float **TIME**"
+msgstr "\\ in float **PI**"
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
+"``PI`` 円周率の定数 (``3.141592``)。円の円周とその直径の比率、および半回転の"
+"ラジアン量。"
 
-#, fuzzy
 msgid "in float **TAU**"
-msgstr "\\ in float **DELTA**"
+msgstr "\\ in float **TAU**"
 
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
 msgstr ""
+"定数 `TAU`` は円周率の2倍 (``6.283185``)。 ``PI * 2`` と、1回転のラジアン量に"
+"相当します。"
 
-#, fuzzy
 msgid "in float **E**"
-msgstr "\\ in float **TIME**"
+msgstr "\\ in float **E**"
 
 msgid ""
 "A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
-msgstr ""
+msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
 
-#, fuzzy
 msgid "Sky built-ins"
-msgstr "ビルトイン"
+msgstr "Skyビルトイン"
 
-#, fuzzy
 msgid "in vec3 **EYEDIR**"
-msgstr "\\ in vec3 **VERTEX**"
+msgstr "\\ in vec3 **EYEDIR**"
 
 msgid ""
 "Normalized direction of current pixel. Use this as your basic direction for "
 "procedural effects."
 msgstr ""
+"現在のピクセルの正規化された方向。これをプロシージャルエフェクトのベースの方"
+"向として使用します。"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "\\ in vec2 **SCREEN_UV**"
 
-#, fuzzy
 msgid ""
 "Screen UV coordinate for current pixel. Used to map a texture to the full "
 "screen."
-msgstr "現在のピクセルのスクリーンUV座標。"
+msgstr ""
+"現在のピクセルのスクリーンUV座標。テクスチャを全画面にマッピングするために使"
+"用されます。"
 
-#, fuzzy
 msgid "in vec2 **SKY_COORDS**"
-msgstr "\\ in vec2 **POINT_COORD**"
+msgstr "\\ in vec2 **SKY_COORDS**"
 
 msgid "Sphere UV. Used to map a panorama texture to the sky."
 msgstr ""
+"スフィアUV座標。パノラマテクスチャを空にマッピングするために使用されます。"
 
-#, fuzzy
 msgid "in vec4 **HALF_RES_COLOR**"
-msgstr "\\ in vec4 **COLOR**"
+msgstr "\\ in vec4 **HALF_RES_COLOR**"
 
 msgid ""
 "Color value of corresponding pixel from half resolution pass. Uses linear "
 "filter."
-msgstr ""
+msgstr "1/2解像度パスからの対応するピクセルの色。リニアフィルターを使用。"
 
-#, fuzzy
 msgid "in vec4 **QUARTER_RES_COLOR**"
-msgstr "\\ in vec4 **COLOR**"
+msgstr "\\ in vec4 **QUARTER_RES_COLOR**"
 
 msgid ""
 "Color value of corresponding pixel from quarter resolution pass. Uses linear "
 "filter."
-msgstr ""
+msgstr "1/4解像度パスからの対応するピクセルの色。リニアフィルターを使用。"
 
-#, fuzzy
 msgid "out vec3 **COLOR**"
-msgstr "\\ inout vec4 **COLOR**"
+msgstr "\\ out vec3 **COLOR**"
 
-#, fuzzy
 msgid "Output color."
-msgstr "出力ログ"
+msgstr "出力の色。"
 
 msgid "out float **ALPHA**"
 msgstr "\\ out float **ALPHA**"
 
 msgid "Output alpha value, can only be used in subpasses."
-msgstr ""
+msgstr "出力のアルファ値。サブパスでのみ使用できます。"
 
 #, fuzzy
 msgid "out vec4 **FOG**"

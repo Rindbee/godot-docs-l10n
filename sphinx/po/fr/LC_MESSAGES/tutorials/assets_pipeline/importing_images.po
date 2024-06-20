@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -365,7 +365,7 @@ msgid "Lossless"
 msgstr "Compression sans perte (Lossless)"
 
 msgid "Lossy"
-msgstr ""
+msgstr "Avec perte"
 
 #, fuzzy
 msgid "VRAM Compressed"
@@ -376,7 +376,7 @@ msgid "VRAM Uncompressed"
 msgstr "Non compressé"
 
 msgid "Basis Universal"
-msgstr ""
+msgstr "Base universelle"
 
 msgid "**Description**"
 msgstr "**Description**"
@@ -459,44 +459,44 @@ msgid "Texture size"
 msgstr "Limites de taille des textures"
 
 msgid "**128×128**"
-msgstr ""
+msgstr "**128×128**"
 
 msgid "|good| 85 KiB"
-msgstr ""
+msgstr "|bon| 85 KiB"
 
 msgid "|good| 21 KiB"
-msgstr ""
+msgstr "|bon| 21 KiB"
 
 msgid "**256×256**"
-msgstr ""
+msgstr "**256×256**"
 
 msgid "|good| 341 KiB"
-msgstr ""
+msgstr "|bon| 341 KiB"
 
 msgid "**512×512**"
-msgstr ""
+msgstr "**512×512**"
 
 msgid "|good| 1.33 MiB"
-msgstr ""
+msgstr "|bon| 1.33 MiB"
 
 msgid "**1024×1024**"
-msgstr ""
+msgstr "**1024×1024**"
 
 #, fuzzy
 msgid "|regular| 5.33 MiB"
 msgstr "|normal| Légère"
 
 msgid "**2048×2048**"
-msgstr ""
+msgstr "**2048×2048**"
 
 msgid "|bad| 21.33 MiB"
-msgstr ""
+msgstr "|mauvais| 21.33 MiB"
 
 msgid "**4096×4096**"
-msgstr ""
+msgstr "**4096×4096**"
 
 msgid "|bad| 85.33 MiB"
-msgstr ""
+msgstr "|mauvais| 85.33 MiB"
 
 msgid ""
 "In the above table, memory usage will be reduced by 25% for images that do "

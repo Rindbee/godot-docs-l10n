@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,8 +87,9 @@ msgid ""
 "constant deceleration to a deceleration based on speed."
 msgstr ""
 
+#, fuzzy
 msgid "Spawn"
-msgstr ""
+msgstr "Faire apparaître"
 
 #, fuzzy
 msgid "Emission shape"
@@ -373,7 +374,7 @@ msgid ""
 msgstr ""
 
 msgid "Display"
-msgstr ""
+msgstr "Afficher"
 
 msgid "Scale"
 msgstr "Mode mise à l'échelle"
@@ -576,7 +577,7 @@ msgid ""
 msgstr ""
 
 msgid "Turbulence"
-msgstr ""
+msgstr "Turbulence"
 
 msgid ""
 "Turbulence adds noise to particle movement, creating interesting and lively "

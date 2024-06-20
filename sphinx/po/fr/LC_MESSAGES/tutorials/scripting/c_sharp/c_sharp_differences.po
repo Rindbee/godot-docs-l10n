@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,20 +197,20 @@ msgid "Mathf.Abs"
 msgstr "Maths"
 
 msgid "absf"
-msgstr ""
+msgstr "absf"
 
 msgid "absi"
-msgstr ""
+msgstr "absi"
 
 msgid "acos"
-msgstr ""
+msgstr "acos"
 
 #, fuzzy
 msgid "Mathf.Acos"
 msgstr "Fonctions mathématiques"
 
 msgid "acosh"
-msgstr ""
+msgstr "acosh"
 
 #, fuzzy
 msgid "Mathf.Acosh"
@@ -221,45 +221,46 @@ msgid "angle_difference"
 msgstr "Différences générales"
 
 msgid "Mathf.AngleDifference"
-msgstr ""
+msgstr "Mathf.AngleDifference"
 
 msgid "asin"
-msgstr ""
+msgstr "asin"
 
 msgid "Mathf.Asin"
-msgstr ""
+msgstr "Mathf.Asin"
 
 msgid "asinh"
-msgstr ""
+msgstr "asinh"
 
 #, fuzzy
 msgid "Mathf.Asinh"
 msgstr "Maths"
 
 msgid "atan"
-msgstr ""
+msgstr "atan"
 
 msgid "Mathf.Atan"
-msgstr ""
+msgstr "Mathf.Atan"
 
 msgid "atan2"
-msgstr ""
+msgstr "atan2"
 
+#, fuzzy
 msgid "Mathf.Atan2"
-msgstr ""
+msgstr "Mathf.Atan2"
 
 msgid "atanh"
-msgstr ""
+msgstr "atanh"
 
 #, fuzzy
 msgid "Mathf.Atanh"
 msgstr "Maths"
 
 msgid "bezier_derivative"
-msgstr ""
+msgstr "bezier_derivative"
 
 msgid "Mathf.BezierDerivative"
-msgstr ""
+msgstr "Mathf.BezierDerivative"
 
 #, fuzzy
 msgid "bezier_interpolate"
@@ -270,38 +271,38 @@ msgid "Mathf.BezierInterpolate"
 msgstr "Interpolation linéaire"
 
 msgid "bytes_to_var"
-msgstr ""
+msgstr "bytes_to_var"
 
 msgid "GD.BytesToVar"
-msgstr ""
+msgstr "GD.BytesToVar"
 
 msgid "bytes_to_var_with_objects"
-msgstr ""
+msgstr "bytes_to_var_with_objects"
 
 msgid "GD.BytesToVarWithObjects"
-msgstr ""
+msgstr "GD.BytesToVarWithObjects"
 
 msgid "ceil"
-msgstr ""
+msgstr "plafond"
 
 msgid "Mathf.Ceil"
-msgstr ""
+msgstr "Mathf.Ceil"
 
 msgid "ceilf"
-msgstr ""
+msgstr "ceilf"
 
 msgid "ceili"
-msgstr ""
+msgstr "ceili"
 
 msgid "Mathf.CeilToInt"
-msgstr ""
+msgstr "Mathf.CeilToInt"
 
 #, fuzzy
 msgid "clamp"
 msgstr "une lampe,"
 
 msgid "Mathf.Clamp"
-msgstr ""
+msgstr "Mathf.Clamp"
 
 #, fuzzy
 msgid "clampf"
@@ -320,10 +321,10 @@ msgid "Mathf.Cos"
 msgstr "Maths"
 
 msgid "cosh"
-msgstr ""
+msgstr "cosh"
 
 msgid "Mathf.Cosh"
-msgstr ""
+msgstr "Mathf.Cosh"
 
 #, fuzzy
 msgid "cubic_interpolate"
@@ -338,37 +339,37 @@ msgid "cubic_interpolate_angle"
 msgstr "Interpolation linéaire"
 
 msgid "Mathf.CubicInterpolateAngle"
-msgstr ""
+msgstr "Mathf.CubicInterpolateAngle"
 
 msgid "cubic_interpolate_angle_in_time"
-msgstr ""
+msgstr "cubic_interpolate_angle_in_time"
 
 msgid "Mathf.CubicInterpolateInTime"
-msgstr ""
+msgstr "Mathf.CubicInterpolateInTime"
 
 msgid "cubic_interpolate_in_time"
-msgstr ""
+msgstr "cubic_interpolate_in_time"
 
 msgid "Mathf.CubicInterpolateAngleInTime"
-msgstr ""
+msgstr "Mathf.CubicInterpolateAngleInTime"
 
 msgid "db_to_linear"
-msgstr ""
+msgstr "db_to_linear"
 
 msgid "Mathf.DbToLinear"
-msgstr ""
+msgstr "Mathf.DbToLinear"
 
 msgid "deg_to_rad"
-msgstr ""
+msgstr "deg_to_rad"
 
 msgid "Mathf.DegToRad"
-msgstr ""
+msgstr "Mathf.DegToRad"
 
 msgid "ease"
-msgstr ""
+msgstr "facilité"
 
 msgid "Mathf.Ease"
-msgstr ""
+msgstr "Mathf.Ease"
 
 #, fuzzy
 msgid "error_string"
@@ -403,47 +404,47 @@ msgid "floori"
 msgstr "Plancher"
 
 msgid "Mathf.FloorToInt"
-msgstr ""
+msgstr "Mathf.FloorToInt"
 
 msgid "fmod"
-msgstr ""
+msgstr "fmod"
 
 #, fuzzy
 msgid "operator %"
 msgstr "Opérateur"
 
 msgid "fposmod"
-msgstr ""
+msgstr "fposmod"
 
 msgid "Mathf.PosMod"
-msgstr ""
+msgstr "Mathf.PosMod"
 
 msgid "hash"
-msgstr ""
+msgstr "hachage"
 
 msgid "GD.Hash"
-msgstr ""
+msgstr "GD.Hash"
 
 msgid "instance_from_id"
-msgstr ""
+msgstr "instance_from_id"
 
 msgid "GodotObject.InstanceFromId"
-msgstr ""
+msgstr "GodotObject.InstanceFromId"
 
 msgid "inverse_lerp"
-msgstr ""
+msgstr "inverse_lerp"
 
 msgid "Mathf.InverseLerp"
-msgstr ""
+msgstr "Mathf.InverseLerp"
 
 msgid "is_equal_approx"
-msgstr ""
+msgstr "is_equal_approx"
 
 msgid "Mathf.IsEqualApprox"
-msgstr ""
+msgstr "Mathf.IsEqualApprox"
 
 msgid "is_finite"
-msgstr ""
+msgstr "is_finite"
 
 msgid "Mathf.IsFinite or `float.IsFinite`_ or `double.IsFinite`_"
 msgstr ""
@@ -479,37 +480,37 @@ msgid "Mathf.IsNaN or `float.IsNaN`_ or `double.IsNaN`_"
 msgstr ""
 
 msgid "is_same"
-msgstr ""
+msgstr "is_same"
 
 msgid "operator == or `object.ReferenceEquals`_"
 msgstr ""
 
 msgid "is_zero_approx"
-msgstr ""
+msgstr "is_zero_approx"
 
 msgid "Mathf.IsZeroApprox"
-msgstr ""
+msgstr "Mathf.IsZeroApprox"
 
 msgid "lerp"
-msgstr ""
+msgstr "lerp"
 
 msgid "Mathf.Lerp"
-msgstr ""
+msgstr "Mathf.Lerp"
 
 msgid "lerp_angle"
-msgstr ""
+msgstr "lerp_angle"
 
 msgid "Mathf.LerpAngle"
-msgstr ""
+msgstr "Mathf.LerpAngle"
 
 msgid "lerpf"
-msgstr ""
+msgstr "lerpf"
 
 msgid "linear_to_db"
-msgstr ""
+msgstr "linear_to_db"
 
 msgid "Mathf.LinearToDb"
-msgstr ""
+msgstr "Mathf.LinearToDb"
 
 #, fuzzy
 msgid "log"
@@ -527,10 +528,10 @@ msgid "Mathf.Max"
 msgstr "Maths"
 
 msgid "maxf"
-msgstr ""
+msgstr "maxf"
 
 msgid "maxi"
-msgstr ""
+msgstr "maxi"
 
 #, fuzzy
 msgid "min"
@@ -541,53 +542,54 @@ msgid "Mathf.Min"
 msgstr "Maths"
 
 msgid "minf"
-msgstr ""
+msgstr "minf"
 
 msgid "mini"
-msgstr ""
+msgstr "mini"
 
 msgid "move_toward"
-msgstr ""
+msgstr "move_toward"
 
 msgid "Mathf.MoveToward"
-msgstr ""
+msgstr "Mathf.MoveToward"
 
 msgid "nearest_po2"
-msgstr ""
+msgstr "nearest_po2"
 
 msgid "Mathf.NearestPo2"
-msgstr ""
+msgstr "Mathf.NearestPo2"
 
 msgid "pingpong"
-msgstr ""
+msgstr "pingpong"
 
 msgid "Mathf.PingPong"
-msgstr ""
+msgstr "Mathf.PingPong"
 
 msgid "posmod"
-msgstr ""
+msgstr "posmod"
 
 msgid "pow"
-msgstr ""
+msgstr "pow"
 
 #, fuzzy
 msgid "Mathf.Pow"
 msgstr "Maths"
 
+#, fuzzy
 msgid "print"
-msgstr ""
+msgstr "imprimer"
 
 msgid "GD.Print"
-msgstr ""
+msgstr "GD.Print"
 
 msgid "print_rich"
-msgstr ""
+msgstr "print_rich"
 
 msgid "GD.PrintRich"
-msgstr ""
+msgstr "GD.PrintRich"
 
 msgid "print_verbose"
-msgstr ""
+msgstr "print_verbose"
 
 msgid "Use OS.IsStdoutVerbose and GD.Print"
 msgstr ""
@@ -597,78 +599,78 @@ msgid "printerr"
 msgstr "Entier"
 
 msgid "GD.PrintErr"
-msgstr ""
+msgstr "GD.PrintErr"
 
 msgid "printraw"
-msgstr ""
+msgstr "printraw"
 
 msgid "GD.PrintRaw"
-msgstr ""
+msgstr "GD.PrintRaw"
 
 #, fuzzy
 msgid "prints"
 msgstr "Conseils pour l'importation"
 
 msgid "GD.PrintS"
-msgstr ""
+msgstr "GD.PrintS"
 
 #, fuzzy
 msgid "printt"
 msgstr "Imprimer du texte"
 
 msgid "GD.PrintT"
-msgstr ""
+msgstr "GD.PrintT"
 
 msgid "push_error"
-msgstr ""
+msgstr "push_error"
 
 msgid "GD.PushError"
-msgstr ""
+msgstr "GD.PushError"
 
 msgid "push_warning"
-msgstr ""
+msgstr "push_warning"
 
 msgid "GD.PushWarning"
-msgstr ""
+msgstr "GD.PushWarning"
 
 msgid "rad_to_deg"
-msgstr ""
+msgstr "rad_to_deg"
 
 msgid "Mathf.RadToDeg"
-msgstr ""
+msgstr "Mathf.RadToDeg"
 
 msgid "rand_from_seed"
-msgstr ""
+msgstr "rand_from_seed"
 
 msgid "GD.RandFromSeed"
-msgstr ""
+msgstr "GD.RandFromSeed"
 
 msgid "randf"
-msgstr ""
+msgstr "randf"
 
 msgid "GD.Randf"
-msgstr ""
+msgstr "GD.Randf"
 
 msgid "randf_range"
-msgstr ""
+msgstr "randf_range"
 
 msgid "GD.RandRange"
-msgstr ""
+msgstr "GD.RandRange"
 
 msgid "randfn"
-msgstr ""
+msgstr "randfn"
 
 msgid "GD.Randfn"
-msgstr ""
+msgstr "GD.Randfn"
 
 msgid "randi"
-msgstr ""
+msgstr "randi"
 
 msgid "GD.Randi"
-msgstr ""
+msgstr "GD.Randi"
 
 msgid "randi_range"
-msgstr ""
+msgstr "randi_range"
 
 #, fuzzy
 msgid "randomize"
@@ -683,20 +685,20 @@ msgid "remap"
 msgstr "Tonemap"
 
 msgid "Mathf.Remap"
-msgstr ""
+msgstr "Mathf.Remap"
 
 msgid "rid_allocate_id"
-msgstr ""
+msgstr "rid_allocate_id"
 
 #, fuzzy
 msgid "N/A"
 msgstr "NAN"
 
 msgid "rid_from_int64"
-msgstr ""
+msgstr "rid_from_int64"
 
 msgid "rotate_toward"
-msgstr ""
+msgstr "rotate_toward"
 
 #, fuzzy
 msgid "Mathf.RotateToward"
@@ -723,17 +725,17 @@ msgid "Mathf.RoundToInt"
 msgstr "Fonctions mathématiques"
 
 msgid "seed"
-msgstr ""
+msgstr "graine"
 
 msgid "GD.Seed"
-msgstr ""
+msgstr "GD.Seed"
 
 #, fuzzy
 msgid "sign"
 msgstr "signal"
 
 msgid "Mathf.Sign"
-msgstr ""
+msgstr "Mathf.Sign"
 
 #, fuzzy
 msgid "signf"
@@ -752,41 +754,41 @@ msgid "Mathf.Sin"
 msgstr "Maths"
 
 msgid "sinh"
-msgstr ""
+msgstr "sinh"
 
 msgid "Mathf.Sinh"
-msgstr ""
+msgstr "Mathf.Sinh"
 
 #, fuzzy
 msgid "smoothstep"
 msgstr "**smooth**"
 
 msgid "Mathf.SmoothStep"
-msgstr ""
+msgstr "Mathf.SmoothStep"
 
 msgid "snapped"
-msgstr ""
+msgstr "snapped"
 
 msgid "Mathf.Snapped"
-msgstr ""
+msgstr "Mathf.Snapped"
 
 msgid "snappedf"
-msgstr ""
+msgstr "snappedf"
 
 msgid "snappedi"
-msgstr ""
+msgstr "snappedi"
 
 msgid "sqrt"
-msgstr ""
+msgstr "sqrt"
 
 msgid "Mathf.Sqrt"
-msgstr ""
+msgstr "Mathf.Sqrt"
 
 msgid "step_decimals"
-msgstr ""
+msgstr "step_decimals"
 
 msgid "Mathf.StepDecimals"
-msgstr ""
+msgstr "Mathf.StepDecimals"
 
 #, fuzzy
 msgid "str"
@@ -797,10 +799,10 @@ msgid "Use `$ string interpolation`_"
 msgstr "Interpolation vectorielle"
 
 msgid "str_to_var"
-msgstr ""
+msgstr "str_to_var"
 
 msgid "GD.StrToVar"
-msgstr ""
+msgstr "GD.StrToVar"
 
 #, fuzzy
 msgid "tan"
@@ -811,13 +813,13 @@ msgid "Mathf.Tan"
 msgstr "Maths"
 
 msgid "tanh"
-msgstr ""
+msgstr "tanh"
 
 msgid "Mathf.Tanh"
-msgstr ""
+msgstr "Mathf.Tanh"
 
 msgid "type_convert"
-msgstr ""
+msgstr "type_convert"
 
 msgid "Variant.As<T> or GD.Convert"
 msgstr ""
@@ -839,22 +841,22 @@ msgid "Variant.VariantType"
 msgstr "``Variant.Type`` enum"
 
 msgid "var_to_bytes"
-msgstr ""
+msgstr "var_to_bytes"
 
 msgid "GD.VarToBytes"
-msgstr ""
+msgstr "GD.VarToBytes"
 
 msgid "var_to_bytes_with_objects"
-msgstr ""
+msgstr "var_to_bytes_with_objects"
 
 msgid "GD.VarToBytesWithObjects"
-msgstr ""
+msgstr "GD.VarToBytesWithObjects"
 
 msgid "var_to_str"
-msgstr ""
+msgstr "var_to_str"
 
 msgid "GD.VarToStr"
-msgstr ""
+msgstr "GD.VarToStr"
 
 #, fuzzy
 msgid "weakref"
@@ -864,17 +866,18 @@ msgstr "Ajustements"
 msgid "GodotObject.WeakRef"
 msgstr "``Object.WeakRef(obj)``"
 
+#, fuzzy
 msgid "wrap"
-msgstr ""
+msgstr "condenser"
 
 msgid "Mathf.Wrap"
-msgstr ""
+msgstr "Mathf.Wrap"
 
 msgid "wrapf"
-msgstr ""
+msgstr "wrapf"
 
 msgid "wrapi"
-msgstr ""
+msgstr "wrapi"
 
 msgid "List of GDScript utility functions and their equivalent in C#:"
 msgstr ""
@@ -883,29 +886,30 @@ msgid "assert"
 msgstr "assert"
 
 msgid "`System.Diagnostics.Debug.Assert`_"
-msgstr ""
+msgstr "`System.Diagnostics.Debug.Assert`_"
 
+#, fuzzy
 msgid "char"
-msgstr ""
+msgstr "char"
 
 msgid "Use explicit conversion: ``(char)65``"
 msgstr ""
 
 msgid "convert"
-msgstr ""
+msgstr "Convertir"
 
 msgid "GD.Convert"
-msgstr ""
+msgstr "GD.Convert"
 
 #, fuzzy
 msgid "dict_to_inst"
 msgstr "``dict2inst``"
 
 msgid "get_stack"
-msgstr ""
+msgstr "get_stack"
 
 msgid "`System.Environment.StackTrace`_"
-msgstr ""
+msgstr "`System.Environment.StackTrace`_"
 
 #, fuzzy
 msgid "inst_to_dict"
@@ -920,20 +924,20 @@ msgid "load"
 msgstr "preload"
 
 msgid "GD.Load"
-msgstr ""
+msgstr "GD.Load"
 
 msgid "preload"
 msgstr "preload"
 
 msgid "print_debug"
-msgstr ""
+msgstr "print_debug"
 
 #, fuzzy
 msgid "print_stack"
 msgstr "hint_black"
 
 msgid "GD.Print(`System.Environment.StackTrace`_)"
-msgstr ""
+msgstr "GD.Print(`System.Environment.StackTrace`_)"
 
 #, fuzzy
 msgid "range"
@@ -943,10 +947,10 @@ msgid "GD.Range or `System.Linq.Enumerable.Range`_"
 msgstr ""
 
 msgid "type_exists"
-msgstr ""
+msgstr "type_exists"
 
 msgid "ClassDB.ClassExists(type)"
-msgstr ""
+msgstr "ClassDB.ClassExists(type)"
 
 msgid ""
 "``preload``, as it works in GDScript, is not available in C#. Use ``GD."
@@ -996,7 +1000,7 @@ msgid "See also: :ref:`doc_c_sharp_signals`."
 msgstr "Voir aussi : :ref:`doc_c_sharp_signals`."
 
 msgid "`@onready` annotation"
-msgstr ""
+msgstr "annotation `@onready`"
 
 #, fuzzy
 msgid ""
@@ -1065,44 +1069,44 @@ msgid "List of Godot's String methods and their equivalent in C#:"
 msgstr ""
 
 msgid "begins_with"
-msgstr ""
+msgstr "begins_with"
 
 msgid "`string.StartsWith`_"
-msgstr ""
+msgstr "`string.StartsWith`_"
 
 msgid "bigrams"
-msgstr ""
+msgstr "bigrammes"
 
 msgid "StringExtensions.Bigrams"
-msgstr ""
+msgstr "StringExtensions.Bigrams"
 
 msgid "bin_to_int"
-msgstr ""
+msgstr "bin_to_int"
 
 msgid "StringExtensions.BinToInt"
-msgstr ""
+msgstr "StringExtensions.BinToInt"
 
 msgid "c_escape"
-msgstr ""
+msgstr "c_escape"
 
 msgid "StringExtensions.CEscape"
-msgstr ""
+msgstr "StringExtensions.CEscape"
 
 msgid "c_unescape"
-msgstr ""
+msgstr "c_unescape"
 
 msgid "StringExtensions.CUnescape"
-msgstr ""
+msgstr "StringExtensions.CUnescape"
 
 #, fuzzy
 msgid "capitalize"
 msgstr "Majuscule à chaque mot"
 
 msgid "StringExtensions.Capitalize"
-msgstr ""
+msgstr "StringExtensions.Capitalize"
 
 msgid "casecmp_to"
-msgstr ""
+msgstr "casecmp_to"
 
 msgid ""
 "StringExtensions.CasecmpTo or StringExtensions.CompareTo (Consider using "
@@ -1135,17 +1139,18 @@ msgstr "Quantité"
 msgid "StringExtensions.CountN (Consider using `RegEx`_)"
 msgstr ""
 
+#, fuzzy
 msgid "dedent"
-msgstr ""
+msgstr "dédent"
 
 msgid "StringExtensions.Dedent"
-msgstr ""
+msgstr "StringExtensions.Dedent"
 
 msgid "ends_with"
-msgstr ""
+msgstr "ends_with"
 
 msgid "`string.EndsWith`_"
-msgstr ""
+msgstr "`string.EndsWith`_"
 
 #, fuzzy
 msgid "erase"
@@ -1156,7 +1161,7 @@ msgid ""
 msgstr ""
 
 msgid "find"
-msgstr ""
+msgstr "Trouver"
 
 msgid ""
 "StringExtensions.Find (Consider using `string.IndexOf`_ or `string."
@@ -1164,7 +1169,7 @@ msgid ""
 msgstr ""
 
 msgid "findn"
-msgstr ""
+msgstr "findn"
 
 msgid ""
 "StringExtensions.FindN (Consider using `string.IndexOf`_ or `string."
@@ -1176,38 +1181,38 @@ msgid "format"
 msgstr "Format"
 
 msgid "get_base_dir"
-msgstr ""
+msgstr "get_base_dir"
 
 msgid "StringExtensions.GetBaseDir"
-msgstr ""
+msgstr "StringExtensions.GetBaseDir"
 
 msgid "get_basename"
-msgstr ""
+msgstr "get_basename"
 
 msgid "StringExtensions.GetBaseName"
-msgstr ""
+msgstr "StringExtensions.GetBaseName"
 
 #, fuzzy
 msgid "get_extension"
 msgstr "extends"
 
 msgid "StringExtensions.GetExtension"
-msgstr ""
+msgstr "StringExtensions.GetExtension"
 
 msgid "get_file"
-msgstr ""
+msgstr "get_file"
 
 msgid "StringExtensions.GetFile"
-msgstr ""
+msgstr "StringExtensions.GetFile"
 
 msgid "get_slice"
-msgstr ""
+msgstr "get_slice"
 
 msgid "get_slice_count"
-msgstr ""
+msgstr "get_slice_count"
 
 msgid "get_slicec"
-msgstr ""
+msgstr "get_slicec"
 
 msgid ""
 "StringExtensions.Hash (Consider using `object.GetHashCode`_ unless you need "
@@ -1215,14 +1220,14 @@ msgid ""
 msgstr ""
 
 msgid "hex_decode"
-msgstr ""
+msgstr "hex_decode"
 
 msgid ""
 "StringExtensions.HexDecode (Consider using `System.Convert.FromHexString`_)"
 msgstr ""
 
 msgid "hex_to_int"
-msgstr ""
+msgstr "hex_to_int"
 
 msgid ""
 "StringExtensions.HexToInt (Consider using `int.Parse`_ or `long.Parse`_ with "
@@ -1230,14 +1235,14 @@ msgid ""
 msgstr ""
 
 msgid "humanize_size"
-msgstr ""
+msgstr "humanize_size"
 
 #, fuzzy
 msgid "indent"
 msgstr "**indenter**"
 
 msgid "StringExtensions.Indent"
-msgstr ""
+msgstr "StringExtensions.Indent"
 
 #, fuzzy
 msgid "insert"
@@ -1248,43 +1253,43 @@ msgid ""
 msgstr ""
 
 msgid "is_absolute_path"
-msgstr ""
+msgstr "is_absolute_path"
 
 msgid "StringExtensions.IsAbsolutePath"
-msgstr ""
+msgstr "StringExtensions.IsAbsolutePath"
 
 msgid "is_empty"
-msgstr ""
+msgstr "is_empty"
 
 msgid "`string.IsNullOrEmpty`_ or `string.IsNullOrWhiteSpace`_"
 msgstr ""
 
 msgid "is_relative_path"
-msgstr ""
+msgstr "is_relative_path"
 
 msgid "StringExtensions.IsRelativePath"
-msgstr ""
+msgstr "StringExtensions.IsRelativePath"
 
 msgid "is_subsequence_of"
-msgstr ""
+msgstr "is_subsequence_of"
 
 msgid "StringExtensions.IsSubsequenceOf"
-msgstr ""
+msgstr "StringExtensions.IsSubsequenceOf"
 
 msgid "is_subsequence_ofn"
-msgstr ""
+msgstr "is_subsequence_ofn"
 
 msgid "StringExtensions.IsSubsequenceOfN"
-msgstr ""
+msgstr "StringExtensions.IsSubsequenceOfN"
 
 msgid "is_valid_filename"
-msgstr ""
+msgstr "is_valid_filename"
 
 msgid "StringExtensions.IsValidFileName"
-msgstr ""
+msgstr "StringExtensions.IsValidFileName"
 
 msgid "is_valid_float"
-msgstr ""
+msgstr "is_valid_float"
 
 msgid ""
 "StringExtensions.IsValidFloat (Consider using `float.TryParse`_ or `double."
@@ -1292,26 +1297,26 @@ msgid ""
 msgstr ""
 
 msgid "is_valid_hex_number"
-msgstr ""
+msgstr "is_valid_hex_number"
 
 msgid "StringExtensions.IsValidHexNumber"
-msgstr ""
+msgstr "StringExtensions.IsValidHexNumber"
 
 msgid "is_valid_html_color"
-msgstr ""
+msgstr "is_valid_html_color"
 
 msgid "StringExtensions.IsValidHtmlColor"
-msgstr ""
+msgstr "StringExtensions.IsValidHtmlColor"
 
 #, fuzzy
 msgid "is_valid_identifier"
 msgstr "Identifiants"
 
 msgid "StringExtensions.IsValidIdentifier"
-msgstr ""
+msgstr "StringExtensions.IsValidIdentifier"
 
 msgid "is_valid_int"
-msgstr ""
+msgstr "is_valid_int"
 
 msgid ""
 "StringExtensions.IsValidInt (Consider using `int.TryParse`_ or `long."
@@ -1319,26 +1324,26 @@ msgid ""
 msgstr ""
 
 msgid "is_valid_ip_address"
-msgstr ""
+msgstr "is_valid_ip_address"
 
 msgid "StringExtensions.IsValidIPAddress"
-msgstr ""
+msgstr "StringExtensions.IsValidIPAddress"
 
 msgid "join"
-msgstr ""
+msgstr "joindre"
 
 #, fuzzy
 msgid "`string.Join`_"
 msgstr "chaîne"
 
 msgid "json_escape"
-msgstr ""
+msgstr "json_escape"
 
 msgid "StringExtensions.JSONEscape"
-msgstr ""
+msgstr "StringExtensions.JSONEscape"
 
 msgid "left"
-msgstr ""
+msgstr "Gauche"
 
 msgid ""
 "StringExtensions.Left (Consider using `string.Substring`_ or `string."
@@ -1354,17 +1359,17 @@ msgid "`string.Length`_"
 msgstr "Longueur de chaîne de caractère"
 
 msgid "lpad"
-msgstr ""
+msgstr "Ipad"
 
 msgid "`string.PadLeft`_"
-msgstr ""
+msgstr "`string.PadLeft`_"
 
 #, fuzzy
 msgid "lstrip"
 msgstr "chaîne"
 
 msgid "`string.TrimStart`_"
-msgstr ""
+msgstr "`string.TrimStart`_"
 
 msgid "match"
 msgstr "match"
@@ -1380,7 +1385,7 @@ msgid "StringExtensions.MatchN (Consider using `RegEx`_)"
 msgstr ""
 
 msgid "md5_buffer"
-msgstr ""
+msgstr "md5_buffer"
 
 msgid ""
 "StringExtensions.Md5Buffer (Consider using `System.Security.Cryptography.MD5."
@@ -1388,7 +1393,7 @@ msgid ""
 msgstr ""
 
 msgid "md5_text"
-msgstr ""
+msgstr "md5_text"
 
 msgid ""
 "StringExtensions.Md5Text (Consider using `System.Security.Cryptography.MD5."
@@ -1396,13 +1401,13 @@ msgid ""
 msgstr ""
 
 msgid "naturalnocasecmp_to"
-msgstr ""
+msgstr "naturalnocasecmp_to"
 
 msgid "N/A (Consider using `string.Equals`_ or `string.Compare`_)"
 msgstr ""
 
 msgid "nocasecmp_to"
-msgstr ""
+msgstr "nocasecmp_to"
 
 msgid ""
 "StringExtensions.NocasecmpTo or StringExtensions.CompareTo (Consider using "
@@ -1417,37 +1422,37 @@ msgid "`float.ToString`_ or `double.ToString`_"
 msgstr ""
 
 msgid "num_int64"
-msgstr ""
+msgstr "num_int64"
 
 msgid "`int.ToString`_ or `long.ToString`_"
 msgstr ""
 
 msgid "num_scientific"
-msgstr ""
+msgstr "num_scientific"
 
 msgid "num_uint64"
-msgstr ""
+msgstr "num_uint64"
 
 msgid "`uint.ToString`_ or `ulong.ToString`_"
 msgstr ""
 
 msgid "pad_decimals"
-msgstr ""
+msgstr "pad_decimals"
 
 msgid "StringExtensions.PadDecimals"
-msgstr ""
+msgstr "StringExtensions.PadDecimals"
 
 msgid "pad_zeros"
-msgstr ""
+msgstr "pad_zeros"
 
 msgid "StringExtensions.PadZeros"
-msgstr ""
+msgstr "StringExtensions.PadZeros"
 
 msgid "path_join"
-msgstr ""
+msgstr "path_join"
 
 msgid "StringExtensions.PathJoin"
-msgstr ""
+msgstr "StringExtensions.PathJoin"
 
 #, fuzzy
 msgid "repeat"
@@ -1476,7 +1481,7 @@ msgid "reverse"
 msgstr "Serveurs"
 
 msgid "rfind"
-msgstr ""
+msgstr "rfind"
 
 msgid ""
 "StringExtensions.RFind (Consider using `string.LastIndexOf`_ or `string."
@@ -1484,7 +1489,7 @@ msgid ""
 msgstr ""
 
 msgid "rfindn"
-msgstr ""
+msgstr "rfindn"
 
 msgid ""
 "StringExtensions.RFindN (Consider using `string.LastIndexOf`_ or `string."
@@ -1501,23 +1506,23 @@ msgid ""
 msgstr ""
 
 msgid "rpad"
-msgstr ""
+msgstr "rpad"
 
 msgid "`string.PadRight`_"
-msgstr ""
+msgstr "`string.PadRight`_"
 
 msgid "rsplit"
-msgstr ""
+msgstr "rsplit"
 
 #, fuzzy
 msgid "rstrip"
 msgstr "chaîne"
 
 msgid "`string.TrimEnd`_"
-msgstr ""
+msgstr "`string.TrimEnd`_"
 
 msgid "sha1_buffer"
-msgstr ""
+msgstr "sha1_buffer"
 
 msgid ""
 "StringExtensions.Sha1Buffer (Consider using `System.Security.Cryptography."
@@ -1525,7 +1530,7 @@ msgid ""
 msgstr ""
 
 msgid "sha1_text"
-msgstr ""
+msgstr "sha1_text"
 
 msgid ""
 "StringExtensions.Sha1Text (Consider using `System.Security.Cryptography.SHA1."
@@ -1533,7 +1538,7 @@ msgid ""
 msgstr ""
 
 msgid "sha256_buffer"
-msgstr ""
+msgstr "sha256_buffer"
 
 msgid ""
 "StringExtensions.Sha256Buffer (Consider using `System.Security.Cryptography."
@@ -1541,7 +1546,7 @@ msgid ""
 msgstr ""
 
 msgid "sha256_text"
-msgstr ""
+msgstr "sha256_text"
 
 msgid ""
 "StringExtensions.Sha256Text (Consider using `System.Security.Cryptography."
@@ -1549,32 +1554,32 @@ msgid ""
 msgstr ""
 
 msgid "similarity"
-msgstr ""
+msgstr "similarité"
 
 msgid "StringExtensions.Similarity"
-msgstr ""
+msgstr "StringExtensions.Similarity"
 
 #, fuzzy
 msgid "simplify_path"
 msgstr "Amplifier (Amplify)"
 
 msgid "StringExtensions.SimplifyPath"
-msgstr ""
+msgstr "StringExtensions.SimplifyPath"
 
 msgid "split"
-msgstr ""
+msgstr "Séparer"
 
 msgid "StringExtensions.Split (Consider using `string.Split`_)"
 msgstr ""
 
 msgid "split_floats"
-msgstr ""
+msgstr "split_floats"
 
 msgid "StringExtensions.SplitFloat"
-msgstr ""
+msgstr "StringExtensions.SplitFloat"
 
 msgid "strip_edges"
-msgstr ""
+msgstr "strip_edges"
 
 msgid ""
 "StringExtensions.StripEdges (Consider using `string.Trim`_, `string."
@@ -1582,13 +1587,13 @@ msgid ""
 msgstr ""
 
 msgid "strip_escapes"
-msgstr ""
+msgstr "strip_escapes"
 
 msgid "StringExtensions.StripEscapes"
-msgstr ""
+msgstr "StringExtensions.StripEscapes"
 
 msgid "substr"
-msgstr ""
+msgstr "substr"
 
 msgid ""
 "StringExtensions.Substr (Consider using `string.Substring`_ or `string."
@@ -1596,7 +1601,7 @@ msgid ""
 msgstr ""
 
 msgid "to_ascii_buffer"
-msgstr ""
+msgstr "to_ascii_buffer"
 
 msgid ""
 "StringExtensions.ToAsciiBuffer (Consider using `System.Text.Encoding.ASCII."
@@ -1604,10 +1609,10 @@ msgid ""
 msgstr ""
 
 msgid "to_camel_case"
-msgstr ""
+msgstr "to_camel_case"
 
 msgid "StringExtensions.ToCamelCase"
-msgstr ""
+msgstr "StringExtensions.ToCamelCase"
 
 #, fuzzy
 msgid "to_float"
@@ -1619,38 +1624,38 @@ msgid ""
 msgstr ""
 
 msgid "to_int"
-msgstr ""
+msgstr "to_int"
 
 msgid ""
 "StringExtensions.ToInt (Consider using `int.TryParse`_ or `long.TryParse`_)"
 msgstr ""
 
 msgid "to_lower"
-msgstr ""
+msgstr "to_lower"
 
 msgid "`string.ToLower`_"
-msgstr ""
+msgstr "`string.ToLower`_"
 
 msgid "to_pascal_case"
-msgstr ""
+msgstr "to_pascal_case"
 
 msgid "StringExtensions.ToPascalCase"
-msgstr ""
+msgstr "StringExtensions.ToPascalCase"
 
 msgid "to_snake_case"
-msgstr ""
+msgstr "to_snake_case"
 
 msgid "StringExtensions.ToSnakeCase"
-msgstr ""
+msgstr "StringExtensions.ToSnakeCase"
 
 msgid "to_upper"
-msgstr ""
+msgstr "to_upper"
 
 msgid "`string.ToUpper`_"
-msgstr ""
+msgstr "`string.ToUpper`_"
 
 msgid "to_utf16_buffer"
-msgstr ""
+msgstr "to_utf16_buffer"
 
 msgid ""
 "StringExtensions.ToUtf16Buffer (Consider using `System.Text.Encoding.UTF16."
@@ -1658,7 +1663,7 @@ msgid ""
 msgstr ""
 
 msgid "to_utf32_buffer"
-msgstr ""
+msgstr "to_utf32_buffer"
 
 msgid ""
 "StringExtensions.ToUtf32Buffer (Consider using `System.Text.Encoding.UTF32."
@@ -1666,7 +1671,7 @@ msgid ""
 msgstr ""
 
 msgid "to_utf8_buffer"
-msgstr ""
+msgstr "to_utf8_buffer"
 
 msgid ""
 "StringExtensions.ToUtf8Buffer (Consider using `System.Text.Encoding.UTF8."
@@ -1674,7 +1679,7 @@ msgid ""
 msgstr ""
 
 msgid "to_wchar_buffer"
-msgstr ""
+msgstr "to_wchar_buffer"
 
 msgid ""
 "StringExtensions.ToUtf16Buffer in Windows and StringExtensions.ToUtf32Buffer "
@@ -1682,25 +1687,25 @@ msgid ""
 msgstr ""
 
 msgid "trim_prefix"
-msgstr ""
+msgstr "trim_prefix"
 
 msgid "StringExtensions.TrimPrefix"
-msgstr ""
+msgstr "StringExtensions.TrimPrefix"
 
 msgid "trim_suffix"
-msgstr ""
+msgstr "trim_suffix"
 
 msgid "StringExtensions.TrimSuffix"
-msgstr ""
+msgstr "StringExtensions.TrimSuffix"
 
 msgid "unicode_at"
-msgstr ""
+msgstr "unicode_at"
 
 msgid "`string[int]`_ indexer"
-msgstr ""
+msgstr "`string[int]`_ indexer"
 
 msgid "uri_decode"
-msgstr ""
+msgstr "uri_decode"
 
 msgid ""
 "StringExtensions.URIDecode (Consider using `System.Uri.UnescapeDataString`_)"
@@ -1715,22 +1720,22 @@ msgid ""
 msgstr ""
 
 msgid "validate_node_name"
-msgstr ""
+msgstr "validate_node_name"
 
 msgid "StringExtensions.ValidateNodeName"
-msgstr ""
+msgstr "StringExtensions.ValidateNodeName"
 
 msgid "xml_escape"
-msgstr ""
+msgstr "xml_escape"
 
 msgid "StringExtensions.XMLEscape"
-msgstr ""
+msgstr "StringExtensions.XMLEscape"
 
 msgid "xml_unescape"
-msgstr ""
+msgstr "xml_unescape"
 
 msgid "StringExtensions.XMLUnescape"
-msgstr ""
+msgstr "StringExtensions.XMLUnescape"
 
 msgid ""
 "List of Godot's PackedByteArray methods that create a String and their C# "
@@ -1738,7 +1743,7 @@ msgid ""
 msgstr ""
 
 msgid "get_string_from_ascii"
-msgstr ""
+msgstr "get_string_from_ascii"
 
 msgid ""
 "StringExtensions.GetStringFromAscii (Consider using `System.Text.Encoding."
@@ -1746,7 +1751,7 @@ msgid ""
 msgstr ""
 
 msgid "get_string_from_utf16"
-msgstr ""
+msgstr "get_string_from_utf16"
 
 msgid ""
 "StringExtensions.GetStringFromUtf16 (Consider using `System.Text.Encoding."
@@ -1754,7 +1759,7 @@ msgid ""
 msgstr ""
 
 msgid "get_string_from_utf32"
-msgstr ""
+msgstr "get_string_from_utf32"
 
 msgid ""
 "StringExtensions.GetStringFromUtf32 (Consider using `System.Text.Encoding."
@@ -1762,7 +1767,7 @@ msgid ""
 msgstr ""
 
 msgid "get_string_from_utf8"
-msgstr ""
+msgstr "get_string_from_utf8"
 
 msgid ""
 "StringExtensions.GetStringFromUtf8 (Consider using `System.Text.Encoding."
@@ -1770,7 +1775,7 @@ msgid ""
 msgstr ""
 
 msgid "hex_encode"
-msgstr ""
+msgstr "hex_encode"
 
 msgid ""
 "StringExtensions.HexEncode (Consider using `System.Convert.ToHexString`_)"
@@ -1794,7 +1799,7 @@ msgid "``is_empty()``"
 msgstr "``center()``"
 
 msgid "``IsEmpty``"
-msgstr ""
+msgstr "``IsEmpty``"
 
 msgid "Signal"
 msgstr "Signaux"
@@ -1892,14 +1897,14 @@ msgid "``get_id()``"
 msgstr "``get_area()``"
 
 msgid "``Id``"
-msgstr ""
+msgstr "``Id``"
 
 #, fuzzy
 msgid "``is_valid()``"
 msgstr "``is_instance_valid(obj)``"
 
 msgid "``IsValid``"
-msgstr ""
+msgstr "``IsValid``"
 
 msgid "Basis"
 msgstr "Basis"
@@ -1945,7 +1950,7 @@ msgid "``get_skew()``"
 msgstr "``get_scale()``"
 
 msgid "``Skew``"
-msgstr ""
+msgstr "``Skew``"
 
 #, fuzzy
 msgid "Transform3D"
@@ -1994,7 +1999,7 @@ msgid ""
 msgstr ""
 
 msgid "AABB"
-msgstr ""
+msgstr "AABB"
 
 #, fuzzy
 msgid "This type is named ``Aabb`` in C# to follow the .NET naming convention."
@@ -2009,7 +2014,7 @@ msgid "``Volume``"
 msgstr "``name``"
 
 msgid "Quaternion"
-msgstr ""
+msgstr "Quaternion"
 
 #, fuzzy
 msgid ""
@@ -2081,21 +2086,21 @@ msgid "``html(String)``"
 msgstr "``String[]``"
 
 msgid "``FromHtml(ReadOnlySpan<char>)``"
-msgstr ""
+msgstr "``FromHtml(ReadOnlySpan<char>)``"
 
 #, fuzzy
 msgid "The following methods are available as constructors:"
 msgstr "Les méthodes suivantes sont disponibles et documentées ci-dessous :"
 
 msgid "``hex(int)``"
-msgstr ""
+msgstr "``hex(int)``"
 
 #, fuzzy
 msgid "``Color(uint)``"
 msgstr "``Color8``"
 
 msgid "``hex64(int)``"
-msgstr ""
+msgstr "``hex64(int)``"
 
 #, fuzzy
 msgid "``Color(ulong)``"

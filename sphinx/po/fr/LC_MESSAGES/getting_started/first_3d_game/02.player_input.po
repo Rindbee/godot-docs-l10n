@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,12 +80,12 @@ msgstr ""
 "personnage. Ça nous permettra de faire pivoter le modèle plus tard depuis le "
 "code pendant qu'il joue une animation."
 
-#, fuzzy
 msgid ""
 "Add a :ref:`Node3D <class_Node3D>` node as a child of ``Player`` and name it "
 "``Pivot``"
 msgstr ""
-"Ajoutez un nouveau nœud :ref:`Room<class_Room>` comme enfant de la RoomList."
+"Ajoutez un noeud :ref:`Node3D <class_Node3D>` comme enfant de ``Player`` et "
+"nommez le ``Pivot``"
 
 #, fuzzy
 msgid ""
@@ -191,9 +191,8 @@ msgstr "|image5|"
 msgid "image5"
 msgstr "image5"
 
-#, fuzzy
 msgid "Save the scene as ``player.tscn``"
-msgstr "Enregistrez la scène sous le nom de ``Player.tscn``."
+msgstr "Enregistrez la scène sous le nom ``Player.tscn``"
 
 msgid ""
 "With the nodes ready, we can almost get coding. But first, we need to define "

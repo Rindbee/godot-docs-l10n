@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -333,9 +333,8 @@ msgstr "|image1|"
 msgid "With that, we're ready to code the spawn mechanism."
 msgstr ""
 
-#, fuzzy
 msgid "Spawning monsters randomly"
-msgstr "몹 스폰하기"
+msgstr "몹을 랜덤으로 스폰하기"
 
 #, fuzzy
 msgid "Right-click on the ``Main`` node and attach a new script to it."
@@ -450,9 +449,8 @@ msgid ""
 "the player's position."
 msgstr ""
 
-#, fuzzy
 msgid "Add the mob as a child of the *Main* node."
-msgstr "노드에 스크립트를 추가하기."
+msgstr "몹을 메인 노드의 자식으로 추가하세요."
 
 msgid ""
 "Above, ``randf()`` produces a random value between ``0`` and ``1``, which is "

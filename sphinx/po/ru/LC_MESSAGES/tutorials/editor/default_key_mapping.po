@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1787,7 +1787,7 @@ msgid "``tiles_editor/delete``"
 msgstr "``tile_map_editor/select``"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Отменить"
 
 #, fuzzy
 msgid ":kbd:`Esc`"
@@ -1806,7 +1806,7 @@ msgid "``tiles_editor/paint_tool``"
 msgstr "``tile_map_editor/paint_tile``"
 
 msgid "Line"
-msgstr ""
+msgstr "Строка"
 
 #, fuzzy
 msgid ":kbd:`L`"

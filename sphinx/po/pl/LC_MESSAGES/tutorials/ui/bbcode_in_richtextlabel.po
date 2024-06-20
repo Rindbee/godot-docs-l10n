@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -288,9 +288,8 @@ msgid ""
 "`doc_bbcode_in_richtextlabel_paragraph_options`."
 msgstr ""
 
-#, fuzzy
 msgid "``[p]{text}[/p]``"
-msgstr "``[b]{tekst}[/b]``"
+msgstr "``[p]{text}[/p]``"
 
 #, fuzzy
 msgid "``[p {options}]{text}[/p]``"
@@ -319,9 +318,8 @@ msgstr "Wyrównuje {tekst} do prawej."
 msgid "Same as ``[p align=left]``."
 msgstr ""
 
-#, fuzzy
 msgid "``[left]{text}[/left]``"
-msgstr "``[indent]{tekst}[/indent]``"
+msgstr "``[left]{text}[/left]``"
 
 msgid "**right**"
 msgstr "**prawo**"
@@ -652,9 +650,8 @@ msgid ""
 "ref:`doc_bbcode_in_richtextlabel_unordered_list_bullet`."
 msgstr ""
 
-#, fuzzy
 msgid "``[ul]{items}[/ul]``"
-msgstr "``[u]{tekst}[/u]``"
+msgstr "``[ul]{items}[/ul]``"
 
 #, fuzzy
 msgid "``[ul bullet={bullet}]{items}[/ul]``"

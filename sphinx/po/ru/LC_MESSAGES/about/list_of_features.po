@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
-"См. :ref:`doc_system_requirements' чтобы узнать системные требования и "
+"См. :ref:`doc_system_requirements` чтобы узнать системные требования и "
 "необходимые для работы программы."
 
 msgid "**Can run both the editor and exported projects:**"
@@ -815,12 +815,11 @@ msgstr ""
 "Поддержка ближайшей, билинейной, трилинейной или анизотропной фильтрации "
 "текстур (настраивается глобально)."
 
-#, fuzzy
 msgid ""
 "Optional distance fade system to fade distant decals, improving performance."
 msgstr ""
-"Система опционального затухания на дистанции обеспечивает затухание далёкого "
-"света, а также теней, созданных им, улучшает производительность."
+"Опциональная система скрытия декалей на расстоянии, улучшает "
+"производительность."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -980,7 +979,6 @@ msgstr "**Постобработка:**"
 msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
 msgstr "Закраска (Linear, Reinhard, Filmic, ACES)."
 
-#, fuzzy
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
@@ -1000,14 +998,13 @@ msgstr ""
 "Окружающая окклюзия экранного пространства (SSAO) при половинном или полном "
 "разрешении."
 
-#, fuzzy
 msgid ""
 "Glow/bloom with optional bicubic upscaling and several blend modes "
 "available: Screen, Soft Light, Add, Replace, Mix."
 msgstr ""
 "Свечение/блум c возможностью бикубического апскейлинга и несколькими "
-"доступными режимами смешения: Screen (Экран), Soft Light (Мягкий свет), Add "
-"(Добавить), Replace (Заменить), Mix (Смешивание)."
+"доступными режимами смешивания: Screen (Экранный), Soft Light (Мягкий свет), "
+"Add (Добавление), Replace (Замена), Mix (Смешивание)."
 
 #, fuzzy
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
@@ -1410,9 +1407,8 @@ msgstr ""
 msgid "Support for random volume and pitch."
 msgstr "Поддержка случайной громкости и высоты тона."
 
-#, fuzzy
 msgid "Support for real-time pitch scaling."
-msgstr "Поддержка масштабирования тона в реальном времени."
+msgstr "Поддержка оброботки тона в реальном времени."
 
 msgid ""
 "Support for sequential/random sample selection, including repetition "

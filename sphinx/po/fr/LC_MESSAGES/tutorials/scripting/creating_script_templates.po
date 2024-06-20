@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgid ""
 msgstr ""
 
 msgid "where:"
-msgstr ""
+msgstr "où :"
 
 msgid ""
 "``template_path`` is one of the 2 locations discussed in the previous two "
@@ -136,10 +136,10 @@ msgid "For example:"
 msgstr "Par exemple :"
 
 msgid "``template_scripts/Node/smooth_camera.gd``"
-msgstr ""
+msgstr "``template_scripts/Node/smooth_camera.gd``"
 
 msgid "``template_scripts/CharacterBody3D/platformer_movement.gd``"
-msgstr ""
+msgstr "``template_scripts/CharacterBody3D/platformer_movement.gd``"
 
 msgid "Default behaviour and overriding it"
 msgstr ""
@@ -259,7 +259,7 @@ msgid "Description"
 msgstr "Description"
 
 msgid "``_BINDINGS_NAMESPACE_``"
-msgstr ""
+msgstr "``_BINDINGS_NAMESPACE_``"
 
 #, fuzzy
 msgid "The name of the Godot namespace (used in C# only)."
@@ -281,7 +281,7 @@ msgid "The base type a new script inherits from."
 msgstr "Le type de base dont hérite un nouveau script."
 
 msgid "``_TS_``"
-msgstr ""
+msgstr "``_TS_``"
 
 #, fuzzy
 msgid ""

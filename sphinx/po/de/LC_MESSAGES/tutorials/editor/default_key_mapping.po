@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1756,82 +1756,65 @@ msgstr "TileMap-Editor"
 msgid "Select"
 msgstr "Auswählen"
 
-#, fuzzy
 msgid "``tiles_editor/selection_tool``"
-msgstr "``tile_map_editor/cut_selection``"
+msgstr "``tiles_editor/selection_tool``"
 
 msgid "Cut Selection"
 msgstr "Auswahl ausschneiden"
 
-#, fuzzy
 msgid "``tiles_editor/cut``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/cut``"
 
-#, fuzzy
 msgid "``tiles_editor/copy``"
-msgstr "``script_text_editor/copy``"
+msgstr "``tiles_editor/copy``"
 
-#, fuzzy
 msgid "Paste Selection"
-msgstr "Auswahl löschen"
+msgstr "Auswahl einfügen"
 
-#, fuzzy
 msgid "``tiles_editor/paste``"
-msgstr "``tile_map_editor/paint_tile``"
+msgstr "``tiles_editor/paste``"
 
-#, fuzzy
 msgid "``tiles_editor/delete``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/delete``"
 
-#, fuzzy
 msgid "Cancel"
-msgstr "Frankreich"
+msgstr "Abbrechen"
 
-#, fuzzy
 msgid ":kbd:`Esc`"
-msgstr ":kbd:`E`"
+msgstr ":kbd:`Esc`"
 
-#, fuzzy
 msgid "``tiles_editor/cancel``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/cancel``"
 
 msgid "Paint"
 msgstr "Malen"
 
-#, fuzzy
 msgid "``tiles_editor/paint_tool``"
-msgstr "``tile_map_editor/paint_tile``"
+msgstr "``tiles_editor/paint_tool``"
 
 msgid "Line"
 msgstr "Linie"
 
-#, fuzzy
 msgid ":kbd:`L`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`L`"
 
-#, fuzzy
 msgid "``tiles_editor/line_tool``"
-msgstr "``tile_map_editor/find_tile``"
+msgstr "``tiles_editor/line_tool``"
 
-#, fuzzy
 msgid "Rect"
-msgstr "Rect2"
+msgstr "Rect"
 
-#, fuzzy
 msgid "``tiles_editor/rect_tool``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/rect_tool``"
 
-#, fuzzy
 msgid "Bucket"
 msgstr "Fülleimer"
 
-#, fuzzy
 msgid ":kbd:`B`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`B`"
 
-#, fuzzy
 msgid "``tiles_editor/bucket_tool``"
-msgstr "``tile_map_editor/bucket_fill``"
+msgstr "``tiles_editor/bucket_tool``"
 
 msgid "Picker"
 msgstr "Pipette"
@@ -1839,38 +1822,32 @@ msgstr "Pipette"
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
 
-#, fuzzy
 msgid "``tiles_editor/picker``"
-msgstr "``tile_map_editor/pick_tile``"
+msgstr "``tiles_editor/bucket_tool``"
 
 msgid "Eraser"
 msgstr "Radierer"
 
-#, fuzzy
 msgid "``tiles_editor/eraser``"
-msgstr "``tileset_editor/next_shape``"
+msgstr "``tiles_editor/eraser``"
 
 msgid "Flip Horizontally"
 msgstr "Horizontal spiegeln"
 
-#, fuzzy
 msgid ":kbd:`C`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`C`"
 
-#, fuzzy
 msgid "``tiles_editor/flip_tile_horizontal``"
-msgstr "``tile_map_editor/flip_horizontal``"
+msgstr "``tiles_editor/flip_tile_horizontal``"
 
 msgid "Flip Vertically"
 msgstr "Vertikal spiegeln"
 
-#, fuzzy
 msgid ":kbd:`V`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`V`"
 
-#, fuzzy
 msgid "``tiles_editor/flip_tile_vertical``"
-msgstr "``tile_map_editor/flip_vertical``"
+msgstr "``tiles_editor/flip_tile_vertical``"
 
 msgid "Rotate Left"
 msgstr "Nach links rotieren"
@@ -1878,9 +1855,8 @@ msgstr "Nach links rotieren"
 msgid ":kbd:`Z`"
 msgstr ":kbd:`Z`"
 
-#, fuzzy
 msgid "``tiles_editor/rotate_tile_left``"
-msgstr "``tile_map_editor/rotate_left``"
+msgstr "``tiles_editor/rotate_tile_left``"
 
 msgid "Rotate Right"
 msgstr "Nach rechts rotieren"
@@ -1888,9 +1864,8 @@ msgstr "Nach rechts rotieren"
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
 
-#, fuzzy
 msgid "``tiles_editor/rotate_tile_right``"
-msgstr "``tile_map_editor/rotate_right``"
+msgstr "``tiles_editor/rotate_tile_right``"
 
 msgid "Tileset Editor"
 msgstr "TileSet-Editor"

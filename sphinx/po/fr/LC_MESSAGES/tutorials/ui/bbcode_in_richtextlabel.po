@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 msgid "Use:"
-msgstr ""
+msgstr "Utilisation :"
 
 msgid "Handling user input safely"
 msgstr ""
@@ -244,7 +244,7 @@ msgid "Example"
 msgstr "Exemple"
 
 msgid "**b**"
-msgstr ""
+msgstr "**b**"
 
 msgid ""
 "Makes ``{text}`` use the bold (or bold italics) font of ``RichTextLabel``."
@@ -254,7 +254,7 @@ msgid "``[b]{text}[/b]``"
 msgstr "``[b]{texte}[/b]``"
 
 msgid "**i**"
-msgstr ""
+msgstr "**i**"
 
 msgid ""
 "Makes ``{text}`` use the italics (or bold italics) font of ``RichTextLabel``."
@@ -264,7 +264,7 @@ msgid "``[i]{text}[/i]``"
 msgstr "``[i]{texte}[/i]``"
 
 msgid "**u**"
-msgstr ""
+msgstr "**u**"
 
 #, fuzzy
 msgid "Makes ``{text}`` underlined."
@@ -274,7 +274,7 @@ msgid "``[u]{text}[/u]``"
 msgstr "``[u]{texte}[/u]``"
 
 msgid "**s**"
-msgstr ""
+msgstr "**s**"
 
 #, fuzzy
 msgid "Makes ``{text}`` strikethrough."
@@ -294,7 +294,7 @@ msgid "``[code]{text}[/code]``"
 msgstr "``[code]{texte}[/code]``"
 
 msgid "**p**"
-msgstr ""
+msgstr "**p**"
 
 msgid ""
 "Adds new paragraph with ``{text}``. Supports configuration options, see :ref:"
@@ -322,7 +322,7 @@ msgid "``[center]{text}[/center]``"
 msgstr "``[center]{texte}[/center]``"
 
 msgid "**left**"
-msgstr ""
+msgstr "**gauche**"
 
 #, fuzzy
 msgid "Makes ``{text}`` horizontally left-aligned."
@@ -491,7 +491,7 @@ msgid "``[font_size={size}]{text}[/font_size]``"
 msgstr "``[font=<chemin>]{texte}[/font]``"
 
 msgid "**dropcap**"
-msgstr ""
+msgstr "**lettrine**"
 
 msgid ""
 "Use a different font size and color for ``{text}``, while making the tag's "
@@ -521,14 +521,14 @@ msgid ""
 msgstr ""
 
 msgid "``[opentype_features={list}]``"
-msgstr ""
+msgstr "``[opentype_features={list}]``"
 
 #, fuzzy
 msgid "``{text}``"
 msgstr "``[b]{texte}[/b]``"
 
 msgid "``[/opentype_features]``"
-msgstr ""
+msgstr "``[/opentype_features]``"
 
 #, fuzzy
 msgid "**lang**"
@@ -598,10 +598,10 @@ msgstr ""
 "{texte}."
 
 msgid "``[outline_size={size}]``"
-msgstr ""
+msgstr "``[outline_size={size}]``"
 
 msgid "``[/outline_size]``"
-msgstr ""
+msgstr "``[/outline_size]``"
 
 #, fuzzy
 msgid "**outline_color**"
@@ -617,7 +617,7 @@ msgid "``[outline_color={code/name}]``"
 msgstr "``[color=<code/nom>]{texte}[/color]``"
 
 msgid "``[/outline_color]``"
-msgstr ""
+msgstr "``[/outline_color]``"
 
 msgid "**table**"
 msgstr "**table**"
@@ -691,10 +691,10 @@ msgid ""
 msgstr ""
 
 msgid "``[ol type={type}]{items}[/ol]``"
-msgstr ""
+msgstr "``[ol type={type}]{items}[/ol]``"
 
 msgid "**lb**, **rb**"
-msgstr ""
+msgstr "**lb**, **rb**"
 
 msgid "Adds ``[`` and ``]`` respectively. Allows escaping BBCode markup."
 msgstr ""
@@ -770,10 +770,10 @@ msgid "Options can be skipped for all tags."
 msgstr ""
 
 msgid "Paragraph options"
-msgstr ""
+msgstr "Options du paragraphe"
 
 msgid "**align**"
-msgstr ""
+msgstr "**align**"
 
 #, fuzzy
 msgid "`Values`"
@@ -795,7 +795,7 @@ msgid "Text horizontal alignment."
 msgstr "Aligne le {texte} horizontalement à droite."
 
 msgid "**bidi_override**, **st**"
-msgstr ""
+msgstr "**bidi_override**, **st**"
 
 msgid ""
 "``default``, ``uri``, ``file``, ``email``, ``list``, ``none``, ``custom``"
@@ -809,7 +809,7 @@ msgid "Structured text override."
 msgstr ""
 
 msgid "**direction**, **dir**"
-msgstr ""
+msgstr "**direction**, **dir**"
 
 #, fuzzy
 msgid "``ltr``, ``rtl``, ``auto``"
@@ -823,7 +823,7 @@ msgid "Base BiDi direction."
 msgstr "Se déplacer dans la direction donnée."
 
 msgid "**language**, **lang**"
-msgstr ""
+msgstr "**language**, **lang**"
 
 #, fuzzy
 msgid "ISO language codes. See :ref:`doc_locales`"
@@ -967,7 +967,7 @@ msgid "Font options"
 msgstr "Options d'importation"
 
 msgid "**name**, **n**"
-msgstr ""
+msgstr "**name**, **n**"
 
 #, fuzzy
 msgid "A valid Font resource path."
@@ -978,7 +978,7 @@ msgid "Font resource path."
 msgstr "Chemin des ressources (Resource path)"
 
 msgid "**size**, **s**"
-msgstr ""
+msgstr "**size**, **s**"
 
 msgid "Number in pixels."
 msgstr ""
@@ -1054,7 +1054,7 @@ msgid "Cell border color."
 msgstr ""
 
 msgid "**bg**"
-msgstr ""
+msgstr "**bg**"
 
 msgid ""
 "Cell background color. For alternating odd/even row backgrounds, you can use "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,14 +91,13 @@ msgstr ""
 msgid "If you have an Apple Developer ID Certificate and exporting from macOS"
 msgstr "如果你有 Apple 开发者 ID 证书"
 
-#, fuzzy
 msgid ""
 "Install `Xcode <https://developer.apple.com/xcode/>`__ command line tools "
 "and open Xcode at least once or run the ``sudo xcodebuild -license accept`` "
 "command to accept license agreement."
 msgstr ""
-"安装`Xcode <https://developer.apple.com/xcode/>`__命令行工具并打开Xcode，或者"
-"运行命令``sudo xcodebuild -license accept``以接受许可协议。"
+"安装`Xcode <https://developer.apple.com/xcode/>`__命令行工具并至少打开一次"
+"Xcode，或者运行命令``sudo xcodebuild -license accept``以接受许可协议。"
 
 #, fuzzy
 msgid "To sign exported app"
@@ -115,7 +114,7 @@ msgstr ""
 "Name”）。"
 
 msgid "To notarize exported app"
-msgstr ""
+msgstr "公证导出的应用程序"
 
 msgid "Select ``Xcode altool`` in the ``Notarization > Notarization`` option."
 msgstr "在“Notarization>Notarization”选项中选择“Xcode altool”。"
@@ -245,9 +244,8 @@ msgstr "描述"
 msgid "Codesign"
 msgstr "节点"
 
-#, fuzzy
 msgid "Tool to use for code signing."
-msgstr "启用代码签名。"
+msgstr "代码签名的工具。"
 
 msgid "Identity"
 msgstr "Identity"

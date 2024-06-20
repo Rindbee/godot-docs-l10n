@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -520,7 +520,7 @@ msgid ""
 msgstr ""
 
 msgid "Volumetric Fog"
-msgstr ""
+msgstr "Brouillard volumétrique"
 
 msgid ""
 "Volumetric fog provides a realistic fog effect to the scene, with fog color "
@@ -1201,7 +1201,7 @@ msgstr ""
 "réglages standard d'image."
 
 msgid "**Basic BCS adjustments**"
-msgstr ""
+msgstr "**Ajustements basiques BCS**"
 
 #, fuzzy
 msgid ""

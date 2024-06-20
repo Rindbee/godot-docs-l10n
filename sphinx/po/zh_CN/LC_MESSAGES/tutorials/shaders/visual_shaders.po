@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,9 +178,8 @@ msgstr ""
 "当把任何 ``vector`` 输出连接到 ``scalar`` 输入时, 标量的值将是向量分量的平均"
 "值."
 
-#, fuzzy
 msgid "Visual Shader node interface"
-msgstr "可视化着色器节点"
+msgstr "可视化着色器节点界面"
 
 msgid ""
 "Visual shader nodes have input and output ports. The input ports are located "
@@ -225,12 +224,11 @@ msgstr "描述"
 msgid "Example"
 msgstr "示例"
 
-#, fuzzy
 msgid "Scalar"
-msgstr "Scale(大小)"
+msgstr "Scalar"
 
 msgid "Cyan"
-msgstr ""
+msgstr "青色"
 
 msgid "Scalar is a single value."
 msgstr ""
@@ -239,10 +237,10 @@ msgid "|scalar|"
 msgstr ""
 
 msgid "Vector"
-msgstr "向量"
+msgstr "Vector"
 
 msgid "Purple"
-msgstr ""
+msgstr "紫色"
 
 msgid "Vector is a set of values."
 msgstr ""
@@ -251,12 +249,11 @@ msgstr ""
 msgid "|vector|"
 msgstr "vector2"
 
-#, fuzzy
 msgid "Boolean"
-msgstr "boolean"
+msgstr "Boolean"
 
 msgid "Blue"
-msgstr ""
+msgstr "蓝色"
 
 msgid "On or off, true or false."
 msgstr ""
@@ -266,7 +263,7 @@ msgid "|boolean|"
 msgstr "boolean"
 
 msgid "Transform"
-msgstr "变换"
+msgstr "Transform"
 
 #, fuzzy
 msgid "Orange"
@@ -280,12 +277,11 @@ msgstr "用于 2D 线性变换的3x2矩阵。"
 msgid "|transform|"
 msgstr "transform2d"
 
-#, fuzzy
 msgid "Sampler"
-msgstr "Sampler2D"
+msgstr "Sampler"
 
 msgid "Yellow"
-msgstr ""
+msgstr "黄色"
 
 msgid "A texture sampler. It can be used to sample textures."
 msgstr ""

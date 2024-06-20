@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgid "Desktop or laptop PC - Minimum"
 msgstr ""
 
 msgid "**CPU**"
-msgstr ""
+msgstr "**CPU**"
 
 msgid "**Windows:** x86_32 CPU with SSE2 instructions, or any x86_64 CPU"
 msgstr ""
@@ -53,45 +53,56 @@ msgid "**macOS:** x86_64 or ARM CPU (Apple Silicon)"
 msgstr ""
 
 msgid "*Example: Intel Core 2 Duo SU9400, Apple M1*"
-msgstr ""
+msgstr "*Exemple : Intel Core 2 Duo SU9400, Apple M1*"
 
 msgid ""
 "**Linux:** x86_32 CPU with SSE2 instructions, x86_64 CPU, ARMv7 or ARMv8 CPU"
 msgstr ""
+"**Linux:** CPU x86_32 avec instructions SSE2, CPU x86_64, CPU ARMv7 ou ARMv8"
 
 msgid ""
 "*Example: Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 msgstr ""
+"*Exemple : Intel Core 2 Duo E8200, AMD Athlon XE BE-2300, Raspberry Pi 4*"
 
 msgid "**GPU**"
-msgstr ""
+msgstr "**GPU**"
 
 msgid ""
 "**Forward+ rendering method:** Integrated graphics with full Vulkan 1.0 "
 "support"
 msgstr ""
+"** Méthode de rendu Forward+:** Graphiques intégrés avec support Vulkan 1.0"
 
 msgid ""
 "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
+"*Exemple: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
+"(Kaveri)*"
 
+#, fuzzy
 msgid ""
 "**Mobile rendering method:** Integrated graphics with full Vulkan 1.0 support"
 msgstr ""
+"** Méthode de rendu mobile:** Graphiques intégrés avec support Vulkan 1.0"
 
 msgid ""
 "**Compatibility rendering method:** Integrated graphics with full OpenGL 3.3 "
 "support"
 msgstr ""
+"** Méthode de rendu pour la compatibilité:** Graphiques intégrés avec "
+"support OpenGL 3.3"
 
 msgid ""
 "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
+"*Exemple: Graphiques HD Intel 2500 ( Ivy Bridge), AMD Radeon R5 Graphiques "
+"(Kaveri)*"
 
 msgid "**RAM**"
-msgstr ""
+msgstr "**RAM**"
 
 #, fuzzy
 msgid "**Native editor:** 4 GB"
@@ -110,18 +121,25 @@ msgid ""
 "projects requires downloading export templates separately (1.3 GB after "
 "installation)."
 msgstr ""
+"200 Mo (utilisé pour l'exécutable, les fichiers de projet et le cache). "
+"L'exportation de projets nécessite le téléchargement de modèles "
+"d'exportation séparément (1,3 Go après installation)."
 
 #, fuzzy
 msgid "**Operating system**"
 msgstr "Système d'avertissement"
 
+#, fuzzy
 msgid ""
 "**Native editor:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 "
 "(Forward+/Mobile), Linux distribution released after 2016"
 msgstr ""
+"**Editeur natif :** Windows 7, macOS 10.13 (Compatibilité) ou macOS 10.15 "
+"(Forward+/Mobile), distributions Linux après 2016"
 
 msgid "**Web editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr ""
+"**Éditeur Web: ** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 
 msgid ""
 "Windows 7/8/8.1 are supported on a best-effort basis. These versions are not "
@@ -201,28 +219,32 @@ msgid ""
 msgstr ""
 
 msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr ""
+msgstr "*Exemple : Intel Core i5-6600K, AMD Ryzen 5 1600*"
 
 msgid "*Example: Intel Core i5-8500, Apple M1*"
-msgstr ""
+msgstr "*Exemple : Intel Core i5-8500, Apple M1*"
 
 msgid ""
 "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 with "
 "overclocking*"
 msgstr ""
+"*Exemple : Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 avec "
+"overclocking*"
 
 msgid ""
 "**Forward+ rendering method:** Dedicated graphics with full Vulkan 1.2 "
 "support"
-msgstr ""
+msgstr "** Méthode de rendu:** Graphiques dédiés avec support Vulkan 1.2"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 msgstr ""
+"*Exemple : NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 
 msgid ""
 "**Mobile rendering method:** Dedicated graphics with full Vulkan 1.2 support"
 msgstr ""
+"** Méthode de rendu mobile:** Graphiques dédiés avec support Vulkan 1.2"
 
 msgid ""
 "**Compatibility rendering method:** Dedicated graphics with full OpenGL 4.6 "
@@ -232,6 +254,7 @@ msgstr ""
 msgid ""
 "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 msgstr ""
+"*Exemple : NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 
 #, fuzzy
 msgid "**Native editor:** 8 GB"
@@ -245,29 +268,37 @@ msgid ""
 "1.5 GB (used for the executable, project files, all export templates and "
 "cache)"
 msgstr ""
+"1.5 GB (utilisé pour les fichiers exécutables, projets, tous les modèles "
+"d'exportation et cache)"
 
+#, fuzzy
 msgid ""
 "**Native editor:** Windows 10, macOS 10.15, Linux distribution released "
 "after 2020"
 msgstr ""
+"**Editeur natif :** Windows 10, macOS 10.15, distributions Linux d'après 2020"
 
 msgid "**Web editor:** Latest version of Firefox, Chrome, Edge, Safari, Opera"
 msgstr ""
+"**Editeur Web:** Dernière version de Firefox, Chrome, Edge, Safari, Opera"
 
 msgid "Mobile device (smartphone/tablet) - Recommended"
-msgstr ""
+msgstr "Appareil mobile (smartphone/tablette) - Recommandé"
 
 msgid ""
 "**Android:** SoC with 64-bit ARM or x86 CPU, with 3 \"performance\" cores or "
 "more"
 msgstr ""
+"**Android:** SoC avec ARM 64 bits ou CPU x86, avec 3 cœurs \"performance\" "
+"ou plus"
 
 msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
-msgstr ""
+msgstr "*Exemple: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
 
+#, fuzzy
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
-msgstr ""
+msgstr "** Méthode de rendu:** SoC avec GPU supportant complètement Vulkan 1.2"
 
 msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
 msgstr ""

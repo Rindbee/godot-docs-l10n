@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,7 +99,7 @@ msgid "**Filter options**"
 msgstr "**Options générales**"
 
 msgid "**Shorthand**"
-msgstr ""
+msgstr "**Sténographie**"
 
 #, fuzzy
 msgid "**Examples**"
@@ -110,17 +110,17 @@ msgid "``--test-suite``"
 msgstr "``--test <test>``"
 
 msgid "``-ts``"
-msgstr ""
+msgstr "``-ts``"
 
 msgid "``-ts=\"*[GDScript]*\"``"
-msgstr ""
+msgstr "``-ts=\"*[GDScript]*\"``"
 
 #, fuzzy
 msgid "``--test-case``"
 msgstr "``--no-docbase``"
 
 msgid "``-tc``"
-msgstr ""
+msgstr "``-tc``"
 
 #, fuzzy
 msgid "``-tc=\"*[String]*\"``"
@@ -131,10 +131,10 @@ msgid "``--source-file``"
 msgstr "``--quiet``"
 
 msgid "``-sf``"
-msgstr ""
+msgstr "``-sf``"
 
 msgid "``-sf=\"*test_color*\"``"
-msgstr ""
+msgstr "``-sf=\"*test_color*\"``"
 
 msgid "For instance, to run only the ``String`` unit tests, run:"
 msgstr ""
@@ -227,7 +227,7 @@ msgid "**Description**"
 msgstr "**Description**"
 
 msgid "``REQUIRE``"
-msgstr ""
+msgstr "``REQUIRE``"
 
 msgid ""
 "Test if condition holds true. Fails the entire test immediately if the "
@@ -235,7 +235,7 @@ msgid ""
 msgstr ""
 
 msgid "``REQUIRE_FALSE``"
-msgstr ""
+msgstr "``REQUIRE_FALSE``"
 
 msgid ""
 "Test if condition does not hold true. Fails the entire test immediately if "
@@ -243,7 +243,7 @@ msgid ""
 msgstr ""
 
 msgid "``CHECK``"
-msgstr ""
+msgstr "``CHECK``"
 
 msgid ""
 "Test if condition holds true. Marks the test run as failing, but allow to "
@@ -251,7 +251,7 @@ msgid ""
 msgstr ""
 
 msgid "``CHECK_FALSE``"
-msgstr ""
+msgstr "``CHECK_FALSE``"
 
 msgid ""
 "Test if condition does not hold true. Marks the test run as failing, but "
@@ -259,7 +259,7 @@ msgid ""
 msgstr ""
 
 msgid "``WARN``"
-msgstr ""
+msgstr "``WARN``"
 
 msgid ""
 "Test if condition holds true. Does not fail the test under any circumstance, "
@@ -267,7 +267,7 @@ msgid ""
 msgstr ""
 
 msgid "``WARN_FALSE``"
-msgstr ""
+msgstr "``WARN_FALSE``"
 
 msgid ""
 "Test if condition does not hold true. Does not fail the test under any "
@@ -306,13 +306,13 @@ msgid "**Macro**"
 msgstr "Macros"
 
 msgid "``MESSAGE``"
-msgstr ""
+msgstr "``MESSAGE``"
 
 msgid "Prints a message."
 msgstr ""
 
 msgid "``FAIL_CHECK``"
-msgstr ""
+msgstr "``FAIL_CHECK``"
 
 msgid ""
 "Marks the test as failing, but continue the execution. Can be wrapped in "
@@ -320,7 +320,7 @@ msgid ""
 msgstr ""
 
 msgid "``FAIL``"
-msgstr ""
+msgstr "``FAIL``"
 
 msgid ""
 "Fails the test immediately. Can be wrapped in conditionals for complex "

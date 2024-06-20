@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgid "Disable depth testing."
 msgstr "Désactive le test de profondeur."
 
 msgid "**sss_mode_skin**"
-msgstr ""
+msgstr "**sss_mode_skin**"
 
 #, fuzzy
 msgid "Subsurface Scattering mode for skin."
@@ -137,7 +137,7 @@ msgstr ""
 "matériau."
 
 msgid "**wireframe**"
-msgstr ""
+msgstr "**wireframe**"
 
 msgid "Geometry draws using lines."
 msgstr ""
@@ -248,7 +248,7 @@ msgid "Enables the trails when used on particles geometry."
 msgstr ""
 
 msgid "**alpha_to_coverage**"
-msgstr ""
+msgstr "**alpha_to_coverage**"
 
 #, fuzzy
 msgid ""
@@ -258,7 +258,7 @@ msgstr ""
 "`core/set.h <https://github.com/godotengine/godot/blob/3.x/core/set.h>`__"
 
 msgid "**alpha_to_coverage_and_one**"
-msgstr ""
+msgstr "**alpha_to_coverage_and_one**"
 
 #, fuzzy
 msgid "**fog_disabled**"

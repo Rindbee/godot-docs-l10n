@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,13 +85,13 @@ msgid "C# Type"
 msgstr "Type"
 
 msgid "``Nil``"
-msgstr ""
+msgstr "``Nil``"
 
 msgid "``null`` (Not a type)"
 msgstr ""
 
 msgid "``Bool``"
-msgstr ""
+msgstr "``Bool``"
 
 #, fuzzy
 msgid "``bool``"
@@ -196,7 +196,7 @@ msgid "``Plane``"
 msgstr "Plan"
 
 msgid "``Godot.Plane``"
-msgstr ""
+msgstr "``Godot.Plane``"
 
 #, fuzzy
 msgid "``Quaternion``"
@@ -207,17 +207,17 @@ msgid "``Godot.Quaternion``"
 msgstr "``Rotation``"
 
 msgid "``Aabb``"
-msgstr ""
+msgstr "``Aabb``"
 
 msgid "``Godot.Aabb``"
-msgstr ""
+msgstr "``Godot.Aabb``"
 
 #, fuzzy
 msgid "``Basis``"
 msgstr "``is``"
 
 msgid "``Godot.Basis``"
-msgstr ""
+msgstr "``Godot.Basis``"
 
 #, fuzzy
 msgid "``Transform3D``"
@@ -264,7 +264,7 @@ msgid "``Rid``"
 msgstr "``-> void``"
 
 msgid "``Godot.Rid``"
-msgstr ""
+msgstr "``Godot.Rid``"
 
 #, fuzzy
 msgid "``Object``"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,9 +190,8 @@ msgid ""
 "`doc_running_code_in_the_editor` for more information."
 msgstr ""
 
-#, fuzzy
 msgid "Example 1: drawing a custom shape"
-msgstr "Oto przykład jak stworzyć własny typ danych:"
+msgstr "Przykład 1: rysowanie niestandardowego kształtu"
 
 msgid ""
 "We will now use the custom drawing functionality of the Godot Engine to draw "
@@ -527,11 +526,12 @@ msgid ""
 "top left corner and that obtained position."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "The width, color, and position of the starting point can be configured with "
 "with the corresponding properties."
-msgstr "Scena Mob będzie korzystać z następujących węzłów:"
+msgstr ""
+"Szerokość, kolor i położenie punktu początkowego można skonfigurować za "
+"pomocą odpowiednich właściwości."
 
 #, fuzzy
 msgid "It should look like this when run:"

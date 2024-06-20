@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid ""
 msgstr ""
 
 msgid "Tags"
-msgstr ""
+msgstr "Étiquettes"
 
 #, fuzzy
 msgid "Brief description"
@@ -79,7 +79,7 @@ msgid "Tutorial"
 msgstr "Tutoriels texte"
 
 msgid "``@tutorial:``"
-msgstr ""
+msgstr "``@tutorial:``"
 
 msgid "``@tutorial(The Title Here):``"
 msgstr ""
@@ -154,7 +154,7 @@ msgid ""
 msgstr ""
 
 msgid "No tag."
-msgstr ""
+msgstr "Sans balise."
 
 #, fuzzy
 msgid "Alternatively, you can use inline documentation comments::"
@@ -259,7 +259,7 @@ msgid "Move the :ref:`class_Sprite2D`."
 msgstr "Déplacez le :ref:`class_Sprite`."
 
 msgid "``[annotation Class.name]``"
-msgstr ""
+msgstr "``[annotation Class.name]``"
 
 #, fuzzy
 msgid "Link to annotation"
@@ -375,23 +375,23 @@ msgid "Takes ``size`` for the size."
 msgstr ""
 
 msgid "``[br]``"
-msgstr ""
+msgstr "``[br]``"
 
 #, fuzzy
 msgid "Line break"
 msgstr "break"
 
 msgid "``Line 1.[br]``"
-msgstr ""
+msgstr "``Ligne 1.[br]``"
 
 msgid "``Line 2.``"
-msgstr ""
+msgstr "``Ligne 2.``"
 
 msgid "Line 1."
-msgstr ""
+msgstr "Ligne 1."
 
 msgid "Line 2."
-msgstr ""
+msgstr "Ligne 2."
 
 #, fuzzy
 msgid "``[b]`` ``[/b]``"

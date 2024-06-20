@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,7 +168,7 @@ msgid "``agent_set_velocity()``"
 msgstr "``get_area()``"
 
 msgid "``agent_set_target_velocity()``"
-msgstr ""
+msgstr "``agent_set_target_velocity()``"
 
 #, fuzzy
 msgid "``agent_set_position()``"
@@ -316,7 +316,7 @@ msgid ""
 msgstr ""
 
 msgid "PhysicsServer synchronizes."
-msgstr ""
+msgstr "PhysicsServer se synchronise."
 
 msgid "physics frame ends."
 msgstr ""

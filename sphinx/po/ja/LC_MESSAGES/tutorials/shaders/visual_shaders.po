@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using VisualShaders"
 msgstr "ビジュアルシェーダー"
 
 msgid "VisualShaders are the visual alternative for creating shaders."
 msgstr ""
+"ビジュアルシェーダーは、シェーダーを作成するための視覚的な代替手段です。"
 
 msgid ""
 "As shaders are inherently linked to visuals, the graph-based approach with "
@@ -63,23 +63,19 @@ msgstr ""
 "次に、\\ :ref:`class_VisualShader` リソースを ``Shader`` プロパティに割り当て"
 "ます。"
 
-#, fuzzy
 msgid ""
 "Click on the new ``Shader`` resource and the Create Shader dialog will open "
 "automatically. Change the Type option to VisualShader in the dropdown."
 msgstr ""
-"新しい ``VisualShader`` リソースをクリックすると、ビジュアルシェーダーエディ"
-"タが自動的に開きます。ビジュアルシェーダーエディタのレイアウトは、上部のツー"
-"ルバーとグラフ自体の2つの部分で構成されています。"
+"新しい ``Shader`` リソースをクリックすると、\"シェーダの作成\"ダイアログが自"
+"動的に開きます。ドロップダウンで型オプションを VisualShader に変更します。"
 
-#, fuzzy
 msgid ""
 "The layout of the Visual Shader Editor comprises two parts: the upper "
 "toolbar and the graph itself."
 msgstr ""
-"新しい ``VisualShader`` リソースをクリックすると、ビジュアルシェーダーエディ"
-"タが自動的に開きます。ビジュアルシェーダーエディタのレイアウトは、上部のツー"
-"ルバーとグラフ自体の2つの部分で構成されています。"
+"ビジュアルシェーダーエディタのレイアウトは、上部のツールバーとグラフ自体の2つ"
+"の部分で構成されます。"
 
 msgid "From left to right in the toolbar:"
 msgstr "ツールバーの左から右へ:"
@@ -202,41 +198,38 @@ msgstr ""
 "``vector`` 出力を ``scalar`` 入力に接続すると、スカラーの値はベクトルの要素の"
 "平均になります。"
 
-#, fuzzy
 msgid "Visual Shader node interface"
-msgstr "ビジュアルシェーダーノード"
+msgstr "ビジュアルシェーダーノードのインターフェース"
 
 msgid ""
 "Visual shader nodes have input and output ports. The input ports are located "
 "on the left side of the node, and output ports are located on the right side "
 "of the node."
 msgstr ""
+"ビジュアル シェーダーノードには入力ポートと出力ポートがあります。入力ポートは"
+"ノードの左側にあり、出力ポートはノードの右側にあります。"
 
 msgid "These ports are colored to differentiate type of port:"
-msgstr ""
+msgstr "これらのポートは、ポートの型を区別するために色分けされています。"
 
 msgid "scalar"
-msgstr ""
+msgstr "スカラー"
 
-#, fuzzy
 msgid "vector"
-msgstr "\\ vector2"
+msgstr "ベクトル"
 
 #, fuzzy
 msgid "boolean"
 msgstr "\\ bool"
 
-#, fuzzy
 msgid "transform"
-msgstr "\\ transform2d"
+msgstr "トランスフォーム"
 
-#, fuzzy
 msgid "sampler"
-msgstr "シンプルな"
+msgstr "サンプラー"
 
-#, fuzzy
 msgid "Port types"
-msgstr "コアタイプ"
+msgstr "ポートの型"
 
 msgid "Type"
 msgstr "タイプ(型)"
@@ -250,84 +243,76 @@ msgstr "説明"
 msgid "Example"
 msgstr "例"
 
-#, fuzzy
 msgid "Scalar"
-msgstr "スケール"
+msgstr "スカラー"
 
 msgid "Cyan"
-msgstr ""
+msgstr "シアン"
 
 msgid "Scalar is a single value."
-msgstr ""
+msgstr "スカラーは単一の値です。"
 
 msgid "|scalar|"
-msgstr ""
+msgstr "|スカラー|"
 
 msgid "Vector"
-msgstr "Vector"
+msgstr "ベクトル"
 
 msgid "Purple"
-msgstr ""
+msgstr "紫"
 
 msgid "Vector is a set of values."
-msgstr ""
+msgstr "ベクトルは値の集合です。"
 
-#, fuzzy
 msgid "|vector|"
-msgstr "\\ vector2"
+msgstr "|ベクトル|"
 
-#, fuzzy
 msgid "Boolean"
-msgstr "\\ bool"
+msgstr "ブーリアン"
 
 msgid "Blue"
-msgstr ""
+msgstr "青"
 
 msgid "On or off, true or false."
-msgstr ""
+msgstr "オンかオフか、真か偽か。"
 
-#, fuzzy
 msgid "|boolean|"
-msgstr "\\ bool"
+msgstr "|ブーリアン|"
 
 msgid "Transform"
 msgstr "トランスフォーム"
 
-#, fuzzy
 msgid "Orange"
-msgstr "変更点"
+msgstr "オレンジ"
 
-#, fuzzy
 msgid "A matrix, usually used to transform vertices."
-msgstr "2次元の幾何学変換に使用される3x2行列です。"
+msgstr "行列。通常は頂点を変換するために使用されます。"
 
-#, fuzzy
 msgid "|transform|"
-msgstr "\\ transform2d"
+msgstr "|トランスフォーム|"
 
-#, fuzzy
 msgid "Sampler"
-msgstr "\\ Sampler2D"
+msgstr "サンプラー"
 
 msgid "Yellow"
-msgstr ""
+msgstr "黄"
 
 msgid "A texture sampler. It can be used to sample textures."
-msgstr ""
+msgstr "テクスチャサンプラー。テクスチャのサンプリングで使用します。"
 
-#, fuzzy
 msgid "|sampler|"
-msgstr "\\ Sampler2D"
+msgstr "|サンプラー|"
 
 msgid ""
 "All of the types are used in the calculations of vertices, fragments, and "
 "lights in the shader. For example: matrix multiplication, vector addition, "
 "or scalar division."
 msgstr ""
+"すべての型(タイプ)は、シェーダー内の頂点、フラグメント、ライトの計算に使用さ"
+"れます。例: 行列の乗算、ベクトルの加算、またはスカラーの除算。"
 
-#, fuzzy
 msgid "There are other types but these are the main ones."
-msgstr "ディテールの使用をコントロールする設定がいくつかあります。"
+msgstr "他にも型はありますが、主に使用するものはこのような感じです。"
 
 msgid "Visual Shader nodes"
 msgstr "ビジュアルシェーダーノード"

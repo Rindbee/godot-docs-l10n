@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 "developer.android.com/studio/projects#ApplicationModules>`_ :"
 
 msgid "``lib`` module:"
-msgstr ""
+msgstr "module``lib`` :"
 
 #, fuzzy
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 "La bibliothèque doit avoir une dépendance sur les en-têtes du moteur Godot."
 
 msgid "``app`` module:"
-msgstr ""
+msgstr "module``app`` :"
 
 #, fuzzy
 msgid ""

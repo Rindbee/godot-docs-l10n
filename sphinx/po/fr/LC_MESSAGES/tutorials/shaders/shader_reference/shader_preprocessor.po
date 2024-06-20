@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 
 msgid "#define"
-msgstr ""
+msgstr "#define"
 
 msgid "**Syntax:** ``#define <identifier> [replacement_code]``."
 msgstr ""
@@ -117,7 +117,7 @@ msgid ""
 msgstr ""
 
 msgid "#undef"
-msgstr ""
+msgstr "#undef"
 
 msgid "**Syntax:** ``#undef identifier``"
 msgstr ""
@@ -223,7 +223,7 @@ msgid "Like with ``#if``, the ``defined()`` preprocessor function can be used:"
 msgstr ""
 
 msgid "#ifdef"
-msgstr ""
+msgstr "#ifdef"
 
 msgid "**Syntax:** ``#ifdef <identifier>``"
 msgstr ""
@@ -243,7 +243,7 @@ msgid ""
 msgstr ""
 
 msgid "#ifndef"
-msgstr ""
+msgstr "#ifndef"
 
 msgid "**Syntax:** ``#ifndef <identifier>``"
 msgstr ""
@@ -264,7 +264,7 @@ msgid "#else"
 msgstr "else"
 
 msgid "**Syntax:** ``#else``"
-msgstr ""
+msgstr "**Syntax:** ``#else``"
 
 msgid ""
 "Defines the optional block which is included when the previously defined "
@@ -272,10 +272,10 @@ msgid ""
 msgstr ""
 
 msgid "#endif"
-msgstr ""
+msgstr "#endif"
 
 msgid "**Syntax:** ``#endif``"
-msgstr ""
+msgstr "**Syntax:** ``#endif``"
 
 msgid ""
 "Used as terminator for the ``#if``, ``#ifdef``, ``#ifndef`` or subsequent "
@@ -352,7 +352,7 @@ msgid "Example base shader (using the include file we created above):"
 msgstr ""
 
 msgid "#pragma"
-msgstr ""
+msgstr "#pragma"
 
 msgid "**Syntax:** ``#pragma value``"
 msgstr ""

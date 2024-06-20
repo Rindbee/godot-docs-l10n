@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,7 +114,7 @@ msgid ""
 msgstr ""
 
 msgid "Caveats of upgrading"
-msgstr ""
+msgstr "Mise en garde concernant la mise à jour"
 
 msgid ""
 "**Since Godot 4 is a complete rewrite in many aspects, some features have "
@@ -318,519 +318,434 @@ msgid ""
 msgstr ""
 
 msgid "Old name (Godot 3.x)"
-msgstr ""
+msgstr "Vieux nom (Godot 3.X)"
 
 msgid "New name (Godot 4)"
-msgstr ""
+msgstr "Nouveau nom (Godot 4)"
 
-#, fuzzy
 msgid "AnimatedSprite"
-msgstr "Feuille de Sprite avec AnimationPlayer"
+msgstr "AnimatedSprite"
 
 msgid "AnimatedSprite2D"
-msgstr ""
+msgstr "AnimatedSprite2D"
 
-#, fuzzy
 msgid "ARVRCamera"
-msgstr "Caméra"
+msgstr "ARVRCamera"
 
-#, fuzzy
 msgid "XRCamera3D"
-msgstr "Caméra"
+msgstr "XRCamera3D"
 
-#, fuzzy
 msgid "ARVRController"
-msgstr "Contrôle"
+msgstr "ARVRController"
 
-#, fuzzy
 msgid "XRController3D"
-msgstr "Contrôle"
+msgstr "XRController3D"
 
 msgid "ARVRAnchor"
-msgstr ""
+msgstr "ARVRAnchor"
 
 msgid "XRAnchor3D"
-msgstr ""
+msgstr "XRAnchor3D"
 
 msgid "ARVRInterface"
-msgstr ""
+msgstr "ARVRInterface"
 
-#, fuzzy
 msgid "XRInterface"
-msgstr "Interface utilisateur (IU)"
+msgstr "XRInterface"
 
 msgid "ARVROrigin"
-msgstr ""
+msgstr "ARVROrigin"
 
 msgid "XROrigin3D"
-msgstr ""
+msgstr "XROrigin3D"
 
 msgid "ARVRPositionalTracker"
-msgstr ""
+msgstr "ARVRPositionalTracker"
 
 msgid "XRPositionalTracker"
-msgstr ""
+msgstr "XRPositionalTracker"
 
-#, fuzzy
 msgid "ARVRServer"
-msgstr "Serveur AR/VR"
+msgstr "ARVRServer"
 
-#, fuzzy
 msgid "XRServer"
-msgstr "Serveurs"
+msgstr "XRServer"
 
-#, fuzzy
 msgid "CubeMesh"
-msgstr "Maillages"
+msgstr "CubeMesh"
 
-#, fuzzy
 msgid "BoxMesh"
-msgstr "Maillages"
+msgstr "BoxMesh"
 
-#, fuzzy
 msgid "EditorSpatialGizmo"
-msgstr "L'EditorSpatialGizmoPlugin"
+msgstr "EditorSpatialGizmo"
 
 msgid "EditorNode3DGizmo"
-msgstr ""
+msgstr "EditorNode3DGizmo"
 
-#, fuzzy
 msgid "EditorSpatialGizmoPlugin"
-msgstr "L'EditorSpatialGizmoPlugin"
+msgstr "EditorSpatialGizmoPlugin"
 
-#, fuzzy
 msgid "EditorNode3DGizmoPlugin"
-msgstr "L'EditorSpatialGizmoPlugin"
+msgstr "EditorNode3DGizmoPlugin"
 
-#, fuzzy
 msgid "GIProbe"
-msgstr "GIProbes"
+msgstr "GIProbe"
 
 msgid "VoxelGI"
-msgstr ""
+msgstr "VoxelGI"
 
-#, fuzzy
 msgid "GIProbeData"
-msgstr "GIProbes"
+msgstr "GIProbeData"
 
 msgid "VoxelGIData"
-msgstr ""
+msgstr "VoxelGIData"
 
 #, fuzzy
 msgid "GradientTexture"
-msgstr "Lecture des textures"
+msgstr "GradientTexture"
 
-#, fuzzy
 msgid "GradientTexture1D"
-msgstr "Lecture des textures"
+msgstr "GradientTexture1D"
 
-#, fuzzy
 msgid "KinematicBody"
-msgstr "KinematicBody2D"
+msgstr "KinematicBody"
 
 msgid "CharacterBody3D"
-msgstr ""
+msgstr "CharacterBody3D"
 
 msgid "KinematicBody2D"
 msgstr "KinematicBody2D"
 
 msgid "CharacterBody2D"
-msgstr ""
+msgstr "CharacterBody2D"
 
-#, fuzzy
 msgid "Light2D"
-msgstr "Lumières"
+msgstr "Light2D"
 
-#, fuzzy
 msgid "PointLight2D"
-msgstr "Lumière ambiante"
+msgstr "PointLight2D"
 
 msgid "LineShape2D"
-msgstr ""
+msgstr "LineShape2D"
 
 msgid "WorldBoundaryShape2D"
-msgstr ""
+msgstr "WorldBoundaryShape2D"
 
 msgid "Listener"
 msgstr "Auditeur"
 
-#, fuzzy
 msgid "AudioListener3D"
-msgstr "Auditeur"
+msgstr "AudioListener3D"
 
-#, fuzzy
 msgid "NavigationMeshInstance"
-msgstr "Maillages de Navigation"
+msgstr "NavigationMeshInstance"
 
-#, fuzzy
 msgid "NavigationRegion3D"
-msgstr "NavigationAgent3D"
+msgstr "NavigationRegion3D"
 
-#, fuzzy
 msgid "NavigationPolygonInstance"
-msgstr "NavigationObstacle3D"
+msgstr "NavigationPolygonInstance"
 
-#, fuzzy
 msgid "NavigationRegion2D"
-msgstr "NavigationAgent3D"
+msgstr "NavigationRegion2D"
 
-#, fuzzy
 msgid "Navigation2DServer"
-msgstr "Navigation"
+msgstr "Navigation2DServer"
 
-#, fuzzy
 msgid "NavigationServer2D"
-msgstr "Navigation"
+msgstr "NavigationServer2D"
 
 msgid "PanoramaSky"
-msgstr ""
+msgstr "PanoramaSky"
 
-#, fuzzy
 msgid "Sky"
-msgstr "clé"
+msgstr "Ciel"
 
 msgid "Particles"
 msgstr "Particules"
 
-#, fuzzy
 msgid "GPUParticles3D"
-msgstr "Particules"
+msgstr "GPUParticles3D"
 
-#, fuzzy
 msgid "Particles2D"
-msgstr "Particules"
+msgstr "Particles2D"
 
-#, fuzzy
 msgid "GPUParticles2D"
-msgstr "Particules"
+msgstr "GPUParticles2D"
 
 msgid "ParticlesMaterial"
 msgstr "ParticlesMaterial"
 
-#, fuzzy
 msgid "ParticleProcessMaterial"
-msgstr "ParticlesMaterial"
+msgstr "ParticleProcessMaterial"
 
 msgid "Physics2DDirectBodyState"
-msgstr ""
+msgstr "Physics2DDirectBodyState"
 
 msgid "PhysicsDirectBodyState2D"
-msgstr ""
+msgstr "PhysicsDirectBodyState2D"
 
 msgid "Physics2DDirectSpaceState"
-msgstr ""
+msgstr "Physics2DDirectSpaceState"
 
 msgid "PhysicsDirectSpaceState2D"
-msgstr ""
+msgstr "PhysicsDirectSpaceState2D"
 
-#, fuzzy
 msgid "Physics2DServer"
-msgstr "Physique"
+msgstr "Physics2DServer"
 
-#, fuzzy
 msgid "PhysicsServer2D"
-msgstr "Physique"
+msgstr "PhysicsServer2D"
 
 msgid "Physics2DShapeQueryParameters"
-msgstr ""
+msgstr "Physics2DShapeQueryParameters"
 
 msgid "PhysicsShapeQueryParameters2D"
-msgstr ""
+msgstr "PhysicsShapeQueryParameters2D"
 
 msgid "Physics2DTestMotionResult"
-msgstr ""
+msgstr "Physics2DTestMotionResult"
 
 msgid "PhysicsTestMotionResult2D"
-msgstr ""
+msgstr "PhysicsTestMotionResult2D"
 
-#, fuzzy
 msgid "PlaneShape"
-msgstr "Plan"
+msgstr "PlaneShape"
 
 msgid "WorldBoundaryShape3D"
-msgstr ""
+msgstr "WorldBoundaryShape3D"
 
-#, fuzzy
 msgid "Position2D"
-msgstr "gl_Position"
+msgstr "Position2D"
 
 msgid "Marker2D"
-msgstr ""
+msgstr "Marker2D"
 
-#, fuzzy
 msgid "Position3D"
-msgstr "gl_Position"
+msgstr "Position3D"
 
 msgid "Marker3D"
-msgstr ""
+msgstr "Marker3D"
 
-#, fuzzy
 msgid "ProceduralSky"
-msgstr "Ciel procédural."
+msgstr "ProceduralSky"
 
-#, fuzzy
 msgid "RayShape"
-msgstr "Formes"
+msgstr "RayShape"
 
 msgid "SeparationRayShape3D"
-msgstr ""
+msgstr "SeparationRayShape3D"
 
-#, fuzzy
 msgid "RayShape2D"
-msgstr "Formes"
+msgstr "RayShape2D"
 
 msgid "SeparationRayShape2D"
-msgstr ""
+msgstr "SeparationRayShape2D"
 
 msgid "ShortCut"
-msgstr ""
+msgstr "Raccourci"
 
 msgid "Shortcut"
-msgstr ""
+msgstr "Raccourci"
 
 msgid "Spatial"
 msgstr "Spatial"
 
-#, fuzzy
 msgid "Node3D"
-msgstr "Node2D"
+msgstr "Node3D"
 
-#, fuzzy
 msgid "SpatialGizmo"
-msgstr "Spatial"
+msgstr "SpatialGizmo"
 
 msgid "Node3DGizmo"
-msgstr ""
+msgstr "Node3DGizmo"
 
-#, fuzzy
 msgid "SpatialMaterial"
-msgstr "Spatial Material"
+msgstr "SpatialMaterial"
 
-#, fuzzy
 msgid "StandardMaterial3D"
-msgstr "Spatial Material"
+msgstr "StandardMaterial3D"
 
 msgid "Sprite"
-msgstr ""
+msgstr "Sprite"
 
 msgid "Sprite2D"
 msgstr "Sprite2D"
 
-#, fuzzy
 msgid "StreamTexture"
-msgstr "Texture"
+msgstr "StreamTexture"
 
-#, fuzzy
 msgid "CompressedTexture2D"
-msgstr "Mode de compression"
+msgstr "CompressedTexture2D"
 
-#, fuzzy
 msgid "TextureProgress"
-msgstr "Compression de texture"
+msgstr "TextureProgress"
 
-#, fuzzy
 msgid "TextureProgressBar"
-msgstr "Compression de texture"
+msgstr "TextureProgressBar"
 
-#, fuzzy
 msgid "VideoPlayer"
-msgstr "Configuration de la fenêtre d'affichage"
+msgstr "VideoPlayer"
 
-#, fuzzy
 msgid "VideoStreamPlayer"
-msgstr "AudioStreamPlayer"
+msgstr "VideoStreamPlayer"
 
 msgid "ViewportContainer"
 msgstr "ViewportContainer"
 
-#, fuzzy
 msgid "SubViewportContainer"
-msgstr "ViewportContainer"
+msgstr "SubViewportContainer"
 
-#, fuzzy
 msgid "Viewport"
-msgstr "Fenêtre d'affichage (Viewports)"
+msgstr "Viewport"
 
-#, fuzzy
 msgid "SubViewport"
-msgstr "Fenêtre d'affichage (Viewports)"
+msgstr "SubViewport"
 
-#, fuzzy
 msgid "VisibilityEnabler"
-msgstr "Zone de Visibilité"
+msgstr "VisibilityEnabler"
 
 msgid "VisibleOnScreenEnabler3D"
-msgstr ""
+msgstr "VisibleOnScreenEnabler3D"
 
-#, fuzzy
 msgid "VisibilityNotifier"
-msgstr "Zone de Visibilité"
+msgstr "VisibilityNotifier"
 
 msgid "VisibleOnScreenNotifier3D"
-msgstr ""
+msgstr "VisibleOnScreenNotifier3D"
 
-#, fuzzy
 msgid "VisibilityNotifier2D"
-msgstr "Zone de Visibilité"
+msgstr "VisibilityNotifier2D"
 
 msgid "VisibleOnScreenNotifier2D"
-msgstr ""
+msgstr "VisibleOnScreenNotifier2D"
 
-#, fuzzy
 msgid "VisibilityNotifier3D"
-msgstr "Zone de Visibilité"
+msgstr "VisibilityNotifier3D"
 
-#, fuzzy
 msgid "VisualServer"
-msgstr "VisualScript"
+msgstr "VisualServer"
 
-#, fuzzy
 msgid "RenderingServer"
-msgstr "Rendu"
+msgstr "RenderingServer"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarConstant"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarConstant"
 
-#, fuzzy
 msgid "VisualShaderNodeFloatConstant"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeFloatConstant"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarFunc"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarFunc"
 
-#, fuzzy
 msgid "VisualShaderNodeFloatFunc"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeFloatFunc"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarOp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarOp"
 
-#, fuzzy
 msgid "VisualShaderNodeFloatOp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeFloatOp"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarClamp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarClamp"
 
-#, fuzzy
 msgid "VisualShaderNodeClamp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeClamp"
 
-#, fuzzy
 msgid "VisualShaderNodeVectorClamp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeVectorClamp"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarInterp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarInterp"
 
-#, fuzzy
 msgid "VisualShaderNodeMix"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeMix"
 
-#, fuzzy
 msgid "VisualShaderNodeVectorInterp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeVectorInterp"
 
-#, fuzzy
 msgid "VisualShaderNodeVectorScalarMix"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeVectorScalarMix"
 
 msgid "VisualShaderNodeScalarSmoothStep"
-msgstr ""
+msgstr "VisualShaderNodeScalarSmoothStep"
 
-#, fuzzy
 msgid "VisualShaderNodeSmoothStep"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeSmoothStep"
 
 msgid "VisualShaderNodeVectorSmoothStep"
-msgstr ""
+msgstr "VisualShaderNodeVectorSmoothStep"
 
 msgid "VisualShaderNodeVectorScalarSmoothStep"
-msgstr ""
+msgstr "VisualShaderNodeVectorScalarSmoothStep"
 
 msgid "VisualShaderNodeVectorScalarStep"
-msgstr ""
+msgstr "VisualShaderNodeVectorScalarStep"
 
-#, fuzzy
 msgid "VisualShaderNodeStep"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeStep"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarSwitch"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarSwitch"
 
-#, fuzzy
 msgid "VisualShaderNodeSwitch"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeSwitch"
 
 msgid "VisualShaderNodeScalarTransformMult"
-msgstr ""
+msgstr "VisualShaderNodeScalarTransformMult"
 
-#, fuzzy
 msgid "VisualShaderNodeTransformOp"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeTransformOp"
 
 msgid "VisualShaderNodeScalarDerivativeFunc"
-msgstr ""
+msgstr "VisualShaderNodeScalarDerivativeFunc"
 
-#, fuzzy
 msgid "VisualShaderNodeDerivativeFunc"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeDerivativeFunc"
 
 msgid "VisualShaderNodeVectorDerivativeFunc"
-msgstr ""
+msgstr "VisualShaderNodeVectorDerivativeFunc"
 
-#, fuzzy
 msgid "VisualShaderNodeBooleanUniform"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeBooleanUniform"
 
 msgid "VisualShaderNodeBooleanParameter"
-msgstr ""
+msgstr "VisualShaderNodeBooleanParameter"
 
-#, fuzzy
 msgid "VisualShaderNodeColorUniform"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeColorUniform"
 
-#, fuzzy
 msgid "VisualShaderNodeColorParameter"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeColorParameter"
 
-#, fuzzy
 msgid "VisualShaderNodeScalarUniform"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeScalarUniform"
 
-#, fuzzy
 msgid "VisualShaderNodeFloatParameter"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeFloatParameter"
 
-#, fuzzy
 msgid "VisualShaderNodeCubeMapUniform"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeCubeMapUniform"
 
 msgid "VisualShaderNodeCubeMapParameter"
-msgstr ""
+msgstr "VisualShaderNodeCubeMapParameter"
 
-#, fuzzy
 msgid "VisualShaderNodeTextureUniform"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeTextureUniform"
 
 msgid "VisualShaderNodeTexture2DParameter"
-msgstr ""
+msgstr "VisualShaderNodeTexture2DParameter"
 
 msgid "VisualShaderNodeTextureUniformTriplanar"
-msgstr ""
+msgstr "VisualShaderNodeTextureUniformTriplanar"
 
 msgid "VisualShaderNodeTextureParameterTriplanar"
-msgstr ""
+msgstr "VisualShaderNodeTextureParameterTriplanar"
 
-#, fuzzy
 msgid "VisualShaderNodeTransformUniform"
-msgstr "Nœuds Visual Shader"
+msgstr "VisualShaderNodeTransformUniform"
 
 #, fuzzy
 msgid "VisualShaderNodeTransformParameter"
@@ -1168,7 +1083,7 @@ msgid ""
 msgstr ""
 
 msgid "``hint_albedo`` is now ``source_color``."
-msgstr ""
+msgstr "``hint_albedo`` est maintenant ``source_color``."
 
 #, fuzzy
 msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"
@@ -1367,7 +1282,7 @@ msgid ""
 msgstr ""
 
 msgid "**Removed or replaced nodes/resources**"
-msgstr ""
+msgstr "**Retiré ou remplacé des nœuds / ressources**"
 
 msgid ""
 "This lists all nodes that were replaced by another node requiring different "
@@ -1413,10 +1328,10 @@ msgid "BakedLightmapData"
 msgstr "Baked lightmaps"
 
 msgid "LightmapGIData"
-msgstr ""
+msgstr "LightmapGIData"
 
 msgid "BitmapFont"
-msgstr ""
+msgstr "BitmapFont"
 
 #, fuzzy
 msgid "FontFile"
@@ -1455,10 +1370,10 @@ msgstr ""
 "<doc_navigation_overview_3d>`."
 
 msgid "OpenSimplexNoise"
-msgstr ""
+msgstr "OpenSimplexNoise"
 
 msgid "FastNoiseLite"
-msgstr ""
+msgstr "FastNoiseLite"
 
 msgid ""
 "Has different parameters and more noise types such as cellular. No support "
@@ -1488,7 +1403,7 @@ msgid "CanvasItem has a new **Y Sort Enabled** property in 4.0."
 msgstr ""
 
 msgid "ProximityGroup"
-msgstr ""
+msgstr "ProximityGroup"
 
 msgid ":ref:`class_VisibleOnScreenNotifier3D` can act as a replacement."
 msgstr ""
@@ -1556,8 +1471,9 @@ msgid ""
 "CHANGELOG.md>`__ for a full list of changes between Godot 3.x and 4."
 msgstr ""
 
+#, fuzzy
 msgid "ArrayMesh resource compatibility breakage"
-msgstr ""
+msgstr "Fin de comptabilité de ressource ArrayMesh"
 
 msgid ""
 "If you've saved an ArrayMesh resource to a ``.res`` or ``.tres`` file, the "

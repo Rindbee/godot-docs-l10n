@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,19 +269,19 @@ msgid "Encryption / Encryption Key"
 msgstr ""
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr ""
+msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
 msgid "Options / Application / Provisioning Profile UUID Debug"
 msgstr ""
 
 msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_DEBUG``"
-msgstr ""
+msgstr "``GODOT_IOS_PROVISIONING_PROFILE_UUID_DEBUG``"
 
 msgid "Options / Application / Provisioning Profile UUID Release"
 msgstr ""
 
 msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_RELEASE``"
-msgstr ""
+msgstr "``GODOT_IOS_PROVISIONING_PROFILE_UUID_RELEASE``"
 
 msgid "Troubleshooting"
 msgstr "Dépannage"

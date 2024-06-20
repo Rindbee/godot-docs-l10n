@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,52 +58,45 @@ msgstr "aa"
 msgid "Afar"
 msgstr "Afar"
 
-#, fuzzy
 msgid "ab"
-msgstr "aabb"
+msgstr "ab"
 
 msgid "Abkhazian"
 msgstr ""
 
-#, fuzzy
 msgid "ace"
-msgstr "Cache"
+msgstr "ace"
 
 #, fuzzy
 msgid "Achinese"
 msgstr "Cinese"
 
-#, fuzzy
 msgid "ach"
-msgstr "Cache"
+msgstr "ach"
 
 msgid "Acoli"
 msgstr ""
 
-#, fuzzy
 msgid "ada"
-msgstr "aa"
+msgstr "ada"
 
 msgid "Adangme"
 msgstr ""
 
-#, fuzzy
 msgid "ady"
-msgstr "bad"
+msgstr "ady"
 
 msgid "Adyghe"
 msgstr ""
 
-#, fuzzy
 msgid "ae"
-msgstr "Salva"
+msgstr "ae"
 
 msgid "Avestan"
 msgstr ""
 
-#, fuzzy
 msgid "aeb"
-msgstr "Web"
+msgstr "aeb"
 
 msgid "Tunisian Arabic"
 msgstr ""
@@ -114,43 +107,39 @@ msgstr "af"
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#, fuzzy
 msgid "afh"
-msgstr "af"
+msgstr "afh"
 
 msgid "Afrihili"
 msgstr ""
 
-#, fuzzy
 msgid "agq"
-msgstr "Etichetta"
+msgstr "agq"
 
 msgid "Aghem"
 msgstr ""
 
-#, fuzzy
 msgid "ain"
-msgstr "Principale"
+msgstr "ain"
 
 msgid "Ainu"
 msgstr ""
 
-#, fuzzy
 msgid "agr"
-msgstr "ar"
+msgstr "agr"
 
 #, fuzzy
 msgid "Aguaruna"
 msgstr "Aguaruna (Perù)"
 
 msgid "ak"
-msgstr ""
+msgstr "ak"
 
 msgid "Akan"
 msgstr ""
 
 msgid "akk"
-msgstr ""
+msgstr "akk"
 
 msgid "Akkadian"
 msgstr ""
@@ -798,9 +787,8 @@ msgstr "sco"
 msgid "Coptic"
 msgstr ""
 
-#, fuzzy
 msgid "cps"
-msgstr "cs"
+msgstr "cps"
 
 msgid "Capiznon"
 msgstr ""
@@ -839,7 +827,7 @@ msgid "Church Slavic"
 msgstr ""
 
 msgid "cv"
-msgstr ""
+msgstr "cv"
 
 #, fuzzy
 msgid "Chuvash"
@@ -1046,9 +1034,8 @@ msgstr "en"
 msgid "English"
 msgstr "Inglese"
 
-#, fuzzy
 msgid "enm"
-msgstr "enum"
+msgstr "enm"
 
 #, fuzzy
 msgid "Middle English"
@@ -1066,9 +1053,8 @@ msgstr "es"
 msgid "Spanish"
 msgstr "Spagnolo"
 
-#, fuzzy
 msgid "esu"
-msgstr "es"
+msgstr "esu"
 
 msgid "Central Yupik"
 msgstr ""
@@ -1085,9 +1071,8 @@ msgstr "eu"
 msgid "Basque"
 msgstr "Basco"
 
-#, fuzzy
 msgid "ewo"
-msgstr "eo"
+msgstr "ewo"
 
 msgid "Ewondo"
 msgstr ""
@@ -1145,7 +1130,7 @@ msgid "Tornedalen Finnish"
 msgstr ""
 
 msgid "fj"
-msgstr ""
+msgstr "fj"
 
 msgid "Fijian"
 msgstr ""
@@ -1355,7 +1340,7 @@ msgid "Gorontalo"
 msgstr ""
 
 msgid "got"
-msgstr ""
+msgstr "got"
 
 msgid "Gothic"
 msgstr ""
@@ -1373,14 +1358,14 @@ msgid "Ancient Greek"
 msgstr ""
 
 msgid "gsw"
-msgstr ""
+msgstr "gsw"
 
 #, fuzzy
 msgid "Swiss German"
 msgstr "Tedesco"
 
 msgid "gu"
-msgstr ""
+msgstr "gu"
 
 #, fuzzy
 msgid "Gujarati"
@@ -1493,9 +1478,8 @@ msgstr ""
 msgid "Hiri Motu"
 msgstr ""
 
-#, fuzzy
 msgid "hne"
-msgstr "he"
+msgstr "hne"
 
 #, fuzzy
 msgid "Chhattisgarhi"
@@ -1516,14 +1500,14 @@ msgid "Upper Sorbian"
 msgstr "Sorbo superiore (Germania)"
 
 msgid "hsn"
-msgstr ""
+msgstr "hsn"
 
 #, fuzzy
 msgid "Xiang Chinese"
 msgstr "Cinese"
 
 msgid "ht"
-msgstr ""
+msgstr "ht"
 
 #, fuzzy
 msgid "Haitian"
@@ -1671,9 +1655,8 @@ msgstr "ja"
 msgid "Japanese"
 msgstr "Giapponese"
 
-#, fuzzy
 msgid "jam"
-msgstr "ja"
+msgstr "jam"
 
 msgid "Jamaican Creole English"
 msgstr ""
@@ -1697,9 +1680,8 @@ msgstr ""
 msgid "Machame"
 msgstr ""
 
-#, fuzzy
 msgid "jpr"
-msgstr "pr"
+msgstr "jpr"
 
 #, fuzzy
 msgid "Judeo-Persian"
@@ -2272,9 +2254,8 @@ msgstr "lv"
 msgid "Latvian"
 msgstr "Lettone"
 
-#, fuzzy
 msgid "lzh"
-msgstr "zh"
+msgstr "lzh"
 
 #, fuzzy
 msgid "Literary Chinese"
@@ -2286,9 +2267,8 @@ msgstr ""
 msgid "Laz"
 msgstr ""
 
-#, fuzzy
 msgid "mad"
-msgstr "bad"
+msgstr "mad"
 
 #, fuzzy
 msgid "Madurese"
@@ -2324,9 +2304,8 @@ msgstr "mk"
 msgid "Makasar"
 msgstr ""
 
-#, fuzzy
 msgid "man"
-msgstr "max"
+msgstr "man"
 
 #, fuzzy
 msgid "Mandingo"
@@ -2466,7 +2445,7 @@ msgid "Malayalam"
 msgstr "Malayalam"
 
 msgid "mn"
-msgstr ""
+msgstr "mn"
 
 #, fuzzy
 msgid "Mongolian"
@@ -2669,7 +2648,7 @@ msgid "Central Nahuatl"
 msgstr "Nahuatl centrale (Messico)"
 
 msgid "ng"
-msgstr ""
+msgstr "ng"
 
 msgid "Ndonga"
 msgstr ""
@@ -2746,7 +2725,7 @@ msgid "N'ko"
 msgstr ""
 
 msgid "nr"
-msgstr ""
+msgstr "nr"
 
 #, fuzzy
 msgid "South Ndebele"
@@ -3025,9 +3004,8 @@ msgstr "pt"
 msgid "Portuguese"
 msgstr "Portoghese"
 
-#, fuzzy
 msgid "qu"
-msgstr "quat"
+msgstr "qu"
 
 msgid "Quechua"
 msgstr ""
@@ -3246,9 +3224,8 @@ msgstr ""
 msgid "Sangu"
 msgstr "Lingua"
 
-#, fuzzy
 msgid "sc"
-msgstr "sco"
+msgstr "sc"
 
 #, fuzzy
 msgid "Sardinian"
@@ -3268,7 +3245,7 @@ msgid "Scots"
 msgstr "Scozzese"
 
 msgid "sd"
-msgstr ""
+msgstr "sd"
 
 #, fuzzy
 msgid "Sindhi"
@@ -3352,9 +3329,8 @@ msgstr "sgs_LT"
 msgid "Samogitian"
 msgstr "Samogiziano (Lituania)"
 
-#, fuzzy
 msgid "sh"
-msgstr "Mesh"
+msgstr "sh"
 
 #, fuzzy
 msgid "Serbo-Croatian"

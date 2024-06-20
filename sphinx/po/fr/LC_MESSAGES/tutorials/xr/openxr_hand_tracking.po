@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,7 +152,7 @@ msgid "OpenXR hand skeleton"
 msgstr "Compléter le squelette"
 
 msgid "Left hand"
-msgstr ""
+msgstr "Main gauche"
 
 #, fuzzy
 msgid "Right hand"
@@ -416,46 +416,46 @@ msgid "These are exposed through the following trackers:"
 msgstr "Remplissez le formulaire avec les paramètres suivants :"
 
 msgid "HTC trackers"
-msgstr ""
+msgstr "Traqueurs HTC"
 
 msgid "/user/vive_tracker_htcx/role/handheld_object"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/handheld_object"
 
 msgid "/user/vive_tracker_htcx/role/left_foot"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/left_foot"
 
 msgid "/user/vive_tracker_htcx/role/right_foot"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/right_foot"
 
 msgid "/user/vive_tracker_htcx/role/left_shoulder"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/left_shoulder"
 
 msgid "/user/vive_tracker_htcx/role/right_shoulder"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/right_shoulder"
 
 msgid "/user/vive_tracker_htcx/role/left_elbow"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/left_elbow"
 
 msgid "/user/vive_tracker_htcx/role/right_elbow"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/right_elbow"
 
 msgid "/user/vive_tracker_htcx/role/left_knee"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/left_knee"
 
 msgid "/user/vive_tracker_htcx/role/right_knee"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/right_knee"
 
 msgid "/user/vive_tracker_htcx/role/waist"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/waist"
 
 msgid "/user/vive_tracker_htcx/role/chest"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/chest"
 
 msgid "/user/vive_tracker_htcx/role/camera"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/camera"
 
 msgid "/user/vive_tracker_htcx/role/keyboard"
-msgstr ""
+msgstr "/user/vive_tracker_htcx/role/keyboard"
 
 #, fuzzy
 msgid "Some final words"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Fog shaders"
-msgstr "シェーダー"
+msgstr "Fogシェーダー"
 
 msgid ""
 "Fog shaders are used to define how fog is added (or subtracted) from a scene "
@@ -27,6 +26,10 @@ msgid ""
 "<class_FogVolume>` and volumetric fog. Fog shaders only have one processing "
 "function, the ``fog()`` function."
 msgstr ""
+"Fogシェーダーは特定の領域のシーンからフォグを追加 (または削除) する方法を定義"
+"するために使用されます。Fogシェーダーは常に :ref:`FogVolumes "
+"<class_FogVolume>` およびボリューメトリックフォグと一緒に使用されます。Fog"
+"シェーダーにはプロセッサー関数が1つだけあり、それは ``fog()`` 関数です。"
 
 msgid ""
 "The resolution of the fog shaders depends on the resolution of the "
@@ -34,6 +37,9 @@ msgid ""
 "shader can add depends on how close the :ref:`FogVolume <class_FogVolume>` "
 "is to the camera."
 msgstr ""
+"Fogシェーダーの解像度はボリューメトリックフォグの視錐台ボクセルのグリッド解像"
+"度に依存します。したがってFogシェーダーが追加できるLODは、:ref:`FogVolume "
+"<class_FogVolume>` がカメラにどれだけ近いかによって決まります。"
 
 msgid ""
 "Fog shaders are a special form of compute shader that is called once for "
@@ -42,29 +48,30 @@ msgid ""
 "just barely touch a given :ref:`FogVolume <class_FogVolume>` will still be "
 "used."
 msgstr ""
+"Fogシェーダーは特別なコンピュートシェーダーで、関連する :ref:`FogVolume "
+"<class_FogVolume>` の軸に整列したバウンディング ボックスに触れる視錐台ボクセ"
+"ルごとに 1 回呼び出されます。これは指定された :ref:`FogVolume "
+"<class_FogVolume>` にかろうじて触れる視錐台ボクセルが引き続き使用されることを"
+"意味します。"
 
-#, fuzzy
 msgid "Built-ins"
 msgstr "ビルトイン"
 
-#, fuzzy
 msgid ""
 "Values marked as \"in\" are read-only. Values marked as \"out\" are for "
 "optional writing and will not necessarily contain sensible values. Samplers "
 "cannot be written to so they are not marked."
 msgstr ""
-"\"in\"としてマークされた値は読み取り専用です。\"out\"とマークされた値はオプ"
-"ションの書き込み用であり、必ずしも適切な値を含むとは限りません。\"inout\"と"
-"マークされた値は、適切なデフォルト値を提供し、オプションで書き込むことができ"
-"ます。サンプラーは書込みの対象ではなく、マークされていません。"
+"\"in\"とマークされた値は読み取り専用です。 \"out\"とマークされた値はオプショ"
+"ンの書き込み用であり、必ずしも適切な値を含むとは限りません。サンプラーには書"
+"き込む対象ではないためマークされません。"
 
-#, fuzzy
 msgid "Global built-ins"
-msgstr "フラグメント用ビルトイン"
+msgstr "グローバルビルトイン"
 
 msgid ""
 "Global built-ins are available everywhere, including in custom functions."
-msgstr ""
+msgstr "グローバルビルトインはカスタム関数を含めあらゆる場所で使用できます。"
 
 msgid "Built-in"
 msgstr "ビルトイン"
@@ -78,85 +85,90 @@ msgstr "\\ in float **TIME**"
 msgid "Global time, in seconds."
 msgstr "秒単位のグローバル時間。"
 
-#, fuzzy
 msgid "in float **PI**"
-msgstr "\\ in float **TIME**"
+msgstr "\\ in float **PI**"
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
+"``PI`` 円周率の定数 (``3.141592``)。円の円周とその直径の比率、および半回転の"
+"ラジアン量。"
 
-#, fuzzy
 msgid "in float **TAU**"
-msgstr "\\ in float **DELTA**"
+msgstr "\\ in float **TAU**"
 
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
 msgstr ""
+"定数 `TAU`` は円周率の2倍 (``6.283185``)。 ``PI * 2`` と、1回転のラジアン量に"
+"相当します。"
 
-#, fuzzy
 msgid "in float **E**"
-msgstr "\\ in float **TIME**"
+msgstr "\\ in float **E**"
 
 msgid ""
 "A ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
-msgstr ""
+msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
 
-#, fuzzy
 msgid "Fog built-ins"
-msgstr "ライト用ビルトイン"
+msgstr "Fogビルトイン"
 
 msgid ""
 "All of the output values of fog volumes overlap one another. This allows :"
 "ref:`FogVolumes <class_FogVolume>` to be rendered efficiently as they can "
 "all be drawn at once."
 msgstr ""
+"Fogボリュームの出力値はすべて互いに重なり合います。これにより :ref:"
+"`FogVolumes <class_FogVolume>` をすべて一度に描画できるため、効率的にレンダリ"
+"ングできるようになります。"
 
-#, fuzzy
 msgid "in vec3 **WORLD_POSITION**"
-msgstr "\\ in vec3 **VIEW**"
+msgstr "\\ in vec3 **WORLD_POSITION**"
 
 msgid "Position of current froxel cell in world space."
-msgstr ""
+msgstr "ワールド空間における現在の視錐台ボクセルのセルの位置。"
 
-#, fuzzy
 msgid "in vec3 **OBJECT_POSITION**"
-msgstr "\\ in vec3 **VIEW**"
+msgstr "\\ in vec3 **OBJECT_POSITION**"
 
 msgid ""
 "Position of the center of the current :ref:`FogVolume <class_FogVolume>` in "
 "world space."
 msgstr ""
+"ワールド空間における現在の :ref:`FogVolume <class_FogVolume>` の中心の位置。"
 
-#, fuzzy
 msgid "in vec3 **UVW**"
-msgstr "\\ in vec3 **VIEW**"
+msgstr "\\ in vec3 **UVW**"
 
 msgid ""
 "3-dimensional uv, used to map a 3D texture to the current :ref:`FogVolume "
 "<class_FogVolume>`."
 msgstr ""
+"3次元UV。3D テクスチャを現在の :ref:`FogVolume <class_FogVolume>` にマッピン"
+"グするために使用されます。"
 
-#, fuzzy
 msgid "in vec3 **SIZE**"
-msgstr "\\ in vec3 **VIEW**"
+msgstr "\\ in vec3 **SIZE**"
 
 msgid ""
 "Size of the current :ref:`FogVolume <class_FogVolume>` when its :ref:"
 "`shape<class_FogVolume_property_shape>` has a size."
 msgstr ""
+":ref:`shape<class_FogVolume_property_shape>` にサイズがあるときの、現在の :"
+"ref:`FogVolume <class_FogVolume>` のサイズ。"
 
-#, fuzzy
 msgid "in vec3 **SDF**"
-msgstr "\\ in vec3 **ALBEDO**"
+msgstr "\\ in vec3 **SDF**"
 
 msgid ""
 "Signed distance field to the surface of the :ref:`FogVolume "
 "<class_FogVolume>`. Negative if inside volume, positive otherwise."
 msgstr ""
+":ref:`FogVolume <class_FogVolume>` の表面までのSigned Distance Field (SDF)。"
+"ボリューム内にある場合はマイナス値、外にある場合はプラス値です。"
 
 msgid "out vec3 **ALBEDO**"
 msgstr "\\ out vec3 **ALBEDO**"
@@ -165,15 +177,19 @@ msgid ""
 "Output base color value, interacts with light to produce final color. Only "
 "written to fog volume if used."
 msgstr ""
+"基本の色を出力します。これは光と相互作用して最終的なカラーを生成します。使用"
+"する場合はフォグボリュームにのみ書き込まれます。"
 
-#, fuzzy
 msgid "out float **DENSITY**"
-msgstr "\\ out float **DEPTH**"
+msgstr "\\ out float **DENSITY**"
 
 msgid ""
 "Output density value. Can be negative to allow subtracting one volume from "
 "another. Density must be used for fog shader to write anything at all."
 msgstr ""
+"密度の値を出力します。あるボリュームを別のボリュームから減算できるようにする"
+"にはマイナスの値を指定します。Fogシェーダーで何かに書き込む際は、この密度の指"
+"定は必須です。"
 
 msgid "out vec3 **EMISSION**"
 msgstr "\\ out vec3 **EMISSION**"
@@ -182,6 +198,8 @@ msgid ""
 "Output emission color value, added to color during light pass to produce "
 "final color. Only written to fog volume if used."
 msgstr ""
+"発光色を出力します。光の通過中にこの発光色が追加されて最終的な色が生成されま"
+"す。使用した際はフォグボリュームにのみ書き込まれます。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

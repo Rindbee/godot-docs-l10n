@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -253,14 +253,14 @@ msgid "all"
 msgstr "Call"
 
 msgid "`System.Linq.Enumerable.All`_"
-msgstr ""
+msgstr "`System.Linq.Enumerable.All`_"
 
 #, fuzzy
 msgid "any"
 msgstr "et"
 
 msgid "`System.Linq.Enumerable.Any`_"
-msgstr ""
+msgstr "`System.Linq.Enumerable.Any`_"
 
 #, fuzzy
 msgid "append"
@@ -275,7 +275,7 @@ msgid "append_array"
 msgstr "Tableau de tangentes"
 
 msgid "AddRange"
-msgstr ""
+msgstr "AddRange"
 
 #, fuzzy
 msgid "assign"
@@ -302,7 +302,7 @@ msgid "BinarySearch"
 msgstr "Recherche binaire"
 
 msgid "bsearch_custom"
-msgstr ""
+msgstr "bsearch_custom"
 
 #, fuzzy
 msgid "N/A"
@@ -319,7 +319,7 @@ msgid "count"
 msgstr "Quantité"
 
 msgid "`System.Linq.Enumerable.Count`_"
-msgstr ""
+msgstr "`System.Linq.Enumerable.Count`_"
 
 #, fuzzy
 msgid "duplicate"
@@ -333,7 +333,7 @@ msgid "erase"
 msgstr "Caméras"
 
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #, fuzzy
 msgid "fill"
@@ -347,17 +347,17 @@ msgid "filter"
 msgstr "Filtre"
 
 msgid "Use `System.Linq.Enumerable.Where`_"
-msgstr ""
+msgstr "Utiliser `System.Linq.Enumerable.Where`_"
 
 msgid "find"
-msgstr ""
+msgstr "Trouver"
 
 #, fuzzy
 msgid "IndexOf"
 msgstr "Index"
 
 msgid "front"
-msgstr ""
+msgstr "Devant"
 
 msgid ""
 "``Array[0]`` or `System.Linq.Enumerable.First`_ or `System.Linq.Enumerable."
@@ -373,7 +373,7 @@ msgid "get_typed_class_name"
 msgstr "class_name"
 
 msgid "get_typed_script"
-msgstr ""
+msgstr "get_typed_script"
 
 #, fuzzy
 msgid "has"
@@ -384,10 +384,10 @@ msgid "Contains"
 msgstr "Conteneurs"
 
 msgid "hash"
-msgstr ""
+msgstr "hachage"
 
 msgid "GD.Hash"
-msgstr ""
+msgstr "GD.Hash"
 
 #, fuzzy
 msgid "insert"
@@ -398,36 +398,36 @@ msgid "Insert"
 msgstr "Insérer clé"
 
 msgid "is_empty"
-msgstr ""
+msgstr "is_empty"
 
 msgid "Use ``Count == 0``"
 msgstr ""
 
 msgid "is_read_only"
-msgstr ""
+msgstr "is_read_only"
 
 msgid "IsReadOnly"
-msgstr ""
+msgstr "IsReadOnly"
 
 msgid "is_same_typed"
-msgstr ""
+msgstr "is_same_typed"
 
 #, fuzzy
 msgid "is_typed"
 msgstr "Type"
 
 msgid "make_read_only"
-msgstr ""
+msgstr "make_read_only"
 
 msgid "MakeReadOnly"
-msgstr ""
+msgstr "MakeReadOnly"
 
 #, fuzzy
 msgid "map"
 msgstr "pap"
 
 msgid "`System.Linq.Enumerable.Select`_"
-msgstr ""
+msgstr "`System.Linq.Enumerable.Select`_"
 
 msgid "max"
 msgstr "max"
@@ -445,53 +445,53 @@ msgid "Min"
 msgstr "Principal"
 
 msgid "pick_random"
-msgstr ""
+msgstr "pick_random"
 
 msgid "PickRandom (Consider using `System.Random`_)"
 msgstr ""
 
 msgid "pop_at"
-msgstr ""
+msgstr "pop_at"
 
 msgid "``Array[i]`` with ``RemoveAt(i)``"
 msgstr ""
 
 msgid "pop_back"
-msgstr ""
+msgstr "pop_back"
 
 msgid "``Array[^1]`` with ``RemoveAt(Count - 1)``"
 msgstr ""
 
 msgid "pop_front"
-msgstr ""
+msgstr "pop_front"
 
 msgid "``Array[0]`` with ``RemoveAt(0)``"
 msgstr ""
 
 msgid "push_back"
-msgstr ""
+msgstr "push_back"
 
 msgid "``Insert(Count, item)``"
-msgstr ""
+msgstr "``Insert(Count, item)``"
 
 msgid "push_front"
-msgstr ""
+msgstr "push_front"
 
 msgid "``Insert(0, item)``"
-msgstr ""
+msgstr "``Insert(0, item)``"
 
 msgid "reduce"
-msgstr ""
+msgstr "Réduire"
 
 msgid "`System.Linq.Enumerable.Aggregate`_"
-msgstr ""
+msgstr "`System.Linq.Enumerable.Aggregate`_"
 
 #, fuzzy
 msgid "remove_at"
 msgstr "remote"
 
 msgid "RemoveAt"
-msgstr ""
+msgstr "RemoveAt"
 
 #, fuzzy
 msgid "resize"
@@ -510,17 +510,17 @@ msgid "Reverse"
 msgstr "Réverbération (Reverb)"
 
 msgid "rfind"
-msgstr ""
+msgstr "rfind"
 
 #, fuzzy
 msgid "LastIndexOf"
 msgstr "Index"
 
 msgid "shuffle"
-msgstr ""
+msgstr "mélanger"
 
 msgid "Shuffle"
-msgstr ""
+msgstr "Mélanger"
 
 #, fuzzy
 msgid "size"
@@ -530,30 +530,30 @@ msgid "Count"
 msgstr "Compte"
 
 msgid "slice"
-msgstr ""
+msgstr "trancher"
 
 msgid "Slice"
-msgstr ""
+msgstr "Trancher"
 
 msgid "sort"
-msgstr ""
+msgstr "trier"
 
 #, fuzzy
 msgid "Sort"
 msgstr "``YSort``"
 
 msgid "sort_custom"
-msgstr ""
+msgstr "sort_custom"
 
 msgid "`System.Linq.Enumerable.OrderBy`_"
-msgstr ""
+msgstr "`System.Linq.Enumerable.OrderBy`_"
 
 #, fuzzy
 msgid "operator !="
 msgstr "Opérateur"
 
 msgid "!RecursiveEqual"
-msgstr ""
+msgstr "!RecursiveEqual"
 
 #, fuzzy
 msgid "operator +"
@@ -572,7 +572,7 @@ msgid "operator =="
 msgstr "Opérateur"
 
 msgid "RecursiveEqual"
-msgstr ""
+msgstr "RecursiveEqual"
 
 #, fuzzy
 msgid "operator >"
@@ -587,7 +587,7 @@ msgid "operator []"
 msgstr "Opérateur"
 
 msgid "Array[int] indexer"
-msgstr ""
+msgstr "Array[int] indexer"
 
 msgid "Dictionary"
 msgstr "Dictionnaire"
@@ -622,7 +622,7 @@ msgid "List of Godot's Dictionary methods and their equivalent in C#:"
 msgstr ""
 
 msgid "find_key"
-msgstr ""
+msgstr "find_key"
 
 #, fuzzy
 msgid "get"
@@ -636,16 +636,16 @@ msgid "ContainsKey"
 msgstr "Conteneurs"
 
 msgid "has_all"
-msgstr ""
+msgstr "has_all"
 
 msgid "keys"
 msgstr "clés"
 
 msgid "Keys"
-msgstr ""
+msgstr "Clés"
 
 msgid "merge"
-msgstr ""
+msgstr "fusionner"
 
 msgid "Merge"
 msgstr "Fusionner"

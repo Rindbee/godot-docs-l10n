@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,11 +36,10 @@ msgid ""
 msgstr ""
 
 msgid "Buildsystem and work environment"
-msgstr ""
+msgstr "构建系统与工作环境"
 
-#, fuzzy
 msgid "Engine architecture"
-msgstr "架构"
+msgstr "引擎架构"
 
 msgid "Translation status"
 msgstr "翻译状态"

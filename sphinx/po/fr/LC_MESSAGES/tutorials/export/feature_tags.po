@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgid "Running on Android (but not within a Web browser)"
 msgstr ""
 
 msgid "**bsd**"
-msgstr ""
+msgstr "**bsd**"
 
 msgid "Running on \\*BSD (but not within a Web browser)"
 msgstr ""
@@ -113,7 +113,7 @@ msgid "Running on macOS (but not within a Web browser)"
 msgstr ""
 
 msgid "**ios**"
-msgstr ""
+msgstr "**ios**"
 
 msgid "Running on iOS (but not within a Web browser)"
 msgstr ""
@@ -284,7 +284,7 @@ msgid "Running on a 32-bit WebAssembly build"
 msgstr "Exécution sur une version 32 bits ARM"
 
 msgid "**wasm**"
-msgstr ""
+msgstr "**wasm**"
 
 #, fuzzy
 msgid "Running on a WebAssembly build (any bitness)"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Shaders style guide"
-msgstr "C#スタイルガイド"
+msgstr "シェーダースタイルガイド"
 
-#, fuzzy
 msgid ""
 "This style guide lists conventions to write elegant shaders. The goal is to "
 "encourage writing clean, readable code and promote consistency across "
 "projects, discussions, and tutorials. Hopefully, this will also support the "
 "development of auto-formatting tools."
 msgstr ""
-"このスタイルガイドには、エレガントなGDScriptを作成するための規則が記載されて"
-"います。目標は、クリーンで読みやすいコードの作成を奨励し、プロジェクト、ディ"
-"スカッション、およびチュートリアル間の一貫性を促進することです。うまくいけ"
-"ば、これも自動フォーマットツールの開発を促進するでしょう。"
+"このスタイルガイドには、エレガントなシェーダーを作成するための規則が記載され"
+"ています。目標はクリーンで読みやすいコードの作成を奨励し、プロジェクト、ディ"
+"スカッション、チュートリアル全体の一貫性を促進することです。うまくいけば、こ"
+"れも自動フォーマットツールの開発に役立つでしょう。"
 
 msgid ""
 "Since the Godot shader language is close to C-style languages and GLSL, this "
@@ -39,6 +37,10 @@ msgid ""
 "GLSL files in Godot's source code `here <https://github.com/godotengine/"
 "godot/blob/master/drivers/gles3/shaders/>`__."
 msgstr ""
+"Godotシェーダー言語はCスタイル言語およびGLSLに近いため、このガイドはGodot独自"
+"のGLSLフォーマットからインスピレーションを得ています。Godotのソース コードの"
+"GLSLファイルの例は `こちら <https://github.com/godotengine/godot/blob/master/"
+"drivers/gles3/shaders/>`__ でご覧いただけます。"
 
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
@@ -56,17 +58,15 @@ msgstr ""
 "一般に、プロジェクト内およびチーム内でコードの一貫性を保つことは、このガイド"
 "に完璧に従うよりも重要です。"
 
-#, fuzzy
 msgid ""
 "Godot's built-in shader editor uses a lot of these conventions by default. "
 "Let it help you."
 msgstr ""
-"Godotのビルトインスクリプトエディタは、デフォルトでこれらの規則を多く使用しま"
-"す。それをあなたの役に立つようにしてください。"
+"Godotに組み込まれているシェーダーエディタは、デフォルトでこれらの規則の多くを"
+"使用します。それはあなたの助けになるでしょう。"
 
-#, fuzzy
 msgid "Here is a complete shader example based on these guidelines:"
-msgstr "これらのガイドラインに基づいた完全なクラスの例を次に示します:"
+msgstr "これらのガイドラインに基づいた完璧なシェーダーの例を次に示します:"
 
 msgid "Formatting"
 msgstr "書式設定"
@@ -101,11 +101,11 @@ msgstr ""
 msgid "Indentation"
 msgstr "インデント"
 
-#, fuzzy
 msgid ""
 "Each indent level should be one tab greater than the block containing it."
 msgstr ""
-"各インデントレベルは、それを含むブロックより1つ大きくなければなりません。"
+"各インデント レベルは、それを含むブロックより1タブ分大きくなければなりませ"
+"ん。"
 
 msgid "**Good**:"
 msgstr "**良い例**:"
@@ -123,7 +123,6 @@ msgstr ""
 msgid "Line breaks and blank lines"
 msgstr "改行と空白行"
 
-#, fuzzy
 msgid ""
 "For a general indentation rule, follow `the \"1TBS Style\" <https://en."
 "wikipedia.org/wiki/Indentation_style#Variant:_1TBS_(OTBS)>`_ which "
@@ -132,19 +131,19 @@ msgid ""
 "This makes them easier to refactor and avoids mistakes when adding more "
 "lines to an ``if`` statement or similar."
 msgstr ""
-"一般的なインデントルールについては、\\ `\"Allman Style\"<https://en."
-"wikipedia.org/wiki/Indentation_style#Allman_style>` に従って、制御ステートメ"
-"ントに関連付けられたブレースを次の行に配置し、同じレベルにインデントすること"
-"をお勧めします。"
+"一般的なインデントルールについては、\"1TBSスタイル\" <https://en.wikipedia."
+"org/wiki/Indentation_style#Variant:_1TBS_(OTBS)>`_ に従ってください。これは制"
+"御ステートメントに関連付けられた中括弧{ }を同じ行に配置することを推奨していま"
+"す。ステートメントが1行しかない場合でも、ステートメントには必ず中括弧{ }を使"
+"用してください。これによりリファクタリングが容易になり、 ``if`` ステートメン"
+"トなどにさらに行を追加するときの間違いを避けることができます。"
 
 msgid "Blank lines"
 msgstr "空白行"
 
-#, fuzzy
 msgid "Surround function definitions with one (and only one) blank line:"
-msgstr "関数とクラスの定義は2つの空白行で囲んで下さい:"
+msgstr "関数定義を1つ (だけ) の空白行で囲みます:"
 
-#, fuzzy
 msgid ""
 "Use one (and only one) blank line inside functions to separate logical "
 "sections."
@@ -156,21 +155,20 @@ msgstr "行の長さ"
 msgid "Keep individual lines of code under 100 characters."
 msgstr "コードの個々の行を100文字以内に保ちます。"
 
-#, fuzzy
 msgid ""
 "If you can, try to keep lines under 80 characters. This helps to read the "
 "code on small displays and with two shaders opened side-by-side in an "
 "external text editor. For example, when looking at a differential revision."
 msgstr ""
-"可能であれば、行を80文字未満に保つようにしてください。これにより、小さなディ"
-"スプレイでコードを読む場合や、2つのスクリプトを外部テキスト エディタで並べて"
-"開くときに役立ちます。たとえば、差分リビジョンを見る場合などです。"
+"可能であれば、1行を80文字未満に保つようにしてください。これは小さなディスプレ"
+"イでコードを読む場合や、2つのシェーダーを外部テキスト エディタで並べて開くと"
+"きに役立ちます。たとえばリビジョンの差分を見る場合などです。"
 
 msgid "One statement per line"
 msgstr "1行につき1つのステートメント"
 
 msgid "Never combine multiple statements on a single line."
-msgstr ""
+msgstr "複数のステートメントを1行に結合しないようにします。"
 
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "その規則の唯一の例外は三項演算子です:"
@@ -189,44 +187,44 @@ msgstr ""
 msgid ""
 "Don't use multiline comment syntax if your comment can fit on a single line:"
 msgstr ""
+"コメントが1行に収まる場合は、複数行コメント構文を使用しないようにします。"
 
-#, fuzzy
 msgid ""
 "In the shader editor, to make the selected code a comment (or uncomment it), "
 "press :kbd:`Ctrl + K`. This feature adds or removes ``//`` at the start of "
 "the selected lines."
 msgstr ""
-"スクリプトエディタで、選択したコードのコメントを切り替えるには、\\ :kbd:"
-"`Ctrl + K` を押します。この機能は、選択した行の先頭に単一の#記号を追加します"
-"(#記号があれば逆に削除します)。"
+"シェーダーエディタで、選択したコードをコメントにする (またはコメントを解除す"
+"る) には、 :kbd:`Ctrl + K` を押します。この機能は、選択した行の先頭に ``//`` "
+"を追加または削除します。"
 
 msgid "Whitespace"
 msgstr "空白"
 
-#, fuzzy
 msgid ""
 "Always use one space around operators and after commas. Also, avoid "
 "extraneous spaces in function calls."
 msgstr ""
-"演算子の前後およびコンマの後には常に1つのスペースを使用します。また、辞書参照"
-"や関数呼び出しに余分なスペースを入れないでください。"
+"演算子の前後およびコンマの後には常に1つのスペースを使用します。また関数呼び出"
+"しでは無関係なスペースを避けるようにします。"
 
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "式を垂直方向に揃えるためにスペースを使用しないでください:"
 
-#, fuzzy
 msgid "Floating-point numbers"
-msgstr "浮動小数点数(実数)"
+msgstr "浮動小数点数 (実数)"
 
 msgid ""
 "Always specify at least one digit for both the integer and fractional part. "
 "This makes it easier to distinguish floating-point numbers from integers, as "
 "well as distinguishing numbers greater than 1 from those lower than 1."
 msgstr ""
+"整数部と小数部の両方に必ず少なくとも1桁を指定してください。これにより浮動小数"
+"点数と整数の区別が容易になるだけでなく、1より大きい数値と1未満の数値の区別も"
+"容易になります。"
 
-#, fuzzy
 msgid "Accessing vector members"
-msgstr "ベクトルの加算"
+msgstr "ベクトル要素へのアクセス"
 
 msgid ""
 "Use ``r``, ``g``, ``b``, and ``a`` when accessing a vector's members if it "
@@ -234,6 +232,10 @@ msgid ""
 "``x``, ``y``, ``z``, and ``w``. This allows those reading your code to "
 "better understand what the underlying data represents."
 msgstr ""
+"色が含まれているベクトル要素にアクセスするときには ``r`` , ``g`` , ``b`` , "
+"``a`` を使用します。色以外のものが含まれるベクトルの場合は ``x`` , ``y`` , "
+"``z`` , ``w`` を使用します。これによりコードを読む人は、根底にあるデータが何"
+"を表しているのかをよりよく理解できるようになります。"
 
 msgid "Naming conventions"
 msgstr "命名規則"
@@ -262,7 +264,6 @@ msgstr ""
 "CONSTANT\\ _CASEで定数を記述します。つまり、すべて大文字でアンダースコア(\\_)"
 "を使用して単語を区切ります:"
 
-#, fuzzy
 msgid "Preprocessor directives"
 msgstr "プリプロセッサ定義"
 
@@ -271,19 +272,24 @@ msgid ""
 "CONSTANT__CASE. Directives should be written without any indentation before "
 "them, even if nested within a function."
 msgstr ""
+":ref:`doc_shader_preprocessor` 定義は CONSTANT_CASE で記述する必要がありま"
+"す。これは関数内にネストされている場合でも、その前にインデントを付けずに記述"
+"する必要があります。"
 
 msgid ""
 "To preserve the natural flow of indentation when shader errors are printed "
 "to the console, extra indentation should **not** be added within ``#if``, "
 "``#ifdef`` or ``#ifndef`` blocks:"
 msgstr ""
+"シェーダーエラーがコンソールに出力されるときにインデントの自然な流れを維持す"
+"るには ``#if`` 、 ``#ifdef`` 、 ``#ifndef`` ブロック内に余分なインデントを **"
+"追加しないでください** 。"
 
 msgid "Code order"
 msgstr "コードの順序"
 
-#, fuzzy
 msgid "We suggest to organize shader code this way:"
-msgstr "次のようにGDScriptコードを整理することをお勧めします:"
+msgstr "次のようにシェーダーコードを整理することをお勧めします:"
 
 msgid ""
 "We optimized the order to make it easy to read the code from top to bottom, "
@@ -294,18 +300,18 @@ msgstr ""
 "どのように機能するかを理解しやすくし、変数宣言の順序に関連するエラーを回避し"
 "ます。"
 
-#, fuzzy
 msgid "This code order follows two rules of thumb:"
-msgstr "このコードの順序は、次の4つの経験則に従います:"
+msgstr "このコードの順序は、次の2つのルールに従います:"
 
-#, fuzzy
 msgid "Metadata and properties first, followed by methods."
-msgstr "プロパティとシグナルが最初に来て、メソッドがそれに続きます。"
+msgstr "最初にメタデータとプロパティ、次にメソッドが続きます。"
 
 msgid ""
 "\"Public\" comes before \"private\". In a shader language's context, "
 "\"public\" refers to what's easily adjustable by the user (uniforms)."
 msgstr ""
+"\"パブリック\"は\"プライベート\"の前に来ます。シェーダー言語のコンテキストで"
+"は、\"パブリック\"とはユーザーが簡単に調整できるもの (Uniform) を指します。"
 
 #, fuzzy
 msgid "Local variables"

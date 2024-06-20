@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,20 +60,18 @@ msgstr ""
 msgid "Command line reference"
 msgstr "Référence de ligne de commande"
 
-#, fuzzy
 msgid "release"
-msgstr "**release**"
+msgstr "Version"
 
-#, fuzzy
 msgid "debug"
 msgstr "Débogage"
 
-#, fuzzy
 msgid "editor"
 msgstr "Éditeur"
 
+#, fuzzy
 msgid "**Legend**"
-msgstr ""
+msgstr "**Légende**"
 
 msgid ""
 "|release| Available in editor builds, debug export templates and release "
@@ -167,17 +165,15 @@ msgid ""
 "e.g. ``tcp://127.0.0.1:6007``)"
 msgstr ""
 
-#, fuzzy
 msgid "``--quit``"
-msgstr "``--quiet``"
+msgstr "``--quit``"
 
 #, fuzzy
 msgid "|release| Quit after the first iteration."
 msgstr "Quitter après la première itération."
 
-#, fuzzy
 msgid "``--quit-after``"
-msgstr "``--quiet``"
+msgstr "``--quit-after``"
 
 msgid ""
 "|release| Quit after the given number of iterations. Set to 0 to disable."
@@ -290,7 +286,7 @@ msgstr ""
 "des pilotes disponibles."
 
 msgid "``--gpu-index <device_index>``"
-msgstr ""
+msgstr "``--gpu-index <device_index>``"
 
 msgid ""
 "|release| Use a specific GPU (run with ``--verbose`` to get available device "
@@ -311,9 +307,8 @@ msgstr "``--audio-driver <driver>``"
 msgid "|release| Pen tablet input driver."
 msgstr ""
 
-#, fuzzy
 msgid "``--headless``"
-msgstr "``--remote-fs <address>``"
+msgstr "``--headless``"
 
 msgid ""
 "|release| Enable headless mode (``--display-driver headless --audio-driver "
@@ -385,9 +380,8 @@ msgstr "``--frame-delay <ms>``"
 msgid "|release| Request window screen."
 msgstr "Demander la résolution de la fenêtre."
 
-#, fuzzy
 msgid "``--single-window``"
-msgstr "``--no-window``"
+msgstr "``--single-window``"
 
 msgid "|release| Use a single window (no separate subwindows)."
 msgstr ""
@@ -427,27 +421,24 @@ msgstr "``--profiling``"
 msgid "|release| Enable profiling in the script debugger."
 msgstr "Activer le profilage dans le débogueur de script."
 
-#, fuzzy
 msgid "``--gpu-profile``"
-msgstr "``--profiling``"
+msgstr "``--gpu-profile``"
 
 msgid ""
 "|release| Show a GPU profile of the tasks that took the most time during "
 "frame rendering."
 msgstr ""
 
-#, fuzzy
 msgid "``--gpu-validation``"
-msgstr "``--debug-navigation``"
+msgstr "``--gpu-validation``"
 
 msgid ""
 "|release| Enable graphics API :ref:`validation layers "
 "<doc_vulkan_validation_layers>` for debugging."
 msgstr ""
 
-#, fuzzy
 msgid "``--gpu-abort``"
-msgstr "``--quiet``"
+msgstr "``--gpu-abort``"
 
 msgid ""
 "|debug| Abort on GPU errors (usually validation layer errors), may help see "
@@ -463,9 +454,8 @@ msgid ""
 "``tcp://127.0.0.1:6007``)."
 msgstr ""
 
-#, fuzzy
 msgid "``--single-threaded-scene``"
-msgstr "``--render-thread <mode>``"
+msgstr "``--single-threaded-scene``"
 
 msgid ""
 "|release| Scene tree runs in single-threaded mode. Sub-thread groups are "
@@ -479,9 +469,8 @@ msgstr "``--debug-collisions``"
 msgid "|debug| Show collision shapes when running the scene."
 msgstr "Afficher les formes de collision lors de l'exécution de la scène."
 
-#, fuzzy
 msgid "``--debug-paths``"
-msgstr "``--debug-navigation``"
+msgstr "``--debug-paths``"
 
 #, fuzzy
 msgid "|debug| Show path lines when running the scene."
@@ -494,17 +483,15 @@ msgstr "``--debug-navigation``"
 msgid "|debug| Show navigation polygons when running the scene."
 msgstr "Afficher les polygones de navigation lors de l'exécution de la scène."
 
-#, fuzzy
 msgid "``--debug-avoidance``"
-msgstr "``--debug-navigation``"
+msgstr "``--debug-avoidance``"
 
 #, fuzzy
 msgid "|debug| Show navigation avoidance debug visuals when running the scene."
 msgstr "Afficher les polygones de navigation lors de l'exécution de la scène."
 
-#, fuzzy
 msgid "``--debug-stringnames``"
-msgstr "``--debug-collisions``"
+msgstr "``--debug-stringnames``"
 
 msgid ""
 "|debug| Print all StringName allocations to stdout when the engine quits."
@@ -529,9 +516,8 @@ msgstr ""
 "Forcer l'échelle de temps (plus rapide avec des valeurs plus élevées, 1.0 "
 "pour une vitesse normale)."
 
-#, fuzzy
 msgid "``--disable-vsync``"
-msgstr "``--disable-crash-handler``"
+msgstr "``--disable-vsync``"
 
 msgid ""
 "|release| Forces disabling of vertical synchronization, even if enabled in "
@@ -570,7 +556,7 @@ msgstr ""
 "synchronisation temps-réel."
 
 msgid "``--delta-smoothing <enable>``"
-msgstr ""
+msgstr "``--delta-smoothing <enable>``"
 
 msgid ""
 "|release| Enable or disable frame delta smoothing ('enable', 'disable')."
@@ -635,13 +621,13 @@ msgstr ""
 "`tools <doc_introduction_to_the_buildsystem_tools>` doit être activée)."
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
-msgstr ""
+msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 
 msgid "|editor| Convert project from Godot 3.x to Godot 4.x."
 msgstr ""
 
 msgid "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
-msgstr ""
+msgstr "``--validate-conversion-3to4 [<max_file_kb>] [<max_line_size>]``"
 
 msgid ""
 "|editor| Show what elements will be renamed when converting project from "
@@ -686,7 +672,7 @@ msgid ""
 msgstr ""
 
 msgid "``--dump-gdextension-interface``"
-msgstr ""
+msgstr "``--dump-gdextension-interface``"
 
 msgid ""
 "|editor| Generate GDExtension header file 'gdnative_interface.h' in the "
@@ -694,9 +680,8 @@ msgid ""
 "GDExtension."
 msgstr ""
 
-#, fuzzy
 msgid "``--dump-extension-api``"
-msgstr "``--gdnative-generate-json-api``"
+msgstr "``--dump-extension-api``"
 
 msgid ""
 "|editor| Generate JSON dump of the Godot API for GDExtension bindings named "
@@ -714,7 +699,7 @@ msgid ""
 msgstr ""
 
 msgid "``--benchmark``"
-msgstr ""
+msgstr "``--benchmark``"
 
 msgid "|editor| Benchmark the run time and print it to console."
 msgstr ""

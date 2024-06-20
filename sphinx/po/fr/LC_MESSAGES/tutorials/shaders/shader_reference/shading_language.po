@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -946,7 +946,7 @@ msgid "**vec3, vec4**"
 msgstr "**vec4**"
 
 msgid "source_color"
-msgstr ""
+msgstr "source_color"
 
 msgid "Used as color."
 msgstr "Utilisé comme couleur."
@@ -987,7 +987,7 @@ msgid "As value or albedo color, default to opaque black."
 msgstr "Utilisé comme couleur d'albédo, noir par défaut."
 
 msgid "hint_default_transparent"
-msgstr ""
+msgstr "hint_default_transparent"
 
 #, fuzzy
 msgid "As value or albedo color, default to transparent black."
@@ -1010,19 +1010,19 @@ msgid ""
 msgstr ""
 
 msgid "filter[_nearest, _linear][_mipmap][_anisotropic]"
-msgstr ""
+msgstr "filter[_nearest, _linear][_mipmap][_anisotropic]"
 
 msgid "Enabled specified texture filtering."
 msgstr ""
 
 msgid "repeat[_enable, _disable]"
-msgstr ""
+msgstr "repeat[_enable, _disable]"
 
 msgid "Enabled texture repeating."
 msgstr ""
 
 msgid "hint_screen_texture"
-msgstr ""
+msgstr "hint_screen_texture"
 
 msgid "Texture is the screen texture."
 msgstr ""
@@ -1035,7 +1035,7 @@ msgid "Texture is the depth texture."
 msgstr ""
 
 msgid "hint_normal_roughness_texture"
-msgstr ""
+msgstr "hint_normal_roughness_texture"
 
 msgid "Texture is the normal roughness texture (only supported in Forward+)."
 msgstr ""
@@ -1254,8 +1254,9 @@ msgid ""
 "them as global uniforms."
 msgstr ""
 
+#, fuzzy
 msgid "Per-instance uniforms"
-msgstr ""
+msgstr "Instance-paire s'uniformise"
 
 msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
 msgstr ""

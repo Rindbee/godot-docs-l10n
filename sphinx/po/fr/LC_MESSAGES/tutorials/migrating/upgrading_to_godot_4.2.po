@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,8 +87,9 @@ msgid ""
 "changes when upgrading Godot."
 msgstr ""
 
+#, fuzzy
 msgid "Core"
-msgstr ""
+msgstr "Core"
 
 #, fuzzy
 msgid "Change"
@@ -98,11 +99,12 @@ msgstr "Modifications"
 msgid "GDScript Compatible"
 msgstr "Type GDScript"
 
+#, fuzzy
 msgid "C# Binary Compatible"
-msgstr ""
+msgstr "Compatible binaire C#"
 
 msgid "C# Source Compatible"
-msgstr ""
+msgstr "Compatible source C#"
 
 #, fuzzy
 msgid "Introduced"
@@ -116,13 +118,13 @@ msgid "Constant ``NOTIFICATION_NODE_RECACHE_REQUESTED`` removed"
 msgstr ""
 
 msgid "|❌|"
-msgstr ""
+msgstr "|❌|"
 
 msgid "|✔️|"
-msgstr ""
+msgstr "|✔️|"
 
 msgid "`GH-84419`_"
-msgstr ""
+msgstr "`GH-84419`_"
 
 msgid "Animation"
 msgstr "Animation"
@@ -136,7 +138,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-80813`_"
-msgstr ""
+msgstr "`GH-80813`_"
 
 msgid "Method ``add_animation_library`` moved to base class ``AnimationMixer``"
 msgstr ""
@@ -199,7 +201,7 @@ msgid ""
 msgstr ""
 
 msgid "|✔️ with compat|"
-msgstr ""
+msgstr "|✔️ avec compatibilité|"
 
 msgid ""
 "Property ``playback_active`` renamed to ``active`` and moved to base class "
@@ -291,7 +293,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-36493`_"
-msgstr ""
+msgstr "`GH-36493`_"
 
 msgid "Method ``add_shortcut`` adds a new ``allow_echo`` optional parameter"
 msgstr ""
@@ -300,7 +302,7 @@ msgid "Method ``clear`` adds a new ``free_submenus`` optional parameter"
 msgstr ""
 
 msgid "`GH-79965`_"
-msgstr ""
+msgstr "`GH-79965`_"
 
 #, fuzzy
 msgid "**RichTextLabel**"
@@ -312,7 +314,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-80410`_"
-msgstr ""
+msgstr "`GH-80410`_"
 
 msgid "Rendering"
 msgstr "Rendu"
@@ -327,7 +329,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-81138`_"
-msgstr ""
+msgstr "`GH-81138`_"
 
 msgid ""
 "Method ``get_surface_format`` changes return type from ``uint32`` to "
@@ -356,7 +358,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-79911`_"
-msgstr ""
+msgstr "`GH-79911`_"
 
 msgid ""
 "Enum field ``BarrierMask.BARRIER_MASK_ALL_BARRIERS`` changes value from "
@@ -374,7 +376,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-79606`_"
-msgstr ""
+msgstr "`GH-79606`_"
 
 msgid ""
 "Method ``shader_get_vertex_input_attribute_ask`` changes return type from "
@@ -401,7 +403,7 @@ msgid "Method ``set_fallbacks`` replaced with ``fallbacks`` property"
 msgstr ""
 
 msgid "`GH-78266`_"
-msgstr ""
+msgstr "`GH-78266`_"
 
 msgid "Method ``get_fallbacks`` replaced with ``fallbacks`` property"
 msgstr ""
@@ -412,7 +414,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-80954`_"
-msgstr ""
+msgstr "`GH-80954`_"
 
 msgid "GraphEdit"
 msgstr "GraphEdit"
@@ -426,13 +428,13 @@ msgid ""
 msgstr ""
 
 msgid "`GH-81582`_"
-msgstr ""
+msgstr "`GH-81582`_"
 
 msgid "Method ``get_zoom_hbox`` renamed to ``get_menu_hbox``"
 msgstr ""
 
 msgid "`GH-79308`_"
-msgstr ""
+msgstr "`GH-79308`_"
 
 msgid "Property ``snap_distance`` renamed to ``snapping_distance``"
 msgstr ""
@@ -448,7 +450,7 @@ msgid "Property ``comment`` removed"
 msgstr ""
 
 msgid "`GH-79307`_"
-msgstr ""
+msgstr "`GH-79307`_"
 
 msgid ""
 "Signal ``close_request`` renamed to ``delete_request`` and moved to base "
@@ -456,7 +458,7 @@ msgid ""
 msgstr ""
 
 msgid "`GH-79311`_"
-msgstr ""
+msgstr "`GH-79311`_"
 
 msgid "Property ``draggable`` moved to base class ``GraphElement``"
 msgstr ""
@@ -551,7 +553,7 @@ msgid "Property ``cell_quadrant_size`` renamed to ``rendering_quadrant_size``"
 msgstr ""
 
 msgid "`GH-81070`_"
-msgstr ""
+msgstr "`GH-81070`_"
 
 msgid "XR"
 msgstr "XR"
@@ -564,7 +566,7 @@ msgid "Property ``environment_blend_mode`` added"
 msgstr ""
 
 msgid "`GH-81561`_"
-msgstr ""
+msgstr "`GH-81561`_"
 
 msgid ""
 "This change breaks compatibility in C# because the new property conflicts "

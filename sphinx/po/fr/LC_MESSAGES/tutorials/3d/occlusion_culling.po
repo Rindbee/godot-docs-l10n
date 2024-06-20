@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,7 +172,7 @@ msgid "There are two ways to set up occluders in a scene:"
 msgstr "Il y a deux façons d'exporter un projet pour un serveur :"
 
 msgid "Automatically baking occluders (recommended)"
-msgstr ""
+msgstr "Automatiquement pré-calculer les occluders (recommandé)"
 
 msgid ""
 "Only MeshInstance3D nodes are currently taken into account in the *occluder* "
@@ -236,13 +236,13 @@ msgid ""
 msgstr ""
 
 msgid "QuadOccluder3D (a single plane)"
-msgstr ""
+msgstr "QuadOccluder3D (un simple plan)"
 
 msgid "BoxOccluder3D (a cuboid)"
-msgstr ""
+msgstr "BoxOccluder3D (un cuboïde)"
 
 msgid "SphereOccluder3D (a sphere-shaped occluder)"
-msgstr ""
+msgstr "SphereOccluder3D (un occluder avec une forme sphérique"
 
 msgid "PolygonOccluder3D (a 2D polygon with as many points as you want)"
 msgstr ""
@@ -377,8 +377,9 @@ msgstr "Dépannage"
 msgid "My occludee isn't being culled when it should be"
 msgstr ""
 
+#, fuzzy
 msgid "**On the occluder side:**"
-msgstr ""
+msgstr "**Sur le côté occluder : **"
 
 msgid ""
 "First, double-check that the **Bake > Cull Mask** property in the "
@@ -399,8 +400,9 @@ msgid ""
 "workaround, you can add OccluderInstance3D nodes for those manually."
 msgstr ""
 
+#, fuzzy
 msgid "**On the occludee side:**"
-msgstr ""
+msgstr "**Sur le côté avec occlusion**"
 
 msgid ""
 "Make sure **Extra Cull Margin** is set as low as possible (it should usually "

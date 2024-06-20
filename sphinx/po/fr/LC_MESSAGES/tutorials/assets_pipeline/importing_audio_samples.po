@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,7 +195,7 @@ msgid ""
 msgstr ""
 
 msgid "Force > Mono"
-msgstr ""
+msgstr "Force > Mono"
 
 msgid ""
 "If enabled, forces the imported audio to be mono if the source file is "
@@ -217,8 +217,9 @@ msgid ""
 "`doc_importing_audio_samples_best_practices` for more information."
 msgstr ""
 
+#, fuzzy
 msgid "Edit > Trim"
-msgstr ""
+msgstr "Éditer > Trim"
 
 #, fuzzy
 msgid ""
@@ -343,7 +344,7 @@ msgid ""
 msgstr ""
 
 msgid "BPM"
-msgstr ""
+msgstr "BPM"
 
 msgid ""
 "The Beats Per Minute of the audio track. This should match the BPM measure "
@@ -360,7 +361,7 @@ msgid ""
 msgstr ""
 
 msgid "Beat Count"
-msgstr ""
+msgstr "Quantité de battements"
 
 msgid ""
 "The beat count of the audio track. This is only relevant for music that "

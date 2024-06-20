@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -307,7 +307,7 @@ msgid "Preloads a class or variable. See `Classes as resources`_."
 msgstr "Précharge une classe ou une variable. Voir `Classes as resources`_."
 
 msgid "await"
-msgstr ""
+msgstr "Attendre"
 
 msgid ""
 "Waits for a signal or a coroutine to finish. See `Awaiting for signals or "
@@ -410,7 +410,7 @@ msgid "Function call"
 msgstr "Appel de fonction"
 
 msgid "``await x``"
-msgstr ""
+msgstr "``await x``"
 
 msgid "`Awaiting for signals or coroutines`_"
 msgstr ""
@@ -432,7 +432,7 @@ msgid "``x ** y``"
 msgstr ""
 
 msgid "Power"
-msgstr ""
+msgstr "Pouvoir"
 
 msgid ""
 "Multiplies ``x`` by itself ``y`` times, similar to calling :ref:`pow() "
@@ -446,13 +446,13 @@ msgid ""
 msgstr ""
 
 msgid "``~x``"
-msgstr ""
+msgstr "``~x``"
 
 msgid "Bitwise NOT"
 msgstr "Opération bit-à-bit de négation"
 
 msgid "``+x``"
-msgstr ""
+msgstr "``+x``"
 
 msgid "``-x``"
 msgstr "``-x``"
@@ -564,7 +564,7 @@ msgid "``not x``"
 msgstr "``node``"
 
 msgid "``!x``"
-msgstr ""
+msgstr "``!x``"
 
 msgid "Boolean NOT and its :ref:`unrecommended <boolean_operators>` alias"
 msgstr ""
@@ -972,7 +972,7 @@ msgid "Both of these are the same::"
 msgstr ""
 
 msgid "``@onready`` annotation"
-msgstr ""
+msgstr "annotation``@onready``"
 
 msgid ""
 "When using nodes, it's common to desire to keep references to parts of the "
@@ -1645,9 +1645,8 @@ msgid ""
 "the project settings. See :ref:`doc_gdscript_warning_system` for details."
 msgstr ""
 
-#, fuzzy
 msgid "Initialization order"
-msgstr "Exemple d'initialisation :"
+msgstr "Ordre d'initialisation"
 
 #, fuzzy
 msgid "Member variables are initialized in the following order:"
@@ -1745,7 +1744,7 @@ msgid "A base class static variable can also be accessed via a child class::"
 msgstr ""
 
 msgid "``@static_unload`` annotation"
-msgstr ""
+msgstr "annotation``@static_unload``"
 
 msgid ""
 "Since GDScript classes are resources, having static variables in a script "

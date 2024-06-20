@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,13 +109,13 @@ msgid "**Mobile SoCs:**"
 msgstr "**mobile**"
 
 msgid "Snapdragon 888 and newer"
-msgstr ""
+msgstr "Snapdragon 888 et plus récent"
 
 msgid "MediaTek Dimensity 9000 and newer"
 msgstr ""
 
 msgid "ARM Mali-G615 and newer"
-msgstr ""
+msgstr "ARM Mali-G615 et plus récent"
 
 msgid ""
 "As of January 2023, Apple and Raspberry Pi GPUs do not support variable rate "
@@ -198,7 +198,7 @@ msgid ""
 msgstr ""
 
 msgid "Density"
-msgstr ""
+msgstr "Densité"
 
 msgid "Color"
 msgstr "Couleur"
@@ -242,7 +242,7 @@ msgid "``rgb(85, 170, 0) - #55aa00``"
 msgstr ""
 
 msgid "4×2"
-msgstr ""
+msgstr "4×2"
 
 msgid "``rgb(170, 85, 0) - #aa5500``"
 msgstr ""
@@ -265,13 +265,14 @@ msgid "Not supported on most hardware."
 msgstr ""
 
 msgid "8×4"
-msgstr ""
+msgstr "8×4"
 
 msgid "``rgb(255, 170, 0) - #ffaa00``"
 msgstr ""
 
+#, fuzzy
 msgid "8×8 (lowest detail)"
-msgstr ""
+msgstr "8×8 (détail le plus bas)"
 
 msgid "``rgb(255, 255, 0) - #ffff00``"
 msgstr ""
@@ -344,52 +345,52 @@ msgid "Performance improvement"
 msgstr "Mises en garde relatives aux performances"
 
 msgid "1920×1080 (Full HD)"
-msgstr ""
+msgstr "1920×1080 (Full HD)"
 
 msgid "2832 FPS"
-msgstr ""
+msgstr "2832 FPS"
 
 msgid "3136 FPS"
-msgstr ""
+msgstr "3136 FPS"
 
 msgid "+10.7%"
-msgstr ""
+msgstr "+10.7%"
 
 msgid "2560×1440 (QHD)"
-msgstr ""
+msgstr "2560×1440 (QHD)"
 
 msgid "2008 FPS"
-msgstr ""
+msgstr "2008 FPS"
 
 msgid "2256 FPS"
-msgstr ""
+msgstr "2256 FPS"
 
 msgid "+12.3%"
-msgstr ""
+msgstr "+12.3%"
 
 msgid "3840×2160 (4K)"
-msgstr ""
+msgstr "3840×2160 (4K)"
 
 msgid "1236 FPS"
-msgstr ""
+msgstr "1236 FPS"
 
 msgid "1436 FPS"
-msgstr ""
+msgstr "1436 FPS"
 
 msgid "+16.2%"
-msgstr ""
+msgstr "+16.2%"
 
 msgid "7680×4320 (8K)"
-msgstr ""
+msgstr "7680×4320 (8K)"
 
 msgid "384 FPS"
-msgstr ""
+msgstr "384 FPS"
 
 msgid "473 FPS"
-msgstr ""
+msgstr "473 FPS"
 
 msgid "+23.1%"
-msgstr ""
+msgstr "+23.1%"
 
 msgid ""
 "In terms of performance improvements, variable rate shading is more "

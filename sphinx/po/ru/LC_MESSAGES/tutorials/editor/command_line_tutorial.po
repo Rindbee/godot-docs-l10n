@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,24 +72,30 @@ msgid "editor"
 msgstr "Редактор"
 
 msgid "**Legend**"
-msgstr ""
+msgstr "**Легенда**"
 
 msgid ""
 "|release| Available in editor builds, debug export templates and release "
 "export templates."
 msgstr ""
+"|release| Доступно в эдитор сборках, при дебажном экспорте и в релизном "
+"экспорте шаблонов."
 
 msgid "|debug| Available in editor builds and debug export templates only."
 msgstr ""
+"|debug| Доступно только в эдитор сборках и при дебажном экспорте шаблонов."
 
 msgid "|editor| Only available in editor builds."
-msgstr ""
+msgstr "|editor| Доступно только в эдитор сборках."
 
 msgid ""
 "Note that unknown command line arguments have no effect whatsoever. The "
 "engine will **not** warn you when using a command line argument that doesn't "
 "exist with a given build type."
 msgstr ""
+"Учтите, что неизвестные аргументы командной строки проигнорируются. Движок "
+"**не** сообщит вам о том, что вы используете несуществующие в выбранном "
+"варианте сборки аргументы."
 
 msgid "**General options**"
 msgstr "**Основные настройки**"
@@ -143,18 +149,23 @@ msgid ""
 "|release| Separator for user-provided arguments. Following arguments are not "
 "used by the engine, but can be read from ``OS.get_cmdline_user_args()``."
 msgstr ""
+"|release| Разделитель для пользовательских аргументов. Приведенные аргументы "
+"не используются движком, но могут быть прочитаны с помощью ``OS."
+"get_cmdline_user_args()``."
 
 msgid "``-e``, ``--editor``"
 msgstr "``-e``, ``--editor``"
 
 msgid "|editor| Start the editor instead of running the scene."
-msgstr ""
+msgstr "|editor| Запустить редактор вместо запуска сцены."
 
 msgid "``-p``, ``--project-manager``"
 msgstr "``-p``, ``--project-manager``"
 
 msgid "|editor| Start the Project Manager, even if a project is auto-detected."
 msgstr ""
+"|editor| Запустить Проектный Менеджер, даже если проект был найден "
+"автоматически."
 
 #, fuzzy
 msgid "``--debug-server <uri>``"
@@ -164,6 +175,8 @@ msgid ""
 "|editor| Start the editor debug server (``<protocol>://<host/IP>[:<port>]``, "
 "e.g. ``tcp://127.0.0.1:6007``)"
 msgstr ""
+"|editor| Запустить дебаг сервер для редактора (``<protocol>://<host/IP>[:"
+"<port>]``, например ``tcp://127.0.0.1:6007``)"
 
 #, fuzzy
 msgid "``--quit``"
@@ -180,6 +193,7 @@ msgstr "``--quiet``"
 msgid ""
 "|release| Quit after the given number of iterations. Set to 0 to disable."
 msgstr ""
+"|release| Выйти после заданного числа итераций. Передайте 0 для отключения."
 
 #, fuzzy
 msgid "``-l``, ``--language <locale>``"
@@ -191,6 +205,10 @@ msgid ""
 "language code in lowercase and the rest is optional. See :ref:`doc_locales` "
 "for more details."
 msgstr ""
+"|release| Использовать заданную локализацию. ``<locale>`` задается в формате "
+"``language_Script_COUNTRY_VARIANT`` где 'language' двух-трех буквенное "
+"обозначение кода языка в нижнем регистре, все остальное опционально. :ref:"
+"`doc_locales` для более подробной информации."
 
 msgid "``--path <directory>``"
 msgstr "``--path <directory>``"
@@ -240,7 +258,7 @@ msgid "``--remote-fs-password <password>``"
 msgstr "``--remote-fs <address>``"
 
 msgid "|release| Password for remote filesystem."
-msgstr ""
+msgstr "|release| Пароль для удаленного доступа к файловой системе."
 
 msgid "``--audio-driver <driver>``"
 msgstr "``--audio-driver <driver>``"
@@ -265,16 +283,14 @@ msgstr ""
 "Видео драйвер. Сначала используйте ``--help`` для отображения списка "
 "доступных драйверов."
 
-#, fuzzy
 msgid "``--rendering-method <renderer>``"
-msgstr "``--render-thread <mode>``"
+msgstr "``--rendering-method <renderer>``"
 
 msgid "|release| Renderer name. Requires driver support."
-msgstr ""
+msgstr "|release| Имя рендерера. Требуется поддержка драйвера."
 
-#, fuzzy
 msgid "``--rendering-driver <driver>``"
-msgstr "``--audio-driver <driver>``"
+msgstr "``--rendering-driver <driver>``"
 
 #, fuzzy
 msgid ""
@@ -285,12 +301,14 @@ msgstr ""
 "доступных драйверов."
 
 msgid "``--gpu-index <device_index>``"
-msgstr ""
+msgstr "``--gpu-index <индекс_устройства>``"
 
 msgid ""
 "|release| Use a specific GPU (run with ``--verbose`` to get available device "
 "list)."
 msgstr ""
+"|release| Использовать определенный GPU (запустите с ``--verbose`` чтобы "
+"получить список доступных устройств)."
 
 #, fuzzy
 msgid "``--text-driver <driver>``"
@@ -304,7 +322,7 @@ msgid "``--tablet-driver <driver>``"
 msgstr "``--audio-driver <driver>``"
 
 msgid "|release| Pen tablet input driver."
-msgstr ""
+msgstr "|release| Драйвер ввода графического планшета."
 
 #, fuzzy
 msgid "``--headless``"
@@ -385,7 +403,7 @@ msgid "``--single-window``"
 msgstr "``--no-window``"
 
 msgid "|release| Use a single window (no separate subwindows)."
-msgstr ""
+msgstr "|release| Использовать одиночное окно (без отдельных подокон)."
 
 #, fuzzy
 msgid "``--xr-mode <mode>``"
@@ -466,6 +484,8 @@ msgid ""
 "|release| Scene tree runs in single-threaded mode. Sub-thread groups are "
 "disabled and run on the main thread."
 msgstr ""
+"|release| Запустить дерево сцены в однопоточном режиме. Дочерние потоки "
+"отключены и будут запущенны в основном потоке."
 
 msgid "``--debug-collisions``"
 msgstr "``--debug-collisions``"
@@ -533,6 +553,9 @@ msgid ""
 "|release| Forces disabling of vertical synchronization, even if enabled in "
 "the project settings. Does not override driver-level V-Sync enforcement."
 msgstr ""
+"|release| Отключает вертикальную синхронизацию, даже если она включена в "
+"настройках проекта. Не работает, если вертикальная синхронизация "
+"принудительно включена на уровне драйвера."
 
 msgid "``--disable-render-loop``"
 msgstr "``--disable-render-loop``"
@@ -564,11 +587,13 @@ msgstr ""
 "отключает синхронизацию в реальном времени."
 
 msgid "``--delta-smoothing <enable>``"
-msgstr ""
+msgstr "``--delta-smoothing <включить>``"
 
 msgid ""
 "|release| Enable or disable frame delta smoothing ('enable', 'disable')."
 msgstr ""
+"|release| Включает или выключает размытие кадра ('enable' (включить), "
+"'disable' (выключить))."
 
 msgid "``--print-fps``"
 msgstr "``--print-fps``"

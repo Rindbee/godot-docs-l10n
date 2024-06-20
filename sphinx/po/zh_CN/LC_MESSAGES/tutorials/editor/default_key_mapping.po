@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1749,82 +1749,65 @@ msgstr "图块地图编辑器"
 msgid "Select"
 msgstr "选择"
 
-#, fuzzy
 msgid "``tiles_editor/selection_tool``"
-msgstr "``tile_map_editor/cut_selection``"
+msgstr "``tiles_editor/selection_tool``"
 
 msgid "Cut Selection"
 msgstr "剪切选中项"
 
-#, fuzzy
 msgid "``tiles_editor/cut``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/cut``"
 
-#, fuzzy
 msgid "``tiles_editor/copy``"
-msgstr "``script_text_editor/copy``"
+msgstr "``tiles_editor/copy``"
 
-#, fuzzy
 msgid "Paste Selection"
-msgstr "擦除选中项"
+msgstr "粘贴选中项"
 
-#, fuzzy
 msgid "``tiles_editor/paste``"
-msgstr "``tile_map_editor/paint_tile``"
+msgstr "``tiles_editor/paste``"
 
-#, fuzzy
 msgid "``tiles_editor/delete``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/delete``"
 
-#, fuzzy
 msgid "Cancel"
-msgstr "法国"
+msgstr "取消"
 
-#, fuzzy
 msgid ":kbd:`Esc`"
-msgstr ":kbd:`E`"
+msgstr ":kbd:`Esc`"
 
-#, fuzzy
 msgid "``tiles_editor/cancel``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/cancel``"
 
 msgid "Paint"
 msgstr "绘制"
 
-#, fuzzy
 msgid "``tiles_editor/paint_tool``"
-msgstr "``tile_map_editor/paint_tile``"
+msgstr "``tiles_editor/paint_tool``"
 
 msgid "Line"
 msgstr "线段"
 
-#, fuzzy
 msgid ":kbd:`L`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`L`"
 
-#, fuzzy
 msgid "``tiles_editor/line_tool``"
-msgstr "``tile_map_editor/find_tile``"
+msgstr "``tiles_editor/line_tool``"
 
-#, fuzzy
 msgid "Rect"
-msgstr "Rect2"
+msgstr "矩形"
 
-#, fuzzy
 msgid "``tiles_editor/rect_tool``"
-msgstr "``tile_map_editor/select``"
+msgstr "``tiles_editor/rect_tool``"
 
-#, fuzzy
 msgid "Bucket"
-msgstr "油漆桶填充"
+msgstr "油漆桶"
 
-#, fuzzy
 msgid ":kbd:`B`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`B`"
 
-#, fuzzy
 msgid "``tiles_editor/bucket_tool``"
-msgstr "``tile_map_editor/bucket_fill``"
+msgstr "``tiles_editor/bucket_tool``"
 
 msgid "Picker"
 msgstr "拾取器"
@@ -1832,38 +1815,32 @@ msgstr "拾取器"
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
 
-#, fuzzy
 msgid "``tiles_editor/picker``"
-msgstr "``tile_map_editor/pick_tile``"
+msgstr "``tiles_editor/picker``"
 
 msgid "Eraser"
 msgstr "橡皮"
 
-#, fuzzy
 msgid "``tiles_editor/eraser``"
-msgstr "``tileset_editor/next_shape``"
+msgstr "``tiles_editor/eraser``"
 
 msgid "Flip Horizontally"
 msgstr "水平翻转"
 
-#, fuzzy
 msgid ":kbd:`C`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`C`"
 
-#, fuzzy
 msgid "``tiles_editor/flip_tile_horizontal``"
-msgstr "``tile_map_editor/flip_horizontal``"
+msgstr "``tiles_editor/flip_tile_horizontal``"
 
 msgid "Flip Vertically"
 msgstr "垂直翻转"
 
-#, fuzzy
 msgid ":kbd:`V`"
-msgstr ":kbd:`Q`"
+msgstr ":kbd:`V`"
 
-#, fuzzy
 msgid "``tiles_editor/flip_tile_vertical``"
-msgstr "``tile_map_editor/flip_vertical``"
+msgstr "``tiles_editor/flip_tile_vertical``"
 
 msgid "Rotate Left"
 msgstr "向左旋转"
@@ -1871,9 +1848,8 @@ msgstr "向左旋转"
 msgid ":kbd:`Z`"
 msgstr ":kbd:`Z`"
 
-#, fuzzy
 msgid "``tiles_editor/rotate_tile_left``"
-msgstr "``tile_map_editor/rotate_left``"
+msgstr "``tiles_editor/rotate_tile_left``"
 
 msgid "Rotate Right"
 msgstr "向右旋转"
@@ -1881,9 +1857,8 @@ msgstr "向右旋转"
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
 
-#, fuzzy
 msgid "``tiles_editor/rotate_tile_right``"
-msgstr "``tile_map_editor/rotate_right``"
+msgstr "``tiles_editor/rotate_tile_right``"
 
 msgid "Tileset Editor"
 msgstr "图块集编辑器"

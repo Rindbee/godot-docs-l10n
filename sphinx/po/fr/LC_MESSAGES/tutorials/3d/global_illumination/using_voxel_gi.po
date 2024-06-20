@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 4.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-10 15:20+0200\n"
+"POT-Creation-Date: 2024-06-20 16:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#, fuzzy
 msgid "Using Voxel global illumination"
-msgstr ""
+msgstr "Usage de l'illumination globale Voxel"
 
 msgid ""
 "VoxelGI is a form of fully real-time global illumination, intended to be "
@@ -41,10 +42,10 @@ msgid "Visual comparison"
 msgstr "Comparaison visuelle"
 
 msgid "VoxelGI disabled."
-msgstr ""
+msgstr "VoxelGI désactivé."
 
 msgid "VoxelGI enabled."
-msgstr ""
+msgstr "VoxelGI activé."
 
 #, fuzzy
 msgid "Setting up VoxelGI"
