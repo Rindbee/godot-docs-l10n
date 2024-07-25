@@ -144,7 +144,7 @@ merge_sphinx_po() {
     dirpath=$(dirname "$template" | sed -e 's@'$SPHINX_TEMPLATES_DIR'@'"$langdir"'@')
     mkdir -p "$dirpath"
     output="$dirpath/$page.po"
-    msgmerge --lang="$lang" --no-location -C "$po" "$template" "$template" -o "$output"
+    msgmerge --lang="$lang" --for-msgfmt -C "$po" "$template" "$template" -o "$output"
   done
 }
 
@@ -153,8 +153,14 @@ if [ "$update_sphinx_po" = true ]; then
   # First clean previous folder to take into account potentially removed files
   rm -rf $SPHINX_PO_DIR
   mkdir $SPHINX_PO_DIR
+  i=0
   for lang in $SPHINX_BUILD_LANGS; do
     merge_sphinx_po $lang &
+    pids[$i]=$!
+    i+=1
+  done
+  for pid in ${pids[*]}; do
+    wait $pid
   done
   echo "All Sphinx PO files have been merged."
 fi
