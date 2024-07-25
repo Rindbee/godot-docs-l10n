@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -273,16 +268,6 @@ msgstr ""
 "siempre y cuando tengas curiosidad y no dudes en cuestionar a tu motor de "
 "búsqueda cuando te sientas perdido. Por lo tanto, te daremos los comandos "
 "básicos que debes conocer al trabajar con Git."
-
-#, fuzzy
-msgid ""
-"In the following, we will assume as an example that you want to implement a "
-"feature in Godot's Project Manager, which is coded in the ``editor/"
-"project_manager.cpp`` file."
-msgstr ""
-"En lo que sigue, asumiremos como ejemplo que deseas implementar una "
-"característica en el administrador de proyectos de Godot, que se encuentra "
-"codificado en el archivo ``editor/project_manager.cpp``."
 
 msgid "Branching"
 msgstr "Ramificación"
@@ -615,26 +600,6 @@ msgstr ""
 "nombre que la rama local, que es nuestro caso en este ejemplo, así que "
 "haremos lo siguiente:"
 
-msgid ""
-"Git will ask you for your username and password. For your password, enter "
-"your GitHub Personal Access Token (PAT). If you do not have a GitHub "
-"Personal Access Token, or do not have one with the correct permissions for "
-"your newly forked repository, you will need to create one. Follow this link "
-"to create your Personal Access Token: `Creating a personal access token "
-"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
-"secure/creating-a-personal-access-token>`_."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"After you have successfully verified your account using your PAT, the "
-"changes will be sent to your remote repository. If you check the fork's page "
-"on GitHub, you should see a new branch with your added commits."
-msgstr ""
-"Git te pedirá tu nombre de usuario y contraseña, y los cambios serán "
-"enviados a tu repositorio remoto. Si revisas la página de tu fork en GitHub, "
-"deberías ver una nueva rama con tus commits añadidos."
-
 msgid "Issuing a pull request"
 msgstr "Emitiendo una solicitud de extracción"
 
@@ -722,20 +687,6 @@ msgstr ""
 
 msgid "The interactive rebase"
 msgstr "El rebase interactivo"
-
-#, fuzzy
-msgid ""
-"If you didn't follow the above steps closely to *amend* changes into a "
-"commit instead of creating fixup commits, or if you authored your changes "
-"without being aware of our workflow and Git usage tips, reviewers might "
-"request you to *rebase* your branch to *squash* some or all of the commits "
-"into one."
-msgstr ""
-"Si no seguiste los pasos anteriores para *enmendar* los cambios en un commit "
-"en lugar de crear commits de corrección, o si hiciste tus cambios sin tener "
-"en cuenta nuestro flujo de trabajo y consejos de uso de Git, los revisores "
-"podrían solicitarte que *rebasees* tu rama para *aplastar* algunos o todos "
-"los commits en uno solo."
 
 msgid ""
 "Indeed, if some commits have been made following reviews to fix bugs, typos, "
@@ -862,16 +813,6 @@ msgstr ""
 "cambiado y, por lo tanto, obtendrá un nuevo hash de commit. Si intentas "
 "hacer push a tu rama remota, surgirá un error:"
 
-#, fuzzy
-msgid ""
-"This is reasonable behavior, Git will not let you push changes that would "
-"override remote content. But that's actually what we want to do here, so we "
-"will have to *force* it:"
-msgstr ""
-"Este es un comportamiento sensato, Git no te permitirá hacer push de cambios "
-"que sobrescribirían el contenido remoto. Pero en realidad, eso es lo que "
-"queremos hacer aquí, así que tendremos que *forzarlo*:"
-
 msgid ""
 "And tadaa! Git will happily *replace* your remote branch with what you had "
 "locally (so make sure that's what you wanted, using ``git log``). This will "
@@ -881,37 +822,6 @@ msgstr ""
 "localmente (así que asegúrate de que eso es lo que querías, usando ``git "
 "log``). Esto también actualizará la solicitud de extracción (PR) en "
 "consecuencia."
-
-msgid "Rebasing onto another branch"
-msgstr ""
-
-msgid ""
-"If you have accidentally opened your PR on the wrong branch, or need to "
-"target another branch for some reason, you might need to filter out a lot of "
-"commits that differ between the old branch (for example ``4.2``) and the new "
-"branch (for example ``master``). This can make rebasing difficult and "
-"tedious. Fortunately ``git`` has a command just for this situation, ``git "
-"rebase --onto``."
-msgstr ""
-
-msgid ""
-"If your PR was created from the ``4.2`` branch and you want to update it to "
-"instead start at ``master`` the following steps *should* fix this in one "
-"step:"
-msgstr ""
-
-msgid ""
-"This will take all the commits on your branch *after* the ``4.2`` branch, "
-"and then splice them on top of ``master``, ignoring any commits from the "
-"``4.2`` branch not on the ``master`` branch. You may still need to do some "
-"fixing, but this command should save you a lot of tedious work removing "
-"commits."
-msgstr ""
-
-msgid ""
-"Just like above for the interactive rebase you need to force push your "
-"branch to handle the different changes:"
-msgstr ""
 
 msgid "Deleting a Git branch"
 msgstr "Borrando una ramificación de Git"
@@ -927,12 +837,6 @@ msgstr ""
 "problemas si no eliminas tu rama, pero es una buena práctica hacerlo. "
 "Deberás hacer esto dos veces, una vez para la rama local y otra para la rama "
 "remota en GitHub."
-
-#, fuzzy
-msgid "To delete our better Project Manager branch locally, use this command:"
-msgstr ""
-"Para eliminar nuestra rama \"better-project-manager\" localmente, usa este "
-"comando:"
 
 msgid ""
 "Alternatively, if the branch hadn't been merged yet and we wanted to delete "

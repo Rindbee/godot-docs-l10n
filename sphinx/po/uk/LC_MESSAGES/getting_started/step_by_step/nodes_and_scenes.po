@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,11 +113,6 @@ msgstr ""
 msgid "On top of acting like nodes, scenes have the following characteristics:"
 msgstr ""
 "Окрім того, що сцени діють як вузли, вони мають наступні характеристики:"
-
-#, fuzzy
-msgid "They always have one root node, like the \"Player\" in our example."
-msgstr ""
-"Вони завжди мають один кореневий вузол, як «Персонаж» у нашому прикладі."
 
 msgid "You can save them to your local drive and load them later."
 msgstr "Ви можете зберегти їх на локальному диску і завантажити пізніше."
@@ -299,16 +289,6 @@ msgstr ""
 
 msgid "Setting the main scene"
 msgstr "Встановлення головної сцени"
-
-#, fuzzy
-msgid ""
-"To run our test scene, we used the Run Current Scene button. Another button "
-"next to it allows you to set and run the project's main scene. You can "
-"press :kbd:`F5` (:kbd:`Cmd + B` on macOS) to do so."
-msgstr ""
-"Щоб запустити нашу тестову сцену, ми використали кнопку «Відтворити сцену». "
-"Кнопка поруч з нею дозволяє встановити та запустити основну сцену проекту. "
-"Ви можете натиснути :kbd:`F5` (:kbd:`Cmd + B` на macOS) для цього."
 
 msgid "A popup window appears and invites you to select the main scene."
 msgstr "З’явиться спливаюче вікно з пропозицією вибрати головну сцену."

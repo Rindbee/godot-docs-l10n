@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,29 +27,8 @@ msgstr ""
 "いるゲームのスタイルによっては、特別な要件がある場合がありますが、一般的に、"
 "ほとんどの2Dゲームの動きは少数のデザインに基づいています。"
 
-#, fuzzy
-msgid ""
-"We'll use :ref:`CharacterBody2D <class_CharacterBody2D>` for these examples, "
-"but the principles will apply to other node types (Area2D, RigidBody2D) as "
-"well."
-msgstr ""
-"この例では :ref:`KinematicBody2D <class_KinematicBody2D>` を使用しますが、同"
-"じことが他のノードタイプ(Area2D、RigidBody2D)にも適用されます。"
-
 msgid "Setup"
 msgstr "セットアップ"
-
-#, fuzzy
-msgid ""
-"Each example below uses the same scene setup. Start with a "
-"``CharacterBody2D`` with two children: ``Sprite2D`` and "
-"``CollisionShape2D``. You can use the Godot icon (\"icon.png\") for the "
-"Sprite2D's texture or use any other 2D image you have."
-msgstr ""
-"以下の各例では、同じシーン設定を使用しています。\\ ``Sprite`` と "
-"``CollisionShape2D`` の2つの子を持つ ``KinematicBody2D`` から始めます。スプラ"
-"イトのテクスチャにGodotアイコン( \"icon.png\")を使用するか、他の2Dイメージを"
-"使用できます。"
 
 msgid ""
 "Open ``Project -> Project Settings`` and select the \"Input Map\" tab. Add "
@@ -78,21 +52,6 @@ msgstr ""
 "た方向に移動するようにします。「8方向移動」という名称は、2つのキーを同時に押"
 "すことでプレイヤーが斜めに移動できることに由来しています。"
 
-#, fuzzy
-msgid "Add a script to the character body and add the following code:"
-msgstr "キネマティックボディにスクリプトを追加して、次のコードを追加します:"
-
-msgid ""
-"In the ``get_input()`` function, we use :ref:`Input <class_Input>` "
-"``get_vector()`` to check for the four key events and sum return a direction "
-"vector."
-msgstr ""
-
-msgid ""
-"We can then set our velocity by multiplying this direction vector, which has "
-"a length of ``1``, by our desired speed."
-msgstr ""
-
 msgid ""
 "If you've never used vector math before, or need a refresher, you can see an "
 "explanation of vector usage in Godot at :ref:`doc_vector_math`."
@@ -100,12 +59,6 @@ msgstr ""
 "以前にベクトル演算を使用したことがない場合、あるいは忘れてしまった場合"
 "は、\\ :ref:`doc_vector_math` でGodotのベクトル使用の説明をみることができま"
 "す。"
-
-msgid ""
-"If the code above does nothing when you press the keys, double-check that "
-"you've set up input actions correctly as described in the :ref:"
-"`doc_2d_movement_setup` part of this tutorial."
-msgstr ""
 
 msgid "Rotation + movement"
 msgstr "回転+移動"
@@ -120,20 +73,6 @@ msgstr ""
 "\"Asteroids-style\" と呼ばれることもあります。左/右を押すとキャラクタが回転"
 "し、上/下を押すとキャラクタの向きに関係なく前後に移動します。"
 
-#, fuzzy
-msgid ""
-"Here we've added two variables to track our rotation direction and speed. "
-"The rotation is applied directly to the body's ``rotation`` property."
-msgstr ""
-"ここでは、回転方向と速度を追跡するために2つの新しい変数を追加しました。 この"
-"場合も、両方のキーを同時に押すとキャンセルされ、回転しなくなります。回転は、"
-"ボディの ``rotation`` プロパティに直接適用されます。"
-
-msgid ""
-"To set the velocity, we use the body's ``transform.x`` which is a vector "
-"pointing in the body's \"forward\" direction, and multiply that by the speed."
-msgstr ""
-
 msgid "Rotation + movement (mouse)"
 msgstr "回転+移動(マウス)"
 
@@ -146,16 +85,6 @@ msgstr ""
 "この動作スタイルは、前の動作スタイルのバリエーションです。 今回は、キーボード"
 "の代わりにマウスの位置によって方向が設定されます。 キャラクタは常にマウスポイ"
 "ンタを \"見ます\" 。ただし、フォワード/バック入力は同じままです。"
-
-#, fuzzy
-msgid ""
-"Here we're using the :ref:`Node2D <class_Node2D>` ``look_at()`` method to "
-"point the player towards the mouse's position. Without this function, you "
-"could get the same effect by setting the angle like this:"
-msgstr ""
-"ここでは、 \\ :ref:`Node2D <class_Node2D>` ``look_at()`` メソッドを使用して、"
-"プレイヤーを特定の位置に向けます。この関数を使用しない場合は、次のように角度"
-"を設定しても同じ効果が得られます:"
 
 msgid "Click-and-move"
 msgstr "クリックと移動"
@@ -201,12 +130,6 @@ msgid ""
 msgstr ""
 "これらのコードサンプルは、独自のプロジェクトの開始点として便利です。ご自由に"
 "使って、どんなものが作れるか試してみてください。"
-
-msgid ""
-"You can download this sample project here: `2d_movement_starter.zip <https://"
-"github.com/godotengine/godot-docs-project-starters/releases/download/"
-"latest-4.x/2d_movement_starter.zip>`_"
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

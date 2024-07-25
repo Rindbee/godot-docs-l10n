@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,15 +46,6 @@ msgstr ""
 "`Sprite2D <class_Sprite2D>` 節點以及一個 :ref:`CollisionShape2D "
 "<class_CollisionShape2D>` 。"
 
-#, fuzzy
-msgid ""
-"Once you have saved a scene, it works as a blueprint: you can reproduce it "
-"in other scenes as many times as you'd like. Replicating an object from a "
-"template like this is called **instancing**."
-msgstr ""
-"保存場景過後，這個場景就可以作為藍圖使用：你可以在其他場景中進行任意數量的翻"
-"制。將物件根據範本進行翻制的這一過程就叫作 **產生實體** 。"
-
 msgid ""
 "As we mentioned in the previous part, instanced scenes behave like a node: "
 "the editor hides their content by default. When you instance the Ball, you "
@@ -90,39 +76,12 @@ msgstr ""
 "讓我們先下載一個範例專案來瞭解實體化是怎麼運作的： :download:`instancing.zip "
 "<files/instancing.zip>` 。"
 
-#, fuzzy
-msgid ""
-"Extract the archive on your computer. To import it, you need the Project "
-"Manager. The Project Manager is accessed by opening Godot, or if you already "
-"have Godot opened, click on *Project -> Quit to Project List* (:kbd:`Ctrl + "
-"Shift + Q`, :kbd:`Ctrl + Option + Cmd + Q` on macOS)"
-msgstr ""
-"從你的電腦中將檔案提取出來。你需要專案管理器來匯入它。專案管理器可以在打開 "
-"Godot 的時候存取到。當你已經打開 Godot 時，點擊 *專案->退出到專案列表* （:"
-"kbd:`Ctrl + Shift + Q`，在 macOS 中：:kbd:`Ctrl + Option + Cmd + B`）"
-
 msgid ""
 "In the Project Manager, click the *Import* button to import the project."
 msgstr "在專案管理員裡點擊 [匯入] 按鈕來匯入該專案。"
 
-#, fuzzy
-msgid ""
-"In the pop-up that appears navigate to the folder you extracted. Double-"
-"click the ``project.godot`` file to open it."
-msgstr "在彈出框中點擊瀏覽按鈕，定位到剛才解壓的資料夾。"
-
 msgid "Finally, click the Import & Edit button."
 msgstr "最後，點擊匯入 & 編輯按鈕。"
-
-#, fuzzy
-msgid ""
-"The project contains two packed scenes: ``main.tscn``, containing walls "
-"against which the ball collides, and ``ball.tscn``. The Main scene should "
-"open automatically. If you're seeing an empty 3D scene instead of the main "
-"scene, click the 2D button at the top of the screen."
-msgstr ""
-"該專案包含兩個已包裝好的場景：``main.tscn``，其中包含供球碰撞的牆壁，以及"
-"``ball.tscn``。主場景應該會自動打開。"
 
 msgid ""
 "Let's add a ball as a child of the Main node. In the Scene dock, select the "
@@ -147,17 +106,6 @@ msgid ""
 "Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS). You should "
 "see it fall."
 msgstr "按 :kbd:`Ctrl + F` (或 macOS 上 :kbd:`Cmd + F`) 可以搜尋列表。"
-
-#, fuzzy
-msgid ""
-"Now, we want to create more instances of the Ball node. With the ball still "
-"selected, press :kbd:`Ctrl + D` (:kbd:`Cmd + D` on macOS) to call the "
-"duplicate command. Click and drag to move the new ball to a different "
-"location."
-msgstr ""
-"現在我們希望建立更多的 Ball 節點實例。保持小球仍處於選中的狀態，按下 :kbd:"
-"`Ctrl-D` （macOS 則是 :kbd:`Cmd-D` ）呼叫製作副本命令。點擊並將新的小球拖到別"
-"的位置。"
 
 msgid "You can repeat this process until you have several in the scene."
 msgstr "你可以重複這個過程，直到你已經放幾個在場景上。"
@@ -208,16 +156,6 @@ msgstr ""
 "將其 Bounce（彈力）屬性設為 ``0.5`` ，只要點擊對應的數字欄位、輸入 ``0.5`` 、"
 "然後按 :kbd:`Enter` 就可以了。"
 
-#, fuzzy
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS) and notice how "
-"all balls now bounce a lot more. As the Ball scene is a template for all "
-"instances, modifying it and saving causes all instances to update "
-"accordingly."
-msgstr ""
-"按 :kbd:`F5` 運作遊戲，請注意所有的小球都更有彈性了。因為 Ball 場景是所有實例"
-"的範本，對它進行修改並保存，就會導致所有實例同時進行更新。"
-
 msgid ""
 "Let's now adjust an individual instance. Head back to the Main scene by "
 "clicking on the corresponding tab above the viewport."
@@ -248,19 +186,6 @@ msgid ""
 "Rerun the game and notice how this ball now falls much faster than the "
 "others."
 msgstr "重新運作遊戲，請注意這個小球會比其他小球落得快得多。"
-
-#, fuzzy
-msgid ""
-"You may notice you are unable to change the values of the "
-"``PhysicsMaterial`` of the ball. This is because ``PhysicsMaterial`` is a "
-"resource, and needs to be made unique before you can edit it in a scene that "
-"is linking to its original scene. To make a resource unique for one "
-"instance, right-click on it in the Inspector and click Make Unique in the "
-"contextual menu."
-msgstr ""
-"如果你修改了一個實例中的 ``PhysicsMaterial`` ，那麼就會影響到其他所有實例。這"
-"是因為 ``PhysicsMaterial`` 是一個資源，而資源是跨實例共用的。要讓某個實例的資"
-"源唯一，請在“屬性面板”中對其右鍵，然後選擇彈出功能表中的“唯一化”。"
 
 msgid ""
 "Resources are another essential building block of Godot games we will cover "
@@ -363,12 +288,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "總結"
-
-#, fuzzy
-msgid ""
-"Instancing, the process of producing an object from a blueprint, has many "
-"handy uses. With scenes, it gives you:"
-msgstr "產生實體，從藍圖生成物件的過程有許多方便的用途。通過場景，它為您提供："
 
 msgid "The ability to divide your game into reusable components."
 msgstr "能讓你的遊戲拆分成可充分利用的元件。"

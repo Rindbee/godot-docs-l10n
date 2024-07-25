@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,18 +34,6 @@ msgstr "Animar qualquer propriedade de qualquer nó"
 msgid "Create a simple animation"
 msgstr "Criar uma animação simples"
 
-#, fuzzy
-msgid ""
-"In Godot, you can animate anything available in the Inspector, such as Node "
-"transforms, sprites, UI elements, particles, visibility and color of "
-"materials, and so on. You can also modify values of script variables and "
-"even call functions."
-msgstr ""
-"No Godot, você pode animar qualquer coisa disponível no Inspetor, como "
-"transformações de nó, sprites, elementos de interface do usuário, "
-"partículas, visibilidade e cor de materiais e assim por diante. Você também "
-"pode modificar valores de variáveis de script e chamar qualquer função."
-
 msgid "Create an AnimationPlayer node"
 msgstr "Criar um nó AnimationPlayer"
 
@@ -61,33 +44,11 @@ msgstr ""
 "Para usar as ferramentas de animação, primeiro temos que criar um nó :ref:"
 "`class_AnimationPlayer`."
 
-#, fuzzy
-msgid ""
-"The AnimationPlayer node type is the data container for your animations. One "
-"AnimationPlayer node can hold multiple animations, which can automatically "
-"transition to one another."
-msgstr ""
-"O tipo de nó AnimationPlayer é o contêiner de dados para suas animações. Um "
-"nó AnimationPlayer pode conter várias animações, que podem transitar "
-"automaticamente umas para as outras."
-
 msgid "The AnimationPlayer node"
 msgstr "O nó AnimationPlayer"
 
-#, fuzzy
-msgid ""
-"After you create an AnimationPlayer node, click on it to open the Animation "
-"Panel at the bottom of the viewport."
-msgstr ""
-"Depois de criar um clique no nó AnimationPlayer na guia Nó para abrir o "
-"Painel de Animação na parte inferior da janela de visualização."
-
 msgid "The animation panel position"
 msgstr "A posição do painel de animação"
-
-#, fuzzy
-msgid "The animation panel consists of four parts:"
-msgstr "É composto por quatro partes:"
 
 msgid "The animation panel"
 msgstr "O painel de animação"
@@ -103,74 +64,21 @@ msgstr "Lista de faixas"
 msgid "The timeline with keyframes"
 msgstr "A linha do tempo com quadros-chave"
 
-#, fuzzy
-msgid ""
-"The timeline and track controls, where you can zoom the timeline and edit "
-"tracks, for example."
-msgstr ""
-"A linha do tempo e controles de faixa, onde você pode ampliar a linha do "
-"tempo e editar faixas, por exemplo."
-
 msgid "Computer animation relies on keyframes"
 msgstr "A animação por computador depende de quadros-chave"
 
-#, fuzzy
-msgid "A keyframe defines the value of a property at a point in time."
-msgstr ""
-"Um quadro-chave define o valor de uma propriedade em um determinado ponto no "
-"tempo."
-
-#, fuzzy
-msgid ""
-"Diamond shapes represent keyframes in the timeline. A line between two "
-"keyframes indicates that the value doesn't change between them."
-msgstr ""
-"As formas de diamante representam quadros-chave na linha do tempo. Uma linha "
-"entre dois quadros-chave indica que o valor não mudou."
-
 msgid "Keyframes in Godot"
 msgstr "Quadros-chave no Godot"
-
-msgid ""
-"You set values of a node's properties and create animation keyframes for "
-"them. When the animation runs, the engine will interpolate the values "
-"between the keyframes, resulting in them gradually changing over time."
-msgstr ""
 
 msgid "Two keyframes are all it takes to obtain a smooth motion"
 msgstr ""
 "Dois quadros-chave são tudo o que é necessário para obter um movimento suave"
 
-msgid ""
-"The timeline defines how long the animation will take. You can insert "
-"keyframes at various points, and change their timing."
-msgstr ""
-
 msgid "The timeline in the animation panel"
 msgstr "A linha do tempo no painel de animação"
 
-msgid ""
-"Each line in the Animation Panel is an animation track that references a "
-"Normal or Transform property of a node. Each track stores a path to a node "
-"and its affected property. For example, the position track in the "
-"illustration refers to the ``position`` property of the Sprite2D node."
-msgstr ""
-
 msgid "Example of Normal animation tracks"
 msgstr "Exemplo de faixas de animação Normal"
-
-#, fuzzy
-msgid ""
-"If you animate the wrong property, you can edit a track's path at any time "
-"by double-clicking on it and typing the new path. Play the animation using "
-"the \"Play from beginning\" button |Play from beginning| (or pressing :kbd:"
-"`Shift + D` on keyboard) to see the changes instantly."
-msgstr ""
-"Se você animar a propriedade errada, poderá editar o caminho de uma trilha a "
-"qualquer momento. Clique duas vezes nele e digite o novo caminho. Reproduza "
-"a animação usando o botão \"Reproduzir do início\" |Reproduzir do início| "
-"(ou pressionando :kbd:`Shift + D` no teclado) para ver as alterações "
-"instantaneamente."
 
 msgid "Play from beginning"
 msgstr "Reproduzir desde o início"
@@ -191,16 +99,6 @@ msgstr ""
 msgid "Our scene setup"
 msgstr "Nossa configuração de cena"
 
-#, fuzzy
-msgid ""
-"AnimationPlayer inherits from Node instead of Node2D or Node3D, which means "
-"that the child nodes will not inherit the transform from the parent nodes "
-"due to a bare Node being present in the hierarchy."
-msgstr ""
-"AnimationPlayer herda de Node em vez de Node2D ou Spatial, o que significa "
-"que os nós filhos não herdarão a transformação dos nós pais devido à "
-"presença de um Node vazio na hierarquia."
-
 msgid ""
 "Therefore, it is not recommended to add nodes that have a 2D/3D transform as "
 "a child of an AnimationPlayer node."
@@ -208,96 +106,17 @@ msgstr ""
 "Portanto, não é recomendável adicionar nós que tenham uma transformação "
 "2D/3D como filho de um nó AnimationPlayer."
 
-msgid ""
-"The sprite holds an image texture. For this tutorial, select the Sprite2D "
-"node, click Texture in the Inspector, and then click Load. Select the "
-"default Godot icon for the sprite's texture."
-msgstr ""
-
-#, fuzzy
-msgid "Adding an animation"
-msgstr "Adicionar uma nova animação"
-
-#, fuzzy
-msgid ""
-"Select the AnimationPlayer node and click the \"Animation\" button in the "
-"animation editor. From the list, select \"New\" (|Add Animation|) to add a "
-"new animation. Enter a name for the animation in the dialog box."
-msgstr ""
-"Selecione o nó AnimationPlayer e clique no botão \"Animação\" no editor de "
-"animação. Na lista, selecione \"Novo\" (|Adicionar animação|) para adicionar "
-"uma nova animação. E digite um nome para a animação na caixa de diálogo."
-
 msgid "Add Animation"
 msgstr "Adicionar animação"
 
 msgid "Add a new animation"
 msgstr "Adicionar uma nova animação"
 
-#, fuzzy
-msgid "Manage an animation libraries"
-msgstr "Gerenciar e importar itens"
-
-msgid ""
-"For reusability, the animation is registered in a list in the animation "
-"library resource. If you add an animation to AnimationPlayer without "
-"specifying any particular settings, the animation will be registered in the "
-"[Global] animation library that AnimationPlayer has by default."
-msgstr ""
-
-#, fuzzy
-msgid "Manage animations"
-msgstr "A animação"
-
-msgid ""
-"If there are multiple animation libraries and you try to add an animation, a "
-"dialog box will appear with options."
-msgstr ""
-
-#, fuzzy
-msgid "Add a new animation with library option"
-msgstr "Adicionar uma nova animação"
-
 msgid "Adding a track"
 msgstr "Adicionando uma faixa"
 
-#, fuzzy
-msgid ""
-"To add a new track for our sprite, select it and take a look at the toolbar:"
-msgstr ""
-"Para adicionar uma nova faixa para nosso sprite, selecione-a e dê uma olhada "
-"na barra de ferramentas:"
-
 msgid "Convenience buttons"
 msgstr "Botões de conveniência"
-
-#, fuzzy
-msgid ""
-"These switches and buttons allow you to add keyframes for the selected "
-"node's location, rotation, and scale. Since we are only animating the "
-"sprite's position, make sure that only the location switch is selected. The "
-"selected switches are blue."
-msgstr ""
-"Estes interruptores e botões permitem adicionar quadros-chave para a "
-"localização, rotação e escala do nó selecionado, respectivamente."
-
-#, fuzzy
-msgid ""
-"Click on the key button to create the first keyframe. Since we don't have a "
-"track set up for the Position property yet, Godot will offer to create it "
-"for us. Click **Create**."
-msgstr ""
-"Como ainda não temos uma faixa configurada para a propriedade transform/"
-"location, Godot pergunta se ela deve ser configurada para nós. Clique em "
-"**Criar**."
-
-#, fuzzy
-msgid ""
-"Godot will create a new track and insert our first keyframe at the beginning "
-"of the timeline:"
-msgstr ""
-"Isso cria uma nova faixa e nosso primeiro quadro-chave no início da linha do "
-"tempo:"
 
 msgid "The sprite track"
 msgstr "A faixa de sprite"
@@ -305,41 +124,8 @@ msgstr "A faixa de sprite"
 msgid "The second keyframe"
 msgstr "O segundo quadro-chave"
 
-#, fuzzy
-msgid ""
-"We need to set our sprite's end location and how long it will take for it to "
-"get there."
-msgstr ""
-"Agora precisamos definir o destino para onde nosso sprite deve ir e quanto "
-"tempo leva para chegar lá."
-
-#, fuzzy
-msgid ""
-"Let's say we want it to take two seconds to move between the points. By "
-"default, the animation is set to last only one second, so change the "
-"animation length to 2 in the controls on the right side of the animation "
-"panel's timeline header."
-msgstr ""
-"Digamos que queremos que leve 2 segundos para chegar ao outro ponto. Por "
-"padrão, a animação é definida para durar apenas 1 segundo, portanto, altere "
-"isso nos controles da linha do tempo no painel inferior do painel de "
-"animação para 2."
-
 msgid "Animation length"
 msgstr "Duração da animação"
-
-msgid ""
-"Now, move the sprite right, to its final position. You can use the *Move "
-"tool* in the toolbar or set the *Position*'s X value in the *Inspector*."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Click on the timeline header near the two-second mark in the animation panel "
-"and then click the key button in the toolbar to create the second keyframe."
-msgstr ""
-"Clique no cabeçalho da linha do tempo perto da marca de 2 segundos e mova o "
-"sprite para o destino de destino no lado direito."
 
 msgid "Run the animation"
 msgstr "Reproduzir a animação"
@@ -353,58 +139,14 @@ msgstr "Eba! Nossa animação está funcionando:"
 msgid "The animation"
 msgstr "A animação"
 
-#, fuzzy
-msgid "Autoplay on load"
-msgstr "AutoLoad"
-
-msgid ""
-"You can make it so an animation plays automatically when the AnimationPlayer "
-"nodes scene starts, or joins another scene. To do this click the \"Autoplay "
-"on load\" button in the animation editor, it's right next to the edit button."
-msgstr ""
-
-msgid ""
-"The icon for it will also appear in front of the name of the animation, so "
-"you can easily identify which one is the autoplay animation."
-msgstr ""
-
 msgid "Back and forth"
 msgstr "Vai e volta"
-
-msgid ""
-"Godot has an interesting feature that we can use in animations. When "
-"Animation Looping is set but there's no keyframe specified at the end of the "
-"animation, the first keyframe is also the last."
-msgstr ""
-
-msgid ""
-"This means we can extend the animation length to four seconds now, and Godot "
-"will also calculate the frames from the last keyframe to the first, moving "
-"our sprite back and forth."
-msgstr ""
 
 msgid "Animation loop"
 msgstr "Loop de animação"
 
-#, fuzzy
-msgid ""
-"You can change this behavior by changing the track's loop mode. This is "
-"covered in the next chapter."
-msgstr ""
-"Se você definir a duração da animação para 4 segundos agora, a animação se "
-"moverá para frente e para trás. Você pode alterar esse comportamento se "
-"alterar o modo de loop da faixa. Isso será abordado no próximo capítulo."
-
 msgid "Track settings"
 msgstr "Configurações de faixa"
-
-#, fuzzy
-msgid ""
-"Each property track has a settings panel at the end, where you can set its "
-"update mode, track interpolation, and loop mode."
-msgstr ""
-"Cada faixa tem um painel de configurações no final, onde você pode definir o "
-"modo de atualização, a interpolação de faixa e o modo de loop."
 
 msgid ""
 "The update mode of a track tells Godot when to update the property values. "
@@ -413,44 +155,8 @@ msgstr ""
 "O modo de atualização de uma faixa informa a Godot quando atualizar os "
 "valores de propriedade. Isso pode ser:"
 
-#, fuzzy
-msgid "**Continuous:** Update the property on each frame"
-msgstr "**Contínuo:** Atualiza a propriedade em cada quadro."
-
-#, fuzzy
-msgid "**Discrete:** Only update the property on keyframes"
-msgstr "**Discreto:** Atualize apenas a propriedade em quadros-chave."
-
-#, fuzzy
-msgid ""
-"**Capture:** if the first keyframe's time is greater than ``0.0``, the "
-"current value of the property will be remembered and will be blended with "
-"the first animation key. For example, you could use the Capture mode to move "
-"a node that's located anywhere to a specific location."
-msgstr ""
-"**Captura:** Se o tempo do primeiro quadro-chave for maior que ``0.0``, o "
-"valor atual da propriedade será lembrado e será misturado com a primeira "
-"chave de animação. Por exemplo, você pode usar o modo de captura para mover "
-"um nó localizado em qualquer lugar para um local específico."
-
 msgid "Track mode"
 msgstr "Modo de faixa"
-
-#, fuzzy
-msgid ""
-"You will usually use \"Continuous\" mode. The other types are used to script "
-"complex animations."
-msgstr ""
-"Em animações normais, você geralmente usa \"Contínuo\". Os outros tipos são "
-"usados para criar scripts de animações complexas."
-
-#, fuzzy
-msgid ""
-"Track interpolation tells Godot how to calculate the frame values between "
-"keyframes. These interpolation modes are supported:"
-msgstr ""
-"A interpolação diz ao Godot como calcular os valores de quadro entre os "
-"quadros-chave. Estes modos de interpolação são suportados:"
 
 msgid "Nearest: Set the nearest keyframe value"
 msgstr "Nearest(Mais próximo): defina o valor do quadro-chave mais próximo"
@@ -469,38 +175,8 @@ msgstr ""
 "Cúbico: defina o valor com base em um cálculo de função cúbica entre os dois "
 "quadros-chave"
 
-msgid ""
-"Linear Angle (Only appears in rotation property): Linear mode with shortest "
-"path rotation"
-msgstr ""
-
-msgid ""
-"Cubic Angle (Only appears in rotation property): Cubic mode with shortest "
-"path rotation"
-msgstr ""
-
 msgid "Track interpolation"
 msgstr "Interpolação de faixa"
-
-#, fuzzy
-msgid ""
-"With Cubic interpolation, animation is slower at keyframes and faster "
-"between them, which leads to more natural movement. Cubic interpolation is "
-"commonly used for character animation. Linear interpolation animates changes "
-"at a fixed pace, resulting in a more robotic effect."
-msgstr ""
-"A interpolação cúbica leva a um movimento mais natural, onde a animação é "
-"mais lenta em um quadro-chave e mais rápida entre os quadros-chave. Isso "
-"geralmente é usado para animação de personagens. A interpolação linear cria "
-"um movimento mais robótico."
-
-#, fuzzy
-msgid ""
-"Godot supports two loop modes, which affect the animation when it's set to "
-"loop:"
-msgstr ""
-"Godot suporta dois modos de loop, que afetam a animação se ela for definida "
-"como loop:"
 
 msgid "Loop modes"
 msgstr "Modos de Loop"
@@ -526,50 +202,11 @@ msgstr ""
 msgid "Keyframes for other properties"
 msgstr "Quadros-chave para outras propriedades"
 
-msgid ""
-"Godot's animation system isn't restricted to position, rotation, and scale. "
-"You can animate any property."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If you select your sprite while the animation panel is visible, Godot will "
-"display a small keyframe button in the *Inspector* for each of the sprite's "
-"properties. Click on one of these buttons to add a track and keyframe to the "
-"current animation."
-msgstr ""
-"Se você selecionar seu sprite enquanto o painel de animação estiver visível, "
-"obterá um pequeno botão de quadro-chave para todas as propriedades do "
-"sprite. Clique neste botão e o Godot adiciona automaticamente uma faixa e um "
-"quadro-chave à animação atual."
-
 msgid "Edit keyframes"
 msgstr "Editar quadro-chave"
 
-msgid ""
-"You can click on a keyframe in the animation timeline to display and edit "
-"its value in the *Inspector*."
-msgstr ""
-
 msgid "Keyframe editor editing a key"
 msgstr "Editor de quadros-chave editando uma chave"
-
-#, fuzzy
-msgid ""
-"You can also edit the easing value for a keyframe here by clicking and "
-"dragging its easing curve. This tells Godot how to interpolate the animated "
-"property when it reaches this keyframe."
-msgstr ""
-"Além disso, você também pode editar o valor de suavização para esse quadro-"
-"chave clicando e arrastando a configuração de suavização. Isso diz a Godot, "
-"como alterar os valores da propriedade quando ele atinge esse quadro-chave."
-
-#, fuzzy
-msgid ""
-"You can tweak your animations this way until the movement \"looks right.\""
-msgstr ""
-"Você geralmente ajusta suas animações dessa maneira, quando o movimento não "
-"\"parece certo\"."
 
 msgid "Using RESET tracks"
 msgstr "Usando faixas RESET"
@@ -605,43 +242,6 @@ msgstr ""
 "aplicada (como se tivesse sido buscada para o tempo ``0.0``). Isso afeta "
 "apenas o arquivo salvo – as faixas de propriedade no editor permanecem onde "
 "estavam."
-
-#, fuzzy
-msgid ""
-"If you want to reset the tracks in the editor, select the AnimationPlayer "
-"node, open the **Animation** bottom panel then choose **Apply Reset** in the "
-"animation editor's **Edit** dropdown menu."
-msgstr ""
-"Se quiser redefinir as trilhas no editor, selecione o nó AnimationPlayer, "
-"abra o painel inferior **Animação** e escolha **Aplicar redefinição** no "
-"menu suspenso **Animação** do editor de animação."
-
-msgid ""
-"when using the keyframe icon next to a property in the inspector the editor "
-"will ask you to automatically create a RESET track."
-msgstr ""
-
-msgid ""
-"RESET tracks is also used as a reference value for blending. See also `For "
-"better blending <../animation/animation_tree.html#for-better-blending>`__."
-msgstr ""
-
-#, fuzzy
-msgid "Onion Skinning"
-msgstr "Animação e skinning"
-
-msgid ""
-"Godot's animation editor allows you use onion skinning while creating an "
-"animation. To turn this feature on click on the onion icon in the top right "
-"of the animation editor. Now there will be transparent red copies of what is "
-"being animated in its previous positions in the animation."
-msgstr ""
-
-msgid ""
-"The three dots button next to the onion skinning button opens a dropdown "
-"menu that lets you adjust how it works, including the ability to use onion "
-"skinning for future frames."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

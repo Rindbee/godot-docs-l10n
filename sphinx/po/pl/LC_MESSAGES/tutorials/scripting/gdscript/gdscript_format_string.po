@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,15 +15,6 @@ msgstr ""
 msgid "GDScript format strings"
 msgstr "GDScript formatuje łańcuchy znaków (string)"
 
-#, fuzzy
-msgid ""
-"GDScript offers a feature called *format strings*, which allows reusing text "
-"templates to succinctly create different but similar strings."
-msgstr ""
-"GDScript oferuje cechę nazywaną *format strings*, która pozwala na ponowne "
-"używanie szablonów tekstu, aby streścić tworzenie różnych, ale podobnych "
-"łańcuchów."
-
 msgid ""
 "Format strings are just like normal strings, except they contain certain "
 "placeholder character-sequences. These placeholders can then easily be "
@@ -37,18 +23,6 @@ msgstr ""
 "Formatowane łańcuchy znaków są zwykł ciągami, z wyjątkiem tego, że zawierają "
 "pewne sekwencje znaków zastępczych. Te pola wyboru można łatwo zastąpić "
 "parametrami przekazanymi do formatowanego łańcucha."
-
-#, fuzzy
-msgid ""
-"As an example, with ``%s`` as a placeholder, the format string ``\"Hello %s, "
-"how are you?\"`` can easily be changed to ``\"Hello World, how are you?\"``. "
-"Notice the placeholder is in the middle of the string; modifying it without "
-"format strings could be cumbersome."
-msgstr ""
-"Na przykład, z ``%s`` jako znakiem specjalnym, ciąg ``\"Witaj %s, jak to "
-"robisz?`` można łatwo zmienić na ``\"Witaj Świecie, jak to robisz?\"``. "
-"Zauważ, że okno dialogowe znajduje się pośrodku łańcucha; modyfikowanie go "
-"bez formatowania może być kłopotliwe."
 
 msgid "Usage in GDScript"
 msgstr "Zastosowanie w GDScript"
@@ -103,24 +77,6 @@ msgstr ""
 msgid "A quick example in GDScript:"
 msgstr "Krótki przykład w GDScript:"
 
-#, fuzzy
-msgid ""
-"There are other `format specifiers`_, but they are only applicable when "
-"using the ``%`` operator."
-msgstr ""
-"Istnieją inne `specyfikatory formatu`_, ale mają one zastosowanie tylko przy "
-"użyciu operatora` `%` `."
-
-#, fuzzy
-msgid "Multiple placeholders"
-msgstr "Wiele symboli zastępczych"
-
-msgid ""
-"Format strings may contain multiple placeholders. In such a case, the values "
-"are handed in the form of an array, one value per placeholder (unless using "
-"a format specifier with ``*``, see `dynamic padding`_):"
-msgstr ""
-
 msgid ""
 "Note the values are inserted in order. Remember all placeholders must be "
 "replaced at once, so there must be an appropriate number of values."
@@ -145,12 +101,6 @@ msgstr ""
 
 msgid "Placeholder types"
 msgstr "Typy symboli zastępczych"
-
-msgid ""
-"One and only one of these must always appear as the last character in a "
-"format specifier. Apart from ``s``, these require certain types of "
-"parameters."
-msgstr ""
 
 msgid "``s``"
 msgstr "``s``"
@@ -219,77 +169,26 @@ msgstr ""
 "Liczba **rzeczywista w systemie dziesiętnym**. Oczekuje liczby całkowitej "
 "lub rzeczywistej."
 
-msgid "``v``"
-msgstr ""
-
-msgid ""
-"A **vector**. Expects any float or int-based vector object ( ``Vector2``, "
-"``Vector3``, ``Vector4``, ``Vector2i``, ``Vector3i`` or ``Vector4i``). Will "
-"display the vector coordinates in parentheses, formatting each coordinate as "
-"if it was an ``%f``, and using the same modifiers."
-msgstr ""
-
 msgid "Placeholder modifiers"
 msgstr "Modyfikatory symboli zastępczych"
-
-msgid ""
-"These characters appear before the above. Some of them work only under "
-"certain conditions."
-msgstr ""
 
 msgid "``+``"
 msgstr "``+``"
 
-msgid "In number specifiers, **show + sign** if positive."
-msgstr ""
-
 msgid "Integer"
 msgstr "Liczba całkowita"
-
-msgid ""
-"Set **padding**. Padded with spaces or with zeroes if integer starts with "
-"``0`` in an integer or real number placeholder. The leading ``0`` is ignored "
-"if ``-`` is present. When used after ``.``, see ``.``."
-msgstr ""
 
 msgid "``.``"
 msgstr "``.``"
 
-msgid ""
-"Before ``f`` or ``v``, set **precision** to 0 decimal places. Can be "
-"followed up with numbers to change. Padded with zeroes."
-msgstr ""
-
 msgid "``-``"
 msgstr "``-``"
-
-msgid "**Pad to the right** rather than the left."
-msgstr ""
 
 msgid "``*``"
 msgstr "``*``"
 
-msgid ""
-"**Dynamic padding**, expect additional integral parameter to set padding or "
-"precision after ``.``, see `dynamic padding`_."
-msgstr ""
-
 msgid "Padding"
 msgstr "Wyrównanie"
-
-msgid ""
-"The ``.`` (*dot*), ``*`` (*asterisk*), ``-`` (*minus sign*) and digit (``0``-"
-"``9``) characters are used for padding. This allows printing several values "
-"aligned vertically as if in a column, provided a fixed-width font is used."
-msgstr ""
-
-msgid "To pad a string to a minimum length, add an integer to the specifier:"
-msgstr ""
-
-msgid ""
-"If the integer starts with ``0``, integral values are padded with zeroes "
-"instead of white space:"
-msgstr ""
 
 msgid ""
 "Precision can be specified for real numbers by adding a ``.`` (*dot*) with "
@@ -311,34 +210,6 @@ msgstr ""
 msgid "Dynamic padding"
 msgstr "Dynamiczne wypełnienie"
 
-msgid ""
-"By using the ``*`` (*asterisk*) character, the padding or precision can be "
-"set without modifying the format string. It is used in place of an integer "
-"in the format specifier. The values for padding and precision are then "
-"passed when formatting:"
-msgstr ""
-
-msgid ""
-"It is still possible to pad with zeroes in integer placeholders by adding "
-"``0`` before ``*``:"
-msgstr ""
-
-msgid "Escape sequence"
-msgstr ""
-
-msgid ""
-"To insert a literal ``%`` character into a format string, it must be escaped "
-"to avoid reading it as a placeholder. This is done by doubling the character:"
-msgstr ""
-
-msgid "Format method examples"
-msgstr ""
-
-msgid ""
-"The following are some examples of how to use the various invocations of the "
-"``String.format``  method."
-msgstr ""
-
 msgid "**Type**"
 msgstr "**Typ**"
 
@@ -357,71 +228,17 @@ msgstr "Słownik"
 msgid "key"
 msgstr "klucz"
 
-#, fuzzy
-msgid ""
-"``\"Hi, {name} v{version}!\".format({\"name\":\"Godette\", \"version\":"
-"\"3.0\"})``"
-msgstr ""
-"\"Hej, {nazwa} v{wersja}!\".format({\"nazwa\":\"Godette\", \"wersja\":"
-"\"3.0\"})"
-
 msgid "Hi, Godette v3.0!"
 msgstr "Hej, Godette v3.0!"
 
 msgid "index"
 msgstr "indeks"
 
-#, fuzzy
-msgid "``\"Hi, {0} v{1}!\".format({\"0\":\"Godette\", \"1\":\"3.0\"})``"
-msgstr "\"Hej, {0} v{1}!\".format({\"0\":\"Godette\", \"1\":\"3.0\"})"
-
 msgid "mix"
 msgstr "połączyć"
 
-#, fuzzy
-msgid ""
-"``\"Hi, {0} v{version}!\".format({\"0\":\"Godette\", \"version\":\"3.0\"})``"
-msgstr ""
-"\"Hej, {0} v{wersja}!\".format({\"0\":\"Godette\", \"wersja\":\"3.0\"})"
-
 msgid "Array"
 msgstr "Tablica"
-
-#, fuzzy
-msgid ""
-"``\"Hi, {name} v{version}!\".format([[\"version\",\"3.0\"], [\"name\","
-"\"Godette\"]])``"
-msgstr ""
-"\"Hej, {nazwa} v{wersja}!\".format([[\"wersja\":\"3.0\"], [\"nazwa\":"
-"\"Godette\"]])"
-
-#, fuzzy
-msgid "``\"Hi, {0} v{1}!\".format([\"Godette\",\"3.0\"])``"
-msgstr "\"Hej, {0} v{1}!\".format([\"Godette\",\"3.0\"])"
-
-#, fuzzy
-msgid "``\"Hi, {name} v{0}!\".format([3.0, [\"name\",\"Godette\"]])``"
-msgstr "\"Hej, {nazwa} v{0}!\".format([3.0, [\"nazwa\":\"Godette\"]])"
-
-#, fuzzy
-msgid "no index"
-msgstr "Indeks"
-
-#, fuzzy
-msgid "``\"Hi, {} v{}!\".format([\"Godette\", 3.0], \"{}\")``"
-msgstr "\"Hej, {0} v{1}\".format([\"Godette\", \"3.0\"], \"{_}\")"
-
-msgid ""
-"Placeholders can also be customized when using ``String.format``, here's "
-"some examples of that functionality."
-msgstr ""
-
-msgid "Infix (default)"
-msgstr ""
-
-#, fuzzy
-msgid "``\"Hi, {0} v{1}\".format([\"Godette\", \"3.0\"], \"{_}\")``"
-msgstr "\"Hej, {0} v{1}\".format([\"Godette\", \"3.0\"], \"{_}\")"
 
 msgid "Hi, Godette v3.0"
 msgstr "Hej, Godette v3.0"
@@ -429,29 +246,8 @@ msgstr "Hej, Godette v3.0"
 msgid "Postfix"
 msgstr "Postfiks"
 
-#, fuzzy
-msgid "``\"Hi, 0% v1%\".format([\"Godette\", \"3.0\"], \"_%\")``"
-msgstr "\"Hej, 0% v1%\".format([\"Godette\", \"3.0\"], \"_%\")"
-
 msgid "Prefix"
 msgstr "Przedrostek"
-
-#, fuzzy
-msgid "``\"Hi, %0 v%1\".format([\"Godette\", \"3.0\"], \"%_\")``"
-msgstr "\"Hej, %0 v%1\".format([\"Godette\", \"3.0\"], \"%_\")"
-
-msgid ""
-"Combining both the ``String.format`` method and the ``%`` operator could be "
-"useful, as ``String.format`` does not have a way to manipulate the "
-"representation of numbers."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``\"Hi, {0} v{version}\".format({0:\"Godette\", \"version\":\"%0.2f\" % "
-"3.114})``"
-msgstr ""
-"\"Hej, {0} v{wersja}\".format({0:\"Godette\", \"wersja\":\"%0.2f\" % 3.114})"
 
 msgid "Hi, Godette v3.11"
 msgstr "Hej, Godette v3.11"

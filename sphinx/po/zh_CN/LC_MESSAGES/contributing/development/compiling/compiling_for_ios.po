@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,31 +29,6 @@ msgstr "需求"
 msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
 msgstr "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
 
-#, fuzzy
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr "`SCons 3.0+ <https://scons.org/pages/download.html>`_ 构建系统."
-
-#, fuzzy
-msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."
-msgstr ""
-"`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_\\ （或更轻量的 "
-"Xcode 命令行工具）。"
-
-msgid ""
-"Launch Xcode once and install iOS support. If you have already launched "
-"Xcode and need to install iOS support, go to *Xcode -> Settings... -> "
-"Platforms*."
-msgstr ""
-
-msgid ""
-"Go to *Xcode -> Settings... -> Locations -> Command Line Tools* and select "
-"an installed version. Even if one is already selected, re-select it."
-msgstr ""
-
-#, fuzzy
-msgid "If you are building the ``master`` branch:"
-msgstr "如果您想回到 ``master`` 分支, 您会使用:"
-
 msgid ""
 "Download and follow README instructions to build a static ``.xcframework`` "
 "from the `MoltenVK SDK <https://github.com/KhronosGroup/MoltenVK#fetching-"
@@ -68,26 +38,10 @@ msgstr ""
 "KhronosGroup/MoltenVK#fetching-moltenvk-source-code>` 构建静态的 ``."
 "xcframework`` 。"
 
-#, fuzzy
-msgid ""
-"If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install "
-"SCons using the following command::"
-msgstr ""
-"如果你安装了 `Homebrew <https://brew.sh/>`_\\ ，你可以使用以下命令轻松地安装 "
-"SCons 和 yasm： ::"
-
 msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
 msgstr "如果你还没有 Xcode 命令行工具，安装 Homebrew 也会自动进行获取。"
-
-#, fuzzy
-msgid ""
-"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
-"you can easily install SCons using the following command::"
-msgstr ""
-"同样，如果你安装了 `MacPorts <https://www.macports.org/>`_\\ ，你可以使用以下"
-"命令轻松安装 SCons 和 yasm： ::"
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -109,20 +63,8 @@ msgstr "打开终端, 转到引擎源代码的根目录并键入:"
 msgid "for a debug build, or:"
 msgstr "针对调试版本, 或:"
 
-#, fuzzy
-msgid ""
-"for a release build (check ``platform/ios/detect.py`` for the compiler flags "
-"used for each configuration)."
-msgstr ""
-"对于发布版本(检查 ``platform/iphone/detect.py`` 以获取用于每种配置的编译器标"
-"志)."
-
 msgid "Alternatively, you can run"
 msgstr "或者, 你可以运行"
-
-#, fuzzy
-msgid "for a Simulator libraries."
-msgstr "用于模拟器可执行文件."
 
 msgid ""
 "To create an Xcode project like in the official builds, you need to use the "

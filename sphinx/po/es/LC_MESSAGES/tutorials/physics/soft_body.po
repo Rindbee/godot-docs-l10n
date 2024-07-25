@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,28 +28,10 @@ msgstr ""
 msgid "Basic set-up"
 msgstr "Configuración básica"
 
-#, fuzzy
-msgid ""
-"A :ref:`SoftBody3D <class_SoftBody3D>` node is used for soft body "
-"simulations."
-msgstr ""
-"Un nodo :ref:`SoftBody <class_SoftBody>` se usa para simulaciones de cuerpos "
-"blandos."
-
 msgid "We will create a bouncy cube to demonstrate the setup of a soft body."
 msgstr ""
 "Crearemos un cubo de rebote para demostrar la configuración de un cuerpo "
 "blando."
-
-#, fuzzy
-msgid ""
-"Create a new scene with a ``Node3D`` node as root. Then, create a "
-"``Softbody`` node. Add a ``CubeMesh`` in the ``mesh`` property of the node "
-"in the inspector and increase the subdivision of the mesh for simulation."
-msgstr ""
-"Crear una nueva escena con un nodo ``Spatial`` como raíz. Luego, crea un "
-"nodo ``Softbody``. Añade una ``CubeMesh`` en la propiedad ``mesh`` del nodo "
-"en el inspector y aumenta la subdivisión de la malla para la simulación."
 
 msgid ""
 "Set the parameters to obtain the type of soft body you aim for. Try to keep "
@@ -91,16 +68,6 @@ msgstr "Simulación de una capa"
 msgid "Let's make a cloak in the Platformer3D demo."
 msgstr "Hagamos una capa en la demo de Platformer3D."
 
-#, fuzzy
-msgid ""
-"You can download the Platformer3D demo on `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or `the Asset "
-"Library <https://godotengine.org/asset-library/asset/2748>`_."
-msgstr ""
-"Puede descargar la demo de Platformer3D en `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>` o en `The Asset "
-"Library <https://godotengine.org/asset-library/asset/125>`_."
-
 msgid ""
 "Open the ``Player`` scene, add a ``SoftBody`` node and assign a "
 "``PlaneMesh`` to it."
@@ -120,26 +87,6 @@ msgstr ""
 msgid "Subdivision generates a more tessellated mesh for better simulations."
 msgstr ""
 "La subdivisión genera una malla más teselada para mejores simulaciones."
-
-#, fuzzy
-msgid ""
-"Add a :ref:`BoneAttachment3D <class_BoneAttachment3D>` node under the "
-"skeleton node and select the Neck bone to attach the cloak to the character "
-"skeleton."
-msgstr ""
-"Añade un nodo :ref:`BoneAttachment <class_BoneAttachment>` bajo el nodo del "
-"esqueleto y selecciona el hueso del cuello para unir la capa al esqueleto "
-"del personaje."
-
-#, fuzzy
-msgid ""
-"``BoneAttachment3D`` node is to attach objects to a bone of an armature. The "
-"attached object will follow the bone's movement, weapon of a character can "
-"be attached this way."
-msgstr ""
-"El nodo ``BoneAttachment`` es para acoplar objetos a un hueso de una "
-"armadura. El objeto adjunto seguirá el movimiento del hueso, el arma de un "
-"personaje puede ser adjuntada de esta manera."
 
 msgid ""
 "To create pinned joints, select the upper vertices in the ``SoftBody`` node:"

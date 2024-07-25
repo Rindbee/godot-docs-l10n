@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,17 +58,6 @@ msgstr ""
 "水溝上時，您會看到出現一個透明的紅點，點擊放置斷點後，該紅點會變成不透明的紅"
 "點。再次點選紅點即可刪除斷點。以這種方式建立的斷點在編輯器重新啟動後仍然存"
 "在，即使退出編輯器時未儲存腳本也是如此。"
-
-#, fuzzy
-msgid ""
-"You can also use the ``breakpoint`` keyword in GDScript to create a "
-"breakpoint that is stored in the script itself. Unlike breakpoints created "
-"by clicking in the gutter, this keyword-based breakpoint is persistent "
-"across different machines when using version control."
-msgstr ""
-"您也可以使用 GDScript 中的「breakpoint」關鍵字來建立儲存在腳本本身中的斷點。"
-"與透過點擊裝訂線建立的斷點不同，使用版本控制時，這種基於關鍵字的斷點在不同的"
-"電腦上是持久的。"
 
 msgid "You can use the buttons in the top-right corner to:"
 msgstr "你可以使用右上角的按鈕來:"

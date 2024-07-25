@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,18 +43,6 @@ msgstr ""
 "`NavigationLink3D<class_NavigationLink3D>`。"
 
 msgid ""
-"Different NavigationRegions can connect their navigation meshes without the "
-"need for a NavigationLink as long as they are within navigation map "
-"``edge_connection_margin`` and have compatible ``navigation_layers``. As "
-"soon as the distance becomes too large, building valid connections becomes a "
-"problem - a problem that NavigationLinks can solve."
-msgstr ""
-"不同的 NavigationRegions 可以連接它們的導覽網格，無需使用 NavigationLink，只"
-"要它們位於導覽地圖「edge_connection_margin」內並且具有相容的"
-"「navigation_layers」即可。一旦距離變得太大，建立有效的連線就會成為一個問題——"
-"NavigationLinks 可以解決這個問題。"
-
-msgid ""
 "See :ref:`doc_navigation_using_navigationregions` to learn more about the "
 "use of navigation regions. See :ref:`doc_navigation_connecting_navmesh` to "
 "learn more about how to connect navigation meshes."
@@ -88,17 +71,6 @@ msgstr ""
 "以雙向移動。放置時，導覽連結會連接搜尋半徑內最接近其「start_position」和"
 "「end_position」的導覽網格多邊形以進行尋路。"
 
-#, fuzzy
-msgid ""
-"The polygon search radius can be configured globally in the ProjectSettings "
-"under ``navigation/2d_or_3d/default_link_connection_radius`` or set for each "
-"navigation **map** individually using the ``NavigationServer."
-"map_set_link_connection_radius()`` function."
-msgstr ""
-"多邊形搜尋半徑可以在 ProjectSettings 的「navigation/2d_or_3d/"
-"default_link_connection_radius」下進行全域配置，或使用「NavigationServer."
-"map_set_link_connection_radius()」函式為每個導覽「map」單獨設定。"
-
 msgid ""
 "Both ``start_position`` and ``end_position`` have debug markers in the "
 "Editor. The visible radius of a position shows the polygon search radius. "
@@ -119,31 +91,6 @@ msgstr ""
 "可以在「debug/shapes/navigation」下的編輯器中更改連結除錯視覺效果:ref:"
 "`ProjectSettings<class_ProjectSettings>`。除錯的可見性也可以在編輯器 3D 視口"
 "小控制功能表中控制。"
-
-#, fuzzy
-msgid ""
-"A navigation link does not provide any specialized movement through the "
-"link. Instead, when an agent reaches the position of a link, game code needs "
-"to react (e.g. through area triggers) and provide means for the agent to "
-"move through the link to end up at the links other position (e.g. through "
-"teleport or animation). Without that an agent will attempt to move itself "
-"along the path of the link. You could end up with an agent walking over a "
-"bottomless pit instead of waiting for a moving platform, or walking through "
-"a teleporter and proceeding through a wall."
-msgstr ""
-"導覽連結不提供通過連結的任何自動移動。相反，當代理到達連結的位置時，遊戲程式"
-"碼需要做出反應（例如通過區域觸發器）並為代理提供通過鏈接移動以最終到達鏈接其"
-"他位置（例如通過傳送或動畫）的方法。繼續沿著小路走。"
-
-#, fuzzy
-msgid "Navigation link script templates"
-msgstr "建立腳本樣板"
-
-#, fuzzy
-msgid ""
-"The following script uses the NavigationServer to create a new navigation "
-"link."
-msgstr "NavigationServer 中可用的 RID 型別如下。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

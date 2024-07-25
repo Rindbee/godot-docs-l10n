@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,27 +28,6 @@ msgstr "系統需求"
 
 msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
 msgstr "`Python 3.5+ <https://www.python.org/downloads/>`_ 。"
-
-#, fuzzy
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr "`SCons 3.0+ <https://scons.org/pages/download.html>`_ 建置系統。"
-
-#, fuzzy
-msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."
-msgstr ""
-"`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (或更輕巧的適用於 "
-"Xcode 的命令行工具)。"
-
-msgid ""
-"Launch Xcode once and install iOS support. If you have already launched "
-"Xcode and need to install iOS support, go to *Xcode -> Settings... -> "
-"Platforms*."
-msgstr ""
-
-msgid ""
-"Go to *Xcode -> Settings... -> Locations -> Command Line Tools* and select "
-"an installed version. Even if one is already selected, re-select it."
-msgstr ""
 
 msgid "If you are building the ``master`` branch:"
 msgstr "若想回到 ``master`` 分支，可以使用："

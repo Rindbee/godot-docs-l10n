@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +14,6 @@ msgstr ""
 
 msgid "Change scenes manually"
 msgstr "手動更改場景"
-
-#, fuzzy
-msgid ""
-"Sometimes it helps to have more control over how one swaps scenes around. A :"
-"ref:`Viewport <class_Viewport>`'s child nodes will render to the image it "
-"generates, this holds true even for nodes outside of the \"current\" scene. "
-"Autoloads fall into this category, but so do scenes which one instances and "
-"adds to the tree at runtime:"
-msgstr ""
-"有時候, 有必要更好地控制如何交換場景. 如上所述, 一個 :ref:`Viewport "
-"<class_Viewport>` 的子節點將呈現給它生成的圖像. 即使對於 \"目前\" 場景之外的"
-"節點, 這也適用. Autoloads屬於這一類, 但是一個實例在運作時新增到樹中的場景也是"
-"如此:"
 
 msgid ""
 "To complete the cycle and swap out the new scene with the old one, "
@@ -117,14 +99,6 @@ msgstr "好處: 如果需要, 仍然可以存取資料."
 msgid "Pro: There's no need to move any more nodes around to save data."
 msgstr "好處: 無需再移動任何節點來保存資料."
 
-#, fuzzy
-msgid ""
-"Con: More data is being kept in memory which will become a problem on memory-"
-"sensitive platforms like web or mobile."
-msgstr ""
-"壞處: 更多資料被保存在記憶體中, 這將成為對記憶體敏感平臺(如Web或移動裝置)的問"
-"題."
-
 msgid "Processing continues."
 msgstr "處理繼續."
 
@@ -183,16 +157,6 @@ msgstr ""
 "壞處：與僅從視圖中隱藏它不同，如果場景中包含的資料依賴於時間差異量、輸入、群"
 "組或其他通過存取 :ref:`SceneTree <class_SceneTree>` 才能得到的資料，則它將變"
 "為陳舊。"
-
-#, fuzzy
-msgid ""
-"There are also cases where one may wish to have many scenes present at the "
-"same time. Perhaps one is adding their own singleton at runtime, or "
-"preserving a scene's data between scene changes (adding the scene to the "
-"root node)."
-msgstr ""
-"在有些情況下, 人們可能希望有許多場景同時存在. 也許人們在運作時新增他們自己的"
-"單例, 或者在場景變化之間保留一個場景的資料(將場景新增到根節點)."
 
 msgid ""
 "Perhaps instead they wish to display multiple scenes at the same time using :"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,18 +45,11 @@ msgid ""
 "that:"
 msgstr "GDScript je dynamicky typovaný jazyk. Jeho hlavními výhodami jsou:"
 
-#, fuzzy
-msgid "The language is easy to get started with."
-msgstr "Jazyk je jednoduchý a snadno se učí."
-
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr "Většinu kódu lze zapsat a změnit rychle a bez potíží."
 
 msgid "Less code written means less errors & mistakes to fix."
 msgstr "Méně napsaného kódu znamená méně chyb a omylů k opravě."
-
-msgid "The code is easy to read (little clutter)."
-msgstr ""
 
 msgid "No compilation is required to test."
 msgstr "Pro testování není nutná žádná kompilace."
@@ -69,19 +57,11 @@ msgstr "Pro testování není nutná žádná kompilace."
 msgid "Runtime is tiny."
 msgstr "Runtime je malinký."
 
-#, fuzzy
-msgid "It has duck-typing and polymorphism by nature."
-msgstr "Duck typing a polymorfismus jako přirozená vlastnost návrhu."
-
 msgid "While the main disadvantages are:"
 msgstr "Hlavními nevýhodami jsou:"
 
 msgid "Less performance than statically typed languages."
 msgstr "Menší výkon než staticky typované jazyky."
-
-#, fuzzy
-msgid "More difficult to refactor (symbols can't be traced)."
-msgstr "Obtížnější refaktorizace (symboly nelze dohledat)"
 
 msgid ""
 "Some errors that would typically be detected at compile time in statically "
@@ -98,24 +78,6 @@ msgid ""
 msgstr ""
 "Menší flexibilita při automatickém dokončování kódu (některé typy proměnných "
 "jsou známy až za běhu)."
-
-#, fuzzy
-msgid ""
-"This, translated to reality, means that Godot used with GDScript is a "
-"combination designed to create games quickly and efficiently. For games that "
-"are very computationally intensive and can't benefit from the engine built-"
-"in tools (such as the Vector types, Physics Engine, Math library, etc), the "
-"possibility of using C++ is present too. This allows you to still create "
-"most of the game in GDScript and add small bits of C++ in the areas that "
-"need a performance boost."
-msgstr ""
-"To v praxi znamená, že Godot + GDScript jsou kombinací určenou k rychlému a "
-"efektivnímu vytváření her. Pro hry, které jsou velmi náročné na výpočetní "
-"výkon a nemohou využívat vestavěné nástroje enginu (jako jsou vektorové "
-"typy, fyzikální engine, matematická knihovna atd.), je zde také možnost "
-"použit jazyk C++. Díky tomu můžete většinu hry stále vytvářet v jazyce "
-"GDScript a v oblastech, které potřebují zvýšit výkon, přidat malé kousky "
-"jazyka C++."
 
 msgid "Variables & assignment"
 msgstr "Proměnné a přiřazení"
@@ -179,22 +141,6 @@ msgstr "Java:"
 
 msgid "GDScript:"
 msgstr "GDScript:"
-
-#, fuzzy
-msgid ""
-"In GDScript, only base types (int, float, string and the vector types) are "
-"passed by value to functions (value is copied). Everything else (instances, "
-"arrays, dictionaries, etc) is passed as reference. Classes that inherit :ref:"
-"`class_RefCounted` (the default if nothing is specified) will be freed when "
-"not used, but manual memory management is allowed too if inheriting manually "
-"from :ref:`class_Object`."
-msgstr ""
-"V jazyce GDScript se funkcím předávají hodnotou pouze základní typy (int, "
-"float, string a typy PoolArray) (hodnota se kopíruje). Vše ostatní "
-"(instance, pole, slovníky atd.) se předává odkazem. Třídy, které dědí :ref:"
-"`class_Reference` (výchozí, pokud není nic zadáno), budou automaticky "
-"uvolněny, pokud se nepoužívají, ale je povolena i ruční správa paměti, pokud "
-"dědí ručně z :ref:`class_Object`."
 
 msgid "Arrays"
 msgstr "Pole"
@@ -260,14 +206,6 @@ msgstr ""
 "Slovníky jsou také dynamické, klíče lze kdykoli přidat nebo odebrat bez "
 "větších nároků na výkon:"
 
-#, fuzzy
-msgid ""
-"In most cases, two-dimensional arrays can often be implemented more easily "
-"with dictionaries. Here's a battleship game example:"
-msgstr ""
-"Ve většině případů lze dvourozměrná pole často snáze implementovat pomocí "
-"slovníků. Zde je jednoduchý příklad hry s bitevní lodí:"
-
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "
 "GDScript's dictionaries resemble python dictionaries, it also supports Lua "
@@ -282,18 +220,6 @@ msgstr ""
 msgid "For & while"
 msgstr "For & while"
 
-#, fuzzy
-msgid ""
-"Iterating using the C-style for loop in C-derived languages can be quite "
-"complex:"
-msgstr ""
-"Iterace v některých staticky typovaných jazycích může být poměrně složitá:"
-
-msgid ""
-"Because of this, GDScript makes the opinionated decision to have a for-in "
-"loop over iterables instead:"
-msgstr ""
-
 msgid ""
 "Container datatypes (arrays and dictionaries) are iterable. Dictionaries "
 "allow iterating the keys:"
@@ -307,15 +233,8 @@ msgstr "Iterace pomocí indexů je také možná:"
 msgid "The range() function can take 3 arguments:"
 msgstr "Funkce range() je schopna pobrat až 3 argumenty:"
 
-msgid "Some examples involving C-style for loops:"
-msgstr ""
-
 msgid "Translate to:"
 msgstr "Lze přeložit do:"
-
-#, fuzzy
-msgid "And backwards looping done through a negative counter:"
-msgstr "Zpětná smyčka se provádí pomocí záporného čítače:"
 
 msgid "Becomes:"
 msgstr "Se stane:"

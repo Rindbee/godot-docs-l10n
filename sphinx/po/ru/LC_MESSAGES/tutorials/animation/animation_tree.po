@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Using AnimationTree"
-msgstr "Использование дерева анимации"
+msgstr "Использование AnimationTree"
 
 msgid "Introduction"
 msgstr "Введение"
 
-#, fuzzy
 msgid ""
 "With :ref:`AnimationPlayer <class_AnimationPlayer>`, Godot has one of the "
 "most flexible animation systems that you can find in any game engine. The "
@@ -33,7 +27,7 @@ msgid ""
 msgstr ""
 "Благодаря :ref:`AnimationPlayer < class_AnimationPlayer>` Godot имеет одну "
 "из самых гибких систем анимации, которые можно встретить в различных игровых "
-"движках. Способность анимировать практически любое свойство в любом узле или "
+"движках. Возможность анимировать практически любое свойство в любом узле или "
 "ресурсе, а также наличие выделенных дорожек преобразования, кривые Безье, "
 "вызовы функций, аудио и субанимации довольно уникальна."
 
@@ -103,17 +97,7 @@ msgid ""
 "godotengine/tps-demo>`_, for reference:"
 msgstr ""
 "Вот как это делается в демонстрации `Шутер от третьего лица <https ://github."
-"com/godotengine/tps-demo >`_; для примера:"
-
-#, fuzzy
-msgid ""
-"A new scene was created for the player with a ``CharacterBody3D`` as root. "
-"Inside this scene, the original ``.dae`` (Collada) file was instantiated and "
-"an ``AnimationTree`` node was created."
-msgstr ""
-"Для игрока была создана новая сцена с ``KinematicBody`` в качестве корня. "
-"Внутри этой сцены был инстанцирован оригинальный файл .dae (Collada) и "
-"создан узел ``AnimationTree``."
+"com/godotengine/tps-demo >`_, для примера:"
 
 msgid "Creating a tree"
 msgstr "Создание дерева"
@@ -121,13 +105,6 @@ msgstr "Создание дерева"
 msgid ""
 "There are three main types of nodes that can be used in ``AnimationTree``:"
 msgstr "В ``AnimationTree`` можно использовать три основных типа узлов:"
-
-#, fuzzy
-msgid ""
-"Animation nodes, which reference an animation from the linked "
-"``AnimationPlayer``."
-msgstr ""
-"Узлы анимации, которые ссылаются на анимацию из связанного ``AnimationTree``."
 
 msgid "Animation Root nodes, which are used to blend sub-nodes."
 msgstr "Корневые узлы анимации, которые используются для смешения подузлов."
@@ -248,16 +225,6 @@ msgstr ""
 "смешения для плавного замедления и ускорения можно настроить, так же как и "
 "фильтры."
 
-#, fuzzy
-msgid ""
-"After setting the request and changing the animation playback, the one-shot "
-"node automatically clears the request on the next process frame by setting "
-"its ``request`` value to ``AnimationNodeOneShot.ONE_SHOT_REQUEST_NONE``."
-msgstr ""
-"После установки времени и изменения воспроизведения анимации узел seek "
-"автоматически переходит в спящий режим на следующем кадре процесса, "
-"установив значение ``seek_position`` равным ``-1.0``."
-
 msgid "TimeSeek"
 msgstr "TimeSeek"
 
@@ -271,43 +238,11 @@ msgstr ""
 "воспроизведения ``Animation`` с начальной или любой другой позиции "
 "воспроизведения внутри ``AnimationNaseBlendTree``."
 
-#, fuzzy
-msgid ""
-"After setting the time and changing the animation playback, the seek node "
-"automatically goes into sleep mode on the next process frame by setting its "
-"``seek_request`` value to ``-1.0``."
-msgstr ""
-"После установки времени и изменения воспроизведения анимации узел seek "
-"автоматически переходит в спящий режим на следующем кадре процесса, "
-"установив значение ``seek_position`` равным ``-1.0``."
-
 msgid "TimeScale"
 msgstr "TimeScаle"
 
-#, fuzzy
-msgid ""
-"Allows scaling the speed of the animation (or reverse it) connected to the "
-"`in` input via the `scale` parameter. Setting the `scale` to 0 will pause "
-"the animation."
-msgstr ""
-"Позволяет масштабировать скорость анимации (или обращать ее) в любых "
-"дочерних узлах. Установка значения в 0 приостановит анимацию."
-
 msgid "Transition"
 msgstr "Переход"
-
-#, fuzzy
-msgid ""
-"Very simple state machine (when you don't want to cope with a "
-"``StateMachine`` node). Animations can be connected to the outputs and "
-"transition times can be specified. After setting the request and changing "
-"the animation playback, the transition node automatically clears the request "
-"on the next process frame by setting its ``transition_request`` value to an "
-"empty string (``\"\"``)."
-msgstr ""
-"Очень простой конечный автомат (если, конечно, Вы не хотите возиться с узлом "
-"``StateMachine``). Анимация может быть подключена к выходам, и можно указать "
-"время перехода."
 
 msgid "BlendSpace2D"
 msgstr "BlendSpacе2D"
@@ -320,18 +255,6 @@ msgstr ""
 "``BlendSpace2D`` — это узел, выполняющий продвинутое смешение в двух "
 "измерениях. В двумерное пространство добавляются точки, и затем можно "
 "управлять их положением для определения смешения:"
-
-#, fuzzy
-msgid ""
-"The ranges in X and Y can be controlled (and labeled for convenience). By "
-"default, points can be placed anywhere (right-click on the coordinate system "
-"or use the *add point* button) and triangles will be generated automatically "
-"using Delaunay."
-msgstr ""
-"Координаты X и Y могут настраиваться (и маркироваться для удобства). По "
-"умолчанию точки можно размещать в любом месте (просто щелкните правой "
-"кнопкой мыши на системе координат, или используйте кнопку *Добавить точку*), "
-"и треугольники будут создаваться автоматически с помощью Delaunay."
 
 msgid ""
 "It is also possible to draw the triangles manually by disabling the *auto "
@@ -367,23 +290,6 @@ msgstr ""
 
 msgid "StateMachine"
 msgstr "StateMachinе (машина состояний)"
-
-#, fuzzy
-msgid ""
-"This node acts as a state machine with root nodes as states. Root nodes can "
-"be created and connected via lines. States are connected via *Transitions*, "
-"which are connections with special properties. Transitions are uni-"
-"directional, but two can be used to connect in both directions."
-msgstr ""
-"Этот узел является относительно простым конечным автоматом. Корневые узлы "
-"могут создаваться и соединяться линиями. Состояния соединяются через "
-"*Transitions*, которые являются соединениями со специальными свойствами. "
-"Переходы однонаправленные, но можно использовать два для соединения в обе "
-"стороны."
-
-#, fuzzy
-msgid "There are many types of transition:"
-msgstr "Существует много типов переходов:"
 
 msgid ""
 "*Immediate*: Will switch to the next state immediately. The current state "
@@ -441,92 +347,6 @@ msgstr ""
 "*Xfade Time* - время перекрестного затухания между этим состоянием и "
 "следующим."
 
-#, fuzzy
-msgid ""
-"*Priority* is used together with the ``travel()`` function from code (more "
-"on this later). Lower priority transitions are preferred when travelling "
-"through the tree."
-msgstr ""
-"*Priority* используется вместе с функцией ``travel()`` из кода (подробнее об "
-"этом ниже). При переходе из одного состояния в другое отдаёт этому узлу "
-"больший приоритет."
-
-#, fuzzy
-msgid ""
-"*Disabled* toggles disabling this transition (when disabled, it will not be "
-"used during travel or auto advance)."
-msgstr ""
-"*Disabled* позволяет отключить этот переход (он не будет использоваться во "
-"время следования или шага)."
-
-msgid "For better blending"
-msgstr ""
-
-msgid ""
-"In Godot 4.0+, in order for the blending results to be deterministic "
-"(reproducible and always consistent), the blended property values must have "
-"a specific initial value. For example, in the case of two animations to be "
-"blended, if one animation has a property track and the other does not, the "
-"blended animation is calculated as if the latter animation had a property "
-"track with the initial value."
-msgstr ""
-
-msgid ""
-"When using Position/Rotation/Scale 3D tracks for Skeleton3D bones, the "
-"initial value is Bone Rest. For other properties, the initial value is ``0`` "
-"and if the track is present in the ``RESET`` animation, the value of its "
-"first keyframe is used instead."
-msgstr ""
-
-msgid ""
-"For example, the following AnimationPlayer has two animations, but one of "
-"them lacks a Property track for Position."
-msgstr ""
-
-msgid ""
-"This means that the animation lacking that will treat those Positions as "
-"``Vector2(0, 0)``."
-msgstr ""
-
-msgid ""
-"This problem can be solved by adding a Property track for Position as an "
-"initial value to the ``RESET`` animation."
-msgstr ""
-
-msgid ""
-"Be aware that the ``RESET`` animation exists to define the default pose when "
-"loading an object originally. It is assumed to have only one frame and is "
-"not expected to be played back using the timeline."
-msgstr ""
-
-msgid ""
-"Also keep in mind that the Rotation 3D tracks and the Property tracks for 2D "
-"rotation with Interpolation Type set to Linear Angle or Cubic Angle will "
-"prevent rotation of more than 180 degrees from the initial value as blended "
-"animation."
-msgstr ""
-
-msgid ""
-"This can be useful for Skeleton3Ds to prevent the bones penetrating the body "
-"when blending animations. Therefore, Skeleton3D's Bone Rest values should be "
-"as close to the midpoint of the movable range as possible. **This means that "
-"for humanoid models, it is preferable to import them in a T-pose**."
-msgstr ""
-
-msgid ""
-"You can see that the shortest rotation path from Bone Rests is prioritized "
-"rather than the shortest rotation path between animations."
-msgstr ""
-
-msgid ""
-"If you need to rotate Skeleton3D itself more than 180 degrees by blend "
-"animations for movement, you can use Root Motion."
-msgstr ""
-
-#, fuzzy
-msgid "Root motion"
-msgstr "Векторные Операции"
-
 msgid ""
 "When working with 3D animations, a popular technique is for animators to use "
 "the root skeleton bone to give motion to the rest of the skeleton. This "
@@ -554,16 +374,6 @@ msgid ""
 msgstr ""
 "После этого фактическое движение может быть получено через API :ref:"
 "`AnimationTree <class_AnimationTree>` как преобразование:"
-
-#, fuzzy
-msgid ""
-"This can be fed to functions such as :ref:`CharacterBody3D.move_and_slide "
-"<class_CharacterBody3D_method_move_and_slide>` to control the character "
-"movement."
-msgstr ""
-"Это может быть передано в такие функции, как :ref:`KinematicBody."
-"move_and_slide <class_KinematicBody_method_move_and_slide>` для управления "
-"движением персонажа."
 
 msgid ""
 "There is also a tool node, ``RootMotionView``, that can be placed in a scene "
@@ -633,23 +443,6 @@ msgstr "Что позволяет их устанавливать или чит�
 
 msgid "State machine travel"
 msgstr "Путешествие конечного автомата"
-
-#, fuzzy
-msgid ""
-"One of the nice features in Godot's ``StateMachine`` implementation is the "
-"ability to travel. The graph can be instructed to go from the current state "
-"to another one, while visiting all the intermediate ones. This is done via "
-"the A\\* algorithm. If there is no path of transitions starting at the "
-"current state and finishing at the destination state, the graph teleports to "
-"the destination state."
-msgstr ""
-"Одной из приятных особенностей реализации графа Godot ``StateMachine`` "
-"является возможность путешествовать. Графу можно дать команду перейти из "
-"текущего состояния в другое, посетив при этом все промежуточные состояния. "
-"Это делается с помощью алгоритма A\\*. При отсутствии какого-либо "
-"жизнеспособного набора переходов, начинающихся в текущем состоянии и "
-"заканчивающихся в состоянии назначения, граф телепортируется в состояние "
-"назначения."
 
 msgid ""
 "To use the travel ability, you should first retrieve the :ref:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -361,11 +356,6 @@ msgstr ""
 msgid "**Platforms:**"
 msgstr "**平台：**"
 
-#, fuzzy
-msgid "*Android*, *iOS*, *Linux*, *macOS*, *Web*, *Windows*"
-msgstr ""
-"**Android**, **HTML5**, **iOS**, **Linux**, **macOS**, **Windows**, **UWP**"
-
 msgid ""
 "By default, it is assumed that a given issue applies to all platforms. If "
 "one of the platform labels is used, it is then exclusive and the previous "
@@ -393,10 +383,6 @@ msgstr "*Bug*：現有頁面中的錯誤資訊。請勿對*缺失*資訊使用�
 
 msgid "*Dependencies*: describes pull requests that update a dependency file."
 msgstr "*依賴項*：描述更新相依性檔案的拉取請求。"
-
-#, fuzzy
-msgid "*Enhancement*: new information to be added in an existing page."
-msgstr "*Enhancememnt*：為現有頁面加入新資訊。"
 
 msgid "*Python*: Pull requests that update Python code."
 msgstr "*Python*：更新 Python 程式碼的拉取請求。"

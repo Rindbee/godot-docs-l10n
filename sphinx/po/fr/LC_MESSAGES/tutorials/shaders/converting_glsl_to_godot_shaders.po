@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,22 +74,6 @@ msgstr ""
 msgid "Vertex attributes"
 msgstr "Attributs des sommets"
 
-#, fuzzy
-msgid ""
-"In GLSL, you can pass in per-vertex information using attributes and have "
-"the flexibility to pass in as much or as little as you want. In Godot, you "
-"have a set number of input attributes, including ``VERTEX`` (position), "
-"``COLOR``, ``UV``, ``UV2``, ``NORMAL``. Each shaders' page in the shader "
-"reference section of the documentation comes with a complete list of its "
-"vertex attributes."
-msgstr ""
-"Dans GLSL, vous pouvez transmettre des informations par vertex en utilisant "
-"des attributs et vous avez la possibilité d'en transmettre autant ou aussi "
-"peu que vous le souhaitez. Dans Godot, vous disposez d'un certain nombre "
-"d'attributs d'entrée, notamment ``VERTEX`` (position), ``COLOR``, ``UV``, "
-"``UV2``, ``NORMAL``. Pour une liste complète, voir la :ref:`référence du "
-"langage de shading<doc_shading_language>`."
-
 msgid "gl_Position"
 msgstr "gl_Position"
 
@@ -163,28 +142,6 @@ msgstr ""
 
 msgid "Macros"
 msgstr "Macros"
-
-msgid ""
-"The :ref:`Godot shader preprocessor<doc_shader_preprocessor>` supports the "
-"following macros:"
-msgstr ""
-
-msgid "``#define`` / ``#undef``"
-msgstr ""
-
-msgid ""
-"``#if``, ``#elif``, ``#else``, ``#endif``, ``defined()``, ``#ifdef``, "
-"``#ifndef``"
-msgstr ""
-
-msgid ""
-"``#include`` (only ``.gdshaderinc`` files and with a maximum depth of 25)"
-msgstr ""
-
-msgid ""
-"``#pragma disable_preprocessor``, which disables preprocessing for the rest "
-"of the file"
-msgstr ""
 
 msgid "Variables"
 msgstr "Variables"

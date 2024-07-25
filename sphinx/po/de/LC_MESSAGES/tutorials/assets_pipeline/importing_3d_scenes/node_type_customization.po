@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,13 +47,12 @@ msgstr ""
 "können. Beim Import erkennt Godot Suffixe in Objektnamen und führt "
 "automatisch Aktionen aus."
 
-#, fuzzy
 msgid ""
 "All the suffixes described below can be used with ``-``, ``$``, and ``_`` "
 "and are **case-insensitive**."
 msgstr ""
-"Bei allen nachstehend beschriebenen Suffixen ist die Groß-/Kleinschreibung "
-"zu beachten**."
+"Alle unten beschriebenen Suffixe können mit ``-``, ``$`` und ``_`` verwendet "
+"werden und unterscheiden **Groß/Kleinschreibung**."
 
 msgid "Remove nodes (-noimp)"
 msgstr "Nodes entfernen (-noimp)"
@@ -76,7 +70,7 @@ msgid ""
 "Import Settings dialog."
 msgstr ""
 "Dies ist gleichbedeutend mit der Aktivierung von **Import überspringen** für "
-"einen Knoten im Dialogfeld Erweiterte Importeinstellungen."
+"einen Node im Dialogfeld Erweiterte Importeinstellungen."
 
 msgid "Create collisions (-col, -convcol, -colonly, -convcolonly)"
 msgstr "Kollisionen erzeugen (-col, -convcol, -colonly, -convcolonly)"

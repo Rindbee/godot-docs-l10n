@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,29 +61,6 @@ msgid ""
 "page:"
 msgstr "打开拉取请求页面。点击页面顶部附近的 **检查Checks** 标签:"
 
-#, fuzzy
-msgid "Click the **Artifacts** dropdown on the right of the page:"
-msgstr "点击页面右侧的 **工件Artifacts** 下拉菜单，然后点击工件的名称来下载它:"
-
-msgid ""
-"In the dropdown, click the artifact's name to download it. Remember to "
-"scroll if you cannot see the name of the platform you're looking for:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Extract the ZIP archive then run the executable. Note that Windows and macOS "
-"binaries are **not** code signed. This means you may have to bypass a "
-"security warning before you can run the executable. On Windows, if you "
-"frequently test pull request builds, it may be better to disable Windows "
-"SmartScreen permanently in the Windows security settings. On macOS, see :ref:"
-"`doc_running_on_macos` for instructions on bypassing Gatekeeper."
-msgstr ""
-"提取ZIP档案，然后运行可执行文件。注意，Windows和macOS的二进制文件是没有代码签"
-"名的。这意味着你可能必须在运行可执行文件之前绕过安全警告。如果你经常测试拉取"
-"请求的构建，可能最好永久地禁用Windows SmartScreen或 `禁用macOS Gatekeeper "
-"<https://disable-gatekeeper.github.io/>`__ 。"
-
 msgid "If you don't have a GitHub account"
 msgstr "如果你没有 GitHub 账户"
 
@@ -104,32 +76,6 @@ msgid ""
 "Open the pull request page. Click the *fork*'s branch name near the top of "
 "the page:"
 msgstr "打开拉取请求页面。点击页面顶部附近的 *fork* 分支名称:"
-
-#, fuzzy
-msgid ""
-"Now that you are on the fork's branch page, click the ``.github`` folder at "
-"the top of the file list. Then, click on the ``workflows`` folder (which is "
-"inside the ``.github`` folder). Click the workflow file for the platform you "
-"wish to download artifacts for. *After* clicking on the file (which opens "
-"the file view), copy the page URL from your browser's address bar."
-msgstr ""
-"现在你在 fork 的分支页面上，点击文件列表顶部的 ``.github`` 文件夹。然后，点"
-"击 ``workflows`` 文件夹（位于 ``.github`` 文件夹内）。点击你想下载工件的平台"
-"的工作流程文件。在点击文件（打开文件视图）\\ *之后*\\ ，从浏览器的地址栏复制"
-"页面 URL。"
-
-#, fuzzy
-msgid ""
-"Open the `nightly.link <https://nightly.link>`__ website and paste the URL "
-"you just copied into the text field located below the heading **Paste a "
-"GitHub link, get a nightly.link!**. After pasting the URL, click **Get "
-"links** on the right. If the format of the URL you pasted is correct, you "
-"should be presented with a page like this:"
-msgstr ""
-"打开 `nightly.link <https://nightly.link>`__ 网站，将刚才复制的 URL 粘贴到 "
-"**Paste a GitHub link, get a nightly.link!** 标题下的文本字段。粘贴完 URL "
-"后，点击右侧的 **Get Links** 。如果你粘贴的 URL 格式正确，你应该看到一个像这"
-"样的页面："
 
 msgid "Click the URL of the artifact you wish to download."
 msgstr "点击你想下载的工件的URL。"
@@ -157,10 +103,6 @@ msgstr ""
 "对于最后一次更新超过90天的拉取请求，或者在Godot的GitHub Actions设置不支持的平"
 "台和配置上进行测试，可能需要采用这种方法。"
 
-#, fuzzy
-msgid "Downloading a zipped pull request branch"
-msgstr "从源编译拉取请求分支"
-
 msgid ""
 "Now that you are on the fork's branch page, click the green **Code** button "
 "on the right of the page then choose **Download ZIP** in the dropdown:"
@@ -171,36 +113,6 @@ msgstr ""
 msgid ""
 "Extract the ZIP archive and follow the :ref:`compiling <toc-devel-"
 "compiling>` instructions for your operating system."
-msgstr ""
-"提取 ZIP 压缩包，按照你的操作系统的\\ :ref:`编译 <toc-devel-compiling>`\\ 说"
-"明操作。"
-
-#, fuzzy
-msgid "Checking out a pull request branch with git"
-msgstr "从源编译拉取请求分支"
-
-#, fuzzy
-msgid "Alternatively, you can checkout the pull request directly with git:"
-msgstr "也可以直接将该项目克隆到项目文件夹内："
-
-msgid ""
-"Open the pull request page. Note the pull request *number* (``PR_NUMBER``), "
-"and the *branch name* (``BRANCH_NAME``), but without the user name."
-msgstr ""
-
-msgid "Construct the command using this pattern:"
-msgstr ""
-
-msgid "So for the pull request above, the actual command will be:"
-msgstr ""
-
-msgid "Once the pull request finishes downloading, checkout its branch:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"And follow the :ref:`compiling <toc-devel-compiling>` instructions for your "
-"operating system."
 msgstr ""
 "提取 ZIP 压缩包，按照你的操作系统的\\ :ref:`编译 <toc-devel-compiling>`\\ 说"
 "明操作。"

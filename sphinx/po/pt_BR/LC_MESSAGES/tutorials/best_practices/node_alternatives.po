@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,69 +80,8 @@ msgstr ""
 "Por exemplo, se o criador do objeto decidir excluí-lo do nada, isso "
 "acionaria um estado de erro no próximo acesso."
 
-#, fuzzy
-msgid ""
-":ref:`RefCounted <class_RefCounted>`: Only a little more complex than "
-"Object. They track references to themselves, only deleting loaded memory "
-"when no further references to themselves exist. These are useful in the "
-"majority of cases where one needs data in a custom class."
-msgstr ""
-":ref:`Reference <class_Reference>`: Apenas um pouco mais complexo que "
-"Object. Eles rastreiam referências a eles mesmos, apagando apenas a memória "
-"carregada quando não há mais referências a eles mesmos. Elas são úteis na "
-"maioria dos casos em que se precisa de dados em uma classe personalizada."
-
-#, fuzzy
-msgid ""
-"**Example:** See the :ref:`FileAccess <class_FileAccess>` object. It "
-"functions just like a regular Object except that one need not delete it "
-"themselves."
-msgstr ""
-"**Exemplo:** Veja o objeto :ref:`File <class_File>`. Ele funciona como um "
-"Objeto normal, exceto que não é necessário excluí-lo."
-
 msgid "**Advantages:** same as the Object."
 msgstr "**Vantagens:** o mesmo que o Objeto."
-
-#, fuzzy
-msgid ""
-":ref:`Resource <class_Resource>`: Only slightly more complex than "
-"RefCounted. They have the innate ability to serialize/deserialize (i.e. save "
-"and load) their object properties to/from Godot resource files."
-msgstr ""
-":ref:`Resource <class_Resource>`: Apenas um pouco mais complexo que "
-"Reference. Eles têm a capacidade inata de serializar/deserializar (ou seja, "
-"salvar e carregar) suas propriedades de/para arquivos de recursos do Godot."
-
-#, fuzzy
-msgid ""
-"**Example:** Scripts, PackedScene (for scene files), and other types like "
-"each of the :ref:`AudioEffect <class_AudioEffect>` classes. Each of these "
-"can be saved and loaded, therefore they extend from Resource."
-msgstr ""
-"**Exemplo:** Scripts, PackedScene (para arquivos de cena), e outros tipos "
-"como cada uma das classes :ref:`AudioEffect <class_AudioEffect>`. Cada uma "
-"delas pode ser salva e carregada, portanto elas se estendem de Resource."
-
-#, fuzzy
-msgid ""
-"**Advantages:** Much has :ref:`already been said <doc_resources>` on :ref:"
-"`Resource <class_Resource>`'s advantages over traditional data storage "
-"methods. In the context of using Resources over Nodes though, their main "
-"advantage is in Inspector-compatibility. While nearly as lightweight as "
-"Object/RefCounted, they can still display and export properties in the "
-"Inspector. This allows them to fulfill a purpose much like sub-Nodes on the "
-"usability front, but also improve performance if one plans to have many such "
-"Resources/Nodes in their scenes."
-msgstr ""
-"**Vantagens:** Muito :ref:`já foi dito <doc_resources>` sobre as vantagens "
-"de :ref:`Resource <class_Resource>` em relação aos métodos tradicionais de "
-"armazenamento de dados. No contexto da utilização de Recursos sobre Nós, "
-"porém, sua principal vantagem está na compatibilidade com o Inspetor. Embora "
-"quase tão leves quanto Objeto/Referência, eles ainda podem exibir e exportar "
-"propriedades no Inspetor. Isso permite que eles cumpram um propósito muito "
-"parecido com os sub-nós na frente de usabilidade, mas também melhora o "
-"desempenho se alguém planeja ter muitos desses Recursos/Nós em suas cenas."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

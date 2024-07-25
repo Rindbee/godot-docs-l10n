@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -688,12 +683,11 @@ msgstr ""
 "processeur pour créer une lightmap). Pré-calculer peut uniquement être "
 "effectué à partir de l'éditeur, pas dans les projets exportés."
 
-#, fuzzy
 msgid ""
 "Supports GPU-based :ref:`denoising <doc_using_lightmap_gi_denoising>` with "
 "JNLM, or CPU/GPU-based denoising with OIDN."
 msgstr ""
-"Supporte le  :ref:`denoising <doc_using_lightmap_gi_denoising>` avec JNLM ou "
+"Supporte le:ref:`denoising <doc_using_lightmap_gi_denoising>` avec JNLM ou "
 "le denoising basé sur le CPU/GPU avec OIDN."
 
 msgid ""
@@ -739,18 +733,17 @@ msgstr ""
 msgid "**Reflections:**"
 msgstr "**Réflexions :**"
 
-#, fuzzy
 msgid ""
 "Voxel-based reflections (when using GI probes) and SDF-based reflections "
 "(when using signed distance field GI). Voxel-based reflections are visible "
 "on transparent surfaces, while rough SDF-based reflections are visible on "
 "transparent surfaces."
 msgstr ""
-"Les réflexions basées sur les voxels (qui utilisent les sondes GI) et les "
-"réflexion basées sur du SDF (qui utilisent le Signed Distance Field GI), ces "
-"voxels basés sur des réflexion sont visibles sur les surfaces transparentes "
-"pendant que les réflexions rugueuses basées sur la SDF sont visibles sur des "
-"surfaces transparentes."
+"Réflexions basées sur les voxels (quand elles utilisent les sondes GI) et "
+"réflexions basées sur du SDF (quand elles utilisent les Signed Distance "
+"Field GI). Ces réflexions basées sur les voxels sont visibles sur les "
+"surfaces transparentes, pendant que les réflexions brutes basées sur la SDF "
+"sont visibles sur des surfaces transparentes."
 
 msgid ""
 "Fast baked reflections or slow real-time reflections using ReflectionProbe. "
@@ -759,7 +752,6 @@ msgstr ""
 "Réflexions rapides précalculées ou lentes en temps réel à l'aide de "
 "ReflectionProbe. La correction de la parallaxe peut être activée en option."
 
-#, fuzzy
 msgid "Screen-space reflections with support for material roughness."
 msgstr ""
 "Réflexions de l'espace écran avec prise en charge de la rugosité des "
@@ -814,30 +806,27 @@ msgstr ""
 "Prise en charge du fondu normal pour atténuer le décalque en fonction de son "
 "angle d'incidence."
 
-#, fuzzy
 msgid ""
 "Does not rely on run-time mesh generation. This means decals can be used on "
 "complex skinned meshes with no performance penalty, even if the decal moves "
 "every frame."
 msgstr ""
-"Ne dépend pas de la durée d'exécution des maillages. Cela signifie que les "
-"décalquages peuvent être utilisés sur des maillages complexes sans chute de "
-"performance, même si le décalquage se déplace à chaque trame."
+"Ne dépend pas de la génération des maillages à l'exécution. Cela signifie "
+"que les décalques peuvent être utilisés sur des maillages complexes sans "
+"chute de performance, même si le décalques bouge à chaque trame."
 
-#, fuzzy
 msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
 msgstr ""
-"Support pour le filtrage de textures bilinéaires, trilinéaires, "
-"anisotropiques ou proches (par configuration globale)."
+"Support pour le filtrage de textures au plus proche voisin, bilinéaires, "
+"trilinéaires ou anisotropes (par configuration globale)."
 
-#, fuzzy
 msgid ""
 "Optional distance fade system to fade distant decals, improving performance."
 msgstr ""
-"Système d'estompage optionnel basé sur la distance afin d'atténuer les "
-"lumières lointaines et leurs ombres, améliorant ainsi les performances."
+"Système optionnel d'atténuation avec la distance pour atténuer les décalques "
+"éloignés, améliorant ainsi les performances."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -894,16 +883,13 @@ msgstr "Profondeur de brouillard exponentielle."
 msgid "Exponential height fog."
 msgstr "Hauteur exponentielle du brouillard."
 
-#, fuzzy
 msgid ""
 "Support for automatic fog color depending on the sky color (aerial "
 "perspective)."
 msgstr ""
-"Prise en charge de la couleur du brouillard de profondeur automatique en "
-"fonction de la direction de la caméra (pour correspondre à la couleur du "
-"soleil)."
+"Prise en charge automatique de la coloration du brouillard en fonction de la "
+"couleur du ciel (perspective aérienne)."
 
-#, fuzzy
 msgid "Support for sun scattering in the fog."
 msgstr "Prise en charge de la diffusion du soleil dans le brouillard."
 
@@ -1005,13 +991,12 @@ msgstr "**Post-traitement :**"
 msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
 msgstr "Tonemapping (Linear, Reinhard, Filmic, ACES)."
 
-#, fuzzy
 msgid ""
 "Automatic exposure adjustments based on viewport brightness (and manual "
 "exposure override)."
 msgstr ""
-"*GLES3 :* Ajustements automatiques de l'exposition en fonction de la "
-"luminosité du viewport."
+"Ajustements automatiques de l'exposition basés sur la luminosité de la "
+"fenêtre d'affichage (et surcharge manuelle de l'exposition)."
 
 msgid ""
 "Near and far depth of field with adjustable bokeh simulation (box, hexagon, "
@@ -1020,11 +1005,10 @@ msgstr ""
 "Profondeur de champ rapprochée et lointaine avec simulation de bokeh "
 "ajustable (boîte, hexagone, cercle)."
 
-#, fuzzy
 msgid "Screen-space ambient occlusion (SSAO) at half or full resolution."
-msgstr "*GLES3:* Occlusion ambiante de l'espace écran."
+msgstr ""
+"Occlusion ambiante en espace d'écran (SSAO) à demi ou pleine résolution."
 
-#, fuzzy
 msgid ""
 "Glow/bloom with optional bicubic upscaling and several blend modes "
 "available: Screen, Soft Light, Add, Replace, Mix."
@@ -1033,11 +1017,10 @@ msgstr ""
 "option et plusieurs modes de fusion disponibles: écran, lumière douce, "
 "ajouter, remplacer, mélanger."
 
-#, fuzzy
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
 msgstr ""
-"Luisance peu avoir une texture de saleté colorée, fonctionnant comme un "
-"effet de lentille sale."
+"La lueur peu avoir une texture de saleté colorée, agissant comme un effet de "
+"lentille sale."
 
 msgid ""
 "Glow can be :ref:`used as a screen-space blur effect "
@@ -1046,7 +1029,6 @@ msgstr ""
 "La lueur peut être :ref:`utilisée comme un effet de flou de la taille de "
 "l'écran <doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
 
-#, fuzzy
 msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
 msgstr ""
 "Correction des couleurs à l'aide d'une rampe unidimensionnelle ou d'une "
@@ -1064,10 +1046,11 @@ msgstr "**Filtrage de texture :**"
 msgid "Nearest, bilinear, trilinear or anisotropic filtering."
 msgstr "Filtrage nearest, bilinear, trilinear ou anisotropic."
 
-#, fuzzy
 msgid ""
 "Filtering options are defined on a per-use basis, not a per-texture basis."
-msgstr "Le Dithering peut être déterminée par pixel ou par objet."
+msgstr ""
+"Les options de filtrage sont définies en fonction de l'utilisation, et non "
+"en fonction de la texture."
 
 msgid "**Texture compression:**"
 msgstr "**Compression de texture :**"
@@ -1075,19 +1058,14 @@ msgstr "**Compression de texture :**"
 msgid "Basis Universal (slow, but results in smaller files)."
 msgstr "Base universelle (lent, mais génère des fichiers plus petits)."
 
-#, fuzzy
 msgid "BPTC for high-quality compression (not supported on macOS)."
-msgstr ""
-"*GLES3 :* BPTC pour une compression de haute qualité (non supporté sur "
-"macOS)."
+msgstr "BPTC pour une compression de haute qualité (non supporté sur macOS)."
 
-#, fuzzy
 msgid "ETC2 (not supported on macOS)."
-msgstr "*GLES3 :* ETC2 (non supporté sur macOS)."
+msgstr "ETC2 (non supporté sur macOS)."
 
-#, fuzzy
 msgid "S3TC (not supported on mobile/Web platforms)."
-msgstr "S3TC (uniquement supporté sur les ordinateur de bureau)."
+msgstr "S3TC (non pris en charge sur les plateformes mobiles/Web)."
 
 msgid "**Anti-aliasing:**"
 msgstr "**Anticrénelage :**"
@@ -1104,13 +1082,12 @@ msgstr ""
 "<doc_3d_antialiasing>` , peut être utilisé à la résolution native comme une "
 "forme de haute qualité temporaire d'anticrénelage."
 
-#, fuzzy
 msgid ""
 "Multi-sample antialiasing (MSAA), for both :ref:`doc_2d_antialiasing` and :"
 "ref:`doc_3d_antialiasing`."
 msgstr ""
-"Multi-sample antialiasing (MSAA), pour les deux :ref:`doc_2d_antialiasing` "
-"and :ref:`doc_3d_antialiasing`."
+"Multi-sample antialiasing (MSAA), pour les deux:ref:`doc_2d_antialiasing` "
+"and:ref:`doc_3d_antialiasing`."
 
 msgid "Fast approximate antialiasing (FXAA)."
 msgstr "Anticrénelage approximatif rapide (FXAA)."
@@ -1122,7 +1099,6 @@ msgstr ""
 "Super-sample antialiasing (SSAA) utilise la mise à l'échelle 3D bilinéaire "
 "et la mise à l'échelle de résolution 3D au dessus de 1.0."
 
-#, fuzzy
 msgid ""
 "Alpha antialiasing, MSAA alpha to coverage and alpha hashing on a per-"
 "material basis."
@@ -1130,9 +1106,8 @@ msgstr ""
 "Alpha d'anticrénelage, utilisez l'alpha MSAA pour la couverture et l'alpha "
 "de hachage sur une base de matériau."
 
-#, fuzzy
 msgid "**Resolution scaling:**"
-msgstr "**échelle de résolution : **"
+msgstr "**échelle de résolution: **"
 
 msgid ""
 "Support for :ref:`rendering 3D at a lower resolution "
@@ -1140,8 +1115,11 @@ msgid ""
 "This can be used to improve performance on low-end systems or improve "
 "visuals on high-end systems."
 msgstr ""
+"Le support pour :ref: `un rendu en 3D à une basse resolution "
+"<doc_resolution_scaling>`Tout en gardant le rendu 2D à l'échelle originale. "
+"Cela peut être utilisé pour améliorer la performance sur les système bas de "
+"gamme ou pour améliorer les visuels des systèmes haut de gamme."
 
-#, fuzzy
 msgid ""
 "Resolution scaling uses bilinear filtering, AMD FidelityFX Super Resolution "
 "1.0 (FSR1) or AMD FidelityFX Super Resolution 2.2 (FSR2)."
@@ -1150,38 +1128,38 @@ msgstr ""
 "FidelityFX Super Resolution 1.0 (FSR1) ou AMD FidelityFX Super Resolution "
 "2.2 (FSR2)."
 
-#, fuzzy
 msgid ""
 "Texture mipmap LOD bias is adjusted automatically to improve quality at "
 "lower resolution scales. It can also be modified with a manual offset."
 msgstr ""
-"Le mipmap des textures par le biais du niveau de détail est ajusté "
-"automatiquement pour améliorer la qualité à des échelles de résolution "
-"inférieures. Il peut également être modifié avec un décalage manuel."
+"Le biais de LOD des mipmaps de texture est ajusté automatiquement pour "
+"améliorer la qualité aux résolutions inférieures. Il peut également être "
+"modifié avec un décalage manuel."
 
-#, fuzzy
 msgid ""
 "Most effects listed above can be adjusted for better performance or to "
 "further improve quality. This can be helpful when :ref:`using Godot for "
 "offline rendering <doc_creating_movies>`."
 msgstr ""
-"La plupart de ces effets peuvent être ajustés pour obtenir de meilleures "
-"performances ou pour améliorer encore la qualité. Cela peut être utile "
-"lorsque vous utilisez Godot pour un rendu différé."
+"La plupart des effets mentionnés ci-dessus peuvent être ajustés pour "
+"améliorer les performances ou pour améliorer davantage la qualité. Cela peut "
+"être utile lorsque vous utilisez:ref:`using Godot for offline rendering "
+"<doc_creating_movies>`."
 
 msgid "3D tools"
 msgstr "Outils 3D"
 
-#, fuzzy
 msgid ""
 "Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad, "
 "torus, ribbon, tube."
 msgstr ""
-"Maillages intégrés : cube, cylindre/cône, (hémi)sphère, prisme, plan, "
-"quadrilatère."
+"Meshes intégrés : cube, cylindre/cone, (hémisphère)sphère, prisme, plan, "
+"quadrilatère, tore, ruban, tube."
 
 msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
 msgstr ""
+":ref:`GridMaps <doc_using_gridmaps>` pour la conception de niveaux basés sur "
+"des tuiles."
 
 msgid ""
 ":ref:`Constructive solid geometry <doc_csg_tools>` (intended for "
@@ -1204,13 +1182,12 @@ msgstr "PathFollow3D pour que les nœuds suivent un Path3D."
 msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
 msgstr "Classe d'assistance à la géométrie 3D."
 
-#, fuzzy
 msgid ""
 "Support for exporting the current scene as a glTF 2.0 file, both from the "
 "editor and at run-time from an exported project."
 msgstr ""
-"Supporte l'export de la scène actuelle vers un fichier glTF 2.0 à partir de "
-"l'éditeur."
+"Support pour l'exportation de la scène actuelle au format glTF 2.0, à la "
+"fois depuis l'éditeur et au moment de l'exécution depuis un projet exporté."
 
 msgid "3D physics"
 msgstr "Physique 3D"
@@ -1225,11 +1202,12 @@ msgstr "Corps mous."
 msgid "Ragdolls."
 msgstr "Ragdolls."
 
-#, fuzzy
 msgid ""
 "Built-in shapes: cuboid, sphere, capsule, cylinder, world boundary (infinite "
 "plane)."
-msgstr "Formes intégrées : cuboïde, sphère, capsule, cylindre."
+msgstr ""
+"Formes intégrées : parallélépipède, sphère, capsule, cylindre, limite du "
+"monde (plan infini)."
 
 msgid "Generate triangle collision shapes for any mesh from the editor."
 msgstr ""
@@ -1284,12 +1262,11 @@ msgstr ""
 "Prise en charge de :ref:`script cross-langage "
 "<doc_cross_language_scripting>`."
 
-#, fuzzy
 msgid ""
 "Many 2D, 3D and 4D linear algebra data types such as vectors and transforms."
 msgstr ""
-"De nombreux types de données d'algèbre linéaire en 2D et 3D comme les "
-"vecteurs et les transformations."
+"De nombreux types de données d'algèbre linéaire en 2D, 3D et 4D, tels que "
+"les vecteurs et les transformations."
 
 msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 msgstr ":ref:`GDScript : <toc-learn-scripting-gdscript>`"
@@ -1328,9 +1305,8 @@ msgstr ""
 msgid "Supports .NET 6 and higher."
 msgstr "Supporte .NET 6 et versions ultérieures."
 
-#, fuzzy
 msgid "Full support for the C# 10.0 syntax and features."
-msgstr "Support complet de la syntaxe et des fonctionnalités du C# 7.0."
+msgstr "Support complet de la syntaxe et des fonctionnalités du C# 10.0."
 
 msgid ""
 "Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
@@ -1385,6 +1361,9 @@ msgid ""
 "Official GDExtension bindings for `C <https://github.com/godotengine/godot-"
 "headers>`__ and `C++ <https://github.com/godotengine/godot-cpp>`__."
 msgstr ""
+"les liaisons GDExtension officiels pour le `C <https://github.com/"
+"godotengine/godot-headers>`__ et pour le `C++ <https://github.com/"
+"godotengine/godot-cpp>`__."
 
 msgid "Use any build system and language features you wish."
 msgstr ""
@@ -1398,6 +1377,11 @@ msgid ""
 "com/godot-rust/gdextension>`__ bindings provided by the community. (Some of "
 "these bindings may be experimental and not production-ready)."
 msgstr ""
+"Liens GDExtension activement développés pour `D <https://github.com/godot-"
+"dlang/godot-dlang>`__, `Haxe <https://hxgodot.github.io/>`__, `Swift "
+"<https://github.com/migueldeicaza/SwiftGodot>`__, et `Rust <https://github."
+"com/godot-rust/gdextension>`__, fournis par la communauté. (Certains de ces "
+"liens peuvent être expérimentaux et ne sont pas prêts pour la production)."
 
 msgid "Audio"
 msgstr "Audio"
@@ -1418,7 +1402,6 @@ msgstr ""
 "Support d' :ref:`audio bus <doc_audio_buses>` re-routable et des effets avec "
 "des dizaines d'effets inclus."
 
-#, fuzzy
 msgid ""
 "Support for polyphony (playing several sounds from a single "
 "AudioStreamPlayer node)."
@@ -1426,15 +1409,12 @@ msgstr ""
 "Prise en charge de la polyphonie (jouer plusieurs sons d'un seul nœud "
 "AudioStreamPlayer)."
 
-#, fuzzy
 msgid "Support for random volume and pitch."
-msgstr "Prise en charge des plugins de shaders visuels."
+msgstr "Support pour le volume et le pitch aléatoires."
 
-#, fuzzy
 msgid "Support for real-time pitch scaling."
-msgstr "Prise en charge des plugins de shaders visuels."
+msgstr "Support pour l'ajustement du pitch en temps réel."
 
-#, fuzzy
 msgid ""
 "Support for sequential/random sample selection, including repetition "
 "prevention when using random sample selection."
@@ -1450,12 +1430,11 @@ msgstr ""
 "Les nœuds Listener2D et Listener3D pour écouter depuis une position "
 "différente de celle de la caméra."
 
-#, fuzzy
 msgid ""
 "Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
 msgstr ""
-"Outils pour :ref:`génération de la géométrie procédurale "
-"<doc_procedural_geometry>`."
+"Support pour la:ref:`génération audio procédurale "
+"<class_AudioStreamGenerator>`."
 
 msgid "Audio input to record microphones."
 msgstr "Entrée audio afin d'enregistrer depuis des microphones."
@@ -1489,9 +1468,8 @@ msgstr ""
 msgid "**Formats:**"
 msgstr "**Formats :**"
 
-#, fuzzy
 msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr "*Images :* Voir :ref:`doc_import_images`."
+msgstr "*Images:* Voir:ref:`doc_importing_images`."
 
 msgid "*Audio:*"
 msgstr "*Audio :*"
@@ -1505,9 +1483,8 @@ msgstr "Ogg Vorbis."
 msgid "MP3."
 msgstr "MP3."
 
-#, fuzzy
 msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr "*Images :* Voir :ref:`doc_import_images`."
+msgstr "*Images :* Voir :ref:`doc_importing_3d_scenes`."
 
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2.0 *(recommandé)*."
@@ -1515,30 +1492,11 @@ msgstr "glTF 2.0 *(recommandé)*."
 msgid ""
 "``.blend`` (by calling Blender's glTF export functionality transparently)."
 msgstr ""
-
-msgid ""
-"FBX (by calling `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ "
-"transparently)."
-msgstr ""
+"``.blend``(en appelant de manière transparente la fonctionnalité "
+"d'exportation glTF de Blender)."
 
 msgid "Collada (.dae)."
 msgstr "Collada (.dae)."
-
-#, fuzzy
-msgid ""
-"Wavefront OBJ (static scenes only, can be loaded directly as a mesh or "
-"imported as a 3D scene)."
-msgstr ""
-"Wavefront OBJ (scènes statiques uniquement, peut être chargé directement "
-"sous forme de maillage)."
-
-#, fuzzy
-msgid ""
-"Support for loading glTF 2.0 scenes at run-time, including from an exported "
-"project."
-msgstr ""
-"Générer des maillages de navigation à partir de l'éditeur ou en temps réel "
-"(y compris d'un projet exporté)."
 
 msgid ""
 "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
@@ -1551,14 +1509,6 @@ msgstr ""
 
 msgid "Input"
 msgstr "Entrée"
-
-#, fuzzy
-msgid ""
-":ref:`Input mapping system <doc_input_examples>` using hardcoded input "
-"events or remappable input actions."
-msgstr ""
-"Système de cartographie des entrées utilisant des événements d'entrée codés "
-"en dur ou des actions d'entrée remappables."
 
 msgid ""
 "Axis values can be mapped to two different actions with a configurable "
@@ -1609,10 +1559,6 @@ msgid "Navigation"
 msgstr "Navigation"
 
 msgid ""
-"A* algorithm in :ref:`2D <class_AStar2D>` and :ref:`3D <class_AStar3D>`."
-msgstr ""
-
-msgid ""
 "Navigation meshes with dynamic obstacle avoidance in :ref:`2D "
 "<doc_navigation_overview_2d>` and :ref:`3D <doc_navigation_overview_3d>`."
 msgstr ""
@@ -1629,34 +1575,8 @@ msgstr ""
 msgid "Networking"
 msgstr "Réseau"
 
-#, fuzzy
-msgid ""
-"Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
-"`class_TCPServer`."
-msgstr "Réseau TCP de bas niveau utilisant StreamPeer et TCP_Server."
-
-#, fuzzy
-msgid ""
-"Low-level UDP networking using :ref:`class_PacketPeer` and :ref:"
-"`class_UDPServer`."
-msgstr "Réseau UDP de bas niveau utilisant PacketPeer et UDPServer."
-
-#, fuzzy
-msgid "Low-level HTTP requests using :ref:`class_HTTPClient`."
-msgstr "Requêtes HTTP de bas niveau utilisant HTTPClient."
-
-#, fuzzy
-msgid "High-level HTTP requests using :ref:`class_HTTPRequest`."
-msgstr "Requêtes HTTP de haut niveau utilisant HTTPRequest."
-
 msgid "Supports HTTPS out of the box using bundled certificates."
 msgstr "Support HTTPS utilisant des certificats groupés."
-
-#, fuzzy
-msgid ""
-":ref:`High-level multiplayer <doc_high_level_multiplayer>` API using UDP and "
-"ENet."
-msgstr "API multijoueur de haut niveau utilisant UDP et ENet."
 
 msgid "Automatic replication using remote procedure calls (RPCs)."
 msgstr "Réplication automatique au moyen de remote procedure calls (RPC)."
@@ -1665,25 +1585,6 @@ msgid "Supports unreliable, reliable and ordered transfers."
 msgstr ""
 "Support des transferts peu fiables, sûrs et ordonnés (unreliable, reliable "
 "and ordered)."
-
-#, fuzzy
-msgid ""
-":ref:`WebSocket <doc_websocket>` client and server, available on all "
-"platforms."
-msgstr "Client et serveur WebSocket, disponible sur toutes les plateformes."
-
-#, fuzzy
-msgid ""
-":ref:`WebRTC <doc_webrtc>` client and server, available on all platforms."
-msgstr "Client et serveur WebRTC, disponible sur toutes les plateformes."
-
-#, fuzzy
-msgid ""
-"Support for :ref:`UPnP <class_UPNP>` to sidestep the requirement to forward "
-"ports when hosting a server behind a NAT."
-msgstr ""
-"Support d'UPnP pour éviter l'obligation de forward ports lors de "
-"l'hébergement d'un serveur derrière un NAT."
 
 msgid "Internationalization"
 msgstr "Internationalisation"
@@ -1698,12 +1599,6 @@ msgstr ""
 "Enregistrez les chaînes de caractères de localisation en utilisant :ref:`CSV "
 "<doc_internationalizing_games>` ou :ref:`gettext "
 "<doc_localization_using_gettext>`."
-
-#, fuzzy
-msgid "Support for generating gettext POT and PO files from the editor."
-msgstr ""
-"Supporte l'export de la scène actuelle vers un fichier glTF 2.0 à partir de "
-"l'éditeur."
 
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
@@ -1720,33 +1615,11 @@ msgstr ""
 "Prise en charge de la pluralisation et des contextes de traduction en "
 "utilisant des traductions gettext."
 
-msgid ""
-"Support for :ref:`bidirectional typesetting "
-"<doc_internationalizing_games_bidi>`, text shaping and OpenType localized "
-"forms."
-msgstr ""
-
-msgid "Automatic UI mirroring for right-to-left locales."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for pseudolocalization to test your project for i18n-friendliness."
-msgstr ""
-"Support pour la pseudolocalisation afin de tester la compatibilité i18n de "
-"votre projet."
-
 msgid "Windowing and OS integration"
 msgstr "Fenêtrage et intégration au systèmes d'exploitation"
 
 msgid "Spawn multiple independent windows within a single process."
 msgstr "Créer plusieurs fenêtres indépendantes en un seul processus."
-
-#, fuzzy
-msgid "Move, resize, minimize, and maximize windows spawned by the project."
-msgstr ""
-"Déplacez, redimensionnez, minimisez et maximisez la fenêtre créée par le "
-"projet."
 
 msgid "Change the window title and icon."
 msgstr "Changez le titre et l'icône de la fenêtre."
@@ -1760,31 +1633,8 @@ msgstr ""
 msgid "Fullscreen mode."
 msgstr "Mode plein écran."
 
-#, fuzzy
-msgid ""
-"Uses borderless fullscreen by default on Windows for fast alt-tabbing, but "
-"can optionally use exclusive fullscreen to reduce input lag."
-msgstr ""
-"Utilise le plein-écran sans bordures par défaut sur Windows pour un alt-"
-"tabbing rapide, mais peut aussi utiliser l'écran complet exclusif pour "
-"réduire la latence d'entrée."
-
-#, fuzzy
-msgid "Borderless windows (fullscreen or non-fullscreen)."
-msgstr "Fenêtre sans bordure (plein écran ou non)."
-
-#, fuzzy
-msgid "Ability to keep a window always on top."
-msgstr "Possibilité de garder la fenêtre toujours en haut."
-
 msgid "Global menu integration on macOS."
 msgstr "Intégration au menu global sur macOS."
-
-#, fuzzy
-msgid ""
-"Execute commands in a blocking or non-blocking manner (including running "
-"multiple instances of the same project)."
-msgstr "Exécuter les commandes de manière bloquante ou non bloquante."
 
 msgid ""
 "Open file paths and URLs using default or custom protocol handlers (if "
@@ -1796,13 +1646,6 @@ msgstr ""
 
 msgid "Parse custom command line arguments."
 msgstr "Analyser les arguments de ligne de commande personnalisés."
-
-msgid ""
-"Any Godot binary (editor or exported project) can be :ref:`used as a "
-"headless server <doc_exporting_for_dedicated_servers>` by starting it with "
-"the ``--headless`` command line argument. This allows running the engine "
-"without a GPU or display server."
-msgstr ""
 
 msgid "Mobile"
 msgstr "Mobile"
@@ -1819,38 +1662,6 @@ msgstr "Support des annonces publicitaires en utilisant des modules tiers."
 
 msgid "XR support (AR and VR)"
 msgstr "Support XR (AR et VR)"
-
-msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular desktop headsets like the Valve Index, WMR "
-"headsets, and Quest over Link."
-msgstr ""
-"Comprend la prise en charge des casques les plus populaires comme le Meta "
-"Quest et le Valve Index."
-
-msgid ""
-"Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
-"OpenXR through a plugin."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
-"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
-msgstr ""
-"Comprend la prise en charge des casques les plus populaires comme le Meta "
-"Quest et le Valve Index."
-
-msgid "Other devices supported through an XR plugin structure."
-msgstr ""
-
-msgid ""
-"Various advanced toolkits are available that implement common features "
-"required by XR applications."
-msgstr ""
 
 msgid "GUI system"
 msgstr "GUI système"
@@ -1873,30 +1684,11 @@ msgstr "Buttons (Boutons)."
 msgid "Checkboxes, check buttons, radio buttons."
 msgstr "Cases à cocher, boutons à cocher, boutons radio."
 
-msgid ""
-"Text entry using :ref:`class_LineEdit` (single line) and :ref:"
-"`class_TextEdit` (multiple lines). TextEdit also supports code editing "
-"features such as displaying line numbers and syntax highlighting."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Dropdown menus using :ref:`class_PopupMenu` and :ref:`class_OptionButton`."
-msgstr "Menus déroulants utilisant PopupMenu et OptionButton."
-
 msgid "Scrollbars."
 msgstr "Barres de défilement."
 
 msgid "Labels."
 msgstr "Étiquettes (Lables)."
-
-#, fuzzy
-msgid ""
-"RichTextLabel for :ref:`text formatted using BBCode "
-"<doc_bbcode_in_richtextlabel>`, with support for animated custom effects."
-msgstr ""
-"RichTextLabel pour :ref:`texte formaté en utilisant le BBCode "
-"<doc_bbcode_in_richtextlabel>`."
 
 msgid "Trees (can also be used to represent tables)."
 msgstr ""
@@ -1928,30 +1720,8 @@ msgstr ":ref:`Stack <class_BoxContainer>` agencement."
 msgid ":ref:`Grid <class_GridContainer>` layouts."
 msgstr ":ref:`Grid <class_GridContainer>` agencement."
 
-#, fuzzy
-msgid ""
-":ref:`Flow <class_FlowContainer>` layouts (similar to autowrapping text)."
-msgstr ":ref:`Stack <class_BoxContainer>` agencement."
-
-#, fuzzy
-msgid ""
-":ref:`Margin <class_MarginContainer>`, :ref:`centered "
-"<class_CenterContainer>` and :ref:`aspect ratio "
-"<class_AspectRatioContainer>` layouts."
-msgstr ""
-":ref:`Margin <class_MarginContainer>` et :ref:`centered "
-"<class_CenterContainer>` layouts."
-
 msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
 msgstr ":ref:`séparateur déplaçable <class_SplitContainer>` layouts."
-
-#, fuzzy
-msgid ""
-"Scale to :ref:`multiple resolutions <doc_multiple_resolutions>` using the "
-"``canvas_items`` or ``viewport`` stretch modes."
-msgstr ""
-"Mise à l'échelle à plusieurs résolutions en utilisant les modes d'étirement "
-"``2d`` ou ``viewport``."
 
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
@@ -2030,12 +1800,6 @@ msgstr ""
 "Les formats binaires sont plus rapides à sauvegarder/charger pour les "
 "grandes scènes/ressources."
 
-#, fuzzy
-msgid "Read and write text or binary files using :ref:`class_FileAccess`."
-msgstr ""
-"Lecture et écriture de fichiers texte ou binaires en utilisant :ref:"
-"`class_File`."
-
 msgid "Can optionally be compressed or encrypted."
 msgstr "Peut éventuellement être compressé ou chiffré."
 
@@ -2057,12 +1821,6 @@ msgid "Read XML files using :ref:`class_XMLParser`."
 msgstr "Lire les fichiers XML en utilisant :ref:`class_XMLParser`."
 
 msgid ""
-":ref:`Load and save images, audio/video, fonts and ZIP archives "
-"<doc_runtime_loading_and_saving>` in an exported project without having to "
-"go through Godot's import system."
-msgstr ""
-
-msgid ""
 "Pack game data into a PCK file (custom format optimized for fast seeking), "
 "into a ZIP archive, or directly into the executable for single-file "
 "distribution."
@@ -2080,16 +1838,6 @@ msgstr ""
 
 msgid "Miscellaneous"
 msgstr "Divers"
-
-msgid ""
-":ref:`Video playback <doc_playing_videos>` with built-in support for Ogg "
-"Theora."
-msgstr ""
-
-msgid ""
-":ref:`Movie Maker mode <doc_creating_movies>` to record videos from a "
-"running project with synchronized audio and perfect frame pacing."
-msgstr ""
 
 msgid ""
 ":ref:`Low-level access to servers <doc_using_servers>` which allows "
@@ -2117,23 +1865,6 @@ msgstr ""
 "misc/dist/shell>`__ sont disponibles pour Bash, zsh et fish."
 
 msgid ""
-"Print colored text to standard output on all platforms using :ref:"
-"`print_rich <class_@GlobalScope_method_print_rich>`."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked "
-"into the engine binary."
-msgstr ""
-"Support :ref:`des modules C++ <doc_custom_modules_in_c++>` liés statiquement "
-"dans le binaire du moteur."
-
-#, fuzzy
-msgid "Engine and editor written in C++17."
-msgstr "Moteur et éditeur écrit en C++03."
-
-msgid ""
 "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, "
 "Clang and MSVC. MinGW is also supported."
 msgstr ""
@@ -2152,14 +1883,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "Licencié sous la licence permissive MIT."
-
-#, fuzzy
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"Développement ouvert :ref:`les contributions sont les bienvenues "
-"<doc_ways_to_contribute>`."
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

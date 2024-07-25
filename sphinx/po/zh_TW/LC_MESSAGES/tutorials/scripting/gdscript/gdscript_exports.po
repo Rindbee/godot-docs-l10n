@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "GDScript exported properties"
-msgstr "GDScript的匯出"
 
 msgid ""
 "In Godot, class members can be exported. This means their value gets saved "
@@ -336,43 +327,6 @@ msgstr ""
 msgid "Packed type arrays also work, but only initialized empty:"
 msgstr "打包型別陣列也可以工作，但只能初始化為空："
 
-#, fuzzy
-msgid "Other export variants can also be used when exporting arrays:"
-msgstr "屬性提示可用於將字串匯出為路徑"
-
-#, fuzzy
-msgid "``@export_storage``"
-msgstr "``@experimental``"
-
-msgid "By default, exporting a property has two effects:"
-msgstr ""
-
-msgid ""
-"makes the property stored in the scene/resource file (:ref:"
-"`PROPERTY_USAGE_STORAGE "
-"<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`);"
-msgstr ""
-
-msgid ""
-"adds a field to the Inspector (:ref:`PROPERTY_USAGE_EDITOR "
-"<class_@GlobalScope_constant_PROPERTY_USAGE_EDITOR>`)."
-msgstr ""
-
-msgid ""
-"However, sometimes you may want to make a property serializable, but not "
-"display it in the editor to prevent unintentional changes and cluttering the "
-"interface."
-msgstr ""
-
-msgid ""
-"To do this you can use :ref:`@export_storage "
-"<class_@GDScript_annotation_@export_storage>`. This can be useful for :ref:"
-"`@tool <class_@GDScript_annotation_@tool>` scripts. Also the property value "
-"is copied when :ref:`Resource.duplicate() <class_Resource_method_duplicate>` "
-"or :ref:`Node.duplicate() <class_Node_method_duplicate>` is called, unlike "
-"non-exported variables."
-msgstr ""
-
 msgid "Setting exported variables from a tool script"
 msgstr "從工具腳本中設定匯出變數"
 
@@ -399,33 +353,12 @@ msgstr ""
 "為了避免不必要的複雜設計，並非所有匯出型別都有在語言層面上提供。下面說明了一"
 "些能使用低階 API 實作的常見匯出功能。"
 
-#, fuzzy
-msgid ""
-"Before reading further, you should get familiar with the way properties are "
-"handled and how they can be customized with :ref:`_set() "
-"<class_Object_private_method__set>`, :ref:`_get() "
-"<class_Object_private_method__get>`, and :ref:`_get_property_list() "
-"<class_Object_private_method__get_property_list>` methods as described in :"
-"ref:`doc_accessing_data_or_logic_from_object`."
-msgstr ""
-"在進一步閱讀之前，建議您先熟悉屬性的處理方法以及如何使用 :ref:`_set() "
-"<class_Object_method__get_property_list>`, :ref:`_get() "
-"<class_Object_method__get_property_list>` 與 :ref:`_get_property_list() "
-"<class_Object_method__get_property_list>` 方法來自定屬性處理，詳細說明可參"
-"考 :ref:`doc_accessing_data_or_logic_from_object` 。"
-
 msgid ""
 "For binding properties using the above methods in C++, see :ref:"
 "`doc_binding_properties_using_set_get_property_list`."
 msgstr ""
 "若要在 C++ 中以上述方法繫結屬性，請參考 :ref:"
 "`doc_binding_properties_using_set_get_property_list` 。"
-
-#, fuzzy
-msgid ""
-"The script must operate in the ``@tool`` mode so the above methods can work "
-"from within the editor."
-msgstr "腳本必須為 ``tool`` 模式，才可在編輯器中使用上述方法。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

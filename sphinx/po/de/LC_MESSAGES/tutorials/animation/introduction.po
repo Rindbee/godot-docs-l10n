@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +194,7 @@ msgid ""
 "due to a bare Node being present in the hierarchy."
 msgstr ""
 "AnimationPlayer erbt von Node anstelle von Node2D oder Node3D, was bedeutet, "
-"dass die Child-Nodes die Transformation nicht von den übergeordneten Knoten "
+"dass die Child-Nodes die Transformation nicht von den übergeordneten Nodes "
 "erben, da in der Hierarchie nur ein Node vorhanden ist."
 
 msgid ""
@@ -361,20 +356,26 @@ msgstr "Hurra! Unsere Animation läuft:"
 msgid "The animation"
 msgstr "Die Animation"
 
-#, fuzzy
 msgid "Autoplay on load"
-msgstr "Autoload"
+msgstr "Autoplay beim Laden"
 
 msgid ""
 "You can make it so an animation plays automatically when the AnimationPlayer "
 "nodes scene starts, or joins another scene. To do this click the \"Autoplay "
 "on load\" button in the animation editor, it's right next to the edit button."
 msgstr ""
+"Sie können es so einrichten, dass eine Animation automatisch abgespielt "
+"wird, wenn die AnimationPlayer-Node-Szene startet oder einer anderen Szene "
+"beitritt. Klicken Sie dazu auf den Button \"Autoplay beim Laden\" im "
+"Animationseditor, die sich direkt neben dem \"Edit\"-Button befindet."
 
 msgid ""
 "The icon for it will also appear in front of the name of the animation, so "
 "you can easily identify which one is the autoplay animation."
 msgstr ""
+"Das entsprechende Icon wird auch vor dem Namen der Animation angezeigt, so "
+"dass Sie leicht erkennen können, welche Animation automatisch abgespielt "
+"wird."
 
 msgid "Back and forth"
 msgstr "Hin und her"
@@ -410,12 +411,11 @@ msgstr ""
 msgid "Track settings"
 msgstr "Track-Einstellungen"
 
-#, fuzzy
 msgid ""
 "Each property track has a settings panel at the end, where you can set its "
 "update mode, track interpolation, and loop mode."
 msgstr ""
-"Jeder Track hat am Ende ein Einstellungs-Panel, in dem Sie den "
+"Jeder Property-Track hat am Ende ein Einstellungs-Panel, in dem Sie den "
 "Aktualisierungsmodus, die Track-Interpolation und den Loop-Modus einstellen "
 "können."
 
@@ -638,6 +638,9 @@ msgid ""
 "when using the keyframe icon next to a property in the inspector the editor "
 "will ask you to automatically create a RESET track."
 msgstr ""
+"Wenn Sie das Keyframe-Symbol neben einer Property im Inspektor verwenden, "
+"werden Sie vom Editor aufgefordert, automatisch einen RESET-Track zu "
+"erstellen."
 
 msgid ""
 "RESET tracks is also used as a reference value for blending. See also `For "
@@ -647,9 +650,8 @@ msgstr ""
 "`Für besseres Blending <../animation/animation_tree.html#for-better-"
 "blending>`__."
 
-#, fuzzy
 msgid "Onion Skinning"
-msgstr "Animation und Skinning"
+msgstr "Onion-Skinning"
 
 msgid ""
 "Godot's animation editor allows you use onion skinning while creating an "
@@ -657,12 +659,21 @@ msgid ""
 "of the animation editor. Now there will be transparent red copies of what is "
 "being animated in its previous positions in the animation."
 msgstr ""
+"Der Godot-Animationseditor ermöglicht die Verwendung von Onion Skinning bei "
+"der Erstellung einer Animation. Um diese Funktion zu aktivieren, klicken Sie "
+"auf das Zwiebel-Symbol oben rechts im Animationseditor. Jetzt werden "
+"transparente, rote Kopien des zu animierenden Objekts an seinen vorherigen "
+"Positionen in der Animation angezeigt."
 
 msgid ""
 "The three dots button next to the onion skinning button opens a dropdown "
 "menu that lets you adjust how it works, including the ability to use onion "
 "skinning for future frames."
 msgstr ""
+"Der Button mit den drei Punkten neben dem Onion-Skinning-Button öffnet ein "
+"Dropdown-Menü, mit dem Sie die Funktionsweise anpassen können, "
+"einschließlich der Möglichkeit, das Onion Skinning für zukünftige Bilder zu "
+"verwenden."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

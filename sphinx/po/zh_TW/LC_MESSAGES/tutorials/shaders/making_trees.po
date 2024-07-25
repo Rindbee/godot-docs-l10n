@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,14 +20,6 @@ msgid ""
 "from scratch."
 msgstr "這是一個關於如何從頭開始製作樹和其他型別植被的小教學."
 
-#, fuzzy
-msgid ""
-"The aim is to not focus on the modeling techniques (there are plenty of "
-"tutorials about that), but how to make them look good in Godot."
-msgstr ""
-"我們的目標不是專注於建模技術(關於這方面有很多教學), 而是如何讓它們在Godot中看"
-"起來更好."
-
 msgid "Start with a tree"
 msgstr "從一棵樹開始"
 
@@ -47,16 +34,6 @@ msgstr "然後用 Blender 打開。"
 
 msgid "Paint with vertex colors"
 msgstr "用頂點顏色繪製"
-
-#, fuzzy
-msgid ""
-"The first thing you may want to do is to use the vertex colors to paint how "
-"much the tree will sway when there is wind. Just use the vertex color "
-"painting tool of your favorite 3D modeling program and paint something like "
-"this:"
-msgstr ""
-"您可能要做的第一件事就是用頂點的顏色來描繪當有風的時候樹會搖擺多少. 只需使用"
-"您最喜歡的三維建模程式的頂點著色工具, 並繪製如下:"
 
 msgid ""
 "This is a bit exaggerated, but the idea is that color indicates how much "

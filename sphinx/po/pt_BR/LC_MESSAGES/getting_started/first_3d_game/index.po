@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,20 +76,6 @@ msgstr "Desenhar uma interface de usuário num jogo 3D."
 
 msgid "And more."
 msgstr "Entre outras coisas."
-
-#, fuzzy
-msgid ""
-"This tutorial is for beginners who followed the complete getting started "
-"series. We'll start slow with detailed instructions and shorten them as we "
-"do similar steps. If you're an experienced programmer, you can browse the "
-"complete demo's source code here: `Squash the Creep source code <https://"
-"github.com/godotengine/godot-3d-dodge-the-creeps>`__."
-msgstr ""
-"Esse tutorial é para iniciantes os quais seguiram a série completa de "
-"iniciação. Nós começaremos de vagar com instruções detalhadas e encurtá-las "
-"conforme fazemos passos semelhantes. Se você é um programador experiente, "
-"você pode acessar o código fonte completo aqui: `código fonte Squash the "
-"Creep<https://github.com/GDQuest/godot-3d-dodge-the-creeps/>`__."
 
 msgid ""
 "You can follow this series without having done the 2D one. However, if "

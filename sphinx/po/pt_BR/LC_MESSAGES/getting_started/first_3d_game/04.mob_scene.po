@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,19 +117,6 @@ msgstr ""
 msgid "Removing monsters off-screen"
 msgstr "Removendo monstros fora da tela"
 
-#, fuzzy
-msgid ""
-"We're going to spawn monsters at regular time intervals in the game level. "
-"If we're not careful, their count could increase to infinity, and we don't "
-"want that. Each mob instance has both a memory and a processing cost, and we "
-"don't want to pay for it when the mob is outside the screen."
-msgstr ""
-"Vamos fazer os monstros surgirem em intervalos regulares de tempo no nível "
-"do jogo. Se não tivermos cuidado, sua contagem pode aumentar até o infinito, "
-"e não queremos isso. Cada instância do Inimigo tem tanto uma memória quanto "
-"um custo de processamento, e não queremos pagar por isso quando o inimigo "
-"está fora da tela."
-
 msgid ""
 "Once a monster leaves the screen, we don't need it anymore, so we should "
 "delete it. Godot has a node that detects when objects leave the screen, :ref:"
@@ -145,33 +127,6 @@ msgstr ""
 "excluí-lo. Godot tem um nó que detecta quando os objetos saem da tela, :ref:"
 "`VisibleOnScreenNotifier3D <class_VisibleOnScreenNotifier3D>`, e vamos usá-"
 "lo para destruir nossos inimigos."
-
-#, fuzzy
-msgid ""
-"When you keep instancing an object, there's a technique you can use to avoid "
-"the cost of creating and destroying instances all the time called pooling. "
-"It consists of pre-creating an array of objects and reusing them over and "
-"over."
-msgstr ""
-"Quando você continua instanciando um objeto nos jogos, há uma técnica que "
-"você pode usar para evitar o custo de criar e destruir instâncias o tempo "
-"todo chamadas de \"pooling\". Ela consiste em pré-criar um conjunto de "
-"objetos e reutilizá-los repetidamente."
-
-#, fuzzy
-msgid ""
-"When working with GDScript, you don't need to worry about this. The main "
-"reason to use pools is to avoid freezes with garbage-collected languages "
-"like C# or Lua. GDScript uses a different technique to manage memory, "
-"reference counting, which doesn't have that caveat. You can learn more about "
-"that here: :ref:`doc_gdscript_basics_memory_management`."
-msgstr ""
-"Ao trabalhar com o GDScript, você não precisa se preocupar com isso. A "
-"principal razão para utilizar as \"pools\" é evitar travamentos com "
-"linguagens \"garbage-collected\" como C# ou Lua. O GDScript usa uma técnica "
-"diferente para gerenciar a memória, contagem de referência, que não tem essa "
-"ressalva. Você pode aprender mais sobre isso aqui :ref:"
-"`doc_gdscript_basics_memory_management`."
 
 msgid ""
 "Select the ``Mob`` node and add a child node :ref:`VisibleOnScreenNotifier3D "
@@ -201,81 +156,11 @@ msgstr "image6"
 msgid "Coding the mob's movement"
 msgstr "Programando a movimentação dos inimigos"
 
-#, fuzzy
-msgid ""
-"Let's implement the monster's motion. We're going to do this in two steps. "
-"First, we'll write a script on the ``Mob`` that defines a function to "
-"initialize the monster. We'll then code the randomized spawn mechanism in "
-"the ``main.tscn`` scene and call the function from there."
-msgstr ""
-"Vamos implementar o movimento do monstro. Vamos fazer isso em duas etapas. "
-"Primeiro, escreveremos um script do *Inimigo* que define uma função para "
-"inicializar o monstro. Em seguida, vamos programar o mecanismo de surgimento "
-"aleatório na cena *Principal* e chamar a função a partir daí."
-
-#, fuzzy
-msgid "Attach a script to the ``Mob``."
-msgstr "Anexe um script ao *Inimigo*."
-
 msgid "|image7|"
 msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
-
-#, fuzzy
-msgid ""
-"Here's the movement code to start with. We define two properties, "
-"``min_speed`` and ``max_speed``, to define a random speed range, which we "
-"will later use to define ``CharacterBody3D.velocity``."
-msgstr ""
-"Aqui está o código de movimento para começarmos. Definimos duas "
-"propriedades, ``min_speed`` e ``max_speed``, para definir uma faixa de "
-"velocidade aleatória. Definimos e inicializamos então o ``velocity``."
-
-#, fuzzy
-msgid ""
-"Similarly to the player, we move the mob every frame by calling the function "
-"``CharacterBody3D.move_and_slide()``. This time, we don't update the "
-"``velocity`` every frame; we want the monster to move at a constant speed "
-"and leave the screen, even if it were to hit an obstacle."
-msgstr ""
-"Da mesma forma que o jogador, movemos o inimigo a cada quadro chamando o "
-"método `` move_and_slide()``do ``KinematicBody`` método. Desta vez, não "
-"atualizamos o ``velocity`` cada frame: queremos que o monstro se mova a uma "
-"velocidade constante e saia da tela, mesmo que fosse para acertar um "
-"obstáculo."
-
-#, fuzzy
-msgid ""
-"We need to define another function to calculate the ``CharacterBody3D."
-"velocity``. This function will turn the monster towards the player and "
-"randomize both its angle of motion and its velocity."
-msgstr ""
-"É preciso definir outra função para calcular a velocidade de partida. Esta "
-"função vai virar o monstro em direção ao jogador e randomizar tanto seu "
-"ângulo de movimento quanto sua velocidade."
-
-#, fuzzy
-msgid ""
-"The function will take a ``start_position``,the mob's spawn position, and "
-"the ``player_position`` as its arguments."
-msgstr ""
-"A função terá como argumentos ``start_position``, a posição de surgimento do "
-"inimigo, e o ``player_position`` como seus argumentos."
-
-#, fuzzy
-msgid ""
-"We position the mob at ``start_position`` and turn it towards the player "
-"using the ``look_at_from_position()`` method, and randomize the angle by "
-"rotating a random amount around the Y axis. Below, ``randf_range()`` outputs "
-"a random value between ``-PI / 4`` radians and ``PI / 4`` radians."
-msgstr ""
-"Posicionamos o inimigo em ``start_position`` e o giramos em direção ao "
-"jogador utilizando o método ``look_at_from_position()``, e randomizamos o "
-"ângulo girando uma quantidade aleatória ao redor do eixo Y. Abaixo, "
-"``rand_range()`` produz um valor aleatório entre ``-PI / 4`` radians e "
-"``PI / 4`` radians."
 
 msgid ""
 "We got a random position, now we need a ``random_speed``. ``randi_range()`` "
@@ -294,41 +179,11 @@ msgstr ""
 msgid "Leaving the screen"
 msgstr "Saindo da tela"
 
-#, fuzzy
-msgid ""
-"We still have to destroy the mobs when they leave the screen. To do so, "
-"we'll connect our :ref:`VisibleOnScreenNotifier3D "
-"<class_VisibleOnScreenNotifier3D>` node's ``screen_exited`` signal to the "
-"``Mob``."
-msgstr ""
-"Ainda temos que destruir os inimigos quando eles deixam a tela. Para isso, "
-"conectaremos o sinal ``screen_exited`` do nosso nó *VisibilityNotifier* ao "
-"*Inimigo*."
-
-#, fuzzy
-msgid ""
-"Head back to the 3D viewport by clicking on the *3D* label at the top of the "
-"editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
-msgstr ""
-"Volte para o viewport 3D clicando na etiqueta *3D* na parte superior do "
-"editor. Você também pode pressionar :kbd:`Ctrl + F2` (:kbd:`Alt + 2` em "
-"macOS)."
-
 msgid "|image8|"
 msgstr "|image8|"
 
 msgid "image8"
 msgstr "image8"
-
-#, fuzzy
-msgid ""
-"Select the :ref:`VisibleOnScreenNotifier3D "
-"<class_VisibleOnScreenNotifier3D>` node and on the right side of the "
-"interface, navigate to the *Node* dock. Double-click the ``screen_exited()`` "
-"signal."
-msgstr ""
-"Selecione o nó *VisibilityNotifier* e, no lado direito da interface, navegue "
-"até painel *Nó*. Clique duas vezes no sinal *screen_exited()*."
 
 msgid "|image9|"
 msgstr "|image9|"
@@ -336,26 +191,11 @@ msgstr "|image9|"
 msgid "image9"
 msgstr "image9"
 
-#, fuzzy
-msgid "Connect the signal to the ``Mob``"
-msgstr "Conecte o sinal para o *Mob*."
-
 msgid "|image10|"
 msgstr "|image10|"
 
 msgid "image10"
 msgstr "image10"
-
-#, fuzzy
-msgid ""
-"This will add a new function for you in your mob script, "
-"``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
-"``queue_free()`` method. This function destroys the instance it's called on."
-msgstr ""
-"Isto o levará de volta ao editor de scripts e adicionará uma nova função "
-"para você, ``_on_VisibilityNotifier_screen_exited()``. A partir dela, chame "
-"o método ``queue_free()``. Isto destruirá a instância do inimigo quando a "
-"caixa do *VisibilityNotifier* deixar a tela."
 
 msgid ""
 "Our monster is ready to enter the game! In the next part, you will spawn "
@@ -363,9 +203,6 @@ msgid ""
 msgstr ""
 "Nosso monstro está pronto para entrar no jogo! Na próxima parte, você fará "
 "os monstros surgirem na fase do jogo."
-
-msgid "Here is the complete ``Mob.gd`` script for reference."
-msgstr "Aqui está o script ``Mob.gd`` completo para referência."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

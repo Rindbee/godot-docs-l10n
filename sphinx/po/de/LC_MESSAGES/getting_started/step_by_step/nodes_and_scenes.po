@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,13 +44,13 @@ msgid "A name."
 msgstr "Ein Name."
 
 msgid "Editable properties."
-msgstr "Bearbeitbare Eigenschaften."
+msgstr "Bearbeitbare Propertys."
 
 msgid "They receive callbacks to update every frame."
 msgstr "Sie erhalten Callbacks, um sich in jedem Frame zu aktualisieren."
 
 msgid "You can extend them with new properties and functions."
-msgstr "Sie können um neue Eigenschaften und Funktionen erweitert werden."
+msgstr "Sie können um neue Propertys und Funktionen erweitert werden."
 
 msgid "You can add them to another node as a child."
 msgstr "Sie können einem anderen Node als Child hinzugefügt werden."
@@ -216,17 +211,17 @@ msgstr ""
 "Es passiert viel, wenn Sie den ersten Node einer Szene hinzufügen. Die Szene "
 "wechselt in den 2D-Viewport, da Label ein 2D-Nodetyp ist. Das Label "
 "erscheint, ausgewählt, in der oberen linken Ecke des Viewports. Der Node "
-"erscheint im Szenendock auf der linken Seite, und die Eigenschaften des "
-"Nodes erscheinen im Inspektor-Dock auf der rechten Seite."
+"erscheint im Szenendock auf der linken Seite, und die Propertys des Nodes "
+"erscheinen im Inspektor-Dock auf der rechten Seite."
 
 msgid "Changing a node's properties"
-msgstr "Ändern der Eigenschaften eines Nodes"
+msgstr "Ändern der Propertys eines Nodes"
 
 msgid ""
 "The next step is to change the Label's \"Text\" property. Let's change it to "
 "\"Hello World\"."
 msgstr ""
-"Mit dem nächsten Schritt wird die \"Text\"-Eigenschaft des Labels geändert. "
+"Mit dem nächsten Schritt wird die \"Text\"-Property des Labels geändert. "
 "Ändern wir es zu \"Hello World\"."
 
 msgid ""
@@ -234,7 +229,7 @@ msgid ""
 "field below the Text property and type \"Hello World\"."
 msgstr ""
 "Gehen Sie zum Inspektor-Dock auf der rechten Seite des Viewports. Klicken "
-"Sie in das Feld unter der Eigenschaft Text und geben Sie \"Hello World\" ein."
+"Sie in das Feld unter der Property Text und geben Sie \"Hello World\" ein."
 
 msgid "You will see the text draw in the viewport as you type."
 msgstr ""
@@ -313,16 +308,15 @@ msgstr ""
 msgid "Setting the main scene"
 msgstr "Die Hauptszene festlegen"
 
-#, fuzzy
 msgid ""
 "To run our test scene, we used the Run Current Scene button. Another button "
 "next to it allows you to set and run the project's main scene. You can "
 "press :kbd:`F5` (:kbd:`Cmd + B` on macOS) to do so."
 msgstr ""
-"Um unsere Testszene auszuführen, haben wir den \"Szene abspielen\"-Button "
-"verwendet. Ein weiterer Button daneben ermöglicht es Ihnen, die Hauptszene "
-"des Projekts einzustellen und auszuführen. Dazu können Sie :kbd:`F5` (:kbd:"
-"`Cmd + B` in macOS) drücken."
+"Um unsere Testszene auszuführen, haben wir den \"Aktuelle Szene abspielen\"-"
+"Button verwendet. Ein weiterer Button daneben ermöglicht es Ihnen, die "
+"Hauptszene des Projekts einzustellen und auszuführen. Dazu können Sie :kbd:"
+"`F5` (:kbd:`Cmd + B` in macOS) drücken."
 
 msgid "A popup window appears and invites you to select the main scene."
 msgstr ""

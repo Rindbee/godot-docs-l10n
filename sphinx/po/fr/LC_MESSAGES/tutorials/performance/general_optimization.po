@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,52 +122,6 @@ msgid "Putting a start/stop timer around code of interest."
 msgstr ""
 "Mise en place d'un timer de démarrage/arrêt autour d'un code auquel nous "
 "nous intéressons."
-
-#, fuzzy
-msgid "Using the :ref:`Godot profiler <doc_the_profiler>`."
-msgstr "Utiliser le :ref :`Godot profileur <doc_the_profiler>`."
-
-#, fuzzy
-msgid "Using :ref:`external CPU profilers <doc_using_cpp_profilers>`."
-msgstr ""
-"Utiliser :ref :`des profileurs de processeurs externes "
-"<doc_using_cpp_profilers>`."
-
-#, fuzzy
-msgid ""
-"Using external GPU profilers/debuggers such as `NVIDIA Nsight Graphics "
-"<https://developer.nvidia.com/nsight-graphics>`__, `Radeon GPU Profiler "
-"<https://gpuopen.com/rgp/>`__ or `Intel Graphics Performance Analyzers "
-"<https://www.intel.com/content/www/us/en/developer/tools/graphics-"
-"performance-analyzers/overview.html>`__."
-msgstr ""
-"Utiliser des profileurs/débogueurs GPU externes tels que `NVIDIA Nsight "
-"Graphics <https ://developer.nvidia.com/nsight-graphics>`__, `Radeon GPU "
-"Profiler <https ://gpuopen.com/rgp/>`__ ou `Intel Graphics Performance "
-"Analyzers <https ://www.intel.com/content/www/us/en/developer/tools/graphics-"
-"performance-analyzers/overview.html>`__."
-
-#, fuzzy
-msgid ""
-"Checking the frame rate (with V-Sync disabled). Third-party utilities such "
-"as `RivaTuner Statistics Server <https://www.guru3d.com/files-details/rtss-"
-"rivatuner-statistics-server-download.html>`__ (Windows) or `MangoHud "
-"<https://github.com/flightlessmango/MangoHud>`__ (Linux) can also be useful "
-"here."
-msgstr ""
-"Vérifier la fréquence d'images (avec V-Sync désactivé). Des utilitaires "
-"externes tels que `RivaTuner Statistics Server <https ://www.guru3d.com/"
-"files-details/rtss-rivatuner-statistics-server-download.html>`__ (Windows) "
-"ou `MangoHud <https ://github.com/flightlessmango/MangoHud>`__ (Linux) "
-"peuvent également être utiles ici."
-
-#, fuzzy
-msgid ""
-"Using an unofficial `debug menu add-on <https://github.com/godot-extended-"
-"libraries/godot-debug-menu>`__."
-msgstr ""
-"Utiliser une extension non-officielle `debug menu add-on <https ://github."
-"com/godot-extended-libraries/godot-debug-menu>`__."
 
 msgid ""
 "Be very aware that the relative performance of different areas can vary on "
@@ -318,14 +267,6 @@ msgstr ""
 "d'amélioration des performances peuvent se retourner contre vous et "
 "entraîner un ralentissement des performances. **Utilisez toujours le "
 "profilage et le chronométrage pour guider vos efforts.**"
-
-#, fuzzy
-msgid ""
-"For more info about using Godot's built-in profiler, see :ref:"
-"`doc_the_profiler`."
-msgstr ""
-"Pour plus d'informations sur l'utilisation du profileur intégré de Godot, "
-"voir :ref:`doc_debugger_panel`."
 
 msgid "Principles"
 msgstr "Principes"

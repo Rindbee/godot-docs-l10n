@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,13 +36,6 @@ msgstr ""
 "Клацніть кнопку **Створити екземпляр дочірньої сцени** (іконка ланцюжка) і "
 "виберіть збережений ``player.tscn``."
 
-#, fuzzy
-msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr ""
-"Тепер додайте ``Main`` наступні вузли-нащадки та назвіть їх як показано "
-"(значення в секундах):"
-
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
 "spawn"
@@ -75,14 +63,6 @@ msgid ""
 msgstr ""
 ":ref:`Marker2D <class_Marker2D>` (названий ``StartPosition``) - для "
 "визначення стартової позиції гравця"
-
-#, fuzzy
-msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
-"(values are in seconds):"
-msgstr ""
-"Встановіть властивість ``Wait Time`` кожного з вузлів ``Timer`` наступним "
-"чином:"
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``: ``0.5``"
@@ -169,14 +149,6 @@ msgstr ""
 "використовуємо ``@export var mob_scene: PackedScene``, щоб ми могли вибрати "
 "сцену ``Mob``, екземпляр якої ми хочемо створити."
 
-#, fuzzy
-msgid ""
-"Click the ``Main`` node and you will see the ``Mob Scene`` property in the "
-"Inspector under \"Main.gd\"."
-msgstr ""
-"Виберіть вузол ``Main`` і побачите в Інспекторі під \"Script Variables\" "
-"*(Властивості скрипта)* властивість ``Mob Scene``."
-
 msgid "You can assign this property's value in two ways:"
 msgstr "Ви можете змінити значення цієї властивості двома шляхами:"
 
@@ -201,27 +173,6 @@ msgid ""
 msgstr ""
 "Далі виберіть вузол ``Player`` на вузлі ``Main`` на панелі Сцена і відкрийте "
 "панель Вузла збоку. Переконайтесь, що на панелі Вузла вибрано Сигнали."
-
-#, fuzzy
-msgid ""
-"You should see a list of the signals for the ``Player`` node. Find and "
-"double-click the ``hit`` signal in the list (or right-click it and select "
-"\"Connect...\"). This will open the signal connection dialog. We want to "
-"make a new function named ``game_over``, which will handle what needs to "
-"happen when a game ends. Type \"game_over\" in the \"Receiver Method\" box "
-"at the bottom of the signal connection dialog and click \"Connect\". You are "
-"aiming to have the ``hit`` signal emitted from ``Player`` and handled in the "
-"``Main`` script. Add the following code to the new function, as well as a "
-"``new_game`` function that will set everything up for a new game:"
-msgstr ""
-"Ви повинні побачити список сигналів для вузла ``Player``. Знайдіть у списку "
-"сигнал ``hit`` і двічі клацніть по ньому (або клацніть по ньому правою "
-"клавішею мишки і виберіть \"Під'єднати...\"). Це відкриє діалогове вікно "
-"підключення сигналу. Ми хочемо створити нову функцію з назвою ``game_over``, "
-"яка буде працювати з тим, що має відбуватися, коли гра закінчується. Введіть "
-"\"game_over\" у поле \"Метод отримувач\" внизу вікна \"З’єднати сигнал з "
-"методом\". Додайте наступний код до нової функції, а також функцію "
-"``new_game``, щоб налаштувати все для нової гри:"
 
 msgid ""
 "Now connect the ``timeout()`` signal of each of the Timer nodes "

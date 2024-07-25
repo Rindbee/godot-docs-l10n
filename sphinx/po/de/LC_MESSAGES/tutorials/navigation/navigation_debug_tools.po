@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,16 +43,17 @@ msgstr ""
 "In Godot-Debug-Builds kann das Navigations-Debugging auch über die "
 "NavigationServer-Singletons von Skripten aus ein- und ausgeschaltet werden."
 
-#, fuzzy
 msgid ""
 "Debug visualizations are currently based on Nodes in the SceneTree. If the :"
 "ref:`NavigationServer2D<class_NavigationServer2D>` or :ref:"
 "`NavigationServer3D<class_NavigationServer3D>` APIs are used exclusively "
 "then changes will not be reflected by the debug navigation tools."
 msgstr ""
-"Die :ref:`NavigationServer2D<class_NavigationServer2D>` und :ref:"
-"`NavigationServer3D<class_NavigationServer3D>` haben API-Funktionen, um "
-"jeden Schritt des Navigations-Mesh-Backprozesses einzeln aufzurufen."
+"Debug-Visualisierungen basieren derzeit auf Nodes im Szenenbaum. Wenn die :"
+"ref:`NavigationServer2D<class_NavigationServer2D>` oder :ref:"
+"`NavigationServer3D<class_NavigationServer3D>` APIs exklusiv verwendet "
+"werden, werden Änderungen nicht von den Debug-Navigationswerkzeugen "
+"reflektiert."
 
 msgid "Navigation debug settings"
 msgstr "Einstellungen zum Navigations-Debugging"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,11 +141,6 @@ msgstr "함수와 클래스 정의를 두 개의 공백 줄로 묶습니다:"
 msgid "Use one blank line inside functions to separate logical sections."
 msgstr "로직 섹션을 분리하기 위해 함수 안에 하나의 공백 줄을 사용합니다."
 
-msgid ""
-"We use a single line between classes and function definitions in the class "
-"reference and in short code snippets in this documentation."
-msgstr ""
-
 msgid "Line length"
 msgstr "줄 길이"
 
@@ -168,11 +158,6 @@ msgstr ""
 
 msgid "One statement per line"
 msgstr "한 줄에 하나의 명령문"
-
-msgid ""
-"Avoid combining multiple statements on a single line, including conditional "
-"statements, to adhere to the GDScript style guidelines for readability."
-msgstr ""
 
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "유일한 예외라면 삼항(Ternary) 연산자일 것입니다:"
@@ -236,10 +221,6 @@ msgstr "``&&`` 대신 ``and``\\ 를 사용하세요."
 msgid "Use ``or`` instead of ``||``."
 msgstr "``||`` 대신 ``or``\\ 를 사용하세요."
 
-#, fuzzy
-msgid "Use ``not`` instead of ``!``."
-msgstr "``||`` 대신 ``or``\\ 를 사용하세요."
-
 msgid ""
 "You may also use parentheses around boolean operators to clear any "
 "ambiguity. This can make long expressions easier to read."
@@ -250,42 +231,8 @@ msgstr ""
 msgid "Comment spacing"
 msgstr "주석(Comment) 간격"
 
-msgid ""
-"Regular comments (``#``) and documentation comments (``##``) should start "
-"with a space, but not code that you comment out. Additionally, code region "
-"comments (``#region``/``#endregion``) must follow that precise syntax, so "
-"they should not start with a space."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Using a space for regular and documentation comments helps differentiate "
-"text comments from disabled code."
-msgstr ""
-"일반 주석은 공백으로 시작해야 하지만 주석을 달은 코드는 공백으로 시작하지 않"
-"아야 합니다. 이렇게 하면 텍스트 주석을 비활성화된 코드와 구분하는 데 도움이 "
-"됩니다."
-
-#, fuzzy
-msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
-msgstr ""
-"스크립트 에디터에서 주석 처리된 선택한 코드를 토글하려면 :kbd:`Ctrl + K`\\ "
-"를 누르세요. 이 기능은 선택한 줄의 시작 부분에 하나의 # 기호를 추가합니다."
-
 msgid "Whitespace"
 msgstr "공백"
-
-msgid ""
-"Always use one space around operators and after commas. Also, avoid extra "
-"spaces in dictionary references and function calls. One exception to this is "
-"for single-line dictionary declarations, where a space should be added after "
-"the opening brace and before the closing brace. This makes the dictionary "
-"easier to visually distinguish from an array, as the ``[]`` characters look "
-"close to ``{}`` with most fonts."
-msgstr ""
 
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "표현식을 세로로 정렬하기 위해 공백을 사용하지 마세요:"
@@ -401,12 +348,6 @@ msgstr ""
 "열거형 *이름*\\ 에는 파스칼 표기법(PascalCase)을 사용하고, 열거형의 멤버에는 "
 "상수와 마찬가지로 상수\\_표기법(CONSTANT\\_CASE)을 사용하세요:"
 
-msgid ""
-"Write enums with each item on its own line. This allows adding documentation "
-"comments abve each item more easily, and also makes for cleaner diffs in "
-"version control when items are added or removed."
-msgstr ""
-
 msgid "Code order"
 msgstr "코드 순서"
 
@@ -453,41 +394,6 @@ msgstr ""
 msgid "Class declaration"
 msgstr "클래스 선언(Declaration)"
 
-#, fuzzy
-msgid ""
-"If the code is meant to run in the editor, place the ``@tool`` annotation on "
-"the first line of the script."
-msgstr ""
-"코드가 에디터에서 실행되게 하려면 스크립트의 첫 번째 줄에 ``tool`` 키워드를 "
-"배치하세요."
-
-#, fuzzy
-msgid ""
-"Follow with the ``class_name`` if necessary. You can turn a GDScript file "
-"into a global type in your project using this feature. For more information, "
-"see :ref:`doc_gdscript`."
-msgstr ""
-"`class_name`\\ 이 있다면 바로 아래에 배치하세요. tool 기능을 사용하면 "
-"GDScript를 프로젝트의 전역 타입으로 바꿀 수 있습니다. 자세한 설명은 :ref:"
-"`doc_gdscript`\\ 를 참고하세요."
-
-#, fuzzy
-msgid "Then, add the ``extends`` keyword if the class extends a built-in type."
-msgstr ""
-"다음으로, 클래스가 내장 타입을 확장(extend)하고 있다면 `extends` 키워드를 추"
-"가하세요."
-
-#, fuzzy
-msgid ""
-"Following that, you should have the class's optional :ref:`documentation "
-"comments <doc_gdscript_documentation_comments>`. You can use that to explain "
-"the role of your class to your teammates, how it works, and how other "
-"developers should use it, for example."
-msgstr ""
-"그 다음에는 클래스에 대한 별개의 문서(docstring)를 주석으로 넣어야 합니다. 이"
-"를 사용하면 예를 들어, 팀원에게 클래스의 역할과 작동 방식을 설명하고, 다른 개"
-"발자가 클래스를 어떻게 사용해야 하는지를 설명할 수 있습니다."
-
 msgid "Signals and properties"
 msgstr "시그널(Signal)과 속성(Property)"
 
@@ -510,16 +416,6 @@ msgid ""
 msgstr ""
 "그런 다음, 상수(Constant), 내보낸 변수, 공개(Public), 개인(Private), onready "
 "변수를 순서대로 작성하세요."
-
-msgid ""
-"The GDScript compiler evaluates onready variables right before the "
-"``_ready`` callback. You can use that to cache node dependencies, that is to "
-"say, to get child nodes in the scene that your class relies on. This is what "
-"the example above shows."
-msgstr ""
-"GDScript 컴파일러는 onready 변수를 ``_ready`` 콜백 바로 이전에 실행합니다. 이"
-"를 사용해 노드 종속성을 캐싱할 수 있습니다. 즉, 클래스가 의존하는 씬에서 자"
-"식 노드를 가져올 수 있습니다. 위의 예제에서 이를 보여줍니다."
 
 msgid "Member variables"
 msgstr "멤버 변수"
@@ -603,29 +499,6 @@ msgstr "함수의 반환 타입을 선언하려면 ``-> <type>``\\ 을 사용하
 
 msgid "Inferred types"
 msgstr "추론된 타입"
-
-msgid ""
-"In most cases you can let the compiler infer the type, using ``:=``. Prefer "
-"``:=`` when the type is written on the same line as the assignment, "
-"otherwise prefer writing the type explicitly."
-msgstr ""
-
-msgid ""
-"Include the type hint when the type is ambiguous, and omit the type hint "
-"when it's redundant."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In some cases, the type must be stated explicitly, otherwise the behavior "
-"will not be as expected because the compiler will only be able to use the "
-"function's return type. For example, ``get_node()`` cannot infer a type "
-"unless the scene or file of the node is loaded in memory. In this case, you "
-"should set the type explicitly."
-msgstr ""
-"그러나 컨텍스트가 누락된 경우 컴파일러는 함수의 반환 타입으로 폴백(fall back)"
-"합니다. 예를 들어 ``get_node()``\\ 는 노드의 씬이나 파일이 메모리에 로드되지 "
-"않는 한 타입을 유추할 수 없습니다. 이 경우 타입을 명시적으로 설정해야 합니다."
 
 msgid ""
 "Alternatively, you can use the ``as`` keyword to cast the return type, and "

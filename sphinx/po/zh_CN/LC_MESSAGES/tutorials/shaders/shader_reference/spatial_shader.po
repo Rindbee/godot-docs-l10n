@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,25 +121,11 @@ msgstr "**unshaded**"
 msgid "Result is just albedo. No lighting/shading happens in material."
 msgstr "结果只使用反照率。材质中不会发生照明/阴影。"
 
-msgid "**wireframe**"
-msgstr ""
-
-msgid "Geometry draws using lines."
-msgstr ""
-
 msgid "**diffuse_burley**"
 msgstr "**diffuse_burley**"
 
-#, fuzzy
-msgid "Burley (Disney PBS) for diffuse (default)."
-msgstr "漫反射使用 Burley（迪士尼 PBS）。"
-
 msgid "**diffuse_lambert**"
 msgstr "**diffuse_lambert**"
-
-#, fuzzy
-msgid "Lambert shading for diffuse."
-msgstr "漫反射使用 Lambert 着色（默认）。"
 
 msgid "**diffuse_lambert_wrap**"
 msgstr "**diffuse_lambert_wrap**"
@@ -223,32 +204,14 @@ msgstr "**vertex_lighting**"
 msgid "Use vertex-based lighting."
 msgstr "使用基于顶点的照明。"
 
-#, fuzzy
-msgid "**particle_trails**"
-msgstr "**粒子：**"
-
-msgid "Enables the trails when used on particles geometry."
-msgstr ""
-
-msgid "**alpha_to_coverage**"
-msgstr ""
-
 msgid ""
 "Alpha antialiasing mode, see `here <https://github.com/godotengine/godot/"
 "pull/40364>`_ for more."
 msgstr ""
 "`core/set.h <https://github.com/godotengine/godot/blob/3.x/core/set.h>`__。"
 
-msgid "**alpha_to_coverage_and_one**"
-msgstr ""
-
 msgid "**fog_disabled**"
 msgstr "**fog_disabled**"
-
-msgid ""
-"Disable receiving depth-based or volumetric fog. Useful for blend_add "
-"materials like particles."
-msgstr ""
 
 msgid "Built-ins"
 msgstr "内置"
@@ -281,26 +244,11 @@ msgstr "全球时间, 以秒为单位."
 msgid "in float **PI**"
 msgstr "in float **PI**"
 
-msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
-"diameter and amount of radians in half turn."
-msgstr ""
-
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
 
-msgid ""
-"A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
-"radians in full turn."
-msgstr ""
-
 msgid "in float **E**"
 msgstr "in float **E**"
-
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
 
 msgid "Vertex built-ins"
 msgstr "顶点内置"
@@ -330,19 +278,6 @@ msgid ""
 "fragment function if not modified."
 msgstr ""
 "其他的内置函数, 如UV, UV2和COLOR, 如果没有修改, 也会传递给fragment片段函数."
-
-#, fuzzy
-msgid ""
-"Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
-"it will always be used, so the user becomes responsible for ensuring that it "
-"always has an acceptable value. When ``POSITION`` is used, the value from "
-"``VERTEX`` is ignored and projection does not happen. However, the value "
-"passed to the fragment shader still comes from ``VERTEX``."
-msgstr ""
-"用户可以使用内置的 ``POSITION`` 覆盖模型视图矩阵和投影转换。当使用 "
-"``POSITION`` 时，将忽略 ``VERTEX`` 中的值，不会发生投影。然而，传递给片段着色"
-"器的值仍然来自于 ``VERTEX``\\ 。"
 
 msgid ""
 "For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
@@ -385,16 +320,6 @@ msgstr "in mat4 **INV_VIEW_MATRIX**"
 msgid "View space to world space transform."
 msgstr "视图空间向世界空间变换."
 
-#, fuzzy
-msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-msgstr "in mat4 **INV_VIEW_MATRIX**"
-
-#, fuzzy
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr "视图空间向世界空间变换."
-
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
 
@@ -425,22 +350,8 @@ msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgid "Camera world space direction."
 msgstr "相机在世界空间的方向。"
 
-#, fuzzy
-msgid "in uint **CAMERA_VISIBLE_LAYERS**"
-msgstr "in uint **RANDOM_SEED**"
-
-msgid "Cull layers of the camera rendering the current pass."
-msgstr ""
-
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
-
-#, fuzzy
-msgid ""
-"``true`` when output is in sRGB color space (this is ``true`` in the "
-"Compatibility renderer, ``false`` in Forward+ and Forward Mobile)."
-msgstr ""
-"当计算发生在sRGB色彩空间时为 ``true`` (GLES2为 ``true`` ,GLES3为 ``false`` )."
 
 msgid "in int **INSTANCE_ID**"
 msgstr "in int **INSTANCE_ID**"
@@ -457,30 +368,14 @@ msgstr "实例自定义数据（主要用于粒子）。"
 msgid "in int **VIEW_INDEX**"
 msgstr "in int **VIEW_INDEX**"
 
-msgid ""
-"The view that we are rendering. ``VIEW_MONO_LEFT`` (``0``) for Mono (not "
-"multiview) or left eye, ``VIEW_RIGHT`` (``1``) for right eye."
-msgstr ""
-
 msgid "in int **VIEW_MONO_LEFT**"
 msgstr "in int **VIEW_MONO_LEFT**"
-
-msgid "Constant for Mono or left eye, always ``0``."
-msgstr ""
 
 msgid "in int **VIEW_RIGHT**"
 msgstr "in int **VIEW_RIGHT**"
 
-msgid "Constant for right eye, always ``1``."
-msgstr ""
-
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "in vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
 
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"
@@ -490,9 +385,6 @@ msgstr "局部坐标中的顶点."
 
 msgid "in int **VERTEX_ID**"
 msgstr "in int **VERTEX_ID**"
-
-msgid "The index of the current vertex in the vertex buffer."
-msgstr ""
 
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
@@ -572,14 +464,6 @@ msgstr "inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "视图空间向裁剪空间变换."
 
-#, fuzzy
-msgid "in uvec4 **BONE_INDICES**"
-msgstr "inout uvec4 **BONE_INDICES**"
-
-#, fuzzy
-msgid "in vec4 **BONE_WEIGHTS**"
-msgstr "inout vec4 **BONE_WEIGHTS**"
-
 msgid "in vec4 **CUSTOM0**"
 msgstr "in vec4 **CUSTOM0**"
 
@@ -591,17 +475,6 @@ msgstr "in vec4 **CUSTOM2**"
 
 msgid "in vec4 **CUSTOM3**"
 msgstr "in vec4 **CUSTOM3**"
-
-#, fuzzy
-msgid ""
-"``MODELVIEW_MATRIX`` combines both the ``MODEL_MATRIX`` and ``VIEW_MATRIX`` "
-"and is better suited when floating point issues may arise. For example, if "
-"the object is very far away from the world origin, you may run into floating "
-"point issues when using the separated ``MODEL_MATRIX`` and ``VIEW_MATRIX``."
-msgstr ""
-"``MODELVIEW_MATRIX`` 结合了 ``WORLD_MATRIX`` 和 ``INV_CAMERA_MATRIX``\\ ，更"
-"适合可能会造成浮点数问题的场合。例如，如果对象距离世界原点非常远，那么使用单"
-"独的 ``WORLD_MATRIX`` 和 ``INV_CAMERA_MATRIX`` 可能就会遇到浮点数问题。"
 
 msgid "Fragment built-ins"
 msgstr "片段内置"
@@ -630,18 +503,8 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "in bool **FRONT_FACING**"
 
-#, fuzzy
-msgid "``true`` if current face is front facing."
-msgstr "``true`` , 如果当前面是正面."
-
 msgid "in vec3 **VIEW**"
 msgstr "in vec3 **VIEW**"
-
-#, fuzzy
-msgid ""
-"Normalized vector from fragment position to camera (in view space). This is "
-"the same for both perspective and orthogonal cameras."
-msgstr "从摄像机到碎片位置的向量(在视图空间中)."
 
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
@@ -690,11 +553,6 @@ msgstr "来自顶点函数的顶点(默认情况下, 在视图空间中)."
 
 msgid "inout vec3 **LIGHT_VERTEX**"
 msgstr "inout vec3 **LIGHT_VERTEX**"
-
-msgid ""
-"A writable version of ``VERTEX`` that can be used to alter light and "
-"shadows. Writing to this will not change the position of the fragment."
-msgstr ""
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
@@ -758,12 +616,6 @@ msgstr "反射(默认为白色)."
 
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
-
-#, fuzzy
-msgid ""
-"Alpha (0..1); if read from or written to, the material will go to the "
-"transparent pipeline."
-msgstr "Alpha (0..1);如果写入, 材质将进入透明管道."
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -875,24 +727,11 @@ msgstr "发射颜色(HDR可以超过1,1,1)."
 msgid "out vec4 **FOG**"
 msgstr "out vec4 **FOG**"
 
-msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
-msgstr ""
-
 msgid "out vec4 **RADIANCE**"
 msgstr "out vec4 **RADIANCE**"
 
-msgid ""
-"If written to, blends environment map radiance with RADIANCE.rgb based on "
-"RADIANCE.a."
-msgstr ""
-
 msgid "out vec4 **IRRADIANCE**"
 msgstr "out vec4 **IRRADIANCE**"
-
-msgid ""
-"If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
-"on IRRADIANCE.a."
-msgstr ""
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -964,26 +803,11 @@ msgstr "灯光向量, 在视图空间中."
 msgid "in vec3 **LIGHT_COLOR**"
 msgstr "in vec3 **LIGHT_COLOR**"
 
-msgid ""
-"Color of light multiplied by ``energy * PI``. The ``PI`` multiplication is "
-"present because physically-based lighting models include a division by "
-"``PI``."
-msgstr ""
-
 msgid "in float **SPECULAR_AMOUNT**"
 msgstr "in float **SPECULAR_AMOUNT**"
 
-msgid ""
-"2.0 * ``light_specular`` property for ``OmniLight3D`` and ``SpotLight3D``. "
-"1.0 for ``DirectionalLight3D``."
-msgstr ""
-
 msgid "in bool **LIGHT_IS_DIRECTIONAL**"
 msgstr "in bool **LIGHT_IS_DIRECTIONAL**"
-
-#, fuzzy
-msgid "``true`` if this pass is a ``DirectionalLight3D``."
-msgstr "如果 ``true`` 代表光照通道."
 
 msgid "in float **ATTENUATION**"
 msgstr "in float **ATTENUATION**"
@@ -1028,15 +852,6 @@ msgid ""
 "Alpha (0..1); if written to, the material will go to the transparent "
 "pipeline."
 msgstr "Alpha (0..1);如果写入, 材质将进入透明管道."
-
-msgid ""
-"Transparent materials also cannot cast shadows or appear in "
-"``hint_screen_texture`` and ``hint_depth_texture`` uniforms. This in turn "
-"prevents those materials from appearing in screen-space reflections or "
-"refraction. :ref:`SDFGI <doc_using_sdfgi>` sharp reflections are not visible "
-"on transparent materials (only rough reflections are visible on transparent "
-"materials)."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻译状态"

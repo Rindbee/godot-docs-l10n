@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -370,15 +365,6 @@ msgstr ""
 "`HandBrake <https://handbrake.fr/>`__\\ （GUI）和 `FFmpeg <https://ffmpeg."
 "org/>`__\\ （CLI）都是这方面非常流行的开源工具。FFmpeg 的学习曲线相对陡峭，但"
 "功能也更强大。"
-
-#, fuzzy
-msgid ""
-"Here are example FFmpeg commands to convert an MP4 video to Ogg Theora. "
-"Since FFmpeg supports a lot of input formats, you should be able to use the "
-"commands below with almost any input video format (AVI, MOV, WebM, …)."
-msgstr ""
-"这是将 MP4 视频转换为 Ogg Theora 的 FFmpeg 命令示例。因为 FFmpeg 支持很多输入"
-"格式，几乎任何输入视频格式（AVI、MOV、WebM……）应该都可以使用下面的命令。"
 
 msgid ""
 "Make sure your copy of FFmpeg is compiled with libtheora and libvorbis "

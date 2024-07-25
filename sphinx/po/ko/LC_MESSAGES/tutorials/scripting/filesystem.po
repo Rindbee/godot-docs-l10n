@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,16 +45,6 @@ msgstr ""
 "조하는 속성이 포함된 경우 해당 리소스에 대한 경로도 포함됩니다. 리소스에 내장"
 "된 하위 리소스가 있는 경우 해당 리소스는 모든 하위 리소스들과 함께 단일 파일"
 "에 저장됩니다. 예를 들어, 폰트 리소스는 자주 폰트 텍스처와 함께 묶여집니다."
-
-#, fuzzy
-msgid ""
-"The Godot file system avoids using metadata files. Existing asset managers "
-"and VCSs are better than anything we can implement, so Godot tries its best "
-"to play along with Subversion, Git, Mercurial, etc."
-msgstr ""
-"Godot 파일 시스템은 메타데이터 파일을 사용하지 않습니다. 기존 애셋 관리자와 "
-"버전 관리 시스템(VCS)은 저희가 구현할 수 있는 것보다 우수하므로 Godot는 SVN, "
-"Git, Mercurial, Perforce 등과 함께 작업할 수 있도록 최선을 다합니다."
 
 msgid "Example of file system contents:"
 msgstr "파일 시스템 내용의 예:"
@@ -159,18 +144,6 @@ msgstr ""
 msgid "Drawbacks"
 msgstr "단점"
 
-#, fuzzy
-msgid ""
-"There are some drawbacks to this file system design. The first issue is that "
-"moving assets around (renaming them or moving them from one path to another "
-"inside the project) will break existing references to these assets. These "
-"references will have to be re-defined to point at the new asset location."
-msgstr ""
-"이 단순한 파일 시스템 설계에는 몇 가지 단점이 있습니다. 첫 번째 문제는 애셋"
-"을 이동(이름 변경 또는 프로젝트 내의 한 경로에서 다른 경로로 이동)하면 이러"
-"한 애셋에 대한 기존 참조가 손상된다는 점입니다. 이러한 참조는 새 애셋 위치를 "
-"가리키도록 재정의되어야 합니다."
-
 msgid ""
 "To avoid this, do all your move, delete and rename operations from within "
 "Godot, on the FileSystem dock. Never move assets from outside Godot, or "
@@ -196,15 +169,6 @@ msgstr ""
 "해당 플랫폼에서는 제대로 작동하지만 다른 플랫폼에서는 작동하지 않습니다. "
 "Linux, Android 등과 같이 압축된 패키지를 사용해 모든 파일을 저장하는 내보낸 "
 "바이너리에도 이 문제가 적용될 수 있습니다."
-
-#, fuzzy
-msgid ""
-"It is recommended that your team clearly define a naming convention for "
-"files when working with Godot. One fool-proof convention is to only allow "
-"lowercase file and path names."
-msgstr ""
-"Godot로 작업할 때 파일에 대한 명명 규칙을 명확하게 정의하는 것이 좋습니다. "
-"한 가지 간단한 실수 방지 규칙은 소문자 파일 및 경로 이름만 허용하는 것입니다."
 
 msgid "Translation status"
 msgstr "번역 상태"

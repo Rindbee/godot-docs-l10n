@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -485,7 +480,7 @@ msgstr "``--debug-avoidance``"
 
 msgid "|debug| Show navigation avoidance debug visuals when running the scene."
 msgstr ""
-"|debug| Debug-Visualisierungen zur Navigationsvermeidung anzeigen, wenn die "
+"|debug| Debug-Visualisierungen zum Navigationsausweichen anzeigen, wenn die "
 "Szene ausgeführt wird."
 
 msgid "``--debug-stringnames``"
@@ -583,19 +578,19 @@ msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr ""
 "|release| Nur auf Fehler prüfen und beenden (mit ``--script`` verwenden)."
 
-#, fuzzy
 msgid "``--import``"
-msgstr "``--gpu-abort``"
+msgstr "``--import``"
 
 msgid ""
 "|editor| Starts the editor, waits for any resources to be imported, and then "
 "quits. Implies ``--editor`` and ``--quit``."
 msgstr ""
+"|editor| Startet den Editor, wartet darauf, dass Ressourcen importiert "
+"werden, und beendet ihn dann. Impliziert ``--editor`` und ``--quit``."
 
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
 
-#, fuzzy
 msgid ""
 "|editor| Export the project using the given preset and matching release "
 "template. The preset name should match one defined in export_presets.cfg. "
@@ -603,33 +598,34 @@ msgid ""
 "include the filename for the binary (e.g. 'builds/game.exe'). The target "
 "directory should exist. Implies ``--import``."
 msgstr ""
-"|editor| Projekt mit der angegebenen Vorgabe und der passenden Release-"
-"Vorlage exportieren. Der Name der Vorgabe sollte mit einem in export_presets."
-"cfg definierten Namen übereinstimmen. ``<Pfad>`` sollte absolut oder relativ "
-"zum Projektverzeichnis sein und den Dateinamen für das Binary enthalten (z."
-"B. 'builds/game.exe'). Das Zielverzeichnis sollte existieren."
+"|editor| Exportiert das Projekt unter Verwendung der angegebenen Vorgabe und "
+"der passenden Releasevorlage. Der Name der Vorgabe sollte mit einem in "
+"export_presets.cfg definierten Namen übereinstimmen. ``<path>`` sollte "
+"absolut oder relativ zum Projektverzeichnis sein und den Dateinamen für das "
+"Binary enthalten (z.B. 'builds/game.exe'). Das Zielverzeichnis sollte "
+"existieren. Impliziert ``--import``."
 
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"
 
-#, fuzzy
 msgid ""
 "|editor| Like ``--export-release``, but use debug template. Implies ``--"
 "import``."
-msgstr "|editor| Wie ``--export-release``, aber mit Debug-Vorlage."
+msgstr ""
+"|editor| Wie ``--export-release``, verwendet aber die Debug-Vorlage. "
+"Impliziert ``--import``."
 
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
 
-#, fuzzy
 msgid ""
 "|editor| Like ``--export-release``, but only export the game pack for the "
 "given preset. The ``<path>`` extension determines whether it will be in PCK "
 "or ZIP format. Implies ``--import``."
 msgstr ""
 "|editor| Wie ``--export-release``, aber exportiert nur das Spielpaket für "
-"die angegebene Voreinstellung. Die ``<Pfad>``-Erweiterung bestimmt, ob es im "
-"PCK- oder ZIP-Format sein wird."
+"die angegebene Vorgabe. Die ``<path>``-Erweiterung bestimmt, ob es im PCK- "
+"oder ZIP-Format sein wird. Impliziert ``--import``."
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"

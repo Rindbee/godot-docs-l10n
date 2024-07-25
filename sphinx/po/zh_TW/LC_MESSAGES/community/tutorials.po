@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,18 +40,6 @@ msgstr ""
 msgid "Where to start"
 msgstr "從何開始"
 
-#, fuzzy
-msgid ""
-"The Godot video tutorials by `GDQuest <https://www.youtube.com/channel/"
-"UCxboW7x0jZqFdvMdCFKTMsQ/playlists>`_ are well-regarded in the community and "
-"often recommended as a gentle introduction to beginners."
-msgstr ""
-"`GDQuest <https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/"
-"playlists>`_, `Game from Scratch <https://www.youtube.com/watch?"
-"v=iDEcP8Mc-7s&list=PLS9MbmO_ssyDk79j9ewONxV88fD5e_o5d>`_ 與 `KidsCanCode "
-"<https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/playlists>`_ 製作"
-"的 Godot 影片教學在社群中非常有名，常常推薦給初學者學習。"
-
 msgid ""
 "GDQuest's *Learn GDScript From Zero* is a free and open source interactive "
 "tutorial for absolute beginners to learn to program with Godot's GDScript "
@@ -77,156 +60,8 @@ msgstr "下方列出的一些教學提供了更進階的教學，如 3D 或著�
 msgid "Video tutorials"
 msgstr "影片教學"
 
-#, fuzzy
-msgid ""
-"`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR and VR, "
-"GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`BornCG <https://www.youtube.com/playlist?"
-"list=PLda3VoSoc_TTp8Ng3C57spnNkOw3Hm_35>`_ (2D and 3D, GDScript)"
-msgstr ""
-"`BornCG <https://www.youtube.com/playlist?"
-"list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ>`_ (3D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Clear Code <https://www.youtube.com/watch?v=nAh_Kx5Zh5Q>`_ (2D, GDScript, "
-"Programming Basics)"
-msgstr ""
-"`Emilio <https://www.youtube.com/channel/UC9DR22-qohBDtZ74R3FxOZg>`_ (2D, "
-"GDScript 與 VisualScript)。"
-
-#, fuzzy
-msgid ""
-"`FencerDevLog <https://www.youtube.com/@FencerDevLog>`_ (2D, 3D, GDScript, "
-"Shaders)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`FinePointCGI <https://www.youtube.com/channel/UCSojAWUnEUTUcdA9iJ6bryQ>`_ "
-"(2D, 3D, GDScript and C#)"
-msgstr ""
-"`Gonkee <https://www.youtube.com/channel/UCJqCPFHdbc6443G3Sz6VYDw>`_ (2D, "
-"3D, GDScript, 著色器)。"
-
-#, fuzzy
-msgid ""
-"`GDQuest <https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/"
-"playlists>`_ (2D and 3D, GDScript and C#)"
-msgstr ""
-"`GDQuest <https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/"
-"playlists>`_ (2D 與 3D, GDScript, VisualScript 與 C#)。"
-
-#, fuzzy
-msgid ""
-"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Game Development Center <https://www.youtube.com/c/GameDevelopmentCenter>`_ "
-"(2D, networked multiplayer, GDScript)"
-msgstr ""
-"`Game Development Channel <https://www.youtube.com/channel/"
-"UClseGZiVmeHamsjYmpbiAmQ/playlists>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid "`Gwizz <https://www.youtube.com/@Gwizz1027>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Godotneers <https://www.youtube.com/@godotneers>`_ (2D, Shaders, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR and VR, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D and VR, GDSCript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
-"playlists>`__ (2D and 3D, GDScript)"
-msgstr ""
-"`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
-"playlists>`__ (2D 與 3D, GDScript 與 VisualScript)。"
-
-#, fuzzy
-msgid "`Maker Tech <https://www.youtube.com/@MakerTech/>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid "`Pigdev <https://www.youtube.com/@pigdev>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Queble <https://www.youtube.com/@queblegamedevelopment4143>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)。"
-
-#, fuzzy
-msgid ""
-"`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, networked "
-"multiplayer, AR and VR, GDScript)"
-msgstr ""
-"`Game Development Channel <https://www.youtube.com/channel/"
-"UClseGZiVmeHamsjYmpbiAmQ/playlists>`_ (2D, GDScript)。"
-
 msgid "Text tutorials"
 msgstr "文字教學"
-
-msgid "`FinepointCGI website by Mitch <https://finepointcgi.io/>`__"
-msgstr "`Godot Recipes by KidsCanCode <http://godotrecipes.com/>`__"
 
 msgid "`GDScript website by Andrew Wilkes <https://gdscript.com>`__"
 msgstr "`Godot Recipes by KidsCanCode <http://godotrecipes.com/>`__"
@@ -242,19 +77,8 @@ msgstr ""
 "`來自於 SomethingLikeGames 的 Godot 教學 <https://www.somethinglikegames.de/"
 "en/tags/godot-engine/>`__"
 
-msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
-msgstr ""
-
-msgid ""
-"`Night Quest Games Blog <https://www.nightquestgames.com/blog-articles/>`__"
-msgstr ""
-
 msgid "Devlogs"
 msgstr "開發紀錄"
-
-#, fuzzy
-msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
-msgstr "`YouTube <https://www.youtube.com/c/GodotEngineOfficial>`_"
 
 msgid "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"
 msgstr "`DevDuck(2D) <https://www.youtube.com/@devduck/videos>`_"
@@ -268,22 +92,6 @@ msgid ""
 msgstr ""
 "'awesome-godot：免費/自由外掛程式，腳本和附加元件的精選列表<https://github."
 "com/godotengine/awesome-godot>\"_"
-
-#, fuzzy
-msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
-msgstr "`Godot Forums <https://godotforums.org/>`_"
-
-msgid ""
-"`Godot Shaders: A community-driven shader library <https://godotshaders.com/"
-">`_"
-msgstr ""
-
-msgid ""
-"`Zeef Godot Engine: A curated directory of resources by Andre Schmitz "
-"<https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
-msgstr ""
-"`Zeef Godot Engine: A curated directory of resources by Andre Schmitz "
-"<https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

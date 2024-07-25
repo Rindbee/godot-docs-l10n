@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,16 +90,8 @@ msgstr "僅在光通過時繪製."
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
 
-#, fuzzy
-msgid "VERTEX needs to be transformed manually in vertex function."
-msgstr "VERTEX/NORMAL/等需要在頂點函式中手動轉換."
-
 msgid "**world_vertex_coords**"
 msgstr "**world_vertex_coords**"
-
-#, fuzzy
-msgid "VERTEX is modified in world coordinates instead of local."
-msgstr "VERTEX/NORMAL 等是以世界座標而不是局部座標修改的。"
 
 msgid "Built-ins"
 msgstr "內建"
@@ -161,12 +148,6 @@ msgstr "一個“TAU”常數（“6.283185”）。相當於“PI * 2”和完�
 
 msgid "in float **E**"
 msgstr "in float **E**"
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "一個“E”常數（“2.718281”）。歐拉數和自然對數的底數。"
 
 msgid "Vertex built-ins"
 msgstr "頂點內建"
@@ -234,10 +215,6 @@ msgid ""
 "to (1, 1)."
 msgstr "畫布空間到剪輯空間。在剪輯空間中，座標範圍從 (-1, -1) 到 (1, 1)。"
 
-#, fuzzy
-msgid "in int  **INSTANCE_ID**"
-msgstr "in int **INSTANCE_ID**"
-
 msgid "Instance ID for instancing."
 msgstr "產生實體的實例ID."
 
@@ -256,20 +233,8 @@ msgstr "``if x else``"
 msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgstr "in vec2 **TEXTURE_PIXEL_SIZE**"
 
-#, fuzzy
-msgid ""
-"Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
-"of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"預設 2D 紋理的標準化像素大小。對於紋理大小為 64x32px 的 Sprite，"
-"**TEXTURE_PIXEL_SIZE** = :code:`vec2(1/64, 1/32)`"
-
 msgid "inout vec2 **VERTEX**"
 msgstr "inout vec2 **VERTEX**"
-
-#, fuzzy
-msgid "Vertex, in local space."
-msgstr "頂點, 在圖像空間."
 
 msgid "in int **VERTEX_ID**"
 msgstr "in int **VERTEX_ID**"
@@ -304,42 +269,8 @@ msgstr "in vec4 **CUSTOM1**"
 msgid "Fragment built-ins"
 msgstr "片段內建"
 
-#, fuzzy
-msgid ""
-"Certain Nodes (for example, :ref:`Sprite2Ds <class_Sprite2D>`) display a "
-"texture by default. However, when a custom fragment function is attached to "
-"these nodes, the texture lookup needs to be done manually. Godot provides "
-"the texture color in the ``COLOR`` built-in variable multiplied by the "
-"node's color. To read the texture color by itself, you can use:"
-msgstr ""
-"某些節點（例如 :ref:`Sprite <class_Sprite>`）預設會顯示紋理。但是，當自訂片段"
-"函式附加到這些節點時，就需要手工完成紋理的搜尋。Godot 在 ``COLOR`` 內建變數中"
-"不提供紋理顏色；要讀取這些節點的紋理顏色，請使用："
-
-#, fuzzy
-msgid ""
-"Similarly, if a normal map is used in the :ref:`CanvasTexture "
-"<class_CanvasTexture>`, Godot uses it by default and assigns its value to "
-"the built-in ``NORMAL`` variable. If you are using a normal map meant for "
-"use in 3D, it will appear inverted. In order to use it in your shader, you "
-"must assign it to the ``NORMALMAP`` property. Godot will handle converting "
-"it for use in 2D and overwriting ``NORMAL``."
-msgstr ""
-"這與內建法線貼圖的行為不同. 如果附加了法線貼圖,Godot預設使用它, 並將其值分配"
-"給內建的 ``NORMAL`` 變數. 如果你使用的是用於3D的法線貼圖, 它將出現倒置. 為了"
-"在你的著色器中使用它, 必須把它分配給 ``NORMALMAP`` 屬性.Godot會將其轉換為2D使"
-"用, 並覆蓋 ``NORMAL`` ."
-
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
-
-#, fuzzy
-msgid ""
-"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is upper-left."
-msgstr ""
-"像素中心的座標。在螢幕空間中，``xy`` 表示視窗中的位置，如果沒有用 ``DEPTH``，"
-"則 ``z`` 表示片段深度。原點位於左下角。"
 
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "in vec2 **SCREEN_PIXEL_SIZE**"
@@ -433,12 +364,6 @@ msgid ""
 "represents height."
 msgstr "與“VERTEX”相同，但可以寫入來改變照明。 Z 分量代表高度。"
 
-#, fuzzy
-msgid ""
-"Color from vertex function multiplied by the **TEXTURE** color. Also output "
-"color value."
-msgstr "從頂點函式和輸出片段顏色. 如果未使用, 將設定為 **紋理** 顏色."
-
 msgid "Light built-ins"
 msgstr "內建燈光"
 
@@ -464,22 +389,9 @@ msgstr ""
 "是非常有用的。"
 
 msgid ""
-"If you define a light function it will replace the built in light function, "
-"even if your light function is empty."
-msgstr ""
-
-msgid ""
 "Below is an example of a light shader that takes a CanvasItem's normal map "
 "into account:"
 msgstr "以下是考慮 CanvasItem 法線貼圖的燈光著色器範例："
-
-#, fuzzy
-msgid ""
-"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
-msgstr ""
-"像素中心的座標。在螢幕空間中，``xy`` 表示視窗中的位置，如果沒有用 ``DEPTH``，"
-"則 ``z`` 表示片段深度。原點位於左下角。"
 
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
@@ -490,34 +402,17 @@ msgstr "輸入"
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
 
-#, fuzzy
-msgid "Input Color. This is the output of the fragment function."
-msgstr ""
-"輸入顏色. 這是片段函式的輸出(如果在著色器的任何函式中沒有使用 **MODULATE** , "
-"則應用最終調變)."
-
 msgid "UV from vertex function, equivalent to the UV in the fragment function."
 msgstr "來自頂點函式的UV, 相當於片段函式中的UV."
 
 msgid "Current texture in use for CanvasItem."
 msgstr "CanvasItem使用的目前紋理."
 
-#, fuzzy
-msgid ""
-"Normalized pixel size of **TEXTURE**. For a Sprite2D with a **TEXTURE** of "
-"size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"預設 2D 紋理的標準化像素大小。對於紋理大小為 64x32px 的 Sprite，"
-"**TEXTURE_PIXEL_SIZE** = :code:`vec2(1/64, 1/32)`"
-
 msgid "UV for Point Sprite."
 msgstr "點精靈的UV."
 
 msgid "in vec4 **LIGHT_COLOR**"
 msgstr "in vec4 **LIGHT_COLOR**"
-
-msgid "Color of Light multiplied by Light's texture."
-msgstr ""
 
 msgid "in float **LIGHT_ENERGY**"
 msgstr "in float **LIGHT_ENERGY**"
@@ -555,10 +450,6 @@ msgstr "``world_position`` 可用於頂點函式或片段函式."
 
 msgid "inout vec4 **LIGHT**"
 msgstr "inout vec4 **LIGHT**"
-
-#, fuzzy
-msgid "Output color for this Light."
-msgstr "每個像素的輸出顏色."
 
 msgid "Specular shininess, as set in the object's texture."
 msgstr "鏡面光澤度，在物件紋理中設定。"
@@ -603,23 +494,11 @@ msgstr "執行2D紋理讀取。"
 msgid "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
 msgstr "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
 
-#, fuzzy
-msgid "Calculates a normal from the SDF texture."
-msgstr "預設 2D 法線紋理。"
-
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 
-#, fuzzy
-msgid "Converts an SDF to screen UV."
-msgstr "將 SDF 轉換為螢幕 UV。"
-
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec2 **screen_uv_to_sdf** (vec2 uv)"
-
-#, fuzzy
-msgid "Converts screen UV to an SDF."
-msgstr "轉換螢幕UV為SDF。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

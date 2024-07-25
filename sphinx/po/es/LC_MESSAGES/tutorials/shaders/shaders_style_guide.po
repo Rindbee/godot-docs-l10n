@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,19 +25,6 @@ msgstr ""
 "es motivar la escritura de un código limpio y legible, y promover la "
 "consistencia entre proyectos, discusiones y tutoriales. Esto también puede "
 "ayudar al desarrollo de herramientas de autoformateo."
-
-#, fuzzy
-msgid ""
-"Since the Godot shader language is close to C-style languages and GLSL, this "
-"guide is inspired by Godot's own GLSL formatting. You can view examples of "
-"GLSL files in Godot's source code `here <https://github.com/godotengine/"
-"godot/blob/master/drivers/gles3/shaders/>`__."
-msgstr ""
-"Dado que el lenguaje de shader Godot se acerca a los lenguajes de estilo C y "
-"GLSL, esta guía está inspirada en el propio formato GLSL de Godot. Puedes "
-"ver un ejemplo de un archivo GLSL en el código fuente de Godot `aquí "
-"<https://github.com/godotengine/godot/blob/master/drivers/gles2/shaders/copy."
-"glsl>`__."
 
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
@@ -206,22 +188,6 @@ msgstr ""
 "descomentarlo), presione :kbd:`Ctrl + K`. Esta característica agrega o "
 "elimina ``//`` al comienzo de las líneas seleccionadas."
 
-#, fuzzy
-msgid "Documentation comments"
-msgstr "Redactando documentación"
-
-msgid ""
-"Use the following format for documentation comments above uniforms, with "
-"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
-msgstr ""
-
-msgid ""
-"These comments will appear when hovering a property in the inspector. If you "
-"don't wish the comment to be visible in the inspector, use the standard "
-"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
-"asterisk)."
-msgstr ""
-
 msgid "Whitespace"
 msgstr "Espacio en blanco"
 
@@ -289,22 +255,6 @@ msgid ""
 msgstr ""
 "Escribe constantes en CONSTANT\\_CASE, todas en mayusculas con el símbolo de "
 "subrayado (\\_) para separar palabras:"
-
-#, fuzzy
-msgid "Preprocessor directives"
-msgstr "Defines de preprocesador"
-
-msgid ""
-":ref:`doc_shader_preprocessor` directives should be written in "
-"CONSTANT__CASE. Directives should be written without any indentation before "
-"them, even if nested within a function."
-msgstr ""
-
-msgid ""
-"To preserve the natural flow of indentation when shader errors are printed "
-"to the console, extra indentation should **not** be added within ``#if``, "
-"``#ifdef`` or ``#ifndef`` blocks:"
-msgstr ""
 
 msgid "Code order"
 msgstr "Orden de código"

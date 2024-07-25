@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,17 +21,6 @@ msgstr "常见问题"
 msgid ""
 "What can I do with Godot? How much does it cost? What are the license terms?"
 msgstr "可以用 Godot 做什么？需要花多少钱？有哪些许可条款？"
-
-msgid ""
-"Godot is `Free and open source Software <https://en.wikipedia.org/wiki/"
-"Free_and_open source_software>`_ available under the `OSI-approved <https://"
-"opensource.org/licenses/MIT>`_ MIT license. This means it is free as in "
-"\"free speech\" as well as in \"free beer.\""
-msgstr ""
-"Godot 是在 `OSI 认可的 <https://opensource.org/licenses/MIT>`_ MIT 许可证下可"
-"用的\\ `自由和开源软件 <https://zh.wikipedia.org/wiki/"
-"%E8%87%AA%E7%94%B1%E5%8F%8A%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81%E8%BD%AF%E4%BB%B6>`_\\ 。"
-"这意味着它不仅可以自由使用，也可以免费获取。"
 
 msgid "In short:"
 msgstr "简而言之："
@@ -559,17 +543,15 @@ msgstr ""
 "也意味着将包含 Godot 可执行文件的文件夹复制到另一台机器上是无法带走配置文件"
 "的。更多信息请参阅 :ref:`doc_data_paths`\\ 。"
 
-#, fuzzy
 msgid ""
 "If *true* portable operation is desired (e.g. for use on a USB stick), "
 "follow the steps in :ref:`doc_data_paths_self_contained_mode`."
 msgstr ""
-"如果你需要\\ *真·绿色*\\ 的操作（例如放到 U 盘上使用），请按照 :ref:"
+"如果希望实现真正的便携操作（例如放到 U 盘上使用），请按照：ref:"
 "`doc_data_paths_self_contained_mode` 中的步骤操作。"
 
-#, fuzzy
 msgid "Why does Godot prioritize Vulkan and OpenGL over Direct3D?"
-msgstr "为什么 Godot 使用 Vulkan/OpenGL 而不是 Direct3D？"
+msgstr "为什么 Godot 使用 Vulkan/OpenGL 而不是 Direct3D ？"
 
 msgid ""
 "Godot aims for cross-platform compatibility and open standards first and "
@@ -590,6 +572,10 @@ msgid ""
 "Vulkan and OpenGL will continue as the default rendering backends on all "
 "platforms, including Windows."
 msgstr ""
+"虽然我们主要专注于 Vulkan 和 OpenGL，因为它们具有开放标准和跨平台的优势，但 "
+"Godot 4.3 引入了对 Direct3D 12 的实验性支持。此举旨在提升在 Direct3D 12 广泛"
+"使用的平台（如 Windows 和 Xbox）上的性能和兼容性。然而，Vulkan 和 OpenGL 将继"
+"续作为所有平台（包括 Windows）上的默认渲染后端。"
 
 msgid "Why does Godot aim to keep its core feature set small?"
 msgstr "为什么 Godot 旨在保持其核心功能集较小？"

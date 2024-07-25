@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,19 +100,6 @@ msgid ""
 "attached to."
 msgstr "**内置**\\ ，保存在它们所附加的 ``.tscn`` 或 ``.scn`` 文件内。"
 
-#, fuzzy
-msgid ""
-"To be more specific, here's a :ref:`Texture2D <class_Texture2D>` in a :ref:"
-"`Sprite2D <class_Sprite2D>` node:"
-msgstr ""
-"更具体地说, 这是一个 :ref:`Sprite <class_Sprite>` 节点中的一个 :ref:`Texture "
-"<class_Texture>`:"
-
-#, fuzzy
-msgid ""
-"Clicking the resource preview allows us to view the resource's properties."
-msgstr "点击资源预览可以使我们查看和编辑资源的属性."
-
 msgid ""
 "The path property tells us where the resource comes from. In this case, it "
 "comes from a PNG image called ``robi.png``. When the resource comes from a "
@@ -151,35 +133,8 @@ msgid ""
 "``load()`` function anytime:"
 msgstr "有两种方法可以从代码加载资源. 首先, 你可以随时使用 ``load()`` 函数:"
 
-#, fuzzy
-msgid ""
-"You can also ``preload`` resources. Unlike ``load``, this function will read "
-"the file from disk and load it at compile-time. As a result, you cannot call "
-"``preload`` with a variable path: you need to use a constant string."
-msgstr ""
-"您也可以 ``预加载(preload)`` 资源. 与 ``load`` 不同, ``preload`` 会从硬盘中读"
-"取文件, 并在编译时加载它. 因此, 您不能使用一个变量化的路径调用预加载: 您需要"
-"使用常量字符串."
-
 msgid "Loading scenes"
 msgstr "加载场景"
-
-#, fuzzy
-msgid ""
-"Scenes are also resources, but there is a catch. Scenes saved to disk are "
-"resources of type :ref:`PackedScene <class_PackedScene>`. The scene is "
-"packed inside a :ref:`Resource <class_Resource>`."
-msgstr ""
-"场景也是资源, 但也有一个陷阱. 保存到磁盘的场景是 :ref:`PackedScene "
-"<class_PackedScene>` 类型的资源. 该场景被打包在资源内部."
-
-#, fuzzy
-msgid ""
-"To get an instance of the scene, you have to use the :ref:`PackedScene."
-"instantiate() <class_PackedScene_method_instantiate>` method."
-msgstr ""
-"要获取场景的实例, 您必须使用 :ref:`PackedScene.instance() "
-"<class_PackedScene_method_instance>` 方法."
 
 msgid ""
 "This method creates the nodes in the scene's hierarchy, configures them, and "
@@ -189,48 +144,12 @@ msgstr ""
 "此方法在场景的层次结构中创建节点, 对其进行配置, 然后返回场景的根节点. 然后, "
 "你可以将其添加为任何其他节点的子级."
 
-#, fuzzy
-msgid ""
-"The approach has several advantages. As the :ref:`PackedScene.instantiate() "
-"<class_PackedScene_method_instantiate>` function is fast, you can create new "
-"enemies, bullets, effects, etc. without having to load them again from disk "
-"each time. Remember that, as always, images, meshes, etc. are all shared "
-"between the scene instances."
-msgstr ""
-"该方法有几个优点. 由于 :ref:`PackedScene.instance() "
-"<class_PackedScene_method_instance>` 函数速度相当快, 您可以创建新的敌人, 子"
-"弹, 效果等, 而无需每次都从磁盘再次加载它们. 请记住, 像往常一样, 图像, 网格等"
-"都是在场景实例之间共享的."
-
 msgid "Freeing resources"
 msgstr "释放资源"
-
-#, fuzzy
-msgid ""
-"When a :ref:`Resource <class_Resource>` is no longer in use, it will "
-"automatically free itself. Since, in most cases, Resources are contained in "
-"Nodes, when you free a node, the engine frees all the resources it owns as "
-"well if no other node uses them."
-msgstr ""
-"当 ``资源(Resource)`` 不再使用时, 它将自动释放自己. 由于在大多数情况下, 资源"
-"包含在节点中, 因此当您释放节点时, 如果没有其他节点使用该节点拥有的所有资源, "
-"则引擎也会释放它们."
 
 msgid "Creating your own resources"
 msgstr "创建自己的资源"
 
-#, fuzzy
-msgid ""
-"Like any Object in Godot, users can also script Resources. Resource scripts "
-"inherit the ability to freely translate between object properties and "
-"serialized text or binary data (\\*.tres, \\*.res). They also inherit the "
-"reference-counting memory management from the RefCounted type."
-msgstr ""
-"像Godot中的任何Object一样, 用户也可以编写资源脚本. 资源脚本继承了object类属性"
-"和序列化文本或二进制数据( ``*.tres`` , ``*.res`` )之间自由转换的能力. 它们还"
-"从 ``Reference`` 类型继承引用计数内存管理."
-
-#, fuzzy
 msgid ""
 "This comes with many distinct advantages over alternative data structures, "
 "such as JSON, CSV, or custom TXT files. Users can only import these assets "
@@ -239,11 +158,11 @@ msgid ""
 "of :ref:`Object <class_Object>`, :ref:`RefCounted <class_RefCounted>`, and :"
 "ref:`Resource <class_Resource>` features:"
 msgstr ""
-"与其他替代数据结构(如JSON, CSV或自定义TXT文件)相比, 它具有许多明显的优势. 用"
-"户只能将这些资源导入为 :ref:`Dictionary <class_Dictionary>` (JSON)或要解析"
-"的 :ref:`File <class_File>`. 将资源区分开来的是它们对 :ref:`Object "
-"<class_Object>`, :ref:`Reference <class_Reference>`, 和 :ref:`Resource "
-"<class_Resource>` 功能的继承:"
+"与 JSON、CSV 和自定义 TXT 文件等其他数据结构相比，资源具有许多明显的优势。用"
+"户只能将前者导入为 :ref:`Dictionary <class_Dictionary>` (JSON) 或要解析的 :"
+"ref:`File <class_File>`。而资源则不同，它们继承了 :ref:`Object "
+"<class_Object>`、 :ref:`Reference <class_Reference>` 和 :ref:`Resource "
+"<class_Resource>` 的如下特性："
 
 msgid ""
 "They can define constants, so constants from other data fields or objects "
@@ -352,6 +271,8 @@ msgid ""
 "If you're using C#, you need to annotate your Resource class with the "
 "``[GlobalClass]`` attribute for it to show up in the create resource GUI."
 msgstr ""
+"如果使用 C# 实现，则需要用 [GlobalClass] 属性修饰你的自定义资源类，以使它能够"
+"显示在编辑器的创建 Resource 界面中。"
 
 msgid ""
 "Now, create a :ref:`CharacterBody3D <class_CharacterBody3D>`, name it "

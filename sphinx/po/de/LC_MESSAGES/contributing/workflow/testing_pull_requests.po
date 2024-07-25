@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,9 +177,8 @@ msgstr ""
 "Konfigurationen zu testen, die von Godots GitHub Actions-Setup nicht "
 "unterstützt werden."
 
-#, fuzzy
 msgid "Downloading a zipped pull request branch"
-msgstr "Kompilieren eines Pull Request-Branchs aus dem Quellcode"
+msgstr "Herunterladen eines gezippten Pull-Request-Branchs"
 
 msgid ""
 "Now that you are on the fork's branch page, click the green **Code** button "
@@ -201,35 +195,37 @@ msgstr ""
 "Entpacken Sie das ZIP-Archiv und befolgen Sie die :ref:`Kompilier <toc-devel-"
 "compiling>`-Anweisungen für Ihr Betriebssystem."
 
-#, fuzzy
 msgid "Checking out a pull request branch with git"
-msgstr "Kompilieren eines Pull Request-Branchs aus dem Quellcode"
+msgstr "Auschecken eines Pull-Request-Branchs mit git"
 
-#, fuzzy
 msgid "Alternatively, you can checkout the pull request directly with git:"
-msgstr "Alternativ dazu können Sie es auch in den Projektordner klonen:"
+msgstr "Alternativ können Sie den Pull-Request auch direkt mit git auschecken:"
 
 msgid ""
 "Open the pull request page. Note the pull request *number* (``PR_NUMBER``), "
 "and the *branch name* (``BRANCH_NAME``), but without the user name."
 msgstr ""
+"Öffnen Sie die Pull Request-Seite. Notieren Sie die *Nummer* des Pull-"
+"Requests (``PR_NUMBER``) und den *Branch-Namen* (``BRANCH_NAME``), aber ohne "
+"den Benutzernamen."
 
 msgid "Construct the command using this pattern:"
-msgstr ""
+msgstr "Konstruieren Sie den Befehl nach diesem Muster:"
 
 msgid "So for the pull request above, the actual command will be:"
-msgstr ""
+msgstr "Für den obigen Pull-Request lautet der eigentliche Befehl also:"
 
 msgid "Once the pull request finishes downloading, checkout its branch:"
 msgstr ""
+"Sobald der Download der Pull-Anfrage abgeschlossen ist, checken Sie den "
+"Branch aus:"
 
-#, fuzzy
 msgid ""
 "And follow the :ref:`compiling <toc-devel-compiling>` instructions for your "
 "operating system."
 msgstr ""
-"Entpacken Sie das ZIP-Archiv und befolgen Sie die :ref:`Kompilier <toc-devel-"
-"compiling>`-Anweisungen für Ihr Betriebssystem."
+"Und folgen Sie den :ref:`Kompilier <toc-devel-compiling>`-Anweisungen für "
+"Ihr Betriebssystem."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

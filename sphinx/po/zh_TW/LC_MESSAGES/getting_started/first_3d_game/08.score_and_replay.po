@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,16 +26,6 @@ msgid ""
 msgstr ""
 "我們要用一個變數來記錄目前的分數，使用最簡的介面在螢幕上顯示。我們會用文字標"
 "籤來實作。"
-
-#, fuzzy
-msgid ""
-"In the main scene, add a new child node :ref:`Control <class_Control>` to "
-"``Main`` and name it ``UserInterface``. Ensure you are on the 2D screen, "
-"where you can edit your User Interface (UI)."
-msgstr ""
-"在主場景中，新增一個新的 :ref:`Control <class_Control>` 節點作為 ``Main`` 的"
-"子項，命名為 ``UserInterface``。你會被自動切換到 2D 螢幕，可以在這裡編輯你的"
-"使用者介面 User Interface（UI）。"
 
 msgid "Add a :ref:`Label <class_Label>` node and name it ``ScoreLabel``"
 msgstr ":ref:`Label <class_Label>` ，命名為 ``ScoreLabel`` 。"
@@ -132,12 +117,6 @@ msgstr "|image6|"
 msgid "image6"
 msgstr "image6"
 
-#, fuzzy
-msgid ""
-"By default, a theme only has a few properties: *Default Base Scale*, "
-"*Default Font* and *Default Font Size*."
-msgstr "預設情況下，主題只有一個屬性，*Default Font*（預設字形）。"
-
 msgid ""
 "You can add more properties to the theme resource to design complex user "
 "interfaces, but that is beyond the scope of this series. To learn more about "
@@ -145,15 +124,6 @@ msgid ""
 msgstr ""
 "你可以為主題資源新增更多屬性，從而設計更複雜的使用者介面，不過這就超出本系列"
 "的範疇了。要學習主題的建立和編輯，請參閱 :ref:`doc_gui_skinning`。"
-
-#, fuzzy
-msgid ""
-"The *Default Font* expects a font file like the ones you have on your "
-"computer. Two common font file formats are TrueType Font (TTF) and OpenType "
-"Font (OTF)."
-msgstr ""
-"這裡需要的是一個字形檔，就是你電腦上用的那種。常見的字形檔案格式有兩種："
-"TrueType 字形（TTF）和 OpenType 字形（OTF）。"
 
 msgid ""
 "In the *FileSystem* dock, expand the ``fonts`` directory and click and drag "
@@ -231,11 +201,6 @@ msgid ""
 msgstr ""
 "這一行的意思是，當小怪發出 ``squashed`` 訊號時，``ScoreLabel`` 節點就會接收到"
 "並呼叫 ``_on_mob_squashed()`` 函式。"
-
-msgid ""
-"Head back to the ``ScoreLabel.gd`` script to define the "
-"``_on_mob_squashed()`` callback function."
-msgstr "回到 ``ScoreLabel.gd`` 腳本，定義回呼函式 ``_on_mob_squashed()``。"
 
 msgid "There, we increment the score and update the displayed text."
 msgstr "這裡我們將進行加分並更新顯示的文字。"
@@ -496,9 +461,6 @@ msgstr "\\ |image1|"
 msgid "image17"
 msgstr "image17"
 
-msgid "Save the scene as ``MusicPlayer.tscn``."
-msgstr "最後，保存場景為 ``sayhello.tscn`` 之類的名稱。"
-
 msgid ""
 "We have to register it as an autoload. Head to the *Project -> Project "
 "Settings…* menu and click on the *Autoload* tab."
@@ -506,26 +468,11 @@ msgstr ""
 "要自動載入場景或腳本，請從選單中選擇 **[專案] -> [專案設定]** 然後切換到 "
 "**[AutoLoad]** 分頁。"
 
-msgid ""
-"In the *Path* field, you want to enter the path to your scene. Click the "
-"folder icon to open the file browser and double-click on ``MusicPlayer."
-"tscn``. Then, click the *Add* button on the right to register the node."
-msgstr ""
-"*路徑*輸入框中需要輸入場景的路徑。按一下資料夾圖示打開檔瀏覽器，然後按兩下 "
-"``MusicPlayer.tscn``。接下來，按一下右側的*新增*按鈕，將該節點進行註冊。"
-
 msgid "|image18|"
 msgstr "\\ |image1|"
 
 msgid "image18"
 msgstr "image18"
-
-msgid ""
-"``MusicPlayer.tscn`` now loads into any scene you open or play. So if you "
-"run the game now, the music will play automatically in any scene."
-msgstr ""
-"``MusicPlayer.tscn`` 現在會被載入到任何您打開或播放的場景中。 因此，如果您現"
-"在運作遊戲，音樂將在任何場景中自動播放。"
 
 msgid ""
 "Before we wrap up this lesson, here's a quick look at how it works under the "

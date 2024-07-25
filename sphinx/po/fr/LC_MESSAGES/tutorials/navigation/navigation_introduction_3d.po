@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,41 +76,17 @@ msgstr ""
 "grande zone peut souvent être définie avec un polygone seul alors qu'il "
 "faudrait beaucoup, beaucoup de cellules de grille."
 
-msgid ""
-"The NavigationServer holds different navigation maps that each consist of "
-"regions that hold navigation mesh data. Agents can be placed on a map for "
-"avoidance calculation. RIDs are used to reference internal maps, regions, "
-"and agents when communicating with the server."
-msgstr ""
-
 msgid "The following NavigationServer RID types are available."
 msgstr "Les types RID NavigationServer suivants sont disponibles."
 
 msgid "NavMap RID"
 msgstr "NavMap RID"
 
-msgid ""
-"Reference to a specific navigation map that holds regions and agents. The "
-"map will attempt to join the navigation meshes of the regions by proximity. "
-"The map will synchronize regions and agents each physics frame."
-msgstr ""
-
 msgid "NavRegion RID"
 msgstr "NavRegion RID"
 
-msgid ""
-"Reference to a specific navigation region that can hold navigation mesh "
-"data. The region can be enabled / disabled or the use restricted with a "
-"navigation layer bitmask."
-msgstr ""
-
 msgid "NavLink RID"
 msgstr "NavLink RID"
-
-msgid ""
-"Reference to a specific navigation link that connects two navigation mesh "
-"positions over arbitrary distances."
-msgstr ""
 
 msgid "NavAgent RID"
 msgstr "NavAgent RID"
@@ -126,15 +97,6 @@ msgid ""
 msgstr ""
 "Référence à une agent d'évitement spécifique. L'évitement est définit par "
 "une valeur de rayon."
-
-#, fuzzy
-msgid "NavObstacle RID"
-msgstr "NavigationObstacle3D"
-
-msgid ""
-"Reference to a specific avoidance obstacle used to affect and constrain the "
-"avoidance velocity of agents."
-msgstr ""
 
 msgid ""
 "The following scene tree nodes are available as helpers to work with the "
@@ -153,14 +115,6 @@ msgstr ""
 "Un nœud qui tient une ressource de mesh de navigation qui définit un mesh de "
 "navigation pour le NavigationServer3D."
 
-msgid "The region can be enabled / disabled."
-msgstr ""
-
-msgid ""
-"The use in pathfinding can be further restricted through the "
-"``navigation_layers`` bitmask."
-msgstr ""
-
 msgid ""
 "The NavigationServer3D will join the navigation meshes of regions by "
 "proximity for a combined navigation mesh."
@@ -170,22 +124,6 @@ msgstr ""
 
 msgid ":ref:`NavigationLink3D<class_NavigationLink3D>` Node"
 msgstr "Nœud :ref:`NavigationLink3D<class_NavigationLink3D>`"
-
-msgid ""
-"A Node that connects two positions on navigation meshes over arbitrary "
-"distances for pathfinding."
-msgstr ""
-
-msgid "The link can be enabled / disabled."
-msgstr ""
-
-msgid "The link can be made one-way or bidirectional."
-msgstr ""
-
-msgid ""
-"Links tell the pathfinding that a connection exists and at what cost. The "
-"actual agent handling and movement needs to happen in custom scripts."
-msgstr ""
 
 msgid ":ref:`NavigationAgent3D<class_NavigationAgent3D>` Node"
 msgstr "Nœud :ref:`NavigationAgent3D<class_NavigationAgent3D>`"
@@ -201,12 +139,6 @@ msgstr ""
 
 msgid ":ref:`NavigationObstacle3D<class_NavigationObstacle3D>` Node"
 msgstr "Nœud :ref:`NavigationObstacle3D<class_NavigationObstacle3D>`"
-
-msgid ""
-"A Node that can be used to affect and constrain the avoidance velocity of "
-"avoidance enabled agents. This Node does NOT affect the pathfinding of "
-"agents. You need to change the navigation meshes for that instead."
-msgstr ""
 
 msgid "The 3D navigation meshes are defined with the following resources:"
 msgstr ""
@@ -255,63 +187,6 @@ msgstr ""
 
 msgid "Setup for 3D scene"
 msgstr "Configuration pour une scène 3D"
-
-#, fuzzy
-msgid ""
-"The following steps show a basic setup for minimal viable navigation in 3D. "
-"It uses the NavigationServer3D and a NavigationAgent3D for path movement."
-msgstr ""
-"Les étapes suivantes montrent une configuration basique pour une navigation "
-"en 3D. Elle utilise le NavigationServer3D et un NavigationAgent3D pour les "
-"mouvements sur chemin."
-
-msgid "Add a NavigationRegion3D Node to the scene."
-msgstr ""
-
-msgid ""
-"Click on the region node and add a new :ref:"
-"`NavigationMesh<class_NavigationMesh>` Resource to the region node."
-msgstr ""
-
-#, fuzzy
-msgid "Add a new MeshInstance3D node as a child of the region node."
-msgstr "Ajouter le mob comme enfant du nœud *Main*."
-
-msgid ""
-"Select the MeshInstance3D node and add a new PlaneMesh and increase the xy "
-"size to 10."
-msgstr ""
-
-msgid ""
-"Select the region node again and press the \"Bake Navmesh\" button on the "
-"top bar."
-msgstr ""
-
-msgid ""
-"Now a transparent navigation mesh appears that hovers some distance on top "
-"of the PlaneMesh."
-msgstr ""
-
-msgid ""
-"Add a CharacterBody3D node in the scene with a basic collision shape and "
-"some mesh for visuals."
-msgstr ""
-
-msgid "Add a NavigationAgent3D node below the character node."
-msgstr ""
-
-msgid ""
-"Add a script to the CharacterBody3D node with the following content. We make "
-"sure to set a movement target after the scene has fully loaded and the "
-"NavigationServer had time to sync. Also, add a Camera3D and some light and "
-"environment to see something."
-msgstr ""
-
-msgid ""
-"On the first frame the NavigationServer map has not synchronized region data "
-"and any path query will return empty. Wait for the NavigationServer "
-"synchronization by awaiting one frame in the script."
-msgstr ""
 
 msgid "Translation status"
 msgstr "État de la traduction"

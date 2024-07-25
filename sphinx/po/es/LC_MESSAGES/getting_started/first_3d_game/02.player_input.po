@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,39 +143,11 @@ msgstr "|image3|"
 msgid "image3"
 msgstr "|image3|"
 
-#, fuzzy
-msgid ""
-"It will be the shape the physics engine uses to collide with the "
-"environment, so we want it to better fit the 3D model. Make it a bit larger "
-"by dragging the orange dot in the viewport. My sphere has a radius of about "
-"``0.8`` meters."
-msgstr ""
-"Será la forma que use el motor de física para colisionar con el entorno, por "
-"lo que queremos que se ajuste mejor al modelo 3D. Redúzcalo un poco "
-"arrastrando el punto naranja en la ventana gráfica. Mi esfera tiene un radio "
-"de unos ``0,8`` metros."
-
-#, fuzzy
-msgid ""
-"Then, move the collision shape up so its bottom roughly aligns with the "
-"grid's plane."
-msgstr ""
-"Luego, mueva la forma hacia arriba para que su parte inferior se alinee "
-"aproximadamente con el plano de la cuadrícula."
-
 msgid "|image4|"
 msgstr "|image4|"
 
 msgid "image4"
 msgstr "image4"
-
-#, fuzzy
-msgid ""
-"To make moving the shape easier, you can toggle the model's visibility by "
-"clicking the eye icon next to the ``Character`` or the ``Pivot`` nodes."
-msgstr ""
-"Puedes alternar la visibilidad del modelo haciendo clic en el icono del ojo "
-"junto a los nodos ``Character`` o ``Pivot``."
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -240,17 +207,6 @@ msgstr "|image7|"
 
 msgid "image7"
 msgstr "image7"
-
-#, fuzzy
-msgid ""
-"Godot projects come with some predefined actions designed for user interface "
-"design (see above screenshot). These will become visible if you enable the "
-"*Show Built-in Actions* toggle. We could use these here, but instead we're "
-"defining our own to support gamepads. Leave *Show Built-in Actions* disabled."
-msgstr ""
-"Los proyectos de Godot vienen con algunas acciones predefinidas diseñadas "
-"para el diseño de la interfaz de usuario, que podríamos usar aquí. Pero "
-"estamos definiendo el nuestro para admitir mandos."
 
 msgid ""
 "We're going to name our actions ``move_left``, ``move_right``, "

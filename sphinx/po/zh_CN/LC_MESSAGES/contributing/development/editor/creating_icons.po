@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,22 +68,6 @@ msgstr ""
 
 msgid "Color conversion for light editor themes"
 msgstr "为浅色编辑器主题转换颜色"
-
-#, fuzzy
-msgid ""
-"If the user has configured their editor to use a light theme, Godot will "
-"convert the icon's colors based on a `set of predefined color mappings "
-"<https://github.com/godotengine/godot/blob/4.0.2-stable/editor/editor_themes."
-"cpp#L60-L160>`__. This is to ensure the icon always displays with a "
-"sufficient contrast rate. Try to restrict your icon's color palette to "
-"colors found in the list above. Otherwise, your icon may become difficult to "
-"read on a light background."
-msgstr ""
-"如果用户将其编辑器配置为使用浅色主题,Godot将根据 `一组预定义的颜色映射 "
-"<https://github.com/godotengine/godot/blob/"
-"b9f2e57d6240346f1833fd0390de195c956299e7/editor/editor_themes.cpp#L122-"
-"L184>`__ 来转换图标的颜色. 这是为了确保图标始终以足够的对比度显示. 尽量将图标"
-"的调色板限制在上面列表中的颜色. 否则, 您的图标在浅色背景下可能会变得难以预览."
 
 msgid "Icon optimization"
 msgstr "图标优化"

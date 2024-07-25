@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,17 +99,6 @@ msgstr "从这顶部菜单选择 **Run > Configure Launches...** [运行>配置�
 
 msgid "Click **Add** to create a new launch configuration."
 msgstr "单击 **Add** 以创建新的启动配置."
-
-#, fuzzy
-msgid ""
-"Select **Executable** option and specify the path to your executable located "
-"in the ``<Godot root directory>/bin`` folder. The name depends on your build "
-"configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD "
-"platform with ``platform=editor`` and ``dev_build=yes``."
-msgstr ""
-"选择 **Executable** 选项, 并指定位于 ``<Godot根目录>/bin`` 文件夹中的可执行文"
-"件的路径. 名称取决于你的构建配置, 例如: ``godot.x11.tools.64`` 用于64位X11平"
-"台, 并启用 ``tools`` ."
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

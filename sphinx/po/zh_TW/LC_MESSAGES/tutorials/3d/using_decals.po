@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -358,38 +353,6 @@ msgstr ""
 "會影響所有圖層。使用它可以指定哪些型別的物件接收裝飾，哪些型別不接收裝飾。這"
 "特別有用，因此您可以確保動態物件不會意外收到針對其下方地形的裝飾。"
 
-#, fuzzy
-msgid "Decal rendering order"
-msgstr "對其他架構重複相同的過程。"
-
-msgid ""
-"By default, decals are ordered based on the size of their :abbr:`AABB (Axis-"
-"Aligned Bounding Box)` and the distance to the camera. AABBs that are closer "
-"to the camera are rendered first, which means that decal rendering order can "
-"sometimes appear to change depending on camera position if some decals are "
-"positioned at the same location."
-msgstr ""
-
-msgid ""
-"To resolve this, you can adjust the **Sorting Offset** property in the "
-"VisualInstance3D section of the Decal node inspector. This offset is not a "
-"strict priority order, but a *guideline* that the renderer will use as the "
-"AABB size still affects how decal sorting works. Therefore, higher values "
-"will *always* result in the decal being drawn above other decals with a "
-"lower sorting offset."
-msgstr ""
-
-msgid ""
-"If you want to ensure a decal is always rendered on top of other decals, you "
-"need to set its **Sorting Offset** property to a positive value greater than "
-"the AABB length of the largest decal that may overlap it. To make this decal "
-"drawn behind other decals instead, set the **Sorting Offset** to the same "
-"negative value."
-msgstr ""
-
-msgid "VisualInstance3D Sorting Offset comparison on Decals"
-msgstr ""
-
 msgid "Tweaking performance and quality"
 msgstr "效能"
 
@@ -454,23 +417,6 @@ msgstr ""
 "出於性能原因，裝飾使用純粹固定的算繪邏輯。這意味著裝飾不能使用自訂著色器。但"
 "是，投影表面上的自訂著色器能夠讀取被其頂部的裝飾覆蓋的信息，例如粗糙度和金屬"
 "度。"
-
-#, fuzzy
-msgid ""
-"When using the Forward+ renderer, Godot uses a *clustering* approach for "
-"decal rendering. As many decals as desired can be added (as long as "
-"performance allows). However, there's still a default limit of 512 "
-"*clustered elements* that can be present in the current camera view. A "
-"clustered element is an omni light, a spot light, a :ref:`decal "
-"<doc_using_decals>` or a :ref:`reflection probe <doc_reflection_probes>`. "
-"This limit can be increased by adjusting the **Rendering > Limits > Cluster "
-"Builder > Max Clustered Elements** advanced project setting."
-msgstr ""
-"當使用 Forward+ 算繪器時，Godot 使用*聚類*方法進行即時光照。可以新增所需數量"
-"的燈光（只要性能允許）。但是，目前相機視圖中可以出現的「聚集元素」的預設限制"
-"仍然是 512 個。群集元素是全向燈、聚光燈、貼紙 <doc_using_decals>` 或反射探查 "
-"<doc_reflection_probes>`。可以透過調整 **算繪 > 限制 > 叢集產生器 > 最大叢集"
-"元素** 進階專案設定來增加此限制。"
 
 msgid ""
 "When using the Forward Mobile backend, only 8 decals can be applied on each "

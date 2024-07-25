@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -318,7 +313,6 @@ msgstr ""
 msgid "in float **E**"
 msgstr "in float **E**"
 
-#, fuzzy
 msgid ""
 "An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
@@ -361,7 +355,6 @@ msgstr ""
 "Andere Built-Ins, wie UV, UV2 und COLOR, werden ebenfalls an die Fragment-"
 "Funktion weitergegeben, wenn sie nicht geändert werden."
 
-#, fuzzy
 msgid ""
 "Users can override the modelview and projection transforms using the "
 "``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
@@ -370,11 +363,13 @@ msgid ""
 "``VERTEX`` is ignored and projection does not happen. However, the value "
 "passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
-"Benutzer können die Modellansicht und die Projektionstransformationen mit "
-"Hilfe der eingebauten ``POSITION`` überschreiben. Wenn ``POSITION`` "
-"verwendet wird, wird der Wert von ``VERTEX`` ignoriert und die Projektion "
-"findet nicht statt. Der Wert, der an den Fragment-Shader übergeben wird, "
-"stammt jedoch immer noch von ``VERTEX``."
+"Der Benutzer kann die Modellansicht und die Projektionstransformationen mit "
+"Hilfe der eingebauten ``POSITION`` überschreiben. Wenn ``POSITION`` irgendwo "
+"in den Shader geschrieben wird, wird es immer benutzt, so dass der Benutzer "
+"dafür verantwortlich ist, dass es immer einen akzeptablen Wert hat. Wenn "
+"``POSITION`` verwendet wird, wird der Wert von ``VERTEX`` ignoriert und es "
+"findet keine Projektion statt. Der Wert, der an den Fragment-Shader "
+"übergeben wird, stammt jedoch immer noch von ``VERTEX``."
 
 msgid ""
 "For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
@@ -421,17 +416,15 @@ msgstr "in mat4 **INV_VIEW_MATRIX**"
 msgid "View space to world space transform."
 msgstr "Transformation von View-Space nach World-Space."
 
-#, fuzzy
 msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-msgstr "in mat4 **INV_VIEW_MATRIX**"
+msgstr "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 
-#, fuzzy
 msgid ""
 "View space to world space transform of camera used to draw the current "
 "viewport."
 msgstr ""
-"Transformation vom Local Space in den World Space. World Space sind die "
-"Koordinaten, die Sie normalerweise im Editor verwenden."
+"Transformation der Kamera, die zum Zeichnen des aktuellen Viewports "
+"verwendet wird, vom View Space in den World Space."
 
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "in mat4 **INV_PROJECTION_MATRIX**"
@@ -463,12 +456,11 @@ msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgid "Camera world space direction."
 msgstr "World-Space-Richtung der Kamera."
 
-#, fuzzy
 msgid "in uint **CAMERA_VISIBLE_LAYERS**"
-msgstr "in uint **RANDOM_SEED**"
+msgstr "in uint **CAMERA_VISIBLE_LAYERS**"
 
 msgid "Cull layers of the camera rendering the current pass."
-msgstr ""
+msgstr "Ebenen der Kamera beim Rendern des aktuellen Durchlaufs cullen."
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "in bool **OUTPUT_IS_SRGB**"
@@ -616,13 +608,11 @@ msgstr "inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "Transformation von View-Space nach Clip-Space."
 
-#, fuzzy
 msgid "in uvec4 **BONE_INDICES**"
-msgstr "inout uvec4 **BONE_INDICES**"
+msgstr "in uvec4 **BONE_INDICES**"
 
-#, fuzzy
 msgid "in vec4 **BONE_WEIGHTS**"
-msgstr "inout vec4 **BONE_WEIGHTS**"
+msgstr "in vec4 **BONE_WEIGHTS**"
 
 msgid "in vec4 **CUSTOM0**"
 msgstr "in vec4 **CUSTOM0**"
@@ -679,7 +669,6 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "in bool **FRONT_FACING**"
 
-#, fuzzy
 msgid "``true`` if current face is front facing."
 msgstr "``true``, wenn die aktuelle Fläche die vordere Fläche ist."
 
@@ -745,6 +734,9 @@ msgid ""
 "A writable version of ``VERTEX`` that can be used to alter light and "
 "shadows. Writing to this will not change the position of the fragment."
 msgstr ""
+"Eine beschreibbare Version von ``VERTEX``, die zur Veränderung von Licht und "
+"Schatten verwendet werden kann. Durch das Schreiben wird die Position des "
+"Fragments nicht verändert."
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "sampler2D **SCREEN_TEXTURE**"
@@ -815,13 +807,12 @@ msgstr "Albedo (Default Weiß)."
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
 
-#, fuzzy
 msgid ""
 "Alpha (0..1); if read from or written to, the material will go to the "
 "transparent pipeline."
 msgstr ""
-"Alpha (0,1); falls genutzt, wird das Material in die transparente Pipeline "
-"geleitet."
+"Alpha (0,1); falls ausgelesen oder beschrieben, wird das Material in die "
+"transparente Pipeline geleitet."
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "out float **ALPHA_SCISSOR_THRESHOLD**"

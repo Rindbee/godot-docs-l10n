@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,17 +51,22 @@ msgid ""
 "want to change your network mode back to \"offline\" you can do so from the "
 "project manager settings."
 msgstr ""
+"Am oberen Rand des Fensters befindet sich ein weiterer Tab mit der "
+"Bezeichnung \"Asset-Bibliothek-Projekte\". Wenn Sie zum ersten Mal zu diesem "
+"Tab gehen, sehen Sie einen Button \"Online gehen\". Aus Gründen des "
+"Datenschutzes greift der Godot-Projektmanager standardmäßig nicht auf das "
+"Internet zu. Um dies zu ändern, klicken Sie auf den Button \"Online gehen\". "
+"Wenn Sie den Netzwerkmodus wieder auf \"Offline\" ändern möchten, können Sie "
+"dies in den Einstellungen des Projektmanagers tun."
 
-#, fuzzy
 msgid ""
 "Once your network mode is set to \"online\" you can search for demo projects "
 "in the open source asset library, which includes many projects developed by "
 "the community."
 msgstr ""
-"Am oberen Rand des Fensters befindet sich ein weiterer Tab mit der "
-"Bezeichnung „Asset-Bibliotheks-Projekte“. Hier können Sie nach Demoprojekten "
-"in der Open-Source-Asset-Bibliothek suchen, die viele von der Community "
-"entwickelte Projekte enthält."
+"Sobald Ihr Netzwerkmodus auf \"Online\" eingestellt ist, können Sie in der "
+"Open-Source-Asset-Bibliothek, die viele von der Community entwickelte "
+"Projekte enthält, nach Demoprojekten suchen."
 
 msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
@@ -74,17 +74,18 @@ msgstr ""
 "Wenn Sie mehr über den Projektmanager erfahren möchten, lesen Sie :ref:"
 "`doc_project_manager`."
 
-#, fuzzy
 msgid ""
 "You can also change the editor's language by going into the settings menu."
 msgstr ""
-"Sie können sichere Zeilen deaktivieren oder ihre Farbe in den "
-"Editoreinstellungen ändern."
+"Sie können auch die Sprache des Editors ändern, indem Sie in das "
+"Einstellungsmenü gehen."
 
 msgid ""
 "From here use the language drop down menu to select your language. By "
 "default, it is in English (EN)."
 msgstr ""
+"Wählen Sie hier aus dem Dropdown-Menü die gewünschte Sprache aus. "
+"Standardmäßig ist sie auf Englisch (EN) eingestellt."
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -137,7 +138,7 @@ msgstr "Das **Szenen**-Dock listet die aktiven Nodes der Szene auf."
 
 msgid "The **Inspector** allows you to edit the properties of a selected node."
 msgstr ""
-"Mit dem **Inspektor** können Sie die Eigenschaften eines ausgewählten Nodes "
+"Mit dem **Inspektor** können Sie die Propertys eines ausgewählten Nodes "
 "bearbeiten."
 
 msgid ""
@@ -226,15 +227,14 @@ msgid ""
 "You can search for information about a class, method, property, constant, or "
 "signal by any one of the following methods:"
 msgstr ""
-"Sie können nach Informationen über eine Klasse, Methode, Eigenschaft, "
-"Konstante oder ein Signal mit einer der folgenden Methoden suchen:"
+"Sie können nach Informationen über eine Klasse, Methode, Property, Konstante "
+"oder ein Signal mit einer der folgenden Methoden suchen:"
 
-#, fuzzy
 msgid ""
 "Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
 "laptops with a :kbd:`fn` key) anywhere in the editor."
 msgstr ""
-"Druck auf :kbd:`F1` (oder :kbd:`Alt + Leertaste` unter macOS, oder :kbd:`fn "
+"Druck auf :kbd:`F1` (oder :kbd:`Opt + Leertaste` unter macOS, oder :kbd:`fn "
 "+ F1` für Laptops mit einer :kbd:`fn` Taste) irgendwo im Editor."
 
 msgid ""
@@ -246,13 +246,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "Klick auf das Hilfe-Menü und „Hilfe durchsuchen“."
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"Klick auf einen Klassennamen, Funktionsnamen oder eine Built-in-Variable im "
-"Skript-Editor bei gedrückter :kbd:`Strg`-Taste."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

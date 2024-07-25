@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,36 +33,11 @@ msgstr ""
 "Android. Los siguientes pasos detallan lo que se necesita para configurar el "
 "motor y el SDK de Android."
 
-msgid ""
-"Projects written in C# can be exported to Android as of Godot 4.2, but "
-"support is experimental and :ref:`some limitations apply "
-"<doc_c_sharp_platforms>`."
-msgstr ""
-
-#, fuzzy
-msgid "Install OpenJDK 17"
-msgstr "Instalar OpenJDK 11"
-
-#, fuzzy
-msgid ""
-"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-msgstr ""
-"Descarga e instala `OpenJDK 11 <https://adoptium.net/?variant=openjdk11>`__."
-
 msgid "Download the Android SDK"
 msgstr "Descargar el SDK de Android"
 
 msgid "Download and install the Android SDK."
 msgstr "Descargar e instalar el Android SDK."
-
-#, fuzzy
-msgid ""
-"You can install the Android SDK using `Android Studio Hedgehog (version "
-"2023.1.1) or later <https://developer.android.com/studio/>`__."
-msgstr ""
-"Puedes instalarlo usando `Android Studio versión 4.1 o superior <https://"
-"developer.android.com/studio/>`__."
 
 msgid ""
 "Run it once to complete the SDK setup using these `instructions <https://"
@@ -77,25 +47,6 @@ msgstr ""
 "`instrucciones <https://developer.android.com/studio/intro/update#sdk-"
 "manager>`__."
 
-msgid ""
-"Ensure that the `required packages <https://developer.android.com/studio/"
-"intro/update#recommended>`__ are installed as well."
-msgstr ""
-"Asegúrese de que los `paquetes necesarios <https://developer.android.com/"
-"studio/intro/update#recommended>`__ estén instalados también."
-
-#, fuzzy
-msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools versión 30.0.5 o posterior"
-
-#, fuzzy
-msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools versión 30.0.3"
-
-#, fuzzy
-msgid "Android SDK Platform 34"
-msgstr "Android SDK Platform 31"
-
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Herramientas de línea de comandos del SDK de Android (más reciente)"
 
@@ -104,32 +55,6 @@ msgstr "CMake versión 3.10.2.4988404"
 
 msgid "NDK version r23c (23.2.8568313)"
 msgstr "NDK version r23c (23.2.8568313)*"
-
-#, fuzzy
-msgid ""
-"Alternatively, you can install the Android SDK with the `sdkmanager` command "
-"line tool."
-msgstr ""
-"Puedes instalarlo usando las`herramientas de línea de coomando <https://"
-"developer.android.com/studio/>`__."
-
-#, fuzzy
-msgid ""
-"Install the command line tools package using these `instructions <https://"
-"developer.android.com/tools/sdkmanager>`__."
-msgstr ""
-"Ejecútalo una vez para completar la preparación del SDK usando éstas "
-"`instrucciones <https://developer.android.com/studio/intro/update#sdk-"
-"manager>`__."
-
-#, fuzzy
-msgid ""
-"Once the command line tools are installed, run the following `sdkmanager` "
-"command to complete the setup process:"
-msgstr ""
-"Una vez que las herramientas de línea de comando estén instaladas, ejecute "
-"el comando `sdkmanager <https://developer.android.com/studio/command-line/"
-"sdkmanager>`__ para terminar el proceso de instalación:"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -156,20 +81,6 @@ msgstr ""
 
 msgid "In that screen, 2 paths need to be set:"
 msgstr "En esa pantalla, se deben de establecer 2 rutas:"
-
-msgid ""
-"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``Android Sdk Path`` should be the location where the Android SDK was "
-"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
-"Users/$USER/Library/Android/sdk/`` on macOS."
-msgstr ""
-"La ``ruta de Android Sdk`` debería de ser la ubicación en donde el Android "
-"SDK fue instalado. - Por ejemplo ``%LOCALAPPDATA%\\Android\\Sdk\\`` en "
-"Windows o ``/Users/$USER/Library/Android/sdk/`` en macOS."
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr "Una vez configurado ¡todo está listo para exportar a Android!"
@@ -304,20 +215,6 @@ msgstr ""
 "Subir un APK a Google Play Store requiere que sea firmado usando un archivo "
 "keystore non-debug, el cual puede generarse así:"
 
-#, fuzzy
-msgid ""
-"This keystore and key are used to verify your developer identity, remember "
-"the password and keep it in a safe place! It is suggested to use only upper "
-"and lowercase letters and numbers. Special characters may cause errors. Use "
-"Google's Android Developer guides to learn more about `APK signing <https://"
-"developer.android.com/studio/publish/app-signing>`__."
-msgstr ""
-"Este keystore y su clave se utilizan para verificar la identidad de su "
-"desarrollador, recuerda la contraseña y guárdala en un lugar seguro. Utiliza "
-"las guías de Google para desarrolladores de Android para obtener más "
-"información sobre `APK signing <https://developer.android.com/studio/publish/"
-"app-signing>`__."
-
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr ""
 "Ahora rellena los siguientes formularios en tus opciones predeterminadas de "
@@ -391,66 +288,6 @@ msgstr ""
 
 msgid "Environment variables"
 msgstr "Variables de entorno"
-
-msgid ""
-"You can use the following environment variables to set export options "
-"outside of the editor. During the export process, these override the values "
-"that you set in the export menu."
-msgstr ""
-
-#, fuzzy
-msgid "Android export environment variables"
-msgstr "Variables de entorno"
-
-#, fuzzy
-msgid "Export option"
-msgstr "Opciones de exportación"
-
-#, fuzzy
-msgid "Environment variable"
-msgstr "Variables de entorno"
-
-msgid "Encryption / Encryption Key"
-msgstr ""
-
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr ""
-
-msgid "Options / Keystore / Debug"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
-msgstr ""
-
-msgid "Options / Keystore / Debug User"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
-msgstr ""
-
-msgid "Options / Keystore / Debug Password"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
-msgstr ""
-
-msgid "Options / Keystore / Release"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
-msgstr ""
-
-msgid "Options / Keystore / Release User"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
-msgstr ""
-
-msgid "Options / Keystore / Release Password"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

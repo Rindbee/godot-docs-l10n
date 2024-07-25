@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,33 +20,6 @@ msgstr "这是C#和GDScript之间API差异的(不完整)列表."
 
 msgid "General differences"
 msgstr "一般差异"
-
-#, fuzzy
-msgid ""
-"As explained in :ref:`doc_c_sharp_general_differences`, ``PascalCase`` is "
-"used to access Godot APIs in C# instead of the ``snake_case`` used by "
-"GDScript and C++. Where possible, fields and getters/setters have been "
-"converted to properties. In general, the C# Godot API strives to be as "
-"idiomatic as is reasonably possible. See the :ref:`doc_c_sharp_styleguide`, "
-"which we encourage you to also use for your own C# code."
-msgstr ""
-"C# API 使用 ``PascalCase`` 而不是 GDScript/C++ 中使用的 ``snake_case`` 。 在"
-"可能的情况下，字段和 getters/setters 已转换为属性。一般来说，C# Godot API 一"
-"贯力求尽可能合理。"
-
-msgid ""
-"In GDScript, the setters/getters of a property can be called directly, "
-"although this is not encouraged. In C#, only the property is defined. For "
-"example, to translate the GDScript code ``x.set_name(\"Friend\")`` to C#, "
-"write ``x.Name = \"Friend\";``."
-msgstr ""
-
-msgid ""
-"A C# IDE will provide intellisense, which is extremely useful when figuring "
-"out renamed C# APIs. The built-in Godot script editor has no support for C# "
-"intellisense, and it also doesn't provide many other C# development tools "
-"that are considered essential. See :ref:`doc_c_sharp_setup_external_editor`."
-msgstr ""
 
 msgid "Global scope"
 msgstr "全局作用域"
@@ -217,34 +185,10 @@ msgstr "acos"
 msgid "Mathf.Acos"
 msgstr "Mathf.Acos"
 
-#, fuzzy
-msgid "acosh"
-msgstr "acos"
-
-#, fuzzy
-msgid "Mathf.Acosh"
-msgstr "Mathf.Acos"
-
-#, fuzzy
-msgid "angle_difference"
-msgstr "一般差异"
-
-#, fuzzy
-msgid "Mathf.AngleDifference"
-msgstr "Mathf.LerpAngle"
-
 msgid "asin"
 msgstr "asin"
 
 msgid "Mathf.Asin"
-msgstr "Mathf.Asin"
-
-#, fuzzy
-msgid "asinh"
-msgstr "asin"
-
-#, fuzzy
-msgid "Mathf.Asinh"
 msgstr "Mathf.Asin"
 
 msgid "atan"
@@ -258,14 +202,6 @@ msgstr "atan2"
 
 msgid "Mathf.Atan2"
 msgstr "Mathf.Atan2"
-
-#, fuzzy
-msgid "atanh"
-msgstr "atan"
-
-#, fuzzy
-msgid "Mathf.Atanh"
-msgstr "Mathf.Atan"
 
 msgid "bezier_derivative"
 msgstr "bezier_derivative"
@@ -335,10 +271,6 @@ msgstr "cubic_interpolate"
 
 msgid "Mathf.CubicInterpolate"
 msgstr "Mathf.CubicInterpolate"
-
-#, fuzzy
-msgid "cubic_interpolate_angle"
-msgstr "cubic_interpoalte_angle"
 
 msgid "Mathf.CubicInterpolateAngle"
 msgstr "Mathf.CubicInterpolateAngle"
@@ -670,14 +602,6 @@ msgstr "N/A"
 msgid "rid_from_int64"
 msgstr "rid_from_int64"
 
-#, fuzzy
-msgid "rotate_toward"
-msgstr "move_toward"
-
-#, fuzzy
-msgid "Mathf.RotateToward"
-msgstr "Mathf.MoveToward"
-
 msgid "round"
 msgstr "round"
 
@@ -776,21 +700,6 @@ msgstr "tanh"
 
 msgid "Mathf.Tanh"
 msgstr "Mathf.Tanh"
-
-#, fuzzy
-msgid "type_convert"
-msgstr "convert"
-
-msgid "Variant.As<T> or GD.Convert"
-msgstr ""
-
-#, fuzzy
-msgid "type_string"
-msgstr "字符串"
-
-#, fuzzy
-msgid "Variant.Type.ToString"
-msgstr "Variant.Type"
 
 msgid "typeof"
 msgstr "typeof"
@@ -1643,14 +1552,6 @@ msgstr ""
 msgid "to_wchar_buffer"
 msgstr "to_wchar_buffer"
 
-#, fuzzy
-msgid ""
-"StringExtensions.ToUtf16Buffer in Windows and StringExtensions.ToUtf32Buffer "
-"in other platforms"
-msgstr ""
-"Windows 上 StringExtensions.ToUtf16Buffer，其他平台 StringExtensiont."
-"ToUtf32Buffer"
-
 msgid "trim_prefix"
 msgstr "trim_prefix"
 
@@ -1755,15 +1656,6 @@ msgid ""
 "StringExtensions.HexEncode (Consider using `System.Convert.ToHexString`_)"
 msgstr ""
 "StringExtensions.HexEncode（请考虑使用 `System.Convert.ToHexString`_ ）"
-
-#, fuzzy
-msgid ""
-".NET provides path utility methods under the `System.IO.Path`_ class. They "
-"can only be used with native OS paths, not Godot paths (paths that start "
-"with ``res://`` or ``user://``). See :ref:`doc_data_paths`."
-msgstr ""
-".NET 在 `System.IO.Path`_ 类下包含许多路径实用方法，用于处理非 Godot 路径"
-"（以 ``res://`` 或 ``user://`` 开头的路径）"
 
 msgid "NodePath"
 msgstr "节点路径"
@@ -2079,30 +1971,11 @@ msgstr "另见： :ref:`C# 中的数组 <doc_c_sharp_collections_array>` 。"
 msgid "Dictionary"
 msgstr "字典"
 
-#, fuzzy
-msgid ""
-"Use ``Godot.Collections.Dictionary`` for an untyped ``Variant`` dictionary. "
-"``Godot.Collections.Dictionary<TKey, TValue>`` is a type-safe wrapper around "
-"``Godot.Collections.Dictionary``."
-msgstr ""
-"使用 ``Godot.Collections.Dictionary`` 表示无类型的 ``Variant`` 字典。 "
-"``Godot.Collections.Dictionary<TKey, TValue>`` 是对 ``Godot.Collections."
-"Dictionary`` 的类型安全封装。"
-
 msgid "See also :ref:`Dictionary in C# <doc_c_sharp_collections_dictionary>`."
 msgstr "另见： :ref:`C# 中的字典 <doc_c_sharp_collections_dictionary>` 。"
 
 msgid "Variant"
 msgstr "``Variant``"
-
-#, fuzzy
-msgid ""
-"``Godot.Variant`` is used to represent Godot's native :ref:`Variant "
-"<class_Variant>` type. Any :ref:`Variant-compatible type "
-"<c_sharp_variant_compatible_types>` can be converted from/to it."
-msgstr ""
-"``Godot.Variant`` 用于表示 Godot 的原生 :ref:`Variant <class_Variant>` 类型。"
-"任何与 Variant 兼容的类型都可以与之相互转换。"
 
 msgid "See also: :ref:`doc_c_sharp_variant`."
 msgstr "另见： :ref:`doc_c_sharp_variant` 。"

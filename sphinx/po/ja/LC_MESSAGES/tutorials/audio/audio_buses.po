@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,14 +77,6 @@ msgstr ""
 "0dBは、デジタルオーディオシステムで可能な最大振幅です。この制限は人間の制限で"
 "はなく、サウンドハードウェアの制限です。振幅が大きすぎて0dB未満で適切に表現で"
 "きないオーディオでは、\\ *クリッピング* と呼ばれる一種の歪みが発生します。"
-
-#, fuzzy
-msgid ""
-"To avoid clipping, your sound mix should be arranged so that the output of "
-"the *master bus* (more on that later) never exceeds 0 dB."
-msgstr ""
-"クリッピングを避けるために、\\ *master bus* (詳細は後述)の出力が 0dBを超えな"
-"いようにサウンド ミックスを調整します。"
 
 msgid ""
 "Every 6 dB below the 0 dB limit, sound energy is *halved*. It means the "
@@ -183,12 +170,6 @@ msgid ""
 msgstr ""
 "オーディオバスには、あらゆる種類のエフェクトを含めることができます。これらの"
 "エフェクトは、何かの方法でサウンドを変更し、順番に適用されます。"
-
-#, fuzzy
-msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
-msgstr ""
-"スレッドの詳細については、次を参照してください:"
-"ref:'doc_using_multiple_threads' 。"
 
 msgid "Automatic bus disabling"
 msgstr "自動的なバス無効化"

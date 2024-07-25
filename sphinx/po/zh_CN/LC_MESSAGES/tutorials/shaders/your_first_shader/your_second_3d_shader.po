@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,18 +38,6 @@ msgid ""
 msgstr ""
 "有关这些参数的完整列表, 请参见 :ref:`空间着色器 <doc_spatial_shader>` 参考文"
 "档."
-
-#, fuzzy
-msgid ""
-"A difference between the vertex function and a fragment function is that the "
-"vertex function runs per vertex and sets properties such as ``VERTEX`` "
-"(position) and ``NORMAL``, while the fragment shader runs per pixel and, "
-"most importantly, sets the ``ALBEDO`` color of the :ref:"
-"`MeshInstance3D<class_MeshInstance3D>`."
-msgstr ""
-"顶点函数和片段函数的区别在于, 顶点函数是按顶点运行的, 并设置诸如 ``VERTEX`` "
-"(坐标)和 ``NORMAL`` 等属性, 而片段着色器是按像素运行的, 最重要的是设置 :ref:"
-"`Mesh<class_MeshInstance>` 的 ``ALBEDO`` 颜色."
 
 msgid "Your first spatial fragment function"
 msgstr "第一个空间片段函数"
@@ -196,35 +179,6 @@ msgstr ""
 "其次, 我们将添加边缘照明. 边缘照明增加了掠射角度的光线效果. 通常, 它用于模拟"
 "光线穿过对象边缘上的织物的路径, 但是我们将在此处使用它来帮助实现良好的水润效"
 "果."
-
-#, fuzzy
-msgid ""
-"In order to add fresnel reflectance, we will compute a fresnel term in our "
-"fragment shader. Here, we aren't going to use a real fresnel term for "
-"performance reasons. Instead, we'll approximate it using the dot product of "
-"the ``NORMAL`` and ``VIEW`` vectors. The ``NORMAL`` vector points away from "
-"the mesh's surface, while the ``VIEW`` vector is the direction between your "
-"eye and that point on the surface. The dot product between them is a handy "
-"way to tell when you are looking at the surface head-on or at a glancing "
-"angle."
-msgstr ""
-"为了增加菲涅耳反射率，我们将在片段着色器中计算菲涅耳项。在这里，出于性能方面"
-"的考虑，我们将不使用真正的菲涅耳术语。取而代之的是，我们将使用 ``NORMAL`` 和 "
-"``VIEW`` 向量的点积对其进行近似。\\ ``NORMAL`` 向量指向远离网格物体表面的位"
-"置，而 ``VIEW`` 向量则是你的眼睛与该表面上的点之间的方向。它们之间的点积是一"
-"种可以告诉你何时正视或掠过某个角度的方便方法。"
-
-#, fuzzy
-msgid ""
-"And mix it into both ``ROUGHNESS`` and ``ALBEDO``. This is the benefit of "
-"ShaderMaterials over StandardMaterial3Ds. With StandardMaterial3D, we could "
-"set these properties with a texture, or to a flat number. But with shaders "
-"we can set them based on any mathematical function that we can dream up."
-msgstr ""
-"并将其混合到 ``ROUGHNESS`` 和 ``ALBEDO``\\ 。这是 ShaderMaterial 比 "
-"SpatialMaterial 的好处。使用 SpatialMaterial，我们可以用纹理来设置这些属性，"
-"或者设置成一个统一的数字。但是用着色器，我们可以根据我们能想到的任何数学函数"
-"来设置它们。"
 
 msgid ""
 "And now, with only 5 lines of code, you can have complex looking water. Now "

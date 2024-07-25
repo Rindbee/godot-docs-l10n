@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,9 +14,6 @@ msgstr ""
 
 msgid "Using VisualShaders"
 msgstr "Utilisation de VisualShaders"
-
-msgid "VisualShaders are the visual alternative for creating shaders."
-msgstr ""
 
 msgid ""
 "As shaders are inherently linked to visuals, the graph-based approach with "
@@ -61,26 +53,6 @@ msgid ""
 msgstr ""
 "Ensuite, attribuez une ressource :ref:`class_VisualShader` à la propriété "
 "``Shader``."
-
-#, fuzzy
-msgid ""
-"Click on the new ``Shader`` resource and the Create Shader dialog will open "
-"automatically. Change the Type option to VisualShader in the dropdown."
-msgstr ""
-"Cliquez sur la nouvelle ressource ``VisualShader`` et l'éditeur Visual "
-"Shader s'ouvrira automatiquement. La présentation de l'éditeur Visual Shader "
-"comprend deux parties : la barre d'outils supérieure et le graphique lui-"
-"même."
-
-#, fuzzy
-msgid ""
-"The layout of the Visual Shader Editor comprises two parts: the upper "
-"toolbar and the graph itself."
-msgstr ""
-"Cliquez sur la nouvelle ressource ``VisualShader`` et l'éditeur Visual "
-"Shader s'ouvrira automatiquement. La présentation de l'éditeur Visual Shader "
-"comprend deux parties : la barre d'outils supérieure et le graphique lui-"
-"même."
 
 msgid "From left to right in the toolbar:"
 msgstr "De gauche à droite dans la barre d'outils :"
@@ -211,40 +183,11 @@ msgstr ""
 "Lorsque l'on connecte une sortie ``vector`` à une entrée ``scalar``, la "
 "valeur du scalaire sera la moyenne des composantes du vecteur."
 
-#, fuzzy
-msgid "Visual Shader node interface"
-msgstr "Nœuds Visual Shader"
-
-msgid ""
-"Visual shader nodes have input and output ports. The input ports are located "
-"on the left side of the node, and output ports are located on the right side "
-"of the node."
-msgstr ""
-
-msgid "These ports are colored to differentiate type of port:"
-msgstr ""
-
 msgid "scalar"
 msgstr "scalaire"
 
-#, fuzzy
-msgid "vector"
-msgstr "vector2"
-
 msgid "boolean"
 msgstr "boolean"
-
-#, fuzzy
-msgid "transform"
-msgstr "transform2d"
-
-#, fuzzy
-msgid "sampler"
-msgstr "simple"
-
-#, fuzzy
-msgid "Port types"
-msgstr "Types cœur"
 
 msgid "Type"
 msgstr "Type"
@@ -258,15 +201,8 @@ msgstr "Description"
 msgid "Example"
 msgstr "Exemple"
 
-#, fuzzy
-msgid "Scalar"
-msgstr "Mode mise à l'échelle"
-
 msgid "Cyan"
 msgstr "Cyan"
-
-msgid "Scalar is a single value."
-msgstr ""
 
 msgid "|scalar|"
 msgstr "|scalaire|"
@@ -277,65 +213,14 @@ msgstr "Vecteur"
 msgid "Purple"
 msgstr "Violet"
 
-msgid "Vector is a set of values."
-msgstr ""
-
-#, fuzzy
-msgid "|vector|"
-msgstr "vector2"
-
-#, fuzzy
-msgid "Boolean"
-msgstr "boolean"
-
 msgid "Blue"
 msgstr "Bleu"
-
-msgid "On or off, true or false."
-msgstr ""
-
-#, fuzzy
-msgid "|boolean|"
-msgstr "boolean"
 
 msgid "Transform"
 msgstr "Transformation"
 
-#, fuzzy
-msgid "Orange"
-msgstr "Modifications"
-
-#, fuzzy
-msgid "A matrix, usually used to transform vertices."
-msgstr "Matrice 3x2 utilisée pour les transformations 2D."
-
-#, fuzzy
-msgid "|transform|"
-msgstr "transform2d"
-
-#, fuzzy
-msgid "Sampler"
-msgstr "Sampler2D"
-
 msgid "Yellow"
 msgstr "Jaune"
-
-msgid "A texture sampler. It can be used to sample textures."
-msgstr ""
-
-#, fuzzy
-msgid "|sampler|"
-msgstr "Sampler2D"
-
-msgid ""
-"All of the types are used in the calculations of vertices, fragments, and "
-"lights in the shader. For example: matrix multiplication, vector addition, "
-"or scalar division."
-msgstr ""
-
-#, fuzzy
-msgid "There are other types but these are the main ones."
-msgstr "Il existe deux endroits où les modèles peuvent être gérés."
 
 msgid "Visual Shader nodes"
 msgstr "Nœuds Visual Shader"

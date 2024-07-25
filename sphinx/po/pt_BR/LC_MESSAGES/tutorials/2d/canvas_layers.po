@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,28 +30,6 @@ msgstr ""
 "a base para todos os nós 2D. CanvasItems podem ser organizados em árvores. "
 "Cada item herdará a transformação de seu pai. Isso significa que quando o "
 "pai é movido, os filhos também se movem."
-
-#, fuzzy
-msgid ""
-"CanvasItem nodes, and nodes inheriting from them, are direct or indirect "
-"children of a :ref:`Viewport <class_Viewport>`, that displays them."
-msgstr ""
-"Os nós CanvasItem, e nós herdados deles, são filhos diretos ou indiretos de "
-"uma :ref:`Viewport <class_Viewport>`, e serão exibidos através dela."
-
-#, fuzzy
-msgid ""
-"The Viewport's property :ref:`Viewport.canvas_transform "
-"<class_Viewport_property_canvas_transform>`, allows to apply a custom :ref:"
-"`Transform2D <class_Transform2D>` transform to the CanvasItem hierarchy it "
-"contains. Nodes such as :ref:`Camera2D <class_Camera2D>` work by changing "
-"that transform."
-msgstr ""
-"Uma Viewport tem a propriedade :ref:`Viewport.canvas_transform "
-"<class_Viewport_property_canvas_transform>`, que permite aplicar uma "
-"transformação personalizada :ref:`Transform2D <class_Transform2D>` à "
-"hierarquia CanvasItem que a contém. Nós como :ref:`Camera2D "
-"<class_Camera2D>` funcionam alterando essa transformação."
 
 msgid ""
 "To achieve effects like scrolling, manipulating the canvas transform "
@@ -98,10 +71,6 @@ msgstr ""
 "**Transições**: Podemos desejar que os efeitos visuais usados para as "
 "transições (fades, misturas) permaneçam em um local fixo na tela."
 
-#, fuzzy
-msgid "How to solve these problems in a single scene tree?"
-msgstr "Como esses problemas podem ser resolvidos em uma única árvore de cena?"
-
 msgid "CanvasLayers"
 msgstr "CanvasLayers"
 
@@ -141,24 +110,6 @@ msgid ""
 msgstr ""
 "CanvasLayers são independentes da ordem da árvore e dependem apenas do "
 "número da camada, portanto, podem ser instanciados quando necessário."
-
-#, fuzzy
-msgid ""
-"CanvasLayers aren't necessary to control the drawing order of nodes. The "
-"standard way to ensuring that a node is correctly drawn 'in front' or "
-"'behind' others is to manipulate the order of the nodes in the scene panel. "
-"Perhaps counterintuitively, the topmost nodes in the scene panel are drawn "
-"on *behind* lower ones in the viewport. 2D nodes also have the :ref:"
-"`CanvasItem.z_index <class_CanvasItem_property_z_index>` property for "
-"controlling their drawing order."
-msgstr ""
-"CanvasLayers não são necessários para controlar a ordem de desenho dos nós. "
-"A maneira padrão de garantir que um nó seja desenhado corretamente 'na "
-"frente' ou 'atrás' dos outros é manipular a ordem dos nós no painel da cena. "
-"Talvez contraintuitivamente, os nós superiores no painel de cena são "
-"desenhados *atrás* dos inferiores na janela de exibição. Os nós 2d também "
-"possuem uma propriedade para controlar sua ordem de desenho (veja :ref:"
-"`Node2D.z_index <class_Node2D_property_z_index>`)."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

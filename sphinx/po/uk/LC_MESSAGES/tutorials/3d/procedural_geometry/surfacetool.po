@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +14,6 @@ msgstr ""
 
 msgid "Using the SurfaceTool"
 msgstr "Використання SurfaceTool"
-
-#, fuzzy
-msgid ""
-"The :ref:`SurfaceTool <class_surfacetool>` provides a useful interface for "
-"constructing geometry. The interface is similar to the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>` class. You set each per-vertex attribute (e.g. "
-"normal, uv, color) and then when you add a vertex it captures the attributes."
-msgstr ""
-":ref:`SurfaceTool <class_surfacetool>`— це зручний інструмент для побудови "
-"геометрії. Принцип роботи з ним схожий до такого в :ref:`ImmediateGeometry "
-"<class_immediategeometry>`. Ви задаєте властивості кожної вершини (нормаль, "
-"текстурні координати, колір) по черзі і потім додана вершина вибере свої "
-"атрибути серед заданих раніше."
 
 msgid ""
 "The SurfaceTool also provides some useful helper functions like ``index()`` "
@@ -91,22 +73,6 @@ msgstr ""
 "``commit_to_arrays()``. Виклик ``generate_normals(true)`` виверне нормалі "
 "навиворіт. Між іншим, ``generate_normals()`` працює лише тоді, коли тип "
 "геометрії заданий як ``Mesh.PRIMITIVE_TRIANGLES``."
-
-#, fuzzy
-msgid ""
-"You may notice that normal mapping or other material properties look broken "
-"on the generated mesh. This is because normal mapping **requires** the mesh "
-"to feature *tangents*, which are separate from *normals*. You can either add "
-"custom tangents manually, or generate them automatically with "
-"``generate_tangents()``. This method requires that each vertex have UVs and "
-"normals set already."
-msgstr ""
-"Ви можете помітити, що відображення нормалей або інші властивості матеріалу "
-"на згенерованому меші виглядають з порушеннями. Це пов'язано з тим, що для "
-"відображення нормалей меша **потрібні** особливі *дотичні*, які відокремлені "
-"від *нормалей*. Ви можете додати власні дотичні вручну, або згенерувати їх "
-"автоматично за допомогою ``generate_tangents()``. Цей метод вимагає, щоб "
-"кожна вершина мала вже встановлені UV і нормалі."
 
 msgid ""
 "By default, when generating normals, they will be calculated on a per-face "

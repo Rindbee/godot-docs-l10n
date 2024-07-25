@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,9 +37,8 @@ msgstr "`Emscripten 3.1.39+ <https://emscripten.org>`__."
 msgid "`Python 3.6+ <https://www.python.org/>`__."
 msgstr "`Python 3.6+ <https://www.python.org/>`__."
 
-#, fuzzy
 msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ build system."
-msgstr "`SCons 3.0+ <https://scons.org/pages/download.html>`__-Buildsystem."
+msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__-Buildsystem."
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -95,7 +89,6 @@ msgstr ""
 "Spezifizieren Sie ``target`` entweder als ``template_release`` für einen "
 "Release-Build oder ``template_debug`` für einen Debug-Build::"
 
-#, fuzzy
 msgid ""
 "By default, the :ref:`JavaScriptBridge singleton "
 "<doc_web_javascript_bridge>` will be built into the engine. Official export "
@@ -103,11 +96,11 @@ msgid ""
 "can be a security concern, the ``javascript_eval`` option can be used to "
 "build without the singleton::"
 msgstr ""
-"Standardmäßig wird das :ref:`JavaScript-Singleton <doc_javascript_eval>` in "
-"die Engine eingebaut. Offizielle Exportvorlagen haben auch das JavaScript-"
-"Singleton aktiviert. Da ``eval()``-Aufrufe ein Sicherheitsproblem darstellen "
-"können, kann die ``javascript_eval``-Option verwendet werden, um ohne das "
-"Singleton zu bauen::"
+"Standardmäßig wird das :ref:`JavaScriptBridge Singleton "
+"<doc_web_javascript_bridge>` in die Engine eingebaut. Offizielle "
+"Exportvorlagen haben auch das JavaScript Singleton aktiviert. Da ``eval()`` "
+"Aufrufe ein Sicherheitsproblem sein können, kann die ``javascript_eval`` "
+"Option verwendet werden, um ohne das Singleton zu bauen::"
 
 msgid ""
 "The engine will now be compiled to WebAssembly by Emscripten. Once finished, "

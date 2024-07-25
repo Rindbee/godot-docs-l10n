@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,9 +14,6 @@ msgstr ""
 
 msgid "WebRTC"
 msgstr "Веб RTC"
-
-msgid "HTML5, WebSocket, WebRTC"
-msgstr ""
 
 msgid ""
 "One of Godot's great features is its ability to export to the HTML5/"
@@ -42,22 +34,6 @@ msgstr ""
 "раніше вони мали певні обмеження. У сфері мереж донедавна браузери "
 "підтримували лише HTTPRequests, коли спочатку в якості стандартів були "
 "запропоновані WebSocket, а потім WebRTC."
-
-msgid "WebSocket"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"When the WebSocket protocol was standardized in December 2011, it allowed "
-"browsers to create stable and bidirectional connections to a WebSocket "
-"server. The protocol is a very powerful tool to send push notifications to "
-"browsers, and has been used to implement chats, turn-based games, etc."
-msgstr ""
-"Коли протокол WebSocket був стандартизований у грудні 2011 року, він "
-"дозволив браузерам створювати стабільні та двонаправлені з’єднання з "
-"сервером WebSocket. Цей протокол досить простий, але дуже потужний, "
-"інструмент для надсилання push-повідомлень у браузери, і його "
-"використовували для реалізації чатів, покрокових ігор тощо."
 
 msgid ""
 "WebSockets, though, still use a TCP connection, which is good for "
@@ -119,36 +95,6 @@ msgstr ""
 msgid "Using WebRTC in Godot"
 msgstr "Використання WebRTC в Godot"
 
-#, fuzzy
-msgid ""
-"WebRTC is implemented in Godot via two main classes :ref:"
-"`WebRTCPeerConnection <class_WebRTCPeerConnection>` and :ref:"
-"`WebRTCDataChannel <class_WebRTCDataChannel>`, plus the multiplayer API "
-"implementation :ref:`WebRTCMultiplayerPeer <class_WebRTCMultiplayerPeer>`. "
-"See section on :ref:`high-level multiplayer <doc_high_level_multiplayer>` "
-"for more details."
-msgstr ""
-"WebRTC реалізовано в Godot через два головні класи :ref:"
-"`WebRTCPeerConnection <class_WebRTCPeerConnection>` та :ref:"
-"`WebRTCDataChannel <class_WebRTCDataChannel>`, а також реалізацію "
-"багатокористувацького API :ref:`WebRTCMultiplayer "
-"<class_WebRTCMultiplayer>`. Додаткову інформацію дивіться у розділі про :ref:"
-"`багатокористувацьку гру високого рівня <doc_high_level_multiplayer>`."
-
-#, fuzzy
-msgid ""
-"These classes are available automatically in HTML5, but **require an "
-"external GDExtension plugin on native (non-HTML5) platforms**. Check out the "
-"`webrtc-native plugin repository <https://github.com/godotengine/webrtc-"
-"native>`__ for instructions and to get the latest `release <https://github."
-"com/godotengine/webrtc-native/releases>`__."
-msgstr ""
-"Ці класи доступні автоматично в HTML5, але **вимагають зовнішнього плагіна "
-"GDNative на рідних (не HTML5) платформах**. Перегляньте `репозиторій "
-"плагінів webrtc-native<https://github.com/godotengine/webrtc-native>`__, для "
-"інструкцій та отримайте останню `версію<https://github.com/godotengine/"
-"webrtc-native/releases>`__."
-
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
 "in the Android export preset before exporting the project or using one-click "
@@ -206,18 +152,6 @@ msgstr "Це надрукує щось подібне до цього:"
 
 msgid "Remote signaling with WebSocket"
 msgstr "Віддалена сигналізація за допомогою WebSocket"
-
-#, fuzzy
-msgid ""
-"A more advanced demo using WebSocket for signaling peers and :ref:"
-"`WebRTCMultiplayerPeer <class_WebRTCMultiplayerPeer>` is available in the "
-"`godot demo projects <https://github.com/godotengine/godot-demo-projects>`_ "
-"under `networking/webrtc_signaling`."
-msgstr ""
-"Більш просунута демонстрація з використанням WebSocket для сигналізаційних "
-"однорангових вузлів та :ref:`WebRTCMultiplayer <class_WebRTCMultiplayer>` "
-"доступна в `демонстраційних проектах godot<https://github.com/godotengine/"
-"godot-demo-projects>`_ у розділі `networking/webrtc_signaling`."
 
 msgid "Translation status"
 msgstr "Стан перекладу"

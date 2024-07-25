@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,7 +151,6 @@ msgstr ""
 "Formaterkennung anhand der Dateierweiterung bis zum Lesen der Datei von der "
 "Festplatte."
 
-#, fuzzy
 msgid ""
 "If you need error handling or more control (such as changing the scale an "
 "SVG is loaded at), use one of the following methods depending on the file "
@@ -246,8 +240,8 @@ msgstr ""
 "Die Methoden mit dem Suffix ``to_buffer`` speichern das Bild in einem "
 "PackedByteArray anstelle des Dateisystems. Dies ist nützlich, um das Bild "
 "über das Netzwerk oder in ein ZIP-Archiv zu senden, ohne es in das "
-"Dateisystem schreiben zu müssen. Dies kann die Leistung durch eine geringere "
-"I/O-Auslastung erhöhen."
+"Dateisystem schreiben zu müssen. Dies kann die Performance durch eine "
+"geringere I/O-Auslastung erhöhen."
 
 msgid ""
 "If displaying the loaded image on a 3D surface, make sure to call :ref:"

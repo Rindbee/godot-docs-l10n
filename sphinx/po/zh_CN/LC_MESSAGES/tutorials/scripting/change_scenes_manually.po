@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +14,6 @@ msgstr ""
 
 msgid "Change scenes manually"
 msgstr "手动更改场景"
-
-#, fuzzy
-msgid ""
-"Sometimes it helps to have more control over how one swaps scenes around. A :"
-"ref:`Viewport <class_Viewport>`'s child nodes will render to the image it "
-"generates, this holds true even for nodes outside of the \"current\" scene. "
-"Autoloads fall into this category, but so do scenes which one instances and "
-"adds to the tree at runtime:"
-msgstr ""
-"有时候, 有必要更好地控制如何交换场景. 如上所述, 一个 :ref:`Viewport "
-"<class_Viewport>` 的子节点将呈现给它生成的图像. 即使对于 \"当前\" 场景之外的"
-"节点, 这也适用. Autoloads属于这一类, 但是一个实例在运行时添加到树中的场景也是"
-"如此:"
 
 msgid ""
 "To complete the cycle and swap out the new scene with the old one, "
@@ -44,7 +26,6 @@ msgstr ""
 "多策略 :ref:`Viewport <class_Viewport>`. 权衡涉及平衡操作速度和内存消耗以及平"
 "衡数据访问和完整性."
 
-#, fuzzy
 msgid ""
 "**We can delete the existing scene.** :ref:`SceneTree.change_scene_to_file() "
 "<class_SceneTree_method_change_scene_to_file>` and :ref:`SceneTree."
@@ -53,11 +34,11 @@ msgid ""
 "main scene though. Assuming the root node's name is \"Main\", one could do "
 "``get_node(\"/root/Main\").free()`` to delete the whole scene."
 msgstr ""
-"**我们可以删除现有场景.** :ref:`SceneTree.change_scene() "
-"<class_SceneTree_method_change_scene>` 和 :ref:`SceneTree.change_scene_to() "
-"<class_SceneTree_method_change_scene_to>` 会立即删除当前场景. 不过开发者也可"
-"以删除主场景. 假设根节点的名字是 \"Main\", 可以执行 ``get_node(\"/root/"
-"Main\").free()`` 来删除整个场景."
+"**我们可以删除现有的场景。**\\ :ref:`SceneTree.change_scene_to_file() "
+"<class_SceneTree_method_change_scene_to_file>` 和 :ref:`SceneTree."
+"change_scene_to_packed() <class_SceneTree_method_change_scene_to_packed>` 都"
+"会立即删除当前场景。当然开发者也可以删除主场景。比如根节点的名称为“Main”的"
+"话，\\ ``get_node(\"/root/Main\").free()`` 就可以删除整个场景。"
 
 msgid "Unloads memory."
 msgstr "卸载内存."
@@ -118,12 +99,12 @@ msgstr "好处: 如果需要, 仍然可以访问数据."
 msgid "Pro: There's no need to move any more nodes around to save data."
 msgstr "好处: 无需再移动任何节点来保存数据."
 
-#, fuzzy
 msgid ""
 "Con: More data is being kept in memory which will become a problem on memory-"
 "sensitive platforms like web or mobile."
 msgstr ""
-"坏处: 更多数据被保存在内存中, 这将成为对内存敏感平台(如Web或移动设备)的问题."
+"坏处：内存中需要保留更多的数据，在 Web、移动设备等内存比较紧张的平台上可能会"
+"造成一些问题。"
 
 msgid "Processing continues."
 msgstr "处理继续."
@@ -184,26 +165,24 @@ msgstr ""
 "或其他通过访问 :ref:`SceneTree <class_SceneTree>` 才能得到的数据，则它将变为"
 "陈旧。"
 
-#, fuzzy
 msgid ""
 "There are also cases where one may wish to have many scenes present at the "
 "same time. Perhaps one is adding their own singleton at runtime, or "
 "preserving a scene's data between scene changes (adding the scene to the "
 "root node)."
 msgstr ""
-"在有些情况下, 人们可能希望有许多场景同时存在. 也许人们在运行时添加他们自己的"
-"单例, 或者在场景变化之间保留一个场景的数据(将场景添加到根节点)."
+"有些情况下，也会有人想要同时显示多个场景。比如需要在运行时添加单例场景，或者"
+"是需要在场景切换后保持某个场景的数据（将这个场景添加到根节点）。"
 
-#, fuzzy
 msgid ""
 "Perhaps instead they wish to display multiple scenes at the same time using :"
 "ref:`SubViewportContainers <class_SubViewportContainer>`. This is optimal in "
 "cases where the intent is to render different content in different parts of "
 "the screen. Minimaps and split-screen multiplayer are good examples."
 msgstr ""
-"也许他们希望使用 :ref:`ViewportContainers <class_ViewportContainer>` 来同时显"
-"示多个场景。这意图是在屏幕的不同部分渲染不同内容的情况下是最理想的。迷你地图"
-"和多人分屏游戏就是很好的例子。"
+"也有可能是想要使用 :ref:`SubViewportContainer <class_SubViewportContainer>` "
+"来同时显示多个场景。如果你想要的就是在屏幕上的不同区域渲染不同的内容的话，这"
+"确实不失为一种最优解。比如小地图和分屏形式的多人游戏里就会用到这种做法。"
 
 msgid ""
 "Each option will have cases where it is best appropriate, so one must "

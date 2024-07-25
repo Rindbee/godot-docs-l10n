@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Running Godot apps on macOS"
-msgstr "Работает на macOS"
-
-msgid ""
-"This page covers running Godot projects on macOS. If you haven't exported "
-"your project yet, read :ref:`doc_exporting_for_macos` first."
-msgstr ""
-
 msgid ""
 "By default, macOS will run only applications that are signed and notarized."
 msgstr ""
 "По умолчанию macOS будет запускать только подписанные и нотариально "
 "заверенные приложения."
-
-msgid ""
-"When running an app from the Downloads folder or when still in quarantine, "
-"Gatekeeper will perform *path randomization* as a security measure. This "
-"breaks access to relative paths from the app, which the app relies upon to "
-"work. To resolve this issue, move the app to the ``/Applications`` folder."
-msgstr ""
-
-msgid ""
-"In general, macOS apps should avoid relying on relative paths from the "
-"application folder."
-msgstr ""
 
 msgid ""
 "Depending on the way a macOS app is signed and distributed, the following "
@@ -97,16 +71,6 @@ msgstr ""
 "Если вы видите следующее диалоговое окно с предупреждением, ваш Mac настроен "
 "так, чтобы разрешать использование приложений только из App Store."
 
-#, fuzzy
-msgid ""
-"To allow third-party apps, open ``System Preferences``, click ``Security & "
-"Privacy``, then click ``General``, unlock settings, and select ``App Store "
-"and identified developers``."
-msgstr ""
-"Чтобы разрешить сторонние приложения, откройте ``System Preferences``, "
-"нажмите ``Security & Privacy``, затем нажмите ``General``, разблокируйте "
-"настройки и выберите ``App Store and identified developers``."
-
 msgid "App is signed (including ad-hoc signatures) but not notarized"
 msgstr ""
 "Приложение подписано (включая специальные подписи), но не нотариально "
@@ -143,19 +107,6 @@ msgstr "Затем нажмите «Открыть» в диалоговом о�
 msgid "Enter your password if you're prompted."
 msgstr "Введите свой пароль, если вам будет предложено."
 
-msgid ""
-"Another option is to disable Gatekeeper entirely. Note that this does "
-"decrease the security of your computer by allowing you to run any software "
-"you want. To do this, run ``sudo spctl --master-disable`` in the Terminal, "
-"enter your password, and then the **Anywhere** option will be available:"
-msgstr ""
-
-msgid "Note that Gatekeeper will re-enable itself when macOS updates."
-msgstr ""
-
-msgid "App is not signed, executable is linker-signed"
-msgstr ""
-
 msgid "App is built using official export templates, but it is not signed."
 msgstr ""
 "Приложение создано с использованием официальных шаблонов экспорта, но не "
@@ -167,10 +118,6 @@ msgid ""
 msgstr ""
 "Чтобы запустить это приложение, вы должны удалить атрибут расширенного файла "
 "карантина вручную:"
-
-msgid ""
-"Open ``Terminal.app`` (press :kbd:`Cmd + Space` and enter ``Terminal``)."
-msgstr ""
 
 msgid "Navigate to the folder containing the target application."
 msgstr "Перейдите в папку, содержащую целевое приложение."
@@ -190,10 +137,6 @@ msgstr ""
 "(включая кавычки и расширение ``.app``)."
 
 msgid ""
-"Neither app nor executable is signed (relevant for Apple Silicon Macs only)"
-msgstr ""
-
-msgid ""
 "App is built using custom export templates, compiled using OSXCross, and it "
 "is not signed at all."
 msgstr ""
@@ -204,18 +147,6 @@ msgid "To run this app, you can ad-hoc sign it yourself:"
 msgstr ""
 "Чтобы запустить это приложение, вы можете для данного случая подписать его "
 "самостоятельно:"
-
-#, fuzzy
-msgid ""
-"Install ``Xcode`` for the App Store, start it and confirm command line tools "
-"installation."
-msgstr ""
-"Установите ``Xcode`` для App Store, запустите его и подтвердите установку "
-"инструментов командной строки."
-
-#, fuzzy
-msgid "Run the following commands:"
-msgstr "В следующем примере:"
 
 msgid ""
 "``xattr -dr com.apple.quarantine \"Unsigned Game.app\"`` (including "

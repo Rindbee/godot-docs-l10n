@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,11 +150,6 @@ msgstr ""
 "Используйте одну пустую строку внутри функций для отделения логических "
 "частей друг от друга."
 
-msgid ""
-"We use a single line between classes and function definitions in the class "
-"reference and in short code snippets in this documentation."
-msgstr ""
-
 msgid "Line length"
 msgstr "Длина строки"
 
@@ -177,11 +167,6 @@ msgstr ""
 
 msgid "One statement per line"
 msgstr "Одно выражение на строку"
-
-msgid ""
-"Avoid combining multiple statements on a single line, including conditional "
-"statements, to adhere to the GDScript style guidelines for readability."
-msgstr ""
 
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "Единственным исключением из этого правила является тернарный оператор:"
@@ -252,10 +237,6 @@ msgstr "Используйте `` and`` вместо `` && ``."
 msgid "Use ``or`` instead of ``||``."
 msgstr "Используйте ``or`` вместо ``||``."
 
-#, fuzzy
-msgid "Use ``not`` instead of ``!``."
-msgstr "Используйте ``or`` вместо ``||``."
-
 msgid ""
 "You may also use parentheses around boolean operators to clear any "
 "ambiguity. This can make long expressions easier to read."
@@ -266,42 +247,8 @@ msgstr ""
 msgid "Comment spacing"
 msgstr "Интервал в комментариях"
 
-msgid ""
-"Regular comments (``#``) and documentation comments (``##``) should start "
-"with a space, but not code that you comment out. Additionally, code region "
-"comments (``#region``/``#endregion``) must follow that precise syntax, so "
-"they should not start with a space."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Using a space for regular and documentation comments helps differentiate "
-"text comments from disabled code."
-msgstr ""
-"Обычные комментарии должны начинаться с пробела, но не с кода, который вы "
-"комментируете. Это помогает отличить текстовые комментарии от отключенного "
-"кода."
-
-#, fuzzy
-msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
-msgstr ""
-"В редакторе скриптов, чтобы закомментировать выбранный код, нажмите :kbd:"
-"`Ctrl + K`. Это добавит один символ # в начале выбранных строк."
-
 msgid "Whitespace"
 msgstr "Пробел"
-
-msgid ""
-"Always use one space around operators and after commas. Also, avoid extra "
-"spaces in dictionary references and function calls. One exception to this is "
-"for single-line dictionary declarations, where a space should be added after "
-"the opening brace and before the closing brace. This makes the dictionary "
-"easier to visually distinguish from an array, as the ``[]`` characters look "
-"close to ``{}`` with most fonts."
-msgstr ""
 
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "Не используйте пробелы для вертикального выравнивания выражений:"
@@ -421,12 +368,6 @@ msgstr ""
 "Используйте PascalCase для имен перечислений и CONSTANT\\_CASE для их "
 "значений, поскольку они являются константами:"
 
-msgid ""
-"Write enums with each item on its own line. This allows adding documentation "
-"comments abve each item more easily, and also makes for cleaner diffs in "
-"version control when items are added or removed."
-msgstr ""
-
 msgid "Code order"
 msgstr "Порядок кода"
 
@@ -474,42 +415,6 @@ msgstr ""
 msgid "Class declaration"
 msgstr "Объявление класса"
 
-#, fuzzy
-msgid ""
-"If the code is meant to run in the editor, place the ``@tool`` annotation on "
-"the first line of the script."
-msgstr ""
-"Если код предназначен для запуска в редакторе, поместите ключевое слово `` "
-"tool`` в первую строку скрипта."
-
-#, fuzzy
-msgid ""
-"Follow with the ``class_name`` if necessary. You can turn a GDScript file "
-"into a global type in your project using this feature. For more information, "
-"see :ref:`doc_gdscript`."
-msgstr ""
-"При необходимости используйте `class_name`. С помощью этого свойства вы "
-"можете превратить файл GDScript в глобальный тип вашего проекта. Для "
-"получения дополнительной информации см.:ref:`doc_gdscript`."
-
-#, fuzzy
-msgid "Then, add the ``extends`` keyword if the class extends a built-in type."
-msgstr ""
-"Теперь, добавьте ключевое слово `extends`, если класс расширяет встроенный "
-"тип."
-
-#, fuzzy
-msgid ""
-"Following that, you should have the class's optional :ref:`documentation "
-"comments <doc_gdscript_documentation_comments>`. You can use that to explain "
-"the role of your class to your teammates, how it works, and how other "
-"developers should use it, for example."
-msgstr ""
-"После этого, у вас должны быть строки документации (docstring) класса в виде "
-"комментариев. Вы можете использовать их, например, чтобы объяснить вашим "
-"товарищам по команде роль класса, как он работает и как другим разработчикам "
-"следует использовать его."
-
 msgid "Signals and properties"
 msgstr "Сигналы и свойства"
 
@@ -533,17 +438,6 @@ msgid ""
 msgstr ""
 "Затем, пишите константы, экспортированные переменные, модификаторы public, "
 "private, и инициализированные переменные, в таком порядке."
-
-msgid ""
-"The GDScript compiler evaluates onready variables right before the "
-"``_ready`` callback. You can use that to cache node dependencies, that is to "
-"say, to get child nodes in the scene that your class relies on. This is what "
-"the example above shows."
-msgstr ""
-"Компилятор GDScript вычисляет инициализированные переменные прямо перед "
-"обратным вызовом``_ready``. Вы можете использовать это для кэширования "
-"зависимости узлов, иными словами, получить дочерние узлы в сцене, на которую "
-"опирается ваш класс. Пример выше показывает это."
 
 msgid "Member variables"
 msgstr "Переменные-члены"
@@ -632,30 +526,6 @@ msgstr ""
 
 msgid "Inferred types"
 msgstr "Определяемые типы"
-
-msgid ""
-"In most cases you can let the compiler infer the type, using ``:=``. Prefer "
-"``:=`` when the type is written on the same line as the assignment, "
-"otherwise prefer writing the type explicitly."
-msgstr ""
-
-msgid ""
-"Include the type hint when the type is ambiguous, and omit the type hint "
-"when it's redundant."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In some cases, the type must be stated explicitly, otherwise the behavior "
-"will not be as expected because the compiler will only be able to use the "
-"function's return type. For example, ``get_node()`` cannot infer a type "
-"unless the scene or file of the node is loaded in memory. In this case, you "
-"should set the type explicitly."
-msgstr ""
-"В случаях, когда контекст отсутствует — компилятор прерывает работу и "
-"указывает на неверный возвращаемый тип функции. К примеру, ``get_node()`` не "
-"может вывести тип, если сцена или файл узла не прогружены. В этом случае, "
-"задайте тип явно."
 
 msgid ""
 "Alternatively, you can use the ``as`` keyword to cast the return type, and "

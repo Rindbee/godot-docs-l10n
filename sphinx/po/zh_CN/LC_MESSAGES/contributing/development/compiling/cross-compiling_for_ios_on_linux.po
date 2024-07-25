@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,83 +15,11 @@ msgstr ""
 msgid "Cross-compiling for iOS on Linux"
 msgstr "在 Linux 平台上为 iOS 做交叉编译"
 
-#, fuzzy
-msgid ""
-"The procedure for this is somewhat complex and requires a lot of steps, but "
-"once you have the environment properly configured you can compile Godot for "
-"iOS anytime you want."
-msgstr ""
-"此过程有些复杂, 需要很多步骤, 但只要你正确配置了环境, 就可以随时随地轻松为iOS"
-"编译Godot."
-
 msgid "Disclaimer"
 msgstr "免责声明"
 
-#, fuzzy
-msgid ""
-"While it is possible to compile for iOS on a Linux environment, Apple is "
-"very restrictive about the tools to be used (especially hardware-wise), "
-"allowing pretty much only their products to be used for development. So this "
-"is **not official**. However, in 2010 Apple said they relaxed some of the "
-"`App Store review guidelines <https://developer.apple.com/app-store/review/"
-"guidelines/>`__ to allow any tool to be used, as long as the resulting "
-"binary does not download any code, which means it should be OK to use the "
-"procedure described here and cross-compiling the binary."
-msgstr ""
-"尽管可以在 Linux 环境上为 iOS 进行编译，但是 Apple 对要使用的工具有严格的限制"
-"（特别是硬件方面），几乎只允许将其产品用于开发。因此，这是\\ **非官方的"
-"**\\ 。然而，\\ `2010 年 Apple 的声明 <http://www.apple.com/pr/"
-"library/2010/09/09Statement-by-Apple-on-App-Store-Review-Guidelines."
-"html>`__\\ 表示放宽了一些\\ `App Store 审核指南 <https://developer.apple.com/"
-"app-store/review/guidelines/>`__\\ ，允许使用任何工具，只要生成的二进制文件不"
-"下载任何代码，这意味着可以使用此处描述的过程并交叉编译二进制文件。"
-
 msgid "Requirements"
 msgstr "需求"
-
-#, fuzzy
-msgid ""
-"`XCode with the iOS SDK <https://developer.apple.com/xcode/download>`__ (a "
-"dmg image, for newer versions a **xip** file is going to be downloaded.)"
-msgstr ""
-"`带iOS SDK的XCode <https://developer.apple.com/xcode/download>`__ (dmg镜像)"
-
-#, fuzzy
-msgid ""
-"`Clang >= 3.5 <https://clang.llvm.org>`__ for your development machine "
-"installed and in the ``PATH``. It has to be version >= 3.5 to target "
-"``arm64`` architecture."
-msgstr ""
-"`Clang >= 3.5 <http://clang.llvm.org>`__ 用于已安装的开发机器并位于 ``PATH`` "
-"中. 它的版本必须是 >= 3.5 , 才能用于 ``arm64`` 体系结构."
-
-#, fuzzy
-msgid ""
-"`Fuse <https://github.com/libfuse/libfuse>`__ for mounting and unmounting "
-"the dmg image."
-msgstr "`Fuse <https://github.com/libfuse/libfuse>`__ 用于安装和卸载dmg映像."
-
-msgid ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__, which needs to "
-"be built from source. The procedure for that is explained below."
-msgstr ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__, 需要从源码构建. "
-"下面说明其过程."
-
-msgid ""
-"For newer versions you should download `xar <https://mackyle.github.io/xar/"
-">`__ and `pbzx <https://github.com/NiklasRosenstein/pbzx>`__."
-msgstr ""
-
-msgid ""
-"For building darling-dmg, you'll need the development packages of the "
-"following libraries: fuse, icu, openssl, zlib, bzip2."
-msgstr "要构建darling-dmg, 你需要以下库的开发包:fuse,icu,openssl,zlib,bzip2."
-
-msgid ""
-"For building xar and pbzx you may want to follow `this guide <https://gist."
-"github.com/phracker/1944ce190e01963c550566b749bd2b54>`__."
-msgstr ""
 
 msgid ""
 "`cctools-port <https://github.com/tpoechtrager/cctools-port>`__ for the "
@@ -112,34 +35,11 @@ msgstr "这也有一些额外的依赖:automake,autogen,libtool."
 msgid "Configuring the environment"
 msgstr "配置环境"
 
-msgid "darling-dmg"
-msgstr "darling-dmg"
-
-msgid "Clone the repository on your machine:"
-msgstr "在你的机器上克隆该仓库："
-
-msgid "Build it:"
-msgstr "构建它："
-
 msgid "Preparing the SDK"
 msgstr "准备 SDK"
 
-msgid "Mount the XCode image:"
-msgstr "挂载 XCode 镜像："
-
-msgid "For newer versions you should extract the **xip** file:"
-msgstr ""
-
-msgid ""
-"Note that for the commands below, you may need to replace the version (`X."
-"x`) with whatever iOS SDK version you're using."
-msgstr ""
-
 msgid "Extract the iOS SDK:"
 msgstr "解压缩 iOS SDK："
-
-msgid "Pack the SDK:"
-msgstr "打包 SDK："
 
 msgid "Toolchain"
 msgstr "工具链"
@@ -156,12 +56,6 @@ msgstr ""
 "将工具复制到更好的位置. 请注意, 用于构建的SCons脚本将在你为工具链二进制文件提"
 "供的目录中的 ``usr/bin`` 下查找, 因此, 你必须复制到这样的子目录, 类似于以下命"
 "令:"
-
-msgid ""
-"Now you should have the iOS toolchain binaries in ``/home/user/iostoolchain/"
-"usr/bin``."
-msgstr ""
-"现在你应该在 ``/home/user/iostoolchain/usr/bin`` 中拥有iOS工具链二进制文件."
 
 msgid "Compiling Godot for iPhone"
 msgstr "为 iPhone 编译 Godot"

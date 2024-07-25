@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,28 +23,6 @@ msgstr ""
 "stratégie Y ou Z ? Cet article couvre une grande variété de sujets relatifs "
 "à ce dilemme."
 
-msgid "Adding nodes and changing properties: which first?"
-msgstr ""
-
-msgid ""
-"When initializing nodes from a script at runtime, you may need to change "
-"properties such as the node's name or position. A common dilemma is, when "
-"should you change those values?"
-msgstr ""
-
-msgid ""
-"It is the best practice to change values on a node before adding it to the "
-"scene tree. Some property's setters have code to update other corresponding "
-"values, and that code can be slow! For most cases, this code has no impact "
-"on your game's performance, but in heavy use cases such as procedural "
-"generation, it can bring your game to a crawl."
-msgstr ""
-
-msgid ""
-"For these reasons, it is always a best practice to set the initial values of "
-"a node before adding it to the scene tree."
-msgstr ""
-
 msgid "Loading vs. preloading"
 msgstr "Chargement vs préchargement"
 
@@ -63,23 +36,6 @@ msgstr ""
 "<class_@GDScript_method_preload>`. elle charge les ressources le plus tôt "
 "possible pour charger en amont les opérations de \"chargement\" et éviter de "
 "charger les ressources au milieu d'un code sensible aux performances."
-
-#, fuzzy
-msgid ""
-"Its counterpart, the :ref:`load <class_@GDScript_method_load>` method, loads "
-"a resource only when it reaches the load statement. That is, it will load a "
-"resource in-place which can cause slowdowns when it occurs in the middle of "
-"sensitive processes. The ``load()`` function is also an alias for :ref:"
-"`ResourceLoader.load(path) <class_ResourceLoader_method_load>` which is "
-"accessible to *all* scripting languages."
-msgstr ""
-"Son homologue, la méthode :ref:`load <class_@GDScript_method_load>`, ne "
-"charge une ressource que lorsqu'elle atteint l'instruction load. C'est-à-"
-"dire qu'elle chargera immédiatement une ressource, ce qui peut provoquer des "
-"ralentissements lorsque ceci se produit au milieu de processus sensibles. La "
-"fonction ``load`` est également un alias pour :ref:`ResourceLoader."
-"load(path) <class_ResourceLoader_method_load>` qui est accessible à *tous* "
-"les langages de script."
 
 msgid ""
 "So, when exactly does preloading occur versus loading, and when should one "
@@ -131,37 +87,6 @@ msgstr ""
 "meilleure solution. Cependant, dans des cas exceptionnels, il n'est pas "
 "souhaitable de le faire :"
 
-#, fuzzy
-msgid ""
-"If the 'imported' class is liable to change, then it should be a property "
-"instead, initialized either using an ``export`` or a ``load()`` (and perhaps "
-"not even initialized until later)."
-msgstr ""
-"Si la classe 'importée' est susceptible de changer, alors elle devrait être "
-"une propriété, initialisée soit à l'aide d'un ``export`` ou d'un ``load`` "
-"(et peut-être même pas initialisée tout de suite)."
-
-#, fuzzy
-msgid ""
-"If the script requires a great many dependencies, and one does not wish to "
-"consume so much memory, then one may wish to, load and unload various "
-"dependencies at runtime as circumstances change. If one preloads resources "
-"into constants, then the only way to unload these resources would be to "
-"unload the entire script. If they are instead loaded properties, then one "
-"can set them to ``null`` and remove all references to the resource entirely "
-"(which, as a :ref:`RefCounted <class_RefCounted>`-extending type, will cause "
-"the resources to delete themselves from memory)."
-msgstr ""
-"Si le script requiert beaucoup de dépendances, et que vous ne souhaitez pas "
-"utiliser autant de mémoire, alors vous pourriez vouloir charger et décharger "
-"ces ressources au cours de l'exécution selon l'évolution des circonstances. "
-"Si on précharge les ressources comme des constantes, alors la seule manière "
-"de les décharger serait de décharger le script entier. Si elles sont en "
-"revanche des propriétés chargées, alors on peut les définir comme ``null`` "
-"et retirer entièrement toutes les références à la ressource (ce qui, en tant "
-"que type héritant de  :ref:`Reference <class_Reference>`, causera la "
-"suppression des ressources de la mémoire)."
-
 msgid "Large levels: static vs. dynamic"
 msgstr "Grands niveaux : statique vs dynamique"
 
@@ -173,17 +98,6 @@ msgstr ""
 "Dans le cadre de la création d'un niveau de grande taille, quelle solution "
 "est la plus appropriée ? Créer le niveau d'une seule pièce, ou bien scinder "
 "ce niveau en fragments qui seront chargés au fur et à mesure des besoins ?"
-
-#, fuzzy
-msgid ""
-"Well, the simple answer is, \"when the performance requires it.\" The "
-"dilemma associated with the two options is one of the age-old programming "
-"choices: does one optimize memory over speed, or vice versa?"
-msgstr ""
-"La réponse est simple, \"quand les performances le nécessitent\". Le dilemme "
-"dont il est question ici est l'un des plus vieux dans le choix du type de "
-"programmation : doit-on privilégier l'optimisation de la mémoire sur celle "
-"de la vitesse, et inversement ?"
 
 msgid ""
 "The naive answer is to use a static level that loads everything at once. "

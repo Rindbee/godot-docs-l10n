@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,21 +121,6 @@ msgid ""
 msgstr ""
 "增加了幾行具體的內容. ``MainPanel`` 是一個常數, 持有對場景的引用, 我們將其產"
 "生實體為 `main_panel_instance`."
-
-#, fuzzy
-msgid ""
-"The ``_enter_tree()`` function is called before ``_ready()``. This is where "
-"we instance the main panel scene, and add them as children of specific parts "
-"of the editor. We use ``EditorInterface.get_editor_main_screen()`` to obtain "
-"the main editor screen and add our main panel instance as a child to it. We "
-"call the ``_make_visible(false)`` function to hide the main panel so it "
-"doesn't compete for space when first activating the plugin."
-msgstr ""
-"``_enter_tree()`` 函式在 ``_ready()`` 之前被呼叫. 這是產生實體主面板場景的地"
-"方, 並將其新增為編輯器特定部分的子節點. 使用 ``get_editor_interface()."
-"get_editor_viewport()`` 來獲取視口, 並將主面板實例作為子節點加入其中. 呼叫 "
-"``make_visible(false)`` 函式來隱藏主面板, 這樣在第一次啟動外掛程式時就不會佔"
-"用空間."
 
 msgid ""
 "The ``_exit_tree()`` function is called when the plugin is deactivated. If "

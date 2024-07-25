@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -407,34 +402,11 @@ msgstr ""
 "於怪物上方。"
 
 msgid ""
-"After handling the squash and bounce logic, we terminate the loop early via "
-"the ``break`` statement to prevent further duplicate calls to ``mob."
-"squash()``, which may otherwise result in unintended bugs such as counting "
-"the score multiple times for one kill."
-msgstr ""
-
-msgid ""
 "We are calling one undefined function, ``mob.squash()``, so we have to add "
 "it to the Mob class."
 msgstr ""
 "我們呼叫了一個尚未定義的函式 ``mob.squash()``。所以我們需要把它加入到 Mob 類"
 "中。"
-
-msgid ""
-"Open the script ``Mob.gd`` by double-clicking on it in the *FileSystem* "
-"dock. At the top of the script, we want to define a new signal named "
-"``squashed``. And at the bottom, you can add the squash function, where we "
-"emit the signal and destroy the mob."
-msgstr ""
-"在*檔案系統*面板中按兩下打開 ``Mob.gd`` 腳本。在腳本頂部，我們要定義一個新的"
-"訊號叫作 ``squashed``（被踩扁）。你可以在底部新增 squash 函式，在裡面發出這個"
-"訊號並銷毀這個小怪。"
-
-msgid ""
-"When using C#, Godot will create the appropriate events automatically for "
-"all Signals ending with `EventHandler`, see :ref:`C# Signals "
-"<doc_c_sharp_signals>`."
-msgstr ""
 
 msgid "We will use the signal to add points to the score in the next lesson."
 msgstr "下一節課中，我們會使用這個訊號來加分數。"

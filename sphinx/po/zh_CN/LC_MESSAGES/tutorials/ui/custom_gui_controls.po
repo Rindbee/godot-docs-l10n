@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,17 +46,6 @@ msgstr ""
 msgid "Checking control size"
 msgstr "检查控件的大小"
 
-#, fuzzy
-msgid ""
-"Unlike 2D nodes, \"size\" is important with controls, as it helps to "
-"organize them in proper layouts. For this, the :ref:`Control.size "
-"<class_Control_property_size>` property is provided. Checking it during "
-"``_draw()`` is vital to ensure everything is kept in-bounds."
-msgstr ""
-"与2D节点不同,\"size\" 对控件很重要, 因为它有助于在适当的布局中组织它们. 为"
-"此, 我们提供了 :ref:`Control.rect_size <class_Control_property_rect_size>` 属"
-"性. 在 ``_draw()`` 中检查它以确保所有东西都在范围之内."
-
 msgid "Checking focus"
 msgstr "检查输入焦点"
 
@@ -99,14 +83,6 @@ msgstr ""
 "<class_VBoxContainer>` , 最小尺寸将确保你的自定义控件不会被容器中的其他控件挤"
 "压."
 
-#, fuzzy
-msgid ""
-"To provide this callback, just override :ref:`Control._get_minimum_size() "
-"<class_Control_private_method__get_minimum_size>`, for example:"
-msgstr ""
-"要提供此回调, 只需重写 :ref:`Control.get_minimum_size() "
-"<class_Control_method_get_minimum_size>` , 例如:"
-
 msgid "Alternatively, set it using a function:"
 msgstr "或者, 使用函数进行设置:"
 
@@ -142,15 +118,6 @@ msgid ""
 msgstr ""
 "控件通过以下方式提供键盘和手柄焦点 :ref:`Control.focus_mode "
 "<class_Control_property_focus_mode>`."
-
-#, fuzzy
-msgid ""
-"This function is :ref:`Control._gui_input() "
-"<class_Control_private_method__gui_input>`. Simply override it in your "
-"control. No processing needs to be set."
-msgstr ""
-"这个函数 :ref:`Control._gui_input() <class_Control_method__gui_input>` . 只需"
-"在你的控件中重写它. 不需要设置处理."
 
 msgid ""
 "For more information about events themselves, check the :ref:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,17 +45,6 @@ msgstr ""
 "如果你不習慣看文字而比較習慣看影片的話，不妨看一下 :ref:`《教學與資源》 "
 "<doc_community_tutorials>` 中由社群成員貢獻的影片教學。如果你習慣看文字， :"
 "ref:`開始 <doc_getting_started_intro>` 會是學習 Godot 不錯的起點。"
-
-#, fuzzy
-msgid ""
-"In case you have trouble with one of the tutorials or your project, you can "
-"find help on the various :ref:`Community channels <doc_community_channels>`, "
-"especially the Godot `Discord`_ community and `Forum <https://forum."
-"godotengine.org/>`_."
-msgstr ""
-"若在某篇教學或專案上遇到問題，可以在各個 :ref:`社群頻道"
-"<doc_community_channels>` 中尋求幫忙，尤其是 Godot Discord 社群、Q&A，與 "
-"IRC。"
 
 msgid "About Godot Engine"
 msgstr "關於 Godot Engine"

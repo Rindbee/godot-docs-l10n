@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,12 +39,11 @@ msgstr ""
 "Klicken Sie auf den **Instanz**-Button (dargestellt durch ein Kettenglied-"
 "Icon) und wählen Sie Ihre gespeicherte ``player.tscn`` aus."
 
-#, fuzzy
 msgid ""
 "Now, add the following nodes as children of ``Main``, and name them as shown:"
 msgstr ""
 "Fügen Sie nun die folgenden Nodes als Child-Elemente von ``Main`` hinzu und "
-"benenne sie wie abgebildet (Werte sind in Sekunden):"
+"benenne sie wie abgebildet:"
 
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
@@ -79,13 +73,12 @@ msgstr ""
 ":ref:`Marker2D <class_Marker2D>` (namens ``StartPosition``) - um die "
 "Startposition des Spielers anzugeben"
 
-#, fuzzy
 msgid ""
 "Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
 "(values are in seconds):"
 msgstr ""
 "Stellen Sie die Eigenschaft ``Wartezeit`` von jedem der ``Timer`` Nodes wie "
-"folgt ein:"
+"folgt ein (Werte sind in Sekunden):"
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``: ``0.5``"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,16 +37,6 @@ msgid ""
 msgstr ""
 "C# 是由 Microsoft 開發的高級程式設計語言。在 Godot 中，它是使用 .NET 6.0 實作"
 "的。"
-
-#, fuzzy
-msgid ""
-"Projects written in C# using Godot 4 currently cannot be exported to the web "
-"platform. To use C# on the web platform, consider Godot 3 instead. Android "
-"and iOS platform support is available as of Godot 4.2, but is experimental "
-"and :ref:`some limitations apply <doc_c_sharp_platforms>`."
-msgstr ""
-"使用 Godot 4 以 C# 編寫的專案目前無法匯出到 Web。若要在 Web 平台上使用 C#，請"
-"改用 Godot 3。"
 
 msgid ""
 "This is **not** a full-scale tutorial on the C# language as a whole. If you "
@@ -194,30 +179,6 @@ msgstr ""
 "如果你使用的是 Linux，需要安裝 `Mono SDK <https://www.mono-project.com/"
 "download/stable/#download-lin>`__ 才能使用 C# 工具外掛程式。"
 
-msgid ""
-"To configure a project for debugging, you need a ``tasks.json`` and ``launch."
-"json`` file in the ``.vscode`` folder with the necessary configuration."
-msgstr ""
-
-#, fuzzy
-msgid "Here is an example ``launch.json``:"
-msgstr "下面是一個使用 Mutex 的例子:"
-
-msgid ""
-"For this launch configuration to work, you need to either setup a GODOT4 "
-"environment variable that points to the Godot executable, or replace "
-"``program`` parameter with the path to the Godot executable."
-msgstr ""
-
-#, fuzzy
-msgid "Here is an example ``tasks.json``:"
-msgstr "下列為有兩個骨頭的骨骼節點範例："
-
-msgid ""
-"Now, when you start the debugger in Visual Studio Code, your Godot project "
-"will run."
-msgstr ""
-
 msgid "Visual Studio (Windows only)"
 msgstr "Visual Studio 或 VS Code"
 
@@ -257,21 +218,6 @@ msgstr ""
 "修復 NuGet 設定檔的簡單方法就是重新生成一個。在檔案瀏覽器視窗中前往 "
 "''%AppData%\\NuGet''\\ 。將 ''NuGet.Config'' 檔案重命名或刪除。重新建立 "
 "Godot 專案時，就會自動用預設值建立該檔。"
-
-msgid ""
-"To debug your C# scripts using Visual Studio, open the .sln file that is "
-"generated after opening the first C# script in the editor. In the **Debug** "
-"menu, go to the **Debug Properties** menu item for your project. Click the "
-"**Create a new profile** button and choose **Executable**. In the "
-"**Executable** field, browse to the path of the C# version of the Godot "
-"editor, or type ``%GODOT4%`` if you have created an environment variable for "
-"the Godot executable path. It must be the path to the main Godot executable, "
-"not the 'console' version. For the **Working Directory**, type a single "
-"period, ``.``, meaning the current directory. Also check the **Enable native "
-"code debugging** checkbox. You may now close this window, click downward "
-"arrow on the debug profile dropdown, and select your new launch profile. Hit "
-"the green start button, and your game will begin playing in debug mode."
-msgstr ""
 
 msgid "Creating a C# script"
 msgstr "建立 C# 腳本"
@@ -356,17 +302,6 @@ msgstr ""
 
 msgid "For more information, see the :ref:`doc_c_sharp_differences` page."
 msgstr "更多資訊請參考 :ref:`doc_c_sharp_differences` 一頁。"
-
-#, fuzzy
-msgid ""
-"You need to (re)build the project assemblies whenever you want to see new "
-"exported variables or signals in the editor. This build can be manually "
-"triggered by clicking the **Build** button in the top right corner of the "
-"editor."
-msgstr ""
-"使用 C# 時，若要看到新匯出的變數或訊號，就需要建置或重新建置專案。要重新建置"
-"專案可以手動點擊編輯器視窗底部的 [Mono] 文字來打開 Mono 面板，然後點擊 [建置"
-"專案] 按鈕。"
 
 msgid ""
 "You will also need to rebuild the project assemblies to apply changes in "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,7 +171,6 @@ msgstr ""
 msgid "in float **E**"
 msgstr "in float **E**"
 
-#, fuzzy
 msgid ""
 "An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
 "logarithm."
@@ -362,7 +356,6 @@ msgstr ""
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
 
-#, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
 "window. Origin is upper-left."
@@ -653,14 +646,12 @@ msgstr "Berechnet eine Normale aus der SDF-Textur."
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 
-#, fuzzy
 msgid "Converts an SDF to screen UV."
-msgstr "Konvertiert ein SDF in eine Bildschirm-UV."
+msgstr "Konvertiert ein SDF in ein Bildschirm-UV."
 
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "vec2 **screen_uv_to_sdf** (vec2 uv)"
 
-#, fuzzy
 msgid "Converts screen UV to an SDF."
 msgstr "Konvertiert Bildschirm-UV in ein SDF."
 

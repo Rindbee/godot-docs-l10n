@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +14,6 @@ msgstr ""
 
 msgid "Localization using gettext"
 msgstr "Localização usando gettext"
-
-#, fuzzy
-msgid ""
-"In addition to :ref:`doc_importing_translations` in CSV format, Godot also "
-"supports loading translation files written in the GNU gettext format (text-"
-"based ``.po`` and compiled ``.mo`` since Godot 4.0)."
-msgstr ""
-"Além de :ref:`doc_importing_translations` no formato CSV, Godot também "
-"suporta o carregamento de arquivos de tradução escritos no formato GNU "
-"gettext (baseado em texto ''.po'' e compilado ''.mo'' desde o Godot 3.5)."
 
 msgid ""
 "For an introduction to gettext, check out `A Quick Gettext Tutorial <https://"
@@ -133,88 +118,6 @@ msgstr ""
 "**Linux:** Na maioria das distribuições, instale o pacote ``gettext`` do "
 "gerenciador de pacotes de sua distribuição."
 
-#, fuzzy
-msgid "Creating the PO template"
-msgstr "Localizando os modelos"
-
-#, fuzzy
-msgid "Automatic generation using the editor"
-msgstr "Executando o editor"
-
-msgid ""
-"Since Godot 4.0, the editor can generate a PO template automatically from "
-"specified scene and GDScript files. This POT generation also supports "
-"translation contexts and pluralization if used in a script, with the "
-"optional second argument of ``tr()`` and the ``tr_n()`` method."
-msgstr ""
-
-msgid ""
-"Open the Project Settings' **Localization > POT Generation** tab, then use "
-"the **Add…** button to specify the path to your project's scenes and scripts "
-"that contain localizable strings:"
-msgstr ""
-
-msgid ""
-"Creating a PO template in the Localization > POT Generation tab of the "
-"Project Settings"
-msgstr ""
-
-msgid ""
-"Creating a PO template in the **Localization > POT Generation** tab of the "
-"Project Settings"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"After adding at least one scene or script, click **Generate POT** in the top-"
-"right corner, then specify the path to the output file. This file can be "
-"placed anywhere in the project directory, but it's recommended to keep it in "
-"a subdirectory such as ``locale``, as each locale will be defined in its own "
-"file."
-msgstr ""
-"O Godot atualmente não suporta a extração de strings de origem usando "
-"``xgettext``, então o arquivo ``.pot`` deve ser criado manualmente. Este "
-"arquivo pode ser colocado em qualquer lugar do diretório do projeto, mas "
-"recomenda-se mantê-lo em um subdiretório, pois cada local será definido em "
-"seu próprio arquivo."
-
-msgid ""
-"You can then move over to :ref:`creating a messages file from a PO template "
-"<doc_localization_using_gettext_messages_file>`."
-msgstr ""
-
-msgid ""
-"Remember to regenerate the PO template after making any changes to "
-"localizable strings, or after adding new scenes or scripts. Otherwise, newly "
-"added strings will not be localizable and translators won't be able to "
-"update translations for outdated strings."
-msgstr ""
-
-#, fuzzy
-msgid "Manual creation"
-msgstr "Interpolação manual da câmera"
-
-#, fuzzy
-msgid ""
-"If the automatic generation approach doesn't work out for your needs, you "
-"can create a PO template by hand in a text editor. This file can be placed "
-"anywhere in the project directory, but it's recommended to keep it in a "
-"subdirectory, as each locale will be defined in its own file."
-msgstr ""
-"O Godot atualmente não suporta a extração de strings de origem usando "
-"``xgettext``, então o arquivo ``.pot`` deve ser criado manualmente. Este "
-"arquivo pode ser colocado em qualquer lugar do diretório do projeto, mas "
-"recomenda-se mantê-lo em um subdiretório, pois cada local será definido em "
-"seu próprio arquivo."
-
-#, fuzzy
-msgid ""
-"Create a directory named ``locale`` in the project directory. In this "
-"directory, save a file named ``messages.pot`` with the following contents:"
-msgstr ""
-"Crie um diretório chamado `locale` no diretório do projeto. Neste diretório, "
-"salve um arquivo denominado ``messages.pot`` com o seguinte conteúdo:"
-
 msgid ""
 "Messages in gettext are made of ``msgid`` and ``msgstr`` pairs. ``msgid`` is "
 "the source string (usually in English), ``msgstr`` will be the translated "
@@ -300,19 +203,6 @@ msgstr ""
 "Se você deseja manter um backup do arquivo da mensagem original (que seria "
 "salvo como ``fr.po~`` neste exemplo), remova o argumento ``--backup=none``."
 
-msgid ""
-"After running ``msgmerge``, strings which were modified in the source "
-"language will have a \"fuzzy\" comment added before them in the ``.po`` "
-"file. This comment denotes that the translation should be updated to match "
-"the new source string, as the translation will most likely be inaccurate "
-"until it's updated."
-msgstr ""
-
-msgid ""
-"Strings with \"fuzzy\" comments will **not** be read by Godot until the "
-"translation is updated and the \"fuzzy\" comment is removed."
-msgstr ""
-
 msgid "Checking the validity of a PO file or template"
 msgstr "Verificando a validade de um arquivo ou modelo PO"
 
@@ -329,35 +219,6 @@ msgid ""
 msgstr ""
 "Se houver erros de sintaxe ou avisos, eles serão exibidos no console. Caso "
 "contrário, ``msgfmt`` não exibirá nada."
-
-msgid "Using binary MO files (useful for large projects only)"
-msgstr ""
-
-msgid ""
-"For large projects with several thousands of strings to translate or more, "
-"it can be worth it to use binary (compiled) MO message files instead of text-"
-"based PO files. Binary MO files are smaller and faster to read than the "
-"equivalent PO files."
-msgstr ""
-
-msgid "You can generate an MO file with the command below:"
-msgstr ""
-
-msgid ""
-"If the PO file is valid, this command will create a ``fr.mo`` file besides "
-"the PO file. This MO file can then be loaded in Godot as described above."
-msgstr ""
-
-msgid ""
-"The original PO file should be kept in version control so you can update "
-"your translation in the future. In case you lose the original PO file and "
-"wish to decompile an MO file into a text-based PO file, you can do so with:"
-msgstr ""
-
-msgid ""
-"The decompiled file will not include comments or fuzzy strings, as these are "
-"never compiled in the MO file in the first place."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

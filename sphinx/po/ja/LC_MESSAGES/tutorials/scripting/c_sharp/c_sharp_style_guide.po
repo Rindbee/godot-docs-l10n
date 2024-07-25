@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,17 +55,6 @@ msgstr ""
 
 msgid "Language specification"
 msgstr "言語仕様"
-
-#, fuzzy
-msgid ""
-"Godot currently uses **C# version 10.0** in its engine and example source "
-"code, as this is the version supported by .NET 6.0 (the current baseline "
-"requirement). So, before we move to a newer version, care must be taken to "
-"avoid mixing language features only available in C# 11.0 or later."
-msgstr ""
-"Godotは現在、エンジンとサンプルソースコードで **C# バージョン7.0** を使用して"
-"います。したがって、新しいバージョンに移行する前に、C# 7.1以降でのみ使用可能"
-"な言語機能が混在しないように注意する必要があります。"
 
 msgid ""
 "For detailed information on C# features in different versions, please see "
@@ -179,10 +163,6 @@ msgstr "スペースの使用"
 msgid "Insert a space:"
 msgstr "スペースを挿入する:"
 
-#, fuzzy
-msgid "Around a binary and ternary operator."
-msgstr "二項演算子と三次演算子の周囲。"
-
 msgid ""
 "Between an opening parenthesis and ``if``, ``for``, ``foreach``, ``catch``, "
 "``while``, ``lock`` or ``using`` keywords."
@@ -215,11 +195,6 @@ msgid ""
 "After a single-line comment symbol (``//``), and before it if used at the "
 "end of a line."
 msgstr "単一行コメント記号 (``//``) の後、行の末尾で使用する場合はその前。"
-
-msgid ""
-"After the opening brace, and before the closing brace in a single line "
-"initializer."
-msgstr ""
 
 msgid "Do not use a space:"
 msgstr "スペースの挿入を避けるべき:"
@@ -296,26 +271,6 @@ msgstr ""
 
 msgid "Rather than:"
 msgstr "悪い例:"
-
-#, fuzzy
-msgid "Member variables"
-msgstr "メンバアクセス"
-
-msgid ""
-"Don't declare member variables if they are only used locally in a method, as "
-"it makes the code more difficult to follow. Instead, declare them as local "
-"variables in the method's body."
-msgstr ""
-
-#, fuzzy
-msgid "Local variables"
-msgstr "ローカル変数(LocalVarSet/LocalVarGet)"
-
-msgid ""
-"Declare local variables as close as possible to their first use. This makes "
-"it easier to follow the code, without having to scroll too much to find "
-"where the variable was declared."
-msgstr ""
 
 msgid "Implicitly typed local variables"
 msgstr "暗黙的に型指定されたローカル変数"

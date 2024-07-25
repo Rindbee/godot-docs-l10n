@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,17 +70,6 @@ msgstr "Или это можно сделать, спрятав действие
 msgid "**2. Check mute status of NLA tracks**"
 msgstr "**2.Проверка выключенного состояния для треков NLA**"
 
-#, fuzzy
-msgid ""
-"An NLA track can be ``mute`` or ``unmute``, the exporter will export all the "
-"``mute`` NLA track as a separate action, while blends all the ``unmute`` NLA "
-"tracks into every action (including the action) being exported."
-msgstr ""
-"Дорожка NLA может быть `` отключена`` или ``включена``, экспортер "
-"экспортирует все ``отключенные`` дорожки NLA как отдельное действие, в то "
-"время как все ``включенные`` дорожки NLA будут смешаны с каждым действием "
-"(включая действие действия), и экспортированы."
-
 msgid "**3. Export the scene**"
 msgstr "**3. Экспорт сцены**"
 
@@ -115,19 +99,6 @@ msgstr ""
 
 msgid "Animation Mode"
 msgstr "Режим Анимации"
-
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"Godot и Blender имеют разную структуру для хранения данных анимации. В Godot "
-"данные анимации хранятся в узле AnimationPlayer, а не в каждом анимированном "
-"узле. Чтобы исправить это несоответствие и по-прежнему сделать "
-"воспроизведение анимации универсальным, это дополнение имеет три режима "
-"экспорта анимации."
 
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**Режим 'Анимация как действия'**"

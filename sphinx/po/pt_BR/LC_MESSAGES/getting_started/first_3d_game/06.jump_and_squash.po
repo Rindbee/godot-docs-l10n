@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +14,6 @@ msgstr ""
 
 msgid "Jumping and squashing monsters"
 msgstr "Pulando e esmagando monstros"
-
-#, fuzzy
-msgid ""
-"In this part, we'll add the ability to jump and squash the monsters. In the "
-"next lesson, we'll make the player die when a monster hits them on the "
-"ground."
-msgstr ""
-"Nesta parte, adicionaremos a habilidade de pular, para esmagar os monstros. "
-"Na próxima lição, faremos o jogador morrer quando um monstro o atingir no "
-"chão."
 
 msgid ""
 "First, we have to change a few settings related to physics interactions. "
@@ -70,14 +55,6 @@ msgstr ""
 "O ponto importante é que você pode usar camadas e máscaras para filtrar as "
 "interações físicas, controlar o desempenho e remover a necessidade de "
 "condições extras em seu código."
-
-#, fuzzy
-msgid ""
-"By default, all physics bodies and areas are set to both layer and mask "
-"``1``. This means they all collide with each other."
-msgstr ""
-"Por padrão, todos os corpos e áreas de física são definidos como camada e "
-"máscara ''0''. Isso significa que todos eles colidem uns com os outros."
 
 msgid ""
 "Physics layers are represented by numbers, but we can give them names to "
@@ -124,49 +101,17 @@ msgstr "Agora, podemos atribuí-los aos nossos nós de física."
 msgid "Assigning layers and masks"
 msgstr "Atribuindo camadas e máscaras"
 
-#, fuzzy
-msgid ""
-"In the *Main* scene, select the ``Ground`` node. In the *Inspector*, expand "
-"the *Collision* section. There, you can see the node's layers and masks as a "
-"grid of buttons."
-msgstr ""
-"Na cena *Principal*, selecione o nó *Ground*. No *Inspetor*, expanda a seção "
-"*Colisão*. Lá, você pode ver as camadas e máscaras do nó como uma grade de "
-"botões."
-
 msgid "|image2|"
 msgstr "|image2|"
 
 msgid "image2"
 msgstr "imagem2"
 
-#, fuzzy
-msgid ""
-"The ground is part of the world, so we want it to be part of the third "
-"layer. Click the lit button to toggle **off** the first *Layer* and toggle "
-"**on** the third one. Then, toggle **off** the *Mask* by clicking on it."
-msgstr ""
-"O solo é parte do mundo, por isso queremos que ele seja parte da terceira "
-"camada. Clique no botão iluminado para desativar a primeira *Camada* e "
-"ativar a terceira. Em seguida, desative a *Máscara* clicando nela."
-
 msgid "|image3|"
 msgstr "|image3|"
 
 msgid "image3"
 msgstr "imagem3"
-
-#, fuzzy
-msgid ""
-"As mentioned before, the *Mask* property allows a node to listen to "
-"interaction with other physics objects, but we don't need it to have "
-"collisions. ``Ground`` doesn't need to listen to anything; it's just there "
-"to prevent creatures from falling."
-msgstr ""
-"Como mencionei acima, a propriedade *Mask* permite que um nó ouça a "
-"interação com outros objetos físicos, mas não precisamos que ele tenha "
-"colisões. A *Ground* não precisa ouvir nada; ela só está lá para evitar que "
-"as criaturas caiam."
 
 msgid ""
 "Note that you can click the \"...\" button on the right side of the "
@@ -181,37 +126,11 @@ msgstr "|image4|"
 msgid "image4"
 msgstr "imagem4"
 
-#, fuzzy
-msgid ""
-"Next up are the ``Player`` and the ``Mob``. Open ``player.tscn`` by double-"
-"clicking the file in the *FileSystem* dock."
-msgstr ""
-"A seguir estão o *Player* e o *Inimigo*. Abra ``Player.tscn`` clicando duas "
-"vezes no arquivo no painel *Sistema de Arquivos*."
-
-#, fuzzy
-msgid ""
-"Select the *Player* node and set its *Collision -> Mask* to both \"enemies\" "
-"and \"world\". You can leave the default *Layer* property as it is, because "
-"the first layer is the \"player\" layer."
-msgstr ""
-"Selecione o nó *Player* e configure seu *Collision -> Mask* tanto para "
-"\"inimigos\" quanto para \"mundo\". Você pode deixar a propriedade padrão "
-"*Camada*, pois a primeira camada é a do \"jogador\"."
-
 msgid "|image5|"
 msgstr "|image5|"
 
 msgid "image5"
 msgstr "imagem5"
-
-#, fuzzy
-msgid ""
-"Then, open the *Mob* scene by double-clicking on ``mob.tscn`` and select the "
-"``Mob`` node."
-msgstr ""
-"Em seguida, abra a cena *Mob* clicando duas vezes em ``Mob.tscn`` e "
-"selecione o nó *Mob*."
 
 msgid ""
 "Set its *Collision -> Layer* to \"enemies\" and unset its *Collision -> "
@@ -456,38 +375,6 @@ msgstr ""
 "Com os produtos pontuais, quando o resultado é maior que ``0``, os dois "
 "vetores estão a um ângulo inferior a 90 graus. Um valor maior que ``0.1`` "
 "nos diz que estamos aproximadamente acima do monstro."
-
-msgid ""
-"After handling the squash and bounce logic, we terminate the loop early via "
-"the ``break`` statement to prevent further duplicate calls to ``mob."
-"squash()``, which may otherwise result in unintended bugs such as counting "
-"the score multiple times for one kill."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"We are calling one undefined function, ``mob.squash()``, so we have to add "
-"it to the Mob class."
-msgstr ""
-"Estamos chamando uma função indefinida, ``mob.squash()``. Temos que adicioná-"
-"la à classe do Inimigo."
-
-msgid ""
-"Open the script ``Mob.gd`` by double-clicking on it in the *FileSystem* "
-"dock. At the top of the script, we want to define a new signal named "
-"``squashed``. And at the bottom, you can add the squash function, where we "
-"emit the signal and destroy the mob."
-msgstr ""
-"Abra o script ``Mob.gd`` clicando duas vezes sobre ele no painel *Sistema de "
-"Arquivos*. Na parte superior do script, queremos definir um novo sinal "
-"chamado ``squashed``. E na parte inferior, você pode adicionar a função "
-"squash, onde emitimos o sinal e destruímos o inimigo."
-
-msgid ""
-"When using C#, Godot will create the appropriate events automatically for "
-"all Signals ending with `EventHandler`, see :ref:`C# Signals "
-"<doc_c_sharp_signals>`."
-msgstr ""
 
 msgid "We will use the signal to add points to the score in the next lesson."
 msgstr "Usaremos o sinal para adicionar pontos à pontuação na próxima lição."

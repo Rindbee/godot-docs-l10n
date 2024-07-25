@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +14,6 @@ msgstr ""
 
 msgid "Exporting for Linux"
 msgstr "Exportation pour Linux"
-
-#, fuzzy
-msgid ""
-"This page describes how to export a Godot project to Linux. If you're "
-"looking to compile editor or export template binaries from source instead, "
-"read :ref:`doc_compiling_for_linuxbsd`."
-msgstr ""
-"Cette page explique comment exporter un projet Godot vers Linux. Si vous "
-"cherchez à compiler l’éditeur ou les binaires du modèle d'exportation depuis "
-"le code source, voyez plutôt :ref:`doc_compiling_for_x11`."
 
 msgid ""
 "The simplest way to distribute a game for PC is to copy the executable "
@@ -55,26 +40,8 @@ msgstr ""
 msgid "Environment variables"
 msgstr "Variables d'environnement"
 
-msgid ""
-"You can use the following environment variables to set export options "
-"outside of the editor. During the export process, these override the values "
-"that you set in the export menu."
-msgstr ""
-
-#, fuzzy
-msgid "Linux export environment variables"
-msgstr "Variables d'environnement"
-
-#, fuzzy
-msgid "Export option"
-msgstr "Options d'exportation"
-
-#, fuzzy
-msgid "Environment variable"
-msgstr "Variables d'environnement"
-
 msgid "Encryption / Encryption Key"
-msgstr ""
+msgstr "Cryptage / Clé de cryptage"
 
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"

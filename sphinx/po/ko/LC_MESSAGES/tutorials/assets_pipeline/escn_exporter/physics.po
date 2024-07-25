@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,14 +21,6 @@ msgid ""
 msgstr ""
 "물리 속성 내보내기는 블렌더의 물리 탭에서 \"Rigid Body\"를 활성화하여 가능합"
 "니다:"
-
-#, fuzzy
-msgid ""
-"By default, a single Blender object with rigid body enabled will export as "
-"three nodes: a PhysicsBody, a CollisionShape, and a MeshInstance3D."
-msgstr ""
-"기본적으로, 리지드 바디가 활성화된 하나의 블렌더 오브젝트는 3개의 노드로 내보"
-"내집니다: PhysicsBody, CollisionShape, 그리고 MeshInstance입니다."
 
 msgid "Body type"
 msgstr "바디 타입"

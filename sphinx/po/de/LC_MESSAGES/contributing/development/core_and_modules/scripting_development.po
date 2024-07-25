@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Scripting development"
-msgstr "Engine-Entwicklung"
+msgstr "Scripting-Entwicklung"
 
 msgid "GDScript"
 msgstr "GDScript"
 
-#, fuzzy
 msgid "Annotation guidelines"
-msgstr "Inhaltliche Leitlinien"
+msgstr "Annotations-Leitlinien"
 
 msgid ""
 "Create annotations for modifiers that act on the script or its code. "
@@ -35,9 +28,17 @@ msgid ""
 "engine or editor treats or interacts with the script, implement the token as "
 "an annotation."
 msgstr ""
+"Erstellen Sie Annotationen für Modifikatoren, die auf das Skript oder seinen "
+"Code wirken. Erstellen Sie außerdem Annotationen für Verhaltensweisen, die "
+"spezifisch für die Godot-Engine und den Editor sind. Wenn der Hauptzweck "
+"darin besteht, die Art und Weise zu beeinflussen, wie die Engine oder der "
+"Editor das Skript behandelt oder mit ihm interagiert, implementieren Sie das "
+"Token als Annotation."
 
 msgid "Do not create annotations for general programming language features."
 msgstr ""
+"Erstellen Sie keine Annotationen für allgemeine Funktionen der "
+"Programmiersprache."
 
 msgid ""
 "For historical reasons, some existing annotations and keywords do not "
@@ -45,6 +46,11 @@ msgid ""
 "an annotation or as a language keyword is a nuanced decision that should be "
 "made through discussion with other GDScript developers."
 msgstr ""
+"Aus historischen Gründen halten sich einige existierende Annotationen und "
+"Schlüsselwörter nicht strikt an diese Richtlinien. Die Entscheidung, ob eine "
+"Funktion als Annotation oder als Sprachschlüsselwort implementiert wird, ist "
+"eine differenzierte Entscheidung, die im Gespräch mit anderen GDScript-"
+"Entwicklern getroffen werden sollte."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

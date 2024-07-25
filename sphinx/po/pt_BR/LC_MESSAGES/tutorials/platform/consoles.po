@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,20 +63,6 @@ msgid ""
 msgstr ""
 "Como explicado, no entanto, ainda é possível portar seus jogos para consoles "
 "graças a serviços fornecidos por empresas de terceiros."
-
-#, fuzzy
-msgid ""
-"In practice, the process is quite similar to Unity and Unreal Engine. In "
-"other words, there is no engine that is legally allowed to distribute "
-"console export templates without requiring the user to prove that they are a "
-"licensed console developer."
-msgstr ""
-"Na prática, o processo é bastante similar à Unity e Unreal Engine, exceto "
-"que você precisa contatar um desenvolvedor de terceiros para lidar com o "
-"processo de port. Em outras palavras, não há motor que esteja legalmente "
-"permitido a distribuir modelos de exportação para consoles sem exigir que o "
-"usuário prove que ele(a) é um desenvolvedor licenciado de console. Fazer "
-"isso violaria o acordo de não-divulgação da fabricante do console."
 
 msgid "Console publishing process"
 msgstr "Processo de publicação para console"
@@ -203,39 +184,12 @@ msgstr ""
 "A `mazette! games <https://mazette.games/>`_ oferece portabilidade e "
 "publicação de jogos em Godot para Switch, Xbox One e Xbox Series X/S."
 
-#, fuzzy
-msgid ""
-"`Olde Sküül <https://oldeskuul.com/>`_ offers Switch, Xbox One, Playstation "
-"4 & Playstation 5 porting and publishing of Godot games."
-msgstr ""
-"A `Olde Sküül <https://oldeskuul.com/>`_ oferece portabilidade e publicação "
-"de jogos em Godot para Switch, Xbox One, PlayStation 4 e PlayStation 5."
-
 msgid ""
 "`Tuanisapps <https://www.tuanisapps.com/>`_ offers Switch porting and "
 "publishing of Godot games."
 msgstr ""
 "A `Tuanisapps <https://www.tuanisapps.com/>`_ oferece portabilidade e "
 "publicação de jogos em Godot para Switch."
-
-#, fuzzy
-msgid ""
-"`Seaven Studio <https://www.seaven-studio.com/>`_ offers Switch, Xbox One, "
-"Xbox Series, PlayStation 4 & PlayStation 5 porting of Godot games."
-msgstr ""
-"A `Olde Sküül <https://oldeskuul.com/>`_ oferece portabilidade e publicação "
-"de jogos em Godot para Switch, Xbox One, PlayStation 4 e PlayStation 5."
-
-#, fuzzy
-msgid ""
-"If your company offers porting, or porting *and* publishing services for "
-"Godot games, feel free to `contact the Godot Foundation <https://godot."
-"foundation/#contact>`_ to add your company to the list above."
-msgstr ""
-"Se sua empresa oferece serviços de portabilidade e/ou publicação para jogos "
-"em Godot, sinta-se livre para `abrir um problema ou pull request <https://"
-"github.com/godotengine/godot-docs>`_ para adicionar sua empresa à lista "
-"acima."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

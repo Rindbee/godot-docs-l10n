@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,16 +124,6 @@ msgstr ""
 "fazer sentido pensar em uma cena como uma classe. As cenas são grupos de nós "
 "reutilizáveis, instanciados e herdáveis. Criar uma cena é semelhante a ter "
 "um script que cria nós e os adiciona como filhos usando ``add_child()``."
-
-#, fuzzy
-msgid ""
-"We often pair a scene with a scripted root node that makes use of the "
-"scene's nodes. As such, the script extends the scene by adding behavior "
-"through imperative code."
-msgstr ""
-"Muitas vezes emparelhamos uma cena com um nó raiz com script que faz uso dos "
-"nós da cena. Como tal, a cena é muitas vezes uma extensão do código "
-"declarativo do script."
 
 msgid "The content of a scene helps to define:"
 msgstr "O conteúdo de uma cena ajuda a definir:"

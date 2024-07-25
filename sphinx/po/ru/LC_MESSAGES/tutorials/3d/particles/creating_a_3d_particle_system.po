@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Creating a 3D particle system"
-msgstr "Системы частиц (2D)"
-
-#, fuzzy
-msgid "Required particle node properties"
-msgstr "Свойства узла"
 
 msgid ""
 "To get started with particles, the first thing we need to do is add a "
@@ -34,24 +21,6 @@ msgstr ""
 "Чтобы начать работу с частицами, первым делом нам нужно добавить в сцену "
 "узел ``GPUParticles3D``. Прежде чем мы сможем увидеть частицы, нам нужно "
 "задать два параметра узла: ``Process Material`` и хотя бы один ``Draw Pass``."
-
-#, fuzzy
-msgid "The process material"
-msgstr "Физический материал"
-
-#, fuzzy
-msgid ""
-"To add a process material to your particles node, go to ``Process Material`` "
-"in the inspector panel. Click on the box next to ``Process Material`` and "
-"from the dropdown menu select ``New ParticleProcessMaterial``."
-msgstr ""
-"Чтобы добавить технологический материал в узел частиц, перейдите в раздел "
-"``Process Material`` на панели инспектора. Щелкните поле рядом с "
-"``Material`` и в раскрывающемся меню выберите ``New ParticlesMaterial``."
-
-#, fuzzy
-msgid "Creating a process material"
-msgstr "Создание проекта"
 
 msgid ""
 ":ref:`class_ParticleProcessMaterial` is a special kind of material. We don't "
@@ -66,13 +35,6 @@ msgstr ""
 "производительности. Щелчок на только что добавленном материале отображает "
 "длинный список свойств, которые вы можете установить для управления "
 "поведением каждой частицы."
-
-#, fuzzy
-msgid "Draw passes"
-msgstr "Параметры отрисовки"
-
-msgid "At least one draw pass is required"
-msgstr ""
 
 msgid ""
 "In order to render any particles, at least one draw pass needs to be "
@@ -109,113 +71,6 @@ msgid ""
 msgstr ""
 "Использование нескольких проходов рисования: желтые прямоугольники (проход "
 "1) и синие сферы (проход 2)"
-
-msgid ""
-"If you followed the steps above, your particle system should now be emitting "
-"particles in a waterfall-like fashion, making them move downwards and "
-"disappear after a few seconds. This is the foundation for all particle "
-"effects. Take a look at the documentation for :ref:`particle "
-"<doc_3d_particles_properties>` and :ref:`particle material "
-"<doc_process_material_properties>` properties to learn how to make particle "
-"effects more interesting."
-msgstr ""
-
-#, fuzzy
-msgid "Particle conversion"
-msgstr "Узлы частиц"
-
-msgid "Turning GPU into CPU particles"
-msgstr ""
-
-msgid ""
-"You can convert GPU particles to CPU particles at any time using the entry "
-"in the viewport menu. When you do so, keep in mind that not every feature of "
-"GPU particles is available for CPU particles, so the resulting particle "
-"system will look and behave differently from the original."
-msgstr ""
-
-msgid ""
-"You can also convert CPU particles to GPU particles if you no longer need to "
-"use CPU particles. This is also done from the viewport menu."
-msgstr ""
-
-msgid ""
-"Some of the most notable features that are lost during the conversion "
-"include:"
-msgstr ""
-
-#, fuzzy
-msgid "multiple draw passes"
-msgstr "Несколько шаблонов"
-
-msgid "turbulence"
-msgstr ""
-
-#, fuzzy
-msgid "sub-emitters"
-msgstr "Джиттер"
-
-msgid "trails"
-msgstr ""
-
-#, fuzzy
-msgid "attractors"
-msgstr "Операторы"
-
-#, fuzzy
-msgid "collision"
-msgstr "Столкновения"
-
-#, fuzzy
-msgid "You also lose the following properties:"
-msgstr "Это всплывающее окно имеет следующие свойства:"
-
-#, fuzzy
-msgid "``Amount Ratio``"
-msgstr "``Вращение``"
-
-#, fuzzy
-msgid "``Interp to End``"
-msgstr "Интерполяция"
-
-#, fuzzy
-msgid "``Damping as Friction``"
-msgstr "Захват действий"
-
-#, fuzzy
-msgid "``Emission Shape Offset``"
-msgstr "Формы излучения"
-
-#, fuzzy
-msgid "``Emission Shape Scale``"
-msgstr "Формы излучения"
-
-#, fuzzy
-msgid "``Inherit Velocity Ratio``"
-msgstr "Начальная скорость"
-
-#, fuzzy
-msgid "``Velocity Pivot``"
-msgstr "``Vector2[]``"
-
-#, fuzzy
-msgid "``Directional Velocity``"
-msgstr "Направленный свет"
-
-#, fuzzy
-msgid "``Radial Velocity``"
-msgstr "Начальная скорость"
-
-msgid "``Velocity Limit``"
-msgstr ""
-
-msgid "``Scale Over Velocity``"
-msgstr ""
-
-msgid ""
-"Converting GPU particles to CPU particles can become necessary when you want "
-"to release a game on older devices that don't support modern graphics APIs."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

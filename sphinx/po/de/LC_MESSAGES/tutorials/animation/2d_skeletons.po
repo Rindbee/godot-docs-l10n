@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +63,7 @@ msgid ""
 "The built-in skeletal system in Godot is very efficient and designed for "
 "performance."
 msgstr ""
-"Das in Godot eingebaute Skelettsystem ist sehr effizient und auf Leistung "
+"Das in Godot eingebaute Skelettsystem ist sehr effizient und auf Performance "
 "ausgelegt."
 
 msgid "The following tutorial will, then, explain 2D skeletal deformations."
@@ -264,6 +259,12 @@ msgid ""
 "button in the toolbar, and select ``Overwrite Rest Pose`` from the dropdown "
 "menu."
 msgstr ""
+"Sie werden feststellen, dass alle Knochen eine Warnung über eine fehlende "
+"Standardpose ausgeben. Eine Standardpose ist die Default-Pose für ein "
+"Skelett, zu der Sie jederzeit zurückkehren können (was sehr praktisch für "
+"Animationen ist). Um eine Pose festzulegen, klicken Sie auf den *Skelett*-"
+"Node im Szenenbaum, dann auf den ``Skeleton2D``-Button in der Toolbar und "
+"wählen ``Standardpose überschreiben`` aus dem Dropdown-Menü."
 
 msgid ""
 "The warnings will go away. If you modify the skeleton (add/remove bones) you "
@@ -306,11 +307,11 @@ msgstr ""
 "Sie können noch keine Gewichte malen. Hierfür müssen Sie die Liste der "
 "Knochen aus dem Skelett mit dem Polygon synchronisieren. Dieser Schritt wird "
 "nur einmal und manuell durchgeführt (es sei denn, Sie ändern das Skelett "
-"durch Hinzufügen/Entfernen/Umbenennen von Bones). Er stellt sicher, dass "
+"durch Hinzufügen/Entfernen/Umbenennen von Knochen). Er stellt sicher, dass "
 "Ihre Rigging-Informationen im Polygon erhalten bleiben, selbst wenn ein Node "
 "des Skeletts versehentlich verloren geht oder das Skelett verändert wird. "
-"Drücken Sie die Schaltfläche \" Knochen mit Polygon synchronisieren\", um "
-"die Liste zu synchronisieren."
+"Drücken Sie den Button \" Knochen mit Polygon synchronisieren\", um die "
+"Liste zu synchronisieren."
 
 msgid ""
 "The list of bones will automatically appear. By default, your polygon has no "

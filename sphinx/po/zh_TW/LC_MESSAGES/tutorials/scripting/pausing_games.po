@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,40 +138,6 @@ msgstr ""
 "請注意有一點非常重要，即便遊戲暫停時節點仍在進行處理，但物理預設是**無法**正"
 "常工作的。如前文所述，這是因為物理伺服器會被關閉。遊戲暫停時，可以通過 "
 "``set_active`` 方法啟動物理伺服器。"
-
-#, fuzzy
-msgid "Pause menu example"
-msgstr "暫停場景"
-
-msgid "Start by creating a button that will be used to pause the game."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Create a menu containing a close button, set the **Process Mode** of the "
-"menu's root node to **When Paused**, then hide the menu. Since the process "
-"mode is set to **When Paused** on the root node, all its children and "
-"grandchildren will inherit that process mode. This way, all the nodes in the "
-"menu will start processing when the game is paused."
-msgstr ""
-"這是一個暫停功能表的例子。建立一個彈框或者面板，裡面放上控制項，然後將其暫停"
-"模式設為“Process”並隱藏。將暫停彈框根節點設為“Process”後，它的所有子孫節點都"
-"會繼承該狀態。這樣，場景樹的這個分支就會在暫停時繼續工作。"
-
-msgid ""
-"Attach a script to the menu's root node, connect the pause button created "
-"earlier to a new method in the script, and inside that method pause the game "
-"and show the pause menu."
-msgstr ""
-
-msgid ""
-"Finally, connect the menu's close button to a new method in the script. "
-"Inside that method, unpause the game and hide the pause menu."
-msgstr ""
-
-#, fuzzy
-msgid "You should now have a working pause menu."
-msgstr "現在你就應該會看到出現了群組。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,15 +122,6 @@ msgid ""
 msgstr ""
 "**物理時間**是 Godot 更新物理工作所花費的時間，例如「_physical_process」和設"
 "定為 **Physics** 更新的內建節點。"
-
-#, fuzzy
-msgid ""
-"**Frame Time** includes rendering time. Say you find a mysterious spike of "
-"lag in your game, but your physics and scripts are all running fast. The "
-"delay could be due to the appearance of particles or visual effects!"
-msgstr ""
-"在 Godot 3 中，**影格時間**包括算繪時間。假設您在遊戲中發現了神秘的延遲峰值，"
-"但您的物理和腳本都運作得很快。延遲可能是由於粒子或視覺效果的出現！"
 
 msgid ""
 "By default, Godot ticks on Frame Time and Physics Time. This gives you an "

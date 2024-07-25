@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,17 +111,15 @@ msgstr ""
 "Wir wollen, dass die Animation automatisch zu Beginn des Spiels startet. "
 "Außerdem soll sie in einer Schleife laufen."
 
-#, fuzzy
 msgid ""
 "To do so, you can click the autoplay button (|Autoplay|) in the animation "
 "toolbar and the looping arrows, respectively."
 msgstr ""
-"Klicken Sie dazu jeweils ein Mal auf den Button mit dem \"A+\" Icon in der "
-"Animations-Toolbar und auf den mit den Schleifenpfeilen."
+"Klicken Sie dazu auf den Autoplay-Button (|Autoplay|) in der Animations-"
+"Toolbar bzw. auf die Schleifenpfeile."
 
-#, fuzzy
 msgid "Autoplay"
-msgstr "Autoload"
+msgstr "Autoplay"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -267,10 +260,10 @@ msgstr ""
 "Zeitleiste klicken und sie ziehen."
 
 msgid "|timeline_05_click|"
-msgstr ""
+msgstr "|timeline_05_click|"
 
 msgid "timeline_05_click"
-msgstr ""
+msgstr "timeline_05_click"
 
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
@@ -283,6 +276,8 @@ msgid ""
 "If you don't see the properties in the *Inspector* panel, first click on the "
 "``Character`` node again in the *Scene* dock."
 msgstr ""
+"Wenn Sie die Propertys im *Inspector*-Panel nicht sehen, klicken Sie zuerst "
+"erneut auf den ``Character``-Node im *Szene*-Dock."
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -294,10 +289,10 @@ msgid "Create a keyframe for both properties"
 msgstr "Erstellen Sie einen Keyframe für beide Eigenschaften"
 
 msgid "|second_keys_both|"
-msgstr ""
+msgstr "|second_keys_both|"
 
 msgid "second_keys_both"
-msgstr ""
+msgstr "second_keys_both"
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -335,13 +330,11 @@ msgstr ""
 "Setzen Sie die Y-Position auf etwa ``0.35`` und die X-Rotation auf ``-9`` "
 "Grad. Erstellen Sie auch hier einen Key für beide Eigenschaften."
 
-#, fuzzy
 msgid "|animation_final_keyframes|"
-msgstr "Computeranimation basiert auf Keyframes"
+msgstr "|animation_final_keyframes|"
 
-#, fuzzy
 msgid "animation_final_keyframes"
-msgstr "Computeranimation basiert auf Keyframes"
+msgstr "animation_final_keyframes"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -548,6 +541,11 @@ msgid ""
 "clipboard* button (two small squares) alongside the *float* animation. Click "
 "OK to close the window."
 msgstr ""
+"Öffnen Sie die Szene *Player*, wählen Sie den Node AnimationPlayer und "
+"klicken Sie dann auf **Animation > Animationen verwalten...**. Klicken Sie "
+"auf den Button *Animation in die Zwischenablage kopieren* (zwei kleine "
+"Quadrate) neben der *Schweben*-Animation. Klicken Sie auf OK, um das Fenster "
+"zu schließen."
 
 msgid ""
 "Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
@@ -557,22 +555,23 @@ msgid ""
 "Click the *Paste* icon (clipboard) and it should appear in the window. Click "
 "OK to close the window."
 msgstr ""
+"Öffnen Sie dann ``mob.tscn``, erstellen Sie einen :ref:`AnimationPlayer "
+"<class_AnimationPlayer>`-Node und wählen Sie ihn aus. Klicken Sie auf "
+"**Animation > Animationen verwalten**, dann **Bibliothek hinzufügen**. Sie "
+"sollten die Meldung \"Globale Bibliothek wird erstellt\" sehen. Lassen Sie "
+"das Textfeld leer und klicken Sie auf OK. Klicken Sie auf das *Einfügen*-"
+"Icon (Zwischenablage) und es sollte im Fenster erscheinen. Klicken Sie auf "
+"OK, um das Fenster zu schließen."
 
-#, fuzzy
 msgid ""
 "Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
 "(Animation looping) are also turned on in the animation editor in the bottom "
 "panel. That's it; all monsters will now play the float animation."
 msgstr ""
-"Öffnen Sie die *Player*-Szene, wählen Sie den AnimationPlayer-Node und "
-"öffnen Sie die Animation \"float\". Dann klicken Sie auf **Animation > "
-"Kopieren**. Öffnen Sie dann ``mob.tscn``, erstellen Sie einen "
-"AnimationPlayer-Child-Node und wählen Sie ihn aus. Klicken Sie auf "
-"**Animation > Einfügen** und vergewissern Sie sich, dass der Button mit dem "
-"\"A+\"-Icon (Beim Laden automatisch abspielen) und die Schleifenpfeile "
-"(Animationswiederholung) auch im Animations-Editor im Unteren Bedienfeld "
-"aktiviert sind. Das war's: Alle Monster spielen jetzt die Schwebeanimation "
-"ab."
+"Vergewissern Sie sich als Nächstes, dass der Autoplay-Button (|Autoplay|) "
+"und die Schleifenpfeile (Animation looping) im Animationseditor im unteren "
+"Bereich ebenfalls aktiviert sind. Das war's. Alle Monster spielen nun die "
+"Schwebeanimation ab."
 
 msgid ""
 "We can change the playback speed based on the creature's ``random_speed``. "
@@ -589,16 +588,6 @@ msgstr ""
 
 msgid "**Congratulations**!"
 msgstr "**Herzlichen Glückwunsch**!"
-
-msgid ""
-"In the next part, we'll quickly recap what you learned and give you some "
-"links to keep learning more. But for now, here are the complete ``Player."
-"gd`` and ``Mob.gd`` so you can check your code against them."
-msgstr ""
-"Im nächsten Teil werden wir das Gelernte noch einmal kurz zusammenfassen und "
-"Ihnen einige Links geben, wenn Sie noch mehr lernen möchten. Aber erstmal "
-"sind hier nochmal die vollständigen ``Player.gd`` und ``Mob.gd`` Skripte, "
-"damit Sie Ihren Code damit vergleichen können."
 
 msgid "Here's the *Player* script."
 msgstr "Hier ist das *Player*-Skript."

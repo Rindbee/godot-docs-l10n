@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -591,54 +586,21 @@ msgstr "``--check-only``"
 msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr "|release| Analizar solo los errores y salir (usar con `` --script``)."
 
-#, fuzzy
-msgid "``--import``"
-msgstr "``--gpu-abort``"
-
 msgid ""
 "|editor| Starts the editor, waits for any resources to be imported, and then "
 "quits. Implies ``--editor`` and ``--quit``."
 msgstr ""
+"|editor| Inicia el editor, espera a que se importen los recursos y luego "
+"sale. Implica ``--editor`` y ``--quit``."
 
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
 
-#, fuzzy
-msgid ""
-"|editor| Export the project using the given preset and matching release "
-"template. The preset name should match one defined in export_presets.cfg. "
-"``<path>`` should be absolute or relative to the project directory, and "
-"include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist. Implies ``--import``."
-msgstr ""
-"|editor| Exporta el proyecto usando el preset dado y el template de "
-"lanzamiento correspondiente. El nombre del preset debe coincidir con aquel "
-"definido en export_preset.cfg . La ``<ruta>`` debe ser absoluta o relativa "
-"al directorio del proyecto, y debe incluir el nombre del binario (ej: "
-"'builds/game.exe'). El directorio de destino debe existir."
-
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"
 
-#, fuzzy
-msgid ""
-"|editor| Like ``--export-release``, but use debug template. Implies ``--"
-"import``."
-msgstr ""
-"|editor| Como ``--export-release``, pero utiliza la plantilla de depuración."
-
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preestablecido> <ruta>``"
-
-#, fuzzy
-msgid ""
-"|editor| Like ``--export-release``, but only export the game pack for the "
-"given preset. The ``<path>`` extension determines whether it will be in PCK "
-"or ZIP format. Implies ``--import``."
-msgstr ""
-"|editor| Como ``--export-release``, pero sólo para exportar el paquete del "
-"juego para un preset dado. La extensión de ``<path>`` determina si será en "
-"formato PCK o ZIP."
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"

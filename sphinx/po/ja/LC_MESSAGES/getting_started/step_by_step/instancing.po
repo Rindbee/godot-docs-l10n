@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,16 +47,6 @@ msgstr ""
 "Ballという名前の :ref:`RigidBody2D <class_RigidBody2D>` ノードをルートとして"
 "おり、さらに :ref:`Sprite2D <class_Sprite2D>` ノードと :ref:"
 "`CollisionShape2D <class_CollisionShape2D>` から構成されています。"
-
-#, fuzzy
-msgid ""
-"Once you have saved a scene, it works as a blueprint: you can reproduce it "
-"in other scenes as many times as you'd like. Replicating an object from a "
-"template like this is called **instancing**."
-msgstr ""
-"一度保存したシーンは設計図として機能し、他のシーンで何度でも再現することがで"
-"きます。このようにテンプレートからオブジェクトを複製することを、"
-"**instancing** と呼びます。"
 
 msgid ""
 "As we mentioned in the previous part, instanced scenes behave like a node: "
@@ -115,14 +100,6 @@ msgid ""
 msgstr ""
 "プロジェクトマネージャーにて、*インポート* ボタンを使用してこのプロジェクトを"
 "インポートしてください。"
-
-#, fuzzy
-msgid ""
-"In the pop-up that appears navigate to the folder you extracted. Double-"
-"click the ``project.godot`` file to open it."
-msgstr ""
-"表示されたポップアップで、参照ボタン(\"Browse\")をクリックし、解凍したフォル"
-"ダに移動します。"
 
 msgid "Finally, click the Import & Edit button."
 msgstr ""
@@ -234,17 +211,6 @@ msgstr ""
 "数値フィールドをクリックし、\\ ``0.5``\\ と入力し、 :kbd:`Enter` を押して、バ"
 "ウンスプロパティを \\ ``0.5``\\ にセットしてください。"
 
-#, fuzzy
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS) and notice how "
-"all balls now bounce a lot more. As the Ball scene is a template for all "
-"instances, modifying it and saving causes all instances to update "
-"accordingly."
-msgstr ""
-"kbd:`F5` を押してゲームを実行して、すべてのボールがより多くバウンドすることに"
-"注目してください。ボールのシーンはすべてのインスタンスのテンプレートなので、"
-"これを修正して保存すると、すべてのインスタンスがそれに応じて更新されます。"
-
 msgid ""
 "Let's now adjust an individual instance. Head back to the Main scene by "
 "clicking on the corresponding tab above the viewport."
@@ -279,21 +245,6 @@ msgid ""
 msgstr ""
 "ゲームを再実行し、このボールが他のボールよりずっと速く落ちていることに注目し"
 "てください。"
-
-#, fuzzy
-msgid ""
-"You may notice you are unable to change the values of the "
-"``PhysicsMaterial`` of the ball. This is because ``PhysicsMaterial`` is a "
-"resource, and needs to be made unique before you can edit it in a scene that "
-"is linking to its original scene. To make a resource unique for one "
-"instance, right-click on it in the Inspector and click Make Unique in the "
-"contextual menu."
-msgstr ""
-"あるインスタンスの\\ ``PhysicsMaterial``\\ の値を変更すると、他のすべてのイン"
-"スタンスに影響を及ぼします。これは、\\ ``PhysicsMaterial``\\ がリソースであ"
-"り、リソースはインスタンス間で共有されるからです。リソースを1つのインスタンス"
-"に固有にするには、インスペクタでそのリソースを右クリックし、コンテキストメ"
-"ニューの「ユニーク化」をクリックします。"
 
 msgid ""
 "Resources are another essential building block of Godot games we will cover "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1006,10 +1001,9 @@ msgstr ""
 "доступными режимами смешивания: Screen (Экранный), Soft Light (Мягкий свет), "
 "Add (Добавление), Replace (Замена), Mix (Смешивание)."
 
-#, fuzzy
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
 msgstr ""
-"Свечение может иметь цветную текстуру карты грязи, действующую как эффект "
+"Свечение может иметь окрашенную текстуру карты грязи, действующую как эффект "
 "загрязнения линзы."
 
 msgid ""
@@ -1019,7 +1013,6 @@ msgstr ""
 "Свечение можно :ref:`использовать в качестве эффекта "
 "размытия<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
 
-#, fuzzy
 msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
 msgstr ""
 "Коррекция цвета с использованием одномерной рамп-функции (линейно-временной "
@@ -1038,12 +1031,6 @@ msgstr "**Фильтрация текстур:**"
 
 msgid "Nearest, bilinear, trilinear or anisotropic filtering."
 msgstr "Ближайшая, билинейная, трилинейная или анизотропная фильтрация."
-
-#, fuzzy
-msgid ""
-"Filtering options are defined on a per-use basis, not a per-texture basis."
-msgstr ""
-"Сглаживание может быть определено на уровне пикселей или отдельных объектов."
 
 msgid "**Texture compression:**"
 msgstr "**Сжатие текстур:**"
@@ -1130,27 +1117,8 @@ msgstr ""
 "Смещение LOD mip-карты текстуры автоматически настраивается для повышения "
 "качества на низких разрешениях. Оно также может быть изменено вручную."
 
-#, fuzzy
-msgid ""
-"Most effects listed above can be adjusted for better performance or to "
-"further improve quality. This can be helpful when :ref:`using Godot for "
-"offline rendering <doc_creating_movies>`."
-msgstr ""
-"Большинство перечисленных выше эффектов можно отрегулировать для повышения "
-"производительности или дальнейшего улучшения качества. Это может быть "
-"полезно при :ref:`использовании Godot для оффлайн рендеринга "
-"<doc_creating_movies>`."
-
 msgid "3D tools"
 msgstr "3D инструменты"
-
-#, fuzzy
-msgid ""
-"Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad, "
-"torus, ribbon, tube."
-msgstr ""
-"Встроенные сетки: куб, цилиндр/конус, (полу)сфера, призма, плоскость, "
-"четырёхугольник, тор, лента, труба."
 
 msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
 msgstr ""
@@ -1174,18 +1142,6 @@ msgstr "Узел Path3D для представления пути в 3D про�
 
 msgid "PathFollow3D node to make nodes follow a Path3D."
 msgstr "Узел PathFollow3D, чтобы заставить узлы следовать по Path3D."
-
-#, fuzzy
-msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
-msgstr ":ref:`Вспомогательный класс 3D геометрии <class_Geometry3D>`."
-
-#, fuzzy
-msgid ""
-"Support for exporting the current scene as a glTF 2.0 file, both from the "
-"editor and at run-time from an exported project."
-msgstr ""
-"Поддержка экспорта текущей сцены как glTF 2.0 файла, прямо из редактора и во "
-"время выполнения из экспортированного проекта."
 
 msgid "3D physics"
 msgstr "3D физика"
@@ -1403,10 +1359,6 @@ msgstr ""
 "Поддержка полифонии (воспроизведение нескольких звуков с одного узла "
 "AudioStreamPlayer)."
 
-#, fuzzy
-msgid "Support for random volume and pitch."
-msgstr "Поддержка случайной громкости и высоты тона."
-
 msgid "Support for real-time pitch scaling."
 msgstr "Поддержка оброботки тона в реальном времени."
 
@@ -1423,12 +1375,6 @@ msgid ""
 msgstr ""
 "Узлы Listener2D и Listener3D для прослушивания с позиции, отличной от "
 "позиции камеры в 3D."
-
-#, fuzzy
-msgid ""
-"Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
-msgstr ""
-"Поддержка :ref:`процедурной генерации звука <class_AudioStreamGenerator>`."
 
 msgid "Audio input to record microphones."
 msgstr "Аудиовход для записи микрофонов."
@@ -1461,10 +1407,6 @@ msgstr ""
 msgid "**Formats:**"
 msgstr "**Форматы:**"
 
-#, fuzzy
-msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr "*Изображения:* Cмотреть :ref:`doc_importing_images`."
-
 msgid "*Audio:*"
 msgstr "*Аудио:*"
 
@@ -1476,10 +1418,6 @@ msgstr "Ogg Vorbis."
 
 msgid "MP3."
 msgstr "MP3."
-
-#, fuzzy
-msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr "*3D сцены:* Cмотреть :ref:`doc_importing_3d_scenes`."
 
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2.0 *(рекомендуется)*."
@@ -1497,14 +1435,6 @@ msgstr ""
 
 msgid "Collada (.dae)."
 msgstr "Collada (.daе)."
-
-#, fuzzy
-msgid ""
-"Wavefront OBJ (static scenes only, can be loaded directly as a mesh or "
-"imported as a 3D scene)."
-msgstr ""
-"Wavefront OBJ (только статические сцены, могут быть загружены "
-"непосредственно как сетка или импортированы как 3D-сцена)."
 
 msgid ""
 "Support for loading glTF 2.0 scenes at run-time, including from an exported "
@@ -1599,42 +1529,9 @@ msgstr ""
 msgid "Networking"
 msgstr "Сеть"
 
-#, fuzzy
-msgid ""
-"Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
-"`class_TCPServer`."
-msgstr ""
-"Низкоуровневая сеть TCP с использованием :ref:`class_StreamPeer`и :ref:"
-"`class_TCPServer`."
-
-#, fuzzy
-msgid ""
-"Low-level UDP networking using :ref:`class_PacketPeer` and :ref:"
-"`class_UDPServer`."
-msgstr ""
-"Низкоуровневая сеть UDP с использованием :ref:`class_PacketPeer` и :ref:"
-"`class_UDPServer`."
-
-#, fuzzy
-msgid "Low-level HTTP requests using :ref:`class_HTTPClient`."
-msgstr "Низкоуровневые HTTP-запросы с использованием :ref:`class_HTTPClient`."
-
-#, fuzzy
-msgid "High-level HTTP requests using :ref:`class_HTTPRequest`."
-msgstr ""
-"Высокоуровневые HTTP-запросы с использованием :ref:`class_HTTPRequest`."
-
 msgid "Supports HTTPS out of the box using bundled certificates."
 msgstr ""
 "Поддержка HTTPS прямо из коробки с использованием связанных сертификатов."
-
-#, fuzzy
-msgid ""
-":ref:`High-level multiplayer <doc_high_level_multiplayer>` API using UDP and "
-"ENet."
-msgstr ""
-":ref:`Высокоуровневый мультиплеерный <doc_high_level_multiplayer>`API с "
-"использованием UDP и ENet."
 
 msgid "Automatic replication using remote procedure calls (RPCs)."
 msgstr ""
@@ -1642,28 +1539,6 @@ msgstr ""
 
 msgid "Supports unreliable, reliable and ordered transfers."
 msgstr "Поддержка ненадёжных, надёжных и заказанных переводов."
-
-#, fuzzy
-msgid ""
-":ref:`WebSocket <doc_websocket>` client and server, available on all "
-"platforms."
-msgstr ""
-":ref:`WebSocket <doc_websocket>` клиент и сервер, доступные на всех "
-"платформах."
-
-#, fuzzy
-msgid ""
-":ref:`WebRTC <doc_webrtc>` client and server, available on all platforms."
-msgstr ""
-":ref:`WebRTC <doc_webrtc>` клиент и сервер, доступные на всех платформах."
-
-#, fuzzy
-msgid ""
-"Support for :ref:`UPnP <class_UPNP>` to sidestep the requirement to forward "
-"ports when hosting a server behind a NAT."
-msgstr ""
-"Поддержка :ref:`UPnP <class_UPNP>` для обхода требования пересылки портов "
-"при размещении сервера за NAT."
 
 msgid "Internationalization"
 msgstr "Интернационализация"
@@ -1678,10 +1553,6 @@ msgstr ""
 "Сохранение строк локализации, используя :ref:`CSV "
 "<doc_internationalizing_games>` или :ref:`gettext "
 "<doc_localization_using_gettext>`."
-
-#, fuzzy
-msgid "Support for generating gettext POT and PO files from the editor."
-msgstr "Поддержка генерации gettext POT и PO файлов из редактора."
 
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
@@ -1722,12 +1593,6 @@ msgstr "Окна и интеграция в ОС"
 msgid "Spawn multiple independent windows within a single process."
 msgstr "Создание нескольких независимых окон в рамках одного процесса."
 
-#, fuzzy
-msgid "Move, resize, minimize, and maximize windows spawned by the project."
-msgstr ""
-"Перемещайте, изменяйте размер, минимизируйте и увеличивайте окно, созданное "
-"проектом."
-
 msgid "Change the window title and icon."
 msgstr "Изменение заголовка и значка окна."
 
@@ -1748,24 +1613,8 @@ msgstr ""
 "быстрого переключения по alt-табу, но при желании можно использовать "
 "эксклюзивный полноэкранный режим для уменьшения задержки ввода."
 
-#, fuzzy
-msgid "Borderless windows (fullscreen or non-fullscreen)."
-msgstr "Окно без полей (полноэкранное или не полноэкранное)."
-
-#, fuzzy
-msgid "Ability to keep a window always on top."
-msgstr "Возможность держать окно всегда сверху."
-
 msgid "Global menu integration on macOS."
 msgstr "Интеграция глобального меню в macOS."
-
-#, fuzzy
-msgid ""
-"Execute commands in a blocking or non-blocking manner (including running "
-"multiple instances of the same project)."
-msgstr ""
-"Выполнять команды блокирующим или неблокирующим образом (включая запуск "
-"нескольких экземпляров одного и того же проекта)."
 
 msgid ""
 "Open file paths and URLs using default or custom protocol handlers (if "
@@ -1808,28 +1657,12 @@ msgstr "Поддержка XR (AR и VR)"
 msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
 msgstr "Из коробки :ref:`поддержка OpenXR <doc_setting_up_xr>`."
 
-#, fuzzy
-msgid ""
-"Including support for popular desktop headsets like the Valve Index, WMR "
-"headsets, and Quest over Link."
-msgstr ""
-"Включает поддержку популярных настольных гарнитур, таких как Valve Index, "
-"WMR гарнитуры и Quest over Link."
-
 msgid ""
 "Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
 "OpenXR through a plugin."
 msgstr ""
 "Поддержка :ref:`гарнитур на базе Android <doc_deploying_to_android>` с "
 "помощью OpenXR через плагин."
-
-#, fuzzy
-msgid ""
-"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
-"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
-msgstr ""
-"Включает поддержку популярных автономных гарнитур, таких как Meta Quest "
-"1/2/3 и Pro, Pico 4, Magic Leap 2, и Lynx R1."
 
 msgid "Other devices supported through an XR plugin structure."
 msgstr "Другие устройства, поддерживаемые через структуру плагинов XR."
@@ -1872,26 +1705,11 @@ msgstr ""
 "редактирования кода, такие как отображение номеров строк и подсветка "
 "синтаксиса."
 
-#, fuzzy
-msgid ""
-"Dropdown menus using :ref:`class_PopupMenu` and :ref:`class_OptionButton`."
-msgstr ""
-"Выпадающие меню с помощью :ref:`class_PopupMenu` и :ref:`class_OptionButton`."
-
 msgid "Scrollbars."
 msgstr "Полосы прокрутки."
 
 msgid "Labels."
 msgstr "Метки."
-
-#, fuzzy
-msgid ""
-"RichTextLabel for :ref:`text formatted using BBCode "
-"<doc_bbcode_in_richtextlabel>`, with support for animated custom effects."
-msgstr ""
-"RichTextLabel для :ref:`текста, отформатированного с использованием BBCode "
-"<doc_bbcode_in_richtextlabel>`, с поддержкой анимированных пользовательских "
-"эффектов."
 
 msgid "Trees (can also be used to represent tables)."
 msgstr "Деревья (также могут использоваться для представления таблиц)."
@@ -1921,33 +1739,8 @@ msgstr ":ref:`Stack <class_BoxContainer>`-компоновка."
 msgid ":ref:`Grid <class_GridContainer>` layouts."
 msgstr ":ref:`Grid <class_GridContainer>`-компоновка."
 
-#, fuzzy
-msgid ""
-":ref:`Flow <class_FlowContainer>` layouts (similar to autowrapping text)."
-msgstr ""
-":ref:`Flow <class_FlowContainer>`-компоновка (аналогично автоматическому "
-"переносу текста)."
-
-#, fuzzy
-msgid ""
-":ref:`Margin <class_MarginContainer>`, :ref:`centered "
-"<class_CenterContainer>` and :ref:`aspect ratio "
-"<class_AspectRatioContainer>` layouts."
-msgstr ""
-":ref:`Margin <class_MarginContainer>`, :ref:`centered "
-"<class_CenterContainer>`и :ref:`aspect ratio <class_AspectRatioContainer>` -"
-"компоновка."
-
 msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
 msgstr "Макеты :ref:`Переносимого разделителя <class_SplitContainer>`."
-
-#, fuzzy
-msgid ""
-"Scale to :ref:`multiple resolutions <doc_multiple_resolutions>` using the "
-"``canvas_items`` or ``viewport`` stretch modes."
-msgstr ""
-"Масштабирование до :ref:`нескольких разрешений <doc_multiple_resolutions>` с "
-"помощью ``canvas_items`` или ``viewport`` режимов растяжения."
 
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
@@ -2147,14 +1940,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "Имеет разрешительную лицензию MIT."
-
-#, fuzzy
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"Открытый процесс разработки с помощью :ref:`вкладов приветствуется "
-"<doc_ways_to_contribute>`."
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

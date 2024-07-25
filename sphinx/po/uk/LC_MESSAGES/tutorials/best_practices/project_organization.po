@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,21 +131,6 @@ msgstr ""
 "Щоб Godot не імпортував файли, що містяться в певній теці, створіть в ній "
 "порожній файл, який називається ``.gdignore``(крапка ``.`` обов'язкова). Це "
 "може бути корисно для пришвидшення імпорту початкового проєкту."
-
-msgid ""
-"To create a file whose name starts with a dot on Windows, place a dot at "
-"both the beginning and end of the filename (\".gdignore.\"). Windows will "
-"automatically remove the trailing dot when you confirm the name."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Alternatively, you can use a text editor such as Notepad++ or use the "
-"following command in a command prompt: ``type nul > .gdignore``"
-msgstr ""
-"Щоб створити файл, ім'я якого починається з крапки в Windows, ви можете "
-"скористатися текстовим редактором, таким як Notepad++, або скористатися "
-"такою командою в командному рядку: ``type nul > .gdignore``"
 
 msgid ""
 "Once the folder is ignored, resources in that folder can't be loaded anymore "

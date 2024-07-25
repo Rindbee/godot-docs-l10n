@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -191,23 +186,6 @@ msgstr ""
 "理和空閒處理 <doc_idle_and_physical_processing>`。運作每一影格的程式碼稱為空"
 "閒處理，在每個物理滴答上運作的程式碼稱為物理處理。 Godot 提供了兩種不同的回"
 "調，每種回調對應一種處理速率。"
-
-#, fuzzy
-msgid ""
-"The physics callback, :ref:`Node._physics_process() "
-"<class_Node_private_method__physics_process>`, is called before each physics "
-"step. Any code that needs to access a body's properties should be run in "
-"here. This method will be passed a ``delta`` parameter, which is a floating-"
-"point number equal to the time passed in *seconds* since the last step. When "
-"using the default 60 Hz physics update rate, it will typically be equal to "
-"``0.01666...`` (but not always, see below)."
-msgstr ""
-"為了避免這種不準確性, 任何需要存取物體屬性的程式碼都應該在 :ref:`Node."
-"_physics_process() <class_Node_method__physics_process>` 回呼函式中運作, 它在"
-"每個物理步驟之前以恒定的畫面播放速率(預設為每秒60次)被呼叫. 一個 ``delta`` 參"
-"數會傳遞給這個方法, 這個參數是一個浮點數, 等於自上一步以來經過的時間( *秒"
-"* ). 當使用預設的60Hz物理更新率時, 它通常等於 ``0.01666...`` (但並非總是如"
-"此, 見下文)."
 
 msgid ""
 "It's recommended to always use the ``delta`` parameter when relevant in your "
@@ -422,26 +400,6 @@ msgstr ""
 "您正在製作一個帶有下降塊的《憤怒的小鳥》式遊戲，您只需要建立 RigidBody2D 並調"
 "整它們的屬性。堆疊、下降、彈跳將由物理引擎自動計算。"
 
-#, fuzzy
-msgid ""
-"However, if you do wish to have some control over the body, you should take "
-"care - altering the ``position``, ``linear_velocity``, or other physics "
-"properties of a rigid body can result in unexpected behavior. If you need to "
-"alter any of the physics-related properties, you should use the :ref:"
-"`_integrate_forces() <class_RigidBody2D_private_method__integrate_forces>` "
-"callback instead of ``_physics_process()``. In this callback, you have "
-"access to the body's :ref:`PhysicsDirectBodyState2D "
-"<class_PhysicsDirectBodyState2D>`, which allows for safely changing "
-"properties and synchronizing them with the physics engine."
-msgstr ""
-"然而, 如果你確實希望對物體有一些控制, 應該注意改變剛體的 ``position``, "
-"``linear_velocity`` 或其他物理屬性可能會導致意外的行為. 如果你需要改變任何與"
-"物理相關的屬性, 應該使用 :ref:`_integrate_forces() "
-"<class_RigidBody2D_method__integrate_forces>` 回呼函式來代替 "
-"``_physics_process()`` . 在這個回呼函式中, 你可以存取body的 :ref:"
-"`Physics2DDirectBodyState <class_Physics2DDirectBodyState>`, 它允許安全地改變"
-"屬性並與物理引擎同步."
-
 msgid "For example, here is the code for an \"Asteroids\" style spaceship:"
 msgstr "例如，以下是《爆破彗星》式太空船的程式碼："
 
@@ -566,16 +524,6 @@ msgstr ""
 "滑動是一種常見的碰撞回應; 想像一個遊戲角色在上帝視角的遊戲中沿著牆壁移動, 或"
 "者在平臺遊戲中上下坡. 雖然可在使用 ``move_and_collide()`` 之後自己編寫這個回"
 "應, 但 ``move_and_slide()`` 提供了一種快捷方法來實作滑動且無需編寫太多程式碼."
-
-#, fuzzy
-msgid ""
-"``move_and_slide()`` automatically includes the timestep in its calculation, "
-"so you should **not** multiply the velocity vector by ``delta``. This does "
-"**not** apply to ``gravity`` as it is an acceleration and is time dependent, "
-"and needs to be scaled by ``delta``."
-msgstr ""
-"``move_and_slide()`` 在計算中自動包含時間步長, 因此您 **不** 應將速度向量乘"
-"以 ``delta`` ."
 
 msgid ""
 "For example, use the following code to make a character that can walk along "

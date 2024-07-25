@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Editor introduction"
-msgstr "Векторная интерполяция"
-
 msgid ""
 "In this section, we cover the Godot editor in general, from its interface to "
 "using it with the command line."
 msgstr ""
 "В этом разделе мы рассмотрим редактор Godot в целом, от его интерфейса до "
 "использования в командной строке."
-
-#, fuzzy
-msgid "Editor's interface"
-msgstr "Интерфейс редактора (C++)"
-
-#, fuzzy
-msgid ""
-"The following pages explain how to use the various windows, workspaces, and "
-"docks that make up the Godot editor. We cover some specific editors' "
-"interface in other sections where appropriate. For example, the :ref:"
-"`animation editor <doc_introduction_animation>`."
-msgstr ""
-"В этом разделе мы рассмотрим редактор Godot в целом, начиная с его "
-"интерфейса и заканчивая использованием его в командной строке. Интерфейс "
-"некоторых конкретных редакторов рассматривается в других разделах, где это "
-"необходимо. Например, :ref:`Введение в возможности анимации "
-"<doc_introduction_animation>`."
-
-#, fuzzy
-msgid "Android editor"
-msgstr "Android Studio"
 
 msgid ""
 "Godot offers a native port of the editor running entirely on Android "
@@ -62,10 +32,6 @@ msgstr ""
 "что мы стремимся к паритету возможностей с десктопной версией редактора, "
 "Android-порт имеет ряд оговорок, о которых вам следует знать."
 
-#, fuzzy
-msgid "Web editor"
-msgstr "Редактор"
-
 msgid ""
 "Godot offers an HTML5 version of the editor running entirely in your "
 "browser. No download is required to use it, but it has a certain amount of "
@@ -75,10 +41,6 @@ msgstr ""
 "браузере. Для ее использования не требуется загрузка, но она имеет ряд "
 "недостатков, о которых вам следует знать."
 
-#, fuzzy
-msgid "Advanced features"
-msgstr "Расширенный экспорт"
-
 msgid ""
 "The articles below focus on advanced features useful for experienced "
 "developers, such as calling Godot from the command line and using an "
@@ -87,10 +49,6 @@ msgstr ""
 "Статьи ниже посвящены расширенным возможностям, полезным для опытных "
 "разработчиков, таким как вызов Godot из командной строки и использование "
 "внешнего текстового редактора, например Visual Studio Code или Emacs."
-
-#, fuzzy
-msgid "Managing editor features"
-msgstr "Изучение новых функций"
 
 msgid ""
 "Godot allows you to remove features from the editor. This may be useful if "

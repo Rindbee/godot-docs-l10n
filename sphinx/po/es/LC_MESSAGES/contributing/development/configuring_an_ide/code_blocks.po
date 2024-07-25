@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,33 +103,6 @@ msgid ""
 msgstr ""
 "El siguiente paso es cambiar las opciones de compilación. Haz clic derecho "
 "en el nuevo proyecto y selecciona **Build Options...**."
-
-#, fuzzy
-msgid ""
-"Select the **\"Make\" commands** tab and remove all the existing commands "
-"for all the build targets. For each build target enter the **SCons** command "
-"for creating the desired build in the **Build project/target** field. The "
-"minimum is ``scons``. For details on the **SCons** build options, see :ref:"
-"`doc_introduction_to_the_buildsystem`. It's also useful to add the ``scons --"
-"clean`` command in the **Clean project/target** field to the project's "
-"default commands."
-msgstr ""
-"Selecciona la pestaña **\"Make\" commands** y elimina todos los comandos "
-"existentes para todos los objetivos de compilación. Para cada objetivo de "
-"compilación, introduce el comando **SCons** para crear la compilación "
-"deseada en el campo **Build project/target**. El mínimo es ``scons``. Para "
-"obtener más detalles sobre las opciones de compilación de **SCons**, "
-"consulta :ref:`doc_introduction_to_the_buildsystem`. También es útil agregar "
-"el comando ``scons --clean`` en el campo **Clean project/target** para los "
-"comandos predeterminados del proyecto."
-
-#, fuzzy
-msgid ""
-"If you're using Windows, all the commands need to be preceded with ``cmd /"
-"c`` to initialize the command interpreter."
-msgstr ""
-"Si estás utilizando Windows, todos los comandos deben ir precedidos de "
-"``cmd /c`` para inicializar el intérprete de comandos."
 
 msgid "Windows example:"
 msgstr "Ejemplo en Windows:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,11 +117,13 @@ msgid ""
 "Comment out the lines ``var velocity = Vector2.UP.rotated(rotation) * "
 "speed`` and ``position += velocity * delta`` like this:"
 msgstr ""
+"将 ``var velocity = Vector2.UP.rotated(rotation) * speed``和``position += "
+"velocity * delta``两行代码注释，像这样："
 
 msgid ""
 "This will ignore the code that moved the icon's position in a circle without "
 "user input from the previous exercise."
-msgstr ""
+msgstr "这将忽略在没有用户输入的情况下在圆中移动图标位置的代码。"
 
 msgid ""
 "If you run the scene with this code, the icon should rotate when you press :"
@@ -138,14 +135,13 @@ msgstr ""
 msgid "Moving when pressing \"up\""
 msgstr "按“上”时移动"
 
-#, fuzzy
 msgid ""
 "To only move when pressing a key, we need to modify the code that calculates "
 "the velocity. Uncomment the code and replace the line starting with ``var "
 "velocity`` with the code below."
 msgstr ""
-"为了只在按下一个键时移动，我们需要修改计算速度的代码。用下面的代码替换以 "
-"``var velocity`` 开始的一行。"
+"为了只在按键时移动，我们需要修改计算速度的代码。取消注释代码，并将以 ``var "
+"velocity`` 开头的行替换为下面的代码。"
 
 msgid ""
 "We initialize the ``velocity`` with a value of ``Vector2.ZERO``, another "

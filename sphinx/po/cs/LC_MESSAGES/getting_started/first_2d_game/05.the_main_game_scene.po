@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,18 +32,6 @@ msgstr ""
 "nevyžaduje.)"
 
 msgid ""
-"Click the **Instance** button (represented by a chain link icon) and select "
-"your saved ``player.tscn``."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr ""
-"Nyní přidejte následující uzly jako potomky ``Main`` a pojmenujte je podle "
-"obrázku (hodnoty jsou v sekundách):"
-
-msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
 "spawn"
 msgstr ""
@@ -68,20 +51,6 @@ msgid ""
 msgstr ""
 ":ref:`Timer <class_Timer>` (pojmenovaný ``StartTimer``) - pro zpoždění před "
 "spuštěním"
-
-#, fuzzy
-msgid ""
-":ref:`Marker2D <class_Marker2D>` (named ``StartPosition``) - to indicate the "
-"player's start position"
-msgstr ""
-":ref:`Position2D <class_Position2D>` (pojmenovaný ``StartPosition``) - pro "
-"označení počáteční pozice hráče"
-
-#, fuzzy
-msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
-"(values are in seconds):"
-msgstr "Nastavte vlastnost ``Wait Time`` každého z uzlů ``Timer`` takto:"
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``: ``0.5``"
@@ -112,20 +81,6 @@ msgstr ""
 "místě při okraji obrazovky. Přidejte a :ref:`Path2D <class_Path2D>` uzel s "
 "názvem ``MobPath`` jako potomka ``Main``. Když vyberete ``Path2D``, uvidíte "
 "v horní části editoru některá nová tlačítka:"
-
-#, fuzzy
-msgid ""
-"Select the middle one (\"Add Point\") and draw the path by clicking to add "
-"the points at the corners shown. To have the points snap to the grid, make "
-"sure \"Use Grid Snap\" and \"Use Smart Snap\" are both selected. These "
-"options can be found to the left of the \"Lock\" button, appearing as a "
-"magnet next to some dots and intersecting lines, respectively."
-msgstr ""
-"Vyberte prostřední (\"Add point\") a nakreslete křivku přidáním bodů "
-"klepnutím v zobrazených rozích. Chcete-li, aby se body přichytíly k mřížce, "
-"ujistěte se, že je vybraná možnost \"Use Grid Snap\" mřížky. Tuto možnost "
-"lze nalézt nalevo od tlačítka \"Lock\", které se zobrazí jako magnet vedle "
-"některých protínajících se čar."
 
 msgid ""
 "Draw the path in *clockwise* order, or your mobs will spawn pointing "
@@ -159,119 +114,14 @@ msgstr "Vaše scéna by měla vypadat takto:"
 msgid "Main script"
 msgstr "Hlavní skript"
 
-#, fuzzy
-msgid ""
-"Add a script to ``Main``. At the top of the script, we use ``@export var "
-"mob_scene: PackedScene`` to allow us to choose the Mob scene we want to "
-"instance."
-msgstr ""
-"Přidejte do ``Main`` skript. V horní části skriptu používáme ``export "
-"(PackedScene)``, abychom nám mohli vybrat scénu Mob, pro kterou chceme "
-"vytvořit instanci."
-
-#, fuzzy
-msgid ""
-"Click the ``Main`` node and you will see the ``Mob Scene`` property in the "
-"Inspector under \"Main.gd\"."
-msgstr ""
-"Klikněte na uzel ``Main`` a uvidíte vlastnost ``MobScene`` v Inspektoru pod "
-"\"Proměnné skriptu\"."
-
 msgid "You can assign this property's value in two ways:"
 msgstr "Hodnotu této vlastnosti můžete přiřadit dvěma způsoby:"
-
-#, fuzzy
-msgid ""
-"Drag ``mob.tscn`` from the \"FileSystem\" dock and drop it in the **Mob "
-"Scene** property."
-msgstr "Přetáhněte ``Mob.tscn`` z panelu \"FileSystem\" do vlastnosti ``Mob``."
-
-#, fuzzy
-msgid ""
-"Click the down arrow next to \"[empty]\" and choose \"Load\". Select ``mob."
-"tscn``."
-msgstr ""
-"Klikněte na šipku dolů vedle „[prázdné]“ a vyberte „Načíst“. Vyberte `` Mob."
-"tscn``."
-
-#, fuzzy
-msgid ""
-"Next, select the instance of the ``Player`` scene under ``Main`` node in the "
-"Scene dock, and access the Node dock on the sidebar. Make sure to have the "
-"Signals tab selected in the Node dock."
-msgstr ""
-"Vyberte uzel ``Player`` ve stromové struktuře scény a poté zvolte kartu "
-"„Uzel“. Dále se ujistěte, že máte vybranou možnost „Signály“."
-
-#, fuzzy
-msgid ""
-"You should see a list of the signals for the ``Player`` node. Find and "
-"double-click the ``hit`` signal in the list (or right-click it and select "
-"\"Connect...\"). This will open the signal connection dialog. We want to "
-"make a new function named ``game_over``, which will handle what needs to "
-"happen when a game ends. Type \"game_over\" in the \"Receiver Method\" box "
-"at the bottom of the signal connection dialog and click \"Connect\". You are "
-"aiming to have the ``hit`` signal emitted from ``Player`` and handled in the "
-"``Main`` script. Add the following code to the new function, as well as a "
-"``new_game`` function that will set everything up for a new game:"
-msgstr ""
-"Měli byste vidět seznam signálů pro uzel ``Player``. Vyhledejte a poklepejte "
-"na signál ``hit`` v seznamu (nebo na něj klikněte pravým tlačítkem a vyberte "
-"\"Připojit ...\"). Otevře se dialogové okno pro připojení signálu. Chceme "
-"vytvořit novou funkci s názvem ``game_over``, která se postará o to, co se "
-"musí stát, až hra skončí. Do pole „Metoda příjemce“ ve spodní části "
-"dialogového okna pro připojení signálu zadejte „game_over“ a klikněte na "
-"„Připojit“. K nové funkci přidejte následující kód a také funkci "
-"``new_game``, která nastaví vše pro novou hru:"
-
-#, fuzzy
-msgid ""
-"Now connect the ``timeout()`` signal of each of the Timer nodes "
-"(``StartTimer``, ``ScoreTimer``, and ``MobTimer``) to the main script. "
-"``StartTimer`` will start the other two timers. ``ScoreTimer`` will "
-"increment the score by 1."
-msgstr ""
-"Nyní připojte signál ``timeout()`` každého z uzlů časovače ( ``StartTimer``, "
-"``ScoreTimer`` a ``MobTimer``) do hlavního skriptu. ``StartTimer`` spustí "
-"další dva časovače. ``ScoreTimer`` zvýší skóre o 1."
-
-#, fuzzy
-msgid ""
-"In ``_on_mob_timer_timeout()``, we will create a mob instance, pick a random "
-"starting location along the ``Path2D``, and set the mob in motion. The "
-"``PathFollow2D`` node will automatically rotate as it follows the path, so "
-"we will use that to select the mob's direction as well as its position. When "
-"we spawn a mob, we'll pick a random value between ``150.0`` and ``250.0`` "
-"for how fast each mob will move (it would be boring if they were all moving "
-"at the same speed)."
-msgstr ""
-"V ``_on_MobTimer_timeout ()`` vytvoříme instanci nepřítele, vybereme náhodné "
-"počáteční místo podél ``Path2D`` a dáme nepřítele do pohybu. Uzel "
-"``PathFollow2D`` se bude automaticky otáčet, jak následuje cestu, takže ji "
-"použijeme k výběru směru a polohy nepřátel. Při vynoření nepřítele "
-"vybereme'náhodnou hodnotu mezi ``150.0`` a ``250.0`` pro to, jak rychle se "
-"budou jednotliví nepřátelé pohybovat (byla by nuda, kdyby se všichni "
-"pohybovali stejnou rychlostí)."
 
 msgid ""
 "Note that a new instance must be added to the scene using ``add_child()``."
 msgstr ""
 "Všimněte si, že do scény musí být přidána nová instance pomocí "
 "``add_child()``."
-
-#, fuzzy
-msgid ""
-"Why ``PI``? In functions requiring angles, Godot uses *radians*, not "
-"degrees. Pi represents a half turn in radians, about ``3.1415`` (there is "
-"also ``TAU`` which is equal to ``2 * PI``). If you're more comfortable "
-"working with degrees, you'll need to use the ``deg_to_rad()`` and "
-"``rad_to_deg()`` functions to convert between the two."
-msgstr ""
-"Proč ``PI``? Ve funkcích vyžadujících úhly používá GDScript *radiany*, "
-"nikoli stupně. Pí představuje půl otáčky v radiánech, přibližně ``3.1415`` "
-"(existuje také ``TAU``, který je roven ``2 * PI``).Pokud se vám pracuje "
-"pohodlněji se stupni, budete muset použít převodní funkce ``deg2rad()`` a "
-"``rad2deg()``."
 
 msgid "Testing the scene"
 msgstr "Testování scény"
@@ -283,40 +133,12 @@ msgstr ""
 "Vyzkoušejte scénu, abychom se ujistili, že vše funguje. Přidejte volání "
 "``new_game`` do ``_ready()``:"
 
-#, fuzzy
-msgid ""
-"Let's also assign ``Main`` as our \"Main Scene\" - the one that runs "
-"automatically when the game launches. Press the \"Play\" button and select "
-"``main.tscn`` when prompted."
-msgstr ""
-"Pojďme také přiřadit ``Main`` jako „Hlavní scénu“ - ta, která se spustí "
-"automaticky při spuštění hry. Stiskněte tlačítko \"Play\" a po zobrazení "
-"výzvy vyberte ``Main.tscn``."
-
-msgid ""
-"If you had already set another scene as the \"Main Scene\", you can right "
-"click ``main.tscn`` in the FileSystem dock and select \"Set As Main Scene\"."
-msgstr ""
-
 msgid ""
 "You should be able to move the player around, see mobs spawning, and see the "
 "player disappear when hit by a mob."
 msgstr ""
 "Měli byste být schopni pohybovat hráčem do všech směrů, vidět rozmnožování "
 "nepřátek a sledovat, jak hráč zmizí, když je zasažen nepřítelem."
-
-#, fuzzy
-msgid ""
-"When you're sure everything is working, remove the call to ``new_game()`` "
-"from ``_ready()`` and replace it with ``pass``."
-msgstr ""
-"Pokud jste si jisti, že vše funguje, odeberte volání ``new_game()`` z "
-"``_ready()``."
-
-msgid ""
-"What's our game lacking? Some user interface. In the next lesson, we'll add "
-"a title screen and display the player's score."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stav překladu"

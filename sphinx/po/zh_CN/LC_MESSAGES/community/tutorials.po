@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,12 +69,12 @@ msgstr "下面提到的一些教程提供了更高级的教程, 例如3D或着�
 msgid "Video tutorials"
 msgstr "视频教程"
 
-#, fuzzy
 msgid ""
 "`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR and VR, "
 "GDScript)"
 msgstr ""
-"`HeartBeast <https://www.youtube.com/@uheartbeast>`_\\ （2D、GDScript）"
+"`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR 和 VR, "
+"GDScript)"
 
 msgid ""
 "`BornCG <https://www.youtube.com/playlist?"
@@ -149,19 +144,16 @@ msgid "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
 msgstr ""
 "`HeartBeast <https://www.youtube.com/@uheartbeast>`_\\ （2D、GDScript）"
 
-#, fuzzy
 msgid ""
 "`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR and VR, GDScript)"
 msgstr ""
-"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_\\ （2D、"
+"`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_\\ （AR 和 VR、"
 "GDScript）"
 
-#, fuzzy
 msgid ""
 "`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D and VR, GDSCript)"
 msgstr ""
-"`Godotneers <https://www.youtube.com/@godotneers>`_\\ （2D、着色器、"
-"GDScript）"
+"`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_\\ （2D、3D、VR、GDScript）"
 
 msgid ""
 "`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
@@ -185,19 +177,15 @@ msgstr ""
 msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
 msgstr "`Quiver <https://quiver.dev/>`_\\ （2D、GDScript）"
 
-#, fuzzy
 msgid ""
 "`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, networked "
 "multiplayer, AR and VR, GDScript)"
 msgstr ""
-"`Game Development Center <https://www.youtube.com/c/"
-"GameDevelopmentCenter>`_\\ （2D、网络多人、GDScript）"
+"`Snopek Games <https://www.youtube.com/@SnopekGames>`_\\ （3D、网络多人、AR "
+"和 VR、GDScript）"
 
 msgid "Text tutorials"
 msgstr "文字教程"
-
-msgid "`FinepointCGI website by Mitch <https://finepointcgi.io/>`__"
-msgstr "`Mitch 的网站 FinepointCGI <http://finepointcgi.io/>`__"
 
 msgid "`GDScript website by Andrew Wilkes <https://gdscript.com>`__"
 msgstr "`Andrew Wilkes 的网站 GDScript <https://gdscript.com>`__"
@@ -248,13 +236,6 @@ msgid ""
 "`Godot Shaders: A community-driven shader library <https://godotshaders.com/"
 ">`_"
 msgstr "`Godot Shaders：社区驱动的着色器库 <https://godotshaders.com/>`_"
-
-msgid ""
-"`Zeef Godot Engine: A curated directory of resources by Andre Schmitz "
-"<https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
-msgstr ""
-"`Zeef Godot Engine：Andre Schmitz 整理的资源目录 <https://godot-engine.zeef."
-"com/andre.antonio.schmitz>`_"
 
 msgid "Translation status"
 msgstr "翻译状态"

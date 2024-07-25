@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,28 +31,6 @@ msgid ""
 msgstr ""
 "关卡原型是 Godot 中 CSG 的主要用途之一。该技术允许用户通过组合图元来创建最常"
 "见形状的简单版本。可以使用反转图元创建内部环境。"
-
-#, fuzzy
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"Godot 中的 CSG 节点主要用于原型设计。没有内置的对 UV 贴图或编辑 3D 多边形的支"
-"持（尽管拉伸 2D 多边形可以与 CSGPolygon3D 节点一起使用）。"
-
-#, fuzzy
-msgid ""
-"If you're looking for an easy to use level design tool for a project, you "
-"may want to use `FuncGodot <https://github.com/func-godot/"
-"func_godot_plugin>`__ or `Cyclops Level Builder <https://github.com/"
-"blackears/cyclopsLevelBuilder>`__ instead."
-msgstr ""
-"如果你正在为一个项目寻找一个简单易用的关卡设计工具, 你可能会想使用 `Qodot "
-"<https://github.com/Shfty/qodot-plugin>`__ 来代替. 它可以让你使用 "
-"`TrenchBroom <https://kristianduske.com/trenchbroom/>`__ 设计关卡, 并在Godot"
-"中导入它们."
 
 msgid ""
 "You can check how to use CSG nodes to build various shapes (such as stairs "

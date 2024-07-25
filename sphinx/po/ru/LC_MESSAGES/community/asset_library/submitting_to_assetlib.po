@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "Submitting to the Asset Library"
-msgstr ""
 
 msgid "Introduction"
 msgstr "Введение"
@@ -41,76 +33,8 @@ msgstr ""
 "доступ к отправке ресурсов в AssetLib, Вам необходимо зарегистрироваться или "
 "войти в систему."
 
-msgid "Submission guidelines"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Before submitting your asset, please ensure it follows all of the "
-"requirements, and also consider following the recommendations."
-msgstr ""
-"Перед отправкой Вашего ассета, пожалуйста, удостоверьтесь, что он "
-"соответствует всем требованиям и также учтите следующие рекомендации."
-
 msgid "Requirements"
 msgstr "Требования"
-
-#, fuzzy
-msgid ""
-"Generally speaking, most assets people submit to the asset library are "
-"accepted. However, in order for your asset to be accepted, there are a few "
-"requirements your asset needs to meet to be approved."
-msgstr ""
-"Как правило, большинство ресурсов отправляемых в библиотеку, одобряются. "
-"Однако, чтобы Ваш ресурс одобрили и приняли, он должен соответствовать "
-"некоторым требованиям."
-
-#, fuzzy
-msgid ""
-"The asset must **work**. If the asset doesn't run or otherwise doesn't work "
-"in the specified Godot version, then it will be rejected."
-msgstr ""
-"Ресурс должен **работать**. Если ресурс не запускается или в противном "
-"случае не работает в установленной версии Godot, то тогда он будет отклонен."
-
-#, fuzzy
-msgid ""
-"The asset must have a proper **.gitignore** file. It's important to keep "
-"redundant data out of the repository. `Here's a template. <https://raw."
-"githubusercontent.com/aaronfranke/gitignore/godot/Godot.gitignore>`_"
-msgstr ""
-"Необходимо, чтобы у ресурса был соответствующий файл **.gitignore**. Важно, "
-"чтобы резервные данные хранились вне архива. `Ниже предоставлен шаблон. "
-"<https://raw.githubusercontent.com/aaronfranke/gitignore/godot/Godot."
-"gitignore>`_"
-
-msgid ""
-"No **submodules**, or any submodules must be non-essential. GitHub does not "
-"include submodules in the downloaded ZIP file, so if the asset needs the "
-"contents of the submodule, your asset won't work."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The **license** needs to be correct. The license listed on the asset library "
-"must match the license in the repository. The repo MUST have a license file, "
-"called either \"LICENSE\" or \"LICENSE.md\". This file must contain the "
-"license text itself and a copyright statement that includes the year(s) and "
-"copyright holder."
-msgstr ""
-"Необходимо скорректировать **лицензию**. Лицензия, указанная в библиотеке "
-"ресурсов должна соответствовать лицензии в архиве. В архиве обязательно "
-"должен присутствовать лицензионный файл под названием \"LICENSE\" или "
-"\"LICENSE.md\". Этот файл должен содержать сам лицензионный текст и указание "
-"об авторских правах, которое включает в себя даты и обладателя авторских "
-"прав."
-
-msgid ""
-"Use proper **English** for the name and description of your asset. This "
-"includes using correct capitalization, and using full sentences in the "
-"description. You can also include other languages, but there should at least "
-"be an English version."
-msgstr ""
 
 msgid ""
 "The icon link must be a **direct link**. For icons hosted on GitHub, the "
@@ -132,14 +56,6 @@ msgstr ""
 "следующие рекомендации, Вы поможете сделать библиотеку ресурсов лучше."
 
 msgid ""
-"When creating non-project assets, it is common practice to place your files "
-"inside of an **addons/asset_name/** folder. Do this to avoid having your "
-"files clash with other assets, or with the files of users installing your "
-"asset. This folder will **not** be automatically generated when a user "
-"installs your asset."
-msgstr ""
-
-msgid ""
 "Fix or suppress all script **warnings**. The warning system is there to help "
 "identify issues with your code, but people using your asset don't need to "
 "see them."
@@ -147,13 +63,6 @@ msgstr ""
 "Устраните или скройте все **предупреждения** скрипта. Система предупреждений "
 "помогает выявить проблемы в Вашем коде, но людям, пользующимся Вашими "
 "ресурсами, не нужно их видеть."
-
-msgid ""
-"Make your code conform to the official **style guides**. Having a consistent "
-"style helps other people read your code, and it also helps if other people "
-"wish to contribute to your asset. See: the :ref:`doc_gdscript_styleguide` or "
-"the :ref:`doc_c_sharp_styleguide`."
-msgstr ""
 
 msgid ""
 "If you have screenshots in your repo, place them in their own subfolder and "
@@ -168,55 +77,8 @@ msgstr ""
 "Windows откройте командную строку в папке проекта и запустите ``type nul > ."
 "gdignore``, чтобы создать файл, название которого начинается с точки."
 
-#, fuzzy
-msgid ""
-"If your asset is a library for working with other files, consider including "
-"**example files** in the asset."
-msgstr ""
-"Если Ваш ассет является библиотекой для работы с другими файлами, подумайте "
-"над тем, чтобы добавить **файлы-примеры** в Ваш ассет."
-
-#, fuzzy
-msgid ""
-"Consider adding a **.gitattributes** file to your repo. This file allows "
-"giving extra instructions to Git, such as specifying line endings and "
-"listing files not required for your asset to function with the ``export-"
-"ignore`` directive. This directive removes such files from the resulting ZIP "
-"file, preventing them from being downloaded by the asset library users. "
-"These are common examples of **.gitattributes**:"
-msgstr ""
-"Подумайте над тем, чтобы добавить файл **.gitattributes** в Ваш архив. Этот "
-"файл позволяет давать дополнительные инструкции для Git такие, как уточнение "
-"концов строк и перечисление файлов, которые не требуются для Вашего ресурса, "
-"чтобы функционировать с директивой``export-ignore``. Эта директива устраняет "
-"подобные файлы из итогового ZIP-файла, предотвращающего их от загрузки "
-"пользователями библиотеки ресурсов. Ниже приведены типичные примеры **."
-"gitattributes**:"
-
 msgid "Projects / Templates"
 msgstr "Проекты / Шаблоны"
-
-#, fuzzy
-msgid "Addons / Asset Packs"
-msgstr "Аддоны / Наборы ассетов"
-
-#, fuzzy
-msgid ""
-"If you are submitting a plugin, add a **copy** of your license and readme to "
-"the plugin folder itself. This is the folder that users are guaranteed to "
-"keep with their project, so a copy ensures they always have those files "
-"handy (and helps them fulfill your licensing terms)."
-msgstr ""
-"Если Вы отправляете плагин, добавьте **копию** Вашей лицензии и readme-файла "
-"в саму папку плагина. Пользователи смогут хранить эту папку вместе с их "
-"проектами, таким образом копия гарантирует, что эти файлы всегда будут у них "
-"под рукой (и помогает им выполнить Ваши лицензионные требования)."
-
-msgid ""
-"While the asset library allows more than just GitHub, consider hosting your "
-"asset's source code on **GitHub**. Other services may not work reliably, and "
-"a lack of familiarity can be a barrier to contributors."
-msgstr ""
 
 msgid "Submitting"
 msgstr "Предоставление"
@@ -234,71 +96,14 @@ msgstr "|image0|"
 msgid "image0"
 msgstr "image0"
 
-#, fuzzy
-msgid ""
-"While it may look like a lot (and there is more as you scroll down), each "
-"field is described in terms of what you should put in. We will nonetheless "
-"go over what is required in the submission form here as well."
-msgstr ""
-"В то время как может показаться, что нужно сделать слишком много (и "
-"информации становится всё больше по мере того, как вы пролистываете сайт "
-"вниз), каждое поле описывается в рамках того, что Вам в него нужно добавить. "
-"Тем не менее мы также пройдемся по тому, что требуется для отправки отсюда."
-
-#, fuzzy
-msgid "**Asset Name**:"
-msgstr "**Имена Ассетов**:"
-
-#, fuzzy
-msgid ""
-"The name of your asset. Should be a unique, descriptive title of what your "
-"asset is."
-msgstr ""
-"Имя Вашего ассета. Оно должно быть уникальным, наглядным названием того, что "
-"представляет Ваш ассет."
-
 msgid "**Category**:"
 msgstr "**Категория**:"
-
-#, fuzzy
-msgid ""
-"The category that your asset belongs to, and will be shown in search "
-"results. The category is split into **Addons** and **Projects**. In-editor, "
-"assets of the Project type (Templates, Demos, Projects) only show up when "
-"viewing the AssetLib from the Project Manager, while assets of the Addon "
-"type will only be visible from inside a project."
-msgstr ""
-"Категория, к которой принадлежит Ваш ассет и в которой будет показан "
-"результат поиска. Эта категория делится на **Аддоны** и **Проекты**. В "
-"редакторе ассет типа Проекта (Шаблоны, Демо-версии, Проекты) будет "
-"появляться только во время просмотра AssetLib из Project Manager, в то время "
-"как ассеты Аддоного типа будут просматриваться только внутри проекта."
 
 msgid "**Godot version**:"
 msgstr "**Версия Godot*:"
 
-msgid ""
-"The version of the engine that the asset works with. Currently, it's not "
-"possible to have a single asset entry contain downloads for multiple engine "
-"versions, so you may need to re-submit the asset multiple times, with an "
-"entry for each Godot version it supports. This is particularly important "
-"when dealing with major versions of the engine, such as Godot 2.x and Godot "
-"3.x."
-msgstr ""
-
 msgid "**Version**:"
 msgstr "**Version**:"
-
-msgid ""
-"The version number of the asset. While you are free to choose and use any "
-"versioning scheme that you like, you may want to look into something such as "
-"`SemVer <https://semver.org>`_ if you want your asset's versioning scheme to "
-"be clear and consistent. Note that there is also an internal version number, "
-"incremented every time the asset download URL is changed or updated."
-msgstr ""
-
-msgid "**Repository host**:"
-msgstr ""
 
 msgid ""
 "Assets uploaded to the AssetLib are not hosted on it directly. Instead, they "
@@ -314,12 +119,6 @@ msgstr ""
 
 msgid "**Repository URL**:"
 msgstr "**URL репозитория**:"
-
-msgid ""
-"The URL to your asset's files/webpage. This will vary based on your choice "
-"of provider, but it should look similar to `https://github.com/<user>/"
-"<project>`."
-msgstr ""
 
 msgid "**Issues URL**:"
 msgstr "**URL тикет-системы**:"
@@ -339,12 +138,6 @@ msgstr ""
 msgid "**Download Commit**:"
 msgstr "**Загрузить коммит**:"
 
-msgid ""
-"The commit of the asset. For example, "
-"`b1d3172f89b86e52465a74f63a74ac84c491d3e1`. The site computes the actual "
-"download URL from this."
-msgstr ""
-
 msgid "**Icon URL**:"
 msgstr "**URL значка**:"
 
@@ -363,11 +156,6 @@ msgid ""
 msgstr ""
 "Иконка должна быть квадратной, соотношение ее сторон должно составлять 1:1. "
 "Минимальное разрешение 128×128 пикселя."
-
-msgid ""
-"For icons hosted on GitHub, URLs must be provided in the form of `https://"
-"raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png`."
-msgstr ""
 
 msgid "**License**:"
 msgstr "**Licеnse**:"

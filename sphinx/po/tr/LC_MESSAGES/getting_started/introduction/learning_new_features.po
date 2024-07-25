@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,21 +44,6 @@ msgstr ""
 "için var ise, genellikle onunla yakından ilgili diğer içeriklere bağlantılar "
 "barındırır."
 
-msgid ""
-"The manual has a companion class reference that explains each Godot class's "
-"available functions and properties when programming. While the manual covers "
-"general features, concepts, and how to use the editor, the reference is all "
-"about using Godot's scripting API (Application Programming Interface). You "
-"can access it both online and offline. We recommend browsing the reference "
-"offline, from within the Godot editor. To do so, go to Help -> Search Help "
-"or press :kbd:`F1`."
-msgstr ""
-
-msgid ""
-"To browse it online, head to the manual's :ref:`Class Reference "
-"<doc_class_reference>` section."
-msgstr ""
-
 msgid "A class reference's page tells you:"
 msgstr "Bir sınıfın başvuru sayfası şunları verir:"
 
@@ -99,38 +79,6 @@ msgstr ""
 "lütfen bunu bildirmek için resmi `godot-docs <https://github.com/godotengine/"
 "godot-docs/issues>`_ Github deposunda bir gönderi (issue) açın."
 
-#, fuzzy
-msgid ""
-"You can Ctrl-click (Cmd-click on MacOS) any underlined text like the name of "
-"a class, property, method, signal, or constant to jump to it."
-msgstr ""
-"Bir sınıfın, özelliğin, yöntemin, sinyalin, veya sabitin ismi gibi altı "
-"çizili bir metine ctrl-tıklayarak ilgili belgeyi açabilirsiniz "
-"(düzenleyiciden)."
-
-msgid "Learning to think like a programmer"
-msgstr ""
-
-msgid ""
-"Teaching programming foundations and how to think like a game developer is "
-"beyond the scope of Godot's documentation. If you're new to programming, we "
-"recommend two excellent free resources to get you started:"
-msgstr ""
-
-msgid ""
-"Harvard university offers a free courseware to learn to program, `CS50 "
-"<https://cs50.harvard.edu/x/>`_. It will teach you programming fundamentals, "
-"how code works, and how to think like a programmer. These skills are "
-"essential to become a game developer and learn any game engine efficiently. "
-"You can see this course as an investment that will save you time and trouble "
-"when you learn to create games."
-msgstr ""
-
-msgid ""
-"If you prefer books, check out the free ebook `Automate The Boring Stuff "
-"With Python <https://automatetheboringstuff.com/>`_ by Al Sweigart."
-msgstr ""
-
 msgid "Learning with the community"
 msgstr "Toplulukla öğrenmek"
 
@@ -144,16 +92,6 @@ msgstr ""
 "takılırsanız, ya da bir şeyi nasıl yapacağınızı anlamak için yardım "
 "gerekirse, bir çok `aktif topluluk <https://godotengine.org/community>`_ "
 "'tan birinde diğer kullanıcılardan yardım isteyebilirsiniz."
-
-msgid ""
-"The best place to ask questions and find already answered ones is the "
-"official `Questions & Answers <https://ask.godotengine.org/>`_ site. These "
-"responses show up in search engine results and get saved, allowing other "
-"users to benefit from discussions on the platform. Once you have asked a "
-"question there, you can share its link on other social platforms. Before "
-"asking a question, be sure to look for existing answers that might solve "
-"your problem on this website or using your preferred search engine."
-msgstr ""
 
 msgid ""
 "Asking questions well and providing details will help others answer you "
@@ -210,25 +148,6 @@ msgstr ""
 "sahneleri de kodunuzun bir parçası olarak düşünmelisiniz."
 
 msgid ""
-"Also, please don't take a picture with your phone, the low quality and "
-"screen reflections can make it hard to understand the image. Your operating "
-"system should have a built-in tool to take screenshots with the :kbd:`PrtSc` "
-"(Print Screen) key."
-msgstr ""
-"Ayrıca, lütfen resimleri telefonunuzla çekmeyin; hem kalitesi düşük olur "
-"hemde ekran yansımaları resmi anlamayı güçleştirir. İşletim sisteminizin "
-"kendi içinde yerleşik bir ekran görüntüsü alma özelliği bulunur, genelde en "
-"azından :kbd:`PrtSc` tuşu bu işi yapmalıdır."
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"Alternatif olarak, Windows için `ShareX <https://getsharex.com/>`_ ya da "
-"Linux için `FlameShot <https://flameshot.org/>`_ gibi bir program "
-"kullanabilirsiniz."
-
-msgid ""
 "Sharing a video of your running game can also be really **useful to "
 "troubleshoot your game**. You can use programs like `OBS Studio <https://"
 "obsproject.com/>`_ and `Screen to GIF <https://www.screentogif.com/>`_ to "
@@ -255,12 +174,6 @@ msgstr ""
 "Eğer Godot'nun kararlı bir sürümünü kullanmıyorsanız, lütfen, kullandığınız "
 "sürümü belirtin. Kullanımdaki özellikler ve arayüz çok hızlı geliştiği için, "
 "alacağınız cevapta farklı olabilecektir."
-
-msgid ""
-"Following these guidelines will maximize your chances of getting the answer "
-"you're looking for. They will save time both for you and the persons helping "
-"you."
-msgstr ""
 
 msgid "Community tutorials"
 msgstr "Topluluk öğreticileri"

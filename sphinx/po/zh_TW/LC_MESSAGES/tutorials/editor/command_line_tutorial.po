@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -529,51 +524,14 @@ msgstr "``--check-only``"
 msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr "僅解析錯誤並退出（與 ``--script`` 一起使用）。"
 
-#, fuzzy
-msgid "``--import``"
-msgstr "``--quiet``"
-
-msgid ""
-"|editor| Starts the editor, waits for any resources to be imported, and then "
-"quits. Implies ``--editor`` and ``--quit``."
-msgstr ""
-
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
-
-#, fuzzy
-msgid ""
-"|editor| Export the project using the given preset and matching release "
-"template. The preset name should match one defined in export_presets.cfg. "
-"``<path>`` should be absolute or relative to the project directory, and "
-"include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist. Implies ``--import``."
-msgstr ""
-"|editor|使用給定的預設和配對的發布模板匯出專案。預設名稱應與export_presets."
-"cfg 中定義的名稱相符。 ``<path>`` 應該是絕對路徑或相對於專案目錄的路徑，並包"
-"含二進位檔案的檔案名稱（例如「builds/game.exe」）。目標目錄應該存在。"
 
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
 
-#, fuzzy
-msgid ""
-"|editor| Like ``--export-release``, but use debug template. Implies ``--"
-"import``."
-msgstr "|editor|類似於“--export-release”，但使用除錯模板。"
-
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <preset> <path>``"
-
-#, fuzzy
-msgid ""
-"|editor| Like ``--export-release``, but only export the game pack for the "
-"given preset. The ``<path>`` extension determines whether it will be in PCK "
-"or ZIP format. Implies ``--import``."
-msgstr ""
-"與 ``--export`` 相同，但會使用給定的預設設定來匯出遊戲打包。會依照 <path> 的"
-"副檔名來判斷匯出的格式是 PCK 還是 ZIP。(必須啟用 :ref:`工具 "
-"<doc_introduction_to_the_buildsystem_tools>` )。"
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<最大檔案kb值>] [<最大行數>]``"
@@ -708,33 +666,10 @@ msgstr ""
 "依據 Godot 的二進位執行檔放置位置以及目前工作目錄的不同，可能需要為下列指令設"
 "定專案路徑才可正確執行。"
 
-#, fuzzy
-msgid ""
-"When running the editor, this can be done by giving the path to the "
-"``project.godot`` file of your project as either the first argument, like "
-"this:"
-msgstr ""
-"可以通過為第一個參數指定專案 ``project.godot`` 檔案所在的路徑來完成，如："
-
-#, fuzzy
-msgid "For all commands, this can be done by using the ``--path`` argument:"
-msgstr "或是使用 ``--path`` 參數："
-
 msgid ""
 "For example, the full command for exporting your game (as explained below) "
 "might look like this:"
 msgstr "舉例來說，用於匯出遊戲（下方會說明）的完整指令看起來會像這樣："
-
-msgid ""
-"When starting from a subdirectory of your project, use the ``--upwards`` "
-"argument for Godot to automatically find the ``project.godot`` file by "
-"recursively searching the parent directories."
-msgstr ""
-
-msgid ""
-"For example, running a scene (as explained below) nested in a subdirectory "
-"might look like this when your working directory is in the same path:"
-msgstr ""
 
 msgid "Creating a project"
 msgstr "建立專案"
@@ -751,21 +686,6 @@ msgstr "該專案即可以 Godot 開啟。"
 
 msgid "Running the editor"
 msgstr "執行編輯器"
-
-#, fuzzy
-msgid ""
-"Running the editor is done by executing Godot with the ``-e`` flag. This "
-"must be done from within the project directory or by setting the project "
-"path as explained above, otherwise the command is ignored and the Project "
-"Manager appears."
-msgstr ""
-"可以使用 ``-e`` 旗標執行 Godot 來開啟編輯器。必須在專案目錄或其子目錄內完成，"
-"否則該指令會被忽略並開啟專案管理員。"
-
-msgid ""
-"When passing in the full path to the ``project.godot`` file, the ``-e`` flag "
-"may be omitted."
-msgstr ""
 
 msgid ""
 "If a scene has been created and saved, it can be edited later by running the "
@@ -785,17 +705,6 @@ msgstr ""
 
 msgid "Running the game"
 msgstr "執行遊戲"
-
-#, fuzzy
-msgid ""
-"To run the game, execute Godot within the project directory or with the "
-"project path as explained above."
-msgstr "欲執行遊戲，僅需於專案目錄或子目錄內執行 Godot。"
-
-msgid ""
-"Note that passing in the ``project.godot`` file will always run the editor "
-"instead of running the game."
-msgstr ""
 
 msgid ""
 "When a specific scene needs to be tested, pass that scene to the command "

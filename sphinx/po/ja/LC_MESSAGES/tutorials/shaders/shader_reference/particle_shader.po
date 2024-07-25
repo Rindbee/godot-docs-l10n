@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,12 +149,6 @@ msgstr ""
 
 msgid "in float **E**"
 msgstr "\\ in float **E**"
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
 
 msgid "Start and Process built-ins"
 msgstr "start()とprocess()のビルトイン"
@@ -358,7 +347,7 @@ msgid ""
 "e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_POSITION`` flag)."
 msgstr ""
-"``true``のとき、パーティクルが再起動された、またはカスタムの位置が設定されず"
+"``true`` のとき、パーティクルが再起動された、またはカスタムの位置が設定されず"
 "に放出された (つまりこのパーティクルが ``FLAG_EMIT_POSITION`` フラグなしで "
 "``emit_subparticle()`` によって作成された)。"
 
@@ -370,7 +359,7 @@ msgid ""
 "scale (i.e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_ROT_SCALE`` flag)."
 msgstr ""
-"``true``のとき、パーティクルが再起動された、またはカスタムの回転とスケールが"
+"``true`` のとき、パーティクルが再起動された、またはカスタムの回転とスケールが"
 "設定されずに放出された (つまりこのパーティクルが ``FLAG_EMIT_ROT_SCALE`` フラ"
 "グなしで ``emit_subparticle()`` によって作成された)。"
 
@@ -382,7 +371,7 @@ msgid ""
 "e. this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_VELOCITY`` flag)."
 msgstr ""
-"``true``のとき、パーティクルが再起動された、またはカスタムの速度が設定されず"
+"``true`` のとき、パーティクルが再起動された、またはカスタムの速度が設定されず"
 "に放出された (つまりこのパーティクルが ``FLAG_EMIT_VELOCITY`` フラグなしで "
 "``emit_subparticle()`` によって作成された)。"
 
@@ -394,7 +383,7 @@ msgid ""
 "this particle was created by ``emit_subparticle()`` without the "
 "``FLAG_EMIT_COLOR`` flag)."
 msgstr ""
-"``true``のとき、パーティクルが再起動された、またはカスタムの色が設定されずに"
+"``true`` のとき、パーティクルが再起動された、またはカスタムの色が設定されずに"
 "放出された (つまりこのパーティクルが ``FLAG_EMIT_COLOR`` フラグなしで "
 "``emit_subparticle()`` によって作成された)。"
 

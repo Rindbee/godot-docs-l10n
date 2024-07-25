@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,14 +90,6 @@ msgstr ""
 msgid "References:"
 msgstr "リファレンス:"
 
-#, fuzzy
-msgid ""
-"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
-"core/variant/variant.h>`__"
-msgstr ""
-"`core/variant.h <https://github.com/godotengine/godot/blob/master/core/"
-"variant.h>`_"
-
 msgid "Containers: Dictionary and Array"
 msgstr "コンテナ: 辞書(Dictionary )と配列(Array)"
 
@@ -129,22 +116,6 @@ msgid ""
 msgstr ""
 "Godot 3.0 では、コンテナの書き込みコピー(COW)モードのサポートが削除されまし"
 "た。"
-
-#, fuzzy
-msgid ""
-"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
-"core/variant/dictionary.h>`__"
-msgstr ""
-"`core/dictionary.h <https://github.com/godotengine/godot/blob/master/core/"
-"dictionary.h>`_"
-
-#, fuzzy
-msgid ""
-"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
-"variant/array.h>`__"
-msgstr ""
-"`core/variant.h <https://github.com/godotengine/godot/blob/master/core/"
-"variant.h>`_"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -302,15 +297,6 @@ msgstr ""
 "`VisibleOnScreenNotifier3D <class_VisibleOnScreenNotifier3D>` al nodo "
 "``Mob``."
 
-#, fuzzy
-msgid ""
-"Head back to the 3D viewport by clicking on the *3D* label at the top of the "
-"editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
-msgstr ""
-"Regresa a la vista en 3D haciendo clic en la etiqueta *3D* en la parte "
-"superior del editor. También puedes presionar :kbd:`Ctrl + F2` (:kbd:`Alt + "
-"2` en macOS)."
-
 msgid "|image8|"
 msgstr "|image8|"
 
@@ -342,26 +328,12 @@ msgstr "|image10|"
 msgid "image10"
 msgstr "image10"
 
-#, fuzzy
-msgid ""
-"This will add a new function for you in your mob script, "
-"``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
-"``queue_free()`` method. This function destroys the instance it's called on."
-msgstr ""
-"Esto te llevará de vuelta al editor de scripts y agregará una nueva función "
-"por ti, ``_on_visible_on_screen_notifier_3d_screen_exited()``. Desde allí "
-"llama al método ``queue_free()``. Esta función destruirá la instancia del "
-"monstruo que la llamó."
-
 msgid ""
 "Our monster is ready to enter the game! In the next part, you will spawn "
 "monsters in the game level."
 msgstr ""
 "¡Nuestro monstruo está listo para entrar en el juego! En la siguente parte, "
 "generarás monstruos en el nivel del juego."
-
-msgid "Here is the complete ``Mob.gd`` script for reference."
-msgstr "Aqui está el script completo ``Mob.gd`` para referencia."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

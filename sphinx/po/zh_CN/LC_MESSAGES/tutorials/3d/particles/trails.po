@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,118 +21,6 @@ msgstr "粒子拖尾"
 msgid "Particle trail params"
 msgstr "粒子尾迹参数"
 
-#, fuzzy
-msgid "Setting up particle trails"
-msgstr "设置粒子尾迹"
-
-#, fuzzy
-msgid ""
-"Godot provides several types of trails you can add to a particle system. "
-"Before you can work with trails, you need to set up a couple of parameters "
-"first. Create a new particle system and assign a process material :ref:`as "
-"described before <doc_creating_3d_particle_system>`. In the ``Trails`` group "
-"of the particle system, check the box next to ``Enabled`` and increase the "
-"emission duration by setting ``Lifetime`` to something like ``0.8``. On the "
-"process material, set ``Direction`` to ``(X=0,Y=1.0,Z=0)`` and ``Initial "
-"Velocity`` to ``10.0`` for both ``Min`` and ``Max``."
-msgstr ""
-"Godot 提供了几种类型的轨迹，你可以将其添加到粒子系统中。在使用跟踪之前，你需"
-"要先设置几个参数。创建一个新的粒子系统并分配一个工艺材质 :ref:`as described "
-"before <doc_creating_3d_particle_system>` 。在粒子系统的 ``Trails`` 分组中，"
-"选中 ``Enabled`` 旁边的框，并通过将 ``Lifetime`` 设置为 ``0.8`` 来增加自发光"
-"持续时间。在工艺材质上，将 ``Min`` 和 ``Max`` 的 ``Direction`` 设置为 ``(X=0,"
-"Y=1.0,Z=0)`` ，将 ``Initial Velocity`` 设置为 ``10.0`` 。"
-
-#, fuzzy
-msgid ""
-"The only thing that's still missing is a mesh for the draw pass. The type of "
-"mesh that you set here controls what kind of particle trail you will end up "
-"with."
-msgstr ""
-"唯一仍然缺少的是绘制阶段的网格。你在此处设置的网格类型控制你最终将获得哪种类"
-"型的粒子尾迹。"
-
-#, fuzzy
-msgid "Ribbon trails"
-msgstr "带状尾迹"
-
-#, fuzzy
-msgid "Particle ribbon"
-msgstr "粒子带"
-
-#, fuzzy
-msgid "Important ribbon mesh parameters"
-msgstr "关键带状网格参数"
-
-#, fuzzy
-msgid ""
-"The simplest type of particle trail is the ribbon trail. Navigate to the "
-"``Draw Passes`` section and select ``New RibbonTrailMesh`` from the options "
-"for ``Pass 1``. A :ref:`RibbonTrailMesh <class_RibbonTrailMesh>` is a simple "
-"quad that is divided into sections and then stretched and repeated along "
-"those sections."
-msgstr ""
-"最简单的粒子尾迹类型是带状尾迹。导航到 ``Draw Passes`` 部分，然后从 ``Pass "
-"1`` 选项中选择 ``New RibbonTrailMesh`` 。 :ref:"
-"`RibbonTrailMesh<class_RibbonTrailMesh>`是一个简单的四边形，它被分成几个部"
-"分，然后沿着这些部分拉伸和重复。"
-
-#, fuzzy
-msgid ""
-"Assign a new :ref:`Standard Material <doc_standard_material_3d>` to the "
-"``Material`` property and enable ``Use Particle Trails`` in the "
-"``Transform`` property group. The particles should now be emitting in trails."
-msgstr ""
-"为 ``Material`` 属性分配一个新的 :ref:`Standard Material "
-"<doc_standard_material_3d>` ，并在 ``Transform`` 属性分组中启用 ``Use "
-"Particle Trails`` 。粒子现在应该在尾迹中发射。"
-
-#, fuzzy
-msgid ""
-"You have two options for the ribbon mesh ``Shape`` parameter. ``Cross`` "
-"creates two perpendicular quads, making the particle trail a little more "
-"three-dimensional. This really only makes sense if you don't draw the trails "
-"in ``Particle Billboard`` mode and helps when looking at the particles from "
-"different angles. The ``Flat`` option limits the mesh to a single quad and "
-"works best with billboard particles."
-msgstr ""
-"带状网格 ``Shape`` 参数有两个选项。 ``Cross`` 会创建两个垂直的四边形，使粒子"
-"尾迹更加三维。只有当你不在 ``Particle Billboard`` 模式下绘制尾迹时，这才有意"
-"义，并且在从不同角度查看粒子时会有所帮助。 ``Flat`` 选项将网格限制为单个四边"
-"形，最适合公告版粒子。"
-
-#, fuzzy
-msgid ""
-"The ``Size`` parameter controls the trail's width. Use it to make trails "
-"wider or more narrow."
-msgstr "``Size`` 参数控制尾迹的宽度。用它来使尾迹更宽或更窄。"
-
-#, fuzzy
-msgid ""
-"``Sections``, ``Section Length`` and ``Section Segments`` all work together "
-"to control how smooth the particle trail looks. When a particle trail does "
-"not travel in a straight line, the more sections it has the smoother it "
-"looks as it bends and swirls. ``Section Length`` controls the length of each "
-"section. Multiply this value by the number of sections to know the trail's "
-"total length."
-msgstr ""
-"``Sections`` 、 ``Section Length`` 和 ``Section Segments`` 共同用于控制粒子尾"
-"迹的平滑程度。当粒子尾迹不沿直线行进时，它所具有的段越多，它在弯曲和旋转时看"
-"起来就越平滑。 ``Section Length`` 控制每个段的长度。将此值乘以段数即可知道尾"
-"迹的总长度。"
-
-#, fuzzy
-msgid "Particle ribbon sections"
-msgstr "粒子带段"
-
-#, fuzzy
-msgid ""
-"3 sections, 1m section length (left) vs. 12 sections, 0.25m section length "
-"(right). Notice how the total length of the trails stays the same."
-msgstr ""
-"3 段，1m 段长（左）对比 12 段，0.25m 段长（右）。请注意，尾迹的总长度保持不"
-"变。"
-
 msgid ""
 "The ``Section Segments`` parameter further subdivides each section into "
 "segments. It has no effect on the smoothness of the trail's sections, "
@@ -151,10 +34,6 @@ msgstr ""
 "没有影响。相反，它控制粒子尾迹整体形状的平滑度。 ``Curve`` 属性定义此形状。点"
 "击“曲线”旁边的框，然后指定或创建新曲线。尾迹的形状将与曲线一样，曲线的值在尾"
 "迹的头部为 ``1.0`` ，曲线的值在尾部为 ``1.0`` 。"
-
-#, fuzzy
-msgid "Particle ribbon curves"
-msgstr "粒子节点"
 
 msgid ""
 "Particle trails shaped by different curves. The trails move from left to "
@@ -172,10 +51,6 @@ msgstr ""
 "``Section Segments`` 属性的用武之地。增加节段的数量会在尾迹的两侧添加更多折"
 "点，以便它可以更紧密地跟随曲线。"
 
-#, fuzzy
-msgid "Particle ribbon segments"
-msgstr "粒子节点"
-
 msgid ""
 "Particle trail shape smoothness: 1 segment per section (top), 12 segments "
 "per section (bottom)"
@@ -191,10 +66,6 @@ msgid ""
 msgstr ""
 "管状尾迹与带状尾迹共享许多属性。它们之间的最大区别在于管状轨迹发出圆柱形网格"
 "而不是四边形。"
-
-#, fuzzy
-msgid "Particle tube trails"
-msgstr "ParticlesMaterial"
 
 msgid "Tube trails emit cylindrical particles"
 msgstr "管状尾迹发出圆柱形粒子"
@@ -214,10 +85,6 @@ msgstr ""
 "配一个新的 :ref:`Standard Material<doc_standard_material_3d>`，并在 "
 "``Transform`` 属性分组中启用 ``Use Particle Trails`` 。粒子现在应该以长圆柱形"
 "轨迹发射。"
-
-#, fuzzy
-msgid "Particle tube"
-msgstr "粒子节点"
 
 msgid "Important tube mesh parameters"
 msgstr "关键管状网格参数"
@@ -261,18 +128,6 @@ msgstr ""
 "然后指定或创建新曲线。尾迹的形状与曲线相似，曲线的值在尾迹的头部为 ``0.0`` ，"
 "曲线的值在尾迹尾部为 ``1.0`` 。"
 
-#, fuzzy
-msgid "Particle tubes"
-msgstr "粒子节点"
-
-#, fuzzy
-msgid ""
-"Particle tube trails with a custom curve shape: 4 radial steps, 3 sections, "
-"1 section ring (left), 12 radial steps, 9 sections, 3 section rings (right)"
-msgstr ""
-"具有自定义曲线形状的粒子管状尾迹：4 条管盖边、3 个小节、1 个截面环（左）、12 "
-"条管盖边、9 个小节、3 个截面环（右）"
-
 msgid ""
 "An important property you might want to set is ``Transform Align`` in the "
 "particle system's ``Drawing`` group. If you leave it as is, the tubes will "
@@ -285,10 +140,6 @@ msgstr ""
 "Align`` 。如果保持原样，管子将无法保持体积;它们在移动时变平，因为即使它们改变"
 "方向，它们的 Y 轴也会一直指向上方。这可能会导致大量渲染伪影。将属性设置为 "
 "``Y to Velocity`` ，每个粒子尾迹都沿其运动方向保持其 Y 轴对齐。"
-
-#, fuzzy
-msgid "Particle tubes aligned"
-msgstr "粒子着色器"
 
 msgid ""
 "Particle tube trails without alignment (left) and with Y-axis aligned to "

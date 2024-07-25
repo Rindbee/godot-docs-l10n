@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,13 +107,13 @@ msgid "keys"
 msgstr "keys"
 
 msgid "<lang1>"
-msgstr "<Sprache_1>"
+msgstr "<Sprache1>"
 
 msgid "<lang2>"
-msgstr "<Sprache_2>"
+msgstr "<Sprache2>"
 
 msgid "<langN>"
-msgstr "<Sprache_N>"
+msgstr "<SpracheN>"
 
 msgid "KEY1"
 msgstr "KEY1"
@@ -132,7 +127,6 @@ msgstr "KEY2"
 msgid "KEYN"
 msgstr "KEYN"
 
-#, fuzzy
 msgid ""
 "The \"lang\" tags must represent a language, which must be one of the :ref:"
 "`valid locales <doc_locales>` supported by the engine, or they must start "
@@ -145,14 +139,16 @@ msgid ""
 "or having any content. Here's an example:"
 msgstr ""
 "Die \"lang\"-Tags müssen eine Sprache repräsentieren, die eine der von der "
-"Engine unterstützten :ref:`gültigen Locales <doc_locales>` sein muss. Die "
-"\"KEY\"-Tags müssen eindeutig sein und eine Zeichenkette universell "
-"repräsentieren (sie sind normalerweise in Großbuchstaben, um sie von anderen "
-"Zeichenketten zu unterscheiden). Diese Keys werden zur Laufzeit durch den "
-"passenden übersetzte String ersetzt. Beachten Sie, dass die Groß-/"
-"Kleinschreibung wichtig ist, \"KEY1\" und \"Key1\" sind unterschiedliche "
-"Keys. Die oberste linke Zelle wird ignoriert und kann leer bleiben oder "
-"einen beliebigen Inhalt haben. Hier ist ein Beispiel:"
+"Engine unterstützten :ref:`gültigen Locales <doc_locales>` sein muss, oder "
+"sie müssen mit einem Unterstrich (`_`) beginnen, was bedeutet, dass die "
+"entsprechende Spalte als Kommentar dient und nicht importiert wird. Die "
+"\"KEY\"-Tags müssen eindeutig sein und einen universelle String darstellen "
+"(sie werden normalerweise in Großbuchstaben geschrieben, um sie von anderen "
+"Strings zu unterscheiden). Diese Keys werden zur Laufzeit durch die passende "
+"übersetzte Strings ersetzt. Beachten Sie, dass die Groß- und Kleinschreibung "
+"wichtig ist, \"KEY1\" und \"Key1\" stellen unterschiedliche Keys dar. Die "
+"Zelle oben links wird ignoriert und kann leer gelassen werden oder einen "
+"beliebigen Inhalt haben. Hier ist ein Beispiel:"
 
 msgid "en"
 msgstr "en"

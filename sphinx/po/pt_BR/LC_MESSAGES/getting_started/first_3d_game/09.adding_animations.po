@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,14 +86,6 @@ msgstr "|image3|"
 msgid "image3"
 msgstr "imagem3"
 
-#, fuzzy
-msgid ""
-"Once you've created the animation, the timeline appears with numbers "
-"representing time in seconds."
-msgstr ""
-"Depois de ter criado a animação, a linha do tempo aparece com números que "
-"representam o tempo em segundos."
-
 msgid "|image4|"
 msgstr "|image4|"
 
@@ -111,18 +98,6 @@ msgid ""
 msgstr ""
 "Queremos que a animação inicie a reprodução automaticamente no início do "
 "jogo. Além disso, ele deve fazer um loop."
-
-#, fuzzy
-msgid ""
-"To do so, you can click the autoplay button (|Autoplay|) in the animation "
-"toolbar and the looping arrows, respectively."
-msgstr ""
-"Para fazer isso, você pode clicar no botão com um ícone \"A +\" na barra de "
-"ferramentas de animação e nas setas em loop, respectivamente."
-
-#, fuzzy
-msgid "Autoplay"
-msgstr "AutoLoad"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -236,15 +211,6 @@ msgstr "|image11|"
 msgid "image11"
 msgstr "imagem11"
 
-#, fuzzy
-msgid ""
-"You can click and drag on the diamonds to move them in time. Move the "
-"position key to ``0.3`` seconds and the rotation key to ``0.1`` seconds."
-msgstr ""
-"Você pode clicar e arrastar os diamantes para movê-los no tempo. Mova a "
-"chave de posição para ``0.2`` segundos e a chave de rotação para ``0.1`` "
-"segundos."
-
 msgid "|image12|"
 msgstr "|image12|"
 
@@ -258,23 +224,12 @@ msgstr ""
 "Mova o cursor de tempo para ``0.5`` segundos clicando e arrastando na linha "
 "do tempo cinza."
 
-msgid "|timeline_05_click|"
-msgstr ""
-
-msgid "timeline_05_click"
-msgstr ""
-
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
 "*Rotation*' *X* axis to ``8``."
 msgstr ""
 "No *Inspetor*, defina o eixo *Position* *Y* para os metros ``0.65`` e o eixo "
 "*Rotation* *X* para ``8``."
-
-msgid ""
-"If you don't see the properties in the *Inspector* panel, first click on the "
-"``Character`` node again in the *Scene* dock."
-msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -284,12 +239,6 @@ msgstr "imagem13"
 
 msgid "Create a keyframe for both properties"
 msgstr "Crie um quadro-chave para ambas propriedades"
-
-msgid "|second_keys_both|"
-msgstr ""
-
-msgid "second_keys_both"
-msgstr ""
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -325,14 +274,6 @@ msgstr ""
 "Mova o cursor de tempo para o final da animação, em ``1.2`` segundos. Defina "
 "a posição Y para cerca de ``0.35`` e a rotação X para ``-9`` graus. Mais uma "
 "vez, crie uma chave para ambas as propriedades."
-
-#, fuzzy
-msgid "|animation_final_keyframes|"
-msgstr "A animação por computador depende de quadros-chave"
-
-#, fuzzy
-msgid "animation_final_keyframes"
-msgstr "A animação por computador depende de quadros-chave"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -526,36 +467,6 @@ msgstr ""
 "``Character``, para que possamos reutilizar animações entre elas."
 
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and then click on "
-"**Animation > Manage Animations...**. Click the *Copy animation to "
-"clipboard* button (two small squares) alongside the *float* animation. Click "
-"OK to close the window."
-msgstr ""
-
-msgid ""
-"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
-"<class_AnimationPlayer>` child node and select it. Click **Animation > "
-"Manage Animations**, then **Add Library**. You should see the message "
-"\"Global library will be created.\" Leave the text field blank and click OK. "
-"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
-"OK to close the window."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
-"(Animation looping) are also turned on in the animation editor in the bottom "
-"panel. That's it; all monsters will now play the float animation."
-msgstr ""
-"Abra a cena *Player*, selecione o nó AnimationPlayer e abra a animação "
-"\"float\". Em seguida, clique em **Animação > Entendido. Em seguida, abra "
-"``mob.tscn``, crie um nó filho AnimationPlayer e selecione-o. Clique "
-"**Animation > Paste** e certifique-se de que o botão com um ícone \"A+\" "
-"(Autoplay on Load) e as setas de looping (Animation looping) também estão "
-"ligados no editor de animação no painel inferior. É isso; todos os monstros "
-"vão agora executar a animação flutuante."
-
-msgid ""
 "We can change the playback speed based on the creature's ``random_speed``. "
 "Open the *Mob*'s script and at the end of the ``initialize()`` function, add "
 "the following line."
@@ -569,16 +480,6 @@ msgstr "E com isso, você terminou de programar seu primeiro jogo 3D completo."
 
 msgid "**Congratulations**!"
 msgstr "**Parabéns**!"
-
-msgid ""
-"In the next part, we'll quickly recap what you learned and give you some "
-"links to keep learning more. But for now, here are the complete ``Player."
-"gd`` and ``Mob.gd`` so you can check your code against them."
-msgstr ""
-"Na próxima parte, vamos recapitular rapidamente o que você aprendeu e dar "
-"alguns links para continuar aprendendo mais. Mas por enquanto, aqui estão os "
-"``Jogador.gd`` e ``Mob.gd`` completos para que você possa comparar com seu "
-"código."
 
 msgid "Here's the *Player* script."
 msgstr "Aqui está o script do *Jogador*."

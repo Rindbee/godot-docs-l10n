@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Theme type variations"
-msgstr "Types de thèmes et éléments"
 
 msgid ""
 "When designing a user interface there may be times when a :ref:`Control "
@@ -100,10 +91,6 @@ msgstr ""
 "la section :ref:`Personnaliser un projet <doc_gui_theme_in_project>` de "
 "l'article \"Introduction à l'habillage des interfaces graphiques\"."
 
-#, fuzzy
-msgid "Creating a type variation"
-msgstr "Créer une animation simple"
-
 msgid ""
 "To create a type variation open the theme editor, then click the plus icon "
 "next to the **Type** dropdown on the right side of the editor. Type in what "
@@ -147,10 +134,6 @@ msgstr ""
 "mesure de voir ses propriétés sur les autres onglets de l'éditeur de thème. "
 "Vous pouvez les modifier comme d'habitude."
 
-#, fuzzy
-msgid "Using a type variation"
-msgstr "Utilisation de l'éditeur d'animation"
-
 msgid ""
 "Now that a type variation has been created you can apply it to your nodes. "
 "In the inspector dock, under the **Theme** property of a control node, you "
@@ -162,26 +145,6 @@ msgstr ""
 "nœud de contrôle, vous pouvez trouver la propriété **Theme Type Variation**. "
 "Elle est vide par défaut, ce qui signifie que seul le type de base a un "
 "effet sur ce nœud."
-
-#, fuzzy
-msgid ""
-"You can either select a type variation from a dropdown list, or input its "
-"name manually. Variations appear on the list only if the type variation "
-"belongs to the project-wide theme, which you can configure in the project "
-"settings. For any other case you have to input the name of the variation "
-"manually. Click on the pencil icon to the right. Then type in the name of "
-"the type variation and click the check mark icon or press enter. If a type "
-"variation with that name exists it will now be used by the node."
-msgstr ""
-"Vous pouvez soit sélectionner une variation de type dans une liste "
-"déroulante, soit saisir son nom manuellement. Les variations apparaissent "
-"dans la liste uniquement si la variation de type appartient au thème du "
-"projet, que vous pouvez configurer dans les paramètres du projet. Dans tous "
-"les autres cas, vous devez saisir le nom de la variation manuellement. "
-"Cliquez sur l'icône du crayon à droite. Saisissez ensuite le nom de la "
-"variation de type et cliquez sur l'icône représentant une coche ou appuyez "
-"sur la touche Entrée. Si une variation de type portant ce nom existe, elle "
-"sera désormais utilisée par le nœud."
 
 msgid "Translation status"
 msgstr "État de la traduction"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,23 +67,6 @@ msgstr ""
 "Scéna je složena z jednoho nebo více **uzlů**. Uzly jsou nejmenší stavební "
 "bloky vaší hry, které uspořádáváte do stromů. Zde je příklad uzlů postavy "
 "hráče."
-
-#, fuzzy
-msgid ""
-"It is made of a ``CharacterBody2D`` node named \"Player\", a ``Camera2D``, a "
-"``Sprite2D``, and a ``CollisionShape2D``."
-msgstr ""
-"Je tvořena uzlem ``KinematicBody2D`` jménem \"Character\", ``Sprite``, "
-"``Camera2D``, a ``CollisionShape2D``."
-
-#, fuzzy
-msgid ""
-"The node names end with \"2D\" because this is a 2D scene. Their 3D "
-"counterparts have names that end with \"3D\". Be aware that \"Spatial\" "
-"Nodes are now called \"Node3D\" starting with Godot 4."
-msgstr ""
-"Názvy uzlů končí s \"2D\", protože toto je 2D scéna. Jejich 3D protějšek má "
-"jména s \"3D\" na konci."
 
 msgid ""
 "Notice how nodes and scenes look the same in the editor. When you save a "

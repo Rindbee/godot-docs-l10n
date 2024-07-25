@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,41 +57,6 @@ msgid "Start by declaring the member variables this object will need:"
 msgstr ""
 "Commencez par déclarer les variables membres dont cet objet aura besoin :"
 
-#, fuzzy
-msgid ""
-"Using the ``export`` keyword on the first variable ``speed`` allows us to "
-"set its value in the Inspector. This can be handy for values that you want "
-"to be able to adjust just like a node's built-in properties. Click on the "
-"``Player`` node and you'll see the property now appears in the Inspector in "
-"a new section with the name of the script. Remember, if you change the value "
-"here, it will override the value written in the script."
-msgstr ""
-"L'utilisation du mot-clé ``export`` sur la première variable ``SPEED`` nous "
-"permet de définir sa valeur dans l'inspecteur. Cela peut être pratique pour "
-"les valeurs que vous voulez pouvoir ajuster de la même manière que les "
-"propriétés intégrées d'un nœud. Cliquez sur le nœud ``Player`` et vous "
-"verrez maintenant apparaître la section \"Script Variables\" dans "
-"l'inspecteur. Notez que, si vous changez la valeur ici, cela remplacera la "
-"valeur écrite dans le script."
-
-#, fuzzy
-msgid ""
-"If you're using C#, you need to (re)build the project assemblies whenever "
-"you want to see new export variables or signals. This build can be manually "
-"triggered by clicking the **Build** button at the top right of the editor."
-msgstr ""
-"Si vous utilisez C#, vous devez (re)compiler les assemblages du projet "
-"chaque fois que vous voulez voir de nouvelles variables d'exportation ou des "
-"nouveaux signaux. Cette compilation peut être déclenchée manuellement en "
-"cliquant sur le mot \"Mono\" au bas de la fenêtre de l'éditeur pour afficher "
-"le panneau Mono, puis en cliquant sur le bouton \"Compiler Projet\"."
-
-msgid ""
-"Your ``player.gd`` script should already contain a ``_ready()`` and a "
-"``_process()`` function. If you didn't select the default template shown "
-"above, create these functions while following the lesson."
-msgstr ""
-
 msgid ""
 "The ``_ready()`` function is called when a node enters the scene tree, which "
 "is a good time to find the size of the game window:"
@@ -147,21 +107,6 @@ msgstr ""
 "paramètres du projet et cliquez sur l'onglet *Contrôles* en haut. Tapez "
 "\"move_right\" dans la barre supérieure et cliquez sur le bouton \"Ajouter\" "
 "pour ajouter l'action ``move_right``."
-
-msgid ""
-"We need to assign a key to this action. Click the \"+\" icon on the right, "
-"to open the event manager window."
-msgstr ""
-
-msgid ""
-"The \"Listening for Input...\" field should automatically be selected. Press "
-"the \"right\" key on your keyboard, and the menu should look like this now."
-msgstr ""
-
-msgid ""
-"Select the \"ok\" button. The \"right\" key is now associated with the "
-"``move_right`` action."
-msgstr ""
 
 msgid "Repeat these steps to add three more mappings:"
 msgstr "Répétez ces étapes pour ajouter trois autres contrôles :"
@@ -233,34 +178,6 @@ msgstr ""
 "de l'utilisation des vecteurs dans Godot à :ref:`doc_vector_math`. C'est bon "
 "à savoir mais ça ne sera pas nécessaire pour le reste de ce tutoriel."
 
-#, fuzzy
-msgid ""
-"We also check whether the player is moving so we can call ``play()`` or "
-"``stop()`` on the AnimatedSprite2D."
-msgstr ""
-"Nous vérifions également si le joueur se déplace afin de pouvoir appeler "
-"``play()`` ou ``stop()`` sur l'AnimatedSprite."
-
-#, fuzzy
-msgid ""
-"``$`` is shorthand for ``get_node()``. So in the code above, "
-"``$AnimatedSprite2D.play()`` is the same as ``get_node(\"AnimatedSprite2D\")."
-"play()``."
-msgstr ""
-"``$`` est un raccourci pour ``get_node()``. Dans le code ci-dessus, "
-"``$AnimatedSprite.play()`` est donc identique à "
-"``get_node(\"AnimatedSprite\").play()``."
-
-#, fuzzy
-msgid ""
-"In GDScript, ``$`` returns the node at the relative path from the current "
-"node, or returns ``null`` if the node is not found. Since AnimatedSprite2D "
-"is a child of the current node, we can use ``$AnimatedSprite2D``."
-msgstr ""
-"En GDScript, ``$`` retourne le nœud au chemin relatif depuis ce nœud, ou "
-"retourne ``null`` si le nœud n'est pas trouvé. Puisque AnimatedSprite est un "
-"enfant du nœud courant, nous pouvons utiliser ``$AnimatedSprite``."
-
 msgid ""
 "Now that we have a movement direction, we can update the player's position. "
 "We can also use ``clamp()`` to prevent it from leaving the screen. "
@@ -285,15 +202,6 @@ msgstr ""
 "terminer. Utiliser cette valeur assure que le mouvement restera constant "
 "même si le taux d'images par seconde varie."
 
-#, fuzzy
-msgid ""
-"Click \"Run Current Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm "
-"you can move the player around the screen in all directions."
-msgstr ""
-"Cliquez sur \"Lancer la scène\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) et "
-"vérifiez que vous pouvez déplacer le joueur autour de l'écran dans toutes "
-"les directions."
-
 msgid "If you get an error in the \"Debugger\" panel that says"
 msgstr "Si vous obtenez une erreur le panneau \"Debugger\" qui dit"
 
@@ -304,37 +212,8 @@ msgstr ""
 "``Attempt to call function 'play' in base 'null instance' on a null "
 "instance``"
 
-#, fuzzy
-msgid ""
-"this likely means you spelled the name of the AnimatedSprite2D node wrong. "
-"Node names are case-sensitive and ``$NodeName`` must match the name you see "
-"in the scene tree."
-msgstr ""
-"cela signifie probablement que vous avez mal orthographié le nom du nœud "
-"AnimatedSprite. Les noms de nœuds sont sensibles à la casse et ``$NodeName`` "
-"doit correspondre au nom que vous voyez dans l'arbre de scènes."
-
 msgid "Choosing animations"
 msgstr "Choisir les animations"
-
-#, fuzzy
-msgid ""
-"Now that the player can move, we need to change which animation the "
-"AnimatedSprite2D is playing based on its direction. We have the \"walk\" "
-"animation, which shows the player walking to the right. This animation "
-"should be flipped horizontally using the ``flip_h`` property for left "
-"movement. We also have the \"up\" animation, which should be flipped "
-"vertically with ``flip_v`` for downward movement. Let's place this code at "
-"the end of the ``_process()`` function:"
-msgstr ""
-"Maintenant que le joueur peut se déplacer, nous devons changer l'animation "
-"que l'AnimatedSprite joue en fonction de la direction. Nous avons une "
-"animation \"walk\", qui montre le joueur marchant vers la droite. Cette "
-"animation doit être retournée horizontalement en utilisant la propriété "
-"``flip_h`` pour le mouvement vers la gauche. Nous avons aussi l'animation "
-"\"up\", qui doit être retournée verticalement avec ``flip_v`` pour le "
-"mouvement vers le bas. Rajoutez ce code à la fin de notre fonction "
-"``_process()`` :"
 
 msgid ""
 "The boolean assignments in the code above are a common shorthand for "
@@ -387,12 +266,6 @@ msgstr ""
 "fonctionner."
 
 msgid ""
-"Add the following at the top of the script. If you're using GDScript, add it "
-"after ``extends Area2D``. If you're using C#, add it after ``public partial "
-"class Player : Area2D``:"
-msgstr ""
-
-msgid ""
 "This defines a custom signal called \"hit\" that we will have our player "
 "emit (send out) when it collides with an enemy. We will use ``Area2D`` to "
 "detect the collision. Select the ``Player`` node and click the \"Node\" tab "
@@ -415,33 +288,6 @@ msgstr ""
 "``body_entered(body : Node2D)``. Celui-ci sera émis lorsqu'un objet percute "
 "le joueur. Cliquez sur \"Connecter...\" et la fenêtre \"Connecter un "
 "signal\" apparaîtra."
-
-msgid ""
-"Godot will create a function with that exact name directly in script for "
-"you. You don't need to change the default settings right now."
-msgstr ""
-
-msgid ""
-"If you're using an external text editor (for example, Visual Studio Code), a "
-"bug currently prevents Godot from doing so. You'll be sent to your external "
-"editor, but the new function won't be there."
-msgstr ""
-
-msgid ""
-"In this case, you'll need to write the function yourself into the Player's "
-"script file."
-msgstr ""
-
-msgid ""
-"Note the green icon indicating that a signal is connected to this function; "
-"this does not mean the function exists, only that the signal will attempt to "
-"connect to a function with that name, so double-check that the spelling of "
-"the function matches exactly!"
-msgstr ""
-
-#, fuzzy
-msgid "Next, add this code to the function:"
-msgstr "Ajoutez ensuite les deux fonctions suivantes :"
 
 msgid ""
 "Each time an enemy hits the player, the signal is going to be emitted. We "

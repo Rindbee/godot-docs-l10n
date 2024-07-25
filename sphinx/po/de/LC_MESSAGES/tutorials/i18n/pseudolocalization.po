@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,7 +95,7 @@ msgid ""
 "have accents, but is also useful to check for missing glyphs in the font(s) "
 "used by the project."
 msgstr ""
-"``replace_with_accents``: Ersetzt alle Zeichen in der Zeichenkette durch "
+"``replace_with_accents``: Ersetzt alle Zeichen im String durch "
 "Akzentvarianten. *\"The quick brown fox jumped over the lazy dog \"* wird in "
 "*\"Ŧh̀é q́üíćḱ ḅŕôŵή f́ôx́ ǰüm̀ṕéd́ ôṽéŕ ŧh̀é łáźý d́ôǵ \"* umgewandelt, wenn diese "
 "Einstellung aktiviert ist. Dies kann verwendet werden, um unübersetzte "

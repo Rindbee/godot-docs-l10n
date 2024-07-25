@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,46 +16,9 @@ msgid "C# global classes"
 msgstr "全域類別。"
 
 msgid ""
-"Global classes (also known as named scripts) are types registered in Godot's "
-"editor so they can be used more conveniently."
-msgstr ""
-
-msgid "Global classes show up in the *Add Node* and *Create Resource* dialogs."
-msgstr ""
-
-msgid ""
-"If an :ref:`exported property <doc_c_sharp_exports>` is a global class, the "
-"inspector restricts assignment, allowing only instances of that global class "
-"or any derived classes."
-msgstr ""
-
-msgid "Global classes are registered with the ``[GlobalClass]`` attribute."
-msgstr ""
-
-msgid ""
 "The ``MyNode`` type will be registered as a global class with the same name "
 "as the type's name."
 msgstr "``MyNode`` 型別將註冊為全域類，其名稱與型別名稱相同。"
-
-msgid ""
-"The *Select a Node* window for the ``MyNode`` exported property filters the "
-"list of nodes in the scene to match the assignment restriction."
-msgstr ""
-
-msgid ""
-"If a custom type isn't registered as a global class, the assignment is "
-"restricted to the Godot type the custom type is based on. For example, "
-"inspector assignments to an export of the type ``MySimpleSprite2D`` are "
-"restricted to ``Sprite2D`` and derived types."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"When combined with the ``[GlobalClass]`` attribute, the ``[Icon]`` attribute "
-"allows providing a path to an icon to show when the class is displayed in "
-"the editor."
-msgstr ""
-"``[Icon]`` 屬性也允許提供圖示的路徑，以便它可以用作編輯器中的類別圖示。"
 
 msgid ""
 "The ``Stats`` class is a custom resource registered as a global class. :ref:"

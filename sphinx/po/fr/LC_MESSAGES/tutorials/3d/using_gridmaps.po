@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,15 +41,6 @@ msgstr ""
 msgid "Example project"
 msgstr "Exemple de projets"
 
-#, fuzzy
-msgid ""
-"To learn how GridMaps work, start by downloading the sample project: "
-"`gridmap_starter.zip <https://github.com/godotengine/godot-docs-project-"
-"starters/releases/download/latest-4.x/gridmap_starter.zip>`_."
-msgstr ""
-"Pour apprendre comment fonctionnent les GridMaps, commencez par télécharger "
-"l'exemple de projet : :download:`gridmap_demo.zip <files/gridmap_demo.zip>`."
-
 msgid ""
 "Unzip this project and add it to the Project Manager using the \"Import\" "
 "button."
@@ -64,26 +50,6 @@ msgstr ""
 
 msgid "Creating a MeshLibrary"
 msgstr "Création d’une MeshLibrary"
-
-#, fuzzy
-msgid ""
-"To begin, you need a :ref:`class_MeshLibrary`, which is a collection of "
-"individual meshes that can be used in the gridmap. Open the "
-"\"mesh_library_source.tscn\" scene to see an example of how to set up the "
-"mesh library."
-msgstr ""
-"Pour commencer, vous avez besoin d'une :ref:`class_MeshLibrary`, qui est une "
-"collection de maillages individuels qui peuvent être utilisés dans la "
-"grille. Ouvrez la scène \"MeshLibrary_Source.tscn\" pour voir un exemple de "
-"configuration de la MeshLibrary."
-
-#, fuzzy
-msgid ""
-"As you can see, this scene has a :ref:`class_Node3D` node as its root, and a "
-"number of :ref:`class_MeshInstance3D` node children."
-msgstr ""
-"Comme vous pouvez le voir, cette scène a un nœud :ref:`class_Spatial` comme "
-"racine, et un certain nombre de :ref:`class_MeshInstance` enfants."
 
 msgid ""
 "If you don't need any physics in your scene, then you're done. However, in "
@@ -95,18 +61,6 @@ msgstr ""
 
 msgid "Collisions"
 msgstr "Collisions"
-
-#, fuzzy
-msgid ""
-"You can manually assign a :ref:`class_StaticBody3D` and :ref:"
-"`class_CollisionShape3D` to each mesh. Alternatively, you can use the "
-"\"Mesh\" menu to automatically create the collision body based on the mesh "
-"data."
-msgstr ""
-"Vous pouvez assigner manuellement un :ref:`class_StaticBody` et un :ref:"
-"`class_CollisionShape` à chaque maille. Vous pouvez également utiliser le "
-"menu \"Mesh\" pour créer automatiquement le corps de collision en fonction "
-"des données du maillage."
 
 msgid ""
 "Note that a \"Convex\" collision body will work better for simple meshes. "
@@ -143,19 +97,6 @@ msgstr ""
 "`class_NavigationMesh` peut être assignée aux objets MeshLibrary ; celle-ci "
 "peut être créée manuellement, ou précalculée comme décrit ci-dessous."
 
-#, fuzzy
-msgid ""
-"To create the NavigationMesh from a MeshLibrary scene export, place a :ref:"
-"`class_NavigationRegion3D` child node below the main MeshInstance3D for the "
-"GridMap item. Add a valid NavigationMesh resource to the NavigationRegion3D "
-"and some source geometry nodes below and bake the NavigationMesh."
-msgstr ""
-"Pour créer la NavigationMesh depuis une exportation de scène MeshLibrary, "
-"placez un nœud enfant :ref:`class_NavigationMeshInstance` en dessous de la "
-"MeshInstance principale de l'élément GridMap. Ajoutez une ressource "
-"NavigationMesh valide à la NavigationMeshInstance ainsi que des nœuds "
-"sources de géométries en dessous puis précalculez la NavigationMesh."
-
 msgid ""
 "With small grid cells it is often necessary to reduce the NavigationMesh "
 "properties for agent radius and region minimum size."
@@ -164,36 +105,8 @@ msgstr ""
 "les propriétés du rayon des agents et la taille minimum de la région de la "
 "NavigationMesh."
 
-#, fuzzy
-msgid ""
-"Nodes below the NavigationRegion3D are ignored for the MeshLibrary scene "
-"export, so additional nodes can be added as source geometry just for baking "
-"the navmesh."
-msgstr ""
-"Les nœuds en dessous de la NavigationMeshInstance sont ignorés pour l'export "
-"de la scène MeshLibrary, les nœuds additionnels pouvant être ajoutés en tant "
-"que géométrie source seulement pour le précalcul du navmesh."
-
-#, fuzzy
-msgid ""
-"The baked cell size of the NavigationMesh must match the NavigationServer "
-"map cell size to properly merge the navigation meshes of different grid "
-"cells."
-msgstr ""
-"La taille de la cellule précalculée du NavigationMesh doit correspondre à la "
-"taille de cellule de la carte du NavigationServer afin de correctement "
-"fusionner les mailles de navigation des cellules des différentes grilles."
-
 msgid "Exporting the MeshLibrary"
 msgstr "Exportation de la MeshLibrary"
-
-#, fuzzy
-msgid ""
-"To export the library, click on **Scene > Export As... > MeshLibrary...**, "
-"and save it as a resource."
-msgstr ""
-"Pour exporter la bibliothèque, cliquez sur Scene -> Convert To.. -> "
-"MeshLibrary..., et enregistrez-la comme ressource."
 
 msgid ""
 "You can find an already exported MeshLibrary in the project named "
@@ -222,21 +135,6 @@ msgstr ""
 "La propriété \"Cell/Size\" doit être réglée sur la taille de vos mailles. "
 "Vous pouvez le laisser à la valeur par défaut de la démo. Réglez la "
 "propriété \"Center Y\" sur \"Off\"."
-
-#, fuzzy
-msgid ""
-"Now you can start designing the level by choosing a tile from the palette "
-"and placing it with Left-Click in the editor window. Use Right-click to "
-"remove a tile."
-msgstr ""
-"Vous pouvez maintenant commencer à concevoir le niveau en choisissant une "
-"tuile dans la palette et en la plaçant avec le clic gauche dans la fenêtre "
-"de l'éditeur. Pour supprimer une tuile, utilisez :kbd:`Shift` + Clic-Droit."
-
-msgid ""
-"Use the arrows next to the \"GridMap\" menu to change the floor that you are "
-"working on."
-msgstr ""
 
 msgid ""
 "Click on the \"GridMap\" menu to see options and shortcuts. For example, "

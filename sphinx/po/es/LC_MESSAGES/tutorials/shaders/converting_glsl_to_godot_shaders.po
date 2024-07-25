@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,21 +70,6 @@ msgstr ""
 
 msgid "Vertex attributes"
 msgstr "Atributos de Vertex"
-
-#, fuzzy
-msgid ""
-"In GLSL, you can pass in per-vertex information using attributes and have "
-"the flexibility to pass in as much or as little as you want. In Godot, you "
-"have a set number of input attributes, including ``VERTEX`` (position), "
-"``COLOR``, ``UV``, ``UV2``, ``NORMAL``. Each shaders' page in the shader "
-"reference section of the documentation comes with a complete list of its "
-"vertex attributes."
-msgstr ""
-"En el GLSL, puedes pasar información por vértice usando atributos y tienes "
-"la flexibilidad de pasar tanta o tan poca información como quieras. En "
-"Godot, tienes un número determinado de atributos de entrada, incluyendo "
-"``VERTEX`` (position), ``COLOR``, ``UV``, ``UV2``, ``NORMAL``. Para una "
-"lista completa, ver :ref:`Shading language reference <doc_shading_language>`."
 
 msgid "gl_Position"
 msgstr "gl_Position"
@@ -159,28 +139,6 @@ msgstr ""
 
 msgid "Macros"
 msgstr "Macros"
-
-msgid ""
-"The :ref:`Godot shader preprocessor<doc_shader_preprocessor>` supports the "
-"following macros:"
-msgstr ""
-
-msgid "``#define`` / ``#undef``"
-msgstr ""
-
-msgid ""
-"``#if``, ``#elif``, ``#else``, ``#endif``, ``defined()``, ``#ifdef``, "
-"``#ifndef``"
-msgstr ""
-
-msgid ""
-"``#include`` (only ``.gdshaderinc`` files and with a maximum depth of 25)"
-msgstr ""
-
-msgid ""
-"``#pragma disable_preprocessor``, which disables preprocessing for the rest "
-"of the file"
-msgstr ""
 
 msgid "Variables"
 msgstr "Variables"

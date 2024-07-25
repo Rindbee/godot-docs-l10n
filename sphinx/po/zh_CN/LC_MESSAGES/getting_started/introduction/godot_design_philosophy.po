@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -262,7 +257,6 @@ msgstr ""
 "**Godot开发自社区, 为其社区内外所有游戏开发者创造的.** 由用户需求及公开讨论驱"
 "动核心更新. 核心开发人员的新功能通常将重点放在首先让大多数用户受益的方面."
 
-#, fuzzy
 msgid ""
 "That said, although a handful of core developers work on it full-time, the "
 "project has thousands of contributors at the time of writing. Benevolent "
@@ -270,9 +264,9 @@ msgid ""
 "improvements in all corners of the engine at the same time in every major "
 "release."
 msgstr ""
-"就是说, 尽管只有少数全职的核心开发者, 但在撰写本文时, 该项目已有超过600位贡献"
-"者. 仁慈的程序员致力于完善他们可能需要的功能, 因此在每个主要版本中都能看到引"
-"擎各个方面的改进."
+"即便如此，尽管只有屈指可数的全职的核心开发者, 但在撰写本文时, 该项目已有超过"
+"数千位贡献者。仁慈的程序员致力于完善他们可能需要的功能，因此你能在每个主要版"
+"本中都能看到引擎各个方面的改进。"
 
 msgid "The Godot editor is a Godot game"
 msgstr "Godot 编辑器是 Godot 游戏"

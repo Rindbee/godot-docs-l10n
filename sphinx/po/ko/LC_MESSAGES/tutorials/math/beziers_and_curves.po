@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,152 +116,8 @@ msgstr ""
 msgid "Adding control points"
 msgstr "제어점 만들기"
 
-msgid ""
-"Building upon Cubic Bezier, we can change the way two of the points work to "
-"control the shape of our curve freely. Instead of having ``p0``, ``p1``, "
-"``p2`` and ``p3``, we will store them as:"
-msgstr ""
-
-msgid "``point0 = p0``: Is the first point, the source"
-msgstr ""
-
-msgid "``control0 = p1 - p0``: Is a vector relative to the first control point"
-msgstr ""
-
-msgid ""
-"``control1 = p3 - p2``: Is a vector relative to the second control point"
-msgstr ""
-
-msgid "``point1 = p3``: Is the second point, the destination"
-msgstr ""
-
-msgid ""
-"This way, we have two points and two control points which are relative "
-"vectors to the respective points. If you've used graphics or animation "
-"software before, this might look familiar:"
-msgstr ""
-
-msgid ""
-"This is how graphics software presents Bezier curves to the users, and how "
-"they work and look in Godot."
-msgstr ""
-
-msgid "Curve2D, Curve3D, Path and Path2D"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"There are two objects that contain curves: :ref:`Curve3D <class_Curve3D>` "
-"and :ref:`Curve2D <class_Curve2D>` (for 3D and 2D respectively)."
-msgstr ""
-"두 가지 방법이 항상 호환되는 것은 아닙니다. 컨테이너는 자손을 제어하기 때문"
-"에, 레이아웃 메뉴를 그것들에게 사용할 수 없습니다. 각 컨테이너는 특정한 효과"
-"를 갖고 있으므로 당신은 제대로 동작하는 인터페이스를 얻기 위해 그들을 중첩"
-"(nest)할지도 모릅니다. 레이아웃 접근을 사용하는 경우 자손들을 아래계층에서 위"
-"계층 방향으로 작업합니다. 씬에 추가적이 컨테이너를 사용하지 않으므로 더 깨끗"
-"한 계층 구조를 만들 수 있지만, 항목을 행이나 열, 격자 등으로 배열하기는 더 어"
-"렵습니다."
-
-#, fuzzy
-msgid ""
-"They can contain several points, allowing for longer paths. It is also "
-"possible to set them to nodes: :ref:`Path3D <class_Path3D>` and :ref:`Path2D "
-"<class_Path2D>` (also for 3D and 2D respectively):"
-msgstr ""
-"두 가지 방법이 항상 호환되는 것은 아닙니다. 컨테이너는 자손을 제어하기 때문"
-"에, 레이아웃 메뉴를 그것들에게 사용할 수 없습니다. 각 컨테이너는 특정한 효과"
-"를 갖고 있으므로 당신은 제대로 동작하는 인터페이스를 얻기 위해 그들을 중첩"
-"(nest)할지도 모릅니다. 레이아웃 접근을 사용하는 경우 자손들을 아래계층에서 위"
-"계층 방향으로 작업합니다. 씬에 추가적이 컨테이너를 사용하지 않으므로 더 깨끗"
-"한 계층 구조를 만들 수 있지만, 항목을 행이나 열, 격자 등으로 배열하기는 더 어"
-"렵습니다."
-
-msgid ""
-"Using them, however, may not be completely obvious, so following is a "
-"description of the most common use cases for Bezier curves."
-msgstr ""
-
-msgid "Evaluating"
-msgstr ""
-
-msgid ""
-"Only evaluating them may be an option, but in most cases it's not very "
-"useful. The big drawback with Bezier curves is that if you traverse them at "
-"constant speed, from ``t = 0`` to ``t = 1``, the actual interpolation will "
-"*not* move at constant speed. The speed is also an interpolation between the "
-"distances between points ``p0``, ``p1``, ``p2`` and ``p3`` and there is not "
-"a mathematically simple way to traverse the curve at constant speed."
-msgstr ""
-
-#, fuzzy
-msgid "Let's do an example with the following pseudocode:"
-msgstr "다음 의사 코드를 사용하면:"
-
-msgid ""
-"As you can see, the speed (in pixels per second) of the circle varies, even "
-"though ``t`` is increased at constant speed. This makes beziers difficult to "
-"use for anything practical out of the box."
-msgstr ""
-
 msgid "Drawing"
 msgstr "그리기"
-
-msgid ""
-"Drawing beziers (or objects based on the curve) is a very common use case, "
-"but it's also not easy. For pretty much any case, Bezier curves need to be "
-"converted to some sort of segments. This is normally difficult, however, "
-"without creating a very high amount of them."
-msgstr ""
-
-msgid ""
-"The reason is that some sections of a curve (specifically, corners) may "
-"require considerable amounts of points, while other sections may not:"
-msgstr ""
-
-msgid ""
-"Additionally, if both control points were ``0, 0`` (remember they are "
-"relative vectors), the Bezier curve would just be a straight line (so "
-"drawing a high amount of points would be wasteful)."
-msgstr ""
-
-msgid ""
-"Before drawing Bezier curves, *tessellation* is required. This is often done "
-"with a recursive or divide and conquer function that splits the curve until "
-"the curvature amount becomes less than a certain threshold."
-msgstr ""
-
-msgid ""
-"The *Curve* classes provide this via the :ref:`Curve2D.tessellate() "
-"<class_Curve2D_method_tessellate>` function (which receives optional "
-"``stages`` of recursion and angle ``tolerance`` arguments). This way, "
-"drawing something based on a curve is easier."
-msgstr ""
-
-msgid "Traversal"
-msgstr ""
-
-msgid ""
-"The last common use case for the curves is to traverse them. Because of what "
-"was mentioned before regarding constant speed, this is also difficult."
-msgstr ""
-
-msgid ""
-"To make this easier, the curves need to be *baked* into equidistant points. "
-"This way, they can be approximated with regular interpolation (which can be "
-"improved further with a cubic option). To do this, just use the :ref:"
-"`Curve3D.sample_baked()<class_Curve3D_method_sample_baked>` method together "
-"with :ref:`Curve2D."
-"get_baked_length()<class_Curve2D_method_get_baked_length>`. The first call "
-"to either of them will bake the curve internally."
-msgstr ""
-
-msgid ""
-"Traversal at constant speed, then, can be done with the following pseudo-"
-"code:"
-msgstr ""
-
-msgid "And the output will, then, move at constant speed:"
-msgstr ""
 
 msgid "Translation status"
 msgstr "번역 상태"

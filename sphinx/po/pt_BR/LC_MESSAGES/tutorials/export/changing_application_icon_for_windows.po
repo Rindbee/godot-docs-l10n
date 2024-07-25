@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,11 +54,6 @@ msgstr ""
 "hiDPI usando este comando do `ImageMagick <https://www.imagemagick.org/>`_:"
 
 msgid ""
-"Depending on which version of ImageMagick you installed, you might need to "
-"leave out the ``magick`` and run this command instead:"
-msgstr ""
-
-msgid ""
 "For the ICO file to effectively replace the default Godot icon, it must "
 "contain *all* the sizes included in the default Godot icon: 16×16, 32×32, "
 "48×48, 64×64, 128×128, 256×256. If the ICO file does not contain all the "
@@ -109,12 +99,6 @@ msgstr ""
 
 msgid "Changing the file icon"
 msgstr "Mudando o ícone do arquivo"
-
-msgid ""
-"In Godot 3.5 and later, you can change the file icon without external tools "
-"using `godoticon <https://github.com/pkowal1982/godoticon>`__. Changing the "
-"file icon this way should work for executables containing an embedded PCK."
-msgstr ""
 
 msgid ""
 "There are `known issues <https://github.com/godotengine/godot/"
@@ -164,11 +148,6 @@ msgstr ""
 "winehq.org/>`_ para usar o rcedit."
 
 msgid ""
-"On macOS 10.15 (Catalina) or later, make sure to use a 64-bit version of "
-"both WINE and rcedit since 32-bit applications aren't supported anymore."
-msgstr ""
-
-msgid ""
 "You should now have everything in place to change the file icon. To do that, "
 "you will need to specify the icon when exporting. Go to **Project → "
 "Export**. Assuming you have already created a Windows Desktop preset, select "
@@ -178,18 +157,6 @@ msgstr ""
 "isso, você precisa especificar o ícone ao exportar. Vá para **Projeto → "
 "Exportar**. Assumindo que você já tenha criado uma predefinição Windows "
 "Desktop, selecione seu ícone em formato ICO no campo **Application → Icon**."
-
-msgid ""
-"All the supplied metadata must be valid. Most importantly, the version "
-"identifiers **must** take the form ``major.minor.patch.revision`` where "
-"every component is required and is a positive integer. For instance, "
-"``1.2.0.0`` is valid but ``1.2.0`` is not."
-msgstr ""
-
-msgid ""
-"If you provide invalid metadata in the export preset, the application icon "
-"won't change as rcedit will fail to change the executable's metadata."
-msgstr ""
 
 msgid ""
 "If rcedit fails to change the icon, you can instead :ref:`compile your own "

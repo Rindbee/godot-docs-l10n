@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "2D particle systems"
-msgstr "パーティクル・システム(2D)"
-
 msgid "Intro"
 msgstr "イントロ"
-
-#, fuzzy
-msgid ""
-"Particle systems are used to simulate complex physical effects, such as "
-"sparks, fire, magic particles, smoke, mist, etc."
-msgstr ""
-"単純な(しかしほとんどの用途には十分に柔軟な)パーティクル・システムが提供され"
-"ています。パーティクル・システムは、火花、火、魔法の粒子、煙、霧などの複雑な"
-"物理的効果をシミュレートするために使用されます。"
 
 msgid ""
 "The idea is that a \"particle\" is emitted at a fixed interval and with a "
@@ -51,148 +33,8 @@ msgstr ""
 msgid "Particle nodes"
 msgstr "パーティクルノード"
 
-#, fuzzy
-msgid ""
-"Godot provides two different nodes for 2D particles, :ref:"
-"`class_GPUParticles2D` and :ref:`class_CPUParticles2D`. GPUParticles2D is "
-"more advanced and uses the GPU to process particle effects. CPUParticles2D "
-"is a CPU-driven option with near-feature parity with GPUParticles2D, but "
-"lower performance when using large amounts of particles. On the other hand, "
-"CPUParticles2D may perform better on low-end systems or in GPU-bottlenecked "
-"situations."
-msgstr ""
-"Godotは、2Dパーティクル用に2つの異なるノード、\\ :ref:`class_Particles2D` お"
-"よび :ref:`class_CPUParticles2D` を提供します。 Particles2Dはより高度で、GPU"
-"を使用してパーティクルエフェクトを処理しますが、それはより高度なグラフィック"
-"スAPI、この場合はGLES3レンダラーに限定されます。 GLES2バックエンドを使用する"
-"プロジェクトの場合、CPUParticles2Dは、Particles2Dとほぼ同等の機能を備えたCPU"
-"駆動のオプションですが、パフォーマンスは低下します。 Particles2Dは :ref:"
-"`class_ParticlesMaterial` を介して(およびオプションでカスタムシェーダーを使用"
-"して)構成されますが、一致するオプションはCPUParticles2Dのノードプロパティを介"
-"して提供されます(トレイル設定を除く)。インスペクタでノードをクリックし、ツー"
-"ルバーの「Particles」メニューで「Convert to CPUParticles2D」を選択すると、"
-"Particles2DノードをCPUParticles2Dノードに変換できます。"
-
-msgid ""
-"While GPUParticles2D is configured via a :ref:"
-"`class_ParticleProcessMaterial` (and optionally with a custom shader), the "
-"matching options are provided via node properties in CPUParticles2D (with "
-"the exception of the trail settings)."
-msgstr ""
-
-msgid ""
-"You can convert a GPUParticles2D node into a CPUParticles2D node by clicking "
-"on the node in the inspector, selecting the 2D viewport, and selecting "
-"**GPUParticles2D > Convert to CPUParticles2D** in the viewport toolbar."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The rest of this tutorial is going to use the GPUParticles2D node. First, "
-"add a GPUParticles2D node to your scene. After creating that node you will "
-"notice that only a white dot was created, and that there is a warning icon "
-"next to your GPUParticles2D node in the scene dock. This is because the node "
-"needs a ParticleProcessMaterial to function."
-msgstr ""
-"このチュートリアルの残りの部分では、Particles2Dノードを使用します。最初に、"
-"Particles2Dノードをシーンに追加します。そのノードを作成すると、白い点のみが作"
-"成され、インスペクタのParticles2Dノードの横に警告アイコンがあることに気付くで"
-"しょう。これは、ノードが機能するためにParticlesMaterialが必要だからです。"
-
-#, fuzzy
-msgid "ParticleProcessMaterial"
-msgstr "\\ ParticlesMaterial"
-
-#, fuzzy
-msgid ""
-"To add a process material to your particles node, go to ``Process Material`` "
-"in your inspector panel. Click on the box next to ``Material``, and from the "
-"dropdown menu select ``New ParticleProcessMaterial``."
-msgstr ""
-"パーティクル・ノードにプロセス・マテリアルを追加するには、インスペクタパネル"
-"の ``Process Material`` に移動します。 ``Material`` の横のボックスをクリック"
-"し、ドロップダウン・メニューから ``New ParticlesMaterial`` を選択します。"
-
-#, fuzzy
-msgid "Your GPUParticles2D node should now be emitting white points downward."
-msgstr ""
-"これで、Particles2Dノードが下方に白いポイントを放出するようになります。"
-
 msgid "Texture"
 msgstr "テクスチャ"
-
-msgid ""
-"A particle system can use a single texture or an animation *flipbook*. A "
-"flipbook is a texture that contains several frames of animation that can be "
-"played back, or chosen at random during emission. This is equivalent to a "
-"spritesheet for particles."
-msgstr ""
-
-msgid "The texture is set via the **Texture** property:"
-msgstr ""
-
-#, fuzzy
-msgid "Using an animation flipbook"
-msgstr "アニメーションツリー"
-
-msgid ""
-"Particle flipbooks are suited to reproduce complex effects such as smoke, "
-"fire, explosions. They can also be used to introduce random texture "
-"variation, by making every particle use a different texture. You can find "
-"existing particle flipbook images online, or pre-render them using external "
-"tools such as `Blender <https://www.blender.org/>`__ or `EmberGen <https://"
-"jangafx.com/software/embergen/>`__."
-msgstr ""
-
-msgid "Example of a particle system that uses a flipbook texture"
-msgstr ""
-
-msgid ""
-"Using an animation flipbook requires additional configuration compared to a "
-"single texture. For demonstration purposes, we'll use this texture with 5 "
-"columns and 7 rows (right-click and choose **Save as…**):"
-msgstr ""
-
-#, fuzzy
-msgid "Particle flipbook texture example"
-msgstr "別の例:"
-
-msgid ""
-"Credit: `JoesAlotofthings <https://opengameart.org/content/alot-of-particles-"
-"indispersal-special-effect-alotofparticles30>`__ (CC BY 4.0)"
-msgstr ""
-
-msgid ""
-"To use an animation flipbook, you must create a new CanvasItemMaterial in "
-"the Material section of the GPUParticles2D (or CPUParticles2D) node:"
-msgstr ""
-
-msgid ""
-"Creating a CanvasItemMaterial at the bottom of the particles node inspector"
-msgstr ""
-
-msgid ""
-"In this CanvasItemMaterial, enable **Particle Animation** and set **H "
-"Frames** and **V Frames** to the number of columns and rows present in your "
-"flipbook texture:"
-msgstr ""
-
-msgid "Configuring the CanvasItemMaterial for the example flipbook texture"
-msgstr ""
-
-msgid ""
-"Once this is done, the :ref:`Animation section "
-"<doc_particle_systems_2d_animation>` in ParticleProcessMaterial (for "
-"GPUParticles2D) or in the CPUParticles2D inspector will be effective."
-msgstr ""
-
-msgid ""
-"If your flipbook texture has a black background instead of a transparent "
-"background, you will also need to set the blend mode to **Add** instead of "
-"**Mix** for correct display. Alternatively, you can modify the texture to "
-"have a transparent background in an image editor. In `GIMP <https://gimp."
-"org>`__, this can be done using the **Color > Color to Alpha** menu."
-msgstr ""
 
 msgid "Time parameters"
 msgstr "時間パラメーター"
@@ -215,14 +57,6 @@ msgstr "\\ Lifetime: 4.0"
 
 msgid "One Shot"
 msgstr "単発"
-
-#, fuzzy
-msgid ""
-"When enabled, a GPUParticles2D node will emit all of its particles once and "
-"then never again."
-msgstr ""
-"有効にすると、Particles2Dノードはすべてのパーティクルを一度だけ放出し、その後"
-"は二度と放出しません。"
 
 msgid "Preprocess"
 msgstr "前処理"
@@ -330,20 +164,6 @@ msgstr ""
 "``X`` および ``Y`` プロパティは、パーティクルエミッタを基準とした長方形の左上"
 "隅の位置を制御します。"
 
-#, fuzzy
-msgid ""
-"You can have Godot generate a Visibility Rect automatically using the "
-"toolbar above the 2d view. To do so, select the GPUParticles2D node and "
-"Click ``Particles > Generate Visibility Rect``. Godot will simulate the "
-"Particles2D node emitting particles for a few seconds and set the rectangle "
-"to fit the surface the particles take."
-msgstr ""
-"Godotは、2Dビューの上にあるツールバーを使用して、可視領域矩形 (Visibility "
-"Rect) を自動的に生成できます。これを行うには、Particles2Dノードを選択し、\\ "
-"``Particles > Generate Visibility Rect`` をクリックします。 Godotは数秒間パー"
-"ティクルを放出するParticles2Dノードをシミュレートし、パーティクルがとるサー"
-"フェスに合うように四角形を設定します。"
-
 msgid ""
 "You can control the emit duration with the ``Generation Time (sec)`` option. "
 "The maximum value is 25 seconds. If you need more time for your particles to "
@@ -385,26 +205,6 @@ msgstr ""
 "``Index`` は、パーティクルが放出順序に従って描画される事を意味します(デフォル"
 "ト)。\\ ``Lifetime`` は、残っている寿命の順に描画されることを意味します。"
 
-#, fuzzy
-msgid "ParticleProcessMaterial settings"
-msgstr "パーティクルマテリアルの設定"
-
-#, fuzzy
-msgid "Direction"
-msgstr "データディレクトリ"
-
-msgid ""
-"This is the base direction at which particles emit. The default is "
-"``Vector3(1, 0, 0)`` which makes particles emit to the right. However, with "
-"the default gravity settings, particles will go straight down."
-msgstr ""
-
-msgid ""
-"For this property to be noticeable, you need an *initial velocity* greater "
-"than 0. Here, we set the initial velocity to 40. You'll notice that "
-"particles emit toward the right, then go down because of gravity."
-msgstr ""
-
 msgid "Spread"
 msgstr "広がり"
 
@@ -418,12 +218,6 @@ msgstr ""
 "加算される角度(度単位)です。\\ ``180`` のスプレッドでは、すべての方向(+/- 180"
 "度)で放出されます。スプレッドが作用するためには、\"Initial Velocity\"パラメー"
 "タが0より大きくなければなりません。"
-
-msgid "Flatness"
-msgstr ""
-
-msgid "This property is only useful for 3D particles."
-msgstr ""
 
 msgid "Gravity"
 msgstr "重力"
@@ -522,10 +316,6 @@ msgstr "色"
 msgid "Used to change the color of the particles being emitted."
 msgstr "放出されるパーティクルの色を変更するために使用します。"
 
-#, fuzzy
-msgid "Hue Variation"
-msgstr "\\ Hue variation"
-
 msgid ""
 "The ``Variation`` value sets the initial hue variation applied to each "
 "particle. The ``Variation Random`` value controls the hue variation "
@@ -537,83 +327,8 @@ msgstr ""
 msgid "Animation"
 msgstr "アニメーション"
 
-msgid ""
-"Particle flipbook animation is only effective if the CanvasItemMaterial used "
-"on the GPUParticles2D or CPUParticles2D node has been :ref:`configured "
-"accordingly <doc_particle_systems_2d_using_flipbook>`."
-msgstr ""
-
-msgid ""
-"To set up the particle flipbook for linear playback, set the **Speed Min** "
-"and **Speed Max** values to 1:"
-msgstr ""
-
-msgid ""
-"Setting up particle animation for playback during the particle's lifetime"
-msgstr ""
-
-msgid ""
-"By default, looping is disabled. If the particle is done playing before its "
-"lifetime ends, the particle will keep using the flipbook's last frame (which "
-"may be fully transparent depending on how the flipbook texture is designed). "
-"If looping is enabled, the animation will loop back to the first frame and "
-"resume playing."
-msgstr ""
-
-msgid ""
-"Depending on how many images your sprite sheet contains and for how long "
-"your particle is alive, the animation might not look smooth. The "
-"relationship between particle lifetime, animation speed, and number of "
-"images in the sprite sheet is this:"
-msgstr ""
-
-msgid ""
-"At an animation speed of ``1.0``, the animation will reach the last image in "
-"the sequence just as the particle's lifetime ends."
-msgstr ""
-
-msgid ""
-"Animation\\ FPS = \\frac{Number\\ of\\ images}{Lifetime}\n"
-"\n"
-msgstr ""
-
-msgid ""
-"If you wish the particle flipbook to be used as a source of random particle "
-"textures for every particle, keep the speed values at 0 and set **Offset "
-"Max** to 1 instead:"
-msgstr ""
-
-msgid "Setting up particle animation for random offset on emission"
-msgstr ""
-
-msgid ""
-"Note that the GPUParticles2D node's **Fixed FPS** also affects animation "
-"playback. For smooth animation playback, it's recommended to set it to 0 so "
-"that the particle is simulated on every rendered frame. If this is not an "
-"option for your use case, set **Fixed FPS** to be equal to the effective "
-"framerate used by the flipbook animation (see above for the formula)."
-msgstr ""
-
 msgid "Emission Shapes"
 msgstr "\\ Emission Shapes"
-
-#, fuzzy
-msgid ""
-"ParticleProcessMaterials allow you to set an Emission Mask, which dictates "
-"the area and direction in which particles are emitted. These can be "
-"generated from textures in your project."
-msgstr ""
-"パーティクルマテリアルを使用すると、パーティクルが放出される領域と方向を指定"
-"する放出マスクを設定できます。これらは、プロジェクト内のテクスチャから生成で"
-"きます。"
-
-#, fuzzy
-msgid ""
-"Ensure that a ParticleProcessMaterial is set, and the GPUParticles2D node is "
-"selected. A \"Particles\" menu should appear in the Toolbar:"
-msgstr ""
-"パーティクル マテリアルが設定され、パーティクル 2D ノードが選択されていること"
-"を確認します。ツールバーに「パーティクル」メニューが表示されます。"
 
 msgid "Open it and select \"Load Emission Mask\":"
 msgstr "それを開き、\"Load Emission Mask\" を選択します:"
@@ -660,14 +375,6 @@ msgid ""
 msgstr ""
 "`` Capture from Pixel`` は、パーティクルがマスクの発生ポイントから色を継承す"
 "るようにします。"
-
-#, fuzzy
-msgid ""
-"Once you click \"OK\", the mask will be generated and set to the "
-"ParticleProcessMaterial, under the ``Emission Shape`` section:"
-msgstr ""
-"「OK」をクリックすると、マスクが生成され、\\ ``Emission Shape``\\ セクション"
-"の下にあるパーティクルマテリアルに設定されます。"
 
 msgid ""
 "All of the values within this section have been automatically generated by "

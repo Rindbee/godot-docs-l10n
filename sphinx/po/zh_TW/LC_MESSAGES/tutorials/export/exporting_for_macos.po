@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,21 +22,6 @@ msgid ""
 msgstr ""
 "這個頁面描述的是如何將 Godot 專案匯出到 macOS。如果你想要找的是從源碼編譯編輯"
 "器或匯出範本二進位檔案，請閱讀 :ref:`doc_compiling_for_osx`。"
-
-#, fuzzy
-msgid ""
-"macOS apps exported with the official export templates are exported as a "
-"single \"Universal 2\" binary ``.app`` bundle, a folder with a specific "
-"structure which stores the executable, libraries and all the project files. "
-"This bundle can be exported as is, packed in a ZIP archive or DMG disk image "
-"(only supported when exporting from a computer running macOS). `Universal "
-"binaries for macOS support both Intel x86_64 and ARM64 (Apple silicon, i.e. "
-"M1) architectures <https://developer.apple.com/documentation/apple-silicon/"
-"building-a-universal-macos-binary>`__."
-msgstr ""
-"macOS App 會被匯出為 ``.app`` 組合包，這是一個具有特殊結構的資料夾，裡面存放"
-"著可執行檔、庫，以及所有專案檔案。這個組合包可以原樣匯出，或者打包到 ZIP 歸檔"
-"檔或 DMG 磁片對應檔中（只有在運作 macOS 的電腦上進行匯出時才支援）。"
 
 msgid "Requirements"
 msgstr "系統需求"
@@ -207,17 +187,6 @@ msgstr "在“程式碼簽章 > 程式碼設計”選項中選擇“內建（僅
 
 msgid "Select ``Disabled`` in the ``Notarization > Notarization`` option."
 msgstr "在「公證 > 公證」選項中選擇「停用」。"
-
-#, fuzzy
-msgid ""
-"In this case Godot will use an ad-hoc signature, which will make running an "
-"exported app easier for the end users, see the :ref:`Running Godot apps on "
-"macOS <doc_running_on_macos>` page for more information."
-msgstr ""
-"保持 ``Code Signing`` 啟用並將 ``Identity`` 選項留空（在運作 macOS 的電腦上匯"
-"出時可用，這個選項在其他平臺上是不可見的）。這樣 Godot 就會使用 Ad-hoc 簽章，"
-"讓最終使用者能夠更方便地運作匯出的 App，詳情請見:ref:`在 macOS 上運作 Godot "
-"App <doc_running_on_macos>` 頁面。"
 
 msgid "Signing Options"
 msgstr "簽名選項"
@@ -632,65 +601,29 @@ msgstr "環境變數"
 msgid "Encryption / Encryption Key"
 msgstr "加密/加密金鑰"
 
-#, fuzzy
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr "GODOT_SCRIPT_ENCRYPTION_KEY"
-
 msgid "Options / Codesign / Certificate File"
 msgstr "選項/程式碼設計/憑證檔案"
-
-#, fuzzy
-msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_FILE``"
-msgstr "GODOT_MACOS_CODESIGN_CERTIFICATE_FILE"
 
 msgid "Options / Codesign / Certificate Password"
 msgstr "選項/程式碼設計/憑證密碼"
 
-#, fuzzy
-msgid "``GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD``"
-msgstr "GODOT_MACOS_CODESIGN_CERTIFICATE_PASSWORD"
-
 msgid "Options / Codesign / Provisioning Profile"
 msgstr "選項/程式碼設計/配置檔案"
-
-#, fuzzy
-msgid "``GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE``"
-msgstr "GODOT_MACOS_CODESIGN_PROVISIONING_PROFILE"
 
 msgid "Options / Notarization / API UUID"
 msgstr "選項/公證/API UUID"
 
-#, fuzzy
-msgid "``GODOT_MACOS_NOTARIZATION_API_UUID``"
-msgstr "GODOT_MACOS_NOTARIZATION_API_UUID"
-
 msgid "Options / Notarization / API Key"
 msgstr "選項/公證/API 金鑰"
-
-#, fuzzy
-msgid "``GODOT_MACOS_NOTARIZATION_API_KEY``"
-msgstr "GODOT_MACOS_NOTARIZATION_API_KEY"
 
 msgid "Options / Notarization / API Key ID"
 msgstr "選項/公證/API 金鑰 ID"
 
-#, fuzzy
-msgid "``GODOT_MACOS_NOTARIZATION_API_KEY_ID``"
-msgstr "GODOT_MACOS_NOTARIZATION_API_KEY_ID"
-
 msgid "Options / Notarization / Apple ID Name"
 msgstr "選項/公證/Apple ID 名稱"
 
-#, fuzzy
-msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME``"
-msgstr "GODOT_MACOS_NOTARIZATION_APPLE_ID_NAME"
-
 msgid "Options / Notarization / Apple ID Password"
 msgstr "選項/公證/Apple ID 密碼"
-
-#, fuzzy
-msgid "``GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD``"
-msgstr "GODOT_MACOS_NOTARIZATION_APPLE_ID_PASSWORD"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

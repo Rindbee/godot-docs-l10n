@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,45 +184,6 @@ msgstr ""
 "对于视口, :ref:`Viewport.get_viewport_rid() "
 "<class_Viewport_method_get_viewport_rid>` 方法将返回服务器中的视口RID."
 
-#, fuzzy
-msgid ""
-"For 3D, the :ref:`World3D <class_World3D>` resource (obtainable in the :ref:"
-"`Viewport <class_Viewport>` and :ref:`Node3D <class_Node3D>` nodes) contains "
-"functions to get the *RenderingServer Scenario*, and the *PhysicsServer "
-"Space*. This allows creating 3D objects directly with the server API and "
-"using them."
-msgstr ""
-"对于3D, :ref:`World <class_World>` 资源(可在 :ref:`Viewport "
-"<class_Viewport>` 和 :ref:`Spatial <class_Spatial>` 节点中获得)包含获取 "
-"*VisualServer Scenario* 和 *PhysicsServer Space* 的函数. 这样就可以直接用服务"
-"API创建3D对象并使用它们."
-
-#, fuzzy
-msgid ""
-"For 2D, the :ref:`World2D <class_World2D>` resource (obtainable in the :ref:"
-"`Viewport <class_Viewport>` and :ref:`CanvasItem <class_CanvasItem>` nodes) "
-"contains functions to get the *RenderingServer Canvas*, and the "
-"*Physics2DServer Space*. This allows creating 2D objects directly with the "
-"server API and using them."
-msgstr ""
-"对于2D, :ref:`World2D <class_World2D>` 资源(可在 :ref:`Viewport "
-"<class_Viewport>` 和 :ref:`CanvasItem <class_CanvasItem>` 节点中获取)包含获"
-"取 *VisualServer Canvas* 和 *Physics2DServer Space* 的函数. 这样就可以直接用"
-"服务API创建2D对象并使用它们."
-
-#, fuzzy
-msgid ""
-"The :ref:`VisualInstance3D<class_VisualInstance3D>` class, allows getting "
-"the scenario *instance* and *instance base* via the :ref:`VisualInstance3D."
-"get_instance() <class_VisualInstance3D_method_get_instance>` and :ref:"
-"`VisualInstance3D.get_base() <class_VisualInstance3D_method_get_base>` "
-"respectively."
-msgstr ""
-":ref:`VisualInstance<class_VisualInstance>` 类, 可以分别通过 :ref:"
-"`VisualInstance.get_instance() <class_VisualInstance_method_get_instance>` "
-"和 :ref:`VisualInstance.get_base() <class_VisualInstance_method_get_base>` 来"
-"获取场景 *instance* 和 *instance base* ."
-
 msgid ""
 "Try exploring the nodes and resources you are familiar with and find the "
 "functions to obtain the server *RIDs*."
@@ -243,14 +199,6 @@ msgstr ""
 
 msgid "Creating a sprite"
 msgstr "创建精灵"
-
-#, fuzzy
-msgid ""
-"This is an example of how to create a sprite from code and move it using the "
-"low-level :ref:`CanvasItem <class_CanvasItem>` API."
-msgstr ""
-"这是一个简单的例子, 说明如何从代码中创建一个精灵, 并使用低级的 :ref:"
-"`CanvasItem <class_CanvasItem>` API移动它."
 
 msgid ""
 "The Canvas Item API in the server allows you to add draw primitives to it. "
@@ -276,43 +224,8 @@ msgstr "3D API 与 2D API 不同，所以必须使用实例化 API。"
 msgid "Creating a 2D RigidBody and moving a sprite with it"
 msgstr "创建 2D 刚体并使用它移动精灵"
 
-#, fuzzy
-msgid ""
-"This creates a :ref:`RigidBody2D <class_RigidBody2D>` using the :ref:"
-"`PhysicsServer2D <class_PhysicsServer2D>` API, and moves a :ref:`CanvasItem "
-"<class_CanvasItem>` when the body moves."
-msgstr ""
-"这将使用 :ref:`Physics2DServer <class_Physics2DServer>` API创建一个 :ref:"
-"`RigidBody2D <class_RigidBody2D>`, 并在物体移动时移动一个 :ref:`CanvasItem "
-"<class_CanvasItem>`."
-
-#, fuzzy
-msgid ""
-"The 3D version should be very similar, as 2D and 3D physics servers are "
-"identical (using :ref:`RigidBody3D <class_RigidBody3D>` and :ref:"
-"`PhysicsServer3D <class_PhysicsServer3D>` respectively)."
-msgstr ""
-"3D版本应该非常相似, 因为2D和3D物理服务器是相同的(分别使用 :ref:`RigidBody "
-"<class_RigidBody>` 和 :ref:`PhysicsServer <class_PhysicsServer>` )."
-
 msgid "Getting data from the servers"
 msgstr "从服务器获取数据"
-
-#, fuzzy
-msgid ""
-"Try to **never** request any information from ``RenderingServer``, "
-"``PhysicsServer2D`` or ``PhysicsServer3D`` by calling functions unless you "
-"know what you are doing. These servers will often run asynchronously for "
-"performance and calling any function that returns a value will stall them "
-"and force them to process anything pending until the function is actually "
-"called. This will severely decrease performance if you call them every frame "
-"(and it won't be obvious why)."
-msgstr ""
-"除非你知道自己在做什么，否则尽量\\ **不要**\\ 通过调用函数向 "
-"``VisualServer``\\ 、\\ ``PhysicsServer``\\ 、\\ ``Physics2DServer`` 请求任何"
-"信息。这些服务器通常会为了性能而异步运行, 调用任何返回值的函数都会使它们停"
-"滞, 并迫使它们处理任何待处理的东西, 直到函数被实际调用. 如果你每一帧都调用它"
-"们, 这将严重降低性能(而且原因不会很明显)."
 
 msgid ""
 "Because of this, most APIs in such servers are designed so it's not even "

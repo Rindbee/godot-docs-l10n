@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,18 +228,6 @@ msgid ""
 msgstr ""
 "En plataformas móviles, esta ruta es única para el proyecto y no es "
 "accesible por otras aplicaciones por razones de seguridad."
-
-#, fuzzy
-msgid ""
-"On HTML5 exports, ``user://`` will refer to a virtual filesystem stored on "
-"the device via IndexedDB. (Interaction with the main filesystem can still be "
-"performed through the :ref:`JavaScriptBridge <class_JavaScriptBridge>` "
-"singleton.)"
-msgstr ""
-"En las exportaciones a HTML5, ``user://`` se referirá a un sistema de "
-"archivos virtual almacenado en el dispositivo a través de IndexedDB. (La "
-"interacción con el sistema de archivos principal aún se puede realizar a "
-"través del singleton :ref:`JavaScript <class_JavaScript>`)"
 
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "Convertir rutas a rutas absolutas o rutas \"locales\""

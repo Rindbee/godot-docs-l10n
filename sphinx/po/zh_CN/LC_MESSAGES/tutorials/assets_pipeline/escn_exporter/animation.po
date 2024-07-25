@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,17 +100,6 @@ msgstr ""
 
 msgid "Animation Mode"
 msgstr "动画模式"
-
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"Godot 和 Blender 用不同的结构来存储动画数据。在 Godot 中，动画数据存储在一个 "
-"AnimationPlayer 节点中，与被动画的节点无关。为了修复这种不一致性，同时让动画"
-"发挥其功能，这个插件有三种动画导出模式。"
 
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**\"动画作为动作\" 模式**"

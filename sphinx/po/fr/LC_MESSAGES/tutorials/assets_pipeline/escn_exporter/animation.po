@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,17 +71,6 @@ msgstr "Ou on peut le faire en cachant l'action dans ``Dope Sheet``"
 msgid "**2. Check mute status of NLA tracks**"
 msgstr "**2. Vérifier l'état de coupure du son des pistes NLA**"
 
-#, fuzzy
-msgid ""
-"An NLA track can be ``mute`` or ``unmute``, the exporter will export all the "
-"``mute`` NLA track as a separate action, while blends all the ``unmute`` NLA "
-"tracks into every action (including the action) being exported."
-msgstr ""
-"Une piste NLA peut être ``mute`` ou ``unmute``, l'exportateur exportera "
-"toute la piste NLA ``mute`` comme une action séparée, tandis qu'il mélange "
-"toutes les pistes NLA ``unmute`` dans chaque action (y compris l'action "
-"action) qui est exportée."
-
 msgid "**3. Export the scene**"
 msgstr "**3. Exporter la scène**"
 
@@ -117,19 +101,6 @@ msgstr ""
 
 msgid "Animation Mode"
 msgstr "Mode D'Animation"
-
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"Godot et Blender ont une structure différente pour stocker les données "
-"d'animation. Dans Godot, ces données sont stockées dans un nœud "
-"AnimationPlayer, plutôt que dans chaque nœud animé. Afin de remédier à cette "
-"incohérence et rendre l’animation polyvalente, cet addon a trois modes "
-"d’exportations d’animations."
 
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**Mode 'Animation en tant qu'actions'**"

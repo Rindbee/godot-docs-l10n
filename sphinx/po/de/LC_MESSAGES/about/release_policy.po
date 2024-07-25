@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +192,7 @@ msgid ""
 "improvements, as well as bug fixes, while under development."
 msgstr ""
 "|unstable| *Development.* Erhält neue Features, Verbesserungen der "
-"Benutzerfreundlichkeit und Leistung, sowie Fehlerkorrekturen während der "
+"Benutzerfreundlichkeit und Performance, sowie Fehlerkorrekturen während der "
 "Entwicklung."
 
 msgid "unstable"
@@ -248,7 +243,7 @@ msgid ""
 "improvements, as well as bug fixes, while under development."
 msgstr ""
 "|supported| *Beta.* Erhält neue Features, Verbesserungen der "
-"Benutzerfreundlichkeit und Leistung, sowie Fehlerkorrekturen während der "
+"Benutzerfreundlichkeit und Performance, sowie Fehlerkorrekturen während der "
 "Entwicklung."
 
 msgid "Godot 3.5"
@@ -619,7 +614,7 @@ msgstr ""
 "verwenden oder einen Workaround implementiert haben."
 
 msgid "Performance optimizations that result in visual changes."
-msgstr "Leistungsoptimierungen, die zu optischen Veränderungen führen."
+msgstr "Performance-Optimierungen, die zu optischen Veränderungen führen."
 
 msgid ""
 "The following changes are considered **compatibility-breaking** and can only "
@@ -655,7 +650,6 @@ msgstr ""
 "Da Godot 5.0 noch nicht abgebrancht wurde, raten wir derzeit davon ab, "
 "solche Änderungen vorzunehmen, die Kompatibilitätsbrüche hervorrufen."
 
-#, fuzzy
 msgid ""
 "When modifying a method's signature in any fashion (including adding an "
 "optional parameter), a GDExtension compatibility method must be created. "
@@ -667,9 +661,8 @@ msgstr ""
 "(einschließlich des Hinzufügens eines optionalen Parameters), muss eine "
 "GDExtension-Kompatibilitätsmethode erstellt werden. Dies stellt sicher, dass "
 "bestehende GDExtensions über Patch- und Minor-Releases hinweg weiter "
-"funktionieren, so dass die Benutzer sie nicht neu kompilieren müssen. Siehe "
-"`pull request #76446 <https://github.com/godotengine/godot/pull/76446>`_ für "
-"weitere Informationen."
+"funktionieren, so dass die Benutzer sie nicht neu kompilieren müssen. Siehe :"
+"ref:`doc_handling_compatibility_breakages` für weitere Informationen."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

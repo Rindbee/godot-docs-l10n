@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +77,10 @@ msgid "Tutorial"
 msgstr "文字教程"
 
 msgid "``@tutorial: https://example.com``"
-msgstr ""
+msgstr "``@tutorial: https://example.com``"
 
-#, fuzzy
 msgid "``@tutorial(The Title Here): https://example.com``"
-msgstr "``@tutorial(标题写在此处):``"
+msgstr "``@tutorial(标题写在此处): https://example.com``"
 
 msgid "Deprecated"
 msgstr "已弃用"
@@ -95,7 +89,7 @@ msgid "``@deprecated``"
 msgstr "``@deprecated``"
 
 msgid "``@deprecated: Use [AnotherClass] instead.``"
-msgstr ""
+msgstr "``@deprecated: 请改用 [AnotherClass]。``"
 
 msgid "Experimental"
 msgstr "实验性"
@@ -104,7 +98,7 @@ msgid "``@experimental``"
 msgstr "``@experimental``"
 
 msgid "``@experimental: This class is unstable.``"
-msgstr ""
+msgstr "``@experimental: 该类不稳定``"
 
 msgid "For example::"
 msgstr "例如： ::"
@@ -166,10 +160,10 @@ msgid "No tag."
 msgstr "无标记。"
 
 msgid "``@deprecated: Use [member another] instead.``"
-msgstr ""
+msgstr "``@deprecated: 请改用 [member another]。``"
 
 msgid "``@experimental: This method is incomplete.``"
-msgstr ""
+msgstr "``@experimental: 该方法尚未完善。``"
 
 msgid "Alternatively, you can use inline documentation comments::"
 msgstr "或者你也可以手动调用 sphinx-build 程序来构建文档：::"
@@ -190,7 +184,6 @@ msgstr "完整脚本示例"
 msgid "``@deprecated`` and ``@experimental`` tags"
 msgstr "文档注释标记 ``@deprecated`` 和 ``@experimental``"
 
-#, fuzzy
 msgid ""
 "You can mark a class or any of its members as deprecated or experimental. "
 "This will add the corresponding indicator in the built-in documentation "
@@ -199,7 +192,8 @@ msgid ""
 "creators."
 msgstr ""
 "你可以将一个类或其成员标记为已废弃成员或者实验性成员，标记后，引擎就会在文档"
-"查看器里自动添加上对应提示符号，对插件和代码库的作者而言无疑是一大福音。"
+"查看器里自动添加上对应提示符号。你也可以选择性地提供一条对不再支持该API的原因"
+"解释。这些对插件和代码库的作者而言无疑是一大福音。"
 
 msgid ""
 "**Deprecated** marks a non-recommended API that is subject to removal or "
@@ -228,7 +222,6 @@ msgstr ""
 msgid "BBCode and class reference"
 msgstr "BBCode 与类参考"
 
-#, fuzzy
 msgid ""
 "Godot's class reference supports BBCode-like tags. They add nice formatting "
 "to the text which could also be used in the documentation. See also :ref:"
@@ -237,7 +230,8 @@ msgid ""
 "<doc_bbcode_in_richtextlabel>`."
 msgstr ""
 "Godot 的类参考支持类似 BBCode 的标签。这些标签用在文档中时可以让文本格式更加"
-"美观。另见\\ :ref:`类参考 BBCode <doc_class_reference_bbcode>`\\ 。"
+"美观。另见\\ :ref:`类参考 BBCode <doc_class_reference_bbcode>`\\ 。注意：与 "
+"``RichTextLabel`` 的 :ref:`BBCode <doc_bbcode_in_richtextlabel>`会稍有不同。"
 
 msgid ""
 "Whenever you link to a member of another class, you need to specify the "
@@ -277,13 +271,11 @@ msgstr "``[annotation Class.name]``"
 msgid "Link to annotation"
 msgstr "链接到注解"
 
-#, fuzzy
 msgid "``See [annotation @GDScript.@rpc].``"
-msgstr "``见 [annotation @GDScript.@export].``"
+msgstr "``见 [annotation @GDScript.@rpc].``"
 
-#, fuzzy
 msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr "见 :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`。"
+msgstr "见 :ref:`@GDScript.@export <class_@GDScript_annotation_@rpc>`。"
 
 msgid "``[constant Class.name]``"
 msgstr "``[constant Class.name]``"
@@ -291,13 +283,11 @@ msgstr "``[constant Class.name]``"
 msgid "Link to constant"
 msgstr "链接到常量"
 
-#, fuzzy
 msgid "``See [constant Color.RED].``"
-msgstr "``见 [constant @GlobalScope.KEY_F1]。``"
+msgstr "``见 [constant Color.RED]。``"
 
-#, fuzzy
 msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr ":ref:`Color <class_Color>`"
+msgstr "见 :ref:`Color.RED <class_Color_constant_RED>`。"
 
 msgid "``[enum Class.name]``"
 msgstr "``[enum Class.name]``"
@@ -314,9 +304,8 @@ msgstr "见 :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`。"
 msgid "``[member Class.name]``"
 msgstr "``[member Class.name]``"
 
-#, fuzzy
 msgid "Link to member (property)"
-msgstr "链接到成员"
+msgstr "链接到成员（属性）"
 
 msgid "``Get [member Node2D.scale].``"
 msgstr "``获取 [member Node2D.scale]。``"
@@ -336,35 +325,29 @@ msgstr "``调用 [method Node3D.hide].``"
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr "调用 :ref:`Node3D.hide() <class_Node3D_method_hide>`。"
 
-#, fuzzy
 msgid "``[constructor Class.name]``"
-msgstr "``[constant Class.name]``"
+msgstr "``[constructor Class.name]``"
 
-#, fuzzy
 msgid "Link to built-in constructor"
-msgstr "静态构造函数"
+msgstr "链接到内置构造函数"
 
 msgid "``Use [constructor Color.Color].``"
-msgstr ""
+msgstr "``使用 [constructor Color.Color].``"
 
-#, fuzzy
 msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr ":ref:`Color <class_Color>`"
+msgstr "使用  :ref:`Color.Color <class_Color_constructor_Color>`。"
 
-#, fuzzy
 msgid "``[operator Class.name]``"
-msgstr "``[method Class.name]``"
+msgstr "``[operator Class.name]``"
 
-#, fuzzy
 msgid "Link to built-in operator"
-msgstr "内置向量类型"
+msgstr "链接到内置运算符"
 
 msgid "``Use [operator Color.operator *].``"
-msgstr ""
+msgstr "``使用 [operator Color.operator *].``"
 
-#, fuzzy
 msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr ":ref:`Color <class_Color>`"
+msgstr "使用  :ref:`Color.operator * <class_Color_operator_mul_int>`。"
 
 msgid "``[signal Class.name]``"
 msgstr "``[signal Class.name]``"
@@ -393,9 +376,8 @@ msgstr "见 :ref:`Label.font <class_Label_theme_font_font>`。"
 msgid "``[param name]``"
 msgstr "``[param name]``"
 
-#, fuzzy
 msgid "Parameter name (as code)"
-msgstr "格式化参数名称（作为代码）"
+msgstr "参数名（用作代码）"
 
 msgid "``Takes [param size] for the size.``"
 msgstr "``用 [param size] 来表示大小。``"
@@ -421,21 +403,17 @@ msgstr "行 1。"
 msgid "Line 2."
 msgstr "行 2。"
 
-#, fuzzy
 msgid "``[lb]`` ``[rb]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[lb]`` ``[rb]``"
 
-#, fuzzy
 msgid "``[`` and ``]`` respectively"
-msgstr "分别添加 ``[`` 和 ``]``\\ 。用于转义 BBCode 标记。"
+msgstr "分别为 ``[`` 和 ``]``"
 
-#, fuzzy
 msgid "``[lb]b[rb]text[lb]/b[rb]``"
-msgstr "``[b]{text}[/b]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
 
-#, fuzzy
 msgid "[b]text[/b]"
-msgstr "``[b]{text}[/b]``"
+msgstr "[b]text[/b]"
 
 msgid "``[b]`` ``[/b]``"
 msgstr "``[b]`` ``[/b]``"
@@ -443,12 +421,11 @@ msgstr "``[b]`` ``[/b]``"
 msgid "Bold"
 msgstr "粗体"
 
-#, fuzzy
 msgid "``Do [b]not[/b] call this method.``"
-msgstr "``一些[b]粗体[/b]文本。``"
+msgstr "`` [b]请勿[/b] 调用该方法``"
 
 msgid "Do **not** call this method."
-msgstr ""
+msgstr "**请勿**\\调用该方法。"
 
 msgid "``[i]`` ``[/i]``"
 msgstr "``[i]`` ``[/i]``"
@@ -457,98 +434,82 @@ msgid "Italic"
 msgstr "斜体"
 
 msgid "``Returns the [i]global[/i] position.``"
-msgstr ""
+msgstr "``返回 [i]全局[/i] 位置。``"
 
-#, fuzzy
 msgid "Returns the *global* position."
-msgstr "获取玩家的位置。"
+msgstr "返回 *全局*\\位置。"
 
-#, fuzzy
 msgid "``[u]`` ``[/u]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[u]`` ``[/u]``"
 
-#, fuzzy
 msgid "Underline"
-msgstr "国际语"
+msgstr "下划线"
 
 msgid "``[u]Always[/u] use this method.``"
-msgstr ""
+msgstr "``[u]始终[/u] 调用该方法。``"
 
-#, fuzzy
 msgid "``[s]`` ``[/s]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[s]`` ``[/s]``"
 
 msgid "Strikethrough"
-msgstr ""
+msgstr "删除线"
 
 msgid "``[s]Outdated information.[/s]``"
-msgstr ""
+msgstr "``[s]过期信息。[/s]``"
 
-#, fuzzy
 msgid "``[color]`` ``[/color]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
+msgstr "``[color]`` ``[/color]``"
 
 msgid "Color"
 msgstr "Color"
 
-#, fuzzy
 msgid "``[color=red]Error![/color]``"
-msgstr "``[color={code/name}]{text}[/color]``"
+msgstr "``[color=red]错误！[/color]``"
 
-#, fuzzy
 msgid "``[font]`` ``[/font]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[font]`` ``[/font]``"
 
-#, fuzzy
 msgid "Font"
-msgstr "字体"
+msgstr "使用指定字体行文"
 
 msgid "``[font=res://mono.ttf]LICENSE[/font]``"
-msgstr ""
+msgstr "``[font=res://mono.ttf]LICENSE[/font]``"
 
-#, fuzzy
 msgid "``[img]`` ``[/img]``"
-msgstr "``[i]`` ``[/i]``"
+msgstr "``[img]`` ``[/img]``"
 
-#, fuzzy
 msgid "Image"
-msgstr "图像"
+msgstr "插入图像"
 
 msgid "``[img width=32]res://icon.svg[/img]``"
-msgstr ""
+msgstr "``[img width=32]res://icon.svg[/img]``"
 
-#, fuzzy
 msgid "``[url]`` ``[/url]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[url]`` ``[/url]``"
 
-#, fuzzy
 msgid "Hyperlink"
-msgstr "双曲正弦。"
+msgstr "超链接"
 
 msgid "``[url]https://example.com[/url]``"
-msgstr ""
+msgstr "``[url]https://example.com[/url]``"
 
 msgid "``[url=https://example.com]Website[/url]``"
-msgstr ""
+msgstr "``[url=https://example.com]网站[/url]``"
 
 msgid "https://example.com"
-msgstr ""
+msgstr "https://example.com"
 
-#, fuzzy
 msgid "`Website <https://example.com>`_"
-msgstr "`Git <https://git-scm.com/>`_"
+msgstr "`网站 <https://example.com>`_"
 
-#, fuzzy
 msgid "``[center]`` ``[/center]``"
-msgstr "``[center]{text}[/center]``"
+msgstr "``[center]`` ``[/center]``"
 
-#, fuzzy
 msgid "Horizontal centering"
-msgstr "水平制表符（tab）"
+msgstr "水平居中"
 
-#, fuzzy
 msgid "``[center]2 + 2 = 4[/center]``"
-msgstr "``[center]{text}[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -556,39 +517,32 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "键盘和鼠标快捷键"
 
-#, fuzzy
 msgid "``Press [kbd]Ctrl + C[/kbd].``"
-msgstr "``一些 [kbd]Ctrl + C[/kbd] 按键。``"
+msgstr "``按下 [kbd]Ctrl + C[/kbd] 组合键。``"
 
-#, fuzzy
 msgid "Press :kbd:`Ctrl + C`."
-msgstr ":kbd:`Ctrl + C`"
+msgstr "按下 :kbd:`Ctrl + C`组合键。"
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
 msgid "Inline code fragment"
-msgstr ""
+msgstr "嵌入式代码片段"
 
-#, fuzzy
 msgid "``Returns [code]true[/code].``"
-msgstr "``[code]{text}[/code]``"
+msgstr "``返回[code]true[/code]。``"
 
-#, fuzzy
 msgid "Returns ``true``."
-msgstr "返回类型"
+msgstr "返回 ``true`` 。"
 
-#, fuzzy
 msgid "``[codeblock]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
+msgstr "``[codeblock]``"
 
-#, fuzzy
 msgid "``[/codeblock]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
+msgstr "``[/codeblock]``"
 
-#, fuzzy
 msgid "Multiline code block"
-msgstr "多行预格式化块"
+msgstr "多行代码块"
 
 msgid "*See below.*"
 msgstr "*见下文.*"
@@ -596,9 +550,8 @@ msgstr "*见下文.*"
 msgid "Currently only :ref:`class_@GDScript` has annotations."
 msgstr "目前只有 :ref:`class_@GDScript` 有注解。"
 
-#, fuzzy
 msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
-msgstr "``[code]`` 与 ``[/code]`` 之间的 BBCode 代码均无效。"
+msgstr "``[kbd]`` 与 ``[/kbd]`` 之间的 BBCode 代码均无效。"
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
 msgstr "``[code]`` 与 ``[/code]`` 之间的 BBCode 代码均无效。"
@@ -618,16 +571,18 @@ msgid ""
 "By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
 "using the ``lang`` attribute. Currently supported options are:"
 msgstr ""
+"``[codeblock]`` 默认会高亮 GDScript 语法，用 ``lang`` 修饰符即可对其语法高亮"
+"所用的语言进行修改。目前支持下列语言的高亮："
 
 msgid "``[codeblock lang=text]`` disables syntax highlighting;"
-msgstr ""
+msgstr "``[codeblock lang=text]`` 禁用语法高亮;"
 
 msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr ""
+msgstr "``[codeblock lang=gdscript]`` 高亮 GDScript 语法;"
 
 msgid ""
 "``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
-msgstr ""
+msgstr "``[codeblock lang=csharp]`` 高亮 C# 语法（仅.NET版本有效）。"
 
 msgid "Translation status"
 msgstr "翻译状态"

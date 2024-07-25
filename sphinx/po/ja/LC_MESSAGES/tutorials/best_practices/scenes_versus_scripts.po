@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,18 +21,6 @@ msgid ""
 msgstr ""
 "シーンとスクリプトの違いについてはすでに説明しました。スクリプトは、命令型"
 "コードでエンジンクラスの拡張を定義し、宣言型コードでシーンを定義します。"
-
-#, fuzzy
-msgid ""
-"Each system's capabilities are different as a result. Scenes can define how "
-"an extended class initializes, but not what its behavior actually is. Scenes "
-"are often used in conjunction with a script, the scene declaring a "
-"composition of nodes, and the script adding behaviour with imperative code."
-msgstr ""
-"結果として、それぞれのシステムの機能は異なります。シーンは、拡張クラスの初期"
-"化方法を定義できますが、実際の動作は定義できません。シーンは多くの場合、スク"
-"リプトと組み合わせて使用されるため、シーンはスクリプトの宣言型コードの拡張機"
-"能として機能します。"
 
 msgid "Anonymous types"
 msgstr "匿名型"
@@ -72,18 +55,6 @@ msgstr ""
 msgid "Named types"
 msgstr "名前付き型"
 
-#, fuzzy
-msgid ""
-"Scripts can be registered as a new type within the editor itself. This "
-"displays it as a new type in the node or resource creation dialog with an "
-"optional icon. This way, the user's ability to use the script is much more "
-"streamlined. Rather than having to..."
-msgstr ""
-"場合によっては、ユーザーはエディタ自体の中でスクリプトを新しい型として登録で"
-"きます。これにより、ノードまたはリソース作成ダイアログに新しい型として表示さ"
-"れ、オプションのアイコンが表示されます。このような場合、ユーザーがスクリプト"
-"を使用する機能は大幅に合理化されます。むしろ..."
-
 msgid "Know the base type of the script they would like to use."
 msgstr "使用するスクリプトの基本型を知っている。"
 
@@ -92,21 +63,6 @@ msgstr "その基本型のインスタンスを作成します。"
 
 msgid "Add the script to the node."
 msgstr "ノードにスクリプトを追加します。"
-
-#, fuzzy
-msgid ""
-"With a registered script, the scripted type instead becomes a creation "
-"option like the other nodes and resources in the system. The creation dialog "
-"even has a search bar to look up the type by name."
-msgstr ""
-"この手順の代わりに登録済みスクリプトを使用すると、スクリプト化された型をシス"
-"テム内の他のノードやリソースと同様な、作成オプションの一つにすることが出来ま"
-"す。なので上記の作業を行う必要はありません。作成ダイアログには、(登録済みの)"
-"型を名前で検索するための検索バーがあります。"
-
-#, fuzzy
-msgid "There are two systems for registering types:"
-msgstr "型を登録するための 2つのシステムがあります..."
 
 msgid ":ref:`Custom Types <doc_making_plugins>`"
 msgstr ":ref:`カスタム型<doc_making_plugins>`"
@@ -144,10 +100,6 @@ msgid ""
 msgstr ""
 ":ref:`EditorPlugin.add_custom_type "
 "<class_EditorPlugin_method_add_custom_type>` を使用してセットアップします。"
-
-#, fuzzy
-msgid ":ref:`Script Classes <doc_gdscript_basics_class_name>`"
-msgstr ":ref:`スクリプトクラス<doc_scripting_continued_class_name>`"
 
 msgid "Editor and runtime accessible."
 msgstr "エディタとランタイムにアクセスできます。"
@@ -216,60 +168,6 @@ msgstr ""
 "欠点として、大部分が命令型プログラミングを使用する必要があることも意味しま"
 "す。"
 
-#, fuzzy
-msgid "Performance of Script vs PackedScene"
-msgstr "スクリプトのパフォーマンスとPackedScene"
-
-msgid ""
-"One last aspect to consider when choosing scenes and scripts is execution "
-"speed."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"As the size of objects increases, the scripts' necessary size to create and "
-"initialize them grows much larger. Creating node hierarchies demonstrates "
-"this. Each Node's logic could be several hundred lines of code in length."
-msgstr ""
-"オブジェクトのサイズが大きくなるにつれて、作成に必要なスクリプトのサイズがど"
-"んどん大きくなります。ノード階層を作成すると、これが実証されます。個々のノー"
-"ドのロジックは、長さが数百行のコードになる可能性があります。"
-
-#, fuzzy
-msgid ""
-"The code example below creates a new ``Node``, changes its name, assigns a "
-"script to it, sets its future parent as its owner so it gets saved to disk "
-"along with it, and finally adds it as a child of the ``Main`` node:"
-msgstr ""
-"単一の ``Node`` を子として作成する簡単な例を見てみましょう。以下のコードは、"
-"新しい ``Node`` を作成し、その名前を変更し、スクリプトをそれに割り当て、将来"
-"の親(``Main``)を所有者として設定し、それとともにディスクに保存され、最後に "
-"``Main``ノードの子として追加します:"
-
-#, fuzzy
-msgid ""
-"Script code like this is much slower than engine-side C++ code. Each "
-"instruction makes a call to the scripting API which leads to many "
-"\"lookups\" on the back-end to find the logic to execute."
-msgstr ""
-"このようなスクリプト コードは、エンジン側の C++コードよりもはるかに低速です。"
-"各変更は、実行するロジックを見つけるためにバックエンドで多くの「ルックアッ"
-"プ」につながるスクリプトAPIを個別に呼び出します。"
-
-#, fuzzy
-msgid ""
-"Scenes help to avoid this performance issue. :ref:`PackedScene "
-"<class_PackedScene>`, the base type that scenes inherit from, defines "
-"resources that use serialized data to create objects. The engine can process "
-"scenes in batches on the back-end and provide much better performance than "
-"scripts."
-msgstr ""
-"シーンは、このパフォーマンスの問題を回避するのに役立ちます。\\ :ref:"
-"`PackedScene <class_PackedScene>` は、シーンが継承する基本型であり、シリアル"
-"化されたデータを使用してオブジェクトを作成するリソースです。エンジンは、バッ"
-"クエンドでシーンをバッチ処理し、スクリプトよりもはるかに優れたパフォーマンス"
-"を提供できます。"
-
 msgid "Conclusion"
 msgstr "結論"
 
@@ -296,16 +194,6 @@ msgstr ""
 "ゲームに特化したコンセプト(モデル)を作りたい場合は、常にシーンである必要があ"
 "ります。シーンは追跡/編集が容易で、スクリプトよりもセキュリティが強化されま"
 "す。"
-
-#, fuzzy
-msgid ""
-"If one would like to give a name to a scene, then they can still sort of do "
-"this by declaring a script class and giving it a scene as a constant. The "
-"script becomes, in effect, a namespace:"
-msgstr ""
-"シーンに名前を付けたい場合は、スクリプトクラスを宣言し、シーンに定数として与"
-"えることで、3.1でもこれを行うことができます。スクリプトは、実際には名前空間に"
-"なります:"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

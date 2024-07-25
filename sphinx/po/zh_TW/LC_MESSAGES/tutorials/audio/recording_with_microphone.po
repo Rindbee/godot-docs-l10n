@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,13 +27,6 @@ msgid ""
 msgstr ""
 "一定要查看Viewport演示！ 可以下載演示檔案中的Viewport資料夾, 或: `<https://"
 "github.com/godotengine/godot-demo-projects/tree/master/audio/mic_record>`_."
-
-#, fuzzy
-msgid ""
-"You will need to enable audio input in the project settings ``Project "
-"Settings -> Audio -> Driver -> Enable Input``, or you'll just get empty "
-"audio files."
-msgstr "你需要在專案設定中啟用音訊輸入，否則只能獲得空的音訊檔。"
 
 msgid "The structure of the demo"
 msgstr "根節點的結構"

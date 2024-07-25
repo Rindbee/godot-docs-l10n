@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,30 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Shaders style guide"
-msgstr "Настанови по стилю C#"
-
-#, fuzzy
-msgid ""
-"This style guide lists conventions to write elegant shaders. The goal is to "
-"encourage writing clean, readable code and promote consistency across "
-"projects, discussions, and tutorials. Hopefully, this will also support the "
-"development of auto-formatting tools."
-msgstr ""
-"У цьому посібнику зі стилю перелічені умовні домовленості для написання "
-"елегантного коду GDScript. Мета посібника - заохотити писати чистий, "
-"читабельний код та сприяти узгодженню між проєктами, дискусіями та "
-"навчальними матеріалами. Сподіваємось, це також підтримає розробку "
-"інструментів автоматичного форматування."
-
-msgid ""
-"Since the Godot shader language is close to C-style languages and GLSL, this "
-"guide is inspired by Godot's own GLSL formatting. You can view examples of "
-"GLSL files in Godot's source code `here <https://github.com/godotengine/"
-"godot/blob/master/drivers/gles3/shaders/>`__."
-msgstr ""
 
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
@@ -56,18 +27,6 @@ msgid ""
 msgstr ""
 "Загалом, стабільне дотримання визначеного стилю у ваших проєктах, та серед "
 "вашої команди, важливіше, ніж дотримання цього посібника."
-
-#, fuzzy
-msgid ""
-"Godot's built-in shader editor uses a lot of these conventions by default. "
-"Let it help you."
-msgstr ""
-"Вбудований в Godot редактор скриптів використовує багато цих умов за "
-"замовчуванням. Нехай це вам допоможе."
-
-#, fuzzy
-msgid "Here is a complete shader example based on these guidelines:"
-msgstr "Ось повний приклад класу на основі цих вказівок:"
 
 msgid "Formatting"
 msgstr "Форматування"
@@ -101,13 +60,6 @@ msgstr ""
 
 msgid "Indentation"
 msgstr "Відступ"
-
-#, fuzzy
-msgid ""
-"Each indent level should be one tab greater than the block containing it."
-msgstr ""
-"Кожен рівень відступу повинен бути на один відступ більшим, ніж блок, що "
-"містить його."
 
 msgid "**Good**:"
 msgstr "**Правильно**:"
@@ -143,40 +95,14 @@ msgstr ""
 msgid "Blank lines"
 msgstr "Порожні рядки"
 
-#, fuzzy
-msgid "Surround function definitions with one (and only one) blank line:"
-msgstr "Використовуйте по два порожніх рядка між функціями та класами:"
-
-#, fuzzy
-msgid ""
-"Use one (and only one) blank line inside functions to separate logical "
-"sections."
-msgstr ""
-"Використовуйте один порожній рядок всередині функцій для розділення логічних "
-"блоків."
-
 msgid "Line length"
 msgstr "Довжина рядка"
 
 msgid "Keep individual lines of code under 100 characters."
 msgstr "Зберігайте в окремих рядках коду не більше 100 символів."
 
-#, fuzzy
-msgid ""
-"If you can, try to keep lines under 80 characters. This helps to read the "
-"code on small displays and with two shaders opened side-by-side in an "
-"external text editor. For example, when looking at a differential revision."
-msgstr ""
-"Якщо можете, спробуйте тримати в рядках не більше 80 символів. Це допомагає "
-"читати код на невеликих дисплеях та з двома скриптами, відкритими поруч у "
-"зовнішньому текстовому редакторі. Наприклад, щоб переглянути на наявність "
-"різниці."
-
 msgid "One statement per line"
 msgstr "Одне твердження на рядок"
-
-msgid "Never combine multiple statements on a single line."
-msgstr ""
 
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "Єдиним винятком із цього правила є потрійний оператор:"
@@ -192,70 +118,11 @@ msgstr ""
 "закоментовуєте. Це допомагає відрізняти текстові коментарі від відключеного "
 "коду."
 
-msgid ""
-"Don't use multiline comment syntax if your comment can fit on a single line:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In the shader editor, to make the selected code a comment (or uncomment it), "
-"press :kbd:`Ctrl + K`. This feature adds or removes ``//`` at the start of "
-"the selected lines."
-msgstr ""
-"У редакторі скриптів можна закоментувати цілу ділянку вибраного коду за "
-"допомогою натискання :kbd:`Ctrl + K`. Ця дія додає знак # на початку всіх "
-"вибраних рядків."
-
-#, fuzzy
-msgid "Documentation comments"
-msgstr "Внески до документації"
-
-msgid ""
-"Use the following format for documentation comments above uniforms, with "
-"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
-msgstr ""
-
-msgid ""
-"These comments will appear when hovering a property in the inspector. If you "
-"don't wish the comment to be visible in the inspector, use the standard "
-"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
-"asterisk)."
-msgstr ""
-
 msgid "Whitespace"
 msgstr "Вільний простір"
 
-#, fuzzy
-msgid ""
-"Always use one space around operators and after commas. Also, avoid "
-"extraneous spaces in function calls."
-msgstr ""
-"Завжди використовуйте один пробіл навколо операторів і після коми. Також "
-"уникайте зайвих пробілів у посиланнях на словники та викликах функцій."
-
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "Не використовуйте пробіли для вирівнювання виразів по вертикалі:"
-
-#, fuzzy
-msgid "Floating-point numbers"
-msgstr "Число з рухомою комою (дійсне)"
-
-msgid ""
-"Always specify at least one digit for both the integer and fractional part. "
-"This makes it easier to distinguish floating-point numbers from integers, as "
-"well as distinguishing numbers greater than 1 from those lower than 1."
-msgstr ""
-
-#, fuzzy
-msgid "Accessing vector members"
-msgstr "Доступ до вузлів сцени"
-
-msgid ""
-"Use ``r``, ``g``, ``b``, and ``a`` when accessing a vector's members if it "
-"contains a color. If the vector contains anything else than a color, use "
-"``x``, ``y``, ``z``, and ``w``. This allows those reading your code to "
-"better understand what the underlying data represents."
-msgstr ""
 
 msgid "Naming conventions"
 msgstr "Конвенції іменування"
@@ -287,28 +154,8 @@ msgstr ""
 "Записуйте константи в стилі CONSTANT\\_CASE (всі букви написані з великим "
 "регістром, слова відокремлені підкресленням (\\_)):"
 
-#, fuzzy
-msgid "Preprocessor directives"
-msgstr "Preprocessor визначення"
-
-msgid ""
-":ref:`doc_shader_preprocessor` directives should be written in "
-"CONSTANT__CASE. Directives should be written without any indentation before "
-"them, even if nested within a function."
-msgstr ""
-
-msgid ""
-"To preserve the natural flow of indentation when shader errors are printed "
-"to the console, extra indentation should **not** be added within ``#if``, "
-"``#ifdef`` or ``#ifndef`` blocks:"
-msgstr ""
-
 msgid "Code order"
 msgstr "Порядок коду"
-
-#, fuzzy
-msgid "We suggest to organize shader code this way:"
-msgstr "Ми пропонуємо організувати код GDScript таким чином:"
 
 msgid ""
 "We optimized the order to make it easy to read the code from top to bottom, "
@@ -318,19 +165,6 @@ msgstr ""
 "Ми оптимізували порядок, щоб полегшити читання коду зверху вниз, щоб "
 "допомогти розробникам, які вперше читають код, зрозуміти, як він працює, та "
 "уникнути помилок, пов'язаних із порядком оголошення змінних."
-
-#, fuzzy
-msgid "This code order follows two rules of thumb:"
-msgstr "Цей порядок коду відповідає чотирьом правилам:"
-
-#, fuzzy
-msgid "Metadata and properties first, followed by methods."
-msgstr "Першими стають властивості та сигнали, а потім - методи."
-
-msgid ""
-"\"Public\" comes before \"private\". In a shader language's context, "
-"\"public\" refers to what's easily adjustable by the user (uniforms)."
-msgstr ""
 
 msgid "Local variables"
 msgstr "Локальні змінні"

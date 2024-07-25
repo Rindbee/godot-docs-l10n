@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +15,6 @@ msgstr ""
 msgid "Using the Android editor"
 msgstr "使用 Android 编辑器"
 
-#, fuzzy
 msgid ""
 "In 2023, `we added <https://godotengine.org/article/"
 "android_godot_editor_play_store_beta_release/>`__ an `Android port of the "
@@ -113,18 +107,6 @@ msgstr "使用 *Vulkan Mobile* 作为渲染器时的性能与稳定性问题"
 
 msgid "UX not optimized for Android phones form-factor"
 msgstr "UX 未针对 Android 手机的尺寸进行优化"
-
-#, fuzzy
-msgid ""
-"`Android Go devices <https://developer.android.com/guide/topics/"
-"androidgo>`__ lacks the *All files access* permission required for device "
-"read/write access. As a workaround, when using an Android Go device, it's "
-"recommended to create new projects only in the Android *Documents* or "
-"*Downloads* directories."
-msgstr ""
-"`Android Go 设备 <https://developer.android.com/guide/topics/androidgo>`__ 缺"
-"少设备读和写访问所需的 *全部文件访问* 权限。作为一种变通方法，在使用 Android "
-"Go 设备时，建议只在 Android *Documents* 或 *Downloads* 目录中创建新项目。"
 
 msgid ""
 "The editor doesn't properly resume when *Don't keep activities* is enabled "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,7 +261,7 @@ msgid ""
 msgstr ""
 "Wie in den 2D- und TileSet-Editoren können Sie mit der mittleren oder "
 "rechten Maustaste über das TileMap-Panel schwenken und mit dem Mausrad oder "
-"den Schaltflächen in der oberen linken Ecke zoomen."
+"den Buttons in der oberen linken Ecke zoomen."
 
 msgid ""
 "You can also hold down :kbd:`Shift` to append to the current selection. When "
@@ -530,9 +525,8 @@ msgid ""
 "that appears on the right of the toolbar."
 msgstr ""
 "Nachdem Sie den Füllmodus ausgewählt haben, können Sie festlegen, ob das "
-"Malen auf zusammenhängende Bereiche beschränkt werden soll, indem Sie das "
-"Kontrollkästchen **Zusammenhängend** aktivieren, das rechts in der Toolbar "
-"erscheint."
+"Malen auf zusammenhängende Bereiche beschränkt werden soll, indem Sie die "
+"Checkbox **Zusammenhängend** aktivieren, das rechts in der Toolbar erscheint."
 
 msgid ""
 "If you enable **Contiguous** (the default), only matching tiles that touch "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,97 +12,97 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Using the Project Manager"
-msgstr "プロジェクトマネージャー"
+msgstr "プロジェクトマネージャーの使用"
 
-#, fuzzy
 msgid ""
 "When you launch Godot, the first window you see is the Project Manager. It "
 "lets you create, remove, import, or play game projects."
 msgstr ""
 "Godotを起動すると、最初に表示されるウィンドウはプロジェクトマネージャーです。"
-"まだプロジェクトがないため、アセットライブラリを開くかどうかを確認するポップ"
-"アップが表示されます。これについては後で見ていくので、今はキャンセルをクリッ"
-"クしましょう。"
+"ゲームプロジェクトを作成、削除、インポート、またはプレイできます。"
 
 msgid ""
 "To change the editors language click on the \"Settings\" Button in the top "
 "right corner."
 msgstr ""
+"エディタの言語を変更するには、右上隅にある \"設定\" ボタンをクリックします。"
 
-msgid ""
-"Then on the settings page seelct the language you want from the dropdown "
-"menu."
-msgstr ""
-
-#, fuzzy
 msgid "Creating and importing projects"
-msgstr "プロジェクトの新規作成"
+msgstr "プロジェクトの作成とインポート"
 
-#, fuzzy
 msgid "To create a new project:"
-msgstr "プロジェクトの新規作成。"
+msgstr "新しいプロジェクトを作成するには:"
 
-#, fuzzy
 msgid "Click the **New** button on the top-left of the window."
-msgstr "スクリプトのメイン画面の右上にある「Search Help」ボタンをクリックする"
+msgstr "ウィンドウの左上にある **作成** ボタンをクリックします。"
 
 msgid ""
 "Give the project a name, choose an empty folder on your computer to save the "
 "files, and select a rendering backend."
 msgstr ""
+"プロジェクトに名前を付けて、ファイルを保存する空のフォルダを選択し、レンダリ"
+"ングバックエンドを選択します。"
 
-#, fuzzy
 msgid ""
 "Click the **Create & Edit** button to create the project folder and open it "
 "in the editor."
 msgstr ""
-"\\ *インポートして編集(Install & Edit)*\\ をクリックすると、エディタのプロ"
-"ジェクトが開きます。"
+"**作成して編集** ボタンをクリックすると、プロジェクトフォルダを作成され、エ"
+"ディタが開きます。"
 
-#, fuzzy
 msgid "Using the file browser"
-msgstr "ファイルの提供"
+msgstr "ファイルブラウザの使用"
 
 msgid ""
 "Click the **Browse** button to open Godot's file browser and pick a location "
 "or type the folder's path in the Project Path field."
 msgstr ""
+"**参照** ボタンをクリックし、ファイルブラウザを開いて場所を選択するか、プロ"
+"ジェクトパスのフィールドにフォルダのパスを入力します。"
 
 msgid ""
 "When you see the green tick on the right, it means the engine detects an "
 "empty folder. You can also click the **Create Folder** button to create an "
 "empty folder based on your project's name."
 msgstr ""
+"右側に緑色のチェックマークが表示されている場合は、エンジンが空のフォルダを検"
+"出したことを意味します。 **フォルダを作成** ボタンをクリックして、プロジェク"
+"トの名前に基づいて空のフォルダを作成することもできます。"
 
-#, fuzzy
 msgid "Opening and importing projects"
-msgstr "プロジェクトの編集と実行"
+msgstr "プロジェクトを開いてインポートする"
 
 msgid ""
 "The next time you open the Project Manager, you'll see your new project in "
 "the list. Double click on it to open it in the editor."
 msgstr ""
+"次回プロジェクトマネージャーを開くと、リストに新しいプロジェクトが表示されま"
+"す。それをダブルクリックするとエディタで開けます。"
 
 msgid ""
 "You can similarly import existing projects using the **Import** button. "
 "Locate the folder that contains the project or the **project.godot** file to "
 "import and edit it."
 msgstr ""
+"**インポート** ボタンを使用して既存のプロジェクトをインポートできます。プロ"
+"ジェクトまたは **project.godot** ファイルが含まれるフォルダを見つけて、イン"
+"ポートすると編集することができます。"
 
 msgid "When the folder path is correct, you'll see a green checkmark."
-msgstr ""
+msgstr "フォルダのパスが正しい場合は、緑色のチェックマークが表示されます。"
 
-#, fuzzy
 msgid "Downloading demos and templates"
-msgstr "エクスポートテンプレートの構築"
+msgstr "デモとテンプレートのダウンロード"
 
 msgid ""
 "From the **Asset Library Projects** tab you can download open source project "
 "templates and demos from the :ref:`Asset Library <doc_what_is_assetlib>` to "
 "help you get started faster."
 msgstr ""
+":ref:`アセットライブラリ <doc_what_is_assetlib>` タブから、オープン ソースの"
+"プロジェクトテンプレートとデモをダウンロードすると、より素早く開始できるよう"
+"になります。"
 
 msgid ""
 "The first time you open this tab you'll notice that it's asking you to go "
@@ -117,53 +112,36 @@ msgid ""
 "about updates. If you wish to turn this off in the future go into project "
 "manager settings and change \"Network Mode\" to \"Offline\""
 msgstr ""
+"このタブを初めて開くと、オンラインに接続するように求められていることがわかり"
+"ます。プライバシーの理由から、プロジェクトマネージャーと Godotエディタはデ"
+"フォルトではインターネットにアクセスできません。インターネットへのアクセスを"
+"有効にするには、\"オンライン\" ボタンをクリックします。これによりプロジェクト"
+"マネージャーがアップデートについて通知することもできます。将来これをオフにし"
+"たい場合はプロジェクト マネージャーの設定に移動し、\"ネットワーク モード\" "
+"を \"オフライン\" に変更します"
 
 msgid ""
 "Now that Godot is connected to the internet you can download a demo or "
 "template, to do this:"
 msgstr ""
+"Godotがインターネットに接続されたので、デモまたはテンプレートをダウンロードし"
+"てエディタで開くことができます。"
 
 msgid "Click on its title."
-msgstr ""
+msgstr "タイトルをクリックします。"
 
-#, fuzzy
 msgid "On the page that opens, click the download button."
-msgstr "初期値のままで、\\ *追加*\\ (Add) ボタンをクリックします。"
+msgstr "開いたページで、\"ダウンロード\" ボタンをクリックします。"
 
 msgid ""
 "Once it finished downloading, click install and choose where you want to "
 "save the project."
 msgstr ""
+"ダウンロードが完了したら、\"インストール\" をクリックし、プロジェクトを保存す"
+"る場所を選択します。"
 
-#, fuzzy
 msgid "Managing projects with tags"
-msgstr "プロジェクト設定を使用する"
-
-msgid ""
-"For users with a lot of projects on one PC it can be a lot to keep track of. "
-"To aid in this Godot allows you to create project tags. To add a tag to a "
-"project click on the project in the project manager, then click on the "
-"\"Manage Tags\" button"
-msgstr ""
-
-msgid ""
-"This will open up the manage project tags window. To add a tag click the "
-"plus button."
-msgstr ""
-
-msgid ""
-"type out the tag name, and click \"ok\". Your project will now have a tag "
-"added to it. These tags can be used for any other project in your project "
-"manager. In addition tags will stay with projects. So if you tag your "
-"project, send it to another machine and import it into the project manager "
-"you will see the tags you created."
-msgstr ""
-
-msgid ""
-"To remove a tag from your project manager it must be removed from all the "
-"projects it's used by. Once that's done close the project manager, open it "
-"up again, and the tag should be gone."
-msgstr ""
+msgstr "タグを使用したプロジェクトの管理"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

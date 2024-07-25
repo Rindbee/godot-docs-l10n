@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,26 +155,8 @@ msgstr ""
 "En plus, l'alignement et la direction du texte sont contrôlés par des "
 "contrôles individuels."
 
-#, fuzzy
-msgid "**Font size**"
-msgstr "**Font**"
-
-msgid ""
-"An integer value, which is used alongside a font to determine the size at "
-"which the text should be displayed."
-msgstr ""
-
 msgid "**Icon**"
 msgstr "**Icon**"
-
-#, fuzzy
-msgid ""
-"A :ref:`texture <class_Texture2D>` resource, which is normally used to "
-"display an icon (on a :ref:`Button <class_Button>`, for example)."
-msgstr ""
-"Une ressource de :ref:`texture <class_Texture>`, qui est normalement "
-"utilisée pour afficher une icône (sur un :ref:`Button <class_Button>`, par "
-"exemple)."
 
 msgid "**StyleBox**"
 msgstr "**StyleBox**"
@@ -461,11 +438,6 @@ msgstr ""
 "Vérifier s'il existe des surcharges locales du même type de données et du "
 "même nom."
 
-#, fuzzy
-msgid "Using control's type variation, class name and parent class names:"
-msgstr ""
-"Utilisation du nom de la classe du control et des noms des classes parentes :"
-
 msgid ""
 "Check every control starting from itself and see if it has a theme property "
 "set;"
@@ -493,21 +465,6 @@ msgid ""
 msgstr ""
 "Répétez les étapes a-c. jusqu'à ce que la racine de l'arbre soit atteinte, "
 "ou qu'un nœud de non-control soit atteint."
-
-#, fuzzy
-msgid ""
-"Using control's type variation, class name and parent class names check the "
-"project-wide theme, if it's present."
-msgstr ""
-"En utilisant le nom de la classe du control, vérifiez le thème du projet, "
-"s'il est présent."
-
-#, fuzzy
-msgid ""
-"Using control's type variation, class name and parent class names check the "
-"default theme."
-msgstr ""
-"Utilisation du nom de la classe du control pour vérifier le thème par défaut."
 
 msgid ""
 "Even if the item doesn't exist in any theme, a corresponding default value "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,12 +35,6 @@ msgstr ""
 "ソースコードは\\ `GitHub <https://github.com/godotengine/godot>`_\\ で入手で"
 "きます。Webサイトから手動でダウンロードできますが、一般的には ``git`` バー"
 "ジョン管理システムを使用してダウンロードします。"
-
-msgid ""
-"If you are compiling in order to make contributions or pull requests, you "
-"should follow the instructions from the :ref:`Pull Request workflow "
-"<doc_pr_workflow>`."
-msgstr ""
 
 msgid ""
 "If you don't know much about ``git`` yet, there are a great number of "
@@ -84,11 +73,6 @@ msgstr ""
 "安定版リリースの場合は、\\ `リリースページ <https://github.com/godotengine/"
 "godot/releases>`_\\ にアクセスして、目的のリリースのリンクをクリックします。"
 "次に、ページのダウンロードリンクからソースをダウンロードして抽出できます。"
-
-msgid ""
-"With ``git``, you can also clone a stable release by specifying its branch "
-"or tag after the ``--branch`` (or just ``-b``) argument::"
-msgstr ""
 
 msgid ""
 "There are also generally branches besides ``master`` for each major version."

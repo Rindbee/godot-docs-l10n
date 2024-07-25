@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -533,50 +528,17 @@ msgstr "``--check-only``"
 msgid "|release| Only parse for errors and quit (use with ``--script``)."
 msgstr "|release| 仅解析错误并退出（与 ``--script`` 一起使用）。"
 
-#, fuzzy
 msgid "``--import``"
-msgstr "``--gpu-abort``"
-
-msgid ""
-"|editor| Starts the editor, waits for any resources to be imported, and then "
-"quits. Implies ``--editor`` and ``--quit``."
-msgstr ""
+msgstr "``--import``"
 
 msgid "``--export-release <preset> <path>``"
 msgstr "``--export-release <preset> <path>``"
 
-#, fuzzy
-msgid ""
-"|editor| Export the project using the given preset and matching release "
-"template. The preset name should match one defined in export_presets.cfg. "
-"``<path>`` should be absolute or relative to the project directory, and "
-"include the filename for the binary (e.g. 'builds/game.exe'). The target "
-"directory should exist. Implies ``--import``."
-msgstr ""
-"|editor| 使用给定的预设和匹配的发布模板导出项目。预设名称应与 export_presets."
-"cfg 中定义的名称一致。 ``<路径>`` 应为项目目录的绝对或相对路径，并包含二进制"
-"文件的文件名（例如 “builds/game.exe”）。并且目标目录应该存在。"
-
 msgid "``--export-debug <preset> <path>``"
 msgstr "``--export-debug <preset> <path>``"
 
-#, fuzzy
-msgid ""
-"|editor| Like ``--export-release``, but use debug template. Implies ``--"
-"import``."
-msgstr "|editor| 与 ``--export-release`` 类似，但使用调试模板。"
-
 msgid "``--export-pack <preset> <path>``"
 msgstr "``--export-pack <预设> <路径>``"
-
-#, fuzzy
-msgid ""
-"|editor| Like ``--export-release``, but only export the game pack for the "
-"given preset. The ``<path>`` extension determines whether it will be in PCK "
-"or ZIP format. Implies ``--import``."
-msgstr ""
-"|editor| 与 ``--export-release`` 类似，但只会以预设参数导出游戏包。\\ "
-"``<path>`` 的扩展名决定它是 PCK 还是 ZIP 格式。"
 
 msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
 msgstr "``--convert-3to4 [<最大文件kb值>] [<最大行数>]``"

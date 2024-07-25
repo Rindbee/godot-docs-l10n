@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,19 +62,6 @@ msgstr ""
 "нему. Теперь, когда мы установили корневой узел сцены, мы можем добавлять "
 "дочерние узлы, чтобы придать ему больше функциональности."
 
-#, fuzzy
-msgid ""
-"Before we add any children to the ``Player`` node, we want to make sure we "
-"don't accidentally move or resize them by clicking on them. Select the node "
-"and click the icon to the right of the lock. Its tooltip says \"Groups the "
-"selected node with its children. This causes the parent to be selected when "
-"any child node is clicked in 2D and 3D view.\""
-msgstr ""
-"Прежде чем мы добавим дочерних узлов на узел ``Player``, мы хотим убедиться, "
-"что нажав на них, мы не переместим их и не изменим их размер. Выберите узел "
-"и нажмите на значок справа от блокировки; его всплывающая подсказка гласит: "
-"\"Сделать детей выбранного узла невыделяемыми.\""
-
 msgid ""
 "Save the scene. Click Scene -> Save, or press :kbd:`Ctrl + S` on Windows/"
 "Linux or :kbd:`Cmd + S` on macOS."
@@ -111,29 +93,6 @@ msgstr ""
 
 msgid "Sprite animation"
 msgstr "Анимация Спрайтов"
-
-#, fuzzy
-msgid ""
-"Click on the ``Player`` node and add (:kbd:`Ctrl + A` on Windows/Linux or :"
-"kbd:`Cmd + A` on macOS) a child node :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>`. The ``AnimatedSprite2D`` will handle the "
-"appearance and animations for our player. Notice that there is a warning "
-"symbol next to the node. An ``AnimatedSprite2D`` requires a :ref:"
-"`SpriteFrames <class_SpriteFrames>` resource, which is a list of the "
-"animations it can display. To create one, find the ``Sprite Frames`` "
-"property under the ``Animation`` tab in the Inspector and click \"[empty]\" -"
-"> \"New SpriteFrames\". Click on the ``SpriteFrames`` you just created to "
-"open the \"SpriteFrames\" panel:"
-msgstr ""
-"Кликните на узел ``Player`` и добавьте (:kbd:`Ctrl + A` на Windows/Linux "
-"или :kbd:`Cmd + A` на macOS) дочерний узел :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>`. ``AnimatedSprite2D`` будет управлять внешним "
-"видом и анимацией нашего игрока. Обратите внимание на символ предупреждения "
-"рядом с узлом. ``AnimatedSprite`` требует :ref:`SpriteFrames "
-"<class_SpriteFrames>`, который представляет собой список отображаемых "
-"анимаций. Чтобы его создать, найдите свойство ``Sprite Frames`` в окне "
-"инспектора и кликните на «[пусто]» -> «Новый SpriteFrames». Снова кликните в "
-"том же месте на ``SpriteFrames``, чтобы открыть панель:"
 
 msgid ""
 "On the left is a list of animations. Click the \"default\" one and rename it "

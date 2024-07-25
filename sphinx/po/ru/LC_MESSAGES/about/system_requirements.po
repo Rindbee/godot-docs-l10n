@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +25,6 @@ msgstr ""
 "проектам. Эти спецификации даны только для информационных целей, но они "
 "могут быть использованы, если вы хотите собрать или обновить систему для "
 "использования Godot."
-
-#, fuzzy
-msgid "Godot editor"
-msgstr "Godot редактор"
 
 msgid ""
 "These are the **minimum** specifications required to run the Godot editor "
@@ -156,7 +147,6 @@ msgstr ""
 "Поддержка Windows 7/8/8.1 может быть удалена в :ref:`будущем выпуске Godot 4."
 "x <doc_release_policy>`."
 
-#, fuzzy
 msgid ""
 "Vulkan drivers for these Windows versions are known to have issues with "
 "memory leaks. As a result, it's recommended to stick to the Compatibility "
@@ -182,10 +172,6 @@ msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
 msgstr ""
 "**Метод рендеринга Forward+:** SoC с GPU и полной поддержкой Vulkan 1.0"
-
-#, fuzzy
-msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2*"
-msgstr "*Пример: Qualcomm Adreno 505, Mali-G71 MP2*"
 
 msgid ""
 "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
@@ -239,10 +225,6 @@ msgstr ""
 "**Windows:** процессор x86_64 с инструкциями SSE4.2, с 4 физическими ядрами "
 "и более"
 
-#, fuzzy
-msgid "*Example: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-msgstr "*Пример: Intel Core i5-6600K, AMD Ryzen 5 1600*"
-
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*Пример: Intel Core i5-8500, Apple M1*"
 
@@ -259,12 +241,6 @@ msgid ""
 msgstr ""
 "**Метод рендеринга Forward+:** Выделенная графика с полной поддержкой Vulkan "
 "1.2"
-
-#, fuzzy
-msgid ""
-"*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
-msgstr ""
-"*Пример: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 
 msgid ""
 "**Mobile rendering method:** Dedicated graphics with full Vulkan 1.2 support"
@@ -318,18 +294,10 @@ msgstr ""
 "**Android:** SoC с 64-bit ARM или x86 CPU, с 3 или более "
 "\"производительными\" ядрами"
 
-#, fuzzy
-msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
-msgstr "*Пример: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
-
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
 msgstr ""
 "**Метод рендеринга Forward+:** SoC с GPU и полной поддержкой Vulkan 1.2"
-
-#, fuzzy
-msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
-msgstr "*Пример: Qualcomm Adreno 630, Mali-G72 MP18*"
 
 msgid ""
 "**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
@@ -342,10 +310,6 @@ msgid ""
 msgstr ""
 "**Метод совместимого рендеринга:** SoC с GPU и полной поддержкой OpenGL ES "
 "3.2"
-
-#, fuzzy
-msgid "**Native editor:** 6 GB"
-msgstr "**Нативный редактор:** 6 ГБ"
 
 msgid "**Native editor:** Android 9.0 or iOS 11.0"
 msgstr "**Нативный редактор:** Android 9.0 или iOS 11.0"

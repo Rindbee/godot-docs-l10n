@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,9 +71,6 @@ msgstr "**blеnd_premul_alpha**"
 msgid "Pre-multiplied alpha blend mode."
 msgstr "Режим наложения альфа с предварительным умножением."
 
-msgid "**blend_disabled**"
-msgstr ""
-
 msgid "Disable blending, values (including alpha) are written as-is."
 msgstr ""
 "Отключить смешивание, значения (в том числе альфа) записываются как есть."
@@ -93,9 +85,6 @@ msgstr ""
 
 msgid "**light_only**"
 msgstr "**lіght_only**"
-
-msgid "Only draw on light pass."
-msgstr ""
 
 msgid "**skip_vertex_transform**"
 msgstr "**skіp_vertex_transform**"
@@ -135,9 +124,6 @@ msgstr ""
 msgid "Built-in"
 msgstr "Встроенный"
 
-msgid "in float **TIME**"
-msgstr ""
-
 msgid ""
 "Global time since the engine has started, in seconds (always positive). It's "
 "subject to the rollover setting (which is 3,600 seconds by default). It's "
@@ -152,9 +138,6 @@ msgstr ""
 "определить глобальную форму шейдера, чтобы добавить \"масштабированную\" "
 "переменную ``TIME``, если хотите."
 
-msgid "in float **PI**"
-msgstr ""
-
 msgid ""
 "A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
 "diameter and amount of radians in half turn."
@@ -162,26 +145,12 @@ msgstr ""
 "Константа ``PI`` (``3.141592``). Отношение окружности круга к его диаметру и "
 "количество радианов в половине оборота."
 
-msgid "in float **TAU**"
-msgstr ""
-
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
 msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
-
-msgid "in float **E**"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Константа ``E`` (``2,718281``). Число Эйлера и основание натурального "
-"логарифма."
 
 msgid "Vertex built-ins"
 msgstr "Вершинные встроенные константы"
@@ -238,9 +207,6 @@ msgstr ""
 "Трансформация локального пространства в мировое. Мировое пространство — это "
 "координаты, которые вы обычно используете в редакторе."
 
-msgid "in mat4 **CANVAS_MATRIX**"
-msgstr ""
-
 msgid ""
 "World space to canvas space transform. In canvas space the origin is the "
 "upper-left corner of the screen and coordinates ranging from (0, 0) to "
@@ -250,9 +216,6 @@ msgstr ""
 "холста началом координат является левый верхний угол экрана, а координаты "
 "варьируются от (0, 0) до размера области просмотра (вьюпорта)."
 
-msgid "in mat4 **SCREEN_MATRIX**"
-msgstr ""
-
 msgid ""
 "Canvas space to clip space. In clip space coordinates ranging from (-1, -1) "
 "to (1, 1)."
@@ -260,26 +223,11 @@ msgstr ""
 "Пространство холста для обрезки пространства. В пространстве отсечения "
 "координаты от (-1, -1) до (1, 1)."
 
-msgid "in int  **INSTANCE_ID**"
-msgstr ""
-
-msgid "Instance ID for instancing."
-msgstr ""
-
-msgid "in vec4 **INSTANCE_CUSTOM**"
-msgstr ""
-
 msgid "Instance custom data."
 msgstr "Пользовательские данные экземпляра."
 
-msgid "in bool **AT_LIGHT_PASS**"
-msgstr ""
-
 msgid "Always ``false``."
 msgstr "Всегда ``false``."
-
-msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
-msgstr ""
 
 msgid ""
 "Normalized pixel size of default 2D texture. For a Sprite2D with a texture "
@@ -288,41 +236,20 @@ msgstr ""
 "Нормализованный размер пикселя 2D-текстуры по умолчанию. Для Sprite2D с "
 "текстурой размером 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
 
-msgid "inout vec2 **VERTEX**"
-msgstr ""
-
 msgid "Vertex, in local space."
 msgstr "Вершина, в локальном пространстве."
-
-msgid "in int **VERTEX_ID**"
-msgstr ""
 
 msgid "The index of the current vertex in the vertex buffer."
 msgstr "Индекс текущей вершины в буфере вершин."
 
-msgid "inout vec2 **UV**"
-msgstr ""
-
 msgid "Normalized texture coordinates. Range from 0 to 1."
 msgstr "Нормализованные координаты текстуры. Диапазон от 0 до 1."
-
-msgid "inout vec4 **COLOR**"
-msgstr ""
 
 msgid "Color from vertex primitive."
 msgstr "Цвет из вершин примитива."
 
-msgid "inout float **POINT_SIZE**"
-msgstr ""
-
 msgid "Point size for point drawing."
 msgstr "Размер точки для отрисовки."
-
-msgid "in vec4 **CUSTOM0**"
-msgstr ""
-
-msgid "in vec4 **CUSTOM1**"
-msgstr ""
 
 msgid "Fragment built-ins"
 msgstr "Фрагментные встроенные константы"
@@ -360,18 +287,6 @@ msgstr ""
 msgid "in vec4 **FRAGCOORD**"
 msgstr "vec4 **FRAGCOORD**"
 
-#, fuzzy
-msgid ""
-"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is upper-left."
-msgstr ""
-"Координата центра пикселя в пространстве экрана. ``xy`` задает позицию в "
-"окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. Начало "
-"координат - левый нижний угол."
-
-msgid "in vec2 **SCREEN_PIXEL_SIZE**"
-msgstr ""
-
 msgid "Size of individual pixels. Equal to inverse of resolution."
 msgstr "Размер отдельных пикселей. Равно обратному разрешению."
 
@@ -381,20 +296,11 @@ msgstr "vec2 **POINT_COORD**"
 msgid "Coordinate for drawing points."
 msgstr "Координаты для отрисовки точек."
 
-msgid "sampler2D **TEXTURE**"
-msgstr ""
-
 msgid "Default 2D texture."
 msgstr "2D текстура по умолчанию."
 
-msgid "sampler2D **SPECULAR_SHININESS_TEXTURE**"
-msgstr ""
-
 msgid "Specular shininess texture of this object."
 msgstr "Текстура зеркального блеска этого объекта."
-
-msgid "in vec4 **SPECULAR_SHININESS**"
-msgstr ""
 
 msgid "Specular shininess color, as sampled from the texture."
 msgstr "Цвет зеркального блеска, взятый из текстуры."
@@ -411,29 +317,17 @@ msgstr "vec2 **SCREEN_UV**"
 msgid "Screen UV coordinate for current pixel."
 msgstr "Экранная UV-координата для текущего пикселя."
 
-msgid "sampler2D **SCREEN_TEXTURE**"
-msgstr ""
-
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
 msgstr ""
 "Убрано в Godot 4. Вместо этого используйте ``sampler2D`` с "
 "``hint_screen_texture``."
 
-msgid "inout vec3 **NORMAL**"
-msgstr ""
-
 msgid "Normal read from **NORMAL_TEXTURE**. Writable."
 msgstr "Чтение нормали из **NORMAL_TEXTURE**. Возможна запись."
 
-msgid "sampler2D **NORMAL_TEXTURE**"
-msgstr ""
-
 msgid "Default 2D normal texture."
 msgstr "2D текстура нормали по умолчанию."
-
-msgid "out vec3 **NORMAL_MAP**"
-msgstr ""
 
 msgid ""
 "Configures normal maps meant for 3D for use in 2D. If used, overrides "
@@ -442,23 +336,14 @@ msgstr ""
 "Настраивает карты нормалей, предназначенные для 3D, для использования в 2D. "
 "Если используется, переопределяет **NORMAL**."
 
-msgid "out float **NORMAL_MAP_DEPTH**"
-msgstr ""
-
 msgid "Normalmap depth for scaling."
 msgstr "Глубина карты нормалей для масштабирования."
 
 msgid "Pixel position in screen space."
 msgstr "Позиция пикселя в экранном пространстве."
 
-msgid "inout vec2 **SHADOW_VERTEX**"
-msgstr ""
-
 msgid "Same as ``VERTEX`` but can be written to alter shadows."
 msgstr "Аналогичен ``VERTEX``, но может быть записан для изменения теней."
-
-msgid "inout vec3 **LIGHT_VERTEX**"
-msgstr ""
 
 msgid ""
 "Same as ``VERTEX`` but can be written to alter lighting. Z component "
@@ -511,18 +396,6 @@ msgstr ""
 "Ниже приведён пример шейдера света (light), который учитывает карту нормалей "
 "CanvasItem:"
 
-#, fuzzy
-msgid ""
-"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
-msgstr ""
-"Координата центра пикселя в пространстве экрана. ``xy`` задает позицию в "
-"окне, ``z`` задает глубину фрагмента, если ``DEPTH`` не используется. Начало "
-"координат - левый нижний угол."
-
-msgid "in vec3 **NORMAL**"
-msgstr ""
-
 msgid "Input Normal."
 msgstr "Вход нормали."
 
@@ -545,23 +418,11 @@ msgstr ""
 "Нормализованный размер пикселя **TEXTURE**. Для Sprite2D с **TEXTURE** "
 "размером 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
 
-msgid "UV for Point Sprite."
-msgstr ""
-
-msgid "in vec4 **LIGHT_COLOR**"
-msgstr ""
-
 msgid "Color of Light multiplied by Light's texture."
 msgstr "Цвет Света, умноженный на текстуру Света."
 
-msgid "in float **LIGHT_ENERGY**"
-msgstr ""
-
 msgid "Energy multiplier of Light."
 msgstr "Мультипликатор энергии света."
-
-msgid "in vec3 **LIGHT_POSITION**"
-msgstr ""
 
 msgid ""
 "Position of Light in screen space. If using a ``DirectionalLight2D`` this is "
@@ -570,36 +431,21 @@ msgstr ""
 "Положение света в пространстве экрана. При использовании "
 "``DirectionalLight2D`` это всегда ``vec3(0,0,0)``."
 
-msgid "in vec3 **LIGHT_DIRECTION**"
-msgstr ""
-
 msgid "Direction of Light in screen space."
 msgstr "Направление света в экранном пространстве."
-
-msgid "in bool **LIGHT_IS_DIRECTIONAL**"
-msgstr ""
 
 msgid "``true`` if this pass is a ``DirectionalLight2D``."
 msgstr "``true``, если этот проход является ``DirectionalLight2D``."
 
-msgid "in vec3 **LIGHT_VERTEX**"
-msgstr ""
-
 msgid "Pixel position, in screen space as modified in the fragment function."
 msgstr ""
 "Положение пикселя в пространстве экрана, изменённое во фрагментной функции."
-
-msgid "inout vec4 **LIGHT**"
-msgstr ""
 
 msgid "Output color for this Light."
 msgstr "Выходной цвет для этого источника света."
 
 msgid "Specular shininess, as set in the object's texture."
 msgstr "Зеркальный блеск, заданный текстурой объекта."
-
-msgid "out vec4 **SHADOW_MODULATE**"
-msgstr ""
 
 msgid "Multiply shadows cast at this point by this color."
 msgstr "Умножение теней, отбрасываемые в этой точке, на этот цвет."
@@ -631,31 +477,11 @@ msgstr ""
 msgid "Function"
 msgstr "Функция"
 
-msgid "float **texture_sdf** (vec2 sdf_pos)"
-msgstr ""
-
 msgid "Performs an SDF texture lookup."
 msgstr "Выполняет поиск текстуры SDF."
 
-msgid "vec2 **texture_sdf_normal** (vec2 sdf_pos)"
-msgstr ""
-
 msgid "Calculates a normal from the SDF texture."
 msgstr "Вычисляет нормаль из текстуры SDF."
-
-msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
-msgstr ""
-
-#, fuzzy
-msgid "Converts an SDF to screen UV."
-msgstr "Преобразует SDF в экранный UV."
-
-msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
-msgstr ""
-
-#, fuzzy
-msgid "Converts screen UV to an SDF."
-msgstr "Преобразует экранный UV в SDF."
 
 msgid "Translation status"
 msgstr "Статус перевода"

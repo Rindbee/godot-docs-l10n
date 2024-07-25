@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,18 +44,6 @@ msgstr ""
 "En outre, il arrive souvent que ces assets soient distribués sous des "
 "licences propriétaires non libres, ce qui limite ce que vous pouvez en faire."
 
-#, fuzzy
-msgid ""
-"The Asset Library is different - all assets are distributed free of charge, "
-"and under a host of open source licenses (such as the MIT license, the GPL, "
-"and the Boost Software License). This makes the AssetLib more similar to the "
-"software repositories of a Linux distribution."
-msgstr ""
-"La bibliothèque d'assets est différente : tous les assets sont distribués "
-"gratuitement et sous une multitude de licences open-source (telles que la "
-"licence du MIT, la GPL et la Boost Software License). Cela rend l'AssetLib "
-"plus similaire aux dépôts de logiciels d'une distribution Linux."
-
 msgid ""
 "This set of pages will cover how to use the AssetLib (both from inside "
 "Godot, and on the website), how you can submit your own assets, and what the "
@@ -91,16 +74,6 @@ msgid ""
 msgstr ""
 "Soyez averti qu’il y a, en gros, deux types d’assets différents que vous "
 "pouvez publier."
-
-#, fuzzy
-msgid ""
-"Assets labeled as \"Templates\", \"Projects\", or \"Demos\" appear under the "
-"\"Asset Library Projects\" tab in the Godot Project Manager. These assets "
-"are standalone Godot projects that can run by themselves."
-msgstr ""
-"Les assets intitulés « Templates », « Projects » ou « Demos » apparaissent "
-"sous l’onglet « Templates » du gestionnaire de projets de Godot. Ces assets "
-"sont des projets Godot indépendants qui peuvent fonctionner tout seuls."
 
 msgid ""
 "Other assets show up inside of the Godot editor under the \"AssetLib\" main "

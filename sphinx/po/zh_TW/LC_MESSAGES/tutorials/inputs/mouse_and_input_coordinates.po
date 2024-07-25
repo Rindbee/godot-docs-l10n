@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,17 +51,6 @@ msgstr ""
 msgid ""
 "Alternatively, it's possible to ask the viewport for the mouse position:"
 msgstr "另外，也可以從視口查詢滑鼠的座標："
-
-#, fuzzy
-msgid ""
-"When the mouse mode is set to ``Input.MOUSE_MODE_CAPTURED``, the ``event."
-"position`` value from ``InputEventMouseMotion`` is the center of the screen. "
-"Use ``event.relative`` instead of ``event.position`` and ``event.velocity`` "
-"to process mouse movement and position changes."
-msgstr ""
-"滑鼠模式為 ``Input.MOUSE_MODE_CAPTURED`` 時，``InputEventMouseMotion`` 中的 "
-"``event.position`` 值為螢幕中心。請使用 ``event.relative`` 代替 ``event."
-"position`` 和 ``event.speed`` 來處理滑鼠移動和位置變化。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

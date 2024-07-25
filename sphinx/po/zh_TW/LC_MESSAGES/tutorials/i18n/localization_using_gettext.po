@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,17 +124,6 @@ msgstr "放置樣板"
 
 msgid "Automatic generation using the editor"
 msgstr "執行編輯器"
-
-#, fuzzy
-msgid ""
-"Since Godot 4.0, the editor can generate a PO template automatically from "
-"specified scene and GDScript files. This POT generation also supports "
-"translation contexts and pluralization if used in a script, with the "
-"optional second argument of ``tr()`` and the ``tr_n()`` method."
-msgstr ""
-"從Godot 4.0開始，編輯器可以根據指定的場景和腳本檔案自動產生PO模板。如果在腳本"
-"中使用，此 POT 產生還支援翻譯本文和複數，並帶有可選的第二個參數 tr() 和 "
-"tr_n() 方法。"
 
 msgid ""
 "Open the Project Settings' **Localization > POT Generation** tab, then use "
@@ -328,25 +312,12 @@ msgstr ""
 "大型專案會有成千上萬的字串要翻譯，相比於基於文字的 PO 檔，使用（編譯為）二進"
 "位的 MO 消息檔可能更加划算。二進位 MO 檔比對應的 PO 檔更小、讀起來更快。"
 
-#, fuzzy
-msgid "You can generate an MO file with the command below:"
-msgstr "你可以使用下面的命令生成 MO 檔："
-
 msgid ""
 "If the PO file is valid, this command will create a ``fr.mo`` file besides "
 "the PO file. This MO file can then be loaded in Godot as described above."
 msgstr ""
 "如果這個 PO 檔是有效的，這個命令就會在 PO 檔的旁邊建立一個 ``fr.mo`` 檔案。這"
 "個 MO 檔可以按照下文的方法載入進 Godot。"
-
-#, fuzzy
-msgid ""
-"The original PO file should be kept in version control so you can update "
-"your translation in the future. In case you lose the original PO file and "
-"wish to decompile an MO file into a text-based PO file, you can do so with:"
-msgstr ""
-"應該在版本控制中保留原始 PO 檔，這樣以後就可以更新翻譯。如果你丟失了原始的 "
-"PO 檔，希望將 MO 檔反編譯為基於文字的 PO 檔，你可以這樣做："
 
 msgid ""
 "The decompiled file will not include comments or fuzzy strings, as these are "

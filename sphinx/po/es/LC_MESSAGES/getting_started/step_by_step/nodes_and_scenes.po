@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,10 +115,6 @@ msgid "On top of acting like nodes, scenes have the following characteristics:"
 msgstr ""
 "Además de actuar como nodos, las escenas tienen las siguientes "
 "características:"
-
-#, fuzzy
-msgid "They always have one root node, like the \"Player\" in our example."
-msgstr "Siempre tienen un nodo raíz, como el \"Character\" en nuestro ejemplo."
 
 msgid "You can save them to your local drive and load them later."
 msgstr "Puedes guardarlos en tu disco local y cargarlos más tarde."
@@ -303,16 +294,6 @@ msgstr ""
 
 msgid "Setting the main scene"
 msgstr "Configurando la escena principal"
-
-#, fuzzy
-msgid ""
-"To run our test scene, we used the Run Current Scene button. Another button "
-"next to it allows you to set and run the project's main scene. You can "
-"press :kbd:`F5` (:kbd:`Cmd + B` on macOS) to do so."
-msgstr ""
-"Para ejecutar nuestra escena de prueba, usamos el botón Reproducir escena. "
-"Otro botón al lado le permite configurar y ejecutar la escena principal del "
-"proyecto. Puede presionar :kbd:`F5` para hacerlo."
 
 msgid "A popup window appears and invites you to select the main scene."
 msgstr ""

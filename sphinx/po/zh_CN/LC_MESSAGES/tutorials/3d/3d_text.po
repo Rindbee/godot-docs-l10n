@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,17 +83,6 @@ msgstr ""
 "但 Label3D 的（重新）生成速度仍然更快，尤其是对于长文本。这可以避免在低端 "
 "CPU 或移动设备上玩游戏时出现卡顿。"
 
-#, fuzzy
-msgid ""
-"Label3D can use bitmap fonts and dynamic fonts (with and without :abbr:`MSDF "
-"(Multi-channel Signed Distance Font)` or mipmaps). This makes it more "
-"flexible on that aspect compared to TextMesh, especially for rendering fonts "
-"with self-intersecting outlines or colored fonts (emoji)."
-msgstr ""
-"Label3D 可以使用位图字体和动态字体（带或不带 :abbr:`MSDF (Multi-channel "
-"Signed Distance Font)` 或 mipmap）。这使得它在这方面比 TextMesh 更灵活，尤其"
-"是在渲染具有自交轮廓的字体时。"
-
 msgid ""
 "See :ref:`doc_gui_using_fonts` for guidelines on configuring font imports."
 msgstr "有关配置字体导入的指南，请参阅 :ref:`doc_gui_using_fonts`。"
@@ -146,6 +130,9 @@ msgid ""
 "font <doc_using_fonts_mipmaps>` or :ref:`switch the font to use MSDF "
 "rendering <doc_using_fonts_msdf>`."
 msgstr ""
+"从远处看Label3D时，文本渲染质量也会受影响。想提升文本渲染质量可参考这些方"
+"法，:ref:`对字体使用mipmap <doc_using_fonts_mipmaps>` or :ref:`切换成MSDF 字"
+"体渲染 <doc_using_fonts_msdf>`."
 
 msgid "TextMesh"
 msgstr "TextMesh"
@@ -213,6 +200,9 @@ msgid ""
 "antialiasing method is enabled, text will appear grainy, especially at a "
 "distance. See :ref:`doc_3d_antialiasing` for more information."
 msgstr ""
+"对文本进行抗锯齿，需要启用全场景抗锯齿，比如：MSAA，FXAA，Temporal "
+"Antialiasing（TAA）。如果未启动抗锯齿，文本会产生颗粒状，尤其是远距离观察时颗"
+"粒状更为明显。参考:ref:`doc_3d_antialiasing` 。"
 
 msgid "Projected Label node (or any other Control)"
 msgstr "投影 Label 节点（或者其他 Control 节点）"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,18 +117,6 @@ msgstr ""
 
 msgid "Bitmap fonts"
 msgstr "點陣字型"
-
-#, fuzzy
-msgid ""
-"Godot supports the BMFont (``.fnt``) bitmap font format. This is a format "
-"created by the `BMFont <https://www.angelcode.com/products/bmfont/>`__ "
-"program. Many BMFont-compatible programs also exist, like `BMGlyph <https://"
-"www.bmglyph.com/>`__ or web-based `fontcutter <https://github.com/fabienbk/"
-"fontcutter>`__."
-msgstr ""
-"Godot 支援 BMFont (``.fnt``) 點字字形格式。這是由 `BMFont <https://www."
-"angelcode.com/products/bmfont/>`__ 程式所建立的格式。也存在許多 BMFont 相容程"
-"式，例如「BMGlyph <https://www.bmglyph.com/>」。"
 
 msgid ""
 "Alternatively, you can import any image to be used as a bitmap font. This is "
@@ -273,65 +256,6 @@ msgstr ""
 "也可以透過設定 :ref:`CanvasItem.texture_filter "
 "<class_CanvasItem_property_texture_filter>` 在繼承自 CanvasItem 的各個節點上"
 "設定紋理篩選器模式。"
-
-#, fuzzy
-msgid "Font outlines and shadows"
-msgstr "2D 燈光和陰影"
-
-msgid ""
-"Font outlines and shadows can be used to improve readability when the "
-"background color isn't known in advance. For instance, this is the case for "
-"HUD elements that are drawn over a 2D/3D scene."
-msgstr ""
-
-msgid ""
-"Font outlines are available in most nodes that derive from Control, in "
-"addition to :ref:`class_Label3D`."
-msgstr ""
-
-msgid ""
-"To enable outline for a font on a given node, configure the theme overrides "
-"**Font Outline Color** and **Outline Size** in the inspector. The result "
-"should look like this:"
-msgstr ""
-
-#, fuzzy
-msgid "Font outline example"
-msgstr "射擊範例"
-
-msgid ""
-"If using a font with MSDF rendering, its **MSDF Pixel Range** import option "
-"be set to at least *twice* the value of the outline size for outline "
-"rendering to look correct. Otherwise, the outline may appear to be cut off "
-"earlier than intended."
-msgstr ""
-
-msgid ""
-"Support for font shadows is more limited: they are only available in :ref:"
-"`class_Label` and :ref:`class_RichTextLabel`. Additionally, font shadows "
-"always have a hard edge (but you can reduce their opacity to make them look "
-"more subtle). To enable font shadows on a given node, configure the **Font "
-"Shadow Color**, **Shadow Offset X**, and **Shadow Offset Y** theme overrides "
-"in a Label or RichTextLabel node accordingly:"
-msgstr ""
-
-#, fuzzy
-msgid "Configuring font shadow in a Label node"
-msgstr "設定建置"
-
-#, fuzzy
-msgid "The result should look like this:"
-msgstr "最終結果應如下所示:"
-
-#, fuzzy
-msgid "Font shadow example"
-msgstr "Windows 範例："
-
-msgid ""
-"You can create local overrides to font display in Label nodes by creating a :"
-"ref:`class_LabelSettings` resource that you reuse across Label nodes. This "
-"resource takes priority over :ref:`theme properties <doc_gui_skinning>`."
-msgstr ""
 
 msgid "Advanced font features"
 msgstr "預設功能"
@@ -492,15 +416,6 @@ msgstr ""
 "在檔案系統擴充座中選擇字形後，您可以在匯入擴充座中啟用 **Mipmaps** 以改善縮小"
 "字形的算繪外觀。"
 
-#, fuzzy
-msgid ""
-"Mipmaps can be enabled on MSDF fonts as well. This can improve font "
-"rendering quality a little at smaller-than-default sizes, but MSDF fonts are "
-"already resistant to graininess out of the box."
-msgstr ""
-"也可以在 MSDF 字型上啟用 Mipmap。這可以稍微提高小於預設尺寸的字形算繪質量，"
-"但 MSDF 字形已經可以抵抗開箱即用的顆粒感。"
-
 msgid "MSDF font rendering"
 msgstr "MSDF 字形算繪"
 
@@ -559,26 +474,6 @@ msgstr ""
 "MSDF 模式下無法正確算繪輪廓自相交的字形。如果使用從 `Google Fonts <https://"
 "fonts.google.com>`__ 等處下載到的字形時出現算繪問題，請嘗試改為從作者的官方網"
 "站下載。"
-
-msgid "Comparison of font rasterization methods"
-msgstr ""
-
-msgid ""
-"Comparison of font rasterization methods. From top to bottom: rasterized "
-"without oversampling, rasterized with oversampling, MSDF"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"To enable MSDF rendering for a given font, select it in the FileSystem dock, "
-"go to the Import dock, enable **Multichannel Signed Distance Field**, then "
-"click **Reimport**:"
-msgstr ""
-"若要使OBJ 檔案為其產生網格LOD，請在檔案系統擴充座中選擇它，請前往匯入擴充塢，"
-"將其**匯入為** 選項變更為**場景**，然後按一下**重新匯入**："
-
-msgid "Enabling MSDF in the font's import options"
-msgstr ""
 
 msgid "Using emoji"
 msgstr "使用空白字元"
@@ -1015,10 +910,6 @@ msgstr ""
 "對 OpenType 功能的支援很大程度上取決於所使用的字形。某些字形不支援任何 "
 "OpenType 功能，而其他字形可以支援數十種可切換功能。"
 
-#, fuzzy
-msgid "There are 2 ways to use OpenType font features:"
-msgstr "有兩種方法可以為伺服器匯出專案："
-
 msgid "**Globally on a font file**"
 msgstr "**全域字形檔案**"
 
@@ -1090,13 +981,6 @@ msgid ""
 msgstr "只有 Windows、macOS、Linux、Android、iOS 支援載入系統字形。"
 
 msgid ""
-"However, loading system fonts on Android is unreliable as there is no "
-"official API for doing so. Godot has to rely on parsing system configuration "
-"files, which can be modified by third-party Android vendors. This may result "
-"in non-functional system font loading."
-msgstr ""
-
-msgid ""
 "System fonts are a different type of resource compared to imported fonts. "
 "They are never actually imported into the project, but are loaded at run-"
 "time. This has 2 benefits:"
@@ -1126,12 +1010,6 @@ msgstr ""
 "引擎會自動使用系統字形作為後備字形，這使得無需加載自訂字形即可顯示 CJK 字元和"
 "表情符號。但有一些限制適用，如 :ref:`使用表情符號 <doc_using_fonts_emoji>` 部"
 "分所述。"
-
-#, fuzzy
-msgid ""
-"Create a :ref:`class_SystemFont` resource in the location where you desire "
-"to use the system font:"
-msgstr "在您想要使用系統字形的位置建立一個 SystemFont 資源："
 
 msgid "Creating a SystemFont resource"
 msgstr "建立自己的資源"
@@ -1263,12 +1141,6 @@ msgid ""
 msgstr ""
 "與 Windows 和 macOS/iOS 不同，Linux 上提供的預設字型集取決於發行版。這意味著"
 "在不同的 Linux 發行版上，給定的系統字形名稱或別名可能會顯示不同的字形。"
-
-msgid ""
-"It is also possible to load fonts at runtime even if they aren't installed "
-"on the system. See :ref:`Runtime loading and saving "
-"<doc_runtime_file_loading_and_saving_fonts>` for details."
-msgstr ""
 
 msgid "Font prerendering"
 msgstr "算繪"
@@ -1436,15 +1308,6 @@ msgstr ""
 "如果您的遊戲文字發生變化，第二種方法需要較少的配置和較少的更新，並且更適合文"
 "字較多的遊戲或具有聊天功能的多人遊戲。另一方面，它可能會導致遊戲中從未出現的"
 "字形被預先算繪，這在檔案大小方面效率較低。"
-
-#, fuzzy
-msgid ""
-"To use existing text as a baseline for prerendering, go to the **Glyphs from "
-"the Character Map** sub-tab of the Advanced Import Settings dialog, then "
-"*double-click* character sets to be enabled on the right:"
-msgstr ""
-"若要使用現有文字作為預先算繪的基線，請前往「進階匯入設定」對話方塊的「**字元"
-"對應表中的字形**」子分頁，然後*雙擊*要在右側啟用的字元集："
 
 msgid ""
 "Enabling prerendering in the Advanced Import Settings dialog, Glyphs from "

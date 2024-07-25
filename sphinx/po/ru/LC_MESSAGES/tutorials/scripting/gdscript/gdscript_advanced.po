@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +48,6 @@ msgstr ""
 "GDScript-это динамически типизированный язык. Его главным преимуществом "
 "является то, что:"
 
-#, fuzzy
 msgid "The language is easy to get started with."
 msgstr "Язык прост и легок в изучении."
 
@@ -67,7 +61,7 @@ msgstr ""
 "исправить."
 
 msgid "The code is easy to read (little clutter)."
-msgstr ""
+msgstr "Код легко читается."
 
 msgid "No compilation is required to test."
 msgstr "Для проверки не требуется компиляция."
@@ -75,9 +69,8 @@ msgstr "Для проверки не требуется компиляция."
 msgid "Runtime is tiny."
 msgstr "Время выполнения очень мало."
 
-#, fuzzy
 msgid "It has duck-typing and polymorphism by nature."
-msgstr "Утиная типизация и полиморфизм в своём изначальном виде."
+msgstr "Утиная типизация и полиморфизм."
 
 msgid "While the main disadvantages are:"
 msgstr "В то время как основными недостатками являются:"
@@ -87,9 +80,8 @@ msgstr ""
 "Менее высокая производительность по сравнению со статически типизированными "
 "языками."
 
-#, fuzzy
 msgid "More difficult to refactor (symbols can't be traced)."
-msgstr "Сложнее рефакторить (символы не прослеживаются)"
+msgstr "Сложность в рефакторинге."
 
 msgid ""
 "Some errors that would typically be detected at compile time in statically "
@@ -97,7 +89,7 @@ msgid ""
 "parsing is more strict)."
 msgstr ""
 "Некоторые ошибки, которые обычно обнаруживаются во время компиляции на "
-"статически напечатанных языках, появляются только при запуске кода "
+"статически типизированных языках, появляются только при запуске кода "
 "(поскольку происходит более строгая синтаксическая проверка)."
 
 msgid ""
@@ -107,7 +99,6 @@ msgstr ""
 "Менее гибкое понимание в исполнении кода (некоторые типы переменных известны "
 "только во время выполнения)."
 
-#, fuzzy
 msgid ""
 "This, translated to reality, means that Godot used with GDScript is a "
 "combination designed to create games quickly and efficiently. For games that "
@@ -117,13 +108,14 @@ msgid ""
 "most of the game in GDScript and add small bits of C++ in the areas that "
 "need a performance boost."
 msgstr ""
-"Это означает, что Godot+GDScript - это комбинация, разработанная для "
-"быстрого и эффективного создания игр. Для игр, требующих большой "
-"вычислительной мощности и не использующих встроенные инструменты движка "
-"(такие как Vector type, Physics Engine, Math library и т.д.), также "
-"предусмотрена возможность использования языка Си++. Это позволяет вам "
-"создавать большую часть игры в GDScript и добавлять небольшие кусочки C++ в "
-"области, которые нуждаются в повышении производительности."
+"В реальности это означает, что Godot, используемый с GDScript, представляет "
+"собой комбинацию, предназначенную для быстрого и эффективного создания игр. "
+"Для игр, которые требуют больших вычислительных затрат и не могут "
+"воспользоваться встроенными в движок инструментами (такими как векторные "
+"типы, физический движок, математическая библиотека и т.д.), также существует "
+"возможность использования C++. Это позволяет вам по-прежнему создавать "
+"большую часть игры на GDScript и добавлять небольшие фрагменты C++ в тех "
+"областях, где требуется повышение производительности."
 
 msgid "Variables & assignment"
 msgstr "Переменные и присваивание"
@@ -187,23 +179,6 @@ msgstr "Java:"
 
 msgid "GDScript:"
 msgstr "GDScriрt:"
-
-#, fuzzy
-msgid ""
-"In GDScript, only base types (int, float, string and the vector types) are "
-"passed by value to functions (value is copied). Everything else (instances, "
-"arrays, dictionaries, etc) is passed as reference. Classes that inherit :ref:"
-"`class_RefCounted` (the default if nothing is specified) will be freed when "
-"not used, but manual memory management is allowed too if inheriting manually "
-"from :ref:`class_Object`."
-msgstr ""
-"В GDScript только базовые типы (int, float, string и vector) передаются в "
-"аргументы в виде значений (данные копируются). Во всех других случаях "
-"(экземпляры объектов, массивы, словари и т.д.) передаются лишь ссылки. "
-"Объекты классов, которые наследуются от :ref:`class_Reference` "
-"(устанавливается по-умолчанию) будут автоматически удалены сборщиком мусора "
-"при отсутствии ссылок. Ручное управление памятью также возможно, если класс "
-"будет наследоваться от :ref:`class_Object`."
 
 msgid "Arrays"
 msgstr "Массивы"
@@ -270,14 +245,6 @@ msgstr ""
 "Словари также являются динамическими, ключи могут добавляться или удаляться "
 "в любой момент при небольших затратах:"
 
-#, fuzzy
-msgid ""
-"In most cases, two-dimensional arrays can often be implemented more easily "
-"with dictionaries. Here's a battleship game example:"
-msgstr ""
-"В большинстве случаев двумерные массивы могут быть проще реализованы с "
-"помощью словарей. Вот простой пример игры \"морской бой\":"
-
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "
 "GDScript's dictionaries resemble python dictionaries, it also supports Lua "
@@ -292,19 +259,6 @@ msgstr ""
 msgid "For & while"
 msgstr "Циклы for и while"
 
-#, fuzzy
-msgid ""
-"Iterating using the C-style for loop in C-derived languages can be quite "
-"complex:"
-msgstr ""
-"Циклы в некоторых статически типизированных языках могут быть довольно "
-"сложными:"
-
-msgid ""
-"Because of this, GDScript makes the opinionated decision to have a for-in "
-"loop over iterables instead:"
-msgstr ""
-
 msgid ""
 "Container datatypes (arrays and dictionaries) are iterable. Dictionaries "
 "allow iterating the keys:"
@@ -318,15 +272,8 @@ msgstr "Итерация с индексами также возможна:"
 msgid "The range() function can take 3 arguments:"
 msgstr "Функция range() может принимать 3 аргумента:"
 
-msgid "Some examples involving C-style for loops:"
-msgstr ""
-
 msgid "Translate to:"
 msgstr "Транслируется в:"
-
-#, fuzzy
-msgid "And backwards looping done through a negative counter:"
-msgstr "И обратный цикл выполняется через отрицательный счётчик цикла:"
 
 msgid "Becomes:"
 msgstr "Становится:"

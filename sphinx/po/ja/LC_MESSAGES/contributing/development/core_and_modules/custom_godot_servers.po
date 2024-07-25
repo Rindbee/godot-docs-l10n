@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,28 +17,6 @@ msgstr "カスタムGodotサーバー"
 
 msgid "Introduction"
 msgstr "はじめに"
-
-#, fuzzy
-msgid ""
-"Godot implements multi-threading as servers. Servers are daemons which "
-"manage data, process it, and push the result. Servers implement the mediator "
-"pattern which interprets resource ID and process data for the engine and "
-"other modules. In addition, the server claims ownership for its RID "
-"allocations."
-msgstr ""
-"Godotはサーバーとしてマルチスレッドを実装しています。サーバーは、データを管理"
-"し、処理し、結果をプッシュするデーモンです。サーバーは、エンジンおよびその他"
-"のモジュールのリソースIDとプロセスデータを解釈するメディエーターパターンを実"
-"装します。さらに、サーバーはRID割り当ての所有権を主張します。"
-
-#, fuzzy
-msgid ""
-"This guide assumes the reader knows how to create C++ modules and Godot data "
-"types. If not, refer to :ref:`doc_custom_modules_in_cpp`."
-msgstr ""
-"このガイドは、読者がC++モジュールとGodotデータ型を作成する方法を知っているこ"
-"とを前提としています。そうでない場合は、\\ :ref:`doc_custom_modules_in_c++` "
-"を参照してください。"
 
 msgid "References"
 msgstr "参照"
@@ -111,13 +84,6 @@ msgstr ""
 
 msgid ":ref:`RID<class_rid>`"
 msgstr "\\ :ref:`RID<class_rid>`"
-
-#, fuzzy
-msgid ""
-"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
-"templates/rid.h>`__"
-msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/master/core/rid.h>`_"
 
 msgid "Registering the class in GDScript"
 msgstr "GDScriptでのクラスの登録"
@@ -195,14 +161,6 @@ msgstr ""
 
 msgid "References:"
 msgstr "リファレンス:"
-
-#, fuzzy
-msgid ""
-"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/object/message_queue.cpp>`__"
-msgstr ""
-"`core/message_queue.cpp <https://github.com/godotengine/godot/blob/master/"
-"core/message_queue.cpp>`_"
 
 msgid "Summing it up"
 msgstr "まとめ"

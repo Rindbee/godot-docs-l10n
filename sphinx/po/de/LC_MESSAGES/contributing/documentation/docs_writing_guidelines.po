@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -599,15 +594,15 @@ msgstr ""
 "Verwenden Sie für Kombinationen das Symbol ``+`` mit einem Leerzeichen auf "
 "beiden Seiten des Symbols."
 
-#, fuzzy
 msgid ""
 "Make sure to mention shortcuts that differ on macOS compared to other "
 "platforms. You can find a list of all shortcuts, including what they are on "
 "macOS, on :ref:`this page <doc_default_key_mapping>`."
 msgstr ""
-"Stellen Sie sicher, dass Sie Verknüpfungen erwähnen, die sich unter MacOS "
-"von anderen Plattformen unterscheiden. Unter MacOS ersetzt ``Cmd`` häufig "
-"``Ctrl`` in Tastaturkürzeln."
+"Achten Sie darauf, Tastenkombinationen zu erwähnen, die sich unter macOS von "
+"denen anderer Plattformen unterscheiden. Sie finden eine Liste aller "
+"Tastenkombinationen, einschließlich ihrer Bedeutung unter macOS, auf :ref:"
+"`dieser Seite <doc_default_key_mapping>`."
 
 msgid ""
 "Try to integrate the shortcut into sentences the best you can. Here are some "
@@ -617,12 +612,11 @@ msgstr ""
 "einige Beispiele, bei denen das Tag ``:kbd:`` zur besseren Sichtbarkeit "
 "unverändert bleibt:"
 
-#, fuzzy
 msgid ""
 "Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Opt + Cmd + "
 "T``` on macOS)."
 msgstr ""
-"Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Cmd + Alt + "
+"Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Opt + Cmd + "
 "T``` on macOS)."
 
 msgid ""

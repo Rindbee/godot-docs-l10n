@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,41 +26,6 @@ msgstr ""
 "seu projeto em qualquer número de cenas. Essa funcionalidade ajuda você a "
 "dividir e organizar os diferentes componentes do seu jogo."
 
-#, fuzzy
-msgid ""
-"You can create as many scenes as you'd like and save them as files with the "
-"``.tscn`` extension, which stands for \"text scene\". The ``label.tscn`` "
-"file from the previous lesson was an example. We call those files \"Packed "
-"Scenes\" as they pack information about your scene's content."
-msgstr ""
-"Você pode criar quantas cenas você quiser e salvar elas para o disco com a "
-"extensão ``.tscn``, que signfica \"cena de texto\". O arquivo ``Label."
-"tscn``da lição anterior foi um exemplo. Nós chamamos esses arquivos de "
-"\"Cenas Empacotadas\" já que eles empacotam informação sobre o conteúdo da "
-"sua cena."
-
-#, fuzzy
-msgid ""
-"Here's an example of a ball. It's composed of a :ref:`RigidBody2D "
-"<class_RigidBody2D>` node as its root named Ball, which allows the ball to "
-"fall and bounce on walls, a :ref:`Sprite2D <class_Sprite2D>` node, and a :"
-"ref:`CollisionShape2D <class_CollisionShape2D>`."
-msgstr ""
-"Aqui temos o exemplo de uma bola. Ele é composto de um nó :ref:`RigidBody2D "
-"<class_RigidBody2D>`na raiz chamado Ball, que permite que a bola caia e "
-"quique nas paredes, um nó :ref:`Sprite <class_Sprite>`e um :ref:"
-"`CollisionShape2D <class_CollisionShape2D>`."
-
-#, fuzzy
-msgid ""
-"Once you have saved a scene, it works as a blueprint: you can reproduce it "
-"in other scenes as many times as you'd like. Replicating an object from a "
-"template like this is called **instancing**."
-msgstr ""
-"Depois de salvar uma cena, ela funciona como um projeto: você pode reproduzi-"
-"la em outras cenas quantas vezes quiser. Replicar um objeto de um modelo "
-"como este é chamado de **instanciamento**."
-
 msgid ""
 "As we mentioned in the previous part, instanced scenes behave like a node: "
 "the editor hides their content by default. When you instance the Ball, you "
@@ -76,31 +36,8 @@ msgstr ""
 "Bola, você vê apenas o nó Ball. Observe também como cada duplicata tem um "
 "nome exclusivo."
 
-#, fuzzy
-msgid ""
-"Every instance of the Ball scene starts with the same structure and "
-"properties as ``ball.tscn``. However, you can modify each independently, "
-"such as changing how they bounce, how heavy they are, or any property "
-"exposed by the source scene."
-msgstr ""
-"Cada instância da cena Ball começa com a mesma estrutura e propriedades que "
-"``Ball.tscn``. Porém, você pode modificar cada uma independentemente, tal "
-"como mudar como ela quica, o quão pesada ela é, ou qualquer propriedade "
-"exposta pela cena de origem."
-
 msgid "In practice"
 msgstr "Na prática"
-
-#, fuzzy
-msgid ""
-"Let's use instancing in practice to see how it works in Godot. We invite you "
-"to download the ball's sample project we prepared for you: "
-"`instancing_starter.zip <https://github.com/godotengine/godot-docs-project-"
-"starters/releases/download/latest-4.x/instancing_starter.zip>`_."
-msgstr ""
-"Vamos usar o instanciamento na prática para ver como funciona no Godot. "
-"Convidamos você a baixar o projeto de amostra da bola que preparamos para "
-"você: :download:`instancing.zip <files/instancing.zip>`."
 
 msgid ""
 "Extract the archive on your computer. To import it, you need the Project "
@@ -113,34 +50,8 @@ msgstr ""
 "estiver aberto clique em *Projetos > Sair para a Lista de Projetos* (:kbd: "
 "`Ctrl + Shift + Q`, :kbd: `Ctrl + Option + Cmd + Q` no macOS)"
 
-#, fuzzy
-msgid ""
-"In the Project Manager, click the *Import* button to import the project."
-msgstr ""
-"Extraia o arquivo em seu computador. Depois, abra o Godot e no gerenciador "
-"de projetos, clique no botão Importar para importar o projeto."
-
-#, fuzzy
-msgid ""
-"In the pop-up that appears navigate to the folder you extracted. Double-"
-"click the ``project.godot`` file to open it."
-msgstr ""
-"No pop-up que aparecer, clique o botão explorar e navegue até a pasta que "
-"você extraiu."
-
 msgid "Finally, click the Import & Edit button."
 msgstr "Por fim, clique no botão Importar e Editar."
-
-#, fuzzy
-msgid ""
-"The project contains two packed scenes: ``main.tscn``, containing walls "
-"against which the ball collides, and ``ball.tscn``. The Main scene should "
-"open automatically. If you're seeing an empty 3D scene instead of the main "
-"scene, click the 2D button at the top of the screen."
-msgstr ""
-"O projeto contém duas Cenas Empacotadas: ``Main.tscn``, contendo paredes "
-"contra as quais a bola colide, e ``Ball.tscn``. A cena principal deve abrir "
-"automaticamente."
 
 msgid ""
 "Let's add a ball as a child of the Main node. In the Scene dock, select the "
@@ -161,24 +72,6 @@ msgstr "A bola vai aparecer no canto superior esquerdo da tela."
 
 msgid "Click on it and drag it towards the center of the view."
 msgstr "Clique nela e arraste-a para o centro da tela."
-
-#, fuzzy
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS). You should "
-"see it fall."
-msgstr "Aperte F5 para jogar o jogo. Você deve vê-la cair."
-
-#, fuzzy
-msgid ""
-"Now, we want to create more instances of the Ball node. With the ball still "
-"selected, press :kbd:`Ctrl + D` (:kbd:`Cmd + D` on macOS) to call the "
-"duplicate command. Click and drag to move the new ball to a different "
-"location."
-msgstr ""
-"Agora, queremos criar mais instâncias do nó Bola. Com a bola ainda "
-"selecionada, aperte :kbd:`Ctrl-D` (:kbd:`Cmd-D` no macOS) para chamar o "
-"comando duplicar. Clique e arraste para mover a nova bola para um local "
-"diferente."
 
 msgid "You can repeat this process until you have several in the scene."
 msgstr ""
@@ -205,50 +98,12 @@ msgid ""
 msgstr ""
 "Altere as propriedades de uma bola sem afetar as outras usando o Inspetor."
 
-#, fuzzy
-msgid ""
-"Change the default properties of every Ball by opening the ``ball.tscn`` "
-"scene and making a change to the Ball node there. Upon saving, all instances "
-"of the Ball in the project will see their values update."
-msgstr ""
-"Altere as propriedades padrão de cada Bola abrindo a cena ``Ball.tscn`` e "
-"fazendo uma alteração do nó Bola ali. Ao salvar, todas as instâncias da Bola "
-"no projeto terão seus valores atualizados."
-
 msgid ""
 "Changing a property on an instance always overrides values from the "
 "corresponding packed scene."
 msgstr ""
 "Mudar uma propriedade em uma instância sempre terá prioridade sobre os "
 "valores da Cena Empacotada correspondente."
-
-#, fuzzy
-msgid ""
-"Let's try this. Open ``ball.tscn`` and select the Ball node. In the "
-"Inspector on the right, click on the PhysicsMaterial property to expand it."
-msgstr ""
-"Vamos testar isso. Abra ``Ball.tscn``e selecione o nó Bola. No Inspetor à "
-"direita, clique na propriedade PhysicsMaterial para expandi-la."
-
-#, fuzzy
-msgid ""
-"Set its Bounce property to ``0.5`` by clicking on the number field, typing "
-"``0.5``, and pressing :kbd:`Enter`."
-msgstr ""
-"Defina sua propriedade Bounce como ``2`` clicando no campo numérico, "
-"digitando ``2`` e pressionando :kbd:`Enter`."
-
-#, fuzzy
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS) and notice how "
-"all balls now bounce a lot more. As the Ball scene is a template for all "
-"instances, modifying it and saving causes all instances to update "
-"accordingly."
-msgstr ""
-"Jogue o jogo pressionando :kbd:`F5` e observe como todas as bolas agora "
-"saltam muito mais. Como a cena Ball é um modelo para todas as instâncias, "
-"modificá-la e salvá-la faz com que todas as instâncias sejam atualizadas de "
-"acordo."
 
 msgid ""
 "Let's now adjust an individual instance. Head back to the Main scene by "
@@ -285,21 +140,6 @@ msgid ""
 msgstr ""
 "Rode o jogo de novo e perceba que essa bola agora caí muito mais rápida que "
 "as outras."
-
-#, fuzzy
-msgid ""
-"You may notice you are unable to change the values of the "
-"``PhysicsMaterial`` of the ball. This is because ``PhysicsMaterial`` is a "
-"resource, and needs to be made unique before you can edit it in a scene that "
-"is linking to its original scene. To make a resource unique for one "
-"instance, right-click on it in the Inspector and click Make Unique in the "
-"contextual menu."
-msgstr ""
-"Se você mudar um valor no ``PhysicsMaterial`` de uma instância, isso afetará "
-"todas as outras. Isso é porque ``PhysicsMaterial`` é um recurso, e recursos "
-"são compartilhados entre instâncias. Para fazer um recurso único para uma "
-"instância, clique nele com o botão direito no Inspetor e clique Tornar Único "
-"no menu contextual."
 
 msgid ""
 "Resources are another essential building block of Godot games we will cover "
@@ -342,16 +182,6 @@ msgstr ""
 "Você pode criar um diagrama assim para quase qualquer tipo de jogo. Cada "
 "retângulo representa uma entidade que é visível no jogo na perspectiva do "
 "jogador. As setas indicam qual cena possui qual."
-
-#, fuzzy
-msgid ""
-"Once you have a diagram, we recommend creating a scene for each element "
-"listed in it to develop your game. You'll use instancing, either by code or "
-"directly in the editor, to build your tree of scenes."
-msgstr ""
-"Depois de ter um diagrama, recomendamos criar uma cena para cada elemento "
-"listado nele para desenvolver seu jogo. Você usará instanciamento, seja por "
-"código ou diretamente no editor, para construir sua árvore de cenas."
 
 msgid ""
 "Programmers tend to spend a lot of time designing abstract architectures and "
@@ -414,14 +244,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Resumo"
-
-#, fuzzy
-msgid ""
-"Instancing, the process of producing an object from a blueprint, has many "
-"handy uses. With scenes, it gives you:"
-msgstr ""
-"Instanciar, o processo de produzir um objeto a partir de um modelo tem "
-"muitos usos úteis. Com cenas, ele lhe dá:"
 
 msgid "The ability to divide your game into reusable components."
 msgstr "A capacidade de dividir seu jogo em componentes reutilizáveis."

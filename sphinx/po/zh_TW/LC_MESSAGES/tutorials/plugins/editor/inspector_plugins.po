@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,14 +73,6 @@ msgstr ""
 "``add_inspector_plugin()`` 來新增實例。禁用外掛程式時，你應該呼叫 "
 "``remove_inspector_plugin()`` 將該實例移除。"
 
-#, fuzzy
-msgid ""
-"Here, you are loading a script and not a packed scene. Therefore you should "
-"use ``new()`` instead of ``instantiate()``."
-msgstr ""
-"因為你在這裡讀取的是腳本而不是場景包，所以應該使用 ``new()`` 而不是 "
-"``instance()``。"
-
 msgid "Interacting with the inspector"
 msgstr "產生金鑰儲存區"
 
@@ -110,33 +97,6 @@ msgstr ""
 
 msgid "This includes any :ref:`class_Resource` attached to the object."
 msgstr "要處理附加在該物件上的 :ref:`class_Resource` 也同樣如此。"
-
-#, fuzzy
-msgid ""
-"You can implement four other methods to add controls to the inspector at "
-"specific positions. The ``_parse_begin()`` and ``_parse_end()`` methods are "
-"called only once at the beginning and the end of parsing for each object, "
-"respectively. They can add controls at the top or bottom of the inspector "
-"layout by calling ``add_custom_control()``."
-msgstr ""
-"另外還有四個方法可以實作，用來往屬性面板的特定位置新增空間。"
-"``parse_begin()`` 和 ``parse_end()`` 方法顧名思義，只會在每個物件開始解析和結"
-"束解析的時候呼叫一次。在其中呼叫 ``add_custom_control()`` 就可以在屬性面板佈"
-"局的頂部或底部新增控制項。"
-
-#, fuzzy
-msgid ""
-"As the editor parses the object, it calls the ``_parse_category()`` and "
-"``_parse_property()`` methods. There, in addition to "
-"``add_custom_control()``, you can call both ``add_property_editor()`` and "
-"``add_property_editor_for_multiple_properties()``. Use these last two "
-"methods to specifically add :ref:`class_EditorProperty`-based controls."
-msgstr ""
-"編輯器解析物件時，會呼叫 ``parse_category()`` 和 ``_parse_property()`` 方法。"
-"在這兩個函式中，除了 ``add_custom_control()`` 以外，你還可以呼叫 "
-"``add_property_editor()`` 和 "
-"``add_property_editor_for_multiple_properties()``，這兩個函式是專門用來新增基"
-"於 :ref:`class_EditorProperty` 的控制項的。"
 
 msgid "Adding an interface to edit properties"
 msgstr "新增檔案至專案"

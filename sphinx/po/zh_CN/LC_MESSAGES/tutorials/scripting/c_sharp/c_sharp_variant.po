@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,99 +21,8 @@ msgid ""
 msgstr ""
 "对于 Variant 的详细解释，请参阅 :ref:`Variant <class_Variant>` 文档页面。"
 
-#, fuzzy
-msgid ""
-"``Godot.Variant`` is used to represent Godot's native :ref:`Variant "
-"<class_Variant>` type. Any :ref:`Variant-compatible type "
-"<c_sharp_variant_compatible_types>` can be converted from/to it. We "
-"recommend avoiding ``Godot.Variant`` unless it is necessary to interact with "
-"untyped engine APIs. Take advantage of C#'s type safety when possible."
-msgstr ""
-"``Godot.Variant`` 用于表示 Godot 的原生 :ref:`Variant <class_Variant>` 类型。"
-"任何与 Variant 兼容的类型都可以和它进行转换。我们建议仅在与无类型的引擎 API "
-"交互时使用 ``Godot.Variant`` 。尽可能利用 C# 的类型安全性。"
-
-msgid ""
-"Converting from a Variant-compatible C# type to ``Godot.Variant`` can be "
-"done using implicit conversions. There are also ``CreateFrom`` method "
-"overloads and the generic ``Variant.From<T>`` methods. Only the syntax is "
-"different: the behavior is the same."
-msgstr ""
-
-msgid ""
-"Implicit conversions to ``Godot.Variant`` make passing variants as method "
-"arguments very convenient. For example, the third argument of :ref:"
-"`tween_property<class_Tween_method_tween_property>` specifying the final "
-"color of the tween is a ``Godot.Variant``."
-msgstr ""
-
-msgid ""
-"Converting from ``Godot.Variant`` to a C# type can be done using explicit "
-"conversions. There are also ``Variant.As{TYPE}`` methods and the generic "
-"``Variant.As<T>`` method. All of these behave the same."
-msgstr ""
-
-msgid ""
-"The ``Variant.As{TYPE}`` methods are typically named after C# types "
-"(``Int32``), not C# keywords (``int``)."
-msgstr ""
-
-msgid ""
-"If the Variant type doesn't match the conversion target type, the "
-"consequences vary depending on the source and target values."
-msgstr ""
-
-msgid ""
-"The conversion may examine the value and return a similar but potentially "
-"unexpected value of the target type. For example, the string ``\"42a\"`` may "
-"be converted to the integer ``42``."
-msgstr ""
-
-#, fuzzy
-msgid "The default value of the target type may be returned."
-msgstr "此预设的选项的默认值."
-
-msgid "An empty array may be returned."
-msgstr ""
-
-msgid "An exception may be thrown."
-msgstr ""
-
-msgid ""
-"Converting to the correct type avoids complicated behavior and should be "
-"preferred."
-msgstr ""
-
-msgid ""
-"The ``Variant.Obj`` property returns a C# ``object`` with the correct value "
-"for any variant. This may be useful when the type of Variant is completely "
-"unknown. However, when possible, prefer more specific conversions. ``Variant."
-"Obj`` evaluates a ``switch`` on ``Variant.VariantType`` and it may not be "
-"necessary. Also, if the result is a value type, it is boxed."
-msgstr ""
-
-msgid ""
-"For example, if the potential for ``Variant.As<MyNode>()`` to throw an "
-"invalid cast exception isn't acceptable, consider using a ``Variant."
-"As<GodotObject>() is MyNode n`` type pattern instead."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Since the Variant type in C# is a struct, it can't be null. To create a "
-"\"null\" Variant, use the ``default`` keyword or the ``Godot.Variant`` "
-"parameterless constructor."
-msgstr ""
-"由于 C# 中的 Variant 类型是一个结构体，它不能为空。要创建一个 “null” "
-"Variant，使用 ``default`` 关键字或无参数构造函数。"
-
 msgid "Variant-compatible types"
 msgstr "Variant 兼容类型"
-
-msgid ""
-"A Variant-compatible type can be converted to and from a ``Godot.Variant``. "
-"These C# types are Variant-compatible:"
-msgstr ""
 
 msgid ""
 "All the `built-in value types <https://docs.microsoft.com/en-us/dotnet/"
@@ -374,17 +278,6 @@ msgstr "``PackedColorArray``"
 
 msgid "``Godot.Color[]``"
 msgstr "``Godot.Color[]``"
-
-#, fuzzy
-msgid ""
-"Godot uses 64-bit integers and floats in Variant. Smaller integer and float "
-"types such as ``int``, ``short`` and ``float`` are supported since they can "
-"fit in the bigger type. Be aware that when a conversion is performed, using "
-"the wrong type will result in potential precision loss."
-msgstr ""
-"Godot 在 Variant 中使用 64 位的整数和浮点数。较小的整数和浮点数类型，如 "
-"``int`` ， ``short`` 和 ``float`` ，也是支持的，因为它们可以放入更大的类型"
-"中。请注意，这里会进行隐式转换，所以使用错误的类型可能会导致精度损失。"
 
 msgid ""
 "Enums are supported by ``Godot.Variant`` since their underlying type is an "

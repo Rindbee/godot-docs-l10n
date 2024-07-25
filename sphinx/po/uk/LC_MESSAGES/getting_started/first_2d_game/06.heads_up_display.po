@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,19 +111,6 @@ msgstr ""
 "> Розміри шрифту\". Після того, як ви зробите це з ``ScoreLabel``, повторіть "
 "зміни для вузлів ``Message`` та ``StartButton``."
 
-#, fuzzy
-msgid ""
-"**Anchors:** ``Control`` nodes have a position and size, but they also have "
-"anchors. Anchors define the origin - the reference point for the edges of "
-"the node."
-msgstr ""
-"**Прив'язки та поля:** вузли ``Control`` мають положення та розмір, але вони "
-"також мають прив'язки (якорі) та поля. Прив'язки визначають початок "
-"координат - опорну точку для країв вузла. Поля оновлюються автоматично під "
-"час переміщення, чи зміни розміру, контрольного вузла. Вони представляють "
-"відстань від країв контрольного вузла до його прив'язки. Детальнішу "
-"інформацію дивіться :ref:`doc_design_interfaces_with_the_control_nodes`."
-
 msgid ""
 "Arrange the nodes as shown below. You can drag the nodes to place them "
 "manually, or for more precise placement, use \"Anchor Presets\"."
@@ -212,16 +194,6 @@ msgstr ""
 "Тепер ми хочемо тимчасово відображати повідомлення, наприклад, \"Get "
 "Ready\", тому додамо наступний код"
 
-#, fuzzy
-msgid ""
-"We also need to process what happens when the player loses. The code below "
-"will show \"Game Over\" for 2 seconds, then return to the title screen and, "
-"after a brief pause, show the \"Start\" button."
-msgstr ""
-"Ця функція викликається, коли гравець програє. Вона показує напис \"Game "
-"Over\" протягом 2 секунд, потім повертає екран заголовка і, після короткої "
-"паузи, покаже кнопку \"Старт\"."
-
 msgid ""
 "This function is called when the player loses. It will show \"Game Over\" "
 "for 2 seconds, then return to the title screen and, after a brief pause, "
@@ -246,15 +218,6 @@ msgstr ""
 msgid "Add the code below to ``HUD`` to update the score"
 msgstr "Додайте код нижче в ``HUD``, щоб оновити рахунок"
 
-#, fuzzy
-msgid ""
-"Connect the ``pressed()`` signal of ``StartButton`` and the ``timeout()`` "
-"signal of ``MessageTimer`` to the ``HUD`` node, and add the following code "
-"to the new functions:"
-msgstr ""
-"Підключіть сигнал ``timeout()`` від ``MessageTimer`` і сигнал ``pressed()`` "
-"від ``StartButton`` та додайте наступний код до нових функцій:"
-
 msgid "Connecting HUD to Main"
 msgstr "Підключення HUD до Main"
 
@@ -275,19 +238,6 @@ msgstr ""
 "Тепер нам потрібно підключити функції ``HUD`` до нашого скрипту ``Main``. "
 "Для цього потрібно кілька доповнень до сцени ``Main``:"
 
-#, fuzzy
-msgid ""
-"In the Node tab, connect the HUD's ``start_game`` signal to the "
-"``new_game()`` function of the Main node by clicking the \"Pick\" button in "
-"the \"Connect a Signal\" window and selecting the ``new_game()`` method or "
-"type \"new_game\" below \"Receiver Method\" in the window. Verify that the "
-"green connection icon now appears next to ``func new_game()`` in the script."
-msgstr ""
-"На вкладці Вузол приєднайте сигнал HUD ``start_game`` до функції "
-"``new_game()`` вузла Main ввівши \"new_game\" в \"Receiver Method\" у вікні "
-"\"Під'єднання сигналу\". Переконайтеся, що в скрипті поряд з ``func "
-"new_game()`` появилася зелена іконка підключення."
-
 msgid ""
 "In ``new_game()``, update the score display and show the \"Get Ready\" "
 "message:"
@@ -297,29 +247,6 @@ msgstr ""
 
 msgid "In ``game_over()`` we need to call the corresponding ``HUD`` function:"
 msgstr "У ``game_over()`` нам потрібно викликати відповідну функцію ``HUD``:"
-
-#, fuzzy
-msgid ""
-"Finally, add this to ``_on_score_timer_timeout()`` to keep the display in "
-"sync with the changing score:"
-msgstr ""
-"Нарешті, додайте це до ``_on_ScoreTimer_timeout()`` для синхронізації "
-"відображення рахунку зі зміною рахунку:"
-
-#, fuzzy
-msgid ""
-"Remember to remove the call to ``new_game()`` from ``_ready()`` if you "
-"haven't already, otherwise your game will start automatically."
-msgstr ""
-"Переконавшись, що все працює видаліть виклик ``new_game()`` з ``_ready()``."
-
-#, fuzzy
-msgid ""
-"Now you're ready to play! Click the \"Play the Project\" button. You will be "
-"asked to select a main scene, so choose ``main.tscn``."
-msgstr ""
-"Тепер ви готові грати! Натисніть кнопку \"Відтворити проєкт\". Вам буде "
-"запропоновано вибрати головну сцену, тому виберіть ``Main.tscn``."
 
 msgid "Removing old creeps"
 msgstr "Видалення старих крипів"

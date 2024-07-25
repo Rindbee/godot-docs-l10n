@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +50,7 @@ msgid ""
 msgstr ""
 "Wenn der Node in den Szenenbaum eintritt, wird er aktiv und die Engine ruft "
 "seine Methode ``_enter_tree()`` auf. Die Child-Nodes dieses Nodes dürfen "
-"noch nicht Teil der aktiven Szene sein. Da Sie Knoten aus dem Szenenbaum "
+"noch nicht Teil der aktiven Szene sein. Da Sie Nodes aus dem Szenenbaum "
 "entfernen und wieder hinzufügen können, kann diese Funktion während der "
 "Lebensdauer eines Nodes mehrere Male aufgerufen werden."
 

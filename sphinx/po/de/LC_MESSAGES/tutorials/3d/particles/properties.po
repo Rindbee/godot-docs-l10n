@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +38,6 @@ msgstr ""
 "einem bestimmten Zeitpunkt sichtbar sind. Erhöhen Sie den Wert, um mehr "
 "Partikel zu erzeugen, allerdings auf Kosten der Performance."
 
-#, fuzzy
 msgid ""
 "The ``Amount Ratio`` property is the ratio of particles compared to the "
 "amount that will be emitted. If it's less than ``1.0``, the amount of "
@@ -292,18 +286,6 @@ msgstr ""
 "Kamera verlässt, wird das Partikelsystem nicht mehr gerendert. Sie können "
 "diese Property verwenden, um die Performance zu steigern, indem Sie die Box "
 "so klein wie möglich halten."
-
-msgid ""
-"One thing to keep in mind when you set a size for the ``Visibility AABB`` is "
-"that particles that are outside of its bounds disappear instantly when it "
-"leaves the camera's field of view. This, while not technically a bug, can "
-"have a negative effect on the visual experience."
-msgstr ""
-"Eine Sache, die man beachten sollte, wenn man eine Größe für die "
-"``Sichtbarkeit AABB`` festlegt, ist, dass Partikel, die sich außerhalb der "
-"Grenzen befinden, sofort verschwinden, wenn sie das Sichtfeld der Kamera "
-"verlassen. Dies ist zwar technisch gesehen kein Fehler, kann sich aber "
-"negativ auf das visuelle Erlebnis auswirken."
 
 msgid ""
 "When the ``Local Coords`` property is checked, all particle calculations use "

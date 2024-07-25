@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,14 +31,6 @@ msgstr ""
 
 msgid "Full screen quad"
 msgstr "全屏四邊形"
-
-#, fuzzy
-msgid ""
-"One way to make custom post-processing effects is by using a viewport. "
-"However, there are two main drawbacks of using a Viewport:"
-msgstr ""
-"在:ref:`自訂後期處理教學<doc_custom_postprocessing>`中，我們介紹了如何使用 "
-"Viewport 來製作自訂的後期處理特效。使用 Viewport 有兩個主要的缺點："
 
 msgid "The depth buffer cannot be accessed"
 msgstr "無法存取深度緩衝區"
@@ -79,31 +66,6 @@ msgstr ""
 "``2``。現在，這個四邊形在世界空間中佔據了原點的位置；但是，我們希望它能隨著相"
 "機的移動而移動，這樣它就能始終覆蓋整個螢幕。為此，我們將繞過座標轉換，該轉換"
 "通過不同的座標空間轉換頂點位置，並將頂點視為已位於裁剪空間中。"
-
-#, fuzzy
-msgid ""
-"The vertex shader expects coordinates to be output in clip space, which are "
-"coordinates ranging from ``-1`` at the left and bottom of the screen to "
-"``1`` at the top and right of the screen. This is why the QuadMesh needs to "
-"have height and width of ``2``. Godot handles the transform from model to "
-"view space to clip space behind the scenes, so we need to nullify the "
-"effects of Godot's transformations. We do this by setting the ``POSITION`` "
-"built-in to our desired position. ``POSITION`` bypasses the built-in "
-"transformations and sets the vertex position in clip space directly."
-msgstr ""
-"頂點著色器希望在裁剪空間中輸出座標，即從螢幕左側和底部的 ``-1`` 到螢幕頂部和"
-"右側的 ``1`` 的座標。這就是為什麼 QuadMesh 的高度和寬度需要是 ``2``。Godot 會"
-"在幕後處理從模型到視圖空間再到剪輯空間的轉換，所以我們需要使 Godot 的轉換效果"
-"無效。我們通過設定內建 ``POSITION`` 到我們想要的座標來做到這一點。"
-"``POSITION`` 會繞過內建變換，直接設定頂點座標。"
-
-msgid ""
-"In versions of Godot earlier than 4.3, this code recommended using "
-"``POSITION = vec4(VERTEX, 1.0);`` which implicitly assumed the clip-space "
-"near plane was at ``0.0``. That code is now incorrect and will not work in "
-"versions 4.3+ as we use a \"reversed-z\" depth buffer now where the near "
-"plane is at ``1.0``."
-msgstr ""
 
 msgid ""
 "Even with this vertex shader, the quad keeps disappearing. This is due to "
@@ -265,18 +227,6 @@ msgid ""
 "Assign the same vertex shader from above and everything should look exactly "
 "the same."
 msgstr "從上面分配相同的頂點著色器, 所有內容應該看起來完全相同."
-
-#, fuzzy
-msgid ""
-"The one drawback to using an ArrayMesh over using a QuadMesh is that the "
-"ArrayMesh is not visible in the editor because the triangle is not "
-"constructed until the scene is run. To get around that, construct a single "
-"triangle Mesh in a modeling program and use that in the MeshInstance3D "
-"instead."
-msgstr ""
-"使用ArrayMesh而不是使用QuadMesh的一個缺點是ArrayMesh在編輯器中不可見, 因為在"
-"運作場景之前不會建構三角形. 為了解決這個問題, 在建模程式中建構一個三角形"
-"Mesh, 然後在MeshInstance中使用它."
 
 msgid "Translation status"
 msgstr "翻譯狀態"

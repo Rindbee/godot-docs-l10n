@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,16 +128,6 @@ msgstr ""
 msgid "Generating PCK files"
 msgstr "Générer des fichiers PCK"
 
-#, fuzzy
-msgid ""
-"In order to pack all resources of a project into a PCK file open the project "
-"and go to Project/Export and click on \"Export PCK/Zip\". Also make sure to "
-"have an export template selected while doing so."
-msgstr ""
-"Pour regrouper toutes les ressources d'un projet dans un fichier PCK, ouvrez "
-"le projet, allez dans Projet/Exportation et cliquez sur \"Exporter PCK/"
-"Zip\". Assurez-vous également d'avoir sélectionné un modèle d'exportation."
-
 msgid ""
 "Another method would be to :ref:`export from the command line "
 "<doc_command_line_tutorial_exporting>`. If the output file ends with a PCK "
@@ -179,27 +164,6 @@ msgstr ""
 "utiliseront alors les outils d'exportations intégrés à Godot pour créer un "
 "fichier PCK, comme décrit plus haut."
 
-#, fuzzy
-msgid ""
-"The developer uses Godot to build a GUI tool for adding their exact API "
-"content to a project. This Godot tool must either run on a tools-enabled "
-"build of the engine or have access to one (distributed alongside or perhaps "
-"in the original game's files). The tool can then use the Godot executable to "
-"export a PCK file from the command line with :ref:`OS.execute() "
-"<class_OS_method_execute>`. The game itself shouldn't use a tool-build of "
-"the engine (for security), so it's best to keep the modding tool and game "
-"separate."
-msgstr ""
-"Le développeur utilise Godot pour construire un outil GUI permettant "
-"d'ajouter leur contenu API exact à un projet. Cet outil Godot doit soit "
-"fonctionner sur une version du moteur compatible avec les outils, soit avoir "
-"accès à un outil (distribué à côté ou peut-être dans les fichiers du jeu "
-"original). L'outil peut alors utiliser l'exécutable Godot pour exporter un "
-"fichier PCK depuis la ligne de commande avec :ref:`OS.execute() "
-"<class_OS_method_execute>`. Il est le plus logique pour le jeu de ne pas "
-"utiliser outil de construction (pour des raisons de sécurité) et pour les "
-"outils de modding utiliser un build de moteur compatible."
-
 msgid "Opening PCK files at runtime"
 msgstr "Ouvrir des fichiers PCK à l'exécution"
 
@@ -211,23 +175,6 @@ msgstr ""
 "Pour importer un fichier PCK, on utilise un champ dans l'option de projet. "
 "L'exemple suivant attend un fichier mod.pck dans le répertoire du binaire du "
 "jeu. Le fichier PCK contient un \"mod_scene.tscn\" à sa racine."
-
-#, fuzzy
-msgid ""
-"By default, if you import a file with the same file path/name as one you "
-"already have in your project, the imported one will replace it. This is "
-"something to watch out for when creating DLC or mods. You can solve this "
-"problem by using a tool that isolates mods to a specific mods subfolder. "
-"However, it is also a way of creating patches for one's own game. A PCK file "
-"of this kind can fix the content of a previously loaded PCK."
-msgstr ""
-"Par défaut, si vous importez un fichier avec le même chemin d'accès/nom de "
-"fichier que celui que vous avez déjà dans votre projet, le fichier importé "
-"le remplacera. C'est quelque chose à surveiller lors de la création de DLC "
-"ou de mods (résolu facilement avec un outil isolant les mods vers un sous-"
-"dossier mods spécifique). Cependant, c'est aussi un moyen de créer des "
-"patches pour son propre jeu. Un fichier PCK de ce type peut fixer le contenu "
-"d'un PCK déjà chargé."
 
 msgid ""
 "To opt out of this behavior, pass ``false`` as the second argument to :ref:"
@@ -250,20 +197,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Résumé"
-
-#, fuzzy
-msgid ""
-"This tutorial explains how to add mods, patches, or DLC to a game. The most "
-"important thing is to identify how one plans to distribute future content "
-"for their game and develop a workflow that is customized for that purpose. "
-"Godot should make that process smooth regardless of which route a developer "
-"pursues."
-msgstr ""
-"Ce tutoriel devrait illustrer à quel point il est facile d'ajouter des mods, "
-"patches ou DLC à un jeu. La chose la plus importante est d'identifier "
-"comment on prévoit de distribuer le contenu futur de son jeu et de "
-"développer un flux de travail personnalisé à cette fin. Godot devrait "
-"faciliter ce processus, quelle que soit la voie empruntée par un développeur."
 
 msgid "Translation status"
 msgstr "État de la traduction"

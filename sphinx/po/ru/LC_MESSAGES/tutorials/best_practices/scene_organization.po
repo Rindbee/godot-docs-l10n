@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,16 +142,6 @@ msgstr "Инициализация ссылки на Node или другой Ob
 msgid "Initialize a NodePath."
 msgstr "Инициализация NodePath."
 
-#, fuzzy
-msgid ""
-"These options hide the points of access from the child node. This in turn "
-"keeps the child **loosely coupled** to its environment. One can reuse it in "
-"another context without any extra changes to its API."
-msgstr ""
-"Эти опции прячут точки доступа от дочернего узла. Этот ход оставляет "
-"дочерний элемент **слабо связанным** со своим окружением. Можно использовать "
-"это в другом контексте без дополнительных изменений в его API."
-
 msgid ""
 "Although the examples above illustrate parent-child relationships, the same "
 "principles apply towards all object relations. Nodes which are siblings "
@@ -233,27 +218,6 @@ msgstr ""
 "и писателям, потребуются чёткие инструкции в сообщениях, говорящие им, что "
 "делать, чтобы настроить его."
 
-#, fuzzy
-msgid ""
-"So, why does all this complex switcheroo work? Well, because scenes operate "
-"best when they operate alone. If unable to work alone, then working with "
-"others anonymously (with minimal hard dependencies, i.e. loose coupling) is "
-"the next best thing. Inevitably, changes may need to be made to a class and "
-"if these changes cause it to interact with other scenes in unforeseen ways, "
-"then things will start to break down. The whole point of all this "
-"indirection is to avoid ending up in a situation where changing one class "
-"results in adversely effecting other classes dependent on it."
-msgstr ""
-"Так почему же вся эта сложная коммутация работает? Ну, потому что сцены "
-"работают лучше всего, когда они работают в одиночку. Если нет возможности "
-"работать в одиночку, то лучше всего работать с другими анонимно (с "
-"минимальными жесткими зависимостями, т.е. свободное сопряжение). Неизбежно "
-"может возникнуть необходимость внести изменения в класс, и если эти "
-"изменения приведут к непредвиденному взаимодействию с другими сценами, то "
-"все начнёт ломаться. Смысл всей этой непрямой связи заключается в том, чтобы "
-"избежать ситуации, когда изменение одного класса приводит к негативному "
-"влиянию на другие классы, зависящие от него."
-
 msgid ""
 "Scripts and scenes, as extensions of engine classes, should abide by *all* "
 "OOP principles. Examples include..."
@@ -327,10 +291,6 @@ msgstr ""
 "быть дочерний элемент Main. Кроме того, для игры потребуется основной "
 "графический интерфейс, который управляет различными меню и виджетами, "
 "которые необходимы проекту."
-
-#, fuzzy
-msgid "Node2D/Node3D \"World\" (game_world.gd)"
-msgstr "Node2D / Пространственный \"Мир\" (game_world.gd)"
 
 msgid "Control \"GUI\" (gui.gd)"
 msgstr "Управление \"GUI\" (gui.gd)"

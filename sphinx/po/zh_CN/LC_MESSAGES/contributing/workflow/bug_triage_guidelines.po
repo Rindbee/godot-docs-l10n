@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,16 +153,6 @@ msgstr ""
 "*For PR meeting*\\ ：该问题需要在拉取请求会议中进行讨论。会议是公开的，在 "
 "`Godot 贡献者聊天 <https://chat.godotengine.org/>`_\\ 中举行。"
 
-#, fuzzy
-msgid ""
-"*Good first issue*: the issue is *assumed* to be an easy one to fix, which "
-"makes it a great fit for new contributors who want to become familiar with "
-"the code base. It should be removed while an active PR is available, that "
-"resolves this issue."
-msgstr ""
-"*Good first issue*\\ ：该问题\\ *应该*\\ 是易于修复的，非常适合想要熟悉代码库"
-"的新贡献者。"
-
 msgid ""
 "*High priority:* the issue is particularly important as it can prevent "
 "people from releasing their projects or cause data loss."
@@ -196,10 +181,6 @@ msgstr ""
 "*Performance*: 直接影响引擎或编辑器性能的问题。也可用于改善性能或增加低端友好"
 "选项的拉取请求。不应与 *Usability* 可用性结合在一起。"
 
-#, fuzzy
-msgid "*Production*: Relates to the production team."
-msgstr "*Import*\\ ：与资源导入系统有关。"
-
 msgid ""
 "*Regression*: the bug appeared after a stable release not exhibiting the bug "
 "was released."
@@ -225,21 +206,6 @@ msgid ""
 "*Usability*: issues that directly impact user usability. Should not be "
 "coupled with *Performance*."
 msgstr "*Usability*: 直接影响用户可用性的问题。不应与 *Performance* 相结合。"
-
-#, fuzzy
-msgid ""
-"The categories are used for general triage of the issues. They can be "
-"combined in some way when relevant, e.g. an issue can be labelled "
-"*Enhancement* and *Usability* at the same time if it's an issue to improve "
-"usability. Or *Feature proposal* and *Discussion* if it's a non-consensual "
-"feature request, or one that is not precise enough to be worked on. At least "
-"one of the categories *Bug*, *Enhancement* or *Discussion* is used to "
-"describe an issue or pull request."
-msgstr ""
-"这些类别用于问题的一般分类. 它们可以在相关时以某种方式组合, 例如, 如果这是一"
-"个提高可用性的问题, 则可以同时将问题标记为 *Enhancement* 和 *Usability*. 或者"
-"如果它是非自愿的功能请求, 或者不够精确的功能请求, 可以标记为 *Feature "
-"proposal* 和 *Discussion*."
 
 msgid "**Topics:**"
 msgstr "**话题：**"
@@ -356,12 +322,6 @@ msgstr ""
 msgid "**Platforms:**"
 msgstr "**平台：**"
 
-#, fuzzy
-msgid "*Android*, *iOS*, *Linux*, *macOS*, *Web*, *Windows*"
-msgstr ""
-"*Android*\\ 、\\ *HTML5*\\ 、\\ *iOS*\\ 、\\ *Linux*\\ 、\\ *macOS*\\ 、\\ "
-"*Windows*\\ 、\\ *UWP*"
-
 msgid ""
 "By default, it is assumed that a given issue applies to all platforms. If "
 "one of the platform labels is used, it is then exclusive and the previous "
@@ -387,86 +347,19 @@ msgid ""
 "*missing* information."
 msgstr "*Bug*\\ ：现有页面中的错误信息。请勿对\\ *缺失*\\ 信息使用。"
 
-msgid "*Dependencies*: describes pull requests that update a dependency file."
-msgstr ""
-
-#, fuzzy
-msgid "*Enhancement*: new information to be added in an existing page."
-msgstr "*Enhancememnt*\\ ：为现有页面加入新信息。"
-
-msgid "*Python*: Pull requests that update Python code."
-msgstr ""
-
 msgid "**Area:**"
 msgstr "**Area:**"
-
-msgid ""
-"*About*: Issues and PRs related to the About section of the documentation "
-"and other general articles."
-msgstr ""
 
 msgid ""
 "*Class reference*: the issue is about the class reference, not a "
 "documentation page."
 msgstr "*Class reference*\\ ：类参考的问题，非文档页面。"
 
-msgid ""
-"*Community*: Issues and PRs related to the Community section of the "
-"documentation."
-msgstr ""
-
-msgid ""
-"*Contributing*: Issues and PRs related to the Contributing/Development "
-"section of the documentation."
-msgstr ""
-
-msgid ""
-"*Getting started*: Issues and PRs related to the Getting Started section of "
-"the documentation."
-msgstr ""
-
-msgid ""
-"*Manual*: Issues and PRs related to the Manual/Tutorials section of the "
-"documentation."
-msgstr ""
-
 msgid "**Content:**"
 msgstr "**Content:**"
 
-msgid ""
-"*Images*: Issues and PRs involving outdated or incorrect images in articles."
-msgstr ""
-
-msgid ""
-"*New page*: Issues and PRs related to creation of new documentation pages "
-"for new or undocumented features."
-msgstr ""
-
-#, fuzzy
-msgid "*Organization*: Issues and PRs related to reorganizing the content."
-msgstr "*Organization*\\ ：这个问题涉及移动页面或者重新组织内容。"
-
-msgid ""
-"*Proofreading*: Issues and PRs related to proofreading the documentation."
-msgstr ""
-
-msgid ""
-"*Redirect*: Issues and PRs involving moving content and adding a redirect "
-"rule on the backend."
-msgstr ""
-
-msgid ""
-"*Website*: Issues related to adding website features and fixing bugs, "
-"whether on the front or back-end,"
-msgstr ""
-
 msgid "**Topic:**"
 msgstr "**Topic:**"
-
-msgid ""
-"The available topics describe the same content as the topics in the main "
-"repository."
-msgstr ""
 
 msgid "Milestones"
 msgstr "里程碑"

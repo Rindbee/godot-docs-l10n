@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,17 +24,6 @@ msgstr ""
 
 msgid "UI building blocks"
 msgstr "UI 構件"
-
-#, fuzzy
-msgid ""
-"Like everything else in Godot the user interface is built using nodes, "
-"specifically :ref:`Control <class_Control>` nodes. There are many different "
-"types of controls which are useful for creating specific types of GUIs. For "
-"simplicity we can separate them into two groups: content and layout."
-msgstr ""
-"與 Godot 中的其他所有內容一樣，使用者介面是使用節點建立的，特別是 Control "
-"<class_Control> 節點。有許多不同型別的控制項可用於建立特定型別的 GUI。為簡單"
-"起見，我們可以將它們分為兩組：內容和佈局。"
 
 msgid "Typical content controls include:"
 msgstr "典型的內容控制項有："

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -251,7 +246,6 @@ msgstr ""
 "Movie Maker kann auch über die :ref:`Kommandozeile "
 "<doc_command_line_tutorial>` aktiviert werden:"
 
-#, fuzzy
 msgid ""
 "If the output path is relative, then it is **relative to the project "
 "folder**, not the current working directory. In the above example, the file "
@@ -261,7 +255,7 @@ msgstr ""
 "Wenn der Ausgabepfad relativ ist, dann ist er **relativ zum Projektordner**, "
 "nicht zum aktuellen Arbeitsverzeichnis. Im obigen Beispiel wird die Datei "
 "nach ``/pfad/zu/ihrem_projekt/output.avi`` geschrieben. Dieses Verhalten ist "
-"vergleichbar mit dem Kommandozeilenargument ``--export``."
+"vergleichbar mit dem Kommandozeilenargument ``--export-release``."
 
 msgid ""
 "Since Movie Maker's output resolution is set by the viewport size, you can "
@@ -726,7 +720,6 @@ msgstr ""
 "<https://ffmpeg.org/>`__ (CLI) sind beliebte Open Source Tools für diesen "
 "Zweck. FFmpeg hat eine steilere Lernkurve, aber es ist leistungsfähiger."
 
-#, fuzzy
 msgid ""
 "The command below converts an AVI video to an MP4 (H.264) video with a "
 "Constant Rate Factor (CRF) of 15. This results in a relatively large file, "

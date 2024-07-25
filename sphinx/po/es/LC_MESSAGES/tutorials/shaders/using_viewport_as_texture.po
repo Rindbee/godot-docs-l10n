@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using a SubViewport as a texture"
-msgstr "Usar un Viewport como textura"
-
 msgid "Introduction"
 msgstr "Introducción"
-
-#, fuzzy
-msgid ""
-"This tutorial will introduce you to using the :ref:`SubViewport "
-"<class_SubViewport>` as a texture that can be applied to 3D objects. In "
-"order to do so, it will walk you through the process of making a procedural "
-"planet like the one below:"
-msgstr ""
-"Este tutorial te introducirá en el uso del :ref:`Viewport <class_Viewport>` "
-"como una textura que puede ser aplicada a objetos 3D. Para ello, te guiará a "
-"través del proceso de creación de un planeta procedimental como el que se "
-"muestra a continuación:"
 
 msgid ""
 "This tutorial does not cover how to code a dynamic atmosphere like the one "
@@ -43,31 +22,8 @@ msgstr ""
 "Este tutorial no cubre cómo codificar una atmósfera dinámica como la que "
 "tiene este planeta."
 
-#, fuzzy
-msgid ""
-"This tutorial assumes you are familiar with how to set up a basic scene "
-"including: a :ref:`Camera3D <class_Camera3D>`, a :ref:`light source "
-"<class_OmniLight3D>`, a :ref:`MeshInstance3D <class_MeshInstance3D>` with a :"
-"ref:`Primitive Mesh <class_PrimitiveMesh>`, and applying a :ref:"
-"`StandardMaterial3D <class_StandardMaterial3D>` to the mesh. The focus will "
-"be on using the :ref:`SubViewport <class_SubViewport>` to dynamically create "
-"textures that can be applied to the mesh."
-msgstr ""
-"Este tutorial asume que usted está familiarizado con la forma de configurar "
-"una escena básica, incluyendo: un :ref:`Camera <class_Camera>`, un :ref:"
-"`light source <class_OmniLight>`, un :ref:`Mesh Instance "
-"<class_MeshInstance>` con un :ref:`Primitive Mesh <class_PrimitiveMesh>`, y "
-"la aplicación de un :ref:`SpatialMaterial <class_SpatialMaterial>` a la "
-"malla. La atención se centrará en el uso de la :ref:`Viewport "
-"<class_Viewport>` para crear dinámicamente texturas que se pueden aplicar a "
-"la malla."
-
 msgid "In this tutorial, we'll cover the following topics:"
 msgstr "En este tutorial cubriremos los siguientes temas:"
-
-#, fuzzy
-msgid "How to use a :ref:`SubViewport <class_SubViewport>` as a render texture"
-msgstr "Cómo usar un :ref:`Viewports <class_Viewport>` como una render texture"
 
 msgid "Mapping a texture to a sphere with equirectangular mapping"
 msgstr "Mapear una textura a una esfera con mapeo equirectangular"
@@ -84,54 +40,6 @@ msgstr ""
 
 msgid "Setting up the scene"
 msgstr "Configurando la escena"
-
-#, fuzzy
-msgid "Create a new scene and add the following nodes exactly as shown below."
-msgstr "Crea un Node y anéxale el siguiente script."
-
-msgid "Go into the the MeshInstance3D and make the mesh a SphereMesh"
-msgstr ""
-
-#, fuzzy
-msgid "Setting up the SubViewport"
-msgstr "Configurando el Viewport"
-
-#, fuzzy
-msgid ""
-"Click on the :ref:`SubViewport <class_SubViewport>` node and set its size to "
-"``(1024, 512)``. The :ref:`SubViewport <class_SubViewport>` can actually be "
-"any size so long as the width is double the height. The width needs to be "
-"double the height so that the image will accurately map onto the sphere, as "
-"we will be using equirectangular projection, but more on that later."
-msgstr ""
-"A continuación, establezca el tamaño del :ref:`Viewport <class_Viewport>` a "
-"``(1024, 512)``. El :ref:`Viewport <class_Viewport>` puede ser de cualquier "
-"tamaño siempre y cuando el ancho sea el doble de la altura. El ancho debe "
-"ser el doble de la altura para que la imagen se asemeje con precisión a la "
-"esfera, ya que usaremos la proyección equidireccional, pero más sobre eso "
-"más adelante."
-
-#, fuzzy
-msgid ""
-"Next disable 3D. We will be using a :ref:`ColorRect <class_ColorRect>` to "
-"render the surface, so we don't need 3D either."
-msgstr ""
-"A continuación, deshabilite el HDR y deshabilite el 3D. No necesitamos el "
-"HDR porque la superficie de nuestro planeta no será especialmente brillante, "
-"así que los valores entre ``0`` y ``1`` estarán bien. Y usaremos un :ref:"
-"`ColorRect <class_ColorRect>` para renderizar la superficie, así que tampoco "
-"necesitamos 3D."
-
-#, fuzzy
-msgid ""
-"Select the :ref:`ColorRect <class_ColorRect>` and in the inspector set the "
-"anchors preset to ``Full Rect``. This will ensure that the :ref:`ColorRect "
-"<class_ColorRect>` takes up the entire :ref:`SubViewport "
-"<class_SubViewport>`."
-msgstr ""
-"Ponga los anclajes \"Derecha\" y \"Abajo\" en ``1``, y asegúrese de que "
-"todos los márgenes estén en ``0``. Esto asegurará que el :ref:`ColorRect "
-"<class_ColorRect>` ocupe todo el :ref:`Viewport <class_Viewport>`."
 
 msgid ""
 "Next, we add a :ref:`Shader Material <class_ShaderMaterial>` to the :ref:"
@@ -151,75 +59,8 @@ msgstr ""
 "embargo, incluso si es nuevo en con los shaders, se le proporcionará todo el "
 "código, por lo que no debería tener problemas para seguirlo."
 
-msgid ""
-"Click the dropdown menu button for the shader material and click / Edit. "
-"From here go to Shader > ``New Shader``. give it a name and click "
-"\"Create\". click the shader in the inspector to open the shader editor. "
-"Delete the default code and add the following:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"save the shader code, you'll see in the inspector that the above code "
-"renders a gradient like the one below."
-msgstr "El código de arriba muestra un gradiente como el de abajo."
-
-#, fuzzy
-msgid ""
-"Now we have the basics of a :ref:`SubViewport <class_SubViewport>` that we "
-"render to and we have a unique image that we can apply to the sphere."
-msgstr ""
-"Ahora tenemos lo básico de un :ref:`Viewport <class_Viewport>` al que "
-"renderizamos y tenemos una imagen única que podemos aplicar a la esfera."
-
 msgid "Applying the texture"
 msgstr "Aplicando la textura"
-
-#, fuzzy
-msgid ""
-"Now go into the :ref:`MeshInstance3D <class_MeshInstance3D>` and add a :ref:"
-"`StandardMaterial3D <class_StandardMaterial3D>` to it. No need for a "
-"special :ref:`Shader Material <class_ShaderMaterial>` (although that would "
-"be a good idea for more advanced effects, like the atmosphere in the example "
-"above)."
-msgstr ""
-"Ahora vamos a la :ref:`Mesh Instance <class_MeshInstance>` y añadimos un :"
-"ref:`SpatialMaterial <class_SpatialMaterial>` a ella. No es necesario un :"
-"ref:`Shader Material <class_ShaderMaterial>` especial (aunque sería una "
-"buena idea para efectos más avanzados, como la atmósfera en el ejemplo "
-"anterior)."
-
-#, fuzzy
-msgid ""
-"MeshInstance3D > GeometryInstance > Geometry > Material Override > ``New "
-"StandardMaterial3D``"
-msgstr ""
-"MeshInstance > GeometryInstance > Geometría > Material Override > ``Nuevo "
-"Material Espacial``:"
-
-msgid "Then click the dropdown for the StandardMaterial3D and click \"Edit\""
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Go to the \"Resource\" section and check the ``Local to scene`` box. Then, "
-"go to the \"Albedo\" section and click beside the \"Texture\" property to "
-"add an Albedo Texture. Here we will apply the texture we made. Choose \"New "
-"ViewportTexture\""
-msgstr ""
-"Abre la recién creada :ref:`SpatialMaterial <class_SpatialMaterial>` y baja "
-"a la sección \"Albedo\" y haz clic al lado de la propiedad \"Texture\" para "
-"añadir un Albedo Texture. Aquí aplicaremos la textura que hemos creado. "
-"Elige \"New ViewportTexture\""
-
-#, fuzzy
-msgid ""
-"Click on the ViewportTexture you just created in the inspector, then click "
-"\"Assign\". Then, from the menu that pops up, select the Viewport that we "
-"rendered to earlier."
-msgstr ""
-"Luego, en el menú que aparece, selecciona el Viewport que hemos renderizado "
-"anteriormente."
 
 msgid ""
 "Your sphere should now be colored in with the colors we rendered to the "
@@ -245,40 +86,6 @@ msgstr ""
 
 msgid "Making the planet texture"
 msgstr "Haciendo la textura del planeta"
-
-#, fuzzy
-msgid ""
-"So now, when we render to our :ref:`SubViewport <class_SubViewport>`, it "
-"appears magically on the sphere. But there is an ugly seam created by our "
-"texture coordinates. So how do we get a range of coordinates that wrap "
-"around the sphere in a nice way? One solution is to use a function that "
-"repeats on the domain of our texture. ``sin`` and ``cos`` are two such "
-"functions. Let's apply them to the texture and see what happens. Replace the "
-"existing color code in the shader with the following:"
-msgstr ""
-"Así que ahora, cuando renderizamos a nuestro :ref:`Viewport "
-"<class_Viewport>`, aparece mágicamente en la esfera. Pero hay una fea "
-"costura creada por las coordenadas de nuestra textura. Entonces, ¿cómo "
-"obtenemos un rango de coordenadas que envuelvan la esfera de una manera "
-"agradable? Una solución es usar una función que se repita en el dominio de "
-"nuestra textura. ``sin`` y ``cos`` son dos de esas funciones. Apliquémoslas "
-"a la textura y veamos qué sucede."
-
-#, fuzzy
-msgid ""
-"Not too bad. If you look around, you can see that the seam has now "
-"disappeared, but in its place, we have pinching at the poles. This pinching "
-"is due to the way Godot maps textures to spheres in its :ref:"
-"`StandardMaterial3D <class_StandardMaterial3D>`. It uses a projection "
-"technique called equirectangular projection, which translates a spherical "
-"map onto a 2D plane."
-msgstr ""
-"No está mal. Si miras alrededor, puedes ver que la costura ha desaparecido, "
-"pero en su lugar, tenemos pellizcos en los postes. Este pellizco se debe a "
-"la forma en que Godot mapea las texturas a las esferas en su :ref:"
-"`SpatialMaterial <class_SpatialMaterial>`. Utiliza una técnica de proyección "
-"llamada proyección equidireccional, que traduce un mapa esférico a un plano "
-"2D."
 
 msgid ""
 "If you are interested in a little extra information on the technique, we "
@@ -469,46 +276,6 @@ msgstr ""
 "físicamente exactos, pero son lo suficientemente buenos para esta "
 "demostración."
 
-#, fuzzy
-msgid ""
-"Next, under the \"Roughness\" section set the roughness texture to a :ref:"
-"`Viewport Texture <class_ViewportTexture>` pointing to our planet texture :"
-"ref:`SubViewport <class_SubViewport>`. Finally, set the ``Texture Channel`` "
-"to ``Alpha``. This instructs the renderer to use the ``alpha`` channel of "
-"our output ``COLOR`` as the ``Roughness`` value."
-msgstr ""
-"A continuación, en la sección \"Rugosidad\", pon ``Rugosidad`` en ``1`` y "
-"pon la textura de la rugosidad en \"ref:`Textura de Viewport "
-"<clase_ViewportTexture>\" apuntando a la textura de nuestro planeta ref:"
-"`Viewport <class_Viewport>`. Por último, establece el ``Texture Channel`` en "
-"``Alpha``. Esto instruye al renderizador para usar el canal alfa de nuestra "
-"salida ``COLOR`` como valor de ``Rugosidad``."
-
-#, fuzzy
-msgid ""
-"You'll notice that very little changes except that the planet is no longer "
-"reflecting the sky. This is happening because, by default, when something is "
-"rendered with an alpha value, it gets drawn as a transparent object over the "
-"background. And since the default background of the :ref:`SubViewport "
-"<class_SubViewport>` is opaque, the ``alpha`` channel of the :ref:`Viewport "
-"Texture <class_ViewportTexture>` is ``1``, resulting in the planet texture "
-"being drawn with slightly fainter colors and a ``Roughness`` value of ``1`` "
-"everywhere. To correct this, we go into the :ref:`SubViewport "
-"<class_SubViewport>` and enable the \"Transparent Bg\" property. Since we "
-"are now rendering one transparent object on top of another, we want to "
-"enable ``blend_premul_alpha``:"
-msgstr ""
-"Notarás que hay muy pocos cambios, excepto que el planeta ya no refleja el "
-"cielo. Esto ocurre porque, por defecto, cuando algo se representa con un "
-"valor alfa, se dibuja como un objeto transparente sobre el fondo. Y como el "
-"fondo por defecto de :ref:`Viewport <class_Viewport>` es opaco, el canal "
-"``alfa`` de :ref:`Viewport Texture <class_ViewportTexture>` es ``1``, lo que "
-"hace que la textura del planeta se dibuje con colores ligeramente más tenues "
-"y un valor ``Rugosidad`` de ``1`` en todas partes. Para corregir esto, vamos "
-"a la propiedad :ref:`Viewport <class_Viewport>` y activamos la propiedad "
-"\"Transparent Bg\". Ya que ahora estamos renderizando un objeto transparente "
-"sobre otro, queremos habilitar ``blend_premul_alpha``:"
-
 msgid ""
 "This pre-multiplies the colors by the ``alpha`` value and then blends them "
 "correctly together. Typically, when blending one transparent color on top of "
@@ -521,25 +288,6 @@ msgstr ""
 "incluso si el fondo tiene un valor ``alfa`` de ``0`` (como en este caso), "
 "terminas con extraños problemas de sangrado de color. Poner "
 "``blend_premul_alpha`` arregla eso."
-
-#, fuzzy
-msgid ""
-"Now the planet should look like it is reflecting light on the ocean but not "
-"the land. move around the :ref:`OmniLight3D <class_OmniLight3D>` in the "
-"scene so you can see the effect of the reflections on the ocean."
-msgstr ""
-"Ahora el planeta debería parecer que está reflejando luz en el océano pero "
-"no en la tierra. Si aún no lo has hecho, añade una :ref:`OmniLight "
-"<class_OmniLight>` a la escena para que puedas moverla y ver el efecto de "
-"los reflejos en el océano."
-
-#, fuzzy
-msgid ""
-"And there you have it. A procedural planet generated using a :ref:"
-"`SubViewport <class_SubViewport>`."
-msgstr ""
-"Y ahí lo tienes. Un planeta procedimental generado usando un :ref:`Viewport "
-"<class_Viewport>`."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

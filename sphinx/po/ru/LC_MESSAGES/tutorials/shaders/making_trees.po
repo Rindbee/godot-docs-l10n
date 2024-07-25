@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,41 +22,17 @@ msgstr ""
 "Это краткое руководство о том, как создавать деревья и другие виды "
 "растительности с нуля."
 
-#, fuzzy
-msgid ""
-"The aim is to not focus on the modeling techniques (there are plenty of "
-"tutorials about that), but how to make them look good in Godot."
-msgstr ""
-"Цель состоит не в том, чтобы сосредоточиться на методах моделирования (есть "
-"множество руководств по этому поводу), а в том, как заставить их хорошо "
-"выглядеть в Godot."
-
 msgid "Start with a tree"
 msgstr "Начните с дерева"
 
 msgid "I took this tree from SketchFab:"
 msgstr "Я взял это дерево из SketchFab:"
 
-msgid "https://sketchfab.com/models/ea5e6ed7f9d6445ba69589d503e8cebf"
-msgstr ""
-
 msgid "and opened it in Blender."
 msgstr "и открыл его в Blender."
 
 msgid "Paint with vertex colors"
 msgstr "Рисование цветами вершин"
-
-#, fuzzy
-msgid ""
-"The first thing you may want to do is to use the vertex colors to paint how "
-"much the tree will sway when there is wind. Just use the vertex color "
-"painting tool of your favorite 3D modeling program and paint something like "
-"this:"
-msgstr ""
-"Первое, что вы, возможно, захотите сделать, это использовать цвета вершин "
-"для рисования того, как сильно будет раскачиваться дерево при ветре. Просто "
-"используйте инструмент рисования цвета вершин в вашей любимой программе 3D-"
-"моделирования и нарисуйте что-то вроде этого:"
 
 msgid ""
 "This is a bit exaggerated, but the idea is that color indicates how much "
@@ -73,10 +44,6 @@ msgstr ""
 
 msgid "Write a custom shader for the leaves"
 msgstr "Напишите пользовательский шейдер для листьев"
-
-#, fuzzy
-msgid "This is an example of a shader for leaves:"
-msgstr "Это простой пример шейдера для листьев:"
 
 msgid ""
 "This is a spatial shader. There is no front/back culling (so leaves can be "
@@ -141,9 +108,6 @@ msgstr ""
 "прочитать. Теперь, когда вы знаете основы, рекомендуем прочитать главу из "
 "GPU Gems3 о том, как Crysis делает это (сосредоточьтесь в основном на коде "
 "sway, так как многие другие методы, показанные там, устарели):"
-
-msgid "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch16.html"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

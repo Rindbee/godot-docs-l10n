@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,19 +43,6 @@ msgstr ""
 msgid "Where to start"
 msgstr "Par où commencer"
 
-#, fuzzy
-msgid ""
-"The Godot video tutorials by `GDQuest <https://www.youtube.com/channel/"
-"UCxboW7x0jZqFdvMdCFKTMsQ/playlists>`_ are well-regarded in the community and "
-"often recommended as a gentle introduction to beginners."
-msgstr ""
-"Les tutoriels vidéo Godot de `GDQuest <https://www.youtube.com/channel/"
-"UCxboW7x0jZqFdvMdCFKTMsQ/playlists>`_, `Game from Scratch <https://www."
-"youtube.com/watch?v=iDEcP8Mc-7s&list=PLS9MbmO_ssyDk79j9ewONxV88fD5e_o5d>`_ "
-"et `KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
-"playlists>`_ sont bien considérés dans la communauté et souvent recommandés "
-"comme une introduction douce aux débutants."
-
 msgid ""
 "GDQuest's *Learn GDScript From Zero* is a free and open source interactive "
 "tutorial for absolute beginners to learn to program with Godot's GDScript "
@@ -84,141 +66,11 @@ msgstr ""
 msgid "Video tutorials"
 msgstr "Tutoriels vidéo"
 
-#, fuzzy
-msgid ""
-"`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR and VR, "
-"GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`BornCG <https://www.youtube.com/playlist?"
-"list=PLda3VoSoc_TTp8Ng3C57spnNkOw3Hm_35>`_ (2D and 3D, GDScript)"
-msgstr ""
-"`BornCG <https://www.youtube.com/playlist?"
-"list=PLda3VoSoc_TSBBOBYwcmlamF1UrjVtccZ>`_ (2D and 3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Clear Code <https://www.youtube.com/watch?v=nAh_Kx5Zh5Q>`_ (2D, GDScript, "
-"Programming Basics)"
-msgstr ""
-"`Godot Tutorials <https://www.youtube.com/channel/"
-"UCnr9ojBEQGgwbcKsZC-2rIg>`_ (2D, GDScript, Programming Basics)."
-
-#, fuzzy
-msgid ""
-"`FencerDevLog <https://www.youtube.com/@FencerDevLog>`_ (2D, 3D, GDScript, "
-"Shaders)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`FinePointCGI <https://www.youtube.com/channel/UCSojAWUnEUTUcdA9iJ6bryQ>`_ "
-"(2D, 3D, GDScript and C#)"
-msgstr ""
-"`FinePointCGI <https://www.youtube.com/channel/UCSojAWUnEUTUcdA9iJ6bryQ>`_ "
-"(2D, 3D, GDScript et C#)."
-
-#, fuzzy
-msgid ""
-"`GDQuest <https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/"
-"playlists>`_ (2D and 3D, GDScript and C#)"
-msgstr ""
-"`GDQuest <https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ/"
-"playlists>`_ (2D et 3D, GDScript, VisualScript et C#)."
-
-#, fuzzy
-msgid ""
-"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Game Development Center <https://www.youtube.com/c/GameDevelopmentCenter>`_ "
-"(2D, networked multiplayer, GDScript)"
-msgstr ""
-"`Game Development Center <https://www.youtube.com/c/GameDevelopmentCenter>`_ "
-"(2D, multijoueur en réseau, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)"
-msgstr ""
-"`Game Endeavor <https://www.youtube.com/channel/UCLweX1UtQjRjj7rs_0XQ2Eg/"
-"videos>`_ (2D, GDScript)."
-
-#, fuzzy
-msgid "`Gwizz <https://www.youtube.com/@Gwizz1027>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Godotneers <https://www.youtube.com/@godotneers>`_ (2D, Shaders, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR and VR, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D and VR, GDSCript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
-"playlists>`__ (2D and 3D, GDScript)"
-msgstr ""
-"`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
-"playlists>`__ (2D et 3D, GDScript et VisualScript)."
-
-#, fuzzy
-msgid "`Maker Tech <https://www.youtube.com/@MakerTech/>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid "`Pigdev <https://www.youtube.com/@pigdev>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Queble <https://www.youtube.com/@queblegamedevelopment4143>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
-msgstr "`Garbaj <https://www.youtube.com/c/Garbaj/>`_ (3D, GDScript)."
-
-#, fuzzy
-msgid ""
-"`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, networked "
-"multiplayer, AR and VR, GDScript)"
-msgstr ""
-"`Game Development Center <https://www.youtube.com/c/GameDevelopmentCenter>`_ "
-"(2D, multijoueur en réseau, GDScript)."
-
 msgid "Text tutorials"
 msgstr "Tutoriels texte"
 
-#, fuzzy
-msgid "`FinepointCGI website by Mitch <https://finepointcgi.io/>`__"
-msgstr "`FinepointCGI site web Mitch <http://finepointcgi.io/>`__"
-
 msgid "`GDScript website by Andrew Wilkes <https://gdscript.com>`__"
 msgstr "`GDScript site web par Andrew Wilkes <https://gdscript.com>`__"
-
-#, fuzzy
-msgid ""
-"`Godot Recipes by KidsCanCode <https://kidscancode.org/godot_recipes/4.x/>`__"
-msgstr "`Godot Recipes by KidsCanCode <http://godotrecipes.com/>`__"
 
 msgid ""
 "`Godot Tutorials by SomethingLikeGames <https://www.somethinglikegames.de/en/"
@@ -239,10 +91,6 @@ msgstr ""
 msgid "Devlogs"
 msgstr "Devlogs"
 
-#, fuzzy
-msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
-msgstr "`YouTube <https://www.youtube.com/c/GodotEngineOfficial>`_"
-
 msgid "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"
 msgstr "`DevDuck (2D) <https ://www.youtube.com/@devduck/videos>`_"
 
@@ -256,23 +104,12 @@ msgstr ""
 "`awesome-godot : Une liste de plugins, scripts et add-ons libres/gratuits "
 "<https://github.com/godotengine/awesome-godot>`_"
 
-#, fuzzy
-msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
-msgstr "`Chat des Contributeurs de Godot <https://chat.godotengine.org/>`_"
-
 msgid ""
 "`Godot Shaders: A community-driven shader library <https://godotshaders.com/"
 ">`_"
 msgstr ""
 "`Godot Shaders : Une bibliothèque de shaders pilotée par la communauté "
 "<https://godotshaders.com/>`_"
-
-msgid ""
-"`Zeef Godot Engine: A curated directory of resources by Andre Schmitz "
-"<https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
-msgstr ""
-"`Zeef Godot Engine : Un répertoire de ressources créé par Andre Schmitz "
-"<https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
 
 msgid "Translation status"
 msgstr "État de la traduction"

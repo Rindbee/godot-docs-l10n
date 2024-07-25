@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,12 +33,6 @@ msgstr ""
 
 msgid "Programming languages"
 msgstr "Linguagens de programação"
-
-#, fuzzy
-msgid "The sections below each focus on a given programming language."
-msgstr ""
-"As seções abaixo se concentram em uma determinada linguagem de programação "
-"ou, no caso do GDNative, uma interface que funciona com várias linguagens."
 
 msgid "Core features"
 msgstr "Funcionalidades principais"

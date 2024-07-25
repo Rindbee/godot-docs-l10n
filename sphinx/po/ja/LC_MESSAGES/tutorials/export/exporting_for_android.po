@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +16,6 @@ msgid "Exporting for Android"
 msgstr "Android用にエクスポート"
 
 msgid ""
-"This page describes how to export a Godot project to Android. If you're "
-"looking to compile export template binaries from source instead, read :ref:"
-"`doc_compiling_for_android`."
-msgstr ""
-
-msgid ""
 "Exporting for Android has fewer requirements than compiling Godot for "
 "Android. The following steps detail what is needed to set up the Android SDK "
 "and the engine."
@@ -35,37 +24,11 @@ msgstr ""
 "少なくなります。Android SDKとエンジンの設定方法を、以下のステップで詳しく説明"
 "します。"
 
-msgid ""
-"Projects written in C# can be exported to Android as of Godot 4.2, but "
-"support is experimental and :ref:`some limitations apply "
-"<doc_c_sharp_platforms>`."
-msgstr ""
-
-#, fuzzy
-msgid "Install OpenJDK 17"
-msgstr "OpenJDK 11のインストール"
-
-#, fuzzy
-msgid ""
-"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-msgstr ""
-"`OpenJDK 11 <https://adoptium.net/?variant=openjdk11>`__ をダウンロード、イン"
-"ストールしてください。"
-
 msgid "Download the Android SDK"
 msgstr "Android SDKをダウンロード"
 
 msgid "Download and install the Android SDK."
 msgstr "AndroidSDKをダウンロードしてインストールします。"
-
-#, fuzzy
-msgid ""
-"You can install the Android SDK using `Android Studio Hedgehog (version "
-"2023.1.1) or later <https://developer.android.com/studio/>`__."
-msgstr ""
-"`Android Studio 4.1 以降 <https://developer.android.com/studio/>`__ をインス"
-"トールします。"
 
 msgid ""
 "Run it once to complete the SDK setup using these `instructions <https://"
@@ -74,57 +37,11 @@ msgstr ""
 "`この方法 <https://developer.android.com/studio/intro/update#sdk-manager>`__ "
 "でツールの更新を行います。"
 
-msgid ""
-"Ensure that the `required packages <https://developer.android.com/studio/"
-"intro/update#recommended>`__ are installed as well."
-msgstr ""
-"`推奨パッケージ <https://developer.android.com/studio/intro/"
-"update#recommended>`__ がインストールされていることを確認してください。"
-
-#, fuzzy
-msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools バージョン 30.0.5以降"
-
-#, fuzzy
-msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools バージョン 30.0.3"
-
-#, fuzzy
-msgid "Android SDK Platform 34"
-msgstr "Android SDK Platform 29"
-
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Android SDK Command-line Tools (最新版)"
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake バージョン 3.10.2.4988404"
-
-msgid "NDK version r23c (23.2.8568313)"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Alternatively, you can install the Android SDK with the `sdkmanager` command "
-"line tool."
-msgstr ""
-"`コマンドラインツール <https://developer.android.com/studio/#command-"
-"tools>`__ でもインストールできます。"
-
-#, fuzzy
-msgid ""
-"Install the command line tools package using these `instructions <https://"
-"developer.android.com/tools/sdkmanager>`__."
-msgstr ""
-"`この方法 <https://developer.android.com/studio/intro/update#sdk-manager>`__ "
-"でツールの更新を行います。"
-
-#, fuzzy
-msgid ""
-"Once the command line tools are installed, run the following `sdkmanager` "
-"command to complete the setup process:"
-msgstr ""
-"コマンドラインツールインストール後、 `sdkmanager <https://developer.android."
-"com/studio/command-line/sdkmanager>`__ コマンドでセットアップを完了します:"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -149,35 +66,8 @@ msgstr "Androidの設定が配置されているセクションまで下にス�
 msgid "In that screen, 2 paths need to be set:"
 msgstr "この画面で、2つのファイルパスを設定する必要があります:"
 
-msgid ""
-"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``Android Sdk Path`` should be the location where the Android SDK was "
-"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
-"Users/$USER/Library/Android/sdk/`` on macOS."
-msgstr ""
-"``Android Sdk Path`` Android SDK のインストール場所。例 Windowsでは"
-"``%LOCALAPPDATA%\\Android\\Sdk\\``、 macOSでは``/Users/$USER/Library/Android/"
-"sdk/`` 。"
-
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr "設定が完了すれば、Androidにエクスポートできるようになります!"
-
-msgid ""
-"If you get an error saying *\"Could not install to device.\"*, make sure you "
-"do not have an application with the same Android package name already "
-"installed on the device (but signed with a different key)."
-msgstr ""
-
-msgid ""
-"If you have an application with the same Android package name but a "
-"different signing key already installed on the device, you **must** remove "
-"the application in question from the Android device before exporting to "
-"Android again."
-msgstr ""
 
 msgid "Providing launcher icons"
 msgstr "ランチャーアイコンの提供"
@@ -194,14 +84,6 @@ msgstr ""
 
 msgid "There are two types of icons required by Godot:"
 msgstr "Godotに必要なアイコンには2つのタイプがあります:"
-
-#, fuzzy
-msgid ""
-"**Main Icon:** The \"classic\" icon. This will be used on all Android "
-"versions up to Android 8 (Oreo), exclusive. Must be at least 192×192 px."
-msgstr ""
-"**Main Icon**: 『クラシック版』のアイコン。これはAndroid 8 (Oreo) 未満の全"
-"Androidバージョンにて使用されます。最低でも 192x192 ピクセルが必要。"
 
 msgid ""
 "**Adaptive Icons:** Starting from Android 8 (inclusive), `Adaptive Icons "
@@ -228,17 +110,6 @@ msgstr ""
 "す。Google Designが、それらのルールとアダプティブ アイコンの機能について解説"
 "する\\ `すばらしい記事を公開 <https://medium.com/google-design/designing-"
 "adaptive-icons-515af294c783>`_ (英語)しています。"
-
-#, fuzzy
-msgid ""
-"The most important adaptive icon design rule is to have your icon critical "
-"elements inside the safe zone: a centered circle with a diameter of 66dp "
-"(264 pixels on ``xxxhdpi``) to avoid being clipped by the launcher."
-msgstr ""
-"アダプティブ アイコンでの一番重要なデザインルールは、ランチャーで切り取られな"
-"いようにするため、アイコンの重要な要素をセーフゾーンの内側に配置することで"
-"す。セーフゾーンは中心から半径 66dp (``xxxhdpi``\\ で264ピクセル) の円形で"
-"す。"
 
 msgid ""
 "If you don't provide some of the requested icons, Godot will replace them "
@@ -267,16 +138,6 @@ msgstr ""
 "**Adaptive Icon Background:** 指定された背景アイコン -> デフォルトのGodot背景"
 "アイコン。"
 
-#, fuzzy
-msgid ""
-"It's highly recommended to provide all the requested icons with their "
-"specified resolutions. This way, your application will look great on all "
-"Android devices and versions."
-msgstr ""
-"要求されたアイコンを、解像度の基準を満たした上で、すべて用意することを強く推"
-"奨します。それがAndroidの全デバイスおよび全バージョンで、あなたのアプリケー"
-"ションが良く見えるようにする唯一の方法です。"
-
 msgid "Exporting for Google Play Store"
 msgstr "Google Playストア用にエクスポート"
 
@@ -287,19 +148,6 @@ msgstr ""
 "APKをGoogleのPlayストアにアップロードするには、デバッグ以外のキーストアファイ"
 "ルを使用して署名する必要があります。このようなファイルは次のように生成できま"
 "す。"
-
-#, fuzzy
-msgid ""
-"This keystore and key are used to verify your developer identity, remember "
-"the password and keep it in a safe place! It is suggested to use only upper "
-"and lowercase letters and numbers. Special characters may cause errors. Use "
-"Google's Android Developer guides to learn more about `APK signing <https://"
-"developer.android.com/studio/publish/app-signing>`__."
-msgstr ""
-"このキーストアとキーは、開発者の身元を確認し、パスワードを記憶し、安全な場所"
-"に保管するために使用されます。GoogleのAndroidデベロッパー ガイドを使用し"
-"て、\\ `APK 署名 <https://developer.android.com/studio/publish/app-"
-"signing>`_ の詳細をご覧ください。"
 
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr "次に、Android エクスポートプリセットで次のフォームに入力します:"
@@ -316,13 +164,6 @@ msgid ""
 msgstr ""
 "**Release Password:** キーパスワード。現在、キーストアのパスワードとキーのパ"
 "スワードは同じでなければならないことに注意してください。"
-
-#, fuzzy
-msgid ""
-"Don't forget to uncheck the **Export With Debug** checkbox while exporting."
-msgstr ""
-"APKの名前を選択する際は、[** Export with Debug **]チェックボックスをオフにす"
-"ることを忘れないでください。"
 
 msgid "Optimizing the APK size"
 msgstr "APKサイズの最適化"
@@ -370,66 +211,6 @@ msgstr ""
 
 msgid "Environment variables"
 msgstr "環境変数"
-
-msgid ""
-"You can use the following environment variables to set export options "
-"outside of the editor. During the export process, these override the values "
-"that you set in the export menu."
-msgstr ""
-
-#, fuzzy
-msgid "Android export environment variables"
-msgstr "環境変数"
-
-#, fuzzy
-msgid "Export option"
-msgstr "エクスポートオプション"
-
-#, fuzzy
-msgid "Environment variable"
-msgstr "環境変数"
-
-msgid "Encryption / Encryption Key"
-msgstr ""
-
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr ""
-
-msgid "Options / Keystore / Debug"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
-msgstr ""
-
-msgid "Options / Keystore / Debug User"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
-msgstr ""
-
-msgid "Options / Keystore / Debug Password"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
-msgstr ""
-
-msgid "Options / Keystore / Release"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
-msgstr ""
-
-msgid "Options / Keystore / Release User"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
-msgstr ""
-
-msgid "Options / Keystore / Release Password"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

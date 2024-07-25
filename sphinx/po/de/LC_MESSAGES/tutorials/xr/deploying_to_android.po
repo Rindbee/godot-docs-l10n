@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,6 +165,10 @@ msgid ""
 "installed correctly by checking if the export presets contain the entries "
 "described below."
 msgstr ""
+"Dies ist ab Hersteller-Plugin 2.0.3 nicht mehr erforderlich, da es jetzt "
+"GDExtension verwendet. Das Plugin wird in dieser Liste nicht mehr angezeigt. "
+"Sie können überprüfen, ob es korrekt installiert ist, indem Sie prüfen, ob "
+"die Exportvorgaben die unten beschriebenen Einträge enthalten."
 
 msgid "Creating the export presets"
 msgstr "Erstellen der Export-Vorgaben"
@@ -194,13 +193,6 @@ msgstr ""
 "z. B. **Meta Quest**. Und aktivieren Sie **Use Gradle Build**. Wenn Sie die "
 "Ein-Klick-Bereitstellung verwenden möchten (siehe unten), stellen Sie "
 "sicher, dass **Runnable** aktiviert ist."
-
-msgid ""
-"If the loader plugins were installed correctly you should find entries for "
-"the different headsets, select the entry for meta:"
-msgstr ""
-"Wenn die Loader-Plugins korrekt installiert wurden, sollten Sie Einträge für "
-"die verschiedenen Headsets finden, wählen Sie den Eintrag für Meta:"
 
 msgid "Also change the **XR Mode** to **OpenXR**."
 msgstr "Ändern Sie außerdem den **XR-Modus** in **OpenXR**."
@@ -243,8 +235,8 @@ msgid ""
 msgstr ""
 "Der Mobile Vulkan-Renderer bietet zwar viele Optimierungen für mobile "
 "Geräte, aber wir arbeiten noch an kleinen Macken. Es ist sehr ratsam, im "
-"Moment noch den Kompatibilität-Renderer zu verwenden (OpenGL), wenn Sie auf "
-"Android-basierte XR-Geräte abzielen."
+"Moment noch den Kompatibilität-Renderer zu verwenden (OpenGL), wenn Sie für "
+"Android-basierte XR-Geräte entwickeln."
 
 msgid "Running on your device from the Godot editor"
 msgstr "Ausführung auf Ihrem Gerät vom Godot-Editor aus"

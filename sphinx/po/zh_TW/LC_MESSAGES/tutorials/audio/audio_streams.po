@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,15 +41,6 @@ msgstr ""
 "是從檔案系統載入. 音訊檔可以作為AudioStreams載入並放置在AudioStreamPlayer中. "
 "你可以在 :ref:`doc_importing_audio_samples` 中找到有關支援的格式和格式差異的"
 "資訊."
-
-msgid ""
-"There are other types of AudioStreams, such as AudioStreamRandomPitch. This "
-"one makes a random adjustment to the sound's pitch every time it's played "
-"back. This can be helpful for adding variation to sounds that are played "
-"back often."
-msgstr ""
-"AudioStream有不同的型別, 例如AudioStreamRandomPitch, 它在每次播放聲音時隨機調"
-"整音高(對於某些音效非常有用), 可以為頻繁播放的聲音增加一些變化."
 
 msgid "AudioStreamPlayer"
 msgstr "AudioStreamPlayer"
@@ -100,45 +86,12 @@ msgstr ""
 "螢幕的位置, 它可以將聲音定位在身歷聲(5.1或7.1)中, 具體取決於所選的音訊設定."
 
 msgid ""
-"Similar to AudioStreamPlayer2D, an Area can divert the sound to an audio bus."
-msgstr "類似AudioStreamPlayer2D,Area可以將聲音轉移到音訊匯流排上."
-
-msgid ""
 "Unlike for 2D, the 3D version of AudioStreamPlayer has a few more advanced "
 "options:"
 msgstr "與2D不同,AudioStreamPlayer的3D版本有一些更高級的選項:"
 
 msgid "Reverb buses"
 msgstr "混響匯流排"
-
-msgid ""
-"Godot allows for 3D audio streams that enter a specific Area node to send "
-"dry and wet audio to separate buses. This is useful when you have several "
-"reverb configurations for different types of rooms. This is done by enabling "
-"this type of reverb in the **Reverb Bus** section of the Area's properties:"
-msgstr ""
-"Godot允許進入特定Area節點的3D音訊流將幹音訊和濕音訊發送到不同的匯流排上. 當你"
-"為不同型別的房間設定不同的混響配置時十分有用. 這是通過在Area屬性的 **Reverb "
-"Bus** 部分中啟用此類混響來實作的:"
-
-msgid ""
-"At the same time, a special bus layout is created where each area receives "
-"the reverb info from each area. A Reverb effect needs to be created and "
-"configured in each reverb bus to complete the setup for the desired effect:"
-msgstr ""
-"同時, 還建立了一個特殊的匯流排佈局, 每個區域都接收各自的混響資訊. 最後需要在"
-"每條匯流排中建立並配置一個實際的混響效果, 才能完成所需效果的設定:"
-
-msgid ""
-"The Area's **Reverb Bus** section also has a parameter named **Uniformity**. "
-"Some types of rooms bounce sounds more than others (like a warehouse), so "
-"reverberation can be heard almost uniformly across the room even though the "
-"source may be far away. Playing around with this parameter can simulate that "
-"effect."
-msgstr ""
-"Area的 **Reverb Bus** 部分還有一個名為 **Uniformity** (均勻性)的參數. 有些型"
-"別的房間比其他型別的房間反彈的聲音更多(例如倉庫), 因此即使聲源離得很遠, 也能"
-"在整個房間裡聽到幾乎均勻的混響. 調整此參數可以模擬這種效果."
 
 msgid "Doppler"
 msgstr "多普勒"

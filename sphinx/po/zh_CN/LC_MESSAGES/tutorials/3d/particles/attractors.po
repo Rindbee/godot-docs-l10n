@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,18 +48,6 @@ msgstr ""
 "ParticleProcesMaterial上。让每一颗粒子都能对吸引器作出反应。 和Godot的大多数"
 "功能一样,你也可以在运行时更改它。"
 
-#, fuzzy
-msgid "Common properties"
-msgstr "常用灯光属性"
-
-#, fuzzy
-msgid "Common particle attractor properties"
-msgstr "常用灯光属性"
-
-#, fuzzy
-msgid "Common attractor properties"
-msgstr "常用灯光属性"
-
 msgid ""
 "There are some properties that you can find on all attractors. They're "
 "located in the ``GPUParticlesAttractor3D`` section in the inspector."
@@ -97,10 +80,6 @@ msgstr ""
 "个粒子在边界和中心的中间，吸引器的强度将是它在中心的一半。不同的曲线形状改变"
 "粒子加速吸引子的速度。"
 
-#, fuzzy
-msgid "Different attractor attenuation curves"
-msgstr "支持不同角色区域权限"
-
 msgid ""
 "Strength increase variations: constantly over the distance to the attractor "
 "(left), fast at the boundary border and slowly at the center (middle), "
@@ -122,10 +101,6 @@ msgstr ""
 "子被拉向吸引子的中心。在“1.0”时，吸引子是完全定向的，这意味着粒子将沿着吸引子"
 "的局部“Z”轴被牵引。你可以通过旋转吸引子改变全局方向。如果“强度”为负，粒子就沿"
 "着“+Z”轴被牵引。"
-
-#, fuzzy
-msgid "Different attractor directionality values"
-msgstr "获取一个随机字典值"
 
 msgid ""
 "No directionality (left) vs. full directionality (right). Notice how the "
@@ -151,10 +126,6 @@ msgid ""
 msgstr ""
 "有一个“已知问题<https://github.com/godotengine/Godot/issues/61014>_与GPU粒子"
 "吸引器，阻止剔除遮罩在Godot 4.0中正常工作。”我们将更新文件，一旦它是固定的。"
-
-#, fuzzy
-msgid "Box attractors"
-msgstr "盒装吸引器"
 
 msgid "Particle attractor box"
 msgstr "粒子吸引子箱"
@@ -182,25 +153,13 @@ msgstr ""
 "择'GPUParticlesAttractorBox3D'。你可以移动框的位置或附加到移动节点，以获得更"
 "多的动态效果。"
 
-#, fuzzy
-msgid "Box attractor parts particle field"
-msgstr "盒子吸引器部件"
-
 msgid ""
 "A box attractor with a negative strength value parts a particle field as it "
 "moves through it."
 msgstr "具有负强度值的盒吸引子在粒子场运动时分割粒子场。"
 
-#, fuzzy
-msgid "Sphere attractors"
-msgstr "运算符"
-
 msgid "Particle attractor sphere"
 msgstr "粒子吸引子球"
-
-#, fuzzy
-msgid "Sphere attractor in the node list"
-msgstr "设置节点"
 
 msgid ""
 "Sphere attractors have a spherical influence region. You control their size "

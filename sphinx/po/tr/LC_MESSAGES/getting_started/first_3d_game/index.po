@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,14 +80,6 @@ msgid "And more."
 msgstr "Ve daha fazlası."
 
 msgid ""
-"This tutorial is for beginners who followed the complete getting started "
-"series. We'll start slow with detailed instructions and shorten them as we "
-"do similar steps. If you're an experienced programmer, you can browse the "
-"complete demo's source code here: `Squash the Creep source code <https://"
-"github.com/godotengine/godot-3d-dodge-the-creeps>`__."
-msgstr ""
-
-msgid ""
 "You can follow this series without having done the 2D one. However, if "
 "you're new to game development, we recommend you to start with 2D. 3D game "
 "code is always more complex and the 2D series will give you foundations to "
@@ -102,12 +89,6 @@ msgstr ""
 "geliştirmeye yeni başlıyorsanız, 2B ile başlamanızı öneriyoruz. 3B oyunu "
 "kodlamak her zaman daha karmaşıktır ve 2B serisi size, daha rahat takip "
 "edebilmeniz için gereken temelleri verecektir."
-
-msgid ""
-"We prepared some game assets so we can jump straight to the code. You can "
-"download them here: `Squash the Creeps assets <https://github.com/"
-"godotengine/godot-3d-dodge-the-creeps/releases/tag/1.1.0>`__."
-msgstr ""
 
 msgid ""
 "We will first work on a basic prototype for the player's movement. We will "

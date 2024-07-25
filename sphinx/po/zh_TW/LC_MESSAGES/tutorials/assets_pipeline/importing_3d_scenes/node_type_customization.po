@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "Node type customization using name suffixes"
-msgstr ""
 
 msgid ""
 "Many times, when editing a scene, there are common tasks that need to be "
@@ -30,28 +22,6 @@ msgstr "為物件加上碰撞偵測。"
 
 msgid "Setting objects as navigation meshes."
 msgstr "將物件設為導覽網格。"
-
-#, fuzzy
-msgid ""
-"Deleting nodes that are not used in the game engine (like specific lights "
-"used for modeling)."
-msgstr "刪除遊戲引擎中未使用到的節點 (如用於建模的特定光照)。"
-
-#, fuzzy
-msgid ""
-"To simplify this workflow, Godot offers several suffixes that can be added "
-"to the names of the objects in your 3D modeling software. When imported, "
-"Godot will detect suffixes in object names and will perform actions "
-"automatically."
-msgstr ""
-"為了簡化此一工作流程，Godot 提供了一些可以在 3D 建模軟體中放在物件名稱後的後"
-"置詞。匯入時，Godot 會偵測出這些名稱後置詞並自動執行操作。"
-
-#, fuzzy
-msgid ""
-"All the suffixes described below can be used with ``-``, ``$``, and ``_`` "
-"and are **case-insensitive**."
-msgstr "下方介紹的所有後置詞都 **有區分大小寫** 。"
 
 msgid "Remove nodes (-noimp)"
 msgstr "刪除節點 (-noimp)"
@@ -177,16 +147,6 @@ msgid ""
 "See :ref:`doc_collision_shapes_3d` for a comprehensive overview of collision "
 "shapes."
 msgstr "有關碰撞區域更全面的概覽，請參考 :ref:`doc_collision_shapes_3d` 。"
-
-msgid "Create Occluder (-occ, -occonly)"
-msgstr ""
-
-msgid ""
-"If a mesh is imported with the ``-occ`` suffix an :ref:`class_occluder3D` "
-"node will be created based on the geometry of the mesh, it does not replace "
-"the mesh. A mesh node with the ``-occonly`` suffix will be converted to an :"
-"ref:`class_occluder3D` on import."
-msgstr ""
 
 msgid "Create navigation (-navmesh)"
 msgstr "建立導覽 (-navmesh)"

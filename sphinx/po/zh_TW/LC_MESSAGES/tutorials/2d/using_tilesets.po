@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,35 +122,6 @@ msgstr ""
 "如果依賴於自動圖塊建立（就像我們即將要做的那樣），您必須在建立*合集***之前**"
 "設定圖塊大小。合集將確定哪些圖塊可以新增到TileMap節點（因為並不是圖像的每一個"
 "部分都是有效的圖塊）。"
-
-msgid ""
-"Open the **TileSet** panel at the bottom of the editor, then click the \"+\" "
-"icon in the bottom-left corner to add a new atlas:"
-msgstr ""
-"在編輯器底部面板中點擊 **TileSet**，然後點擊左下角的“+”號圖片按鈕增加一個新的"
-"合集："
-
-msgid "Creating a new atlas in a TileSet resource using the bottom panel"
-msgstr "使用底部面板來給 TileSet 建立一個新合集"
-
-msgid ""
-"After creating an atlas, you must assign a tilesheet texture to it. This can "
-"be done by choosing it on the left column of the bottom panel, then clicking "
-"the value of the **Texture** property and choosing **Quick Load** (or "
-"**Load**). Specify the path to the image file using the file dialog that "
-"appears."
-msgstr ""
-"建立合集之後，你必須為其分配圖塊表。在底部面板的左欄中選中合集，然後點擊**紋"
-"理**屬性的值，選擇**快速載入**（或**載入**）。請在顯示的檔對話方塊中指定影像"
-"檔的路徑。"
-
-msgid "Loading a tilesheet image in the newly created TileSet atlas"
-msgstr "為新建立的 TileSet 合集載入圖塊表圖像"
-
-msgid ""
-"After specifying a valid image, you will be asked whether to create tiles "
-"automatically. Answer **Yes**:"
-msgstr "指定有效的圖像後，會問你要不要自動建立圖塊。請回答**是**："
 
 msgid "Automatically creating tiles based on tilesheet image content"
 msgstr "根據圖塊表圖像內容自動建立圖塊"
@@ -884,12 +850,6 @@ msgstr ""
 "色。這就可以使用 *備選圖塊* 來實作。"
 
 msgid ""
-"Since Godot 4.2, you don't have to create alternative tiles to rotate or "
-"flip tiles anymore. You can rotate any tile while placing it in the TileMap "
-"editor by using the rotation/flip buttons in the TileMap editor toolbar."
-msgstr ""
-
-msgid ""
 "To create an alternative tile, right-click a base tile in the atlas "
 "displayed by the TileSet editor, then choose **Create an Alternative Tile**:"
 msgstr ""
@@ -943,15 +903,6 @@ msgstr "**Rendering > Flip H:** 如果為``true``，則圖塊水平翻轉。"
 
 msgid "**Rendering > Flip V:** If ``true``, the tile is vertically flipped."
 msgstr "**Rendering > Flip V:**，如果為``true``，則磁貼垂直翻轉。"
-
-msgid ""
-"**Rendering > Transpose:** If ``true``, the tile is rotated 90 degrees "
-"*counter-clockwise* and then flipped vertically. In practice, this means "
-"that to rotate a tile by 90 degrees clockwise without flipping it, you "
-"should enable **Flip H** and **Transpose**. To rotate a tile by 180 degrees "
-"clockwise, enable **Flip H** and **Flip V**. To rotate a tile by 270 degrees "
-"clockwise, enable **Flip V** and **Transpose**."
-msgstr ""
 
 msgid ""
 "**Rendering > Texture Origin:** The origin to use for drawing the tile. This "

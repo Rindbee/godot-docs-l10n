@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,16 +52,6 @@ msgstr ""
 
 msgid "Language specification"
 msgstr "語言規範"
-
-#, fuzzy
-msgid ""
-"Godot currently uses **C# version 10.0** in its engine and example source "
-"code, as this is the version supported by .NET 6.0 (the current baseline "
-"requirement). So, before we move to a newer version, care must be taken to "
-"avoid mixing language features only available in C# 11.0 or later."
-msgstr ""
-"Godot 目前在引擎與範例程式碼中使用 **7.0 版 C#**。因此，在 Godot 改為使用新版"
-"本前，應避免混用 C# 7.1 版或更新版本才有的功能。"
 
 msgid ""
 "For detailed information on C# features in different versions, please see "
@@ -208,11 +193,6 @@ msgid ""
 "After a single-line comment symbol (``//``), and before it if used at the "
 "end of a line."
 msgstr "單行註解符號 (``//``) 之後，若用於行尾則應在前方也插入空白。"
-
-msgid ""
-"After the opening brace, and before the closing brace in a single line "
-"initializer."
-msgstr ""
 
 msgid "Do not use a space:"
 msgstr "下列情況不使用空白字元："

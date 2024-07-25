@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -474,17 +469,6 @@ msgid ""
 msgstr ""
 "Estamos llamando a una función indefinida, ``mob.squash()``. Tenemos que "
 "agregarla a la clase Mob."
-
-msgid ""
-"Open the script ``Mob.gd`` by double-clicking on it in the *FileSystem* "
-"dock. At the top of the script, we want to define a new signal named "
-"``squashed``. And at the bottom, you can add the squash function, where we "
-"emit the signal and destroy the mob."
-msgstr ""
-"Abre el script ``Mob.gd`` haciendo doble clic en él en el panel *Sistema de "
-"Archivos*. En la parte superior del script, queremos definir una nueva señal "
-"llamada ``squashed``. Y en la parte inferior, puedes agregar la función "
-"squash, donde emitimos la señal y destruimos el enemigo."
 
 msgid ""
 "When using C#, Godot will create the appropriate events automatically for "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,17 +45,6 @@ msgstr ""
 "parámetros locales usan camelCase (Ver :ref:`doc_c_sharp_styleguide`). Ten "
 "cuidado de escribir los nombres de los métodos de manera precisa al conectar "
 "señales."
-
-#, fuzzy
-msgid ""
-"Right-click the ``Player`` node and select *Attach Script* to add a new "
-"script to it. In the popup, set the *Template* to *Empty* before pressing "
-"the *Create* button. We set it to *Empty* because we want to write our own "
-"code for player movement."
-msgstr ""
-"Haz clic derecho en el nodo ``Player`` y selecciona *Añadir Script* para "
-"agregar un nuevo script. En la ventana emergente, establece la *Plantilla* a "
-"*Empty* antes de hacer clic en el botón *Crear*."
 
 msgid "|image0|"
 msgstr "|image0|"
@@ -223,9 +207,6 @@ msgstr ""
 msgid "And that's all the code you need to move the character on the floor."
 msgstr "Y esto es todo el código necesario para mover el personaje en el piso."
 
-msgid "Here is the complete ``Player.gd`` code for reference."
-msgstr "Aquí está el código completo de ``Player.gd`` como referencia."
-
 msgid "Testing our player's movement"
 msgstr "Probando el movimiento de nuestro personaje"
 
@@ -283,37 +264,11 @@ msgstr ""
 msgid "Adding a camera"
 msgstr "Agregando una cámara"
 
-#, fuzzy
-msgid ""
-"Let's add the camera next. Like we did with our *Player*\\ 's *Pivot*, we're "
-"going to create a basic rig. Right-click on the ``Main`` node again and "
-"select *Add Child Node*. Create a new :ref:`Marker3D <class_Marker3D>`, and "
-"name it ``CameraPivot``. Select ``CameraPivot`` and add a child node :ref:"
-"`Camera3D <class_Camera3D>` to it. Your scene tree should look similar to "
-"this."
-msgstr ""
-"Agreguemos una cámara. Como lo hicimos con nuestro *Player*\\ 's *Pivot*, "
-"vamos a crear un rig básico. Haz click derecho en el nodo ``Main`` otra vez "
-"y selecciona *Add Child Node*.Crea un nuevo :ref:`Marker3D "
-"<class_Marker3D>`, nómbralo ``CameraPivot``. Selecciona ``CameraPivot`` y "
-"añade un nodo :ref:`Camera3D <class_Camera3D>` como hijo de esta. El árbol "
-"de la escena debería verse así."
-
 msgid "|image3|"
 msgstr "|image3|"
 
 msgid "image3"
 msgstr "|image3|"
-
-#, fuzzy
-msgid ""
-"Notice the *Preview* checkbox that appears in the top-left of the 3D view "
-"when you have the *Camera* selected. You can click it to preview the in-game "
-"camera projection."
-msgstr ""
-"Observa la casilla de selección *preview* que aparece en la parte superior "
-"izquierda donde tienes la *Camera* seleccionada. Puedes hacer click en ella "
-"para previsualizar la proyección de la cámara dentro del juego."
 
 msgid "|image4|"
 msgstr "|image4|"
@@ -363,14 +318,6 @@ msgstr "|image6|"
 
 msgid "image6"
 msgstr "image6"
-
-#, fuzzy
-msgid ""
-"In the top view, make sure your *Camera3D* is selected and move the camera "
-"about ``19`` units on the Z axis (drag the blue arrow)."
-msgstr ""
-"En la vista superior, mueve la cámara aproximadamente ``19``unidades en el "
-"eje Z (el azul)."
 
 msgid "|image7|"
 msgstr "|image7|"

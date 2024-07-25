@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -254,23 +249,26 @@ msgstr ""
 "OpenGL Settings**\\ ，然后取消选中 **Enable Graphics API Visual "
 "Indicator**\\ 。"
 
-#, fuzzy
 msgid ""
 "A microphone or \"refresh\" icon appears in the bottom-right corner of the "
 "Project Manager and editor window"
-msgstr "在项目管理器和编辑器窗口的左上角出现“NO DC”之类的文本"
+msgstr "在项目管理器和编辑器窗口右下角出现一个麦克风或刷新的图标"
 
 msgid ""
 "This is caused by the NVIDIA graphics driver injecting an overlay to display "
 "instant replay information on ShadowPlay recording. This overlay can only be "
 "seen on Windows, as Linux does not have support for ShadowPlay."
 msgstr ""
+"这是由于NVIDIA图形驱动程序注入覆盖以显示ShadowPlay录制的即时重播信息造成的。"
+"此覆盖只能在Windows上看到，因为Linux不支持ShadowPlay。"
 
 msgid ""
 "To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
 "NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
 "the NVIDIA overlay."
 msgstr ""
+"要禁用此覆盖，请按：kbd: `Alt+Z`（NVIDIA覆盖的默认快捷方式）并在NVIDIA覆盖中"
+"禁用**设置>HUD布局>状态指示器。"
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "编辑器或项目显示得过于锐利或模糊"

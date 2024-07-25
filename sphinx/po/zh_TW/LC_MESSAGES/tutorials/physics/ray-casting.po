@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,20 +72,6 @@ msgstr ""
 
 msgid "Accessing space"
 msgstr "獲取空間"
-
-#, fuzzy
-msgid ""
-"Godot physics runs by default in the same thread as game logic, but may be "
-"set to run on a separate thread to work more efficiently. Due to this, the "
-"only time accessing space is safe is during the :ref:`Node."
-"_physics_process() <class_Node_private_method__physics_process>` callback. "
-"Accessing it from outside this function may result in an error due to space "
-"being *locked*."
-msgstr ""
-"Godot物理預設與遊戲邏輯運作在同一個執行緒中, 但可以設定為在一個單獨的執行緒上"
-"運作, 以便更高效地工作. 由於這一點, 只有在 :ref:`Node._physics_process() "
-"<class_Node_method__physics_process>` 回呼函式期間存取空間才是安全的. 從這個"
-"函式之外存取它可能會因為空間被 *鎖定* 而導致錯誤."
 
 msgid ""
 "To perform queries into physics space, the :ref:`PhysicsDirectSpaceState2D "

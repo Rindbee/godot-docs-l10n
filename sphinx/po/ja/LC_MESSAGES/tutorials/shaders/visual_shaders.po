@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,14 +31,6 @@ msgstr ""
 "のシェーダーと比較してさらに多くの利便性を提供します。一方、VisualShaderは"
 "シェーダースクリプトのすべての機能を公開するわけではなく、特定の効果のために"
 "両方を同時に使用する必要がある場合があります。"
-
-#, fuzzy
-msgid ""
-"If you are not familiar with shaders, start by reading :ref:"
-"`doc_introduction_to_shaders`."
-msgstr ""
-"シェーダーに慣れていない場合は、\\ :ref:`doc_what_are_shaders` を読むことから"
-"始めてください。"
 
 msgid "Creating a VisualShader"
 msgstr "VisualShader(ビジュアルシェーダー)の作成"
@@ -218,10 +205,6 @@ msgstr "スカラー"
 msgid "vector"
 msgstr "ベクトル"
 
-#, fuzzy
-msgid "boolean"
-msgstr "\\ bool"
-
 msgid "transform"
 msgstr "トランスフォーム"
 
@@ -241,7 +224,7 @@ msgid "Description"
 msgstr "説明"
 
 msgid "Example"
-msgstr "例"
+msgstr "サンプル"
 
 msgid "Scalar"
 msgstr "スカラー"

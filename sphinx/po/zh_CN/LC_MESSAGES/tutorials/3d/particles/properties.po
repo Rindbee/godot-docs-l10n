@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,20 +34,6 @@ msgid ""
 msgstr ""
 "``Amount`` 属性控制着在任何时间下可见粒子的最大数量。增加这个值将会在消耗性能"
 "的同时生成更多的粒子。"
-
-#, fuzzy
-msgid ""
-"The ``Amount Ratio`` property is the ratio of particles compared to the "
-"amount that will be emitted. If it's less than ``1.0``, the amount of "
-"particles emitted through the lifetime will be the ``Amount`` * ``Amount "
-"Ratio``. Changing this value while emitted doesn't affect already created "
-"particles and doesn't cause the particle system to restart. It's useful for "
-"making effects where the number of emitted particles varies over time."
-msgstr ""
-"``Amount Ratio`` 属性是粒子与即将发射的粒子数量的比例。如果它小于 "
-"``1.0``\\ ，则生命周期内发射的粒子数量将为 ``Ammount`` * ``Amount "
-"Ratio``\\ 。发射后更改此数值不会影响已创建的粒子，也不会导致粒子系统重新启"
-"动。对于制作发射粒子的数量随时间变化的效果来说这个属性很有用。"
 
 msgid ""
 "You can set another particle node as a ``Sub Emitter``, which will be "
@@ -240,16 +221,6 @@ msgstr ""
 "``Visibility AABB`` 属性定义了一个围绕粒子系统原点的盒子。只要这个盒子的任意"
 "部分在相机的视野内，粒子系统就是可见的，一旦离开相机视野，粒子系统将停止渲"
 "染，可以尽可能使盒子较小来提高性能。"
-
-msgid ""
-"One thing to keep in mind when you set a size for the ``Visibility AABB`` is "
-"that particles that are outside of its bounds disappear instantly when it "
-"leaves the camera's field of view. This, while not technically a bug, can "
-"have a negative effect on the visual experience."
-msgstr ""
-"设置 ``Visibility AABB`` 的大小时，需要注意的一点是，当粒子系统离开相机视野"
-"时，超出其边界的粒子会立即消失。虽然这不是技术上的错误，但可能带来不好的视觉"
-"体验。"
 
 msgid ""
 "When the ``Local Coords`` property is checked, all particle calculations use "

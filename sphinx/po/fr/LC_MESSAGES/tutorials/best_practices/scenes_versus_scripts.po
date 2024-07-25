@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,19 +69,6 @@ msgstr ""
 msgid "Named types"
 msgstr "Types nommés"
 
-#, fuzzy
-msgid ""
-"Scripts can be registered as a new type within the editor itself. This "
-"displays it as a new type in the node or resource creation dialog with an "
-"optional icon. This way, the user's ability to use the script is much more "
-"streamlined. Rather than having to..."
-msgstr ""
-"Dans certains cas, un utilisateur peut enregistrer un script comme un "
-"nouveau type dans l'éditeur lui-même. Il s'affiche sous la forme d'un "
-"nouveau type dans la boîte de dialogue de création de nœud ou de ressource "
-"avec une icône facultative. Dans ces cas, la capacité de l'utilisateur à "
-"utiliser le script est beaucoup plus simple. Plutôt que d'avoir à..."
-
 msgid "Know the base type of the script they would like to use."
 msgstr "Connaître le type de base du script qu'ils aimeraient utiliser."
 
@@ -95,17 +77,6 @@ msgstr "Créez une instance de ce type de base."
 
 msgid "Add the script to the node."
 msgstr "Ajoutez le script au nœud."
-
-#, fuzzy
-msgid ""
-"With a registered script, the scripted type instead becomes a creation "
-"option like the other nodes and resources in the system. The creation dialog "
-"even has a search bar to look up the type by name."
-msgstr ""
-"Avec un script enregistré, le type de script devient une option de création "
-"comme les autres nœuds et ressources du système. Il n'est pas nécessaire "
-"d'effectuer les travaux ci-dessus. La boite de dialogue de création a même "
-"une barre de recherche pour rechercher le type par nom."
 
 msgid "There are two systems for registering types:"
 msgstr "Il y a deux systèmes d’enregistrement des types :"
@@ -303,16 +274,6 @@ msgstr ""
 "Si l'on souhaite créer un concept propre à son jeu, il doit toujours s'agir "
 "d'une scène. Les scènes sont plus faciles à suivre/modifier et offrent plus "
 "de sécurité que les scripts."
-
-#, fuzzy
-msgid ""
-"If one would like to give a name to a scene, then they can still sort of do "
-"this by declaring a script class and giving it a scene as a constant. The "
-"script becomes, in effect, a namespace:"
-msgstr ""
-"Si l'on veut donner un nom à une scène, alors ils peuvent toujours le faire "
-"dans 3.1 en déclarant une classe de script et en lui donnant une scène comme "
-"une constante. Le script devient, en effet, un espace de noms :"
 
 msgid "Translation status"
 msgstr "État de la traduction"

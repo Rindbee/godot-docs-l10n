@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,65 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using MultiMeshInstance3D"
-msgstr "Utilisation de MultiMeshInstance"
-
 msgid "Introduction"
 msgstr "Introduction"
 
-#, fuzzy
-msgid ""
-"In a normal scenario, you would use a :ref:`MeshInstance3D "
-"<class_MeshInstance3D>` node to display a 3D mesh like a human model for the "
-"main character, but in some cases, you would like to create multiple "
-"instances of the same mesh in a scene. You *could* duplicate the same node "
-"multiple times and adjust the transforms manually. This may be a tedious "
-"process and the result may look mechanical. Also, this method is not "
-"conducive to rapid iterations. :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>` is one of the possible solutions to this "
-"problem."
-msgstr ""
-"Dans un scénario normal, vous utiliseriez un nœud :ref:`MeshInstance "
-"<class_MeshInstance>` pour afficher un maillage 3D comme un modèle humain "
-"pour le personnage principal, mais dans certains cas, vous voudriez créer "
-"plusieurs instances du même maillage dans une scène. Vous pouvez dupliquer "
-"le même nœud plusieurs fois et ajuster les transformations manuellement. Ce "
-"processus peut être fastidieux et le résultat peut sembler mécanique. De "
-"plus, cette méthode n'est pas propice aux itérations rapides : :ref:"
-"`MultiMeshInstance <class_MultiMeshInstance>` est une des solutions "
-"possibles à ce problème."
-
-#, fuzzy
-msgid ""
-"MultiMeshInstance3D, as the name suggests, creates multiple copies of a "
-"MeshInstance over a surface of a specific mesh. An example would be having a "
-"tree mesh populate a landscape mesh with trees of random scales and "
-"orientations."
-msgstr ""
-"MultiMeshInstance, comme son nom l'indique, crée plusieurs copies d'une "
-"MeshInstance sur une surface d'un maillage spécifique. Par exemple, un "
-"maillage d'arbre peut peupler un maillage paysage avec des arbres d'échelles "
-"et d'orientations aléatoires."
-
 msgid "Setting up the nodes"
 msgstr "Configuration des nœuds"
-
-#, fuzzy
-msgid ""
-"The basic setup requires three nodes: the MultiMeshInstance3D node and two "
-"MeshInstance3D nodes."
-msgstr ""
-"La configuration de base nécessite trois nœuds : le nœud MultiMeshInstance "
-"et deux nœuds MeshInstance."
-
-#, fuzzy
-msgid ""
-"One node is used as the target, the surface mesh that you want to place "
-"multiple meshes on. In the tree example, this would be the landscape."
-msgstr ""
-"Un nœud est utilisé comme cible, le maillage sur lequel vous voulez placer "
-"plusieurs maillages. Dans l'exemple de l'arbre, ce serait le paysage."
 
 msgid ""
 "The other node is used as the source, the mesh that you want to have "
@@ -84,30 +25,9 @@ msgstr ""
 "L'autre nœud est utilisé comme source, le maillage que vous voulez "
 "dupliquer. Dans le cas de l'arbre, ce serait l'arbre lui-même."
 
-#, fuzzy
-msgid ""
-"In our example, we would use a :ref:`Node3D <class_Node3D>` node as the root "
-"node of the scene. Your scene tree would look like this:"
-msgstr ""
-"Dans notre exemple, nous utiliserions un nœud :ref:`Spatial <class_Spatial>` "
-"comme nœud racine de la scène. Votre arbre de scène ressemblerait à ceci :"
-
 msgid "For simplicity's sake, this tutorial uses built-in primitives."
 msgstr ""
 "Pour des raisons de simplicité, ce tutoriel utilise des primitives intégrées."
-
-#, fuzzy
-msgid ""
-"Now you have everything ready. Select the MultiMeshInstance3D node and look "
-"at the toolbar, you should see an extra button called ``MultiMesh`` next to "
-"``View``. Click it and select *Populate surface* in the dropdown menu. A new "
-"window titled *Populate MultiMesh* will pop up."
-msgstr ""
-"Maintenant, tout est prêt. Sélectionnez le nœud MultiMeshInstance et "
-"regardez la barre d'outils, vous devriez voir un bouton supplémentaire "
-"appelé ``MultiMesh`` à côté de ``Affichage``. Cliquez dessus et sélectionnez "
-"*Peupler la surface* dans le menu déroulant. Une nouvelle fenêtre intitulée "
-"*Peupler la MultiMesh* s'ouvrira."
 
 msgid "MultiMesh settings"
 msgstr "Paramètres MultiMesh"

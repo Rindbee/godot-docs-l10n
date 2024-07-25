@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,14 +45,6 @@ msgstr ""
 "вы можете использовать код для воспроизведения и управления ими во время "
 "выполнения."
 
-#, fuzzy
-msgid ""
-"Open the player scene, select the ``Player`` node, and add an :ref:"
-"`AnimationPlayer <class_AnimationPlayer>` node."
-msgstr ""
-"Откройте сцену игрока, выберите узел игрока и добавьте узел "
-"*AnimationPlayer*."
-
 msgid "The *Animation* dock appears in the bottom panel."
 msgstr "На нижней панели появится вкладка *Animation*."
 
@@ -94,14 +81,6 @@ msgstr "|image3|"
 msgid "image3"
 msgstr "image3"
 
-#, fuzzy
-msgid ""
-"Once you've created the animation, the timeline appears with numbers "
-"representing time in seconds."
-msgstr ""
-"После создания анимации появляется временная шкала с цифрами, обозначающими "
-"время в секундах."
-
 msgid "|image4|"
 msgstr "|image4|"
 
@@ -114,18 +93,6 @@ msgid ""
 msgstr ""
 "Мы хотим, чтобы анимация начинала воспроизводиться автоматически в начале "
 "игры. Кроме того, она должна быть зациклена."
-
-#, fuzzy
-msgid ""
-"To do so, you can click the autoplay button (|Autoplay|) in the animation "
-"toolbar and the looping arrows, respectively."
-msgstr ""
-"Для этого можно нажать кнопку с пиктограммой \"A+\" на панели инструментов "
-"анимации и зацикленные стрелки соответственно."
-
-#, fuzzy
-msgid "Autoplay"
-msgstr "Автозагрузка"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -204,22 +171,6 @@ msgstr ""
 "Ключевой кадр будет вставлен туда, где находится курсор времени на временной "
 "шкале."
 
-#, fuzzy
-msgid ""
-"Let's insert our first keys. Here, we will animate both the position and the "
-"rotation of the ``Character`` node."
-msgstr ""
-"Давайте вставим наши первые ключи. Здесь мы будем анимировать как "
-"перемещение, так и поворот узла *Character*."
-
-#, fuzzy
-msgid ""
-"Select the ``Character`` and in the *Inspector* expand the *Transform* "
-"section. Click the key icon next to *Position*, and *Rotation*."
-msgstr ""
-"Выберите *Character* и нажмите на значок ключа рядом с *Translation* в "
-"инспекторе . Сделайте то же самое для *Rotation Degrees*."
-
 msgid "|image10|"
 msgstr "|image10|"
 
@@ -245,15 +196,6 @@ msgstr "|image11|"
 msgid "image11"
 msgstr "image11"
 
-#, fuzzy
-msgid ""
-"You can click and drag on the diamonds to move them in time. Move the "
-"position key to ``0.3`` seconds and the rotation key to ``0.1`` seconds."
-msgstr ""
-"Вы можете щёлкнуть и перетащить ромбы, чтобы переместить их во времени. "
-"Переместите ключ перемещения на ``0.2`` секунды, а ключ вращения на ``0.1`` "
-"секунды."
-
 msgid "|image12|"
 msgstr "|image12|"
 
@@ -268,24 +210,17 @@ msgstr ""
 "серой временной шкале."
 
 msgid "|timeline_05_click|"
-msgstr ""
+msgstr "|timeline_05_click|"
 
 msgid "timeline_05_click"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
-"*Rotation*' *X* axis to ``8``."
-msgstr ""
-"Переместите курсор времени на ``0.5`` секунды, щёлкнув и перетащив его на "
-"серой временной шкале. В инспекторе установите *Translation* по оси *Y* "
-"примерно на ``0.65`` метров, а *Rotation Degrees* по оси *X* на ``8``."
+msgstr "timeline_05_click"
 
 msgid ""
 "If you don't see the properties in the *Inspector* panel, first click on the "
 "``Character`` node again in the *Scene* dock."
 msgstr ""
+"Если вы не видите свойства в панели *Inspector*, сначала снова нажмите на "
+"узел ``Character`` в панели *Scene*."
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -293,23 +228,11 @@ msgstr "|image13|"
 msgid "image13"
 msgstr "image13"
 
-#, fuzzy
-msgid "Create a keyframe for both properties"
-msgstr "Ключевые кадры для других свойств"
-
 msgid "|second_keys_both|"
-msgstr ""
+msgstr "|second_keys_both|"
 
 msgid "second_keys_both"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
-"timeline."
-msgstr ""
-"Создайте ключевой кадр для обоих свойств и сдвиньте ключ перемещения на "
-"``0.7`` секунд, перетащив его на временной шкале."
+msgstr "second_keys_ both"
 
 msgid "|image14|"
 msgstr "|image14|"
@@ -329,24 +252,6 @@ msgstr ""
 "Вместо этого аниматоры играют с таймингом и интервалом - двумя основными "
 "принципами анимации. Вы хотите смещать и контрастировать движения персонажа, "
 "чтобы сделать их живыми."
-
-#, fuzzy
-msgid ""
-"Move the time cursor to the end of the animation, at ``1.2`` seconds. Set "
-"the Y position to about ``0.35`` and the X rotation to ``-9`` degrees. Once "
-"again, create a key for both properties."
-msgstr ""
-"Переместите курсор времени в конец анимации, на ``1.2`` секунд. Установите "
-"перемещение по Y примерно на ``0.35`` и поворот по X на ``-9`` градусов. "
-"Снова создайте ключ для обоих свойств."
-
-#, fuzzy
-msgid "|animation_final_keyframes|"
-msgstr "Компьютерная анимация опирается на ключевые кадры"
-
-#, fuzzy
-msgid "animation_final_keyframes"
-msgstr "Компьютерная анимация опирается на ключевые кадры"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -435,13 +340,6 @@ msgstr "|изображение19|"
 msgid "image19"
 msgstr "изображение19"
 
-#, fuzzy
-msgid ""
-"Do the opposite for the second position keyframe, dragging it to the right."
-msgstr ""
-"Проделайте обратные действия для второго ключевого кадра перемещения, "
-"перетащив его вправо."
-
 msgid "|image20|"
 msgstr "|изображение20|"
 
@@ -473,14 +371,6 @@ msgstr ""
 msgid "If you play the game, the player's creature will now float!"
 msgstr "Если вы играете в игру, то существо игрока теперь будет плавать!"
 
-#, fuzzy
-msgid ""
-"If the creature is a little too close to the floor, you can move the "
-"``Pivot`` up to offset it."
-msgstr ""
-"Если существо находится слишком близко к полу, вы можете переместить *Pivot* "
-"вверх, чтобы сместить его."
-
 msgid "Controlling the animation in code"
 msgstr "Управление анимацией в коде"
 
@@ -491,10 +381,6 @@ msgstr ""
 "Мы можем использовать код для управления воспроизведением анимации на основе "
 "ввода данных игроком. Давайте изменим скорость анимации, когда персонаж "
 "движется."
-
-#, fuzzy
-msgid "Open the ``Player``'s script by clicking the script icon next to it."
-msgstr "Откройте скрипт *Player*, нажав на значок скрипта рядом с ним."
 
 msgid "|image22|"
 msgstr "|изображение22|"
@@ -517,16 +403,6 @@ msgstr ""
 "воспроизведения на ``4``. Когда они останавливаются, мы восстанавливаем "
 "нормальное значение."
 
-#, fuzzy
-msgid ""
-"We mentioned that the ``Pivot`` could layer transforms on top of the "
-"animation. We can make the character arc when jumping using the following "
-"line of code. Add it at the end of ``_physics_process()``."
-msgstr ""
-"Мы упоминали, что pivot может накладывать трансформации поверх анимации. Мы "
-"можем сделать дугу персонажа при прыжке с помощью следующей строки кода. "
-"Добавьте её в конец ``_physics_process()``."
-
 msgid "Animating the mobs"
 msgstr "Анимация мобов"
 
@@ -537,20 +413,16 @@ msgstr ""
 "Вот ещё один приятный приём с анимациями в Godot: пока вы используете "
 "похожую структуру узлов, вы можете копировать их в разные сцены."
 
-#, fuzzy
-msgid ""
-"For example, both the ``Mob`` and the ``Player`` scenes have a ``Pivot`` and "
-"a ``Character`` node, so we can reuse animations between them."
-msgstr ""
-"Например, обе сцены *Mob* и *Player* имеют узел *Pivot* и узел *Character*, "
-"поэтому мы можем повторно использовать анимацию между ними."
-
 msgid ""
 "Open the *Player* scene, select the AnimationPlayer node and then click on "
 "**Animation > Manage Animations...**. Click the *Copy animation to "
 "clipboard* button (two small squares) alongside the *float* animation. Click "
 "OK to close the window."
 msgstr ""
+"Откройте сцены *Player*, выберите узел AnimationPlayer и затем нажмите на "
+"**Animation > Manage Animations...**. Нажмите на кнопку *Copy animation to "
+"clipboard* (два маленьких квадрата) рядом с анимацией *float*. Нажмите OK, "
+"чтобы закрыть окно to close the window."
 
 msgid ""
 "Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
@@ -560,17 +432,12 @@ msgid ""
 "Click the *Paste* icon (clipboard) and it should appear in the window. Click "
 "OK to close the window."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
-"(Animation looping) are also turned on in the animation editor in the bottom "
-"panel. That's it; all monsters will now play the float animation."
-msgstr ""
-"Откройте сцену *Player*, выберите узел animation player и откройте анимацию "
-"\"float\". Затем нажмите на **Animation > Copy**. Затем откройте ``Mob."
-"tscn`` и откройте его проигрыватель анимации. Нажмите **Animation > Paste**. "
-"Вот и все; теперь все монстры будут воспроизводить анимацию \"float\"."
+"Откройте сцену ``mob.tscn``, создайте дочерний узел :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` и выберите его. Нажмите **Animation > Manage "
+"Animations**, затем **Add Library**. Вы увидите сообщение \"Global library "
+"will be created.\" Оставьте текстовое поле пустым и нажмите ОК. Кликните "
+"иконку *Вставить* (из буфера) и он появится в окне. Нажмите ОК, чтобы "
+"закрыть окно."
 
 msgid ""
 "We can change the playback speed based on the creature's ``random_speed``. "
@@ -587,16 +454,6 @@ msgstr ""
 
 msgid "**Congratulations**!"
 msgstr "**Поздравляем**!"
-
-msgid ""
-"In the next part, we'll quickly recap what you learned and give you some "
-"links to keep learning more. But for now, here are the complete ``Player."
-"gd`` and ``Mob.gd`` so you can check your code against them."
-msgstr ""
-"В следующей части мы быстро подведём итоги того, что вы узнали, и дадим вам "
-"несколько ссылок для дальнейшего изучения. Но пока что здесь представлены "
-"полные версии ``Player.gd`` и ``Mob.gd``, чтобы вы могли сверить с ними свой "
-"код."
 
 msgid "Here's the *Player* script."
 msgstr "Вот скрипт *Player*."

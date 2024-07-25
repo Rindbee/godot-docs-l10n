@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -849,6 +844,9 @@ msgid ""
 "refraction is enabled and albedo transparency is reduced, decrease the "
 "material's **Roughness** value."
 msgstr ""
+"折射也会考虑材质的粗糙度。粗糙度越高，受折射影响的物体看起来越模糊，这模拟了"
+"现实生活中的行为。如果开启了折射且降低了Albedo的透明度后，依然看不见物体后"
+"方，可通过降低材质的**粗糙度**解决。"
 
 msgid ""
 "A normal map can optionally be specified in the **Refraction Texture** "
@@ -1162,24 +1160,13 @@ msgid ""
 "after a given distance."
 msgstr "距离渐变适用于在一定距离后才出现的光轴或指示器。"
 
-#, fuzzy
-msgid ""
-"Keep in mind enabling proximity fade or distance fade with **Pixel Alpha** "
-"mode enables alpha blending. Alpha blending is more GPU-intensive and can "
-"cause transparency sorting issues. Alpha blending also disables many "
-"material features such as the ability to cast shadows."
-msgstr ""
-"请注意，使用 **Pixel Alpha** 模式启用近距离渐变或远距离渐变时，会启用 Alpha "
-"混合。Alpha 混合对 GPU 的要求较高，可能会导致透明度排序问题。Alpha 混合也会禁"
-"用许多材质功能，例如投射阴影的功能。如果要在角色离摄像机太近时隐藏他们，可以"
-"考虑使用 **Pixel Dither** 或更好的 **Object Dither**\\ （它比 **Pixel "
-"Dither** 更快）。"
-
 msgid ""
 "To hide a character when they get too close to the camera, consider using "
 "**Pixel Dither** or better, **Object Dither** (which is even faster than "
 "**Pixel Dither**)."
 msgstr ""
+"当角色距离相机太近时，想隐藏角色可考虑使用 **Pixel Dither** 或更好的 "
+"**Object Dithe** (比**Pixel Dither**更快)."
 
 msgid ""
 "**Pixel Alpha** mode: The actual transparency of a pixel of the object "
@@ -1187,16 +1174,21 @@ msgid ""
 "material into the transparency pipeline (which leads, for example, to no "
 "shadows)."
 msgstr ""
+"**Pixel Alpha** 模式：对象身上像素的透明度会随相机距离而改变。效果最好，但会"
+"直接跳过常规渲染管线，强制把材质送入透明处理阶段 (这会导致一些问题，比如：物"
+"体无法产生阴影)."
 
 msgid ""
 "**Pixel Dither** mode: What this does is sort of approximate the "
 "transparency by only having a fraction of the pixels rendered."
-msgstr ""
+msgstr "**Pixel Dither**模式：选一部分像素渲染来近似得到透明效果。"
 
 msgid ""
 "**Object Dither** mode: Like the previous mode, but the calculated "
 "transparency is the same across the entire object's surface."
 msgstr ""
+"**Object Dither**模式：与前一种模式类似，但物体表面所有像素计算出的透明度相"
+"同。"
 
 msgid "Material Settings"
 msgstr "材质设置"

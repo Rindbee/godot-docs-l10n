@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,17 +137,6 @@ msgid ""
 msgstr ""
 "在 Godot 中，遮挡剔除是通过将场景的遮挡几何体光栅化到低分辨率的缓存中实现的。"
 "这是使用了软光追库 `Embree <https://github.com/embree/embree>`__ 来完成的。"
-
-#, fuzzy
-msgid ""
-"The engine then uses this low-resolution buffer to test the occludee's :abbr:"
-"`AABB (Axis-Aligned Bounding Box)` against the occluder shapes. The "
-"occludee's :abbr:`AABB (Axis-Aligned Bounding Box)` must be *fully occluded* "
-"by the occluder shape to be culled."
-msgstr ""
-"然后，引擎使用低分辨率缓存来测试遮挡物的 :abbr:`AABB (Axis-Aligned Bounding "
-"Box，轴对齐边界框)` 与遮挡物的形状。被遮挡物的 :abbr:`AABB (Axis-Aligned "
-"Bounding Box，轴对齐边界框)` 必须被要剔除的遮挡物形状\\ *完全遮挡*\\ 。"
 
 msgid ""
 "As a result, smaller objects are more likely to be effectively culled than "

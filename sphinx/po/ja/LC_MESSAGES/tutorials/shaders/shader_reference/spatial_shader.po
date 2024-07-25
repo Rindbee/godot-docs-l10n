@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -307,12 +302,6 @@ msgstr ""
 msgid "in float **E**"
 msgstr "\\ in float **E**"
 
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
-
 msgid "Vertex built-ins"
 msgstr "頂点プロセッサーのビルトイン"
 
@@ -346,7 +335,6 @@ msgstr ""
 "UV、UV2、COLORなどの他のビルトインも、変更されていない場合はフラグメント関数"
 "に渡されます。"
 
-#, fuzzy
 msgid ""
 "Users can override the modelview and projection transforms using the "
 "``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
@@ -355,10 +343,12 @@ msgid ""
 "``VERTEX`` is ignored and projection does not happen. However, the value "
 "passed to the fragment shader still comes from ``VERTEX``."
 msgstr ""
-"ユーザーは、組み込みの ``POSITION`` を使用して、モデルビューと投影変換をオー"
-"バーライドできます。\\ ``POSITION`` を使用すると、\\ ``VERTEX`` の値は無視さ"
-"れ、投影は行われません。ただし、フラグメントシェーダーに渡される値は、引き続"
-"き ``VERTEX`` から取得されます。"
+"ユーザーはビルトインの ``POSITION`` を使用して、モデルビューと投影変換をオー"
+"バーライドできます。シェーダー内のどこかで ``POSITION`` に書き込まれた場合、"
+"ユーザーはそれが常に有効値であることを確認する責任があります。 ``POSITION`` "
+"が使用される場合、 ``VERTEX`` の値は無視されプロジェクション計算は行われませ"
+"ん。ただしフラグメントシェーダーに渡される値は依然として ``VERTEX`` から取得"
+"されます。"
 
 msgid ""
 "For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
@@ -403,18 +393,6 @@ msgstr "\\ in mat4 **INV_VIEW_MATRIX**"
 msgid "View space to world space transform."
 msgstr "ビュー空間からワールド空間への変換。"
 
-#, fuzzy
-msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-msgstr "\\ in mat4 **INV_VIEW_MATRIX**"
-
-#, fuzzy
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr ""
-"ローカル空間からワールド空間への変換。ワールド空間はエディタで通常使用される"
-"座標です。"
-
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "\\ in mat4 **INV_PROJECTION_MATRIX**"
 
@@ -444,13 +422,6 @@ msgstr "\\ in vec3 **CAMERA_DIRECTION_WORLD**"
 
 msgid "Camera world space direction."
 msgstr "カメラのワールド空間の向き。"
-
-#, fuzzy
-msgid "in uint **CAMERA_VISIBLE_LAYERS**"
-msgstr "\\ in uint **RANDOM_SEED**"
-
-msgid "Cull layers of the camera rendering the current pass."
-msgstr ""
 
 msgid "in bool **OUTPUT_IS_SRGB**"
 msgstr "\\ in bool **OUTPUT_IS_SRGB**"
@@ -597,14 +568,6 @@ msgstr "\\ inout mat4 **PROJECTION_MATRIX**"
 msgid "View space to clip space transform."
 msgstr "ビュー空間からクリップ空間への変換。"
 
-#, fuzzy
-msgid "in uvec4 **BONE_INDICES**"
-msgstr "\\ inout uvec4 **BONE_INDICES**"
-
-#, fuzzy
-msgid "in vec4 **BONE_WEIGHTS**"
-msgstr "\\ inout vec4 **BONE_WEIGHTS**"
-
 msgid "in vec4 **CUSTOM0**"
 msgstr "\\ in vec4 **CUSTOM0**"
 
@@ -658,9 +621,8 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "\\ in bool **FRONT_FACING**"
 
-#, fuzzy
 msgid "``true`` if current face is front facing."
-msgstr "現在の面が前面(面の法線がこちらを向いている)の場合は ``true`` 。"
+msgstr "現在の面が正面(面の法線がこちらを向いている)の場合は ``true`` 。"
 
 msgid "in vec3 **VIEW**"
 msgstr "\\ in vec3 **VIEW**"
@@ -699,20 +661,17 @@ msgstr "POINT_SIZEでポイントを描画するためのポイント座標。"
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "\\ in mat4 **PROJECTION_MATRIX**"
 
-#, fuzzy
 msgid "Node position, in world space."
-msgstr "ピクセル座標でのマウスの位置。"
+msgstr "ワールド空間内のノードの位置。"
 
-#, fuzzy
 msgid "Node position, in view space."
-msgstr "ビュー空間内の法線ベクトル。"
+msgstr "ビュー空間内のノードの位置。"
 
 msgid "Camera position, in world space."
-msgstr ""
+msgstr "ワールド空間内のカメラの位置。"
 
-#, fuzzy
 msgid "Camera direction, in world space."
-msgstr "ビュー空間内の法線ベクトル。"
+msgstr "ワールド空間内のカメラの方向。"
 
 msgid "in vec3 **VERTEX**"
 msgstr "\\ in vec3 **VERTEX**"
@@ -727,6 +686,8 @@ msgid ""
 "A writable version of ``VERTEX`` that can be used to alter light and "
 "shadows. Writing to this will not change the position of the fragment."
 msgstr ""
+"ライトとシャドウの計算に使われる位置を変更するための ``VERTEX`` の書き込み可"
+"能なバージョン。これに書き込んでもフラグメント自体の位置は変わりません。"
 
 msgid "sampler2D **SCREEN_TEXTURE**"
 msgstr "\\ sampler2D **SCREEN_TEXTURE**"
@@ -734,6 +695,8 @@ msgstr "\\ sampler2D **SCREEN_TEXTURE**"
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
 msgstr ""
+"Godot 4では削除されました。代わりに ``sampler2D`` と ``hint_screen_texture`` "
+"を使用してください。"
 
 msgid "in vec2 **SCREEN_UV**"
 msgstr "\\ in vec2 **SCREEN_UV**"
@@ -747,6 +710,8 @@ msgstr "\\ sampler2D **DEPTH_TEXTURE**"
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_depth_texture`` instead."
 msgstr ""
+"Godot 4では削除されました。代わりに ``sampler2D`` と ``hint_ depth_texture`` "
+"を使用してください。"
 
 msgid "out float **DEPTH**"
 msgstr "\\ out float **DEPTH**"
@@ -756,6 +721,9 @@ msgid ""
 "branch, then you are responsible for setting the ``DEPTH`` for **all** other "
 "branches. Otherwise, the graphics API will leave them uninitialized."
 msgstr ""
+"カスタムの深さの値 (0..1)。 ``DEPTH`` がシェーダーのいずれかのブランチで書き"
+"込まれている場合、他の **すべて** のブランチでも ``DEPTH`` を設定する必要があ"
+"ります。そうしないとグラフィックスAPIは初期化されないままになります。"
 
 msgid "Normal that comes from vertex function (default, in view space)."
 msgstr "頂点関数からやって来る法線(デフォルト、ビュース空間内)。"
@@ -766,17 +734,15 @@ msgstr "頂点関数からやって来る接線。"
 msgid "Binormal that comes from vertex function."
 msgstr "頂点関数からやって来る従法線。"
 
-#, fuzzy
 msgid "out vec3 **NORMAL_MAP**"
-msgstr "\\ out vec3 **NORMALMAP**"
+msgstr "\\ out vec3 **NORMAL_MAP**"
 
 msgid "Set normal here if reading normal from a texture instead of NORMAL."
 msgstr ""
 "NORMALではなくテクスチャから法線を読み取る場合は、ここで法線を設定します。"
 
-#, fuzzy
 msgid "out float **NORMAL_MAP_DEPTH**"
-msgstr "\\ out float **NORMALMAP_DEPTH**"
+msgstr "\\ out float **NORMAL_MAP_DEPTH**"
 
 msgid "Depth from variable above. Defaults to 1.0."
 msgstr "上記の変数からの深さ。デフォルトは1.0です。"
@@ -790,32 +756,27 @@ msgstr "アルベド(デフォルトは白)。"
 msgid "out float **ALPHA**"
 msgstr "\\ out float **ALPHA**"
 
-#, fuzzy
 msgid ""
 "Alpha (0..1); if read from or written to, the material will go to the "
 "transparent pipeline."
 msgstr ""
-"アルファ(0..1); 書き込まれた場合、マテリアルはtransparentパイプラインに送られ"
-"ます。"
+"アルファ値(0..1); これに書き込まれた場合、マテリアルは半透明パイプラインに送"
+"られます。"
 
-#, fuzzy
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
-msgstr "\\ out float **ALPHA_SCISSOR**"
+msgstr "\\ out float **ALPHA_SCISSOR_THRESHOLD**"
 
 msgid "If written to, values below a certain amount of alpha are discarded."
 msgstr "書き込まれた場合、一定量のアルファ以下の値は破棄されます。"
 
-#, fuzzy
 msgid "out float **ALPHA_HASH_SCALE**"
-msgstr "\\ out float **ALPHA**"
+msgstr "\\ out float **ALPHA_HASH_SCALE**"
 
-#, fuzzy
 msgid "out float **ALPHA_ANTIALIASING_EDGE**"
-msgstr "\\ out float **ALPHA_SCISSOR**"
+msgstr "\\ out float **ALPHA_ANTIALIASING_EDGE**"
 
-#, fuzzy
 msgid "out vec2 **ALPHA_TEXTURE_COORDINATE**"
-msgstr "\\ inout vec4 **LIGHT_COLOR**"
+msgstr "\\ out vec2 **ALPHA_TEXTURE_COORDINATE**"
 
 msgid "out float **METALLIC**"
 msgstr "\\ out float **METALLIC**"
@@ -886,21 +847,17 @@ msgstr ""
 "サブサーフェススキャッタリングの強度。使用すると、サブサーフェススキャッタリ"
 "ングがオブジェクトに適用されます。"
 
-#, fuzzy
 msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
-msgstr "\\ out vec4 **SHADOW_COLOR**"
+msgstr "\\ out vec4 **SSS_TRANSMITTANCE_COLOR**"
 
-#, fuzzy
 msgid "out float **SSS_TRANSMITTANCE_DEPTH**"
-msgstr "\\ out float **SSS_STRENGTH**"
+msgstr "\\ out float **SSS_TRANSMITTANCE_DEPTH**"
 
-#, fuzzy
 msgid "out float **SSS_TRANSMITTANCE_BOOST**"
-msgstr "\\ out float **SSS_STRENGTH**"
+msgstr "\\ out float **SSS_TRANSMITTANCE_BOOST**"
 
-#, fuzzy
 msgid "inout vec3 **BACKLIGHT**"
-msgstr "\\ inout vec4 **LIGHT**"
+msgstr "\\ inout vec3 **BACKLIGHT**"
 
 msgid "out float **AO**"
 msgstr "\\ out float **AO**"
@@ -920,30 +877,33 @@ msgstr "\\ out vec3 **EMISSION**"
 msgid "Emission color (can go over 1,1,1 for HDR)."
 msgstr "発光色(HDRの場合は1,1,1を超えることができます)。"
 
-#, fuzzy
 msgid "out vec4 **FOG**"
-msgstr "\\ inout vec4 **COLOR**"
+msgstr "\\ out vec4 **FOG**"
 
 msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
 msgstr ""
+"書き込まれた場合、FOG.a に基づいて最終ピクセルカラーを FOG.rgb とブレンドしま"
+"す。"
 
-#, fuzzy
 msgid "out vec4 **RADIANCE**"
-msgstr "\\ out vec4 **POSITION**"
+msgstr "\\ out vec4 **RADIANCE**"
 
 msgid ""
 "If written to, blends environment map radiance with RADIANCE.rgb based on "
 "RADIANCE.a."
 msgstr ""
+"書き込まれた場合、RADIANCE.a に基づいて環境マップの放射輝度を RADIANCE.rgb と"
+"ブレンドします。"
 
-#, fuzzy
 msgid "out vec4 **IRRADIANCE**"
-msgstr "\\ out vec4 **POSITION**"
+msgstr "\\ out vec4 **IRRADIANCE**"
 
 msgid ""
 "If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
 "on IRRADIANCE.a."
 msgstr ""
+"書き込まれた場合、環境マップ放射照度を IRRADIANCE.a に基づいて IRRADIANCE."
+"rgb とブレンドします。"
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -952,6 +912,10 @@ msgid ""
 "<doc_3d_rendering_limitations_transparency_sorting>` for more information "
 "and ways to avoid issues."
 msgstr ""
+"``ALPHA`` が書き込まれるときに半透明パイプラインを通過するシェーダーは、透明"
+"度のソートの問題を引き起こす可能性があります。詳細と問題を回避する方法につい"
+"ては、:ref:`3Dレンダリングの制限 - 透明度の並べ替え "
+"<doc_3d_rendering_limitations_transparency_sorting>` をお読みください。"
 
 msgid "Light built-ins"
 msgstr "ライトプロセッサーのビルトイン"

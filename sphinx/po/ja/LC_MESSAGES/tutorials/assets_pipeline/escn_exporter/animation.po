@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,17 +71,6 @@ msgstr "または ``ドープシート`` でアクションを隠すことがで
 msgid "**2. Check mute status of NLA tracks**"
 msgstr "**2. NLAトラックのミュートステータスを確認**"
 
-#, fuzzy
-msgid ""
-"An NLA track can be ``mute`` or ``unmute``, the exporter will export all the "
-"``mute`` NLA track as a separate action, while blends all the ``unmute`` NLA "
-"tracks into every action (including the action) being exported."
-msgstr ""
-"NLAトラックは ``ミュート`` または ``ミュート解除`` にすることができ、エクス"
-"ポータはすべての ``ミュート`` 状態のNLAトラックを別のアクションとしてエクス"
-"ポートし、すべての ``ミュート解除`` 状態のNLAトラックをエクスポートされるすべ"
-"てのアクション(アクションアクションを含む)にブレンドします。"
-
 msgid "**3. Export the scene**"
 msgstr "**3. シーンのエクスポート**"
 
@@ -118,19 +102,6 @@ msgstr ""
 msgid "Animation Mode"
 msgstr "アニメーションモード"
 
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"GodotとBlender は、アニメーション データを格納する構造が異なります。Godotで"
-"は、アニメーション データは、アニメーション化された各ノードではなく、"
-"AnimationPlayer ノードに格納されます。この不整合を修正し、アニメーションを汎"
-"用的に再生するために、このアドオンには 3つのアニメーション書き出しモードがあ"
-"ります。"
-
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**'Animation as Actions' モード**"
 
@@ -156,20 +127,6 @@ msgstr ""
 
 msgid "**Mode 'Animation as Action with Squash'**"
 msgstr "**'Animation as Action with Squash' モード**"
-
-#, fuzzy
-msgid ""
-"This mode has very similar behavior of mode 'Animation as Action', but it "
-"can generate fewer AnimationPlayers; objects in parent-children relationship "
-"would share their AnimationPlayer. It is useful when you have several rigs, "
-"and each Skeleton and Mesh has actions; then one rig would have just one "
-"AnimationPlayer."
-msgstr ""
-"このモードには、「Animation as Action」モードと非常によく似ていますが、生成さ"
-"れるAnimationPlayerの数は少なくなります。親子関係にあるオブジェクトは、"
-"AnimationPlayerを共有します。複数のリグがあり、各スケルトンとメッシュにアク"
-"ションがある場合に便利です。その場合、1つのリグにはAnimationPlayerが1つしかあ"
-"りません。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +17,6 @@ msgstr "2D скелети"
 
 msgid "Introduction"
 msgstr "Вступ"
-
-#, fuzzy
-msgid ""
-"When working with 3D, skeletal deforms are common for characters and "
-"creatures and most 3D modeling applications support it. For 2D, as this "
-"function is not used as often, it's difficult to find mainstream software "
-"aimed for this."
-msgstr ""
-"В 3D деформація скелета персонажів і істот є загальновживаною річчю і "
-"більшість застосунків 3D-моделювання підтримують її. В 2D ця функція "
-"використовується не так часто, тому важко знайти програмне забезпечення, "
-"призначене для цього."
 
 msgid ""
 "One option is to create animations in third-party software such as Spine or "
@@ -106,16 +89,6 @@ msgstr ""
 msgid "Creating the polygons"
 msgstr "Створення полігонів"
 
-#, fuzzy
-msgid ""
-"Create a new scene for your model (if it's going to be an animated "
-"character, you may want to use a ``CharacterBody2D``). For ease of use, an "
-"empty 2D node is created as a root for the polygons."
-msgstr ""
-"Створіть нову сцену для своєї моделі (якщо це буде анімований персонаж, ви "
-"можете використовувати ``KinematicBody2D``). Для зручності використання в "
-"якості кореня для полігонів створюється порожній 2D-вузол."
-
 msgid ""
 "Begin with a ``Polygon2D`` node. There is no need to place it anywhere in "
 "the scene for now, so simply create it like this:"
@@ -159,14 +132,6 @@ msgid ""
 msgstr ""
 "Коли ви дублюєте вузли і наступна частина має схожу форму, ви можете "
 "редагувати попередній полігон замість того, щоб малювати новий."
-
-#, fuzzy
-msgid ""
-"After moving the polygon, remember to update the UV by selecting **Edit > "
-"Copy Polygon to UV** in the Polygon 2D UV Editor."
-msgstr ""
-"Після переміщення полігона не забудьте оновити UV в **Редакторі плоских "
-"полігонів UV**."
 
 msgid "Keep doing this until you mapped all pieces."
 msgstr "Продовжуйте робити це, поки не зіставите всі частини."
@@ -250,15 +215,6 @@ msgstr ""
 
 msgid "Keep going and build the whole skeleton:"
 msgstr "Продовжуйте рухатися і будувати весь скелет:"
-
-msgid ""
-"You will notice that all bones raise a warning about a missing rest pose. A "
-"rest pose is the default pose for a skeleton, you can come back to it "
-"anytime you want (which is very handy for animating). To set one click on "
-"the *skeleton* node in the scene tree, then click on the ``Skeleton2D`` "
-"button in the toolbar, and select ``Overwrite Rest Pose`` from the dropdown "
-"menu."
-msgstr ""
 
 msgid ""
 "The warnings will go away. If you modify the skeleton (add/remove bones) you "

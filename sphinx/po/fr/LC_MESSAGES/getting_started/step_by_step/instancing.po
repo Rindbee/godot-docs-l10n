@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,17 +50,6 @@ msgstr ""
 "tomber et de rebondir sur les murs, d'un nœud :ref:`Sprite <class_Sprite>`, "
 "et d'un nœud :ref:`CollisionShape2D <class_CollisionShape2D>`."
 
-#, fuzzy
-msgid ""
-"Once you have saved a scene, it works as a blueprint: you can reproduce it "
-"in other scenes as many times as you'd like. Replicating an object from a "
-"template like this is called **instancing**."
-msgstr ""
-"Une fois que vous avez enregistré une scène, celle-ci fonctionne comme un "
-"modèle : Vous pouvez la copier dans d’autres scènes autant de fois que vous "
-"le souhaitez. Dupliquer ainsi un objet à partir d'un modèle s'appelle "
-"**instancier**."
-
 msgid ""
 "As we mentioned in the previous part, instanced scenes behave like a node: "
 "the editor hides their content by default. When you instance the Ball, you "
@@ -76,68 +60,11 @@ msgstr ""
 "défaut. Lorsque vous instanciez la balle, vous ne voyez que le nœud Ball. "
 "Remarquez également que chaque duplicata a un nom unique."
 
-#, fuzzy
-msgid ""
-"Every instance of the Ball scene starts with the same structure and "
-"properties as ``ball.tscn``. However, you can modify each independently, "
-"such as changing how they bounce, how heavy they are, or any property "
-"exposed by the source scene."
-msgstr ""
-"Chaque instance de la scène Ball commence avec la même structure et les "
-"mêmes propriétés que ``Ball.tscn``. Cependant, vous pouvez modifier chacune "
-"d'entre elles indépendamment, par exemple en changeant la façon dont elles "
-"rebondissent, leur poids ou toute propriété exposée par la scène source."
-
 msgid "In practice"
 msgstr "En pratique"
 
-#, fuzzy
-msgid ""
-"Let's use instancing in practice to see how it works in Godot. We invite you "
-"to download the ball's sample project we prepared for you: "
-"`instancing_starter.zip <https://github.com/godotengine/godot-docs-project-"
-"starters/releases/download/latest-4.x/instancing_starter.zip>`_."
-msgstr ""
-"Utilisons l'instanciation en pratique pour voir comment cela fonctionne dans "
-"Godot. Nous vous invitons à télécharger le projet d'exemple balle que nous "
-"avons préparé pour vous : :download:`instancing.zip <files/instancing.zip>`."
-
-msgid ""
-"Extract the archive on your computer. To import it, you need the Project "
-"Manager. The Project Manager is accessed by opening Godot, or if you already "
-"have Godot opened, click on *Project -> Quit to Project List* (:kbd:`Ctrl + "
-"Shift + Q`, :kbd:`Ctrl + Option + Cmd + Q` on macOS)"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In the Project Manager, click the *Import* button to import the project."
-msgstr ""
-"Extrayez l'archive sur votre ordinateur. Ensuite, ouvrez Godot, et dans le "
-"gestionnaire de projet, cliquez sur le bouton Importer pour importer le "
-"projet."
-
-#, fuzzy
-msgid ""
-"In the pop-up that appears navigate to the folder you extracted. Double-"
-"click the ``project.godot`` file to open it."
-msgstr ""
-"Dans la fenêtre qui s'affiche, cliquez sur le bouton Parcourir et naviguez "
-"jusqu'au dossier que vous avez extrait."
-
 msgid "Finally, click the Import & Edit button."
 msgstr "Enfin, cliquez sur le bouton Importer et Modifier."
-
-#, fuzzy
-msgid ""
-"The project contains two packed scenes: ``main.tscn``, containing walls "
-"against which the ball collides, and ``ball.tscn``. The Main scene should "
-"open automatically. If you're seeing an empty 3D scene instead of the main "
-"scene, click the 2D button at the top of the screen."
-msgstr ""
-"Le projet contient deux scènes emballées(packed scenes) : ``Main.tscn``, "
-"contenant des murs contre lesquels la balle se heurte, et ``Ball.tscn``. La "
-"scène Main devrait s'ouvrir automatiquement."
 
 msgid ""
 "Let's add a ball as a child of the Main node. In the Scene dock, select the "
@@ -158,12 +85,6 @@ msgstr "La balle apparaît dans le coin supérieur gauche du viewport."
 
 msgid "Click on it and drag it towards the center of the view."
 msgstr "Cliquez dessus et faites-le glisser vers le centre de la vue."
-
-#, fuzzy
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS). You should "
-"see it fall."
-msgstr "Jouez le jeu en appuyant sur F5. Vous devriez la voir tomber."
 
 msgid ""
 "Now, we want to create more instances of the Ball node. With the ball still "
@@ -204,52 +125,12 @@ msgstr ""
 "Modifiez les propriétés d'une balle sans affecter les autres en utilisant "
 "l'inspecteur."
 
-#, fuzzy
-msgid ""
-"Change the default properties of every Ball by opening the ``ball.tscn`` "
-"scene and making a change to the Ball node there. Upon saving, all instances "
-"of the Ball in the project will see their values update."
-msgstr ""
-"Modifiez les propriétés par défaut de toutes les balles en ouvrant la scène "
-"``Ball.tscn`` et en apportant une modification au nœud Ball. Apres avoir "
-"enregistré les changements, toutes les instances de Ball dans le projet se "
-"verront mises à jour."
-
 msgid ""
 "Changing a property on an instance always overrides values from the "
 "corresponding packed scene."
 msgstr ""
 "La modification d'une propriété sur une instance a toujours priorité sur les "
 "valeurs de la scène emballée correspondante."
-
-#, fuzzy
-msgid ""
-"Let's try this. Open ``ball.tscn`` and select the Ball node. In the "
-"Inspector on the right, click on the PhysicsMaterial property to expand it."
-msgstr ""
-"Essayons ceci. Ouvrez ``Ball.tscn`` et sélectionnez le nœud Ball. Dans "
-"l'inspecteur à droite, cliquez sur la propriété PhysicsMaterial pour la "
-"développer."
-
-#, fuzzy
-msgid ""
-"Set its Bounce property to ``0.5`` by clicking on the number field, typing "
-"``0.5``, and pressing :kbd:`Enter`."
-msgstr ""
-"Définissez sa propriété Bounce à ``2`` en cliquant sur le champ numérique, "
-"en tapant ``2`` et en appuyant sur :kbd:`Enter`."
-
-#, fuzzy
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS) and notice how "
-"all balls now bounce a lot more. As the Ball scene is a template for all "
-"instances, modifying it and saving causes all instances to update "
-"accordingly."
-msgstr ""
-"Jouez le jeu en appuyant sur :kbd:`F5` et remarquez que toutes les balles "
-"rebondissent maintenant beaucoup plus. Comme la scène Ball est un modèle "
-"pour toutes les instances, la modifier et la sauvegarder entraîne la mise à "
-"jour de toutes les instances en conséquence."
 
 msgid ""
 "Let's now adjust an individual instance. Head back to the Main scene by "
@@ -286,22 +167,6 @@ msgid ""
 msgstr ""
 "Relancez le jeu et remarquez que cette balle tombe maintenant beaucoup plus "
 "vite que les autres."
-
-#, fuzzy
-msgid ""
-"You may notice you are unable to change the values of the "
-"``PhysicsMaterial`` of the ball. This is because ``PhysicsMaterial`` is a "
-"resource, and needs to be made unique before you can edit it in a scene that "
-"is linking to its original scene. To make a resource unique for one "
-"instance, right-click on it in the Inspector and click Make Unique in the "
-"contextual menu."
-msgstr ""
-"Si vous modifiez une valeur sur le ``PhysicsMaterial`` d'une instance, cela "
-"affectera toutes les autres. Ceci est dû au fait que ``PhysicsMaterial`` est "
-"une ressource, et que les ressources sont partagées entre les instances. "
-"Pour rendre une ressource unique pour une instance, faites un clic droit "
-"dessus dans l'inspecteur et cliquez sur Rendre unique dans le menu "
-"contextuel."
 
 msgid ""
 "Resources are another essential building block of Godot games we will cover "
@@ -346,17 +211,6 @@ msgstr ""
 "Chaque rectangle représente une entité qui est visible dans le jeu du point "
 "de vue du joueur. Les flèches vous indiquent quelle scène possède quelle "
 "entité."
-
-#, fuzzy
-msgid ""
-"Once you have a diagram, we recommend creating a scene for each element "
-"listed in it to develop your game. You'll use instancing, either by code or "
-"directly in the editor, to build your tree of scenes."
-msgstr ""
-"Une fois que vous avez un diagramme, nous vous recommandons de créer une "
-"scène pour chaque élément qui y est répertorié pour développer votre jeu. "
-"Vous utiliserez l'instanciation, soit par code, soit directement dans "
-"l'éditeur, pour construire votre arbre de scènes."
 
 msgid ""
 "Programmers tend to spend a lot of time designing abstract architectures and "
@@ -421,14 +275,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Résumé"
-
-#, fuzzy
-msgid ""
-"Instancing, the process of producing an object from a blueprint, has many "
-"handy uses. With scenes, it gives you:"
-msgstr ""
-"L'instanciation, le processus de production d'un objet à partir d'un plan, a "
-"de nombreux usages pratiques. Avec les scènes, il vous donne :"
 
 msgid "The ability to divide your game into reusable components."
 msgstr "La possibilité de diviser votre jeu en composants réutilisables."

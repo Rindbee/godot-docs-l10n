@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,23 +71,6 @@ msgstr ""
 "najmniejsze cegiełki, które układasz w postaci drzewa. Oto przykład, jak za "
 "pomocą węzłów, możesz opisać swoją postać w grze."
 
-#, fuzzy
-msgid ""
-"It is made of a ``CharacterBody2D`` node named \"Player\", a ``Camera2D``, a "
-"``Sprite2D``, and a ``CollisionShape2D``."
-msgstr ""
-"Postać składa się z węzła ``KinematicBody2D`` nazwanego \"Player\", węzła "
-"``Sprite``, ``Camera2D`` i ``CollisionShape2D``."
-
-#, fuzzy
-msgid ""
-"The node names end with \"2D\" because this is a 2D scene. Their 3D "
-"counterparts have names that end with \"3D\". Be aware that \"Spatial\" "
-"Nodes are now called \"Node3D\" starting with Godot 4."
-msgstr ""
-"Nazwa węzła kończy się sufiksem \"2D\", bo jest to scena dwuwymiarowa. Węzeł "
-"dla przestrzeni trójwymiarowej kończy się sufiksem \"3D\"."
-
 msgid ""
 "Notice how nodes and scenes look the same in the editor. When you save a "
 "tree of nodes as a scene, it then shows as a single node, with its internal "
@@ -139,14 +117,6 @@ msgstr ""
 "komunikację między węzłami, bez konieczności dodawania wzajemnych referencji "
 "w kodzie (brak wiązania na sztywno - patrz SOLID principle). Zapewnia to "
 "dużą elastyczność w zakresie tego, jak możesz scenę ułożyć."
-
-#, fuzzy
-msgid ""
-"Signals are Godot's version of the *observer* pattern. You can read more "
-"about it here: https://gameprogrammingpatterns.com/observer.html"
-msgstr ""
-"O wzorcu projektowym \"obserwator\", możesz przeczytać więcej tutaj: https://"
-"gameprogrammingpatterns.com/observer.html"
 
 msgid ""
 "For example, buttons emit a signal when pressed. You can connect to this "

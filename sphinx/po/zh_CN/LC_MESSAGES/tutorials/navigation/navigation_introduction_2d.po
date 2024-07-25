@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,13 +47,12 @@ msgstr ""
 msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 msgstr ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 
-#, fuzzy
 msgid ""
 "``NavigationServer2D`` provides a powerful server API to find the shortest "
 "path between two positions on an area defined by a navigation mesh."
 msgstr ""
 "``NavigationServer2D`` 提供了强大的服务器 API，能够在区域中查找两个位置之间的"
-"最短路径，区域由导航网格定义。"
+"最短路径，区域使用导航网格定义。"
 
 msgid ""
 "The NavigationServer is best suited for 2D realtime gameplay that does "
@@ -209,7 +203,6 @@ msgstr "2D 导航网格由以下资源定义："
 msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` Resource"
 msgstr ":ref:`NavigationPolygon<class_NavigationPolygon>` 资源"
 
-#, fuzzy
 msgid ""
 "A resource that holds 2D navigation mesh data. It provides polygon drawing "
 "tools to allow defining navigation areas inside the Editor as well as at "
@@ -262,11 +255,12 @@ msgid ""
 "region node."
 msgstr "单击该区块节点，向该节点添加一个新的 NavigationPolygon 资源。"
 
-#, fuzzy
 msgid ""
 "Define the movable navigation area with the NavigationPolygon draw tool. "
 "Then click the `Bake NavigationPolygon`` button on the toolbar."
-msgstr "使用 NavigationPolygon 绘制工具定义可移动导航区域。"
+msgstr ""
+"使用 NavigationPolygon 绘制工具定义可移动导航区域。然后点击工具栏上的 `烘焙 "
+"NavigationPolygon` 按钮。"
 
 msgid ""
 "The navigation mesh defines the area where an actor can stand and move with "

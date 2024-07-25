@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -224,11 +219,17 @@ msgid ""
 "Select ``Keep File (exported as is)`` as resource type to skip file import, "
 "files with this resource type will be preserved as is during project export."
 msgstr ""
+"Wählen Sie als Ressourcentyp ``Datei beibehalten (so exportieren wie sie "
+"ist)``, um den Datei-Import zu überspringen; Dateien mit diesem "
+"Ressourcentyp werden beim Projektexport so beibehalten, wie sie sind."
 
 msgid ""
 "Select ``Skip File (not exported)`` as resource type to skip file import and "
 "ignore file during project export."
 msgstr ""
+"Wählen Sie ``Datei überspringen (wird nicht exportiert)`` als Ressourcentyp, "
+"um den Datei-Import zu überspringen und die Datei beim Projekt-Export zu "
+"ignorieren."
 
 msgid "Changing default import parameters"
 msgstr "Ändern der Default-Importparameter"

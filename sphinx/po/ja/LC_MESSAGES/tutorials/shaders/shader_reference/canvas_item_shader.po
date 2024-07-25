@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,12 +164,6 @@ msgstr ""
 
 msgid "in float **E**"
 msgstr "\\ in float **E**"
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "定数 ``E`` は (``2.718281``)。オイラー数と自然対数の底。"
 
 msgid "Vertex built-ins"
 msgstr "頂点プロセッサーのビルトイン"
@@ -348,13 +337,12 @@ msgstr ""
 msgid "in vec4 **FRAGCOORD**"
 msgstr "\\ in vec4 **FRAGCOORD**"
 
-#, fuzzy
 msgid ""
 "Coordinate of pixel center. In screen space. ``xy`` specifies position in "
 "window. Origin is upper-left."
 msgstr ""
 "スクリーン空間内のピクセルの中心の座標。 ``xy`` はウィンドウ内の位置を指定し"
-"ます。原点は左下です。"
+"ます。原点は左上です。"
 
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "\\ in vec2 **SCREEN_PIXEL_SIZE**"
@@ -404,6 +392,8 @@ msgstr "\\ sampler2D **SCREEN_TEXTURE**"
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
 msgstr ""
+"Godot 4では削除されました。代わりに ``sampler2D`` と ``hint_screen_texture`` "
+"を使用してください。"
 
 msgid "inout vec3 **NORMAL**"
 msgstr "\\ inout vec3 **NORMAL**"
@@ -417,9 +407,8 @@ msgstr "\\ sampler2D **NORMAL_TEXTURE**"
 msgid "Default 2D normal texture."
 msgstr "デフォルトの2D法線テクスチャ。"
 
-#, fuzzy
 msgid "out vec3 **NORMAL_MAP**"
-msgstr "\\ out vec3 **NORMALMAP**"
+msgstr "\\ out vec3 **NORMAL_MAP**"
 
 msgid ""
 "Configures normal maps meant for 3D for use in 2D. If used, overrides "
@@ -428,9 +417,8 @@ msgstr ""
 "3D用の法線マップを2Dで使用できるように構成します。使用すると、**NORMAL** が"
 "オーバーライドされます。"
 
-#, fuzzy
 msgid "out float **NORMAL_MAP_DEPTH**"
-msgstr "\\ out float **NORMALMAP_DEPTH**"
+msgstr "\\ out float **NORMAL_MAP_DEPTH**"
 
 msgid "Normalmap depth for scaling."
 msgstr "スケーリングのための法線マップの深さ。"
@@ -628,16 +616,8 @@ msgstr "SDFテクスチャから法線を計算します。"
 msgid "vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 msgstr "\\ vec2 **sdf_to_screen_uv** (vec2 sdf_pos)"
 
-#, fuzzy
-msgid "Converts an SDF to screen UV."
-msgstr "SDFをスクリーンUVに変換します。"
-
 msgid "vec2 **screen_uv_to_sdf** (vec2 uv)"
 msgstr "\\ vec2 **screen_uv_to_sdf** (vec2 uv)"
-
-#, fuzzy
-msgid "Converts screen UV to an SDF."
-msgstr "スクリーンUV をSDFに変換します。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

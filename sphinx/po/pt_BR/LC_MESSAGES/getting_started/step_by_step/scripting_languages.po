@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,31 +46,6 @@ msgstr ""
 
 msgid "Available scripting languages"
 msgstr "Linguagens de script disponíveis"
-
-#, fuzzy
-msgid ""
-"Godot offers **four gameplay programming languages**: GDScript, C#, and, via "
-"its GDExtension technology, C and C++. There are more community-supported "
-"languages, but these are the official ones."
-msgstr ""
-"Godot oferece **cinco linguagens de programação integradas**: GDScript, C#, "
-"VisualScript e, por meio de sua tecnologia GDNative, C e C++. Existem mais :"
-"ref:`linguagens suportados pela comunidade "
-"<doc_what_is_gdnative_third_party_bindings>`, mas estas 5 são as oficiais."
-
-#, fuzzy
-msgid ""
-"You can use multiple languages in a single project. For instance, in a team, "
-"you could code gameplay logic in GDScript as it's fast to write, and use C# "
-"or C++ to implement complex algorithms and maximize their performance. Or "
-"you can write everything in GDScript or C#. It's your call."
-msgstr ""
-"Você pode utilizar múltiplas linguagens em um único projeto. Por exemplo, em "
-"uma equipe, você pode programar a lógica de gameplay em GDScript por ser "
-"rápida de escrever, e designers de níveis usar a linguagem gráfica "
-"VisualScript, e usar C# ou C++ para implementar algoritmos complexos e "
-"maximizar sua performance. Ou você pode escrever tudo em GDScript ou C#. A "
-"decisão é sua."
 
 msgid ""
 "We provide this flexibility to answer the needs of different game projects "
@@ -216,50 +186,12 @@ msgstr ""
 msgid ".NET / C#"
 msgstr ".NET / C#"
 
-#, fuzzy
-msgid ""
-"As Microsoft's `C# <https://en.wikipedia.org/wiki/"
-"C_Sharp_(programming_language)>`_ is a favorite amongst game developers, we "
-"officially support it. C# is a mature and flexible language with tons of "
-"libraries written for it. We were able to add support for it thanks to a "
-"generous donation from Microsoft."
-msgstr ""
-"Como o `C# <https://en.wikipedia.org/wiki/C_Sharp_(programming_language)>`_ "
-"da Microsoft é o favorito entre os desenvolvedores de jogos, nós o apoiamos "
-"oficialmente. C# é uma linguagem madura e flexível com toneladas de "
-"bibliotecas escritas para ela. Foi possível adicionar suporte a ele graças a "
-"uma generosa doação da Microsoft."
-
 msgid ""
 "C# offers a good tradeoff between performance and ease of use, although you "
 "should be aware of its garbage collector."
 msgstr ""
 "C# oferece uma boa compensação entre desempenho e facilidade de uso, embora "
 "você deva estar ciente de seu coletor de lixo."
-
-#, fuzzy
-msgid ""
-"You must use the .NET edition of the Godot editor to script in C#. You can "
-"download it on the Godot website's `download <https://godotengine.org/"
-"download/>`_ page."
-msgstr ""
-"Você deve usar a edição Mono do editor Godot para poder programar em C#. "
-"Você pode fazer download na `página de download <https://godotengine.org/"
-"download/>`_ no website do Godot."
-
-#, fuzzy
-msgid ""
-"Since Godot uses .NET 6, in theory, you can use any third-party .NET library "
-"or framework in Godot, as well as any Common Language Infrastructure-"
-"compliant programming language, such as F#, Boo, or ClojureCLR. However, C# "
-"is the only officially supported .NET option."
-msgstr ""
-"Já que o Godot usa a plataforma .NET `Mono <https://mono-project.com>`_, em "
-"teoria qualquer biblioteca ou infraestrutura .NET terceirizada pode ser "
-"usada para roteirizar no Godot, assim como qualquer linguagem de programação "
-"compatível com a Infraestrutura de Linguagem Comum (CLI), tais como F#, Boo "
-"ou ClojureCLR. Na prática, entretanto, C# é a única opção .NET com suporte "
-"oficial."
 
 msgid ""
 "GDScript code itself doesn't execute as fast as compiled C# or C++. However, "
@@ -294,14 +226,6 @@ msgstr ""
 msgid "C++ via GDExtension"
 msgstr "C++ através da GDExtension"
 
-#, fuzzy
-msgid ""
-"GDExtension allows you to write game code in C++ without needing to "
-"recompile Godot."
-msgstr ""
-"O GDNative permite que você escreva o código do jogo em C ou C++ sem "
-"precisar recompilar ou mesmo reiniciar o Godot."
-
 msgid ""
 "You can use any version of the language or mix compiler brands and versions "
 "for the generated shared libraries, thanks to our use of an internal C API "
@@ -310,23 +234,6 @@ msgstr ""
 "Você pode usar qualquer versão da linguagem ou misturar compiladores e "
 "versões de compiladores para as bibliotecas compartilhadas geradas, graças "
 "ao uso de uma ponte C API interna."
-
-#, fuzzy
-msgid ""
-"GDExtension is the best choice for performance. You don't need to use it "
-"throughout an entire game, as you can write other parts in GDScript or C#."
-msgstr ""
-"GDNative é a melhor escolha para desempenho. Você não precisa usá-lo durante "
-"todo o jogo, pois pode escrever outras partes em GDScript, C# ou "
-"VisualScript."
-
-#, fuzzy
-msgid ""
-"When working with GDExtension, the available types, functions, and "
-"properties closely resemble Godot's actual C++ API."
-msgstr ""
-"Ao trabalhar com GDNative, os tipos, funções e propriedades disponíveis se "
-"assemelham muito à API C++ real do Godot."
 
 msgid "Summary"
 msgstr "Resumo"
@@ -337,14 +244,6 @@ msgid ""
 msgstr ""
 "Scripts são arquivos contendo código que você anexa a um nó para estender "
 "sua funcionalidade."
-
-#, fuzzy
-msgid ""
-"Godot supports four official scripting languages, offering you flexibility "
-"between performance and ease of use."
-msgstr ""
-"Godot suporta cinco linguagens de programação oficiais, oferecendo a "
-"flexibilidade entre desempenho e facilidade de uso."
 
 msgid ""
 "You can mix languages, for instance, to implement demanding algorithms with "

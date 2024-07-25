@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,16 +91,6 @@ msgstr ""
 "Cada formato de archivo consiste en un container de datos y un "
 "``ResourceFormatLoader``."
 
-#, fuzzy
-msgid ""
-"ResourceFormatLoaders are classes which return all the necessary metadata "
-"for supporting new extensions in Godot. The class must return the format "
-"name and the extension string."
-msgstr ""
-"Los ResourceFormatLoaders son generalmente clases simples que devuelven toda "
-"la información necesaria para admitir nuevas extensiones en Godot. La clase "
-"debe devolver el nombre del formato y la cadena de extensión."
-
 msgid ""
 "In addition, ResourceFormatLoaders must convert file paths into resources "
 "with the ``load`` function. To load a resource, ``load`` must read and "
@@ -158,26 +143,6 @@ msgid ""
 msgstr ""
 "Por ejemplo, aquí está el código para traducir llamadas de ``FileAccess`` a "
 "``std::istream``."
-
-#, fuzzy
-msgid "`istream <https://cplusplus.com/reference/istream/istream/>`_"
-msgstr "`istream <http://www.cplusplus.com/reference/istream/istream/>`_"
-
-#, fuzzy
-msgid ""
-"`streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`_"
-msgstr ""
-"`streambuf <http://www.cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`_"
-
-#, fuzzy
-msgid ""
-"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
-"core/os/file_access.h>`_"
-msgstr ""
-"`core/io/fileaccess.h <https://github.com/godotengine/godot/blob/master/core/"
-"os/file_access.h>`_"
 
 msgid "Registering the new file format"
 msgstr "Registrando un nuevo formato de archivo"

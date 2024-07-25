@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,35 +143,6 @@ msgstr ""
 "Чтобы создать файл, имя которого начинается с точки в Windows, поставьте "
 "точку в начале и в конце имени файла (\".gdignore.\"). Windows автоматически "
 "удалит точку, когда вы подтвердите имя."
-
-#, fuzzy
-msgid ""
-"Alternatively, you can use a text editor such as Notepad++ or use the "
-"following command in a command prompt: ``type nul > .gdignore``"
-msgstr ""
-"Чтобы создать файл, имя которого начинается с точки, в Windows, вы можете "
-"использовать текстовый редактор, например Notepad++, или ввести в командной "
-"строке следующую команду: ``type nul> .gdignore``"
-
-#, fuzzy
-msgid ""
-"Once the folder is ignored, resources in that folder can't be loaded anymore "
-"using the ``load()`` and ``preload()`` methods. Ignoring a folder will also "
-"automatically hide it from the FileSystem dock, which can be useful to "
-"reduce clutter."
-msgstr ""
-"Если папка игнорируется, ресурсы из неё не могут быть загружены с "
-"использованием методов ``load()`` и ``preload()``."
-
-#, fuzzy
-msgid ""
-"Note that the ``.gdignore`` file's contents are ignored, which is why the "
-"file should be empty. It does not support patterns like ``.gitignore`` files "
-"do."
-msgstr ""
-"Обратите внимание, что содержимое файла ``.gdignore`` игнорируется, поэтому "
-"файл должен быть пустым. Он не поддерживает шаблоны, как файлы ``."
-"gitignore``."
 
 msgid "Case sensitivity"
 msgstr "Чувствительность к регистру"

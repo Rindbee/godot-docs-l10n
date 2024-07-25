@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,50 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using a SubViewport as a texture"
-msgstr "使用 Viewport 作為紋理"
-
 msgid "Introduction"
 msgstr "前言"
-
-#, fuzzy
-msgid ""
-"This tutorial will introduce you to using the :ref:`SubViewport "
-"<class_SubViewport>` as a texture that can be applied to 3D objects. In "
-"order to do so, it will walk you through the process of making a procedural "
-"planet like the one below:"
-msgstr ""
-"本教學將向您介紹如何使用 :ref:`Viewport <class_Viewport>` 作為可應用於 3D 對"
-"象的紋理。為了做到這一點，它將引導您完成製作程式式星球的過程，如下所示："
 
 msgid ""
 "This tutorial does not cover how to code a dynamic atmosphere like the one "
 "this planet has."
 msgstr "本教學沒有介紹如何編寫像這個星球那樣的動態氛圍."
 
-#, fuzzy
-msgid ""
-"This tutorial assumes you are familiar with how to set up a basic scene "
-"including: a :ref:`Camera3D <class_Camera3D>`, a :ref:`light source "
-"<class_OmniLight3D>`, a :ref:`MeshInstance3D <class_MeshInstance3D>` with a :"
-"ref:`Primitive Mesh <class_PrimitiveMesh>`, and applying a :ref:"
-"`StandardMaterial3D <class_StandardMaterial3D>` to the mesh. The focus will "
-"be on using the :ref:`SubViewport <class_SubViewport>` to dynamically create "
-"textures that can be applied to the mesh."
-msgstr ""
-"本教學假定你熟悉如何設定基本場景，其中包括：一個 :ref:`相機 <class_Camera>`、"
-"一個 :ref:`光源 <class_OmniLight>`、一個 :ref:`像素網格 "
-"<class_PrimitiveMesh>`的 :ref:`網格實例 <class_MeshInstance>`，並將一個 :ref:"
-"`SpatialMaterial <class_SpatialMaterial>` 應用於網格。我們的重點將會是使用 :"
-"ref:`Viewport <class_Viewport>` 來動態地建立可應用於網格的紋理。"
-
 msgid "In this tutorial, we'll cover the following topics:"
 msgstr "在本教學中, 我們將介紹以下主題:"
-
-#, fuzzy
-msgid "How to use a :ref:`SubViewport <class_SubViewport>` as a render texture"
-msgstr "如何使用 :ref:`Viewport <class_Viewport>` 作為算繪紋理"
 
 msgid "Mapping a texture to a sphere with equirectangular mapping"
 msgstr "使用 equirectangular 對應將紋理對應到球體"
@@ -75,50 +36,6 @@ msgstr "從:ref:`視口紋理 <class_ViewportTexture>`設定粗糙度貼圖"
 
 msgid "Setting up the scene"
 msgstr "設定場景"
-
-#, fuzzy
-msgid "Create a new scene and add the following nodes exactly as shown below."
-msgstr "建立一個 Node 節點並附加下面的腳本。"
-
-msgid "Go into the the MeshInstance3D and make the mesh a SphereMesh"
-msgstr ""
-
-#, fuzzy
-msgid "Setting up the SubViewport"
-msgstr "設定視口"
-
-#, fuzzy
-msgid ""
-"Click on the :ref:`SubViewport <class_SubViewport>` node and set its size to "
-"``(1024, 512)``. The :ref:`SubViewport <class_SubViewport>` can actually be "
-"any size so long as the width is double the height. The width needs to be "
-"double the height so that the image will accurately map onto the sphere, as "
-"we will be using equirectangular projection, but more on that later."
-msgstr ""
-"接下來, 將 :ref:`Viewport <class_Viewport>` 的大小設定為 ``(1024, 512)`` . :"
-"ref:`Viewport <class_Viewport>` 實際上可以是任何尺寸, 只要其寬度是高度的兩"
-"倍. 寬度需要是高度的兩倍, 這樣圖像才能準確地對應到球體上, 因為我們將使用等量"
-"矩形投影, 後面會有更多的介紹."
-
-#, fuzzy
-msgid ""
-"Next disable 3D. We will be using a :ref:`ColorRect <class_ColorRect>` to "
-"render the surface, so we don't need 3D either."
-msgstr ""
-"接下來, 禁用HDR和禁用3D. 我們不需要HDR, 因為星球的表面不會特別亮, 所以數值在 "
-"``0`` 和 ``1`` 之間就可以了. 將使用一個 :ref:`ColorRect <class_ColorRect>` 來"
-"算繪表面, 所以我們也不需要3D."
-
-#, fuzzy
-msgid ""
-"Select the :ref:`ColorRect <class_ColorRect>` and in the inspector set the "
-"anchors preset to ``Full Rect``. This will ensure that the :ref:`ColorRect "
-"<class_ColorRect>` takes up the entire :ref:`SubViewport "
-"<class_SubViewport>`."
-msgstr ""
-"將“Right”和“Bottom”的 Anchor 設定為 ``1``，然後確保所有邊距都設定為 ``0``。這"
-"樣就確保 :ref:`ColorRect <class_ColorRect>` 佔據了整個 :ref:`Viewport "
-"<class_Viewport>`。"
 
 msgid ""
 "Next, we add a :ref:`Shader Material <class_ShaderMaterial>` to the :ref:"
@@ -137,71 +54,8 @@ msgstr ""
 "建議本教學基本瞭解陰影. 但是, 即使您不熟悉著色器, 也將提供所有程式碼, 因此後"
 "續操作應該沒有問題."
 
-msgid ""
-"Click the dropdown menu button for the shader material and click / Edit. "
-"From here go to Shader > ``New Shader``. give it a name and click "
-"\"Create\". click the shader in the inspector to open the shader editor. "
-"Delete the default code and add the following:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"save the shader code, you'll see in the inspector that the above code "
-"renders a gradient like the one below."
-msgstr "上面的程式碼呈現如下所示的漸變。"
-
-#, fuzzy
-msgid ""
-"Now we have the basics of a :ref:`SubViewport <class_SubViewport>` that we "
-"render to and we have a unique image that we can apply to the sphere."
-msgstr ""
-"現在我們有一個基礎 :ref:`Viewport <class_Viewport>` 我們算繪到的, 我們有一個"
-"可以應用於球體的獨特圖像."
-
 msgid "Applying the texture"
 msgstr "應用紋理"
-
-#, fuzzy
-msgid ""
-"Now go into the :ref:`MeshInstance3D <class_MeshInstance3D>` and add a :ref:"
-"`StandardMaterial3D <class_StandardMaterial3D>` to it. No need for a "
-"special :ref:`Shader Material <class_ShaderMaterial>` (although that would "
-"be a good idea for more advanced effects, like the atmosphere in the example "
-"above)."
-msgstr ""
-"現在我們進入 :ref:`Mesh Instance <class_MeshInstance>` 並新增一個 :ref:"
-"`SpatialMaterial <class_SpatialMaterial>` 給它. 不需要一個特殊的 :ref:"
-"`Shader Material <class_ShaderMaterial>` (儘管這對於更高級的效果來說是個好主"
-"意, 比如上面例子中的大氣)."
-
-#, fuzzy
-msgid ""
-"MeshInstance3D > GeometryInstance > Geometry > Material Override > ``New "
-"StandardMaterial3D``"
-msgstr ""
-"MeshInstance > GeometryInstance > Geometry > Material Override > ``新建 "
-"SpatialMaterial``："
-
-msgid "Then click the dropdown for the StandardMaterial3D and click \"Edit\""
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Go to the \"Resource\" section and check the ``Local to scene`` box. Then, "
-"go to the \"Albedo\" section and click beside the \"Texture\" property to "
-"add an Albedo Texture. Here we will apply the texture we made. Choose \"New "
-"ViewportTexture\""
-msgstr ""
-"打開新建立的 :ref:`SpatialMaterial <class_SpatialMaterial>` , 向下滾動到 "
-"\"Albedo\" 部分, 點擊 \"Texture\" 屬性旁邊, 新增一個Albedo Texture. 這裡我們"
-"將應用製作的紋理. 選擇 \"New ViewportTexture\""
-
-#, fuzzy
-msgid ""
-"Click on the ViewportTexture you just created in the inspector, then click "
-"\"Assign\". Then, from the menu that pops up, select the Viewport that we "
-"rendered to earlier."
-msgstr "然後, 從彈出的功能表中, 選擇我們先前算繪的視圖."
 
 msgid ""
 "Your sphere should now be colored in with the colors we rendered to the "
@@ -223,21 +77,6 @@ msgstr ""
 
 msgid "Making the planet texture"
 msgstr "製作行星紋理"
-
-#, fuzzy
-msgid ""
-"So now, when we render to our :ref:`SubViewport <class_SubViewport>`, it "
-"appears magically on the sphere. But there is an ugly seam created by our "
-"texture coordinates. So how do we get a range of coordinates that wrap "
-"around the sphere in a nice way? One solution is to use a function that "
-"repeats on the domain of our texture. ``sin`` and ``cos`` are two such "
-"functions. Let's apply them to the texture and see what happens. Replace the "
-"existing color code in the shader with the following:"
-msgstr ""
-"所以現在我們算繪到我們的 :ref:`Viewport <class_Viewport>` 它在球體上神奇地出"
-"現了. 但是我們的紋理座標會產生一個醜陋的縫隙. 那麼我們如何以一種很好的方式獲"
-"得圍繞球體的一系列座標？ 一種解決方案是使用在紋理域上重複的函式. ``sin`` 和 "
-"``cos`` 是兩個這樣的函式. 讓我們將它們應用於紋理, 看看會發生什麼."
 
 msgid ""
 "Not too bad. If you look around, you can see that the seam has now "
@@ -413,42 +252,6 @@ msgstr ""
 "``Specular`` 為 ``1``。這樣做的原因是水對光線的反射非常好，但它不是金屬的。這"
 "些值在物理上並不準確，但對於這個演示來說已經足夠好了。"
 
-#, fuzzy
-msgid ""
-"Next, under the \"Roughness\" section set the roughness texture to a :ref:"
-"`Viewport Texture <class_ViewportTexture>` pointing to our planet texture :"
-"ref:`SubViewport <class_SubViewport>`. Finally, set the ``Texture Channel`` "
-"to ``Alpha``. This instructs the renderer to use the ``alpha`` channel of "
-"our output ``COLOR`` as the ``Roughness`` value."
-msgstr ""
-"接下來, 在 \"Roughness\" 部分, 將 ``Roughness`` 設定為 ``1`` , 並將粗糙度紋理"
-"設定為 :ref:`Viewport Texture <class_ViewportTexture>` , 指向我們的行星紋理 :"
-"ref:`Viewport <class_Viewport>` . 最後, 將 ``Texture Channel`` 設定為 "
-"``Alpha`` . 這將指示算繪器使用我們輸出的 ``COLOR`` 的 ``alpha`` 通道作為 "
-"``Roughness`` 值."
-
-#, fuzzy
-msgid ""
-"You'll notice that very little changes except that the planet is no longer "
-"reflecting the sky. This is happening because, by default, when something is "
-"rendered with an alpha value, it gets drawn as a transparent object over the "
-"background. And since the default background of the :ref:`SubViewport "
-"<class_SubViewport>` is opaque, the ``alpha`` channel of the :ref:`Viewport "
-"Texture <class_ViewportTexture>` is ``1``, resulting in the planet texture "
-"being drawn with slightly fainter colors and a ``Roughness`` value of ``1`` "
-"everywhere. To correct this, we go into the :ref:`SubViewport "
-"<class_SubViewport>` and enable the \"Transparent Bg\" property. Since we "
-"are now rendering one transparent object on top of another, we want to "
-"enable ``blend_premul_alpha``:"
-msgstr ""
-"你會注意到, 除了行星不再反射天空外, 幾乎沒有什麼變化. 這是因為預設情況下, 當"
-"某樣東西以Alpha值算繪時, 它會被繪製為背景上的透明物體. 因為 :ref:`Viewport "
-"<class_Viewport>` 的預設背景是不透明的, 所以 :ref:`Viewport Texture "
-"<class_ViewportTexture>` 的 ``alpha`` 通道是 ``1`` , 導致行星紋理的顏色略微變"
-"淡, 並且到處的 ``Roughness`` 值都是 ``1`` . 為了糾正這個問題, 我們轉到 :ref:"
-"`Viewport <class_Viewport>` 並啟用 \"Transparent Bg\" 屬性. 由於現在是在另一"
-"個透明物體上算繪, 要啟用 ``blend_premul_alpha`` :"
-
 msgid ""
 "This pre-multiplies the colors by the ``alpha`` value and then blends them "
 "correctly together. Typically, when blending one transparent color on top of "
@@ -459,23 +262,6 @@ msgstr ""
 "這是將顏色預先乘以 ``alpha`` 值, 然後將它們正確地混合在一起. 通常情況下, 當在"
 "一個透明的顏色上混合另一個顏色時, 即使背景的 ``alpha`` 為 ``0`` (如本例), 也"
 "會出現奇怪的顏色滲漏問題. 設定 ``blend_premul_alpha`` 可以解決這個問題."
-
-#, fuzzy
-msgid ""
-"Now the planet should look like it is reflecting light on the ocean but not "
-"the land. move around the :ref:`OmniLight3D <class_OmniLight3D>` in the "
-"scene so you can see the effect of the reflections on the ocean."
-msgstr ""
-"現在這個星球看起來海洋上能夠反射光線, 而不是在陸地上. 如果你還沒有這樣做, 在"
-"場景中新增一個 :ref:`OmniLight <class_OmniLight>` , 這樣你就可以移動它, 看到"
-"海洋上反射的效果."
-
-#, fuzzy
-msgid ""
-"And there you have it. A procedural planet generated using a :ref:"
-"`SubViewport <class_SubViewport>`."
-msgstr ""
-"這就是你的作品。使用 :ref:`Viewport <class_Viewport>` 生成的程式式行星。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

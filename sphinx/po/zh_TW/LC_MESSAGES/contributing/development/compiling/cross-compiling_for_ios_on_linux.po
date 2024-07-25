@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,53 +49,12 @@ msgid "Requirements"
 msgstr "系統需求"
 
 msgid ""
-"`XCode with the iOS SDK <https://developer.apple.com/xcode/download>`__ (a "
-"dmg image, for newer versions a **xip** file is going to be downloaded.)"
-msgstr ""
-"`包含 iOS SDK 的 XCode <https://developer.apple.com/xcode/download>`__ (DMG "
-"映像檔)"
-
-msgid ""
 "`Clang >= 3.5 <https://clang.llvm.org>`__ for your development machine "
 "installed and in the ``PATH``. It has to be version >= 3.5 to target "
 "``arm64`` architecture."
 msgstr ""
 "`Clang >= 3.5 <http://clang.llvm.org>`__ ，安裝於用於開發的機器上，並且需放置"
 "於 ``PATH`` 內。版本必須 >= 3.5 才能處理 ``arm64`` 架構的建置目標。"
-
-msgid ""
-"`Fuse <https://github.com/libfuse/libfuse>`__ for mounting and unmounting "
-"the dmg image."
-msgstr ""
-"`Fuse <https://github.com/libfuse/libfuse>`__ ，用於掛載與取消掛載 DMG 映像。"
-
-msgid ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__, which needs to "
-"be built from source. The procedure for that is explained below."
-msgstr ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__ ，必須從原始碼編"
-"譯。編譯方法會在稍後說明。"
-
-msgid ""
-"For newer versions you should download `xar <https://mackyle.github.io/xar/"
-">`__ and `pbzx <https://github.com/NiklasRosenstein/pbzx>`__."
-msgstr ""
-"對於較新的版本，您應該下載 `xar <https://mackyle.github.io/xar/>`__ 和 `pbzx "
-"<https://github.com/NiklasRosenstein/pbzx>`__。"
-
-msgid ""
-"For building darling-dmg, you'll need the development packages of the "
-"following libraries: fuse, icu, openssl, zlib, bzip2."
-msgstr ""
-"要建置 darling-dmg，則必須要有下列幾個函式庫的開發套件：fuse, icu, openssl, "
-"zlib, bzip2。"
-
-msgid ""
-"For building xar and pbzx you may want to follow `this guide <https://gist."
-"github.com/phracker/1944ce190e01963c550566b749bd2b54>`__."
-msgstr ""
-"要建立 xar 和 pbzx，您可能需要遵循「本指南 <https://gist.github.com/"
-"phracker/1944ce190e01963c550566b749bd2b54>」__。"
 
 msgid ""
 "`cctools-port <https://github.com/tpoechtrager/cctools-port>`__ for the "
@@ -116,36 +70,11 @@ msgstr "還有一些額外的相依性套件：automake, autogen, libtool。"
 msgid "Configuring the environment"
 msgstr "設定環境"
 
-msgid "darling-dmg"
-msgstr "darling-dmg"
-
-msgid "Clone the repository on your machine:"
-msgstr "將儲存庫 Clone 到機器上："
-
-msgid "Build it:"
-msgstr "建置："
-
 msgid "Preparing the SDK"
 msgstr "準備 SDK"
 
-msgid "Mount the XCode image:"
-msgstr "掛載 XCode 映像："
-
-msgid "For newer versions you should extract the **xip** file:"
-msgstr "對於較新的版本，您應該提取 **xip** 檔案："
-
-msgid ""
-"Note that for the commands below, you may need to replace the version (`X."
-"x`) with whatever iOS SDK version you're using."
-msgstr ""
-"請注意，對於下面的命令，您可能需要將版本 (`Xx`) 替換為您正在使用的任何 iOS "
-"SDK 版本。"
-
 msgid "Extract the iOS SDK:"
 msgstr "解壓縮 iOS SDK："
-
-msgid "Pack the SDK:"
-msgstr "打包 SDK："
 
 msgid "Toolchain"
 msgstr "Toolchain"
@@ -162,12 +91,6 @@ msgstr ""
 "複製該工具至適當的地方。請注意，用於建置的 SCons 腳本會在所提供的 Toolchain "
 "二進位檔資料夾中的 ``usr/bin`` 中搜尋，因此必須複製到這樣的子資料夾中，如下列"
 "指令："
-
-msgid ""
-"Now you should have the iOS toolchain binaries in ``/home/user/iostoolchain/"
-"usr/bin``."
-msgstr ""
-"現在 iOS Toolchain 二進位檔應該放在 ``/home/user/iostoolchain/usr/bin`` 中。"
 
 msgid "Compiling Godot for iPhone"
 msgstr "為 iPhone 編譯 Godot"

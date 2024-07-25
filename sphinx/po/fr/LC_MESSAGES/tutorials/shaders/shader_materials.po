@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,22 +17,6 @@ msgstr "Shader materials"
 
 msgid "Introduction"
 msgstr "Introduction"
-
-#, fuzzy
-msgid ""
-"For the most common cases, Godot provides ready to use materials for most "
-"types of shaders, such as :ref:`StandardMaterial3D "
-"<class_StandardMaterial3D>`, :ref:`CanvasItemMaterial "
-"<class_CanvasItemMaterial>` and :ref:`ParticleProcessMaterial "
-"<class_ParticleProcessMaterial>`. They are flexible implementations that "
-"cover most use cases."
-msgstr ""
-"Pour les cas les plus courants, Godot fournit des matériaux prêts à l'emploi "
-"pour la plupart des types de shaders, tels que :ref:`SpatialMaterial "
-"<class_SpatialMaterial>`, :ref:`CanvasItemMaterial "
-"<class_CanvasItemMaterial>` et :ref:`ParticlesMaterial "
-"<class_ParticlesMaterial>`. Il s'agit de mises en œuvre souples qui couvrent "
-"la plupart des cas d'utilisation."
 
 msgid ""
 "Shader materials allow writing a custom shader directly, for maximum "
@@ -145,24 +124,6 @@ msgstr ""
 
 msgid "Converting to ShaderMaterial"
 msgstr "Conversion en ShaderMaterial"
-
-#, fuzzy
-msgid ""
-"It is possible to convert from StandardMaterial3D, CanvasItemMaterial and "
-"ParticleProcessMaterial to ShaderMaterial. To do so, go to the material "
-"properties and select the convert option."
-msgstr ""
-"Il est possible de passer de SpatialMaterial, CanvasItemMaterial et "
-"ParticlesMaterial à ShaderMaterial. Pour ce faire, allez dans les propriétés "
-"du matériau et sélectionnez l'option de conversion."
-
-#, fuzzy
-msgid ""
-"Using the convert option will turn the StandardMaterial3D into a "
-"ShaderMaterial with a text shader, not a visual shader."
-msgstr ""
-"L'utilisation de l'option de conversion transformera le SpatialMaterial en "
-"un ShaderMaterial avec un shader texte, et non un shader visuel."
 
 msgid "Translation status"
 msgstr "État de la traduction"

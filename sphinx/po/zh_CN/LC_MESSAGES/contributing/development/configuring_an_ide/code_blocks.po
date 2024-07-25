@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,30 +88,6 @@ msgid ""
 "The next step is to change the build options. Right-click on the new project "
 "and select **Build Options...**."
 msgstr "下一步是更改构建选项. 右键点击新项目, 选择 **构建选项...** ."
-
-#, fuzzy
-msgid ""
-"Select the **\"Make\" commands** tab and remove all the existing commands "
-"for all the build targets. For each build target enter the **SCons** command "
-"for creating the desired build in the **Build project/target** field. The "
-"minimum is ``scons``. For details on the **SCons** build options, see :ref:"
-"`doc_introduction_to_the_buildsystem`. It's also useful to add the ``scons --"
-"clean`` command in the **Clean project/target** field to the project's "
-"default commands."
-msgstr ""
-"选择 **\"Make \"命令** 选项卡, 删除所有构建目标的所有现有命令. 对于每个构建目"
-"标, 在 **Build project/target** 字段中输入用于创建所需构建的 **SCons** 命令. "
-"最小值为 ``scons`` . 关于 **SCons** 构建选项的详细信息, 请参见 :ref:"
-"`doc_introduction_to_the_buildsystem` . 将 **Clean project/target** 字段中的 "
-"``scons --clean`` 命令添加到项目的默认命令中也很有用."
-
-#, fuzzy
-msgid ""
-"If you're using Windows, all the commands need to be preceded with ``cmd /"
-"c`` to initialize the command interpreter."
-msgstr ""
-"如果你使用的是Windows, 所有的命令都需要在前面加上 ``cmd /c`` 来启动命令解释"
-"器."
 
 msgid "Windows example:"
 msgstr "Windows示例:"

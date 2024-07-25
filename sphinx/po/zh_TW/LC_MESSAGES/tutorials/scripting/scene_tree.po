@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,38 +170,6 @@ msgstr ""
 msgid "Tree order"
 msgstr "樹順序"
 
-msgid ""
-"Most node operations in Godot, such as drawing 2D, processing, or getting "
-"notifications are done in *tree order*, or top to bottom as seen in the "
-"editor (also known as pre-order traversal):"
-msgstr ""
-
-msgid ""
-"For example, the top node in a scene has its ``_process()`` function called "
-"first, then the node below it has its ``_process()`` function called, then "
-"the node below that and so on."
-msgstr ""
-
-msgid ""
-"An important exception is the ``_ready()`` function: each parent node has "
-"its ``_ready()`` function called only after all its child nodes have their "
-"``_ready()`` functions called, so that the parent knows its children are "
-"completely ready to be accessed. This is also known as post-order traversal. "
-"In the above image, ``NameLabel`` would be notified first (but only after "
-"its children, if it had any!), followed by ``Name``, etc., and ``Panel`` "
-"would be notified last."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The order of operations can also be overridden using the "
-"``process_priority`` node property. Nodes with a lower number are called "
-"first. For example, nodes with the priorities \"0, 1, 2, 3\" would be called "
-"in that order from left to right."
-msgstr ""
-"這也可以使用“process_priority”節點屬性來覆寫。首先呼叫編號較小的節點。例如，"
-"優先權為「0、1、2、3」的節點將依該順序（從左到右）被呼叫。"
-
 msgid "\"Becoming active\" by entering the *Scene Tree*"
 msgstr "藉由進入 **場景樹** 來「成為有效狀態」"
 
@@ -220,33 +183,6 @@ msgid ""
 msgstr ""
 "該場景的根節點（只有一個根節點，還記得嗎？）不是被加到（SceneTree 內的）"
 "「root」檢視區作為子節點，就是被加到 root 檢視區的子節點或次級子節點當中。"
-
-#, fuzzy
-msgid ""
-"Every node of the newly added scene will receive the \"enter_tree\" "
-"notification ( ``_enter_tree()`` callback in GDScript) in top-to-bottom "
-"order (pre-order traversal)."
-msgstr ""
-"所有新加入場景的節點都會以從上至下的順序收到「enter_tree」通知（GDScript 為 "
-"_enter_tree() 回呼函式）。"
-
-#, fuzzy
-msgid ""
-"Every node will receive the \"ready\" notification ( ``_ready()`` callback "
-"in GDScript) for convenience, once all its children have received the "
-"\"ready\" notification (post-order traversal)."
-msgstr ""
-"為了方便起見，當某個節點與其所有子節點都在有效場景中是也會提供另一個額外的通"
-"知，「ready」（GDScript 為 _ready() 回呼函式）。"
-
-#, fuzzy
-msgid ""
-"When a scene (or part of it) is removed, they receive the \"exit scene\" "
-"notification ( ``_exit_tree()`` callback in GDScript) in bottom-to-top order "
-"(the exact reverse of top-to-bottom order)."
-msgstr ""
-"當移除一個場景（或場景中的一部分），場景會自下而上地收到「exit scene」通知"
-"（GDScript 內為 _exit_tree() 回呼函式）"
 
 msgid "Changing current scene"
 msgstr "修改目前場景"

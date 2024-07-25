@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,20 +17,6 @@ msgstr "Création de plugins pour l'écran principal"
 
 msgid "What this tutorial covers"
 msgstr "Ce que couvre ce tutoriel"
-
-#, fuzzy
-msgid ""
-"Main screen plugins allow you to create new UIs in the central part of the "
-"editor, which appear next to the \"2D\", \"3D\", \"Script\", and "
-"\"AssetLib\" buttons. Such editor plugins are referred as \"Main screen "
-"plugins\"."
-msgstr ""
-"Comme on le voit dans la page :ref:`doc_making_plugins`, réaliser un plugin "
-"de base qui étend l'éditeur est assez facile. Ce mécanisme de plugin vous "
-"permet également de créer de nouvelles interfaces utilisateur dans la partie "
-"centrale de l'éditeur, de la même manière que les vues de base en \"2D\", "
-"\"3D\", \"Script\", et \"AssetLib\". Ces plugins éditeur sont appelés \"Main "
-"screen plugins\"."
 
 msgid ""
 "This tutorial leads you through the creation of a basic main screen plugin. "
@@ -67,21 +48,6 @@ msgstr ""
 "``_exit_tree()``, mais pour un plugin pour l'écran principal, nous devons "
 "ajouter quelques méthodes supplémentaires. Ajoutez cinq méthodes "
 "supplémentaires de sorte que le script ressemble à ceci :"
-
-#, fuzzy
-msgid ""
-"The important part in this script is the ``_has_main_screen()`` function, "
-"which is overloaded so it returns ``true``. This function is automatically "
-"called by the editor on plugin activation, to tell it that this plugin adds "
-"a new center view to the editor. For now, we'll leave this script as-is and "
-"we'll come back to it later."
-msgstr ""
-"La partie importante de ce script est la fonction ``has_main_screen()``, qui "
-"est surchargée de sorte qu'elle renvoie ``true``. Cette fonction est "
-"automatiquement appelée par l'éditeur lors de l'activation du plugin, pour "
-"lui indiquer que ce plugin ajoute une nouvelle vue centrale à l'éditeur. "
-"Pour l'instant, nous allons laisser ce script tel quel et nous y reviendrons "
-"plus tard."
 
 msgid "Main screen scene"
 msgstr "Scène de l'écran principal"
@@ -145,24 +111,6 @@ msgstr ""
 "constante qui fait référence à la scène, et nous l'utilisons dans l'instance "
 "`main_panel_instance`."
 
-#, fuzzy
-msgid ""
-"The ``_enter_tree()`` function is called before ``_ready()``. This is where "
-"we instance the main panel scene, and add them as children of specific parts "
-"of the editor. We use ``EditorInterface.get_editor_main_screen()`` to obtain "
-"the main editor screen and add our main panel instance as a child to it. We "
-"call the ``_make_visible(false)`` function to hide the main panel so it "
-"doesn't compete for space when first activating the plugin."
-msgstr ""
-"La fonction ``_enter_tree()`` est appelée avant ``_ready()``. C'est là que "
-"nous instancions la scène d'écran principal, et que nous les ajoutons en "
-"tant qu'enfants de parties spécifiques de l'éditeur. Nous utilisons la "
-"fonction ``get_editor_interface().get_editor_viewport()`` pour obtenir le "
-"viewport et y ajouter notre instance d'écran principal en tant qu'enfant. "
-"Nous appelons la fonction ``make_visible(false)`` pour cacher l'écran "
-"principal afin qu'il ne soit pas en compétition pour l'espace lors de la "
-"première activation du plugin."
-
 msgid ""
 "The ``_exit_tree()`` function is called when the plugin is deactivated. If "
 "the main screen still exists, we call ``queue_free()`` to free the instance "
@@ -171,26 +119,6 @@ msgstr ""
 "La fonction ``_exit_tree()`` est appelée lorsque le plugin est désactivé. Si "
 "l'écran principal existe toujours, nous appelons la fonction "
 "``queue_free()`` pour libérer l'instance et la supprimer de la mémoire."
-
-#, fuzzy
-msgid ""
-"The ``_make_visible()`` function is overridden to hide or show the main "
-"panel as needed. This function is automatically called by the editor when "
-"the user clicks on the main viewport buttons at the top of the editor."
-msgstr ""
-"La fonction ``make_visible()`` est surchargée pour cacher ou montrer le "
-"panneau principal selon les besoins. Cette fonction est automatiquement "
-"appelée par l'éditeur lorsque l'utilisateur clique sur les boutons de la "
-"fenêtre principale en haut de l'éditeur."
-
-#, fuzzy
-msgid ""
-"The ``_get_plugin_name()`` and ``_get_plugin_icon()`` functions control the "
-"displayed name and icon for the plugin's main viewport button."
-msgstr ""
-"Les fonctions ``get_plugin_name()`` et ``get_plugin_icon()`` contrôlent le "
-"nom et l'icône affichés pour le bouton principal de la fenêtre de "
-"visualisation du plugin."
 
 msgid ""
 "Another function you can add is the ``handles()`` function, which allows you "

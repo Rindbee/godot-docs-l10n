@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,16 +122,6 @@ msgstr ""
 msgid "Generating PCK files"
 msgstr "Generování souborů PCK"
 
-#, fuzzy
-msgid ""
-"In order to pack all resources of a project into a PCK file open the project "
-"and go to Project/Export and click on \"Export PCK/Zip\". Also make sure to "
-"have an export template selected while doing so."
-msgstr ""
-"Chcete-li zabalit všechny zdroje projektu do souboru PCK, otevřete projekt, "
-"přejděte do části Projekt/Export a klikněte na \"Exportovat PCK/Zip\". "
-"Ujistěte se také, že je při tom vybrána šablona exportu."
-
 msgid ""
 "Another method would be to :ref:`export from the command line "
 "<doc_command_line_tutorial_exporting>`. If the output file ends with a PCK "
@@ -173,27 +158,6 @@ msgstr ""
 "souboru PCK použili nástroje pro export zabudované v Godotu, jak je popsáno "
 "výše."
 
-#, fuzzy
-msgid ""
-"The developer uses Godot to build a GUI tool for adding their exact API "
-"content to a project. This Godot tool must either run on a tools-enabled "
-"build of the engine or have access to one (distributed alongside or perhaps "
-"in the original game's files). The tool can then use the Godot executable to "
-"export a PCK file from the command line with :ref:`OS.execute() "
-"<class_OS_method_execute>`. The game itself shouldn't use a tool-build of "
-"the engine (for security), so it's best to keep the modding tool and game "
-"separate."
-msgstr ""
-"Vývojář použije Godot k vytvoření nástroje GUI pro přidání přesného API "
-"obsahu do projektu. Tento nástroj Godotu musí buď běžet na enginu sestaveném "
-"s podporou nástrojů, nebo k němu musí mít přístup (distribuovaný spolu s "
-"původní hrou nebo třeba i v jejích souborech). Nástroj pak může použít "
-"spustitelný soubor Godot k exportu souboru PCK z příkazového řádku pomocí "
-"příkazu :ref:`OS.execute() <třída_OS_metoda_execute>`. Největší smysl však "
-"dává, aby hra nebyla sestavena s podporou tohoto nástroje (kvůli "
-"bezpečnosti) a aby modifikační nástroje *využívaly* enginu sestaveného s "
-"podporou nástroje."
-
 msgid "Opening PCK files at runtime"
 msgstr "Otevírání souborů PCK za běhu"
 
@@ -205,22 +169,6 @@ msgstr ""
 "K importu souboru PCK se používá singleton ProjectSettings. Následující "
 "příklad očekává soubor \"mod.pck\" v adresáři spustitelného souboru hry. "
 "Soubor PCK obsahuje v kořenovém adresáři testovací scénu \"mod_scene.tscn\"."
-
-#, fuzzy
-msgid ""
-"By default, if you import a file with the same file path/name as one you "
-"already have in your project, the imported one will replace it. This is "
-"something to watch out for when creating DLC or mods. You can solve this "
-"problem by using a tool that isolates mods to a specific mods subfolder. "
-"However, it is also a way of creating patches for one's own game. A PCK file "
-"of this kind can fix the content of a previously loaded PCK."
-msgstr ""
-"Ve výchozím nastavení, pokud importujete soubor se stejnou cestou/názvem "
-"jako soubor, který již máte v projektu, tento bude nahrazen importovaným "
-"souborem. Na to je třeba dávat pozor při vytváření DLC nebo modů (snadno "
-"řešitelné nástrojem izolujícím mody do konkrétní podsložky modů). Je to však "
-"také způsob, jak vytvářet patche pro vlastní hru. Takovým souborem PCK může "
-"opravit obsah dříve načteného PCK."
 
 msgid ""
 "To opt out of this behavior, pass ``false`` as the second argument to :ref:"
@@ -242,20 +190,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Shrnutí"
-
-#, fuzzy
-msgid ""
-"This tutorial explains how to add mods, patches, or DLC to a game. The most "
-"important thing is to identify how one plans to distribute future content "
-"for their game and develop a workflow that is customized for that purpose. "
-"Godot should make that process smooth regardless of which route a developer "
-"pursues."
-msgstr ""
-"Tento návod by měl ukázat, jak snadné je přidávání modifikací, patchů nebo "
-"DLC do hry. Nejdůležitější je zjistit, jakým způsobem plánuje člověk "
-"distribuovat budoucí obsah pro svou hru, a vytvořit si pracovní postup, "
-"který bude tomuto účelu přizpůsoben. Godot by měl tento proces usnadnit bez "
-"ohledu na to, jakou cestou se vývojář vydá."
 
 msgid "Translation status"
 msgstr "Stav překladu"

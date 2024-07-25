@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,14 +14,6 @@ msgstr ""
 
 msgid "Using Containers"
 msgstr "使用容器"
-
-#, fuzzy
-msgid ""
-":ref:`Anchors <doc_size_and_anchors>` are an efficient way to handle "
-"different aspect ratios for basic multiple resolution handling in GUIs."
-msgstr ""
-":ref:`錨點 <doc_size_and_anchors>`是處理 GUI 中基本多解析度處理的不同縱橫比的"
-"有效方法，"
 
 msgid "For more complex user interfaces, they can become difficult to use."
 msgstr "對於更複雜的使用者介面, 它們可能會變得難以使用."
@@ -169,17 +156,6 @@ msgstr "Godot提供了幾種開箱即用的容器型別, 因為它們有不同�
 msgid "Box Containers"
 msgstr "盒式容器"
 
-#, fuzzy
-msgid ""
-"Arranges child controls vertically or horizontally (via :ref:`HBoxContainer "
-"<class_HBoxContainer>` and :ref:`VBoxContainer <class_VBoxContainer>`). In "
-"the opposite of the designated direction (as in, vertical for a horizontal "
-"container), it just expands the children."
-msgstr ""
-"將子控制項垂直或者水平排列（使用 :ref:`HBoxContainer <class_HBoxContainer>` "
-"和 :ref:`VBoxContainer <class_VBoxContainer>` ）。而在相對方向上（比如水平容"
-"器的垂直方向），子節點會被擴充。"
-
 msgid ""
 "These containers make use of the *Ratio* property for children with the "
 "*Expand* flag set."
@@ -304,58 +280,6 @@ msgid ""
 msgstr ""
 "正如上面的例子中所展示的，使用此容器最常見的方法之一，是將 *VBoxContainer* 作"
 "為子容器一起使用。"
-
-#, fuzzy
-msgid "AspectRatioContainer"
-msgstr "建立內容"
-
-msgid ""
-"A container type that arranges its child controls in a way that preserves "
-"their proportions automatically when the container is resized. (via :ref:"
-"`AspectRatioContainer <class_AspectRatioContainer>`). It has multiple "
-"stretch modes, providing options for adjusting the child controls' sizes "
-"concerning the container: \"fill,\" \"width control height,\" \"height "
-"control width,\" and \"cover.\""
-msgstr ""
-
-msgid ""
-"useful when you have a container that needs to be dynamic and responsive to "
-"different screen sizes, and you want the child elements to scale "
-"proportionally without losing their intended shapes."
-msgstr ""
-
-#, fuzzy
-msgid "FlowContainer"
-msgstr "容器"
-
-#, fuzzy
-msgid ""
-"FlowContainer is a container that arranges its child controls either "
-"horizontally or vertically, (via :ref:`HFlowContainer "
-"<class_HFlowContainer>` and via :ref:`VFlowContainer "
-"<class_VFlowContainer>`). and when the available space runs out, it wraps "
-"the children to the next line or column, similar to how text wraps in a book."
-msgstr ""
-"將子控制項垂直或者水平排列（使用 :ref:`HBoxContainer <class_HBoxContainer>` "
-"和 :ref:`VBoxContainer <class_VBoxContainer>` ）。而在相對方向上（比如水平容"
-"器的垂直方向），子節點會被擴充。"
-
-msgid ""
-"useful for creating flexible layouts where the child controls adjust "
-"automatically to the available space without overlapping."
-msgstr ""
-
-#, fuzzy
-msgid "CenterContainer"
-msgstr "PanelContainer"
-
-msgid ""
-"CenterContainer is a container that automatically keeps all of its child "
-"controls centered within it at their minimum size. It ensures that the child "
-"controls are always aligned to the center, making it easier to create "
-"centered layouts without manual positioning. (via :ref:`CenterContainer "
-"<class_CenterContainer>`)."
-msgstr ""
 
 msgid "SubViewportContainer"
 msgstr "建立內容"

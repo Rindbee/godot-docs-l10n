@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,15 +36,6 @@ msgstr ""
 "Godot提供伪本地化作为测试项目在区域设定变更时的稳健性的一种方法。伪本地化模拟"
 "本地化期间可能发生的变化。这样，任何有关国际化的问题都可以在开发过程的早期就"
 "被辨识出来。"
-
-#, fuzzy
-msgid ""
-"You can see how pseudolocalization works in action using the "
-"`Pseudolocalizaton demo project <https://github.com/godotengine/godot-demo-"
-"projects/tree/master/gui/pseudolocalization>`__."
-msgstr ""
-"如果您更善于通过查看示例学习，可以在\\ `这里 <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/mobile/android_iap>`__\\ 找到演示项目。"
 
 msgid "Enabling and configuring pseudolocalization"
 msgstr "伪本地化的启用和配置"
@@ -142,12 +128,6 @@ msgid ""
 msgstr ""
 "“skip_placeholders”：跳过字串格式的占位符，如“%s”和“%f”。这对于识别需要更多参"
 "数才能正确显示格式化字串的位置很有用。"
-
-#, fuzzy
-msgid ""
-"All of these properties can be toggled as needed according to the project's "
-"use case."
-msgstr "可以通过代码配置这些属性，也可以在“检查器”中对其进行编辑。"
 
 msgid "Configuring pseudolocalization at runtime"
 msgstr "运行时配置伪本地化"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,10 +94,6 @@ msgstr ""
 msgid "No C#/Mono support."
 msgstr "C#/Mono не поддерживается."
 
-#, fuzzy
-msgid "No GDExtension support."
-msgstr "Нет поддержки GDNative."
-
 msgid ""
 "No debugging support. This means GDScript debugging/profiling, live scene "
 "editing, the Remote Scene tree dock and other features that rely on the "
@@ -174,16 +165,6 @@ msgid ""
 msgstr ""
 "Укажите файл ZIP для предварительной загрузки в файловую систему HTML5 с "
 "помощью ввода **Предварительная загрузка ZIP проекта**."
-
-#, fuzzy
-msgid ""
-"Run the editor by clicking **Start Godot editor**. The Godot Project Manager "
-"should appear after 10-20 seconds. On slower machines or connections, "
-"loading may take up to a minute."
-msgstr ""
-"Запустите редактор, нажав **Запустить редактор Godot**. Менеджер проекта "
-"Godot должен появиться через 10-20 секунд. На более медленных машинах или "
-"подключениях загрузка может занять до минуты."
 
 msgid ""
 "In the dialog that appears at the middle of the window, specify a name for "

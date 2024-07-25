@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,12 +47,6 @@ msgstr ""
 msgid "There are two ways to add/remove nodes to groups:"
 msgstr "为分组添加/移除节点有两种方法："
 
-#, fuzzy
-msgid ""
-"During design, by using the Node dock in the editor, or the Global Groups in "
-"project settings."
-msgstr "编辑器模式下，可以使用编辑器的“节点”面板。"
-
 msgid ""
 "During execution, by calling :ref:`Node.add_to_group() "
 "<class_Node_method_add_to_group>` or :ref:`Node.remove_from_group() "
@@ -69,64 +58,6 @@ msgstr ""
 
 msgid "Using the Node dock"
 msgstr "使用节点面板"
-
-#, fuzzy
-msgid "You can create new groups using the Groups tab in the Node dock."
-msgstr "可以使用“节点”停靠面板中的“分组”选项卡，将当前场景中的节点加进分组中。"
-
-#, fuzzy
-msgid ""
-"Select one or more nodes in the Scene dock then click the add button with "
-"the + symbol."
-msgstr "在“场景”面板中选中若干个节点，在输入框中填写分组名称，然后单击“添加”。"
-
-msgid ""
-"You should now see the Create New Group modal appear. Write the group name "
-"in the field."
-msgstr ""
-
-msgid ""
-"You can optionally mark the option \"Global\", which will make the group "
-"visible project-wide, and able to be reused in any project scene. This will "
-"also allow you to give it a description."
-msgstr ""
-
-msgid "When done, press Ok to create it."
-msgstr ""
-
-msgid ""
-"You should see the new groups appear in the Groups tab under Scene Groups if "
-"the Global option was unmarked, or under Global Groups if that option was "
-"marked."
-msgstr ""
-
-msgid ""
-"Selected Node(s) from the Scene dock can be added into groups by marking the "
-"checkbox on the left side of the groups in the Groups dock. The node(s) you "
-"had selected when creating a new group will be automatically checked."
-msgstr ""
-
-msgid ""
-"All groups present in the project that were marked as Global, created from "
-"any scene, will be visible under Global Groups."
-msgstr ""
-
-msgid ""
-"Any other group derived from nodes in the current scene will appear under "
-"Scene Groups."
-msgstr ""
-
-msgid ""
-"The same underlying logic is used for both Global and Scene groups. Groups "
-"with the same name are considered one and the same. This feature is purely "
-"organizational."
-msgstr ""
-
-msgid ""
-"You can manage Global Groups in the Global Groups dock, inside Project "
-"Settings. There, you will be able to add new global groups, or change "
-"existing groups' names and descriptions."
-msgstr ""
 
 msgid "Using code"
 msgstr "使用代码"

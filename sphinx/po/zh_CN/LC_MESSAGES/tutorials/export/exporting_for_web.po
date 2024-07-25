@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,33 +23,12 @@ msgstr ""
 "这个页面描述的是如何将 Godot 项目导出到 HTML。如果你想要找的是从源码编译编辑"
 "器或导出模板二进制文件，请阅读 :ref:`doc_compiling_for_web`\\ 。"
 
-#, fuzzy
-msgid ""
-"HTML5 export allows publishing games made in Godot Engine to the browser. "
-"This requires support for `WebAssembly <https://webassembly.org/>`__, `WebGL "
-"<https://www.khronos.org/webgl/>`__ and `SharedArrayBuffer <https://"
-"developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/"
-"SharedArrayBuffer>`_ in the user's browser."
-msgstr ""
-"HTML5导出允许将在Godot引擎中制作的游戏发布到浏览器. 这需要在用户浏览器中支持 "
-"`WebAssembly <https://webassembly.org/>`__ 和 `WebGL <https://www.khronos."
-"org/webgl/>`__ ."
-
 msgid ""
 "Projects written in C# using Godot 4 currently cannot be exported to the "
 "web. To use C# on web platforms, use Godot 3 instead."
 msgstr ""
 "使用Godot 4以C#编写的项目目前无法导出到Web。若要在Web平台上使用C#，请改用"
 "Godot 3。"
-
-#, fuzzy
-msgid ""
-"Use the browser-integrated developer console, usually opened with :kbd:`F12` "
-"(:kbd:`Cmd + Option + I` on macOS), to view **debug information** like "
-"JavaScript, engine, and WebGL errors."
-msgstr ""
-"使用浏览器集成的开发人员控制台, 通常使用 :kbd:`F12` 打开, 来查看 **调试信息"
-"** , 如Javascript, 引擎和WebGL错误."
 
 msgid ""
 "Godot 4's HTML5 exports currently cannot run on macOS and iOS due to "
@@ -106,21 +80,6 @@ msgid ""
 msgstr ""
 "如果可以使用可运行的Web导出模板, 则编辑器中的 *停止场景* 和 *播放编辑的场景* "
 "按钮之间会出现一个按钮, 可以在默认浏览器中快速打开游戏进行测试."
-
-msgid ""
-"If your project uses GDExtension **Extension Support** needs to be enabled."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If you plan to use :ref:`VRAM compression <doc_importing_images>` make sure "
-"that **Vram Texture Compression** is enabled for the targeted platforms "
-"(enabling both **For Desktop** and **For Mobile** will result in a bigger, "
-"but more compatible export)."
-msgstr ""
-"如果你打算使用 :ref:`VRAM compression <doc_import_images>` ，请确保为目标平台"
-"启用 **Vram Texture Compression** （同时启用 **For Desktop** 和 **For "
-"Mobile** 将导致更大，但更兼容的导出）。"
 
 msgid ""
 "If a path to a **Custom HTML shell** file is given, it will be used instead "
@@ -406,15 +365,6 @@ msgstr ""
 "生成的 ``.html`` 文件可以在 Apache 服务器中用作 ``DirectoryIndex``\\ ，文件名"
 "可以随便修改，比如可以改成 ``index.html``\\ 。默认情况下不会用到这个名称。"
 
-#, fuzzy
-msgid ""
-"The HTML page draws the game at maximum size within the browser window. This "
-"way, it can be inserted into an ``<iframe>`` with the game's size, as is "
-"common on most web game hosting sites."
-msgstr ""
-"HTML页面在浏览器窗口内以最大尺寸绘制游戏. 这样, 就可以将其插入游戏大小的 "
-"``<iframe>`` 中, 这在大多数网络游戏托管站点中很常见."
-
 msgid ""
 "The other exported files are served as they are, next to the ``.html`` file, "
 "names unchanged. The ``.wasm`` file is a binary WebAssembly module "
@@ -507,15 +457,6 @@ msgid ""
 msgstr ""
 "请注意，对于生产用例，不应使用此基于Python的Web服务器。相反，你应该使用已建立"
 "的Web服务器，例如Apache或nginx。"
-
-#, fuzzy
-msgid "Interacting with the browser and JavaScript"
-msgstr "与检查器交互"
-
-msgid ""
-"See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
-"with JavaScript and access some unique Web browser features."
-msgstr ""
 
 msgid "Environment variables"
 msgstr "环境变量"

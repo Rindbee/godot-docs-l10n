@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,24 +46,6 @@ msgstr ""
 "Dirígete a la carpeta raíz de Godot y abre una ventana de Command Prompt o "
 "PowerShell."
 
-#, fuzzy
-msgid ""
-"Run ``scons platform=windows vsproj=yes dev_build=yes`` to generate the "
-"solution with debug symbols."
-msgstr ""
-"Ejecuta el comando ``scons platform=windows vsproj=yes`` para generar la "
-"solución."
-
-msgid ""
-"The ``vsproj`` parameter signals that you want Visual Studio solution "
-"generated."
-msgstr ""
-
-msgid ""
-"The ``dev_build`` parameter makes sure the debug symbols are included, "
-"allowing to e.g. step through code using breakpoints."
-msgstr ""
-
 msgid ""
 "You can now open the project by double-clicking on the ``godot.sln`` in the "
 "project root or by using the **Open a project or solution** option inside of "
@@ -80,14 +57,6 @@ msgstr ""
 
 msgid "Use the **Build** top menu to build the project."
 msgstr "Utiliza el menú superior **Build** para compilar el proyecto."
-
-#, fuzzy
-msgid ""
-"Visual Studio must be configured with the C++ package. It can be selected in "
-"the installer:"
-msgstr ""
-"Visual Studio debe configurarse con el paquete de C++. Puedes seleccionarlo "
-"durante la instalación:"
 
 msgid "Debugging the project"
 msgstr "Depurando el proyecto"
@@ -102,43 +71,12 @@ msgstr ""
 "específicos del código, inspeccionar el contexto de ejecución actual y "
 "realizar cambios en vivo en el código."
 
-#, fuzzy
-msgid ""
-"You can launch the project with the debugger attached using the **Debug > "
-"Start Debugging** option from the top menu. However, unless you want to "
-"debug the Project Manager specifically, you'd need to configure debugging "
-"options first. This is due to the fact that when the Godot Project Manager "
-"opens a project, the initial process is terminated and the debugger gets "
-"detached."
-msgstr ""
-"Puedes ejecutar el proyecto con el depurador adjunto utilizando la opción "
-"**Debug > Start Debugging** del menú superior. Sin embargo, a menos que "
-"desees depurar específicamente el administrador de proyectos de Godot, "
-"primero debes configurar las opciones de depuración. Esto se debe a que "
-"cuando el administrador de proyectos de Godot abre un proyecto, el proceso "
-"inicial se termina y el depurador se desconecta."
-
 msgid ""
 "To configure the launch options to use with the debugger use **Project > "
 "Properties** from the top menu:"
 msgstr ""
 "Para configurar las opciones de lanzamiento que se utilizarán con el "
 "depurador, selecciona **Project > Properties** desde el menú superior:"
-
-#, fuzzy
-msgid ""
-"Open the **Debugging** section and under **Command Arguments** add two new "
-"arguments: the ``-e`` flag opens the editor instead of the Project Manager, "
-"and the ``--path`` argument tells the executable to open the specified "
-"project (must be provided as an *absolute* path to the project root, not the "
-"``project.godot`` file; if the path contains spaces be sure to pass it "
-"inside double quotation marks)."
-msgstr ""
-"Abre la sección **Debugging** y bajo **Command Arguments**, agrega dos "
-"nuevos argumentos: la bandera ``-e`` abre el editor en lugar del gestor de "
-"proyectos, y el argumento ``--path`` indica al ejecutable que abra el "
-"proyecto especificado (debe proporcionarse como una ruta *absoluta* al "
-"directorio raíz del proyecto, no al archivo ``project.godot``)."
 
 msgid ""
 "To learn more about command line arguments, refer to the :ref:`command line "

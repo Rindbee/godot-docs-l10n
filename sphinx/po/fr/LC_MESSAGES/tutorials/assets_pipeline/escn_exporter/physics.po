@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,15 +21,6 @@ msgid ""
 msgstr ""
 "L'exportation des propriétés physiques se fait en activant \"Rigid Body\" "
 "dans l'onglet physique de Blender :"
-
-#, fuzzy
-msgid ""
-"By default, a single Blender object with rigid body enabled will export as "
-"three nodes: a PhysicsBody, a CollisionShape, and a MeshInstance3D."
-msgstr ""
-"Par défaut, un seul objet Blender avec un corps rigide activé exportera sous "
-"la forme de trois nœuds : un PhysicsBody, un CollisionShape et un "
-"MeshInstance."
 
 msgid "Body type"
 msgstr "Type de corps"

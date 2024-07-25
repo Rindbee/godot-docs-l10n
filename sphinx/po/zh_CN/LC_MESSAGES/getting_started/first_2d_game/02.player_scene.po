@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +57,6 @@ msgstr ""
 "名称更改为 ``Player``. 我们已经设置好了场景的根节点, 现在可以向该角色中添加其"
 "他节点来增加功能."
 
-#, fuzzy
 msgid ""
 "Before we add any children to the ``Player`` node, we want to make sure we "
 "don't accidentally move or resize them by clicking on them. Select the node "
@@ -70,9 +64,9 @@ msgid ""
 "selected node with its children. This causes the parent to be selected when "
 "any child node is clicked in 2D and 3D view.\""
 msgstr ""
-"在将任何子级添加到 ``Player`` 节点之前，我们要确保不会通过点击它们而意外地移"
-"动它们或调整其大小。请选中该节点，然后点击锁右侧的图标；它的工具提示显示“确保"
-"对象的子级不可选择”"
+"在将任何子节点添加到 ``Player`` 节点之前，我们要确保不会通过点击它们来意外移"
+"动它们或调整它们的大小。选择该节点并单击锁右侧的图标。其工具提示显示“将所选节"
+"点与其子节点组合。这样在 2D 和 3D 视图中点击子节点就会选中父节点。”"
 
 msgid ""
 "Save the scene. Click Scene -> Save, or press :kbd:`Ctrl + S` on Windows/"
@@ -106,7 +100,6 @@ msgstr ""
 msgid "Sprite animation"
 msgstr "精灵动画"
 
-#, fuzzy
 msgid ""
 "Click on the ``Player`` node and add (:kbd:`Ctrl + A` on Windows/Linux or :"
 "kbd:`Cmd + A` on macOS) a child node :ref:`AnimatedSprite2D "
@@ -119,13 +112,13 @@ msgid ""
 "> \"New SpriteFrames\". Click on the ``SpriteFrames`` you just created to "
 "open the \"SpriteFrames\" panel:"
 msgstr ""
-"点击 ``Player`` 节点并添加（在 Windows/Linux 中按\\ :kbd:`Ctrl + A`\\，或者"
-"在 macOS 中按 :kbd:`Cmd + A`）一个 :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>` 节点作为子节点。\\ ``AnimatedSprite2D`` 将处理我们"
-"玩家的外观和动画。请注意，节点旁边有一个警告符号。\\ ``AnimatedSprite2D`` 需"
-"要一个 :ref:`SpriteFrames <class_SpriteFrames>` 资源，该资源是一个可显示的动"
-"画列表。要创建它，在“检查器”的 ``Animation`` 选项卡中找到 ``Sprite Frames`` "
-"属性，然后点击“[空]”->“新建 SpriteFrames”。再次点击来打开 ``SpriteFrames`` 面"
+"点击 ``Player`` 节点并添加 (:kbd:`Ctrl + A` 在 Windows/Linux 上或 :kbd:`Cmd "
+"+ A` 在 macOS 上) 一个子节点 :ref:`AnimatedSprite2D "
+"<class_AnimatedSprite2D>`。``AnimatedSprite2D`` 将处理我们玩家的外观和动画。"
+"注意节点旁边有一个警告符号。``AnimatedSprite2D`` 需要一个 :ref:`SpriteFrames "
+"<class_SpriteFrames>` 资源，这是它可以显示的动画列表。要创建一个，在检查器的 "
+"``Animation`` 选项卡下找到 ``Sprite Frames`` 属性并点击 \"[empty]\" -> \"New "
+"SpriteFrames\"。点击刚刚创建的 ``SpriteFrames`` 以打开 \"SpriteFrames\" 面"
 "板："
 
 msgid ""

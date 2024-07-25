@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Animating thousands of fish with MultiMeshInstance3D"
-msgstr "Animación de miles de objetos con MultiMeshInstance"
 
 msgid ""
 "This tutorial explores a technique used in the game `ABZU <https://www."
@@ -32,18 +23,6 @@ msgstr ""
 "animar miles de peces usando animación de vértices e instanciación estática "
 "de malla."
 
-#, fuzzy
-msgid ""
-"In Godot, this can be accomplished with a custom :ref:`Shader "
-"<class_Shader>` and a :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>`. Using the following technique you can render "
-"thousands of animated objects, even on low end hardware."
-msgstr ""
-"En Godot, esto se puede lograr con un personalizado :ref:`Shader "
-"<class_Shader>` y una :ref:`MultiMeshInstance <class_MultiMeshInstance>`. "
-"Usando la siguiente técnica puedes renderizar miles de objetos animados, "
-"incluso en hardware de gama baja."
-
 msgid ""
 "We will start by animating one fish. Then, we will see how to extend that "
 "animation to thousands of fish."
@@ -54,50 +33,12 @@ msgstr ""
 msgid "Animating one Fish"
 msgstr "Animando un objeto"
 
-#, fuzzy
-msgid ""
-"We will start with a single fish. Load your fish model into a :ref:"
-"`MeshInstance3D <class_MeshInstance3D>` and add a new :ref:`ShaderMaterial "
-"<class_ShaderMaterial>`."
-msgstr ""
-"Empezaremos con un solo pez. Carga tu modelo de pez en un :ref:`MeshInstance "
-"<class_MeshInstance>` y añade un nuevo :ref:`ShaderMaterial "
-"<class_ShaderMaterial>`."
-
 msgid ""
 "Here is the fish we will be using for the example images, you can use any "
 "fish model you like."
 msgstr ""
 "Aquí está el pez que usaremos para las imágenes de ejemplo, puedes usar "
 "cualquier modelo de pez que quieras."
-
-#, fuzzy
-msgid ""
-"The fish model in this tutorial is made by `QuaterniusDev <https://"
-"quaternius.com>`_ and is shared with a creative commons license. CC0 1.0 "
-"Universal (CC0 1.0) Public Domain Dedication https://creativecommons.org/"
-"publicdomain/zero/1.0/"
-msgstr ""
-"El modelo de pez en este tutorial está hecho por `QuaterniusDev <http://"
-"quaternius.com>`_ y se comparte con una licencia creative commons. CC0 1.0 "
-"Universal (CC0 1.0) Public Domain Dedication https://creativecommons.org/"
-"publicdomain/zero/1.0/"
-
-#, fuzzy
-msgid ""
-"Typically, you would use bones and a :ref:`Skeleton3D <class_Skeleton3D>` to "
-"animate objects. However, bones are animated on the CPU and so you end "
-"having to calculate thousands of operations every frame and it becomes "
-"impossible to have thousands of objects. Using vertex animation in a vertex "
-"shader, you avoid using bones and can instead calculate the full animation "
-"in a few lines of code and completely on the GPU."
-msgstr ""
-"Típicamente, usarías huesos y un :ref:`Skeleton <class_Skeleton>` para "
-"animar objetos. Sin embargo, los huesos se animan en la CPU y así terminas "
-"teniendo que calcular miles de operaciones en cada fotograma y se hace "
-"imposible tener miles de objetos. Usando la vertex animation en un vertex "
-"sharder, evitas usar huesos y puedes en cambio calcular la animación "
-"completa en unas pocas líneas de código y completamente en la GPU."
 
 msgid "The animation will be made of four key motions:"
 msgstr "La animación se hará con cuatro claves de movimiento:"
@@ -298,34 +239,6 @@ msgstr ""
 msgid "Making a school of fish"
 msgstr "Hacer un banco de peces"
 
-#, fuzzy
-msgid ""
-"Godot makes it easy to render thousands of the same object using a "
-"MultiMeshInstance3D node."
-msgstr ""
-"Godot facilita la renderización de miles de un mismo objeto utilizando un "
-"nodo MultiMeshInstance."
-
-#, fuzzy
-msgid ""
-"A MultiMeshInstance3D node is created and used the same way you would make a "
-"MeshInstance3D node. For this tutorial, we will name the MultiMeshInstance3D "
-"node ``School``, because it will contain a school of fish."
-msgstr ""
-"Se crea un nodo MultiMeshInstance y se utiliza de la misma manera que se "
-"haría un nodo MeshInstance. Para este tutorial, nombraremos al nodo "
-"MultiMeshInstance ``School``, porque contendrá un banco de peces."
-
-#, fuzzy
-msgid ""
-"Once you have a MultiMeshInstance3D add a :ref:`MultiMesh "
-"<class_MultiMesh>`, and to that MultiMesh add your :ref:`Mesh <class_Mesh>` "
-"with the shader from above."
-msgstr ""
-"Una vez que tengas una MultiMeshInstance agrega un :ref:`MultiMesh "
-"<class_MultiMesh>`, y a esa MultiMesh agrega tu :ref:`Mesh <class_Mesh>` con "
-"el shader superior."
-
 msgid ""
 "MultiMeshes draw your Mesh with three additional per-instance properties: "
 "Transform (rotation, translation, scale), Color, and Custom. Custom is used "
@@ -380,16 +293,6 @@ msgstr ""
 "Lo siguiente que necesitamos es establecer las transformaciones por "
 "instancia."
 
-#, fuzzy
-msgid ""
-"There are two ways to set per-instance transforms for MultiMeshes. The first "
-"is entirely in editor and is described in the :ref:`MultiMeshInstance3D "
-"tutorial <doc_using_multi_mesh_instance>`."
-msgstr ""
-"Hay dos formas de establecer transformaciones por instancia para "
-"MultiMeshes. La primera está completamente en el editor y es descrita en el :"
-"ref:`MultiMeshInstance tutorial <doc_using_multi_mesh_instance>`."
-
 msgid ""
 "The second is to loop over all the instances and set their transforms in "
 "code. Below, we use GDScript to loop over all the instances and set their "
@@ -399,21 +302,6 @@ msgstr ""
 "transformaciones en código. A continuación, usamos GDScript para hacer un "
 "bucle sobre todas las instancias y establecer su transformación en una "
 "posición aleatoria."
-
-#, fuzzy
-msgid ""
-"Running this script will place the fish in random positions in a box around "
-"the position of the MultiMeshInstance3D."
-msgstr ""
-"Ejecutar este guión colocará a los peces en posiciones aleatorias en una "
-"caja alrededor de la posición de la MultiMeshInstance."
-
-#, fuzzy
-msgid ""
-"If performance is an issue for you, try running the scene with fewer fish."
-msgstr ""
-"Si la actuación es un problema para ti, intenta hacer la escena con GLES2 o "
-"con menos peces."
 
 msgid ""
 "Notice how all the fish are all in the same position in their swim cycle? It "
@@ -467,30 +355,6 @@ msgid ""
 msgstr ""
 "Incluso puedes experimentar con el cambio de color por instancia de la misma "
 "manera que cambiaste el valor personalizado por instancia."
-
-#, fuzzy
-msgid ""
-"One problem that you will run into at this point is that the fish are "
-"animated, but they are not moving. You can move them by updating the per-"
-"instance transform for each fish every frame. Although doing so will be "
-"faster than moving thousands of MeshInstance3Ds per frame, it'll still "
-"likely be slow."
-msgstr ""
-"Un problema con el que te encontrarás en este punto es que los peces están "
-"animados, pero no se mueven. Puedes moverlos actualizando la transformación "
-"por instancia de cada pez en cada fotograma. Aunque hacerlo será más rápido "
-"que mover miles de MeshInstances por fotograma, es probable que siga siendo "
-"lento."
-
-#, fuzzy
-msgid ""
-"In the next tutorial we will cover how to use :ref:`GPUParticles3D "
-"<class_GPUParticles3D>` to take advantage of the GPU and move each fish "
-"around individually while still receiving the benefits of instancing."
-msgstr ""
-"En el próximo tutorial cubriremos cómo usar :ref:`Particles "
-"<class_Particles>` para aprovechar la GPU y mover cada pez individualmente "
-"mientras se reciben los beneficios del instanciamiento."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,25 +44,9 @@ msgstr ""
 "brace/Godot-3.0-Noise-Shaders/blob/master/assets/gpu_noise_shaders/"
 "classic_perlin3d.tres>`_です)。"
 
-#, fuzzy
-msgid ""
-"Create a Sprite2D and assign a :ref:`class_ShaderMaterial` to its material "
-"slot:"
-msgstr ""
-"スプライトを作成し、マテリアルスロットに :ref:`class_ShaderMaterial` を割り当"
-"てます:"
-
 msgid "Assign :ref:`class_VisualShader` to the shader slot of the material:"
 msgstr ""
 ":ref:`class_VisualShader` をマテリアルのシェーダースロットに割り当てます:"
-
-#, fuzzy
-msgid ""
-"Don't forget to change its mode to \"CanvasItem\" (if you are using a "
-"Sprite2D):"
-msgstr ""
-"モードを \"CanvasItem\" に変更することを忘れないでください(スプライトを使用し"
-"ている場合):"
 
 msgid ""
 "Create a script which derives from :ref:`class_VisualShaderNodeCustom`. This "
@@ -75,16 +54,6 @@ msgid ""
 msgstr ""
 ":ref:`class_VisualShaderNodeCustom` から派生するスクリプトを作成します。プラ"
 "グインを初期化するために必要なのはこれだけです。"
-
-#, fuzzy
-msgid ""
-"Save it and open the Visual Shader. You should see your new node type within "
-"the member's dialog under the Addons category (if you can't see your new "
-"node, try restarting the editor):"
-msgstr ""
-"保存して、ビジュアルシェーダーを開きます。メンバーのダイアログ内に新しいノー"
-"ドタイプが表示されます(新しいノードが表示されない場合は、エディタを再起動して"
-"ください):"
 
 msgid "Place it on a graph and connect the required ports:"
 msgstr "グラフに配置し、必要なポートを接続します:"

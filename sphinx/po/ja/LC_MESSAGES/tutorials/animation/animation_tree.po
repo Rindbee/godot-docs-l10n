@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using AnimationTree"
-msgstr "アニメーションツリー"
-
 msgid "Introduction"
 msgstr "はじめに"
-
-#, fuzzy
-msgid ""
-"With :ref:`AnimationPlayer <class_AnimationPlayer>`, Godot has one of the "
-"most flexible animation systems that you can find in any game engine. The "
-"ability to animate almost any property in any node or resource, as well as "
-"having dedicated transform, bezier, function calling, audio and sub-"
-"animation tracks, is pretty much unique."
-msgstr ""
-"\\ :ref:`AnimationPlayer <class_AnimationPlayer>`\\ と合わせて、Godotはあらゆ"
-"るゲームエンジンの中でもトップクラスの柔軟性をもつアニメーション・システムを"
-"もっています。トランスフォーム、ベジェ曲線、関数呼び出し、オーディオや副アニ"
-"メーションのトラックが用意されているのみならず、あらゆるノードやリソースのど"
-"んなプロパティでもアニメーションできることは、非常に独特です。"
 
 msgid ""
 "However, the support for blending those animations via ``AnimationPlayer`` "
@@ -104,30 +81,12 @@ msgstr ""
 "参考例として、\\ `三人称視点シューターデモ <https://github.com/godotengine/"
 "tps-demo>`_\\ (英語) もそうなっています。"
 
-#, fuzzy
-msgid ""
-"A new scene was created for the player with a ``CharacterBody3D`` as root. "
-"Inside this scene, the original ``.dae`` (Collada) file was instantiated and "
-"an ``AnimationTree`` node was created."
-msgstr ""
-"プレイヤー用の新しいシーンは\\ ``KinematicBody``\\ をルートにして作られていま"
-"す。このシーンの中には、元の\\ ``.dae``\\ (Collada)ファイルがインスタンス化さ"
-"れ、\\ ``AnimationTree``\\ ノードが作成されてあります。"
-
 msgid "Creating a tree"
 msgstr "ツリーの作成"
 
 msgid ""
 "There are three main types of nodes that can be used in ``AnimationTree``:"
 msgstr "\\ ``AnimationTree``\\ では主に3種類のノードが使えます:"
-
-#, fuzzy
-msgid ""
-"Animation nodes, which reference an animation from the linked "
-"``AnimationPlayer``."
-msgstr ""
-"アニメーション・ノード。リンクされた\\ ``AnimationTree``\\ のアニメーションを"
-"参照します。"
 
 msgid "Animation Root nodes, which are used to blend sub-nodes."
 msgstr "アニメーションルート・ノード。副ノードとのブレンドに使われます。"
@@ -247,80 +206,14 @@ msgstr ""
 "このノードは、副アニメーションを実行し、完了すると元に戻ります。フィルターだ"
 "けでなく、フェードインとフェードアウトのブレンド時間もカスタマイズできます。"
 
-msgid ""
-"After setting the request and changing the animation playback, the one-shot "
-"node automatically clears the request on the next process frame by setting "
-"its ``request`` value to ``AnimationNodeOneShot.ONE_SHOT_REQUEST_NONE``."
-msgstr ""
-
-#, fuzzy
-msgid "TimeSeek"
-msgstr "\\ TimeScale"
-
-#, fuzzy
-msgid ""
-"This node can be used to cause a seek command to happen to any sub-children "
-"of the animation graph. Use this node type to play an ``Animation`` from the "
-"start or a certain playback position inside the ``AnimationNodeBlendTree``."
-msgstr ""
-"このノードは、グラフのどんな副子ノードに対してもシーク命令を送ります。時間を"
-"セットした後は、値は -1 に戻ります。"
-
-msgid ""
-"After setting the time and changing the animation playback, the seek node "
-"automatically goes into sleep mode on the next process frame by setting its "
-"``seek_request`` value to ``-1.0``."
-msgstr ""
-
 msgid "TimeScale"
 msgstr "\\ TimeScale"
-
-#, fuzzy
-msgid ""
-"Allows scaling the speed of the animation (or reverse it) connected to the "
-"`in` input via the `scale` parameter. Setting the `scale` to 0 will pause "
-"the animation."
-msgstr ""
-"アニメーションの再生速度の変更 (あるいは逆再生) を可能にします。0 にセットす"
-"るとアニメーションを一時停止します。"
 
 msgid "Transition"
 msgstr "トランジション"
 
-#, fuzzy
-msgid ""
-"Very simple state machine (when you don't want to cope with a "
-"``StateMachine`` node). Animations can be connected to the outputs and "
-"transition times can be specified. After setting the request and changing "
-"the animation playback, the transition node automatically clears the request "
-"on the next process frame by setting its ``transition_request`` value to an "
-"empty string (``\"\"``)."
-msgstr ""
-"とても単純なステートマシンです (\\ ``StateMachine``\\ ノードを扱いたくない時"
-"に)。複数のアニメーションを接続でき、トランジションの時間を指定できます。"
-
 msgid "BlendSpace2D"
 msgstr "\\ BlendSpace2D"
-
-#, fuzzy
-msgid ""
-"``BlendSpace2D`` is a node to do advanced blending in two dimensions. Points "
-"are added to a two-dimensional space and then a position can be controlled "
-"to determine blending:"
-msgstr ""
-"\\ ``BlendSpace2D``\\ は二次元でより高度なブレンドをするためのノードです。二"
-"次元空間に点を追加し、それらの位置をコントロールしてブレンドを決めます。"
-
-#, fuzzy
-msgid ""
-"The ranges in X and Y can be controlled (and labeled for convenience). By "
-"default, points can be placed anywhere (right-click on the coordinate system "
-"or use the *add point* button) and triangles will be generated automatically "
-"using Delaunay."
-msgstr ""
-"X および Y の範囲でコントロールできます (それぞれ別の名称に変更可)。デフォル"
-"トでは、点はどこにでも置けます(座標系の上で右クリックするか、\\ *点を作成*\\ "
-"ボタンを使う)。三角形はドロネー分割で自動生成されます。"
 
 msgid ""
 "It is also possible to draw the triangles manually by disabling the *auto "
@@ -355,22 +248,6 @@ msgstr ""
 
 msgid "StateMachine"
 msgstr "\\ StateMachine"
-
-#, fuzzy
-msgid ""
-"This node acts as a state machine with root nodes as states. Root nodes can "
-"be created and connected via lines. States are connected via *Transitions*, "
-"which are connections with special properties. Transitions are uni-"
-"directional, but two can be used to connect in both directions."
-msgstr ""
-"このノードは比較的シンプルなステートマシンです。ルートノードを作り、線をつな"
-"いで接続します。ステートは、独自のプロパティを持つ\\ *トランジション*\\ を用"
-"いて接続します。トランジションは一方通行ですが、ふたつを互いに接続させあうこ"
-"とができます。"
-
-#, fuzzy
-msgid "There are many types of transition:"
-msgstr "トランジションにはいくつもの種類があります:"
 
 msgid ""
 "*Immediate*: Will switch to the next state immediately. The current state "
@@ -428,88 +305,6 @@ msgstr ""
 "\\ *Xfade Time* は、このステートと次との間でのクロスフェードにかかる時間で"
 "す。"
 
-#, fuzzy
-msgid ""
-"*Priority* is used together with the ``travel()`` function from code (more "
-"on this later). Lower priority transitions are preferred when travelling "
-"through the tree."
-msgstr ""
-"\\ *Priority* (優先度) は、コード内での\\ ``travel()``\\ 関数と共に使用しま"
-"す (詳しくは後述)。ひとつのステートから別へと移動するときの、このノードの優先"
-"度を設定します。"
-
-#, fuzzy
-msgid ""
-"*Disabled* toggles disabling this transition (when disabled, it will not be "
-"used during travel or auto advance)."
-msgstr ""
-"\\ *Disabled* (無効) は、このトランジションを無効にします (ただし travel や自"
-"動移行では無視されます)。"
-
-msgid "For better blending"
-msgstr ""
-
-msgid ""
-"In Godot 4.0+, in order for the blending results to be deterministic "
-"(reproducible and always consistent), the blended property values must have "
-"a specific initial value. For example, in the case of two animations to be "
-"blended, if one animation has a property track and the other does not, the "
-"blended animation is calculated as if the latter animation had a property "
-"track with the initial value."
-msgstr ""
-
-msgid ""
-"When using Position/Rotation/Scale 3D tracks for Skeleton3D bones, the "
-"initial value is Bone Rest. For other properties, the initial value is ``0`` "
-"and if the track is present in the ``RESET`` animation, the value of its "
-"first keyframe is used instead."
-msgstr ""
-
-msgid ""
-"For example, the following AnimationPlayer has two animations, but one of "
-"them lacks a Property track for Position."
-msgstr ""
-
-msgid ""
-"This means that the animation lacking that will treat those Positions as "
-"``Vector2(0, 0)``."
-msgstr ""
-
-msgid ""
-"This problem can be solved by adding a Property track for Position as an "
-"initial value to the ``RESET`` animation."
-msgstr ""
-
-msgid ""
-"Be aware that the ``RESET`` animation exists to define the default pose when "
-"loading an object originally. It is assumed to have only one frame and is "
-"not expected to be played back using the timeline."
-msgstr ""
-
-msgid ""
-"Also keep in mind that the Rotation 3D tracks and the Property tracks for 2D "
-"rotation with Interpolation Type set to Linear Angle or Cubic Angle will "
-"prevent rotation of more than 180 degrees from the initial value as blended "
-"animation."
-msgstr ""
-
-msgid ""
-"This can be useful for Skeleton3Ds to prevent the bones penetrating the body "
-"when blending animations. Therefore, Skeleton3D's Bone Rest values should be "
-"as close to the midpoint of the movable range as possible. **This means that "
-"for humanoid models, it is preferable to import them in a T-pose**."
-msgstr ""
-
-msgid ""
-"You can see that the shortest rotation path from Bone Rests is prioritized "
-"rather than the shortest rotation path between animations."
-msgstr ""
-
-msgid ""
-"If you need to rotate Skeleton3D itself more than 180 degrees by blend "
-"animations for movement, you can use Root Motion."
-msgstr ""
-
 msgid "Root motion"
 msgstr "ルート モーション"
 
@@ -540,26 +335,6 @@ msgstr ""
 "そのあと、実際のモーションは\\ :ref:`AnimationTree <class_AnimationTree>` API"
 "からトランスフォームとして取得します:"
 
-#, fuzzy
-msgid ""
-"This can be fed to functions such as :ref:`CharacterBody3D.move_and_slide "
-"<class_CharacterBody3D_method_move_and_slide>` to control the character "
-"movement."
-msgstr ""
-"これを\\ :ref:`KinematicBody.move_and_slide "
-"<class_KinematicBody_method_move_and_slide>`\\ などの関数に渡すことで、キャラ"
-"クターの動きをコントロールできます。"
-
-#, fuzzy
-msgid ""
-"There is also a tool node, ``RootMotionView``, that can be placed in a scene "
-"and will act as a custom floor for your character and animations (this node "
-"is disabled by default during the game)."
-msgstr ""
-"また、ツールノードとして\\ ``RootMotionView``\\ があり、シーン中に置くことで"
-"キャラクターとアニメーション用のフロアが表示されます (通常このノードはゲーム"
-"中は無効にされます)。"
-
 msgid "Controlling from code"
 msgstr "コードからコントロールする"
 
@@ -569,24 +344,6 @@ msgid ""
 msgstr ""
 "ツリーを作成してプレビューしたら、最後に残る質問は「これを全部コードからコン"
 "トロールする方法は？」です。"
-
-#, fuzzy
-msgid ""
-"Keep in mind that the animation nodes are just resources and, as such, they "
-"are shared between all instances using them. Setting values in the nodes "
-"directly will affect all instances of the scene that uses this "
-"``AnimationTree``. This is generally undesirable, but does have some cool "
-"use cases, e.g. you can copy and paste parts of your animation tree, or "
-"reuse nodes with a complex layout (such as a state machine or blend space) "
-"in different animation trees."
-msgstr ""
-"注意していただきたいのは、アニメーション ノードはリソースであり、したがって、"
-"すべてのインスタンス間で共有されます。ノードの値を直接変更すると、この\\ "
-"``AnimationTree``\\ を使用するシーンにある、すべてのインスタンスも影響を受け"
-"ます。しかし、これにはクールな応用方法もあります。例えば、アニメーションツ"
-"リーの一部をコピー＆ペーストできますし、(ステートマシンやブレンドスペースのよ"
-"うな)複雑なレイアウトのノードを、異なるアニメーションツリー間で再利用できま"
-"す。"
 
 msgid ""
 "The actual animation data is contained in the ``AnimationTree`` node and is "
@@ -598,16 +355,6 @@ msgstr ""
 "プロパティを通じてアクセスします。\\ ``AnimationTree``\\ の Parameters セク"
 "ションに、リアルタイムで変更できるパラメーターが全てあるので確認してみてくだ"
 "さい:"
-
-#, fuzzy
-msgid ""
-"This is handy because it makes it possible to animate them from an "
-"``AnimationPlayer``, or even the ``AnimationTree`` itself, allowing the "
-"realization of very complex animation logic."
-msgstr ""
-"これらは\\ ``AnimationPlayer``\\ や、\\ ``AnimationTree``\\ 自身からすらもア"
-"ニメーション化できるので便利です。これで非常に複雑なアニメーション ロジックを"
-"実現できます。"
 
 msgid ""
 "To modify these values from code, the property path must be obtained. This "
@@ -621,19 +368,6 @@ msgstr "そうすれば、それらを設定したり読み込めます:"
 
 msgid "State machine travel"
 msgstr "ステートマシン travel"
-
-#, fuzzy
-msgid ""
-"One of the nice features in Godot's ``StateMachine`` implementation is the "
-"ability to travel. The graph can be instructed to go from the current state "
-"to another one, while visiting all the intermediate ones. This is done via "
-"the A\\* algorithm. If there is no path of transitions starting at the "
-"current state and finishing at the destination state, the graph teleports to "
-"the destination state."
-msgstr ""
-"Godotの\\ ``StateMachine``\\ 実装にあるナイスな機能のひとつは、travel (移動)"
-"です。現在のステートからの移動を指示すると、グラフは中間のものを全て通ってか"
-"ら、別のステートへと移ります。これはA\\* アルゴリズムにて行われます。"
 
 msgid ""
 "To use the travel ability, you should first retrieve the :ref:"
@@ -650,11 +384,6 @@ msgid ""
 "Once retrieved, it can be used by calling one of the many functions it "
 "offers:"
 msgstr "取得したら、その多くの関数の中からひとつ呼び出せば使えます:"
-
-msgid ""
-"The state machine must be running before you can travel. Make sure to either "
-"call ``start()`` or choose a node to **Autoplay on Load**."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

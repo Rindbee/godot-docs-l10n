@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +14,6 @@ msgstr ""
 
 msgid "Localization using gettext"
 msgstr "使用 gettext 进行本地化"
-
-#, fuzzy
-msgid ""
-"In addition to :ref:`doc_importing_translations` in CSV format, Godot also "
-"supports loading translation files written in the GNU gettext format (text-"
-"based ``.po`` and compiled ``.mo`` since Godot 4.0)."
-msgstr ""
-"除了 CSV 格式的 :ref:`doc_importing_translations` 外，Godot 还支持加载 GNU "
-"gettext 格式的翻译文件（基于文本的 ``.po``\\ ，Godot 3.5 起还支持编译后的 ``."
-"mo``\\ ）。"
 
 msgid ""
 "For an introduction to gettext, check out `A Quick Gettext Tutorial <https://"
@@ -158,18 +143,6 @@ msgid ""
 "Project Settings"
 msgstr "在项目设置的\\ **本地化 > POT 生成**\\ 选项卡中创建 PO 模板"
 
-#, fuzzy
-msgid ""
-"After adding at least one scene or script, click **Generate POT** in the top-"
-"right corner, then specify the path to the output file. This file can be "
-"placed anywhere in the project directory, but it's recommended to keep it in "
-"a subdirectory such as ``locale``, as each locale will be defined in its own "
-"file."
-msgstr ""
-"Godot目前不支持使用 ``xgettext`` 提取源字符串, 因此必须手动创建 ``.pot`` 文"
-"件. 该文件可以放在项目目录中的任何位置, 但建议将其放在子目录中, 因为每个语言"
-"环境都将在其自己的文件中定义."
-
 msgid ""
 "You can then move over to :ref:`creating a messages file from a PO template "
 "<doc_localization_using_gettext_messages_file>`."
@@ -188,25 +161,6 @@ msgstr ""
 
 msgid "Manual creation"
 msgstr "手动创建"
-
-#, fuzzy
-msgid ""
-"If the automatic generation approach doesn't work out for your needs, you "
-"can create a PO template by hand in a text editor. This file can be placed "
-"anywhere in the project directory, but it's recommended to keep it in a "
-"subdirectory, as each locale will be defined in its own file."
-msgstr ""
-"Godot目前不支持使用 ``xgettext`` 提取源字符串, 因此必须手动创建 ``.pot`` 文"
-"件. 该文件可以放在项目目录中的任何位置, 但建议将其放在子目录中, 因为每个语言"
-"环境都将在其自己的文件中定义."
-
-#, fuzzy
-msgid ""
-"Create a directory named ``locale`` in the project directory. In this "
-"directory, save a file named ``messages.pot`` with the following contents:"
-msgstr ""
-"在工程目录下创建名为 `locale` 的目录. 在该目录下, 保存一个名为 ``messages."
-"pot`` 的文件, 内容如下:"
 
 msgid ""
 "Messages in gettext are made of ``msgid`` and ``msgstr`` pairs. ``msgid`` is "
@@ -332,27 +286,6 @@ msgstr ""
 "大型项目会有成千上万的字符串要翻译，相比于基于文本的 PO 文件，使用（编译为）"
 "二进制的 MO 消息文件可能更加划算。二进制 MO 文件比对应的 PO 文件更小、读起来"
 "更快。"
-
-#, fuzzy
-msgid "You can generate an MO file with the command below:"
-msgstr "你可以使用下面的命令生成 MO 文件："
-
-#, fuzzy
-msgid ""
-"If the PO file is valid, this command will create a ``fr.mo`` file besides "
-"the PO file. This MO file can then be loaded in Godot as described above."
-msgstr ""
-"如果这个 PO 文件是有效的，这个命令就会在 PO 文件的旁边创建一个 ``fr.mo`` 文"
-"件。这个 MO 文件可以按照下文的方法加载进 Godot。"
-
-#, fuzzy
-msgid ""
-"The original PO file should be kept in version control so you can update "
-"your translation in the future. In case you lose the original PO file and "
-"wish to decompile an MO file into a text-based PO file, you can do so with:"
-msgstr ""
-"应该在版本控制中保留原始 PO 文件，这样以后就可以更新翻译。如果你丢失了原始的 "
-"PO 文件，希望将 MO 文件反编译为基于文本的 PO 文件，你可以这样做："
 
 msgid ""
 "The decompiled file will not include comments or fuzzy strings, as these are "

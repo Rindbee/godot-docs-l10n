@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,13 +222,6 @@ msgstr "Un nombre **décimal réel**. Attend un nombre entier ou réel."
 msgid "``v``"
 msgstr "``v``"
 
-msgid ""
-"A **vector**. Expects any float or int-based vector object ( ``Vector2``, "
-"``Vector3``, ``Vector4``, ``Vector2i``, ``Vector3i`` or ``Vector4i``). Will "
-"display the vector coordinates in parentheses, formatting each coordinate as "
-"if it was an ``%f``, and using the same modifiers."
-msgstr ""
-
 msgid "Placeholder modifiers"
 msgstr "Modificateurs d'emplacement réservé"
 
@@ -254,26 +242,8 @@ msgstr ""
 msgid "Integer"
 msgstr "Nombre entier"
 
-#, fuzzy
-msgid ""
-"Set **padding**. Padded with spaces or with zeroes if integer starts with "
-"``0`` in an integer or real number placeholder. The leading ``0`` is ignored "
-"if ``-`` is present. When used after ``.``, see ``.``."
-msgstr ""
-"Fixe le **remplissage**. Remplit avec des espaces ou des zéros si l'entier "
-"commence par ``0`` dans un spécificateur de nombre entier. Quand il est "
-"utilisé après un ``.`` voir ``.``."
-
 msgid "``.``"
 msgstr "``.``"
-
-#, fuzzy
-msgid ""
-"Before ``f`` or ``v``, set **precision** to 0 decimal places. Can be "
-"followed up with numbers to change. Padded with zeroes."
-msgstr ""
-"Avant ``f``, fixe la **précision** à 0 décimales. Peut être suivi d'un "
-"nombre pour la modifier. Remplit par des zéros."
 
 msgid "``-``"
 msgstr "``-``"

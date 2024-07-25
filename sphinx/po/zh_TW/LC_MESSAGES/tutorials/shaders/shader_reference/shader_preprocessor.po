@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,18 +85,6 @@ msgstr "#define"
 msgid "**Syntax:** ``#define <identifier> [replacement_code]``."
 msgstr "**語法：**``#define <識別字> [替換程式碼]``."
 
-#, fuzzy
-msgid ""
-"Defines the identifier after that directive as a macro, and replaces all "
-"successive occurrences of it with the replacement code given in the shader. "
-"Replacement is performed on a \"whole words\" basis, which means no "
-"replacement is performed if the string is part of another string (without "
-"any spaces or operators separating it)."
-msgstr ""
-"將該指令後面的標識符定義為宏，並用著色器中給出的替換程式碼替換所有連續出現的"
-"標識符。替換是在「整個單字」的基礎上執行的，這意味著如果該字串是另一個字串的"
-"一部分（沒有任何空格分隔它），則不會執行替換。"
-
 msgid ""
 "Defines with replacements may also have one or more *arguments*, which can "
 "then be passed when referencing the define (similar to a function call)."
@@ -114,13 +97,6 @@ msgid ""
 "``#ifdef`` or ``#ifndef`` directives."
 msgstr ""
 "如果未定義替換程式碼，則識別碼只能與「#ifdef」或「#ifndef」指令一起使用。"
-
-msgid ""
-"If the *concatenation* symbol (``##``) is present in the replacement code "
-"then it will be removed upon macro insertion, together with any space "
-"surrounding it, and join the surrounding words and arguments into a new "
-"token."
-msgstr ""
 
 msgid ""
 "Compared to constants (``const CONSTANT = value;``), ``#define`` can be used "

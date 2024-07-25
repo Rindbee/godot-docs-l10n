@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,21 +14,6 @@ msgstr ""
 
 msgid "Autoloads versus regular nodes"
 msgstr "自動読み込みと通常ノード"
-
-#, fuzzy
-msgid ""
-"Godot offers a feature to automatically load nodes at the root of your "
-"project, allowing you to access them globally, that can fulfill the role of "
-"a Singleton: :ref:`doc_singletons_autoload`. These autoloaded nodes are not "
-"freed when you change the scene from code with :ref:`SceneTree."
-"change_scene_to_file <class_SceneTree_method_change_scene_to_file>`."
-msgstr ""
-"Godot には、プロジェクトのルートにあるノードを自動的に読み込む機能が用意され"
-"ており、グローバルにアクセスできるようにすることで、シングルトンの役割を果た"
-"すことができます: :ref:`doc_singletons_autoload`\\ 。これらの自動ロードされた"
-"ノードは、\\ :ref:`SceneTree.change_scene "
-"<class_SceneTree_method_change_scene>` を使用してコードからシーンを変更しても"
-"解放されません。"
 
 msgid ""
 "In this guide, you will learn when to use the Autoload feature, and "
@@ -68,21 +48,6 @@ msgstr ""
 "再生している最中にAudioStreamPlayerを呼び出すと、新しいサウンドが最初のサウン"
 "ドを中断します。"
 
-#, fuzzy
-msgid ""
-"A solution is to code a global, autoloaded sound manager class. It generates "
-"a pool of ``AudioStreamPlayer`` nodes that cycle through as each new request "
-"for sound effects comes in. Say we call that class ``Sound``, you can use it "
-"from anywhere in your project by calling ``Sound.play(\"coin_pickup."
-"ogg\")``. This solves the problem in the short term but causes more problems:"
-msgstr ""
-"これに対する解決策は、グローバルな自動読み込みサウンド マネージャ クラスを"
-"コーディングすることです。サウンドエフェクトの新しいリクエストが入るたびに循"
-"環する ``AudioStreamPlayer`` ノードのプールを生成します。そして、そのクラス"
-"を ``Sound`` と命名し、\\ ``Sound.play(\"coin_pickup.ogg\")`` のような形で呼"
-"び出すことで、プロジェクトのどこからでも使用できます。この方法でとりあえずは"
-"問題は解決しますが、新たにより多くの問題が発生します。"
-
 msgid ""
 "**Global state**: one object is now responsible for all objects' data. If "
 "the ``Sound`` class has errors or doesn't have an AudioStreamPlayer "
@@ -109,16 +74,6 @@ msgstr ""
 "**グローバルなリソース割り当て**: 最初から ``AudioStreamPlayer`` ノードのプー"
 "ルを使用すると、その個数が少なすぎてバグに直面したり、逆に必要以上に多くのメ"
 "モリを使用したりする可能性があります。"
-
-#, fuzzy
-msgid ""
-"About global access, the problem is that any code anywhere could pass wrong "
-"data to the ``Sound`` autoload in our example. As a result, the domain to "
-"explore to fix the bug spans the entire project."
-msgstr ""
-"グローバルアクセスに関する問題は、この例では、任意のコードが間違ったデータを "
-"``Sound`` オートロードに渡す可能性があることです。その結果、バグを修正するた"
-"めに探索する範囲はプロジェクト全体に及びます。"
 
 msgid ""
 "When you keep code inside a scene, only one or two scripts may be involved "
@@ -161,16 +116,6 @@ msgstr ""
 "自動読み込みを使用するもう1つの理由は、同じメソッドまたはデータを多数のシーン"
 "で再利用する場合です。"
 
-#, fuzzy
-msgid ""
-"In the case of functions, you can create a new type of ``Node`` that "
-"provides that feature for an individual scene using the :ref:`class_name "
-"<doc_gdscript_basics_class_name>` keyword in GDScript."
-msgstr ""
-"関数の場合、GDScriptの :ref:`class_name "
-"<doc_scripting_continued_class_name>` キーワードを使用して、個々のシーンにそ"
-"の機能を提供する新しいタイプの ``Node`` を作成できます。"
-
 msgid "When it comes to data, you can either:"
 msgstr "データに関しては、次のいずれかが可能です:"
 
@@ -189,52 +134,6 @@ msgstr ""
 
 msgid "When you should use an Autoload"
 msgstr "自動読み込みを使用する必要がある場合"
-
-msgid ""
-"GDScript supports the creation of ``static`` functions using ``static "
-"func``. When combined with ``class_name``, this makes it possible to create "
-"libraries of helper functions without having to create an instance to call "
-"them. The limitation of static functions is that they can't reference member "
-"variables, non-static functions or ``self``."
-msgstr ""
-
-msgid ""
-"Since Godot 4.1, GDScript also supports ``static`` variables using ``static "
-"var``. This means you can now share a variables across instances of a class "
-"without having to create a separate autoload."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Still, autoloaded nodes can simplify your code for systems with a wide "
-"scope. If the autoload is managing its own information and not invading the "
-"data of other objects, then it's a great way to create systems that handle "
-"broad-scoped tasks. For example, a quest or a dialogue system."
-msgstr ""
-"**広いスコープを持つシステム**: シングルトンが独自の情報を管理し、他のオブ"
-"ジェクトのデータに侵入しない場合は、広範なスコープのタスクを処理するシステム"
-"を作成する優れた方法です。たとえば、クエストや対話システムなどです。"
-
-#, fuzzy
-msgid ""
-"An autoload is *not* necessarily a singleton. Nothing prevents you from "
-"instantiating copies of an autoloaded node. An autoload is only a tool that "
-"makes a node load automatically as a child of the root of your scene tree, "
-"regardless of your game's node structure or which scene you run, e.g. by "
-"pressing the :kbd:`F6` key."
-msgstr ""
-"自読み込みは正確にはシングルトンではありません。自動で読み込まれたノードのコ"
-"ピーをインスタンス化することを妨げるものは何もありません。これは、ゲームの"
-"ノード構造や実行するシーンに関係なく、ノードをシーンツリーのルートの子として"
-"自動的に読み込むツールです。 例: :kbd:`F6` キーを押します。"
-
-#, fuzzy
-msgid ""
-"As a result, you can get the autoloaded node, for example an autoload called "
-"``Sound``, by calling ``get_node(\"/root/Sound\")``."
-msgstr ""
-"その結果、例えば、自動読み込みされた ``Sound`` と呼ばれる自動読み込みノード"
-"を、\\ ``get_node(\"/root/Sound\")`` を呼び出すことによって、取得できます。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,16 +44,6 @@ msgstr ""
 "すべての :ref:`Object <class_Object>` について、それらを参照する最も基本的な"
 "方法は、取得した別のインスタンスから既存のオブジェクトへの参照を取得すること"
 "です。"
-
-#, fuzzy
-msgid ""
-"The same principle applies for :ref:`RefCounted <class_RefCounted>` objects. "
-"While users often access :ref:`Node <class_Node>` and :ref:`Resource "
-"<class_Resource>` this way, alternative measures are available."
-msgstr ""
-"同じ原則が :ref:`Reference <class_Reference>` オブジェクトにも適用されます。"
-"ユーザーはこの方法で :ref:`Node <class_Node>` と :ref:`Resource "
-"<class_Resource>` に頻繁にアクセスしますが、代替手段も利用できます。"
 
 msgid ""
 "Instead of property or method access, one can get Resources by load access."
@@ -163,11 +148,6 @@ msgstr ""
 "``_get_property_list`` メソッドでも同様です。"
 
 msgid ""
-"Note that this happens even for non-legal symbol names, such as names "
-"starting with a digit or containing a slash."
-msgstr ""
-
-msgid ""
 "As a result, this duck-typed system can locate a property either in the "
 "script, the object's class, or any class that object inherits, but only for "
 "things which extend Object."
@@ -183,15 +163,6 @@ msgstr ""
 "Godotは、これらのアクセスでランタイムチェックを実行するためのさまざまなオプ"
 "ションを提供します:"
 
-#, fuzzy
-msgid ""
-"A duck-typed property access. These will be property checks (as described "
-"above). If the operation isn't supported by the object, execution will halt."
-msgstr ""
-"ダック・タイプのプロパティアクセス。これらはプロパティチェックを行います(上記"
-"を参照)。操作がオブジェクトによってサポートされていない場合、実行は停止しま"
-"す。"
-
 msgid ""
 "A method check. In the case of :ref:`CanvasItem.visible "
 "<class_CanvasItem_property_visible>`, one can access the methods, "
@@ -200,16 +171,6 @@ msgstr ""
 "メソッドチェック。\\ :ref:`CanvasItem.visible "
 "<class_CanvasItem_property_visible>` の場合、他のメソッドと同様に "
 "``set_visible`` と ``is_visible`` のメソッドにアクセスできます。"
-
-#, fuzzy
-msgid ""
-"Outsource the access to a :ref:`Callable <class_Callable>`. These may be "
-"useful in cases where one needs the max level of freedom from dependencies. "
-"In this case, one relies on an external context to setup the method."
-msgstr ""
-":ref:`FuncRef <class_FuncRef>` へのアクセスを外部委託します。これらは、依存関"
-"係から最大限の自由度が必要な場合に役立ちます。この場合、メソッドの設定は外部"
-"コンテキストに依存します。"
 
 msgid ""
 "These strategies contribute to Godot's flexible design. Between them, users "

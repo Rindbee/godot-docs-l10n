@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +172,6 @@ msgstr ""
 "eine :ref:`Window <class_Window>`-Instanz. Wir erinnern uns aus der :ref:"
 "`Einführung <doc_viewports>`, dass *alle* Window-Objekte Viewports sind."
 
-#, fuzzy
 msgid ""
 "To configure the stretch base size at runtime from a script, use the "
 "``get_tree().root.content_scale_size`` property (see :ref:`Window."
@@ -891,14 +885,15 @@ msgid ""
 "`doc_multiple_resolutions_reducing_aliasing_on_downsampling`."
 msgstr ""
 "Alternativ können Sie die Basisfensterbreite auf ``1080`` und die "
-"Fensterhöhe auf ``1920`` setzen, wenn Sie hauptsächlich auf High-End-Geräte "
-"abzielen. Dadurch können Sie 2D-Assets mit höherer Auflösung bereitstellen, "
-"was zu einer schärferen Darstellung führt, allerdings auf Kosten einer "
-"höheren Speichernutzung und Dateigröße. Viele Geräte haben Displays mit noch "
-"höherer Auflösung (1440p), aber der Unterschied zu 1080p ist angesichts der "
-"geringen Größe von Smartphone-Displays kaum sichtbar. Beachten Sie, dass "
-"dies dazu führt, dass nicht-Mipmapping-Texturen auf Geräten mit niedriger "
-"Auflösung körnig werden. Beachten Sie daher die Anweisungen in :ref:"
+"Fensterhöhe auf ``1920`` setzen, wenn Sie hauptsächlich für High-End-Geräte "
+"entwickeln. Dadurch können Sie 2D-Assets mit höherer Auflösung "
+"bereitstellen, was zu einer schärferen Darstellung führt, allerdings auf "
+"Kosten einer höheren Speichernutzung und Dateigröße. Viele Geräte haben "
+"Displays mit noch höherer Auflösung (1440p), aber der Unterschied zu 1080p "
+"ist angesichts der geringen Größe von Smartphone-Displays kaum sichtbar. "
+"Beachten Sie, dass dies dazu führt, dass nicht-Mipmapping-Texturen auf "
+"Geräten mit niedriger Auflösung körnig werden. Beachten Sie daher die "
+"Anweisungen in :ref:"
 "`doc_multiple_resolutions_reducing_aliasing_on_downsampling`."
 
 msgid "Set **Display > Window > Handheld > Orientation** to ``portrait``."

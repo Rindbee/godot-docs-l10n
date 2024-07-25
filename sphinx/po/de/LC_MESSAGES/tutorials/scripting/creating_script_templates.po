@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,6 +130,12 @@ msgid ""
 "not work, for example ``Mesh_Instance3D`` does not work. if a script isn't "
 "in the proper ``node_type`` folder it will not be detected."
 msgstr ""
+"``Node_type`` ist der Node, auf den es angewendet wird (z.B. :ref:`Node "
+"<class_Node>`, oder :ref:`CharacterBody3D <class_CharacterBody3D>`), die "
+"Groß- und Kleinschreibung spielt für den Ordnernamen keine Rolle, aber das "
+"Hinzufügen eines ``_`` zum Namen funktioniert nicht, z.B. "
+"``Mesh_Instance3D`` funktioniert nicht. Wenn ein Skript nicht im richtigen "
+"``node_type`` Ordner ist, wird es nicht erkannt."
 
 msgid ""
 "``file`` is the custom name you can chose for the template (for example: "
@@ -259,7 +260,7 @@ msgid ""
 "Only one template can be set as default at the same time for the same node "
 "type."
 msgstr ""
-"Für denselben Knotentyp kann nur eine Vorlage gleichzeitig als Default "
+"Für denselben Node-Typ kann nur eine Vorlage gleichzeitig als Default "
 "festgelegt werden."
 
 msgid ""

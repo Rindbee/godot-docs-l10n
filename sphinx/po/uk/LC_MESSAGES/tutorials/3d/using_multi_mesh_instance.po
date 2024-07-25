@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,63 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using MultiMeshInstance3D"
-msgstr "Використання MultiMeshInstance"
-
 msgid "Introduction"
 msgstr "Вступ"
 
-#, fuzzy
-msgid ""
-"In a normal scenario, you would use a :ref:`MeshInstance3D "
-"<class_MeshInstance3D>` node to display a 3D mesh like a human model for the "
-"main character, but in some cases, you would like to create multiple "
-"instances of the same mesh in a scene. You *could* duplicate the same node "
-"multiple times and adjust the transforms manually. This may be a tedious "
-"process and the result may look mechanical. Also, this method is not "
-"conducive to rapid iterations. :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>` is one of the possible solutions to this "
-"problem."
-msgstr ""
-"За звичай ви можете використовували вузол :ref:`MeshInstance "
-"<class_MeshInstance>` для відображення 3D-меша, що являє собою модель "
-"людини, для головного героя, але в деяких випадках вам може захотітися "
-"створити кілька екземплярів одного й того ж меша на сцені. Ви можете "
-"дублювати один і той же вузол кілька разів і налаштовуючи перетворення "
-"вручну. Це може бути виснажливим процесом, і результат може виглядати "
-"механічним. Також цей метод не сприяє швидким ітераціям. Одним з можливих "
-"рішень цієї проблеми є :ref:`MultiMeshInstance <class_MultiMeshInstance>`."
-
-#, fuzzy
-msgid ""
-"MultiMeshInstance3D, as the name suggests, creates multiple copies of a "
-"MeshInstance over a surface of a specific mesh. An example would be having a "
-"tree mesh populate a landscape mesh with trees of random scales and "
-"orientations."
-msgstr ""
-"MultiMeshInstance, як випливає з назви, створює кілька копій MeshInstance "
-"певного меша над поверхнею. Прикладом може бути те, як меш дерева покриває "
-"меш ландшафт деревами випадкових масштабів і поворотів."
-
 msgid "Setting up the nodes"
 msgstr "Налаштування вузлів"
-
-#, fuzzy
-msgid ""
-"The basic setup requires three nodes: the MultiMeshInstance3D node and two "
-"MeshInstance3D nodes."
-msgstr ""
-"Для базової установки потрібні три вузли: один вузол MultiMeshInstance і два "
-"MeshInstance."
-
-#, fuzzy
-msgid ""
-"One node is used as the target, the surface mesh that you want to place "
-"multiple meshes on. In the tree example, this would be the landscape."
-msgstr ""
-"Один вузол використовується як мішень, меш, на якому потрібно розмістити "
-"кілька інших мешів. У прикладі з деревом це був би ландшафт."
 
 msgid ""
 "The other node is used as the source, the mesh that you want to have "
@@ -82,28 +25,8 @@ msgstr ""
 "Інший вузол використовується як джерело, меш, який потрібно дублювати. У "
 "прикладі з деревом це буде саме дерево."
 
-#, fuzzy
-msgid ""
-"In our example, we would use a :ref:`Node3D <class_Node3D>` node as the root "
-"node of the scene. Your scene tree would look like this:"
-msgstr ""
-"У нашому прикладі ми б використовували вузол :ref:`Spatial <class_Spatial>`, "
-"як кореневий вузол сцени. Ваше дерево сцени буде виглядати так:"
-
 msgid "For simplicity's sake, this tutorial uses built-in primitives."
 msgstr "Заради простоти цей урок використовує вбудовані примітиви."
-
-#, fuzzy
-msgid ""
-"Now you have everything ready. Select the MultiMeshInstance3D node and look "
-"at the toolbar, you should see an extra button called ``MultiMesh`` next to "
-"``View``. Click it and select *Populate surface* in the dropdown menu. A new "
-"window titled *Populate MultiMesh* will pop up."
-msgstr ""
-"Тепер у вас все готово. Виберіть вузол MultiMeshInstance і подивіться на "
-"панель інструментів, ви повинні побачити додаткову кнопку, яка називається "
-"``MultiMesh`` поруч з ``Перегляд``. Клацніть її та виберіть в меню "
-"*Заповнити поверхню*. З'явиться нове вікно під назвою *Заповнити MultiMesh*."
 
 msgid "MultiMesh settings"
 msgstr "Параметри MultiMesh"

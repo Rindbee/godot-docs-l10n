@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,17 +82,11 @@ msgstr "Не удаляет предыдущие данные при перез�
 msgid "**disable_force**"
 msgstr "**disаble_force**"
 
-msgid "Disable attractor force."
-msgstr ""
-
 msgid "**disable_velocity**"
 msgstr "**disаble_velocity**"
 
 msgid "Ignore **VELOCITY** value."
 msgstr "Игнорирует значение **VELOCITY**."
-
-msgid "**collision_use_scale**"
-msgstr ""
 
 msgid "Scale the particle's size for collisions."
 msgstr "Масштабирует размер частицы для столкновений."
@@ -128,14 +117,8 @@ msgstr ""
 msgid "Built-in"
 msgstr "Встроенный"
 
-msgid "in float **TIME**"
-msgstr ""
-
 msgid "Global time, in seconds."
 msgstr "Глобальное время в секундах."
-
-msgid "in float **PI**"
-msgstr ""
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
@@ -144,26 +127,12 @@ msgstr ""
 "Константа ``PI`` (``3.141592``). Отношение окружности круга к его диаметру и "
 "количество радианов в половине оборота."
 
-msgid "in float **TAU**"
-msgstr ""
-
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
 msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
-
-msgid "in float **E**"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Константа ``E`` (``2,718281``). Число Эйлера и основание натурального "
-"логарифма."
 
 msgid "Start and Process built-ins"
 msgstr "Встроенные Start и Process"
@@ -178,52 +147,28 @@ msgstr ""
 msgid "Function"
 msgstr "Функция"
 
-msgid "in float **LIFETIME**"
-msgstr ""
-
 msgid "Particle lifetime."
 msgstr "Время жизни частицы."
-
-msgid "in float **DELTA**"
-msgstr ""
 
 msgid "Delta process time."
 msgstr "Дельта времени процесса."
 
-msgid "in uint **NUMBER**"
-msgstr ""
-
 msgid "Unique number since emission start."
 msgstr "Уникальный номер с момента начала эмиссии."
-
-msgid "in uint **INDEX**"
-msgstr ""
 
 msgid "Particle index (from total particles)."
 msgstr "Индекс частиц (от общего количества частиц)."
 
-msgid "in mat4 **EMISSION_TRANSFORM**"
-msgstr ""
-
 msgid "Emitter transform (used for non-local systems)."
 msgstr "Преобразование эмиттера (используется для нелокальных систем)."
-
-msgid "in uint **RANDOM_SEED**"
-msgstr ""
 
 msgid "Random seed used as base for random."
 msgstr ""
 "Случайное начальное число используемое в качестве основы для случайного "
 "числа."
 
-msgid "inout bool **ACTIVE**"
-msgstr ""
-
 msgid "``true`` when the particle is active, can be set ``false``."
 msgstr "``true``, когда частица активна, может быть установлено ``false``."
-
-msgid "inout vec4 **COLOR**"
-msgstr ""
 
 msgid ""
 "Particle color, can be written to and accessed in mesh's vertex function."
@@ -231,20 +176,11 @@ msgstr ""
 "Цвет частицы можно записать и получить к нему доступ в вершинной функции "
 "сетки."
 
-msgid "inout vec3 **VELOCITY**"
-msgstr ""
-
 msgid "Particle velocity, can be modified."
 msgstr "Скорость частиц, может быть изменена."
 
-msgid "inout mat4 **TRANSFORM**"
-msgstr ""
-
 msgid "Particle transform."
 msgstr "Преобразование частиц."
-
-msgid "inout vec4 **CUSTOM**"
-msgstr ""
 
 msgid ""
 "Custom particle data. Accessible from shader of mesh as **INSTANCE_CUSTOM**."
@@ -252,18 +188,12 @@ msgstr ""
 "Пользовательские данные о частицах. Доступны из шейдера сетки как "
 "**INSTANCE_CUSTOM**."
 
-msgid "inout float **MASS**"
-msgstr ""
-
 msgid ""
 "Particle mass, intended to be used with attractors. Equals ``1.0`` by "
 "default."
 msgstr ""
 "Масса частицы, предназначенная для использования с аттракторами. По "
 "умолчанию равна ``1.0``."
-
-msgid "in vec4 **USERDATAX**"
-msgstr ""
 
 msgid ""
 "Vector that enables the integration of supplementary user-defined data into "
@@ -274,18 +204,12 @@ msgstr ""
 "шейдер процесса частиц. ``USERDATAX`` - это шесть встроенных модулей, "
 "обозначенных номером, ``X`` может быть числом от 1 до 6."
 
-msgid "in uint **FLAG_EMIT_POSITION**"
-msgstr ""
-
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a position to a new particle's transform."
 msgstr ""
 "Флаг для использования в последнем аргументе функции ``emit_subparticle`` "
 "для присвоения позиции трансформации новой частицы."
-
-msgid "in uint **FLAG_EMIT_ROT_SCALE**"
-msgstr ""
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
@@ -294,18 +218,12 @@ msgstr ""
 "Флаг для использования в последнем аргументе функции ``emit_subparticle`` "
 "для назначения вращения и масштаба трансформации новой частицы."
 
-msgid "in uint **FLAG_EMIT_VELOCITY**"
-msgstr ""
-
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a velocity to a new particle."
 msgstr ""
 "Флаг для использования в последнем аргументе функции ``emit_subparticle`` "
 "для присвоения скорости новой частице."
-
-msgid "in uint **FLAG_EMIT_COLOR**"
-msgstr ""
 
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
@@ -314,9 +232,6 @@ msgstr ""
 "Флаг для использования в последнем аргументе функции ``emit_subparticle`` "
 "для назначения цвета новой частице."
 
-msgid "in uint **FLAG_EMIT_CUSTOM**"
-msgstr ""
-
 msgid ""
 "A flag for using on the last argument of ``emit_subparticle`` function to "
 "assign a custom data vector to a new particle."
@@ -324,20 +239,8 @@ msgstr ""
 "Флаг для использования в последнем аргументе функции ``emit_subparticle`` "
 "для присвоения новой частице пользовательского вектора данных."
 
-msgid "in vec3 **EMITTER_VELOCITY**"
-msgstr ""
-
-msgid "Velocity of the Particles node."
-msgstr ""
-
-msgid "in float **INTERPOLATE_TO_END**"
-msgstr ""
-
 msgid "Value of ``interp_to_end`` property of Particles node."
 msgstr "Значение свойства ``interp_to_end`` узла Particles."
-
-msgid "in uint **AMOUNT_RATIO**"
-msgstr ""
 
 msgid "Value of ``amount_ratio`` property of Particles node."
 msgstr "Значение свойства ``amount_ratio`` узла Particles."
@@ -354,9 +257,6 @@ msgstr ""
 msgid "Start built-ins"
 msgstr "Встроенные константы функции Start"
 
-msgid "in bool **RESTART_POSITION**"
-msgstr ""
-
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom position (i."
 "e. this particle was created by ``emit_subparticle()`` without the "
@@ -365,9 +265,6 @@ msgstr ""
 "``true``, если частица перезапущена или испущена без заданной позиции (т.е. "
 "эта частица была создана с помощью ``emit_subparticle()`` без флага "
 "``FLAG_EMIT_POSITION``)."
-
-msgid "in bool **RESTART_ROT_SCALE**"
-msgstr ""
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom rotation or "
@@ -378,9 +275,6 @@ msgstr ""
 "масштаба (т.е. эта частица была создана с помощью ``emit_subparticle()`` без "
 "флага ``FLAG_EMIT_ROT_SCALE``)."
 
-msgid "in bool **RESTART_VELOCITY**"
-msgstr ""
-
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom velocity (i."
 "e. this particle was created by ``emit_subparticle()`` without the "
@@ -390,9 +284,6 @@ msgstr ""
 "эта частица была создана с помощью ``emit_subparticle()`` без флага "
 "``FLAG_EMIT_VELOCITY``)."
 
-msgid "in bool **RESTART_COLOR**"
-msgstr ""
-
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom color (i.e. "
 "this particle was created by ``emit_subparticle()`` without the "
@@ -401,9 +292,6 @@ msgstr ""
 "``true``, если частица перезапущена или испущена без пользовательского цвета "
 "(т.е. эта частица была создана с помощью ``emit_subparticle()`` без флага "
 "``FLAG_EMIT_COLOR``)."
-
-msgid "in bool **RESTART_CUSTOM**"
-msgstr ""
 
 msgid ""
 "``true`` if particle is restarted, or emitted without a custom property (i."
@@ -416,62 +304,6 @@ msgstr ""
 
 msgid "Process built-ins"
 msgstr "Встроенные константы функции Process"
-
-msgid "in bool **RESTART**"
-msgstr ""
-
-msgid "``true`` if the current process frame is first for the particle."
-msgstr ""
-
-msgid "in bool **COLLIDED**"
-msgstr ""
-
-msgid "``true`` when the particle has collided with a particle collider."
-msgstr ""
-
-#, fuzzy
-msgid "in vec3 **COLLISION_NORMAL**"
-msgstr "в vec2 **LIGHT_UV**"
-
-msgid ""
-"A normal of the last collision. If there is no collision detected it is "
-"equal to ``vec3(0.0)``."
-msgstr ""
-
-msgid "in float **COLLISION_DEPTH**"
-msgstr ""
-
-msgid ""
-"A length of normal of the last collision. If there is no collision detected "
-"it is equal to ``0.0``."
-msgstr ""
-
-msgid "in vec3 **ATTRACTOR_FORCE**"
-msgstr ""
-
-msgid "A combined force of the attractors at the moment on that particle."
-msgstr ""
-
-#, fuzzy
-msgid "Process functions"
-msgstr "Функции процессора"
-
-msgid ""
-"``emit_subparticle`` is currently the only custom function supported by "
-"particles shaders. It allows users to add a new particle with specified "
-"parameters from a sub-emitter. The newly created particle will only use the "
-"properties that match the ``flags`` parameter. For example, the following "
-"code will emit a particle with a specified position, velocity, and color, "
-"but unspecified rotation, scale, and custom value:"
-msgstr ""
-
-msgid ""
-"bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
-"custom, uint flags)"
-msgstr ""
-
-msgid "Emits a particle from a sub-emitter."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

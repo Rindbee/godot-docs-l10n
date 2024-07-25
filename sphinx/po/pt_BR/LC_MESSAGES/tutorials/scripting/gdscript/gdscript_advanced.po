@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,10 +48,6 @@ msgstr ""
 "GDScript é uma linguagem Dinamicamente Tipada. Como tal, suas maiores "
 "vantagens são:"
 
-#, fuzzy
-msgid "The language is easy to get started with."
-msgstr "A linguagem é muito simples de aprender."
-
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr ""
 "A maioria do código pode ser escrito e modificado rapidamente sem "
@@ -66,28 +57,17 @@ msgid "Less code written means less errors & mistakes to fix."
 msgstr ""
 "Menos código escrito significa menos erros e enganos a serem corrigidos."
 
-msgid "The code is easy to read (little clutter)."
-msgstr ""
-
 msgid "No compilation is required to test."
 msgstr "Nenhuma compilação é necessária para testar."
 
 msgid "Runtime is tiny."
 msgstr "Tempo de execução é bem pequeno."
 
-#, fuzzy
-msgid "It has duck-typing and polymorphism by nature."
-msgstr "Polimorfismo e tipagem pato naturalmente."
-
 msgid "While the main disadvantages are:"
 msgstr "Enquanto as maiores desvantagens são:"
 
 msgid "Less performance than statically typed languages."
 msgstr "Menor performance que linguagens com tipagem estática."
-
-#, fuzzy
-msgid "More difficult to refactor (symbols can't be traced)."
-msgstr "Mais difícil de refatorar (símbolos não podem ser rastreados)"
 
 msgid ""
 "Some errors that would typically be detected at compile time in statically "
@@ -104,24 +84,6 @@ msgid ""
 msgstr ""
 "Menos flexibilidade para preenchimento de código (alguns tipos de variáveis "
 "só são reconhecidos na execução)."
-
-#, fuzzy
-msgid ""
-"This, translated to reality, means that Godot used with GDScript is a "
-"combination designed to create games quickly and efficiently. For games that "
-"are very computationally intensive and can't benefit from the engine built-"
-"in tools (such as the Vector types, Physics Engine, Math library, etc), the "
-"possibility of using C++ is present too. This allows you to still create "
-"most of the game in GDScript and add small bits of C++ in the areas that "
-"need a performance boost."
-msgstr ""
-"Isso, traduzido para a realidade, significa que Godot+GDScript é uma "
-"combinação projetada para criar jogos de forma rápida e eficiente. Para "
-"jogos que são muito intensivos em computação e não podem se beneficiar das "
-"ferramentas internas do mecanismo (como os tipos Vector, Engine de Física, "
-"biblioteca de Matemática, etc), a possibilidade de usar o C++ também está "
-"presente. Isso permite ainda criar o jogo inteiro em GDScript e adicionar "
-"pequenos pedaços de C++ nas áreas que precisam de um desempenho maior."
 
 msgid "Variables & assignment"
 msgstr "Variáveis & atribuição"
@@ -185,23 +147,6 @@ msgstr "Java:"
 
 msgid "GDScript:"
 msgstr "GDScript:"
-
-#, fuzzy
-msgid ""
-"In GDScript, only base types (int, float, string and the vector types) are "
-"passed by value to functions (value is copied). Everything else (instances, "
-"arrays, dictionaries, etc) is passed as reference. Classes that inherit :ref:"
-"`class_RefCounted` (the default if nothing is specified) will be freed when "
-"not used, but manual memory management is allowed too if inheriting manually "
-"from :ref:`class_Object`."
-msgstr ""
-"No GDScript, somente os tipos básicos (int, float, string e os tipos "
-"vetores) são passados por valor para funções (o valor é copiado). Todo o "
-"resto (instâncias, arrays, dicionários, etc) é passado como referência. As "
-"classes que herdam :ref:`class_Reference` (o padrão se nada for "
-"especificado) serão liberadas quando não usadas, mas o gerenciamento de "
-"memória manual também é permitido se herdar manualmente de :ref:"
-"`class_Object`."
 
 msgid "Arrays"
 msgstr "Arrays"
@@ -269,15 +214,6 @@ msgstr ""
 "Dictionaries também são dinâmicos, as chaves podem ser adicionadas ou "
 "removidas a qualquer momento a baixo custo:"
 
-#, fuzzy
-msgid ""
-"In most cases, two-dimensional arrays can often be implemented more easily "
-"with dictionaries. Here's a battleship game example:"
-msgstr ""
-"Na maioria dos casos, arrays bidimensionais, muitas vezes podem ser "
-"implementados mais facilmente com dictionaries. Aqui está um exemplo de jogo "
-"de batalha naval simples:"
-
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "
 "GDScript's dictionaries resemble python dictionaries, it also supports Lua "
@@ -292,19 +228,6 @@ msgstr ""
 msgid "For & while"
 msgstr "For e while"
 
-#, fuzzy
-msgid ""
-"Iterating using the C-style for loop in C-derived languages can be quite "
-"complex:"
-msgstr ""
-"Iterar em algumas linguagens estaticamente tipadas pode ser bastante "
-"complexo:"
-
-msgid ""
-"Because of this, GDScript makes the opinionated decision to have a for-in "
-"loop over iterables instead:"
-msgstr ""
-
 msgid ""
 "Container datatypes (arrays and dictionaries) are iterable. Dictionaries "
 "allow iterating the keys:"
@@ -318,15 +241,8 @@ msgstr "Também é possível iterar com índices:"
 msgid "The range() function can take 3 arguments:"
 msgstr "A função range() pode ter 3 argumentos:"
 
-msgid "Some examples involving C-style for loops:"
-msgstr ""
-
 msgid "Translate to:"
 msgstr "Traduzir para:"
-
-#, fuzzy
-msgid "And backwards looping done through a negative counter:"
-msgstr "E a repetição inversa é feita através de um contador negativo:"
 
 msgid "Becomes:"
 msgstr "Torna-se:"
@@ -443,18 +359,6 @@ msgstr ""
 
 msgid "Yes, we should call it Hulk typing instead."
 msgstr "Sim, nós deveríamos chamar isso de tipo Hulk ao invés disso."
-
-#, fuzzy
-msgid ""
-"It's possible that the object being hit doesn't have a smash() function. "
-"Some dynamically typed languages simply ignore a method call when it doesn't "
-"exist, but GDScript is stricter, so checking if the function exists is "
-"desirable:"
-msgstr ""
-"É possível que o objeto que está sendo atingido não tenha uma função "
-"smash(). Algumas linguagens tipadas dinamicamente simplesmente ignoram uma "
-"chamada de método quando ela não existe (como o Objective C), mas o GDScript "
-"é mais rígido, então verificar se a função existe é desejável:"
 
 msgid ""
 "Then, simply define that method and anything the rock touches can be smashed."

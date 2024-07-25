@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,49 +165,11 @@ msgstr ""
 msgid "Tree order"
 msgstr "树顺序"
 
-msgid ""
-"Most node operations in Godot, such as drawing 2D, processing, or getting "
-"notifications are done in *tree order*, or top to bottom as seen in the "
-"editor (also known as pre-order traversal):"
-msgstr ""
-
-msgid ""
-"For example, the top node in a scene has its ``_process()`` function called "
-"first, then the node below it has its ``_process()`` function called, then "
-"the node below that and so on."
-msgstr ""
-
-msgid ""
-"An important exception is the ``_ready()`` function: each parent node has "
-"its ``_ready()`` function called only after all its child nodes have their "
-"``_ready()`` functions called, so that the parent knows its children are "
-"completely ready to be accessed. This is also known as post-order traversal. "
-"In the above image, ``NameLabel`` would be notified first (but only after "
-"its children, if it had any!), followed by ``Name``, etc., and ``Panel`` "
-"would be notified last."
-msgstr ""
-
-msgid ""
-"The order of operations can also be overridden using the "
-"``process_priority`` node property. Nodes with a lower number are called "
-"first. For example, nodes with the priorities \"0, 1, 2, 3\" would be called "
-"in that order from left to right."
-msgstr ""
-
 msgid "\"Becoming active\" by entering the *Scene Tree*"
 msgstr "通过进入\\ *场景树*\\ “变为活动状态”"
 
 msgid "A scene is loaded from disk or created by scripting."
 msgstr "从磁盘加载场景或通过脚本创建场景。"
-
-#, fuzzy
-msgid ""
-"The root node of that scene (only one root, remember?) is added as either a "
-"child of the \"root\" Viewport (from SceneTree), or to any of its "
-"descendants."
-msgstr ""
-"该场景的根节点（只有一个根，还记得吗？）作为子级被添加至“根”视图（来自场景"
-"树），或添加至其子孙节点。"
 
 msgid ""
 "Every node of the newly added scene will receive the \"enter_tree\" "
@@ -221,15 +178,6 @@ msgid ""
 msgstr ""
 "新添加的场景的每个节点都将按照从上到下的顺序接收 ``enter_tree`` 通知"
 "（GDScript 中的 ``_enter_tree()`` 回调函数）。"
-
-#, fuzzy
-msgid ""
-"Every node will receive the \"ready\" notification ( ``_ready()`` callback "
-"in GDScript) for convenience, once all its children have received the "
-"\"ready\" notification (post-order traversal)."
-msgstr ""
-"当节点及其所有子节点都位于活动场景中时，为方便起见，会提供一个额外的通知 "
-"``ready``\\ （GDScript 中的 ``_ready()`` 回调函数）。"
 
 msgid ""
 "When a scene (or part of it) is removed, they receive the \"exit scene\" "
@@ -241,40 +189,6 @@ msgstr ""
 
 msgid "Changing current scene"
 msgstr "更改当前场景"
-
-#, fuzzy
-msgid ""
-"After a scene is loaded, you may want to change this scene for another one. "
-"One way to do this is to use the :ref:`SceneTree.change_scene_to_file() "
-"<class_SceneTree_method_change_scene_to_file>` function:"
-msgstr ""
-"加载场景后，通常需要更改该场景为另一个场景。简单的方法是使用 :ref:`SceneTree."
-"change_scene() <class_SceneTree_method_change_scene>` 函数："
-
-#, fuzzy
-msgid ""
-"Rather than using file paths, one can also use ready-made :ref:`PackedScene "
-"<class_PackedScene>` resources using the equivalent function :ref:`SceneTree."
-"change_scene_to_packed(PackedScene scene) "
-"<class_SceneTree_method_change_scene_to_packed>`:"
-msgstr ""
-"除了使用文件路径之外，还可以使用等效的函数 :ref:`SceneTree."
-"change_scene_to(PackedScene scene) <class_SceneTree_method_change_scene_to>` "
-"来使用现成的 :ref:`PackedScene <class_PackedScene>` 资源："
-
-#, fuzzy
-msgid ""
-"These are quick and useful ways to switch scenes but have the drawback that "
-"the game will stall until the new scene is loaded and running. At some point "
-"in the development of your game, it may be preferable to create proper "
-"loading screens with progress bar, animated indicators or threaded "
-"(background) loading. This must be done manually using :ref:"
-"`doc_singletons_autoload` and :ref:`doc_background_loading`."
-msgstr ""
-"这些方法可以用来快速切换场景，但缺点是游戏会卡住，直到新场景被加载并运行。在"
-"游戏开发的某个时刻，最好使用进度条、动画化的指示器或线程（后台）加载来创建适"
-"当的加载画面。必须使用自动加载功能（请参阅下一章）和 :ref:"
-"`doc_background_loading` 手动完成此操作。"
 
 msgid "Translation status"
 msgstr "翻译状态"

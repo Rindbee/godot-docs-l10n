@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,18 +48,6 @@ msgstr ""
 "návody vytvořené členy komunity. Preferujete-li video tutoriály namísto "
 "psaných, zvažte jejich vyzkoušení. Jinak, :ref:`Začínáme "
 "<doc_getting_started_intro>` je dobrý startovní bod."
-
-#, fuzzy
-msgid ""
-"In case you have trouble with one of the tutorials or your project, you can "
-"find help on the various :ref:`Community channels <doc_community_channels>`, "
-"especially the Godot `Discord`_ community and `Forum <https://forum."
-"godotengine.org/>`_."
-msgstr ""
-"V případě, že máte problémy s některým z návodů nebo přímo s vaším "
-"projektem, můžete najít nápovědu na různých :ref:`Komunitních kanálech "
-"<doc_community_channels>`, zejména v Godot `Discord`_ komunitě a `Q&A "
-"<https://ask.godotengine.org/>`_."
 
 msgid "About Godot Engine"
 msgstr "O Godot Engine"

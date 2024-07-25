@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,16 +70,6 @@ msgstr "Або це можна зробити, приховуючи дію в ``
 msgid "**2. Check mute status of NLA tracks**"
 msgstr "**2. Перевірити стан NLA треків**"
 
-#, fuzzy
-msgid ""
-"An NLA track can be ``mute`` or ``unmute``, the exporter will export all the "
-"``mute`` NLA track as a separate action, while blends all the ``unmute`` NLA "
-"tracks into every action (including the action) being exported."
-msgstr ""
-"Трек NLA може бути, ``mute`` або ``unmute``, експортер експортує весь "
-"``mute`` NLA трек як окрему дію, в той час як всі ``unmute`` NLA треки "
-"поєднуються з кожною дією (включаючи дію дії), що експортується."
-
 msgid "**3. Export the scene**"
 msgstr "**3. Експортувати сцену**"
 
@@ -113,18 +98,6 @@ msgstr ""
 
 msgid "Animation Mode"
 msgstr "Режим Анімації"
-
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"Godot і Blender мають різну структуру для зберігання даних анімації. У Godot "
-"дані анімації зберігаються у вузлі AnimationPlayer, а не в кожному "
-"анімованому вузлі. Для того, щоб виправити цю непослідовність і при цьому "
-"зробити анімацію універсальною, цей додаток має три режими експорту анімації."
 
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**Режим \"Анімація як дії\"**"

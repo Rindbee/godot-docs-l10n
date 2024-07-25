@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,17 +109,6 @@ msgstr ""
 "angefangen bei der Möglichkeit, Kinematic Bodys in der regulären "
 "``_process()`` Schleife zu animieren, bis hin zu weiteren Korrekturen im "
 "Frame-Timer."
-
-msgid ""
-"You can use physics interpolation to mitigate physics-related jittering. See "
-"`lawnjelly's smoothing-addon <https://github.com/lawnjelly/smoothing-"
-"addon>`__ for an add-on that can be dropped into any project to enable "
-"physics interpolation."
-msgstr ""
-"Sie können Physik-Interpolation verwenden, um physikalisch bedingtes Jittern "
-"zu mildern. Siehe `lawnjelly's Smoothing-Add-on <https://github.com/"
-"lawnjelly/smoothing-addon>`__ für ein Add-on, das in jedes Projekt eingefügt "
-"werden kann, um Physik-Interpolation zu aktivieren."
 
 msgid "Stutter"
 msgstr "Stutter"

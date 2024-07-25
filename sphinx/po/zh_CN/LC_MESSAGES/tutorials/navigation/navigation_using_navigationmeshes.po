@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,7 +100,6 @@ msgstr ""
 "使用导航区块节点可以更方便地进行导航网格烘焙。使用导航区域节点进行烘焙时，所"
 "有解析、烘焙和区块更新步骤都会合并到一个函数中。"
 
-#, fuzzy
 msgid ""
 "The nodes are available in 2D and 3D as :ref:"
 "`NavigationRegion2D<class_NavigationRegion2D>` and :ref:"
@@ -135,11 +129,10 @@ msgid ""
 "resource and can be found in the resource Inspector."
 msgstr "解析和烘焙导航网格的属性是所用资源的一部分，可以在资源检查器中找到。"
 
-#, fuzzy
 msgid ""
 "The result of the source geometry parsing can be influenced with the "
 "following properties."
-msgstr "匀速遍历, 然后, 可以用下面的伪代码。"
+msgstr "下列属性会影响来源几何体的解析结果。"
 
 msgid ""
 "The ``parsed_geometry_type`` that filters if visual objects or physics "
@@ -172,11 +165,10 @@ msgstr ""
 "``source_geometry_group_name`` 在只应解析某个节点组时使用。取决于所选的 "
 "``source_geometry_mode`` 。"
 
-#, fuzzy
 msgid ""
 "With the source geometry added, the result of the baking can be controlled "
 "with the following properties."
-msgstr "匀速遍历, 然后, 可以用下面的伪代码。"
+msgstr "添加来源几何体后，以下属性可以控制烘焙的结果。"
 
 msgid ""
 "The ``cell_size`` sets the rasterization grid size and should match the "
@@ -234,13 +226,11 @@ msgid ""
 msgstr ""
 "在编辑器中选择NavigationRegion3D节点后，烘焙选项将显示在编辑器的顶部栏中。"
 
-#, fuzzy
 msgid ""
 "In order for the region to work a :ref:"
 "`NavigationMesh<class_NavigationMesh>` resource needs to be added."
 msgstr ""
-"单击该区块节点，向该节点添加一个新的 :ref:"
-"`NavigationMesh<class_NavigationMesh>` 资源。"
+"添加 :ref:`NavigationMesh<class_NavigationMesh>` 资源后，区块才能够正常工作。"
 
 msgid ""
 "The ``cell_size`` and ``cell_height`` sets the rasterization voxel grid size "
@@ -298,15 +288,14 @@ msgstr "为 MeshInstance3D 添加一个 :ref:`PlaneMesh<class_PlaneMesh>`\\ 。"
 msgid "Baking a navigation mesh with the NavigationServer"
 msgstr "使用 NavigationServer 烘焙导航网格"
 
-#, fuzzy
 msgid ""
 "The :ref:`NavigationServer2D<class_NavigationServer2D>` and :ref:"
 "`NavigationServer3D<class_NavigationServer3D>` have API functions to call "
 "each step of the navigation mesh baking process individually."
 msgstr ""
-"NavigationServer 即导航服务器。2D 和 3D 版本的 NavigationServer 分别为 :ref:"
-"`NavigationServer2D<class_NavigationServer2D>` 和 :ref:"
-"`NavigationServer3D<class_NavigationServer3D>`\\ 。"
+":ref:`NavigationServer2D<class_NavigationServer2D>` 和 :ref:"
+"`NavigationServer3D<class_NavigationServer3D>` 都提供了烘焙导航网格相关的 "
+"API 函数，可以在烘焙过程中的不同阶段单独调用。"
 
 msgid ""
 "``parse_source_geometry_data()`` can be used to parse source geometry to a "
@@ -371,7 +360,6 @@ msgstr ""
 "若要使用NavigationServer烘焙导航网格，则需要源几何体。源几何体是导航网格烘焙"
 "过程中应考虑的几何体数据。二维和三维导航网格都是通过从源几何体烘焙来创建的。"
 
-#, fuzzy
 msgid ""
 "2D and 3D versions of the source geometry resources are available as :ref:"
 "`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>` "
@@ -379,9 +367,10 @@ msgid ""
 "`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`  "
 "respectively."
 msgstr ""
-"NavigationServer 即导航服务器。2D 和 3D 版本的 NavigationServer 分别为 :ref:"
-"`NavigationServer2D<class_NavigationServer2D>` 和 :ref:"
-"`NavigationServer3D<class_NavigationServer3D>`\\ 。"
+"2D 和 3D 版本的源几何体资源分别为 :ref:"
+"`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>` "
+"和 :ref:"
+"`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`\\ 。"
 
 msgid ""
 "Source geometry can be geometry parsed from visual meshes, from physics "
@@ -431,103 +420,43 @@ msgstr ""
 "避免重复和嵌套几何体，因为它会强制计算多边形孔，从而导致翻转多边形。嵌套几何"
 "体的示例是完全放置在另一个StaticBody2D形状的边界内的较小StaticBody2D形状。"
 
-#, fuzzy
 msgid "Baking navigation mesh chunks for large worlds"
-msgstr "使用导航区块 NavigationRegion 烘焙导航网格"
+msgstr "针对大世界烘焙导航网格块"
 
-#, fuzzy
 msgid "Building navigation mesh chunks"
-msgstr "使用导航网格"
+msgstr "构建导航网格块"
 
 msgid "Building and updating individual navigation mesh chunks at runtime."
-msgstr ""
+msgstr "在运行时构建并更新导航网格块。"
 
-msgid ""
-"To avoid misaligned edges between different region chunks the navigation "
-"meshes have two important properties for the navigation mesh baking process. "
-"The baking bound and the border size. Together they can be used to ensure "
-"perfectly aligned edges between region chunks."
-msgstr ""
-
-#, fuzzy
 msgid "Navigation mesh chunk with bake bound and border size"
-msgstr "Navigation mesh 在 2D 创建 unintended holes。"
+msgstr "指定烘焙范围和边框大小的导航网格块"
 
 msgid ""
 "Navigation mesh chunk baked with bake bound or baked with additional border "
 "size."
-msgstr ""
+msgstr "指定烘焙范围和额外边框大小的导航网格块。"
 
-msgid ""
-"The baking bound, which is an axis-aligned :ref:`Rect2<class_Rect2>` for 2D "
-"and :ref:`AABB<class_AABB>` for 3D, limits the used source geometry by "
-"discarding all the geometry that is outside of the bounds."
-msgstr ""
-
-msgid ""
-"The :ref:`NavigationPolygon<class_NavigationPolygon>` properties "
-"``baking_rect`` and ``baking_rect_offset`` can be used to create and place "
-"the 2D baking bound."
-msgstr ""
-
-msgid ""
-"The :ref:`NavigationMesh<class_NavigationMesh>` properties "
-"``filter_baking_aabb`` and ``filter_baking_aabb_offset`` can be used to "
-"create and place the 3D baking bound."
-msgstr ""
-
-msgid ""
-"With only the baking bound set another problem still exists. The resulting "
-"navigation mesh will inevitably be affected by necessary offsets like the "
-"``agent_radius`` which makes the edges not align properly."
-msgstr ""
-
-#, fuzzy
 msgid "Navigation mesh chunks with gaps"
-msgstr "烘焙导航网格的步骤"
+msgstr "导航网格块之间有间隙"
 
 msgid ""
 "Navigation mesh chunks with noticeable gaps due to baked agent radius offset."
-msgstr ""
+msgstr "受到烘焙代理半径偏移的影响，导航网格块之间有明显的间隙。"
 
-msgid ""
-"This is where the ``border_size`` property for navigation mesh comes in. The "
-"border size is an inward margin from the baking bound. The important "
-"characteristic of the border size is that it is unaffected by most offsets "
-"and postprocessing like the ``agent_radius``."
-msgstr ""
-
-msgid ""
-"Instead of discarding source geometry, the border size discards parts of the "
-"final surface of the baked navigation mesh. If the baking bound is large "
-"enough the border size can remove the problematic surface parts so that only "
-"the intended chunk size is left."
-msgstr ""
-
-#, fuzzy
 msgid "Navigation mesh chunks without gaps"
-msgstr "烘焙导航网格的步骤"
+msgstr "导航网格块之间没有间隙"
 
 msgid "Navigation mesh chunks with aligned edges and without gaps."
-msgstr ""
+msgstr "导航网格块互相对齐了边缘，没有间隙。"
 
-msgid ""
-"The baking bounds need to be large enough to include a reasonable amount of "
-"source geometry from all the neighboring chunks."
-msgstr ""
-
-#, fuzzy
 msgid "Navigation mesh baking common problems"
-msgstr "运行时烘焙 NavigationMesh"
+msgstr "烘焙导航网格时的常见问题"
 
 msgid ""
 "There are some common user problems and important caveats to consider when "
 "creating or baking navigation meshes."
 msgstr "在创建或烘焙导航网格时，需要考虑一些常见的用户问题和重要的注意事项。"
-
-#, fuzzy
-msgid "Navigation mesh baking creates frame rate problems at runtime"
-msgstr "运行时烘焙 NavigationMesh"
 
 msgid ""
 "The navigation mesh baking is by default done on a background thread, so as "
@@ -569,17 +498,6 @@ msgstr ""
 msgid "Navigation mesh creates unintended holes in 2D."
 msgstr "Navigation mesh 在 2D 创建 unintended holes。"
 
-#, fuzzy
-msgid ""
-"The navigation mesh baking in 2D is done by doing polygon clipping "
-"operations based on outline paths. Polygons with \"holes\" are a necessary "
-"evil to create more complex 2D polygons but can become unpredictable for "
-"users with many complex shapes involved."
-msgstr ""
-"2D 中的 navigation 网格烘焙是通过基于轮廓路径执行多边形剪裁操作来完成的。带"
-"有 \"holes\" 的多边形是创建更复杂的2D多边形所必需的 evil ，但对于涉及许多复杂"
-"形状的用户来说，它可能会变得不可预测。"
-
 msgid ""
 "To avoid any unexpected problems with polygon hole calculations, avoid "
 "nesting any outlines inside other outlines of the same type (traversable / "
@@ -605,10 +523,6 @@ msgstr ""
 "用。删除其他几何图形中位于地面上的几何图形。如果无法做到这一点，请在内部添加"
 "较小的“虚拟”几何体，并尽可能少地添加三角形，这样单元就会被一些东西占据。"
 
-#, fuzzy
-msgid "Navigation mesh script templates"
-msgstr "NavigationAgent 脚本模板"
-
 msgid ""
 "The following script uses the NavigationServer to parse source geometry from "
 "the scene tree, bakes a navigation mesh, and updates a navigation region "
@@ -616,12 +530,6 @@ msgid ""
 msgstr ""
 "以下脚本使用NavigationServer解析场景树中的源几何体，烘焙导航网格，并使用更新"
 "的导航网格更新导航区域。"
-
-#, fuzzy
-msgid ""
-"The following script uses the NavigationServer to update a navigation region "
-"with procedurally generated navigation mesh data."
-msgstr "区块可以根据距离将不同的导航网格合并成一个导航网格。"
 
 msgid "Translation status"
 msgstr "翻译状态"

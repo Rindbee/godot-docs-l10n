@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,7 +167,7 @@ msgid ""
 "properties to see a list of named checkboxes."
 msgstr ""
 "Beachten Sie, dass Sie auf den \"...\"-Button auf der rechten Seite der "
-"Eigenschaften klicken können, um eine Liste der benannten Kontrollkästchen "
+"Eigenschaften klicken können, um eine Liste der benannten Checkboxen "
 "anzuzeigen."
 
 msgid "|image4|"
@@ -483,17 +478,6 @@ msgid ""
 msgstr ""
 "Wir rufen eine undefinierte Funktion, ``mob.squash()``, auf, also müssen wir "
 "sie der Mob-Klasse hinzufügen."
-
-msgid ""
-"Open the script ``Mob.gd`` by double-clicking on it in the *FileSystem* "
-"dock. At the top of the script, we want to define a new signal named "
-"``squashed``. And at the bottom, you can add the squash function, where we "
-"emit the signal and destroy the mob."
-msgstr ""
-"Öffnen Sie das Skript ``Mob.gd`` durch Doppelklick im *Dateisystem*-Dock. Am "
-"Anfang des Skripts wollen wir ein neues Signal namens ``squashed`` "
-"definieren. Unten können Sie die Squash-Funktion hinzufügen, mit der wir das "
-"Signal aussenden und den Mob zerstören."
 
 msgid ""
 "When using C#, Godot will create the appropriate events automatically for "

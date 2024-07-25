@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,17 +31,6 @@ msgid ""
 "Godot provides many kinds of collision shapes, with different performance "
 "and accuracy tradeoffs."
 msgstr "Godot提供多种碰撞形状, 具有不同的性能和精度权衡."
-
-#, fuzzy
-msgid ""
-"You can define the shape of a :ref:`class_PhysicsBody3D` by adding one or "
-"more :ref:`CollisionShape3Ds <class_CollisionShape3D>` as child nodes. Note "
-"that you must add a :ref:`class_Shape3D` *resource* to collision shape nodes "
-"in the Inspector dock."
-msgstr ""
-"您可以通过添加一个或多个 :ref:`class_PhysicsBody` 作为子节点来定义 :ref:"
-"`CollisionShapes <class_CollisionShape>` 的形状。请注意，你必须在检查器面板中"
-"为碰撞形状节点添加一个 :ref:`class_Shape` *资源*\\ 。"
 
 msgid ""
 "When you add multiple collision shapes to a single PhysicsBody, you don't "
@@ -93,21 +77,6 @@ msgstr ""
 msgid "Convex collision shapes"
 msgstr "凸型碰撞形状"
 
-#, fuzzy
-msgid ""
-":ref:`Convex collision shapes <class_ConvexPolygonShape3D>` are a compromise "
-"between primitive collision shapes and concave collision shapes. They can "
-"represent shapes of any complexity, but with an important caveat. As their "
-"name implies, an individual shape can only represent a *convex* shape. For "
-"instance, a pyramid is *convex*, but a hollow box is *concave*. To define a "
-"concave object with a single collision shape, you need to use a concave "
-"collision shape."
-msgstr ""
-":ref:`凸形碰撞形状 <class_ConvexPolygonShape>` 是基础碰撞形状和凹形碰撞形状之"
-"间的折衷, 可以表示任何复杂的形状, 但要警告的是, 正如名称所示, 一个单独的形状"
-"只能表示一个 *凸* 的形状. 要用单个碰撞形状定义一个凹形对象, 需要使用一个凹形"
-"碰撞形状. 例如, 一个金字塔是 *凸* 的, 但一个空心盒子是 *凹* 的."
-
 msgid ""
 "Depending on the object's complexity, you may get better performance by "
 "using multiple convex shapes instead of a concave collision shape. Godot "
@@ -120,15 +89,6 @@ msgstr ""
 "性能.Godot可以使用 *凸分解* 来生成与空心物体大致匹配的凸形. 请注意, 在一定数"
 "量的凸形之后, 就没有了这种性能优势, 对于大而复杂的对象, 如整个关卡, 建议使用"
 "凹形代替."
-
-#, fuzzy
-msgid ""
-"You can generate one or several convex collision shapes from the editor by "
-"selecting a MeshInstance3D and using the **Mesh** menu at the top of the 3D "
-"viewport. The editor exposes two generation modes:"
-msgstr ""
-"您可以通过选择一个网格实例, 并使用3D视图顶部的 **网格** 菜单从编辑器中生成一"
-"个或多个凸形碰撞形状. 编辑器有两种生成模式:"
 
 msgid ""
 "**Create Single Convex Collision Sibling** uses the Quickhull algorithm. It "
@@ -153,19 +113,6 @@ msgstr ""
 
 msgid "Concave or trimesh collision shapes"
 msgstr "凹面或三面体碰撞形状"
-
-#, fuzzy
-msgid ""
-":ref:`Concave collision shapes <class_ConcavePolygonShape3D>`, also called "
-"trimesh collision shapes, can take any form, from a few triangles to "
-"thousands of triangles. Concave shapes are the slowest option but are also "
-"the most accurate in Godot. **You can only use concave shapes within "
-"StaticBodies.** They will not work with CharacterBodies or RigidBodies "
-"unless the RigidBody's mode is Static."
-msgstr ""
-":ref:`凹形碰撞形状 <class_ConcavePolygonShape>`, 也称为三角碰撞形状, 可以采取"
-"任何形式, 从几个到数千个三角形, 凹形是最慢的选择, 但也是Godot中最精确的.**除"
-"非刚体的模式是静态的, 否则它不能用于KinematicBodies动态体或RigidBodies刚体."
 
 msgid ""
 "Even though concave shapes offer the most accurate *collision*, contact "
@@ -223,33 +170,6 @@ msgstr ""
 
 msgid "Performance caveats"
 msgstr "性能方面的注意事项"
-
-#, fuzzy
-msgid ""
-"You aren't limited to a single collision shape per PhysicsBody. Still, we "
-"recommend keeping the number of shapes as low as possible to improve "
-"performance, especially for dynamic objects like RigidBodies and "
-"CharacterBodies. On top of that, avoid translating, rotating, or scaling "
-"CollisionShapes to benefit from the physics engine's internal optimizations."
-msgstr ""
-"每个 PhysicsBody（物理体）不限于一个碰撞形状。尽管如此，我们还是建议尽量减少"
-"碰撞形状的数量以提高性能。特别是对于像 RigidBodies （刚体）和 "
-"KinematicBodies （运动体）这样的动态对象。除此之外，避免 translating（平"
-"移）， rotating（旋转）或 scaling（缩放）碰撞形状，可以提高物理引擎运行效率。"
-
-#, fuzzy
-msgid ""
-"When using a single non-transformed collision shape in a StaticBody, the "
-"engine's *broad phase* algorithm can discard inactive PhysicsBodies. The "
-"*narrow phase* will then only have to take into account the active bodies' "
-"shapes. If a StaticBody has many collision shapes, the broad phase will "
-"fail. The narrow phase, which is slower, must then perform a collision check "
-"against each shape."
-msgstr ""
-"在 StaticBody 中使用单个非转换碰撞形状（non-transformed collision shape）时，"
-"引擎的 *宽相位（broad phase）* 算法可以丢弃不活跃的 PhysicsBody。这个 *窄相位"
-"（narrow phase）* 只需考虑到活跃物体的形状。如果一个 StaticBody 有许多碰撞形"
-"状， 那么宽相位就会失败。较慢的窄相位必须对每个形状执行碰撞检查。"
 
 msgid ""
 "If you run into performance issues, you may have to make tradeoffs in terms "

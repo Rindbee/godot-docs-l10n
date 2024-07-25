@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,18 +34,6 @@ msgstr "Анімацію будь-якої властивості будь-як�
 msgid "Create a simple animation"
 msgstr "Створення простої анімації"
 
-#, fuzzy
-msgid ""
-"In Godot, you can animate anything available in the Inspector, such as Node "
-"transforms, sprites, UI elements, particles, visibility and color of "
-"materials, and so on. You can also modify values of script variables and "
-"even call functions."
-msgstr ""
-"У Godot ви можете анімувати все, що доступно в інспекторі, наприклад, "
-"перетворення вузлів, спрайти, елементи інтерфейсу користувача, частинки, "
-"видимість і колір матеріалів тощо. Ви також можете змінювати значення "
-"змінних у скриптах і викликати будь-яку функцію."
-
 msgid "Create an AnimationPlayer node"
 msgstr "Створення вузла AnimationPlayer (Відтворювач Анімації)"
 
@@ -61,33 +44,11 @@ msgstr ""
 "Щоб використовувати інструменти анімації, спочатку потрібно створити вузол :"
 "ref:`class_AnimationPlayer`."
 
-#, fuzzy
-msgid ""
-"The AnimationPlayer node type is the data container for your animations. One "
-"AnimationPlayer node can hold multiple animations, which can automatically "
-"transition to one another."
-msgstr ""
-"Тип вузла AnimationPlayer — це контейнер даних для анімації. Один вузол "
-"AnimationPlayer може містити кілька анімацій, які можуть автоматично "
-"переходити від одної до другої."
-
 msgid "The AnimationPlayer node"
 msgstr "Вузол AnimationPlayer"
 
-#, fuzzy
-msgid ""
-"After you create an AnimationPlayer node, click on it to open the Animation "
-"Panel at the bottom of the viewport."
-msgstr ""
-"Після створення одним клацанням по вузлі AnimationPlayer відкрийте панель "
-"анімації в нижній частині вікна перегляду."
-
 msgid "The animation panel position"
 msgstr "Розташування панелі анімації"
-
-#, fuzzy
-msgid "The animation panel consists of four parts:"
-msgstr "Панель складається з чотирьох частин:"
 
 msgid "The animation panel"
 msgstr "Панель анімації"
@@ -103,70 +64,20 @@ msgstr "Список доріжок (треків)"
 msgid "The timeline with keyframes"
 msgstr "Шкала часу з ключовими кадрами"
 
-#, fuzzy
-msgid ""
-"The timeline and track controls, where you can zoom the timeline and edit "
-"tracks, for example."
-msgstr ""
-"Керування Шкалою Часу та Доріжками, де ви можете масштабувати шкалу часу, "
-"або редагувати доріжки."
-
 msgid "Computer animation relies on keyframes"
 msgstr "Комп'ютерна анімація опирається на ключові кадри"
-
-#, fuzzy
-msgid "A keyframe defines the value of a property at a point in time."
-msgstr "Ключовий кадр визначає значення властивості в певний момент часу."
-
-#, fuzzy
-msgid ""
-"Diamond shapes represent keyframes in the timeline. A line between two "
-"keyframes indicates that the value doesn't change between them."
-msgstr ""
-"Фігурки ромбиків на шкалі часу - це ключові кадри. Лінія між двома ключовими "
-"кадрами вказує на те, що значення не змінилося."
 
 msgid "Keyframes in Godot"
 msgstr "Ключові кадри в Godot"
 
-msgid ""
-"You set values of a node's properties and create animation keyframes for "
-"them. When the animation runs, the engine will interpolate the values "
-"between the keyframes, resulting in them gradually changing over time."
-msgstr ""
-
 msgid "Two keyframes are all it takes to obtain a smooth motion"
 msgstr "Два ключових кадри - це все, що потрібно для отримання плавного руху"
-
-msgid ""
-"The timeline defines how long the animation will take. You can insert "
-"keyframes at various points, and change their timing."
-msgstr ""
 
 msgid "The timeline in the animation panel"
 msgstr "Шкала часу на панелі анімації"
 
-msgid ""
-"Each line in the Animation Panel is an animation track that references a "
-"Normal or Transform property of a node. Each track stores a path to a node "
-"and its affected property. For example, the position track in the "
-"illustration refers to the ``position`` property of the Sprite2D node."
-msgstr ""
-
 msgid "Example of Normal animation tracks"
 msgstr "Зразок Звичайних анімаційних доріжок"
-
-#, fuzzy
-msgid ""
-"If you animate the wrong property, you can edit a track's path at any time "
-"by double-clicking on it and typing the new path. Play the animation using "
-"the \"Play from beginning\" button |Play from beginning| (or pressing :kbd:"
-"`Shift + D` on keyboard) to see the changes instantly."
-msgstr ""
-"Якщо ви анімували неправильну властивість, ви можете змінити шлях доріжки в "
-"будь-який час. Двічі клацніть по ній і введіть новий шлях. Відтворіть "
-"анімацію за допомогою кнопки \"Відтворити з початку\" |Play from beginning| "
-"(або натиснувши :kbd:`Shift + D` на клавіатурі), щоб одразу побачити зміни."
 
 msgid "Play from beginning"
 msgstr "Грати з початку"
@@ -187,16 +98,6 @@ msgstr ""
 msgid "Our scene setup"
 msgstr "Налаштування нашої сцени"
 
-#, fuzzy
-msgid ""
-"AnimationPlayer inherits from Node instead of Node2D or Node3D, which means "
-"that the child nodes will not inherit the transform from the parent nodes "
-"due to a bare Node being present in the hierarchy."
-msgstr ""
-"AnimationPlayer є спадкоємцем Node, а не Node2D, чи Spatial, що означає, що "
-"дочірні вузли не будуть успадковувати перетворення від батьківських вузлів "
-"через наявність голого Node в ієрархії."
-
 msgid ""
 "Therefore, it is not recommended to add nodes that have a 2D/3D transform as "
 "a child of an AnimationPlayer node."
@@ -204,95 +105,17 @@ msgstr ""
 "Тому не рекомендується додавати вузлу AnimationPlayer в нащадки вузли, які "
 "мають 2D/3D перетворення."
 
-msgid ""
-"The sprite holds an image texture. For this tutorial, select the Sprite2D "
-"node, click Texture in the Inspector, and then click Load. Select the "
-"default Godot icon for the sprite's texture."
-msgstr ""
-
-#, fuzzy
-msgid "Adding an animation"
-msgstr "Додавання нової анімації"
-
-#, fuzzy
-msgid ""
-"Select the AnimationPlayer node and click the \"Animation\" button in the "
-"animation editor. From the list, select \"New\" (|Add Animation|) to add a "
-"new animation. Enter a name for the animation in the dialog box."
-msgstr ""
-"Виберіть вузол AnimationPlayer, а потім натисніть кнопку \"Анімація\" в "
-"редакторі анімації. Зі списку виберіть \"Новий\" (|Додати анімацію|), щоб "
-"додати нову анімацію. І введіть ім'я анімації в діалоговому вікні."
-
 msgid "Add Animation"
 msgstr "Додати анімацію"
 
 msgid "Add a new animation"
 msgstr "Додавання нової анімації"
 
-#, fuzzy
-msgid "Manage an animation libraries"
-msgstr "Сигнали та властивості"
-
-msgid ""
-"For reusability, the animation is registered in a list in the animation "
-"library resource. If you add an animation to AnimationPlayer without "
-"specifying any particular settings, the animation will be registered in the "
-"[Global] animation library that AnimationPlayer has by default."
-msgstr ""
-
-#, fuzzy
-msgid "Manage animations"
-msgstr "Анімація"
-
-msgid ""
-"If there are multiple animation libraries and you try to add an animation, a "
-"dialog box will appear with options."
-msgstr ""
-
-#, fuzzy
-msgid "Add a new animation with library option"
-msgstr "Додавання нової анімації"
-
 msgid "Adding a track"
 msgstr "Додавання доріжки"
 
-#, fuzzy
-msgid ""
-"To add a new track for our sprite, select it and take a look at the toolbar:"
-msgstr ""
-"Щоб додати нову доріжку для нашого спрайту, виберіть його та подивіться на "
-"панель інструментів:"
-
 msgid "Convenience buttons"
 msgstr "Зручні кнопки"
-
-#, fuzzy
-msgid ""
-"These switches and buttons allow you to add keyframes for the selected "
-"node's location, rotation, and scale. Since we are only animating the "
-"sprite's position, make sure that only the location switch is selected. The "
-"selected switches are blue."
-msgstr ""
-"Ці перемикачі та кнопки дозволяють додавати ключові кадри для розташування, "
-"обертання та масштабу вибраного вузла відповідно."
-
-#, fuzzy
-msgid ""
-"Click on the key button to create the first keyframe. Since we don't have a "
-"track set up for the Position property yet, Godot will offer to create it "
-"for us. Click **Create**."
-msgstr ""
-"Оскільки у нас немає доріжки, вже створеної для властивості перетворення/"
-"розташування, Godot запитує, чи повинна він налаштувати її для нас. "
-"Натисніть кнопку **Створити**."
-
-#, fuzzy
-msgid ""
-"Godot will create a new track and insert our first keyframe at the beginning "
-"of the timeline:"
-msgstr ""
-"Це створює нову доріжку і наш перший ключовий кадр на початку шкали часу:"
 
 msgid "The sprite track"
 msgstr "Доріжка спрайта"
@@ -300,39 +123,8 @@ msgstr "Доріжка спрайта"
 msgid "The second keyframe"
 msgstr "Другий ключовий кадр"
 
-#, fuzzy
-msgid ""
-"We need to set our sprite's end location and how long it will take for it to "
-"get there."
-msgstr ""
-"Тепер нам потрібно встановити місце, куди повинен прямувати наш спрайт і "
-"скільки часу потрібно йому, щоб туди дістатися."
-
-#, fuzzy
-msgid ""
-"Let's say we want it to take two seconds to move between the points. By "
-"default, the animation is set to last only one second, so change the "
-"animation length to 2 in the controls on the right side of the animation "
-"panel's timeline header."
-msgstr ""
-"Скажімо, ми хочемо, щоб переміщення зайняло 2 секунди. За замовчуванням "
-"анімація триває всього 1 секунду, тому змініть тривалість анімації на 2."
-
 msgid "Animation length"
 msgstr "Тривалість анімації"
-
-msgid ""
-"Now, move the sprite right, to its final position. You can use the *Move "
-"tool* in the toolbar or set the *Position*'s X value in the *Inspector*."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Click on the timeline header near the two-second mark in the animation panel "
-"and then click the key button in the toolbar to create the second keyframe."
-msgstr ""
-"На часовій шкалі натисніть поблизу 2-секундної позначки та перемістіть "
-"спрайт до місця призначення справа."
 
 msgid "Run the animation"
 msgstr "Запуск анімації"
@@ -346,58 +138,14 @@ msgstr "Вау! Наша анімація працює:"
 msgid "The animation"
 msgstr "Анімація"
 
-#, fuzzy
-msgid "Autoplay on load"
-msgstr "Автозавантаження"
-
-msgid ""
-"You can make it so an animation plays automatically when the AnimationPlayer "
-"nodes scene starts, or joins another scene. To do this click the \"Autoplay "
-"on load\" button in the animation editor, it's right next to the edit button."
-msgstr ""
-
-msgid ""
-"The icon for it will also appear in front of the name of the animation, so "
-"you can easily identify which one is the autoplay animation."
-msgstr ""
-
 msgid "Back and forth"
 msgstr "Туди-сюди"
-
-msgid ""
-"Godot has an interesting feature that we can use in animations. When "
-"Animation Looping is set but there's no keyframe specified at the end of the "
-"animation, the first keyframe is also the last."
-msgstr ""
-
-msgid ""
-"This means we can extend the animation length to four seconds now, and Godot "
-"will also calculate the frames from the last keyframe to the first, moving "
-"our sprite back and forth."
-msgstr ""
 
 msgid "Animation loop"
 msgstr "Циклічність анімації"
 
-#, fuzzy
-msgid ""
-"You can change this behavior by changing the track's loop mode. This is "
-"covered in the next chapter."
-msgstr ""
-"Якщо зараз встановити тривалість анімації на 4 секунди, спрайт переміститься "
-"туди-сюди. Цю поведінку можна змінити, якщо змінити режим циклу доріжки. Про "
-"це йдеться в наступному розділі."
-
 msgid "Track settings"
 msgstr "Параметри доріжки"
-
-#, fuzzy
-msgid ""
-"Each property track has a settings panel at the end, where you can set its "
-"update mode, track interpolation, and loop mode."
-msgstr ""
-"Кожна доріжка в кінці має панель налаштувань, де ви можете встановити режим "
-"оновлення, інтерполяцію доріжки та режим циклу."
 
 msgid ""
 "The update mode of a track tells Godot when to update the property values. "
@@ -412,36 +160,8 @@ msgstr "**Неперервний:** Оновлювати властивість 
 msgid "**Discrete:** Only update the property on keyframes"
 msgstr "**Дискретно:** Оновлювати властивість лише на ключових кадрах"
 
-#, fuzzy
-msgid ""
-"**Capture:** if the first keyframe's time is greater than ``0.0``, the "
-"current value of the property will be remembered and will be blended with "
-"the first animation key. For example, you could use the Capture mode to move "
-"a node that's located anywhere to a specific location."
-msgstr ""
-"**Захоплення:** Якщо час першого ключового кадру більший за ``0.0``, поточне "
-"значення властивості запам'ятається та буде змішуватися з першим ключем "
-"анімації. Наприклад, за допомогою режиму Захоплення можна перемістити вузол, "
-"розташований у будь-якому місці, до певного розташування."
-
 msgid "Track mode"
 msgstr "Режими доріжки"
-
-#, fuzzy
-msgid ""
-"You will usually use \"Continuous\" mode. The other types are used to script "
-"complex animations."
-msgstr ""
-"У звичайних анімаціях зазвичай використовується \"Безперервний\". Інші типи "
-"використовуються для складної анімації."
-
-#, fuzzy
-msgid ""
-"Track interpolation tells Godot how to calculate the frame values between "
-"keyframes. These interpolation modes are supported:"
-msgstr ""
-"Інтерполяція розповідає Godot, як розрахувати значення кадрів між ключовими "
-"кадрами. Підтримуються такі режими інтерполяції:"
 
 msgid "Nearest: Set the nearest keyframe value"
 msgstr "**Найближчий:** встановлює найближче значення ключового кадру"
@@ -460,38 +180,8 @@ msgstr ""
 "**Кубічний:** Встановлює значення на основі обчислення кубічної функції між "
 "двома ключовими кадрами"
 
-msgid ""
-"Linear Angle (Only appears in rotation property): Linear mode with shortest "
-"path rotation"
-msgstr ""
-
-msgid ""
-"Cubic Angle (Only appears in rotation property): Cubic mode with shortest "
-"path rotation"
-msgstr ""
-
 msgid "Track interpolation"
 msgstr "Режими інтерполяції"
-
-#, fuzzy
-msgid ""
-"With Cubic interpolation, animation is slower at keyframes and faster "
-"between them, which leads to more natural movement. Cubic interpolation is "
-"commonly used for character animation. Linear interpolation animates changes "
-"at a fixed pace, resulting in a more robotic effect."
-msgstr ""
-"Кубічна інтерполяція призводить до природнішого руху, де анімація "
-"сповільнюється на ключовому кадрі і прискорюється між ключовими кадрами. "
-"Зазвичай цей режим використовується для анімації персонажів. Лінійна "
-"інтерполяція створює більше роботизований рух."
-
-#, fuzzy
-msgid ""
-"Godot supports two loop modes, which affect the animation when it's set to "
-"loop:"
-msgstr ""
-"Godot підтримує два режими циклу, які впливають на анімацію, якщо для неї "
-"встановлено циклічність:"
 
 msgid "Loop modes"
 msgstr "Режими циклу"
@@ -518,43 +208,11 @@ msgstr ""
 msgid "Keyframes for other properties"
 msgstr "Ключові кадри для інших властивостей"
 
-msgid ""
-"Godot's animation system isn't restricted to position, rotation, and scale. "
-"You can animate any property."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If you select your sprite while the animation panel is visible, Godot will "
-"display a small keyframe button in the *Inspector* for each of the sprite's "
-"properties. Click on one of these buttons to add a track and keyframe to the "
-"current animation."
-msgstr ""
-"Якщо ви виберете спрайт, коли відображається панель анімації, ви отримаєте "
-"невелику кнопку ключового кадру для всіх властивостей спрайта. Натисніть на "
-"цю кнопку, і Godot автоматично створить доріжку і ключовий кадр до поточної "
-"анімації."
-
 msgid "Edit keyframes"
 msgstr "Редагування ключових кадрів"
 
-msgid ""
-"You can click on a keyframe in the animation timeline to display and edit "
-"its value in the *Inspector*."
-msgstr ""
-
 msgid "Keyframe editor editing a key"
 msgstr "Редактор ключових кадрів"
-
-#, fuzzy
-msgid ""
-"You can also edit the easing value for a keyframe here by clicking and "
-"dragging its easing curve. This tells Godot how to interpolate the animated "
-"property when it reaches this keyframe."
-msgstr ""
-"Крім того, ви також можете змінити значення заспокоєння для цього ключового "
-"кадру, клацнувши та перетягнувши параметр **Easing**. Він вказує Godot, як "
-"змінити значення властивості, при досягненні цього ключового кадру."
 
 msgid ""
 "You can tweak your animations this way until the movement \"looks right.\""
@@ -596,43 +254,6 @@ msgstr ""
 "ефектами анімації (ніби її вернули до часу ``0.0``). Це впливає лише на "
 "збережений файл – доріжки властивостей у редакторі залишаються там, де вони "
 "були."
-
-#, fuzzy
-msgid ""
-"If you want to reset the tracks in the editor, select the AnimationPlayer "
-"node, open the **Animation** bottom panel then choose **Apply Reset** in the "
-"animation editor's **Edit** dropdown menu."
-msgstr ""
-"Якщо ви хочете скинути доріжки в редакторі, виберіть вузол AnimationPlayer, "
-"відкрийте **Редагувати** на панелі анімації, а потім виберіть **Застосувати "
-"скидання** з спливаючого меню."
-
-msgid ""
-"when using the keyframe icon next to a property in the inspector the editor "
-"will ask you to automatically create a RESET track."
-msgstr ""
-
-msgid ""
-"RESET tracks is also used as a reference value for blending. See also `For "
-"better blending <../animation/animation_tree.html#for-better-blending>`__."
-msgstr ""
-
-#, fuzzy
-msgid "Onion Skinning"
-msgstr "Параметри анімації"
-
-msgid ""
-"Godot's animation editor allows you use onion skinning while creating an "
-"animation. To turn this feature on click on the onion icon in the top right "
-"of the animation editor. Now there will be transparent red copies of what is "
-"being animated in its previous positions in the animation."
-msgstr ""
-
-msgid ""
-"The three dots button next to the onion skinning button opens a dropdown "
-"menu that lets you adjust how it works, including the ability to use onion "
-"skinning for future frames."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Стан перекладу"

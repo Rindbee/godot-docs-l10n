@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,42 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using the Project Manager"
-msgstr "Менеджер проектов"
-
-#, fuzzy
-msgid ""
-"When you launch Godot, the first window you see is the Project Manager. It "
-"lets you create, remove, import, or play game projects."
-msgstr ""
-"Когда вы запускаете Godot, первое окно, которое вы видите - это менеджер "
-"проектов. На вкладке по умолчанию \"Projects\" вы можете управлять "
-"существующими проектами, импортировать или создавать новые и многое другое."
-
 msgid ""
 "To change the editors language click on the \"Settings\" Button in the top "
 "right corner."
 msgstr ""
-
-msgid ""
-"Then on the settings page seelct the language you want from the dropdown "
-"menu."
-msgstr ""
-
-#, fuzzy
-msgid "Creating and importing projects"
-msgstr "Создание нового проекта"
-
-#, fuzzy
-msgid "To create a new project:"
-msgstr "Создание нового проекта:"
-
-#, fuzzy
-msgid "Click the **New** button on the top-left of the window."
-msgstr ""
-"Нажав кнопку \"Search Help\" (\"Справка\") в правом верхнем углу экрана "
-"написания скриптов."
+"Чтобы изменить язык редактора, нажмите на кнопку «Settings» в правом верхнем "
+"углу."
 
 msgid ""
 "Give the project a name, choose an empty folder on your computer to save the "
@@ -60,17 +25,6 @@ msgid ""
 msgstr ""
 "Дайте проекту имя, выберите пустую папку на вашем компьютере для сохранения "
 "файлов и выберите бэкенд для рендеринга."
-
-#, fuzzy
-msgid ""
-"Click the **Create & Edit** button to create the project folder and open it "
-"in the editor."
-msgstr ""
-"Нажмите **Импортировать и редактировать**, и проект откроется в редакторе."
-
-#, fuzzy
-msgid "Using the file browser"
-msgstr "Обслуживание файлов"
 
 msgid ""
 "Click the **Browse** button to open Godot's file browser and pick a location "
@@ -87,10 +41,6 @@ msgstr ""
 "Когда вы увидите зеленую галочку справа, это означает, что движок обнаружил "
 "пустую папку. Вы также можете нажать кнопку **Создать папку**, чтобы создать "
 "пустую папку на основе названия вашего проекта."
-
-#, fuzzy
-msgid "Opening and importing projects"
-msgstr "Редактирование и запуск проекта"
 
 msgid ""
 "The next time you open the Project Manager, you'll see your new project in "
@@ -111,10 +61,6 @@ msgstr ""
 msgid "When the folder path is correct, you'll see a green checkmark."
 msgstr "Если путь к папке указан правильно, вы увидите зеленую галочку."
 
-#, fuzzy
-msgid "Downloading demos and templates"
-msgstr "Расположение шаблонов"
-
 msgid ""
 "From the **Asset Library Projects** tab you can download open source project "
 "templates and demos from the :ref:`Asset Library <doc_what_is_assetlib>` to "
@@ -124,26 +70,8 @@ msgstr ""
 "открытым исходным кодом и демо-версии из :ref:`Asset Library "
 "<doc_what_is_assetlib>`, чтобы помочь вам быстрее начать работу."
 
-msgid ""
-"The first time you open this tab you'll notice that it's asking you to go "
-"online. For privacy reasons the project manager, and Godot editor, can't "
-"access the internet by default. To enable accessing the internet click the "
-"\"Go Online\" button. This will also allow project manager to notify you "
-"about updates. If you wish to turn this off in the future go into project "
-"manager settings and change \"Network Mode\" to \"Offline\""
-msgstr ""
-
-msgid ""
-"Now that Godot is connected to the internet you can download a demo or "
-"template, to do this:"
-msgstr ""
-
 msgid "Click on its title."
 msgstr "Щелкните на название."
-
-#, fuzzy
-msgid "On the page that opens, click the download button."
-msgstr "Оставьте настройки по умолчанию и нажмите кнопку *Add*."
 
 msgid ""
 "Once it finished downloading, click install and choose where you want to "
@@ -151,36 +79,6 @@ msgid ""
 msgstr ""
 "После завершения загрузки нажмите кнопку \"Установить\" и выберите место, "
 "где вы хотите сохранить проект."
-
-#, fuzzy
-msgid "Managing projects with tags"
-msgstr "Используя настройки проекта"
-
-msgid ""
-"For users with a lot of projects on one PC it can be a lot to keep track of. "
-"To aid in this Godot allows you to create project tags. To add a tag to a "
-"project click on the project in the project manager, then click on the "
-"\"Manage Tags\" button"
-msgstr ""
-
-msgid ""
-"This will open up the manage project tags window. To add a tag click the "
-"plus button."
-msgstr ""
-
-msgid ""
-"type out the tag name, and click \"ok\". Your project will now have a tag "
-"added to it. These tags can be used for any other project in your project "
-"manager. In addition tags will stay with projects. So if you tag your "
-"project, send it to another machine and import it into the project manager "
-"you will see the tags you created."
-msgstr ""
-
-msgid ""
-"To remove a tag from your project manager it must be removed from all the "
-"projects it's used by. Once that's done close the project manager, open it "
-"up again, and the tag should be gone."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

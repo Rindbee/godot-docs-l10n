@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,25 +29,8 @@ msgstr "在开始之前，请确保你已完成以下步骤："
 msgid "`Git <https://git-scm.com/>`_"
 msgstr "`Git <https://git-scm.com/>`_"
 
-#, fuzzy
-msgid ""
-"`make <https://www.gnu.org/software/make/>`_ (unless you're using Windows)"
-msgstr ""
-"`make <https://www.gnu.org/software/make/>`_ （除非你在使用Windows系统）"
-
 msgid "`Python <https://www.python.org/>`_ 3"
 msgstr "`Python <https://www.python.org/>`_ 3"
-
-#, fuzzy
-msgid ""
-"Python 3 should come with the ``pip3`` command. You may need to write "
-"``python3 -m pip`` (Unix) or  ``py -m pip`` (Windows) instead of ``pip3``. "
-"If both approaches fail, `make sure that you have pip3 installed <https://"
-"pip.pypa.io/en/stable/installation/>`__."
-msgstr ""
-"Python 3 应该带有 ``pip3`` 命令。 您可能需要输入 ``python3 -m pip`` （Unix）"
-"或 ``py -m pip`` （Windows）而不是 ``pip3`` 。 如果两种方法都失败了，\\`请确"
-"保您已安装 pip3 <https://pip.pypa.io/en/stable/installation/>`__\\。"
 
 msgid ""
 "*(Optional)* Set up a virtual environment. Virtual environments prevent "
@@ -82,10 +60,6 @@ msgstr "克隆（clone）文档仓库："
 
 msgid "Change directory into the docs repo:"
 msgstr "将目录切换到文档仓库："
-
-#, fuzzy
-msgid "Install the required packages:"
-msgstr "安装需要的软件包："
 
 msgid "Build the docs:"
 msgstr "构建文档："
@@ -119,16 +93,6 @@ msgstr "处理错误"
 msgid "If you run into errors, you may try the following command:"
 msgstr "如果你遇到了错误，可以试试以下命令："
 
-#, fuzzy
-msgid ""
-"If you get a ``MemoryError`` or ``EOFError``, you can remove the ``classes/"
-"`` folder and run ``make`` again. This will drop the class references from "
-"the final HTML documentation but will keep the rest intact."
-msgstr ""
-"如果你遇到了 ``MemoryError`` 或者 ``EOFError``\\ ，可以把 ``classes/`` 文件夹"
-"删除然后重新执行 ``make``\\ 。这样会在最终的 HTML 文档中删除类参考文档，其它"
-"内容还是一致的。"
-
 msgid ""
 "If you delete the ``classes/`` folder, do not use ``git add .`` when working "
 "on a pull request or the whole ``classes/`` folder will be removed when you "
@@ -153,25 +117,8 @@ msgstr ""
 "磁盘交换会拖慢文档构建的速度，关闭后需要至少 8 GB 的内存。如果你有至少 16 GB "
 "的内存，可以这样加速编译："
 
-#, fuzzy
-msgid ""
-"You can use ``-j auto`` to use all available CPU threads, but this can use a "
-"lot of RAM if you have a lot of CPU threads. For instance, on a system with "
-"32 CPU threads, ``-j auto`` (which corresponds to ``-j 32`` here) can "
-"require 20+ GB of RAM for Sphinx alone."
-msgstr ""
-"您可以使用 ``-j auto`` 来使用所有可用的 CPU 线程，但是如果您有很多 CPU 线程，"
-"这可能会使用大量 RAM。 例如，在具有 32 个 CPU 线程的系统上， ``-j auto`` （此"
-"处对应于 ``-j 32`` ）仅 Sphinx 就需要 20+ GB 的 RAM。"
-
 msgid "Specifying a list of files"
 msgstr "指定文件列表"
-
-#, fuzzy
-msgid ""
-"You can specify a list of files to build, which can greatly speed up "
-"compilation:"
-msgstr "你也可以指定需要构建的文件列表，大幅加速编译："
 
 msgid "Translation status"
 msgstr "翻译状态"

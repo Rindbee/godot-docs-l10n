@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,13 +41,12 @@ msgstr "这就为 Object 添加了许多功能。例如："
 msgid "References:"
 msgstr "参考："
 
-#, fuzzy
 msgid ""
 "`core/object/object.h <https://github.com/godotengine/godot/blob/master/core/"
 "object/object.h>`__"
 msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/3.x/core/object."
-"h>`__"
+"`core/object/object.h <https://github.com/godotengine/godot/blob/master/core/"
+"object/object.h>`__"
 
 msgid "Registering an Object"
 msgstr "注册对象"
@@ -92,16 +86,6 @@ msgid ""
 "Registering functions is one:"
 msgstr "在 ``_bind_methods`` 里面, 有几件事可以做. 注册函数是一个:"
 
-#, fuzzy
-msgid "Default values for arguments can be passed as parameters at the end:"
-msgstr "参数的默认值可以按相反的顺序传递:"
-
-msgid ""
-"Default values must be provided in the same order as they are declared, "
-"skipping required arguments and then providing default values for the "
-"optional ones. This matches the syntax for declaring methods in C++."
-msgstr ""
-
 msgid ""
 "``D_METHOD`` is a macro that converts \"methodname\" to a StringName for "
 "more efficiency. Argument names are used for introspection, but when "
@@ -123,27 +107,18 @@ msgstr ""
 "如果只是添加不希望被彻底记录的模块和功能, 可以安全地忽略 ``D_METHOD()`` 宏, "
 "并且为了简洁起见, 可以传递传递名称的字符串."
 
-#, fuzzy
 msgid ""
 "`core/object/class_db.h <https://github.com/godotengine/godot/blob/master/"
 "core/object/class_db.h>`__"
 msgstr ""
-"`core/class_db.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"class_db.h>`__"
+"`core/object/class_db.h <https://github.com/godotengine/godot/blob/master/"
+"core/object/class_db.h>`__"
 
 msgid "Constants"
 msgstr "常量"
 
 msgid "Classes often have enums such as:"
 msgstr "类通常有枚举, 例如:"
-
-#, fuzzy
-msgid ""
-"For these to work when binding to methods, the enum must be declared "
-"convertible to int. A macro is provided to help with this:"
-msgstr ""
-"为了使这些在绑定到方法时起作用, 枚举必须被声明为可转换为int, 为此提供了一个"
-"宏:"
 
 msgid "The constants can also be bound inside ``_bind_methods``, by using:"
 msgstr "常量也可以绑定在 ``_bind_methods`` 中, 通过使用:"
@@ -160,23 +135,8 @@ msgstr "序列化和反序列化对象."
 msgid "Creating a list of editable values for the Object derived class."
 msgstr "为Object派生类创建可编辑值列表."
 
-#, fuzzy
-msgid ""
-"Properties are usually defined by the PropertyInfo() class and constructed "
-"as:"
-msgstr "属性通常由PropertyInfo()类定义. 通常构造为:"
-
 msgid "For example:"
 msgstr "例如："
-
-#, fuzzy
-msgid ""
-"This is an integer property named \"amount\". The hint is a range, and the "
-"range goes from 0 to 49 in steps of 1 (integers). It is only usable for the "
-"editor (editing the value visually) but won't be serialized."
-msgstr ""
-"这是一个整数属性，名为“amount”，提示的是一个范围，从 0 到 49，步长为 1（整"
-"数）。它仅适用于编辑器（可视化地编辑值），但不会被序列化。"
 
 msgid "Another example:"
 msgstr "另一个示例:"
@@ -204,7 +164,7 @@ msgid ""
 msgstr ""
 "属性也可以像C#属性一样工作, 并且可以使用索引从脚本访问, 但通常不鼓励这种用"
 "法, 因为使用函数是易读性的首选. 许多属性也与类别绑定, 例如 ``动画/帧``, 除非"
-"使用操作符 ``[]``, 否则也无法建立索引."
+"使用运算符 ``[]``, 否则也无法建立索引."
 
 msgid ""
 "From ``_bind_methods()``, properties can be created and bound as long as set/"
@@ -257,12 +217,6 @@ msgstr ""
 msgid "Signals"
 msgstr "信号"
 
-#, fuzzy
-msgid ""
-"Objects can have a set of signals defined (similar to Delegates in other "
-"languages). This example shows how to connect to them:"
-msgstr "对象可以定义一组信号(类似于其他语言的代理). 连接它们很容易:"
-
 msgid ""
 "The method ``_node_entered_tree`` must be registered to the class using "
 "``ClassDB::bind_method`` (explained before)."
@@ -278,69 +232,33 @@ msgstr "使用 ``ADD_SIGNAL`` 宏在 ``_bind_methods`` 中添加信号到类中,
 msgid "Notifications"
 msgstr "通知"
 
-#, fuzzy
-msgid ""
-"All objects in Godot have a :ref:`_notification "
-"<class_Object_private_method__notification>` method that allows it to "
-"respond to engine level callbacks that may relate to it. More information "
-"can be found on the :ref:`doc_godot_notifications` page."
-msgstr ""
-"Godot 中的每个对象都实现了 :ref:`_notification "
-"<class_Object_method__notification>` 方法。其目的是允许对象响应可能与之相关的"
-"各种引擎级回调。更多信息可以在 :ref:`doc_godot_notifications` 页面查看。"
-
 msgid "References"
 msgstr "参考"
-
-#, fuzzy
-msgid ""
-":ref:`RefCounted <class_RefCounted>` inherits from Object and holds a "
-"reference count. It is the base for reference counted object types. "
-"Declaring them must be done using Ref<> template. For example:"
-msgstr ""
-":ref:`Reference <class_reference>` 继承自 Object 并保存引用计数。它是引用计数"
-"对象类型的基础。声明时必须使用 Ref<> 模板。例如："
 
 msgid ""
 "``myref`` is reference counted. It will be freed when no more Ref<> "
 "templates point to it."
 msgstr "``myref`` 进行了引用计数。当没有其他 Ref<> 模板指向它时，它将被释放。"
 
-#, fuzzy
 msgid ""
 "`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
 "core/object/ref_counted.h>`__"
 msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/3.x/core/object."
-"h>`__"
+"`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
+"core/object/ref_counted.h>`__"
 
 msgid "Resources"
 msgstr "资源"
 
-#, fuzzy
-msgid ""
-":ref:`Resource <class_resource>` inherits from Reference, so all resources "
-"are reference counted. Resources can optionally contain a path, which "
-"reference a file on disk. This can be set with ``resource.set_path(path)``, "
-"though this is normally done by the resource loader. No two different "
-"resources can have the same path; attempting to do so will result in an "
-"error."
-msgstr ""
-":ref:`Resource <class_resource>` 继承自 Reference，因此所有资源都进行了引用计"
-"数。资源可以选择包含引用磁盘上文件的路径。这可以用 ``resource."
-"set_path(path)`` 设置。这通常由资源加载器完成。没有两个不同的资源可以具有相同"
-"的路径，尝试这样做会导致错误。"
-
 msgid "Resources without a path are fine too."
 msgstr "资源也可以没有路径."
 
-#, fuzzy
 msgid ""
 "`core/io/resource.h <https://github.com/godotengine/godot/blob/master/core/"
 "io/resource.h>`__"
 msgstr ""
-"`core/resource.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"resource.h>`__"
+"`core/io/resource.h <https://github.com/godotengine/godot/blob/master/core/"
+"io/resource.h>`__"
 
 msgid "Resource loading"
 msgstr "资源加载"
@@ -359,30 +277,18 @@ msgstr ""
 msgid "resourceinteractiveloader (TODO)"
 msgstr "resourceinteractiveloader(TODO)"
 
-#, fuzzy
 msgid ""
 "`core/io/resource_loader.h <https://github.com/godotengine/godot/blob/master/"
 "core/io/resource_loader.h>`__"
 msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
+"`core/io/resource_loader.h <https://github.com/godotengine/godot/blob/master/"
+"core/io/resource_loader.h>`__"
 
 msgid "Resource saving"
 msgstr "资源保存"
 
 msgid "Saving a resource can be done with the resource saver API:"
 msgstr "可以使用资源保存器API保存资源:"
-
-#, fuzzy
-msgid ""
-"The instance will be saved, and sub resources that have a path to a file "
-"will be saved as a reference to that resource. Sub resources without a path "
-"will be bundled with the saved resource and assigned sub-IDs, like ``res://"
-"someresource.res::1``. This also helps to cache them when loaded."
-msgstr ""
-"实例将被保存。有文件路径的子资源将被保存为对该资源的引用。没有路径的子资源将"
-"与保存的资源捆绑在一起，并分配子 ID，如 ``res://someresource.res::1``\\ 。这"
-"也有助于在加载时对其进行缓存。"
 
 msgid ""
 "`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/"

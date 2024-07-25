@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,34 +37,12 @@ msgstr ""
 "personalizar el puntero del mouse. El segundo modo da más opciones pero "
 "implica scripting:"
 
-#, fuzzy
-msgid ""
-"You could display a \"software\" mouse cursor by hiding the mouse cursor and "
-"moving a Sprite2D to the cursor position in a ``_process()`` method, but "
-"this will add at least one frame of latency compared to an \"hardware\" "
-"mouse cursor. Therefore, it's recommended to use the approach described here "
-"whenever possible."
-msgstr ""
-"Podrías mostrar un cursor de ratón tipo \"software\" ocultando el cursor del "
-"ratón y moviendo un Sprite a la posición del cursor en el método "
-"``_process``, pero esto añadirá al menos un cuadro de latencia comparado con "
-"un cursor de ratón tipo \"hardware\". Por lo tanto, se recomienda utilizar "
-"el enfoque descrito aquí siempre que sea posible."
-
 msgid ""
 "If you have to use the \"software\" approach, consider adding an "
 "extrapolation step to better display the actual mouse input."
 msgstr ""
 "Si tienes que usar el enfoque \"software\", considera añadir un paso de "
 "extrapolación para mostrar mejor la entrada real del ratón."
-
-#, fuzzy
-msgid ""
-"Open project settings, go to Display>Mouse Cursor. You will see Custom "
-"Image, Custom Image Hotspot and Tooltip Position Offset."
-msgstr ""
-"Abre Ajustes del Proyecto, ve a Display>Mouse Cursor. Allí verás Custom "
-"Image y Custom Image Hotspot."
 
 msgid ""
 "Custom Image is the desired image that you would like to set as the mouse "
@@ -80,25 +53,8 @@ msgstr ""
 "ratón. Custom Hotspot es el punto de la imagen que te gustaría usar como "
 "punto de detección del cursor."
 
-msgid ""
-"The custom image **must** be 256×256 pixels at most. To avoid rendering "
-"issues, sizes lower than or equal to 128×128 are recommended."
-msgstr ""
-
-msgid "On the web platform, the maximum allowed cursor image size is 128×128."
-msgstr ""
-
 msgid "Create a Node and attach the following script."
 msgstr "Crea un Node y anéxale el siguiente script."
-
-#, fuzzy
-msgid ""
-"Check :ref:`Input.set_custom_mouse_cursor() "
-"<class_Input_method_set_custom_mouse_cursor>`'s documentation for more "
-"information on usage and platform-specific caveats."
-msgstr ""
-"Revisa :ref:`Input.set_custom_mouse_cursor() "
-"<class_Input_method_set_custom_mouse_cursor>`."
 
 msgid "Cursor list"
 msgstr "La lista de cursores"

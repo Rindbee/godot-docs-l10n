@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,10 +31,6 @@ msgstr "若要在 macOS 下編譯，必須滿足下列需求："
 
 msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
 msgstr "`Python 3.5+ <https://www.python.org/downloads/>`_ 。"
-
-#, fuzzy
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr "`SCons 3.0+ <https://scons.org/pages/download.html>`_ 建置系統。"
 
 msgid ""
 "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (or the more "
@@ -125,16 +116,6 @@ msgstr ""
 "``bin/`` 資料夾中建立檔名為 ``._sc_`` 或 ``_sc_`` 的檔案來開啟 :ref:"
 "`doc_data_paths_self_contained_mode` 。"
 
-#, fuzzy
-msgid ""
-"To create an ``.app`` bundle like in the official builds, you need to use "
-"the template located in ``misc/dist/macos_tools.app``. Typically, for an "
-"optimized editor binary built with ``dev_build=yes``::"
-msgstr ""
-"若要建立與官方建置相同的 ``.app`` 捆綁，則必須使用放在 ``misc/dist/osx_tools."
-"app`` 樣板。一般來說，如果是使用 ``target=release_debug`` 建置的最佳化編輯"
-"器，則："
-
 msgid ""
 "If you are building the ``master`` branch, you also need to include support "
 "for the MoltenVK Vulkan portability library. By default, it will be linked "
@@ -191,32 +172,12 @@ msgstr ""
 msgid "For Intel x86_64::"
 msgstr "對於英特爾 x86_64： ::"
 
-#, fuzzy
-msgid "For Arm64 (Apple M1)::"
-msgstr "對於 ARM64（Apple M1）： ::"
-
 msgid ""
 "To support both architectures in a single \"Universal 2\" binary, run the "
 "above two commands blocks and then use ``lipo`` to bundle them together::"
 msgstr ""
 "若要使用單一「Universal 2」二進位執行檔來同時支援兩個架構，請執行上述兩個指"
 "令，然後通過 ``lipo`` 來將這兩個檔案捆綁在一起："
-
-#, fuzzy
-msgid ""
-"To create an ``.app`` bundle like in the official builds, you need to use "
-"the template located in ``misc/dist/macos_template.app``. The release and "
-"debug builds should be placed in ``macos_template.app/Contents/MacOS`` with "
-"the names ``godot_macos_release.universal`` and ``godot_macos_debug."
-"universal`` respectively. You can do so with the following commands "
-"(assuming a universal build, otherwise replace the ``.universal`` extension "
-"with the one of your arch-specific binaries)::"
-msgstr ""
-"要建立一個像官方建構的 ``.app`` 組合包，你需要使用位於 ``misc/dist/"
-"osx_template.app`` 的範本。發行版和除錯版應該放在 ``osx_template.app/"
-"Contents/MacOS`` 裡，名稱分別為 ``godot_osx_release.64`` 和 "
-"``godot_osx_debug.64``。你可以用下面的命令來做（假設是通用建構，否則將 ``."
-"universal`` 副檔名替換為你的特定檔案的二進位檔案）： ::"
 
 msgid ""
 "You can then zip the ``macos_template.app`` folder to reproduce the ``macos."

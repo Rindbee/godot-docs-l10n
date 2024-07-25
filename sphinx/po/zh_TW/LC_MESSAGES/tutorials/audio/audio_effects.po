@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,15 +29,6 @@ msgstr "全部試一試，感受聲音的改變。下面是對以上效果的簡
 
 msgid "Amplify"
 msgstr "增幅(Amplify)"
-
-#, fuzzy
-msgid ""
-"Amplify changes the volume of the signal. Some care needs to be taken, "
-"though: setting the level too high can make the sound digitally clip, which "
-"can produce unpleasant crackles and pops."
-msgstr ""
-"增幅改變訊號的振幅。使用時要小心。把電平調得太高的話，聲音就會被削波，這通常"
-"是不可取的."
 
 msgid "BandLimit and BandPass"
 msgstr "帶限和帶通(BandLimit and BandPass)"
@@ -73,110 +59,26 @@ msgstr ""
 msgid "Chorus"
 msgstr "和聲"
 
-msgid ""
-"As the name of the effect implies, the Chorus effect makes a single audio "
-"sample sound like an entire chorus. It does this by duplicating a signal and "
-"very slightly altering the timing and pitch of each duplicate, and varying "
-"that over time via an LFO (low frequency oscillator). The duplicate(s) are "
-"then mixed back together with the original signal, producing a lush, wide, "
-"and large sound. Although chorus is traditionally used for voices, it can be "
-"desirable with almost any type of sound."
-msgstr ""
-
 msgid "Compressor"
 msgstr "壓縮(Compressor)"
-
-#, fuzzy
-msgid ""
-"A dynamic range compressor automatically attenuates (ducks) the level of the "
-"incoming signal when its amplitude exceeds a certain threshold. The level of "
-"attenuation applied is proportional to how far the incoming audio exceeds "
-"the threshold. The compressor's Ratio parameter controls the degree of "
-"attenuation. One of the main uses of a compressor is to reduce the dynamic "
-"range of signals with very loud and quiet parts. Reducing the dynamic range "
-"of a signal can make it fit more comfortably in a mix."
-msgstr ""
-"當輸入訊號的幅度超過某一閾值時，動態範圍壓縮器會自動衰減該訊號的電平。衰減的"
-"程度與傳入的音訊超過閾值的程度成正比。壓縮器的 \"比例\" 參數控制衰減的係數。"
-"壓縮器的主要用途之一是，一個訊號具有非常大聲和小聲的部分時，壓縮器可以用於降"
-"低動態範圍。降低訊號的動態範圍會更方便混音。"
 
 msgid "The compressor has many uses. For example:"
 msgstr "壓縮器有很多用途，例如:"
 
 msgid ""
-"It can be used in the Master bus to compress the whole output prior to being "
-"hit by a limiter, making the effect of the limiter much more subtle."
-msgstr ""
-
-msgid ""
 "It can be used in voice channels to ensure they sound as even as possible."
 msgstr "它可以在人聲通道中使用，使它們聽起來盡可能均勻。"
-
-#, fuzzy
-msgid ""
-"It can be *sidechained* by another sound source. This means it can reduce "
-"the sound level of one signal using the level of another audio bus for "
-"threshold detection. This technique is very common in video game mixing to "
-"\"duck\" the level of music or sound effects when in-game or multiplayer "
-"voices need to be fully audible."
-msgstr ""
-"它可以用於 *側鏈壓縮* (Sidechained)。也就是說, 它可以利用另一個音訊匯流排的電"
-"平來降低一個訊號的電平，進行閾值偵測。這種技術在電子遊戲混音中非常常見。在出"
-"現語音時，音樂或音效的電平會被 \"降低\"。"
 
 msgid ""
 "It can accentuate transients by using a slower attack. This can make sound "
 "effects more punchy."
 msgstr "它可以通過較慢的啟動(attack)來突出瞬態，讓音效聽起來更有力。"
 
-#, fuzzy
-msgid ""
-"If your goal is to prevent a signal from exceeding a given amplitude "
-"altogether, rather than to reduce the dynamic range of the signal, a :ref:"
-"`limiter <doc_audio_buses_limiter>` is likely a better choice than a "
-"compressor for this purpose. However, applying compression before a limiter "
-"is still good practice."
-msgstr ""
-"如果你的目標是防止電平訊號超過某個振幅限度，而不是減少訊號的動態範圍……那麼, :"
-"ref:`限幅器 (limiter)<doc_audio_buses_limiter>` 可能是比壓縮器更好的選擇。"
-
 msgid "Delay"
 msgstr "延遲"
 
-msgid ""
-"Digital delay essentially duplicates a signal and repeats it at a specified "
-"speed with a volume level that decays for each repeat. Delay is great for "
-"simulating the acoustic space of a canyon or large room, where sound bounces "
-"have a lot of *delay* between their repeats. This is in contrast to reverb, "
-"which has a more natural and blurred sound to it. Using this in conjunction "
-"with reverb can create very natural sounding environments!"
-msgstr ""
-
 msgid "Distortion"
 msgstr "失真(Distortion)"
-
-msgid "Makes the sound distorted. Godot offers several types of distortion:"
-msgstr ""
-
-msgid ""
-"*Overdrive* sounds like a guitar distortion pedal or megaphone. Sounds "
-"distorted with this sound like they're coming through a low-quality speaker "
-"or device."
-msgstr ""
-
-msgid "*Tan* sounds like another interesting flavor of overdrive."
-msgstr ""
-
-msgid ""
-"*Bit crushing* clamps the amplitude of the signal, making it sound flat and "
-"crunchy."
-msgstr ""
-
-msgid ""
-"All three types of distortion can add higher frequency sounds to an original "
-"sound, making it stand out better in a mix."
-msgstr ""
 
 msgid "EQ"
 msgstr "等化器(EQ)"
@@ -191,25 +93,6 @@ msgstr ""
 msgid "EQ6, EQ10, EQ21"
 msgstr "EQ6, EQ10, EQ21"
 
-#, fuzzy
-msgid ""
-"Godot provides three equalizers with different numbers of bands, which are "
-"represented in the title (6, 10, and 21 bands, respectively). An equalizer "
-"on the Master bus can be useful for cutting low and high frequencies that "
-"the device's speakers can't reproduce well. For example, phone or tablet "
-"speakers usually don't reproduce low frequency sounds well, and could make a "
-"limiter or compressor attenuate sounds that aren't even audible to the user "
-"anyway."
-msgstr ""
-"Godot提供三個具有不同頻帶數的等化器。主匯流排上的等化器可以有效地削減裝置揚聲"
-"器不能很好地再現的頻率(例如, 手機揚聲器不能很好地再現低音部分)。插入耳機時可"
-"以禁用等化器效果."
-
-msgid ""
-"Note: The equalizer effect can be disabled when headphones are plugged in, "
-"giving the user the best of both worlds."
-msgstr ""
-
 msgid "Filter"
 msgstr "篩選"
 
@@ -217,20 +100,6 @@ msgid ""
 "Filter is what all other filters inherit from and should not be used "
 "directly."
 msgstr "濾波器是所有其他處理器繼承自的效果，不能直接使用。"
-
-#, fuzzy
-msgid "HardLimiter"
-msgstr "限幅器(Limiter)"
-
-#, fuzzy
-msgid ""
-"A limiter is similar to a compressor, but it's less flexible and designed to "
-"prevent a signal's amplitude exceeding a given dB threshold. Adding a "
-"limiter to the final point of the Master bus is good practice, as it offers "
-"an easy safeguard against clipping."
-msgstr ""
-"限幅器類似於壓縮器，但靈活性較差，功能是限制聲音不能超過給定的dB閾值。在主匯"
-"流排上新增一個限制器是防止削波的防護措施。"
 
 msgid "HighPassFilter"
 msgstr "Filter - 篩選"
@@ -249,22 +118,6 @@ msgstr "減少所有高於特定 *截斷* 值的頻率。"
 
 msgid "Limiter"
 msgstr "限幅器(Limiter)"
-
-msgid ""
-"This is the old limiter effect, and it is recommended to use the new "
-"HardLimiter effect instead."
-msgstr ""
-
-msgid ""
-"Here is an example of how this effect works, if the ceiling is set to -12 "
-"dB, and the threshold is 0 dB, all samples going through get reduced by "
-"12dB. This changes the waveform of the sound and introduces distortion."
-msgstr ""
-
-msgid ""
-"This effect is being kept to preserve compatibility, however it should be "
-"considered deprecated."
-msgstr ""
 
 msgid "LowPassFilter"
 msgstr "Filter - 篩選"
@@ -296,36 +149,11 @@ msgstr "與帶通濾波器相反, 它從頻譜中的給定的 *截斷* 處移除
 msgid "Panner"
 msgstr "聲像(Panner)"
 
-#, fuzzy
-msgid ""
-"The Panner allows the stereo balance of a signal to be adjusted between the "
-"left and right channels. Headphones are recommended when configuring in this "
-"effect."
-msgstr "聲像效果允許在左右通道之間調整訊號的身歷聲平衡(戴上耳機試聽這個效果)。"
-
 msgid "Phaser"
 msgstr "移相器(Phaser)"
 
-msgid ""
-"This effect is formed by de-phasing two duplicates of the same sound so they "
-"cancel each other out in an interesting way. Phaser produces a pleasant "
-"whooshing sound that moves back and forth through the audio spectrum, and "
-"can be a great way to create sci-fi effects or Darth Vader-like voices."
-msgstr ""
-
 msgid "PitchShift"
 msgstr "移調(PitchShift)"
-
-#, fuzzy
-msgid ""
-"This effect allows the adjustment of the signal's pitch independently of its "
-"speed. All frequencies can be increased/decreased with minimal effect on "
-"transients. PitchShift can be useful to create unusually high or deep "
-"voices. Do note that altering pitch can sound unnatural when pushed outside "
-"of a narrow window."
-msgstr ""
-"這種效果允許在不改變速度的前提下改變音調，可以用對瞬態的影響最小的方式增/減所"
-"有頻率，移調可以用來創作特別尖銳或低沉的聲音。"
 
 msgid "Record"
 msgstr "錄製(Record)"
@@ -350,25 +178,8 @@ msgstr ""
 msgid "SpectrumAnalyzer"
 msgstr "頻譜分析儀(SpectrumAnalyzer)"
 
-#, fuzzy
-msgid ""
-"This effect doesn't alter audio, instead, you add this effect to buses you "
-"want a spectrum analysis of. This would typically be used for audio "
-"visualization. Visualizing voices can be a great way to draw attention to "
-"them without just increasing their volume. A demo project using this can be "
-"found `here <https://github.com/godotengine/godot-demo-projects/tree/master/"
-"audio/spectrum>`__."
-msgstr ""
-"這個效果並不會改變音訊, 你可以把這個效果新增到你想要分析頻譜的匯流排上. 通常"
-"被用於音訊視覺化. 使用了這個效果的演示專案可在 `這裡 <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/audio/spectrum>`__ 找到."
-
 msgid "StereoEnhance"
 msgstr "身歷聲增強(StereoEnhance)"
-
-#, fuzzy
-msgid "This effect uses a few algorithms to enhance a signal's stereo width."
-msgstr "這種效果使用一些演算法來增強訊號的身歷聲頻譜."
 
 msgid "Translation status"
 msgstr "翻譯狀態"

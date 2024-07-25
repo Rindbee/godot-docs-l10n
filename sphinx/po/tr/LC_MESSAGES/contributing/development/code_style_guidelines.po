@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,13 +34,6 @@ msgid "C++ and Objective-C"
 msgstr "C++ ve Objective-C"
 
 msgid ""
-"There are no written guidelines, but the code style agreed upon by the "
-"developers is enforced via the `clang-format <https://clang.llvm.org/docs/"
-"ClangFormat.html>`__ code beautifier, which takes care for you of all our "
-"conventions. To name a few:"
-msgstr ""
-
-msgid ""
 "Indentation and alignment are both tab based (respectively one and two tabs)"
 msgstr ""
 "Girintiler ve hizalamaların her ikisi de sekme temellidir (sırayla bir ve "
@@ -74,22 +62,6 @@ msgstr ""
 "dosyasında anahatlarıyla verilmiştir."
 
 msgid ""
-"As long as you ensure that your style matches the surrounding code and that "
-"you're not introducing trailing whitespace or space-based indentation, you "
-"should be fine. If you plan to contribute regularly, however, we strongly "
-"advise that you set up clang-format locally to check and automatically fix "
-"all your commits."
-msgstr ""
-
-msgid ""
-"Godot's code style should *not* be applied to third-party code, i.e. that is "
-"included in Godot's source tree but was not written specifically for our "
-"project. Such code usually comes from different upstream projects with their "
-"own style guides (or lack thereof), and don't want to introduce differences "
-"that would make syncing with upstream repositories harder."
-msgstr ""
-
-msgid ""
 "Third-party code is usually included in the ``thirdparty/`` folder and can "
 "thus easily be excluded from formatting scripts. For the rare cases where a "
 "third-party code snippet needs to be included directly within a Godot file, "
@@ -115,63 +87,24 @@ msgstr ""
 msgid "Using clang-format locally"
 msgstr "`clang-format`'ı yerel olarak kullanmak"
 
-#, fuzzy
-msgid ""
-"You need to use **clang-format 17** to be compatible with Godot's format. "
-"Later versions might be suitable, but previous versions may not support all "
-"used options, or format some things differently, leading to style issues in "
-"pull requests."
-msgstr ""
-"İlk olarak, clang-format 'ı kurmanız gerekecek. Bugün için, Godot "
-"biçimleriyle uyumlu olmak için **clang-format 13** kullanmanız gerekiyor. "
-"Sonraki sürümler uygun olmayabilirler, ve önceki sürümler de kullanılan "
-"seçenekleri desteklemeyebilir, ya da bir şeyleri farklı "
-"biçimlendirebilirler; bu da çekme isteklerinde tarz sorunlarına yol "
-"açacaktır."
-
 msgid "Pre-commit hook"
 msgstr "Ön-işleme kancası"
 
-#, fuzzy
 msgid ""
 "For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
 "commit.com/>`__ Python framework that will run clang-format automatically on "
 "all your commits with the correct version of clang-format. To set up:"
 msgstr ""
-"Kullanım kolaylığı için, Git için bir ön-işleme kancası sunuyoruz; her "
-"işlemenizi kontrol etmek için önce otomatik olarak `clang-format` "
-"çalıştırıyor ve değişiklikleri son işlemenize uygulamanıza yardım ediyor."
-
-msgid "You can also run the hook manually with ``pre-commit run``."
-msgstr ""
-
-msgid ""
-"Previously, we supplied a hook in the folder ``misc/hooks``. If you copied "
-"the script manually, these hooks should still work, but symlinks will be "
-"broken. If you are using the new system, run ``rm .git/hooks/*`` to remove "
-"the old hooks that are no longer needed."
-msgstr ""
+"Kullanım kolaylığı açısından, bütün işlemeleriniz (commit) üzerinde otomatik "
+"olarak \"clang-format\"ın doğru sürümünü çalıştıran `pre-commit <https://pre-"
+"commit.com/>`__ Python çalışma çerçevesi (framework) kullanan Git kancaları "
+"(hook) sağlıyoruz. Kurulumunu yapmak için:"
 
 msgid "Installation"
 msgstr "Kurulum"
 
 msgid "Here's how to install clang-format:"
 msgstr "clang-format 'ı şu şekilde kurabilirsiniz:"
-
-msgid ""
-"Linux: It will usually be available out-of-the-box with the clang toolchain "
-"packaged by your distribution. If your distro version is not the required "
-"one, you can download a pre-compiled version from the `LLVM website <https://"
-"releases.llvm.org/download.html>`__, or if you are on a Debian derivative, "
-"use the `upstream repos <https://apt.llvm.org/>`__."
-msgstr ""
-
-msgid ""
-"macOS and Windows: You can download precompiled binaries from the `LLVM "
-"website <https://releases.llvm.org/download.html>`__. You may need to add "
-"the path to the binary's folder to your system's ``PATH`` environment "
-"variable to be able to call clang-format out of the box."
-msgstr ""
 
 msgid ""
 "You then have different possibilities to apply clang-format to your changes:"
@@ -181,11 +114,6 @@ msgstr ""
 
 msgid "Manual usage"
 msgstr "Elden kullanım"
-
-msgid ""
-"You can apply clang-format manually for one or more files with the following "
-"command:"
-msgstr ""
 
 msgid ""
 "``-i`` means that the changes should be written directly to the file (by "
@@ -209,31 +137,16 @@ msgstr ""
 msgid "IDE plugin"
 msgstr "IDE eklentisi"
 
-msgid ""
-"Most IDEs or code editors have beautifier plugins that can be configured to "
-"run clang-format automatically, for example, each time you save a file."
-msgstr ""
-
 msgid "Here is a non-exhaustive list of beautifier plugins for some IDEs:"
 msgstr ""
 "Aşağıda, bazı IDEler için güzelleştirici eklentilerin küçük bir listesi var:"
 
 msgid ""
-"Qt Creator: `Beautifier plugin <https://doc.qt.io/qtcreator/creator-"
-"beautifier.html>`__"
-msgstr ""
-
-msgid ""
 "Visual Studio Code: `Clang-Format <https://marketplace.visualstudio.com/"
 "items?itemName=xaver.clang-format>`__"
 msgstr ""
 "Visual Studio Code: `Clang-Format <https://marketplace.visualstudio.com/"
 "items?itemName=xaver.clang-format>`__"
-
-msgid ""
-"Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/"
-"items?itemName=caphyon.ClangPowerTools2022>`__"
-msgstr ""
 
 msgid "vim: `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__"
 msgstr "vim: `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__"
@@ -246,9 +159,6 @@ msgstr ""
 "CLion: ``2019.1`` sürümünden bu yana hiç bir eklenti gerekmiyor. Bunun "
 "yerine sadece `ClangFormat <https://www.jetbrains.com/help/clion/clangformat-"
 "as-alternative-formatter.html#clion-support>`__ seçeneğini etkinleştirin"
-
-msgid "(Pull requests are welcome to extend this list with tested plugins.)"
-msgstr ""
 
 msgid "Header includes"
 msgstr "Başlık dosya içermeleri"
@@ -346,38 +256,6 @@ msgstr ""
 "dahil edilen çeşitli betikler de yine Python kullanır."
 
 msgid ""
-"For those, we use the `Ruff linter and code formatter <https://docs.astral."
-"sh/ruff/>`__."
-msgstr ""
-
-#, fuzzy
-msgid "Using ruff locally"
-msgstr "`black` 'i yerel olarak kullanma"
-
-msgid ""
-"First of all, you will need to install Ruff. Ruff requires Python 3.7+ to "
-"run."
-msgstr ""
-
-#, fuzzy
-msgid "Here's how to install ruff:"
-msgstr "`black` 'in kurulumu şu şekildedir:"
-
-#, fuzzy
-msgid "You then have different possibilities to apply ruff to your changes:"
-msgstr ""
-"Bundan sonra, yaptığınız değişiklikler üzerinde `black` uygulamak için çok "
-"çeşitli olasılıklar mevcuttur:"
-
-#, fuzzy
-msgid ""
-"You can apply ``ruff`` manually to one or more files with the following "
-"command:"
-msgstr ""
-"Aşağıdaki komutu kullanarak, bir veya daha fazla dosya üzerinde ``black`` 'i "
-"elden uygulayabilirsiniz:"
-
-msgid ""
 "``-l 120`` means that the allowed number of characters per line is 120. This "
 "number was agreed upon by the developers."
 msgstr ""
@@ -391,25 +269,18 @@ msgstr ""
 "Yol, bir çok dosyaya işaret edebilir; birinin ardına diğeri yazılarak, ya da "
 "Unix kabuklarında sık kullanılan eşleme karakterleri kullanarak."
 
-#, fuzzy
 msgid ""
 "For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
 "commit.com/>`__ Python framework that will run ``ruff`` automatically on all "
 "your commits with the correct version of ``ruff``. To set up:"
 msgstr ""
-"Kullanım kolaylığı için, Git için bir ön-işleme kancası sunuyoruz; her "
-"işlemenizi kontrol etmek için önce otomatik olarak `black` çalıştırıyor ve "
-"değişiklikleri son işlemenize uygulamanıza yardım ediyor."
+"Kullanım kolaylığı açısından, bütün işlemeleriniz (commit) üzerinde otomatik "
+"olarak ``ruff``ın doğru sürümünü çalıştıran `pre-commit <https://pre-commit."
+"com/>`__ Python çalışma çerçevesi (framework) kullanan Git kancaları (hook) "
+"sağlıyoruz. Kurulumunu yapmak için:"
 
 msgid "Editor integration"
 msgstr "Düzenleyici bütünleşmesi"
-
-msgid ""
-"Many IDEs or code editors have beautifier plugins that can be configured to "
-"run ruff automatically, for example, each time you save a file. For details, "
-"you can check `Ruff Integrations <https://docs.astral.sh/ruff/integrations/"
-">`__."
-msgstr ""
 
 msgid "Comment style guide"
 msgstr "Yorum tarzı rehberi"
@@ -441,11 +312,6 @@ msgstr ""
 
 msgid "Wrap comments to ~100 characters."
 msgstr "Yorum satırlarını ~100 karakterle sınırlayıp alt satırda devam edin."
-
-msgid ""
-"You can use ``TODO:``, ``FIXME:``, ``NOTE:``, or ``HACK:`` as admonitions "
-"when needed."
-msgstr ""
 
 msgid "**Example:**"
 msgstr "**Örnek:**"

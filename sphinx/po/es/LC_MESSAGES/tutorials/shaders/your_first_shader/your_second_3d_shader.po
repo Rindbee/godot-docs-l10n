@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,20 +43,6 @@ msgid ""
 msgstr ""
 "Para una lista completa de estos parámetros ver el documento de referencia :"
 "ref:`spatial shader <doc_spatial_shader>`."
-
-#, fuzzy
-msgid ""
-"A difference between the vertex function and a fragment function is that the "
-"vertex function runs per vertex and sets properties such as ``VERTEX`` "
-"(position) and ``NORMAL``, while the fragment shader runs per pixel and, "
-"most importantly, sets the ``ALBEDO`` color of the :ref:"
-"`MeshInstance3D<class_MeshInstance3D>`."
-msgstr ""
-"Una diferencia entre la función de vértice y la función de un fragmento es "
-"que la función de vértice se ejecuta por vértice y establece propiedades "
-"como ``VERTEX`` (posición) y ``NORMAL``, mientras que el shader de "
-"fragmentos se ejecuta por píxel y, lo más importante, establece el color "
-"``ALBEDO`` de la \"ref:`Mesh<class_MeshInstance>\"."
 
 msgid "Your first spatial fragment function"
 msgstr "Su primera función de fragmento espacial"
@@ -232,39 +213,6 @@ msgstr ""
 "para emular la forma en que la luz pasa a través de la tela en los bordes de "
 "un objeto, pero la usaremos aquí para ayudar a conseguir un bonito efecto "
 "acuático."
-
-#, fuzzy
-msgid ""
-"In order to add fresnel reflectance, we will compute a fresnel term in our "
-"fragment shader. Here, we aren't going to use a real fresnel term for "
-"performance reasons. Instead, we'll approximate it using the dot product of "
-"the ``NORMAL`` and ``VIEW`` vectors. The ``NORMAL`` vector points away from "
-"the mesh's surface, while the ``VIEW`` vector is the direction between your "
-"eye and that point on the surface. The dot product between them is a handy "
-"way to tell when you are looking at the surface head-on or at a glancing "
-"angle."
-msgstr ""
-"Para añadir la reflectancia de fresnel, calcularemos un término de frescura "
-"en nuestro shader de fragmentos. Aquí, no vamos a usar un término de fresnel "
-"real por razones de rendimiento. En su lugar, lo aproximaremos usando el "
-"producto del punto de los vectores ``NORMAL`` y ``VIEW``. El vector "
-"``NORMAL`` apunta lejos de la superficie de la malla, mientras que el vector "
-"``VIEW`` es la dirección entre tu ojo y ese punto en la superficie. El "
-"producto del punto entre ellos es una forma práctica de saber cuando estás "
-"mirando a la superficie de frente o en un ángulo de visión."
-
-#, fuzzy
-msgid ""
-"And mix it into both ``ROUGHNESS`` and ``ALBEDO``. This is the benefit of "
-"ShaderMaterials over StandardMaterial3Ds. With StandardMaterial3D, we could "
-"set these properties with a texture, or to a flat number. But with shaders "
-"we can set them based on any mathematical function that we can dream up."
-msgstr ""
-"Y mézclalo tanto con ``ROUGHNESS`` como con ``ALBEDO``. Este es el beneficio "
-"de ShaderMaterials sobre SpatialMaterials. Con SpatialMaterial, podríamos "
-"configurar estas propiedades con una textura o con un número fijo. Pero con "
-"los shaders, podemos configurarlos basándonos en cualquier función "
-"matemática que podamos imaginar."
 
 msgid ""
 "And now, with only 5 lines of code, you can have complex looking water. Now "

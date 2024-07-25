@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,13 +130,6 @@ msgstr ""
 "Viewport hinzugefügt, bevor weitere Szenen geladen werden."
 
 msgid ""
-"To autoload a scene or script, select **Project > Project Settings** from "
-"the menu and switch to the **Autoload** tab."
-msgstr ""
-"Um eine Szene oder ein Skript automatisch zu laden, wählen Sie im Menü "
-"**Projekt > Projekteinstellungen** und wechseln Sie zum **Autoload**-Tab."
-
-msgid ""
 "Here you can add any number of scenes or scripts. Each entry in the list "
 "requires a name, which is assigned as the node's ``name`` property. The "
 "order of the entries as they are added to the global scene tree can be "
@@ -167,11 +155,17 @@ msgid ""
 "a C# script, a similar effect can be achieved by including a static property "
 "called ``Instance`` and assigning it in ``_Ready()``:"
 msgstr ""
+"Die Spalte **Aktivieren** hat in C#-Code keine Wirkung. Wenn das Singleton "
+"jedoch ein C#-Skript ist, kann ein ähnlicher Effekt erreicht werden, indem "
+"man eine statische Property namens ``Instance`` einfügt und sie in "
+"``_Ready()`` zuweist:"
 
 msgid ""
 "This allows the singleton to be accessed from C# code without ``GetNode()`` "
 "and without a typecast:"
 msgstr ""
+"Dies ermöglicht den Zugriff auf das Singleton aus C#-Code ohne ``GetNode()`` "
+"und ohne Typecast:"
 
 msgid ""
 "Note that autoload objects (scripts and/or scenes) are accessed just like "
@@ -238,18 +232,6 @@ msgid ""
 msgstr ""
 "Öffnen Sie das **Skript**-Fenster und erstellen Sie ein neues Skript mit dem "
 "Namen ``global.gd``. Stellen Sie sicher, dass es von ``Node`` erbt:"
-
-msgid ""
-"The next step is to add this script to the autoLoad list. Open **Project > "
-"Project Settings** from the menu, switch to the **Autoload** tab and select "
-"the script by clicking the browse button or typing its path: ``res://global."
-"gd``. Press **Add** to add it to the autoload list:"
-msgstr ""
-"Der nächste Schritt besteht darin, dieses Skript zur AutoLoad-Liste "
-"hinzuzufügen. Öffnen Sie **Projekt > Projekteinstellungen** aus dem Menü, "
-"wechseln Sie zum **Autoload**-Tab und wählen Sie das Skript aus, indem Sie "
-"auf den Durchsuchen-Button klicken oder den Pfad eingeben: ``res://global."
-"gd``. Drücken Sie **Hinzufügen**, um es der Autoload-Liste hinzuzufügen:"
 
 msgid ""
 "Now whenever we run any scene in the project, this script will always be "

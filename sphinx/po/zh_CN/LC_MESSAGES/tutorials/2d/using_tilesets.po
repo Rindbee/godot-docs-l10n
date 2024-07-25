@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,35 +123,6 @@ msgstr ""
 "** 设置图块大小。图集将确定哪些图块可以添加到 TileMap 节点（因为并不是图像的"
 "每一个部分都是有效的图块）。"
 
-msgid ""
-"Open the **TileSet** panel at the bottom of the editor, then click the \"+\" "
-"icon in the bottom-left corner to add a new atlas:"
-msgstr ""
-"在编辑器底部面板中点击 **TileSet**\\ ，然后点击左下角的“+”号图片按钮增加一个"
-"新的图集："
-
-msgid "Creating a new atlas in a TileSet resource using the bottom panel"
-msgstr "使用底部面板来给 TileSet 创建一个新图集"
-
-msgid ""
-"After creating an atlas, you must assign a tilesheet texture to it. This can "
-"be done by choosing it on the left column of the bottom panel, then clicking "
-"the value of the **Texture** property and choosing **Quick Load** (or "
-"**Load**). Specify the path to the image file using the file dialog that "
-"appears."
-msgstr ""
-"创建图集之后，你必须为其分配图块表。在底部面板的左栏中选中图集，然后点击\\ **"
-"纹理**\\ 属性的值，选择\\ **快速加载**\\ （或\\ **加载**\\ ）。请在显示的文件"
-"对话框中指定图像文件的路径。"
-
-msgid "Loading a tilesheet image in the newly created TileSet atlas"
-msgstr "为新创建的 TileSet 图集加载图块表图像"
-
-msgid ""
-"After specifying a valid image, you will be asked whether to create tiles "
-"automatically. Answer **Yes**:"
-msgstr "指定有效的图像后，会问你要不要自动创建图块。请回答\\ **是**\\ ："
-
 msgid "Automatically creating tiles based on tilesheet image content"
 msgstr "根据图块表图像内容自动创建图块"
 
@@ -205,9 +171,9 @@ msgid ""
 "before continuing. It is also possible to use one image per tile this way "
 "(although using tilesheets is recommended for better usability)."
 msgstr ""
-"如果你想从几个图块表图片中摘取一个 TileSet 的图块，请在继续处理之前创建其他图"
-"集并为它们一一分配纹理。也可以通过这种方式为每个图块使用一个图片（尽管建议使"
-"用图块表以提高可用性）。"
+"如果你想在一个 TileSet 中使用好几张 tilesheet 来选择图块，新建几个图块集，并"
+"为每个图块集配置纹理再继续。你也可以用这种方法把单张图片作为一个图块来使用。"
+"（但是用 tilesheet 会方便得多）。"
 
 msgid "You can adjust properties for the atlas in the middle column:"
 msgstr "你可以调整中间的列中图集的属性："
@@ -221,7 +187,8 @@ msgid "The following properties can be adjusted on the atlas:"
 msgstr "可以在图集上调整以下属性："
 
 msgid "**ID:** The identifier (unique within this TileSet), used for sorting."
-msgstr "**ID：** 标识符（该 TileSet中的唯一），用于排序。"
+msgstr ""
+"**ID：** 标识符（在该 TileSet中每个图块集的标识符是唯一的），用于排序。"
 
 msgid ""
 "**Name:** The human-readable name for the atlas. Use a descriptive name here "
@@ -372,8 +339,8 @@ msgid ""
 "Use the \"three vertical dots\" menu button located at the bottom of the "
 "list of atlases, then choose **Open Atlas Merging Tool**:"
 msgstr ""
-"如果要这样做，你必须在TileSet资源处创建了不止一个atlas。在atlas列表下找"
-"到“three vertical dots”的菜单按钮，然后选择**图集合并合工具**:"
+"如果要这样做，你必须在TileSet资源处创建了不止一个atlas。在atlas列表下找到“三"
+"个垂直排列的点”的菜单按钮，然后选择**打开图集合并工具**:"
 
 msgid "Opening the atlas merging tool after creating multiple atlases"
 msgstr "在创建多个图集后，打开图集合并工具"

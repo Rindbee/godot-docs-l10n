@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,47 +12,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Learn to code with GDScript"
-msgstr "在 GDScript 中加载"
+msgstr "学习用 GDScript 编程"
 
 msgid ""
 "In Godot, you can write code using the GDScript and C# programming languages."
-msgstr ""
+msgstr "在Godot中，你可以使用GDScript和C#编程语言来写代码。"
 
 msgid ""
 "If you are new to programming, we recommend starting with GDScript because "
 "we designed it to be simpler than all-purpose languages like C#. It will be "
 "both faster and easier to learn."
 msgstr ""
+"如果你是编程新手，我们推荐你从GDScript开始，因为我们把它设计的比通用程序设计"
+"语言例如C#更加简单。对于学习，它将会更加快和简单。"
 
 msgid ""
 "While GDScript is a language specific to Godot, the techniques you will "
 "learn with it will apply to other programming languages."
 msgstr ""
+"即使GDScript是特定于Godot的，但是你将要学到的技术也将适用于其它编程语言。"
 
 msgid ""
 "Note that it is completely normal for a programmer to learn and use multiple "
 "languages. Programming languages have more similarities than differences, so "
 "once you know one, you can learn another much faster."
 msgstr ""
+"请注意，对于程序员来说，学习和使用多种编程语言是完全正常的，程序设计语言中相"
+"似性大于差异性，所以一旦你学会了其中一个，你可以更快的学习另一门编程语言。"
 
 msgid "Learn in your browser with the GDScript app"
-msgstr ""
+msgstr "在你的浏览器中，使用GDScript应用程序学习"
 
 msgid ""
 "To learn GDScript, you can use the app Learn GDScript From Zero. It is a "
 "complete beginner course with interactive practices you can do right in your "
 "browser."
 msgstr ""
+"为了学习GDScript，你可以使用应用程序Learn GDScript From Zero。这是一门完整的"
+"初学者课程，你直接可以在浏览器中进行交互式练习。"
 
 msgid "Click here to access the app: `Learn GDScript From Zero app`_"
-msgstr ""
+msgstr "点这里访问该应用程序：`Learn GDScript From Zero app`_"
 
 msgid ""
 "This app is an open-source project. To report bugs or contribute, head to "
 "the app's source code repository: `GitHub repository`_."
 msgstr ""
+"这个应用程序是一个开源项目。要报告bug或者做出贡献，请前往该应用程序的源代码仓"
+"库：`GitHub repository`_."
 
 msgid ""
 "In the next part, you will get an overview of the engine's essential "

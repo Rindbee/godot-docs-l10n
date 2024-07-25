@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,50 +21,17 @@ msgstr "基本用法"
 msgid "Basic usage of text-to-speech involves the following one-time steps:"
 msgstr "在能够使用文本转语音进行基本操作前，需要执行一次以下步骤："
 
-#, fuzzy
-msgid "Enable TTS in the Godot editor for your project"
-msgstr "为尺寸优化构建"
-
 msgid "Query the system for a list of usable voices"
 msgstr "向系统查询可用语音列表"
 
 msgid "Store the ID of the voice you want to use"
 msgstr "存储你想要使用的语音 ID"
 
-#, fuzzy
-msgid ""
-"By default, the Godot project-level setting for text-to-speech is disabled, "
-"to avoid unnecessary overhead. To enable it:"
-msgstr ""
-"默认情况下，Godot 项目级别的文本转语音设置处于禁用状态，以避免不必要的开销。"
-"要启用它："
-
 msgid "Go to **Project > Project Settings**"
 msgstr "前往 **项目 > 项目设置**"
 
-#, fuzzy
-msgid "Make sure the **Advanced Settings** toggle is enabled"
-msgstr "Movie Maker 项目设置（启用高级选项）"
-
-#, fuzzy
-msgid "Click on **Audio > General**"
-msgstr "单击 **音频>常规**"
-
-#, fuzzy
-msgid "Ensure the **Text to Speech** option is checked"
-msgstr "确保选中 **文本转语音** 选项"
-
 msgid "Restart Godot if prompted to do so."
 msgstr "如果出现提示，请重新启动 Godot。"
-
-#, fuzzy
-msgid ""
-"Text-to-speech uses a specific voice. Depending on the user's system, they "
-"might have multiple voices installed. Once you have the voice ID, you can "
-"use it to speak some text:"
-msgstr ""
-"文本转语音使用特定的声音。根据用户的系统，他们可能安装了多种语音。获得语音 "
-"ID 后，您可以用它来说出一些文本："
 
 msgid "Requirements for functionality"
 msgstr "功能要求"
@@ -92,17 +54,6 @@ msgstr ""
 "不是所有 Linux 发行版都有安装。如果这些库不存在，那么文本转语音功能就无法正常"
 "工作，此时 ``tts_get_voices()`` 返回的列表为空，表示没有可用的语音。"
 
-#, fuzzy
-msgid ""
-"Both Godot users on Linux and end-users on Linux running Godot games need to "
-"ensure that their system includes the system libraries for text-to-speech to "
-"work. Please consult the table below or your own distribution's "
-"documentation to determine what libraries you need to install."
-msgstr ""
-"使用 Linux 的 Godot 用户以及使用 Linux 运行 Godot 游戏的最终用户都需要确保操"
-"作系统包含了相关的系统库，这样文本转语音才能正常工作。要确定需要安装哪些库，"
-"请参考以下表格或者对应发行版的文档。"
-
 msgid "Distro-specific one-liners"
 msgstr "针对各个发行版的单行命令"
 
@@ -111,25 +62,6 @@ msgstr "**Arch Linux**"
 
 msgid "Troubleshooting"
 msgstr "故障排除"
-
-#, fuzzy
-msgid ""
-"If you get the error `Invalid get index '0' (on base: 'PackedStringArray').` "
-"for the line `var voice_id = voices[0]`, check if there are any items in "
-"`voices`. If not:"
-msgstr ""
-"如果您在“ var voice_id = voices[0] ”行中收到错误“ Invalid get index '0' (on "
-"base: 'PackedStringArray'). ”，请检查“ voices ”中是否有任何项目。如果不："
-
-#, fuzzy
-msgid "All users: make sure you enabled **Text to Speech** in project settings"
-msgstr "所有用户：确保您在项目设置中启用了**文本转语音**"
-
-#, fuzzy
-msgid ""
-"Linux users: ensure you installed the system-specific libraries for text to "
-"speech"
-msgstr "Linux 用户：确保安装了用于文本转语音的系统特定库"
 
 msgid "Best practices"
 msgstr "最佳实践"

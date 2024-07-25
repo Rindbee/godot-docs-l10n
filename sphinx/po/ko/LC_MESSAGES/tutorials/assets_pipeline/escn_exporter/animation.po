@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,31 +55,11 @@ msgstr ""
 msgid "**1. Stash active action**"
 msgstr "**1. 활성화 동작 숨기기(Stash)**"
 
-#, fuzzy
-msgid ""
-"New created action is always an active action bound to object. There are "
-"several ways to place an active action into NLA track, one is of course "
-"doing it in ``NLA Editor``"
-msgstr ""
-"새롭게 만든 액션은 항상 오브젝트에 묶여 활성화된 액션입니다. NLA 트랙에 활성"
-"화된 액션을 놓는 방법은 여러 가지가 있고, 그 중 하나는 ``NLA 편집기``\\ 에서 "
-"할 수 있습니다"
-
 msgid "Or it can be done stashing the action in ``Dope Sheet``"
 msgstr "혹은 ``Dope Sheet``\\ 에서 액션을 숨길 수 있습니다"
 
 msgid "**2. Check mute status of NLA tracks**"
 msgstr "**2. NLA 트랙의 mute 상태 확인하기**"
-
-#, fuzzy
-msgid ""
-"An NLA track can be ``mute`` or ``unmute``, the exporter will export all the "
-"``mute`` NLA track as a separate action, while blends all the ``unmute`` NLA "
-"tracks into every action (including the action) being exported."
-msgstr ""
-"NLA 트랙은 ``mute``\\ 나 ``unmute``\\ 를 할 수 있고, 내보내기는 ``mute`` 상태"
-"인 모든 NLA 트랙을 개별 액션으로 내보낼 것이며, ``unmute`` 상태의 모든 NLA 트"
-"랙은 (액션을 포함한) 모든 액션으로 혼합하여 내보낼 것입니다."
 
 msgid "**3. Export the scene**"
 msgstr "**3. 씬 내보내기**"
@@ -113,18 +88,6 @@ msgstr ""
 
 msgid "Animation Mode"
 msgstr "애니메이션 모드"
-
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"Godot와 블렌더는 애니메이션 데이터를 저장하는 다른 구조를 갖고 있습니다. "
-"Godot에서 애니메이션은 각각의 움직이는 노드 대신 AnimationPlayer 노드에 저장"
-"됩니다.이 불일치를 고치고 그럼에도 애니메이션을 다용도로 재생하도록 하기 위"
-"해, 이 애드온은 세 개의 애니메이션 내보내기 모드를 갖고 있습니다."
 
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**'Animation as Actions' 모드**"

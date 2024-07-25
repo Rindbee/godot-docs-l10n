@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Singletons (Autoload)"
-msgstr "シングルトン(自動読み込み)"
 
 msgid "Introduction"
 msgstr "はじめに"
@@ -91,22 +82,6 @@ msgstr ""
 msgid "Autoloading nodes and scripts can give us these characteristics."
 msgstr "自動読み込みされたノードとスクリプトは我々にこれらの特徴を与えます。"
 
-#, fuzzy
-msgid ""
-"Godot won't make an Autoload a \"true\" singleton as per the singleton "
-"design pattern. It may still be instanced more than once by the user if "
-"desired."
-msgstr ""
-"Godotでは、AutoLoadをシングルトンデザインパターンのような、「本当の」シングル"
-"トンにはしていません。必要であれば、ユーザーが複数回インスタンス化することも"
-"できます。"
-
-msgid ""
-"If you're creating an autoload as part of an editor plugin, consider :ref:"
-"`registering it automatically in the Project Settings "
-"<doc_making_plugins_autoload>` when the plugin is enabled."
-msgstr ""
-
 msgid "Autoload"
 msgstr "自動読み込み"
 
@@ -126,45 +101,6 @@ msgstr ""
 "トがアタッチされます。このノードは他のシーンがロードされる前にルートビュー"
 "ポートに追加されます。"
 
-#, fuzzy
-msgid ""
-"To autoload a scene or script, select **Project > Project Settings** from "
-"the menu and switch to the **Autoload** tab."
-msgstr ""
-"シーンもしくはスクリプトを自動読み込みするには、メニューから **プロジェクト "
-"> プロジェクト設定** を選び**自動読み込み**タブに切り替えて下さい。"
-
-#, fuzzy
-msgid ""
-"Here you can add any number of scenes or scripts. Each entry in the list "
-"requires a name, which is assigned as the node's ``name`` property. The "
-"order of the entries as they are added to the global scene tree can be "
-"manipulated using the up/down arrow keys. Like regular scenes, the engine "
-"will read these nodes in top-to-bottom order."
-msgstr ""
-"ここにシーンとスクリプト追加する事が出来ます。リストへの登録は名前を必要と"
-"し、それはノードの ``name`` プロパティとして割り当てられます。登録の順序はグ"
-"ローバルシーンツリーに追加され、それは上下の矢印キーで操作できます。"
-
-#, fuzzy
-msgid ""
-"If the **Enable** column is checked (which is the default), then the "
-"singleton can be accessed directly in GDScript:"
-msgstr ""
-"もし\"有効\"チェックがオンなら(デフォルトでオン)シングルトンは``get_node()``"
-"なしに、直接アクセス出来ます:"
-
-msgid ""
-"The **Enable** column has no effect in C# code. However, if the singleton is "
-"a C# script, a similar effect can be achieved by including a static property "
-"called ``Instance`` and assigning it in ``_Ready()``:"
-msgstr ""
-
-msgid ""
-"This allows the singleton to be accessed from C# code without ``GetNode()`` "
-"and without a typecast:"
-msgstr ""
-
 msgid ""
 "Note that autoload objects (scripts and/or scenes) are accessed just like "
 "any other node in the scene tree. In fact, if you look at the running scene "
@@ -174,73 +110,8 @@ msgstr ""
 "される事を心に留めて下さい。実際には、もし実行中のシーンツリーを見たら、自動"
 "読み込みされたノードが現れるでしょう:"
 
-msgid ""
-"Autoloads must **not** be removed using ``free()`` or ``queue_free()`` at "
-"runtime, or the engine will crash."
-msgstr ""
-
 msgid "Custom scene switcher"
 msgstr "カスタムシーン・スイッチャー"
-
-#, fuzzy
-msgid ""
-"This tutorial will demonstrate building a scene switcher using autoloads. "
-"For basic scene switching, you can use the :ref:`SceneTree."
-"change_scene_to_file() <class_SceneTree_method_change_scene_to_file>` method "
-"(see :ref:`doc_scene_tree` for details). However, if you need more complex "
-"behavior when changing scenes, this method provides more functionality."
-msgstr ""
-"このチュートリアルは自動読み込みを使ったシーンスイッチャーの構築を実演しま"
-"す。基本的なシーンの切り替えをする為に、\\ :ref:`SceneTree.change_scene() "
-"<class_SceneTree_method_change_scene>`\\ メソッドを使う事が出来ます(詳細は"
-"\\ :ref:`doc_scene_tree`\\ を見てください)。しかし、あなたがシーンの変更の"
-"際、より複雑なふるまいを必要としているならば、このメソッドはさらなる機能性を"
-"提供します。"
-
-#, fuzzy
-msgid ""
-"To begin, download the template from here: `singleton_autoload_starter.zip "
-"<https://github.com/godotengine/godot-docs-project-starters/releases/"
-"download/latest-4.x/singleton_autoload_starter.zip>`_ and open it in Godot."
-msgstr ""
-"はじめに、ここ:\\ :download:`autoload.zip <files/autoload.zip>`\\ からテンプ"
-"レートをダウンロードしGodotで開いて下さい。"
-
-#, fuzzy
-msgid ""
-"The project contains two scenes: ``scene_1.tscn`` and ``scene_2.tscn``. Each "
-"scene contains a label displaying the scene name and a button with its "
-"``pressed()`` signal connected. When you run the project, it starts in "
-"``scene_1.tscn``. However, pressing the button does nothing."
-msgstr ""
-"プロジェクトは2つのシーンを含みます: ``Scene1.tscn`` と ``Scene2.tscn`` 。そ"
-"れぞれのシーンはラベル表示されたシーンの名前と ``pressed()`` シグナルを接続さ"
-"れたボタンを含みます。プロジェクトを実行した時に、 ``Scene1.tscn`` の中で開始"
-"されます。しかし、押すためのボタンがありません。"
-
-#, fuzzy
-msgid "Creating the script"
-msgstr "スクリプトの作成"
-
-#, fuzzy
-msgid ""
-"Open the **Script** window and create a new script called ``global.gd``. "
-"Make sure it inherits from ``Node``:"
-msgstr ""
-"**Script** タブに切り替え``Global.gd``という新しいスクリプトを作成して下さ"
-"い。 ``Node`` が継承される事を確かめて下さい。"
-
-#, fuzzy
-msgid ""
-"The next step is to add this script to the autoLoad list. Open **Project > "
-"Project Settings** from the menu, switch to the **Autoload** tab and select "
-"the script by clicking the browse button or typing its path: ``res://global."
-"gd``. Press **Add** to add it to the autoload list:"
-msgstr ""
-"次のステップはこのスクリプトを自動読み込みリストに追加する事です。メニューか"
-"ら **プロジェクト> プロジェクト設定**と開き、**自動読み込み**タブへ切り替え、"
-"ブラウズボタンをクリックして選択するか次のようにパスを入力します: ``res://"
-"Global.gd`` 。**追加**をクリックし自動読み込みリストへ追加して下さい:"
 
 msgid ""
 "Now whenever we run any scene in the project, this script will always be "
@@ -248,18 +119,6 @@ msgid ""
 msgstr ""
 "これでスクリプトはプロジェクトのシーンを実行する時は、毎回ロードされる様にな"
 "りました。"
-
-#, fuzzy
-msgid ""
-"Returning to the script, it needs to fetch the current scene in the "
-"`_ready()` function. Both the current scene (the one with the button) and "
-"``global.gd`` are children of root, but autoloaded nodes are always first. "
-"This means that the last child of root is always the loaded scene."
-msgstr ""
-"スクリプトに戻り、 `_ready()` 関数内でカレントシーンを持って来る必要がありま"
-"す。両方のカレントシーン(片方はボタンを含む)と ``global.gd`` はルートの子供で"
-"す。しかし自動読み込みされるノードはいつも最初です。つまりルートの最後の子供"
-"はいつも自動読み込みされたシーンになります。"
 
 msgid ""
 "Now we need a function for changing the scene. This function needs to free "

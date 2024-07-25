@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,49 +22,6 @@ msgstr ""
 "Cette page énumère les problèmes courants rencontrés lors de l'utilisation "
 "de Godot et les solutions possibles."
 
-#, fuzzy
-msgid ""
-"See :ref:`doc_using_the_web_editor` for caveats specific to the Web version "
-"of the Godot editor."
-msgstr ""
-"Voir :ref:`doc_using_the_web_editor` pour les avertissements spécifiques à "
-"la version HTML5 de l'éditeur Godot."
-
-#, fuzzy
-msgid ""
-"The editor runs slowly and uses all my CPU and GPU resources, making my "
-"computer noisy"
-msgstr ""
-"L'éditeur fonctionne lentement et utilise toutes mes ressources CPU et GPU, "
-"rendant mon ordinateur bruyant"
-
-#, fuzzy
-msgid ""
-"This is a known issue, especially on macOS since most Macs have Retina "
-"displays. Due to Retina displays' higher pixel density, everything has to be "
-"rendered at a higher resolution. This increases the load on the GPU and "
-"decreases perceived performance."
-msgstr ""
-"C'est un problème connu, surtout sur macOS puisque la plupart des Mac ont "
-"des écrans Retina. En raison de la densité de pixel supérieure de Retina, "
-"tout doit être rendu à une résolution plus élevée. Cela augmente la charge "
-"sur le GPU et diminue les performances perçues."
-
-#, fuzzy
-msgid "There are several ways to improve performance and battery life:"
-msgstr "Il existe plusieurs méthodes de mesure des performances, notamment :"
-
-#, fuzzy
-msgid ""
-"In 3D, click the **Perspective** button in the top left corner and enable "
-"**Half Resolution**. The 3D viewport will now be rendered at half "
-"resolution, which can be up to 4 times faster."
-msgstr ""
-"En 3D, cliquez sur le bouton **Perspective** dans le coin supérieur gauche "
-"et activez **Half Resolution**. La fenêtre de visualisation 3D sera "
-"maintenant rendu à demi-résolution, ce qui peut être jusqu'à 4 fois plus "
-"rapide."
-
 msgid ""
 "Open the Editor Settings and increase the value of **Low Processor Mode "
 "Sleep (µsec)** to ``33000`` (30 FPS). This value determines the amount of "
@@ -81,18 +33,6 @@ msgstr ""
 "détermine la quantité de *millisecondes* entre les images du rendu. Une "
 "valeur plus haute rendra l'éditeur moins réactif mais contribuera "
 "significativement à réduire l'utilisation du CPU et du GPU."
-
-#, fuzzy
-msgid ""
-"If you have a node that causes the editor to redraw continuously (such as "
-"particles), hide it and show it using a script in the ``_ready()`` method. "
-"This way, it will be hidden in the editor but will still be visible in the "
-"running project."
-msgstr ""
-"Si vous avez un nœud qui force l'éditeur à continuellement afficher une "
-"nouvelle image (comme les particules), cachez-le et montrez-le en utilisant "
-"un script dans la méthode ``_ready()``. De cette façon, il sera caché dans "
-"l'éditeur mais sera toujours visible dans le projet démarré."
 
 msgid ""
 "The editor stutters and flickers on my variable refresh rate monitor (G-Sync/"
@@ -116,10 +56,6 @@ msgstr ""
 "rafraîchissement varie beaucoup, ce qui arrive car l'éditeur Godot ne "
 "redessine l'image que quand nécessaire."
 
-#, fuzzy
-msgid "There are several workarounds for this:"
-msgstr "Il y a plusieurs raisons à cela :"
-
 msgid ""
 "Enable **Interface > Editor > Update Continuously** in the Editor Settings. "
 "Keep in mind this will increase power usage and heat/noise emissions since "
@@ -139,82 +75,6 @@ msgstr ""
 "la quantité de millisecondes entre les images du rendu. Une valeur plus "
 "élevée rendra l'éditeur moins réactif, mais contribuera significativement à "
 "réduire l'utilisation du CPU et du GPU."
-
-#, fuzzy
-msgid ""
-"Alternatively, disable variable refresh rate on your monitor or in the "
-"graphics driver."
-msgstr ""
-"Alternativement, désactiver le taux de rafraîchissement variable sur votre "
-"écran ou dans le pilote graphique."
-
-msgid ""
-"VRR flicker can be reduced on some displays using the **VRR Control** or "
-"**Fine Tune Dark Areas** options in your monitor's OSD. These options may "
-"increase input lag or result in crushed blacks."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If using an OLED display, use the **Black (OLED)** editor theme preset in "
-"the Editor Settings. This hides VRR flicker thanks to OLED's perfect black "
-"levels."
-msgstr ""
-"Si vous utilisez un écran OLED, utilisez le thème de l'éditeur **Black "
-"(OLED)** préréglé dans les paramètres de l'éditeur. Cela cache les "
-"clignotement VRR grâce aux niveaux de noirs parfaits d'OLED."
-
-#, fuzzy
-msgid "The editor or project takes a very long time to start"
-msgstr "L'éditeur ou le projet prend beaucoup de temps à démarrer."
-
-#, fuzzy
-msgid ""
-"When using one of the Vulkan-based renderers (Forward+ or Forward Mobile), "
-"the first startup is expected to be relatively long. This is because shaders "
-"need to be compiled before they can be cached. Shaders also need to be "
-"cached again after updating Godot, after updating graphics drivers or after "
-"switching graphics cards."
-msgstr ""
-"Lors de l'utilisation d'un rendu Vulkan (Forward+ ou Forward Mobile), le "
-"premier démarrage devrait être relativement long. C'est à cause des shaders "
-"qui doivent être compilées avant qu'ils puissent être mises en cache. Les "
-"shaders doivent également être compilés et mis en cache après une mise à "
-"jour de Godot, après avoir mis à jour les pilotes graphiques ou après avoir "
-"changé de carte graphique."
-
-#, fuzzy
-msgid ""
-"If the issue persists after the first startup, this is a `known bug <https://"
-"github.com/godotengine/godot/issues/20566>`__ on Windows when you have "
-"specific USB peripherals connected. In particular, Corsair's iCUE software "
-"seems to cause this bug. Try updating your USB peripherals' drivers to their "
-"latest version. If the bug persists, you need to disconnect the specific "
-"peripheral before opening the editor. You can then connect the peripheral "
-"again."
-msgstr ""
-"Il s'agit d'un `bug connu <https://github.com/godotengine/godot/"
-"issues/20566>`__ sur Windows lorsque vous avez des périphériques USB "
-"spécifiques connectés. En particulier, le logiciel iCUE de Corsair semble "
-"être à l'origine du bug. Essayez de mettre à jour les pilotes de vos "
-"périphériques USB avec leur dernière version. Si le bogue persiste, vous "
-"devez déconnecter les périphériques défectueux avant d'ouvrir l'éditeur. "
-"Vous pouvez ensuite reconnecter le périphérique."
-
-msgid ""
-"Firewall software such as Portmaster may also cause the debug port to be "
-"blocked. This causes the project to take a long time to start, while being "
-"unable to use debugging features in the editor (such as viewing ``print()`` "
-"output). You can work this around by changing the debug port used by the "
-"project in the Editor Settings (**Network > Debug > Remote Port**). The "
-"default is ``6007``; try another value that is greater than ``1024``, such "
-"as ``7007``."
-msgstr ""
-
-#, fuzzy
-msgid "The Godot editor appears frozen after clicking the system console"
-msgstr ""
-"L'éditeur Godot apparaît figé après avoir cliqué sur la console système."
 
 msgid ""
 "When running Godot on Windows with the system console enabled, you can "
@@ -245,34 +105,6 @@ msgstr ""
 "fois qu'elle est déplacée manuellement"
 
 msgid ""
-"If you open the Godot editor and manually change the position of the dock "
-"icon, then restart the editor, you will get a duplicate dock icon all the "
-"way to the right of the dock."
-msgstr ""
-
-msgid ""
-"This is due to a design limitation of the macOS dock. The only known way to "
-"resolve this would be to merge the project manager and editor into a single "
-"process, which means the project manager would no longer spawn a separate "
-"process when starting the editor. While using a single process instance "
-"would bring several benefits, it isn't planned to be done in the near future "
-"due to the complexity of the task."
-msgstr ""
-
-msgid ""
-"To avoid this issue, keep the Godot editor's dock icon at its default "
-"location as created by macOS."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Some text such as \"NO DC\" appears in the top-left corner of the Project "
-"Manager and editor window"
-msgstr ""
-"Un texte tel que \"NO DC\" apparaît dans le coin supérieur gauche de la "
-"fenêtre du gestionnaire de projet et de l'éditeur."
-
-msgid ""
 "This is caused by the NVIDIA graphics driver injecting an overlay to display "
 "information."
 msgstr ""
@@ -295,26 +127,6 @@ msgstr ""
 "dans **X Screen 0 > OpenGL Settings** puis décochez **Enable Graphics API "
 "Visual Indicator**."
 
-#, fuzzy
-msgid ""
-"A microphone or \"refresh\" icon appears in the bottom-right corner of the "
-"Project Manager and editor window"
-msgstr ""
-"Un texte tel que \"NO DC\" apparaît dans le coin supérieur gauche de la "
-"fenêtre du gestionnaire de projet et de l'éditeur."
-
-msgid ""
-"This is caused by the NVIDIA graphics driver injecting an overlay to display "
-"instant replay information on ShadowPlay recording. This overlay can only be "
-"seen on Windows, as Linux does not have support for ShadowPlay."
-msgstr ""
-
-msgid ""
-"To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
-"NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
-"the NVIDIA overlay."
-msgstr ""
-
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "L’éditeur ou le projet apparaît très contrasté ou flou"
 
@@ -324,68 +136,6 @@ msgid ""
 msgstr ""
 "Apparence correcte (à gauche), Apparence trop contrastée due à "
 "l'accentuation de la netteté par les pilotes graphiques (à droite)"
-
-msgid ""
-"If the editor or project appears overly sharp, this is likely due to image "
-"sharpening being forced on all Vulkan or OpenGL applications by your "
-"graphics driver. You can disable this behavior in the graphics driver's "
-"control panel:"
-msgstr ""
-
-msgid ""
-"**NVIDIA (Windows):** Open the start menu and choose **NVIDIA Control "
-"Panel**. Open the **Manage 3D settings** tab on the left. In the list in the "
-"middle, scroll to **Image Sharpening** and set it to **Sharpening Off**."
-msgstr ""
-
-msgid ""
-"**AMD (Windows):** Open the start menu and choose **AMD Software**. Click "
-"the settings \"cog\" icon in the top-right corner. Go to the **Graphics** "
-"tab then disable **Radeon Image Sharpening**."
-msgstr ""
-
-msgid ""
-"If the editor or project appears overly blurry, this is likely due to :abbr:"
-"`FXAA (Fast Approximate AntiAliasing)` being forced on all Vulkan or OpenGL "
-"applications by your graphics driver."
-msgstr ""
-
-msgid ""
-"**NVIDIA (Windows):** Open the start menu and choose **NVIDIA Control "
-"Panel**. Open the **Manage 3D settings** tab on the left. In the list in the "
-"middle, scroll to **Fast Approximate Antialiasing** and set it to "
-"**Application Controlled**."
-msgstr ""
-
-msgid ""
-"**NVIDIA (Linux):** Open the applications menu and choose **NVIDIA X Server "
-"Settings**. Select to **Antialiasing Settings** on the left, then uncheck "
-"**Enable FXAA**."
-msgstr ""
-
-msgid ""
-"**AMD (Windows):** Open the start menu and choose **AMD Software**. Click "
-"the settings \"cog\" icon in the top-right corner. Go to the **Graphics** "
-"tab, scroll to the bottom and click **Advanced** to unfold its settings. "
-"Disable **Morphological Anti-Aliasing**."
-msgstr ""
-
-msgid ""
-"Third-party vendor-independent utilities such as vkBasalt may also force "
-"sharpening or FXAA on all Vulkan applications. You may want to check their "
-"configuration as well."
-msgstr ""
-
-msgid ""
-"After changing options in the graphics driver or third-party utilities, "
-"restart Godot to make the changes effective."
-msgstr ""
-
-msgid ""
-"If you still wish to force sharpening or FXAA on other applications, it's "
-"recommended to do so on a per-application basis using the application "
-"profiles system provided by graphics drivers' control panels."
-msgstr ""
 
 msgid "The editor or project appears to have washed out colors"
 msgstr "L'éditeur ou le projet a des couleurs délavées"

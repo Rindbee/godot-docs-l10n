@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,18 +56,6 @@ msgstr ""
 
 msgid "Language specification"
 msgstr "Especificación del lenguaje"
-
-#, fuzzy
-msgid ""
-"Godot currently uses **C# version 10.0** in its engine and example source "
-"code, as this is the version supported by .NET 6.0 (the current baseline "
-"requirement). So, before we move to a newer version, care must be taken to "
-"avoid mixing language features only available in C# 11.0 or later."
-msgstr ""
-"Actualmente, Godot utiliza la **versión 7.0 de C#** en su motor y código "
-"fuente de ejemplo. Por lo tanto, antes de pasar a una versión más nueva, hay "
-"que tener cuidado de no mezclar las funciones de lenguaje sólo disponibles "
-"en C# 7.1 o posterior."
 
 msgid ""
 "For detailed information on C# features in different versions, please see "
@@ -193,10 +176,6 @@ msgstr "Usando espacios"
 msgid "Insert a space:"
 msgstr "Inserta un espacio:"
 
-#, fuzzy
-msgid "Around a binary and ternary operator."
-msgstr "Alrededor de un operador binario y ternario."
-
 msgid ""
 "Between an opening parenthesis and ``if``, ``for``, ``foreach``, ``catch``, "
 "``while``, ``lock`` or ``using`` keywords."
@@ -232,11 +211,6 @@ msgid ""
 msgstr ""
 "Después de un símbolo de comentario de una sola línea (``//``), y antes de "
 "él si se utiliza al final de una línea."
-
-msgid ""
-"After the opening brace, and before the closing brace in a single line "
-"initializer."
-msgstr ""
 
 msgid "Do not use a space:"
 msgstr "No uses un espacio:"

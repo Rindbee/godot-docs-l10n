@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,16 +113,6 @@ msgstr "Organizzazione della documentazione"
 msgid "This documentation is organized into several sections:"
 msgstr "Questa documentazione è organizzata in diverse sezioni:"
 
-#, fuzzy
-msgid ""
-"**About** contains this introduction as well as information about the "
-"engine, its history, its licensing, authors, etc. It also contains the :ref:"
-"`doc_faq`."
-msgstr ""
-"La sezione :ref:`sec-general` contiene questa introduzione così come "
-"informazioni sul sistema, la sua storia, la licenza applicata, gli autori, "
-"eccetera. Contiene inoltre le :ref:`doc_faq`."
-
 msgid ""
 "**Getting Started** contains all necessary information on using the engine "
 "to make games. It starts with the :ref:`Step by step <toc-learn-"
@@ -183,20 +168,6 @@ msgstr ""
 "codice dell'engine. Qui si possono trovare informazioni su tutte le classi, "
 "le funzioni, i segnali e altro."
 
-#, fuzzy
-msgid ""
-"In addition to this documentation, you may also want to take a look at the "
-"various `Godot demo projects <https://github.com/godotengine/godot-demo-"
-"projects>`_."
-msgstr ""
-"In aggiunta a questa documentazione potresti voler dare un'occhiata ai vari "
-"`progetti demo di Godot <https://github.com/godotengine/godot-demo-"
-"projects>`_."
-
-#, fuzzy
-msgid "About this documentation"
-msgstr "Riguardo la documentazione"
-
 msgid ""
 "Members of the Godot Engine community continuously write, correct, edit, and "
 "improve this documentation. We are always looking for more help. You can "
@@ -207,21 +178,15 @@ msgid ""
 "`Documentation team <https://godotengine.org/teams/#documentation>`_ on "
 "`Godot Contributors Chat <https://chat.godotengine.org/>`_."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"All documentation content is licensed under the permissive Creative Commons "
-"Attribution 3.0 (`CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/"
-">`_) license, with attribution to \"*Juan Linietsky, Ariel Manzur, and the "
-"Godot Engine community*\" unless otherwise noted."
-msgstr ""
-"Tutti i contenuti sono coperti dalla licenza Creative Commons Attribution "
-"3.0 (`CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`_), con "
-"attribuzione \"Juan Linietsky, Ariel Manzur and the Godot Engine community\"."
-
-#, fuzzy
-msgid "*Have fun reading and making games with Godot Engine!*"
-msgstr "Divertiti a leggere e creare giochi con Godot Engine!"
+"I membri della comunità dell'Engine Godot scrivono, correggono, modificato e "
+"migliorano continuamente la documentazione. Siamo sempre alla ricerca di "
+"aiuto. Anche tu puoi contribuire segnalando un problema tramite Github o "
+"traducendo la documentazione nella tua lingua. Se fossi interessato ad "
+"aiutare, consulta :ref:`Ways to contribute <doc_ways_to_contribute>` e :ref:"
+"`Writing documentation <doc_contributing_writing_documentation>`, oppure "
+"contattaci tramite `Documentation team <https://godotengine.org/teams/"
+"#documentation>`_ on `Godot Contributors Chat <https://chat.godotengine.org/"
+">`_."
 
 msgid "Translation status"
 msgstr "Stato della traduzione"

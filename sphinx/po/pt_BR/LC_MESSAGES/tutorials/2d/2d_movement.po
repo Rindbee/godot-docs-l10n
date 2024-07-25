@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,30 +28,8 @@ msgstr ""
 "mas em geral o movimento na maioria dos jogos 2D é baseado em um pequeno "
 "número de designs."
 
-#, fuzzy
-msgid ""
-"We'll use :ref:`CharacterBody2D <class_CharacterBody2D>` for these examples, "
-"but the principles will apply to other node types (Area2D, RigidBody2D) as "
-"well."
-msgstr ""
-"Usaremos :ref:`KinematicBody2D <class_KinematicBody2D>` para esses exemplos, "
-"mas os princípios também serão aplicados a outros tipos de nó (Area2D, "
-"RigidBody2D)."
-
 msgid "Setup"
 msgstr "Configurar"
-
-#, fuzzy
-msgid ""
-"Each example below uses the same scene setup. Start with a "
-"``CharacterBody2D`` with two children: ``Sprite2D`` and "
-"``CollisionShape2D``. You can use the Godot icon (\"icon.png\") for the "
-"Sprite2D's texture or use any other 2D image you have."
-msgstr ""
-"Cada exemplo abaixo usa a mesma configuração de cena. Comece com um "
-"``KinematicBody2D`` com dois filhos: ``Sprite`` e ``CollisionShape2D``. Você "
-"pode usar o ícone do Godot (\"icon.png\") para a textura do Sprite ou usar "
-"qualquer imagem 2D que você tiver."
 
 msgid ""
 "Open ``Project -> Project Settings`` and select the \"Input Map\" tab. Add "
@@ -80,21 +53,6 @@ msgstr ""
 "direcionais (para cima/esquerda/baixo/direita ou W/A/S/D) e se mova na "
 "direção selecionada. O nome \"movimento em 8 direções\" vem do fato de que o "
 "jogador pode se mover diagonalmente pressionando duas teclas ao mesmo tempo."
-
-#, fuzzy
-msgid "Add a script to the character body and add the following code:"
-msgstr "Adicione um script ao corpo cinemático e adicione o seguinte código:"
-
-msgid ""
-"In the ``get_input()`` function, we use :ref:`Input <class_Input>` "
-"``get_vector()`` to check for the four key events and sum return a direction "
-"vector."
-msgstr ""
-
-msgid ""
-"We can then set our velocity by multiplying this direction vector, which has "
-"a length of ``1``, by our desired speed."
-msgstr ""
 
 msgid ""
 "If you've never used vector math before, or need a refresher, you can see an "
@@ -127,21 +85,6 @@ msgstr ""
 "a esquerda/direita gira o caractere, enquanto para cima/para baixo o move "
 "para frente ou para trás em qualquer direção que esteja voltado."
 
-#, fuzzy
-msgid ""
-"Here we've added two variables to track our rotation direction and speed. "
-"The rotation is applied directly to the body's ``rotation`` property."
-msgstr ""
-"Aqui adicionamos duas novas variáveis para rastrear nossa direção e "
-"velocidade de rotação. Novamente, pressionar ambas as teclas ao mesmo tempo "
-"cancelará e resultará em nenhuma rotação. A rotação é aplicada diretamente "
-"na propriedade ``rotation`` do corpo."
-
-msgid ""
-"To set the velocity, we use the body's ``transform.x`` which is a vector "
-"pointing in the body's \"forward\" direction, and multiply that by the speed."
-msgstr ""
-
 msgid "Rotation + movement (mouse)"
 msgstr "Rotação + movimento (mouse)"
 
@@ -155,16 +98,6 @@ msgstr ""
 "definida pela posição do mouse em vez do teclado. O personagem sempre "
 "\"olhará\" para o ponteiro do mouse. No entanto, as entradas para a frente/"
 "para trás permanecem as mesmas."
-
-#, fuzzy
-msgid ""
-"Here we're using the :ref:`Node2D <class_Node2D>` ``look_at()`` method to "
-"point the player towards the mouse's position. Without this function, you "
-"could get the same effect by setting the angle like this:"
-msgstr ""
-"Aqui estamos usando o método :ref:`Node2D <class_Node2D>` ``look_at()`` para "
-"apontar o jogador para uma determinada posição. Sem esta função, você "
-"poderia obter o mesmo efeito definindo o ângulo assim:"
 
 msgid "Click-and-move"
 msgstr "Clique e mova"
@@ -213,12 +146,6 @@ msgstr ""
 "Você pode achar esses exemplos de código úteis como pontos de partida para "
 "seus próprios projetos. Sinta-se livre para usá-los e experimentá-los para "
 "ver o que você pode fazer."
-
-msgid ""
-"You can download this sample project here: `2d_movement_starter.zip <https://"
-"github.com/godotengine/godot-docs-project-starters/releases/download/"
-"latest-4.x/2d_movement_starter.zip>`_"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,17 +14,6 @@ msgstr ""
 
 msgid "Playing videos"
 msgstr "Воспроизведение видео"
-
-#, fuzzy
-msgid ""
-"Godot supports video playback with the :ref:`class_VideoStreamPlayer` node."
-msgstr ""
-"Godot поддерживает воспроизведение видео с помощью узла :ref:"
-"`class_VideoPlayer`."
-
-#, fuzzy
-msgid "Supported playback formats"
-msgstr "Поддерживаемые платформы"
 
 msgid ""
 "The only supported format in core is **Ogg Theora** (not to be confused with "
@@ -52,15 +36,6 @@ msgstr ""
 "отчислений, но он по-прежнему медленно декодируется на CPU, а аппаратная "
 "поддержка декодирования пока доступна не на всех используемых GPU."
 
-#, fuzzy
-msgid ""
-"WebM was supported in core in Godot 3.x, but support for it was removed in "
-"4.0 as it was too buggy and difficult to maintain."
-msgstr ""
-"WebM поддерживается в ядре в Godot 3.x, но в 4.0 его поддержка будет "
-"прекращена, так как он оказался слишком глючным и сложным в обслуживании. "
-"Поэтому **использование WebM не рекомендуется**."
-
 msgid ""
 "You may find videos with an ``.ogg`` or ``.ogx`` extensions, which are "
 "generic extensions for data within an Ogg container."
@@ -77,72 +52,12 @@ msgstr ""
 "импортировать видео в Godot. Однако не все файлы с расширениями ``.ogg`` или "
 "``.ogx`` являются видео - некоторые из них могут содержать только аудио."
 
-#, fuzzy
-msgid "Setting up VideoStreamPlayer"
-msgstr "Настройка вашего проекта"
-
-#, fuzzy
-msgid "Create a VideoStreamPlayer node using the Create New Node dialog."
-msgstr "Создайте узел VideoPlayer с помощью диалогового окна Create New Node."
-
-#, fuzzy
-msgid ""
-"Select the VideoStreamPlayer node in the scene tree dock, go to the "
-"inspector and load an ``.ogv`` file in the Stream property."
-msgstr ""
-"Выбрав узел Таймера, откройте Инспектор и проверьте свойства **Autostart**."
-
 msgid ""
 "If you don't have your video in Ogg Theora format yet, jump to :ref:"
 "`doc_playing_videos_recommended_theora_encoding_settings`."
 msgstr ""
 "Если у вас еще нет видео в формате Ogg Theora, перейдите к :ref:"
 "`doc_playing_videos_recommended_theora_encoding_settings`."
-
-#, fuzzy
-msgid ""
-"If you want the video to play as soon as the scene is loaded, check "
-"**Autoplay** in the inspector. If not, leave **Autoplay** disabled and call "
-"``play()`` on the VideoStreamPlayer node in a script to start playback when "
-"desired."
-msgstr ""
-"Если вы хотите, чтобы видео воспроизводилось сразу после загрузки сцены, "
-"установите флажок **Autoplay** в инспекторе. Если нет, оставьте **Autoplay** "
-"отключенным и вызовите ``play()`` на узле VideoPlayer в сценарии, чтобы "
-"начать воспроизведение, когда это необходимо."
-
-#, fuzzy
-msgid "Handling resizing and different aspect ratios"
-msgstr "Обработка уведомления"
-
-#, fuzzy
-msgid ""
-"By default in Godot 4.0, the VideoStreamPlayer will automatically be resized "
-"to match the video's resolution. You can make it follow usual :ref:"
-"`class_Control` sizing by enabling **Expand** on the VideoStreamPlayer node."
-msgstr ""
-"По-умолчанию в Godot 4.0 размер VideoPlayer автоматически изменяется в "
-"соответствии с разрешением видео. Вы можете заставить его следовать обычному "
-"размеру :ref:`class_Control`, включив **Expand** на узле VideoPlayer."
-
-#, fuzzy
-msgid ""
-"To adjust how the VideoStreamPlayer node resizes depending on window size, "
-"adjust the anchors using the **Layout** menu at the top of the 2D editor "
-"viewport. However, this setup may not be powerful enough to handle all use "
-"cases, such as playing fullscreen videos without distorting the video (but "
-"with empty space on the edges instead). For more control, you can use an :"
-"ref:`class_AspectRatioContainer` node, which is designed to handle this kind "
-"of use case:"
-msgstr ""
-"Чтобы настроить изменение размеров узла VideoPlayer в зависимости от размера "
-"окна, настройте якоря с помощью меню **Layout** в верхней части окна "
-"просмотра 2D-редактора. Однако эта настройка может оказаться недостаточно "
-"мощной для всех случаев использования, например, для воспроизведения "
-"полноэкранного видео без искажения видео (но с пустым пространством по "
-"краям). Для большего контроля вы можете использовать узел :ref:"
-"`class_AspectRatioContainer`, который предназначен для обработки такого рода "
-"случаев использования:"
 
 msgid ""
 "Add an AspectRatioContainer node. Make sure it is not a child of any other "
@@ -171,142 +86,8 @@ msgstr ""
 msgid "This will evaluate to (approximately) 1.777778"
 msgstr "Это составит (приблизительно) 1,777778"
 
-#, fuzzy
-msgid ""
-"Once you've configured the AspectRatioContainer, reparent your "
-"VideoStreamPlayer node to be a child of the AspectRatioContainer node. Make "
-"sure **Expand** is enabled on the VideoStreamPlayer. Your video should now "
-"scale automatically to fit the whole screen while avoiding distortion."
-msgstr ""
-"После настройки AspectRatioContainer переназначьте узел VideoPlayer дочерним "
-"узлом узла AspectRatioContainer. Убедитесь, что **Expand** отключен в "
-"VideoPlayer. Теперь ваше видео должно автоматически масштабироваться, чтобы "
-"поместиться на весь экран, избегая искажений."
-
-#, fuzzy
-msgid ""
-"See :ref:`doc_multiple_resolutions` for more tips on supporting multiple "
-"aspect ratios in your project."
-msgstr ""
-"Смотрите :ref:`doc_internationalizing_games` для получения дополнительной "
-"информации об импорте и тестировании переводов в Godot."
-
 msgid "Displaying a video on a 3D surface"
 msgstr "Отображение видео на 3D-поверхности"
-
-#, fuzzy
-msgid ""
-"Using a VideoStreamPlayer node as a child of a :ref:`class_SubViewport` "
-"node, it's possible to display any 2D node on a 3D surface. For example, "
-"this can be used to display animated billboards when frame-by-frame "
-"animation would require too much memory."
-msgstr ""
-"Используя узел VideoPlayer в качестве дочернего по отношению к узлу :"
-"ref:'class_Viewport', можно отобразить любой 2D-узел на 3D-поверхности. "
-"Например, это можно использовать для отображения анимированных рекламных "
-"щитов, когда покадровая анимация потребует слишком много памяти."
-
-#, fuzzy
-msgid "This can be done with the following steps:"
-msgstr "Это приведёт к тому что:"
-
-#, fuzzy
-msgid ""
-"Create a :ref:`class_SubViewport` node. Set its size to match your video's "
-"size in pixels."
-msgstr ""
-"Создайте узел :ref:`class_Viewport`. Установите его размер в соответствии с "
-"размером вашего видео в пикселях."
-
-#, fuzzy
-msgid ""
-"Create a VideoStreamPlayer node *as a child of the SubViewport node* and "
-"specify a video path in it. Make sure **Expand** is disabled, and enable "
-"**Autoplay** if needed."
-msgstr ""
-"Создайте узел VideoPlayer *в качестве дочернего узла Viewport* и укажите в "
-"нем путь к видео. Убедитесь, что **Expand** отключен, и включите "
-"**Autoplay**, если это необходимо."
-
-#, fuzzy
-msgid ""
-"Create a MeshInstance3D node with a PlaneMesh or QuadMesh resource in its "
-"Mesh property. Resize the mesh to match the video's aspect ratio (otherwise, "
-"it will appear distorted)."
-msgstr ""
-"Создайте узел MeshInstance с ресурсом PlaneMesh или QuadMesh в свойстве "
-"Mesh. Измените размер сетки в соответствии с соотношением сторон видео (в "
-"противном случае она будет выглядеть искажённой)."
-
-#, fuzzy
-msgid ""
-"Create a new StandardMaterial3D resource in the **Material Override** "
-"property in the GeometryInstance3D section."
-msgstr ""
-"Создайте новый ресурс SpatialMaterial в свойстве **Material Override** в "
-"разделе GeometryInstance."
-
-#, fuzzy
-msgid ""
-"Enable **Local To Scene** in the StandardMaterial3D's Resource section (at "
-"the bottom). This is *required* before you can use a ViewportTexture in its "
-"Albedo Texture property."
-msgstr ""
-"Включите **Local To Scene** в разделе ресурсов SpatialMaterial's Resource "
-"(внизу). Это *требуется* перед тем, как вы сможете использовать "
-"ViewportTexture в его свойстве Albedo Texture."
-
-#, fuzzy
-msgid ""
-"In the StandardMaterial3D, set the **Albedo > Texture** property to **New "
-"ViewportTexture**. Edit the new resource by clicking it, then specify the "
-"path to the SubViewport node in the **Viewport Path** property."
-msgstr ""
-"В SpatialMaterial установите свойство **Albedo > Texture** в **New "
-"ViewportTexture**. Отредактируйте новый ресурс, щелкнув его, затем укажите "
-"путь к узлу Viewport в свойстве **Viewport Path**."
-
-#, fuzzy
-msgid ""
-"Enable **Albedo Texture Force sRGB** in the StandardMaterial3D to prevent "
-"colors from being washed out."
-msgstr ""
-"Включите **Albedo Tex Force sRGB** в SpatialMaterial, чтобы предотвратить "
-"размывание цветов."
-
-#, fuzzy
-msgid ""
-"If the billboard is supposed to emit its own light, set **Shading Mode** to "
-"**Unshaded** to improve rendering performance."
-msgstr ""
-"Если рекламный щит должен излучать собственный свет, включите **Flags > "
-"Unshaded** для повышения производительности рендеринга."
-
-#, fuzzy
-msgid ""
-"See :ref:`doc_viewports` and the `GUI in 3D demo <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/viewport/gui_in_3d>`__ for more "
-"information on setting this up."
-msgstr ""
-"Смотрите `3D viewport scaling demo <https://github.com/godotengine/godot-"
-"demo-projects/tree/master/viewport/3d_scaling>`__ для примеров."
-
-#, fuzzy
-msgid "Looping a video"
-msgstr "Прототипирование уровня"
-
-msgid ""
-"For looping a video, the **Loop** property can be enabled. This will "
-"seamlessly restart the video when it reaches its end."
-msgstr ""
-
-msgid ""
-"Note that setting the project setting **Video Delay Compensation** to a non-"
-"zero value might cause your loop to not be seamless, because the "
-"synchronization of audio and video takes place at the start of each loop "
-"causing occasional missed frames. Set **Video Delay Compensation** in your "
-"project settings to **0** to avoid frame drop issues."
-msgstr ""
 
 msgid "Video decoding conditions and recommended resolutions"
 msgstr "Условия декодирования видео и рекомендуемые разрешения"
@@ -350,10 +131,6 @@ msgstr ""
 "Визуальная разница между видео 720p и 1080p на мобильном устройстве обычно "
 "не так заметна."
 
-#, fuzzy
-msgid "Playback limitations"
-msgstr "Ограничения"
-
 msgid ""
 "There are several limitations with the current implementation of video "
 "playback in Godot:"
@@ -362,14 +139,6 @@ msgstr ""
 
 msgid "Seeking a video to a certain point is not supported."
 msgstr "Досмотр видео до определенной точки не поддерживается."
-
-#, fuzzy
-msgid ""
-"Changing playback speed is not supported. VideoStreamPlayer also won't "
-"follow :ref:`Engine.time_scale<class_Engine_property_time_scale>`."
-msgstr ""
-"Изменение скорости воспроизведения не поддерживается. VideoPlayer также не "
-"будет следовать :ref:`Engine.time_scale<class_Engine_property_time_scale>`."
 
 msgid "Streaming a video from a URL is not supported."
 msgstr "Потоковая передача видео из URL-адреса не поддерживается."
@@ -433,26 +202,6 @@ msgstr ""
 "`HandBrake <https://handbrake.fr/>`__ (С графическим интерфейсом) и `FFmpeg "
 "<https://ffmpeg.org/>`__ (С консольным интерфейсом)."
 
-#, fuzzy
-msgid ""
-"Here are example FFmpeg commands to convert an MP4 video to Ogg Theora. "
-"Since FFmpeg supports a lot of input formats, you should be able to use the "
-"commands below with almost any input video format (AVI, MOV, WebM, …)."
-msgstr ""
-"Вот примеры команд для FFmpeg, чтобы конвертировать MP4 в Ogg Theora. Так "
-"как FFmpeg поддерживает много форматов для ввода, команды ниже должны "
-"работать с почти любым форматом видео (AVI, MOV, WebM, ...)."
-
-#, fuzzy
-msgid ""
-"Make sure your copy of FFmpeg is compiled with libtheora and libvorbis "
-"support. You can check this by running ``ffmpeg`` without any arguments, "
-"then looking at the ``configuration:`` line in the command output."
-msgstr ""
-"Удостоверьтесь, что ваша копия FFmpeg скомпилирована с поддержкой libtheora "
-"и libvorbis. Вы можете проверить это, запустив ``ffmpeg`` без каких-либо "
-"аргументов, а затем посмотрев на строку ``configuration:`` в выводе."
-
 msgid "Balancing quality and file size"
 msgstr "Балансирует между качеством и размером файла"
 
@@ -472,33 +221,6 @@ msgstr ""
 "разрешением 1440p или 4K выше, пресеты с более низким качеством при высоком "
 "разрешении будут выглядеть так же или даже лучше, чем видео с низким "
 "разрешением."
-
-#, fuzzy
-msgid ""
-"The **audio quality** level (``-q:a``) must be between ``-1`` and ``10``. "
-"Quality ``6`` provides a good compromise between quality and file size. In "
-"contrast to video quality, increasing audio quality doesn't increase the "
-"output file size nearly as much. Therefore, if you want the cleanest audio "
-"possible, you can increase this to ``9`` to get *perceptually lossless* "
-"audio. This is especially valuable if your input file already uses lossy "
-"audio compression. Higher quality audio does increase the CPU usage of the "
-"decoder, so it might lead to audio dropouts in case of high system load. See "
-"`this page <https://wiki.hydrogenaud.io/index.php?"
-"title=Recommended_Ogg_Vorbis#Recommended_Encoder_Settings>`__ for a table "
-"listing Ogg Vorbis audio quality presets and their respective variable "
-"bitrates."
-msgstr ""
-"Уровень качества **аудио** (``-q:a``) должен находиться между ``-1`` и "
-"``10``. Качество ``6`` обеспечивает хороший компромисс между качеством и "
-"размером файла. В отличие от качества видео, повышение качества аудио не так "
-"сильно увеличивает размер выходного файла. Поэтому, если вы хотите получить "
-"максимально чистый звук, вы можете увеличить это значение до ``9``, чтобы "
-"получить аудио *без потерь для восприятия*. Это особенно ценно, если ваш "
-"входной файл уже использует сжатие звука с потерями. См. `на этой странице "
-"<https://wiki.hydrogenaud.io/index.php?"
-"title=Recommended_Ogg_Vorbis#Recommended_Encoder_Settings>`__ таблицу с "
-"перечнем предустановок качества звука Ogg Vorbis и соответствующих им "
-"переменных битрейтов."
 
 msgid "FFmpeg: Convert while preserving original video resolution"
 msgstr "FFmpeg: Конвертирование с сохранением исходного разрешения видео"
@@ -525,96 +247,6 @@ msgstr ""
 "Следующая команда изменяет разрешение видео до 720 пикселей в высоту(720p), "
 "при сохранении существующего соотношения сторон. Это поможет значительно "
 "снизить размер файла, если он записан с разрешением выше чем 720p:"
-
-msgid "Chroma Key Videos"
-msgstr ""
-
-msgid ""
-"Chroma key, commonly known as the \"green screen\" or \"blue screen\" "
-"effect, allows you to remove a specific color from an image or video and "
-"replace it with another background. This effect is widely used in video "
-"production to composite different elements together seamlessly."
-msgstr ""
-
-msgid ""
-"We will achieve the chroma key effect by writing a custom shader in GDScript "
-"and using a `VideoStreamPlayer` node to display the video content."
-msgstr ""
-
-#, fuzzy
-msgid "Scene Setup"
-msgstr "Настройка сцены"
-
-msgid ""
-"Ensure that the scene contains a `VideoStreamPlayer` node to play the video "
-"and a `Control` node to hold the UI elements for controlling the chroma key "
-"effect."
-msgstr ""
-
-#, fuzzy
-msgid "Writing the Custom Shader"
-msgstr "Улучшение шейдера"
-
-msgid "To implement the chroma key effect, follow these steps:"
-msgstr ""
-
-msgid ""
-"Select the `VideoStreamPlayer` node in the scene and go to its properties. "
-"Under `CanvasItem > Material`, create a new shader named \"ChromaKeyShader."
-"gdshader.\""
-msgstr ""
-
-msgid ""
-"In the \"ChromaKeyShader.gdshader\" file, write the custom shader code as "
-"shown below:"
-msgstr ""
-
-msgid ""
-"The shader uses the distance calculation to identify pixels close to the "
-"chroma key color and discards them, effectively removing the selected color. "
-"Pixels that are slightly further away from the chroma key color are faded "
-"based on the fade_factor, blending them smoothly with the surrounding "
-"colors. This process creates the desired chroma key effect, making it appear "
-"as if the background has been replaced with another image or video."
-msgstr ""
-
-msgid ""
-"The code above represents a simple demonstration of the Chroma Key shader, "
-"and users can customize it according to their specific requirements."
-msgstr ""
-
-#, fuzzy
-msgid "UI Controls"
-msgstr "Control"
-
-msgid ""
-"To allow users to manipulate the chroma key effect in real-time, we created "
-"sliders in the `Control` node. The `Control` node's script contains the "
-"following functions:"
-msgstr ""
-
-msgid ""
-"also make sure that the range of the sliders are appropriate, our settings "
-"are :"
-msgstr ""
-
-#, fuzzy
-msgid "Signal Handling"
-msgstr "Вход"
-
-msgid ""
-"Connect the appropriate signal from the UI elements to the `Control` node's "
-"script. you created in the `Control` node's script to control the chroma key "
-"effect. These signal handlers will update the shader's uniform variables in "
-"response to user input."
-msgstr ""
-
-msgid ""
-"Save and run the scene to see the chroma key effect in action! With the "
-"provided UI controls, you can now adjust the chroma key color, pickup range, "
-"and fade amount in real-time, achieving the desired chroma key functionality "
-"for your video content."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

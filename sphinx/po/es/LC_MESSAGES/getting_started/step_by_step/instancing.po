@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,16 +48,6 @@ msgstr ""
 "`RigidBody2D <class_RigidBody2D>` como raíz llamado Ball, que permite que la "
 "bola caiga y rebote en las paredes, un nodo :ref:`Sprite2D <class_Sprite2D>` "
 "y un :ref:`CollisionShape2D <class_CollisionShape2D>`."
-
-#, fuzzy
-msgid ""
-"Once you have saved a scene, it works as a blueprint: you can reproduce it "
-"in other scenes as many times as you'd like. Replicating an object from a "
-"template like this is called **instancing**."
-msgstr ""
-"Una vez guardada una escena, funciona como plantilla: puedes reproducirla en "
-"otras escenas tantas veces como quieras. Replicar un objeto a partir de una "
-"plantilla de este tipo se denomina **instanciación**."
 
 msgid ""
 "As we mentioned in the previous part, instanced scenes behave like a node: "
@@ -116,14 +101,6 @@ msgid ""
 msgstr ""
 "Dentro del Administrador de Proyectos, haz clic en el botón *Importar* para "
 "importar el proyecto."
-
-#, fuzzy
-msgid ""
-"In the pop-up that appears navigate to the folder you extracted. Double-"
-"click the ``project.godot`` file to open it."
-msgstr ""
-"En la ventana emergente que aparece, haga clic en el botón Examinar y "
-"navegue hasta la carpeta que extrajo."
 
 msgid "Finally, click the Import & Edit button."
 msgstr "Finalmente, haga clic en el botón Importar y editar."

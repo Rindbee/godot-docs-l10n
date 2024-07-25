@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +168,7 @@ msgstr ""
 "修复。"
 
 msgid "unstable"
-msgstr "unstable"
+msgstr "不稳定版"
 
 msgid "Godot 4.2"
 msgstr "Godot 4.2"
@@ -187,7 +182,7 @@ msgid ""
 msgstr "|supported| 接收错误和安全问题的修复，以及对平台支持的补丁。"
 
 msgid "supported"
-msgstr "supported"
+msgstr "受支持的"
 
 msgid "Godot 4.1"
 msgstr "Godot 4.1"
@@ -205,7 +200,7 @@ msgid "|eol| No longer supported (last update: 4.0.4)."
 msgstr "|eol| 不再支持（最后更新：4.0.4）。"
 
 msgid "eol"
-msgstr "eol"
+msgstr "不再支持"
 
 msgid "Godot 3.6 (`3.x`, LTS)"
 msgstr "Godot 3.6（\\ `3.x`\\ 、LTS）"
@@ -566,7 +561,6 @@ msgid ""
 "compatibility-breaking changes of this kind."
 msgstr "由于 Godot 5.0 分支目前还没有建立，我们不建议这种破坏兼容性的更改。"
 
-#, fuzzy
 msgid ""
 "When modifying a method's signature in any fashion (including adding an "
 "optional parameter), a GDExtension compatibility method must be created. "
@@ -574,10 +568,10 @@ msgid ""
 "minor releases, so that users don't have to recompile them. See :ref:"
 "`doc_handling_compatibility_breakages` for more information."
 msgstr ""
-"当以任何方式修改一个方法的签名（包括添加可选参数）时，必须创建一个 "
-"GDExtension 兼容方法。这将确保现有的 GDExtensions 能够在补丁版本和次要版本中"
-"继续工作，如此用户就不必重新编译它们。更多信息请参见`拉取清求 #76446 "
-"<https://github.com/godotengine/godot/pull/76446>`_ 。"
+"在以任何方式修改方法签名（包括添加可选参数）时，必须创建一个 GDExtension 兼容"
+"性方法。这确保了现有的 GDExtensions 在补丁和小版本更新中继续工作，从而使用户"
+"不必重新编译它们。有关更多信息，请参见 :ref:"
+"`doc_handling_compatibility_breakages`。"
 
 msgid "Translation status"
 msgstr "翻译状态"

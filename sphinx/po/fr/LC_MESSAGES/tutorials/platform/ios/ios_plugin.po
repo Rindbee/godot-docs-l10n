@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,11 +75,6 @@ msgstr ""
 "Lorsqu'un plugin est actif, vous pouvez y accéder en utilisant ``Engine."
 "get_singleton()`` :"
 
-msgid ""
-"The plugin's files have to be in the ``res://ios/plugins/`` directory or a "
-"subdirectory, otherwise the Godot editor will not automatically detect them."
-msgstr ""
-
 msgid "Creating an iOS plugin"
 msgstr "Création d'un plugin iOS"
 
@@ -120,13 +110,6 @@ msgstr ""
 "Voici les étapes pour démarrer le développement d'un plugin. Nous vous "
 "recommandons d'utiliser `Xcode <https://developer.apple.com/develop/>`_ "
 "comme environnement de développement."
-
-#, fuzzy
-msgid ""
-"The `Godot iOS Plugins <https://github.com/godotengine/godot-ios-plugins>`_."
-msgstr ""
-"Les `Godot iOS Plugins <https://github.com/godotengine/godot-ios-plugins>`_ "
-"plugins Godot iOS."
 
 msgid ""
 "The `Godot iOS plugin template <https://github.com/naithar/"
@@ -360,14 +343,6 @@ msgid ""
 msgstr ""
 "Si aucun type n'est utilisé (par exemple :``KeyName=\"KeyValue\"``), le type "
 "``string`` sera utilisé."
-
-#, fuzzy
-msgid ""
-"If ``raw`` type is used value for corresponding key will be stored in ``Info."
-"plist`` as is."
-msgstr ""
-"Si le type ``raw`` est utilisé, la valeur de la clé correspondante sera "
-"stockée dans ``Info.plist`` telle quelle."
 
 msgid ""
 "If ``string_input`` type is used you will be able to modify value in Export "

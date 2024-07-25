@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,17 +45,6 @@ msgstr ""
 "Pour tous les :ref:`Object <class_Object>`\\s, la façon la plus simple de "
 "les référencer est d'obtenir une référence à un objet existant depuis une "
 "autre instance acquise."
-
-#, fuzzy
-msgid ""
-"The same principle applies for :ref:`RefCounted <class_RefCounted>` objects. "
-"While users often access :ref:`Node <class_Node>` and :ref:`Resource "
-"<class_Resource>` this way, alternative measures are available."
-msgstr ""
-"Le même principe s'applique aux objets :ref:`Référence <class_Reference>`. "
-"Bien que les utilisateurs accèdent souvent à :ref:`Node <class_Node>` et :"
-"ref:`Resource <class_Resource>` de cette façon, des mesures alternatives "
-"sont disponibles."
 
 msgid ""
 "Instead of property or method access, one can get Resources by load access."
@@ -169,11 +153,6 @@ msgstr ""
 "``_get_property_list``."
 
 msgid ""
-"Note that this happens even for non-legal symbol names, such as names "
-"starting with a digit or containing a slash."
-msgstr ""
-
-msgid ""
 "As a result, this duck-typed system can locate a property either in the "
 "script, the object's class, or any class that object inherits, but only for "
 "things which extend Object."
@@ -189,15 +168,6 @@ msgstr ""
 "Godot fournit une variété d'options pour effectuer des contrôles d'exécution "
 "sur ces accès :"
 
-#, fuzzy
-msgid ""
-"A duck-typed property access. These will be property checks (as described "
-"above). If the operation isn't supported by the object, execution will halt."
-msgstr ""
-"Un accès à des propriétés de façon duck-typed. Celles-ci feront l'objet d'un "
-"contrôle de propriété (tel que décrit ci-dessus). Si l'opération n'est pas "
-"supportée par l'objet, l'exécution s'arrête."
-
 msgid ""
 "A method check. In the case of :ref:`CanvasItem.visible "
 "<class_CanvasItem_property_visible>`, one can access the methods, "
@@ -206,17 +176,6 @@ msgstr ""
 "Un contrôle de méthode. Dans le cas de :ref:`CanvasItem.visible "
 "<class_CanvasItem_property_property_visible>`, on peut accéder aux méthodes, "
 "``set_visible`` et ``is_visible`` comme toute autre méthode."
-
-#, fuzzy
-msgid ""
-"Outsource the access to a :ref:`Callable <class_Callable>`. These may be "
-"useful in cases where one needs the max level of freedom from dependencies. "
-"In this case, one relies on an external context to setup the method."
-msgstr ""
-"Externaliser l'accès à un :ref:`FuncRef <class_FuncRef>`. Celles-ci peuvent "
-"être utiles dans les cas où l'on a besoin d'un niveau maximum de liberté des "
-"dépendances. Dans ce cas, on s'appuie sur un contexte externe pour "
-"configurer la méthode."
 
 msgid ""
 "These strategies contribute to Godot's flexible design. Between them, users "

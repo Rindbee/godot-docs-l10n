@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,19 +50,6 @@ msgstr ""
 msgid "Checking control size"
 msgstr "Vérification de la taille du control"
 
-#, fuzzy
-msgid ""
-"Unlike 2D nodes, \"size\" is important with controls, as it helps to "
-"organize them in proper layouts. For this, the :ref:`Control.size "
-"<class_Control_property_size>` property is provided. Checking it during "
-"``_draw()`` is vital to ensure everything is kept in-bounds."
-msgstr ""
-"Contrairement aux nœuds 2D, la \"taille\" est importante pour les controls, "
-"car elle permet de les organiser dans des mises en page appropriées. Pour "
-"cela, la propriété :ref:`Control.rect_size "
-"<class_Control_property_rect_size>` est fournie. La vérifier pendant "
-"``_draw()`` est vital pour s'assurer que tout est maintenu dans les limites."
-
 msgid "Checking focus"
 msgstr "Vérification du focus"
 
@@ -111,14 +93,6 @@ msgstr ""
 "<class_VBoxContainer>`, la taille minimum fera en sorte que votre contrôle "
 "personnalisé ne soit pas écrasé par les autres contrôles dans le conteneur."
 
-#, fuzzy
-msgid ""
-"To provide this callback, just override :ref:`Control._get_minimum_size() "
-"<class_Control_private_method__get_minimum_size>`, for example:"
-msgstr ""
-"Pour fournir ce rappel, il suffit de surcharger :ref:`Control."
-"get_minimum_size() <class_Control_method_get_minimum_size>`, par exemple :"
-
 msgid "Alternatively, set it using a function:"
 msgstr "Vous pouvez également le régler à l'aide d'une fonction :"
 
@@ -159,16 +133,6 @@ msgid ""
 msgstr ""
 "Le controls fournit le focus du clavier/joypad via :ref:`Control.focus_mode "
 "<class_Control_property_focus_mode>`."
-
-#, fuzzy
-msgid ""
-"This function is :ref:`Control._gui_input() "
-"<class_Control_private_method__gui_input>`. Simply override it in your "
-"control. No processing needs to be set."
-msgstr ""
-"Cette fonction est :ref:`Control._gui_input() "
-"<class_Control_method__gui_input>`. Il vous suffit de l'ignorer dans votre "
-"control. Il n'est pas nécessaire de définir un traitement."
 
 msgid ""
 "For more information about events themselves, check the :ref:"

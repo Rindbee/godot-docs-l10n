@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,17 +168,6 @@ msgstr ""
 "**複用材質：**場景中不同的材質越少, 算繪的速度就越快. 如果一個場景有大量的物"
 "體(數以百計或數以千計), 可以嘗試重複使用這些材質. 在最壞的情況下, 使用合集來"
 "減少紋理變化的數量."
-
-#, fuzzy
-msgid ""
-"**Reusing Shaders:** If materials can't be reused, at least try to reuse "
-"shaders. Note: shaders are automatically reused between StandardMaterial3Ds "
-"that share the same configuration (features that are enabled or disabled "
-"with a check box) even if they have different parameters."
-msgstr ""
-"**複用著色器：**如果材質不能被重複使用，至少要嘗試重用著色器。注意：在共用相"
-"同配置（可用核取方塊啟用或禁用該功能）的SpatialMaterials之間會自動重用著色"
-"器，即使它們有不同的參數。"
 
 msgid ""
 "If a scene has, for example, 20,000 objects with 20,000 different materials "

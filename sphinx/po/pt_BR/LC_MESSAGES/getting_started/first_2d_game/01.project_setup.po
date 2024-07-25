@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,31 +31,8 @@ msgstr ""
 msgid "GDScript"
 msgstr "GDScript"
 
-#, fuzzy
-msgid ""
-"Download `dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/"
-"godot-docs-project-starters/releases/download/latest-4.x/"
-"dodge_the_creeps_2d_assets.zip>`_. The archive contains the images and "
-"sounds you'll be using to make the game. Extract the archive and move the "
-"``art/`` and ``fonts/`` directories to your project's directory."
-msgstr ""
-"Baixe :download:`dodge_assets.zip <files/dodge_assets.zip>`. Este arquivo "
-"contém as imagens e os sons que você usará para fazer o jogo. Descompacte "
-"esses arquivos e mova as pastas ``art/`` e ``fonts/`` para a pasta do seu "
-"projeto."
-
 msgid "C#"
 msgstr "C#"
-
-#, fuzzy
-msgid ""
-"Ensure that you have the required dependencies to use C# in Godot. You need "
-"the latest stable .NET SDK, and an editor such as VS Code. See :ref:"
-"`doc_c_sharp_setup`."
-msgstr ""
-"Assegure-se de que você tem as dependências obrigatórias para usar C# no "
-"Godot. Você precisa do .NET Core 3.1 SDK e de um editor como o VS Code. "
-"Veja :ref:`doc_c_sharp_setup`."
 
 msgid "C++"
 msgstr "C++"
@@ -74,30 +46,6 @@ msgstr ""
 
 msgid "Your project folder should look like this."
 msgstr "Sua pasta de projeto deve se parecer com isto."
-
-#, fuzzy
-msgid ""
-"This game is designed for portrait mode, so we need to adjust the size of "
-"the game window. Click on *Project -> Project Settings* to open the project "
-"settings window, in the left column open the *Display -> Window* tab. There, "
-"set \"Viewport Width\" to ``480`` and \"Viewport Height\" to ``720``."
-msgstr ""
-"Este jogo usará o modo retrato, então precisamos ajustar as dimensões da "
-"janela de jogo. Clique em *Projeto -> Configurações do Projeto* para abrir "
-"as configurações do projeto e, na coluna esquerda, abra a aba *Exibição -> "
-"Janela*. Ali, configure \"Width\" (Largura) para ``480`` e \"Height\" "
-"(Altura) para ``720``."
-
-#, fuzzy
-msgid ""
-"Also, under the **Stretch** options, set **Mode** to ``canvas_items`` and "
-"**Aspect** to ``keep``. This ensures that the game scales consistently on "
-"different sized screens."
-msgstr ""
-"Além disso, role para o fim desta seção e, nas opções \"Stretch\" "
-"(Alongamento), defina ``Mode`` (Modo) para \"2d\" e ``Aspect`` (Aspecto) "
-"para \"keep\" (manter). Isso garante que o jogo seja escalado "
-"consistentemente em telas de tamanhos diferentes."
 
 msgid "Organizing the project"
 msgstr "Organizando o projeto"

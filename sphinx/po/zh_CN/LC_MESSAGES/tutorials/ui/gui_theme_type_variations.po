@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,21 +131,6 @@ msgstr ""
 "现在已经创建好了一个类型变种，你可以将其应用到你的节点上了。检查器面板中，在"
 "控件节点的 **Theme** 属性下，你可以找到 **Theme Type Variation** 属性。默认为"
 "空，表示只有基础类型会对这个节点起效。"
-
-#, fuzzy
-msgid ""
-"You can either select a type variation from a dropdown list, or input its "
-"name manually. Variations appear on the list only if the type variation "
-"belongs to the project-wide theme, which you can configure in the project "
-"settings. For any other case you have to input the name of the variation "
-"manually. Click on the pencil icon to the right. Then type in the name of "
-"the type variation and click the check mark icon or press enter. If a type "
-"variation with that name exists it will now be used by the node."
-msgstr ""
-"你可以从下拉列表中选择一个类型变种，或者手动输入名称。属于项目主题的变种才会"
-"出现在列表中，项目主题可以在项目设置中配置。其他情况下，你就得手动输入变种的"
-"名称了。请点击右侧的铅笔图标。然后输入类型变种的名称，并点击对勾图标或者按回"
-"车键。如果存在使用这个名称的类型变种，该节点就会去使用。"
 
 msgid "Translation status"
 msgstr "翻译状态"

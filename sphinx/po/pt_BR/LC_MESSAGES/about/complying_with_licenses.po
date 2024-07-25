@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,25 +15,8 @@ msgstr ""
 msgid "Complying with licenses"
 msgstr "Conformidade com as licenças"
 
-msgid ""
-"The recommendations in this page **are not legal advice.** They are provided "
-"in good faith to help users navigate license attribution requirements."
-msgstr ""
-
 msgid "What are licenses?"
 msgstr "O que são licenças?"
-
-#, fuzzy
-msgid ""
-"Godot is created and distributed under the `MIT License <https://opensource."
-"org/licenses/MIT>`_. It doesn't have a sole owner, as every contributor that "
-"submits code to the project does it under this same license and keeps "
-"ownership of their contribution."
-msgstr ""
-"O Godot é criado e distribuído sob a `Licença MIT <https://opensource.org/"
-"licenses/MIT>`_. Também não há um proprietário único, já que cada "
-"contribuidor que envia código ao projeto o faz sob esta mesma licença e "
-"mantém a posse da contribuição."
 
 msgid ""
 "The license is the legal requirement for you (or your company) to use and "
@@ -62,17 +40,6 @@ msgstr ""
 "contribuidor, você pode achar guias :ref `aqui "
 "<doc_best_practices_for_engine_contributors_license_compliance>`."
 
-#, fuzzy
-msgid ""
-"Alongside the Godot license text, remember to also list third-party notices "
-"for assets you're using, such as textures, models, sounds, music and fonts. "
-"This includes free assets, which often come with licenses that require "
-"attribution."
-msgstr ""
-"Na tela de créditos do seu projeto, lembre-se de listar também avisos de "
-"terceiros para os recursos que você está usando, como texturas, modelos, "
-"sons, músicas e fontes."
-
 msgid "Requirements"
 msgstr "Requisitos"
 
@@ -82,15 +49,6 @@ msgid ""
 msgstr ""
 "No caso da licença MIT, o único requisito é incluir o texto da licença em "
 "algum lugar do seu jogo ou projeto derivado."
-
-#, fuzzy
-msgid "This text reads as follows::"
-msgstr "O texto diz o seguinte:"
-
-msgid ""
-"Beside its own MIT license, Godot includes code from a number of third-party "
-"libraries. See :ref:`doc_complying_with_licenses_thirdparty` for details."
-msgstr ""
 
 msgid ""
 "Your games do not need to be under the same license. You are free to release "
@@ -103,16 +61,6 @@ msgstr ""
 
 msgid "Inclusion"
 msgstr "Inclusão"
-
-#, fuzzy
-msgid ""
-"The license text must be made available to the user. The license doesn't "
-"specify how the text has to be included, but here are the most common "
-"approaches (you only need to implement one of them, not all)."
-msgstr ""
-"A licença não especifica como deve ser incluída, portanto qualquer coisa é "
-"válida desde que ela possa ser exibida sob alguma condição. Essas são as "
-"abordagens mais comuns (só é necessário implementar uma delas, não todas)."
 
 msgid "Credits screen"
 msgstr "Tela de créditos"
@@ -141,39 +89,11 @@ msgstr ""
 msgid "Output log"
 msgstr "Registro de saída"
 
-#, fuzzy
-msgid ""
-"Printing the license text using the :ref:`print() "
-"<class_@GlobalScope_method_print>` function may be enough on platforms where "
-"a global output log is readable. This is the case on desktop platforms, "
-"Android and HTML5 (but not iOS)."
-msgstr ""
-"Apenas imprimir o texto de licenciamento usando a função :ref:`print() "
-"<class_@GDScript_method_print>` pode ser suficiente em plataformas onde um "
-"log de saída global é legível. Este é o caso em plataformas de desktop, "
-"Android e HTML5 (mas não iOS e UWP)."
-
 msgid "Accompanying file"
 msgstr "Arquivo anexo"
 
-#, fuzzy
-msgid ""
-"If the game is distributed on desktop platforms, a file containing the "
-"license text can be added to the software that is installed to the user PC."
-msgstr ""
-"Se o jogo for distribuído em plataformas desktop, um arquivo contendo a "
-"licença pode ser adicionado ao software instalado no PC do usuário."
-
 msgid "Printed manual"
 msgstr "Manual impresso"
-
-#, fuzzy
-msgid ""
-"If the game includes a printed manual, the license text can be included "
-"there."
-msgstr ""
-"Se o jogo incluir manuais impressos, o texto da licença pode ser incluído "
-"neles."
 
 msgid "Link to the license"
 msgstr "Link para a licença"
@@ -187,18 +107,6 @@ msgstr ""
 "org/license`` na documentação ou créditos de seu jogo é uma maneira "
 "aceitável de satisfazer os termos da licença."
 
-#, fuzzy
-msgid ""
-"Godot provides several methods to get license information in the :ref:"
-"`Engine <class_Engine>` singleton. This allows you to source the license "
-"information directly from the engine binary, which prevents the information "
-"from becoming outdated if you update engine versions."
-msgstr ""
-"Godot oferece diversos métodos para conseguir informações de licença no "
-"singleton da Engine. Isto possibilita que você busque a informação de "
-"licença diretamente do binário da engine, oque previne a informação de se "
-"tornar desatualizada ao atualizar a versão da engine."
-
 msgid "For the engine itself:"
 msgstr "Para a engine em si:"
 
@@ -208,47 +116,8 @@ msgstr ":ref: `Engine.get_license_text<class_Engine_method_get_license_text>`"
 msgid "For third-party components used by the engine:"
 msgstr "Para componentes terceirizados utilizados pela engine:"
 
-#, fuzzy
-msgid ":ref:`Engine.get_license_info<class_Engine_method_get_license_info>`"
-msgstr ""
-":ref:`CanvasItem.get_canvas_transform() "
-"<class_CanvasItem_method_get_canvas_transform>`"
-
-#, fuzzy
-msgid ""
-":ref:`Engine.get_copyright_info<class_Engine_method_get_copyright_info>`"
-msgstr ""
-":ref:`CanvasItem.get_viewport_transform() "
-"<class_CanvasItem_method_get_viewport_transform>`"
-
 msgid "Third-party licenses"
 msgstr "Licenças de terceiros"
-
-msgid ""
-"Godot itself contains software written by `third parties <https://github.com/"
-"godotengine/godot/blob/master/thirdparty/README.md>`_, which is compatible "
-"with, but not covered by Godot's MIT license."
-msgstr ""
-
-msgid ""
-"Many of these dependencies are distributed under permissive open source "
-"licenses which require attribution by explicitly citing their copyright "
-"statement and license text in the final product's documentation."
-msgstr ""
-
-msgid ""
-"Given the scope of the Godot project, this is fairly difficult to do "
-"thoroughly. For the Godot editor, the full documentation of third-party "
-"copyrights and licenses is provided in the `COPYRIGHT.txt <https://github."
-"com/godotengine/godot/blob/master/COPYRIGHT.txt>`_ file."
-msgstr ""
-
-msgid ""
-"A good option for end users to document third-party licenses is to include "
-"this file in your project's distribution, which you can e.g. rename to "
-"``GODOT_COPYRIGHT.txt`` to prevent any confusion with your own code and "
-"assets."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

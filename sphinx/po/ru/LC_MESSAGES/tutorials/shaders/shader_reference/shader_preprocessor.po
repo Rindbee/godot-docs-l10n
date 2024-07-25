@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,9 +89,6 @@ msgstr ""
 "строку обратной косой чертой (``\\``). Первый разрыв строки, *не* содержащий "
 "обратную косую черту, завершает операцию препроцессора."
 
-msgid "#define"
-msgstr ""
-
 msgid "**Syntax:** ``#define <identifier> [replacement_code]``."
 msgstr "**Синтаксис:** ``#define <identifier> [заменяемый_код]``."
 
@@ -156,9 +148,6 @@ msgstr ""
 "Определение ``#define`` для идентификатора, который уже определён, приводит "
 "к ошибке. Чтобы предотвратить это, используйте ``#undef <identifier>``."
 
-msgid "#undef"
-msgstr ""
-
 msgid "**Syntax:** ``#undef identifier``"
 msgstr "**Синтаксис:** ``#undef identifier``"
 
@@ -175,9 +164,6 @@ msgid ""
 msgstr ""
 "Если бы в приведённом выше примере не было ``#undef``, то возникла бы ошибка "
 "переопределения макроса."
-
-msgid "#if"
-msgstr ""
 
 msgid "**Syntax:** ``#if <condition>``"
 msgstr "**Синтаксис:** ``#if <условие>``"
@@ -290,9 +276,6 @@ msgstr ""
 "количеством ветвлений) всё ещё может значительно замедлить выполнение "
 "шейдера."
 
-msgid "#elif"
-msgstr ""
-
 msgid ""
 "The ``#elif`` directive stands for \"else if\" and checks the condition "
 "passed if the above ``#if`` evaluated to ``false``. ``#elif`` can only be "
@@ -308,9 +291,6 @@ msgid "Like with ``#if``, the ``defined()`` preprocessor function can be used:"
 msgstr ""
 "Как и в случае с ``#if``, можно использовать функцию препроцессора "
 "``defined()``:"
-
-msgid "#ifdef"
-msgstr ""
 
 msgid "**Syntax:** ``#ifdef <identifier>``"
 msgstr "**Синтаксис:** ``#ifdef <identifier>``"
@@ -337,9 +317,6 @@ msgstr ""
 "defined(...)``. Вместо этого используйте следующие серии ``#ifdef`` и "
 "``#else``, если вам нужно более двух ветвей:"
 
-msgid "#ifndef"
-msgstr ""
-
 msgid "**Syntax:** ``#ifndef <identifier>``"
 msgstr "**Синтаксис:** ``#ifndef <идентификатор>``"
 
@@ -359,9 +336,6 @@ msgstr ""
 "Это полная противоположность ``#ifdef``; он всегда будет соответствовать в "
 "ситуациях, в которых ``#ifdef`` никогда не будет соответствовать, и наоборот."
 
-msgid "#else"
-msgstr ""
-
 msgid "**Syntax:** ``#else``"
 msgstr "**Синтаксис:** ``#else``"
 
@@ -373,9 +347,6 @@ msgstr ""
 "директива ``#if``, ``#elif``, ``#ifdef`` или ``#ifndef`` оценивается как "
 "false."
 
-msgid "#endif"
-msgstr ""
-
 msgid "**Syntax:** ``#endif``"
 msgstr "**Синтаксис:** ``#endif``"
 
@@ -385,9 +356,6 @@ msgid ""
 msgstr ""
 "Используется в качестве терминатора для директив ``#if``, ``#ifdef``, "
 "``#ifndef`` или последующих ``#else``."
-
-msgid "#include"
-msgstr ""
 
 msgid "**Syntax:** ``#include \"path\"``"
 msgstr "**Синтаксис:** ``#include \"путь\"``"
@@ -481,9 +449,6 @@ msgid "Example base shader (using the include file we created above):"
 msgstr ""
 "Пример базового шейдера (с использованием файла include, который мы создали "
 "выше):"
-
-msgid "#pragma"
-msgstr ""
 
 msgid "**Syntax:** ``#pragma value``"
 msgstr "**Синтаксис:** ``#pragma значение``"

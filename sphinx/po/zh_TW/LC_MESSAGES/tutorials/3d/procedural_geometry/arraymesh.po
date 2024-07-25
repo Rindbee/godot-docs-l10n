@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,19 +170,6 @@ msgstr "``ARRAY_INDEX``"
 
 msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
 msgstr ":ref:`Array <class_Array>`"
-
-#, fuzzy
-msgid ""
-"In most cases when creating a mesh, we define it by its vertex positions. So "
-"usually, the array of vertices (at index 0) is required, while the index "
-"array (at index 12) is optional and will only be used if included. It is "
-"also possible to create a mesh with only the index array and no vertex "
-"array, but that's beyond the scope of this tutorial."
-msgstr ""
-"在大多數情況下，在建立網格時，我們透過其頂點位置來定義它。因此，通常情況下，"
-"頂點陣列（索引 0 處）是必需的，而索參陣列（索引 12 處）是可選的，只有在包含時"
-"才會使用。也可以建立僅包含索引陣列而沒有頂點陣列的網格，但這超出了本教學的範"
-"圍。事實上，我們根本不會使用索參陣列。"
 
 msgid ""
 "All the other arrays carry information about the vertices. They are optional "

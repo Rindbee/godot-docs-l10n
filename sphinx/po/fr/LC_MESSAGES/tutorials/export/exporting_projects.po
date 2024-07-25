@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,21 +99,6 @@ msgstr ""
 "exporter. Bien que l'apprentissage de chaque SDK soit toujours encouragé, il "
 "peut être frustrant d'être forcé de le faire à un moment non désiré."
 
-#, fuzzy
-msgid ""
-"There is also another problem with this approach: different devices prefer "
-"some data in different formats to run. The main example of this is texture "
-"compression. All PC hardware uses S3TC (BC) compression and that has been "
-"standardized for more than a decade, but mobile devices use different "
-"formats for texture compression, such as ETC1 and ETC2."
-msgstr ""
-"Il y a aussi un autre problème avec cette approche. Les différents appareils "
-"préfèrent certaines données dans des formats différents. L'exemple principal "
-"est la compression de texture. Tout le matériel PC utilise la compression "
-"S3TC (BC), standardisée depuis plus d'une décennie, mais les appareils "
-"mobiles utilisent des formats différents pour la compression de texture, "
-"tels que PVRCT (iOS) ou ETC (Android)."
-
 msgid "Export menu"
 msgstr "Menu d'exportation"
 
@@ -174,28 +154,6 @@ msgid ""
 msgstr ""
 "À ce moment-là, l'utilisateur doit revenir à la documentation et suivre les "
 "instructions sur la façon de configurer correctement cette plate-forme."
-
-msgid ""
-"The buttons at the bottom of the menu allow you to export the project in a "
-"few different ways:"
-msgstr ""
-
-msgid ""
-"Export All: Export the project as a playable build (Godot executable and "
-"project data) for all the presets defined. All presets must have an **Export "
-"Path** defined for this to work."
-msgstr ""
-
-msgid ""
-"Export Project: Export the project as a playable build (Godot executable and "
-"project data) for the selected preset."
-msgstr ""
-
-msgid ""
-"Export PCK/ZIP: Export the project resources as a PCK or ZIP package. This "
-"is not a playable build, it only exports the project data without a Godot "
-"executable."
-msgstr ""
 
 msgid "Export templates"
 msgstr "Exporter des modèles"
@@ -259,65 +217,8 @@ msgstr ""
 "inclus dans le projet exporté. Ceci est fait pour empêcher les dossiers de "
 "contrôle de version comme ``.git`` d'être inclus dans le fichier PCK exporté."
 
-#, fuzzy
-msgid ""
-"Below the list of resources are two filters that can be setup. The first "
-"allows non resource files such as ``.txt``, ``.json`` and ``.csv`` to be "
-"exported with the project. The second filter can be used to exclude every "
-"file of a certain type without manually deselecting every one. For example, "
-"``.png`` files."
-msgstr ""
-"En dessous de la liste des ressources se trouvent deux filtres qui peuvent "
-"être configurés. Le premier permet aux fichiers qui ne sont pas des "
-"ressources, comme ``.txt``, ``.json`` et ``.csv`` d'être exportés avec le "
-"projet. Le deuxième filtre peut être utilisé pour exclure tous les fichiers "
-"d'un certain type sans les désélectionner manuellement. Par exemple, les "
-"fichiers ``.png``."
-
-#, fuzzy
-msgid "Configuration files"
-msgstr "Configuration"
-
-msgid ""
-"The export configuration is stored in two files that can both be found in "
-"the project directory:"
-msgstr ""
-
-msgid ""
-"``export_presets.cfg``: This file contains the vast majority of the export "
-"configuration and can be safely committed to version control. There is "
-"nothing in here that you would normally have to keep secret."
-msgstr ""
-
-msgid ""
-"``.godot/export_credentials.cfg``: This file contains export options that "
-"are considered confidential, like passwords and encryption keys. It should "
-"generally **not** be committed to version control or shared with others "
-"unless you know exactly what you are doing."
-msgstr ""
-
-msgid ""
-"Since the credentials file is usually kept out of version control systems, "
-"some export options will be missing if you clone the project to a new "
-"machine. The easiest way to deal with this is to copy the file manually from "
-"the old location to the new one."
-msgstr ""
-
 msgid "Exporting from the command line"
 msgstr "Exporter à partir de la ligne de commande"
-
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"En production, il est utile d'automatiser les builds, et Godot le supporte "
-"avec les paramètres de ligne de commande ``--export`` et ``--export-debug``. "
-"L'exportation à partir de la ligne de commande nécessite toujours un modèle "
-"d'exportation pour définir les paramètres d'exportation. Une invocation "
-"basique de l'exportation serait :"
 
 msgid ""
 "This will export to ``some_name.exe``, assuming there is a preset called "
@@ -378,16 +279,6 @@ msgstr ""
 "ou ZIP, ce qui permet d'utiliser un seul fichier pack principal exporté avec "
 "plusieurs exécutables Godot. Dans ce cas, l' export preset doit toujours "
 "être spécifié sur la ligne de commande :"
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"Il est souvent utile de combiner le drapeau ``--export`` avec le drapeau ``--"
-"path``, afin que vous n'ayez pas besoin de ``cd`` au dossier du projet avant "
-"d'exécuter la commande :"
 
 msgid ""
 "See :ref:`doc_command_line_tutorial` for more information about using Godot "

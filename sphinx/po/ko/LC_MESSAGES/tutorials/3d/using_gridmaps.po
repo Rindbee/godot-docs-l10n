@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Using GridMaps"
-msgstr "GridMap 사용하기"
 
 msgid "Introduction"
 msgstr "소개"
@@ -46,15 +37,6 @@ msgstr ""
 msgid "Example project"
 msgstr "예제 프로젝트"
 
-#, fuzzy
-msgid ""
-"To learn how GridMaps work, start by downloading the sample project: "
-"`gridmap_starter.zip <https://github.com/godotengine/godot-docs-project-"
-"starters/releases/download/latest-4.x/gridmap_starter.zip>`_."
-msgstr ""
-"어떻게 GridMap이 작동하는지 배우려면, 샘플 프로젝트를 다운로드하세요: :"
-"download:`gridmap_demo.zip <files/gridmap_demo.zip>`."
-
 msgid ""
 "Unzip this project and add it to the Project Manager using the \"Import\" "
 "button."
@@ -65,25 +47,6 @@ msgstr ""
 msgid "Creating a MeshLibrary"
 msgstr "MeshLibrary 만들기"
 
-#, fuzzy
-msgid ""
-"To begin, you need a :ref:`class_MeshLibrary`, which is a collection of "
-"individual meshes that can be used in the gridmap. Open the "
-"\"mesh_library_source.tscn\" scene to see an example of how to set up the "
-"mesh library."
-msgstr ""
-"시작하려면 :ref:`class_MeshLibrary`\\ 가 필요합니다. MeshLibrary는 개별 메시"
-"들의 모음으로 그리드맵에 쓸 수 있습니다. \"MeshLibrary_Source.tscn\" 씬을 열"
-"어서 어떻게 MeshLibrary가 설정되어 있는지 확인하세요."
-
-#, fuzzy
-msgid ""
-"As you can see, this scene has a :ref:`class_Node3D` node as its root, and a "
-"number of :ref:`class_MeshInstance3D` node children."
-msgstr ""
-"보다시피, 이 씬은 루트로 :ref:`class_Spatial` 노드를 갖고 있습니다. 그리고 많"
-"은 :ref:`class_MeshInstance` 노드 자손을 갖고 있죠."
-
 msgid ""
 "If you don't need any physics in your scene, then you're done. However, in "
 "most cases you'll want to assign collision bodies to the meshes."
@@ -93,17 +56,6 @@ msgstr ""
 
 msgid "Collisions"
 msgstr "콜리전(Collision)"
-
-#, fuzzy
-msgid ""
-"You can manually assign a :ref:`class_StaticBody3D` and :ref:"
-"`class_CollisionShape3D` to each mesh. Alternatively, you can use the "
-"\"Mesh\" menu to automatically create the collision body based on the mesh "
-"data."
-msgstr ""
-"각 메시마다 일일이 :ref:`class_StaticBody`\\ 와 :ref:"
-"`class_CollisionShape`\\ 를 지정할 수 있습니다. 아니면 \"메시(Mesh)\" 메뉴에"
-"서 메시 데이터를 기반으로 한 콜리전 바디를 자동으로 만들 수 있습니다."
 
 msgid ""
 "Note that a \"Convex\" collision body will work better for simple meshes. "
@@ -126,50 +78,8 @@ msgstr ""
 "MeshLibrary를 생성할 때는 메시 안에 있는 머티리얼만 사용됩니다. 노드에 설정"
 "된 머티리얼은 무시됩니다."
 
-#, fuzzy
-msgid "NavigationMeshes"
-msgstr "네비게이션 메시."
-
-msgid ""
-"Like all mesh instances, MeshLibrary items can be assigned a :ref:"
-"`class_NavigationMesh` resource, which can be created manually, or baked as "
-"described below."
-msgstr ""
-
-msgid ""
-"To create the NavigationMesh from a MeshLibrary scene export, place a :ref:"
-"`class_NavigationRegion3D` child node below the main MeshInstance3D for the "
-"GridMap item. Add a valid NavigationMesh resource to the NavigationRegion3D "
-"and some source geometry nodes below and bake the NavigationMesh."
-msgstr ""
-
-msgid ""
-"With small grid cells it is often necessary to reduce the NavigationMesh "
-"properties for agent radius and region minimum size."
-msgstr ""
-
-msgid ""
-"Nodes below the NavigationRegion3D are ignored for the MeshLibrary scene "
-"export, so additional nodes can be added as source geometry just for baking "
-"the navmesh."
-msgstr ""
-
-msgid ""
-"The baked cell size of the NavigationMesh must match the NavigationServer "
-"map cell size to properly merge the navigation meshes of different grid "
-"cells."
-msgstr ""
-
 msgid "Exporting the MeshLibrary"
 msgstr "MeshLibrary 내보내기"
-
-#, fuzzy
-msgid ""
-"To export the library, click on **Scene > Export As... > MeshLibrary...**, "
-"and save it as a resource."
-msgstr ""
-"MeshLibrary를 내보내려면, 씬(Scene) -> 다음으로 변환하기...(Convert To...) -"
-"> 메시 라이브러리(MeshLibrary)를 클릭하고, 리소스로 저장하세요."
 
 msgid ""
 "You can find an already exported MeshLibrary in the project named "
@@ -197,37 +107,6 @@ msgid ""
 msgstr ""
 "\"Cell/Size\" 속성은 메시의 크기를 설정합니다. 데모에서는 기본 값으로 두어도 "
 "됩니다. \"Center Y\" 속성을 끄세요."
-
-#, fuzzy
-msgid ""
-"Now you can start designing the level by choosing a tile from the palette "
-"and placing it with Left-Click in the editor window. Use Right-click to "
-"remove a tile."
-msgstr ""
-"이제 레벨을 설계할 수 있습니다. 팔레트에서 타일을 선택하고, 편집기 창에서 좌"
-"클릭으로 배치합니다. 타일을 지우려면, Shift+우클릭하면 됩니다."
-
-msgid ""
-"Use the arrows next to the \"GridMap\" menu to change the floor that you are "
-"working on."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Click on the \"GridMap\" menu to see options and shortcuts. For example, "
-"pressing :kbd:`S` rotates a tile around the y-axis."
-msgstr ""
-"\"그리드맵(GridMap)\" 메뉴를 클릭하면 설정과 단축키를 볼 수 있습니다. 예를 들"
-"어, \"S\" 키를 누르면 타일을 Y축으로 회전합니다."
-
-#, fuzzy
-msgid ""
-"Holding :kbd:`Shift` and dragging with the left mouse button will draw a "
-"selection box. You can duplicate or clear the selected area using the "
-"respective menu options."
-msgstr ""
-"<Shift>를 누른 채로 좌클릭 드래그를 하면 선택 항목 상자가 만들어 집니다. 메"
-"뉴 설정에서 선택한 영역을 복제하거나 지울 수 있습니다."
 
 msgid ""
 "In the menu, you can also change the axis you're drawing on, as well as "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,16 +61,6 @@ msgstr ""
 msgid "Process Modes"
 msgstr "Modos de procesamiento"
 
-#, fuzzy
-msgid ""
-"Each node in Godot has a \"Process Mode\" that defines when it processes. It "
-"can be found and changed under a node's :ref:`Node <class_Node>` properties "
-"in the inspector."
-msgstr ""
-"Cada nodo en Godot tiene un \"Modo de Pausa\" que define cuándo se procesa. "
-"Puede encontrarse y cambiarse en las propiedades del :ref:`Node "
-"<class_Node>`en el inspector."
-
 msgid "You can also alter the property with code:"
 msgstr "También puedes modificar la propiedad con código:"
 
@@ -88,29 +73,6 @@ msgid ""
 msgstr ""
 "**Heredado**: Se procesa en función del estado del padre, abuelo, etc. El "
 "primer padre que tenga un estado diferente a \"Heredado\" (non-Inherit)."
-
-msgid ""
-"**Pausable**: Process the node (and its children in Inherit mode) only when "
-"the game is not paused."
-msgstr ""
-
-msgid ""
-"**WhenPaused**: Process the node (and its children in Inherit mode) *only* "
-"when the game is paused."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"**Always**: Process the node (and its children in Inherit mode) no matter "
-"what. Paused or not, this node will process."
-msgstr ""
-"**Procesar**: Procesa el nodo sin importar qué (y también a los hijos en "
-"modo \"Heredado\"). En pausa o no, este nodo se procesará."
-
-msgid ""
-"**Disabled**: The node (and its children in Inherit mode) will not process "
-"at all."
-msgstr ""
 
 msgid ""
 "By default, all nodes have this property in the \"Inherit\" state. If the "
@@ -126,19 +88,6 @@ msgstr ""
 "los abuelos, se usará el estado de pausa en SceneTree. Esto significa que, "
 "por defecto, cuando el juego está en pausa, todos los nodos estarán en "
 "pausa. Varias cosas suceden cuando un nodo deja de procesarse."
-
-#, fuzzy
-msgid ""
-"The ``_process``, ``_physics_process``, ``_input``, and ``_input_event`` "
-"functions will not be called. However signals still work and cause their "
-"connected function to run, even if that function's script is attached to a "
-"node that is not currently being processed."
-msgstr ""
-"Las funciones ``_process``, ``_physics_process``, ``_input`` y "
-"``_input_event`` no se llamarán. Sin embargo, las señales aún funcionarán y "
-"harán que sus funciones conectadas se ejecuten, incluso si el script de esa "
-"función está adjunto a un nodo que tiene su modo de pausa establecido en "
-"\"Detener\" (Stop)."
 
 msgid ""
 "Animation nodes will pause their current animation, audio nodes will pause "
@@ -161,43 +110,6 @@ msgstr ""
 "servidores de física están desactivados. Los servidores de física pueden "
 "activarse mientras el juego está en pausa mediante el uso de sus métodos "
 "``set_active``."
-
-#, fuzzy
-msgid "Pause menu example"
-msgstr "Ejemplo de Menu de Pausa"
-
-msgid "Start by creating a button that will be used to pause the game."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Create a menu containing a close button, set the **Process Mode** of the "
-"menu's root node to **When Paused**, then hide the menu. Since the process "
-"mode is set to **When Paused** on the root node, all its children and "
-"grandchildren will inherit that process mode. This way, all the nodes in the "
-"menu will start processing when the game is paused."
-msgstr ""
-"Aquí tienes un ejemplo de un menú de pausa. Crea un popup o panel con "
-"controles dentro y establece su modo de pausa en \"Procesar\" (Process), "
-"luego ocúltalo. Al establecer la raíz del popup de pausa en \"Procesar\" "
-"(Process), todos los hijos y nietos heredarán ese estado. De esta manera, "
-"esta rama del árbol de escena continuará funcionando cuando el juego esté en "
-"pausa."
-
-msgid ""
-"Attach a script to the menu's root node, connect the pause button created "
-"earlier to a new method in the script, and inside that method pause the game "
-"and show the pause menu."
-msgstr ""
-
-msgid ""
-"Finally, connect the menu's close button to a new method in the script. "
-"Inside that method, unpause the game and hide the pause menu."
-msgstr ""
-
-#, fuzzy
-msgid "You should now have a working pause menu."
-msgstr "Ahora deberías ver el grupo aparecer."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

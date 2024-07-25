@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,19 +172,6 @@ msgstr "``ARRAY_INDEX``"
 
 msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
 msgstr ":ref:`PackedInt32Array <class_PackedInt32Array>`"
-
-#, fuzzy
-msgid ""
-"In most cases when creating a mesh, we define it by its vertex positions. So "
-"usually, the array of vertices (at index 0) is required, while the index "
-"array (at index 12) is optional and will only be used if included. It is "
-"also possible to create a mesh with only the index array and no vertex "
-"array, but that's beyond the scope of this tutorial."
-msgstr ""
-"在大多数情况下，创建网格时，我们通过顶点位置来定义网格。因此，顶点数组（位于"
-"索引 0 处）通常是必需的，而索引数组（位于索引 12 处）是可选的，只有在它被包含"
-"时才会使用。也可以只创建索引数组而不创建顶点数组，但这超出了本教程的范围。事"
-"实上，我们根本不会使用索引数组。"
 
 msgid ""
 "All the other arrays carry information about the vertices. They are optional "

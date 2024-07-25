@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,34 +15,8 @@ msgstr ""
 msgid "Particle systems (3D)"
 msgstr "Системы частиц (3D)"
 
-msgid ""
-"This section of the tutorial covers (3D) GPU-accelerated particle systems. "
-"Most of the things discussed here apply to CPU particles as well."
-msgstr ""
-
 msgid "Introduction"
 msgstr "Введение"
-
-msgid ""
-"You can use particle systems to simulate complex physical effects like fire, "
-"sparks, smoke, magical effects, and many more. They are very well suited for "
-"creating dynamic and organic behavior and adding \"life\" to your scenes."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The idea is that a particle is emitted at a fixed interval and with a fixed "
-"lifetime. During its lifetime, every particle will have the same base "
-"behavior. What makes each particle different from the others and creates the "
-"organic look is the randomness that you can add to most of its parameters "
-"and behaviors."
-msgstr ""
-"Идея состоит в том, что «частица» испускается через фиксированный интервал и "
-"с фиксированным временем жизни. В течение своей жизни у каждой частицы будет "
-"одно базовое поведение. Что отличает каждую частицу от остальных и "
-"обеспечивает более натуральный вид, так это «случайность», связанная с "
-"каждым параметром. По сути, создание системы частиц означает установку "
-"основных физических параметров, а затем добавление к ним случайности."
 
 msgid ""
 "Every particle system you create in Godot consists of two main parts: "
@@ -77,10 +46,6 @@ msgstr ""
 "Когда вы думаете о пожаре, вы можете представить себе все маленькие угольки, "
 "разлетающиеся от него, как отдельные частицы."
 
-#, fuzzy
-msgid "Emitters"
-msgstr "Джиттер"
-
 msgid ""
 "An emitter is what's creating the particles. Emitters are usually not "
 "visible, but they can have a shape. That shape controls where and how "
@@ -94,10 +59,6 @@ msgstr ""
 "например, должны ли они заполнять комнату, как пыль, или вылетать из одной "
 "точки, как фонтан. Возвращаясь к примеру с огнем, эмиттер - это тепло в "
 "центре огня, которое создает угли и пламя."
-
-#, fuzzy
-msgid "Node overview"
-msgstr "Свойства узла"
 
 msgid "A list of nodes related to 3D particles"
 msgstr "Список узлов, относящихся к 3D-частицам"
@@ -180,14 +141,6 @@ msgstr ""
 "хотите, чтобы частицы сталкивались с большими открытыми сценами, используйте "
 "ноду :ref:`class_GPUParticlesCollisionHeightField3D`. Он создает карту высот "
 "вашего мира и объектов в нем и использует ее для масштабных коллизий частиц."
-
-#, fuzzy
-msgid "Basic usage"
-msgstr "Основное использование"
-
-#, fuzzy
-msgid "Advanced topics"
-msgstr "Расширенный экспорт"
 
 msgid "Translation status"
 msgstr "Статус перевода"

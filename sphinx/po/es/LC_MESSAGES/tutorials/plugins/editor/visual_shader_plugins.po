@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,23 +45,9 @@ msgstr ""
 "com/curly-brace/Godot-3.0-Noise-Shaders/blob/master/assets/gpu_noise_shaders/"
 "classic_perlin3d.tres>`_."
 
-#, fuzzy
-msgid ""
-"Create a Sprite2D and assign a :ref:`class_ShaderMaterial` to its material "
-"slot:"
-msgstr ""
-"Crea un Sprite y asigna un: ref: `class_ShaderMaterial` a su espacio de "
-"material:"
-
 msgid "Assign :ref:`class_VisualShader` to the shader slot of the material:"
 msgstr ""
 "Asignar: ref: `class_VisualShader` a la ranura de sombreado del material:"
-
-#, fuzzy
-msgid ""
-"Don't forget to change its mode to \"CanvasItem\" (if you are using a "
-"Sprite2D):"
-msgstr "No olvide cambiar su modo a \"CanvasItem\" (si está usando un Sprite):"
 
 msgid ""
 "Create a script which derives from :ref:`class_VisualShaderNodeCustom`. This "
@@ -74,16 +55,6 @@ msgid ""
 msgstr ""
 "Cree un script que se derive de: ref: `class_VisualShaderNodeCustom`. Esto "
 "es todo lo que necesita para inicializar su complemento."
-
-#, fuzzy
-msgid ""
-"Save it and open the Visual Shader. You should see your new node type within "
-"the member's dialog under the Addons category (if you can't see your new "
-"node, try restarting the editor):"
-msgstr ""
-"Guárdalo y abre Visual Shader. Debería ver su nuevo tipo de nodo en el "
-"cuadro de diálogo del miembro (si no puede ver su nuevo nodo, intente "
-"reiniciar el editor):"
 
 msgid "Place it on a graph and connect the required ports:"
 msgstr "Colóquelo en un gráfico y conecte los puertos necesarios:"

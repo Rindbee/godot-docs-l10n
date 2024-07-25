@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,56 +22,19 @@ msgstr ""
 "啟動 Godot 後看到的第一個視窗就是專案管理員了。由於目前還沒有專案，所以會出現"
 "一個彈窗詢問是否開啟素材庫，這裡先點 [取消]，我們晚點再回來看。"
 
-msgid ""
-"To change the editors language click on the \"Settings\" Button in the top "
-"right corner."
-msgstr ""
-
-msgid ""
-"Then on the settings page seelct the language you want from the dropdown "
-"menu."
-msgstr ""
-
 msgid "Creating and importing projects"
 msgstr "建立新專案"
 
 msgid "To create a new project:"
 msgstr "建立新專案"
 
-#, fuzzy
-msgid "Click the **New** button on the top-left of the window."
-msgstr "按一下視窗右側的 ``新建專案`` 按鈕。"
-
 msgid ""
 "Give the project a name, choose an empty folder on your computer to save the "
 "files, and select a rendering backend."
 msgstr "為專案命名，在電腦上選擇一個空資料夾來保存檔，然後選擇算繪後端。"
 
-#, fuzzy
-msgid ""
-"Click the **Create & Edit** button to create the project folder and open it "
-"in the editor."
-msgstr "按一下“匯入並編輯”按鈕，這樣就會建立專案檔案夾並將其在編輯器中打開。"
-
 msgid "Using the file browser"
 msgstr "提供檔案"
-
-#, fuzzy
-msgid ""
-"Click the **Browse** button to open Godot's file browser and pick a location "
-"or type the folder's path in the Project Path field."
-msgstr ""
-"按一下“瀏覽”按鈕打開 Godot 的檔瀏覽器，然後選中某個位置，或者在 \\\\\\\\*專案"
-"路徑* \\\\\\\\欄位中輸入資料夾的路徑。"
-
-#, fuzzy
-msgid ""
-"When you see the green tick on the right, it means the engine detects an "
-"empty folder. You can also click the **Create Folder** button to create an "
-"empty folder based on your project's name."
-msgstr ""
-"當你看到右側的綠色勾號時，表示引擎偵測到一個空資料夾。 你還可以按一下 ``建立"
-"資料夾`` 按鈕以根據你的專案名稱建立一個空資料夾。"
 
 msgid "Opening and importing projects"
 msgstr "建立新專案"
@@ -87,15 +45,6 @@ msgid ""
 msgstr ""
 "下次打開專案管理器時，你將在列表中看到你的新專案。 按兩下它以在編輯器中將它打"
 "開。"
-
-#, fuzzy
-msgid ""
-"You can similarly import existing projects using the **Import** button. "
-"Locate the folder that contains the project or the **project.godot** file to "
-"import and edit it."
-msgstr ""
-"同樣地你可以使用*匯入*按鈕匯入現有專案。 找到包含專案或 ``project.godot`` 檔"
-"的資料夾以匯入並編輯它。"
 
 msgid "When the folder path is correct, you'll see a green checkmark."
 msgstr "當資料夾路徑正確時，你會看到一個綠色的對勾。"
@@ -111,20 +60,6 @@ msgstr ""
 "在**素材庫專案**分頁中，你可以從:ref:`素材庫 <doc_what_is_assetlib>`下載開源"
 "專案範本和演示程式，以便更快地開始。"
 
-msgid ""
-"The first time you open this tab you'll notice that it's asking you to go "
-"online. For privacy reasons the project manager, and Godot editor, can't "
-"access the internet by default. To enable accessing the internet click the "
-"\"Go Online\" button. This will also allow project manager to notify you "
-"about updates. If you wish to turn this off in the future go into project "
-"manager settings and change \"Network Mode\" to \"Offline\""
-msgstr ""
-
-msgid ""
-"Now that Godot is connected to the internet you can download a demo or "
-"template, to do this:"
-msgstr ""
-
 msgid "Click on its title."
 msgstr "點擊它的標題。"
 
@@ -135,36 +70,6 @@ msgid ""
 "Once it finished downloading, click install and choose where you want to "
 "save the project."
 msgstr "一旦下載完成，點擊\\\\\\\\*安裝*並選擇你想要保存專案的位置。"
-
-#, fuzzy
-msgid "Managing projects with tags"
-msgstr "使用專案設定"
-
-msgid ""
-"For users with a lot of projects on one PC it can be a lot to keep track of. "
-"To aid in this Godot allows you to create project tags. To add a tag to a "
-"project click on the project in the project manager, then click on the "
-"\"Manage Tags\" button"
-msgstr ""
-
-msgid ""
-"This will open up the manage project tags window. To add a tag click the "
-"plus button."
-msgstr ""
-
-msgid ""
-"type out the tag name, and click \"ok\". Your project will now have a tag "
-"added to it. These tags can be used for any other project in your project "
-"manager. In addition tags will stay with projects. So if you tag your "
-"project, send it to another machine and import it into the project manager "
-"you will see the tags you created."
-msgstr ""
-
-msgid ""
-"To remove a tag from your project manager it must be removed from all the "
-"projects it's used by. Once that's done close the project manager, open it "
-"up again, and the tag should be gone."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

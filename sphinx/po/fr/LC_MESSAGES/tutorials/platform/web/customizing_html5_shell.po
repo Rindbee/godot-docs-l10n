@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,14 +114,6 @@ msgstr ""
 "et pouvant être surchargé par la suite. Voir :js:attr:`EngineConfig` pour la "
 "liste complète des surcharges."
 
-#, fuzzy
-msgid ""
-"The following optional placeholders will enable some extra features in your "
-"custom HTML template."
-msgstr ""
-"Les paramètres facultatifs suivants permettent d'activer certaines fonctions "
-"supplémentaires dans votre modèle HTML personnalisé."
-
 msgid ""
 "``$GODOT_PROJECT_NAME``: The project name as defined in the Project "
 "Settings. It is a good idea to use it as a ``<title>`` in your template."
@@ -152,11 +139,6 @@ msgstr ""
 "Web."
 
 msgid ""
-"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
-"the Project Settings."
-msgstr ""
-
-msgid ""
 "When the custom page is ready, it can be selected in the export options "
 "under the *Html / Custom Html Shell* section."
 msgstr ""
@@ -165,19 +147,6 @@ msgstr ""
 
 msgid "Starting the project"
 msgstr "Démarrage du projet"
-
-#, fuzzy
-msgid ""
-"To be able to start the game, you need to write a script that initializes "
-"the engine — the control code. This process consists of three steps, but as "
-"shown here, most of them can be skipped depending on how much customization "
-"is needed."
-msgstr ""
-"Pour pouvoir démarrer le jeu, vous devez écrire un script qui initialise le "
-"moteur - le code de contrôle. Ce processus se compose de trois étapes, bien "
-"que, comme indiqué, la plupart d'entre elles peuvent être sautées en "
-"fonction du degré de personnalisation nécessaire (ou être laissées à un "
-"comportement par défaut)."
 
 msgid ""
 "See the :ref:`HTML5 shell class reference <doc_html5_shell_classref>`, for "
@@ -203,22 +172,6 @@ msgstr ""
 "`Engine` avec la configuration exportée, puis d'appeler la méthode :js:meth:"
 "`engine.startGame <Engine.prototype.startGame>` en surchargeant "
 "éventuellement les paramètres :js:attr:`EngineConfig`."
-
-#, fuzzy
-msgid ""
-"This snippet of code automatically loads and initializes the engine before "
-"starting the game. It uses the given configuration to load the engine. The :"
-"js:meth:`engine.startGame <Engine.prototype.startGame>` method is "
-"asynchronous and returns a ``Promise``. This allows your control code to "
-"track if the game was loaded correctly without blocking execution or relying "
-"on polling."
-msgstr ""
-"Ce bout de code charge et initialise automatiquement le moteur avant de "
-"lancer le jeu. Il utilise la configuration donnée pour charger le moteur. La "
-"méthode :js:meth:`engine.startGame <Engine.prototype.startGame>` est "
-"asynchrone et renvoie un ``Promise``. Cela permet à votre code de contrôle "
-"de savoir si le jeu a été chargé correctement sans bloquer l'exécution ou "
-"s'appuyer sur des sondages(polling)."
 
 msgid ""
 "In case your project needs to have special control over the start arguments "
@@ -403,14 +356,6 @@ msgstr ""
 "fonction de rappel pour le flux de sortie, et l'option de remplacement :js:"
 "attr:`onPrintError` pour définir une fonction de rappel pour le flux "
 "d'erreur."
-
-#, fuzzy
-msgid ""
-"When handling the engine output, keep in mind that it may not be desirable "
-"to print it out in the finished product."
-msgstr ""
-"Lorsque vous manipulez la sortie du moteur, n'oubliez pas qu'il n'est peut-"
-"être pas souhaitable de l'imprimer dans le produit fini."
 
 msgid "Translation status"
 msgstr "État de la traduction"

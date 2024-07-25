@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,17 +47,6 @@ msgstr ""
 "principiantes (que pueden no ser programadores profesionales de C++). La "
 "base de código de Godot es conocida por ser fácil de aprender, y queremos "
 "mantenerla de esa manera."
-
-#, fuzzy
-msgid ""
-"To get your pull request merged, it needs to follow the C++ usage guidelines "
-"outlined here. Of course, you can use features not allowed here in your own "
-"C++ modules or GDExtensions."
-msgstr ""
-"Para que tu solicitud de extracción (pull request) sea aceptada, debe seguir "
-"las directrices de uso de C++ que se describen aquí. Por supuesto, puedes "
-"utilizar características no permitidas aquí en tus propios módulos de C++ o "
-"scripts GDNative."
 
 msgid ""
 "Prior to Godot 4.0, the C++ standard used throughout the codebase was C++03, "

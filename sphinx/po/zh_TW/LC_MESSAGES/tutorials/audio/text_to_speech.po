@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,43 +21,11 @@ msgstr "基本用法"
 msgid "Basic usage of text-to-speech involves the following one-time steps:"
 msgstr "文字轉語音的基本用法涉及以下一次性步驟："
 
-#, fuzzy
-msgid "Enable TTS in the Godot editor for your project"
-msgstr "最佳化建置檔案大小"
-
 msgid "Query the system for a list of usable voices"
 msgstr "查詢系統以取得可用語音列表"
 
 msgid "Store the ID of the voice you want to use"
 msgstr "儲存您要使用的語音的 ID"
-
-msgid ""
-"By default, the Godot project-level setting for text-to-speech is disabled, "
-"to avoid unnecessary overhead. To enable it:"
-msgstr ""
-
-#, fuzzy
-msgid "Go to **Project > Project Settings**"
-msgstr "選擇 [專案] -> [專案設定] 來打開這個對話框。現在就試試吧。"
-
-#, fuzzy
-msgid "Make sure the **Advanced Settings** toggle is enabled"
-msgstr "Movie Maker 專案設定（啟用進階切換）"
-
-msgid "Click on **Audio > General**"
-msgstr ""
-
-msgid "Ensure the **Text to Speech** option is checked"
-msgstr ""
-
-msgid "Restart Godot if prompted to do so."
-msgstr ""
-
-msgid ""
-"Text-to-speech uses a specific voice. Depending on the user's system, they "
-"might have multiple voices installed. Once you have the voice ID, you can "
-"use it to speak some text:"
-msgstr ""
 
 msgid "Requirements for functionality"
 msgstr "變換函式"
@@ -85,17 +48,6 @@ msgstr ""
 "macOS 上，但並非所有 Linux 發行版上。如果它們不存在，文字轉語音功能將無法運"
 "作。具體來說，「tts_get_voices()」方法將傳回一個空列表，表示沒有可用的語音。"
 
-#, fuzzy
-msgid ""
-"Both Godot users on Linux and end-users on Linux running Godot games need to "
-"ensure that their system includes the system libraries for text-to-speech to "
-"work. Please consult the table below or your own distribution's "
-"documentation to determine what libraries you need to install."
-msgstr ""
-"Linux 上的 Godot 使用者和運作 Godot 遊戲的 Linux 終端使用者都需要確保他們的系"
-"統包含用於文字轉語音工作的系統庫。請參閱下表或您自己的發行版檔案來確定您需要"
-"安裝哪些程式庫。"
-
 msgid "Distro-specific one-liners"
 msgstr "用於各個發行版的單行安裝程式"
 
@@ -104,20 +56,6 @@ msgstr "**Arch Linux**"
 
 msgid "Troubleshooting"
 msgstr "疑難排解"
-
-msgid ""
-"If you get the error `Invalid get index '0' (on base: 'PackedStringArray').` "
-"for the line `var voice_id = voices[0]`, check if there are any items in "
-"`voices`. If not:"
-msgstr ""
-
-msgid "All users: make sure you enabled **Text to Speech** in project settings"
-msgstr ""
-
-msgid ""
-"Linux users: ensure you installed the system-specific libraries for text to "
-"speech"
-msgstr ""
 
 msgid "Best practices"
 msgstr "最佳實踐"

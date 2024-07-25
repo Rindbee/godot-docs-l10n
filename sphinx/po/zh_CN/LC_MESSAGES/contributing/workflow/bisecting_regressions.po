@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,37 +61,6 @@ msgstr ""
 "重现该错误. 这大大减少了可能需要从源构建和测试的提交范围. 你可以在 `此处 "
 "<https://downloads.tuxfamily.org/godotengine/>`__ 找到官方发行版的二进制文件"
 "以及alpha,beta和发行候选文件."
-
-msgid ""
-"If you have experience with Godot 3.x and can reproduce an issue with Godot "
-"4.0, we recommend trying to reproduce the issue in the latest Godot 3.x "
-"version (if the feature exhibiting the bug is present in 3.x). This can be "
-"used to check whether the issue is a regression in 4.0 or not."
-msgstr ""
-
-msgid ""
-"If the issue **is present** in 3.x, then you'll need to check whether the "
-"issue occurs in older 3.x versions as well."
-msgstr ""
-
-msgid ""
-"If the issue is **not present** in 3.x, then you can try older 4.0 alphas "
-"and betas to determine when the regression started."
-msgstr ""
-
-msgid ""
-"Project files may be incompatible between Godot versions. **Make a backup of "
-"your project** before starting the bisection process."
-msgstr ""
-
-msgid ""
-"Going from the oldest to the newest build generally reduces the risk of the "
-"project not being able to successfully open in the editor, thanks to "
-"backwards compatibility. Try to reduce your project to the smallest "
-"repeatable example too. The more minimal the project is, the more likely "
-"you'll be able to open it without compatibility issues in newer engine "
-"versions."
-msgstr ""
 
 msgid "The Git bisect command"
 msgstr "Git bisect 命令"
@@ -157,20 +121,8 @@ msgid ""
 "of the following commit hashes depending on the version:"
 msgstr "如果你使用稳定版本作为“好”或“坏”版本，请根据版本使用以下提交哈希之一："
 
-msgid ""
-"You can also use this Bash function to retrieve the Git commit hash of a pre-"
-"release build (add it to your ``$HOME/.bashrc`` or similar):"
-msgstr ""
-
 msgid "Example usage:"
 msgstr "示例用法："
-
-#, fuzzy
-msgid ""
-"To refer to the latest state of the master branch, you can use ``master`` "
-"instead of a commit hash. Note that unlike tagged releases or snapshot "
-"commit hashes, ``master`` is a perpetually moving target."
-msgstr "要引用 master 分支的最新状态，可以使用 ``master`` 代替提交哈希。"
 
 msgid "Build the engine"
 msgstr "构建引擎"
@@ -192,13 +144,6 @@ msgstr "运行引擎"
 msgid ""
 "Run the binary located in the ``bin/`` folder and try to reproduce the bug."
 msgstr "运行位于 ``bin/`` 文件夹中的二进制文件并尝试重现该错误。"
-
-msgid ""
-":ref:`Double-check the output file name "
-"<doc_introduction_to_the_buildsystem_resulting_binary>` in ``bin/`` to make "
-"sure you're actually running the binary you've just compiled. Different "
-"Godot versions will output binaries with different names."
-msgstr ""
 
 msgid "If the build **still** exhibits the bug, run the following command:"
 msgstr "如果构建\\ **仍然**\\ 显示错误，请运行以下命令："

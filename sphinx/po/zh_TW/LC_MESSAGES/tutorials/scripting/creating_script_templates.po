@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,14 +63,6 @@ msgstr "Linux：``$HOME/.local/share/godot/script_templates/``"
 msgid "macOS: ``$HOME/Library/Application Support/Godot/script_templates/``"
 msgstr "macOS：``$HOME/Library/Application Support/Godot/script_templates/``"
 
-msgid ""
-"If you're getting Godot from somewhere other than the official website, such "
-"as Steam, the folder might be in a different location. You can find it using "
-"the Godot editor. Go to ``Editor > Open Editor Data/Settings Folder`` and it "
-"will open a folder in your file browser, inside that folder is the "
-"``script_templates`` folder."
-msgstr ""
-
 msgid "Project-defined templates"
 msgstr "各專案定義的樣板"
 
@@ -108,14 +95,6 @@ msgid ""
 "``template_path`` is one of the 2 locations discussed in the previous two "
 "sections"
 msgstr "「template_path」 是前兩節討論的 2 個位置之一"
-
-msgid ""
-"``node_type`` is the node it will apply to (for example, :ref:`Node "
-"<class_Node>`, or :ref:`CharacterBody3D <class_CharacterBody3D>`), casing "
-"doesn't matter for the folder name, however adding a ``_`` to a name will "
-"not work, for example ``Mesh_Instance3D`` does not work. if a script isn't "
-"in the proper ``node_type`` folder it will not be detected."
-msgstr ""
 
 msgid ""
 "``file`` is the custom name you can chose for the template (for example: "
@@ -269,10 +248,6 @@ msgstr "新類別的名稱 (僅於 C# 中使用)。"
 
 msgid "``_CLASS_``"
 msgstr "``%CLASS%``"
-
-#, fuzzy
-msgid "The name of the new class."
-msgstr "新類別的名稱 (僅於 C# 中使用)。"
 
 msgid "``_BASE_``"
 msgstr "``%BASE%``"

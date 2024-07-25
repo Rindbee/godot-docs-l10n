@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,27 +71,6 @@ msgstr ""
 msgid "Simple approach"
 msgstr "簡單方法"
 
-#, fuzzy
-msgid ""
-"The first step is to, in our custom gizmo plugin, override the :ref:"
-"`_has_gizmo()<class_EditorNode3DGizmoPlugin_private_method__has_gizmo>` "
-"method so that it returns ``true`` when the node parameter is of our target "
-"type."
-msgstr ""
-"第一步，在我們的自訂小工具外掛程式中，重寫 :ref:"
-"`has_gizmo()<class_EditorSpatialGizmoPlugin_method_has_gizmo>` 方法，當空間參"
-"數為目標型別時，它將返回 ``true``。"
-
-#, fuzzy
-msgid ""
-"Then we can override methods like :ref:"
-"`_redraw()<class_EditorNode3DGizmoPlugin_private_method__redraw>` or all the "
-"handle related ones."
-msgstr ""
-"我們可以重寫譬如 :ref:"
-"`redraw()<class_EditorSpatialGizmoPlugin_method_redraw>` 的方法，或所有與控制"
-"碼相關的方法。"
-
 msgid ""
 "Note that we created a material in the `_init` method, and retrieved it in "
 "the `_redraw` method using :ref:"
@@ -134,17 +108,6 @@ msgstr ""
 "`EditorSpatialGizmo<class_EditorSpatialGizmo>` 實作，也許是因為我們想要在每個"
 "小工具中儲存一些狀態，或者正在移植一個舊的小工具外掛程式，而不想經歷重寫過"
 "程。"
-
-#, fuzzy
-msgid ""
-"In these cases all we need to do is, in our new gizmo plugin, override :ref:"
-"`_create_gizmo()<class_EditorNode3DGizmoPlugin_private_method__create_gizmo>`, "
-"so it returns our custom gizmo implementation for the Node3D nodes we want "
-"to target."
-msgstr ""
-"在這些情況下，我們需要做的就是在我們的新小工具外掛程式中覆蓋 :ref:"
-"`create_gizmo()<class_EditorSpatialGizmoPlugin_method_create_gizmo>`，讓它返"
-"回我們想要實作的目標 Spatial 節點的自訂小工具。"
 
 msgid ""
 "This way all the gizmo logic and drawing methods can be implemented in a new "

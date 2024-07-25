@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,27 +163,6 @@ msgstr ""
 msgid "InputMap"
 msgstr "InputMap"
 
-#, fuzzy
-msgid ""
-"The :ref:`InputMap <class_InputMap>` is the most flexible way to handle a "
-"variety of inputs. You use this by creating named input *actions*, to which "
-"you can assign any number of input events, such as keypresses or mouse "
-"clicks. To see them, and to add your own, open Project -> Project Settings "
-"and select the InputMap tab:"
-msgstr ""
-"La :ref:`InputMap <class_InputMap>` est la façon la plus flexible de gérer "
-"une variété d'entrées. Vous utilisez ceci en créant des *actions* d'entrée "
-"nommées, auxquelles vous pouvez attribuer un nombre quelconque d'événements "
-"d'entrée, tels que des pressions de touches ou des clics de souris. Un "
-"nouveau projet Godot comprend un certain nombre d'actions par défaut déjà "
-"définies. Pour les voir, et pour ajouter les vôtres, ouvrez Projet -> "
-"Paramètres du projet et sélectionnez l'onglet InputMap :"
-
-msgid ""
-"A new Godot project includes a number of default actions already defined. To "
-"see them, turn on ``Show Built-in Actions`` in the InputMap dialog."
-msgstr ""
-
 msgid "Capturing actions"
 msgstr "Capturer les actions"
 
@@ -215,14 +189,6 @@ msgstr ""
 "actions d'entrées, il peut y avoir des cas où vous voulez examiner "
 "spécifiquement des événements clavier. Pour cet exemple, vérifions la "
 "touche :kbd:`T` :"
-
-#, fuzzy
-msgid ""
-"See :ref:`@GlobalScope_Key <enum_@GlobalScope_Key>` for a list of keycode "
-"constants."
-msgstr ""
-"Voir :ref:`@GlobalScope_KeyList <enum_@GlobalScope_KeyList>` pour une liste "
-"des constantes du scancode."
 
 msgid ""
 "Due to *keyboard ghosting*, not all key inputs may be registered at a given "
@@ -287,25 +253,6 @@ msgstr ""
 msgid "Mouse buttons"
 msgstr "Boutons de la souris"
 
-#, fuzzy
-msgid ""
-"Capturing mouse buttons is very similar to handling key events. :ref:"
-"`@GlobalScope_MouseButton <enum_@GlobalScope_MouseButton>` contains a list "
-"of ``MOUSE_BUTTON_*`` constants for each possible button, which will be "
-"reported in the event's ``button_index`` property. Note that the scrollwheel "
-"also counts as a button - two buttons, to be precise, with both "
-"``MOUSE_BUTTON_WHEEL_UP`` and ``MOUSE_BUTTON_WHEEL_DOWN`` being separate "
-"events."
-msgstr ""
-"La capture des boutons de la souris est très similaire à la gestion des "
-"événements touches. :ref:`@GlobalScope_ButtonList "
-"<enum_@GlobalScope_ButtonList>` contient une liste de constantes "
-"``BUTTON_*`` pour chaque bouton possible, qui sera rapportée dans la "
-"propriété ``button_index`` de l'événement. Notez que la molette de "
-"défilement compte aussi comme un bouton - deux boutons, pour être précis, "
-"avec les deux ``BUTTON_WHEEL_UP`` et ``BUTTON_WHEEL_DOWN`` étant des "
-"événements séparés."
-
 msgid "Mouse motion"
 msgstr "Mouvement de la souris"
 
@@ -317,14 +264,6 @@ msgstr ""
 ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>` les événements se "
 "produisent à chaque fois que la souris bouge. Vous pouvez trouver la "
 "distance du mouvement avec la propriété ``relative``."
-
-#, fuzzy
-msgid ""
-"Here's an example using mouse events to drag-and-drop a :ref:`Sprite2D "
-"<class_Sprite2D>` node:"
-msgstr ""
-"Voici un exemple d'utilisation des événements de la souris pour glisser-"
-"déposer un nœud :ref:`Sprite <class_Sprite>` :"
 
 msgid "Touch events"
 msgstr "Événements tactiles"

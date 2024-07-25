@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,20 +63,6 @@ msgstr ""
 "ньому. Тепер, коли ми встановили кореневий вузол сцени, ми можемо додавати "
 "додаткові вузли, щоб додати більше функціоналу."
 
-#, fuzzy
-msgid ""
-"Before we add any children to the ``Player`` node, we want to make sure we "
-"don't accidentally move or resize them by clicking on them. Select the node "
-"and click the icon to the right of the lock. Its tooltip says \"Groups the "
-"selected node with its children. This causes the parent to be selected when "
-"any child node is clicked in 2D and 3D view.\""
-msgstr ""
-"Перш ніж додати будь-яких нащадків до вузла ``Player``, ми хочемо "
-"переконатися, що випадково їх не перемістимо, чи не змінимо розмір, "
-"натиснувши на них. Виберіть вузол і натисніть на значок праворуч від "
-"блокування; в підказці написано: \"Зробити дочірні вузли вибраного вузла "
-"недоступними для вибору.\""
-
 msgid ""
 "Save the scene. Click Scene -> Save, or press :kbd:`Ctrl + S` on Windows/"
 "Linux or :kbd:`Cmd + S` on macOS."
@@ -113,30 +94,6 @@ msgstr ""
 
 msgid "Sprite animation"
 msgstr "Анімація спрайта"
-
-#, fuzzy
-msgid ""
-"Click on the ``Player`` node and add (:kbd:`Ctrl + A` on Windows/Linux or :"
-"kbd:`Cmd + A` on macOS) a child node :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>`. The ``AnimatedSprite2D`` will handle the "
-"appearance and animations for our player. Notice that there is a warning "
-"symbol next to the node. An ``AnimatedSprite2D`` requires a :ref:"
-"`SpriteFrames <class_SpriteFrames>` resource, which is a list of the "
-"animations it can display. To create one, find the ``Sprite Frames`` "
-"property under the ``Animation`` tab in the Inspector and click \"[empty]\" -"
-"> \"New SpriteFrames\". Click on the ``SpriteFrames`` you just created to "
-"open the \"SpriteFrames\" panel:"
-msgstr ""
-"Натисніть на вузол ``Player`` і додайте (:kbd:`Ctrl + A` на Windows/Linux, "
-"або :kbd:`Cmd + A` на macOS) йому в нащадки вузол :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>` *(Анімація 2D спрайту)*. ``AnimatedSprite2D`` "
-"оброблятиме зовнішній вигляд і анімацію для нашого гравця. Зауважте, що "
-"поруч із вузлом є символ попередження. ``AnimatedSprite2D`` вимагає ресурсу :"
-"ref:`SpriteFrames <class_SpriteFrames>` *(кадри спрайту)*, який являє собою "
-"список кадрів, які він може відображати. Щоб створити його, знайдіть "
-"властивість ``Sprite Frames`` *(Кадри спрайту)* на вкладці ``Animation`` у "
-"Інспекторі та натисніть \"[порожній]\" -> \"Нові SpriteFrames\". Клацніть ще "
-"раз щоб відкрити панель \"SpriteFrames\" *(Кадри спрайту)*:"
 
 msgid ""
 "On the left is a list of animations. Click the \"default\" one and rename it "

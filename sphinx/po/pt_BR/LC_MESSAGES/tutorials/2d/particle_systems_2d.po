@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "2D particle systems"
-msgstr "Sistemas de Partículas"
-
 msgid "Intro"
 msgstr "Introdução"
-
-#, fuzzy
-msgid ""
-"Particle systems are used to simulate complex physical effects, such as "
-"sparks, fire, magic particles, smoke, mist, etc."
-msgstr ""
-"Um sistema de partículas simples (mas flexível o suficiente para a maioria "
-"dos usos) é fornecido. Os sistemas de partículas são usados para simular "
-"efeitos físicos complexos, como faíscas, fogo, partículas mágicas, fumaça, "
-"névoa, etc."
 
 msgid ""
 "The idea is that a \"particle\" is emitted at a fixed interval and with a "
@@ -53,151 +34,8 @@ msgstr ""
 msgid "Particle nodes"
 msgstr "Nós de partículas"
 
-#, fuzzy
-msgid ""
-"Godot provides two different nodes for 2D particles, :ref:"
-"`class_GPUParticles2D` and :ref:`class_CPUParticles2D`. GPUParticles2D is "
-"more advanced and uses the GPU to process particle effects. CPUParticles2D "
-"is a CPU-driven option with near-feature parity with GPUParticles2D, but "
-"lower performance when using large amounts of particles. On the other hand, "
-"CPUParticles2D may perform better on low-end systems or in GPU-bottlenecked "
-"situations."
-msgstr ""
-"Godot fornece dois nós diferentes para partículas 2D, :ref:"
-"`class_Particles2D` e :ref:`class_CPUParticles2D`. O Particles2D é mais "
-"avançado e usa a GPU para processar efeitos de partículas, mas isso o limita "
-"à API gráfica de alta potência e, em nosso caso, ao renderizador GLES3. Para "
-"projetos que usam o back-end GLES2, o CPUParticles2D é uma opção baseada em "
-"CPU com quase paridade de recursos com o Particles2D, mas com desempenho "
-"inferior. Enquanto Particles2D é configurado por meio de um :ref:"
-"`class_ParticlesMaterial` (e opcionalmente com um shader personalizado), as "
-"opções de correspondência são fornecidas por meio de propriedades de nó em "
-"CPUParticles2D (com exceção das configurações de trilha). Você pode "
-"converter um nó Particles2D em um nó CPUParticles2D clicando no nó no "
-"inspetor e selecionando \"Converter para CPUParticles2D\" no menu "
-"\"Particles\" da barra de ferramentas."
-
-msgid ""
-"While GPUParticles2D is configured via a :ref:"
-"`class_ParticleProcessMaterial` (and optionally with a custom shader), the "
-"matching options are provided via node properties in CPUParticles2D (with "
-"the exception of the trail settings)."
-msgstr ""
-
-msgid ""
-"You can convert a GPUParticles2D node into a CPUParticles2D node by clicking "
-"on the node in the inspector, selecting the 2D viewport, and selecting "
-"**GPUParticles2D > Convert to CPUParticles2D** in the viewport toolbar."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The rest of this tutorial is going to use the GPUParticles2D node. First, "
-"add a GPUParticles2D node to your scene. After creating that node you will "
-"notice that only a white dot was created, and that there is a warning icon "
-"next to your GPUParticles2D node in the scene dock. This is because the node "
-"needs a ParticleProcessMaterial to function."
-msgstr ""
-"O restante deste tutorial usará o nó Particles2D. Primeiro, adicione um nó "
-"Particles2D à sua cena. Depois de criar esse nó, você notará que apenas um "
-"ponto branco foi criado e que há um ícone de aviso ao lado do nó Particles2D "
-"no painel da cena. Isso ocorre porque o nó precisa de um ParticlesMaterial "
-"para funcionar."
-
-#, fuzzy
-msgid "ParticleProcessMaterial"
-msgstr "ParticlesMaterial"
-
-#, fuzzy
-msgid ""
-"To add a process material to your particles node, go to ``Process Material`` "
-"in your inspector panel. Click on the box next to ``Material``, and from the "
-"dropdown menu select ``New ParticleProcessMaterial``."
-msgstr ""
-"Para adicionar um material de processo ao seu nó de partículas, vá para "
-"``Process Material`` no painel do inspetor. Clique na caixa ao lado de "
-"``Material``, e no menu suspenso selecione ``New ParticlesMaterial``."
-
-#, fuzzy
-msgid "Your GPUParticles2D node should now be emitting white points downward."
-msgstr ""
-"Seu nó Particles2D agora deve estar emitindo pontos brancos para baixo."
-
 msgid "Texture"
 msgstr "Textura"
-
-msgid ""
-"A particle system can use a single texture or an animation *flipbook*. A "
-"flipbook is a texture that contains several frames of animation that can be "
-"played back, or chosen at random during emission. This is equivalent to a "
-"spritesheet for particles."
-msgstr ""
-
-msgid "The texture is set via the **Texture** property:"
-msgstr ""
-
-#, fuzzy
-msgid "Using an animation flipbook"
-msgstr "Usando AnimationTree"
-
-msgid ""
-"Particle flipbooks are suited to reproduce complex effects such as smoke, "
-"fire, explosions. They can also be used to introduce random texture "
-"variation, by making every particle use a different texture. You can find "
-"existing particle flipbook images online, or pre-render them using external "
-"tools such as `Blender <https://www.blender.org/>`__ or `EmberGen <https://"
-"jangafx.com/software/embergen/>`__."
-msgstr ""
-
-msgid "Example of a particle system that uses a flipbook texture"
-msgstr ""
-
-msgid ""
-"Using an animation flipbook requires additional configuration compared to a "
-"single texture. For demonstration purposes, we'll use this texture with 5 "
-"columns and 7 rows (right-click and choose **Save as…**):"
-msgstr ""
-
-#, fuzzy
-msgid "Particle flipbook texture example"
-msgstr "Exemplo de textura de flipbook de partículas"
-
-msgid ""
-"Credit: `JoesAlotofthings <https://opengameart.org/content/alot-of-particles-"
-"indispersal-special-effect-alotofparticles30>`__ (CC BY 4.0)"
-msgstr ""
-
-msgid ""
-"To use an animation flipbook, you must create a new CanvasItemMaterial in "
-"the Material section of the GPUParticles2D (or CPUParticles2D) node:"
-msgstr ""
-
-msgid ""
-"Creating a CanvasItemMaterial at the bottom of the particles node inspector"
-msgstr ""
-
-msgid ""
-"In this CanvasItemMaterial, enable **Particle Animation** and set **H "
-"Frames** and **V Frames** to the number of columns and rows present in your "
-"flipbook texture:"
-msgstr ""
-
-msgid "Configuring the CanvasItemMaterial for the example flipbook texture"
-msgstr ""
-
-msgid ""
-"Once this is done, the :ref:`Animation section "
-"<doc_particle_systems_2d_animation>` in ParticleProcessMaterial (for "
-"GPUParticles2D) or in the CPUParticles2D inspector will be effective."
-msgstr ""
-
-msgid ""
-"If your flipbook texture has a black background instead of a transparent "
-"background, you will also need to set the blend mode to **Add** instead of "
-"**Mix** for correct display. Alternatively, you can modify the texture to "
-"have a transparent background in an image editor. In `GIMP <https://gimp."
-"org>`__, this can be done using the **Color > Color to Alpha** menu."
-msgstr ""
 
 msgid "Time parameters"
 msgstr "Parâmetros de tempo"
@@ -220,14 +58,6 @@ msgstr "Tempo de vida: 4.0"
 
 msgid "One Shot"
 msgstr "Disparo Único"
-
-#, fuzzy
-msgid ""
-"When enabled, a GPUParticles2D node will emit all of its particles once and "
-"then never again."
-msgstr ""
-"Quando ativado, um nó Particles2D emitirá todas as suas partículas uma vez e "
-"nunca mais."
 
 msgid "Preprocess"
 msgstr "Pré processamento"
@@ -339,20 +169,6 @@ msgstr ""
 "Largura e sua Altura. As propriedades ``X`` e ``Y`` controlam a posição do "
 "canto superior esquerdo do retângulo, em relação ao emissor de partículas."
 
-#, fuzzy
-msgid ""
-"You can have Godot generate a Visibility Rect automatically using the "
-"toolbar above the 2d view. To do so, select the GPUParticles2D node and "
-"Click ``Particles > Generate Visibility Rect``. Godot will simulate the "
-"Particles2D node emitting particles for a few seconds and set the rectangle "
-"to fit the surface the particles take."
-msgstr ""
-"Você pode fazer com que Godot gere um Visibility Rect automaticamente usando "
-"a barra de ferramentas acima da visualização 2D. Para isso, selecione o nó "
-"Particles2D e clique em ``Particles > Generate Visibility Rect``. Godot "
-"simulará o nó Particles2D emitindo partículas por alguns segundos e definirá "
-"o retângulo para caber na superfície que as partículas assumem."
-
 msgid ""
 "You can control the emit duration with the ``Generation Time (sec)`` option. "
 "The maximum value is 25 seconds. If you need more time for your particles to "
@@ -396,10 +212,6 @@ msgstr ""
 "``Índice`` significa que as partículas são desenhadas de acordo com sua "
 "ordem de emissão (padrão). ``Lifetime`` significa que eles são desenhados em "
 "ordem de vida restante."
-
-#, fuzzy
-msgid "ParticleProcessMaterial settings"
-msgstr "Configurações de ParticlesMaterial"
 
 msgid "Direction"
 msgstr "Direção"
@@ -547,10 +359,6 @@ msgstr "Cor"
 msgid "Used to change the color of the particles being emitted."
 msgstr "Usado para alterar a cor das partículas que estão sendo emitidas."
 
-#, fuzzy
-msgid "Hue Variation"
-msgstr "Hue variation (Variaciação de tom)"
-
 msgid ""
 "The ``Variation`` value sets the initial hue variation applied to each "
 "particle. The ``Variation Random`` value controls the hue variation "
@@ -563,84 +371,8 @@ msgstr ""
 msgid "Animation"
 msgstr "Animação"
 
-msgid ""
-"Particle flipbook animation is only effective if the CanvasItemMaterial used "
-"on the GPUParticles2D or CPUParticles2D node has been :ref:`configured "
-"accordingly <doc_particle_systems_2d_using_flipbook>`."
-msgstr ""
-
-msgid ""
-"To set up the particle flipbook for linear playback, set the **Speed Min** "
-"and **Speed Max** values to 1:"
-msgstr ""
-
-msgid ""
-"Setting up particle animation for playback during the particle's lifetime"
-msgstr ""
-
-msgid ""
-"By default, looping is disabled. If the particle is done playing before its "
-"lifetime ends, the particle will keep using the flipbook's last frame (which "
-"may be fully transparent depending on how the flipbook texture is designed). "
-"If looping is enabled, the animation will loop back to the first frame and "
-"resume playing."
-msgstr ""
-
-msgid ""
-"Depending on how many images your sprite sheet contains and for how long "
-"your particle is alive, the animation might not look smooth. The "
-"relationship between particle lifetime, animation speed, and number of "
-"images in the sprite sheet is this:"
-msgstr ""
-
-msgid ""
-"At an animation speed of ``1.0``, the animation will reach the last image in "
-"the sequence just as the particle's lifetime ends."
-msgstr ""
-
-msgid ""
-"Animation\\ FPS = \\frac{Number\\ of\\ images}{Lifetime}\n"
-"\n"
-msgstr ""
-
-msgid ""
-"If you wish the particle flipbook to be used as a source of random particle "
-"textures for every particle, keep the speed values at 0 and set **Offset "
-"Max** to 1 instead:"
-msgstr ""
-
-msgid "Setting up particle animation for random offset on emission"
-msgstr ""
-
-msgid ""
-"Note that the GPUParticles2D node's **Fixed FPS** also affects animation "
-"playback. For smooth animation playback, it's recommended to set it to 0 so "
-"that the particle is simulated on every rendered frame. If this is not an "
-"option for your use case, set **Fixed FPS** to be equal to the effective "
-"framerate used by the flipbook animation (see above for the formula)."
-msgstr ""
-
 msgid "Emission Shapes"
 msgstr "Formas de Emissão"
-
-#, fuzzy
-msgid ""
-"ParticleProcessMaterials allow you to set an Emission Mask, which dictates "
-"the area and direction in which particles are emitted. These can be "
-"generated from textures in your project."
-msgstr ""
-"ParticlesMaterials permite definir uma máscara de emissão, que determina a "
-"área e a direção em que as partículas são emitidas. Estes podem ser gerados "
-"a partir de texturas em seu projeto."
-
-#, fuzzy
-msgid ""
-"Ensure that a ParticleProcessMaterial is set, and the GPUParticles2D node is "
-"selected. A \"Particles\" menu should appear in the Toolbar:"
-msgstr ""
-"Certifique-se de que um ParticlesMaterial esteja definido e o nó Particles2D "
-"esteja selecionado. Um menu \"Partículas\" deve aparecer na barra de "
-"ferramentas:"
 
 msgid "Open it and select \"Load Emission Mask\":"
 msgstr ""
@@ -691,14 +423,6 @@ msgid ""
 msgstr ""
 "``Capture from Pixel`` fará com que as partículas herdem a cor da máscara em "
 "seus pontos de geração."
-
-#, fuzzy
-msgid ""
-"Once you click \"OK\", the mask will be generated and set to the "
-"ParticleProcessMaterial, under the ``Emission Shape`` section:"
-msgstr ""
-"Depois de clicar em \"OK\", a máscara será gerada e definida para o "
-"ParticlesMaterial, na seção ``Emission Shape``:"
 
 msgid ""
 "All of the values within this section have been automatically generated by "

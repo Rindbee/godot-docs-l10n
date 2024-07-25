@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +14,6 @@ msgstr ""
 
 msgid "Coding the player"
 msgstr "Programování pohybu hráčem"
-
-msgid ""
-"In this lesson, we'll add player movement, animation, and set it up to "
-"detect collisions."
-msgstr ""
 
 msgid ""
 "To do so, we need to add some functionality that we can't get from a built-"
@@ -48,48 +38,10 @@ msgstr ""
 "Pokud vytváříte skript v C# nebo v jiném jazyku, vyberte požadovaný jazyk z "
 "rozbalovací nabídky `jazyk` před tím, než kliknete vytvořit."
 
-msgid ""
-"If this is your first time encountering GDScript, please read :ref:"
-"`doc_scripting` before continuing."
-msgstr ""
-
 msgid "Start by declaring the member variables this object will need:"
 msgstr ""
 "Začněte deklarováním členských proměnných, které bude tento objekt "
 "potřebovat:"
-
-#, fuzzy
-msgid ""
-"Using the ``export`` keyword on the first variable ``speed`` allows us to "
-"set its value in the Inspector. This can be handy for values that you want "
-"to be able to adjust just like a node's built-in properties. Click on the "
-"``Player`` node and you'll see the property now appears in the Inspector in "
-"a new section with the name of the script. Remember, if you change the value "
-"here, it will override the value written in the script."
-msgstr ""
-"Pomocí klíčového slova „export“ pro první proměnnou „speed“ nám umožní "
-"nastavit její hodnotu v Inspektoru. To může být šikovné pro hodnoty, které "
-"chcete upravovat stejně jako vlastnosti věstavěných uzlu. Klikněte na uzel "
-"``Player`` a uvidíte vlastnost, která se nyní bude objevovat v inspektoru v "
-"sekci \"Proměnné skriptu\". Pamatujte, že pokud zde změníte hodnotu, "
-"přepíšete tak hodnotu zapsanou ve skriptu."
-
-#, fuzzy
-msgid ""
-"If you're using C#, you need to (re)build the project assemblies whenever "
-"you want to see new export variables or signals. This build can be manually "
-"triggered by clicking the **Build** button at the top right of the editor."
-msgstr ""
-"Pokud používáte C#, musíte (znovu) sestavit projekt, kdykoli chcete vidět "
-"nově exportované proměnné nebo signály. Toto sestavení lze spustit ručně "
-"kliknutím na slovo „Mono“ v dolní části okna editoru, čímž se odhalí panel "
-"Mono, a poté kliknutím na tlačítko „Build Project“."
-
-msgid ""
-"Your ``player.gd`` script should already contain a ``_ready()`` and a "
-"``_process()`` function. If you didn't select the default template shown "
-"above, create these functions while following the lesson."
-msgstr ""
 
 msgid ""
 "The ``_ready()`` function is called when a node enters the scene tree, which "
@@ -132,49 +84,8 @@ msgstr ""
 "použijeme výchozí události, které jsou přiřazeny kurzorovým klávesám "
 "klávesnice."
 
-msgid ""
-"Click on *Project -> Project Settings* to open the project settings window "
-"and click on the *Input Map* tab at the top. Type \"move_right\" in the top "
-"bar and click the \"Add\" button to add the ``move_right`` action."
-msgstr ""
-
-msgid ""
-"We need to assign a key to this action. Click the \"+\" icon on the right, "
-"to open the event manager window."
-msgstr ""
-
-msgid ""
-"The \"Listening for Input...\" field should automatically be selected. Press "
-"the \"right\" key on your keyboard, and the menu should look like this now."
-msgstr ""
-
-msgid ""
-"Select the \"ok\" button. The \"right\" key is now associated with the "
-"``move_right`` action."
-msgstr ""
-
-msgid "Repeat these steps to add three more mappings:"
-msgstr ""
-
-msgid "``move_left`` mapped to the left arrow key."
-msgstr ""
-
-msgid "``move_up`` mapped to the up arrow key."
-msgstr ""
-
-msgid "And ``move_down`` mapped to the down arrow key."
-msgstr ""
-
 msgid "Your input map tab should look like this:"
 msgstr "Karta vstupní mapy by měla vypadat takto:"
-
-msgid "Click the \"Close\" button to close the project settings."
-msgstr ""
-
-msgid ""
-"We only mapped one key to each input action, but you can map multiple keys, "
-"joystick buttons, or mouse buttons to the same input action."
-msgstr ""
 
 msgid ""
 "You can detect whether a key is pressed using ``Input.is_action_pressed()``, "
@@ -218,34 +129,6 @@ msgstr ""
 "málé opáčko, používání vektorů v Godotu najdete na :ref:`doc_vector_math`. "
 "Je dobré vektory znát, ale po zbytek tohoto tutoriálu to nebude nutné."
 
-#, fuzzy
-msgid ""
-"We also check whether the player is moving so we can call ``play()`` or "
-"``stop()`` on the AnimatedSprite2D."
-msgstr ""
-"Také ověříme zda se hráč pohybuje, takže na můžeme volat metody ``play ()`` "
-"nebo ``stop ()`` uzlu AnimatedSprite."
-
-#, fuzzy
-msgid ""
-"``$`` is shorthand for ``get_node()``. So in the code above, "
-"``$AnimatedSprite2D.play()`` is the same as ``get_node(\"AnimatedSprite2D\")."
-"play()``."
-msgstr ""
-"``$`` je zkratka pro ``get_node()``. Takže ve výše uvedeném kódu je "
-"``$AnimatedSprite.play()`` stejný jako ``get_node(\"AnimatedSprite\")."
-"Play()``."
-
-#, fuzzy
-msgid ""
-"In GDScript, ``$`` returns the node at the relative path from the current "
-"node, or returns ``null`` if the node is not found. Since AnimatedSprite2D "
-"is a child of the current node, we can use ``$AnimatedSprite2D``."
-msgstr ""
-"V GDScript, ``$`` vrací relativní cestu uzlu vzhledem k uzlu aktuálnímu, "
-"anebo ``null``, pokud uzel nebyl nalezen. Protože AnimatedSprite je potomkem "
-"aktuálního uzlu, můžeme použít ``$AnimatedSprite``."
-
 msgid ""
 "Now that we have a movement direction, we can update the player's position. "
 "We can also use ``clamp()`` to prevent it from leaving the screen. "
@@ -268,14 +151,6 @@ msgstr ""
 "kterou předchozí snímek potřeboval k dokončení. Použitím této hodnoty "
 "zajistíte, že pohyb zůstane konzistentní, i když se změní snímková frekvence."
 
-#, fuzzy
-msgid ""
-"Click \"Run Current Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm "
-"you can move the player around the screen in all directions."
-msgstr ""
-"Klikněte na \"Přehrát scénu\" (:kbd:`F6`, :kbd:`Cmd + R` v systému MacOS) a "
-"ujistěte se, že můžete hráčem posunovat po obrazovce ve všech směrech."
-
 msgid "If you get an error in the \"Debugger\" panel that says"
 msgstr "Pokud se zobrazí následující chyba v panelu \"Debugger\""
 
@@ -285,35 +160,8 @@ msgid ""
 msgstr ""
 "``Pokus o volání funkce 'play' v základní 'null instance' na null instance``"
 
-#, fuzzy
-msgid ""
-"this likely means you spelled the name of the AnimatedSprite2D node wrong. "
-"Node names are case-sensitive and ``$NodeName`` must match the name you see "
-"in the scene tree."
-msgstr ""
-"to pravděpodobně znamená, že jste špatně zadali název uzlu AnimatedSprite. "
-"Názvy uzlů rozlišují velká a malá písmena a ``$NodeName`` musí odpovídat "
-"jménu, které vidíte ve stromu scény."
-
 msgid "Choosing animations"
 msgstr "Výběr animací"
-
-#, fuzzy
-msgid ""
-"Now that the player can move, we need to change which animation the "
-"AnimatedSprite2D is playing based on its direction. We have the \"walk\" "
-"animation, which shows the player walking to the right. This animation "
-"should be flipped horizontally using the ``flip_h`` property for left "
-"movement. We also have the \"up\" animation, which should be flipped "
-"vertically with ``flip_v`` for downward movement. Let's place this code at "
-"the end of the ``_process()`` function:"
-msgstr ""
-"Nyní, když se hráč může pohybovat, musíme změnit podle směru jeho pohybu "
-"animaci, kterou AnimatedSprite přehrává. Máme animaci „chůze“, která ukazuje "
-"pohyb hráče doprava, Tato animace by se měla vodorovně převrátit pomocí "
-"vlastnosti ``flip_h`` pro pohyb doleva. Máme také animaci \"nahoru\", která "
-"by měla být svisle převrácená s ``flip_v`` pro pohyb dolů. Umístíme tento "
-"kód na konec funkce ``_process()``:"
 
 msgid ""
 "The boolean assignments in the code above are a common shorthand for "
@@ -363,12 +211,6 @@ msgstr ""
 "*signály*."
 
 msgid ""
-"Add the following at the top of the script. If you're using GDScript, add it "
-"after ``extends Area2D``. If you're using C#, add it after ``public partial "
-"class Player : Area2D``:"
-msgstr ""
-
-msgid ""
 "This defines a custom signal called \"hit\" that we will have our player "
 "emit (send out) when it collides with an enemy. We will use ``Area2D`` to "
 "detect the collision. Select the ``Player`` node and click the \"Node\" tab "
@@ -378,46 +220,6 @@ msgstr ""
 "srážce s nepřítelem. K detekci kolize použijeme ``Area2D``. Vyberte uzel "
 "``Player`` a klikněte na záložku \"Uzel\" vedle záložky Inspektor, aby se "
 "zobrazil seznam signálů, které může hráč vyslat:"
-
-#, fuzzy
-msgid ""
-"Notice our custom \"hit\" signal is there as well! Since our enemies are "
-"going to be ``RigidBody2D`` nodes, we want the ``body_entered(body: "
-"Node2D)`` signal. This signal will be emitted when a body contacts the "
-"player. Click \"Connect..\" and the \"Connect a Signal\" window appears."
-msgstr ""
-"Všimněte si, že je k dispozici i náš vlastní signál \"hit\"! Protože naši "
-"nepřátelé budou uzly ``RigidBody2D``, chceme signál ``body_entered(body:"
-"Node)``. Tento signál bude vydán, když se body dotkne hráče. Klikněte na "
-"„Připojit ...“ a objeví se okno „Připojit signál“. Nemusíme měnit žádné z "
-"těchto nastavení, takže znovu klikněte na Připojit. Godot automaticky "
-"vytvoří funkci ve skriptu vašeho hráče."
-
-msgid ""
-"Godot will create a function with that exact name directly in script for "
-"you. You don't need to change the default settings right now."
-msgstr ""
-
-msgid ""
-"If you're using an external text editor (for example, Visual Studio Code), a "
-"bug currently prevents Godot from doing so. You'll be sent to your external "
-"editor, but the new function won't be there."
-msgstr ""
-
-msgid ""
-"In this case, you'll need to write the function yourself into the Player's "
-"script file."
-msgstr ""
-
-msgid ""
-"Note the green icon indicating that a signal is connected to this function; "
-"this does not mean the function exists, only that the signal will attempt to "
-"connect to a function with that name, so double-check that the spelling of "
-"the function matches exactly!"
-msgstr ""
-
-msgid "Next, add this code to the function:"
-msgstr ""
 
 msgid ""
 "Each time an enemy hits the player, the signal is going to be emitted. We "
@@ -442,9 +244,6 @@ msgid ""
 msgstr ""
 "Posledním kusem je přidání funkce, kterou můžeme nazvat resetem hráče při "
 "spuštění nové hry."
-
-msgid "With the player working, we'll work on the enemy in the next lesson."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stav překladu"

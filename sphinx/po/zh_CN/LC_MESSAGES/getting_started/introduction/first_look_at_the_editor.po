@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,29 +48,31 @@ msgid ""
 "want to change your network mode back to \"offline\" you can do so from the "
 "project manager settings."
 msgstr ""
+"在窗口顶部，有另一个名为“资源库项目”的页签。当你第一次进入该页签时，会有一"
+"个“上线”按钮。出于隐私原因，Godot项目管理器默认不会访问网络。若要更改此设置，"
+"请点击“上线”按钮。如果你想修改将网络模式改回“离线”，可以在项目管理器中进行设"
+"置。"
 
-#, fuzzy
 msgid ""
 "Once your network mode is set to \"online\" you can search for demo projects "
 "in the open source asset library, which includes many projects developed by "
 "the community."
 msgstr ""
-"窗口顶部还有另一个名为“资产库项目”的选项卡。你可以在开源资产库中搜索演示项"
-"目，其中包括了许多社区开发的项目。"
+"一旦你的网络模式被设置成“上线”，你就可以在开源资产库中搜索演示项目，其中包括"
+"了许多社区开发的项目。"
 
 msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr "要进一步了解项目管理器，请阅读 :ref:`doc_project_manager` 。"
 
-#, fuzzy
 msgid ""
 "You can also change the editor's language by going into the settings menu."
-msgstr "可以在编辑器设置中关闭安全行或更改其颜色。"
+msgstr "你也可以在设置菜单里更改编辑器的语言。"
 
 msgid ""
 "From here use the language drop down menu to select your language. By "
 "default, it is in English (EN)."
-msgstr ""
+msgstr "在这里使用下拉菜单来选择你的语言。默认情况下，其以英文显示。"
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -194,7 +191,6 @@ msgid ""
 "signal by any one of the following methods:"
 msgstr "要搜索类、方法、属性、常量、信号相关的信息，可以使用以下任意方法："
 
-#, fuzzy
 msgid ""
 "Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
 "laptops with a :kbd:`fn` key) anywhere in the editor."
@@ -209,11 +205,6 @@ msgstr "点击 Script 主屏幕右上角的“搜索帮助”按钮。"
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "点击“帮助”菜单的“搜索帮助”。"
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr "在脚本编辑器中，按住 :kbd:`Ctrl` 键点击类名、函数名、内置变量。"
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

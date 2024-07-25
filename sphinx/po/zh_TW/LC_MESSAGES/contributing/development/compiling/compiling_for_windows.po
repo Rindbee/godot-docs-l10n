@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,18 +29,6 @@ msgstr "系統需求"
 msgid "For compiling under Windows, the following is required:"
 msgstr "若要在 Windows 下進行編譯，需要滿足下列條件："
 
-#, fuzzy
-msgid ""
-"`Visual Studio Community <https://www.visualstudio.com/vs/community/>`_, "
-"version 2019 or later. Visual Studio 2022 is recommended. **Make sure to "
-"enable C++ in the list of workflows to install.** If you've already "
-"installed Visual Studio without C++ support, run the installer again; it "
-"should present you a **Modify** button."
-msgstr ""
-"`Visual Studio Community <https://www.visualstudio.com/vs/community/>`_ 2017 "
-"版或更新版本。建議使用 VS 2019。 **請務必閱讀下方的「Visual Studio 安裝須"
-"知」，否則會需要重新執行或下載安裝程式。**"
-
 msgid ""
 "`MinGW-w64 <https://mingw-w64.org/>`_ with GCC can be used as an alternative "
 "to Visual Studio. Be sure to install/configure it to use the ``posix`` "
@@ -61,15 +44,6 @@ msgid ""
 msgstr ""
 "`Python 3.5+ <https://www.python.org/downloads/windows/>`_。**請確保在安裝程"
 "式中勾選將 Python 新增到 ``PATH`` 的選項。**"
-
-#, fuzzy
-msgid ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system. Using "
-"the latest release is recommended, especially for proper support of recent "
-"Visual Studio releases."
-msgstr ""
-"`SCons <https://www.scons.org/>`_ 建構系統。推薦使用最新版本，尤其是為了支援"
-"最近的 Visual Studio 版本。"
 
 msgid ""
 "If you have `Scoop <https://scoop.sh/>`_ installed, you can easily install "
@@ -165,19 +139,6 @@ msgstr ""
 "為了防止編譯過程中由於連續病毒掃描而導致的速度減慢，請將 Godot 原始檔案夾新增"
 "到殺毒軟體中的例外列表中。"
 
-#, fuzzy
-msgid ""
-"For Windows Defender, hit the :kbd:`Windows` key, type \"Windows Security\" "
-"then hit :kbd:`Enter`. Click on **Virus & threat protection** on the left "
-"panel. Under **Virus & threat protection settings** click on **Manage "
-"Settings** and scroll down to **Exclusions**. Click **Add or remove "
-"exclusions** then add the Godot source folder."
-msgstr ""
-"對於 Windows Defender，請按 :kbd:`Windows` 鍵，輸入“Windows Defender "
-"Settings”然後按 :kbd:`Enter`。在 **病毒和威脅防護** 下，進入**病毒和威脅防護"
-"設定**，並向下滾動至**排除項**。按一下**新增或刪除排除項**，然後新增 Godot 原"
-"始檔案夾。"
-
 msgid "Compiling"
 msgstr "編譯"
 
@@ -196,36 +157,8 @@ msgstr ""
 "則 SCons 會試著使用 MinGW 來代替。若有安裝 Visual Studio，但想使用 MinGW 的"
 "話，可以在命令行中將 ``use_mingw=yes`` 傳給 SCons。"
 
-#, fuzzy
-msgid ""
-"During development, using the Visual Studio compiler is usually a better "
-"idea, as it links the Godot binary much faster than MinGW. However, MinGW "
-"can produce more optimized binaries using link-time optimization (see "
-"below), making it a better choice for production use. This is particularly "
-"the case for the GDScript VM which performs much better with MinGW compared "
-"to MSVC. Therefore, it's recommended to use MinGW to produce builds that you "
-"distribute to players."
-msgstr ""
-"在開發時，最好選擇使用 Visual Studio 編譯器，因為 Visual Studio 編譯器連結到 "
-"Godot 二進位檔的速度比 MinGW 快多了。但，MinGW 通過使用連結時期最佳化 (詳見下"
-"方)，能產生更加最佳化的二進位檔，因此對於正式使用，MinGW 比起 Visual Studio "
-"編譯器來得更好。"
-
-msgid ""
-"All official Godot binaries are built in `custom containers <https://github."
-"com/godotengine/build-containers>`__ using MinGW."
-msgstr ""
-
 msgid "Running SCons"
 msgstr "執行 SCons"
-
-#, fuzzy
-msgid ""
-"After opening a command prompt, change to the root directory of the engine "
-"source code (using ``cd``) and type:"
-msgstr ""
-"開啟命令提示字元後，請 (使用 ``cd``) 將目錄更改至 Godot 原始碼的根目錄，然後"
-"輸入："
 
 msgid ""
 "When compiling with multiple CPU threads, SCons may warn about pywin32 being "
@@ -234,41 +167,12 @@ msgstr ""
 "當使用多個 CPU 執行緒進行編譯，SCons 可能會提示缺少 pywin32。可以安心地忽略這"
 "個警告。"
 
-#, fuzzy
-msgid ""
-"If all goes well, the resulting binary executable will be placed in ``C:"
-"\\godot\\bin\\`` with the name ``godot.windows.editor.x86_32.exe`` or "
-"``godot.windows.editor.x86_64.exe``. By default, SCons will build a binary "
-"matching your CPU architecture, but this can be overridden using "
-"``arch=x86_64`` or ``arch=x86_32``."
-msgstr ""
-"若沒出現什麼問題的話，最後產生的二進位可執行檔會放置於 ``C:\\godot\\bin\\`` "
-"中，檔名為 ``godot.windows.tools.32.exe`` 或 ``godot.windows.tools.64."
-"exe`` 。預設情況下，SCons 會使用與你的 CPU 相同的架構來建置二進位檔，但可以通"
-"過 ``bits=64`` 或 ``bits=32`` 選項來複寫此一自動偵測。"
-
 msgid ""
 "This executable file contains the whole engine and runs without any "
 "dependencies. Running it will bring up the Project Manager."
 msgstr ""
 "該執行檔包含了完整的 Godot 遊戲引擎，並且不需任何相依性套件即可執行。執行這個"
 "檔案會開啟專案管理員。"
-
-#, fuzzy
-msgid ""
-"If you are compiling Godot for production use, you can make the final "
-"executable smaller and faster by adding the SCons option ``production=yes``. "
-"This enables additional compiler optimizations and link-time optimization."
-msgstr ""
-"若是要為正式環境編譯 Godot，則可以通過加上 ``target=release_debug`` SCons 選"
-"項來讓最終產生的可執行檔更小且更快速。"
-
-msgid ""
-"LTO takes some time to run and requires about 7 GB of available RAM while "
-"compiling. If you're running out of memory with the above option, use "
-"``production=yes lto=none`` or ``production=yes lto=thin`` for a lightweight "
-"but less effective form of LTO."
-msgstr ""
 
 msgid ""
 "If you want to use separate editor settings for your own Godot builds and "
@@ -278,188 +182,6 @@ msgstr ""
 "若想在客製化建置上使用與 Godot 官方釋出版本不同的編輯器設定，可以通過在 "
 "``bin/`` 資料夾中建立檔名為 ``._sc_`` 或 ``_sc_`` 的檔案來開啟 :ref:"
 "`doc_data_paths_self_contained_mode` 。"
-
-msgid "Compiling with support for Direct3D 12"
-msgstr ""
-
-msgid ""
-"By default, builds of Godot do not contain support for the Direct3D 12 "
-"graphics API."
-msgstr ""
-
-msgid ""
-"To compile Godot with Direct3D 12 support you need at least the following:"
-msgstr ""
-
-msgid ""
-"`The DirectX Shader Compiler <https://github.com/Microsoft/"
-"DirectXShaderCompiler/releases>`_. The zip folder will be named \"dxc\\_\" "
-"followed by the date of release. Download it anywhere, unzip it and remember "
-"the path to the unzipped folder, you will need it below."
-msgstr ""
-
-msgid ""
-"`godot-nir-static library <https://github.com/godotengine/godot-nir-static/"
-"releases/>`_. We compile the Mesa libraries you will need into a static "
-"library. Download it anywhere, unzip it and remember the path to the "
-"unzipped folder, you will need it below."
-msgstr ""
-
-msgid ""
-"You can optionally build the godot-nir-static libraries yourself with the "
-"following steps:"
-msgstr ""
-
-msgid ""
-"Install the Python package `mako <https://www.makotemplates.org>`_ which is "
-"needed to generate some files."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Clone the `godot-nir-static <https://github.com/godotengine/godot-nir-"
-"static>`_ directory and navigate to it."
-msgstr ""
-"在這份文件之外，你可能也會想看看 `Godot 的 demo 專案 <https://github.com/"
-"godotengine/godot-demo-projects>`_。"
-
-#, fuzzy
-msgid "Run the following::"
-msgstr "請注意下列事項："
-
-msgid ""
-"If you are building with MinGW, add ``use_mingw=yes`` to the ``scons`` "
-"command, you can also specify build architecture using ``arch={architecture}"
-"``."
-msgstr ""
-
-msgid ""
-"Mesa static library should be built using the same compiler you are using "
-"for building Godot."
-msgstr ""
-
-msgid "Optionally, you can compile with the following for additional features:"
-msgstr ""
-
-msgid ""
-"`PIX <https://devblogs.microsoft.com/pix/download>`_ is a performance tuning "
-"and debugging application for Direct3D12 applications. If you compile-in "
-"support for it, you can get much more detailed information through PIX that "
-"will help you optimize your game and troubleshoot graphics bugs. To use it, "
-"download the WinPixEventRuntime package. You will be taken to a NuGet "
-"package page where you can click \"Download package\" to get it. Once "
-"downloaded, change the file extension to .zip and unzip the file to some "
-"path."
-msgstr ""
-
-msgid ""
-"`Agility SDK <https://devblogs.microsoft.com/directx/directx12agility>`_ can "
-"be used to provide access to the latest Direct3D 12 features without relying "
-"on driver updates. To use it, download the latest Agility SDK package. You "
-"will be taken to a NuGet package page where you can click \"Download "
-"package\" to get it. Once downloaded, change the file extension to .zip and "
-"unzip the file to some path."
-msgstr ""
-
-msgid ""
-"If you use a preview version of the Agility SDK, remember to enable "
-"developer mode in Windows; otherwise it won't be used."
-msgstr ""
-
-msgid ""
-"If you want to use a PIX with MinGW build, navigate to PIX runtime directory "
-"and use the following commands to generate import library::"
-msgstr ""
-
-msgid ""
-"When building Godot, you will need to tell SCons to use Direct3D 12 and "
-"where to look for the additional libraries:"
-msgstr ""
-
-msgid "Or, with all options enabled:"
-msgstr ""
-
-msgid ""
-"The build process will copy ``dxil.dll`` from the ``bin/<arch>/`` directory "
-"in the DXC folder to the Godot binary directory and the appropriate ``bin/"
-"<arch>`` file in the Godot binary directory. Direct3D 12-enabled Godot "
-"packages for distribution to end users must include the ``dxil.dll`` (and "
-"relevant folders if using multi-arch), both for the editor and games. At "
-"runtime, the renderer will try to load the DLL from the arch-specific "
-"folders, and will fall back to the same directory as the Godot executable if "
-"the appropriate arch isn't found."
-msgstr ""
-
-msgid ""
-"For the Agility SDK's DLLs you have to explicitly choose the kind of "
-"workflow. Single-arch is the default (DLLs copied to ``bin/``). If you pass "
-"``agility_sdk_multi_arch=yes`` to SCons, you'll opt-in for multi-arch. DLLs "
-"will be copied to the appropriate ``bin/<arch>/`` subdirectories and at "
-"runtime the right one will be loaded."
-msgstr ""
-
-#, fuzzy
-msgid "Compiling with ANGLE support"
-msgstr "通過 Mono 進行編譯"
-
-msgid ""
-"ANGLE provides a translation layer from OpenGL ES 3.x to Direct3D 11 and can "
-"be used to improve support for the Compatibility renderer on some older GPUs "
-"with outdated OpenGL drivers and on Windows for ARM."
-msgstr ""
-
-msgid ""
-"By default, Godot is built with dynamically linked ANGLE, you can use it by "
-"placing ``libEGL.dll`` and ``libGLESv2.dll`` alongside the executable."
-msgstr ""
-
-msgid ""
-"You can use dynamically linked ANGLE with export templates as well, rename "
-"aforementioned DLLs to ``libEGL.{architecture}.dll`` and ``libGLESv2."
-"{architecture}.dll`` and place them alongside export template executables, "
-"and libraries will be automatically copied during the export process."
-msgstr ""
-
-msgid "To compile Godot with statically linked ANGLE:"
-msgstr ""
-
-msgid ""
-"Download pre-built static libraries from `godot-angle-static library "
-"<https://github.com/godotengine/godot-angle-static/releases>`_, and unzip "
-"them."
-msgstr ""
-
-msgid ""
-"When building Godot, add ``angle_libs={path}`` to tell SCons where to look "
-"for the ANGLE libraries::"
-msgstr ""
-
-msgid ""
-"You can optionally build the godot-angle-static libraries yourself with the "
-"following steps:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Clone the `godot-angle-static <https://github.com/godotengine/godot-angle-"
-"static>`_ directory and navigate to it."
-msgstr ""
-"在這份文件之外，你可能也會想看看 `Godot 的 demo 專案 <https://github.com/"
-"godotengine/godot-demo-projects>`_。"
-
-#, fuzzy
-msgid "Run the following command::"
-msgstr "在下方範例中："
-
-msgid ""
-"If you are buildng with MinGW, add ``use_mingw=yes`` to the command, you can "
-"also specify build architecture using ``arch={architecture}``."
-msgstr ""
-
-msgid ""
-"ANGLE static library should be built using the same compiler you are using "
-"for building Godot."
-msgstr ""
 
 msgid "Development in Visual Studio"
 msgstr "使用 Visual Studio 或其他 IDE 來進行開發"
@@ -501,16 +223,6 @@ msgstr "SCons 3.0+ (詳情請參考 :ref:`doc_compiling_for_windows`)。"
 msgid "Cross-compiling for Windows from other operating systems"
 msgstr "從其他作業系統上為 Windows 進行交叉編譯"
 
-msgid ""
-"If you are a Linux or macOS user, you need to install `MinGW-w64 <https://"
-"mingw-w64.org/doku.php>`__, which typically comes in 32-bit and 64-bit "
-"variants. The package names may differ based on your distribution, here are "
-"some known ones:"
-msgstr ""
-"若你使用 Linux 或 macOS，則需要安裝 `MinGW-w64 <https://mingw-w64.org/doku."
-"php>`__ 。MinGW-w64 通常會有 32 位元與 64 位元的版本。依據發行版不同，可能會"
-"有不同的套件名稱。下列為一些已知的套件名稱："
-
 msgid "**Arch Linux**"
 msgstr "**Arch Linux**"
 
@@ -531,21 +243,6 @@ msgid ""
 "binaries in your ``PATH`` environment variable::"
 msgstr "在嘗試編譯前，SCons 會在 ``PATH`` 環境變數中檢查下列二進位檔："
 
-#, fuzzy
-msgid ""
-"If the binaries are not located in the ``PATH`` (e.g. ``/usr/bin``), you can "
-"define the following environment variable to give a hint to the build "
-"system::"
-msgstr ""
-"若這些二進位檔沒有放在 ``PATH`` 中 (如 ``/usr/bin``) ，則必須定義下列變數來讓"
-"建置系統找到："
-
-msgid ""
-"Where ``/path/to/mingw`` is the path containing the ``bin`` directory where "
-"``i686-w64-mingw32-gcc`` and ``x86_64-w64-mingw32-gcc`` are located (e.g. ``/"
-"opt/mingw-w64`` if the binaries are located in ``/opt/mingw-w64/bin``)."
-msgstr ""
-
 msgid ""
 "To make sure you are doing things correctly, executing the following in the "
 "shell should result in a working compiler (the version output may differ "
@@ -553,13 +250,6 @@ msgid ""
 msgstr ""
 "若要確定是否有正確設定，可以通過在 Shell 中執行下列指令來確認是否有可使用的編"
 "譯器 (輸出的版本可能會依據不同系統而有所不同)："
-
-msgid ""
-"When cross-compiling for Windows using MinGW-w64, keep in mind only "
-"``x86_64`` and ``x86_32`` architectures are supported. Be sure to specify "
-"the right ``arch=`` option when invoking SCons if building from a different "
-"architecture."
-msgstr ""
 
 msgid "Troubleshooting"
 msgstr "疑難排解"
@@ -582,22 +272,6 @@ msgstr "32 位元："
 
 msgid "Creating Windows export templates"
 msgstr "建立 Windows 匯出樣板"
-
-#, fuzzy
-msgid ""
-"Windows export templates are created by compiling Godot without the editor, "
-"with the following flags:"
-msgstr ""
-"可以通過編譯不含編輯器的 Godot 來建立 Windows 匯出樣板。請使用下列旗標："
-
-#, fuzzy
-msgid ""
-"If you plan on replacing the standard export templates, copy these to the "
-"following location, replacing ``<version>`` with the version identifier "
-"(such as ``4.2.1.stable`` or ``4.3.dev``):"
-msgstr ""
-"若之後有準備要取代標準匯出樣板，請將這些檔案複製到下列位置。請將其中的 "
-"``<version>`` 改為版本識別項 (如 ``3.1.1.stable`` 或 ``3.2.dev``)："
 
 msgid "With the following names::"
 msgstr "並改為下列名稱："

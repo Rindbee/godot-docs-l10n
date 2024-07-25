@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,37 +169,11 @@ msgstr ""
 "`mazette! games <https://mazette.games/>`_ 提供 Switch、Xbox One、Xbox "
 "Series X/S 的 Godot 遊戲的移植和發行。"
 
-#, fuzzy
-msgid ""
-"`Olde Sküül <https://oldeskuul.com/>`_ offers Switch, Xbox One, Playstation "
-"4 & Playstation 5 porting and publishing of Godot games."
-msgstr ""
-"`mazette! games <https://mazette.games/>`_ 提供 Switch、Xbox One、Xbox "
-"Series X/S 的 Godot 遊戲的移植和發行。"
-
 msgid ""
 "`Tuanisapps <https://www.tuanisapps.com/>`_ offers Switch porting and "
 "publishing of Godot games."
 msgstr ""
 "`RAWRLAB games <https://www.rawrlab.com/>`_ 提供 Switch 的 Godot 遊戲的移植。"
-
-#, fuzzy
-msgid ""
-"`Seaven Studio <https://www.seaven-studio.com/>`_ offers Switch, Xbox One, "
-"Xbox Series, PlayStation 4 & PlayStation 5 porting of Godot games."
-msgstr ""
-"`mazette! games <https://mazette.games/>`_ 提供 Switch、Xbox One、Xbox "
-"Series X/S 的 Godot 遊戲的移植和發行。"
-
-#, fuzzy
-msgid ""
-"If your company offers porting, or porting *and* publishing services for "
-"Godot games, feel free to `contact the Godot Foundation <https://godot."
-"foundation/#contact>`_ to add your company to the list above."
-msgstr ""
-"如果您的公司為 Godot 遊戲提供移植*和*發行服務，可以隨時`提交 issue 或 pull "
-"request <https://github.com/godotengine/godot-docs>`_ 將您的公司新增到上面的"
-"列表中。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

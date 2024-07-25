@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,10 +78,6 @@ msgstr "Abrir Editor 2D"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
-#, fuzzy
-msgid ":kbd:`Opt + 1`"
-msgstr ":kbd:`Alt + 1`"
-
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -95,10 +86,6 @@ msgstr "Abrir Editor 3D"
 
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
-
-#, fuzzy
-msgid ":kbd:`Opt + 2`"
-msgstr ":kbd:`Alt + 2`"
 
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
@@ -109,10 +96,6 @@ msgstr "Abrir Editor de Script"
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
 
-#, fuzzy
-msgid ":kbd:`Opt + 3`"
-msgstr ":kbd:`Alt + 3`"
-
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
 
@@ -121,10 +104,6 @@ msgstr "Buscar en la Ayuda"
 
 msgid ":kbd:`F1`"
 msgstr ":kbd:`F1`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Space`"
-msgstr ":kbd:`Alt + Space`"
 
 msgid "``editor/editor_help``"
 msgstr "``editor/editor_help``"
@@ -170,10 +149,6 @@ msgstr "Filtrar archivos"
 
 msgid ":kbd:`Ctrl + Alt + P`"
 msgstr ":kbd:`Ctrl + Alt + P`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + P`"
-msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``editor/filter_files``"
 msgstr "``editor/filter_files``"
@@ -244,10 +219,6 @@ msgstr "Guardar Todas las Escenas"
 msgid ":kbd:`Ctrl + Shift + Alt + S`"
 msgstr ":kbd:`Ctrl + Shift + Alt + S`"
 
-#, fuzzy
-msgid ":kbd:`Cmd + Shift + Opt + S`"
-msgstr ":kbd:`Cmd + Shift + Alt + S`"
-
 msgid "``editor/save_all_scenes``"
 msgstr "``editor/save_all_scenes``"
 
@@ -255,10 +226,6 @@ msgid "Quick Open"
 msgstr "Apertura rápida"
 
 msgid ":kbd:`Shift + Alt + O`"
-msgstr ":kbd:`Shift + Alt + O`"
-
-#, fuzzy
-msgid ":kbd:`Shift + Opt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
 
 msgid "``editor/quick_open``"
@@ -281,10 +248,6 @@ msgstr "Apertura rápida de Script"
 
 msgid ":kbd:`Ctrl + Alt + O`"
 msgstr ":kbd:`Ctrl + Alt + O`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + O`"
-msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``editor/quick_open_script``"
 msgstr "``editor/quick_open_script``"
@@ -330,10 +293,6 @@ msgstr "Salir al Listado de Proyectos"
 
 msgid ":kbd:`Ctrl + Shift + Q`"
 msgstr ":kbd:`Ctrl + Shift + Q`"
-
-#, fuzzy
-msgid ":kbd:`Shift + Opt + Q`"
-msgstr ":kbd:`Shift + Alt + Q`"
 
 msgid "``editor/quit_to_project_list``"
 msgstr "``editor/quit_to_project_list``"
@@ -725,10 +684,6 @@ msgstr "Modificador de Velocidad de Vista Libre"
 msgid ":kbd:`Alt`"
 msgstr ":kbd:`Alt`"
 
-#, fuzzy
-msgid ":kbd:`Opt`"
-msgstr ":kbd:`O`"
-
 msgid "``spatial_editor/freelook_slow_modifier``"
 msgstr "``spatial_editor/freelook_slow_modifier``"
 
@@ -783,10 +738,6 @@ msgstr "Vista Inferior"
 msgid ":kbd:`Alt + Num 7`"
 msgstr ":kbd:`Alt + Num 7`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Num 7`"
-msgstr ":kbd:`Alt + Num 7`"
-
 msgid "``spatial_editor/bottom_view``"
 msgstr "``spatial_editor/bottom_view``"
 
@@ -805,10 +756,6 @@ msgstr "Vista Trasera"
 msgid ":kbd:`Alt + Num 1`"
 msgstr ":kbd:`Alt + Num 1`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Num 1`"
-msgstr ":kbd:`Alt + Num 1`"
-
 msgid "``spatial_editor/rear_view``"
 msgstr "``spatial_editor/rear_view``"
 
@@ -825,10 +772,6 @@ msgid "Left View"
 msgstr "Vista Izquierda"
 
 msgid ":kbd:`Alt + Num 3`"
-msgstr ":kbd:`Alt + Num 3`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Num 3`"
 msgstr ":kbd:`Alt + Num 3`"
 
 msgid "``spatial_editor/left_view``"
@@ -873,10 +816,6 @@ msgstr "Alinear la Transformación con la Vista"
 msgid ":kbd:`Ctrl + Alt + M`"
 msgstr ":kbd:`Ctrl + Alt + M`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + M`"
-msgstr ":kbd:`Alt + Cmd + F`"
-
 msgid "``spatial_editor/align_transform_with_view``"
 msgstr "``spatial_editor/align_transform_with_view``"
 
@@ -885,10 +824,6 @@ msgstr "Alinear la Rotación con la Vista"
 
 msgid ":kbd:`Ctrl + Alt + F`"
 msgstr ":kbd:`Ctrl + Alt + F`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + F`"
-msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/align_rotation_with_view``"
 msgstr "``spatial_editor/align_rotation_with_view``"
@@ -923,10 +858,6 @@ msgstr "2 Viewports (Alt)"
 msgid ":kbd:`Ctrl + Alt + 2`"
 msgstr ":kbd:`Ctrl + Alt + 2`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + 2`"
-msgstr ":kbd:`Alt + Cmd + F`"
-
 msgid "``spatial_editor/2_viewports_alt``"
 msgstr "``spatial_editor/2_viewports_alt``"
 
@@ -947,10 +878,6 @@ msgstr "3 Viewports (Alt)"
 
 msgid ":kbd:`Ctrl + Alt + 3`"
 msgstr ":kbd:`Ctrl + Alt + 3`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + 3`"
-msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``spatial_editor/3_viewports_alt``"
 msgstr "``spatial_editor/3_viewports_alt``"
@@ -1102,10 +1029,6 @@ msgstr "Subir"
 msgid ":kbd:`Alt + Up Arrow`"
 msgstr ":kbd:`Alt + Up Arrow`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Up Arrow`"
-msgstr ":kbd:`Alt + Up Arrow`"
-
 msgid "``script_text_editor/move_up``"
 msgstr "``script_text_editor/move_up``"
 
@@ -1113,10 +1036,6 @@ msgid "Move Down"
 msgstr "Bajar"
 
 msgid ":kbd:`Alt + Down Arrow`"
-msgstr ":kbd:`Alt + Down Arrow`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Down Arrow`"
 msgstr ":kbd:`Alt + Down Arrow`"
 
 msgid "``script_text_editor/move_down``"
@@ -1197,10 +1116,6 @@ msgstr "Eliminar Espacios Sobrantes al Final"
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ":kbd:`Ctrl + Alt + T`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + T`"
-msgstr ":kbd:`Alt + Cmd + F`"
-
 msgid "``script_text_editor/trim_trailing_whitespace``"
 msgstr "``script_text_editor/trim_trailing_whitespace``"
 
@@ -1272,10 +1187,6 @@ msgstr "Act./Desact. Marcador"
 
 msgid ":kbd:`Ctrl + Alt + B`"
 msgstr ":kbd:`Ctrl + Alt + B`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + B`"
-msgstr ":kbd:`Alt + Cmd + F`"
 
 msgid "``script_text_editor/toggle_bookmark``"
 msgstr "``script_text_editor/toggle_bookmark``"
@@ -1364,10 +1275,6 @@ msgstr "Ayuda Contextual"
 msgid ":kbd:`Alt + F1`"
 msgstr ":kbd:`Alt + F1`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Shift + Space`"
-msgstr ":kbd:`Alt + Shift + Space`"
-
 msgid "``script_text_editor/contextual_help``"
 msgstr "``script_text_editor/contextual_help``"
 
@@ -1389,18 +1296,10 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Up Arrow`"
 
-#, fuzzy
-msgid ":kbd:`Shift + Opt + Up Arrow`"
-msgstr ":kbd:`Shift + Alt + Up Arrow`"
-
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
-msgstr ":kbd:`Shift + Alt + Down Arrow`"
-
-#, fuzzy
-msgid ":kbd:`Shift + Opt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Down Arrow`"
 
 msgid "``script_editor/window_move_down``"
@@ -1442,10 +1341,6 @@ msgstr "Guardar"
 msgid ":kbd:`Ctrl + Alt + S`"
 msgstr ":kbd:`Ctrl + Alt + S`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Cmd + S`"
-msgstr ":kbd:`Alt + Cmd + F`"
-
 msgid "``script_editor/save``"
 msgstr "``script_editor/save``"
 
@@ -1467,10 +1362,6 @@ msgstr "Previo en el Historial"
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ":kbd:`Alt + Left Arrow`"
 
-#, fuzzy
-msgid ":kbd:`Opt + Left Arrow`"
-msgstr ":kbd:`Alt + Left Arrow`"
-
 msgid "``script_editor/history_previous``"
 msgstr "``script_editor/history_previous``"
 
@@ -1478,10 +1369,6 @@ msgid "History Next"
 msgstr "Siguiente en el Historial"
 
 msgid ":kbd:`Alt + Right Arrow`"
-msgstr ":kbd:`Alt + Right Arrow`"
-
-#, fuzzy
-msgid ":kbd:`Opt + Right Arrow`"
 msgstr ":kbd:`Alt + Right Arrow`"
 
 msgid "``script_editor/history_next``"
@@ -1622,10 +1509,6 @@ msgstr "``file_dialog/toggle_hidden_files``"
 msgid "Toggle Favorite"
 msgstr "Act./Desact. Favorito"
 
-#, fuzzy
-msgid ":kbd:`Opt + F`"
-msgstr ":kbd:`Alt + F`"
-
 msgid "``file_dialog/toggle_favorite``"
 msgstr "``file_dialog/toggle_favorite``"
 
@@ -1633,10 +1516,6 @@ msgid "Toggle Mode"
 msgstr "Cambiar Modo"
 
 msgid ":kbd:`Alt + V`"
-msgstr ":kbd:`Alt + V`"
-
-#, fuzzy
-msgid ":kbd:`Opt + V`"
 msgstr ":kbd:`Alt + V`"
 
 msgid "``file_dialog/toggle_mode``"
@@ -1822,81 +1701,17 @@ msgstr "Editor de Tile Map"
 msgid "Select"
 msgstr "Seleccionar"
 
-#, fuzzy
-msgid "``tiles_editor/selection_tool``"
-msgstr "``tile_map_editor/cut_selection``"
-
 msgid "Cut Selection"
 msgstr "Cortar Selección"
 
-#, fuzzy
-msgid "``tiles_editor/cut``"
-msgstr "``tile_map_editor/select``"
-
-#, fuzzy
-msgid "``tiles_editor/copy``"
-msgstr "``script_text_editor/copy``"
-
-#, fuzzy
-msgid "Paste Selection"
-msgstr "Borrar Selección"
-
-#, fuzzy
-msgid "``tiles_editor/paste``"
-msgstr "``tile_map_editor/paint_tile``"
-
-#, fuzzy
-msgid "``tiles_editor/delete``"
-msgstr "``tile_map_editor/select``"
-
 msgid "Cancel"
-msgstr ""
-
-#, fuzzy
-msgid ":kbd:`Esc`"
-msgstr ":kbd:`E`"
-
-#, fuzzy
-msgid "``tiles_editor/cancel``"
-msgstr "``tile_map_editor/select``"
+msgstr "Cancelar"
 
 msgid "Paint"
 msgstr "Pintar"
 
-#, fuzzy
-msgid "``tiles_editor/paint_tool``"
-msgstr "``tile_map_editor/paint_tile``"
-
 msgid "Line"
 msgstr "Linea"
-
-#, fuzzy
-msgid ":kbd:`L`"
-msgstr ":kbd:`Q`"
-
-#, fuzzy
-msgid "``tiles_editor/line_tool``"
-msgstr "``tile_map_editor/find_tile``"
-
-#, fuzzy
-msgid "Rect"
-msgstr "Rect2"
-
-#, fuzzy
-msgid "``tiles_editor/rect_tool``"
-msgstr "``tile_map_editor/select``"
-
-#, fuzzy
-msgid "Bucket"
-msgstr "Bote de Relleno"
-
-#, fuzzy
-msgid ":kbd:`B`"
-msgstr ":kbd:`Q`"
-
-#, fuzzy
-msgid "``tiles_editor/bucket_tool``"
-msgstr "``tile_map_editor/bucket_fill``"
 
 msgid "Picker"
 msgstr "Selector"
@@ -1904,38 +1719,14 @@ msgstr "Selector"
 msgid ":kbd:`P`"
 msgstr ":kbd:`P`"
 
-#, fuzzy
-msgid "``tiles_editor/picker``"
-msgstr "``tile_map_editor/pick_tile``"
-
 msgid "Eraser"
 msgstr "Borrador"
-
-#, fuzzy
-msgid "``tiles_editor/eraser``"
-msgstr "``tileset_editor/next_shape``"
 
 msgid "Flip Horizontally"
 msgstr "Voltear Horizontalmente"
 
-#, fuzzy
-msgid ":kbd:`C`"
-msgstr ":kbd:`Q`"
-
-#, fuzzy
-msgid "``tiles_editor/flip_tile_horizontal``"
-msgstr "``tile_map_editor/flip_horizontal``"
-
 msgid "Flip Vertically"
 msgstr "Voltear Verticalmente"
-
-#, fuzzy
-msgid ":kbd:`V`"
-msgstr ":kbd:`Q`"
-
-#, fuzzy
-msgid "``tiles_editor/flip_tile_vertical``"
-msgstr "``tile_map_editor/flip_vertical``"
 
 msgid "Rotate Left"
 msgstr "Rotar a la Izquierda"
@@ -1943,19 +1734,11 @@ msgstr "Rotar a la Izquierda"
 msgid ":kbd:`Z`"
 msgstr ":kbd:`Z`"
 
-#, fuzzy
-msgid "``tiles_editor/rotate_tile_left``"
-msgstr "``tile_map_editor/rotate_left``"
-
 msgid "Rotate Right"
 msgstr "Rotar a la Derecha"
 
 msgid ":kbd:`X`"
 msgstr ":kbd:`X`"
-
-#, fuzzy
-msgid "``tiles_editor/rotate_tile_right``"
-msgstr "``tile_map_editor/rotate_right``"
 
 msgid "Tileset Editor"
 msgstr "Editor de Tileset"

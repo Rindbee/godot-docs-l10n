@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,25 +38,6 @@ msgid "image0"
 msgstr "image0"
 
 msgid ""
-"Create a :ref:`CharacterBody3D <class_CharacterBody3D>` node as the root"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Name the :ref:`CharacterBody3D <class_CharacterBody3D>` to ``Player``. "
-"Character bodies are complementary to the area and rigid bodies used in the "
-"2D game tutorial. Like rigid bodies, they can move and collide with the "
-"environment, but instead of being controlled by the physics engine, **you** "
-"dictate their movement. You will see how we use the node's unique features "
-"when we code the jump and squash mechanics."
-msgstr ""
-"Кінематичні тіла доповнюють область і жорсткі тіла, що використовуються в "
-"посібнику з 2D-гри. Як і жорсткі тіла, вони можуть рухатися і стикатися з "
-"навколишнім середовищем, але рух їм задаєте ви, а не фізика рушія. Ви "
-"побачите, як ми використовуємо унікальні функції вузла під час кодування "
-"механізмів стрибка та розчавлювання."
-
-msgid ""
 "To learn more about the different physics node types, see the :ref:"
 "`doc_physics_introduction`."
 msgstr ""
@@ -84,28 +60,11 @@ msgstr ""
 "Додайте вузол :ref:`Node3D <клас_Node3D>` як дочірній до ``Player`` і "
 "назвіть його ``Pivot``"
 
-#, fuzzy
-msgid ""
-"Then, in the FileSystem dock, expand the ``art/`` folder by double-clicking "
-"it and drag and drop ``player.glb`` onto ``Pivot``."
-msgstr ""
-"Додайте вузол *Spatial* в якості нащадка *Player* і назвіть його *Pivot*. "
-"Потім на панелі Файлова система розгорніть папку ``art/`` двічі клацнувши її "
-"і перетягніть ``player.glb`` на вузол *Pivot*."
-
 msgid "|image1|"
 msgstr "|image1|"
 
 msgid "image1"
 msgstr "image1"
-
-#, fuzzy
-msgid ""
-"This should instantiate the model as a child of ``Pivot``. You can rename it "
-"to ``Character``."
-msgstr ""
-"Це має створити екземпляр моделі в якості нащадка *Pivot*. Можете "
-"перейменувати його на *Character*."
 
 msgid "|image2|"
 msgstr "|image2|"
@@ -113,75 +72,17 @@ msgstr "|image2|"
 msgid "image2"
 msgstr "image2"
 
-#, fuzzy
-msgid ""
-"The ``.glb`` files contain 3D scene data based on the open source GLTF 2.0 "
-"specification. They're a modern and powerful alternative to a proprietary "
-"format like FBX, which Godot also supports. To produce these files, we "
-"designed the model in `Blender 3D <https://www.blender.org/>`__ and exported "
-"it to GLTF."
-msgstr ""
-"Файли ``.glb`` містять дані 3D-сцени на основі специфікації з відкритим "
-"вихідним кодом GLTF 2.0. Вони є сучасною і потужною альтернативою "
-"пропрієтарному формату, такому як FBX, який Godot також підтримує. Щоб "
-"створити ці файли, ми розробили модель в `Blender 3D <https://www.blender."
-"org/>`__ і експортували її в GLTF."
-
-#, fuzzy
-msgid ""
-"As with all kinds of physics nodes, we need a collision shape for our "
-"character to collide with the environment. Select the ``Player`` node again "
-"and add a child node :ref:`CollisionShape3D <class_CollisionShape3D>`. In "
-"the *Inspector*, on the *Shape* property, add a new :ref:`SphereShape3D "
-"<class_SphereShape3D>`."
-msgstr ""
-"Як і у всіх видах фізичних вузлів, нам потрібна форма зіткнення, щоб наш "
-"персонаж стикався з навколишнім середовищем. Виберіть вузол *Player* ще раз "
-"і додайте *CollisionShape*. У *Інспекторі* призначте властивості *Shape* "
-"виставіть *SphereShape*. Під персонажем з'явиться каркас сфери."
-
-msgid "The sphere's wireframe appears below the character."
-msgstr ""
-
 msgid "|image3|"
 msgstr "|image3|"
 
 msgid "image3"
 msgstr "image3"
 
-#, fuzzy
-msgid ""
-"It will be the shape the physics engine uses to collide with the "
-"environment, so we want it to better fit the 3D model. Make it a bit larger "
-"by dragging the orange dot in the viewport. My sphere has a radius of about "
-"``0.8`` meters."
-msgstr ""
-"Це буде форма, яку фізичний рушій використовує для зіткнення з навколишнім "
-"середовищем, тому ми хочемо, щоб він краще підходив до 3D-моделі. Варто "
-"трохи зменшити його, перетягнувши помаранчеву крапку у вікні перегляду. Моя "
-"сфера має радіус близько ``0.8`` метрів."
-
-#, fuzzy
-msgid ""
-"Then, move the collision shape up so its bottom roughly aligns with the "
-"grid's plane."
-msgstr ""
-"Потім перемістіть фігуру вгору, щоб її дно приблизно вирівнялося з площиною "
-"сітки."
-
 msgid "|image4|"
 msgstr "|image4|"
 
 msgid "image4"
 msgstr "image4"
-
-#, fuzzy
-msgid ""
-"To make moving the shape easier, you can toggle the model's visibility by "
-"clicking the eye icon next to the ``Character`` or the ``Pivot`` nodes."
-msgstr ""
-"Ви можете перемикати видимість моделі, клацнувши значок ока поруч із вузлами "
-"*Character* або *Pivot*."
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -214,14 +115,6 @@ msgstr ""
 "комбінаціям клавіш і кнопок. Це спрощує наші скрипти і робить їх більш "
 "читабельними."
 
-#, fuzzy
-msgid ""
-"This system is the Input Map. To access its editor, head to the *Project* "
-"menu and select *Project Settings*."
-msgstr ""
-"Ця система є Картою введення. Щоб отримати доступ до редактора, перейдіть до "
-"меню *Проект* і виберіть пункт *Параметри проекту...*."
-
 msgid "|image6|"
 msgstr "Зображення"
 
@@ -243,17 +136,6 @@ msgstr "|image7|"
 msgid "image7"
 msgstr "image7"
 
-#, fuzzy
-msgid ""
-"Godot projects come with some predefined actions designed for user interface "
-"design (see above screenshot). These will become visible if you enable the "
-"*Show Built-in Actions* toggle. We could use these here, but instead we're "
-"defining our own to support gamepads. Leave *Show Built-in Actions* disabled."
-msgstr ""
-"Проекти Godot поставляються з деякими заздалегідь визначеними діями, "
-"призначеними для дизайну інтерфейсу користувача, які ми могли б "
-"використовувати тут. Але ми визначаємо свої власні для підтримки геймпаду."
-
 msgid ""
 "We're going to name our actions ``move_left``, ``move_right``, "
 "``move_forward``, ``move_back``, and ``jump``."
@@ -270,27 +152,11 @@ msgstr "|image8|"
 msgid "image8"
 msgstr "image8"
 
-#, fuzzy
-msgid "Create the following five actions:"
-msgstr "Є такі застереження:"
-
 msgid "|image9|"
 msgstr "|image9|"
 
 msgid "image9"
 msgstr "image9"
-
-#, fuzzy
-msgid ""
-"To bind a key or button to an action, click the \"+\" button to its right. "
-"Do this for ``move_left``. Press the left arrow key and click *OK*."
-msgstr ""
-"Щоб прив'язати клавішу, або кнопку, до дії, натисніть кнопку \"+\" праворуч "
-"від неї. Зробіть це для ``move_left`` і в спливаючому меню натисніть "
-"*Клавіша*."
-
-msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
-msgstr ""
 
 msgid "|image12|"
 msgstr "|image12|"
@@ -298,47 +164,11 @@ msgstr "|image12|"
 msgid "image12"
 msgstr "image12"
 
-#, fuzzy
-msgid ""
-"Let's now add support for a gamepad's left joystick. Click the \"+\" button "
-"again but this time, select *Manual Selection -> Joypad Axes*."
-msgstr ""
-"Тепер додаймо підтримку лівого джойстика геймпада. Натисніть кнопку \"+\" ще "
-"раз, але на цей раз виберіть *Вісь джойстика*."
-
-msgid "Select the negative X axis of the left joystick."
-msgstr ""
-
-msgid "Leave the other values as default and press *OK*"
-msgstr ""
-
-msgid ""
-"If you want controllers to have different input actions, you should use the "
-"Devices option in Additional Options. Device 0 corresponds to the first "
-"plugged gamepad, Device 1 corresponds to the second plugged gamepad, and so "
-"on."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Do the same for the other input actions. For example, bind the right arrow, "
-"D, and the left joystick's positive axis to ``move_right``. After binding "
-"all keys, your interface should look like this."
-msgstr ""
-"Зробіть те ж саме для інших вхідних дій. Наприклад, прив'яжіть стрілку "
-"вправо, D і праву вісь лівого джойстика до ``move_right``. Після прив'язки "
-"всіх клавіш ваш інтерфейс повинен виглядати так."
-
 msgid "|image15|"
 msgstr "|image15|"
 
 msgid "image15"
 msgstr "image15"
-
-msgid ""
-"The final action to set up is the ``jump`` action. Bind the Space key and "
-"the gamepad's A button."
-msgstr ""
 
 msgid "|image16|"
 msgstr "|image16|"

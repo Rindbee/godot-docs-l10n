@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,7 +355,6 @@ msgstr ""
 "Wenn wir das Objekt an eine Position von (1, 2) verschieben wollen, müssen "
 "wir seinen ``Ursprungsvektor`` auf (1, 2) setzen:"
 
-#, fuzzy
 msgid ""
 "There is also a ``translated_local()`` method, which performs a different "
 "operation to adding or changing ``origin`` directly. The "
@@ -369,12 +363,13 @@ msgid ""
 "the right when ``translated_local()`` with ``Vector2.UP``. To translate "
 "*relative to the global/parent frame* use ``translated()`` instead."
 msgstr ""
-"Es gibt auch eine Methode ``translated()``, die eine andere Operation "
+"Es gibt auch eine Methode ``translated_local()``, die eine andere Operation "
 "durchführt als das direkte Hinzufügen oder Ändern von ``origin``. Die "
-"Methode ``translated()`` übersetzt das Objekt *relativ zu seiner eigenen "
-"Drehung*. Zum Beispiel wird ein um 90 Grad im Uhrzeigersinn gedrehtes Objekt "
-"nach rechts verschoben, wenn ``translated()`` mit ``Vector2.UP`` "
-"durchgeführt wird."
+"Methode ``translated_local()`` übersetzt das Objekt *relativ zu seiner "
+"eigenen Rotation*. Zum Beispiel wird ein um 90 Grad im Uhrzeigersinn "
+"rotiertes Objekt nach rechts verschoben, wenn ``translated_local()`` mit "
+"``Vector2.UP`` arbeitet. Um *relativ zum globalen/übergeordneten Rahmen* zu "
+"übersetzen, verwenden Sie stattdessen ``translated()``."
 
 msgid ""
 "Godot's 2D uses coordinates based on pixels, so in actual projects you will "

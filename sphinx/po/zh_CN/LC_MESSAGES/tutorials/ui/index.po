@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +19,7 @@ msgid ""
 "In this section of the tutorial we explain the basics of creating a "
 "graphical user interface (GUI) in Godot."
 msgstr ""
+"在本教程的这一部分，我们将介绍在Godot中创建图形用户界面（GUI）的基本概念。"
 
 msgid "UI building blocks"
 msgstr "UI 构件"
@@ -34,6 +30,9 @@ msgid ""
 "types of controls which are useful for creating specific types of GUIs. For "
 "simplicity we can separate them into two groups: content and layout."
 msgstr ""
+"像 Godot 中的其他所有内容一样，用户界面是使用节点构建的，特别是 :ref:"
+"`Control <class_Control>` 节点。有许多不同类型的控件对于创建特定类型的 GUI 非"
+"常有用。为了简化，我们可以将它们分为两组：内容和布局。"
 
 msgid "Typical content controls include:"
 msgstr "典型的内容控件有："
@@ -65,10 +64,6 @@ msgstr ":ref:`选项卡容器 <class_TabContainer>`"
 
 msgid ":ref:`Popups <class_Popup>`"
 msgstr ":ref:`弹框 <class_Popup>`"
-
-#, fuzzy
-msgid "The following pages explain the basics of using such controls."
-msgstr "以下文章涵盖了特定控件节点的具体细节。"
 
 msgid "GUI skinning and themes"
 msgstr "GUI 皮肤与主题"

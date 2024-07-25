@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,28 +45,17 @@ msgid ""
 "that:"
 msgstr "GDScript - це мова динамічного типу. Основними її перевагами є:"
 
-#, fuzzy
-msgid "The language is easy to get started with."
-msgstr "Мова проста і легка для вивчення."
-
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr "Більшість коду можна записати і змінити швидко та без клопоту."
 
 msgid "Less code written means less errors & mistakes to fix."
 msgstr "Менше коду означає менше помилок."
 
-msgid "The code is easy to read (little clutter)."
-msgstr ""
-
 msgid "No compilation is required to test."
 msgstr "Не потрібна компіляція для тестування."
 
 msgid "Runtime is tiny."
 msgstr "Час виконання крихітний."
-
-#, fuzzy
-msgid "It has duck-typing and polymorphism by nature."
-msgstr "Качина типізація і поліморфізм від природи."
 
 msgid "While the main disadvantages are:"
 msgstr "Хоча основними недоліками є:"
@@ -97,24 +81,6 @@ msgid ""
 msgstr ""
 "Менша гнучкість для заповнення коду (деякі типи змінних стають відомі лише "
 "під час виконання)."
-
-#, fuzzy
-msgid ""
-"This, translated to reality, means that Godot used with GDScript is a "
-"combination designed to create games quickly and efficiently. For games that "
-"are very computationally intensive and can't benefit from the engine built-"
-"in tools (such as the Vector types, Physics Engine, Math library, etc), the "
-"possibility of using C++ is present too. This allows you to still create "
-"most of the game in GDScript and add small bits of C++ in the areas that "
-"need a performance boost."
-msgstr ""
-"Це, в перекладі на реальність, означає, що Godot + GDScript - це комбінація, "
-"призначена для швидкого та ефективного створення ігор. Для ігор, які "
-"потребують інтенсивних обчислень і не можуть отримати користь від вбудованих "
-"в движок інструментів (таких як векторні типи, фізичний движок, бібліотека "
-"математики тощо), також є можливість використання C++. Це дозволяє все-таки "
-"створювати більшу частину гри в GDScript і додавати невеликі шматочки C++ у "
-"тих областях, які потребують підвищення продуктивності."
 
 msgid "Variables & assignment"
 msgstr "Змінні та призначення"
@@ -255,14 +221,6 @@ msgstr ""
 "Словники також динамічні, ключі можна додавати, або видаляти, в будь-якій "
 "точці з малими затратами:"
 
-#, fuzzy
-msgid ""
-"In most cases, two-dimensional arrays can often be implemented more easily "
-"with dictionaries. Here's a battleship game example:"
-msgstr ""
-"У більшості випадків двовимірні масиви часто можна легше реалізувати за "
-"допомогою словників. Ось простий приклад гри морський бій:"
-
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "
 "GDScript's dictionaries resemble python dictionaries, it also supports Lua "
@@ -277,17 +235,6 @@ msgstr ""
 msgid "For & while"
 msgstr "For та while"
 
-#, fuzzy
-msgid ""
-"Iterating using the C-style for loop in C-derived languages can be quite "
-"complex:"
-msgstr "Ітерація в деяких мовах статичного типу може бути досить складною:"
-
-msgid ""
-"Because of this, GDScript makes the opinionated decision to have a for-in "
-"loop over iterables instead:"
-msgstr ""
-
 msgid ""
 "Container datatypes (arrays and dictionaries) are iterable. Dictionaries "
 "allow iterating the keys:"
@@ -301,15 +248,8 @@ msgstr "Можлива ітерація з індексами:"
 msgid "The range() function can take 3 arguments:"
 msgstr "Функція range() може приймати 3 аргументи:"
 
-msgid "Some examples involving C-style for loops:"
-msgstr ""
-
 msgid "Translate to:"
 msgstr "Переведені в динамічні:"
-
-#, fuzzy
-msgid "And backwards looping done through a negative counter:"
-msgstr "А зворотній цикл здійснюється за допомогою негативного лічильника:"
 
 msgid "Becomes:"
 msgstr "Стає:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,20 +96,6 @@ msgstr ""
 "экспортировать. В то время как изучение каждого SDK всегда поощряется, может "
 "быть неприятно быть вынужденным делать это в нежелательное время."
 
-#, fuzzy
-msgid ""
-"There is also another problem with this approach: different devices prefer "
-"some data in different formats to run. The main example of this is texture "
-"compression. All PC hardware uses S3TC (BC) compression and that has been "
-"standardized for more than a decade, but mobile devices use different "
-"formats for texture compression, such as ETC1 and ETC2."
-msgstr ""
-"У этого подхода есть еще одна проблема: различные устройства предпочитают "
-"запускать некоторые данные в разных форматах. Главный пример - сжатие "
-"текстур. Всё оборудование ПК использует сжатие S3TC (BC), которое было "
-"стандартизировано более десяти лет, но мобильные устройства используют "
-"разные форматы сжатия текстур, такие как PVRTC (iOS) или ETC (Android)."
-
 msgid "Export menu"
 msgstr "Export menu (меню экспорта)"
 
@@ -169,28 +150,6 @@ msgstr ""
 "Ожидается, что в это время пользователь вернётся к документации и последует "
 "инструкциям по правильной настройке этой платформы."
 
-msgid ""
-"The buttons at the bottom of the menu allow you to export the project in a "
-"few different ways:"
-msgstr ""
-
-msgid ""
-"Export All: Export the project as a playable build (Godot executable and "
-"project data) for all the presets defined. All presets must have an **Export "
-"Path** defined for this to work."
-msgstr ""
-
-msgid ""
-"Export Project: Export the project as a playable build (Godot executable and "
-"project data) for the selected preset."
-msgstr ""
-
-msgid ""
-"Export PCK/ZIP: Export the project resources as a PCK or ZIP package. This "
-"is not a playable build, it only exports the project data without a Godot "
-"executable."
-msgstr ""
-
 msgid "Export templates"
 msgstr "Экспорт шаблонов"
 
@@ -211,10 +170,6 @@ msgid ""
 msgstr ""
 "После загрузки их можно установить с помощью параметра **Install Export "
 "Templates** (Установить шаблоны экспорта) в редакторе:"
-
-#, fuzzy
-msgid "Resource options"
-msgstr "Путь ресурса"
 
 msgid ""
 "When exporting, Godot makes a list of all the files to export and then "
@@ -253,76 +208,8 @@ msgstr ""
 "включены в экспортируемый проект. Это сделано для того, чтобы папки контроля "
 "версий типа ``.git`` не были включены в экспортируемый файл PCK."
 
-#, fuzzy
-msgid ""
-"Below the list of resources are two filters that can be setup. The first "
-"allows non resource files such as ``.txt``, ``.json`` and ``.csv`` to be "
-"exported with the project. The second filter can be used to exclude every "
-"file of a certain type without manually deselecting every one. For example, "
-"``.png`` files."
-msgstr ""
-"Ниже списка ресурсов находятся два фильтра, которые можно настроить. Первый "
-"позволяет экспортировать вместе с проектом файлы, не относящиеся к ресурсам, "
-"такие как ``.txt``,``.json`` и ``.csv``. Второй фильтр может быть "
-"использован для исключения всех файлов определенного типа без необходимости "
-"вручную отменять выбор каждого из них. Например, ``.png`` файлы."
-
-#, fuzzy
-msgid "Configuration files"
-msgstr "Конфигурация"
-
-msgid ""
-"The export configuration is stored in two files that can both be found in "
-"the project directory:"
-msgstr ""
-
-msgid ""
-"``export_presets.cfg``: This file contains the vast majority of the export "
-"configuration and can be safely committed to version control. There is "
-"nothing in here that you would normally have to keep secret."
-msgstr ""
-
-msgid ""
-"``.godot/export_credentials.cfg``: This file contains export options that "
-"are considered confidential, like passwords and encryption keys. It should "
-"generally **not** be committed to version control or shared with others "
-"unless you know exactly what you are doing."
-msgstr ""
-
-msgid ""
-"Since the credentials file is usually kept out of version control systems, "
-"some export options will be missing if you clone the project to a new "
-"machine. The easiest way to deal with this is to copy the file manually from "
-"the old location to the new one."
-msgstr ""
-
 msgid "Exporting from the command line"
 msgstr "Экспорт из командной строки"
-
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"В производстве полезно автоматизировать сборки, и Godot поддерживает это с "
-"помощью параметров командной строки ``--export`` и ``--export-debug``. Для "
-"экспорта из командной строки по-прежнему требуется предустановка экспорта "
-"для определения параметров экспорта. Базовый вызов команды:"
-
-#, fuzzy
-msgid ""
-"This will export to ``some_name.exe``, assuming there is a preset called "
-"\"Windows Desktop\" and the template can be found. (The export preset name "
-"must be written within quotes if it contains spaces or special characters.) "
-"The output path is *relative to the project path* or *absolute*; **it does "
-"not respect the directory the command was invoked from**."
-msgstr ""
-"Это будет экспортировано в ``some_name.exe``, если есть предустановка под "
-"названием \"Windows Desktop\" и шаблон, который можно найти. Путь вывода - "
-"относительно пути проекта или абсолютный; он не учитывает каталог, из "
-"которого была вызвана команда."
 
 msgid ""
 "The output file extension should match the one used by the Godot export "
@@ -330,10 +217,6 @@ msgid ""
 msgstr ""
 "Расширение выходного файла должно соответствовать расширению, используемому "
 "в процессе экспорта Godot:"
-
-#, fuzzy
-msgid "Windows: ``.exe``"
-msgstr "Windows: ``.exe``"
 
 msgid ""
 "macOS: ``.zip`` (from all platforms) or ``.dmg`` (only when exporting *from* "
@@ -370,16 +253,6 @@ msgstr ""
 "позволяет использовать один экспортированный файл основного пакета с "
 "несколькими исполняемыми файлами Godot. При этом имя шаблона настроек "
 "экспорта все равно должно быть указано в командной строке:"
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"Часто бывает полезно комбинировать флаг ``--export`` с флагом ``--path``, а "
-"также создавать специальный набор настроек экспорта для автоматического "
-"экспорта:"
 
 msgid ""
 "See :ref:`doc_command_line_tutorial` for more information about using Godot "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,16 +52,6 @@ msgstr "Requerimientos"
 msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr "Para compilar en Windows, Linux o macOS, se requiere lo siguiente:"
 
-#, fuzzy
-msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
-msgstr "`Python 3.5+ <https://www.python.org/downloads/>`_."
-
-#, fuzzy
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr ""
-"El sistema de construcción `SCons 3.0+ <https://scons.org/pages/download."
-"html>`_."
-
 msgid ""
 "`Android SDK <https://developer.android.com/studio/#command-tools>`_ "
 "(command-line tools are sufficient)."
@@ -77,36 +62,8 @@ msgstr ""
 msgid "Required SDK components will be automatically installed."
 msgstr "Los componentes del SDK necesarios se instalarán automáticamente."
 
-#, fuzzy
-msgid ""
-"On Linux, **do not use an Android SDK provided by your distribution's "
-"repositories** as it will often be outdated."
-msgstr ""
-"En Linux, **no utilices un SDK de Android proporcionado por los repositorios "
-"de distribución, ya que a menudo estará desactualizado**."
-
-#, fuzzy
-msgid ""
-"On macOS, **do not use an Android SDK provided by Homebrew** as it will not "
-"be installed in a unified location."
-msgstr ""
-"En Linux, **no utilices un SDK de Android proporcionado por los repositorios "
-"de distribución, ya que a menudo estará desactualizado**."
-
 msgid "Gradle (will be downloaded and installed automatically if missing)."
 msgstr "Gradle (se descargará e instalará automáticamente si falta)."
-
-#, fuzzy
-msgid "JDK 17 (either OpenJDK or Oracle JDK)."
-msgstr "JDK 11 (puede ser OpenJDK u Oracle JDK)."
-
-#, fuzzy
-msgid ""
-"You can download a build from `ojdkbuild <https://adoptium.net/temurin/"
-"releases/?variant=openjdk17>`_."
-msgstr ""
-"Puedes descargar una compilación desde `ojdkbuild <https://github.com/"
-"ojdkbuild/ojdkbuild>`_."
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -123,37 +80,6 @@ msgstr ""
 
 msgid "Setting up the buildsystem"
 msgstr "Configurando el sistema de construcción"
-
-#, fuzzy
-msgid ""
-"Set the environment variable ``ANDROID_HOME`` to point to the Android SDK. "
-"If you downloaded the Android command-line tools, this would be the folder "
-"where you extracted the contents of the ZIP archive."
-msgstr ""
-"Establece la variable de entorno ``ANDROID_SDK_ROOT`` para que apunte al SDK "
-"de Android. Si descargaste las herramientas de línea de comandos de Android, "
-"esto sería la carpeta donde extrajiste el contenido del archivo ZIP."
-
-#, fuzzy
-msgid ""
-"Windows: Press :kbd:`Windows + R`, type \"control system\", then click on "
-"**Advanced system settings** in the left pane, then click on **Environment "
-"variables** on the window that appears."
-msgstr ""
-"Para configurar la variable de entorno en Windows, presiona :kbd:`Windows + "
-"R`, escribe \"control system\" y luego haz clic en **Configuración avanzada "
-"del sistema** en el panel izquierdo. A continuación, haz clic en **Variables "
-"de entorno** en la ventana que aparece."
-
-#, fuzzy
-msgid ""
-"Linux or macOS: Add the text ``export ANDROID_HOME=\"/path/to/android-"
-"sdk\"`` to your ``.bashrc`` or ``.zshrc`` where ``/path/to/android-sdk`` "
-"points to the root of the SDK directories."
-msgstr ""
-"Para configurar la variable de entorno en Linux o macOS, utiliza el comando "
-"``export ANDROID_SDK_ROOT=/ruta/al/android-sdk`` donde ``/ruta/al/android-"
-"sdk`` apunta a la raíz de los directorios del SDK."
 
 msgid "Install the necessary SDK components in this folder:"
 msgstr "Instala los componentes necesarios del SDK en esta carpeta:"
@@ -174,36 +100,8 @@ msgstr ""
 "Completa la configuración ejecutando el siguiente comando donde "
 "``android_sdk_path`` es la ruta al SDK de Android."
 
-msgid ""
-"After setting up the SDK and environment variables, be sure to **restart "
-"your terminal** to apply the changes. If you are using an IDE with an "
-"integrated terminal, you need to restart the IDE."
-msgstr ""
-
-msgid ""
-"Run ``scons platform=android``. If this fails, go back and check the steps. "
-"If you completed the setup correctly, the NDK will begin downloading. If you "
-"are trying to compile GDExtension, you need to first compile the engine to "
-"download the NDK, then you can compile GDExtension."
-msgstr ""
-
 msgid "Building the export templates"
 msgstr "Construyendo las plantillas de exportación"
-
-#, fuzzy
-msgid ""
-"Godot needs two export templates for Android: the optimized \"release\" "
-"template (``android_release.apk``) and the debug template (``android_debug."
-"apk``). As Google requires all APKs to include ARMv8 (64-bit) libraries "
-"since August 2019, the commands below build an APK containing both ARMv7 and "
-"ARMv8 libraries."
-msgstr ""
-"Godot necesita dos plantillas de exportación para Android: la plantilla "
-"optimizada \"release\" (``android_release.apk``) y la plantilla de "
-"depuración (``android_debug.apk``). Como Google requerirá que todos los APKs "
-"incluyan bibliotecas ARMv8 (64 bits) a partir de agosto de 2019, los "
-"comandos a continuación construirán un APK que contiene tanto bibliotecas "
-"ARMv7 como ARMv8."
 
 msgid ""
 "Compiling the standard export templates is done by calling SCons from the "
@@ -217,12 +115,6 @@ msgid ""
 msgstr ""
 "Release template (se utiliza al exportar con **Debugging Enabled** apagado)"
 
-msgid ""
-"If you are changing the list of architectures you're building, remember to "
-"add ``generate_apk=yes`` to the *last* architecture you're building, so that "
-"an APK file is generated after the build."
-msgstr ""
-
 msgid "The resulting APK will be located at ``bin/android_release.apk``."
 msgstr "El APK resultante se ubicará en ``bin/android_release.apk``."
 
@@ -234,26 +126,8 @@ msgstr ""
 msgid "The resulting APK will be located at ``bin/android_debug.apk``."
 msgstr "El APK resultante se ubicará en ``bin/android_debug.apk``."
 
-msgid ""
-"If you want to enable Vulkan validation layers, see :ref:`Vulkan validation "
-"layers on Android <doc_vulkan_validation_layers_android>`."
-msgstr ""
-
 msgid "Adding support for x86 devices"
 msgstr "Añadir soporte para dispositivos x86"
-
-#, fuzzy
-msgid ""
-"If you also want to include support for x86 and x86_64 devices, run the "
-"SCons command a third and fourth time with the ``arch=x86_32``, and "
-"``arch=x86_64`` arguments before building the APK with Gradle. For example, "
-"for the release template:"
-msgstr ""
-"Si también deseas incluir soporte para dispositivos x86 y x86-64, ejecuta el "
-"comando SCons una tercera y cuarta vez con los argumentos "
-"``android_arch=x86`` y ``android_arch=x86_64``, respectivamente, antes de "
-"construir el APK con Gradle. Por ejemplo, para la plantilla de lanzamiento "
-"(release):"
 
 msgid ""
 "This will create a fat binary that works on all platforms. The final APK "
@@ -310,34 +184,6 @@ msgstr ""
 "apk``) deben ser copiadas a la carpeta de plantillas de Godot con sus "
 "respectivos nombres. La carpeta de plantillas puede estar ubicada en:"
 
-#, fuzzy
-msgid "Windows: ``%APPDATA%\\Godot\\export_templates\\<version>\\``"
-msgstr "Windows: ``%APPDATA%\\Godot\\templates\\<versión>\\``"
-
-#, fuzzy
-msgid "Linux: ``$HOME/.local/share/godot/export_templates/<version>/``"
-msgstr "Linux: ``$HOME/.local/share/godot/templates/<versión>/``"
-
-#, fuzzy
-msgid ""
-"macOS: ``$HOME/Library/Application Support/Godot/export_templates/<version>/"
-"``"
-msgstr ""
-"macOS: ``$HOME/Library/Application Support/Godot/templates/<version>/``"
-
-#, fuzzy
-msgid ""
-"``<version>`` is of the form ``major.minor[.patch].status`` using values "
-"from ``version.py`` in your Godot source repository (e.g. ``4.1.3.stable`` "
-"or ``4.2.dev``). You also need to write this same version string to a "
-"``version.txt`` file located next to your export templates."
-msgstr ""
-"``<versión>`` tiene el formato ``mayor.menor[.parche].estado`` utilizando "
-"los valores de ``version.py`` en tu repositorio de código fuente de Godot "
-"(por ejemplo, ``3.0.5.stable`` o ``3.1.dev``). También debes escribir esta "
-"misma cadena de versión en un archivo llamado ``version.txt`` que se "
-"encuentra junto a tus plantillas de exportación."
-
 msgid ""
 "However, if you are writing your custom modules or custom C++ code, you "
 "might instead want to configure your APKs as custom export templates here:"
@@ -356,71 +202,11 @@ msgstr ""
 "Godot, de modo que la próxima vez que construyas, tendrás automáticamente "
 "las plantillas personalizadas referenciadas."
 
-#, fuzzy
-msgid "Building the Godot editor"
-msgstr "Editor de temas integrado"
-
-#, fuzzy
-msgid ""
-"Compiling the editor is done by calling SCons from the Godot root directory "
-"with the following arguments:"
-msgstr ""
-"La compilación de las plantillas de exportación estándar se realiza llamando "
-"a SCons desde el directorio raíz de Godot con los siguientes argumentos:"
-
-msgid ""
-"You can skip certain architectures depending on your target device to speed "
-"up compilation. Remember to add ``generate_apk=yes`` to the *last* "
-"architecture you're building, so that an APK file is generated after the "
-"build."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The resulting APK will be located at ``bin/android_editor_builds/"
-"android_editor-release.apk``."
-msgstr "El APK resultante se ubicará en ``bin/android_release.apk``."
-
-#, fuzzy
-msgid "Removing the Editor templates"
-msgstr "Usando las plantillas de exportación"
-
-#, fuzzy
-msgid ""
-"You can use the following commands to remove the generated editor templates:"
-msgstr ""
-"Puedes utilizar los siguientes comandos para eliminar las plantillas de "
-"exportación generadas:"
-
-#, fuzzy
-msgid "Installing the Godot editor"
-msgstr "Instalando las plantillas"
-
-msgid ""
-"With an Android device with Developer Options enabled, connect the Android "
-"device to your computer via its charging cable to a USB/USB-C port. Open up "
-"a Terminal/Command Prompt and run the following commands from the root "
-"directory with the following arguments:"
-msgstr ""
-
 msgid "Troubleshooting"
 msgstr "Solución De Problemas"
 
 msgid "Platform doesn't appear in SCons"
 msgstr "Plataforma no aparece en SCons"
-
-#, fuzzy
-msgid ""
-"Double-check that you've set the ``ANDROID_HOME`` environment variable. This "
-"is required for the platform to appear in SCons' list of detected platforms. "
-"See :ref:`Setting up the buildsystem "
-"<doc_android_setting_up_the_buildsystem>` for more information."
-msgstr ""
-"Verifica nuevamente que hayas configurado la variable de entorno "
-"``ANDROID_SDK_ROOT``. Esto es necesario para que la plataforma aparezca en "
-"la lista de plataformas detectadas por SCons. Puedes consultar más "
-"información en la sección :ref:`Setting up the buildsystem "
-"<doc_android_setting_up_the_buildsystem>`."
 
 msgid "Application not installed"
 msgstr "Aplicación no instalada"
@@ -471,14 +257,6 @@ msgstr ""
 "Asegúrate de utilizar plantillas de exportación que coincidan con la versión "
 "de tu editor; si utilizas una nueva versión de Godot, *debes* actualizar "
 "también las plantillas."
-
-#, fuzzy
-msgid ""
-"``libgodot_android.so`` is not in ``libs/<arch>/`` where ``<arch>`` is the "
-"device's architecture."
-msgstr ""
-"``libgodot_android.so`` no se encuentra en ``libs/<android_arch>/``, donde "
-"``<android_arch>`` es la arquitectura del dispositivo."
 
 msgid ""
 "The device's architecture does not match the exported one(s). Make sure your "

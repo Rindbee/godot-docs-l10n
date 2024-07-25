@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -425,16 +420,6 @@ msgid ""
 msgstr ""
 "我们调用了一个尚未定义的函数 ``mob.squash()``\\ 。所以我们需要把它加入到 Mob "
 "类中。"
-
-msgid ""
-"Open the script ``Mob.gd`` by double-clicking on it in the *FileSystem* "
-"dock. At the top of the script, we want to define a new signal named "
-"``squashed``. And at the bottom, you can add the squash function, where we "
-"emit the signal and destroy the mob."
-msgstr ""
-"在\\ *文件系统*\\ 面板中双击打开 ``Mob.gd`` 脚本。在脚本顶部，我们要定义一个"
-"新的信号叫作 ``squashed``\\ （被踩扁）。你可以在底部添加 squash 函数，在里面"
-"发出这个信号并销毁这个小怪。"
 
 msgid ""
 "When using C#, Godot will create the appropriate events automatically for "

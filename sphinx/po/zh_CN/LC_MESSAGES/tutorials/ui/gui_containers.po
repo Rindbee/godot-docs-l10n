@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,23 +83,6 @@ msgstr ""
 msgid "Sizing options"
 msgstr "大小选项"
 
-#, fuzzy
-msgid ""
-"When adding a node to a container, the way the container treats each child "
-"depends mainly on their *container sizing options*. These options can be "
-"found by inspecting the layout of any *Control* that is a child of a "
-"*Container*."
-msgstr ""
-"当向容器添加节点时, 容器对待每个子元素的方式, 主要取决于它们的 *size flags尺"
-"寸标记* . 通过检查 *容器* 的子控件, 可以找到这些标记."
-
-#, fuzzy
-msgid ""
-"Sizing options are independent for vertical and horizontal sizing and not "
-"all containers make use of them (but most do):"
-msgstr ""
-"尺寸标记独立于垂直和水平尺寸, 并不是所有容器都使用它们(但大多数容器都使用):"
-
 msgid ""
 "**Fill**: Ensures the control *fills* the designated area within the "
 "container. No matter if a control *expands* or not (see below), it will only "
@@ -112,52 +90,6 @@ msgid ""
 msgstr ""
 "**Fill填充** : 确保控件 *fills填充* 容器内指定的区域. 无论控件是否 *expands扩"
 "展* (见下面), 当此选项被选中时(默认情况), 只 *填充* 指定区域."
-
-#, fuzzy
-msgid ""
-"**Expand**: Attempts to use as much space as possible in the parent "
-"container (in each axis). Controls that don't expand will be pushed away by "
-"those that do. Between expanding controls, the amount of space they take "
-"from each other is determined by the *Stretch Ratio* (see below). This "
-"option is only available when the parent Container is of the right type, for "
-"example the *HBoxContainer* has this option for horizontal sizing."
-msgstr ""
-"**Expand扩展** : 试图在父容器中尽可能多地使用空间(在每个轴中). 不展开的控件会"
-"被展开的控件推开. 在扩展的控件之间, 它们相互占用的空间大小由 *Ratio* 决定(见"
-"下文)."
-
-#, fuzzy
-msgid ""
-"**Shrink Begin** When expanding, try to remain at the left or top of the "
-"expanded area."
-msgstr ""
-"**Shrink Center收缩中心** 当扩展时(如果不填充), 尽量保持在扩展区域的中心(默认"
-"情况下, 它仍然位于左侧或顶部)."
-
-#, fuzzy
-msgid ""
-"**Shrink Center** When expanding, try to remain at the center of the "
-"expanded area."
-msgstr ""
-"**Shrink Center收缩中心** 当扩展时(如果不填充), 尽量保持在扩展区域的中心(默认"
-"情况下, 它仍然位于左侧或顶部)."
-
-#, fuzzy
-msgid ""
-"**Shrink End** When expanding, try to remain at the right or bottom of the "
-"expanded area."
-msgstr ""
-"**Shrink Center收缩中心** 当扩展时(如果不填充), 尽量保持在扩展区域的中心(默认"
-"情况下, 它仍然位于左侧或顶部)."
-
-#, fuzzy
-msgid ""
-"**Stretch Ratio**: The ratio of how much expanded controls take up the "
-"available space in relation to each other. A control with \"2\", will take "
-"up twice as much available space as one with \"1\"."
-msgstr ""
-"**Ratio比例** 扩展控件之间, 相互占用可用空间的简单比例. 一个比例为 \"2\" 的控"
-"件, 将占用比例为 \"1\" 控件的两倍可用空间."
 
 msgid ""
 "Experimenting with these flags and different containers is recommended to "
@@ -174,17 +106,6 @@ msgstr "Godot提供了几种开箱即用的容器类型, 因为它们有不同�
 
 msgid "Box Containers"
 msgstr "盒式容器"
-
-#, fuzzy
-msgid ""
-"Arranges child controls vertically or horizontally (via :ref:`HBoxContainer "
-"<class_HBoxContainer>` and :ref:`VBoxContainer <class_VBoxContainer>`). In "
-"the opposite of the designated direction (as in, vertical for a horizontal "
-"container), it just expands the children."
-msgstr ""
-"将子控件垂直或者水平排列（使用 :ref:`HBoxContainer <class_HBoxContainer>` "
-"和 :ref:`VBoxContainer <class_VBoxContainer>` ）。而在相对方向上（比如水平容"
-"器的垂直方向），子节点会被扩展。"
 
 msgid ""
 "These containers make use of the *Ratio* property for children with the "
@@ -270,17 +191,6 @@ msgstr "可以通过拖动分隔线来调整两个子节点所占区域的大小
 msgid "PanelContainer"
 msgstr "PanelContainer"
 
-#, fuzzy
-msgid ""
-"A container that draws a *StyleBox*, then expands children to cover its "
-"whole area (via :ref:`PanelContainer <class_PanelContainer>`, respecting the "
-"*StyleBox* margins). It respects both the horizontal and vertical sizing "
-"options."
-msgstr ""
-"绘制 *StyleBox* 的简单容器，会将子节点扩大到整个区域（使用 :ref:"
-"`PanelContainer <class_PanelContainer>`\\ ，会考虑 *StyleBox* 的边距）。它同"
-"时考虑水平和垂直尺寸标志。"
-
 msgid ""
 "This container is useful as top-level, or just to add custom backgrounds to "
 "sections of a layout."
@@ -288,18 +198,6 @@ msgstr "这个容器作为顶层非常有用, 或者只是为布局各个部分�
 
 msgid "ScrollContainer"
 msgstr "ScrollContainer"
-
-#, fuzzy
-msgid ""
-"Accepts a single child node. If this node is bigger than the container, "
-"scrollbars will be added to allow panning the node around (via :ref:"
-"`ScrollContainer <class_ScrollContainer>`). Both vertical and horizontal "
-"size options are respected, and the behavior can be turned on or off per "
-"axis in the properties."
-msgstr ""
-"接受一个单独的子节点. 如果这个节点比容器大, 将添加滚动条以允许移动节点（通"
-"过 :ref:`ScrollContainer <class_ScrollContainer>`\\ ）。垂直和水平尺寸标志都"
-"会被遵守，该行为可以在属性中的每个轴上打开或关闭."
 
 msgid ""
 "Mouse wheel and touch drag (when touch is available) are also valid ways to "
@@ -313,80 +211,11 @@ msgstr ""
 "正如上面的例子中所展示的，使用此容器最常见的方法之一，是将 *VBoxContainer* 作"
 "为子容器一起使用。"
 
-#, fuzzy
-msgid "AspectRatioContainer"
-msgstr "SplitContainer"
-
-msgid ""
-"A container type that arranges its child controls in a way that preserves "
-"their proportions automatically when the container is resized. (via :ref:"
-"`AspectRatioContainer <class_AspectRatioContainer>`). It has multiple "
-"stretch modes, providing options for adjusting the child controls' sizes "
-"concerning the container: \"fill,\" \"width control height,\" \"height "
-"control width,\" and \"cover.\""
-msgstr ""
-
-msgid ""
-"useful when you have a container that needs to be dynamic and responsive to "
-"different screen sizes, and you want the child elements to scale "
-"proportionally without losing their intended shapes."
-msgstr ""
-
-#, fuzzy
-msgid "FlowContainer"
-msgstr "容器"
-
-#, fuzzy
-msgid ""
-"FlowContainer is a container that arranges its child controls either "
-"horizontally or vertically, (via :ref:`HFlowContainer "
-"<class_HFlowContainer>` and via :ref:`VFlowContainer "
-"<class_VFlowContainer>`). and when the available space runs out, it wraps "
-"the children to the next line or column, similar to how text wraps in a book."
-msgstr ""
-"将子控件垂直或者水平排列（使用 :ref:`HBoxContainer <class_HBoxContainer>` "
-"和 :ref:`VBoxContainer <class_VBoxContainer>` ）。而在相对方向上（比如水平容"
-"器的垂直方向），子节点会被扩展。"
-
-msgid ""
-"useful for creating flexible layouts where the child controls adjust "
-"automatically to the available space without overlapping."
-msgstr ""
-
-#, fuzzy
-msgid "CenterContainer"
-msgstr "PanelContainer"
-
-msgid ""
-"CenterContainer is a container that automatically keeps all of its child "
-"controls centered within it at their minimum size. It ensures that the child "
-"controls are always aligned to the center, making it easier to create "
-"centered layouts without manual positioning. (via :ref:`CenterContainer "
-"<class_CenterContainer>`)."
-msgstr ""
-
 msgid "SubViewportContainer"
 msgstr "SubViewportContainer"
 
-#, fuzzy
-msgid ""
-"This is a special control that will only accept a single *Viewport* node as "
-"child, and it will display it as if it was an image (via :ref:"
-"`SubViewportContainer <class_SubViewportContainer>`)."
-msgstr ""
-"这是一个特殊的控件，只接受单个 *Viewport* 节点作为子节点，并且会把它作为图片"
-"显示（使用 :ref:`ViewportContainer <class_ViewportContainer>`）。"
-
 msgid "Creating custom Containers"
 msgstr "创建自定义容器"
-
-#, fuzzy
-msgid ""
-"It is possible to create a custom container using a script. Here is an "
-"example of a container that fits children to its rect size:"
-msgstr ""
-"可以使用脚本轻松地创建自定义容器。下面是一个简单容器的例子，它会根据自身的矩"
-"形尺寸调整子节点："
 
 msgid "Translation status"
 msgstr "翻译状态"

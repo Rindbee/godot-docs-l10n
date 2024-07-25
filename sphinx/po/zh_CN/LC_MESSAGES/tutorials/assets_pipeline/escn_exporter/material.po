@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -132,12 +127,6 @@ msgid ""
 msgstr ""
 "材料导出的默认配置会将所有材质保留在 ``escn`` 文件内部. 有一个选项可以确保, "
 "在Godot中打开 ``escn`` 文件时生成外部 ``.material`` 文件."
-
-#, fuzzy
-msgid ""
-"``.material`` file can be assigned to any material slot to be an external "
-"resource."
-msgstr "``.material`` 文件可以分配到任何材料插槽, 以作为一个外部资源."
 
 msgid "Translation status"
 msgstr "翻译状态"

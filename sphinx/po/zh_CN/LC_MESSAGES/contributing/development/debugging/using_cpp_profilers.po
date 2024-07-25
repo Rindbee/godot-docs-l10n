@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,16 +20,6 @@ msgid ""
 "this end, profilers are useful tools."
 msgstr ""
 "要优化 Godot 的性能，你首先得知道要优化什么，性能分析器在这方面非常有用。"
-
-#, fuzzy
-msgid ""
-"There is a :ref:`built-in GDScript profiler <doc_the_profiler>` in the "
-"editor, but using C++ profiler may be useful in cases where the GDScript "
-"profiler is not accurate enough or is missing information due to bugs in the "
-"profiler."
-msgstr ""
-"编辑器中内置了一个 GDScript 的性能分析器，但在 GDScript 性能分析器不够精确或"
-"者因为问题而缺失信息时，就可以使用 C++ 性能分析器。"
 
 msgid "Recommended profilers"
 msgstr "性能分析器推荐"
@@ -78,15 +63,6 @@ msgstr ""
 "如果想要获取与生产环境最接近的性能分析数据，你应该使用如下 SCons 选项来编译程"
 "序。"
 
-#, fuzzy
-msgid ""
-"It is possible to run a profiler on less optimized builds (e.g. "
-"``target=template_debug`` without LTO), but results will naturally be less "
-"representative of real world conditions."
-msgstr ""
-"关闭部分优化的构建版本（比如 ``target=debug`` 但不开 LTO）也能用于性能分析，"
-"但得到的结果显然会和实际运行时的情况会有一定差距。"
-
 msgid ""
 "Do *not* strip debugging symbols on the binaries using the ``strip`` command "
 "after compiling the binaries. Otherwise, you will no longer get useful "
@@ -120,17 +96,6 @@ msgstr "性能分析器指令"
 
 msgid "VerySleepy"
 msgstr "VerySleepy"
-
-#, fuzzy
-msgid ""
-"Start the Godot editor or your project first. If you start the Project "
-"Manager, make sure to edit or run a project first. Otherwise, the profiler "
-"will not track the child process since the Project Manager will spawn a "
-"child process for every project edited or run."
-msgstr ""
-"首先启动 Godot 编辑器或者你的项目。如果启动的是项目管理器，请先编辑或者运行项"
-"目。项目管理器会在编辑或运行项目时产生新的子进程，而性能分析器是无法追踪子进"
-"程的。"
 
 msgid ""
 "Open VerySleepy and select the Godot executable in the list of processes on "

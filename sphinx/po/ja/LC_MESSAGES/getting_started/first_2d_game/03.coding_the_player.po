@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,22 +52,6 @@ msgstr ""
 
 msgid "Start by declaring the member variables this object will need:"
 msgstr "まず、このオブジェクトに必要なメンバー変数を宣言します:"
-
-#, fuzzy
-msgid ""
-"Using the ``export`` keyword on the first variable ``speed`` allows us to "
-"set its value in the Inspector. This can be handy for values that you want "
-"to be able to adjust just like a node's built-in properties. Click on the "
-"``Player`` node and you'll see the property now appears in the Inspector in "
-"a new section with the name of the script. Remember, if you change the value "
-"here, it will override the value written in the script."
-msgstr ""
-"最初の変数 ``speed`` で ``export`` キーワードを使用すると、インスペクタでその"
-"値を設定できるようになります。これは、値をノードの組み込みプロパティのように"
-"調整できるようにする場合に便利です。 ``Player`` ノードをクリックすると、イン"
-"スペクタの \"Script Variables\" セクションにプロパティが表示されます。ここで"
-"値を変更すると、スクリプトに記述された値よりも優先されることに注意してくださ"
-"い。"
 
 msgid ""
 "If you're using C#, you need to (re)build the project assemblies whenever "
@@ -278,14 +257,6 @@ msgstr ""
 "`_process()` 関数の `delta` パラメーターは *フレームの長さ* - 前のフレームが"
 "完了するまでに要した時間を参照します。この値を使うことで、動きの処理はフレー"
 "ムレートの変動の影響を受けなくなります。"
-
-#, fuzzy
-msgid ""
-"Click \"Run Current Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm "
-"you can move the player around the screen in all directions."
-msgstr ""
-"「シーンを実行」( :kbd:`F6` 、macOSでは :kbd:`Cmd + R` )をクリックして、画面"
-"上で全方向にプレイヤーを移動できることを確認してください。"
 
 msgid "If you get an error in the \"Debugger\" panel that says"
 msgstr "「デバッガ」パネルで以下のようなエラーが発生した場合"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,13 +221,11 @@ msgstr "``[annotation Class.name]``"
 msgid "Link to annotation"
 msgstr "Link zur Annotation"
 
-#, fuzzy
 msgid "``See [annotation @GDScript.@rpc].``"
-msgstr "``See [annotation @GDScript.@export].``"
+msgstr "``See [annotation @GDScript.@rpc].``"
 
-#, fuzzy
 msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr "See :ref:`@GDScript.@export <class_@GDScript_annotation_@export>`."
+msgstr "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
 
 msgid "``[constant Class.name]``"
 msgstr "``[constant Class.name]``"
@@ -240,13 +233,11 @@ msgstr "``[constant Class.name]``"
 msgid "Link to constant"
 msgstr "Link zur Konstante"
 
-#, fuzzy
 msgid "``See [constant Color.RED].``"
-msgstr "``See [constant @GlobalScope.KEY_F1].``"
+msgstr "``See [Konstante Color.RED].``"
 
-#, fuzzy
 msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr ":ref:`Color <class_Color>`"
+msgstr "Siehe :ref:`Color.RED <class_Color_constant_RED>`."
 
 msgid "``[enum Class.name]``"
 msgstr "``[enum Class.name]``"
@@ -284,35 +275,29 @@ msgstr "``Call [method Node3D.hide].``"
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 
-#, fuzzy
 msgid "``[constructor Class.name]``"
-msgstr "``[constant Class.name]``"
+msgstr "``[constructor Class.name]``"
 
-#, fuzzy
 msgid "Link to built-in constructor"
-msgstr "Statischer Konstruktor"
+msgstr "Link zum Built-in-Konstruktor"
 
 msgid "``Use [constructor Color.Color].``"
-msgstr ""
+msgstr "``Verwenden Sie [constructor Color.Color].``"
 
-#, fuzzy
 msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr ":ref:`Color <class_Color>`"
+msgstr "Verwenden Sie :ref:`Color.Color <class_Color_constructor_Color>`."
 
-#, fuzzy
 msgid "``[operator Class.name]``"
-msgstr "``[method Class.name]``"
+msgstr "``[operator Class.name]``"
 
-#, fuzzy
 msgid "Link to built-in operator"
-msgstr "Vektor-Built-in-Typen"
+msgstr "Link zum Built-in-Operator"
 
 msgid "``Use [operator Color.operator *].``"
-msgstr ""
+msgstr "``Verwenden Sie [operator Color.operator *].``"
 
-#, fuzzy
 msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr ":ref:`Color <class_Color>`"
+msgstr "Verwenden Sie :ref:`Color.operator * <class_Color_operator_mul_int>`."
 
 msgid "``[signal Class.name]``"
 msgstr "``[signal Class.name]``"
@@ -341,9 +326,8 @@ msgstr "See :ref:`Label.font <class_Label_theme_font_font>`."
 msgid "``[param name]``"
 msgstr "``[param name]``"
 
-#, fuzzy
 msgid "Parameter name (as code)"
-msgstr "Formatiert einen Parameter-Namen (als Code)"
+msgstr "Parameter-Name (als Code)"
 
 msgid "``Takes [param size] for the size.``"
 msgstr "``Takes [param size] for the size.``"
@@ -375,22 +359,17 @@ msgstr "Line 1."
 msgid "Line 2."
 msgstr "Line 2."
 
-#, fuzzy
 msgid "``[lb]`` ``[rb]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[lb]`` ``[rb]``"
 
-#, fuzzy
 msgid "``[`` and ``]`` respectively"
-msgstr ""
-"Fügt ``[`` bzw. ``]`` hinzu. Ermöglicht das Maskieren von BBCode Markup."
+msgstr "``[`` bzw. ``]``"
 
-#, fuzzy
 msgid "``[lb]b[rb]text[lb]/b[rb]``"
-msgstr "``[b]{text}[/b]``"
+msgstr "``[lb]b[rb]text[lb]/b[rb]``"
 
-#, fuzzy
 msgid "[b]text[/b]"
-msgstr "``[b]{text}[/b]``"
+msgstr "[b]text[/b]"
 
 msgid "``[b]`` ``[/b]``"
 msgstr "``[b]`` ``[/b]``"
@@ -398,12 +377,11 @@ msgstr "``[b]`` ``[/b]``"
 msgid "Bold"
 msgstr "Fett"
 
-#, fuzzy
 msgid "``Do [b]not[/b] call this method.``"
-msgstr "``Some [b]bold[/b] text.``"
+msgstr "``Do [b]not[/b] call this method.``"
 
 msgid "Do **not** call this method."
-msgstr ""
+msgstr "Rufen Sie diese Methode **nicht** auf."
 
 msgid "``[i]`` ``[/i]``"
 msgstr "``[i]`` ``[/i]``"
@@ -412,65 +390,55 @@ msgid "Italic"
 msgstr "Kursiv"
 
 msgid "``Returns the [i]global[/i] position.``"
-msgstr ""
+msgstr "``Gibt die [i]globale[/i] Position zurück.``"
 
-#, fuzzy
 msgid "Returns the *global* position."
-msgstr "die Position des Spielers ermitteln."
+msgstr "Gibt die *globale* Position zurück."
 
-#, fuzzy
 msgid "``[u]`` ``[/u]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[u]`` ``[/u]``"
 
-#, fuzzy
 msgid "Underline"
-msgstr "Interlingue"
+msgstr "Unterstreichen"
 
 msgid "``[u]Always[/u] use this method.``"
-msgstr ""
+msgstr "``Verwenden Sie [u]immer[/u] diese Methode.``"
 
-#, fuzzy
 msgid "``[s]`` ``[/s]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[s]`` ``[/s]``"
 
 msgid "Strikethrough"
-msgstr ""
+msgstr "Durchgestrichen"
 
 msgid "``[s]Outdated information.[/s]``"
-msgstr ""
+msgstr "``[s]Veraltete Informationen.[/s]``"
 
-#, fuzzy
 msgid "``[url]`` ``[/url]``"
-msgstr "``[b]`` ``[/b]``"
+msgstr "``[url]`` ``[/url]``"
 
-#, fuzzy
 msgid "Hyperlink"
-msgstr "Hyperbolischer Sinus."
+msgstr "Hyperlink"
 
 msgid "``[url]https://example.com[/url]``"
-msgstr ""
+msgstr "``[url]https://example.com[/url]``"
 
 msgid "``[url=https://example.com]Website[/url]``"
-msgstr ""
+msgstr "``[url=https://example.com]Website[/url]``"
 
 msgid "https://example.com"
-msgstr ""
+msgstr "https://example.com"
 
-#, fuzzy
 msgid "`Website <https://example.com>`_"
-msgstr "`Git <https://git-scm.com/>`_"
+msgstr "`Website <https://example.com>`_"
 
-#, fuzzy
 msgid "``[center]`` ``[/center]``"
-msgstr "``[center]{text}[/center]``"
+msgstr "``[center]`` ``[/center]``"
 
-#, fuzzy
 msgid "Horizontal centering"
-msgstr "Horizontaler Tabulator"
+msgstr "Horizontale Zentrierung"
 
-#, fuzzy
 msgid "``[center]2 + 2 = 4[/center]``"
-msgstr "``[center]{text}[/center]``"
+msgstr "``[center]2 + 2 = 4[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -478,71 +446,75 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Tasten/Maus-Kürzel"
 
-#, fuzzy
 msgid "``Press [kbd]Ctrl + C[/kbd].``"
-msgstr "``Some [kbd]Ctrl + C[/kbd] key.``"
+msgstr "``Press [kbd]Ctrl + C[/kbd].``"
 
-#, fuzzy
 msgid "Press :kbd:`Ctrl + C`."
-msgstr ":kbd:`Strg + C`"
+msgstr "Drücken Sie :kbd:`Strg + C`."
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
 msgid "Inline code fragment"
-msgstr ""
+msgstr "Inline-Code-Fragment"
 
-#, fuzzy
 msgid "``Returns [code]true[/code].``"
-msgstr "``[code]{text}[/code]``"
+msgstr "``Returns [code]true[/code].``"
 
-#, fuzzy
 msgid "Returns ``true``."
-msgstr "Rückgabetyp"
+msgstr "Gibt ``true`` zurück."
 
 msgid ""
 "Some supported tags like ``[color]`` and ``[font]`` are not listed here "
 "because they are not recommended in the engine documentation."
 msgstr ""
+"Einige unterstützte Tags wie ``[color]`` und ``[font]`` sind hier nicht "
+"aufgeführt, da sie in der Dokumentation der Engine nicht empfohlen werden."
 
-#, fuzzy
 msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
-msgstr "``[code]`` deaktiviert BBCode, bis der Parser auf ``[/code]`` trifft."
+msgstr "``[kbd]`` deaktiviert BBCode, bis der Parser auf ``[/kbd]`` trifft."
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
 msgstr "``[code]`` deaktiviert BBCode, bis der Parser auf ``[/code]`` trifft."
 
-#, fuzzy
 msgid "Formatting code blocks"
-msgstr "Codeformatierung"
+msgstr "Formatierung von Codeblöcken"
 
-#, fuzzy
 msgid "There are two options for formatting code blocks:"
-msgstr "Es gibt zwei Systeme für die Registrierung von Typen:"
+msgstr "Für die Formatierung von Codeblöcken gibt es zwei Möglichkeiten:"
 
 msgid ""
 "Use ``[codeblock]`` if you want to add an example for a specific language."
 msgstr ""
+"Verwenden Sie ``[codeblock]``, wenn Sie ein Beispiel für eine bestimmte "
+"Sprache hinzufügen möchten."
 
 msgid ""
 "Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
 "the same example for both languages, GDScript and C#."
 msgstr ""
+"Verwenden Sie ``[codeblocks]``, ``[gdscript]`` und ``[csharp]``, wenn Sie "
+"das gleiche Beispiel für beide Sprachen, GDScript und C#, hinzufügen möchten."
 
 msgid ""
 "By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
 "using the ``lang`` attribute. Currently supported options are:"
 msgstr ""
+"Standardmäßig verwendet ``[codeblock]`` das GDScript-Syntax-Highlighting. "
+"Sie können dies mit dem Attribut ``lang`` ändern. Derzeit unterstützte "
+"Optionen sind:"
 
 msgid "``[codeblock lang=text]`` disables syntax highlighting;"
-msgstr ""
+msgstr "``[codeblock lang=text]`` deaktiviert das Syntax-Highlighting;"
 
 msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr ""
+msgstr "``[codeblock lang=text]`` verwendet GDScript-Syntax-Highlighting;"
 
 msgid ""
 "``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
 msgstr ""
+"``[codeblock lang=csharp]`` verwendet C#-Syntax-Highlighting (nur in der ."
+"NET-Version)."
 
 msgid ""
 "``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
@@ -586,9 +558,8 @@ msgstr ""
 msgid "The above will display as:"
 msgstr "Der obige Code wird wie folgt angezeigt:"
 
-#, fuzzy
 msgid "Formatting notes and warnings"
-msgstr "Meldung von Warnungen bei der Node-Konfiguration"
+msgstr "Formatierungshinweise und Warnungen"
 
 msgid ""
 "To denote important information, add a paragraph starting with \"[b]Note:[/"
@@ -614,9 +585,8 @@ msgstr ""
 "Stellen Sie in allen oben beschriebenen Abschnitten sicher, dass die "
 "Interpunktion aus Gründen der Konsistenz Teil der BBCode-Tags ist."
 
-#, fuzzy
 msgid "Marking API as deprecated/experimental"
-msgstr "Tutorials und Kennzeichnungen für veralteten/experimentellen Code."
+msgstr "Kennzeichnung der API als veraltet/experimentell"
 
 msgid ""
 "To mark an API as deprecated or experimental, you need to add the "
@@ -626,6 +596,12 @@ msgid ""
 "as deprecated/experimental, then it is considered documented even if the "
 "description is empty."
 msgstr ""
+"Um eine API als veraltet oder experimentell zu kennzeichnen, müssen Sie das "
+"entsprechende XML-Attribut hinzufügen. Der Wert des Attributs muss eine "
+"Nachricht sein, die erklärt, warum die API nicht empfohlen wird (BBCode-"
+"Markup wird unterstützt), oder ein leerer String (die Standardnachricht wird "
+"verwendet). Wenn ein API-Element als veraltet/experimentell gekennzeichnet "
+"ist, gilt es als dokumentiert, auch wenn die Beschreibung leer ist."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

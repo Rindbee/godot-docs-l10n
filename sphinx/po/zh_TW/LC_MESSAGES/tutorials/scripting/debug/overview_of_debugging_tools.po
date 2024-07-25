@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,30 +65,9 @@ msgid "Deploy with Remote Debug"
 msgstr "部署並啟用遠端偵錯"
 
 msgid ""
-"When this option is enabled, using one-click deploy will make the executable "
-"attempt to connect to this computer's IP so the running project can be "
-"debugged. This option is intended to be used for remote debugging (typically "
-"with a mobile device). You don't need to enable it to use the GDScript "
-"debugger locally."
-msgstr ""
-
-#, fuzzy
-msgid "Small Deploy with Network Filesystem"
-msgstr "使用網路檔案系統進行小型部署"
-
-msgid ""
 "This option speeds up testing for games with a large footprint on remote "
 "devices."
 msgstr "這個選項加快了在遠端裝置上進行大足跡遊戲的測試."
-
-#, fuzzy
-msgid ""
-"When **Small Deploy with Network Filesystem** is on, instead of exporting "
-"the full game, deploying the game builds a minimal executable. The editor "
-"then provides files from the project over the network."
-msgstr ""
-"當**使用網路檔案系統進行小型部署**開啟時，部署遊戲不是匯出整個遊戲，而是建立"
-"一個最小的可執行檔。然後，編輯器通過網路提供專案中的檔。"
 
 msgid ""
 "Also, on Android, the game is deployed using the USB cable to speed up "
@@ -103,202 +77,8 @@ msgstr "另外，在 Android 系統上，遊戲採用 USB 線部署，加快部�
 msgid "Visible Collision Shapes"
 msgstr "顯示碰撞區域"
 
-#, fuzzy
-msgid ""
-"When this option is enabled, collision shapes and raycast nodes (for 2D and "
-"3D) will be visible in the running project."
-msgstr "這個選項使碰撞形狀和射線傳輸節點在運作的遊戲中可見."
-
-#, fuzzy
-msgid "Visible Paths"
-msgstr "Visible Speech"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, curve resources used by path nodes will be "
-"visible in the running project."
-msgstr "這個選項使碰撞形狀和射線傳輸節點在運作的遊戲中可見."
-
 msgid "Visible Navigation"
 msgstr "顯示導覽"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, navigation meshes, and polygons will be visible "
-"in the running project."
-msgstr "可以在運作的遊戲的時候看到導覽網格和多邊形."
-
-#, fuzzy
-msgid "Visible Avoidance"
-msgstr "顯示導覽"
-
-msgid ""
-"When this option is enabled, avoidance object shapes, radiuses, and "
-"velocities will be visible in the running project."
-msgstr ""
-
-#, fuzzy
-msgid "Debug CanvasItem Redraws"
-msgstr "CanvasItem 著色器"
-
-msgid ""
-"When this option is enabled, redraw requests of 2D objects will become "
-"visible (as a short flash) in the running project. This is useful to "
-"troubleshoot low processor mode."
-msgstr ""
-
-#, fuzzy
-msgid "Synchronize Scene Changes"
-msgstr "同步場景改動"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, any changes made to the scene in the editor "
-"will be replicated in the running project. When used remotely on a device, "
-"this is more efficient when the network filesystem option is enabled."
-msgstr ""
-"使用此選項, 在運作時對編輯器中的場景所做的任何更改都會立即顯示. 當在裝置上遠"
-"端使用時, 這對網路檔案系統來說更為有效."
-
-#, fuzzy
-msgid "Synchronize Script Changes"
-msgstr "同步腳本改動"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, any changes made to the script in the editor "
-"will be reloaded in the running project. When used remotely on a device, "
-"this is more efficient with the network filesystem."
-msgstr ""
-"使用此選項, 在運作時對編輯器中的場景所做的任何更改都會立即顯示. 當在裝置上遠"
-"端使用時, 這對網路檔案系統來說更為有效."
-
-msgid "Keep Debug Server Open"
-msgstr ""
-
-msgid ""
-"When this option is enabled, the editor debug server will stay open and "
-"listen for new sessions started outside of the editor itself."
-msgstr ""
-
-msgid "Customize Run Instances..."
-msgstr ""
-
-msgid ""
-"This opens a dialog allowing you to tell Godot to run multiple instances of "
-"the game at once, and to specify the command line arguments for each "
-"instance. This is especially useful when building and debugging multiplayer "
-"games."
-msgstr ""
-
-#, fuzzy
-msgid "Enable Multiple Instances"
-msgstr "使用 MultiMeshInstance3D"
-
-msgid ""
-"When this option is enabled, the editor will run multiple instances of the "
-"project at once when you Run Project."
-msgstr ""
-
-msgid "Below this checkbox is a selector to pick how many instances to run."
-msgstr ""
-
-msgid ""
-"Checking the box and setting this to only 1 is the same as not checking this "
-"box at all."
-msgstr ""
-
-msgid "Main Run Args"
-msgstr ""
-
-msgid ""
-"These are the arguments that will be passed to **every** instance of the "
-"project when you Run Project, unless you select \"Enabled\" under \"Override "
-"Main Run Args\" for a specific instance."
-msgstr ""
-
-msgid "Note that these arguments are space-separated."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"These arguments can be accessed in your script by using :ref:"
-"`get_cmdline_args<class_OS_method_get_cmdline_args>`."
-msgstr ""
-"自訂命令列解析可以由測試工具本身在 OS "
-"get_cmdline_args<class_OS_method_get_cmdline_args>` 方法的幫助下執行。"
-
-msgid ""
-"Even if you uncheck \"Enable Multiple Instances\" these arguments will be "
-"passed when you Run Project."
-msgstr ""
-
-#, fuzzy
-msgid "Main Feature Tags"
-msgstr "功能標籤"
-
-msgid ""
-"These are the feature tags that will be passed to **every** instance of the "
-"project when you Run Project, unless you select \"Enabled\" under \"Override "
-"Main Tags\" for a specific instance."
-msgstr ""
-
-msgid "Override Main Run Args"
-msgstr ""
-
-msgid ""
-"When this is enabled, the arguments in the \"Main Run Args\" field will "
-"**not be passed** to this specific instance of the project when you Run "
-"Project."
-msgstr ""
-
-#, fuzzy
-msgid "Launch Arguments"
-msgstr "參數"
-
-msgid ""
-"These are the arguments that will be passed to this specific instance of the "
-"project when you Run Project. They will be **combined with** the \"Main Run "
-"Args\" unless you select \"Enabled\" under \"Override Main Run Args\"."
-msgstr ""
-
-#, fuzzy
-msgid "Override Main Tags"
-msgstr "覆蓋軸"
-
-msgid ""
-"When this is enabled, the tags in the \"Main Feature Tags\" field will **not "
-"be passed** to this specific instance of the project when you Run Project."
-msgstr ""
-
-#, fuzzy
-msgid "Feature Tags"
-msgstr "功能標籤"
-
-msgid ""
-"These are the feature tags that will be passed to this specific instance of "
-"the project when you Run Project. They will be **combined with** the \"Main "
-"Feature Tags\" unless you select \"Enabled\" under \"Override Main Tags\"."
-msgstr ""
-
-msgid ""
-"If you want to pass \"User\" arguments, that can be accessed with :ref:"
-"`get_cmdline_user_args<class_OS_method_get_cmdline_user_args>` then you must "
-"prefix them with two dashes **and a space** like `-- one two three`."
-msgstr ""
-
-msgid ""
-"Be aware that these dashes will apply to arguments added later in the "
-"\"Launch Arguments\" on a per instance basis, which can cause some confusion "
-"when combining the `Main Run Args` and `Launch Arguments`."
-msgstr ""
-
-msgid ""
-"If you place `-- one two three` in the \"Main Run Args\" and `-- four five "
-"six` in the \"Launch Arguments\" then the final command line arguments will "
-"be `one two three -- four five six`. This is because the `--` is repeated in "
-"the \"Launch Arguments\"."
-msgstr ""
 
 msgid "Script editor debug tools and options"
 msgstr "腳本編輯器除錯工具和選項"
@@ -324,17 +104,6 @@ msgstr ""
 "點。再次點選紅點即可刪除斷點。以這種方式建立的斷點在編輯器重新啟動後仍然存"
 "在，即使退出編輯器時未儲存腳本也是如此。"
 
-#, fuzzy
-msgid ""
-"You can also use the ``breakpoint`` keyword in GDScript to create a "
-"breakpoint that is stored in the script itself. Unlike breakpoints created "
-"by clicking in the gutter, this keyword-based breakpoint is persistent "
-"across different machines when using version control."
-msgstr ""
-"您也可以使用 GDScript 中的「breakpoint」關鍵字來建立儲存在腳本本身中的斷點。"
-"與透過點擊裝訂線建立的斷點不同，使用版本控制時，這種基於關鍵字的斷點在不同的"
-"電腦上是持久的。"
-
 msgid ""
 "The **Break** button causes a break in the script like a breakpoint would. "
 "**Continue** makes the game continue after pausing at a breakpoint. **Step "
@@ -344,15 +113,6 @@ msgstr ""
 "**中斷點** 按鈕會像中斷點一樣導致腳本的中斷. **繼續** 使遊戲在中斷點處暫停後"
 "繼續. **Step Over** 進入下一行程式碼, 如果可能的話, **Step Into** 進入一個函"
 "式. 否則, 它與 **Step Over** 做同樣的事情."
-
-#, fuzzy
-msgid ""
-"The **Debug with External Editor** option lets you debug your game with an "
-"external editor. This option is also accessible in **Editor Settings > "
-"Debugger**."
-msgstr ""
-"**Keep Debugger Open** 選項可以使除錯器在關閉場景後保持打開狀態。而 **Debug "
-"with External Editor** 選項可以讓你用外部編輯器除錯遊戲。"
 
 msgid ""
 "When the debugger breaks on a breakpoint, a green triangle arrow is visible "

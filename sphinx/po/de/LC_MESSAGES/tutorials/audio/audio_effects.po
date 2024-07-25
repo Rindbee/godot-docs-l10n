@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -268,9 +263,8 @@ msgstr ""
 "Filter ist das, was alle anderen Filter erben, es sollte nicht direkt "
 "verwendet werden."
 
-#, fuzzy
 msgid "HardLimiter"
-msgstr "Limiter"
+msgstr "HardLimiter"
 
 msgid ""
 "A limiter is similar to a compressor, but it's less flexible and designed to "
@@ -307,17 +301,25 @@ msgid ""
 "This is the old limiter effect, and it is recommended to use the new "
 "HardLimiter effect instead."
 msgstr ""
+"Dies ist der alte Limiter-Effekt, und es wird empfohlen, stattdessen den "
+"neuen HardLimiter-Effekt zu verwenden."
 
 msgid ""
 "Here is an example of how this effect works, if the ceiling is set to -12 "
 "dB, and the threshold is 0 dB, all samples going through get reduced by "
 "12dB. This changes the waveform of the sound and introduces distortion."
 msgstr ""
+"Hier ein Beispiel dafür, wie dieser Effekt funktioniert: Wenn die Obergrenze "
+"auf -12 dB eingestellt ist und der Schwellenwert 0 dB beträgt, werden alle "
+"durchlaufenden Samples um 12 dB reduziert. Dadurch wird die Wellenform des "
+"Klangs verändert und es kommt zu Verzerrungen."
 
 msgid ""
 "This effect is being kept to preserve compatibility, however it should be "
 "considered deprecated."
 msgstr ""
+"Dieser Effekt wird aus Kompatibilitätsgründen beibehalten, sollte aber als "
+"veraltet betrachtet werden."
 
 msgid "LowPassFilter"
 msgstr "LowPassFilter"

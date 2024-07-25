@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +55,7 @@ msgstr "image1"
 
 msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr ""
+"Wenn Sie noch *Input Map* geöffnet haben, wechseln Sie zum Tab *Allgemein*."
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -108,7 +104,7 @@ msgstr ""
 "der Kameravorschau am unteren Rand. Wenn das nicht der Fall ist, drücken "
 "Sie :kbd:`Strg + 2` (:kbd:`Cmd + 2` unter macOS), um die Ansicht in zwei "
 "Teile zu teilen. Wählen Sie den :ref:`Camera3D <class_Camera3D>`-Node und "
-"klicken Sie auf das Kontrollkästchen *Vorschau* im unteren Viewport."
+"klicken Sie auf die Checkbox *Vorschau* im unteren Viewport."
 
 msgid "|image3|"
 msgstr "|image3|"
@@ -541,8 +537,9 @@ msgid ""
 "Note that if you remove the ``Player`` from the main scene, the following "
 "line"
 msgstr ""
+"Beachten Sie, dass, wenn Sie den ``Player`` aus der Hauptszene entfernen, "
+"die folgende Zeile"
 
-#, fuzzy
 msgid "gives an error because there is no $Player!"
 msgstr "einen Fehler liefert, weil es keinen $Player gibt!"
 

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,28 +16,10 @@ msgid "Using NavigationLayers"
 msgstr "使用 NavigationLayer"
 
 msgid ""
-"NavigationLayers are an optional feature to further control which navigation "
-"meshes are considered in a path query and which regions can be connected. "
-"They work similar to how physics layers control collision between collision "
-"objects or how visual layers control what is rendered to the Viewport."
-msgstr ""
-"NavigationLayers是一项可选功能，用于进一步控制在路径查询中考虑哪些导览网格以"
-"及可以连接哪些区域。它们的工作方式类似于物理层如何控制碰撞物件之间的碰撞或视"
-"觉层如何控制算绘到视窗的内容。"
-
-msgid ""
 "NavigationLayers can be named in the **ProjectSettings** the same as physics "
 "layers or visual layers."
 msgstr ""
 "NavigationLayers可以在 **ProjectSettings** 中与物理层或视觉层相同地命名。"
-
-msgid ""
-"If two regions have not a single compatible layer they will not be merged by "
-"the NavigationServer. See :ref:`doc_navigation_connecting_navmesh` for more "
-"information on merging navigation meshes."
-msgstr ""
-"如果两个区域没有一个兼容的层，NavigationServer将不会合并它们。有关合并导航网"
-"格的详细信息，请参见 :ref:`doc_navigation_connecting_navmesh` 。"
 
 msgid ""
 "If a region has not a single compatible navigation layer with the "
@@ -79,16 +56,6 @@ msgstr ""
 "更改路径查询的导览层是 enabling / disabling (启用/停用)整个导览区域的一种性能"
 "友善的替代方案。与区域变更相比，具有不同导览层的导览路径查询不会触发导览服务"
 "器上的大规模更新。"
-
-msgid ""
-"Changing the navigation layers of NavigationAgent nodes will have an "
-"immediate effect on the next path query. Changing the navigation layers of "
-"regions will have an immediate effect on the region but any new region "
-"connect or disconnect will only be in effect after the next physics frame."
-msgstr ""
-"更改NavigationAgent节点的导航层将对下一个路径查询产生直接影响。更改区域的导航"
-"层将立即对区域产生影响，但任何新的区域连接或断开连接都将仅在下一个物理帧之后"
-"生效。"
 
 msgid "Translation status"
 msgstr "翻译状态"

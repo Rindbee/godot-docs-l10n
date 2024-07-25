@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -241,16 +236,6 @@ msgstr ""
 "如果你需要算繪紋理上的半透明區域，Alpha 裁剪就不適用了。將 SpatialMaterial 的"
 "**參數 > 深度繪製模式**屬性設為 **Opaque Pre-Pass**（不透明預處理）有時候會有"
 "用（但會影響性能）。"
-
-#, fuzzy
-msgid ""
-"If you want a material to fade with distance, use the StandardMaterial3D "
-"distance fade mode **Pixel Dither** or **Object Dither** instead of **Pixel "
-"Alpha**. This will make the material opaque, which also speeds up rendering."
-msgstr ""
-"如果你想讓材質隨著距離增加而褪色, 使用StandardMaterial3D距離褪色模式 **Pixel "
-"Dither** 或 **Object Dither** 來代替 **PixelAlpha** , 這將使材質不透明, 它也"
-"可以投射陰影."
 
 msgid ""
 "Transparency sorting comparison (alpha-blended materials on the left, alpha "

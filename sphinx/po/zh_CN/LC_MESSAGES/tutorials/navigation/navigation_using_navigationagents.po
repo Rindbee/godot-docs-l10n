@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,23 +119,6 @@ msgid ""
 "NavigationAgents have their own internal logic to proceed with the current "
 "path and call for updates."
 msgstr "NavigationAgent有自己的内部逻辑来处理当前路径并调用更新。"
-
-#, fuzzy
-msgid ""
-"The ``get_next_path_position()`` function is responsible for updating many "
-"of the agent's internal states and properties. The function should be "
-"repeatedly called *once* every ``physics_process`` until "
-"``is_navigation_finished()`` tells that the path is finished. The function "
-"should not be called after the target position or path end has been reached "
-"as it can make the agent jitter in place due to the repeated path updates. "
-"Always check very early in script with ``is_navigation_finished()`` if the "
-"path is already finished."
-msgstr ""
-"``get_next_path_position()`` 函数负责更新代理的许多内部状态和属性。应重复调用"
-"该函数 *once* `physics_process` `，直到 ``is_navigation_finished()`` 告诉路径"
-"已完成。在到达目标位置或路径末端后不应调用该函数，因为它可能会由于重复的路径"
-"更新而使代理在适当的位置发生抖动。如果路径已经完成，请始终在脚本中尽早使用 "
-"``is_navigation_finished()`` 进行检查。"
 
 msgid "The following properties influence the path following behavior."
 msgstr "这个节点有如下属性可供设置。"
@@ -283,14 +261,6 @@ msgstr ""
 "必须连接 NavigationAgent 节点的 ``velocity_computed`` 信号，接收安全速度的计"
 "算结果。"
 
-#, fuzzy
-msgid ""
-"Set the ``velocity`` of the NavigationAgent node in ``_physics_process()`` "
-"to update the agent with the current velocity of the agent's parent node."
-msgstr ""
-"请在 ``_physics_process()`` 中使用 NavigationAgent 节点的 "
-"``set_velocity()``\\ ，利用代理父节点的当前速度来更新代理。"
-
 msgid ""
 "While avoidance is enabled on the agent the ``safe_velocity`` vector will be "
 "received with the velocity_computed signal every physics frame. This "
@@ -419,15 +389,6 @@ msgstr ""
 "烘焙到导航网格中以在其周围移动的对象。"
 
 msgid ""
-"RVO avoidance makes implicit assumptions about natural agent behavior. E.g. "
-"that agents move on reasonable passing sides that can be assigned when they "
-"encounter each other. This means that very clinical avoidance test scenarios "
-"will commonly fail. E.g. agents moved directly against each other with "
-"perfect opposite velocities will fail because the agents can not get their "
-"passing sides assigned."
-msgstr ""
-
-msgid ""
 "Using the NavigationAgent ``enable_avoidance`` property is the preferred "
 "option to toggle avoidance. The following code snippets can be used to "
 "toggle avoidance on agents, create or delete avoidance callbacks or switch "
@@ -447,36 +408,11 @@ msgstr "以下部分提供了NavigationAgents常用节点的脚本模板。"
 msgid "Actor as Node3D"
 msgstr "角色为 Node3D"
 
-#, fuzzy
-msgid ""
-"This script adds basic navigation movement to a :ref:`Node3D <class_Node3D>` "
-"with a :ref:`NavigationAgent3D <class_NavigationAgent3D>` child node."
-msgstr ""
-"这个脚本能够为带有 NavigationAgent3D 子节点的 Node3D 添加基础的导航移动功能。"
-
 msgid "Actor as CharacterBody3D"
 msgstr "角色为 CharacterBody3D"
 
-#, fuzzy
-msgid ""
-"This script adds basic navigation movement to a :ref:`CharacterBody3D "
-"<class_CharacterBody3D>` with a :ref:`NavigationAgent3D "
-"<class_NavigationAgent3D>` child node."
-msgstr ""
-"这个脚本能够为带有 NavigationAgent3D 子节点的 CharacterBody3D 添加基础的导航"
-"移动功能。"
-
 msgid "Actor as RigidBody3D"
 msgstr "角色为 RigidBody3D"
-
-#, fuzzy
-msgid ""
-"This script adds basic navigation movement to a :ref:`RigidBody3D "
-"<class_RigidBody3D>` with a :ref:`NavigationAgent3D "
-"<class_NavigationAgent3D>` child node."
-msgstr ""
-"这个脚本能够为带有 NavigationAgent3D 子节点的 RigidBody3D 添加基础的导航移动"
-"功能。"
 
 msgid "Translation status"
 msgstr "翻译状态"

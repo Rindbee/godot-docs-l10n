@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,18 +108,6 @@ msgstr ""
 "Ми хочемо, щоб анімація почала відтворюватися автоматично на початку гри. "
 "Крім того, вона має бути зациклена."
 
-#, fuzzy
-msgid ""
-"To do so, you can click the autoplay button (|Autoplay|) in the animation "
-"toolbar and the looping arrows, respectively."
-msgstr ""
-"Для цього можна натиснути кнопку з іконкою \"A+\" на панелі інструментів "
-"анімації і кнопку зі стрілками."
-
-#, fuzzy
-msgid "Autoplay"
-msgstr "Автозавантаження"
-
 msgid "|image5|"
 msgstr "|image5|"
 
@@ -222,10 +205,6 @@ msgid "image10"
 msgstr "image10"
 
 msgid ""
-"For this tutorial, just create RESET Track(s) which is the default choice"
-msgstr ""
-
-msgid ""
 "Two tracks appear in the editor with a diamond icon representing each "
 "keyframe."
 msgstr ""
@@ -253,27 +232,11 @@ msgid "image12"
 msgstr "image12"
 
 msgid ""
-"Move the time cursor to ``0.5`` seconds by clicking and dragging on the gray "
-"timeline."
-msgstr ""
-
-msgid "|timeline_05_click|"
-msgstr ""
-
-msgid "timeline_05_click"
-msgstr ""
-
-msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
 "*Rotation*' *X* axis to ``8``."
 msgstr ""
 "В *Інспекторі* встановіть для осі *Position* (Позиція) значення ``0.65`` "
 "метрів, а для осі *Rotation* (Обертання) - ``8``."
-
-msgid ""
-"If you don't see the properties in the *Inspector* panel, first click on the "
-"``Character`` node again in the *Scene* dock."
-msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -283,12 +246,6 @@ msgstr "image13"
 
 msgid "Create a keyframe for both properties"
 msgstr "Створіть ключовий кадр для обох властивостей"
-
-msgid "|second_keys_both|"
-msgstr ""
-
-msgid "second_keys_both"
-msgstr ""
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -324,14 +281,6 @@ msgstr ""
 "Перемістіть курсор часу в кінець анімації, на ``1.2`` секунду. Встановіть "
 "позицію Y приблизно на ``0.35``, а поворот X на ``-9`` градусів. Знову "
 "створіть ключ для обох властивостей."
-
-#, fuzzy
-msgid "|animation_final_keyframes|"
-msgstr "Комп'ютерна анімація опирається на ключові кадри"
-
-#, fuzzy
-msgid "animation_final_keyframes"
-msgstr "Комп'ютерна анімація опирається на ключові кадри"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -523,36 +472,6 @@ msgstr ""
 "``Character``, тому ми можемо повторно використовувати анімацію між ними."
 
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and then click on "
-"**Animation > Manage Animations...**. Click the *Copy animation to "
-"clipboard* button (two small squares) alongside the *float* animation. Click "
-"OK to close the window."
-msgstr ""
-
-msgid ""
-"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
-"<class_AnimationPlayer>` child node and select it. Click **Animation > "
-"Manage Animations**, then **Add Library**. You should see the message "
-"\"Global library will be created.\" Leave the text field blank and click OK. "
-"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
-"OK to close the window."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
-"(Animation looping) are also turned on in the animation editor in the bottom "
-"panel. That's it; all monsters will now play the float animation."
-msgstr ""
-"Відкрийте сцену *Player*, виберіть вузол AnimationPlayer і відкрийте "
-"анімацію \"float\". Далі натисніть **Анімація > Копіювати**. Потім відкрийте "
-"``mob.tscn``, створіть дочірній вузол AnimationPlayer і виберіть його. "
-"Натисніть **Animation > Paste** і переконайтеся, що в редакторі анімації на "
-"нижній панелі також увімкнені кнопка зі значком \"A+\" (Autoplay on Load) і "
-"стрілки, що зациклюються (Animation looping). Все, тепер усі монстри "
-"відтворюватимуть анімацію плавання."
-
-msgid ""
 "We can change the playback speed based on the creature's ``random_speed``. "
 "Open the *Mob*'s script and at the end of the ``initialize()`` function, add "
 "the following line."
@@ -566,15 +485,6 @@ msgstr "І на цьому ви закінчили кодування своєї
 
 msgid "**Congratulations**!"
 msgstr "**Вітаю**!"
-
-msgid ""
-"In the next part, we'll quickly recap what you learned and give you some "
-"links to keep learning more. But for now, here are the complete ``Player."
-"gd`` and ``Mob.gd`` so you can check your code against them."
-msgstr ""
-"У наступній частині ми швидко підсумуємо те, що ви дізналися, і дамо деякі "
-"посилання для подальшого навчання. А на даний момент ви можете перевірити "
-"свій код звірившись з повними зразками ``Player.gd`` і ``Mob.gd``."
 
 msgid "Here's the *Player* script."
 msgstr "Ось скрипт *Player*."

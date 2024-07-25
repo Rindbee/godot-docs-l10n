@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,16 +17,6 @@ msgstr "2D 骨架"
 
 msgid "Introduction"
 msgstr "前言"
-
-#, fuzzy
-msgid ""
-"When working with 3D, skeletal deforms are common for characters and "
-"creatures and most 3D modeling applications support it. For 2D, as this "
-"function is not used as often, it's difficult to find mainstream software "
-"aimed for this."
-msgstr ""
-"使用 3D 時，骨架變形在角色和生物中很常見，大多數 3D 建模軟體都支援這種變形。"
-"這種功能在 2D 中沒有那麼常用，很難找到以它為賣點的主流軟體。"
 
 msgid ""
 "One option is to create animations in third-party software such as Spine or "
@@ -213,15 +198,6 @@ msgstr ""
 
 msgid "Keep going and build the whole skeleton:"
 msgstr "繼續建構整個骨架："
-
-msgid ""
-"You will notice that all bones raise a warning about a missing rest pose. A "
-"rest pose is the default pose for a skeleton, you can come back to it "
-"anytime you want (which is very handy for animating). To set one click on "
-"the *skeleton* node in the scene tree, then click on the ``Skeleton2D`` "
-"button in the toolbar, and select ``Overwrite Rest Pose`` from the dropdown "
-"menu."
-msgstr ""
 
 msgid ""
 "The warnings will go away. If you modify the skeleton (add/remove bones) you "

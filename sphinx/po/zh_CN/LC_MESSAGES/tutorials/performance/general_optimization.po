@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -466,15 +461,16 @@ msgid ""
 "time in function ``A``, then optimizing ``A`` can have a massive effect on "
 "performance."
 msgstr ""
-"谚语 *\"一条链子的强度取决于其最薄弱的环节 \"* 直接适用于性能优化. 如果你的项"
-"目90%的时间都花在功能 ``A`` 上, 那么优化 ``A`` 就会对性能产生巨大影响."
+"有一句谚语很适合描述性能优化：\\ *“链条的强度取决于最弱的一环”*\\ 。如果你的"
+"项目在函数 ``A`` 上花费了 90% 的时间，那么针对 ``A`` 进行优化就能够大幅影响性"
+"能。"
 
 msgid ""
 "In this example, improving this bottleneck ``A`` by a factor of 9× decreases "
 "overall frame time by 5× while increasing frames per second by 5×."
 msgstr ""
-"在这个例子中, 将这个瓶颈 ``A`` 改进9倍, 总体帧时间减少5倍, 同时每秒帧数增加5"
-"倍."
+"在这个例子中，将瓶颈 ``A`` 提升 9 倍可以将整体的帧耗时降低至 20%，将每秒帧数"
+"增加 5 倍。"
 
 msgid ""
 "However, if something else is running slowly and also bottlenecking your "

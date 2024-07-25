@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,21 +55,6 @@ msgstr ""
 "plupart de ce qu'elle décrit concernant le dépôt principal godotengine/godot "
 "est également valable pour le dépôt docs."
 
-#, fuzzy
-msgid ""
-"The class reference's source files are in the `Godot engine repository "
-"<https://github.com/godotengine/godot>`_. We generate the :ref:`Class "
-"Reference <doc_class_reference>` section of this documentation from them. If "
-"you want to update the description of a class, its methods, or properties, "
-"read :ref:`doc_updating_the_class_reference`."
-msgstr ""
-"Les fichiers sources de la référence de classe se trouvent dans le dépôt du "
-"moteur `Godot <https://github.com/godotengine/godot>`_. Nous générons la "
-"section :ref:`Godot API <toc-class-ref>` de cette documentation à partir de "
-"celles-ci. Si vous souhaitez mettre à jour la description d'une classe, de "
-"ses méthodes ou de ses propriétés, lisez :ref:"
-"`doc_updating_the_class_reference`."
-
 msgid "What is the Godot documentation"
 msgstr "Qu'est-ce la documentation de Godot"
 
@@ -94,23 +74,6 @@ msgid ""
 msgstr ""
 "Nous nous efforçons de rédiger des contenus factuels dans un langage "
 "accessible et bien écrit. Pour contribuer, vous devriez également lire :"
-
-#, fuzzy
-msgid ""
-":ref:`doc_docs_writing_guidelines`. There, you will find rules and "
-"recommendations to write in a way that everyone understands."
-msgstr ""
-"La :ref:`doc_docs_writing_guidelines`. Vous y trouverez des règles et des "
-"recommandations pour écrire d'une manière compréhensible par tous."
-
-#, fuzzy
-msgid ""
-":ref:`doc_content_guidelines`. They explain the principles we follow to "
-"write the documentation and the kind of content we accept."
-msgstr ""
-"Les directives relatives au contenu. Elles expliquent les principes que nous "
-"suivons pour rédiger la documentation et le type de contenu que nous "
-"acceptons."
 
 msgid "Contributing changes"
 msgstr "Contribuer aux changements"
@@ -137,24 +100,6 @@ msgstr ""
 
 msgid "Editing existing pages"
 msgstr "Modifier des pages existantes"
-
-#, fuzzy
-msgid ""
-"To edit an existing page, locate its ``.rst`` source file and open it in "
-"your favorite text editor. You can then commit the changes, push them to "
-"your fork, and make a pull request. **Note that the pages in** ``classes/`` "
-"**should not be edited here.** They are automatically generated from Godot's "
-"`XML class reference <https://github.com/godotengine/godot/tree/master/doc/"
-"classes>`__. See :ref:`doc_updating_the_class_reference` for details."
-msgstr ""
-"Pour modifier une page existante, localisez son ``.rst`` fichier source et "
-"ouvrez-le dans votre éditeur de texte préféré. Vous pouvez ensuite commiter "
-"les modifications, les pousser vers votre fork et faire une demande de pull. "
-"**Notez que les pages de** ``classes/`` **ne doivent pas être modifiées ici."
-"** Elles sont générés automatiquement à partir de la référence de classe "
-"`XML de Godot <https://github.com/godotengine/godot/tree/master/doc/"
-"classes>`__. Voir :ref:`doc_updating_the_class_reference` pour plus de "
-"détails."
 
 msgid ""
 "To build the manual and test changes on your computer, see :ref:"
@@ -300,26 +245,8 @@ msgstr "**Bien :** Comprendre les signaux dans Godot"
 msgid "**Bad:** Understanding Signals In Godot"
 msgstr "**Bien :** Comprendre Les Signaux Dans Godot"
 
-#, fuzzy
-msgid ""
-"Only proper nouns, projects, people, and node class names should have their "
-"first letter capitalized."
-msgstr ""
-"Seuls les noms propres, les projets, les personnes et les noms de classes de "
-"nœuds doivent avoir leur première lettre en majuscule."
-
 msgid "Sphinx and reStructuredText syntax"
 msgstr "Syntaxe Sphinx et reStructuredText"
-
-#, fuzzy
-msgid ""
-"Check Sphinx's `reST Primer <https://www.sphinx-doc.org/en/stable/rest."
-"html>`__ and the `official reference <https://docutils.sourceforge.net/rst."
-"html>`__ for details on the syntax."
-msgstr ""
-"Consultez le `reST Primer <https://www.sphinx-doc.org/en/stable/rest."
-"html>`__ de Sphinx et la `référence officielle <http://docutils.sourceforge."
-"net/rst.html>`__ pour des détails sur la syntaxe."
 
 msgid ""
 "Sphinx uses specific reST comments to do specific operations, like defining "
@@ -350,44 +277,8 @@ msgstr ""
 "du fichier ``.rst`` avec un nom significatif et les inclure dans votre page "
 "avec :"
 
-msgid ""
-"Alternatively, you can use the `figure` directive, which gives the image a "
-"contrasting border and allows centering it on the page."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"You can also include attachments as support material for a tutorial, by "
-"placing them into a ``files/`` folder next to the ``.rst`` file, and using "
-"this inline markup:"
-msgstr ""
-"De la même manière, vous pouvez inclure des pièces jointes, comme des "
-"ressources servant de support à un didacticiel, en les plaçant dans un "
-"dossier ``files/`` à côté du fichier ``.rst``, et en utilisant ce balisage "
-"en ligne :"
-
-msgid ""
-"Consider using the `godot-docs-project-starters <https://github.com/"
-"godotengine/godot-docs-project-starters>` repository for hosting support "
-"materials, such as project templates and asset packs. You can use a direct "
-"link to the generated archive from that repository with the regular link "
-"markup:"
-msgstr ""
-
 msgid "License"
 msgstr "Licence"
-
-#, fuzzy
-msgid ""
-"This documentation and every page it contains is published under the terms "
-"of the `Creative Commons Attribution 3.0 license (CC BY 3.0) <https://"
-"creativecommons.org/licenses/by/3.0/>`_, with attribution to \"Juan "
-"Linietsky, Ariel Manzur and the Godot community\"."
-msgstr ""
-"Tout le contenu de la documentation est publié sous les termes de la licence "
-"`Creative Commons Attribution 3.0 license (CC-BY-3.0) <https://tldrlegal.com/"
-"license/creative-commons-attribution-(cc)>`_, avec attribution à \"Juan "
-"Linietsky, Ariel Manzur et la communauté Godot Engine\"."
 
 msgid ""
 "By contributing to the documentation on the GitHub repository, you agree "

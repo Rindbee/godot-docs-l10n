@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -288,7 +283,7 @@ msgstr ""
 "**Max Abstand:** Der maximale Abstand von der Kameramitte, den Objekte haben "
 "dürfen, bevor ihre Schatten gecullt werden (in Pixel). Eine Verringerung "
 "dieses Wertes kann verhindern, dass Objekte, die sich außerhalb der Kamera "
-"befinden, Schatten werfen (und gleichzeitig die Leistung verbessern). Der "
+"befinden, Schatten werfen (und gleichzeitig die Performance verbessern). Der "
 "Camera2D-Zoom wird bei **Max Abstand** nicht berücksichtigt, was bedeutet, "
 "dass bei höheren Zoom-Werten die Schatten beim Zoomen auf einen bestimmten "
 "Punkt früher ausgeblendet werden."
@@ -435,7 +430,7 @@ msgstr ""
 "benutzerdefinierten Shadern verwendet werden kann. Wenn keine "
 "benutzerdefinierten Shader verwendet werden, die aus diesem SDF lesen, macht "
 "die Aktivierung keinen visuellen Unterschied und hat keine "
-"Leistungseinbußen, so dass dies standardmäßig aktiviert ist."
+"Performanceeinbußen, so dass dies standardmäßig aktiviert ist."
 
 msgid ""
 "**Occluder Light Mask:** This is used in tandem with PointLight2D and "
@@ -591,7 +586,7 @@ msgid ""
 msgstr ""
 "Wenn der LightOccluder2D Node ein *Child* des Sprites ist, wird der Occluder "
 "das Sprite selbst verdecken, wenn **Zeichne hinter Parent** auf dem "
-"LightOccluder2D Node deaktiviert ist (was die Voreinstellung ist)."
+"LightOccluder2D Node deaktiviert ist (was der Default ist)."
 
 msgid "Normal and specular maps"
 msgstr "Normal und Specular Maps"

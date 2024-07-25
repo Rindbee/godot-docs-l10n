@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,9 +30,8 @@ msgstr "社区"
 msgid "Class reference"
 msgstr "类参考"
 
-#, fuzzy
 msgid "Godot Docs – *master* branch"
-msgstr "Godot 文档 – *4.2* 分支"
+msgstr "Godot 文档 – *master* 分支"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "
@@ -128,7 +122,6 @@ msgstr "翻译状态"
 msgid "Offline documentation"
 msgstr "离线文档"
 
-#, fuzzy
 msgid ""
 "To browse the documentation offline, you can download an HTML copy (updated "
 "every Monday): `stable <https://nightly.link/godotengine/godot-docs/"
@@ -141,10 +134,9 @@ msgid ""
 msgstr ""
 "你也可以\\ `下载 HTML 副本 <https://nightly.link/godotengine/godot-docs/"
 "workflows/build_offline_docs/master/godot-docs-html-master.zip>`__\\ 进行离线"
-"阅读（每周一更新）。将该 ZIP 压缩包解压，用网页浏览器打开顶层的 ``index."
-"html`` 即可。"
+"阅读（每周一更新）。解压 ZIP 压缩包，然后在网页浏览器中打开顶层的 index.html "
+"文件。"
 
-#, fuzzy
 msgid ""
 "For mobile devices or e-readers, you can also download an ePub copy (updated "
 "every Monday): `stable <https://nightly.link/godotengine/godot-docs/"
@@ -157,5 +149,5 @@ msgid ""
 msgstr ""
 "对于移动端或者电子阅读器，你也可以\\ `下载 ePub 副本 <https://nightly.link/"
 "godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-epub-"
-"master.zip>`__\\ 进行离线阅读（每周一更新）。将该 ZIP 压缩包解压然后用电子书"
-"阅读器软件打开。"
+"master.zip>`__\\ 进行离线阅读（每周一更新）。将该 ZIP 压缩包解压，然后用电子"
+"书阅读器软件打开。"

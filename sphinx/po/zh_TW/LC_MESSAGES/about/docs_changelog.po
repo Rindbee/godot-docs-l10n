@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,45 +32,17 @@ msgstr ""
 "這份文件只包含了新的教學，所以並能反映出所有改動。許多教學都已經被大幅更新"
 "了，但並未反映在這份文件中。"
 
-#, fuzzy
-msgid "New pages since version 4.1"
-msgstr "自 3.0 版以來新增的教學"
-
 msgid "C#"
 msgstr "C#"
-
-#, fuzzy
-msgid ":ref:`doc_c_sharp_diagnostics`"
-msgstr ":ref:`doc_2d_sprite_animation`"
 
 msgid "Development"
 msgstr "開發"
 
-#, fuzzy
-msgid ":ref:`doc_2d_coordinate_systems`"
-msgstr ":ref:`doc_what_are_godot_classes`"
-
 msgid "Migrating"
 msgstr "Light Baking - 光照烘焙"
 
-#, fuzzy
-msgid ":ref:`doc_upgrading_to_godot_4.2`"
-msgstr ":ref:`doc_migrating_to_godot_shader_language`"
-
-#, fuzzy
-msgid "I/O"
-msgstr "IO"
-
-#, fuzzy
-msgid ":ref:`doc_runtime_loading_and_saving`"
-msgstr ":ref:`doc_exporting`"
-
 msgid "Platform-specific"
 msgstr "個別平台"
-
-#, fuzzy
-msgid ":ref:`doc_android_library`"
-msgstr ":ref:`doc_android_plugin`"
 
 msgid "New pages since version 4.0"
 msgstr "自 3.0 版以來新增的教學"

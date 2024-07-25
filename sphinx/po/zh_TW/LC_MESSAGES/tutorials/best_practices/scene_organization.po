@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,16 +121,6 @@ msgstr "初始化 Node 或其他 Object 參照。"
 msgid "Initialize a NodePath."
 msgstr "初始化 NodePath。"
 
-#, fuzzy
-msgid ""
-"These options hide the points of access from the child node. This in turn "
-"keeps the child **loosely coupled** to its environment. One can reuse it in "
-"another context without any extra changes to its API."
-msgstr ""
-"通過上面幾個步驟，便能將來自子節點的存取點隱藏起來。這樣便可以確保子節點對環"
-"境來說是 **鬆散耦合** 的。開發人員便可以在其他的地方重複使用子節點，而無需修"
-"改子節點的 API。"
-
 msgid ""
 "Although the examples above illustrate parent-child relationships, the same "
 "principles apply towards all object relations. Nodes which are siblings "
@@ -199,23 +184,6 @@ msgstr ""
 "像這樣的 GUI 可以更好的通知專案使用者有關節點的重要訊息。節點有外部相依性嗎？"
 "相依性有滿足嗎？其他的程式設計師，尤其是設計師與作家，會需要更清楚的指示來瞭"
 "解如何正確設定這些節點。"
-
-#, fuzzy
-msgid ""
-"So, why does all this complex switcheroo work? Well, because scenes operate "
-"best when they operate alone. If unable to work alone, then working with "
-"others anonymously (with minimal hard dependencies, i.e. loose coupling) is "
-"the next best thing. Inevitably, changes may need to be made to a class and "
-"if these changes cause it to interact with other scenes in unforeseen ways, "
-"then things will start to break down. The whole point of all this "
-"indirection is to avoid ending up in a situation where changing one class "
-"results in adversely effecting other classes dependent on it."
-msgstr ""
-"那麼，為什麼還要搞得這麼複雜呢？這個嘛，因為場景在獨自運作的時候效果最好。若"
-"沒辦法獨自運作的話，則匿名地與其他場景運作則是次要最好的 (通過最小限度的硬參"
-"照，即鬆散耦合)。當然，當這些改動會導致類別與其他場景以無法預期的方式互動時就"
-"不可避免地會需要對類別做出修改，那麼接下來事情便開始當機。用這些拐彎抹角的方"
-"式的重點就是要避免造成這種狀況，也就是一個類別負面地影響了其他類別。"
 
 msgid ""
 "Scripts and scenes, as extensions of engine classes, should abide by *all* "

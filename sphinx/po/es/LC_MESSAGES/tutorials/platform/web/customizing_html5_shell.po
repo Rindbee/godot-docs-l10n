@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,11 +147,6 @@ msgstr ""
 "exportación web."
 
 msgid ""
-"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
-"the Project Settings."
-msgstr ""
-
-msgid ""
 "When the custom page is ready, it can be selected in the export options "
 "under the *Html / Custom Html Shell* section."
 msgstr ""
@@ -166,18 +156,6 @@ msgstr ""
 
 msgid "Starting the project"
 msgstr "Iniciando el proyecto"
-
-#, fuzzy
-msgid ""
-"To be able to start the game, you need to write a script that initializes "
-"the engine — the control code. This process consists of three steps, but as "
-"shown here, most of them can be skipped depending on how much customization "
-"is needed."
-msgstr ""
-"Para poder iniciar el juego, debes escribir un script que inicialice el "
-"motor, que es el código de control. Este proceso consta de tres pasos, "
-"aunque como se muestra, muchos de ellos pueden omitirse según cuánta "
-"personalización se necesite (o dejarse con un comportamiento predeterminado)."
 
 msgid ""
 "See the :ref:`HTML5 shell class reference <doc_html5_shell_classref>`, for "
@@ -203,22 +181,6 @@ msgstr ""
 "clase :js:class:`Engine` con la configuración exportada, y luego llamar al "
 "método :js:meth:`engine.startGame <Engine.prototype.startGame>` anulando "
 "opcionalmente cualquier parámetro de :js:attr:`EngineConfig`."
-
-#, fuzzy
-msgid ""
-"This snippet of code automatically loads and initializes the engine before "
-"starting the game. It uses the given configuration to load the engine. The :"
-"js:meth:`engine.startGame <Engine.prototype.startGame>` method is "
-"asynchronous and returns a ``Promise``. This allows your control code to "
-"track if the game was loaded correctly without blocking execution or relying "
-"on polling."
-msgstr ""
-"Este fragmento de código carga e inicializa automáticamente el motor antes "
-"de iniciar el juego. Utiliza la configuración proporcionada para cargar el "
-"motor. El método :js:meth:`engine.startGame <Engine.prototype.startGame>` es "
-"asíncrono y devuelve una ``Promise`` (promesa). Esto permite que el código "
-"de control pueda realizar un seguimiento de si el juego se cargó "
-"correctamente sin bloquear la ejecución o depender del sondeo (polling)."
 
 msgid ""
 "In case your project needs to have special control over the start arguments "
@@ -399,14 +361,6 @@ msgstr ""
 "función de devolución de llamada para la secuencia de salida (output stream) "
 "y la opción de anulación :js:attr:`onPrintError` para establecer una función "
 "de devolución de llamada para la secuencia de error."
-
-#, fuzzy
-msgid ""
-"When handling the engine output, keep in mind that it may not be desirable "
-"to print it out in the finished product."
-msgstr ""
-"Cuando manejes la salida del motor, ten en cuenta que puede que no sea "
-"deseable mostrarla en el producto final."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

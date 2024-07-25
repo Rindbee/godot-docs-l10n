@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,27 +158,6 @@ msgstr ""
 msgid "InputMap"
 msgstr "InputMаp"
 
-#, fuzzy
-msgid ""
-"The :ref:`InputMap <class_InputMap>` is the most flexible way to handle a "
-"variety of inputs. You use this by creating named input *actions*, to which "
-"you can assign any number of input events, such as keypresses or mouse "
-"clicks. To see them, and to add your own, open Project -> Project Settings "
-"and select the InputMap tab:"
-msgstr ""
-":ref:`InputMap <class_InputMap>` - это наиболее гибкий способ обработки "
-"различных входных данных. Вы используете это, создавая именованные "
-"*actions*, которым можно назначить любое количество событий ввода, таких как "
-"нажатия клавиш или щелчки мыши. Новый проект Godot включает в себя ряд уже "
-"определенных действий по умолчанию. Чтобы увидеть их и добавить свои "
-"собственные, откройте Project -> Project Settings и выберите вкладку "
-"InputMap:"
-
-msgid ""
-"A new Godot project includes a number of default actions already defined. To "
-"see them, turn on ``Show Built-in Actions`` in the InputMap dialog."
-msgstr ""
-
 msgid "Capturing actions"
 msgstr "Захват действий"
 
@@ -210,45 +184,8 @@ msgstr ""
 "случаи, когда вы хотите специально посмотреть на ключевые события. Например, "
 "давайте проверим :kbd:`T`:"
 
-#, fuzzy
-msgid ""
-"See :ref:`@GlobalScope_Key <enum_@GlobalScope_Key>` for a list of keycode "
-"constants."
-msgstr ""
-"См. :ref:`@GlobalScope_KeyList <enum_@GlobalScope_KeyList>` для получения "
-"списка констант сканкода."
-
-msgid ""
-"Due to *keyboard ghosting*, not all key inputs may be registered at a given "
-"time if you press too many keys at once. Due to their location on the "
-"keyboard, certain keys are more prone to ghosting than others. Some "
-"keyboards feature antighosting at a hardware level, but this feature is "
-"generally not present on low-end keyboards and laptop keyboards."
-msgstr ""
-
-msgid ""
-"As a result, it's recommended to use a default keyboard layout that is "
-"designed to work well on a keyboard without antighosting. See `this Gamedev "
-"Stack Exchange question <https://gamedev.stackexchange.com/a/109002>`__ for "
-"more information."
-msgstr ""
-
 msgid "Keyboard modifiers"
 msgstr "Модификаторы клавиатуры"
-
-#, fuzzy
-msgid ""
-"Modifier properties are inherited from :ref:`InputEventWithModifiers "
-"<class_InputEventWithModifiers>`. This allows you to check for modifier "
-"combinations using boolean properties. Let's imagine you want one thing to "
-"happen when the :kbd:`T` is pressed, but something different when it's :kbd:"
-"`Shift + T`:"
-msgstr ""
-"Свойства модификатора наследуются от :ref:`InputEventWithModifiers "
-"<class_InputEventWithModifiers>`. Это позволяет проверять наличие комбинаций "
-"модификаторов с помощью логических свойств. Давайте представим, что вы "
-"хотите, чтобы при нажатии :kbd:`T` происходило одно, а при :kbd:`Shift + T` "
-"- что-то другое:"
 
 msgid "Mouse events"
 msgstr "События мыши"
@@ -269,23 +206,6 @@ msgstr ""
 msgid "Mouse buttons"
 msgstr "Кнопки мыши"
 
-#, fuzzy
-msgid ""
-"Capturing mouse buttons is very similar to handling key events. :ref:"
-"`@GlobalScope_MouseButton <enum_@GlobalScope_MouseButton>` contains a list "
-"of ``MOUSE_BUTTON_*`` constants for each possible button, which will be "
-"reported in the event's ``button_index`` property. Note that the scrollwheel "
-"also counts as a button - two buttons, to be precise, with both "
-"``MOUSE_BUTTON_WHEEL_UP`` and ``MOUSE_BUTTON_WHEEL_DOWN`` being separate "
-"events."
-msgstr ""
-"Захват кнопок мыши очень похож на обработку клавиатурных событий. :ref:"
-"`@GlobalScope_ButtonList <enum_@GlobalScope_ButtonList>` содержит список "
-"констант ``BUTTON_*`` для каждой возможной кнопки, о которых будет сообщено "
-"в свойстве события ``button_index``. Обратите внимание, что колесо прокрутки "
-"также считается кнопкой - точнее, двумя кнопками, причем ``BUTTON_WHEEL_UP`` "
-"и ``BUTTON_WHEEL_DOWN`` являются отдельными событиями."
-
 msgid "Mouse motion"
 msgstr "Движение мыши"
 
@@ -297,14 +217,6 @@ msgstr ""
 "События :ref:`InputEventMouseMotion <class_InputEventMouseMotion>` "
 "происходят всякий раз, когда мышь перемещается. Вы можете найти расстояние "
 "перемещения с помощью свойства ``relative``."
-
-#, fuzzy
-msgid ""
-"Here's an example using mouse events to drag-and-drop a :ref:`Sprite2D "
-"<class_Sprite2D>` node:"
-msgstr ""
-"Вот пример использования событий мыши для перетаскивания узла :ref:`Sprite "
-"<class_Sprite>`:"
 
 msgid "Touch events"
 msgstr "Сенсорные события"

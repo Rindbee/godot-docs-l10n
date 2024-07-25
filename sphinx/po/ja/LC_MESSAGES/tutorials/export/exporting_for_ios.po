@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +16,6 @@ msgid "Exporting for iOS"
 msgstr "iOS用にエクスポート"
 
 msgid ""
-"This page describes how to export a Godot project to iOS. If you're looking "
-"to compile export template binaries from source instead, read :ref:"
-"`doc_compiling_for_ios`."
-msgstr ""
-
-msgid ""
 "These are the steps to load a Godot project in Xcode. This allows you to "
 "build and deploy to an iOS device, build a release for the App Store, and do "
 "everything else you can normally do with Xcode."
@@ -34,11 +23,6 @@ msgstr ""
 "これらは、XcodeでGodotプロジェクトを読み込む手順です。これにより、iOS デバイ"
 "スにビルドして展開し、AppStore用のリリースをビルドし、Xcodeで通常実行できるそ"
 "の他のすべてを実行できます。"
-
-msgid ""
-"Projects written in C# can be exported to iOS as of Godot 4.2, but support "
-"is experimental and :ref:`some limitations apply <doc_c_sharp_platforms>`."
-msgstr ""
 
 msgid "Requirements"
 msgstr "必要条件"
@@ -66,38 +50,6 @@ msgstr ""
 "Godotエディタで、\\ **プロジェクト** メニューから **エクスポート** ウィンドウ"
 "を開きます。エクスポートウィンドウが開いたら、\\ **追加..**\\ をクリック"
 "し、\\ **iOS** を選択します。"
-
-#, fuzzy
-msgid ""
-"The **App Store Team ID** and (Bundle) **Identifier** options in the "
-"**Application** category are required. Leaving them blank will cause the "
-"exporter to throw an error."
-msgstr ""
-"次のエクスポートオプションが必要です。空白のままにすると、エクスポーターはエ"
-"ラーをスローします:"
-
-msgid "If you encounter an error during export similar to"
-msgstr ""
-
-msgid ""
-"``JSON text did not start with array or object and option to allow fragments "
-"not set``"
-msgstr ""
-
-msgid "then it might be due to a malformated **App Store Team ID**!"
-msgstr ""
-
-msgid ""
-"The exporter expects a (10 characters long) code like ``ABCDE12XYZ`` and "
-"not, e.g., your name as Xcode likes to display in the *Signing & "
-"Capabilities* tab."
-msgstr ""
-
-msgid ""
-"You can find the code over at `developer.apple.com <https://developer.apple."
-"com/account/resources/certificates/list>`_ next to your name in the top "
-"right corner."
-msgstr ""
 
 msgid ""
 "After you click **Export Project**, there are still two important options "
@@ -177,11 +129,6 @@ msgstr ""
 msgid "**godot_project_to_export** is the name of the Godot project."
 msgstr "**godot_project_to_export**\\ はGodotプロジェクトの名前です。"
 
-msgid ""
-"**godot_project_to_export** must not be the same as "
-"**exported_xcode_project_name** to prevent signing issues in Xcode."
-msgstr ""
-
 msgid "Steps to link a Godot project folder to Xcode"
 msgstr "GodotプロジェクトフォルダをXcodeにリンクする手順"
 
@@ -240,74 +187,8 @@ msgstr ""
 msgid "Environment variables"
 msgstr "環境変数"
 
-msgid ""
-"You can use the following environment variables to set export options "
-"outside of the editor. During the export process, these override the values "
-"that you set in the export menu."
-msgstr ""
-
-#, fuzzy
-msgid "iOS export environment variables"
-msgstr "環境変数"
-
-#, fuzzy
-msgid "Export option"
-msgstr "エクスポートオプション"
-
-#, fuzzy
-msgid "Environment variable"
-msgstr "環境変数"
-
-msgid "Encryption / Encryption Key"
-msgstr ""
-
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr ""
-
-msgid "Options / Application / Provisioning Profile UUID Debug"
-msgstr ""
-
-msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_DEBUG``"
-msgstr ""
-
-msgid "Options / Application / Provisioning Profile UUID Release"
-msgstr ""
-
-msgid "``GODOT_IOS_PROVISIONING_PROFILE_UUID_RELEASE``"
-msgstr ""
-
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
-
-msgid "xcode-select points at wrong SDK location"
-msgstr ""
-
-msgid ""
-"xcode-select is a tool that comes with Xcode and among other things points "
-"at iOS SDKs on your Mac. If you have Xcode installed, opened it, agreed to "
-"the license agreement, and installed the command line tools, xcode-select "
-"should point at the right location for the iPhone SDK. If it somehow "
-"doesn't, Godot will fail exporting to iOS with an error that may look like "
-"this:"
-msgstr ""
-
-msgid ""
-"In this case, Godot is trying to find the ``Platforms`` folder containing "
-"the iPhone SDK inside the ``/Library/Developer/CommandLineTools/`` folder, "
-"but the ``Platforms`` folder with the iPhone SDK is actually located under "
-"``/Applications/Xcode.app/Contents/Developer``. To verify this, you can open "
-"up Terminal and run the following command to see what xcode-select points at:"
-msgstr ""
-
-msgid ""
-"To fix xcode-select pointing at a wrong location, enter this command in "
-"Terminal:"
-msgstr ""
-
-msgid ""
-"After running this command, Godot should be able to successfully export to "
-"iOS."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

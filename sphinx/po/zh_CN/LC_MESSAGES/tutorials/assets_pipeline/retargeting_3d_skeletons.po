@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,13 +97,6 @@ msgstr ""
 "`class_skeletonprofile`。 Godot 有一个用于人形模型的预设，名为 :ref:"
 "`class_skeletonprofilehumanoid`\\ 。本教程假设你使用的就是 :ref:"
 "`class_skeletonprofilehumanoid`\\ 。"
-
-msgid ""
-"If you need a profile that is different from :ref:"
-"`class_skeletonprofilehumanoid`, you can export a :ref:"
-"`class_skeletonprofile` from the editor by selecting a Skeleton3D and using "
-"the **Skeleton3D** menu in the 3D viewport's toolbar."
-msgstr ""
 
 msgid ""
 "When you use :ref:`class_skeletonprofilehumanoid`, auto-mapping will be "

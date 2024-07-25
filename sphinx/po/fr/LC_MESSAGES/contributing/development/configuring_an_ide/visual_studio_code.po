@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,17 +26,6 @@ msgstr ""
 
 msgid "Importing the project"
 msgstr "Importation du projet"
-
-#, fuzzy
-msgid ""
-"Make sure the C/C++ extension is installed. You can find instructions in the "
-"`official documentation <https://code.visualstudio.com/docs/languages/"
-"cpp>`_. Alternatively, `clangd <https://open-vsx.org/extension/llvm-vs-code-"
-"extensions/vscode-clangd>`_ can be used instead."
-msgstr ""
-"Assurez-vous que l'extension C/C++ est installée. Vous pouvez trouver les "
-"instructions dans la `documentation officielle <https://code.visualstudio."
-"com/docs/languages/cpp>`_."
 
 msgid "When using the clangd extension, run ``scons compiledb=yes``."
 msgstr ""
@@ -66,14 +50,6 @@ msgstr "Sélectionnez l'option **Create tasks.json file from template**."
 
 msgid "Then select **Others**."
 msgstr "Sélectionnez ensuite **Others**."
-
-msgid ""
-"If there is no such option as **Create tasks.json file from template** "
-"available, either delete the file if it already exists in your folder or "
-"create a ``.vscode/tasks.json`` file manually. See `Tasks in Visual Studio "
-"Code <https://code.visualstudio.com/docs/editor/tasks#_custom-tasks>`_ for "
-"more details on tasks."
-msgstr ""
 
 msgid ""
 "Within the ``tasks.json`` file find the ``\"tasks\"`` array and add a new "
@@ -141,81 +117,8 @@ msgstr ""
 "que l'extension `CodeLLDB <https://marketplace.visualstudio.com/items?"
 "itemName=vadimcn.vscode-lldb>`_ est installée."
 
-#, fuzzy
-msgid ""
-"If you encounter issues with lldb, you may consider using gdb (see the "
-"LinuxBSD_gdb configuration)."
-msgstr ""
-"Si vous rencontrez des problèmes avec lldb, vous pouvez envisager d'utiliser "
-"gdb (voir la configuration X11_gdb)."
-
-#, fuzzy
-msgid ""
-"Do note that lldb may work better with LLVM-based builds. See :ref:"
-"`doc_compiling_for_linuxbsd` for further information."
-msgstr ""
-"Notez que lldb peut mieux fonctionner avec les compilations basées sur llvm. "
-"Voir :ref:`doc_compiling_for_x11` pour plus d'informations."
-
-#, fuzzy
-msgid ""
-"The name under ``program`` depends on your build configuration, e.g. ``godot."
-"linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD platform with "
-"``target=editor`` and ``dev_build=yes``."
-msgstr ""
-"Le nom sous ``program`` dépend de la configuration de votre compilation, par "
-"exemple ``godot.x11.tools.64`` pour une plate-forme X11 64 bits avec "
-"``tools`` activé."
-
-#, fuzzy
-msgid "Configuring Intellisense"
-msgstr "Configuration de l’exécution"
-
 msgid "For the C/C++ extension:"
-msgstr ""
-
-msgid ""
-"To fix include errors you may be having, you need to configure some settings "
-"in the ``c_cpp_properties.json`` file."
-msgstr ""
-
-msgid ""
-"First, make sure to build the project since some files need to be generated."
-msgstr ""
-
-msgid "Edit the C/C++ Configuration file either with the UI or with text:"
-msgstr ""
-
-msgid ""
-"Add an include path for your platform, for example, ``${workspaceFolder}/"
-"platform/windows``."
-msgstr ""
-
-msgid ""
-"Add defines for the editor ``TOOLS_ENABLED``, debug builds "
-"``DEBUG_ENABLED``, and tests ``TESTS_ENABLED``."
-msgstr ""
-
-msgid ""
-"Make sure the compiler path is configured correctly to the compiler you are "
-"using. See :ref:`doc_introduction_to_the_buildsystem` for further "
-"information on your platform."
-msgstr ""
-
-msgid ""
-"The ``c_cpp_properties.json`` file should look similar to this for Windows:"
-msgstr ""
-
-msgid ""
-"Alternatively, you can use the scons argument ``compiledb=yes`` and set the "
-"compile commands setting ``compileCommands`` to ``compile_commands.json``, "
-"found in the advanced section of the C/C++ Configuration UI."
-msgstr ""
-
-msgid ""
-"This argument can be added to your build task in ``tasks.json`` since it "
-"will need to be run whenever files are added or moved."
-msgstr ""
+msgstr "Pour l'extension C/C++ :"
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "
@@ -223,15 +126,6 @@ msgid ""
 msgstr ""
 "Si vous rencontrez des problèmes, demandez de l'aide sur l'un des `canaux "
 "communautaires de Godot <https://godotengine.org/community>`__."
-
-#, fuzzy
-msgid ""
-"To get linting on class reference XML files, install the `vscode-xml "
-"extension <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-"
-"xml>`__."
-msgstr ""
-"Installez l'extension `Mono Debug <https://marketplace.visualstudio.com/"
-"items?itemName=ms-vscode.mono-debug>`__."
 
 msgid "Translation status"
 msgstr "État de la traduction"

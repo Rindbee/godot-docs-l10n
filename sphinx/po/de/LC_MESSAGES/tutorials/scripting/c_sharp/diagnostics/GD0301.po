@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,13 +42,13 @@ msgstr "Ja"
 msgid "Cause"
 msgstr "Ursache"
 
-#, fuzzy
 msgid ""
 "An unsupported type is specified for a generic type argument when a :ref:"
 "`Variant-compatible type <c_sharp_variant_compatible_types>` is expected."
 msgstr ""
-"Ein nicht unterstützter Typ wird für ein generisches Typ-Argument angegeben, "
-"wenn ein :ref:`Variant-kompatibler <doc_c_sharp_variant>`-Typ erwartet wird."
+"Ein nicht unterstützter Typ wird für ein generisches Typargument angegeben, "
+"wenn ein :ref:`Variant-kompatibler Typ <c_sharp_variant_compatible_types>` "
+"erwartet wird."
 
 msgid "Rule description"
 msgstr "Regelbeschreibung"
@@ -92,7 +87,7 @@ msgid ""
 "can't be marshalled it will result in runtime errors."
 msgstr ""
 "Unterdrücken Sie nicht eine Warnung zu dieser Regel. API, die generische "
-"Typargumente enthält, die mit dem Attribut ``[MustBeVariant]'' annotiert "
+"Typargumente enthält, die mit dem Attribut ``[MustBeVariant]`` annotiert "
 "sind, haben in der Regel diese Anforderung, da die Werte an die Engine "
 "übergeben werden; wenn der Typ nicht marshalled werden kann, führt dies zu "
 "Laufzeitfehlern."

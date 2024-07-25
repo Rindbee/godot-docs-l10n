@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,16 +15,6 @@ msgstr ""
 msgid "Prototyping levels with CSG"
 msgstr "使用 CSG 設計關卡原型"
 
-#, fuzzy
-msgid ""
-"CSG stands for **Constructive Solid Geometry**, and is a tool to combine "
-"basic shapes or custom meshes to create more complex shapes. In 3D modeling "
-"software, CSG is mostly known as \"Boolean Operators\"."
-msgstr ""
-"CSG 是 **Constructive Solid Geometry**（建構實體幾何）的縮寫，是一種將基本形"
-"狀或自訂網格組合起來以建立更複雜形狀的工具。在三維建模軟體中，CSG 多被稱為“布"
-"林運算子”。"
-
 msgid ""
 "Level prototyping is one of the main uses of CSG in Godot. This technique "
 "allows users to create the most common shapes by combining primitives. "
@@ -37,28 +22,6 @@ msgid ""
 msgstr ""
 "CSG 在 Godot 中的目的是將其用於關卡原型設計。該技術允許使用者通過組合像素來建"
 "立最常見形狀的簡單版本。可以使用反轉像素建立室內環境。"
-
-#, fuzzy
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"Godot中的CSG節點主要用於原型設計. 沒有內建的對UV貼圖或編輯3D多邊形的支援(儘管"
-"擠出的2D多邊形可以用CSGPolygon節點來使用)."
-
-#, fuzzy
-msgid ""
-"If you're looking for an easy to use level design tool for a project, you "
-"may want to use `FuncGodot <https://github.com/func-godot/"
-"func_godot_plugin>`__ or `Cyclops Level Builder <https://github.com/"
-"blackears/cyclopsLevelBuilder>`__ instead."
-msgstr ""
-"如果你正在為一個專案尋找一個簡單易用的關卡設計工具, 你可能會想使用 `Qodot "
-"<https://github.com/Shfty/qodot-plugin>`__ 來代替. 它可以讓你使用 "
-"`TrenchBroom <https://kristianduske.com/trenchbroom/>`__ 設計關卡, 並在Godot"
-"中匯入它們."
 
 msgid ""
 "You can check how to use CSG nodes to build various shapes (such as stairs "
@@ -149,15 +112,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "自訂網格"
-
-#, fuzzy
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"任何網格都可以用於 :ref:`CSGMesh <class_CSGMesh>`, 網格可以在其他軟體中建模並"
-"匯入Godot. 支援多種材質, 對幾何體有一些限制:"
 
 msgid "it must be closed,"
 msgstr "它必須被關閉,"
@@ -458,15 +412,6 @@ msgstr ""
 
 msgid "Exporting as glTF"
 msgstr "匯出陣列"
-
-#, fuzzy
-msgid ""
-"It can be useful to block out a level using CSG, then export it as a 3d "
-"model, to import into 3D modeling software. You can do this by selecting "
-"**Scene > Export As... > glTF 2.0 Scene**."
-msgstr ""
-"使用 CSG 繪製關卡，然後將其匯出為 3D 模型，以匯入 3D 建模軟體中，這非常有用。"
-"您可以選擇「**場景 > 匯出為...」> glTF 2.0 場景**來執行此操作。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

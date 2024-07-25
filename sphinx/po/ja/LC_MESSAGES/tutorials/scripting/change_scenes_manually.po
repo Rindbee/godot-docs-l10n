@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,20 +14,6 @@ msgstr ""
 
 msgid "Change scenes manually"
 msgstr "シーンを手動で変更する"
-
-#, fuzzy
-msgid ""
-"Sometimes it helps to have more control over how one swaps scenes around. A :"
-"ref:`Viewport <class_Viewport>`'s child nodes will render to the image it "
-"generates, this holds true even for nodes outside of the \"current\" scene. "
-"Autoloads fall into this category, but so do scenes which one instances and "
-"adds to the tree at runtime:"
-msgstr ""
-"シーンを入れ替える方法をより詳細に制御できると便利な場合があります。前述のよ"
-"うに、\\ :ref:`Viewport <class_Viewport>` の子ノードは、生成する画像にレンダ"
-"リングします。これは、「現在の」シーン外のノードにも当てはまります。自動ロー"
-"ドはこのカテゴリに分類されますが、実行時にツリーにインスタンスを追加するシー"
-"ンも同様です:"
 
 msgid ""
 "To complete the cycle and swap out the new scene with the old one, "
@@ -45,22 +26,6 @@ msgstr ""
 "択肢があります。\\ :ref:`Viewport <class_Viewport>` のビューからシーンを削除"
 "する方法は数多く存在します。トレードオフには、操作速度とメモリ消費のバランス"
 "をとることと、データアクセスと整合性のバランスを取る必要があります。"
-
-#, fuzzy
-msgid ""
-"**We can delete the existing scene.** :ref:`SceneTree.change_scene_to_file() "
-"<class_SceneTree_method_change_scene_to_file>` and :ref:`SceneTree."
-"change_scene_to_packed() <class_SceneTree_method_change_scene_to_packed>` "
-"will delete the current scene immediately. Developers can also delete the "
-"main scene though. Assuming the root node's name is \"Main\", one could do "
-"``get_node(\"/root/Main\").free()`` to delete the whole scene."
-msgstr ""
-"**既存のシーンを削除できます。** :ref:`SceneTree.change_scene() "
-"<class_SceneTree_method_change_scene>` および :ref:`SceneTree."
-"change_scene_to() <class_SceneTree_method_change_scene_to>` は現在のシーンを"
-"すぐに削除します。ただし、開発者はメインシーンを削除することもできます。ルー"
-"トノードの名前が \"Main\" だとすると、\\ ``get_node(\"/root/Main\").free()`` "
-"を実行してシーン全体を削除できます。"
 
 msgid "Unloads memory."
 msgstr "メモリをアンロードします。"
@@ -127,14 +92,6 @@ msgstr "長所: 必要に応じてデータにアクセスできます。"
 msgid "Pro: There's no need to move any more nodes around to save data."
 msgstr "長所: データを保存するためにノードを移動する必要はありません。"
 
-#, fuzzy
-msgid ""
-"Con: More data is being kept in memory which will become a problem on memory-"
-"sensitive platforms like web or mobile."
-msgstr ""
-"短所: より多くのデータがメモリに保持されているため、Webやモバイルなどのメモリ"
-"に敏感なプラットフォームで問題になります。"
-
 msgid "Processing continues."
 msgstr "処理は続行されます。"
 
@@ -197,29 +154,6 @@ msgstr ""
 "短所: 表示のみから非表示にする場合とは異なり、デルタ時間、入力、グループ、ま"
 "たは :ref:`SceneTree <class_SceneTree>` アクセスから派生した他のデータに依存"
 "している場合、シーン内に含まれるデータは、古いままになってしまいます。"
-
-#, fuzzy
-msgid ""
-"There are also cases where one may wish to have many scenes present at the "
-"same time. Perhaps one is adding their own singleton at runtime, or "
-"preserving a scene's data between scene changes (adding the scene to the "
-"root node)."
-msgstr ""
-"多くのシーンを同時に表示したい場合もあります。おそらく、実行時に独自のシング"
-"ルトンを追加するか、シーンの変更間でシーンのデータを保持する(シーンをルート"
-"ノードに追加する)のでしょう。"
-
-#, fuzzy
-msgid ""
-"Perhaps instead they wish to display multiple scenes at the same time using :"
-"ref:`SubViewportContainers <class_SubViewportContainer>`. This is optimal in "
-"cases where the intent is to render different content in different parts of "
-"the screen. Minimaps and split-screen multiplayer are good examples."
-msgstr ""
-"代わりに、\\ :ref:`ViewportContainers <class_ViewportContainer>` を使用して、"
-"複数のシーンを同時に表示したい場合があります。これは、画面のさまざまな部分に"
-"さまざまなコンテンツを表示することが目的の場合に最適です。ミニマップと分割画"
-"面マルチプレイヤーが良い例です。"
 
 msgid ""
 "Each option will have cases where it is best appropriate, so one must "

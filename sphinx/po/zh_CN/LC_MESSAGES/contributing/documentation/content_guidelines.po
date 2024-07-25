@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,26 +31,8 @@ msgid ""
 "for them to learn from the docs."
 msgstr "**与用户共情。**\\ 写作时，应该让通过文档来学习变得简单。"
 
-#, fuzzy
-msgid ""
-"**Write a complete reference manual**. Our goal here is not to teach "
-"programming fundamentals. Instead, our goal is to provide a reference for "
-"how Godot's features work."
-msgstr ""
-"**编写完善的参考手册**\\ 。我们这里的目标不是教授编程的基础知识。我们应该提供"
-"了解如何使用 Godot 功能的参考材料。"
-
 msgid "Guidelines and principles"
 msgstr "规范与原则"
-
-#, fuzzy
-msgid ""
-"Below are the guidelines we should strive to follow. They are not hard "
-"rules, though: sometimes, a topic will require breaking one or more of them. "
-"Still, we should strive to achieve the two goals listed above."
-msgstr ""
-"以下是我们应该努力遵守的规范。不过这些并不是硬性规定：特殊情况下，某个主题会"
-"需要打破这里的若干规范。不过我们还是应该尽量完成上面所列出的两个目标。"
 
 msgid "Writing complete and accessible documentation"
 msgstr "编写完善易懂的文档"
@@ -75,31 +52,6 @@ msgid ""
 msgstr ""
 "添加或更新引擎的功能时，文档团队应该跟进。工作成果被合并后，如果需要文档，贡"
 "献者应该在 `godot-docs` 仓库创建 Issue。"
-
-#, fuzzy
-msgid ""
-"Do your best to keep documents **under 1000 words in length**. If a page "
-"goes past that threshold, consider splitting it into two parts. Limiting "
-"page size forces us to write concisely and to break up large documents so "
-"that each page focuses on a particular problem."
-msgstr ""
-"请竭尽所能将文档保持在\\ **1000 个单词以内**\\ 。如果页面超过了这个阈值，如果"
-"可能，请考虑将它拆分成两个部分。对页面的大小作出限制，强制我们在写作时保持简"
-"洁，将大段的文档进行拆分可以让每一部分都集中于某个特定的问题。"
-
-#, fuzzy
-msgid ""
-"Each page or section of a page should clearly state what **problem** it "
-"tackles and what it will teach the user. Users need to know if they're "
-"reading the correct guide for solving the problems they're encountering. For "
-"example, instead of writing the heading \"Signals\", consider writing "
-"\"Reacting to changes with signals\". The second title makes it clear what "
-"the purpose of signals is."
-msgstr ""
-"讲清楚每个页面或章节所针对的\\ **问题**\\ ，以及用户会学到什么。用户需要知道"
-"他们看的指南是否能够正确解决他们所遇到的问题。例如，请不要在题目里"
-"写“Signals”（信号），请考虑写“Reacting to changes with signals”（使用信号对变"
-"化作出响应）。后者标明了使用信号的目的。"
 
 msgid ""
 "Long section titles lead to long entries in the side menu, which can make "
@@ -141,14 +93,6 @@ msgstr "尽可能一次只介绍一个新概念。"
 msgid "Using simple English, as we recommend in our writing guidelines."
 msgstr "就像在编写规范中推荐的一样，使用简单的英语。"
 
-#, fuzzy
-msgid ""
-"Including one or more **concrete usage examples**. Prefer a real-world "
-"example to one that uses names like ``foo``, ``bar``, or ``baz``."
-msgstr ""
-"提供若干\\ **实际使用示例**\\ 。现实世界的例子比像 ``foobar`` 一样的抽象代码"
-"更好。"
-
 msgid ""
 "While many people may understand more complex language and abstract "
 "examples, you will lose others. Understandable writing and practical "
@@ -156,18 +100,6 @@ msgid ""
 msgstr ""
 "尽管许多人能够理解复杂的语言和抽象的例子，但还是会有其他一些人理解不了。而通"
 "俗易懂的写作方式和实际的例子则能让所有人都受益。"
-
-#, fuzzy
-msgid ""
-"Always make an effort to **put yourself in the user's shoes**. When we "
-"understand something thoroughly, it becomes obvious to us. We may fail to "
-"think about details relevant to a newcomer, but **good documentation meets "
-"users where they are**. We should explain each feature's capabilities or "
-"intended uses with the most straightforward language possible."
-msgstr ""
-"始终努力\\ **设身处地为用户着想**\\ 。某件事情如果我们完全理解，对于我们而言"
-"就会变得显而易见。我们可能无法想象新手相关的细节，但\\ **好的文档就是要为用户"
-"雪中送炭**\\ 。我们应该用尽可能直白的语言，尽力去解释每一个特性的用处或用法。"
 
 msgid ""
 "Try to remember what you first needed to know when learning about the "

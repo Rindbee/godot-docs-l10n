@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,12 +39,6 @@ msgid ""
 msgstr ""
 "为简化此工作流程，Godot 提供了一些后缀，可以将其添加到 3D 建模软件中的对象名"
 "称中。导入后，Godot 将检测到对象名称中的后缀并自动执行操作。"
-
-#, fuzzy
-msgid ""
-"All the suffixes described below can be used with ``-``, ``$``, and ``_`` "
-"and are **case-insensitive**."
-msgstr "下面描述的所有后缀都是\\ *大小写敏感*\\ 的。"
 
 msgid "Remove nodes (-noimp)"
 msgstr "删除节点（-noimp）"
@@ -177,21 +166,6 @@ msgid ""
 "See :ref:`doc_collision_shapes_3d` for a comprehensive overview of collision "
 "shapes."
 msgstr "碰撞体全面概述请查看 :ref:`doc_collision_shapes_3d`."
-
-#, fuzzy
-msgid "Create Occluder (-occ, -occonly)"
-msgstr "创建遮挡器（-occ、-occonly）"
-
-#, fuzzy
-msgid ""
-"If a mesh is imported with the ``-occ`` suffix an :ref:`class_occluder3D` "
-"node will be created based on the geometry of the mesh, it does not replace "
-"the mesh. A mesh node with the ``-occonly`` suffix will be converted to an :"
-"ref:`class_occluder3D` on import."
-msgstr ""
-"如果导入带有“ -occ ”后缀的 ref:``class_occluder3D`` ，则将根据网格的几何形状"
-"创建 class_occluder3D 节点，它不会替换网格。带有“ -occonly ”后缀的网格节点将"
-"在导入时转换为: ref:``class_occluder3D`` 。"
 
 msgid "Create navigation (-navmesh)"
 msgstr "创建导航（-navmesh）"

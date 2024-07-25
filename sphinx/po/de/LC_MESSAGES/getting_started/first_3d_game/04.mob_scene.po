@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -309,13 +304,12 @@ msgstr ""
 "`VisibleOnScreenNotifier3D <class_VisibleOnScreenNotifier3D>`-Nodes mit dem "
 "``Mob``."
 
-#, fuzzy
 msgid ""
 "Head back to the 3D viewport by clicking on the *3D* label at the top of the "
 "editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
 msgstr ""
 "Kehren Sie zum 3D-Viewport zurück, indem sie auf das Label *3D* am oberen "
-"Rand des Editors klicken. Sie können auch :kbd:`Strg + F2`(:kbd:`Alt + 2` "
+"Rand des Editors klicken. Sie können auch :kbd:`Strg + F2`(:kbd:`Opt + 2` "
 "unter macOS) drücken."
 
 msgid "|image8|"
@@ -350,16 +344,15 @@ msgstr "|image10|"
 msgid "image10"
 msgstr "|image10|"
 
-#, fuzzy
 msgid ""
 "This will add a new function for you in your mob script, "
 "``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
 "``queue_free()`` method. This function destroys the instance it's called on."
 msgstr ""
-"Dies bringt Sie zurück zum Skript-Editor und fügt eine neue Funktion für Sie "
-"hinzu, ``_on_visible_on_screen_notifier_3d_screen_exited()``. Von dort aus "
-"rufen Sie die Methode ``queue_free()`` auf. Diese Funktion zerstört die "
-"Instanz, die sie aufruft."
+"Dadurch wird eine neue Funktion in Ihr Mob-Skript eingefügt, "
+"``_on_visible_on_screen_notifier_3d_screen_exited()``. Von dort aus rufen "
+"Sie die Methode ``queue_free()`` auf. Diese Funktion zerstört die Instanz, "
+"die sie aufruft."
 
 msgid ""
 "Our monster is ready to enter the game! In the next part, you will spawn "
@@ -367,9 +360,6 @@ msgid ""
 msgstr ""
 "Unser Monster ist endlich bereit, das Spiel zu betreten! I'm nächsten Teil "
 "werden Sie Monster im Spiellevel spawnen."
-
-msgid "Here is the complete ``Mob.gd`` script for reference."
-msgstr "Hier ist das vollständige ``Mob.gd`` Skript als Referenz."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

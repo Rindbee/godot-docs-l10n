@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,16 +99,6 @@ msgid ""
 "We want the animation to start playback automatically at the start of the "
 "game. Also, it should loop."
 msgstr "我們希望讓這個動畫在遊戲開始時自動開始播放，而且還應該迴圈播放。"
-
-#, fuzzy
-msgid ""
-"To do so, you can click the autoplay button (|Autoplay|) in the animation "
-"toolbar and the looping arrows, respectively."
-msgstr "要實作這個需求，可以按一下動畫工具列上對應的“A+”圖示和迴圈箭頭。"
-
-#, fuzzy
-msgid "Autoplay"
-msgstr "自動載入"
 
 msgid "|image5|"
 msgstr "\\ |image5|"
@@ -218,14 +203,6 @@ msgstr "|image11|"
 msgid "image11"
 msgstr "image11"
 
-#, fuzzy
-msgid ""
-"You can click and drag on the diamonds to move them in time. Move the "
-"position key to ``0.3`` seconds and the rotation key to ``0.1`` seconds."
-msgstr ""
-"按一下並拖動這些菱形就可以改變它們的時間。將平移（translation）關鍵影格移動"
-"到 ``0.2`` 秒的位置，將旋轉（rotation）關鍵影格移動到 ``0.1`` 秒的位置。"
-
 msgid "|image12|"
 msgstr "|image12|"
 
@@ -237,12 +214,6 @@ msgid ""
 "timeline."
 msgstr "在灰色的時間線上按一下並拖拽，將時間游標移動至 ``0.5`` 秒位置。"
 
-msgid "|timeline_05_click|"
-msgstr ""
-
-msgid "timeline_05_click"
-msgstr ""
-
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
 "*Rotation*' *X* axis to ``8``."
@@ -250,11 +221,6 @@ msgstr ""
 "按一下灰色的時間線並拖動，將時間游標移動到 ``0.5`` 秒的位置。在*屬性面板*中"
 "將 *Translation* 的 *Y* 軸設為約 ``0.65`` 米，將 *Rotation Degrees* 的 *X* 軸"
 "設為 ``8``。"
-
-msgid ""
-"If you don't see the properties in the *Inspector* panel, first click on the "
-"``Character`` node again in the *Scene* dock."
-msgstr ""
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -264,12 +230,6 @@ msgstr "image13"
 
 msgid "Create a keyframe for both properties"
 msgstr "為這兩個屬性分別建立一個關鍵影格"
-
-msgid "|second_keys_both|"
-msgstr ""
-
-msgid "second_keys_both"
-msgstr ""
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -300,14 +260,6 @@ msgid ""
 msgstr ""
 "將時間游標移動到動畫結尾，即 ``1.2`` 秒。將 Y 平移量設為約 ``0.35``、X 旋轉量"
 "設為 ``-9`` 度。再次為這兩個屬性新增關鍵影格。"
-
-#, fuzzy
-msgid "|animation_final_keyframes|"
-msgstr "電腦動畫依賴於關鍵影格"
-
-#, fuzzy
-msgid "animation_final_keyframes"
-msgstr "電腦動畫依賴於關鍵影格"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -485,32 +437,6 @@ msgstr ""
 "它們之間複用動畫。"
 
 msgid ""
-"Open the *Player* scene, select the AnimationPlayer node and then click on "
-"**Animation > Manage Animations...**. Click the *Copy animation to "
-"clipboard* button (two small squares) alongside the *float* animation. Click "
-"OK to close the window."
-msgstr ""
-
-msgid ""
-"Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
-"<class_AnimationPlayer>` child node and select it. Click **Animation > "
-"Manage Animations**, then **Add Library**. You should see the message "
-"\"Global library will be created.\" Leave the text field blank and click OK. "
-"Click the *Paste* icon (clipboard) and it should appear in the window. Click "
-"OK to close the window."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
-"(Animation looping) are also turned on in the animation editor in the bottom "
-"panel. That's it; all monsters will now play the float animation."
-msgstr ""
-"打開 *Player* 場景，選中動畫播放機節點，打開浮動動畫。然後點擊*動畫 -> 複製"
-"*。然後打開 ``Mob.tscn`` 並打開其中的動畫播放機。點擊*動畫 -> 貼上*。這樣就行"
-"了；所有的怪物現在就都能播放浮動動畫了。"
-
-msgid ""
 "We can change the playback speed based on the creature's ``random_speed``. "
 "Open the *Mob*'s script and at the end of the ``initialize()`` function, add "
 "the following line."
@@ -523,14 +449,6 @@ msgstr "這樣，你就完成了你第一個完整 3D 遊戲的編碼。"
 
 msgid "**Congratulations**!"
 msgstr "**恭喜**！"
-
-msgid ""
-"In the next part, we'll quickly recap what you learned and give you some "
-"links to keep learning more. But for now, here are the complete ``Player."
-"gd`` and ``Mob.gd`` so you can check your code against them."
-msgstr ""
-"在下一部分，我們將快速複習已學到的內容，並為你提供一些繼續學習的連結。不過現"
-"在，這裡是完整的 ``Player.gd`` 和 ``Mob.gd``，你可以用它們來校對你的程式碼。"
 
 msgid "Here's the *Player* script."
 msgstr "這是 *Player* 腳本。"

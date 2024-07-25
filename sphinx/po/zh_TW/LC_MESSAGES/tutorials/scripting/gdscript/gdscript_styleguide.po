@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,11 +151,6 @@ msgstr ""
 msgid "One statement per line"
 msgstr "一行一個陳述式"
 
-msgid ""
-"Avoid combining multiple statements on a single line, including conditional "
-"statements, to adhere to the GDScript style guidelines for readability."
-msgstr ""
-
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "唯一的例外是三元運算子："
 
@@ -232,41 +222,8 @@ msgstr ""
 msgid "Comment spacing"
 msgstr "註釋中的空白"
 
-msgid ""
-"Regular comments (``#``) and documentation comments (``##``) should start "
-"with a space, but not code that you comment out. Additionally, code region "
-"comments (``#region``/``#endregion``) must follow that precise syntax, so "
-"they should not start with a space."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Using a space for regular and documentation comments helps differentiate "
-"text comments from disabled code."
-msgstr ""
-"一般的註釋應該以空白開始，但註解掉的程式碼則不用。這樣一來比較能區分文字註解"
-"與停用掉的程式碼。"
-
-#, fuzzy
-msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
-msgstr ""
-"在腳本編輯器中，可以按 :kbd:`Ctrl + K` 來將選擇的程式碼註解或取消註解。這個功"
-"能會在所選行前加上一個 # 符號。"
-
 msgid "Whitespace"
 msgstr "空格"
-
-msgid ""
-"Always use one space around operators and after commas. Also, avoid extra "
-"spaces in dictionary references and function calls. One exception to this is "
-"for single-line dictionary declarations, where a space should be added after "
-"the opening brace and before the closing brace. This makes the dictionary "
-"easier to visually distinguish from an array, as the ``[]`` characters look "
-"close to ``{}`` with most fonts."
-msgstr ""
 
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "不要使用空白來垂直對齊運算式："
@@ -373,12 +330,6 @@ msgstr ""
 "列舉型別的 **名稱** 使用 PascalCase，列舉的成員則使用 CONSTANT\\_CASE，因為這"
 "些成員為常數："
 
-msgid ""
-"Write enums with each item on its own line. This allows adding documentation "
-"comments abve each item more easily, and also makes for cleaner diffs in "
-"version control when items are added or removed."
-msgstr ""
-
 msgid "Code order"
 msgstr "程式碼順序"
 
@@ -464,16 +415,6 @@ msgid ""
 "Then, write constants, exported variables, public, private, and onready "
 "variables, in that order."
 msgstr "接著按照順序是常數、匯出變數、Public、Private 以及 Onready 變數。"
-
-msgid ""
-"The GDScript compiler evaluates onready variables right before the "
-"``_ready`` callback. You can use that to cache node dependencies, that is to "
-"say, to get child nodes in the scene that your class relies on. This is what "
-"the example above shows."
-msgstr ""
-"GDScript 編譯器會在 ``_ready`` 回呼之前計算 onready 變數的值。可以使用 "
-"onready 來快取節點相依性，也就是用來取得類別中需要用到的子節點。也就是上方範"
-"例中做的。"
 
 msgid "Member variables"
 msgstr "成員變數"

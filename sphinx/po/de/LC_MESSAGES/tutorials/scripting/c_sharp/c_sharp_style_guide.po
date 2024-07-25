@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,17 +58,17 @@ msgstr ""
 msgid "Language specification"
 msgstr "Sprachspezifikation"
 
-#, fuzzy
 msgid ""
 "Godot currently uses **C# version 10.0** in its engine and example source "
 "code, as this is the version supported by .NET 6.0 (the current baseline "
 "requirement). So, before we move to a newer version, care must be taken to "
 "avoid mixing language features only available in C# 11.0 or later."
 msgstr ""
-"Godot verwendet derzeit **C# Version 7.0** in seiner Engine und im "
-"Beispielquellcode. Bevor wir zu einer neueren Version wechseln, muss darauf "
-"geachtet werden, dass keine Sprachfeatures gemischt werden, die nur in C# "
-"7.1 oder höher verfügbar sind."
+"Godot verwendet derzeit **C# Version 10.0** in seiner Engine und seinem "
+"Beispielquellcode, da dies die Version ist, die von .NET 6.0 (der aktuellen "
+"Basisanforderung) unterstützt wird. Bevor wir also zu einer neueren Version "
+"übergehen, muss darauf geachtet werden, dass keine Sprachfunktionen "
+"vermischt werden, die nur in C# 11.0 oder später verfügbar sind."
 
 msgid ""
 "For detailed information on C# features in different versions, please see "
@@ -232,6 +227,8 @@ msgid ""
 "After the opening brace, and before the closing brace in a single line "
 "initializer."
 msgstr ""
+"Nach der öffnenden Klammer und vor der schließenden Klammer in einem "
+"einzeiligen Initialisierungsprogramm."
 
 msgid "Do not use a space:"
 msgstr "Verwenden Sie kein Leerzeichen:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,36 +15,8 @@ msgstr ""
 msgid "Scripting"
 msgstr "Scripting"
 
-#, fuzzy
-msgid ""
-"This section covers programming languages and core features to code your "
-"games in Godot."
-msgstr ""
-"Questa sezione copre i linguaggi di programmazione e le caratteristiche di "
-"base per codificare i vostri giochi in Godot."
-
-msgid ""
-"Here, you will find information that is not already covered in more specific "
-"sections. For instance, to learn about inputs, we recommend you to read :ref:"
-"`Inputs <toc-learn-features-inputs>`."
-msgstr ""
-
 msgid "Programming languages"
 msgstr "Linguaggi di programmazione"
-
-#, fuzzy
-msgid "The sections below each focus on a given programming language."
-msgstr "Parliamo dei linguaggi di programmazione disponibili."
-
-#, fuzzy
-msgid "Core features"
-msgstr "Funzionalità"
-
-msgid ""
-"Some features are specific to the engine and are available in all supported "
-"languages. Whether you code in GDScript, C#, or another language, the pages "
-"below will help you make the most of Godot."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stato della traduzione"

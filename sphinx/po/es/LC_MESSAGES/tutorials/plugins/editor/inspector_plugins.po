@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,71 +82,11 @@ msgstr ""
 "``add_inspector_plugin()``. Si el plugin está deshabilitado, debes eliminar "
 "la instancia que agregaste llamando a ``remove_inspector_plugin()``."
 
-#, fuzzy
-msgid ""
-"Here, you are loading a script and not a packed scene. Therefore you should "
-"use ``new()`` instead of ``instantiate()``."
-msgstr ""
-"Aquí estás cargando un script y no una escena empaquetada. Por lo tanto, "
-"deberías usar ``new()`` en lugar de ``instance()``."
-
 msgid "Interacting with the inspector"
 msgstr "Interactuar con el inspector"
 
-#, fuzzy
-msgid ""
-"To interact with the inspector dock, your ``my_inspector_plugin.gd`` script "
-"must extend the :ref:`class_EditorInspectorPlugin` class. This class "
-"provides several virtual methods that affect how the inspector handles "
-"properties."
-msgstr ""
-"Para interactuar con el panel del inspector, tu script ``MyInspectorPlugin."
-"gd`` debe extender la clase :ref:`class_EditorInspectorPlugin`. Esta clase "
-"proporciona varios métodos virtuales que afectan cómo el inspector maneja "
-"las propiedades."
-
-#, fuzzy
-msgid ""
-"To have any effect at all, the script must implement the ``_can_handle()`` "
-"method. This function is called for each edited :ref:`class_Object` and must "
-"return ``true`` if this plugin should handle the object or its properties."
-msgstr ""
-"Para que tenga algún efecto, el script debe implementar el método "
-"``can_handle()``. Esta función es llamada para cada :ref:`class_Object` "
-"editado y debe devolver ``true`` si este plugin debe manejar el objeto o sus "
-"propiedades."
-
 msgid "This includes any :ref:`class_Resource` attached to the object."
 msgstr "Esto incluye cualquier :ref:`class_Resource` adjunto al objeto."
-
-#, fuzzy
-msgid ""
-"You can implement four other methods to add controls to the inspector at "
-"specific positions. The ``_parse_begin()`` and ``_parse_end()`` methods are "
-"called only once at the beginning and the end of parsing for each object, "
-"respectively. They can add controls at the top or bottom of the inspector "
-"layout by calling ``add_custom_control()``."
-msgstr ""
-"Puedes implementar otros cuatro métodos para agregar controles al inspector "
-"en posiciones específicas. Los métodos ``parse_begin()`` y ``parse_end()`` "
-"se llaman solo una vez al inicio y al final del análisis para cada objeto, "
-"respectivamente. Pueden agregar controles en la parte superior o inferior "
-"del diseño del inspector llamando a ``add_custom_control()``."
-
-#, fuzzy
-msgid ""
-"As the editor parses the object, it calls the ``_parse_category()`` and "
-"``_parse_property()`` methods. There, in addition to "
-"``add_custom_control()``, you can call both ``add_property_editor()`` and "
-"``add_property_editor_for_multiple_properties()``. Use these last two "
-"methods to specifically add :ref:`class_EditorProperty`-based controls."
-msgstr ""
-"Mientras el editor analiza el objeto, llama a los métodos "
-"``parse_category()`` y ``parse_property()``. En esos métodos, además de "
-"``add_custom_control()``, puedes llamar a ``add_property_editor()`` y "
-"``add_property_editor_for_multiple_properties()``. Utiliza estos dos últimos "
-"métodos para agregar específicamente controles basados en :ref:"
-"`class_EditorProperty`."
 
 msgid "Adding an interface to edit properties"
 msgstr "Agregando una interfaz para editar propiedades"
@@ -180,14 +115,6 @@ msgid ""
 msgstr ""
 "Debes definir el método ``_init()`` para configurar la estructura de los "
 "nodos de control."
-
-#, fuzzy
-msgid ""
-"You should implement the ``_update_property()`` to handle changes to the "
-"data from the outside."
-msgstr ""
-"Debes implementar el método ``update_property()`` para manejar los cambios "
-"en los datos desde el exterior."
 
 msgid ""
 "A signal must be emitted at some point to inform the inspector that the "

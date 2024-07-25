@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -200,12 +195,6 @@ msgid ""
 msgstr ""
 "Les bus audio peuvent contenir toutes sortes d'effets. Ces effets modifient "
 "le son d'une manière ou d'une autre et sont appliqués dans l'ordre."
-
-#, fuzzy
-msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
-msgstr ""
-"Pour plus d'informations sur les threads, voir :ref:"
-"`doc_using_multiple_threads`."
 
 msgid "Automatic bus disabling"
 msgstr "Désactivation automatique du bus"

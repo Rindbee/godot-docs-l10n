@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,19 +86,8 @@ msgstr ""
 msgid "**Why start with 2D?**"
 msgstr "**Neden 2B ile başlamak**"
 
-msgid ""
-"If you are new to game development or unfamiliar with Godot, we recommend "
-"starting with 2D games. This will allow you to become comfortable with both "
-"before tackling 3D games, which tend to be more complicated."
-msgstr ""
-
 msgid "You can find a completed version of this project at this location:"
 msgstr "Bu projenin tamamlanmış bir sürümünü şu adreste bulabilirsiniz:"
-
-msgid ""
-"https://github.com/godotengine/godot-demo-projects/tree/master/2d/"
-"dodge_the_creeps"
-msgstr ""
 
 msgid "Prerequisites"
 msgstr "Gereksinimler"
@@ -116,12 +100,6 @@ msgstr ""
 "bölümünü sonuna kadar tamamlamış yeni başlayanlar düşünülerek tasarlandı."
 
 msgid ""
-"If you're an experienced programmer, you can find the complete demo's source "
-"code here: `Dodge the Creeps source code <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/2d/dodge_the_creeps>`__."
-msgstr ""
-
-msgid ""
 "We prepared some game assets you'll need to download so we can jump straight "
 "to the code."
 msgstr ""
@@ -130,12 +108,6 @@ msgstr ""
 
 msgid "You can download them by clicking the link below."
 msgstr "Bunları aşağıdaki bağlantıya tıklayarak indirebilirsiniz."
-
-msgid ""
-"`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-"
-"project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets."
-"zip>`_."
-msgstr ""
 
 msgid "Contents"
 msgstr "İçerikler"

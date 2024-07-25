@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,19 +107,6 @@ msgid ""
 msgstr ""
 "Queremos que la animación comience a reproducirse automáticamente al inicio "
 "del juego. Además, debe repetirse en bucle."
-
-#, fuzzy
-msgid ""
-"To do so, you can click the autoplay button (|Autoplay|) in the animation "
-"toolbar and the looping arrows, respectively."
-msgstr ""
-"Para hacerlo, puedes hacer clic en el botón con un icono de \"A+\" en la "
-"barra de herramientas de animación y en las flechas de repetición, "
-"respectivamente."
-
-#, fuzzy
-msgid "Autoplay"
-msgstr "AutoLoad"
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -264,10 +246,10 @@ msgstr ""
 "de tiempo gris."
 
 msgid "|timeline_05_click|"
-msgstr ""
+msgstr "|timeline_05_click|"
 
 msgid "timeline_05_click"
-msgstr ""
+msgstr "timeline_05_click"
 
 msgid ""
 "In the *Inspector*, set the *Position*'s *Y* axis to ``0.65`` meters and the "
@@ -280,6 +262,8 @@ msgid ""
 "If you don't see the properties in the *Inspector* panel, first click on the "
 "``Character`` node again in the *Scene* dock."
 msgstr ""
+"Si no ves las propiedades en el panel *Inspector*, haz clic nuevamente en el "
+"nodo ``Character`` en el dock *Escena*."
 
 msgid "|image13|"
 msgstr "|image13|"
@@ -291,10 +275,10 @@ msgid "Create a keyframe for both properties"
 msgstr "Crea claves para ambas propiedades"
 
 msgid "|second_keys_both|"
-msgstr ""
+msgstr "|second_keys_both|"
 
 msgid "second_keys_both"
-msgstr ""
+msgstr "second_keys_both"
 
 msgid ""
 "Now, move the position keyframe to ``0.7`` seconds by dragging it on the "
@@ -332,14 +316,6 @@ msgstr ""
 "Establece la posición en el eje Y a aproximadamente ``0.35`` y la rotación "
 "en el eje X a ``-9`` grados. Una vez más, crea una clave para ambas "
 "propiedades."
-
-#, fuzzy
-msgid "|animation_final_keyframes|"
-msgstr "La animación por computadora se basa en fotogramas clave"
-
-#, fuzzy
-msgid "animation_final_keyframes"
-msgstr "La animación por computadora se basa en fotogramas clave"
 
 msgid ""
 "You can preview the result by clicking the play button or pressing :kbd:"
@@ -546,6 +522,10 @@ msgid ""
 "clipboard* button (two small squares) alongside the *float* animation. Click "
 "OK to close the window."
 msgstr ""
+"Abre la escena *Player*, selecciona el nodo AnimationPlayer y luego haz clic "
+"en **Animación > Gestionar animaciones...**. Haz clic en el botón *Copiar "
+"animación al portapapeles* (dos cuadrados pequeños) junto a la animación "
+"*float*. Haz clic en Aceptar para cerrar la ventana."
 
 msgid ""
 "Then open ``mob.tscn``, create an :ref:`AnimationPlayer "
@@ -555,18 +535,12 @@ msgid ""
 "Click the *Paste* icon (clipboard) and it should appear in the window. Click "
 "OK to close the window."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Next, make sure that the autoplay button (|Autoplay|) and the looping arrows "
-"(Animation looping) are also turned on in the animation editor in the bottom "
-"panel. That's it; all monsters will now play the float animation."
-msgstr ""
-"Abre la escena *Player*, selecciona el nodo de animación y abre la animación "
-"\"float\". A continuación, haz clic en **Animación > Copiar**. Luego abre el "
-"archivo ``mob.tscn`` y abre su nodo de animación. Haz clic en **Animación > "
-"Pegar**. Eso es todo. Ahora todos los monstruos reproducirán la animación de "
-"flotar."
+"Luego, abre ``mob.tscn``, crea un nodo hijo de tipo :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` y selecciónalo. Haz clic en **Animación > Gestionar "
+"animaciones...** y luego en **Añadir librería**. Deberías ver el mensaje "
+"\"Se creará una biblioteca global\". Deja el campo de texto vacío y haz clic "
+"en Aceptar. Haz clic en el icono de *Pegar* (el portapapeles) y la animación "
+"debería aparecer en la ventana. Haz clic en Aceptar para cerrarla."
 
 msgid ""
 "We can change the playback speed based on the creature's ``random_speed``. "
@@ -582,16 +556,6 @@ msgstr "Y con eso, has terminado de programar tu primer juego completo en 3D."
 
 msgid "**Congratulations**!"
 msgstr "**Felicitaciones**!"
-
-msgid ""
-"In the next part, we'll quickly recap what you learned and give you some "
-"links to keep learning more. But for now, here are the complete ``Player."
-"gd`` and ``Mob.gd`` so you can check your code against them."
-msgstr ""
-"En la próxima parte, haremos un breve resumen de lo que aprendiste y te "
-"proporcionaremos algunos enlaces para que puedas seguir aprendiendo más. "
-"Pero por ahora, aquí tienes los scripts completos de ``Player.gd`` y ``Mob."
-"gd`` para que puedas comparar tu código con ellos."
 
 msgid "Here's the *Player* script."
 msgstr "Aqui está el script *Player*."

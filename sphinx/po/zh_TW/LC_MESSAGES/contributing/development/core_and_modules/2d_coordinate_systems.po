@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -324,22 +319,6 @@ msgstr ""
 
 msgid "**SubViewportContainer shrink transform**"
 msgstr "Viewport 與 Canvas 變換"
-
-#, fuzzy
-msgid ""
-":ref:`stretch <class_SubViewportContainer_property_stretch>` together with :"
-"ref:`stretch_shrink <class_SubViewportContainer_property_stretch_shrink>` "
-"declare for a *SubViewportContainer* if and by what integer factor the "
-"contained *SubViewport* should be scaled in comparison to the container's "
-"size."
-msgstr ""
-"stretch <class_SubViewportContainer_property_stretch>` 和 stretch_shrink "
-"<class_SubViewportContainer_property_stretch_shrink>` 一起宣告 "
-"*SubViewportContaner* 所包含的 *SubViewport* 是否應該相對於容器的大小進行縮放"
-"以及按什麼整數因子縮放以及按什麼整數因子縮放以及按什麼整數因子縮放以及按什麼"
-"整數因子縮放以及按什麼整數因子縮放以及按什麼整數因子縮放以及按什麼整數因子縮"
-"放以及按什麼整數因子縮放以及按什麼整數因子縮放以及按什麼整數因子縮放以及按什"
-"麼整數因子縮放。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

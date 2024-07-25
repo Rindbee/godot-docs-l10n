@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +55,7 @@ msgstr "|image1|"
 
 msgid "If you still have *Input Map* open, switch to the *General* tab."
 msgstr ""
+"Si todavía tienes abierto \"Mapa de Entradas\", abra la pestaña \"General\"."
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -533,10 +529,11 @@ msgid ""
 "Note that if you remove the ``Player`` from the main scene, the following "
 "line"
 msgstr ""
+"Observa que si quitas el ``Player`` de la escena principal, la siguiente "
+"línea:"
 
-#, fuzzy
 msgid "gives an error because there is no $Player!"
-msgstr "dará error porque no hay $Player!"
+msgstr "dará error porque ¡ya no hay un $Player!"
 
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr "Aqui está el script ``main.gd`` completo hasta ahora, como referencia."

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,60 +43,12 @@ msgstr ""
 msgid "The source of the class reference"
 msgstr "类参考的源文件"
 
-#, fuzzy
-msgid ""
-"As the class reference is available in two places, online and in the editor, "
-"we need to take care to keep things in sync. To achieve this the `main Godot "
-"repository <https://github.com/godotengine/godot/>`_ is picked as the source "
-"of truth, and the documentation for the class reference is tracked there."
-msgstr ""
-"因为参考是包含在 Godot 编辑器中的，它的源文件是 `Godot 仓库 <https://github."
-"com/godotengine/godot>`_\\ 的一部分。我们是用 XML 文件来编写的，所以贡献类参"
-"考的流程和编写在线手册的流程有所不同。"
-
-#, fuzzy
-msgid ""
-"You should **not** edit ``.rst`` files in the ``classes/`` folder of the "
-"`documentation repository <https://github.com/godotengine/godot-docs/>`_. "
-"These files are generated automatically and are synced manually by project "
-"maintainers. Read further to learn how to correctly edit the class reference."
-msgstr ""
-"你 **不应该**\\直接编辑 `文档存储库 <https://github.com/godotengine/godot-"
-"docs/>_` 的 ``classes/`` 文件夹中的 ``.rst`` 文件。 这些文件是自动生成的，并"
-"由项目维护人员手动同步。 进一步阅读以了解如何正确编辑类参考。"
-
-#, fuzzy
-msgid ""
-"In the main repository the class reference is stored in XML files, one for "
-"each exposed class or global object. The majority of these files is located "
-"in `doc/classes/ <https://github.com/godotengine/godot/tree/master/doc/"
-"classes>`_, but some modules contain their own documentation as well. You "
-"will find it in the ``modules/<module_name>/doc_classes/`` directory. To "
-"learn more about editing XML files refer to :ref:"
-"`doc_class_reference_primer`."
-msgstr ""
-"在主存储库中，类参考存储在 XML 文件中，每个文件对应一个公开的类或全局对象。 "
-"这些文件大部分位于 `doc/classes/ <https://github.com/godotengine/godot/tree/"
-"master/doc/classes>`_ 中，但某些模块也包含自己的文档。 你将在 ``modules/"
-"<module_name>/doc_classes/`` 目录中找到它。 要了解有关编辑 XML 文件的更多信"
-"息，请参阅 :ref:`doc_class_reference_primer`。"
-
 msgid ""
 "For details on Git usage and the pull request workflow, please refer to the :"
 "ref:`doc_pr_workflow` page."
 msgstr ""
 "至于 Git 用法及拉取请求工作流程的详细信息，请参阅 :ref:`doc_pr_workflow` 页"
 "面。"
-
-#, fuzzy
-msgid ""
-"If you want to translate the class reference from English to another "
-"language, see :ref:`doc_editor_and_docs_localization`. This guide is also "
-"available as a `video tutorial on YouTube <https://www.youtube.com/watch?"
-"v=5jeHXxeX-JY>`_."
-msgstr ""
-"如果你想把类参考手册从英文翻译到其他语言，请参见 :ref:"
-"`doc_editor_and_docs_localization`\\ 。"
 
 msgid ""
 "**Important:** If you plan to make large changes, you should create an issue "
@@ -127,56 +74,6 @@ msgstr ""
 "开始贡献的自然位置应当是你最熟悉的类。这确保了添加的描述将基于（你的）经验和"
 "必要的专业知识，而不仅仅是方法或属性的名称。 我们建议不要添加省事的描述，无论"
 "它看起来多么有吸引力。 这种描述掩盖了对文档的需求，并且很难自动识别。"
-
-#, fuzzy
-msgid ""
-"Following this principle is important and allows us to create tools for "
-"contributors. Such as the class reference's `completion status tracker "
-"<https://godotengine.github.io/doc-status/>`_. You can use it to quickly "
-"find documentation pages missing descriptions."
-msgstr ""
-"遵循这一原则非常重要，它使得我们能够为贡献者创建工具。 例如类参考的 `完成状态"
-"跟踪器 <https://godotengine.github.io/doc-status/>`_ 。 您可以使用它快速查找"
-"缺少描述的文档页面。"
-
-#, fuzzy
-msgid ""
-"If you decide to document a class, but don't know what a particular method "
-"does, don't worry. Leave it for now, and list the methods you skipped when "
-"you open a pull request with your changes. Another writer will take care of "
-"it."
-msgstr ""
-"没问题. 将其留下, 并在你请求提取更改时列出跳过的方法. 别的编写者会处理它."
-
-#, fuzzy
-msgid ""
-"You can still look at the methods' implementation in Godot's source code on "
-"GitHub. If you have doubts, feel free to ask on the `Q&A website <https://"
-"ask.godotengine.org/>`_ and `Godot Contributors Chat <https://chat."
-"godotengine.org/>`_."
-msgstr ""
-"你仍然可以在 GitHub 上查看 Godot 的源代码。如果你有疑问，请随时在\\ `问答网"
-"站 <https://godotengine.org/qa/>`__\\ 和 `Godot 贡献者聊天 <https://chat."
-"godotengine.org/>`_\\ 上提问。"
-
-#, fuzzy
-msgid ""
-"Unless you make minor changes, like fixing a typo, we do not recommend using "
-"the GitHub web editor to edit the class reference's XML files. It lacks "
-"features to edit XML well, like keeping indentations consistent, and it does "
-"not allow amending commits based on reviews."
-msgstr ""
-"除非你只需要做一些微小的修改，比如修正一个拼写错误，否则我们不建议你使用 "
-"GitHub 的网页编辑器去编辑类参考文档的 XML。"
-
-#, fuzzy
-msgid ""
-"It also doesn't allow you to test your changes in the engine or with "
-"validation scripts as described in :ref:`doc_class_reference_editing_xml`."
-msgstr ""
-"而且，你也没法在引擎中测试你的修改，也不能像 :ref:"
-"`doc_class_reference_writing_guidelines_editing_xml` 中描述的一样使用校验脚"
-"本。"
 
 msgid "Updating class reference when working on the engine"
 msgstr "修改引擎时更新类参考"
@@ -222,9 +119,6 @@ msgstr ""
 "请仅提交包含与你在 API 上的工作相关的更改。你可以使用 ``git checkout`` 来放弃"
 "对其他 XML 文件中的更改，但如果注意到不相关的文件正在更新，请考虑一下再报告。"
 "理想情况下，运行此命令应该只提交你自己所做的更改。"
-
-msgid "You will then need to add descriptions to any newly generated entries."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻译状态"

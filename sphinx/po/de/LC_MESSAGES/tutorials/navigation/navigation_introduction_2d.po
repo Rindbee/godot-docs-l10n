@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +52,6 @@ msgstr ""
 msgid ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 msgstr ":ref:`NavigationServer2D<class_NavigationServer2D>`"
 
-#, fuzzy
 msgid ""
 "``NavigationServer2D`` provides a powerful server API to find the shortest "
 "path between two positions on an area defined by a navigation mesh."
@@ -218,7 +212,7 @@ msgid ""
 "Node."
 msgstr ""
 "Ein Helfer-Node, der allgemeine NavigationServer2D-API-Aufrufe für "
-"Wegfindung und -vermeidung erleichtert. Verwenden Sie diesen Node mit einem "
+"Wegfindung und Ausweichen erleichtert. Verwenden Sie diesen Node mit einem "
 "Parent-Node, der von Node2D abgeleitet ist."
 
 msgid ":ref:`NavigationObstacle2D<class_NavigationObstacle2D>` Node"
@@ -309,8 +303,8 @@ msgid ""
 "Then click the `Bake NavigationPolygon`` button on the toolbar."
 msgstr ""
 "Definieren Sie den beweglichen Navigationsbereich mit dem Zeichenwerkzeug "
-"von NavigationPolygon. Klicken Sie dann auf die Schaltfläche "
-"`Navigationspolygon backen` in der Symbolleiste."
+"von NavigationPolygon. Klicken Sie dann auf den Button `Navigationspolygon "
+"backen` in der Symbolleiste."
 
 msgid ""
 "The navigation mesh defines the area where an actor can stand and move with "

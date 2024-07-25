@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,25 +172,20 @@ msgstr ""
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "以下语言绑定是由社区开发与维护的："
 
-#, fuzzy
 msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
-msgstr "`Rust <https://github.com/godot-rust/gdextension>`__"
+msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
 
-#, fuzzy
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`Go <https://github.com/grow-graphics/gd>`__"
 
-#, fuzzy
 msgid "`Haxe <https://hxgodot.github.io/>`__"
-msgstr "`Git <https://git-scm.com/>`_"
+msgstr "`Haxe <https://hxgodot.github.io/>`__"
 
-#, fuzzy
 msgid "`Rust <https://github.com/godot-rust/gdext>`__"
-msgstr "`Rust <https://github.com/godot-rust/gdextension>`__"
+msgstr "`Rust <https://github.com/godot-rust/gdext>`__"
 
-#, fuzzy
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
+msgstr "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 
 msgid ""
 "Not all bindings mentioned here may be production-ready. Make sure to "
@@ -219,18 +209,6 @@ msgstr ""
 "为特定版本 Godot 编译的 GDExtension 插件只保证能够在相同次要版本上可用。例"
 "如，为 Godot 4.0 版本编译的 GDExtension 插件只能用于 Godot 4.0、4.0.1、"
 "4.0.2……另外 GDExtension 与 Godot 3.x 不兼容。"
-
-#, fuzzy
-msgid ""
-"GDExtension add-ons are also only compatible with engine builds that use the "
-"level of floating-point precision the extension was compiled for. This means "
-"that if you use an engine build with double-precision floats, the extension "
-"must also be compiled for double-precision floats. See :ref:"
-"`doc_large_world_coordinates` for details."
-msgstr ""
-"GDExtension 插件的兼容性取决于引擎构建时使用的浮点精度级别，即如果您使用的是"
-"双精度浮点数的引擎构建版本，那么插件也必须针对双精度浮点数进行编译。有关详细"
-"信息，请参见： :ref:`doc_large_world_coordinates`\\。"
 
 msgid "Translation status"
 msgstr "翻译状态"

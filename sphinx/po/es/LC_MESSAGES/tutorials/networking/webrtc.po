@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,19 +40,6 @@ msgstr ""
 
 msgid "WebSocket"
 msgstr "Web Socket"
-
-#, fuzzy
-msgid ""
-"When the WebSocket protocol was standardized in December 2011, it allowed "
-"browsers to create stable and bidirectional connections to a WebSocket "
-"server. The protocol is a very powerful tool to send push notifications to "
-"browsers, and has been used to implement chats, turn-based games, etc."
-msgstr ""
-"Cuando el protocolo WebSocket fue estandarizado en diciembre de 2011, "
-"permitió a los navegadores crear conexiones estables y bidireccionales con "
-"un servidor WebSocket. El protocolo es bastante simple, pero es una "
-"herramienta muy poderosa para enviar notificaciones push a los navegadores, "
-"y se ha utilizado para implementar chats, juegos por turnos, etc."
 
 msgid ""
 "WebSockets, though, still use a TCP connection, which is good for "
@@ -120,36 +102,6 @@ msgstr ""
 msgid "Using WebRTC in Godot"
 msgstr "Usando WebRTC en Godot"
 
-#, fuzzy
-msgid ""
-"WebRTC is implemented in Godot via two main classes :ref:"
-"`WebRTCPeerConnection <class_WebRTCPeerConnection>` and :ref:"
-"`WebRTCDataChannel <class_WebRTCDataChannel>`, plus the multiplayer API "
-"implementation :ref:`WebRTCMultiplayerPeer <class_WebRTCMultiplayerPeer>`. "
-"See section on :ref:`high-level multiplayer <doc_high_level_multiplayer>` "
-"for more details."
-msgstr ""
-"WebRTC está implementado en Godot a través de dos clases principales :ref:"
-"`WebRTCPeerConnection <class_WebRTCPeerConnection>` y :ref:"
-"`WebRTCDataChannel <class_WebRTCDataChannel>`, además de la implementación "
-"de la API multijugador :ref:`WebRTCMultiplayer <class_WebRTCMultiplayer>`. "
-"Ver la sección sobre :ref:`highh-level multiplayer "
-"<doc_high_level_multiplayer>` para más detalles."
-
-#, fuzzy
-msgid ""
-"These classes are available automatically in HTML5, but **require an "
-"external GDExtension plugin on native (non-HTML5) platforms**. Check out the "
-"`webrtc-native plugin repository <https://github.com/godotengine/webrtc-"
-"native>`__ for instructions and to get the latest `release <https://github."
-"com/godotengine/webrtc-native/releases>`__."
-msgstr ""
-"Estas clases están disponibles automáticamente en HTML5, pero **requieren un "
-"plugin GDNative externo en plataformas nativas (no HTML5)**. Revisa el "
-"repositorio de plugins nativos de la web <https://github.com/godotengine/"
-"webrtc-native>`__ para instrucciones y para obtener el último `lanzamiento "
-"<https://github.com/godotengine/webrtc-native/releases>`__."
-
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
 "in the Android export preset before exporting the project or using one-click "
@@ -207,18 +159,6 @@ msgstr "Esto imprimirá algo similar a esto:"
 
 msgid "Remote signaling with WebSocket"
 msgstr "Señalización remota con WebSocket"
-
-#, fuzzy
-msgid ""
-"A more advanced demo using WebSocket for signaling peers and :ref:"
-"`WebRTCMultiplayerPeer <class_WebRTCMultiplayerPeer>` is available in the "
-"`godot demo projects <https://github.com/godotengine/godot-demo-projects>`_ "
-"under `networking/webrtc_signaling`."
-msgstr ""
-"Una demostración más avanzada usando WebSocket para la señalización de pares "
-"y :ref:`WebRTCMultiplayer <class_WebRTCMultiplayer>` está disponible en los "
-"`proyectos de demostración de Godot <https://github.com/godotengine/godot-"
-"demo-projects>`_ bajo `networking/webrtc_signaling`."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

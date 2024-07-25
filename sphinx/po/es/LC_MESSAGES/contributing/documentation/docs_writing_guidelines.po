@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Writing guidelines"
-msgstr "Directrices para escribir documentación"
 
 msgid ""
 "The Godot community is rich and international. Users come from all around "
@@ -554,19 +545,6 @@ msgstr ""
 "La Animación, el Depurador, etc. en la parte inferior del viewport son "
 "``paneles``. Juntos forman los ``paneles inferiores``."
 
-#, fuzzy
-msgid ""
-"Foldable areas of the Inspector are ``sections``. The node's parent class "
-"names, which you can't fold, are ``Classes`` e.g. the ``CharacterBody2D "
-"class``. And individual lines with key-value pairs are ``properties``. E.g. "
-"``position`` or ``modulate color`` are both ``properties``."
-msgstr ""
-"Las áreas plegables del Inspector son ``secciones``. Los nombres de las "
-"clases padre del nodo, que no se pueden plegar, son ``Clases``, por ejemplo, "
-"la ``clase KinematicBody2D``. Y las líneas individuales con pares clave-"
-"valor son ``propiedades``. Por ejemplo, ``posición`` o ``color modulado`` "
-"son ambas ``propiedades``."
-
 msgid "Keyboard shortcut guidelines"
 msgstr "Guía sobre atajos de teclado"
 
@@ -584,16 +562,6 @@ msgstr ""
 "las combinaciones, utiliza el símbolo ``+`` con un espacio a cada lado del "
 "símbolo."
 
-#, fuzzy
-msgid ""
-"Make sure to mention shortcuts that differ on macOS compared to other "
-"platforms. You can find a list of all shortcuts, including what they are on "
-"macOS, on :ref:`this page <doc_default_key_mapping>`."
-msgstr ""
-"Asegúrate de mencionar los atajos que difieren en macOS en comparación con "
-"otras plataformas. En macOS, ``Cmd`` a menudo reemplaza a ``Ctrl`` en los "
-"atajos de teclado."
-
 msgid ""
 "Try to integrate the shortcut into sentences the best you can. Here are some "
 "examples with the ``:kbd:`` tag left as-is for better visibility:"
@@ -601,14 +569,6 @@ msgstr ""
 "Intenta integrar el atajo en las oraciones lo mejor que puedas. Aquí tienes "
 "algunos ejemplos con la etiqueta ``:kbd:`` tal como está para una mejor "
 "visibilidad:"
-
-#, fuzzy
-msgid ""
-"Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Opt + Cmd + "
-"T``` on macOS)."
-msgstr ""
-"Presiona ``:kbd:`Ctrl + Alt + T``` para alternar el panel (:kbd:`Cmd + Alt + "
-"T` en macOS)."
 
 msgid ""
 "Press ``:kbd:`Space``` and hold the left mouse button to pan in the 2D "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,17 +21,6 @@ msgstr "Často kladené otázky"
 msgid ""
 "What can I do with Godot? How much does it cost? What are the license terms?"
 msgstr "Co mohu dělat s Godot? Kolik to stojí? Jaké jsou licenční podmínky?"
-
-msgid ""
-"Godot is `Free and open source Software <https://en.wikipedia.org/wiki/"
-"Free_and_open source_software>`_ available under the `OSI-approved <https://"
-"opensource.org/licenses/MIT>`_ MIT license. This means it is free as in "
-"\"free speech\" as well as in \"free beer.\""
-msgstr ""
-"Godot je `Svobodný software s otevřeným zdrojovým kódem <https://en."
-"wikipedia.org/wiki/Free_and_opensource_software>`_ dostupný pod `OSI-"
-"approved MIT licencí <https://opensource.org/licenses/MIT>`_. To znamená, že "
-"je zdarma jako \"svoboda projevu\" nebo jako \"pivo zdarma.\""
 
 msgid "In short:"
 msgstr "Ve zkratce:"
@@ -615,19 +599,6 @@ msgstr ""
 "zkopírujete složku obsahující spustitelný soubor Godot. Čtěte :re:"
 "`doc_data_paths` pro více informací."
 
-#, fuzzy
-msgid ""
-"If *true* portable operation is desired (e.g. for use on a USB stick), "
-"follow the steps in :ref:`doc_data_paths_self_contained_mode`."
-msgstr ""
-"Pokud je vyžadován *skutečně* přenosný provoz (např. pro použití na USB "
-"klíčence), postupujte podle kroků v :ref:"
-"`doc_data_paths_self_contained_mode`."
-
-#, fuzzy
-msgid "Why does Godot prioritize Vulkan and OpenGL over Direct3D?"
-msgstr "Proč Godot používá Vulkan nebo OpenGL namísto Direct3D?"
-
 msgid ""
 "Godot aims for cross-platform compatibility and open standards first and "
 "foremost. OpenGL and Vulkan are the technologies that are both open and "
@@ -640,15 +611,6 @@ msgstr ""
 "dostupné (téměř) na všech platformách. Díky tomuto návrhovému rozhodnutí "
 "bude projekt vyvinutý s Godot pro Windows fungovat ihned po rozbalení na "
 "Linuxu, macOS a dalších."
-
-msgid ""
-"While Vulkan and OpenGL remain our primary focus for their open standard and "
-"cross-platform benefits, Godot 4.3 introduced experimental support for "
-"Direct3D 12. This addition aims to enhance performance and compatibility on "
-"platforms where Direct3D 12 is prevalent, such as Windows and Xbox. However, "
-"Vulkan and OpenGL will continue as the default rendering backends on all "
-"platforms, including Windows."
-msgstr ""
 
 msgid "Why does Godot aim to keep its core feature set small?"
 msgstr "Proč se Godot snaží udržet svou základní sadu funkcí malou?"
@@ -1116,17 +1078,6 @@ msgstr ""
 "` moduly<doc_custom_modules_in_cpp>`). To vše vyžaduje komplexní logiku, "
 "kterou je snazší napsat v aktuálním programovacím jazyce (jako Python), než-"
 "li použít nejznámější makro jazyky jen kvůli sestavení."
-
-#, fuzzy
-msgid ""
-"Godot's build process makes heavy use of cross-compiling tools. Each "
-"platform has a specific detection process, and all these must be handled as "
-"specific cases with special code written for each."
-msgstr ""
-"Sestavovací proces Godot silné využívá nástroje pro křížovou kompilaci. "
-"Každá platforma má své specifické detekční procesy a všechny tytovprocesy "
-"musí být řešeny jako specifické případy se speciálním kódem napsaným pro "
-"každý z nich."
 
 msgid ""
 "Please try to keep an open mind and get at least a little familiar with "

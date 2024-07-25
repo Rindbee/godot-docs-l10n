@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,16 +123,6 @@ msgstr ""
 msgid "Generating PCK files"
 msgstr "Генерування файлів PCK"
 
-#, fuzzy
-msgid ""
-"In order to pack all resources of a project into a PCK file open the project "
-"and go to Project/Export and click on \"Export PCK/Zip\". Also make sure to "
-"have an export template selected while doing so."
-msgstr ""
-"Для того, щоб упакувати всі ресурси проєкту у файл PCK, відкрийте проєкт та "
-"перейдіть до Проєкт/Експорт і натисніть на \"Export PCK / Zip\". Також "
-"переконайтесь, що під час цього вибрано шаблон експорту."
-
 msgid ""
 "Another method would be to :ref:`export from the command line "
 "<doc_command_line_tutorial_exporting>`. If the output file ends with a PCK "
@@ -206,22 +191,6 @@ msgstr ""
 "Наступний приклад очікує на файл ``mod.pck`` в каталозі виконання гри. Файл "
 "PCK містить у своєму корені тестову сцену ``mod_scene.tscn``."
 
-#, fuzzy
-msgid ""
-"By default, if you import a file with the same file path/name as one you "
-"already have in your project, the imported one will replace it. This is "
-"something to watch out for when creating DLC or mods. You can solve this "
-"problem by using a tool that isolates mods to a specific mods subfolder. "
-"However, it is also a way of creating patches for one's own game. A PCK file "
-"of this kind can fix the content of a previously loaded PCK."
-msgstr ""
-"Якщо ви імпортуєте файл із тим самим шляхом/ім'ям файлу, який ви вже маєте у "
-"своєму проєкті, імпортований файл замінить його. Це те, на що слід вважати "
-"при створенні DLC, або модів (вирішується легко за допомогою інструменту, що "
-"виділяє моди до певної під-папки модів). Однак це також спосіб створення "
-"патчів для власної гри. Файл PCK такого типу може виправити вміст "
-"завантаженої раніше PCK."
-
 msgid ""
 "To opt out of this behavior, pass ``false`` as the second argument to :ref:"
 "`ProjectSettings.load_resource_pack() "
@@ -242,20 +211,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Підсумок"
-
-#, fuzzy
-msgid ""
-"This tutorial explains how to add mods, patches, or DLC to a game. The most "
-"important thing is to identify how one plans to distribute future content "
-"for their game and develop a workflow that is customized for that purpose. "
-"Godot should make that process smooth regardless of which route a developer "
-"pursues."
-msgstr ""
-"Цей підручник повинен проілюструвати, наскільки легко додавати моди, патчі "
-"та DLC до гри. Найголовніше - визначити, як розповсюджувати майбутній "
-"контент для своєї гри, і розробити робочий процес, налаштований для цієї "
-"мети. Godot повинен зробити цей процес гладким незалежно від того, який шлях "
-"обере розробник."
 
 msgid "Translation status"
 msgstr "Стан перекладу"

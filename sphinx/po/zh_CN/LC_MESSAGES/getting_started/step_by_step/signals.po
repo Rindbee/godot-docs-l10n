@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,14 +45,6 @@ msgid ""
 msgstr ""
 "例如，你可能在屏幕上有一个代表玩家生命值的生命条。当玩家受到伤害或使用治疗药"
 "水时，你希望生命条反映变化。要做到这一点，在 Godot 中，你会使用到信号。"
-
-msgid ""
-"As mentioned in the introduction, signals are Godot's version of the "
-"observer pattern. You can learn more about it here: https://"
-"gameprogrammingpatterns.com/observer.html"
-msgstr ""
-"正如引言中提到的，信号是 Godot 版本的观察者模式。你可以在此处了解有关它的更多"
-"信息：https://gameprogrammingpatterns.com/observer.html"
 
 msgid ""
 "We will now use a signal to make our Godot icon from the previous lesson (:"
@@ -219,6 +206,8 @@ msgid ""
 "generation might not work. In this case you need to to connect the signal "
 "via code as explained in the next section."
 msgstr ""
+"如果你在使用一个外部代码编辑器（例如VS Code），可能会没有自动代码生成。在这种"
+"情况下，你需要按照下一部分阐述的方法使用信号连接代码。"
 
 msgid ""
 "Click the Connect button to complete the signal connection and jump to the "
@@ -394,11 +383,10 @@ msgstr ""
 "visible`` 行切换该值。如果 ``visible`` 是 ``true``\\ ，它就会变成 "
 "``false``\\ ，反之亦然。"
 
-#, fuzzy
 msgid ""
 "If you run the Node2D scene now, you will see that the sprite blinks on and "
 "off, at one second intervals."
-msgstr "如果你现在运行场景，就会看到精灵在闪啊闪的，间隔为一秒。"
+msgstr "如果你现在运行 Node2D 场景，就会看到精灵在闪啊闪的，间隔为一秒。"
 
 msgid "Complete script"
 msgstr "完整脚本"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,16 +31,6 @@ msgstr "下面是可以在Godot的不同区域使用多线程的方法列表."
 
 msgid "Global scope"
 msgstr "全局作用域"
-
-#, fuzzy
-msgid ""
-":ref:`Global Scope<class_@GlobalScope>` singletons are all thread-safe. "
-"Accessing servers from threads is supported (for RenderingServer and Physics "
-"servers, ensure threaded or thread-safe operation is enabled in the project "
-"settings!)."
-msgstr ""
-":ref:`Global Scope<class_@GlobalScope>` 单例都是线程安全的. 支持从线程访问服"
-"务器(对于VisualServer和物理服务器, 确保在项目设置中启用线程或线程安全操作！)."
 
 msgid ""
 "This makes them ideal for code that creates dozens of thousands of instances "
@@ -96,16 +81,6 @@ msgstr ""
 
 msgid "Rendering"
 msgstr "渲染"
-
-#, fuzzy
-msgid ""
-"Instancing nodes that render anything in 2D or 3D (such as Sprite) is *not* "
-"thread-safe by default. To make rendering thread-safe, set the **Rendering > "
-"Driver > Thread Model** project setting to **Multi-Threaded**."
-msgstr ""
-"默认情况下，实例化能够渲染 2D 或 3D 内容的节点（比如 Sprite）是线程\\ *不*\\ "
-"安全的。要让渲染做到线程安全，请将项目设置中的 **Rendering > Threads > "
-"Thread Model** 设为 **Multi-Threaded**\\ 。"
 
 msgid ""
 "Note that the Multi-Threaded thread model has several known bugs, so it may "

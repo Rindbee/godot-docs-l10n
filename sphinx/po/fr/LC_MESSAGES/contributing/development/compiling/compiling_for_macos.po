@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,16 +31,6 @@ msgid "For compiling under macOS, the following is required:"
 msgstr ""
 "Pour la compilation sous macOS, les éléments suivants sont nécessaires :"
 
-#, fuzzy
-msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
-msgstr "`Python 3.5+ <https://www.python.org/downloads/>`_."
-
-#, fuzzy
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr ""
-"`SCons 3.0+ <https://scons.org/pages/download.html>`_ système de "
-"construction(build)."
-
 msgid ""
 "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (or the more "
 "lightweight Command Line Tools for Xcode)."
@@ -54,32 +39,11 @@ msgstr ""
 "ligne de commande plus légers pour Xcode)."
 
 msgid ""
-"`Vulkan SDK <https://sdk.lunarg.com/sdk/download/latest/mac/vulkan-sdk."
-"dmg>`_ for MoltenVK (macOS doesn't support Vulkan out of the box)."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install "
-"SCons using the following command::"
-msgstr ""
-"Si vous avez installé `Homebrew <https://brew.sh/>`_, vous pouvez facilement "
-"installer SCons et yasm en utilisant la commande suivante :"
-
-msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
 msgstr ""
 "L'installation de Homebrew permet également de récupérer automatiquement les "
 "outils de ligne de commande pour Xcode si vous ne les avez pas déjà."
-
-#, fuzzy
-msgid ""
-"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
-"you can easily install SCons using the following command::"
-msgstr ""
-"De même, si vous avez `MacPorts <https://www.macports.org/>`_ installé, vous "
-"pouvez facilement installer SCons et yasm en utilisant la commande suivante :"
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -115,18 +79,6 @@ msgstr ""
 "\"Universal 2\", exécutez les deux commandes ci-dessus et utilisez ensuite "
 "``lipo`` pour les regrouper :"
 
-#, fuzzy
-msgid ""
-"If all goes well, the resulting binary executable will be placed in the "
-"``bin/`` subdirectory. This executable file contains the whole engine and "
-"runs without any dependencies. Executing it will bring up the Project "
-"Manager."
-msgstr ""
-"Si tout se passe bien, l'exécutable binaire résultant sera placé dans le "
-"sous-dossier ``bin/``. Ce fichier exécutable contient l'ensemble du moteur "
-"et fonctionne sans aucune dépendance. En l'exécutant, le gestionnaire de "
-"projet apparaîtra."
-
 msgid ""
 "If you want to use separate editor settings for your own Godot builds and "
 "official releases, you can enable :ref:`doc_data_paths_self_contained_mode` "
@@ -136,40 +88,6 @@ msgstr ""
 "constructions Godot et vos versions officielles, vous pouvez activer :ref:"
 "`doc_data_paths_self_contained_mode` en créant un fichier appelé ``._sc_`` "
 "ou ``_sc_`` dans le dossier ``bin/``."
-
-#, fuzzy
-msgid ""
-"To create an ``.app`` bundle like in the official builds, you need to use "
-"the template located in ``misc/dist/macos_tools.app``. Typically, for an "
-"optimized editor binary built with ``dev_build=yes``::"
-msgstr ""
-"Pour créer un bundle ``.app`` comme dans les builds officielles, vous devez "
-"utiliser le modèle situé dans ``misc/dist/osx_tools.app``. Typiquement, pour "
-"un compilation binaire optimisée de l'éditeur avec ``scons p=osx "
-"target=release_debug`` :"
-
-msgid ""
-"If you are building the ``master`` branch, you also need to include support "
-"for the MoltenVK Vulkan portability library. By default, it will be linked "
-"statically from your installation of the Vulkan SDK for macOS. You can also "
-"choose to link it dynamically by passing ``use_volk=yes`` and including the "
-"dynamic library in your ``.app`` bundle::"
-msgstr ""
-
-#, fuzzy
-msgid "Running a headless/server build"
-msgstr "Compilation d'une version sans headless/serveur"
-
-#, fuzzy
-msgid ""
-"To run in *headless* mode which provides editor functionality to export "
-"projects in an automated manner, use the normal build::"
-msgstr ""
-"Pour compiler un build *headless* qui fournit la fonctionnalité d'éditeur "
-"pour exporter des projets de manière automatisée, utilisez :"
-
-msgid "And then use the ``--headless`` command line argument::"
-msgstr ""
 
 msgid ""
 "To compile a debug *server* build which can be used with :ref:`remote "
@@ -188,16 +106,6 @@ msgstr ""
 msgid "Building export templates"
 msgstr "Création de modèles d'exportation"
 
-#, fuzzy
-msgid ""
-"To build macOS export templates, you have to compile using the targets "
-"without the editor: ``target=template_release`` (release template) and "
-"``target=template_debug``."
-msgstr ""
-"Pour compiler des modèles d'exportation pour macOS, vous devez compiler avec "
-"``tools=no`` (pas d'éditeur) et respectivement pour ``target=release`` "
-"(modèle de version) et ``target=release_debug``."
-
 msgid ""
 "Official templates are universal binaries which support both Intel x86_64 "
 "and ARM64 architectures. You can also create export templates that support "
@@ -211,10 +119,6 @@ msgstr ""
 msgid "For Intel x86_64::"
 msgstr "Pour Intel x86_64 :"
 
-#, fuzzy
-msgid "For Arm64 (Apple M1)::"
-msgstr "Pour ARM64 (Apple M1) :"
-
 msgid ""
 "To support both architectures in a single \"Universal 2\" binary, run the "
 "above two commands blocks and then use ``lipo`` to bundle them together::"
@@ -223,60 +127,8 @@ msgstr ""
 "\"Universal 2\", exécutez les deux commandes ci-dessus et utilisez ensuite "
 "``lipo`` pour les regrouper :"
 
-#, fuzzy
-msgid ""
-"To create an ``.app`` bundle like in the official builds, you need to use "
-"the template located in ``misc/dist/macos_template.app``. The release and "
-"debug builds should be placed in ``macos_template.app/Contents/MacOS`` with "
-"the names ``godot_macos_release.universal`` and ``godot_macos_debug."
-"universal`` respectively. You can do so with the following commands "
-"(assuming a universal build, otherwise replace the ``.universal`` extension "
-"with the one of your arch-specific binaries)::"
-msgstr ""
-"Pour créer un paquet ``.app`` comme dans les builds officiels, vous devez "
-"utiliser le modèle situé dans ``misc/dist/osx_template.app``. Les builds "
-"release et debug doivent être placés dans ``osx_template.app/Contents/"
-"MacOS`` avec les noms ``godot_osx_release.64`` et ``godot_osx_debug.64`` "
-"respectivement. Vous pouvez le faire avec les commandes suivantes (en "
-"supposant une compilation universelle, sinon remplacez l'extension ``."
-"universal`` par celle de vos binaires spécifiques à l'architecture) :"
-
-#, fuzzy
-msgid ""
-"You can then zip the ``macos_template.app`` folder to reproduce the ``macos."
-"zip`` template from the official Godot distribution::"
-msgstr ""
-"Vous pouvez ensuite zipper le dossier ``osx_template.app`` pour reproduire "
-"le modèle ``osx.zip`` de la distribution officielle de Godot :"
-
 msgid "Using Pyston for faster development"
 msgstr "Utiliser Pyston pour un développement plus rapide"
-
-#, fuzzy
-msgid ""
-"You can use `Pyston <https://www.pyston.org/>`__ to run SCons. Pyston is a "
-"JIT-enabled implementation of the Python language (which SCons is written "
-"in). Its \"full\" version is currently only compatible with Linux, but "
-"Pyston-lite is also compatible with macOS (both x86 and ARM). Pyston can "
-"speed up incremental builds significantly, often by a factor between 1.5× "
-"and 2×. Pyston can be combined with alternative linkers such as LLD or Mold "
-"to get even faster builds."
-msgstr ""
-"Vous pouvez utiliser `Pyston <https://www.pyston.org/>`__ pour exécuter "
-"SCons. Pyston est une implémentation compatible JIT du langage Python (dans "
-"lequel SCons est écrit). Il n'est actuellement compatible qu'avec Linux. "
-"Pyston peut accélérer les constructions incrémentales de manière "
-"significative, souvent par un facteur compris entre 1,5× et 2×. Pyston peut "
-"être combiné avec Clang et LLD pour obtenir des constructions encore plus "
-"rapides."
-
-msgid ""
-"To install Pyston-lite, run ``python -m pip install pyston_lite_autoload`` "
-"then run SCons as usual. This will automatically load a subset of Pyston's "
-"optimizations in any Python program you run. However, this won't bring as "
-"much of a performance improvement compared to installing \"full\" Pyston "
-"(which currently can't be done on macOS)."
-msgstr ""
 
 msgid "Cross-compiling for macOS from Linux"
 msgstr "Compilation croisée pour macOS à partir de Linux"

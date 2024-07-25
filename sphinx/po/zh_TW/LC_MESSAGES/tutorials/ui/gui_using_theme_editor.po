@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,18 +170,6 @@ msgid ""
 msgstr ""
 "覆蓋的主題專案可以直接在右側面板中編輯，除非它們是資源。資源具有可用的基本控"
 "制項，但必須在屬性面板欄中進行編輯。"
-
-#, fuzzy
-msgid ""
-"Styleboxes have a unique feature available, where you can pin an individual "
-"stylebox from the list. Pinned stylebox acts like the leader of the pack, "
-"and all styleboxes of the same type are updated alongside it when you change "
-"its properties. This allows you to edit properties of several styleboxes at "
-"the same time."
-msgstr ""
-"樣式盒子有一個獨特的功能，您可以在其中固定列表中的單個樣式盒子。固定樣式盒子"
-"就像包頭一樣，當您更改其屬性時，所有相同型別的樣式盒子都會隨之更新。這允許您"
-"同時編輯多個樣式盒子的屬性。"
 
 msgid ""
 "While theme types can be picked from a preview, they can also be added "

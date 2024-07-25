@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,39 +198,6 @@ msgstr ""
 msgid "Movement"
 msgstr "Движение"
 
-#, fuzzy
-msgid ""
-"A vector can represent **any** quantity with a magnitude and direction. "
-"Typical examples are: position, velocity, acceleration, and force. In this "
-"image, the spaceship at step 1 has a position vector of ``(1, 3)`` and a "
-"velocity vector of ``(2, 1)``. The velocity vector represents how far the "
-"ship moves each step. We can find the position for step 2 by adding the "
-"velocity to the current position."
-msgstr ""
-"Вектор может представлять **любую** длину и направление. Обычные примеры "
-"это: позиция, скорость, ускорение, и сила. На этом изображении, космический "
-"корабль на шаге 1 имеет вектор позиции ``(1,3)`` а вектор скорости "
-"``(2,1)``. Вектор скорости представляет как далеко пойдёт корабль на каждом "
-"шаге. Вы можете найти его позицию на шаге 2 добавляя скорость к текущей "
-"позиции."
-
-#, fuzzy
-msgid ""
-"Velocity measures the **change** in position per unit of time. The new "
-"position is found by adding the velocity multiplied by the elapsed time "
-"(here assumed to be one unit, e.g. 1 s) to the previous position."
-msgstr ""
-"Скорость вычисляет **изменение** позиции за единицу времени. Новая позиция "
-"находится добавлением скорости к предыдущей позиции."
-
-msgid ""
-"In a typical 2D game scenario, you would have a velocity in pixels per "
-"second, and multiply it by the ``delta`` parameter (time elapsed since the "
-"previous frame) from the :ref:`_process() "
-"<class_Node_private_method__process>` or :ref:`_physics_process() "
-"<class_Node_private_method__physics_process>` callbacks."
-msgstr ""
-
 msgid "Pointing toward a target"
 msgstr "Направление в сторону цели"
 
@@ -247,11 +209,6 @@ msgstr ""
 "В этом примере вы, управляя танком, хотите направить дуло на робота. "
 "Вычитание позиции танка из позиции робота даёт вектор, направленный от танка "
 "к роботу."
-
-#, fuzzy
-msgid "To find a vector pointing from ``A`` to ``B``, use ``B - A``."
-msgstr ""
-"Для нахождения вектора направления от ``A`` до ``B`` используйте ``B - A``."
 
 msgid "Unit vectors"
 msgstr "Единичные векторы"
@@ -268,31 +225,6 @@ msgstr ""
 
 msgid "Normalization"
 msgstr "Нормализация"
-
-#, fuzzy
-msgid ""
-"**Normalizing** a vector means reducing its length to ``1`` while preserving "
-"its direction. This is done by dividing each of its components by its "
-"magnitude. Because this is such a common operation, Godot provides a "
-"dedicated :ref:`normalized() <class_Vector2_method_normalized>` method for "
-"this:"
-msgstr ""
-"**Нормализация** вектора означает приведение его длины к ``1`` с сохранением "
-"его направления. Это делается путём деления каждого из его компонентов на "
-"длину. Поскольку это довольно распространённая операция, ``Vector2`` и "
-"``Vector3`` предоставляют метод нормализации:"
-
-#, fuzzy
-msgid ""
-"Because normalization involves dividing by the vector's length, you cannot "
-"normalize a vector of length ``0``. Attempting to do so would normally "
-"result in an error. In GDScript though, trying to call the ``normalized()`` "
-"method on a vector of length 0 leaves the value untouched and avoids the "
-"error for you."
-msgstr ""
-"Поскольку нормализация подразумевает деление на длину вектора, вы не можете "
-"нормализовать вектор с длиной равной ``0``. Попытка сделать это закончится "
-"ошибкой."
 
 msgid "Reflection"
 msgstr "Отражение"
@@ -315,22 +247,6 @@ msgstr ""
 "Например, представьте что вы движете шар, который вы хотите отражать от стен "
 "или других объектов:"
 
-#, fuzzy
-msgid ""
-"The surface normal has a value of ``(0, -1)`` because this is a horizontal "
-"surface. When the ball collides, we take its remaining motion (the amount "
-"left over when it hits the surface) and reflect it using the normal. In "
-"Godot, there is a :ref:`bounce() <class_Vector2_method_bounce>` method to "
-"handle this. Here is a code example of the above diagram using a :ref:"
-"`CharacterBody2D <class_CharacterBody2D>`:"
-msgstr ""
-"Нормаль поверхности имеет значение ``(0, -1)``, потому что это "
-"горизонтальная поверхность. Когда шар сталкивается, мы берём его оставшееся "
-"движение (количество, оставшееся, когда он касается поверхности) и отражаем "
-"его, используя нормаль. В Godot класс :ref:`Vector2 <class_Vector2>` имеет "
-"метод ``bounce()`` для обработки этого. Вот пример GDScript приведённой выше "
-"диаграммы с использованием :ref:`KinematicBody2D <class_KinematicBody2D>`:"
-
 msgid "Dot product"
 msgstr "Скалярное произведение"
 
@@ -352,30 +268,6 @@ msgid "and"
 msgstr "и"
 
 msgid ""
-"The mathematical notation *||A||* represents the magnitude of vector ``A``, "
-"and *A*\\ :sub:`x` means the ``x`` component of vector ``A``."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"However, in most cases it is easiest to use the built-in :ref:`dot() "
-"<class_Vector2_method_dot>` method. Note that the order of the two vectors "
-"does not matter:"
-msgstr ""
-"Также, в большинстве случаев лучше использовать встроенный метод. Обратите "
-"внимание, что порядок двух векторов не имеет значения:"
-
-#, fuzzy
-msgid ""
-"The dot product is most useful when used with unit vectors, making the first "
-"formula reduce to just ``cos(θ)``. This means we can use the dot product to "
-"tell us something about the angle between two vectors:"
-msgstr ""
-"Скалярное произведение очень полезно в использовании с единичными векторами, "
-"сокращая первую формулу до ``cosθ``. Это означает что мы можем использовать "
-"скалярное произведение чтобы получить угол между двумя векторами:"
-
-msgid ""
 "When using unit vectors, the result will always be between ``-1`` (180°) and "
 "``1`` (0°)."
 msgstr ""
@@ -395,23 +287,6 @@ msgstr ""
 "направлении другого объекта. На диаграмме ниже, игрок ``P`` пытается "
 "избежать взгляда зомби ``A`` и ``B``. Могут ли зомби его увидеть если их "
 "угол обзора равен **180°** ?"
-
-#, fuzzy
-msgid ""
-"The green arrows ``fA`` and ``fB`` are **unit vectors** representing the "
-"zombie's facing direction and the blue semicircle represents its field of "
-"view. For zombie ``A``, we find the direction vector ``AP`` pointing to the "
-"player using ``P - A`` and normalize it, however, Godot has a helper method "
-"to do this called :ref:`direction_to() <class_Vector2_method_direction_to>`. "
-"If the angle between this vector and the facing vector is less than 90°, "
-"then the zombie can see the player."
-msgstr ""
-"Зелёные стрелки ``fA`` и ``fB`` это **единичные векторы** представляющие "
-"направление взгляда зомби, а синий полукруг представляет их поле обзора. Для "
-"зомби ``A``, мы находим направление вектора ``AP`` указывающего на игрока с "
-"помошью ``P - A`` и нормализуем его, однако, Godot имеет вспомогательный "
-"метод для этого, называемый ``direction_to``. Если угол между этим вектором "
-"и вектором взгляда меньше 90°, то зомби может увидеть игрока."
 
 msgid "In code it would look like this:"
 msgstr "В коде это бы выглядело как:"
@@ -435,18 +310,6 @@ msgstr ""
 msgid "The cross product is calculated like this:"
 msgstr "Векторное произведение вычисляется так:"
 
-#, fuzzy
-msgid ""
-"With Godot, you can use the built-in :ref:`Vector3.cross() "
-"<class_Vector3_method_cross>` method:"
-msgstr "В Godot, вы можете использовать встроенный метод:"
-
-msgid ""
-"The cross product is not mathematically defined in 2D. The :ref:`Vector2."
-"cross() <class_Vector2_method_cross>` method is a commonly used analog of "
-"the 3D cross product for 2D vectors."
-msgstr ""
-
 msgid ""
 "In the cross product, order matters. ``a.cross(b)`` does not give the same "
 "result as ``b.cross(a)``. The resulting vectors point in **opposite** "
@@ -458,19 +321,6 @@ msgstr ""
 
 msgid "Calculating normals"
 msgstr "Расчитывание нормалей"
-
-#, fuzzy
-msgid ""
-"One common use of cross products is to find the surface normal of a plane or "
-"surface in 3D space. If we have the triangle ``ABC`` we can use vector "
-"subtraction to find two edges ``AB`` and ``AC``. Using the cross product, "
-"``AB × AC`` produces a vector perpendicular to both: the surface normal."
-msgstr ""
-"Одно из применений для векторного произведения - это нахождение нормалей "
-"плоскости или поверхности в 3D пространстве. Если мы имеем треугольник "
-"``ABC`` мы можем использовать векторное вычитание для нахождения граней "
-"``AB`` и ``AC``. Используя векторное произведение, ``AB x AC`` возвращает "
-"вектор перпендикулярный обоим векторам: нормаль поверхности."
 
 msgid "Here is a function to calculate a triangle's normal:"
 msgstr "Здесь показана функция для вычисления нормали треугольника:"

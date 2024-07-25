@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,8 +31,8 @@ msgid ""
 "deploy. Otherwise, network communication of any kind will be blocked by "
 "Android."
 msgstr ""
-"当导出到 Android 时，在导出项目或使用一键部署之前，确保在 Android 导出预设中"
-"启用 ``INTERNET`` 权限。否则，任何形式的网络通信都会被 Android 系统阻止。"
+"导出到 Android 时，在导出项目或使用一键部署之前，确保在 Android 导出预设中启"
+"用 ``INTERNET`` 权限。否则，Android 系统会阻止该程序任何形式的网络通信。"
 
 msgid ""
 "Here's an example of using the :ref:`HTTPClient <class_HTTPClient>` class. "

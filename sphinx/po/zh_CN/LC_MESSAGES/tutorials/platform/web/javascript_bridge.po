@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,120 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "The JavaScriptBridge Singleton"
-msgstr ""
-
-msgid ""
-"In web builds, the :ref:`JavaScriptBridge <class_JavaScriptBridge>` "
-"singleton allows interaction with JavaScript and web browsers, and can be "
-"used to implement some functionalities unique to the web platform."
-msgstr ""
-
-#, fuzzy
-msgid "Interacting with JavaScript"
-msgstr "与光交互"
-
-msgid ""
-"Sometimes, when exporting Godot for the Web, it might be necessary to "
-"interface with external JavaScript code like third-party SDKs, libraries, or "
-"simply to access browser features that are not directly exposed by Godot."
-msgstr ""
-
-msgid ""
-"The ``JavaScriptBridge`` singleton provides methods to wrap a native "
-"JavaScript object into a Godot :ref:`JavaScriptObject "
-"<class_JavaScriptObject>` that tries to feel natural in the context of Godot "
-"scripting (e.g. GDScript and C#)."
-msgstr ""
-
-msgid ""
-"The :ref:`JavaScriptBridge.get_interface() "
-"<class_JavaScriptBridge_method_get_interface>` method retrieves an object in "
-"the global scope."
-msgstr ""
-
-msgid ""
-"The :ref:`JavaScriptBridge.create_object() "
-"<class_JavaScriptBridge_method_create_object>` creates a new object via the "
-"JavaScript ``new`` constructor."
-msgstr ""
-
-msgid ""
-"As you can see, by wrapping JavaScript objects into ``JavaScriptObject`` you "
-"can interact with them like they were native Godot objects, calling their "
-"methods, and retrieving (or even setting) their properties."
-msgstr ""
-
-msgid ""
-"Base types (int, floats, strings, booleans) are automatically converted "
-"(floats might lose precision when converted from Godot to JavaScript). "
-"Anything else (i.e. objects, arrays, functions) are seen as "
-"``JavaScriptObjects`` themselves."
-msgstr ""
-
-#, fuzzy
-msgid "Callbacks"
-msgstr "字体回退"
-
-msgid ""
-"Calling JavaScript code from Godot is nice, but sometimes you need to call a "
-"Godot function from JavaScript instead."
-msgstr ""
-
-msgid ""
-"This case is a bit more complicated. JavaScript relies on garbage "
-"collection, while Godot uses reference counting for memory management. This "
-"means you have to explicitly create callbacks (which are returned as "
-"``JavaScriptObjects`` themselves) and you have to keep their reference."
-msgstr ""
-
-msgid ""
-"Arguments passed by JavaScript to the callback will be passed as a single "
-"Godot ``Array``."
-msgstr ""
-
-msgid ""
-"Here is another example that asks the user for the `Notification permission "
-"<https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API>`__ and "
-"waits asynchronously to deliver a notification if the permission is granted:"
-msgstr ""
-
-msgid "Can I use my favorite library?"
-msgstr ""
-
-msgid ""
-"You most likely can. First, you have to include your library in the page. "
-"You can simply customize the :ref:`Head Include "
-"<doc_javascript_export_options>` during export (see below), or even :ref:"
-"`write your own template <doc_customizing_html5_shell>`."
-msgstr ""
-
-msgid ""
-"In the example below, we customize the ``Head Include`` to add an external "
-"library (`axios <https://axios-http.com/>`__) from a content delivery "
-"network, and a second ``<script>`` tag to define our own custom function:"
-msgstr ""
-
-msgid ""
-"We can then access both the library and the function from Godot, like we did "
-"in previous examples:"
-msgstr ""
-
-#, fuzzy
-msgid "The eval interface"
-msgstr "翻译界面"
-
-#, fuzzy
-msgid ""
-"The ``eval`` method works similarly to the JavaScript function of the same "
-"name. It takes a string as an argument and executes it as JavaScript code. "
-"This allows interacting with the browser in ways not possible with script "
-"languages integrated into Godot."
-msgstr ""
-"在Web构建中, 实现了 ``JavaScript`` 单例. 它提供一个名为 ``eval`` 的方法, 其工"
-"作方式与同名的JavaScript函数类似. 它将字符串作为参数, 并将其作为JavaScript代"
-"码执行. 这允许以与集成到Godot中的脚本语言不可能的方式与浏览器交互."
 
 msgid ""
 "The value of the last JavaScript statement is converted to a GDScript value "
@@ -146,29 +27,8 @@ msgstr "JavaScript ``boolean`` 会以 :ref:`class_bool` 返回"
 msgid "JavaScript ``string`` is returned as :ref:`class_String`"
 msgstr "JavaScript ``string`` 会以 :ref:`class_String` 返回"
 
-#, fuzzy
-msgid ""
-"JavaScript ``ArrayBuffer``, ``TypedArray``, and ``DataView`` are returned "
-"as :ref:`PackedByteArray<class_PackedByteArray>`"
-msgstr ""
-"JavaScript ``RellBuffer`` ， ``TypedArray`` 和 ``DataView`` 会以 :ref:"
-"`class_PoolByteArray` 返回"
-
 msgid "Any other JavaScript value is returned as ``null``."
 msgstr "任何其他JavaScript值都返回为 ``null`` ."
-
-#, fuzzy
-msgid ""
-"HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
-"support for the singleton to improve security. With such templates, and on "
-"platforms other than HTML5, calling ``JavaScriptBridge.eval`` will also "
-"return ``null``. The availability of the singleton can be checked with the "
-"``web`` :ref:`feature tag <doc_feature_tags>`:"
-msgstr ""
-"HTML5 导出模板可能为了提高安全性而在 :ref:`构建 <doc_compiling_for_web>` 时关"
-"闭单例支持。使用这样的模板或者在 HTML5 以外的平台上调用 ``JavaScript.eval`` "
-"也会返回 ``null``\\ 。可以通过 ``JavaScript`` :ref:`feature 标签 "
-"<doc_feature_tags>` 来检查单例的可用性： ::"
 
 msgid ""
 "GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
@@ -176,41 +36,6 @@ msgid ""
 msgstr ""
 "GDScript中的多行字符串由3双引号 ``\"\"\"`` 包围, 如同上文中的 ``my_func3()`` "
 "那样, 有助于保证JavaScript代码的可读性."
-
-#, fuzzy
-msgid ""
-"The ``eval`` method also accepts a second, optional Boolean argument, which "
-"specifies whether to execute the code in the global execution context, "
-"defaulting to ``false`` to prevent polluting the global namespace:"
-msgstr ""
-"``eval`` 方法也接受第二个可选的布尔参数，它指定是否在全局执行上下文中执行代"
-"码，默认为 ``false`` 以防止污染全局命名空间： ::"
-
-#, fuzzy
-msgid "Downloading files"
-msgstr "下载"
-
-msgid ""
-"Downloading files (e.g. a save game) from the Godot Web export to the user's "
-"computer can be done by directly interacting with JavaScript, but given it "
-"is a very common use case, Godot exposes this functionality to scripting via "
-"a dedicated :ref:`JavaScriptBridge.download_buffer() "
-"<class_JavaScriptBridge_method_download_buffer>` function which lets you "
-"download any generated buffer."
-msgstr ""
-
-#, fuzzy
-msgid "Here is a minimal example on how to use it:"
-msgstr "下面是一个如何在GDScript中做到这一点的例子:"
-
-#, fuzzy
-msgid "extends Node"
-msgstr "extends"
-
-msgid ""
-"And here is a more complete example on how to download a previously saved "
-"file:"
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻译状态"

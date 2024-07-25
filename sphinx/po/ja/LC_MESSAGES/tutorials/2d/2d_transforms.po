@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,16 +26,6 @@ msgstr ""
 "ここでは、ノードがコンテンツをローカルに描画してから画面に描画するまでの間に"
 "行われる2D幾何学変換の概要について説明します。この概要では、エンジンの非常に"
 "低いレベルの詳細について説明します。"
-
-msgid ""
-"The goal of this tutorial is to teach a way for feeding input events to the "
-"Input with a position in the correct coordinate system."
-msgstr ""
-
-msgid ""
-"A more extensive description of all coordinate systems and 2d transforms is "
-"available in :ref:`doc_2d_coordinate_systems`."
-msgstr ""
 
 msgid "Canvas transform"
 msgstr "キャンバスの幾何学変換"
@@ -70,18 +55,6 @@ msgstr ""
 msgid "Global canvas transform"
 msgstr "グローバル・キャンバスの幾何学変換"
 
-#, fuzzy
-msgid ""
-"Viewports also have a Global Canvas transform (also a :ref:`Transform2D "
-"<class_Transform2D>`). This is the master transform and affects all "
-"individual *Canvas Layer* transforms. Generally, this is primarily used in "
-"Godot's CanvasItem Editor."
-msgstr ""
-"Viewportにはグローバル・キャンバスの幾何学変換もあります(これも \\ :ref:"
-"`Transform2D <class_Transform2D>` です)。 これはマスターの幾何学変換であり、"
-"すべての個々の *Canvas Layer* の幾何学変換に影響します。通常、この幾何学変換"
-"はあまり使用されませんが、GodotのエディタのCanvasItemエディタで使用されます。"
-
 msgid "Stretch transform"
 msgstr "ストレッチ幾何学変換"
 
@@ -96,53 +69,11 @@ msgstr ""
 "`doc_multiple_resolutions` で説明されているように)内部的に使われますが、各"
 "Viewportで手動で設定することもできます。"
 
-#, fuzzy
-msgid ""
-"Input events are multiplied by this transform but lack the ones above. To "
-"convert InputEvent coordinates to local CanvasItem coordinates, the :ref:"
-"`CanvasItem.make_input_local() <class_CanvasItem_method_make_input_local>` "
-"function was added for convenience."
-msgstr ""
-"\\ :ref:`MainLoop._input_event() <class_MainLoop_method__input_event>` コール"
-"バックで受け取った入力イベントは、この変換によって乗算されますが、上記のもの"
-"はありません。 InputEvent座標をローカルのCanvasItem座標に変換するために、便宜"
-"上 \\ :ref:`CanvasItem.make_input_local() "
-"<class_CanvasItem_method_make_input_local>` 関数が追加されました。"
-
-#, fuzzy
-msgid "Window transform"
-msgstr "\\ transform"
-
-msgid ""
-"The root viewport is a :ref:`Window <class_Window>`. In order to scale and "
-"position the *Window's* content as described in :ref:"
-"`doc_multiple_resolutions`, each :ref:`Window <class_Window>` contains a "
-"*window transform*. It is for example responsible for the black bars at the "
-"*Window's* sides so that the *Viewport* is displayed with a fixed aspect "
-"ratio."
-msgstr ""
-
 msgid "Transform order"
 msgstr "変換の順序"
 
-#, fuzzy
-msgid ""
-"To convert a CanvasItem local coordinate to an actual screen coordinate, the "
-"following chain of transforms must be applied:"
-msgstr ""
-"CanvasItemローカルプロパティの座標を実際の画面座標にするには、次の一連の変換"
-"を適用する必要があります:"
-
 msgid "Transform functions"
 msgstr "変換関数"
-
-msgid ""
-"The above graphic shows some available transform functions. All transforms "
-"are directed from right to left, this means multiplying a transform with a "
-"coordinate results in a coordinate system further to the left, multiplying "
-"the :ref:`affine inverse <class_Transform2D_method_affine_inverse>` of a "
-"transform results in a coordinate system further to the right:"
-msgstr ""
 
 msgid ""
 "Finally, then, to convert a CanvasItem local coordinates to screen "
@@ -163,15 +94,6 @@ msgstr ""
 
 msgid "Feeding custom input events"
 msgstr "カスタム入力イベントのフィード"
-
-#, fuzzy
-msgid ""
-"It is often desired to feed custom input events to the game. With the above "
-"knowledge, to correctly do this in the focused window, it must be done the "
-"following way:"
-msgstr ""
-"多くの場合、カスタム入力イベントをシーンツリーにフィードすることが望まれま"
-"す。上記の知識をもとに、これを正しく行うには、次のようにしなければなりません:"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

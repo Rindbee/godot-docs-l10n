@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,28 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Import configuration"
-msgstr "組織專案"
-
-msgid ""
-"Godot provides several ways to customize the imported data, such as the "
-"import dock, the advanced import setting dialog, and inherited scenes. This "
-"can be used to make further changes to the imported scene, such as adjusting "
-"meshes, adding physics information, and adding new nodes. You can also write "
-"a script that runs code at the end of the import process to perform "
-"arbitrary customization."
-msgstr ""
-
-msgid ""
-"Note that, when applicable, modifying the original data should be preferred "
-"to configuring the scene after import. This helps minimize the differences "
-"between the 3D modeling application and the imported scene. See the :ref:"
-"`doc_importing_3d_scenes_model_export_considerations` and :ref:"
-"`doc_importing_3d_scenes_node_type_customization` articles for more "
-"information."
-msgstr ""
 
 msgid "Import workflows"
 msgstr "匯入工作流程"
@@ -81,15 +54,6 @@ msgstr ""
 "**進階匯入設定**對話框，可以透過雙擊檔案系統擴充座中的 3D 場景或按一下匯入擴"
 "充座中的 **進階...** 按鈕來存取該對話框。這允許您在 Godot 中自訂每個物件的選"
 "項。"
-
-#, fuzzy
-msgid ""
-":ref:`Import hints <doc_importing_3d_scenes_node_type_customization>`, which "
-"are special suffixes added to object names in the 3D modeling software. This "
-"allows you to customize per-object options in the 3D modeling software."
-msgstr ""
-":ref:`匯入提示 <doc_importing_3d_scenes_import_hints>`，這是新增到 3D 建模軟"
-"體中的物件名稱的特殊後綴。這允許您在 3D 建模軟體中自訂每個物件的選項。"
 
 msgid ""
 "For basic customization, using the Import dock suffices. However, for more "
@@ -451,21 +415,6 @@ msgstr ""
 "精度。較高的值會導致更詳細的碰撞，但代價是產生速度較慢，且物理模擬期間 CPU 使"
 "用率增加。為了提高效能，建議在您的用例中保持該值盡可能低。"
 
-#, fuzzy
-msgid ""
-"**Occluder > Simplification Distance:** Only visible if **Generate > "
-"Occluder** is set to **Mesh + Occluder** or **Occluder Only**. Higher values "
-"result in an occluder mesh with fewer vertices (resulting in decreased CPU "
-"utilization), at the cost of more occlusion culling issues (such as false "
-"positives or false negatives). If you run into objects disappearing when "
-"they shouldn't when the camera is near a certain mesh, try decreasing this "
-"value."
-msgstr ""
-"**遮擋器 > 簡化距離：** 僅當 **產生 > 遮擋器** 設定為 **網格 + 遮擋器** 或 **"
-"僅遮擋器** 時才可見。較高的值會導致遮蔽網格的頂點數較少（導致 CPU 使用率降"
-"低），但代價是更多的遮蔽剔除問題（例如誤報或漏報）。如果相機靠近某個網格時遇"
-"到不該消失的物體，請嘗試減少該值。"
-
 msgid "**Configuring mesh and material import options**"
 msgstr "設定外部編輯器"
 
@@ -715,11 +664,6 @@ msgid ""
 msgstr ""
 "``post_import`` 函式會將匯入的場景作為參數 (該參數實際上就是場景的根節點)。必"
 "須回傳最終要被使用的場景。回傳的可以是不同場景。"
-
-msgid ""
-"To use your script, locate the script in the import tab's \"Path\" option "
-"under the \"Import Script\" category."
-msgstr ""
 
 msgid "Using animation libraries"
 msgstr "動畫樹"

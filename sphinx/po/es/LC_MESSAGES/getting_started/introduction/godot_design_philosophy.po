@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -297,21 +292,6 @@ msgstr ""
 "discusiones abiertas las que dirigen las actualizaciones fundamentales. Las "
 "nuevas características creadas por los desarrolladores principales "
 "normalmente se enfocan primero en lo que beneficie a la mayoría."
-
-#, fuzzy
-msgid ""
-"That said, although a handful of core developers work on it full-time, the "
-"project has thousands of contributors at the time of writing. Benevolent "
-"programmers work on features they may need themselves, so you'll see "
-"improvements in all corners of the engine at the same time in every major "
-"release."
-msgstr ""
-"Dicho esto, aunque un puñado de desarrolladores principales trabajan en él a "
-"tiempo completo, el proyecto tiene más de 600 colaboradores en el momento de "
-"escribir este artículo. Programadores voluntarios trabajan en "
-"características que ellos mismos pueden necesitar, por lo que se verán "
-"mejoras en todos los rincones del motor al mismo tiempo en cada versión "
-"principal."
 
 msgid "The Godot editor is a Godot game"
 msgstr "El editor de Godot es un juego de Godot"

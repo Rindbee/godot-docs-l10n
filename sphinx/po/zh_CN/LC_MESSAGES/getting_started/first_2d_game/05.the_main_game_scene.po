@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,12 +35,9 @@ msgid ""
 msgstr ""
 "点击\\ **实例化**\\ 按钮（由链条图标表示）并选择保存的 ``player.tscn``\\ 。"
 
-#, fuzzy
 msgid ""
 "Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr ""
-"现在, 将以下节点添加为 ``Main`` 的子节点, 并按如下所示对其进行命名(值以秒为单"
-"位):"
+msgstr "现在，将下列节点添加为 ``Main`` 的子节点，并按如下所示对它们进行命名："
 
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
@@ -71,11 +63,10 @@ msgstr ""
 ":ref:`Marker2D <class_Marker2D>`\\ （名为 ``StartPosition``\\ ）——表示玩家的"
 "起始位置"
 
-#, fuzzy
 msgid ""
 "Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
 "(values are in seconds):"
-msgstr "如下设置每个 ``Timer`` 节点的 ``Wait Time`` 属性："
+msgstr "如下设置每个 ``Timer`` 节点的 ``Wait Time`` 属性（值以秒为单位）："
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``\\ ：\\ ``0.5``"

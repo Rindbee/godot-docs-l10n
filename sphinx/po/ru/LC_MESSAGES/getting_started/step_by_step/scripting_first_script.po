@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,14 +121,6 @@ msgstr ""
 "Оставьте остальные параметры по умолчанию и нажмите кнопку Create (Создать), "
 "чтобы создать скрипт."
 
-#, fuzzy
-msgid ""
-"C# script names need to match their class name. In this case, you should "
-"name the file ``MySprite2D.cs``."
-msgstr ""
-"Названия скриптов C# должны совпадать с названием класса. В этом случае, вы "
-"должны назвать файл ``MySprite2D.cs``."
-
 msgid ""
 "The Script workspace should appear with your new ``sprite_2d.gd`` file open "
 "and the following line of code:"
@@ -180,14 +167,6 @@ msgstr ""
 "заглавными буквами вначале, разделенные пробелом. В GDScript эти свойства "
 "записываются в \"snake_case\", строчными буквами, разделенными "
 "подчёркиванием."
-
-#, fuzzy
-msgid ""
-"You can hover over any property's name in the Inspector to see a description "
-"and its identifier in code."
-msgstr ""
-"Вы можете навести курсор на имя любого свойства в инспекторе, и увидеть его "
-"описание и идентификатор в коде."
 
 msgid "Hello, world!"
 msgstr "Привет, мир!"
@@ -347,16 +326,6 @@ msgstr ""
 "унаследованное от класса ``Node2D``, который расширяет класс ``Sprite2D``. "
 "Он контролирует поворот нашего узла и работает с радианами."
 
-#, fuzzy
-msgid ""
-"In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
-"property or function like ``position``, ``rotation``, or ``_process`` to "
-"open the corresponding documentation in a new tab."
-msgstr ""
-"В редакторе кода вы можете нажать Ctrl+ЛКМ на любом встроенном свойстве или "
-"функции, таких как ``position``, ``rotation``, или ``_process``, чтобы "
-"открыть соответствующую документацию в новой вкладке."
-
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "Запустите сцену, чтобы увидеть, что иконка Godot крутится на месте."
 
@@ -371,16 +340,6 @@ msgstr ""
 
 msgid "Moving forward"
 msgstr "Движение вперёд"
-
-#, fuzzy
-msgid ""
-"Let's now make the node move. Add the following two lines inside of the "
-"``_process()`` function, ensuring the new lines are indented the same way as "
-"the ``rotation += angular_speed * delta`` line before them."
-msgstr ""
-"Теперь давайте заставим узел двигаться. Добавьте следующие две строки в "
-"функцию ``_process()``, убедившись, что новые строки имеют такой же отступ, "
-"как и предыдущие."
 
 msgid ""
 "As we already saw, the ``var`` keyword defines a new variable. If you put it "
@@ -431,21 +390,8 @@ msgstr ""
 "В :ref:`doc_your_first_2d_game` вы узнаете другой подход к перемещению "
 "объектов с обнаруженем столкновений."
 
-#, fuzzy
-msgid ""
-"Our node currently moves by itself. In the next part, :ref:"
-"`doc_scripting_player_input`, we'll use player input to control it."
-msgstr ""
-"Наш узел сейчас движется самостоятельно. В следующей части :ref:"
-"`doc_scripting_player_input` мы будем использовать пользовательский ввод, "
-"чтобы контролировать его."
-
 msgid "Complete script"
 msgstr "Готовый скрипт"
-
-#, fuzzy
-msgid "Here is the complete ``sprite_2d.gd`` file for reference."
-msgstr "Это полный файл ``Sprite.gd`` для справки."
 
 msgid "Translation status"
 msgstr "Статус перевода"

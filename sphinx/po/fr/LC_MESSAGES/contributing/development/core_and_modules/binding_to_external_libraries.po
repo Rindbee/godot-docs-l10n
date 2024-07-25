@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,30 +18,12 @@ msgstr "Liaison à des bibliothèques externes"
 msgid "Modules"
 msgstr "Modules"
 
-#, fuzzy
-msgid ""
-"The Summator example in :ref:`doc_custom_modules_in_cpp` is great for small, "
-"custom modules, but what if you want to use a larger, external library? "
-"Let's look at an example using `Festival <https://www.cstr.ed.ac.uk/projects/"
-"festival/>`_, a speech synthesis (text-to-speech) library written in C++."
-msgstr ""
-"L'exemple Summator dans :ref:`doc_custom_modules_in_c++` est géniale pour "
-"les modules personnalisés de petite taille, mais si vous souhaitez utiliser "
-"une bibliothèque externe plus grande ? Regardons un exemple en utilisant "
-"`Festival <http://www.cstr.ed.ac.uk/projects/festival/>`_, une bibliothèque "
-"de synthétisation de parole (text-to-speech) écrite en C++."
-
 msgid ""
 "To bind to an external library, set up a module directory similar to the "
 "Summator example:"
 msgstr ""
 "Pour lier une bibliothèque externe, configurez un module similaire à "
 "l'exemple Summator :"
-
-#, fuzzy
-msgid "Next, you will create a header file with a TTS class:"
-msgstr ""
-"Ensuite, vous allez créer un fichier d'en-tête avec une simple classe TTS :"
 
 msgid "And then you'll add the cpp file."
 msgstr "Et puis vous ajouterez le fichier cpp."
@@ -68,14 +45,6 @@ msgstr ""
 
 msgid "These files should contain the following:"
 msgstr "Ces fichiers doivent contenir les éléments suivants :"
-
-#, fuzzy
-msgid ""
-"Next, you need to create an ``SCsub`` file so the build system compiles this "
-"module:"
-msgstr ""
-"Ensuite, vous devez créer un fichier ``SCsub`` pour que le système de "
-"compilation compile ce module :"
 
 msgid ""
 "You'll need to install the external library on your machine to get the .a "
@@ -125,19 +94,6 @@ msgstr ""
 "dans votre répertoire, vous pouvez, à la place, les lier en les ajoutant "
 "comme sous-modules (depuis les répertoires modules/tts/), comme montré ci-"
 "dessous :"
-
-#, fuzzy
-msgid ""
-"Please note that Git submodules are not used in the Godot repository. If you "
-"are developing a module to be merged into the main Godot repository, you "
-"should not use submodules. If your module doesn't get merged in, you can "
-"always try to implement the external library as a GDExtension."
-msgstr ""
-"Veuillez noter que les sous-modules Git ne sont pas utilisés dans le dépôt "
-"Godot. Si vous développez un module à merge dans le dépôt principal de "
-"Godot, vous ne devez pas utiliser de sous-modules. Si votre module n'est pas "
-"merged, vous pouvez toujours essayer d'implémenter la bibliothèque externe "
-"comme un plugin GDNative C++."
 
 msgid ""
 "To add include directories for the compiler to look at you can append it to "

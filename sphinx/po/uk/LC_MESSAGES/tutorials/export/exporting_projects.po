@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,21 +96,6 @@ msgstr ""
 "кожного SDK завжди заохочується, може бути неприємно коли приходиться робити "
 "це в небажаний час."
 
-#, fuzzy
-msgid ""
-"There is also another problem with this approach: different devices prefer "
-"some data in different formats to run. The main example of this is texture "
-"compression. All PC hardware uses S3TC (BC) compression and that has been "
-"standardized for more than a decade, but mobile devices use different "
-"formats for texture compression, such as ETC1 and ETC2."
-msgstr ""
-"З цим підходом є й інша проблема: різні пристрої віддають перевагу деяким "
-"даним у різних форматах. Основний приклад цього - стиснення текстур. Все "
-"апаратне забезпечення ПК використовує стиснення S3TC (BC), яке було "
-"стандартизовано вже більше десятиліття, але мобільні пристрої використовують "
-"різні формати для стиснення текстури, наприклад PVRTC (iOS), або ETC "
-"(Android)."
-
 msgid "Export menu"
 msgstr "Меню експорту"
 
@@ -168,28 +148,6 @@ msgid ""
 msgstr ""
 "Користувачу варто в таких випадках звернутися до документації та "
 "дотримуватися інструкцій щодо правильної настройки цієї платформи."
-
-msgid ""
-"The buttons at the bottom of the menu allow you to export the project in a "
-"few different ways:"
-msgstr ""
-
-msgid ""
-"Export All: Export the project as a playable build (Godot executable and "
-"project data) for all the presets defined. All presets must have an **Export "
-"Path** defined for this to work."
-msgstr ""
-
-msgid ""
-"Export Project: Export the project as a playable build (Godot executable and "
-"project data) for the selected preset."
-msgstr ""
-
-msgid ""
-"Export PCK/ZIP: Export the project resources as a PCK or ZIP package. This "
-"is not a playable build, it only exports the project data without a Godot "
-"executable."
-msgstr ""
 
 msgid "Export templates"
 msgstr "Шаблони експорту"
@@ -252,63 +210,8 @@ msgstr ""
 "експортованого проекту. Це робиться для запобігання включенню папок "
 "керування версіями, таких як ``.git``, до експортованого файлу PCK."
 
-#, fuzzy
-msgid ""
-"Below the list of resources are two filters that can be setup. The first "
-"allows non resource files such as ``.txt``, ``.json`` and ``.csv`` to be "
-"exported with the project. The second filter can be used to exclude every "
-"file of a certain type without manually deselecting every one. For example, "
-"``.png`` files."
-msgstr ""
-"Нижче списку ресурсів знаходяться два фільтри, які можна налаштувати. Перший "
-"дозволяє нересурсні файли, такі як ``.txt``, ``.json`` та ``.csv``, "
-"експортуватися разом з проектом. Другий фільтр може бути використаний для "
-"виключення кожного файлу певного типу, без ручного вибирання кожного з них. "
-"Наприклад, файли ``.png``."
-
-#, fuzzy
-msgid "Configuration files"
-msgstr "Налаштування"
-
-msgid ""
-"The export configuration is stored in two files that can both be found in "
-"the project directory:"
-msgstr ""
-
-msgid ""
-"``export_presets.cfg``: This file contains the vast majority of the export "
-"configuration and can be safely committed to version control. There is "
-"nothing in here that you would normally have to keep secret."
-msgstr ""
-
-msgid ""
-"``.godot/export_credentials.cfg``: This file contains export options that "
-"are considered confidential, like passwords and encryption keys. It should "
-"generally **not** be committed to version control or shared with others "
-"unless you know exactly what you are doing."
-msgstr ""
-
-msgid ""
-"Since the credentials file is usually kept out of version control systems, "
-"some export options will be missing if you clone the project to a new "
-"machine. The easiest way to deal with this is to copy the file manually from "
-"the old location to the new one."
-msgstr ""
-
 msgid "Exporting from the command line"
 msgstr "Експорт із командного рядка"
-
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"У виробництві, це корисно для автоматизації компіляції, і Godot підтримує це "
-"з параметрами командного рядка ``--export`` і ``--export-debug``. Експорт із "
-"командного рядка все ще потребує попереднього встановлення експорту для "
-"визначення параметрів експорту. Основним викликом команди буде:"
 
 msgid ""
 "This will export to ``some_name.exe``, assuming there is a preset called "
@@ -350,15 +253,6 @@ msgstr ""
 "Linux: Будь-яке розширення (у тому числі без розширення). ``.x86_64`` "
 "зазвичай використовується для 64-розрядних x86 двійкових файлів."
 
-msgid "HTML5: ``.zip``"
-msgstr ""
-
-msgid "Android: ``.apk``"
-msgstr ""
-
-msgid "iOS: ``.zip``"
-msgstr ""
-
 msgid ""
 "You can also configure it to export *only* the PCK or ZIP file, allowing a "
 "single exported main pack file to be used with multiple Godot executables. "
@@ -369,15 +263,6 @@ msgstr ""
 "дозволяє використовувати один експорт із кількома виконуваними програмами "
 "Godot. При цьому ім'я стилю експорту все одно має бути вказано в командному "
 "рядку:"
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"Часто корисно поєднувати мітку ``--export`` із міткою ``--path``, щоб "
-"уникнути пошуку теки проекта з командного рядка з допомогою ``cd``:"
 
 msgid ""
 "See :ref:`doc_command_line_tutorial` for more information about using Godot "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,32 +30,11 @@ msgid ""
 "In this tutorial, we will be using the Platformer3D demo to set up a ragdoll."
 msgstr "在本教程中，我们将使用 Platformer3D 演示来进行布娃娃的设置。"
 
-#, fuzzy
-msgid ""
-"You can download the Platformer3D demo on `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the "
-"`Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
-msgstr ""
-"你可以在 `GitHub <https://github.com/godotengine/godot-demo-projects/tree/"
-"master/3d/platformer>`_ 上下载Platformer3D演示或使用 `Asset Library <https://"
-"godotengine.org/asset-library/asset/125>`_ ."
-
 msgid "Setting up the ragdoll"
 msgstr "设置布娃娃"
 
 msgid "Creating physical bones"
 msgstr "创建物理骨骼"
-
-#, fuzzy
-msgid ""
-"Like many other features in the engine, there is a node to set up a ragdoll: "
-"the :ref:`PhysicalBone3D <class_PhysicalBone3D>` node. To simplify the "
-"setup, you can generate ``PhysicalBone`` nodes with the \"Create physical "
-"skeleton\" feature in the skeleton node."
-msgstr ""
-"与引擎中的许多其他功能一样，有一个节点可以设置布娃娃：\\ :ref:`PhysicalBone "
-"<class_PhysicalBone>` 节点。为了简化设置，您可以使用骨架节点中的“创建物理骨"
-"架”功能生成 ``PhysicalBone`` 节点。"
 
 msgid ""
 "Open the platformer demo in Godot, and then the Robi scene. Select the "
@@ -167,14 +141,6 @@ msgstr ""
 
 msgid "Collision layer and mask"
 msgstr "碰撞层与遮罩"
-
-#, fuzzy
-msgid ""
-"Make sure to set up your collision layers and masks properly so the "
-"``CharacterBody3D``'s capsule doesn't get in the way of the physics "
-"simulation:"
-msgstr ""
-"确保正确设置碰撞层和遮罩，这样 ``KinematicBody`` 的胶囊不会妨碍物理模拟："
 
 msgid ""
 "For more information, read :ref:"

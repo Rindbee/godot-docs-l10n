@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +14,6 @@ msgstr ""
 
 msgid "Exporting for dedicated servers"
 msgstr "為專用伺服器匯出"
-
-#, fuzzy
-msgid ""
-"If you want to run a dedicated server for your project on a machine that "
-"doesn't have a GPU or display server available, you'll need to run Godot "
-"with the ``headless`` display server and ``Dummy`` :ref:`audio driver "
-"<class_ProjectSettings_property_audio/driver/driver>`."
-msgstr ""
-"若想以獨立伺服器的模式在沒有 GPU 或顯示伺服器的機器上執行專案，則必須要使用伺"
-"服器建置版本的 Godot。"
 
 msgid ""
 "Since Godot 4.0, this can be done by running a Godot binary on any platform "
@@ -181,10 +166,6 @@ msgstr ""
 "**剝離視覺效果：** 匯出此資源，並將視覺檔案（紋理和材質）替換為佔位符類別。佔"
 "位符類別儲存影像大小（因為它有時用於在 2D 場景中定位元素），但不儲存其他內"
 "容。"
-
-#, fuzzy
-msgid "**Keep:** Export this resource as usual, with visual files intact."
-msgstr "**保留：**照常匯出此資源，與視覺檔案互動。"
 
 msgid ""
 "**Remove:** The file is not included in the PCK. This is useful to ignore "

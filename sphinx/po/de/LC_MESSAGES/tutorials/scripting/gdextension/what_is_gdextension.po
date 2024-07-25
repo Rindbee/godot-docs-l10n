@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,7 +237,6 @@ msgstr ""
 "Godot 4.0, 4.0.1, 4.0.2. Darüber hinaus ist GDExtension nicht mit Godot 3.x "
 "kompatibel."
 
-#, fuzzy
 msgid ""
 "GDExtension add-ons are also only compatible with engine builds that use the "
 "level of floating-point precision the extension was compiled for. This means "
@@ -252,8 +246,8 @@ msgid ""
 msgstr ""
 "GDExtension-Add-ons sind außerdem nur mit Engine-Builds kompatibel, die den "
 "Grad der Float-Genauigkeit verwenden, für den die Erweiterung kompiliert "
-"wurde. Das bedeutet, dass, wenn Sie einen Engine-Build mit Double Precision "
-"Floats verwenden, die Erweiterung auch für Double Precision Floats "
+"wurde. Das bedeutet, dass, wenn Sie ein Engine-Build mit Double-Precision-"
+"Floats verwenden, die Erweiterung auch für Double-Precision-Floats "
 "kompiliert sein muss. Siehe :ref:`doc_large_world_coordinates` für Details."
 
 msgid "Translation status"

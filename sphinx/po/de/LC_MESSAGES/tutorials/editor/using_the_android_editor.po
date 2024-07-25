@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +15,6 @@ msgstr ""
 msgid "Using the Android editor"
 msgstr "Verwendung des Android-Editors"
 
-#, fuzzy
 msgid ""
 "In 2023, `we added <https://godotengine.org/article/"
 "android_godot_editor_play_store_beta_release/>`__ an `Android port of the "
@@ -98,7 +92,7 @@ msgid ""
 "severe performance issues"
 msgstr ""
 "Der Renderer *Vulkan Forward+* ist zwar verfügbar, wird aber aufgrund von "
-"Leistungsproblemen nicht empfohlen"
+"Performance-Problemen nicht empfohlen"
 
 msgid ""
 "No support for building and exporting an Android APK binary. As a "
@@ -120,13 +114,12 @@ msgid ""
 "Performance and stability issues when using the *Vulkan Mobile* renderer for "
 "a project"
 msgstr ""
-"Leistungs- und Stabilitätsprobleme bei der Verwendung des *Vulkan Mobile*-"
+"Performance- und Stabilitätsprobleme bei der Verwendung des *Vulkan Mobile*-"
 "Renderers für ein Projekt"
 
 msgid "UX not optimized for Android phones form-factor"
 msgstr "UX nicht für den Formfaktor von Android-Smartphones optimiert"
 
-#, fuzzy
 msgid ""
 "`Android Go devices <https://developer.android.com/guide/topics/"
 "androidgo>`__ lacks the *All files access* permission required for device "

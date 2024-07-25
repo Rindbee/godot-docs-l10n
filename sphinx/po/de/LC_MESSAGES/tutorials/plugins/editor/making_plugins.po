@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,7 +138,6 @@ msgstr ""
 "ändern können: Es muss ein ``@tool``-Skript sein, sonst wird es nicht "
 "richtig im Editor geladen, und es muss von :ref:`class_EditorPlugin` erben."
 
-#, fuzzy
 msgid ""
 "In addition to the EditorPlugin script, any other GDScript that your plugin "
 "uses must *also* be a tool. Any GDScript without ``@tool`` used by the "
@@ -151,7 +145,7 @@ msgid ""
 msgstr ""
 "Neben dem EditorPlugin-Skript muss auch jedes andere GDSkript, das Ihr "
 "Plugin verwendet, *auch* ein Tool sein. Jedes GDScript ohne ``@tool``, das "
-"in den Editor importiert wird, verhält sich wie eine leere Datei!"
+"vom Editor verwendet wird, verhält sich wie eine leere Datei!"
 
 msgid ""
 "It's important to deal with initialization and clean-up of resources. A good "
@@ -223,9 +217,9 @@ msgid ""
 "For that, we'll need a script that extends from :ref:`class_Button`. It "
 "could also extend :ref:`class_BaseButton` if you prefer:"
 msgstr ""
-"In diesem Tutorial werden wir eine Schaltfläche erstellen, die eine "
-"Nachricht ausgibt, wenn sie angeklickt wird. Dafür brauchen wir ein Skript, "
-"das von :ref:`class_Button` ausgeht. Es könnte auch :ref:`class_BaseButton` "
+"In diesem Tutorial werden wir einen Button erstellen, der eine Nachricht "
+"ausgibt, wenn er angeklickt wird. Dafür brauchen wir ein Skript, das von :"
+"ref:`class_Button` ausgeht. Es könnte auch :ref:`class_BaseButton` "
 "erweitern, wenn Sie das bevorzugen:"
 
 msgid ""
@@ -242,7 +236,6 @@ msgstr ""
 "als `icon.png` speichern, oder Sie verwenden das Default-Godot-Logo "
 "(`preload(\"res://icon.svg\")`)."
 
-#, fuzzy
 msgid ""
 "SVG images that are used as custom node icons should have the **Editor > "
 "Scale With Editor Scale** and **Editor > Convert Colors With Editor Theme** :"
@@ -252,7 +245,7 @@ msgid ""
 msgstr ""
 "Bei SVG-Bildern, die als benutzerdefinierte Node-Icons verwendet werden, "
 "sollten die Optionen **Editor > Mit Editor-Skalierung skalieren** und "
-"**Editor > Icons mit Editor-Thema konvertieren** :ref:`Importoptionen "
+"**Editor > Farben mit Editor-Theme konvertieren** :ref:`Importoptionen "
 "<doc_importing_images_editor_import_options>` aktiviert sein. Dies "
 "ermöglicht es den Icons, den Skalierungs- und Theme-Einstellungen des "
 "Editors zu folgen, wenn die Icons mit der gleichen Farbpalette wie die Godot-"

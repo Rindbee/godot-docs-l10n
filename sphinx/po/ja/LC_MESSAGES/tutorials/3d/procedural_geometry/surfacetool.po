@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +15,6 @@ msgstr ""
 msgid "Using the SurfaceTool"
 msgstr "SurfaceToolの使用"
 
-#, fuzzy
-msgid ""
-"The :ref:`SurfaceTool <class_surfacetool>` provides a useful interface for "
-"constructing geometry. The interface is similar to the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>` class. You set each per-vertex attribute (e.g. "
-"normal, uv, color) and then when you add a vertex it captures the attributes."
-msgstr ""
-":ref:`SurfaceTool <doc_surfacetool>` は、ジオメトリを構築するための便利なイン"
-"ターフェイスを提供します。このインターフェースは :ref:`ImmediateGeometry "
-"<class_immediategeometry>` ノードに似ています。頂点ごとの各属性(例: normal、"
-"uv、color)を設定し、頂点を追加すると属性がキャプチャされます。"
-
 msgid ""
 "The SurfaceTool also provides some useful helper functions like ``index()`` "
 "and ``generate_normals()``."
@@ -41,20 +24,6 @@ msgstr ""
 
 msgid "Attributes are added before each vertex is added:"
 msgstr "各頂点が追加される前に次の属性が追加されます:"
-
-#, fuzzy
-msgid ""
-"When finished generating your geometry with the :ref:`SurfaceTool "
-"<class_surfacetool>` call ``commit()`` to finish generating the mesh. If an :"
-"ref:`ArrayMesh <class_ArrayMesh>` is passed to ``commit()`` then it appends "
-"a new surface to the end of the ArrayMesh. While if nothing is passed in, "
-"``commit()`` returns an ArrayMesh."
-msgstr ""
-":ref:`SurfaceTool <class_surfacetool>` によるジオメトリの生成が終了した"
-"ら、\\ ``commit()`` を呼び出してメッシュの生成を終了します。\\ :ref:"
-"`ArrayMesh <class_ArrayMesh>` が ``commit()`` に渡されると、ArrayMeshの最後に"
-"新しいサーフェスが追加されます。一方、何も渡されない場合、\\ ``commit()`` は"
-"ArrayMeshを返します。"
 
 msgid "Code creates a triangle with indices"
 msgstr "コードはインデックス付きの三角形を作成します"
@@ -76,24 +45,6 @@ msgstr ""
 "同様に、インデックス配列があるが、各頂点を一意にしたい場合(たとえば、頂点ごと"
 "ではなく面ごとに一意の法線または色を使用するため)、\\ ``deindex()`` を呼び出"
 "すことができます。"
-
-msgid ""
-"If you don't add custom normals yourself, you can add them using "
-"``generate_normals()``, which should be called after generating geometry and "
-"before committing the mesh using ``commit()`` or ``commit_to_arrays()``. "
-"Calling ``generate_normals(true)`` will flip the resulting normals. As a "
-"side note, ``generate_normals()`` only works if the primitive type is set to "
-"``Mesh.PRIMITIVE_TRIANGLES``."
-msgstr ""
-
-msgid ""
-"You may notice that normal mapping or other material properties look broken "
-"on the generated mesh. This is because normal mapping **requires** the mesh "
-"to feature *tangents*, which are separate from *normals*. You can either add "
-"custom tangents manually, or generate them automatically with "
-"``generate_tangents()``. This method requires that each vertex have UVs and "
-"normals set already."
-msgstr ""
 
 msgid ""
 "By default, when generating normals, they will be calculated on a per-face "

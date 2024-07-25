@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -691,8 +686,8 @@ msgid ""
 "In the ``Android export preset``, scroll to ``Gradle Build`` and set ``Use "
 "Gradle Build`` to ``true``"
 msgstr ""
-"In der Voreinstellung ``Android-Export`` scrollen Sie zu ``Gradle-Build`` "
-"und setzen ``Gradle-Build verwenden`` auf ``true``"
+"In der Vorgabe ``Android-Export`` scrollen Sie zu ``Gradle-Build`` und "
+"setzen ``Gradle-Build verwenden`` auf ``true``"
 
 msgid ""
 "Update the project's scripts as needed to access the plugin's functionality. "
@@ -726,7 +721,7 @@ msgid ""
 "how the ``AAR`` binaries should be included (e.g: custom additions to the "
 "Android app's manifest)."
 msgstr ""
-"Wenn Sie auf diesen Anwendungsfall abzielen, stellen Sie sicher, dass Sie "
+"Wenn Sie für diesen Anwendungsfall entwickeln, stellen Sie sicher, dass Sie "
 "zusätzliche Anweisungen einfügen, wie die ``AAR``-Binärdateien eingebunden "
 "werden sollen (z.B.: eigene Ergänzungen zum Manifest der Android-App)."
 
@@ -794,17 +789,6 @@ msgstr ""
 "Entwickler / Benutzer den Godot-Editor ausführen möchten. Andernfalls "
 "könnten Entwickler / Benutzer daran gehindert werden, Code zu schreiben, der "
 "vom Godot-Editor aus auf das Plugin zugreift."
-
-msgid ""
-"This may involve creating dummy plugins for the host OS just so the API is "
-"published to the editor. You can use the [godot-cpp-template](https://github."
-"com/godotengine/godot-cpp-template) github template for reference on how to "
-"do so."
-msgstr ""
-"Dies kann die Erstellung von Dummy-Plugins für das Host-Betriebssystem "
-"beinhalten, nur damit die API für den Editor veröffentlicht wird. Sie können "
-"die [godot-cpp-template](https://github.com/godotengine/godot-cpp-template) "
-"Github-Vorlage als Referenz für diese Vorgehensweise verwenden."
 
 msgid "Godot crashes upon load"
 msgstr "Godot stürzt beim Laden ab"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,11 +36,6 @@ msgstr ""
 "**インスタンス** ボタン（チェーンリンクアイコン）をクリックし、保存した "
 "``player.tscn`` を選択してください。"
 
-#, fuzzy
-msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr "次に ``Main`` の子供として以下のノードを追加します(値は秒単位です)。"
-
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
 "spawn"
@@ -73,12 +63,6 @@ msgid ""
 msgstr ""
 ":ref:`Marker2D <class_Marker2D>` (``StartPosition`` という名前) - プレイヤー"
 "の開始位置を示す"
-
-#, fuzzy
-msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
-"(values are in seconds):"
-msgstr "各 ``Timer`` ノードの ``Wait Time`` プロパティを次のように設定します:"
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "\\ ``MobTimer``: ``0.5``"
@@ -162,14 +146,6 @@ msgstr ""
 "スクリプトを ``Main`` に追加します。 スクリプトの上部に ``@export var "
 "mob_scene: PackedScene`` を追加して、インスタンス化するMobシーンを選択できる"
 "ようにします。"
-
-#, fuzzy
-msgid ""
-"Click the ``Main`` node and you will see the ``Mob Scene`` property in the "
-"Inspector under \"Main.gd\"."
-msgstr ""
-"\\ ``Main``\\ ノードをクリックすると、インスペクタの「Script Variables(スクリ"
-"プト変数)」の下に\\ ``Mob Scene``\\ プロパティがあります。"
 
 msgid "You can assign this property's value in two ways:"
 msgstr "このプロパティの値は、ふたつの方法で指定できます:"

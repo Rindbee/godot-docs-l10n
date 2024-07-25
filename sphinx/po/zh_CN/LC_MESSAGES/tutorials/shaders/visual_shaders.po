@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,22 +49,6 @@ msgstr ""
 msgid ""
 "Then assign a :ref:`class_VisualShader` resource to the ``Shader`` property."
 msgstr "然后将一个 :ref:`class_VisualShader` 资源分配给 ``Shader`` 属性。"
-
-#, fuzzy
-msgid ""
-"Click on the new ``Shader`` resource and the Create Shader dialog will open "
-"automatically. Change the Type option to VisualShader in the dropdown."
-msgstr ""
-"点击新的 ``VisualShader`` 资源，Visual Shader 编辑器就会自动打开。Visual "
-"Shader 编辑器的布局包括两部分：上层工具栏和图表本身。"
-
-#, fuzzy
-msgid ""
-"The layout of the Visual Shader Editor comprises two parts: the upper "
-"toolbar and the graph itself."
-msgstr ""
-"点击新的 ``VisualShader`` 资源，Visual Shader 编辑器就会自动打开。Visual "
-"Shader 编辑器的布局包括两部分：上层工具栏和图表本身。"
 
 msgid "From left to right in the toolbar:"
 msgstr "在工具栏中从左到右："
@@ -181,36 +160,8 @@ msgstr ""
 msgid "Visual Shader node interface"
 msgstr "可视化着色器节点界面"
 
-msgid ""
-"Visual shader nodes have input and output ports. The input ports are located "
-"on the left side of the node, and output ports are located on the right side "
-"of the node."
-msgstr ""
-
-msgid "These ports are colored to differentiate type of port:"
-msgstr ""
-
-msgid "scalar"
-msgstr ""
-
-#, fuzzy
-msgid "vector"
-msgstr "vector2"
-
 msgid "boolean"
 msgstr "boolean"
-
-#, fuzzy
-msgid "transform"
-msgstr "transform2d"
-
-#, fuzzy
-msgid "sampler"
-msgstr "simple（简单）"
-
-#, fuzzy
-msgid "Port types"
-msgstr "核心类型"
 
 msgid "Type"
 msgstr "类型"
@@ -230,24 +181,11 @@ msgstr "Scalar"
 msgid "Cyan"
 msgstr "青色"
 
-msgid "Scalar is a single value."
-msgstr ""
-
-msgid "|scalar|"
-msgstr ""
-
 msgid "Vector"
 msgstr "Vector"
 
 msgid "Purple"
 msgstr "紫色"
-
-msgid "Vector is a set of values."
-msgstr ""
-
-#, fuzzy
-msgid "|vector|"
-msgstr "vector2"
 
 msgid "Boolean"
 msgstr "Boolean"
@@ -255,50 +193,14 @@ msgstr "Boolean"
 msgid "Blue"
 msgstr "蓝色"
 
-msgid "On or off, true or false."
-msgstr ""
-
-#, fuzzy
-msgid "|boolean|"
-msgstr "boolean"
-
 msgid "Transform"
 msgstr "Transform"
-
-#, fuzzy
-msgid "Orange"
-msgstr "range"
-
-#, fuzzy
-msgid "A matrix, usually used to transform vertices."
-msgstr "用于 2D 线性变换的3x2矩阵。"
-
-#, fuzzy
-msgid "|transform|"
-msgstr "transform2d"
 
 msgid "Sampler"
 msgstr "Sampler"
 
 msgid "Yellow"
 msgstr "黄色"
-
-msgid "A texture sampler. It can be used to sample textures."
-msgstr ""
-
-#, fuzzy
-msgid "|sampler|"
-msgstr "Sampler2D"
-
-msgid ""
-"All of the types are used in the calculations of vertices, fragments, and "
-"lights in the shader. For example: matrix multiplication, vector addition, "
-"or scalar division."
-msgstr ""
-
-#, fuzzy
-msgid "There are other types but these are the main ones."
-msgstr "有两个地方可以管理模板."
 
 msgid "Visual Shader nodes"
 msgstr "可视化着色器节点"

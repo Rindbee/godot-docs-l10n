@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,39 +55,12 @@ msgstr "下载 Android SDK"
 msgid "Download and install the Android SDK."
 msgstr "下载并安装 Android SDK."
 
-#, fuzzy
-msgid ""
-"You can install the Android SDK using `Android Studio Hedgehog (version "
-"2023.1.1) or later <https://developer.android.com/studio/>`__."
-msgstr ""
-"你可以使用 `Android Studio 4.1 或更高版本 <https://developer.android.com/"
-"studio/>`__\\ 来安装 Android SDK。"
-
 msgid ""
 "Run it once to complete the SDK setup using these `instructions <https://"
 "developer.android.com/studio/intro/update#sdk-manager>`__."
 msgstr ""
 "运行一次，使用这些\\ `说明 <https://developer.android.com/studio/intro/"
 "update#sdk-manager>`__\\ 完成 SDK 设置。"
-
-msgid ""
-"Ensure that the `required packages <https://developer.android.com/studio/"
-"intro/update#recommended>`__ are installed as well."
-msgstr ""
-"确保安装了\\ `必要的软件包 <https://developer.android.com/studio/intro/"
-"update#recommended>`__\\ 。"
-
-#, fuzzy
-msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools 30.0.5 或更高版本"
-
-#, fuzzy
-msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools 版本 33.0.2"
-
-#, fuzzy
-msgid "Android SDK Platform 34"
-msgstr "Android SDK Platform 33"
 
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Android SDK Command-line Tools（最新）"
@@ -102,30 +70,6 @@ msgstr "CMake 版本 3.10.2.4988404"
 
 msgid "NDK version r23c (23.2.8568313)"
 msgstr "NDK 版本 r23c（23.2.8568313）"
-
-#, fuzzy
-msgid ""
-"Alternatively, you can install the Android SDK with the `sdkmanager` command "
-"line tool."
-msgstr ""
-"或者你也可以使用\\ `命令行工具 <https://developer.android.com/studio/"
-"#command-tools>`__\\ 来安装 Android SDK。"
-
-#, fuzzy
-msgid ""
-"Install the command line tools package using these `instructions <https://"
-"developer.android.com/tools/sdkmanager>`__."
-msgstr ""
-"运行一次，使用这些\\ `说明 <https://developer.android.com/studio/intro/"
-"update#sdk-manager>`__\\ 完成 SDK 设置。"
-
-#, fuzzy
-msgid ""
-"Once the command line tools are installed, run the following `sdkmanager` "
-"command to complete the setup process:"
-msgstr ""
-"命令行工具安装完成后, 运行 `sdkmanager <https://developer.android.com/studio/"
-"command-line/sdkmanager>`__ 命令以完成安装过程:"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -148,20 +92,6 @@ msgstr "向下滚动到 Android 设置所在的部分："
 
 msgid "In that screen, 2 paths need to be set:"
 msgstr "在该屏幕中，需要设置两个路径："
-
-msgid ""
-"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``Android Sdk Path`` should be the location where the Android SDK was "
-"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
-"Users/$USER/Library/Android/sdk/`` on macOS."
-msgstr ""
-"``Android Sdk Path`` 设置为Android SDK的安装位置. 例如,Windows上的 "
-"``%LOCALAPPDATA%\\Android\\Sdk\\`` , 或macOS上的 ``/Users/$USER/Library/"
-"Android/sdk/`` ."
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr "配置完成后, 导出到Android的一切都准备好了！"
@@ -277,18 +207,6 @@ msgid ""
 msgstr ""
 "将 APK 上传到 Google 的 Play 商店，需要你使用非调试密钥库文件进行签名；这样的"
 "文件可以像这样生成："
-
-#, fuzzy
-msgid ""
-"This keystore and key are used to verify your developer identity, remember "
-"the password and keep it in a safe place! It is suggested to use only upper "
-"and lowercase letters and numbers. Special characters may cause errors. Use "
-"Google's Android Developer guides to learn more about `APK signing <https://"
-"developer.android.com/studio/publish/app-signing>`__."
-msgstr ""
-"这个密钥库和密钥用于验证你的开发人员身份，请记住密码并将其保存在安全的地方！"
-"使用 Google 的 Android 开发者指南来了解有关 `APK 签名 <https://developer."
-"android.com/studio/publish/app-signing>`__\\ 的更多信息。"
 
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr "现在，在你的 Android 导出预设中填写以下表格："

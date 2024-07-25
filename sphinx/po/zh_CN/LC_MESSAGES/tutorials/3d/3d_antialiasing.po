@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,19 +179,6 @@ msgstr "无抗锯齿（左）和 TAA（右）之间的比较："
 
 msgid "AMD FidelityFX Super Resolution 2.2 (FSR2)"
 msgstr "AMD FidelityFX Super Resolution 2.2 （FSR2）"
-
-msgid ""
-"Since Godot 4.2, there is built-in support for `AMD FidelityFX Super "
-"Resolution <https://www.amd.com/en/technologies/fidelityfx-super-"
-"resolution>`__ 2.2. This is an :ref:`upscaling method "
-"<doc_resolution_scaling>` compatible with all recent GPUs from any vendor. "
-"FSR2 is normally designed to improve performance by lowering the internal 3D "
-"rendering resolution, then upscaling to the output resolution."
-msgstr ""
-"自 Godot 4.2 起，内置了对 `AMD FidelityFX Super Resolution <https://www.amd."
-"com/zh-hans/technologies/fidelityfx-super-resolution>`__ 2.2 的支持。这是一种"
-"与任何供应商的所有最新 GPU 兼容的 :ref:`放大方法 <doc_resolution_scaling>`。 "
-"FSR2 旨在通过降低内部的 3D 渲染分辨率，然后放大到输出分辨率来提高性能。"
 
 msgid ""
 "However, unlike FSR1, FSR2 also provides temporal antialiasing. This means "

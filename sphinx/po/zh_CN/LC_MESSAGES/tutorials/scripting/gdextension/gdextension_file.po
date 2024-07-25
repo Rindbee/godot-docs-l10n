@@ -1,0 +1,91 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Introduction"
+msgstr "前言"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "String"
+msgstr "字符串"
+
+msgid "Boolean"
+msgstr "Boolean"
+
+msgid "**windows**"
+msgstr "**windows**"
+
+msgid "**macos**"
+msgstr "**macos**"
+
+msgid "**linux**"
+msgstr "**linux**"
+
+msgid "**bsd**"
+msgstr "**bsd**"
+
+msgid "**linuxbsd**"
+msgstr "**linuxbsd**"
+
+msgid "**android**"
+msgstr "**android**"
+
+msgid "**ios**"
+msgstr "**ios**"
+
+msgid "**web**"
+msgstr "**web**"
+
+msgid "**debug**"
+msgstr "**debug**"
+
+msgid "**release**"
+msgstr "**release**"
+
+msgid "**editor**"
+msgstr "**editor**"
+
+msgid "Architecture"
+msgstr "架构"
+
+msgid "**double**"
+msgstr "**double**"
+
+msgid "**single**"
+msgstr "**single**"
+
+msgid "**x86_64**"
+msgstr "**x86_64**"
+
+msgid "**arm64**"
+msgstr "**arm64**"
+
+msgid "**rv64**"
+msgstr "**rv64**"
+
+msgid "**riscv**"
+msgstr "**riscv**"
+
+msgid "**wasm32**"
+msgstr "**wasm32**"
+
+msgid "For example:"
+msgstr "例如："
+
+msgid "Translation status"
+msgstr "翻译状态"

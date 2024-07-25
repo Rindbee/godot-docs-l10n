@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,17 +138,6 @@ msgstr ""
 "沒關係，先跳過即可。並請在為更改開啟 PR 時列出所有跳過的方法。其他編寫者會處"
 "理這些方法。"
 
-#, fuzzy
-msgid ""
-"You can still look at the methods' implementation in Godot's source code on "
-"GitHub. If you have doubts, feel free to ask on the `Q&A website <https://"
-"ask.godotengine.org/>`_ and `Godot Contributors Chat <https://chat."
-"godotengine.org/>`_."
-msgstr ""
-"也可以在 GitHub 上 Godot 的原始碼中看看該方法的實作。另外，如果有疑慮時，歡迎"
-"在 `Q&A 網站 <https://godotengine.org/qa/>`__ 與 IRC (freenode, "
-"#godotengine) 上提問。"
-
 msgid ""
 "Unless you make minor changes, like fixing a typo, we do not recommend using "
 "the GitHub web editor to edit the class reference's XML files. It lacks "
@@ -216,9 +200,6 @@ msgstr ""
 "請僅提交包含與您在 API 上的工作相關的更改。您可以使用 ``git checkout`` 來放棄"
 "對其他 XML 檔中的更改，但如果注意到不相關的檔案正在更新，請考慮一下再報告。理"
 "想情況下，運作此命令應該只提交您自己所做的更改。"
-
-msgid "You will then need to add descriptions to any newly generated entries."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -304,7 +299,6 @@ msgstr ""
 "Kernentwickler konzentrieren sich oft darauf, was den meisten Nutzern zuerst "
 "nützt."
 
-#, fuzzy
 msgid ""
 "That said, although a handful of core developers work on it full-time, the "
 "project has thousands of contributors at the time of writing. Benevolent "
@@ -313,7 +307,7 @@ msgid ""
 "release."
 msgstr ""
 "Obwohl nur eine handvoll Kernentwickler in Vollzeit an der Engine arbeiten, "
-"hat das Projekt zum Zeitpunkt des Schreibens dieses Textes über 600 "
+"hat das Projekt zum Zeitpunkt des Schreibens dieses Textes tausende "
 "Mitwirkende. Programmierer arbeiten an Features, die sie möglicherweise "
 "selbst benötigen. Dadurch sieht man Verbesserungen in allen Teilen der "
 "Engine in jedem größeren Release."

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,17 +128,6 @@ msgstr ""
 
 msgid "Setting up"
 msgstr "設定"
-
-#, fuzzy
-msgid ""
-"First of all, before the lightmapper can do anything, the objects to be "
-"baked need a UV2 layer and a texture size. A UV2 layer is a set of secondary "
-"texture coordinates that ensures any face in the object has its own place in "
-"the UV map. Faces must not share pixels in the texture."
-msgstr ""
-"首先，在光照貼圖器可以執行任何操作之前，要烘焙的物件需要 UV2 圖層和紋理大小。"
-"UV2 圖層是一組輔助紋理座標，可確保物件中的任何面在 UV 貼圖中都有自己的位置。"
-"面與面之間不得共用紋理中的像素。"
 
 msgid ""
 "There are a few ways to ensure your object has a unique UV2 layer and "
@@ -388,18 +372,6 @@ msgstr "模式有："
 msgid "Disabled"
 msgstr "已停用的專案"
 
-#, fuzzy
-msgid ""
-"The light is ignored when baking lightmaps. This is the mode to use for "
-"dynamic lighting effects such as explosions and weapon effects."
-msgstr "這個模式可以用於動態光照效果，例如爆炸和武器特效。"
-
-msgid ""
-"Hiding a light has no effect on the resulting lightmap bake. This means you "
-"must use the Disabled bake mode instead of hiding the Light node by "
-"disabling its **Visible** property."
-msgstr ""
-
 msgid "Dynamic"
 msgstr "動態語言："
 
@@ -518,26 +490,6 @@ msgstr ""
 "好、噪點也越少。針對發光材質或者幾乎沒有直接光照的地方，不同品質之間的區別尤"
 "為顯著。"
 
-#, fuzzy
-msgid ""
-"**Bounces:** The number of bounces to use for indirect lighting. The default "
-"value (``3``) is a good compromise between bake times and quality. Higher "
-"values will make light bounce around more times before it stops, which makes "
-"indirect lighting look smoother (but also possibly brighter depending on "
-"materials and geometry)."
-msgstr ""
-"**Bounces（反彈）** ：間接光照的反彈次數。預設值（3）是烘焙時間和品質之間的一"
-"個平衡點。取值越高，光線在停止之前反彈的次數越多，間接光照的效果也就越好（同"
-"時也越亮）。在做最初的光照反覆運算工作時，建議把反彈次數減小到 1，這樣可以加"
-"快烘焙速度。注意降低反彈次數會讓場景變暗。"
-
-msgid ""
-"**Bounce Indirect Energy:** The global multiplier to use when baking lights' "
-"indirect energy. This multiplies each light's own **Indirect Energy** value. "
-"Values different from ``1.0`` are not physically accurate, but can be used "
-"for artistic effect."
-msgstr ""
-
 msgid ""
 "**Directional:** If enabled, stores directional information for lightmaps. "
 "This improves normal mapped materials' appearance for baked surfaces, "
@@ -554,35 +506,6 @@ msgid ""
 "**Interior:** If enabled, environment lighting will not be sourced. Use this "
 "for purely indoor scenes to avoid light leaks."
 msgstr "**內部：** 若啟用，將不會取得環境照明。將其用於純室內場景以避免漏光。"
-
-msgid ""
-"**Use Texture for Bounces:** If enabled, a texture with the lighting "
-"information will be generated to speed up the generation of indirect "
-"lighting at the cost of some accuracy. The geometry might exhibit extra "
-"light leak artifacts when using low resolution lightmaps or UVs that stretch "
-"the lightmap significantly across surfaces. Leave this enabled if unsure."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"**Use Denoiser:** If enabled, uses a denoising algorithm to make the "
-"lightmap significantly less noisy. This increases bake times and can "
-"occasionally introduce artifacts, but the result is often worth it. See :ref:"
-"`doc_using_lightmap_gi_denoising` for more information."
-msgstr ""
-"**Use Color（使用彩色）** ：禁用時，光照貼圖會佔用更少的磁碟空間，但就會無法"
-"保存彩色燈光。僅烘焙間接光照時，由於間接燈光通常對比度不高，所以可能幾乎看不"
-"出區別。然而使用 **All** 烘焙模式同時烘焙直接和間接光照時，就會導致彩色燈光變"
-"成灰度燈光。該選項和 HDR 一起禁用後可以得到相同解析度下最小的光照貼圖。"
-
-msgid ""
-"**Denoiser Strength:** The strength of denoising step applied to the "
-"generated lightmaps. Higher values are more effective at removing noise, but "
-"can reduce shadow detail for static shadows. Only effective if denoising is "
-"enabled and the denoising method is :abbr:`JNLM (Non-Local Means with Joint "
-"Filtering)` (:abbr:`OIDN (Open Image Denoise)` does not have a denoiser "
-"strength setting)."
-msgstr ""
 
 msgid ""
 "**Bias:** The offset value to use for shadows in 3D units. You generally "
@@ -652,125 +575,6 @@ msgstr ""
 
 msgid "Denoising"
 msgstr "降噪"
-
-msgid ""
-"Since baking lightmaps relies on raytracing, there will always be visible "
-"noise in the \"raw\" baked lightmap. Noise is especially visible in areas "
-"that are difficult to reach by bounced light, such as indoor areas with "
-"small openings where the sunlight can enter. Noise can be reduced by "
-"increasing bake quality, but doing so will increase bake times significantly."
-msgstr ""
-
-#, fuzzy
-msgid "Comparison between denoising disabled and enabled"
-msgstr "無抗鋸齒（左）和 TAA（右）之間的比較："
-
-msgid ""
-"Comparison between denoising disabled and enabled (with the default JNLM "
-"denoiser)."
-msgstr ""
-
-msgid ""
-"To combat noise without increasing bake times too much, a denoiser can be "
-"used. A denoiser is an algorithm that runs on the final baked lightmap, "
-"detects patterns of noise and softens them while attempting to best preserve "
-"detail. Godot offers two denoising algorithms:"
-msgstr ""
-
-msgid "JNLM (Non-Local Means with Joint Filtering)"
-msgstr ""
-
-msgid ""
-"JNLM is the default denoising method and is included in Godot. It uses a "
-"simple but efficient denoising algorithm known as *non-local means*. JNLM "
-"runs on the GPU using a compute shader, and is compatible with any GPU that "
-"can run Godot 4's Vulkan-based rendering methods. No additional setup is "
-"required."
-msgstr ""
-
-msgid ""
-"JNLM's denoising can be adjusted using the **Denoiser Strength** property "
-"that is visible when **Use Denoiser** enabled. Higher values can be more "
-"effective at removing noise, at the cost of suppressing shadow detail for "
-"static shadows."
-msgstr ""
-
-msgid "Comparison between JNLM denoiser strength values"
-msgstr ""
-
-msgid ""
-"Comparison between JNLM denoiser strength values. Higher values can reduce "
-"detail."
-msgstr ""
-
-msgid "OIDN (Open Image Denoise)"
-msgstr ""
-
-msgid ""
-"Unlike JNLM, OIDN uses a machine learning approach to denoising lightmaps. "
-"It features a model specifically trained to remove noise from lightmaps "
-"while preserving more shadow detail in most scenes compared to JNLM."
-msgstr ""
-
-msgid ""
-"OIDN can run on the GPU if hardware acceleration is configured. With a "
-"modern high-end GPU, this can provide a speedup of over 50× over CPU-based "
-"denoising:"
-msgstr ""
-
-msgid "On AMD GPUs, HIP must be installed and configured."
-msgstr ""
-
-msgid ""
-"On NVIDIA GPUs, CUDA must be installed and configured. This may "
-"automatically be done by the NVIDIA installer, but on Linux, CUDA libraries "
-"may not be installed by default. Double-check that the CUDA packages from "
-"your Linux distribution are installed."
-msgstr ""
-
-msgid "On Intel GPUs, SYCL must be installed and configured."
-msgstr ""
-
-msgid ""
-"If hardware acceleration is not available, OIDN will fall back to "
-"multithreaded CPU-based denoising. To confirm whether GPU-based denoising is "
-"working, use a GPU utilization monitor while baking lightmaps and look at "
-"the GPU utilization percentage and VRAM utilization while the denoising step "
-"is shown in the Godot editor. The ``nvidia-smi`` command line tool can be "
-"useful for this."
-msgstr ""
-
-msgid ""
-"OIDN is not included with Godot due to its relatively large download size. "
-"You can download precompiled OIDN binary packages from its `website <https://"
-"www.openimagedenoise.org/downloads.html>`__. Extract the package to a "
-"location on your PC, then specify the path to the ``oidnDenoise`` executable "
-"in the Editor Settings (**FileSystem > Tools > OIDN > OIDN Denoise Path**). "
-"This executable is located within the ``bin`` folder of the binary package "
-"you extracted."
-msgstr ""
-
-msgid ""
-"After specifying the path to the OIDN denoising executable, change the "
-"denoising method in the project settings by setting **Rendering > "
-"Lightmapping > Denoiser** to **OIDN**. This will affect all lightmap bakes "
-"on this project after the setting is changed."
-msgstr ""
-
-msgid ""
-"The denoising method is configured in the project settings instead of the "
-"editor settings. This is done so that different team members working on the "
-"same project are assured to be using the same denoising method for "
-"consistent results."
-msgstr ""
-
-msgid "Comparison between JNLM and OIDN denoisers"
-msgstr ""
-
-msgid ""
-"Comparison between JNLM and OIDN denoisers. Notice how OIDN better preserves "
-"detail and reduces seams across different objects."
-msgstr ""
 
 msgid "Dynamic objects"
 msgstr "動態物件"
@@ -860,18 +664,6 @@ msgid ""
 msgstr ""
 "如果有後期處理的需要，可以使用圖像編輯器查看並編輯所生成的 EXR 檔。不過請注"
 "意，重新烘焙貼圖會覆蓋你對 EXR 檔的修改。"
-
-#, fuzzy
-msgid "Reducing LightmapGI artifacts"
-msgstr "減少 VoxelGI 漏光和偽影"
-
-msgid ""
-"If you notice LightmapGI nodes popping in and out of existence as the camera "
-"moves, this is most likely because the engine is rendering too many "
-"LightmapGI instances at once. Godot is limited to rendering 8 LightmapGI "
-"nodes at once, which means up to 8 instances can be in the camera view "
-"before some of them will start flickering."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Writing guidelines"
-msgstr "Directives pour la rédaction de documentation"
 
 msgid ""
 "The Godot community is rich and international. Users come from all around "
@@ -42,10 +33,6 @@ msgstr ""
 
 msgid "In summary, always try to:"
 msgstr "En résumé, essayez de toujours :"
-
-#, fuzzy
-msgid "Use the active voice"
-msgstr "Utiliser la voix directe"
 
 msgid "Use precise action verbs"
 msgstr "Utiliser des verbes d'action précis"
@@ -105,17 +92,6 @@ msgstr ""
 
 msgid "7 rules for clear English"
 msgstr "7 règles pour un anglais clair"
-
-#, fuzzy
-msgid ""
-"Use the active voice when possible. Take the classes, methods, and constants "
-"you describe as the subject. It's natural to write using the passive voice, "
-"but it's harder to read and produces longer sentences."
-msgstr ""
-"L'utilisation de la voix directe lorsque c'est possible. De prendre les "
-"classes, les méthodes, et les constantes de vous décrire le sujet. Il est "
-"naturel d'écrire à l'aide de la voix passive, mais c'est plus difficile à "
-"lire et produit des phrases plus longue."
 
 msgid "Passive:"
 msgstr "Passive :"
@@ -576,20 +552,6 @@ msgstr ""
 "(viewport) il y a des ``panels``. Ensemble, ils forment les ``bottom "
 "panels``."
 
-#, fuzzy
-msgid ""
-"Foldable areas of the Inspector are ``sections``. The node's parent class "
-"names, which you can't fold, are ``Classes`` e.g. the ``CharacterBody2D "
-"class``. And individual lines with key-value pairs are ``properties``. E.g. "
-"``position`` or ``modulate color`` are both ``properties``."
-msgstr ""
-"Les zones dépliables de l'inspecteur sont des ``sections``. Les noms des "
-"classes parentes du nœud, que vous ne pouvez pas plier, sont des "
-"``Classes``, par exemple la classe ``KinematicBody2D class``. Et les lignes "
-"individuelles avec des paires clé-valeur sont des ``properties``. Par "
-"exemple, ``position`` ou ``modulate color`` sont toutes deux des "
-"``properties``."
-
 msgid "Keyboard shortcut guidelines"
 msgstr "Consignes relatives aux raccourcis clavier"
 
@@ -607,16 +569,6 @@ msgstr ""
 "`Command`). Pour les combinaisons, utilisez le symbole ``+`` avec un espace "
 "de chaque côté du symbole."
 
-#, fuzzy
-msgid ""
-"Make sure to mention shortcuts that differ on macOS compared to other "
-"platforms. You can find a list of all shortcuts, including what they are on "
-"macOS, on :ref:`this page <doc_default_key_mapping>`."
-msgstr ""
-"Veillez à mentionner les raccourcis qui diffèrent sur macOS par rapport aux "
-"autres plateformes. Sur macOS, ``Cmd`` remplace souvent ``Ctrl`` dans les "
-"raccourcis clavier."
-
 msgid ""
 "Try to integrate the shortcut into sentences the best you can. Here are some "
 "examples with the ``:kbd:`` tag left as-is for better visibility:"
@@ -624,14 +576,6 @@ msgstr ""
 "Essayez d'intégrer le raccourci dans les phrases du mieux que vous pouvez. "
 "Voici quelques exemples avec la balise ``:kbd:`` laissée telle quelle pour "
 "une meilleure visibilité :"
-
-#, fuzzy
-msgid ""
-"Press ``:kbd:`Ctrl + Alt + T``` to toggle the panel (``:kbd:`Opt + Cmd + "
-"T``` on macOS)."
-msgstr ""
-"Appuyez sur ``:kbd:`Ctrl + Alt + T``` pour basculer le panneau (``:kbd:`Cmd "
-"+ Alt + T``` sur macOS)."
 
 msgid ""
 "Press ``:kbd:`Space``` and hold the left mouse button to pan in the 2D "

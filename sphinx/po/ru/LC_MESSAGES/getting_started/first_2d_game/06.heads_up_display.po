@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,20 +105,6 @@ msgstr ""
 "Размер шрифта все еще слишком мал, увеличьте его до ``64`` в разделе «Theme "
 "Overrides > Font Sizes». Сделав это для ``ScoreLabel``, повторите изменения "
 "для узлов ``Message`` и ``StartButton``."
-
-#, fuzzy
-msgid ""
-"**Anchors:** ``Control`` nodes have a position and size, but they also have "
-"anchors. Anchors define the origin - the reference point for the edges of "
-"the node."
-msgstr ""
-"**Якоря и Отступы:** Узлы ``Control`` имеют не только положение и размер, но "
-"также якоря и отступы. Якоря определяют начало координат - опорную точку для "
-"краев узла. Отступы обновляются автоматически при перемещении или изменении "
-"размера узла управления. Они представляют расстояние от краев узла "
-"``Control`` до его якоря. См. :ref:"
-"`doc_design_interfaces_with_the_control_nodes` для получения более подробной "
-"информации."
 
 msgid ""
 "Arrange the nodes as shown below. You can drag the nodes to place them "
@@ -242,15 +223,6 @@ msgstr ""
 
 msgid "Add the code below to ``HUD`` to update the score"
 msgstr "Добавьте приведенный ниже код в ``HUD``, чтобы обновлять счет"
-
-#, fuzzy
-msgid ""
-"Connect the ``pressed()`` signal of ``StartButton`` and the ``timeout()`` "
-"signal of ``MessageTimer`` to the ``HUD`` node, and add the following code "
-"to the new functions:"
-msgstr ""
-"Присоедините сигнал ``timeout()`` из ``MessageTimer`` и сигнал ``pressed()`` "
-"из ``StartButton`` и добавьте следующий код к новым функциям:"
 
 msgid "Connecting HUD to Main"
 msgstr "Подключение HUD к Main"

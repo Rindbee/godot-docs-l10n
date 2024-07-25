@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,20 +309,20 @@ msgstr "好极了！ 我们的动画运行:"
 msgid "The animation"
 msgstr "动画"
 
-#, fuzzy
-msgid "Autoplay on load"
-msgstr "自动加载"
-
 msgid ""
 "You can make it so an animation plays automatically when the AnimationPlayer "
 "nodes scene starts, or joins another scene. To do this click the \"Autoplay "
 "on load\" button in the animation editor, it's right next to the edit button."
 msgstr ""
+"为实现动画自动播放，点击动画编辑器中“编辑”按钮左边的“加载后自动播放”按钮即"
+"可。可在AnimationPlayer结点所在场景运行时或动画加入了另一个场景中时使用。"
 
 msgid ""
 "The icon for it will also appear in front of the name of the animation, so "
 "you can easily identify which one is the autoplay animation."
 msgstr ""
+"它的图标也会出现在动画名称的前面，这样你就可以很容易地识别哪个是自动播放的动"
+"画。"
 
 msgid "Back and forth"
 msgstr "来来回回"
@@ -358,13 +353,6 @@ msgstr "你可以通过更改轨道的循环模式来更改此行为。这将在
 
 msgid "Track settings"
 msgstr "轨道设置"
-
-#, fuzzy
-msgid ""
-"Each property track has a settings panel at the end, where you can set its "
-"update mode, track interpolation, and loop mode."
-msgstr ""
-"每条轨道最后都有一个设置面板，可以在其中设置更新模式、轨道插值和循环模式。"
 
 msgid ""
 "The update mode of a track tells Godot when to update the property values. "
@@ -544,6 +532,8 @@ msgid ""
 "when using the keyframe icon next to a property in the inspector the editor "
 "will ask you to automatically create a RESET track."
 msgstr ""
+"使用检查器中某个属性旁边的关键帧图标时，编辑器会询问你是否要自动创建一个RESET"
+"轨道。"
 
 msgid ""
 "RESET tracks is also used as a reference value for blending. See also `For "
@@ -552,9 +542,8 @@ msgstr ""
 "RESET轨道也被用作混合的参考值。另见\\ `更好的混合 <../animation/"
 "animation_tree.html#for-better-blending>`__\\ 。"
 
-#, fuzzy
 msgid "Onion Skinning"
-msgstr "动画和皮肤"
+msgstr "洋葱皮"
 
 msgid ""
 "Godot's animation editor allows you use onion skinning while creating an "
@@ -562,12 +551,16 @@ msgid ""
 "of the animation editor. Now there will be transparent red copies of what is "
 "being animated in its previous positions in the animation."
 msgstr ""
+"Godot 的动画编辑器允许你在创建动画时使用洋葱蒙皮。要启用此功能，请单击动画编"
+"辑器右上角的洋葱图标。此时，在动画对象先前位置将有透明红色副本显示出来。"
 
 msgid ""
 "The three dots button next to the onion skinning button opens a dropdown "
 "menu that lets you adjust how it works, including the ability to use onion "
 "skinning for future frames."
 msgstr ""
+"与洋葱皮按钮相邻的三个圆点按钮可以打开一个下拉菜单，你可以用它来调整洋葱皮的"
+"工作方式，包括在未来的帧中使用洋葱皮的能力。"
 
 msgid "Translation status"
 msgstr "翻译状态"

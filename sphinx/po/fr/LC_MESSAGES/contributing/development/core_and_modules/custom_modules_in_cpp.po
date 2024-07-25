@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,10 +66,6 @@ msgstr "Optimiser des parties critiques d'un jeu."
 msgid "Adding new functionality to the engine and/or editor."
 msgstr "Ajouter de nouvelles fonctionnalités au moteur et/ou à l'éditeur."
 
-#, fuzzy
-msgid "Porting an existing game to Godot."
-msgstr "Porter un jeu déjà existant."
-
 msgid "Write a whole, new game in C++ because you can't live without C++."
 msgstr "Écrire tout un jeu en C++ car vous ne pouvez pas vivre sans C++."
 
@@ -97,14 +88,6 @@ msgstr ""
 "``modules/``. Si vous voulez maintenir votre module séparément, vous pouvez "
 "mettre en place un système de gestion de versions dans modules."
 
-#, fuzzy
-msgid ""
-"The example module will be called \"summator\" (``godot/modules/summator``). "
-"Inside we will create a summator class:"
-msgstr ""
-"L'exemple de module sera appelé \"summator\" (``godot/modules/summator``). A "
-"l'intérieur, nous allons créer une simple classe summator :"
-
 msgid "And then the cpp file."
 msgstr "Et puis le fichier cpp."
 
@@ -125,14 +108,6 @@ msgstr ""
 
 msgid "These files should contain the following:"
 msgstr "Ces fichiers doivent contenir les éléments suivants :"
-
-#, fuzzy
-msgid ""
-"Next, we need to create an ``SCsub`` file so the build system compiles this "
-"module:"
-msgstr ""
-"Ensuite, nous devons créer un fichier ``SCsub`` pour que le système de "
-"compilation compile ce module :"
 
 msgid ""
 "With multiple sources, you can also add each file individually to a Python "
@@ -166,14 +141,6 @@ msgstr ""
 "construction de votre module, vous devez d'abord cloner `env`, afin qu'il "
 "n'ajoute pas ces drapeaux à la construction de Godot (ce qui peut causer des "
 "erreurs). Exemple ``SCsub`` avec des drapeaux personnalisés :"
-
-#, fuzzy
-msgid ""
-"And finally, the configuration file for the module, this is a Python script "
-"that must be named ``config.py``:"
-msgstr ""
-"Et enfin, le fichier de configuration du module, c'est un simple script "
-"python qui doit être nommé ``config.py`` :"
 
 msgid ""
 "The module is asked if it's OK to build for the specific platform (in this "
@@ -336,60 +303,8 @@ msgstr ""
 ":ref:`Introduction au système de compilation - Option de compilation de "
 "modules personnalisés <doc_buildsystem_custom_modules>`."
 
-#, fuzzy
-msgid "Customizing module types initialization"
-msgstr "Personnalisation de la présentation"
-
-msgid ""
-"Modules can interact with other built-in engine classes during runtime and "
-"even affect the way core types are initialized. So far, we've been using "
-"``register_summator_types`` as a way to bring in module classes to be "
-"available within the engine."
-msgstr ""
-
-msgid ""
-"A crude order of the engine setup can be summarized as a list of the "
-"following type registration methods:"
-msgstr ""
-
-msgid ""
-"Our ``Summator`` class is initialized during the ``register_module_types()`` "
-"call. Imagine that we need to satisfy some common module run-time dependency "
-"(like singletons), or allow us to override existing engine method callbacks "
-"before they can be assigned by the engine itself. In that case, we want to "
-"ensure that our module classes are registered *before* any other built-in "
-"type."
-msgstr ""
-
-msgid ""
-"This is where we can define an optional ``preregister_summator_types()`` "
-"method which will be called before anything else during the "
-"``preregister_module_types()`` engine setup stage."
-msgstr ""
-
-msgid ""
-"We now need to add this method to ``register_types`` header and source files:"
-msgstr ""
-
-msgid ""
-"Unlike other register methods, we have to explicitly define "
-"``MODULE_SUMMATOR_HAS_PREREGISTER`` to let the build system know what "
-"relevant method calls to include at compile time. The module's name has to "
-"be converted to uppercase as well."
-msgstr ""
-
 msgid "Improving the build system for development"
 msgstr "Améliorer le système de construction pour le développement"
-
-#, fuzzy
-msgid ""
-"This shared library support is not designed to support distributing a module "
-"to other users without recompiling the engine. For that purpose, use a "
-"GDExtension instead."
-msgstr ""
-"Ce support de bibliothèque partagée n'est pas conçu pour supporter la "
-"distribution d'un module à d'autres utilisateurs sans recompiler le moteur. "
-"Pour cela, utilisez :ref:`GDNative <doc_what_is_gdnative>` à la place."
 
 msgid ""
 "So far, we defined a clean SCsub that allows us to add the sources of our "
@@ -474,20 +389,6 @@ msgstr ""
 
 msgid "Writing custom documentation"
 msgstr "Rédaction de documentation personnalisée"
-
-#, fuzzy
-msgid ""
-"Writing documentation may seem like a boring task, but it is highly "
-"recommended to document your newly created module to make it easier for "
-"users to benefit from it. Not to mention that the code you've written one "
-"year ago may become indistinguishable from the code that was written by "
-"someone else, so be kind to your future self!"
-msgstr ""
-"La rédaction de documentation peut sembler une tâche ennuyeuse, mais il est "
-"fortement recommandé de documenter votre nouveau module afin de permettre "
-"aux utilisateurs de l'utiliser plus facilement. Sans compter que le code que "
-"vous avez écrit il y a un an peut devenir indiscernable du code qui a été "
-"écrit par quelqu'un d'autre, alors soyez gentil avec votre futur vous !"
 
 msgid "There are several steps in order to setup custom docs for the module:"
 msgstr ""
@@ -574,14 +475,6 @@ msgstr ""
 "toute autre classe, que vous avez référencé dans votre fonction "
 "``get_doc_classes``."
 
-#, fuzzy
-msgid ""
-"Edit the file(s) following :ref:`doc_class_reference_primer` and recompile "
-"the engine."
-msgstr ""
-"Editez le(s) fichier(s) suivant(s) :ref:`doc_updating_the_class_reference` "
-"et recompilez le moteur."
-
 msgid ""
 "Once the compilation process is finished, the docs will become accessible "
 "within the engine's built-in documentation system."
@@ -615,41 +508,6 @@ msgstr ""
 "Notez que si vous n'avez pas les droits d'accès en écriture à votre "
 "``<path>`` fourni, vous pourriez rencontrer une erreur similaire à la "
 "suivante :"
-
-#, fuzzy
-msgid "Writing custom unit tests"
-msgstr "Rédaction de documentation personnalisée"
-
-msgid ""
-"It's possible to write self-contained unit tests as part of a C++ module. If "
-"you are not familiar with the unit testing process in Godot yet, please "
-"refer to :ref:`doc_unit_testing`."
-msgstr ""
-
-#, fuzzy
-msgid "The procedure is the following:"
-msgstr "Il y a les restrictions suivantes :"
-
-msgid "Create a new directory named ``tests/`` under your module's root:"
-msgstr ""
-
-msgid ""
-"Create a new test suite: ``test_summator.h``. The header must be prefixed "
-"with ``test_`` so that the build system can collect it and include it as "
-"part of the ``tests/test_main.cpp`` where the tests are run."
-msgstr ""
-
-msgid "Write some test cases. Here's an example:"
-msgstr ""
-
-msgid ""
-"Compile the engine with ``scons tests=yes``, and run the tests with the "
-"following command:"
-msgstr ""
-
-#, fuzzy
-msgid "You should see the passing assertions now."
-msgstr "Vous devriez voir maintenant le groupe apparaitre."
 
 msgid "Adding custom editor icons"
 msgstr "Ajout d'icônes d'éditeur personnalisé"
@@ -710,42 +568,12 @@ msgstr "En résumé"
 msgid "Remember to:"
 msgstr "Se rappeler de :"
 
-#, fuzzy
-msgid "Use ``GDCLASS`` macro for inheritance, so Godot can wrap it."
-msgstr ""
-"Utiliser la macro ``GDCLASS`` pour l'héritage, pour que Godot puisse "
-"l'envelopper"
-
-#, fuzzy
-msgid ""
-"Use ``_bind_methods`` to bind your functions to scripting, and to allow them "
-"to work as callbacks for signals."
-msgstr ""
-"Utilisez ``_bind_methods`` pour lier vos fonctions au scripting, et pour "
-"leur permettre de fonctionner comme des rappels pour les signaux."
-
-msgid ""
-"**Avoid multiple inheritance for classes exposed to Godot**, as ``GDCLASS`` "
-"doesn't support this. You can still use multiple inheritance in your own "
-"classes as long as they're not exposed to Godot's scripting API."
-msgstr ""
-
 msgid ""
 "But this is not all, depending what you do, you will be greeted with some "
 "(hopefully positive) surprises."
 msgstr ""
 "Mais ce n'est pas tout, en fonction de ce que vous faites, vous rencontrez "
 "quelques surprises (espérons-les positives)."
-
-#, fuzzy
-msgid ""
-"If you inherit from :ref:`class_Node` (or any derived node type, such as "
-"Sprite2D), your new class will appear in the editor, in the inheritance tree "
-"in the \"Add Node\" dialog."
-msgstr ""
-"Si vous héritez depuis :ref:`class_Node` (ou d'un type de nœud dérivé, tel "
-"que Sprite), votre nouvelle classe apparaîtra dans l'éditeur, dans l'arbre "
-"d'héritage dans la boîte de dialogue \"Ajouter Nœud\"."
 
 msgid ""
 "If you inherit from :ref:`class_Resource`, it will appear in the resource "

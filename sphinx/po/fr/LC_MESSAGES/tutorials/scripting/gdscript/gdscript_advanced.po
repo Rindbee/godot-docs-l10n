@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,10 +48,6 @@ msgstr ""
 "GDScript est un langage à typage dynamique. En tant que tel, ses principaux "
 "avantages sont que :"
 
-#, fuzzy
-msgid "The language is easy to get started with."
-msgstr "Le langage est simple et facile à apprendre."
-
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr ""
 "La plupart du code peut être écrit et modifié rapidement et sans tracas."
@@ -64,29 +55,17 @@ msgstr ""
 msgid "Less code written means less errors & mistakes to fix."
 msgstr "Moins de code écrit signifie moins d'erreurs à corriger."
 
-msgid "The code is easy to read (little clutter)."
-msgstr ""
-
 msgid "No compilation is required to test."
 msgstr "Aucune compilation n'est nécessaire pour tester."
 
 msgid "Runtime is tiny."
 msgstr "Le temps d'exécution est minuscule."
 
-#, fuzzy
-msgid "It has duck-typing and polymorphism by nature."
-msgstr "Typage ad hoc et polymorphisme par nature."
-
 msgid "While the main disadvantages are:"
 msgstr "Alors que les principaux inconvénients sont :"
 
 msgid "Less performance than statically typed languages."
 msgstr "Moindre performance que les langages statiquement typés."
-
-#, fuzzy
-msgid "More difficult to refactor (symbols can't be traced)."
-msgstr ""
-"Plus difficile à refactoriser (les symboles ne peuvent pas être tracés)"
 
 msgid ""
 "Some errors that would typically be detected at compile time in statically "
@@ -103,25 +82,6 @@ msgid ""
 msgstr ""
 "Moins de flexibilité pour la complétion de code (certains types de variables "
 "ne sont connus qu'au moment de l'exécution)."
-
-#, fuzzy
-msgid ""
-"This, translated to reality, means that Godot used with GDScript is a "
-"combination designed to create games quickly and efficiently. For games that "
-"are very computationally intensive and can't benefit from the engine built-"
-"in tools (such as the Vector types, Physics Engine, Math library, etc), the "
-"possibility of using C++ is present too. This allows you to still create "
-"most of the game in GDScript and add small bits of C++ in the areas that "
-"need a performance boost."
-msgstr ""
-"Ceci, traduit dans la réalité, signifie que Godot+GDScript sont une "
-"combinaison conçue pour créer des jeux très rapidement et efficacement. Pour "
-"les jeux qui sont très intensifs en calcul et qui ne peuvent pas bénéficier "
-"des outils intégrés au moteur (tels que les types vectoriels, le moteur "
-"physique, la librairie mathématique, etc), la possibilité d'utiliser C++ est "
-"également présente. Cela permet de créer le jeu entier en GDScript et "
-"d'ajouter des petits morceaux de C++ dans les zones qui ont besoin d'un gain "
-"de performance."
 
 msgid "Variables & assignment"
 msgstr "Variables et affectation"
@@ -186,23 +146,6 @@ msgstr "Java :"
 
 msgid "GDScript:"
 msgstr "GDScript :"
-
-#, fuzzy
-msgid ""
-"In GDScript, only base types (int, float, string and the vector types) are "
-"passed by value to functions (value is copied). Everything else (instances, "
-"arrays, dictionaries, etc) is passed as reference. Classes that inherit :ref:"
-"`class_RefCounted` (the default if nothing is specified) will be freed when "
-"not used, but manual memory management is allowed too if inheriting manually "
-"from :ref:`class_Object`."
-msgstr ""
-"Dans GDScript, seuls les types de base (int, float, string et les types "
-"vectoriels) sont transmis par valeur aux fonctions (la valeur est copiée). "
-"Tout le reste (instances, tableaux, dictionnaires, etc.) est passé par "
-"référence. Les classes qui héritent de :ref:`class_Reference` (par défaut si "
-"rien n'est spécifié) seront libérées lorsqu'elles ne sont pas utilisées, "
-"mais la gestion manuelle de la mémoire est également autorisée si elles "
-"héritent manuellement de :ref:`class_Object`."
 
 msgid "Arrays"
 msgstr "Les tableaux"
@@ -270,15 +213,6 @@ msgstr ""
 "Les dictionnaires sont également dynamiques, les clés peuvent être ajoutées "
 "ou supprimées à tout moment et à faible coût :"
 
-#, fuzzy
-msgid ""
-"In most cases, two-dimensional arrays can often be implemented more easily "
-"with dictionaries. Here's a battleship game example:"
-msgstr ""
-"Dans la plupart des cas, les tableaux bidimensionnels peuvent souvent être "
-"implémentés plus facilement avec des dictionnaires. Voici un exemple de jeu "
-"de bataille navale simple :"
-
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "
 "GDScript's dictionaries resemble python dictionaries, it also supports Lua "
@@ -294,19 +228,6 @@ msgstr ""
 msgid "For & while"
 msgstr "Boucles for et while"
 
-#, fuzzy
-msgid ""
-"Iterating using the C-style for loop in C-derived languages can be quite "
-"complex:"
-msgstr ""
-"L'itération dans certains langages typées statiquement peut être assez "
-"complexe :"
-
-msgid ""
-"Because of this, GDScript makes the opinionated decision to have a for-in "
-"loop over iterables instead:"
-msgstr ""
-
 msgid ""
 "Container datatypes (arrays and dictionaries) are iterable. Dictionaries "
 "allow iterating the keys:"
@@ -320,15 +241,8 @@ msgstr "L'itération avec les indices est également possible :"
 msgid "The range() function can take 3 arguments:"
 msgstr "La fonction range() peut prendre 3 arguments :"
 
-msgid "Some examples involving C-style for loops:"
-msgstr ""
-
 msgid "Translate to:"
 msgstr "Se traduit en :"
-
-#, fuzzy
-msgid "And backwards looping done through a negative counter:"
-msgstr "Et l'itération à rebours se fait à l'aide d'un compteur négatif :"
 
 msgid "Becomes:"
 msgstr "Devient :"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,18 +100,6 @@ msgstr ""
 
 msgid "Enabling a plugin"
 msgstr "启用插件"
-
-#, fuzzy
-msgid ""
-"To enable the freshly installed plugin, open **Project > Project Settings** "
-"at the top of the editor then go the **Plugins** tab. If the plugin was "
-"packaged correctly, you should see it in the list of plugins. Click on the "
-"**Enable** checkbox to enable the plugin."
-msgstr ""
-"要启用新安装的插件，请打开编辑器顶部的\\ **项目 > 项目设置**\\ ，然后进入\\ "
-"**插件**\\ 标签。如果插件被正确安装，你应该在插件列表中看到它。点击灰色的\\ "
-"**未启用**\\ 文字，选择\\ **启用**\\ 来启用该插件。\\ **启用**\\ 字样将显示为"
-"绿色，以确认该插件已启用。"
 
 msgid ""
 "You can use the plugin immediately after enabling it; there's no need to "

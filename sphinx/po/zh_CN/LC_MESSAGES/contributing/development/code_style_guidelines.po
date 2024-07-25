@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,17 +29,6 @@ msgstr ""
 msgid "C++ and Objective-C"
 msgstr "C++ 和 Objective-C"
 
-#, fuzzy
-msgid ""
-"There are no written guidelines, but the code style agreed upon by the "
-"developers is enforced via the `clang-format <https://clang.llvm.org/docs/"
-"ClangFormat.html>`__ code beautifier, which takes care for you of all our "
-"conventions. To name a few:"
-msgstr ""
-"没有书面的规范，但是开发人员默认的代码风格是通过 `clang-format <http://clang."
-"llvm.org/docs/ClangFormat.html>`__ 代码美化器强制执行的，它可以满足我们所有的"
-"约定。举几个例子："
-
 msgid ""
 "Indentation and alignment are both tab based (respectively one and two tabs)"
 msgstr "缩进和对齐都是基于制表符的（分别是一个和两个制表符）"
@@ -67,30 +51,6 @@ msgid ""
 msgstr ""
 "Clang 格式使用的规则在 Godot 仓库的 `.clang-format <https://github.com/"
 "godotengine/godot/blob/master/.clang-format>`__ 文件中进行了概述。"
-
-#, fuzzy
-msgid ""
-"As long as you ensure that your style matches the surrounding code and that "
-"you're not introducing trailing whitespace or space-based indentation, you "
-"should be fine. If you plan to contribute regularly, however, we strongly "
-"advise that you set up clang-format locally to check and automatically fix "
-"all your commits."
-msgstr ""
-"只要你确保你的样式与周围的代码匹配, 并且你没有引入尾随空格或基于空格的缩进, "
-"就应该没问题. 但如果你计划定期贡献, 我们强烈建议你在本地设置clang-format以检"
-"查并自动修复所有提交."
-
-#, fuzzy
-msgid ""
-"Godot's code style should *not* be applied to third-party code, i.e. that is "
-"included in Godot's source tree but was not written specifically for our "
-"project. Such code usually comes from different upstream projects with their "
-"own style guides (or lack thereof), and don't want to introduce differences "
-"that would make syncing with upstream repositories harder."
-msgstr ""
-"Godot的代码风格 *不应该* 适用于第三方代码, 即包含在Godot的源代码树中, 但不是"
-"专门为我们的项目编写的. 这样的代码通常来自不同的上游项目, 有他们自己的风格指"
-"南(或缺乏风格规则), 我们不想引入差异, 使其与上游仓库的同步更加困难."
 
 msgid ""
 "Third-party code is usually included in the ``thirdparty/`` folder and can "
@@ -115,38 +75,20 @@ msgstr ""
 msgid "Using clang-format locally"
 msgstr "在本地使用 clang-format"
 
-#, fuzzy
-msgid ""
-"You need to use **clang-format 17** to be compatible with Godot's format. "
-"Later versions might be suitable, but previous versions may not support all "
-"used options, or format some things differently, leading to style issues in "
-"pull requests."
-msgstr ""
-"首先，你需要安装 clang-format。截至目前，你需要使用 **clang-format 13** 才能"
-"与 Godot 的格式兼容。后续版本可能也能用，但更早的版本就可能无法支持所有用到的"
-"选项，或者使用不同的格式，导致拉取请求存在样式问题。"
-
 msgid "Pre-commit hook"
 msgstr "预提交钩子"
 
-#, fuzzy
 msgid ""
 "For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
 "commit.com/>`__ Python framework that will run clang-format automatically on "
 "all your commits with the correct version of clang-format. To set up:"
 msgstr ""
-"为了易于使用, 我们为Git提供了一个预提交钩子, 它将在你的所有提交上自动运行"
-"clang-format来检查它们, 并允许你在最终提交中应用其更改."
+"为了便于使用，我们提供了基于 `pre-commit <https://pre-commit.com/>`__ Python "
+"框架的 Git 钩子，可以对你的所有提交自动运行 clang-format，同时确保使用的是正"
+"确版本的 clang-format。设置方法是这样的："
 
 msgid "You can also run the hook manually with ``pre-commit run``."
-msgstr ""
-
-msgid ""
-"Previously, we supplied a hook in the folder ``misc/hooks``. If you copied "
-"the script manually, these hooks should still work, but symlinks will be "
-"broken. If you are using the new system, run ``rm .git/hooks/*`` to remove "
-"the old hooks that are no longer needed."
-msgstr ""
+msgstr "你还可以使用 ``pre-commit run`` 手动运行这个钩子。"
 
 msgid "Installation"
 msgstr "安装"
@@ -154,42 +96,12 @@ msgstr "安装"
 msgid "Here's how to install clang-format:"
 msgstr "以下是如何安装 clang-format："
 
-#, fuzzy
-msgid ""
-"Linux: It will usually be available out-of-the-box with the clang toolchain "
-"packaged by your distribution. If your distro version is not the required "
-"one, you can download a pre-compiled version from the `LLVM website <https://"
-"releases.llvm.org/download.html>`__, or if you are on a Debian derivative, "
-"use the `upstream repos <https://apt.llvm.org/>`__."
-msgstr ""
-"Linux: 通常会随您的发行版打包的clang工具链一起提供. 如果您的分发版本不是必需"
-"的版本, 您可以从 `LLVM 网站 <http://releases.llvm.org/download.html>`__ 下载"
-"预编译的版本, 或者, 如果您使用的是Debian衍生版本, 请使用 `上游仓库 <http://"
-"apt.llvm.org/>`__."
-
-#, fuzzy
-msgid ""
-"macOS and Windows: You can download precompiled binaries from the `LLVM "
-"website <https://releases.llvm.org/download.html>`__. You may need to add "
-"the path to the binary's folder to your system's ``PATH`` environment "
-"variable to be able to call clang-format out of the box."
-msgstr ""
-"macOS和Windows: 您可以从 `LLVM 网站 <http://releases.llvm.org/download."
-"html>`__ 下载预编译的二进制文件. 您可能需要将二进制文件的文件夹的路径添加到系"
-"统的 ``PATH`` 环境变量中, 以便能够直接调用 ``clang-format``."
-
 msgid ""
 "You then have different possibilities to apply clang-format to your changes:"
 msgstr "然后, 你就有不同的可能性将clang-format应用于你的更改:"
 
 msgid "Manual usage"
 msgstr "手动使用"
-
-#, fuzzy
-msgid ""
-"You can apply clang-format manually for one or more files with the following "
-"command:"
-msgstr "你可以使用以下命令手动将 clang-format 应用于一个或多个文件："
 
 msgid ""
 "``-i`` means that the changes should be written directly to the file (by "
@@ -211,24 +123,8 @@ msgstr ""
 msgid "IDE plugin"
 msgstr "IDE插件"
 
-#, fuzzy
-msgid ""
-"Most IDEs or code editors have beautifier plugins that can be configured to "
-"run clang-format automatically, for example, each time you save a file."
-msgstr ""
-"大多数IDE或代码编辑器都有美化插件, 可以配置为自动运行clang-format, 例如每次保"
-"存文件时."
-
 msgid "Here is a non-exhaustive list of beautifier plugins for some IDEs:"
 msgstr "以下是一些IDE的美化插件的非详尽列表:"
-
-#, fuzzy
-msgid ""
-"Qt Creator: `Beautifier plugin <https://doc.qt.io/qtcreator/creator-"
-"beautifier.html>`__"
-msgstr ""
-"Qt Creator：\\ `美化插件 <http://doc.qt.io/qtcreator/creator-beautifier."
-"html>`__"
 
 msgid ""
 "Visual Studio Code: `Clang-Format <https://marketplace.visualstudio.com/"
@@ -236,14 +132,6 @@ msgid ""
 msgstr ""
 "Visual Studio Code：\\ `Clang-Format <https://marketplace.visualstudio.com/"
 "items?itemName=xaver.clang-format>`__"
-
-#, fuzzy
-msgid ""
-"Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/"
-"items?itemName=caphyon.ClangPowerTools2022>`__"
-msgstr ""
-"Visual Studio：\\ `ClangFormat <https://marketplace.visualstudio.com/items?"
-"itemName=LLVMExtensions.ClangFormat>`__"
 
 msgid "vim: `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__"
 msgstr ""
@@ -257,10 +145,6 @@ msgstr ""
 "CLion：从 ``2019.1`` 版本起不再需要插件。启用 `ClangFormat <https://www."
 "jetbrains.com/help/clion/clangformat-as-alternative-formatter.html#clion-"
 "support>`__ 即可"
-
-#, fuzzy
-msgid "(Pull requests are welcome to extend this list with tested plugins.)"
-msgstr "(欢迎拉取请求以使用测试过的插件来扩展此列表.)"
 
 msgid "Header includes"
 msgstr "头文件的引入"
@@ -345,34 +229,24 @@ msgid ""
 msgstr ""
 "Godot的SCons构建系统是用Python编写的, 源代码树中包含的各种脚本也使用Python."
 
-msgid ""
-"For those, we use the `Ruff linter and code formatter <https://docs.astral."
-"sh/ruff/>`__."
-msgstr ""
-
-#, fuzzy
 msgid "Using ruff locally"
-msgstr "本地使用 black"
+msgstr "本地使用 ruff"
 
-#, fuzzy
 msgid ""
 "First of all, you will need to install Ruff. Ruff requires Python 3.7+ to "
 "run."
-msgstr "首先你需要安装 Black。Black 需要 Python 3.7+ 才能运行。"
+msgstr "首先你需要安装 Ruff。Ruff 需要 Python 3.7+ 才能运行。"
 
-#, fuzzy
 msgid "Here's how to install ruff:"
-msgstr "下面介绍如何安装black:"
+msgstr "下面介绍如何安装 ruff："
 
-#, fuzzy
 msgid "You then have different possibilities to apply ruff to your changes:"
-msgstr "然后, 你有不同的可能性将黑色应用于你的更改:"
+msgstr "这样就可以将 ruff 应用到你的修改了："
 
-#, fuzzy
 msgid ""
 "You can apply ``ruff`` manually to one or more files with the following "
 "command:"
-msgstr "你可以使用以下命令将 ``black`` 手动应用于一个或多个文件:"
+msgstr "你可以使用以下命令将 ``ruff`` 手动应用于一个或多个文件："
 
 msgid ""
 "``-l 120`` means that the allowed number of characters per line is 120. This "
@@ -386,28 +260,17 @@ msgstr ""
 "该路径可以指向多个文件, 可以一个接一个, 也可以像典型的unixshell一样使用通配"
 "符."
 
-#, fuzzy
 msgid ""
 "For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
 "commit.com/>`__ Python framework that will run ``ruff`` automatically on all "
 "your commits with the correct version of ``ruff``. To set up:"
 msgstr ""
-"为了便于使用, 我们为Git提供了一个预提交钩子, 它将在你的所有提交上自动运行以检"
-"查你的提交, 并让你在最终提交中应用其更改."
+"为了便于使用，我们提供了基于 `pre-commit <https://pre-commit.com/>`__ Python "
+"框架的 Git 钩子，可以对你的所有提交自动运行 ``ruff``\\ ，同时确保使用的是正确"
+"版本的 ``ruff``\\ 。设置方法是这样的："
 
 msgid "Editor integration"
 msgstr "编辑器集成"
-
-#, fuzzy
-msgid ""
-"Many IDEs or code editors have beautifier plugins that can be configured to "
-"run ruff automatically, for example, each time you save a file. For details, "
-"you can check `Ruff Integrations <https://docs.astral.sh/ruff/integrations/"
-">`__."
-msgstr ""
-"许多集成开发环境或代码编辑器都有美化插件, 可以配置为自动运行black, 例如每次保"
-"存文件时. 有关详细信息, 可以查看 `black 编辑器集成 <https://github.com/psf/"
-"black#editor-integration>`__ ."
 
 msgid "Comment style guide"
 msgstr "注释风格指南"
@@ -431,14 +294,6 @@ msgstr "使用反引号引用变量和函数名和值."
 
 msgid "Wrap comments to ~100 characters."
 msgstr "将注释控制在~100个字符。"
-
-#, fuzzy
-msgid ""
-"You can use ``TODO:``, ``FIXME:``, ``NOTE:``, or ``HACK:`` as admonitions "
-"when needed."
-msgstr ""
-"你可以在需要的时候使用 ``TODO:`` , ``FIXME:`` , ``NOTE:`` , ``HACK:`` 作为强"
-"调."
 
 msgid "**Example:**"
 msgstr "**示例:**"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Using NavigationRegions"
-msgstr "使用导航区块（NavigationRegion）"
+msgstr "使用导航区块"
 
 msgid ""
 "NavigationRegions are the visual Node representation of a **region** of the "
@@ -101,13 +96,10 @@ msgid ""
 "navigation map for their 2D/3D dimension."
 msgstr "新的导航区块节点会在2D/3D 尺寸的默认世界导航地图上自动注册。"
 
-#, fuzzy
 msgid ""
 "The region RID can then be obtained from NavigationRegion Nodes with "
 "``get_rid()``."
-msgstr ""
-"然后就可以通过获取区块RID功能 ``get_region_rid()`` 从导航区块节点获取区域 "
-"RID。"
+msgstr "然后就可以通过 NavigationRegion 节点的 ``get_rid()`` 获取区块 RID。"
 
 msgid ""
 "New regions can also be created with the NavigationServer API and added to "
@@ -119,14 +111,13 @@ msgid ""
 "be assigned a navigation map manually."
 msgstr "如果直接使用导航服务器接口创建区块，则需要手动为其分配导航地图。"
 
-#, fuzzy
 msgid ""
 "Navigation regions can only be assigned to a single navigation map. If an "
 "existing region is assigned to a new navigation map it will leave the old "
 "map."
 msgstr ""
-"导航区块只能分配给一个导航地图。如果将现有区块分配到新地图，它就不属于旧地图"
-"了。"
+"导航区块只能分配给一个导航地图。如果将现有区块分配到新的导航地图，它就不属于"
+"旧地图了。"
 
 msgid "Translation status"
 msgstr "翻译状态"

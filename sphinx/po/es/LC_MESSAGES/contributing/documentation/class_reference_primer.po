@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,87 +179,17 @@ msgstr ""
 "las etiquetas disponibles, ejemplos de uso y los resultados después de la "
 "conversión a reStructuredText."
 
-#, fuzzy
-msgid "Linking"
-msgstr "Bakeo de iluminación"
-
-msgid ""
-"Whenever you link to a member of another class, you need to specify the "
-"class name. For links to the same class, the class name is optional and can "
-"be omitted."
-msgstr ""
-
-#, fuzzy
-msgid "Tag and Description"
-msgstr "Descripción"
-
 msgid "Example"
 msgstr "Ejemplo"
 
 msgid "Result"
 msgstr "Resultado"
 
-#, fuzzy
-msgid "``[Class]``"
-msgstr "[Class]"
-
-#, fuzzy
-msgid "Link to class"
-msgstr "Enlazar a una clase"
-
 msgid "``Move the [Sprite2D].``"
 msgstr "``Mueve el [Sprite2D].``"
 
-#, fuzzy
-msgid "Move the :ref:`class_Sprite2D`."
-msgstr "Mover el :ref:`class_Sprite`."
-
-msgid "``[annotation Class.name]``"
-msgstr ""
-
-#, fuzzy
-msgid "Link to annotation"
-msgstr "Reproducir la animación"
-
-msgid "``See [annotation @GDScript.@rpc].``"
-msgstr ""
-
-#, fuzzy
-msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr ":ref:`Sprite <class_Sprite>`"
-
-#, fuzzy
-msgid "``[constant Class.name]``"
-msgstr "[señal Clase.nombreseñal]"
-
 msgid "Link to constant"
 msgstr "Vínculo a constante"
-
-#, fuzzy
-msgid "``See [constant Color.RED].``"
-msgstr "[señal Clase.nombreseñal]"
-
-#, fuzzy
-msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr ":ref:`Color <class_Color>`"
-
-#, fuzzy
-msgid "``[enum Class.name]``"
-msgstr "[miembro Clase.nombremiembro]"
-
-#, fuzzy
-msgid "Link to enum"
-msgstr "Vincular la(s) licencia(s)"
-
-msgid "``See [enum Mesh.ArrayType].``"
-msgstr ""
-
-msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
-msgstr ""
-
-#, fuzzy
-msgid "``[member Class.name]``"
-msgstr "``[member Class.name]``"
 
 msgid "Link to member"
 msgstr "Vínculo a miembro"
@@ -272,218 +197,20 @@ msgstr "Vínculo a miembro"
 msgid "``Get [member Node2D.scale].``"
 msgstr "``Obtén [member Node2D.scale].``"
 
-#, fuzzy
-msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr "Obtén :ref:`scale <class_Node2D_property_scale>`."
-
-#, fuzzy
-msgid "``[method Class.name]``"
-msgstr "[método Clase.nombremetodo]"
-
-#, fuzzy
-msgid "Link to method"
-msgstr "Métodos de vinculación"
-
 msgid "``Call [method Node3D.hide].``"
 msgstr "``Llama a [method Node3D.hide].``"
-
-#, fuzzy
-msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
-msgstr "Llama a :ref:`hide <class_Spatial_method_hide>`."
-
-#, fuzzy
-msgid "``[constructor Class.name]``"
-msgstr "[señal Clase.nombreseñal]"
-
-#, fuzzy
-msgid "Link to built-in constructor"
-msgstr "Constructor de clase"
-
-msgid "``Use [constructor Color.Color].``"
-msgstr ""
-
-#, fuzzy
-msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr ":ref:`Color <class_Color>`"
-
-#, fuzzy
-msgid "``[operator Class.name]``"
-msgstr "[método Clase.nombremetodo]"
-
-#, fuzzy
-msgid "Link to built-in operator"
-msgstr "Tipos de Vectores internos"
-
-msgid "``Use [operator Color.operator *].``"
-msgstr ""
-
-#, fuzzy
-msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr ":ref:`Color <class_Color>`"
-
-#, fuzzy
-msgid "``[signal Class.name]``"
-msgstr "``[signal Class.name]``"
-
-#, fuzzy
-msgid "Link to signal"
-msgstr "Usando Señales"
 
 msgid "``Emit [signal Node.renamed].``"
 msgstr "``Emite [signal Node.renamed].``"
 
-#, fuzzy
-msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
-msgstr "Emita un :ref:`renamed <class_node_signal_renamed>`."
-
-#, fuzzy
-msgid "``[theme_item Class.name]``"
-msgstr "[método Clase.nombremetodo]"
-
-#, fuzzy
-msgid "Link to theme item"
-msgstr "Vincular la(s) licencia(s)"
-
-msgid "``See [theme_item Label.font].``"
-msgstr ""
-
-msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
-msgstr ""
-
-#, fuzzy
-msgid "``[param name]``"
-msgstr "nombre"
-
-msgid "Parameter name (as code)"
-msgstr ""
-
-msgid "``Takes [param size] for the size.``"
-msgstr ""
-
-msgid "Takes ``size`` for the size."
-msgstr ""
-
-msgid "Currently only :ref:`class_@GDScript` has annotations."
-msgstr ""
-
 msgid "Formatting text"
 msgstr "Formateando texto"
-
-msgid "``[br]``"
-msgstr ""
-
-#, fuzzy
-msgid "Line break"
-msgstr "break"
-
-msgid "``Line 1.[br]``"
-msgstr ""
-
-msgid "``Line 2.``"
-msgstr ""
-
-msgid "Line 1."
-msgstr ""
-
-msgid "Line 2."
-msgstr ""
-
-#, fuzzy
-msgid "``[lb]`` ``[rb]``"
-msgstr "``[b]{text}[/b]``"
-
-msgid "``[`` and ``]`` respectively"
-msgstr ""
-
-#, fuzzy
-msgid "``[lb]b[rb]text[lb]/b[rb]``"
-msgstr "``[b]{text}[/b]``"
-
-#, fuzzy
-msgid "[b]text[/b]"
-msgstr "``[b]{text}[/b]``"
-
-#, fuzzy
-msgid "``[b]`` ``[/b]``"
-msgstr "``[b]{text}[/b]``"
 
 msgid "Bold"
 msgstr "Negrita"
 
-#, fuzzy
-msgid "``Do [b]not[/b] call this method.``"
-msgstr "``Un texto en [b]negrita[/b].``"
-
-msgid "Do **not** call this method."
-msgstr ""
-
-#, fuzzy
-msgid "``[i]`` ``[/i]``"
-msgstr "``[i]{text}[/i]``"
-
 msgid "Italic"
 msgstr "Cursiva"
-
-msgid "``Returns the [i]global[/i] position.``"
-msgstr ""
-
-#, fuzzy
-msgid "Returns the *global* position."
-msgstr "Obten la posición del jugador."
-
-#, fuzzy
-msgid "``[u]`` ``[/u]``"
-msgstr "``[b]{text}[/b]``"
-
-#, fuzzy
-msgid "Underline"
-msgstr "Interlingua (Francia)"
-
-msgid "``[u]Always[/u] use this method.``"
-msgstr ""
-
-#, fuzzy
-msgid "``[s]`` ``[/s]``"
-msgstr "``[b]{text}[/b]``"
-
-msgid "Strikethrough"
-msgstr ""
-
-msgid "``[s]Outdated information.[/s]``"
-msgstr ""
-
-#, fuzzy
-msgid "``[url]`` ``[/url]``"
-msgstr "``[b]{text}[/b]``"
-
-#, fuzzy
-msgid "Hyperlink"
-msgstr "Seno hiperbólico."
-
-msgid "``[url]https://example.com[/url]``"
-msgstr ""
-
-msgid "``[url=https://example.com]Website[/url]``"
-msgstr ""
-
-msgid "https://example.com"
-msgstr ""
-
-#, fuzzy
-msgid "`Website <https://example.com>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-#, fuzzy
-msgid "``[center]`` ``[/center]``"
-msgstr "``[center]{text}[/center]``"
-
-#, fuzzy
-msgid "Horizontal centering"
-msgstr "Carácter de tabulador horizontal"
-
-#, fuzzy
-msgid "``[center]2 + 2 = 4[/center]``"
-msgstr "``[center]{text}[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -491,74 +218,8 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Atajo del teclado/ratón"
 
-#, fuzzy
-msgid "``Press [kbd]Ctrl + C[/kbd].``"
-msgstr "``Una tecla [kbd]Ctrl + C[/kbd].``"
-
-#, fuzzy
-msgid "Press :kbd:`Ctrl + C`."
-msgstr ":kbd:`Ctrl + C`"
-
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
-
-msgid "Inline code fragment"
-msgstr ""
-
-#, fuzzy
-msgid "``Returns [code]true[/code].``"
-msgstr "``[code]{text}[/code]``"
-
-#, fuzzy
-msgid "Returns ``true``."
-msgstr "Tipo de retorno"
-
-msgid ""
-"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
-"because they are not recommended in the engine documentation."
-msgstr ""
-
-msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
-msgstr ""
-
-msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
-msgstr ""
-
-#, fuzzy
-msgid "Formatting code blocks"
-msgstr "Formateando código"
-
-#, fuzzy
-msgid "There are two options for formatting code blocks:"
-msgstr "Existen dos sistemas para registrar tipos:"
-
-msgid ""
-"Use ``[codeblock]`` if you want to add an example for a specific language."
-msgstr ""
-
-msgid ""
-"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
-"the same example for both languages, GDScript and C#."
-msgstr ""
-
-msgid ""
-"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
-"using the ``lang`` attribute. Currently supported options are:"
-msgstr ""
-
-msgid "``[codeblock lang=text]`` disables syntax highlighting;"
-msgstr ""
-
-msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr ""
-
-msgid ""
-"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
-msgstr ""
-
-msgid ""
-"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
-msgstr ""
 
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
@@ -596,10 +257,6 @@ msgstr ""
 msgid "The above will display as:"
 msgstr "Lo anterior se mostrará como:"
 
-#, fuzzy
-msgid "Formatting notes and warnings"
-msgstr "Configuración del Motor"
-
 msgid ""
 "To denote important information, add a paragraph starting with \"[b]Note:[/"
 "b]\" at the end of the description:"
@@ -622,18 +279,6 @@ msgid ""
 msgstr ""
 "Claro, en todos los párrafos descritos anteriormente, asegúrate de que la "
 "puntuación forme parte de las etiquetas BBCode para mantener la consistencia."
-
-msgid "Marking API as deprecated/experimental"
-msgstr ""
-
-msgid ""
-"To mark an API as deprecated or experimental, you need to add the "
-"corresponding XML attribute. The attribute value must be a message "
-"explaining why the API is not recommended (BBCode markup is supported) or an "
-"empty string (the default message will be used). If an API element is marked "
-"as deprecated/experimental, then it is considered documented even if the "
-"description is empty."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

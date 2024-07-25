@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,13 +34,6 @@ msgstr ""
 "`class_GPUParticlesCollisionSDF3D` 和 :ref:"
 "`class_GPUParticlesCollisionHeightField3D`。"
 
-msgid "GPU Particle collision is not yet implemented for 2D particle systems."
-msgstr "GPU 粒子碰撞还没有在 2D 粒子系统中实现。"
-
-#, fuzzy
-msgid "Common properties"
-msgstr "常用灯光属性"
-
 msgid "Common particle collision properties"
 msgstr "常用粒子碰撞属性"
 
@@ -69,17 +57,6 @@ msgstr ""
 "``Cull Mask`` 属性决定哪个粒子系统被基于每个 系统的 :ref:`visibility layers "
 "<class_VisualInstance3D>`的碰撞节点影响。当且仅当至少一个 系统的 visibility "
 "layers 在碰撞者的 cull mask 中启用时，粒子系统与碰撞节点碰撞。"
-
-#, fuzzy
-msgid ""
-"There is a `known issue <https://github.com/godotengine/godot/"
-"issues/61014>`_ with GPU particle collision that prevent the cull mask from "
-"working properly in Godot 4.0. We will update the documentation as soon as "
-"it is fixed."
-msgstr ""
-"Godot 4.0 中有一个与 GPU 粒子碰撞有关的`已知问题<https://github.com/"
-"godotengine/godot/issues/61014>`_ that 阻止 the cull mask 正常工作。我们将在"
-"该问题被修复时更新文档。"
 
 msgid "Box collision"
 msgstr "盒型碰撞"
@@ -344,6 +321,9 @@ msgid ""
 msgstr ""
 "烘焙遮罩``Bake Mask``属性控制烘焙带符号距离场时将考虑哪些网格。只有在烘焙遮罩"
 "的活动图层上渲染的网格才会参与粒子碰撞。"
+
+msgid "Troubleshooting"
+msgstr "故障排除"
 
 msgid "Translation status"
 msgstr "翻译状态"

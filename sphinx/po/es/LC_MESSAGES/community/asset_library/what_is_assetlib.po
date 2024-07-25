@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,19 +44,6 @@ msgstr ""
 "assets se distribuyen bajo licencias privativas, lo que limita lo que se "
 "puede hacer con ellos."
 
-#, fuzzy
-msgid ""
-"The Asset Library is different - all assets are distributed free of charge, "
-"and under a host of open source licenses (such as the MIT license, the GPL, "
-"and the Boost Software License). This makes the AssetLib more similar to the "
-"software repositories of a Linux distribution."
-msgstr ""
-"La Biblioteca de Assets es diferente: todos los assets se distribuyen "
-"gratuitamente y bajo una gran cantidad de licencias de código abierto (como "
-"la licencia MIT, la GPL y la Licencia de Software Boost). Esto hace que "
-"AssetLib sea más similar a los repositorios de software de una distribución "
-"Linux."
-
 msgid ""
 "This set of pages will cover how to use the AssetLib (both from inside "
 "Godot, and on the website), how you can submit your own assets, and what the "
@@ -93,17 +75,6 @@ msgid ""
 msgstr ""
 "Tenga en cuenta que hay, a grandes rasgos, dos tipos diferentes de activos "
 "que puedes publicar."
-
-#, fuzzy
-msgid ""
-"Assets labeled as \"Templates\", \"Projects\", or \"Demos\" appear under the "
-"\"Asset Library Projects\" tab in the Godot Project Manager. These assets "
-"are standalone Godot projects that can run by themselves."
-msgstr ""
-"Los activos etiquetados como \"Plantillas\", \"Proyectos\" o "
-"\"Demostraciones\" aparecen bajo la pestaña \"Plantillas\" en el gestor de "
-"proyectos de Godot. Estos activos son proyectos Godot independientes que "
-"pueden funcionar por sí mismos."
 
 msgid ""
 "Other assets show up inside of the Godot editor under the \"AssetLib\" main "

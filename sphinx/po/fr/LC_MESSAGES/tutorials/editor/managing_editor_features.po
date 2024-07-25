@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,23 +29,6 @@ msgstr ""
 "équipe n'utilisant pas les fonctionnalités 3D, ou un enseignant présentant "
 "les fonctionnalités à ses élèves. Pour celà, Godot a un système interne de "
 "\"profils de fonctionnalités\"."
-
-#, fuzzy
-msgid ""
-"With feature profiles, major features and nodes can be hidden from the "
-"editor. This only hides parts of the interface and does not actually remove "
-"support for these features, so scenes and scripts relying on those features "
-"will still work fine. This also means feature profiles are not an "
-"optimization technique. For information on how to optimize Godot see :ref:"
-"`doc_performance`."
-msgstr ""
-"Avec les profils de fonctionnalités, des fonctionnalités et noeuds majeurs "
-"peuvent être cachés dans l'éditeur. Celà ne cache que la partie interface et "
-"ne retire pas le support de ces fonctionnalités. Les scènes et scripts basés "
-"sur ces fonctionnalités fonctionnerons comme avant. Celà veut aussi dire que "
-"les profils de fonctionnalités ne sont pas une technique d'optimisation. "
-"Pour en savoir plus sur l'optimisation dans Godot, voir :ref:"
-"`doc_optimization`."
 
 msgid "Creating a profile"
 msgstr "Créer un profil"

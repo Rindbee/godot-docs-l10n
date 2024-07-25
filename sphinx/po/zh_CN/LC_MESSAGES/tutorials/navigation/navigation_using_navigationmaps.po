@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Using NavigationMaps"
-msgstr "使用 NavigationMap"
+msgstr "使用导航地图"
 
 msgid ""
 "A NavigationMap is an abstract navigation world on the NavigationServer "
@@ -108,15 +103,14 @@ msgstr ""
 msgid ""
 "A navigation map switch will take effect only after the next "
 "NavigationServer synchronization."
-msgstr ""
-"导航地图切换只有在下一次同步导航服务器``NavigationServer`` 后才会生效。"
+msgstr "导航地图切换只有在下一次同步导航服务器后才会生效。"
 
 msgid ""
 "There is no difference between navigation maps created with the "
 "NavigationServer2D API or the NavigationServer3D API."
 msgstr ""
-"使用导航服务器2D``NavigationServer2D``API或导航服务器"
-"3D``NavigationServer3D``API创建的导航地图没有任何区别。"
+"使用 NavigationServer2D API 和 NavigationServer3D API 创建的导航地图没有任何"
+"区别。"
 
 msgid "Translation status"
 msgstr "翻译状态"

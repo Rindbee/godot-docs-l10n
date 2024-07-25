@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -334,29 +329,6 @@ msgstr "**movie**"
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker mode <doc_creating_movies>` ist aktiv"
-
-msgid ""
-"With the exception of texture compression and ``movie`` feature tags, "
-"default feature tags are **immutable**. This means that they will *not* "
-"change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to HTML5 on a mobile device."
-msgstr ""
-"Mit Ausnahme von Texturkompression und ``movie``-Featuretags sind die "
-"Default-Featuretags **unveränderlich**. Das bedeutet, dass sie sich *nicht* "
-"abhängig von den Laufzeitbedingungen ändern können. Zum Beispiel wird ``OS."
-"has_feature(\"mobile\")`` den Wert ``false`` zurückgeben, wenn ein nach "
-"HTML5 exportiertes Projekt auf einem mobilen Gerät läuft."
-
-#, fuzzy
-msgid ""
-"To check whether a project exported to HTML5 is running on a mobile device, :"
-"ref:`call JavaScript code <doc_web_javascript_bridge>` that reads the "
-"browser's user agent."
-msgstr ""
-"Um zu prüfen, ob ein nach HTML5 exportiertes Projekt auf einem mobilen Gerät "
-"läuft, :ref:`rufen Sie den JavaScript-Code <doc_javascript_eval>` auf, der "
-"den User-Agenten des Browsers ausliest."
 
 msgid "Custom features"
 msgstr "Benutzerdefinierte Features"

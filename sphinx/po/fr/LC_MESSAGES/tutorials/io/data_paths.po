@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,24 +29,6 @@ msgstr ""
 msgid "Path separators"
 msgstr "Séparateurs de chemin"
 
-#, fuzzy
-msgid ""
-"To make supporting multiple platforms easier, Godot uses **UNIX-style path "
-"separators** (forward slash ``/``). These work on all platforms, **including "
-"Windows**."
-msgstr ""
-"Afin de supporter le plus grand nombre de plateformes possible, Godot "
-"n'accepte que les séparateurs de chemin de style UNIX (``/``). Ceux-ci "
-"fonctionnent sur toutes les plateformes, **y compris sous Windows**."
-
-#, fuzzy
-msgid ""
-"Instead of writing paths like ``C:\\Projects\\Game``, in Godot, you should "
-"write ``C:/Projects/Game``."
-msgstr ""
-"Au lieu d'écrire des chemins comme ``C:\\Projects``, dans Godot, vous "
-"devriez écrire ``C:/Projects``."
-
 msgid ""
 "Windows-style path separators (backward slash ``\\``) are also supported in "
 "some path-related methods, but they need to be doubled (``\\\\``), as ``\\`` "
@@ -72,10 +49,6 @@ msgstr ""
 "d'autres applications Windows. Nous vous recommandons toujours d'utiliser "
 "uniquement des barres obliques dans votre propre code afin de garantir que "
 "tout fonctionnera comme prévu."
-
-#, fuzzy
-msgid "Accessing files in the project folder (``res://``)"
-msgstr "Accéder aux fichiers dans le dossier du projet"
 
 msgid ""
 "Godot considers that a project exists in any folder that contains a "
@@ -98,10 +71,6 @@ msgstr ""
 "``character.png`` situé dans le dossier racine du projet dans le code avec "
 "le chemin suivant : ``res://some_texture.png``."
 
-#, fuzzy
-msgid "Accessing persistent user data (``user://``)"
-msgstr "Accès aux données persistantes des utilisateurs"
-
 msgid ""
 "To store persistent data files, like the player's save or settings, you want "
 "to use ``user://`` instead of ``res://`` as your path's prefix. This is "
@@ -113,18 +82,6 @@ msgstr ""
 "comme préfixe de votre chemin. En effet, lorsque le jeu est en cours "
 "d'exécution, le système de fichiers du projet sera probablement en lecture "
 "seule."
-
-#, fuzzy
-msgid ""
-"The ``user://`` prefix points to a different directory on the user's device. "
-"Unlike ``res://``, the directory pointed at by ``user://`` is created "
-"automatically and *guaranteed* to be writable to, even in an exported "
-"project."
-msgstr ""
-"Le préfixe ``user://`` pointe vers un autre dossier sur l'appareil de "
-"l'utilisateur. Contrairement au préfixe ``res://``, le répertoire pointé "
-"part ``user://`` est *garanti* d'être accessible en écriture, même dans un "
-"projet exporté."
 
 msgid ""
 "The location of the ``user://`` folder depends on what is configured in the "
@@ -197,10 +154,6 @@ msgstr ""
 msgid "Linux: ``~/.local/share/godot/app_userdata/[project_name]``"
 msgstr "Linux : ``~/.local/share/godot/app_userdata/[nom_du_projet]``"
 
-#, fuzzy
-msgid "Custom dir"
-msgstr "Shaders personnalisés"
-
 msgid "Windows: ``%APPDATA%\\[project_name]``"
 msgstr "Windows : ``%APPDATA%\\[project_name]``"
 
@@ -208,22 +161,6 @@ msgid "macOS: ``~/Library/Application Support/[project_name]``"
 msgstr "macOS : ``~/Library/Application Support/[project_name]``"
 
 msgid "Linux: ``~/.local/share/[project_name]``"
-msgstr "Linux : ``~/.local/share/[project_name]``"
-
-#, fuzzy
-msgid "Custom dir and name"
-msgstr "Dessin personnalisé en 2D"
-
-#, fuzzy
-msgid "Windows: ``%APPDATA%\\[custom_user_dir_name]``"
-msgstr "Windows : ``%APPDATA%\\[project_name]``"
-
-#, fuzzy
-msgid "macOS: ``~/Library/Application Support/[custom_user_dir_name]``"
-msgstr "macOS : ``~/Library/Application Support/[project_name]``"
-
-#, fuzzy
-msgid "Linux: ``~/.local/share/[custom_user_dir_name]``"
 msgstr "Linux : ``~/.local/share/[project_name]``"
 
 msgid ""
@@ -241,18 +178,6 @@ msgid ""
 msgstr ""
 "Sur plateformes mobiles, ce chemin est unique au projet et n'est pas "
 "accessible aux autres applications pour des raisons de sécurité."
-
-#, fuzzy
-msgid ""
-"On HTML5 exports, ``user://`` will refer to a virtual filesystem stored on "
-"the device via IndexedDB. (Interaction with the main filesystem can still be "
-"performed through the :ref:`JavaScriptBridge <class_JavaScriptBridge>` "
-"singleton.)"
-msgstr ""
-"Sur les exportations HTML5, ``user://`` fera référence à un système de "
-"fichiers virtuel stocké sur le périphérique via IndexedDB. (L'interaction "
-"avec le système de fichiers principal peut toujours être effectuée par le "
-"singleton :ref:`JavaScript <class_JavaScript>`.)"
 
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "Conversion des chemins en chemins absolus ou en chemins \"locaux\""
@@ -292,19 +217,6 @@ msgstr ""
 msgid "Editor data paths"
 msgstr "Chemins de données de l'éditeur"
 
-#, fuzzy
-msgid ""
-"The editor uses different paths for editor data, editor settings, and cache, "
-"depending on the platform. By default, these paths are:"
-msgstr ""
-"L'éditeur utilise différents chemins pour les données utilisateur, les "
-"paramètres utilisateur et le cache en fonction de la plate-forme. Par "
-"défaut, ces chemins sont :"
-
-#, fuzzy
-msgid "Editor data"
-msgstr "Chemins de données de l'éditeur"
-
 msgid "Windows: ``%APPDATA%\\Godot\\``"
 msgstr ""
 "Windows : ``C:"
@@ -312,14 +224,6 @@ msgstr ""
 
 msgid "macOS: ``~/Library/Application Support/Godot/``"
 msgstr "macOS : ``~/Library/Application Support/Godot/``"
-
-#, fuzzy
-msgid "Linux: ``~/.local/share/godot/``"
-msgstr "Linux : ``~/.cache/godot/``"
-
-#, fuzzy
-msgid "Editor settings"
-msgstr "Paramètres de l'éditeur"
 
 msgid "Linux: ``~/.config/godot/``"
 msgstr "Linux : ``~/.config/godot/``"
@@ -336,12 +240,6 @@ msgstr "macOS : ``~/Library/Caches/Godot/``"
 msgid "Linux: ``~/.cache/godot/``"
 msgstr "Linux : ``~/.cache/godot/``"
 
-#, fuzzy
-msgid "**Editor data** contains export templates and project-specific data."
-msgstr ""
-"**Les données utilisateur** contiennent des modèles d'exportation et des "
-"données spécifiques au projet."
-
 msgid ""
 "**Editor settings** contains the main editor settings configuration file as "
 "well as various other user-specific customizations (editor layouts, feature "
@@ -351,14 +249,6 @@ msgstr ""
 "des paramètres de l'éditeur ainsi que diverses autres personnalisations "
 "propres à l'utilisateur (dispositions de l'éditeur, profils de "
 "fonctionnalités, modèles de script, etc.)."
-
-#, fuzzy
-msgid ""
-"**Cache** contains data generated by the editor, or stored temporarily. It "
-"can safely be removed when Godot is closed."
-msgstr ""
-"**Cache** contient des données temporaires. Il peut être supprimé en toute "
-"sécurité lorsque Godot est fermé."
 
 msgid ""
 "Godot complies with the `XDG Base Directory Specification <https://"
@@ -384,22 +274,6 @@ msgstr ""
 
 msgid "Self-contained mode"
 msgstr "Mode autonome"
-
-#, fuzzy
-msgid ""
-"If you create a file called ``._sc_`` or ``_sc_`` in the same directory as "
-"the editor binary (or in `MacOS/Contents/` for a macOS editor .app bundle), "
-"Godot will enable *self-contained mode*. This mode makes Godot write all "
-"editor data, settings, and cache to a directory named ``editor_data/`` in "
-"the same directory as the editor binary. You can use it to create a portable "
-"installation of the editor."
-msgstr ""
-"Si vous créez un fichier appelé ``._sc_`` ou ``_sc_`` dans le même "
-"répertoire que le binaire de l'éditeur, Godot activera le *mode self-"
-"contained*. Ceci fera que Godot écrira toutes les données utilisateur dans "
-"un répertoire nommé ``editor_data/`` dans le même répertoire que le binaire "
-"de l'éditeur. Vous pouvez l'utiliser pour créer une installation portable de "
-"l'éditeur."
 
 msgid ""
 "The `Steam release of Godot <https://store.steampowered.com/app/404790/>`__ "

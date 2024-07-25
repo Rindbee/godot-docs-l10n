@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,57 +47,6 @@ msgstr ""
 msgid "Setup"
 msgstr "场景布置"
 
-#, fuzzy
-msgid ""
-":ref:`CanvasItem shaders <doc_canvas_item_shader>` are used to draw all 2D "
-"objects in Godot, while :ref:`Spatial <doc_spatial_shader>` shaders are used "
-"to draw all 3D objects."
-msgstr ""
-"对象，而 :ref:`Spatial <doc_spatial_shader>` 着色器则用于绘制所有 3D 对象。"
-
-#, fuzzy
-msgid ""
-"In order to use a shader it must be attached inside a :ref:`Material "
-"<class_Material>` which must be attached to an object. Materials are a type "
-"of :ref:`Resource <doc_resources>`. To draw multiple objects with the same "
-"material, the material must be attached to each object."
-msgstr ""
-"要使用着色器，它必须要被附加到一个 :ref:`Material <class_material>`\\ （材"
-"质）上，而这个材质也必须附加在一个对象上。材质是一种 :ref:`Resource "
-"<doc_resources>`\\ 。若要使用同一材质绘制多个对象，该材质必须附加到每个对象"
-"上。"
-
-#, fuzzy
-msgid ""
-"All objects derived from a :ref:`CanvasItem <class_CanvasItem>` have a "
-"material property. This includes all :ref:`GUI elements <class_Control>`, :"
-"ref:`Sprite2Ds <class_Sprite2D>`, :ref:`TileMaps <class_Tilemap>`, :ref:"
-"`MeshInstance2Ds <class_MeshInstance2D>` etc. They also have an option to "
-"inherit their parent's material. This can be useful if you have a large "
-"number of nodes that you want to use the same material."
-msgstr ""
-"所有继承自 :ref:`CanvasItem <class_canvasitem>` 的对象都有一个材质属性, 这包"
-"含所有的 :ref:`GUI 元素 <class_Control>`, :ref:`精灵 <class_sprite>`, :ref:`"
-"方块地图 <class_tilemap>`, :ref:`2D 网格实例 <class_meshinstance2d>` 等等. 它"
-"们同时也可以选择性地继承其父类的材质. 如果你有要使用同一材质的很多节点, 这个"
-"特性就可以派上用场."
-
-msgid ""
-"To begin, create a Sprite2D node. :ref:`You can use any CanvasItem "
-"<doc_custom_drawing_in_2d>`, so long as it is drawing to the canvas, so for "
-"this tutorial we will use a Sprite2D, as it is the easiest CanvasItem to "
-"start drawing with."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In the Inspector, click beside \"Texture\" where it says \"[empty]\" and "
-"select \"Load\", then select \"icon.svg\". For new projects, this is the "
-"Godot icon. You should now see the icon in the viewport."
-msgstr ""
-"在“检查器”中，点击“Texture”旁边写着“[空]”的地方然后选择“加载”，再选择“Icon."
-"png”。对于新的项目，这个就是 Godot 的图标。你现在就会在视口中看到这个图标。"
-
 msgid ""
 "Next, look down in the Inspector, under the CanvasItem section, click beside "
 "\"Material\" and select \"New ShaderMaterial\". This creates a new Material "
@@ -115,15 +59,6 @@ msgstr ""
 "ShaderMaterial”。这会创建一个新的材质资源。然后点击新出现的球体。Godot 目前还"
 "不知道你是要写 CanvasItem 着色器还是 Spatial 着色器，它显示 Spatial 着色器的"
 "输出预览，所以你看到的是默认的 Spatial 着色器的输出。"
-
-#, fuzzy
-msgid ""
-"Click beside \"Shader\" and select \"New Shader\". Finally, click on the "
-"shader you just created and the shader editor will open. You are now ready "
-"to begin writing your first shader."
-msgstr ""
-"点击“Shader”旁边的位置并选择“新建 Shader”。最后，点击新创建的着色器资源，就会"
-"打开着色器编辑器。你现在就已经准备好开始写你的第一个着色器了。"
 
 msgid "Your first CanvasItem shader"
 msgstr "你的第一个 CanvasItem 着色器"
@@ -160,37 +95,10 @@ msgstr ""
 msgid "Your first fragment function"
 msgstr "你的第一个片段函数"
 
-#, fuzzy
-msgid ""
-"The fragment function runs for every pixel in a Sprite2D and determines what "
-"color that pixel should be."
-msgstr "片段函数对精灵中的每个像素进行操作, 并且决定这个像素应该是什么颜色的."
-
-#, fuzzy
-msgid ""
-"They are restricted to the pixels covered by the Sprite2D, that means you "
-"cannot use one to, for example, create an outline around a Sprite2D."
-msgstr ""
-"它们限制在精灵覆盖的那些像素中, 这也就意味着, 你无法用片段函数来实现例如在精"
-"灵周围加边框的事情."
-
 msgid ""
 "The most basic fragment function does nothing except assign a single color "
 "to every pixel."
 msgstr "最基础的片段函数仅仅给每个像素赋予一个颜色."
-
-#, fuzzy
-msgid ""
-"We do so by writing a ``vec4`` to the built-in variable ``COLOR``. ``vec4`` "
-"is shorthand for constructing a vector with 4 numbers. For more information "
-"about vectors see the :ref:`Vector math tutorial <doc_vector_math>`. "
-"``COLOR`` is both an input variable to the fragment function and the final "
-"output from it."
-msgstr ""
-"我们向内置变量 ``COLOR`` 中写入一个 ``vec4`` 来做到这点. ``vec4`` 是创建一个"
-"四维向量的简写形式. 若想进一步了解向量, 请参阅 :ref:`向量数学教程 "
-"<doc_vector_math>`. ``COLOR`` 变量既是片段函数的一个输入, 同时也是它的最终输"
-"出."
 
 msgid ""
 "Congratulations! You're done. You have successfully written your first "
@@ -199,17 +107,6 @@ msgstr "恭喜你！你成功在 Godot 中写出了你的第一个着色器。"
 
 msgid "Now let's make things more complex."
 msgstr "接着, 我们来讨论更复杂的事情."
-
-#, fuzzy
-msgid ""
-"There are many inputs to the fragment function that you can use for "
-"calculating ``COLOR``. ``UV`` is one of them. UV coordinates are specified "
-"in your Sprite2D (without you knowing it!) and they tell the shader where to "
-"read from textures for each part of the mesh."
-msgstr ""
-"你可以使用片段函数中的很多输入来计算 ``COLOR``, ``UV`` 就是其中的一个. 你的精"
-"灵指定了UV坐标(在你不知情的情况下！), 而它们告诉着色器, 对于网格的每个部分从"
-"纹理的何处读取信息."
 
 msgid ""
 "In the fragment function you can only read from ``UV``, but you can use it "
@@ -229,21 +126,6 @@ msgid ""
 "displays it."
 msgstr "默认的片段函数会读取 Sprite2D 设置的纹理并将其显示出来。"
 
-#, fuzzy
-msgid ""
-"When you want to adjust a color in a Sprite2D you can adjust the color from "
-"the texture manually like in the code below."
-msgstr ""
-"当你想调整 Sprite 中的颜色时，你不能像下面的代码那样手动修改纹理中的颜色。"
-
-msgid ""
-"Certain nodes, like Sprite2Ds, have a dedicated texture variable that can be "
-"accessed in the shader using ``TEXTURE``. If you want to use the Sprite2D "
-"texture to combine with other colors, you can use the ``UV`` with the "
-"``texture`` function to access this variable. Use them to redraw the "
-"Sprite2D with the texture."
-msgstr ""
-
 msgid "Uniform input"
 msgstr "Uniform 输入"
 
@@ -262,34 +144,8 @@ msgid ""
 "<doc_shading_language>`."
 msgstr "用法的更多详情请参见\\ :ref:`着色语言文档 <doc_shading_language>`\\ 。"
 
-#, fuzzy
-msgid "Add a uniform to change the amount of blue in our Sprite2D."
-msgstr "添加一个 Uniform 值来改变 Sprite 中蓝色量。"
-
-#, fuzzy
-msgid ""
-"Now you can change the amount of blue in the Sprite2D from the editor. Look "
-"back at the Inspector under where you created your shader. You should see a "
-"section called \"Shader Param\". Unfold that section and you will see the "
-"uniform you just declared. If you change the value in the editor, it will "
-"overwrite the default value you provided in the shader."
-msgstr ""
-"现在你可以在编辑器中改变Sprite的蓝色量. 回头看看你创建着色器的地方的属性面"
-"板. 你应该看到一个叫做 \"Shader Param\" 的部分. 展开这个部分, 你会看到你刚刚"
-"声明的Uniform. 如果你在编辑器中改变这个值, 它将覆盖你在着色器中提供的默认值."
-
 msgid "Interacting with shaders from code"
 msgstr "代码与着色器的交互"
-
-#, fuzzy
-msgid ""
-"You can change uniforms from code using the function "
-"``set_shader_parameter()`` which is called on the node's material resource. "
-"With a Sprite2D node, the following code can be used to set the ``blue`` "
-"uniform."
-msgstr ""
-"你可以使用在节点的材质资源上调用的函数 ``set_shader_param()`` , 从代码中改变"
-"Uniform. 对于一个Sprite节点, 可以使用下面的代码来设置 ``blue`` Uniform."
 
 msgid ""
 "Note that the name of the uniform is a string. The string must match exactly "
@@ -322,12 +178,6 @@ msgstr ""
 
 msgid "You can offset the vertices by directly adding to ``VERTEX``."
 msgstr "你可以通过直接调整 ``VERTEX`` 来偏移顶点。"
-
-#, fuzzy
-msgid ""
-"Combined with the ``TIME`` built-in variable, this can be used for basic "
-"animation."
-msgstr "与内置变量 ``TIME`` 相结合，可用于简单的动画。"
 
 msgid "Conclusion"
 msgstr "总结"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,30 +98,6 @@ msgstr ""
 "escenas se construye sobre ellas y las usa directamente. Los servidores más "
 "comunes son:"
 
-#, fuzzy
-msgid ""
-":ref:`RenderingServer <class_RenderingServer>`: handles everything related "
-"to graphics."
-msgstr ""
-":ref:`VisualServer <class_VisualServer>`: se encarga de todo lo relacionado "
-"con los gráficos."
-
-#, fuzzy
-msgid ""
-":ref:`PhysicsServer3D <class_PhysicsServer3D>`: handles everything related "
-"to 3D physics."
-msgstr ""
-":ref:`PhysicsServer <class_PhysicsServer>`: se encarga de todo lo "
-"relacionado con la física en 3D."
-
-#, fuzzy
-msgid ""
-":ref:`PhysicsServer2D <class_PhysicsServer2D>`: handles everything related "
-"to 2D physics."
-msgstr ""
-":ref:`PhysicsServer <class_PhysicsServer>`: se encarga de todo lo "
-"relacionado con la física en 3D."
-
 msgid ""
 ":ref:`AudioServer <class_AudioServer>`: handles everything related to audio."
 msgstr ""
@@ -170,19 +141,6 @@ msgstr ""
 "todos los recursos contienen un RID; en esos casos, el RID estará vacío. El "
 "recurso luego se puede pasar a las APIs de los servidores como un RID."
 
-#, fuzzy
-msgid ""
-"Resources are reference-counted (see :ref:`RefCounted <class_RefCounted>`), "
-"and references to a resource's RID are *not* counted when determining "
-"whether the resource is still in use. Make sure to keep a reference to the "
-"resource outside the server, or else both it and its RID will be erased."
-msgstr ""
-"Los recursos están contados por referencia (ver :ref:`Reference "
-"<class_Reference>`), y las referencias al RID de un recurso *no* se cuentan "
-"al determinar si el recurso aún está en uso. Asegúrate de mantener una "
-"referencia al recurso fuera del servidor, de lo contrario, tanto el recurso "
-"como su RID serán borrados."
-
 msgid "For nodes, there are many functions available:"
 msgstr "Para los nodos, hay muchas funciones disponibles:"
 
@@ -213,48 +171,6 @@ msgstr ""
 "<class_Viewport_method_get_viewport_rid>` devolverá el RID del viewport en "
 "el servidor."
 
-#, fuzzy
-msgid ""
-"For 3D, the :ref:`World3D <class_World3D>` resource (obtainable in the :ref:"
-"`Viewport <class_Viewport>` and :ref:`Node3D <class_Node3D>` nodes) contains "
-"functions to get the *RenderingServer Scenario*, and the *PhysicsServer "
-"Space*. This allows creating 3D objects directly with the server API and "
-"using them."
-msgstr ""
-"Para 3D, el recurso :ref:`World <class_World>` (obtenible en los nodos :ref:"
-"`Viewport <class_Viewport>` y :ref:`Spatial <class_Spatial>`) contiene "
-"funciones para obtener el *VisualServer Scenario* y el *PhysicsServer "
-"Space*. Esto permite crear objetos 3D directamente con la API del servidor y "
-"utilizarlos."
-
-#, fuzzy
-msgid ""
-"For 2D, the :ref:`World2D <class_World2D>` resource (obtainable in the :ref:"
-"`Viewport <class_Viewport>` and :ref:`CanvasItem <class_CanvasItem>` nodes) "
-"contains functions to get the *RenderingServer Canvas*, and the "
-"*Physics2DServer Space*. This allows creating 2D objects directly with the "
-"server API and using them."
-msgstr ""
-"Para 2D, el recurso :ref:`World2D <class_World2D>` (obtenible en los nodos :"
-"ref:`Viewport <class_Viewport>` y :ref:`CanvasItem <class_CanvasItem>`) "
-"contiene funciones para obtener el *VisualServer Canvas* y el "
-"*Physics2DServer Space*. Esto permite crear objetos 2D directamente con la "
-"API del servidor y utilizarlos."
-
-#, fuzzy
-msgid ""
-"The :ref:`VisualInstance3D<class_VisualInstance3D>` class, allows getting "
-"the scenario *instance* and *instance base* via the :ref:`VisualInstance3D."
-"get_instance() <class_VisualInstance3D_method_get_instance>` and :ref:"
-"`VisualInstance3D.get_base() <class_VisualInstance3D_method_get_base>` "
-"respectively."
-msgstr ""
-"La clase :ref:`VisualInstance<class_VisualInstance>` permite obtener la "
-"*instancia* y la *base de la instancia* del escenario mediante los métodos :"
-"ref:`VisualInstance.get_instance() "
-"<class_VisualInstance_method_get_instance>` y :ref:`VisualInstance."
-"get_base() <class_VisualInstance_method_get_base>`, respectivamente."
-
 msgid ""
 "Try exploring the nodes and resources you are familiar with and find the "
 "functions to obtain the server *RIDs*."
@@ -273,14 +189,6 @@ msgstr ""
 
 msgid "Creating a sprite"
 msgstr "Creando un sprite"
-
-#, fuzzy
-msgid ""
-"This is an example of how to create a sprite from code and move it using the "
-"low-level :ref:`CanvasItem <class_CanvasItem>` API."
-msgstr ""
-"Este es un ejemplo sencillo de cómo crear un sprite desde código y moverlo "
-"utilizando la API de bajo nivel :ref:`CanvasItem <class_CanvasItem>`."
 
 msgid ""
 "The Canvas Item API in the server allows you to add draw primitives to it. "
@@ -309,47 +217,8 @@ msgstr ""
 msgid "Creating a 2D RigidBody and moving a sprite with it"
 msgstr "Creando un RigidBody 2D y moviendo un sprite con este"
 
-#, fuzzy
-msgid ""
-"This creates a :ref:`RigidBody2D <class_RigidBody2D>` using the :ref:"
-"`PhysicsServer2D <class_PhysicsServer2D>` API, and moves a :ref:`CanvasItem "
-"<class_CanvasItem>` when the body moves."
-msgstr ""
-"Esto crea un :ref:`RigidBody2D <class_RigidBody2D>` usando el API de :ref:"
-"`Physics2DServer <class_Physics2DServer>`, y mueve un :ref:`CanvasItem "
-"<class_CanvasItem>` cuando se mueve el cuerpo."
-
-#, fuzzy
-msgid ""
-"The 3D version should be very similar, as 2D and 3D physics servers are "
-"identical (using :ref:`RigidBody3D <class_RigidBody3D>` and :ref:"
-"`PhysicsServer3D <class_PhysicsServer3D>` respectively)."
-msgstr ""
-"La versión en 3D debería ser muy similar, ya que los servidores de física en "
-"2D y 3D son idénticos (utilizando :ref:`RigidBody <class_RigidBody>` y :ref:"
-"`PhysicsServer <class_PhysicsServer>` respectivamente)."
-
 msgid "Getting data from the servers"
 msgstr "Obteniendo datos de servidores"
-
-#, fuzzy
-msgid ""
-"Try to **never** request any information from ``RenderingServer``, "
-"``PhysicsServer2D`` or ``PhysicsServer3D`` by calling functions unless you "
-"know what you are doing. These servers will often run asynchronously for "
-"performance and calling any function that returns a value will stall them "
-"and force them to process anything pending until the function is actually "
-"called. This will severely decrease performance if you call them every frame "
-"(and it won't be obvious why)."
-msgstr ""
-"Intenta **nunca** solicitar información de ``VisualServer``, "
-"``PhysicsServer`` o ``Physics2DServer`` llamando a funciones a menos que "
-"sepas lo que estás haciendo. Estos servidores suelen ejecutarse de forma "
-"asíncrona para mejorar el rendimiento, y llamar a cualquier función que "
-"devuelva un valor los detendrá y los obligará a procesar cualquier tarea "
-"pendiente hasta que la función sea llamada realmente. Esto disminuirá "
-"considerablemente el rendimiento si los llamas en cada fotograma (y no será "
-"obvio por qué)."
 
 msgid ""
 "Because of this, most APIs in such servers are designed so it's not even "

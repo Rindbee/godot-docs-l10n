@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,19 +189,6 @@ msgid ""
 msgstr ""
 "速度測量單位時間內位置的**變化**。新的位置是通過在前一個位置上增加速度來找到"
 "的。"
-
-#, fuzzy
-msgid ""
-"In a typical 2D game scenario, you would have a velocity in pixels per "
-"second, and multiply it by the ``delta`` parameter (time elapsed since the "
-"previous frame) from the :ref:`_process() "
-"<class_Node_private_method__process>` or :ref:`_physics_process() "
-"<class_Node_private_method__physics_process>` callbacks."
-msgstr ""
-"在典型的2D 遊戲場景中，您將獲得以每秒像素為單位的速度，並將其乘以:ref:"
-"`_process() <class_Node_method__process>` 中的``delta`` 參數（自上一影格以來"
-"經過的時間）或:ref:`_physical_process() "
-"<class_Node_method__physical_process>` 回呼。"
 
 msgid "Pointing toward a target"
 msgstr "指向目標"

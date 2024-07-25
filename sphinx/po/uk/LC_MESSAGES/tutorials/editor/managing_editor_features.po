@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,22 +28,6 @@ msgstr ""
 "використовувати в редакторі Godot. Наприклад, дизайнер інтерфейсу "
 "користувача для команди, якій не потрібно бачити 3D-функції. Godot має "
 "вбудовану систему під назвою \"профілі функцій\", щоб зробити це."
-
-#, fuzzy
-msgid ""
-"With feature profiles, major features and nodes can be hidden from the "
-"editor. This only hides parts of the interface and does not actually remove "
-"support for these features, so scenes and scripts relying on those features "
-"will still work fine. This also means feature profiles are not an "
-"optimization technique. For information on how to optimize Godot see :ref:"
-"`doc_performance`."
-msgstr ""
-"За допомогою профілів функцій основні функції та вузли можуть бути приховані "
-"в редакторі. Це лише приховує частини інтерфейсу і фактично не видаляє "
-"підтримку цих функцій, тому сцени та скрипти, які покладаються на ці "
-"функції, все одно будуть працювати нормально. Це також означає, що профілі "
-"функцій не є технікою оптимізації. Для отримання відомостей про те, як "
-"оптимізувати Godot дивіться :ref:`doc_optimization`."
 
 msgid "Creating a profile"
 msgstr "Створення профілю"

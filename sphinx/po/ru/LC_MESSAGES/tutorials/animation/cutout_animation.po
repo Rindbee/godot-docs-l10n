@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,22 +80,6 @@ msgstr ""
 "Текстуры, размеры спрайта, оси вращения, непрозрачность, цветовая модуляция "
 "и многое другое могут быть анимированы и смешаны."
 
-#, fuzzy
-msgid ""
-"**Combine animation styles**: AnimatedSprite2D allows traditional cel "
-"animation to be used alongside cutout animation. In cel animation different "
-"animation frames use entirely different drawings rather than the same pieces "
-"positioned differently. In an otherwise cutout-based animation, cel "
-"animation can be used selectively for complex parts such as hands, feet, "
-"changing facial expressions, etc."
-msgstr ""
-"**Объединение стилей анимации**: AnimableSprite позволяет использовать "
-"традиционную анимацию наряду с вырезной анимацией. В традиционной анимации "
-"различные кадры используют совершенно разные изображения, а не одни и те же "
-"части, расположенные по-разному. С другой стороны, в вырезной анимации "
-"традиционная анимация может использоваться выборочно для сложных частей, "
-"таких как руки, ноги, изменение мимики и т.д."
-
 msgid ""
 "**Custom Shaped Elements**: Custom shapes can be created with :ref:"
 "`Polygon2D <class_Polygon2D>` allowing UV animation, deformations, etc."
@@ -148,12 +127,6 @@ msgstr ""
 "com/watch?v=S13FrWuBMx4&list=UUckpus81gNin1aV8WSffRKw>`__ , созданные "
 "Андреасом Исау."
 
-msgid ""
-"Get your assets: `cutout_animation_assets.zip <https://github.com/"
-"godotengine/godot-docs-project-starters/releases/download/latest-4.x/"
-"cutout_animation_assets.zip>`_."
-msgstr ""
-
 msgid "Setting up the rig"
 msgstr "Настройка конструкции"
 
@@ -188,31 +161,8 @@ msgstr ""
 msgid "The rotation pivot is wrong and needs to be adjusted."
 msgstr "Точка вращения неверна и нуждается в настройке."
 
-#, fuzzy
-msgid ""
-"This small cross in the middle of the :ref:`Sprite2D <class_Sprite2D>` is "
-"the rotation pivot:"
-msgstr "Этот маленький крестик в середине спрайта является точкой вращения:"
-
 msgid "Adjusting the pivot"
 msgstr "Настройка точки вращения"
-
-#, fuzzy
-msgid ""
-"The pivot can be adjusted by changing the *offset* property in the Sprite2D:"
-msgstr ""
-"Точку вращения можно настроить путем изменения свойства *offset* в Sprite:"
-
-#, fuzzy
-msgid ""
-"The pivot can also be adjusted *visually*. While hovering over the desired "
-"pivot point,  press :kbd:`V` to move the pivot there for the selected "
-"Sprite2D. There is also a tool in the tool bar that has a similar function."
-msgstr ""
-"Точка вращения также может быть настроена *визуально*. Наведите курсор на "
-"нужную точку вращения и нажмите клавишу :kbd:`V`, чтобы переместить её для "
-"выбранного спрайта. На панели инструментов также имеется инструмент, "
-"выполняющий аналогичную функцию."
 
 msgid ""
 "Continue adding body pieces, starting with the right arm. Make sure to put "
@@ -362,17 +312,6 @@ msgstr ""
 "родителем, и в настоящее время у нас нет потомка узла руки. Теперь зная это, "
 "давайте попробуем еще раз."
 
-#, fuzzy
-msgid ""
-"The first step is creating an endpoint node. Any kind of node will do, but :"
-"ref:`Marker2D <class_Marker2D>` is preferred because it's visible in the "
-"editor. The endpoint node will ensure that the last bone has orientation."
-msgstr ""
-"Первый шаг — создание узла конечной точки. Будет работать любой узел, но :"
-"ref:`Position2D <class_Position2D>` является более предпочтительным, так как "
-"он виден в редакторе. Узел конечной точки обеспечит ориентацию последней "
-"кости."
-
 msgid ""
 "Now select the whole chain, from the endpoint to the arm and create bones:"
 msgstr ""
@@ -426,29 +365,6 @@ msgstr ""
 msgid "IK chains"
 msgstr "Цепочки ИК"
 
-#, fuzzy
-msgid ""
-"IK stands for inverse kinematics. It's a convenient technique for animating "
-"the position of hands, feet and other extremities of rigs like the one we've "
-"made. Imagine you want to pose a character's foot in a specific position on "
-"the ground. Without IK chains, each motion of the foot would require "
-"rotating and positioning several other bones (the shin and the thigh at "
-"least). This would be quite complex and lead to imprecise results. IK allows "
-"us to move the foot directly while the shin and thigh self-adjust."
-msgstr ""
-"ИК означает инверсную кинематику. Это удобная техника для анимации положения "
-"рук, ног и других конечностей каркасов, подобных тем, что мы сделали. "
-"Представьте, что вы хотите поставить ногу персонажа в определенное положение "
-"на земле. Без цепочек ИК каждое движение стопы потребует вращения и "
-"позиционирования некоторых других костей (голень и бедро, по крайней мере). "
-"Это будет довольно сложно и приведёт к неточным результатам."
-
-msgid ""
-"**IK chains in Godot currently work in the editor only**, not at runtime. "
-"They are intended to ease the process of setting keyframes, and are not "
-"currently useful for techniques like procedural animation."
-msgstr ""
-
 msgid ""
 "To create an IK chain, select a chain of bones from endpoint to the base for "
 "the chain. For example, to create an IK chain for the right leg, select the "
@@ -466,28 +382,8 @@ msgstr ""
 msgid "As a result, the base of the chain will turn *Yellow*."
 msgstr "В результате, основание цепи станет *жёлтым*."
 
-#, fuzzy
-msgid ""
-"Once the IK chain is set up, grab any child or grand-child of the base of "
-"the chain (e.g. a foot), and move it. You'll see the rest of the chain "
-"adjust as you adjust its position."
-msgstr ""
-"Когда настроите ИК цепочку, захватите любую дочернюю или внучатую часть "
-"основания цепочки (например, ступню) и переместите её. Вы увидите, как "
-"остальная часть цепочки корректируется, когда Вы изменяете её положение."
-
 msgid "Animation tips"
 msgstr "Советы по анимации"
-
-#, fuzzy
-msgid ""
-"The following section will be a collection of tips for creating animation "
-"for your cutout rigs. For more information on how the animation system in "
-"Godot works, see :ref:`doc_introduction_animation`."
-msgstr ""
-"Следующий раздел представляет собой набор советов по созданию анимации для "
-"ваших вырезок. Дополнительные сведения о работе системы анимации в Godot см. "
-"в разделе :ref:`doc_animations`."
 
 msgid "Setting keyframes and excluding properties"
 msgstr "Установка ключевых кадров и исключение свойств"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,18 +18,16 @@ msgstr "Beendigungsanfragen bearbeiten"
 msgid "Quitting"
 msgstr "Beenden"
 
-#, fuzzy
 msgid ""
 "Most platforms have the option to request the application to quit. On "
 "desktops, this is usually done with the \"x\" icon on the window title bar. "
 "On mobile devices, the app can quit at any time while it is suspended to the "
 "background."
 msgstr ""
-"Die meisten Plattformen haben die Möglichkeit, die Anwendung zum Beenden "
-"aufzufordern. Auf Desktops erfolgt dies normalerweise mit dem \"x\" Symbol "
-"in der Titelleiste des Fensters. Unter Android wird die Zurück-Taste zum "
-"Beenden verwendet, wenn man auf dem Hauptbildschirm ist (ansonsten geht man "
-"zurück)."
+"Die meisten Plattformen bieten die Möglichkeit, die Anwendung zum Beenden "
+"aufzufordern. Auf Desktops geschieht dies in der Regel über das \"x\"-Symbol "
+"in der Titelleiste des Fensters. Auf mobilen Geräten kann die Anwendung "
+"jederzeit beendet werden, während sie im Hintergrund läuft."
 
 msgid "Handling the notification"
 msgstr "Bearbeitung der Benachrichtigung"
@@ -61,7 +54,6 @@ msgstr ""
 "Beenden anfordert. Dies kann geändert werden, so dass der Benutzer den "
 "gesamten Beendigungsvorgang selbst durchführen kann:"
 
-#, fuzzy
 msgid "On mobile devices"
 msgstr "Auf mobilen Geräten"
 
@@ -74,18 +66,25 @@ msgid ""
 "this possibility is to utilize ``NOTIFICATION_APPLICATION_PAUSED`` in order "
 "to perform any needed actions as the app is being suspended."
 msgstr ""
+"Es gibt keine direkte Entsprechung zu ``NOTIFICATION_WM_CLOSE_REQUEST`` auf "
+"mobilen Plattformen. Aufgrund der Beschaffenheit mobiler Betriebssysteme ist "
+"der einzige Ort, an dem Sie Code vor dem Beenden ausführen können, wenn die "
+"App im Hintergrund angehalten wird. Sowohl unter Android als auch unter iOS "
+"kann die App jederzeit durch den Benutzer oder das Betriebssystem beendet "
+"werden. Eine Methode, diese Möglichkeit vorauszuplanen, ist die Verwendung "
+"von ``NOTIFICATION_APPLICATION_PAUSED``, um notwendige Aktionen "
+"durchzuführen, während die App angehalten wird."
 
-#, fuzzy
 msgid ""
 "On Android, pressing the Back button will exit the application if "
 "**Application > Config > Quit** On Go Back is checked in the Project "
 "Settings (which is the default). This will fire "
 "``NOTIFICATION_WM_GO_BACK_REQUEST``."
 msgstr ""
-"Unter Android wird stattdessen ``NOTIFICATION_WM_GO_BACK_REQUEST`` gesendet. "
-"Durch Drücken des \"Zurück\"-Buttons wird die Anwendung beendet, wenn "
-"**Anwendung > Konfiguration > Beenden bei Zurückgehen** in den "
-"Projekteinstellungen aktiviert ist (dies ist der Default)."
+"Unter Android wird die Anwendung durch Drücken des Zurück-Buttons beendet, "
+"wenn **Anwendung > Konfig > Beenden** Beim Zurückgehen in den "
+"Projekteinstellungen aktiviert ist (was der Default ist). Dadurch wird "
+"``NOTIFICATION_WM_GO_BACK_REQUEST`` ausgelöst."
 
 msgid "Sending your own quit notification"
 msgstr "Senden einer eigenen Beenden-Benachrichtigung"

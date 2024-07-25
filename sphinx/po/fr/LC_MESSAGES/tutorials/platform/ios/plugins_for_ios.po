@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,14 +240,6 @@ msgstr ""
 "Implémenté dans `le plugin Godot iOS GameCenter <https://github.com/"
 "godotengine/godot-ios-plugins/blob/master/plugins/gamecenter/game_center."
 "mm>`_."
-
-#, fuzzy
-msgid ""
-"The Game Center API is available through the ``GameCenter`` singleton. It "
-"has the following methods:"
-msgstr ""
-"L'API Game Center est disponible via le singleton ``GameCenter``. Il possède "
-"les méthodes suivantes :"
 
 msgid "and the pending events interface:"
 msgstr "et l'interface des événements en cours :"

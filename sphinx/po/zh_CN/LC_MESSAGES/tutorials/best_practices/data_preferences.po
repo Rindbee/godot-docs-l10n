@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -231,15 +226,6 @@ msgstr ""
 msgid "Maintaining an ever-growing size for the table."
 msgstr "保持不断增长的表规模."
 
-#, fuzzy
-msgid ""
-"HashMaps maintain gaps of unused memory interspersed in the table on purpose "
-"to reduce hash collisions and maintain the speed of accesses. This is why it "
-"constantly increases in size exponentially by powers of 2."
-msgstr ""
-"HashMaps为了减少哈希冲突, 并保持访问速度, 在表中保留了未使用的内存的间隙. 这"
-"也是为什么它的大小不断地以2的幂次增加的原因."
-
 msgid ""
 "As one might be able to tell, Dictionaries specialize in tasks that Arrays "
 "do not. An overview of their operational details is as follows:"
@@ -422,16 +408,6 @@ msgstr ""
 
 msgid "Enumerations: int vs. string"
 msgstr "枚举：整数 VS 字符串"
-
-msgid ""
-"Most languages offer an enumeration type option. GDScript is no different, "
-"but unlike most other languages, it allows one to use either integers or "
-"strings for the enum values (the latter only when using the ``export`` "
-"keyword in GDScript). The question then arises, \"which should one use?\""
-msgstr ""
-"大多数语言都提供了一个枚举类型选项，GDScript也不例外。但与其他大多数语言不同"
-"的是，GDScript的枚举允许开发者使用整数或字符串作为枚举值（只有在GDScript中使"
-"用 ``@export`` 注解时才可使用后者）。 那么问题来了：“该用哪一种枚举？”"
 
 msgid ""
 "The short answer is, \"whichever you are more comfortable with.\" This is a "

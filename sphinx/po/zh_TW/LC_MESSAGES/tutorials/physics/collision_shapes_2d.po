@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,15 +83,6 @@ msgstr ""
 "您可以使用一個或多個原始形狀來表示大多數較小物體的碰撞. 然而, 對於更複雜的物"
 "體, 如大型船舶或整個水平面, 你可能需要凸形或凹形來代替. 下面會有更多的介紹."
 
-#, fuzzy
-msgid ""
-"We recommend favoring primitive shapes for dynamic objects such as "
-"RigidBodies and CharacterBodies as their behavior is the most reliable. They "
-"often provide better performance as well."
-msgstr ""
-"建議動態物件使用原始形狀, 如 RigidBodies 和 KinematicBodies, 因為它們的行為是"
-"可靠的, 通常也能提供更好的性能."
-
 msgid "Convex collision shapes"
 msgstr "碰撞形體"
 
@@ -134,19 +120,6 @@ msgstr ""
 
 msgid "Concave or trimesh collision shapes"
 msgstr "碰撞形體"
-
-#, fuzzy
-msgid ""
-":ref:`Concave collision shapes <class_ConcavePolygonShape2D>`, also called "
-"trimesh collision shapes, can take any form, from a few triangles to "
-"thousands of triangles. Concave shapes are the slowest option but are also "
-"the most accurate in Godot. **You can only use concave shapes within "
-"StaticBodies.** They will not work with CharacterBodies or RigidBodies "
-"unless the RigidBody's mode is Static."
-msgstr ""
-":ref:`凹形碰撞形狀 <class_ConcavePolygonShape>`, 也稱為三角碰撞形狀, 可以採取"
-"任何形式, 從幾個到數千個三角形, 凹形是最慢的選擇, 但也是Godot中最精確的.**除"
-"非剛體的模式是靜態的, 否則它不能用於KinematicBodies動態體或RigidBodies剛體."
 
 msgid ""
 "Even though concave shapes offer the most accurate *collision*, contact "
@@ -216,19 +189,6 @@ msgstr ""
 
 msgid "Performance caveats"
 msgstr "效能"
-
-#, fuzzy
-msgid ""
-"You aren't limited to a single collision shape per PhysicsBody. Still, we "
-"recommend keeping the number of shapes as low as possible to improve "
-"performance, especially for dynamic objects like RigidBodies and "
-"CharacterBodies. On top of that, avoid translating, rotating, or scaling "
-"CollisionShapes to benefit from the physics engine's internal optimizations."
-msgstr ""
-"每個PhysicsBody(物理體)不限於一個碰撞形狀. 儘管如此, 我們還是建議儘量減少碰撞"
-"形狀的數量以提高性能, 特別是對於像RigidBodies (剛體)和KinematicBodies(運動體)"
-"這樣的動態物件. 除此之外, 避免translating(平移), rotating(旋轉)或scaling(縮"
-"放)碰撞形狀, 可以提高物理引擎運作效率."
 
 msgid ""
 "When using a single non-transformed collision shape in a StaticBody, the "

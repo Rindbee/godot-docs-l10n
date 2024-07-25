@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,12 +184,6 @@ msgid ""
 msgstr ""
 "Звукові шини можуть містити всілякі ефекти. Ці ефекти так чи інакше змінюють "
 "звук і застосовуються по порядку."
-
-#, fuzzy
-msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
-msgstr ""
-"Для отримання додаткової інформації про потоки див. :ref:"
-"`doc_using_multiple_threads`."
 
 msgid "Automatic bus disabling"
 msgstr "Автоматичне відключення шини"

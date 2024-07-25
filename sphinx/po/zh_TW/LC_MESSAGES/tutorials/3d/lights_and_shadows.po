@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -290,10 +285,6 @@ msgstr ""
 "說，這也顯得在時間上更穩定。增加陰影模糊的缺點是，它會使用於篩選的顆粒圖案更"
 "加明顯。另請參閱:ref:`doc_lights_and_shadows_shadow_filter_mode`。"
 
-#, fuzzy
-msgid "Tweaking shadow bias"
-msgstr "設定 SCons"
-
 msgid ""
 "Below is an image of what tweaking bias looks like. Default values work for "
 "most cases, but in general, it depends on the size and complexity of "
@@ -344,17 +335,6 @@ msgstr ""
 "調整陰影貼圖設定是一門藝術 - 不存在「一刀切」的設定。為了獲得最佳視覺效果，您"
 "可能需要針對每個光源使用不同的陰影偏差值。"
 
-msgid ""
-"**Note on Appearance Changes**: When enabling shadows on a light, be aware "
-"that the light's appearance might change compared to when it's rendered "
-"without shadows in the compatibility renderer. Due to limitations with older "
-"mobile devices, shadows are implemented using a multi-pass rendering "
-"approach so lights with shadows are rendered in sRGB space instead of linear "
-"space. This change in rendering space can sometimes drastically alter the "
-"light's appearance. To achieve a similar appearance to an unshadowed light, "
-"you may need to adjust the light's energy setting."
-msgstr ""
-
 msgid "Directional light"
 msgstr "平行光"
 
@@ -375,15 +355,6 @@ msgid ""
 msgstr ""
 "平行光模擬覆蓋整個場景的無限數量的平行光線。平行光節點由指示光線方向的大箭頭"
 "表示。但是，節點的位置根本不會影響照明，它可以在任何地方。"
-
-#, fuzzy
-msgid ""
-"Every face whose front-side is hit by the light rays is lit, while the "
-"others stay dark. Unlike most other light types, directional lights don't "
-"have specific parameters."
-msgstr ""
-"每個表面的正面被光線照射，而其他部分則保持黑暗。大多數燈光型別都有特定的參"
-"數，但平行光本質上非常簡單，所以它們沒有。"
 
 msgid ""
 "The directional light also offers a **Angular Distance** property, which "
@@ -417,20 +388,6 @@ msgid ""
 msgstr ""
 "為了計算陰影貼圖, 會從正交視圖(僅深度)算繪整個場景(或直到最大距離). 但是, 這"
 "種方法存在問題, 因為靠近相機的物體會得到塊狀陰影."
-
-msgid ""
-"To fix this, a technique named *Parallel Split Shadow Maps* (PSSM) is used. "
-"This splits the view frustum in 2 or 4 areas. Each area gets its own shadow "
-"map. This allows small areas close to the viewer to have the same shadow "
-"resolution as a huge, far-away area. When shadows are enabled for "
-"DirectionalLight3D, the default shadow mode is PSSM with 4 splits. In "
-"scenarios where an object is large enough to appear in all four splits, it "
-"results in increased draw calls. Specifically, such an object will be "
-"rendered five times in total: once for each of the four shadow splits and "
-"once for the final scene rendering. This can impact performance, "
-"understanding this behavior is important for optimizing your scene and "
-"managing performance expectations."
-msgstr ""
 
 msgid "With this, shadows become more detailed:"
 msgstr "有了它, 陰影變得更加詳細:"
@@ -833,18 +790,6 @@ msgstr ""
 "可以在此處選擇多個陰影貼圖品質設定。對於具有詳細紋理的場景，預設的 **Soft "
 "Low** 可以在效能和品質之間取得良好的平衡，因為紋理細節將有助於使抖動圖案不那"
 "麼明顯。"
-
-#, fuzzy
-msgid ""
-"However, in projects with less detailed textures, the shadow dithering "
-"pattern may be more visible. To hide this pattern, you can either enable :"
-"ref:`doc_3d_antialiasing_taa`, :ref:`doc_3d_antialiasing_fsr2`, :ref:"
-"`doc_3d_antialiasing_fxaa`, or increase the shadow filter quality to **Soft "
-"Medium** or higher."
-msgstr ""
-"然而，在紋理不太詳細的專案中，陰影抖動圖案可能更明顯。若要隱藏此模式，您可以"
-"啟用 doc_3d_antialiasing_taa、doc_3d_antialiasing_fxaa，或將陰影濾鏡品質提高"
-"到 **Soft Medium** 或更高。"
 
 msgid ""
 "The **Soft Very Low** setting will automatically decrease shadow blur to "

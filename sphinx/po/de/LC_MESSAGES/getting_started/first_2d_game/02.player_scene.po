@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +66,6 @@ msgstr ""
 "können wir weitere Nodes hinzufügen, um ihm damit mehr Funktionalität zu "
 "geben."
 
-#, fuzzy
 msgid ""
 "Before we add any children to the ``Player`` node, we want to make sure we "
 "don't accidentally move or resize them by clicking on them. Select the node "
@@ -82,8 +76,10 @@ msgstr ""
 "Bevor wir dem ``Player``-Node untergeordnete Nodes hinzufügen, wollen wir "
 "sicherstellen, dass wir sie nicht versehentlich verschieben oder in der "
 "Größe verändern, indem wir auf sie klicken. Wählen Sie den Node aus und "
-"klicken Sie auf das Icon rechts neben dem Schloss. Sein Tooltip sagt \"Child-"
-"Elemente des ausgewählten Nodes unauswählbar machen\"."
+"klicken Sie auf das Icon rechts neben dem Schloss. Im Tooltip steht: "
+"\"Gruppiert den ausgewählten Node mit seinen Child-Nodes. Dies bewirkt, dass "
+"der Parent-Node ausgewählt wird, wenn ein Child-Node in der 2D- und 3D-"
+"Ansicht angeklickt wird.\""
 
 msgid ""
 "Save the scene. Click Scene -> Save, or press :kbd:`Ctrl + S` on Windows/"
@@ -116,7 +112,6 @@ msgstr ""
 msgid "Sprite animation"
 msgstr "Sprite-Animation"
 
-#, fuzzy
 msgid ""
 "Click on the ``Player`` node and add (:kbd:`Ctrl + A` on Windows/Linux or :"
 "kbd:`Cmd + A` on macOS) a child node :ref:`AnimatedSprite2D "
@@ -138,8 +133,9 @@ msgstr ""
 "Ressource, die eine Liste der Animationen repräsentiert, die es anzeigen "
 "kann. Um eine solche Ressource zu erstellen, suchen Sie die Eigenschaft "
 "``Sprite-Frames`` unter dem ``Animation`` Tab im Inspektor und klicken Sie "
-"auf \"[leer]\" -> \"Neue SpriteFrames\". Klicken Sie erneut, um das "
-"\"SpriteFrames\"-Panel zu öffnen:"
+"auf \"[leer]\" -> \"Neue SpriteFrames\". Klicken Sie auf die "
+"``SpriteFrames``, die Sie gerade erstellt haben, um das \"SpriteFrames\"-"
+"Panel zu öffnen:"
 
 msgid ""
 "On the left is a list of animations. Click the \"default\" one and rename it "

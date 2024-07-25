@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,20 +61,6 @@ msgstr ""
 "继承节点检索，也可以使用 ``get_world_3d().get_navigation_map()`` 从任意Node3D"
 "继承节点检索。第二和第三参数是起始位置和目标位置，作为2D的Vector2或3D的"
 "Vector3。"
-
-#, fuzzy
-msgid ""
-"If the ``optimized`` parameter is ``true``, path positions will be shortened "
-"along polygon corners with an additional funnel algorithm pass. This works "
-"well for free movement on navigation meshes with unequally sized polygons as "
-"the path will hug around corners along the polygon corridor found by the A* "
-"algorithm. With small cells the A* algorithm creates a very narrow funnel "
-"corridor that can create ugly corner paths when used with grids."
-msgstr ""
-"如果 ``optimized`` 参数为 ``true`` ，则通过额外的传递算法，路径位置将沿着多边"
-"形角缩短。这对于在具有不等大小多边形的导航网格上自由移动非常有效，因为路径将"
-"围绕A*算法找到的多边形走廊的角。对于小单元，A*算法创建了一个非常狭窄的漏斗走"
-"廊，当与网格一起使用时，可能会创建难看的拐角路径。"
 
 msgid ""
 "If the ``optimized`` parameter is ``false``, path positions will be placed "

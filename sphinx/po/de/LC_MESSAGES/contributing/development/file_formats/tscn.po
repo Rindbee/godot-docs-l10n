@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -135,7 +130,6 @@ msgstr ""
 "wird sich auf die Ladebalken und jedes andere Stück Code auswirken, das auf "
 "diesen Wert angewiesen ist."
 
-#, fuzzy
 msgid ""
 "``uid`` is a unique string-based identifier representing the scene. This is "
 "used by the engine to track files that are moved around, even while the "
@@ -180,8 +174,8 @@ msgstr ""
 "Eine TSCN-Datei kann einzeilige Kommentare enthalten, die mit einem "
 "Semikolon (``;``) beginnen. Kommentare werden jedoch beim Speichern der "
 "Datei mit dem Godot-Editor verworfen. Leerzeichen innerhalb einer TSCN-Datei "
-"sind nicht von Bedeutung (außer innerhalb von Zeichenketten), aber "
-"überflüssige Leerzeichen werden beim Speichern der Datei verworfen."
+"sind nicht von Bedeutung (außer innerhalb von Strings), aber überflüssige "
+"Leerzeichen werden beim Speichern der Datei verworfen."
 
 msgid "Entries inside the file"
 msgstr "Einträge innerhalb der Datei"
@@ -267,7 +261,6 @@ msgstr ""
 "sollte der Pfad ``\".\"`` sein. Hier ist ein Beispiel für einen Szenenbaum "
 "(allerdings ohne jeglichen Node-Inhalt):"
 
-#, fuzzy
 msgid ""
 "To make the file structure easier to grasp, you can save a file with any "
 "given node or resource and then inspect it yourself in an external editor. "
@@ -448,10 +441,10 @@ msgid ""
 "resource's heading. This is different from the ``uid`` property, which each "
 "external resource also has (but subresources don't)."
 msgstr ""
-"Verweise auf die Ressourcen werden durch eindeutige, auf Zeichenketten "
-"basierende IDs in der Überschrift der Ressource behandelt. Dies "
-"unterscheidet sich von der Property ``uid``, die jede externe Ressource "
-"ebenfalls hat (Unterressourcen jedoch nicht)."
+"Verweise auf die Ressourcen werden durch eindeutige, auf Strings basierende "
+"IDs in der Überschrift der Ressource behandelt. Dies unterscheidet sich von "
+"der Property ``uid``, die jede externe Ressource ebenfalls hat "
+"(Unterressourcen jedoch nicht)."
 
 msgid ""
 "External resources and internal resources are referred to with "
@@ -474,7 +467,6 @@ msgstr ""
 "uid=\"uid://c4cp0al3ljsjv\" path=\"res://material.tres\" id=\"1_7bt6s\"]`` "
 "zu verweisen, würden Sie ``ExtResource(\"1_7bt6s\")`` verwenden."
 
-#, fuzzy
 msgid ""
 "External resources are links to resources not contained within the TSCN file "
 "itself. An external resource consists of a path, a type, a UID (used to map "
@@ -510,7 +502,7 @@ msgstr ""
 "die mit einem Semikolon (``;``) beginnen. Beim Speichern der Ressource mit "
 "dem Godot-Editor werden die Kommentare jedoch verworfen. Whitespace "
 "innerhalb einer TRES-Datei ist nicht von Bedeutung (außer innerhalb von "
-"Zeichenketten), aber überflüssiger Whitespace wird beim Speichern der Datei "
+"Strings), aber überflüssiger Whitespace wird beim Speichern der Datei "
 "verworfen."
 
 msgid ""
@@ -550,11 +542,9 @@ msgstr ""
 "enthalten sind (beachten Sie den Unterstrich am Anfang). Die Daten jeder "
 "Oberfläche werden in einem Dictionary mit den folgenden Keys gespeichert:"
 
-#, fuzzy
 msgid "``aabb``: The computed axis-aligned bounding box for visibility."
 msgstr ""
-"``bone_aabbs``: Die an den Achsen ausgerichtete Bounding Box jedes Bones für "
-"die Sichtbarkeit."
+"``aabb``: Die berechnete achsparallele Bounding Box für die Sichtbarkeit."
 
 msgid ""
 "``attribute_data``: Vertex attribute data, such as normals, tangents, vertex "
@@ -566,8 +556,8 @@ msgstr ""
 msgid ""
 "``bone_aabbs``: The axis-aligned bounding box of each bone for visibility."
 msgstr ""
-"``bone_aabbs``: Die an den Achsen ausgerichtete Bounding Box jedes Bones für "
-"die Sichtbarkeit."
+"``bone_aabbs``: Die an den Achsen ausgerichtete Bounding Box jedes Knochen "
+"für die Sichtbarkeit."
 
 msgid "``format``: The surface's buffer format."
 msgstr "``format``: Das Bufferformat der Oberfläche."
@@ -609,15 +599,14 @@ msgstr ""
 "``name``: Der Name der Oberfläche. Dieser kann in Skripten verwendet werden "
 "und wird von 3D DCCs importiert."
 
-#, fuzzy
 msgid ""
 "``primitive``: The surface's primitive type, matching the ``Mesh."
 "PrimitiveType`` Godot enum. ``0`` = points, ``1`` = lines, ``2`` = line "
 "strip, ``3`` = triangles (most common), ``4`` = triangle strip."
 msgstr ""
-"``aabb``: Die berechnete an den Achsen ausgerichtete Bounding Box für die "
-"Sichtbarkeit. ``Mesh.PrimitiveType`` Godot enum. ``0`` = Punkte, ``1`` = "
-"Linien, ``2`` = Linienstreifen, ``3`` = Dreiecke (am häufigsten), ``4`` = "
+"``primitive``: Der primitive Typ der Oberfläche, entsprechend des ``Mesh."
+"PrimitiveType``-Godot-Enum. ``0`` = Punkte, ``1`` = Linien, ``2`` = "
+"Linienstreifen, ``3`` = Dreiecke (am verbreitetsten), ``4`` = "
 "Dreiecksstreifen."
 
 msgid "``skin_data``: Bone weight data."

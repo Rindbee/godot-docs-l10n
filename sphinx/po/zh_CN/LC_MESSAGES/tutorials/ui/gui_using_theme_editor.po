@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,17 +14,6 @@ msgstr ""
 
 msgid "Using the theme editor"
 msgstr "使用主题编辑器"
-
-#, fuzzy
-msgid ""
-"This article explains how to create and manage UI themes using the Godot "
-"editor and its theme editor tool. We recommend getting familiar with the "
-"basics behind GUI skinning/theming by reading :ref:`doc_gui_skinning` before "
-"starting."
-msgstr ""
-"本文介绍如何通过 Godot 编辑器及其主题编辑器工具来创建并管理 UI 主题。我们推荐"
-"您在开始前先阅读 :ref:`doc_gui_skinning`\\ ，熟悉一下 GUI 换皮/主题背后的基本"
-"知识。"
 
 msgid ""
 "The theme editor is a bottom panel tool that activates automatically, when "
@@ -129,18 +113,6 @@ msgid ""
 msgstr ""
 "对场景的修改不会自动反映到预览中。更新预览需要点击工具栏上的重新加载按钮。"
 
-#, fuzzy
-msgid ""
-"Previews can also be used to quickly select the theme type to edit. Select "
-"the picker tool from the toolbar and hover over the preview area to "
-"highlight control nodes. Highlighted control nodes display their class name, "
-"or type variation if available. Clicking on the highlighted control opens it "
-"for editing on the right-hand side."
-msgstr ""
-"还可以使用预览快速选择要编辑的主题类型。点击工具栏上的吸管按钮，将鼠标悬停到"
-"预览区域就可以将控件节点高亮。高亮的控件节点会显示类名。点击高亮的控件就可以"
-"将它在右侧打开并编辑。"
-
 msgid "Theme types and items"
 msgstr "主题类型与项目"
 
@@ -181,18 +153,6 @@ msgstr ""
 "覆盖的主题项目可以直接在右侧面板中编辑，除非它们是资源。资源具有可用的基本控"
 "件，但必须在检查器栏中进行编辑。"
 
-#, fuzzy
-msgid ""
-"Styleboxes have a unique feature available, where you can pin an individual "
-"stylebox from the list. Pinned stylebox acts like the leader of the pack, "
-"and all styleboxes of the same type are updated alongside it when you change "
-"its properties. This allows you to edit properties of several styleboxes at "
-"the same time."
-msgstr ""
-"样式盒子有一个独特的功能，你可以在其中固定列表中的单个样式盒子。固定样式盒子"
-"就像包头一样，当你更改其属性时，所有相同类型的样式盒子都会随之更新。这允许你"
-"同时编辑多个样式盒子的属性。"
-
 msgid ""
 "While theme types can be picked from a preview, they can also be added "
 "manually. Clicking the plus button next to the type list opens the **Add "
@@ -230,24 +190,6 @@ msgstr ""
 "**Remove Class Items**\\ 将删除你为一个控制节点类型定制的所有内置主题项"
 "目。\\ **Remove Custom Items**\\ 将删除所选类型的所有自定义主题项"
 "目。\\**Remove All Items**\\ 将删除该类型的所有项目。"
-
-#, fuzzy
-msgid ""
-"From the **Import Items** tab you can import theme items from other themes. "
-"You can import items from the default Godot theme, the Godot editor theme, "
-"or another custom theme. You can import individual or multiple items, and "
-"you can decide whether to copy or omit their data as well. There are several "
-"ways you can select and deselect the items, including by hand, by hierarchy, "
-"by data type, and everything. Opting to include the data will copy all theme "
-"items as they are to your theme. Omitting the data will create the items of "
-"the corresponding data type and name, but will leave them empty, creating a "
-"template of a theme in a way."
-msgstr ""
-"从\\ **Import Items**\\选项卡，你可以从其他主题导入主题项目.你可以从Godot默认"
-"主题导入项目，如Godot编辑器主题或者其他自定义主题.你可以导入单个或多个项目并"
-"选择导入或忽略他们的数据.有几种选择项目的放大，包括手动、按结构层次、按数据类"
-"型等等.选择包括数据将复制所有项目到你的主题.忽略数据将创建具有相应数据类型和"
-"名称的项目，但是他们会保存为空，以所指定的方式创建了模板."
 
 msgid "Translation status"
 msgstr "翻译状态"

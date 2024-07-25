@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +58,6 @@ msgstr ""
 "verwendet die 3D-Engine den :ref:`Node3D <class_Node3D>` Node für alle 3D-"
 "Themen."
 
-#, fuzzy
 msgid ""
 "Node3Ds have a local transform, which is relative to the parent node (as "
 "long as the parent node is also of **or inherits from** the type Node3D). "
@@ -73,7 +67,7 @@ msgid ""
 msgstr ""
 "Node3Ds haben eine lokale Transformation, die relativ zum übergeordneten "
 "Node ist (solange der übergeordnete Node auch vom Typ Node3D ist **oder von "
-"Node3D erbt**). Auf diese Transformation kann als 4×3 :ref:`Transform3D "
+"Node3D erbt**). Auf diese Transformation kann als 3×4 :ref:`Transform3D "
 "<class_Transform3D>` oder als 3 :ref:`Vector3 <class_Vector3>`-Member "
 "zugegriffen werden, die Position, Euler-Rotation (X-, Y- und Z-Winkel) und "
 "Skalierung darstellen."
@@ -415,9 +409,8 @@ msgstr ""
 "Um eine bestimmte Art von Gizmos auszublenden, können Sie sie im Menü "
 "\"Ansicht\" deaktivieren."
 
-#, fuzzy
 msgid "preview environment and light"
-msgstr "Vorschau Environment und Sonne (niedrige Priorität)"
+msgstr "Vorschau-Environment und Licht"
 
 msgid ""
 "By default, any 3D scene that doesn't have a :ref:`WorldEnvironment "
@@ -425,12 +418,19 @@ msgid ""
 "<class_DirectionalLight3D>`, will have a preview turned on for what it's "
 "missing to light the scene."
 msgstr ""
+"Standardmäßig wird für jede 3D-Szene, die keinen :ref:`WorldEnvironment "
+"<class_WorldEnvironment>`-Node oder einen :ref:`DirectionalLight3D "
+"<class_DirectionalLight3D>`-Node hat, eine Vorschau für das, was ihr zur "
+"Beleuchtung der Szene fehlt, eingeschaltet."
 
 msgid ""
 "The preview light and environment will only be visible in the scene while in "
 "the editor. If you run the scene or export the project they will not affect "
 "the scene."
 msgstr ""
+"Das Vorschau-Licht und die Environment sind nur in der Szene sichtbar, wenn "
+"Sie sich im Editor befinden. Wenn Sie die Szene ausführen oder das Projekt "
+"exportieren, haben sie keinen Einfluss auf die Szene."
 
 msgid ""
 "The preview light and environment can be turned on or off from the top menu "
@@ -438,12 +438,19 @@ msgid ""
 "those icons can be used to adjust the properties of the preview environment "
 "and light."
 msgstr ""
+"Das Vorschau-Licht und die Environment können über das obere Menü ein- und "
+"ausgeschaltet werden, indem Sie auf das entsprechende Symbol klicken. Über "
+"das Dropdown-Menü mit den drei Punkten neben diesen Icons können Sie die "
+"Propertys der Vorschau-Environment und des Lichts anpassen."
 
 msgid ""
 "The same preview sun and environment is used for every scene in the same "
 "project, So only make adjustments that would apply to all of the scenes you "
 "will need a preview light and environment for."
 msgstr ""
+"Die gleiche Vorschau-Sonne und Environment wird für jede Szene im selben "
+"Projekt verwendet. Nehmen Sie also nur Anpassungen vor, die für alle Szenen "
+"gelten, für die Sie ein Vorschau-Licht und eine Environment benötigen."
 
 msgid "Cameras"
 msgstr "Kameras"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,18 +14,6 @@ msgstr ""
 
 msgid "Your first 3D shader"
 msgstr "你的第一个 3D 着色器"
-
-#, fuzzy
-msgid ""
-"You have decided to start writing your own custom Spatial shader. Maybe you "
-"saw a cool trick online that was done with shaders, or you have found that "
-"the :ref:`StandardMaterial3D <class_StandardMaterial3D>` isn't quite meeting "
-"your needs. Either way, you have decided to write your own and now you need "
-"to figure out where to start."
-msgstr ""
-"你已经决定开始编写一个自定义 Spatial 着色器。或许你在网上看到一个很酷的着色器"
-"技巧，或许你发现 :ref:`SpatialMaterial <class_SpatialMaterial>` 并不能完全满"
-"足你的需求。总之，你决定写一个自己的，你想弄清楚从哪里开始。"
 
 msgid ""
 "This tutorial will explain how to write a Spatial shader and will cover more "
@@ -50,19 +33,6 @@ msgstr ""
 "空间着色器比CanvasItem着色器有更多的内置功能. 对空间着色器的期望是:Godot为常"
 "见的用例提供了功能, 用户仅需在着色器中设置适当的参数. 这对于PBR(基于物理的渲"
 "染)工作流来说尤其如此."
-
-#, fuzzy
-msgid ""
-"This is a two-part tutorial. In this first part we will create terrain using "
-"vertex displacement from a heightmap in the vertex function. In the :ref:"
-"`second part <doc_your_second_spatial_shader>` we will take the concepts "
-"from this tutorial and set up custom materials in a fragment shader by "
-"writing an ocean water shader."
-msgstr ""
-"这是一个两部分的教程. 在第一部分中, 我们将学习如何在顶点函数中使用高度图的顶"
-"点位移来制作一个简单的地形. 在 :ref:`第二部分 "
-"<doc_your_second_spatial_shader>` 中, 我们将采用本教程中的概念, 通过编写一个"
-"海洋水着色器, 讲解如何在片段着色器中设置自定义材质."
 
 msgid ""
 "This tutorial assumes some basic shader knowledge such as types (``vec2``, "
@@ -93,28 +63,6 @@ msgstr ""
 "(如Blender)导入一个Mesh. 但是Godot也有一些 :ref:`PrimitiveMeshes "
 "<class_primitivemesh>` 允许你在不导入Mesh的情况下为场景添加基本几何体."
 
-#, fuzzy
-msgid ""
-"There are multiple node types that you can use to draw a mesh. The main one "
-"is :ref:`MeshInstance3D <class_MeshInstance3D>`, but you can also use :ref:"
-"`GPUParticles3D <class_GPUParticles3D>`, :ref:`MultiMeshes "
-"<class_MultiMesh>` (with a :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>`), or others."
-msgstr ""
-"你可以使用多种节点类型可以用来绘制Mesh. 主要的是 :ref:`MeshInstance "
-"<class_meshinstance>`, 但你也可以使用 :ref:`Particles <class_particles>`, :"
-"ref:`MultiMeshes <class_MultiMesh>` (与 :ref:`MultiMeshInstance "
-"<class_multimeshinstance>` 一起使用), 或其他."
-
-#, fuzzy
-msgid ""
-"Typically, a material is associated with a given surface in a mesh, but some "
-"nodes, like MeshInstance3D, allow you to override the material for a "
-"specific surface, or for all surfaces."
-msgstr ""
-"通常情况下, 一个材质是与Mesh中的一个给定表面相关联的, 但有些节点, 如"
-"MeshInstance, 允许你覆盖一个特定的表面或所有表面的材质."
-
 msgid ""
 "If you set a material on the surface or mesh itself, then all "
 "MeshInstance3Ds that share that mesh will share that material. However, if "
@@ -125,13 +73,6 @@ msgstr ""
 "如果你在表面或网格本身上设置了材质，那么所有共享该网格的 MeshInstance3D 都共"
 "享该材质。但是如果你想在多个网格实例中重用同一个网格，而每个实例又要具有不同"
 "的材质，那么你就应该在 MeshInstance3D 上设置材质。"
-
-#, fuzzy
-msgid ""
-"For this tutorial we will set our material on the mesh itself rather than "
-"taking advantage of the MeshInstance3D's ability to override materials."
-msgstr ""
-"在本教程中, 我们将材质设置在Mesh自身上, 不使用MeshInstance覆盖材质的功能."
 
 msgid "Setting up"
 msgstr "设置"
@@ -168,25 +109,6 @@ msgstr ""
 "现在将 :ref:`PlaneMesh <class_planemesh>` 的 ``Subdivide Width`` 和 "
 "``Subdivide Depth`` 设置为 ``32``\\ 。"
 
-#, fuzzy
-msgid ""
-"You can see that there are now many more triangles in the :ref:"
-"`MeshInstance3D<class_MeshInstance3D>`. This will give us more vertices to "
-"work with and thus allow us to add more detail."
-msgstr ""
-"可以看到现在 :ref:`Mesh<class_MeshInstance>` 中有了更多的三角形. 这将为我们提"
-"供更多顶点, 便于添加更多细节."
-
-#, fuzzy
-msgid ""
-":ref:`PrimitiveMeshes <class_primitivemesh>`, like PlaneMesh, only have one "
-"surface, so instead of an array of materials there is only one. Click beside "
-"\"Material\" where it says \"[empty]\" and select \"New ShaderMaterial\". "
-"Then click the sphere that appears."
-msgstr ""
-"表面，因此也仅有一个材质而非材质数组。点击“Material”旁边的“[空]”，然后选择“新"
-"建 ShaderMaterial”。然后点击出现的球体。"
-
 msgid ""
 "Now click beside \"Shader\" where it says \"[empty]\" and select \"New "
 "Shader\"."
@@ -199,29 +121,6 @@ msgstr "现在将弹出一个着色器编辑器, 你已经准备好编写你的�
 
 msgid "Shader magic"
 msgstr "着色器魔术"
-
-#, fuzzy
-msgid ""
-"The new shader is already generated with a ``shader_type`` variable and the "
-"``fragment()`` function. The first thing Godot shaders need is a declaration "
-"of what type of shader they are. In this case the ``shader_type`` is set to "
-"``spatial`` because this is a spatial shader."
-msgstr ""
-"注意到已经出现错误了吗？ 这是因为着色器编辑器会自动重新加载着色器. Godot着色"
-"器首先需要声明它们是什么类型的着色器. 因此, 我们将变量 ``shader_type`` 设置"
-"为 ``spatial`` , 因为它是一个空间着色器."
-
-#, fuzzy
-msgid ""
-"For now ignore the ``fragment()`` function and define the ``vertex()`` "
-"function. The ``vertex()`` function determines where the vertices of your :"
-"ref:`MeshInstance3D<class_MeshInstance3D>` appear in the final scene. We "
-"will be using it to offset the height of each vertex and make our flat plane "
-"appear like a little terrain."
-msgstr ""
-"接下来我们将定义 ``vertex()`` 函数. ``vertex()`` 函数决定你的 :ref:"
-"`Mesh<class_MeshInstance>` 在最终场景中的顶点位置. 我们用它来偏移每个顶点的高"
-"度, 使我们的平面看起来像一个小地形."
 
 msgid "We define the vertex shader like so:"
 msgstr "我们像这样定义顶点着色器:"
@@ -270,14 +169,6 @@ msgstr ""
 "噪声是一种非常流行的伪造地形的工具. 可以认为它和余弦函数一样生成重复的小山, "
 "只是在噪声的影响下每个小山都拥有不同的高度."
 
-#, fuzzy
-msgid ""
-"Godot provides the :ref:`NoiseTexture2D <class_noisetexture2D>` resource for "
-"generating a noise texture that can be accessed from a shader."
-msgstr ""
-"Godot提供了 :ref:`噪声纹理 <class_noisetexture>` 资源, 可以生成从着色器访问的"
-"噪声纹理."
-
 msgid ""
 "To access a texture in a shader add the following code near the top of your "
 "shader, outside the ``vertex()`` function."
@@ -294,15 +185,6 @@ msgstr ""
 "为“Shader Params”（着色器参数）的区域。如果展开该区域，就会看到一个"
 "叫“noise”的部分。"
 
-#, fuzzy
-msgid ""
-"Click beside it where it says \"[empty]\" and select \"New NoiseTexture2D\". "
-"Then in your :ref:`NoiseTexture2D <class_noisetexture2D>` click beside where "
-"it says \"Noise\" and select \"New FastNoiseLite\"."
-msgstr ""
-"点击旁边写着“[空]”的地方，选择“新建 NoiseTexture”。在你的 NoiseTexture 中，点"
-"击旁边的“Noise”，然后选择“新建 OpenSimplexNoise”。"
-
 msgid ""
 ":ref:`FastNoiseLite <class_fastnoiselite>` is used by the NoiseTexture2D to "
 "generate a heightmap."
@@ -311,28 +193,6 @@ msgstr ""
 
 msgid "Once you set it up and should look like this."
 msgstr "设置好后, 看起来应该像这样."
-
-#, fuzzy
-msgid ""
-"Now, access the noise texture using the ``texture()`` function. "
-"``texture()`` takes a texture as the first argument and a ``vec2`` for the "
-"position on the texture as the second argument. We use the ``x`` and ``z`` "
-"channels of ``VERTEX`` to determine where on the texture to look up. Note "
-"that the PlaneMesh coordinates are within the [-1,1] range (for a size of "
-"2), while the texture coordinates are within [0,1], so to normalize we "
-"divide by the size of the PlaneMesh by 2.0 and add 0.5. ``texture()`` "
-"returns a ``vec4`` of the ``r, g, b, a`` channels at the position. Since the "
-"noise texture is grayscale, all of the values are the same, so we can use "
-"any one of the channels as the height. In this case we'll use the ``r``, or "
-"``x`` channel."
-msgstr ""
-"现在, 使用 ``texture()`` 函数获取噪声纹理. ``texture()`` 将一个纹理作为第一个"
-"参数, 将在纹理上的位置 ``vec2`` 作为第二个参数. 我们用 ``VERTEX`` 的 ``x`` "
-"和 ``z`` 通道来确定在纹理上的位置. 请注意 PlaneMesh 坐标在 [-1,1] 范围内 (大"
-"小为 2的情况下), 而纹理坐标在 [0,1] 范围内, 所以为了规范化, 我们将PlaneMesh的"
-"大小除以2.0并加上 0.5. ``texture()`` 返回一个当前位置 ``r, g, b, a`` 通道的 "
-"``vec4`` . 由于噪声纹理是灰度的, 所有的值都相同, 所以我们可以使用任意一个通道"
-"作为高度. 本例中, 我们将使用 ``r`` , 或者说 ``x`` 通道."
 
 msgid ""
 "Note: ``xyzw`` is the same as ``rgba`` in GLSL, so instead of ``texture()."
@@ -371,55 +231,8 @@ msgstr ""
 msgid "Let's make a uniform that changes the height of the terrain."
 msgstr "让我们做一个改变地形高度的uniform."
 
-#, fuzzy
-msgid ""
-"Godot lets you initialize a uniform with a value; here, ``height_scale`` is "
-"set to ``0.5``. You can set uniforms from GDScript by calling the function "
-"``set_shader_parameter()`` on the material corresponding to the shader. The "
-"value passed from GDScript takes precedence over the value used to "
-"initialize it in the shader."
-msgstr ""
-"Godot让你用一个值来初始化uniform；这里, ``height_scale`` 被设置为 ``0.5`` . "
-"你可以通过在着色器对应的材质上调用函数 ``set_shader_param()`` 来从GDScript设"
-"置uniform . 从GDScript传来的值优先于在着色器中用于初始化的值."
-
-#, fuzzy
-msgid ""
-"Changing uniforms in Spatial-based nodes is different from CanvasItem-based "
-"nodes. Here, we set the material inside the PlaneMesh resource. In other "
-"mesh resources you may need to first access the material by calling "
-"``surface_get_material()``. While in the MeshInstance3D you would access the "
-"material using ``get_surface_material()`` or ``material_override``."
-msgstr ""
-"更改uniform值时, 基于空间的节点与基于CanvasItem的节点使用的方法不同. 在这里, "
-"我们在PlaneMesh资源内设置材质. 在其他mesh资源中, 你可能要先调用 "
-"``surface_get_material()`` 来获取材质. 而在MeshInstance中, 则是用 "
-"``get_surface_material()`` 或 ``material_override`` 获取材质."
-
-#, fuzzy
-msgid ""
-"Remember that the string passed into ``set_shader_parameter()`` must match "
-"the name of the uniform variable in the :ref:`Shader<class_Shader>`. You can "
-"use the uniform variable anywhere inside your :ref:`Shader<class_Shader>`. "
-"Here, we will use it to set the height value instead of arbitrarily "
-"multiplying by ``0.5``."
-msgstr ""
-"请记住, 传入 ``set_shader_param()`` 的字符串必须与 :ref:"
-"`Shader<class_Shader>` 中的uniform变量名称相匹配. 你可以在 :ref:"
-"`Shader<class_Shader>` 中的任何地方使用这个uniform变量. 在这里, 我们将用它来"
-"设置高度值, 而不是任意地乘以 ``0.5`` ."
-
 msgid "Now it looks much better."
 msgstr "现在它看起来好多了."
-
-#, fuzzy
-msgid ""
-"Using uniforms, we can even change the value every frame to animate the "
-"height of the terrain. Combined with :ref:`Tweens <class_Tween>`, this can "
-"be especially useful for animations."
-msgstr ""
-"使用 uniform，我们甚至可以在每一帧改变数值，以动画化地形的高度。结合 :ref:"
-"`Tween <class_Tween>`\\ ，这对简单的动画特别有用。"
 
 msgid "Interacting with light"
 msgstr "与光交互"
@@ -434,11 +247,6 @@ msgid ""
 "flat. Let's add a light!"
 msgstr ""
 "注意网格颜色是如何变得平滑的. 这是因为它的光线是平滑的. 让我们加一盏灯吧!"
-
-#, fuzzy
-msgid ""
-"First, we will add an :ref:`OmniLight3D<class_OmniLight3D>` to the scene."
-msgstr "首先, 我们将在场景中添加一个 :ref:`OmniLight<class_OmniLight>` ."
 
 msgid ""
 "You can see the light affecting the terrain, but it looks odd. The problem "
@@ -475,15 +283,6 @@ msgid ""
 msgstr ""
 "相反, 我们将再次依靠噪声来计算法线. 我们通过传入第二个噪声纹理来做到这一点."
 
-#, fuzzy
-msgid ""
-"Set this second uniform texture to another :ref:`NoiseTexture2D "
-"<class_noisetexture2D>` with another :ref:`FastNoiseLite "
-"<class_fastnoiselite>`. But this time, check **As Normalmap**."
-msgstr ""
-"把第二个 uniform 纹理设为另一个带有单独 OpenSimplexNoise 的 NoiseTexture。不"
-"过这一回，请取消勾选“As Normalmap”。"
-
 msgid ""
 "Now, because this is a normalmap and not a per-vertex normal, we are going "
 "to assign it in the ``fragment()`` function. The ``fragment()`` function "
@@ -491,17 +290,6 @@ msgid ""
 msgstr ""
 "现在, 因为这是一个法线贴图, 而不是每个顶点的法线, 我们将在 ``fragment()`` 函"
 "数中分配它. ``fragment()`` 函数将在本教程的下一部分中详细解释."
-
-#, fuzzy
-msgid ""
-"When we have normals that correspond to a specific vertex we set ``NORMAL``, "
-"but if you have a normalmap that comes from a texture, set the normal using "
-"``NORMAL_MAP``. This way Godot will handle the wrapping of texture around "
-"the mesh automatically."
-msgstr ""
-"当我们有对应某个特定顶点的法线时，就要设置 ``NORMAL``\\ ，但如果你有一个来自"
-"纹理的法线贴图，要使用 ``NORMALMAP`` 设置法线。这样，Godot 将自动处理环绕网格"
-"的纹理。"
 
 msgid ""
 "Lastly, in order to ensure that we are reading from the same places on the "

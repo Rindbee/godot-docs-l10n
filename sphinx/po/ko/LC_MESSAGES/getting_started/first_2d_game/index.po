@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +20,9 @@ msgid ""
 "game with Godot. By the end of the series, you will have a simple yet "
 "complete game of your own, like the image below."
 msgstr ""
+"이 단계별 튜토리얼 시리즈에서는 Godot으로 처음으로 완전한 2D 게임을 만들어봅"
+"니다. 시리즈가 끝나면 아래 이미지와 같이 간단하면서도 완성도 있는 나만의 게임"
+"을 만들 수 있습니다."
 
 msgid "|image0|"
 msgstr "|image0|"
@@ -32,54 +30,14 @@ msgstr "|image0|"
 msgid "image0"
 msgstr "image0"
 
-#, fuzzy
-msgid ""
-"You will learn how the Godot editor works, how to structure a project, and "
-"build a 2D game."
-msgstr ""
-"이 튜토리얼은 첫 Godot 프로젝트를 만드는 과정을 안내합니다. Godot 에디터가 어"
-"떻게 작동하는지, 프로젝트를 구성하는 방법, 2D 게임을 만드는 방법을 배우게 됩"
-"니다."
-
-#, fuzzy
-msgid ""
-"This project is an introduction to the Godot engine. It assumes that you "
-"have some programming experience already. If you're new to programming "
-"entirely, you should start here: :ref:`doc_scripting`."
-msgstr ""
-"이 프로젝트는 Godot 엔진에 대한 소개입니다. 이 튜토리얼에서 여러분은 프로그래"
-"밍 경험이 조금 있다고 가정하겠습니다. 프로그래밍에 완전 처음이라면 여기서부"
-"터 시작하세요: :ref:`doc_scripting`. 만약 Godot에서 C#을 사용하고 싶다면, 진"
-"행하기 전에 :ref:`doc_c_sharp`\\ 를 읽어보세요."
-
-#, fuzzy
-msgid ""
-"The game is called \"Dodge the Creeps!\". Your character must move and avoid "
-"the enemies for as long as possible."
-msgstr ""
-"게임 이름은 \"Dodge the Creeps!\"입니다. 캐릭터는 가능한 오랫동안 움직이면서 "
-"적을 피해야 합니다. 다음은 앞으로 보게 될 최종 결과물입니다:"
-
-#, fuzzy
-msgid "You will learn to:"
-msgstr "다음을 배울 것입니다:"
-
 msgid "Create a complete 2D game with the Godot editor."
-msgstr ""
-
-#, fuzzy
-msgid "Structure a simple game project."
-msgstr "프로젝트를 만들거나 가져오기"
-
-#, fuzzy
-msgid "Move the player character and change its sprite."
-msgstr "플레이어를 트리 어딘가로 이동시킵니다."
+msgstr "Godot 에디터로 완전한 2D 게임을 만들어 보세요."
 
 msgid "Spawn random enemies."
-msgstr ""
+msgstr "무작위 적을 생성합니다."
 
 msgid "Count the score."
-msgstr ""
+msgstr "점수를 계산합니다."
 
 msgid "And more."
 msgstr "그리고 더 많이 있습니다."
@@ -88,25 +46,20 @@ msgid ""
 "You'll find another series where you'll create a similar game but in 3D. We "
 "recommend you to start with this one, though."
 msgstr ""
+"비슷한 게임을 만들 수 있는 다른 시리즈도 있지만 3D로 제작할 수 있습니다. 하지"
+"만 이 게임부터 시작하는 것을 추천합니다."
 
 msgid "**Why start with 2D?**"
-msgstr ""
+msgstr "**왜 2D로 시작하나요?**"
 
 msgid ""
 "If you are new to game development or unfamiliar with Godot, we recommend "
 "starting with 2D games. This will allow you to become comfortable with both "
 "before tackling 3D games, which tend to be more complicated."
 msgstr ""
-
-#, fuzzy
-msgid "You can find a completed version of this project at this location:"
-msgstr "여기에서 이 프로젝트의 완성 버전을 찾을 수 있습니다:"
-
-#, fuzzy
-msgid ""
-"https://github.com/godotengine/godot-demo-projects/tree/master/2d/"
-"dodge_the_creeps"
-msgstr "https://github.com/godotengine/godot-demo-projects"
+"게임 개발이 처음이거나 Godot에 익숙하지 않다면, 2D 게임부터 시작하는 것이 좋"
+"습니다. 이렇게 하면 더 복잡한 3D 게임에 도전하기 전에 두 가지 모두에 익숙해"
+"질 수 있습니다."
 
 msgid "Prerequisites"
 msgstr "준비사항"
@@ -115,33 +68,25 @@ msgid ""
 "This step-by-step tutorial is intended for beginners who followed the "
 "complete :ref:`Getting Started <toc-learn-step_by_step>`."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"If you're an experienced programmer, you can find the complete demo's source "
-"code here: `Dodge the Creeps source code <https://github.com/godotengine/"
-"godot-demo-projects/tree/master/2d/dodge_the_creeps>`__."
-msgstr ""
-"이 문서 외에 여러가지 `Godot 데모 프로젝트 <https://github.com/godotengine/"
-"godot-demo-projects>`_\\ 도 살펴보면 좋습니다."
+"이 단계별 튜토리얼은 전체 :ref:`시작하기 <toc-learn-step_by_step>`을 따라한 "
+"초보자를 위한 것입니다."
 
 msgid ""
 "We prepared some game assets you'll need to download so we can jump straight "
 "to the code."
-msgstr ""
+msgstr "코드로 바로 이동할 수 있도록 다운로드해야 할 게임 에셋을 준비했습니다."
 
 msgid "You can download them by clicking the link below."
-msgstr ""
+msgstr "아래 링크를 클릭하여 다운로드할 수 있습니다."
 
 msgid ""
 "`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-"
 "project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets."
 "zip>`_."
 msgstr ""
-
-#, fuzzy
-msgid "Contents"
-msgstr "내용 테스트"
+"`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-"
+"project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets."
+"zip>`_."
 
 msgid "Translation status"
 msgstr "번역 상태"

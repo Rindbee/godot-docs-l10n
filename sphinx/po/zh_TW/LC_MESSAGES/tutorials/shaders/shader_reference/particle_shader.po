@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,17 +24,6 @@ msgstr ""
 "粒子著色器是一種特殊型別的頂點著色器, 在物體被繪製之前運作. 它們用於計算材質"
 "屬性, 如顏色, 位置和旋轉. 它們與CanvasItem或Spatial的任何常規材質一起繪製, 這"
 "取決於它們是2D還是3D."
-
-#, fuzzy
-msgid ""
-"Particle shaders are unique because they are not used to draw the object "
-"itself; they are used to calculate particle properties, which are then used "
-"by a CanvasItem or Spatial shader. They contain two processor functions: "
-"``start()`` and ``process()``."
-msgstr ""
-"粒子著色器是獨特的, 因為它們不用於繪製物件本身；被用來計算粒子的性質, 然後由"
-"空間著色器的畫布元件使用. 它們只包含一個頂點處理器函式, 輸出多個屬性的內建函"
-"式(見下文)."
 
 msgid ""
 "Unlike other shader types, particle shaders keep the data that was output "
@@ -93,14 +77,6 @@ msgstr "**disable_velocity**"
 msgid "Ignore **VELOCITY** value."
 msgstr "忽略 **VELOCITY** 值."
 
-#, fuzzy
-msgid "**collision_use_scale**"
-msgstr "collision_layer"
-
-#, fuzzy
-msgid "Scale the particle's size for collisions."
-msgstr "準備碰撞"
-
 msgid "Built-ins"
 msgstr "內建"
 
@@ -148,22 +124,8 @@ msgstr "一個“TAU”常數（“6.283185”）。相當於“PI * 2”和完�
 msgid "in float **E**"
 msgstr "in float **E**"
 
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "一個“E”常數（“2.718281”）。歐拉數和自然對數的底數。"
-
 msgid "Start and Process built-ins"
 msgstr "頂點內建"
-
-#, fuzzy
-msgid ""
-"These properties can be accessed from both the ``start()`` and ``process()`` "
-"functions."
-msgstr ""
-"接下來，設定您的 ``vertex`` 函式。粒子著色器只包含一個頂點函式，不包含其他函"
-"式。"
 
 msgid "Function"
 msgstr "函式"
@@ -302,28 +264,6 @@ msgstr ""
 "用於在「emit_subarticle」函式的最後一個參數上使用的旗標，以將自訂資料向量指派"
 "給新粒子。"
 
-#, fuzzy
-msgid "in vec3 **EMITTER_VELOCITY**"
-msgstr "inout vec3 **VELOCITY**"
-
-#, fuzzy
-msgid "Velocity of the Particles node."
-msgstr "將 HUD 場景連接至 Main 場景"
-
-#, fuzzy
-msgid "in float **INTERPOLATE_TO_END**"
-msgstr "in float **ATTENUATION**"
-
-msgid "Value of ``interp_to_end`` property of Particles node."
-msgstr ""
-
-#, fuzzy
-msgid "in uint **AMOUNT_RATIO**"
-msgstr "in uint **FLAG_EMIT_POSITION**"
-
-msgid "Value of ``amount_ratio`` property of Particles node."
-msgstr ""
-
 msgid ""
 "In order to use the ``COLOR`` variable in a StandardMaterial3D, set "
 "``vertex_color_use_as_albedo`` to ``true``. In a ShaderMaterial, access it "
@@ -338,47 +278,17 @@ msgstr "定數"
 msgid "in bool **RESTART_POSITION**"
 msgstr "in bool **RESTART_POSITION**"
 
-msgid ""
-"``true`` if particle is restarted, or emitted without a custom position (i."
-"e. this particle was created by ``emit_subparticle()`` without the "
-"``FLAG_EMIT_POSITION`` flag)."
-msgstr ""
-
 msgid "in bool **RESTART_ROT_SCALE**"
 msgstr "in bool **RESTART_ROT_SCALE**"
-
-msgid ""
-"``true`` if particle is restarted, or emitted without a custom rotation or "
-"scale (i.e. this particle was created by ``emit_subparticle()`` without the "
-"``FLAG_EMIT_ROT_SCALE`` flag)."
-msgstr ""
 
 msgid "in bool **RESTART_VELOCITY**"
 msgstr "in bool **RESTART_VELOCITY**"
 
-msgid ""
-"``true`` if particle is restarted, or emitted without a custom velocity (i."
-"e. this particle was created by ``emit_subparticle()`` without the "
-"``FLAG_EMIT_VELOCITY`` flag)."
-msgstr ""
-
 msgid "in bool **RESTART_COLOR**"
 msgstr "in bool **RESTART_COLOR**"
 
-msgid ""
-"``true`` if particle is restarted, or emitted without a custom color (i.e. "
-"this particle was created by ``emit_subparticle()`` without the "
-"``FLAG_EMIT_COLOR`` flag)."
-msgstr ""
-
 msgid "in bool **RESTART_CUSTOM**"
 msgstr "in bool **RESTART_CUSTOM**"
-
-msgid ""
-"``true`` if particle is restarted, or emitted without a custom property (i."
-"e. this particle was created by ``emit_subparticle()`` without the "
-"``FLAG_EMIT_CUSTOM`` flag)."
-msgstr ""
 
 msgid "Process built-ins"
 msgstr "定數"
@@ -421,24 +331,11 @@ msgid "Process functions"
 msgstr "其他函式"
 
 msgid ""
-"``emit_subparticle`` is currently the only custom function supported by "
-"particles shaders. It allows users to add a new particle with specified "
-"parameters from a sub-emitter. The newly created particle will only use the "
-"properties that match the ``flags`` parameter. For example, the following "
-"code will emit a particle with a specified position, velocity, and color, "
-"but unspecified rotation, scale, and custom value:"
-msgstr ""
-
-msgid ""
 "bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
 "custom, uint flags)"
 msgstr ""
 "bool **emit_subparticle** (mat4 xform, vec3 velocity, vec4 color, vec4 "
 "custom, uint flags)"
-
-#, fuzzy
-msgid "Emits a particle from a sub-emitter."
-msgstr "強制從子發射器發射粒子。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

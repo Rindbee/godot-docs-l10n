@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,16 +169,6 @@ msgstr ""
 "Є два об'єкти, які містять криві: :ref:`Curve3D <class_Curve3D>` та :ref:"
 "`Curve2D <class_Curve2D>` (для 3D і 2D відповідно)."
 
-#, fuzzy
-msgid ""
-"They can contain several points, allowing for longer paths. It is also "
-"possible to set them to nodes: :ref:`Path3D <class_Path3D>` and :ref:`Path2D "
-"<class_Path2D>` (also for 3D and 2D respectively):"
-msgstr ""
-"Вони можуть містити кілька точок, що дозволяє прокладати довші шляхи. Також "
-"можна встановити їх на вузли шляхів: :ref:`Path <class_Path>` та :ref:"
-"`Path2D <class_Path2D>` (також для 3D і 2D відповідно):"
-
 msgid ""
 "Using them, however, may not be completely obvious, so following is a "
 "description of the most common use cases for Bezier curves."
@@ -193,26 +178,6 @@ msgstr ""
 
 msgid "Evaluating"
 msgstr "Оцінювання"
-
-#, fuzzy
-msgid ""
-"Only evaluating them may be an option, but in most cases it's not very "
-"useful. The big drawback with Bezier curves is that if you traverse them at "
-"constant speed, from ``t = 0`` to ``t = 1``, the actual interpolation will "
-"*not* move at constant speed. The speed is also an interpolation between the "
-"distances between points ``p0``, ``p1``, ``p2`` and ``p3`` and there is not "
-"a mathematically simple way to traverse the curve at constant speed."
-msgstr ""
-"Як варіант їх можна просто оцінити, але в більшості випадків це не дуже "
-"корисно. Великий недолік кривих Безьє полягає в тому, що якщо ви проходите "
-"їх з постійною швидкістю, від ``t = 0`` до ``t = 1``, фактична інтерполяція "
-"*не* буде рухатися з постійною швидкістю. Швидкість теж є інтерполяцією між "
-"відстанями між точками ``p0``, ``p1``, ``p2`` та ``p3``, і немає математично "
-"простого способу пройти криву з постійною швидкістю."
-
-#, fuzzy
-msgid "Let's do an example with the following pseudocode:"
-msgstr "Наведемо простий приклад з наступним псевдокодом:"
 
 msgid ""
 "As you can see, the speed (in pixels per second) of the circle varies, even "
@@ -283,24 +248,6 @@ msgid ""
 msgstr ""
 "Останній поширений випадок використання кривих - це їх обхід. Через, "
 "згадувану раніше, постійну швидкість, це також важко."
-
-#, fuzzy
-msgid ""
-"To make this easier, the curves need to be *baked* into equidistant points. "
-"This way, they can be approximated with regular interpolation (which can be "
-"improved further with a cubic option). To do this, just use the :ref:"
-"`Curve3D.sample_baked()<class_Curve3D_method_sample_baked>` method together "
-"with :ref:`Curve2D."
-"get_baked_length()<class_Curve2D_method_get_baked_length>`. The first call "
-"to either of them will bake the curve internally."
-msgstr ""
-"Для спрощення, криві потрібно *запікати* в рівновіддалених точках. Таким "
-"чином, їх можна апроксимувати за допомогою регулярної інтерполяції (яку "
-"можна поліпшити далі за допомогою кубічного варіанту). Для цього достатньо "
-"скористатися методом :ref:`Curve."
-"interpolate_baked()<class_Curve_method_interpolate_baked>` разом з :ref:"
-"`Curve2D.get_baked_length()<class_Curve2D_method_get_baked_length>`. Перший "
-"виклик будь-якої з них буде запікати криву всередині."
 
 msgid ""
 "Traversal at constant speed, then, can be done with the following pseudo-"

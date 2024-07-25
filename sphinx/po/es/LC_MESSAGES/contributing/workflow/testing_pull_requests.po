@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,34 +70,6 @@ msgstr ""
 "Abre la página de la pull request. Haz clic en la pestaña **Checks** que "
 "está cerca de la parte superior de la página:"
 
-#, fuzzy
-msgid "Click the **Artifacts** dropdown on the right of the page:"
-msgstr ""
-"Haz clic en el menú desplegable **Artifacts** en el lado derecho de la "
-"página y luego haz clic en el nombre del artefacto para descargarlo:"
-
-msgid ""
-"In the dropdown, click the artifact's name to download it. Remember to "
-"scroll if you cannot see the name of the platform you're looking for:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Extract the ZIP archive then run the executable. Note that Windows and macOS "
-"binaries are **not** code signed. This means you may have to bypass a "
-"security warning before you can run the executable. On Windows, if you "
-"frequently test pull request builds, it may be better to disable Windows "
-"SmartScreen permanently in the Windows security settings. On macOS, see :ref:"
-"`doc_running_on_macos` for instructions on bypassing Gatekeeper."
-msgstr ""
-"Descomprime el archivo ZIP y luego ejecuta el ejecutable. Ten en cuenta que "
-"los binarios de Windows y macOS no están firmados. Esto significa que es "
-"posible que debas omitir una advertencia de seguridad antes de poder "
-"ejecutar el ejecutable. Si pruebas frecuentemente las compilaciones de "
-"solicitudes de extracción, puede ser mejor deshabilitar Windows SmartScreen "
-"o `desactivar permanentemente Gatekeeper en macOS <https://disable-"
-"gatekeeper.github.io/>`__."
-
 msgid "If you don't have a GitHub account"
 msgstr "Si usted NO tiene una cuenta de GitHub"
 
@@ -121,36 +88,6 @@ msgid ""
 msgstr ""
 "Abre la página del pull request. Haz clic en el nombre de la rama *fork* "
 "cerca de la parte superior de la página:"
-
-#, fuzzy
-msgid ""
-"Now that you are on the fork's branch page, click the ``.github`` folder at "
-"the top of the file list. Then, click on the ``workflows`` folder (which is "
-"inside the ``.github`` folder). Click the workflow file for the platform you "
-"wish to download artifacts for. *After* clicking on the file (which opens "
-"the file view), copy the page URL from your browser's address bar."
-msgstr ""
-"Ahora que estás en la página de la rama del *fork*, haz clic en la carpeta "
-"``.github`` en la parte superior de la lista de archivos. Luego, haz clic en "
-"la carpeta ``workflows`` (que está dentro de la carpeta ``.github``). Haz "
-"clic en el archivo de flujo de trabajo para la plataforma de la que deseas "
-"descargar los artefactos. *Después* de hacer clic en el archivo (lo que abre "
-"la vista del archivo), copia la URL de la página desde la barra de "
-"direcciones de tu navegador."
-
-#, fuzzy
-msgid ""
-"Open the `nightly.link <https://nightly.link>`__ website and paste the URL "
-"you just copied into the text field located below the heading **Paste a "
-"GitHub link, get a nightly.link!**. After pasting the URL, click **Get "
-"links** on the right. If the format of the URL you pasted is correct, you "
-"should be presented with a page like this:"
-msgstr ""
-"Abre el sitio web `nightly.link <https://nightly.link>`__. Pega la URL que "
-"acabas de copiar en el campo de texto que se encuentra debajo del encabezado "
-"**Paste a GitHub link, get a nightly.link!**. Después de pegar la URL, haz "
-"clic en **Get links** a la derecha. Si el formato de la URL que pegaste es "
-"correcto, deberías ver una página como esta:"
 
 msgid "Click the URL of the artifact you wish to download."
 msgstr "Haz clic en la URL del artefacto que deseas descargar."
@@ -182,10 +119,6 @@ msgstr ""
 "hace más de 90 días, o para probar en plataformas y configuraciones que no "
 "son compatibles con la configuración de Godot en GitHub Actions."
 
-#, fuzzy
-msgid "Downloading a zipped pull request branch"
-msgstr "Compilar una rama de pull request desde el código fuente"
-
 msgid ""
 "Now that you are on the fork's branch page, click the green **Code** button "
 "on the right of the page then choose **Download ZIP** in the dropdown:"
@@ -197,35 +130,6 @@ msgstr ""
 msgid ""
 "Extract the ZIP archive and follow the :ref:`compiling <toc-devel-"
 "compiling>` instructions for your operating system."
-msgstr ""
-"Extrae el archivo ZIP y sigue las instrucciones de :ref:`compilación <toc-"
-"devel-compiling>` para tu sistema operativo."
-
-#, fuzzy
-msgid "Checking out a pull request branch with git"
-msgstr "Compilar una rama de pull request desde el código fuente"
-
-msgid "Alternatively, you can checkout the pull request directly with git:"
-msgstr ""
-
-msgid ""
-"Open the pull request page. Note the pull request *number* (``PR_NUMBER``), "
-"and the *branch name* (``BRANCH_NAME``), but without the user name."
-msgstr ""
-
-msgid "Construct the command using this pattern:"
-msgstr ""
-
-msgid "So for the pull request above, the actual command will be:"
-msgstr ""
-
-msgid "Once the pull request finishes downloading, checkout its branch:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"And follow the :ref:`compiling <toc-devel-compiling>` instructions for your "
-"operating system."
 msgstr ""
 "Extrae el archivo ZIP y sigue las instrucciones de :ref:`compilación <toc-"
 "devel-compiling>` para tu sistema operativo."

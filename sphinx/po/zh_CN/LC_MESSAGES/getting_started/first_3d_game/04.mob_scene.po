@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,7 +269,6 @@ msgstr ""
 "`VisibleOnScreenNotifier3D <class_VisibleOnScreenNotifier3D>` 节点的 "
 "``screen_exited`` 信号连接到 ``Mob`` 上。"
 
-#, fuzzy
 msgid ""
 "Head back to the 3D viewport by clicking on the *3D* label at the top of the "
 "editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
@@ -312,7 +306,6 @@ msgstr "|image10|"
 msgid "image10"
 msgstr "image10"
 
-#, fuzzy
 msgid ""
 "This will add a new function for you in your mob script, "
 "``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
@@ -326,9 +319,6 @@ msgid ""
 "Our monster is ready to enter the game! In the next part, you will spawn "
 "monsters in the game level."
 msgstr "我们的怪物已经准备好进入游戏了！在下一部分，你将在游戏关卡中生成怪物。"
-
-msgid "Here is the complete ``Mob.gd`` script for reference."
-msgstr "这是仅供参考的完整 ``Mob.gd`` 脚本。"
 
 msgid "Translation status"
 msgstr "翻译状态"

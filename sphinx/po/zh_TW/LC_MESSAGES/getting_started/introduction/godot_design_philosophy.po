@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -269,18 +264,6 @@ msgstr ""
 "**Godot 是由社群製作，也是為社群以及世界上所有遊戲創作者所製作的。** 重大的更"
 "新都是由使用者的需求與開放的討論而來的。核心開發者製作的新功能通常是優先是為"
 "了大多數使用者的利益來考慮。"
-
-#, fuzzy
-msgid ""
-"That said, although a handful of core developers work on it full-time, the "
-"project has thousands of contributors at the time of writing. Benevolent "
-"programmers work on features they may need themselves, so you'll see "
-"improvements in all corners of the engine at the same time in every major "
-"release."
-msgstr ""
-"話雖如此，雖然 Godot 只有少數全職的核心開發者，但本文撰寫時本專案有超過 600 "
-"位貢獻者。這些佛心的工程師都是在處理各自的需求，所以 Godot 每次主要更新都包含"
-"了各方面的改進。"
 
 msgid "The Godot editor is a Godot game"
 msgstr "Godot 編輯器就是一個 Godot 遊戲"

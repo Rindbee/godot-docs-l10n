@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,16 +73,6 @@ msgstr ""
 "目の引数を増やし、ヒント ``filter_nearest`` を ``filter_nearest_mipmap`` (ま"
 "たはミップマップが有効になっている他のフィルタ) に変更します。ミップマップ"
 "フィルターを使用する場合、Godotはぼやけたテクスチャを自動的に計算します。"
-
-#, fuzzy
-msgid ""
-"If the filter mode is not changed to a filter mode that contains ``mipmap`` "
-"in its name, ``textureLod`` with an LOD parameter greater than ``0.0`` will "
-"have the same appearance as with the ``0.0`` LOD parameter."
-msgstr ""
-"フィルタモードが名前に ``mipmap`` を含むフィルタモードに変更されていない場"
-"合、LOD パラメータが ``0.0`` より大きい ``textureLod`` は ``0.0`` と同じ外観"
-"になります。"
 
 msgid "Screen texture example"
 msgstr "スクリーンテクスチャの使用例"

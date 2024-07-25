@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +17,7 @@ msgstr "Lista de características"
 
 msgid "This page aims to list **all** features currently supported by Godot."
 msgstr ""
-"Esta pagina tiene como objetivo listar **todas** las características "
+"Esta página tiene como objetivo listar **todas** las características "
 "actualmente soportadas por Godot."
 
 msgid ""
@@ -37,16 +32,6 @@ msgstr ""
 
 msgid "Platforms"
 msgstr "Plataformas"
-
-msgid ""
-"See :ref:`doc_system_requirements` for hardware and software version "
-"requirements."
-msgstr ""
-"Véase :ref`doc_system_requirements` para los requerimientos de hardware y "
-"software."
-
-msgid "**Can run both the editor and exported projects:**"
-msgstr "**Puede correr, tanto el editor como los proyectos exportados:**"
 
 msgid "Windows (x86, 64-bit and 32-bit)."
 msgstr "Windows (x86, 64-bit y 32-bit)."
@@ -127,25 +112,15 @@ msgstr "Editor del Árbol de Escenas."
 msgid "Built-in script editor."
 msgstr "Editor de scripts integrado."
 
-msgid ""
-"Support for :ref:`external script editors <doc_external_editor>` such as "
-"Visual Studio Code or Vim."
-msgstr ""
-"Soporte para :ref:`editores externos de código <doc_external_editor_>`tal "
-"como Visual Studio Code o Vim."
-
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`depurador <doc_debugger_panel>`."
-
-msgid "Support for debugging in threads is available since 4.2."
-msgstr "La depuración en subprocesos esta disponible desde la 4.2."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
 "rendering pipeline."
 msgstr ""
-"Generador de perfiles visual con indicaciones de tiempo de CPU y GPU para "
-"cada paso del proceso de renderizado."
+"Un perfilador visual con indicaciones de tiempo de CPU y GPU para cada paso "
+"del canal de renderizado."
 
 msgid ""
 "Performance monitoring tools, including :ref:`custom performance monitors "
@@ -184,21 +159,8 @@ msgid "Move the in-editor camera and see the result in the running project."
 msgstr ""
 "Mueve la cámara en el editor y mira el resultado en el proyecto ejecutándose."
 
-msgid "Built-in offline class reference documentation."
-msgstr "Documentación de referencia de clase fuera de línea incorporada."
-
-msgid "Use the editor in dozens of languages contributed by the community."
-msgstr "Usa el editor en docenas de lenguajes contribuidos por la comunidad."
-
 msgid "**Plugins:**"
 msgstr "**Plugins:**"
-
-msgid ""
-"Editor plugins can be downloaded from the :ref:`asset library "
-"<doc_what_is_assetlib>` to extend editor functionality."
-msgstr ""
-"Los plugins del editor se pueden descargar de la :ref:`librería de assets "
-"<doc_what_is_assetlib>` para extender la funcionalidad del editor."
 
 msgid ""
 ":ref:`Create your own plugins <doc_making_plugins>` using GDScript to add "
@@ -214,9 +176,6 @@ msgstr ""
 ":ref:`Descarga proyectos desde la biblioteca de recursos "
 "<doc_using_assetlib_editor>` en el Administrador de Proyectos e impórtalos "
 "directamente."
-
-msgid "Rendering"
-msgstr "Renderización"
 
 msgid ""
 "3 rendering *methods* (running over 2 rendering *drivers*) are available:"
@@ -240,7 +199,7 @@ msgid ""
 "mobile and desktop platforms. Used by default on mobile platforms."
 msgstr ""
 "**Forward Mobile**, que funciona sobre Vulkan 1.0 (con características "
-"opcionales de Vulkan 1.1 y 1.2). Menos características, pero renderiza "
+"opcionales de Vulkan 1.1 y 1.2). Con menos características, pero renderiza "
 "escenas sencillas más rápido. Adecuado para plataformas móviles y de "
 "escritorio. Es utilizado por defecto en plataformas móviles."
 
@@ -272,9 +231,6 @@ msgstr "AnimatedSprite2D como ayudante para crear sprites animados."
 msgid "Parallax layers."
 msgstr "Capas de parallax."
 
-msgid "Pseudo-3D support including preview in the editor."
-msgstr "Compatibilidad con pseudo-3D, incluida la vista previa en el editor."
-
 msgid ""
 ":ref:`2D lighting <doc_2d_lights_and_shadows>` with normal maps and specular "
 "maps."
@@ -284,9 +240,6 @@ msgstr ""
 
 msgid "Point (omni/spot) and directional 2D lights."
 msgstr "Luces 2D puntuales (omnidireccional, lámpara) y direccionales."
-
-msgid "Hard or soft shadows (adjustable on a per-light basis)."
-msgstr "Sombras duras o difusas (ajustable por luz)."
 
 msgid ""
 "Custom shaders can access a real-time :abbr:`SDF (Signed Distance Field)` "
@@ -814,13 +767,6 @@ msgid ""
 msgstr ""
 "Soporte de filtro más cercano, bilineal, trilineal o anisotrópico "
 "(configurado globalmente)."
-
-#, fuzzy
-msgid ""
-"Optional distance fade system to fade distant decals, improving performance."
-msgstr ""
-"Sistema opcional de atenuación a distancia para atenuar las luces distantes "
-"y sus sombras, mejorando el rendimiento."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "

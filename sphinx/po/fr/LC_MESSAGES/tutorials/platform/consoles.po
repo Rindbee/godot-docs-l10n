@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,38 +15,6 @@ msgstr ""
 msgid "Console support in Godot"
 msgstr "Support des consoles dans Godot"
 
-#, fuzzy
-msgid "Console porting process"
-msgstr "Processus de publication sur console"
-
-msgid ""
-"In order to develop for consoles in Godot, you need access to the console "
-"SDK and export templates for it. These export templates need to be developed "
-"either by yourself or someone hired to do it, or provided by a third party "
-"company."
-msgstr ""
-
-msgid ""
-"Currently, the only console Godot officially supports is Steam Deck (through "
-"the official Linux export templates)."
-msgstr ""
-
-#, fuzzy
-msgid "The reason other consoles are not officially supported are:"
-msgstr ""
-"Godot supporte le Steam Deck basé sur Linux. Les raisons pour lesquelles les "
-"autres consoles ne sont pas officiellement prises en charge sont les "
-"suivantes :"
-
-#, fuzzy
-msgid ""
-"To develop for consoles, one must be licensed as a company. As an open "
-"source project, Godot has no legal structure to provide console ports."
-msgstr ""
-"Pour développer pour les consoles, il faut être licencié en tant "
-"qu'entreprise. En tant que projet open source, Godot n'a pas une telle "
-"figure juridique."
-
 msgid ""
 "Console SDKs are secret and covered by non-disclosure agreements. Even if we "
 "could get access to them, we could not publish the platform-specific code "
@@ -60,28 +23,6 @@ msgstr ""
 "Les SDK de consoles sont secrets et couverts par des accords de non-"
 "divulgation. Même si nous pouvions y accéder, nous ne pourrions pas publier "
 "le code spécifique à la plateforme sous une licence open source."
-
-#, fuzzy
-msgid ""
-"As explained, however, it is possible to port your games to consoles thanks "
-"to services provided by third-party companies."
-msgstr ""
-"Cependant, il est toujours possible de porter vos jeux sur les consoles "
-"grâce aux services fournis par des sociétés tierces."
-
-#, fuzzy
-msgid ""
-"In practice, the process is quite similar to Unity and Unreal Engine. In "
-"other words, there is no engine that is legally allowed to distribute "
-"console export templates without requiring the user to prove that they are a "
-"licensed console developer."
-msgstr ""
-"En pratique, le processus est assez similaire à Unity et Unreal Engine, sauf "
-"que vous devez contacter un développeur tiers pour gérer le processus de "
-"portage. En d'autres termes, aucun moteur n'est légalement autorisé à "
-"distribuer des modèles d'exportation de console sans exiger de l'utilisateur "
-"qu'il prouve qu'il est un développeur de console sous licence. Cela "
-"violerait le NDA du fabricant de la console."
 
 msgid "Console publishing process"
 msgstr "Processus de publication sur console"
@@ -128,32 +69,6 @@ msgstr ""
 "Portez le moteur sur la plateforme de la console ou payez une entreprise "
 "pour le faire."
 
-#, fuzzy
-msgid ""
-"To be published, your game needs to be rated in the regions you'd like to "
-"sell it in. For example, game ratings are handled by `ESRB <https://www.esrb."
-"org/>`__ in North America, and `PEGI <https://pegi.info/>`__ in Europe. "
-"Indie developers can generally get a rating for cheaper compared to more "
-"established developers."
-msgstr ""
-"Pour être publié, votre jeu doit être classé dans les régions où vous "
-"souhaitez le vendre. Par exemple, en Amérique du Nord, c'est l'`ESRB "
-"<https://www.esrb.org/>`__ qui gère le classement des jeux. En Europe, c'est "
-"le `PEGI <https://pegi.info/>`__ qui s'en charge. Les développeurs "
-"indépendants peuvent généralement obtenir une classification moins chère par "
-"rapport aux développeurs plus établis."
-
-msgid ""
-"Due to the complexity of the process, many studios and developers prefer to "
-"outsource console porting."
-msgstr ""
-
-msgid ""
-"You can read more about the console publishing process in this article: "
-"`Godot and consoles, all you need to know <https://godotengine.org/article/"
-"godot-consoles-all-you-need-know/>`__"
-msgstr ""
-
 msgid "Third-party support"
 msgstr "Support de tierce partie"
 
@@ -168,73 +83,6 @@ msgstr ""
 
 msgid "Following is the list of providers:"
 msgstr "Voici la liste des fournisseurs :"
-
-#, fuzzy
-msgid ""
-"`Lone Wolf Technology <https://www.lonewolftechnology.com/>`_ offers Switch "
-"and Playstation 4 porting and publishing of Godot games."
-msgstr ""
-"`Lone Wolf Technology <http://www.lonewolftechnology.com/>`_ propose le "
-"portage et l'édition de jeux Godot sur Switch et PS4."
-
-#, fuzzy
-msgid ""
-"`Pineapple Works <https://pineapple.works/>`_ offers Switch, Xbox One & Xbox "
-"Series X/S (GDK) porting and publishing of Godot games (GDScript/C#)."
-msgstr ""
-"`Pineapple Works <https://pineapple.works/>`_ propose le portage et "
-"l'édition de jeux Godot sur Switch, Xbox One et Xbox Series X/S."
-
-#, fuzzy
-msgid ""
-"`RAWRLAB games <https://www.rawrlab.com/>`_ offers Switch porting of Godot "
-"games."
-msgstr ""
-"`Lone Wolf Technology <http://www.lonewolftechnology.com/>`_ propose le "
-"portage et l'édition de jeux Godot sur Switch et PS4."
-
-#, fuzzy
-msgid ""
-"`mazette! games <https://mazette.games/>`_ offers Switch, Xbox One and Xbox "
-"Series X/S porting and publishing of Godot games."
-msgstr ""
-"`Pineapple Works <https://pineapple.works/>`_ propose le portage et "
-"l'édition de jeux Godot sur Switch, Xbox One et Xbox Series X/S."
-
-#, fuzzy
-msgid ""
-"`Olde Sküül <https://oldeskuul.com/>`_ offers Switch, Xbox One, Playstation "
-"4 & Playstation 5 porting and publishing of Godot games."
-msgstr ""
-"`Pineapple Works <https://pineapple.works/>`_ propose le portage et "
-"l'édition de jeux Godot sur Switch, Xbox One et Xbox Series X/S."
-
-#, fuzzy
-msgid ""
-"`Tuanisapps <https://www.tuanisapps.com/>`_ offers Switch porting and "
-"publishing of Godot games."
-msgstr ""
-"`Lone Wolf Technology <http://www.lonewolftechnology.com/>`_ propose le "
-"portage et l'édition de jeux Godot sur Switch et PS4."
-
-#, fuzzy
-msgid ""
-"`Seaven Studio <https://www.seaven-studio.com/>`_ offers Switch, Xbox One, "
-"Xbox Series, PlayStation 4 & PlayStation 5 porting of Godot games."
-msgstr ""
-"`Pineapple Works <https://pineapple.works/>`_ propose le portage et "
-"l'édition de jeux Godot sur Switch, Xbox One et Xbox Series X/S."
-
-#, fuzzy
-msgid ""
-"If your company offers porting, or porting *and* publishing services for "
-"Godot games, feel free to `contact the Godot Foundation <https://godot."
-"foundation/#contact>`_ to add your company to the list above."
-msgstr ""
-"Si votre entreprise propose des services de portage et/ou de publication "
-"pour les jeux Godot, n'hésitez pas à `ouvrir une issue ou à faire une pull "
-"request <https://github.com/godotengine/godot-docs>`_ pour ajouter votre "
-"entreprise à la liste ci-dessus."
 
 msgid "Translation status"
 msgstr "État de la traduction"

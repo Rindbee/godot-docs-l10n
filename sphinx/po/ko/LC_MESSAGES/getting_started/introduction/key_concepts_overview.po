@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,23 +66,6 @@ msgstr ""
 "씬(scene)은 하나 이상의 **노드**(nodes)로 구성됩니다. 노드는 게임의 가장 작"
 "은 구성 요소로, 이를 트리(tree)로 배열합니다. 다음은 캐릭터의 노드 예시입니"
 "다."
-
-#, fuzzy
-msgid ""
-"It is made of a ``CharacterBody2D`` node named \"Player\", a ``Camera2D``, a "
-"``Sprite2D``, and a ``CollisionShape2D``."
-msgstr ""
-"캐릭터 씬은 \"Character\"라는 이름을 가진 ``KinematicBody2D`` 노드와, "
-"``Sprite``, ``Camera2D``, 그리고 ``CollisionShape2D``로 구성됩니다."
-
-#, fuzzy
-msgid ""
-"The node names end with \"2D\" because this is a 2D scene. Their 3D "
-"counterparts have names that end with \"3D\". Be aware that \"Spatial\" "
-"Nodes are now called \"Node3D\" starting with Godot 4."
-msgstr ""
-"노드 이름이 \"2D\"로 끝나는 이유는 이것이 2D 씬이기 때문입니다. 3D 씬에서는 "
-"이와 대응하는 노드 이름이 \"3D\"로 끝납니다."
 
 msgid ""
 "Notice how nodes and scenes look the same in the editor. When you save a "

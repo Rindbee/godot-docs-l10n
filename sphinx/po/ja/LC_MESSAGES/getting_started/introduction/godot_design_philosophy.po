@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -289,19 +284,6 @@ msgstr ""
 "ムクリエイターのために作られています。**\\ コアアップデートを推進するのは、"
 "ユーザーのニーズとオープンな議論です。コア開発者が提供する新機能は、多くの場"
 "合、最も多くのユーザーにメリットをもたらすものに重点が置かれます。"
-
-#, fuzzy
-msgid ""
-"That said, although a handful of core developers work on it full-time, the "
-"project has thousands of contributors at the time of writing. Benevolent "
-"programmers work on features they may need themselves, so you'll see "
-"improvements in all corners of the engine at the same time in every major "
-"release."
-msgstr ""
-"つまり、フルタイムで働く中心的開発者はわずか数名ですが、このプロジェクトには"
-"現時点で600名を超える貢献者がおります。善意のプログラマーの方々が自分自身の求"
-"める機能を追加していくので、メジャーリリースのたびにエンジンのあらゆる点が改"
-"善されていくのです。"
 
 msgid "The Godot editor is a Godot game"
 msgstr "Godotエディタ自身がGodotのゲーム"

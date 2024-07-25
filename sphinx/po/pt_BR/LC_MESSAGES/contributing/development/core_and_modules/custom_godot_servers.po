@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,33 +18,11 @@ msgstr "Servidores Godot personalizados"
 msgid "Introduction"
 msgstr "Introdução"
 
-msgid ""
-"Godot implements multi-threading as servers. Servers are daemons which "
-"manage data, process it, and push the result. Servers implement the mediator "
-"pattern which interprets resource ID and process data for the engine and "
-"other modules. In addition, the server claims ownership for its RID "
-"allocations."
-msgstr ""
-
-msgid ""
-"This guide assumes the reader knows how to create C++ modules and Godot data "
-"types. If not, refer to :ref:`doc_custom_modules_in_cpp`."
-msgstr ""
-
 msgid "References"
 msgstr "Referências"
 
-msgid ""
-"`Why does Godot use servers and RIDs? <https://godotengine.org/article/why-"
-"does-godot-use-servers-and-rids>`__"
-msgstr ""
-
 msgid "`Singleton pattern <https://en.wikipedia.org/wiki/Singleton_pattern>`__"
 msgstr "`Padrão singleton <https://en.wikipedia.org/wiki/Singleton_pattern>`__"
-
-#, fuzzy
-msgid "`Mediator pattern <https://en.wikipedia.org/wiki/Mediator_pattern>`__"
-msgstr "`Mediator pattern <https://en.wikipedia.org/wiki/Mediator_pattern>`__"
 
 msgid "What for?"
 msgstr "Para que serve?"
@@ -57,17 +30,8 @@ msgstr "Para que serve?"
 msgid "Adding artificial intelligence."
 msgstr "Adicionando inteligência artificial."
 
-msgid "Adding custom asynchronous threads."
-msgstr ""
-
-msgid "Adding support for a new input device."
-msgstr ""
-
 msgid "Adding writing threads."
 msgstr "Adicionando escrita de partes_paralelizáveis."
-
-msgid "Adding a custom VoIP protocol."
-msgstr ""
 
 msgid "And more..."
 msgstr "E mais..."
@@ -75,51 +39,11 @@ msgstr "E mais..."
 msgid "Creating a Godot server"
 msgstr "Criando um servidor Godot"
 
-msgid ""
-"At minimum, a server must have a static instance, a sleep timer, a thread "
-"loop, an initialization state and a cleanup procedure."
-msgstr ""
-
-msgid "Custom managed resource data"
-msgstr ""
-
-msgid ""
-"Godot servers implement a mediator pattern. All data types inherit "
-"``RID_Data``. ``RID_Owner<MyRID_Data>`` owns the object when ``make_rid`` is "
-"called. During debug mode only, RID_Owner maintains a list of RIDs. In "
-"practice, RIDs are similar to writing object-oriented C code."
-msgstr ""
-
 msgid ":ref:`RID<class_rid>`"
 msgstr ":ref:`RID <class_rid>`"
 
-#, fuzzy
-msgid ""
-"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
-"templates/rid.h>`__"
-msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/3.x/core/rid.h>`__"
-
 msgid "Registering the class in GDScript"
 msgstr "Registrando a classe no GDScript"
-
-msgid ""
-"Servers are allocated in ``register_types.cpp``. The constructor sets the "
-"static instance and ``init()`` creates the managed thread; "
-"``unregister_types.cpp`` cleans up the server."
-msgstr ""
-
-msgid ""
-"Since a Godot server class creates an instance and binds it to a static "
-"singleton, binding the class might not reference the correct instance. "
-"Therefore, a dummy class must be created to reference the proper Godot "
-"server."
-msgstr ""
-
-msgid ""
-"In ``register_server_types()``, ``Engine::get_singleton()->add_singleton`` "
-"is used to register the dummy class in GDScript."
-msgstr ""
 
 msgid ""
 "`servers/register_server_types.cpp <https://github.com/godotengine/godot/"
@@ -131,21 +55,8 @@ msgstr ""
 msgid "Bind methods"
 msgstr "Vincular métodos"
 
-msgid ""
-"The dummy class binds singleton methods to GDScript. In most cases, the "
-"dummy class methods wraps around."
-msgstr ""
-
 msgid "Binding Signals"
 msgstr "Ligando Sinais"
-
-msgid ""
-"It is possible to emit signals to GDScript by calling the GDScript dummy "
-"object."
-msgstr ""
-
-msgid "MessageQueue"
-msgstr ""
 
 msgid ""
 "In order to send commands into SceneTree, MessageQueue is a thread-safe "
@@ -165,14 +76,6 @@ msgstr ""
 msgid "References:"
 msgstr "Referências:"
 
-#, fuzzy
-msgid ""
-"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/object/message_queue.cpp>`__"
-msgstr ""
-"`core/message_queue.cpp <https://github.com/godotengine/godot/blob/3.x/core/"
-"message_queue.cpp>`__"
-
 msgid "Summing it up"
 msgstr "Resumindo"
 
@@ -181,14 +84,6 @@ msgstr "Aqui está o código de amostra em GDScript:"
 
 msgid "Notes"
 msgstr "Notas"
-
-msgid ""
-"The actual `Hilbert Hotel <https://en.wikipedia.org/wiki/"
-"Hilbert%27s_paradox_of_the_Grand_Hotel>`__ is impossible."
-msgstr ""
-
-msgid "Connecting signal example code is pretty hacky."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

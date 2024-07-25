@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,21 +306,6 @@ msgstr "好極了！ 我們的動畫運作:"
 msgid "The animation"
 msgstr "動畫"
 
-#, fuzzy
-msgid "Autoplay on load"
-msgstr "自動載入"
-
-msgid ""
-"You can make it so an animation plays automatically when the AnimationPlayer "
-"nodes scene starts, or joins another scene. To do this click the \"Autoplay "
-"on load\" button in the animation editor, it's right next to the edit button."
-msgstr ""
-
-msgid ""
-"The icon for it will also appear in front of the name of the animation, so "
-"you can easily identify which one is the autoplay animation."
-msgstr ""
-
 msgid "Back and forth"
 msgstr "來來回回"
 
@@ -357,12 +337,6 @@ msgstr ""
 
 msgid "Track settings"
 msgstr "軌道設定"
-
-#, fuzzy
-msgid ""
-"Each property track has a settings panel at the end, where you can set its "
-"update mode, track interpolation, and loop mode."
-msgstr "每條軌道最後都有一個設定面板，可以設定更新模式, 軌道插值, 迴圈模式。"
 
 msgid ""
 "The update mode of a track tells Godot when to update the property values. "
@@ -537,33 +511,11 @@ msgstr ""
 "板，然後選擇動畫編輯器**動畫**下拉式功能表中的**應用重設**。"
 
 msgid ""
-"when using the keyframe icon next to a property in the inspector the editor "
-"will ask you to automatically create a RESET track."
-msgstr ""
-
-msgid ""
 "RESET tracks is also used as a reference value for blending. See also `For "
 "better blending <../animation/animation_tree.html#for-better-blending>`__."
 msgstr ""
 "RESET 軌道也用作混合的參考值。另請參閱“為了更好地混合<../animation/"
 "animation_tree.html#for-better-blending>”__。"
-
-#, fuzzy
-msgid "Onion Skinning"
-msgstr "Animation - 動畫選項"
-
-msgid ""
-"Godot's animation editor allows you use onion skinning while creating an "
-"animation. To turn this feature on click on the onion icon in the top right "
-"of the animation editor. Now there will be transparent red copies of what is "
-"being animated in its previous positions in the animation."
-msgstr ""
-
-msgid ""
-"The three dots button next to the onion skinning button opens a dropdown "
-"menu that lets you adjust how it works, including the ability to use onion "
-"skinning for future frames."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

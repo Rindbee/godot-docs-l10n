@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,27 +222,6 @@ msgstr ""
 "externas? ¿se han satisfecho esas dependencias?. Otros programadores, y "
 "especialmente los diseñadores y escritores, necesitarán instrucciones claras "
 "en los mensajes que les indiquen qué hacer para configurarlo."
-
-#, fuzzy
-msgid ""
-"So, why does all this complex switcheroo work? Well, because scenes operate "
-"best when they operate alone. If unable to work alone, then working with "
-"others anonymously (with minimal hard dependencies, i.e. loose coupling) is "
-"the next best thing. Inevitably, changes may need to be made to a class and "
-"if these changes cause it to interact with other scenes in unforeseen ways, "
-"then things will start to break down. The whole point of all this "
-"indirection is to avoid ending up in a situation where changing one class "
-"results in adversely effecting other classes dependent on it."
-msgstr ""
-"¿Entonces, por qué todo esto funciona? Porque las escenas operan mejor "
-"cuando trabajan solas. Si no son capaces de funcionar solas al menos "
-"deberían intentar trabajar con otras de manera anónima (con mínimas "
-"dependencias, bajo acoplamiento) en el peor caso. Inevitablemente, puede que "
-"deban hacerse cambios a una clase y esto ocasione que interactúe con otras "
-"escenas de maneras no previstas, entonces las cosas se romperán. El objetivo "
-"de todo este proceso es para evitar terminar en una situación en donde "
-"cambiando una clase resulte en efectos adversos para otras clases que "
-"dependen de ella."
 
 msgid ""
 "Scripts and scenes, as extensions of engine classes, should abide by *all* "

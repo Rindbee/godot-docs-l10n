@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,26 +156,6 @@ msgstr ""
 msgid "InputMap"
 msgstr "InputMap (карта введення)"
 
-#, fuzzy
-msgid ""
-"The :ref:`InputMap <class_InputMap>` is the most flexible way to handle a "
-"variety of inputs. You use this by creating named input *actions*, to which "
-"you can assign any number of input events, such as keypresses or mouse "
-"clicks. To see them, and to add your own, open Project -> Project Settings "
-"and select the InputMap tab:"
-msgstr ""
-"Карта введення :ref:`InputMap <class_InputMap>` є найбільш гнучким способом "
-"обробки різних вводів. Ви використовуєте її, створюючи іменовані вхідні дії, "
-"яким можна призначити будь-яку кількість вхідних подій, таких як натискання "
-"клавіш, або клацання мишкою. Новий проект Godot містить ряд уже визначених "
-"дій за замовчуванням. Щоб переглянути їх і додати власні, відкрийте вікно "
-"**Проект -> Параметри проекту** та перейдіть на вкладку **Карта введення**:"
-
-msgid ""
-"A new Godot project includes a number of default actions already defined. To "
-"see them, turn on ``Show Built-in Actions`` in the InputMap dialog."
-msgstr ""
-
 msgid "Capturing actions"
 msgstr "Захоплення дій"
 
@@ -206,14 +181,6 @@ msgstr ""
 "Хоча рекомендується використовувати дії введення, можуть бути випадки, коли "
 "ви хочете переглянути саме події клавіатури. Для прикладу давайте перевіримо "
 "клавішу :kbd:`T`:"
-
-#, fuzzy
-msgid ""
-"See :ref:`@GlobalScope_Key <enum_@GlobalScope_Key>` for a list of keycode "
-"constants."
-msgstr ""
-"Перегляньте :ref:`@GlobalScope_KeyList <enum_@GlobalScope_KeyList>`, щоб "
-"ознайомитися зі списком констант сканкоду."
 
 msgid ""
 "Due to *keyboard ghosting*, not all key inputs may be registered at a given "
@@ -275,24 +242,6 @@ msgstr ""
 msgid "Mouse buttons"
 msgstr "Кнопки мишки"
 
-#, fuzzy
-msgid ""
-"Capturing mouse buttons is very similar to handling key events. :ref:"
-"`@GlobalScope_MouseButton <enum_@GlobalScope_MouseButton>` contains a list "
-"of ``MOUSE_BUTTON_*`` constants for each possible button, which will be "
-"reported in the event's ``button_index`` property. Note that the scrollwheel "
-"also counts as a button - two buttons, to be precise, with both "
-"``MOUSE_BUTTON_WHEEL_UP`` and ``MOUSE_BUTTON_WHEEL_DOWN`` being separate "
-"events."
-msgstr ""
-"Захоплення кнопок мишки дуже схоже на обробку подій клавіш. :ref:"
-"`@GlobalScope_ButtonList <enum_@GlobalScope_ButtonList>` містить список "
-"констант ``BUTTON_*`` для кожної можливої кнопки, які повідомляються у "
-"властивості події ``button_index``. Завбачте, що коліщатко прокрутки також "
-"вважається кнопкою - двома кнопками, якщо бути точним, причому "
-"``BUTTON_WHEEL_UP`` і ``BUTTON_WHEEL_DOWN`` *(прокрутка вверх-вниз)* є "
-"окремими подіями."
-
 msgid "Mouse motion"
 msgstr "Рух мишки"
 
@@ -304,14 +253,6 @@ msgstr ""
 "Події :ref:`InputEventMouseMotion <class_InputEventMouseMotion>` "
 "відбуваються щоразу, коли мишка рухається. Ви можете знайти відстань "
 "переміщення у властивості ``relative``."
-
-#, fuzzy
-msgid ""
-"Here's an example using mouse events to drag-and-drop a :ref:`Sprite2D "
-"<class_Sprite2D>` node:"
-msgstr ""
-"Ось приклад використання подій мишки для перетягування вузла :ref:`Sprite "
-"<class_Sprite>`:"
 
 msgid "Touch events"
 msgstr "Сенсорні події"

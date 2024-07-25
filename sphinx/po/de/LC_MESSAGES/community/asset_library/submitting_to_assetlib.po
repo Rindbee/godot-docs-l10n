@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -397,6 +392,9 @@ msgid ""
 "For icons hosted on GitHub, URLs must be provided in the form of `https://"
 "raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png`."
 msgstr ""
+"Für Icons, die auf GitHub gehostet werden, müssen die URLs in der Form "
+"`https://raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png` "
+"angegeben werden."
 
 msgid "**License**:"
 msgstr "**License**:"
@@ -433,9 +431,9 @@ msgid ""
 "of the preview submission boxes to enable them."
 msgstr ""
 "Sie können auch bis zu drei Video- und/oder Bild-Previews einfügen, die "
-"unten auf der Asset-Seite angezeigt werden. Verwenden Sie das "
-"Kontrollkästchen \"Aktivieren\" in jedem der Vorschau-Übermittlungsfelder, "
-"um sie zu aktivieren."
+"unten auf der Asset-Seite angezeigt werden. Verwenden Sie die Checkbox "
+"\"Aktivieren\" in jedem der Vorschau-Übermittlungsfelder, um sie zu "
+"aktivieren."
 
 msgid "**Type**:"
 msgstr "**Type**:"

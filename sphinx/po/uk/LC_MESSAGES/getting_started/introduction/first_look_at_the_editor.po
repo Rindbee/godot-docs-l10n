@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,41 +42,10 @@ msgstr ""
 "проектами, імпортувати або створювати нові тощо."
 
 msgid ""
-"At the top of the window, there is another tab named \"Asset Library "
-"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
-"button. For privacy reasons the Godot project manager does not access the "
-"internet by default. To change this click the \"Go Online button\", if you "
-"want to change your network mode back to \"offline\" you can do so from the "
-"project manager settings."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-"У верхній частині вікна є ще одна вкладка \"Проекти бібліотеки ресурсів\". "
-"Ви можете шукати демонстраційні проекти у бібліотеці ресурсів з відкритим "
-"вихідним кодом, яка містить багато проектів, розроблених спільнотою."
-
-msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr ""
 "Щоб дізнатися про тонкощі Менеджера Проекту, прочитайте розділ :ref:"
 "`doc_project_manager`."
-
-#, fuzzy
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr ""
-"Ви можете вимкнути безпечні рядки, або змінити їх колір у налаштуваннях "
-"редактора."
-
-msgid ""
-"From here use the language drop down menu to select your language. By "
-"default, it is in English (EN)."
-msgstr ""
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -223,14 +187,6 @@ msgstr ""
 "Ви можете шукати інформацію про клас, метод, властивість, константу або "
 "сигнал одним із наступних методів:"
 
-#, fuzzy
-msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr ""
-"Натисніть :kbd:`F1` (або :kbd:`Alt + Space` на macOS, або :kbd:`fn + F1` для "
-"ноутбуків з клавішею :kbd:`fn`) в будь-якому місці редактора."
-
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
@@ -240,13 +196,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "Вибравши в меню \"Довідка\" пункт \"Пошук довідки\"."
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"Клацнувши з натисненою клавішею :kbd:`Ctrl` на імені класу, назві функції "
-"або вбудованій змінній в редакторі сценаріїв."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

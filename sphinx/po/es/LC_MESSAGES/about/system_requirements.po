@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,17 +148,6 @@ msgstr ""
 "<class_@GlobalScope_method_print_rich>`). El soporte para Windows 7/8/8.1 "
 "podría ser retirado en una :ref:`future Godot 4.x release "
 "<doc_release_policy>`."
-
-#, fuzzy
-msgid ""
-"Vulkan drivers for these Windows versions are known to have issues with "
-"memory leaks. As a result, it's recommended to stick to the Compatibility "
-"rendering method when running Godot on a Windows version older than 10."
-msgstr ""
-"Los controladores de Vulkan para estas verisiones de windows son conocidas "
-"por tener problemas con fugas de memoria. Como resultado, es recomendado "
-"quedarse en el metodo de renderizado Compatibility al correr Godot en una "
-"version de Windows posterior a la 10."
 
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "Dispositivos móviles (teléfonos inteligentes/tabletas) - Mínimo"

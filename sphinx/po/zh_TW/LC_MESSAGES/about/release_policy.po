@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,14 +154,6 @@ msgstr "**釋出日期**"
 msgid "**Support level**"
 msgstr "**支援等級**"
 
-#, fuzzy
-msgid "Godot 4.3 (`master`)"
-msgstr "Godot 4.2（ `master` ）"
-
-#, fuzzy
-msgid "June 2024 (estimate)"
-msgstr "2023 年第三季度（預計）"
-
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -175,14 +162,6 @@ msgstr ""
 
 msgid "unstable"
 msgstr "啟用"
-
-#, fuzzy
-msgid "Godot 4.2"
-msgstr "Godot 4.0"
-
-#, fuzzy
-msgid "November 2023"
-msgstr "2014 年 12 月"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -204,19 +183,11 @@ msgstr "Godot 4.0"
 msgid "March 2023"
 msgstr "2019 年 3 月"
 
-#, fuzzy
-msgid "|eol| No longer supported (last update: 4.0.4)."
-msgstr "|eol| 已停止支援。"
-
 msgid "eol"
 msgstr "eol"
 
 msgid "Godot 3.6 (`3.x`, LTS)"
 msgstr "Godot 3.2"
-
-#, fuzzy
-msgid "Q1 2024 (estimate)"
-msgstr "2023 年第三季度（預計）"
 
 msgid ""
 "|supported| *Beta.* Receives new features, usability and performance "
@@ -236,19 +207,11 @@ msgstr "Godot 3.2"
 msgid "November 2021"
 msgstr "2014 年 12 月"
 
-#, fuzzy
-msgid "|eol| No longer supported (last update: 3.4.5)."
-msgstr "|eol| 已停止支援。"
-
 msgid "Godot 3.3"
 msgstr "Godot 3.2"
 
 msgid "April 2021"
 msgstr "2019 年 3 月"
-
-#, fuzzy
-msgid "|eol| No longer supported (last update: 3.3.4)."
-msgstr "|eol| 已停止支援。"
 
 msgid "Godot 3.2"
 msgstr "Godot 3.2"
@@ -427,15 +390,6 @@ msgstr ""
 "雖然對於 Godot 的貢獻者來說並不需要趕專案截止期限，但通常 Godot 每年都會出新"
 "的主要或次要版本。按照這個趨勢來看，Godot 4.0 很可能會在 **2021** 年出。"
 
-#, fuzzy
-msgid ""
-"In particular, after the very length release cycle for 4.0, we are pivoting "
-"to a faster paced development workflow, 4.1 released 4 months after 4.0, and "
-"4.2 released 4 months after 4.1"
-msgstr ""
-"尤其是在 4.0 經歷了漫長的發行週期之後，我們正在轉向更快節奏的開發工作流程，預"
-"計 4.1 版本將在 2023 年第二季度末 / 第三季度初發行。"
-
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "
 "as experimental), get user feedback quickly, and iterate to improve those "
@@ -572,19 +526,6 @@ msgid ""
 "Since Godot 5.0 hasn't been branched off yet, we currently discourage making "
 "compatibility-breaking changes of this kind."
 msgstr "由於 Godot 5.0 分支目前還沒有建立，我們不建議這種破壞相容性的更改。"
-
-#, fuzzy
-msgid ""
-"When modifying a method's signature in any fashion (including adding an "
-"optional parameter), a GDExtension compatibility method must be created. "
-"This ensures that existing GDExtensions continue to work across patch and "
-"minor releases, so that users don't have to recompile them. See :ref:"
-"`doc_handling_compatibility_breakages` for more information."
-msgstr ""
-"當以任何方式修改一個方法的簽章（包括新增可選參數）時，必須建立一個 "
-"GDExtension 相容方法。這將確保現有的 GDExtensions 能夠在更新版本和次要版本中"
-"繼續工作，如此使用者就不必重新編譯它們。更多資訊請參見`拉取清求 #76446 "
-"<https://github.com/godotengine/godot/pull/76446>`_ 。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,12 +54,6 @@ msgstr "その他のもの。"
 msgid "Features can be queried at run-time from the singleton API by calling:"
 msgstr "機能は、次の呼び出しによってシングルトンAPIから実行時に照会できます:"
 
-msgid ""
-"OS feature tags are used by GDExtension to determine which libraries to "
-"load. For example, a library for ``linux.debug.editor.x86_64`` will be "
-"loaded only on a debug editor build for Linux x86_64."
-msgstr ""
-
 msgid "Default features"
 msgstr "デフォルトのフィーチャー"
 
@@ -81,53 +70,8 @@ msgstr "**フィーチャータグ**"
 msgid "**Description**"
 msgstr "**説明**"
 
-#, fuzzy
-msgid "**android**"
-msgstr "\\ **Android**"
-
-msgid "Running on Android (but not within a Web browser)"
-msgstr ""
-
-msgid "**bsd**"
-msgstr ""
-
-msgid "Running on \\*BSD (but not within a Web browser)"
-msgstr ""
-
-#, fuzzy
-msgid "**linux**"
-msgstr "\\ **Alpine Linux**"
-
-msgid "Running on Linux (but not within a Web browser)"
-msgstr ""
-
-#, fuzzy
-msgid "**macos**"
-msgstr "**macOS**"
-
-msgid "Running on macOS (but not within a Web browser)"
-msgstr ""
-
-msgid "**ios**"
-msgstr ""
-
-msgid "Running on iOS (but not within a Web browser)"
-msgstr ""
-
-#, fuzzy
-msgid "**windows**"
-msgstr "\\ **Windows**"
-
 msgid "Running on Windows"
 msgstr "Windowsで実行"
-
-#, fuzzy
-msgid "**linuxbsd**"
-msgstr "\\ **Alpine Linux**"
-
-#, fuzzy
-msgid "Running on Linux or \\*BSD"
-msgstr "iOSで実行"
 
 msgid "**debug**"
 msgstr "\\ **debug**"
@@ -147,30 +91,6 @@ msgstr "\\ **editor**"
 msgid "Running on an editor build"
 msgstr "エディタビルドで実行"
 
-#, fuzzy
-msgid "**template**"
-msgstr "**リリース日**"
-
-#, fuzzy
-msgid "Running on a non-editor (export template) build"
-msgstr "エディタビルド以外で実行"
-
-#, fuzzy
-msgid "**double**"
-msgstr "\\ **mobile**"
-
-#, fuzzy
-msgid "Running on a double-precision build"
-msgstr "エディタビルド以外で実行"
-
-#, fuzzy
-msgid "**single**"
-msgstr "\\ **mobile**"
-
-#, fuzzy
-msgid "Running on a single-precision build"
-msgstr "エディタビルド以外で実行"
-
 msgid "**64**"
 msgstr "\\ **64**"
 
@@ -189,19 +109,11 @@ msgstr "\\ **x86_64**"
 msgid "Running on a 64-bit x86 build"
 msgstr "x86の64ビットビルドで実行"
 
-#, fuzzy
-msgid "**x86_32**"
-msgstr "\\ **x86**"
-
 msgid "Running on a 32-bit x86 build"
 msgstr "x86の32ビットビルドで実行"
 
 msgid "**x86**"
 msgstr "\\ **x86**"
-
-#, fuzzy
-msgid "Running on an x86 build (any bitness)"
-msgstr "64ビット ビルドで実行 (任意のアーキテクチャ)"
 
 msgid "**arm64**"
 msgstr "\\ **arm64**"
@@ -209,82 +121,11 @@ msgstr "\\ **arm64**"
 msgid "Running on a 64-bit ARM build"
 msgstr "ARMの64ビットビルドで実行"
 
-#, fuzzy
-msgid "**arm32**"
-msgstr "\\ **arm**"
-
 msgid "Running on a 32-bit ARM build"
 msgstr "ARMの32ビットビルドで実行"
 
 msgid "**arm**"
 msgstr "\\ **arm**"
-
-#, fuzzy
-msgid "Running on an ARM build (any bitness)"
-msgstr "64ビット ビルドで実行 (任意のアーキテクチャ)"
-
-#, fuzzy
-msgid "**rv64**"
-msgstr "\\ **64**"
-
-#, fuzzy
-msgid "Running on a 64-bit RISC-V build"
-msgstr "ARMの64ビットビルドで実行"
-
-#, fuzzy
-msgid "**riscv**"
-msgstr "**右**"
-
-#, fuzzy
-msgid "Running on a RISC-V build (any bitness)"
-msgstr "64ビット ビルドで実行 (任意のアーキテクチャ)"
-
-#, fuzzy
-msgid "**ppc64**"
-msgstr "\\ **64**"
-
-#, fuzzy
-msgid "Running on a 64-bit PowerPC build"
-msgstr "x86の64ビットビルドで実行"
-
-#, fuzzy
-msgid "**ppc32**"
-msgstr "\\ **32**"
-
-#, fuzzy
-msgid "Running on a 32-bit PowerPC build"
-msgstr "x86の32ビットビルドで実行"
-
-#, fuzzy
-msgid "**ppc**"
-msgstr "\\ **pc**"
-
-#, fuzzy
-msgid "Running on a PowerPC build (any bitness)"
-msgstr "64ビット ビルドで実行 (任意のアーキテクチャ)"
-
-#, fuzzy
-msgid "**wasm64**"
-msgstr "\\ **arm64**"
-
-#, fuzzy
-msgid "Running on a 64-bit WebAssembly build (not yet possible)"
-msgstr "64ビット ビルドで実行 (任意のアーキテクチャ)"
-
-#, fuzzy
-msgid "**wasm32**"
-msgstr "\\ **32**"
-
-#, fuzzy
-msgid "Running on a 32-bit WebAssembly build"
-msgstr "ARMの32ビットビルドで実行"
-
-msgid "**wasm**"
-msgstr ""
-
-#, fuzzy
-msgid "Running on a WebAssembly build (any bitness)"
-msgstr "64ビット ビルドで実行 (任意のアーキテクチャ)"
 
 msgid "**mobile**"
 msgstr "\\ **mobile**"
@@ -302,46 +143,6 @@ msgid "**web**"
 msgstr "\\ **web**"
 
 msgid "Host OS is a Web browser"
-msgstr "ホストOSはWebブラウザ"
-
-#, fuzzy
-msgid "**web_android**"
-msgstr "\\ **Android**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on Android"
-msgstr "ホストOSはWebブラウザ"
-
-#, fuzzy
-msgid "**web_ios**"
-msgstr "\\ **web**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on iOS"
-msgstr "ホストOSはWebブラウザ"
-
-#, fuzzy
-msgid "**web_linuxbsd**"
-msgstr "\\ **web**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on Linux or \\*BSD"
-msgstr "ホストOSはWebブラウザ"
-
-#, fuzzy
-msgid "**web_macos**"
-msgstr "\\ **web**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on macOS"
-msgstr "ホストOSはWebブラウザ"
-
-#, fuzzy
-msgid "**web_windows**"
-msgstr "\\ **Windows**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on Windows"
 msgstr "ホストOSはWebブラウザ"
 
 msgid "**etc**"
@@ -362,27 +163,6 @@ msgstr "\\ **s3tc**"
 msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr "S3TC(DXT/BC)圧縮を使用したテクスチャがサポートされています"
 
-#, fuzzy
-msgid "**movie**"
-msgstr "\\ **mobile**"
-
-msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
-msgstr ""
-
-msgid ""
-"With the exception of texture compression and ``movie`` feature tags, "
-"default feature tags are **immutable**. This means that they will *not* "
-"change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to HTML5 on a mobile device."
-msgstr ""
-
-msgid ""
-"To check whether a project exported to HTML5 is running on a mobile device, :"
-"ref:`call JavaScript code <doc_web_javascript_bridge>` that reads the "
-"browser's user agent."
-msgstr ""
-
 msgid "Custom features"
 msgstr "カスタム機能"
 
@@ -392,13 +172,6 @@ msgid ""
 msgstr ""
 "ビルドにカスタム機能を追加することができます。生成に使用される *エクスポート"
 "プリセット* の関連フィールドを使用します。"
-
-msgid ""
-"Custom feature tags are only used when running the exported project "
-"(including with :ref:`doc_one-click_deploy`). They are **not used** when "
-"running the project from the editor, even if the export preset marked as "
-"**Runnable** for your current platform has custom feature tags defined."
-msgstr ""
 
 msgid "Overriding project settings"
 msgstr "プロジェクト設定のオーバーライド"
@@ -423,14 +196,6 @@ msgid "After overriding, a new field is added for this specific configuration:"
 msgstr ""
 "オーバーライド後、この特定の構成に対して新しいフィールドが追加されます:"
 
-msgid ""
-"When using the :ref:`project settings \"override.cfg\" functionality "
-"<class_ProjectSettings>` (which is unrelated to feature tags), remember that "
-"feature tags still apply. Therefore, make sure to *also* override the "
-"setting with the desired feature tag(s) if you want them to override base "
-"project settings on all platforms and configurations."
-msgstr ""
-
 msgid "Default overrides"
 msgstr "デフォルトのオーバーライド"
 
@@ -443,16 +208,6 @@ msgstr ""
 
 msgid "Customizing the build"
 msgstr "ビルドのカスタマイズ"
-
-#, fuzzy
-msgid ""
-"Feature tags can be used to customize a build process too, by writing a "
-"custom **ExportPlugin**. They are also used to specify which shared library "
-"is loaded and exported in **GDExtension**."
-msgstr ""
-"カスタム **ExportPlugin** を記述することにより、フィーチャータグを使用してビ"
-"ルドプロセスをカスタマイズすることもできます。また、\\ **GDNative** でロード"
-"およびエクスポートされる共有ライブラリを指定するためにも使用されます。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

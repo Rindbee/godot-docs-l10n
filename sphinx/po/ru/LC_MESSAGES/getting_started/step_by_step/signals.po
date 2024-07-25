@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,27 +40,6 @@ msgstr ""
 "%D0%A1%D0%B2%D1%8F%D0%B7%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85>`_ "
 "и делает код более гибким."
 
-#, fuzzy
-msgid ""
-"For example, you might have a life bar on the screen that represents the "
-"player's health. When the player takes damage or uses a healing potion, you "
-"want the bar to reflect the change. To do so, in Godot, you would use "
-"signals."
-msgstr ""
-"Например, у вас на экране может быть шкала жизни, которая соответствует "
-"здоровью игрока. Когда игрок получает урон или использует исцеляющее зелье, "
-"вы хотите, чтобы шкала реагировала на изменения. Чтобы сделать это в Godot, "
-"вы бы использовали сигналы."
-
-msgid ""
-"As mentioned in the introduction, signals are Godot's version of the "
-"observer pattern. You can learn more about it here: https://"
-"gameprogrammingpatterns.com/observer.html"
-msgstr ""
-"Как уже упоминалось во введении, сигналы - это версия шаблона наблюдателя в "
-"Godot. Подробнее об этом можно узнать здесь: https://gameprogrammingpatterns."
-"com/observer.html"
-
 msgid ""
 "We will now use a signal to make our Godot icon from the previous lesson (:"
 "ref:`doc_scripting_player_input`) move and stop by pressing a button."
@@ -97,16 +71,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "Настройка сцены"
-
-#, fuzzy
-msgid ""
-"To add a button to our game, we will create a new scene which will include "
-"both a :ref:`Button <class_button>` and the ``sprite_2d.tscn`` scene we "
-"created in the :ref:`doc_scripting_first_script` lesson."
-msgstr ""
-"Чтобы добавить кнопку в нашу игру, мы создадим новую главную сцену, которая "
-"будет содержать как кнопку, так и сцену ``sprite_2d.tscn``, которую мы "
-"вписали в скрипт в предыдущих уроках."
 
 msgid "Create a new scene by going to the menu Scene -> New Scene."
 msgstr "Создайте новую сцену через меню Сцена -> Новая сцена."
@@ -238,6 +202,9 @@ msgid ""
 "generation might not work. In this case you need to to connect the signal "
 "via code as explained in the next section."
 msgstr ""
+"Если вы используете внешний редактор (например, VS Code), это автоматическое "
+"создание кода может не сработать. В этом случае вам нужно подключить сигнал "
+"через код, как объясняется в следующем разделе."
 
 msgid ""
 "Click the Connect button to complete the signal connection and jump to the "
@@ -318,14 +285,6 @@ msgstr ""
 "Давайте теперь используем различные узлы. У Godot есть узел :ref:`Timer "
 "<class_Timer>`, который полезен для реализации задержки перезарядки "
 "способностей, перезарядки оружия и другого."
-
-#, fuzzy
-msgid ""
-"Head back to the 2D workspace. You can either click the \"2D\" text at the "
-"top of the window or press :kbd:`Ctrl + F1` (:kbd:`Ctrl + Cmd + 1` on macOS)."
-msgstr ""
-"Вернёмся к рабочему пространству 2D. Для этого можно нажать \"2D\" вверху "
-"экрана, или на клавиатуре :kbd:`Ctrl + F1` (:kbd:`Alt + 1` для macOS)."
 
 msgid ""
 "In the Scene dock, right-click on the Sprite2D node and add a new child "
@@ -435,14 +394,6 @@ msgstr ""
 "Свойство ``visible`` имеет логический тип (boolean), оно контролирует "
 "видимость нашего узла. Строка ``visible = not visible`` переключает "
 "значение. Если ``visible`` равно ``true``, оно станет ``false``, и наоборот."
-
-#, fuzzy
-msgid ""
-"If you run the Node2D scene now, you will see that the sprite blinks on and "
-"off, at one second intervals."
-msgstr ""
-"Если вы запустите сцену сейчас, то увидите, что спрайт мерцает, появляясь и "
-"исчезая с интервалом в одну секунду."
 
 msgid "Complete script"
 msgstr "Готовый скрипт"

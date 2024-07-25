@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,31 +105,6 @@ msgstr ""
 "盡量避免不必要地更新輻射立方體貼圖。如果您確實需要每影格更新輻射立方體貼圖，"
 "請確保您的 Sky 處理模式 <class_Sky_property_process_mode>` 設定為 :ref:"
 "`REALTIME <class_Sky_constant_PROCESS_MODE_REALTIME>`。"
-
-msgid ""
-"Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
-"affects the rendering of the radiance cubemap. The visible sky is always "
-"rendered by calling the fragment shader for every pixel. With complex "
-"fragment shaders, this can result in a high rendering overhead. If the sky "
-"is static (the conditions listed above are met) or changes slowly, running "
-"the full fragment shader every frame is not needed. This can be avoided by "
-"rendering the full sky into the radiance cubemap, and reading from this "
-"cubemap when rendering the visible sky. With a completely static sky, this "
-"means that it needs to be rendered only once."
-msgstr ""
-
-msgid ""
-"The following code renders the full sky into the radiance cubemap and reads "
-"from that cubemap for displaying the visible sky:"
-msgstr ""
-
-msgid ""
-"This way, the complex calculations happen only in the cubemap pass, which "
-"can be optimized by setting the sky's :ref:`process mode "
-"<class_Sky_property_process_mode>` and the :ref:`radiance size "
-"<class_Sky_property_radiance_size>` to get the desired balance between "
-"performance and visual fidelity."
-msgstr ""
 
 msgid "Render modes"
 msgstr "算繪模式"
@@ -270,13 +240,6 @@ msgstr "``LIGHTX`` 的顏色。"
 msgid "in float **LIGHTX_SIZE**"
 msgstr "in float **LIGHTX_SIZE**"
 
-#, fuzzy
-msgid ""
-"Angular diameter of ``LIGHTX`` in the sky. Expressed in radians. For "
-"reference, the sun from earth is about .0087 radians (0.5 degrees)."
-msgstr ""
-"天空中“LIGHTX”的角直徑。以度數表示。作為參考，太陽與地球的夾角約為0.5度。"
-
 msgid "in float **PI**"
 msgstr "in float **PI**"
 
@@ -295,12 +258,6 @@ msgstr "一個“TAU”常數（“6.283185”）。相當於“PI * 2”和完�
 
 msgid "in float **E**"
 msgstr "in float **E**"
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr "一個“E”常數（“2.718281”）。歐拉數和自然對數的底數。"
 
 msgid "Sky built-ins"
 msgstr "定數"

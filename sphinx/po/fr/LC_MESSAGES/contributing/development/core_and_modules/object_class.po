@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,14 +41,6 @@ msgstr "Cela ajoute beaucoup de fonctionnalités aux objets. Par exemple :"
 
 msgid "References:"
 msgstr "Références :"
-
-#, fuzzy
-msgid ""
-"`core/object/object.h <https://github.com/godotengine/godot/blob/master/core/"
-"object/object.h>`__"
-msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/3.x/core/object."
-"h>`__"
 
 msgid "Registering an Object"
 msgstr "Déclarer un Object"
@@ -103,18 +90,6 @@ msgstr ""
 "A l'intérieur de ``bind_methods``, il y a deux ou trois choses qui peuvent "
 "être faites. La déclaration des fonctions en est une :"
 
-#, fuzzy
-msgid "Default values for arguments can be passed as parameters at the end:"
-msgstr ""
-"Les valeurs par défaut des arguments peuvent être transmises dans l'ordre "
-"inverse :"
-
-msgid ""
-"Default values must be provided in the same order as they are declared, "
-"skipping required arguments and then providing default values for the "
-"optional ones. This matches the syntax for declaring methods in C++."
-msgstr ""
-
 msgid ""
 "``D_METHOD`` is a macro that converts \"methodname\" to a StringName for "
 "more efficiency. Argument names are used for introspection, but when "
@@ -140,28 +115,11 @@ msgstr ""
 "``D_METHOD()`` peut être ignorée sans risque et une chaîne de caractère "
 "passant le nom peut être passée pour plus de brièveté."
 
-#, fuzzy
-msgid ""
-"`core/object/class_db.h <https://github.com/godotengine/godot/blob/master/"
-"core/object/class_db.h>`__"
-msgstr ""
-"`core/class_db.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"class_db.h>`__"
-
 msgid "Constants"
 msgstr "Constantes"
 
 msgid "Classes often have enums such as:"
 msgstr "Les classes ont souvent des énumérations telles que :"
-
-#, fuzzy
-msgid ""
-"For these to work when binding to methods, the enum must be declared "
-"convertible to int. A macro is provided to help with this:"
-msgstr ""
-"Pour qu'elles fonctionnent lorsqu'elles sont liées à des méthodes, "
-"l'énumération doit être déclarée convertible en int, pour cela une macro est "
-"fournie :"
 
 msgid "The constants can also be bound inside ``_bind_methods``, by using:"
 msgstr ""
@@ -182,27 +140,8 @@ msgstr ""
 "Création d'une liste de valeurs modifiables pour la classe dérivée de "
 "l'objet."
 
-#, fuzzy
-msgid ""
-"Properties are usually defined by the PropertyInfo() class and constructed "
-"as:"
-msgstr ""
-"Les propriétés sont généralement définies par la classe PropertyInfo(). "
-"Généralement construites sous la forme :"
-
 msgid "For example:"
 msgstr "Par exemple :"
-
-#, fuzzy
-msgid ""
-"This is an integer property named \"amount\". The hint is a range, and the "
-"range goes from 0 to 49 in steps of 1 (integers). It is only usable for the "
-"editor (editing the value visually) but won't be serialized."
-msgstr ""
-"Il s'agit d'une propriété entière, nommée \"amount\", l'indice est une "
-"plage, la plage va de 0 à 49 par pas de 1 (entiers). Elle n'est utilisable "
-"que dans l'éditeur (pour éditer visuellement sa valeur) mais elle ne sera "
-"pas sérialisée."
 
 msgid "Another example:"
 msgstr "Un autre exemple :"
@@ -303,15 +242,6 @@ msgstr ""
 msgid "Signals"
 msgstr "Signaux"
 
-#, fuzzy
-msgid ""
-"Objects can have a set of signals defined (similar to Delegates in other "
-"languages). This example shows how to connect to them:"
-msgstr ""
-"Les objets peuvent avoir un ensemble de signaux définis (semblable aux "
-"délégations(Delegates) dans d'autres langues). Se connecter est assez "
-"simple :"
-
 msgid ""
 "The method ``_node_entered_tree`` must be registered to the class using "
 "``ClassDB::bind_method`` (explained before)."
@@ -329,31 +259,8 @@ msgstr ""
 msgid "Notifications"
 msgstr "Notifications"
 
-#, fuzzy
-msgid ""
-"All objects in Godot have a :ref:`_notification "
-"<class_Object_private_method__notification>` method that allows it to "
-"respond to engine level callbacks that may relate to it. More information "
-"can be found on the :ref:`doc_godot_notifications` page."
-msgstr ""
-"Tous les objets de Godot ont une méthode :ref:`_notification "
-"<class_Object_method__notification>` qui leur permet de répondre aux rappels "
-"au niveau du moteur qui peuvent les concerner. Vous trouverez de plus amples "
-"informations sur la page :ref:`doc_godot_notifications`."
-
 msgid "References"
 msgstr "References"
-
-#, fuzzy
-msgid ""
-":ref:`RefCounted <class_RefCounted>` inherits from Object and holds a "
-"reference count. It is the base for reference counted object types. "
-"Declaring them must be done using Ref<> template. For example:"
-msgstr ""
-":ref:`Reference <class_reference>` hérite de Object et contient un compteur "
-"de références. Il constitue la base pour les types d'objets dont les "
-"références sont comptées. Leur déclaration doit être faite en utilisant le "
-"modèle Ref<>. Par exemple :"
 
 msgid ""
 "``myref`` is reference counted. It will be freed when no more Ref<> "
@@ -362,44 +269,11 @@ msgstr ""
 "``myref`` est comptée par référence. Elle sera libéré lorsque plus aucun "
 "Template de type Ref <> ne l'utilisera."
 
-#, fuzzy
-msgid ""
-"`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
-"core/object/ref_counted.h>`__"
-msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/3.x/core/object."
-"h>`__"
-
 msgid "Resources"
 msgstr "Ressources"
 
-#, fuzzy
-msgid ""
-":ref:`Resource <class_resource>` inherits from Reference, so all resources "
-"are reference counted. Resources can optionally contain a path, which "
-"reference a file on disk. This can be set with ``resource.set_path(path)``, "
-"though this is normally done by the resource loader. No two different "
-"resources can have the same path; attempting to do so will result in an "
-"error."
-msgstr ""
-":ref:`Resource <class_resource>` hérite de Reference, donc toutes les "
-"références aux ressources sont comptées. Les ressources peuvent "
-"facultativement contenir un chemin d'accès, qui fait référence à un fichier "
-"sur le disque. Ceci peut être défini avec ``resource.set_path(path)``. "
-"Cependant, c'est généralement le chargeur de ressources qui s'en charge. "
-"Deux ressources différentes ne peuvent pas avoir le même chemin, tenter de "
-"le faire entraînera une erreur."
-
 msgid "Resources without a path are fine too."
 msgstr "Une ressource sans chemin est également correcte."
-
-#, fuzzy
-msgid ""
-"`core/io/resource.h <https://github.com/godotengine/godot/blob/master/core/"
-"io/resource.h>`__"
-msgstr ""
-"`core/resource.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"resource.h>`__"
 
 msgid "Resource loading"
 msgstr "Chargement des ressources"
@@ -422,14 +296,6 @@ msgstr ""
 msgid "resourceinteractiveloader (TODO)"
 msgstr "resourceinteractiveloader (à faire / TODO)"
 
-#, fuzzy
-msgid ""
-"`core/io/resource_loader.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/resource_loader.h>`__"
-msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
-
 msgid "Resource saving"
 msgstr "Enregistrement de ressources"
 
@@ -437,27 +303,6 @@ msgid "Saving a resource can be done with the resource saver API:"
 msgstr ""
 "L'enregistrement d'une ressource peut être effectué avec l'API de sauvegarde "
 "de ressources :"
-
-#, fuzzy
-msgid ""
-"The instance will be saved, and sub resources that have a path to a file "
-"will be saved as a reference to that resource. Sub resources without a path "
-"will be bundled with the saved resource and assigned sub-IDs, like ``res://"
-"someresource.res::1``. This also helps to cache them when loaded."
-msgstr ""
-"L'instance sera sauvegardée. Les sous-ressources qui ont un chemin à un "
-"fichier seront sauvegardées en tant que référence à cette ressource. Les "
-"sous-ressources sans chemin seront regroupées avec la ressource sauvegardée "
-"et se verront attribuer des sous-IDs, comme ``res://someresource.res::1``. "
-"Cela permet également de les mettre en cache lorsqu'elles sont chargées."
-
-#, fuzzy
-msgid ""
-"`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/resource_saver.h>`__"
-msgstr ""
-"`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/3.x/"
-"core/io/resource_saver.h>`__"
 
 msgid "Translation status"
 msgstr "État de la traduction"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,11 +68,6 @@ msgid "**Mobile browsers are currently not supported.**"
 msgstr "**Les navigateurs mobiles ne sont actuellement pas pris en charge.**"
 
 msgid ""
-"The web editor only supports the Compatibility rendering method, as there is "
-"no stable way to run Vulkan applications on the web yet."
-msgstr ""
-
-msgid ""
 "If you use Linux, due to `poor Firefox WebGL performance <https://bugzilla."
 "mozilla.org/show_bug.cgi?id=1010527>`__, it's recommended to use a Chromium-"
 "based browser instead of Firefox."
@@ -98,10 +88,6 @@ msgstr ""
 
 msgid "No C#/Mono support."
 msgstr "Pas de support C#/Mono."
-
-#, fuzzy
-msgid "No GDExtension support."
-msgstr "GDNative non supporté."
 
 msgid ""
 "No debugging support. This means GDScript debugging/profiling, live scene "
@@ -174,17 +160,6 @@ msgid ""
 msgstr ""
 "Spécifiez un fichier ZIP à précharger sur le système de fichiers HTML5 à "
 "l'aide de l'entrée **Préchargement du projet ZIP**."
-
-#, fuzzy
-msgid ""
-"Run the editor by clicking **Start Godot editor**. The Godot Project Manager "
-"should appear after 10-20 seconds. On slower machines or connections, "
-"loading may take up to a minute."
-msgstr ""
-"Lancez l'éditeur en cliquant sur **Start Godot editor** (Démarrer l'éditeur "
-"Godot). Le gestionnaire de projet Godot devrait apparaître après 10-20 "
-"secondes. Sur des machines ou des connexions plus lentes, le chargement peut "
-"prendre jusqu'à une minute."
 
 msgid ""
 "In the dialog that appears at the middle of the window, specify a name for "

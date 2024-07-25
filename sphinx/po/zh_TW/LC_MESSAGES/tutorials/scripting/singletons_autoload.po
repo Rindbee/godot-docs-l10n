@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,13 +112,6 @@ msgstr ""
 "個節點會在其他場景載入前被新增到根檢視區上。"
 
 msgid ""
-"To autoload a scene or script, select **Project > Project Settings** from "
-"the menu and switch to the **Autoload** tab."
-msgstr ""
-"要自動載入場景或腳本，請從選單中選擇 **[專案] -> [專案設定]** 然後切換到 "
-"**[AutoLoad]** 分頁。"
-
-msgid ""
 "Here you can add any number of scenes or scripts. Each entry in the list "
 "requires a name, which is assigned as the node's ``name`` property. The "
 "order of the entries as they are added to the global scene tree can be "
@@ -133,25 +121,6 @@ msgstr ""
 "這裡可以新增任意數量的場景或腳本。列表中的每一個專案都必須填寫名稱，這個名稱"
 "會被指派為節點的 ``name`` 屬性。列表上的順序就是載入進全域場景樹的順序，可以"
 "使用上下方向了來更改。"
-
-#, fuzzy
-msgid ""
-"If the **Enable** column is checked (which is the default), then the "
-"singleton can be accessed directly in GDScript:"
-msgstr ""
-"若有勾選「Enable」(啟用) 欄位 (預設就有勾選)，則就可以直接這樣存取單例而不需"
-"使用 ``get_node()``："
-
-msgid ""
-"The **Enable** column has no effect in C# code. However, if the singleton is "
-"a C# script, a similar effect can be achieved by including a static property "
-"called ``Instance`` and assigning it in ``_Ready()``:"
-msgstr ""
-
-msgid ""
-"This allows the singleton to be accessed from C# code without ``GetNode()`` "
-"and without a typecast:"
-msgstr ""
 
 msgid ""
 "Note that autoload objects (scripts and/or scenes) are accessed just like "
@@ -211,16 +180,6 @@ msgid ""
 msgstr ""
 "切換到 **[腳本]** 分頁並建立名為 ``Global.gd`` 的腳本。請確認該腳本有繼承 "
 "``Node`` ："
-
-msgid ""
-"The next step is to add this script to the autoLoad list. Open **Project > "
-"Project Settings** from the menu, switch to the **Autoload** tab and select "
-"the script by clicking the browse button or typing its path: ``res://global."
-"gd``. Press **Add** to add it to the autoload list:"
-msgstr ""
-"下一個步驟就是將這個腳本新增至 Autoload 列表中。從選單中打開 **[專案] > [專案"
-"設定]** ，然後切換到 **[AutoLoad]** 分頁，並點擊瀏覽按鈕來選擇腳本，也可以直"
-"接輸入路徑： ``res://Global.gd`` 。點擊 **[新增]** 來加入至 Autoload 列表："
 
 msgid ""
 "Now whenever we run any scene in the project, this script will always be "

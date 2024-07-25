@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,16 +27,6 @@ msgstr ""
 "nœuds, depuis le moment où ils réalisent leur contenu localement, jusqu'au "
 "moment où ils le réalisent à l'écran. Cet aperçu traite des détails très bas "
 "niveau du moteur."
-
-msgid ""
-"The goal of this tutorial is to teach a way for feeding input events to the "
-"Input with a position in the correct coordinate system."
-msgstr ""
-
-msgid ""
-"A more extensive description of all coordinate systems and 2d transforms is "
-"available in :ref:`doc_2d_coordinate_systems`."
-msgstr ""
 
 msgid "Canvas transform"
 msgstr "Transformation du canevas"
@@ -73,19 +58,6 @@ msgstr ""
 msgid "Global canvas transform"
 msgstr "Transformation globale du canevas"
 
-#, fuzzy
-msgid ""
-"Viewports also have a Global Canvas transform (also a :ref:`Transform2D "
-"<class_Transform2D>`). This is the master transform and affects all "
-"individual *Canvas Layer* transforms. Generally, this is primarily used in "
-"Godot's CanvasItem Editor."
-msgstr ""
-"Les fenêtres d'affichages ont également une transformation globale de "
-"canevas (aussi un :ref:`Transform2D <class_Transform2D>`). Il s’agit de la "
-"transformation principale qui affecte toutes les transformations *Couche de "
-"canevas* individuelles. Généralement, cette transformation n’est pas très "
-"utile, mais elle est utilisée dans l’éditeur CanvasItem de l’éditeur Godot."
-
 msgid "Stretch transform"
 msgstr "Transformation par étirement"
 
@@ -101,56 +73,11 @@ msgstr ""
 "`doc_multiple_resolutions`), mais peut également être définie manuellement "
 "dans chaque fenêtre d'affichage."
 
-#, fuzzy
-msgid ""
-"Input events are multiplied by this transform but lack the ones above. To "
-"convert InputEvent coordinates to local CanvasItem coordinates, the :ref:"
-"`CanvasItem.make_input_local() <class_CanvasItem_method_make_input_local>` "
-"function was added for convenience."
-msgstr ""
-"Les événements d'entrées reçus dans le rappel :ref:`MainLoop._input_event() "
-"<class_MainLoop_method__input_event>` sont multipliés par cette "
-"transformation, mais ils sont absents de ceux mentionnés plus haut. Pour "
-"convertir les coordonnées InputEvent en coordonnées locales CanvasItem, la "
-"fonction :ref:`CanvasItem.make_input_local() "
-"<class_CanvasItem_method_make_input_local>` a été ajoutée pour plus de "
-"commodité."
-
-#, fuzzy
-msgid "Window transform"
-msgstr "transform"
-
-msgid ""
-"The root viewport is a :ref:`Window <class_Window>`. In order to scale and "
-"position the *Window's* content as described in :ref:"
-"`doc_multiple_resolutions`, each :ref:`Window <class_Window>` contains a "
-"*window transform*. It is for example responsible for the black bars at the "
-"*Window's* sides so that the *Viewport* is displayed with a fixed aspect "
-"ratio."
-msgstr ""
-
 msgid "Transform order"
 msgstr "Ordre de transformation"
 
-#, fuzzy
-msgid ""
-"To convert a CanvasItem local coordinate to an actual screen coordinate, the "
-"following chain of transforms must be applied:"
-msgstr ""
-"Pour qu'une coordonnée dans les propriétés locales de CanvasItem devienne "
-"une coordonnée d'écran réelle, vous devez appliquer la chaîne de "
-"transformations suivante :"
-
 msgid "Transform functions"
 msgstr "Fonctions de transformation"
-
-msgid ""
-"The above graphic shows some available transform functions. All transforms "
-"are directed from right to left, this means multiplying a transform with a "
-"coordinate results in a coordinate system further to the left, multiplying "
-"the :ref:`affine inverse <class_Transform2D_method_affine_inverse>` of a "
-"transform results in a coordinate system further to the right:"
-msgstr ""
 
 msgid ""
 "Finally, then, to convert a CanvasItem local coordinates to screen "
@@ -173,16 +100,6 @@ msgstr ""
 
 msgid "Feeding custom input events"
 msgstr "Alimentation d'événements d'entrées personnalisés"
-
-#, fuzzy
-msgid ""
-"It is often desired to feed custom input events to the game. With the above "
-"knowledge, to correctly do this in the focused window, it must be done the "
-"following way:"
-msgstr ""
-"Il est souvent souhaitable de transmettre des événements d'entrées "
-"personnalisés à l'arborescence de la scène. Avec les connaissances ci-"
-"dessus, pour le faire correctement, il faut procéder de la manière suivante :"
 
 msgid "Translation status"
 msgstr "État de la traduction"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,18 +57,6 @@ msgstr ""
 "節點名稱改成 ``Player`` 。現在，場景根節點已經設定好了，接著來設定更多節點，"
 "新增更多功能。"
 
-#, fuzzy
-msgid ""
-"Before we add any children to the ``Player`` node, we want to make sure we "
-"don't accidentally move or resize them by clicking on them. Select the node "
-"and click the icon to the right of the lock. Its tooltip says \"Groups the "
-"selected node with its children. This causes the parent to be selected when "
-"any child node is clicked in 2D and 3D view.\""
-msgstr ""
-"在我們給 ``Player`` 新增任何子節點前，需要先確保不會因為點到 Player 物件而移"
-"動到 Player 或改變到大小。先選擇 Player 節點，然後點擊鎖頭右邊的圖示，滑鼠移"
-"到圖示上方的時候會顯示提示「確保物件的子級專案無法被選擇。」"
-
 msgid ""
 "Save the scene. Click Scene -> Save, or press :kbd:`Ctrl + S` on Windows/"
 "Linux or :kbd:`Cmd + S` on macOS."
@@ -104,26 +87,6 @@ msgstr ""
 
 msgid "Sprite animation"
 msgstr "Sprite 動畫"
-
-#, fuzzy
-msgid ""
-"Click on the ``Player`` node and add (:kbd:`Ctrl + A` on Windows/Linux or :"
-"kbd:`Cmd + A` on macOS) a child node :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>`. The ``AnimatedSprite2D`` will handle the "
-"appearance and animations for our player. Notice that there is a warning "
-"symbol next to the node. An ``AnimatedSprite2D`` requires a :ref:"
-"`SpriteFrames <class_SpriteFrames>` resource, which is a list of the "
-"animations it can display. To create one, find the ``Sprite Frames`` "
-"property under the ``Animation`` tab in the Inspector and click \"[empty]\" -"
-"> \"New SpriteFrames\". Click on the ``SpriteFrames`` you just created to "
-"open the \"SpriteFrames\" panel:"
-msgstr ""
-"點擊 ``Player`` 節點然後新增一個 :ref:`AnimatedSprite "
-"<class_AnimatedSprite>` 子節點。這個 ``AnimatedSprite`` 會負責處理玩家的外觀"
-"與動畫效果。可以注意到節點旁邊有一個警告圖示。所有 ``AnimatedSprite`` 都必須"
-"要有 :ref:`SpriteFrames <class_SpriteFrames>` 資源，裡面包含了所有能顯示的動"
-"畫。可以在屬性面板中 ``Frames`` (影格) 屬性上點選 [空] ->[新增 SpriteFrames] "
-"來建立 SpriteFrames。再點擊一次就能打開 [SpriteFrames] 面板："
 
 msgid ""
 "On the left is a list of animations. Click the \"default\" one and rename it "

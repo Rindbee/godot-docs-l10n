@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -203,11 +198,6 @@ msgid ""
 msgstr ""
 "之後，我們可以載入新建立的著色器檔案“compute_example.glsl”並使用以下指令建立"
 "它的預編譯版本："
-
-msgid ""
-"Local RenderingDevices cannot be debugged using tools such as `RenderDoc "
-"<https://renderdoc.org/>`__."
-msgstr ""
 
 msgid "Provide input data"
 msgstr "提供輸入資料"

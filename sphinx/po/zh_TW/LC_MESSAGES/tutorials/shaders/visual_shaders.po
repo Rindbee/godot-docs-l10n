@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,40 +171,11 @@ msgstr ""
 "當把任何 ``vector`` 輸出連接到 ``scalar`` 輸入時, 標量的值將是向量分量的平均"
 "值."
 
-#, fuzzy
-msgid "Visual Shader node interface"
-msgstr "可視化著色器節點"
-
-msgid ""
-"Visual shader nodes have input and output ports. The input ports are located "
-"on the left side of the node, and output ports are located on the right side "
-"of the node."
-msgstr ""
-
-msgid "These ports are colored to differentiate type of port:"
-msgstr ""
-
 msgid "scalar"
 msgstr "純量"
 
-#, fuzzy
-msgid "vector"
-msgstr "vector2"
-
 msgid "boolean"
 msgstr "boolean"
-
-#, fuzzy
-msgid "transform"
-msgstr "transform2d"
-
-#, fuzzy
-msgid "sampler"
-msgstr "simple"
-
-#, fuzzy
-msgid "Port types"
-msgstr "Core 型別"
 
 msgid "Type"
 msgstr "型別"
@@ -223,15 +189,8 @@ msgstr "說明"
 msgid "Example"
 msgstr "範例"
 
-#, fuzzy
-msgid "Scalar"
-msgstr "縮放"
-
 msgid "Cyan"
 msgstr "青色"
-
-msgid "Scalar is a single value."
-msgstr ""
 
 msgid "|scalar|"
 msgstr "|純量|"
@@ -242,65 +201,14 @@ msgstr "向量 Vector"
 msgid "Purple"
 msgstr "紫色"
 
-msgid "Vector is a set of values."
-msgstr ""
-
-#, fuzzy
-msgid "|vector|"
-msgstr "vector2"
-
-#, fuzzy
-msgid "Boolean"
-msgstr "boolean"
-
 msgid "Blue"
 msgstr "藍色"
-
-msgid "On or off, true or false."
-msgstr ""
-
-#, fuzzy
-msgid "|boolean|"
-msgstr "boolean"
 
 msgid "Transform"
 msgstr "變換"
 
-#, fuzzy
-msgid "Orange"
-msgstr "range"
-
-#, fuzzy
-msgid "A matrix, usually used to transform vertices."
-msgstr "用於 2D 幾何變換的 3×2 矩陣。"
-
-#, fuzzy
-msgid "|transform|"
-msgstr "transform2d"
-
-#, fuzzy
-msgid "Sampler"
-msgstr "Sampler2D"
-
 msgid "Yellow"
 msgstr "黃色"
-
-msgid "A texture sampler. It can be used to sample textures."
-msgstr ""
-
-#, fuzzy
-msgid "|sampler|"
-msgstr "Sampler2D"
-
-msgid ""
-"All of the types are used in the calculations of vertices, fragments, and "
-"lights in the shader. For example: matrix multiplication, vector addition, "
-"or scalar division."
-msgstr ""
-
-#, fuzzy
-msgid "There are other types but these are the main ones."
-msgstr "有兩個地方可以管理樣板。"
 
 msgid "Visual Shader nodes"
 msgstr "可視化著色器節點"

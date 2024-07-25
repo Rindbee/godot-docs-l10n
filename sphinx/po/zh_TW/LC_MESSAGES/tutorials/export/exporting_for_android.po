@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,35 +31,11 @@ msgstr ""
 "匯出至 Android 的需求比為 Android 編譯 Godot 還來得少。下列為設定 SDK 與 "
 "Godot 所需的詳細步驟。"
 
-msgid ""
-"Projects written in C# can be exported to Android as of Godot 4.2, but "
-"support is experimental and :ref:`some limitations apply "
-"<doc_c_sharp_platforms>`."
-msgstr ""
-
-#, fuzzy
-msgid "Install OpenJDK 17"
-msgstr "安裝 OpenJDK"
-
-#, fuzzy
-msgid ""
-"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-msgstr "下載並安裝 `OpenJDK <https://adoptopenjdk.net/index.html`__ 。"
-
 msgid "Download the Android SDK"
 msgstr "下載 Android SDK"
 
 msgid "Download and install the Android SDK."
 msgstr "下載與安裝 Android SDK。"
-
-#, fuzzy
-msgid ""
-"You can install the Android SDK using `Android Studio Hedgehog (version "
-"2023.1.1) or later <https://developer.android.com/studio/>`__."
-msgstr ""
-"可以從 `Android Studio <https://developer.android.com/studio/>`__ 上下載並安"
-"裝 Android Studio。"
 
 msgid ""
 "Run it once to complete the SDK setup using these `instructions <https://"
@@ -72,25 +43,6 @@ msgid ""
 msgstr ""
 "依照這裡的 `指示 <https://developer.android.com/studio/intro/update#sdk-"
 "manager>`__ 執行一次 Android Studio 來完成設定 SDK。"
-
-msgid ""
-"Ensure that the `required packages <https://developer.android.com/studio/"
-"intro/update#recommended>`__ are installed as well."
-msgstr ""
-"請確保有一併安裝 `必要的套件 <https://developer.android.com/studio/intro/"
-"update#recommended>`__ 。"
-
-#, fuzzy
-msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools 30.0.5 或更高版本"
-
-#, fuzzy
-msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools version 33.0.2"
-
-#, fuzzy
-msgid "Android SDK Platform 34"
-msgstr "Android SDK Platform 33"
 
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "安裝 Android SDK (命令行版本)"
@@ -100,30 +52,6 @@ msgstr "CMake 版本 3.10.2.4988404"
 
 msgid "NDK version r23c (23.2.8568313)"
 msgstr "NDK 版本 r23c（23.2.8568313）"
-
-#, fuzzy
-msgid ""
-"Alternatively, you can install the Android SDK with the `sdkmanager` command "
-"line tool."
-msgstr ""
-"可以通過 `命令行工具 <https://developer.android.com/studio/#command-"
-"tools>`__ 來安裝。"
-
-#, fuzzy
-msgid ""
-"Install the command line tools package using these `instructions <https://"
-"developer.android.com/tools/sdkmanager>`__."
-msgstr ""
-"依照這裡的 `指示 <https://developer.android.com/studio/intro/update#sdk-"
-"manager>`__ 執行一次 Android Studio 來完成設定 SDK。"
-
-#, fuzzy
-msgid ""
-"Once the command line tools are installed, run the following `sdkmanager` "
-"command to complete the setup process:"
-msgstr ""
-"安裝好命令行工具後，執行 `sdkmanager <https://developer.android.com/studio/"
-"command-line/sdkmanager>`__ 指令來完成安裝程式："
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -147,20 +75,6 @@ msgstr "下拉至 Android 設定的部分："
 
 msgid "In that screen, 2 paths need to be set:"
 msgstr "在此畫面中，需要設定 2 個路徑："
-
-msgid ""
-"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``Android Sdk Path`` should be the location where the Android SDK was "
-"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
-"Users/$USER/Library/Android/sdk/`` on macOS."
-msgstr ""
-"``Android Sdk Path`` 應設為 Android SDK 安裝的位置。—— 如 Windows 上可能是 "
-"``%LOCALAPPDATA%\\Android\\Sdk\\`` ，macOS 上可能是 ``/Users/$USER/Library/"
-"Android/sdk/`` 。"
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr "設定好了之後，就準備好能匯出到 Android 了！"
@@ -278,18 +192,6 @@ msgstr ""
 "要將 APK 上傳至 Google Play Store 需要以非除錯用金鑰儲存區來簽署 APK。該檔案"
 "可如此產生："
 
-#, fuzzy
-msgid ""
-"This keystore and key are used to verify your developer identity, remember "
-"the password and keep it in a safe place! It is suggested to use only upper "
-"and lowercase letters and numbers. Special characters may cause errors. Use "
-"Google's Android Developer guides to learn more about `APK signing <https://"
-"developer.android.com/studio/publish/app-signing>`__."
-msgstr ""
-"該金鑰儲存區會用來驗證開發人員身份，請記住密碼並保存在安全處！請在 Google 的 "
-"Android 開發人員指南中瞭解有關 `簽署 APK <https://developer.android.com/"
-"studio/publish/app-signing>`__ 的詳情。"
-
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr "接著在 Android 匯出預設中填寫下列表格："
 
@@ -373,51 +275,23 @@ msgstr "環境變數"
 msgid "Encryption / Encryption Key"
 msgstr "加密/加密金鑰"
 
-#, fuzzy
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr "GODOT_SCRIPT_ENCRYPTION_KEY"
-
 msgid "Options / Keystore / Debug"
 msgstr "選項/金鑰庫/除錯"
-
-#, fuzzy
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
-msgstr "GODOT_ANDROID_KEYSTORE_DEBUG_PATH"
 
 msgid "Options / Keystore / Debug User"
 msgstr "選項/金鑰庫/除錯使用者"
 
-#, fuzzy
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
-msgstr "GODOT_ANDROID_KEYSTORE_DEBUG_USER"
-
 msgid "Options / Keystore / Debug Password"
 msgstr "選項/金鑰庫/除錯密碼"
-
-#, fuzzy
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
-msgstr "GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD"
 
 msgid "Options / Keystore / Release"
 msgstr "選項/金鑰庫/發布"
 
-#, fuzzy
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
-msgstr "GODOT_ANDROID_KEYSTORE_RELEASE_PATH"
-
 msgid "Options / Keystore / Release User"
 msgstr "選項/金鑰庫/釋放使用者"
 
-#, fuzzy
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
-msgstr "GODOT_ANDROID_KEYSTORE_RELEASE_USER"
-
 msgid "Options / Keystore / Release Password"
 msgstr "選項/金鑰庫/釋放密碼"
-
-#, fuzzy
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
-msgstr "GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,32 +27,11 @@ msgstr ""
 msgid "Each format has different advantages:"
 msgstr "各有優點。"
 
-#, fuzzy
-msgid ""
-"WAV files use raw data or light compression (IMA-ADPCM or QOA). They are "
-"lightweight to play back on the CPU (hundreds of simultaneous voices in this "
-"format are fine). The downside is that they take up a lot of disk space."
-msgstr ""
-"WAV 檔使用原始資料或輕度壓縮，播放時不太吃 CPU (使用該格式可同時播放數百個聲"
-"音)，但該檔案格式會佔用許多空間。"
-
 msgid ""
 "Ogg Vorbis files use a stronger compression that results in much smaller "
 "file size, but require significantly more processing power to play back."
 msgstr ""
 "Ogg Vorbis 檔使用強力壓縮，因此檔案大小較小，但需要更多的效能才能播放。"
-
-#, fuzzy
-msgid ""
-"MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse "
-"than Ogg Vorbis. This means that an MP3 file with roughly equal quality to "
-"Ogg Vorbis will be significantly larger. On the bright side, MP3 requires "
-"less CPU usage to play back compared to Ogg Vorbis."
-msgstr ""
-"MP3 檔案的壓縮比的 WAV 的 IMA-ADPCM 好，但比 Ogg Vorbis 差。這意味著，一個與 "
-"Ogg Vorbis 品質大致相同的 MP3 檔明顯更大。從好的方面來看，與 Ogg Vorbis 相"
-"比，MP3 在播放時需要使用更少的 CPU。這使得 MP3 對於 CPU 資源有限的移動端和 "
-"HTML5 專案非常有用，特別是在同時播放多個壓縮過的聲音時（如長的環境音）。"
 
 msgid ""
 "If you've compiled the Godot editor from source with specific modules "
@@ -89,19 +63,8 @@ msgstr "WAV 16 位元, 44 kHz, 單聲道"
 msgid "88 KB"
 msgstr "88 KB"
 
-#, fuzzy
-msgid "WAV IMA-ADPCM, 44 kHz, mono"
-msgstr "WAV 16 位元, 44 kHz, 單聲道"
-
 msgid "22 KB"
 msgstr "22 KB"
-
-#, fuzzy
-msgid "WAV QOA, 44 kHz, mono"
-msgstr "WAV 16 位元, 44 kHz, 單聲道"
-
-msgid "17 KB"
-msgstr ""
 
 msgid "MP3 192 Kb/s, stereo"
 msgstr "Ogg Vorbis 128 Kb/秒, 立體聲"
@@ -154,26 +117,6 @@ msgid ""
 "Import options in the Import dock after selecting a WAV file in the "
 "FileSystem dock"
 msgstr "在檔案系統擴充座中選擇 WAV 檔案後，匯入擴充座中的匯入選項"
-
-#, fuzzy
-msgid ""
-"The set of options available after selecting an Ogg Vorbis or MP3 file is "
-"different:"
-msgstr "選擇 Ogg Vorbis 或 MP3 檔案後可用的選項集有所不同："
-
-#, fuzzy
-msgid ""
-"Import options in the Import dock after selecting an MP3 file in the "
-"FileSystem dock"
-msgstr "在檔案系統擴充座中選擇 MP3 檔案後，匯入擴充塢中的匯入選項"
-
-#, fuzzy
-msgid ""
-"Import options in the Import dock after selecting an MP3 file in the "
-"FileSystem dock. Options are identical for Ogg Vorbis files."
-msgstr ""
-"在檔案系統擴充座中選擇 MP3 檔案後，匯入擴充塢中的匯入選項。 Ogg Vorbis 檔案的"
-"選項相同。"
 
 msgid ""
 "After importing a sound, you can play it back using the AudioStreamPlayer, "
@@ -297,19 +240,6 @@ msgid ""
 "playing."
 msgstr "**向後：** 反向播放音頻，播放完畢後循環回到最後。"
 
-#, fuzzy
-msgid ""
-"When choosing one of the **Forward**, **Ping-Pong** or **Backward** loop "
-"modes, loop points can also be defined to make only a specific part of the "
-"sound loop. **Loop Begin** is set in samples after the beginning of the "
-"audio file. **Loop End** is also set in samples after the beginning of the "
-"audio file, but will use the end of the audio file if set to ``-1``."
-msgstr ""
-"當選擇 **Forward**、**Ping-Pong** 或 **Backward** 循環模式之一時，也可以定義"
-"循環點以僅製作聲音循環的特定部分。 **循環開始** 在音訊檔案開始後的幾秒鐘內設"
-"定。 **循環結束** 也在音訊檔案開始後的幾秒鐘內設定，但如果設定為“-1”，將使用"
-"音訊檔案的結尾。"
-
 msgid ""
 "In AudioStreamPlayer, the ``finished`` signal won't be emitted for looping "
 "audio when it reaches the end of the audio file, as the audio will keep "
@@ -320,20 +250,6 @@ msgstr ""
 
 msgid "Compress > Mode"
 msgstr "壓縮模式"
-
-#, fuzzy
-msgid ""
-"Three compression modes can be chosen from for WAV files: **Disabled** "
-"(default), **RAM (Ima-ADPCM)**, or **QOA (Quite OK Audio)**. **RAM (Ima-"
-"ADPCM)** reduces file size and memory usage a little, at the cost of "
-"decreasing quality in an audible manner. **QOA (Quite OK Audio)** reduces "
-"file size a bit more than **RAM (Ima-ADPCM)** and the quality decrease is "
-"much less noticeable, at the cost of higher CPU usage (still much lower than "
-"MP3)."
-msgstr ""
-"WAV 檔案可以選擇兩種壓縮模式：**停用**（預設）或**RAM (Ima-ADPCM)**。 **RAM "
-"(Ima-ADPCM)** 稍微減少了檔案大小和記憶體使用量，但代價是以可聽見的方式降低了"
-"品質。"
 
 msgid ""
 "Ogg Vorbis and MP3 don't decrease quality as much and can provide greater "
@@ -456,12 +372,6 @@ msgstr ""
 "按兩下檔案系統面板中的 Ogg Vorbis 或 MP3 檔（或者在匯入面板中選擇**高級..."
 "**），就會出現一個對話方塊："
 
-#, fuzzy
-msgid ""
-"Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "
-"FileSystem dock"
-msgstr "按兩下檔案系統面板中的 Ogg Vorbis 或 MP3 檔案時的高級對話方塊"
-
 msgid ""
 "This dialog allows you to edit the audio's loop point with a real-time "
 "preview, in addition to the :abbr:`BPM (Beats Per Minute)`, beat count and "
@@ -557,12 +467,6 @@ msgid ""
 "As you can see above, sound effects become much larger in file size with "
 "reverb added."
 msgstr "就像這樣，包含殘響的音效檔變得很大。"
-
-msgid ""
-"Audio samples can be loaded and saved at runtime using :ref:`runtime file "
-"loading and saving <doc_runtime_file_loading_and_saving_audio_video_files>`, "
-"including from an exported project."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

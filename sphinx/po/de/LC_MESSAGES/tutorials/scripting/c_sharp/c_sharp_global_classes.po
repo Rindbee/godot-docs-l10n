@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,19 +19,25 @@ msgid ""
 "Global classes (also known as named scripts) are types registered in Godot's "
 "editor so they can be used more conveniently."
 msgstr ""
+"Globale Klassen (auch als benannte Skripte bekannt) sind Typen, die im Godot-"
+"Editor registriert sind, damit sie bequemer verwendet werden können."
 
 msgid "Global classes show up in the *Add Node* and *Create Resource* dialogs."
 msgstr ""
+"Globale Klassen werden in den Dialogen *Node hinzufügen* und *Ressource "
+"erstellen* angezeigt."
 
 msgid ""
 "If an :ref:`exported property <doc_c_sharp_exports>` is a global class, the "
 "inspector restricts assignment, allowing only instances of that global class "
 "or any derived classes."
 msgstr ""
+"Wenn es sich bei einer :ref:`exportierten Property <doc_c_sharp_exports>` um "
+"eine globale Klasse handelt, schränkt der Inspektor die Zuweisung ein und "
+"erlaubt nur Instanzen dieser globalen Klasse oder abgeleiteter Klassen."
 
-#, fuzzy
 msgid "Global classes are registered with the ``[GlobalClass]`` attribute."
-msgstr "Ein generischer Typ wird mit dem Attribut ``[GlobalClass]'' annotiert."
+msgstr "Globale Klassen werden mit dem Attribut ``[GlobalClass]`` registriert."
 
 msgid ""
 "The ``MyNode`` type will be registered as a global class with the same name "
@@ -49,6 +50,8 @@ msgid ""
 "The *Select a Node* window for the ``MyNode`` exported property filters the "
 "list of nodes in the scene to match the assignment restriction."
 msgstr ""
+"Das *Select a Node*-Fenster für die exportierte Property ``MyNode`` filtert "
+"die Liste der Nodes in der Szene entsprechend der Zuweisungsbeschränkung."
 
 msgid ""
 "If a custom type isn't registered as a global class, the assignment is "
@@ -56,15 +59,20 @@ msgid ""
 "inspector assignments to an export of the type ``MySimpleSprite2D`` are "
 "restricted to ``Sprite2D`` and derived types."
 msgstr ""
+"Wenn ein benutzerdefinierter Typ nicht als globale Klasse registriert ist, "
+"ist die Zuordnung auf den Godot-Typ beschränkt, auf dem der "
+"benutzerdefinierte Typ basiert. Beispielsweise sind Inspektorzuweisungen an "
+"einen Export des Typs ``MySimpleSprite2D`` auf ``Sprite2D`` und abgeleitete "
+"Typen beschränkt."
 
-#, fuzzy
 msgid ""
 "When combined with the ``[GlobalClass]`` attribute, the ``[Icon]`` attribute "
 "allows providing a path to an icon to show when the class is displayed in "
 "the editor."
 msgstr ""
-"Das ``[Icon]``-Attribut erlaubt es auch, den Pfad zu einem Icon anzugeben, "
-"so dass es als Icon der Klasse im Editor verwendet werden kann."
+"In Kombination mit dem ``[GlobalClass]``-Attribut erlaubt das ``[Icon]``-"
+"Attribut die Angabe eines Pfades zu einem Icon, das angezeigt wird, wenn die "
+"Klasse im Editor dargestellt wird."
 
 msgid ""
 "The ``Stats`` class is a custom resource registered as a global class. :ref:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,13 +39,6 @@ msgstr ""
 "Нажмите на кнопку **Instance** (**Экземпляр**, выглядящий как значок звена "
 "цепи) и выберите ваш сохраненный ``player.tscn``."
 
-#, fuzzy
-msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr ""
-"Теперь добавьте следующие узлы в виде дочерних элементов ``Main`` и назовите "
-"их как показано ниже (значения указаны в секундах):"
-
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
 "spawn"
@@ -78,14 +66,6 @@ msgid ""
 msgstr ""
 ":ref:`Marker2D <class_Marker2D>` (названный ``StartPosition``) - чтобы "
 "указать начальную позицию игрока"
-
-#, fuzzy
-msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
-"(values are in seconds):"
-msgstr ""
-"Задайте значение ``Wait Time`` для каждого из узлов ``Timer`` следующим "
-"образом:"
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``: ``0.5``"
@@ -172,14 +152,6 @@ msgstr ""
 "Добавьте скрипт к ``Main``. В верхней части скрипта мы пишем ``@export var "
 "mob_scene: PackedScene``, что позволяет нам выбрать сцену Mob, экземпляр "
 "которой мы хотим сделать."
-
-#, fuzzy
-msgid ""
-"Click the ``Main`` node and you will see the ``Mob Scene`` property in the "
-"Inspector under \"Main.gd\"."
-msgstr ""
-"Выберите узел ``Main`` и вы увидите свойство ``MobScene`` в окне Инспектора "
-"под \"Script Variables\"."
 
 msgid "You can assign this property's value in two ways:"
 msgstr "Значение этого свойства можно присвоить двумя способами:"
@@ -308,14 +280,6 @@ msgid ""
 msgstr ""
 "У вас должна быть возможность перемещать игрока, видеть, как появляются "
 "мобы, и видеть, как игрок исчезает, когда его бьет моб."
-
-#, fuzzy
-msgid ""
-"When you're sure everything is working, remove the call to ``new_game()`` "
-"from ``_ready()`` and replace it with ``pass``."
-msgstr ""
-"Когда вы убедитесь, что всё работает, удалите вызов ``new_game()`` из "
-"``_ready()``."
 
 msgid ""
 "What's our game lacking? Some user interface. In the next lesson, we'll add "

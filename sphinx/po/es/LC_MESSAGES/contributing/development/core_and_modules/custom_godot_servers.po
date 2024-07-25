@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,15 +30,6 @@ msgstr ""
 "implementan el patrón mediador, que interpreta el ID del recurso y procesa "
 "datos para el motor y otros módulos. Además, el servidor reclama la "
 "propiedad de sus asignaciones de RID (Resource ID)."
-
-#, fuzzy
-msgid ""
-"This guide assumes the reader knows how to create C++ modules and Godot data "
-"types. If not, refer to :ref:`doc_custom_modules_in_cpp`."
-msgstr ""
-"Esta guía asume que el lector sabe cómo crear módulos en C++ y tipos de "
-"datos de Godot. Si no es así, consulta :ref:`doc_custom_modules_in_c++` para "
-"obtener más información al respecto."
 
 msgid "References"
 msgstr "Referencias"
@@ -110,13 +96,6 @@ msgstr ""
 
 msgid ":ref:`RID<class_rid>`"
 msgstr ":ref:`RID <class_RID>`"
-
-#, fuzzy
-msgid ""
-"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
-"templates/rid.h>`__"
-msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/3.x/core/rid.h>`__"
 
 msgid "Registering the class in GDScript"
 msgstr "Registrar una clase en GDScript"
@@ -194,14 +173,6 @@ msgstr ""
 
 msgid "References:"
 msgstr "Referencias:"
-
-#, fuzzy
-msgid ""
-"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/object/message_queue.cpp>`__"
-msgstr ""
-"`core/message_queue.cpp <https://github.com/godotengine/godot/blob/3.x/core/"
-"message_queue.cpp>`__"
 
 msgid "Summing it up"
 msgstr "En resumen"

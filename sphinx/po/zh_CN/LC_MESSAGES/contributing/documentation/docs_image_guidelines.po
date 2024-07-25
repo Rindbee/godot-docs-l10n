@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,29 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Creating documentation images and videos"
-msgstr "创建文档图像"
-
-#, fuzzy
-msgid ""
-"Throughout the documentation, images are often needed to make the "
-"explanation of a feature or concept as clear as possible for a reader. This "
-"page will explain the process from beginning to end."
-msgstr ""
-"在整个文档中，通常需要图像来使读者尽可能清楚地解释功能或概念。本页将从头到尾"
-"解释该过程。"
-
 msgid "Images"
 msgstr "图像"
 
 msgid "Capturing an image"
 msgstr "截图"
-
-#, fuzzy
-msgid ""
-"To take a picture of something in Godot, a screen capture tool can be used."
-msgstr "可以使用屏幕截图工具截取 Godot 中的内容。"
 
 msgid ""
 "On Windows 10 and 11 that would be the Snip & Sketch program. Pressing :kbd:"
@@ -84,27 +61,6 @@ msgstr ""
 msgid "Format conversion"
 msgstr "格式转换"
 
-#, fuzzy
-msgid ""
-"The current format for images in Godot's documentation is WebP (``.webp``). "
-"While some Linux programs will support saving screenshots in this format, "
-"macOS and the Snip & Sketch program on Windows do not. For images that don't "
-"need editing, such as precise cropping or adding outlines, Squoosh can be "
-"used. `Squoosh <https://squoosh.app/>`_ is a converter developed by Google, "
-"is open source, and doesn't give Google any image rights by using it. When "
-"choosing compression if you can get an image that's under 300KB in size use "
-"lossless compression. If it's over 300KB, use just enough lossy compression "
-"to get it under that size. If this results in noticeable compression "
-"artifacts using less compression is fine, even if the file size is bigger."
-msgstr ""
-"Godot 文档中当前的图像格式是 WebP (``.webp``)。虽然某些 Linux 程序支持以这种"
-"格式保存屏幕截图，但 macOS 和 Windows 上的 Snip & Sketch 程序不支持。对于不需"
-"要编辑的图像，例如精确裁剪或添加轮廓，可以使用 Squoosh。\\ `Squoosh <https://"
-"squoosh.app/>`_ 是由 Google 开发的开源图片转换器，并且不会通过使用它而向 "
-"Google 授予任何图像权利。选择压缩时，如果你的图片大小低于 300KB，请使用无损压"
-"缩。如果大小超过 300KB，请使用强度足够大的有损压缩来使其低于该大小。如果使用"
-"较强的有损压缩会导致明显的压缩伪影，则降低压缩的强度，即使文件大小较大。"
-
 msgid ""
 "If you already have an image editor such as GIMP, Krita or Photoshop "
 "installed it may have the ability to open an image then save it as a WebP "
@@ -116,16 +72,6 @@ msgstr ""
 msgid "Cropping"
 msgstr "裁剪"
 
-#, fuzzy
-msgid ""
-"For a screenshot of a 2D or 3D scene in the editor, the above steps will be "
-"enough. But for most UI images some extra work should be done, specifically "
-"cropping to make an image look clean. Below is an example of good cropping."
-msgstr ""
-"对于编辑器中的2D或3D场景的屏幕截图，上述步骤就足够了。但是对于大多数UI图像，"
-"需要做一些额外工作，特别是进行裁剪让图像看起来干净些。下面的是一个不错的裁剪"
-"操作例子。"
-
 msgid ""
 "For cropping Krita is the recommended program. While some screenshot "
 "programs do have cropping built in it's not always easy to get something "
@@ -136,18 +82,6 @@ msgstr ""
 "对于图片裁剪这里推荐 Krita。虽然某些屏幕截图程序确实内置了裁剪功能，但获得精"
 "确的结果并不那么容易。虽然 Krita 被设计为绘画程序，但其裁剪工具默认提供像素精"
 "度。当然，你也可以随意使用你熟悉的其他程序。"
-
-msgid ""
-"If you've never used Krita before download it from the `official Krita "
-"website <https://krita.org/en/download/krita-desktop/>`_, on Linux you may "
-"also be able to download it from your distributions repository, flathub is "
-"also an option. Once it's installed on your computer open Krita then open "
-"the image you want to crop. This button on the left panel is the crop tool."
-msgstr ""
-"如果你之前从未使用过 Krita，请从`Krita 官方网站 <https://krita.org/en/"
-"download/krita-desktop/>`_ 下载它，在 Linux 上也可以从你的发行版下载它的存储"
-"库，flathub 也是一个选项。将其安装到计算机上后，打开 Krita，然后打开要裁剪的"
-"图像。左侧面板上的这个按钮是裁剪工具。"
 
 msgid ""
 "After selecting it, click on the image, you should now have cropping tools "
@@ -193,36 +127,6 @@ msgstr ""
 
 msgid "Saving as WebP in Krita"
 msgstr "在 Krita 中保存为 WebP"
-
-#, fuzzy
-msgid ""
-"To save an image as webp if it isn't already one, Go to **File > Save As**. "
-"Select **webp** from the **Save as type:** dropdown, then choose wherever "
-"you want to save it. After clicking **Save** a menu will popup with webp "
-"options. Make sure **Lossless** is checked and **Quality** is set to 100%. "
-"This means the image will not lose detail and will be as small as possible."
-msgstr ""
-"要将图像另存为 webp（如果还不是），请转至 **文件 > 另存为** 。从 **保存类型："
-"** 下拉列表中选择 **webp** ，然后选择要保存的位置。单击 **保存** 后，将弹出一"
-"个带有 webp 选项的菜单。确保选中 **Losses** 并将 **Quality** 设置为 100%。这"
-"意味着图像不会丢失细节并且会尽可能的小。"
-
-#, fuzzy
-msgid ""
-"If the image is over 300KB in size try compressing it losslessly using "
-"`Squoosh <https://squoosh.app/>`_. If it's still over 300KB change to lossy "
-"compression and slowly increase the compression until it's under 300KB. If "
-"this results in noticeable compression artifacts using less compression is "
-"fine, even if the file size is bigger."
-msgstr ""
-"如果图像大小超过 300KB，请尝试使用 `Squoosh <https://squoosh.app/>`_ 无损压"
-"缩。如果它仍然超过 300KB，则更改为有损压缩，并缓慢增加压缩，直到它低于 "
-"300KB。如果这导致使用较少的压缩产生明显的压缩伪影，那么即使文件大小更大，也没"
-"有关系。"
-
-#, fuzzy
-msgid "Outlines, arrows and text"
-msgstr "为箭头和文本添加轮廓"
 
 msgid ""
 "Sometimes an image needs something extra to properly direct the readers "
@@ -295,123 +199,6 @@ msgid ""
 msgstr ""
 "其中 ``documentation_image.webp`` 将更改为所创建图像的名称。以明确的方式为图"
 "像命名，可以的话使用前缀明确表示它们与文档页面的关系。"
-
-#, fuzzy
-msgid "Videos"
-msgstr "显存"
-
-#, fuzzy
-msgid "Capturing a video"
-msgstr "截图"
-
-msgid ""
-"To record a video of something in Godot, a screen capture tool can be used. "
-"Operating systems generally don't come with tools that are flexible enough "
-"for this, so you'll need to install a third-party utility."
-msgstr ""
-
-msgid ""
-"`OBS Studio <https://obsproject.com/>`__ is the most popular option, but "
-"`SimpleScreenRecorder <https://www.maartenbaert.be/simplescreenrecorder/>`__ "
-"can be used as an alternative on Linux. `ShareX <https://getsharex.com/>`__ "
-"can be used as an alternative on Windows. All these tools can be configured "
-"to record the entire screen, a specific window or a predetermined rectangle."
-msgstr ""
-
-msgid ""
-"The recommended framerate for video recordings is 60 FPS, although you can "
-"use 30 FPS for longer videos to reduce their file size. For fullscreen "
-"videos, use a resolution of 1280×720."
-msgstr ""
-
-msgid ""
-"Godot's :ref:`Movie Maker mode <doc_creating_movies>` can be used to record "
-"the output of a running project, including its audio. This doesn't require "
-"installing any third-party software and avoids any frame drops (even when "
-"recording on a slow device), but it's less flexible."
-msgstr ""
-
-#, fuzzy
-msgid "Compressing the captured video"
-msgstr "完成骨架"
-
-msgid ""
-"The recommendation is to record your video in the highest quality possible "
-"(without dropping frames due to excessive CPU/GPU utilization), then re-"
-"encode it later to reduce its file size. This results in more efficient "
-"compression than directly aiming for a small file size, as real-time "
-"compression methods are less efficient than slower compression methods."
-msgstr ""
-
-msgid ""
-"To re-encode videos for a smaller file size, use `HandBrake <https://"
-"handbrake.fr/>`__ or the `FFmpeg <https://ffmpeg.org/>` command line below:"
-msgstr ""
-
-msgid ""
-"The number after ``-crf`` adjusts the video quality, with higher numbers "
-"resulting in *lower* quality (and smaller file sizes). A CRF of ``23`` is a "
-"good starting point, but you may need to use a higher value for longer "
-"videos to ensure the file size remains reasonable. Try to aim for a file "
-"size under 2 MB if possible."
-msgstr ""
-
-msgid ""
-"If the video was recorded in a higher resolution or framerate, you can "
-"adjust its output resolution and framerate as follows:"
-msgstr ""
-
-msgid ""
-"This results in a video resolution around 1280×720 at 30 FPS. The exact "
-"video resolution will vary depending on the source's aspect ratio."
-msgstr ""
-
-msgid ""
-"If the video was recorded with an audio track but this audio track is not "
-"necessary, consider stripping it by adding the ``-an`` option to the FFmpeg "
-"command line (before the output file name). This will reduce file size and "
-"also ensure audio controls don't show up on the video when played in a "
-"browser."
-msgstr ""
-
-#, fuzzy
-msgid "Adding a video to a documentation page"
-msgstr "将图像添加到文档页面"
-
-#, fuzzy
-msgid ""
-"Once you've finished working on your video, it can be added to the "
-"documentation. All videos are stored in folders named ``video`` next to the "
-"page they are used in."
-msgstr ""
-"完成图像处理后，就可以将它添加到文档中了。所有的图像都保存在使用它们的页面旁"
-"边的名为 ``img`` 的文件夹中。"
-
-#, fuzzy
-msgid ""
-"To add your video, add it to the ``video`` folder that's in the same folder "
-"as the ``.rst`` file for the page (create it if it doesn't exist). In the ``."
-"rst`` page, videos should be included with the following code snippet::"
-msgstr ""
-"要添加图像，请将其添加到 ``img`` 文件夹中，该文件夹与页面的 ``.rst`` 文件位于"
-"同一文件夹中（如果不存在，请创建它）。在 ``.rst`` 页面中，图像应包含在以下代"
-"码段中 ::"
-
-#, fuzzy
-msgid ""
-"Where ``documentation_video.webp`` would be changed to the name of the video "
-"you created. Name your videos in a way that makes their meaning clear, "
-"possibly with a prefix that makes their relationship to a documentation page "
-"explicit."
-msgstr ""
-"其中 ``documentation_image.webp`` 将更改为所创建图像的名称。以明确的方式为图"
-"像命名，可以的话使用前缀明确表示它们与文档页面的关系。"
-
-msgid ""
-"The ``:autoplay:``, ``:loop:`` and ``:muted:`` flags should always be "
-"specified unless the video needs to play audio. In this case, do not specify "
-"*any* of these flags."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻译状态"

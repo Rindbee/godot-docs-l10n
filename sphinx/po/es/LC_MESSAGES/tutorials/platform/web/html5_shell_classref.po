@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -506,14 +501,6 @@ msgstr "``[]``"
 msgid "A callback function for handling Godot's ``OS.execute`` calls."
 msgstr ""
 "Una función de callback para manejar las llamadas de ``OS.execute`` de Godot."
-
-#, fuzzy
-msgid ""
-"This is for example used in the Web Editor template to switch between "
-"Project Manager and editor, and for running the game."
-msgstr ""
-"Esto se utiliza, por ejemplo, en la plantilla del Editor Web para cambiar "
-"entre el administrador de proyectos y el editor, y para ejecutar el juego."
 
 msgid "The path that Godot's wants executed."
 msgstr "La ruta que Godot desea ejecutar."

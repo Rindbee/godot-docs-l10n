@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,18 +35,6 @@ msgstr ""
 
 msgid "Global scope"
 msgstr "Ámbito Global"
-
-#, fuzzy
-msgid ""
-":ref:`Global Scope<class_@GlobalScope>` singletons are all thread-safe. "
-"Accessing servers from threads is supported (for RenderingServer and Physics "
-"servers, ensure threaded or thread-safe operation is enabled in the project "
-"settings!)."
-msgstr ""
-"Los singletons de :ref:`Alcance Global <class_@GlobalScope>` son seguros "
-"para hilos. Acceder a los servidores desde hilos es compatible (para "
-"VisualServer y servidores de física, asegúrate de que la operación en hilo o "
-"segura para hilos esté habilitada en la configuración del proyecto)."
 
 msgid ""
 "This makes them ideal for code that creates dozens of thousands of instances "
@@ -109,35 +92,12 @@ msgstr ""
 "seguro utilizar directamente la API de los servidores (que es completamente "
 "segura para hilos) y no modificar la escena o los recursos."
 
-msgid "Rendering"
-msgstr "Renderización"
-
-#, fuzzy
-msgid ""
-"Instancing nodes that render anything in 2D or 3D (such as Sprite) is *not* "
-"thread-safe by default. To make rendering thread-safe, set the **Rendering > "
-"Driver > Thread Model** project setting to **Multi-Threaded**."
-msgstr ""
-"La instancia de nodos que representan elementos en 2D o 3D (como Sprite) "
-"**no** es segura para hilos de forma predeterminada. Para hacer que el "
-"rendizado sea seguro para hilos, establece la configuración del proyecto "
-"**Rendering > Threads > Thread Model** en **Multi-Threaded**."
-
 msgid ""
 "Note that the Multi-Threaded thread model has several known bugs, so it may "
 "not be usable in all scenarios."
 msgstr ""
 "Ten en cuenta que el modelo de hilos \"Multi-Threaded\" tiene varios errores "
 "conocidos, por lo que puede no ser utilizable en todos los escenarios."
-
-msgid ""
-"You should avoid calling functions involving direct interaction with the GPU "
-"on other threads, such as creating new textures or modifying and retrieving "
-"image data, these operations can lead to performance stalls because they "
-"require synchronization with the :ref:"
-"`RenderingServer<class_RenderingServer>`, as data needs to be transmitted to "
-"or updated on the GPU."
-msgstr ""
 
 msgid "GDScript arrays, dictionaries"
 msgstr "Arrays y diccionarios GDScript"

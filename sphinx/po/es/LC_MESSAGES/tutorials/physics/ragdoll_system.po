@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,33 +34,11 @@ msgstr ""
 "En este tutorial, usaremos la demo de Platformer3D para crear una muñeca de "
 "trapo."
 
-#, fuzzy
-msgid ""
-"You can download the Platformer3D demo on `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the "
-"`Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
-msgstr ""
-"Puedes descargar la demo de Platformer3D en `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ o usando la "
-"`Asset Library <https://godotengine.org/asset-library/asset/125>`_."
-
 msgid "Setting up the ragdoll"
 msgstr "Creando el ragdoll"
 
 msgid "Creating physical bones"
 msgstr "Creación de huesos físicos"
-
-#, fuzzy
-msgid ""
-"Like many other features in the engine, there is a node to set up a ragdoll: "
-"the :ref:`PhysicalBone3D <class_PhysicalBone3D>` node. To simplify the "
-"setup, you can generate ``PhysicalBone`` nodes with the \"Create physical "
-"skeleton\" feature in the skeleton node."
-msgstr ""
-"Como muchas otras características del motor, hay un nodo para configurar una "
-"muñeca de trapo: el nodo :ref:`PhysicalBone <class_PhysicalBone>`. Para "
-"simplificar la configuración, puedes generar nodos ``PhysicalBone`` con la "
-"característica \"Crear esqueleto físico\" en el nodo del esqueleto."
 
 msgid ""
 "Open the platformer demo in Godot, and then the Robi scene. Select the "
@@ -185,16 +158,6 @@ msgstr ""
 
 msgid "Collision layer and mask"
 msgstr "Capas y máscaras de colisión"
-
-#, fuzzy
-msgid ""
-"Make sure to set up your collision layers and masks properly so the "
-"``CharacterBody3D``'s capsule doesn't get in the way of the physics "
-"simulation:"
-msgstr ""
-"Asegúrate de configurar las capas de colisión y las máscaras apropiadamente "
-"para que la cápsula del ``KinematicBody`` no se interponga en la simulación "
-"de la física:"
 
 msgid ""
 "For more information, read :ref:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,54 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "2D sprite animation"
-msgstr "2Dスプライトアニメーション"
-
 msgid "Introduction"
 msgstr "はじめに"
-
-#, fuzzy
-msgid ""
-"In this tutorial, you'll learn how to create 2D animated characters with the "
-"AnimatedSprite2D class and the AnimationPlayer. Typically, when you create "
-"or download an animated character, it will come in one of two ways: as "
-"individual images or as a single sprite sheet containing all the animation's "
-"frames. Both can be animated in Godot with the AnimatedSprite2D class."
-msgstr ""
-"このチュートリアルでは、AnimatedSpriteクラスとAnimationPlayerを使用して2Dアニ"
-"メーションキャラクターを作成する方法を学習します。通常、アニメーションキャラ"
-"クターを作成またはダウンロードする場合、2つの方法のいずれかが使用されます。"
-"個々の画像として、またはすべてのアニメーションのフレームを含む単一のスプライ"
-"トシートとして。どちらも、AnimatedSpriteクラスを使用してGodotでアニメーション"
-"化できます。"
-
-#, fuzzy
-msgid ""
-"First, we'll use :ref:`AnimatedSprite2D <class_AnimatedSprite2D>` to animate "
-"a collection of individual images. Then we will animate a sprite sheet using "
-"this class. Finally, we will learn another way to animate a sprite sheet "
-"with :ref:`AnimationPlayer <class_AnimationPlayer>` and the *Animation* "
-"property of :ref:`Sprite2D <class_Sprite2D>`."
-msgstr ""
-"まず、\\ :ref:`AnimatedSprite <class_AnimatedSprite>` を使用して、個々の画像"
-"のコレクションをアニメーション化します。次に、このクラスを使用してスプライト"
-"シートをアニメーション化します。最後に、\\ :ref:`AnimationPlayer "
-"<class_AnimationPlayer>` と :ref:`Sprite <class_Sprite>` の *Animation* プ ロ"
-"パティを使用して、スプライトシートをアニメーション化する別の方法を学習しま"
-"す。"
-
-#, fuzzy
-msgid ""
-"Art for the following examples by https://opengameart.org/users/ansimuz and "
-"tgfcoder."
-msgstr ""
-"次のサンプルのアートは https://opengameart.org/users/ansimuz および https://"
-"opengameart.org/users/tgfcoder から入手しました"
-
-#, fuzzy
-msgid "Individual images with AnimatedSprite2D"
-msgstr "AnimatedSpriteと個々の画像"
 
 msgid ""
 "In this scenario, you have a collection of images, each containing one of "
@@ -73,12 +22,6 @@ msgid ""
 msgstr ""
 "このシナリオでは、キャラクターのアニメーションフレームを1つづつ含む複数の画像"
 "を使います。この例では、次のアニメーションを使用します:"
-
-msgid ""
-"You can download the images here: `2d_sprite_animation_assets.zip <https://"
-"github.com/godotengine/godot-docs-project-starters/releases/download/"
-"latest-4.x/2d_sprite_animation_assets.zip>`_"
-msgstr ""
 
 msgid ""
 "Unzip the images and place them in your project folder. Set up your scene "
@@ -100,14 +43,6 @@ msgstr ""
 "てることができます。詳細については、\\ :ref:`Physics Introduction "
 "<doc_physics_introduction>` を参照してください。"
 
-#, fuzzy
-msgid ""
-"Now select the ``AnimatedSprite2D`` and in its *SpriteFrames* property, "
-"select \"New SpriteFrames\"."
-msgstr ""
-"次に、\\ ``AnimatedSprite`` を選択し、その *SpriteFrames* プロパティで「新規 "
-"SpriteFrames」を選択します。"
-
 msgid ""
 "Click on the new SpriteFrames resource and you'll see a new panel appear at "
 "the bottom of the editor window:"
@@ -124,26 +59,6 @@ msgstr ""
 "ラッグします。左側で、アニメーションの名前を \"default\" から \"run\" に変更"
 "します。"
 
-#, fuzzy
-msgid ""
-"Use the \"Play\" buttons on the top-right of the *Filter Animations* input "
-"to preview the animation. You should now see the animation playing in the "
-"viewport. However, it is a bit slow. To fix this, change the *Speed (FPS)* "
-"setting in the SpriteFrames panel to 10."
-msgstr ""
-"インスペクタに戻り、\\ *Playing* プロパティのチェックボックスをオンにします。"
-"これで、アニメーションがビューポートで再生されます。しかし、それは少し遅いで"
-"す。この問題を解決するには、SpriteFramesパネルの *Speed(FPS)* 設定を10に変更"
-"します。"
-
-#, fuzzy
-msgid ""
-"You can add additional animations by clicking the \"Add Animation\" button "
-"and adding additional images."
-msgstr ""
-"[新規アニメーション]ボタンをクリックして画像を追加すると、アニメーションを追"
-"加できます。"
-
 msgid "Controlling the animation"
 msgstr "アニメーションのコントロール"
 
@@ -158,18 +73,6 @@ msgstr ""
 "ションを再生し、キーを放したときにアニメーションを停止する簡単な例を次に示し"
 "ます。"
 
-#, fuzzy
-msgid "Sprite sheet with AnimatedSprite2D"
-msgstr "AnimatedSpriteを使用したスプライトシート"
-
-#, fuzzy
-msgid ""
-"You can also easily animate from a sprite sheet with the class "
-"``AnimatedSprite2D``. We will use this public domain sprite sheet:"
-msgstr ""
-"クラス ``AnimatedSprite`` を使用して、スプライトシートから簡単にアニメーショ"
-"ン化することもできます。このパブリックドメインスプライトシートを使用します:"
-
 msgid ""
 "Right-click the image and choose \"Save Image As\" to download it, and then "
 "copy the image into your project folder."
@@ -177,79 +80,8 @@ msgstr ""
 "画像を右クリックして[名前を付けて保存]を選択してダウンロードし、イメージをプ"
 "ロジェクトフォルダにコピーします。"
 
-#, fuzzy
-msgid ""
-"Set up your scene tree the same way you did previously when using individual "
-"images. Select the ``AnimatedSprite2D`` and in its *SpriteFrames* property, "
-"select \"New SpriteFrames\"."
-msgstr ""
-"個々の画像を使用するときと同じ方法でシーンツリーを設定します。\\ "
-"``AnimatedSprite`` を選択し、その *SpriteFrames* プロパティで、[新規 "
-"SpriteFrames]を選択します。"
-
-#, fuzzy
-msgid ""
-"Click on the new SpriteFrames resource. This time, when the bottom panel "
-"appears, select \"Add frames from a Sprite Sheet\"."
-msgstr ""
-"新しいSpriteFramesリソースをクリックします。今回は、下のパネルが表示された"
-"ら、[スプライトシートからフレームを追加する]を選択します。"
-
-#, fuzzy
-msgid "You will be prompted to open a file. Select your sprite sheet."
-msgstr "ファイルを開くように求められます。スプライトシートを選択します。"
-
-#, fuzzy
-msgid ""
-"A new window will open, showing your sprite sheet. The first thing you will "
-"need to do is to change the number of vertical and horizontal images in your "
-"sprite sheet. In this sprite sheet, we have four images horizontally and two "
-"images vertically."
-msgstr ""
-"新しいウィンドウが開き、スプライトシートが表示されます。最初に行う必要がある"
-"のは、スプライトシートの垂直および水平画像の数を変更することです。このスプラ"
-"イトシートには、水平方向に4つの画像と垂直方向に2つの画像があります。"
-
-#, fuzzy
-msgid ""
-"Next, select the frames from the sprite sheet that you want to include in "
-"your animation. We will select the top four, then click \"Add 4 frames\" to "
-"create the animation."
-msgstr ""
-"次に、アニメーションに含めるスプライトシートからフレームを選択します。上位4つ"
-"を選択し、[4フレームを追加]をクリックしてアニメーションを作成します。"
-
-#, fuzzy
-msgid ""
-"You will now see your animation under the list of animations in the bottom "
-"panel. Double click on default to change the name of the animation to jump."
-msgstr ""
-"これで、下部パネルのアニメーションのリストの下にアニメーションが表示されま"
-"す。デフォルトでダブルクリックして、ジャンプするアニメーションの名前を変更し"
-"ます。"
-
-#, fuzzy
-msgid ""
-"Finally, check the play button on the SpriteFrames editor to see your frog "
-"jump!"
-msgstr ""
-"最後に、インスペクタのAnimatedSpriteでの再生をチェックして、カエルのジャンプ"
-"を確認してください！"
-
 msgid "Sprite sheet with AnimationPlayer"
 msgstr "AnimationPlayerのスプライトシート"
-
-#, fuzzy
-msgid ""
-"Another way that you can animate when using a sprite sheet is to use a "
-"standard :ref:`Sprite2D <class_Sprite2D>` node to display the texture, and "
-"then animating the change from texture to texture with :ref:`AnimationPlayer "
-"<class_AnimationPlayer>`."
-msgstr ""
-"スプライトシートを使用するときにアニメーション化を行うもう1つの方法は、標準"
-"の :ref:`Sprite <class_Sprite>` ノードを使用してテクスチャを表示し、次に :"
-"ref:`AnimationPlayer <class_AnimationPlayer>` でテクスチャからテクスチャへの"
-"変更をアニメートすることです。"
 
 msgid "Consider this sprite sheet, which contains 6 frames of animation:"
 msgstr ""
@@ -282,16 +114,6 @@ msgstr ""
 "*Hframes* および *Vframes* は、スプライトシート内の水平フレームと垂直フレーム"
 "の数です。"
 
-#, fuzzy
-msgid ""
-"Now try changing the value of the *Frame* property. You'll see that it "
-"ranges from ``0`` to ``5`` and the image displayed by the Sprite2D changes "
-"accordingly. This is the property we'll be animating."
-msgstr ""
-"次に、\\ *Frame* プロパティの値を変更してみてください。範囲が ``0`` から "
-"``5`` であり、それに応じてスプライトによって表示される画像が変化することがわ"
-"かります。これが、アニメーション化のプロパティです。"
-
 msgid ""
 "Select the ``AnimationPlayer`` and click the \"Animation\" button followed "
 "by \"New\". Name the new animation \"walk\". Set the animation length to "
@@ -301,13 +123,6 @@ msgstr ""
 "規] をクリックします。新しいアニメーションに「walk」という名前を付けます。ア"
 "ニメーションの長さを ``0.6`` に設定し、[ループ] ボタンをクリックして、アニ"
 "メーションが繰り返されるようにします。"
-
-#, fuzzy
-msgid ""
-"Now select the ``Sprite2D`` node and click the key icon to add a new track."
-msgstr ""
-"次に、\\ ``Sprite`` ノードを選択し、鍵のアイコンをクリックして新しいトラック"
-"を追加します。"
 
 msgid ""
 "Continue adding frames at each point in the timeline (``0.1`` seconds by "
@@ -325,18 +140,6 @@ msgstr ""
 
 msgid "Controlling an AnimationPlayer animation"
 msgstr "AnimationPlayerアニメーションの制御"
-
-#, fuzzy
-msgid ""
-"Like with AnimatedSprite2D, you can control the animation via code using the "
-"``play()`` and ``stop()`` methods. Again, here is an example to play the "
-"animation while the right arrow key is held, and stop it when the key is "
-"released."
-msgstr ""
-"AnimatedSpriteと同様に、\\ ``play()`` メソッドと ``stop()`` メソッドを使用し"
-"て、コードを介してアニメーションを制御できます。ここでも、右矢印キーを押した"
-"ままアニメーションを再生し、キーを放したときにアニメーションを停止する例を次"
-"に示します。"
 
 msgid ""
 "If updating both an animation and a separate property at once (for example, "
@@ -362,21 +165,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "概要"
-
-#, fuzzy
-msgid ""
-"These examples illustrate the two classes you can use in Godot for 2D "
-"animation. ``AnimationPlayer`` is a bit more complex than "
-"``AnimatedSprite2D``, but it provides additional functionality, since you "
-"can also animate other properties like position or scale. The class "
-"``AnimationPlayer`` can also be used with an ``AnimatedSprite2D``. "
-"Experiment to see what works best for your needs."
-msgstr ""
-"これらの例は、2Dアニメーション用にGodotで使用できる2つのクラスを示していま"
-"す。\\ ``AnimationPlayer`` は ``AnimatedSprite`` よりも少し複雑ですが、位置や"
-"スケールなどの他のプロパティもアニメーション化できるため、追加の機能が提供さ"
-"れます。クラス ``AnimationPlayer`` は ``AnimatedSprite`` でも使用できます。"
-"ニーズに最適なものを試してみてください。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

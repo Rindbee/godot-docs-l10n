@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,57 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "C# global classes"
-msgstr "Globální třídy."
-
-msgid ""
-"Global classes (also known as named scripts) are types registered in Godot's "
-"editor so they can be used more conveniently."
-msgstr ""
-
-msgid "Global classes show up in the *Add Node* and *Create Resource* dialogs."
-msgstr ""
-
-msgid ""
-"If an :ref:`exported property <doc_c_sharp_exports>` is a global class, the "
-"inspector restricts assignment, allowing only instances of that global class "
-"or any derived classes."
-msgstr ""
-
-msgid "Global classes are registered with the ``[GlobalClass]`` attribute."
-msgstr ""
-
-msgid ""
-"The ``MyNode`` type will be registered as a global class with the same name "
-"as the type's name."
-msgstr ""
-
-msgid ""
-"The *Select a Node* window for the ``MyNode`` exported property filters the "
-"list of nodes in the scene to match the assignment restriction."
-msgstr ""
-
-msgid ""
-"If a custom type isn't registered as a global class, the assignment is "
-"restricted to the Godot type the custom type is based on. For example, "
-"inspector assignments to an export of the type ``MySimpleSprite2D`` are "
-"restricted to ``Sprite2D`` and derived types."
-msgstr ""
-
-msgid ""
-"When combined with the ``[GlobalClass]`` attribute, the ``[Icon]`` attribute "
-"allows providing a path to an icon to show when the class is displayed in "
-"the editor."
-msgstr ""
-
-msgid ""
-"The ``Stats`` class is a custom resource registered as a global class. :ref:"
-"`Exporting properties <doc_c_sharp_exports>` of the type ``Stats`` will only "
-"allow instances of this resource type to be assigned, and the inspector will "
-"let you create and load instances of this type easily."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stav překladu"

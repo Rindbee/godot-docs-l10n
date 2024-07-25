@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,27 +159,6 @@ msgstr ""
 "<class_Viewport_method_set_input_as_handled>`\\ ，事件就不会再继续传播。快捷"
 "键输入回调主要用于处理快捷键相关的事件。"
 
-#, fuzzy
-msgid ""
-"If so far no one consumed the event, the :ref:`Node._unhandled_key_input() "
-"<class_Node_private_method__unhandled_key_input>` callback will be called if "
-"overridden (and not disabled with :ref:`Node."
-"set_process_unhandled_key_input() "
-"<class_Node_method_set_process_unhandled_key_input>`). This happens only if "
-"the event is an :ref:`InputEventKey <class_InputEventKey>`. If any function "
-"consumes the event, it can call :ref:`Viewport.set_input_as_handled() "
-"<class_Viewport_method_set_input_as_handled>`, and the event will not spread "
-"any more. The unhandled key input callback is ideal for key events."
-msgstr ""
-"如果事件到目前为止还没有被消耗，并且覆盖了 :ref:`Node._unhandled_key_input() "
-"<class_Node_private_method__unhandled_key_input>` 函数（并且没有通过 :ref:"
-"`Node.set_process_unhandled_key_input() "
-"<class_Node_method_set_process_unhandled_key_input>` 禁用），那么就会调用这个"
-"回调。只有 :ref:`InputEventKey <class_InputEventKey>` 才有这一步。如果某个函"
-"数消耗了该事件，就可以调用 :ref:`Viewport.set_input_as_handled() "
-"<class_Viewport_method_set_input_as_handled>`\\ ，事件就不会再继续传播。未处"
-"理按键输入回调主要用于处理按键相关的事件。"
-
 msgid ""
 "If so far no one consumed the event, the :ref:`Node._unhandled_input() "
 "<class_Node_private_method__unhandled_input>` callback will be called if "
@@ -203,34 +177,6 @@ msgstr ""
 "set_input_as_handled() <class_Viewport_method_set_input_as_handled>`\\ ，事件"
 "就不会再继续传播。未处理输入回调主要用于处理全屏游戏事件，GUI 处于活动状态时"
 "不会收到。"
-
-#, fuzzy
-msgid ""
-"If no one wanted the event so far, and :ref:`Object Picking "
-"<class_viewport_property_physics_object_picking>` is turned on, the event is "
-"used for object picking. For the root viewport, this can also be enabled in :"
-"ref:`Project Settings <class_ProjectSettings_property_physics/common/"
-"enable_object_picking>`. In the case of a 3D scene if a :ref:`Camera3D "
-"<class_Camera3D>` is assigned to the Viewport, a ray to the physics world "
-"(in the ray direction from the click) will be cast. If this ray hits an "
-"object, it will call the :ref:`CollisionObject3D._input_event() "
-"<class_CollisionObject3D_private_method__input_event>` function in the "
-"relevant physics object. In the case of a 2D scene, conceptually the same "
-"happens with :ref:`CollisionObject2D._input_event() "
-"<class_CollisionObject2D_private_method__input_event>`."
-msgstr ""
-"如果到目前为止没有人想要这个事件，但启用了\\ :ref:`对象拾取 "
-"<class_viewport_property_physics_object_picking>`\\ ，那么就会使用这个事件进"
-"行对象拾取。根视口可以在\\ :ref:`项目设置 "
-"<class_ProjectSettings_property_physics/common/enable_object_picking>`\\ 中启"
-"用这个设置。在 3D 场景中，如果 Viewport 有对应的 :ref:`Camera3D "
-"<class_Camera3D>`\\ ，那么就会在物理世界中（朝着点击的方向）发出一条射线。如"
-"果该射线能够命中某个对象，则会调用对应物理对象的 :ref:`CollisionObject3D."
-"_input_event() <class_CollisionObject3D_private_method__input_event>` 函数"
-"（物体默认会收到该回调，但是区域默认不会。可以通过 :ref:`Area3D "
-"<class_Area3D>` 的属性进行配置）。2D 场景中对应的是 :ref:`CollisionObject2D."
-"_input_event() <class_CollisionObject2D_private_method__input_event>`\\ ，流"
-"程在概念上是一样的。"
 
 msgid ""
 "When sending events to its child and descendant nodes, the viewport will do "
@@ -319,10 +265,6 @@ msgstr "空输入事件."
 msgid ":ref:`InputEventKey <class_InputEventKey>`"
 msgstr ":ref:`InputEventKey <class_InputEventKey>`"
 
-#, fuzzy
-msgid "Contains a keycode and Unicode value, as well as modifiers."
-msgstr "包含一个键盘扫描码和Unicode值, 以及修饰键."
-
 msgid ":ref:`InputEventMouseButton <class_InputEventMouseButton>`"
 msgstr ":ref:`InputEventMouseButton <class_InputEventMouseButton>`"
 
@@ -331,12 +273,6 @@ msgstr "包含点击信息, 例如按钮, 修饰键等."
 
 msgid ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
 msgstr ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
-
-#, fuzzy
-msgid ""
-"Contains motion information, such as relative and absolute positions and "
-"speed."
-msgstr "包含运动信息, 例如相对位置, 绝对位置和速度."
 
 msgid ":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`"
 msgstr ":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`"
@@ -365,34 +301,6 @@ msgid ""
 "Contains multi-touch drag information. (only available on mobile devices)"
 msgstr "包含多点触控拖动信息. (仅适用于移动设备)"
 
-#, fuzzy
-msgid ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains a position, a factor as well as modifiers."
-msgstr "包含一个键盘扫描码和Unicode值, 以及修饰键."
-
-#, fuzzy
-msgid ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains a position, a delta as well as modifiers."
-msgstr "包含一个键盘扫描码和Unicode值, 以及修饰键."
-
-#, fuzzy
-msgid ":ref:`InputEventMIDI <class_InputEventMIDI>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains MIDI-related information."
-msgstr "包含操纵杆/ Joypad按钮信息."
-
-#, fuzzy
-msgid ":ref:`InputEventShortcut <class_InputEventShortcut>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
 msgid "Contains a shortcut."
 msgstr "容器布局。"
 
@@ -418,10 +326,6 @@ msgstr ""
 "手柄左输入和键盘左箭头键群组）。它们不需要表示输入事件，但很有用，因为它们在"
 "编写游戏逻辑时抽象化了各种输入。"
 
-#, fuzzy
-msgid "This allows for:"
-msgstr "可以用来实现许多功能："
-
 msgid ""
 "The same code to work on different devices with different inputs (e.g., "
 "keyboard on PC, Joypad on console)."
@@ -431,16 +335,6 @@ msgstr ""
 
 msgid "Input to be reconfigured at run-time."
 msgstr "输入要在运行时重新配置."
-
-#, fuzzy
-msgid "Actions to be triggered programmatically at run-time."
-msgstr "输入要在运行时重新配置."
-
-#, fuzzy
-msgid ""
-"Actions can be created from the Project Settings menu in the **Input Map** "
-"tab and assigned input events."
-msgstr "动作可以在“项目设置”菜单的“动作”选项卡中创建。"
 
 msgid ""
 "Any event has the methods :ref:`InputEvent.is_action() "

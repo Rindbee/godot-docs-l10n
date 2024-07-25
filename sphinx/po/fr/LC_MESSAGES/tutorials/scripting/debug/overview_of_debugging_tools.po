@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,33 +74,11 @@ msgid "Deploy with Remote Debug"
 msgstr "Déployer avec le débogage distant"
 
 msgid ""
-"When this option is enabled, using one-click deploy will make the executable "
-"attempt to connect to this computer's IP so the running project can be "
-"debugged. This option is intended to be used for remote debugging (typically "
-"with a mobile device). You don't need to enable it to use the GDScript "
-"debugger locally."
-msgstr ""
-
-#, fuzzy
-msgid "Small Deploy with Network Filesystem"
-msgstr "Déploiement minime avec système de fichier réseau"
-
-msgid ""
 "This option speeds up testing for games with a large footprint on remote "
 "devices."
 msgstr ""
 "Cette option accélère les tests pour les jeux avec une grande empreinte sur "
 "les appareils distants."
-
-#, fuzzy
-msgid ""
-"When **Small Deploy with Network Filesystem** is on, instead of exporting "
-"the full game, deploying the game builds a minimal executable. The editor "
-"then provides files from the project over the network."
-msgstr ""
-"Lorsque **Small Deploy with Network FS** est activé, au lieu d'exporter le "
-"jeu complet, le déploiement du jeu crée un exécutable minimal. L'éditeur "
-"fournit ensuite les fichiers du projet sur le réseau."
 
 msgid ""
 "Also, on Android, the game is deployed using the USB cable to speed up "
@@ -117,209 +90,17 @@ msgstr ""
 msgid "Visible Collision Shapes"
 msgstr "Formes de collision visibles"
 
-#, fuzzy
-msgid ""
-"When this option is enabled, collision shapes and raycast nodes (for 2D and "
-"3D) will be visible in the running project."
-msgstr ""
-"Cette option rend visibles les formes de collision et les nœuds de raycast "
-"dans le jeu en cours d’exécution."
-
-#, fuzzy
-msgid "Visible Paths"
-msgstr "Zone de Visibilité"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, curve resources used by path nodes will be "
-"visible in the running project."
-msgstr ""
-"Cette option rend visibles les formes de collision et les nœuds de raycast "
-"dans le jeu en cours d’exécution."
-
 msgid "Visible Navigation"
 msgstr "Navigation visible"
 
-#, fuzzy
-msgid ""
-"When this option is enabled, navigation meshes, and polygons will be visible "
-"in the running project."
-msgstr ""
-"Les maillages de navigation et les polygones seront visibles sur le jeu en "
-"cours d’exécution."
-
-#, fuzzy
-msgid "Visible Avoidance"
-msgstr "Navigation visible"
-
-msgid ""
-"When this option is enabled, avoidance object shapes, radiuses, and "
-"velocities will be visible in the running project."
-msgstr ""
-
-#, fuzzy
-msgid "Debug CanvasItem Redraws"
-msgstr "CanvasItem shaders"
-
-msgid ""
-"When this option is enabled, redraw requests of 2D objects will become "
-"visible (as a short flash) in the running project. This is useful to "
-"troubleshoot low processor mode."
-msgstr ""
-
-#, fuzzy
-msgid "Synchronize Scene Changes"
-msgstr "Synchroniser les modifications des scènes"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, any changes made to the scene in the editor "
-"will be replicated in the running project. When used remotely on a device, "
-"this is more efficient when the network filesystem option is enabled."
-msgstr ""
-"Avec cette option, toute modification apportée à une scène dans l'éditeur au "
-"moment de l'exécution apparaît instantanément. Lorsqu'il est utilisé à "
-"distance sur un appareil, cela est plus efficace avec le système de fichiers "
-"réseau."
-
-#, fuzzy
-msgid "Synchronize Script Changes"
-msgstr "Synchroniser les modifications des scripts"
-
-#, fuzzy
-msgid ""
-"When this option is enabled, any changes made to the script in the editor "
-"will be reloaded in the running project. When used remotely on a device, "
-"this is more efficient with the network filesystem."
-msgstr ""
-"Avec cette option, toute modification apportée à une scène dans l'éditeur au "
-"moment de l'exécution apparaît instantanément. Lorsqu'il est utilisé à "
-"distance sur un appareil, cela est plus efficace avec le système de fichiers "
-"réseau."
-
 msgid "Keep Debug Server Open"
-msgstr ""
-
-msgid ""
-"When this option is enabled, the editor debug server will stay open and "
-"listen for new sessions started outside of the editor itself."
-msgstr ""
+msgstr "Garder le serveur de débogage ouvert"
 
 msgid "Customize Run Instances..."
-msgstr ""
-
-msgid ""
-"This opens a dialog allowing you to tell Godot to run multiple instances of "
-"the game at once, and to specify the command line arguments for each "
-"instance. This is especially useful when building and debugging multiplayer "
-"games."
-msgstr ""
-
-#, fuzzy
-msgid "Enable Multiple Instances"
-msgstr "Utilisation de MultiMeshInstance"
-
-msgid ""
-"When this option is enabled, the editor will run multiple instances of the "
-"project at once when you Run Project."
-msgstr ""
-
-msgid "Below this checkbox is a selector to pick how many instances to run."
-msgstr ""
-
-msgid ""
-"Checking the box and setting this to only 1 is the same as not checking this "
-"box at all."
-msgstr ""
+msgstr "Personnaliser les instances d’exécution..."
 
 msgid "Main Run Args"
-msgstr ""
-
-msgid ""
-"These are the arguments that will be passed to **every** instance of the "
-"project when you Run Project, unless you select \"Enabled\" under \"Override "
-"Main Run Args\" for a specific instance."
-msgstr ""
-
-msgid "Note that these arguments are space-separated."
-msgstr ""
-
-msgid ""
-"These arguments can be accessed in your script by using :ref:"
-"`get_cmdline_args<class_OS_method_get_cmdline_args>`."
-msgstr ""
-
-msgid ""
-"Even if you uncheck \"Enable Multiple Instances\" these arguments will be "
-"passed when you Run Project."
-msgstr ""
-
-#, fuzzy
-msgid "Main Feature Tags"
-msgstr "Tags de fonctionnalité"
-
-msgid ""
-"These are the feature tags that will be passed to **every** instance of the "
-"project when you Run Project, unless you select \"Enabled\" under \"Override "
-"Main Tags\" for a specific instance."
-msgstr ""
-
-msgid "Override Main Run Args"
-msgstr ""
-
-msgid ""
-"When this is enabled, the arguments in the \"Main Run Args\" field will "
-"**not be passed** to this specific instance of the project when you Run "
-"Project."
-msgstr ""
-
-#, fuzzy
-msgid "Launch Arguments"
-msgstr "Arguments"
-
-msgid ""
-"These are the arguments that will be passed to this specific instance of the "
-"project when you Run Project. They will be **combined with** the \"Main Run "
-"Args\" unless you select \"Enabled\" under \"Override Main Run Args\"."
-msgstr ""
-
-#, fuzzy
-msgid "Override Main Tags"
-msgstr "Axe surchargé"
-
-msgid ""
-"When this is enabled, the tags in the \"Main Feature Tags\" field will **not "
-"be passed** to this specific instance of the project when you Run Project."
-msgstr ""
-
-#, fuzzy
-msgid "Feature Tags"
-msgstr "Tags de fonctionnalité"
-
-msgid ""
-"These are the feature tags that will be passed to this specific instance of "
-"the project when you Run Project. They will be **combined with** the \"Main "
-"Feature Tags\" unless you select \"Enabled\" under \"Override Main Tags\"."
-msgstr ""
-
-msgid ""
-"If you want to pass \"User\" arguments, that can be accessed with :ref:"
-"`get_cmdline_user_args<class_OS_method_get_cmdline_user_args>` then you must "
-"prefix them with two dashes **and a space** like `-- one two three`."
-msgstr ""
-
-msgid ""
-"Be aware that these dashes will apply to arguments added later in the "
-"\"Launch Arguments\" on a per instance basis, which can cause some confusion "
-"when combining the `Main Run Args` and `Launch Arguments`."
-msgstr ""
-
-msgid ""
-"If you place `-- one two three` in the \"Main Run Args\" and `-- four five "
-"six` in the \"Launch Arguments\" then the final command line arguments will "
-"be `one two three -- four five six`. This is because the `--` is repeated in "
-"the \"Launch Arguments\"."
-msgstr ""
+msgstr "Arguments d'exécution principaux"
 
 msgid "Script editor debug tools and options"
 msgstr "Outils et options de débogage de l'éditeur de script"
@@ -334,22 +115,6 @@ msgstr ""
 "points d'arrêt se trouvent également dans l'onglet **Debugger** du débogueur."
 
 msgid ""
-"You can create a breakpoint by clicking the gutter in the left of the script "
-"editor (on the left of the line numbers). When hovering this gutter, you "
-"will see a transparent red dot appearing, which turns into an opaque red dot "
-"after the breakpoint is placed by clicking. Click the red dot again to "
-"remove the breakpoint. Breakpoints created this way persist across editor "
-"restarts, even if the script wasn't saved when exiting the editor."
-msgstr ""
-
-msgid ""
-"You can also use the ``breakpoint`` keyword in GDScript to create a "
-"breakpoint that is stored in the script itself. Unlike breakpoints created "
-"by clicking in the gutter, this keyword-based breakpoint is persistent "
-"across different machines when using version control."
-msgstr ""
-
-msgid ""
 "The **Break** button causes a break in the script like a breakpoint would. "
 "**Continue** makes the game continue after pausing at a breakpoint. **Step "
 "Over** goes to the next line of code, and **Step Into** goes into a function "
@@ -360,22 +125,6 @@ msgstr ""
 "pause à un point d'arrêt. **Step Over** passe à la ligne de code suivante, "
 "et **Step Into** passe dans une fonction si possible. Sinon, il fait la même "
 "chose que **Step Over**."
-
-#, fuzzy
-msgid ""
-"The **Debug with External Editor** option lets you debug your game with an "
-"external editor. This option is also accessible in **Editor Settings > "
-"Debugger**."
-msgstr ""
-"L'option **Keep Debugger Open** permet de garder le débogueur ouvert après "
-"la fermeture d'une scène. Et l'option **Debug with External Editor** vous "
-"permet de déboguer votre jeu avec un éditeur externe."
-
-msgid ""
-"When the debugger breaks on a breakpoint, a green triangle arrow is visible "
-"in the script editor's gutter. This arrow indicates the line of code the "
-"debugger broke on."
-msgstr ""
 
 msgid "Debug project settings"
 msgstr "Paramètres de débogage du projet"

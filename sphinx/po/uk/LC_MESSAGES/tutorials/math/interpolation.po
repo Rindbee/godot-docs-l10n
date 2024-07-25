@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,34 +30,8 @@ msgstr ""
 "Основна ідея полягає в тому, що ви хочете перейти від А до В. Значення "
 "``t``, представляє стани між ними."
 
-#, fuzzy
-msgid ""
-"For example, if ``t`` is 0, then the state is A. If ``t`` is 1, then the "
-"state is B. Anything in-between is an *interpolation*."
-msgstr ""
-"Наприклад, якщо ``t`` рівно 0, то стан рівний А. Якщо ``t`` рівно 1, то стан "
-"рівний В. Всі проміжні стани називаються *інтерполяцією*."
-
-#, fuzzy
-msgid ""
-"Between two real (floating-point) numbers, an interpolation can be described "
-"as:"
-msgstr ""
-"Між двома дійсними (з десятковою комою) числами проста інтерполяція зазвичай "
-"описується як:"
-
 msgid "And often simplified to:"
 msgstr "І часто спрощується до:"
-
-#, fuzzy
-msgid ""
-"The name of this type of interpolation, which transforms a value into "
-"another at *constant speed* is *\"linear\"*. So, when you hear about *Linear "
-"Interpolation*, you know they are referring to this formula."
-msgstr ""
-"Така інтерполяція, яка перетворює значення на інше з *постійною швидкістю*, "
-"називається *\"лінійною\"*. Так що тепер, коли почуєте про *Лінійну "
-"інтерполяцію*, то будете знати, що мається на увазі ця проста формула."
 
 msgid ""
 "There are other types of interpolations, which will not be covered here. A "
@@ -76,19 +45,6 @@ msgstr ""
 msgid "Vector interpolation"
 msgstr "Векторна інтерполяція"
 
-#, fuzzy
-msgid ""
-"Vector types (:ref:`Vector2 <class_Vector2>` and :ref:`Vector3 "
-"<class_Vector3>`) can also be interpolated, they come with handy functions "
-"to do it :ref:`Vector2.lerp() <class_Vector2_method_lerp>` and :ref:`Vector3."
-"lerp() <class_Vector3_method_lerp>`."
-msgstr ""
-"Векторні типи (:ref:`Vector2 <class_Vector2>` та :ref:`Vector3 "
-"<class_Vector3>`) також можуть бути інтерпольовані, для цього вони мають "
-"зручні функції, :ref:`Vector2.linear_interpolate() "
-"<class_Vector2_method_linear_interpolate>` та :ref:`Vector3."
-"linear_interpolate() <class_Vector3_method_linear_interpolate>`."
-
 msgid ""
 "For cubic interpolation, there are also :ref:`Vector2.cubic_interpolate() "
 "<class_Vector2_method_cubic_interpolate>` and :ref:`Vector3."
@@ -100,29 +56,11 @@ msgstr ""
 "cubic_interpolate() <class_Vector3_method_cubic_interpolate>`, які виконують "
 "інтерполяцію в стилі :ref:`Безьє <doc_beziers_and_curves>`."
 
-#, fuzzy
-msgid ""
-"Here is example pseudo-code for going from point A to B using interpolation:"
-msgstr ""
-"Ось простий псевдокод для переходу з точки А в B за допомогою інтерполяції:"
-
 msgid "It will produce the following motion:"
 msgstr "Він буде виробляти наступний рух:"
 
 msgid "Transform interpolation"
 msgstr "Інтерполяція перетворень"
-
-#, fuzzy
-msgid ""
-"It is also possible to interpolate whole transforms (make sure they have "
-"either uniform scale or, at least, the same non-uniform scale). For this, "
-"the function :ref:`Transform3D.interpolate_with() "
-"<class_Transform3D_method_interpolate_with>` can be used."
-msgstr ""
-"Також можна інтерполювати цілі перетворення (переконайтеся, що вони мають "
-"або рівномірний масштаб, або, принаймні, однаковий нерівномірний масштаб). "
-"Для цього можна використати функцію :ref:`Transform.interpolate_with() "
-"<class_Transform_method_interpolate_with>`."
 
 msgid ""
 "Here is an example of transforming a monkey from Position1 to Position2:"

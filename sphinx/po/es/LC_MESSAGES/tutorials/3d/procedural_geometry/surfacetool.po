@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +14,6 @@ msgstr ""
 
 msgid "Using the SurfaceTool"
 msgstr "Usando SurfaceTool"
-
-#, fuzzy
-msgid ""
-"The :ref:`SurfaceTool <class_surfacetool>` provides a useful interface for "
-"constructing geometry. The interface is similar to the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>` class. You set each per-vertex attribute (e.g. "
-"normal, uv, color) and then when you add a vertex it captures the attributes."
-msgstr ""
-"El :ref:`SurfaceTool <class_surfacetool>` proporciona una interfaz útil para "
-"construir geometría. La interfaz es similar al nodo :ref:`ImmediateGeometry "
-"<class_immediategeometry>`. Configuras cada atributo por vértice (por "
-"ejemplo, normal, uv, color) y luego, cuando agregas un vértice, captura los "
-"atributos."
 
 msgid ""
 "The SurfaceTool also provides some useful helper functions like ``index()`` "
@@ -93,22 +75,6 @@ msgstr ""
 "normales resultantes. Como nota adicional, ``generate_normals()`` solo "
 "funciona si el tipo primitivo está establecido en ``Mesh."
 "PRIMITIVE_TRIANGLES``."
-
-#, fuzzy
-msgid ""
-"You may notice that normal mapping or other material properties look broken "
-"on the generated mesh. This is because normal mapping **requires** the mesh "
-"to feature *tangents*, which are separate from *normals*. You can either add "
-"custom tangents manually, or generate them automatically with "
-"``generate_tangents()``. This method requires that each vertex have UVs and "
-"normals set already."
-msgstr ""
-"Puede que notes que el mapeado de normales u otras propiedades de material "
-"se vean incorrectos en la malla generada. Esto se debe a que el mapeado de "
-"normales requiere que la malla tenga *tangentes*, las cuales son diferentes "
-"de las *normales*. Puedes agregar tangentes personalizadas manualmente o "
-"generarlas automáticamente con ``generate_tangents()``. Este método requiere "
-"que cada vértice ya tenga establecidas las coordenadas UV y las normales."
 
 msgid ""
 "By default, when generating normals, they will be calculated on a per-face "

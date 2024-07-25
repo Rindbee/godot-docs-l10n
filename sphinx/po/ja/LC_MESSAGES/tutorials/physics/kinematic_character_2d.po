@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,16 +85,6 @@ msgstr ""
 "す。 ただし、欠点としては、コードで手動で行わない限り、他の物理オブジェクトと"
 "直接やり取りすることはできません。"
 
-#, fuzzy
-msgid ""
-"This short tutorial focuses on the kinematic character controller. It uses "
-"the old-school way of handling collisions, which is not necessarily simpler "
-"under the hood, but well hidden and presented as an API."
-msgstr ""
-"この短いチュートリアルでは、キネマティックキャラクターコントローラーに焦点を"
-"当てます。 基本的に、衝突を処理する昔ながらの方法です(内部では必ずしも単純で"
-"はないが、よく隠されており、素晴らしくシンプルなAPIとして提示されています)。"
-
 msgid "Physics process"
 msgstr "\\ Physics process"
 
@@ -120,18 +105,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "シーンの設定"
-
-#, fuzzy
-msgid ""
-"To have something to test, here's the scene (from the tilemap tutorial): "
-"`kinematic_character_2d_starter.zip <https://github.com/godotengine/godot-"
-"docs-project-starters/releases/download/latest-4.x/"
-"kinematic_character_2d_starter.zip>`_. We'll be creating a new scene for the "
-"character. Use the robot sprite and create a scene like this:"
-msgstr ""
-"テスト用に、ここにシーンがあります(タイルマップチュートリアルから): :"
-"download:`kbscene.zip <files / kbscene.zip>`\\ 。 キャラクターの新しいシーン"
-"を作成します。 ロボットスプライトを使用して、次のようなシーンを作成します:"
 
 msgid ""
 "You'll notice that there's a warning icon next to our CollisionShape2D node; "
@@ -173,22 +146,6 @@ msgstr ""
 msgid "Moving the kinematic character"
 msgstr "キネマティック キャラクタの移動"
 
-#, fuzzy
-msgid ""
-"Go back to the character scene, and open the script, the magic begins now! "
-"Kinematic body will do nothing by default, but it has a useful function "
-"called ``CharacterBody2D.move_and_collide()``. This function takes a :ref:"
-"`Vector2 <class_Vector2>` as an argument, and tries to apply that motion to "
-"the kinematic body. If a collision happens, it stops right at the moment of "
-"the collision."
-msgstr ""
-"キャラクターシーンに戻り、スクリプトを開くと、魔法が始まります！ キネマティッ"
-"クボディはデフォルトでは何もしませんが、\\ :ref:`KinematicBody2D."
-"move_and_collide() <class_KinematicBody2D_method_move_and_collide>` という便"
-"利な関数があります。 この関数は、\\ :ref:`Vector2 <class_Vector2>` を引数とし"
-"て取り、その運動を キネマティックボディに適用しようとします。 衝突が発生した"
-"場合、衝突の瞬間に停止します。"
-
 msgid "So, let's move our sprite downwards until it hits the floor:"
 msgstr "それでは、スプライトが床に当たるまで下に移動しましょう:"
 
@@ -214,10 +171,6 @@ msgstr ""
 "これでキャラクターがスムーズに落ちます。 方向キーをタッチして、左右に歩いてみ"
 "ましょう。(少なくとも速度の場合)使用されている値はピクセル/秒であることに注意"
 "してください。"
-
-#, fuzzy
-msgid "This adds basic support for walking when pressing left and right:"
-msgstr "これにより、左右キーを押すことで簡単な歩行サポートが追加されます:"
 
 msgid "And give it a try."
 msgstr "そして、それを試してみてください。"

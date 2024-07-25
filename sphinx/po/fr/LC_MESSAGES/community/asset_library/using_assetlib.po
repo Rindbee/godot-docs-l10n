@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -265,26 +260,6 @@ msgstr ""
 
 msgid "In the editor"
 msgstr "Dans l'éditeur"
-
-#, fuzzy
-msgid ""
-"The editor will display different categories of assets depending on whether "
-"you're browsing the Project Manager's **Asset Library Projects** tab or the "
-"editor's **AssetLib** tab."
-msgstr ""
-"L'éditeur affichera différentes catégories d'assets selon que vous naviguez "
-"dans l'onglet **Modèles** (templates) du gestionnaire de projet ou dans "
-"l'onglet **AssetLib** de l'éditeur."
-
-#, fuzzy
-msgid ""
-"The Project Manager's **Asset Library Projects** tab will only display "
-"assets that are standalone projects by themselves. This is denoted on the "
-"asset library with the *Templates*, *Demos* and *Projects* categories."
-msgstr ""
-"L'onglet **Modèles** du gestionnaire de projet n'affiche que les ressources "
-"qui sont des projets autonomes. Ceci est indiqué dans la bibliothèque de "
-"ressources par les catégories *Modèles*, *Démos* et *Projets*."
 
 msgid ""
 "The editor's **AssetLib** tab will only display assets that are *not* "

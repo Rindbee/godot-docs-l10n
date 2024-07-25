@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,28 +39,8 @@ msgstr ""
 "собственный внутренний пользовательский AudioStreamPlayback, который "
 "переводит AudioStream в данные PCM."
 
-#, fuzzy
-msgid ""
-"This guide assumes the reader knows how to create C++ modules. If not, refer "
-"to this guide :ref:`doc_custom_modules_in_cpp`."
-msgstr ""
-"Это руководство предполагает, что читатель знает, как создавать модули на C+"
-"+. Если это не так, обратитесь к этому руководству :ref:"
-"`doc_custom_modules_in_c++`."
-
 msgid "References:"
 msgstr "Источники:"
-
-msgid ""
-"`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/"
-"master/servers/audio/audio_stream.h>`__"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
-"blob/master/scene/audio/audio_stream_player.cpp>`__"
-msgstr "https://github.com/godotengine/godot-demo-projects"
 
 msgid "What for?"
 msgstr "Для чего это?"
@@ -73,14 +48,8 @@ msgstr "Для чего это?"
 msgid "Binding external libraries (like Wwise, FMOD, etc)."
 msgstr "Привязка внешних библиотек (таких как Wwise, FMOD и т.д.)."
 
-msgid "Adding custom audio queues"
-msgstr ""
-
 msgid "Adding support for more audio formats"
 msgstr "Добавление поддержки большего количества аудиоформатов"
-
-msgid "Create an AudioStream"
-msgstr ""
 
 msgid ""
 "An AudioStream consists of three components: data container, stream name, "
@@ -93,46 +62,8 @@ msgstr ""
 "множественными способами как внутренний счётчик или же генератором тона, "
 "внешним/внутренним буфером, или же при помощи указателя на файл."
 
-msgid ""
-"Some AudioStreams need to be stateless such as objects loaded from "
-"ResourceLoader. ResourceLoader loads once and references the same object "
-"regardless how many times ``load`` is called on a specific resource. "
-"Therefore, playback state must be self-contained in AudioStreamPlayback."
-msgstr ""
-
-msgid "Create an AudioStreamPlayback"
-msgstr ""
-
-msgid ""
-"AudioStreamPlayer uses ``mix`` callback to obtain PCM data. The callback "
-"must match sample rate and fill the buffer."
-msgstr ""
-
-msgid ""
-"Since AudioStreamPlayback is controlled by the audio thread, i/o and dynamic "
-"memory allocation are forbidden."
-msgstr ""
-
 msgid "Resampling"
 msgstr "Передискретизация"
-
-msgid ""
-"Godot's AudioServer currently uses 44100 Hz sample rate. When other sample "
-"rates are needed such as 48000, either provide one or use "
-"AudioStreamPlaybackResampled. Godot provides cubic interpolation for audio "
-"resampling."
-msgstr ""
-
-msgid ""
-"Instead of overloading ``mix``, AudioStreamPlaybackResampled uses "
-"``_mix_internal`` to query AudioFrames and ``get_stream_sampling_rate`` to "
-"query current mix rate."
-msgstr ""
-
-msgid ""
-"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
-"core/math/audio_frame.h>`__"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,11 +74,12 @@ msgstr ""
 msgid "Video tutorials"
 msgstr "Video-Tutorials"
 
-#, fuzzy
 msgid ""
 "`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR and VR, "
 "GDScript)"
-msgstr "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
+msgstr ""
+"`Bastiaan Olij <https://www.youtube.com/BastiaanOlij>`_ (3D, AR und VR, "
+"GDScript)"
 
 msgid ""
 "`BornCG <https://www.youtube.com/playlist?"
@@ -150,17 +146,15 @@ msgstr ""
 msgid "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
 msgstr "`HeartBeast <https://www.youtube.com/@uheartbeast>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid ""
 "`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR and VR, GDScript)"
 msgstr ""
-"`Game Dev Artisan <https://www.youtube.com/@GameDevArtisan>`_ (2D, GDScript)"
+"`Malcolm Nixon <https://youtube.com/@MalcolmAnixon>`_ (AR und VR, GDScript)"
 
-#, fuzzy
 msgid ""
 "`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D and VR, GDSCript)"
 msgstr ""
-"`Godotneers <https://www.youtube.com/@godotneers>`_ (2D, Shader, GDScript)"
+"`Muddy Wolf <https://www.youtube.com/@MuddyWolf>`_ (2D, 3D und VR, GDSCript)"
 
 msgid ""
 "`KidsCanCode <https://www.youtube.com/channel/UCNaPQ5uLX5iIEHUCLmfAgKg/"
@@ -183,19 +177,15 @@ msgstr ""
 msgid "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
 msgstr "`Quiver <https://quiver.dev/>`_ (2D, GDScript)"
 
-#, fuzzy
 msgid ""
 "`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, networked "
 "multiplayer, AR and VR, GDScript)"
 msgstr ""
-"`Game Development Center <https://www.youtube.com/c/GameDevelopmentCenter>`_ "
-"(2D, Netzwerk-Multiplayer, GDScript)"
+"`Snopek Games <https://www.youtube.com/@SnopekGames>`_ (3D, Netzwerk-"
+"Multiplayer, AR und VR, GDScript)"
 
 msgid "Text tutorials"
 msgstr "Text-Tutorials"
-
-msgid "`FinepointCGI website by Mitch <https://finepointcgi.io/>`__"
-msgstr "`FinepointCGI Webseite von Mitch <https://finepointcgi.io/>`__"
 
 msgid "`GDScript website by Andrew Wilkes <https://gdscript.com>`__"
 msgstr "`GDScript-Webseite von Andrew Wilkes <https://gdscript.com>`__"
@@ -241,7 +231,8 @@ msgstr ""
 "Add-ons <https://github.com/godotengine/awesome-godot>`_"
 
 msgid "`Godot Asset Library <https://godotengine.org/asset-library/asset>`_"
-msgstr "`Godot-Asset-Bibliothek<https://godotengine.org/asset-library/asset>`_"
+msgstr ""
+"`Godot-Asset-Bibliothek <https://godotengine.org/asset-library/asset>`_"
 
 msgid ""
 "`Godot Shaders: A community-driven shader library <https://godotshaders.com/"
@@ -249,13 +240,6 @@ msgid ""
 msgstr ""
 "`Godot-Shader: Eine von der Community betriebene Shader-Bibliothek <https://"
 "godotshaders.com/>`_"
-
-msgid ""
-"`Zeef Godot Engine: A curated directory of resources by Andre Schmitz "
-"<https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
-msgstr ""
-"`Zeef Godot Engine: Ein gut sortiertes Ressourcenverzeichnis von Andre "
-"Schmitz <https://godot-engine.zeef.com/andre.antonio.schmitz>`_"
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

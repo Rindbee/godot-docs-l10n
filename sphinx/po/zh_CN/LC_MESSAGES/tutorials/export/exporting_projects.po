@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,11 +141,10 @@ msgid ""
 "follow instructions on how to properly set up that platform."
 msgstr "那时，用户需要回到文档并按照有关如何正确设置该平台的说明进行操作。"
 
-#, fuzzy
 msgid ""
 "The buttons at the bottom of the menu allow you to export the project in a "
 "few different ways:"
-msgstr "菜单底部的按钮允许您以几种不同的方式导出项目："
+msgstr "菜单底部的按钮允许你用几种不同的方式导出项目："
 
 msgid ""
 "Export All: Export the project as a playable build (Godot executable and "
@@ -278,17 +272,6 @@ msgstr ""
 msgid "Exporting from the command line"
 msgstr "从命令行导出"
 
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"在生产中, 自动化构建很有用,Godot使用 ``--export`` 和 ``--export-debug`` 命令"
-"行参数来支持它. 从命令行导出仍需要导出预设来定义导出参数. 该命令的基本调用将"
-"是:"
-
 msgid ""
 "This will export to ``some_name.exe``, assuming there is a preset called "
 "\"Windows Desktop\" and the template can be found. (The export preset name "
@@ -340,15 +323,6 @@ msgid ""
 msgstr ""
 "你还可以将其配置为\\ *仅*\\ 导出 PCK 或 ZIP 文件，能够让多个 Godot 可执行文件"
 "执行同一个导出的主包文件。这样做时，仍然必须在命令行中指明导出预设的名称："
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"将 ``--export`` 标志与 ``--path`` 标志组合起来通常很有用，这样你就不必在运行"
-"命令之前 ``cd`` 到项目文件夹中了："
 
 msgid ""
 "See :ref:`doc_command_line_tutorial` for more information about using Godot "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -300,12 +295,11 @@ msgid ""
 "with sunlight. The **Black (OLED)** preset can reduce power consumption on "
 "OLED displays, which are increasingly common in laptops and phones/tablets."
 msgstr ""
-"**Oberfläche > Theme > Vorgabe:** Die zu verwendende Voreinstellung für das "
-"Editor-Theme. Die Voreinstellung **Hell** ist möglicherweise besser lesbar, "
-"wenn Sie sich im Freien oder in einem Raum mit Sonnenlicht befinden. Die "
-"Voreinstellung **Black (OLED)** kann den Stromverbrauch von OLED-Displays "
-"reduzieren, die immer häufiger in Laptops und Handys/Tablets verwendet "
-"werden."
+"**Oberfläche > Theme > Vorgabe:** Die zu verwendende Vorgabe für das Editor-"
+"Theme. Die Vorgabe **Hell** ist möglicherweise besser lesbar, wenn Sie sich "
+"im Freien oder in einem Raum mit Sonnenlicht befinden. Die Vorgabe **Black "
+"(OLED)** kann den Stromverbrauch von OLED-Displays reduzieren, die immer "
+"häufiger in Laptops und Handys/Tablets verwendet werden."
 
 msgid ""
 "**FileSystem > Directories > Autoscan Project Path:** This can be set to a "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +22,7 @@ msgid ""
 "behalf of the parent actor node in a more convenient manner for beginners."
 msgstr ""
 "NavigationsAgents sind Hilfs-Nodes, die Funktionalität für Wegfindung, "
-"Wegverfolgung und Agentenvermeidung für einen von Node2D/3D erbenden Parent-"
+"Wegverfolgung und Agentenausweichen für einen von Node2D/3D erbenden Parent-"
 "Node kombinieren. Sie erleichtern Anfängern gemeinsame Aufrufe der "
 "NavigationServer-API im Auftrag des übergeordneten Node-Akteurs auf "
 "bequemere Weise."
@@ -306,13 +301,13 @@ msgstr ""
 "Akteure sofort in Richtung der aktuellen Pfadposition gedreht werden."
 
 msgid "NavigationAgent Avoidance"
-msgstr "NavigationAgent-Vermeidung"
+msgstr "NavigationAgent-Ausweichen"
 
 msgid ""
 "This section explains how to use the navigation avoidance specific to "
 "NavigationAgents."
 msgstr ""
-"In diesem Abschnitt wird erklärt, wie Sie die Navigationsvermeidung für "
+"In diesem Abschnitt wird erklärt, wie Sie die Navigations-Ausweichen für "
 "NavigationAgents nutzen können."
 
 msgid ""
@@ -329,12 +324,11 @@ msgstr ""
 "Das Signal ``velocity_computed`` des Nodes NavigationAgent muss verbunden "
 "sein, um das Ergebnis der sicheren Geschwindigkeitsberechnung zu erhalten."
 
-#, fuzzy
 msgid ""
 "Set the ``velocity`` of the NavigationAgent node in ``_physics_process()`` "
 "to update the agent with the current velocity of the agent's parent node."
 msgstr ""
-"Verwenden Sie ``set_velocity()`` auf dem NavigationAgent-Node in "
+"Setzen Sie ``velocity`` auf dem NavigationAgent-Node in "
 "``_physics_process()``, um den Agenten mit der aktuellen Geschwindigkeit des "
 "Parent-Node zu aktualisieren."
 
@@ -501,6 +495,13 @@ msgid ""
 "perfect opposite velocities will fail because the agents can not get their "
 "passing sides assigned."
 msgstr ""
+"Das RVO-Ausweichen geht von impliziten Annahmen über das natürliche "
+"Verhalten von Agenten aus. Zum Beispiel, dass sich Agenten auf vernünftigen, "
+"zuordenbaren Seiten bewegen, wenn sie einander begegnen. Dies bedeutet, dass "
+"sehr klinische Ausweich-Szenarien in der Regel scheitern werden. So werden z."
+"B. Agenten, die sich mit vollkommen entgegengesetzten Geschwindigkeiten "
+"direkt gegeneinander bewegen, scheitern, weil die Agenten ihre "
+"Ausweichseiten nicht zugewiesen bekommen können."
 
 msgid ""
 "Using the NavigationAgent ``enable_avoidance`` property is the preferred "

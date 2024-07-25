@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,17 +48,6 @@ msgstr ""
 "включаются. Если ресурс имеет встроенные суб-ресурсы, то он сохраняется в "
 "одном файле вместе со всеми включенными в комплект суб-ресурсами. Например, "
 "ресурс шрифтов часто поставляется в комплекте с текстурами шрифтов."
-
-#, fuzzy
-msgid ""
-"The Godot file system avoids using metadata files. Existing asset managers "
-"and VCSs are better than anything we can implement, so Godot tries its best "
-"to play along with Subversion, Git, Mercurial, etc."
-msgstr ""
-"Файловая система Godot избегает использования файлов метаданных. "
-"Существующие менеджеры ресурсов и VCS лучше, чем все, что мы можем "
-"реализовать, поэтому Godot старается всеми силами работать вместе с SVN, "
-"Git, Mercurial, Perforce и т.д."
 
 msgid "Example of file system contents:"
 msgstr "Пример содержимого файловой системы:"
@@ -168,19 +152,6 @@ msgstr ""
 msgid "Drawbacks"
 msgstr "Недостатки"
 
-#, fuzzy
-msgid ""
-"There are some drawbacks to this file system design. The first issue is that "
-"moving assets around (renaming them or moving them from one path to another "
-"inside the project) will break existing references to these assets. These "
-"references will have to be re-defined to point at the new asset location."
-msgstr ""
-"В этом простом дизайне файловой системы есть некоторые недостатки. Первая "
-"проблема заключается в том, что перемещение ассетов (переименование или "
-"перемещение их с одного пути на другой внутри проекта) нарушит существующие "
-"ссылки на эти ассеты. Эти ссылки должны быть переопределены, чтобы указать "
-"на новое местоположение ассеты."
-
 msgid ""
 "To avoid this, do all your move, delete and rename operations from within "
 "Godot, on the FileSystem dock. Never move assets from outside Godot, or "
@@ -208,16 +179,6 @@ msgstr ""
 "не на других платформах, таких как Linux, Android и т.д. Это может также "
 "применяться к экспортируемым двоичным файлам, которые используют сжатый "
 "пакет для хранения всех файлов."
-
-#, fuzzy
-msgid ""
-"It is recommended that your team clearly define a naming convention for "
-"files when working with Godot. One fool-proof convention is to only allow "
-"lowercase file and path names."
-msgstr ""
-"Рекомендуется, чтобы ваша команда четко определила правила именования файлов "
-"при работе с Godot! Одним из простых способов защиты от ошибок является "
-"разрешение использовать имена файлов и путей только нижнего регистра."
 
 msgid "Translation status"
 msgstr "Статус перевода"

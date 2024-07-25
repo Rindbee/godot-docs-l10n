@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,18 +56,6 @@ msgstr ""
 
 msgid "Language specification"
 msgstr "Especificação de Linguagem"
-
-#, fuzzy
-msgid ""
-"Godot currently uses **C# version 10.0** in its engine and example source "
-"code, as this is the version supported by .NET 6.0 (the current baseline "
-"requirement). So, before we move to a newer version, care must be taken to "
-"avoid mixing language features only available in C# 11.0 or later."
-msgstr ""
-"Atualmente, o Godot usa o **C# versão 7.0** em seu mecanismo e código-fonte "
-"de exemplo. Portanto, antes de passarmos para uma versão mais recente, é "
-"preciso ter cuidado para não misturar os recursos da linguagem disponíveis "
-"apenas no C# 7.1 ou posterior."
 
 msgid ""
 "For detailed information on C# features in different versions, please see "
@@ -187,10 +170,6 @@ msgstr "Usando espaços"
 msgid "Insert a space:"
 msgstr "Insira um espaço:"
 
-#, fuzzy
-msgid "Around a binary and ternary operator."
-msgstr "Em torno de um operador binário e ternário."
-
 msgid ""
 "Between an opening parenthesis and ``if``, ``for``, ``foreach``, ``catch``, "
 "``while``, ``lock`` or ``using`` keywords."
@@ -225,11 +204,6 @@ msgid ""
 msgstr ""
 "Após um símbolo de comentário de linha única (``//``), e antes se usado no "
 "final de uma linha."
-
-msgid ""
-"After the opening brace, and before the closing brace in a single line "
-"initializer."
-msgstr ""
 
 msgid "Do not use a space:"
 msgstr "Não use um espaço:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,24 +113,6 @@ msgstr "KEY2"
 
 msgid "KEYN"
 msgstr "KEYN"
-
-#, fuzzy
-msgid ""
-"The \"lang\" tags must represent a language, which must be one of the :ref:"
-"`valid locales <doc_locales>` supported by the engine, or they must start "
-"with an underscore (`_`), which means the related column is served as "
-"comment and won't be imported. The \"KEY\" tags must be unique and represent "
-"a string universally (they are usually in uppercase, to differentiate from "
-"other strings). These keys will be replaced at runtime by the matching "
-"translated string. Note that the case is important, \"KEY1\" and \"Key1\" "
-"will be different keys. The top-left cell is ignored and can be left empty "
-"or having any content. Here's an example:"
-msgstr ""
-"上面的「<語言>」標籤必須使用 Godot 支援的 :ref:`有效地區碼 <doc_locales>` 來"
-"代表語言。而「KEY」標籤則必須為能代表字串的唯一值 (通常使用全大寫，以與其他字"
-"串區分)。這些索引鍵會在執行時取代為翻譯字串。請注意，此處的大小寫很重要，"
-"「KEY1」與「Key1」會被視為不同的索引鍵。表格中左上角的欄位會被忽略，可以保持"
-"為空或存放任何內容。範例如下："
 
 msgid "en"
 msgstr "en"

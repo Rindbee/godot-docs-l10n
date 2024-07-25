@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,23 +14,6 @@ msgstr ""
 
 msgid "Introduction to 3D"
 msgstr "Введение в 3D"
-
-#, fuzzy
-msgid ""
-"Creating a 3D game can be challenging. That extra Z coordinate makes many of "
-"the common techniques that helped to make 2D games simpler no longer work. "
-"To aid in this transition, it is worth mentioning that Godot uses similar "
-"APIs for 2D and 3D. Most nodes are the same and are present in both 2D and "
-"3D versions. In fact, it is worth checking the 3D platformer tutorial, or "
-"the 3D kinematic character tutorials, which are almost identical to their 2D "
-"counterparts."
-msgstr ""
-"Создание 3D игры может быть трудоемким. Дополнительная Z координата делает "
-"многие обычные техники для создания 2D игр неработоспособными. Для помощи в "
-"этом переходе, стоит упомянуть что Godot использует похожие API для 2D и 3D. "
-"Большинство узлов одинаковые и представлены в 2D и 3D версиях. На самом "
-"деле, стоит проверить пример с 3D платформером, или примеры с кинематикой 3D "
-"персонажей, чтобы убедиться что они почти идентичны с их 2D версиями."
 
 msgid ""
 "In 3D, math is a little more complex than in 2D, so also checking the :ref:"
@@ -48,10 +26,6 @@ msgstr ""
 "разработчиков игр, а не математиков или инженеров) которая поможет вам "
 "создавать 3D игры эффективно."
 
-#, fuzzy
-msgid "Node3D node"
-msgstr "Логическое ИЛИ"
-
 msgid ""
 ":ref:`Node2D <class_Node2D>` is the base node for 2D. :ref:`Control "
 "<class_Control>` is the base node for everything GUI. Following this "
@@ -61,21 +35,6 @@ msgstr ""
 ":ref:`Node2D <class_Node2D>` является базовым узлом для 2D. :ref:`Control "
 "<class_Control>` — базовый узел для всегоGUI. Следуя той же логике, движок "
 "3D использует :ref:`Node3D <class_Node3D>` для всего 3D."
-
-#, fuzzy
-msgid ""
-"Node3Ds have a local transform, which is relative to the parent node (as "
-"long as the parent node is also of **or inherits from** the type Node3D). "
-"This transform can be accessed as a 3×4 :ref:`Transform3D "
-"<class_Transform3D>`, or as 3 :ref:`Vector3 <class_Vector3>` members "
-"representing location, Euler rotation (X, Y and Z angles) and scale."
-msgstr ""
-"Узлы Node3D имеют локальную трансформацию относительно родительского узла "
-"(если родительский узел также **наследуется** от типа Node3D). Эта "
-"трансформация может быть доступна как 4x3 :ref:`Transform "
-"<class_Transform>`, или как 3 :ref:`Vector3 <class_Vector3>` в членах, "
-"представляющих позицию, вращение по Эйлеру (углы поворота относительно осей "
-"X, Y и Z) и масштабирование."
 
 msgid "3D content"
 msgstr "3D контент"
@@ -286,12 +245,6 @@ msgid "See this chart for comparison with other 3D software:"
 msgstr ""
 "Для сравнения с другим 3D программным обеспечением см. следующую таблицу:"
 
-msgid "3D coordinate systems comparison chart"
-msgstr ""
-
-msgid "Image by `Freya Holmér <https://twitter.com/FreyaHolmer>`__"
-msgstr ""
-
 msgid "Space and manipulation gizmos"
 msgstr "Пространство и гизмо манипуляции"
 
@@ -360,9 +313,6 @@ msgstr ""
 "Например, чтобы переместить выделение вверх на 2,5 единицы, введите "
 "следующую последовательность (Y + - вверх в Godot):"
 
-msgid ":kbd:`G`-:kbd:`Y`-:kbd:`2`-:kbd:`.`-:kbd:`5`-:kbd:`Enter`"
-msgstr ""
-
 msgid ""
 "To use Blender-style transform shortcuts in Godot, go to the Editor "
 "Settings' **Shortcuts** tab, then in the Spatial Editor section:"
@@ -404,36 +354,6 @@ msgid ""
 "To hide a specific type of gizmos, you can toggle them off in the \"View\" "
 "menu."
 msgstr "Чтобы скрыть определенные типы гизмо, отключите их в меню \"Обзор\"."
-
-#, fuzzy
-msgid "preview environment and light"
-msgstr "Присваивание (низший приоритет)"
-
-msgid ""
-"By default, any 3D scene that doesn't have a :ref:`WorldEnvironment "
-"<class_WorldEnvironment>` node, or a :ref:`DirectionalLight3D "
-"<class_DirectionalLight3D>`, will have a preview turned on for what it's "
-"missing to light the scene."
-msgstr ""
-
-msgid ""
-"The preview light and environment will only be visible in the scene while in "
-"the editor. If you run the scene or export the project they will not affect "
-"the scene."
-msgstr ""
-
-msgid ""
-"The preview light and environment can be turned on or off from the top menu "
-"by clicking on their respective icon, and the 3 dots dropdown menu next to "
-"those icons can be used to adjust the properties of the preview environment "
-"and light."
-msgstr ""
-
-msgid ""
-"The same preview sun and environment is used for every scene in the same "
-"project, So only make adjustments that would apply to all of the scenes you "
-"will need a preview light and environment for."
-msgstr ""
 
 msgid "Cameras"
 msgstr "Камеры"
@@ -495,19 +415,6 @@ msgstr ""
 
 msgid "Lights"
 msgstr "Свет"
-
-msgid ""
-"The background environment emits some ambient light which appears on "
-"surfaces. Still, without any light sources placed in the scene, the scene "
-"will appear quite dark unless the background environment is very bright."
-msgstr ""
-
-msgid ""
-"Most outdoor scenes have a directional light (the sun or moon), while indoor "
-"scenes typically have several positional lights (lamps, torches, …). See :"
-"ref:`doc_lights_and_shadows` for more information on setting up lights in "
-"Godot."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

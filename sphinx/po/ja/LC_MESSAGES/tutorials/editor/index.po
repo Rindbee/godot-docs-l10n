@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "Editor introduction"
-msgstr "ベクトル補間"
+msgstr "エディタの紹介"
 
 msgid ""
 "In this section, we cover the Godot editor in general, from its interface to "
 "using it with the command line."
 msgstr ""
+"このセクションではインターフェースからコマンドラインでの使用まで、Godotエディ"
+"タ全般について説明します。"
 
-#, fuzzy
 msgid "Editor's interface"
-msgstr "エディタインターフェース (C++)"
+msgstr "エディタのインターフェース"
 
 msgid ""
 "The following pages explain how to use the various windows, workspaces, and "
@@ -36,10 +31,13 @@ msgid ""
 "interface in other sections where appropriate. For example, the :ref:"
 "`animation editor <doc_introduction_animation>`."
 msgstr ""
+"以下のページではGodotエディタを構成するさまざまなウィンドウ、ワークスペース、"
+"およびドックの使用方法を説明します。特定のエディタのインターフェイスについて"
+"は、必要に応じて他のセクションで説明します。たとえば :ref:`アニメーション エ"
+"ディタ <doc_introduction_animation>` などです。"
 
-#, fuzzy
 msgid "Android editor"
-msgstr "\\ Android Studio"
+msgstr "Androidエディタ"
 
 msgid ""
 "Godot offers a native port of the editor running entirely on Android "
@@ -48,30 +46,37 @@ msgid ""
 "parity with the Desktop version of the editor, the Android port has a "
 "certain amount of caveats you should be aware of."
 msgstr ""
+"GodotはAndroidデバイス上で実行可能なエディタのネイティブポートを提供します。 "
+"Androidポートは `Android版ダウンロードページ <https://godotengine.org/"
+"download/android/>`__ からダウンロードできます。エディタのデスクトップ版の"
+"バージョンと機能が同等になるよう努めていますが、Androidへの移植には注意しなけ"
+"ればならない一定の注意事項があります。"
 
-#, fuzzy
 msgid "Web editor"
-msgstr "エディタで"
+msgstr "Webエディタ"
 
 msgid ""
 "Godot offers an HTML5 version of the editor running entirely in your "
 "browser. No download is required to use it, but it has a certain amount of "
 "caveats you should be aware of."
 msgstr ""
+"GodotはWebブラウザ内で実行可能なエディタのHTML5版を提供します。使用するために"
+"ダウンロードする必要はありませんが、注意すべき点がいくつかあります。"
 
-#, fuzzy
 msgid "Advanced features"
-msgstr "高度なベクトル演算"
+msgstr "高度な機能"
 
 msgid ""
 "The articles below focus on advanced features useful for experienced "
 "developers, such as calling Godot from the command line and using an "
 "external text editor like Visual Studio Code or Emacs."
 msgstr ""
+"以下の記事ではコマンド ラインからGodotを呼び出したり、Visual Studio Codeや"
+"Emacsといった外部テキスト エディタを使用したりするなど、経験豊富な開発者に"
+"とって役立つ高度な機能に焦点を当てています。"
 
-#, fuzzy
 msgid "Managing editor features"
-msgstr "新しい機能を学ぶには"
+msgstr "エディタ機能の管理"
 
 msgid ""
 "Godot allows you to remove features from the editor. This may be useful if "
@@ -79,6 +84,9 @@ msgid ""
 "you're working on a project that's only 2D or only 3D and don't want to see "
 "what you don't need."
 msgstr ""
+"Godotではエディタから機能を削除することができます。これは教育者が学生をゆっく"
+"りとエディタに慣れさせようとしている場合や、2Dオンリー、または3Dオンリーのプ"
+"ロジェクトに取り組んでいて、不要なものを見たくない場合に便利です。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

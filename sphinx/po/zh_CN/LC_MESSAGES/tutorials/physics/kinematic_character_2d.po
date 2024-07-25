@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,15 +77,6 @@ msgstr ""
 "使得它们的控制和运动更可预测, 更容易编程. 然而, 有一个缺点, 它们不能直接与其"
 "他物理对象交互, 除非在代码中手动完成."
 
-#, fuzzy
-msgid ""
-"This short tutorial focuses on the kinematic character controller. It uses "
-"the old-school way of handling collisions, which is not necessarily simpler "
-"under the hood, but well hidden and presented as an API."
-msgstr ""
-"这个简短的教程将重点介绍运动学角色控制器。基本上，传统处理冲突的方法（它并不"
-"一定在底层更简单，但隐蔽性很好，并且呈现为一个简洁漂亮的 API）。"
-
 msgid "Physics process"
 msgstr "物理过程处理"
 
@@ -109,18 +95,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "场景设置"
-
-#, fuzzy
-msgid ""
-"To have something to test, here's the scene (from the tilemap tutorial): "
-"`kinematic_character_2d_starter.zip <https://github.com/godotengine/godot-"
-"docs-project-starters/releases/download/latest-4.x/"
-"kinematic_character_2d_starter.zip>`_. We'll be creating a new scene for the "
-"character. Use the robot sprite and create a scene like this:"
-msgstr ""
-"要进行测试, 这里有场景(来自tilemap教程): :download:`kbscene.zip <files/"
-"kbscene.zip>`. 我们将为角色创造一个新场景. 使用机器人精灵并创建一个这样的场"
-"景:"
 
 msgid ""
 "You'll notice that there's a warning icon next to our CollisionShape2D node; "
@@ -159,21 +133,6 @@ msgstr ""
 msgid "Moving the kinematic character"
 msgstr "移动动态角色"
 
-#, fuzzy
-msgid ""
-"Go back to the character scene, and open the script, the magic begins now! "
-"Kinematic body will do nothing by default, but it has a useful function "
-"called ``CharacterBody2D.move_and_collide()``. This function takes a :ref:"
-"`Vector2 <class_Vector2>` as an argument, and tries to apply that motion to "
-"the kinematic body. If a collision happens, it stops right at the moment of "
-"the collision."
-msgstr ""
-"回到角色场景, 打开脚本, 魔法开始了!动态物体默认不会做任何事情, 但它有一个有用"
-"的函数, 叫做 :ref:`KinematicBody2D.move_and_collide() "
-"<class_KinematicBody2D_method_move_and_collide>` . 该函数以一个 :ref:"
-"`Vector2 <class_Vector2>` 作为参数, 并尝试将该运动应用到动态物体. 如果发生了"
-"碰撞, 它就在碰撞的瞬间停止."
-
 msgid "So, let's move our sprite downwards until it hits the floor:"
 msgstr "所以, 让我们向下移动我们的精灵, 直到它撞上地板:"
 
@@ -194,10 +153,6 @@ msgid ""
 msgstr ""
 "现在人物平滑下落. 我们让它向两边行走, 在按下方向键时向左或向右. 记住, 正在使"
 "用的值(至少对于速度)单位是像素/秒."
-
-#, fuzzy
-msgid "This adds basic support for walking when pressing left and right:"
-msgstr "通过向左和向右按下可以增加简单的步行支持:"
 
 msgid "And give it a try."
 msgstr "试一试."

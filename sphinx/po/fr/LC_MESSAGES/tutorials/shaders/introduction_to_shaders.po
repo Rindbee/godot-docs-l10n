@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,29 +138,6 @@ msgstr ""
 "<doc_canvas_item_shader>` et :ref :`spatial <doc_spatial_shader>`."
 
 msgid ""
-"The ``start()`` function runs for every particle in a particle system once "
-"when the particle is first spawned. Used in :ref:`particles shaders "
-"<doc_particle_shader>`."
-msgstr ""
-
-msgid ""
-"The ``process()`` function runs for every particle in a particle system for "
-"each frame. Used in :ref:`particles shaders <doc_particle_shader>`."
-msgstr ""
-
-msgid ""
-"The ``sky()`` function runs for every pixel in the radiance cubemap when the "
-"radiance cubemap needs to be updated, and for every pixel on the current "
-"screen. Used in :ref:`sky shaders <doc_sky_shader>`."
-msgstr ""
-
-msgid ""
-"The ``fog()`` function runs for every froxel in the volumetric fog froxel "
-"buffer that intersects with the :ref:`FogVolume <class_FogVolume>`. Used by :"
-"ref:`fog shaders <doc_fog_shader>`."
-msgstr ""
-
-msgid ""
 "The ``light()`` function won't run if the ``vertex_lighting`` render mode is "
 "enabled, or if **Rendering > Quality > Shading > Force Vertex Shading** is "
 "enabled in the Project Settings. It's enabled by default on mobile platforms."
@@ -175,25 +147,8 @@ msgstr ""
 "Force Vertex Shading** est activé dans les paramètres du projet. C'est "
 "activée par défaut sur les plateformes mobiles."
 
-msgid ""
-"Godot also exposes an API for users to write totally custom GLSL shaders. "
-"For more information see :ref:`doc_compute_shaders`."
-msgstr ""
-
 msgid "Shader types"
 msgstr "Types de shader"
-
-#, fuzzy
-msgid ""
-"Instead of supplying a general-purpose configuration for all uses (2D, 3D, "
-"particles, sky, fog), you must specify the type of shader you're writing. "
-"Different types support different render modes, built-in variables, and "
-"processing functions."
-msgstr ""
-"Au lieu de fournir une configuration générale pour tous les usages (2D, 3D, "
-"particules), vous devez spécifier le type de shader que vous écrivez. "
-"Différents types supportent différents modes de rendu, variables intégrées "
-"et fonctions de traitement."
 
 msgid ""
 "In Godot, all shaders need to specify their type in the first line, like so:"
@@ -213,13 +168,6 @@ msgstr ":ref:`canvas_item <doc_canvas_item_shader>` pour le rendu 2D."
 msgid ":ref:`particles <doc_particle_shader>` for particle systems."
 msgstr ""
 ":ref:`particles <doc_particle_shader>` pour les systèmes de particules."
-
-msgid ":ref:`sky <doc_sky_shader>` to render :ref:`Skies <class_Sky>`."
-msgstr ""
-
-msgid ""
-":ref:`fog <doc_fog_shader>` to render :ref:`FogVolumes <class_FogVolume>`"
-msgstr ""
 
 msgid "Render modes"
 msgstr "Mode de rendu"
@@ -251,15 +199,6 @@ msgstr ""
 msgid "Vertex processor"
 msgstr "Processeur de sommet"
 
-#, fuzzy
-msgid ""
-"The ``vertex()`` processing function is called once for every vertex in "
-"``spatial`` and ``canvas_item`` shaders."
-msgstr ""
-"La fonction de traitement ``vertex()`` est appelée une fois pour chaque "
-"vertex dans les shaders ``spatial`` et ``canvas_item``. Pour les shaders "
-"``particles``, elle est appelé une fois pour chaque particule."
-
 msgid ""
 "Each vertex in your world's geometry has properties like a position and "
 "color. The function modifies those values and passes them to the fragment "
@@ -285,18 +224,6 @@ msgstr ""
 
 msgid "Fragment processor"
 msgstr "Processeur de fragments"
-
-#, fuzzy
-msgid ""
-"The ``fragment()`` processing function is used to set up the Godot material "
-"parameters per pixel. This code runs on every visible pixel the object or "
-"primitive draws. It is only available in ``spatial``, ``canvas_item``, and "
-"``sky`` shaders."
-msgstr ""
-"La fonction de traitement ``fragment()`` est utilisée pour définir les "
-"paramètres des matériaux Godot pour chaque pixel. Ce code s'exécute sur "
-"chaque pixel visible que l'objet ou la primitive dessine. Il est uniquement "
-"disponible dans les shaders ``spatial`` et ``canvas_item``."
 
 msgid ""
 "The standard use of the fragment function is to set up material properties "

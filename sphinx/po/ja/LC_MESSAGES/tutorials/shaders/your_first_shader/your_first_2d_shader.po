@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,16 +97,6 @@ msgstr ""
 "リアルでは、描画を開始するのに最も簡単なCanvasItemであるSprite2Dを使用しま"
 "す。"
 
-#, fuzzy
-msgid ""
-"In the Inspector, click beside \"Texture\" where it says \"[empty]\" and "
-"select \"Load\", then select \"icon.svg\". For new projects, this is the "
-"Godot icon. You should now see the icon in the viewport."
-msgstr ""
-"インスペクタで、\"Texture\"の横にある[空]をクリックして[読込み]を選択"
-"し、”Icon.png\"を選択します。 新しいプロジェクトの場合、これはGodotアイコンで"
-"す。 ビューポートにアイコンが表示されます。"
-
 msgid ""
 "Next, look down in the Inspector, under the CanvasItem section, click beside "
 "\"Material\" and select \"New ShaderMaterial\". This creates a new Material "
@@ -126,16 +111,6 @@ msgstr ""
 "シェーダーとSpatialシェーダーのどちらを記述しているかを認識せず、Spatial"
 "シェーダーの出力をプレビューします。 したがって、表示されているのは、デフォル"
 "トのSpatialシェーダーの出力です。"
-
-#, fuzzy
-msgid ""
-"Click beside \"Shader\" and select \"New Shader\". Finally, click on the "
-"shader you just created and the shader editor will open. You are now ready "
-"to begin writing your first shader."
-msgstr ""
-"\"Shader\"の横をクリックし、「新規 Shader」を選択します。 最後に、新しい"
-"シェーダーリソースをクリックすると、シェーダーエディタが開きます。 これで、最"
-"初のシェーダーを書き始める準備ができました。"
 
 msgid "Your first CanvasItem shader"
 msgstr "初めてのCanvasItemシェーダー"

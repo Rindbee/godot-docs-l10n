@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,23 +27,28 @@ msgid ""
 "sections. For instance, to learn about inputs, we recommend you to read :ref:"
 "`Inputs <toc-learn-features-inputs>`."
 msgstr ""
+"ここでは、より具体的なセクションではまだ説明されていない情報を見つけることが"
+"できます。たとえば入力については、:ref:`Inputs <toc-learn-features-inputs>` "
+"を読むことをお勧めします。"
 
 msgid "Programming languages"
 msgstr "プログラミング言語"
 
-#, fuzzy
 msgid "The sections below each focus on a given programming language."
-msgstr "まず利用可能なプログラミング言語を見てみましょう。"
+msgstr ""
+"以下のセクションでは、それぞれのプログラミング言語に焦点を当てています。"
 
-#, fuzzy
 msgid "Core features"
-msgstr "カスタム機能"
+msgstr "コア機能"
 
 msgid ""
 "Some features are specific to the engine and are available in all supported "
 "languages. Whether you code in GDScript, C#, or another language, the pages "
 "below will help you make the most of Godot."
 msgstr ""
+"いくつかの機能はエンジン固有であり、サポートされているすべての言語で利用でき"
+"ます。 GDScript、C#、または他の言語でコードを作成する場合でも、以下のページ"
+"は Godot を最大限に活用するのに役立ちます。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

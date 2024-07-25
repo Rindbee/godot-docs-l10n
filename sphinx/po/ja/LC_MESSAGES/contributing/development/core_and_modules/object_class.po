@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,39 +15,14 @@ msgstr ""
 msgid "Object class"
 msgstr "オブジェクトクラス"
 
-msgid ""
-"This page describes the C++ implementation of objects in Godot. Looking for "
-"the Object class reference? :ref:`Have a look here. <class_Object>`"
-msgstr ""
-
 msgid "General definition"
 msgstr "一般的な定義"
-
-#, fuzzy
-msgid ""
-":ref:`Object <class_object>` is the base class for almost everything. Most "
-"classes in Godot inherit directly or indirectly from it. Objects provide "
-"reflection and editable properties, and declaring them is a matter of using "
-"a single macro like this:"
-msgstr ""
-":ref:`Object <class_object>`\\ は、ほとんどすべての基本クラスです。Godotのほ"
-"とんどのクラスは、直接的または間接的に継承されます。オブジェクトはリフレク"
-"ションと編集可能なプロパティを提供し、それらを宣言することは、このような単一"
-"のマクロを使用する必要があります。"
 
 msgid "This adds a lot of functionality to Objects. For example:"
 msgstr "これにより、オブジェクトに多くの機能が追加されます。例:"
 
 msgid "References:"
 msgstr "リファレンス:"
-
-#, fuzzy
-msgid ""
-"`core/object/object.h <https://github.com/godotengine/godot/blob/master/core/"
-"object/object.h>`__"
-msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/master/core/object."
-"h>`_"
 
 msgid "Registering an Object"
 msgstr "オブジェクトの登録"
@@ -99,16 +69,6 @@ msgstr ""
 "``_bind_methods`` の内部には、実行できる事がいくつかあります。関数の登録は次"
 "の 1 つです:"
 
-#, fuzzy
-msgid "Default values for arguments can be passed as parameters at the end:"
-msgstr "引数の既定値は、逆の順序で渡すことができます:"
-
-msgid ""
-"Default values must be provided in the same order as they are declared, "
-"skipping required arguments and then providing default values for the "
-"optional ones. This matches the syntax for declaring methods in C++."
-msgstr ""
-
 msgid ""
 "``D_METHOD`` is a macro that converts \"methodname\" to a StringName for "
 "more efficiency. Argument names are used for introspection, but when "
@@ -133,27 +93,11 @@ msgstr ""
 "マクロは無視しても問題なく、簡潔にするために名前を渡す文字列を渡すことができ"
 "ます。"
 
-#, fuzzy
-msgid ""
-"`core/object/class_db.h <https://github.com/godotengine/godot/blob/master/"
-"core/object/class_db.h>`__"
-msgstr ""
-"`core/class_db.h <https://github.com/godotengine/godot/blob/master/core/"
-"class_db.h>`_"
-
 msgid "Constants"
 msgstr "定数"
 
 msgid "Classes often have enums such as:"
 msgstr "クラスには、多くの場合、次のような列挙型があります:"
-
-#, fuzzy
-msgid ""
-"For these to work when binding to methods, the enum must be declared "
-"convertible to int. A macro is provided to help with this:"
-msgstr ""
-"メソッドにバインドするときにこれらを動作させるには、enumをintに変換できるよう"
-"に宣言する必要があります。これにはマクロが用意されています:"
 
 msgid "The constants can also be bound inside ``_bind_methods``, by using:"
 msgstr ""
@@ -172,26 +116,8 @@ msgstr "オブジェクトのシリアル化と逆シリアル化。"
 msgid "Creating a list of editable values for the Object derived class."
 msgstr "オブジェクト派生クラスの編集可能な値のリストを作成します。"
 
-#, fuzzy
-msgid ""
-"Properties are usually defined by the PropertyInfo() class and constructed "
-"as:"
-msgstr ""
-"プロパティは通常、PropertyInfo()クラスによって定義されます。通常は次のように"
-"構築されます:"
-
 msgid "For example:"
 msgstr "例:"
-
-#, fuzzy
-msgid ""
-"This is an integer property named \"amount\". The hint is a range, and the "
-"range goes from 0 to 49 in steps of 1 (integers). It is only usable for the "
-"editor (editing the value visually) but won't be serialized."
-msgstr ""
-"これは「amount」という名前の整数プロパティであり、ヒントは範囲です。範囲は0か"
-"ら49まで1のステップ(整数)です。 エディタ(値を視覚的に編集)でのみ使用できます"
-"が、シリアル化されません。"
 
 msgid "Another example:"
 msgstr "別の例:"
@@ -281,22 +207,6 @@ msgstr ""
 msgid "Signals"
 msgstr "シグナル"
 
-#, fuzzy
-msgid ""
-"Objects can have a set of signals defined (similar to Delegates in other "
-"languages). This example shows how to connect to them:"
-msgstr ""
-"オブジェクトは、一連のシグナルを定義できます(他の言語のデリゲートと同様)。そ"
-"れらに接続する方がかなり簡単です:"
-
-#, fuzzy
-msgid ""
-"The method ``_node_entered_tree`` must be registered to the class using "
-"``ClassDB::bind_method`` (explained before)."
-msgstr ""
-"メソッド ``_node_entered_tree`` は、 ``ClassDB::register_method`` を使用して"
-"クラスに登録する必要があります(前に説明しました)。"
-
 msgid ""
 "Adding signals to a class is done in ``_bind_methods``, using the "
 "``ADD_SIGNAL`` macro, for example:"
@@ -307,32 +217,8 @@ msgstr ""
 msgid "Notifications"
 msgstr "通知"
 
-#, fuzzy
-msgid ""
-"All objects in Godot have a :ref:`_notification "
-"<class_Object_private_method__notification>` method that allows it to "
-"respond to engine level callbacks that may relate to it. More information "
-"can be found on the :ref:`doc_godot_notifications` page."
-msgstr ""
-"Godotのすべてのオブジェクトは :ref:`_notification "
-"<class_Object_method__notification>` メソッドを実装します。その目的は、オブ"
-"ジェクトがそれに関連する可能性のあるさまざまなエンジンレベルのコールバックに"
-"応答できるようにすることです。たとえば、エンジンが :ref:`CanvasItem "
-"<class_CanvasItem>` に「描画(draw)」するように指示すると、\\ ``_ "
-"notification(NOTIFICATION_DRAW)`` が呼び出されます。"
-
 msgid "References"
 msgstr "参照"
-
-#, fuzzy
-msgid ""
-":ref:`RefCounted <class_RefCounted>` inherits from Object and holds a "
-"reference count. It is the base for reference counted object types. "
-"Declaring them must be done using Ref<> template. For example:"
-msgstr ""
-":ref:`Reference <class_reference>`\\ はオブジェクトから継承され、参照カウント"
-"を保持します。参照カウントオブジェクトタイプのベースです。これらの宣言は、"
-"Ref<> template を使用して行う必要があります。例:"
 
 msgid ""
 "``myref`` is reference counted. It will be freed when no more Ref<> "
@@ -341,42 +227,11 @@ msgstr ""
 "``myref`` は参照カウントされます。Ref<>templates が参照を指定しなくなったとき"
 "に解放されます。"
 
-#, fuzzy
-msgid ""
-"`core/object/reference.h <https://github.com/godotengine/godot/blob/master/"
-"core/object/ref_counted.h>`__"
-msgstr ""
-"`core/object.h <https://github.com/godotengine/godot/blob/master/core/object."
-"h>`_"
-
 msgid "Resources"
 msgstr "リソース"
 
-#, fuzzy
-msgid ""
-":ref:`Resource <class_resource>` inherits from Reference, so all resources "
-"are reference counted. Resources can optionally contain a path, which "
-"reference a file on disk. This can be set with ``resource.set_path(path)``, "
-"though this is normally done by the resource loader. No two different "
-"resources can have the same path; attempting to do so will result in an "
-"error."
-msgstr ""
-":ref:`Resource <class_resource>`\\ はReferenceを継承するため、すべてのリソー"
-"スが参照カウントされます。 リソースには、オプションでディスク上のファイルを参"
-"照するパスを含めることができます。 これは ``resource.set_path(path)`` で設定"
-"できます。 これは通常、リソースローダーによって行われます。 2つの異なるリソー"
-"スが同じパスを持つことはできません。そうしようとするとエラーになります。"
-
 msgid "Resources without a path are fine too."
 msgstr "パスのないリソースも問題ありません。"
-
-#, fuzzy
-msgid ""
-"`core/io/resource.h <https://github.com/godotengine/godot/blob/master/core/"
-"io/resource.h>`__"
-msgstr ""
-"`core/resource.h <https://github.com/godotengine/godot/blob/master/core/"
-"resource.h>`_"
 
 msgid "Resource loading"
 msgstr "リソースの読み込み"
@@ -397,39 +252,11 @@ msgstr ""
 msgid "resourceinteractiveloader (TODO)"
 msgstr "リソースインタラクティブローダー (TODO)"
 
-#, fuzzy
-msgid ""
-"`core/io/resource_loader.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/resource_loader.h>`__"
-msgstr ""
-"`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp>`_"
-
 msgid "Resource saving"
 msgstr "リソースの保存"
 
 msgid "Saving a resource can be done with the resource saver API:"
 msgstr "リソースの保存は、リソースセーバー API を使用して行うことができます:"
-
-#, fuzzy
-msgid ""
-"The instance will be saved, and sub resources that have a path to a file "
-"will be saved as a reference to that resource. Sub resources without a path "
-"will be bundled with the saved resource and assigned sub-IDs, like ``res://"
-"someresource.res::1``. This also helps to cache them when loaded."
-msgstr ""
-"インスタンスが保存されます。ファイルへのパスを持つサブリソースは、そのリソー"
-"スへの参照として保存されます。パスのないサブリソースは、保存されたリソースに"
-"バンドルされ、割り当てられたサブID(「res://someresource.res::1」 など)が割り"
-"当てられます。これは、読み込み時にキャッシュするのにも役立ちます。"
-
-#, fuzzy
-msgid ""
-"`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/resource_saver.h>`__"
-msgstr ""
-"`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/resource_saver.h>`_"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -182,38 +177,6 @@ msgstr ""
 "ponownie buforowane po aktualizacji silnika Godot, po aktualizacji "
 "sterowników graficznych lub po zmianie kart graficznych."
 
-#, fuzzy
-msgid ""
-"If the issue persists after the first startup, this is a `known bug <https://"
-"github.com/godotengine/godot/issues/20566>`__ on Windows when you have "
-"specific USB peripherals connected. In particular, Corsair's iCUE software "
-"seems to cause this bug. Try updating your USB peripherals' drivers to their "
-"latest version. If the bug persists, you need to disconnect the specific "
-"peripheral before opening the editor. You can then connect the peripheral "
-"again."
-msgstr ""
-"Jest to `` znany błąd <https://github.com/godotengine/godot/issues/20566> "
-"`__ w systemie Windows, gdy masz podłączone określone urządzenia peryferyjne "
-"USB. W szczególności oprogramowanie Corsair iCUE wydaje się powodować błąd. "
-"Spróbuj zaktualizować sterowniki urządzeń peryferyjnych USB do ich "
-"najnowszej wersji. Jeśli błąd będzie się powtarzał, musisz odłączyć wadliwe "
-"urządzenia peryferyjne przed otwarciem edytora. Następnie możesz ponownie "
-"podłączyć urządzenie peryferyjne."
-
-msgid ""
-"Firewall software such as Portmaster may also cause the debug port to be "
-"blocked. This causes the project to take a long time to start, while being "
-"unable to use debugging features in the editor (such as viewing ``print()`` "
-"output). You can work this around by changing the debug port used by the "
-"project in the Editor Settings (**Network > Debug > Remote Port**). The "
-"default is ``6007``; try another value that is greater than ``1024``, such "
-"as ``7007``."
-msgstr ""
-
-#, fuzzy
-msgid "The Godot editor appears frozen after clicking the system console"
-msgstr "Po kliknięciu konsoli systemowej edytor Godot ulega zamrożeniu."
-
 msgid ""
 "When running Godot on Windows with the system console enabled, you can "
 "accidentally enable *selection mode* by clicking inside the command window. "
@@ -272,14 +235,6 @@ msgstr ""
 "By uniknąć tego problemu, zachowaj ikonę edytora Godot w jej domyślnym "
 "położeniu, takim jakie zostało utworzone przez system macOS."
 
-#, fuzzy
-msgid ""
-"Some text such as \"NO DC\" appears in the top-left corner of the Project "
-"Manager and editor window"
-msgstr ""
-"Niektóre teksty, takie jak „NO DC” pojawiają się w lewym górnym rogu okna "
-"menedżera projektu i edytora."
-
 msgid ""
 "This is caused by the NVIDIA graphics driver injecting an overlay to display "
 "information."
@@ -301,26 +256,6 @@ msgstr ""
 "Aby wyłączyć tą nakładkę na systemie Linux otwórz ``nvidia-settings`` , "
 "przejdź do **X Screen 0 > OpenGL Settings** potem odznacz **Enable Graphics "
 "API Visual Indicator**."
-
-#, fuzzy
-msgid ""
-"A microphone or \"refresh\" icon appears in the bottom-right corner of the "
-"Project Manager and editor window"
-msgstr ""
-"Niektóre teksty, takie jak „NO DC” pojawiają się w lewym górnym rogu okna "
-"menedżera projektu i edytora."
-
-msgid ""
-"This is caused by the NVIDIA graphics driver injecting an overlay to display "
-"instant replay information on ShadowPlay recording. This overlay can only be "
-"seen on Windows, as Linux does not have support for ShadowPlay."
-msgstr ""
-
-msgid ""
-"To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
-"NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
-"the NVIDIA overlay."
-msgstr ""
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "Wygląd edytora lub projektu jest za ostry lub rozmyty"
@@ -426,10 +361,6 @@ msgstr ""
 "się aby zrobić to w danuch aplikacjach używając ich profili w panelu "
 "sterowania sterownika graficznego."
 
-#, fuzzy
-msgid "The editor or project appears to have washed out colors"
-msgstr "Uruchomienie edytora lub projektu zajmuje bardzo dużo czasu."
-
 msgid ""
 "On Windows, this is usually caused by incorrect OS or monitor settings, as "
 "Godot currently does not support :abbr:`HDR (High Dynamic Range)` *output* "
@@ -525,14 +456,6 @@ msgid ""
 "sleep."
 msgstr ""
 "Aby uniknąć utraty pracy, zapisuj sceny w edytorze przed uśpieniem komputera."
-
-#, fuzzy
-msgid ""
-"The project works when run from the editor, but fails to load some files "
-"when running from an exported copy"
-msgstr ""
-"Projekt działa poprawnie uruchomiony przez edytor, jednak nie ładuje "
-"niektórych plików gdy jest uruchomiony z wyeksportowanej kopii."
 
 msgid ""
 "This is usually caused by forgetting to specify a filter for non-resource "

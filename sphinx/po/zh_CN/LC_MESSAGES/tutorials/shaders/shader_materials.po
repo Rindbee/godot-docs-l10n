@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,20 +17,6 @@ msgstr "着色器材质"
 
 msgid "Introduction"
 msgstr "前言"
-
-#, fuzzy
-msgid ""
-"For the most common cases, Godot provides ready to use materials for most "
-"types of shaders, such as :ref:`StandardMaterial3D "
-"<class_StandardMaterial3D>`, :ref:`CanvasItemMaterial "
-"<class_CanvasItemMaterial>` and :ref:`ParticleProcessMaterial "
-"<class_ParticleProcessMaterial>`. They are flexible implementations that "
-"cover most use cases."
-msgstr ""
-"对于最常见的情况,Godot为大多数类型的着色器提供了随时可用的材质, 例如 :ref:"
-"`SpatialMaterial <class_SpatialMaterial>` , :ref:`CanvasItemMaterial "
-"<class_CanvasItemMaterial>` 和 :ref:`ParticlesMaterial "
-"<class_ParticlesMaterial>` . 它们是涵盖了大多数用例的灵活实现."
 
 msgid ""
 "Shader materials allow writing a custom shader directly, for maximum "
@@ -129,23 +110,6 @@ msgstr "要了解更多关于可视化着色器的信息, 请阅读 :ref:`doc_vi
 
 msgid "Converting to ShaderMaterial"
 msgstr "转换为 ShaderMaterial"
-
-#, fuzzy
-msgid ""
-"It is possible to convert from StandardMaterial3D, CanvasItemMaterial and "
-"ParticleProcessMaterial to ShaderMaterial. To do so, go to the material "
-"properties and select the convert option."
-msgstr ""
-"可以将 SpatialMaterial、CanvasItemMaterial 和 ParticlesMaterial 转换为 "
-"ShaderMaterial。要做到这一点，请进入材质属性并选择转换选项。"
-
-#, fuzzy
-msgid ""
-"Using the convert option will turn the StandardMaterial3D into a "
-"ShaderMaterial with a text shader, not a visual shader."
-msgstr ""
-"使用convert选项将把SpatialMaterial变成一个带有文本着色器的ShaderMaterial, 而"
-"不是视觉着色器."
 
 msgid "Translation status"
 msgstr "翻译状态"

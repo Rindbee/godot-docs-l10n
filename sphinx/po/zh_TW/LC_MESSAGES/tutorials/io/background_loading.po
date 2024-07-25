@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,14 +64,6 @@ msgstr ""
 "<class_ResourceLoader_method_load_threaded_get_status>` 檢查狀態。可以透過 "
 "Progress 傳遞一個陣列變數來取得進度，該變數將傳回一個包含百分比的單元素陣列。"
 
-#, fuzzy
-msgid ""
-"Finally, you retrieve loaded resources by calling :ref:`ResourceLoader."
-"load_threaded_get <class_ResourceLoader_method_load_threaded_get>`."
-msgstr ""
-"最後，您透過呼叫 ResourceLoader.load_threaded_get "
-"<class_ResourceLoader_method_load_threaded_get>` 來檢索已載入的資源。"
-
 msgid ""
 "Once you call ``load_threaded_get()``, either the resource finished loading "
 "in the background and will be returned instantly or the load will block at "
@@ -90,17 +77,6 @@ msgstr ""
 
 msgid "Example"
 msgstr "範例"
-
-#, fuzzy
-msgid ""
-"This example demonstrates how to load a scene in the background. We will "
-"have a button spawn an enemy when pressed. The enemy will be ``Enemy.tscn`` "
-"which we will load on ``_ready`` and instantiate when pressed. The path will "
-"be ``\"Enemy.tscn\"`` which is located at ``res://Enemy.tscn``."
-msgstr ""
-"此範例示範如何在背景載入場景。我們將有一個按鈕，按下時會生成一個敵人。敵人將"
-"是“Enemy.tscn”，我們將在“_ready”上載入它並在按下時實例化。路徑為“Enemy."
-"tscn”，位於“res://Enemy.tscn”。"
 
 msgid ""
 "First, we will start a request to load the resource and connect the button:"

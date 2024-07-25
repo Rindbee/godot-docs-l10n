@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,16 +29,6 @@ msgstr ""
 msgid ""
 "In this tutorial, we will be using the Platformer3D demo to set up a ragdoll."
 msgstr "在本教學中，我們將使用 Platformer3D 演示來進行布娃娃的設定。"
-
-#, fuzzy
-msgid ""
-"You can download the Platformer3D demo on `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the "
-"`Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
-msgstr ""
-"您可以在 `GitHub <https://github.com/godotengine/godot-demo-projects/tree/"
-"master/3d/platformer>`_ 上下載Platformer3D演示或使用 `Asset Library <https://"
-"godotengine.org/asset-library/asset/125>`_ ."
 
 msgid "Setting up the ragdoll"
 msgstr "設定布娃娃"

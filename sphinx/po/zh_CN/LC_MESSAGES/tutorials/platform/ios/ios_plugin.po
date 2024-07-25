@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,11 +68,6 @@ msgid ""
 "get_singleton()``::"
 msgstr ""
 "当插件处于活动状态时，你可以使用 ``Engine.get_singleton()`` 访问插件： ::"
-
-msgid ""
-"The plugin's files have to be in the ``res://ios/plugins/`` directory or a "
-"subdirectory, otherwise the Godot editor will not automatically detect them."
-msgstr ""
 
 msgid "Creating an iOS plugin"
 msgstr "创建iOS插件"
@@ -311,12 +301,6 @@ msgid ""
 "used."
 msgstr ""
 "如果没有使用类型，例如: ``KeyName=\"KeyValue\"`` ，将使用 ``string`` 类型。"
-
-#, fuzzy
-msgid ""
-"If ``raw`` type is used value for corresponding key will be stored in ``Info."
-"plist`` as is."
-msgstr "如果使用 ``raw`` 类型，对应键的值将按原样存储在 ``Info.plist`` 中。"
 
 msgid ""
 "If ``string_input`` type is used you will be able to modify value in Export "

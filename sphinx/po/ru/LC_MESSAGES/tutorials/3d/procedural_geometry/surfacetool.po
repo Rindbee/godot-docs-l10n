@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +14,6 @@ msgstr ""
 
 msgid "Using the SurfaceTool"
 msgstr "Использование SurfaceTool"
-
-#, fuzzy
-msgid ""
-"The :ref:`SurfaceTool <class_surfacetool>` provides a useful interface for "
-"constructing geometry. The interface is similar to the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>` class. You set each per-vertex attribute (e.g. "
-"normal, uv, color) and then when you add a vertex it captures the attributes."
-msgstr ""
-":ref:`SurfaceTool <class_surfacetool>` предоставляет полезный интерфейс для "
-"построения геометрии. Интерфейс аналогичен узлу :ref:`ImmediateGeometry "
-"<class_immediategeometry>`. Вы устанавливаете каждый атрибут для каждой "
-"вершины (например: нормаль, uv-координаты, цвет), а затем, когда вы "
-"добавляете вершину, она захватывает атрибуты."
 
 msgid ""
 "The SurfaceTool also provides some useful helper functions like ``index()`` "
@@ -93,23 +75,6 @@ msgstr ""
 "результирующие нормали. В качестве дополнительного примечания, "
 "``generate_normals()`` работает только в том случае, если для примитивного "
 "типа задано значение \"Mesh.PRIMITIVE_TRIANGLES`."
-
-#, fuzzy
-msgid ""
-"You may notice that normal mapping or other material properties look broken "
-"on the generated mesh. This is because normal mapping **requires** the mesh "
-"to feature *tangents*, which are separate from *normals*. You can either add "
-"custom tangents manually, or generate them automatically with "
-"``generate_tangents()``. This method requires that each vertex have UVs and "
-"normals set already."
-msgstr ""
-"Вы можете заметить, что отображение нормалей или другие свойства материала "
-"на сгенерированной сетке выглядят нарушенными. Это связано с тем, что "
-"сопоставление нормалей **требует** наличия в сетке *касательных*, которые "
-"отделены от *нормалей*. Вы можете либо добавить пользовательские касательные "
-"вручную, либо сгенерировать их автоматически с помощью "
-"``generate_tangents()``. Этот метод требует, чтобы для каждой вершины уже "
-"были установлены UV и нормали."
 
 msgid ""
 "By default, when generating normals, they will be calculated on a per-face "

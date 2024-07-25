@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -418,14 +413,6 @@ msgstr ""
 "し、物理エンジンは、他のボディとの衝突、跳ね返り、回転などの衝突応答を含む結"
 "果の動きを計算します。"
 
-#, fuzzy
-msgid ""
-"You can modify a rigid body's behavior via properties such as \"Mass\", "
-"\"Friction\", or \"Bounce\", which can be set in the Inspector."
-msgstr ""
-"インスペクタで設定できる\"Mass(質量)\"、\"Friction(摩擦)\"、\"Bounce(反"
-"発)\"などのプロパティを使用して、リジッド ボディの動作を変更できます。"
-
 msgid ""
 "The body's behavior is also affected by the world's properties, as set in "
 "`Project Settings -> Physics`, or by entering an :ref:`Area2D "
@@ -461,28 +448,6 @@ msgstr ""
 "す。スタッキング、落下、および跳ね返りは、物理エンジンによって自動的に計算さ"
 "れます。"
 
-#, fuzzy
-msgid ""
-"However, if you do wish to have some control over the body, you should take "
-"care - altering the ``position``, ``linear_velocity``, or other physics "
-"properties of a rigid body can result in unexpected behavior. If you need to "
-"alter any of the physics-related properties, you should use the :ref:"
-"`_integrate_forces() <class_RigidBody2D_private_method__integrate_forces>` "
-"callback instead of ``_physics_process()``. In this callback, you have "
-"access to the body's :ref:`PhysicsDirectBodyState2D "
-"<class_PhysicsDirectBodyState2D>`, which allows for safely changing "
-"properties and synchronizing them with the physics engine."
-msgstr ""
-"ただし、ボディを制御したい場合は注意が必要です　-　リジットボディの "
-"``position``\\ 、\\ ``linear_velocity``\\ 、またはその他の物理プロパティを変"
-"更すると、予期しない動作が発生する可能性があります。物理関連のプロパティを変"
-"更する必要がある場合は、\\ ``_ physics_process()`` の代わりに :ref:"
-"`_integrate_forces() <class_RigidBody2D_method__integrate_forces>` コールバッ"
-"クを使用する必要があります。このコールバックでは、ボディの :ref:"
-"`Physics2DDirectBodyState <class_Physics2DDirectBodyState>` にアクセスできま"
-"す。これにより、プロパティを安全に変更し、物理エンジンと同期させることができ"
-"ます。"
-
 msgid "For example, here is the code for an \"Asteroids\" style spaceship:"
 msgstr ""
 "たとえば、\"Asteroids(Atariのゲーム)\"スタイルの宇宙船のコードは次のとおりで"
@@ -513,25 +478,6 @@ msgstr ""
 msgid "Contact reporting"
 msgstr "接触のレポート"
 
-#, fuzzy
-msgid ""
-"By default, rigid bodies do not keep track of contacts, because this can "
-"require a huge amount of memory if many bodies are in the scene. To enable "
-"contact reporting, set the :ref:`max_contacts_reported "
-"<class_RigidBody2D_property_max_contacts_reported>` property to a non-zero "
-"value. The contacts can then be obtained via :ref:`PhysicsDirectBodyState2D."
-"get_contact_count() "
-"<class_PhysicsDirectBodyState2D_method_get_contact_count>` and related "
-"functions."
-msgstr ""
-"デフォルトでは、リジッドボディは接触を追跡しません。これは、シーンに多くのボ"
-"ディがある場合、膨大な量のメモリが必要になる可能性があるためです。接触のレ"
-"ポートを有効にするには、\\ :ref:`contacts_reported "
-"<class_RigidBody2D_property_contacts_reported>` プロパティをゼロ以外の値に設"
-"定します。接触は、\\ :ref:`Physics2DDirectBodyState.get_contact_count() "
-"<class_Physics2DDirectBodyState_method_get_contact_count>` および関連する関数"
-"を介して取得できます。"
-
 msgid ""
 "Contact monitoring via signals can be enabled via the :ref:`contact_monitor "
 "<class_RigidBody2D_property_contact_monitor>` property. See :ref:"
@@ -541,55 +487,6 @@ msgstr ""
 "<class_RigidBody2D_property_contact_monitor>` プロパティを使用して有効にでき"
 "ます。使用可能なシグナルのリストについては、\\ :ref:`RigidBody2D "
 "<class_RigidBody2D>` を参照してください。"
-
-msgid "CharacterBody2D"
-msgstr ""
-
-#, fuzzy
-msgid ""
-":ref:`CharacterBody2D <class_CharacterBody2D>` bodies detect collisions with "
-"other bodies, but are not affected by physics properties like gravity or "
-"friction. Instead, they must be controlled by the user via code. The physics "
-"engine will not move a character body."
-msgstr ""
-":ref:`KinematicBody2D <class_KinematicBody2D>` ボディは、他のボディとの衝突を"
-"検出しますが、重力や摩擦などの物理特性の影響を受けません。代わりに、ユーザー"
-"がコードを介して制御する必要があります。物理エンジンはキネマティックボディを"
-"移動しません。"
-
-#, fuzzy
-msgid ""
-"When moving a character body, you should not set its ``position`` directly. "
-"Instead, you use the ``move_and_collide()`` or ``move_and_slide()`` methods. "
-"These methods move the body along a given vector, and it will instantly stop "
-"if a collision is detected with another body. After the body has collided, "
-"any collision response must be coded manually."
-msgstr ""
-"キネマティックボディを移動する場合、その ``position`` を直接設定しないでくだ"
-"さい。代わりに、\\ ``move_and_collide()`` または ``move_and_slide()`` メソッ"
-"ドを使用します。これらのメソッドは、指定されたベクトルに沿ってボディを移動"
-"し、別のボディとの衝突が検出されるとすぐに停止します。ボディが衝突した後の衝"
-"突に対する応答は手動でコーディングする必要があります。"
-
-#, fuzzy
-msgid "Character collision response"
-msgstr "運動学的衝突応答"
-
-#, fuzzy
-msgid ""
-"After a collision, you may want the body to bounce, to slide along a wall, "
-"or to alter the properties of the object it hit. The way you handle "
-"collision response depends on which method you used to move the "
-"CharacterBody2D."
-msgstr ""
-"衝突後、ボディをバウンスさせたり、壁に沿ってスライドさせたり、ヒットしたオブ"
-"ジェクトのプロパティを変更したりすることができます。コリジョンレスポンスの処"
-"理方法は、KinematicBody2Dの移動に使用した方法によって異なります。"
-
-#, fuzzy
-msgid ":ref:`move_and_collide <class_PhysicsBody2D_method_move_and_collide>`"
-msgstr ""
-"\\ :ref:`move_and_collide <class_KinematicBody2D_method_move_and_collide>`"
 
 msgid ""
 "When using ``move_and_collide()``, the function returns a :ref:"
@@ -610,10 +507,6 @@ msgstr "たとえば、衝突が発生した空間内のポイントを検索す
 msgid "Or to bounce off of the colliding object:"
 msgstr "または、衝突するオブジェクトから跳ね返るには:"
 
-#, fuzzy
-msgid ":ref:`move_and_slide <class_CharacterBody2D_method_move_and_slide>`"
-msgstr "\\ :ref:`move_and_slide <class_KinematicBody2D_method_move_and_slide>`"
-
 msgid ""
 "Sliding is a common collision response; imagine a player moving along walls "
 "in a top-down game or running up and down slopes in a platformer. While it's "
@@ -626,16 +519,6 @@ msgstr ""
 "さい。\\ ``move_and_collide()`` を使用した後、この応答を自分でコーディングす"
 "ることは可能ですが、\\ ``move_and_slide()`` は、多くのコードを書かずにスライ"
 "ド移動を実装する便利な方法を提供します。"
-
-#, fuzzy
-msgid ""
-"``move_and_slide()`` automatically includes the timestep in its calculation, "
-"so you should **not** multiply the velocity vector by ``delta``. This does "
-"**not** apply to ``gravity`` as it is an acceleration and is time dependent, "
-"and needs to be scaled by ``delta``."
-msgstr ""
-"``move_and_slide()`` は計算にタイムステップを自動的に含めるため、速度ベクトル"
-"に ``delta`` を\\ **掛けないで**\\ ください。"
 
 msgid ""
 "For example, use the following code to make a character that can walk along "

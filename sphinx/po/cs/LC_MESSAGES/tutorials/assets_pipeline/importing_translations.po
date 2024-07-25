@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,14 +17,6 @@ msgstr "Importování překladů"
 
 msgid "Games and internationalization"
 msgstr "Hry a internacionalizace"
-
-msgid ""
-"The gaming community isn't monolingual or monocultural. It's made up of many "
-"different languages and cultures - just like the Godot community! If you "
-"want to allow players to experience your game in their language, one of "
-"things you'll need to provide is text translations, which Godot supports via "
-"internationalized text."
-msgstr ""
 
 msgid ""
 "In regular desktop or mobile applications, internationalized text is usually "
@@ -120,27 +107,6 @@ msgstr "KEY2"
 
 msgid "KEYN"
 msgstr "KEYN"
-
-#, fuzzy
-msgid ""
-"The \"lang\" tags must represent a language, which must be one of the :ref:"
-"`valid locales <doc_locales>` supported by the engine, or they must start "
-"with an underscore (`_`), which means the related column is served as "
-"comment and won't be imported. The \"KEY\" tags must be unique and represent "
-"a string universally (they are usually in uppercase, to differentiate from "
-"other strings). These keys will be replaced at runtime by the matching "
-"translated string. Note that the case is important, \"KEY1\" and \"Key1\" "
-"will be different keys. The top-left cell is ignored and can be left empty "
-"or having any content. Here's an example:"
-msgstr ""
-"Značky \"lang\" musí představovat jazyk, který musí být jedním z :ref:`valid "
-"locales <doc_locales>` podporovaných enginem. Značky \"KEY\" musí být "
-"jedinečné a reprezentovat univerzální řetězec (obvykle se píší velkými "
-"písmeny, aby se odlišily od ostatních řetězců). Tyto klíče budou za běhu "
-"nahrazeny odpovídajícím přeloženým řetězcem. Všimněte si, že velká a malá "
-"písmena jsou důležitá, \"KEY1\" a \"Key1\" budou různé klíče. Levá horní "
-"buňka je ignorována a může zůstat prázdná nebo mít libovolný obsah. Zde je "
-"příklad:"
 
 msgid "en"
 msgstr "en"

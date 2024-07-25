@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,28 +23,6 @@ msgstr ""
 "TSCN（文本场景）文件格式表示 Godot 内部的单个场景树。与二进制的 SCN 文件不"
 "同，TSCN 具有易于人类阅读、便于使用版本控制系统进行管理的优点。"
 
-#, fuzzy
-msgid ""
-"The ESCN (exported scene) file format is identical to the TSCN file format, "
-"but is used to indicate to Godot that the file has been exported from "
-"another program and should not be edited by the user from within Godot. "
-"Unlike SCN and TSCN files, during import, ESCN files are compiled to binary "
-"SCN files stored inside the ``.godot/imported/`` folder. This reduces the "
-"data size and speeds up loading, as binary formats are faster to load "
-"compared to text-based formats."
-msgstr ""
-"ESCN（导出场景）文件格式与 TSCN 文件格式相同，但是用于向 Godot 表明该文件是从"
-"另一个程序导出的，不应由用户在 Godot 内部进行编辑。与 SCN 和 TSCN 文件不同，"
-"导入时，ESCN 文件会被编译为二进制的 SCN 文件存储到 ``.import/`` 文件夹中。这"
-"样可以减小数据体积、提高加载速度，因为相较于基于文本的格式，二进制格式的加载"
-"更快。"
-
-msgid ""
-"To make files more compact, properties equal to the default value are not "
-"stored in scene/resource files. It is possible to write them manually, but "
-"they will be discarded when saving the file."
-msgstr ""
-
 msgid ""
 "For those looking for a complete description, the parsing is handled in the "
 "file `resource_format_text.cpp <https://github.com/godotengine/godot/blob/"
@@ -59,24 +32,6 @@ msgstr ""
 "如果想要完整的描述，对这些文件格式的解析是在 `resource_format_text.cpp "
 "<https://github.com/godotengine/godot/blob/master/scene/resources/"
 "resource_format_text.cpp>`_ 的 ``ResourceFormatLoaderText`` 类中进行处理的。"
-
-msgid ""
-"The scene and resource file formats have changed significantly in Godot 4, "
-"with the introduction of string-based UIDs to replace incremental integer "
-"IDs."
-msgstr ""
-
-msgid ""
-"Mesh, skeleton and animation data is also stored differently compared to "
-"Godot 3. You can read about some of the changes in this article: `Animation "
-"data rework for 4.0 <https://godotengine.org/article/animation-data-"
-"redesign-40/>`__"
-msgstr ""
-
-msgid ""
-"Scenes and resources saved with Godot 4.x contain ``format=3`` in their "
-"header, whereas Godot 3.x uses ``format=2`` instead."
-msgstr ""
 
 msgid "File structure"
 msgstr "文件结构"
@@ -99,66 +54,8 @@ msgstr "节点"
 msgid "Connections"
 msgstr "连接"
 
-#, fuzzy
-msgid ""
-"The file descriptor looks like ``[gd_scene load_steps=4 format=3 uid=\"uid://"
-"cecaux1sm7mo0\"]`` and should be the first entry in the file. The "
-"``load_steps`` parameter is equal to the total amount of resources (internal "
-"and external) plus one (for the file itself). If the file has no resources, "
-"``load_steps`` is omitted. The engine will still load the file correctly if "
-"``load_steps`` is incorrect, but this will affect loading bars and any other "
-"piece of code relying on that value."
-msgstr ""
-"类似 ``[gd_scene load_steps=3 format=2]`` 的就是文件描述符，应该是文件的第一"
-"条记录。这里的 ``load_steps`` 参数等于资源总数（包括内部和外部）加一（文件本"
-"身）。文件中不包含资源时 ``load_steps`` 会被省略。即便 ``load_steps`` 不正"
-"确，引擎仍然能够正确加载文件，但是加载进度条和其它一些使用该值的代码会受影"
-"响。"
-
-msgid ""
-"``uid`` is a unique string-based identifier representing the scene. This is "
-"used by the engine to track files that are moved around, even while the "
-"editor is closed. Scripts can also load UID-based resources using the "
-"``uid://`` path prefix to avoid relying on filesystem paths. This makes it "
-"possible to move around a file in the project, but still be able to load it "
-"in scripts without having to modify the script. Godot does not use external "
-"files to keep track of IDs, which means no central metadata storage location "
-"is required within the project. See `this pull request <https://github.com/"
-"godotengine/godot/pull/50786>`__ for detailed information."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"These sections should appear in order, but it can be hard to distinguish "
-"them. The only difference between them is the first element in the heading "
-"for all of the items in the section. For example, the heading of all "
-"external resources should start with ``[ext_resource ...]``."
-msgstr ""
-"这些部分应按顺序显示, 但是可能很难区分它们. 它们之间的唯一区别是该部分中所有"
-"项目的标题中的第一个元素. 例如, 所有外部资源的标题都应以 "
-"``[ext_resource .....]`` 开头."
-
-#, fuzzy
-msgid ""
-"A TSCN file may contain single-line comments starting with a semicolon (``;"
-"``). However, comments will be discarded when saving the file using the "
-"Godot editor. Whitespace within a TSCN file is not significant (except "
-"within strings), but extraneous whitespace will be discarded when saving the "
-"file."
-msgstr ""
-"TSCN文件可能包含以分号(``;``)开头的单行注释. 但是, 使用Godot编辑器保存文件"
-"时, 注释将被丢弃."
-
 msgid "Entries inside the file"
 msgstr "文件中的条目"
-
-#, fuzzy
-msgid ""
-"A heading looks like ``[<resource_type> key1=value1 key2=value2 "
-"key3=value3 ...]`` where resource_type is one of:"
-msgstr ""
-"标题看起来像 ``[<resource_type> key=value key=value key=value ...]`` , 其中 "
-"``resource_type`` 是以下之一:"
 
 msgid "``ext_resource``"
 msgstr "``ext_resource``"
@@ -172,27 +69,8 @@ msgstr "``node``"
 msgid "``connection``"
 msgstr "``connection``"
 
-#, fuzzy
-msgid ""
-"Below every heading comes zero or more ``key = value`` pairs. The values can "
-"be complex datatypes such as Arrays, Transforms, Colors, and so on. For "
-"example, a Node3D looks like:"
-msgstr ""
-"在每个标题下方都有零个或多个 ``key = value`` 对. 值可以是复杂的数据类型, 例如"
-"Arrays, Transforms, Colors等. 例如, 一个Spatial节点如下所示:"
-
 msgid "The scene tree"
 msgstr "场景树"
-
-#, fuzzy
-msgid ""
-"The scene tree is made up of… nodes! The heading of each node consists of "
-"its name, parent and (most of the time) a type. For example: ``[node "
-"name=\"PlayerCamera\" type=\"Camera\" parent=\"Player/Head\"]``"
-msgstr ""
-"场景树由……节点组成！每个节点的标题由其名称, 父级和(大多数情况下)一种类型组"
-"成. 例如 ``[node type=\"Camera\" name=\"PlayerCamera\" parent=\"Player/"
-"Head\"]``"
 
 msgid "Other valid keywords include:"
 msgstr "其他有效的关键字包括:"
@@ -206,78 +84,11 @@ msgstr "``instance_placeholder``"
 msgid "``owner``"
 msgstr "``owner``"
 
-#, fuzzy
-msgid ""
-"``index`` (sets the order of appearance in the tree; if absent, inherited "
-"nodes will take precedence over plain ones)"
-msgstr ""
-"``index``\\ （设置在树中的出现顺序。不存在的话，继承节点优先于普通节点）"
-
 msgid "``groups``"
 msgstr "``groups``"
 
-#, fuzzy
-msgid ""
-"The first node in the file, which is also the scene root, must **not** have "
-"a ``parent=\"Path/To/Node\"`` entry in its heading. All scene files should "
-"have exactly *one* scene root. If it doesn't, Godot will fail to import the "
-"file. The parent path of other nodes should be absolute, but shouldn't "
-"contain the scene root's name. If the node is a direct child of the scene "
-"root, the path should be ``\".\"``. Here is an example scene tree (but "
-"without any node content):"
-msgstr ""
-"文件中的第一个节点(也是场景根)的标题中不得包含 ``parent=Path/To/Node`` 条目. "
-"所有场景文件应完全具有 *一个* 场景根. 否则,Godot将无法导入文件. 其他节点的父"
-"路径应为绝对路径, 但不应包含场景根名称. 如果节点是场景根的直接子代, 则路径应"
-"为 ``\".\"``. 这是一个示例场景树(但没有任何节点内容):"
-
-msgid ""
-"To make the file structure easier to grasp, you can save a file with any "
-"given node or resource and then inspect it yourself in an external editor. "
-"You can also make incremental changes in the Godot editor, and keep an "
-"external text editor open on the ``.tscn`` or ``.tres`` file with auto-"
-"reload enabled to see what changes."
-msgstr ""
-
-msgid ""
-"Here is an example of a scene containing a RigidBody3D-based ball with "
-"collision, visuals (mesh + light) and a camera parented to the RigidBody3D:"
-msgstr ""
-
 msgid "NodePath"
 msgstr "节点路径"
-
-#, fuzzy
-msgid ""
-"A tree structure is not enough to represent the whole scene. Godot uses a "
-"``NodePath(Path/To/Node)`` structure to refer to another node or attribute "
-"of the node anywhere in the scene tree. Paths are relative to the current "
-"node, with ``NodePath(\".\")`` pointing to the current node and "
-"``NodePath(\"\")`` pointing to no node at all."
-msgstr ""
-"树形结构不足以代表整个场景。Godot 使用 ``NodePath(Path/To/Node)`` 结构来引用"
-"该节点的属性或场景树中任何位置的另一个节点。例如，MeshInstance 使用 "
-"``NodePath()`` 指向其骨架。同样，动画轨迹使用 ``NodePath()`` 指向要动画的节点"
-"属性。"
-
-#, fuzzy
-msgid ""
-"For instance, MeshInstance3D uses ``NodePath()`` to point to its skeleton. "
-"Likewise, Animation tracks use ``NodePath()`` to point to node properties to "
-"animate."
-msgstr ""
-"树形结构不足以代表整个场景。Godot 使用 ``NodePath(Path/To/Node)`` 结构来引用"
-"该节点的属性或场景树中任何位置的另一个节点。例如，MeshInstance 使用 "
-"``NodePath()`` 指向其骨架。同样，动画轨迹使用 ``NodePath()`` 指向要动画的节点"
-"属性。"
-
-msgid ""
-"NodePath can also point to a property using a ``:property_name`` suffix, and "
-"even point to a specific component for vector, transform and color types. "
-"This is used by Animation resources to point to specific properties to "
-"animate. For example, ``NodePath(\"MeshInstance3D:scale.x\")`` points to the "
-"``x`` component of the ``scale`` Vector3 property in MeshInstance3D."
-msgstr ""
 
 msgid ""
 "For example, the ``skeleton`` property in the MeshInstance3D node called "
@@ -388,35 +199,6 @@ msgstr ""
 "对资源的引用由资源标题中基于字串的唯一ID处理。这与每个外部资源也具有的「uid」"
 "属性不同（但子资源没有）。"
 
-#, fuzzy
-msgid ""
-"External resources and internal resources are referred to with "
-"``ExtResource(\"id\")`` and ``SubResource(\"id\")``, respectively. Because "
-"there have different methods to refer to internal and external resources, "
-"you can have the same ID for both an internal and external resource."
-msgstr ""
-"对资源的引用由资源标题中的 ``id`` 数字处理. 外部资源和内部资源分别以 "
-"``ExtResource(id)`` 和 ``SubResource(id)`` 引用. 因为引用内部和外部资源的方法"
-"不同, 所以内部和外部资源的ID可以相同."
-
-#, fuzzy
-msgid ""
-"For example, to refer to the resource ``[ext_resource type=\"Material\" "
-"uid=\"uid://c4cp0al3ljsjv\" path=\"res://material.tres\" id=\"1_7bt6s\"]``, "
-"you would use ``ExtResource(\"1_7bt6s\")``."
-msgstr ""
-"例如, 要引用资源 ``[ext_resource id=3 type=\"PackedScene\" path=....]``, 则应"
-"使用 ``ExtResource(3)``."
-
-#, fuzzy
-msgid ""
-"External resources are links to resources not contained within the TSCN file "
-"itself. An external resource consists of a path, a type, a UID (used to map "
-"its filesystem location to a unique identifier) and an ID (used to refer to "
-"the resource in the scene file)."
-msgstr ""
-"外部资源是指向TSCN文件本身未包含的资源的链接. 外部资源由路径, 类型和ID组成."
-
 msgid ""
 "Godot always generates absolute paths relative to the resource directory and "
 "thus prefixed with ``res://``, but paths relative to the TSCN file's "
@@ -427,17 +209,6 @@ msgstr ""
 
 msgid "Some example external resources are:"
 msgstr "一些示例外部资源是:"
-
-#, fuzzy
-msgid ""
-"Like TSCN files, a TRES file may contain single-line comments starting with "
-"a semicolon (``;``). However, comments will be discarded when saving the "
-"resource using the Godot editor. Whitespace within a TRES file is not "
-"significant (except within strings), but extraneous whitespace will be "
-"discarded when saving the file."
-msgstr ""
-"像TSCN文件一样,TRES文件可能包含以分号(``;``)开头的单行注释. 但是, 使用Godot编"
-"辑器保存资源时, 注释将被丢弃."
 
 msgid ""
 "A TSCN file can contain meshes, materials and other data. These are "
@@ -469,10 +240,6 @@ msgid ""
 msgstr ""
 "ArrayMesh由包含在「_surfaces」数组中的多个表面组成（注意前导底线）。每个表面"
 "的数据都储存在具有以下键的字典中："
-
-#, fuzzy
-msgid "``aabb``: The computed axis-aligned bounding box for visibility."
-msgstr "``bone_aabbs``：每个骨骼的轴对齐边界框以提高可见性。"
 
 msgid ""
 "``attribute_data``: Vertex attribute data, such as normals, tangents, vertex "
@@ -516,15 +283,6 @@ msgid ""
 "from 3D DCCs."
 msgstr "``name``：表面的名称。这可以在脚本中使用，并从3D DCC汇入。"
 
-#, fuzzy
-msgid ""
-"``primitive``: The surface's primitive type, matching the ``Mesh."
-"PrimitiveType`` Godot enum. ``0`` = points, ``1`` = lines, ``2`` = line "
-"strip, ``3`` = triangles (most common), ``4`` = triangle strip."
-msgstr ""
-"``aabb``：计算的可见性轴对齐边界框。``Mesh.PrimitiveType`` Godot列举。``0`` ="
-"点，``1`` =线，``2`` =线带，``3`` =三角形（最常见），``4`` =三角形带。"
-
 msgid "``skin_data``: Bone weight data."
 msgstr "``skin_data``：骨骼重量数据。"
 
@@ -546,10 +304,6 @@ msgstr ""
 msgid "Animation"
 msgstr "动画"
 
-#, fuzzy
-msgid "Each animation has the following properties:"
-msgstr "此弹出窗口具有以下属性:"
-
 msgid ""
 "``length``: The animation's length in seconds. Note that keyframes may be "
 "placed outside the ``[0; length]`` interval, but they may have no effect "
@@ -557,13 +311,6 @@ msgid ""
 msgstr ""
 "``length`` ：动画的长度（以秒为单位）。请注意，关键帧可以放置在 ``[0; "
 "length]`` 的区间之外，但根据所选的插值模式这样可能没有效果。"
-
-#, fuzzy
-msgid ""
-"``loop_mode``: ``0`` = no looping, ``1`` = wrap-around looping, ``2`` = "
-"clamped looping."
-msgstr ""
-"``loop_mode`` ： ``0`` = 无循环， ``1`` = 环绕循环， ``2`` = 限位循环。"
 
 msgid ""
 "``step``: The step size to use when editing this animation in the editor. "
@@ -624,15 +371,6 @@ msgstr ""
 "``interp`` ：要使用的插值模式。 ``0`` = 最近（nearest）， ``1`` = 线性"
 "（linear）， ``2`` = 立方（cubic）， ``3`` = 线性角度（linear angle）， "
 "``4`` = 立方角度（cubic angle）。"
-
-#, fuzzy
-msgid ""
-"``loop_wrap``: ``true`` if the track is designed to wrap around when the "
-"animation is looping, ``false`` if the track clamps to the first/last "
-"keyframes."
-msgstr ""
-"``loop_wrap`` ：如果轨道被设计为在动画循环时来回往复，则为 ``true`` ；如果轨"
-"道被限位第一个/最后一个关键帧，则为 ``false`` 。"
 
 msgid ""
 "``keys``: The animation track's values. This attribute's structure depends "

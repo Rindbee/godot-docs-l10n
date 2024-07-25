@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,30 +18,12 @@ msgstr "Vinculación a bibliotecas externas"
 msgid "Modules"
 msgstr "Módulos"
 
-#, fuzzy
-msgid ""
-"The Summator example in :ref:`doc_custom_modules_in_cpp` is great for small, "
-"custom modules, but what if you want to use a larger, external library? "
-"Let's look at an example using `Festival <https://www.cstr.ed.ac.uk/projects/"
-"festival/>`_, a speech synthesis (text-to-speech) library written in C++."
-msgstr ""
-"El ejemplo del Summator en :ref:`doc_custom_modules_in_c++` es genial para "
-"módulos pequeños y personalizados, pero ¿qué pasa si deseas utilizar una "
-"biblioteca externa más grande? Veamos un ejemplo utilizando `Festival "
-"<http://www.cstr.ed.ac.uk/projects/festival/>`, una biblioteca de síntesis "
-"de voz (texto a voz) escrita en C++."
-
 msgid ""
 "To bind to an external library, set up a module directory similar to the "
 "Summator example:"
 msgstr ""
 "Para vincular una biblioteca externa, configura un directorio de módulos "
 "similar al ejemplo del Summator:"
-
-#, fuzzy
-msgid "Next, you will create a header file with a TTS class:"
-msgstr ""
-"A continuación, crearás un archivo de encabezado con una clase TTS simple:"
 
 msgid "And then you'll add the cpp file."
 msgstr "Y luego agregarás el archivo cpp."
@@ -68,14 +45,6 @@ msgstr ""
 
 msgid "These files should contain the following:"
 msgstr "Estos archivos deberán contener lo siguiente:"
-
-#, fuzzy
-msgid ""
-"Next, you need to create an ``SCsub`` file so the build system compiles this "
-"module:"
-msgstr ""
-"A continuación, debes crear un archivo ``SCsub`` para que el sistema de "
-"compilación compile este módulo:"
 
 msgid ""
 "You'll need to install the external library on your machine to get the .a "
@@ -123,19 +92,6 @@ msgstr ""
 "Si no deseas que los archivos fuente del repositorio externo se incluyan en "
 "tu propio repositorio, puedes enlazarlos agregándolos como submódulos (desde "
 "el directorio modules/tts/), como se muestra a continuación:"
-
-#, fuzzy
-msgid ""
-"Please note that Git submodules are not used in the Godot repository. If you "
-"are developing a module to be merged into the main Godot repository, you "
-"should not use submodules. If your module doesn't get merged in, you can "
-"always try to implement the external library as a GDExtension."
-msgstr ""
-"Ten en cuenta que los submódulos de Git no se utilizan en el repositorio de "
-"Godot. Si estás desarrollando un módulo para ser fusionado en el repositorio "
-"principal de Godot, no debes usar submódulos. Si tu módulo no se fusiona, "
-"siempre puedes intentar implementar la biblioteca externa como un "
-"complemento GDNative en C++."
 
 msgid ""
 "To add include directories for the compiler to look at you can append it to "

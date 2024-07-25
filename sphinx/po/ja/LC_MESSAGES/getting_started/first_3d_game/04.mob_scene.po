@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,45 +22,11 @@ msgstr ""
 "このパートでは、モンスター（ここではモブと呼びます）のコードを作成します。次"
 "のレッスンでは、モンスターをプレイエリアのあちこちにランダムに配置します。"
 
-#, fuzzy
-msgid ""
-"Let's design the monsters themselves in a new scene. The node structure is "
-"going to be similar to the ``player.tscn`` scene."
-msgstr ""
-"新しいシーンでモンスター自体を設計しましょう。ノード構造は「Player」シーンに"
-"似ています。"
-
-#, fuzzy
-msgid ""
-"Create a scene with, once again, a :ref:`CharacterBody3D "
-"<class_CharacterBody3D>` node as its root. Name it ``Mob``. Add a child "
-"node :ref:`Node3D <class_Node3D>`, name it ``Pivot``. And drag and drop the "
-"file ``mob.glb`` from the *FileSystem* dock onto the ``Pivot`` to add the "
-"monster's 3D model to the scene."
-msgstr ""
-"まず、シーンを作成するために、根ノードとして *KinematicBody* ノードを使用しま"
-"す。このノードを *Mob* と名付けます。次に、その子ノードとして *Spatial* ノー"
-"ドを追加し、*Pivot* と名付けます。そして、ファイルシステムパネルから mob.glb "
-"ファイルを *Pivot* にドラッグ＆ドロップすることで、モンスターの3Dモデルがシー"
-"ンに追加されます。新しく作成した *mob* ノードを *Character* に名前変更するこ"
-"ともできます。"
-
-msgid "You can rename the newly created ``mob`` node into ``Character``."
-msgstr ""
-
 msgid "|image0|"
 msgstr "\\ |image0|"
 
 msgid "image0"
 msgstr "image0"
-
-#, fuzzy
-msgid ""
-"We need a collision shape for our body to work. Right-click on the ``Mob`` "
-"node, the scene's root, and click *Add Child Node*."
-msgstr ""
-"私たちの実体は、衝突形状を追加する必要があります。シーンのルートノード *Mob* "
-"を右クリックし、 *サブノードを追加* をクリックしてください。"
 
 msgid "|image1|"
 msgstr "\\ |image1|"
@@ -81,10 +42,6 @@ msgstr "\\ |image2|"
 
 msgid "image2"
 msgstr "image2"
-
-#, fuzzy
-msgid "In the *Inspector*, assign a *BoxShape3D* to the *Shape* property."
-msgstr "*Inspector* で、 *Shape* プロパティに *BoxShape* を割り当てます。"
 
 msgid ""
 "We should change its size to fit the 3D model better. You can do so "
@@ -125,65 +82,6 @@ msgstr ""
 msgid "Removing monsters off-screen"
 msgstr "古い「モンスター」を削除する"
 
-#, fuzzy
-msgid ""
-"We're going to spawn monsters at regular time intervals in the game level. "
-"If we're not careful, their count could increase to infinity, and we don't "
-"want that. Each mob instance has both a memory and a processing cost, and we "
-"don't want to pay for it when the mob is outside the screen."
-msgstr ""
-"私たちはゲームレベルで一定時間ごとにモンスターを生成します。もし私たちがうっ"
-"かりしていたら、それらの数は無限大に増えるかもしれないので、私たちはそれを望"
-"んでいません。モブの各インスタンスにはメモリと処理コストがあり、モブが画面の"
-"外にいるときは、私たちはそのためにコストを払いたくありません。"
-
-#, fuzzy
-msgid ""
-"Once a monster leaves the screen, we don't need it anymore, so we should "
-"delete it. Godot has a node that detects when objects leave the screen, :ref:"
-"`VisibleOnScreenNotifier3D <class_VisibleOnScreenNotifier3D>`, and we're "
-"going to use it to destroy our mobs."
-msgstr ""
-"モンスターが画面から離れたら、もう必要ないので、削除してしまいましょう。Godot"
-"には、\\ *VisibilityNotifier*\\ という、ノードが画面から離れるのを検知する"
-"ノードがあるので、それを使ってモブを破壊することにします。"
-
-#, fuzzy
-msgid ""
-"When you keep instancing an object, there's a technique you can use to avoid "
-"the cost of creating and destroying instances all the time called pooling. "
-"It consists of pre-creating an array of objects and reusing them over and "
-"over."
-msgstr ""
-"ゲームなどでオブジェクトのインスタンスを生成し続ける場合に、インスタンスを常"
-"に生成・破棄するコストを回避するための手法にプーリングというものがあります。"
-"これは、オブジェクトの配列をあらかじめ作成しておき、それを何度も再利用すると"
-"いうものです。"
-
-#, fuzzy
-msgid ""
-"When working with GDScript, you don't need to worry about this. The main "
-"reason to use pools is to avoid freezes with garbage-collected languages "
-"like C# or Lua. GDScript uses a different technique to manage memory, "
-"reference counting, which doesn't have that caveat. You can learn more about "
-"that here: :ref:`doc_gdscript_basics_memory_management`."
-msgstr ""
-"GDScript で作業する場合、このことを気にする必要はありません。プールを使用する"
-"主な理由は、C# や Lua のようなガベージコレクション言語でのフリーズを回避する"
-"ためです。GDScriptでは、参照カウントという別の手法でメモリを管理しています"
-"が、これにはそのような注意点はありません。これについては :ref:"
-"`doc_gdscript_basics_memory_management` で学ぶことができます。"
-
-#, fuzzy
-msgid ""
-"Select the ``Mob`` node and add a child node :ref:`VisibleOnScreenNotifier3D "
-"<class_VisibleOnScreenNotifier3D>`. Another box, pink this time, appears. "
-"When this box completely leaves the screen, the node will emit a signal."
-msgstr ""
-"\\ *Mob*\\ ノードを選択し、\\ *VisibilityNotifier*\\ をその子として追加してく"
-"ださい。すると、今度はピンク色のボックスが現れます。このボックスが完全に画面"
-"から消えると、ノードがシグナルを発信します。"
-
 msgid "|image5|"
 msgstr "\\ |image5|"
 
@@ -202,92 +100,20 @@ msgstr "\\ image6"
 msgid "Coding the mob's movement"
 msgstr "モブの動きをコード化する"
 
-msgid ""
-"Let's implement the monster's motion. We're going to do this in two steps. "
-"First, we'll write a script on the ``Mob`` that defines a function to "
-"initialize the monster. We'll then code the randomized spawn mechanism in "
-"the ``main.tscn`` scene and call the function from there."
-msgstr ""
-
-#, fuzzy
-msgid "Attach a script to the ``Mob``."
-msgstr "ノードにスクリプトを追加します。"
-
 msgid "|image7|"
 msgstr "\\ |image7|"
 
 msgid "image7"
 msgstr "\\ image7"
 
-msgid ""
-"Here's the movement code to start with. We define two properties, "
-"``min_speed`` and ``max_speed``, to define a random speed range, which we "
-"will later use to define ``CharacterBody3D.velocity``."
-msgstr ""
-
-msgid ""
-"Similarly to the player, we move the mob every frame by calling the function "
-"``CharacterBody3D.move_and_slide()``. This time, we don't update the "
-"``velocity`` every frame; we want the monster to move at a constant speed "
-"and leave the screen, even if it were to hit an obstacle."
-msgstr ""
-
-msgid ""
-"We need to define another function to calculate the ``CharacterBody3D."
-"velocity``. This function will turn the monster towards the player and "
-"randomize both its angle of motion and its velocity."
-msgstr ""
-
-msgid ""
-"The function will take a ``start_position``,the mob's spawn position, and "
-"the ``player_position`` as its arguments."
-msgstr ""
-
-msgid ""
-"We position the mob at ``start_position`` and turn it towards the player "
-"using the ``look_at_from_position()`` method, and randomize the angle by "
-"rotating a random amount around the Y axis. Below, ``randf_range()`` outputs "
-"a random value between ``-PI / 4`` radians and ``PI / 4`` radians."
-msgstr ""
-
-msgid ""
-"We got a random position, now we need a ``random_speed``. ``randi_range()`` "
-"will be useful as it gives random int values, and we will use ``min_speed`` "
-"and ``max_speed``. ``random_speed`` is just an integer, and we just use it "
-"to multiply our ``CharacterBody3D.velocity``. After ``random_speed`` is "
-"applied, we rotate ``CharacterBody3D.velocity`` Vector3 towards the player."
-msgstr ""
-
 msgid "Leaving the screen"
 msgstr "画面から離れる"
-
-msgid ""
-"We still have to destroy the mobs when they leave the screen. To do so, "
-"we'll connect our :ref:`VisibleOnScreenNotifier3D "
-"<class_VisibleOnScreenNotifier3D>` node's ``screen_exited`` signal to the "
-"``Mob``."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Head back to the 3D viewport by clicking on the *3D* label at the top of the "
-"editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
-msgstr ""
-"エディタ上部の\\ *3D*\\ ラベルをクリックして、3D ビューポートに戻ります。また"
-"\\ :kbd:`Ctrl + F2`\\ (macOSでは\\ :kbd:`Alt + 2`\\ )を押すこともできます。"
 
 msgid "|image8|"
 msgstr "\\ |image8|"
 
 msgid "image8"
 msgstr "\\ image8"
-
-msgid ""
-"Select the :ref:`VisibleOnScreenNotifier3D "
-"<class_VisibleOnScreenNotifier3D>` node and on the right side of the "
-"interface, navigate to the *Node* dock. Double-click the ``screen_exited()`` "
-"signal."
-msgstr ""
 
 msgid "|image9|"
 msgstr "\\ |image9|"
@@ -305,20 +131,11 @@ msgid "image10"
 msgstr "\\ image10"
 
 msgid ""
-"This will add a new function for you in your mob script, "
-"``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
-"``queue_free()`` method. This function destroys the instance it's called on."
-msgstr ""
-
-msgid ""
 "Our monster is ready to enter the game! In the next part, you will spawn "
 "monsters in the game level."
 msgstr ""
 "私たちのモンスターがゲームに参加する準備ができました。次のパートでは、ゲーム"
 "レベルにモンスターを出現させます。"
-
-msgid "Here is the complete ``Mob.gd`` script for reference."
-msgstr "参考までに、\\ ``Mob.gd``\\ スクリプトの完成版を以下に示します。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

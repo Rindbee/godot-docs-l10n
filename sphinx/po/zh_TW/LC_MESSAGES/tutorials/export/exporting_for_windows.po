@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,30 +126,14 @@ msgstr "環境變數"
 msgid "Encryption / Encryption Key"
 msgstr "加密/加密金鑰"
 
-#, fuzzy
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr "GODOT_SCRIPT_ENCRYPTION_KEY"
-
 msgid "Options / Codesign / Identity Type"
 msgstr "選項/協同設計/身分型別"
-
-#, fuzzy
-msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE``"
-msgstr "GODOT_WINDOWS_CODESIGN_IDENTITY_TYPE"
 
 msgid "Options / Codesign / Identity"
 msgstr "選項/協同設計/身份"
 
-#, fuzzy
-msgid "``GODOT_WINDOWS_CODESIGN_IDENTITY``"
-msgstr "GODOT_WINDOWS_CODESIGN_IDENTITY"
-
 msgid "Options / Codesign / Password"
 msgstr "選項/程式碼設計/密碼"
-
-#, fuzzy
-msgid "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
-msgstr "GODOT_WINDOWS_CODESIGN_PASSWORD"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

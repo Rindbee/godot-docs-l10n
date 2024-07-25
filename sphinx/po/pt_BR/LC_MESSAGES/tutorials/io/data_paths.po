@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,51 +90,6 @@ msgstr ""
 msgid "Accessing persistent user data (``user://``)"
 msgstr "Acessando dados persistentes dos usuários (``user://``)"
 
-msgid ""
-"To store persistent data files, like the player's save or settings, you want "
-"to use ``user://`` instead of ``res://`` as your path's prefix. This is "
-"because when the game is running, the project's file system will likely be "
-"read-only."
-msgstr ""
-
-msgid ""
-"The ``user://`` prefix points to a different directory on the user's device. "
-"Unlike ``res://``, the directory pointed at by ``user://`` is created "
-"automatically and *guaranteed* to be writable to, even in an exported "
-"project."
-msgstr ""
-
-msgid ""
-"The location of the ``user://`` folder depends on what is configured in the "
-"Project Settings:"
-msgstr ""
-
-msgid ""
-"By default, the ``user://`` folder is created within Godot's :ref:`editor "
-"data path <doc_data_paths_editor_data_paths>` in the ``app_userdata/"
-"[project_name]`` folder. This is the default so that prototypes and test "
-"projects stay self-contained within Godot's data folder."
-msgstr ""
-
-msgid ""
-"If :ref:`application/config/use_custom_user_dir "
-"<class_ProjectSettings_property_application/config/use_custom_user_dir>` is "
-"enabled in the Project Settings, the ``user://`` folder is created **next "
-"to** Godot's editor data path, i.e. in the standard location for "
-"applications data."
-msgstr ""
-
-msgid ""
-"By default, the folder name will be inferred from the project name, but it "
-"can be further customized with :ref:`application/config/custom_user_dir_name "
-"<class_ProjectSettings_property_application/config/custom_user_dir_name>`. "
-"This path can contain path separators, so you can use it e.g. to group "
-"projects of a given studio with a ``Studio Name/Game Name`` structure."
-msgstr ""
-
-msgid "On desktop platforms, the actual directory paths for ``user://`` are:"
-msgstr ""
-
 msgid "Type"
 msgstr "Tipo"
 
@@ -148,10 +98,6 @@ msgstr "Localização"
 
 msgid "Default"
 msgstr "Padrão"
-
-#, fuzzy
-msgid "Windows: ``%APPDATA%\\Godot\\app_userdata\\[project_name]``"
-msgstr "Windows: ''%APPDATA%\\Godot\\app_userdata\\[project_name]''"
 
 msgid ""
 "macOS: ``~/Library/Application Support/Godot/app_userdata/[project_name]``"
@@ -186,52 +132,8 @@ msgstr ""
 msgid "Linux: ``~/.local/share/[custom_user_dir_name]``"
 msgstr "Linux: ``~/.local/share/[custom_user_dir_name]``"
 
-msgid ""
-"``[project_name]`` is based on the application name defined in the Project "
-"Settings, but you can override it on a per-platform basis using :ref:"
-"`feature tags <doc_feature_tags>`."
-msgstr ""
-
-msgid ""
-"On mobile platforms, this path is unique to the project and is not "
-"accessible by other applications for security reasons."
-msgstr ""
-
-msgid ""
-"On HTML5 exports, ``user://`` will refer to a virtual filesystem stored on "
-"the device via IndexedDB. (Interaction with the main filesystem can still be "
-"performed through the :ref:`JavaScriptBridge <class_JavaScriptBridge>` "
-"singleton.)"
-msgstr ""
-
-msgid "Converting paths to absolute paths or \"local\" paths"
-msgstr ""
-
-msgid ""
-"You can use :ref:`ProjectSettings.globalize_path() "
-"<class_ProjectSettings_method_globalize_path>` to convert a \"local\" path "
-"like ``res://path/to/file.txt`` to an absolute OS path. For example, :ref:"
-"`ProjectSettings.globalize_path() "
-"<class_ProjectSettings_method_globalize_path>` can be used to open \"local\" "
-"paths in the OS file manager using :ref:`OS.shell_open() "
-"<class_OS_method_shell_open>` since it only accepts native OS paths."
-msgstr ""
-
-msgid ""
-"To convert an absolute OS path to a \"local\" path starting with ``res://`` "
-"or ``user://``, use :ref:`ProjectSettings.localize_path() "
-"<class_ProjectSettings_method_localize_path>`. This only works for absolute "
-"paths that point to files or folders in your project's root or ``user://`` "
-"folders."
-msgstr ""
-
 msgid "Editor data paths"
 msgstr "Caminhos de dados do editor"
-
-msgid ""
-"The editor uses different paths for editor data, editor settings, and cache, "
-"depending on the platform. By default, these paths are:"
-msgstr ""
 
 msgid "Editor data"
 msgstr "Dados do editor"

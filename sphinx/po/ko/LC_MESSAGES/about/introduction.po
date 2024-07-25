@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +48,6 @@ msgstr ""
 "니다. 아니면 :ref:`시작하기 <sec-learn>`페이지가 좋은 출발점이 될 수 있습니"
 "다."
 
-#, fuzzy
 msgid ""
 "In case you have trouble with one of the tutorials or your project, you can "
 "find help on the various :ref:`Community channels <doc_community_channels>`, "
@@ -150,17 +144,6 @@ msgstr ""
 "을 설명합니다. 또한 고급 사용자와 기여자를 위한 섹션도 포함되어 있으며, 엔진 "
 "컴파일, 에디터 기여 또는 C++ 모듈 개발에 대한 정보를 제공합니다."
 
-#, fuzzy
-msgid ""
-"**Community** is dedicated to the life of Godot's community. It points to "
-"various community channels like the `Godot Contributors Chat <https://chat."
-"godotengine.org/>`_ and `Discord`_ and contains a list of recommended third-"
-"party tutorials and materials outside of this documentation."
-msgstr ""
-":ref:`sec-community`\\ 에는 엔진 개발 기여, 커뮤니티 생태계 관련 정보가 있습"
-"니다(버그 제보하는 방법, 문서에 기여하는 방법 등). 또한, IRC, Discord 등 여"
-"러 커뮤니티 채널이나 이 문서 밖의 제 3자 튜토리얼 추천 목록도 있습니다."
-
 msgid ""
 "Finally, the **Class reference** documents the full Godot API, also "
 "available directly within the engine's script editor. You can find "
@@ -198,18 +181,6 @@ msgstr ""
 "<doc_contributing_writing_documentation>`를 참조하거나, `고도 기여자 채팅 "
 "<https://chat.godotengine.org/>`에서 `문서 팀 <https://godotengine.org/teams/"
 "#documentation>`에 연락해 주세요."
-
-#, fuzzy
-msgid ""
-"All documentation content is licensed under the permissive Creative Commons "
-"Attribution 3.0 (`CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/"
-">`_) license, with attribution to \"*Juan Linietsky, Ariel Manzur, and the "
-"Godot Engine community*\" unless otherwise noted."
-msgstr ""
-"문서의 모든 내용은 크리에이티브 커먼스 저작자 표시 3.0 (`CC-BY 3.0 <https://"
-"creativecommons.org/licenses/by/3.0/>`_) 라이선스로 사용할 수 있습니다. 저작"
-"자 표시는 \"Juan Linietsky, Ariel Manzur, and the Godot Engine community\"로 "
-"하면 됩니다."
 
 msgid "*Have fun reading and making games with Godot Engine!*"
 msgstr "*재밌게 읽어보시고 Godot 엔진으로 즐겁게 게임을 개발해보세요!*"

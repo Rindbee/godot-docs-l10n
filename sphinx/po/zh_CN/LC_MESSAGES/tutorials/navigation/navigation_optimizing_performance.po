@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,31 +132,6 @@ msgstr ""
 "如果可能的话，在运作时烘焙导览网格应该始终在后台线程中完成。即使是小尺寸的导"
 "览网格物体的烘焙时间也可能比挤入单个影格所需的时间长得多，至少在影格率保持在"
 "可忍受的水平的情况下是如此。"
-
-#, fuzzy
-msgid ""
-"Complexity of source geometry data parsed from scene tree nodes has big "
-"impact on baking performance as everything needs to be mapped to a grid / "
-"voxels. For runtime baking performance the NavigationMesh cell size and cell "
-"height should be set as high as possible without causing navigation mesh "
-"quality problems for a game. If cell size or cell height is set too low the "
-"baking is forced to create an excessive amount of voxels to process the "
-"source geometry. If the source geometry spans over a very large game world "
-"it is even possible that the baking process runs out off memory in the "
-"middle and crashes the game. The partition type can also be lowered "
-"depending on how complex the games source geometry is to gain some "
-"performance. E.g. games with mostly flat surfaces with blocky geometry can "
-"get away with the monotone or layers mode that are a lot faster to bake (e."
-"g. because they require no distance field pass)."
-msgstr ""
-"从SceneTree节点解析的源几何数据的复杂度对烘焙性能有很大的影响，因为所有的数据"
-"都需要映射到一个栅格/体素上。为了提高运行时的烘焙性能，NavigationMesh 的 "
-"cell size 和 cell height 应该尽可能地设置得高，但不要造成游戏中导航网格质量的"
-"问题。如果 cell size 或 cell height 设置得太低，烘焙过程就会被迫创建过多的体"
-"素来处理源几何数据。如果源几何数据覆盖了一个非常大的游戏世界，甚至有可能在烘"
-"焙过程中内存耗尽而导致游戏崩溃。partition type 也可以根据游戏中源几何数据的复"
-"杂度来降低，以提高一些性能。例如，有大量平坦表面和块状几何的游戏可以使用单调"
-"或分层模式来烘焙，这些模式会快很多（例如，因为它们不需要距离场阶段）。"
 
 msgid ""
 "Never scale source geometry with nodes. Not only can it result in a lot of "

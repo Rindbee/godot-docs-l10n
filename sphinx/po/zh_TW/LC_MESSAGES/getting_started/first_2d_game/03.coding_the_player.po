@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,37 +48,6 @@ msgstr ""
 
 msgid "Start by declaring the member variables this object will need:"
 msgstr "首先我們先宣告這個物件所需要的成員變數："
-
-#, fuzzy
-msgid ""
-"Using the ``export`` keyword on the first variable ``speed`` allows us to "
-"set its value in the Inspector. This can be handy for values that you want "
-"to be able to adjust just like a node's built-in properties. Click on the "
-"``Player`` node and you'll see the property now appears in the Inspector in "
-"a new section with the name of the script. Remember, if you change the value "
-"here, it will override the value written in the script."
-msgstr ""
-"在第一個變數 ``speed`` 上使用 ``export`` 關鍵字可以讓我們稍後在屬性面板中指"
-"定 speed 的值。當希望讓成員變數與節點內建屬性一樣可以在屬性面板中調整的話，就"
-"可以用這個功能。點擊 ``Player`` 節點，就可以在 [Script Variables] (腳本變數) "
-"內看到這個屬性。但請記得，如果在屬性面板中修改了數值，會覆蓋掉腳本內所指定的"
-"值。"
-
-#, fuzzy
-msgid ""
-"If you're using C#, you need to (re)build the project assemblies whenever "
-"you want to see new export variables or signals. This build can be manually "
-"triggered by clicking the **Build** button at the top right of the editor."
-msgstr ""
-"使用 C# 時，若要看到新匯出的變數或訊號，就需要建置或重新建置專案。要重新建置"
-"專案可以手動點擊編輯器視窗底部的 [Mono] 文字來打開 Mono 面板，然後點擊 [建置"
-"專案] 按鈕。"
-
-msgid ""
-"Your ``player.gd`` script should already contain a ``_ready()`` and a "
-"``_process()`` function. If you didn't select the default template shown "
-"above, create these functions while following the lesson."
-msgstr ""
 
 msgid ""
 "The ``_ready()`` function is called when a node enters the scene tree, which "
@@ -259,12 +223,6 @@ msgstr ""
 "到現在這個影格所花費的時間。通過這個數值可以確保即使影格率發生變化，移動的距"
 "離也能保持不變。"
 
-#, fuzzy
-msgid ""
-"Click \"Run Current Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm "
-"you can move the player around the screen in all directions."
-msgstr "點擊 [執行場景] (``F6``) 並測試玩家能否夠移動到任何一個方向。"
-
 msgid "If you get an error in the \"Debugger\" panel that says"
 msgstr "若「除錯工具」中出現了這樣的錯誤"
 
@@ -360,41 +318,6 @@ msgstr ""
 "這段程式碼定義了一個叫做「hit」的自定訊號，稍後我們會讓玩家在碰撞到敵人的時候"
 "送出這個訊號。我們會使用 ``Area2D`` 來偵測碰撞。先選擇 ``Player`` 節點，然後"
 "點擊屬性面板旁邊的 [節點] 分頁來看看所有 Player 能送出的訊號："
-
-#, fuzzy
-msgid ""
-"Notice our custom \"hit\" signal is there as well! Since our enemies are "
-"going to be ``RigidBody2D`` nodes, we want the ``body_entered(body: "
-"Node2D)`` signal. This signal will be emitted when a body contacts the "
-"player. Click \"Connect..\" and the \"Connect a Signal\" window appears."
-msgstr ""
-"可以看到我們自定的「hit」訊號出現在這裡了！由於敵人使用 ``RigidBody2D`` 節"
-"點，所以我們會需要 ``body_entered(body: Node)`` 訊號。這個訊號會在敵人的形體 "
-"(Body) 接觸到玩家時送出。點擊 [連接...] 後會出現「連接訊號」視窗。我們先不動"
-"這裡的設定，點擊 [連接]。Godot 會自動在玩家腳本內建立一個函式。"
-
-msgid ""
-"Godot will create a function with that exact name directly in script for "
-"you. You don't need to change the default settings right now."
-msgstr ""
-
-msgid ""
-"If you're using an external text editor (for example, Visual Studio Code), a "
-"bug currently prevents Godot from doing so. You'll be sent to your external "
-"editor, but the new function won't be there."
-msgstr ""
-
-msgid ""
-"In this case, you'll need to write the function yourself into the Player's "
-"script file."
-msgstr ""
-
-msgid ""
-"Note the green icon indicating that a signal is connected to this function; "
-"this does not mean the function exists, only that the signal will attempt to "
-"connect to a function with that name, so double-check that the spelling of "
-"the function matches exactly!"
-msgstr ""
 
 msgid "Next, add this code to the function:"
 msgstr "接下來新增這段程式到函式中："

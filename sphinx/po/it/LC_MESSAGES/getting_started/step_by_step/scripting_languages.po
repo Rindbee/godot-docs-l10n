@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,44 +46,6 @@ msgstr ""
 
 msgid "Available scripting languages"
 msgstr "Linguaggi di scripting disponibili"
-
-#, fuzzy
-msgid ""
-"Godot offers **four gameplay programming languages**: GDScript, C#, and, via "
-"its GDExtension technology, C and C++. There are more community-supported "
-"languages, but these are the official ones."
-msgstr ""
-"Godot offre **cinque linguaggi di programmazione per il gameplay**: "
-"GDScript, C#, VisualScript e, tramite la tecnologia GDNative, C e C++. Ci "
-"sono altri :ref:`linguaggi supportati dalla comunità "
-"<doc_what_is_gdnative_third_party_bindings>`, ma questi sono quelli "
-"ufficiali."
-
-#, fuzzy
-msgid ""
-"You can use multiple languages in a single project. For instance, in a team, "
-"you could code gameplay logic in GDScript as it's fast to write, and use C# "
-"or C++ to implement complex algorithms and maximize their performance. Or "
-"you can write everything in GDScript or C#. It's your call."
-msgstr ""
-"È possibile utilizzare più linguaggi in un singolo progetto. Per esempio, in "
-"un team, si può codificare la logica di gioco in GDScript, perché è veloce "
-"da scrivere, lasciare che i progettisti di livelli scrivano le missioni nel "
-"linguaggio grafico VisualScript e usare C# o C++ per implementare algoritmi "
-"complessi e massimizzarne le prestazioni. Oppure potete scrivere tutto in "
-"GDScript o C#. A voi la scelta."
-
-#, fuzzy
-msgid ""
-"We provide this flexibility to answer the needs of different game projects "
-"and developers."
-msgstr ""
-"Forniamo questa flessibilità per rispondere alle esigenze di diversi "
-"progetti di giochi e di diverse tipologie di sviluppatori."
-
-#, fuzzy
-msgid "Which language should I use?"
-msgstr "Quale devo usare?"
 
 msgid ""
 "If you're a beginner, we recommend to **start with GDScript**. We made this "
@@ -140,7 +97,7 @@ msgid "A simple syntax that leads to short files."
 msgstr "Una sintassi semplice che porta a file brevi."
 
 msgid "Blazing fast compilation and loading times."
-msgstr "Tempi di compilazione e caricamento rapidissimi."
+msgstr "Tempi di compilazione e caricamento velocissimi."
 
 msgid ""
 "Tight editor integration, with code completion for nodes, signals, and more "
@@ -148,18 +105,6 @@ msgid ""
 msgstr ""
 "Integrazione stretta dell'editor, con completamento del codice per i nodi, i "
 "segnali e per molte altre informazioni dalla scena a cui è collegato."
-
-#, fuzzy
-msgid ""
-"Built-in vector and transform types, making it efficient for heavy use of "
-"linear algebra, a must for games."
-msgstr ""
-"Offre nativamente diversi tipi di Vettori (come Vettori, trasformazioni, "
-"ecc.), rendendolo efficace nei calcoli complessi di algebra lineare."
-
-#, fuzzy
-msgid "Supports multiple threads as efficiently as statically typed languages."
-msgstr "Meno prestazioni rispetto ai linguaggi tipizzati staticamente."
 
 msgid ""
 "No `garbage collection <https://en.wikipedia.org/wiki/"
@@ -218,50 +163,6 @@ msgstr ""
 msgid ".NET / C#"
 msgstr ".NET / C#"
 
-#, fuzzy
-msgid ""
-"As Microsoft's `C# <https://en.wikipedia.org/wiki/"
-"C_Sharp_(programming_language)>`_ is a favorite amongst game developers, we "
-"officially support it. C# is a mature and flexible language with tons of "
-"libraries written for it. We were able to add support for it thanks to a "
-"generous donation from Microsoft."
-msgstr ""
-"Dato che il C# di Microsoft è una preferenza per molti sviluppatori di "
-"videogiochi, abbiamo aggiunto il suo supporto ufficiale. Il C# è un "
-"linguaggio maturo con un'enorme quantità di codice già scritto, e il suo "
-"supporto è stato aggiunto grazie a una generosa donazione da Microsoft."
-
-#, fuzzy
-msgid ""
-"C# offers a good tradeoff between performance and ease of use, although you "
-"should be aware of its garbage collector."
-msgstr ""
-"E' un ottimo compromesso tra performance e facilità di utilizzo, tuttavia "
-"bisogna essere consapevoli della sua gestione della memoria."
-
-#, fuzzy
-msgid ""
-"You must use the .NET edition of the Godot editor to script in C#. You can "
-"download it on the Godot website's `download <https://godotengine.org/"
-"download/>`_ page."
-msgstr ""
-"Per scrivere in C# è necessario utilizzare l'edizione Mono dell'editor "
-"Godot. È possibile scaricarla dalla pagina `download <https://godotengine."
-"org/download/>`_ del sito web di Godot."
-
-#, fuzzy
-msgid ""
-"Since Godot uses .NET 6, in theory, you can use any third-party .NET library "
-"or framework in Godot, as well as any Common Language Infrastructure-"
-"compliant programming language, such as F#, Boo, or ClojureCLR. However, C# "
-"is the only officially supported .NET option."
-msgstr ""
-"Siccome Godot usa il `Mono <https://mono-project.com>`_ .NET runtime, in "
-"teoria ogni libreria .NET o framework di terze parti può essere usata per lo "
-"scripting in Godot, così come qualsiasi linguaggio di programmazione CLI, "
-"come F#, Boo o ClojureCLR. In pratica, tuttavia, il C# è l'unica opzione ."
-"NET ufficialmente supportata."
-
 msgid ""
 "GDScript code itself doesn't execute as fast as compiled C# or C++. However, "
 "most script code calls functions written with fast algorithms in C++ code "
@@ -280,52 +181,16 @@ msgid ""
 "iOS platform support is available as of Godot 4.2, but is experimental and :"
 "ref:`some limitations apply <doc_c_sharp_platforms>`."
 msgstr ""
+"I progetti scritti in C# usando Godot 4 non possono essere attualmente "
+"esportati per piattaforme web. Per usare C# su tali piattaforme, si "
+"consiglia l'uso di Godot 3. Il supporto per piattaforme Android e iOS è "
+"disponibile a partire da Godot 4.2, ma tale supporto è sperimentale e :ref:"
+"`si applicano limitazioni <doc_c_sharp_platforms>`."
 
 msgid ""
 "To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page."
 msgstr ""
 "Per saperne di più su C#, vai alla pagina :ref:`basi di C# <doc_c_sharp>`."
-
-msgid "C++ via GDExtension"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"GDExtension allows you to write game code in C++ without needing to "
-"recompile Godot."
-msgstr ""
-"Finalmente, una delle più grandi implementazioni per il rilascio della "
-"versione 3.0: GDNative permette la scrittura in C++ senza dover ricompilare "
-"(o anche riavviare) Godot."
-
-#, fuzzy
-msgid ""
-"You can use any version of the language or mix compiler brands and versions "
-"for the generated shared libraries, thanks to our use of an internal C API "
-"Bridge."
-msgstr ""
-"Qualsiasi versione di C++ può essere usata, e mescolare diversi compilatori "
-"e versioni di questi per le librerie generate funziona perfettamente, grazie "
-"all'utilizzo interno di un API bridge in C."
-
-#, fuzzy
-msgid ""
-"GDExtension is the best choice for performance. You don't need to use it "
-"throughout an entire game, as you can write other parts in GDScript or C#."
-msgstr ""
-"Questo linguaggio è la scelta migliore in quanto a performance e non deve "
-"essere per forza utilizzato in tutto il gioco, in quanto altre parti possono "
-"essere scritte in GDScript o Visual Script. In ogni caso l'API è chiara e "
-"semplice da usare in quanto somiglia, per lo più, all'effettiva API C++ di "
-"Godot."
-
-#, fuzzy
-msgid ""
-"When working with GDExtension, the available types, functions, and "
-"properties closely resemble Godot's actual C++ API."
-msgstr ""
-"Quando si lavora con GDNative, i tipi, le funzioni e le proprietà "
-"disponibili sono strettamente simili all'API effettiva di Godot in C++."
 
 msgid "Summary"
 msgstr "Sommario"
@@ -336,14 +201,6 @@ msgid ""
 msgstr ""
 "Gli scripts sono file contenenti codice che aggiungi ad un nodo per "
 "estendere le sue funzionalità."
-
-#, fuzzy
-msgid ""
-"Godot supports four official scripting languages, offering you flexibility "
-"between performance and ease of use."
-msgstr ""
-"Godot supporta ufficialmente cinque linguaggi di scripting, offrendoti "
-"flessibilità tra prestazioni e facilità d'uso."
 
 msgid ""
 "You can mix languages, for instance, to implement demanding algorithms with "

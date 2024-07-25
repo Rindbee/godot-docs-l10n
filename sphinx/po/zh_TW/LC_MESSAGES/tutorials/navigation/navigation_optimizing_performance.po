@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +19,6 @@ msgid ""
 "Common Navigation related performance problems can be categorized into the "
 "following topics:"
 msgstr "常見的導覽相關效能問題可分為以下主題："
-
-#, fuzzy
-msgid ""
-"Performance problems with parsing scene tree nodes for navigation mesh "
-"baking."
-msgstr "為導覽網格烘焙解析場景樹節點時的性能問題。"
 
 msgid "Performance problems with baking the actual navigation mesh."
 msgstr "烘焙實際導覽網格時的性能問題。"
@@ -48,10 +37,6 @@ msgid ""
 "fix or at least mitigate their impact on framerates."
 msgstr ""
 "在以下部分中可以找到有關如何識別和修復或至少減輕其對影格速率的影響的資訊。"
-
-#, fuzzy
-msgid "Performance problems with parsing scene tree nodes"
-msgstr "解析場景樹節點的性能問題"
 
 msgid ""
 "Prefer using simple shapes with as few edges as possible e.g. nothing "
@@ -140,31 +125,6 @@ msgstr ""
 "如果可能的話，在運作時烘焙導覽網格應該始終在後台執行緒中完成。即使是小尺寸的"
 "導覽網格物體的烘焙時間也可能比擠入單個影格所需的時間長得多，至少在影格率保持"
 "在可忍受的水平的情況下是如此。"
-
-#, fuzzy
-msgid ""
-"Complexity of source geometry data parsed from scene tree nodes has big "
-"impact on baking performance as everything needs to be mapped to a grid / "
-"voxels. For runtime baking performance the NavigationMesh cell size and cell "
-"height should be set as high as possible without causing navigation mesh "
-"quality problems for a game. If cell size or cell height is set too low the "
-"baking is forced to create an excessive amount of voxels to process the "
-"source geometry. If the source geometry spans over a very large game world "
-"it is even possible that the baking process runs out off memory in the "
-"middle and crashes the game. The partition type can also be lowered "
-"depending on how complex the games source geometry is to gain some "
-"performance. E.g. games with mostly flat surfaces with blocky geometry can "
-"get away with the monotone or layers mode that are a lot faster to bake (e."
-"g. because they require no distance field pass)."
-msgstr ""
-"從SceneTree節點解析的源幾何資料的複雜度對烘焙性能有很大的影響，因為所有的資料"
-"都需要對應到一個柵格/體素上。為了提高運作時的烘焙性能，NavigationMesh 的 "
-"cell size 和 cell height 應該盡可能地設定得高，但不要造成遊戲中導覽網格品質的"
-"問題。如果 cell size 或 cell height 設定得太低，烘焙過程就會被迫建立過多的體"
-"素來處理源幾何資料。如果源幾何資料覆蓋了一個非常大的遊戲世界，甚至有可能在烘"
-"焙過程中記憶體耗盡而導致遊戲當機。partition type 也可以根據遊戲中源幾何資料的"
-"複雜度來降低，以提高一些性能。例如，有大量平坦表面和塊狀幾何的遊戲可以使用單"
-"調或分層模式來烘焙，這些模式會快很多（例如，因為它們不需要距離場階段）。"
 
 msgid ""
 "Never scale source geometry with nodes. Not only can it result in a lot of "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "High-level multiplayer"
-msgstr "高レベルのマルチプレイヤー"
-
-#, fuzzy
-msgid "High-level vs low-level API"
-msgstr "高レベルAPIと低レベルAPI"
 
 msgid ""
 "The following explains the differences of high- and low-level networking in "
@@ -35,28 +22,6 @@ msgstr ""
 "基本事項について説明します。基本をとばして最初のノードにネットワークを追加す"
 "る場合は、以下の `Initializing the network`_ までスキップしてください。ただ"
 "し、後で残りも読んでください！"
-
-#, fuzzy
-msgid ""
-"Godot always supported standard low-level networking via :abbr:`UDP (User "
-"Datagram Protocol)`, :abbr:`TCP (Transmission Control Protocol)` and some "
-"higher-level protocols such as :abbr:`HTTP (Hypertext Transfer Protocol)` "
-"and :abbr:`SSL (Secure Sockets Layer)`. These protocols are flexible and can "
-"be used for almost anything. However, using them to synchronize game state "
-"manually can be a large amount of work. Sometimes that work can't be avoided "
-"or is worth it, for example when working with a custom server implementation "
-"on the backend. But in most cases, it's worthwhile to consider Godot's high-"
-"level networking API, which sacrifices some of the fine-grained control of "
-"low-level networking for greater ease of use."
-msgstr ""
-"Godotは、UDP、TCP、およびSSLやHTTPなどの一部の高レベルプロトコルを介した標準"
-"の低レベルネットワークを常にサポートしてきました。これらのプロトコルは柔軟性"
-"があり、ほとんどすべてに使用できます。ただし、ゲームの状態を手動で同期するた"
-"めにそれらを使用すると、多大な作業が必要になる場合があります。バックエンドで"
-"カスタムサーバー実装を使用する場合など、その作業を回避できない場合や、そうす"
-"るほうが価値がある場合があります。しかし、ほとんどの場合、使いやすさを高める"
-"ために低レベルネットワークのきめ細かな制御の一部を犠牲にしてでも、Godotの高レ"
-"ベルネットワークAPIを検討する価値があります。"
 
 msgid "This is due to the inherent limitations of the low-level protocols:"
 msgstr "これは、低レベルプロトコルの固有の制限によるものです:"
@@ -121,60 +86,6 @@ msgstr ""
 "のネットワークプロトコルの上に実装するか、または :ref:`SceneTree "
 "<class_SceneTree>`に基づいた高レベルAPIを使用するかです。これは、一般的に最適"
 "化された方法で、シーンの後ろで重い処理を引き受けます。"
-
-#, fuzzy
-msgid ""
-"Most of Godot's supported platforms offer all or most of the mentioned high- "
-"and low-level networking features. As networking is always largely hardware "
-"and operating system dependent, however, some features may change or not be "
-"available on some target platforms. Most notably, the HTML5 platform "
-"currently offers WebSockets and WebRTC support but lacks some of the higher-"
-"level features, as well as raw access to low-level protocols like TCP and "
-"UDP."
-msgstr ""
-"Godotがサポートするプラットフォームのほとんどは、言及された高レベルおよび低レ"
-"ベルのネットワーク機能のすべてまたはほとんどを提供します。ただし、ネットワー"
-"クは常にハードウェアとオペレーティングシステムに大きく依存しているため、一部"
-"のターゲットプラットフォームでは一部の機能が変更されたり利用できない場合があ"
-"ります。最も顕著ものとしてHTML5プラットフォームは、現在、WebSocketサポートの"
-"みを提供しており、TCPやUDPのような低レベルのプロトコルへの未加工のアクセスだ"
-"けでなく、より高いレベルの機能の一部も欠いています。"
-
-#, fuzzy
-msgid ""
-"More about TCP/IP, UDP, and networking: https://gafferongames.com/post/"
-"udp_vs_tcp/"
-msgstr ""
-"TCP/IP、UDP、およびネットワーキングの詳細: https://web.archive.org/"
-"web/20190406162102/https://gafferongames.com/post/udp_vs_tcp/"
-
-#, fuzzy
-msgid ""
-"Gaffer On Games has a lot of useful articles about networking in Games "
-"(`here <https://gafferongames.com/categories/game-networking/>`__), "
-"including the comprehensive `introduction to networking models in games "
-"<https://gafferongames.com/post/"
-"what_every_programmer_needs_to_know_about_game_networking/>`__."
-msgstr ""
-"Gaffer On Gamesには、ゲームのネットワーキングに関する便利な記事が多数あります"
-"(`こちら　https://web.archive.org/web/20190405204744/https://gafferongames."
-"com/tags/networking/>`__)、包括的な `ゲームのネットワークモデルの紹介 "
-"<http://web.archive.org/web/20190407004521/https://gafferongames.com/post/"
-"what_every_programmer_needs_to_know_about_game_networking/>`__。"
-
-#, fuzzy
-msgid ""
-"Adding networking to your game comes with some responsibility. It can make "
-"your application vulnerable if done wrong and may lead to cheats or "
-"exploits. It may even allow an attacker to compromise the machines your "
-"application runs on and use your servers to send spam, attack others or "
-"steal your users' data if they play your game."
-msgstr ""
-"ゲームにネットワークを追加するには、ある程度の責任が伴います。間違って実行す"
-"ると、アプリケーションが脆弱になり、チートや悪用につながる可能性があります。"
-"攻撃者がアプリケーションを実行しているマシンを危険にさらし、サーバーを使用し"
-"てスパムを送信したり、他のユーザーを攻撃したり、ユーザーがゲームをプレイして"
-"いる場合にユーザーデータを盗んだりすることもできます。"
 
 msgid ""
 "This is always the case when networking is involved and has nothing to do "
@@ -245,40 +156,6 @@ msgstr ""
 msgid "Hosting considerations"
 msgstr "ホスティング時の考慮事項"
 
-msgid ""
-"When hosting a server, clients on your :abbr:`LAN (Local Area Network)` can "
-"connect using the internal IP address which is usually of the form ``192.168."
-"*.*``. This internal IP address is **not** reachable by non-LAN/Internet "
-"clients."
-msgstr ""
-
-msgid ""
-"On Windows, you can find your internal IP address by opening a command "
-"prompt and entering ``ipconfig``. On macOS, open a Terminal and enter "
-"``ifconfig``. On Linux, open a terminal and enter ``ip addr``."
-msgstr ""
-
-msgid ""
-"If you're hosting a server on your own machine and want non-LAN clients to "
-"connect to it, you'll probably have to *forward* the server port on your "
-"router. This is required to make your server reachable from the Internet "
-"since most residential connections use a `NAT <https://en.wikipedia.org/wiki/"
-"Network_address_translation>`__. Godot's high-level multiplayer API only "
-"uses UDP, so you must forward the port in UDP, not just TCP."
-msgstr ""
-
-msgid ""
-"After forwarding a UDP port and making sure your server uses that port, you "
-"can use `this website <https://icanhazip.com/>`__ to find your public IP "
-"address. Then give this public IP address to any Internet clients that wish "
-"to connect to your server."
-msgstr ""
-
-msgid ""
-"Godot's high-level multiplayer API uses a modified version of ENet which "
-"allows for full IPv6 support."
-msgstr ""
-
 msgid "Initializing the network"
 msgstr "ネットワークの初期化"
 
@@ -289,263 +166,17 @@ msgstr ""
 "Godotの高レベルのネットワーキングは :ref:`SceneTree <class_SceneTree>` によっ"
 "て管理されます。"
 
-msgid ""
-"Each node has a ``multiplayer`` property, which is a reference to the "
-"``MultiplayerAPI`` instance configured for it by the scene tree. Initially, "
-"every node is configured with the same default ``MultiplayerAPI`` object."
-msgstr ""
-
-msgid ""
-"It is possible to create a new ``MultiplayerAPI`` object and assign it to a "
-"``NodePath`` in the the scene tree, which will override ``multiplayer`` for "
-"the node at that path and all of its descendants. This allows sibling nodes "
-"to be configured with different peers, which makes it possible to run a "
-"server and a client simultaneously in one instance of Godot."
-msgstr ""
-
-msgid ""
-"To initialize networking, a ``MultiplayerPeer`` object must be created, "
-"initialized as a server or client, and passed to the ``MultiplayerAPI``."
-msgstr ""
-
-#, fuzzy
-msgid "To terminate networking:"
-msgstr "ネットワーク機能の終了:"
-
-msgid ""
-"When exporting to Android, make sure to enable the ``INTERNET`` permission "
-"in the Android export preset before exporting the project or using one-click "
-"deploy. Otherwise, network communication of any kind will be blocked by "
-"Android."
-msgstr ""
-
 msgid "Managing connections"
 msgstr "接続の管理"
-
-msgid ""
-"Every peer is assigned a unique ID. The server's ID is always 1, and clients "
-"are assigned a random positive integer."
-msgstr ""
-
-msgid ""
-"Responding to connections or disconnections is possible by connecting to "
-"``MultiplayerAPI``'s signals:"
-msgstr ""
-
-msgid ""
-"``peer_connected(id: int)`` This signal is emitted with the newly connected "
-"peer's ID on each other peer, and on the new peer multiple times, once with "
-"each other peer's ID."
-msgstr ""
-
-msgid ""
-"``peer_disconnected(id: int)`` This signal is emitted on every remaining "
-"peer when one disconnects."
-msgstr ""
-
-#, fuzzy
-msgid "The rest are only emitted on clients:"
-msgstr "次の注意事項があります:"
-
-#, fuzzy
-msgid "``connected_to_server()``"
-msgstr "``connected_to_server``"
-
-#, fuzzy
-msgid "``connection_failed()``"
-msgstr "``connection_failed``"
-
-#, fuzzy
-msgid "``server_disconnected()``"
-msgstr "``server_disconnected``"
-
-msgid "To get the unique ID of the associated peer:"
-msgstr ""
-
-#, fuzzy
-msgid "To check whether the peer is server or client:"
-msgstr ""
-"ツリーがサーバーまたはクライアントとして初期化されているかどうかを確認します:"
-
-#, fuzzy
-msgid "Remote procedure calls"
-msgstr "手続き型テクスチャの作成。"
-
-msgid ""
-"Remote procedure calls, or RPCs, are functions that can be called on other "
-"peers. To create one, use the ``@rpc`` annotation before a function "
-"definition. To call an RPC, use ``Callable``'s method ``rpc()`` to call in "
-"every peer, or ``rpc_id()`` to call in a specific peer."
-msgstr ""
-
-msgid "RPCs will not serialize objects or callables."
-msgstr ""
-
-msgid ""
-"For a remote call to be successful, the sending and receiving node need to "
-"have the same ``NodePath``, which means they must have the same name. When "
-"using ``add_child()`` for nodes which are expected to use RPCs, set the "
-"argument ``force_readable_name`` to ``true``."
-msgstr ""
-
-msgid ""
-"If a function is annotated with ``@rpc`` on the client script (resp. server "
-"script), then this function must also be declared on the server script "
-"(resp. client script). Both RPCs must have the same signature which is "
-"evaluated with a checksum of **all RPCs**. All RPCs in a script are checked "
-"at once, and all RPCs must be declared on both the client scripts and the "
-"server scripts, **even functions that are currently not in use**."
-msgstr ""
-
-msgid ""
-"The signature of the RPC includes the ``@rpc()`` declaration, the function, "
-"return type, AND the nodepath. If an RPC resides in a script attached to ``/"
-"root/Main/Node1``, then it must reside in precisely the same path and node "
-"on both the client script and the server script. Function arguments "
-"(example: ``func sendstuff():`` and ``func sendstuff(arg1, arg2):`` **will "
-"pass** signature matching)."
-msgstr ""
-
-msgid ""
-"If these conditions are not met (if all RPCs do not pass signature "
-"matching), the script may print an error or cause unwanted behavior. The "
-"error message may be unrelated to the RPC function you are currently "
-"building and testing."
-msgstr ""
-
-msgid ""
-"See further explanation and troubleshooting on `this post <https://github."
-"com/godotengine/godot/issues/57869#issuecomment-1034215138>`__."
-msgstr ""
-
-msgid ""
-"The annotation can take a number of arguments, which have default values. "
-"``@rpc`` is equivalent to:"
-msgstr ""
-
-#, fuzzy
-msgid "The parameters and their functions are as follows:"
-msgstr "最も一般的な使用例は次のとおりです:"
 
 msgid "``mode``:"
 msgstr "``mode``\\ :"
 
-msgid ""
-"``\"authority\"``: Only the multiplayer authority (the server) can call "
-"remotely."
-msgstr ""
-
-msgid ""
-"``\"any_peer\"``: Clients are allowed to call remotely. Useful for "
-"transferring user input."
-msgstr ""
-
 msgid "``sync``:"
 msgstr "``sync``\\ :"
 
-msgid "``\"call_remote\"``: The function will not be called on the local peer."
-msgstr ""
-
-msgid ""
-"``\"call_local\"``: The function can be called on the local peer. Useful "
-"when the server is also a player."
-msgstr ""
-
 msgid "``transfer_mode``:"
 msgstr "``transfer_mode``\\ :"
-
-msgid ""
-"``\"unreliable\"`` Packets are not acknowledged, can be lost, and can arrive "
-"at any order."
-msgstr ""
-
-msgid ""
-"``\"unreliable_ordered\"`` Packets are received in the order they were sent "
-"in. This is achieved by ignoring packets that arrive later if another that "
-"was sent after them has already been received. Can cause packet loss if used "
-"incorrectly."
-msgstr ""
-
-msgid ""
-"``\"reliable\"`` Resend attempts are sent until packets are acknowledged, "
-"and their order is preserved. Has a significant performance penalty."
-msgstr ""
-
-msgid "``transfer_channel`` is the channel index."
-msgstr ""
-
-msgid ""
-"The first 3 can be passed in any order, but ``transfer_channel`` must always "
-"be last."
-msgstr ""
-
-msgid ""
-"The function ``multiplayer.get_remote_sender_id()`` can be used to get the "
-"unique id of an rpc sender, when used within the function called by rpc."
-msgstr ""
-
-#, fuzzy
-msgid "Channels"
-msgstr "\\ iChanneli"
-
-msgid ""
-"Modern networking protocols support channels, which are separate connections "
-"within the connection. This allows for multiple streams of packets that do "
-"not interfere with each other."
-msgstr ""
-
-msgid ""
-"For example, game chat related messages and some of the core gameplay "
-"messages should all be sent reliably, but a gameplay message should not wait "
-"for a chat message to be acknowledged. This can be achieved by using "
-"different channels."
-msgstr ""
-
-msgid ""
-"Channels are also useful when used with the unreliable ordered transfer "
-"mode. Sending packets of variable size with this transfer mode can cause "
-"packet loss, since packets which are slower to arrive are ignored. "
-"Separating them into multiple streams of homogeneous packets by using "
-"channels allows ordered transfer with little packet loss, and without the "
-"latency penalty caused by reliable mode."
-msgstr ""
-
-msgid ""
-"The default channel with index 0 is actually three different channels - one "
-"for each transfer mode."
-msgstr ""
-
-#, fuzzy
-msgid "Example lobby implementation"
-msgstr "実装"
-
-msgid ""
-"This is an example lobby that can handle peers joining and leaving, notify "
-"UI scenes through signals, and start the game after all clients have loaded "
-"the game scene."
-msgstr ""
-
-msgid ""
-"The game scene's root node should be named Game. In the script attached to "
-"it:"
-msgstr ""
-
-#, fuzzy
-msgid "Exporting for dedicated servers"
-msgstr "Webのエクスポート"
-
-msgid ""
-"Once you've made a multiplayer game, you may want to export it to run it on "
-"a dedicated server with no GPU available. See :ref:"
-"`doc_exporting_for_dedicated_servers` for more information."
-msgstr ""
-
-msgid ""
-"The code samples on this page aren't designed to run on a dedicated server. "
-"You'll have to modify them so the server isn't considered to be a player. "
-"You'll also have to modify the game starting mechanism so that the first "
-"player who joins can start the game."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

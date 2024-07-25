@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,55 +166,76 @@ msgstr ""
 "``godot.linuxbsd.editor.dev.x86_64`` für die 64-bit LinuxBSD Plattform mit "
 "``target=editor`` und ``dev_build=yes``."
 
-#, fuzzy
 msgid "Configuring Intellisense"
-msgstr "Konfigurieren des Starts"
+msgstr "Konfigurieren von Intellisense"
 
 msgid "For the C/C++ extension:"
-msgstr ""
+msgstr "Für die C/C++-Erweiterung:"
 
 msgid ""
 "To fix include errors you may be having, you need to configure some settings "
 "in the ``c_cpp_properties.json`` file."
 msgstr ""
+"Um mögliche Include-Fehler zu beheben, müssen Sie einige Einstellungen in "
+"der Datei ``c_cpp_properties.json`` vornehmen."
 
 msgid ""
 "First, make sure to build the project since some files need to be generated."
 msgstr ""
+"Stellen Sie zunächst sicher, dass Sie das Projekt bauen, da einige Dateien "
+"generiert werden müssen."
 
 msgid "Edit the C/C++ Configuration file either with the UI or with text:"
 msgstr ""
+"Bearbeiten Sie die C/C++-Konfigurationsdatei entweder mit der "
+"Benutzeroberfläche oder mit Text:"
 
 msgid ""
 "Add an include path for your platform, for example, ``${workspaceFolder}/"
 "platform/windows``."
 msgstr ""
+"Fügen Sie einen Include-Pfad für Ihre Plattform hinzu, zum Beispiel "
+"``${workspaceFolder}/platform/windows``."
 
 msgid ""
 "Add defines for the editor ``TOOLS_ENABLED``, debug builds "
 "``DEBUG_ENABLED``, and tests ``TESTS_ENABLED``."
 msgstr ""
+"Definitionen für den Editor ``TOOLS_ENABLED``, Debug-Builds "
+"``DEBUG_ENABLED`` und Tests ``TESTS_ENABLED`` hinzufügen."
 
 msgid ""
 "Make sure the compiler path is configured correctly to the compiler you are "
 "using. See :ref:`doc_introduction_to_the_buildsystem` for further "
 "information on your platform."
 msgstr ""
+"Stellen Sie sicher, dass der Compilerpfad für den von Ihnen verwendeten "
+"Compiler korrekt konfiguriert ist. Siehe :ref:"
+"`doc_introduction_to_the_buildsystem` für weitere Informationen zu Ihrer "
+"Plattform."
 
 msgid ""
 "The ``c_cpp_properties.json`` file should look similar to this for Windows:"
 msgstr ""
+"Die Datei ``c_cpp_properties.json`` sollte unter Windows ähnlich wie diese "
+"aussehen:"
 
 msgid ""
 "Alternatively, you can use the scons argument ``compiledb=yes`` and set the "
 "compile commands setting ``compileCommands`` to ``compile_commands.json``, "
 "found in the advanced section of the C/C++ Configuration UI."
 msgstr ""
+"Alternativ können Sie das scons-Argument ``compiledb=yes`` verwenden und die "
+"Kompilierbefehle mit ``compileCommands`` auf ``compile_commands.json`` "
+"setzen, zu finden in der erweiterten Sektion der C/C++ Configuration UI."
 
 msgid ""
 "This argument can be added to your build task in ``tasks.json`` since it "
 "will need to be run whenever files are added or moved."
 msgstr ""
+"Dieses Argument kann zu Ihrem Build-Task in ``tasks.json`` hinzugefügt "
+"werden, da es immer dann ausgeführt werden muss, wenn Dateien hinzugefügt "
+"oder verschoben werden."
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

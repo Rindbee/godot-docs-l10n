@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,22 +69,6 @@ msgstr ""
 "предварительно загрузить «загрузочные» операции и избежать загрузки ресурсов "
 "в середине кода, чувствительного к производительности."
 
-#, fuzzy
-msgid ""
-"Its counterpart, the :ref:`load <class_@GDScript_method_load>` method, loads "
-"a resource only when it reaches the load statement. That is, it will load a "
-"resource in-place which can cause slowdowns when it occurs in the middle of "
-"sensitive processes. The ``load()`` function is also an alias for :ref:"
-"`ResourceLoader.load(path) <class_ResourceLoader_method_load>` which is "
-"accessible to *all* scripting languages."
-msgstr ""
-"Его аналог, метод :ref:`load <class_ @ GDScript_method_load>`, загружает "
-"ресурс только тогда, когда он достигает оператора load. То есть он загрузит "
-"ресурс на месте, что может вызвать замедление, когда это произойдет в "
-"середине важных процессов. Функция ``load`` также является псевдонимом для :"
-"ref:`ResourceLoader.load(path) <class_ResourceLoader_method_load>`, который "
-"доступен для *всех* языков сценариев."
-
 msgid ""
 "So, when exactly does preloading occur versus loading, and when should one "
 "use either? Let's see an example:"
@@ -140,36 +119,6 @@ msgstr ""
 "лучшим способом действий. Однако в исключительных случаях одно мое желание "
 "не делать этого:"
 
-#, fuzzy
-msgid ""
-"If the 'imported' class is liable to change, then it should be a property "
-"instead, initialized either using an ``export`` or a ``load()`` (and perhaps "
-"not even initialized until later)."
-msgstr ""
-"Если 'импортированный' класс подлежит изменению, то вместо этого он должен "
-"быть свойством, инициализированным либо с помощью ``export``, либо ``load`` "
-"(и, возможно, даже не инициализированного позже)."
-
-#, fuzzy
-msgid ""
-"If the script requires a great many dependencies, and one does not wish to "
-"consume so much memory, then one may wish to, load and unload various "
-"dependencies at runtime as circumstances change. If one preloads resources "
-"into constants, then the only way to unload these resources would be to "
-"unload the entire script. If they are instead loaded properties, then one "
-"can set them to ``null`` and remove all references to the resource entirely "
-"(which, as a :ref:`RefCounted <class_RefCounted>`-extending type, will cause "
-"the resources to delete themselves from memory)."
-msgstr ""
-"Если для сценария требуется очень много зависимостей, и кто-то не желает "
-"расходовать так много памяти, то может потребоваться загружать и выгружать "
-"различные зависимости во время выполнения по мере изменения обстоятельств. "
-"Если предварительно загрузить ресурсы в константы, то единственный способ "
-"выгрузить эти ресурсы — это выгрузить весь сценарий. Если вместо этого они "
-"загружают свойства, то можно установить для них значение `` null `` и "
-"полностью удалить все ссылки на ресурс (что, как расширяющийся тип :ref:"
-"`Reference <class_Reference>`, приведет к самоудалению ресурсов из памяти)."
-
 msgid "Large levels: static vs. dynamic"
 msgstr "Большие уровни: статические против динамических"
 
@@ -182,16 +131,6 @@ msgstr ""
 "самыми подходящими? Должны ли они создавать уровень как одно статичное "
 "пространство? Или они должны загружать уровень по частям и перемещать "
 "содержимое мира по мере необходимости?"
-
-#, fuzzy
-msgid ""
-"Well, the simple answer is, \"when the performance requires it.\" The "
-"dilemma associated with the two options is one of the age-old programming "
-"choices: does one optimize memory over speed, or vice versa?"
-msgstr ""
-"Что ж, простой ответ: «когда этого требует производительность». Дилемма, "
-"связанная с этими двумя вариантами, является одним из старых вопросов "
-"программирования: оптимизировать ли память вместо скорости или наоборот?"
 
 msgid ""
 "The naive answer is to use a static level that loads everything at once. "

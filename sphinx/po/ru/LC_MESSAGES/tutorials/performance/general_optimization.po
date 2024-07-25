@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "General optimization tips"
-msgstr "Анимация"
 
 msgid "Introduction"
 msgstr "Введение"
@@ -55,10 +46,6 @@ msgstr "Работайте разумнее."
 
 msgid "And preferably, we will use a blend of the two."
 msgstr "И желательно, мы будем использовать смесь этих двух."
-
-#, fuzzy
-msgid "Smoke and mirrors"
-msgstr "Узлы и Ресурсы"
 
 msgid ""
 "Part of working smarter is recognizing that, in games, we can often get the "
@@ -108,10 +95,6 @@ msgstr ""
 msgid "Each of these are annoying to the user, but in different ways."
 msgstr "Каждый из них раздражает пользователя, но по-разному."
 
-#, fuzzy
-msgid "Measuring performance"
-msgstr "Производительность"
-
 msgid ""
 "Probably the most important tool for optimization is the ability to measure "
 "performance - to identify where bottlenecks are, and to measure the success "
@@ -127,34 +110,6 @@ msgstr ""
 
 msgid "Putting a start/stop timer around code of interest."
 msgstr "Размещение таймера запуска/остановки вокруг интересующего кода."
-
-#, fuzzy
-msgid "Using the :ref:`Godot profiler <doc_the_profiler>`."
-msgstr "Использование Godot-профайлера."
-
-msgid "Using :ref:`external CPU profilers <doc_using_cpp_profilers>`."
-msgstr ""
-
-msgid ""
-"Using external GPU profilers/debuggers such as `NVIDIA Nsight Graphics "
-"<https://developer.nvidia.com/nsight-graphics>`__, `Radeon GPU Profiler "
-"<https://gpuopen.com/rgp/>`__ or `Intel Graphics Performance Analyzers "
-"<https://www.intel.com/content/www/us/en/developer/tools/graphics-"
-"performance-analyzers/overview.html>`__."
-msgstr ""
-
-msgid ""
-"Checking the frame rate (with V-Sync disabled). Third-party utilities such "
-"as `RivaTuner Statistics Server <https://www.guru3d.com/files-details/rtss-"
-"rivatuner-statistics-server-download.html>`__ (Windows) or `MangoHud "
-"<https://github.com/flightlessmango/MangoHud>`__ (Linux) can also be useful "
-"here."
-msgstr ""
-
-msgid ""
-"Using an unofficial `debug menu add-on <https://github.com/godot-extended-"
-"libraries/godot-debug-menu>`__."
-msgstr ""
 
 msgid ""
 "Be very aware that the relative performance of different areas can vary on "
@@ -225,10 +180,6 @@ msgstr ""
 "производительности, так и с точки зрения исправления ошибок). Сюда можно "
 "отнести проверку гипотез и двоичный поиск."
 
-#, fuzzy
-msgid "Hypothesis testing"
-msgstr "Тестируемые"
-
 msgid ""
 "Say, for example, that you believe sprites are slowing down your game. You "
 "can test this hypothesis by:"
@@ -277,10 +228,6 @@ msgstr ""
 "можете повторять этот процесс до тех пор, пока не определите проблемную "
 "область."
 
-#, fuzzy
-msgid "Profilers"
-msgstr "Профайлер"
-
 msgid ""
 "Profilers allow you to time your program while running it. Profilers then "
 "provide results telling you what percentage of time was spent in different "
@@ -302,14 +249,6 @@ msgstr ""
 "производительность могут дать обратный эффект и привести к снижению "
 "производительности. **Всегда используйте профилирование и хронометраж, чтобы "
 "направлять свои усилия.**"
-
-#, fuzzy
-msgid ""
-"For more info about using Godot's built-in profiler, see :ref:"
-"`doc_the_profiler`."
-msgstr ""
-"Для получения дополнительной информации о самих событиях ввода посмотрите "
-"руководство :ref:`Input Event Tutorial<doc_inputevent>`."
 
 msgid "Principles"
 msgstr "Принципы"
@@ -374,10 +313,6 @@ msgstr ""
 "нежелательна, производительное программное обеспечение является результатом "
 "производительного проектирования."
 
-#, fuzzy
-msgid "Performant design"
-msgstr "Производительность"
-
 msgid ""
 "The danger with encouraging people to ignore optimization until necessary, "
 "is that it conveniently ignores that the most important time to consider "
@@ -440,10 +375,6 @@ msgstr ""
 "способностью памяти. Это привело к возрождению дизайна, ориентированного на "
 "данные, который включает проектирование структур данных и алгоритмов для "
 "*локальности кэша* данных и линейного доступа, а не прыжков по памяти."
-
-#, fuzzy
-msgid "The optimization process"
-msgstr "Анимация"
 
 msgid ""
 "Assuming we have a reasonable design, and taking our lessons from Knuth, our "

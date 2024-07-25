@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,12 +102,12 @@ msgstr ""
 msgid ":ref:`RID<class_rid>`"
 msgstr ":ref:`RID <class_RID>`"
 
-#, fuzzy
 msgid ""
 "`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
 "templates/rid.h>`__"
 msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/3.x/core/rid.h>`__"
+"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
+"templates/rid.h>`__"
 
 msgid "Registering the class in GDScript"
 msgstr "在 GDScript 中注册类"
@@ -185,13 +180,12 @@ msgstr ""
 msgid "References:"
 msgstr "参考："
 
-#, fuzzy
 msgid ""
 "`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
 "master/core/object/message_queue.cpp>`__"
 msgstr ""
-"`core/message_queue.cpp <https://github.com/godotengine/godot/blob/3.x/core/"
-"message_queue.cpp>`__"
+"`core/object/message_queue.cpp <https://github.com/godotengine/godot/blob/"
+"master/core/object/message_queue.cpp>`__"
 
 msgid "Summing it up"
 msgstr "总结"

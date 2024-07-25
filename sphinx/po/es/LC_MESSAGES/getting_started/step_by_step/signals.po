@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,15 +51,6 @@ msgstr ""
 "señales."
 
 msgid ""
-"As mentioned in the introduction, signals are Godot's version of the "
-"observer pattern. You can learn more about it here: https://"
-"gameprogrammingpatterns.com/observer.html"
-msgstr ""
-"Como se mencionó en la introducción, las señales son la versión de Godot del "
-"patrón observador. Puede obtener más información al respecto aquí: https://"
-"gameprogrammingpatterns.com/observer.htm"
-
-msgid ""
 "We will now use a signal to make our Godot icon from the previous lesson (:"
 "ref:`doc_scripting_player_input`) move and stop by pressing a button."
 msgstr ""
@@ -98,16 +84,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "Configuración de la escena"
-
-#, fuzzy
-msgid ""
-"To add a button to our game, we will create a new scene which will include "
-"both a :ref:`Button <class_button>` and the ``sprite_2d.tscn`` scene we "
-"created in the :ref:`doc_scripting_first_script` lesson."
-msgstr ""
-"Para agregar un botón a nuestro juego, crearemos una nueva escena principal "
-"que incluirá tanto un :ref:`Button <class_button>`como la escena ``sprite_2d."
-"tscn`` que escribimos en la lección :ref:`doc_scripting_first_script`."
 
 msgid "Create a new scene by going to the menu Scene -> New Scene."
 msgstr "Cree una nueva escena yendo al menú Escenas -> Nueva escena."
@@ -242,6 +218,9 @@ msgid ""
 "generation might not work. In this case you need to to connect the signal "
 "via code as explained in the next section."
 msgstr ""
+"Si estás utilizando un editor externo (como VS Code), es posible que no "
+"funcione la generación automática de código. En este caso, necesitas "
+"conectar la señal mediante código como se explica en la siguiente sección."
 
 msgid ""
 "Click the Connect button to complete the signal connection and jump to the "
@@ -441,14 +420,6 @@ msgstr ""
 "La propiedad ``visible``es un boolean que controla la visibilidad de nuestro "
 "nodo. La línea ``visible = not visible``alterna el valor. Si ``visible`` es "
 "``true``, se vuelve ``false``, y vice-versa."
-
-#, fuzzy
-msgid ""
-"If you run the Node2D scene now, you will see that the sprite blinks on and "
-"off, at one second intervals."
-msgstr ""
-"Si ejecuta la escena ahora, verá que el sprite se enciende y se apaga, a "
-"intervalos de un segundo."
 
 msgid "Complete script"
 msgstr "Script completo"

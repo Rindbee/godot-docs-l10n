@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,19 +163,6 @@ msgid ""
 msgstr ""
 "雖然使用 Forward Plus 或 Forward Mobile 後端時，算繪仍然會以 3D HDR 形式進"
 "行，但視口無法再返回 HDR 資料。 計畫在未來某個時候恢復這一功能。"
-
-#, fuzzy
-msgid ""
-"Mono was replaced by .NET 6. This means exporting C# projects to Android, "
-"iOS and HTML5 is no longer supported for now. Exporting C# projects to "
-"desktop platforms is still supported, and as of 4.2 there's experimental "
-"support for exporting to mobile platforms. Support for exporting C# projects "
-"to more platforms will be restored in future 4.x releases as upstream "
-"support improves."
-msgstr ""
-"Mono 被替換為 .Net 6。這意味著現在不支援匯出 C# 專案到 Android，iOS 和 "
-"HTML5。匯出 C# 專案到桌面平臺依然是支援的。隨著上游支援的改進，將 C# 專案匯出"
-"到更多平臺的支援將在未來的 4.x 版本中恢復。"
 
 msgid ""
 "You can find a more complete list of functional regressions by searching for "
@@ -1186,10 +1168,6 @@ msgstr "紋理篩選和重複模式現在在單獨的 uniform 上設定，而不
 msgid "``hint_albedo`` is now ``source_color``."
 msgstr "``hint_albedo`` 現在是 ``source_color``。"
 
-#, fuzzy
-msgid "``hint_color`` is now ``source_color``."
-msgstr "``hint_albedo`` 現在是 ``source_color``。"
-
 msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"
 msgstr ":ref:`doc_spatial_shader`"
 
@@ -1356,12 +1334,6 @@ msgstr ""
 ":ref:`class_AnimatedSprite2D` 和 :ref:`class_AnimatedSprite3D` 的 "
 "``playing`` 屬性現在已經被移除。請使用 ``play()``/``stop()`` 方法來代替或者通"
 "過 SpriteFrames 底部面板配置 ``autoplay`` 動畫（但不能同時使用這兩種方法）。"
-
-msgid ""
-":ref:`class_Array`'s ``slice()`` second parameter (``end``) is now "
-"*exclusive*, instead of being inclusive. For example, this means that ``[1, "
-"2, 3].slice(0, 1)`` now returns ``[1]`` instead of ``[1, 2]``."
-msgstr ""
 
 msgid ""
 ":ref:`class_BaseButton`'s signals are now ``button_up`` and ``button_down``. "

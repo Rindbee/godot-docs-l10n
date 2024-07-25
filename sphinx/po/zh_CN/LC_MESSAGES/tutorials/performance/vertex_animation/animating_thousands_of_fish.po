@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,17 +25,6 @@ msgstr ""
 "Art-of-ABZ>`_ 中使用的一种技术, 该技术使用顶点动画和静态网格实例, 来渲染和制"
 "作成千上万的鱼动画."
 
-#, fuzzy
-msgid ""
-"In Godot, this can be accomplished with a custom :ref:`Shader "
-"<class_Shader>` and a :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>`. Using the following technique you can render "
-"thousands of animated objects, even on low end hardware."
-msgstr ""
-"在 Godot 中，这可以通过自定义 :ref:`Shader <class_Shader>` 和 :ref:"
-"`MultiMeshInstance <class_MultiMeshInstance>` 实现。使用下面的技术，即使是在"
-"低端硬件上你也可以渲染成千上万的动画对象。"
-
 msgid ""
 "We will start by animating one fish. Then, we will see how to extend that "
 "animation to thousands of fish."
@@ -49,44 +33,10 @@ msgstr "我们将从一条鱼的动画开始. 然后, 我们将看到如何将�
 msgid "Animating one Fish"
 msgstr "动画化一条鱼"
 
-#, fuzzy
-msgid ""
-"We will start with a single fish. Load your fish model into a :ref:"
-"`MeshInstance3D <class_MeshInstance3D>` and add a new :ref:`ShaderMaterial "
-"<class_ShaderMaterial>`."
-msgstr ""
-"单击下面的材质 :ref:`Plane Mesh <class_MeshInstance>` 菜单并创建一个新的 :"
-"ref:`ShaderMaterial <class_ShaderMaterial>`."
-
 msgid ""
 "Here is the fish we will be using for the example images, you can use any "
 "fish model you like."
 msgstr "这是我们用于示例图像的鱼, 你可以使用任何你喜欢的鱼模型."
-
-#, fuzzy
-msgid ""
-"The fish model in this tutorial is made by `QuaterniusDev <https://"
-"quaternius.com>`_ and is shared with a creative commons license. CC0 1.0 "
-"Universal (CC0 1.0) Public Domain Dedication https://creativecommons.org/"
-"publicdomain/zero/1.0/"
-msgstr ""
-"本教程中的鱼模型由 `QuaterniusDev<http://quaternius.com>` 制作, 使用如下知识"
-"共享许可.CC0 1.0通用(CC0 1.0)公共领域贡献https://creativecommons.org/"
-"publicdomain/zero/1.0/"
-
-#, fuzzy
-msgid ""
-"Typically, you would use bones and a :ref:`Skeleton3D <class_Skeleton3D>` to "
-"animate objects. However, bones are animated on the CPU and so you end "
-"having to calculate thousands of operations every frame and it becomes "
-"impossible to have thousands of objects. Using vertex animation in a vertex "
-"shader, you avoid using bones and can instead calculate the full animation "
-"in a few lines of code and completely on the GPU."
-msgstr ""
-"通常情况下，您将使用骨骼和 :ref:`Skeleton <class_Skeleton>` 为对象做动画。然"
-"而，骨骼的动画是在 CPU 上做的，所以你必须为每一帧计算成千上万的操作，因此就不"
-"可能有成千上万的对象。在顶点着色器中使用顶点动画，你就可以避免使用骨骼，而是"
-"完全在 GPU 上，使用几行代码来计算完整的动画。"
 
 msgid "The animation will be made of four key motions:"
 msgstr "动画由四个关键帧动作组成:"
@@ -261,31 +211,6 @@ msgstr ""
 msgid "Making a school of fish"
 msgstr "制作一群鱼"
 
-#, fuzzy
-msgid ""
-"Godot makes it easy to render thousands of the same object using a "
-"MultiMeshInstance3D node."
-msgstr "Godot 可以使用 MultiMeshInstance 节点轻松渲染成千上万的相同对象。"
-
-#, fuzzy
-msgid ""
-"A MultiMeshInstance3D node is created and used the same way you would make a "
-"MeshInstance3D node. For this tutorial, we will name the MultiMeshInstance3D "
-"node ``School``, because it will contain a school of fish."
-msgstr ""
-"MultiMeshInstance 节点的创建和使用与 MeshInstance 节点相同。在本教程中，我们"
-"将把 MultiMeshInstance 节点命名为 ``School``\\ （鱼群），因为里面会有一群鱼。"
-
-#, fuzzy
-msgid ""
-"Once you have a MultiMeshInstance3D add a :ref:`MultiMesh "
-"<class_MultiMesh>`, and to that MultiMesh add your :ref:`Mesh <class_Mesh>` "
-"with the shader from above."
-msgstr ""
-"有了 MultiMeshInstance 之后就再添加一个 :ref:`MultiMesh "
-"<class_MultiMesh>`\\ ，然后在 MultiMesh 上添加使用上述着色器的 :ref:`Mesh "
-"<class_Mesh>`。"
-
 msgid ""
 "MultiMeshes draw your Mesh with three additional per-instance properties: "
 "Transform (rotation, translation, scale), Color, and Custom. Custom is used "
@@ -333,15 +258,6 @@ msgstr "现在，将 ``instance_count`` 设置为你想要的鱼的数量。"
 msgid "Next we need to set the per-instance transforms."
 msgstr "接下来, 我们需要设置每个实例的变换."
 
-#, fuzzy
-msgid ""
-"There are two ways to set per-instance transforms for MultiMeshes. The first "
-"is entirely in editor and is described in the :ref:`MultiMeshInstance3D "
-"tutorial <doc_using_multi_mesh_instance>`."
-msgstr ""
-"有两种方法可以为多个时间轴设置每个实例的变换。第一个完全在编辑器中，在 :ref:"
-"`MultiMeshInstance tutorial <doc_using_multi_mesh_instance>` 中进行了描述。"
-
 msgid ""
 "The second is to loop over all the instances and set their transforms in "
 "code. Below, we use GDScript to loop over all the instances and set their "
@@ -349,17 +265,6 @@ msgid ""
 msgstr ""
 "第二种方法是, 遍历所有实例, 并在代码中设置它们的变换. 下面, 我们使用GDScript"
 "遍历所有实例, 并将它们的变换设置为随机位置."
-
-#, fuzzy
-msgid ""
-"Running this script will place the fish in random positions in a box around "
-"the position of the MultiMeshInstance3D."
-msgstr "运行此脚本, 会在多重网格实例位置周围的框中随机放置鱼."
-
-#, fuzzy
-msgid ""
-"If performance is an issue for you, try running the scene with fewer fish."
-msgstr "如果你关注性能问题, 试着使用GLES2运行场景或摆放更少的鱼."
 
 msgid ""
 "Notice how all the fish are all in the same position in their swim cycle? It "
@@ -408,27 +313,6 @@ msgid ""
 "You can even experiment with changing the per-instance color the same way "
 "you changed the per-instance custom value."
 msgstr "甚至你还可以像更改每个实例的自定义值一样, 尝试更改每个实例的颜色."
-
-#, fuzzy
-msgid ""
-"One problem that you will run into at this point is that the fish are "
-"animated, but they are not moving. You can move them by updating the per-"
-"instance transform for each fish every frame. Although doing so will be "
-"faster than moving thousands of MeshInstance3Ds per frame, it'll still "
-"likely be slow."
-msgstr ""
-"这时你会遇到一个问题, 那就是鱼是有动画的, 但是它们没有移动. 你可以通过每一帧"
-"更新每个鱼的实例变换来移动它们. 虽然这样做会比每帧移动数千个MeshInstances要"
-"快, 但还是可能会很慢."
-
-#, fuzzy
-msgid ""
-"In the next tutorial we will cover how to use :ref:`GPUParticles3D "
-"<class_GPUParticles3D>` to take advantage of the GPU and move each fish "
-"around individually while still receiving the benefits of instancing."
-msgstr ""
-"下一个教程中，我们将介绍如何使用\\ :ref:`粒子 <class_Particles>`\\ 来利用 "
-"GPU，分别移动每条鱼，同时还能获得实例化的好处。"
 
 msgid "Translation status"
 msgstr "翻译状态"

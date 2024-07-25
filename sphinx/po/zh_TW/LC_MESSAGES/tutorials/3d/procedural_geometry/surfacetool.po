@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,18 +14,6 @@ msgstr ""
 
 msgid "Using the SurfaceTool"
 msgstr "使用 SurfaceTool"
-
-#, fuzzy
-msgid ""
-"The :ref:`SurfaceTool <class_surfacetool>` provides a useful interface for "
-"constructing geometry. The interface is similar to the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>` class. You set each per-vertex attribute (e.g. "
-"normal, uv, color) and then when you add a vertex it captures the attributes."
-msgstr ""
-":ref:`SurfaceTool <class_surfacetool>` 提供了一個有用的介面來建構幾何體。這個"
-"介面類別似於 :ref:`ImmediateGeometry <class_immediategeometry>` 節點。你設定"
-"每個頂點的屬性（例如法線、uv、顏色），然後當你新增一個頂點時，它就會捕捉到這"
-"些屬性。"
 
 msgid ""
 "The SurfaceTool also provides some useful helper functions like ``index()`` "

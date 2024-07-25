@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,16 +95,6 @@ msgstr ""
 "이 클래스는 몇 가지 중요한 용도로 쓰이기 때문에 이 클래스가 존재한다는 것을 "
 "아는 것이 중요합니다:"
 
-#, fuzzy
-msgid ""
-"It contains the root :ref:`Viewport <class_Viewport>`, to which a scene is "
-"added as a child when it's first opened to become part of the *Scene Tree* "
-"(more on that next)."
-msgstr ""
-"루트 노드로 :ref:`Viewport <class_Viewport>`\\ 가 포함되어 있으며, *씬 트리"
-"*\\ 에 자식으로 추가되어서 씬 트리의 일부가 됩니다(자세한 내용은 다음에 설"
-"명)."
-
 msgid ""
 "It contains information about the groups and has the means to call all nodes "
 "in a group or get a list of them."
@@ -191,116 +176,14 @@ msgstr ""
 msgid "Tree order"
 msgstr "트리 순서"
 
-msgid ""
-"Most node operations in Godot, such as drawing 2D, processing, or getting "
-"notifications are done in *tree order*, or top to bottom as seen in the "
-"editor (also known as pre-order traversal):"
-msgstr ""
-
-msgid ""
-"For example, the top node in a scene has its ``_process()`` function called "
-"first, then the node below it has its ``_process()`` function called, then "
-"the node below that and so on."
-msgstr ""
-
-msgid ""
-"An important exception is the ``_ready()`` function: each parent node has "
-"its ``_ready()`` function called only after all its child nodes have their "
-"``_ready()`` functions called, so that the parent knows its children are "
-"completely ready to be accessed. This is also known as post-order traversal. "
-"In the above image, ``NameLabel`` would be notified first (but only after "
-"its children, if it had any!), followed by ``Name``, etc., and ``Panel`` "
-"would be notified last."
-msgstr ""
-
-msgid ""
-"The order of operations can also be overridden using the "
-"``process_priority`` node property. Nodes with a lower number are called "
-"first. For example, nodes with the priorities \"0, 1, 2, 3\" would be called "
-"in that order from left to right."
-msgstr ""
-
 msgid "\"Becoming active\" by entering the *Scene Tree*"
 msgstr "*씬 트리*\\ 에 들어가서 \"활성화되기\""
 
 msgid "A scene is loaded from disk or created by scripting."
 msgstr "씬은 디스크에서 불러오거나 스크립트에 의해 만들어집니다."
 
-#, fuzzy
-msgid ""
-"The root node of that scene (only one root, remember?) is added as either a "
-"child of the \"root\" Viewport (from SceneTree), or to any of its "
-"descendants."
-msgstr ""
-"씬의 루트 노드(단 하나의 루트, 기억하시나요?)는 (씬 트리의) \"루트\" 뷰포트"
-"의 자식으로, 혹은 노드의 자식이나 손주로 추가됩니다."
-
-#, fuzzy
-msgid ""
-"Every node of the newly added scene will receive the \"enter_tree\" "
-"notification ( ``_enter_tree()`` callback in GDScript) in top-to-bottom "
-"order (pre-order traversal)."
-msgstr ""
-"새로 추가된 장면의 모든 노드는 위에서 아래로 \"enter_tree\" 알림(GDScript의 "
-"_enter_tree() 콜백)을 수신합니다."
-
-#, fuzzy
-msgid ""
-"Every node will receive the \"ready\" notification ( ``_ready()`` callback "
-"in GDScript) for convenience, once all its children have received the "
-"\"ready\" notification (post-order traversal)."
-msgstr ""
-"노드와 모든 자식이 활성화된 씬 안에 있을 때 편의를 위해 \"ready\"(GDScript의 "
-"_ready() 콜백)라는 추가 알림이 제공됩니다."
-
-#, fuzzy
-msgid ""
-"When a scene (or part of it) is removed, they receive the \"exit scene\" "
-"notification ( ``_exit_tree()`` callback in GDScript) in bottom-to-top order "
-"(the exact reverse of top-to-bottom order)."
-msgstr ""
-"씬(또는 씬의 일부분)이 제거되면, 아래에서 위 순서로 \"exit scene\" 알림"
-"(GDScript에서는 _exit_tree() 콜백)을 수신합니다"
-
 msgid "Changing current scene"
 msgstr "현재 씬 변경하기"
-
-#, fuzzy
-msgid ""
-"After a scene is loaded, you may want to change this scene for another one. "
-"One way to do this is to use the :ref:`SceneTree.change_scene_to_file() "
-"<class_SceneTree_method_change_scene_to_file>` function:"
-msgstr ""
-"씬을 불러온 후에 다른 씬으로 변경하고 싶을 수 있습니다. 이를 수행하는 간단한 "
-"방법은 :ref:`SceneTree.change_scene() <class_SceneTree_method_change_scene>` "
-"함수를 사용하는 것입니다:"
-
-#, fuzzy
-msgid ""
-"Rather than using file paths, one can also use ready-made :ref:`PackedScene "
-"<class_PackedScene>` resources using the equivalent function :ref:`SceneTree."
-"change_scene_to_packed(PackedScene scene) "
-"<class_SceneTree_method_change_scene_to_packed>`:"
-msgstr ""
-"파일 경로를 사용하는 대신 동일한 함수 :ref:`SceneTree."
-"change_scene_to(PackedScene scene) "
-"<class_SceneTree_method_change_scene_to>`\\ 를 사용해 이미 만들어진 :ref:"
-"`PackedScene <class_PackedScene>` 리소스를 사용할 수 있습니다:"
-
-#, fuzzy
-msgid ""
-"These are quick and useful ways to switch scenes but have the drawback that "
-"the game will stall until the new scene is loaded and running. At some point "
-"in the development of your game, it may be preferable to create proper "
-"loading screens with progress bar, animated indicators or threaded "
-"(background) loading. This must be done manually using :ref:"
-"`doc_singletons_autoload` and :ref:`doc_background_loading`."
-msgstr ""
-"이는 씬을 전환하는 빠르고 유용한 방법이지만 새 씬을 불러와 실행할 때까지 게임"
-"이 중단된다는 단점이 있습니다. 게임 개발의 어느 시점에 프로그레스 바, 애니메"
-"이션 표시기나 스레드(배경) 로딩을 사용한 적절한 로딩 화면을 만드는 것이 바람"
-"직합니다. 오토로드(다음 장 참조) 및 :ref:`doc_background_loading`\\ 을 사용해"
-"서 수동으로 작업해야 합니다."
 
 msgid "Translation status"
 msgstr "번역 상태"

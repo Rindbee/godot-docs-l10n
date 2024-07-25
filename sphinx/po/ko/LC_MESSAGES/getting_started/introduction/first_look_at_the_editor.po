@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,20 +29,6 @@ msgstr ""
 "에디터 인터페이스와 사용법에 대한 포괄적인 설명은 :ref:`에디터 매뉴얼 <toc-"
 "learn-editor>`을 참조하십시오."
 
-#, fuzzy
-msgid "The Project Manager"
-msgstr "프로젝트 매니저"
-
-#, fuzzy
-msgid ""
-"When you launch Godot, the first window you see is the Project Manager. In "
-"the default tab **Local Projects**, you can manage existing projects, import "
-"or create new ones, and more."
-msgstr ""
-"Godot을 실행할 때, 처음으로 볼 수 있는 창은 프로젝트 매니저입니다. \"프로젝트"
-"\"를 누르면 존재하는 프로젝트들을 추가하거나 새로 만드는 등의 관리를 할 수 있"
-"습니다."
-
 msgid ""
 "At the top of the window, there is another tab named \"Asset Library "
 "Projects\". The first time you go to this tab you'll see a \"Go Online\" "
@@ -56,31 +37,24 @@ msgid ""
 "want to change your network mode back to \"offline\" you can do so from the "
 "project manager settings."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-"창의 상단에는 \"Asset Library Projects\"라는 또 다른 탭이 있습니다. 오픈 소"
-"스 에셋(asset) 라이브러리에서는 데모 프로젝트, 템플릿, 완성된 프로젝트 등을 "
-"검색할 수 있으며, 이 중 많은 것들이 커뮤니티에서 개발된 것들도 포함됩니다."
+"창 상단에 \"에셋 라이브러리 프로젝트\"라는 다른 탭이 있습니다. 이 탭에 처음 "
+"들어가면 \"온라인으로 전환\" 버튼이 표시됩니다. 개인정보 보호를 위해 Godot 프"
+"로젝트 매니저는 기본적으로 인터넷에 접근하지 않습니다. 이를 변경하려면 \"온라"
+"인으로 전환\" 버튼을 클릭하세요. 네트워크 모드를 다시 \"오프라인\"으로 변경하"
+"려면 프로젝트 매니저 설정에서 변경할 수 있습니다."
 
 msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr ""
-"에디터 설정에서 안전한 라인을 끌 수 있고 혹은 색상을 바꿀 수도 있습니다."
+"프로젝트 매니저의 자세한 사용 방법을 배우려면 :ref:`doc_project_manager`를 읽"
+"어보세요."
 
 msgid ""
 "From here use the language drop down menu to select your language. By "
 "default, it is in English (EN)."
 msgstr ""
+"여기에서 언어 드롭다운 메뉴를 사용하여 언어를 선택할 수 있습니다. 기본적으로 "
+"영어(EN)로 설정되어 있습니다."
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -117,14 +91,6 @@ msgstr "툴바는 상황과 선택한 노드에 따라 변경됩니다. 다음�
 
 msgid "Below is the 3D one."
 msgstr "아래는 3D 툴바입니다."
-
-#, fuzzy
-msgid ""
-"Let's look at the docks. The **FileSystem** dock lists your project files, "
-"including scripts, images, audio samples, and more."
-msgstr ""
-"독를 살펴보겠습니다. **FileSystem** 독는 프로젝트 파일을 나열합니다. 스크립"
-"트, 이미지, 오디오 샘플 등이 포함될 수 있습니다."
 
 msgid "The **Scene** dock lists the active scene's nodes."
 msgstr "**Scene** 독은 활성화된 씬의 노드들을 나열합니다."
@@ -195,14 +161,6 @@ msgstr ""
 "**Script screen**은 완전한 코드 편집기로서 디버거, 풍부한 자동 완성 기능 및 "
 "내장된 코드 참조 기능을 제공합니다."
 
-#, fuzzy
-msgid ""
-"Finally, the **AssetLib** is a library of free and open source add-ons, "
-"scripts, and assets to use in your projects."
-msgstr ""
-"마지막으로 **AssetLib**\\ 은 프로젝트에 쓸 무료 애드온, 스크립트, 애셋이 있"
-"는 라이브러리입니다."
-
 msgid ""
 "You can learn more about the asset library in :ref:`doc_what_is_assetlib`."
 msgstr ""
@@ -222,14 +180,6 @@ msgstr ""
 "다음과 같은 방법으로 클래스, 메소드, 속성, 상수, 혹은 시그널의 정보를 찾을 "
 "수 있습니다."
 
-#, fuzzy
-msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr ""
-":kbd:`F1` (or :kbd:`Alt + Space` on macOS)을 에디터 어느 곳에서든 누를 수 있"
-"습니다."
-
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
@@ -239,13 +189,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "도움말 메뉴를 클릭하고 \"도움말 검색\"을 선택하십시오."
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"스크립트 편집기에서 클래스 이름, 함수 이름 또는 내장 변수를 가리키면서 :kbd:"
-"`Ctrl` 키를 누른 채로 클릭하십시오."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

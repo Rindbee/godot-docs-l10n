@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,218 +63,6 @@ msgstr ""
 msgid "How does it work?"
 msgstr "Как это работает?"
 
-#, fuzzy
-msgid ""
-"Every input event is originated from the user/player (though it's possible "
-"to generate an InputEvent and feed them back to the engine, which is useful "
-"for gestures). The DisplayServer for each platform will read events from the "
-"operating system, then feed them to the root :ref:`Window <class_Window>`."
-msgstr ""
-"Каждое входное событие исходит от пользователя/игрока (хотя можно "
-"сгенерировать InputEvent и передать его обратно в движок, что полезно для "
-"жестов). Объект ОС для каждой платформы будет считывать события с "
-"устройства, а затем передавать их в MainLoop. Поскольку :ref:`SceneTree "
-"<class_SceneTree>` является основной реализацией MainLoop, события подаются "
-"в него. Godot предоставляет функцию для получения текущего объекта дерева "
-"сцены: **get_tree()**."
-
-msgid ""
-"The window's :ref:`Viewport <class_Viewport>` does quite a lot of stuff with "
-"the received input, in order:"
-msgstr ""
-
-msgid ""
-"If the Viewport is embedding Windows, the Viewport tries to interpret the "
-"event in its capability as a Window-Manager (e.g. for resizing or moving "
-"Windows)."
-msgstr ""
-
-msgid ""
-"Next if an embedded Window is focused, the event is sent to that Window and "
-"processed in the Windows Viewport and afterwards treated as handled. If no "
-"embedded Window is focused, the event is sent to the nodes of the current "
-"viewport in the following order."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"First of all, the standard :ref:`Node._input() "
-"<class_Node_private_method__input>` function will be called in any node that "
-"overrides it (and hasn't disabled input processing with :ref:`Node."
-"set_process_input() <class_Node_method_set_process_input>`). If any function "
-"consumes the event, it can call :ref:`Viewport.set_input_as_handled() "
-"<class_Viewport_method_set_input_as_handled>`, and the event will not spread "
-"any more. This ensures that you can filter all events of interest, even "
-"before the GUI. For gameplay input, :ref:`Node._unhandled_input() "
-"<class_Node_private_method__unhandled_input>` is generally a better fit, "
-"because it allows the GUI to intercept the events."
-msgstr ""
-"Во-первых, стандартная функция :ref:`Node._input() "
-"<class_Node_method__input>` будет вызываться в любом узле, который ее "
-"переопределяет (и в котором не отключена обработка входных данных с помощью :"
-"ref:`Node.set_process_input() <class_Node_method_set_process_input>`). Если "
-"какая-либо функция примет событие, она может вызвать :ref:`SceneTree."
-"set_input_as_handled() <class_SceneTree_method_set_input_as_handled>`, и "
-"событие больше не будет распространяться. Это гарантирует, что вы сможете "
-"отфильтровать все интересующие вас события еще до GUI. Для геймплейного "
-"ввода :ref:`Node._unhandled_input() <class_Node_method__unhandled_input>` "
-"обычно лучше подходит, поскольку она позволяет GUI перехватывать события."
-
-#, fuzzy
-msgid ""
-"Second, it will try to feed the input to the GUI, and see if any control can "
-"receive it. If so, the :ref:`Control <class_Control>` will be called via the "
-"virtual function :ref:`Control._gui_input() "
-"<class_Control_private_method__gui_input>` and the signal \"gui_input\" will "
-"be emitted (this function is re-implementable by script by inheriting from "
-"it). If the control wants to \"consume\" the event, it will call :ref:"
-"`Control.accept_event() <class_Control_method_accept_event>` and the event "
-"will not spread any more. Use the :ref:`Control.mouse_filter "
-"<class_Control_property_mouse_filter>` property to control whether a :ref:"
-"`Control <class_Control>` is notified of mouse events via :ref:`Control."
-"_gui_input() <class_Control_private_method__gui_input>` callback, and "
-"whether these events are propagated further."
-msgstr ""
-"Во-вторых, он попытается подать входные данные в GUI и посмотрит, может ли "
-"какой-либо элемент управления принять их. Если да, то :ref:`Control "
-"<class_Control>` будет вызван через виртуальную функцию :ref:`Control."
-"_gui_input() <class_Control_method__gui_input>` и будет выдан сигнал "
-"\"gui_input\" (эта функция повторно реализуется скриптом, наследуясь от "
-"него). Если элемент управления захочет \"поглотить\" событие, он вызовет :"
-"ref:`Control.accept_event() <class_Control_method_accept_event>` и событие "
-"больше не будет распространяться. Используйте свойство :ref:`Control."
-"mouse_filter <class_Control_property_mouse_filter>` для управления тем, "
-"получает ли :ref:`Control <class_Control>` уведомления о событиях мыши "
-"через :ref:`Control._gui_input() <class_Control_method__gui_input>` обратный "
-"вызов, и распространяются ли эти события дальше."
-
-#, fuzzy
-msgid ""
-"If so far no one consumed the event, the :ref:`Node._shortcut_input() "
-"<class_Node_private_method__shortcut_input>` callback will be called if "
-"overridden (and not disabled with :ref:`Node.set_process_shortcut_input() "
-"<class_Node_method_set_process_shortcut_input>`). This happens only for :ref:"
-"`InputEventKey <class_InputEventKey>`, :ref:`InputEventShortcut "
-"<class_InputEventShortcut>` and :ref:`InputEventJoypadButton "
-"<class_InputEventJoypadButton>`. If any function consumes the event, it can "
-"call :ref:`Viewport.set_input_as_handled() "
-"<class_Viewport_method_set_input_as_handled>`, and the event will not spread "
-"any more. The shortcut input callback is ideal for treating events that are "
-"intended as shortcuts."
-msgstr ""
-"Если до сих пор никто не потреблял событие, то необработанный входной "
-"обратный вызов будет вызван, если он будет переопределен (и не отключен с "
-"помощью :ref:`Node.set_process_unhandled_input() "
-"<class_Node_method_set_process_unhandled_input>`). Если какая-либо функция "
-"потребляет событие, она может вызвать :ref:`SceneTree.set_input_as_handled() "
-"<class_SceneTree_method_set_input_as_handled>`, и событие больше не будет "
-"распространяться. Необработанный входной обратный вызов идеально подходит "
-"для полноэкранных игровых событий, поэтому они не принимаются, когда GUI "
-"активен."
-
-#, fuzzy
-msgid ""
-"If so far no one consumed the event, the :ref:`Node._unhandled_key_input() "
-"<class_Node_private_method__unhandled_key_input>` callback will be called if "
-"overridden (and not disabled with :ref:`Node."
-"set_process_unhandled_key_input() "
-"<class_Node_method_set_process_unhandled_key_input>`). This happens only if "
-"the event is an :ref:`InputEventKey <class_InputEventKey>`. If any function "
-"consumes the event, it can call :ref:`Viewport.set_input_as_handled() "
-"<class_Viewport_method_set_input_as_handled>`, and the event will not spread "
-"any more. The unhandled key input callback is ideal for key events."
-msgstr ""
-"Если до сих пор никто не потреблял событие, то необработанный входной "
-"обратный вызов будет вызван, если он будет переопределен (и не отключен с "
-"помощью :ref:`Node.set_process_unhandled_input() "
-"<class_Node_method_set_process_unhandled_input>`). Если какая-либо функция "
-"потребляет событие, она может вызвать :ref:`SceneTree.set_input_as_handled() "
-"<class_SceneTree_method_set_input_as_handled>`, и событие больше не будет "
-"распространяться. Необработанный входной обратный вызов идеально подходит "
-"для полноэкранных игровых событий, поэтому они не принимаются, когда GUI "
-"активен."
-
-#, fuzzy
-msgid ""
-"If so far no one consumed the event, the :ref:`Node._unhandled_input() "
-"<class_Node_private_method__unhandled_input>` callback will be called if "
-"overridden (and not disabled with :ref:`Node.set_process_unhandled_input() "
-"<class_Node_method_set_process_unhandled_input>`). If any function consumes "
-"the event, it can call :ref:`Viewport.set_input_as_handled() "
-"<class_Viewport_method_set_input_as_handled>`, and the event will not spread "
-"any more. The unhandled input callback is ideal for full-screen gameplay "
-"events, so they are not received when a GUI is active."
-msgstr ""
-"Если до сих пор никто не потреблял событие, то необработанный входной "
-"обратный вызов будет вызван, если он будет переопределен (и не отключен с "
-"помощью :ref:`Node.set_process_unhandled_input() "
-"<class_Node_method_set_process_unhandled_input>`). Если какая-либо функция "
-"потребляет событие, она может вызвать :ref:`SceneTree.set_input_as_handled() "
-"<class_SceneTree_method_set_input_as_handled>`, и событие больше не будет "
-"распространяться. Необработанный входной обратный вызов идеально подходит "
-"для полноэкранных игровых событий, поэтому они не принимаются, когда GUI "
-"активен."
-
-#, fuzzy
-msgid ""
-"If no one wanted the event so far, and :ref:`Object Picking "
-"<class_viewport_property_physics_object_picking>` is turned on, the event is "
-"used for object picking. For the root viewport, this can also be enabled in :"
-"ref:`Project Settings <class_ProjectSettings_property_physics/common/"
-"enable_object_picking>`. In the case of a 3D scene if a :ref:`Camera3D "
-"<class_Camera3D>` is assigned to the Viewport, a ray to the physics world "
-"(in the ray direction from the click) will be cast. If this ray hits an "
-"object, it will call the :ref:`CollisionObject3D._input_event() "
-"<class_CollisionObject3D_private_method__input_event>` function in the "
-"relevant physics object. In the case of a 2D scene, conceptually the same "
-"happens with :ref:`CollisionObject2D._input_event() "
-"<class_CollisionObject2D_private_method__input_event>`."
-msgstr ""
-"Если событие пока никому не нужно, а во вьюпорте назначена :ref:`Camera "
-"<class_Camera>` с включенным :ref:`Object Picking "
-"<class_viewport_property_physics_object_picking>`, будет брошен луч в мир "
-"физики (в направлении луча от щелчка). (Для корневого вьюпорта это также "
-"можно включить в :ref:`Project Settings "
-"<class_ProjectSettings_property_physics/common/enable_object_picking>`) Если "
-"этот луч попадет в объект, он вызовет функцию :ref:`CollisionObject."
-"_input_event() <class_CollisionObject_method__input_event>` в "
-"соответствующем физическом объекте (тела получают этот обратный вызов по "
-"умолчанию, а области - нет. Это можно настроить через свойства :ref:`Area "
-"<class_Area>`)."
-
-#, fuzzy
-msgid ""
-"When sending events to its child and descendant nodes, the viewport will do "
-"so, as depicted in the following graphic, in a reverse depth-first order, "
-"starting with the node at the bottom of the scene tree, and ending at the "
-"root node. Excluded from this process are Windows and SubViewports."
-msgstr ""
-"При отправке событий на все прослушивающие узлы в пределах сцены окно "
-"просмотра будет делать это в обратном порядке глубины: начиная с узла в "
-"нижней части дерева сцены и заканчивая корневым узлом:"
-
-msgid ""
-"This order doesn't apply to :ref:`Control._gui_input() "
-"<class_Control_private_method__gui_input>`, which uses a different method "
-"based on event location or focused Control."
-msgstr ""
-
-msgid ""
-"Since Viewports don't send events to other :ref:`SubViewports "
-"<class_SubViewport>`, one of the following methods has to be used:"
-msgstr ""
-
-msgid ""
-"Use a :ref:`SubViewportContainer <class_SubViewportContainer>`, which "
-"automatically sends events to its child :ref:`SubViewports "
-"<class_SubViewport>` after :ref:`Node._input() "
-"<class_Node_private_method__input>` or :ref:`Control._gui_input() "
-"<class_Control_private_method__gui_input>`."
-msgstr ""
-
-msgid "Implement event propagation based on the individual requirements."
-msgstr ""
-
 msgid ""
 "GUI events also travel up the scene tree but, since these events target "
 "specific Controls, only direct ancestors of the targeted Control node "
@@ -334,10 +117,6 @@ msgstr "Пустое входное событие."
 msgid ":ref:`InputEventKey <class_InputEventKey>`"
 msgstr ":ref:`InputEventKey <class_InputEventKey>`"
 
-#, fuzzy
-msgid "Contains a keycode and Unicode value, as well as modifiers."
-msgstr "Содержит скан-код и значение Unicode, а также модификаторы."
-
 msgid ":ref:`InputEventMouseButton <class_InputEventMouseButton>`"
 msgstr ":ref:`InputEventMouseButton <class_InputEventMouseButton>`"
 
@@ -346,14 +125,6 @@ msgstr "Содержит информацию о щелчке, такую как
 
 msgid ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
 msgstr ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
-
-#, fuzzy
-msgid ""
-"Contains motion information, such as relative and absolute positions and "
-"speed."
-msgstr ""
-"Содержит информацию о движении, такую как относительные, абсолютные позиции "
-"и скорость."
 
 msgid ":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`"
 msgstr ":ref:`InputEventJoypadMotion <class_InputEventJoypadMotion>`"
@@ -386,38 +157,6 @@ msgstr ""
 "Содержит информацию о перетаскивании с помощью мультисенсорного ввода. "
 "(доступно только на мобильных устройствах)"
 
-#, fuzzy
-msgid ":ref:`InputEventMagnifyGesture <class_InputEventMagnifyGesture>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains a position, a factor as well as modifiers."
-msgstr "Содержит скан-код и значение Unicode, а также модификаторы."
-
-#, fuzzy
-msgid ":ref:`InputEventPanGesture <class_InputEventPanGesture>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains a position, a delta as well as modifiers."
-msgstr "Содержит скан-код и значение Unicode, а также модификаторы."
-
-#, fuzzy
-msgid ":ref:`InputEventMIDI <class_InputEventMIDI>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains MIDI-related information."
-msgstr "Содержит информацию о кнопке джойстика/джойпада."
-
-#, fuzzy
-msgid ":ref:`InputEventShortcut <class_InputEventShortcut>`"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
-
-#, fuzzy
-msgid "Contains a shortcut."
-msgstr "Контейнеры"
-
 msgid ":ref:`InputEventAction <class_InputEventAction>`"
 msgstr ":ref:`InputEventAction <class_InputEventAction>`"
 
@@ -432,18 +171,6 @@ msgid "Actions"
 msgstr "Действия"
 
 msgid ""
-"Actions are a grouping of zero or more InputEvents into a commonly "
-"understood title (for example, the default \"ui_left\" action grouping both "
-"joypad-left input and a keyboard's left arrow key). They are not required to "
-"represent an InputEvent but are useful because they abstract various inputs "
-"when programming the game logic."
-msgstr ""
-
-#, fuzzy
-msgid "This allows for:"
-msgstr "Это позволяет использовать несколько особенностей:"
-
-msgid ""
 "The same code to work on different devices with different inputs (e.g., "
 "keyboard on PC, Joypad on console)."
 msgstr ""
@@ -452,16 +179,6 @@ msgstr ""
 
 msgid "Input to be reconfigured at run-time."
 msgstr "Перенастраивать ввод во время выполнения."
-
-#, fuzzy
-msgid "Actions to be triggered programmatically at run-time."
-msgstr "Перенастраивать ввод во время выполнения."
-
-#, fuzzy
-msgid ""
-"Actions can be created from the Project Settings menu in the **Input Map** "
-"tab and assigned input events."
-msgstr "Действия можно создавать из меню Project Settings на вкладке Actions."
 
 msgid ""
 "Any event has the methods :ref:`InputEvent.is_action() "

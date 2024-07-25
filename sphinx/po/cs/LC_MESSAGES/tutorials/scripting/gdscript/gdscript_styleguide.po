@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,11 +146,6 @@ msgid "Use one blank line inside functions to separate logical sections."
 msgstr ""
 "Uvnitř funkcí použijte jeden prázdný řádek pro oddělení logických sekcí."
 
-msgid ""
-"We use a single line between classes and function definitions in the class "
-"reference and in short code snippets in this documentation."
-msgstr ""
-
 msgid "Line length"
 msgstr "Délka řádku"
 
@@ -174,37 +164,8 @@ msgstr ""
 msgid "One statement per line"
 msgstr "Jeden příkaz na řádek"
 
-msgid ""
-"Avoid combining multiple statements on a single line, including conditional "
-"statements, to adhere to the GDScript style guidelines for readability."
-msgstr ""
-
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "Jedinou výjimkou z tohoto pravidla je ternární operátor:"
-
-msgid "Format multiline statements for readability"
-msgstr ""
-
-msgid ""
-"When you have particularly long ``if`` statements or nested ternary "
-"expressions, wrapping them over multiple lines improves readability. Since "
-"continuation lines are still part of the same expression, 2 indent levels "
-"should be used instead of one."
-msgstr ""
-
-msgid ""
-"GDScript allows wrapping statements using multiple lines using parentheses "
-"or backslashes. Parentheses are favored in this style guide since they make "
-"for easier refactoring. With backslashes, you have to ensure that the last "
-"line never contains a backslash at the end. With parentheses, you don't have "
-"to worry about the last line having a backslash at the end."
-msgstr ""
-
-msgid ""
-"When wrapping a conditional expression over multiple lines, the ``and``/"
-"``or`` keywords should be placed at the beginning of the line continuation, "
-"not at the end of the previous line."
-msgstr ""
 
 msgid "Avoid unnecessary parentheses"
 msgstr "Vyhněte se zbytečným závorkám"
@@ -233,10 +194,6 @@ msgstr "Místo ``&&`` použijte ``and``."
 msgid "Use ``or`` instead of ``||``."
 msgstr "Místo ``||``` použijte ``or``."
 
-#, fuzzy
-msgid "Use ``not`` instead of ``!``."
-msgstr "Místo ``||``` použijte ``or``."
-
 msgid ""
 "You may also use parentheses around boolean operators to clear any "
 "ambiguity. This can make long expressions easier to read."
@@ -247,41 +204,8 @@ msgstr ""
 msgid "Comment spacing"
 msgstr "Mezery mezi komentáři"
 
-msgid ""
-"Regular comments (``#``) and documentation comments (``##``) should start "
-"with a space, but not code that you comment out. Additionally, code region "
-"comments (``#region``/``#endregion``) must follow that precise syntax, so "
-"they should not start with a space."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Using a space for regular and documentation comments helps differentiate "
-"text comments from disabled code."
-msgstr ""
-"Běžné komentáře by měly začínat mezerou, nikoli však kód, který "
-"zakomentováváte. To pomáhá odlišit textové komentáře od vypnutého kódu."
-
-#, fuzzy
-msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
-msgstr ""
-"Chcete-li v editoru skriptů zakomentovat vybraný kód, stiskněte :kbd:`Ctrl + "
-"K`. Tato funkce přidá na začátek vybraných řádků jeden znak #."
-
 msgid "Whitespace"
 msgstr "Mezery"
-
-msgid ""
-"Always use one space around operators and after commas. Also, avoid extra "
-"spaces in dictionary references and function calls. One exception to this is "
-"for single-line dictionary declarations, where a space should be added after "
-"the opening brace and before the closing brace. This makes the dictionary "
-"easier to visually distinguish from an array, as the ``[]`` characters look "
-"close to ``{}`` with most fonts."
-msgstr ""
 
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "Nepoužívejte mezery k zarovnání výrazů na výšku:"
@@ -399,12 +323,6 @@ msgstr ""
 "Pro *názvy enumů* použijte PascalCase a pro jejich členy CONSTANT\\_CASE, "
 "protože se jedná o konstanty:"
 
-msgid ""
-"Write enums with each item on its own line. This allows adding documentation "
-"comments abve each item more easily, and also makes for cleaner diffs in "
-"version control when items are added or removed."
-msgstr ""
-
 msgid "Code order"
 msgstr "Pořadí kódu"
 
@@ -449,41 +367,6 @@ msgstr ""
 msgid "Class declaration"
 msgstr "Deklarace třídy"
 
-#, fuzzy
-msgid ""
-"If the code is meant to run in the editor, place the ``@tool`` annotation on "
-"the first line of the script."
-msgstr ""
-"Pokud má být kód spuštěn v editoru, umístěte klíčové slovo ``tool`` na první "
-"řádek skriptu."
-
-#, fuzzy
-msgid ""
-"Follow with the ``class_name`` if necessary. You can turn a GDScript file "
-"into a global type in your project using this feature. For more information, "
-"see :ref:`doc_gdscript`."
-msgstr ""
-"V případě potřeby doplňte `class_name`. Takto můžete ze souboru GDScript "
-"vytvořit globální typ v projektu. Další informace naleznete v části :ref:"
-"`doc_gdscript`."
-
-#, fuzzy
-msgid "Then, add the ``extends`` keyword if the class extends a built-in type."
-msgstr ""
-"Pak přidejte klíčové slovo `extends`, pokud třída rozšiřuje (dědí) vestavěný "
-"typ."
-
-#, fuzzy
-msgid ""
-"Following that, you should have the class's optional :ref:`documentation "
-"comments <doc_gdscript_documentation_comments>`. You can use that to explain "
-"the role of your class to your teammates, how it works, and how other "
-"developers should use it, for example."
-msgstr ""
-"Poté by měl následovat nepovinný docstring třídy jako komentář. Ten můžete "
-"použít například k tomu, abyste svým kolegům vysvětlili, jakou roli vaše "
-"třída hraje, jak funguje a jak by ji měli používat ostatní vývojáři."
-
 msgid "Signals and properties"
 msgstr "Signály a vlastnosti"
 
@@ -507,17 +390,6 @@ msgid ""
 msgstr ""
 "Poté napište konstanty, exportované proměnné, veřejné, soukromé proměnné a "
 "proměnné onready, a to v tomto pořadí."
-
-msgid ""
-"The GDScript compiler evaluates onready variables right before the "
-"``_ready`` callback. You can use that to cache node dependencies, that is to "
-"say, to get child nodes in the scene that your class relies on. This is what "
-"the example above shows."
-msgstr ""
-"Překladač GDScript vyhodnocuje proměnné onready těsně před zpětným voláním "
-"``_ready``. Toho můžete využít k ukládání závislostí uzlů do mezipaměti, tj. "
-"k získání podřízených uzlů scény, na které vaše třída spoléhá. Právě to "
-"ukazuje výše uvedený příklad."
 
 msgid "Member variables"
 msgstr "Členské proměnné"
@@ -601,40 +473,6 @@ msgstr "Chcete-li deklarovat návratový typ funkce, použijte ``-> <type>``:"
 
 msgid "Inferred types"
 msgstr "Odvozené typy"
-
-msgid ""
-"In most cases you can let the compiler infer the type, using ``:=``. Prefer "
-"``:=`` when the type is written on the same line as the assignment, "
-"otherwise prefer writing the type explicitly."
-msgstr ""
-
-msgid ""
-"Include the type hint when the type is ambiguous, and omit the type hint "
-"when it's redundant."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In some cases, the type must be stated explicitly, otherwise the behavior "
-"will not be as expected because the compiler will only be able to use the "
-"function's return type. For example, ``get_node()`` cannot infer a type "
-"unless the scene or file of the node is loaded in memory. In this case, you "
-"should set the type explicitly."
-msgstr ""
-"V několika případech, kdy kontext chybí, se však překladač uchýlí k "
-"návratovému typu funkce. Například funkce ``get_node()`` nemůže odvodit typ, "
-"pokud není v paměti načtena scéna nebo soubor uzlu. V takovém případě byste "
-"měli typ nastavit explicitně."
-
-msgid ""
-"Alternatively, you can use the ``as`` keyword to cast the return type, and "
-"that type will be used to infer the type of the var."
-msgstr ""
-
-msgid ""
-"This option is also considered more :ref:`type-"
-"safe<doc_gdscript_static_typing_safe_lines>` than the first."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stav překladu"

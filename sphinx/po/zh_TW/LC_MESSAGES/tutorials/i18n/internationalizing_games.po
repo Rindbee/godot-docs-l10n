@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,19 +19,6 @@ msgid "Introduction"
 msgstr "前言"
 
 msgid ""
-"Sería excelente que el mundo hablara solo un idioma (It would be great if "
-"the world spoke only one language). Unfortunately for us developers, that is "
-"not the case. While indie or niche games usually do not need localization, "
-"games targeting a more massive market often require localization. Godot "
-"offers many tools to make this process more straightforward, so this "
-"tutorial is more like a collection of tips and tricks."
-msgstr ""
-"Sería excelente que el mundo hablara solo un idioma（如果全世界都講同一種語言"
-"就太好了）。不幸的是對於我們的開發人員來說，情況並非如此。雖然獨立或投機遊戲"
-"通常不需要當地語系化，但瞄準更大市場的遊戲通常需要當地語系化。Godot 提供了許"
-"多工具來使這個過程更加簡單，因此本教學更像一個妙招和技巧的合集。"
-
-msgid ""
 "Localization is usually done by specific studios hired for the job. Despite "
 "the huge amount of software and file formats available for this, the most "
 "common way to do localization to this day is still with spreadsheets. The "
@@ -49,14 +31,6 @@ msgstr ""
 "使用，但迄今為止進行當地語系化最常見的方式仍然是使用試算表。建立試算表並匯入"
 "試算表的過程已經在 :ref:`doc_importing_translations` 教學中介紹過了，所以這個"
 "教學更像是對那個教學的後續。"
-
-#, fuzzy
-msgid ""
-"We will be using the official demo as an example; you can `download it from "
-"the Asset Library <https://godotengine.org/asset-library/asset/2776>`_."
-msgstr ""
-"我們將使用官方演示作為範例，您可以`從素材庫下載 <https://godotengine.org/"
-"asset-library/asset/134>`_。"
 
 msgid "Configuring the imported translation"
 msgstr "配置匯入的譯文"
@@ -389,14 +363,6 @@ msgstr ""
 msgid "``language``, overrides current project locale."
 msgstr "“語言”，覆蓋目前專案區域設定。"
 
-#, fuzzy
-msgid ""
-"``structured_text_bidi_override`` property and ``_structured_text_parser`` "
-"callback, enables special handling for structured text."
-msgstr ""
-"“structural_text_bidi_override 屬性”和“_structed_text_parser 回調”，啟用對結"
-"構化文字的特殊處理。"
-
 msgid "``layout_direction``, overrides control mirroring."
 msgstr "“layout_direction”，覆蓋控制鏡像。"
 
@@ -488,18 +454,6 @@ msgid ""
 "provides two ways to do this."
 msgstr "你可能會想要在發行前測試專案的翻譯。Godot 為此提供了兩種方法。"
 
-#, fuzzy
-msgid ""
-"First, in the Project Settings, under **Internationalization > Locale** "
-"(with advanced settings enabled), there is a **Test** property. Set this "
-"property to the locale code of the language you want to test. Godot will run "
-"the project with that locale when the project is run (either from the editor "
-"or when exported)."
-msgstr ""
-"首先，在“專案設定”的**輸入裝置 > 區域**中有一個**測試**屬性。將這個屬性設為想"
-"要測試的語言的區功能變數程式碼即可。運作專案時，Godot 就會使用這個區域設定"
-"（無論是從編輯器運作還是匯出後運作均如此）。"
-
 msgid ""
 "Keep in mind that since this is a project setting, it will show up in "
 "version control when it is set to a non-empty value. Therefore, it should be "
@@ -518,17 +472,6 @@ msgstr ""
 
 msgid "Translating the project name"
 msgstr "翻譯專案名稱"
-
-msgid ""
-"The project name becomes the app name when exporting to different operating "
-"systems and platforms. To specify the project name in more than one language "
-"go to **Project > Project Settings> Application > Config**. From here click "
-"on the button that says ``Localizable String (Size 0)``. Now there should be "
-"a button below that which says ``Add Translation``. Click on that and it "
-"will take you to a page where you can choose the language (and country if "
-"needed) for your project name translation. After doing that you can now type "
-"in the localized name."
-msgstr ""
 
 msgid ""
 "If you are unsure about the language code to use, refer to the :ref:`list of "

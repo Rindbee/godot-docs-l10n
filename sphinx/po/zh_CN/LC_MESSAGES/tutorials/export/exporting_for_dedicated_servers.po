@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,37 +45,11 @@ msgstr ""
 "可以在无头模式下使用编辑器或导出模板（调试或发布）二进位。你应该使用哪一种取"
 "决于你的用例："
 
-#, fuzzy
-msgid ""
-"**Export template:** Use this one for running dedicated servers. It does not "
-"contain editor functionality, and is therefore smaller and more optimized."
-msgstr ""
-"**Server（服务器）：**\\ 不包含编辑器的功能，体积更小、优化更高，是在服务器平"
-"台下的最佳选择。"
-
-#, fuzzy
-msgid ""
-"**Editor:** This binary contains editor functionality and is intended to be "
-"used for exporting projects. This binary *can* be used to run dedicated "
-"servers, but it's not recommended as it's larger and less optimized."
-msgstr ""
-"**Headless（无头）：**\\ 包含编辑器功能的可执行文件，目的是用来导出项目。该可"
-"执行文件\\ **可以**\\ 用来运行专用服务，但是因为其体积较大、优化程度较低，所"
-"以不建议将其作为专用服务器使用。"
-
 msgid "Export approaches"
 msgstr "导出方法"
 
 msgid "There are two ways to export a project for a server:"
 msgstr "有两种方法可以导出服务项目:"
-
-#, fuzzy
-msgid ""
-"Create a separate export preset for the platform that will host the server, "
-"then export your project as usual."
-msgstr ""
-"创建Linux/X11导出预设, 并为Release(custom_template/release)选定指向服务器的可"
-"执行文件, 然后照往常一样导出项目即可."
 
 msgid ""
 "Export a PCK file only, preferably for the platform that matches the "
@@ -91,12 +60,6 @@ msgstr ""
 "仅导出PCK档案，最好是与将托管服务器的平台相配对的平台。将此PCK档案放在与导出"
 "模板二进位档案相同的文件夹中，将二进位档案重新命名为与PCK相同的名称（减去文件"
 "扩展名），然后执行该二进位档案。"
-
-#, fuzzy
-msgid ""
-"Both methods should result in identical output. The rest of the page will "
-"focus on the first approach."
-msgstr "这两种方法的输出结果应该是相同的. 下文介绍了PCK文件的方法."
 
 msgid "See :ref:`doc_exporting_projects` for more information."
 msgstr "详见 :ref:`doc_exporting_projects` ."
@@ -220,18 +183,6 @@ msgid ""
 msgstr ""
 "使用**Remove**模式时要小心，因为引用已删除档案的场景/资源将无法再成功加载。"
 
-#, fuzzy
-msgid ""
-"If you wish to remove specific resources but make the scenes still be able "
-"to load without them, you'll have to remove the reference in the scene file "
-"and load the files to the nodes' properties using ``load()`` in a script. "
-"This approach can be used to strip resources that Godot doesn't support "
-"replacing with placeholders yet, such as audio."
-msgstr ""
-"如果你希望删除特定资源但使场景在没有它们的情况下仍然能够加载，则必须删除场景"
-"档案中的参考并使用「load（）」中的「load（）」将档案加载到节点的属性中。脚"
-"本。这种方法可用于剥离Godot尚不支持用占位符取代的资源，例如音讯。"
-
 msgid ""
 "Removing textures is often what makes the greatest impact on the PCK size, "
 "so it is recommended to stick with **Strip Visuals** at first."
@@ -267,26 +218,6 @@ msgstr ""
 "<doc_exporting_for_dedicated_servers_exporting_project>`（或已新增"
 "``dedicated_server``作为自定义功能标记），则可以使用``dedicated_server``用于"
 "侦测是否正在使用专用服务器PCK的功能标记："
-
-#, fuzzy
-msgid ""
-"If you also wish to host a server when using the built-in ``--headless`` "
-"command line argument, this can be done by adding the following code snippet "
-"in your main scene (or an autoload)'s ``_ready()`` method:"
-msgstr ""
-"如果你的客户端和服务都是同一个 Godot 项目的一部分，你必须添加一个使用命令行参"
-"数直接启动服务的方法。这可以通过在你的主场景（或单例）的 ``_ready()`` 方法中"
-"添加以下代码片段来实现： ::"
-
-#, fuzzy
-msgid ""
-"If you wish to use a custom command line argument, this can be done by "
-"adding the following code snippet in your main scene (or an autoload)'s "
-"``_ready()`` method:"
-msgstr ""
-"如果你的客户端和服务都是同一个 Godot 项目的一部分，你必须添加一个使用命令行参"
-"数直接启动服务的方法。这可以通过在你的主场景（或单例）的 ``_ready()`` 方法中"
-"添加以下代码片段来实现： ::"
 
 msgid ""
 "It's a good idea to add at least one of the above command-line arguments to "

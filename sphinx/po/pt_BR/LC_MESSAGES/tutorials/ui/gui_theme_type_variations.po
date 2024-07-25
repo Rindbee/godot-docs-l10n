@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,25 +147,6 @@ msgstr ""
 "No dock do inspetor, na propriedade **Theme** de um nó de controle, você "
 "pode encontrar a propriedade **Theme Type Variation**. Ele está vazio por "
 "padrão, o que significa que apenas o tipo base tem um efeito sobre esse nó."
-
-#, fuzzy
-msgid ""
-"You can either select a type variation from a dropdown list, or input its "
-"name manually. Variations appear on the list only if the type variation "
-"belongs to the project-wide theme, which you can configure in the project "
-"settings. For any other case you have to input the name of the variation "
-"manually. Click on the pencil icon to the right. Then type in the name of "
-"the type variation and click the check mark icon or press enter. If a type "
-"variation with that name exists it will now be used by the node."
-msgstr ""
-"Você pode selecionar variações de tipo em uma lista suspensa ou inserir seu "
-"nome manualmente. As variações aparecem na lista apenas se o tipo de "
-"variação pertencer ao tema geral do projeto, que você pode configurar nas "
-"configurações do projeto. Para qualquer outro caso, você deve inserir o nome "
-"da variação manualmente. Clique no ícone de lápis à direita. Em seguida, "
-"digite o nome da variação de tipo e clique no ícone de marca de seleção ou "
-"pressione enter. Se existir uma variação de tipo com esse nome, ela agora "
-"será usada pelo nó."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

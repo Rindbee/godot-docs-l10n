@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Introduction to Godot"
-msgstr "Wprowadzenie do 3D"
 
 msgid ""
 "This article is here to help you figure out whether Godot might be a good "
@@ -39,10 +30,6 @@ msgstr ""
 "Nie jest to kompletny przegląd możliwości silnika. W serii dla "
 "początkujących przedstawimy znacznie więcej funkcji."
 
-#, fuzzy
-msgid "What is Godot?"
-msgstr "Co to jest?"
-
 msgid ""
 "Godot is a general-purpose 2D and 3D game engine designed to support all "
 "sorts of projects. You can use it to create games or applications you can "
@@ -60,20 +47,6 @@ msgstr ""
 "Możesz także tworzyć za jego pomocą gry na konsole, chociaż - w tym "
 "przypadku - będziesz potrzebował doskonałych umiejętności programistycznych, "
 "lub pomocy programisty, który przeportuje grę za Ciebie."
-
-#, fuzzy
-msgid ""
-"The Godot team can't provide an open source console export due to the "
-"licensing terms imposed by console manufacturers. Regardless of the engine "
-"you use, though, releasing games on consoles is always a lot of work. You "
-"can read more on that here: :ref:`doc_consoles`."
-msgstr ""
-"Zespół Godota nie może zapewnić eksportu do formatu odpowiedniego dla "
-"konsoli w przypadku oprogramowania typu open-source, ze względu na "
-"specyficzne warunki licencyjne nakładane przez producentów konsol. "
-"Niezależnie od tego, jakiego silnika używasz, wydawanie gier na konsole "
-"zawsze wymaga dużo pracy. Więcej na ten temat możesz przeczytać tutaj: :ref:"
-"`doc_consoles`."
 
 msgid "What can the engine do?"
 msgstr "Co potrafi silnik?"
@@ -93,33 +66,9 @@ msgid ""
 "Fury."
 msgstr "Przykładami gier napisanymi w Godot są Ex-Zodiac i Helms of Fury."
 
-#, fuzzy
-msgid ""
-"As for applications, the open source pixel art drawing program Pixelorama is "
-"powered by Godot, and so is the voxel RPG creator RPG in a box."
-msgstr ""
-"Jeśli chodzi o aplikacje, Pixelorama jest programem open-source zbudowanym "
-"na silniku Godot, podobnie jak wokselowy kreator gier RPG o nazwie \"RPG in "
-"a box\"."
-
 msgid "You can find many more examples in the `official showcase videos`_."
 msgstr ""
 "Możesz znaleźć wiele innych przykładów w filmach `official showcase videos`_."
-
-#, fuzzy
-msgid "How does it work and look?"
-msgstr "Jak to działa?"
-
-#, fuzzy
-msgid ""
-"Godot comes with a fully-fledged game editor with integrated tools to answer "
-"the most common needs. It includes a code editor, an animation editor, a "
-"tilemap editor, a shader editor, a debugger, a profiler, and more."
-msgstr ""
-"Godot stara się dostarczać własne narzędzia na podstawowe zadania. Posiada "
-"dedykowany obszar roboczy do skryptów, edytor animacji, edytor tilemap, "
-"edytor shaderów, debugger, profiler, możliwość ładowania gry lokalnie i na "
-"zdalnych urządzeniach itp."
 
 msgid ""
 "The team strives to offer a feature-rich game editor with a consistent user "
@@ -141,10 +90,6 @@ msgstr ""
 "rozwijamy wtyczki do pisania kodu w VSCode_ i Emacs_ dla GDScript i C#. "
 "Obsługujemy także Visual Studio dla C# w systemie Windows."
 
-#, fuzzy
-msgid "Programming languages"
-msgstr "Języki Shaderów"
-
 msgid "Let's talk about the available programming languages."
 msgstr "Porozmawiajmy o dostępnych językach programowania."
 
@@ -159,28 +104,6 @@ msgstr ""
 "języka o nieskomplikowanej (lekkiej) składni, lub :ref:`C# <toc-learn-"
 "scripting-C#> `, który jest popularny w branży gier. Są to dwa główne języki "
 "skryptowe, które obsługujemy."
-
-#, fuzzy
-msgid ""
-"With the GDExtension technology, you can also write gameplay or high-"
-"performance algorithms in C or C++ without recompiling the engine. You can "
-"use this technology to integrate third-party libraries and other Software "
-"Development Kits (SDK) in the engine."
-msgstr ""
-"Dzięki technologii :ref:`GDNative <toc-tutorials-gdnative>` możesz zarówno "
-"tworzyć rozgrywkę w swojej grze jak i algorytmy o wysokiej wydajności w C "
-"lub C++, bez konieczności ponownej kompilacji silnika. Możesz użyć tej "
-"technologii do zintegrowania bibliotek innych firm i innych zestawów "
-"programistycznych (SDK) w silniku."
-
-#, fuzzy
-msgid ""
-"Of course, you can also directly add modules and features to the engine, as "
-"it's completely free and open source."
-msgstr ""
-"Oczywiście, możesz także bezpośrednio dodawać moduły i nowe funkcje do "
-"silnika, ponieważ jest on całkowicie darmowy i stanowi otwarte "
-"oprogramowanie."
 
 msgid "What do I need to know to use Godot?"
 msgstr "Co muszę wiedzieć, żeby korzystać z Godot?"

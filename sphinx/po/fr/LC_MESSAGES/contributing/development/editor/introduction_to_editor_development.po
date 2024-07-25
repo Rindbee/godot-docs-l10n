@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,21 +46,6 @@ msgstr ""
 msgid "Technical choices"
 msgstr "Choix techniques"
 
-#, fuzzy
-msgid ""
-"The Godot editor is drawn using Godot's renderer and :ref:`UI system "
-"<doc_user_interface>`. It does *not* rely on a toolkit such as GTK or Qt. "
-"This is similar in spirit to software like Blender. While using toolkits "
-"makes it easier to achieve a \"native\" appearance, they are also quite "
-"heavy and their licensing is not compatible with Godot's."
-msgstr ""
-"L'éditeur Godot est dessiné à l'aide du moteur de rendu de Godot et du :ref:"
-"`système d'interface utilisateur <toc-gui-basics>`. Il ne repose *pas* sur "
-"une boîte à outils telle que GTK ou Qt. L'esprit est similaire à celui de "
-"logiciels comme Blender. Si l'utilisation de boîtes à outils permet "
-"d'obtenir plus facilement un aspect \"natif\", elles sont également assez "
-"lourdes et leur licence n'est pas compatible avec celle de Godot."
-
 msgid ""
 "The editor is fully written in C++. It can't contain any GDScript or C# code."
 msgstr ""
@@ -84,79 +64,8 @@ msgstr ""
 "<https://github.com/godotengine/godot/tree/master/editor>`__ du dépôt de "
 "sources de Godot."
 
-#, fuzzy
-msgid ""
-"Some editor functionality is also implemented via :ref:`modules "
-"<doc_custom_modules_in_cpp>`. Some of these are only enabled in editor "
-"builds to decrease the binary size of export templates. See the `modules/ "
-"<https://github.com/godotengine/godot/tree/master/modules>`__ folder in the "
-"Godot source repository."
-msgstr ""
-"Certaines fonctionnalités de l'éditeur sont également implémentées via :ref:"
-"`modules <doc_custom_modules_in_c++>`. Certains d'entre eux ne sont activés "
-"que dans les builds de l'éditeur pour diminuer la taille binaire des modèles "
-"d'exportation. Voir le dossier `modules/ <https://github.com/godotengine/"
-"godot/tree/master/modules>`__ dans le dépôt des sources de Godot."
-
 msgid "Some important files in the editor are:"
 msgstr "Certains fichiers importants de l'éditeur sont :"
-
-#, fuzzy
-msgid ""
-"`editor/editor_node.cpp <https://github.com/godotengine/godot/blob/master/"
-"editor/editor_node.cpp>`__: Main editor initialization file. Effectively the "
-"\"main scene\" of the editor."
-msgstr ""
-"`editor/editor_node.cpp <https://github.com/godotengine/godot/blob/3.x/"
-"editor/editor_node.cpp>`__ : Fichier d'initialisation de l'éditeur "
-"principal. Effectivement, la \"scène principale\" de l'éditeur."
-
-#, fuzzy
-msgid ""
-"`editor/project_manager.cpp <https://github.com/godotengine/godot/blob/"
-"master/editor/project_manager.cpp>`__: Main Project Manager initialization "
-"file. Effectively the \"main scene\" of the Project Manager."
-msgstr ""
-"`editor/project_manager.cpp <https://github.com/godotengine/godot/blob/3.x/"
-"editor/project_manager.cpp>`__ : Fichier d'initialisation principal du "
-"gestionnaire de projet. Effectivement, la \"scène principale\" du "
-"gestionnaire de projet."
-
-#, fuzzy
-msgid ""
-"`editor/plugins/canvas_item_editor_plugin.cpp <https://github.com/"
-"godotengine/godot/blob/master/editor/plugins/canvas_item_editor_plugin."
-"cpp>`__: The 2D editor viewport and related functionality (toolbar at the "
-"top, editing modes, overlaid helpers/panels, …)."
-msgstr ""
-"`editor/plugins/canvas_item_editor_plugin.cpp <https://github.com/"
-"godotengine/godot/blob/3.x/editor/plugins/canvas_item_editor_plugin."
-"cpp>`__ : Le viewport de l'éditeur 2D et les fonctionnalités associées "
-"(toolbar at the top, editing modes, overlaid helpers/panels, …)."
-
-#, fuzzy
-msgid ""
-"`editor/plugins/node_3d_editor_plugin.cpp <https://github.com/godotengine/"
-"godot/blob/master/editor/plugins/node_3d_editor_plugin.cpp>`__: The 3D "
-"editor viewport and related functionality (toolbar at the top, editing "
-"modes, overlaid panels, …)."
-msgstr ""
-"`editor/plugins/spatial_editor_plugin.cpp <https://github.com/godotengine/"
-"godot/blob/3.x/editor/plugins/spatial_editor_plugin.cpp>`__ : Le viewport de "
-"l'éditeur 3D et les fonctionnalités associées (toolbar at the top, editing "
-"modes, overlaid panels, …)."
-
-#, fuzzy
-msgid ""
-"`editor/plugins/node_3d_editor_gizmos.cpp <https://github.com/godotengine/"
-"godot/blob/master/editor/plugins/node_3d_editor_gizmos.cpp>`__: Where the 3D "
-"editor gizmos are defined and drawn. This file doesn't have a 2D counterpart "
-"as 2D gizmos are drawn by the nodes themselves."
-msgstr ""
-"`editor/spatial_editor_gizmos.cpp <https://github.com/godotengine/godot/"
-"blob/3.x/editor/spatial_editor_gizmos.cpp>`__ : Là où les gizmos de "
-"l'éditeur 3D sont définis et dessinés. Ce fichier n'a pas d'équivalent en 2D "
-"car les gizmos 2D sont dessinés par les nœuds eux-mêmes."
 
 msgid "Editor dependencies in ``scene/`` files"
 msgstr "Dépendances de l'éditeur dans les fichiers ``scene/``"
@@ -200,31 +109,8 @@ msgstr ""
 "``scene/`` peut dépendre des includes de ``servers/`` et ``core/``, il ne "
 "peut pas dépendre des includes de ``editor/``."
 
-#, fuzzy
-msgid ""
-"Currently, there are some dependencies to ``editor/`` includes in ``scene/`` "
-"files, but `they are in the process of being removed <https://github.com/"
-"godotengine/godot/issues/53295>`__."
-msgstr ""
-"Actuellement, il y a quelques dépendances aux includes de ``editor/`` dans "
-"les fichiers ``scene/``, mais elles sont en train d'être supprimées <https://"
-"github.com/godotengine/godot/issues/29730>`__."
-
 msgid "Development tips"
 msgstr "Conseils de développement"
-
-#, fuzzy
-msgid ""
-"To iterate quickly on the editor, we recommend to set up a test project and :"
-"ref:`open it from the command line <doc_command_line_tutorial>` after "
-"compiling the editor. This way, you don't have to go through the Project "
-"Manager every time you start Godot."
-msgstr ""
-"Pour itérer rapidement sur l'éditeur, nous recommandons de mettre en place "
-"un projet de test et :ref:`l'ouvrir depuis la ligne de commande "
-"<doc_command_line_tutorial>` après avoir compilé l'éditeur. De cette façon, "
-"vous n'avez pas à passer par le gestionnaire de projet à chaque fois que "
-"vous démarrez Godot."
 
 msgid "Translation status"
 msgstr "État de la traduction"

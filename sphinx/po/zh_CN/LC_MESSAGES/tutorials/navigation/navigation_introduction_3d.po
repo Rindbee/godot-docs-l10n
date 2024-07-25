@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,15 +47,13 @@ msgstr ""
 msgid ":ref:`NavigationServer3D<class_NavigationServer3D>`"
 msgstr ":ref:`NavigationServer3D<class_NavigationServer3D>`"
 
-#, fuzzy
 msgid ""
 "``NavigationServer3D`` provides a powerful server API to find the shortest "
 "path between two positions on an area defined by a navigation mesh."
 msgstr ""
 "``NavigationServer3D`` 提供了强大的服务器 API，能够在区域中查找两个位置之间的"
-"最短路径，区域由导航网格定义。"
+"最短路径，区域使用导航网格定义。"
 
-#, fuzzy
 msgid ""
 "The NavigationServer is best suited for 3D realtime gameplay that does "
 "require actors to reach any possible position within a navigation mesh "
@@ -118,11 +111,10 @@ msgstr "引用指定的导航链接，能够将两个导航网格上的位置进
 msgid "NavAgent RID"
 msgstr "导航代理 RID"
 
-#, fuzzy
 msgid ""
 "Reference to a specific avoidance agent. The avoidance is defined by a "
 "radius value."
-msgstr "引用指定的避障代理，包含半径值，只会在避障中使用。"
+msgstr "引用指定的避障代理，避障时使用的是半径值。"
 
 msgid "NavObstacle RID"
 msgstr "导航障碍物 RID"
@@ -132,7 +124,6 @@ msgid ""
 "avoidance velocity of agents."
 msgstr "引用指定的避障障碍物，会对代理的避障速度产生影响和约束。"
 
-#, fuzzy
 msgid ""
 "The following scene tree nodes are available as helpers to work with the "
 "NavigationServer3D API."
@@ -157,11 +148,10 @@ msgid ""
 msgstr ""
 "通过 ``navigation_layers`` 掩码，可以对其在寻路中的使用做进一步的限制。"
 
-#, fuzzy
 msgid ""
 "The NavigationServer3D will join the navigation meshes of regions by "
 "proximity for a combined navigation mesh."
-msgstr "区块可以根据距离将不同的导航网格合并成一个导航网格。"
+msgstr "NavigationServer3D 会根据距离将不同的导航网格合并成一个导航网格。"
 
 msgid ":ref:`NavigationLink3D<class_NavigationLink3D>` Node"
 msgstr ":ref:`NavigationLink3D<class_NavigationLink3D>` 节点"
@@ -187,14 +177,13 @@ msgstr ""
 msgid ":ref:`NavigationAgent3D<class_NavigationAgent3D>` Node"
 msgstr ":ref:`NavigationAgent3D<class_NavigationAgent3D>` 节点"
 
-#, fuzzy
 msgid ""
 "A helper Node used to facilitate common NavigationServer3D API calls for "
 "pathfinding and avoidance. Use this Node with a Node3D inheriting parent "
 "Node."
 msgstr ""
-"可选的辅助节点，用于为继承自 Node3D 的父节点提供寻路和避障所需的常规 "
-"NavigationServer3D API 调用。"
+"方便调用寻路和避障所需的常规 NavigationServer3D API 的辅助节点。该节点的父节"
+"点应该继承自 Node3D。"
 
 msgid ":ref:`NavigationObstacle3D<class_NavigationObstacle3D>` Node"
 msgstr ":ref:`NavigationObstacle3D<class_NavigationObstacle3D>` 节点"
@@ -213,7 +202,6 @@ msgstr "3D 导航网格由以下资源定义："
 msgid ":ref:`NavigationMesh<class_NavigationMesh>` Resource"
 msgstr ":ref:`NavigationMesh<class_NavigationMesh>` 资源"
 
-#, fuzzy
 msgid ""
 "A resource that holds 3D navigation mesh data. It provides 3D geometry "
 "baking options to define navigation areas inside the Editor as well as at "
@@ -231,7 +219,6 @@ msgid ""
 "individual regions."
 msgstr "NavigationServer3D 使用该资源更新各个区块的导航网格。"
 
-#, fuzzy
 msgid ""
 "The GridMap Editor uses this resource when specific navigation meshes are "
 "defined for each grid cell."
@@ -248,13 +235,12 @@ msgstr ""
 msgid "Setup for 3D scene"
 msgstr "3D 场景的设置"
 
-#, fuzzy
 msgid ""
 "The following steps show a basic setup for minimal viable navigation in 3D. "
 "It uses the NavigationServer3D and a NavigationAgent3D for path movement."
 msgstr ""
-"下列步骤演示的是最小可行的 2D 导航的基础设置，使用 NavigationServer2D 和 "
-"NavigationAgent2D 进行路径移动。"
+"下列步骤演示的是最小可行的 3D 导航的基础设置，使用 NavigationServer3D 和 "
+"NavigationAgent3D 进行路径移动。"
 
 msgid "Add a NavigationRegion3D Node to the scene."
 msgstr "在场景中添加一个 NavigationRegion3D 节点。"
@@ -280,11 +266,10 @@ msgid ""
 "top bar."
 msgstr "再次选中该区块节点，点击顶栏中的“烘焙导航网格”按钮。"
 
-#, fuzzy
 msgid ""
 "Now a transparent navigation mesh appears that hovers some distance on top "
 "of the PlaneMesh."
-msgstr "现在就会显示出透明的导航网格，悬浮在平面网格上方。"
+msgstr "现在就会显示出透明的导航网格，悬浮在 PlaneMesh 上方。"
 
 msgid ""
 "Add a CharacterBody3D node in the scene with a basic collision shape and "

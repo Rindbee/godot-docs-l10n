@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,9 +30,8 @@ msgstr "커뮤니티"
 msgid "Class reference"
 msgstr "클래스 레퍼런스"
 
-#, fuzzy
 msgid "Godot Docs – *master* branch"
-msgstr "Godot 문서 – *4.2* 브랜치"
+msgstr "Godot 문서 - *master* 브랜치"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "
@@ -131,7 +125,6 @@ msgstr "번역 상태"
 msgid "Offline documentation"
 msgstr "오프라인 문서"
 
-#, fuzzy
 msgid ""
 "To browse the documentation offline, you can download an HTML copy (updated "
 "every Monday): `stable <https://nightly.link/godotengine/godot-docs/"
@@ -142,24 +135,11 @@ msgid ""
 "html-3.6.zip>`__. Extract the ZIP archive then open the top-level ``index."
 "html`` in a web browser."
 msgstr ""
-"오프라인으로 읽을 수 있는 `HTML 복사본을 다운로드받을 수도 있습니다 <https://"
-"nightly.link/godotengine/godot-docs/workflows/build_offline_docs/master/"
-"godot-docs-html-stable.zip>`\\ (매주 월요일 업데이트). ZIP 파일의 압축을 풀"
-"고 웹브라우저에서 ``index.html``\\ 을 여세요."
-
-#, fuzzy
-msgid ""
-"For mobile devices or e-readers, you can also download an ePub copy (updated "
-"every Monday): `stable <https://nightly.link/godotengine/godot-docs/"
-"workflows/build_offline_docs/master/godot-docs-epub-stable.zip>`__, `latest "
-"<https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/"
-"master/godot-docs-epub-master.zip>`__, `3.6 <https://nightly.link/"
+"오프라인으로 읽을 수 있는 HTML 복사본을 다운로드받을 수도 있습니다(매주 월요"
+"일 업데이트): `안정 버전 <https://nightly.link/godotengine/godot-docs/"
+"workflows/build_offline_docs/master/godot-docs-html-stable.zip>` __, `최신 버"
+"전 <https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/"
+"master/godot-docs-html-master.zip>` __, `3.6 버전 <https://nightly.link/"
 "godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-"
-"epub-3.6.zip>`__. Extract the ZIP archive then open the ``GodotEngine.epub`` "
-"file in an e-book reader application."
-msgstr ""
-"모바일 장치나 e-리더용으로는 `ePub 복사본을 다운로드 <https://nightly.link/"
-"godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-epub-"
-"master.zip>`__ 해서 오프라인에서 읽을 수도 있습니다(매 월요일마다 갱신됩니"
-"다). ZIP 압축을 푼 뒤 ``GodotEngine.epub`` 파일을 e-북 리더 앱에서 열어 보세"
-"요."
+"html-3.6.zip>` __.\\ ZIP 파일의 압축을 풀고 웹브라우저에서 ``index.html``\\ "
+"을 여세요."

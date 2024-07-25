@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,24 +15,8 @@ msgstr ""
 msgid "Complying with licenses"
 msgstr "通過 Mono 進行編譯"
 
-msgid ""
-"The recommendations in this page **are not legal advice.** They are provided "
-"in good faith to help users navigate license attribution requirements."
-msgstr ""
-
 msgid "What are licenses?"
 msgstr "什麼是許可證？"
-
-#, fuzzy
-msgid ""
-"Godot is created and distributed under the `MIT License <https://opensource."
-"org/licenses/MIT>`_. It doesn't have a sole owner, as every contributor that "
-"submits code to the project does it under this same license and keeps "
-"ownership of their contribution."
-msgstr ""
-"Godot 是根據 `MIT License <https://opensource.org/licenses/MIT>`_ 建立並分發"
-"的。它也沒有唯一的所有者，因為向該專案提交程式碼的每個貢獻者都在相同的許可證"
-"下執行該程式碼，並保留貢獻的所有權。"
 
 msgid ""
 "The license is the legal requirement for you (or your company) to use and "
@@ -59,16 +38,6 @@ msgstr ""
 "<doc_best_practices_for_engine_contributors_license_compliance>` 找到指南說"
 "明。"
 
-#, fuzzy
-msgid ""
-"Alongside the Godot license text, remember to also list third-party notices "
-"for assets you're using, such as textures, models, sounds, music and fonts. "
-"This includes free assets, which often come with licenses that require "
-"attribution."
-msgstr ""
-"在你的專案的致謝介面，請記得列出你所使用的紋理、模型、音效、音樂、字形等素材"
-"的協力廠商通告。"
-
 msgid "Requirements"
 msgstr "系統需求"
 
@@ -76,15 +45,6 @@ msgid ""
 "In the case of the MIT license, the only requirement is to include the "
 "license text somewhere in your game or derivative project."
 msgstr "對於MIT許可證，唯一的要求是將許可證文字包含在您的遊戲或衍生專案中。"
-
-#, fuzzy
-msgid "This text reads as follows::"
-msgstr "文字內容如下："
-
-msgid ""
-"Beside its own MIT license, Godot includes code from a number of third-party "
-"libraries. See :ref:`doc_complying_with_licenses_thirdparty` for details."
-msgstr ""
 
 msgid ""
 "Your games do not need to be under the same license. You are free to release "
@@ -96,15 +56,6 @@ msgstr ""
 
 msgid "Inclusion"
 msgstr "包含"
-
-#, fuzzy
-msgid ""
-"The license text must be made available to the user. The license doesn't "
-"specify how the text has to be included, but here are the most common "
-"approaches (you only need to implement one of them, not all)."
-msgstr ""
-"許可證沒有指定必須包含的方式, 因此任何內容只要在某些情況下可以顯示就有效. 這"
-"些是最常見的方法(只需要實作其中一種, 而不是全部)."
 
 msgid "Credits screen"
 msgstr "演職員表"
@@ -131,36 +82,11 @@ msgstr ""
 msgid "Output log"
 msgstr "輸出紀錄"
 
-#, fuzzy
-msgid ""
-"Printing the license text using the :ref:`print() "
-"<class_@GlobalScope_method_print>` function may be enough on platforms where "
-"a global output log is readable. This is the case on desktop platforms, "
-"Android and HTML5 (but not iOS)."
-msgstr ""
-"對於可以閱讀全域輸出紀錄的平臺，將許可證文字使用 :ref:`print() "
-"<class_@GlobalScope_method_print>` 輸出可能就足夠了。適用於桌面平臺、Android "
-"和 HTML5（但不適用於 iOS 和 UWP）。"
-
 msgid "Accompanying file"
 msgstr "附帶檔案"
 
-#, fuzzy
-msgid ""
-"If the game is distributed on desktop platforms, a file containing the "
-"license text can be added to the software that is installed to the user PC."
-msgstr ""
-"如果遊戲是在桌面平臺上發行的，可以在安裝到使用者 PC 的軟體中加入一個包含許可"
-"證的檔。"
-
 msgid "Printed manual"
 msgstr "印刷手冊"
-
-#, fuzzy
-msgid ""
-"If the game includes a printed manual, the license text can be included "
-"there."
-msgstr "如果遊戲中包含印刷手冊，可以在其中加入授權文字。"
 
 msgid "Link to the license"
 msgstr "同意授權條款"
@@ -172,16 +98,6 @@ msgid ""
 msgstr ""
 "Godot 引擎開發者認為，在你遊戲的文件或者製作組資訊中加入指向 ``godotengine."
 "org/license`` 的連結就可以滿足許可證的條款。"
-
-#, fuzzy
-msgid ""
-"Godot provides several methods to get license information in the :ref:"
-"`Engine <class_Engine>` singleton. This allows you to source the license "
-"information directly from the engine binary, which prevents the information "
-"from becoming outdated if you update engine versions."
-msgstr ""
-"Godot 提供了多種方法來獲取引擎單例中的許可證資訊。 這將允許你直接從引擎二進位"
-"檔案中獲取許可證資訊，從而防止更新引擎版本時資訊過時。"
 
 msgid "For the engine itself:"
 msgstr "對於引擎自己："
@@ -205,32 +121,6 @@ msgstr ""
 
 msgid "Third-party licenses"
 msgstr "第三方工具"
-
-msgid ""
-"Godot itself contains software written by `third parties <https://github.com/"
-"godotengine/godot/blob/master/thirdparty/README.md>`_, which is compatible "
-"with, but not covered by Godot's MIT license."
-msgstr ""
-
-msgid ""
-"Many of these dependencies are distributed under permissive open source "
-"licenses which require attribution by explicitly citing their copyright "
-"statement and license text in the final product's documentation."
-msgstr ""
-
-msgid ""
-"Given the scope of the Godot project, this is fairly difficult to do "
-"thoroughly. For the Godot editor, the full documentation of third-party "
-"copyrights and licenses is provided in the `COPYRIGHT.txt <https://github."
-"com/godotengine/godot/blob/master/COPYRIGHT.txt>`_ file."
-msgstr ""
-
-msgid ""
-"A good option for end users to document third-party licenses is to include "
-"this file in your project's distribution, which you can e.g. rename to "
-"``GODOT_COPYRIGHT.txt`` to prevent any confusion with your own code and "
-"assets."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

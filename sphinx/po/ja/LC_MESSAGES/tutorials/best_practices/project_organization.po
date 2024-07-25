@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,34 +63,6 @@ msgstr ""
 "本的なアセットを単一のフォルダに配置できます。その後、別のフォルダを使用し"
 "て、それらを使用してビルドされたレベルを格納することもできます。"
 
-#, fuzzy
-msgid "Style guide"
-msgstr "C#スタイルガイド"
-
-msgid ""
-"For consistency across projects, we recommend following these guidelines:"
-msgstr ""
-
-msgid ""
-"Use **snake_case** for folder and file names (with the exception of C# "
-"scripts). This sidesteps case sensitivity issues that can crop up after "
-"exporting a project on Windows. C# scripts are an exception to this rule, as "
-"the convention is to name them after the class name which should be in "
-"PascalCase."
-msgstr ""
-
-msgid ""
-"Use **PascalCase** for node names, as this matches built-in node casing."
-msgstr ""
-
-msgid ""
-"In general, keep third-party resources in a top-level ``addons/`` folder, "
-"even if they aren't editor plugins. This makes it easier to track which "
-"files are third-party. There are some exceptions to this rule; for instance, "
-"if you use third-party game assets for a character, it makes more sense to "
-"include them within the same folder as the character scenes and scripts."
-msgstr ""
-
 msgid "Importing"
 msgstr "インポート"
 
@@ -127,67 +94,6 @@ msgstr ""
 "フォルダ内に ``.gdignore`` という空のファイルを作成します (先頭に ``.`` が必"
 "要です)。これは、(既存の構成などからの)初期プロジェクトのインポートを高速化す"
 "るのに役立ちます。"
-
-msgid ""
-"To create a file whose name starts with a dot on Windows, place a dot at "
-"both the beginning and end of the filename (\".gdignore.\"). Windows will "
-"automatically remove the trailing dot when you confirm the name."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Alternatively, you can use a text editor such as Notepad++ or use the "
-"following command in a command prompt: ``type nul > .gdignore``"
-msgstr ""
-"Windowsでドットで始まる名前のファイルを作成するには、Notepad++などのテキスト"
-"エディタを使用するか、コマンドプロンプトで次のコマンドを使用します: ``type "
-"nul> .gdignore``"
-
-#, fuzzy
-msgid ""
-"Once the folder is ignored, resources in that folder can't be loaded anymore "
-"using the ``load()`` and ``preload()`` methods. Ignoring a folder will also "
-"automatically hide it from the FileSystem dock, which can be useful to "
-"reduce clutter."
-msgstr ""
-"フォルダが無視されると、そのフォルダ内のリソースを ``load()`` および "
-"``preload()`` メソッドを使用して読み込むことができなくなります。"
-
-msgid ""
-"Note that the ``.gdignore`` file's contents are ignored, which is why the "
-"file should be empty. It does not support patterns like ``.gitignore`` files "
-"do."
-msgstr ""
-
-msgid "Case sensitivity"
-msgstr ""
-
-msgid ""
-"Windows and recent macOS versions use case-insensitive filesystems by "
-"default, whereas Linux distributions use a case-sensitive filesystem by "
-"default. This can cause issues after exporting a project, since Godot's PCK "
-"virtual filesystem is case-sensitive. To avoid this, it's recommended to "
-"stick to ``snake_case`` naming for all files in the project (and lowercase "
-"characters in general)."
-msgstr ""
-
-msgid ""
-"You can break this rule when style guides say otherwise (such as the C# "
-"style guide). Still, be consistent to avoid mistakes."
-msgstr ""
-
-msgid ""
-"On Windows 10, to further avoid mistakes related to case sensitivity, you "
-"can also make the project folder case-sensitive. After enabling the Windows "
-"Subsystem for Linux feature, run the following command in a PowerShell "
-"window::"
-msgstr ""
-
-msgid ""
-"If you haven't enabled the Windows Subsystem for Linux, you can enter the "
-"following line in a PowerShell window *running as Administrator* then reboot "
-"when asked::"
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +184,6 @@ msgstr "``ARRAY_INDEX``"
 msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
 msgstr ":ref:`PackedInt32Array <class_PackedInt32Array>`"
 
-#, fuzzy
 msgid ""
 "In most cases when creating a mesh, we define it by its vertex positions. So "
 "usually, the array of vertices (at index 0) is required, while the index "
@@ -202,8 +196,7 @@ msgstr ""
 "Index 0) erforderlich, während das Index-Array (bei Index 12) optional ist "
 "und nur verwendet wird, wenn es angegeben wird. Es ist auch möglich, ein "
 "Mesh nur mit dem Index-Array und ohne Vertex-Array zu erstellen, aber das "
-"würde den Rahmen dieses Tutorials sprengen. Tatsächlich werden wir das Index-"
-"Array überhaupt nicht verwenden."
+"würde den Rahmen dieses Tutorials sprengen."
 
 msgid ""
 "All the other arrays carry information about the vertices. They are optional "

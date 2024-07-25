@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -376,11 +371,6 @@ msgstr ""
 "アイコンは正方形（縦横比1:1）でなければなりません。解像度は128×128ピクセル以"
 "上である必要があります。"
 
-msgid ""
-"For icons hosted on GitHub, URLs must be provided in the form of `https://"
-"raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png`."
-msgstr ""
-
 msgid "**License**:"
 msgstr "\\ **License**:"
 
@@ -439,26 +429,6 @@ msgid ""
 msgstr ""
 "プレビューのサムネイルとして使用される画像へのURL。このオプションは最終的に削"
 "除され、代わりにサムネイルが自動的に計算されます。"
-
-msgid ""
-"Once you are done, press \"Submit\". Your asset will be entered into the "
-"review queue. You can check all assets currently pending a review `here "
-"<https://godotengine.org/asset-library/asset/edit?&asset=-1>`_ . The "
-"approval process is manual and may take up to a few days for your asset to "
-"be accepted (or rejected), so please be patient!"
-msgstr ""
-
-msgid ""
-"You may have some luck accelerating the approval process by messaging the "
-"moderators and AssetLib reviewers on the `Godot Contributors Chat <https://"
-"chat.godotengine.org/>`_, or the official Discord server."
-msgstr ""
-
-msgid ""
-"You will be informed when your asset is reviewed. If it was rejected, you "
-"will be told why that may have been, and you will be able to submit it again "
-"with the appropriate changes."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

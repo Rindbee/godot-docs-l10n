@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,19 +110,6 @@ msgstr ""
 "的是坐标表示法。举个例子，Godot 中以屏幕左上角为原点，因此要将一个名为 "
 "``Node2D`` 的 2D 节点放在向右 400 像素、向下 300 像素的位置，可以使用如下代"
 "码："
-
-#, fuzzy
-msgid ""
-"Godot supports both :ref:`Vector2 <class_Vector2>` and :ref:`Vector3 "
-"<class_Vector3>` for 2D and 3D usage, respectively. The same mathematical "
-"rules discussed in this article apply to both types, and wherever we link to "
-"``Vector2`` methods in the class reference, you can also check out their "
-"``Vector3`` counterparts."
-msgstr ""
-"Godot支持 :ref:`Vector2 <class_Vector2>` 和 :ref:`Vector3 <class_Vector3>` ，"
-"分别用于处理2D和3D中的向量计算。本文讨论的数学规则在两个类中同样适用。除此以"
-"外，两个类的类方法通常名字相同：在 ``Vector2`` 模块中的某个类方法，同样可以"
-"在 ``Vector3`` 中找到对应同名方法。"
 
 msgid "Member access"
 msgstr "成员访问"
@@ -415,17 +397,6 @@ msgstr ""
 
 msgid "Calculating normals"
 msgstr "法线计算"
-
-#, fuzzy
-msgid ""
-"One common use of cross products is to find the surface normal of a plane or "
-"surface in 3D space. If we have the triangle ``ABC`` we can use vector "
-"subtraction to find two edges ``AB`` and ``AC``. Using the cross product, "
-"``AB × AC`` produces a vector perpendicular to both: the surface normal."
-msgstr ""
-"获取 3D 空间中平面或曲面的表面法向量是叉积运算的常见应用场景之一。假设有三角"
-"形 ``ABC`` ，我们可以通过向量减法找到两条边 ``AB`` 和 ``AC`` 。再借助叉积运"
-"算 ``AB x AC`` 得到一个垂直于这两个向量的向量，即表面法向量（法线）。"
 
 msgid "Here is a function to calculate a triangle's normal:"
 msgstr "下面是一个计算三角形法线的函数："

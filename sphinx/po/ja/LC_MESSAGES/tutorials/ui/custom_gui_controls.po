@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,19 +47,6 @@ msgstr ""
 msgid "Checking control size"
 msgstr "コントロールサイズの確認"
 
-#, fuzzy
-msgid ""
-"Unlike 2D nodes, \"size\" is important with controls, as it helps to "
-"organize them in proper layouts. For this, the :ref:`Control.size "
-"<class_Control_property_size>` property is provided. Checking it during "
-"``_draw()`` is vital to ensure everything is kept in-bounds."
-msgstr ""
-"2Dノードとは異なり、コントロールでは適切なレイアウトで整理することに役立つた"
-"め、「サイズ」が重要です。このために、\\ :ref:`Control.rect_size "
-"<class_Control_property_rect_size>` プロパティが提供されています。\\ "
-"``_draw()`` 中にそれをチェックすることは、すべてが境界内に保たれていることを"
-"確認するために不可欠です。"
-
 msgid "Checking focus"
 msgstr "フォーカスの確認"
 
@@ -106,18 +88,6 @@ msgstr ""
 "使用して互いの上に垂直に配置されている場合、最小サイズは、コンテナ内の他のコ"
 "ントロールによってカスタムコントロールが押しつぶされないようにします。"
 
-#, fuzzy
-msgid ""
-"To provide this callback, just override :ref:`Control._get_minimum_size() "
-"<class_Control_private_method__get_minimum_size>`, for example:"
-msgstr ""
-"このコールバックを提供するには、次のように :ref:`Control.get_minimum_size() "
-"class_Control_method_get_minimum_size>` をオーバーライドするだけです:"
-
-#, fuzzy
-msgid "Alternatively, set it using a function:"
-msgstr "または、関数を使用して設定します:"
-
 msgid "Input"
 msgstr "入力"
 
@@ -156,15 +126,6 @@ msgstr ""
 "コントロールは\\ :ref:`Control.focus_mode "
 "<class_Control_property_focus_mode>` を介してキーボード/ジョイパッドフォーカ"
 "スを提供します。"
-
-#, fuzzy
-msgid ""
-"This function is :ref:`Control._gui_input() "
-"<class_Control_private_method__gui_input>`. Simply override it in your "
-"control. No processing needs to be set."
-msgstr ""
-"この関数は\\ :ref:`Control._gui_input() <class_Control_method__gui_input>` で"
-"す。コントロールで単にオーバーライドします。処理を設定する必要はありません。"
 
 msgid ""
 "For more information about events themselves, check the :ref:"

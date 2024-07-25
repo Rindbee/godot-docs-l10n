@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,20 +13,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Making trees"
-msgstr "制作树"
+msgstr "树木的制作"
 
 msgid ""
 "This is a short tutorial on how to make trees and other types of vegetation "
 "from scratch."
 msgstr "这是一个关于如何从头开始制作树和其他类型植被的小教程."
-
-#, fuzzy
-msgid ""
-"The aim is to not focus on the modeling techniques (there are plenty of "
-"tutorials about that), but how to make them look good in Godot."
-msgstr ""
-"我们的目标不是专注于建模技术(关于这方面有很多教程), 而是如何让它们在Godot中看"
-"起来更好."
 
 msgid "Start with a tree"
 msgstr "从一棵树开始"
@@ -48,16 +35,6 @@ msgstr "然后用 Blender 打开。"
 msgid "Paint with vertex colors"
 msgstr "用顶点颜色绘制"
 
-#, fuzzy
-msgid ""
-"The first thing you may want to do is to use the vertex colors to paint how "
-"much the tree will sway when there is wind. Just use the vertex color "
-"painting tool of your favorite 3D modeling program and paint something like "
-"this:"
-msgstr ""
-"你可能要做的第一件事就是用顶点的颜色来描绘当有风的时候树会摇摆多少. 只需使用"
-"你最喜欢的三维建模程序的顶点着色工具, 并绘制如下:"
-
 msgid ""
 "This is a bit exaggerated, but the idea is that color indicates how much "
 "sway affects every part of the tree. This scale here represents it better:"
@@ -67,10 +44,6 @@ msgstr ""
 
 msgid "Write a custom shader for the leaves"
 msgstr "为叶子编写自定义着色器"
-
-#, fuzzy
-msgid "This is an example of a shader for leaves:"
-msgstr "这是一个简单的树叶着色器的示例:"
 
 msgid ""
 "This is a spatial shader. There is no front/back culling (so leaves can be "

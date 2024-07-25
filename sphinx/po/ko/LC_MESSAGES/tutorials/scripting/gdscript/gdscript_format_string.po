@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,18 +30,6 @@ msgstr ""
 "형식 문자열은 특정 플레이스홀더 문자 시퀀스(sequence)를 포함한다는 점을 제외"
 "하고는 일반 문자열과 같습니다. 그러면 플레이스홀더는 형식 문자열에 전달된 매"
 "개 변수로 쉽게 대치될 수 있습니다."
-
-#, fuzzy
-msgid ""
-"As an example, with ``%s`` as a placeholder, the format string ``\"Hello %s, "
-"how are you?\"`` can easily be changed to ``\"Hello World, how are you?\"``. "
-"Notice the placeholder is in the middle of the string; modifying it without "
-"format strings could be cumbersome."
-msgstr ""
-"예를 들어 ``%s``\\ 를 플레이스홀더로 사용하면 형식 문자열 ``\"Hello %s, how "
-"are you?``\\ 를 ``\"Hello World, how are you?\"``\\ 로 쉽게 변경할 수 있습니"
-"다. 플레이스홀더는 문자열 중간에 있으므로 형식 문자열 없이 수정하는 것은 번거"
-"로울 수 있습니다."
 
 msgid "Usage in GDScript"
 msgstr "GDScript에서 사용법"
@@ -208,16 +191,6 @@ msgstr "``f``"
 msgid "A **decimal real** number. Expects an integral or real number."
 msgstr "**실수**. 정수나 실수가 필요합니다."
 
-msgid "``v``"
-msgstr ""
-
-msgid ""
-"A **vector**. Expects any float or int-based vector object ( ``Vector2``, "
-"``Vector3``, ``Vector4``, ``Vector2i``, ``Vector3i`` or ``Vector4i``). Will "
-"display the vector coordinates in parentheses, formatting each coordinate as "
-"if it was an ``%f``, and using the same modifiers."
-msgstr ""
-
 msgid "Placeholder modifiers"
 msgstr "플레이스 홀더 수정자"
 
@@ -236,26 +209,8 @@ msgstr "숫자 지정자에서, 숫자가 양수라면 **+ 부호를 표시합�
 msgid "Integer"
 msgstr "정수(Integer)"
 
-#, fuzzy
-msgid ""
-"Set **padding**. Padded with spaces or with zeroes if integer starts with "
-"``0`` in an integer or real number placeholder. The leading ``0`` is ignored "
-"if ``-`` is present. When used after ``.``, see ``.``."
-msgstr ""
-"**패딩** 를 설정합니다. 정수 플레이스 홀더에서 정수가 ``0`` 으로 시작한다면 "
-"그곳을 0이나 공백으로 채웁니다. ``.`` 뒤에서 쓰는 경우는, ``.`` 를 참고하세"
-"요."
-
 msgid "``.``"
 msgstr "``.``"
-
-#, fuzzy
-msgid ""
-"Before ``f`` or ``v``, set **precision** to 0 decimal places. Can be "
-"followed up with numbers to change. Padded with zeroes."
-msgstr ""
-"``f``이전에, **정밀도** 를 소수점 이하 자릿수 0으로 설정합니다. 변경할 숫자"
-"를 뒤따라 갈 수 있습니다. 0으로 채워집니다."
 
 msgid "``-``"
 msgstr "``-``"

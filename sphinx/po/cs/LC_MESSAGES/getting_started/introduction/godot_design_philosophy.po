@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,26 +121,11 @@ msgstr ""
 "jsou kolizní tvary, které jsou využívány rodičovským uzlem, zde fyzikálním "
 "tělesem (physic body), většina uzlů pracuje nezávisle na sobě."
 
-msgid ""
-"In other words, Godot's nodes do not work like components in some other game "
-"engines."
-msgstr ""
-
 msgid "|image1|"
 msgstr "| image1 |"
 
 msgid "image1"
 msgstr "image1"
-
-#, fuzzy
-msgid ""
-"Sprite2D is a Node2D, a CanvasItem and a Node. It has all the properties and "
-"features of its three parent classes, like transforms or the ability to draw "
-"custom shapes and render with a custom shader."
-msgstr ""
-"Sprite je potomek Node2D, CanvasItem a Node. Má všechny vlastnosti a rysy "
-"svých tří nadřazených (rodičovských) tříd, jako jsou transformace nebo "
-"schopnost kreslit vlastní tvary a vykreslovat se pomocí vlastního shaderu."
 
 msgid "All-inclusive package"
 msgstr "All-inclusive balíček"
@@ -167,28 +147,6 @@ msgstr "| image2 |"
 msgid "image2"
 msgstr "image2"
 
-#, fuzzy
-msgid ""
-"The goal is to offer a full package to create games and a continuous user "
-"experience. You can still work with external programs as long as there is an "
-"import plugin available in Godot for it. Or you can create one, like the "
-"`Tiled Map Importer <https://github.com/vnen/godot-tiled-importer>`__."
-msgstr ""
-"Cílem je nabídnout kompletní balíček pro vytváření her a plynulou "
-"uživatelskou zkušenost. Stále můžete pracovat s externími programy, pokud "
-"pro ně existuje plugin pro import. Nebo si můžete jeden vytvořit, například "
-"`Tiled Map Importer <https://github.com/vnen/godot-tiled-importer>`__."
-
-#, fuzzy
-msgid ""
-"That is also partly why Godot offers its own programming language GDScript "
-"along with C#. GDScript is designed for the needs of game developers and "
-"game designers, and is tightly integrated in the engine and the editor."
-msgstr ""
-"To je také částečně důvod, proč Godot nabízí své vlastní programovací jazyky "
-"GDscript a VisualScript, spolu s C#. Jsou navrženy pro potřeby vývojářů her "
-"a návrhářů her a jsou pevně integrovány do enginu a editoru."
-
 msgid ""
 "GDScript lets you write code using an indentation-based syntax, yet it "
 "detects types and offers a static language's quality of auto-completion. It "
@@ -199,16 +157,6 @@ msgstr ""
 "přesto detekuje typy a nabízí automatické doplňování v kvalitě statického "
 "jazyka. Je také optimalizován pro herní kód s vestavěnými typy, jako jsou "
 "vektory a barvy."
-
-#, fuzzy
-msgid ""
-"Note that with GDExtension, you can write high-performance code using "
-"compiled languages like C, C++, Rust, D, Haxe, or Swift without recompiling "
-"the engine."
-msgstr ""
-"Všimněte si také, že v GDNative můžete psát vysoce výkonný kód pomocí "
-"kompilovaných jazyků jako C, C ++, Rust nebo Python (pomocí kompilátoru "
-"Cython) bez překompilování enginu."
 
 msgid ""
 "Note that the 3D workspace doesn't feature as many tools as the 2D "
@@ -290,20 +238,6 @@ msgstr ""
 "Nové funkce od hlavních vývojářů se často zaměřují na to, co přinese užitek "
 "co nejvíce uživatelům."
 
-#, fuzzy
-msgid ""
-"That said, although a handful of core developers work on it full-time, the "
-"project has thousands of contributors at the time of writing. Benevolent "
-"programmers work on features they may need themselves, so you'll see "
-"improvements in all corners of the engine at the same time in every major "
-"release."
-msgstr ""
-"To znamená, že ačkoli zde pracuje několik vývojářů na plný úvazek, má v době "
-"psaní tohoto článku Godot více než 600 přispěvatelů. Dobrovolní programátoři "
-"pracují především na funkcích, které mohou potřebovat sami, takže ve všech "
-"hlavních vydáních uvidíte průběžné zlepšování všech oblastí, které engine "
-"pokrývá."
-
 msgid "The Godot editor is a Godot game"
 msgstr "Editor Godot je Godot hra"
 
@@ -317,16 +251,6 @@ msgstr ""
 "rozhraní enginu, může při testování projektů znovu načíst kód a scény, nebo "
 "spustit kód hry v editoru. To znamená, že můžete **použít stejný kód** a "
 "scény pro své hry, nebo **vytvořit doplňky a rozšířit editor.**"
-
-#, fuzzy
-msgid ""
-"This leads to a reliable and flexible UI system, as it powers the editor "
-"itself. With the ``@tool`` annotation, you can run any game code in the "
-"editor."
-msgstr ""
-"To vede k spolehlivému a flexibilnímu systému uživatelského rozhraní, "
-"protože to pohání editor samotný. Pomocí klíčového slova ``tool`` můžete v "
-"editoru spustit libovolný herní kód."
 
 msgid "|image5|"
 msgstr "| image5 |"
@@ -342,24 +266,6 @@ msgstr ""
 "*RPG in a Box je voxel RPG editor vytvořený programem Godot 2. Používá "
 "nástroje UI Godota pro svůj programovací systém založený na uzlech a pro "
 "zbytek rozhraní.*"
-
-#, fuzzy
-msgid ""
-"Put the ``@tool`` annotation at the top of any GDScript file and it will run "
-"in the editor. This lets you import and export plugins, create plugins like "
-"custom level editors, or create scripts with the same nodes and API you use "
-"in your projects."
-msgstr ""
-"Umístěte klíčové slovo ``tool`` na začátek jakéhokoli souboru GDScript a "
-"bude spuštěn v editoru. To vám umožní importovat a exportovat pluginy, "
-"vytvářet pluginy jako editory na vlastních úrovni nebo vytvářet skripty se "
-"stejnými uzly a API, jaké používáte ve svých projektech."
-
-msgid ""
-"The editor is fully written in C++ and is statically compiled into the "
-"binary. This means you can't import it as a typical project that would have "
-"a ``project.godot`` file."
-msgstr ""
 
 msgid "Separate 2D and 3D engines"
 msgstr "Oddělené 2D a 3D enginy"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -207,36 +202,12 @@ msgstr ""
 msgid "Say no to Euler angles"
 msgstr "Diga não aos ângulos de Euler"
 
-#, fuzzy
-msgid ""
-"The result of all this is that you should **not use** the ``rotation`` "
-"property of :ref:`class_Node3D` nodes in Godot for games. It's there to be "
-"used mainly in the editor, for coherence with the 2D engine, and for simple "
-"rotations (generally just one axis, or even two in limited cases). As much "
-"as you may be tempted, don't use it."
-msgstr ""
-"O resultado de tudo isso é que você deve **não utilizar** o ``rotation`` "
-"propriedade de nós :ref:`class_Spatial` no Godot para jogos. Ele existe para "
-"ser utilizado principalmente no editor, para coerência com a engine 2D, e "
-"para rotações simples (geralmente apenas um eixo, ou mesmo dois em casos "
-"limitados). Por mais que você se sinta tentado, não o utilize."
-
 msgid "Instead, there is a better way to solve your rotation problems."
 msgstr ""
 "Em vez disso, há uma maneira melhor de resolver seus problemas de rotação."
 
 msgid "Introducing transforms"
 msgstr "Introduzindo transformadores"
-
-#, fuzzy
-msgid ""
-"Godot uses the :ref:`class_Transform3D` datatype for orientations. Each :ref:"
-"`class_Node3D` node contains a ``transform`` property which is relative to "
-"the parent's transform, if the parent is a Node3D-derived type."
-msgstr ""
-"Godot utiliza o tipo de dados :ref:`classe_Transform` para orientações. "
-"Cada :ref:`class_Spatial` node contém uma propriedade ``transform`` que é "
-"relativa à transformação do pai, se o pai for derivado do tipo Spatial."
 
 msgid ""
 "It is also possible to access the world coordinate transform via the "
@@ -328,10 +299,6 @@ msgstr ""
 "É possível girar uma transformação, seja multiplicando sua base por outra "
 "(isso é chamado de acumulação), ou usando os métodos de rotação."
 
-#, fuzzy
-msgid "A method in Node3D simplifies this:"
-msgstr "Um método em Spatial simplifica isso:"
-
 msgid "This rotates the node relative to the parent node."
 msgstr "Isso gira o nó em relação ao nó pai."
 
@@ -379,16 +346,6 @@ msgstr ""
 "Isto fará com que todos os eixos tenham ``1.0`` de comprimento de novo e "
 "estejam ``90`` graus um do outro. Entretanto, qualquer escala aplicada à "
 "transformação será perdida."
-
-#, fuzzy
-msgid ""
-"It is recommended you not scale nodes that are going to be manipulated; "
-"scale their children nodes instead (such as MeshInstance3D). If you "
-"absolutely must scale the node, then re-apply it at the end:"
-msgstr ""
-"Recomenda-se não escalar os nós que vão ser manipulados; em vez disso, "
-"escalar os nós de seus filhos (como o MeshInstance). Se for absolutamente "
-"necessário escalar o nó, então reaplique-o no final:"
 
 msgid "Obtaining information"
 msgstr "Obtendo informação"
@@ -441,16 +398,6 @@ msgstr ""
 "orbitando. Estes são definitivamente feitos usando ângulos, porque você "
 "*quer que* as transformações aconteçam em uma ordem específica."
 
-#, fuzzy
-msgid ""
-"For such cases, keep the angles and rotations *outside* the transform and "
-"set them every frame. Don't try to retrieve and reuse them because the "
-"transform is not meant to be used this way."
-msgstr ""
-"Para estes casos, mantenha os ângulos e rotações *fora do* transform e "
-"coloque-os em cada quadro. Não tente recuperá-los e reutilizá-los porque o "
-"transform não deve ser usada desta maneira."
-
 msgid "Example of looking around, FPS style:"
 msgstr "Exemplo de olhar ao redor, estilo FPS:"
 
@@ -481,21 +428,6 @@ msgstr ""
 
 msgid "Converting a rotation to quaternion is straightforward."
 msgstr "Converter uma rotação para quaternion é simples."
-
-#, fuzzy
-msgid ""
-"The :ref:`class_Quaternion` type reference has more information on the "
-"datatype (it can also do transform accumulation, transform points, etc., "
-"though this is used less often). If you interpolate or apply operations to "
-"quaternions many times, keep in mind they need to be eventually normalized. "
-"Otherwise, they will also suffer from numerical precision errors."
-msgstr ""
-"A referência do tipo :ref:`classe_Quat` tem mais informações sobre o tipo de "
-"dados (também pode fazer acumulação de transformação, pontos de "
-"transformação, etc., embora isto seja utilizado com menos freqüência). Se "
-"você interpolar ou aplicar operações a quaternions muitas vezes, tenha em "
-"mente que elas precisam ser eventualmente normalizadas. Caso contrário, eles "
-"também sofrerão de erros de precisão numérica."
 
 msgid ""
 "Quaternions are useful when doing camera/path/etc. interpolations, as the "

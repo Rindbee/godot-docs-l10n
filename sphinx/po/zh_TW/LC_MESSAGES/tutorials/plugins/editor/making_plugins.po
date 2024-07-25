@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,30 +124,6 @@ msgstr ""
 "不能改變: 它必須是一個 ``@tool`` 腳本, 否則將無法在編輯器中正常載入；它必須繼"
 "承 :ref:`class_EditorPlugin`."
 
-#, fuzzy
-msgid ""
-"In addition to the EditorPlugin script, any other GDScript that your plugin "
-"uses must *also* be a tool. Any GDScript without ``@tool`` used by the "
-"editor will act like an empty file!"
-msgstr ""
-"除了 EditorPlugin 腳本之外，外掛程式用到的其他 GDScript *也*必須是工具腳本。*"
-"沒有 ``@tool`` 的 GDScript 在匯入編輯器後都會像空檔一樣！*建構專案時不會重新"
-"載入沒有 ``[Tool]`` 的 C# 類，你就只能重新啟用外掛程式了！"
-
-#, fuzzy
-msgid ""
-"It's important to deal with initialization and clean-up of resources. A good "
-"practice is to use the virtual function :ref:`_enter_tree() "
-"<class_Node_private_method__enter_tree>` to initialize your plugin and :ref:"
-"`_exit_tree() <class_Node_private_method__exit_tree>` to clean it up. "
-"Thankfully, the dialog generates these callbacks for you. Your script should "
-"look something like this:"
-msgstr ""
-"處理好資源的初始化和清理是很重要的。一個好的做法是使用虛函式 :ref:"
-"`_enter_tree() <class_Node_method__enter_tree>` 來初始化你的外掛程式，以及 :"
-"ref:`_exit_tree() <class_Node_method__exit_tree>` 來清理它。值得慶倖的是，對"
-"話方塊為你生成了這些回呼函式。你的腳本應該看起來像這樣："
-
 msgid "This is a good template to use when creating new plugins."
 msgstr "這是建立新外掛程式時使用的好範本."
 
@@ -217,14 +188,6 @@ msgstr ""
 "預設的, 並保存在你的 ``addons/my_custom_node`` 資料夾中, 作為 ``icon.png`` , "
 "或者使用預設的Godot旗標( `preload(\"res://icon.png\")` ). 如果需要, 你也可以"
 "使用SVG圖示."
-
-msgid ""
-"SVG images that are used as custom node icons should have the **Editor > "
-"Scale With Editor Scale** and **Editor > Convert Colors With Editor Theme** :"
-"ref:`import options <doc_importing_images_editor_import_options>` enabled. "
-"This allows icons to follow the editor's scale and theming settings if the "
-"icons are designed with the same color palette as Godot's own icons."
-msgstr ""
 
 msgid ""
 "Now, we need to add it as a custom type so it shows on the **Create New "

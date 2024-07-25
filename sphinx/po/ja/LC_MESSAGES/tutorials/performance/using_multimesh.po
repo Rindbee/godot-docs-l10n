@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Optimization using MultiMeshes"
-msgstr "サーバーを使用した最適化"
 
 msgid ""
 "For large amount of instances (in the thousands), that need to be constantly "
@@ -75,38 +66,6 @@ msgstr ""
 "オブジェクトが十分に単純な場合(ほんの2、3の頂点)、ほとんどの最新のGPUはこの"
 "ユースケースに最適化されているため、これは一般にそれほど問題ではありません。"
 "回避策は、ワールドのさまざまな地域に複数のマルチメッシュを作成することです。"
-
-#, fuzzy
-msgid ""
-"It is also possible to execute some logic inside the vertex shader (using "
-"the ``INSTANCE_ID`` or ``INSTANCE_CUSTOM`` built-in constants). For an "
-"example of animating thousands of objects in a MultiMesh, see the :ref:"
-"`Animating thousands of fish <doc_animating_thousands_of_fish>` tutorial. "
-"Information to the shader can be provided via textures (there are floating-"
-"point :ref:`Image<class_Image>` formats which are ideal for this)."
-msgstr ""
-"頂点シェーダー内でいくつかのロジックを実行することも可能です(``INSTANCE_ID`` "
-"または ``INSTANCE_CUSTOM`` 組み込み定数を使用)。 MultiMeshで数千のオブジェク"
-"トをアニメーション化する例については、チュートリアル :ref:`数千の魚のアニメー"
-"ション <doc_animating_thousands_of_fish>` を参照してください。シェーダーへの"
-"情報は、テクスチャを介して提供できます(これに最適な浮動小数点 :ref:`Image "
-"<class_Image>` 形式があります)。"
-
-#, fuzzy
-msgid ""
-"Another alternative is to use a GDExtension and C++, which should be "
-"extremely efficient (it's possible to set the entire state for all objects "
-"using linear memory via the :ref:`RenderingServer.multimesh_set_buffer() "
-"<class_RenderingServer_method_multimesh_set_buffer>` function). This way, "
-"the array can be created with multiple threads, then set in one call, "
-"providing high cache efficiency."
-msgstr ""
-"別の方法はGDNativeとC++を使用することです。これは非常に効率的です(:ref:"
-"`VisualServer.multimesh_set_as_bulk_array() "
-"<class_VisualServer_method_multimesh_set_as_bulk_array>` 関数を使用して、線形"
-"メモリを使用してすべてのオブジェクトの状態全体を設定できます)。この方法では、"
-"配列を複数のスレッドで作成し、1回の呼び出しで設定することで、高いキャッシュ効"
-"率を実現できます。"
 
 msgid ""
 "Finally, it's not required to have all MultiMesh instances visible. The "

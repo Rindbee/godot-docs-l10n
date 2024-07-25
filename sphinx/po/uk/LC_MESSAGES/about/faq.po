@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,18 +21,6 @@ msgstr "Поширені запитання"
 msgid ""
 "What can I do with Godot? How much does it cost? What are the license terms?"
 msgstr "Що я можу зробити з Godot? Скільки це коштує? Які ліцензійні умови?"
-
-msgid ""
-"Godot is `Free and open source Software <https://en.wikipedia.org/wiki/"
-"Free_and_open source_software>`_ available under the `OSI-approved <https://"
-"opensource.org/licenses/MIT>`_ MIT license. This means it is free as in "
-"\"free speech\" as well as in \"free beer.\""
-msgstr ""
-"Godot - це \"Вільне програмне забезпечення з відкритим вихідним кодом "
-"<https://en.wikipedia.org/wiki/Free_and_open source_software>\", доступне за "
-"ліцензією MIT, схваленою OSI <https://opensource.org/licenses/MIT>. Це "
-"означає, що воно вільне так само, як \"свобода слова\" і \"безкоштовне пиво."
-"\""
 
 msgid "In short:"
 msgstr "Коротко:"
@@ -623,19 +606,6 @@ msgstr ""
 "теку, що містить виконуваний файл Godot. Більше про це можна дізнатися з :"
 "ref:`doc_data_paths`."
 
-#, fuzzy
-msgid ""
-"If *true* portable operation is desired (e.g. for use on a USB stick), "
-"follow the steps in :ref:`doc_data_paths_self_contained_mode`."
-msgstr ""
-"Якщо потрібна *справжня* портативність (наприклад, для використання на USB-"
-"накопичувачі), виконайте наступні кроки :ref:"
-"`doc_data_paths_self_contained_mode`."
-
-#, fuzzy
-msgid "Why does Godot prioritize Vulkan and OpenGL over Direct3D?"
-msgstr "Чому Godot використовує Vulkan, або OpenGL, замість Direct3D?"
-
 msgid ""
 "Godot aims for cross-platform compatibility and open standards first and "
 "foremost. OpenGL and Vulkan are the technologies that are both open and "
@@ -648,15 +618,6 @@ msgstr ""
 "(майже) всіх платформах. Завдяки такому дизайнерському рішенню, проект, "
 "розроблений за допомогою Godot на Windows, буде працювати з коробки на "
 "Linux, macOS тощо."
-
-msgid ""
-"While Vulkan and OpenGL remain our primary focus for their open standard and "
-"cross-platform benefits, Godot 4.3 introduced experimental support for "
-"Direct3D 12. This addition aims to enhance performance and compatibility on "
-"platforms where Direct3D 12 is prevalent, such as Windows and Xbox. However, "
-"Vulkan and OpenGL will continue as the default rendering backends on all "
-"platforms, including Windows."
-msgstr ""
 
 msgid "Why does Godot aim to keep its core feature set small?"
 msgstr "Чому Godot зберігає невеликий набір основних функцій?"

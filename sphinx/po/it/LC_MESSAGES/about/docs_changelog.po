@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,32 +14,6 @@ msgstr ""
 
 msgid "Documentation changelog"
 msgstr "Cambiamento della documentazione"
-
-#, fuzzy
-msgid ""
-"The documentation is continually being improved. New releases include new "
-"pages, fixes and updates to existing pages, and many updates to the :ref:"
-"`class reference <doc_class_reference>`. Below is a list of new pages added "
-"since version 3.0."
-msgstr ""
-"La documentazione viene continuamente migliorata. Il rilascio della versione "
-"3.2 include molti nuovi tutorial, molte correzioni e aggiornamenti per i "
-"vecchi tutorial, e molti aggiornamenti alle :ref:`class reference <toc-class-"
-"ref>`. Di seguito è riportato un elenco di nuovi tutorial aggiunti dalla "
-"versione 3.1."
-
-#, fuzzy
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-"Questo documento contiene solo nuovi tutorial, quindi non tutte le modifiche "
-"vengono riportate, molti di questi sono stati sostanzialmente aggiornati ma "
-"non vengono riportati in questo documento."
-
-#, fuzzy
-msgid "New pages since version 4.1"
-msgstr "Nuovi tutorial dalla versione 3.0"
 
 msgid "C#"
 msgstr "C#"
@@ -58,15 +27,8 @@ msgstr "Sviluppo"
 msgid ":ref:`doc_2d_coordinate_systems`"
 msgstr ":ref:`doc_2d_coordinate_systems`"
 
-#, fuzzy
-msgid "Migrating"
-msgstr "Illuminazione"
-
 msgid ":ref:`doc_upgrading_to_godot_4.2`"
 msgstr ":ref:`doc_upgrading_to_godot_4.2`"
-
-msgid "I/O"
-msgstr ""
 
 msgid ":ref:`doc_runtime_loading_and_saving`"
 msgstr ":ref:`doc_runtime_loading_and_saving`"
@@ -76,10 +38,6 @@ msgstr "Specifico per la piattaforma"
 
 msgid ":ref:`doc_android_library`"
 msgstr ":ref:`doc_android_library`"
-
-#, fuzzy
-msgid "New pages since version 4.0"
-msgstr "Nuovi tutorial dalla versione 3.0"
 
 msgid ":ref:`doc_internal_rendering_architecture`"
 msgstr ":ref:`doc_internal_rendering_architecture`"
@@ -95,10 +53,6 @@ msgstr "Fisica"
 
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref:`doc_troubleshooting_physics_issues`"
-
-#, fuzzy
-msgid "New pages since version 3.6"
-msgstr "Nuovi tutorial dalla versione 3.1"
 
 msgid "2D"
 msgstr "2D"
@@ -148,10 +102,6 @@ msgstr "Animazione"
 msgid ":ref:`doc_creating_movies`"
 msgstr ":ref:`doc_creating_movies`"
 
-#, fuzzy
-msgid "Assets pipeline"
-msgstr "Pipeline di risorse"
-
 msgid ":ref:`doc_retargeting_3d_skeletons`"
 msgstr ":ref:`doc_retargeting_3d_skeletons`"
 
@@ -185,15 +135,8 @@ msgstr "Shaders"
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_compute_shaders`"
 
-msgid "Workflow"
-msgstr ""
-
 msgid ":ref:`doc_pr_review_guidelines`"
 msgstr ":ref:`doc_pr_review_guidelines`"
-
-#, fuzzy
-msgid "XR"
-msgstr "X"
 
 msgid ":ref:`doc_introducing_xr_tools`"
 msgstr ":ref:`doc_introducing_xr_tools`"
@@ -203,17 +146,6 @@ msgstr ":ref:`doc_xr_action_map`"
 
 msgid ":ref:`doc_deploying_to_android`"
 msgstr ":ref:`doc_deploying_to_android`"
-
-#, fuzzy
-msgid "New pages since version 3.5"
-msgstr "Nuovi tutorial dalla versione 3.1"
-
-msgid "None."
-msgstr ""
-
-#, fuzzy
-msgid "New pages since version 3.4"
-msgstr "Nuovi tutorial dalla versione 3.1"
 
 msgid ":ref:`doc_3d_text`"
 msgstr ":ref:`doc_3d_text`"
@@ -227,10 +159,6 @@ msgstr "Editor"
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:`doc_managing_editor_features`"
 
-#, fuzzy
-msgid "New pages since version 3.3"
-msgstr "Nuovi tutorial dalla versione 3.1"
-
 msgid "C++"
 msgstr "C++"
 
@@ -242,10 +170,6 @@ msgstr "GDScript"
 
 msgid ":ref:`doc_gdscript_documentation_comments`"
 msgstr ":ref:`doc_gdscript_documentation_comments`"
-
-#, fuzzy
-msgid "New pages since version 3.2"
-msgstr "Nuovi tutorial dalla versione 3.1"
 
 msgid ":ref:`doc_3d_rendering_limitations`"
 msgstr ":ref:`doc_3d_rendering_limitations`"
@@ -261,10 +185,6 @@ msgstr ":ref:`doc_list_of_features`"
 
 msgid ":ref:`doc_release_policy`"
 msgstr ":ref:`doc_release_policy`"
-
-#, fuzzy
-msgid "Best practices"
-msgstr "Le migliori pratiche"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ":ref:`doc_version_control_systems`"
@@ -295,9 +215,6 @@ msgstr ":ref:`doc_vulkan_validation_layers`"
 
 msgid ":ref:`doc_gdscript_grammar`"
 msgstr ":ref:`doc_gdscript_grammar`"
-
-msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
-msgstr ""
 
 msgid ":ref:`doc_default_key_mapping`"
 msgstr ":ref:`doc_default_key_mapping`"
@@ -353,20 +270,11 @@ msgstr ":ref:`doc_evaluating_expressions`"
 msgid ":ref:`doc_what_is_gdextension`"
 msgstr ":ref:`doc_what_is_gdextension`"
 
-msgid ""
-":ref:`doc_gdscript_warning_system` (split from :ref:"
-"`doc_gdscript_static_typing`)"
-msgstr ""
-
 msgid "User Interface (UI)"
 msgstr "Interfaccia Utente (UI)"
 
 msgid ":ref:`doc_control_node_gallery`"
 msgstr ":ref:`doc_control_node_gallery`"
-
-#, fuzzy
-msgid "New pages since version 3.1"
-msgstr "Nuovi tutorial dalla versione 3.1"
 
 msgid "Project workflow"
 msgstr "Flusso di lavoro del progetto"
@@ -484,10 +392,6 @@ msgstr "Legale"
 
 msgid ":ref:`doc_complying_with_licenses`"
 msgstr ":ref:`doc_complying_with_licenses`"
-
-#, fuzzy
-msgid "New pages since version 3.0"
-msgstr "Nuovi tutorial dalla versione 3.0"
 
 msgid "Step by step"
 msgstr "Passo dopo passo"

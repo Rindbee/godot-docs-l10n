@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,6 +118,10 @@ msgid ""
 "`class_skeletonprofile` from the editor by selecting a Skeleton3D and using "
 "the **Skeleton3D** menu in the 3D viewport's toolbar."
 msgstr ""
+"Wenn Sie ein anderes Profil als :ref:`class_skeletonprofilehumanoid` "
+"benötigen, können Sie ein :ref:`class_skeletonprofile` aus dem Editor "
+"exportieren, indem Sie ein Skeleton3D auswählen und das Menü **Skeleton3D** "
+"in der Toolbar des 3D-Viewports verwenden."
 
 msgid ""
 "When you use :ref:`class_skeletonprofilehumanoid`, auto-mapping will be "
@@ -141,7 +140,7 @@ msgid ""
 "shared correctly."
 msgstr ""
 "Fehlende, doppelte oder falsche Zuordnungen von Parent-Child-Beziehungen "
-"werden durch eine magentafarbene/rote Schaltfläche angezeigt (je nach "
+"werden durch einen magentafarbenen/roten Button angezeigt (je nach "
 "Editoreinstellung). Sie blockiert den Importvorgang nicht, warnt aber davor, "
 "dass Animationen möglicherweise nicht korrekt geteilt werden."
 
@@ -206,7 +205,8 @@ msgid "Unmapped Bones"
 msgstr "Nicht-zugeordnete Knochen"
 
 msgid "Removes unmapped bone Transform tracks from the animations."
-msgstr "Entfernt nicht zugeordnete Bone-Transform-Tracks aus den Animationen."
+msgstr ""
+"Entfernt nicht zugeordnete Knochen-Transform-Tracks aus den Animationen."
 
 msgid "Bone Renamer"
 msgstr "Knochen-Umbenenner"

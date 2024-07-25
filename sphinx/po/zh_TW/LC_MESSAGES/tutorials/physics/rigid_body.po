@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,27 +82,6 @@ msgstr ""
 
 msgid "The \"look at\" method"
 msgstr "“look at”方法"
-
-#, fuzzy
-msgid ""
-"As described above, using the Node3D's ``look_at()`` method can't be used "
-"each frame to follow a target. Here is a custom ``look_at()`` method called "
-"``look_follow()`` that will work with rigid bodies:"
-msgstr ""
-"如上所述, 使用Spatial節點的 ``look_at()`` 方法不能每一影格都用來追蹤一個目"
-"標. 這裡有一個自訂的 ``look_at()`` 方法, 它可以可靠地工作在剛體上:"
-
-msgid ""
-"This method uses the rigid body's ``angular_velocity`` property to rotate "
-"the body. The axis to rotate around is given by the cross product between "
-"the current forward direction and the direction one wants to look in. The "
-"``clamp`` is a simple method used to prevent the amount of rotation from "
-"going past the direction which is wanted to be looked in, as the total "
-"amount of rotation needed is given by the arccosine of the dot product. This "
-"method can be used with ``axis_lock_angular_*`` as well. If more precise "
-"control is needed, solutions such as ones relying on :ref:`class_Quaternion` "
-"may be required, as discussed in :ref:`doc_using_transforms`."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

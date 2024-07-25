@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,14 +69,6 @@ msgid "For example, MyCoolNode.cs should contain a class named MyCoolNode."
 msgstr ""
 "Por ejemplo, \"MyCoolNode.cs\"debe contener una clase llamada \"MyCoolNode\"."
 
-#, fuzzy
-msgid ""
-"The C# class needs to derive a Godot class, for example ``GodotObject``. "
-"Otherwise, the same error will occur."
-msgstr ""
-"También necesitas revisar que tu archivo ``.cs`` esté referenciado en el "
-"archivo de proyecto``.csproj``. De otro modo sucederá el mismo error."
-
 msgid ""
 "You also need to check your ``.cs`` file is referenced in the project's ``."
 "csproj`` file. Otherwise, the same error will occur."
@@ -124,19 +111,6 @@ msgstr ""
 msgid "Accessing GDScript fields from C#"
 msgstr "Accediendo a los campos de GDScript desde C#"
 
-#, fuzzy
-msgid ""
-"As C# is statically typed, accessing GDScript from C# is a bit more "
-"convoluted, you will have to use :ref:`GodotObject.Get() "
-"<class_Object_method_get>` and :ref:`GodotObject.Set() "
-"<class_Object_method_set>`. The first argument is the name of the field you "
-"want to access."
-msgstr ""
-"Como C# es tipado estáticamente, acceder GDScript desde C# es un poco "
-"complejo, deberás usar :ref:`Object.Get() <class_Object_method_get>` y :ref:"
-"`Object.Set() <class_Object_method_set>`. El primer argumento es el nombre "
-"del campo al que quieres acceder."
-
 msgid ""
 "Keep in mind that when setting a field value you should only use types the "
 "GDScript side knows about. Essentially, you want to work with built-in types "
@@ -167,17 +141,6 @@ msgstr ""
 msgid "Calling GDScript methods from C#"
 msgstr "Llamando métodos GDScript desde C#"
 
-#, fuzzy
-msgid ""
-"To call GDScript methods from C# you'll need to use :ref:`GodotObject.Call() "
-"<class_Object_method_call>`. The first argument is the name of the method "
-"you want to call. The following arguments will be passed to said method."
-msgstr ""
-"Para llamar a los métodos de GDScript desde C# necesitarás usar :ref:`Object."
-"Call() <class_Object_method_call>`. El primer argumento es el nombre del "
-"método que quieres llamar. Los siguientes argumentos se pasarán a dicho "
-"método."
-
 msgid ""
 "As you can see, if the first argument of the called method is an array, "
 "you'll need to cast it as ``object``. Otherwise, each element of your array "
@@ -187,28 +150,6 @@ msgstr ""
 "necesitarás lanzarlo como \"object\". De lo contrario, cada elemento de tu "
 "array será tratado como un único argumento y la firma de la función no "
 "coincidirá."
-
-#, fuzzy
-msgid "Connecting to signals"
-msgstr "Conectando HUD a Main"
-
-#, fuzzy
-msgid "Connecting to C# signals from GDScript"
-msgstr "Accediendo campos C# desde GDScript"
-
-msgid ""
-"Connecting to a C# signal from GDScript is the same as connecting to a "
-"signal defined in GDScript:"
-msgstr ""
-
-#, fuzzy
-msgid "Connecting to GDScript signals from C#"
-msgstr "Accediendo a los campos de GDScript desde C#"
-
-msgid ""
-"Connecting to a GDScript signal from C# only works with the ``Connect`` "
-"method because no C# static types exist for signals defined by GDScript:"
-msgstr ""
 
 msgid "Inheritance"
 msgstr "Herencia"

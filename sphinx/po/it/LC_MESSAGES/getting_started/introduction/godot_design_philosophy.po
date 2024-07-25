@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +14,6 @@ msgstr ""
 
 msgid "Godot's design philosophy"
 msgstr "La filosofia progettuale di Godot"
-
-#, fuzzy
-msgid "Now that you've gotten your feet wet, let's talk about Godot's design."
-msgstr "Ora che vi siete bagnati le mani, parliamo del progetto di Godot."
 
 msgid ""
 "**Every game engine is different and fits different needs.** Not only do "
@@ -48,15 +39,6 @@ msgstr ""
 "caratteristiche disponibili, né di un confronto tra motori. Per sapere se un "
 "motore può essere adatto al tuo progetto, devi provarlo tu stesso e "
 "comprenderne il design e i limiti."
-
-#, fuzzy
-msgid ""
-"Please watch `Godot explained in 5 minutes <https://www.youtube.com/watch?"
-"v=KjX5llYZ5eQ>`_ if you're looking for an overview of the engine's features."
-msgstr ""
-"Guarda 'Scoprire Godot 3, il motore di gioco gratuito <https://youtu."
-"be/4v3qge-3CqQ> se stai cercando una panoramica delle funzionalità del "
-"motore."
 
 msgid "Object-oriented design and composition"
 msgstr "Progettazione e composizione orientata agli oggetti"
@@ -118,43 +100,11 @@ msgstr "|image0|"
 msgid "image0"
 msgstr "image0"
 
-#, fuzzy
-msgid ""
-"Also note that Godot offers many different types of objects called nodes, "
-"each with a specific purpose. Nodes are part of a tree and always inherit "
-"from their parents up to the Node class. Although the engine does feature "
-"some nodes like collision shapes that a parent physics body will use, most "
-"nodes work independently from one another."
-msgstr ""
-"Inoltre, nota che Godot offre tanti tipi di oggetti diversi chiamati nodi, "
-"ognuno con un suo scopo. Tutti i nodi sono parte di un albero ed ereditano "
-"dai loro parent, fino alla classe Node. Anche se l'engine ha alcuni "
-"componenti come le forme di collisione, essi sono l'eccezione, non la norma."
-
-#, fuzzy
-msgid ""
-"In other words, Godot's nodes do not work like components in some other game "
-"engines."
-msgstr ""
-"In altre parole, i nodi di Godot non funzionano come i componenti in alcuni "
-"altri motori di gioco."
-
 msgid "|image1|"
 msgstr "|image1|"
 
 msgid "image1"
 msgstr "image1"
-
-#, fuzzy
-msgid ""
-"Sprite2D is a Node2D, a CanvasItem and a Node. It has all the properties and "
-"features of its three parent classes, like transforms or the ability to draw "
-"custom shapes and render with a custom shader."
-msgstr ""
-"Sprite è un Node2D, un CanvasItem e un Node. Ha tutte le proprietà e le "
-"caratteristiche delle sue tre classi parent, come le trasformazioni o la "
-"possibilità di disegnare forme personalizzate e renderizzare con uno shader "
-"personalizzato."
 
 msgid "All-inclusive package"
 msgstr "Pacchetto tutto incluso"
@@ -176,52 +126,6 @@ msgstr "|image2|"
 
 msgid "image2"
 msgstr "image2"
-
-#, fuzzy
-msgid ""
-"The goal is to offer a full package to create games and a continuous user "
-"experience. You can still work with external programs as long as there is an "
-"import plugin available in Godot for it. Or you can create one, like the "
-"`Tiled Map Importer <https://github.com/vnen/godot-tiled-importer>`__."
-msgstr ""
-"L'obiettivo è quello di offrire un pacchetto completo per creare giochi e "
-"un'esperienza utente continuativa. È ancora possibile lavorare con programmi "
-"esterni, purché ci sia un plugin per l'importazione. Oppure è possibile "
-"crearne uno, come l'importatore di mappe piastrellate <https://github.com/"
-"vnen/godot-tiled-importer>."
-
-#, fuzzy
-msgid ""
-"That is also partly why Godot offers its own programming language GDScript "
-"along with C#. GDScript is designed for the needs of game developers and "
-"game designers, and is tightly integrated in the engine and the editor."
-msgstr ""
-"Questo è anche in parte il motivo per cui Godot offre i propri linguaggi di "
-"programmazione GDscript e VisualScript, insieme a C#. Sono progettati per le "
-"esigenze degli sviluppatori di giochi e game designer, e sono strettamente "
-"integrati nel motore e nell'editor."
-
-#, fuzzy
-msgid ""
-"GDScript lets you write code using an indentation-based syntax, yet it "
-"detects types and offers a static language's quality of auto-completion. It "
-"is also optimized for gameplay code with built-in types like Vectors and "
-"Colors."
-msgstr ""
-"GDscript permette di scrivere codice semplice usando una sintassi simile a "
-"Python, ma rileva i tipi e offre un auto-completamento statico a livello di "
-"linguaggio di programmazione. È anche ottimizzato programmare giochi con "
-"tipi integrati quali Vettori e Colori."
-
-#, fuzzy
-msgid ""
-"Note that with GDExtension, you can write high-performance code using "
-"compiled languages like C, C++, Rust, D, Haxe, or Swift without recompiling "
-"the engine."
-msgstr ""
-"Nota che con GDNative, puoi scrivere codice ad alte prestazioni usando "
-"linguaggi compilati come C, C++, Rust, o Python (usando il compilatore "
-"Cython) senza ricompilare il motore."
 
 msgid ""
 "Note that the 3D workspace doesn't feature as many tools as the 2D "
@@ -295,58 +199,8 @@ msgstr ""
 msgid "Community-driven"
 msgstr "Gestito dalla comunità"
 
-#, fuzzy
-msgid ""
-"**Godot is made by its community, for the community, and for all game "
-"creators out there.** It's the needs of the users and open discussions that "
-"drive the core updates. New features from the core developers often focus on "
-"what will benefit the most users first."
-msgstr ""
-"**Godot è creato dalla sua comunità, per la comunità, e per tutti i creatori "
-"di giochi là fuori.** Sono i bisogni degli utenti e le discussioni libere "
-"che guidano gli aggiornamenti più fondamentali. Le nuove funzionalità dagli "
-"sviluppatori principali spesso si concentrano su cosa avvantaggerà prima la "
-"maggior parte degli utenti."
-
-#, fuzzy
-msgid ""
-"That said, although a handful of core developers work on it full-time, the "
-"project has thousands of contributors at the time of writing. Benevolent "
-"programmers work on features they may need themselves, so you'll see "
-"improvements in all corners of the engine at the same time in every major "
-"release."
-msgstr ""
-"Detto questo, sebbene una manciata di sviluppatori dedicati lavori ad esso a "
-"tempo pieno, il progetto ha oltre 600 contributori al momento. Programmatori "
-"volontari lavorano su funzionalità di cui potranno avere bisogno essi "
-"stessi, quindi vedrai i miglioramenti in tutti gli angoli del motore "
-"contemporaneamente in ogni maggiore distribuzione."
-
 msgid "The Godot editor is a Godot game"
 msgstr "L'editor di Godot è un gioco sviluppato in Godot"
-
-#, fuzzy
-msgid ""
-"The Godot editor runs on the game engine. It uses the engine's own UI "
-"system, it can hot-reload code and scenes when you test your projects, or "
-"run game code in the editor. This means you can **use the same code** and "
-"scenes for your games, or **build plugins and extend the editor.**"
-msgstr ""
-"L'editor di Godot gira sul motore di gioco. Esso utilizza l'interfaccia "
-"propria del motore, può ricaricare codice e scene in maniera veloce quando "
-"esegui i test dei tuoi progetti, oppure eseguire codice di gioco "
-"nell'editor. Questo significa che tu puoi **usare lo stesso codice** e scene "
-"per i tuoi giochi, o **costruire plugin e estendere l'editor.**"
-
-#, fuzzy
-msgid ""
-"This leads to a reliable and flexible UI system, as it powers the editor "
-"itself. With the ``@tool`` annotation, you can run any game code in the "
-"editor."
-msgstr ""
-"Questo conduce a un sistema d'interfaccia utente affidabile e flessibile, "
-"dato che esso supporta l'editor stesso. Con la keyword ``tool``, puoi "
-"eseguire qualsiasi codice di gioco nell'editor."
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -362,18 +216,6 @@ msgstr ""
 "*RPG in a Box é un editor di GDR voxel fatto con Godot 2. Usa gli strumenti "
 "dell'interfaccia utente di Godot per il suo sistema di programmazione basato "
 "sui nodi e per il resto dell'interfaccia.*"
-
-#, fuzzy
-msgid ""
-"Put the ``@tool`` annotation at the top of any GDScript file and it will run "
-"in the editor. This lets you import and export plugins, create plugins like "
-"custom level editors, or create scripts with the same nodes and API you use "
-"in your projects."
-msgstr ""
-"Metti la keyword ``tool`` in cima a qualsiasi file GDScript ed esso verrà "
-"eseguito nell'editor. Questo ti consente di importare ed esportare plugins, "
-"creare plugin come editor di livelli personalizzati, o creare script con gli "
-"stessi nodi e API che utilizzi nei tuoi progetti."
 
 msgid ""
 "The editor is fully written in C++ and is statically compiled into the "

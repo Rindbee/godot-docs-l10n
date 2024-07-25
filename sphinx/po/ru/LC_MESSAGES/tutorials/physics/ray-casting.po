@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,20 +29,6 @@ msgstr ""
 "позволяет создавать сложные поведения, ИИ и т.д. В этом учебном пособии "
 "объясняется, как это сделать в 2D и 3D пространстве."
 
-#, fuzzy
-msgid ""
-"Godot stores all the low level game information in servers, while the scene "
-"is only a frontend. As such, ray casting is generally a lower-level task. "
-"For simple raycasts, nodes like :ref:`RayCast3D <class_RayCast3D>` and :ref:"
-"`RayCast2D <class_RayCast2D>` will work, as they return every frame what the "
-"result of a raycast is."
-msgstr ""
-"Godot сохраняет всю низкоуровневую игровую информацию в серверах, тогда как "
-"сцена это просто внешний интерфейс. Таким образом, трассировка лучей это "
-"низкоуровневый процесс. Для простых трассировок можно использовать такие "
-"узлы, как :ref:`RayCast <class_RayCast>` и :ref:`RayCast2D "
-"<class_RayCast2D>`, так как они будут возвращать результат в каждом кадре."
-
 msgid ""
 "Many times, though, ray-casting needs to be a more interactive process so a "
 "way to do this by code must exist."
@@ -58,58 +39,8 @@ msgstr ""
 msgid "Space"
 msgstr "Пространство"
 
-#, fuzzy
-msgid ""
-"In the physics world, Godot stores all the low level collision and physics "
-"information in a *space*. The current 2d space (for 2D Physics) can be "
-"obtained by accessing :ref:`CanvasItem.get_world_2d().space "
-"<class_CanvasItem_method_get_world_2d>`. For 3D, it's :ref:`Node3D."
-"get_world_3d().space <class_Node3D_method_get_world_3d>`."
-msgstr ""
-"В пространстве физики, Godot хранит все низкоуровневые столкновения и "
-"физическую информацию в *пространстве*. Текущее 2d пространство (для 2D "
-"физики) может быть получено с помощью :ref:`CanvasItem.get_world_2d().space "
-"<class_CanvasItem_method_get_world_2d>`. Для 3D это :ref:`Spatial."
-"get_world().space <class_Spatial_method_get_world>`."
-
-#, fuzzy
-msgid ""
-"The resulting space :ref:`RID <class_RID>` can be used in :ref:"
-"`PhysicsServer3D <class_PhysicsServer3D>` and :ref:`PhysicsServer2D "
-"<class_PhysicsServer2D>` respectively for 3D and 2D."
-msgstr ""
-"В итоге пространство :ref:`RID <class_RID>` может быть использовано в :ref:"
-"`PhysicsServer <class_PhysicsServer>` и :ref:`Physics2DServer "
-"<class_Physics2DServer>` соответственно для 3D и 2D ."
-
 msgid "Accessing space"
 msgstr "Доступ к пространству"
-
-#, fuzzy
-msgid ""
-"Godot physics runs by default in the same thread as game logic, but may be "
-"set to run on a separate thread to work more efficiently. Due to this, the "
-"only time accessing space is safe is during the :ref:`Node."
-"_physics_process() <class_Node_private_method__physics_process>` callback. "
-"Accessing it from outside this function may result in an error due to space "
-"being *locked*."
-msgstr ""
-"По умолчанию физика Godot запускается в том же потоке, что и игровая логика, "
-"но также может быть запущена и в отдельном потоке для более эффективной "
-"работы. В связи с этим, доступ к пространству безопасен только в функции "
-"обратного вызова :ref:`Node._physics_process() "
-"<class_Node_method__physics_process>`. Доступ к нему извне этой функции "
-"может привести к ошибке из-за *заблокированного* пространства."
-
-#, fuzzy
-msgid ""
-"To perform queries into physics space, the :ref:`PhysicsDirectSpaceState2D "
-"<class_PhysicsDirectSpaceState2D>` and :ref:`PhysicsDirectSpaceState3D "
-"<class_PhysicsDirectSpaceState3D>` must be used."
-msgstr ""
-"Для выполнения запросов в физическом пространстве нужно использовать :ref:"
-"`Physics2DDirectSpaceState <class_Physics2DDirectSpaceState>` и :ref:"
-"`PhysicsDirectSpaceState <class_PhysicsDirectSpaceState>`."
 
 msgid "Use the following code in 2D:"
 msgstr "Используйте следующий код в 2D:"
@@ -122,17 +53,6 @@ msgstr "И для 3D:"
 
 msgid "Raycast query"
 msgstr "Запрос трассировки лучей"
-
-#, fuzzy
-msgid ""
-"For performing a 2D raycast query, the method :ref:"
-"`PhysicsDirectSpaceState2D.intersect_ray() "
-"<class_PhysicsDirectSpaceState2D_method_intersect_ray>` may be used. For "
-"example:"
-msgstr ""
-"Для выполнения такого запроса для 2D можно использовать метод :ref:"
-"`Physics2DDirectSpaceState.intersect_ray() "
-"<class_Physics2DDirectSpaceState_method_intersect_ray>`. Например:"
 
 msgid ""
 "The result is a dictionary. If the ray didn't hit anything, the dictionary "
@@ -148,12 +68,6 @@ msgid ""
 msgstr ""
 "Словарь ``result`` после столкновения будет содержать следующие данные:"
 
-msgid ""
-"The data is similar in 3D space, using Vector3 coordinates. Note that to "
-"enable collisions with Area3D, the boolean parameter ``collide_with_areas`` "
-"must be set to ``true``."
-msgstr ""
-
 msgid "Collision exceptions"
 msgstr "Исключения столкновений"
 
@@ -167,17 +81,6 @@ msgstr ""
 "окружающем мире для персонажа. Одна из проблем с этим возникает когда у "
 "персонажа есть коллайдер, и луч будет сталкиваться с ним, как показано на "
 "следующем рисунке:"
-
-#, fuzzy
-msgid ""
-"To avoid self-intersection, the ``intersect_ray()`` parameters object can "
-"take an array of exceptions via its ``exclude`` property. This is an example "
-"of how to use it from a CharacterBody2D or any other collision object node:"
-msgstr ""
-"Для избежания самопересечения функция ``intersect_ray()`` может принимать "
-"третий необязательный параметр, который представляет массив исключений. "
-"Пример, как это использовать для KinematicBody2D, или любого другого узла "
-"столкновений:"
 
 msgid "The exceptions array can contain objects or RIDs."
 msgstr "Массивы исключений могут содержать объекты или RIDs."
@@ -196,17 +99,6 @@ msgstr ""
 "списков исключений. Для этого случая гораздо эффективнее использовать "
 "систему слоев/масок столкновений."
 
-#, fuzzy
-msgid ""
-"The ``intersect_ray()`` parameters object can also be supplied a collision "
-"mask. For example, to use the same mask as the parent body, use the "
-"``collision_mask`` member variable. The array of exceptions can be supplied "
-"as the last argument as well:"
-msgstr ""
-"Необязательный четвертый параметр для ``intersect_ray()`` это маска "
-"столкновений. Например, для использования той же маски, что и в родительском "
-"теле, используйте переменную ``collision_mask``:"
-
 msgid ""
 "See :ref:`doc_physics_introduction_collision_layer_code_example` for details "
 "on how to set the collision mask."
@@ -216,34 +108,6 @@ msgstr ""
 
 msgid "3D ray casting from screen"
 msgstr "Трассировка лучей из экрана в 3D"
-
-#, fuzzy
-msgid ""
-"Casting a ray from screen to 3D physics space is useful for object picking. "
-"There is not much need to do this because :ref:`CollisionObject3D "
-"<class_CollisionObject3D>` has an \"input_event\" signal that will let you "
-"know when it was clicked, but in case there is any desire to do it manually, "
-"here's how."
-msgstr ""
-"Трассировка луча из экранного в 3D физическое пространство полезно для "
-"выбора объекта. Не требуется много усилий для выполнения этого поскольку :"
-"ref:`CollisionObject <class_CollisionObject>` имеет сигнал \"input_event\" "
-"который способен уведомить вас при клике, но в случае если вам понадобится "
-"сделать это вручную, здесь показано как."
-
-#, fuzzy
-msgid ""
-"To cast a ray from the screen, you need a :ref:`Camera3D <class_Camera3D>` "
-"node. A ``Camera3D`` can be in two projection modes: perspective and "
-"orthogonal. Because of this, both the ray origin and direction must be "
-"obtained. This is because ``origin`` changes in orthogonal mode, while "
-"``normal`` changes in perspective mode:"
-msgstr ""
-"Для трассировки луча с экрана, вам нужен узел ref:`Camera <class_Camera>`. "
-"``Camera`` может быть в двух режимах проекции: перспективном и "
-"ортогональном. Из-за этого, необходимо предоставить и начальную точку "
-"(``origin``) луча и направление (нормаль). Начальная точка (``origin``) "
-"изменяется в ортогональном режиме, а *нормаль* изменяется в перспективном:"
 
 msgid "To obtain it using a camera, the following code can be used:"
 msgstr "Для его получения с помощью камеры можно использовать следующий код:"

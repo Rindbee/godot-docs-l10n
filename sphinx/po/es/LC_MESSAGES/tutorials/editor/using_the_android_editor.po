@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +14,6 @@ msgstr ""
 
 msgid "Using the Android editor"
 msgstr "Usando el editor en Android"
-
-#, fuzzy
-msgid ""
-"In 2023, `we added <https://godotengine.org/article/"
-"android_godot_editor_play_store_beta_release/>`__ an `Android port of the "
-"editor <https://godotengine.org/download/android/>`__ that can be used to "
-"work on new or existing projects on Android devices."
-msgstr ""
-"En 2023 `agregamos <https://godotengine.org/article/"
-"android_godot_editor_play_store_beta_release/>`__ un `port del editor para "
-"Android <https://godotengine.org/download/android/>`__ que puede ser "
-"utilizado para trabajar en proyectos nuevos o existentes desde un "
-"dispositivo Android."
 
 msgid ""
 "The Android editor is in beta testing stage, while we continue to refine the "
@@ -122,20 +104,6 @@ msgstr ""
 
 msgid "UX not optimized for Android phones form-factor"
 msgstr "La UX no está optimizada para el diseño de dispositivos Android"
-
-#, fuzzy
-msgid ""
-"`Android Go devices <https://developer.android.com/guide/topics/"
-"androidgo>`__ lacks the *All files access* permission required for device "
-"read/write access. As a workaround, when using an Android Go device, it's "
-"recommended to create new projects only in the Android *Documents* or "
-"*Downloads* directories."
-msgstr ""
-"`Dispositivos Android Go <https://developer.android.com/guide/topics/"
-"androidgo>`__ carecen de permiso de *Acceso a todos los archivos* requerido "
-"para acceso de lectura/escritura en el dispositivo. Como alternativa cuando "
-"se utiliza un dispositivo Android Go, es recomendable crear proyectos nuevos "
-"en los directorios *Documentos* o *Descargas* de Android."
 
 msgid ""
 "The editor doesn't properly resume when *Don't keep activities* is enabled "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,27 +181,29 @@ msgstr ""
 "jedes Element Ihres Arrays als einzelnes Argument behandelt und die "
 "Funktionssignatur stimmt nicht überein."
 
-#, fuzzy
 msgid "Connecting to signals"
-msgstr "Das HUD mit Main verbinden"
+msgstr "Mit Signalen verbinden"
 
-#, fuzzy
 msgid "Connecting to C# signals from GDScript"
-msgstr "Zugriff auf C# Felder über GDScript"
+msgstr "Verbinden mit C#-Signalen von GDScript aus"
 
 msgid ""
 "Connecting to a C# signal from GDScript is the same as connecting to a "
 "signal defined in GDScript:"
 msgstr ""
+"Die Verbindung zu einem C#-Signal aus GDScript ist die gleiche wie die "
+"Verbindung zu einem in GDScript definierten Signal:"
 
-#, fuzzy
 msgid "Connecting to GDScript signals from C#"
-msgstr "Zugriff auf GDScript-Felder über C#"
+msgstr "Verbinden mit GDScript-Signalen von C# aus"
 
 msgid ""
 "Connecting to a GDScript signal from C# only works with the ``Connect`` "
 "method because no C# static types exist for signals defined by GDScript:"
 msgstr ""
+"Das Verbinden mit einem GDScript-Signal von C# aus funktioniert nur mit der "
+"Methode ``Connect``, da es keine statischen C#-Typen für von GDScript "
+"definierte Signale gibt:"
 
 msgid "Inheritance"
 msgstr "Vererbung"

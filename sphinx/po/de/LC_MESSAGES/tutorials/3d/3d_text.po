@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,7 +89,6 @@ msgstr ""
 "kann Stutter während des Spielens auf Low-End-CPUs oder mobilen Geräten "
 "vermeiden."
 
-#, fuzzy
 msgid ""
 "Label3D can use bitmap fonts and dynamic fonts (with and without :abbr:`MSDF "
 "(Multi-channel Signed Distance Font)` or mipmaps). This makes it more "
@@ -104,7 +98,8 @@ msgstr ""
 "Label3D kann Bitmap-Schriftarten und dynamische Schriftarten (mit und ohne :"
 "abbr:`MSDF (Multi-channel Signed Distance Font)` oder Mipmaps) verwenden. "
 "Dies macht es in dieser Hinsicht flexibler als TextMesh, insbesondere bei "
-"der Darstellung von Schriften mit sich selbst überschneidenden Umrissen."
+"der Darstellung von Schriften mit sich selbst überschneidenden Umrissen oder "
+"mehrfarbige Schriftarten (Emojis)."
 
 msgid ""
 "See :ref:`doc_gui_using_fonts` for guidelines on configuring font imports."
@@ -162,6 +157,11 @@ msgid ""
 "font <doc_using_fonts_mipmaps>` or :ref:`switch the font to use MSDF "
 "rendering <doc_using_fonts_msdf>`."
 msgstr ""
+"Die Qualität der Textdarstellung kann auch leiden, wenn das Label3D aus "
+"einer gewissen Entfernung betrachtet wird. Um die Qualität der "
+"Textdarstellung zu verbessern, :ref:`Aktivieren Sie Mipmaps für die "
+"Schriftart <doc_using_fonts_mipmaps>` oder :ref:`stellen Sie die Schriftart "
+"auf MSDF-Rendering um <doc_using_fonts_msdf>`."
 
 msgid "TextMesh"
 msgstr "TextMesh"
@@ -243,6 +243,11 @@ msgid ""
 "antialiasing method is enabled, text will appear grainy, especially at a "
 "distance. See :ref:`doc_3d_antialiasing` for more information."
 msgstr ""
+"Die Antialiasing-Methode für die Textdarstellung erfordert die Aktivierung "
+"einer Antialiasing-Methode für die gesamte Szene, wie MSAA, FXAA und "
+"temporales Antialiasing (TAA). Wenn keine Antialiasing-Methode aktiviert "
+"ist, erscheint der Text körnig, insbesondere aus der Entfernung. Siehe :ref:"
+"`doc_3d_antialiasing` für weitere Informationen."
 
 msgid "Projected Label node (or any other Control)"
 msgstr "Projizierter Label-Node (oder jedes andere Control)"

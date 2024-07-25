@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,91 +15,11 @@ msgstr ""
 msgid "Cross-compiling for iOS on Linux"
 msgstr "Linux上のiOS用のクロスコンパイル"
 
-#, fuzzy
-msgid ""
-"The procedure for this is somewhat complex and requires a lot of steps, but "
-"once you have the environment properly configured you can compile Godot for "
-"iOS anytime you want."
-msgstr ""
-"この手順は多少複雑で多くのステップを必要としますが、一度環境を適切に設定すれ"
-"ば、いつでも好きな時にiOS用のGodotをコンパイルすることが容易になります。"
-
 msgid "Disclaimer"
 msgstr "免責事項"
 
-#, fuzzy
-msgid ""
-"While it is possible to compile for iOS on a Linux environment, Apple is "
-"very restrictive about the tools to be used (especially hardware-wise), "
-"allowing pretty much only their products to be used for development. So this "
-"is **not official**. However, in 2010 Apple said they relaxed some of the "
-"`App Store review guidelines <https://developer.apple.com/app-store/review/"
-"guidelines/>`__ to allow any tool to be used, as long as the resulting "
-"binary does not download any code, which means it should be OK to use the "
-"procedure described here and cross-compiling the binary."
-msgstr ""
-"Linux環境でiOS用にコンパイルすることは可能ですが、Appleは使用するツールに非常"
-"に制限をかけており(特にハードウェア的に)、開発にはほとんど自社の製品しか使用"
-"できません。ですので、これは\\ **公式ではありません**\\ 。しかし、\\ `2010年"
-"にAppleが出した声明 <http://www.apple.com/pr/library/2010/09/09Statement-by-"
-"Apple-on-App-Store-Review-Guidelines.html>`_\\ によると、\\ `App Storeのレ"
-"ビューガイドライン <https://developer.apple.com/app-store/review/guidelines/"
-">`_\\ の一部を緩和し、コードをダウンロードしない限り、あらゆるツールを使える"
-"ようにしたとのことです。つまり、ここで説明する手順を使用してバイナリをクロス"
-"コンパイルしてもかまいません。"
-
 msgid "Requirements"
 msgstr "必要条件"
-
-#, fuzzy
-msgid ""
-"`XCode with the iOS SDK <https://developer.apple.com/xcode/download>`__ (a "
-"dmg image, for newer versions a **xip** file is going to be downloaded.)"
-msgstr ""
-"`XCode with the iOS SDK <https://developer.apple.com/xcode/download>`_\\ (dmg"
-"イメージ)"
-
-#, fuzzy
-msgid ""
-"`Clang >= 3.5 <https://clang.llvm.org>`__ for your development machine "
-"installed and in the ``PATH``. It has to be version >= 3.5 to target "
-"``arm64`` architecture."
-msgstr ""
-"`Clang >= 3.5 <http://clang.llvm.org>`_ がインストールされ、 ``PATH`` にイン"
-"ストールされている開発マシン用。。``arm64`` アーキテクチャをターゲットにする"
-"には、バージョンが 3.5 以降である必要があります。"
-
-#, fuzzy
-msgid ""
-"`Fuse <https://github.com/libfuse/libfuse>`__ for mounting and unmounting "
-"the dmg image."
-msgstr ""
-"dmgイメージをマウントおよびアンマウントするには、\\ `Fuse <https://github."
-"com/libfuse/libfuse>`_を使用します。"
-
-msgid ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__, which needs to "
-"be built from source. The procedure for that is explained below."
-msgstr ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`_ 、 ソースから構築す"
-"る必要があります。そのための手順を以下に説明します。"
-
-msgid ""
-"For newer versions you should download `xar <https://mackyle.github.io/xar/"
-">`__ and `pbzx <https://github.com/NiklasRosenstein/pbzx>`__."
-msgstr ""
-
-msgid ""
-"For building darling-dmg, you'll need the development packages of the "
-"following libraries: fuse, icu, openssl, zlib, bzip2."
-msgstr ""
-"「darling-dmg」を構築するには、fuse、icu、openssl、zlib、bzip2というライブラ"
-"リの開発パッケージが必要です。"
-
-msgid ""
-"For building xar and pbzx you may want to follow `this guide <https://gist."
-"github.com/phracker/1944ce190e01963c550566b749bd2b54>`__."
-msgstr ""
 
 msgid ""
 "`cctools-port <https://github.com/tpoechtrager/cctools-port>`__ for the "
@@ -120,34 +35,11 @@ msgstr "これには、automake、autogen、libtoolなどの追加の依存関�
 msgid "Configuring the environment"
 msgstr "環境のコンフィグ"
 
-msgid "darling-dmg"
-msgstr "\\ darling-dmg"
-
-msgid "Clone the repository on your machine:"
-msgstr "マシン上のリポジトリのクローンを作成します:"
-
-msgid "Build it:"
-msgstr "それを構築します:"
-
 msgid "Preparing the SDK"
 msgstr "SDKの準備"
 
-msgid "Mount the XCode image:"
-msgstr "XCodeイメージをマウントする:"
-
-msgid "For newer versions you should extract the **xip** file:"
-msgstr ""
-
-msgid ""
-"Note that for the commands below, you may need to replace the version (`X."
-"x`) with whatever iOS SDK version you're using."
-msgstr ""
-
 msgid "Extract the iOS SDK:"
 msgstr "\\ iOS SDK を抽出する:"
-
-msgid "Pack the SDK:"
-msgstr "SDKをパックする:"
 
 msgid "Toolchain"
 msgstr "ツールチェーン"
@@ -164,13 +56,6 @@ msgstr ""
 "ツールをより良い場所にコピーします。ビルド用のSConsスクリプトは、ツールチェー"
 "ンバイナリに指定するディレクトリ内の ``usr/bin`` の下に置かれるので、次のコマ"
 "ンドに似たサブディレクトリにコピーする必要があります:"
-
-msgid ""
-"Now you should have the iOS toolchain binaries in ``/home/user/iostoolchain/"
-"usr/bin``."
-msgstr ""
-"\\ iOSツールチェーンバイナリが ``/home/user/iostoolchain/usr/bin`` にあるはず"
-"です。"
 
 msgid "Compiling Godot for iPhone"
 msgstr "\\ iPhone用ゴドットのコンパイル"

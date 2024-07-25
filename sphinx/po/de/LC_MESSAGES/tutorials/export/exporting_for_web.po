@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,6 +118,8 @@ msgstr ""
 msgid ""
 "If your project uses GDExtension **Extension Support** needs to be enabled."
 msgstr ""
+"Wenn Ihr Projekt GDExtension verwendet, muss **Extension-Unterstützung** "
+"aktiviert sein."
 
 msgid ""
 "If you plan to use :ref:`VRAM compression <doc_importing_images>` make sure "
@@ -580,14 +577,15 @@ msgstr ""
 "Produktionszwecke verwendet werden sollte. Stattdessen sollten Sie einen "
 "etablierten Webserver wie Apache oder nginx verwenden."
 
-#, fuzzy
 msgid "Interacting with the browser and JavaScript"
-msgstr "Interaktion mit dem Inspektor"
+msgstr "Interaktion mit dem Browser und JavaScript"
 
 msgid ""
 "See the :ref:`dedicated page <doc_web_javascript_bridge>` on how to interact "
 "with JavaScript and access some unique Web browser features."
 msgstr ""
+"Siehe die :ref:`Seite <doc_web_javascript_bridge>` über die Interaktion mit "
+"JavaScript und den Zugang zu einigen einzigartigen Webbrowser-Funktionen."
 
 msgid "Environment variables"
 msgstr "Umgebungsvariablen"

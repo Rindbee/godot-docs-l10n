@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,42 +43,10 @@ msgstr ""
 "しいプロジェクトのインポートまたは作成などができます。"
 
 msgid ""
-"At the top of the window, there is another tab named \"Asset Library "
-"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
-"button. For privacy reasons the Godot project manager does not access the "
-"internet by default. To change this click the \"Go Online button\", if you "
-"want to change your network mode back to \"offline\" you can do so from the "
-"project manager settings."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-"ウィンドウの上部には、「アセットアライブラリのプロジェクト」という名前の別の"
-"タブがあります。 オープンソースアセットライブラリでデモプロジェクトを検索でき"
-"ます。このライブラリには、コミュニティによって開発された多くのプロジェクトが"
-"含まれています。"
-
-msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr ""
 "プロジェクトマネージャーの詳細については、 :ref:`doc_project_manager` をお読"
 "みください。"
-
-#, fuzzy
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr ""
-"セーフ･ラインの色分けをオフにしたり、エディタ設定でカラーを変更することができ"
-"ます。"
-
-msgid ""
-"From here use the language drop down menu to select your language. By "
-"default, it is in English (EN)."
-msgstr ""
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -226,13 +189,6 @@ msgstr ""
 "クラス、メソッド、プロパティ、定数、シグナルに関する情報は、以下のいずれかの"
 "方法で検索できます。"
 
-#, fuzzy
-msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr ""
-"エディタ内の任意の場所で :kbd:`F1` (macOSでは :kbd:`Alt + Space`) を押す。"
-
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
@@ -241,13 +197,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "「ヘルプ」メニューをクリックし、「ヘルプを検索」する"
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"スクリプトエディタ内のクラス名、関数名、組み込み変数の上で :kbd:`Ctrl` キーを"
-"押しながらクリックする。"
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

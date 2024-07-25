@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,66 +94,6 @@ msgstr ""
 "shaders complejos."
 
 msgid ""
-"In Godot, shaders are made up of main functions called \"processor "
-"functions\". Processor functions are the entry point for your shader into "
-"the program. There are seven different processor functions."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"The ``vertex()`` function runs over all the vertices in the mesh and sets "
-"their positions and some other per-vertex variables. Used in :ref:"
-"`canvas_item shaders <doc_canvas_item_shader>` and :ref:`spatial shaders "
-"<doc_spatial_shader>`."
-msgstr ""
-"La función ``vertex()`` se ejecuta en todos los vértices de la malla y "
-"establece sus posiciones y algunas otras variables por vértice."
-
-#, fuzzy
-msgid ""
-"The ``fragment()`` function runs for every pixel covered by the mesh. It "
-"uses values output by the ``vertex()`` function, interpolated between the "
-"vertices. Used in :ref:`canvas_item shaders <doc_canvas_item_shader>` and :"
-"ref:`spatial shaders <doc_spatial_shader>`."
-msgstr ""
-"La función ``fragment()`` se ejecuta para cada píxel cubierto por la malla. "
-"Utiliza los valores generados por la función ``vertex()``, interpolados "
-"entre los vértices."
-
-#, fuzzy
-msgid ""
-"The ``light()`` function runs for every pixel and for every light. It takes "
-"variables from the ``fragment()`` function and from its previous runs. Used "
-"in :ref:`canvas_item shaders <doc_canvas_item_shader>` and :ref:`spatial "
-"shaders <doc_spatial_shader>`."
-msgstr ""
-"La función ``light()`` se ejecuta para cada píxel y para cada luz. Toma "
-"variables de la función ``fragment()`` y de sus ejecuciones anteriores."
-
-msgid ""
-"The ``start()`` function runs for every particle in a particle system once "
-"when the particle is first spawned. Used in :ref:`particles shaders "
-"<doc_particle_shader>`."
-msgstr ""
-
-msgid ""
-"The ``process()`` function runs for every particle in a particle system for "
-"each frame. Used in :ref:`particles shaders <doc_particle_shader>`."
-msgstr ""
-
-msgid ""
-"The ``sky()`` function runs for every pixel in the radiance cubemap when the "
-"radiance cubemap needs to be updated, and for every pixel on the current "
-"screen. Used in :ref:`sky shaders <doc_sky_shader>`."
-msgstr ""
-
-msgid ""
-"The ``fog()`` function runs for every froxel in the volumetric fog froxel "
-"buffer that intersects with the :ref:`FogVolume <class_FogVolume>`. Used by :"
-"ref:`fog shaders <doc_fog_shader>`."
-msgstr ""
-
-msgid ""
 "The ``light()`` function won't run if the ``vertex_lighting`` render mode is "
 "enabled, or if **Rendering > Quality > Shading > Force Vertex Shading** is "
 "enabled in the Project Settings. It's enabled by default on mobile platforms."
@@ -168,25 +103,8 @@ msgstr ""
 "Shading > Force Vertex Shading** está habilitada en la Configuración del "
 "Proyecto. Por defecto, está habilitada en plataformas móviles."
 
-msgid ""
-"Godot also exposes an API for users to write totally custom GLSL shaders. "
-"For more information see :ref:`doc_compute_shaders`."
-msgstr ""
-
 msgid "Shader types"
 msgstr "Tipos de Shaders"
-
-#, fuzzy
-msgid ""
-"Instead of supplying a general-purpose configuration for all uses (2D, 3D, "
-"particles, sky, fog), you must specify the type of shader you're writing. "
-"Different types support different render modes, built-in variables, and "
-"processing functions."
-msgstr ""
-"En lugar de proporcionar una configuración de propósito general para todos "
-"los usos (2D, 3D, partículas), debes especificar el tipo de shader que estás "
-"escribiendo. Los diferentes tipos de shaders admiten diferentes modos de "
-"renderizado, variables integradas y funciones de procesamiento."
 
 msgid ""
 "In Godot, all shaders need to specify their type in the first line, like so:"
@@ -205,13 +123,6 @@ msgstr ":ref:`canvas_item <doc_canvas_item_shader>` para renderizado 2D."
 
 msgid ":ref:`particles <doc_particle_shader>` for particle systems."
 msgstr ":ref:`partículas <doc_particle_shader>` para sistemas de partículas."
-
-msgid ":ref:`sky <doc_sky_shader>` to render :ref:`Skies <class_Sky>`."
-msgstr ""
-
-msgid ""
-":ref:`fog <doc_fog_shader>` to render :ref:`FogVolumes <class_FogVolume>`"
-msgstr ""
 
 msgid "Render modes"
 msgstr "Modos de renderizado"
@@ -243,15 +154,6 @@ msgstr ""
 msgid "Vertex processor"
 msgstr "Procesador Vertex"
 
-#, fuzzy
-msgid ""
-"The ``vertex()`` processing function is called once for every vertex in "
-"``spatial`` and ``canvas_item`` shaders."
-msgstr ""
-"La función de procesamiento ``vertex()`` se llama una vez por cada vértice "
-"en los shaders ``spatial`` y ``canvas_item``. Para los shaders de "
-"``particles``, se llama una vez por cada partícula."
-
 msgid ""
 "Each vertex in your world's geometry has properties like a position and "
 "color. The function modifies those values and passes them to the fragment "
@@ -277,18 +179,6 @@ msgstr ""
 
 msgid "Fragment processor"
 msgstr "Procesador Fragment"
-
-#, fuzzy
-msgid ""
-"The ``fragment()`` processing function is used to set up the Godot material "
-"parameters per pixel. This code runs on every visible pixel the object or "
-"primitive draws. It is only available in ``spatial``, ``canvas_item``, and "
-"``sky`` shaders."
-msgstr ""
-"La función de procesamiento ``fragment()`` se utiliza para configurar los "
-"parámetros del material de Godot por píxel. Este código se ejecuta en cada "
-"píxel visible que el objeto o primitiva dibuja. Solo está disponible en "
-"shaders ``spatial`` y ``canvas_item``."
 
 msgid ""
 "The standard use of the fragment function is to set up material properties "

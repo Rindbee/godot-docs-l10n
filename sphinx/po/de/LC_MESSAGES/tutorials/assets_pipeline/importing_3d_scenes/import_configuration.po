@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,16 +95,15 @@ msgstr ""
 "**Erweitert...**-Button im Import-Dock aufgerufen werden kann. Hier können "
 "Sie die Optionen für jedes einzelne Objekt in Godot anpassen."
 
-#, fuzzy
 msgid ""
 ":ref:`Import hints <doc_importing_3d_scenes_node_type_customization>`, which "
 "are special suffixes added to object names in the 3D modeling software. This "
 "allows you to customize per-object options in the 3D modeling software."
 msgstr ""
-":ref:`Import-Hints <doc_importing_3d_scenes_import_hints>` sind spezielle "
-"Suffixe, die den Objektnamen in der 3D-Modellierungssoftware hinzugefügt "
-"werden. Damit können Sie die Optionen in der 3D-Modellierungssoftware "
-"objektspezifisch anpassen."
+":ref:`Import-Hints <doc_importing_3d_scenes_node_type_customization>` sind "
+"spezielle Suffixe, die den Objektnamen in der 3D-Modellierungssoftware "
+"hinzugefügt werden. Damit können Sie die Optionen in der 3D-"
+"Modellierungssoftware objektspezifisch anpassen."
 
 msgid ""
 "For basic customization, using the Import dock suffices. However, for more "
@@ -552,7 +546,6 @@ msgstr ""
 "verbessern, wird empfohlen, diesen Wert für Ihre Anwendungsfälle so niedrig "
 "wie möglich zu halten."
 
-#, fuzzy
 msgid ""
 "**Occluder > Simplification Distance:** Only visible if **Generate > "
 "Occluder** is set to **Mesh + Occluder** or **Occluder Only**. Higher values "
@@ -870,9 +863,9 @@ msgid ""
 "FileSystem dock and choosing **New > Script…**. In the script editor, write "
 "the following:"
 msgstr ""
-"Erstellen Sie ein Skript, das keinem Knoten zugeordnet ist, indem Sie mit "
-"der rechten Maustaste in das Dateisystem-Dock klicken und **Neu > Skript..."
-"** wählen. Schreiben Sie Folgendes in den Skript-Editor:"
+"Erstellen Sie ein Skript, das keinem Node zugeordnet ist, indem Sie mit der "
+"rechten Maustaste in das Dateisystem-Dock klicken und **Neu > Skript...** "
+"wählen. Schreiben Sie Folgendes in den Skript-Editor:"
 
 msgid ""
 "The ``_post_import(scene: Node)`` function takes the imported scene as "
@@ -889,6 +882,8 @@ msgid ""
 "To use your script, locate the script in the import tab's \"Path\" option "
 "under the \"Import Script\" category."
 msgstr ""
+"Um Ihr Skript zu verwenden, suchen Sie das Skript auf dem \"Import\"-Tab in "
+"der Kategorie \"Skript importieren\" unter der Option \"Pfad\"."
 
 msgid "Using animation libraries"
 msgstr "Verwendung von Animationsbibliotheken"

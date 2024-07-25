@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,18 +101,6 @@ msgid ""
 "the page:"
 msgstr "打開拉取請求頁面。點擊頁面頂部附近的 *fork* 分支名稱:"
 
-#, fuzzy
-msgid ""
-"Now that you are on the fork's branch page, click the ``.github`` folder at "
-"the top of the file list. Then, click on the ``workflows`` folder (which is "
-"inside the ``.github`` folder). Click the workflow file for the platform you "
-"wish to download artifacts for. *After* clicking on the file (which opens "
-"the file view), copy the page URL from your browser's address bar."
-msgstr ""
-"現在你在 fork 的分支頁面上，點擊檔列表頂部的 ``.github`` 資料夾。然後，點擊 "
-"``workflows`` 資料夾（位於 ``.github`` 資料夾內）。點擊你想下載工件的平臺的工"
-"作流程檔。在點擊檔（打開檔視圖）*之後*，從瀏覽器的位址欄複製頁面 URL。"
-
 msgid ""
 "Open the `nightly.link <https://nightly.link>`__ website and paste the URL "
 "you just copied into the text field located below the heading **Paste a "
@@ -156,10 +139,6 @@ msgstr ""
 "對於最後一次更新超過90天的拉取請求，或者在Godot的GitHub Actions設定不支援的平"
 "臺和配置上進行測試，可能需要採用這種方法。"
 
-#, fuzzy
-msgid "Downloading a zipped pull request branch"
-msgstr "從源編譯拉取請求分支"
-
 msgid ""
 "Now that you are on the fork's branch page, click the green **Code** button "
 "on the right of the page then choose **Download ZIP** in the dropdown:"
@@ -170,36 +149,6 @@ msgstr ""
 msgid ""
 "Extract the ZIP archive and follow the :ref:`compiling <toc-devel-"
 "compiling>` instructions for your operating system."
-msgstr ""
-"提取 ZIP 壓縮包，按照你的作業系統的:ref:`編譯 <toc-devel-compiling>`說明操"
-"作。"
-
-#, fuzzy
-msgid "Checking out a pull request branch with git"
-msgstr "從源編譯拉取請求分支"
-
-#, fuzzy
-msgid "Alternatively, you can checkout the pull request directly with git:"
-msgstr "或者，您也可以將其克隆到專案資料夾："
-
-msgid ""
-"Open the pull request page. Note the pull request *number* (``PR_NUMBER``), "
-"and the *branch name* (``BRANCH_NAME``), but without the user name."
-msgstr ""
-
-msgid "Construct the command using this pattern:"
-msgstr ""
-
-msgid "So for the pull request above, the actual command will be:"
-msgstr ""
-
-msgid "Once the pull request finishes downloading, checkout its branch:"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"And follow the :ref:`compiling <toc-devel-compiling>` instructions for your "
-"operating system."
 msgstr ""
 "提取 ZIP 壓縮包，按照你的作業系統的:ref:`編譯 <toc-devel-compiling>`說明操"
 "作。"

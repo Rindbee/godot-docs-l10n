@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,42 +18,12 @@ msgstr "2Dメッシュ"
 msgid "Introduction"
 msgstr "はじめに"
 
-#, fuzzy
-msgid ""
-"In 3D, meshes are used to display the world. In 2D, they are rare as images "
-"are used more often. Godot's 2D engine is a pure two-dimensional engine, so "
-"it can't really display 3D meshes directly (although it can be done via "
-"``Viewport`` and ``ViewportTexture``)."
-msgstr ""
-"3Dでは、メッシュを使用してワールドを表示します。2Dでは、イメージが頻繁に使用"
-"されるため、これらはまれです。Godotの2Dエンジンは純粋な二次元エンジンなので、"
-"3Dメッシュを直接表示することはできません(これは\\ ``Viewport``\\ と\\ "
-"``ViewportTexture``\\ を介して行うことができます)。"
-
 msgid ""
 "If you are interested in displaying 3D meshes on a 2D viewport, see the :ref:"
 "`doc_viewport_as_texture` tutorial."
 msgstr ""
 "3Dメッシュを2Dビューポートに表示する方法については、 チュートリアルの \\ :"
 "ref:`doc_viewport_as_texture` を参照してください。"
-
-#, fuzzy
-msgid ""
-"2D meshes are meshes that contain two-dimensional geometry (Z can be omitted "
-"or ignored) instead of 3D. You can experiment creating them yourself using "
-"``SurfaceTool`` from code and displaying them in a ``MeshInstance2D`` node."
-msgstr ""
-"2Dメッシュは、3Dではなく二次元ジオメトリ(Z軸は省略または無視できます)を含む"
-"メッシュです。 ``SurfaceTool`` を使用してコードから作成し、 "
-"``MeshInstance2D`` 2Dノードに表示することもできます。"
-
-#, fuzzy
-msgid ""
-"Currently, the only way to generate a 2D mesh within the editor is by either "
-"importing an OBJ file as a mesh, or converting it from a Sprite2D."
-msgstr ""
-"現在、エディタ内で2Dメッシュを生成する唯一の方法は、OBJファイルをメッシュとし"
-"てインポートするか、それをSpriteから変換することです。"
 
 msgid "Optimizing pixels drawn"
 msgstr "描画するピクセルの最適化"
@@ -87,26 +52,6 @@ msgid ""
 "and the rest will be ignored."
 msgstr "メッシュに変換すると、不透明な部分だけが描画され、残りは無視されます。"
 
-#, fuzzy
-msgid "Converting Sprite2Ds to 2D meshes"
-msgstr "スプライトを2Dメッシュに変換"
-
-#, fuzzy
-msgid ""
-"You can take advantage of this optimization by converting a ``Sprite2D`` to "
-"a ``MeshInstance2D``. Start with an image that contains large amounts of "
-"transparency on the edges, like this tree:"
-msgstr ""
-"``Sprite`` を ``MeshInstance2D`` に変換することでこの最適化を利用できます。下"
-"記の木の画像のように、端に大量の透過部分を含む画像から始めます:"
-
-#, fuzzy
-msgid ""
-"Put it in a ``Sprite2D`` and select \"Convert to 2D Mesh\" from the menu:"
-msgstr ""
-"それを\\ ``Sprite``\\ に入れて、メニューから \"Convert to 2D Mesh\" を選択し"
-"てください:"
-
 msgid ""
 "A dialog will appear, showing a preview of how the 2D mesh will be created:"
 msgstr "ダイアログが表示され、2Dメッシュの作成方法のプレビューが表示されます:"
@@ -117,12 +62,6 @@ msgid ""
 msgstr ""
 "大体の場合はデフォルト値で十分ですが、必要に応じて拡大(growth)や単純化"
 "(simplification)を変更できます:"
-
-#, fuzzy
-msgid ""
-"Finally, push the ``Convert 2D Mesh`` button and your Sprite2D will be "
-"replaced:"
-msgstr "最後に、 ``Convert 2D Mesh`` を押すとSpriteが置き換えられます:"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

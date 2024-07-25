@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,20 +96,6 @@ msgstr ""
 "doporučuje naučit se jednotlivé SDK, může být frustrující, když je k tomu "
 "nucen v krátkém čase."
 
-#, fuzzy
-msgid ""
-"There is also another problem with this approach: different devices prefer "
-"some data in different formats to run. The main example of this is texture "
-"compression. All PC hardware uses S3TC (BC) compression and that has been "
-"standardized for more than a decade, but mobile devices use different "
-"formats for texture compression, such as ETC1 and ETC2."
-msgstr ""
-"S tímto přístupem je spojen i další problém: různá zařízení dávají přednost "
-"datům v různých formátech. Hlavním příkladem je komprese textur. Veškerý "
-"hardware PC používá kompresi S3TC (BC) a ta je standardizována již více než "
-"deset let, ale mobilní zařízení používají pro kompresi textur rozdílné "
-"formáty, například PVRTC (iOS) nebo ETC (Android)."
-
 msgid "Export menu"
 msgstr "Nabídka Export"
 
@@ -168,28 +149,6 @@ msgstr ""
 "V té době se od uživatele očekává, že se vrátí k dokumentaci a bude "
 "postupovat podle pokynů, jak tuto platformu správně nastavit."
 
-msgid ""
-"The buttons at the bottom of the menu allow you to export the project in a "
-"few different ways:"
-msgstr ""
-
-msgid ""
-"Export All: Export the project as a playable build (Godot executable and "
-"project data) for all the presets defined. All presets must have an **Export "
-"Path** defined for this to work."
-msgstr ""
-
-msgid ""
-"Export Project: Export the project as a playable build (Godot executable and "
-"project data) for the selected preset."
-msgstr ""
-
-msgid ""
-"Export PCK/ZIP: Export the project resources as a PCK or ZIP package. This "
-"is not a playable build, it only exports the project data without a Godot "
-"executable."
-msgstr ""
-
 msgid "Export templates"
 msgstr "Šablony pro export"
 
@@ -241,63 +200,8 @@ msgstr ""
 "zdroje** vám zobrazí seznam scén nebo zdrojů v projektu a vy musíte vybrat "
 "každou scénu nebo zdroj, který chcete exportovat."
 
-msgid ""
-"Files and folders whose name begin with a period will never be included in "
-"the exported project. This is done to prevent version control folders like "
-"``.git`` from being included in the exported PCK file."
-msgstr ""
-
-msgid ""
-"Below the list of resources are two filters that can be setup. The first "
-"allows non resource files such as ``.txt``, ``.json`` and ``.csv`` to be "
-"exported with the project. The second filter can be used to exclude every "
-"file of a certain type without manually deselecting every one. For example, "
-"``.png`` files."
-msgstr ""
-
-#, fuzzy
-msgid "Configuration files"
-msgstr "Konfigurace sestavení"
-
-msgid ""
-"The export configuration is stored in two files that can both be found in "
-"the project directory:"
-msgstr ""
-
-msgid ""
-"``export_presets.cfg``: This file contains the vast majority of the export "
-"configuration and can be safely committed to version control. There is "
-"nothing in here that you would normally have to keep secret."
-msgstr ""
-
-msgid ""
-"``.godot/export_credentials.cfg``: This file contains export options that "
-"are considered confidential, like passwords and encryption keys. It should "
-"generally **not** be committed to version control or shared with others "
-"unless you know exactly what you are doing."
-msgstr ""
-
-msgid ""
-"Since the credentials file is usually kept out of version control systems, "
-"some export options will be missing if you clone the project to a new "
-"machine. The easiest way to deal with this is to copy the file manually from "
-"the old location to the new one."
-msgstr ""
-
 msgid "Exporting from the command line"
 msgstr "Exportování z příkazového řádku"
-
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"Při produkci je užitečné automatizovat sestavení a Godot to podporuje pomocí "
-"parametrů příkazového řádku ``--export`` a ``--export-debug``. Export z "
-"příkazového řádku stále vyžaduje předvolbu exportu, která definuje parametry "
-"exportu. Základní volání příkazu by bylo následující:"
 
 msgid ""
 "This will export to ``some_name.exe``, assuming there is a preset called "
@@ -312,33 +216,8 @@ msgstr ""
 "speciální znaky). Výstupní cesta je *relativní k cestě projektu* nebo "
 "*absolutní* ; **nerespektuje adresář, ze kterého byl příkaz vyvolán**."
 
-msgid ""
-"The output file extension should match the one used by the Godot export "
-"process:"
-msgstr ""
-
 msgid "Windows: ``.exe``"
 msgstr "Windows: ``.exe``"
-
-msgid ""
-"macOS: ``.zip`` (from all platforms) or ``.dmg`` (only when exporting *from* "
-"macOS). ``.app`` is not supported directly, although the generated ZIP "
-"archive contains an ``.app`` bundle."
-msgstr ""
-
-msgid ""
-"Linux: Any extension (including none). ``.x86_64`` is typically used for 64-"
-"bit x86 binaries."
-msgstr ""
-
-msgid "HTML5: ``.zip``"
-msgstr ""
-
-msgid "Android: ``.apk``"
-msgstr ""
-
-msgid "iOS: ``.zip``"
-msgstr ""
 
 msgid ""
 "You can also configure it to export *only* the PCK or ZIP file, allowing a "
@@ -350,21 +229,6 @@ msgstr ""
 "ZIP, což umožní použít jeden exportovaný soubor hlavního balíčku více "
 "spustitelnými soubory Godot. Přitom je třeba na příkazovém řádku ještě zadat "
 "název předvolby exportu:"
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"Často je užitečné kombinovat příznak ``--export`` s příznakem ``--path`` a "
-"vytvořit speciální předvolbu exportu pro automatický export , abyste před "
-"spuštěním příkazu nemuseli ``cd`` do složky projektu:"
-
-msgid ""
-"See :ref:`doc_command_line_tutorial` for more information about using Godot "
-"from the command line."
-msgstr ""
 
 msgid "PCK versus ZIP pack file formats"
 msgstr "Formáty souborů PCK versus ZIP pack"

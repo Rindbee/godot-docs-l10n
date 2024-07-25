@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,23 +85,6 @@ msgstr ""
 "тисяч рибок <doc_animating_thousands_of_fish>`. Інформацію шейдеру можна "
 "надавати за допомогою текстур (для цього ідеально підходять десяткові "
 "формати :ref:`Image<class_Image>`)."
-
-#, fuzzy
-msgid ""
-"Another alternative is to use a GDExtension and C++, which should be "
-"extremely efficient (it's possible to set the entire state for all objects "
-"using linear memory via the :ref:`RenderingServer.multimesh_set_buffer() "
-"<class_RenderingServer_method_multimesh_set_buffer>` function). This way, "
-"the array can be created with multiple threads, then set in one call, "
-"providing high cache efficiency."
-msgstr ""
-"Іншою альтернативою є використання GDNative та C++, що має бути надзвичайно "
-"ефективним (можна встановити весь стан для всіх об'єктів, використовуючи "
-"лінійну пам'ять через функцію :ref:`VisualServer."
-"multimesh_set_as_bulk_array() "
-"<class_VisualServer_method_multimesh_set_as_bulk_array>`). Таким чином, "
-"масив може бути створений у декількох потоках, а потім встановлений за один "
-"виклик, що забезпечує високу ефективність використання кешу."
 
 msgid ""
 "Finally, it's not required to have all MultiMesh instances visible. The "

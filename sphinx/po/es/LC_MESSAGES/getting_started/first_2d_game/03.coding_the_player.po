@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,23 +54,6 @@ msgstr ""
 
 msgid "Start by declaring the member variables this object will need:"
 msgstr "Comienza declarando las variables miembro que este objeto necesitará:"
-
-#, fuzzy
-msgid ""
-"Using the ``export`` keyword on the first variable ``speed`` allows us to "
-"set its value in the Inspector. This can be handy for values that you want "
-"to be able to adjust just like a node's built-in properties. Click on the "
-"``Player`` node and you'll see the property now appears in the Inspector in "
-"a new section with the name of the script. Remember, if you change the value "
-"here, it will override the value written in the script."
-msgstr ""
-"Utilizar la palabra clave ``export`` en la primera variable ``speed`` nos "
-"permite asignar su valor desde el Inspector. Esto puede ser útil para "
-"valores que quieres ajustar como ajustas las propiedades de los nodos "
-"comunes. Haz clic en el nodo ``Player`` y verás que en la sección \"Script "
-"Variables\" del Inspector aparece la nueva propiedad. Recuerda que si "
-"cambias el valor aquí, sobrescribirá el valor asignado en el script al "
-"ejecutar el juego."
 
 msgid ""
 "If you're using C#, you need to (re)build the project assemblies whenever "
@@ -288,14 +266,6 @@ msgstr ""
 "-la cantidad de tiempo que le tomo al frame anterior para completarse. "
 "Usando este valor aseguras que tu movimiento sera consistente incluso si el "
 "frame rate cambia ."
-
-#, fuzzy
-msgid ""
-"Click \"Run Current Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm "
-"you can move the player around the screen in all directions."
-msgstr ""
-"Haz clic en \"Reproducir Escena\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) y "
-"confirme que puede mover el player por la pantalla en todas las direcciones."
 
 msgid "If you get an error in the \"Debugger\" panel that says"
 msgstr "Si tu obtienes un error en el panel \"Depurador\" que dice"

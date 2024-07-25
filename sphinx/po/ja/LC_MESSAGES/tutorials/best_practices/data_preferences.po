@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,19 +84,6 @@ msgstr ""
 msgid "Array vs. Dictionary vs. Object"
 msgstr "Array(配列) 対 Dictionary(辞書) 対 Object(オブジェクト)"
 
-#, fuzzy
-msgid ""
-"Godot stores all variables in the scripting API in the :ref:`Variant "
-"<doc_variant_class>` class. Variants can store Variant-compatible data "
-"structures such as :ref:`Array <class_Array>` and :ref:`Dictionary "
-"<class_Dictionary>` as well as :ref:`Objects <class_Object>`."
-msgstr ""
-"Godotは、スクリプトAPI内のすべての変数を `バリアント型 <https://docs."
-"godotengine.org/en/latest/development/cpp/variant_class.html>`_ クラスに格納"
-"します。バリアントには、\\ :ref:`Array(配列) <class_Array>` や :ref:"
-"`Dictionary(辞書) <class_Dictionary>` などのバリアント互換データ構造と :ref:"
-"`Object(オブジェクト) <class_Object>` を格納できます。"
-
 msgid ""
 "Godot implements Array as a ``Vector<Variant>``. The engine stores the Array "
 "contents in a contiguous section of memory, i.e. they are in a row adjacent "
@@ -110,20 +92,6 @@ msgstr ""
 "GodotはArrayを ``Vector <Variant>``として実装します。エンジンは、配列の内容を"
 "メモリの連続したセクションに保存します。つまり、それらは互いに隣接する行にあ"
 "ります。"
-
-#, fuzzy
-msgid ""
-"For those unfamiliar with C++, a Vector is the name of the array object in "
-"traditional C++ libraries. It is a \"templated\" type, meaning that its "
-"records can only contain a particular type (denoted by angled brackets). So, "
-"for example, a :ref:`PackedStringArray <class_PackedStringArray>` would be "
-"something like a ``Vector<String>``."
-msgstr ""
-"C++に慣れていない人にとって、ベクターは従来のC++ライブラリの配列オブジェクト"
-"の名前です。これは「テンプレート化された」タイプです。つまり、そのレコードに"
-"は特定のタイプ(山括弧で示される)のみを含めることができます。したがって、たと"
-"えば、\\ :ref:`PoolStringArray <class_PoolStringArray>` は ``Vector "
-"<String>`` のようなものになります。"
 
 msgid "Contiguous memory stores imply the following operation performance:"
 msgstr "連続したメモリ ストアは、次の操作パフォーマンスを意味します:"
@@ -173,14 +141,6 @@ msgstr ""
 "りに、配列全体の2回のコピーだけで済みます(依然として一定の時間がかかり、遅い"
 "ですが)。"
 
-#, fuzzy
-msgid ""
-"**Get, Set:** Fastest *by position*. E.g. can request 0th, 2nd, 10th record, "
-"etc. but cannot specify which record you want."
-msgstr ""
-"**取得、設定:** 位置で指定するので\\ *最速*\\ 。例: 0番目、2番目、10番目のレ"
-"コードなどを要求できますが、必要なレコードを指定することはできません。"
-
 msgid "Op: 1 addition operation from array start position up to desired index."
 msgstr "処理: 配列の開始位置から目的のインデックスまでの1回の追加操作。"
 
@@ -207,24 +167,6 @@ msgstr ""
 "なります。しかし、素人のユーザーはこれに不慣れです。編集のたびに配列を再ソー"
 "トし、順序に対応した検索アルゴリズムを作成することで完了します。"
 
-#, fuzzy
-msgid ""
-"Godot implements Dictionary as an ``OrderedHashMap<Variant, Variant>``. The "
-"engine stores a small array (initialized to 2^3 or 8 records) of key-value "
-"pairs. When one attempts to access a value, they provide it a key. It then "
-"*hashes* the key, i.e. converts it into a number. The \"hash\" is used to "
-"calculate the index into the array. As an array, the OHM then has a quick "
-"lookup within the \"table\" of keys mapped to values. When the HashMap "
-"becomes too full, it increases to the next power of 2 (so, 16 records, then "
-"32, etc.) and rebuilds the structure."
-msgstr ""
-"Godotは、Dictionaryを ``OrderedHashMap<Variant, Variant>``として実装します。"
-"エンジンは、キーと値のペアの巨大な配列(1000レコードに初期化された)を保存しま"
-"す。値にアクセスしようとすると、まず値がキーになります。次に、キーを\\ *ハッ"
-"シュ*\\ します。つまり、キーを数値に変換します。 「ハッシュ」は配列へのイン"
-"デックスになり、OHM(訳注:オブジェクト・ハンドル・マネージャー？)は値にマップ"
-"されたキーの概念的な「テーブル」内の値をすばやく検索できます。"
-
 msgid ""
 "Hashes are to reduce the chance of a key collision. If one occurs, the table "
 "must recalculate another index for the value that takes the previous "
@@ -247,24 +189,6 @@ msgstr ""
 "ハッシュ操作は定数時間であるため、ハッシュ計算の数がテーブルの密度に依存しす"
 "ぎない限り、アルゴリズムで複数の処理を行う必要がある場合でも、処理は高速にな"
 "ります。話は続きます..."
-
-#, fuzzy
-msgid "Maintaining an ever-growing size for the table."
-msgstr "巨大なサイズのテーブルを保持します。"
-
-msgid ""
-"HashMaps maintain gaps of unused memory interspersed in the table on purpose "
-"to reduce hash collisions and maintain the speed of accesses. This is why it "
-"constantly increases in size exponentially by powers of 2."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"As one might be able to tell, Dictionaries specialize in tasks that Arrays "
-"do not. An overview of their operational details is as follows:"
-msgstr ""
-"おわかりになると思いますが、Dictionaryは配列ではないタスクに特化しています。"
-"運用の詳細の概要は次のとおりです。"
 
 msgid "**Iterate:** Fast."
 msgstr "**反復処理:** 高速。"
@@ -470,17 +394,6 @@ msgstr ""
 msgid "Enumerations: int vs. string"
 msgstr "列挙型: int 対 string"
 
-#, fuzzy
-msgid ""
-"Most languages offer an enumeration type option. GDScript is no different, "
-"but unlike most other languages, it allows one to use either integers or "
-"strings for the enum values (the latter only when using the ``export`` "
-"keyword in GDScript). The question then arises, \"which should one use?\""
-msgstr ""
-"ほとんどの言語には、列挙型オプションがあります。 GDScriptでも同様ですが、他の"
-"ほとんどの言語とは異なり、整数値または文字列を列挙値に使用できます。 そのた"
-"め、このように思うはずです「どちらを使うべきか？」"
-
 msgid ""
 "The short answer is, \"whichever you are more comfortable with.\" This is a "
 "feature specific to GDScript and not Godot scripting in general; The "
@@ -499,19 +412,6 @@ msgstr ""
 "速に行われます。しかし、他の言語の規則を維持したい場合は、整数を使用する必要"
 "があります。"
 
-#, fuzzy
-msgid ""
-"The primary issue with using integers comes up when one wants to *print* an "
-"enum value. As integers, attempting to print ``MY_ENUM`` will print ``5`` or "
-"what-have-you, rather than something like ``\"MyEnum\"``. To print an "
-"integer enum, one would have to write a Dictionary that maps the "
-"corresponding string value for each enum."
-msgstr ""
-"整数値の使用に関する主な問題は、列挙値を\\ *印刷*\\ したいときに発生します。"
-"整数として、MY_ENUMを印刷しようとすると、\\ ``\"MyEnum\"`` のようなものではな"
-"く、``5`` などが出力されます。整数の列挙型を出力するには、各列挙型に対応する"
-"文字列値をマップする辞書(Dictionary)を作成する必要があります。"
-
 msgid ""
 "If the primary purpose of using an enum is for printing values and one "
 "wishes to group them together as related concepts, then it makes sense to "
@@ -521,11 +421,6 @@ msgstr ""
 "列挙型を使用する主な目的が値を出力することであり、それらを関連する概念として"
 "グループ化する場合、それらを文字列として使用することは理にかなっています。そ"
 "うすれば、印刷で実行するための別個のデータ構造は不要です。"
-
-#, fuzzy
-msgid ""
-"AnimatedTexture vs. AnimatedSprite2D vs. AnimationPlayer vs. AnimationTree"
-msgstr "AnimatedTexture 対 AnimatedSprite 対 AnimationPlayer 対 AnimationTree"
 
 msgid ""
 "Under what circumstances should one use each of Godot's animation classes? "
@@ -542,67 +437,8 @@ msgstr ""
 "なくアニメーション ループとして描画するテクスチャです。ユーザーは次の操作がで"
 "きます..."
 
-#, fuzzy
-msgid "the rate at which it moves across each section of the texture (FPS)."
-msgstr "テクスチャの各セクションを移行する速度(fps)。"
-
 msgid "the number of regions contained within the texture (frames)."
 msgstr "テクスチャに含まれる領域の数(フレーム数)。"
-
-#, fuzzy
-msgid ""
-"Godot's :ref:`RenderingServer <class_RenderingServer>` then draws the "
-"regions in sequence at the prescribed rate. The good news is that this "
-"involves no extra logic on the part of the engine. The bad news is that "
-"users have very little control."
-msgstr ""
-"Godotの :ref:`VisualServer <class_VisualServer>` は、指定されたレートで領域を"
-"順番に描画します。良いニュースは、これはエンジンの部分に余分なロジックを含み"
-"ないことです。悪いニュースは、ユーザーがほとんど制御できないことです。"
-
-#, fuzzy
-msgid ""
-"Also note that AnimatedTexture is a :ref:`Resource <class_Resource>` unlike "
-"the other :ref:`Node <class_Node>` objects discussed here. One might create "
-"a :ref:`Sprite2D <class_Sprite2D>` node that uses AnimatedTexture as its "
-"texture. Or (something the others can't do) one could add AnimatedTextures "
-"as tiles in a :ref:`TileSet <class_TileSet>` and integrate it with a :ref:"
-"`TileMap <class_TileMap>` for many auto-animating backgrounds that all "
-"render in a single batched draw call."
-msgstr ""
-"また、AnimatedTextureは :ref:`Resource <class_Resource>` であり、ここで説明し"
-"た他の :ref:`Node <class_Node>` オブジェクトとは異なります。テクスチャとして"
-"AnimatedTextureを使用する :ref:`Sprite <class_Sprite>` ノードを作成できます。"
-"ほかにも(他ではできません)AnimatedTextureを :ref:`TileSet <class_TileSet>` の"
-"タイルとして追加して :ref:`TileMap <class_TileMap>` と統合することで、単一の"
-"バッチ描画呼び出しですべてをレンダリングできる、多くの自動アニメーション背景"
-"を作成できます。"
-
-#, fuzzy
-msgid ""
-"The AnimatedSprite2D node, in combination with the :ref:`SpriteFrames "
-"<class_SpriteFrames>` resource, allows one to create a variety of animation "
-"sequences through spritesheets, flip between animations, and control their "
-"speed, regional offset, and orientation. This makes them well-suited to "
-"controlling 2D frame-based animations."
-msgstr ""
-"AnimatedSprite ノードは、:ref:`SpriteFrames <class_SpriteFrames>` リソースと"
-"組み合わせて、スプライトシートを通じてさまざまなアニメーション シーケンスを作"
-"成し、アニメーションの反復、速度、領域のオフセット、および方向を制御できま"
-"す。これにより、2Dフレームベースのアニメーションの制御に適しています。"
-
-#, fuzzy
-msgid ""
-"If one needs trigger other effects in relation to animation changes (for "
-"example, create particle effects, call functions, or manipulate other "
-"peripheral elements besides the frame-based animation), then will need to "
-"use an :ref:`AnimationPlayer <class_AnimationPlayer>` node in conjunction "
-"with the AnimatedSprite2D."
-msgstr ""
-"アニメーションの変更に関連して他の効果をトリガーする必要がある場合 (たとえ"
-"ば、パーティクル エフェクトの作成、関数の呼び出し、フレーム ベースのアニメー"
-"ション以外の他の周辺要素の操作など)、AnimatedSprite と組み合わせて :ref:"
-"`AnimationPlayer <class_AnimationPlayer>` ノードを使用する必要があります。"
 
 msgid ""
 "AnimationPlayers are also the tool one will need to use if they wish to "
@@ -610,11 +446,6 @@ msgid ""
 msgstr ""
 "AnimationPlayer は、次のようなより複雑な2Dアニメーションシステムを設計する場"
 "合に使用する必要があるツールでもあります。"
-
-#, fuzzy
-msgid "**Cut-out animations:** editing sprites' transforms at runtime."
-msgstr ""
-"**カットアウトアニメーション:** 実行時にスプライトの幾何学変換を編集します。"
 
 msgid ""
 "**2D Mesh animations:** defining a region for the sprite's texture and "

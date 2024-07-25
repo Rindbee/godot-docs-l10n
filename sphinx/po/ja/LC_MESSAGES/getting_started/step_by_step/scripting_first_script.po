@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -337,16 +332,6 @@ msgstr ""
 "の回転角を増やします。ここで、 ``rotation`` は、 ``Sprite2D`` が拡張する "
 "``Node2D`` クラスから継承されたプロパティです。これはノードの回転を制御し、ラ"
 "ジアン単位で指定します。"
-
-#, fuzzy
-msgid ""
-"In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
-"property or function like ``position``, ``rotation``, or ``_process`` to "
-"open the corresponding documentation in a new tab."
-msgstr ""
-"コードエディタで、 ``position`` 、 ``rotation`` 、 ``_ process`` などの組み込"
-"みプロパティまたは関数をCtrlキーを押しながらクリックすると対応する説明文が新"
-"しいタブで開きます。"
 
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr ""

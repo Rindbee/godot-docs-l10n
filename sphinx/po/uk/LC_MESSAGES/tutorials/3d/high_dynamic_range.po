@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +17,6 @@ msgstr "Освітлення з високим динамічним діапаз
 
 msgid "Introduction"
 msgstr "Вступ"
-
-#, fuzzy
-msgid ""
-"Normally, an artist does all the 3D modeling, then all the texturing, looks "
-"at their awesome looking model in the 3D modeling software and says \"looks "
-"fantastic, ready for integration!\" then goes into the game, lighting is "
-"setup and the game runs."
-msgstr ""
-"Зазвичай художник виконує все 3D-моделювання, потім усе текстурування, "
-"дивиться на свою чудову модель у 3D DCC і каже: «Виглядає приголомшливо, "
-"можна інтегрувати!» Потім він вставляє модель у гру, налаштовує освітлення і "
-"запускає гру."
 
 msgid ""
 "So at what point does all this \"HDR\" business come into play? To "
@@ -157,19 +140,6 @@ msgstr ""
 
 msgid "Scene linear & asset pipelines"
 msgstr "Лінійні сцени та канали активів"
-
-#, fuzzy
-msgid ""
-"Working in scene-linear sRGB is more complex than pressing a single switch. "
-"First, imported image assets must be converted to linear light ratios on "
-"import. Even when linearized, those assets may not be perfectly well-suited "
-"for use as textures, depending on how they were generated."
-msgstr ""
-"Працювати в сценічно-лінійному sRGB не так просто, як клацати перемикачем. "
-"Спершу, імпортовані активи зображень повинні бути перетворені в "
-"співвідношення лінійного світла при імпорті. Але навіть після цього ці "
-"активи можуть не ідеально підходити для використання в якості текстур, "
-"залежно від того, як вони були створені."
 
 msgid "There are two ways to do this:"
 msgstr "Зробити це можна двома способами:"

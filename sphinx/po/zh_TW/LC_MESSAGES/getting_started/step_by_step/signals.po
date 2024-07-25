@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,14 +47,6 @@ msgstr ""
 "水時，您希望生命條反映變化。要做到這一點，在 Godot 中，你會使用到訊號。"
 
 msgid ""
-"As mentioned in the introduction, signals are Godot's version of the "
-"observer pattern. You can learn more about it here: https://"
-"gameprogrammingpatterns.com/observer.html"
-msgstr ""
-"欲瞭解更多有關觀察者模式的資訊，請參考：https://gameprogrammingpatterns.com/"
-"observer.html"
-
-msgid ""
 "We will now use a signal to make our Godot icon from the previous lesson (:"
 "ref:`doc_scripting_player_input`) move and stop by pressing a button."
 msgstr ""
@@ -89,16 +76,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "場景設定"
-
-#, fuzzy
-msgid ""
-"To add a button to our game, we will create a new scene which will include "
-"both a :ref:`Button <class_button>` and the ``sprite_2d.tscn`` scene we "
-"created in the :ref:`doc_scripting_first_script` lesson."
-msgstr ""
-"要為我們的遊戲新增按鈕，我們需要新建一個“主”場景，包含一個 :ref:`按鈕 "
-"<class_button>` 以及之前課程 :ref:`doc_scripting_first_script` 編寫的 "
-"``sprite_2d.tscn`` 場景。"
 
 msgid "Create a new scene by going to the menu Scene -> New Scene."
 msgstr "通過轉到功能表“場景 -> 新建場景”來建立新場景。"
@@ -215,12 +192,6 @@ msgstr ""
 "項。您可以按一下視窗右下角的“高級”按鈕來切換模式。"
 
 msgid ""
-"If you are using an external editor (such as VS Code) this automatic code "
-"generation might not work. In this case you need to to connect the signal "
-"via code as explained in the next section."
-msgstr ""
-
-msgid ""
 "Click the Connect button to complete the signal connection and jump to the "
 "Script workspace. You should see the new method with a connection icon in "
 "the left margin."
@@ -291,14 +262,6 @@ msgstr ""
 "讓我們在這裡使用一個不同的節點。Godot 有一個 :ref:`Timer <class_Timer>` 節"
 "點，可用於實作技能冷卻時間、武器重裝等。"
 
-#, fuzzy
-msgid ""
-"Head back to the 2D workspace. You can either click the \"2D\" text at the "
-"top of the window or press :kbd:`Ctrl + F1` (:kbd:`Ctrl + Cmd + 1` on macOS)."
-msgstr ""
-"**3D 工作區** 可以建立網格、光照以及設計 3D 遊戲的關卡。按 :kbd:`F2` (或 "
-"macOS 上 :kbd:`Alt + 2`) 來打開。"
-
 msgid ""
 "In the Scene dock, right-click on the Sprite2D node and add a new child "
 "node. Search for Timer and add the corresponding node. Your scene should now "
@@ -333,17 +296,6 @@ msgid ""
 msgstr ""
 "要使用程式碼來連接訊號，你需要呼叫所需監聽節點訊號的 ``connect()`` 方法。這裡"
 "我們要監聽的是 Timer 的“timeout”訊號。"
-
-#, fuzzy
-msgid ""
-"We want to connect the signal when the scene is instantiated, and we can do "
-"that using the :ref:`Node._ready() <class_Node_private_method__ready>` built-"
-"in function, which is called automatically by the engine when a node is "
-"fully instantiated."
-msgstr ""
-"我們想要在場景產生實體時連接訊號，那麼就可以在 :ref:`Node._ready() "
-"<class_Node_method__ready>` 中實作。引擎會在節點完全產生實體後自動呼叫這個函"
-"式。"
 
 msgid ""
 "To get a reference to a node relative to the current one, we use the method :"
@@ -395,12 +347,6 @@ msgstr ""
 "``visible`` 屬性是一個布林值，用於控制節點的可見性。 ``visible = not "
 "visible`` 行切換該值。如果 ``visible`` 是 ``true`` ，它就會變成 ``false`` ，"
 "反之亦然。"
-
-#, fuzzy
-msgid ""
-"If you run the Node2D scene now, you will see that the sprite blinks on and "
-"off, at one second intervals."
-msgstr "如果你現在運作場景，就會看到精靈在閃啊閃的，間隔為一秒。"
 
 msgid "Complete script"
 msgstr "GDScript 範例"

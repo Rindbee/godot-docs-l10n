@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +36,8 @@ msgid ""
 "See :ref:`doc_system_requirements` for hardware and software version "
 "requirements."
 msgstr ""
-"Donanım ve yazılım isterleri için bakınız: :ref:`doc_system_requirements`."
+"Donanım ve yazılım sürüm gereksinimleri için, :ref:`doc_system_requirements` "
+"sayfasına bakınız."
 
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**Hem düzenleyici hem de dışa aktarılan projeleri çalıştırabilir:**"
@@ -67,13 +63,13 @@ msgid ""
 "github.com/godotengine/buildroot>`__, allowing for binaries that work across "
 "common Linux distributions (including LTS variants)."
 msgstr ""
-"Resmî koşturulabilirler `Godot Motor kökyapım <https://github.com/"
-"godotengine/buildroot>`__ ile derlenmiştir; bu sayede koşturulabilirler, "
-"yaygın olarak kullanılan Linux dağıtımlarında (Uzun Dönem Destek türleri "
-"dahil) çalışabilirler."
+"Resmî çalıştırılabilir ikili-tip dosyalar `Godot Engine buildroot (kök "
+"derleme) <https://github.com/godotengine/buildroot>`__ ile derlenmiştir; bu "
+"sayede bunlar yaygın olarak kullanılan Linux dağıtımlarında "
+"çalışabilirler(LTS - Uzun Dönem Destek - türleri de dahil)."
 
 msgid "Android (editor support is experimental)."
-msgstr "Android (deneysel düzenleyici desteği)."
+msgstr "Android (düzenleyici desteği deneyseldir)."
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -133,7 +129,7 @@ msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`hata ayıklayıcısı<doc_debugger_panel>`."
 
 msgid "Support for debugging in threads is available since 4.2."
-msgstr "İş parçacıklarında hata ayıklama desteği 4.2'den beri mevcut."
+msgstr "İş parçacıklarında hata ayıklama desteği 4.2'den itibaren mevcuttur."
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -340,41 +336,11 @@ msgstr ""
 "Dinamik yazı tipleri, daha yüksek çözünürlüklerde yazı tiplerinin keskin "
 "kalmasını sağlamak için aşırı örneklemeyi destekler."
 
-msgid ""
-"Dynamic fonts support subpixel positioning to make fonts crisper at low "
-"sizes."
-msgstr ""
-
-msgid ""
-"Dynamic fonts support LCD subpixel optimizations to make fonts even crisper "
-"at low sizes."
-msgstr ""
-
-msgid ""
-"Signed distance field fonts can be scaled at any resolution without "
-"requiring re-rasterization. Multi-channel usage makes SDF fonts scale down "
-"to lower sizes better compared to monochrome SDF fonts."
-msgstr ""
-
-msgid ""
-"GPU-based :ref:`particles <doc_particle_systems_2d>` with support for :ref:"
-"`custom particle shaders <doc_particle_shader>`."
-msgstr ""
-
 msgid "CPU-based particles."
 msgstr "CPU-tabanlı parçacıklar."
 
-msgid ""
-"Optional :ref:`2D HDR rendering "
-"<doc_environment_and_post_processing_using_glow_in_2d>` for better glow "
-"capabilities."
-msgstr ""
-
 msgid "2D tools"
 msgstr "2B araçlar"
-
-msgid ":ref:`TileMaps <doc_using_tilemaps>` for 2D tile-based level design."
-msgstr ""
 
 msgid "2D camera with built-in smoothing and drag margins."
 msgstr "Yerleşik düzleştirme ve sürükleme kenar boşluklarına sahip 2B kamera."
@@ -389,9 +355,6 @@ msgid "PathFollow2D node to make nodes follow a Path2D."
 msgstr ""
 "Düğümlerin bir Path2D'yi takip etmesini sağlamak için PathFollow2D düğümü."
 
-msgid ":ref:`2D geometry helper class <class_Geometry2D>`."
-msgstr ""
-
 msgid "2D physics"
 msgstr "2B fizik"
 
@@ -401,16 +364,8 @@ msgstr "**Fizik cisimleri:**"
 msgid "Static bodies."
 msgstr "Durağan cisimler."
 
-msgid ""
-"Animatable bodies (for objects moving only by script or animation, such as "
-"doors and platforms)."
-msgstr ""
-
 msgid "Rigid bodies."
 msgstr "Katı cisimler."
-
-msgid "Character bodies."
-msgstr ""
 
 msgid "Joints."
 msgstr "Eklemler."
@@ -422,10 +377,6 @@ msgid "**Collision detection:**"
 msgstr "**Çarpışma algılaması.**"
 
 msgid ""
-"Built-in shapes: line, box, circle, capsule, world boundary (infinite plane)."
-msgstr ""
-
-msgid ""
 "Collision polygons (can be drawn manually or generated from a sprite in the "
 "editor)."
 msgstr ""
@@ -435,37 +386,16 @@ msgstr ""
 msgid "3D graphics"
 msgstr "3B grafikler"
 
-msgid "HDR rendering with sRGB."
-msgstr ""
-
 msgid "Perspective, orthographic and frustum-offset cameras."
 msgstr ""
 "Perspektif (bakış açılı), ortografik (dik açılı) ve kesik-konik-kaydırmalı "
 "kameralar."
-
-msgid ""
-"When using the Forward+ backend, a depth prepass is used to improve "
-"performance in complex scenes by reducing the cost of overdraw."
-msgstr ""
-
-msgid ""
-":ref:`doc_variable_rate_shading` on supported GPUs in Forward+ and Forward "
-"Mobile."
-msgstr ""
 
 msgid "**Physically-based rendering (built-in material features):**"
 msgstr "**Fiziksel-tabanlı işleme (yerleşik malzeme özellikleri)**"
 
 msgid "Follows the Disney PBR model."
 msgstr "Disney PBR modelini izler."
-
-msgid ""
-"Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
-"shading modes."
-msgstr ""
-
-msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
-msgstr ""
 
 msgid "Uses a roughness-metallic workflow with support for ORM textures."
 msgstr "ORM dokuları için destek içeren pürüzlülük-metalik iş akışı kullanır."
@@ -480,28 +410,8 @@ msgstr ""
 msgid "Normal mapping."
 msgstr "Normal haritalaması."
 
-msgid ""
-"Parallax/relief mapping with automatic level of detail based on distance."
-msgstr ""
-
 msgid "Detail mapping for the albedo and normal maps."
 msgstr "Albedo ve normal haritaları için detay haritalama."
-
-msgid "Sub-surface scattering and transmittance."
-msgstr ""
-
-msgid ""
-"Screen-space refraction with support for material roughness (resulting in "
-"blurry refraction)."
-msgstr ""
-
-msgid "Proximity fade (soft particles) and distance fade."
-msgstr ""
-
-msgid ""
-"Distance fade can use alpha blending or dithering to avoid going through the "
-"transparent pipeline."
-msgstr ""
 
 msgid "Dithering can be determined on a per-pixel or per-object basis."
 msgstr ""
@@ -526,29 +436,6 @@ msgstr ""
 "Yansıtıcı, dolaylı ışık ve hacimsel sis enerjisi ışık-başına bazında "
 "ayarlanabilir."
 
-msgid ""
-"Adjustable light \"size\" for fake area lights (will also make shadows "
-"blurrier)."
-msgstr ""
-
-msgid ""
-"Optional distance fade system to fade distant lights and their shadows, "
-"improving performance."
-msgstr ""
-
-msgid ""
-"When using the Forward+ backend (default on desktop), lights are rendered "
-"with clustered forward optimizations to decrease their individual cost. "
-"Clustered rendering also lifts any limits on the number of lights that can "
-"be used on a mesh."
-msgstr ""
-
-msgid ""
-"When using the Forward Mobile backend, up to 8 omni lights and 8 spot lights "
-"can be displayed per mesh resource. Baked lighting can be used to overcome "
-"this limit if needed."
-msgstr ""
-
 msgid "**Shadow mapping:**"
 msgstr "**Gölge haritalama:**"
 
@@ -566,29 +453,8 @@ msgstr ""
 "*Her Yönlü Işık:* Çift paraboloid (hızlı) veya küp haritası (daha yavaş ama "
 "daha doğru). Panoramalar biçiminde renkli yansıtma dokularını destekler."
 
-msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr ""
-
-msgid ""
-"Shadow normal offset bias and shadow pancaking to decrease the amount of "
-"visible shadow acne and peter-panning."
-msgstr ""
-
-msgid ""
-":abbr:`PCSS (Percentage Closer Soft Shadows)`-like shadow blur based on the "
-"light size and distance from the surface the shadow is cast on."
-msgstr ""
-
-msgid "Adjustable shadow blur on a per-light basis."
-msgstr ""
-
 msgid "**Global illumination with indirect lighting:**"
 msgstr "**Dolaylı ışıklandırma ile küresel aydınlatma:**"
-
-msgid ""
-":ref:`Baked lightmaps <doc_using_lightmap_gi>` (fast, but can't be updated "
-"at run-time)."
-msgstr ""
 
 msgid ""
 "Supports baking indirect light only or baking both direct and indirect "
@@ -599,61 +465,8 @@ msgstr ""
 "ışıklandırmayı pişirmeyi destekler. Pişirme modu, melez ışık pişirme "
 "kurulumlarına izin vermek için ışık-başına temelli olarak ayarlanabilir."
 
-msgid ""
-"Supports lighting dynamic objects using automatic and manually placed probes."
-msgstr ""
-
-msgid ""
-"Optionally supports directional lighting and rough reflections based on "
-"spherical harmonics."
-msgstr ""
-
-msgid ""
-"Lightmaps are baked on the GPU using compute shaders (much faster compared "
-"to CPU lightmapping). Baking can only be performed from the editor, not in "
-"exported projects."
-msgstr ""
-
-msgid ""
-"Supports GPU-based :ref:`denoising <doc_using_lightmap_gi_denoising>` with "
-"JNLM, or CPU/GPU-based denoising with OIDN."
-msgstr ""
-
-msgid ""
-":ref:`Voxel-based GI probes <doc_using_voxel_gi>`. Supports dynamic lights "
-"*and* dynamic occluders, while also supporting reflections. Requires a fast "
-"baking step which can be performed in the editor or at run-time (including "
-"from an exported project)."
-msgstr ""
-
-msgid ""
-":ref:`Signed-distance field GI <doc_using_sdfgi>` designed for large open "
-"worlds. Supports dynamic lights, but not dynamic occluders. Supports "
-"reflections. No baking required."
-msgstr ""
-
-msgid ""
-":ref:`Screen-space indirect lighting (SSIL) "
-"<doc_environment_and_post_processing_ssil>` at half or full resolution. "
-"Fully real-time and supports any kind of emissive light source (including "
-"decals)."
-msgstr ""
-
-msgid ""
-"VoxelGI and SDFGI use a deferred pass to allow for rendering GI at half "
-"resolution to improve performance (while still having functional MSAA "
-"support)."
-msgstr ""
-
 msgid "**Reflections:**"
 msgstr "**Yansımalar:**"
-
-msgid ""
-"Voxel-based reflections (when using GI probes) and SDF-based reflections "
-"(when using signed distance field GI). Voxel-based reflections are visible "
-"on transparent surfaces, while rough SDF-based reflections are visible on "
-"transparent surfaces."
-msgstr ""
 
 msgid ""
 "Fast baked reflections or slow real-time reflections using ReflectionProbe. "
@@ -663,9 +476,6 @@ msgstr ""
 "veya yavaş gerçek-zamanlı yansımalar. Paralaks kutu düzeltmesi isteğe bağlı "
 "olarak etkinleştirilebilir."
 
-msgid "Screen-space reflections with support for material roughness."
-msgstr ""
-
 msgid ""
 "Reflection techniques can be mixed together for greater accuracy or "
 "scalability."
@@ -673,200 +483,23 @@ msgstr ""
 "Daha fazla doğruluk veya ölçeklenebilirlik için, yansıma teknikleri birlikte "
 "kullanılabilirler."
 
-msgid ""
-"When using the Forward+ backend (default on desktop), reflection probes are "
-"rendered with clustered forward optimizations to decrease their individual "
-"cost. Clustered rendering also lifts any limits on the number of reflection "
-"probes that can be used on a mesh."
-msgstr ""
-
-msgid ""
-"When using the Forward Mobile backend, up to 8 reflection probes can be "
-"displayed per mesh resource."
-msgstr ""
-
-msgid "**Decals:**"
-msgstr ""
-
-msgid ""
-":ref:`Supports albedo <doc_using_decals>`, emissive, :abbr:`ORM (Occlusion "
-"Roughness Metallic)`, and normal mapping."
-msgstr ""
-
-msgid ""
-"Texture channels are smoothly overlaid on top of the underlying material, "
-"with support for normal/ORM-only decals."
-msgstr ""
-
-msgid ""
-"Support for normal fade to fade the decal depending on its incidence angle."
-msgstr ""
-
-msgid ""
-"Does not rely on run-time mesh generation. This means decals can be used on "
-"complex skinned meshes with no performance penalty, even if the decal moves "
-"every frame."
-msgstr ""
-
-msgid ""
-"Support for nearest, bilinear, trilinear or anisotropic texture filtering "
-"(configured globally)."
-msgstr ""
-
-msgid ""
-"Optional distance fade system to fade distant decals, improving performance."
-msgstr ""
-
-msgid ""
-"When using the Forward+ backend (default on desktop), decals are rendered "
-"with clustered forward optimizations to decrease their individual cost. "
-"Clustered rendering also lifts any limits on the number of decals that can "
-"be used on a mesh."
-msgstr ""
-
-msgid ""
-"When using the Forward Mobile backend, up to 8 decals can be displayed per "
-"mesh resource."
-msgstr ""
-
 msgid "**Sky:**"
 msgstr "**Gökyüzü:**"
 
 msgid "Panorama sky (using an HDRI)."
 msgstr "Panorama gökyüzü (bir HDRI kullanarak)."
 
-msgid ""
-"Procedural sky and Physically-based sky that respond to the "
-"DirectionalLights in the scene."
-msgstr ""
-
-msgid ""
-"Support for :ref:`custom sky shaders <doc_sky_shader>`, which can be "
-"animated."
-msgstr ""
-
-msgid ""
-"The radiance map used for ambient and specular light can be updated in real-"
-"time depending on the quality settings chosen."
-msgstr ""
-
 msgid "**Fog:**"
 msgstr "**Sis:**"
 
-msgid "Exponential depth fog."
-msgstr ""
-
-msgid "Exponential height fog."
-msgstr ""
-
-msgid ""
-"Support for automatic fog color depending on the sky color (aerial "
-"perspective)."
-msgstr ""
-
-msgid "Support for sun scattering in the fog."
-msgstr ""
-
-msgid ""
-"Support for controlling how much fog rendering should affect the sky, with "
-"separate controls for traditional and volumetric fog."
-msgstr ""
-
-msgid "Support for making specific materials ignore fog."
-msgstr ""
-
-msgid "**Volumetric fog:**"
-msgstr ""
-
-msgid ""
-"Global :ref:`volumetric fog <doc_volumetric_fog>` that reacts to lights and "
-"shadows."
-msgstr ""
-
-msgid ""
-"Volumetric fog can take indirect light into account when using VoxelGI or "
-"SDFGI."
-msgstr ""
-
-msgid ""
-"Fog volume nodes that can be placed to add fog to specific areas (or remove "
-"fog from specific areas). Supported shapes include box, ellipse, cone, "
-"cylinder, and 3D texture-based density maps."
-msgstr ""
-
-msgid "Each fog volume can have its own custom shader."
-msgstr ""
-
-msgid "Can be used together with traditional fog."
-msgstr ""
-
 msgid "**Particles:**"
 msgstr "**Parçacıklar:**"
-
-msgid ""
-"GPU-based particles with support for subemitters (2D + 3D), trails (2D + "
-"3D), attractors (3D only) and collision (2D + 3D)."
-msgstr ""
-
-msgid ""
-"3D particle attractor shapes supported: box, sphere and 3D vector fields."
-msgstr ""
-
-msgid ""
-"3D particle collision shapes supported: box, sphere, baked signed distance "
-"field and real-time heightmap (suited for open world weather effects)."
-msgstr ""
-
-msgid ""
-"2D particle collision is handled using a signed distance field generated in "
-"real-time based on :ref:`class_LightOccluder2D` nodes in the scene."
-msgstr ""
-
-msgid ""
-"Trails can use the built-in ribbon trail and tube trail meshes, or custom "
-"meshes with skeletons."
-msgstr ""
-
-msgid "Support for custom particle shaders with manual emission."
-msgstr ""
 
 msgid "**Post-processing:**"
 msgstr "**Sonra-işleme**"
 
 msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
 msgstr "Ton haritalaması (Doğrusal, Reinhard, Filmic, ACES)."
-
-msgid ""
-"Automatic exposure adjustments based on viewport brightness (and manual "
-"exposure override)."
-msgstr ""
-
-msgid ""
-"Near and far depth of field with adjustable bokeh simulation (box, hexagon, "
-"circle)."
-msgstr ""
-
-msgid "Screen-space ambient occlusion (SSAO) at half or full resolution."
-msgstr ""
-
-msgid ""
-"Glow/bloom with optional bicubic upscaling and several blend modes "
-"available: Screen, Soft Light, Add, Replace, Mix."
-msgstr ""
-
-msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
-msgstr ""
-
-msgid ""
-"Glow can be :ref:`used as a screen-space blur effect "
-"<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
-msgstr ""
-
-msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
-msgstr ""
-
-msgid "Roughness limiter to reduce the impact of specular aliasing."
-msgstr ""
 
 msgid "Brightness, contrast and saturation adjustments."
 msgstr "Parlaklık, kontrast ve doygunluk ayarları."
@@ -877,91 +510,17 @@ msgstr "**Doku fitreleme:**"
 msgid "Nearest, bilinear, trilinear or anisotropic filtering."
 msgstr "En yakın, çift-doğrusal, üç-doğrusal veya eşyönsüz filtreleme."
 
-msgid ""
-"Filtering options are defined on a per-use basis, not a per-texture basis."
-msgstr ""
-
 msgid "**Texture compression:**"
 msgstr "**Doku sıkıştırma:**"
-
-msgid "Basis Universal (slow, but results in smaller files)."
-msgstr ""
-
-msgid "BPTC for high-quality compression (not supported on macOS)."
-msgstr ""
-
-msgid "ETC2 (not supported on macOS)."
-msgstr ""
-
-msgid "S3TC (not supported on mobile/Web platforms)."
-msgstr ""
 
 msgid "**Anti-aliasing:**"
 msgstr "**Kenar yumuşatma:**"
 
-msgid "Temporal :ref:`antialiasing <doc_3d_antialiasing>` (TAA)."
-msgstr ""
-
-msgid ""
-"AMD FidelityFX Super Resolution 2.2 :ref:`antialiasing "
-"<doc_3d_antialiasing>` (FSR2), which can be used at native resolution as a "
-"form of high-quality temporal antialiasing."
-msgstr ""
-
-msgid ""
-"Multi-sample antialiasing (MSAA), for both :ref:`doc_2d_antialiasing` and :"
-"ref:`doc_3d_antialiasing`."
-msgstr ""
-
 msgid "Fast approximate antialiasing (FXAA)."
 msgstr "Hızlı yaklaşıklık kenar yumuşatması (FXAA)."
 
-msgid ""
-"Super-sample antialiasing (SSAA) using bilinear 3D scaling and a 3D "
-"resolution scale above 1.0."
-msgstr ""
-
-msgid ""
-"Alpha antialiasing, MSAA alpha to coverage and alpha hashing on a per-"
-"material basis."
-msgstr ""
-
-msgid "**Resolution scaling:**"
-msgstr ""
-
-msgid ""
-"Support for :ref:`rendering 3D at a lower resolution "
-"<doc_resolution_scaling>` while keeping 2D rendering at the original scale. "
-"This can be used to improve performance on low-end systems or improve "
-"visuals on high-end systems."
-msgstr ""
-
-msgid ""
-"Resolution scaling uses bilinear filtering, AMD FidelityFX Super Resolution "
-"1.0 (FSR1) or AMD FidelityFX Super Resolution 2.2 (FSR2)."
-msgstr ""
-
-msgid ""
-"Texture mipmap LOD bias is adjusted automatically to improve quality at "
-"lower resolution scales. It can also be modified with a manual offset."
-msgstr ""
-
-msgid ""
-"Most effects listed above can be adjusted for better performance or to "
-"further improve quality. This can be helpful when :ref:`using Godot for "
-"offline rendering <doc_creating_movies>`."
-msgstr ""
-
 msgid "3D tools"
 msgstr "3B araçlar"
-
-msgid ""
-"Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad, "
-"torus, ribbon, tube."
-msgstr ""
-
-msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
-msgstr ""
 
 msgid ""
 ":ref:`Constructive solid geometry <doc_csg_tools>` (intended for "
@@ -980,14 +539,6 @@ msgid "PathFollow3D node to make nodes follow a Path3D."
 msgstr ""
 "Düğümlerin bir Path3D'yi takip etmesini sağlamak için PathFollow3D düğümü."
 
-msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
-msgstr ""
-
-msgid ""
-"Support for exporting the current scene as a glTF 2.0 file, both from the "
-"editor and at run-time from an exported project."
-msgstr ""
-
 msgid "3D physics"
 msgstr "3B fizik"
 
@@ -1000,11 +551,6 @@ msgstr "Yumuşak cisimler."
 
 msgid "Ragdolls."
 msgstr "Bez Bebekler."
-
-msgid ""
-"Built-in shapes: cuboid, sphere, capsule, cylinder, world boundary (infinite "
-"plane)."
-msgstr ""
 
 msgid "Generate triangle collision shapes for any mesh from the editor."
 msgstr ""
@@ -1056,10 +602,6 @@ msgid ""
 msgstr ""
 ":ref:`Çapraz-dil betik yazımı <doc_cross_language_scripting>` için destek."
 
-msgid ""
-"Many 2D, 3D and 4D linear algebra data types such as vectors and transforms."
-msgstr ""
-
 msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 msgstr ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 
@@ -1069,10 +611,6 @@ msgid ""
 msgstr ""
 ":ref:`İsteğe bağlı sabit tip yazımı <doc_gdscript_static_typing>` kullanan :"
 "ref:`yüksek-düzeyli yorumlanan dil <doc_gdscript>` 'dir."
-
-msgid ""
-"Syntax inspired by Python. However, GDScript is **not** based on Python."
-msgstr ""
 
 msgid "Syntax highlighting is provided on GitHub."
 msgstr "Sözdizimi vurgulama GitHub'tan sağlanmıştır."
@@ -1093,39 +631,11 @@ msgstr ""
 "Dosya boyutlarını ve bağımlılıkları düşük tutmak için ayrı bir ikili-tip "
 "dosya olarak paketlenmiştir."
 
-msgid "Supports .NET 6 and higher."
-msgstr ""
-
-msgid "Full support for the C# 10.0 syntax and features."
-msgstr ""
-
-msgid ""
-"Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
-"Android and iOS is also available (requires a .NET 7.0 project for Android "
-"and 8.0 for iOS)."
-msgstr ""
-
-msgid ""
-"On the Android platform only some architectures are supported: ``arm64`` and "
-"``x64``."
-msgstr ""
-
-msgid "On the iOS platform only some architectures are supported: ``arm64``."
-msgstr ""
-
-msgid ""
-"The web platform is currently unsupported. To use C# on that platform, "
-"consider Godot 3 instead."
-msgstr ""
-
 msgid ""
 "Using an external editor is recommended to benefit from IDE functionality."
 msgstr ""
 "IDE işlevselliğinden yararlanmak için, harici bir düzenleyici kullanılması "
 "önerilir."
-
-msgid "**GDExtension (C, C++, Rust, D, ...):**"
-msgstr ""
 
 msgid ""
 "When you need it, link to native libraries for higher performance and third-"
@@ -1141,21 +651,8 @@ msgstr ""
 "Oyun mantığı betikleri için, eğer performansları uygunsa, GDScript veya C# "
 "önerilir."
 
-msgid ""
-"Official GDExtension bindings for `C <https://github.com/godotengine/godot-"
-"headers>`__ and `C++ <https://github.com/godotengine/godot-cpp>`__."
-msgstr ""
-
 msgid "Use any build system and language features you wish."
 msgstr "İstediğiniz herhangi bir derleme sistemini ve dil özelliğini kullanın."
-
-msgid ""
-"Actively developed GDExtension bindings for `D <https://github.com/godot-"
-"dlang/godot-dlang>`__, `Haxe <https://hxgodot.github.io/>`__, `Swift "
-"<https://github.com/migueldeicaza/SwiftGodot>`__, and `Rust <https://github."
-"com/godot-rust/gdextension>`__ bindings provided by the community. (Some of "
-"these bindings may be experimental and not production-ready)."
-msgstr ""
 
 msgid "Audio"
 msgstr "Ses"
@@ -1177,34 +674,11 @@ msgstr ""
 "düzinelerce etkinin bulunduğu ses efektleri."
 
 msgid ""
-"Support for polyphony (playing several sounds from a single "
-"AudioStreamPlayer node)."
-msgstr ""
-
-msgid "Support for random volume and pitch."
-msgstr ""
-
-msgid "Support for real-time pitch scaling."
-msgstr ""
-
-msgid ""
-"Support for sequential/random sample selection, including repetition "
-"prevention when using random sample selection."
-msgstr ""
-
-msgid ""
 "Listener2D and Listener3D nodes to listen from a position different than the "
 "camera."
 msgstr ""
 "Kameradan farklı bir konumdan dinlemek için 2B ve 3B dinleyici, Listener2D "
 "ve Listener3D, düğümleri."
-
-msgid ""
-"Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
-msgstr ""
-
-msgid "Audio input to record microphones."
-msgstr ""
 
 msgid "MIDI input."
 msgstr "MIDI girişi."
@@ -1233,9 +707,6 @@ msgstr ":ref:`Özel içe aktarma eklentileri <doc_import_plugins>` için destek.
 msgid "**Formats:**"
 msgstr "**Biçimler:**"
 
-msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr ""
-
 msgid "*Audio:*"
 msgstr "*Ses:*"
 
@@ -1248,33 +719,11 @@ msgstr "Ogg Vorbis."
 msgid "MP3."
 msgstr "MP3."
 
-msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr ""
-
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2.0 *(önerilen)*."
 
-msgid ""
-"``.blend`` (by calling Blender's glTF export functionality transparently)."
-msgstr ""
-
-msgid ""
-"FBX (by calling `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ "
-"transparently)."
-msgstr ""
-
 msgid "Collada (.dae)."
 msgstr "Collada (.dae)."
-
-msgid ""
-"Wavefront OBJ (static scenes only, can be loaded directly as a mesh or "
-"imported as a 3D scene)."
-msgstr ""
-
-msgid ""
-"Support for loading glTF 2.0 scenes at run-time, including from an exported "
-"project."
-msgstr ""
 
 msgid ""
 "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
@@ -1287,11 +736,6 @@ msgstr ""
 
 msgid "Input"
 msgstr "Giriş"
-
-msgid ""
-":ref:`Input mapping system <doc_input_examples>` using hardcoded input "
-"events or remappable input actions."
-msgstr ""
 
 msgid ""
 "Axis values can be mapped to two different actions with a configurable "
@@ -1341,15 +785,6 @@ msgid "Navigation"
 msgstr "Gezinti"
 
 msgid ""
-"A* algorithm in :ref:`2D <class_AStar2D>` and :ref:`3D <class_AStar3D>`."
-msgstr ""
-
-msgid ""
-"Navigation meshes with dynamic obstacle avoidance in :ref:`2D "
-"<doc_navigation_overview_2d>` and :ref:`3D <doc_navigation_overview_3d>`."
-msgstr ""
-
-msgid ""
 "Generate navigation meshes from the editor or at run-time (including from an "
 "exported project)."
 msgstr ""
@@ -1359,50 +794,15 @@ msgstr ""
 msgid "Networking"
 msgstr "Ağ oluşturma"
 
-msgid ""
-"Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
-"`class_TCPServer`."
-msgstr ""
-
-msgid ""
-"Low-level UDP networking using :ref:`class_PacketPeer` and :ref:"
-"`class_UDPServer`."
-msgstr ""
-
-msgid "Low-level HTTP requests using :ref:`class_HTTPClient`."
-msgstr ""
-
-msgid "High-level HTTP requests using :ref:`class_HTTPRequest`."
-msgstr ""
-
 msgid "Supports HTTPS out of the box using bundled certificates."
 msgstr ""
 "Paketlenmiş sertifikaları kullanarak, HTTPS'yi yerleşik olarak destekler."
-
-msgid ""
-":ref:`High-level multiplayer <doc_high_level_multiplayer>` API using UDP and "
-"ENet."
-msgstr ""
 
 msgid "Automatic replication using remote procedure calls (RPCs)."
 msgstr "Uzak yöntem çağrılarını (RPC'ler) kullanarak otomatik çoğaltma."
 
 msgid "Supports unreliable, reliable and ordered transfers."
 msgstr "Güvenilmez, güvenilir ve düzenli aktarımları destekler."
-
-msgid ""
-":ref:`WebSocket <doc_websocket>` client and server, available on all "
-"platforms."
-msgstr ""
-
-msgid ""
-":ref:`WebRTC <doc_webrtc>` client and server, available on all platforms."
-msgstr ""
-
-msgid ""
-"Support for :ref:`UPnP <class_UPNP>` to sidestep the requirement to forward "
-"ports when hosting a server behind a NAT."
-msgstr ""
 
 msgid "Internationalization"
 msgstr "Uluslararası Kullanılırlık"
@@ -1417,9 +817,6 @@ msgstr ""
 "Yerelleştirme dizelerini :ref:`CSV <doc_internationalizing_games>` ya da :"
 "ref:`gettext <doc_localization_using_gettext>` kullanarak depolayın."
 
-msgid "Support for generating gettext POT and PO files from the editor."
-msgstr ""
-
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
 "using the ``tr()`` function."
@@ -1427,32 +824,8 @@ msgstr ""
 "Projelenizde, yerel dile çevirilmiş metinleri, GUI ögelerinde otomatik "
 "şekilde ya da ``tr()`` fonksiyonu ile kullanın."
 
-msgid ""
-"Support for pluralization and translation contexts when using gettext "
-"translations."
-msgstr ""
-
-msgid ""
-"Support for :ref:`bidirectional typesetting "
-"<doc_internationalizing_games_bidi>`, text shaping and OpenType localized "
-"forms."
-msgstr ""
-
-msgid "Automatic UI mirroring for right-to-left locales."
-msgstr ""
-
-msgid ""
-"Support for pseudolocalization to test your project for i18n-friendliness."
-msgstr ""
-
 msgid "Windowing and OS integration"
 msgstr "Pencereleme ve işletim sistemi bütünleşmesi"
-
-msgid "Spawn multiple independent windows within a single process."
-msgstr ""
-
-msgid "Move, resize, minimize, and maximize windows spawned by the project."
-msgstr ""
 
 msgid "Change the window title and icon."
 msgstr "Pencere başlığını ve simgesini değiştirin."
@@ -1465,24 +838,8 @@ msgstr ""
 msgid "Fullscreen mode."
 msgstr "Tam ekran kipi."
 
-msgid ""
-"Uses borderless fullscreen by default on Windows for fast alt-tabbing, but "
-"can optionally use exclusive fullscreen to reduce input lag."
-msgstr ""
-
-msgid "Borderless windows (fullscreen or non-fullscreen)."
-msgstr ""
-
-msgid "Ability to keep a window always on top."
-msgstr ""
-
 msgid "Global menu integration on macOS."
 msgstr "MacOS'ta genel menü bütünleşmesi."
-
-msgid ""
-"Execute commands in a blocking or non-blocking manner (including running "
-"multiple instances of the same project)."
-msgstr ""
 
 msgid ""
 "Open file paths and URLs using default or custom protocol handlers (if "
@@ -1494,52 +851,14 @@ msgstr ""
 msgid "Parse custom command line arguments."
 msgstr "Özel komut satırı girdi değişkenleri çözümleme."
 
-msgid ""
-"Any Godot binary (editor or exported project) can be :ref:`used as a "
-"headless server <doc_exporting_for_dedicated_servers>` by starting it with "
-"the ``--headless`` command line argument. This allows running the engine "
-"without a GPU or display server."
-msgstr ""
-
 msgid "Mobile"
 msgstr "Mobil"
-
-msgid ""
-"In-app purchases on :ref:`Android <doc_android_in_app_purchases>` and :ref:"
-"`iOS <doc_plugins_for_ios>`."
-msgstr ""
 
 msgid "Support for advertisements using third-party modules."
 msgstr "Üçüncü-taraf birimler kullanarak, reklamlar için destek."
 
 msgid "XR support (AR and VR)"
 msgstr "Arttırılmış gerçeklik (XR) desteği (AR ve VR)"
-
-msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
-msgstr ""
-
-msgid ""
-"Including support for popular desktop headsets like the Valve Index, WMR "
-"headsets, and Quest over Link."
-msgstr ""
-
-msgid ""
-"Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
-"OpenXR through a plugin."
-msgstr ""
-
-msgid ""
-"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
-"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
-msgstr ""
-
-msgid "Other devices supported through an XR plugin structure."
-msgstr ""
-
-msgid ""
-"Various advanced toolkits are available that implement common features "
-"required by XR applications."
-msgstr ""
 
 msgid "GUI system"
 msgstr "GUI sistemi"
@@ -1562,26 +881,11 @@ msgstr "Düğmeler."
 msgid "Checkboxes, check buttons, radio buttons."
 msgstr "Onay kutuları, onay düğmeleri, radyo düğmeleri."
 
-msgid ""
-"Text entry using :ref:`class_LineEdit` (single line) and :ref:"
-"`class_TextEdit` (multiple lines). TextEdit also supports code editing "
-"features such as displaying line numbers and syntax highlighting."
-msgstr ""
-
-msgid ""
-"Dropdown menus using :ref:`class_PopupMenu` and :ref:`class_OptionButton`."
-msgstr ""
-
 msgid "Scrollbars."
 msgstr "Kaydırma çubukları."
 
 msgid "Labels."
 msgstr "Etiketler."
-
-msgid ""
-"RichTextLabel for :ref:`text formatted using BBCode "
-"<doc_bbcode_in_richtextlabel>`, with support for animated custom effects."
-msgstr ""
 
 msgid "Trees (can also be used to represent tables)."
 msgstr "Ağaçlar (listeleri temsil etmek için de kullanılabilir)."
@@ -1611,23 +915,8 @@ msgstr ":ref:`Yığın <class_BoxContainer>` yerleşim düzenleri."
 msgid ":ref:`Grid <class_GridContainer>` layouts."
 msgstr ":ref:`Izgara <class_GridContainer>` yerleşim düzenleri."
 
-msgid ""
-":ref:`Flow <class_FlowContainer>` layouts (similar to autowrapping text)."
-msgstr ""
-
-msgid ""
-":ref:`Margin <class_MarginContainer>`, :ref:`centered "
-"<class_CenterContainer>` and :ref:`aspect ratio "
-"<class_AspectRatioContainer>` layouts."
-msgstr ""
-
 msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
 msgstr ":ref:`Taşınabilir ayırıcı <class_SplitContainer>` yerleşim düzenleri."
-
-msgid ""
-"Scale to :ref:`multiple resolutions <doc_multiple_resolutions>` using the "
-"``canvas_items`` or ``viewport`` stretch modes."
-msgstr ""
 
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
@@ -1708,9 +997,6 @@ msgstr ""
 "İkili-tip biçimler, büyük sahneleri/kaynakları kaydetmek/yüklemek için çok "
 "daha hızlıdır."
 
-msgid "Read and write text or binary files using :ref:`class_FileAccess`."
-msgstr ""
-
 msgid "Can optionally be compressed or encrypted."
 msgstr "İsteğe bağlı olarak sıkıştırılabilir veya şifrelenebilir."
 
@@ -1732,12 +1018,6 @@ msgid "Read XML files using :ref:`class_XMLParser`."
 msgstr ":ref:`class_XMLParser` sınıfını kullanarak XML dosyalarını okuyun."
 
 msgid ""
-":ref:`Load and save images, audio/video, fonts and ZIP archives "
-"<doc_runtime_loading_and_saving>` in an exported project without having to "
-"go through Godot's import system."
-msgstr ""
-
-msgid ""
 "Pack game data into a PCK file (custom format optimized for fast seeking), "
 "into a ZIP archive, or directly into the executable for single-file "
 "distribution."
@@ -1755,16 +1035,6 @@ msgstr ""
 
 msgid "Miscellaneous"
 msgstr "Çeşitli"
-
-msgid ""
-":ref:`Video playback <doc_playing_videos>` with built-in support for Ogg "
-"Theora."
-msgstr ""
-
-msgid ""
-":ref:`Movie Maker mode <doc_creating_movies>` to record videos from a "
-"running project with synchronized audio and perfect frame pacing."
-msgstr ""
 
 msgid ""
 ":ref:`Low-level access to servers <doc_using_servers>` which allows "
@@ -1791,19 +1061,6 @@ msgstr ""
 "master/misc/dist/shell>`__ , Bash, zsh ve fish için mevcuttur."
 
 msgid ""
-"Print colored text to standard output on all platforms using :ref:"
-"`print_rich <class_@GlobalScope_method_print_rich>`."
-msgstr ""
-
-msgid ""
-"Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked "
-"into the engine binary."
-msgstr ""
-
-msgid "Engine and editor written in C++17."
-msgstr ""
-
-msgid ""
 "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, "
 "Clang and MSVC. MinGW is also supported."
 msgstr ""
@@ -1821,11 +1078,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "Hoşgörülü MIT lisansı altında lisanslanmıştır."
-
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,15 +376,6 @@ msgid ""
 msgstr ""
 "當然, 有些情況下你想要將一些資訊賦予到變換上. 想像一下第一人稱控制器或環繞旋"
 "轉的相機. 那些肯定是用角度來完成的, 因為你 *確實希望* 變換以特定的順序進行."
-
-#, fuzzy
-msgid ""
-"For such cases, keep the angles and rotations *outside* the transform and "
-"set them every frame. Don't try to retrieve and reuse them because the "
-"transform is not meant to be used this way."
-msgstr ""
-"對於這種情況, 請保證角度/旋轉在變換 *外部* , 並每影格設定他們. 不要嘗試獲取並"
-"重新使用它們, 因為變換是不該這麼用的."
 
 msgid "Example of looking around, FPS style:"
 msgstr "環顧四周,FPS風格的範例:"

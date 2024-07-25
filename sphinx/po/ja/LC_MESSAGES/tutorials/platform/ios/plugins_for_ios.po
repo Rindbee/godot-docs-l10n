@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,17 +15,6 @@ msgstr ""
 msgid "Plugins for iOS"
 msgstr "iOS用プラグイン"
 
-#, fuzzy
-msgid ""
-"Godot provides StoreKit, GameCenter, iCloud services and other plugins. They "
-"are using same model of asynchronous calls explained below."
-msgstr ""
-"現時点では、GameCenterとStorekitの2つのiOS APIが部分的に実装されています。両"
-"方とも、以下で説明する非同期呼び出しの同じモデルを使用します。"
-
-msgid "ARKit and Camera access are also provided as plugins."
-msgstr ""
-
 msgid ""
 "Latest updates, documentation and source code can be found at `Godot iOS "
 "plugins repository <https://github.com/godotengine/godot-ios-plugins>`_"
@@ -38,20 +22,6 @@ msgstr ""
 "最新のアップデートについては、ドキュメントとソースコードが `Godot iOS "
 "plugins repository <https://github.com/godotengine/godot-ios-plugins>`_ にあ"
 "ります。"
-
-#, fuzzy
-msgid "Accessing plugin singletons"
-msgstr "シーンノードへのアクセス"
-
-msgid ""
-"To access plugin functionality, you first need to check that the plugin is "
-"exported and available by calling the `Engine.has_singleton()` function, "
-"which returns a registered singleton."
-msgstr ""
-
-#, fuzzy
-msgid "Here's an example of how to do this in GDScript:"
-msgstr "2つのボーンを持つスケルトンノードの例を次に示します:"
 
 msgid "Asynchronous methods"
 msgstr "非同期メソッド"
@@ -125,31 +95,8 @@ msgstr ""
 "Store Kit APIは \"InAppStore\" シングルトンからアクセスできます(常にgdscript"
 "から利用可能です)。自動的に初期化されます。"
 
-#, fuzzy
-msgid "The following methods are available and documented below:"
-msgstr "プレゼンテーションを実装するには、次のメソッドを使用します:"
-
-#, fuzzy
-msgid "``purchase``"
-msgstr "購入"
-
-msgid ""
-"Purchases a product ID through the Store Kit API. You have to call "
-"``finish_transaction(product_id)`` once you receive a successful response or "
-"call ``set_auto_finish_transaction(true)`` prior to calling ``purchase()``. "
-"These two methods ensure the transaction is completed."
-msgstr ""
-
 msgid "Parameters"
 msgstr "パラメーター"
-
-#, fuzzy
-msgid ""
-"Takes a dictionary as a parameter, with one field, ``product_id``, a string "
-"with your product ID. Example:"
-msgstr ""
-"製品IDを含む文字列である ``product_id`` という1つのフィールドを持つ "
-"Dictionary をパラメーターとして受け取ります。例:"
 
 msgid "Response event"
 msgstr "応答イベント"
@@ -163,62 +110,11 @@ msgstr "エラー時:"
 msgid "On success:"
 msgstr "成功時:"
 
-#, fuzzy
-msgid "``request_product_info``"
-msgstr "request_product_info"
-
 msgid "Requests the product info on a list of product IDs."
 msgstr "製品IDのリストで製品情報を要求します。"
 
-#, fuzzy
-msgid ""
-"Takes a dictionary as a parameter, with a single ``product_ids`` key to "
-"which a string array of product IDs is assigned. Example:"
-msgstr ""
-"製品IDを含む文字列配列である ``product_ids`` という1つのフィールドを持つ "
-"Dictionary をパラメーターとして受け取ります。例:"
-
-#, fuzzy
-msgid "``restore_purchases``"
-msgstr "restore_purchases"
-
-#, fuzzy
-msgid ""
-"Restores previously made purchases on user's account. This will create "
-"response events for each previously purchased product ID."
-msgstr ""
-"ユーザーのアカウントで以前に購入したものを復元します。 これにより、以前に購入"
-"した製品IDごとに応答イベントが作成されます。"
-
 msgid "The response events will be dictionaries with the following fields:"
 msgstr "応答イベントは、次のフィールドを持つ Dictionary になります:"
-
-msgid "``set_auto_finish_transaction``"
-msgstr ""
-
-msgid ""
-"If set to ``true``, once a purchase is successful, your purchase will be "
-"finalized automatically. Call this method prior to calling ``purchase()``."
-msgstr ""
-
-msgid ""
-"Takes a boolean as a parameter which specifies if purchases should be "
-"automatically finalized. Example:"
-msgstr ""
-
-#, fuzzy
-msgid "``finish_transaction``"
-msgstr "\\ ``connection``"
-
-msgid ""
-"If you don't want transactions to be automatically finalized, call this "
-"method after you receive a successful purchase response."
-msgstr ""
-
-msgid ""
-"Takes a string ``product_id`` as an argument. ``product_id`` specifies what "
-"product to finalize the purchase on. Example:"
-msgstr ""
 
 msgid "Game Center"
 msgstr "\\ Game Center"
@@ -231,35 +127,11 @@ msgstr ""
 "plugins/blob/master/plugins/gamecenter/game_center.mm>`_\\ で実装されていま"
 "す。"
 
-#, fuzzy
-msgid ""
-"The Game Center API is available through the ``GameCenter`` singleton. It "
-"has the following methods:"
-msgstr ""
-"Game Center APIは、\"GameCenter\" シングルトンから入手できます。 8つのメソッ"
-"ドがあります:"
-
 msgid "and the pending events interface:"
 msgstr "およびpending_eventインターフェース:"
 
-#, fuzzy
-msgid "``authenticate``"
-msgstr "``bool is_authenticated();``"
-
-msgid "Authenticates a user in Game Center."
-msgstr ""
-
-#, fuzzy
-msgid "``post_score``"
-msgstr "post_score"
-
 msgid "Posts a score to a Game Center leaderboard."
 msgstr "Game Centerリーダーボードにスコアを投稿します。"
-
-#, fuzzy
-msgid "Takes a dictionary as a parameter, with two fields:"
-msgstr ""
-"次の2つのフィールドを使用した、Dictionaryをパラメーターとして受け取ります。"
 
 msgid "``score`` a float number"
 msgstr "``score`` 浮動小数点数"
@@ -269,10 +141,6 @@ msgstr "``category`` カテゴリー名の文字列"
 
 msgid "Example:"
 msgstr "例:"
-
-#, fuzzy
-msgid "``award_achievement``"
-msgstr "award_achievement"
 
 msgid "Modifies the progress of a Game Center achievement."
 msgstr "Game Centerアチーブメント(実績)の進捗を変更します。"
@@ -297,18 +165,10 @@ msgstr ""
 "``show_completion_banner`` (bool) Game Centerが画面の上部に実績バナーを表示す"
 "るかどうか"
 
-#, fuzzy
-msgid "``reset_achievements``"
-msgstr "reset_achievements"
-
 msgid "Clears all Game Center achievements. The function takes no parameters."
 msgstr ""
 "Game Centerのすべての実績をクリアします。 この関数はパラメーターを受け取りま"
 "せん。"
-
-#, fuzzy
-msgid "``request_achievements``"
-msgstr "request_achievements"
 
 msgid ""
 "Request all the Game Center achievements the player has made progress on. "
@@ -317,20 +177,12 @@ msgstr ""
 "プレイヤーが進捗したGame Centerのすべての実績を要求します。この関数はパラメー"
 "ターを受け取りません。"
 
-#, fuzzy
-msgid "``request_achievement_descriptions``"
-msgstr "request_achievement_descriptions"
-
 msgid ""
 "Request the descriptions of all existing Game Center achievements regardless "
 "of progress. The function takes no parameters."
 msgstr ""
 "進行状況に関係なく、既存のすべてのGame Centerの実績の説明を要求します。この関"
 "数はパラメーターを受け取りません。"
-
-#, fuzzy
-msgid "``show_game_center``"
-msgstr "show_game_center"
 
 msgid ""
 "Displays the built in Game Center overlay showing leaderboards, "

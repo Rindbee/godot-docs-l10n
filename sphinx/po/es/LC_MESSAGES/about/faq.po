@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,18 +23,6 @@ msgid ""
 msgstr ""
 "¿Qué puedo hacer con Godot? ¿Cuánto cuesta? ¿Dónde están los términos de "
 "licencia?"
-
-msgid ""
-"Godot is `Free and open source Software <https://en.wikipedia.org/wiki/"
-"Free_and_open source_software>`_ available under the `OSI-approved <https://"
-"opensource.org/licenses/MIT>`_ MIT license. This means it is free as in "
-"\"free speech\" as well as in \"free beer.\""
-msgstr ""
-"Godot es un `Software libre y de código abierto <https://es.wikipedia.org/"
-"wiki/Software_libre_y_de_c%C3%B3digo_abierto>`_ disponible bajo la licencia "
-"MIT `aprobada por la OSI <https://opensource.org/licenses/MIT>`_ Licencia "
-"MIT. Esto significa que es gratuito en el sentido de \"libertad de "
-"expresión\" así como en \"libre acceso.\""
 
 msgid "In short:"
 msgstr "En pocas palabras:"
@@ -635,19 +618,6 @@ msgstr ""
 "través de las máquinas si copia la carpeta que contiene el ejecutable de "
 "Godot. Consulte :ref:`doc_data_paths` para obtener más información."
 
-#, fuzzy
-msgid ""
-"If *true* portable operation is desired (e.g. for use on a USB stick), "
-"follow the steps in :ref:`doc_data_paths_self_contained_mode`."
-msgstr ""
-"Si se desea una operación portátil *verdadera* (por ejemplo, para usar en "
-"una memoria USB), siga los pasos en :ref:"
-"`doc_data_paths_self_contained_mode`."
-
-#, fuzzy
-msgid "Why does Godot prioritize Vulkan and OpenGL over Direct3D?"
-msgstr "Por qué Godot usa Vulkan u OpenGL en vez de Direct3D?"
-
 msgid ""
 "Godot aims for cross-platform compatibility and open standards first and "
 "foremost. OpenGL and Vulkan are the technologies that are both open and "
@@ -669,11 +639,17 @@ msgid ""
 "Vulkan and OpenGL will continue as the default rendering backends on all "
 "platforms, including Windows."
 msgstr ""
+"Mientras Vulkan y OpenGL son nuestro foco principal debido a su estándar "
+"abierto y beneficios multiplataforma. Godot 4.3 introduce soporte "
+"experimental para Direct3D 12. Esta adición busca incrementar el rendimiento "
+"y compatibilidad en plataformas en donde Direct3D 12 es prevalente, como "
+"Windows y Xbox. Aun así, Vulkan y OpenGL continúan siendo el motor "
+"predeterminado de renderizado en todas las plataformas, incluyendo a Windows."
 
 msgid "Why does Godot aim to keep its core feature set small?"
 msgstr ""
 "¿Por qué Godot tiene como objetivo mantener a baja escala sus "
-"caracteristicas principales?"
+"características principales?"
 
 msgid ""
 "Godot intentionally does not include features that can be implemented by add-"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,16 +265,6 @@ msgstr ""
 "На самом деле это неплохой способ обучения, если вы любопытны и не "
 "стесняетесь задавать вопросы поисковым системам, но на всякий случай мы "
 "собрали здесь основные команды, которые вам понадобятся при работе в Git."
-
-#, fuzzy
-msgid ""
-"In the following, we will assume as an example that you want to implement a "
-"feature in Godot's Project Manager, which is coded in the ``editor/"
-"project_manager.cpp`` file."
-msgstr ""
-"Далее, в качестве примера, мы предположим, что вы хотите реализовать новую "
-"функцию менеджера проектов Godot, изменив для этого файл ``editor/"
-"project_manager.cpp``."
 
 msgid "Branching"
 msgstr "Ветвление"
@@ -603,27 +588,6 @@ msgstr ""
 "можно опустить, если вы хотите, чтобы удалённая ветка имела то же имя, что и "
 "локальная; в нашем примере мы так и сделаем:"
 
-msgid ""
-"Git will ask you for your username and password. For your password, enter "
-"your GitHub Personal Access Token (PAT). If you do not have a GitHub "
-"Personal Access Token, or do not have one with the correct permissions for "
-"your newly forked repository, you will need to create one. Follow this link "
-"to create your Personal Access Token: `Creating a personal access token "
-"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
-"secure/creating-a-personal-access-token>`_."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"After you have successfully verified your account using your PAT, the "
-"changes will be sent to your remote repository. If you check the fork's page "
-"on GitHub, you should see a new branch with your added commits."
-msgstr ""
-"Git запросит у вас имя пользователя и пароль, после чего изменения в "
-"указанной ветке будут отправлены на ваш удалённый репозиторий. Если вы "
-"проверите страницу вашего форка на GitHub, то увидите новую ветку с "
-"добавленными коммитами."
-
 msgid "Issuing a pull request"
 msgstr "Запрос на принятие изменений"
 
@@ -710,20 +674,6 @@ msgstr ""
 
 msgid "The interactive rebase"
 msgstr "Интерактивный режим rebase"
-
-#, fuzzy
-msgid ""
-"If you didn't follow the above steps closely to *amend* changes into a "
-"commit instead of creating fixup commits, or if you authored your changes "
-"without being aware of our workflow and Git usage tips, reviewers might "
-"request you to *rebase* your branch to *squash* some or all of the commits "
-"into one."
-msgstr ""
-"Если вы невнимательно следовали описанным выше инструкциям (или не знали о "
-"нашем рабочем процессе и советах по использованию Git) и вместо одного "
-"исправленного коммита создали несколько последовательных, рецензенты могут "
-"попросить вас перенастроить вашу ветку так, чтобы все коммиты или только "
-"часть из них была объединена в один."
 
 msgid ""
 "Indeed, if some commits have been made following reviews to fix bugs, typos, "
@@ -850,18 +800,6 @@ msgstr ""
 "изменён, получив при этом новый хеш. Если вы теперь попытаетесь отправить "
 "изменения в свой удаленный репозиторий, это вызовет ошибку:"
 
-#, fuzzy
-msgid ""
-"This is reasonable behavior, Git will not let you push changes that would "
-"override remote content. But that's actually what we want to do here, so we "
-"will have to *force* it:"
-msgstr ""
-"На самом деле это нормально - обычно Git не позволяет отправлять изменения, "
-"переопределяющие содержимое удалённого репозитория, чтобы вы случайно не "
-"изменили историю других участников. Но поскольку в данном случае вы меняете "
-"именно свою историю и делаете это осознанно, можно \"форсировать\" "
-"выполнение команды:"
-
 msgid ""
 "And tadaa! Git will happily *replace* your remote branch with what you had "
 "locally (so make sure that's what you wanted, using ``git log``). This will "
@@ -871,37 +809,6 @@ msgstr ""
 "(поэтому используйте опцию ``--force`` с осторожностью, предварительно "
 "проверяя отправляемые изменения с помощью ``git log``). Открытый из этой "
 "ветки PR так же будет обновлён автоматически."
-
-msgid "Rebasing onto another branch"
-msgstr ""
-
-msgid ""
-"If you have accidentally opened your PR on the wrong branch, or need to "
-"target another branch for some reason, you might need to filter out a lot of "
-"commits that differ between the old branch (for example ``4.2``) and the new "
-"branch (for example ``master``). This can make rebasing difficult and "
-"tedious. Fortunately ``git`` has a command just for this situation, ``git "
-"rebase --onto``."
-msgstr ""
-
-msgid ""
-"If your PR was created from the ``4.2`` branch and you want to update it to "
-"instead start at ``master`` the following steps *should* fix this in one "
-"step:"
-msgstr ""
-
-msgid ""
-"This will take all the commits on your branch *after* the ``4.2`` branch, "
-"and then splice them on top of ``master``, ignoring any commits from the "
-"``4.2`` branch not on the ``master`` branch. You may still need to do some "
-"fixing, but this command should save you a lot of tedious work removing "
-"commits."
-msgstr ""
-
-msgid ""
-"Just like above for the interactive rebase you need to force push your "
-"branch to handle the different changes:"
-msgstr ""
 
 msgid "Deleting a Git branch"
 msgstr "Удаление ветки в Git"
@@ -918,12 +825,6 @@ msgstr ""
 "будет ошибкой, но поддерживать свой репозиторий в порядке и не захламлять "
 "его - хорошая практика. Вам нужно будет сделать это дважды: для локального и "
 "для удалённого репозиториев."
-
-#, fuzzy
-msgid "To delete our better Project Manager branch locally, use this command:"
-msgstr ""
-"Чтобы удалить локальную ветку ``better-project-manager``, используйте "
-"следующую команду:"
 
 msgid ""
 "Alternatively, if the branch hadn't been merged yet and we wanted to delete "

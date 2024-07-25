@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +175,8 @@ msgid ""
 "player dies. Because we are stopping the MobTimer, it no longer triggers the "
 "``_on_mob_timer_timeout()`` function."
 msgstr ""
+"同时注意到在玩家死亡时，游戏不再崩溃或报错。 这是因为我们停止了 Mobtimer，也"
+"就不再触发 `_on_mob_timer_timeout()` 函数了."
 
 msgid ""
 "Also note that the enemy colliding with the player and dying depends on the "
@@ -213,12 +210,6 @@ msgstr ""
 
 msgid "Starting with ``main.gd``."
 msgstr "首先是 ``main.gd``\\ 。"
-
-msgid "Next is ``Mob.gd``."
-msgstr "然后是 ``Mob.gd``\\ 。"
-
-msgid "Finally, the longest script, ``Player.gd``:"
-msgstr "最后是最长的脚本 ``Player.gd``\\ ："
 
 msgid "See you in the next lesson to add the score and the retry option."
 msgstr "在下一节课中我们会添加计分和重试选项，再见。"

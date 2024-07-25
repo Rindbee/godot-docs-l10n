@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -686,16 +681,6 @@ msgstr ""
 "швидкий етап запікання, який можна виконати в редакторі або під час "
 "виконання (зокрема з експортованого проекту)."
 
-#, fuzzy
-msgid ""
-":ref:`Signed-distance field GI <doc_using_sdfgi>` designed for large open "
-"worlds. Supports dynamic lights, but not dynamic occluders. Supports "
-"reflections. No baking required."
-msgstr ""
-":ref:`Поле відстаней зі знаком GI<doc_using_sdfgi>`, розроблене для великих "
-"відкритих світів. Підтримує динамічне світло, але не динамічні оклюдери. "
-"Підтримує відображення. Запікання не потрібне."
-
 msgid ""
 ":ref:`Screen-space indirect lighting (SSIL) "
 "<doc_environment_and_post_processing_ssil>` at half or full resolution. "
@@ -784,13 +769,6 @@ msgstr ""
 "Текстурні канали плавно накладаються на базовий матеріал із підтримкою "
 "звичайних/лише-ORM декалей."
 
-#, fuzzy
-msgid ""
-"Support for normal fade to fade the decal depending on its incidence angle."
-msgstr ""
-"Підтримка нормального вицвітання для вицвітання наклейки залежно від її кута "
-"падіння."
-
 msgid ""
 "Does not rely on run-time mesh generation. This means decals can be used on "
 "complex skinned meshes with no performance penalty, even if the decal moves "
@@ -807,13 +785,6 @@ msgid ""
 msgstr ""
 "Підтримка найближчої, білінійної, трилінійної або анізотропної фільтрації "
 "текстур (налаштовується глобально)."
-
-#, fuzzy
-msgid ""
-"Optional distance fade system to fade distant decals, improving performance."
-msgstr ""
-"Додаткова система згасання віддаленого світла та тіней від нього, покращує "
-"продуктивність."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,14 +102,6 @@ msgstr ""
 "Si falta el manual o la referencia de clase o no tiene información "
 "suficiente, abra un Issue en el repositorio oficial GitHub `godot-docs "
 "<https://github.com/godotengine/godot-docs/issues>`_ para informarlo."
-
-#, fuzzy
-msgid ""
-"You can Ctrl-click (Cmd-click on MacOS) any underlined text like the name of "
-"a class, property, method, signal, or constant to jump to it."
-msgstr ""
-"Puede pulsar Ctrl y hacer clic en cualquier texto subrayado, como el nombre "
-"de una clase, propiedad, método, señal o constante, para acceder a él."
 
 msgid "Learning to think like a programmer"
 msgstr "Aprender a pensar como un programador"
@@ -239,24 +226,6 @@ msgstr ""
 "código escrito. La mayor parte del código que escribe afecta a los nodos de "
 "sus escenas. Como resultado, debe pensar en esas escenas como parte de su "
 "código fuente."
-
-msgid ""
-"Also, please don't take a picture with your phone, the low quality and "
-"screen reflections can make it hard to understand the image. Your operating "
-"system should have a built-in tool to take screenshots with the :kbd:`PrtSc` "
-"(Print Screen) key."
-msgstr ""
-"Además, no tome una foto con su teléfono, la baja calidad y los reflejos de "
-"la pantalla pueden dificultar la comprensión de la imagen. Su sistema "
-"operativo debe tener una herramienta integrada para tomar capturas de "
-"pantalla con la tecla :kbd:`PrtSc` (Imprimir pantalla)."
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"Alternativamente, puede usar un programa como `ShareX <https://getsharex.com/"
-">`_ en Windows o `FlameShot <https://flameshot.org/>`_ en Linux."
 
 msgid ""
 "Sharing a video of your running game can also be really **useful to "

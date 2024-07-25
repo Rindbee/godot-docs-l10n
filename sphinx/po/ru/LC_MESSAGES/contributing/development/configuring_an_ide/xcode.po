@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,57 +15,11 @@ msgstr ""
 msgid "Xcode"
 msgstr "Xcоde"
 
-msgid ""
-"`Xcode <https://developer.apple.com/xcode>`_ is a free macOS-only IDE. You "
-"can download it from the Mac App Store."
-msgstr ""
-
 msgid "Importing the project"
 msgstr "Импортирование проекта"
 
-msgid ""
-"From Xcode's main screen create a new project using the **Other > External "
-"Build System** template."
-msgstr ""
-
-msgid ""
-"Now choose a name for your project and set the path to scons executable in "
-"build tool (to find the path you can type ``where scons`` in a terminal)."
-msgstr ""
-
-msgid ""
-"Open the main target from the **Targets** section and select the **Info** "
-"tab."
-msgstr ""
-
-#, fuzzy
-msgid "Fill out the form with the following settings:"
-msgstr "Это приведёт к тому что:"
-
 msgid "Arguments"
 msgstr "Аргументы"
-
-#, fuzzy
-msgid ""
-"See :ref:`doc_introduction_to_the_buildsystem` for a full list of arguments."
-msgstr ""
-"Сначала прочитайте :doc:`ui_introduction_to_the_ui_system`, чтобы узнать, "
-"как работает система пользовательского интерфейса Godot."
-
-#, fuzzy
-msgid "Directory"
-msgstr "Вектор"
-
-msgid "A full path to the Godot root folder"
-msgstr ""
-
-msgid ""
-"Add a Command Line Tool target which will be used for indexing the project "
-"by choosing **File > New > Target...**."
-msgstr ""
-
-msgid "Select **macOS > Application > Command Line Tool**."
-msgstr ""
 
 msgid ""
 "Name it something so you know not to compile with this target (e.g. "
@@ -96,56 +45,11 @@ msgstr ""
 "Вам также нужно включить подкаталоги. Для этого добавьте две звездочки "
 "(``**``) в конец пути, например ``/Users/me/repos/godot-source/**``."
 
-#, fuzzy
-msgid ""
-"Add the Godot source to the project by dragging and dropping it into the "
-"project file browser."
-msgstr "Перетащите исходный код Godot в браузер файлов проекта."
-
-#, fuzzy
-msgid ""
-"Select **Create groups** for the **Added folders** option and check *only* "
-"your command line indexing target in the **Add to targets** section."
-msgstr ""
-"Далее выберите **Создать группы** (Create groups) для опции **Добавленные "
-"папки** (Added folders) и отметьте *только* (only) вашу цель индексирования "
-"командной строки в разделе **Добавить в цели** (Add to targets)."
-
-#, fuzzy
-msgid "Xcode will now index the files. This may take a few minutes."
-msgstr "Щёлкните finish. Xcode начнёт индексировать файлы."
-
-#, fuzzy
-msgid ""
-"Once Xcode is done indexing, you should have jump-to-definition, "
-"autocompletion, and full syntax highlighting."
-msgstr ""
-"Вы сможете перейти к определению, настройкам авто завершения, и полной "
-"подсветке синтаксиса когда процесс закончится."
-
-#, fuzzy
-msgid "Debugging the project"
-msgstr "Подготовка проекта"
-
-msgid ""
-"To enable debugging support you need to edit the external build target's "
-"build and run schemes."
-msgstr ""
-
 msgid "Open the scheme editor of the external build target."
 msgstr "Откройте редактор схемы внешней цели сборки."
 
 msgid "Locate the **Build > Post Actions** section."
 msgstr "Найдите раздел **Build > Post Actions**."
-
-#, fuzzy
-msgid "Add a new script run action"
-msgstr "Добавление новой анимации"
-
-msgid ""
-"Under **Provide build settings from** select your project. This allows to "
-"reference the project directory within the script."
-msgstr ""
 
 msgid ""
 "Create a script that will give the binary a name that Xcode can recognize, e."
@@ -169,21 +73,6 @@ msgstr ""
 
 msgid "Check **Debug executable**."
 msgstr "Проверьте **Debug executable**."
-
-msgid ""
-"You can add two arguments on the **Arguments** tab: the ``-e`` flag opens "
-"the editor instead of the Project Manager, and the ``--path`` argument tells "
-"the executable to open the specified project (must be provided as an "
-"*absolute* path to the project root, not the ``project.godot`` file)."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"To check that everything is working, put a breakpoint in ``platform/macos/"
-"godot_main_macos.mm`` and run the project."
-msgstr ""
-"Чтобы проверить, что все работает, поместите точку останова в ``platform/osx/"
-"godot_main_osx.mm`` и запустите проект."
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

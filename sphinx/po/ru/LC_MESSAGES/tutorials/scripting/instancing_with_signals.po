@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +14,6 @@ msgstr ""
 
 msgid "Signal"
 msgstr "Сигнал"
-
-#, fuzzy
-msgid "Instancing with signals"
-msgstr "Инстанцирование сцен"
 
 msgid ""
 "Signals provide a way to decouple game objects, allowing you to avoid "
@@ -41,23 +32,8 @@ msgstr ""
 "проблематично, если вы создаете объекты во время выполнения и хотите "
 "поместить их в произвольное место в дереве сцены."
 
-msgid "Below we'll consider an example of such a situation: firing bullets."
-msgstr ""
-
 msgid "Shooting example"
 msgstr "Пример стрельбы"
-
-#, fuzzy
-msgid ""
-"Consider a player character that can rotate and shoot towards the mouse. "
-"Every time the mouse button is clicked, we create an instance of the bullet "
-"at the player's location. See :ref:`doc_instancing` for details."
-msgstr ""
-"В качестве еще одного примера использования сигналов, давайте рассмотрим "
-"персонажа игрока, который может вращаться и стрелять по направлению к мыши. "
-"Каждый раз при нажатии кнопки мыши мы создаем экземпляр пули в "
-"местоположении игрока. См. :ref:`doc_instancing` для получения "
-"дополнительной информации."
 
 msgid ""
 "We'll use an ``Area2D`` for the bullet, which moves in a straight line at a "
@@ -88,10 +64,6 @@ msgstr ""
 "качестве дочернего элемента \"основной\" игровой сцены, которая может быть "
 "родителем игрока или даже дальше выше по дереву сцен."
 
-#, fuzzy
-msgid "You could do this by adding the bullet to the main scene directly:"
-msgstr "Это можно сделать, добавив пулю непосредственно к главной сцене:"
-
 msgid ""
 "However, this will lead to a different problem. Now if you try to test your "
 "\"Player\" scene independently, it will crash on shooting, because there is "
@@ -120,14 +92,6 @@ msgstr ""
 
 msgid "Here is the code for the player using signals to emit the bullet:"
 msgstr "Вот код для игрока с использованием сигналов для испускания пуль:"
-
-#, fuzzy
-msgid ""
-"In the main scene, we then connect the player's signal (it will appear in "
-"the \"Node\" tab of the Inspector)"
-msgstr ""
-"В главной сцене, мы подключим сигнал игрока (он появится на вкладке "
-"\"Узел\")."
 
 msgid ""
 "Now the bullets will maintain their own movement independent of the player's "

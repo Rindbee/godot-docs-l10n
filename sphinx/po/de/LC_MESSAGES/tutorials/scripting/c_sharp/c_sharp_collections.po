@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,13 +114,12 @@ msgstr ""
 "Muss Ihre Collection mit der Godot-Engine interagieren? (z. B.: Typ einer "
 "exportierten Property, Aufruf einer Godot-Methode)."
 
-#, fuzzy
 msgid ""
 "If yes, since Godot only supports :ref:`c_sharp_variant_compatible_types`, "
 "use a Godot collection."
 msgstr ""
-"Wenn ja, verwenden Sie eine Godot Collection, da Godot nur :ref:`Variant-"
-"kompatible <doc_c_sharp_variant>`-Typen unterstützt."
+"Wenn ja, verwenden Sie eine Godot Collection, da Godot nur :ref:"
+"`c_sharp_variant_compatible_types`-Typen unterstützt."
 
 msgid ""
 "If not, consider `choosing an appropriate .NET collection <https://learn."
@@ -252,15 +246,14 @@ msgstr "``PackedColorArray``"
 msgid "``Color[]``"
 msgstr "``Color[]``"
 
-#, fuzzy
 msgid ""
 "Other C# arrays are not supported by the Godot C# API since a packed array "
 "equivalent does not exist. See the list of :ref:"
 "`c_sharp_variant_compatible_types`."
 msgstr ""
 "Weitere C#-Arrays werden von der Godot-C#-API nicht unterstützt, da ein "
-"gepacktes Array-Äquivalent nicht existiert. Siehe :ref:`Variant "
-"<doc_c_sharp_variant>` für eine Liste aller kompatiblen Typen."
+"entsprechendes gepacktes Array nicht existiert. Siehe die Liste der :ref:"
+"`c_sharp_variant_compatible_types`."
 
 msgid "Array"
 msgstr "Array"
@@ -274,15 +267,14 @@ msgstr ""
 "Elemente beliebigen Typs enthalten. In C# ist der entsprechende Typ ``Godot."
 "Collections.Array``."
 
-#, fuzzy
 msgid ""
 "The generic ``Godot.Collections.Array<T>`` type allows restricting the "
 "element type to a :ref:`Variant-compatible type "
 "<c_sharp_variant_compatible_types>`."
 msgstr ""
 "Der generische Typ ``Godot.Collections.Array<T>`` erlaubt die Einschränkung "
-"des Elementtyps auf einen :ref:`Variant-kompatiblen <doc_c_sharp_variant>`-"
-"Typ."
+"des Elementtyps auf einen :ref:`Variant-kompatiblen Typ "
+"<c_sharp_variant_compatible_types>`."
 
 msgid ""
 "An untyped ``Godot.Collections.Array`` can be converted to a typed array "
@@ -618,15 +610,14 @@ msgstr ""
 "implementiert. In C# ist der entsprechende Typ ``Godot.Collections."
 "Dictionary``."
 
-#, fuzzy
 msgid ""
 "The generic ``Godot.Collections.Dictionary<TKey, TValue>`` type allows "
 "restricting the key and value types to a :ref:`Variant-compatible type "
 "<c_sharp_variant_compatible_types>`."
 msgstr ""
 "Der generische Typ ``Godot.Collections.Dictionary<TKey, TValue>`` erlaubt "
-"die Einschränkung der Key- und Value-Typen auf einen :ref:`Variant-"
-"kompatiblen <doc_c_sharp_variant>`-Typ."
+"die Einschränkung der Schlüssel- und Werttypen auf einen :ref:`Variant-"
+"kompatiblen Typ <c_sharp_variant_compatible_types>`."
 
 msgid ""
 "An untyped ``Godot.Collections.Dictionary`` can be converted to a typed "

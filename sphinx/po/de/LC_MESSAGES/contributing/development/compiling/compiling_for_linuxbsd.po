@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,16 +33,14 @@ msgstr ""
 "Zum Kompilieren unter Linux oder anderen Unix-Varianten ist Folgendes "
 "erforderlich:"
 
-#, fuzzy
 msgid "GCC 9+ or Clang 6+."
-msgstr "GCC 7+ oder Clang 6+."
+msgstr "GCC 9+ oder Clang 6+."
 
 msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
 msgstr "`Python 3.6+ <https://www.python.org/downloads/>`_."
 
-#, fuzzy
 msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr "`SCons 3.0+ <https://scons.org/pages/download.html>`_-Buildsystem."
+msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_-Buildsystem."
 
 msgid "pkg-config (used to detect the development libraries listed below)."
 msgstr ""
@@ -61,11 +54,10 @@ msgid "X11, Xcursor, Xinerama, Xi and XRandR."
 msgstr "X11, Xcursor, Xinerama, Xi und XRandR."
 
 msgid "Wayland and wayland-scanner."
-msgstr ""
+msgstr "Wayland und Wayland-Scanner."
 
-#, fuzzy
 msgid "Mesa."
-msgstr "MesaGL."
+msgstr "Mesa."
 
 msgid "ALSA."
 msgstr "ALSA."
@@ -165,24 +157,25 @@ msgstr ""
 "Wenn Sie nicht mit GCC, sondern mit Clang kompilieren möchten, verwenden Sie "
 "diesen Befehl:"
 
-#, fuzzy
 msgid ""
 "Using Clang appears to be a requirement for OpenBSD, otherwise fonts would "
 "not build. For RISC-V architecture devices, use the Clang compiler instead "
 "of the GCC compiler."
 msgstr ""
-"Die Verwendung von Clang scheint eine Voraussetzung für OpenBSD zu sein, da "
-"sonst keine Schriftarten erstellt werden."
+"Die Verwendung von Clang scheint eine Voraussetzung für OpenBSD zu sein, "
+"andernfalls würden Fonts nicht gebaut werden. Für Geräte mit RISC-V-"
+"Architektur sollten Sie den Clang-Compiler anstelle des GCC-Compilers "
+"verwenden."
 
-#, fuzzy
 msgid ""
 "If you are compiling Godot for production use, you can make the final "
 "executable smaller and faster by adding the SCons option ``production=yes``. "
 "This enables additional compiler optimizations and link-time optimization."
 msgstr ""
-"Wenn Sie Godot für den Produktionseinsatz kompilieren, können Sie die "
+"Wenn Sie Godot für den Produktivseinsatz kompilieren, können Sie die "
 "endgültige ausführbare Datei kleiner und schneller machen, indem Sie die "
-"SCons-Optionen ``target=template_release production=yes`` hinzufügen."
+"SCons-Option ``production=yes`` hinzufügen. Dies ermöglicht zusätzliche "
+"Compiler-Optimierungen und Link-Time-Optimierungen."
 
 msgid ""
 "LTO takes some time to run and requires about 7 GB of available RAM while "
@@ -190,6 +183,11 @@ msgid ""
 "``production=yes lto=none`` or ``production=yes lto=thin`` for a lightweight "
 "but less effective form of LTO."
 msgstr ""
+"Die Ausführung von LTO nimmt einige Zeit in Anspruch und erfordert beim "
+"Kompilieren etwa 7 GB verfügbaren Arbeitsspeicher. Wenn Ihnen mit der obigen "
+"Option der Speicher ausgeht, verwenden Sie ``production=yes lto=none`` oder "
+"``production=yes lto=thin`` für eine schlanke, aber weniger effektive Form "
+"von LTO."
 
 msgid ""
 "If you want to use separate editor settings for your own Godot builds and "
@@ -354,7 +352,6 @@ msgid "In your SCons command, add the parameter ``use_static_cpp=no``."
 msgstr ""
 "Fügen Sie in Ihrem SCons-Befehl den Parameter ``use_static_cpp=no`` hinzu."
 
-#, fuzzy
 msgid ""
 "Follow `these instructions <https://github.com/ivmai/"
 "libatomic_ops#installation-and-usage>`__ to configure, build, and install "
@@ -399,12 +396,11 @@ msgstr ""
 "Laden Sie die mold-Binärdateien von der `Release-Seite <https://github.com/"
 "rui314/mold/releases/latest>`__ herunter."
 
-#, fuzzy
 msgid ""
 "Extract the ``.tar.gz`` file, then move the extracted folder to a location "
 "such as ``.local/share/mold``."
 msgstr ""
-"Entpacken Sie die Datei ``.tar.gz`` und verschieben Sie den extrahierten "
+"Entpacken Sie die ``.tar.gz``-Datei und verschieben Sie den extrahierten "
 "Ordner an einen Ort wie ``.local/share/mold``."
 
 msgid ""

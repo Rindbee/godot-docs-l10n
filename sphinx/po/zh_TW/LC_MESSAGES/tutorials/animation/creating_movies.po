@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,17 +206,6 @@ msgid ""
 msgstr ""
 "更多有關命令行參數的資訊，請參考 :ref:`命令行教學 "
 "<doc_command_line_tutorial>` 。"
-
-#, fuzzy
-msgid ""
-"If the output path is relative, then it is **relative to the project "
-"folder**, not the current working directory. In the above example, the file "
-"will be written to ``/path/to/your_project/output.avi``. This behavior is "
-"similar to the ``--export-release`` command line argument."
-msgstr ""
-"如果輸出路徑是相對的，那麼它是**相對於專案資料夾**，而不是目前工作目錄。在上"
-"面的範例中，檔案將被寫入“/path/to/your_project/output.avi”。此行為類似於“--"
-"export”命令列參數。"
 
 msgid ""
 "Since Movie Maker's output resolution is set by the viewport size, you can "
@@ -434,16 +418,6 @@ msgstr "另請參閱:ref:`doc_creating_movies_recording_at_higher_resolution`。
 msgid "Quitting Movie Maker mode"
 msgstr "內建變數和算繪模式"
 
-#, fuzzy
-msgid ""
-"To safely quit a project that is using Movie Maker mode, use the X button at "
-"the top of the window, or call ``get_tree().quit()`` in a script. You can "
-"also use the ``--quit-after N`` command line argument where ``N`` is the "
-"number of frames to render before quitting."
-msgstr ""
-"若要安全地退出使用 Movie Maker 模式的專案，請使用視窗頂部的 X 按鈕，或在腳本"
-"中呼叫「get_tree().quit()」。"
-
 msgid ""
 "Pressing :kbd:`F8` (:kbd:`Cmd + .` on macOS) or pressing :kbd:`Ctrl + C` on "
 "the terminal running Godot is **not recommended**, as it will result in an "
@@ -604,17 +578,6 @@ msgstr ""
 "`HandBrake <https://handbrake.fr/>`__（GUI）和 `FFmpeg <https://ffmpeg.org/"
 ">`__（CLI）都是這方面非常流行的開源工具。FFmpeg 的學習曲線相對陡峭，但功能也"
 "更強大。"
-
-#, fuzzy
-msgid ""
-"The command below converts an AVI video to an MP4 (H.264) video with a "
-"Constant Rate Factor (CRF) of 15. This results in a relatively large file, "
-"but is well-suited for platforms that will re-encode your videos to reduce "
-"their size (such as most video sharing websites):"
-msgstr ""
-"下面的命令將 AVI 視訊轉換為恆定速率因子 (CRF) 為 15 的 MP4 (H.264) 視訊。這會"
-"產生相對較大的檔案，但非常適合將視訊重新編碼為減少它們的大小（例如大多數影片"
-"分享網站）："
 
 msgid ""
 "To get a smaller file at the cost of quality, *increase* the CRF value in "

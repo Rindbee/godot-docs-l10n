@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,7 +51,7 @@ msgid "image1"
 msgstr "image1"
 
 msgid "If you still have *Input Map* open, switch to the *General* tab."
-msgstr ""
+msgstr "如果你仍然打开着*输入映射*，请切换到*通用*页签。"
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -490,11 +485,10 @@ msgstr ""
 msgid ""
 "Note that if you remove the ``Player`` from the main scene, the following "
 "line"
-msgstr ""
+msgstr "注意：如果你从主场景中移除了 ``Player``，那接下来的几行会"
 
-#, fuzzy
 msgid "gives an error because there is no $Player!"
-msgstr "由于此处没有 $Player 导致的报错！"
+msgstr "由于此处没有 $Player 导致报错！"
 
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr "这是目前完整的 ``main.gd`` 脚本，仅供参考。"

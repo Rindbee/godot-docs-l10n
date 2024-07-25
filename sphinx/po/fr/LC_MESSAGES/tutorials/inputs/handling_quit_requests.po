@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,104 +18,16 @@ msgstr "Gestion des demandes de quitter l'application"
 msgid "Quitting"
 msgstr "Fermeture"
 
-#, fuzzy
-msgid ""
-"Most platforms have the option to request the application to quit. On "
-"desktops, this is usually done with the \"x\" icon on the window title bar. "
-"On mobile devices, the app can quit at any time while it is suspended to the "
-"background."
-msgstr ""
-"La plupart des plateformes ont la possibilité de demander de quitter "
-"l'application. Sur les ordinateurs de bureau, cela se fait généralement à "
-"l'aide de l'icône \"x\" dans la barre de titre de la fenêtre. Sur Android, "
-"le bouton retour est utilisé pour quitter l'application lorsqu'elle est sur "
-"l'écran principal (et pour revenir en arrière dans le cas contraire)."
-
 msgid "Handling the notification"
 msgstr "Traitement de la notification"
-
-#, fuzzy
-msgid ""
-"On desktop and web platforms, :ref:`Node <class_Node>` receives a special "
-"``NOTIFICATION_WM_CLOSE_REQUEST`` notification when quitting is requested "
-"from the window manager."
-msgstr ""
-"Sur les plates-formes de bureau, le :ref:`MainLoop <class_MainLoop>` a une "
-"notification spéciale ``MainLoop.NOTIFICATION_WM_QUIT_REQUEST`` qui est "
-"envoyée à tous les nœuds lorsqu'il est demandé de quitter."
 
 msgid "Handling the notification is done as follows (on any node):"
 msgstr ""
 "Le traitement de la notification se fait comme suit (sur n'importe quel "
 "nœud) :"
 
-#, fuzzy
-msgid ""
-"It is important to note that by default, Godot apps have the built-in "
-"behavior to quit when quit is requested from the window manager. This can be "
-"changed, so that the user can take care of the complete quitting procedure:"
-msgstr ""
-"Il est important de noter que par défaut, les applications Godot ont le "
-"comportement intégré pour quitter lorsque quitter est demandé, cela peut "
-"être changé :"
-
-#, fuzzy
-msgid "On mobile devices"
-msgstr "Sur mobile"
-
-msgid ""
-"There is no direct equivalent to ``NOTIFICATION_WM_CLOSE_REQUEST`` on mobile "
-"platforms. Due to the nature of mobile operating systems, the only place "
-"that you can run code prior to quitting is when the app is being suspended "
-"to the background. On both Android and iOS, the app can be killed while "
-"suspended at any time by either the user or the OS. A way to plan ahead for "
-"this possibility is to utilize ``NOTIFICATION_APPLICATION_PAUSED`` in order "
-"to perform any needed actions as the app is being suspended."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"On Android, pressing the Back button will exit the application if "
-"**Application > Config > Quit** On Go Back is checked in the Project "
-"Settings (which is the default). This will fire "
-"``NOTIFICATION_WM_GO_BACK_REQUEST``."
-msgstr ""
-"Sur Android, ``MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST`` est envoyé à la "
-"place. En appuyant sur le bouton Retour, vous quitterez l'application si "
-"**Application > Config > Quitter On Go Back** est coché dans les paramètres "
-"du projet (qui est la valeur par défaut)."
-
 msgid "Sending your own quit notification"
 msgstr "Envoi de votre propre notification d'arrêt"
-
-#, fuzzy
-msgid ""
-"While forcing the application to close can be done by calling :ref:"
-"`SceneTree.quit <class_SceneTree_method_quit>`, doing so will not send the "
-"``NOTIFICATION_WM_CLOSE_REQUEST`` to the nodes in the scene tree. Quitting "
-"by calling :ref:`SceneTree.quit <class_SceneTree_method_quit>` will not "
-"allow custom actions to complete (such as saving, confirming the quit, or "
-"debugging), even if you try to delay the line that forces the quit."
-msgstr ""
-"Bien qu'il soit possible de forcer la fermeture de l'application en "
-"appelant :ref:`SceneTree.quit <class_SceneTree_method_quit>`, cela n'enverra "
-"pas la *notification* de fermeture. Cela signifie que la fonction décrite ci-"
-"dessus ne sera pas appelée. Quitter en appelant :ref:`SceneTree.quit "
-"<class_SceneTree_method_quit>` ne permettra pas aux actions personnalisées "
-"de se terminer (comme la sauvegarde, la confirmation de la sortie ou le "
-"débogage), même si vous essayez de retarder la ligne qui force la sortie."
-
-msgid ""
-"Instead, if you want to notify the nodes in the scene tree about the "
-"upcoming program termination, you should send the notification yourself:"
-msgstr ""
-
-msgid ""
-"Sending this notification will inform all nodes about the program "
-"termination, but will not terminate the program itself *unlike in 3.X*. In "
-"order to achieve the previous behavior, :ref:`SceneTree.quit "
-"<class_SceneTree_method_quit>` should be called after the notification."
-msgstr ""
 
 msgid "Translation status"
 msgstr "État de la traduction"

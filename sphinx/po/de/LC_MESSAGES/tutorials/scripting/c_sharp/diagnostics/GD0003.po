@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,13 +15,13 @@ msgstr ""
 msgid ""
 "GD0003: Found multiple classes with the same name in the same script file"
 msgstr ""
+"GD0003: Found multiple classes with the same name in the same script file"
 
 msgid "**Rule ID**"
 msgstr "**Regel-ID**"
 
-#, fuzzy
 msgid "GD0003"
-msgstr "GD0001"
+msgstr "GD0003"
 
 msgid "**Category**"
 msgstr "**Kategorie**"
@@ -54,6 +49,9 @@ msgid ""
 "a name that matches the script file. Only one type in the script file should "
 "match the file name."
 msgstr ""
+"Eine Skriptdatei enthält mehrere Typen, die sich von ``GodotObject`` "
+"ableiten und deren Name mit der Skriptdatei übereinstimmt. Nur ein Typ in "
+"der Skriptdatei sollte mit dem Dateinamen übereinstimmen."
 
 msgid "Rule description"
 msgstr "Regelbeschreibung"
@@ -62,30 +60,31 @@ msgid ""
 "Godot requires scripts to have a unique path so every type must be defined "
 "on its own file and the type name must match the file name."
 msgstr ""
+"Godot verlangt, dass Skripte einen eindeutigen Pfad haben, so dass jeder Typ "
+"in einer eigenen Datei definiert sein muss und der Typname mit dem "
+"Dateinamen übereinstimmen muss."
 
 msgid "How to fix violations"
 msgstr "Wie man Verstöße behebt"
 
-#, fuzzy
 msgid ""
 "To fix a violation of this rule, move each type declaration to a different "
 "file."
 msgstr ""
-"Um einen Verstoß gegen diese Regel zu beheben, fügen Sie der Typdeklaration "
-"das Schlüsselwort ``partial`` hinzu."
+"Um einen Verstoß gegen diese Regel zu beheben, verschieben Sie jede "
+"Typdeklaration in eine andere Datei."
 
 msgid "When to suppress warnings"
 msgstr "Wann man Warnungen unterdrücken sollte"
 
-#, fuzzy
 msgid ""
 "Do not suppress a warning from this rule. Types that derive from "
 "``GodotObject`` must have a unique path otherwise the engine can't load the "
 "script by path, resulting in unexpected runtime errors."
 msgstr ""
-"Unterdrücken Sie nicht eine Warnung zu dieser Regel. Typen, die von "
-"``GodotObject`` erben, aber nicht partiell sind, können von den "
-"Quelltextgeneratoren nicht erweitert werden, was zu unerwarteten "
+"Unterdrücken Sie keine Warnung aus dieser Regel. Typen, die sich von "
+"``GodotObject`` ableiten, müssen einen eindeutigen Pfad haben, sonst kann "
+"die Engine das Skript nicht nach Pfad laden, was zu unerwarteten "
 "Laufzeitfehlern führt."
 
 msgid "Translation status"

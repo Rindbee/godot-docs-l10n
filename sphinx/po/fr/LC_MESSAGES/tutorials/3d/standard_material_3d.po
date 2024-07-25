@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,45 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Standard Material 3D and ORM Material 3D"
-msgstr ""
-
 msgid "Introduction"
 msgstr "Introduction"
-
-#, fuzzy
-msgid ""
-"``StandardMaterial3D`` and ``ORMMaterial3D`` (Occlusion, Roughness, "
-"Metallic) are default 3D materials that aim to provide most of the features "
-"artists look for in a material, without the need for writing shader code. "
-"However, they can be converted to shader code if additional functionality is "
-"needed."
-msgstr ""
-"Le ``SpatialMaterial`` est un matériau 3D par défaut qui vise à fournir la "
-"plupart des caractéristiques que les artistes recherchent dans un matériau, "
-"sans qu'il soit nécessaire d'écrire du code de shader. Cependant, il peut "
-"être converti en code shader si des fonctionnalités supplémentaires sont "
-"nécessaires."
-
-#, fuzzy
-msgid "This tutorial explains the parameters present in both materials."
-msgstr ""
-"Ce tutoriel explique la plupart des paramètres présents dans "
-"``SpatialMaterial``."
-
-#, fuzzy
-msgid ""
-"There are 4 ways to add these materials to an object. A material can be "
-"added in the *Material* property of the mesh. It can be added in the "
-"*Material* property of the node using the mesh (such as a MeshInstance3D "
-"node), the *Material Override* property of the node using the mesh, and the "
-"*Material Overlay*."
-msgstr ""
-"Il existe quatre façons d'ajouter un ``SpatialMaterial`` à un objet. Il peut "
-"être ajouté dans la propriété *Material* du maillage. Il peut être ajouté "
-"dans la propriété *Material* du nœud qui utilise le maillage (tel qu'un nœud "
-"MeshInstance), dans la propriété *Material Override* du nœud qui utilise le "
-"maillage et dans la propriété *Material Overlay*."
 
 msgid ""
 "If you add a material to the mesh itself, every time that mesh is used it "
@@ -83,218 +41,6 @@ msgstr ""
 "matériau actuellement utilisé par le maillage. Par exemple, cela peut être "
 "utilisé pour appliquer un effet de bouclier transparent sur le maillage."
 
-#, fuzzy
-msgid "BaseMaterial 3D settings"
-msgstr "Paramètres de ParticlesMaterial"
-
-msgid ""
-"StandardMaterial3D has many settings that determine the look of a material. "
-"All of these are under the BaseMaterial3D category"
-msgstr ""
-
-msgid ""
-"ORM materials are almost exactly the same with one difference. Instead of "
-"separate settings and textures for occlusion, roughness, and metallic, there "
-"is a single ORM texture. The different color channels of that texture are "
-"used for each parameter. Programs such as Substance Painter and Armor Paint "
-"will give you the option to export in this format, for these two programs "
-"it's with the export preset for unreal engine, which also uses ORM textures."
-msgstr ""
-
-#, fuzzy
-msgid "Transparency"
-msgstr "Transparent"
-
-msgid ""
-"By default, materials in Godot are opaque. This is fast to render, but it "
-"means the material can't be seen through even if you use a transparent "
-"texture in the **Albedo > Texture** property (or set **Albedo > Color** to a "
-"transparent color)."
-msgstr ""
-
-msgid ""
-"To be able to see through a material, the material needs to be made "
-"*transparent*. Godot offers several transparency modes:"
-msgstr ""
-
-msgid ""
-"**Disabled:** Material is opaque. This is the fastest to render, with all "
-"rendering features supported."
-msgstr ""
-
-msgid ""
-"**Alpha:** Material is transparent. Semi-transparent areas are drawn with "
-"blending. This is slow to render, but it allows for partial transparency "
-"(also known as translucency). Materials using alpha blending also can't cast "
-"shadows, and are not visible in screen-space reflections."
-msgstr ""
-
-msgid "**Alpha** is a good fit for particle effects and VFX."
-msgstr ""
-
-msgid ""
-"**Alpha Scissor:** Material is transparent. Semi-transparent areas whose "
-"opacity is below **Alpha Scissor Threshold** are not drawn (above this "
-"opacity, these are drawn as opaque). This is faster to render than Alpha and "
-"doesn't exhibit transparency sorting issues. The downside is that this "
-"results in \"all or nothing\" transparency, with no intermediate values "
-"possible. Materials using alpha scissor can cast shadows."
-msgstr ""
-
-msgid ""
-"**Alpha Scissor** is ideal for foliage and fences, since these have hard "
-"edges and require correct sorting to look good."
-msgstr ""
-
-msgid ""
-"**Alpha Hash:** Material is transparent. Semi-transparent areas are drawn "
-"using dithering. This is also \"all or nothing\" transparency, but dithering "
-"helps represent partially opaque areas with limited precision depending on "
-"viewport resolution. Materials using alpha hash can cast shadows."
-msgstr ""
-
-msgid ""
-"**Alpha Hash** is suited for realistic-looking hair, although stylized hair "
-"may work better with alpha scissor."
-msgstr ""
-
-msgid ""
-"**Depth Pre-Pass:** This renders the object's fully opaque pixels via the "
-"opaque pipeline first, then renders the rest with alpha blending. This "
-"allows transparency sorting to be *mostly* correct (albeit not fully so, as "
-"partially transparent regions may still exhibit incorrect sorting). "
-"Materials using depth prepass can cast shadows."
-msgstr ""
-
-msgid ""
-"Godot will automatically force the material to be transparent with alpha "
-"blending if *any* of these conditions is met:"
-msgstr ""
-
-msgid "Setting the transparency mode to **Alpha** (as described here)."
-msgstr ""
-
-msgid "Setting a blend mode other than the default **Mix**"
-msgstr ""
-
-msgid "Enabling **Refraction**, **Proximity Fade**, or **Distance Fade**."
-msgstr ""
-
-msgid ""
-"Comparison between alpha blending (left) and alpha scissor (right) "
-"transparency:"
-msgstr ""
-
-msgid ""
-"Alpha-blended transparency has several :ref:`limitations "
-"<doc_3d_rendering_limitations_transparency_sorting>`:"
-msgstr ""
-
-msgid ""
-"Alpha-blended materials are significantly slower to render, especially if "
-"they overlap."
-msgstr ""
-
-msgid ""
-"Alpha-blended materials may exhibit sorting issues when transparent surfaces "
-"overlap each other. This means that surfaces may render in the incorrect "
-"order, with surfaces in the back appearing to be in front of those which are "
-"actually closer to the camera."
-msgstr ""
-
-msgid ""
-"Alpha-blended materials don't cast shadows, although they can receive "
-"shadows."
-msgstr ""
-
-msgid ""
-"Alpha-blended materials don't appear in any reflections (other than "
-"reflection probes)."
-msgstr ""
-
-msgid ""
-"Screen-space reflections and sharp SDFGI reflections don't appear on alpha-"
-"blended materials. When SDFGI is enabled, rough reflections are used as a "
-"fallback regardless of material roughness."
-msgstr ""
-
-msgid ""
-"Before using the **Alpha** transparency mode, always consider whether "
-"another transparency mode is more suited for your needs."
-msgstr ""
-
-#, fuzzy
-msgid "Alpha Antialiasing"
-msgstr "**Anticrénelage :**"
-
-msgid ""
-"This property is only visible when the transparency mode is **Alpha "
-"Scissor** or **Alpha Hash**."
-msgstr ""
-
-msgid ""
-"While alpha scissor and alpha hash materials are faster to render than alpha-"
-"blended materials, they exhibit hard edges between opaque and transparent "
-"regions. While it's possible to use post-processing-based :ref:`antialiasing "
-"techniques <doc_3d_antialiasing>` such as FXAA and TAA, this is not always "
-"desired as these techniques tend to make the final result look blurrier or "
-"exhibit ghosting artifacts."
-msgstr ""
-
-#, fuzzy
-msgid "There are 3 alpha antialiasing modes available:"
-msgstr "Quatre macros sont disponibles pour cela :"
-
-msgid ""
-"**Disabled:** No alpha antialiasing. Edges of transparent materials will "
-"appear aliased unless a post-processing-based antialiasing solution is used."
-msgstr ""
-
-msgid ""
-"**Alpha Edge Blend:** Results in a smooth transition between opaque and "
-"transparent areas. Also known as \"alpha to coverage\"."
-msgstr ""
-
-msgid ""
-"**Alpha Edge Clip:** Results in a sharp, but still antialiased transition "
-"between opaque and transparent areas. Also known as \"alpha to coverage + "
-"alpha to one\"."
-msgstr ""
-
-msgid ""
-"When the alpha antialiasing mode is set to **Alpha Edge Blend** or **Alpha "
-"Edge Clip**, a new **Alpha Antialiasing Edge** property becomes visible "
-"below in the inspector. This property controls the threshold below which "
-"pixels should be made transparent. While you've already defined an alpha "
-"scissor threshold (when using **Alpha Scissor** only), this additional "
-"threshold is used to smoothly transition between opaque and transparent "
-"pixels. **Alpha Antialiasing Edge** must *always* be set to a value that is "
-"strictly below the alpha scissor threshold. The default of ``0.3`` is a "
-"sensible value with an alpha scissor of threshold of ``0.5``, but remember "
-"to adjust this alpha antialiasing edge when modifying the alpha scissor "
-"threshold."
-msgstr ""
-
-msgid ""
-"If you find the antialiasing effect not effective enough, try increasing "
-"**Alpha Antialiasing Edge** while making sure it's below **Alpha Scissor "
-"Threshold** (if the material uses alpha scissor). On the other hand, if you "
-"notice the texture's appearance visibly changing as the camera moves closer "
-"to the material, try decreasing **Alpha Antialiasing Edge**."
-msgstr ""
-
-msgid ""
-"For best results, MSAA 3D should be set to at least 2× in the Project "
-"Settings when using alpha antialiasing. This is because this feature relies "
-"on alpha to coverage, which is a feature provided by MSAA."
-msgstr ""
-
-msgid ""
-"Without MSAA, a fixed dithering pattern is applied on the material's edges, "
-"which isn't very effective at smoothing out edges (although it can still "
-"help a little)."
-msgstr ""
-
 msgid "Blend Mode"
 msgstr "Mode mélange"
 
@@ -310,27 +56,6 @@ msgid ""
 msgstr ""
 "**Mix :** Mode de mélange par défaut, alpha contrôle la visibilité de "
 "l'objet."
-
-#, fuzzy
-msgid ""
-"**Add:** The final color of the object is added to the color of the screen, "
-"nice for flares or some fire-like effects."
-msgstr ""
-"**Add :** L'objet est mélangé de façon additive, agréable pour les fusées "
-"éclairantes ou pour certains effets de type feu."
-
-msgid ""
-"**Sub:** The final color of the object is subtracted from the color of the "
-"screen."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"**Mul:** The final color of the object is multiplied with the color of the "
-"screen."
-msgstr ""
-"**Face avant :** La face avant de l'objet est éliminée lorsqu'elle n'est pas "
-"visible."
 
 msgid "Cull Mode"
 msgstr "Mode Élagage"
@@ -392,14 +117,6 @@ msgstr ""
 "**Always :** Le dessin en profondeur est dessiné pour les objets opaques et "
 "transparents."
 
-#, fuzzy
-msgid ""
-"**Never:** No depth draw takes place (do not confuse this with the No Depth "
-"Test option below)."
-msgstr ""
-"**Never :** Aucun dessin en profondeur n'a lieu (ne pas confondre avec "
-"l'option Aucun test de profondeur ci-dessus)."
-
 msgid ""
 "**Depth Pre-Pass:** For transparent objects, an opaque pass is made first "
 "with the opaque parts, then transparency is drawn above. Use this option "
@@ -434,70 +151,8 @@ msgstr ""
 msgid "Shading"
 msgstr "Ombrage"
 
-#, fuzzy
-msgid "Shading mode"
-msgstr "Ombrage"
-
-#, fuzzy
-msgid ""
-"Godot has a more or less uniform cost per pixel thanks to the depth pre-"
-"pass. All lighting calculations are made by running the lighting shader on "
-"every pixel."
-msgstr ""
-"Godot a un coût par pixel plus ou moins uniforme grâce au pré-passage de "
-"profondeur. Tous les calculs d'éclairage sont effectués en exécutant le "
-"shader d'éclairage sur chaque pixel."
-
-#, fuzzy
-msgid ""
-"As these calculations are costly, performance can be brought down "
-"considerably in some corner cases such as drawing several layers of "
-"transparency (which is common in particle systems). Switching to the "
-"**Unshaded** shading mode may help improve performance in these cases, "
-"especially when the camera is close to particles."
-msgstr ""
-"Comme ces calculs sont coûteux, les performances peuvent être "
-"considérablement réduites dans certains cas particuliers, comme le dessin de "
-"plusieurs couches de transparence (ce qui est courant dans les systèmes de "
-"particules). Dans ces cas, il peut être utile de passer à l'éclairage par "
-"sommet."
-
-#, fuzzy
-msgid ""
-"Additionally, on low-end or mobile devices, switching to unshaded rendering "
-"can considerably increase rendering performance."
-msgstr ""
-"De plus, sur les appareils bas de gamme ou mobiles, le passage à l'éclairage "
-"de sommet peut considérablement augmenter les performances de rendu."
-
-msgid ""
-"Keep in mind that when unshaded rendering is enabled, lights will not affect "
-"the material at all."
-msgstr ""
-
-msgid ""
-"**Per-Vertex** shading is listed as an option in the shading mode property. "
-"However, per-vertex shading is currently unimplemented and will act "
-"identical to per-pixel shading."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for per-vertex shading is planned to be reimplemented in a future "
-"Godot release."
-msgstr "Le support de la sortie HDR est prévu pour un version future."
-
 msgid "Diffuse Mode"
 msgstr "Mode diffus"
-
-#, fuzzy
-msgid ""
-"Specifies the algorithm used by diffuse scattering of light when hitting the "
-"object. The default is **Burley**. Other modes are also available:"
-msgstr ""
-"Spécifie l'algorithme utilisé pour la diffusion de la lumière lorsqu'elle "
-"frappe l'objet. La valeur par défaut est *Burley*. D'autres modes sont "
-"également disponibles :"
 
 msgid ""
 "**Burley:** Default mode, the original Disney Principled PBS diffuse "
@@ -518,19 +173,6 @@ msgstr ""
 "la rugosité augmente. Idéal pour les cheveux et pour simuler la diffusion "
 "sous-surface à bas prix. Cette implémentation conserve l'énergie."
 
-#, fuzzy
-msgid ""
-"**Toon:** Provides a hard cut for lighting, with smoothing affected by "
-"roughness. It is recommended you disable sky contribution from your "
-"environment's ambient light settings or disable ambient light in the "
-"StandardMaterial3D to achieve a better effect."
-msgstr ""
-"**Toon :** Fournit une coupe dure pour l'éclairage, avec un lissage affecté "
-"par la rugosité. Il est recommandé de désactiver la contribution du ciel en "
-"fonction des réglages de la lumière ambiante de votre environnement ou de "
-"désactiver la lumière ambiante dans le spatial material pour obtenir un "
-"meilleur effet."
-
 msgid "Specular Mode"
 msgstr "Mode spéculaire"
 
@@ -540,12 +182,6 @@ msgid ""
 msgstr ""
 "Spécifie comment la tâche spéculaire sera rendue. La tâche spéculaire "
 "représente la forme d'une source lumineuse réfléchie dans l'objet."
-
-#, fuzzy
-msgid "**SchlickGGX:** The most common blob used by PBR 3D engines nowadays."
-msgstr ""
-"**ShlickGGGX :** La tâche la plus communément utilisée par les moteurs 3D "
-"PBR de nos jours."
 
 msgid ""
 "**Blinn:** Common in previous-generation engines. Not worth using nowadays, "
@@ -575,28 +211,8 @@ msgid ""
 "otherwise light it."
 msgstr "L'objet ne reçoit aucun éclairage ambiant qui autrement l'éclairerait."
 
-#, fuzzy
-msgid "Disable Fog"
-msgstr "Désactivé"
-
-msgid ""
-"Makes the object unaffected by depth-based or volumetric fog. This is useful "
-"for particles or other additively blended materials that would otherwise "
-"show the shape of the mesh (even in places where it would be invisible "
-"without the fog)."
-msgstr ""
-
 msgid "Vertex Color"
 msgstr "Couleur de sommet"
-
-#, fuzzy
-msgid ""
-"This setting allows choosing what is done by default to vertex colors that "
-"come from your 3D modeling application. By default, they are ignored."
-msgstr ""
-"Ce paramètre permet de choisir ce qui est fait par défaut pour les couleurs "
-"de sommet qui proviennent de votre application de modélisation 3D. Par "
-"défaut, elles sont ignorées."
 
 msgid "Use as Albedo"
 msgstr "Utiliser comme albedo"
@@ -608,14 +224,6 @@ msgstr ""
 
 msgid "Is sRGB"
 msgstr "Est sRGB"
-
-#, fuzzy
-msgid ""
-"Most 3D modeling software will likely export vertex colors as sRGB, so "
-"toggling this option on will help them look correct."
-msgstr ""
-"La plupart des DCC 3D exporteront probablement les couleurs de sommet comme "
-"sRVB, donc activer cette option les aidera à paraître corrects."
 
 msgid "Albedo"
 msgstr "Albédo"
@@ -697,20 +305,6 @@ msgstr ""
 
 msgid "Emission"
 msgstr "Émission"
-
-#, fuzzy
-msgid ""
-"*Emission* specifies how much light is emitted by the material (keep in mind "
-"this does not include light surrounding geometry unless :ref:`VoxelGI "
-"<doc_using_voxel_gi>` or :ref:`SDFGI <doc_using_sdfgi>` are used). This "
-"value is added to the resulting final image and is not affected by other "
-"lighting in the scene."
-msgstr ""
-"*Emission* spécifie la quantité de lumière émise par le matériau (gardez à "
-"l'esprit que ceci n'inclut pas la géométrie de la lumière environnante sauf "
-"si :ref:`doc_gi_probes` sont utilisés). Cette valeur est ajoutée à l'image "
-"finale résultante et n'est pas affectée par les autres éclairages de la "
-"scène."
 
 msgid "Normal map"
 msgstr "Normal map (carte de normales)"
@@ -822,10 +416,6 @@ msgstr ""
 "pré-calculée. Il est recommandé de générer l'occlusion ambiante chaque fois "
 "que cela est possible."
 
-#, fuzzy
-msgid "Height"
-msgstr "Lumières"
-
 msgid ""
 "Setting a depth map on a material produces a ray-marched search to emulate "
 "the proper displacement of cavities along the view direction. This is not "
@@ -852,10 +442,6 @@ msgstr ""
 "puis sort. Il est utile pour créer une peau réaliste, du marbre, des "
 "liquides colorés, etc."
 
-#, fuzzy
-msgid "Back Lighting"
-msgstr "Préparation de l’éclairage"
-
 msgid ""
 "This controls how much light from the lit side (visible to light) is "
 "transferred to the dark side (opposite from the light). This works well for "
@@ -868,63 +454,6 @@ msgstr ""
 
 msgid "Refraction"
 msgstr "Réfraction"
-
-#, fuzzy
-msgid ""
-"When refraction is enabled, Godot attempts to fetch information from behind "
-"the object being rendered. This allows distorting the transparency in a way "
-"similar to refraction in real life."
-msgstr ""
-"Lorsque la réfraction est activée, elle remplace le mélange alpha, et Godot "
-"tente de récupérer les informations derrière l'objet rendu. Cela permet de "
-"déformer la transparence d'une manière similaire à la réfraction dans la vie "
-"réelle."
-
-msgid ""
-"Remember to use a transparent albedo texture (or reduce the albedo color's "
-"alpha channel) to make refraction visible, as refraction relies on "
-"transparency to have a visible effect."
-msgstr ""
-
-msgid ""
-"Refraction also takes the material roughness into account. Higher roughness "
-"values will make the objects behind the refraction look blurrier, which "
-"simulates real life behavior. If you can't see behind the object when "
-"refraction is enabled and albedo transparency is reduced, decrease the "
-"material's **Roughness** value."
-msgstr ""
-
-msgid ""
-"A normal map can optionally be specified in the **Refraction Texture** "
-"property to allow distorting the refraction's direction on a per-pixel basis."
-msgstr ""
-
-msgid ""
-"Refraction is implemented as a screen-space effect and forces the material "
-"to be transparent. This makes the effect relatively fast, but this results "
-"in some limitations:"
-msgstr ""
-
-msgid ""
-":ref:`Transparency sorting "
-"<doc_3d_rendering_limitations_transparency_sorting>` issues may occur."
-msgstr ""
-
-msgid ""
-"The refractive material cannot refract onto itself, or onto other "
-"transparent materials. A refractive material behind another transparent "
-"material will be invisible."
-msgstr ""
-
-msgid ""
-"Off-screen objects cannot appear in the refraction. This is most noticeable "
-"with high refraction strength values."
-msgstr ""
-
-msgid ""
-"Opaque materials in front of the refractive material will appear to have "
-"\"refracted\" edges, even though they shouldn't."
-msgstr ""
 
 msgid "Detail"
 msgstr "Détail"
@@ -1058,37 +587,11 @@ msgstr ""
 msgid "World Triplanar"
 msgstr "Monde Triplanaire"
 
-#, fuzzy
-msgid ""
-"When using triplanar mapping, it is computed in object local space. This "
-"option makes it use world space instead."
-msgstr ""
-"Lors de l'utilisation de la cartographie triplanaire (voir ci-dessous, dans "
-"les réglages UV1 et UV2), le triplanaire est calculé dans l'espace local de "
-"l'objet. Cette option permet de faire fonctionner le triplanaire dans "
-"l'espace du monde."
-
-#, fuzzy
-msgid "Sampling"
-msgstr "Ré-échantillonnage"
-
 msgid "Filter"
 msgstr "Filtre"
 
-msgid ""
-"The filtering method for the textures used by the material. See :ref:`this "
-"page<class_BaseMaterial3D_property_texture_filter>` for a full list of "
-"options and their description."
-msgstr ""
-
 msgid "Repeat"
 msgstr "Répéter"
-
-msgid ""
-"if the textures used by the material repeat, and how they repeat. See :ref:"
-"`this page<class_BaseMaterial3D_property_texture_repeat>` for a full list of "
-"options and their description."
-msgstr ""
 
 msgid "Shadows"
 msgstr "Ombres"
@@ -1115,10 +618,6 @@ msgstr ""
 "servir à surimposer des ombres sur des images fournie par une caméra en "
 "réalité augmentée."
 
-#, fuzzy
-msgid "Billboard"
-msgstr "Mode Billboard"
-
 msgid "Billboard Mode"
 msgstr "Mode Billboard"
 
@@ -1131,34 +630,6 @@ msgstr ""
 
 msgid "**Disabled:** Billboard mode is disabled."
 msgstr "**Désactivé :** Le mode ``Billboard`` est désactivé."
-
-#, fuzzy
-msgid ""
-"**Enabled:** Billboard mode is enabled. The object's -Z axis will always "
-"face the camera's viewing plane."
-msgstr ""
-"**Activé :** Le mode ``Billboard`` est activé. L'axe Z de l'objet fera "
-"toujours face à la caméra."
-
-#, fuzzy
-msgid ""
-"**Y-Billboard:** The object's X axis will always be aligned with the "
-"camera's viewing plane."
-msgstr "**Y-Billboard :** L'axe X de l'objet fera toujours face à la caméra."
-
-#, fuzzy
-msgid ""
-"**Particle Billboard:** Most suited for particle systems, because it allows "
-"specifying :ref:`flipbook animation "
-"<doc_process_material_properties_animation>`."
-msgstr ""
-"**Particules :** Plus adapté aux systèmes de particules, car il permet de "
-"spécifier des options d'animation."
-
-msgid ""
-"The **Particles Anim** section is only visible when the billboard mode is "
-"**Particle Billboard**."
-msgstr ""
 
 msgid "Billboard Keep Scale"
 msgstr "Garder l'échelle du mode Billboard"
@@ -1200,17 +671,6 @@ msgstr ""
 msgid "Use Point Size"
 msgstr "Utiliser la taille de point"
 
-#, fuzzy
-msgid ""
-"This option is only effective when the geometry rendered is made of points "
-"(generally it's made of triangles when imported from 3D modeling software). "
-"If so, then those points can be resized (see below)."
-msgstr ""
-"Cette option n'est efficace que lorsque la géométrie rendue est constituée "
-"de points (en général, elle est constituée de triangles lorsqu'elle est "
-"importée d'un DCC 3D). Si c'est le cas, ces points peuvent être "
-"redimensionnés (voir ci-dessous)."
-
 msgid "Point Size"
 msgstr "Taille de point"
 
@@ -1220,63 +680,6 @@ msgstr ""
 
 msgid "Transmission"
 msgstr "Transmission"
-
-#, fuzzy
-msgid "Proximity and Distance Fade"
-msgstr "Fondu de proximité et distance"
-
-#, fuzzy
-msgid ""
-"Godot allows materials to fade by proximity to each other as well as "
-"depending on the distance from the viewer. Proximity fade is useful for "
-"effects such as soft particles or a mass of water with a smooth blending to "
-"the shores."
-msgstr ""
-"Godot permet aux matériaux de s'estomper par proximité les uns des autres "
-"ainsi que selon la distance par rapport au spectateur. Le fondu de proximité "
-"est utile pour des effets tels que des particules molles ou une masse d'eau "
-"avec un mélange lisse jusqu'aux rivages. Le fondu à distance est utile pour "
-"les puits de lumière ou les indicateurs qui ne sont visibles qu'après une "
-"distance donnée."
-
-msgid ""
-"Distance fade is useful for light shafts or indicators that are only present "
-"after a given distance."
-msgstr ""
-
-msgid ""
-"Keep in mind enabling proximity fade or distance fade with **Pixel Alpha** "
-"mode enables alpha blending. Alpha blending is more GPU-intensive and can "
-"cause transparency sorting issues. Alpha blending also disables many "
-"material features such as the ability to cast shadows."
-msgstr ""
-
-msgid ""
-"To hide a character when they get too close to the camera, consider using "
-"**Pixel Dither** or better, **Object Dither** (which is even faster than "
-"**Pixel Dither**)."
-msgstr ""
-
-msgid ""
-"**Pixel Alpha** mode: The actual transparency of a pixel of the object "
-"changes with distance to the camera. This is the most effect, but forces the "
-"material into the transparency pipeline (which leads, for example, to no "
-"shadows)."
-msgstr ""
-
-msgid ""
-"**Pixel Dither** mode: What this does is sort of approximate the "
-"transparency by only having a fraction of the pixels rendered."
-msgstr ""
-
-msgid ""
-"**Object Dither** mode: Like the previous mode, but the calculated "
-"transparency is the same across the entire object's surface."
-msgstr ""
-
-#, fuzzy
-msgid "Material Settings"
-msgstr "Paramètres de ParticlesMaterial"
 
 msgid "Render priority"
 msgstr "Priorité de rendu"
@@ -1289,15 +692,6 @@ msgstr ""
 "L'ordre de rendu des objets peut être modifié, bien que cela soit surtout "
 "utile pour les objets transparents (ou les objets opaques qui dessinent en "
 "profondeur mais pas en couleur, comme les fissures sur le sol)."
-
-#, fuzzy
-msgid "Next Pass"
-msgstr "La suite"
-
-msgid ""
-"Sets the material to be used for the next pass. This renders the object "
-"again with a different material."
-msgstr ""
 
 msgid "Translation status"
 msgstr "État de la traduction"

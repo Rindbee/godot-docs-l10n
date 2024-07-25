@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,110 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "GDScript documentation comments"
-msgstr ""
-
-msgid ""
-"In GDScript, comments can be used to document your code and add descriptions "
-"to the members of a script. There are two differences between a normal "
-"comment and a documentation comment. Firstly, a documentation comment should "
-"start with double hash symbols ``##``. Secondly, it must immediately precede "
-"a script member, or for script descriptions, be placed at the top of the "
-"script. If an exported variable is documented, its description is used as a "
-"tooltip in the editor. This documentation can be generated as XML files by "
-"the editor."
-msgstr ""
-
-msgid "Documenting a script"
-msgstr ""
-
-msgid ""
-"Comments documenting a script must come before any member documentation. A "
-"suggested format for script documentation can be divided into three parts."
-msgstr ""
-
-msgid "A brief description of the script."
-msgstr ""
-
-msgid "Detailed description."
-msgstr ""
-
-msgid "Tutorials and deprecated/experimental marks."
-msgstr ""
-
-msgid ""
-"To separate these from each other, the documentation comments use special "
-"tags. The tag must be at the beginning of a line (ignoring preceding white "
-"space) and must have the format ``@``, followed by the keyword."
-msgstr ""
-
-msgid "Tags"
-msgstr ""
-
-msgid "Brief description"
-msgstr ""
-
-msgid "No tag. Lives at the very beginning of the documentation section."
-msgstr ""
-
 msgid "Description"
 msgstr "Tanım"
-
-msgid "No tag. Use one blank line to separate the description from the brief."
-msgstr ""
-
-msgid "Tutorial"
-msgstr ""
-
-msgid "``@tutorial: https://example.com``"
-msgstr ""
-
-msgid "``@tutorial(The Title Here): https://example.com``"
-msgstr ""
 
 msgid "Deprecated"
 msgstr "Kullanımdan kaldırıldı"
 
-msgid "``@deprecated``"
-msgstr ""
-
-msgid "``@deprecated: Use [AnotherClass] instead.``"
-msgstr ""
-
-msgid "Experimental"
-msgstr ""
-
-msgid "``@experimental``"
-msgstr ""
-
-msgid "``@experimental: This class is unstable.``"
-msgstr ""
-
 msgid "For example::"
 msgstr "Örneğin:"
-
-msgid ""
-"If there is any space in between the tag name and colon, for example "
-"``@tutorial  :``, it won't be treated as a valid tag and will be ignored."
-msgstr ""
-
-msgid ""
-"When the description spans multiple lines, the preceding and trailing white "
-"spaces will be stripped and joined with a single space. To preserve the line "
-"break use ``[br]``. See also `BBCode and class reference`_ below."
-msgstr ""
-
-msgid "Documenting script members"
-msgstr ""
-
-msgid "Members that are applicable for documentation:"
-msgstr ""
-
-msgid "Inner class"
-msgstr ""
-
-msgid "Constant"
-msgstr ""
 
 msgid "Function"
 msgstr "Fonksiyon"
@@ -128,372 +27,38 @@ msgstr "Fonksiyon"
 msgid "Signal"
 msgstr "Sinyal"
 
-msgid "Variable"
-msgstr ""
-
-msgid "Enum"
-msgstr ""
-
-msgid "Enum value"
-msgstr ""
-
-msgid ""
-"Documentation of a script member must immediately precede the member or its "
-"annotations if it has any. The description can have more than one line but "
-"every line must start with the double hash symbol ``##`` to be considered as "
-"part of the documentation."
-msgstr ""
-
-msgid "No tag."
-msgstr ""
-
-msgid "``@deprecated: Use [member another] instead.``"
-msgstr ""
-
-msgid "``@experimental: This method is incomplete.``"
-msgstr ""
-
-msgid "Alternatively, you can use inline documentation comments::"
-msgstr ""
-
-msgid ""
-"The script documentation will update in the editor help window every time "
-"the script is updated. If any member variable or function name starts with "
-"an underscore, it will be treated as private. It will not appear in the "
-"documentation and will be ignored in the help window."
-msgstr ""
-
-msgid "Complete script example"
-msgstr ""
-
-msgid "``@deprecated`` and ``@experimental`` tags"
-msgstr ""
-
-msgid ""
-"You can mark a class or any of its members as deprecated or experimental. "
-"This will add the corresponding indicator in the built-in documentation "
-"viewer. Optionally, you can provide a short message explaining why the API "
-"is not recommended. This can be especially useful for plugin and library "
-"creators."
-msgstr ""
-
-msgid ""
-"**Deprecated** marks a non-recommended API that is subject to removal or "
-"incompatible change in a future major release. Usually the API is kept for "
-"backwards compatibility."
-msgstr ""
-
-msgid ""
-"**Experimental** marks a new unstable API that may be changed or removed in "
-"the current major branch. Using this API is not recommended in production "
-"code."
-msgstr ""
-
-msgid ""
-"While technically you can use both ``@deprecated`` and ``@experimental`` "
-"tags on the same class/member, this is not recommended as it is against "
-"common conventions."
-msgstr ""
-
-msgid "BBCode and class reference"
-msgstr ""
-
-msgid ""
-"Godot's class reference supports BBCode-like tags. They add nice formatting "
-"to the text which could also be used in the documentation. See also :ref:"
-"`class reference bbcode <doc_class_reference_bbcode>`. Note that this is "
-"slightly different from the ``RichTextLabel`` :ref:`BBCode "
-"<doc_bbcode_in_richtextlabel>`."
-msgstr ""
-
-msgid ""
-"Whenever you link to a member of another class, you need to specify the "
-"class name. For links to the same class, the class name is optional and can "
-"be omitted."
-msgstr ""
-
-msgid "Here's the list of available tags:"
-msgstr ""
-
-msgid "Tag and Description"
-msgstr ""
-
-msgid "Example"
-msgstr ""
-
 msgid "Result"
 msgstr "Sonucu"
-
-msgid "``[Class]``"
-msgstr ""
-
-msgid "Link to class"
-msgstr ""
-
-msgid "``Move the [Sprite2D].``"
-msgstr ""
-
-msgid "Move the :ref:`class_Sprite2D`."
-msgstr ""
-
-msgid "``[annotation Class.name]``"
-msgstr ""
-
-msgid "Link to annotation"
-msgstr ""
-
-msgid "``See [annotation @GDScript.@rpc].``"
-msgstr ""
-
-msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr ""
-
-msgid "``[constant Class.name]``"
-msgstr ""
-
-msgid "Link to constant"
-msgstr ""
-
-msgid "``See [constant Color.RED].``"
-msgstr ""
-
-msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr ""
-
-msgid "``[enum Class.name]``"
-msgstr ""
-
-msgid "Link to enum"
-msgstr ""
-
-msgid "``See [enum Mesh.ArrayType].``"
-msgstr ""
-
-msgid "See :ref:`Mesh.ArrayType <enum_Mesh_ArrayType>`."
-msgstr ""
-
-msgid "``[member Class.name]``"
-msgstr ""
-
-msgid "Link to member (property)"
-msgstr ""
-
-msgid "``Get [member Node2D.scale].``"
-msgstr ""
-
-msgid "Get :ref:`Node2D.scale <class_Node2D_property_scale>`."
-msgstr ""
-
-msgid "``[method Class.name]``"
-msgstr ""
-
-msgid "Link to method"
-msgstr ""
-
-msgid "``Call [method Node3D.hide].``"
-msgstr ""
-
-msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
-msgstr ""
-
-msgid "``[constructor Class.name]``"
-msgstr ""
-
-#, fuzzy
-msgid "Link to built-in constructor"
-msgstr "Işık yerleşikleri"
-
-msgid "``Use [constructor Color.Color].``"
-msgstr ""
-
-msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr ""
-
-msgid "``[operator Class.name]``"
-msgstr ""
-
-#, fuzzy
-msgid "Link to built-in operator"
-msgstr "Işık yerleşikleri"
-
-msgid "``Use [operator Color.operator *].``"
-msgstr ""
-
-msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr ""
-
-msgid "``[signal Class.name]``"
-msgstr ""
-
-msgid "Link to signal"
-msgstr ""
-
-msgid "``Emit [signal Node.renamed].``"
-msgstr ""
-
-msgid "Emit :ref:`Node.renamed <class_Node_signal_renamed>`."
-msgstr ""
-
-msgid "``[theme_item Class.name]``"
-msgstr ""
-
-msgid "Link to theme item"
-msgstr ""
-
-msgid "``See [theme_item Label.font].``"
-msgstr ""
-
-msgid "See :ref:`Label.font <class_Label_theme_font_font>`."
-msgstr ""
-
-msgid "``[param name]``"
-msgstr ""
-
-msgid "Parameter name (as code)"
-msgstr ""
-
-msgid "``Takes [param size] for the size.``"
-msgstr ""
-
-msgid "Takes ``size`` for the size."
-msgstr ""
-
-msgid "``[br]``"
-msgstr ""
-
-msgid "Line break"
-msgstr ""
-
-msgid "``Line 1.[br]``"
-msgstr ""
-
-msgid "``Line 2.``"
-msgstr ""
-
-msgid "Line 1."
-msgstr ""
-
-msgid "Line 2."
-msgstr ""
-
-#, fuzzy
-msgid "``[lb]`` ``[rb]``"
-msgstr "``[kbd]`` ``[/kbd]``"
-
-msgid "``[`` and ``]`` respectively"
-msgstr ""
-
-msgid "``[lb]b[rb]text[lb]/b[rb]``"
-msgstr ""
-
-msgid "[b]text[/b]"
-msgstr ""
-
-msgid "``[b]`` ``[/b]``"
-msgstr ""
 
 msgid "Bold"
 msgstr "Kalın harfli"
 
-msgid "``Do [b]not[/b] call this method.``"
-msgstr ""
-
-msgid "Do **not** call this method."
-msgstr ""
-
-msgid "``[i]`` ``[/i]``"
-msgstr ""
-
 msgid "Italic"
 msgstr "Eğik harfli"
 
-msgid "``Returns the [i]global[/i] position.``"
-msgstr ""
-
-msgid "Returns the *global* position."
-msgstr ""
-
-#, fuzzy
 msgid "``[u]`` ``[/u]``"
-msgstr "``[kbd]`` ``[/kbd]``"
+msgstr "``[u]`` ``[/u]``"
 
-#, fuzzy
-msgid "Underline"
-msgstr "Interlingue"
-
-msgid "``[u]Always[/u] use this method.``"
-msgstr ""
-
-#, fuzzy
 msgid "``[s]`` ``[/s]``"
-msgstr "``[kbd]`` ``[/kbd]``"
+msgstr "``[s]`` ``[/s]``"
 
-msgid "Strikethrough"
-msgstr ""
-
-msgid "``[s]Outdated information.[/s]``"
-msgstr ""
-
-#, fuzzy
 msgid "``[color]`` ``[/color]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
+msgstr "``[color]`` ``[/color]``"
 
 msgid "Color"
 msgstr "Renk"
 
-msgid "``[color=red]Error![/color]``"
-msgstr ""
-
-#, fuzzy
 msgid "``[font]`` ``[/font]``"
-msgstr "``[code]`` ``[/code]``"
+msgstr "``[font]`` ``[/font]``"
 
-#, fuzzy
-msgid "Font"
-msgstr "**Yazı Tipi:**"
-
-msgid "``[font=res://mono.ttf]LICENSE[/font]``"
-msgstr ""
-
-#, fuzzy
 msgid "``[img]`` ``[/img]``"
-msgstr "``[kbd]`` ``[/kbd]``"
+msgstr "``[img]`` ``[/img]``"
 
-#, fuzzy
-msgid "Image"
-msgstr "image0"
-
-msgid "``[img width=32]res://icon.svg[/img]``"
-msgstr ""
-
-#, fuzzy
 msgid "``[url]`` ``[/url]``"
-msgstr "``[kbd]`` ``[/kbd]``"
+msgstr "``[url]`` ``[/url]``"
 
-msgid "Hyperlink"
-msgstr ""
-
-msgid "``[url]https://example.com[/url]``"
-msgstr ""
-
-msgid "``[url=https://example.com]Website[/url]``"
-msgstr ""
-
-msgid "https://example.com"
-msgstr ""
-
-msgid "`Website <https://example.com>`_"
-msgstr ""
-
-#, fuzzy
 msgid "``[center]`` ``[/center]``"
-msgstr "``[code]`` ``[/code]``"
-
-msgid "Horizontal centering"
-msgstr ""
-
-msgid "``[center]2 + 2 = 4[/center]``"
-msgstr ""
+msgstr "``[center]`` ``[/center]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -501,55 +66,17 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "Klavye/fare kısayolu"
 
-#, fuzzy
-msgid "``Press [kbd]Ctrl + C[/kbd].``"
-msgstr "``[kbd]`` ``[/kbd]``"
-
-#, fuzzy
 msgid "Press :kbd:`Ctrl + C`."
-msgstr ":kbd:`Ctrl + C`"
+msgstr ":kbd:`Ctrl + C` basın."
 
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
-msgid "Inline code fragment"
-msgstr ""
-
-#, fuzzy
-msgid "``Returns [code]true[/code].``"
-msgstr "``[code]`` ``[/code]``"
-
-#, fuzzy
 msgid "Returns ``true``."
-msgstr "Döndürme tipi"
-
-#, fuzzy
-msgid "``[codeblock]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
-
-#, fuzzy
-msgid "``[/codeblock]``"
-msgstr "``[codeblock]`` ``[/codeblock]``"
-
-#, fuzzy
-msgid "Multiline code block"
-msgstr "Çok satırlı ön-biçimli parça"
+msgstr "``true`` döndürür."
 
 msgid "*See below.*"
 msgstr "*Aşağıya bakın.*"
-
-msgid "Currently only :ref:`class_@GDScript` has annotations."
-msgstr ""
-
-msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
-msgstr ""
-
-msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
-msgstr ""
-
-msgid ""
-"``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
-msgstr ""
 
 msgid ""
 "Use ``[codeblock]`` for pre-formatted code blocks. Inside ``[codeblock]``, "
@@ -558,21 +85,6 @@ msgstr ""
 "Ön-biçimli kod parçaları için ``[codeblock]`` kullanın. ``[codeblock]`` "
 "içerisinde, girinti için her zaman **4 boşluk** kullanın (çözümleyici sekme "
 "karakterlerini silecektir)."
-
-msgid ""
-"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
-"using the ``lang`` attribute. Currently supported options are:"
-msgstr ""
-
-msgid "``[codeblock lang=text]`` disables syntax highlighting;"
-msgstr ""
-
-msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr ""
-
-msgid ""
-"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Çeviri durumu"

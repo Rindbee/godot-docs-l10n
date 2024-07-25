@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,18 +21,6 @@ msgid ""
 msgstr ""
 "我們的遊戲最後還需要使用者介面（User Interface，UI），顯示分數、“遊戲結束”資"
 "訊、重啟按鈕。"
-
-#, fuzzy
-msgid ""
-"Create a new scene, click the \"Other Node\" button and add a :ref:"
-"`CanvasLayer <class_CanvasLayer>` node named ``HUD``. \"HUD\" stands for "
-"\"heads-up display\", an informational display that appears as an overlay on "
-"top of the game view."
-msgstr ""
-"最後，這個遊戲需要 UI：一個會顯示如分數、「Game Over」訊息、與重新開始遊戲按"
-"鈕的界面。建立一個新場景並新增一個名為 ``HUD`` 的 :ref:`CanvasLayer "
-"<class_CanvasLayer>` 節點。HUD 是覆蓋顯示於遊戲畫面上方，用於表示資訊的「擡頭"
-"顯示器 (Heads-Up Display)」的簡稱。"
 
 msgid ""
 "The :ref:`CanvasLayer <class_CanvasLayer>` node lets us draw our UI elements "
@@ -224,15 +207,6 @@ msgstr ""
 msgid "Add the code below to ``HUD`` to update the score"
 msgstr "將以下更新分數程式碼新增到 ``HUD`` 中"
 
-#, fuzzy
-msgid ""
-"Connect the ``pressed()`` signal of ``StartButton`` and the ``timeout()`` "
-"signal of ``MessageTimer`` to the ``HUD`` node, and add the following code "
-"to the new functions:"
-msgstr ""
-"連接 ``MessageTimer`` 的 ``timeout() 訊號與 ``StartButton`` 的 ``pressed()`` "
-"訊號，並新增下列程式碼到新函式當中："
-
 msgid "Connecting HUD to Main"
 msgstr "將 HUD 場景連接至 Main 場景"
 
@@ -277,14 +251,6 @@ msgid ""
 msgstr ""
 "最後，將這段程式碼加到 ``_on_ScoreTimer_timeout()`` 來讓分數改變的時候能同步"
 "顯示："
-
-#, fuzzy
-msgid ""
-"Remember to remove the call to ``new_game()`` from ``_ready()`` if you "
-"haven't already, otherwise your game will start automatically."
-msgstr ""
-"確定好了所有東西都正常後，將呼叫 ``new_game()`` 的程式碼從 ``_ready()`` 裡刪"
-"除。"
 
 msgid ""
 "Now you're ready to play! Click the \"Play the Project\" button. You will be "

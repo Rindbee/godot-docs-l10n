@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,26 +240,6 @@ msgstr "用於綁定立方體貼圖陣列的取樣器型別，作為 float 讀�
 
 msgid "Comments"
 msgstr "注釋"
-
-#, fuzzy
-msgid ""
-"The shading language supports the same comment syntax as used in C# and C++:"
-msgstr "Godot 著色器語言支援最常見的控制流型別："
-
-msgid ""
-"Additionally, you can use documentation comments that are displayed in the "
-"inspector when hovering a shader parameter. Documentation comments are "
-"currently only supported when placed immediately above a ``uniform`` "
-"declaration. These documentation comments only support the **multiline** "
-"comment syntax and must use **two** leading asterisks (``/**``) instead of "
-"just one (``/*``):"
-msgstr ""
-
-msgid ""
-"The asterisks on the follow-up lines are not required, but are recommended "
-"as per the :ref:`doc_shaders_style_guide`. These asterisks are automatically "
-"stripped by the inspector, so they won't appear in the tooltip."
-msgstr ""
 
 msgid "Casting"
 msgstr "型別轉換"
@@ -857,24 +832,6 @@ msgstr ""
 "的著色器提示，以使編譯器瞭解 uniform 是用來幹什麼的，以及編輯器應該讓使用者進"
 "行何種修改。"
 
-#, fuzzy
-msgid ""
-"It's important to understand that textures *that are supplied as color* "
-"require hints for proper sRGB -> linear conversion (i.e. ``source_color``), "
-"as Godot's 3D engine renders in linear color space. If this is not done, the "
-"texture will appear washed out."
-msgstr ""
-"重要的是要明白，以顏色形式提供的紋理需要適當的 sRGB->線性轉換的提示（即 "
-"``hint_albedo``），因為 Godot 的 3D 引擎在線性顏色空間中算繪。"
-
-msgid ""
-"The 2D renderer also renders in linear color space if the **Rendering > "
-"Viewport > HDR 2D** project setting is enabled, so ``source_color`` must "
-"also be used in ``canvas_item`` shaders. If 2D HDR is disabled, "
-"``source_color`` will keep working correctly in ``canvas_item`` shaders, so "
-"it's recommend to use it either way."
-msgstr ""
-
 msgid "Full list of hints below:"
 msgstr "以下是完整的提示列表："
 
@@ -969,10 +926,6 @@ msgstr "紋理是深度紋理。"
 
 msgid "hint_normal_roughness_texture"
 msgstr "hint_normal_roughness_texture"
-
-#, fuzzy
-msgid "Texture is the normal roughness texture (only supported in Forward+)."
-msgstr "紋理是正常的粗糙度紋理。"
 
 msgid ""
 "GDScript uses different variable types than GLSL does, so when passing "
@@ -1069,11 +1022,6 @@ msgstr ""
 
 msgid "Uniforms can also be assigned default values:"
 msgstr "Uniform 也可以分配預設值："
-
-msgid ""
-"Note that when adding a default value and a hint, the default value goes "
-"after the hint."
-msgstr ""
 
 msgid ""
 "If you need to make multiple uniforms to be grouped in the specific category "
@@ -1200,11 +1148,6 @@ msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
 msgstr "每個實例的製服僅在「空間」（3D）著色器中可用。"
 
 msgid ""
-"Per-instance uniforms are not supported when using the Compatibility "
-"renderer."
-msgstr ""
-
-msgid ""
 "Sometimes, you want to modify a parameter on each node using the material. "
 "As an example, in a forest full of trees, when you want each tree to have a "
 "slightly different color that is editable by hand. Without per-instance "
@@ -1238,17 +1181,6 @@ msgid ""
 "Setting a per-instance uniform's value in the GeometryInstance3D section of "
 "the inspector"
 msgstr "在屬性面板的 GeometryInstance3D 部分設定每個實例的製服值"
-
-#, fuzzy
-msgid ""
-"Per-instance uniform values can also be set at run-time using :ref:"
-"`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` method on a "
-"node that inherits from :ref:`class_GeometryInstance3D`:"
-msgstr ""
-"每個實例的均勻值也可以在執行時使用繼承自 class_GeometryInstance3D 的節點上的 "
-"set_instance_shader_parameter<class_GeometryInstance3D_method_set_instance_shader_parameter>` "
-"方法設定："
 
 msgid ""
 "When using per-instance uniforms, there are some restrictions you should be "
@@ -1818,12 +1750,6 @@ msgstr "int **textureQueryLevels** (samplerCube s)"
 msgid "Get the number of accessible mipmap levels of a texture."
 msgstr "獲取cubemap紋理的大小。"
 
-#, fuzzy
-msgid ""
-"If the texture is unassigned to a sampler, ``1`` is returned (Godot always "
-"internally assigns a texture even to an empty sampler)."
-msgstr "如果紋理未指派給取樣器，則傳回「0」。"
-
 msgid "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
 msgstr "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
 
@@ -1871,13 +1797,6 @@ msgstr "vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
 
 msgid "Perform a texture read at custom mipmap."
 msgstr "在自訂 mipmap 上執行紋理讀取。"
-
-#, fuzzy
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0.0`` will use "
-"the full resolution texture. If the texture lacks mipmaps, all LOD values "
-"will act like ``0.0``."
-msgstr "LOD 定義使用哪個 mipmap 等級。 LOD 值為「0.0」將使用全解析度紋理。"
 
 msgid "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
 msgstr "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
@@ -1928,11 +1847,6 @@ msgid ""
 "gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
 msgstr ""
 "gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
-
-#, fuzzy
-msgid ""
-"Performs a texture read with projection/LOD and with explicit gradients."
-msgstr "執行帶投影/LOD、帶明確的漸變的紋理讀取。"
 
 msgid "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"
 msgstr "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,10 +169,10 @@ msgid ""
 "interacting with the AR or VR headset. The XR runtime then exposes this to "
 "us through an API such as OpenXR. So:"
 msgstr ""
-"Bevor wir eintauchen, werden Sie in diesem Dokument den Begriff XR-Laufzeit "
+"Bevor wir eintauchen, werden Sie in diesem Dokument den Begriff XR-Runtime "
 "verwenden. Mit XR-Runtime meinen wir die Software, die das AR- oder VR-"
-"Headset steuert und mit ihm interagiert. Die XR-Laufzeit stellt uns dies "
-"dann über eine API wie OpenXR zur Verfügung. Also:"
+"Headset steuert und mit ihm interagiert. Die XR-Runtime stellt uns dies dann "
+"über eine API wie OpenXR zur Verfügung. Also:"
 
 msgid "for Steam this is SteamVR,"
 msgstr "für Steam ist das SteamVR,"
@@ -275,7 +270,7 @@ msgid ""
 msgstr ""
 "Für unser Beispiel in diesem Dokument werden wir daher ein einzelnes Action "
 "Set mit dem Namen ``my_first_action_set`` erstellen. Wir tun dies, indem wir "
-"auf die Schaltfläche ``Action Set hinzufügen`` klicken:"
+"auf den Button ``Action Set hinzufügen`` klicken:"
 
 msgid "The columns in our table are as follows:"
 msgstr "Die Spalten in unserer Tabelle lauten wie folgt:"

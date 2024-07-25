@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,24 +58,6 @@ msgstr ""
 
 msgid "Build pipeline integration"
 msgstr "Integración a la línea de compilación (build pipeline)"
-
-#, fuzzy
-msgid ""
-"If you have hundreds of model files, you don't want your artists to waste "
-"time manually exporting their blend files. To combat this, the exporter "
-"provides a Python function ``io_scene_godot.export(out_file_path)`` that can "
-"be called to export a file. This allows easy integration with other build "
-"systems. An example Makefile and Python script that exports all the blends "
-"in a directory are present in the `godot-blender-exporter repository "
-"<https://github.com/godotengine/godot-blender-exporter>`__."
-msgstr ""
-"Si tienes cientos de archivos de modelos, no querrás que tus artistas "
-"pierdan el tiempo exportando manualmente sus archivos blend. Para evitar "
-"esto, el exportador proporciona una función python ``io_scene_godot."
-"export(out_file_path)`` que puede ser llamada para exportar un archivo. Esto "
-"permite una fácil integración con otros sistemas de compilación. Un ejemplo "
-"de Makefile y script python que exporta todos los archivos blend en un "
-"directorio, está presente en el repositorio de Godot-Blender-exporter."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

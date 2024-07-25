@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,22 +41,6 @@ msgid ""
 "window."
 msgstr "导航到Godot根文件夹, 打开命令提示符或PowerShell窗口."
 
-#, fuzzy
-msgid ""
-"Run ``scons platform=windows vsproj=yes dev_build=yes`` to generate the "
-"solution with debug symbols."
-msgstr "运行 ``scons platform=windows vsproj=yes`` 来生成解决方案."
-
-msgid ""
-"The ``vsproj`` parameter signals that you want Visual Studio solution "
-"generated."
-msgstr ""
-
-msgid ""
-"The ``dev_build`` parameter makes sure the debug symbols are included, "
-"allowing to e.g. step through code using breakpoints."
-msgstr ""
-
 msgid ""
 "You can now open the project by double-clicking on the ``godot.sln`` in the "
 "project root or by using the **Open a project or solution** option inside of "
@@ -72,12 +51,6 @@ msgstr ""
 
 msgid "Use the **Build** top menu to build the project."
 msgstr "从顶部菜单 **Build** [编译]来编译构建这个项目."
-
-#, fuzzy
-msgid ""
-"Visual Studio must be configured with the C++ package. It can be selected in "
-"the installer:"
-msgstr "Visual Studio必须配置C++包, 可以在intaller中选择:"
 
 msgid "Debugging the project"
 msgstr "调试项目"
@@ -90,39 +63,12 @@ msgstr ""
 "Visual Studio具有强大的调试器, 允许用户检查Godot的源代码, 在代码中的特定点中"
 "断, 检查当前的执行上下文, 并对代码库进行实时修改."
 
-#, fuzzy
-msgid ""
-"You can launch the project with the debugger attached using the **Debug > "
-"Start Debugging** option from the top menu. However, unless you want to "
-"debug the Project Manager specifically, you'd need to configure debugging "
-"options first. This is due to the fact that when the Godot Project Manager "
-"opens a project, the initial process is terminated and the debugger gets "
-"detached."
-msgstr ""
-"您可以使用顶部菜单中的 **Debug > Start Debugging** 选项启动连接调试器的项目, "
-"但是, 除非你想专门调试项目管理器, 否则你需要先配置调试选项. 这是由于当Godot项"
-"目管理器打开一个项目时, 初始进程会被终止, 调试器会被分离."
-
 msgid ""
 "To configure the launch options to use with the debugger use **Project > "
 "Properties** from the top menu:"
 msgstr ""
 "要配置与调试器一起使用的启动选项, 请使用顶部菜单中的 **Project > "
 "Properties** [项目 > 属性]:"
-
-#, fuzzy
-msgid ""
-"Open the **Debugging** section and under **Command Arguments** add two new "
-"arguments: the ``-e`` flag opens the editor instead of the Project Manager, "
-"and the ``--path`` argument tells the executable to open the specified "
-"project (must be provided as an *absolute* path to the project root, not the "
-"``project.godot`` file; if the path contains spaces be sure to pass it "
-"inside double quotation marks)."
-msgstr ""
-"打开 **Debugging** 部分, 在 **Command Arguments** [命令行参数]下添加两个新的"
-"参数: ``-e`` 标志打开编辑器而不是项目管理器, ``--path`` 参数告诉可执行文件打"
-"开指定的项目(必须提供一个 *绝对* 的项目根目录, 而不是 ``project.godot`` 文"
-"件)."
 
 msgid ""
 "To learn more about command line arguments, refer to the :ref:`command line "

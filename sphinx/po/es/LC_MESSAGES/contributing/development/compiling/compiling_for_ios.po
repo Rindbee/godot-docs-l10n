@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,66 +27,12 @@ msgstr ""
 msgid "Requirements"
 msgstr "Requerimientos"
 
-#, fuzzy
-msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
-msgstr "`Python 3.5+ <https://www.python.org/downloads/>`_."
-
-#, fuzzy
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr ""
-"El sistema de construcción `SCons 3.0+ <https://scons.org/pages/download."
-"html>`_."
-
-#, fuzzy
-msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."
-msgstr ""
-"`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_ (o las "
-"herramientas de línea de comandos más ligeras para Xcode)."
-
-msgid ""
-"Launch Xcode once and install iOS support. If you have already launched "
-"Xcode and need to install iOS support, go to *Xcode -> Settings... -> "
-"Platforms*."
-msgstr ""
-
-msgid ""
-"Go to *Xcode -> Settings... -> Locations -> Command Line Tools* and select "
-"an installed version. Even if one is already selected, re-select it."
-msgstr ""
-
-#, fuzzy
-msgid "If you are building the ``master`` branch:"
-msgstr "Si deseas volver a la rama ``master``, utilizarías:"
-
-msgid ""
-"Download and follow README instructions to build a static ``.xcframework`` "
-"from the `MoltenVK SDK <https://github.com/KhronosGroup/MoltenVK#fetching-"
-"moltenvk-source-code>`__."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If you have `Homebrew <https://brew.sh/>`_ installed, you can easily install "
-"SCons using the following command::"
-msgstr ""
-"Si tienes `Homebrew <https://brew.sh/>`_ instalado, puedes instalar SCons y "
-"yasm fácilmente utilizando el siguiente comando:"
-
 msgid ""
 "Installing Homebrew will also fetch the Command Line Tools for Xcode "
 "automatically if you don't have them already."
 msgstr ""
 "La instalación de Homebrew también descargará automáticamente las Command "
 "Line Tools para Xcode si aún no las tienes."
-
-#, fuzzy
-msgid ""
-"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
-"you can easily install SCons using the following command::"
-msgstr ""
-"De manera similar, si tienes `MacPorts <https://www.macports.org/>`_ "
-"instalado, puedes instalar SCons y yasm fácilmente utilizando el siguiente "
-"comando::"
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
@@ -117,21 +58,8 @@ msgstr ""
 msgid "for a debug build, or:"
 msgstr "para una compilacion de depuración, o:"
 
-#, fuzzy
-msgid ""
-"for a release build (check ``platform/ios/detect.py`` for the compiler flags "
-"used for each configuration)."
-msgstr ""
-"Para una compilación de lanzamiento (release), consulta ``platform/iphone/"
-"detect.py`` para ver las banderas del compilador utilizadas para cada "
-"configuración."
-
 msgid "Alternatively, you can run"
 msgstr "Aternativamente, puede ejecutar"
-
-#, fuzzy
-msgid "for a Simulator libraries."
-msgstr "para un Simulador ejecutable."
 
 msgid ""
 "To create an Xcode project like in the official builds, you need to use the "
@@ -143,11 +71,6 @@ msgstr ""
 "plantilla ubicada en Para crear un paquete ``misc/dist/ios_xcode``. Las "
 "librerías de lanzamiento y depuración deberán ubicarse en ``libgodot.ios."
 "debug.xcframework`` y ``libgodot.ios.release.xcframework`` respectivamente."
-
-msgid ""
-"The MoltenVK static ``.xcframework`` folder must also be placed in the "
-"``ios_xcode`` folder once it has been created."
-msgstr ""
 
 msgid "Run"
 msgstr "Ejecutar"

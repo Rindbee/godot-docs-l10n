@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,15 +22,6 @@ msgstr ""
 "Ceci est un court tutoriel sur la création d'arbres et d'autres types de "
 "végétaux à partir de rien."
 
-#, fuzzy
-msgid ""
-"The aim is to not focus on the modeling techniques (there are plenty of "
-"tutorials about that), but how to make them look good in Godot."
-msgstr ""
-"Le but n'est pas de se concentrer sur les techniques de modélisation (il y a "
-"plein de tutoriels à ce sujet), mais comment les faire bien paraître dans "
-"Godot."
-
 msgid "Start with a tree"
 msgstr "Commencer avec un arbre"
 
@@ -51,19 +37,6 @@ msgstr "Et ouvrez le dans Blender."
 msgid "Paint with vertex colors"
 msgstr "Peindre avec des couleurs de sommet"
 
-#, fuzzy
-msgid ""
-"The first thing you may want to do is to use the vertex colors to paint how "
-"much the tree will sway when there is wind. Just use the vertex color "
-"painting tool of your favorite 3D modeling program and paint something like "
-"this:"
-msgstr ""
-"La première chose que vous voudrez peut-être faire est d'utiliser les "
-"couleurs des sommets pour peindre combien l'arbre se balancera quand il y "
-"aura du vent. Utilisez simplement l'outil de peinture de couleur vertex de "
-"votre programme de modélisation 3D préféré et peignez quelque chose comme "
-"ceci :"
-
 msgid ""
 "This is a bit exaggerated, but the idea is that color indicates how much "
 "sway affects every part of the tree. This scale here represents it better:"
@@ -74,10 +47,6 @@ msgstr ""
 
 msgid "Write a custom shader for the leaves"
 msgstr "Écrire un shader personnalisé pour les feuilles"
-
-#, fuzzy
-msgid "This is an example of a shader for leaves:"
-msgstr "Voici un exemple simple de shader pour les feuilles :"
 
 msgid ""
 "This is a spatial shader. There is no front/back culling (so leaves can be "

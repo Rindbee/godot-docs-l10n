@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +17,6 @@ msgstr "Освещение с высоким динамическим диапа
 
 msgid "Introduction"
 msgstr "Введение"
-
-#, fuzzy
-msgid ""
-"Normally, an artist does all the 3D modeling, then all the texturing, looks "
-"at their awesome looking model in the 3D modeling software and says \"looks "
-"fantastic, ready for integration!\" then goes into the game, lighting is "
-"setup and the game runs."
-msgstr ""
-"Обычно художник делает всё 3D-моделирование, затем всё текстурирование, "
-"смотрит на свою потрясающе выглядящую модель в 3D DCC и говорит \"выглядит "
-"фантастически, готово к интеграции!\", затем идёт в игру, настраивает "
-"освещение и запускает игру."
 
 msgid ""
 "So at what point does all this \"HDR\" business come into play? To "
@@ -163,20 +146,6 @@ msgstr ""
 
 msgid "Scene linear & asset pipelines"
 msgstr "Линейные сцены и конвейеры ассетов"
-
-#, fuzzy
-msgid ""
-"Working in scene-linear sRGB is more complex than pressing a single switch. "
-"First, imported image assets must be converted to linear light ratios on "
-"import. Even when linearized, those assets may not be perfectly well-suited "
-"for use as textures, depending on how they were generated."
-msgstr ""
-"Работать в режиме sRGB с линейным отображением сцен не так просто, как "
-"просто нажать переключатель. Во-первых, импортированные ресурсы изображения "
-"должны быть преобразованы в линейные коэффициенты освещенности при импорте. "
-"Даже при линеаризации эти ресурсы могут быть не совсем подходящими для "
-"использования в качестве текстур, в зависимости от того, как они были "
-"созданы."
 
 msgid "There are two ways to do this:"
 msgstr "Есть два способа что бы сделать это:"

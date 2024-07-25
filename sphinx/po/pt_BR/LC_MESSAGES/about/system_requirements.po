@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "System requirements"
-msgstr "Requisitos"
 
 msgid ""
 "This page contains system requirements for the editor and exported projects. "
@@ -31,10 +22,6 @@ msgstr ""
 "exportados. Estas especificações são dadas apenas para propósitos "
 "informativos, mas podem ser usadas como referência se você estiver buscando "
 "montar ou melhoras um sistema para utilizar a Godot."
-
-#, fuzzy
-msgid "Godot editor"
-msgstr "Depurando o Editor Godot"
 
 msgid ""
 "These are the **minimum** specifications required to run the Godot editor "
@@ -110,18 +97,6 @@ msgstr ""
 msgid "**RAM**"
 msgstr "**RAM**"
 
-#, fuzzy
-msgid "**Native editor:** 4 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**Web editor:** 8 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**Storage**"
-msgstr "Armazenamento"
-
 msgid ""
 "200 MB (used for the executable, project files and cache). Exporting "
 "projects requires downloading export templates separately (1.3 GB after "
@@ -130,10 +105,6 @@ msgstr ""
 "200 MB (Utilizados para o executável, arquivos de projeto e cache). Exportar "
 "projetos requer o download de modelos de exportação separadamente (1.3GB "
 "após a instalação)."
-
-#, fuzzy
-msgid "**Operating system**"
-msgstr "Sistema de alertas"
 
 msgid ""
 "**Native editor:** Windows 7, macOS 10.13 (Compatibility) or macOS 10.15 "
@@ -158,17 +129,6 @@ msgstr ""
 "<class_@GlobalScope_method_print_rich`). Suporte ao Windows 7/8/8.1 pode ser "
 "removido em um :ref: `lançamento futuro do Godot 4.x <doc_release_policy>`."
 
-#, fuzzy
-msgid ""
-"Vulkan drivers for these Windows versions are known to have issues with "
-"memory leaks. As a result, it's recommended to stick to the Compatibility "
-"rendering method when running Godot on a Windows version older than 10."
-msgstr ""
-"Drivers do Vulkan para estar versões do Windows são conhecidos por terem "
-"problemas de vazamento de memória. Como resultado, é recomendado a "
-"utilização do método de renderização de compatibilidade quando executar o "
-"Godot em versões do Windows anteriores a 10."
-
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "Distpositivo Mobile (smartphone/tablet) - Mínimo"
 
@@ -177,10 +137,6 @@ msgstr "**Android>** SoC com ARM de 32 ou 64 bits ou CPU x86"
 
 msgid "*Example: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430*"
 msgstr "*Example: Qualcomm Snapdragon 430, Samsung Exynos 5 Octa 5430&"
-
-#, fuzzy
-msgid "**iOS:** *Cannot run the editor*"
-msgstr "**Para o editor:**"
 
 msgid ""
 "**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
@@ -206,14 +162,6 @@ msgstr ""
 
 msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
 msgstr "*Exemplo: Qualcomm Adreno 306, Mali-T628 MP6*"
-
-#, fuzzy
-msgid "**Native editor:** 3 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**Web editor:** 6 GB"
-msgstr "**Para o editor:**"
 
 msgid ""
 "**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
@@ -286,14 +234,6 @@ msgid ""
 msgstr ""
 "*Exemplo: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
 
-#, fuzzy
-msgid "**Native editor:** 8 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**Web editor:** 12 GB"
-msgstr "**Para o editor:**"
-
 msgid ""
 "1.5 GB (used for the executable, project files, all export templates and "
 "cache)"
@@ -346,10 +286,6 @@ msgstr ""
 "**Método de renderização de compatibilidade:** SoC contando com uma GPU com "
 "suporte completo ao OpenGL ES 3.2"
 
-#, fuzzy
-msgid "**Native editor:** 6 GB"
-msgstr "**Para o editor:**"
-
 msgid "**Native editor:** Android 9.0 or iOS 11.0"
 msgstr "**Editor Nativo:** Android 9.0 ou iOS 11.0"
 
@@ -359,10 +295,6 @@ msgid ""
 msgstr ""
 "**Editor Web:** Última versão do Firefox, Chrome, Edge, Safari, Opera, "
 "Samsung Internet"
-
-#, fuzzy
-msgid "Exported Godot project"
-msgstr "Exportar um projeto Godot para Xcode"
 
 msgid ""
 "The requirements below are a baseline for a **simple** 2D or 3D project, "
@@ -399,14 +331,6 @@ msgstr ""
 "Estas são as especificações **mínimas** necessárias para executar um simples "
 "projeto 2D ou 3D exportado pela Godot:"
 
-#, fuzzy
-msgid "**For native exports:** 2 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**For web exports:** 4 GB"
-msgstr "**Para o editor:**"
-
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr "150MB (Utilizado para o executável, arquivos do projeto e cache)"
 
@@ -441,14 +365,6 @@ msgid ""
 msgstr ""
 "*Exemplo: Qualcomm Adreno 306, Mali-T628 MP6, PowerVR G6430 (iPhone 5S)*"
 
-#, fuzzy
-msgid "**For native exports:** 1 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**For web exports:** 2 GB"
-msgstr "**Para o editor:**"
-
 msgid ""
 "**For native exports:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"
 "Mobile), iOS 11.0"
@@ -469,14 +385,6 @@ msgid ""
 msgstr ""
 "Estas são as especificações **recomendadas** para ter uma experiência suave "
 "com um simples projeto 2D ou 3D exportado pela Godot:"
-
-#, fuzzy
-msgid "**For native exports:** 4 GB"
-msgstr "**Para o editor:**"
-
-#, fuzzy
-msgid "**For web exports:** 8 GB"
-msgstr "**Para o editor:**"
 
 msgid ""
 "**For native exports:** Windows 10, macOS 10.15, Linux distribution released "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,17 +54,6 @@ msgstr ""
 
 msgid "Language specification"
 msgstr "언어 사양"
-
-#, fuzzy
-msgid ""
-"Godot currently uses **C# version 10.0** in its engine and example source "
-"code, as this is the version supported by .NET 6.0 (the current baseline "
-"requirement). So, before we move to a newer version, care must be taken to "
-"avoid mixing language features only available in C# 11.0 or later."
-msgstr ""
-"현재 Godot은 엔진과 예제 소스 코드에 C# 7.0 버전을 사용합니다. 그러므로 신규 "
-"버전을 사용할 때는 C# 7.1 이상에서만 지원하는 기능이 섞이지 않도록 주의해야 "
-"합니다."
 
 msgid ""
 "For detailed information on C# features in different versions, please see "
@@ -148,10 +132,6 @@ msgstr "``using`` 문 목록 이후."
 msgid "Between method, properties, and inner type declarations."
 msgstr "메서드, 속성, 그리고 내부 타입 선언 사이."
 
-#, fuzzy
-msgid "At the end of each file."
-msgstr "각 파일의 끝에."
-
 msgid ""
 "Field and constant declarations can be grouped together according to "
 "relevance. In that case, consider inserting a blank line between the groups "
@@ -181,35 +161,11 @@ msgstr "공백 사용하기"
 msgid "Insert a space:"
 msgstr "다음 경우에 공백을 넣습니다:"
 
-#, fuzzy
-msgid "Around a binary and ternary operator."
-msgstr "이진 및 삼항 연산자 주변."
-
-#, fuzzy
-msgid ""
-"Between an opening parenthesis and ``if``, ``for``, ``foreach``, ``catch``, "
-"``while``, ``lock`` or ``using`` keywords."
-msgstr ""
-"괄호 열기와 *if*, *for*, *foreach*, *catch*, *while*, *lock* 혹은 *using* 키"
-"워드 사이."
-
 msgid "Before and within a single line accessor block."
 msgstr "한 줄 접근자 블록 전이나 앞."
 
 msgid "Between accessors in a single line accessor block."
 msgstr "한 줄 접근자 블록에서 접근자들 사이."
-
-#, fuzzy
-msgid "After a comma which is not at the end of a line."
-msgstr "줄의 맨 끝에 있지 않는 쉼표 뒤에."
-
-#, fuzzy
-msgid "After a semicolon in a ``for`` statement."
-msgstr "*for* 명령문에서 세미콜론 이후."
-
-#, fuzzy
-msgid "After a colon in a single line ``case`` statement."
-msgstr "한 줄 *case* 명령문에서 콜론 이후."
 
 msgid "Around a colon in a type declaration."
 msgstr "타입 선언에서 콜론 주변."
@@ -223,11 +179,6 @@ msgid ""
 msgstr ""
 "한 줄 주석 상징 (``//``)이후, 주석이 코드 뒤의 줄 마지막에 위치한 경우 상징"
 "의 앞에도 공백을 넣습니다."
-
-msgid ""
-"After the opening brace, and before the closing brace in a single line "
-"initializer."
-msgstr ""
 
 msgid "Do not use a space:"
 msgstr "공백을 사용하지 마세요:"

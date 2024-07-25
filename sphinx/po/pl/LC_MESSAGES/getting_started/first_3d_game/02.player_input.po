@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,10 +32,6 @@ msgstr ""
 "*Nowa scena*."
 
 msgid "|image0|"
-msgstr "|image0|"
-
-#, fuzzy
-msgid "image0"
 msgstr "|image0|"
 
 msgid ""
@@ -97,10 +88,6 @@ msgstr ""
 msgid "|image1|"
 msgstr "|image1|"
 
-#, fuzzy
-msgid "image1"
-msgstr "|image1|"
-
 msgid ""
 "This should instantiate the model as a child of ``Pivot``. You can rename it "
 "to ``Character``."
@@ -109,10 +96,6 @@ msgstr ""
 "zmienić jego nazwę na ``Character``."
 
 msgid "|image2|"
-msgstr "|image2|"
-
-#, fuzzy
-msgid "image2"
 msgstr "|image2|"
 
 msgid ""
@@ -147,50 +130,10 @@ msgstr "Siatka sfery pojawia się pod postacią."
 msgid "|image3|"
 msgstr "|image3|"
 
-#, fuzzy
-msgid "image3"
-msgstr "|image3|"
-
-#, fuzzy
-msgid ""
-"It will be the shape the physics engine uses to collide with the "
-"environment, so we want it to better fit the 3D model. Make it a bit larger "
-"by dragging the orange dot in the viewport. My sphere has a radius of about "
-"``0.8`` meters."
-msgstr ""
-"Będzie to kształt używany przez silnik fizyki przy zderzania się z "
-"otoczeniem, więc chcemy, aby lepiej pasował do modelu 3D. Zmniejsz ją nieco, "
-"przeciągając pomarańczową kropkę w widoku rzutni. Nasza kula ma promień "
-"około ``0,8`` metra."
-
-#, fuzzy
-msgid ""
-"Then, move the collision shape up so its bottom roughly aligns with the "
-"grid's plane."
-msgstr ""
-"Następnie przesuń kształt w górę, tak aby jego dolna część z grubsza "
-"pokrywała się z płaszczyzną siatki."
-
 msgid "|image4|"
 msgstr "|image4|"
 
-#, fuzzy
-msgid "image4"
-msgstr "|image4|"
-
-#, fuzzy
-msgid ""
-"To make moving the shape easier, you can toggle the model's visibility by "
-"clicking the eye icon next to the ``Character`` or the ``Pivot`` nodes."
-msgstr ""
-"Możesz zmienić widoczność modelu, klikając ikonę oka obok węzłów "
-"``Character`` lub ``Pivot``."
-
 msgid "|image5|"
-msgstr "|image5|"
-
-#, fuzzy
-msgid "image5"
 msgstr "|image5|"
 
 msgid "Save the scene as ``player.tscn``"
@@ -228,10 +171,6 @@ msgstr ""
 msgid "|image6|"
 msgstr "|image6|"
 
-#, fuzzy
-msgid "image6"
-msgstr "|image6|"
-
 msgid ""
 "At the top, there are multiple tabs. Click on *Input Map*. This window "
 "allows you to add new actions at the top; they are your labels. In the "
@@ -243,21 +182,6 @@ msgstr ""
 
 msgid "|image7|"
 msgstr "|image7|"
-
-#, fuzzy
-msgid "image7"
-msgstr "|image7|"
-
-#, fuzzy
-msgid ""
-"Godot projects come with some predefined actions designed for user interface "
-"design (see above screenshot). These will become visible if you enable the "
-"*Show Built-in Actions* toggle. We could use these here, but instead we're "
-"defining our own to support gamepads. Leave *Show Built-in Actions* disabled."
-msgstr ""
-"Projekty w Godot dostarczane są z pewnymi predefiniowanymi akcjami "
-"przeznaczonymi do projektowania interfejsu użytkownika, które moglibyśmy "
-"tutaj wykorzystać. My jednak definiujemy własne, by wspierać pady do gier."
 
 msgid ""
 "We're going to name our actions ``move_left``, ``move_right``, "
@@ -272,18 +196,10 @@ msgstr "Aby dodać akcję, wpisz jej nazwę na pasku u góry i naciśnij Enter."
 msgid "|image8|"
 msgstr "|image8|"
 
-#, fuzzy
-msgid "image8"
-msgstr "|image8|"
-
 msgid "Create the following five actions:"
 msgstr "Utwórz pięć następujących akcji:"
 
 msgid "|image9|"
-msgstr "|image9|"
-
-#, fuzzy
-msgid "image9"
 msgstr "|image9|"
 
 msgid ""
@@ -298,10 +214,6 @@ msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr "Powiąż również klawisz :kbd:`A` z akcją ``move_left``."
 
 msgid "|image12|"
-msgstr "|image12|"
-
-#, fuzzy
-msgid "image12"
 msgstr "|image12|"
 
 msgid ""
@@ -337,14 +249,6 @@ msgstr ""
 "prawo, D i dodatnią oś lewego joysticka do ``move_right``. Po przypisaniu "
 "wszystkich klawiszy interfejs powinien wyglądać następująco."
 
-#, fuzzy
-msgid "|image15|"
-msgstr "|image1|"
-
-#, fuzzy
-msgid "image15"
-msgstr "|image1|"
-
 msgid ""
 "The final action to set up is the ``jump`` action. Bind the Space key and "
 "the gamepad's A button."
@@ -352,24 +256,8 @@ msgstr ""
 "Ostatnią akcją do skonfigurowania jest akcja ``skok``. Powiąż klawisz spacji "
 "i przycisk A gamepada."
 
-#, fuzzy
-msgid "|image16|"
-msgstr "|image1|"
-
-#, fuzzy
-msgid "image16"
-msgstr "|image1|"
-
 msgid "Your jump input action should look like this."
 msgstr "Sterowanie dla akcji skoku powinno wyglądać następująco."
-
-#, fuzzy
-msgid "|image18|"
-msgstr "|image1|"
-
-#, fuzzy
-msgid "image18"
-msgstr "|image1|"
 
 msgid ""
 "That's all the actions we need for this game. You can use this menu to label "
@@ -380,14 +268,6 @@ msgstr ""
 
 msgid "In the next part, we'll code and test the player's movement."
 msgstr "W następnej części zakodujemy i przetestujemy ruchy gracza."
-
-#, fuzzy
-msgid "image11"
-msgstr "|image11|"
-
-#, fuzzy
-msgid "image17"
-msgstr "|image1|"
 
 msgid "Translation status"
 msgstr "Status tłumaczenia"

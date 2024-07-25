@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,18 +22,6 @@ msgstr ""
 "A peça final que nosso jogo precisa é uma Interface de Usuário (UI) para "
 "exibir coisas como pontuação, uma mensagem de \"game over\" e um botão de "
 "reiniciar."
-
-#, fuzzy
-msgid ""
-"Create a new scene, click the \"Other Node\" button and add a :ref:"
-"`CanvasLayer <class_CanvasLayer>` node named ``HUD``. \"HUD\" stands for "
-"\"heads-up display\", an informational display that appears as an overlay on "
-"top of the game view."
-msgstr ""
-"Crie uma nova cena e adicione um nó :ref:`CanvasLayer <class_CanvasLayer>` "
-"chamado ``HUD``. \"HUD\" significa \"heads-up display\", uma exibição "
-"informativa que aparece como uma sobreposição na parte superior da "
-"visualização do jogo."
 
 msgid ""
 "The :ref:`CanvasLayer <class_CanvasLayer>` node lets us draw our UI elements "
@@ -98,33 +81,6 @@ msgstr ""
 "ttf\". Para usar esta fonte, faça o seguinte para cada um dos três nós "
 "``Control``:"
 
-#, fuzzy
-msgid ""
-"Under \"Theme Overrides > Fonts\", choose \"Load\" and select the \"Xolonium-"
-"Regular.ttf\" file."
-msgstr ""
-"Clique no \"DynamicFont\" que você adicionou e em **Fonte > FontData**, "
-"escolha \"Carregar\" e selecione o arquivo \"Xolonium-Regular.ttf\"."
-
-msgid ""
-"The font size is still too small, increase it to ``64`` under \"Theme "
-"Overrides > Font Sizes\". Once you've done this with the ``ScoreLabel``, "
-"repeat the changes for the ``Message`` and ``StartButton`` nodes."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"**Anchors:** ``Control`` nodes have a position and size, but they also have "
-"anchors. Anchors define the origin - the reference point for the edges of "
-"the node."
-msgstr ""
-"**Âncoras e Margens:** Nós ``Control`` têm uma posição e um tamanho, mas "
-"eles também têm âncoras e margens. Âncoras definem a origem – o ponto de "
-"referência para as bordas do nó. Margens atualizam automaticamente quando "
-"você move ou redimensiona um nó de controle. Elas representam a distância "
-"das bordas do nó Control até sua âncora. Veja :ref:"
-"`doc_design_interfaces_with_the_control_nodes` para mais detalhes."
-
 msgid ""
 "Arrange the nodes as shown below. You can drag the nodes to place them "
 "manually, or for more precise placement, use \"Anchor Presets\"."
@@ -145,15 +101,8 @@ msgstr ""
 "Defina o \"Alinhamento Horizontal\" e \"Alinhamento Vertical\" para "
 "``Center``."
 
-msgid "Choose the \"Anchor Preset\" ``Center Top``."
-msgstr ""
-
 msgid "Message"
 msgstr "Mensagem"
-
-#, fuzzy
-msgid "Add the text ``Dodge the Creeps!``."
-msgstr "Adicione o texto ``Desvie dos monstros!`."
 
 msgid ""
 "Set the \"Autowrap Mode\" to ``Word``, otherwise the label will stay on one "
@@ -162,31 +111,8 @@ msgstr ""
 "Defina o \"Modo Autowrap\" para ``Word``, caso contrário o rótulo "
 "permanecerá em uma linha."
 
-msgid ""
-"Under \"Control - Layout/Transform\" set \"Size X\"  to ``480`` to use the "
-"entire width of the screen."
-msgstr ""
-
-msgid "Choose the \"Anchor Preset\" ``Center``."
-msgstr ""
-
 msgid "StartButton"
 msgstr "StartButton"
-
-#, fuzzy
-msgid "Add the text ``Start``."
-msgstr "Text: ``Iniciar``"
-
-msgid ""
-"Under \"Control - Layout/Transform\", set \"Size X\" to ``200`` and \"Size "
-"Y\" to ``100`` to add a little bit more padding between the border and text."
-msgstr ""
-
-msgid "Choose the \"Anchor Preset\" ``Center Bottom``."
-msgstr ""
-
-msgid "Under \"Control - Layout/Transform\", set \"Position Y\" to ``580``."
-msgstr ""
 
 msgid ""
 "On the ``MessageTimer``, set the ``Wait Time`` to ``2`` and set the ``One "
@@ -197,24 +123,6 @@ msgstr ""
 
 msgid "Now add this script to ``HUD``:"
 msgstr "Agora, adicione este script ao ``HUD``:"
-
-#, fuzzy
-msgid ""
-"We now want to display a message temporarily, such as \"Get Ready\", so we "
-"add the following code"
-msgstr ""
-"Esta função é chamada quando queremos mostrar uma mensagem temporariamente, "
-"como a \"Prepare-se\"."
-
-#, fuzzy
-msgid ""
-"We also need to process what happens when the player loses. The code below "
-"will show \"Game Over\" for 2 seconds, then return to the title screen and, "
-"after a brief pause, show the \"Start\" button."
-msgstr ""
-"Esta função é chamada quando o jogador perde. Ela mostrará \"Game Over\" por "
-"2 segundos e depois retornará à tela de título após uma breve pausa e "
-"mostrará o botão \"Iniciar\"."
 
 msgid ""
 "This function is called when the player loses. It will show \"Game Over\" "
@@ -239,15 +147,6 @@ msgstr ""
 msgid "Add the code below to ``HUD`` to update the score"
 msgstr "Adicione o código abaixo no ``HUD`` para atualizar a pontuação"
 
-#, fuzzy
-msgid ""
-"Connect the ``pressed()`` signal of ``StartButton`` and the ``timeout()`` "
-"signal of ``MessageTimer`` to the ``HUD`` node, and add the following code "
-"to the new functions:"
-msgstr ""
-"Conecte o sinal ``timeout()``do ``MessageTimer`` e o sinal ``pressed()`` do "
-"``StartButton`` e adicione o seguinte código às novas funções:"
-
 msgid "Connecting HUD to Main"
 msgstr "Conectando HUD a Principal"
 
@@ -268,19 +167,6 @@ msgstr ""
 "Agora precisamos conectar a funcionalidade de ``HUD`` ao roteiro de "
 "``Principal``. Isso exige algumas adições à cena ``Principal``:"
 
-#, fuzzy
-msgid ""
-"In the Node tab, connect the HUD's ``start_game`` signal to the "
-"``new_game()`` function of the Main node by clicking the \"Pick\" button in "
-"the \"Connect a Signal\" window and selecting the ``new_game()`` method or "
-"type \"new_game\" below \"Receiver Method\" in the window. Verify that the "
-"green connection icon now appears next to ``func new_game()`` in the script."
-msgstr ""
-"Na guia Nó, conecte o sinal `` start_game`` do HUD à função `` new_game () "
-"`` do nó Principal, digitando \"new_game\" no \"Receiver Method\" na janela "
-"\"Connect a Signal\". Verifique se o ícone de conexão verde agora aparece ao "
-"lado de `` func new_game () `` no script."
-
 msgid ""
 "In ``new_game()``, update the score display and show the \"Get Ready\" "
 "message:"
@@ -291,30 +177,6 @@ msgstr ""
 msgid "In ``game_over()`` we need to call the corresponding ``HUD`` function:"
 msgstr ""
 "Em ``game_over()``, precisamos chamar a correspondente função de ``HUD``:"
-
-#, fuzzy
-msgid ""
-"Finally, add this to ``_on_score_timer_timeout()`` to keep the display in "
-"sync with the changing score:"
-msgstr ""
-"Finalmente, adicione isto a ``_on_ScoreTimer_timeout()`` para manter o "
-"mostrador em sincronia com as mudanças de pontuação:"
-
-#, fuzzy
-msgid ""
-"Remember to remove the call to ``new_game()`` from ``_ready()`` if you "
-"haven't already, otherwise your game will start automatically."
-msgstr ""
-"Quando tiver certeza que tudo esta funcionando, remova a chamada de "
-"``new_game()`` em ``_ready()``."
-
-#, fuzzy
-msgid ""
-"Now you're ready to play! Click the \"Play the Project\" button. You will be "
-"asked to select a main scene, so choose ``main.tscn``."
-msgstr ""
-"Agora está tudo pronto para jogar! Clique no botão \"Rodar o Projeto\". Será "
-"solicitada a seleção de uma cena principal, então escolha ``Principal.tscn``."
 
 msgid "Removing old creeps"
 msgstr "Removendo antigas criaturas"

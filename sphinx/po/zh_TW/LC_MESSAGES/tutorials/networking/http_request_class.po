@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,16 +35,6 @@ msgstr ""
 "與 Godot 的其他網路功能（例如:ref:`高階多人遊戲 "
 "<doc_high_level_multiplayer>`）相比，HTTP 請求的額外開銷更大，起步也更慢，所"
 "以並不適合即時通信，也不善於進行多人遊戲中常見的大量較小更新的發送。"
-
-#, fuzzy
-msgid ""
-"HTTP, however, offers interoperability with external web resources and is "
-"great at sending and receiving large amounts of data, for example to "
-"transfer files like game assets. These assets can then be loaded using :ref:"
-"`runtime file loading and saving <doc_runtime_loading_and_saving>`."
-msgstr ""
-"然而 HTTP 能夠與外部 Web 資源進行互動，善於進行較大資料的發送和接收，例如傳送"
-"遊戲素材等檔。"
 
 msgid ""
 "So HTTP may be useful for your game's login system, lobby browser, to "
@@ -100,15 +85,6 @@ msgstr ""
 
 msgid "Preparing the scene"
 msgstr "準備 SDK"
-
-#, fuzzy
-msgid ""
-"Create a new empty scene, add a root :ref:`Node <class_Node>` and add a "
-"script to it. Then add an :ref:`HTTPRequest <class_HTTPRequest>` node as a "
-"child."
-msgstr ""
-"建立一個新的空場景，新增一個根節點 <class_Node>` 並向其新增腳本。然後加入一"
-"個 HTTPRequest <class_HTTPRequest>` 節點作為子節點。"
 
 msgid "Scripting the request"
 msgstr "建立內容"

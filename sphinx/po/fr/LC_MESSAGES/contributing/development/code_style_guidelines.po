@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,18 +31,6 @@ msgstr ""
 
 msgid "C++ and Objective-C"
 msgstr "C++ et Objective-C"
-
-#, fuzzy
-msgid ""
-"There are no written guidelines, but the code style agreed upon by the "
-"developers is enforced via the `clang-format <https://clang.llvm.org/docs/"
-"ClangFormat.html>`__ code beautifier, which takes care for you of all our "
-"conventions. To name a few:"
-msgstr ""
-"Il n'y a pas de directives écrites, mais le style de code convenu par les "
-"développeurs est appliqué via le metteur en forme de code `clang-format "
-"<http://clang.llvm.org/docs/ClangFormat.html>`__, qui s'occupe pour vous de "
-"toutes nos conventions. Pour n'en citer que quelques-unes :"
 
 msgid ""
 "Indentation and alignment are both tab based (respectively one and two tabs)"
@@ -79,36 +62,6 @@ msgstr ""
 "format <https://github.com/godotengine/godot/blob/master/.clang-format>`__ "
 "du dépôt de Godot."
 
-#, fuzzy
-msgid ""
-"As long as you ensure that your style matches the surrounding code and that "
-"you're not introducing trailing whitespace or space-based indentation, you "
-"should be fine. If you plan to contribute regularly, however, we strongly "
-"advise that you set up clang-format locally to check and automatically fix "
-"all your commits."
-msgstr ""
-"Tant que vous veillez à ce que votre style corresponde au code environnant "
-"et que vous n'introduisez pas d'espaces de fin de ligne ou d'indentation "
-"basée sur des espaces, tout devrait bien se passer. Toutefois, si vous avez "
-"l'intention de participer régulièrement, nous vous conseillons vivement de "
-"configurer clang-format localement pour vérifier et corriger automatiquement "
-"tous vos commits."
-
-#, fuzzy
-msgid ""
-"Godot's code style should *not* be applied to third-party code, i.e. that is "
-"included in Godot's source tree but was not written specifically for our "
-"project. Such code usually comes from different upstream projects with their "
-"own style guides (or lack thereof), and don't want to introduce differences "
-"that would make syncing with upstream repositories harder."
-msgstr ""
-"Le style de code de Godot ne doit *pas* être appliqué à du code tiers, c'est-"
-"à-dire qui est inclus dans l'arbre des sources de Godot mais qui n'a pas été "
-"écrit spécifiquement pour notre projet. Un tel code provient généralement de "
-"différents projets en amont avec leurs propres guides de style (ou leur "
-"absence), et ne veut pas introduire de différences qui rendraient la "
-"synchronisation avec les dépôts en amont plus difficile."
-
 msgid ""
 "Third-party code is usually included in the ``thirdparty/`` folder and can "
 "thus easily be excluded from formatting scripts. For the rare cases where a "
@@ -134,77 +87,14 @@ msgstr ""
 msgid "Using clang-format locally"
 msgstr "Utiliser clang-format localement"
 
-#, fuzzy
-msgid ""
-"You need to use **clang-format 17** to be compatible with Godot's format. "
-"Later versions might be suitable, but previous versions may not support all "
-"used options, or format some things differently, leading to style issues in "
-"pull requests."
-msgstr ""
-"Tout d'abord, vous devez installer clang-format. À partir de maintenant, "
-"vous devez utiliser **clang-format 13** pour être compatible avec le format "
-"de Godot's. Les versions ultérieures peuvent convenir, mais les versions "
-"précédentes peuvent ne pas supporter toutes les options utilisées, ou "
-"formater certaines choses différemment, ce qui entraîne des problèmes de "
-"style dans les pull requests."
-
 msgid "Pre-commit hook"
 msgstr "Crochet de pré commit"
-
-#, fuzzy
-msgid ""
-"For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
-"commit.com/>`__ Python framework that will run clang-format automatically on "
-"all your commits with the correct version of clang-format. To set up:"
-msgstr ""
-"Pour faciliter l'utilisation, nous fournissons un crochet de pré-commission "
-"pour Git qui s'exécutera automatiquement au format clang sur tous vos "
-"commits pour les vérifier, et vous permettra d'appliquer ses changements "
-"dans le commit final."
-
-msgid "You can also run the hook manually with ``pre-commit run``."
-msgstr ""
-
-msgid ""
-"Previously, we supplied a hook in the folder ``misc/hooks``. If you copied "
-"the script manually, these hooks should still work, but symlinks will be "
-"broken. If you are using the new system, run ``rm .git/hooks/*`` to remove "
-"the old hooks that are no longer needed."
-msgstr ""
 
 msgid "Installation"
 msgstr "Installation"
 
 msgid "Here's how to install clang-format:"
 msgstr "Voici comment installer clang-format :"
-
-#, fuzzy
-msgid ""
-"Linux: It will usually be available out-of-the-box with the clang toolchain "
-"packaged by your distribution. If your distro version is not the required "
-"one, you can download a pre-compiled version from the `LLVM website <https://"
-"releases.llvm.org/download.html>`__, or if you are on a Debian derivative, "
-"use the `upstream repos <https://apt.llvm.org/>`__."
-msgstr ""
-"Linux : la chaîne d'outils de clang est en généralement déjà empaquetée dans "
-"votre distribution. Si la version de votre distribution n'est pas celle "
-"requise, vous pouvez télécharger une version pré-compilée sur le `site "
-"internet de LLVM <http://releases.llvm.org/download.html>`__, ou si votre "
-"distribution est basée sur Debian, utilisez les `dépôts à jour <http://apt."
-"llvm.org/>`__."
-
-#, fuzzy
-msgid ""
-"macOS and Windows: You can download precompiled binaries from the `LLVM "
-"website <https://releases.llvm.org/download.html>`__. You may need to add "
-"the path to the binary's folder to your system's ``PATH`` environment "
-"variable to be able to call clang-format out of the box."
-msgstr ""
-"macOS et Windows : Vous pouvez télécharger les binaires pré-compilées depuis "
-"le `site web de LLVM <http://releases.llvm.org/download.html>`__. Vous "
-"devrez peut-être ajouter le chemin du répertoire des binaires à votre "
-"variable d'environnement ``PATH`` pour pouvoir appeler ``clang-format`` "
-"depuis n'importe quel endroit."
 
 msgid ""
 "You then have different possibilities to apply clang-format to your changes:"
@@ -214,14 +104,6 @@ msgstr ""
 
 msgid "Manual usage"
 msgstr "Utilisation manuelle"
-
-#, fuzzy
-msgid ""
-"You can apply clang-format manually for one or more files with the following "
-"command:"
-msgstr ""
-"Vous pouvez appliquer manuellement clang-format à un ou plusieurs fichiers "
-"avec la commande suivante :"
 
 msgid ""
 "``-i`` means that the changes should be written directly to the file (by "
@@ -246,27 +128,10 @@ msgstr ""
 msgid "IDE plugin"
 msgstr "Plugin IDE"
 
-#, fuzzy
-msgid ""
-"Most IDEs or code editors have beautifier plugins that can be configured to "
-"run clang-format automatically, for example, each time you save a file."
-msgstr ""
-"La plupart des IDE ou des éditeurs de code disposent de plugins "
-"d'embellissement qui peuvent être configurés pour exécuter automatiquement "
-"clang, par exemple chaque fois que vous enregistrez un fichier."
-
 msgid "Here is a non-exhaustive list of beautifier plugins for some IDEs:"
 msgstr ""
 "Voici une liste non exhaustive de plugins d'embellissement pour quelques "
 "IDE :"
-
-#, fuzzy
-msgid ""
-"Qt Creator: `Beautifier plugin <https://doc.qt.io/qtcreator/creator-"
-"beautifier.html>`__"
-msgstr ""
-"Qt Creator : `plugin d'embellissement <http://doc.qt.io/qtcreator/creator-"
-"beautifier.html>`__"
 
 msgid ""
 "Visual Studio Code: `Clang-Format <https://marketplace.visualstudio.com/"
@@ -274,14 +139,6 @@ msgid ""
 msgstr ""
 "Visual Studio Code : `Clang-Format <https://marketplace.visualstudio.com/"
 "items?itemName=xaver.clang-format>`__"
-
-#, fuzzy
-msgid ""
-"Visual Studio: `Clang Power Tools 2022 <https://marketplace.visualstudio.com/"
-"items?itemName=caphyon.ClangPowerTools2022>`__"
-msgstr ""
-"Visual Studio : `ClangFormat <https://marketplace.visualstudio.com/items?"
-"itemName=LLVMExtensions.ClangFormat>`__"
 
 msgid "vim: `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__"
 msgstr "vim : `vim-clang-format <https://github.com/rhysd/vim-clang-format>`__"
@@ -294,12 +151,6 @@ msgstr ""
 "CLion : À partir de la version ``2019.1``, aucun plugin n'est nécessaire. A "
 "la place, activez `ClangFormat <https://www.jetbrains.com/help/clion/"
 "clangformat-as-alternative-formatter.html#clion-support>`__"
-
-#, fuzzy
-msgid "(Pull requests are welcome to extend this list with tested plugins.)"
-msgstr ""
-"(Les PR pour étendre cette liste avec des plugins testés sont les "
-"bienvenues.)"
 
 msgid "Header includes"
 msgstr "L'en-tête comprend"
@@ -398,41 +249,6 @@ msgstr ""
 "scripts inclus dans l'arbre des sources utilisent également Python."
 
 msgid ""
-"For those, we use the `Ruff linter and code formatter <https://docs.astral."
-"sh/ruff/>`__."
-msgstr ""
-
-#, fuzzy
-msgid "Using ruff locally"
-msgstr "Utiliser black localement"
-
-#, fuzzy
-msgid ""
-"First of all, you will need to install Ruff. Ruff requires Python 3.7+ to "
-"run."
-msgstr ""
-"Tout d'abord, vous devrez installer le black. Black nécessite Python 3.6.0+ "
-"pour fonctionner."
-
-#, fuzzy
-msgid "Here's how to install ruff:"
-msgstr "Voici comment installer black :"
-
-#, fuzzy
-msgid "You then have different possibilities to apply ruff to your changes:"
-msgstr ""
-"Vous avez alors différentes possibilités pour appliquer black à vos "
-"modifications :"
-
-#, fuzzy
-msgid ""
-"You can apply ``ruff`` manually to one or more files with the following "
-"command:"
-msgstr ""
-"Vous pouvez appliquer manuellement ``black`` à un ou plusieurs fichiers avec "
-"la commande suivante :"
-
-msgid ""
 "``-l 120`` means that the allowed number of characters per line is 120. This "
 "number was agreed upon by the developers."
 msgstr ""
@@ -446,31 +262,8 @@ msgstr ""
 "Le chemin peut pointer vers plusieurs fichiers, soit l'un après l'autre, "
 "soit en utilisant des wildcards comme dans un shell Unix typique."
 
-#, fuzzy
-msgid ""
-"For ease of use, we provide hooks for Git with the `pre-commit <https://pre-"
-"commit.com/>`__ Python framework that will run ``ruff`` automatically on all "
-"your commits with the correct version of ``ruff``. To set up:"
-msgstr ""
-"Pour faciliter l'utilisation, nous fournissons un pre-commit hook pour Git "
-"qui exécutera automatiquement black sur tous vos commits pour les vérifier, "
-"et vous permettra d'appliquer ses changements dans le commit final."
-
 msgid "Editor integration"
 msgstr "Intégration à l'éditeur"
-
-#, fuzzy
-msgid ""
-"Many IDEs or code editors have beautifier plugins that can be configured to "
-"run ruff automatically, for example, each time you save a file. For details, "
-"you can check `Ruff Integrations <https://docs.astral.sh/ruff/integrations/"
-">`__."
-msgstr ""
-"De nombreux IDE ou éditeurs de code disposent de plugins d'embellissement "
-"qui peuvent être configurés pour exécuter automatiquement black, par exemple "
-"chaque fois que vous enregistrez un fichier. Pour plus de détails, vous "
-"pouvez consulter la page `Intégration de black à l'éditeur <https://github."
-"com/psf/black#editor-integration>`__."
 
 msgid "Comment style guide"
 msgstr "Guide de style pour les commentaires"
@@ -502,14 +295,6 @@ msgstr ""
 
 msgid "Wrap comments to ~100 characters."
 msgstr "Limitez les commentaires à ~100 caractères."
-
-#, fuzzy
-msgid ""
-"You can use ``TODO:``, ``FIXME:``, ``NOTE:``, or ``HACK:`` as admonitions "
-"when needed."
-msgstr ""
-"Vous pouvez utiliser ``TODO:``, ``FIXME:``, ``NOTE:``, ou ``HACK:`` comme "
-"avertissements si nécessaire."
 
 msgid "**Example:**"
 msgstr "**Exemple :**"

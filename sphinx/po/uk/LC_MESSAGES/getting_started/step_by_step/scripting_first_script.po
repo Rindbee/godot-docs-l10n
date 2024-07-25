@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -342,16 +337,6 @@ msgstr ""
 "оберт нашого спрайта кожен кадр. Тут ``rotation`` є властивістю, "
 "успадкованою від класу ``Node2D``, який розширює ``Sprite2D``. Він контролює "
 "обертання нашого вузла і працює з радіанами."
-
-#, fuzzy
-msgid ""
-"In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
-"property or function like ``position``, ``rotation``, or ``_process`` to "
-"open the corresponding documentation in a new tab."
-msgstr ""
-"У редакторі коду ви можете клацнути, утримуючи клавішу ctrl, будь-яку "
-"вбудовану властивість або функцію, як-от ``position``, ``rotation`` або "
-"``_process``, щоб відкрити відповідну документацію у новій вкладці."
 
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "Запустіть сцену, щоб побачити, як значок Godot повертається на місці."

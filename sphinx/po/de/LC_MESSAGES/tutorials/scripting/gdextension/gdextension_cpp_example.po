@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +80,6 @@ msgstr ""
 "älteren Versionen von Godot (nur Godot 4 und höher) und umgekehrt, also "
 "stellen Sie sicher, dass Sie den richtigen Branch herunterladen."
 
-#, fuzzy
 msgid ""
 "To use `GDExtension <https://godotengine.org/article/introducing-gd-"
 "extensions>`__ you need to use the godot-cpp branch that matches the version "
@@ -95,9 +89,10 @@ msgid ""
 msgstr ""
 "Um `GDExtension <https://godotengine.org/article/introducing-gd-"
 "extensions>`__ zu verwenden, müssen Sie den godot-cpp-Branch verwenden, der "
-"zu der Version von Godot passt, für die Sie entwickeln. Wenn Sie zum "
-"Beispiel Godot 4.1 verwenden, benutzen Sie den Branch ``4.1``, der in diesem "
-"Tutorial gezeigt wird."
+"zu der Version von Godot passt, mit der Sie entwickeln. Wenn Sie zum "
+"Beispiel Godot 4.1 verwenden, benutzen Sie den ``4.1``-Branch. In diesem "
+"Tutorial verwenden wir ``4.x``, was durch die Version von Godot ersetzt "
+"werden muss, mit der Sie entwickeln."
 
 msgid ""
 "The ``master`` branch is the development branch which is updated regularly "
@@ -106,18 +101,17 @@ msgstr ""
 "Der ``master``-Branch ist der Entwicklungsbranch, der regelmäßig "
 "aktualisiert wird, um mit dem ``master``-Branch von Godot zusammenzuarbeiten."
 
-#, fuzzy
 msgid ""
 "Our long-term goal is that GDExtensions targeting an earlier version of "
 "Godot will work in later minor versions, but not vice-versa. For example, a "
 "GDExtension targeting Godot 4.1 should work just fine in Godot 4.2, but one "
 "targeting Godot 4.2 won't work in Godot 4.1."
 msgstr ""
-"Unser langfristiges Ziel ist es, dass GDExtensions, die auf eine frühere "
-"Version von Godot geschrieben sind, in späteren Minor-Versionen "
+"Unser langfristiges Ziel ist es, dass GDExtensions, die für eine frühere "
+"Version von Godot entwickelt wurden, in späteren Minor-Versionen "
 "funktionieren, aber nicht umgekehrt. Zum Beispiel sollte eine GDExtension, "
-"die für Godot 4.2 geschrieben ist, problemlos in Godot 4.3 funktionieren, "
-"aber eine, die für Godot 4.3 geschrieben ist, wird nicht in Godot 4.2 "
+"die für Godot 4.1 entwickelt wurde, problemlos in Godot 4.2 funktionieren, "
+"aber eine, die für Godot 4.2 entwickelt wurde, wird nicht in Godot 4.1 "
 "funktionieren."
 
 msgid ""
@@ -418,7 +412,6 @@ msgstr ""
 "späteren Tutorial ein detaillierteres Beispiel für die Verwendung dieser "
 "Build-Dateien behandeln."
 
-#, fuzzy
 msgid ""
 "This ``SConstruct`` file was written to be used with the latest ``godot-"
 "cpp`` master, you may need to make small changes using it with older "
@@ -427,7 +420,7 @@ msgstr ""
 "Diese ``SConstruct``-Datei wurde geschrieben, um mit dem neuesten ``godot-"
 "cpp``-Master verwendet zu werden. Möglicherweise müssen Sie kleine "
 "Änderungen vornehmen, wenn Sie sie mit älteren Versionen verwenden oder die "
-"``SConstruct``-Datei in der Godot 4.0-Dokumentation nachschlagen."
+"``SConstruct``-Datei in der Godot 4.x-Dokumentation nachschlagen."
 
 msgid ""
 "Once you've downloaded the ``SConstruct`` file, place it in your GDExtension "
@@ -526,30 +519,6 @@ msgstr ""
 
 msgid "We're finally ready to run the project:"
 msgstr "Wir sind endlich bereit, das Projekt auszuführen:"
-
-msgid "Custom editor icon"
-msgstr "Benutzerdefiniertes Editor-Icon"
-
-msgid ""
-"By default, Godot uses the node icon in the scene dock for GDExtension "
-"nodes. The custom icon can be added via the ``gdextension`` file. The node's "
-"icon is set by reference to its name and resource path of an SVG file."
-msgstr ""
-"Standardmäßig verwendet Godot das Node-Icon im Szenendock für GDExtension-"
-"Nodes. Das eigene Icon kann über die Datei ``gdextension`` hinzugefügt "
-"werden. Das Icon des Nodes wird durch Bezugnahme auf seinen Namen und den "
-"Ressourcenpfad einer SVG-Datei festgelegt."
-
-msgid "For example:"
-msgstr "Zum Beispiel:"
-
-msgid ""
-"The path should point to a 16 by 16 pixel SVG image. Read the guide for :ref:"
-"`creating icons <doc_editor_icons>` for more information."
-msgstr ""
-"Der Pfad sollte auf ein 16 x 16 Pixel großes SVG-Bild verweisen. Lesen Sie "
-"die Anleitung für :ref:`Erstellung von Icons <doc_editor_icons>` für weitere "
-"Informationen."
 
 msgid "Adding properties"
 msgstr "Propertys hinzufügen"

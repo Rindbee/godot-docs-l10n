@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,25 +39,6 @@ msgstr ""
 "wiki/%E7%B5%90%E5%90%88%E5%BA%A6>`_ を制限し、コードの柔軟性を保つことができ"
 "ます。"
 
-#, fuzzy
-msgid ""
-"For example, you might have a life bar on the screen that represents the "
-"player's health. When the player takes damage or uses a healing potion, you "
-"want the bar to reflect the change. To do so, in Godot, you would use "
-"signals."
-msgstr ""
-"例えば、画面上にプレイヤーの体力を表すライフバーがあるとします。プレイヤーが"
-"ダメージを受けたり、回復薬を使ったりした場合には、その変化をバーに反映される"
-"ようにしたいとします。これを実現するために、Godotではシグナルを使用します。"
-
-msgid ""
-"As mentioned in the introduction, signals are Godot's version of the "
-"observer pattern. You can learn more about it here: https://"
-"gameprogrammingpatterns.com/observer.html"
-msgstr ""
-"概要で述べたように、シグナルはGodotバージョンのobserverパターンです。詳しく"
-"は 次を参照ください: https://gameprogrammingpatterns.com/observer.html"
-
 msgid ""
 "We will now use a signal to make our Godot icon from the previous lesson (:"
 "ref:`doc_scripting_player_input`) move and stop by pressing a button."
@@ -94,16 +70,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "シーンの設定"
-
-#, fuzzy
-msgid ""
-"To add a button to our game, we will create a new scene which will include "
-"both a :ref:`Button <class_button>` and the ``sprite_2d.tscn`` scene we "
-"created in the :ref:`doc_scripting_first_script` lesson."
-msgstr ""
-"ゲームにボタンを追加するために、新規の ``main`` シーンを作成します。これは、:"
-"ref:`Button <class_button>`と:ref:`doc_scripting_first_script`のレッスンで作"
-"成した ``sprite_2d.tscn`` シーンの両方を含みます。"
 
 msgid "Create a new scene by going to the menu Scene -> New Scene."
 msgstr "メニューの「シーン -> 新規シーン」で、新しいシーンを作成します。"
@@ -227,12 +193,6 @@ msgstr ""
 "コールバックに引数を追加し、オプションを設定することができます。ウィンドウの"
 "右下にある\"Advanced\"ボタンをクリックすることで、モードを切り替えることがで"
 "きます。"
-
-msgid ""
-"If you are using an external editor (such as VS Code) this automatic code "
-"generation might not work. In this case you need to to connect the signal "
-"via code as explained in the next section."
-msgstr ""
 
 msgid ""
 "Click the Connect button to complete the signal connection and jump to the "
@@ -431,13 +391,6 @@ msgstr ""
 "\\ ``visible``\\ のプロパティはブール値で、ノードの可視性を制御します。\\ "
 "``visible = not visible``\\ の行で値を反転します。\\ ``visible``\\ が \\ "
 "``true``\\ なら、\\ ``false``\\ に、また逆の場合も同様です。"
-
-#, fuzzy
-msgid ""
-"If you run the Node2D scene now, you will see that the sprite blinks on and "
-"off, at one second intervals."
-msgstr ""
-"このシーンを今実行すると、スプライトが1秒間隔で点滅するのがわかるでしょう。"
 
 msgid "Complete script"
 msgstr "完全なスクリプト"

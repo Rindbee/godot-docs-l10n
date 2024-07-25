@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,14 +56,6 @@ msgstr "选择从模板中创建tasks.json文件选项."
 
 msgid "Then select **Others**."
 msgstr "然后选择\\ **其他**\\ 。"
-
-msgid ""
-"If there is no such option as **Create tasks.json file from template** "
-"available, either delete the file if it already exists in your folder or "
-"create a ``.vscode/tasks.json`` file manually. See `Tasks in Visual Studio "
-"Code <https://code.visualstudio.com/docs/editor/tasks#_custom-tasks>`_ for "
-"more details on tasks."
-msgstr ""
 
 msgid ""
 "Within the ``tasks.json`` file find the ``\"tasks\"`` array and add a new "
@@ -127,94 +114,12 @@ msgstr ""
 "extension <https://marketplace.visualstudio.com/items?itemName=vadimcn."
 "vscode-lldb>`_ 已经安装。"
 
-#, fuzzy
-msgid ""
-"If you encounter issues with lldb, you may consider using gdb (see the "
-"LinuxBSD_gdb configuration)."
-msgstr "如果遇到lldb的问题，你可以考虑使用gdb，参阅X11_gdb配置。"
-
-#, fuzzy
-msgid ""
-"Do note that lldb may work better with LLVM-based builds. See :ref:"
-"`doc_compiling_for_linuxbsd` for further information."
-msgstr ""
-"请注意，lldb可能在基于llvm的构建中工作得更好。参阅 :ref:"
-"`doc_compiling_for_x11` 以了解更多信息。"
-
-#, fuzzy
-msgid ""
-"The name under ``program`` depends on your build configuration, e.g. ``godot."
-"linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD platform with "
-"``target=editor`` and ``dev_build=yes``."
-msgstr ""
-"``program`` [程序]下的名称取决于你的构建配置, 例如启用 ``tools`` 的64位X11平"
-"台 ``godot.x11.tools.64`` ."
-
-#, fuzzy
-msgid "Configuring Intellisense"
-msgstr "配置运行"
-
-msgid "For the C/C++ extension:"
-msgstr ""
-
-msgid ""
-"To fix include errors you may be having, you need to configure some settings "
-"in the ``c_cpp_properties.json`` file."
-msgstr ""
-
-msgid ""
-"First, make sure to build the project since some files need to be generated."
-msgstr ""
-
-msgid "Edit the C/C++ Configuration file either with the UI or with text:"
-msgstr ""
-
-msgid ""
-"Add an include path for your platform, for example, ``${workspaceFolder}/"
-"platform/windows``."
-msgstr ""
-
-msgid ""
-"Add defines for the editor ``TOOLS_ENABLED``, debug builds "
-"``DEBUG_ENABLED``, and tests ``TESTS_ENABLED``."
-msgstr ""
-
-msgid ""
-"Make sure the compiler path is configured correctly to the compiler you are "
-"using. See :ref:`doc_introduction_to_the_buildsystem` for further "
-"information on your platform."
-msgstr ""
-
-msgid ""
-"The ``c_cpp_properties.json`` file should look similar to this for Windows:"
-msgstr ""
-
-msgid ""
-"Alternatively, you can use the scons argument ``compiledb=yes`` and set the "
-"compile commands setting ``compileCommands`` to ``compile_commands.json``, "
-"found in the advanced section of the C/C++ Configuration UI."
-msgstr ""
-
-msgid ""
-"This argument can be added to your build task in ``tasks.json`` since it "
-"will need to be run whenever files are added or moved."
-msgstr ""
-
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "
 "channels <https://godotengine.org/community>`__."
 msgstr ""
 "如果遇到问题, 也可在 `Godot 社区论坛 <https://godotengine.org/community>`__ "
 "中寻求帮助."
-
-#, fuzzy
-msgid ""
-"To get linting on class reference XML files, install the `vscode-xml "
-"extension <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-"
-"xml>`__."
-msgstr ""
-"安装 `Mono Debug <https://marketplace.visualstudio.com/items?itemName=ms-"
-"vscode.mono-debug>`__ 扩展。"
 
 msgid "Translation status"
 msgstr "翻译状态"

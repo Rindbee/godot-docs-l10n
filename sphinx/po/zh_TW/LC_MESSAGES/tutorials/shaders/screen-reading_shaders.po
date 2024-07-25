@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,12 +68,6 @@ msgstr ""
 "為“filter_nearest_mipmap”（或啟用 mipmap 的任何其他篩選器） 。如果使用具有 "
 "mipmap 的濾鏡，Godot 會自動為您計算模糊紋理。"
 
-msgid ""
-"If the filter mode is not changed to a filter mode that contains ``mipmap`` "
-"in its name, ``textureLod`` with an LOD parameter greater than ``0.0`` will "
-"have the same appearance as with the ``0.0`` LOD parameter."
-msgstr ""
-
 msgid "Screen texture example"
 msgstr "另一個範例："
 
@@ -137,13 +126,6 @@ msgstr ""
 
 msgid "With correct back-buffer copying, the two spheres blend correctly:"
 msgstr "正確複製後臺緩衝之後，這兩個球體就能夠正確混合了："
-
-msgid ""
-"In 3D, materials that use ``hint_screen_texture`` are considered transparent "
-"themselves and will not appear in the resulting screen texture of other "
-"materials. If you plan to instance a scene that uses a material with "
-"``hint_screen_texture``, you will need to use a BackBufferCopy node."
-msgstr ""
 
 msgid ""
 "In 3D, there is less flexibility to solve this particular issue because the "
@@ -226,12 +208,6 @@ msgstr "以下程式碼會獲取正在繪製的像素所在的 3D 位置："
 
 msgid "Normal-roughness texture"
 msgstr "法線-粗糙度紋理"
-
-#, fuzzy
-msgid ""
-"Normal-roughness texture is only supported in the Forward+ rendering method, "
-"not Mobile or Compatibility."
-msgstr "只有“集群 Forward”算繪後端支援體積霧，“Forward 移動”和“相容”不支援。"
 
 msgid ""
 "Similarly, the normal-roughness texture can be used to read the normals and "

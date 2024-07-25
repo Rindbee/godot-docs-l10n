@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,29 +31,6 @@ msgstr ""
 "<class_CanvasItem>`. Вы можете расположить предметы холста на деревьях. "
 "Каждый элемент наследует преобразование своего родителя: когда родитель "
 "перемещается, его потомки тоже перемещаются."
-
-#, fuzzy
-msgid ""
-"CanvasItem nodes, and nodes inheriting from them, are direct or indirect "
-"children of a :ref:`Viewport <class_Viewport>`, that displays them."
-msgstr ""
-"Узлы CanvasItem и узлы, унаследованные от них, являются прямыми или "
-"косвенными дочерними элементами :ref:`Viewport <class_Viewport>`, который их "
-"отображает."
-
-#, fuzzy
-msgid ""
-"The Viewport's property :ref:`Viewport.canvas_transform "
-"<class_Viewport_property_canvas_transform>`, allows to apply a custom :ref:"
-"`Transform2D <class_Transform2D>` transform to the CanvasItem hierarchy it "
-"contains. Nodes such as :ref:`Camera2D <class_Camera2D>` work by changing "
-"that transform."
-msgstr ""
-"Viewport имеет свойство :ref:`Viewport.canvas_transform "
-"<class_Viewport_property_canvas_transform>`, которое позволяет применять "
-"настраиваемое преобразование :ref:`Transform2D <class_Transform2D>` к "
-"иерархии CanvasItem, которую он содержит. Такие узлы, как :ref:`Camera2D "
-"<class_Camera2D>` работают, изменяя это преобразование."
 
 msgid ""
 "To achieve effects like scrolling, manipulating the canvas transform "
@@ -102,10 +74,6 @@ msgstr ""
 "переходов (затухания, смешивания), постоянно оставались в определённой части "
 "окна."
 
-#, fuzzy
-msgid "How to solve these problems in a single scene tree?"
-msgstr "Как можно решить эти проблемы в едином дереве сцены?"
-
 msgid "CanvasLayers"
 msgstr "Узел CanvasLayer"
 
@@ -147,23 +115,6 @@ msgstr ""
 "Обработка узлов CanvasLayer не зависит от их порядкового номера в дереве "
 "сцены - только от номера их слоя; поэтому они могут создаться по мере "
 "необходимости."
-
-#, fuzzy
-msgid ""
-"CanvasLayers aren't necessary to control the drawing order of nodes. The "
-"standard way to ensuring that a node is correctly drawn 'in front' or "
-"'behind' others is to manipulate the order of the nodes in the scene panel. "
-"Perhaps counterintuitively, the topmost nodes in the scene panel are drawn "
-"on *behind* lower ones in the viewport. 2D nodes also have the :ref:"
-"`CanvasItem.z_index <class_CanvasItem_property_z_index>` property for "
-"controlling their drawing order."
-msgstr ""
-"Для управления порядком рисования узлов CanvasLayer не требуется. Обычно, "
-"чтобы переместить узел на передний или на задний план, достаточно "
-"переместить его в дереве сцены. Это может показаться неочевидным, но чем "
-"выше узел в дереве на панели сцены, тем дальше от зрителя он рисуется. Кроме "
-"того, 2D-узлы имеют специальный параметр для управления порядком рисования "
-"(см. :ref:`Node2D.z_index <class_Node2D_property_z_index>`)."
 
 msgid "Translation status"
 msgstr "Статус перевода"

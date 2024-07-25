@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,25 +79,6 @@ msgstr ""
 
 msgid "Color conversion for light editor themes"
 msgstr "Conversion des couleurs pour les thèmes clairs de l'éditeur"
-
-#, fuzzy
-msgid ""
-"If the user has configured their editor to use a light theme, Godot will "
-"convert the icon's colors based on a `set of predefined color mappings "
-"<https://github.com/godotengine/godot/blob/4.0.2-stable/editor/editor_themes."
-"cpp#L60-L160>`__. This is to ensure the icon always displays with a "
-"sufficient contrast rate. Try to restrict your icon's color palette to "
-"colors found in the list above. Otherwise, your icon may become difficult to "
-"read on a light background."
-msgstr ""
-"Si l'utilisateur a configuré son éditeur pour utiliser un thème clair, Godot "
-"convertira les couleurs d'icône en se basant sur un `ensemble de mappages de "
-"couleurs prédéfinis <https://github.com/godotengine/godot/blob/"
-"b9f2e57d6240346f1833fd0390de195c956299e7/editor/editor_themes.cpp#L122-"
-"L184>`__. Cela permet de s'assurer que l'icône s'affiche toujours avec un "
-"taux de contraste suffisant. Essayez de limiter la palette de couleurs de "
-"votre icône aux couleurs de la liste ci-dessus. Sinon, votre icône peut "
-"devenir difficile à lire sur un fond clair."
 
 msgid "Icon optimization"
 msgstr "Optimisation des icônes"

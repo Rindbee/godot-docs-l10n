@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -554,11 +549,9 @@ msgstr ""
 "置的值控制色相在任一方向上所允许偏移的距离。将其设为较高的值会导致颜色变化更"
 "加剧烈，而较低的值则限制可用颜色为原始的最近邻颜色。"
 
-#, fuzzy
 msgid "Different values for hue variation"
 msgstr "不同的色相变化值"
 
-#, fuzzy
 msgid ""
 "Different values for hue variation, both times with blue as base color: 0.6 "
 "(left) and 0.1 (right)"
@@ -566,17 +559,6 @@ msgstr "不同的色相变化值，两次都以蓝色为基色：0.6（左）和
 
 msgid "Animation"
 msgstr "动画"
-
-#, fuzzy
-msgid ""
-"The ``Animation`` property group controls the behavior of sprite sheet "
-"animations in the particle's :ref:`Standard Material "
-"<doc_standard_material_3d>`. The ``Min``, ``Max``, and ``Curve`` values work "
-"`as described above <#process-material-properties>`__."
-msgstr ""
-"``Animation`` 属性组控制粒子的 :ref:`Standard Material "
-"<doc_standard_material_3d>` 中精灵表动画的行为。 ``Min`` 、 ``Max`` 和 "
-"``Curve`` 值的工作方式如上文所述。"
 
 msgid ""
 "An animated sprite sheet is a texture that contains several smaller images "
@@ -630,23 +612,6 @@ msgstr ""
 msgid "Check ``Loop`` if you want the animation to keep repeating."
 msgstr "如果你希望动画持续重复，请勾选 ``Loop``\\ 。"
 
-#, fuzzy
-msgid ""
-"That's it for the Standard Material. You won't see any animation right away. "
-"This is where the ``Animation`` properties come in. The ``Speed`` properties "
-"control how fast the sprite sheet animates. Set ``Speed Min`` and ``Speed "
-"Max`` to ``1`` and you should see the animation playing. The ``Offset`` "
-"properties control where the animation starts on a newly spawned particle. "
-"By default, it will always be the first image in the sequence. You can add "
-"some variety by changing ``Offset Min`` and ``Offset Max`` to randomize the "
-"starting position."
-msgstr ""
-"这是标准材质的全部设置。你不会立即看到任何动画。这时就需要 ``Animation`` 属性"
-"了。 ``Speed`` 属性控制精灵表动画的速度。将 ``Speed Min`` 和 ``Speed Max`` 都"
-"设置为 ``1`` ，你应该能看到动画播放了。 ``Offset`` 属性控制新生成的粒子动画的"
-"起始位置。默认情况下，它总是序列中的第一张图片。你可以通过改变 ``Offset "
-"Min`` 和 ``Offset Max`` 来增加一些变化，以随机化起始位置。"
-
 msgid "Animated particles"
 msgstr "动画粒子"
 
@@ -699,19 +664,6 @@ msgid ""
 "(middle), 8 seconds (right)"
 msgstr "不同生命周期的相同粒子系统：1 秒（左），2 秒（中），8 秒（右）"
 
-#, fuzzy
-msgid ""
-"Note that the GPUParticles3D node's **Fixed FPS** also affects animation "
-"playback. For smooth animation playback, it's recommended to set it to 0 so "
-"that the particle is simulated on every rendered frame. If this is not an "
-"option for your use case, set **Fixed FPS** to be equal to the effective "
-"framerate used by the flipbook animation (see above for the formula)."
-msgstr ""
-"请注意，GPUParticles2D 节点的 **Fixed FPS** 也会影响动画播放。为了动画播放流"
-"畅，建议将其设置为 0，以便在每个渲染帧上模拟粒子。如果这个设置不适合你的用"
-"例，请将 **Fixed FPS** 设置为等于翻页动画使用的有效帧速率（请参阅上面的公"
-"式）。"
-
 msgid "Turbulence"
 msgstr "湍流"
 
@@ -731,46 +683,6 @@ msgstr ""
 msgid "Collision"
 msgstr "碰撞"
 
-#, fuzzy
-msgid ""
-"The ``Mode`` property controls how and if emitters collide with particle "
-"collision nodes. Set it to ``Disabled`` to disable any collision for this "
-"particle system. Set it to ``Hide On Contact`` if you want particles to "
-"disappear as soon as they collide. Set it to ``Constant`` to make particles "
-"collide and bounce around. You will see two new properties appear in the "
-"inspector. They control how particles behave during collision events."
-msgstr ""
-"``Mode`` 属性控制发射器如何以及是否与粒子碰撞节点发生碰撞。将其设置为 "
-"``Disabled`` 以禁用此粒子系统的任何碰撞。将其设置为 ``Hide On Contact`` ，粒"
-"子在碰撞时会立即消失。将其设置为 ``Constant`` ，粒子碰撞后会反弹。你会在检查"
-"器中看到两个新属性。它们控制粒子在碰撞事件期间的行为。"
-
-#, fuzzy
-msgid ""
-"A high ``Friction`` value will reduce sliding along surfaces. This is "
-"especially helpful if particles collide with sloped surfaces and you want "
-"them to stay in place instead of sliding all the way to the bottom, like "
-"snow falling on a mountain. A high ``Bounce`` value will make particles "
-"bounce off surfaces they collide with, like rubber balls on a solid floor."
-msgstr ""
-"较高的 ``Friction`` 值会减少沿表面的滑动。这在粒子与倾斜表面碰撞时特别有用，"
-"如果你希望它们保持在原地而不是滑到底部，比如雪花落在山上。较高的 ``Bounce`` "
-"值会使粒子在与表面碰撞时像橡胶球一样反弹。"
-
-#, fuzzy
-msgid ""
-"If the ``Use Scale`` property is enabled, the :ref:`collision base size "
-"<doc_3d_particles_properties_collision>` is multiplied by the particle's "
-"`current scale <#scale>`__. You can use this to make sure that the rendered "
-"size and the collision size match for particles with random scale or scale "
-"that varies over time."
-msgstr ""
-"如果启用了 ``Use Scale`` 属性， :ref:`碰撞基础大小 "
-"<doc_3d_particles_properties_collision>` 将乘以粒子的 `当前缩放 "
-"<#scale>`__ 。你可以使用这个属性来确保渲染大小和碰撞大小对于随机缩放或随时间"
-"变化的粒子相匹配。"
-
-#, fuzzy
 msgid ""
 "You can learn more about particle collisions in the :ref:`Collisions "
 "<doc_3d_particles_collision>` section in this manual."
@@ -786,44 +698,6 @@ msgstr "子发射器模式"
 
 msgid "The available sub-emitter modes"
 msgstr "可用的子发射器模式"
-
-#, fuzzy
-msgid ""
-"The ``Mode`` property controls how and when sub-emitters are spawned. Set it "
-"to ``Disabled`` and no sub-emitters will ever be spawned. Set it to "
-"``Constant`` to make sub-emitters spawn continuously at a constant rate. The "
-"``Frequency`` property controls how often that happens within the span of "
-"one second. Set the mode to ``At End`` to make the sub-emitter spawn at the "
-"end of the parent particle's lifetime, right before it is destroyed. The "
-"``Amount At End`` property controls how many sub-emitters will be spawned. "
-"Set the mode to ``At Collision`` to make sub-emitters spawn when a particle "
-"collides with the environment. The ``Amount At Collision`` property controls "
-"how many sub-emitters will be spawned."
-msgstr ""
-"``Mode`` 属性控制子发射器如何以及何时生成。将其设置为 ``Disabled`` ，则永远不"
-"会生成子发射器。将其设置为 ``Constant`` ，子发射器会以恒定的速率持续生成。 "
-"``Frequency`` 属性控制一秒钟内发生的次数。将模式设置为 ``At End`` ，子发射器"
-"将在父粒子生命周期结束时生成，正好在它被销毁之前。 ``Amount At End`` 属性控制"
-"将生成多少个子发射器。将模式设置为 ``At Collision`` ，粒子与环境碰撞时子发射"
-"器会生成。 ``Amount At Collision`` 属性控制将生成多少个子发射器。"
-
-#, fuzzy
-msgid ""
-"When the ``Keep Velocity`` property is enabled, the newly spawned sub-"
-"emitter starts off with the parent particle's velocity at the time the sub-"
-"emitter is created."
-msgstr ""
-"当启用了 ``Keep Velocity`` 属性时，新生成的子发射器一开始就具有父粒子在子发射"
-"器创建时的速度。"
-
-#, fuzzy
-msgid ""
-"See the :ref:`Sub-emitters <doc_3d_particles_subemitters>` section in this "
-"manual for a detailed explanation of how to add a sub-emitter to a particle "
-"system."
-msgstr ""
-"有关如何将子发射器添加到粒子系统的详细说明，请参见手册中的 :ref:`子发射器 "
-"<doc_3d_particles_subemitters>` 部分。"
 
 msgid "Translation status"
 msgstr "翻译状态"

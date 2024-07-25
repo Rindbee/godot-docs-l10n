@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -234,13 +229,6 @@ msgstr ""
 "GDScript 程式碼本身的執行是沒有 C# 或 C++ 等編譯型語言快的。然而，大多數腳本"
 "程式碼都是在呼叫引擎中的 C++ 程式碼快速演算法。在許多情況下，使用 GDScript、"
 "C#、C++ 編寫遊戲邏輯並不會有顯著的性能區別。"
-
-msgid ""
-"Projects written in C# using Godot 4 currently cannot be exported to the web "
-"platform. To use C# on that platform, consider Godot 3 instead. Android and "
-"iOS platform support is available as of Godot 4.2, but is experimental and :"
-"ref:`some limitations apply <doc_c_sharp_platforms>`."
-msgstr ""
 
 msgid ""
 "To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page."

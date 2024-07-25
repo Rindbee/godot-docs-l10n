@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,16 +71,6 @@ msgstr ""
 "déjà été créée. Voir :ref:`ArrayMesh tutorial <doc_arraymesh>` pour un "
 "exemple de génération de maillage."
 
-#, fuzzy
-msgid ""
-"``create_from_surface()`` uses the vertex arrays from the ArrayMesh to "
-"calculate two additional arrays, one for edges and one for faces, for a "
-"total of three arrays."
-msgstr ""
-"``create_from_surface()`` utilise les arrays de sommets du ArrayMesh pour "
-"calculer deux tableaux supplémentaires, un pour les arêtes et un pour les "
-"faces."
-
 msgid ""
 "An edge is a connection between any two vertices. Each edge in the edge "
 "array contains a reference to the two vertices it is composed of, and up to "
@@ -103,15 +88,6 @@ msgstr ""
 "Une face est un triangle composé de trois sommets et de trois arêtes "
 "correspondantes. Chaque face du tableau de faces contient une référence aux "
 "trois sommets et aux trois arêtes qui la composent."
-
-#, fuzzy
-msgid ""
-"The vertex array contains edge, face, normal, color, tangent, uv, uv2, bone, "
-"and weight information connected with each vertex."
-msgstr ""
-"L'array des vertex contient les arêtes, les faces, les normales, les "
-"couleurs, les tangentes, les uv, les uv2, les os et les informations de "
-"poids liées à chaque vertex."
 
 msgid ""
 "To access information from these arrays you use a function of the form "
@@ -138,18 +114,6 @@ msgstr ""
 "jour dynamiquement un ArrayMesh existant, supprimez d'abord la surface "
 "existante avant d'en ajouter une nouvelle en utilisant :ref:"
 "`commit_to_surface() <class_meshdatatool_method_commit_to_surface>` :"
-
-#, fuzzy
-msgid ""
-"Below is a complete example that turns a spherical mesh called ``mesh`` into "
-"a randomly deformed blob complete with updated normals and vertex colors. "
-"See :ref:`ArrayMesh tutorial <doc_arraymesh>` for how to generate the base "
-"mesh."
-msgstr ""
-"Ci-dessous est un exemple complet qui transforme un maillage sphérique "
-"appelé ``mesh`` en un blob aléatoirement déformé avec les normales et les "
-"couleurs du sommet mises à jour. Voir :ref:`ArrayMesh tutorial "
-"<doc_arraymesh>` pour apprendre à générer un maillage de base."
 
 msgid "Translation status"
 msgstr "État de la traduction"

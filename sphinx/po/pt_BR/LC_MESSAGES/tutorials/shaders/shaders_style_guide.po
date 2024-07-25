@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,13 +26,6 @@ msgstr ""
 "promover a consistência entre projetos, discussões e tutoriais. Esperamos "
 "que isto também apoie o desenvolvimento de ferramentas de formatação "
 "automática."
-
-msgid ""
-"Since the Godot shader language is close to C-style languages and GLSL, this "
-"guide is inspired by Godot's own GLSL formatting. You can view examples of "
-"GLSL files in Godot's source code `here <https://github.com/godotengine/"
-"godot/blob/master/drivers/gles3/shaders/>`__."
-msgstr ""
 
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
@@ -164,9 +152,6 @@ msgstr ""
 msgid "One statement per line"
 msgstr "Uma declaração por linha"
 
-msgid "Never combine multiple statements on a single line."
-msgstr ""
-
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "A única exceção a essa regra é o operador ternário:"
 
@@ -182,10 +167,6 @@ msgstr ""
 "texto de código desativado."
 
 msgid ""
-"Don't use multiline comment syntax if your comment can fit on a single line:"
-msgstr ""
-
-msgid ""
 "In the shader editor, to make the selected code a comment (or uncomment it), "
 "press :kbd:`Ctrl + K`. This feature adds or removes ``//`` at the start of "
 "the selected lines."
@@ -193,22 +174,6 @@ msgstr ""
 "No editor de shader, para fazer o código selecionado um comentário (ou "
 "descomentar), pressione :kbd:`Ctrl + K`. Este recurso adiciona ou remove ``//"
 "`` no início das linhas selecionadas."
-
-#, fuzzy
-msgid "Documentation comments"
-msgstr "Escrevendo documentação personalizada"
-
-msgid ""
-"Use the following format for documentation comments above uniforms, with "
-"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
-msgstr ""
-
-msgid ""
-"These comments will appear when hovering a property in the inspector. If you "
-"don't wish the comment to be visible in the inspector, use the standard "
-"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
-"asterisk)."
-msgstr ""
 
 msgid "Whitespace"
 msgstr "Espaço em branco"
@@ -226,21 +191,8 @@ msgstr "Não use espaços para alinhas expressões verticalmente:"
 msgid "Floating-point numbers"
 msgstr "Números de ponto flutuante (real)"
 
-msgid ""
-"Always specify at least one digit for both the integer and fractional part. "
-"This makes it easier to distinguish floating-point numbers from integers, as "
-"well as distinguishing numbers greater than 1 from those lower than 1."
-msgstr ""
-
 msgid "Accessing vector members"
 msgstr "Acessando membros do vetor"
-
-msgid ""
-"Use ``r``, ``g``, ``b``, and ``a`` when accessing a vector's members if it "
-"contains a color. If the vector contains anything else than a color, use "
-"``x``, ``y``, ``z``, and ``w``. This allows those reading your code to "
-"better understand what the underlying data represents."
-msgstr ""
 
 msgid "Naming conventions"
 msgstr "Convenções de nomes"
@@ -270,22 +222,6 @@ msgstr ""
 "Utilize CONSTANT\\_CASE, com todas as letras maiúsculas e um sublinhado para "
 "separas as palavras:"
 
-#, fuzzy
-msgid "Preprocessor directives"
-msgstr "Definições de pré-processamento"
-
-msgid ""
-":ref:`doc_shader_preprocessor` directives should be written in "
-"CONSTANT__CASE. Directives should be written without any indentation before "
-"them, even if nested within a function."
-msgstr ""
-
-msgid ""
-"To preserve the natural flow of indentation when shader errors are printed "
-"to the console, extra indentation should **not** be added within ``#if``, "
-"``#ifdef`` or ``#ifndef`` blocks:"
-msgstr ""
-
 msgid "Code order"
 msgstr "Ordem do código"
 
@@ -307,11 +243,6 @@ msgstr "Essa ordem de código segue duas regras gerais:"
 
 msgid "Metadata and properties first, followed by methods."
 msgstr "Metadados e propriedades primeiro, seguidos por métodos."
-
-msgid ""
-"\"Public\" comes before \"private\". In a shader language's context, "
-"\"public\" refers to what's easily adjustable by the user (uniforms)."
-msgstr ""
 
 msgid "Local variables"
 msgstr "Variáveis locais"

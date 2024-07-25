@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,19 +28,6 @@ msgstr ""
 "Godot 提供了一個模組化 XR 系統，該系統將許多不同的 XR 平台細節從使用者手中抽"
 "象化。核心是 XRServer <class_xrserver>`，它充當 XR 系統的中央接口，允許使用者"
 "發現接口並與 XR 系統的組件進行互動。"
-
-#, fuzzy
-msgid ""
-"Each supported XR platform is implemented as an :ref:`XRInterface "
-"<class_xrinterface>`. Supported interfaces register themselves with the :ref:"
-"`XRServer <class_xrserver>` and can be queried with the ``find_interface`` "
-"method on the :ref:`XRServer <class_xrserver>`. When the desired interface "
-"is found it can be initialized by calling ``initialize`` on the interface."
-msgstr ""
-"每個支援的 XR 平台均以 XRInterface <class_xrinterface> 的形式實作。支援的介面"
-"將自身註冊到 XRServer <class_xrserver>` 上，並且可以使用 XRServer "
-"<class_xrserver>` 上的 ``find_interface`` 方法進行查詢。當找到所需的介面時，"
-"可以透過在介面上呼叫“initialize”來初始化它。"
 
 msgid ""
 "A registered interface means nothing more than that the interface is "
@@ -158,26 +140,8 @@ msgstr ""
 "由於Godot 4仍處於開發階段，許多後製效果尚未更新以支援立體算繪。使用這些會產生"
 "不良影響。"
 
-msgid ""
-"Godot 4 has 3 renderer options, Compatibility, Mobile, and Forward+. In the "
-"future XR desktop projects should use Forward+, and projects for stand-alone "
-"headsets should use Mobile. However Compatibility is the recommended "
-"renderer for now due to it having the best XR performance."
-msgstr ""
-
 msgid "OpenXR"
 msgstr "OpenXR"
-
-#, fuzzy
-msgid ""
-"OpenXR is a new industry standard that allows different XR platforms to "
-"present themselves through a standardised API to XR applications. This "
-"standard is an open standard maintained by the Khronos Group and thus aligns "
-"very well with Godot's interests."
-msgstr ""
-"OpenXR 是一種新的行業標準，允許不同的 XR 平台透過標準化的 API 向 XR 應用程式"
-"展示自己。該標準是由 Khronos Group 維護的開放標準，因此非常符合 Godots 的利"
-"益。"
 
 msgid ""
 "The Vulkan implementation of OpenXR is closely integrated with Vulkan, "
@@ -233,18 +197,6 @@ msgstr "接下來您需要配置控制器，選擇左手並進行以下設定：
 
 msgid "And the right hand:"
 msgstr "將腳本附加到節點。"
-
-#, fuzzy
-msgid ""
-"Right now all these nodes are on the floor, they will be positioned "
-"correctly in runtime. To help during development, it can be helpful to move "
-"the camera upwards so its ``y`` is set to ``1.7``, and move the controller "
-"nodes to ``-0.5, 1.0, -0.5`` and ``0.5, 1.0, -0.5`` for respectively the "
-"left and right hand."
-msgstr ""
-"現在所有這些節點都在地板上，它們將在運作時正確定位。為了在開發過程中提供幫"
-"助，將相機向上移動，將其“y”設定為“1.7”，並將控制器節點移至“-0.5、"
-"1.0、-0.5”和“左手和右手分別為0.5、1.0 、-0.5``。"
 
 msgid ""
 "Next we need to add a script to our root node. Add the following code into "

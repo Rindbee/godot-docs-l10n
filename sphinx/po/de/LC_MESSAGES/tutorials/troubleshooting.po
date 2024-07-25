@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -305,25 +300,31 @@ msgstr ""
 "settings``, gehen Sie zu **X Screen 0 > OpenGL Settings** und entfernen Sie "
 "das Häkchen bei **Enable Graphics API Visual Indicator**."
 
-#, fuzzy
 msgid ""
 "A microphone or \"refresh\" icon appears in the bottom-right corner of the "
 "Project Manager and editor window"
 msgstr ""
-"Einige Texte wie „NO DC“ werden in der oberen linken Ecke des "
-"Projektmanagers und des Editorfensters angezeigt"
+"In der unteren rechten Ecke des Projektmanagers und des Editor-Fensters "
+"erscheint ein Mikrofon- oder \"Aktualisierungs\"-Symbol"
 
 msgid ""
 "This is caused by the NVIDIA graphics driver injecting an overlay to display "
 "instant replay information on ShadowPlay recording. This overlay can only be "
 "seen on Windows, as Linux does not have support for ShadowPlay."
 msgstr ""
+"Dies wird durch den NVIDIA-Grafiktreiber verursacht, der ein Overlay "
+"einfügt, um sofortige Wiedergabeinformationen bei ShadowPlay-Aufnahmen "
+"anzuzeigen. Dieses Overlay kann nur unter Windows angezeigt werden, da Linux "
+"keine Unterstützung für ShadowPlay bietet."
 
 msgid ""
 "To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
 "NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
 "the NVIDIA overlay."
 msgstr ""
+"Um dieses Overlay zu deaktivieren, drücken Sie :kbd:`Alt + Z` "
+"(Standardkürzel für das NVIDIA-Overlay) und deaktivieren Sie **Einstellungen "
+"> HUD-Layout > Statusindikator** im NVIDIA-Overlay."
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "Der Editor oder das Projekt erscheint übermäßig scharf oder unscharf"

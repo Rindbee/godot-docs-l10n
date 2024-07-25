@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,64 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using MultiMeshInstance3D"
-msgstr "Usando MultiMeshInstance"
-
 msgid "Introduction"
 msgstr "Introducción"
 
-#, fuzzy
-msgid ""
-"In a normal scenario, you would use a :ref:`MeshInstance3D "
-"<class_MeshInstance3D>` node to display a 3D mesh like a human model for the "
-"main character, but in some cases, you would like to create multiple "
-"instances of the same mesh in a scene. You *could* duplicate the same node "
-"multiple times and adjust the transforms manually. This may be a tedious "
-"process and the result may look mechanical. Also, this method is not "
-"conducive to rapid iterations. :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>` is one of the possible solutions to this "
-"problem."
-msgstr ""
-"En un escenario normal, usarías un nodo :ref:`MeshInstance "
-"<class_MeshInstance>` para mostrar una malla 3D como un modelo humano para "
-"el personaje principal, pero en algunos casos, te gustaría crear múltiples "
-"instancias de la misma malla en una escena. Podrías duplicar el mismo nodo "
-"varias veces y ajustar las transformaciones manualmente. Este puede ser un "
-"proceso tedioso y el resultado puede parecer mecánico. Además, este método "
-"no favorece las iteraciones rápidas. :ref:`MultiMeshInstance "
-"<class_MultiMeshInstance>` es una de las posibles soluciones a este problema."
-
-#, fuzzy
-msgid ""
-"MultiMeshInstance3D, as the name suggests, creates multiple copies of a "
-"MeshInstance over a surface of a specific mesh. An example would be having a "
-"tree mesh populate a landscape mesh with trees of random scales and "
-"orientations."
-msgstr ""
-"MultiMeshInstance, como su nombre lo sugiere, crea múltiples copias de una "
-"MeshInstance sobre una superficie de una malla específica. Un ejemplo sería "
-"hacer que una malla de árboles poblara una malla de paisaje con árboles de "
-"escalas y orientaciones aleatorias."
-
 msgid "Setting up the nodes"
 msgstr "Configurando los nodos"
-
-#, fuzzy
-msgid ""
-"The basic setup requires three nodes: the MultiMeshInstance3D node and two "
-"MeshInstance3D nodes."
-msgstr ""
-"La configuración básica requiere tres nodos: el nodo MultiMeshInstance y dos "
-"nodos MeshInstance."
-
-#, fuzzy
-msgid ""
-"One node is used as the target, the surface mesh that you want to place "
-"multiple meshes on. In the tree example, this would be the landscape."
-msgstr ""
-"Un nodo se utiliza como objetivo, la malla en la que quieres colocar "
-"múltiples mallas. En el ejemplo del árbol, este sería el paisaje."
 
 msgid ""
 "The other node is used as the source, the mesh that you want to have "
@@ -83,29 +25,8 @@ msgstr ""
 "El otro nodo se usa como la fuente, la malla que quieres que se duplique. En "
 "el caso del árbol, este sería el árbol mismo."
 
-#, fuzzy
-msgid ""
-"In our example, we would use a :ref:`Node3D <class_Node3D>` node as the root "
-"node of the scene. Your scene tree would look like this:"
-msgstr ""
-"En nuestro ejemplo, usaríamos un nodo :ref:`Spatial <class_Spatial>` como "
-"nodo raíz de la escena. El árbol de la escena se vería así:"
-
 msgid "For simplicity's sake, this tutorial uses built-in primitives."
 msgstr "Para simplificar, este tutorial utiliza primitivas integradas."
-
-#, fuzzy
-msgid ""
-"Now you have everything ready. Select the MultiMeshInstance3D node and look "
-"at the toolbar, you should see an extra button called ``MultiMesh`` next to "
-"``View``. Click it and select *Populate surface* in the dropdown menu. A new "
-"window titled *Populate MultiMesh* will pop up."
-msgstr ""
-"Ahora tienes todo listo. Selecciona el nodo MultiMeshInstance y mira en la "
-"barra de herramientas, deberías ver un botón extra llamado \"MultiMesh\" al "
-"lado de \"View\". Haz clic en él y selecciona \"Poblar la superficie\" en el "
-"menú desplegable. Aparecerá una nueva ventana titulada *Poblar Malla "
-"Múltiple*."
 
 msgid "MultiMesh settings"
 msgstr "Configuración de MultiMesh"

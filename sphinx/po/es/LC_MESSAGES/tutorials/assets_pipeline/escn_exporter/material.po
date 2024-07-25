@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,24 +30,6 @@ msgstr ""
 "Esto tiene la ventaja de poder utilizar todas las características del "
 "sistema de materiales de Godot, pero significa que no puedes ver tu modelo "
 "con el material aplicado dentro de Blender."
-
-#, fuzzy
-msgid ""
-"To do this, the exporter attempts to find Godot materials with names that "
-"match those of the material name in Blender. So if you export an object in "
-"Blender with the material name ``PurpleDots`` then the exporter will search "
-"for the file ``PurpleDots.tres`` and assign it to the object. If this file "
-"is not a ``StandardMaterial3D`` or ``ShaderMaterial`` or if it cannot be "
-"found, then the exporter will fall back to exporting the material from "
-"Blender."
-msgstr ""
-"Para ello, el exportador intenta encontrar materiales Godot con nombres que "
-"coincidan con los del nombre material en Blender. Así que si exportas un "
-"objeto en Blender con el nombre material ``PurpleDots`` entonces el "
-"exportador buscará el archivo ``PurpleDots.tres`` y lo asignará al objeto. "
-"Si este archivo no es un ``SpatialMaterial`` o ``ShaderMaterial`` o si no "
-"puede ser encontrado, entonces el exportador volverá a exportar el material "
-"desde Blender."
 
 msgid ""
 "Where the exporter searches for the ``.tres`` file is determined by the "
@@ -127,18 +104,6 @@ msgstr ""
 "como salida (output) del nodo de shader, es la única garantía para ser "
 "exactamente correcto. Otras están basadas en aproximación."
 
-#, fuzzy
-msgid ""
-"Sometimes materials may not be valid for exporting (e.g. has some "
-"unsupported node) or it is using Blender Internal Engine, only the diffuse "
-"color and a few flags (e.g. unshaded) are exported and form a "
-"StandardMaterial3D."
-msgstr ""
-"A veces los materiales pueden no ser válidos para ser exportados (por "
-"ejemplo, tiene algún nodo no soportado) o está usando Blender Internal "
-"Engine, sólo se exportan el color difuso y unos pocos flags (por ejemplo, "
-"unshaded) y forman un Spatial Material."
-
 msgid "Generate external materials"
 msgstr "Generar materiales externos"
 
@@ -151,14 +116,6 @@ msgstr ""
 "los materiales internos para el archivo “escn”. Hay una opción que podría "
 "habilitar la generación de un archivo externo “.material” cuando el archivo "
 "“escn” se abra en Godot."
-
-#, fuzzy
-msgid ""
-"``.material`` file can be assigned to any material slot to be an external "
-"resource."
-msgstr ""
-"``.material``el archivo puede ser asignado a cualquier espacio material para "
-"ser un recurso externo."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

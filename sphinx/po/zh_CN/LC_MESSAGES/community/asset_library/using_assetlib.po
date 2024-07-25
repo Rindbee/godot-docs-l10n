@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,15 +227,6 @@ msgstr ""
 
 msgid "In the editor"
 msgstr "在编辑器中"
-
-#, fuzzy
-msgid ""
-"The editor will display different categories of assets depending on whether "
-"you're browsing the Project Manager's **Asset Library Projects** tab or the "
-"editor's **AssetLib** tab."
-msgstr ""
-"编辑器将根据你是在浏览项目管理器的\\ **模板**\\ 选项卡或是编辑器的 "
-"**AssetLib** 选项卡，显示不同类别的资产。"
 
 msgid ""
 "The Project Manager's **Asset Library Projects** tab will only display "

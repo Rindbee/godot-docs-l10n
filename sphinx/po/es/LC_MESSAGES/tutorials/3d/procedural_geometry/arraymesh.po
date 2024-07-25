@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,17 +22,6 @@ msgstr ""
 "Este tutorial presentará los fundamentos del uso de un :ref:`ArrayMesh "
 "<class_arraymesh>`."
 
-#, fuzzy
-msgid ""
-"To do so, we will use the function :ref:`add_surface_from_arrays() "
-"<class_ArrayMesh_method_add_surface_from_arrays>`, which takes up to five "
-"parameters. The first two are required, while the last three are optional."
-msgstr ""
-"Para ello, utilizaremos la función :ref:`add_surface_from_arrays() "
-"<class_ArrayMesh_method_add_surface_from_arrays>`, que toma hasta cuatro "
-"parámetros. Los dos primeros son obligatorios, mientras que los dos segundos "
-"son opcionales."
-
 msgid ""
 "The first parameter is the ``PrimitiveType``, an OpenGL concept that "
 "instructs the GPU how to arrange the primitive based on the vertices given, "
@@ -49,30 +33,6 @@ msgstr ""
 "proporcionados, es decir, si representan triángulos, líneas, puntos, etc. "
 "Consulta :ref:`Mesh.PrimitiveType <enum_Mesh_PrimitiveType>` para ver las "
 "opciones disponibles."
-
-#, fuzzy
-msgid ""
-"The second parameter, ``arrays``, is the actual Array that stores the mesh "
-"information. The array is a normal Godot array that is constructed with "
-"empty brackets ``[]``. It stores a ``Packed**Array`` (e.g. "
-"PackedVector3Array, PackedInt32Array, etc.) for each type of information "
-"that will be used to build the surface."
-msgstr ""
-"El segundo es el Array actual que almacena la información del mesh. El array "
-"es un array normal de Godot que se construye con los corchetes vacíos "
-"``[]``. Almacena un ``Pool**Array`` (por ejemplo, PoolVector3Array, "
-"PoolIntArray, etc.) para cada tipo de información que se usará para contruir "
-"la superficie."
-
-#, fuzzy
-msgid ""
-"Common elements of ``arrays`` are listed below, together with the position "
-"they must have within ``arrays``. See :ref:`Mesh.ArrayType "
-"<enum_Mesh_ArrayType>` for a full list."
-msgstr ""
-"Los posibles elementos de \"arrays\" se enumeran a continuación, junto con "
-"la posición que deben tener dentro de \"arrays\". Consulta también :ref:"
-"`Mesh.ArrayType <enum_Mesh_ArrayType>`."
 
 msgid "Index"
 msgstr "Index"
@@ -89,23 +49,11 @@ msgstr "0"
 msgid "``ARRAY_VERTEX``"
 msgstr "``ARRAY_VERTEX``"
 
-#, fuzzy
-msgid ""
-":ref:`PackedVector3Array <class_PackedVector3Array>` or :ref:"
-"`PackedVector2Array <class_PackedVector2Array>`"
-msgstr ""
-":ref:`PoolVector3Array <clase_PoolVector3Array>` o :ref:`PoolVector2Array "
-"<clase_PoolVector2Array>`"
-
 msgid "1"
 msgstr "1"
 
 msgid "``ARRAY_NORMAL``"
 msgstr "``ARRAY_NORMAL``"
-
-#, fuzzy
-msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
-msgstr ":ref:`PoolVector3Array <class_PoolVector3Array>`"
 
 msgid "2"
 msgstr "2"
@@ -113,40 +61,17 @@ msgstr "2"
 msgid "``ARRAY_TANGENT``"
 msgstr "``ARRAY_TANGENT``"
 
-#, fuzzy
-msgid ""
-":ref:`PackedFloat32Array <class_PackedFloat32Array>` or :ref:"
-"`PackedFloat64Array <class_PackedFloat64Array>` of groups of 4 floats. The "
-"first 3 floats determine the tangent, and the last float the binormal "
-"direction as -1 or 1."
-msgstr ""
-"Un :ref:`PoolRealArray <class_PoolRealArray>` de grupos de 4 números en coma "
-"flotante. Los primeros 3 números determinan la tangente y el último número "
-"indica la dirección de la binormal como -1 o 1."
-
 msgid "3"
 msgstr "3"
 
 msgid "``ARRAY_COLOR``"
 msgstr "``ARRAY_COLOR``"
 
-#, fuzzy
-msgid ":ref:`PackedColorArray <class_PackedColorArray>`"
-msgstr ":ref:`PoolColorArray <class_PoolColorArray>`"
-
 msgid "4"
 msgstr "4"
 
 msgid "``ARRAY_TEX_UV``"
 msgstr "``ARRAY_TEX_UV``"
-
-#, fuzzy
-msgid ""
-":ref:`PackedVector2Array <class_PackedVector2Array>` or :ref:"
-"`PackedVector3Array <class_PackedVector3Array>`"
-msgstr ""
-":ref:`PoolVector2Array <class_PoolVector2Array>` o :ref:`PoolVector3Array "
-"<class_PoolVector3Array>`"
 
 msgid "5"
 msgstr "5"
@@ -160,98 +85,17 @@ msgstr "10"
 msgid "``ARRAY_BONES``"
 msgstr "``ARRAY_BONES``"
 
-#, fuzzy
-msgid ""
-":ref:`PackedFloat32Array <class_PackedFloat32Array>` of groups of 4 floats "
-"or :ref:`PackedInt32Array <class_PackedInt32Array>` of groups of 4 ints. "
-"Each group lists indexes of 4 bones that affects a given vertex."
-msgstr ""
-":ref:`PoolRealArray <clase_PoolRealArray>` de grupos de 4 floats o :ref:"
-"`PoolIntArray <clase_PoolIntArray>` de grupos de 4 ints. Cada grupo lista "
-"los índices de 4 huesos que afectan a un vértice dado."
-
 msgid "11"
 msgstr "11"
 
 msgid "``ARRAY_WEIGHTS``"
 msgstr "``ARRAY_WEIGHTS``"
 
-#, fuzzy
-msgid ""
-":ref:`PackedFloat32Array <class_PackedFloat32Array>` or :ref:"
-"`PackedFloat64Array <class_PackedFloat64Array>` of groups of 4 floats. Each "
-"float lists the amount of weight the corresponding bone in ``ARRAY_BONES`` "
-"has on a given vertex."
-msgstr ""
-"Un :ref:`PoolRealArray <class_PoolRealArray>` de grupos de 4 números en coma "
-"flotante. Cada número representa el peso que un hueso determinado en "
-"\"ARRAY_BONES\" tiene en un vértice dado."
-
 msgid "12"
 msgstr "12"
 
 msgid "``ARRAY_INDEX``"
 msgstr "``ARRAY_INDEX``"
-
-#, fuzzy
-msgid ":ref:`PackedInt32Array <class_PackedInt32Array>`"
-msgstr ":ref:`PoolIntArray <class_PoolIntArray>`"
-
-msgid ""
-"In most cases when creating a mesh, we define it by its vertex positions. So "
-"usually, the array of vertices (at index 0) is required, while the index "
-"array (at index 12) is optional and will only be used if included. It is "
-"also possible to create a mesh with only the index array and no vertex "
-"array, but that's beyond the scope of this tutorial."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"All the other arrays carry information about the vertices. They are optional "
-"and will only be used if included. Some of these arrays (e.g. "
-"``ARRAY_COLOR``) use one entry per vertex to provide extra information about "
-"vertices. They must have the same size as the vertex array. Other arrays (e."
-"g. ``ARRAY_TANGENT``) use four entries to describe a single vertex. These "
-"must be exactly four times larger than the vertex array."
-msgstr ""
-"Todos los demás arreglos contienen información sobre los vértices. También "
-"son opcionales y solo se utilizarán si se incluyen. Algunos de estos "
-"arreglos (por ejemplo, ``ARRAY_COLOR``) utilizan una entrada por vértice "
-"para proporcionar información adicional sobre los vértices. Deben tener el "
-"mismo tamaño que el arreglo de vértices. Otros arreglos (por ejemplo, "
-"``ARRAY_TANGENT``) utilizan cuatro entradas para describir un solo vértice. "
-"Estos deben ser exactamente cuatro veces más grandes que el arreglo de "
-"vértices."
-
-#, fuzzy
-msgid ""
-"For normal usage, the last three parameters in :ref:"
-"`add_surface_from_arrays() <class_arraymesh_method_add_surface_from_arrays>` "
-"are typically left empty."
-msgstr ""
-"Para un uso normal, los últimos dos parámetros en :ref:"
-"`add_surface_from_arrays() <class_arraymesh_method_add_surface_from_arrays>` "
-"generalmente se dejan vacíos."
-
-#, fuzzy
-msgid "Setting up the ArrayMesh"
-msgstr "Usando ArrayMesh"
-
-#, fuzzy
-msgid ""
-"In the editor, create a :ref:`MeshInstance3D <class_meshinstance3d>` and add "
-"an :ref:`ArrayMesh <class_arraymesh>` to it in the Inspector. Normally, "
-"adding an ArrayMesh in the editor is not useful, but in this case it allows "
-"us to access the ArrayMesh from code without creating one."
-msgstr ""
-"En el editor, crea un :ref:`MeshInstance <class_meshinstance>` y agrega un :"
-"ref:`ArrayMesh <class_arraymesh>` a través del Inspector. Normalmente, "
-"agregar un ArrayMesh en el editor no es útil, pero en este caso nos permite "
-"acceder al ArrayMesh desde el código sin crear uno."
-
-#, fuzzy
-msgid "Next, add a script to the MeshInstance3D."
-msgstr "A continuación, agrega el script al MeshInstance."
 
 msgid "Under ``_ready()``, create a new Array."
 msgstr "Dentro de ``_ready()``, crea un nuevo Array."

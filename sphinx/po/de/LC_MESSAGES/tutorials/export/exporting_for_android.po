@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,13 +58,12 @@ msgstr "Android-SDK herunterladen"
 msgid "Download and install the Android SDK."
 msgstr "Laden Sie das Android SDK herunter und installieren Sie es."
 
-#, fuzzy
 msgid ""
 "You can install the Android SDK using `Android Studio Hedgehog (version "
 "2023.1.1) or later <https://developer.android.com/studio/>`__."
 msgstr ""
-"Sie können das Android SDK mit `Android Studio Version 4.1 oder höher "
-"<https://developer.android.com/studio/>`__ installieren."
+"Sie können das Android SDK mit `Android Studio Hedgehog (Version 2023.1.1) "
+"oder höher <https://developer.android.com/studio/>`__ installieren."
 
 msgid ""
 "Run it once to complete the SDK setup using these `instructions <https://"
@@ -79,24 +73,14 @@ msgstr ""
 "<https://developer.android.com/studio/intro/update#sdk-manager>` __ "
 "abzuschließen."
 
-msgid ""
-"Ensure that the `required packages <https://developer.android.com/studio/"
-"intro/update#recommended>`__ are installed as well."
-msgstr ""
-"Stellen Sie sicher, dass auch die `erforderlichen Pakete <https://developer."
-"android.com/studio/intro/update#recommended>`__ installiert sind."
-
-#, fuzzy
 msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools Version 30.0.5 oder höher"
+msgstr "Android SDK Platform-Tools Version 34.0.0 oder höher"
 
-#, fuzzy
 msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools Version 33.0.2"
+msgstr "Android SDK Build-Tools Version 34.0.0"
 
-#, fuzzy
 msgid "Android SDK Platform 34"
-msgstr "Android SDK Plattform 33"
+msgstr "Android SDK-Plattform 34"
 
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "Android SDK-Kommandozeilentools (aktuell)"
@@ -112,7 +96,7 @@ msgid ""
 "line tool."
 msgstr ""
 "Alternativ können Sie das Android-SDK auch mit dem Kommandozeilen-Tool "
-"„sdkmanager“ installieren."
+"`sdkmanager` installieren."
 
 msgid ""
 "Install the command line tools package using these `instructions <https://"
@@ -157,16 +141,17 @@ msgstr "In diesem Bildschirm müssen 2 Pfade festgelegt werden:"
 msgid ""
 "``Java SDK Path`` should be the location where OpenJDK 17 was installed."
 msgstr ""
+"Der ``Java SDK Path`` sollte der Ort sein, an dem OpenJDK 17 installiert "
+"wurde."
 
-#, fuzzy
 msgid ""
 "``Android Sdk Path`` should be the location where the Android SDK was "
 "installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
 "Users/$USER/Library/Android/sdk/`` on macOS."
 msgstr ""
-"Der ``Android Sdk Path`` sollte der Ort sein, an dem das Android SDK "
-"installiert wurde. - Zum Beispiel ``%LOCALAPPDATA%\\Android\\Sdk\\`` unter "
-"Windows oder ``/Users/$USER/Library/Android/sdk/`` unter macOS."
+"``Android Sdk Path`` sollte der Ort sein, an dem das Android SDK installiert "
+"wurde. - Zum Beispiel ``%LOCALAPPDATA%\\Android\\Sdk\\`` unter Windows oder "
+"``/Users/$USER/Library/Android/sdk/`` unter macOS."
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr ""
@@ -302,7 +287,6 @@ msgstr ""
 "einer Nicht-Debug-Keystore-Datei; eine solche Datei kann wie folgt generiert "
 "werden:"
 
-#, fuzzy
 msgid ""
 "This keystore and key are used to verify your developer identity, remember "
 "the password and keep it in a safe place! It is suggested to use only upper "
@@ -311,10 +295,11 @@ msgid ""
 "developer.android.com/studio/publish/app-signing>`__."
 msgstr ""
 "Dieser Keystore und Schlüssel werden verwendet, um Ihre Entwickleridentität "
-"zu überprüfen, sich an das Passwort zu erinnern und es an einem sicheren Ort "
-"aufzubewahren! Verwenden Sie die Google-Anleitungen für Android-Entwickler, "
-"um mehr über die `APK-Signierung <https://developer.android.com/studio/"
-"publish/app-signing>`__ zu erfahren."
+"zu verifizieren, sich das Passwort zu merken und es an einem sicheren Ort "
+"aufzubewahren! Es wird empfohlen, nur Groß- und Kleinbuchstaben und Zahlen "
+"zu verwenden. Sonderzeichen können zu Fehlern führen. Nutzen Sie die Android "
+"Developer Guides von Google, um mehr über das `Signieren von APKs <https://"
+"developer.android.com/studio/publish/app-signing>`__ zu erfahren."
 
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr ""
@@ -356,8 +341,8 @@ msgstr ""
 "kleineres APK zu erstellen, deaktivieren Sie entweder **Armeabi-v 7a** oder "
 "**Arm 64 -v 8a** im Android-Export-Profil Ihres Projekts. Dadurch wird ein "
 "APK erstellt, das nur eine Bibliothek für eine einzelne Architektur enthält. "
-"Beachten Sie, dass Anwendungen, die auf ARMv7 abzielen, auch auf ARMv8-"
-"Geräten laufen können, aber nicht umgekehrt."
+"Beachten Sie, dass Anwendungen, die für ARMv7 entwickelt sind, auch auf "
+"ARMv8-Geräten laufen können, aber nicht umgekehrt."
 
 msgid ""
 "Since August 2019, Google Play requires all applications to be available in "
@@ -373,9 +358,9 @@ msgstr ""
 "eine ARMv7-Bibliothek enthält. Um dieses Problem zu lösen, können Sie "
 "mehrere APKs in Google Play hochladen, indem Sie die `Mehrfach-APK-"
 "Unterstützung <https://developer.android.com/google/play/publishing/multiple-"
-"apks>`__ verwenden. Jedes APK sollte auf eine einzelne Architektur abzielen; "
-"die Erstellung eines APKs für ARMv7 und ARMv8 reicht in der Regel aus, um "
-"die meisten heute verwendeten Geräte abzudecken."
+"apks>`__ verwenden. Jedes APK sollte für eine einzelne Architektur "
+"entwickelt werden; die Erstellung eines APKs für ARMv7 und ARMv8 reicht in "
+"der Regel aus, um die meisten heute verwendeten Geräte abzudecken."
 
 msgid ""
 "You can optimize the size further by compiling an Android export template "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,23 +190,6 @@ msgstr ""
 "其次, 我們將新增邊緣照明. 邊緣照明增加了掠射角度的光線效果. 通常, 它用於類比"
 "光線穿過物件邊緣上的織物的路徑, 但是我們將在此處使用它來幫助實作良好的水潤效"
 "果."
-
-#, fuzzy
-msgid ""
-"In order to add fresnel reflectance, we will compute a fresnel term in our "
-"fragment shader. Here, we aren't going to use a real fresnel term for "
-"performance reasons. Instead, we'll approximate it using the dot product of "
-"the ``NORMAL`` and ``VIEW`` vectors. The ``NORMAL`` vector points away from "
-"the mesh's surface, while the ``VIEW`` vector is the direction between your "
-"eye and that point on the surface. The dot product between them is a handy "
-"way to tell when you are looking at the surface head-on or at a glancing "
-"angle."
-msgstr ""
-"為了增加菲涅耳反射率，我們將在片段著色器中計算菲涅耳項。在這裡，出於性能方面"
-"的考慮，我們將不使用真正的菲涅耳術語。取而代之的是，我們將使用 ``NORMAL`` 和 "
-"``VIEW`` 向量的點積對其進行近似。``NORMAL`` 向量指向遠離網格物體表面的位置，"
-"而 ``VIEW`` 向量則是您的眼睛與該表面上的點之間的方向。它們之間的點積是一種可"
-"以告訴您何時正視或掠過某個角度的方便方法。"
 
 msgid ""
 "And mix it into both ``ROUGHNESS`` and ``ALBEDO``. This is the benefit of "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,75 +12,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Setting up the project"
-msgstr ""
-
-msgid "In this short first part, we'll set up and organize the project."
-msgstr ""
-
 msgid "Launch Godot and create a new project."
 msgstr "Spusťte Godot a vytvořte nový projekt."
-
-msgid ""
-"When creating the new project, you only need to choose a valid *Project "
-"Path*. You can leave the other default settings alone."
-msgstr ""
 
 msgid "GDScript"
 msgstr "GDSkript"
 
-#, fuzzy
-msgid ""
-"Download `dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/"
-"godot-docs-project-starters/releases/download/latest-4.x/"
-"dodge_the_creeps_2d_assets.zip>`_. The archive contains the images and "
-"sounds you'll be using to make the game. Extract the archive and move the "
-"``art/`` and ``fonts/`` directories to your project's directory."
-msgstr ""
-"Pak stáhněte :download:`dodge_assets.zip <files / dodge_assets.zip>`. "
-"Obsahuje obrázky a zvuky, které budete používat při tvorbě hry. Rozbalte "
-"tyto soubory ve složce projektu."
-
 msgid "C#"
 msgstr "C#"
-
-msgid ""
-"Ensure that you have the required dependencies to use C# in Godot. You need "
-"the latest stable .NET SDK, and an editor such as VS Code. See :ref:"
-"`doc_c_sharp_setup`."
-msgstr ""
 
 msgid "C++"
 msgstr "C++"
 
-msgid ""
-"The C++ part of this tutorial wasn't rewritten for the new GDExtension "
-"system yet."
-msgstr ""
-
 msgid "Your project folder should look like this."
 msgstr "Vaše složka projektu by měla vypadat takto."
-
-#, fuzzy
-msgid ""
-"This game is designed for portrait mode, so we need to adjust the size of "
-"the game window. Click on *Project -> Project Settings* to open the project "
-"settings window, in the left column open the *Display -> Window* tab. There, "
-"set \"Viewport Width\" to ``480`` and \"Viewport Height\" to ``720``."
-msgstr ""
-"Tato hra je navržena pro režim na výšku, takže musíme upravit velikost okna "
-"hry. Klikněte na Projekt -> Nastavení projektu -> Displej -> Okno a nastavte "
-"\"Šířka\" na ``480`` a \"Výška\" na ``720``."
-
-#, fuzzy
-msgid ""
-"Also, under the **Stretch** options, set **Mode** to ``canvas_items`` and "
-"**Aspect** to ``keep``. This ensures that the game scales consistently on "
-"different sized screens."
-msgstr ""
-"Dále zde nastavte v sekci \"Roztáhnout\" položku ``Režim`` na \"2d\" a "
-"položku ``Aspekt`` na \"keep\". Tím je zajištěno, že hra nemění svoje "
-"měřítko na obrazovkách různých velikostí."
 
 msgid "Organizing the project"
 msgstr "Uspořádání projektu"
@@ -109,11 +49,6 @@ msgstr ""
 "scény a skripty do kořenového adresáře projektu identifikovaného pomocí "
 "``res: //``. Složky projektu můžete vidět v doku Souborový systém v levém "
 "dolním rohu:"
-
-msgid ""
-"With the project in place, we're ready to design the player scene in the "
-"next lesson."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stav překladu"

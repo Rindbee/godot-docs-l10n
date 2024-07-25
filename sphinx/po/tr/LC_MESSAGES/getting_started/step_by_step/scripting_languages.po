@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,19 +46,6 @@ msgstr ""
 
 msgid "Available scripting languages"
 msgstr "Kullanılabilir betik dilleri"
-
-msgid ""
-"Godot offers **four gameplay programming languages**: GDScript, C#, and, via "
-"its GDExtension technology, C and C++. There are more community-supported "
-"languages, but these are the official ones."
-msgstr ""
-
-msgid ""
-"You can use multiple languages in a single project. For instance, in a team, "
-"you could code gameplay logic in GDScript as it's fast to write, and use C# "
-"or C++ to implement complex algorithms and maximize their performance. Or "
-"you can write everything in GDScript or C#. It's your call."
-msgstr ""
 
 msgid ""
 "We provide this flexibility to answer the needs of different game projects "
@@ -199,32 +181,11 @@ msgid ".NET / C#"
 msgstr ".NET / C#"
 
 msgid ""
-"As Microsoft's `C# <https://en.wikipedia.org/wiki/"
-"C_Sharp_(programming_language)>`_ is a favorite amongst game developers, we "
-"officially support it. C# is a mature and flexible language with tons of "
-"libraries written for it. We were able to add support for it thanks to a "
-"generous donation from Microsoft."
-msgstr ""
-
-msgid ""
 "C# offers a good tradeoff between performance and ease of use, although you "
 "should be aware of its garbage collector."
 msgstr ""
 "C#, performans ve kullanım kolaylığı arasında iyi bir denge sunar, ancak çöp "
 "toplayıcısı hakkında dikkatli olmanız gerekir."
-
-msgid ""
-"You must use the .NET edition of the Godot editor to script in C#. You can "
-"download it on the Godot website's `download <https://godotengine.org/"
-"download/>`_ page."
-msgstr ""
-
-msgid ""
-"Since Godot uses .NET 6, in theory, you can use any third-party .NET library "
-"or framework in Godot, as well as any Common Language Infrastructure-"
-"compliant programming language, such as F#, Boo, or ClojureCLR. However, C# "
-"is the only officially supported .NET option."
-msgstr ""
 
 msgid ""
 "GDScript code itself doesn't execute as fast as compiled C# or C++. However, "
@@ -255,14 +216,6 @@ msgstr ""
 "C# hakkında daha fazlası için :ref:`C# temelleri <doc_c_sharp>` sayfasına "
 "gidin."
 
-msgid "C++ via GDExtension"
-msgstr ""
-
-msgid ""
-"GDExtension allows you to write game code in C++ without needing to "
-"recompile Godot."
-msgstr ""
-
 msgid ""
 "You can use any version of the language or mix compiler brands and versions "
 "for the generated shared libraries, thanks to our use of an internal C API "
@@ -271,16 +224,6 @@ msgstr ""
 "Dilin herhangi bir sürümü kullanılabilir, veya üretilen paylaşımlı "
 "kütüphaneler için derleyici markalarını ve sürümlerini karıştırabilirsiniz; "
 "bunların hepsi dahili bir C API Köprüsü kullanmamız sayesindedir."
-
-msgid ""
-"GDExtension is the best choice for performance. You don't need to use it "
-"throughout an entire game, as you can write other parts in GDScript or C#."
-msgstr ""
-
-msgid ""
-"When working with GDExtension, the available types, functions, and "
-"properties closely resemble Godot's actual C++ API."
-msgstr ""
 
 msgid "Summary"
 msgstr "Özet"
@@ -291,11 +234,6 @@ msgid ""
 msgstr ""
 "Betikler, bir düğüme bağladığınız ve onun özelliklerini genişleten kodlar "
 "içeren dosyalardır."
-
-msgid ""
-"Godot supports four official scripting languages, offering you flexibility "
-"between performance and ease of use."
-msgstr ""
 
 msgid ""
 "You can mix languages, for instance, to implement demanding algorithms with "

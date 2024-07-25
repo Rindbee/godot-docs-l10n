@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -352,13 +347,6 @@ msgid ""
 "checks."
 msgstr "測試立即失敗。可以包含在條件敘述中以進行複雜的檢查。"
 
-#, fuzzy
-msgid ""
-"Different reporters can be chosen at run-time. For instance, here's how the "
-"output can be redirected to an XML file:"
-msgstr ""
-"可以在運作時選擇不同的記者。例如，以下是將輸出重新導向到 XML 檔案的方法："
-
 msgid ""
 "`doctest: Logging macros <https://github.com/onqtam/doctest/blob/master/doc/"
 "markdown/logging.md>`_."
@@ -493,10 +481,6 @@ msgstr ""
 
 msgid "Here's an example test script:"
 msgstr "下列為有兩個骨頭的骨骼節點範例："
-
-#, fuzzy
-msgid "Change directory to the Godot source repository root."
-msgstr "將目錄切換到文件倉庫："
 
 msgid ""
 "Generate ``*.out`` files to update the expected results from the output:"

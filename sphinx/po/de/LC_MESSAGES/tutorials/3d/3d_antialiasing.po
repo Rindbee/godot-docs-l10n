@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -208,22 +203,6 @@ msgstr "Vergleich zwischen keinem Antialiasing (links) und TAA (rechts):"
 
 msgid "AMD FidelityFX Super Resolution 2.2 (FSR2)"
 msgstr "AMD FidelityFX Super Resolution 2.2 (FSR2)"
-
-msgid ""
-"Since Godot 4.2, there is built-in support for `AMD FidelityFX Super "
-"Resolution <https://www.amd.com/en/technologies/fidelityfx-super-"
-"resolution>`__ 2.2. This is an :ref:`upscaling method "
-"<doc_resolution_scaling>` compatible with all recent GPUs from any vendor. "
-"FSR2 is normally designed to improve performance by lowering the internal 3D "
-"rendering resolution, then upscaling to the output resolution."
-msgstr ""
-"Seit Godot 4.2 gibt es Built-in-Unterstützung für `AMD FidelityFX Super "
-"Resolution <https://www.amd.com/en/technologies/fidelityfx-super-"
-"resolution>`__ 2.2. Dabei handelt es sich um eine :ref:`Upscaling-Methode "
-"<doc_resolution_scaling>`, die mit allen aktuellen GPUs aller Hersteller "
-"kompatibel ist. FSR2 ist normalerweise darauf ausgelegt, die Performance zu "
-"verbessern, indem die interne 3D-Rendering-Auflösung herabgesetzt und dann "
-"auf die Ausgabeauflösung hochskaliert wird."
 
 msgid ""
 "However, unlike FSR1, FSR2 also provides temporal antialiasing. This means "
@@ -497,8 +476,8 @@ msgstr ""
 "es keine andere Methode, die spiegelndes Aliasing so gut bekämpft wie TAA. "
 "Der Screen-Space-Rauheitsbegrenzer hilft ein wenig, ist aber insgesamt weit "
 "weniger wirksam gegen spiegelnde Aliasing-Effekte. Wenn Sie über zusätzliche "
-"GPU-Leistung verfügen, können Sie FSR2 bei nativer Auflösung verwenden, um "
-"eine besser aussehende Form von temporalem Antialiasing im Vergleich zu "
+"GPU-Performance verfügen, können Sie FSR2 bei nativer Auflösung verwenden, "
+"um eine besser aussehende Form von temporalem Antialiasing im Vergleich zu "
 "Standard-TAA zu erzielen."
 
 msgid ""

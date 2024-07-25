@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,9 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid "GD0402: The class must not be generic"
-msgstr "GD0402: The class must not contain generic arguments"
+msgstr "GD0402: The class must not be generic"
 
 msgid "**Rule ID**"
 msgstr "**Regel-ID**"
@@ -49,20 +43,19 @@ msgid "Cause"
 msgstr "Ursache"
 
 msgid "A generic type is annotated with the ``[GlobalClass]`` attribute."
-msgstr "Ein generischer Typ wird mit dem Attribut ``[GlobalClass]'' annotiert."
+msgstr "Ein generischer Typ wird mit dem Attribut ``[GlobalClass]`` annotiert."
 
 msgid "Rule description"
 msgstr "Regelbeschreibung"
 
-#, fuzzy
 msgid ""
 "The Godot editor assumes every :ref:`global class "
 "<doc_c_sharp_global_classes>` is instantiable, but generic types can't be "
 "instantiated because the type parameters are unbound."
 msgstr ""
-"Der Godot-Editor nimmt an, dass jede :ref:`globale Klasse "
+"Der Godot-Editor geht davon aus, dass jede :ref:`globale Klasse "
 "<doc_c_sharp_global_classes>` instanziierbar ist, aber generische Typen "
-"können nicht instanziiert werden, weil die Typargumente ungebunden sind."
+"können nicht instanziiert werden, weil die Typparameter ungebunden sind."
 
 msgid "How to fix violations"
 msgstr "Wie man Verstöße behebt"

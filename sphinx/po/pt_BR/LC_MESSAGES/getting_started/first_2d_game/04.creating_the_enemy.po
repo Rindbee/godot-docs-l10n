@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,25 +35,11 @@ msgstr ""
 msgid "Node setup"
 msgstr "Configuração de nós"
 
-#, fuzzy
-msgid "Click Scene -> New Scene from the top menu and add the following nodes:"
-msgstr "Clique em Cena -> Nova Cena e adicione os seguintes nós:"
-
 msgid ":ref:`RigidBody2D <class_RigidBody2D>` (named ``Mob``)"
 msgstr ":ref:`RigidBody2D <class_RigidBody2D>` (chamado ``Turba``)"
 
-#, fuzzy
-msgid ":ref:`AnimatedSprite2D <class_AnimatedSprite2D>`"
-msgstr ":ref:`AnimatedSprite <class_AnimatedSprite>`"
-
 msgid ":ref:`CollisionShape2D <class_CollisionShape2D>`"
 msgstr ":ref:`CollisionShape2D <class_CollisionShape2D>`"
-
-#, fuzzy
-msgid ":ref:`VisibleOnScreenNotifier2D <class_VisibleOnScreenNotifier2D>`"
-msgstr ""
-":ref:`VisibilityNotifier2D <class_VisibilityNotifier2D>` (chamado "
-"``Visibilidade``)"
 
 msgid ""
 "Don't forget to set the children so they can't be selected, like you did "
@@ -75,30 +56,6 @@ msgstr ""
 "Selecione o nó ``Mob`` e configure a propriedade ``Escala de Gravidade`` na "
 "seção :ref: ```RigidBody2D <class_RigidBody2D>`` do inspetor para ``0``. "
 "Isto irá previnir que o mob caia para baixo."
-
-#, fuzzy
-msgid ""
-"In addition, under the :ref:`CollisionObject2D <class_CollisionObject2D>` "
-"section just beneath the **RigidBody2D** section, expand the **Collision** "
-"group and uncheck the ``1`` inside the ``Mask`` property. This will ensure "
-"the mobs do not collide with each other."
-msgstr ""
-"Nas propriedades :ref:`RigidBody2D <class_RigidBody2D>`, defina ``Gravity "
-"Scale`` (escala da gravidade) para ``0``, assim o bicho não vai cair. Além "
-"disso, na seção :ref:`CollisionObject2D <class_CollisionObject2D>`, clique "
-"na propriedade ``Mask`` (máscara) e desmarque a primeira caixa. Isso "
-"garantirá que os bichos da turba não colidirão uns com os outros."
-
-#, fuzzy
-msgid ""
-"Set up the :ref:`AnimatedSprite2D <class_AnimatedSprite2D>` like you did for "
-"the player. This time, we have 3 animations: ``fly``, ``swim``, and "
-"``walk``. There are two images for each animation in the art folder."
-msgstr ""
-"Configure o :ref:`AnimatedSprite <class_AnimatedSprite>` assim como você fez "
-"para o jogador. Desta vez, temos 3 animações: ``voar`` (*fly*), ``nadar`` "
-"(*swim*) e ``andar`` (*walk*). Existem duas imagens para cada animação na "
-"pasta \"art\"."
 
 msgid ""
 "The ``Animation Speed`` property has to be set for each individual "
@@ -121,26 +78,6 @@ msgstr ""
 "Vamos selecionar uma das animações aleatoriamente para que os inimigos "
 "tenham alguma variedade."
 
-#, fuzzy
-msgid ""
-"Like the player images, these mob images need to be scaled down. Set the "
-"``AnimatedSprite2D``'s ``Scale`` property to ``(0.75, 0.75)``."
-msgstr ""
-"Assim como as imagens do jogador, essas imagens da turba precisam ser "
-"reduzidas. Defina a propriedade ``Scale`` (escala) do ``AnimatedSprite`` "
-"como sendo ``(0.75, 0.75)``."
-
-#, fuzzy
-msgid ""
-"As in the ``Player`` scene, add a ``CapsuleShape2D`` for the collision. To "
-"align the shape with the image, you'll need to set the ``Rotation`` property "
-"to ``90`` (under \"Transform\" in the Inspector)."
-msgstr ""
-"Como na cena do ``Jogador``, adicione um ``CapsuleShape2D`` para a colisão. "
-"Para alinhar a forma com a imagem, você precisará definir a propriedade "
-"``Rotation Degrees`` (graus de rotação) como ``90`` na seção ``Transform`` "
-"no Inspetor."
-
 msgid "Save the scene."
 msgstr "Salve a cena."
 
@@ -157,16 +94,6 @@ msgstr ""
 "Agora, vamos ver o resto do script. Em ``_ready () ``, rodamos a animação e "
 "escolhemos aleatoriamente um dos três tipos de animação:"
 
-#, fuzzy
-msgid ""
-"First, we get the list of animation names from the AnimatedSprite2D's "
-"``sprite_frames`` property. This returns an Array containing all three "
-"animation names: ``[\"walk\", \"swim\", \"fly\"]``."
-msgstr ""
-"Primeiro, nós pegamos a lista dos nomes das animações a partir da "
-"propriedade ``frames`` do AnimatedSprite. Isto retorna um Array contendo os "
-"nomes das três animações: ``[\"andar\", \"nadar, \"voar\"]``."
-
 msgid ""
 "We then need to pick a random number between ``0`` and ``2`` to select one "
 "of these names from the list (array indices start at ``0``). ``randi() % n`` "
@@ -175,16 +102,6 @@ msgstr ""
 "Nós precisamos, então, de um número aleatório entre ``0`` e ``2`` para "
 "selecionar um dos nomes da lista (os índices de um vetor começam do ``0`` ). "
 "``randi() % n``seleciona aleatoriamente um inteiro entre ``0`` e ``n-1``."
-
-#, fuzzy
-msgid ""
-"The last piece is to make the mobs delete themselves when they leave the "
-"screen. Connect the ``screen_exited()`` signal of the "
-"``VisibleOnScreenNotifier2D`` node to the ``Mob`` and add this code:"
-msgstr ""
-"A última parte é fazer os inimigo se autodestruirem ao sair da tela. Conecte "
-"o sinal ``screen_exited()`` (saiu da tela) do nó ``VisibilityNotifier2D`` e "
-"adicione este código:"
 
 msgid "This completes the `Mob` scene."
 msgstr "Isto completa a cena `Turba`."

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,17 +129,6 @@ msgstr ""
 
 msgid "Setting up"
 msgstr "设置"
-
-#, fuzzy
-msgid ""
-"First of all, before the lightmapper can do anything, the objects to be "
-"baked need a UV2 layer and a texture size. A UV2 layer is a set of secondary "
-"texture coordinates that ensures any face in the object has its own place in "
-"the UV map. Faces must not share pixels in the texture."
-msgstr ""
-"首先，在光照贴图器可以执行任何操作之前，要烘焙的对象需要 UV2 图层和纹理大小。"
-"UV2 图层是一组辅助纹理坐标，可确保对象中的任何面在 UV 贴图中都有自己的位置。"
-"面与面之间不得共享纹理中的像素。"
 
 msgid ""
 "There are a few ways to ensure your object has a unique UV2 layer and "
@@ -696,17 +680,6 @@ msgid ""
 "denoiser)."
 msgstr "禁用降噪和启用降噪之间的比较（使用默认的 JNLM 降噪器）。"
 
-#, fuzzy
-msgid ""
-"To combat noise without increasing bake times too much, a denoiser can be "
-"used. A denoiser is an algorithm that runs on the final baked lightmap, "
-"detects patterns of noise and softens them while attempting to best preserve "
-"detail. Godot offers two denoising algorithms:"
-msgstr ""
-"为了消除噪点而不过多增加烘焙时间，可以使用降噪器。降噪器是一种在最终烘焙光照"
-"贴图上运行的算法，检测噪声模式并软化它们，同时尝试最好地保留细节。 Godot 提供"
-"了两种降噪算法："
-
 msgid "JNLM (Non-Local Means with Joint Filtering)"
 msgstr "JNLM（Non-Local Means with Joint Filtering，联合过滤的非局部均值）"
 
@@ -921,10 +894,6 @@ msgid ""
 msgstr ""
 "如果有后期处理的需要，可以使用图像编辑器查看并编辑所生成的 EXR 文件。不过请注"
 "意，重新烘焙贴图会覆盖你对 EXR 文件的修改。"
-
-#, fuzzy
-msgid "Reducing LightmapGI artifacts"
-msgstr "减少 VoxelGI 光照泄漏和伪影"
 
 msgid ""
 "If you notice LightmapGI nodes popping in and out of existence as the camera "

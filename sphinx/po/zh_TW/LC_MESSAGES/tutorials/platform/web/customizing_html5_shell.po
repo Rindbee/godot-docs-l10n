@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,11 +121,6 @@ msgstr ""
 "串. 它是在*Html / Head Include*部分的匯出選項中自訂的. 雖然你可以完全控制你所"
 "建立的HTML頁面, 但這個變數對於從Godot Editor中配置HTML``head`` 元素的部分內容"
 "很有用, 例如, 對於不同的Web匯出預設."
-
-msgid ""
-"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
-"the Project Settings."
-msgstr ""
 
 msgid ""
 "When the custom page is ready, it can be selected in the export options "

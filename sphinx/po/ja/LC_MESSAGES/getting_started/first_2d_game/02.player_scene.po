@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,19 +62,6 @@ msgstr ""
 "``Player`` に変更します。シーンのルートノードを決めたので、これにノードを追加"
 "して機能を追加できます。"
 
-#, fuzzy
-msgid ""
-"Before we add any children to the ``Player`` node, we want to make sure we "
-"don't accidentally move or resize them by clicking on them. Select the node "
-"and click the icon to the right of the lock. Its tooltip says \"Groups the "
-"selected node with its children. This causes the parent to be selected when "
-"any child node is clicked in 2D and 3D view.\""
-msgstr ""
-"``Player`` ノードに子を追加する前に、追加した子を誤って移動したりサイズを変更"
-"したりしないようにします。ノードを選択し、ロックの右側にあるアイコンをクリッ"
-"クします。ツールチップには「選択したノードの子を選択不可にします。」と書いて"
-"あります"
-
 msgid ""
 "Save the scene. Click Scene -> Save, or press :kbd:`Ctrl + S` on Windows/"
 "Linux or :kbd:`Cmd + S` on macOS."
@@ -111,29 +93,6 @@ msgstr ""
 
 msgid "Sprite animation"
 msgstr "スプライトアニメーション"
-
-#, fuzzy
-msgid ""
-"Click on the ``Player`` node and add (:kbd:`Ctrl + A` on Windows/Linux or :"
-"kbd:`Cmd + A` on macOS) a child node :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>`. The ``AnimatedSprite2D`` will handle the "
-"appearance and animations for our player. Notice that there is a warning "
-"symbol next to the node. An ``AnimatedSprite2D`` requires a :ref:"
-"`SpriteFrames <class_SpriteFrames>` resource, which is a list of the "
-"animations it can display. To create one, find the ``Sprite Frames`` "
-"property under the ``Animation`` tab in the Inspector and click \"[empty]\" -"
-"> \"New SpriteFrames\". Click on the ``SpriteFrames`` you just created to "
-"open the \"SpriteFrames\" panel:"
-msgstr ""
-"``Player`` ノードをクリックし、\\ :ref:`AnimatedSprite2D "
-"<class_AnimatedSprite2D>` ノードを子として追加します (:kbd:`Ctrl + A` on "
-"Windows/Linux or :kbd:`Cmd + A` on macOS) 。``AnimatedSprite2D`` は、プレー"
-"ヤーの外観とアニメーションを処理します。ノードの横に警告マークがあることに注"
-"意してください。\\ ``AnimatedSprite2D`` には、表示可能なアニメーションのリス"
-"トである :ref:`SpriteFrames <class_SpriteFrames>` リソースが必要です。作成す"
-"るには、インスペクタの ``Animation`` タブ内ある ``Sprite Frames`` プロパティ"
-"を探して、「[空]」→「新規 SpriteFrames」をクリックします。更にもう一度クリッ"
-"クすることで、スプライトフレームパネルが開きます:"
 
 msgid ""
 "On the left is a list of animations. Click the \"default\" one and rename it "

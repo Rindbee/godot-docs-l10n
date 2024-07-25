@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Available 3D formats"
-msgstr "視訊格式"
 
 msgid ""
 "When dealing with 3D assets, Godot has a flexible and configurable importer."
@@ -36,38 +27,12 @@ msgstr ""
 msgid "Godot supports the following 3D *scene file formats*:"
 msgstr "Godot 支援下列 3D **場景檔案格式** ："
 
-#, fuzzy
-msgid ""
-"glTF 2.0 **(recommended)**. Godot has support for both text (``.gltf``) and "
-"binary (``.glb``) formats."
-msgstr "glTF 2.0。Godot 完整支援文字與二進位格式。"
-
 msgid ""
 "``.blend`` (Blender). This works by calling Blender to export to glTF in a "
 "transparent manner (requires Blender to be installed)."
 msgstr ""
 "``.blend``（攪拌機）。這是透過呼叫 Blender 以透明方式匯出到 glTF 來實作的（需"
 "要安裝 Blender）。"
-
-#, fuzzy
-msgid "DAE (COLLADA), an older format that is supported."
-msgstr "DAE (COLLADA)，舊型的檔案格式，完整支援。"
-
-#, fuzzy
-msgid ""
-"OBJ (Wavefront) format + their MTL material files. This is also supported, "
-"but pretty limited given the format's limitations (no support for pivots, "
-"skeletons, animations, UV2, PBR materials, ...)."
-msgstr "OBJ (Wavefront) 格式。也有完整支援，但效果有限 (不支援樞紐、骨骼…等)。"
-
-msgid ""
-"FBX, supported via `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ "
-"integration. This requires installing an external program that links against "
-"the proprietary FBX SDK, so we recommend using other formats listed above "
-"(if suitable for your workflow)."
-msgstr ""
-"FBX，通過 Open Asset Import 函式庫提供支援。但，FBX 為專屬軟體，因此若工作流"
-"程合用的話，我們建議使用上述列表中的其他格式。"
 
 msgid ""
 "Copy the scene file together with the textures and mesh data (if separate) "
@@ -122,30 +87,6 @@ msgstr ""
 "描述、讓二進位資料保存在獨立的二進位檔案中，這樣子便適用於版本控制系統，可以"
 "用基於文字的格式來審閱改動。第二種情況是檔需要將紋理與材質檔分開的時候。若沒"
 "有需要這兩種情況的話，則用 glTF 二進位檔即可。"
-
-msgid ""
-"The glTF import process first loads the glTF file's data into an in-memory "
-"GLTFState class. This data is then used to generate a Godot scene. When "
-"importing files at runtime, this scene can be directly added to the tree. "
-"The export process is the reverse of this, a Godot scene is converted to a "
-"GLTFState class, then the glTF file is generated from that."
-msgstr ""
-
-msgid ""
-"Diagram explaining the runtime import and export process for glTF files in "
-"Godot"
-msgstr ""
-
-msgid ""
-"When importing glTF files in the editor, there are two more steps. After "
-"generating the Godot scene, the ResourceImporterScene class is used to apply "
-"additional import settings, including settings you set through the Import "
-"dock and the Advanced Import Settings dialog. This is then saved as a Godot "
-"scene file, which is what gets used when you run/export your game."
-msgstr ""
-
-msgid "Diagram explaining the editor import process for glTF files in Godot"
-msgstr ""
 
 msgid ""
 "If your model contains blend shapes (also known as \"shape keys\" and "
@@ -241,15 +182,6 @@ msgstr ""
 "設定中停用 **檔案系統 > 匯入 > Blender > 啟用**。"
 
 msgid ""
-"The ``.blend`` import process converts to glTF first, so it still uses "
-"Godot's glTF import code. Therefore, the ``.blend`` import process is the "
-"same as the glTF import process, but with an extra step at the beginning."
-msgstr ""
-
-msgid "Diagram explaining the import process for Blender files in Godot"
-msgstr ""
-
-msgid ""
 "When working in a team, keep in mind using ``.blend`` files in your project "
 "will require *all* team members to have Blender installed. While Blender is "
 "a free download, this may add friction when working on the project. ``."
@@ -298,9 +230,6 @@ msgstr ""
 "OBJ 是最簡單的 3D 格式之一，因此 Godot 應該能夠成功匯入大多數 OBJ 檔案。然"
 "而，OBJ 也是一種非常有限的格式：它不支援蒙皮、動畫、UV2 或 PBR 材質。"
 
-msgid "There are 2 ways to use OBJ meshes in Godot:"
-msgstr ""
-
 msgid ""
 "Load them directly in a MeshInstance3D node, or any other property that "
 "expects as mesh (such as GPUParticles3D). This is the default mode."
@@ -339,17 +268,6 @@ msgstr ""
 msgid "Importing FBX files in Godot"
 msgstr "於 Godot 3.0+ 匯入素材"
 
-#, fuzzy
-msgid ""
-"When opening a project containing FBX scenes, you will see a dialog asking "
-"you to configure FBX import. Click the link in the dialog to download an "
-"FBX2glTF binary, then extract the ZIP archive, place the binary anywhere you "
-"wish, then specify its path in the dialog."
-msgstr ""
-"開啟包含 FBX 場景的專案時，您將看到一個對話框，要求您設定 FBX 匯入。按一下對"
-"話方塊中的連結下載 fbx2gltf 二進位檔案，然後解壓縮 ZIP 存檔，將二進位檔案放置"
-"在您想要的任何位置，然後在對話方塊中指定其路徑。"
-
 msgid ""
 "If you keep ``.fbx`` files within your project folder but don't want them to "
 "be imported by Godot, disable **Filesystem > Import > FBX > Enabled** in the "
@@ -357,23 +275,6 @@ msgid ""
 msgstr ""
 "如果您將 .fbx 檔案保留在專案資料夾中，但不希望 Godot 匯入它們，請在進階專案設"
 "定中停用 **檔案系統 > 匯入 > FBX > 啟用**。"
-
-msgid ""
-"The FBX import process converts to glTF first, so it still uses Godot's glTF "
-"import code. Therefore, the FBX import process is the same as the glTF "
-"import process, but with an extra step at the beginning."
-msgstr ""
-
-msgid "Diagram explaining the import process for FBX files in Godot"
-msgstr ""
-
-msgid ""
-"The full installation process for using FBX in Godot is described on the "
-"`FBX import page of the Godot website <https://godotengine.org/fbx-"
-"import>`__."
-msgstr ""
-"在 Godot 網站的「FBX 匯入頁面 <https://godotengine.org/fbx-import>」中描述了"
-"在 Godot 中使用 FBX 的完整安裝過程。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

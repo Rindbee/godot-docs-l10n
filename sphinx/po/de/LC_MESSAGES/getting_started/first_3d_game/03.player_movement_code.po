@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +44,6 @@ msgstr ""
 "`doc_c_sharp_styleguide`). Beachten Sie die genaue Schreibweise, wenn Sie "
 "Signale einbinden möchten."
 
-#, fuzzy
 msgid ""
 "Right-click the ``Player`` node and select *Attach Script* to add a new "
 "script to it. In the popup, set the *Template* to *Empty* before pressing "
@@ -58,7 +52,9 @@ msgid ""
 msgstr ""
 "Klicken Sie mit der rechten Maustaste auf den ``Player``-Node und wählen Sie "
 "*Skript hinzufügen*, um ihm ein neues Skript hinzuzufügen. Setzen Sie im "
-"Popup die *Vorlage* auf *Leer*, bevor Sie den *Erstellen*-Button drücken."
+"Popup die *Vorlage* auf *Leer*, bevor Sie den *Erstellen*-Button drücken. "
+"Wir setzen ihn auf *Leer*, weil wir unseren eigenen Code für die "
+"Spielerbewegung schreiben wollen."
 
 msgid "|image0|"
 msgstr "|image0|"
@@ -232,9 +228,6 @@ msgstr ""
 "Und das ist schon der gesamte Code den Sie brauchen, um den Charakter auf "
 "dem Boden zu bewegen."
 
-msgid "Here is the complete ``Player.gd`` code for reference."
-msgstr "Hier ist der vollständige ``Player.gd``-Code als Referenz."
-
 msgid "Testing our player's movement"
 msgstr "Testen der Bewegung unseres Spielers"
 
@@ -292,7 +285,6 @@ msgstr ""
 msgid "Adding a camera"
 msgstr "Hinzufügen einer Kamera"
 
-#, fuzzy
 msgid ""
 "Let's add the camera next. Like we did with our *Player*\\ 's *Pivot*, we're "
 "going to create a basic rig. Right-click on the ``Main`` node again and "
@@ -307,7 +299,8 @@ msgstr ""
 "Node hinzufügen*. Erstellen Sie einen neuen :ref:`Marker3D "
 "<class_Marker3D>`, und nennen Sie ihn ``CameraPivot``. Wählen Sie "
 "``CameraPivot`` und fügen Sie einen Child-Node :ref:`Camera3D "
-"<class_Camera3D>` dazu. Ihr Szenenbaum sollte nun wie folgt aussehen."
+"<class_Camera3D>` dazu. Ihr Szenenbaum sollte nun so ähnlich aussehen wie "
+"abgebildet."
 
 msgid "|image3|"
 msgstr "|image3|"
@@ -315,14 +308,13 @@ msgstr "|image3|"
 msgid "image3"
 msgstr "image3"
 
-#, fuzzy
 msgid ""
 "Notice the *Preview* checkbox that appears in the top-left of the 3D view "
 "when you have the *Camera* selected. You can click it to preview the in-game "
 "camera projection."
 msgstr ""
-"Beachten sie das Kontrollkästchen *Vorschau* das in der oberen linken Ecke "
-"erscheint wenn Sie die *Camera* ausgewählt haben. Sie können es anklicken, "
+"Beachten Sie die Checkbox *Vorschau*, das oben links in der 3D-Ansicht "
+"erscheint, wenn Sie die *Kamera* ausgewählt haben. Sie können es anklicken, "
 "um eine Vorschau der Kameraprojektion im Spiel zu erhalten."
 
 msgid "|image4|"
@@ -365,8 +357,7 @@ msgid ""
 "camera Preview by clicking the checkbox."
 msgstr ""
 "Wählen Sie in der unteren Ansicht Ihre :ref:`Camera3D <class_Camera3D>` und "
-"schalten Sie die Kamera-Vorschau ein, indem Sie auf das Kontrollkästchen "
-"klicken."
+"schalten Sie die Kamera-Vorschau ein, indem Sie auf die Checkbox klicken."
 
 msgid "|image6|"
 msgstr "|image6|"
@@ -374,13 +365,13 @@ msgstr "|image6|"
 msgid "image6"
 msgstr "|image6|"
 
-#, fuzzy
 msgid ""
 "In the top view, make sure your *Camera3D* is selected and move the camera "
 "about ``19`` units on the Z axis (drag the blue arrow)."
 msgstr ""
-"Verschieben Sie die Kamera in der oberen Ansicht um ungefähr ``19`` "
-"Einheiten auf der Z-Achse (die blaue)."
+"In der Draufsicht stellen Sie sicher, dass Ihre *Camera3D* ausgewählt ist "
+"und bewegen Sie die Kamera um ``19`` Einheiten auf der Z-Achse (ziehen Sie "
+"den blauen Pfeil)."
 
 msgid "|image7|"
 msgstr "|image7|"

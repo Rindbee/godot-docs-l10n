@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,43 +109,11 @@ msgstr ""
 "对于 3D 空间中的平面，Godot 提供了 :ref:`Plane <class_Plane>` 内置类型来处理"
 "这些计算。"
 
-#, fuzzy
-msgid ""
-"Basically, N and D can represent any plane in space, be it for 2D or 3D "
-"(depending on the amount of dimensions of N) and the math is the same for "
-"both. It's the same as before, but D is the distance from the origin to the "
-"plane, travelling in N direction. As an example, imagine you want to reach a "
-"point in the plane, you will just do:"
-msgstr ""
-"基本上，N 和 D 可以用于表示空间中的任何平面。无论是对于 2D 还是 3D 场景来说"
-"（取决于变量 N 的维数），两者的计算方法相同：和以前一样，但 D 是以 N 为方向，"
-"从原点到平面的距离。例如，假设你想在到达平面上的某一点，你只需要做："
-
-#, fuzzy
-msgid ""
-"This will stretch (resize) the normal vector and make it touch the plane. "
-"This math might seem confusing, but it's actually much simpler than it "
-"seems. If we want to tell, again, the distance from the point to the plane, "
-"we do the same but adjusting for distance:"
-msgstr ""
-"上述步骤将拉伸（调整大小）法线向量，使其接触平面。这个计算方法看似令人困惑，"
-"但实际上要比看起来简单得多。如果我们还想知道从点到平面的距离，也可以用同样方"
-"法，但是要根据距离进行调整："
-
 msgid "The same thing, using a built-in function:"
 msgstr "也可以用内置函数执行同样的计算："
 
 msgid "This will, again, return either a positive or negative distance."
 msgstr "这同样会返回一个正或负的距离。"
-
-#, fuzzy
-msgid ""
-"Flipping the polarity of the plane can be done by negating both N and D. "
-"This will result in a plane in the same position, but with inverted negative "
-"and positive half spaces:"
-msgstr ""
-"还可以通过同时对 N 和 D 取负来反转平面的极性。这样，平面的位置不变，但正负半"
-"空间倒置："
 
 msgid ""
 "Godot also implements this operator in :ref:`Plane <class_Plane>`. So, using "
@@ -263,17 +226,6 @@ msgstr ""
 "离都为正。在代码实现方面，可以先用多边形 A 的平面对多边形 B 的点进行检查，再"
 "用多边形 B 的平面对多边形 A 的点进行检查："
 
-#, fuzzy
-msgid ""
-"As you can see, planes are quite useful, and this is the tip of the iceberg. "
-"You might be wondering what happens with non convex polygons. This is "
-"usually just handled by splitting the concave polygon into smaller convex "
-"polygons, or using a technique such as BSP (which is not used much nowadays)."
-msgstr ""
-"如你所见，平面非常有用，而以上只是应用场景的冰山一角。除此以外，至于非凸多边"
-"形如何判断，通常的处理方法是将非凸多边形分割成更小的凸多边形，或者使用 BSP "
-"（ Binary Space Partitioning ，二叉空间分割 ）等技术（现在已经很少使用了）。"
-
 msgid "Collision detection in 3D"
 msgstr "三维环境下的碰撞检测"
 
@@ -304,17 +256,6 @@ msgid ""
 msgstr ""
 "其实，这在 3D 中也同样适用：如果两个 3D 多面体相撞，你将无法找到这两个多面体"
 "的分离平面。反之，如果能找到分离平面，那么这两个图形肯定不会发生碰撞。"
-
-#, fuzzy
-msgid ""
-"To refresh a bit a separating plane means that all vertices of polygon A are "
-"in one side of the plane, and all vertices of polygon B are in the other "
-"side. This plane is always one of the face-planes of either polygon A or "
-"polygon B."
-msgstr ""
-"“分离平面”（ Separating plane ）是指某个多边形 A 的所有顶点都在它的一边，而多"
-"边形 B 的所有顶点在另一边的平面。这个平面总是多边形 A 或多边形 B 的面平面之"
-"一。"
 
 msgid ""
 "In 3D though, there is a problem to this approach, because it is possible "

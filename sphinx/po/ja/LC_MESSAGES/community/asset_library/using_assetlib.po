@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,16 +20,6 @@ msgstr "ウェブサイトで"
 
 msgid "Overview"
 msgstr "概要"
-
-#, fuzzy
-msgid ""
-"As mentioned before, you can access the web frontend of the Asset Library on "
-"`Godot's official website <https://godotengine.org/asset-library/asset>`_. "
-"This is what it looks like when you first visit it:"
-msgstr ""
-"前述のように、\\ `Godotの公式Webサイト <https://godotengine.org/asset-"
-"library/asset>`_ でAssetLibのWebフロントエンドにアクセスできます。これは、最"
-"初にアクセスしたときの表示です:"
 
 msgid "|image0|"
 msgstr "\\ |image0|"
@@ -243,36 +228,8 @@ msgstr "|image6|"
 msgid "image6"
 msgstr "\\ image6"
 
-#, fuzzy
-msgid ""
-"You can learn how to submit assets to the Library, and what the asset "
-"submission guidelines are, in the next part of this tutorial, :ref:"
-"`doc_submitting_to_assetlib`."
-msgstr ""
-"ライブラリにアセットを送信する方法、およびアセット送信のガイドラインは、この"
-"チュートリアルの次のパートの :ref:`doc_uploading_to_assetlib` で学習できま"
-"す。"
-
 msgid "In the editor"
 msgstr "エディタで"
-
-msgid ""
-"The editor will display different categories of assets depending on whether "
-"you're browsing the Project Manager's **Asset Library Projects** tab or the "
-"editor's **AssetLib** tab."
-msgstr ""
-
-msgid ""
-"The Project Manager's **Asset Library Projects** tab will only display "
-"assets that are standalone projects by themselves. This is denoted on the "
-"asset library with the *Templates*, *Demos* and *Projects* categories."
-msgstr ""
-
-msgid ""
-"The editor's **AssetLib** tab will only display assets that are *not* "
-"standalone projects by themselves. In other words, it will display assets "
-"from all categories except *Templates*, *Demos* and *Projects*."
-msgstr ""
 
 msgid "You can also access the AssetLib directly from Godot:"
 msgstr "また、Godotから直接AssetLibにアクセスすることも可能です:"
@@ -310,24 +267,6 @@ msgid ""
 msgstr ""
 "AssetLibのWebバージョンと同様に、ここではカテゴリ、名前でアセットを検索し、名"
 "前や編集日などの要因でアセットを並べ替えることができます。"
-
-#, fuzzy
-msgid ""
-"Notably, you can only fetch assets for the current version of Godot you are "
-"running. Projects, Demos and Templates can be downloaded from the Project "
-"Manager view of the AssetLib. Addons (tools, scripts, materials etc.) can be "
-"downloaded from the in-project AssetLib and added to the current project. In "
-"addition, unlike when using the web frontend, the search results are updated "
-"in real-time (you do not have to press Search after every change to your "
-"search query for the changes to take place)."
-msgstr ""
-"とりわけ、実行中のGodotの現在のバージョンのアセットのみを取得できます。 プロ"
-"ジェクト、デモ、およびテンプレートは、AssetLibのプロジェクトマネージャー"
-"ビューからダウンロードできます。 アドオン(ツール、スクリプト、マテリアルなど)"
-"は、プロジェクト内のAssetLibからダウンロードして、現在のプロジェクトに追加で"
-"きます。 さらに、Webフロントエンドを使用する場合とは異なり、検索結果はリアル"
-"タイムで更新されます(変更を行うために検索クエリを変更するたびに[検索]を押す必"
-"要はありません)。"
 
 msgid ""
 "In the future, you will be able to choose a different AssetLib provider to "

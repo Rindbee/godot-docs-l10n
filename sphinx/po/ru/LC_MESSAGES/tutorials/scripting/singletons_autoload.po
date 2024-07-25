@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#, fuzzy
-msgid "Singletons (Autoload)"
-msgstr "Синглтоны (Автозагрузка)"
 
 msgid "Introduction"
 msgstr "Введение"
@@ -96,34 +87,6 @@ msgid "Autoloading nodes and scripts can give us these characteristics."
 msgstr ""
 "Узлы и скрипты автоматической загрузки могут дать нам эти характеристики."
 
-#, fuzzy
-msgid ""
-"Godot won't make an Autoload a \"true\" singleton as per the singleton "
-"design pattern. It may still be instanced more than once by the user if "
-"desired."
-msgstr ""
-"Godot не сделает AutoLoad \"истинным\" синглтоном в соответствии с шаблоном "
-"проектирования синглтона. При желании он может быть использован "
-"пользователем более одного раза."
-
-msgid ""
-"If you're creating an autoload as part of an editor plugin, consider :ref:"
-"`registering it automatically in the Project Settings "
-"<doc_making_plugins_autoload>` when the plugin is enabled."
-msgstr ""
-
-#, fuzzy
-msgid "Autoload"
-msgstr "Автозагрузка"
-
-#, fuzzy
-msgid ""
-"You can create an Autoload to load a scene or a script that inherits from :"
-"ref:`class_Node`."
-msgstr ""
-"Вы можете создать AutoLoad для загрузки сцены или скрипта, унаследованного "
-"от :ref:`class_Node`."
-
 msgid ""
 "When autoloading a script, a :ref:`class_Node` will be created and the "
 "script will be attached to it. This node will be added to the root viewport "
@@ -132,46 +95,6 @@ msgstr ""
 "При автозагрузке скрипта будет создан :ref:`class_Node`, и скрипт будет "
 "прикреплен к нему. Этот узел будет добавлен к корневому окну просмотра перед "
 "загрузкой любых других сцен."
-
-#, fuzzy
-msgid ""
-"To autoload a scene or script, select **Project > Project Settings** from "
-"the menu and switch to the **Autoload** tab."
-msgstr ""
-"Чтобы автоматически загрузить сцену или скрипт, выберите **Project > Project "
-"Settings** в меню и перейдите на вкладку **AutoLoad**."
-
-#, fuzzy
-msgid ""
-"Here you can add any number of scenes or scripts. Each entry in the list "
-"requires a name, which is assigned as the node's ``name`` property. The "
-"order of the entries as they are added to the global scene tree can be "
-"manipulated using the up/down arrow keys. Like regular scenes, the engine "
-"will read these nodes in top-to-bottom order."
-msgstr ""
-"Здесь вы можете добавить любое количество сцен или скриптов. Каждая запись в "
-"списке требует имя, которое присваивается свойству узла ``name``. Порядок "
-"расположения записей в дереве глобальной сцены может быть изменен с помощью "
-"клавиш со стрелками вверх/вниз."
-
-#, fuzzy
-msgid ""
-"If the **Enable** column is checked (which is the default), then the "
-"singleton can be accessed directly in GDScript:"
-msgstr ""
-"Если столбец **Enable** отмечен (по умолчанию), то к синглтону можно "
-"получить доступ напрямую, не требуя ``get_node()``:"
-
-msgid ""
-"The **Enable** column has no effect in C# code. However, if the singleton is "
-"a C# script, a similar effect can be achieved by including a static property "
-"called ``Instance`` and assigning it in ``_Ready()``:"
-msgstr ""
-
-msgid ""
-"This allows the singleton to be accessed from C# code without ``GetNode()`` "
-"and without a typecast:"
-msgstr ""
 
 msgid ""
 "Note that autoload objects (scripts and/or scenes) are accessed just like "
@@ -183,74 +106,8 @@ msgstr ""
 "самом деле, если вы посмотрите на дерево выполняющихся сцен, вы увидите, что "
 "появились узлы автозагрузки:"
 
-msgid ""
-"Autoloads must **not** be removed using ``free()`` or ``queue_free()`` at "
-"runtime, or the engine will crash."
-msgstr ""
-
 msgid "Custom scene switcher"
 msgstr "Пользовательский переключатель сцены"
-
-#, fuzzy
-msgid ""
-"This tutorial will demonstrate building a scene switcher using autoloads. "
-"For basic scene switching, you can use the :ref:`SceneTree."
-"change_scene_to_file() <class_SceneTree_method_change_scene_to_file>` method "
-"(see :ref:`doc_scene_tree` for details). However, if you need more complex "
-"behavior when changing scenes, this method provides more functionality."
-msgstr ""
-"В этом руководстве будет продемонстрировано создание переключателя сцен с "
-"использованием автозагрузки. Для базового переключения сцен вы можете "
-"использовать метод :ref:`SceneTree.change_scene() "
-"<class_SceneTree_method_change_scene>` (подробности см. в :ref:"
-"`doc_scene_tree`). Однако, если вам нужно более сложное поведение при смене "
-"сцен, этот метод предоставляет больше функциональных возможностей."
-
-#, fuzzy
-msgid ""
-"To begin, download the template from here: `singleton_autoload_starter.zip "
-"<https://github.com/godotengine/godot-docs-project-starters/releases/"
-"download/latest-4.x/singleton_autoload_starter.zip>`_ and open it in Godot."
-msgstr ""
-"Для начала скачайте шаблон здесь: :download:`autoload.zip <files/autoload."
-"zip>` и откройте его в Godot."
-
-#, fuzzy
-msgid ""
-"The project contains two scenes: ``scene_1.tscn`` and ``scene_2.tscn``. Each "
-"scene contains a label displaying the scene name and a button with its "
-"``pressed()`` signal connected. When you run the project, it starts in "
-"``scene_1.tscn``. However, pressing the button does nothing."
-msgstr ""
-"Проект содержит две сцены: ``Scene1.tscn`` and ``Scene2.tscn``. Каждая сцена "
-"содержит Label, отображающий название сцены и кнопку с подключенным сигналом "
-"``pressed()``. Когда вы запускаете проект, он начинается в ``Scene1.tscn``. "
-"Однако, нажатие кнопки ничего не даст."
-
-#, fuzzy
-msgid "Creating the script"
-msgstr "Создание скрипта"
-
-#, fuzzy
-msgid ""
-"Open the **Script** window and create a new script called ``global.gd``. "
-"Make sure it inherits from ``Node``:"
-msgstr ""
-"Перейдите на вкладку **Script** и создайте новый скрипт под названием "
-"``Global.gd``. Убедитесь, что он унаследован от ``Node``:"
-
-#, fuzzy
-msgid ""
-"The next step is to add this script to the autoLoad list. Open **Project > "
-"Project Settings** from the menu, switch to the **Autoload** tab and select "
-"the script by clicking the browse button or typing its path: ``res://global."
-"gd``. Press **Add** to add it to the autoload list:"
-msgstr ""
-"Следующим шагом будет добавление этого скрипта в список автозагрузки. "
-"Откройте из меню **Project -> Project Settings**, перейдите на вкладку "
-"**AutoLoad** и выберите скрипт, нажав на кнопку выбора файлов или напечатав "
-"его путь: ``res://Global.gd``. Нажмите **Add**, чтобы добавить его в список "
-"автозагрузки:"
 
 msgid ""
 "Now whenever we run any scene in the project, this script will always be "
@@ -258,19 +115,6 @@ msgid ""
 msgstr ""
 "Теперь всякий раз, когда мы запускаем какую-либо сцену в проекте, этот "
 "скрипт всегда будет загружен."
-
-#, fuzzy
-msgid ""
-"Returning to the script, it needs to fetch the current scene in the "
-"`_ready()` function. Both the current scene (the one with the button) and "
-"``global.gd`` are children of root, but autoloaded nodes are always first. "
-"This means that the last child of root is always the loaded scene."
-msgstr ""
-"Возвращаясь к скрипту, он должен получить текущую сцену в функции "
-"`_ready()`. Как текущая (сцена с кнопкой), так и сцена ``Global.gd`` "
-"являются дочерними корня, но узлы автозагрузки всегда загружаются первыми. "
-"Это означает, что последним дочерним элементом корня всегда будет "
-"загруженная сцена."
 
 msgid ""
 "Now we need a function for changing the scene. This function needs to free "

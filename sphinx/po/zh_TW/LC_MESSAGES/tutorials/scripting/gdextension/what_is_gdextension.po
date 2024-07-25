@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,28 +122,12 @@ msgid ""
 msgstr ""
 "支援將 :ref:`C++ 模組 <doc_custom_modules_in_c++>` 靜態連結到引擎二進位檔中。"
 
-#, fuzzy
-msgid ""
-"C++ modules provide deeper integration into the engine. GDExtension's access "
-"is not as deep as static modules."
-msgstr "C++ 模組與引擎的集成更加緊密。GDExtension 對引擎的存取沒有靜態模組深入"
-
 msgid ""
 "You can use C++ modules to provide additional features in a project without "
 "carrying native library files around. This extends to exported projects."
 msgstr ""
 "使用 C++ 模組為專案提供額外功能，就可以免去攜帶原生庫檔的麻煩。同樣也適用於匯"
 "出的專案。"
-
-#, fuzzy
-msgid ""
-"If you notice that specific systems are not accessible via GDExtension but "
-"are via custom modules, feel free to open an issue on the `godot-cpp "
-"repository <https://github.com/godotengine/godot-cpp>`__ to discuss "
-"implementation options for exposing the missing functionality."
-msgstr ""
-"<https://github.com/godotengine/godot-cpp>`__上提出問題來討論實作選項暴露缺失"
-"的功能。"
 
 msgid "Supported languages"
 msgstr "支援的圖片格式"
@@ -172,26 +151,6 @@ msgstr ""
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "以下綁定是由社區開發並維護的："
 
-#, fuzzy
-msgid "`D <https://github.com/godot-dlang/godot-dlang>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-#, fuzzy
-msgid "`Go <https://github.com/grow-graphics/gd>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-#, fuzzy
-msgid "`Haxe <https://hxgodot.github.io/>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-#, fuzzy
-msgid "`Rust <https://github.com/godot-rust/gdext>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-#, fuzzy
-msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
 msgid ""
 "Not all bindings mentioned here may be production-ready. Make sure to "
 "research options thoroughly before starting a project with one of those. "
@@ -213,14 +172,6 @@ msgstr ""
 "為特定版本 Godot 編譯的 GDExtension 外掛程式只保證能夠在相同次要版本上可用。"
 "例如，為 Godot 4.0 版本編譯的 GDExtension 外掛程式只能用於 Godot 4.0、4.0.1、"
 "4.0.2……另外 GDExtension 與 Godot 3.x 不相容。"
-
-msgid ""
-"GDExtension add-ons are also only compatible with engine builds that use the "
-"level of floating-point precision the extension was compiled for. This means "
-"that if you use an engine build with double-precision floats, the extension "
-"must also be compiled for double-precision floats. See :ref:"
-"`doc_large_world_coordinates` for details."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

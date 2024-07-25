@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,9 +143,9 @@ msgstr ""
 "Wenn Sie :kbd:`Umschalt` gedrückt halten, während Sie im Vorschau-"
 "Environment-Editor auf **Sonne zu Szene hinzufügen** oder **Environment zu "
 "Szene hinzufügen** klicken, werden sowohl eine Vorschausonne als auch eine "
-"Environment zur aktuellen Szene hinzugefügt (als hätten Sie beide "
-"Schaltflächen separat angeklickt). Verwenden Sie dies, um die "
-"Projekteinrichtung und das Prototyping zu beschleunigen."
+"Environment zur aktuellen Szene hinzugefügt (als hätten Sie beide Buttons "
+"separat angeklickt). Verwenden Sie dies, um die Projekteinrichtung und das "
+"Prototyping zu beschleunigen."
 
 msgid "Camera attributes"
 msgstr "Kamera-Attribute"
@@ -1165,11 +1160,17 @@ msgid ""
 "inspector: **Levels**, **Normalized**, **Strength**, **Blend Mode**, "
 "**Mix**, **Map**, and **Map Strength**."
 msgstr ""
+"Bei Verwendung der Kompatibilitäts-Rendering-Methode verwendet glow eine "
+"andere Implementierung, bei der einige Propertys nicht verfügbar und aus dem "
+"Inspektor ausgeblendet sind: **Stufen**, **Normalisiert**, **Stärke**, "
+"**Blending-Modus**, **Mix**, **Abbilden** und **Abbildungsstärke**."
 
 msgid ""
 "This implementation is optimized to run on low-end devices and is less "
 "flexible as a result."
 msgstr ""
+"Diese Implementierung ist für die Ausführung auf Low-End-Geräten optimiert "
+"und ist daher weniger flexibel."
 
 msgid ""
 "In photography and film, when light amount exceeds the maximum *luminance* "

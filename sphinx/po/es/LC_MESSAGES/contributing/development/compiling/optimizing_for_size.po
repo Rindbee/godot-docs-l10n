@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,16 +87,6 @@ msgstr ""
 "los nombres de las funciones (esto no afecta al profiler integrado de "
 "GDScript)."
 
-#, fuzzy
-msgid ""
-"The above command will not work on Windows binaries compiled with MSVC and "
-"platforms such as Android and Web. Instead, pass ``debug_symbols=no`` on the "
-"SCons command line when compiling."
-msgstr ""
-"El comando anterior no funcionará en los binarios de Windows compilados con "
-"MSVC, ni en plataformas como Android y HTML5. En su lugar, pasa la opción "
-"``debug_symbols=no`` en la línea de comandos de SCons al compilar."
-
 msgid "Compiling with link-time optimization"
 msgstr "Compilando con optimización en tiempo de enlace"
 
@@ -143,10 +128,6 @@ msgstr ""
 msgid "Optimizing for size instead of speed"
 msgstr "Optimizando para tamaño en lugar de velocidad"
 
-#, fuzzy
-msgid "**Performed in official builds:** Yes, but only for web builds"
-msgstr "**Realizado en compilaciones oficiales:** Sí, pero solo para HTML5"
-
 msgid ""
 "Godot 3.1 onwards allows compiling using size optimizations (instead of "
 "speed). To enable this, set the ``optimize`` flag to ``size``:"
@@ -160,51 +141,8 @@ msgstr ""
 "Algunas plataformas, como WebAssembly, ya utilizan este modo de forma "
 "predeterminada."
 
-#, fuzzy
-msgid "Disabling advanced text server"
-msgstr "Deshabilitar objetos de la GUI avanzados"
-
 msgid "**Performed in official builds:** No"
 msgstr "**Realizado en compilaciones oficiales:** No"
-
-msgid ""
-"By default, Godot uses an advanced text server with the support for the "
-"following features:"
-msgstr ""
-
-msgid ""
-"Right-to-left typesetting and complex scripts, required to write languages "
-"such as Arabic and Hebrew."
-msgstr ""
-
-msgid ""
-"Font ligatures and OpenType features (such as small capitals, fractions and "
-"slashed zero)."
-msgstr ""
-
-msgid ""
-"Godot provides a fallback text server that isn't compiled by default. This "
-"text server can be used as a lightweight alternative to the default advanced "
-"text server:"
-msgstr ""
-
-msgid ""
-"If you only intend on supporting Latin, Greek and Cyrillic-based languages "
-"in your project, the fallback text server should suffice."
-msgstr ""
-
-msgid ""
-"This fallback text server can also process large amounts of text more "
-"quickly than the advanced text server. This makes the fallback text server a "
-"good fit for mobile/web projects."
-msgstr ""
-
-msgid ""
-"Remember to always pass ``module_text_server_fb_enabled=yes`` when using "
-"``module_text_server_adv_enabled=no``. Otherwise, the compiled binary won't "
-"contain any text server, which means no text will be displayed at all when "
-"running the project."
-msgstr ""
 
 msgid "Disabling 3D"
 msgstr "Desabilitando 3D"
@@ -227,11 +165,6 @@ msgstr ""
 "Las herramientas deben estar deshabilitadas para usar esta opción, ya que el "
 "editor no está diseñado para funcionar sin soporte 3D. Sin él, el tamaño del "
 "binario puede reducirse aproximadamente en un 15%."
-
-msgid ""
-"Disabling 3D support also disables all navigation. This includes 2D "
-"navigation, as it uses the 3D navigation system internally."
-msgstr ""
 
 msgid "Disabling advanced GUI objects"
 msgstr "Deshabilitar objetos de la GUI avanzados"
@@ -259,17 +192,6 @@ msgstr "Árbol"
 msgid "TextEdit"
 msgstr "TextEdit"
 
-#, fuzzy
-msgid "CodeEdit"
-msgstr "TextEdit"
-
-msgid "SyntaxHighlighter"
-msgstr ""
-
-#, fuzzy
-msgid "CodeHighlighter"
-msgstr "Filtro de paso alto"
-
 msgid "TreeItem"
 msgstr "TreeItem"
 
@@ -284,10 +206,6 @@ msgstr "ColorPicker"
 
 msgid "ColorPickerButton"
 msgstr "ColorPickerButton"
-
-#, fuzzy
-msgid "RichTextlabel"
-msgstr "RichTextLabel"
 
 msgid "RichTextEffect"
 msgstr "RichTextEffect"
@@ -312,10 +230,6 @@ msgstr "SplitContainer"
 
 msgid "HSplitContainer"
 msgstr "HSplitContainer"
-
-#, fuzzy
-msgid "VSplitContainer"
-msgstr "SplitContainer"
 
 msgid "GraphNode"
 msgstr "GraphNode"
@@ -348,18 +262,6 @@ msgstr ""
 "las opciones de compilación. Si estás trabajando en un juego simple en 2D, "
 "podrías desactivar muchos de ellos:"
 
-#, fuzzy
-msgid ""
-"If this proves not to work for your use case, you should review the list of "
-"modules and see which ones you actually still need for your game (e.g. you "
-"might want to keep networking-related modules, regex support, ``minimp3``/"
-"``ogg``/``vorbis`` to play music, or ``theora`` to play videos)."
-msgstr ""
-"Si esto no funciona para tu caso de uso, deberías revisar la lista de "
-"módulos y ver cuáles aún necesitas realmente para tu juego (por ejemplo, es "
-"posible que desees conservar los módulos relacionados con la red, el soporte "
-"de expresiones regulares o theora/webm para reproducir videos)."
-
 msgid ""
 "Alternatively, you can supply a list of disabled modules by creating "
 "``custom.py`` at the root of the source, with the contents similar to the "
@@ -372,67 +274,8 @@ msgstr ""
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ":ref:`doc_overriding_build_options`."
 
-#, fuzzy
-msgid "Optimizing the distribution of your project"
-msgstr "Optimizando una compilación para reducir el tamaño"
-
-#, fuzzy
-msgid "Desktop"
-msgstr "**Descripción**"
-
-msgid ""
-"This section is only relevant when distributing the files on a desktop "
-"platform that doesn't perform its own compression or packing. As such, this "
-"advice is relevant when you distribute ZIP archives on itch.io or GitHub "
-"Releases."
-msgstr ""
-
-msgid ""
-"Platforms like Steam already apply their own compression scheme, so you "
-"don't need to create a ZIP archive to distribute files in the first place."
-msgstr ""
-
-msgid ""
-"As an aside, you can look into optimizing the distribution of your project "
-"itself. This can be done even without recompiling the export template."
-msgstr ""
-
-msgid ""
-"`7-Zip <https://7-zip.org/>`__ can be used to create ZIP archives that are "
-"more efficient than usual, while remaining compatible with every ZIP "
-"extractor (including Windows' own built-in extractor). ZIP size reduction in "
-"a large project can reach dozens of megabytes compared to a typical ZIP "
-"compressor, although average savings are in the 1-5 MB range. Creating this "
-"ZIP archive will take longer than usual, but it will extract just as fast as "
-"any other ZIP archive."
-msgstr ""
-
-msgid ""
-"When using the 7-Zip GUI, this is done by creating a ZIP archive with the "
-"Ultra compression mode. When using the command line, this is done using the "
-"following command:"
-msgstr ""
-
 msgid "Web"
 msgstr "Web"
-
-msgid ""
-"Enabling gzip or Brotli compression for all file types from the web export "
-"(especially the ``.wasm`` and ``.pck``) can reduce the download size "
-"significantly, leading to faster loading times, especially on slow "
-"connections."
-msgstr ""
-
-msgid ""
-"Creating precompressed gzip or Brotli files with a high compression level "
-"can be even more efficient, as long as the web server is configured to serve "
-"those files when they exist. When supported, Brotli should be preferred over "
-"gzip as it has a greater potential for file size reduction."
-msgstr ""
-
-#, fuzzy
-msgid "See :ref:`doc_exporting_for_web_serving_the_files` for instructions."
-msgstr "Ver :ref:`doc_exporting_projects` para más información."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

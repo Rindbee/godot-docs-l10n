@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,12 +35,6 @@ msgid ""
 msgstr ""
 "點擊 **產生實體** 按鈕（由鏈條圖示表示）並選擇保存的 ``player.tscn`` 。"
 
-#, fuzzy
-msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr ""
-"現在，將下列節點新增為 ``Main`` 的子節點，並他們的名稱如下（數值單位為秒）："
-
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
 "spawn"
@@ -70,12 +59,6 @@ msgid ""
 msgstr ""
 ":ref:`Position2D <class_Position2D>` （名為 ``StartPosition`` ）——用以判斷玩"
 "家的起始位置"
-
-#, fuzzy
-msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
-"(values are in seconds):"
-msgstr "將每個 ``Timer`` 節點的 ``Wait Time`` （等待時間）屬性按照如下設定："
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``: ``0.5``"
@@ -154,14 +137,6 @@ msgid ""
 msgstr ""
 "為 ``Main`` 新增一個腳本。在腳本的頂部，我們會用 ``export (PackedScene)`` 來"
 "選擇要實體化的 ``Mob`` 場景。"
-
-#, fuzzy
-msgid ""
-"Click the ``Main`` node and you will see the ``Mob Scene`` property in the "
-"Inspector under \"Main.gd\"."
-msgstr ""
-"點擊 ``Main`` 節點，接著可以在屬性面板中的「Script Variables」（腳本變數）中"
-"看到 ``Mob`` 屬性。"
 
 msgid "You can assign this property's value in two ways:"
 msgstr "要為這個屬性賦值有兩個方法："
@@ -270,14 +245,6 @@ msgid ""
 "player disappear when hit by a mob."
 msgstr ""
 "現在應該可以到處移動玩家了，並會看到怪物產生出來。玩家在被怪物撞到後會消失。"
-
-#, fuzzy
-msgid ""
-"When you're sure everything is working, remove the call to ``new_game()`` "
-"from ``_ready()`` and replace it with ``pass``."
-msgstr ""
-"確定好了所有東西都正常後，將呼叫 ``new_game()`` 的程式碼從 ``_ready()`` 裡刪"
-"除。"
 
 msgid ""
 "What's our game lacking? Some user interface. In the next lesson, we'll add "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -385,34 +380,8 @@ msgstr ""
 "resultados de búsqueda de AssetLib y en la página del recurso). Debe ser una "
 "imagen en formato PNG o JPG."
 
-#, fuzzy
-msgid ""
-"The **icon** must be square (1:1 aspect ratio). It should have a minimum "
-"resolution of 128×128 pixels."
-msgstr ""
-"El **ícono** debe ser cuadrado, su relación de aspecto debe ser de 1:1. "
-"Idealmente, también debe tener una resolución mínima de 64x64 píxeles."
-
-msgid ""
-"For icons hosted on GitHub, URLs must be provided in the form of `https://"
-"raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png`."
-msgstr ""
-
 msgid "**License**:"
 msgstr "**Licencia**:"
-
-#, fuzzy
-msgid ""
-"The license under which you are distributing the asset. The list includes a "
-"variety of free and open source software licenses, such as GPL (v2 and v3), "
-"MIT, BSD and Boost Software License. You can visit `OpenSource.org <https://"
-"opensource.org>`_ for a detailed description of each of the listed licenses."
-msgstr ""
-"La licencia bajo la cual está distribuyendo el recurso. La lista incluye una "
-"variedad de licencias de software libre y de código abierto, como la GPL (v2 "
-"y v3), MIT, BSD y Boost Software License. Puede visitar `OpenSource.org "
-"<https://opensource.org>`_ para una descripción detallada de cada una de las "
-"licencias listadas."
 
 msgid "**Description**:"
 msgstr "**Descripción**:"

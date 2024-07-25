@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,23 +82,6 @@ msgstr ""
 "de los objetos. Las texturas, los tamaños de los sprites, los pivotes, la "
 "opacidad, la modulación del color y más, pueden ser animados y mezclados."
 
-#, fuzzy
-msgid ""
-"**Combine animation styles**: AnimatedSprite2D allows traditional cel "
-"animation to be used alongside cutout animation. In cel animation different "
-"animation frames use entirely different drawings rather than the same pieces "
-"positioned differently. In an otherwise cutout-based animation, cel "
-"animation can be used selectively for complex parts such as hands, feet, "
-"changing facial expressions, etc."
-msgstr ""
-"**Combinar estilos de animación**: AnimatedSprite permite que la animación "
-"tradicional de celda se use junto con la animación de recorte. En la "
-"animación de celdas, diferentes cuadros de animación usan dibujos "
-"completamente diferentes en vez de las mismas piezas posicionadas de manera "
-"diferente. En una animación basada en los recortes, la animación de celda "
-"puede ser usada selectivamente para partes complejas como manos, pies, "
-"expresiones faciales cambiantes, etc."
-
 msgid ""
 "**Custom Shaped Elements**: Custom shapes can be created with :ref:"
 "`Polygon2D <class_Polygon2D>` allowing UV animation, deformations, etc."
@@ -150,12 +128,6 @@ msgstr ""
 "personaje `GBot <https://www.youtube.com/watch?"
 "v=S13FrWuBMx4&list=UUckpus81gNin1aV8WSffRKw>`__, creado por Andreas Esau."
 
-msgid ""
-"Get your assets: `cutout_animation_assets.zip <https://github.com/"
-"godotengine/godot-docs-project-starters/releases/download/latest-4.x/"
-"cutout_animation_assets.zip>`_."
-msgstr ""
-
 msgid "Setting up the rig"
 msgstr "Preparando el mecanismo de montaje"
 
@@ -191,33 +163,8 @@ msgstr ""
 msgid "The rotation pivot is wrong and needs to be adjusted."
 msgstr "El pivote de rotación está mal y necesita ser ajustado."
 
-#, fuzzy
-msgid ""
-"This small cross in the middle of the :ref:`Sprite2D <class_Sprite2D>` is "
-"the rotation pivot:"
-msgstr ""
-"Esta pequeña cruz en el medio del :ref:`Sprite <class_Sprite>` es el pivote "
-"de rotación:"
-
 msgid "Adjusting the pivot"
 msgstr "Ajustando el pivote"
-
-#, fuzzy
-msgid ""
-"The pivot can be adjusted by changing the *offset* property in the Sprite2D:"
-msgstr ""
-"El pivote puede ser ajustado cambiando la propiedad *offset* en el Sprite:"
-
-#, fuzzy
-msgid ""
-"The pivot can also be adjusted *visually*. While hovering over the desired "
-"pivot point,  press :kbd:`V` to move the pivot there for the selected "
-"Sprite2D. There is also a tool in the tool bar that has a similar function."
-msgstr ""
-"El pivote también puede ser ajustado *visualmente*. Al pasar el cursor sobre "
-"el punto de pivote deseado, presiona :kbd:`V` para mover el pivote allí para "
-"el Sprite seleccionado. También hay una herramienta en la barra de "
-"herramientas que tiene una función similar."
 
 msgid ""
 "Continue adding body pieces, starting with the right arm. Make sure to put "
@@ -372,17 +319,6 @@ msgstr ""
 "su padre. Y actualmente no hay ningún hijo del nodo de la mano. Con este "
 "conocimiento vamos a intentarlo de nuevo."
 
-#, fuzzy
-msgid ""
-"The first step is creating an endpoint node. Any kind of node will do, but :"
-"ref:`Marker2D <class_Marker2D>` is preferred because it's visible in the "
-"editor. The endpoint node will ensure that the last bone has orientation."
-msgstr ""
-"El primer paso es crear un nodo de punto final. Cualquier tipo de nodo "
-"servirá, pero :ref:`Position2D <class_Position2D>` es el más adecuado porque "
-"es visible desde el editor. El nodo del punto final asegurará que el último "
-"hueso tenga orientación."
-
 msgid ""
 "Now select the whole chain, from the endpoint to the arm and create bones:"
 msgstr ""
@@ -437,30 +373,6 @@ msgstr ""
 msgid "IK chains"
 msgstr "cadenas IK"
 
-#, fuzzy
-msgid ""
-"IK stands for inverse kinematics. It's a convenient technique for animating "
-"the position of hands, feet and other extremities of rigs like the one we've "
-"made. Imagine you want to pose a character's foot in a specific position on "
-"the ground. Without IK chains, each motion of the foot would require "
-"rotating and positioning several other bones (the shin and the thigh at "
-"least). This would be quite complex and lead to imprecise results. IK allows "
-"us to move the foot directly while the shin and thigh self-adjust."
-msgstr ""
-"IK significa cinemática inversa. Es una técnica conveniente para animar la "
-"posición de manos, pies y otras extremidades de plataformas como la que "
-"hemos hecho. Imagina que quieres posar el pie de un personaje en una "
-"posición específica en el suelo. Sin las cadenas IK, cada movimiento del pie "
-"requeriría rotar y posicionar varios otros huesos (la espinilla y el muslo "
-"por lo menos). Esto sería bastante complejo y llevaría a resultados "
-"imprecisos."
-
-msgid ""
-"**IK chains in Godot currently work in the editor only**, not at runtime. "
-"They are intended to ease the process of setting keyframes, and are not "
-"currently useful for techniques like procedural animation."
-msgstr ""
-
 msgid ""
 "To create an IK chain, select a chain of bones from endpoint to the base for "
 "the chain. For example, to create an IK chain for the right leg, select the "
@@ -475,16 +387,6 @@ msgstr "Entonces habilita esta cadena para IK. Ve a Edición > Hacer cadena IK."
 
 msgid "As a result, the base of the chain will turn *Yellow*."
 msgstr "Como resultado, la base de la cadena se volverá *amarilla*."
-
-#, fuzzy
-msgid ""
-"Once the IK chain is set up, grab any child or grand-child of the base of "
-"the chain (e.g. a foot), and move it. You'll see the rest of the chain "
-"adjust as you adjust its position."
-msgstr ""
-"Una vez que la cadena IK esté colocada, agarra a cualquier niño o nieto de "
-"la base de la cadena (por ejemplo, un pie) y muévelo. Verás que el resto de "
-"la cadena se ajusta a medida que ajustas su posición."
 
 msgid "Animation tips"
 msgstr "Recomendaciones para animaciones"

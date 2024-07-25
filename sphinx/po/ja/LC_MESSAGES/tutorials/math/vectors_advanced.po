@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,21 +44,6 @@ msgstr ""
 "グの位置を決定するため)などに表示されます。\\ **法線** *は* **単位ベクトル** "
 "ですが、その使用上は *法線* と呼ばれています。(普通に(0,0)をオリジンと呼んで"
 "いるのと同様に！)。"
-
-#, fuzzy
-msgid ""
-"The plane passes by the origin and the surface of it is perpendicular to the "
-"unit vector (or *normal*). The side towards the vector points to is the "
-"positive half-space, while the other side is the negative half-space. In 3D "
-"this is exactly the same, except that the plane is an infinite surface "
-"(imagine an infinite, flat sheet of paper that you can orient and is pinned "
-"to the origin) instead of a line."
-msgstr ""
-"それは、見た目と同じくらい簡単です。平面は原点を通り、そのサーフェスは単位ベ"
-"クトル(または *法線*)に垂直です。ベクトルが指す側は正の半空間であり、反対側は"
-"負の半空間です。3Dでは、平面が線ではなく無限のサーフェス(方向を指定でき、原点"
-"に固定されている無限に広がる平らな用紙を想像してください)という点を除けば、こ"
-"れはまったく同じです。"
 
 msgid "Distance to plane"
 msgstr "平面までの距離"
@@ -162,23 +142,6 @@ msgstr ""
 "平面の極性を反転させるには、NとDの両方を反極性にします(+-の反転)。これによ"
 "り、平面は同じ位置になりますが、負と正の半空間が逆になります:"
 
-#, fuzzy
-msgid ""
-"Godot also implements this operator in :ref:`Plane <class_Plane>`. So, using "
-"the format below will work as expected:"
-msgstr ""
-"もちろん、Godotは :ref:`Plane <class_Plane>` にもこの演算子を実装しています:"
-
-#, fuzzy
-msgid ""
-"So, remember, the plane's main practical use is that we can calculate the "
-"distance to it. So, when is it useful to calculate the distance from a point "
-"to a plane? Let's see some examples."
-msgstr ""
-"ですから、その主な実用的な用途は、平面への距離を計算することと覚えておいてく"
-"ださい。それでは、なぜ点から平面までの距離を計算できると便利なのでしょうか？"
-"それはとても便利です！いくつかの簡単な例を見てみましょう..。"
-
 msgid "Constructing a plane in 2D"
 msgstr "2Dで平面を構築する"
 
@@ -191,15 +154,6 @@ msgstr ""
 "らを2Dで作成するのは簡単です。これは、法線(単位ベクトル)と点、または空間内の2"
 "つの点のいずれかから実行できます。"
 
-#, fuzzy
-msgid ""
-"In the case of a normal and a point, most of the work is done, as the normal "
-"is already computed, so calculate D from the dot product of the normal and "
-"the point."
-msgstr ""
-"法線と点の場合、法線はすでに計算されているため、ほとんどの作業が行われます。"
-"したがって、法線と点のドット積からDを計算するだけです。"
-
 msgid ""
 "For two points in space, there are actually two planes that pass through "
 "them, sharing the same space but with normal pointing to the opposite "
@@ -211,33 +165,8 @@ msgstr ""
 "ますが、法線は反対方向を指します。 2点から法線を計算するには、最初に方向ベク"
 "トルを取得してから、どちらかの側に90度回転する必要があります:"
 
-#, fuzzy
-msgid ""
-"The rest is the same as the previous example. Either point_a or point_b will "
-"work, as they are in the same plane:"
-msgstr ""
-"残りは前の例と同じですが、point_aまたはpoint_bは同じ平面上にあるのでどちらで"
-"も動作します:"
-
-#, fuzzy
-msgid ""
-"Doing the same in 3D is a little more complex and is explained further down."
-msgstr "3Dで同じことを行うことは、もう少し複雑でなので、後に詳しく説明します。"
-
 msgid "Some examples of planes"
 msgstr "平面処理に関するいくつかの例"
-
-#, fuzzy
-msgid ""
-"Here is an example of what planes are useful for. Imagine you have a `convex "
-"<https://www.mathsisfun.com/definitions/convex.html>`__ polygon. For "
-"example, a rectangle, a trapezoid, a triangle, or just any polygon where no "
-"faces bend inwards."
-msgstr ""
-"ここでは、平面処理用の関数が役立つ簡単な例を示します。 `凸型(convex) "
-"<https://www.mathsisfun.com/definitions/convex.html>`__ ポリゴンがあるとしま"
-"す。たとえば、四角形、台形、三角形、またはフェースが内側に曲がらないポリゴン"
-"などです。"
 
 msgid ""
 "For every segment of the polygon, we compute the plane that passes by that "
@@ -358,24 +287,8 @@ msgstr "したがって、最終的なアルゴリズムは次のようになり
 msgid "More information"
 msgstr "より多くの情報"
 
-#, fuzzy
-msgid ""
-"For more information on using vector math in Godot, see the following "
-"article:"
-msgstr ""
-"Godotでのベクトル演算の使用の詳細については、次の記事を参照してください:"
-
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
-
-#, fuzzy
-msgid ""
-"If you would like additional explanation, you should check out 3Blue1Brown's "
-"excellent video series \"Essence of Linear Algebra\": https://www.youtube."
-"com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
-msgstr ""
-"追加の説明が必要な場合は、線形変換に関する3Blue1Brownの優れたビデオをご覧くだ"
-"さい: https://www.youtube.com/watch?v=kYB8IZa5AuE"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

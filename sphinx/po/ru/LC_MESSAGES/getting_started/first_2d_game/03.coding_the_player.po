@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,34 +55,6 @@ msgstr ""
 msgid "Start by declaring the member variables this object will need:"
 msgstr ""
 "Начните с объявления переменных - членов, которые понадобятся этому объекту:"
-
-#, fuzzy
-msgid ""
-"Using the ``export`` keyword on the first variable ``speed`` allows us to "
-"set its value in the Inspector. This can be handy for values that you want "
-"to be able to adjust just like a node's built-in properties. Click on the "
-"``Player`` node and you'll see the property now appears in the Inspector in "
-"a new section with the name of the script. Remember, if you change the value "
-"here, it will override the value written in the script."
-msgstr ""
-"Использование ключевого слова ``export`` у первой переменной ``speed`` "
-"позволяет устанавливать ее значение в Инспекторе. Это может быть полезно, "
-"если вы хотите изменять значения точно так же как и встроенные свойства "
-"узла. Щелкните на узел ``Player`` и вы увидите, что свойство появилось в "
-"разделе \"Script Variables\" в Инспекторе. Помните, что если изменить "
-"значение здесь, то оно перезапишет значение, установленное в скрипте."
-
-#, fuzzy
-msgid ""
-"If you're using C#, you need to (re)build the project assemblies whenever "
-"you want to see new export variables or signals. This build can be manually "
-"triggered by clicking the **Build** button at the top right of the editor."
-msgstr ""
-"Если вы используете C#, вам нужно (пере)собирать сборки проекта всякий раз, "
-"когда вы хотите увидеть новые экспортируемые переменные или сигналы. Эта "
-"сборка может быть запущена вручную путем нажатия на слово \"Mono\" в нижней "
-"части окна редактора, чтобы открыть Mono Panel, а затем на кнопку \"Build "
-"Project\"."
 
 msgid ""
 "Your ``player.gd`` script should already contain a ``_ready()`` and a "
@@ -255,17 +222,6 @@ msgstr ""
 "``$AnimatedSprite.play()`` то же самое, что и ``get_node(\"AnimatedSprite\")."
 "play()``."
 
-#, fuzzy
-msgid ""
-"In GDScript, ``$`` returns the node at the relative path from the current "
-"node, or returns ``null`` if the node is not found. Since AnimatedSprite2D "
-"is a child of the current node, we can use ``$AnimatedSprite2D``."
-msgstr ""
-"В GDScript, ``$`` возвращает узел по относительному пути от текущего узла "
-"или возвращает ``null``, если узел не найден. Поскольку AnimatedSprite "
-"является дочерним элементом текущего узла, мы можем использовать "
-"``$AnimatedSprite``."
-
 msgid ""
 "Now that we have a movement direction, we can update the player's position. "
 "We can also use ``clamp()`` to prevent it from leaving the screen. "
@@ -288,15 +244,6 @@ msgstr ""
 "то есть время, потраченное на завершение обработки предыдущего кадра. "
 "Благодаря использованию этого значения скорость движения будет постоянной "
 "даже при изменении частоты кадров."
-
-#, fuzzy
-msgid ""
-"Click \"Run Current Scene\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) and confirm "
-"you can move the player around the screen in all directions."
-msgstr ""
-"Нажмите \"Запустить сцену\" (:kbd:`F6`, :kbd:`Cmd + R` on macOS) и "
-"удостоверьтесь, что вы можете перемещать игрока по экрану во всех "
-"направлениях."
 
 msgid "If you get an error in the \"Debugger\" panel that says"
 msgstr "Если вы получаете ошибку в панели \"Отладчик\", с надписью"

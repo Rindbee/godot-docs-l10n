@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "Using MultiMeshInstance3D"
-msgstr "マルチメッシュインスタンス(MultiMeshInstance)の使用"
-
 msgid "Introduction"
 msgstr "はじめに"
 
-#, fuzzy
-msgid ""
-"In a normal scenario, you would use a :ref:`MeshInstance3D "
-"<class_MeshInstance3D>` node to display a 3D mesh like a human model for the "
-"main character, but in some cases, you would like to create multiple "
-"instances of the same mesh in a scene. You *could* duplicate the same node "
-"multiple times and adjust the transforms manually. This may be a tedious "
-"process and the result may look mechanical. Also, this method is not "
-"conducive to rapid iterations. :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>` is one of the possible solutions to this "
-"problem."
-msgstr ""
-"一般的なシナリオでは、 :ref:`MeshInstance <class_MeshInstance>` ノードを使用"
-"して、メインキャラクターの人間モデルのような3Dメッシュを表示しますが、場合に"
-"よっては、シーン内に同じメッシュの複数のインスタンスを作成したいことがありま"
-"す。 *多分* 同じノードを複数回複製し、変換を手動で調整することができますが、 "
-"これは退屈なプロセスであり、結果は機械的に見えるかもしれません。 また、この方"
-"法は、迅速な反復作業には役に立ちません。 :ref:`MultiMeshInstance "
-"<class_MultiMeshInstance>` は、この問題の解決策の1つです。"
-
-#, fuzzy
-msgid ""
-"MultiMeshInstance3D, as the name suggests, creates multiple copies of a "
-"MeshInstance over a surface of a specific mesh. An example would be having a "
-"tree mesh populate a landscape mesh with trees of random scales and "
-"orientations."
-msgstr ""
-"MultiMeshInstanceは、名前が示すように、特定のメッシュの表面上にMeshInstanceの"
-"複数のコピーを作成します。例として、ランダムなスケールと方向のツリーをランド"
-"スケープメッシュに設定するツリーメッシュがあります。"
-
 msgid "Setting up the nodes"
 msgstr "ノードのセットアップ"
-
-#, fuzzy
-msgid ""
-"The basic setup requires three nodes: the MultiMeshInstance3D node and two "
-"MeshInstance3D nodes."
-msgstr ""
-"基本的なセットアップには、MultiMeshInstanceノードと2つのMeshInstanceノードの3"
-"つのノードが必要です。"
-
-#, fuzzy
-msgid ""
-"One node is used as the target, the surface mesh that you want to place "
-"multiple meshes on. In the tree example, this would be the landscape."
-msgstr ""
-"1つのノードがターゲット、つまり複数のメッシュを配置するメッシュとして使用され"
-"ます。ツリーの例では、これが風景になります。"
 
 msgid ""
 "The other node is used as the source, the mesh that you want to have "
@@ -81,30 +25,9 @@ msgstr ""
 "もう一方のノードは、複製するメッシュのソースとして使用されます。ツリーの場"
 "合、これはツリー自体になります。"
 
-#, fuzzy
-msgid ""
-"In our example, we would use a :ref:`Node3D <class_Node3D>` node as the root "
-"node of the scene. Your scene tree would look like this:"
-msgstr ""
-"この例では、シーンのルートノードとして :ref:`Spatial <class_Spatial>` ノード"
-"を使用します。シーンツリーは次のようになります:"
-
 msgid "For simplicity's sake, this tutorial uses built-in primitives."
 msgstr ""
 "簡単にするために、このチュートリアルでは組み込みのプリミティブを使用します。"
-
-#, fuzzy
-msgid ""
-"Now you have everything ready. Select the MultiMeshInstance3D node and look "
-"at the toolbar, you should see an extra button called ``MultiMesh`` next to "
-"``View``. Click it and select *Populate surface* in the dropdown menu. A new "
-"window titled *Populate MultiMesh* will pop up."
-msgstr ""
-"これで準備が整いました。MultiMeshInstanceノードを選択してツールバーを見る"
-"と、\\ ``ビュー`` の横に ``MultiMesh`` という追加のボタンが表示されます。それ"
-"をクリックして、ドロップダウンメニューで[*サーフェスを満たす*]を選択しま"
-"す。\\ *マルチメッシュの設定* というタイトルの新しいウィンドウがポップアップ"
-"します。"
 
 msgid "MultiMesh settings"
 msgstr "マルチメッシュの設定"

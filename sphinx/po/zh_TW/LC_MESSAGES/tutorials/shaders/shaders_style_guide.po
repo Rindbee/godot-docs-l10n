@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,18 +23,6 @@ msgid ""
 msgstr ""
 "本風格指南列出了編寫優雅著色器的規範。其目的是鼓勵編寫乾淨、可讀的程式碼，並"
 "促進各專案、討論和教學的一致性。希望這也能支援自動格式化工具的發展。"
-
-#, fuzzy
-msgid ""
-"Since the Godot shader language is close to C-style languages and GLSL, this "
-"guide is inspired by Godot's own GLSL formatting. You can view examples of "
-"GLSL files in Godot's source code `here <https://github.com/godotengine/"
-"godot/blob/master/drivers/gles3/shaders/>`__."
-msgstr ""
-"由於 Godot 的著色器語言與 C 風格語言和 GLSL 很接近，所以本指南的靈感來自於 "
-"Godot 自己的 GLSL 格式。你可以在 Godot 的原始程式碼中查看 GLSL 檔的`例子 "
-"<https://github.com/godotengine/godot/blob/master/drivers/gles2/shaders/copy."
-"glsl>`__。"
 
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
@@ -178,22 +161,6 @@ msgid ""
 msgstr ""
 "在著色器編輯器中, 要使選定的程式碼成為注釋或取消注釋, 按 :kbd:`Ctrl + K` . 該"
 "功能在所選行的開頭新增或刪除 ``//`` ."
-
-#, fuzzy
-msgid "Documentation comments"
-msgstr "撰寫自定說明文件"
-
-msgid ""
-"Use the following format for documentation comments above uniforms, with "
-"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
-msgstr ""
-
-msgid ""
-"These comments will appear when hovering a property in the inspector. If you "
-"don't wish the comment to be visible in the inspector, use the standard "
-"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
-"asterisk)."
-msgstr ""
 
 msgid "Whitespace"
 msgstr "空格"

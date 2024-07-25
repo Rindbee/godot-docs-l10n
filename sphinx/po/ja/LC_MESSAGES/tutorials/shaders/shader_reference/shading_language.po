@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -260,27 +255,6 @@ msgstr ""
 
 msgid "Comments"
 msgstr "コメント"
-
-#, fuzzy
-msgid ""
-"The shading language supports the same comment syntax as used in C# and C++:"
-msgstr ""
-"Godotシェーディング言語は、最も一般的なタイプの構文制御をサポートしています:"
-
-msgid ""
-"Additionally, you can use documentation comments that are displayed in the "
-"inspector when hovering a shader parameter. Documentation comments are "
-"currently only supported when placed immediately above a ``uniform`` "
-"declaration. These documentation comments only support the **multiline** "
-"comment syntax and must use **two** leading asterisks (``/**``) instead of "
-"just one (``/*``):"
-msgstr ""
-
-msgid ""
-"The asterisks on the follow-up lines are not required, but are recommended "
-"as per the :ref:`doc_shaders_style_guide`. These asterisks are automatically "
-"stripped by the inspector, so they won't appear in the tooltip."
-msgstr ""
 
 msgid "Casting"
 msgstr "キャスト"
@@ -1100,10 +1074,6 @@ msgstr ""
 msgid "**Transform2D**"
 msgstr "\\ **Transform2D**"
 
-#, fuzzy
-msgid "**Basis**"
-msgstr "Basis(基底)"
-
 msgid "**Projection**, **Transform3D**"
 msgstr "\\ **Projection**, **Transform3D**"
 
@@ -1284,11 +1254,6 @@ msgstr "インスタンス単位のUniform"
 msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
 msgstr ""
 "インスタンス単位のUniformは ``spatial`` (3D) シェーダーでのみ使用できます。"
-
-msgid ""
-"Per-instance uniforms are not supported when using the Compatibility "
-"renderer."
-msgstr ""
 
 msgid ""
 "Sometimes, you want to modify a parameter on each node using the material. "
@@ -1876,7 +1841,7 @@ msgid "bvec_type **not** (bvec_type x)"
 msgstr "\\ bvec_type **not** (bvec_type x)"
 
 msgid "Invert boolean vector."
-msgstr "boolベクトルの反転"
+msgstr "boolベクトルの反転。"
 
 msgid "ivec2 **textureSize** (gsampler2D s, int lod)"
 msgstr "\\ ivec2 **textureSize** (gsampler2D s, int lod)"
@@ -1914,29 +1879,6 @@ msgstr "\\ vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
 
 msgid "vec2 **textureQueryLod** (samplerCube s, vec3 p)"
 msgstr "\\ vec2 **textureQueryLod** (samplerCube s, vec3 p)"
-
-msgid ""
-"Compute the level-of-detail that would be used to sample from a texture. The "
-"``x`` component of the resulted value is the mipmap array that would be "
-"accessed. The ``y`` component is computed level-of-detail relative to the "
-"base level (regardless of the mipmap levels of the texture)."
-msgstr ""
-
-#, fuzzy
-msgid "int **textureQueryLevels** (gsampler2D s)"
-msgstr "\\ ivec3 **textureSize** ( sampler3D s, int lod )"
-
-#, fuzzy
-msgid "int **textureQueryLevels** (gsampler2DArray s)"
-msgstr "\\ ivec3 **textureSize** ( sampler2DArray_type s, int lod )"
-
-#, fuzzy
-msgid "int **textureQueryLevels** (gsampler3D s)"
-msgstr "\\ ivec3 **textureSize** ( sampler3D s, int lod )"
-
-#, fuzzy
-msgid "int **textureQueryLevels** (samplerCube s)"
-msgstr "\\ ivec2 **textureSize** ( samplerCube s, int lod )"
 
 msgid "Get the number of accessible mipmap levels of a texture."
 msgstr "テクスチャのアクセス可能なミップマップレベルの数を取得する。"
@@ -1996,403 +1938,11 @@ msgstr "\\ vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
 msgid "Perform a texture read at custom mipmap."
 msgstr "カスタムミップマップでテクスチャの読み取りを実行する。"
 
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0.0`` will use "
-"the full resolution texture. If the texture lacks mipmaps, all LOD values "
-"will act like ``0.0``."
-msgstr ""
-
-#, fuzzy
-msgid "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
-msgstr ""
-"\\ vec4_type **textureProjLod** ( sampler2D_type s, vec3 uv, float lod )"
-
-#, fuzzy
-msgid "gvec4_type **textureProjLod** (gsampler2D s, vec4 p, float lod)"
-msgstr ""
-"\\ vec4_type **textureProjLod** ( sampler2D_type s, vec4 uv, float lod )"
-
-#, fuzzy
-msgid "gvec4_type **textureProjLod** (gsampler3D s, vec4 p, float lod)"
-msgstr ""
-"\\ vec4_type **textureProjLod** ( sampler3D_type s, vec4 uv, float lod )"
-
-#, fuzzy
-msgid "Performs a texture read with projection/LOD."
-msgstr "投影を使用して2Dテクスチャの読み取りを実行する"
-
-#, fuzzy
-msgid "gvec4_type **textureGrad** (gsampler2D s, vec2 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid ""
-"gvec4_type **textureGrad** (gsampler2DArray s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid "gvec4_type **textureGrad** (gsampler3D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid "vec4 **textureGrad** (samplerCube s, vec3 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid "vec4 **textureGrad** (samplerCubeArray s, vec3 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid "Performs a texture read with explicit gradients."
-msgstr "投影を使用して2Dテクスチャの読み取りを実行する"
-
-#, fuzzy
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec4 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"\\ vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
-"vec_type dPdy)"
-
-#, fuzzy
-msgid ""
-"Performs a texture read with projection/LOD and with explicit gradients."
-msgstr "投影を使用して2Dテクスチャの読み取りを実行する"
-
-#, fuzzy
-msgid "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"
-msgstr "\\ vec4_type **texelFetch** ( sampler2D_type s, ivec2 uv, int lod )"
-
-#, fuzzy
-msgid "gvec4_type **texelFetch** (gsampler2DArray s, ivec3 p, int lod)"
-msgstr ""
-"\\ vec4_type **texelFetch** ( sampler2DArray_type s, ivec3 uv, int lod )"
-
-#, fuzzy
-msgid "gvec4_type **texelFetch** (gsampler3D s, ivec3 p, int lod)"
-msgstr "\\ vec4_type **texelFetch** ( sampler3D_type s, ivec3 uv, int lod )"
-
 msgid "Fetches a single texel using integer coordinates."
 msgstr "整数座標を使用して単一のテクセルを取得する。"
 
-#, fuzzy
-msgid "gvec4_type **textureGather** (gsampler2D s, vec2 p [, int comps])"
-msgstr "\\ vec4_type **texture** ( sampler2D_type s, vec2 uv [, float bias] )"
-
 msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
 msgstr "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
-
-#, fuzzy
-msgid "vec4 **textureGather** (samplerCube s, vec3 p [, int comps])"
-msgstr "\\ vec4 **texture** ( samplerCube s, vec3 uv [, float bias] )"
-
-msgid ""
-"Gathers four texels from a texture. Use ``comps`` within range of 0..3 to "
-"define which component (x, y, z, w) is returned. If ``comps`` is not "
-"provided: 0 (or x-component) is used."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **dFdx** (vec_type p)"
-msgstr "\\ vec_type **dFdx** ( vec_type p )"
-
-msgid ""
-"Derivative in ``x`` using local differencing. Internally, can use either "
-"``dFdxCoarse`` or ``dFdxFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **dFdxCoarse** (vec_type p)"
-msgstr "\\ vec_type **dFdx** ( vec_type p )"
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **dFdxFine** (vec_type p)"
-msgstr "\\ vec_type **dFdx** ( vec_type p )"
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **dFdy** (vec_type p)"
-msgstr "\\ vec_type **dFdy** ( vec_type p )"
-
-msgid ""
-"Derivative in ``y`` using local differencing. Internally, can use either "
-"``dFdyCoarse`` or ``dFdyFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **dFdyCoarse** (vec_type p)"
-msgstr "\\ vec_type **dFdy** ( vec_type p )"
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **dFdyFine** (vec_type p)"
-msgstr "\\ vec_type **dFdy** ( vec_type p )"
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **fwidth** (vec_type p)"
-msgstr "\\ vec_type **fwidth** ( vec_type p )"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdx(p)) + abs(dFdy(p))``."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **fwidthCoarse** (vec_type p)"
-msgstr "\\ vec_type **fwidth** ( vec_type p )"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **fwidthFine** (vec_type p)"
-msgstr "\\ vec_type **fwidth** ( vec_type p )"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-
-msgid "uint **packHalf2x16** (vec2 v)"
-msgstr ""
-
-msgid "vec2 **unpackHalf2x16** (uint v)"
-msgstr ""
-
-msgid ""
-"Convert two 32-bit floating-point numbers into 16-bit and pack them into a "
-"32-bit unsigned integer and vice-versa."
-msgstr ""
-
-msgid "uint **packUnorm2x16** (vec2 v)"
-msgstr ""
-
-msgid "vec2 **unpackUnorm2x16** (uint v)"
-msgstr ""
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within 0..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-
-msgid "uint **packSnorm2x16** (vec2 v)"
-msgstr ""
-
-msgid "vec2 **unpackSnorm2x16** (uint v)"
-msgstr ""
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within -1..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-
-msgid "uint **packUnorm4x8** (vec4 v)"
-msgstr ""
-
-msgid "vec4 **unpackUnorm4x8** (uint v)"
-msgstr ""
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within 0..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-
-msgid "uint **packSnorm4x8** (vec4 v)"
-msgstr ""
-
-msgid "vec4 **unpackSnorm4x8** (uint v)"
-msgstr ""
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within -1..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-
-#, fuzzy
-msgid "ivec_type **bitfieldExtract** (ivec_type value, int offset, int bits)"
-msgstr "\\ vec_type **step** ( vec_type a, vec_type b )"
-
-#, fuzzy
-msgid "uvec_type **bitfieldExtract** (uvec_type value, int offset, int bits)"
-msgstr "\\ vec_type **step** ( vec_type a, vec_type b )"
-
-msgid "Extracts a range of bits from an integer."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"ivec_type **bitfieldInsert** (ivec_type base, ivec_type insert, int offset, "
-"int bits)"
-msgstr "\\ vec_type **mix** ( vec_type a, vec_type b, float c )"
-
-#, fuzzy
-msgid ""
-"uvec_type **bitfieldInsert** (uvec_type base, uvec_type insert, int offset, "
-"int bits)"
-msgstr "\\ vec_type **mix** ( vec_type a, vec_type b, float c )"
-
-msgid "Insert a range of bits into an integer."
-msgstr ""
-
-#, fuzzy
-msgid "ivec_type **bitfieldReverse** (ivec_type value)"
-msgstr "\\ ivec_type **abs** ( ivec_type x )"
-
-#, fuzzy
-msgid "uvec_type **bitfieldReverse** (uvec_type value)"
-msgstr "\\ vec_type **inversesqrt** ( vec_type x )"
-
-msgid "Reverse the order of bits in an integer."
-msgstr ""
-
-#, fuzzy
-msgid "ivec_type **bitCount** (ivec_type value)"
-msgstr "\\ ivec_type **sign** ( ivec_type x )"
-
-#, fuzzy
-msgid "uvec_type **bitCount** (uvec_type value)"
-msgstr "\\ vec_type **round** ( vec_type x )"
-
-msgid "Counts the number of 1 bits in an integer."
-msgstr ""
-
-#, fuzzy
-msgid "ivec_type **findLSB** (ivec_type value)"
-msgstr "\\ ivec_type **sign** ( ivec_type x )"
-
-#, fuzzy
-msgid "uvec_type **findLSB** (uvec_type value)"
-msgstr "\\ vec_type **sin** ( vec_type x )"
-
-msgid "Find the index of the least significant bit set to 1 in an integer."
-msgstr ""
-
-#, fuzzy
-msgid "ivec_type **findMSB** (ivec_type value)"
-msgstr "\\ ivec_type **sign** ( ivec_type x )"
-
-#, fuzzy
-msgid "uvec_type **findMSB** (uvec_type value)"
-msgstr "\\ vec_type **sin** ( vec_type x )"
-
-msgid "Find the index of the most significant bit set to 1 in an integer."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"void **imulExtended** (ivec_type x, ivec_type y, out ivec_type msb, out "
-"ivec_type lsb)"
-msgstr "\\ vec_type **mix** ( vec_type a, vec_type b, vec_type c )"
-
-#, fuzzy
-msgid ""
-"void **umulExtended** (uvec_type x, uvec_type y, out uvec_type msb, out "
-"uvec_type lsb)"
-msgstr "\\ vec_type **mix** ( vec_type a, vec_type b, vec_type c )"
-
-msgid ""
-"Multiplies two 32-bit numbers and produce a 64-bit result. ``x`` - the first "
-"number. ``y`` - the second number. ``msb`` - will contain the most "
-"significant bits. ``lsb`` - will contain the least significant bits."
-msgstr ""
-
-#, fuzzy
-msgid "uvec_type **uaddCarry** (uvec_type x, uvec_type y, out uvec_type carry)"
-msgstr "\\ vec_type **mix** ( vec_type a, vec_type b, vec_type c )"
-
-msgid "Adds two unsigned integers and generates carry."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"uvec_type **usubBorrow** (uvec_type x, uvec_type y, out uvec_type borrow)"
-msgstr "\\ vec_type **smoothstep** ( vec_type a, vec_type b, vec_type c )"
-
-msgid "Subtracts two unsigned integers and generates borrow."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **ldexp** (vec_type x, out ivec_type exp)"
-msgstr "\\ vec_type **modf** ( vec_type x, out vec_type i )"
-
-msgid "Assemble a floating-point number from a value and exponent."
-msgstr ""
-
-msgid ""
-"If this product is too large to be represented in the floating-point type "
-"the result is undefined."
-msgstr ""
-
-#, fuzzy
-msgid "vec_type **frexp** (vec_type x, out ivec_type exp)"
-msgstr "\\ vec_type **modf** ( vec_type x, out vec_type i )"
-
-msgid ""
-"Splits a floating-point number(``x``) into significand (in the range of "
-"[0.5, 1.0]) and an integral exponent."
-msgstr ""
-
-msgid ""
-"For ``x`` equals zero the significand and exponent are both zero. For ``x`` "
-"of infinity or NaN, the results are undefined."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

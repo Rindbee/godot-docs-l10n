@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,17 +62,6 @@ msgstr "本教學的 C++ 部分還沒有為新的 GDExtension 系統重寫。"
 
 msgid "Your project folder should look like this."
 msgstr "你的專案資料夾看起來會這樣。"
-
-#, fuzzy
-msgid ""
-"This game is designed for portrait mode, so we need to adjust the size of "
-"the game window. Click on *Project -> Project Settings* to open the project "
-"settings window, in the left column open the *Display -> Window* tab. There, "
-"set \"Viewport Width\" to ``480`` and \"Viewport Height\" to ``720``."
-msgstr ""
-"這個遊戲的畫面設計成了垂直顯示，我們需要調整遊戲視窗的大小。點擊 [專案] -> "
-"[專案設定] -> [Display] (顯示) -> [Window] (視窗)，接著把 [Width] (寬度) 設"
-"為 ``480`` ，[Height] (高度) 設為 ``720`` 。"
 
 msgid ""
 "Also, under the **Stretch** options, set **Mode** to ``canvas_items`` and "

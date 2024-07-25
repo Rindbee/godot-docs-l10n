@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,12 +98,6 @@ msgid ""
 msgstr ""
 "一般来说, 不要创建包含少于3个项目的部分. 包含项目少的章节会使浏览检查器变得困"
 "难, 同时丢失了使用章节的好处, 如折叠."
-
-#, fuzzy
-msgid ""
-"There are some valid exceptions for this, such as material features in :ref:"
-"`class_StandardMaterial3D`."
-msgstr "有一些有效的例外情况, 例如 :ref:`class_SpatialMaterial` 中的材质特征."
 
 msgid "This advice also applies to the Project Settings and Editor Settings."
 msgstr "这个建议也适用于项目设置和编辑器设置."

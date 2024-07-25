@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,13 +52,6 @@ msgid "Requirements"
 msgstr "Anforderungen"
 
 msgid ""
-"`XCode with the iOS SDK <https://developer.apple.com/xcode/download>`__ (a "
-"dmg image, for newer versions a **xip** file is going to be downloaded.)"
-msgstr ""
-"`XCode mit dem iOS SDK <https://developer.apple.com/xcode/download>`__ (ein "
-"dmg-Image; für neuere Versionen wird eine **xip**-Datei heruntergeladen)."
-
-msgid ""
 "`Clang >= 3.5 <https://clang.llvm.org>`__ for your development machine "
 "installed and in the ``PATH``. It has to be version >= 3.5 to target "
 "``arm64`` architecture."
@@ -71,41 +59,6 @@ msgstr ""
 "`Clang >= 3.5 <https://clang.llvm.org>`__ für Ihren Entwicklungsrechner "
 "installiert und im ``PATH`` referenziert. Für die ``arm64``-Architektur als "
 "Target muss es Version >= 3.5 sein."
-
-msgid ""
-"`Fuse <https://github.com/libfuse/libfuse>`__ for mounting and unmounting "
-"the dmg image."
-msgstr ""
-"`Fuse <https://github.com/libfuse/libfuse>`__ zum Mounten und Unmounten des "
-"dmg-Images."
-
-msgid ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__, which needs to "
-"be built from source. The procedure for that is explained below."
-msgstr ""
-"`darling-dmg <https://github.com/darlinghq/darling-dmg>`__, das aus den "
-"Quellen gebaut werden muss. Das Verfahren dafür wird weiter unten erklärt."
-
-msgid ""
-"For newer versions you should download `xar <https://mackyle.github.io/xar/"
-">`__ and `pbzx <https://github.com/NiklasRosenstein/pbzx>`__."
-msgstr ""
-"Für neuere Versionen sollten Sie `xar <https://mackyle.github.io/xar/>`__ "
-"und `pbzx <https://github.com/NiklasRosenstein/pbzx>`__ herunterladen."
-
-msgid ""
-"For building darling-dmg, you'll need the development packages of the "
-"following libraries: fuse, icu, openssl, zlib, bzip2."
-msgstr ""
-"Um darling-dmg zu erstellen, benötigen Sie die Entwicklungspakete der "
-"folgenden Bibliotheken: fuse, icu, openssl, zlib, bzip2."
-
-msgid ""
-"For building xar and pbzx you may want to follow `this guide <https://gist."
-"github.com/phracker/1944ce190e01963c550566b749bd2b54>`__."
-msgstr ""
-"Für das Bauen von xar und pbzx sollten Sie `diese Anleitung <https://gist."
-"github.com/phracker/1944ce190e01963c550566b749bd2b54>`__ befolgen."
 
 msgid ""
 "`cctools-port <https://github.com/tpoechtrager/cctools-port>`__ for the "
@@ -123,36 +76,11 @@ msgstr ""
 msgid "Configuring the environment"
 msgstr "Die Umgebung konfigurieren"
 
-msgid "darling-dmg"
-msgstr "darling-dmg"
-
-msgid "Clone the repository on your machine:"
-msgstr "Klonen Sie das Repository auf Ihrem Computer:"
-
-msgid "Build it:"
-msgstr "Bauen Sie es:"
-
 msgid "Preparing the SDK"
 msgstr "Vorbereiten des SDK"
 
-msgid "Mount the XCode image:"
-msgstr "Mounten Sie das XCode-Image:"
-
-msgid "For newer versions you should extract the **xip** file:"
-msgstr "Bei neueren Versionen sollten Sie die **xip**-Datei extrahieren:"
-
-msgid ""
-"Note that for the commands below, you may need to replace the version (`X."
-"x`) with whatever iOS SDK version you're using."
-msgstr ""
-"Beachten Sie, dass Sie bei den folgenden Befehlen die Version (`X.x`) durch "
-"die von Ihnen verwendete iOS SDK-Version ersetzen müssen."
-
 msgid "Extract the iOS SDK:"
 msgstr "Extrahieren Sie das iOS SDK:"
-
-msgid "Pack the SDK:"
-msgstr "Packen Sie das SDK:"
 
 msgid "Toolchain"
 msgstr "Toolchain"
@@ -171,13 +99,6 @@ msgstr ""
 "Sie für die Toolchain-Binärdateien zur Verfügung stellen, also müssen Sie in "
 "ein solches Unterverzeichnis kopieren, ähnlich wie bei den folgenden "
 "Befehlen:"
-
-msgid ""
-"Now you should have the iOS toolchain binaries in ``/home/user/iostoolchain/"
-"usr/bin``."
-msgstr ""
-"Jetzt sollten Sie die iOS-Toolchain-Binärdateien in ``/home/user/"
-"iostoolchain/usr/bin`` haben."
 
 msgid "Compiling Godot for iPhone"
 msgstr "Godot für iPhone kompilieren"

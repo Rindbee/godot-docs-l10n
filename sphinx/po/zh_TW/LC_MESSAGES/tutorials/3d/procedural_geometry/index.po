@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,21 +45,6 @@ msgstr ""
 
 msgid "What is a Mesh?"
 msgstr "什麼是網格？"
-
-#, fuzzy
-msgid ""
-"Many things in Godot have mesh in their name: the :ref:`Mesh <class_Mesh>`, "
-"the :ref:`ArrayMesh <class_ArrayMesh>`, the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>`, the :ref:`MeshInstance3D <class_MeshInstance3D>`, "
-"the :ref:`MultiMesh <class_MultiMesh>`, and the :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>`. While they are all related, they have slightly "
-"different uses."
-msgstr ""
-"在 Godot 中，很多東西的名字中都帶“Mesh”（網格）：:ref:`Mesh <class_Mesh>`、:"
-"ref:`ArrayMesh <class_ArrayMesh>`、:ref:`MeshInstance "
-"<class_MeshInstance>`、:ref:`MultiMesh <class_MultiMesh>`、:ref:"
-"`MultiMeshInstance <class_MultiMeshInstance>`。雖然它們都是相關的，但用途略有"
-"不同。"
 
 msgid ""
 "Meshes and ArrayMeshes are resources that are drawn using a MeshInstance3D "
@@ -219,30 +199,6 @@ msgstr ""
 msgid "ImmediateMesh"
 msgstr "即時幾何體"
 
-#, fuzzy
-msgid ""
-"ImmediateMesh is a mesh that uses an immediate mode style interface (like "
-"SurfaceTool) to draw objects. The difference between ImmediateMesh and the "
-"SurfaceTool is that ImmediateMesh is drawn directly with code dynamically, "
-"while the SurfaceTool is used to generate a Mesh that you can do whatever "
-"you want with."
-msgstr ""
-"ImmediateGeometry（即時幾何體）是使用立即模式風格的介面繪製物件的節點（像 "
-"SurfaceTool 一樣）。ImmediateGeometry 和 SurfaceTool 的區別在於，"
-"ImmediateGeometry 本身是一個節點，可以新增到場景樹中，直接從程式碼中繪製。"
-"SurfaceTool 則是生成一個 Mesh，需要新增到 MeshInstance 上才能看到。"
-
-#, fuzzy
-msgid ""
-"ImmediateMesh is useful for prototyping because of its straightforward API, "
-"but it is slow because the geometry is rebuilt each time you make a change. "
-"It is most useful for adding simple geometry for visual debugging (e.g. by "
-"drawing lines to visualize physics raycasts etc.)."
-msgstr ""
-"ImmediateGeometry 因為其直接的 API 而對原型設計很有用，但它的速度很慢，每一影"
-"格都要重建幾何體。它最有用的是快速新增簡單的幾何體來進行視覺化除錯（例如，通"
-"過畫線來視覺化物理光線投射等）。"
-
 msgid ""
 "For more information about ImmediateMesh, please see the :ref:`ImmediateMesh "
 "tutorial <doc_immediatemesh>`."
@@ -271,17 +227,6 @@ msgid ""
 msgstr ""
 "使用 ArrayMesh 比使用 SurfaceTool 稍快一些，但 API 的難度更大一些。另外，"
 "SurfaceTool 還有一些便捷的方法，比如 ``generate_normals()`` 和 ``index()``。"
-
-#, fuzzy
-msgid ""
-"ImmediateMesh is more limited than both ArrayMesh and SurfaceTool. However, "
-"if you need the geometry to change every frame anyway, it provides a much "
-"easier interface that can be slightly faster than generating an ArrayMesh "
-"every frame."
-msgstr ""
-"ImmediateGeometry 每一影格都會重新生成網格，所以它比 ArrayMesh 或 "
-"SurfaceTool 慢很多。然而，如果你本來就需要每一影格都改變幾何體，它提供的介面"
-"更簡單，甚至可能比每一影格生成一個 ArrayMesh 更快。"
 
 msgid ""
 "The MeshDataTool is not fast, but it gives you access to all kinds of "

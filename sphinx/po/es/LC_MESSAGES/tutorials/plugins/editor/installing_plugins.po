@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,20 +113,6 @@ msgstr ""
 
 msgid "Enabling a plugin"
 msgstr "Habilitando un plugin"
-
-#, fuzzy
-msgid ""
-"To enable the freshly installed plugin, open **Project > Project Settings** "
-"at the top of the editor then go the **Plugins** tab. If the plugin was "
-"packaged correctly, you should see it in the list of plugins. Click on the "
-"**Enable** checkbox to enable the plugin."
-msgstr ""
-"Para activar el plugin recién instalado, abre **Proyecto > Configuración del "
-"proyecto** en la parte superior del editor y luego ve a la pestaña "
-"**Plugins**. Si el plugin fue empaquetado correctamente, deberías verlo en "
-"la lista de plugins. Haz clic en el texto gris **Inactivo** y elige "
-"**Activo** para activar el plugin. La palabra **Activo** se mostrará en "
-"verde para confirmar que el plugin fue habilitado."
 
 msgid ""
 "You can use the plugin immediately after enabling it; there's no need to "

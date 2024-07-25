@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,14 +77,6 @@ msgid ""
 "language. To contribute, you should also read:"
 msgstr "我们致力于使用简单通顺的语言编写实事求是的内容。投稿前请阅读："
 
-#, fuzzy
-msgid ""
-":ref:`doc_docs_writing_guidelines`. There, you will find rules and "
-"recommendations to write in a way that everyone understands."
-msgstr ""
-":ref:`doc_docs_writing_guidelines`\\ 。为了让写出的内容让所有人都能够理解，你"
-"可以在这里找到相关的规定和建议。"
-
 msgid ""
 ":ref:`doc_content_guidelines`. They explain the principles we follow to "
 "write the documentation and the kind of content we accept."
@@ -118,21 +105,6 @@ msgstr ""
 
 msgid "Editing existing pages"
 msgstr "编辑现有页面"
-
-#, fuzzy
-msgid ""
-"To edit an existing page, locate its ``.rst`` source file and open it in "
-"your favorite text editor. You can then commit the changes, push them to "
-"your fork, and make a pull request. **Note that the pages in** ``classes/`` "
-"**should not be edited here.** They are automatically generated from Godot's "
-"`XML class reference <https://github.com/godotengine/godot/tree/master/doc/"
-"classes>`__. See :ref:`doc_updating_the_class_reference` for details."
-msgstr ""
-"要编辑已有页面，请先定位其 ``.rst`` 源文件并在你喜欢的文本编辑器中打开。然后"
-"你就可以将修改提交、推送到你的 Fork 中，然后创建拉取请求。\\ **注意，请勿在此"
-"编辑** ``classes/`` **中的页面。**\\ 它们是根据 Godot 的 `XML 类参考 "
-"<https://github.com/godotengine/godot/tree/master/doc/classes>`__\\ 自动生成"
-"的。详情请参阅 :ref:`doc_updating_the_class_reference`\\ 。"
 
 msgid ""
 "To build the manual and test changes on your computer, see :ref:"
@@ -262,24 +234,8 @@ msgstr "**良好：**\\ Understanding signals in Godot"
 msgid "**Bad:** Understanding Signals In Godot"
 msgstr "**欠佳：**\\ Understanding Signals In Godot"
 
-#, fuzzy
-msgid ""
-"Only proper nouns, projects, people, and node class names should have their "
-"first letter capitalized."
-msgstr "专有名词、项目、人物、节点名称等才应该首字母大写。"
-
 msgid "Sphinx and reStructuredText syntax"
 msgstr "Sphinx 与 reStructuredText 语法"
-
-#, fuzzy
-msgid ""
-"Check Sphinx's `reST Primer <https://www.sphinx-doc.org/en/stable/rest."
-"html>`__ and the `official reference <https://docutils.sourceforge.net/rst."
-"html>`__ for details on the syntax."
-msgstr ""
-"语法详情请查看 Sphinx 的 `reST Primer <https://www.sphinx-doc.org/en/stable/"
-"rest.html>`__ 及其\\ `官方参考手册 <http://docutils.sourceforge.net/rst."
-"html>`__\\ 。"
 
 msgid ""
 "Sphinx uses specific reST comments to do specific operations, like defining "
@@ -314,40 +270,8 @@ msgstr ""
 "或者，你可以使用 `figure` 指令，该指令使图像具有对比边框并允许将其集中在页面"
 "上。"
 
-#, fuzzy
-msgid ""
-"You can also include attachments as support material for a tutorial, by "
-"placing them into a ``files/`` folder next to the ``.rst`` file, and using "
-"this inline markup:"
-msgstr ""
-"添加附件的操作也与之类似，比如添加作为教程支持材料的资产，就可以先将它们放入 "
-"``.rst`` 文件旁的 ``files/`` 文件夹，然后使用这样的行内标记："
-
-#, fuzzy
-msgid ""
-"Consider using the `godot-docs-project-starters <https://github.com/"
-"godotengine/godot-docs-project-starters>` repository for hosting support "
-"materials, such as project templates and asset packs. You can use a direct "
-"link to the generated archive from that repository with the regular link "
-"markup:"
-msgstr ""
-"考虑使用 `godot-docs-project-starters <https://github.com/godotengine/godot-"
-"docs-project-starters>` 来作为用于托管支持材料的存储库，例如项目模板和资产"
-"包。你可以使用常规链接标记使用直接链接到该仓库中生成的存档："
-
 msgid "License"
 msgstr "许可证"
-
-#, fuzzy
-msgid ""
-"This documentation and every page it contains is published under the terms "
-"of the `Creative Commons Attribution 3.0 license (CC BY 3.0) <https://"
-"creativecommons.org/licenses/by/3.0/>`_, with attribution to \"Juan "
-"Linietsky, Ariel Manzur and the Godot community\"."
-msgstr ""
-"本文档及其包含的每个页面均根据 `知识共享署名3.0许可证(CC-BY-3.0) <https://"
-"tldrlegal.com/license/creative-commons-attribution-(cc)>`_ 的条款发布, 归属于"
-"\"Juan Linietsky,Ariel Manzur和Godot社区\"."
 
 msgid ""
 "By contributing to the documentation on the GitHub repository, you agree "

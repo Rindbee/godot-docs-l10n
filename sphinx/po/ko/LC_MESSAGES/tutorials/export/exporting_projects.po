@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,19 +93,6 @@ msgstr ""
 "에 번거로울 수 있습니다. 각 SDK를 배우는 것을 항상 권장하는 반면, 바람직하지 "
 "않은 시간에 SDK를 강제 실행하는 것은 방해가 될 수 있습니다."
 
-#, fuzzy
-msgid ""
-"There is also another problem with this approach: different devices prefer "
-"some data in different formats to run. The main example of this is texture "
-"compression. All PC hardware uses S3TC (BC) compression and that has been "
-"standardized for more than a decade, but mobile devices use different "
-"formats for texture compression, such as ETC1 and ETC2."
-msgstr ""
-"이 접근법에는 다른 문제가 있습니다: 기기들은 실행하기 위한 각기 다른 형식의 "
-"데이터를 선호합니다. 주요 예시로 텍스처 압축이 있습니다. 모든 PC 하드웨어는 "
-"S3TC (BC) 압축을 사용하고 10년 이상 표준화 되어 왔습니다, 하지만 모바일 기기"
-"는 텍스처 압축에 PVRTC (iOS)나 ETC (Android)와 같이 다른 형식을 사용합니다."
-
 msgid "Export menu"
 msgstr "내보내기 메뉴"
 
@@ -162,28 +144,6 @@ msgstr ""
 "그 순간, 사용자는 문서를 다시 읽고 플랫폼을 어떻게 정확히 설정하는 지에 대한 "
 "설명서를 따라야 한다는 것을 직감합니다."
 
-msgid ""
-"The buttons at the bottom of the menu allow you to export the project in a "
-"few different ways:"
-msgstr ""
-
-msgid ""
-"Export All: Export the project as a playable build (Godot executable and "
-"project data) for all the presets defined. All presets must have an **Export "
-"Path** defined for this to work."
-msgstr ""
-
-msgid ""
-"Export Project: Export the project as a playable build (Godot executable and "
-"project data) for the selected preset."
-msgstr ""
-
-msgid ""
-"Export PCK/ZIP: Export the project resources as a PCK or ZIP package. This "
-"is not a playable build, it only exports the project data without a Godot "
-"executable."
-msgstr ""
-
 msgid "Export templates"
 msgstr "템플릿 내보내기"
 
@@ -204,10 +164,6 @@ msgid ""
 msgstr ""
 "다운로드 했다면, 편집기에서 **내보내기 템플릿 관리** 설정으로 설치할 수 있습"
 "니다:"
-
-#, fuzzy
-msgid "Resource options"
-msgstr "리소스 경로(Resource path)"
 
 msgid ""
 "When exporting, Godot makes a list of all the files to export and then "
@@ -236,129 +192,8 @@ msgstr ""
 "resources** 를 사용하면 각각 씬 또는 리소스의 목록이 나타나며, 내보내고 싶은 "
 "씬 혹은 리소스를 선택하시면 됩니다."
 
-msgid ""
-"Files and folders whose name begin with a period will never be included in "
-"the exported project. This is done to prevent version control folders like "
-"``.git`` from being included in the exported PCK file."
-msgstr ""
-
-msgid ""
-"Below the list of resources are two filters that can be setup. The first "
-"allows non resource files such as ``.txt``, ``.json`` and ``.csv`` to be "
-"exported with the project. The second filter can be used to exclude every "
-"file of a certain type without manually deselecting every one. For example, "
-"``.png`` files."
-msgstr ""
-
-#, fuzzy
-msgid "Configuration files"
-msgstr "굽기 구성"
-
-msgid ""
-"The export configuration is stored in two files that can both be found in "
-"the project directory:"
-msgstr ""
-
-msgid ""
-"``export_presets.cfg``: This file contains the vast majority of the export "
-"configuration and can be safely committed to version control. There is "
-"nothing in here that you would normally have to keep secret."
-msgstr ""
-
-msgid ""
-"``.godot/export_credentials.cfg``: This file contains export options that "
-"are considered confidential, like passwords and encryption keys. It should "
-"generally **not** be committed to version control or shared with others "
-"unless you know exactly what you are doing."
-msgstr ""
-
-msgid ""
-"Since the credentials file is usually kept out of version control systems, "
-"some export options will be missing if you clone the project to a new "
-"machine. The easiest way to deal with this is to copy the file manually from "
-"the old location to the new one."
-msgstr ""
-
 msgid "Exporting from the command line"
 msgstr "명령줄에서 내보내기"
-
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"개발에 있어, 빌드를 자동화하는 것이 유용합니다, 그리고 Godot은 명령줄 매개 변"
-"수``--export``\\ 와 ``--export-debug``\\ 를 사용하여 이를 지원합니다. 명령줄"
-"에서 내보내려면 여전히 내보내기 매개 변수를 정의하기 위한 내보내기 프리셋이 "
-"필요합니다. 명령의 기본 호출은 다음과 같습니다:"
-
-#, fuzzy
-msgid ""
-"This will export to ``some_name.exe``, assuming there is a preset called "
-"\"Windows Desktop\" and the template can be found. (The export preset name "
-"must be written within quotes if it contains spaces or special characters.) "
-"The output path is *relative to the project path* or *absolute*; **it does "
-"not respect the directory the command was invoked from**."
-msgstr ""
-"\"Windows Desktop\"이라는 프리셋이 있으며 템플릿을 찾을 수 있다고 가정하면, "
-"이것은 ``some_name.exe``\\ 로 내보냅니다. 출력 경로는 프로젝트 경로 또는 절"
-"대 경로를 기준으로 합니다; 명령이 호출 된 디렉토리를 따르지 않습니다."
-
-msgid ""
-"The output file extension should match the one used by the Godot export "
-"process:"
-msgstr ""
-
-#, fuzzy
-msgid "Windows: ``.exe``"
-msgstr "예:"
-
-msgid ""
-"macOS: ``.zip`` (from all platforms) or ``.dmg`` (only when exporting *from* "
-"macOS). ``.app`` is not supported directly, although the generated ZIP "
-"archive contains an ``.app`` bundle."
-msgstr ""
-
-msgid ""
-"Linux: Any extension (including none). ``.x86_64`` is typically used for 64-"
-"bit x86 binaries."
-msgstr ""
-
-msgid "HTML5: ``.zip``"
-msgstr ""
-
-msgid "Android: ``.apk``"
-msgstr ""
-
-msgid "iOS: ``.zip``"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"You can also configure it to export *only* the PCK or ZIP file, allowing a "
-"single exported main pack file to be used with multiple Godot executables. "
-"When doing so, the export preset name must still be specified on the command "
-"line:"
-msgstr ""
-"여러 Godot 실행 파일에서 단일 내보내기를 사용할 수 있도록 PCK 또는 ZIP 파일로"
-"만 내보내도록 설정할 수도 있습니다. 이름의 확장자가 ``.pck`` 또는 ``.zip`` "
-"인 경우가 해당됩니다."
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"때로는 ``--export`` 플래그와 ``--path`` 플래그를 결합하거나, 자동화된 내보내"
-"기를 위해 전용 내보내기 프리셋을 만드는 것이 유용합니다:"
-
-msgid ""
-"See :ref:`doc_command_line_tutorial` for more information about using Godot "
-"from the command line."
-msgstr ""
 
 msgid "PCK versus ZIP pack file formats"
 msgstr "PCK와 ZIP 파일 포맷의 비교"

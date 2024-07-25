@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,23 +46,6 @@ msgstr ""
 "**Нормаль** это **единичный вектор**, но называется **нормалью** поскольку "
 "имеет такое предназначение. (Так же как мы называем (0,0) Началом "
 "координат !)."
-
-#, fuzzy
-msgid ""
-"The plane passes by the origin and the surface of it is perpendicular to the "
-"unit vector (or *normal*). The side towards the vector points to is the "
-"positive half-space, while the other side is the negative half-space. In 3D "
-"this is exactly the same, except that the plane is an infinite surface "
-"(imagine an infinite, flat sheet of paper that you can orient and is pinned "
-"to the origin) instead of a line."
-msgstr ""
-"Это так просто, как кажется. Плоскость проходит через начало координат, и ее "
-"поверхность перпендикулярна единичному вектору (или *нормали*). Сторона, на "
-"которую направлен вектор, является положительным полупространством, а другая "
-"сторона - отрицательным полупространством. В 3D все точно так же, за "
-"исключением того, что плоскость - это бесконечная поверхность (представьте "
-"себе бесконечный плоский лист бумаги, который можно ориентировать и который "
-"прикреплён к началу координат), а не линия."
 
 msgid "Distance to plane"
 msgstr "Расстояние до самолета"
@@ -171,17 +149,6 @@ msgstr ""
 "плоскость окажется в том же положении, но с перевернутыми отрицательными и "
 "положительными полупространствами:"
 
-msgid ""
-"Godot also implements this operator in :ref:`Plane <class_Plane>`. So, using "
-"the format below will work as expected:"
-msgstr ""
-
-msgid ""
-"So, remember, the plane's main practical use is that we can calculate the "
-"distance to it. So, when is it useful to calculate the distance from a point "
-"to a plane? Let's see some examples."
-msgstr ""
-
 msgid "Constructing a plane in 2D"
 msgstr "Построение плоскости в 2D"
 
@@ -193,12 +160,6 @@ msgstr ""
 "Плоскости явно не появляются из ниоткуда, поэтому их надо строить. Построить "
 "их в 2D легко, это можно сделать либо по нормали (единичному вектору) и "
 "точке, либо по двум точкам в пространстве."
-
-msgid ""
-"In the case of a normal and a point, most of the work is done, as the normal "
-"is already computed, so calculate D from the dot product of the normal and "
-"the point."
-msgstr ""
 
 msgid ""
 "For two points in space, there are actually two planes that pass through "
@@ -213,24 +174,8 @@ msgstr ""
 "необходимо получить вектор направления, а затем его нужно повернуть на 90 ° "
 "градусов в любую сторону:"
 
-msgid ""
-"The rest is the same as the previous example. Either point_a or point_b will "
-"work, as they are in the same plane:"
-msgstr ""
-
-msgid ""
-"Doing the same in 3D is a little more complex and is explained further down."
-msgstr ""
-
 msgid "Some examples of planes"
 msgstr "Несколько примеров плоскостей"
-
-msgid ""
-"Here is an example of what planes are useful for. Imagine you have a `convex "
-"<https://www.mathsisfun.com/definitions/convex.html>`__ polygon. For "
-"example, a rectangle, a trapezoid, a triangle, or just any polygon where no "
-"faces bend inwards."
-msgstr ""
 
 msgid ""
 "For every segment of the polygon, we compute the plane that passes by that "
@@ -336,40 +281,11 @@ msgstr ""
 "многоугольника B — на другой стороне. Эта плоскость всегда является одной из "
 "граней либо многоугольника A, либо многоугольника B."
 
-msgid ""
-"In 3D though, there is a problem to this approach, because it is possible "
-"that, in some cases a separating plane can't be found. This is an example of "
-"such situation:"
-msgstr ""
-
-msgid ""
-"To avoid it, some extra planes need to be tested as separators, these planes "
-"are the cross product between the edges of polygon A and the edges of "
-"polygon B"
-msgstr ""
-
-msgid "So the final algorithm is something like:"
-msgstr ""
-
 msgid "More information"
 msgstr "Дополнительная информация"
 
-#, fuzzy
-msgid ""
-"For more information on using vector math in Godot, see the following "
-"article:"
-msgstr ""
-"Для большей информации об использовании векторной алгебры в Godot, смотрите "
-"следующие статьи:"
-
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ":ref:`doc_matrices_and_transforms`"
-
-msgid ""
-"If you would like additional explanation, you should check out 3Blue1Brown's "
-"excellent video series \"Essence of Linear Algebra\": https://www.youtube."
-"com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

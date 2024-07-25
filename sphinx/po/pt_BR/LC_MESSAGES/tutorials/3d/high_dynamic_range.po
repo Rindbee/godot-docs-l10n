@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +17,6 @@ msgstr "Iluminação HDR"
 
 msgid "Introduction"
 msgstr "Introdução"
-
-#, fuzzy
-msgid ""
-"Normally, an artist does all the 3D modeling, then all the texturing, looks "
-"at their awesome looking model in the 3D modeling software and says \"looks "
-"fantastic, ready for integration!\" then goes into the game, lighting is "
-"setup and the game runs."
-msgstr ""
-"Normalmente, um artista faz toda a modelagem 3D, toda a texturização, depois "
-"olha para seu modelo de aparência incrível no CCD (Criação de Conteúdo "
-"Digital) 3D e diz \"está fantástico, pronto para integração!\" em seguida, "
-"entra no jogo, a iluminação é configurada e o jogo é executado."
 
 msgid ""
 "So at what point does all this \"HDR\" business come into play? To "
@@ -162,26 +145,8 @@ msgstr ""
 msgid "Scene linear & asset pipelines"
 msgstr "Linear de cena & importação de recursos"
 
-msgid ""
-"Working in scene-linear sRGB is more complex than pressing a single switch. "
-"First, imported image assets must be converted to linear light ratios on "
-"import. Even when linearized, those assets may not be perfectly well-suited "
-"for use as textures, depending on how they were generated."
-msgstr ""
-
 msgid "There are two ways to do this:"
 msgstr "Há duas maneiras de fazer isso:"
-
-msgid "sRGB transfer function to display linear ratios on image import"
-msgstr ""
-
-msgid ""
-"This is the easiest method of using sRGB assets, but it's not the most "
-"ideal. One issue with this is loss of quality. Using 8 bits per channel to "
-"represent linear light ratios is not sufficient to quantize the values "
-"correctly. These textures may also be compressed later, which can exacerbate "
-"the problem."
-msgstr ""
 
 msgid "Hardware sRGB transfer function to display linear conversion"
 msgstr "Função sRBG to hardware para mostrar a conversão linear"
@@ -196,32 +161,8 @@ msgstr ""
 "dispositivos mobile não tem suporte para isso, ou eles não tem suporte para "
 "texturas comprimidas (iOS por exemplo)."
 
-msgid "Scene linear to display-referred nonlinear"
-msgstr ""
-
-msgid ""
-"After all the rendering is done, the scene linear render requires "
-"transforming to a suitable output such as an sRGB display. To do this, "
-"enable sRGB conversion in the current :ref:`Environment <class_Environment>` "
-"(more on that below)."
-msgstr ""
-
-msgid ""
-"Keep in mind that the **sRGB -> Display Linear** and **Display Linear -> "
-"sRGB** conversions must always be **both** enabled. Failing to enable one of "
-"them will result in horrible visuals suitable only for avant-garde "
-"experimental indie games."
-msgstr ""
-
 msgid "Parameters of HDR"
 msgstr "Parâmetros de HDR"
-
-msgid ""
-"HDR settings can be found in the :ref:`Environment <class_Environment>` "
-"resource. Most of the time, these are found inside a :ref:`WorldEnvironment "
-"<class_WorldEnvironment>` node or set in a Camera node. For more "
-"information, see :ref:`doc_environment_and_post_processing`."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

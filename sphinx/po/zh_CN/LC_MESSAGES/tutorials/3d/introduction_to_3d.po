@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,19 +50,6 @@ msgstr ""
 ":ref:`Node2D <class_Node2D>` 是 2D 的基础节点。\\ :ref:`Control "
 "<class_Control>` 是所有 GUI 的基础节点。同理，3D 引擎中的所有 3D 物体都使用 :"
 "ref:`Node3D <class_Node3D>` \\ 节点。"
-
-#, fuzzy
-msgid ""
-"Node3Ds have a local transform, which is relative to the parent node (as "
-"long as the parent node is also of **or inherits from** the type Node3D). "
-"This transform can be accessed as a 3×4 :ref:`Transform3D "
-"<class_Transform3D>`, or as 3 :ref:`Vector3 <class_Vector3>` members "
-"representing location, Euler rotation (X, Y and Z angles) and scale."
-msgstr ""
-"Node3D 有一个局部变换，它是相对于父节点而言的（只要父节点也是 **或继承自** "
-"Node3D 类型）。这个变换可以作为 4×3 的 :ref:`Transform3D "
-"<class_Transform3D>` 形式访问，也可以以 3 个 :ref:`Vector3 <class_Vector3>` "
-"成员的形式访问，分别代表位置、欧拉旋转（X、Y、Z 角度）和缩放。"
 
 msgid "3D content"
 msgstr "3D 内容"
@@ -362,22 +344,13 @@ msgid ""
 "menu."
 msgstr "要隐藏特定类型的小工具，你可以在“视图”菜单中把它们切换掉。"
 
-#, fuzzy
-msgid "preview environment and light"
-msgstr "预览环境和太阳（低优先级）"
-
-msgid ""
-"By default, any 3D scene that doesn't have a :ref:`WorldEnvironment "
-"<class_WorldEnvironment>` node, or a :ref:`DirectionalLight3D "
-"<class_DirectionalLight3D>`, will have a preview turned on for what it's "
-"missing to light the scene."
-msgstr ""
-
 msgid ""
 "The preview light and environment will only be visible in the scene while in "
 "the editor. If you run the scene or export the project they will not affect "
 "the scene."
 msgstr ""
+"这个预览光线只会在编辑器中的场景中显示。如果运行这个场景或导出项目，它们就不"
+"会再出现在场景中。"
 
 msgid ""
 "The preview light and environment can be turned on or off from the top menu "
@@ -385,12 +358,16 @@ msgid ""
 "those icons can be used to adjust the properties of the preview environment "
 "and light."
 msgstr ""
+"环境/光可以通过点击黄色方框中的两个蓝色图标，来打开/关闭预览。右边三个点有一"
+"些参数，用来调整环境/光的属性。"
 
 msgid ""
 "The same preview sun and environment is used for every scene in the same "
 "project, So only make adjustments that would apply to all of the scenes you "
 "will need a preview light and environment for."
 msgstr ""
+"同一个项目中，不同的场景使用的是相同的预览太阳和预览环境。因此，在这里作出的"
+"调整应该适合所有需要预览灯光和预览环境的场景。"
 
 msgid "Cameras"
 msgstr "相机"

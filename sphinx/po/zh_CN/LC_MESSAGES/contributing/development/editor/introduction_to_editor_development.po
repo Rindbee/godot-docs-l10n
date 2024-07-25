@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,19 +44,6 @@ msgstr ""
 msgid "Technical choices"
 msgstr "技术选择"
 
-#, fuzzy
-msgid ""
-"The Godot editor is drawn using Godot's renderer and :ref:`UI system "
-"<doc_user_interface>`. It does *not* rely on a toolkit such as GTK or Qt. "
-"This is similar in spirit to software like Blender. While using toolkits "
-"makes it easier to achieve a \"native\" appearance, they are also quite "
-"heavy and their licensing is not compatible with Godot's."
-msgstr ""
-"Godot 编辑器使用 Godot 的渲染器和 :ref:`UI 系统 <toc-gui-basics>`\\ 绘制。它"
-"\\ *不*\\ 依赖 GTK 或 Qt 这样的工具包。这与 Blender 等软件的精神相似。虽然使"
-"用工具包可以更容易地实现“原生”外观，但它们相当笨重，许可也与 Godot 的许可不兼"
-"容。"
-
 msgid ""
 "The editor is fully written in C++. It can't contain any GDScript or C# code."
 msgstr "该编辑器完全是用C++编写的。它不能包含任何GDScript或C#代码。"
@@ -76,19 +58,6 @@ msgid ""
 msgstr ""
 "编辑器的代码完全独立于Godot源代码库的 `editor/ <https://github.com/"
 "godotengine/godot/tree/master/editor>`__ 文件夹中。"
-
-#, fuzzy
-msgid ""
-"Some editor functionality is also implemented via :ref:`modules "
-"<doc_custom_modules_in_cpp>`. Some of these are only enabled in editor "
-"builds to decrease the binary size of export templates. See the `modules/ "
-"<https://github.com/godotengine/godot/tree/master/modules>`__ folder in the "
-"Godot source repository."
-msgstr ""
-"一些编辑器的功能也是通过 :ref:`modules <doc_custom_modules_in_c++>` 实现的。"
-"其中一些只在编辑器构建中启用，以减少导出模板的二进制文件大小。参见Godot源码库"
-"中的 `modules/ <https://github.com/godotengine/godot/tree/master/modules>`__ "
-"文件夹。"
 
 msgid "Some important files in the editor are:"
 msgstr "编辑器中的一些重要文件包括："
@@ -110,40 +79,6 @@ msgstr ""
 "`editor/project_manager.cpp <https://github.com/godotengine/godot/blob/"
 "master/editor/project_manager.cpp>`__\\ ：主项目管理器初始化文件。相当于项目"
 "管理器的“主场景”。"
-
-#, fuzzy
-msgid ""
-"`editor/plugins/canvas_item_editor_plugin.cpp <https://github.com/"
-"godotengine/godot/blob/master/editor/plugins/canvas_item_editor_plugin."
-"cpp>`__: The 2D editor viewport and related functionality (toolbar at the "
-"top, editing modes, overlaid helpers/panels, …)."
-msgstr ""
-"`editor/plugins/canvas_item_editor_plugin.cpp <https://github.com/"
-"godotengine/godot/blob/3.x/editor/plugins/canvas_item_editor_plugin."
-"cpp>`__\\ ：2D 编辑器的视口和相关功能（顶部的工具栏、编辑模式、重叠的助手/面"
-"板……）。"
-
-#, fuzzy
-msgid ""
-"`editor/plugins/node_3d_editor_plugin.cpp <https://github.com/godotengine/"
-"godot/blob/master/editor/plugins/node_3d_editor_plugin.cpp>`__: The 3D "
-"editor viewport and related functionality (toolbar at the top, editing "
-"modes, overlaid panels, …)."
-msgstr ""
-"`editor/plugins/spatial_editor_plugin.cpp <https://github.com/godotengine/"
-"godot/blob/3.x/editor/plugins/spatial_editor_plugin.cpp>`__\\ ：3D 编辑器视口"
-"及相关功能（顶部的工具栏、编辑模式、叠加面板……）。"
-
-#, fuzzy
-msgid ""
-"`editor/plugins/node_3d_editor_gizmos.cpp <https://github.com/godotengine/"
-"godot/blob/master/editor/plugins/node_3d_editor_gizmos.cpp>`__: Where the 3D "
-"editor gizmos are defined and drawn. This file doesn't have a 2D counterpart "
-"as 2D gizmos are drawn by the nodes themselves."
-msgstr ""
-"`editor/spatial_editor_gizmos.cpp <https://github.com/godotengine/godot/"
-"blob/3.x/editor/spatial_editor_gizmos.cpp>`__\\ ：定义和绘制 3D 编辑器小工具"
-"的地方。这个文件没有对应的 2D 文件，因为 2D 的小工具是由节点自己绘制的。"
 
 msgid "Editor dependencies in ``scene/`` files"
 msgstr "``scene/`` 中文件对编辑器的依赖性"
@@ -181,28 +116,8 @@ msgstr ""
 "中的包含。但是，虽然 ``scene/`` 可以依赖 ``servers/`` 和 ``core/`` 的内容，但"
 "它不能依赖 ``editor/`` 的内容。"
 
-#, fuzzy
-msgid ""
-"Currently, there are some dependencies to ``editor/`` includes in ``scene/`` "
-"files, but `they are in the process of being removed <https://github.com/"
-"godotengine/godot/issues/53295>`__."
-msgstr ""
-"目前，在 ``scene/`` 文件中存在一些对 ``editor/`` 的依赖，但 `它们正在被删除 "
-"<https://github.com/godotengine/godot/issues/29730>`__ 。"
-
 msgid "Development tips"
 msgstr "开发技巧"
-
-#, fuzzy
-msgid ""
-"To iterate quickly on the editor, we recommend to set up a test project and :"
-"ref:`open it from the command line <doc_command_line_tutorial>` after "
-"compiling the editor. This way, you don't have to go through the Project "
-"Manager every time you start Godot."
-msgstr ""
-"为了快速迭代编辑器，我们建议建立一个测试项目，并在编译编辑器后\\ :ref:`从命令"
-"行打开 <doc_command_line_tutorial>`。这样，你就不必在每次启动 Godot 时都要经"
-"过项目管理器了。"
 
 msgid "Translation status"
 msgstr "翻译状态"

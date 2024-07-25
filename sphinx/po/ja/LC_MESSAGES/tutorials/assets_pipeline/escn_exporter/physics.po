@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,15 +21,6 @@ msgid ""
 msgstr ""
 "物理演算プロパティのエクスポートは、Blenderの[物理演算(physics)]タブで[リジッ"
 "ド ボディ(Rigid Body)]を有効にすることで実行されます。"
-
-#, fuzzy
-msgid ""
-"By default, a single Blender object with rigid body enabled will export as "
-"three nodes: a PhysicsBody, a CollisionShape, and a MeshInstance3D."
-msgstr ""
-"デフォルトでは、リジッドボディを有効にした単一のBlenderオブジェクトを、"
-"PhysicsBody、CollisionShape、MeshInstanceの3つのノードとしてエクスポートしま"
-"す。"
 
 msgid "Body type"
 msgstr "ボディタイプ"
@@ -97,18 +83,6 @@ msgstr ""
 
 msgid "Collision geometry only"
 msgstr "コリジョンジオメトリのみ"
-
-#, fuzzy
-msgid ""
-"Frequently you want different geometry for your collision meshes and your "
-"graphical meshes, but by default, the exporter will export a mesh along with "
-"the collision shape. To only export the collision shape, set the object's "
-"maximum draw type to Wire:"
-msgstr ""
-"多くの場合、コリジョンメッシュと表示用メッシュに異なるジオメトリが必要です"
-"が、デフォルトでは、エクスポータはコリジョン形状とともに表示用メッシュを書き"
-"出します。コリジョン形状のみを書き出すには、オブジェクトの最大描画タイプを"
-"Wireに設定します:"
 
 msgid ""
 "This will also influence how the object is shown in Blender's viewport. Most "

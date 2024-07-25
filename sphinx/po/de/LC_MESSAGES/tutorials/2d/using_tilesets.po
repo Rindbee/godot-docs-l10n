@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,41 +139,6 @@ msgstr ""
 "des *Atlas* festlegen. Der Atlas bestimmt, welche Tiles aus dem Tilesheet zu "
 "einem TileMap-Node hinzugefügt werden können (da nicht jeder Teil des Bildes "
 "ein gültiges Tile sein kann)."
-
-msgid ""
-"Open the **TileSet** panel at the bottom of the editor, then click the \"+\" "
-"icon in the bottom-left corner to add a new atlas:"
-msgstr ""
-"Öffnen Sie das **TileSet**-Panel unten im Editor und klicken Sie dann auf "
-"das \"+\"-Icon in der linken unteren Ecke, um einen neuen Atlas hinzuzufügen:"
-
-msgid "Creating a new atlas in a TileSet resource using the bottom panel"
-msgstr ""
-"Erstellen eines neuen Atlasses in einer TileSet-Ressource unter Verwendung "
-"des unteren Bedienfelds"
-
-msgid ""
-"After creating an atlas, you must assign a tilesheet texture to it. This can "
-"be done by choosing it on the left column of the bottom panel, then clicking "
-"the value of the **Texture** property and choosing **Quick Load** (or "
-"**Load**). Specify the path to the image file using the file dialog that "
-"appears."
-msgstr ""
-"Nachdem Sie einen Atlas erstellt haben, müssen Sie ihm eine Tilesheet-Textur "
-"zuweisen. Wählen Sie dazu den Atlas in der linken Spalte des unteren Panels "
-"aus, klicken Sie dann auf den Wert der **Textur**-Property und wählen Sie "
-"**Schnell laden** (oder **Laden**). Geben Sie den Pfad zu der Bilddatei im "
-"angezeigten Dateidialog an."
-
-msgid "Loading a tilesheet image in the newly created TileSet atlas"
-msgstr "Laden eines Tilesheet-Bildes in den neu erstellten TileSet-Atlas"
-
-msgid ""
-"After specifying a valid image, you will be asked whether to create tiles "
-"automatically. Answer **Yes**:"
-msgstr ""
-"Nachdem Sie ein gültiges Bild angegeben haben, werden Sie gefragt, ob die "
-"Tiles automatisch erstellt werden sollen. Antworten Sie mit **Ja**:"
 
 msgid "Automatically creating tiles based on tilesheet image content"
 msgstr ""

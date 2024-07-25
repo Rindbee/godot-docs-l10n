@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,12 +102,6 @@ msgid ""
 "-16,777,216 and 16,777,216"
 msgstr ""
 "**单精度浮点数范围（表示所有整数）：**\\ -16,777,216 和 16,777,216 之间"
-
-#, fuzzy
-msgid ""
-"**Double-precision float range (represent all integers):** Between -9 "
-"quadrillion and 9 quadrillion"
-msgstr "**双精度浮点数范围（表示所有整数）：**\\ -9 千万亿和 9 千万亿之间"
 
 msgid "Range"
 msgstr "范围"
@@ -368,18 +357,6 @@ msgstr ""
 "此功能专为中端/高端桌面平台量身定制。大世界坐标在低端移动设备上可能表现不佳，"
 "除非你采取措施通过其他方式来减少 CPU 使用率（例如减少每秒的物理循环 physics "
 "tick）。"
-
-#, fuzzy
-msgid ""
-"On low-end platforms, an *origin shifting* approach can be used instead to "
-"allow for large worlds without using double-precision physics and rendering. "
-"Origin shifting works with single-precision floats, but it introduces more "
-"complexity to game logic, especially in multiplayer games. Therefore, origin "
-"shifting is not detailed on this page."
-msgstr ""
-"在低端平台上，可以使用 *原点位移* (origin shifting) 方法来启用大世界功能，而"
-"无需使用双精度物理和渲染。原点位移适用于单精度浮点数，但它会给游戏逻辑带来更"
-"高的复杂度，尤其是在多人游戏中。因此，本页不会详细介绍原点位移。"
 
 msgid "Who are large world coordinates for?"
 msgstr "大世界坐标的目标群体是谁？"

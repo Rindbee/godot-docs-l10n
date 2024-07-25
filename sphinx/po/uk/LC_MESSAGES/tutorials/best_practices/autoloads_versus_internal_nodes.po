@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,20 +181,6 @@ msgstr ""
 
 msgid "When you should use an Autoload"
 msgstr "Коли слід використовувати автозавантаження"
-
-msgid ""
-"GDScript supports the creation of ``static`` functions using ``static "
-"func``. When combined with ``class_name``, this makes it possible to create "
-"libraries of helper functions without having to create an instance to call "
-"them. The limitation of static functions is that they can't reference member "
-"variables, non-static functions or ``self``."
-msgstr ""
-
-msgid ""
-"Since Godot 4.1, GDScript also supports ``static`` variables using ``static "
-"var``. This means you can now share a variables across instances of a class "
-"without having to create a separate autoload."
-msgstr ""
 
 msgid ""
 "Still, autoloaded nodes can simplify your code for systems with a wide "

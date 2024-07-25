@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,16 +93,6 @@ msgstr ""
 "對此做了一些改進，從允許運動體在規則的 _process 迴圈中被動畫化，進一步修正影"
 "格計時器。"
 
-msgid ""
-"You can use physics interpolation to mitigate physics-related jittering. See "
-"`lawnjelly's smoothing-addon <https://github.com/lawnjelly/smoothing-"
-"addon>`__ for an add-on that can be dropped into any project to enable "
-"physics interpolation."
-msgstr ""
-"你可以使用物理插值來緩解物理相關的抖動。請參閱 `lawnjelly 的平滑外掛程式 "
-"<https://github.com/lawnjelly/smoothing-addon>`__，可以將其新增到任何專案中以"
-"啟用物理插值。"
-
 msgid "Stutter"
 msgstr "卡頓"
 
@@ -179,20 +164,6 @@ msgstr ""
 "對於全屏來說，Windows 系統對遊戲給予了特殊的優先順序，所以卡頓現象不再可見，"
 "也非常罕見。大多數遊戲都是這樣玩的。"
 
-msgid ""
-"Games should use the **Exclusive Fullscreen** window mode, as opposed to "
-"**Fullscreen** which is designed to prevent Windows from automatically "
-"treating the window as if it was exclusive fullscreen."
-msgstr ""
-
-msgid ""
-"**Fullscreen** is meant to be used by GUI applications that want to use per-"
-"pixel transparency without a risk of having it disabled by the OS. It "
-"achieves this by leaving a 1-pixel line at the bottom of the screen. By "
-"contrast, **Exclusive Fullscreen** uses the actual screen size and allows "
-"Windows to reduce jitter and input lag for fullscreen games."
-msgstr ""
-
 msgid "Linux"
 msgstr "Linux"
 
@@ -208,16 +179,6 @@ msgstr ""
 "關。Nouveau 驅動程式經常表現出這一點，而使用 AMD 和英偉達的驅動程式卻不會出"
 "現。一些合成器程式也可能引發這個問題（例如 KWin），因此我們建議用另一種方法來"
 "排除其原因。"
-
-#, fuzzy
-msgid ""
-"There is no workaround for driver or compositor stuttering, other than "
-"reporting it as an issue to the driver or compositor developers. Stutter may "
-"be more present when playing in windowed mode as opposed to fullscreen, even "
-"with compositing disabled."
-msgstr ""
-"對於驅動程式或組合程式出現的卡頓現象，除了將其作為問題報告給驅動程式或組合程"
-"式開發人員外，沒有其他解決辦法。"
 
 msgid ""
 "`Feral GameMode <https://github.com/FeralInteractive/gamemode>`__ can be "
@@ -275,27 +236,6 @@ msgid ""
 msgstr ""
 "在支援停用垂直同步的平台上，透過在專案設定中停用垂直同步可以使輸入延遲變得不"
 "那麼明顯。然而，這會導致出現撕裂現象，尤其是在更新率較低的顯示器上。"
-
-#, fuzzy
-msgid ""
-"Increasing the number of physics iterations per second can also reduce "
-"physics-induced input latency. This is especially noticeable when using "
-"physics interpolation (which improves smoothness but increases latency). To "
-"do so, set **Physics > Common > Physics Ticks Per Second** to a value higher "
-"than the default ``60``, or set ``Engine.physics_ticks_per_second`` at run-"
-"time in a script. Values that are a multiple of the monitor refresh rate "
-"(typically ``60``) work best when physics interpolation is disabled, as they "
-"will avoid jitter. This means values such as ``120``, ``180`` and ``240`` "
-"are good starting points. As a bonus, higher physics FPSes make tunneling "
-"and physics instability issues less likely to occur."
-msgstr ""
-"增加每秒物理迭代的數量也可以減少物理引起的輸入延遲。當使用物理插值（提高平滑"
-"度但增加延遲）時，這一點尤其明顯。為此，請將**Physics > Common >Physics "
-"Ticks Per Second** 設定為高於預設「60」的值，或在腳本執行時設定「Engine."
-"physical_ticks_per_second」。當停用物理內插時，顯示器更新率的倍數（通常為"
-"「60」）的值效果最佳，因為它們可以避免抖動。這意味著「120」、「180」和「240」"
-"等值是很好的起點。作為獎勵，更高的物理 FPS 使得隧道效應和物理不穩定問題不太可"
-"能發生。"
 
 msgid ""
 "The downside of increasing physics FPS is that CPU usage will increase, "

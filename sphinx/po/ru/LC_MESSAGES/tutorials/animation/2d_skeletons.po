@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +17,6 @@ msgstr "2D-скелеты"
 
 msgid "Introduction"
 msgstr "Введение"
-
-#, fuzzy
-msgid ""
-"When working with 3D, skeletal deforms are common for characters and "
-"creatures and most 3D modeling applications support it. For 2D, as this "
-"function is not used as often, it's difficult to find mainstream software "
-"aimed for this."
-msgstr ""
-"При работе с 3D деформации скелета являются обычным делом для персонажей и "
-"существ, и большинство приложений 3D моделирования их поддерживают. Для 2D, "
-"поскольку эта функция используется не так часто, трудно найти программное "
-"обеспечение, нацеленное на это."
 
 msgid ""
 "One option is to create animations in third-party software such as Spine or "
@@ -161,14 +144,6 @@ msgstr ""
 "При дублировании узлов и такой же форме следующего участка можно "
 "редактировать предыдущий полигон, а не рисовать новый."
 
-#, fuzzy
-msgid ""
-"After moving the polygon, remember to update the UV by selecting **Edit > "
-"Copy Polygon to UV** in the Polygon 2D UV Editor."
-msgstr ""
-"После перемещения полигона не забудьте обновить UV, выбрав Редактирование - "
-"> «Полигон - > UV» в редакторе Polygon 2D UV."
-
 msgid "Keep doing this until you mapped all pieces."
 msgstr "Продолжайте делать это со всеми остальными частями."
 
@@ -249,15 +224,6 @@ msgstr ""
 
 msgid "Keep going and build the whole skeleton:"
 msgstr "Продолжайте строить весь остальной скелет:"
-
-msgid ""
-"You will notice that all bones raise a warning about a missing rest pose. A "
-"rest pose is the default pose for a skeleton, you can come back to it "
-"anytime you want (which is very handy for animating). To set one click on "
-"the *skeleton* node in the scene tree, then click on the ``Skeleton2D`` "
-"button in the toolbar, and select ``Overwrite Rest Pose`` from the dropdown "
-"menu."
-msgstr ""
 
 msgid ""
 "The warnings will go away. If you modify the skeleton (add/remove bones) you "

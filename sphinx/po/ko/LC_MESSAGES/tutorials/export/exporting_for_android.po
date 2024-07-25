@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +20,9 @@ msgid ""
 "looking to compile export template binaries from source instead, read :ref:"
 "`doc_compiling_for_android`."
 msgstr ""
+"이 페이지는 Godot 프로젝트를 안드로이드로 내보내는 방법을 설명합니다. 소스로"
+"부터 내보내기 템플릿 바이너리를 컴파일하는 방법을 찾는다면 :ref:"
+"`doc_compiling_for_android`을 읽으시기 바랍니다."
 
 msgid ""
 "Exporting for Android has fewer requirements than compiling Godot for "
@@ -34,37 +32,8 @@ msgstr ""
 "Android로 내보내는 작업은 Android용으로 Godot를 컴파일하는 것보다 간단합니"
 "다. 다음은 Android SDK와 엔진 설정에 필요한 작업들입니다."
 
-msgid ""
-"Projects written in C# can be exported to Android as of Godot 4.2, but "
-"support is experimental and :ref:`some limitations apply "
-"<doc_c_sharp_platforms>`."
-msgstr ""
-
-#, fuzzy
-msgid "Install OpenJDK 17"
-msgstr "OpenJDK 11 설치하기"
-
-#, fuzzy
-msgid ""
-"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
-"variant=openjdk17>`__."
-msgstr ""
-"`OpenJDK 11 <https://adoptium.net/?variant=openjdk11>`__ 을 설치합니다."
-
 msgid "Download the Android SDK"
 msgstr "Android SDK 다운로드하기"
-
-#, fuzzy
-msgid "Download and install the Android SDK."
-msgstr "Android 스튜디오 다운로드하고 설치하기"
-
-#, fuzzy
-msgid ""
-"You can install the Android SDK using `Android Studio Hedgehog (version "
-"2023.1.1) or later <https://developer.android.com/studio/>`__."
-msgstr ""
-"`Android Studio 4.1 이상의 버전 <https://developer.android.com/studio/>`__ 에"
-"서 설치가 가능합니다."
 
 msgid ""
 "Run it once to complete the SDK setup using these `instructions <https://"
@@ -73,57 +42,11 @@ msgstr ""
 "실행한 뒤 `설명 <https://developer.android.com/studio/intro/update#sdk-"
 "manager>`__ 을 참고해 SDK 설정을 마치십시오."
 
-msgid ""
-"Ensure that the `required packages <https://developer.android.com/studio/"
-"intro/update#recommended>`__ are installed as well."
-msgstr ""
-"`필요한 패키지 <https://developer.android.com/studio/intro/"
-"update#recommended>`__ 가 모두 설치되었는지도 확인하십시오."
-
-#, fuzzy
-msgid "Android SDK Platform-Tools version 34.0.0 or later"
-msgstr "Android SDK Platform-Tools 30.0.5 버전 또는 이상"
-
-#, fuzzy
-msgid "Android SDK Build-Tools version 34.0.0"
-msgstr "Android SDK Build-Tools 30.0.3 버전"
-
-#, fuzzy
-msgid "Android SDK Platform 34"
-msgstr "Android SDK Platform 29"
-
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "최신 버전의 Android SDK Command-line Tools"
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "CMake 3.10.2.4988404 버전"
-
-msgid "NDK version r23c (23.2.8568313)"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Alternatively, you can install the Android SDK with the `sdkmanager` command "
-"line tool."
-msgstr ""
-"`커맨드 라인 툴 <https://developer.android.com/studio/#command-tools>`__ 을 "
-"사용해 설치할 수도 있습니다."
-
-#, fuzzy
-msgid ""
-"Install the command line tools package using these `instructions <https://"
-"developer.android.com/tools/sdkmanager>`__."
-msgstr ""
-"실행한 뒤 `설명 <https://developer.android.com/studio/intro/update#sdk-"
-"manager>`__ 을 참고해 SDK 설정을 마치십시오."
-
-#, fuzzy
-msgid ""
-"Once the command line tools are installed, run the following `sdkmanager` "
-"command to complete the setup process:"
-msgstr ""
-"커맨드 라인 툴이 설치되면 아래의 `sdkmanager <https://developer.android.com/"
-"studio/command-line/sdkmanager>`__ 명령을 실행해 설정을 완료하십시오:"
 
 msgid ""
 "If you are using Linux, **do not use an Android SDK provided by your "
@@ -135,33 +58,11 @@ msgstr ""
 msgid "Setting it up in Godot"
 msgstr "Godot에서 설정하기"
 
-#, fuzzy
-msgid ""
-"Enter the Editor Settings screen. This screen contains the editor settings "
-"for the user account in the computer (it's independent of the project)."
-msgstr ""
-"편집기 설정 화면으로 갑니다. 이 화면은 컴퓨터의 사용자 계정을 위한 편집기 설"
-"정을 갖고 있습니다 (프로젝트와는 독립된 것입니다)."
-
 msgid "Scroll down to the section where the Android settings are located:"
 msgstr "Android 설정이 있는 섹션까지 내립니다:"
 
 msgid "In that screen, 2 paths need to be set:"
 msgstr "이 화면에서 2개의 파일 경로가 설정되어야 합니다:"
-
-msgid ""
-"``Java SDK Path`` should be the location where OpenJDK 17 was installed."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``Android Sdk Path`` should be the location where the Android SDK was "
-"installed. - For example ``%LOCALAPPDATA%\\Android\\Sdk\\`` on Windows or ``/"
-"Users/$USER/Library/Android/sdk/`` on macOS."
-msgstr ""
-"``Android Sdk Path`` 는 Windows의 경우 ``%LOCALAPPDATA%\\Android\\Sdk\\``, "
-"macOS의 경우 ``/Users/$USER/Library/Android/sdk/`` 와 같이 Android SDK가 설치"
-"된 경로여야 합니다."
 
 msgid "Once that is configured, everything is ready to export to Android!"
 msgstr "일단 구성되면, Android에 내보낼 준비가 끝납니다!"
@@ -285,43 +186,8 @@ msgstr ""
 "APK를 구글 플레이 스토어에 업로드 하려면 비 디버그 키스토어 파일을 서명해야합"
 "니다; 그러한 파일은 다음과 같이 생성될 수 있습니다:"
 
-#, fuzzy
-msgid ""
-"This keystore and key are used to verify your developer identity, remember "
-"the password and keep it in a safe place! It is suggested to use only upper "
-"and lowercase letters and numbers. Special characters may cause errors. Use "
-"Google's Android Developer guides to learn more about `APK signing <https://"
-"developer.android.com/studio/publish/app-signing>`__."
-msgstr ""
-"이 키스토어와 키는 개발자 ID를 확인하는데 사용됩니다, 암호를 기억하고 안전한 "
-"장소에 보관하세요! `APK 서명 <https://developer.android.com/studio/publish/"
-"app-signing>`__\\ 에 대해 더 자세히 배우고 싶다면 구글 Android 개발자 가이드"
-"를 사용하세요."
-
 msgid "Now fill in the following forms in your Android Export Presets:"
 msgstr "이제 Android 내보내기 프리셋에서 다음 항목을 채우세요:"
-
-#, fuzzy
-msgid "**Release:** Enter the path to the keystore file you just generated."
-msgstr "Release: 막 생성한 키스토어 파일의 경로를 입력하세요."
-
-#, fuzzy
-msgid "**Release User:** Replace with the key alias."
-msgstr "Release User: 키 별명으로 바꾸세요."
-
-#, fuzzy
-msgid ""
-"**Release Password:** Key password. Note that the keystore password and the "
-"key password currently have to be the same."
-msgstr ""
-"Release Password: 키 암호. 키스토어 암호와 키 암호는 현재로선 같아야 합니다."
-
-#, fuzzy
-msgid ""
-"Don't forget to uncheck the **Export With Debug** checkbox while exporting."
-msgstr ""
-"APK의 이름을 고르면서 ``Export With Debug`` 버튼을 비활성화하는 것을 잊지마세"
-"요."
 
 msgid "Optimizing the APK size"
 msgstr "APK 용량 최적화하기"
@@ -364,69 +230,6 @@ msgstr ""
 "그 밖에서 Android 내보내기 템플릿의 필요한 기능만을 활성화 해 컴파일하는 등으"
 "로 용량을 더 줄일 수 있습니다. :ref:`doc_optimizing_for_size`에서 추가 정보"
 "를 확인하십시오."
-
-msgid "Environment variables"
-msgstr ""
-
-msgid ""
-"You can use the following environment variables to set export options "
-"outside of the editor. During the export process, these override the values "
-"that you set in the export menu."
-msgstr ""
-
-#, fuzzy
-msgid "Android export environment variables"
-msgstr "Android (시험용)"
-
-#, fuzzy
-msgid "Export option"
-msgstr "내보내기 설정"
-
-#, fuzzy
-msgid "Environment variable"
-msgstr "환경 옵션"
-
-msgid "Encryption / Encryption Key"
-msgstr ""
-
-msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
-msgstr ""
-
-msgid "Options / Keystore / Debug"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
-msgstr ""
-
-msgid "Options / Keystore / Debug User"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
-msgstr ""
-
-msgid "Options / Keystore / Debug Password"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
-msgstr ""
-
-msgid "Options / Keystore / Release"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
-msgstr ""
-
-msgid "Options / Keystore / Release User"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
-msgstr ""
-
-msgid "Options / Keystore / Release Password"
-msgstr ""
-
-msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
-msgstr ""
 
 msgid "Translation status"
 msgstr "번역 상태"

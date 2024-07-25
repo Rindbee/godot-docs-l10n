@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,9 +30,8 @@ msgstr "コミュニティ"
 msgid "Class reference"
 msgstr "クラス リファレンス"
 
-#, fuzzy
 msgid "Godot Docs – *master* branch"
-msgstr "Godot ドキュメント - *4.2* ブランチ"
+msgstr "Godot ドキュメント - *master* ブランチ"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "
@@ -131,36 +125,3 @@ msgstr "翻訳ステータス"
 
 msgid "Offline documentation"
 msgstr "オフラインドキュメント"
-
-#, fuzzy
-msgid ""
-"To browse the documentation offline, you can download an HTML copy (updated "
-"every Monday): `stable <https://nightly.link/godotengine/godot-docs/"
-"workflows/build_offline_docs/master/godot-docs-html-stable.zip>`__, `latest "
-"<https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/"
-"master/godot-docs-html-master.zip>`__, `3.6 <https://nightly.link/"
-"godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-"
-"html-3.6.zip>`__. Extract the ZIP archive then open the top-level ``index."
-"html`` in a web browser."
-msgstr ""
-"`HTMLのコピーをダウンロード <https://nightly.link/godotengine/godot-docs/"
-"workflows/build_offline_docs/master/godot-docs-html-master.zip>`__ してオフラ"
-"インでドキュメントを参照することもできます (毎週月曜日にアップデートされま"
-"す)。ZIPアーカイブを展開しブラウザでトップの ``index.html`` を開いてくださ"
-"い。"
-
-#, fuzzy
-msgid ""
-"For mobile devices or e-readers, you can also download an ePub copy (updated "
-"every Monday): `stable <https://nightly.link/godotengine/godot-docs/"
-"workflows/build_offline_docs/master/godot-docs-epub-stable.zip>`__, `latest "
-"<https://nightly.link/godotengine/godot-docs/workflows/build_offline_docs/"
-"master/godot-docs-epub-master.zip>`__, `3.6 <https://nightly.link/"
-"godotengine/godot-docs/workflows/build_offline_docs/master/godot-docs-"
-"epub-3.6.zip>`__. Extract the ZIP archive then open the ``GodotEngine.epub`` "
-"file in an e-book reader application."
-msgstr ""
-"`HTMLのコピーをダウンロード <https://nightly.link/godotengine/godot-docs/"
-"workflows/build_offline_docs/3.3/godot-docs-html.zip>`__ することで、モバイル"
-"でもドキュメントをオフラインで参照できます。ZIPアーカイブを展開しブラウザで最"
-"上位の ``index.html`` を開いてください。"

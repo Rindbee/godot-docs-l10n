@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,19 +99,6 @@ msgid ""
 msgstr ""
 "Godot 中有兩種型別的 3D 粒子系統：在 GPU 上處理的 class_GPUParticles3D 和在 "
 "CPU 上處理的 class_CPUParticles3D 。"
-
-#, fuzzy
-msgid ""
-"CPU particle systems are less flexible than their GPU counterpart, but they "
-"work on a wider range of hardware and provide better support for older "
-"devices and mobile phones. Because they are processed on the CPU, they are "
-"not as performant as GPU particle systems and can't render as many "
-"individual particles. In addition they currently do not have all the "
-"available options GPU particles have for control."
-msgstr ""
-"CPU 粒子系統的靈活性不如 GPU 粒子系統，但它們可以在更廣泛的硬體上工作，並為舊"
-"裝置和行動電話提供更好的支援。由於它們是在 CPU 上處理的，因此它們的性能不如 "
-"GPU 粒子系統，並且無法算繪盡可能多的單個粒子。"
 
 msgid ""
 "GPU particle systems run on the GPU and can render hundreds of thousands of "

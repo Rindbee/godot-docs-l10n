@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,16 +30,15 @@ msgstr ""
 "mit einer minimalen Benutzeroberfläche auf dem Bilschirm anzeigen. Wir "
 "werden ein Text-Label dafür benutzen."
 
-#, fuzzy
 msgid ""
 "In the main scene, add a new child node :ref:`Control <class_Control>` to "
 "``Main`` and name it ``UserInterface``. Ensure you are on the 2D screen, "
 "where you can edit your User Interface (UI)."
 msgstr ""
 "Fügen Sie in der Main-Szene einen neuen Child-Node :ref:`Control "
-"<class_Control>` zu ``Main`` hinzu und nennen Sie ihn ``UserInterface``. Sie "
-"werden automatisch zum 2D-Bildschirm weitergeleitet, wo Sie Ihre "
-"Benutzeroberfläche (User Interface oder UI) bearbeiten können."
+"<class_Control>` zu ``Main`` hinzu und nennen Sie ihn ``UserInterface``. "
+"Vergewissern Sie sich, dass Sie sich auf dem 2D-Bildschirm befinden, wo Sie "
+"Ihre Benutzeroberfläche (UI) bearbeiten können."
 
 msgid "Add a :ref:`Label <class_Label>` node and name it ``ScoreLabel``"
 msgstr ""
@@ -146,12 +140,12 @@ msgstr "|image6|"
 msgid "image6"
 msgstr "|image6|"
 
-#, fuzzy
 msgid ""
 "By default, a theme only has a few properties: *Default Base Scale*, "
 "*Default Font* and *Default Font Size*."
 msgstr ""
-"Standardmäßig hat ein Theme nur eine Eigenschaft, die *Default-Schriftart*."
+"Standardmäßig hat ein Theme nur einige wenige Propertys: *Default-"
+"Basisskala*, *Default-Schriftart* und *Default-Schriftgröße*."
 
 msgid ""
 "You can add more properties to the theme resource to design complex user "
@@ -163,15 +157,14 @@ msgstr ""
 "Artikelreihe sprengen. Um mehr über das Erstellen und Bearbeiten von Themes "
 "zu erfahren, siehe :ref:`doc_gui_skinning`."
 
-#, fuzzy
 msgid ""
 "The *Default Font* expects a font file like the ones you have on your "
 "computer. Two common font file formats are TrueType Font (TTF) and OpenType "
 "Font (OTF)."
 msgstr ""
-"Diese erwartet eine Schriftartdatei, wie solche, die Sie auf Ihrem Computer "
-"haben. Zwei gängige Schriftdateiformate sind TrueType Font (TTF) und "
-"OpenType Font (OTF)."
+"Die *Default-Schriftart* erwartet eine Schriftartdatei wie die, die Sie auf "
+"Ihrem Computer haben. Zwei gängige Schriftdateiformate sind TrueType Font "
+"(TTF) und OpenType Font (OTF)."
 
 msgid ""
 "In the *FileSystem* dock, expand the ``fonts`` directory and click and drag "
@@ -259,13 +252,6 @@ msgstr ""
 "Diese Zeile bedeutet, dass wenn der Mob das ``squashed``-Signal sendet, der "
 "``ScoreLabel``-Node es empfängt und die Funktion ``_on_mob_squashed()`` "
 "aufruft."
-
-msgid ""
-"Head back to the ``ScoreLabel.gd`` script to define the "
-"``_on_mob_squashed()`` callback function."
-msgstr ""
-"Gehen Sie zurück zum Skript ``ScoreLabel.gd``, um die Callback-Funktion "
-"``_on_mob_squashed()`` zu definieren."
 
 msgid "There, we increment the score and update the displayed text."
 msgstr "Dort wird die Punktzahl erhöht und der angezeigte Text aktualisiert."
@@ -554,10 +540,6 @@ msgstr "|image17|"
 msgid "image17"
 msgstr "|image17|"
 
-msgid "Save the scene as ``MusicPlayer.tscn``."
-msgstr ""
-"Anschließend speichern Sie die Szene unter dem Namen ``MusicPlayer.tscn``."
-
 msgid ""
 "We have to register it as an autoload. Head to the *Project -> Project "
 "Settings…* menu and click on the *Autoload* tab."
@@ -565,29 +547,11 @@ msgstr ""
 "Sie müssen es für Autoload registrieren. Gehen Sie zu *Projekt -> "
 "Projekteinstellungen...* und klicken sie auf den *Autoload*-Tab."
 
-msgid ""
-"In the *Path* field, you want to enter the path to your scene. Click the "
-"folder icon to open the file browser and double-click on ``MusicPlayer."
-"tscn``. Then, click the *Add* button on the right to register the node."
-msgstr ""
-"Geben Sie in das Feld *Pfad* den Pfad zu Ihrer Szene ein. Klicken Sie das "
-"Order-Icon um die Dateiauswahl zu öffnen und doppelklicken Sie auf "
-"``MusicPlayer.tscn``. Dann klicken Sie auf den *Hinzufügen*-Button auf der "
-"rechten Seite, um den Node zu registrieren."
-
 msgid "|image18|"
 msgstr "|image18|"
 
 msgid "image18"
 msgstr "|image18|"
-
-msgid ""
-"``MusicPlayer.tscn`` now loads into any scene you open or play. So if you "
-"run the game now, the music will play automatically in any scene."
-msgstr ""
-"``MusicPlayer.tscn`` wird nun in jede Szene geladen, die Sie öffnen oder "
-"spielen. Wenn Sie also das Spiel jetzt starten, wird die Musik automatisch "
-"in jeder Szene gespielt."
 
 msgid ""
 "Before we wrap up this lesson, here's a quick look at how it works under the "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,9 +49,6 @@ msgstr "\\ |image1|"
 
 msgid "image1"
 msgstr "image1"
-
-msgid "If you still have *Input Map* open, switch to the *General* tab."
-msgstr ""
 
 msgid ""
 "In the left menu, navigate down to *Display -> Window*. On the right, set "
@@ -334,19 +326,6 @@ msgstr "\\ |image1|"
 msgid "image18"
 msgstr "image18"
 
-#, fuzzy
-msgid ""
-"To sample random positions on it, we need a :ref:`PathFollow3D "
-"<class_PathFollow3D>` node. Add a :ref:`PathFollow3D <class_PathFollow3D>` "
-"as a child of the ``Path3D``. Rename the two nodes to ``SpawnLocation`` and "
-"``SpawnPath``, respectively. It's more descriptive of what we'll use them "
-"for."
-msgstr ""
-"要對它的隨機位置進行取樣，我們需要一個 :ref:`PathFollow3D "
-"<class_PathFollow3D>` 節點。新增 :ref:`PathFollow3D <class_PathFollow3D>` 作"
-"為 ``Path3D`` 的子項。將兩個節點分別重命名為 ``SpawnPath`` 和 "
-"``SpawnLocation``。 這兩個名字能夠更明確地說明用途。"
-
 msgid "|image19|"
 msgstr "\\ |image1|"
 
@@ -482,15 +461,6 @@ msgstr ""
 "數值是 *PathFollow* 節點的 ``progress_ratio`` 屬性所期望的：0 代表路徑的開始"
 "點，1 代表路徑的終點。 我們之前設定的路徑是圍繞著相機視口的，因此任何 0 到 1 "
 "之間的隨機值都代表著沿著視口邊緣的隨機位置！"
-
-msgid ""
-"Note that if you remove the ``Player`` from the main scene, the following "
-"line"
-msgstr ""
-
-#, fuzzy
-msgid "gives an error because there is no $Player!"
-msgstr "由於此處沒有 $Player 導致的報告有錯！"
 
 msgid "Here is the complete ``main.gd`` script so far, for reference."
 msgstr "這是目前完整的 ``main.gd`` 腳本，僅供參考。"

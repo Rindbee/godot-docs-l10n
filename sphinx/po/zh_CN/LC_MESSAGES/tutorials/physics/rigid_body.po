@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +32,6 @@ msgstr ""
 msgid "How to control a rigid body"
 msgstr "如何控制刚体"
 
-#, fuzzy
 msgid ""
 "A rigid body's behavior can be altered by setting its properties, such as "
 "mass and weight. A physics material needs to be added to the rigid body to "
@@ -46,17 +40,17 @@ msgid ""
 "`RigidBody3D <class_RigidBody3D>` and :ref:`PhysicsMaterial "
 "<class_PhysicsMaterial>` for the full list of properties and their effects."
 msgstr ""
-"刚体的行为可以通过设置其属性来改变，比如质量和重量。需要给刚体添加一个物理材"
-"质来调整它的摩擦力和反弹力，并设置它是否具有吸收性、粗糙度。这些属性可以在检"
-"查器中或通过代码来设置。参见 :ref:`RigidBody <class_RigidBody>` 和 :ref:"
-"`PhysicsMaterial <class_PhysicsMaterial>` 获取完整的属性列表和它们的效果。"
+"刚体的行为可以通过设置其属性（例如质量和重量）来进行调整。需要给刚体添加一个"
+"物理材质来调整它的摩擦和反弹，并设置它是否具有吸收性、粗糙度。这些属性可以在"
+"检查器中或通过代码来设置。参见 :ref:`RigidBody3D <class_RigidBody3D>` 和 :"
+"ref:`PhysicsMaterial <class_PhysicsMaterial>` 获取完整的属性列表和它们的效"
+"果。"
 
 msgid ""
 "There are several ways to control a rigid body's movement, depending on your "
 "desired application."
 msgstr "有几种方法可以控制刚体的运动, 这取决于你的应用程序."
 
-#, fuzzy
 msgid ""
 "If you only need to place a rigid body once, for example to set its initial "
 "location, you can use the methods provided by the :ref:`Node3D "
@@ -68,12 +62,12 @@ msgid ""
 "to use ``look_at()`` every frame, which breaks the physics simulation. "
 "Below, we'll demonstrate how to implement this correctly."
 msgstr ""
-"如果你只需要放置一次刚体, 例如设置它的初始位置, 你可以使用 :ref:`Spatial "
-"<class_Spatial>` 节点提供的方法, 例如 ``set_global_transform()`` 或 "
-"``look_at()`` . 但是, 这些方法不能每一帧都被调用, 否则物理引擎将无法正确地模"
-"拟物体的状态. 举个例子, 考虑一个刚体, 你想旋转它, 使它指向另一个对象. 在实现"
-"这种行为时, 一个常见的错误是每一帧都使用 ``look_at()`` , 这样会破坏物理模拟. "
-"下面, 我们将演示如何正确地实现这一点."
+"如果你只需要放置一次刚体，例如设置它的初始位置，你可以使用 :ref:`Node3D "
+"<class_Node3D>` 节点提供的方法，例如 ``set_global_transform()`` 或 "
+"``look_at()`` 。但是，这些方法不能每一帧都被调用，否则物理引擎将无法正确地仿"
+"真物体的状态。举个例子，考虑一个刚体，你想旋转它，使它指向另一个对象。在实现"
+"这种行为时，一个常见的错误是每一帧都使用 ``look_at()`` ，这样会破坏物理仿真。"
+"下面，我们将演示如何正确地实现这一点。"
 
 msgid ""
 "The fact that you can't use ``set_global_transform()`` or ``look_at()`` "
@@ -90,14 +84,14 @@ msgstr ""
 msgid "The \"look at\" method"
 msgstr "“look at”方法"
 
-#, fuzzy
 msgid ""
 "As described above, using the Node3D's ``look_at()`` method can't be used "
 "each frame to follow a target. Here is a custom ``look_at()`` method called "
 "``look_follow()`` that will work with rigid bodies:"
 msgstr ""
-"如上所述, 使用Spatial节点的 ``look_at()`` 方法不能每一帧都用来跟踪一个目标. "
-"这里有一个自定义的 ``look_at()`` 方法, 它可以可靠地工作在刚体上:"
+"如上所述，使用 Node3D 节点的 ``look_at()`` 方法不能每一帧都用来跟踪一个目标。"
+"这里有一个自定义的 ``look_at()`` 方法叫做 ``look_follow()`` ，可以适用于刚"
+"体："
 
 msgid ""
 "This method uses the rigid body's ``angular_velocity`` property to rotate "

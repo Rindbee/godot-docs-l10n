@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
 msgid ""
 "GD0302: The generic type parameter must be annotated with the "
 "'[MustBeVariant]' attribute"
 msgstr ""
-"GD0302: The generic type parameter must be annotated with the MustBeVariant "
-"attribute"
+"GD0302: The generic type parameter must be annotated with the "
+"'[MustBeVariant]' attribute"
 
 msgid "**Rule ID**"
 msgstr "**Regel-ID**"
@@ -52,7 +46,6 @@ msgstr "Ja"
 msgid "Cause"
 msgstr "Ursache"
 
-#, fuzzy
 msgid ""
 "A generic type is specified for a generic type argument when a :ref:`Variant-"
 "compatible type <c_sharp_variant_compatible_types>` is expected, but the "
@@ -60,9 +53,9 @@ msgid ""
 "attribute."
 msgstr ""
 "Ein generischer Typ wird für ein generisches Typ-Argument angegeben, wenn "
-"ein :ref:`Variant-kompatibler <doc_c_sharp_variant>`-Typ erwartet wird, aber "
-"der angegebene generische Typ nicht mit dem ``[MustBeVariant]``-Attribut "
-"annotiert ist."
+"ein :ref:`Variant-kompatibler Typ <c_sharp_variant_compatible_types>` "
+"erwartet wird, aber der angegebene generische Typ nicht mit dem Attribut "
+"``[MustBeVariant]`` annotiert ist."
 
 msgid "Rule description"
 msgstr "Regelbeschreibung"
@@ -93,7 +86,7 @@ msgid ""
 "Variant-compatible."
 msgstr ""
 "Um einen Verstoß gegen diese Regel zu beheben, fügen Sie das Attribut "
-"``[MustBeVariant]'' zu dem generischen Typ hinzu, der als Argument für einen "
+"``[MustBeVariant]`` zu dem generischen Typ hinzu, der als Argument für einen "
 "generischen Typ verwendet wird, der mit Variant kompatibel sein muss."
 
 msgid "When to suppress warnings"
@@ -106,7 +99,7 @@ msgid ""
 "can't be marshalled it will result in runtime errors."
 msgstr ""
 "Unterdrücken Sie nicht eine Warnung zu dieser Regel. API, die generische "
-"Typargumente enthält, die mit dem Attribut ``[MustBeVariant]'' annotiert "
+"Typargumente enthält, die mit dem Attribut ``[MustBeVariant]`` annotiert "
 "sind, haben in der Regel diese Anforderung, da die Werte an die Engine "
 "übergeben werden; wenn der Typ nicht marshalled werden kann, führt dies zu "
 "Laufzeitfehlern."

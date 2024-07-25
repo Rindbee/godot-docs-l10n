@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,33 +108,6 @@ msgstr "|image2|"
 msgid "image2"
 msgstr "image2"
 
-#, fuzzy
-msgid ""
-"The ``.glb`` files contain 3D scene data based on the open source GLTF 2.0 "
-"specification. They're a modern and powerful alternative to a proprietary "
-"format like FBX, which Godot also supports. To produce these files, we "
-"designed the model in `Blender 3D <https://www.blender.org/>`__ and exported "
-"it to GLTF."
-msgstr ""
-"Файлы ``.glb`` содержат данные 3D-сцены, основанные на открытой спецификации "
-"GLTF 2.0. Они являются современными и мощными альтернативами такому формату, "
-"как FBX, который Godot также поддерживает. Чтобы представить эти файлы, мы "
-"спроектировали модель в `Blender 3D <https://www.blender.org/>`__ и "
-"экспортировали её в GLTF."
-
-#, fuzzy
-msgid ""
-"As with all kinds of physics nodes, we need a collision shape for our "
-"character to collide with the environment. Select the ``Player`` node again "
-"and add a child node :ref:`CollisionShape3D <class_CollisionShape3D>`. In "
-"the *Inspector*, on the *Shape* property, add a new :ref:`SphereShape3D "
-"<class_SphereShape3D>`."
-msgstr ""
-"Как и в случае со всеми видами физических узлов нам необходима фигура "
-"столкновения для нашего персонажа, чтобы столкнуться с окружением. Снова "
-"выберите узел *Player* и добавьте *CollisionShape*. В *Inspector* присвойте "
-"*SphereShape* параметрам *Shape*. Каркас сферы появится ниже персонажа."
-
 msgid "The sphere's wireframe appears below the character."
 msgstr "Каркас сферы отображается под персонажем."
 
@@ -149,39 +117,11 @@ msgstr "|image3|"
 msgid "image3"
 msgstr "image3"
 
-#, fuzzy
-msgid ""
-"It will be the shape the physics engine uses to collide with the "
-"environment, so we want it to better fit the 3D model. Make it a bit larger "
-"by dragging the orange dot in the viewport. My sphere has a radius of about "
-"``0.8`` meters."
-msgstr ""
-"Это будет форма, которую использует физический движок, чтобы столкнуться с "
-"окружением, поэтому мы хотим, чтобы она лучше походила именно для 3D-модели. "
-"Уменьшите её, перетащив оранжевую кнопку в окне просмотра. Моя сфера имеет "
-"радиус около ``0.8``метра."
-
-#, fuzzy
-msgid ""
-"Then, move the collision shape up so its bottom roughly aligns with the "
-"grid's plane."
-msgstr ""
-"После этого передвиньте фигуру вверх так, чтобы её низ приблизительно "
-"совпадал с плоскостью сетки."
-
 msgid "|image4|"
 msgstr "|image4|"
 
 msgid "image4"
 msgstr "image4"
-
-#, fuzzy
-msgid ""
-"To make moving the shape easier, you can toggle the model's visibility by "
-"clicking the eye icon next to the ``Character`` or the ``Pivot`` nodes."
-msgstr ""
-"Вы можете переключить прозрачность модели, нажав на иконку глаза рядом с "
-"узлами *Character* или *Pivot*."
 
 msgid "|image5|"
 msgstr "|image5|"
@@ -214,14 +154,6 @@ msgstr ""
 "позволяет Вам маркировать набор клавиш и кнопок. Это облегчает наши скрипты "
 "и делает их более читаемыми."
 
-#, fuzzy
-msgid ""
-"This system is the Input Map. To access its editor, head to the *Project* "
-"menu and select *Project Settings*."
-msgstr ""
-"Эта система ― Input Map. Чтобы получить доступ к редактору, откройте меню "
-"*Проект* и выберите *Настройки Проекта…*."
-
 msgid "|image6|"
 msgstr "|image6|"
 
@@ -243,17 +175,6 @@ msgstr "|image7|"
 msgid "image7"
 msgstr "image7"
 
-#, fuzzy
-msgid ""
-"Godot projects come with some predefined actions designed for user interface "
-"design (see above screenshot). These will become visible if you enable the "
-"*Show Built-in Actions* toggle. We could use these here, but instead we're "
-"defining our own to support gamepads. Leave *Show Built-in Actions* disabled."
-msgstr ""
-"Проекты Godot оснащены предопределенными действиями, созданными для дизайна "
-"пользовательского интерфейса, которым мы можем здесь пользоваться. Но мы "
-"определяем наши собственные действия для поддержки геймпадов."
-
 msgid ""
 "We're going to name our actions ``move_left``, ``move_right``, "
 "``move_forward``, ``move_back``, and ``jump``."
@@ -272,23 +193,11 @@ msgstr "|image8|"
 msgid "image8"
 msgstr "image8"
 
-#, fuzzy
-msgid "Create the following five actions:"
-msgstr "Существуют следующие предостережения:"
-
 msgid "|image9|"
 msgstr "|image9|"
 
 msgid "image9"
 msgstr "image9"
-
-#, fuzzy
-msgid ""
-"To bind a key or button to an action, click the \"+\" button to its right. "
-"Do this for ``move_left``. Press the left arrow key and click *OK*."
-msgstr ""
-"Чтобы привязать клавишу или кнопку к действию, нажмите справа на кнопку \"+"
-"\". Сделайте это для ``move_left`` и нажмите *Клавиша* в выпадающем меню."
 
 msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr "Привяжите также :kbd:`A` , на действие ``move_left``."
@@ -299,20 +208,8 @@ msgstr "|image12|"
 msgid "image12"
 msgstr "image12"
 
-#, fuzzy
-msgid ""
-"Let's now add support for a gamepad's left joystick. Click the \"+\" button "
-"again but this time, select *Manual Selection -> Joypad Axes*."
-msgstr ""
-"Давайте добавим опцию для левого джойстика на геймпаде. Снова нажмите кнопку "
-"\"+\", но в этот раз выберите *Joy Axis*."
-
 msgid "Select the negative X axis of the left joystick."
 msgstr "Выберите отрицательную ось X левого джойстика."
-
-#, fuzzy
-msgid "Leave the other values as default and press *OK*"
-msgstr "Остальные значения оставьте как есть и нажмите *OK*"
 
 msgid ""
 "If you want controllers to have different input actions, you should use the "
@@ -325,30 +222,11 @@ msgstr ""
 "Устройство 0 соответствует первому подключенному геймпаду, Устройство 1 "
 "соответствует второму подключенному геймпаду и так далее."
 
-#, fuzzy
-msgid ""
-"Do the same for the other input actions. For example, bind the right arrow, "
-"D, and the left joystick's positive axis to ``move_right``. After binding "
-"all keys, your interface should look like this."
-msgstr ""
-"Сделайте то же самое и для других действий ввода. К примеру, привяжите "
-"правую стрелку, D, и правую ось левого джойстика к ``move_right``. После "
-"того, как вы привяжите все клавиши, Ваш интерфейс должен выглядеть следующим "
-"образом."
-
 msgid "|image15|"
 msgstr "|image15|"
 
 msgid "image15"
 msgstr "image15"
-
-#, fuzzy
-msgid ""
-"The final action to set up is the ``jump`` action. Bind the Space key and "
-"the gamepad's A button."
-msgstr ""
-"Последнее действие, которое нужно назначить - ``jump``. Привяжите клавишу "
-"Space и кнопку A на геймпаде."
 
 msgid "|image16|"
 msgstr "|image16|"

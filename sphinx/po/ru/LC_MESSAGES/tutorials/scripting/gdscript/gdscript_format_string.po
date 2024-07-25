@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,18 +32,6 @@ msgstr ""
 "содержат определенные последовательности символов-заполнителей. Эти "
 "заполнители могут быть легко заменены параметрами, переданными в строку "
 "формата."
-
-#, fuzzy
-msgid ""
-"As an example, with ``%s`` as a placeholder, the format string ``\"Hello %s, "
-"how are you?\"`` can easily be changed to ``\"Hello World, how are you?\"``. "
-"Notice the placeholder is in the middle of the string; modifying it without "
-"format strings could be cumbersome."
-msgstr ""
-"В качестве примера, с ``%s`` в качестве заполнителя, строка формата ``\" "
-"Hello %s, how are you?\"`` можно легко изменить на ``\"Hello World, how are "
-"you?\"``. Обратите внимание, что заполнитель находится в середине строки; "
-"изменение его без форматирования строк получится громоздким."
 
 msgid "Usage in GDScript"
 msgstr "Использование в GDScript"
@@ -225,16 +208,6 @@ msgstr ""
 "**Decimal real**. Ожидает целое или вещественное число (будет выведено "
 "десятичное целое или вещественное число)."
 
-msgid "``v``"
-msgstr ""
-
-msgid ""
-"A **vector**. Expects any float or int-based vector object ( ``Vector2``, "
-"``Vector3``, ``Vector4``, ``Vector2i``, ``Vector3i`` or ``Vector4i``). Will "
-"display the vector coordinates in parentheses, formatting each coordinate as "
-"if it was an ``%f``, and using the same modifiers."
-msgstr ""
-
 msgid "Placeholder modifiers"
 msgstr "Модификаторы-заполнители"
 
@@ -256,26 +229,8 @@ msgstr ""
 msgid "Integer"
 msgstr "Integer"
 
-#, fuzzy
-msgid ""
-"Set **padding**. Padded with spaces or with zeroes if integer starts with "
-"``0`` in an integer or real number placeholder. The leading ``0`` is ignored "
-"if ``-`` is present. When used after ``.``, see ``.``."
-msgstr ""
-"Установить заполнение **padding**. Заполняется пробелами или нулями, если "
-"целое число начинается с ``0`` в целочисленном заполнителе. При "
-"использовании после ``.``, см. ``.``."
-
 msgid "``.``"
 msgstr "``.``"
-
-#, fuzzy
-msgid ""
-"Before ``f`` or ``v``, set **precision** to 0 decimal places. Can be "
-"followed up with numbers to change. Padded with zeroes."
-msgstr ""
-"Перед ``f`` установите **precision** точность в 0 знаков после запятой. В "
-"дальнейшем число знаков после запятой можно изменить. Заполняются нулями."
 
 msgid "``-``"
 msgstr "``-``"

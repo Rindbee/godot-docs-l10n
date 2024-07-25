@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,34 +36,8 @@ msgstr ""
 "hijo debe estar presente en el árbol de escena. Obtenerlo en la función "
 "``_ready()`` del nodo padre garantiza que esté disponible."
 
-#, fuzzy
-msgid ""
-"If, for example,  you have a scene tree like this, and you want to get a "
-"reference to the Sprite2D and Camera2D nodes to access them in your script."
-msgstr ""
-"Si, por ejemplo, . . tienes un árbol de escena como este, y deseas obtener "
-"una referencia a los nodos Sprite y Camera2D para acceder a ellos en tu "
-"script."
-
 msgid "To do so, you can use the following code."
 msgstr "Para hacer eso, puedes usar el siguiente código."
-
-#, fuzzy
-msgid ""
-"Note that you get nodes using their name, not their type. Above, "
-"\"Sprite2D\" and \"Camera2D\" are the nodes' names in the scene."
-msgstr ""
-"Ten en cuenta que obtienes nodos usando su nombre, no su tipo. Arriba, "
-"\"Sprite\" y \"Camera2D\" son los nombres de los nodos en la escena."
-
-#, fuzzy
-msgid ""
-"If you rename the Sprite2D node as Skin in the Scene dock, you have to "
-"change the line that gets the node to ``get_node(\"Skin\")`` in the script."
-msgstr ""
-"Si cambias el nombre del nodo Sprite a \"Skin\" en el panel de Escena, "
-"tendrás que modificar la línea que obtiene el nodo en el script a "
-"``get_node(\"Skin\")``."
 
 msgid "Node paths"
 msgstr "Rutas de nodos"
@@ -90,10 +59,6 @@ msgstr ""
 "Toma la siguiente escena de ejemplo, con el script adjunto al nodo "
 "UserInterface."
 
-#, fuzzy
-msgid "To get the AnimationPlayer node, you would use the following code."
-msgstr "Para activar un nodo Tween, usa el siguiente código."
-
 msgid ""
 "As with file paths, you can use \"..\" to get a parent node. The best "
 "practice is to avoid doing that though not to break encapsulation. You can "
@@ -109,17 +74,6 @@ msgstr ""
 
 msgid "Syntactic sugar"
 msgstr "Azucar sintactico"
-
-#, fuzzy
-msgid ""
-"You can use two shorthands to shorten your code in GDScript. Firstly, "
-"putting the ``@onready`` annotation before a member variable makes it "
-"initialize right before the ``_ready()`` callback."
-msgstr ""
-"Puedes utilizar dos abreviaturas para acortar tu código en GDScript. En "
-"primer lugar, colocar la palabra clave ``onready`` antes de una variable "
-"miembro hace que se inicialice justo antes de la devolución de llamada "
-"``_ready()``."
 
 msgid ""
 "There is also a short notation for ``get_node()``: the dollar sign, \"$\". "
@@ -160,14 +114,6 @@ msgstr ""
 "momento, el motor quitará el nodo de la escena y liberará el objeto en la "
 "memoria."
 
-#, fuzzy
-msgid ""
-"Before calling ``sprite2d.queue_free()``, the remote scene tree looks like "
-"this."
-msgstr ""
-"Antes de llamar a ``sprite.queue_free()``, el árbol de escena remoto se ve "
-"así."
-
 msgid ""
 "After the engine freed the node, the remote scene tree doesn't display the "
 "sprite anymore."
@@ -207,10 +153,6 @@ msgstr ""
 "reproducciones como desees. Esta operación se llama instanciación, y "
 "realizarla desde el código se realiza en dos pasos:"
 
-#, fuzzy
-msgid "Loading the scene from the local drive."
-msgstr "Cargando la escena desde el disco duro."
-
 msgid ""
 "Creating an instance of the loaded :ref:`PackedScene <class_PackedScene>` "
 "resource."
@@ -226,19 +168,6 @@ msgstr ""
 "Precargar la escena puede mejorar la experiencia del usuario, ya que la "
 "operación de carga ocurre cuando el compilador lee el script y no en tiempo "
 "de ejecución. Esta característica solo está disponible en GDScript."
-
-#, fuzzy
-msgid ""
-"At that point, ``scene`` is a packed scene resource, not a node. To create "
-"the actual node, you need to call :ref:`PackedScene.instantiate() "
-"<class_PackedScene_method_instantiate>`. It returns a tree of nodes that you "
-"can use as a child of your current node."
-msgstr ""
-"En este punto, ``scene`` todavía no es un nodo. Está empaquetado en un "
-"recurso especial llamado :ref:`PackedScene <class_PackedScene>`. Para crear "
-"el nodo se debe llamar a la función :ref:`PackedScene.instance() "
-"<class_PackedScene_method_instance>`. Esto devolverá un árbol de nodos que "
-"se puede añadir como hijo de tu escena actual."
 
 msgid ""
 "The advantage of this two-step process is you can keep a packed scene loaded "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -301,25 +296,25 @@ msgstr ""
 "**X Screen 0 > OpenGL Settings** y desmarca **Enable Graphics API Visual "
 "Indicator**."
 
-#, fuzzy
-msgid ""
-"A microphone or \"refresh\" icon appears in the bottom-right corner of the "
-"Project Manager and editor window"
-msgstr ""
-"Un texto como \"NO DC\" aparece en la esquina superior izquierda de la "
-"ventana del Administrador de Proyectos y del editor"
-
 msgid ""
 "This is caused by the NVIDIA graphics driver injecting an overlay to display "
 "instant replay information on ShadowPlay recording. This overlay can only be "
 "seen on Windows, as Linux does not have support for ShadowPlay."
 msgstr ""
+"Esto se debe a que el controlador de gráficos NVIDIA inyecta una "
+"superposición para mostrar información de reproducción instantánea en la "
+"grabación de ShadowPlay. Esta superposición solo se puede ver en Windows, ya "
+"que Linux no es compatible con ShadowPlay."
 
 msgid ""
 "To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
 "NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
 "the NVIDIA overlay."
 msgstr ""
+"Para deshabilitar esta superposición, presione :kbd:`Alt + Z` (atajo "
+"predeterminado para la superposición de NVIDIA) y deshabilite "
+"**Configuración > Diseño de HUD > Indicador de Estado** en la superposición "
+"de NVIDIA."
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "El editor o el proyecto se ve muy pixelado o desenfocado"

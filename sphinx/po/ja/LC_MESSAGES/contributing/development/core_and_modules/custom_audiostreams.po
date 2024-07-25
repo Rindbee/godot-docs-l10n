@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,15 +39,6 @@ msgstr ""
 "ディオストリームをPCMデータに変換する独自の内部カスタムAudioStream再生を参照"
 "します。"
 
-#, fuzzy
-msgid ""
-"This guide assumes the reader knows how to create C++ modules. If not, refer "
-"to this guide :ref:`doc_custom_modules_in_cpp`."
-msgstr ""
-"このガイドでは、読者がC++モジュールの作成方法を理解していることを前提としてい"
-"ます。そうでない場合は、このガイドを参照してください\\ :ref:"
-"`doc_custom_modules_in_c++`\\ 。"
-
 msgid "References:"
 msgstr "リファレンス:"
 
@@ -62,14 +48,6 @@ msgid ""
 msgstr ""
 "`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/"
 "master/servers/audio/audio_stream.h>`_"
-
-#, fuzzy
-msgid ""
-"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
-"blob/master/scene/audio/audio_stream_player.cpp>`__"
-msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`_"
 
 msgid "What for?"
 msgstr "何のために？"
@@ -97,19 +75,6 @@ msgstr ""
 "は、トーンジェネレータの内部カウンタ、内部/外部バッファ、ファイル参照など、さ"
 "まざまな方法で読み込むことができます。"
 
-#, fuzzy
-msgid ""
-"Some AudioStreams need to be stateless such as objects loaded from "
-"ResourceLoader. ResourceLoader loads once and references the same object "
-"regardless how many times ``load`` is called on a specific resource. "
-"Therefore, playback state must be self-contained in AudioStreamPlayback."
-msgstr ""
-"一部のAudioStreamは、ResourceLoaderから読み込まれたオブジェクトなど、ステート"
-"レスである必要があります。ResourceLoaderは、特定のリソースで ``load`` が呼び"
-"出された回数に関係なく、同じオブジェクトを1回読み込み、同じオブジェクトを参照"
-"します。したがって、再生状態はAudioStreamPlaybackに自己完結している必要があり"
-"ます。"
-
 msgid "Create an AudioStreamPlayback"
 msgstr "オーディオストリームPlaybackを作成する"
 
@@ -129,18 +94,6 @@ msgstr ""
 
 msgid "Resampling"
 msgstr "リサンプリング"
-
-#, fuzzy
-msgid ""
-"Godot's AudioServer currently uses 44100 Hz sample rate. When other sample "
-"rates are needed such as 48000, either provide one or use "
-"AudioStreamPlaybackResampled. Godot provides cubic interpolation for audio "
-"resampling."
-msgstr ""
-"GodotのAudioServerは現在44100Hzのサンプルレートを使用しています。48000Hzなど"
-"の他のサンプルレートが必要な場合は、1つを提供するか、"
-"AudioStreamPlaybackResampledを使用します。Godotは、オーディオリサンプリング用"
-"の立方体補間を提供します。"
 
 msgid ""
 "Instead of overloading ``mix``, AudioStreamPlaybackResampled uses "

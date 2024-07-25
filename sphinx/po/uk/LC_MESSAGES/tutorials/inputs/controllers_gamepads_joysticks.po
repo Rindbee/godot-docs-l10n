@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,14 +131,6 @@ msgstr ""
 "клавіатури, використовуйте ``Input.is_action_pressed()``:"
 
 msgid ""
-"If you need to know whether an input was *just* pressed in the previous "
-"frame, use ``Input.is_action_just_pressed()`` instead of ``Input."
-"is_action_pressed()``. Unlike ``Input.is_action_pressed()`` which returns "
-"``true`` as long as the input is held, ``Input.is_action_just_pressed()`` "
-"will only return ``true`` for one frame after the button has been pressed."
-msgstr ""
-
-msgid ""
 "In Godot versions before 3.4, such as 3.3, ``Input.get_vector()`` and "
 "``Input.get_axis()`` aren't available. Only ``Input.get_action_strength()`` "
 "and ``Input.is_action_pressed()`` are available in Godot 3.3."
@@ -151,38 +138,6 @@ msgstr ""
 "У версіях Godot до версії 3.4, наприклад 3.3, ``Input.get_vector()`` і "
 "``Input.get_axis()`` недоступні. В Godot 3.3 доступні тільки ``Input."
 "get_action_strength()`` і ``Input.is_action_pressed()``."
-
-#, fuzzy
-msgid "Vibration"
-msgstr "Віднімання"
-
-msgid ""
-"Vibration (also called *haptic feedback*) can be used to enhance the feel of "
-"a game. For instance, in a racing game, you can convey the surface the car "
-"is currently driving on through vibration, or create a sudden vibration on a "
-"crash."
-msgstr ""
-
-msgid ""
-"Use the Input singleton's :ref:"
-"`start_joy_vibration<class_Input_method_start_joy_vibration>` method to "
-"start vibrating a gamepad. Use :ref:"
-"`stop_joy_vibration<class_Input_method_stop_joy_vibration>` to stop "
-"vibration early (useful if no duration was specified when starting)."
-msgstr ""
-
-msgid ""
-"On mobile devices, you can also use :ref:"
-"`vibrate_handheld<class_Input_method_vibrate_handheld>` to vibrate the "
-"device itself (independently from the gamepad). On Android, this requires "
-"the ``VIBRATE`` permission to be enabled in the Android export preset before "
-"exporting the project."
-msgstr ""
-
-msgid ""
-"Vibration can be uncomfortable for certain players. Make sure to provide an "
-"in-game slider to disable vibration or reduce its intensity."
-msgstr ""
 
 msgid "Differences between keyboard/mouse and controller input"
 msgstr "Відмінності між введенням клавіатури/мишки та контролера"
@@ -240,20 +195,6 @@ msgstr ""
 "введення джойстика, яке спричиняє дрейфування, але досить низьке, щоб не "
 "ігнорувати фактичний ввід гравця."
 
-#, fuzzy
-msgid ""
-"Godot features a built-in deadzone system to tackle this problem. The "
-"default value is ``0.5``, but you can adjust it on a per-action basis in the "
-"Project Settings' Input Map tab. For ``Input.get_vector()``, the deadzone "
-"can be specified as an optional 5th parameter. If not specified, it will "
-"calculate the average deadzone value from all of the actions in the vector."
-msgstr ""
-"Godot має вбудовану систему мертвих зон для вирішення цієї проблеми. "
-"Значення за промовчанням – ``0.2``, але його можна збільшити, або зменшити, "
-"для кожної дії на вкладці Карта введення в Параметрах проекту. Для ``Input."
-"get_vector()``, мертва зона може бути вказана, або, в іншому випадку, вона "
-"буде обчислювати середнє значення мертвої зони з усіх дій у векторі."
-
 msgid "\"Echo\" events"
 msgstr "Події \"Відлуння\""
 
@@ -282,59 +223,6 @@ msgstr ""
 "<class_Input_method_parse_input_event>` через регулярні проміжки часу. Це "
 "можна зробити за допомогою вузла :ref:`class_Timer`."
 
-#, fuzzy
-msgid "Window focus"
-msgstr "Windows"
-
-msgid ""
-"Unlike keyboard input, controller inputs can be seen by **all** windows on "
-"the operating system, including unfocused windows."
-msgstr ""
-
-msgid ""
-"While this is useful for `third-party split screen functionality <https://"
-"nucleus-coop.github.io/>`__, it can also have adverse effects. Players may "
-"accidentally send controller inputs to the running project while interacting "
-"with another window."
-msgstr ""
-
-msgid ""
-"If you wish to ignore events when the project window isn't focused, you will "
-"need to create an :ref:`autoload <doc_singletons_autoload>` called ``Focus`` "
-"with the following script and use it to check all your inputs:"
-msgstr ""
-
-msgid ""
-"Then, instead of using ``Input.is_action_pressed(action)``, use ``Focus."
-"input_is_action_pressed(action)`` where ``action`` is the name of the input "
-"action. Also, instead of using ``event.is_action_pressed(action)``, use "
-"``Focus.event_is_action_pressed(event, action)`` where ``event`` is an "
-"InputEvent reference and ``action`` is the name of the input action."
-msgstr ""
-
-msgid "Power saving prevention"
-msgstr ""
-
-msgid ""
-"Unlike keyboard and mouse input, controller inputs do **not** inhibit sleep "
-"and power saving measures (such as turning off the screen after a certain "
-"amount of time has passed)."
-msgstr ""
-
-msgid ""
-"To combat this, Godot enables power saving prevention by default when a "
-"project is running. If you notice the system is turning off its display when "
-"playing with a gamepad, check the value of **Display > Window > Energy "
-"Saving > Keep Screen On** in the Project Settings."
-msgstr ""
-
-msgid ""
-"On Linux, power saving prevention requires the engine to be able to use D-"
-"Bus. Check whether D-Bus is installed and reachable if running the project "
-"within a Flatpak, as sandboxing restrictions may make this impossible by "
-"default."
-msgstr ""
-
 msgid "Troubleshooting"
 msgstr "Вирішення проблем"
 
@@ -360,27 +248,8 @@ msgstr ""
 "можете використовувати веб-сайт `Gamepad Tester <https://gamepad-tester.com/"
 ">`__, щоб переконатися, що ваш контролер розпізнається."
 
-msgid ""
-"On Windows Godot only supports up to 4 controllers at a time. This is "
-"because Godot uses the XInput API, which is limited to supporting 4 "
-"controllers at once. Additional controllers above this limit are ignored by "
-"Godot."
-msgstr ""
-
 msgid "My controller has incorrectly mapped buttons or axes."
 msgstr "На моєму контролері неправильно зіставлені кнопки, або осі."
-
-msgid ""
-"First, if your controller provides some kind of firmware update utility, "
-"make sure to run it to get the latest fixes from the manufacturer. For "
-"instance, Xbox One and Xbox Series controllers can have their firmware "
-"updated using the `Xbox Accessories app <https://www.microsoft.com/en-us/p/"
-"xbox-accessories/9nblggh30xj3>`__. (This application only runs on Windows, "
-"so you have to use a Windows machine or a Windows virtual machine with USB "
-"support to update the controller's firmware.) After updating the "
-"controller's firmware, unpair the controller and pair it again with your PC "
-"if you are using the controller in wireless mode."
-msgstr ""
 
 msgid ""
 "If buttons are incorrectly mapped, this may be due to an erroneous mapping "
@@ -394,20 +263,6 @@ msgstr ""
 "gabomdq/SDL_GameControllerDB>`__. Ви можете внести оновлене зіставлення, яке "
 "буде включено до наступної версії Godot, відкривши запит на проблему у "
 "пов'язаному сховищі."
-
-#, fuzzy
-msgid ""
-"There are many ways to create mappings. One option is to use the mapping "
-"wizard in the `official Joypads demo <https://godotengine.org/asset-library/"
-"asset/2785>`__. Once you have a working mapping for your controller, you can "
-"test it by defining the ``SDL_GAMECONTROLLERCONFIG`` environment variable "
-"before running Godot:"
-msgstr ""
-"Існує багато способів створення зіставлень. Одним з варіантів є використання "
-"майстра зіставлень в `офіційній демонстрації Joypads <https://godotengine."
-"org/asset-library/asset/140>`__. Після того, як у вас буде робоче "
-"зіставлення для вашого контролера, ви можете протестувати його, визначивши "
-"змінну середовища ``SDL_GAMECONTROLLERCONFIG`` перед запуском Godot:"
 
 msgid ""
 "To test mappings on non-desktop platforms or to distribute your project with "
@@ -426,20 +281,6 @@ msgstr "Мій контролер працює на даній платформ�
 
 msgid "Linux"
 msgstr "Linux"
-
-msgid ""
-"If you're using a self-compiled engine binary, make sure it was compiled "
-"with udev support. This is enabled by default, but it is possible to disable "
-"udev support by specifying ``udev=no`` on the SCons command line. If you're "
-"using an engine binary supplied by a Linux distribution, double-check "
-"whether it was compiled with udev support."
-msgstr ""
-
-msgid ""
-"Controllers can still work without udev support, but it is less reliable as "
-"regular polling must be used to check for controllers being connected or "
-"disconnected during gameplay (hotplugging)."
-msgstr ""
 
 msgid "HTML5"
 msgstr "HTML5"

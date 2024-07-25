@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,10 +301,6 @@ msgid ""
 "The selection can then be used in any other painting mode to quickly create "
 "copies of an already-placed pattern."
 msgstr "然後可以在任何其他繪畫模式中使用該選擇來快速建立已放置圖案的副本。"
-
-msgid ""
-"You can remove the selected tiles from the TileMap by pressing :kbd:`Del`."
-msgstr ""
 
 msgid ""
 "You can toggle this mode temporarily while in Paint mode by holding :kbd:"

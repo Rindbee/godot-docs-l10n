@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,33 +16,11 @@ msgid "Using NavigationLayers"
 msgstr "Verwenden von NavigationLayers"
 
 msgid ""
-"NavigationLayers are an optional feature to further control which navigation "
-"meshes are considered in a path query and which regions can be connected. "
-"They work similar to how physics layers control collision between collision "
-"objects or how visual layers control what is rendered to the Viewport."
-msgstr ""
-"NavigationLayers sind ein optionales Feature, um detaillierter zu steuern, "
-"welche Navigations-Meshes in einer Pfadabfrage berücksichtigt werden und "
-"welche Regionen verbunden werden können. Sie funktionieren ähnlich wie "
-"Physikebenen zur Steuerung der Kollision zwischen Kollisionsobjekten oder "
-"wie visuelle Ebenen zum Steuern dessen, was im Viewport gerendert wird."
-
-msgid ""
 "NavigationLayers can be named in the **ProjectSettings** the same as physics "
 "layers or visual layers."
 msgstr ""
 "NavigationLayers können in den **Projekteinstellungen** genauso benannt "
 "werden wie Physikebenen oder visuelle Ebenen."
-
-msgid ""
-"If two regions have not a single compatible layer they will not be merged by "
-"the NavigationServer. See :ref:`doc_navigation_connecting_navmesh` for more "
-"information on merging navigation meshes."
-msgstr ""
-"Wenn zwei Regionen nicht über eine einzige kompatible Ebene verfügen, werden "
-"sie vom NavigationServer nicht zusammengeführt. Siehe :ref:"
-"`doc_navigation_connecting_navmesh` für weitere Informationen zum "
-"Zusammenführen von Navigations-Meshes."
 
 msgid ""
 "If a region has not a single compatible navigation layer with the "
@@ -92,18 +65,6 @@ msgstr ""
 "Navigationsregionen. Im Vergleich zu Regionsänderungen löst eine Pfadabfrage "
 "mit verschiedenen Navigationsebenen keine großen Updates auf dem "
 "NavigationServer aus."
-
-msgid ""
-"Changing the navigation layers of NavigationAgent nodes will have an "
-"immediate effect on the next path query. Changing the navigation layers of "
-"regions will have an immediate effect on the region but any new region "
-"connect or disconnect will only be in effect after the next physics frame."
-msgstr ""
-"Eine Änderung der Navigationsebenen von NavigationAgent-Nodes wirkt sich "
-"sofort auf die nächste Pfadabfrage aus. Eine Änderung der Navigationsebenen "
-"von Regionen wirkt sich unmittelbar auf die Region aus, aber jede neue "
-"Verbindung oder Trennung einer Region wird erst nach dem nächsten Physik-"
-"Frame wirksam."
 
 msgid "Translation status"
 msgstr "Übersetzungsstatus"

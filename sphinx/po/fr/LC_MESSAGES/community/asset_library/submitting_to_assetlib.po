@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,14 +129,6 @@ msgstr ""
 "librairie d’assets un meilleur endroit pour tout utilisateur."
 
 msgid ""
-"When creating non-project assets, it is common practice to place your files "
-"inside of an **addons/asset_name/** folder. Do this to avoid having your "
-"files clash with other assets, or with the files of users installing your "
-"asset. This folder will **not** be automatically generated when a user "
-"installs your asset."
-msgstr ""
-
-msgid ""
 "Fix or suppress all script **warnings**. The warning system is there to help "
 "identify issues with your code, but people using your asset don't need to "
 "see them."
@@ -183,27 +170,6 @@ msgid ""
 msgstr ""
 "Si votre asset est une librairie qui fonctionne avec d’autres fichiers, "
 "pensez à inclure des **fichiers exemples** dans votre asset."
-
-#, fuzzy
-msgid ""
-"Consider adding a **.gitattributes** file to your repo. This file allows "
-"giving extra instructions to Git, such as specifying line endings and "
-"listing files not required for your asset to function with the ``export-"
-"ignore`` directive. This directive removes such files from the resulting ZIP "
-"file, preventing them from being downloaded by the asset library users. "
-"These are common examples of **.gitattributes**:"
-msgstr ""
-"Pensez à ajouter un fichier **.gitattributes** à votre repo. Ce fichier "
-"permet de donner des instructions supplémentaires à Git, comme spécifier les "
-"fins de lignes et lister les fichiers non nécessaires au fonctionnement de "
-"votre asset avec la directive ``export-ignore`'. Cette directive supprime "
-"ces fichiers du fichier ZIP résultant et les empêche d'être téléchargés par "
-"les utilisateurs de la bibliothèque d'asset. Pour un plugin typique, **."
-"gitattributes** peut ressembler à ceci :"
-
-#, fuzzy
-msgid "Projects / Templates"
-msgstr "Modèles définis par le projet (templates)"
 
 msgid "Addons / Asset Packs"
 msgstr "Addons / Packs de ressources"
@@ -386,35 +352,8 @@ msgstr ""
 "les résultats de recherche d'AssetLib et sur la page de l'asset). Il doit "
 "s'agir d'une image au format PNG ou JPG."
 
-#, fuzzy
-msgid ""
-"The **icon** must be square (1:1 aspect ratio). It should have a minimum "
-"resolution of 128×128 pixels."
-msgstr ""
-"L'**icône** doit être un carré, son rapport d'aspect doit être de 1:1. "
-"Idéalement, elle devrait également avoir une résolution minimale de 64x64 "
-"pixels."
-
-msgid ""
-"For icons hosted on GitHub, URLs must be provided in the form of `https://"
-"raw.githubusercontent.com/<user>/<project>/<branch>/Icon.png`."
-msgstr ""
-
 msgid "**License**:"
 msgstr "**License** :"
-
-#, fuzzy
-msgid ""
-"The license under which you are distributing the asset. The list includes a "
-"variety of free and open source software licenses, such as GPL (v2 and v3), "
-"MIT, BSD and Boost Software License. You can visit `OpenSource.org <https://"
-"opensource.org>`_ for a detailed description of each of the listed licenses."
-msgstr ""
-"La licence sous laquelle vous distribuez l'asset. La liste comprend une "
-"variété de licences de logiciels libres et open-source, comme la GPL (v2 et "
-"v3), le MIT, le BSD et la Boost Software License. Vous pouvez visiter le "
-"site `OpenSource.org <https://opensource.org>`_ pour une description "
-"détaillée de chacune des licences énumérées."
 
 msgid "**Description**:"
 msgstr "**Description** :"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,53 +12,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "2D sprite animation"
-msgstr "Animando Sprite 2D"
-
 msgid "Introduction"
 msgstr "Introdução"
-
-#, fuzzy
-msgid ""
-"In this tutorial, you'll learn how to create 2D animated characters with the "
-"AnimatedSprite2D class and the AnimationPlayer. Typically, when you create "
-"or download an animated character, it will come in one of two ways: as "
-"individual images or as a single sprite sheet containing all the animation's "
-"frames. Both can be animated in Godot with the AnimatedSprite2D class."
-msgstr ""
-"Nesse tutorial, você aprenderá a criar pesonagens 2D animados com a classe "
-"AnimatedSprite e com o AnimationPlayer. Normalmente, quando você cria ou "
-"baixa um personagem animado, ele virá em uma de duas formas: como imagens "
-"individuais ou como uma única sprite sheet contendo todos os quadros(frames) "
-"da animação. Ambos podem ser animados no Godot com a classe AnimatedSprite."
-
-#, fuzzy
-msgid ""
-"First, we'll use :ref:`AnimatedSprite2D <class_AnimatedSprite2D>` to animate "
-"a collection of individual images. Then we will animate a sprite sheet using "
-"this class. Finally, we will learn another way to animate a sprite sheet "
-"with :ref:`AnimationPlayer <class_AnimationPlayer>` and the *Animation* "
-"property of :ref:`Sprite2D <class_Sprite2D>`."
-msgstr ""
-"Primeiro, nós usaremos a classe :ref:`AnimatedSprite<class_AnimatedSprite>` "
-"para animar a coleção de imagens individuais. Depois nós iremos animar uma "
-"sprite sheet usando essa classe. Finalmente, nós iremos aprender outra "
-"maneira de animar uma sprite sheet usando :ref:"
-"`AnimationPlayer<class_AnimationPlayer>` e a propriedade "
-"*Animation(Animação)* de :ref:`Sprite<class_Sprite>`."
-
-#, fuzzy
-msgid ""
-"Art for the following examples by https://opengameart.org/users/ansimuz and "
-"tgfcoder."
-msgstr ""
-"Arte para os próximos exemplos por https://opengameart.org/users/ansimuz e "
-"por https://opengameart.org/users/tgfcoder"
-
-#, fuzzy
-msgid "Individual images with AnimatedSprite2D"
-msgstr "Imagens individuais com AnimatedSprite"
 
 msgid ""
 "In this scenario, you have a collection of images, each containing one of "
@@ -73,12 +23,6 @@ msgstr ""
 "Neste cenário, você tem uma coleção de imagens, cada qual contendo um dos "
 "seus frames de animação do personagem. Para este exemplo, nós usaremos a "
 "seguinte animação:"
-
-msgid ""
-"You can download the images here: `2d_sprite_animation_assets.zip <https://"
-"github.com/godotengine/godot-docs-project-starters/releases/download/"
-"latest-4.x/2d_sprite_animation_assets.zip>`_"
-msgstr ""
 
 msgid ""
 "Unzip the images and place them in your project folder. Set up your scene "
@@ -100,14 +44,6 @@ msgstr ""
 "ao CollisionShape2D. Veja :ref:`Introdução à "
 "Física<doc_physics_introduction>` para mais informação."
 
-#, fuzzy
-msgid ""
-"Now select the ``AnimatedSprite2D`` and in its *SpriteFrames* property, "
-"select \"New SpriteFrames\"."
-msgstr ""
-"Agora, selecione o nó ``AnimatedSprite`` e em sua propriedade "
-"*SpriteFrames*, selecione \"New SpriteFrames\"."
-
 msgid ""
 "Click on the new SpriteFrames resource and you'll see a new panel appear at "
 "the bottom of the editor window:"
@@ -124,26 +60,6 @@ msgstr ""
 "individuais para a parte central do painel de SpriteFrames. No lado "
 "esquerdo, mude o nome da animação de \"default\" para \"run\"."
 
-#, fuzzy
-msgid ""
-"Use the \"Play\" buttons on the top-right of the *Filter Animations* input "
-"to preview the animation. You should now see the animation playing in the "
-"viewport. However, it is a bit slow. To fix this, change the *Speed (FPS)* "
-"setting in the SpriteFrames panel to 10."
-msgstr ""
-"De volta ao Inspetor, marque a caixa para a propriedade *Playing*. Você "
-"deverá ver a animação sendo reproduzida na janela de exibição. Entretanto, "
-"está um pouco devagar. Para ajeitar isto, mude a configuração *Speed (FPS)* "
-"no painel SpriteFrames para 10."
-
-#, fuzzy
-msgid ""
-"You can add additional animations by clicking the \"Add Animation\" button "
-"and adding additional images."
-msgstr ""
-"Você pode adicionar mais animações clicando no botão \"New Animation(Nova "
-"Animação)\" e, então, adicionando novas imagens."
-
 msgid "Controlling the animation"
 msgstr "Controlando a animação"
 
@@ -158,34 +74,12 @@ msgstr ""
 "exemplo para reproduzir a animação enquanto a tecla da seta para direita "
 "está sendo pressionada, e para parar a animação quando a tecla é solta."
 
-#, fuzzy
-msgid "Sprite sheet with AnimatedSprite2D"
-msgstr "Sprite sheet com AnimatedSprite"
-
-#, fuzzy
-msgid ""
-"You can also easily animate from a sprite sheet with the class "
-"``AnimatedSprite2D``. We will use this public domain sprite sheet:"
-msgstr ""
-"Você também pode facilmente animar uma sprite sheet com a classe "
-"``AnimatedSprite``. Nós vamos usar essa sprite sheet de domínio público:"
-
 msgid ""
 "Right-click the image and choose \"Save Image As\" to download it, and then "
 "copy the image into your project folder."
 msgstr ""
 "Clique com o botão direito do mouse na imagem e selecione \"Salvar imagem "
 "como\" para baixá-la, e logo depois copie a imagem na pasta do seu projeto."
-
-#, fuzzy
-msgid ""
-"Set up your scene tree the same way you did previously when using individual "
-"images. Select the ``AnimatedSprite2D`` and in its *SpriteFrames* property, "
-"select \"New SpriteFrames\"."
-msgstr ""
-"Configure sua árvore de cena da mesma forma que você fez anteriormente "
-"quando usou imagens individuais. Selecione a ``AnimatedSprite`` e em sua "
-"propriedade *SpriteFrames*, selecione \"New SpriteFrames\"."
 
 msgid ""
 "Click on the new SpriteFrames resource. This time, when the bottom panel "
@@ -225,28 +119,8 @@ msgstr ""
 "Agora você verá sua animação na lista de animações no painel inferior. "
 "Clique duas vezes em \"default\" para mudar o nome da animação para \"jump\"."
 
-#, fuzzy
-msgid ""
-"Finally, check the play button on the SpriteFrames editor to see your frog "
-"jump!"
-msgstr ""
-"Finalmente, marque a propriedade Playing no inspetor da AnimatedSprite para "
-"ver seu sapo pular!"
-
 msgid "Sprite sheet with AnimationPlayer"
 msgstr "Sprite sheet com AnimationPlayer"
-
-#, fuzzy
-msgid ""
-"Another way that you can animate when using a sprite sheet is to use a "
-"standard :ref:`Sprite2D <class_Sprite2D>` node to display the texture, and "
-"then animating the change from texture to texture with :ref:`AnimationPlayer "
-"<class_AnimationPlayer>`."
-msgstr ""
-"Outra maneira de animar quando se usa uma sprite sheet é utilizar um nó :ref:"
-"`Sprite<class_Sprite>` padrão para exibir a textura e, posteriormente, "
-"animar a mudança de textura em textura com :ref:"
-"`AnimationPlayer<class_AnimationPlayer>`."
 
 msgid "Consider this sprite sheet, which contains 6 frames of animation:"
 msgstr "Considere esta sprite sheet, a qual contém 6 quadros de animação:"
@@ -278,15 +152,6 @@ msgstr ""
 "*Hframes* e *Vframes* são o número de quadros horizontais e verticais, "
 "respectivamente na sua sprite sheet."
 
-#, fuzzy
-msgid ""
-"Now try changing the value of the *Frame* property. You'll see that it "
-"ranges from ``0`` to ``5`` and the image displayed by the Sprite2D changes "
-"accordingly. This is the property we'll be animating."
-msgstr ""
-"Agora tente ir mudando o valor da propriedade *Frame*. Você verá que ela vai "
-"de ``0`` a ``5`` e a imagem é exibida pelas mudanças da Sprite adequadamente."
-
 msgid ""
 "Select the ``AnimationPlayer`` and click the \"Animation\" button followed "
 "by \"New\". Name the new animation \"walk\". Set the animation length to "
@@ -295,13 +160,6 @@ msgstr ""
 "Selecione o ``AnimationPlayer`` e clique no botão \"Animação\" e ,depois, em "
 "\"Novo\". Nomeie a nova animação como \"walk\". Defina a duração da animação "
 "como ``0.6`` e clique no botão \"Loop\" para que a nossa animação se repita."
-
-#, fuzzy
-msgid ""
-"Now select the ``Sprite2D`` node and click the key icon to add a new track."
-msgstr ""
-"Agora selecione o nó ``Sprite`` e clique no ícone de chave para adicionar "
-"uma nova faixa."
 
 msgid ""
 "Continue adding frames at each point in the timeline (``0.1`` seconds by "
@@ -317,18 +175,6 @@ msgstr "Pressione \"Play\" na animação para ver como ela fica."
 
 msgid "Controlling an AnimationPlayer animation"
 msgstr "Controlando uma animação do AnimationPlayer"
-
-#, fuzzy
-msgid ""
-"Like with AnimatedSprite2D, you can control the animation via code using the "
-"``play()`` and ``stop()`` methods. Again, here is an example to play the "
-"animation while the right arrow key is held, and stop it when the key is "
-"released."
-msgstr ""
-"Igual quando se usa AnimatedSprite, você pode controlar a animação por meio "
-"de código usando os métodos ``play()`` e ``stop()``. Novamente, aqui está um "
-"exemplo para reproduzir a animação enquanto a tecla da seta para direita "
-"está sendo pressionada, e para parar a animação quando a tecla é solta."
 
 msgid ""
 "If updating both an animation and a separate property at once (for example, "
@@ -354,22 +200,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "Resumo"
-
-#, fuzzy
-msgid ""
-"These examples illustrate the two classes you can use in Godot for 2D "
-"animation. ``AnimationPlayer`` is a bit more complex than "
-"``AnimatedSprite2D``, but it provides additional functionality, since you "
-"can also animate other properties like position or scale. The class "
-"``AnimationPlayer`` can also be used with an ``AnimatedSprite2D``. "
-"Experiment to see what works best for your needs."
-msgstr ""
-"Esses exemplos ilustram as duas classes que você pode usar no Godor para "
-"animações 2D. ``AnimationPlayer`` é um pouco mais complexo do que "
-"``AnimatedSprite``, mas ela fornece funcionalidades adicionais, já que você "
-"pode animar outras propriedades como posição ou escala. A classe "
-"``AnimationPlayer`` também pode ser usada com uma ``AnimatedSprite``. "
-"Experimente para ver o que melhor funciona para as suas necessidades."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

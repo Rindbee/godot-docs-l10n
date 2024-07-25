@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,14 +233,6 @@ msgid ""
 msgstr ""
 "`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
 "master/scene/audio/audio_player.cpp>`__."
-
-#, fuzzy
-msgid ""
-"The Game Center API is available through the ``GameCenter`` singleton. It "
-"has the following methods:"
-msgstr ""
-"La API de Game Center está disponible a través del singleton \"GameCenter\". "
-"Tiene los siguientes métodos:"
 
 msgid "and the pending events interface:"
 msgstr "y la interfaz de eventos pendientes:"

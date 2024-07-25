@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,10 +70,6 @@ msgstr "모드에 필요한 소스 코드 공개 없음"
 msgid "more modular project structure"
 msgstr "더 많은 모듈형 프로젝트 구조"
 
-#, fuzzy
-msgid "users don't have to replace the entire game"
-msgstr "사용자는 게임 전체를 교체할 필요가 없음"
-
 msgid ""
 "The first part of using them involves exporting and delivering the project "
 "to players. Then, when one wants to add functionality or content later on, "
@@ -125,16 +116,6 @@ msgstr ""
 msgid "Generating PCK files"
 msgstr "PCK 파일 생성하기"
 
-#, fuzzy
-msgid ""
-"In order to pack all resources of a project into a PCK file open the project "
-"and go to Project/Export and click on \"Export PCK/Zip\". Also make sure to "
-"have an export template selected while doing so."
-msgstr ""
-"프로젝트의 모든 리소스를 하나의 PCK 파일에 포장하기(pack) 위해선 프로젝트를 "
-"열고 프로젝트/내보내기로 가고 “PCK/Zip 내보내기”를 클릭합니다. 또한 내보내기 "
-"템플릿이 선택되어 있는지 확인해야 합니다."
-
 msgid ""
 "Another method would be to :ref:`export from the command line "
 "<doc_command_line_tutorial_exporting>`. If the output file ends with a PCK "
@@ -169,24 +150,6 @@ msgstr ""
 "다). 그런 다음 사용자는 Godot에 내장된 내보내기 툴로 위와 같은 PCK 파일을 만"
 "듭니다."
 
-#, fuzzy
-msgid ""
-"The developer uses Godot to build a GUI tool for adding their exact API "
-"content to a project. This Godot tool must either run on a tools-enabled "
-"build of the engine or have access to one (distributed alongside or perhaps "
-"in the original game's files). The tool can then use the Godot executable to "
-"export a PCK file from the command line with :ref:`OS.execute() "
-"<class_OS_method_execute>`. The game itself shouldn't use a tool-build of "
-"the engine (for security), so it's best to keep the modding tool and game "
-"separate."
-msgstr ""
-"개발자는 Godot로 정확한 API 콘텐츠를 프로젝트에 추가하기 위한 GUI 툴을 빌드합"
-"니다. Godot 툴은 툴을 쓰는 엔진의 빌드에서 실행되거나 엔진 또는 게임 파일에 "
-"접근할 수 있어야 합니다. 그런 다음 툴은 Godot 실행 파일을 사용하여 명령행에"
-"서 :ref:`OS.execute() <class_OS_method_execute>`\\ 로 PCK 파일을 내보냅니다. "
-"(보안을 위해) 게임에는 툴 빌드를 사용하지 않으면서 모딩 툴에는 툴 사용 엔진 "
-"빌드를 *사용하는 것*\\ 으로 이해하면 됩니다."
-
 msgid "Opening PCK files at runtime"
 msgstr "런타임에 PCK 파일 열기"
 
@@ -198,21 +161,6 @@ msgstr ""
 "PCK 파일을 가져오려면, ProjectSettings 싱글톤을 사용합니다. 다음 예제는 게임 "
 "실행 파일의 디렉토리에 “mod.pck”로 보이는 파일을 실행하는 것입니다. PCK 파일"
 "의 루트에는 \"mod_scene.tscn\" 테스트 씬을 포함하고 있습니다."
-
-#, fuzzy
-msgid ""
-"By default, if you import a file with the same file path/name as one you "
-"already have in your project, the imported one will replace it. This is "
-"something to watch out for when creating DLC or mods. You can solve this "
-"problem by using a tool that isolates mods to a specific mods subfolder. "
-"However, it is also a way of creating patches for one's own game. A PCK file "
-"of this kind can fix the content of a previously loaded PCK."
-msgstr ""
-"이미 동일한 파일 경로/이름을 가진 파일을 가진 프로젝트로 파일을 가져온다면, "
-"가져온 것으로 바꿀 것입니다. 이는 DLC나 모드를 만들 때 주의해야 하는 점입니"
-"다 (모드를 특정 모드 하위 폴더로 분리하는 툴로 쉽게 해결됩니다). 하지만, 이"
-"것 또한 게임의 패치를 만드는 방식이기도 합니다. 이런 종류의 PCK 파일은 이전"
-"에 불러온 PCK 파일의 콘텐츠를 고칠 수 있습니다."
 
 msgid ""
 "To opt out of this behavior, pass ``false`` as the second argument to :ref:"
@@ -234,19 +182,6 @@ msgstr ""
 
 msgid "Summary"
 msgstr "요약"
-
-#, fuzzy
-msgid ""
-"This tutorial explains how to add mods, patches, or DLC to a game. The most "
-"important thing is to identify how one plans to distribute future content "
-"for their game and develop a workflow that is customized for that purpose. "
-"Godot should make that process smooth regardless of which route a developer "
-"pursues."
-msgstr ""
-"이 튜토리얼에서는 게임에 모드, 패치 또는 DLC를 추가하기가 얼마나 쉬운 지에 대"
-"해 설명합니다. 가장 중요한 것은 게임의 미래 콘텐츠를 배포하기 위해 어떻게 계"
-"획을 짜고 이를 위해 어떻게 워크플로를 개발하는 것입니다. Godot는 개발자가 추"
-"구하는 방향에 관계없이 작업을 부드럽게 만들어줍니다."
 
 msgid "Translation status"
 msgstr "번역 상태"

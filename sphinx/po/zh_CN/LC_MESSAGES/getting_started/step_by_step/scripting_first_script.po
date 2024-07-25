@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,15 +301,14 @@ msgstr ""
 "灵的旋转量。这里 ``rotation`` 是从 ``Sprite2D`` 所扩展的 ``Node2D`` 类继承的"
 "属性。它可以控制我们节点的旋转，以弧度为单位。"
 
-#, fuzzy
 msgid ""
 "In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
 "property or function like ``position``, ``rotation``, or ``_process`` to "
 "open the corresponding documentation in a new tab."
 msgstr ""
-"在代码编辑器中，你可以按住 ctrl 单击任何内置的属性或函数，如 "
-"``position``\\ 、\\ ``rotation``\\ 、\\ ``_process`` 以在新标签页中打开相应的"
-"文档。"
+"在代码编辑器中，你可以按住 ctrl（在macOS上使用Command键） 单击任何内置的属性"
+"或函数，如 ``position``\\ 、\\ ``rotation``\\ 、\\ ``_process`` 以在新标签页"
+"中打开相应的文档。"
 
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "运行该场景，可以看到 Godot 的图标在原地转动。"

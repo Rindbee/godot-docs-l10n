@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,17 +49,21 @@ msgid ""
 "want to change your network mode back to \"offline\" you can do so from the "
 "project manager settings."
 msgstr ""
+"В верхней части окна есть еще одна вкладка под названием \"Asset Library\" "
+"(Библиотека ассетов). При первом переходе на эту вкладку вы увидите кнопку "
+"\"Go Online\" (Перейти в онлайн). Из соображений конфиденциальности менеджер "
+"проектов Godot по умолчанию не имеет доступа к интернету. Чтобы изменить "
+"это, нажмите кнопку \"Go Online\"; если вы хотите изменить режим работы в "
+"сети на \"offline\", вы можете сделать это в настройках менеджера проектов."
 
-#, fuzzy
 msgid ""
 "Once your network mode is set to \"online\" you can search for demo projects "
 "in the open source asset library, which includes many projects developed by "
 "the community."
 msgstr ""
-"В верхней части окна есть другая вкладка, именуемая \"Проекты Библиотеки "
-"ассетов\". Вы можете искать демо-проекты в библиотеке ресурсов с открытым "
-"исходным кодом, которая включает в себя множество проектов, разработанных "
-"сообществом."
+"После установки сетевого режима на \"онлайн\" вы можете искать "
+"демонстрационные проекты в библиотеке активов с открытым исходным кодом, "
+"которая включает в себя множество проектов, разработанных сообществом."
 
 msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
@@ -72,17 +71,16 @@ msgstr ""
 "Чтобы узнать все тонкости менеджера проекта, прочтите :ref:"
 "`doc_project_manager`."
 
-#, fuzzy
 msgid ""
 "You can also change the editor's language by going into the settings menu."
-msgstr ""
-"Вы можете отключить безопасные строки или изменить их цвет в настройках "
-"редактора."
+msgstr "Вы также можете изменить язык редактора, зайдя в меню настроек."
 
 msgid ""
 "From here use the language drop down menu to select your language. By "
 "default, it is in English (EN)."
 msgstr ""
+"С помощью выпадающего меню выберите язык. По умолчанию это English (EN) - "
+"английский язык."
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -228,13 +226,12 @@ msgstr ""
 "Вы можете найти информацию о классе, методе, свойстве, константе или сигнале "
 "одним из следующих способов:"
 
-#, fuzzy
 msgid ""
 "Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
 "laptops with a :kbd:`fn` key) anywhere in the editor."
 msgstr ""
-"Нажатие :kbd:`Ctrl + F` ( или :kbd:`Cmd + F` на macOS) позволит осуществить "
-"поиск в списке ресурсов проекта."
+"Нажатием клавиши :kbd:`F1` (или :kbd:`Opt + Space` на macOS, или :kbd:`fn + "
+"F1` для ноутбуков с клавишей :kbd:`fn`) в любом месте редактора."
 
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
@@ -244,15 +241,7 @@ msgstr ""
 "написания скриптов."
 
 msgid "Clicking on the Help menu and Search Help."
-msgstr "Нажатием на \"Справка\" в меню \"Справка\"."
-
-#, fuzzy
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"Нажатием в редакторе сценариев, пока зажата клавиша :kbd:`Ctrl`, на имени "
-"класса, функции или встроенной переменной."
+msgstr "Нажатием на \"Help\" в меню \"Help\"."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

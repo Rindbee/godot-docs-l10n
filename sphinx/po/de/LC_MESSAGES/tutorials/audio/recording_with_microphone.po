@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,14 +31,14 @@ msgstr ""
 "wird als Unterstützung für diese Anleitung verwendet: `<https://github.com/"
 "godotengine/godot-demo-projects/tree/master/audio/mic_record>`_."
 
-#, fuzzy
 msgid ""
 "You will need to enable audio input in the project settings ``Project "
 "Settings -> Audio -> Driver -> Enable Input``, or you'll just get empty "
 "audio files."
 msgstr ""
-"Sie müssen die Audioeingabe in den Projekteinstellungen aktivieren, da Sie "
-"sonst nur leere Audiodateien erhalten."
+"Sie müssen die Audioeingabe in den Projekteinstellungen "
+"``Projekteinstellungen -> Audio -> Treiber -> Eingabe aktivieren`` "
+"aktivieren, sonst erhalten Sie nur leere Audiodateien."
 
 msgid "The structure of the demo"
 msgstr "Der Aufbau der Demo"

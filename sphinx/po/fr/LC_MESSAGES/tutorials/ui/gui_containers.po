@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +14,6 @@ msgstr ""
 
 msgid "Using Containers"
 msgstr "Utilisation de Containers"
-
-#, fuzzy
-msgid ""
-":ref:`Anchors <doc_size_and_anchors>` are an efficient way to handle "
-"different aspect ratios for basic multiple resolution handling in GUIs."
-msgstr ""
-":ref:`Les Ancres <doc_size_and_anchors>` sont un moyen efficace de gérer les "
-"différents rapports de taille pour une gestion basique des résolutions "
-"multiples dans les interfaces graphiques,"
 
 msgid "For more complex user interfaces, they can become difficult to use."
 msgstr ""
@@ -98,30 +84,6 @@ msgstr ""
 "nœuds), permettant la création de mises en page très complexes qui se "
 "redimensionnent sans effort."
 
-#, fuzzy
-msgid "Sizing options"
-msgstr "Options de signature"
-
-#, fuzzy
-msgid ""
-"When adding a node to a container, the way the container treats each child "
-"depends mainly on their *container sizing options*. These options can be "
-"found by inspecting the layout of any *Control* that is a child of a "
-"*Container*."
-msgstr ""
-"Lors de l'ajout d'un nœud à un conteneur, la façon dont le conteneur traite "
-"chaque enfant dépend principalement de ses *size flags*. Ces drapeaux "
-"peuvent être trouvés en inspectant tout control qui est un enfant d'un "
-"*Container*."
-
-#, fuzzy
-msgid ""
-"Sizing options are independent for vertical and horizontal sizing and not "
-"all containers make use of them (but most do):"
-msgstr ""
-"les size flags sont indépendants pour la taille verticale et horizontale et "
-"tous les conteneurs ne les utilisent pas (mais la plupart le font) :"
-
 msgid ""
 "**Fill**: Ensures the control *fills* the designated area within the "
 "container. No matter if a control *expands* or not (see below), it will only "
@@ -131,55 +93,6 @@ msgstr ""
 "l'intérieur du conteneur. Peu importe si un control *s'étend* ou non (voir "
 "ci-dessous), il ne *remplit* la zone désignée que lorsque ce drapeau est "
 "activée (c'est le cas par défaut)."
-
-#, fuzzy
-msgid ""
-"**Expand**: Attempts to use as much space as possible in the parent "
-"container (in each axis). Controls that don't expand will be pushed away by "
-"those that do. Between expanding controls, the amount of space they take "
-"from each other is determined by the *Stretch Ratio* (see below). This "
-"option is only available when the parent Container is of the right type, for "
-"example the *HBoxContainer* has this option for horizontal sizing."
-msgstr ""
-"**Expand** : Tente d'utiliser le plus d'espace possible dans le conteneur "
-"parent (dans chaque axe). Les Controls qui ne s'étendent pas seront "
-"repoussées par ceux qui le font. Entre ceux qui s'étendent, l'espace qu'ils "
-"prendront par rapport aux autres est déterminé par le *Ratio* (voir ci-"
-"dessous)."
-
-#, fuzzy
-msgid ""
-"**Shrink Begin** When expanding, try to remain at the left or top of the "
-"expanded area."
-msgstr ""
-"**Shrink Center** Lors de l'expansion (et si pas de remplissage), essaye de "
-"rester au centre de la zone (par défaut, reste à gauche ou en haut)."
-
-#, fuzzy
-msgid ""
-"**Shrink Center** When expanding, try to remain at the center of the "
-"expanded area."
-msgstr ""
-"**Shrink Center** Lors de l'expansion (et si pas de remplissage), essaye de "
-"rester au centre de la zone (par défaut, reste à gauche ou en haut)."
-
-#, fuzzy
-msgid ""
-"**Shrink End** When expanding, try to remain at the right or bottom of the "
-"expanded area."
-msgstr ""
-"**Shrink Center** Lors de l'expansion (et si pas de remplissage), essaye de "
-"rester au centre de la zone (par défaut, reste à gauche ou en haut)."
-
-#, fuzzy
-msgid ""
-"**Stretch Ratio**: The ratio of how much expanded controls take up the "
-"available space in relation to each other. A control with \"2\", will take "
-"up twice as much available space as one with \"1\"."
-msgstr ""
-"**Ratio** Rapport simple de combien les controls élargis occupent l'espace "
-"disponible les uns par rapport aux autres. Un control avec \"2\", prendra "
-"deux fois plus d'espace disponible qu'un control avec \"1\"."
 
 msgid ""
 "Experimenting with these flags and different containers is recommended to "
@@ -200,19 +113,6 @@ msgstr ""
 
 msgid "Box Containers"
 msgstr "Box Containers"
-
-#, fuzzy
-msgid ""
-"Arranges child controls vertically or horizontally (via :ref:`HBoxContainer "
-"<class_HBoxContainer>` and :ref:`VBoxContainer <class_VBoxContainer>`). In "
-"the opposite of the designated direction (as in, vertical for a horizontal "
-"container), it just expands the children."
-msgstr ""
-"Arrangez les contrôles enfants verticalement ou horizontalement (via :ref:"
-"`HBoxContainer <class_HBoxContainer>` et :ref:`VBoxContainer "
-"<class_VBoxContainer>`). Dans la direction opposée à la direction désignée "
-"(verticale pour un conteneur horizontal), cela ne fait qu'agrandir les "
-"enfants."
 
 msgid ""
 "These containers make use of the *Ratio* property for children with the "
@@ -310,18 +210,6 @@ msgstr ""
 msgid "PanelContainer"
 msgstr "PanelContainer"
 
-#, fuzzy
-msgid ""
-"A container that draws a *StyleBox*, then expands children to cover its "
-"whole area (via :ref:`PanelContainer <class_PanelContainer>`, respecting the "
-"*StyleBox* margins). It respects both the horizontal and vertical sizing "
-"options."
-msgstr ""
-"Conteneur simple qui dessine une *StyleBox*, puis agrandit les enfants pour "
-"couvrir toute sa surface (via :ref:`PanelContainer <class_PanelContainer>`, "
-"en respectant les marges de la *StyleBox*). Il respecte les flags de taille "
-"horizontale et verticale."
-
 msgid ""
 "This container is useful as top-level, or just to add custom backgrounds to "
 "sections of a layout."
@@ -331,20 +219,6 @@ msgstr ""
 
 msgid "ScrollContainer"
 msgstr "ScrollContainer"
-
-#, fuzzy
-msgid ""
-"Accepts a single child node. If this node is bigger than the container, "
-"scrollbars will be added to allow panning the node around (via :ref:"
-"`ScrollContainer <class_ScrollContainer>`). Both vertical and horizontal "
-"size options are respected, and the behavior can be turned on or off per "
-"axis in the properties."
-msgstr ""
-"Accepte un seul nœud enfant. Si ce nœud est plus grand que le conteneur, des "
-"barres de défilement seront ajoutées pour permettre de voir le nœud en "
-"entier (via :ref:`ScrollContainer <class_ScrollContainer>`). Les flags de "
-"taille verticale et horizontale sont respectés, et le comportement peut être "
-"activé ou désactivé par axe dans les propriétés."
 
 msgid ""
 "Mouse wheel and touch drag (when touch is available) are also valid ways to "
@@ -361,84 +235,11 @@ msgstr ""
 "Comme dans l'exemple ci-dessus, une des façons les plus courantes d'utiliser "
 "ce conteneur est de l'utiliser avec un *VBoxContainer* en tant qu'enfant."
 
-#, fuzzy
-msgid "AspectRatioContainer"
-msgstr "SplitContainer"
-
-msgid ""
-"A container type that arranges its child controls in a way that preserves "
-"their proportions automatically when the container is resized. (via :ref:"
-"`AspectRatioContainer <class_AspectRatioContainer>`). It has multiple "
-"stretch modes, providing options for adjusting the child controls' sizes "
-"concerning the container: \"fill,\" \"width control height,\" \"height "
-"control width,\" and \"cover.\""
-msgstr ""
-
-msgid ""
-"useful when you have a container that needs to be dynamic and responsive to "
-"different screen sizes, and you want the child elements to scale "
-"proportionally without losing their intended shapes."
-msgstr ""
-
-#, fuzzy
-msgid "FlowContainer"
-msgstr "Conteneurs"
-
-#, fuzzy
-msgid ""
-"FlowContainer is a container that arranges its child controls either "
-"horizontally or vertically, (via :ref:`HFlowContainer "
-"<class_HFlowContainer>` and via :ref:`VFlowContainer "
-"<class_VFlowContainer>`). and when the available space runs out, it wraps "
-"the children to the next line or column, similar to how text wraps in a book."
-msgstr ""
-"Arrangez les contrôles enfants verticalement ou horizontalement (via :ref:"
-"`HBoxContainer <class_HBoxContainer>` et :ref:`VBoxContainer "
-"<class_VBoxContainer>`). Dans la direction opposée à la direction désignée "
-"(verticale pour un conteneur horizontal), cela ne fait qu'agrandir les "
-"enfants."
-
-msgid ""
-"useful for creating flexible layouts where the child controls adjust "
-"automatically to the available space without overlapping."
-msgstr ""
-
-#, fuzzy
-msgid "CenterContainer"
-msgstr "PanelContainer"
-
-msgid ""
-"CenterContainer is a container that automatically keeps all of its child "
-"controls centered within it at their minimum size. It ensures that the child "
-"controls are always aligned to the center, making it easier to create "
-"centered layouts without manual positioning. (via :ref:`CenterContainer "
-"<class_CenterContainer>`)."
-msgstr ""
-
 msgid "SubViewportContainer"
 msgstr "SubViewportContainer"
 
-#, fuzzy
-msgid ""
-"This is a special control that will only accept a single *Viewport* node as "
-"child, and it will display it as if it was an image (via :ref:"
-"`SubViewportContainer <class_SubViewportContainer>`)."
-msgstr ""
-"C'est un control spécial qui n'acceptera qu'un seul nœud *Viewport* comme "
-"enfant, et il l'affichera comme si c'était une image (via :ref:"
-"`ViewportContainer <class_ViewportContainer>`)."
-
 msgid "Creating custom Containers"
 msgstr "Création de conteneurs personnalisés"
-
-#, fuzzy
-msgid ""
-"It is possible to create a custom container using a script. Here is an "
-"example of a container that fits children to its rect size:"
-msgstr ""
-"Il est possible de créer facilement un conteneur personnalisé à l'aide d'un "
-"script. Voici un exemple d'un conteneur simple qui adaptent ses enfants à sa "
-"rect size :"
 
 msgid "Translation status"
 msgstr "État de la traduction"

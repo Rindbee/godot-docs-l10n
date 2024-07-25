@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -200,27 +195,11 @@ msgstr "``[註解類別名]``"
 msgid "Link to annotation"
 msgstr "另一個類別的方法連結"
 
-#, fuzzy
-msgid "``See [annotation @GDScript.@rpc].``"
-msgstr "``請參閱[註釋@GDScript.@export]。``"
-
-#, fuzzy
-msgid "See :ref:`@GDScript.@rpc <class_@GDScript_annotation_@rpc>`."
-msgstr "請參閱:ref:`@GDScript.@export <class_@GDScript_annotation_@export>`。"
-
 msgid "``[constant Class.name]``"
 msgstr "[signal 類別.訊號名稱]"
 
 msgid "Link to constant"
 msgstr "定義一個常數。"
-
-#, fuzzy
-msgid "``See [constant Color.RED].``"
-msgstr "``請參閱[常數@GlobalScope.KEY_F1]。``"
-
-#, fuzzy
-msgid "See :ref:`Color.RED <class_Color_constant_RED>`."
-msgstr ":ref:`Color <class_Color>`"
 
 msgid "``[enum Class.name]``"
 msgstr "[member 類別.成員名稱]"
@@ -258,36 +237,6 @@ msgstr "呼叫 [method hide]。"
 msgid "Call :ref:`Node3D.hide() <class_Node3D_method_hide>`."
 msgstr "參考 :ref:`hide <class_spatial_method_hide>` 。"
 
-#, fuzzy
-msgid "``[constructor Class.name]``"
-msgstr "[signal 類別.訊號名稱]"
-
-#, fuzzy
-msgid "Link to built-in constructor"
-msgstr "類別建置函式"
-
-msgid "``Use [constructor Color.Color].``"
-msgstr ""
-
-#, fuzzy
-msgid "Use  :ref:`Color.Color <class_Color_constructor_Color>`."
-msgstr ":ref:`Color <class_Color>`"
-
-#, fuzzy
-msgid "``[operator Class.name]``"
-msgstr "[method 類別.方法名稱]"
-
-#, fuzzy
-msgid "Link to built-in operator"
-msgstr "內建向量型別"
-
-msgid "``Use [operator Color.operator *].``"
-msgstr ""
-
-#, fuzzy
-msgid "Use  :ref:`Color.operator * <class_Color_operator_mul_int>`."
-msgstr ":ref:`Color <class_Color>`"
-
 msgid "``[signal Class.name]``"
 msgstr "[signal 類別.訊號名稱]"
 
@@ -314,10 +263,6 @@ msgstr "請參閱:ref:`Label.font <class_Label_theme_font_font>`。"
 
 msgid "``[param name]``"
 msgstr "``name``"
-
-#, fuzzy
-msgid "Parameter name (as code)"
-msgstr "格式化參數名稱（作為程式碼）"
 
 msgid "``Takes [param size] for the size.``"
 msgstr "“採用 [param size] 作為大小。”"
@@ -349,34 +294,11 @@ msgstr "1號線。"
 msgid "Line 2."
 msgstr "2號線。"
 
-#, fuzzy
-msgid "``[lb]`` ``[rb]``"
-msgstr "[b] [/b]"
-
-#, fuzzy
-msgid "``[`` and ``]`` respectively"
-msgstr "分別加上``[``和``]``。允許轉義 BBCode 標記。"
-
-#, fuzzy
-msgid "``[lb]b[rb]text[lb]/b[rb]``"
-msgstr "``[b]{text}[/b]``"
-
-#, fuzzy
-msgid "[b]text[/b]"
-msgstr "``[b]{text}[/b]``"
-
 msgid "``[b]`` ``[/b]``"
 msgstr "[b] [/b]"
 
 msgid "Bold"
 msgstr "粗體"
-
-#, fuzzy
-msgid "``Do [b]not[/b] call this method.``"
-msgstr "普通的 [b]粗體[/b] 文字。"
-
-msgid "Do **not** call this method."
-msgstr ""
 
 msgid "``[i]`` ``[/i]``"
 msgstr "[i] [/i]"
@@ -384,66 +306,14 @@ msgstr "[i] [/i]"
 msgid "Italic"
 msgstr "斜體"
 
-msgid "``Returns the [i]global[/i] position.``"
-msgstr ""
-
-#, fuzzy
-msgid "Returns the *global* position."
-msgstr "獲取玩家的位置。"
-
-#, fuzzy
 msgid "``[u]`` ``[/u]``"
-msgstr "[b] [/b]"
+msgstr "``[u]`` ``[/u]``"
 
-#, fuzzy
-msgid "Underline"
-msgstr "Interlingue"
-
-msgid "``[u]Always[/u] use this method.``"
-msgstr ""
-
-#, fuzzy
 msgid "``[s]`` ``[/s]``"
-msgstr "[b] [/b]"
+msgstr "``[s]`` ``[/s]``"
 
-msgid "Strikethrough"
-msgstr ""
-
-msgid "``[s]Outdated information.[/s]``"
-msgstr ""
-
-#, fuzzy
 msgid "``[url]`` ``[/url]``"
-msgstr "[b] [/b]"
-
-#, fuzzy
-msgid "Hyperlink"
-msgstr "雙曲正弦。"
-
-msgid "``[url]https://example.com[/url]``"
-msgstr ""
-
-msgid "``[url=https://example.com]Website[/url]``"
-msgstr ""
-
-msgid "https://example.com"
-msgstr ""
-
-#, fuzzy
-msgid "`Website <https://example.com>`_"
-msgstr "`GitHub <https://github.com/godotengine/>`_"
-
-#, fuzzy
-msgid "``[center]`` ``[/center]``"
-msgstr "``[center]{text}[/center]``"
-
-#, fuzzy
-msgid "Horizontal centering"
-msgstr "水平 TAB 字元"
-
-#, fuzzy
-msgid "``[center]2 + 2 = 4[/center]``"
-msgstr "``[center]{text}[/center]``"
+msgstr "``[url]`` ``[/url]``"
 
 msgid "``[kbd]`` ``[/kbd]``"
 msgstr "``[kbd]`` ``[/kbd]``"
@@ -451,71 +321,14 @@ msgstr "``[kbd]`` ``[/kbd]``"
 msgid "Keyboard/mouse shortcut"
 msgstr "鍵盤或滑鼠快捷鍵"
 
-#, fuzzy
-msgid "``Press [kbd]Ctrl + C[/kbd].``"
-msgstr "普通的 [kbd]Ctrl + C[/kbd] 按鍵。"
-
-#, fuzzy
-msgid "Press :kbd:`Ctrl + C`."
-msgstr ":kbd:`Ctrl + C`"
-
 msgid "``[code]`` ``[/code]``"
 msgstr "``[code]`` ``[/code]``"
 
-msgid "Inline code fragment"
-msgstr ""
-
-#, fuzzy
-msgid "``Returns [code]true[/code].``"
-msgstr "``[code]{text}[/code]``"
-
-#, fuzzy
-msgid "Returns ``true``."
-msgstr "Return 回傳"
-
-msgid ""
-"Some supported tags like ``[color]`` and ``[font]`` are not listed here "
-"because they are not recommended in the engine documentation."
-msgstr ""
-
-#, fuzzy
 msgid "``[kbd]`` disables BBCode until the parser encounters ``[/kbd]``."
-msgstr "``[code]`` 停用 BBCode，直到解析器遇到 ``[/code]``。"
+msgstr "``[kbd]`` 停用 BBCode，直到解析器遇到 ``[/kbd]``。"
 
 msgid "``[code]`` disables BBCode until the parser encounters ``[/code]``."
 msgstr "``[code]`` 停用 BBCode，直到解析器遇到 ``[/code]``。"
-
-#, fuzzy
-msgid "Formatting code blocks"
-msgstr "格式"
-
-#, fuzzy
-msgid "There are two options for formatting code blocks:"
-msgstr "有兩種系統可以註冊型別..."
-
-msgid ""
-"Use ``[codeblock]`` if you want to add an example for a specific language."
-msgstr ""
-
-msgid ""
-"Use ``[codeblocks]``, ``[gdscript]``, and ``[csharp]`` if you want to add "
-"the same example for both languages, GDScript and C#."
-msgstr ""
-
-msgid ""
-"By default, ``[codeblock]`` highlights GDScript syntax. You can change it "
-"using the ``lang`` attribute. Currently supported options are:"
-msgstr ""
-
-msgid "``[codeblock lang=text]`` disables syntax highlighting;"
-msgstr ""
-
-msgid "``[codeblock lang=gdscript]`` highlights GDScript syntax;"
-msgstr ""
-
-msgid ""
-"``[codeblock lang=csharp]`` highlights C# syntax (only in .NET version)."
-msgstr ""
 
 msgid ""
 "``[codeblock]`` disables BBCode until the parser encounters ``[/codeblock]``."
@@ -554,10 +367,6 @@ msgstr ""
 msgid "The above will display as:"
 msgstr "會顯示為："
 
-#, fuzzy
-msgid "Formatting notes and warnings"
-msgstr "程式碼樣式設定"
-
 msgid ""
 "To denote important information, add a paragraph starting with \"[b]Note:[/"
 "b]\" at the end of the description:"
@@ -577,19 +386,6 @@ msgid ""
 msgstr ""
 "請注意，上面描述的所有段落中，標點符號都是 BBCode 標籤中的一部分，請保持一致"
 "性。"
-
-#, fuzzy
-msgid "Marking API as deprecated/experimental"
-msgstr "教學和已放棄使用/實驗標記。"
-
-msgid ""
-"To mark an API as deprecated or experimental, you need to add the "
-"corresponding XML attribute. The attribute value must be a message "
-"explaining why the API is not recommended (BBCode markup is supported) or an "
-"empty string (the default message will be used). If an API element is marked "
-"as deprecated/experimental, then it is considered documented even if the "
-"description is empty."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻譯狀態"

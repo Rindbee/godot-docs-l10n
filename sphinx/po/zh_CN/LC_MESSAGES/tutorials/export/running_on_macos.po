@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +139,6 @@ msgstr ""
 msgid "Note that Gatekeeper will re-enable itself when macOS updates."
 msgstr "请注意，Gatekeeper将在macOS更新时重新启用自己。"
 
-#, fuzzy
 msgid "App is not signed, executable is linker-signed"
 msgstr "App 未签名，可执行文件由链接器签名"
 
@@ -156,11 +150,10 @@ msgid ""
 "manually:"
 msgstr "要运行这个 App，你应该手动移除“隔离”（quarantine）扩展文件属性："
 
-#, fuzzy
 msgid ""
 "Open ``Terminal.app`` (press :kbd:`Cmd + Space` and enter ``Terminal``)."
 msgstr ""
-"打开 ``Terminal.app``\\ （按 ``Cmd + 空格``\\ ，输入 ``Terminal``\\ ）。"
+"打开 ``Terminal.app``\\ （按 :kbd:`Cmd + 空格` 并输入 ``Terminal``\\ ）。"
 
 msgid "Navigate to the folder containing the target application."
 msgstr "切换到包含目标应用程序的文件夹。"
@@ -179,7 +172,6 @@ msgstr ""
 "执行命令 ``xattr -dr com.apple.quarantine \"未签名游戏.app\"``\\ （包括引号"
 "和“.app”扩展名）。"
 
-#, fuzzy
 msgid ""
 "Neither app nor executable is signed (relevant for Apple Silicon Macs only)"
 msgstr "App 和可执行文件都没有签名（仅适用于 Apple Slilicon 的 mac）"

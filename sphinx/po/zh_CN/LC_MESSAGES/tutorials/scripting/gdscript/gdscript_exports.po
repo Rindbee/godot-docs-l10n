@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,33 +344,37 @@ msgstr ""
 msgid "Packed type arrays also work, but only initialized empty:"
 msgstr "密存数组也可以使用导出，但需要构造对应的空密存数组去赋值："
 
-#, fuzzy
 msgid "Other export variants can also be used when exporting arrays:"
-msgstr "属性提示可以用来导出字符串作为路径"
+msgstr "属性提示可以用来导出字符串作为路径："
 
-#, fuzzy
 msgid "``@export_storage``"
-msgstr "``@experimental``"
+msgstr "``@export_storage``"
 
 msgid "By default, exporting a property has two effects:"
-msgstr ""
+msgstr "导出属性在默认情况下会产生以下两种效果："
 
 msgid ""
 "makes the property stored in the scene/resource file (:ref:"
 "`PROPERTY_USAGE_STORAGE "
 "<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`);"
 msgstr ""
+"将属性存到场景/资源文件当中（即 :ref:`PROPERTY_USAGE_STORAGE "
+"<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`位标志的作用）;"
 
 msgid ""
 "adds a field to the Inspector (:ref:`PROPERTY_USAGE_EDITOR "
 "<class_@GlobalScope_constant_PROPERTY_USAGE_EDITOR>`)."
 msgstr ""
+"将字段加到检查器当中（即 :ref:`PROPERTY_USAGE_EDITOR "
+"<class_@GlobalScope_constant_PROPERTY_USAGE_EDITOR>`位标志的作用）。"
 
 msgid ""
 "However, sometimes you may want to make a property serializable, but not "
 "display it in the editor to prevent unintentional changes and cluttering the "
 "interface."
 msgstr ""
+"然而有时你会想让某个属性能够序列化，不让它显示在编辑器当中，以防误修改其值，"
+"同时避免检查器窗口杂乱无章。"
 
 msgid ""
 "To do this you can use :ref:`@export_storage "
@@ -385,6 +384,11 @@ msgid ""
 "or :ref:`Node.duplicate() <class_Node_method_duplicate>` is called, unlike "
 "non-exported variables."
 msgstr ""
+"可以使用 :ref:`@export_storage <class_@GDScript_annotation_@export_storage>`"
+"注解来实现上述效果，该注解在 :ref:`@tool <class_@GDScript_annotation_@tool>` "
+"脚本中十分有用。同时，与非导出属性不同的是，如果调用 :ref:`Resource."
+"duplicate() <class_Resource_method_duplicate>` 或 :ref:`Node.duplicate() "
+"<class_Node_method_duplicate>`方法，会复制该属性的值。"
 
 msgid "Setting exported variables from a tool script"
 msgstr "从工具脚本中设置导出变量"
@@ -433,11 +437,10 @@ msgstr ""
 "要在 C++ 中用上述方法绑定属性，请参阅 :ref:"
 "`doc_binding_properties_using_set_get_property_list`\\ 。"
 
-#, fuzzy
 msgid ""
 "The script must operate in the ``@tool`` mode so the above methods can work "
 "from within the editor."
-msgstr "脚本必须在 ``tool`` 模式运行，才能使上述方法在编辑器内运行。"
+msgstr "脚本必须在 ``@tool`` 注解的修饰下，才能使上述方法在编辑器内运行。"
 
 msgid "Translation status"
 msgstr "翻译状态"

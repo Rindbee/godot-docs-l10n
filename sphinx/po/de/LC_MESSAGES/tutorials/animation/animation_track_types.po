@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +88,6 @@ msgstr ""
 "Sicherheitsgründen nicht ausgeführt, wenn die Animation in der Vorschau des "
 "Editors angezeigt wird."
 
-#, fuzzy
 msgid ""
 "To create such a track in the editor, click \"Add Track -> Call Method Track."
 "\" Then, a window opens and lets you select the node to associate with the "
@@ -101,13 +95,13 @@ msgid ""
 "select \"Insert Key\". A window opens with a list of available methods. "
 "Double-click one to finish creating the keyframe."
 msgstr ""
-"Um einen solchen Track zu erstellen, klicken Sie auf \" Track hinzufügen -> "
-"Methodenaufrufs-Track\". Daraufhin wird ein Fenster geöffnet, in dem Sie den "
-"Node auswählen können, der mit dem Track verknüpft werden soll. Um eine der "
-"Methoden des Nodes aufzurufen, klicken Sie mit der rechten Maustaste auf die "
-"Zeitleiste und wählen Sie \"Key einfügen\". Es öffnet sich ein Fenster mit "
-"einer Liste der verfügbaren Methoden. Doppelklicken Sie auf eine, um die "
-"Erstellung des Keyframes abzuschließen."
+"Um einen solchen Track im Editor zu erstellen, klicken Sie auf \" Track "
+"hinzufügen -> Methodenaufrufs-Track\". Daraufhin wird ein Fenster geöffnet, "
+"in dem Sie den Node auswählen können, der mit dem Track verknüpft werden "
+"soll. Um eine der Methoden des Nodes aufzurufen, klicken Sie mit der rechten "
+"Maustaste auf die Zeitleiste und wählen Sie \"Key einfügen\". Es öffnet sich "
+"ein Fenster mit einer Liste der verfügbaren Methoden. Doppelklicken Sie auf "
+"eine, um die Erstellung des Keyframes abzuschließen."
 
 msgid ""
 "To change the method call or its arguments, click on the key and head to the "
@@ -125,27 +119,28 @@ msgid ""
 "``Animation.track_insert_key()``. The keys and their expected values are as "
 "follows:"
 msgstr ""
+"Um einen solchen Track durch Code zu erzeugen, übergeben Sie ein Dictionary, "
+"das den Namen und die Parameter der Zielmethode enthält, als Variant für "
+"``key`` in ``Animation.track_insert_key()``. Die Keys und ihre erwarteten "
+"Values sind wie folgt:"
 
 msgid "**Key**"
-msgstr ""
+msgstr "**Key**"
 
-#, fuzzy
 msgid "**Value**"
-msgstr "Wert"
+msgstr "**Value**"
 
-#, fuzzy
 msgid "``\"method\"``"
-msgstr "``Method``"
+msgstr "``\"method\"``"
 
-#, fuzzy
 msgid "The name of the method as a ``String``"
-msgstr "Der Name der neuen Klasse."
+msgstr "Der Name der Methode als ``String``"
 
 msgid "``\"args\"``"
-msgstr ""
+msgstr "``\"args\"``"
 
 msgid "The arguments to pass to the function as an ``Array``"
-msgstr ""
+msgstr "Die Argumente, die der Funktion als ``Array`` übergeben werden"
 
 msgid "Bezier Curve Track"
 msgstr "Bézierkurven-Track"
@@ -193,6 +188,11 @@ msgid ""
 "with :kbd:`Ctrl + Shift + Mouse wheel`. Using :kbd:`Ctrl + Alt + Mouse "
 "wheel` will zoom in and out on the Y axis"
 msgstr ""
+"Für eine bessere Genauigkeit bei der manuellen Arbeit mit Kurven können Sie "
+"die Zoomstufen des Editors verändern. Der Schieberegler unten rechts im "
+"Editor kann zum Vergrößern und Verkleinern der Zeitachse verwendet werden, "
+"Sie können dies auch mit :kbd:`Strg + Umschalt + Mausrad` tun. Mit :kbd:"
+"`Strg + Alt + Mausrad` wird auf der Y-Achse rein- und rausgezoomt"
 
 msgid "In the right click panel of the editor, you can select the handle mode:"
 msgstr "Im Rechtsklick-Panel des Editors können Sie den Griffmodus auswählen:"

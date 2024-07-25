@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,27 +224,6 @@ msgstr ""
 "Abhängigkeiten erfüllt? Andere Programmierer, und insbesondere Designer und "
 "Autoren, benötigen klare Anweisungen in den Meldungen, die ihnen sagen, was "
 "sie tun müssen, um ihn zu konfigurieren."
-
-msgid ""
-"So, why does all this complex switcheroo work? Well, because scenes operate "
-"best when they operate alone. If unable to work alone, then working with "
-"others anonymously (with minimal hard dependencies, i.e. loose coupling) is "
-"the next best thing. Inevitably, changes may need to be made to a class and "
-"if these changes cause it to interact with other scenes in unforeseen ways, "
-"then things will start to break down. The whole point of all this "
-"indirection is to avoid ending up in a situation where changing one class "
-"results in adversely effecting other classes dependent on it."
-msgstr ""
-"Warum also funktioniert dieses komplizierte Wechselspiel? Nun, weil Szenen "
-"am besten funktionieren, wenn sie allein arbeiten. Wenn sie nicht allein "
-"arbeiten können, dann ist die zweitbeste Lösung, mit anderen anonym zu "
-"arbeiten (mit minimalen harten Abhängigkeiten, d.h. loser Kopplung). Es kann "
-"unvermeidlich sein, dass Änderungen an einer Klasse vorgenommen werden "
-"müssen, und wenn diese Änderungen dazu führen, dass sie auf unvorhergesehene "
-"Weise mit anderen Szenen interagiert, dann werden die Dinge anfangen, "
-"zusammenzubrechen. Der Sinn all dieser Indirektion ist es, zu vermeiden, "
-"dass die Änderung einer Klasse sich negativ auf andere, von ihr abhängige "
-"Klassen auswirkt."
 
 msgid ""
 "Scripts and scenes, as extensions of engine classes, should abide by *all* "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,23 +29,6 @@ msgstr ""
 "přiřadit materiál Blenderu k existujícímu materiálu Godot. Výhodou tohoto "
 "postupu je možnost využít všechny funkce materiálového systému Godot, ale "
 "znamená to, že model s použitým materiálem v Blenderu neuvidíte."
-
-#, fuzzy
-msgid ""
-"To do this, the exporter attempts to find Godot materials with names that "
-"match those of the material name in Blender. So if you export an object in "
-"Blender with the material name ``PurpleDots`` then the exporter will search "
-"for the file ``PurpleDots.tres`` and assign it to the object. If this file "
-"is not a ``StandardMaterial3D`` or ``ShaderMaterial`` or if it cannot be "
-"found, then the exporter will fall back to exporting the material from "
-"Blender."
-msgstr ""
-"Za tímto účelem se exportér pokusí najít materiály Godot s názvy, které se "
-"shodují s názvy materiálů v programu Blender. Pokud tedy exportujete objekt "
-"v Blenderu s názvem materiálu ``PurpleDots``, pak exportér vyhledá soubor "
-"``PurpleDots.tres`` a přiřadí jej objektu. Pokud tento soubor není "
-"``SpatialMaterial`` nebo ``ShaderMateriál`` nebo pokud jej nelze najít, pak "
-"se exportér vrátí k exportu materiálu z Blenderu."
 
 msgid ""
 "Where the exporter searches for the ``.tres`` file is determined by the "
@@ -121,18 +99,6 @@ msgstr ""
 "PrincipledBSDF s distribucí GGX, jen u něj je zaručena přesná správnost. "
 "Ostatní jsou založeny pouze na aproximaci."
 
-#, fuzzy
-msgid ""
-"Sometimes materials may not be valid for exporting (e.g. has some "
-"unsupported node) or it is using Blender Internal Engine, only the diffuse "
-"color and a few flags (e.g. unshaded) are exported and form a "
-"StandardMaterial3D."
-msgstr ""
-"Někdy se může stát, že materiál není pro export platný (např. má nějaký "
-"nepodporovaný uzel) nebo používá interní engine Blenderu, exportuje se pouze "
-"difúzní barva a několik příznaků (např. nestínovaný) a tvoří prostorový "
-"materiál."
-
 msgid "Generate external materials"
 msgstr "Generování externích materiálů"
 
@@ -144,14 +110,6 @@ msgstr ""
 "Výchozí konfigurace exportu materiálů by měla všechny materiály uchovávat v "
 "interním souboru ``escn``. Existuje volba, která by mohla povolit generování "
 "externího souboru ``.material``, když se soubor ``escn`` otevře v Godotu."
-
-#, fuzzy
-msgid ""
-"``.material`` file can be assigned to any material slot to be an external "
-"resource."
-msgstr ""
-"Soubor ``.material`` lze přiřadit k libovolnému slotu materiálu jako externí "
-"zdroj."
 
 msgid "Translation status"
 msgstr "Stav překladu"

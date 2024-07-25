@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,15 +46,14 @@ msgstr "Ja"
 msgid "Cause"
 msgstr "Ursache"
 
-#, fuzzy
 msgid ""
 "An unsupported type is specified for a member annotated with the "
 "``[Export]`` attribute when a :ref:`Variant-compatible type "
 "<c_sharp_variant_compatible_types>` is expected."
 msgstr ""
-"Ein nicht unterstützter Typ wird für ein Element annotiert, das mit dem "
-"Attribut ``[Export]`` versehen ist, obwohl ein :ref:`Variant-kompatibler "
-"<doc_c_sharp_variant>'-Typ erwartet wird."
+"Ein nicht unterstützter Typ wird für ein Element angegeben, das mit dem "
+"Attribut ``[Export]`` versehen ist, obwohl ein :ref:`Variant-kompatibler Typ "
+"<c_sharp_variant_compatible_types>` erwartet wird."
 
 msgid "Rule description"
 msgstr "Regelbeschreibung"

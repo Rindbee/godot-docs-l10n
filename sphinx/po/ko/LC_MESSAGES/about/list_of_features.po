@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +66,6 @@ msgstr ""
 "buildroot>`를 사용하여 컴파일되며 이를 통해 (LTS를 포함한) 일반적인 리눅스 배"
 "포판들에서 바이너리가 동작할 수 있게 됩니다."
 
-#, fuzzy
 msgid "Android (editor support is experimental)."
 msgstr "Android (에디터 지원은 실험적인 기능입니다)."
 
@@ -237,6 +231,9 @@ msgid ""
 "least advanced graphics backend, suited for low-end desktop and mobile "
 "platforms. Used by default on the web platform."
 msgstr ""
+"**호환성**, OpenGL 3.3 / OpenGL ES 3.0 / WebGL 2.0에서 실행됩니다. 저사양 데"
+"스크탑 및 모바일 플랫폼에 적합한 가장 기본적인 그래픽 백엔드입니다. 웹 플랫폼"
+"에서는 기본적으로 사용됩니다."
 
 msgid "2D graphics"
 msgstr "2D 그래픽"
@@ -263,15 +260,10 @@ msgstr "Pseudo-3D지원 (에디터 시점 포함)"
 msgid ""
 ":ref:`2D lighting <doc_2d_lights_and_shadows>` with normal maps and specular "
 "maps."
-msgstr ""
+msgstr ":ref:`법선 맵과 반사 맵을 이용한 2D 조명 <doc_2d_lights_and_shadows>`."
 
-#, fuzzy
-msgid "Point (omni/spot) and directional 2D lights."
-msgstr "Point (omni/spot) 및 방향성(directional) 2D 조명."
-
-#, fuzzy
 msgid "Hard or soft shadows (adjustable on a per-light basis)."
-msgstr "하드 또는 소프트 그림자 (광도 단위로 조정 가능)"
+msgstr "하드한 또는 부드러운 그림자 (광도 단위로 조정 가능)"
 
 msgid ""
 "Custom shaders can access a real-time :abbr:`SDF (Signed Distance Field)` "
@@ -279,11 +271,17 @@ msgid ""
 "which can be used for improved 2D lighting effects including 2D global "
 "illumination."
 msgstr ""
+"사용자 정의 셰이더는 :ref:`class_LightOccluder2D` 노드를 기반으로 2D 씬의 실"
+"시간 :abbr:`SDF (Signed Distance Field)` 표현에 접근할 수 있으며, 이를 통해 "
+"2D 글로벌 일루미네이션을 포함한 향상된 2D 조명 효과를 구현할 수 있습니다."
 
 msgid ""
 ":ref:`Font rendering <doc_gui_using_fonts>` using bitmaps, rasterization "
 "using FreeType or multi-channel signed distance fields (MSDF)."
 msgstr ""
+"비트맵을 사용한 :ref:`폰트 렌더링 <doc_gui_using_fonts>,` FreeType을 사용한 "
+"래스터화 또는 다중 채널 서명 거리 필드(MSDF, Multi-channel Signed Distance "
+"Fields)를 사용한 렌더링."
 
 msgid ""
 "Bitmap fonts can be exported using tools like BMFont, or imported from "
@@ -339,12 +337,16 @@ msgid ""
 "requiring re-rasterization. Multi-channel usage makes SDF fonts scale down "
 "to lower sizes better compared to monochrome SDF fonts."
 msgstr ""
+"서명 거리 필드(SDF, Signed Distance Field) 폰트는 재래스터화 없이도 모든 해상"
+"도로 스케일 조정이 가능합니다. 다중 채널 사용은 단색 SDF 폰트에 비해 SDF 폰트"
+"를 작은 크기로 더 잘 축소할 수 있게 합니다."
 
-#, fuzzy
 msgid ""
 "GPU-based :ref:`particles <doc_particle_systems_2d>` with support for :ref:"
 "`custom particle shaders <doc_particle_shader>`."
-msgstr "GPU 기반 파티클과 커스텀 파티클 셰이더 지원."
+msgstr ""
+"GPU 기반 :ref:`파티클<doc_particle_systems_2d>`과 :ref:`커스텀 파티클 셰이더"
+"<doc_particle_shader>` 지원."
 
 msgid "CPU-based particles."
 msgstr "CPU 기반 파티클."
@@ -354,13 +356,15 @@ msgid ""
 "<doc_environment_and_post_processing_using_glow_in_2d>` for better glow "
 "capabilities."
 msgstr ""
+"향상된 글로우 기능을 위한 선택적 :ref:`2D HDR 렌더링 "
+"<doc_environment_and_post_processing_using_glow_in_2d>`."
 
 msgid "2D tools"
 msgstr "2D 툴"
 
-#, fuzzy
 msgid ":ref:`TileMaps <doc_using_tilemaps>` for 2D tile-based level design."
-msgstr ":ref:`TileMaps <doc_using_tilemaps>`를 통한 2D 타일 기반 레벨 디자인"
+msgstr ""
+":ref:`타일맵(TileMaps) <doc_using_tilemaps>`를 통한 2D 타일 기반 레벨 디자인."
 
 msgid "2D camera with built-in smoothing and drag margins."
 msgstr "스무딩(smoothing)과 드래그 마진(drag margin)이 적용된 2D 카메라."
@@ -374,9 +378,8 @@ msgstr "에디터에서 그리거나 절차적으로 생성할 수 있습니다.
 msgid "PathFollow2D node to make nodes follow a Path2D."
 msgstr "노드가 Path2D 경로를 따라가도록 하는 PathFollow2D 노드."
 
-#, fuzzy
 msgid ":ref:`2D geometry helper class <class_Geometry2D>`."
-msgstr ":ref:`2D 기하 도우미 클래스 <class_Geometry2D>`."
+msgstr ":ref:`2D 기하(geometry) 도우미 클래스 <class_Geometry2D>`."
 
 msgid "2D physics"
 msgstr "2D 물리"
@@ -397,9 +400,8 @@ msgstr ""
 msgid "Rigid bodies."
 msgstr "강체(rigid bodies)."
 
-#, fuzzy
 msgid "Character bodies."
-msgstr "캐릭터 물체."
+msgstr "캐릭터 바디."
 
 msgid "Joints."
 msgstr "관절(Joints)."
@@ -435,11 +437,15 @@ msgid ""
 "When using the Forward+ backend, a depth prepass is used to improve "
 "performance in complex scenes by reducing the cost of overdraw."
 msgstr ""
+"Forward+ 백엔드를 사용할 때, 깊이 프리패스(depth prepass)를 사용하여 복잡한 "
+"씬에서 오버드로우 비용을 줄여 성능을 향상시킵니다."
 
 msgid ""
 ":ref:`doc_variable_rate_shading` on supported GPUs in Forward+ and Forward "
 "Mobile."
 msgstr ""
+"Forward+ 및 Forward Mobile에서 지원되는 GPU에서 :ref:`변동 레이트 셰이딩 "
+"<doc_variable_rate_shading>`."
 
 msgid "**Physically-based rendering (built-in material features):**"
 msgstr "**물리 기반 렌더링 (내장된 매터리얼 기능)**"
@@ -447,67 +453,23 @@ msgstr "**물리 기반 렌더링 (내장된 매터리얼 기능)**"
 msgid "Follows the Disney PBR model."
 msgstr "디즈니의 PBR 모델을 따릅니다."
 
-#, fuzzy
 msgid ""
 "Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
 "shading modes."
 msgstr ""
-"Lambert, Lambert Wrap (half-Lambert), Oren-Nayar 및 Toon diffuse 모드를 지원"
+"Burley, Lambert, Lambert 랩 (half-Lambert) 및 Toon diffuse 셰이딩 모드를 지원"
 "합니다."
-
-#, fuzzy
-msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
-msgstr ""
-"Schlick-GGX, Blinn, Phong, Toon, 그리고 Disabled specular shading modes를 지"
-"원합니다."
 
 msgid "Uses a roughness-metallic workflow with support for ORM textures."
 msgstr ""
 "ORM 텍스처를 지원하는 러프니스-메탈릭(roughness-metallic) 워크플로를 사용합니"
 "다."
 
-#, fuzzy
-msgid ""
-"Uses horizon specular occlusion (Filament model) to improve material "
-"appearance."
-msgstr "수평선 반사 어클루전(Filament 모델)을 사용하여 재료 모양 개선"
-
 msgid "Normal mapping."
 msgstr "노멀 매핑."
 
-#, fuzzy
-msgid ""
-"Parallax/relief mapping with automatic level of detail based on distance."
-msgstr ""
-"*GLES3:* 거리 기반 자동 세부 수준 시차(parallax) 매핑/릴리프(relief) 매핑."
-
 msgid "Detail mapping for the albedo and normal maps."
 msgstr "Albedo 및 노멀 지도에 대한 매핑 세부화."
-
-#, fuzzy
-msgid "Sub-surface scattering and transmittance."
-msgstr ""
-"*GLES3:* 서브서피스 스캐터링(sub-surface scattering) 및 투과(transmittance)."
-
-#, fuzzy
-msgid ""
-"Screen-space refraction with support for material roughness (resulting in "
-"blurry refraction)."
-msgstr ""
-"GLES3: 재료의 거칠기를 지원하는 굴절(흐릿한 굴절)을 지원합니다. GLES2에서는 "
-"굴절은 여전히 작동하지만 재료의 거칠기를 지원하지 않습니다."
-
-#, fuzzy
-msgid "Proximity fade (soft particles) and distance fade."
-msgstr "*GLES3:* 근접(Proximity) 페이드(가벼운 파티클)."
-
-#, fuzzy
-msgid ""
-"Distance fade can use alpha blending or dithering to avoid going through the "
-"transparent pipeline."
-msgstr ""
-"투명 파이프라인을 통과하는 것을 피하기 위해 알파 블렌딩이나 디더링(dithering)"
-"을 사용할 수 있는 디스턴스 페이드(distance face)."
 
 msgid "Dithering can be determined on a per-pixel or per-object basis."
 msgstr "디더링은 픽셀 또는 객체별로 적용할 수 있습니다."
@@ -525,21 +487,17 @@ msgstr "전방위 조명(Omnidirectional lights)."
 msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "원뿔 모양의 각도와 감쇠(attenuation)를 조정할 수 있는 스포트라이트."
 
-#, fuzzy
-msgid ""
-"Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
-"light basis."
-msgstr "빛 반사의 정도는 광원마다 조절할 수 있습니다."
-
 msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
 "blurrier)."
-msgstr ""
+msgstr "가짜 영역 조명을 위한 조절 가능한 조명 \"크기\" (그림자도 더 흐려짐)."
 
 msgid ""
 "Optional distance fade system to fade distant lights and their shadows, "
 "improving performance."
 msgstr ""
+"성능을 향상시키기 위해 먼 거리의 조명과 그림자를 점차적으로 사라지게 하는 선"
+"택적 거리 페이드 시스템."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), lights are rendered "
@@ -547,12 +505,18 @@ msgid ""
 "Clustered rendering also lifts any limits on the number of lights that can "
 "be used on a mesh."
 msgstr ""
+"Forward+ 백엔드(데스크탑에서 기본값)를 사용할 때, 조명은 개별 비용을 줄이기 "
+"위해 클러스터형 전방 최적화로 렌더링됩니다. 클러스터형 렌더링은 메시에 사용"
+"할 수 있는 조명의 수에 대한 제한도 제거합니다."
 
 msgid ""
 "When using the Forward Mobile backend, up to 8 omni lights and 8 spot lights "
 "can be displayed per mesh resource. Baked lighting can be used to overcome "
 "this limit if needed."
 msgstr ""
+"Forward Mobile 백엔드를 사용할 때, 메쉬 리소스당 최대 8개의 전방위 조명과 8개"
+"의 스포트 조명이 표시될 수 있습니다. 필요에 따라 베이크된 조명을 사용하여 이 "
+"한계를 극복할 수 있습니다."
 
 msgid "**Shadow mapping:**"
 msgstr "**그림자 매핑**"
@@ -571,32 +535,29 @@ msgstr ""
 "*옴니 라이트(OmniLight):* 쌍포물선(빠름) 또는 큐브맵(느리지만 정확). 색이 있"
 "는 프로젝터 텍스처를 파노라마 형태로 사용할 수 있습니다."
 
-#, fuzzy
-msgid "*SpotLight:* Single texture. Supports colored projector textures."
-msgstr "*스포트라이트:* 단일 텍스처."
-
 msgid ""
 "Shadow normal offset bias and shadow pancaking to decrease the amount of "
 "visible shadow acne and peter-panning."
 msgstr ""
+"그림자 노멀 오프셋 바이어스와 그림자 팬케이킹을 통해 그림자 아티팩트와 피터 "
+"팬 현상을 줄입니다."
 
 msgid ""
 ":abbr:`PCSS (Percentage Closer Soft Shadows)`-like shadow blur based on the "
 "light size and distance from the surface the shadow is cast on."
 msgstr ""
-
-#, fuzzy
-msgid "Adjustable shadow blur on a per-light basis."
-msgstr "빛 반사의 정도는 광원마다 조절할 수 있습니다."
+":abbr:`PCSS (Percentage Closer Soft Shadows)` 와 유사한 그림자 흐림 효과는 조"
+"명의 크기와 그림자가 드리워진 표면과의 거리를 기반으로 합니다."
 
 msgid "**Global illumination with indirect lighting:**"
 msgstr "**간접 조명을 통한 전역 조명(Global illumination):**"
 
-#, fuzzy
 msgid ""
 ":ref:`Baked lightmaps <doc_using_lightmap_gi>` (fast, but can't be updated "
 "at run-time)."
-msgstr "베이크된 라이트맵(빠르지만 실행 중 갱신할 수 없습니다)."
+msgstr ""
+":ref:`베이크된 라이트맵<doc_using_lightmap_gi>`(빠르지만, 실행 중엔 업데이트 "
+"불가능)."
 
 msgid ""
 "Supports baking indirect light only or baking both direct and indirect "
@@ -607,23 +568,25 @@ msgstr ""
 "드 조명 베이킹 설정을 허용하도록 베이크(bake) 모드를 조명별로 조정할 수 있습"
 "니다."
 
-#, fuzzy
 msgid ""
 "Supports lighting dynamic objects using automatic and manually placed probes."
 msgstr ""
-"자동화된 옥트리(octree) 기반 시스템을 사용해 동적 객체 조명을 지원합니다. 수"
-"동 프로브 배치가 필요없습니다."
+"자동 및 수동으로 배치된 프로브를 사용하여 동적 객체의 라이팅을 지원합니다."
 
 msgid ""
 "Optionally supports directional lighting and rough reflections based on "
 "spherical harmonics."
 msgstr ""
+"선택적으로 구형 고조파를 기반으로 한 방향성 라이팅 및 거친 반사를 지원합니다."
 
 msgid ""
 "Lightmaps are baked on the GPU using compute shaders (much faster compared "
 "to CPU lightmapping). Baking can only be performed from the editor, not in "
 "exported projects."
 msgstr ""
+"라이트맵은 컴퓨트 셰이더를 사용하여 GPU에서 베이크됩니다(CPU 라이트맵핑에 비"
+"해 훨씬 빠릅니다). 베이크는 에디터에서만 수행할 수 있으며, 내보낸 프로젝트에"
+"서는 수행할 수 없습니다."
 
 msgid ""
 "Supports GPU-based :ref:`denoising <doc_using_lightmap_gi_denoising>` with "
@@ -638,12 +601,18 @@ msgid ""
 "baking step which can be performed in the editor or at run-time (including "
 "from an exported project)."
 msgstr ""
+":ref:`복셀 기반 GI 프로브 <doc_using_voxel_gi>`. 동적 조명 및 동적 차광체를 "
+"지원하며, 반사도 지원합니다. 빠른 베이킹 단계가 필요하며, 이는 에디터나 실행 "
+"중(내보낸 프로젝트 포함)에 수행할 수 있습니다."
 
 msgid ""
 ":ref:`Signed-distance field GI <doc_using_sdfgi>` designed for large open "
 "worlds. Supports dynamic lights, but not dynamic occluders. Supports "
 "reflections. No baking required."
 msgstr ""
+":ref:`서명 거리 필드(Signed-distance field) GI <doc_using_sdfgi>`는 대규모 오"
+"픈 월드를 위해 설계되었습니다. 동적 조명과 반사를 지원하지만, 동적 차광체는 "
+"지원하지 않습니다. 베이킹이 필요하지 않습니다."
 
 msgid ""
 ":ref:`Screen-space indirect lighting (SSIL) "
@@ -651,12 +620,18 @@ msgid ""
 "Fully real-time and supports any kind of emissive light source (including "
 "decals)."
 msgstr ""
+":ref:`스크린 공간 간접 조명(SSIL) <doc_environment_and_post_processing_ssil>`"
+"은 절반 이나 전체 해상도로 지원됩니다. 완전 실시간으로 동작하며, 모든 종류의 "
+"발광 라이팅(데칼 포함)을 지원합니다."
 
 msgid ""
 "VoxelGI and SDFGI use a deferred pass to allow for rendering GI at half "
 "resolution to improve performance (while still having functional MSAA "
 "support)."
 msgstr ""
+"복쉘GI(VoxelGI)와 부호화 거리 필드 GI(SDFGI)는 성능 향상을 위해 GI를 절반 해"
+"상도로 렌더링할 수 있도록 지연 패스를 사용합니다(기능적인 MSAA 지원은 유지됩"
+"니다)."
 
 msgid "**Reflections:**"
 msgstr "**반사(Reflections)**"
@@ -667,6 +642,9 @@ msgid ""
 "on transparent surfaces, while rough SDF-based reflections are visible on "
 "transparent surfaces."
 msgstr ""
+"복셀 기반 반사(GI 프로브 사용 시)와 SDF 기반 반사(부호화 디스턴스 필드 GI 사"
+"용 시). 복셀 기반 반사는 투명한 표면에서 보이는 반면, 거친 SDF 기반 반사는 불"
+"투명한 표면에서 보입니다."
 
 msgid ""
 "Fast baked reflections or slow real-time reflections using ReflectionProbe. "
@@ -676,7 +654,7 @@ msgstr ""
 "정을 선택적으로 활성화할 수 있습니다."
 
 msgid "Screen-space reflections with support for material roughness."
-msgstr ""
+msgstr "재질의 거친 정도(roughness)를 지원하는 스크린 공간 반사."
 
 msgid ""
 "Reflection techniques can be mixed together for greater accuracy or "
@@ -689,45 +667,48 @@ msgid ""
 "cost. Clustered rendering also lifts any limits on the number of reflection "
 "probes that can be used on a mesh."
 msgstr ""
+"Forward+ 백엔드(데스크탑에서 기본값)를 사용할 때, 반사 프로브는 개별 비용을 "
+"줄이기 위해 클러스터형 전방 최적화로 렌더링됩니다. 클러스터형 렌더링은 메시"
+"에 사용할 수 있는 반사 프로브의 수에 대한 제한도 제거합니다."
 
 msgid ""
 "When using the Forward Mobile backend, up to 8 reflection probes can be "
 "displayed per mesh resource."
 msgstr ""
-
-#, fuzzy
-msgid "**Decals:**"
-msgstr "**기능:**"
+"Forward Mobile 백엔드를 사용할 때, 메쉬 리소스당 최대 8개의 반사 프로브가 표"
+"시될 수 있습니다."
 
 msgid ""
 ":ref:`Supports albedo <doc_using_decals>`, emissive, :abbr:`ORM (Occlusion "
 "Roughness Metallic)`, and normal mapping."
 msgstr ""
+":ref:`알베도 <doc_using_decals>`, 발광, :abbr:`ORM (Occlusion Roughness "
+"Metallic)`, 및 노멀 맵핑을 지원합니다."
 
 msgid ""
 "Texture channels are smoothly overlaid on top of the underlying material, "
 "with support for normal/ORM-only decals."
 msgstr ""
+"텍스처 채널은 기본 재질 위에 부드럽게 오버레이되며, 노멀/ORM 전용 데칼도 지원"
+"합니다."
 
 msgid ""
 "Support for normal fade to fade the decal depending on its incidence angle."
-msgstr ""
+msgstr "입사각에 따라 데칼을 점차적으로 사라지게 하는 노멀 페이드 지원."
 
 msgid ""
 "Does not rely on run-time mesh generation. This means decals can be used on "
 "complex skinned meshes with no performance penalty, even if the decal moves "
 "every frame."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for nearest, bilinear, trilinear or anisotropic texture filtering "
-"(configured globally)."
-msgstr "근접, 이중선형, 삼중선형 또는 비등방성 필터링."
+"실행 중 메시 생성을 필요로 하지 않습니다. 이는 데칼이 매 프레임 이동하더라도 "
+"성능 저하 없이 복잡한 스킨드 메시에 데칼을 사용할 수 있음을 의미합니다."
 
 msgid ""
 "Optional distance fade system to fade distant decals, improving performance."
 msgstr ""
+"성능을 향상시키기 위해 먼 거리의 데칼을 점차적으로 사라지게 하는 선택적 거리 "
+"페이드 시스템."
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -735,11 +716,16 @@ msgid ""
 "Clustered rendering also lifts any limits on the number of decals that can "
 "be used on a mesh."
 msgstr ""
+"Forward+ 백엔드(데스크탑에서는 기본값)를 사용할 때, 데칼은 개별 비용을 줄이"
+"기 위해 클러스터형 전방 최적화로 렌더링됩니다. 클러스터형 렌더링은 메시에 사"
+"용할 수 있는 데칼의 수에 대한 제한도 제거합니다."
 
 msgid ""
 "When using the Forward Mobile backend, up to 8 decals can be displayed per "
 "mesh resource."
 msgstr ""
+"Forward Mobile 백엔드를 사용할 때, 메쉬 리소스당 최대 8개의 데칼이 표시될 수 "
+"있습니다."
 
 msgid "**Sky:**"
 msgstr "**하늘:**"
@@ -750,71 +736,65 @@ msgstr "파노라마 하늘(HDRI 사용)."
 msgid ""
 "Procedural sky and Physically-based sky that respond to the "
 "DirectionalLights in the scene."
-msgstr ""
+msgstr "씬의 방향성 조명에 반응하는 절차적 하늘과 물리 기반 하늘."
 
 msgid ""
 "Support for :ref:`custom sky shaders <doc_sky_shader>`, which can be "
 "animated."
 msgstr ""
+"애니메이션이 가능한 :ref:`사용자 정의 하늘 셰이더 <doc_sky_shader>` 지원."
 
 msgid ""
 "The radiance map used for ambient and specular light can be updated in real-"
 "time depending on the quality settings chosen."
 msgstr ""
+"선택한 품질 설정에 따라 환경광 및 반사광에 사용되는 복사 맵이 실시간으로 업데"
+"이트될 수 있습니다."
 
 msgid "**Fog:**"
 msgstr "**안개:**"
 
 msgid "Exponential depth fog."
-msgstr ""
+msgstr "지수형 깊이 안개."
 
 msgid "Exponential height fog."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for automatic fog color depending on the sky color (aerial "
-"perspective)."
-msgstr ""
-"(태양의 색상과 맞추기 위해) 자동으로 카메라 방향에 따른 깊이 안개 색상 지원."
-
-#, fuzzy
-msgid "Support for sun scattering in the fog."
-msgstr "비주얼 셰이더 플러그인 지원."
+msgstr "지수형 높이 안개."
 
 msgid ""
 "Support for controlling how much fog rendering should affect the sky, with "
 "separate controls for traditional and volumetric fog."
 msgstr ""
-
-#, fuzzy
-msgid "Support for making specific materials ignore fog."
-msgstr "비주얼 셰이더 플러그인 지원."
+"전통적인 안개와 볼륨 안개에 대해 별도의 제어를 통해 안개 렌더링이 하늘에 미치"
+"는 영향을 조절할 수 있습니다."
 
 msgid "**Volumetric fog:**"
-msgstr ""
+msgstr "**볼륨 안개:**"
 
 msgid ""
 "Global :ref:`volumetric fog <doc_volumetric_fog>` that reacts to lights and "
 "shadows."
-msgstr ""
+msgstr "조명과 그림자에 반응하는 글로벌 :ref:`볼륨 안개 <doc_volumetric_fog>`."
 
 msgid ""
 "Volumetric fog can take indirect light into account when using VoxelGI or "
 "SDFGI."
 msgstr ""
+"복셀GI(VoxelGI) 또는 부호화 거리 필드(SDFGI)를 사용할 때, 볼륨 안개는 간접 조"
+"명을 고려할 수 있습니다."
 
 msgid ""
 "Fog volume nodes that can be placed to add fog to specific areas (or remove "
 "fog from specific areas). Supported shapes include box, ellipse, cone, "
 "cylinder, and 3D texture-based density maps."
 msgstr ""
+"특정 영역에 안개를 추가하거나 제거할 수 있는 안개 볼륨 노드. 지원되는 형태로"
+"는 박스, 타원, 원뿔, 실린더, 3D 텍스처 기반 밀도 맵이 있습니다."
 
 msgid "Each fog volume can have its own custom shader."
-msgstr ""
+msgstr "각 안개 볼륨은 고유한 사용자 정의 셰이더를 가질 수 있습니다."
 
 msgid "Can be used together with traditional fog."
-msgstr ""
+msgstr "전통적인 안개와 함께 사용할 수 있습니다."
 
 msgid "**Particles:**"
 msgstr "**파티클**"
@@ -823,28 +803,36 @@ msgid ""
 "GPU-based particles with support for subemitters (2D + 3D), trails (2D + "
 "3D), attractors (3D only) and collision (2D + 3D)."
 msgstr ""
+"서브 에미터(2D + 3D), 트레일(2D + 3D), 어트랙터(3D 전용) 및 충돌(2D + 3D)을 "
+"지원하는 GPU 기반 파티클."
 
 msgid ""
 "3D particle attractor shapes supported: box, sphere and 3D vector fields."
-msgstr ""
+msgstr "지원되는 3D 파티클 어트랙터 형태: 박스, 구, 3D 벡터 필드."
 
 msgid ""
 "3D particle collision shapes supported: box, sphere, baked signed distance "
 "field and real-time heightmap (suited for open world weather effects)."
 msgstr ""
+"지원되는 3D 파티클 충돌 형태: 박스, 구, 베이크된 부호화 디스턴스 필드(SDF) "
+"및 실시간 높이맵 (오픈 월드 날씨 효과에 적합)."
 
 msgid ""
 "2D particle collision is handled using a signed distance field generated in "
 "real-time based on :ref:`class_LightOccluder2D` nodes in the scene."
 msgstr ""
+"2D 파티클 충돌은 씬의 :ref:`class_LightOccluder2D` 노드를 기반으로 실시간 생"
+"성된 부호화 디스턴스 필드를 사용하여 처리됩니다."
 
 msgid ""
 "Trails can use the built-in ribbon trail and tube trail meshes, or custom "
 "meshes with skeletons."
 msgstr ""
+"트레일은 내장된 리본 트레일과 튜브 트레일 메쉬를 사용할 수 있으며, 스켈레톤"
+"이 있는 사용자 정의 메쉬도 사용할 수 있습니다."
 
 msgid "Support for custom particle shaders with manual emission."
-msgstr ""
+msgstr "수동 방출을 지원하는 사용자 정의 파티클 셰이더를 지원합니다."
 
 msgid "**Post-processing:**"
 msgstr "**포스트 프로세싱**"
@@ -852,43 +840,28 @@ msgstr "**포스트 프로세싱**"
 msgid "Tonemapping (Linear, Reinhard, Filmic, ACES)."
 msgstr "톤 매핑(선형, Reinhard, 필름, ACES)."
 
-#, fuzzy
-msgid ""
-"Automatic exposure adjustments based on viewport brightness (and manual "
-"exposure override)."
-msgstr "*GLES3:* 뷰포트 밝기에 기초한 자동 노출 보정."
-
 msgid ""
 "Near and far depth of field with adjustable bokeh simulation (box, hexagon, "
 "circle)."
 msgstr ""
-
-#, fuzzy
-msgid "Screen-space ambient occlusion (SSAO) at half or full resolution."
-msgstr "*GLES3:* 스크린 스페이스 앰비언트 어클루전(SSAO)."
-
-#, fuzzy
-msgid ""
-"Glow/bloom with optional bicubic upscaling and several blend modes "
-"available: Screen, Soft Light, Add, Replace, Mix."
-msgstr ""
-"선택적인 bicubic 업스케일링을 통한 글로우(glow)/블룸(bloom) 및 몇몇 사용가능"
-"한 블렌딩 모드(스크린, 소프트 라이트, Add, Replace)."
+"조절 가능한 보케 시뮬레이션(박스, 육각형, 원)이 포함된 근거리 및 원거리 심도 "
+"효과를 지원합니다."
 
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
 msgstr ""
+"글로우에는 렌즈 먼지 효과처럼 작용하는 컬러 더트 맵 텍스처를 사용할 수 있습니"
+"다."
 
 msgid ""
 "Glow can be :ref:`used as a screen-space blur effect "
 "<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
 msgstr ""
-
-#, fuzzy
-msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
-msgstr "1차원 램프를 사용한 색상 교정."
+"글로우는 :ref:`스크린 공간 블러 효과 "
+"<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`로 사용"
+"할 수 있습니다."
 
 msgid "Roughness limiter to reduce the impact of specular aliasing."
-msgstr ""
+msgstr "반사 에일리어싱의 영향을 줄이기 위한 거칠기 제한 기능."
 
 msgid "Brightness, contrast and saturation adjustments."
 msgstr "밝기, 대비 및 채도 조정."
@@ -899,45 +872,33 @@ msgstr "**텍스처 필터링:**"
 msgid "Nearest, bilinear, trilinear or anisotropic filtering."
 msgstr "근접, 이중선형, 삼중선형 또는 비등방성 필터링."
 
-#, fuzzy
-msgid ""
-"Filtering options are defined on a per-use basis, not a per-texture basis."
-msgstr "디더링은 픽셀 또는 객체별로 적용할 수 있습니다."
-
 msgid "**Texture compression:**"
 msgstr "**텍스처 압축:**"
 
 msgid "Basis Universal (slow, but results in smaller files)."
-msgstr ""
-
-#, fuzzy
-msgid "BPTC for high-quality compression (not supported on macOS)."
-msgstr "*GLES3:* 고품질 압축을 위한 BPTC (macOS에서는 지원하지 않음)."
-
-#, fuzzy
-msgid "ETC2 (not supported on macOS)."
-msgstr "*GLES3:* ETC2 (macOS에서는 지원하지 않음)."
-
-#, fuzzy
-msgid "S3TC (not supported on mobile/Web platforms)."
-msgstr "S3TC (모바일/웹 플랫폼은 지원하지 않음)."
+msgstr "Basis Universal (느리지만 더 작은 파일 크기를 제공합니다)."
 
 msgid "**Anti-aliasing:**"
 msgstr "**안티 앨리어싱:**"
 
 msgid "Temporal :ref:`antialiasing <doc_3d_antialiasing>` (TAA)."
-msgstr ""
+msgstr "시간적 :ref:`안티앨리어싱 <doc_3d_antialiasing>` (TAA)."
 
 msgid ""
 "AMD FidelityFX Super Resolution 2.2 :ref:`antialiasing "
 "<doc_3d_antialiasing>` (FSR2), which can be used at native resolution as a "
 "form of high-quality temporal antialiasing."
 msgstr ""
+"AMD FidelityFX Super Resolution 2.2 :ref:`안티앨리어싱 "
+"<doc_3d_antialiasing>` (FSR2), 고품질 시간적 안티앨리어싱 형태로 네이티브 해"
+"상도에서 사용할 수 있습니다."
 
 msgid ""
 "Multi-sample antialiasing (MSAA), for both :ref:`doc_2d_antialiasing` and :"
 "ref:`doc_3d_antialiasing`."
 msgstr ""
+"멀티 샘플 안티앨리어싱(MSAA), :ref:`2D 안티앨리어싱 <doc_2d_antialiasing>` "
+"및 :ref:`3D 안티앨리어싱 <doc_3d_antialiasing>` 모두에 사용됩니다."
 
 msgid "Fast approximate antialiasing (FXAA)."
 msgstr "고속 근사 안티앨리어싱 (FXAA)."
@@ -946,15 +907,14 @@ msgid ""
 "Super-sample antialiasing (SSAA) using bilinear 3D scaling and a 3D "
 "resolution scale above 1.0."
 msgstr ""
+"1.0 이상의 3D 해상도 스케일과 양선형 3D 스케일링을 사용하는 슈퍼 샘플 안티앨"
+"리어싱(SSAA)."
 
 msgid ""
 "Alpha antialiasing, MSAA alpha to coverage and alpha hashing on a per-"
 "material basis."
 msgstr ""
-
-#, fuzzy
-msgid "**Resolution scaling:**"
-msgstr "**반사(Reflections)**"
+"알파 안티앨리어싱, MSAA 알파 투 커버리지 및 알파 해싱을 재질별로 지원합니다."
 
 msgid ""
 "Support for :ref:`rendering 3D at a lower resolution "
@@ -962,37 +922,31 @@ msgid ""
 "This can be used to improve performance on low-end systems or improve "
 "visuals on high-end systems."
 msgstr ""
+":ref:`3D 렌더링을 낮은 해상도로 렌더링 <doc_resolution_scaling>`하면서 2D 렌"
+"더링은 원래 해상도를 유지하는 기능을 지원합니다. 이는 저사양 시스템에서 성능"
+"을 향상시키거나 고사양 시스템에서 시각적 품질을 개선하는 데 사용할 수 있습니"
+"다."
 
 msgid ""
 "Resolution scaling uses bilinear filtering, AMD FidelityFX Super Resolution "
 "1.0 (FSR1) or AMD FidelityFX Super Resolution 2.2 (FSR2)."
 msgstr ""
+"해상도 스케일링은 양선형 필터링, AMD FidelityFX Super Resolution 1.0 (FSR1) "
+"또는 AMD FidelityFX Super Resolution 2.2 (FSR2)를 사용합니다."
 
 msgid ""
 "Texture mipmap LOD bias is adjusted automatically to improve quality at "
 "lower resolution scales. It can also be modified with a manual offset."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Most effects listed above can be adjusted for better performance or to "
-"further improve quality. This can be helpful when :ref:`using Godot for "
-"offline rendering <doc_creating_movies>`."
-msgstr ""
-"이 효과들의 대부분은 더 나은 성능 또는 더 나은 품질을 위해 조정할 수 있습니"
-"다. 이는 Godot를 오프라인 렌더링에 사용할 때 유용합니다."
+"텍스처 밉맵 LOD 바이어스는 자동으로 조정되어 낮은 해상도 스케일에서 품질을 향"
+"상시킵니다. 수동 오프셋으로도 수정할 수 있습니다."
 
 msgid "3D tools"
 msgstr "3D 툴"
 
-#, fuzzy
-msgid ""
-"Built-in meshes: cube, cylinder/cone, (hemi)sphere, prism, plane, quad, "
-"torus, ribbon, tube."
-msgstr "기본 메시: 육면체, 원통/원뿔, (반)구, 각기둥, 평면, 사각형."
-
 msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
 msgstr ""
+":ref:`GridMaps <doc_using_gridmaps>`를 사용한 3D 타일 기반 레벨 디자인."
 
 msgid ""
 ":ref:`Constructive solid geometry <doc_csg_tools>` (intended for "
@@ -1010,16 +964,6 @@ msgstr "3D 공간에서의 경로를 나타내는 Path3D 노드."
 msgid "PathFollow3D node to make nodes follow a Path3D."
 msgstr "노드가 Path3D 경로를 따라가도록 하는 PathFollow3D 노드."
 
-#, fuzzy
-msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
-msgstr "3D 기하 도우미 클래스."
-
-#, fuzzy
-msgid ""
-"Support for exporting the current scene as a glTF 2.0 file, both from the "
-"editor and at run-time from an exported project."
-msgstr "에디터에서 현재 씬을 glTF 2.0 파일로 내보내기 위한 지원"
-
 msgid "3D physics"
 msgstr "3D 물리(Physics)"
 
@@ -1031,12 +975,6 @@ msgstr "연체(Soft bodies)."
 
 msgid "Ragdolls."
 msgstr "래그돌(Ragdoll)."
-
-#, fuzzy
-msgid ""
-"Built-in shapes: cuboid, sphere, capsule, cylinder, world boundary (infinite "
-"plane)."
-msgstr "기본 모양: 직육면체, 구, 캡슐, 원통."
 
 msgid "Generate triangle collision shapes for any mesh from the editor."
 msgstr "어느 메시든지 에디터에서 삼각형 콜리전을 생성합니다."
@@ -1083,11 +1021,6 @@ msgid ""
 "Support for :ref:`cross-language scripting <doc_cross_language_scripting>`."
 msgstr ":ref:`교차 언어 스크립팅 <doc_cross_language_scripting>` 지원."
 
-#, fuzzy
-msgid ""
-"Many 2D, 3D and 4D linear algebra data types such as vectors and transforms."
-msgstr "벡터나 트랜스폼 같은 다양한 2D 및 3D 선형대수 데이터 타입 지원."
-
 msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 msgstr ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 
@@ -1101,6 +1034,7 @@ msgstr ""
 msgid ""
 "Syntax inspired by Python. However, GDScript is **not** based on Python."
 msgstr ""
+"문법은 파이썬에서 영감을 받았지만, GDScript는 **파이썬 기반이 아닙니다**."
 
 msgid "Syntax highlighting is provided on GitHub."
 msgstr "Github에서 구문 강조 지원."
@@ -1120,38 +1054,36 @@ msgstr ""
 "파일 크기를 줄이고 의존성을 낮추기 위해 별도의 바이너리로 패키징했습니다."
 
 msgid "Supports .NET 6 and higher."
-msgstr ""
-
-#, fuzzy
-msgid "Full support for the C# 10.0 syntax and features."
-msgstr "C# 7.0의 구문과 기능을 모두 지원합니다."
+msgstr ".NET 6 및 상위 버전을 지원합니다."
 
 msgid ""
 "Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
 "Android and iOS is also available (requires a .NET 7.0 project for Android "
 "and 8.0 for iOS)."
 msgstr ""
+"Windows, Linux, macOS를 지원합니다. 4.2 버전부터는 Android 및 iOS에 대한 실험"
+"적 지원도 가능합니다(Android는 .NET 7.0 프로젝트, iOS는 .NET 8.0 프로젝트 필"
+"요)."
 
 msgid ""
 "On the Android platform only some architectures are supported: ``arm64`` and "
 "``x64``."
 msgstr ""
+"Android 플랫폼에서는 일부 아키텍처(``arm64 `` 및 ``x64``)만 지원됩니다."
 
 msgid "On the iOS platform only some architectures are supported: ``arm64``."
-msgstr ""
+msgstr "iOS 플랫폼에서는 ``arm64`` 아키텍처만 지원됩니다."
 
 msgid ""
 "The web platform is currently unsupported. To use C# on that platform, "
 "consider Godot 3 instead."
 msgstr ""
+"웹 플랫폼은 현재 지원되지 않습니다. 해당 플랫폼에서 C#을 사용하려면 Godot 3"
+"을 고려하십시오."
 
 msgid ""
 "Using an external editor is recommended to benefit from IDE functionality."
 msgstr "IDE 기능을 활용하려면 외부 에디터 사용을 권장합니다."
-
-#, fuzzy
-msgid "**GDExtension (C, C++, Rust, D, ...):**"
-msgstr "**GDNative (C, C++, Rust, D, ...):**"
 
 msgid ""
 "When you need it, link to native libraries for higher performance and third-"
@@ -1170,6 +1102,8 @@ msgid ""
 "Official GDExtension bindings for `C <https://github.com/godotengine/godot-"
 "headers>`__ and `C++ <https://github.com/godotengine/godot-cpp>`__."
 msgstr ""
+"공식 GDExtension 바인딩: `C <https://github.com/godotengine/godot-headers>` "
+"및 `C++ <https://github.com/godotengine/godot-cpp>`."
 
 msgid "Use any build system and language features you wish."
 msgstr "여러분이 사용하는 어느 빌드 시스템이나 언어든 사용할 수 있습니다."
@@ -1181,6 +1115,11 @@ msgid ""
 "com/godot-rust/gdextension>`__ bindings provided by the community. (Some of "
 "these bindings may be experimental and not production-ready)."
 msgstr ""
+"커뮤니티에서 제공하는 활발히 개발 중인 GDExtension 바인딩: `D <https://"
+"github.com/godot-dlang/godot-dlang>`, `Haxe <https://hxgodot.github.io/>`, "
+"`Swift <https://github.com/migueldeicaza/SwiftGodot>`, 그리고 `Rust <https://"
+"github.com/godot-rust/gdextension>`. (일부 바인딩은 실험적이며, 실제 사용에 "
+"적합하지 않을 수 있습니다)."
 
 msgid "Audio"
 msgstr "오디오"
@@ -1204,20 +1143,12 @@ msgstr ""
 msgid ""
 "Support for polyphony (playing several sounds from a single "
 "AudioStreamPlayer node)."
-msgstr ""
-
-#, fuzzy
-msgid "Support for random volume and pitch."
-msgstr "비주얼 셰이더 플러그인 지원."
-
-#, fuzzy
-msgid "Support for real-time pitch scaling."
-msgstr "비주얼 셰이더 플러그인 지원."
+msgstr "폴리포니(단일 AudioStreamPlayer 노드에서 여러 소리 재생) 지원."
 
 msgid ""
 "Support for sequential/random sample selection, including repetition "
 "prevention when using random sample selection."
-msgstr ""
+msgstr "순차/랜덤 샘플 선택 지원, 랜덤 샘플 선택 시 반복 방지 기능 포함."
 
 msgid ""
 "Listener2D and Listener3D nodes to listen from a position different than the "
@@ -1225,13 +1156,8 @@ msgid ""
 msgstr ""
 "카메라 외의 위치에서 듣기 위해 사용할 수 있는 Listener2D와 Listener3D 노드."
 
-#, fuzzy
-msgid ""
-"Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
-msgstr ":ref:`절차적 기하 생성 <toc-procedural_geometry>`\\ 을 위한 툴."
-
 msgid "Audio input to record microphones."
-msgstr ""
+msgstr "마이크를 녹음할 수 있는 오디오 입력."
 
 msgid "MIDI input."
 msgstr "MIDI 입력."
@@ -1260,10 +1186,6 @@ msgstr ":ref:`커스텀 임포트 플러그인 <doc_import_plugins>` 지원."
 msgid "**Formats:**"
 msgstr "**형식:**"
 
-#, fuzzy
-msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr "*이미지:* :ref:`doc_import_images` 를 참고하세요."
-
 msgid "*Audio:*"
 msgstr "*오디오:*"
 
@@ -1276,36 +1198,22 @@ msgstr "Ogg Vorbis."
 msgid "MP3."
 msgstr "MP3."
 
-#, fuzzy
-msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr "*이미지:* :ref:`doc_import_images` 를 참고하세요."
-
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2.0 *(권장)*."
 
 msgid ""
 "``.blend`` (by calling Blender's glTF export functionality transparently)."
-msgstr ""
+msgstr "``.blend`` 파일 (Blender의 glTF 내보내기 기능을 투명하게 호출하여)."
 
 msgid ""
 "FBX (by calling `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ "
 "transparently)."
 msgstr ""
+"FBX 파일 (백그라운드에서 `FBX2glTF <https://github.com/godotengine/"
+"FBX2glTF>`__ 호출하여)."
 
 msgid "Collada (.dae)."
 msgstr "Collada (.dae)."
-
-#, fuzzy
-msgid ""
-"Wavefront OBJ (static scenes only, can be loaded directly as a mesh or "
-"imported as a 3D scene)."
-msgstr "Wavefront OBJ (정적 씬에서만 가능, 메시로 직접 로드할 수 있습니다)."
-
-#, fuzzy
-msgid ""
-"Support for loading glTF 2.0 scenes at run-time, including from an exported "
-"project."
-msgstr "런타임이나 에디터에서 네비게이션 메시 생성.(내보낸 프로젝트를 포함)."
 
 msgid ""
 "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
@@ -1318,14 +1226,6 @@ msgstr ""
 
 msgid "Input"
 msgstr "입력"
-
-#, fuzzy
-msgid ""
-":ref:`Input mapping system <doc_input_examples>` using hardcoded input "
-"events or remappable input actions."
-msgstr ""
-"하드코딩된 입력 이벤트 또는 다시 매핑할 수 있는 입력 액션을 이용한 입력 매핑 "
-"시스템."
 
 msgid ""
 "Axis values can be mapped to two different actions with a configurable "
@@ -1374,11 +1274,15 @@ msgstr "네비게이션"
 msgid ""
 "A* algorithm in :ref:`2D <class_AStar2D>` and :ref:`3D <class_AStar3D>`."
 msgstr ""
+"A* 알고리즘 :ref:'2D <class_AStar2D>' 및 :ref:'3D <class_AStar3D>'에서 지원."
 
 msgid ""
 "Navigation meshes with dynamic obstacle avoidance in :ref:`2D "
 "<doc_navigation_overview_2d>` and :ref:`3D <doc_navigation_overview_3d>`."
 msgstr ""
+"동적 장애물 회피 기능이 있는 네비게이션 메시 :ref:`2D "
+"<doc_navigation_overview_2d>` 및 :ref:`3D <doc_navigation_overview_3d>`에서 "
+"지원."
 
 msgid ""
 "Generate navigation meshes from the editor or at run-time (including from an "
@@ -1388,58 +1292,14 @@ msgstr "런타임이나 에디터에서 네비게이션 메시 생성.(내보낸
 msgid "Networking"
 msgstr "네트워킹(Networking)"
 
-#, fuzzy
-msgid ""
-"Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
-"`class_TCPServer`."
-msgstr "StreamPeer와 TCP_Server를 사용한 저수준 TCP 네트워킹."
-
-#, fuzzy
-msgid ""
-"Low-level UDP networking using :ref:`class_PacketPeer` and :ref:"
-"`class_UDPServer`."
-msgstr "PacketPeer와 UDPServer를 이용한 저수준 UDP 네트워킹."
-
-#, fuzzy
-msgid "Low-level HTTP requests using :ref:`class_HTTPClient`."
-msgstr "HTTPClient를 사용한 저수준 HTTP 요청."
-
-#, fuzzy
-msgid "High-level HTTP requests using :ref:`class_HTTPRequest`."
-msgstr "HTTPRequest를 사용한 고수준 HTTP 요청."
-
 msgid "Supports HTTPS out of the box using bundled certificates."
 msgstr "번들된 인증서를 사용한 HTTPS 기본 지원."
-
-#, fuzzy
-msgid ""
-":ref:`High-level multiplayer <doc_high_level_multiplayer>` API using UDP and "
-"ENet."
-msgstr "UDP와 ENet을 사용한 고수준 멀티플레이어(High level multiplayer) API."
 
 msgid "Automatic replication using remote procedure calls (RPCs)."
 msgstr "원격 프로시저 호출(RPCs)을 사용한 자동 레플리케이션."
 
 msgid "Supports unreliable, reliable and ordered transfers."
 msgstr "신뢰/비신뢰/순차적 전송 지원."
-
-#, fuzzy
-msgid ""
-":ref:`WebSocket <doc_websocket>` client and server, available on all "
-"platforms."
-msgstr "모든 플랫폼에서 WebSocket 클라이언트 및 서버 사용 가능."
-
-#, fuzzy
-msgid ""
-":ref:`WebRTC <doc_webrtc>` client and server, available on all platforms."
-msgstr "모든 플랫폼에서 WebRTC 클라이언트 및 서버 사용 가능."
-
-#, fuzzy
-msgid ""
-"Support for :ref:`UPnP <class_UPNP>` to sidestep the requirement to forward "
-"ports when hosting a server behind a NAT."
-msgstr ""
-"NAT 안에서 서버 운영시 포트 포워딩을 사용하기 위한 요구사항인 UPnP 지원."
 
 msgid "Internationalization"
 msgstr "국제화"
@@ -1454,10 +1314,6 @@ msgstr ""
 ":ref:`CSV <doc_internationalizing_games>` 또는 :ref:`gettext "
 "<doc_localization_using_gettext>`\\ 를 이용해 현지화 문자열 저장."
 
-#, fuzzy
-msgid "Support for generating gettext POT and PO files from the editor."
-msgstr "에디터에서 현재 씬을 glTF 2.0 파일로 내보내기 위한 지원"
-
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
 "using the ``tr()`` function."
@@ -1468,30 +1324,30 @@ msgstr ""
 msgid ""
 "Support for pluralization and translation contexts when using gettext "
 "translations."
-msgstr ""
+msgstr "gettext 번역을 사용할 때 복수형 처리와 번역 컨텍스트를 지원합니다."
 
 msgid ""
 "Support for :ref:`bidirectional typesetting "
 "<doc_internationalizing_games_bidi>`, text shaping and OpenType localized "
 "forms."
 msgstr ""
+":ref:`양방향 조판 <doc_internationalizing_games_bidi>`, 텍스트 쉐이핑 및 "
+"OpenType 지역화 형식을 지원합니다."
 
 msgid "Automatic UI mirroring for right-to-left locales."
-msgstr ""
+msgstr "오른쪽에서 왼쪽으로 읽는 로케일에 대한 자동 UI 미러링을 지원합니다."
 
 msgid ""
 "Support for pseudolocalization to test your project for i18n-friendliness."
 msgstr ""
+"프로젝트의 국제화(i18n) 호환성을 테스트하기 위한 의사현지화"
+"(pseudolocalization) 지원."
 
 msgid "Windowing and OS integration"
 msgstr "윈도우화 및 운영체제 통합"
 
 msgid "Spawn multiple independent windows within a single process."
-msgstr ""
-
-#, fuzzy
-msgid "Move, resize, minimize, and maximize windows spawned by the project."
-msgstr "프로젝트에서 생성한 창 이동, 크기 조정, 최소화 및 최대화."
+msgstr "단일 프로세스 내에서 여러 독립적인 창을 생성할 수 있습니다."
 
 msgid "Change the window title and icon."
 msgstr "창 제목 및 아이콘 변경."
@@ -1507,23 +1363,11 @@ msgid ""
 "Uses borderless fullscreen by default on Windows for fast alt-tabbing, but "
 "can optionally use exclusive fullscreen to reduce input lag."
 msgstr ""
-
-#, fuzzy
-msgid "Borderless windows (fullscreen or non-fullscreen)."
-msgstr "테두리 없는 창 (전체 화면 또는 창 화면)."
-
-#, fuzzy
-msgid "Ability to keep a window always on top."
-msgstr "창을 항상 앞에 두기."
+"기본적으로 Windows에서 빠른 Alt-탭 전환을 위해 경계 없는 전체 화면을 사용하지"
+"만, 선택적으로 입력 지연을 줄이기 위해 독점 전체 화면을 사용할 수 있습니다."
 
 msgid "Global menu integration on macOS."
 msgstr "macOS의 글로벌 메뉴 통합."
-
-#, fuzzy
-msgid ""
-"Execute commands in a blocking or non-blocking manner (including running "
-"multiple instances of the same project)."
-msgstr "블로킹 또는 논블로킹으로 명령 실행 가능."
 
 msgid ""
 "Open file paths and URLs using default or custom protocol handlers (if "
@@ -1541,6 +1385,10 @@ msgid ""
 "the ``--headless`` command line argument. This allows running the engine "
 "without a GPU or display server."
 msgstr ""
+"어떤 Godot 바이너리(에디터 또는 내보낸 프로젝트)도 `--headless` 명령줄 인수"
+"를 사용하여 :ref:`헤드리스 서버 <doc_exporting_for_dedicated_servers>`로 사용"
+"할 수 있습니다. 이를 통해 GPU나 디스플레이 서버 없이 엔진을 실행할 수 있습니"
+"다."
 
 msgid "Mobile"
 msgstr "모바일"
@@ -1549,6 +1397,8 @@ msgid ""
 "In-app purchases on :ref:`Android <doc_android_in_app_purchases>` and :ref:"
 "`iOS <doc_plugins_for_ios>`."
 msgstr ""
+":ref:`Android <doc_android_in_app_purchases>`와 :ref:`iOS "
+"<doc_plugins_for_ios>`에서 인앱 구매 지원."
 
 msgid "Support for advertisements using third-party modules."
 msgstr "서드파티 모듈을 사용한 광고 지원."
@@ -1557,34 +1407,24 @@ msgid "XR support (AR and VR)"
 msgstr "XR 지원 (AR 및 VR)"
 
 msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular desktop headsets like the Valve Index, WMR "
-"headsets, and Quest over Link."
-msgstr ""
-"Meta Quest나 Valve Index와 같은 유명한 기기들에 대한 지원을 포함합니다."
+msgstr "기본 제공 :ref:`OpenXR 지원 <doc_setting_up_xr>`."
 
 msgid ""
 "Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
 "OpenXR through a plugin."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
-"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
-msgstr ""
-"Meta Quest나 Valve Index와 같은 유명한 기기들에 대한 지원을 포함합니다."
+"플러그인을 통해 OpenXR을 사용하는 :ref:`안드로이드 기반 헤드셋 "
+"<doc_deploying_to_android>`에 대한 지원."
 
 msgid "Other devices supported through an XR plugin structure."
-msgstr ""
+msgstr "XR 플러그인 구조를 통해 지원되는 기타 장치."
 
 msgid ""
 "Various advanced toolkits are available that implement common features "
 "required by XR applications."
 msgstr ""
+"XR 애플리케이션에 필요한 공통 기능을 구현하는 다양한 고급 툴킷을 사용할 수 있"
+"습니다."
 
 msgid "GUI system"
 msgstr "GUI 시스템"
@@ -1611,27 +1451,15 @@ msgid ""
 "`class_TextEdit` (multiple lines). TextEdit also supports code editing "
 "features such as displaying line numbers and syntax highlighting."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Dropdown menus using :ref:`class_PopupMenu` and :ref:`class_OptionButton`."
-msgstr ""
-"팝업 메뉴(PopupMenu) 및 옵션 버튼(OptionButton)을 사용한 드롭다운(Dropdown) "
-"메뉴."
+"ref:`class_LineEdit` (한 줄) 및 :ref:`class_TextEdit`(여러 줄)을 사용하여 텍"
+"스트를 입력합니다. TextEdit는 줄 번호 표시 및 구문 강조 표시와 같은 코드 편"
+"집 기능도 지원합니다."
 
 msgid "Scrollbars."
 msgstr "스크롤바(Scrollbar)."
 
 msgid "Labels."
 msgstr "레이블(Label)."
-
-#, fuzzy
-msgid ""
-"RichTextLabel for :ref:`text formatted using BBCode "
-"<doc_bbcode_in_richtextlabel>`, with support for animated custom effects."
-msgstr ""
-":ref:`BBCode로 형식화된 텍스트 <doc_bbcode_in_richtextlabel>`\\ 를 위한 "
-"RichTextLabel."
 
 msgid "Trees (can also be used to represent tables)."
 msgstr "트리(Tree) (테이블을 표현할 때에도 사용 가능)."
@@ -1657,28 +1485,8 @@ msgstr ":ref:`String <class_String>` 레이아웃."
 msgid ":ref:`Grid <class_GridContainer>` layouts."
 msgstr ":ref:`Grid <class_GridContainer>` 레이아웃."
 
-#, fuzzy
-msgid ""
-":ref:`Flow <class_FlowContainer>` layouts (similar to autowrapping text)."
-msgstr ":ref:`String <class_String>` 레이아웃."
-
-#, fuzzy
-msgid ""
-":ref:`Margin <class_MarginContainer>`, :ref:`centered "
-"<class_CenterContainer>` and :ref:`aspect ratio "
-"<class_AspectRatioContainer>` layouts."
-msgstr ""
-":ref:`Margin <class_MarginContainer>` 및 :ref:`centered "
-"<class_CenterContainer>` 레이아웃."
-
 msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
 msgstr ":ref:`Draggable splitter <class_SplitContainer>` 레이아웃."
-
-#, fuzzy
-msgid ""
-"Scale to :ref:`multiple resolutions <doc_multiple_resolutions>` using the "
-"``canvas_items`` or ``viewport`` stretch modes."
-msgstr "``2d`` 또는 ``viewport`` 늘이기 모드를 이용한 다중 해상도 스케일."
 
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
@@ -1748,10 +1556,6 @@ msgstr "텍스트 기반 형식은 사람이 읽을 수 있고, 버전 관리 �
 msgid "Binary formats are faster to save/load for large scenes/resources."
 msgstr "바이너리 형식은 큰 씬 또는 리소스에 대해 저장과 불러오기가 빠릅니다."
 
-#, fuzzy
-msgid "Read and write text or binary files using :ref:`class_FileAccess`."
-msgstr ":ref:`class_File`\\ 을 이용해 텍스트나 바이너리 파일을 읽고 쓰기."
-
 msgid "Can optionally be compressed or encrypted."
 msgstr "압축하거나 암호화할 수 있습니다."
 
@@ -1774,6 +1578,9 @@ msgid ""
 "<doc_runtime_loading_and_saving>` in an exported project without having to "
 "go through Godot's import system."
 msgstr ""
+"Godot의 가져오기 시스템을 거치지 않고도 내보낸 프로젝트에서 :ref:`이미지, 오"
+"디오/비디오, 글꼴 및 ZIP 아카이브 를 로드하고 저장 "
+"<doc_runtime_loading_and_saving>` 합니다."
 
 msgid ""
 "Pack game data into a PCK file (custom format optimized for fast seeking), "
@@ -1797,11 +1604,14 @@ msgid ""
 ":ref:`Video playback <doc_playing_videos>` with built-in support for Ogg "
 "Theora."
 msgstr ""
+":ref:`비디오 재생 <doc_playing_videos>`이 내장되어 Ogg Theora를 지원합니다."
 
 msgid ""
 ":ref:`Movie Maker mode <doc_creating_movies>` to record videos from a "
 "running project with synchronized audio and perfect frame pacing."
 msgstr ""
+":ref:`영화 제작 모드 <doc_creating_movies>`를 사용하여 실행 중인 프로젝트에"
+"서 동기화된 오디오와 완벽한 프레임 페이싱으로 비디오를 녹화할 수 있습니다."
 
 msgid ""
 ":ref:`Low-level access to servers <doc_using_servers>` which allows "
@@ -1828,18 +1638,8 @@ msgid ""
 "Print colored text to standard output on all platforms using :ref:"
 "`print_rich <class_@GlobalScope_method_print_rich>`."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked "
-"into the engine binary."
-msgstr ""
-"엔진 바이너리와 정적으로 연결된 :ref:`C++ 모듈 <doc_custom_modules_in_c++>` "
-"지원."
-
-#, fuzzy
-msgid "Engine and editor written in C++17."
-msgstr "C++03으로 작성된 엔진과 에디터."
+"모든 플랫폼에서 :ref:`print_rich <class_@GlobalScope_method_print_rich>`를 사"
+"용하여 표준 출력에 컬러 텍스트를 출력할 수 있습니다."
 
 msgid ""
 "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, "
@@ -1860,12 +1660,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "라이선스는 MIT 라이선스입니다."
-
-#, fuzzy
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ":ref:`기여를 환영하는 <doc_ways_to_contribute>` 공개된 개발 프로세스."
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

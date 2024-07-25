@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,17 +18,6 @@ msgstr "自定义后期处理"
 msgid "Introduction"
 msgstr "前言"
 
-#, fuzzy
-msgid ""
-"Godot provides many post-processing effects out of the box, including Bloom, "
-"DOF, and SSAO, which are described in :ref:"
-"`doc_environment_and_post_processing`. However, advanced use cases may "
-"require custom effects. This article explains how to write your own custom "
-"effects."
-msgstr ""
-"Godot 提供许多开箱即用的后处理效果，包括泛光、DOF 和 SSAO。有时你想编写自己的"
-"自定义效果。下面介绍如何做到这一点。"
-
 msgid ""
 "The easiest way to implement a custom post-processing shader is to use "
 "Godot's built-in ability to read from the screen texture. If you're not "
@@ -46,36 +30,6 @@ msgstr ""
 
 msgid "Single pass post-processing"
 msgstr "单阶段后期处理"
-
-msgid ""
-"Post-processing effects are shaders applied to a frame after Godot has "
-"rendered it. To apply a shader to a frame, create a :ref:`CanvasLayer "
-"<class_CanvasLayer>`, and give it a :ref:`ColorRect <class_ColorRect>`. "
-"Assign a new :ref:`ShaderMaterial <class_ShaderMaterial>` to the newly "
-"created ``ColorRect``, and set the ``ColorRect``'s layout to \"Full Rect\"."
-msgstr ""
-
-#, fuzzy
-msgid "Your scene tree will look something like this:"
-msgstr "您的场景层次结构将如下所示："
-
-msgid ""
-"Another more efficient method is to use a :ref:`BackBufferCopy "
-"<class_BackBufferCopy>` to copy a region of the screen to a buffer and to "
-"access it in a shader script through a ``sampler2D`` using "
-"``hint_screen_texture``."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"As of the time of writing, Godot does not support rendering to multiple "
-"buffers at the same time. Your post-processing shader will not have access "
-"to other render passes and buffers not exposed by Godot (such as depth or "
-"normal/roughness). You only have access to the rendered frame and buffers "
-"exposed by Godot as samplers."
-msgstr ""
-"在撰写本文时,Godot不支持同时对多个缓冲区进行渲染. 处理之后着色器将无法访问法"
-"线或其他渲染通道. 你只能访问已渲染的帧."
 
 msgid ""
 "For this demo, we will use this :ref:`Sprite <class_Sprite2D>` of a sheep."
@@ -103,25 +57,6 @@ msgstr "小羊就会变成这样："
 
 msgid "Multi-pass post-processing"
 msgstr "多阶段后期处理"
-
-#, fuzzy
-msgid ""
-"Some post-processing effects like blurs are resource intensive. You can make "
-"them run a lot faster if you break them down in multiple passes. In a "
-"multipass material, each pass takes the result from the previous pass as an "
-"input and processes it."
-msgstr ""
-"像模糊这样的后期处理效果是资源密集型的. 但是如果您在多次通过中将它们分解, 您"
-"可以让它们运行得更快. 在多通道材质中, 每次传递都将前一次传递的结果作为输入并"
-"对其进行处理."
-
-msgid ""
-"To produce a multi-pass post-processing shader, you stack ``CanvasLayer`` "
-"and ``ColorRect`` nodes. In the example above, you use a ``CanvasLayer`` "
-"object to render a shader using the frame on the layer below. Apart from the "
-"node structure, the steps are the same as with the single-pass post-"
-"processing shader."
-msgstr ""
 
 msgid ""
 "As an example, you could write a full screen Gaussian blur effect by "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,32 +18,10 @@ msgstr "Exportando escenas 3D"
 msgid "Overview"
 msgstr "Sinopsis"
 
-#, fuzzy
-msgid ""
-"In Godot, it is possible to export 3D scenes as a glTF 2.0 file. You can "
-"export as a glTF binary (``.glb`` file) or glTF embedded with textures "
-"(``gltf`` + ``.bin`` + textures). This allows you to create scenes in Godot, "
-"such as a CSG mesh blockout for a level, export it to clean it up in a "
-"program such as Blender, and then bring it back into Godot."
-msgstr ""
-"En Godot es posible exportar escenas 3D como archivos glTF 2.0. Puedes "
-"exportarlos como un archivo binario glTF (``.glb``) o como glTF incrustado "
-"con texturas (``gltf`` + ``.bin`` + texturas). Esto te permite crear escenas "
-"en Godot, como un bloqueo de malla CSG para un nivel, exportarlo para "
-"editarlo en un programa como Blender, y luego volver a importarlo en Godot."
-
 msgid "Only Blender 2.83 and newer can import glTF files exported by Godot."
 msgstr ""
 "Solo Blender 2.83 y versiones más recientes pueden importar archivos glTF "
 "exportados por Godot."
-
-#, fuzzy
-msgid ""
-"To export a scene in the editor go to **Scene > Export As... > glTF 2.0 "
-"Scene...**"
-msgstr ""
-"Para exportar una escena en el editor, ve a **Proyecto > Herramientas > "
-"Exportar GLTF...**"
 
 msgid "Limitations"
 msgstr "Limitaciones"
@@ -68,12 +41,6 @@ msgstr "No es posible exportar ShaderMaterials."
 
 msgid "No support for exporting 2D scenes."
 msgstr "Sin soporte para exportar escenas 2D."
-
-msgid ""
-"3D scenes can be saved at runtime using :ref:`runtime file loading and "
-"saving <doc_runtime_file_loading_and_saving_3d_scenes>`, including from an "
-"exported project."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

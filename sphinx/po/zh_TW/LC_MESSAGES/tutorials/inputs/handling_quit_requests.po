@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,17 +17,6 @@ msgstr "處理退出請求"
 
 msgid "Quitting"
 msgstr "退出"
-
-#, fuzzy
-msgid ""
-"Most platforms have the option to request the application to quit. On "
-"desktops, this is usually done with the \"x\" icon on the window title bar. "
-"On mobile devices, the app can quit at any time while it is suspended to the "
-"background."
-msgstr ""
-"大多數平臺都有要求應用程式退出的選項。在桌面系統中，這通常是通過視窗標題列上"
-"的“x”圖示來實作的。在 Android 系統上，當在主螢幕上時，後退按鈕被用來退出（否"
-"則就返回）。"
 
 msgid "Handling the notification"
 msgstr "處理通知"
@@ -55,31 +39,6 @@ msgid ""
 msgstr ""
 "值得注意的是, 預設情況下, 在請求退出時,Godot應用程式具有退出的內建行為, 可以"
 "更改為:"
-
-#, fuzzy
-msgid "On mobile devices"
-msgstr "在行動平台上"
-
-msgid ""
-"There is no direct equivalent to ``NOTIFICATION_WM_CLOSE_REQUEST`` on mobile "
-"platforms. Due to the nature of mobile operating systems, the only place "
-"that you can run code prior to quitting is when the app is being suspended "
-"to the background. On both Android and iOS, the app can be killed while "
-"suspended at any time by either the user or the OS. A way to plan ahead for "
-"this possibility is to utilize ``NOTIFICATION_APPLICATION_PAUSED`` in order "
-"to perform any needed actions as the app is being suspended."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"On Android, pressing the Back button will exit the application if "
-"**Application > Config > Quit** On Go Back is checked in the Project "
-"Settings (which is the default). This will fire "
-"``NOTIFICATION_WM_GO_BACK_REQUEST``."
-msgstr ""
-"在Android系統中, 會發送 ``MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST`` 代替. 如"
-"果在專案設定中勾選了 **Application > Config > Quit On Go Back** (預設), 按"
-"Back按鈕將退出應用程式."
 
 msgid "Sending your own quit notification"
 msgstr "Godot 通知"

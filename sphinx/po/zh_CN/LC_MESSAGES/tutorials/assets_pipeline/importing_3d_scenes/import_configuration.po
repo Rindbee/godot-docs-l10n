@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,15 +83,6 @@ msgid ""
 msgstr ""
 "在文件系统面板中双击 3D 场景，或者在带入面板中点击**高级**按钮，就可以打开**"
 "高级导入设置**对话框。在这里你可以直接在 Godot 中对每个物体进行定制。"
-
-#, fuzzy
-msgid ""
-":ref:`Import hints <doc_importing_3d_scenes_node_type_customization>`, which "
-"are special suffixes added to object names in the 3D modeling software. This "
-"allows you to customize per-object options in the 3D modeling software."
-msgstr ""
-":ref:`导入提示 <doc_importing_3d_scenes_import_hints>`\\ 是添加到 3D 建模软件"
-"中的对象名称的特殊后缀，它可以允许你在 3D 建模软件中自定义每个对象的选项。"
 
 msgid ""
 "For basic customization, using the Import dock suffices. However, for more "
@@ -467,21 +453,6 @@ msgstr ""
 "制用于凸面分解的精度。数值越高，碰撞的细节越多，但生成速度会变慢，物理模拟时"
 "的 CPU 占用率也会增加，为提高性能，建议在使用时尽可能降低该值。"
 
-#, fuzzy
-msgid ""
-"**Occluder > Simplification Distance:** Only visible if **Generate > "
-"Occluder** is set to **Mesh + Occluder** or **Occluder Only**. Higher values "
-"result in an occluder mesh with fewer vertices (resulting in decreased CPU "
-"utilization), at the cost of more occlusion culling issues (such as false "
-"positives or false negatives). If you run into objects disappearing when "
-"they shouldn't when the camera is near a certain mesh, try decreasing this "
-"value."
-msgstr ""
-"**遮挡器 > 化简距离：** 仅当 **生成 > 遮挡器** 设置为 **Mesh + Occluder** 或 "
-"**Occluder Only** 时可见。数值越大，遮挡网格的顶点越少（从而降低 CPU 利用"
-"率），但代价是会出现更多遮挡剔除问题（如误报或漏报）。如果你发现当摄像机靠近"
-"某个网格时，物体在不该消失的时候消失了，请尝试减小该值。"
-
 msgid "**Configuring mesh and material import options**"
 msgstr "**配置网格和材质导入选项**"
 
@@ -743,6 +714,7 @@ msgid ""
 "To use your script, locate the script in the import tab's \"Path\" option "
 "under the \"Import Script\" category."
 msgstr ""
+"要使用你的脚本，请在导入选项卡的“导入脚本”类别下的“路径”选项中找到该脚本。"
 
 msgid "Using animation libraries"
 msgstr "使用动画库"

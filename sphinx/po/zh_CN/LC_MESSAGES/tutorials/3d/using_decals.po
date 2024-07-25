@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,10 +358,6 @@ msgstr ""
 "不接收贴花。 这个功能特别有用，你可以确保动态对象不会意外收到针对其下方地形的"
 "贴花。"
 
-#, fuzzy
-msgid "Decal rendering order"
-msgstr "内部渲染架构"
-
 msgid ""
 "By default, decals are ordered based on the size of their :abbr:`AABB (Axis-"
 "Aligned Bounding Box)` and the distance to the camera. AABBs that are closer "
@@ -374,6 +365,9 @@ msgid ""
 "sometimes appear to change depending on camera position if some decals are "
 "positioned at the same location."
 msgstr ""
+"默认情况下，贴花的渲染顺序是基于他们的:abbr:`AABB (Axis-Aligned Bounding "
+"Box)` 和相机的距离排序的。距离相机更近的AABB会优先被渲染，这意味着如果有些贴"
+"花处于相同的位置，那贴花的渲染顺序有时会随相机位置的变化而变化。"
 
 msgid ""
 "To resolve this, you can adjust the **Sorting Offset** property in the "
@@ -383,6 +377,10 @@ msgid ""
 "will *always* result in the decal being drawn above other decals with a "
 "lower sorting offset."
 msgstr ""
+"为解决贴花重叠导致的闪烁问题，你可以调整贴花Node检查器下的VisualInstance3D中"
+"的**Sorting Offset**属性。这个offset不是一个严格的优先级排序，而是一个*准则"
+"*，虽然渲染器会依据该准则决定渲染顺序，但贴花排序方式仍会受到AABB大小的影响。"
+"因此，offset值更高的贴花*总是*会被绘制在offset值更低的贴花上。"
 
 msgid ""
 "If you want to ensure a decal is always rendered on top of other decals, you "
@@ -391,9 +389,12 @@ msgid ""
 "drawn behind other decals instead, set the **Sorting Offset** to the same "
 "negative value."
 msgstr ""
+"如果你想让某个贴花总是渲染在其他贴花上，你需要将该贴花的**Sorting Offset**属"
+"性设置成正值，该值要大于可能与其重叠的其他最大贴花的AABB长度。相反，如果想让"
+"该贴花绘制在其他贴花后，将**Sorting Offset**设置为负值即可。"
 
 msgid "VisualInstance3D Sorting Offset comparison on Decals"
-msgstr ""
+msgstr "不同VisualInstance3D Sorting Offset的贴花相比较"
 
 msgid "Tweaking performance and quality"
 msgstr "调整性能和质量"

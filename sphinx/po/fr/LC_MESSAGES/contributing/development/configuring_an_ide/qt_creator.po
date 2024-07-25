@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,22 +112,6 @@ msgstr "Débogage du projet"
 msgid "From the left-side menu select **Projects** and open the **Run** tab."
 msgstr ""
 "Dans le menu de gauche, sélectionnez **Projects** et ouvrez l'onglet **Run**."
-
-#, fuzzy
-msgid ""
-"Under **Executable** specify the path to your executable located in the "
-"``<Godot root directory>/bin`` folder. The name depends on your build "
-"configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD "
-"platform with ``platform=editor`` and ``dev_build=yes``. You can use "
-"``%{buildDir}`` to reference the project root, e.g: ``%{buildDir}/bin/godot."
-"linuxbsd.editor.dev.x86_64``."
-msgstr ""
-"Sous **Executable**, indiquez le chemin d'accès à votre exécutable situé "
-"dans le dossier ``<Godot root directory>/bin``. Le nom dépend de votre "
-"configuration de compilation, par exemple ``godot.x11.tools.64`` pour une "
-"plate-forme X11 64 bits avec ``tools`` activé. Vous pouvez utiliser "
-"``%{buildDir}`` pour faire référence à la racine du projet, par exemple : "
-"``%{buildDir}/bin/godot.x11.opt.tools.64``."
 
 msgid ""
 "If you want to run a specific project, specify its root folder under "

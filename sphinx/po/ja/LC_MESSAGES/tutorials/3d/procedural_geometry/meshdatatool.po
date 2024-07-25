@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +14,6 @@ msgstr ""
 
 msgid "Using the MeshDataTool"
 msgstr "MeshDataToolの使用"
-
-#, fuzzy
-msgid ""
-"The :ref:`MeshDataTool <class_meshdatatool>` is not used to generate "
-"geometry. But it is helpful for dynamically altering geometry, for example "
-"if you want to write a script to tessellate, simplify, or deform meshes."
-msgstr ""
-"MeshDataToolは、ジオメトリの生成には使用されません。ただし、たとえば、メッ"
-"シュをテッセレーション、単純化、または変形するスクリプトを作成する場合など、"
-"ジオメトリを動的に変更する場合に役立ちます。"
 
 msgid ""
 "The MeshDataTool is not as fast as altering arrays directly using ArrayMesh. "
@@ -51,35 +36,6 @@ msgstr ""
 "MeshDataToolは、PrimitiveType ``Mesh.PRIMITIVE_TRIANGLES`` を使用するメッシュ"
 "でのみ使用できます。"
 
-#, fuzzy
-msgid ""
-"We initialize the MeshDataTool from an ArrayMesh by calling "
-"``create_from_surface()``. If there is already data initialized in the "
-"MeshDataTool, calling ``create_from_surface()`` will clear it for you. "
-"Alternatively, you can call ``clear()`` yourself before re-using the "
-"MeshDataTool."
-msgstr ""
-"メッシュが ``mesh`` という名前のArrayMeshに保存されていると仮定します。次"
-"に、\\ ``create_from_surface()`` を呼び出して、\\ ``mesh`` からMeshDataToolを"
-"初期化します。 MeshDataToolで初期化されたデータが既にある場合、\\ "
-"``create_from_surface()`` を呼び出すとデータがクリアされます。または、"
-"MeshDataToolを再利用する前に、自分で `` clear()`` を呼び出すことができます"
-
-msgid ""
-"In the examples below, assume an ArrayMesh called ``mesh`` has already been "
-"created. See :ref:`ArrayMesh tutorial <doc_arraymesh>` for an example of "
-"mesh generation."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"``create_from_surface()`` uses the vertex arrays from the ArrayMesh to "
-"calculate two additional arrays, one for edges and one for faces, for a "
-"total of three arrays."
-msgstr ""
-"``create_from_surface()`` は、ArrayMeshの頂点配列を使用して、エッジ用と面用の"
-"2つの追加配列を計算します。"
-
 msgid ""
 "An edge is a connection between any two vertices. Each edge in the edge "
 "array contains a reference to the two vertices it is composed of, and up to "
@@ -87,23 +43,6 @@ msgid ""
 msgstr ""
 "エッジは、任意の2つの頂点間の接続です。エッジ配列の各エッジには、それが構成す"
 "る2つの頂点への参照と、それが含まれる最大2つの面が含まれます。"
-
-#, fuzzy
-msgid ""
-"A face is a triangle made up of three vertices and three corresponding "
-"edges. Each face in the face array contains a reference to the three "
-"vertices and three edges it is composed of."
-msgstr ""
-"面は、3つの頂点と3つの対応するエッジで構成される三角形です。面配列の各面に"
-"は、3つの三角形とそれが構成される3つのエッジへの参照が含まれています。"
-
-#, fuzzy
-msgid ""
-"The vertex array contains edge, face, normal, color, tangent, uv, uv2, bone, "
-"and weight information connected with each vertex."
-msgstr ""
-"頂点配列には、各頂点に接続されたエッジ、面、法線、色、接線、uv、uv2、ボーン、"
-"およびウェイト情報が含まれます。"
 
 msgid ""
 "To access information from these arrays you use a function of the form "
@@ -118,24 +57,6 @@ msgid ""
 msgstr ""
 "これらの関数で何をするかはあなた次第です。一般的な使用例は、すべての頂点を反"
 "復処理し、何らかの方法で変換することです。"
-
-#, fuzzy
-msgid ""
-"These modifications are not done in place on the ArrayMesh. If you are "
-"dynamically updating an existing ArrayMesh, first delete the existing "
-"surface before adding a new one using :ref:`commit_to_surface() "
-"<class_meshdatatool_method_commit_to_surface>`:"
-msgstr ""
-"最後に、\\ ``commit_to_surface()`` はArrayMeshに新しいサーフェスを追加しま"
-"す。したがって、既存のArrayMeshを動的に更新する場合は、新しいサーフェスを追加"
-"する前に既存のサーフェスを削除してください。"
-
-msgid ""
-"Below is a complete example that turns a spherical mesh called ``mesh`` into "
-"a randomly deformed blob complete with updated normals and vertex colors. "
-"See :ref:`ArrayMesh tutorial <doc_arraymesh>` for how to generate the base "
-"mesh."
-msgstr ""
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

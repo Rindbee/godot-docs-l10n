@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,21 +14,6 @@ msgstr ""
 
 msgid "Running code in the editor"
 msgstr "Ejecutando código en el editor"
-
-#, fuzzy
-msgid "What is ``@tool``?"
-msgstr "¿Qué es ``tool``?"
-
-#, fuzzy
-msgid ""
-"``@tool`` is a powerful line of code that, when added at the top of your "
-"script, makes it execute in the editor. You can also decide which parts of "
-"the script execute in the editor, which in game, and which in both."
-msgstr ""
-"``tool`` es una poderosa línea de código que, cuando se agrega en la parte "
-"superior de tu script, hace que se ejecute en el editor. También puedes "
-"decidir qué partes del script se ejecutan en el editor, cuáles en el juego y "
-"cuáles en ambos."
 
 msgid ""
 "You can use it for doing many things, but it is mostly useful in level "
@@ -70,45 +50,6 @@ msgstr ""
 "código, puedes hacer que ese código de dibujo se ejecute en el editor para "
 "ver a tu jugador."
 
-#, fuzzy
-msgid ""
-"``@tool`` scripts run inside the editor, and let you access the scene tree "
-"of the currently edited scene. This is a powerful feature which also comes "
-"with caveats, as the editor does not include protections for potential "
-"misuse of ``@tool`` scripts. Be **extremely** cautious when manipulating the "
-"scene tree, especially via :ref:`Node."
-"queue_free<class_Node_method_queue_free>`, as it can cause crashes if you "
-"free a node while the editor runs logic involving it."
-msgstr ""
-"Los scripts con ``tool`` se ejecutan dentro del editor y te permiten acceder "
-"al árbol de escena de la escena que se está editando actualmente. Esta es "
-"una característica poderosa que también viene con advertencias, ya que el "
-"editor no incluye protecciones contra un posible mal uso de los scripts con "
-"``tool``. Sé **extremadamente** cauteloso al manipular el árbol de escena, "
-"especialmente mediante :ref:`Node.queue_free<class_Node_method_queue_free>`, "
-"ya que puede causar bloqueos si liberar un nodo mientras el editor está "
-"ejecutando lógica que involucra a ese nodo."
-
-#, fuzzy
-msgid "How to use ``@tool``"
-msgstr "Cómo usarlo"
-
-#, fuzzy
-msgid ""
-"To turn a script into a tool, add the ``@tool`` annotation at the top of "
-"your code."
-msgstr ""
-"Para convertir un script en una herramienta (tool), agrega la palabra clave "
-"``tool`` en la parte superior de tu código."
-
-#, fuzzy
-msgid ""
-"To check if you are currently in the editor, use: ``Engine."
-"is_editor_hint()``."
-msgstr ""
-"Para verificar si actualmente te encuentras en el editor, utiliza: ``Engine."
-"editor_hint``."
-
 msgid "For example, if you want to execute some code only in the editor, use:"
 msgstr "Por ejemplo, si desea ejecutar algún código solo en el editor, use:"
 
@@ -119,58 +60,8 @@ msgstr ""
 "Por otro lado, si desea ejecutar código solo en el juego, simplemente niegue "
 "la misma declaración:"
 
-#, fuzzy
-msgid ""
-"Pieces of code that do not have either of the 2 conditions above will run "
-"both in-editor and in-game."
-msgstr ""
-"Los fragmentos de código que no tienen ninguna de las 2 condiciones "
-"mencionadas anteriormente se ejecutarán tanto en el editor como en el juego."
-
 msgid "Here is how a ``_process()`` function might look for you:"
 msgstr "Aquí tienes cómo podría lucir una función ``_process()`` para ti:"
-
-#, fuzzy
-msgid "Important information"
-msgstr "Más información"
-
-#, fuzzy
-msgid ""
-"Any other GDScript that your tool script uses must *also* be a tool. Any "
-"GDScript without ``@tool`` used by the editor will act like an empty file!"
-msgstr ""
-"Además del script EditorPlugin, cualquier otro script que use tu plugin debe "
-"ser *también* una herramienta. ¡Cualquier GDScript sin ``tool`` importado en "
-"el editor actuará como un archivo vacío!"
-
-msgid ""
-"Extending a ``@tool`` script does not automatically make the extending "
-"script a ``@tool``. Omitting ``@tool`` from the extending script will "
-"disable tool behavior from the super class. Therefore the extending script "
-"should also specify the ``@tool`` annotation."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Modifications in the editor are permanent. For example, in the next section "
-"when we remove the script, the node will keep its rotation. Be careful to "
-"avoid making unwanted modifications."
-msgstr ""
-"Las modificaciones realizadas en el editor son permanentes. Por ejemplo, en "
-"el siguiente caso, cuando eliminamos el script, el nodo mantendrá su "
-"rotación. Ten cuidado de evitar realizar modificaciones no deseadas."
-
-#, fuzzy
-msgid "Try ``@tool`` out"
-msgstr "Pruebalo"
-
-#, fuzzy
-msgid ""
-"Add a ``Sprite2D`` node to your scene and set the texture to Godot icon. "
-"Attach and open a script, and change it to this:"
-msgstr ""
-"Agrega un nodo ``Sprite`` a tu escena y establece la textura como el ícono "
-"de Godot. Adjunta y abre un script, y cámbialo a esto:"
 
 msgid ""
 "Save the script and return to the editor. You should now see your object "
@@ -201,152 +92,6 @@ msgstr ""
 msgid "Editing variables"
 msgstr "Editando variables"
 
-#, fuzzy
-msgid ""
-"Add and export a variable speed to the script. To update the speed and also "
-"reset the rotation angle add a setter ``set(new_speed)`` which is executed "
-"with the input from the inspector. Modify ``_process()`` to include the "
-"rotation speed."
-msgstr ""
-"Agrega y exporta una variable `speed` al script. La función `set_speed` "
-"después de \"setget\" se ejecutará con tu entrada para cambiar la variable. "
-"Modifica la función ``_process()`` para incluir la velocidad de rotación."
-
-#, fuzzy
-msgid ""
-"Code from other nodes doesn't run in the editor. Your access to other nodes "
-"is limited. You can access the tree and nodes, and their default properties, "
-"but you can't access user variables. If you want to do so, other nodes have "
-"to run in the editor too. Autoload nodes cannot be accessed in the editor at "
-"all."
-msgstr ""
-"El código de otros nodos no se ejecuta en el editor. Tu acceso a otros nodos "
-"está limitado. Puedes acceder al árbol y a los nodos, así como a sus "
-"propiedades predeterminadas, pero no puedes acceder a las variables de "
-"usuario. Si deseas hacerlo, otros nodos también deben ejecutarse en el "
-"editor. Los nodos AutoLoad no pueden ser accedidos en el editor en absoluto."
-
-#, fuzzy
-msgid "Getting notified when resources change"
-msgstr "Consiguiendo el código fuente"
-
-msgid ""
-"Some times you want your tool to use a resource. However, when you change a "
-"property of that resource in the editor, the ``set()`` method of your tool "
-"will not be called."
-msgstr ""
-
-msgid ""
-"To get around this problem you first have to make your resource a tool and "
-"make it emit the ``changed`` signal whenever a property is set:"
-msgstr ""
-
-msgid "You then want to connect the signal when a new resource is set:"
-msgstr ""
-
-msgid ""
-"Lastly, remember to disconnect the signal as the old resource being used and "
-"changed somewhere else would cause unneeded updates."
-msgstr ""
-
-#, fuzzy
-msgid "Reporting node configuration warnings"
-msgstr "Configuración del Motor"
-
-msgid ""
-"Godot uses a *node configuration warning* system to warn users about "
-"incorrectly configured nodes. When a node isn't configured correctly, a "
-"yellow warning sign appears next to the node's name in the Scene dock. When "
-"you hover or click on the icon, a warning message pops up. You can use this "
-"feature in your scripts to help you and your team avoid mistakes when "
-"setting up scenes."
-msgstr ""
-
-msgid ""
-"When using node configuration warnings, when any value that should affect or "
-"remove the warning changes, you need to call :ref:"
-"`update_configuration_warnings<class_Node_method_update_configuration_warnings>` . "
-"By default, the warning only updates when closing and reopening the scene."
-msgstr ""
-
-msgid "Running one-off scripts using EditorScript"
-msgstr ""
-
-msgid ""
-"Sometimes, you need to run code just one time to automate a certain task "
-"that is not available in the editor out of the box. Some examples might be:"
-msgstr ""
-
-msgid ""
-"Use as a playground for GDScript or C# scripting without having to run a "
-"project. ``print()`` output is displayed in the editor Output panel."
-msgstr ""
-
-msgid ""
-"Scale all light nodes in the currently edited scene, as you noticed your "
-"level ends up looking too dark or too bright after placing lights where "
-"desired."
-msgstr ""
-
-msgid ""
-"Replace nodes that were copy-pasted with scene instances to make them easier "
-"to modify later."
-msgstr ""
-
-msgid ""
-"This is available in Godot by extending :ref:`class_EditorScript` in a "
-"script. This provides a way to run individual scripts in the editor without "
-"having to create an editor plugin."
-msgstr ""
-
-msgid ""
-"To create an EditorScript, right-click a folder or empty space in the "
-"FileSystem dock then choose **New > Script...**. In the script creation "
-"dialog, click the tree icon to choose an object to extend from (or enter "
-"``EditorScript`` directly in the field on the left, though note this is case-"
-"sensitive):"
-msgstr ""
-
-#, fuzzy
-msgid "Creating an editor script in the script editor creation dialog"
-msgstr "Interactuar con el inspector"
-
-msgid ""
-"This will automatically select a script template that is suited for "
-"EditorScripts, with a ``_run()`` method already inserted:"
-msgstr ""
-
-msgid ""
-"This ``_run()`` method is executed when you use **File > Run** or the "
-"keyboard shortcut :kbd:`Ctrl + Shift + X` while the EditorScript is the "
-"currently open script in the script editor. This keyboard shortcut is only "
-"effective when currently focused on the script editor."
-msgstr ""
-
-msgid "Scripts that extend EditorScript must be ``@tool`` scripts to function."
-msgstr ""
-
-msgid ""
-"EditorScripts have no undo/redo functionality, so **make sure to save your "
-"scene before running one** if the script is designed to modify any data."
-msgstr ""
-
-msgid ""
-"To access nodes in the currently edited scene, use the :ref:`EditorScript."
-"get_scene <class_EditorScript_method_get_scene>` method which returns the "
-"root Node of the currently edited scene. Here's an example that recursively "
-"gets all nodes in the currently edited scene and doubles the range of all "
-"OmniLight3D nodes:"
-msgstr ""
-
-msgid ""
-"You can change the currently edited scene at the top of the editor even "
-"while the Script view is open. This will affect the return value of :ref:"
-"`EditorScript.get_scene <class_EditorScript_method_get_scene>`, so make sure "
-"you've selected the scene you intend to iterate upon before running the "
-"script."
-msgstr ""
-
 msgid "Instancing scenes"
 msgstr "Instanciación de escenas"
 
@@ -369,25 +114,8 @@ msgstr ""
 "<class_Node_property_owner>` del nodo hijo en el nodo raíz de la escena que "
 "está siendo editada actualmente."
 
-#, fuzzy
-msgid "If you are using ``@tool``:"
-msgstr "Si usted está usando ``tool``:"
-
 msgid "If you are using :ref:`EditorScript<class_EditorScript>`:"
 msgstr "Si estás usando :ref:`EditorScript<class_EditorScript>`:"
-
-#, fuzzy
-msgid ""
-"Using ``@tool`` improperly can yield many errors. It is advised to first "
-"write the code how you want it, and only then add the ``@tool`` annotation "
-"to the top. Also, make sure to separate code that runs in-editor from code "
-"that runs in-game. This way, you can find bugs more easily."
-msgstr ""
-"Usar ``tool`` de manera inapropiada puede generar muchos errores. Se "
-"recomienda primero escribir el código como se desea y luego agregar la "
-"palabra clave ``tool`` en la parte superior. Además, asegúrate de separar el "
-"código que se ejecuta en el editor del código que se ejecuta en el juego. De "
-"esta manera, puedes encontrar errores más fácilmente."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,57 +29,11 @@ msgstr ""
 "Para uma descrição mais detalhada da interface do editor e como utilizá-la, "
 "veja o :ref:`Manual do editor <toc-learn-editor>`."
 
-#, fuzzy
-msgid "The Project Manager"
-msgstr "O Gerenciador de Projetos"
-
-#, fuzzy
-msgid ""
-"When you launch Godot, the first window you see is the Project Manager. In "
-"the default tab **Local Projects**, you can manage existing projects, import "
-"or create new ones, and more."
-msgstr ""
-"Quando você inicia o Godot, a primeira janela que você vê é o Gerenciador de "
-"Projetos. Na guia padrão, \"Projetos Locais\", você pode gerenciar projetos "
-"existentes, importar ou criar novos e muito mais."
-
-msgid ""
-"At the top of the window, there is another tab named \"Asset Library "
-"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
-"button. For privacy reasons the Godot project manager does not access the "
-"internet by default. To change this click the \"Go Online button\", if you "
-"want to change your network mode back to \"offline\" you can do so from the "
-"project manager settings."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-"No topo da janela, há outra aba com o nome \"Projetos da Biblioteca de "
-"Recursos\". Na biblioteca de recursos de código aberto, você pode procurar "
-"por projetos de demonstração, modelos, e projetos finalizados, incluindo "
-"muitos que foram feitos pela comunidade."
-
 msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr ""
 "Para aprender os mecanismos do Gerenciador de Projetos, leai :ref: "
 "``doc_project_manager`."
-
-#, fuzzy
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr ""
-"Você pode desativar linhas seguras ou alterar suas cores nas configurações "
-"do editor."
-
-msgid ""
-"From here use the language drop down menu to select your language. By "
-"default, it is in English (EN)."
-msgstr ""
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -124,14 +73,6 @@ msgstr ""
 
 msgid "Below is the 3D one."
 msgstr "Abaixo sua versão 3D."
-
-#, fuzzy
-msgid ""
-"Let's look at the docks. The **FileSystem** dock lists your project files, "
-"including scripts, images, audio samples, and more."
-msgstr ""
-"Vamos dar uma olhada nos painéis. O painel **Arquivos** lista seus arquivos "
-"de projeto, sejam eles códigos, imagens, áudios, entre outros."
 
 msgid "The **Scene** dock lists the active scene's nodes."
 msgstr "O painel **Cena** lista os nós da cena ativa."
@@ -201,14 +142,6 @@ msgstr ""
 "A **tela Script** é um editor de código completo com um depurador, "
 "preenchimento automático avançado e referência de código integrada."
 
-#, fuzzy
-msgid ""
-"Finally, the **AssetLib** is a library of free and open source add-ons, "
-"scripts, and assets to use in your projects."
-msgstr ""
-"Finalmente, o **AssetLib** é uma biblioteca de add-ons, scripts e assets "
-"gratuitos e de código aberto para usar nos seus projetos."
-
 msgid ""
 "You can learn more about the asset library in :ref:`doc_what_is_assetlib`."
 msgstr ""
@@ -228,14 +161,6 @@ msgstr ""
 "Você pode procurar informações sobre uma classe, método, propriedade, ou "
 "sinal usando qualquer um dos métodos seguintes:"
 
-#, fuzzy
-msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr ""
-"Pressionando :kbd:`F1` (ou :kbd:`Alt + Space` no macOS) em qualquer lugar no "
-"editor."
-
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
@@ -245,13 +170,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "Clicando no menu de Ajuda e Pequisar Ajuda."
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"Clicar enquanto pressiona a tecla :kbd:`Ctrl` em um nome de classe, nome de "
-"função ou variável incorporada no editor de script."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

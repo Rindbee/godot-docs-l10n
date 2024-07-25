@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,18 +32,6 @@ msgstr ""
 "строки), за винятком того, що вони містять певні послідовності символів-"
 "заповнювачів. Ці заповнювачі потім можуть бути легко замінені параметрами, "
 "переданими до форматованого тексту."
-
-#, fuzzy
-msgid ""
-"As an example, with ``%s`` as a placeholder, the format string ``\"Hello %s, "
-"how are you?\"`` can easily be changed to ``\"Hello World, how are you?\"``. "
-"Notice the placeholder is in the middle of the string; modifying it without "
-"format strings could be cumbersome."
-msgstr ""
-"Наприклад, за допомогою заповнювача ``%s``, форматований текст ``\"Hello %s, "
-"how are you?`` може бути легко змінений на ``\"Hello World, how are you?"
-"\"``. Зауважте, що заповнювач знаходиться посередині текста; модифікація "
-"його без форматованого тексту може бути громіздкою."
 
 msgid "Usage in GDScript"
 msgstr "Використання в GDScript"
@@ -196,34 +179,14 @@ msgstr ""
 msgid "``x``"
 msgstr "``x``"
 
-msgid ""
-"A **hexadecimal integral** number with **lower-case** letters. Expects an "
-"integral or real number (will be floored)."
-msgstr ""
-
 msgid "``X``"
 msgstr "``X``"
-
-msgid ""
-"A **hexadecimal integral** number with **upper-case** letters. Expects an "
-"integral or real number (will be floored)."
-msgstr ""
 
 msgid "``f``"
 msgstr "``f``"
 
 msgid "A **decimal real** number. Expects an integral or real number."
 msgstr "**Десяткове дійсне** число. Очікує ціле, чи дійсне, число."
-
-msgid "``v``"
-msgstr ""
-
-msgid ""
-"A **vector**. Expects any float or int-based vector object ( ``Vector2``, "
-"``Vector3``, ``Vector4``, ``Vector2i``, ``Vector3i`` or ``Vector4i``). Will "
-"display the vector coordinates in parentheses, formatting each coordinate as "
-"if it was an ``%f``, and using the same modifiers."
-msgstr ""
 
 msgid "Placeholder modifiers"
 msgstr "Модифікатори заповнювачів"
@@ -245,26 +208,8 @@ msgstr ""
 msgid "Integer"
 msgstr "Integer (ціле)"
 
-#, fuzzy
-msgid ""
-"Set **padding**. Padded with spaces or with zeroes if integer starts with "
-"``0`` in an integer or real number placeholder. The leading ``0`` is ignored "
-"if ``-`` is present. When used after ``.``, see ``.``."
-msgstr ""
-"Встановити **заповнювачі**. Заповнені пробілами, або нулями, якщо ціле число "
-"починається з ``0`` в цілочисельному заповнювачі. При використанні після ``."
-"``, дивіться ``.``."
-
 msgid "``.``"
 msgstr "``.``"
-
-#, fuzzy
-msgid ""
-"Before ``f`` or ``v``, set **precision** to 0 decimal places. Can be "
-"followed up with numbers to change. Padded with zeroes."
-msgstr ""
-"Перед ``f`` встановіть **точність** (precision) на 0 знаків після коми. "
-"Можна змінити числа в подальшому. Заповнені нулями."
 
 msgid "``-``"
 msgstr "``-``"

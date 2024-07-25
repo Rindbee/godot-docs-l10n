@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -274,14 +269,6 @@ msgstr ""
 "`VisibleOnScreenNotifier3D <class_VisibleOnScreenNotifier3D>` 節點的 "
 "``screen_exited`` 訊號連接到 ``Mob`` 上。"
 
-#, fuzzy
-msgid ""
-"Head back to the 3D viewport by clicking on the *3D* label at the top of the "
-"editor. You can also press :kbd:`Ctrl + F2` (:kbd:`Opt + 2` on macOS)."
-msgstr ""
-"按一下編輯器頂部的 *3D* 標籤回到 3D 視口。你也可以按 :kbd:`Ctrl + F2`（macOS "
-"上則是 :kbd:`Alt + 2`）。"
-
 msgid "|image8|"
 msgstr "|image8|"
 
@@ -312,24 +299,10 @@ msgstr "|image10|"
 msgid "image10"
 msgstr "image10"
 
-#, fuzzy
-msgid ""
-"This will add a new function for you in your mob script, "
-"``_on_visible_on_screen_notifier_3d_screen_exited()``. From it, call the "
-"``queue_free()`` method. This function destroys the instance it's called on."
-msgstr ""
-"這樣你就會被帶回到腳本編輯器，並且幫你新增了一個新的函式 "
-"``_on_visible_on_screen_notifier_3d_screen_exited()``。請在裡面呼叫 "
-"``queue_free()`` 方法。這樣 :ref:`VisibleOnScreenNotifier3D "
-"<class_VisibleOnScreenNotifier3D>` 的框離開螢幕時就會將小怪的實例銷毀。"
-
 msgid ""
 "Our monster is ready to enter the game! In the next part, you will spawn "
 "monsters in the game level."
 msgstr "我們的怪物已經準備好進入遊戲了！在下一部分，你將在遊戲關卡中生成怪物。"
-
-msgid "Here is the complete ``Mob.gd`` script for reference."
-msgstr "這是僅供參考的完整 ``Mob.gd`` 腳本。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

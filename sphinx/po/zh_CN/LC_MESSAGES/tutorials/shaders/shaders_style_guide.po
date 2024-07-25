@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,18 +23,6 @@ msgid ""
 msgstr ""
 "本风格指南列出了编写优雅着色器的规范。其目的是鼓励编写干净、可读的代码，并促"
 "进各项目、讨论和教程的一致性。希望这也能支持自动格式化工具的发展。"
-
-#, fuzzy
-msgid ""
-"Since the Godot shader language is close to C-style languages and GLSL, this "
-"guide is inspired by Godot's own GLSL formatting. You can view examples of "
-"GLSL files in Godot's source code `here <https://github.com/godotengine/"
-"godot/blob/master/drivers/gles3/shaders/>`__."
-msgstr ""
-"由于 Godot 的着色器语言与 C 风格语言和 GLSL 很接近，所以本指南的灵感来自于 "
-"Godot 自己的 GLSL 格式。你可以在 Godot 的源代码中查看 GLSL 文件的\\ `例子 "
-"<https://github.com/godotengine/godot/blob/master/drivers/gles2/shaders/copy."
-"glsl>`__\\ 。"
 
 msgid ""
 "Style guides aren't meant as hard rulebooks. At times, you may not be able "
@@ -179,22 +162,6 @@ msgstr ""
 "在着色器编辑器中, 要使选定的代码成为注释或取消注释, 按 :kbd:`Ctrl + K` . 该功"
 "能在所选行的开头添加或删除 ``//`` ."
 
-#, fuzzy
-msgid "Documentation comments"
-msgstr "GDScript 文档注释"
-
-msgid ""
-"Use the following format for documentation comments above uniforms, with "
-"**two** leading asterisks (``/**``) and follow-up asterisks on every line:"
-msgstr ""
-
-msgid ""
-"These comments will appear when hovering a property in the inspector. If you "
-"don't wish the comment to be visible in the inspector, use the standard "
-"comment syntax instead (``// ...`` or ``/* ... */`` with only one leading "
-"asterisk)."
-msgstr ""
-
 msgid "Whitespace"
 msgstr "空格"
 
@@ -259,18 +226,6 @@ msgstr "使用 CONSTANT\\_CASE，全部大写，并用下划线（\\_）来分�
 
 msgid "Preprocessor directives"
 msgstr "预处理器指令"
-
-msgid ""
-":ref:`doc_shader_preprocessor` directives should be written in "
-"CONSTANT__CASE. Directives should be written without any indentation before "
-"them, even if nested within a function."
-msgstr ""
-
-msgid ""
-"To preserve the natural flow of indentation when shader errors are printed "
-"to the console, extra indentation should **not** be added within ``#if``, "
-"``#ifdef`` or ``#ifndef`` blocks:"
-msgstr ""
 
 msgid "Code order"
 msgstr "代码顺序"

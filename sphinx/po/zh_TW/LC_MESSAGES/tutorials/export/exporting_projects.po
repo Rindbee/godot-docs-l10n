@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -148,28 +143,6 @@ msgid ""
 "follow instructions on how to properly set up that platform."
 msgstr "此時，使用者則需要回來閱讀文件，並依照指示來正確為該平台設定。"
 
-msgid ""
-"The buttons at the bottom of the menu allow you to export the project in a "
-"few different ways:"
-msgstr ""
-
-msgid ""
-"Export All: Export the project as a playable build (Godot executable and "
-"project data) for all the presets defined. All presets must have an **Export "
-"Path** defined for this to work."
-msgstr ""
-
-msgid ""
-"Export Project: Export the project as a playable build (Godot executable and "
-"project data) for the selected preset."
-msgstr ""
-
-msgid ""
-"Export PCK/ZIP: Export the project resources as a PCK or ZIP package. This "
-"is not a playable build, it only exports the project data without a Godot "
-"executable."
-msgstr ""
-
 msgid "Export templates"
 msgstr "匯出樣板"
 
@@ -272,17 +245,6 @@ msgstr ""
 msgid "Exporting from the command line"
 msgstr "從命令行進行匯出"
 
-#, fuzzy
-msgid ""
-"In production, it is useful to automate builds, and Godot supports this with "
-"the ``--export-release`` and ``--export-debug`` command line parameters. "
-"Exporting from the command line still requires an export preset to define "
-"the export parameters. A basic invocation of the command would be:"
-msgstr ""
-"在正式環境中，適用於自動建置，在 Godot 中可以使用 ``--export`` 與 ``--export-"
-"debug`` 參數來從命令行進行匯出。但從命令行匯出依然需要匯出預設設定來指定匯出"
-"參數。該指令的基本呼叫方法如下："
-
 msgid ""
 "This will export to ``some_name.exe``, assuming there is a preset called "
 "\"Windows Desktop\" and the template can be found. (The export preset name "
@@ -333,15 +295,6 @@ msgid ""
 msgstr ""
 "也可以設定為只匯出 PCK 或 ZIP 檔，並讓單一匯出可以由多個 Godot 可執行檔使用。"
 "可以通過將匯出目標名稱以 ``.pck`` 或 ``.zip`` 結尾來進行。"
-
-#, fuzzy
-msgid ""
-"It is often useful to combine the ``--export-release`` flag with the ``--"
-"path`` flag, so that you do not need to ``cd`` to the project folder before "
-"running the command:"
-msgstr ""
-"``--export`` 旗標也常常適合與 ``--path`` 一起使用，我們也常常會為自動匯出建立"
-"專屬的匯出預設設定："
 
 msgid ""
 "See :ref:`doc_command_line_tutorial` for more information about using Godot "

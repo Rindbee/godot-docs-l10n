@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -297,7 +292,6 @@ msgstr ""
 "Level-Multiplayer-API verwendet nur UDP, also müssen Sie den Port in UDP "
 "weiterleiten, nicht nur in TCP."
 
-#, fuzzy
 msgid ""
 "After forwarding a UDP port and making sure your server uses that port, you "
 "can use `this website <https://icanhazip.com/>`__ to find your public IP "
@@ -479,7 +473,7 @@ msgid ""
 "pass** signature matching)."
 msgstr ""
 "Die Signatur der RPC beinhaltet die ``@rpc()``-Deklaration, die Funktion, "
-"den Rückgabetyp UND den Knotenpfad. Wenn eine RPC in einem Skript liegt, das "
+"den Rückgabetyp UND den Nodepfad. Wenn eine RPC in einem Skript liegt, das "
 "an ``/root/Main/Node1`` angehängt ist, dann muss sie in genau demselben Pfad "
 "und Node sowohl im Client- als auch im Server-Skript liegen. "
 "Funktionsargumente (Beispiel: ``func sendstuff():`` und ``func "
@@ -501,7 +495,7 @@ msgid ""
 "See further explanation and troubleshooting on `this post <https://github."
 "com/godotengine/godot/issues/57869#issuecomment-1034215138>`__."
 msgstr ""
-"Weitere Erklärungen und Fehlerbehebungen finden Sie in diesem Beitrag "
+"Weitere Erklärungen und Fehlerbehebungen finden Sie in `diesem Beitrag "
 "<https://github.com/godotengine/godot/"
 "issues/57869#issuecomment-1034215138>`__."
 

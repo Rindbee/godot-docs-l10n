@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,17 +28,6 @@ msgid ""
 msgstr ""
 "Temos que acompanhar a pontuação atual em uma variável e exibi-la na tela "
 "usando uma interface mínima. Para isso, usaremos uma text label."
-
-#, fuzzy
-msgid ""
-"In the main scene, add a new child node :ref:`Control <class_Control>` to "
-"``Main`` and name it ``UserInterface``. Ensure you are on the 2D screen, "
-"where you can edit your User Interface (UI)."
-msgstr ""
-"Na cena principal, adicione um novo nó :ref:`Control <class_Control>` como "
-"filho de ``Main`` e nomeie-o como ``UserInterface``. Você será levado "
-"automaticamente para a tela 2D, onde poderá editar sua Interface de Usuário "
-"(UI em inglês)."
 
 msgid "Add a :ref:`Label <class_Label>` node and name it ``ScoreLabel``"
 msgstr "Adicione um :ref:`Label <class_Label>` nó e nomei-o ``ScoreLabel``"
@@ -142,12 +126,6 @@ msgstr "|imagem 6|"
 msgid "image6"
 msgstr "image6"
 
-#, fuzzy
-msgid ""
-"By default, a theme only has a few properties: *Default Base Scale*, "
-"*Default Font* and *Default Font Size*."
-msgstr "Por padrão, um tema tem apenas uma propriedade, a *Fonte Padrão*."
-
 msgid ""
 "You can add more properties to the theme resource to design complex user "
 "interfaces, but that is beyond the scope of this series. To learn more about "
@@ -157,16 +135,6 @@ msgstr ""
 "interfaces de usuário complexas, mas isso está além do escopo desta série. "
 "Para saber mais sobre a criação e edição de temas, veja :ref:"
 "`doc_gui_skinning`."
-
-#, fuzzy
-msgid ""
-"The *Default Font* expects a font file like the ones you have on your "
-"computer. Two common font file formats are TrueType Font (TTF) and OpenType "
-"Font (OTF)."
-msgstr ""
-"Este espera um arquivo de fonte como os que você tem em seu computador. Dois "
-"formatos de arquivo de fonte comuns são TrueType Font (TTF) e OpenType Font "
-"(OTF)."
 
 msgid ""
 "In the *FileSystem* dock, expand the ``fonts`` directory and click and drag "
@@ -253,27 +221,8 @@ msgstr ""
 "Esta linha significa que quando o inimigo emitir o sinal ``squashed``, o nó "
 "``ScoreLabel`` o receberá e chamará a função ``_on_mob_squashed()``."
 
-msgid ""
-"Head back to the ``ScoreLabel.gd`` script to define the "
-"``_on_mob_squashed()`` callback function."
-msgstr ""
-"Volte para o script``ScoreLabel.gd`` para definir a função de chamada de "
-"retorno ``_on_mob_squashed()``."
-
 msgid "There, we increment the score and update the displayed text."
 msgstr "Aí, incrementamos a pontuação e atualizamos o texto exibido."
-
-#, fuzzy
-msgid ""
-"The second line uses the value of the ``score`` variable to replace the "
-"placeholder ``%s``. When using this feature, Godot automatically converts "
-"values to string text, which is convenient when outputting text in labels or "
-"when using the ``print()`` function."
-msgstr ""
-"A segunda linha utiliza o valor da variável ``score`` para substituir o "
-"substituto ``%s``. Ao utilizar este recurso, o Godot converte "
-"automaticamente os valores em texto, o que é conveniente para a saída de "
-"texto em etiquetas ou utilizando a função ``print()``."
 
 msgid ""
 "You can learn more about string formatting here: :ref:`doc_gdscript_printf`. "
@@ -537,9 +486,6 @@ msgstr "|image17|"
 msgid "image17"
 msgstr "image17"
 
-msgid "Save the scene as ``MusicPlayer.tscn``."
-msgstr "Salve a cena como ``MusicPlayer.tscn``."
-
 msgid ""
 "We have to register it as an autoload. Head to the *Project -> Project "
 "Settings…* menu and click on the *Autoload* tab."
@@ -547,26 +493,11 @@ msgstr ""
 "Temos que registrá-lo para carregar automaticamente. Vá para *Projeto > "
 "Configurações do Projeto* no menu e mude para a aba *AutoLoad*."
 
-msgid ""
-"In the *Path* field, you want to enter the path to your scene. Click the "
-"folder icon to open the file browser and double-click on ``MusicPlayer."
-"tscn``. Then, click the *Add* button on the right to register the node."
-msgstr ""
-"No campo *Caminho*, você deseja inserir o caminho para sua cena. Clique no "
-"ícone da pasta para abrir o navegador de arquivos e clique duas vezes em "
-"``MusicPlayer.tscn``. Em seguida, clique no botão *Adicionar* à direita para "
-"registrar o nó."
-
 msgid "|image18|"
 msgstr "|image18|"
 
 msgid "image18"
 msgstr "image18"
-
-msgid ""
-"``MusicPlayer.tscn`` now loads into any scene you open or play. So if you "
-"run the game now, the music will play automatically in any scene."
-msgstr ""
 
 msgid ""
 "Before we wrap up this lesson, here's a quick look at how it works under the "

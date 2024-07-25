@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -324,26 +319,6 @@ msgstr "**mobile**"
 
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>` 已激活"
-
-msgid ""
-"With the exception of texture compression and ``movie`` feature tags, "
-"default feature tags are **immutable**. This means that they will *not* "
-"change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to HTML5 on a mobile device."
-msgstr ""
-"除了紋理壓縮功能標籤之外，預設的功能標籤都是**不可修改**的。這意味著它們*不會"
-"*根據運作時的情況變化。例如，在移動裝置上運作匯出為 HTML5 的專案時， ``OS."
-"has_feature(\"mobile\")`` 返回的是 ``false``。"
-
-#, fuzzy
-msgid ""
-"To check whether a project exported to HTML5 is running on a mobile device, :"
-"ref:`call JavaScript code <doc_web_javascript_bridge>` that reads the "
-"browser's user agent."
-msgstr ""
-"要檢查匯出為 HTML5 的專案是否是在移動裝置上運作，請:ref:`呼叫 JavaScript 程式"
-"碼 <doc_javascript_eval>`讀取瀏覽器的使用者代理。"
 
 msgid "Custom features"
 msgstr "自定功能"

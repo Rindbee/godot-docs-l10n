@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,12 +33,6 @@ msgstr ""
 "2D 和 3D 版本的 NavigationAgent 分別可用作:ref:"
 "`NavigationAgent2D<class_NavigationAgent2D>` 和:ref:"
 "`NavigationAgent3D<class_NavigationAgent3D>`。"
-
-#, fuzzy
-msgid ""
-"New NavigationAgent nodes will automatically join the default navigation map "
-"on the :ref:`World2D<class_World2D>`/:ref:`World3D<class_World3D>`."
-msgstr "新的NavigationAgent節點將自動加入World2D/World3D上的預設導覽地圖。"
 
 msgid ""
 "NavigationsAgent nodes are optional and not a hard requirement to use the "
@@ -124,23 +113,6 @@ msgid ""
 "path and call for updates."
 msgstr "導覽代理有自己的內部邏輯來繼續目前路徑並呼叫更新。"
 
-#, fuzzy
-msgid ""
-"The ``get_next_path_position()`` function is responsible for updating many "
-"of the agent's internal states and properties. The function should be "
-"repeatedly called *once* every ``physics_process`` until "
-"``is_navigation_finished()`` tells that the path is finished. The function "
-"should not be called after the target position or path end has been reached "
-"as it can make the agent jitter in place due to the repeated path updates. "
-"Always check very early in script with ``is_navigation_finished()`` if the "
-"path is already finished."
-msgstr ""
-"get_next_path_position() 函式負責更新代理程式的許多內部狀態和屬性。該函式應該"
-"在每個“physical_process”中重複呼叫“once”，直到“is_navigation_finished()”告訴"
-"路徑已完成。在到達目標位置或路徑終點後不應呼叫函式，因為它可能會因重複的路徑"
-"更新而導致代理抖動。如果路徑已經完成，請務必儘早在腳本中使用"
-"「is_navigation_finished()」進行檢查。"
-
 msgid "The following properties influence the path following behavior."
 msgstr "這個節點有如下屬性可供設定。"
 
@@ -193,20 +165,6 @@ msgstr "編寫代理程式移動腳本時需要考慮一些常見的使用者問
 
 msgid "The path is returned empty"
 msgstr "回程的路徑為空"
-
-#, fuzzy
-msgid ""
-"If an agent queries a path before the navigation map synchronisation, e.g. "
-"in a ``_ready()`` function, the path might return empty. In this case the "
-"``get_next_path_position()`` function will return the same position as the "
-"agent parent node and the agent will consider the path end reached. This is "
-"fixed by making a deferred call or using a callback e.g. waiting for the "
-"navigation map changed signal."
-msgstr ""
-"如果代理程式在導覽地圖同步之前查詢路徑，例如在 _ready() 函式中，則該路徑可能"
-"會傳回空。在這種情況下， get_next_path_position() 函式將傳回與代理父節點相同"
-"的位置，並且代理程式將考慮到達的路徑末端。這可以透過延遲呼叫或使用回調來解"
-"決，例如等待導覽地圖來更改訊號。"
 
 msgid "The agent is stuck dancing between two positions"
 msgstr "特工被困在兩個位置之間跳舞"
@@ -274,22 +232,6 @@ msgid ""
 msgstr ""
 "為了使 NavigationAgents 使用迴避功能，「enable_avoidance」屬性必須設定為"
 "「true」。"
-
-#, fuzzy
-msgid ""
-"The ``velocity_computed`` signal of the NavigationAgent node must be "
-"connected to receive the safe velocity calculation result."
-msgstr ""
-"必須連接NavigationAgent節點的velocity_compulated訊號才能接收``safe_velocity``"
-"計算結果。"
-
-#, fuzzy
-msgid ""
-"Set the ``velocity`` of the NavigationAgent node in ``_physics_process()`` "
-"to update the agent with the current velocity of the agent's parent node."
-msgstr ""
-"在 _physical_process() 中的 NavigationAgent 節點上使用 set_velocity() 來使用"
-"代理父節點的目前速度來更新代理程式。"
 
 msgid ""
 "While avoidance is enabled on the agent the ``safe_velocity`` vector will be "
@@ -419,15 +361,6 @@ msgstr ""
 "新）烘焙到導覽網格以便在它們周圍移動。"
 
 msgid ""
-"RVO avoidance makes implicit assumptions about natural agent behavior. E.g. "
-"that agents move on reasonable passing sides that can be assigned when they "
-"encounter each other. This means that very clinical avoidance test scenarios "
-"will commonly fail. E.g. agents moved directly against each other with "
-"perfect opposite velocities will fail because the agents can not get their "
-"passing sides assigned."
-msgstr ""
-
-msgid ""
 "Using the NavigationAgent ``enable_avoidance`` property is the preferred "
 "option to toggle avoidance. The following code snippets can be used to "
 "toggle avoidance on agents, create or delete avoidance callbacks or switch "
@@ -447,36 +380,11 @@ msgstr "以下部分提供了通常與NavigationAgents 一起使用的節點的�
 msgid "Actor as Node3D"
 msgstr "角色為 Node3D"
 
-#, fuzzy
-msgid ""
-"This script adds basic navigation movement to a :ref:`Node3D <class_Node3D>` "
-"with a :ref:`NavigationAgent3D <class_NavigationAgent3D>` child node."
-msgstr ""
-"這個腳本能夠為帶有 NavigationAgent3D 子節點的 Node3D 新增基礎的導覽移動功能。"
-
 msgid "Actor as CharacterBody3D"
 msgstr "角色為 CharacterBody3D"
 
-#, fuzzy
-msgid ""
-"This script adds basic navigation movement to a :ref:`CharacterBody3D "
-"<class_CharacterBody3D>` with a :ref:`NavigationAgent3D "
-"<class_NavigationAgent3D>` child node."
-msgstr ""
-"這個腳本能夠為帶有 NavigationAgent3D 子節點的 CharacterBody3D 新增基礎的導覽"
-"移動功能。"
-
 msgid "Actor as RigidBody3D"
 msgstr "角色為 RigidBody3D"
-
-#, fuzzy
-msgid ""
-"This script adds basic navigation movement to a :ref:`RigidBody3D "
-"<class_RigidBody3D>` with a :ref:`NavigationAgent3D "
-"<class_NavigationAgent3D>` child node."
-msgstr ""
-"這個腳本能夠為帶有 NavigationAgent3D 子節點的 RigidBody3D 新增基礎的導覽移動"
-"功能。"
 
 msgid "Translation status"
 msgstr "翻譯狀態"

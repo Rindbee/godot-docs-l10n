@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,15 +87,6 @@ msgstr ""
 "首先，建立一個 Sprite2D 節點。 :ref:`您可以使用任何 CanvasItem "
 "<doc_custom_drawing_in_2d>`，只要它繪製到畫布上即可，因此在本教學中我們將使"
 "用 Sprite2D，因為它是最容易開始繪製的 CanvasItem。"
-
-#, fuzzy
-msgid ""
-"In the Inspector, click beside \"Texture\" where it says \"[empty]\" and "
-"select \"Load\", then select \"icon.svg\". For new projects, this is the "
-"Godot icon. You should now see the icon in the viewport."
-msgstr ""
-"在“屬性面板”中，點擊“Texture”旁邊寫著“[空]”的地方然後選擇“載入”，再選擇“Icon."
-"png”。對於新的專案，這個就是 Godot 的圖示。你現在就會在視口中看到這個圖示。"
 
 msgid ""
 "Next, look down in the Inspector, under the CanvasItem section, click beside "
@@ -217,26 +203,6 @@ msgstr "``UV`` 取值在0-1之間, 從左到右, 由上到下."
 
 msgid "Using ``TEXTURE`` built-in"
 msgstr "使用內建變數 ``TEXTURE``"
-
-msgid ""
-"The default fragment function reads from the set Sprite2D texture and "
-"displays it."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"When you want to adjust a color in a Sprite2D you can adjust the color from "
-"the texture manually like in the code below."
-msgstr ""
-"當你想調整 Sprite 中的顏色時，你不能像下面的程式碼那樣手動修改紋理中的顏色。"
-
-msgid ""
-"Certain nodes, like Sprite2Ds, have a dedicated texture variable that can be "
-"accessed in the shader using ``TEXTURE``. If you want to use the Sprite2D "
-"texture to combine with other colors, you can use the ``UV`` with the "
-"``texture`` function to access this variable. Use them to redraw the "
-"Sprite2D with the texture."
-msgstr ""
 
 msgid "Uniform input"
 msgstr "Uniform 輸入"

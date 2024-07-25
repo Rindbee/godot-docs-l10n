@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,31 +28,8 @@ msgstr ""
 "основном перемещения в большинстве 2D игр основаны на небольшом числе "
 "различных способов."
 
-#, fuzzy
-msgid ""
-"We'll use :ref:`CharacterBody2D <class_CharacterBody2D>` for these examples, "
-"but the principles will apply to other node types (Area2D, RigidBody2D) as "
-"well."
-msgstr ""
-"Для наших примеров мы будем использовать :ref:`KinematicBody2D "
-"<class_KinematicBody2D>`, но эти принципы так же применимы и для других "
-"типов узлов (Area2D, RigidBody2D)."
-
 msgid "Setup"
 msgstr "Настройка"
-
-#, fuzzy
-msgid ""
-"Each example below uses the same scene setup. Start with a "
-"``CharacterBody2D`` with two children: ``Sprite2D`` and "
-"``CollisionShape2D``. You can use the Godot icon (\"icon.png\") for the "
-"Sprite2D's texture or use any other 2D image you have."
-msgstr ""
-"Каждый из примеров показанных ниже использует одинаковые настройки сцены. "
-"Начинайте с добавления ``KinematicBody2D`` с двумя дочерними узлами: "
-"``Sprite`` и ``CollisionShape2D``. Вы можете использовать иконку Godot "
-"(\"icon.png\") в качестве текстуры спрайта или воспользоваться любой другой "
-"2D картинкой которая имеется."
 
 msgid ""
 "Open ``Project -> Project Settings`` and select the \"Input Map\" tab. Add "
@@ -81,21 +53,6 @@ msgstr ""
 "движения в заданном направлении (клавиши - стрелки: вверх/влево/вниз/вправо "
 "или W/A/S/D). Термин 8 - позиционное перемещение исходит из факта, что игрок "
 "может перемещаться по диагонали удерживая одновременно две клавиши."
-
-#, fuzzy
-msgid "Add a script to the character body and add the following code:"
-msgstr "Добавьте скрипт к \"KinematicBody2D\", а затем добавьте следующий код:"
-
-msgid ""
-"In the ``get_input()`` function, we use :ref:`Input <class_Input>` "
-"``get_vector()`` to check for the four key events and sum return a direction "
-"vector."
-msgstr ""
-
-msgid ""
-"We can then set our velocity by multiplying this direction vector, which has "
-"a length of ``1``, by our desired speed."
-msgstr ""
 
 msgid ""
 "If you've never used vector math before, or need a refresher, you can see an "
@@ -127,21 +84,6 @@ msgstr ""
 "на классическую аркадную игру. Нажатие влево/вправо вращает персонаж, вверх/"
 "вниз перемещает его вперёд или назад по направления персонажа."
 
-#, fuzzy
-msgid ""
-"Here we've added two variables to track our rotation direction and speed. "
-"The rotation is applied directly to the body's ``rotation`` property."
-msgstr ""
-"Здесь мы добавили две новых переменных для отслеживания направления вращения "
-"и скорости вращения. Как и ранее, нажатие двух противоположных клавиш "
-"одновременно, отменяет вращение. Вращение осуществляется изменением свойства "
-"``rotation``."
-
-msgid ""
-"To set the velocity, we use the body's ``transform.x`` which is a vector "
-"pointing in the body's \"forward\" direction, and multiply that by the speed."
-msgstr ""
-
 msgid "Rotation + movement (mouse)"
 msgstr "Вращение + перемещение с помощью мыши"
 
@@ -155,16 +97,6 @@ msgstr ""
 "устанавливается перемещением мыши а не клавиатурой. Благодаря функции \"look "
 "at\", персонаж будет всегда смотреть на курсор мыши. Перемещения вперёд/"
 "назад остаются прежними."
-
-#, fuzzy
-msgid ""
-"Here we're using the :ref:`Node2D <class_Node2D>` ``look_at()`` method to "
-"point the player towards the mouse's position. Without this function, you "
-"could get the same effect by setting the angle like this:"
-msgstr ""
-"Мы используем :ref:`Node2D <class_Node2D>` ``look_at()``метод для указания "
-"направления игрока. Без этой функции мы можем достичь того же эффекта "
-"используя установку угла как описано ниже:"
 
 msgid "Click-and-move"
 msgstr "Нажми и двигайся"
@@ -213,12 +145,6 @@ msgstr ""
 "Вы можете найти эти примеры полезными как основа для вашего проекта. Не "
 "стесняйтесь использовать их и экспериментировать с ними, чтобы увидеть, что "
 "вы можете сделать."
-
-msgid ""
-"You can download this sample project here: `2d_movement_starter.zip <https://"
-"github.com/godotengine/godot-docs-project-starters/releases/download/"
-"latest-4.x/2d_movement_starter.zip>`_"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Статус перевода"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,83 +15,8 @@ msgstr ""
 msgid "Import process"
 msgstr "Proces importu"
 
-#, fuzzy
-msgid "Importing assets in Godot"
-msgstr "Import zdrojů v Godotu 3.0+"
-
-msgid ""
-"To import assets in Godot, place your assets (image files, scenes, audio "
-"files, fonts, etc) directly in the project folder. There are 2 ways to "
-"achieve this:"
-msgstr ""
-
-msgid ""
-"**For any file type:** Copy files manually with your operating system's file "
-"manager."
-msgstr ""
-
-msgid ""
-"**For file types that can be imported by Godot:** Drag-and-drop files from "
-"the operating system's file manager to the editor's FileSystem dock. This "
-"only works with *resource* file types (i.e. file types that Godot can "
-"import)."
-msgstr ""
-
-msgid ""
-"Godot will automatically import these files internally and keep the imported "
-"resources hidden in a ``res://.godot/imported/`` folder."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"This means that when trying to access imported assets through code, you need "
-"to use the :ref:`Resource Loader<class_ResourceLoader>` as it will "
-"automatically take into account where the internal files are saved. If you "
-"try and access an imported asset using the :ref:`FileAccess "
-"<class_FileAccess>` class, it will work in the editor, but **it will break "
-"in the exported project**."
-msgstr ""
-"To znamená, že při pokusu o přístup k importovaným prostředkům "
-"prostřednictvím kódu musíte použít :ref:`Resource "
-"Loader<class_ResourceLoader>`, protože automaticky zohledňuje, kde jsou "
-"interní soubory uloženy. Pokud se pokusíte přistupovat k importovanému "
-"prostředku pomocí třídy :ref:`Soubor <class_Filer>`, bude to fungovat v "
-"editoru, ale v exportovaném projektu ani náhodou."
-
-#, fuzzy
-msgid ""
-"However, the :ref:`Resource Loader<class_ResourceLoader>` cannot access non-"
-"imported files. Only the :ref:`FileAccess <class_FileAccess>` class can."
-msgstr ""
-"Třída :ref:`Resource Loader<class_ResourceLoader>` však nemá přístup k "
-"neimportovaným souborům, toho je schopna pouze třída :ref:`File "
-"<class_File>`` ."
-
 msgid "Changing import parameters"
 msgstr "Změna parametrů importu"
-
-msgid ""
-"Import parameters are only present in *non-native* Godot resource types. "
-"This means Godot's own scene and resource file formats (``.tscn``, ``.scn``, "
-"``.tres``, ``.res``) don't have import options you can select in the Import "
-"dock."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"To change the import parameters of an asset in Godot, select the relevant "
-"resource in the FileSystem dock:"
-msgstr ""
-"Chcete-li změnit parametry importu zdroje v systému Godot (opět mějte na "
-"paměti, že parametry importu jsou přítomny pouze pro nenativní typy zdrojů "
-"Godot), vyberte příslušný zdroj v doku souborového systému:"
-
-msgid ""
-"After adjusting the parameters, click **Reimport**. Be careful: if you "
-"select another file in the FileSystem dock before clicking **Reimport**, "
-"changes will be discarded. After clicking **Reimport**, the chosen "
-"parameters will only be used for this asset and on future reimports."
-msgstr ""
 
 msgid ""
 "Changing the import parameters of several assets at the same time is also "
@@ -155,18 +75,6 @@ msgstr ""
 "konfiguraci importu."
 
 msgid ""
-"**Make sure to commit these files to your version control system**, as these "
-"files contain important metadata."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Additionally, extra assets will be present in the hidden ``res://.godot/"
-"imported/`` folder:"
-msgstr ""
-"Navíc budou ve skryté složce ``res://.import`` přednastaveny další zdroje:"
-
-msgid ""
 "If any of the files present in this folder is erased (or the whole folder), "
 "the asset or assets will be reimported automatically. As such, committing "
 "the ``.godot/`` folder to the version control system is not recommended. "
@@ -179,65 +87,11 @@ msgstr ""
 "opětovného importu při kontrole na jiném počítači, ale zabere podstatně více "
 "místa a času pro přenos. Vyberte si svoje."
 
-msgid ""
-"The default version control metadata that can be generated on project "
-"creation will automatically ignore the ``.godot/`` folder."
-msgstr ""
-
 msgid "Changing import resource type"
 msgstr "Změna typu importovaného zdroje"
 
-#, fuzzy
-msgid ""
-"Some source assets can be imported as different types of resources. For "
-"this, select the relevant type of resource desired then click **Reimport**:"
-msgstr ""
-"Některé zdrojové položky lze importovat jako různé typy zdrojů. Za tímto "
-"účelem vyberte příslušný typ požadovaného zdroje a stiskněte tlačítko "
-"\"Reimport\":"
-
-msgid ""
-"Select ``Keep File (exported as is)`` as resource type to skip file import, "
-"files with this resource type will be preserved as is during project export."
-msgstr ""
-
-msgid ""
-"Select ``Skip File (not exported)`` as resource type to skip file import and "
-"ignore file during project export."
-msgstr ""
-
 msgid "Changing default import parameters"
 msgstr "Změna výchozích parametrů importu"
-
-#, fuzzy
-msgid ""
-"Different types of projects might require different defaults. Changing the "
-"import options to a predefined set of options can be achieved by using the "
-"**Preset...** Menu. Besides some resource types offering presets, the "
-"default settings can be saved and cleared too:"
-msgstr ""
-"Různé typy her mohou vyžadovat různá výchozí nastavení. Změnu výchozích "
-"nastavení pro jednotlivé projekty lze provést pomocí nabídky \"Přednastavit.."
-"\". Kromě toho, že některé typy zdrojů nabízejí vlastní předvolby, lze "
-"výchozí nastavení také uložit či smazat:"
-
-msgid ""
-"The default import parameters for a given resource type can be changed "
-"project-wide using the **Import Defaults** tab of the Project Settings "
-"dialog:"
-msgstr ""
-
-#, fuzzy
-msgid "Further reading"
-msgstr "Použití multi-threadingu"
-
-#, fuzzy
-msgid ""
-"This workflow takes a little time to get used to, but it enforces a more "
-"correct way to deal with resources."
-msgstr ""
-"Jedná se o velmi jednoduchý pracovní postup, na se dá zvyknout velice "
-"rychle. Podporuje také korektnější způsob nakládání se zdroji."
 
 msgid ""
 "There are many types of assets available for import. Continue reading to "
@@ -245,22 +99,6 @@ msgid ""
 msgstr ""
 "Pro import je k dispozici mnoho typů zdrojů, proto pokračujte ve čtení, "
 "abyste pochopili, jak se všemi pracovat:"
-
-#, fuzzy
-msgid ":ref:`doc_importing_images`"
-msgstr ":ref:`doc_exporting_basics`"
-
-#, fuzzy
-msgid ":ref:`doc_importing_audio_samples`"
-msgstr ":ref:`doc_exporting_basics`"
-
-#, fuzzy
-msgid ":ref:`doc_importing_3d_scenes`"
-msgstr ":ref:`doc_exporting_basics`"
-
-#, fuzzy
-msgid ":ref:`doc_importing_translations`"
-msgstr ":ref:`doc_exporting_basics`"
 
 msgid "Translation status"
 msgstr "Stav překladu"

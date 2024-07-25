@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,17 +17,6 @@ msgstr "自訂後期處理"
 
 msgid "Introduction"
 msgstr "前言"
-
-#, fuzzy
-msgid ""
-"Godot provides many post-processing effects out of the box, including Bloom, "
-"DOF, and SSAO, which are described in :ref:"
-"`doc_environment_and_post_processing`. However, advanced use cases may "
-"require custom effects. This article explains how to write your own custom "
-"effects."
-msgstr ""
-"Godot 提供許多開箱即用的後處理效果，包括泛光、DOF 和 SSAO。有時你想編寫自己的"
-"自訂效果。下面介紹如何做到這一點。"
 
 msgid ""
 "The easiest way to implement a custom post-processing shader is to use "
@@ -71,17 +55,6 @@ msgstr ""
 "另一種更有效的方法是使用 BackBufferCopy <class_BackBufferCopy>` 將螢幕區域複"
 "製到緩衝區，並使用「hint_screen_texture」透過「sampler2D」在著色器腳本中存取"
 "它。"
-
-#, fuzzy
-msgid ""
-"As of the time of writing, Godot does not support rendering to multiple "
-"buffers at the same time. Your post-processing shader will not have access "
-"to other render passes and buffers not exposed by Godot (such as depth or "
-"normal/roughness). You only have access to the rendered frame and buffers "
-"exposed by Godot as samplers."
-msgstr ""
-"在撰寫本文時,Godot不支援同時對多個緩衝區進行算繪. 處理之後著色器將無法存取法"
-"線或其他算繪通道. 你只能存取已算繪的影格."
 
 msgid ""
 "For this demo, we will use this :ref:`Sprite <class_Sprite2D>` of a sheep."

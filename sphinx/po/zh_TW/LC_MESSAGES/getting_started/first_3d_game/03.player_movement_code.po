@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,16 +40,6 @@ msgstr ""
 "**C#** ：類別與匯出的變數與方法使用大駝峰法 (PascalCase)，Private 欄位使用底"
 "線加小駝峰 (_camelCase)，區域變數與參數使用小駝峰法 (camelCase) (請參考 :ref:"
 "`doc_c_sharp_styleguide` )。在連接訊號的時候請特別注意不要打錯方法名稱。"
-
-#, fuzzy
-msgid ""
-"Right-click the ``Player`` node and select *Attach Script* to add a new "
-"script to it. In the popup, set the *Template* to *Empty* before pressing "
-"the *Create* button. We set it to *Empty* because we want to write our own "
-"code for player movement."
-msgstr ""
-"按右鍵 ``Player`` 節點，選擇*附加腳本*為其新增一個新腳本。在快顯視窗中，先將*"
-"範本*設定為 *空*，後按下*建立*按鈕 。"
 
 msgid "|image0|"
 msgstr "\\ |image0|"
@@ -127,29 +112,12 @@ msgid ""
 "directions."
 msgstr "這四個條件給了我們八個可能性和八個可能的方向。"
 
-#, fuzzy
-msgid ""
-"In case the player presses, say, both W and D simultaneously, the vector "
-"will have a length of about ``1.4``. But if they press a single key, it will "
-"have a length of ``1``. We want the vector's length to be consistent, and "
-"not move faster diagonally. To do so, we can call its ``normalized()`` "
-"method."
-msgstr ""
-"如果玩家同時按下 W 鍵 和 D 鍵，這個向量長度大約為 ``1.4``。但如果他們只按一個"
-"鍵，則它的長度將為 ``1``。我們希望該向量的長度保持一致，而不是在對角線上移動"
-"得更快。為此，我們需呼叫其 ``normalize()`` 方法。"
-
 msgid ""
 "Here, we only normalize the vector if the direction has a length greater "
 "than zero, which means the player is pressing a direction key."
 msgstr ""
 "在這裡，我們只在方向的長度大於零的情況下對向量進行正規化，因為玩家正在按某個"
 "方向鍵。"
-
-msgid ""
-"We compute the direction the ``$Pivot`` is looking by creating a :ref:`Basis "
-"<class_Basis>` that looks in the ``direction`` direction."
-msgstr ""
 
 msgid ""
 "Then, we update the velocity. We have to calculate the ground velocity and "
@@ -167,15 +135,6 @@ msgid ""
 msgstr ""
 "如果物體在這一影格中與地板發生了碰撞，那麼 ``CharacterBody3D.is_on_floor()`` "
 "函式就會返回 ``true``。這就是為什麼我們只在空中對 ``Player`` 施加重力。"
-
-#, fuzzy
-msgid ""
-"For the vertical velocity, we subtract the fall acceleration multiplied by "
-"the delta time every frame. This line of code will cause our character to "
-"fall in every frame, as long as it is not on or colliding with the floor."
-msgstr ""
-"對於垂直速度，在每一影格中減去下降加速度乘以影格時間。這條程式碼將使角色在沒"
-"有碰撞地板的情況下，每影格都會下降。"
 
 msgid ""
 "The physics engine can only detect interactions with walls, the floor, or "
@@ -199,9 +158,6 @@ msgstr ""
 
 msgid "And that's all the code you need to move the character on the floor."
 msgstr "這就是你在地面上移動角色所需的所有程式碼。"
-
-msgid "Here is the complete ``Player.gd`` code for reference."
-msgstr "下面是供參考的完整 ``Player.gd`` 程式碼。"
 
 msgid "Testing our player's movement"
 msgstr "測試玩家的移動"
@@ -254,34 +210,11 @@ msgstr "在快顯視窗中，按兩下 ``player.tscn`` ，角色將顯示在視�
 msgid "Adding a camera"
 msgstr "新增腳本"
 
-#, fuzzy
-msgid ""
-"Let's add the camera next. Like we did with our *Player*\\ 's *Pivot*, we're "
-"going to create a basic rig. Right-click on the ``Main`` node again and "
-"select *Add Child Node*. Create a new :ref:`Marker3D <class_Marker3D>`, and "
-"name it ``CameraPivot``. Select ``CameraPivot`` and add a child node :ref:"
-"`Camera3D <class_Camera3D>` to it. Your scene tree should look similar to "
-"this."
-msgstr ""
-"接下來讓我們來新增相機。就像我們對 *Player*\\\\ 的 *Pivot* 所做的那樣，我們將"
-"建立一個基本裝備。再次右鍵單擊“Main”節點並選擇*新增子節點*。建立一個新的 "
-"Marker3D <class_Marker3D>`，並將其命名為「CameraPivot」。選擇「CameraPivot」"
-"並新增一個子節點:ref:`Camera3D <class_Camera3D>`。你的場景樹應該是這樣的。"
-
 msgid "|image3|"
 msgstr "\\ |image3|"
 
 msgid "image3"
 msgstr "image3"
-
-#, fuzzy
-msgid ""
-"Notice the *Preview* checkbox that appears in the top-left of the 3D view "
-"when you have the *Camera* selected. You can click it to preview the in-game "
-"camera projection."
-msgstr ""
-"請注意在選中 *Camera* 時，左上角會出現一個*預覽*核取方塊。你可以按一下預覽遊"
-"戲中的相機投影視角。"
 
 msgid "|image4|"
 msgstr "\\ |image4|"
@@ -328,12 +261,6 @@ msgstr "|image6|"
 
 msgid "image6"
 msgstr "image6"
-
-#, fuzzy
-msgid ""
-"In the top view, make sure your *Camera3D* is selected and move the camera "
-"about ``19`` units on the Z axis (drag the blue arrow)."
-msgstr "在上面那個視圖中，將相機沿 Z 軸（藍色）移動 ``19`` 個單位。"
 
 msgid "|image7|"
 msgstr "|image7|"

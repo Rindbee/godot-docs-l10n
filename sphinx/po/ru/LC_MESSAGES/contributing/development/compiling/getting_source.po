@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,18 +26,6 @@ msgstr ""
 "Перед тем, как :ref:`попасть в систему сборки SCons "
 "<doc_introduction_to_the_buildsystem>` и скомпилировать Godot, вам нужно "
 "фактически загрузить исходный код Godot."
-
-msgid ""
-"The source code is available on `GitHub <https://github.com/godotengine/"
-"godot>`__ and while you can manually download it via the website, in general "
-"you want to do it via the ``git`` version control system."
-msgstr ""
-
-msgid ""
-"If you are compiling in order to make contributions or pull requests, you "
-"should follow the instructions from the :ref:`Pull Request workflow "
-"<doc_pr_workflow>`."
-msgstr ""
 
 msgid ""
 "If you don't know much about ``git`` yet, there are a great number of "
@@ -82,11 +65,6 @@ msgstr ""
 "com/godotengine/godot/releases>`__ и щёлкните по ссылке того выпуска который "
 "вы хотите. Тогда вы сможете загрузить и распаковать исходный код из "
 "загрузочной ссылки на странице."
-
-msgid ""
-"With ``git``, you can also clone a stable release by specifying its branch "
-"or tag after the ``--branch`` (or just ``-b``) argument::"
-msgstr ""
 
 msgid ""
 "There are also generally branches besides ``master`` for each major version."

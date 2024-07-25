@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,16 +137,6 @@ msgstr ""
 "在 Godot 中，遮蔽剔除的工作原理是將場景的遮蔽幾何圖形光柵化到 CPU 上的低解析"
 "度緩衝區。這是使用軟體光線追蹤庫 `Embree <https://github.com/embree/"
 "embree>`__ 完成的。"
-
-#, fuzzy
-msgid ""
-"The engine then uses this low-resolution buffer to test the occludee's :abbr:"
-"`AABB (Axis-Aligned Bounding Box)` against the occluder shapes. The "
-"occludee's :abbr:`AABB (Axis-Aligned Bounding Box)` must be *fully occluded* "
-"by the occluder shape to be culled."
-msgstr ""
-"然後，引擎使用此低解析度緩衝區來測試遮擋物的 AABB（軸對齊邊界框）與遮擋物形"
-"狀。被遮擋物的 AABB（軸對齊邊界框）必須被要剔除的遮擋物形狀「完全遮擋」。"
 
 msgid ""
 "As a result, smaller objects are more likely to be effectively culled than "

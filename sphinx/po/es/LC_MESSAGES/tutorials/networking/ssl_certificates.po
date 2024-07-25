@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,122 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "SSL/TLS certificates"
-msgstr "Certificados SSL"
-
 msgid "Introduction"
 msgstr "Introducción"
 
-#, fuzzy
-msgid ""
-"It is often desired to use :abbr:`SSL (Secure Sockets Layer)` connections "
-"(also known as :abbr:`TLS (Transport Layer Security)` connections) for "
-"communications to avoid \"man in the middle\" attacks. Godot has a "
-"connection wrapper, :ref:`StreamPeerTLS <class_StreamPeerTLS>`, which can "
-"take a regular connection and add security around it. The :ref:`HTTPClient "
-"<class_HTTPClient>` and :ref:`HTTPRequest <class_HTTPRequest>` classes also "
-"support HTTPS using this same wrapper."
-msgstr ""
-"A menudo se desea usar conexiones SSL para las comunicaciones para evitar "
-"ataques \"man in the middle\"(hombre en el medio). Godot tiene una envoltura "
-"de conexión, :ref:`StreamPeerSSL <class_StreamPeerSSL>`, que puede tomar una "
-"conexión regular y añadir seguridad a su alrededor. La clase :ref:"
-"`HTTPClient <class_HTTPClient>` también soporta HTTPS utilizando esta misma "
-"envoltura."
-
-#, fuzzy
-msgid ""
-"Godot includes the `SSL certificate bundle from Mozilla <https://github.com/"
-"godotengine/godot/blob/master/thirdparty/certs/ca-certificates.crt>`__, but "
-"you can provide your own with a CRT file in the Project Settings:"
-msgstr ""
-"Godot incluye un certificado SSL de Mozilla, pero puedes especificar un "
-"archivo .crt en los ajustes del proyecto:"
-
-msgid "Setting the TLS certificate bundle override project setting"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"When set, this file *overrides* the Mozilla certificate bundle Godot uses by "
-"default. This file should contain any number of public certificates in `PEM "
-"format <https://en.wikipedia.org/wiki/Privacy-enhanced_Electronic_Mail>`__."
-msgstr ""
-"Este archivo puede contener cualquier número de certificados públicos en "
-"`formato PEM <https://es.wikipedia.org/wiki/Privacy_Enhanced_Mail>`__."
-
-#, fuzzy
-msgid ""
-"Remember to add ``*.crt`` as the non-resource export filter to your export "
-"preset, so that the exporter recognizes this when exporting your project:"
-msgstr ""
-"Por supuesto, recuerda añadir .crt como filtro para que el exportador lo "
-"reconozca al exportar tu proyecto."
-
-msgid "Adding ``*.crt`` to non-resource export filter in the export preset"
-msgstr ""
-
 msgid "There are two ways to obtain certificates:"
 msgstr "Hay dos formas de obtener certificados:"
-
-msgid "Acquire a certificate from a certificate authority"
-msgstr ""
-
-msgid ""
-"The main approach to getting a certificate is to use a certificate authority "
-"(CA) such as `Let's Encrypt <https://letsencrypt.org/>`__. This is a more "
-"cumbersome process than a self-signed certificate, but it's more "
-"\"official\" and ensures your identity is clearly represented. The resulting "
-"certificate is also trusted by applications such as web browsers, unlike a "
-"self-signed certificate which requires additional configuration on the "
-"client side before it's considered trusted."
-msgstr ""
-
-msgid ""
-"These certificates do not require any configuration on the client to work, "
-"since Godot already bundles the Mozilla certificate bundle in the editor and "
-"exported projects."
-msgstr ""
-
-#, fuzzy
-msgid "Generate a self-signed certificate"
-msgstr "Enfoque 1: certificado autofirmado"
-
-msgid ""
-"For most use cases, it's recommended to go through certificate authority as "
-"the process is free with certificate authorities such as Let's Encrypt. "
-"However, if using a certificate authority is not an option, then you can "
-"generate a self-signed certificate and tell the client to consider your self-"
-"signed certificate as trusted."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"To create a self-signed certificate, generate a private and public key pair "
-"and add the public key (in PEM format) to the CRT file specified in the "
-"Project Settings."
-msgstr ""
-"El primer enfoque es el más simple: genera un par de claves privadas y "
-"públicas, y pon el par público en el archivo.crt (en formato PEM). La clave "
-"privada debe ir a tu servidor."
-
-msgid ""
-"The private key should **only** go to your server. The client must not have "
-"access to it: otherwise, the security of the certificate will be compromised."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"OpenSSL has `some documentation <https://raw.githubusercontent.com/openssl/"
-"openssl/master/doc/HOWTO/keys.txt>`__ about this. For local development "
-"purposes **only**, `mkcert <https://github.com/FiloSottile/mkcert>`__ can be "
-"used as an alternative."
-msgstr ""
-"OpenSSL tiene `algo de documentación <https://raw.githubusercontent.com/"
-"openssl/openssl/master/doc/HOWTO/keys.txt>`__ sobre esto. Este enfoque "
-"también **no requiere validación de dominio** ni requiere que tu gastes una "
-"cantidad considerable de dinero en la compra de certificados de una CA."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

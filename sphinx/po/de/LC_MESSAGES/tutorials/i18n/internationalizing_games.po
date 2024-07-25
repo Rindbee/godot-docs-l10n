@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,22 +17,6 @@ msgstr "Übersetzung von Spielen"
 
 msgid "Introduction"
 msgstr "Einführung"
-
-msgid ""
-"Sería excelente que el mundo hablara solo un idioma (It would be great if "
-"the world spoke only one language). Unfortunately for us developers, that is "
-"not the case. While indie or niche games usually do not need localization, "
-"games targeting a more massive market often require localization. Godot "
-"offers many tools to make this process more straightforward, so this "
-"tutorial is more like a collection of tips and tricks."
-msgstr ""
-"Sería excelente que el mundo hablara solo un idioma (Es wäre gut wenn die "
-"Welt nur eine Sprache sprechen würde). Zum Leidwesen für uns Entwickler ist "
-"dem nicht so. Kleine Indie- oder Nischenspiele benötigen keine "
-"Lokalisierung, größere Spiele die auf den breiten Massenmarkt zielen, "
-"benötigen dies aber auf jeden Fall. Godot bietet viele Tools, um diesen "
-"Prozess einfacher zu gestalten. Daher ähnelt diese Anleitung eher einer "
-"Sammlung von Tipps und Tricks."
 
 msgid ""
 "Localization is usually done by specific studios hired for the job. Despite "
@@ -194,7 +173,7 @@ msgstr ""
 "Sobald Sie die Schriftart heruntergeladen haben, laden Sie die TTF-Datei in "
 "eine DynamicFont-Ressource und verwenden Sie sie als benutzerdefinierte "
 "Schriftart für Ihren Control-Node. Um die Wiederverwendbarkeit zu "
-"verbessern, verknüpfen Sie eine neue Ressource für ein Thema mit Ihrem Root "
+"verbessern, verknüpfen Sie eine neue Ressource für ein Theme mit Ihrem Root "
 "Control-Node und definieren Sie die DynamicFont als Standardschriftart im "
 "Theme."
 
@@ -623,6 +602,15 @@ msgid ""
 "needed) for your project name translation. After doing that you can now type "
 "in the localized name."
 msgstr ""
+"Der Projektname wird beim Export auf verschiedene Betriebssysteme und "
+"Plattformen zum Namen der Anwendung. Um den Projektnamen in mehr als einer "
+"Sprache anzugeben, gehen Sie zu **Projekt > Projekteinstellungen > Anwendung "
+"> Konfig**. Klicken Sie hier auf den Button ``Lokalisierbarer String (Größe "
+"0)``. Nun sollte sich darunter ein Button mit der Aufschrift ``Add "
+"Translation`` befinden. Klicken Sie darauf und Sie werden auf eine Seite "
+"weitergeleitet, auf der Sie die Sprache (und ggf. das Land) für die "
+"Übersetzung Ihres Projektnamens auswählen können. Danach können Sie den "
+"lokalisierten Namen eintippen."
 
 msgid ""
 "If you are unsure about the language code to use, refer to the :ref:`list of "

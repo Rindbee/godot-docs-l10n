@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,12 +141,6 @@ msgstr "|image1|"
 msgid "image1"
 msgstr "image1"
 
-msgid ""
-"Sprite2D is a Node2D, a CanvasItem and a Node. It has all the properties and "
-"features of its three parent classes, like transforms or the ability to draw "
-"custom shapes and render with a custom shader."
-msgstr ""
-
 msgid "All-inclusive package"
 msgstr "Her-şeyi-içeren paket"
 
@@ -174,19 +163,6 @@ msgid "image2"
 msgstr "image2"
 
 msgid ""
-"The goal is to offer a full package to create games and a continuous user "
-"experience. You can still work with external programs as long as there is an "
-"import plugin available in Godot for it. Or you can create one, like the "
-"`Tiled Map Importer <https://github.com/vnen/godot-tiled-importer>`__."
-msgstr ""
-
-msgid ""
-"That is also partly why Godot offers its own programming language GDScript "
-"along with C#. GDScript is designed for the needs of game developers and "
-"game designers, and is tightly integrated in the engine and the editor."
-msgstr ""
-
-msgid ""
 "GDScript lets you write code using an indentation-based syntax, yet it "
 "detects types and offers a static language's quality of auto-completion. It "
 "is also optimized for gameplay code with built-in types like Vectors and "
@@ -196,12 +172,6 @@ msgstr ""
 "ama ayrıca tipleri algılar ve statik bir dil kalitesinde oto-tamamlama "
 "özelliği de sunar. Bunun yanında, Vector (vektör) ve Color (renk) gibi "
 "yerleşik tiplerle oynanış kodlama için en iyileştirilmiştir."
-
-msgid ""
-"Note that with GDExtension, you can write high-performance code using "
-"compiled languages like C, C++, Rust, D, Haxe, or Swift without recompiling "
-"the engine."
-msgstr ""
 
 msgid ""
 "Note that the 3D workspace doesn't feature as many tools as the 2D "
@@ -288,20 +258,6 @@ msgstr ""
 "getirdiği yeni özellikler, en başta kullanıcıların en çok yararlanacağı "
 "şeylere odaklıdır."
 
-#, fuzzy
-msgid ""
-"That said, although a handful of core developers work on it full-time, the "
-"project has thousands of contributors at the time of writing. Benevolent "
-"programmers work on features they may need themselves, so you'll see "
-"improvements in all corners of the engine at the same time in every major "
-"release."
-msgstr ""
-"Bunu demişken, çekirdek geliştiriclerden sadece bir kaçı tam-zamanlı "
-"çalışmasına rağmen, bu yazının yazım tarihi itibariyle projenin 600 den "
-"fazla katkıda bulunanı bulunuyor. Hayırsever programcılar, kendilerinin de "
-"ihtiyaç duydukları özellikler üzerinde çalışıyor, yani her büyük "
-"güncellemeyle aynı anda motorun her köşesinden geliştirmeler görebilirsiniz."
-
 msgid "The Godot editor is a Godot game"
 msgstr "Godot düzenleyicisi bir Godot oyunudur"
 
@@ -317,12 +273,6 @@ msgstr ""
 "anlamı, **aynı kodları kullanarak** oyunlarınızda sahneler oluşturabilir, "
 "veya **eklentiler yazıp düzenleyiciyi genişletebilirsiniz.**"
 
-msgid ""
-"This leads to a reliable and flexible UI system, as it powers the editor "
-"itself. With the ``@tool`` annotation, you can run any game code in the "
-"editor."
-msgstr ""
-
 msgid "|image5|"
 msgstr "|image5|"
 
@@ -337,13 +287,6 @@ msgstr ""
 "*RPG in a Box, Godot 2 ile yapılmış bir voxel RPG düzenleyicisidir. Düğüm-"
 "tabanlı programlama sistemi ve arayüzünün geri kalanı için, Godot'nun arayüz "
 "araçlarını kullanır.*"
-
-msgid ""
-"Put the ``@tool`` annotation at the top of any GDScript file and it will run "
-"in the editor. This lets you import and export plugins, create plugins like "
-"custom level editors, or create scripts with the same nodes and API you use "
-"in your projects."
-msgstr ""
 
 msgid ""
 "The editor is fully written in C++ and is statically compiled into the "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,38 +115,6 @@ msgstr "Існує кілька методів вимірювання проду
 
 msgid "Putting a start/stop timer around code of interest."
 msgstr "Встановлення таймера початку/зупинки навколо коду, який цікавить."
-
-#, fuzzy
-msgid "Using the :ref:`Godot profiler <doc_the_profiler>`."
-msgstr "Використання профайлера Godot."
-
-msgid "Using :ref:`external CPU profilers <doc_using_cpp_profilers>`."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Using external GPU profilers/debuggers such as `NVIDIA Nsight Graphics "
-"<https://developer.nvidia.com/nsight-graphics>`__, `Radeon GPU Profiler "
-"<https://gpuopen.com/rgp/>`__ or `Intel Graphics Performance Analyzers "
-"<https://www.intel.com/content/www/us/en/developer/tools/graphics-"
-"performance-analyzers/overview.html>`__."
-msgstr ""
-"Використання профайлерів/налагоджувачів графічного процесора, таких як "
-"`NVIDIA Nsight Graphics <https://developer.nvidia.com/nsight-graphics>`__, "
-"чи `apitrace <https://apitrace.github.io/>`__."
-
-msgid ""
-"Checking the frame rate (with V-Sync disabled). Third-party utilities such "
-"as `RivaTuner Statistics Server <https://www.guru3d.com/files-details/rtss-"
-"rivatuner-statistics-server-download.html>`__ (Windows) or `MangoHud "
-"<https://github.com/flightlessmango/MangoHud>`__ (Linux) can also be useful "
-"here."
-msgstr ""
-
-msgid ""
-"Using an unofficial `debug menu add-on <https://github.com/godot-extended-"
-"libraries/godot-debug-menu>`__."
-msgstr ""
 
 msgid ""
 "Be very aware that the relative performance of different areas can vary on "
@@ -294,14 +257,6 @@ msgstr ""
 "продуктивність можуть дати зворотний ефект і призвести до уповільнення "
 "роботи. **Завжди використовуйте профілювання та визначення часу, щоб "
 "відстежувати вплив своїх зусиль.**"
-
-#, fuzzy
-msgid ""
-"For more info about using Godot's built-in profiler, see :ref:"
-"`doc_the_profiler`."
-msgstr ""
-"Щоб отримати додаткові відомості про використання вбудованого профайлера "
-"Godot, див. :ref:`doc_debugger_panel`."
 
 msgid "Principles"
 msgstr "Принципи"

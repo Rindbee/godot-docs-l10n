@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,20 +301,6 @@ msgid ""
 "``origin`` vector to (1, 2):"
 msgstr ""
 "如果希望物件移動到 (1, 2) 的位置，只需將其 `origin` 向量設定為 (1, 2)："
-
-#, fuzzy
-msgid ""
-"There is also a ``translated_local()`` method, which performs a different "
-"operation to adding or changing ``origin`` directly. The "
-"``translated_local()`` method will translate the object *relative to its own "
-"rotation*. For example, an object rotated 90 degrees clockwise will move to "
-"the right when ``translated_local()`` with ``Vector2.UP``. To translate "
-"*relative to the global/parent frame* use ``translated()`` instead."
-msgstr ""
-"還有一個 `translated()` 方法，它執行的是與直接增加或更改 `origin` 不同的操"
-"作。這個 `translated()` 方法將讓該物件相對於它自己的旋轉進行平移。例如，順時"
-"針旋轉了 90 度的物件如果用 `Vector2.UP` 呼叫了 `translated()`，那麼它就會向右"
-"移動。"
 
 msgid ""
 "Godot's 2D uses coordinates based on pixels, so in actual projects you will "

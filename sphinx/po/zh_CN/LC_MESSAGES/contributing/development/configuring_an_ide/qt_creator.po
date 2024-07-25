@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,20 +101,6 @@ msgstr "调试项目"
 
 msgid "From the left-side menu select **Projects** and open the **Run** tab."
 msgstr "从左侧菜单选择 **项目** , 并打开 **运行** 选项卡."
-
-#, fuzzy
-msgid ""
-"Under **Executable** specify the path to your executable located in the "
-"``<Godot root directory>/bin`` folder. The name depends on your build "
-"configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD "
-"platform with ``platform=editor`` and ``dev_build=yes``. You can use "
-"``%{buildDir}`` to reference the project root, e.g: ``%{buildDir}/bin/godot."
-"linuxbsd.editor.dev.x86_64``."
-msgstr ""
-"在 **Executable** 下指定位于 ``<Godot根目录>/bin`` 文件夹中的可执行文件的路"
-"径. 文件名取决于你的编译配置, 例如: ``godot.x11.tools.64`` 对于64位X11平台, "
-"启用 ``tools`` . 你可以使用 ``%{buildDir}`` 来引用项目根目录, 例如: "
-"``%{buildDir}/bin/godot.x11.opt.tools.64`` ."
 
 msgid ""
 "If you want to run a specific project, specify its root folder under "

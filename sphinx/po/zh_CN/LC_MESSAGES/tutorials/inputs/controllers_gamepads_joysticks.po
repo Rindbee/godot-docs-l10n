@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -406,18 +401,6 @@ msgstr ""
 "如果按钮存在映射错误，可能是由于来自 `SDL 游戏控制器数据库 <https://github."
 "com/gabomdq/SDL_GameControllerDB>`__\\ 的错误的映射。你可以在链接的仓库中提交"
 "拉取请求，为下一个 Godot 版本提供映射更新。"
-
-#, fuzzy
-msgid ""
-"There are many ways to create mappings. One option is to use the mapping "
-"wizard in the `official Joypads demo <https://godotengine.org/asset-library/"
-"asset/2785>`__. Once you have a working mapping for your controller, you can "
-"test it by defining the ``SDL_GAMECONTROLLERCONFIG`` environment variable "
-"before running Godot:"
-msgstr ""
-"有很多方法来创建映射。一个选择是使用 `官方Joypads演示 <https://godotengine."
-"org/asset-library/asset/140>`__ 中的映射向导。一旦你有了控制器可工作的映射，"
-"你可以在运行Godot之前通过定义 ``SDL_GAMECONTROLLERCONFIG`` 环境变量来测试它:"
 
 msgid ""
 "To test mappings on non-desktop platforms or to distribute your project with "

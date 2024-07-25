@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,11 +29,6 @@ msgstr ""
 "chamado novamente no mesmo caminho de arquivo, o Recurso carregado "
 "anteriormente será referenciado. Naturalmente, os recursos carregados devem "
 "ser sem estado (stateless)."
-
-msgid ""
-"This guide assumes the reader knows how to create C++ modules and Godot data "
-"types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
-msgstr ""
 
 msgid "References"
 msgstr "Referências"
@@ -93,16 +83,6 @@ msgstr ""
 "Cada formato de arquivo consiste de um contêiner de dados e um "
 "``ResourceFormatLoader``."
 
-#, fuzzy
-msgid ""
-"ResourceFormatLoaders are classes which return all the necessary metadata "
-"for supporting new extensions in Godot. The class must return the format "
-"name and the extension string."
-msgstr ""
-"ResourceFormatLoaders geralmente são classes simples que retorna todos os "
-"metadados necessários para suportar extensões no Godot. A classe precisa "
-"retornar o nome do formato e a string da extensão."
-
 msgid ""
 "In addition, ResourceFormatLoaders must convert file paths into resources "
 "with the ``load`` function. To load a resource, ``load`` must read and "
@@ -114,11 +94,6 @@ msgstr ""
 
 msgid "Creating a ResourceFormatSaver"
 msgstr "Criando um ResourceFormatSaver"
-
-msgid ""
-"If you'd like to be able to edit and save a resource, you can implement a "
-"``ResourceFormatSaver``:"
-msgstr ""
 
 msgid "Creating custom data types"
 msgstr "Criando tipos de dados personalizados"
@@ -140,36 +115,11 @@ msgid "Considerations"
 msgstr "Considerações"
 
 msgid ""
-"Some libraries may not define certain common routines such as IO handling. "
-"Therefore, Godot call translations are required."
-msgstr ""
-
-msgid ""
 "For example, here is the code for translating ``FileAccess`` calls into "
 "``std::istream``."
 msgstr ""
 "Por exemplo, aqui está o código para traduzir chamadas de ``FileAccess`` em "
 "``std::istream``."
-
-#, fuzzy
-msgid "`istream <https://cplusplus.com/reference/istream/istream/>`_"
-msgstr "`istream <http://www.cplusplus.com/reference/istream/istream/>`_"
-
-#, fuzzy
-msgid ""
-"`streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`_"
-msgstr ""
-"`streambuf <http://www.cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`_"
-
-#, fuzzy
-msgid ""
-"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
-"core/os/file_access.h>`_"
-msgstr ""
-"`core/io/fileaccess.h <https://github.com/godotengine/godot/blob/master/core/"
-"os/file_access.h>`_"
 
 msgid "Registering the new file format"
 msgstr "Registrando o novo formato de arquivo"
@@ -184,11 +134,6 @@ msgstr ""
 
 msgid "Loading it on GDScript"
 msgstr "Carregando no GDScript"
-
-msgid ""
-"Save a file called ``demo.json`` with the following contents and place it in "
-"the project's root folder:"
-msgstr ""
 
 msgid "Then attach the following script to any node::"
 msgstr "Em seguida, anexe o seguinte script a qualquer nó:"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,17 +37,8 @@ msgstr ""
 "他の言語(C#、C++)を使用する場合、各言語がサポートしているスレッドクラスを使用"
 "する方が簡単な場合があります。"
 
-msgid ""
-"Before using a built-in class in a thread, read :ref:`doc_thread_safe_apis` "
-"first to check whether it can be safely used in a thread."
-msgstr ""
-
 msgid "Creating a Thread"
 msgstr "スレッドの作成"
-
-#, fuzzy
-msgid "To create a thread, use the following code:"
-msgstr "インターフェイスを有効にするには、次のコードを実行します:"
 
 msgid ""
 "Your function will, then, run in a separate thread until it returns. Even if "
@@ -65,26 +51,8 @@ msgstr ""
 "<class_Thread_method_wait_to_finish>` を呼び出し、(まだ終了していない場合は)"
 "スレッドが終了するまで待機し、適切に破棄します。"
 
-msgid ""
-"Creating threads at run-time is slow on Windows and should be avoided to "
-"prevent stuttering. Semaphores, explained later on this page, should be used "
-"instead."
-msgstr ""
-
 msgid "Mutexes"
 msgstr "ミューテックス"
-
-#, fuzzy
-msgid ""
-"Accessing objects or data from multiple threads is not always supported (if "
-"you do it, it will cause unexpected behaviors or crashes). Read the :ref:"
-"`doc_thread_safe_apis` documentation to understand which engine APIs support "
-"multiple thread access."
-msgstr ""
-"複数のスレッドからのオブジェクトまたはデータへのアクセスは常にサポートされて"
-"いるわけではありません(アクセスすると、予期しない動作やクラッシュが発生しま"
-"す)。\\ :ref:`Thread safe APIs<doc_thread_safe_apis>` を読んで、どのエンジン"
-"APIが複数のスレッドからのアクセスをサポートしているのかを理解してください。"
 
 msgid ""
 "When processing your own data or calling your own functions, as a rule, try "

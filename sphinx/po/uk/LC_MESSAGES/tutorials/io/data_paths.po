@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -195,9 +190,6 @@ msgstr "Windows: ``%APPDATA%\\[project_name]``"
 msgid "macOS: ``~/Library/Application Support/[project_name]``"
 msgstr "macOS: ``~/Library/Application Support/[project_name]``"
 
-msgid "Linux: ``~/.local/share/[project_name]``"
-msgstr ""
-
 msgid "Custom dir and name"
 msgstr "Власний каталог і ім'я"
 
@@ -225,18 +217,6 @@ msgid ""
 msgstr ""
 "На мобільних платформах цей шлях є унікальним для проекту і недоступний "
 "іншим додаткам з міркувань безпеки."
-
-#, fuzzy
-msgid ""
-"On HTML5 exports, ``user://`` will refer to a virtual filesystem stored on "
-"the device via IndexedDB. (Interaction with the main filesystem can still be "
-"performed through the :ref:`JavaScriptBridge <class_JavaScriptBridge>` "
-"singleton.)"
-msgstr ""
-"При експорті на HTML5, ``user://`` буде посилатися на віртуальну файлову "
-"систему, що зберігається на пристрої через IndexedDB. (Взаємодія з основною "
-"файловою системою все ще може здійснюватися через синглтон :ref:`JavaScript "
-"<class_JavaScript>`.)"
 
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "Перетворення шляхів на абсолютні або \"локальні\" шляхи"
@@ -285,33 +265,11 @@ msgstr ""
 msgid "Editor data"
 msgstr "Дані редактора"
 
-msgid "Windows: ``%APPDATA%\\Godot\\``"
-msgstr ""
-
-msgid "macOS: ``~/Library/Application Support/Godot/``"
-msgstr ""
-
-#, fuzzy
-msgid "Linux: ``~/.local/share/godot/``"
-msgstr "Linux: ``~/.local/share/godot/app_userdata/[project_name]``"
-
 msgid "Editor settings"
 msgstr "Параметри редактора"
 
-msgid "Linux: ``~/.config/godot/``"
-msgstr ""
-
 msgid "Cache"
 msgstr "Кеш"
-
-msgid "Windows: ``%TEMP%\\Godot\\``"
-msgstr ""
-
-msgid "macOS: ``~/Library/Caches/Godot/``"
-msgstr ""
-
-msgid "Linux: ``~/.cache/godot/``"
-msgstr ""
 
 msgid "**Editor data** contains export templates and project-specific data."
 msgstr ""

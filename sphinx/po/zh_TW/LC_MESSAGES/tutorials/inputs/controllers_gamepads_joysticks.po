@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -362,13 +357,6 @@ msgstr ""
 "首先，檢查你的控制器是否被其他應用程式識別。你可以使用 `Gamepad Tester "
 "<https://gamepad-tester.com/>`__ 網站來確認你的控制器被識別。"
 
-msgid ""
-"On Windows Godot only supports up to 4 controllers at a time. This is "
-"because Godot uses the XInput API, which is limited to supporting 4 "
-"controllers at once. Additional controllers above this limit are ignored by "
-"Godot."
-msgstr ""
-
 msgid "My controller has incorrectly mapped buttons or axes."
 msgstr "我的控制器的按鈕或軸對應不正確。"
 
@@ -400,18 +388,6 @@ msgstr ""
 "如果按鈕存在對應錯誤，可能是由於來自 `SDL 遊戲控制器資料庫 <https://github."
 "com/gabomdq/SDL_GameControllerDB>`__的錯誤的對應。你可以在連結的倉庫中提交拉"
 "取請求，為下一個 Godot 版本提供對應更新。"
-
-#, fuzzy
-msgid ""
-"There are many ways to create mappings. One option is to use the mapping "
-"wizard in the `official Joypads demo <https://godotengine.org/asset-library/"
-"asset/2785>`__. Once you have a working mapping for your controller, you can "
-"test it by defining the ``SDL_GAMECONTROLLERCONFIG`` environment variable "
-"before running Godot:"
-msgstr ""
-"有很多方法來建立對應。一個選擇是使用 `官方Joypads演示 <https://godotengine."
-"org/asset-library/asset/140>`__ 中的對應嚮導。一旦你有了控制器可工作的對應，"
-"你可以在運作Godot之前通過定義 ``SDL_GAMECONTROLLERCONFIG`` 環境變數來測試它:"
 
 msgid ""
 "To test mappings on non-desktop platforms or to distribute your project with "

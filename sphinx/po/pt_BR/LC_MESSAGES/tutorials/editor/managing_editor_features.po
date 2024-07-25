@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,22 +29,6 @@ msgstr ""
 "uma equipe que não precisa ver recursos 3D ou um educador apresentando "
 "recursos aos alunos aos poucos. Godot tem um sistema integrado chamado "
 "\"perfis de funcionalidades\" para fazer isso."
-
-#, fuzzy
-msgid ""
-"With feature profiles, major features and nodes can be hidden from the "
-"editor. This only hides parts of the interface and does not actually remove "
-"support for these features, so scenes and scripts relying on those features "
-"will still work fine. This also means feature profiles are not an "
-"optimization technique. For information on how to optimize Godot see :ref:"
-"`doc_performance`."
-msgstr ""
-"Com perfis de recursos, os principais recursos e nós podem ser ocultados do "
-"editor. Isso apenas oculta partes da interface e não remove o suporte para "
-"esses recursos, portanto, cenas e scripts que dependem desses recursos ainda "
-"funcionarão bem. Isso também significa que os perfis de recursos não são uma "
-"técnica de otimização. Para informações sobre como otimizar o Godot veja :"
-"ref:`doc_optimization`."
 
 msgid "Creating a profile"
 msgstr "Criando um perfil"

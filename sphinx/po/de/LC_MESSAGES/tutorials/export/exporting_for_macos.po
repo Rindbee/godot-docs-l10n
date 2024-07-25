@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +39,7 @@ msgstr ""
 "mit einer bestimmten Struktur, der die ausführbare Datei, die Bibliotheken "
 "und alle Projektdateien enthält. Dieses Paket kann als ZIP-Archiv oder DMG-"
 "Disk-Image exportiert werden (nur unterstützt, wenn von einem Computer mit "
-"macOS exportiert wird). Universelle Binärdateien für macOS unterstützen "
+"macOS exportiert wird). `Universelle Binärdateien für macOS unterstützen "
 "sowohl Intel x86_64 als auch ARM64 (Apple Silicon, d.h. M1)-Architekturen "
 "<https://developer.apple.com/documentation/apple-silicon/building-a-"
 "universal-macos-binary>`__."
@@ -246,7 +241,6 @@ msgid "Select ``Disabled`` in the ``Notarization > Notarization`` option."
 msgstr ""
 "Wählen Sie ``Deaktiviert`` in der Option ``Notarization > Notarization``."
 
-#, fuzzy
 msgid ""
 "In this case Godot will use an ad-hoc signature, which will make running an "
 "exported app easier for the end users, see the :ref:`Running Godot apps on "

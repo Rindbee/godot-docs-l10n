@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,8 +133,8 @@ msgid ""
 "You can add additional animations by clicking the \"Add Animation\" button "
 "and adding additional images."
 msgstr ""
-"Sie können weitere Animationen hinzufügen, indem Sie auf die Schaltfläche "
-"\"Animation hinzufügen\" klicken und weitere Bilder hinzufügen."
+"Sie können weitere Animationen hinzufügen, indem Sie auf den \"Animation "
+"hinzufügen\"-Button klicken und weitere Bilder hinzufügen."
 
 msgid "Controlling the animation"
 msgstr "Steuerung der Animation"
@@ -292,10 +287,10 @@ msgid ""
 "by \"New\". Name the new animation \"walk\". Set the animation length to "
 "``0.6`` and click the \"Loop\" button so that our animation will repeat."
 msgstr ""
-"Wählen Sie den ``AnimationPlayer`` und klicken Sie auf die Schaltfläche "
-"\"Animation\" und dann auf \"Neu\". Nennen Sie die neue Animation \"walk\". "
-"Setzen Sie die Länge der Animation auf ``0.6`` und klicken Sie auf den "
-"\"Loop\"-Button, damit die Animation wiederholt wird."
+"Wählen Sie den ``AnimationPlayer`` und klicken Sie auf den \"Animation\"-"
+"Button und dann auf \"Neu\". Nennen Sie die neue Animation \"walk\". Setzen "
+"Sie die Länge der Animation auf ``0.6`` und klicken Sie auf den \"Loop\"-"
+"Button, damit die Animation wiederholt wird."
 
 msgid ""
 "Now select the ``Sprite2D`` node and click the key icon to add a new track."

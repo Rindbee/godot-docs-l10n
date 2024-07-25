@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,6 +191,9 @@ msgid ""
 "player dies. Because we are stopping the MobTimer, it no longer triggers the "
 "``_on_mob_timer_timeout()`` function."
 msgstr ""
+"Observa también que el juego ya no se bloquea ni muestra un error cuando "
+"muere el jugador . Esto se debe a que hemos detenido el MobTimer, por lo que "
+"ya no activa la función ``_on_mob_timer_timeout()``."
 
 msgid ""
 "Also note that the enemy colliding with the player and dying depends on the "
@@ -235,12 +233,6 @@ msgstr ""
 
 msgid "Starting with ``main.gd``."
 msgstr "Empezando con ``main.gd``."
-
-msgid "Next is ``Mob.gd``."
-msgstr "A continuación ``Mob.gd``."
-
-msgid "Finally, the longest script, ``Player.gd``:"
-msgstr "Por último, el script más largo, ``Player.gd``:"
 
 msgid "See you in the next lesson to add the score and the retry option."
 msgstr ""

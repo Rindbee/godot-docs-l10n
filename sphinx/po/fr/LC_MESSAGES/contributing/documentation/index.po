@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,12 +25,6 @@ msgstr ""
 "nos directives de contenu et de rédaction ainsi que des guides concrets pour "
 "apporter des modifications à la documentation."
 
-msgid ""
-"Be sure to also check the :ref:`workflow guidelines "
-"<doc_contributing_workflow>`, especially if you're new to using Git or "
-"GitHub."
-msgstr ""
-
 msgid "Guidelines"
 msgstr "Lignes de guide"
 
@@ -48,14 +37,6 @@ msgstr ""
 
 msgid "Writing the manual"
 msgstr "Rédaction du manuel"
-
-#, fuzzy
-msgid ""
-"These articles explain how to contribute to this very documentation, and how "
-"to build the online version locally for testing."
-msgstr ""
-"Ce guide explique comment contribuer à la documentation de Godot, que ce "
-"soit en écrivant ou en révisant des pages."
 
 msgid "Class reference guides"
 msgstr "Guides de référence des classes"

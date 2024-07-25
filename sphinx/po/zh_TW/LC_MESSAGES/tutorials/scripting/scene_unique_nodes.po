@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +77,6 @@ msgstr "``get_node(\"%Eyes\")`` 傳回 **Eyes** 節點。"
 
 msgid "``get_node(\"%Hilt\")`` returns ``null``."
 msgstr "``get_node(\"%Hilt\")`` 回傳``null``。"
-
-#, fuzzy
-msgid ""
-"These are the results of ``get_node()`` calls inside the **Sword** script:"
-msgstr "這些是 **Blade** 腳本內的 ``get_node()`` 呼叫的結果："
 
 msgid "``get_node(\"%Eyes\")`` returns ``null``."
 msgstr "``get_node(\"%Eyes\")`` 回傳``null``。"

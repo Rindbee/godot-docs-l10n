@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1046,9 +1041,8 @@ msgstr ""
 "アルファ・アンチエイリアシング、MSAAアルファをカバレッジに変換、およびマテリ"
 "アルごとのアルファハッシュ。"
 
-#, fuzzy
 msgid "**Resolution scaling:**"
-msgstr "**反射:**"
+msgstr "**解像度スケーリング:**"
 
 msgid ""
 "Support for :ref:`rendering 3D at a lower resolution "
@@ -1056,26 +1050,25 @@ msgid ""
 "This can be used to improve performance on low-end systems or improve "
 "visuals on high-end systems."
 msgstr ""
+"2Dレンダリングは元のスケールのまま、 :ref:`3Dを低解像度でレンダリング "
+"<doc_resolution_scaling>`する機能をサポートしています。この機能は、低スペック"
+"のシステムでパフォーマンスを向上させたり、高スペックのシステムでビジュアルを"
+"改善したりするために使用できます。"
 
 msgid ""
 "Resolution scaling uses bilinear filtering, AMD FidelityFX Super Resolution "
 "1.0 (FSR1) or AMD FidelityFX Super Resolution 2.2 (FSR2)."
 msgstr ""
+"解像度スケーリングでは、バイリニアフィルタリング、AMDのFidelityFX Super "
+"Resolution 1.0（FSR1）、またはAMDのFidelityFX Super Resolution 2.2（FSR2）が"
+"使用されます。"
 
 msgid ""
 "Texture mipmap LOD bias is adjusted automatically to improve quality at "
 "lower resolution scales. It can also be modified with a manual offset."
 msgstr ""
-
-#, fuzzy
-msgid ""
-"Most effects listed above can be adjusted for better performance or to "
-"further improve quality. This can be helpful when :ref:`using Godot for "
-"offline rendering <doc_creating_movies>`."
-msgstr ""
-"これらエフェクトのほとんどは、より良いパフォーマンス、もしくはクオリティー改"
-"善のために調整できます。これはGodotをオフラインレンダリングで使用する際に役立"
-"ちます。"
+"テクスチャのミップマップLODバイアスは、低解像度スケールでの品質向上のために自"
+"動的に調整されます。また、手動でオフセットを変更することも可能です。"
 
 msgid "3D tools"
 msgstr "3Dツール"
@@ -1089,6 +1082,8 @@ msgstr ""
 
 msgid ":ref:`GridMaps <doc_using_gridmaps>` for 3D tile-based level design."
 msgstr ""
+":ref:`GridMaps <doc_using_gridmaps>` は、3Dタイルベースのレベルデザインに使用"
+"されす。"
 
 msgid ""
 ":ref:`Constructive solid geometry <doc_csg_tools>` (intended for "
@@ -1104,16 +1099,6 @@ msgstr "3D空間で経路を表現する Path3D ノード。"
 
 msgid "PathFollow3D node to make nodes follow a Path3D."
 msgstr "ノードを Path3D に追従させるためのノードである PathFollow3D。"
-
-#, fuzzy
-msgid ":ref:`3D geometry helper class <class_Geometry3D>`."
-msgstr "3Dジオメトリ用ヘルパークラス。"
-
-#, fuzzy
-msgid ""
-"Support for exporting the current scene as a glTF 2.0 file, both from the "
-"editor and at run-time from an exported project."
-msgstr "エディタから現在のシーンをglTF 2.0ファイルへエクスポート対応。"
 
 msgid "3D physics"
 msgstr "3D物理"
@@ -1182,11 +1167,6 @@ msgstr ""
 ":ref:`異なる言語でのスクリプティング <doc_cross_language_scripting>`\\ に対"
 "応。"
 
-#, fuzzy
-msgid ""
-"Many 2D, 3D and 4D linear algebra data types such as vectors and transforms."
-msgstr "ベクトルやトランスフォームといった、多くの2Dや3Dの線形代数データ型。"
-
 msgid ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 msgstr ":ref:`GDScript: <toc-learn-scripting-gdscript>`"
 
@@ -1250,14 +1230,15 @@ msgid ""
 "The web platform is currently unsupported. To use C# on that platform, "
 "consider Godot 3 instead."
 msgstr ""
+"現在、Webプラットフォームではサポートされていません。そのプラットフォームでC#"
+"を使用する場合は、代わりにGodot 3を検討してください。"
 
 msgid ""
 "Using an external editor is recommended to benefit from IDE functionality."
 msgstr "IDE の機能を利用できるため、外部エディタの使用をおすすめします。"
 
-#, fuzzy
 msgid "**GDExtension (C, C++, Rust, D, ...):**"
-msgstr "**GDNative (C、C++、Rust、D、...):**"
+msgstr "**GDエクステンション (C, C++, Rust, D, ...):**"
 
 msgid ""
 "When you need it, link to native libraries for higher performance and third-"
@@ -1277,6 +1258,8 @@ msgid ""
 "Official GDExtension bindings for `C <https://github.com/godotengine/godot-"
 "headers>`__ and `C++ <https://github.com/godotengine/godot-cpp>`__."
 msgstr ""
+"公式のGDExtensionは`C <https://github.com/godotengine/godot-headers>`__ およ"
+"び `C++ <https://github.com/godotengine/godot-cpp>`__ 用です。"
 
 msgid "Use any build system and language features you wish."
 msgstr "ビルドシステムや言語機能はなんでも使うことができます。"
@@ -1288,6 +1271,12 @@ msgid ""
 "com/godot-rust/gdextension>`__ bindings provided by the community. (Some of "
 "these bindings may be experimental and not production-ready)."
 msgstr ""
+"コミュニティによって提供されている、現在積極的に開発されているGDExtensionのバ"
+"インディングには`D <https://github.com/godot-dlang/godot-dlang>`__、`Haxe "
+"<https://hxgodot.github.io/>`__、`Swift <https://github.com/migueldeicaza/"
+"SwiftGodot>`__、そして、 `Rust <https://github.com/godot-rust/"
+"gdextension>`__ があります（一部のバインディングは実験的であり、本番向けでは"
+"ない場合があります）"
 
 msgid "Audio"
 msgstr "オーディオ"
@@ -1312,19 +1301,21 @@ msgid ""
 "Support for polyphony (playing several sounds from a single "
 "AudioStreamPlayer node)."
 msgstr ""
+"ポリフォニー（AudioStreamPlayerノードから複数の音声を同時に再生する機能）をサ"
+"ポートしています。"
 
-#, fuzzy
 msgid "Support for random volume and pitch."
-msgstr "ビジュアルシェーダープラグイン。"
+msgstr "ランダムボリュームとピッチをサポート。"
 
-#, fuzzy
 msgid "Support for real-time pitch scaling."
-msgstr "ビジュアルシェーダープラグイン。"
+msgstr "リアルタイムのピッチスケーリングをサポート。"
 
 msgid ""
 "Support for sequential/random sample selection, including repetition "
 "prevention when using random sample selection."
 msgstr ""
+"ランダム、または、連続的なサンプル選択や、ランダムサンプル選択時に重複を防止"
+"します。"
 
 msgid ""
 "Listener2D and Listener3D nodes to listen from a position different than the "
@@ -1332,13 +1323,8 @@ msgid ""
 msgstr ""
 "カメラとは異なる位置からリスニングするためのListener2DとListener3Dノード。"
 
-#, fuzzy
-msgid ""
-"Support for :ref:`procedural audio generation <class_AudioStreamGenerator>`."
-msgstr ":ref:`手続き型ジオメトリ生成 <toc-procedural_geometry>` 用ツール。"
-
 msgid "Audio input to record microphones."
-msgstr ""
+msgstr "マイクで録音するためのオーディオ入力。"
 
 msgid "MIDI input."
 msgstr "MIDI 入力。"
@@ -1367,10 +1353,6 @@ msgstr ":ref:`カスタムのインポート用プラグイン <doc_import_plugi
 msgid "**Formats:**"
 msgstr "**フォーマット:**"
 
-#, fuzzy
-msgid "*Images:* See :ref:`doc_importing_images`."
-msgstr "*画像:* :ref:`doc_import_images`\\ を参照。"
-
 msgid "*Audio:*"
 msgstr "*オーディオ:*"
 
@@ -1383,38 +1365,11 @@ msgstr "Ogg Vorbis。"
 msgid "MP3."
 msgstr "MP3."
 
-#, fuzzy
-msgid "*3D scenes:* See :ref:`doc_importing_3d_scenes`."
-msgstr "*画像:* :ref:`doc_import_images`\\ を参照。"
-
 msgid "glTF 2.0 *(recommended)*."
 msgstr "glTF 2.0 *(推奨)*。"
 
-msgid ""
-"``.blend`` (by calling Blender's glTF export functionality transparently)."
-msgstr ""
-
-msgid ""
-"FBX (by calling `FBX2glTF <https://github.com/godotengine/FBX2glTF>`__ "
-"transparently)."
-msgstr ""
-
 msgid "Collada (.dae)."
 msgstr "Collada(.dae)。"
-
-#, fuzzy
-msgid ""
-"Wavefront OBJ (static scenes only, can be loaded directly as a mesh or "
-"imported as a 3D scene)."
-msgstr "Wavefront OBJ (静的シーンのみ、メッシュとして直接ロード可能)。"
-
-#, fuzzy
-msgid ""
-"Support for loading glTF 2.0 scenes at run-time, including from an exported "
-"project."
-msgstr ""
-"ナビゲーションメッシュをエディタまたはランタイム (エクスポートされたプロジェ"
-"クトを含む) から生成します。"
 
 msgid ""
 "3D meshes use `Mikktspace <http://www.mikktspace.com/>`__ to generate "
@@ -1427,14 +1382,6 @@ msgstr ""
 
 msgid "Input"
 msgstr "入力"
-
-#, fuzzy
-msgid ""
-":ref:`Input mapping system <doc_input_examples>` using hardcoded input "
-"events or remappable input actions."
-msgstr ""
-"ハードコードされた入力イベントまたは再マップ可能な入力アクションを使用した入"
-"力マッピング・システム。"
 
 msgid ""
 "Axis values can be mapped to two different actions with a configurable "
@@ -1482,15 +1429,6 @@ msgid "Navigation"
 msgstr "ナビゲーション"
 
 msgid ""
-"A* algorithm in :ref:`2D <class_AStar2D>` and :ref:`3D <class_AStar3D>`."
-msgstr ""
-
-msgid ""
-"Navigation meshes with dynamic obstacle avoidance in :ref:`2D "
-"<doc_navigation_overview_2d>` and :ref:`3D <doc_navigation_overview_3d>`."
-msgstr ""
-
-msgid ""
 "Generate navigation meshes from the editor or at run-time (including from an "
 "exported project)."
 msgstr ""
@@ -1500,60 +1438,15 @@ msgstr ""
 msgid "Networking"
 msgstr "ネットワーク"
 
-#, fuzzy
-msgid ""
-"Low-level TCP networking using :ref:`class_StreamPeer` and :ref:"
-"`class_TCPServer`."
-msgstr "StreamPeer と TCP_Server を使用した低レベル TCP ネットワーキング。"
-
-#, fuzzy
-msgid ""
-"Low-level UDP networking using :ref:`class_PacketPeer` and :ref:"
-"`class_UDPServer`."
-msgstr "PacketPeer と UDPServer を使用した低レベル UDP ネットワーキング。"
-
-#, fuzzy
-msgid "Low-level HTTP requests using :ref:`class_HTTPClient`."
-msgstr "HTTPClient を使用した低レベルの HTTP リクエスト。"
-
-#, fuzzy
-msgid "High-level HTTP requests using :ref:`class_HTTPRequest`."
-msgstr "HTTPRequest を使用した高レベルの HTTP 要求。"
-
 msgid "Supports HTTPS out of the box using bundled certificates."
 msgstr ""
 "バンドルされた証明書を使用して、すぐに使用できるHTTPSをサポートします。"
-
-#, fuzzy
-msgid ""
-":ref:`High-level multiplayer <doc_high_level_multiplayer>` API using UDP and "
-"ENet."
-msgstr "UDP および ENet を使う高レベルのマルチプレイヤーAPI。"
 
 msgid "Automatic replication using remote procedure calls (RPCs)."
 msgstr "リモートプロシージャコール (RPC) を使用した自動レプリケーション。"
 
 msgid "Supports unreliable, reliable and ordered transfers."
 msgstr "信頼性の低い転送も、信頼性が高く順番が保証された転送もサポートします。"
-
-#, fuzzy
-msgid ""
-":ref:`WebSocket <doc_websocket>` client and server, available on all "
-"platforms."
-msgstr "すべてのプラットフォームで利用可能なWebSocketクライアントとサーバー。"
-
-#, fuzzy
-msgid ""
-":ref:`WebRTC <doc_webrtc>` client and server, available on all platforms."
-msgstr "WebRTCクライアントとサーバー。すべてのプラットフォームで利用可能。"
-
-#, fuzzy
-msgid ""
-"Support for :ref:`UPnP <class_UPNP>` to sidestep the requirement to forward "
-"ports when hosting a server behind a NAT."
-msgstr ""
-"NAT の背後でサーバーをホストしているときに、ポート転送の必要を回避するための "
-"UPnP に対応。"
 
 msgid "Internationalization"
 msgstr "国際化"
@@ -1568,10 +1461,6 @@ msgstr ""
 ":ref:`CSV <doc_internationalizing_games>` または :ref:`gettext "
 "<doc_localization_using_gettext>` を用いてローカライズ文字列を格納します。"
 
-#, fuzzy
-msgid "Support for generating gettext POT and PO files from the editor."
-msgstr "エディタから現在のシーンをglTF 2.0ファイルへエクスポート対応。"
-
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
 "using the ``tr()`` function."
@@ -1579,34 +1468,11 @@ msgstr ""
 "プロジェクト内のGUI要素中で自動的にローカライズされた文字列を使うか、 "
 "``tr()`` 関数を使ってください。"
 
-msgid ""
-"Support for pluralization and translation contexts when using gettext "
-"translations."
-msgstr ""
-
-msgid ""
-"Support for :ref:`bidirectional typesetting "
-"<doc_internationalizing_games_bidi>`, text shaping and OpenType localized "
-"forms."
-msgstr ""
-
-msgid "Automatic UI mirroring for right-to-left locales."
-msgstr ""
-
-msgid ""
-"Support for pseudolocalization to test your project for i18n-friendliness."
-msgstr ""
-
 msgid "Windowing and OS integration"
 msgstr "ウィンドウおよびOSの統合"
 
 msgid "Spawn multiple independent windows within a single process."
-msgstr ""
-
-#, fuzzy
-msgid "Move, resize, minimize, and maximize windows spawned by the project."
-msgstr ""
-"プロジェクトによって生成されたウィンドウの移動、サイズ変更、最小化、最大化。"
+msgstr "単一プロセス内で複数の独立したウィンドウ生成に対応。"
 
 msgid "Change the window title and icon."
 msgstr "ウィンドウのタイトルおよびアイコンの変更。"
@@ -1623,23 +1489,12 @@ msgid ""
 "Uses borderless fullscreen by default on Windows for fast alt-tabbing, but "
 "can optionally use exclusive fullscreen to reduce input lag."
 msgstr ""
-
-#, fuzzy
-msgid "Borderless windows (fullscreen or non-fullscreen)."
-msgstr "ボーダー無しウィンドウ (全画面または非全画面)。"
-
-#, fuzzy
-msgid "Ability to keep a window always on top."
-msgstr "ウィンドウを常に最前面に保つ機能。"
+"Windowsではalt-tabショートカット使用時の高速化のため基本的にボーダーレスフル"
+"スクリーンを使用するが、入力遅延の軽減のためオプションで排他的フルスクリーン"
+"も選択可能。"
 
 msgid "Global menu integration on macOS."
 msgstr "macOSでのグローバルメニュー統合。"
-
-#, fuzzy
-msgid ""
-"Execute commands in a blocking or non-blocking manner (including running "
-"multiple instances of the same project)."
-msgstr "ブロッキングまたは非ブロッキングでのコマンド実行。"
 
 msgid ""
 "Open file paths and URLs using default or custom protocol handlers (if "
@@ -1657,6 +1512,10 @@ msgid ""
 "the ``--headless`` command line argument. This allows running the engine "
 "without a GPU or display server."
 msgstr ""
+"全てのGodotバイナリ(エディタおよびエクスポートされたプロジェクト)は、コマンド"
+"ライン引数``--headless``で始めることで :ref:`headlessサーバーとして扱えます"
+"<doc_exporting_for_dedicated_servers>`.これによりGPUやディスプレイサーバー無"
+"しでエンジンを起動できます."
 
 msgid "Mobile"
 msgstr "モバイル"
@@ -1665,40 +1524,14 @@ msgid ""
 "In-app purchases on :ref:`Android <doc_android_in_app_purchases>` and :ref:"
 "`iOS <doc_plugins_for_ios>`."
 msgstr ""
+":ref:`Android <doc_android_in_app_purchases>`および:ref:`iOS "
+"<doc_plugins_for_ios>`でのアプリ内購入."
 
 msgid "Support for advertisements using third-party modules."
 msgstr "サードパーティモジュールを利用した広告に対応。"
 
 msgid "XR support (AR and VR)"
 msgstr "XR (ARおよびVR) に対応"
-
-msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular desktop headsets like the Valve Index, WMR "
-"headsets, and Quest over Link."
-msgstr "Meta Quest や Valve Index のような人気のあるヘッドセットに対応。"
-
-msgid ""
-"Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
-"OpenXR through a plugin."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
-"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
-msgstr "Meta Quest や Valve Index のような人気のあるヘッドセットに対応。"
-
-msgid "Other devices supported through an XR plugin structure."
-msgstr ""
-
-msgid ""
-"Various advanced toolkits are available that implement common features "
-"required by XR applications."
-msgstr ""
 
 msgid "GUI system"
 msgstr "GUIシステム"
@@ -1720,30 +1553,11 @@ msgstr "ボタン。"
 msgid "Checkboxes, check buttons, radio buttons."
 msgstr "チェックボックス、チェックボタン、ラジオボタン。"
 
-msgid ""
-"Text entry using :ref:`class_LineEdit` (single line) and :ref:"
-"`class_TextEdit` (multiple lines). TextEdit also supports code editing "
-"features such as displaying line numbers and syntax highlighting."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Dropdown menus using :ref:`class_PopupMenu` and :ref:`class_OptionButton`."
-msgstr "PopupMenuとOptionButtonを使ったドロップダウンメニュー。"
-
 msgid "Scrollbars."
 msgstr "スクロールバー。"
 
 msgid "Labels."
 msgstr "ラベル。"
-
-#, fuzzy
-msgid ""
-"RichTextLabel for :ref:`text formatted using BBCode "
-"<doc_bbcode_in_richtextlabel>`, with support for animated custom effects."
-msgstr ""
-":ref:`BBCodeでフォーマットされたテキスト用の <doc_bbcode_in_richtextlabel>` "
-"RichTextLabel。"
 
 msgid "Trees (can also be used to represent tables)."
 msgstr "ツリー (表の表現にも使えます)。"
@@ -1769,31 +1583,9 @@ msgstr ":ref:`スタック <class_BoxContainer>`\\ レイアウト。"
 msgid ":ref:`Grid <class_GridContainer>` layouts."
 msgstr ":ref:`グリッド <class_GridContainer>`\\ レイアウト。"
 
-#, fuzzy
-msgid ""
-":ref:`Flow <class_FlowContainer>` layouts (similar to autowrapping text)."
-msgstr ":ref:`スタック <class_BoxContainer>`\\ レイアウト。"
-
-#, fuzzy
-msgid ""
-":ref:`Margin <class_MarginContainer>`, :ref:`centered "
-"<class_CenterContainer>` and :ref:`aspect ratio "
-"<class_AspectRatioContainer>` layouts."
-msgstr ""
-":ref:`マージン <class_MarginContainer>` 及び :ref:`中央に配置する "
-"<class_CenterContainer>` レイアウト。"
-
 msgid ":ref:`Draggable splitter <class_SplitContainer>` layouts."
 msgstr ""
 ":ref:`ドラッグ可能な分割(スプリッタ) <class_SplitContainer>` レイアウト。"
-
-#, fuzzy
-msgid ""
-"Scale to :ref:`multiple resolutions <doc_multiple_resolutions>` using the "
-"``canvas_items`` or ``viewport`` stretch modes."
-msgstr ""
-"``2d`` または ``viewport`` を使用して複数の解像度にスケールするストレッチモー"
-"ド。"
 
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
@@ -1870,11 +1662,6 @@ msgstr ""
 msgid "Binary formats are faster to save/load for large scenes/resources."
 msgstr "バイナリ形式は、大きなシーンやリソースの保存・読み込みがより高速です。"
 
-#, fuzzy
-msgid "Read and write text or binary files using :ref:`class_FileAccess`."
-msgstr ""
-":ref:`class_File` を使用した、テキストファイルやバイナリファイルの読み書き。"
-
 msgid "Can optionally be compressed or encrypted."
 msgstr "オプションで圧縮や暗号化が可能です。"
 
@@ -1895,12 +1682,6 @@ msgid "Read XML files using :ref:`class_XMLParser`."
 msgstr "ref:`class_XMLParser` を使用した、XMLファイルの読み込み。"
 
 msgid ""
-":ref:`Load and save images, audio/video, fonts and ZIP archives "
-"<doc_runtime_loading_and_saving>` in an exported project without having to "
-"go through Godot's import system."
-msgstr ""
-
-msgid ""
 "Pack game data into a PCK file (custom format optimized for fast seeking), "
 "into a ZIP archive, or directly into the executable for single-file "
 "distribution."
@@ -1917,16 +1698,6 @@ msgstr ""
 
 msgid "Miscellaneous"
 msgstr "その他"
-
-msgid ""
-":ref:`Video playback <doc_playing_videos>` with built-in support for Ogg "
-"Theora."
-msgstr ""
-
-msgid ""
-":ref:`Movie Maker mode <doc_creating_movies>` to record videos from a "
-"running project with synchronized audio and perfect frame pacing."
-msgstr ""
 
 msgid ""
 ":ref:`Low-level access to servers <doc_using_servers>` which allows "
@@ -1954,23 +1725,6 @@ msgstr ""
 "dist/shell>`__ は、Bash、zsh、fishで利用可能。"
 
 msgid ""
-"Print colored text to standard output on all platforms using :ref:"
-"`print_rich <class_@GlobalScope_method_print_rich>`."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Support for :ref:`C++ modules <doc_custom_modules_in_cpp>` statically linked "
-"into the engine binary."
-msgstr ""
-"エンジンのバイナリに静的リンクされた :ref:`C++ モジュール "
-"<doc_custom_modules_in_c++>` に対応。"
-
-#, fuzzy
-msgid "Engine and editor written in C++17."
-msgstr "C++03で書かれたエンジンとエディター。"
-
-msgid ""
 "Can be :ref:`compiled <doc_introduction_to_the_buildsystem>` using GCC, "
 "Clang and MSVC. MinGW is also supported."
 msgstr ""
@@ -1988,14 +1742,6 @@ msgstr ""
 
 msgid "Licensed under the permissive MIT license."
 msgstr "ライセンスは、寛容なMITライセンスです。"
-
-#, fuzzy
-msgid ""
-"Open development process with :ref:`contributions welcome "
-"<doc_ways_to_contribute>`."
-msgstr ""
-"オープンな開発プロセスで、 :ref:`あらゆる貢献を歓迎します "
-"<doc_ways_to_contribute>`\\ 。"
 
 msgid ""
 "The `Godot proposals repository <https://github.com/godotengine/godot-"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -333,17 +328,6 @@ msgstr "讓 ``{text}`` 使用 ``RichTextLabel`` 的等寬字形。"
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{text}[/code]``"
 
-#, fuzzy
-msgid "**char**"
-msgstr "char"
-
-msgid "Adds Unicode character with hexadecimal UTF-32 ``{codepoint}``."
-msgstr ""
-
-#, fuzzy
-msgid "``[char={codepoint}]``"
-msgstr "``[outline_color={code/name}]``"
-
 msgid "**p**"
 msgstr "**p**"
 
@@ -374,10 +358,6 @@ msgstr "``[center]{text}[/center]``"
 
 msgid "**left**"
 msgstr "**left**"
-
-#, fuzzy
-msgid "Makes ``{text}`` horizontally left-aligned."
-msgstr "使得 {text} 右對齊."
 
 msgid "Same as ``[p align=left]``."
 msgstr "與“[palign=left]”相同。"
@@ -411,11 +391,6 @@ msgstr "``[fill]{text}[/fill]``"
 
 msgid "**indent**"
 msgstr "**indent**"
-
-msgid ""
-"Indents ``{text}`` once. The indentation width is the same as with ``[ul]`` "
-"or ``[ol]``, but without a bullet point."
-msgstr ""
 
 msgid "``[indent]{text}[/indent]``"
 msgstr "``[indent]{text}[/indent]``"
@@ -474,20 +449,6 @@ msgid ""
 "If both ``{width}`` and ``{height}`` are provided, the image will be scaled "
 "to that size."
 msgstr "如果同時提供了“{width}”和“{height}”，則圖像將縮放到該尺寸。"
-
-msgid ""
-"Add ``%`` to the end of ``{width}`` or ``{height}`` value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"If ``{valign}`` configuration is provided, the image will try to align to "
-"the surrounding text, see :ref:"
-"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
-msgstr ""
-"如果提供了「{valign}」配置，圖像將嘗試與周圍的文字對齊，請參閱:ref:"
-"`doc_bbcode_in_richtextlabel_image_alignment`。"
 
 msgid ""
 "Supports configuration options, see :ref:"
@@ -558,15 +519,6 @@ msgstr ""
 "數、零或負數。負頂部和底部邊距對於允許段落的其餘部分顯示在首字下沉下方特別有"
 "用。"
 
-#, fuzzy
-msgid ""
-"``[dropcap font={font} font_size={size} color={color} outline_size={size} "
-"outline_color={color} margins={left},{top},{right},{bottom}]{text}[/"
-"dropcap]``"
-msgstr ""
-"``[dropcap font_size={size} color={color} margins={left},{top},{right},"
-"{bottom}]{text}[/dropcap]``"
-
 msgid "**opentype_features**"
 msgstr "**功能：**"
 
@@ -585,23 +537,6 @@ msgstr "``{project}``"
 
 msgid "``[/opentype_features]``"
 msgstr "``[/opentype_features]``"
-
-#, fuzzy
-msgid "**lang**"
-msgstr "**specular_phong**"
-
-msgid ""
-"Overrides the language for ``{text}`` that is set by the **BiDi > Language** "
-"property in :ref:`class_RichTextLabel`. ``{code}`` must be an ISO :ref:"
-"`language code <doc_locales>`. This can be used to enforce the use of a "
-"specific script for a language without starting a new paragraph. Some font "
-"files may contain script-specific substitutes, in which case they will be "
-"used."
-msgstr ""
-
-#, fuzzy
-msgid "``[lang={code}]{text}[/lang]``"
-msgstr "``[color={code/name}]{text}[/color]``"
 
 msgid "**color**"
 msgstr "**color**"
@@ -678,29 +613,7 @@ msgid ""
 "define table cells."
 msgstr "建立一個包含「{number}」欄位的表。使用“cell”標籤來定義表格儲存格。"
 
-#, fuzzy
-msgid ""
-"If ``{valign}`` configuration is provided, the table will try to align to "
-"the surrounding text, see :ref:"
-"`doc_bbcode_in_richtextlabel_image_and_table_alignment`."
-msgstr ""
-"如果提供了「{valign}」配置，圖像將嘗試與周圍的文字對齊，請參閱:ref:"
-"`doc_bbcode_in_richtextlabel_image_alignment`。"
-
-msgid ""
-"If baseline alignment is used, the table is aligned to the baseline of the "
-"row with index ``{alignment_row}`` (zero-based)."
-msgstr ""
-
 msgid "``[table={number}]{cells}[/table]``"
-msgstr "``[table={number}]{cells}[/table]``"
-
-#, fuzzy
-msgid "``[table={number},{valign}]{cells}[/table]``"
-msgstr "``[table={number}]{cells}[/table]``"
-
-#, fuzzy
-msgid "``[table={number},{valign},{alignment_row}]{cells}[/table]``"
 msgstr "``[table={number}]{cells}[/table]``"
 
 msgid "**cell**"
@@ -867,12 +780,6 @@ msgstr "**align**"
 msgid "`Values`"
 msgstr "值"
 
-#, fuzzy
-msgid ""
-"``left`` (or ``l``), ``center`` (or ``c``), ``right`` (or ``r``), ``fill`` "
-"(or ``f``)"
-msgstr "``left``、``center``、``right``、``fill``"
-
 msgid "`Default`"
 msgstr "預設"
 
@@ -885,43 +792,14 @@ msgstr "文字水平對齊。"
 msgid "**bidi_override**, **st**"
 msgstr "**bidi_override**、**st**"
 
-#, fuzzy
-msgid ""
-"``default`` (of ``d``), ``uri`` (or ``u``), ``file`` (or ``f``), ``email`` "
-"(or ``e``), ``list`` (or ``l``), ``none`` (or ``n``), ``custom`` (or ``c``)"
-msgstr ""
-"``default``、``uri``、``file``、``email``、``list``、``none``、``custom``"
-
 msgid "``default``"
 msgstr "預設"
 
 msgid "Structured text override."
 msgstr "結構化文字覆蓋。"
 
-msgid "**justification_flags**, **jst**"
-msgstr ""
-
-msgid ""
-"Comma-separated list of the following values: ``kashida`` (or ``k``), "
-"``word`` (or ``w``), ``trim`` (or ``tr``), ``after_last_tab`` (or ``lt``), "
-"``skip_last`` (or ``sl``), ``skip_last_with_chars`` (or ``sv``),  "
-"``do_not_skip_single`` (or ``ns``)."
-msgstr ""
-
-msgid "``word,kashida,skip_last,do_not_skip_single``"
-msgstr ""
-
-msgid ""
-"Justification (fill alignment) option. See :ref:`class_TextServer` for more "
-"details."
-msgstr ""
-
 msgid "**direction**, **dir**"
 msgstr "**direction**、**dir**"
-
-#, fuzzy
-msgid "``ltr`` (or ``l``), ``rtl`` (or ``r``), ``auto`` (or ``a``)"
-msgstr "``-h``, ``--help``, ``/?``"
 
 msgid "Inherit"
 msgstr "繼承"
@@ -934,29 +812,6 @@ msgstr "**language**、**lang**"
 
 msgid "ISO language codes. See :ref:`doc_locales`"
 msgstr "**圖片:** 請參閱 :ref:`doc_import_images` 。"
-
-msgid ""
-"Locale override. Some font files may contain script-specific substitutes, in "
-"which case they will be used."
-msgstr ""
-
-#, fuzzy
-msgid "**tab_stops**"
-msgstr "**table**"
-
-msgid "List of floating-point numbers, e.g. ``10.0,30.0``"
-msgstr ""
-
-msgid "Width of the space character in the font"
-msgstr ""
-
-msgid ""
-"Overrides the horizontal offsets for each tab character. When the end of the "
-"list is reached, the tab stops will loop over. For example, if you set "
-"``tab_stops`` to ``10.0,30.0``, the first tab will be at ``10`` pixels, the "
-"second tab will be at ``10 + 30 = 40`` pixels, and the third tab will be at "
-"``10 + 30 + 10 = 50`` pixels from the origin of the RichTextLabel."
-msgstr ""
 
 msgid "Handling ``[url]`` tag clicks"
 msgstr "處理 ``[url]`` 標籤點擊"
@@ -1008,18 +863,8 @@ msgstr "**height**"
 msgid "Integer number"
 msgstr "整數"
 
-msgid ""
-"Target height of the image in pixels, add ``%`` to the end of value to "
-"specify it as percentages of the control width instead of pixels."
-msgstr ""
-
 msgid "**width**"
 msgstr "**width**"
-
-msgid ""
-"Target width of the image, add ``%`` to the end of value to specify it as "
-"percentages of the control width instead of pixels."
-msgstr ""
 
 msgid "**region**"
 msgstr "**版本**"
@@ -1032,58 +877,8 @@ msgid ""
 "spritesheet."
 msgstr "圖像的區域框。可用於顯示精靈表中的單個圖像。"
 
-#, fuzzy
-msgid "**pad**"
-msgstr "**錯誤例** :"
-
-#, fuzzy
-msgid "``false``, ``true``"
-msgstr "``-e``, ``--editor``"
-
-#, fuzzy
-msgid "``false``"
-msgstr "``if x else``"
-
-msgid ""
-"If set to ``true``, and the image is smaller than the size specified by "
-"``width`` and ``height``, the image padding is added to match the size "
-"instead of upscaling."
-msgstr ""
-
-msgid "**tootip**"
-msgstr ""
-
 msgid "String"
 msgstr "字串"
-
-#, fuzzy
-msgid "Image tooltip."
-msgstr "匯入選項"
-
-#, fuzzy
-msgid "Image and table vertical alignment"
-msgstr "變數與賦值"
-
-#, fuzzy
-msgid ""
-"When a vertical alignment value is provided with the ``[img]`` or "
-"``[table]``` tag the image/table will try to align itself against the "
-"surrounding text. Alignment is performed using a vertical point of the image "
-"and a vertical point of the text. There are 3 possible points on the image "
-"(``top``, ``center``, and ``bottom``) and 4 possible points on the text and "
-"table (``top``, ``center``, ``baseline``, and ``bottom``), which can be used "
-"in any combination."
-msgstr ""
-"當使用“[img]”標籤提供垂直對齊值時，圖像將嘗試將自身與周圍的文字對齊。使用影像"
-"的垂直點和文字的垂直點來執行對齊。圖像上有 3 個可能的點（「頂部」、「中心」和"
-"「底部」），文字上有 4 個可能的點（「頂部」、「中心」、「基線``和``底部"
-"``） ，可以任意組合使用。"
-
-#, fuzzy
-msgid ""
-"To specify both points, use their full or short names as a value of the "
-"image/table tag:"
-msgstr "若要指定這兩個點，請使用它們的全名或簡稱作為圖像標籤的值："
 
 msgid ""
 "You can also specify just one value (``top``, ``center``, or ``bottom``) to "
@@ -1120,102 +915,6 @@ msgstr "數位，單位為像素。"
 
 msgid "Custom font size."
 msgstr "自定 Godot 伺服器"
-
-#, fuzzy
-msgid "**glyph_spacing**, **gl**"
-msgstr "**language**、**lang**"
-
-msgid "Extra spacing for each glyph."
-msgstr ""
-
-#, fuzzy
-msgid "**glyph_spacing**, **sp**"
-msgstr "**size**、**s**"
-
-msgid "Extra spacing for the space character."
-msgstr ""
-
-#, fuzzy
-msgid "**top_spacing**, **top**"
-msgstr "**size**、**s**"
-
-#, fuzzy
-msgid "Extra spacing at the top of the line."
-msgstr "非位於行尾的逗號之後。"
-
-#, fuzzy
-msgid "**bottom_spacing**, **bt**"
-msgstr "**磅**，**rb**"
-
-msgid "Extra spacing at the bottom of the line."
-msgstr ""
-
-#, fuzzy
-msgid "**embolden**, **emb**"
-msgstr "**磅**，**rb**"
-
-#, fuzzy
-msgid "Floating-point number."
-msgstr "浮點數字"
-
-#, fuzzy
-msgid "``0.0``"
-msgstr "``0.50``"
-
-msgid ""
-"Font embolden strength, if it is not equal to zero, emboldens the font "
-"outlines. Negative values reduce the outline thickness."
-msgstr ""
-
-#, fuzzy
-msgid "**face_index**, **fi**"
-msgstr "**name**、**n**"
-
-#, fuzzy
-msgid "Integer number."
-msgstr "整數"
-
-msgid "``0``"
-msgstr ""
-
-msgid "An active face index in the TrueType / OpenType collection."
-msgstr ""
-
-#, fuzzy
-msgid "**slant**, **sln**"
-msgstr "**language**、**lang**"
-
-msgid ""
-"Font slant strength, positive values slant glyphs to the right. Negative "
-"values to the left."
-msgstr ""
-
-msgid "**opentype_variation**, **otv**"
-msgstr ""
-
-msgid "Comma-separated list of the OpenType variation tags."
-msgstr ""
-
-msgid ""
-"Font OpenType variation coordinates. See `OpenType variation tags <https://"
-"docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg>`__."
-msgstr ""
-
-msgid ""
-"Note: The value should be enclosed in ``\"`` to allow using ``=`` inside it:"
-msgstr ""
-
-#, fuzzy
-msgid "**opentype_features**, **otf**"
-msgstr "**功能：**"
-
-msgid "Comma-separated list of the OpenType feature tags."
-msgstr ""
-
-msgid ""
-"Font OpenType features. See `OpenType features tags <https://docs.microsoft."
-"com/en-us/typography/opentype/spec/featuretags>`__."
-msgstr ""
 
 msgid "Named colors"
 msgstr "有名稱的型別"
@@ -1282,20 +981,6 @@ msgid ""
 msgstr ""
 "單元格背景顏色。對於交替奇數/偶數行背景，您可以使用``bg=odd_color,"
 "even_color``。"
-
-#, fuzzy
-msgid "**padding**"
-msgstr "**specular_phong**"
-
-#, fuzzy
-msgid "4 comma-separated floating-point numbers"
-msgstr "浮點數字"
-
-msgid "0, 0, 0, 0"
-msgstr ""
-
-msgid "Left, top, right, and bottom cell padding."
-msgstr ""
 
 msgid "Unordered list bullet"
 msgstr "或無序集合："
@@ -1376,23 +1061,6 @@ msgstr ""
 
 msgid "Pulse"
 msgstr "脈衝"
-
-#, fuzzy
-msgid ""
-"Pulse creates an animated pulsing effect that multiplies each character's "
-"opacity and color. It can be used to bring attention to specific text. Its "
-"tag format is ``[pulse freq=1.0 color=#ffffff40 ease=-2.0]{text}[/pulse]``."
-msgstr ""
-"淡入淡出創造靜態淡入淡出效果，使每個角色的不透明度倍增。其標籤格式為``[fade "
-"start=4 length=14]{text}[/fade]``。"
-
-msgid ""
-"``freq`` controls the frequency of the half-pulsing cycle (higher is "
-"faster). A full pulsing cycle takes ``2 * (1.0 / freq)`` seconds. ``color`` "
-"is the target color multiplier for blinking. The default mostly fades out "
-"text, but not entirely. ``ease`` is the easing function exponent to use. "
-"Negative values provide in-out easing, which is why the default is ``-2.0``."
-msgstr ""
 
 msgid "Wave"
 msgstr "波浪"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,17 +70,6 @@ msgstr "Ou pode ser feito juntando a ação em ``Dope Sheet``"
 msgid "**2. Check mute status of NLA tracks**"
 msgstr "**2. Verificar o estado mute das faixas NLA**"
 
-#, fuzzy
-msgid ""
-"An NLA track can be ``mute`` or ``unmute``, the exporter will export all the "
-"``mute`` NLA track as a separate action, while blends all the ``unmute`` NLA "
-"tracks into every action (including the action) being exported."
-msgstr ""
-"Uma trilha NLA pode ser ``mute`` ou ``unmute``, o exportador irá exportar "
-"todas as trilhas NLA com ``mute`` como uma ação separada, enquanto mistura "
-"todas as trilhas NLA ``unmute`` em todas as ações (incluiondo a ação de "
-"ação) sendo exportadas."
-
 msgid "**3. Export the scene**"
 msgstr "**4. Exportar a cena**"
 
@@ -115,18 +99,6 @@ msgstr ""
 
 msgid "Animation Mode"
 msgstr "Modo de Animação"
-
-#, fuzzy
-msgid ""
-"Godot and Blender have different structure to store animation data. In Godot "
-"animation data is stored in an AnimationPlayer node, instead of in each "
-"animated node. In order to fix this inconsistency and still make the "
-"animation play versatile, this add-on has three animation exporting modes."
-msgstr ""
-"Godot e Blender têm estruturas diferentes para armazenar dados de animação. "
-"No Godot os dados de animação são armazenados em um nó AnimationPlayer, em "
-"vez de em cada nó animado. Para contornar este problema e manter a animação "
-"versátil, este add-on tem três modos de exportar animação."
 
 msgid "**Mode 'Animation as Actions'**"
 msgstr "**Modo 'Animação como Ações'**"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,30 +67,6 @@ msgstr "PNG（\\ ``.png``\\ ）——导入时精度限制为每个通道 8 位�
 
 msgid "Truevision Targa (``.tga``)"
 msgstr "Truevision Targa（\\ ``.tga``\\ ）"
-
-#, fuzzy
-msgid ""
-"SVG (``.svg``) - SVGs are rasterized using `ThorVG <https://www.thorvg.org/"
-">`__ when importing them. `Support is limited <https://www.thorvg.org/about#:"
-"~:"
-"text=among%20the%20svg%20tiny%20specs%2C%20yet%20unsupported%20features%20in%20the%20thorvg%20are%20the%20following>`__; "
-"complex vectors may not render correctly. :ref:`Text must be converted to "
-"paths <doc_importing_images_svg_text>`; otherwise, it won't appear in the "
-"rasterized image. You can check whether ThorVG can render a certain vector "
-"correctly using its `web-based viewer <https://www.thorvg.org/viewer>`__. "
-"For complex vectors, rendering them to PNGs using `Inkscape <https://"
-"inkscape.org/>`__ is often a better solution. This can be automated thanks "
-"to its `command-line interface <https://wiki.inkscape.org/wiki/index.php/"
-"Using_the_Command_Line#Export_files>`__."
-msgstr ""
-"SVG（\\ ``.svg``\\ ）——SVG 在导入时使用 `ThorVG <https://www.thorvg.org/>`__ "
-"进行栅格化。`支持并不完善 <https://www.thorvg.org/about#:~:"
-"text=among%20the%20svg%20tiny%20specs%2C%20yet%20unsupported%20features%20in%20the%20thorvg%20are%20the%20following>`__ "
-"；复杂的矢量图可能无法正确渲染。你可以使用其`基于网络的查看器 <https://www."
-"thorvg.org/viewer>`__ 来检查 ThorVG 是否可以正确渲染某个向量。对于复杂的矢"
-"量，使用 `Inkscape <https://inkscape.org/>`__ 将它们渲染为 PNG 会是更好的解决"
-"方案。由于 Inkscape 具有 `命令行界面 <https://wiki.inkscape.org/wiki/index."
-"php/Using_the_Command_Line#Export_files>`__ ，这套流程还可以自动化处理。"
 
 msgid ""
 "WebP (``.webp``) - WebP files support transparency and can be compressed "
@@ -792,10 +763,6 @@ msgid ""
 msgstr ""
 "将此纹理视为粗糙度贴图的颜色通道。仅当 **粗糙度 > 原法线** 不为空时才有效。"
 
-#, fuzzy
-msgid "Roughness > Src Normal"
-msgstr "粗糙度 > 原法线"
-
 msgid ""
 "The path to the texture to consider as a normal map for roughness filtering "
 "on import. Specifying this can help decrease specular aliasing slightly in "
@@ -965,10 +932,6 @@ msgstr ""
 "如果为 true，则会缩放导入的图像以匹配编辑器的显示比例因子。应该为编辑器插件图"
 "标和自定义类图标启用此功能，否则这个功能应保持禁用状态。"
 
-#, fuzzy
-msgid "Editor > Convert Colors With Editor Theme"
-msgstr "为浅色编辑器主题转换颜色"
-
 msgid ""
 "If checked, converts the imported image's colors to match the editor's icon "
 "and font color palette. This assumes the image uses the exact same colors "
@@ -982,9 +945,8 @@ msgstr ""
 "色，源文件是为深色编辑器主题设计的。这应该先启用编辑器插件图标和自定义类图"
 "标，否则应保持禁用状态。"
 
-#, fuzzy
 msgid "Importing SVG images with text"
-msgstr "导入图像"
+msgstr "导入包含文本的 SVG 图像"
 
 msgid ""
 "As the SVG library used in Godot doesn't support rasterizing text found in "
@@ -999,16 +961,6 @@ msgid ""
 "keep editing the original text afterwards:"
 msgstr "有两种方法可以无损地实现这一点，因此你可以在之后继续编辑原始文本："
 
-#, fuzzy
-msgid ""
-"Select your text object in Inkscape, then duplicate it in place by pressing :"
-"kbd:`Ctrl + D` and use **Path > Object to Path**. Hide the original text "
-"object afterwards using the **Layers and Objects** dock."
-msgstr ""
-"在 Inkscape 中选择文本对象，然后按 Ctrl + D 将其复制，并使用 **路径 > 对象到"
-"路径**。之后使用 **图层和对象** 停靠栏隐藏原始文本对象。"
-
-#, fuzzy
 msgid ""
 "Use the Inkscape command line to export an SVG from another SVG file with "
 "text converted to paths:"

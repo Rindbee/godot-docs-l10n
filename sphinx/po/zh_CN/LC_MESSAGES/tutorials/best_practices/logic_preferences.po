@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,14 +117,6 @@ msgid ""
 msgstr ""
 "如果只希望“导入”另一个类资源（脚本或者场景），那么最好的解决方法就是使用预加"
 "载常量（Preloaded Constant）。不过也有例外的情况："
-
-msgid ""
-"If the 'imported' class is liable to change, then it should be a property "
-"instead, initialized either using an ``export`` or a ``load()`` (and perhaps "
-"not even initialized until later)."
-msgstr ""
-"如果已被导入的类有可能发生变化，那么它应该是一个使用 ``export`` 、 ``load`` "
-"或之后进行初始化的属性。"
 
 msgid ""
 "If the script requires a great many dependencies, and one does not wish to "

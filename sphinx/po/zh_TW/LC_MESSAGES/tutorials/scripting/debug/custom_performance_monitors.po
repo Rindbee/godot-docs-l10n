@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,25 +17,6 @@ msgstr "屬性目標中的效能提示"
 
 msgid "Introduction"
 msgstr "前言"
-
-#, fuzzy
-msgid ""
-"As explained in the :ref:`doc_debugger_panel` documentation, Godot features "
-"a **Debugger > Monitors** bottom panel that allows tracking various values "
-"with graphs showing their evolution over time. The data for those graphs is "
-"sourced from the engine's :ref:`class_Performance` singleton."
-msgstr ""
-"正如 doc_debugger_panel 檔案中所解釋的，Godot 具有 **偵錯器 > 監視器** 底部面"
-"板，允許追蹤各種值，並以圖表顯示它們隨時間的演變。這些圖表的資料源自引擎的 "
-"class_Performance 單例。"
-
-#, fuzzy
-msgid ""
-"Since Godot 4.0, you can declare custom values to be displayed in the "
-"Monitors tab. Example use cases for custom performance monitors include:"
-msgstr ""
-"從 Godot 4.0 開始，您可以宣告要在此「監視器」標籤中顯示的自訂值。自訂效能監視"
-"器的範例用例包括："
 
 msgid ""
 "Displaying performance metrics that are specific to your project. For "
@@ -74,16 +50,6 @@ msgid ""
 "attached:"
 msgstr "主場景有一個 class_Timer 節點，並附有以下腳本："
 
-#, fuzzy
-msgid ""
-"The second parameter of :ref:`Performance."
-"add_custom_monitor<class_Performance_method_add_custom_monitor>` is a :ref:"
-"`class_Callable`."
-msgstr ""
-"ref:`Performance."
-"add_custom_monitor<class_Performance_method_add_custom_monitor>` 的第二個參數"
-"是 class_Callable`。"
-
 msgid ""
 "``enemy.tscn`` is a scene with a Node2D root node and Timer child node. The "
 "Node2D has the following script attached:"
@@ -111,10 +77,6 @@ msgstr ""
 "若要視覺化從此自訂效能監視器建立的圖形，請執行專案，在專案執行時切換到編輯"
 "器，然後開啟編輯器視窗底部的 **偵錯器 > 監視器**。向下捲動到新推出的**遊戲**"
 "部分並選中**敵人**。您應該會看到如下所示的圖表："
-
-#, fuzzy
-msgid "Example editor graph from a custom performance monitor"
-msgstr "建立自定節點"
 
 msgid ""
 "The performance monitor handling code doesn't have to live in the same "

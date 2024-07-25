@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,14 +27,13 @@ msgstr ""
 msgid "Each format has different advantages:"
 msgstr "Jedes Format hat unterschiedliche Vorteile:"
 
-#, fuzzy
 msgid ""
 "WAV files use raw data or light compression (IMA-ADPCM or QOA). They are "
 "lightweight to play back on the CPU (hundreds of simultaneous voices in this "
 "format are fine). The downside is that they take up a lot of disk space."
 msgstr ""
-"WAV-Dateien verwenden Rohdaten oder eine leichte Komprimierung (IMA-ADPCM). "
-"Sie belasten die CPU bei der Wiedergabe nur wenig (Hunderte von "
+"WAV-Dateien verwenden Rohdaten oder eine leichte Komprimierung (IMA-ADPCM or "
+"QOA). Sie belasten die CPU bei der Wiedergabe nur wenig (Hunderte von "
 "gleichzeitigen Stimmen in diesem Format sind in Ordnung). Der Nachteil ist, "
 "dass sie sehr viel Speicherplatz benötigen."
 
@@ -51,18 +45,17 @@ msgstr ""
 "kleineren Dateigröße führt, für die Wiedergabe jedoch erheblich mehr "
 "Rechenleistung benötigt."
 
-#, fuzzy
 msgid ""
 "MP3 files use better compression than WAV with IMA-ADPCM or QOA, but worse "
 "than Ogg Vorbis. This means that an MP3 file with roughly equal quality to "
 "Ogg Vorbis will be significantly larger. On the bright side, MP3 requires "
 "less CPU usage to play back compared to Ogg Vorbis."
 msgstr ""
-"MP3-Dateien werden mit IMA-ADPCM besser komprimiert als WAV, aber schlechter "
-"als Ogg Vorbis. Das bedeutet, dass eine MP3-Datei, die in etwa die gleiche "
-"Qualität wie Ogg Vorbis hat, deutlich größer ist. Positiv ist, dass MP3 im "
-"Vergleich zu Ogg Vorbis eine geringere CPU-Auslastung bei der Wiedergabe "
-"erfordert."
+"MP3-Dateien werden mit IMA-ADPCM or QOA besser komprimiert als WAV, aber "
+"schlechter als Ogg Vorbis. Das bedeutet, dass eine MP3-Datei, die in etwa "
+"die gleiche Qualität wie Ogg Vorbis hat, deutlich größer ist. Positiv ist, "
+"dass MP3 im Vergleich zu Ogg Vorbis eine geringere CPU-Auslastung bei der "
+"Wiedergabe erfordert."
 
 msgid ""
 "If you've compiled the Godot editor from source with specific modules "
@@ -96,19 +89,17 @@ msgstr "WAV 16-bit, 44 kHz, Mono"
 msgid "88 KB"
 msgstr "88 KB"
 
-#, fuzzy
 msgid "WAV IMA-ADPCM, 44 kHz, mono"
-msgstr "WAV 16-bit, 44 kHz, Mono"
+msgstr "WAV IMA-ADPCM, 44 kHz, mono"
 
 msgid "22 KB"
 msgstr "22 KB"
 
-#, fuzzy
 msgid "WAV QOA, 44 kHz, mono"
-msgstr "WAV 16-bit, 44 kHz, Mono"
+msgstr "WAV QOA, 44 kHz, mono"
 
 msgid "17 KB"
-msgstr ""
+msgstr "17 KB"
 
 msgid "MP3 192 Kb/s, stereo"
 msgstr "MP3 192 Kb/s, Stereo"
@@ -170,7 +161,6 @@ msgstr ""
 "Importoptionen im Import-Dock nach Auswahl einer WAV-Datei im Dateisystem-"
 "Dock"
 
-#, fuzzy
 msgid ""
 "The set of options available after selecting an Ogg Vorbis or MP3 file is "
 "different:"
@@ -178,7 +168,6 @@ msgstr ""
 "Die Optionen, die nach der Auswahl einer Ogg Vorbis- oder MP3-Datei zur "
 "Verfügung stehen, sind unterschiedlich:"
 
-#, fuzzy
 msgid ""
 "Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock"
@@ -186,7 +175,6 @@ msgstr ""
 "Importoptionen im Import-Dock nach Auswahl einer MP3-Datei im Dateisystem-"
 "Dock"
 
-#, fuzzy
 msgid ""
 "Import options in the Import dock after selecting an MP3 file in the "
 "FileSystem dock. Options are identical for Ogg Vorbis files."
@@ -363,7 +351,6 @@ msgstr ""
 msgid "Compress > Mode"
 msgstr "Komprimieren > Modus"
 
-#, fuzzy
 msgid ""
 "Three compression modes can be chosen from for WAV files: **Disabled** "
 "(default), **RAM (Ima-ADPCM)**, or **QOA (Quite OK Audio)**. **RAM (Ima-"
@@ -373,10 +360,14 @@ msgid ""
 "much less noticeable, at the cost of higher CPU usage (still much lower than "
 "MP3)."
 msgstr ""
-"Für WAV-Dateien können zwei Komprimierungsmodi gewählt werden: "
-"**Deaktiviert** (Default) oder **RAM (Ima-ADPCM)**. **RAM (Ima-ADPCM)** "
-"reduziert die Dateigröße und die Speichernutzung ein wenig, auf Kosten einer "
-"hörbaren Qualitätsminderung."
+"Für WAV-Dateien können Sie zwischen drei Komprimierungsmodi wählen: "
+"**Deaktiviert** (Default), **RAM (Ima-ADPCM)**, oder **QOA (Quite OK "
+"Audio)**. **RAM (Ima-ADPCM)** reduziert die Dateigröße und die "
+"Speichernutzung ein wenig, auf Kosten einer hörbaren Qualitätsminderung. "
+"**QOA (Quite OK Audio)** reduziert die Dateigröße etwas stärker als **RAM "
+"(Ima-ADPCM)** und die Qualitätsminderung ist viel weniger spürbar, "
+"allerdings auf Kosten einer höheren CPU-Auslastung (immer noch viel geringer "
+"als bei MP3)."
 
 msgid ""
 "Ogg Vorbis and MP3 don't decrease quality as much and can provide greater "
@@ -517,13 +508,12 @@ msgstr ""
 "doppelklicken (oder **Erweitert...** im Import-Dock wählen), wird ein "
 "Dialogfeld angezeigt:"
 
-#, fuzzy
 msgid ""
 "Advanced dialog when double-clicking an Ogg Vorbis or MP3 file in the "
 "FileSystem dock"
 msgstr ""
 "Erweiterter Dialog beim Doppelklick auf eine Ogg Vorbis- oder MP3-Datei im "
-"Dateisystem-Dock"
+"FileSystem-Dock"
 
 msgid ""
 "This dialog allows you to edit the audio's loop point with a real-time "

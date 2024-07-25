@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,26 +151,6 @@ msgstr ""
 "encontrarás la propiedad **Variación de Tipo de Tema** (Theme Type "
 "Variation). Por defecto, está vacía, lo que significa que solo el tipo base "
 "tiene efecto en este nodo."
-
-#, fuzzy
-msgid ""
-"You can either select a type variation from a dropdown list, or input its "
-"name manually. Variations appear on the list only if the type variation "
-"belongs to the project-wide theme, which you can configure in the project "
-"settings. For any other case you have to input the name of the variation "
-"manually. Click on the pencil icon to the right. Then type in the name of "
-"the type variation and click the check mark icon or press enter. If a type "
-"variation with that name exists it will now be used by the node."
-msgstr ""
-"Puedes seleccionar una variación de tipo desde una lista desplegable o "
-"ingresar su nombre manualmente. Las variaciones solo aparecen en la lista si "
-"la variación de tipo pertenece al tema de todo el proyecto, que puedes "
-"configurar en la configuración del proyecto. Para cualquier otro caso, debes "
-"ingresar manualmente el nombre de la variación. Haz clic en el icono de "
-"lápiz a la derecha. Luego escribe el nombre de la variación de tipo y haz "
-"clic en el icono de marca de verificación o presiona la tecla Enter. Si "
-"existe una variación de tipo con ese nombre, ahora será utilizada por el "
-"nodo."
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,24 +29,6 @@ msgstr ""
 "Godotマテリアルと一致させることです。これには、Godotのマテリアルシステムのす"
 "べての機能を使用できるという利点がありますが、Blender内でマテリアルが適用され"
 "たモデルを見ることができないことを意味します。"
-
-#, fuzzy
-msgid ""
-"To do this, the exporter attempts to find Godot materials with names that "
-"match those of the material name in Blender. So if you export an object in "
-"Blender with the material name ``PurpleDots`` then the exporter will search "
-"for the file ``PurpleDots.tres`` and assign it to the object. If this file "
-"is not a ``StandardMaterial3D`` or ``ShaderMaterial`` or if it cannot be "
-"found, then the exporter will fall back to exporting the material from "
-"Blender."
-msgstr ""
-"この動作のために、エクスポーターはBlenderのマテリアル名と一致する名前のGodot"
-"マテリアルを見つけようとします。したがって、Blenderでマテリアル名が "
-"``PurpleDots`` のオブジェクトをエクスポートすると、エクスポーターはファイル "
-"``PurpleDots.tres`` を検索し、オブジェクトに割り当てます。このファイルが "
-"``SpatialMaterial`` または ``ShaderMaterial`` でない場合、またはファイル自体"
-"が見つからない場合、エクスポーターはBlenderからマテリアルをエクスポートするよ"
-"うにフォールバックします。"
 
 msgid ""
 "Where the exporter searches for the ``.tres`` file is determined by the "
@@ -125,18 +102,6 @@ msgstr ""
 "PrincipledBSDFノードを使用してみてください。正確で正しいことが保証されている"
 "唯一のノードです。その他は近似に基づいています。"
 
-#, fuzzy
-msgid ""
-"Sometimes materials may not be valid for exporting (e.g. has some "
-"unsupported node) or it is using Blender Internal Engine, only the diffuse "
-"color and a few flags (e.g. unshaded) are exported and form a "
-"StandardMaterial3D."
-msgstr ""
-"マテリアルがエクスポートに有効でない場合(サポートされていないノードがあるな"
-"ど)、またはBlender Internal Engineを使用している場合、拡散色(diffuse )といく"
-"つかのフラグ(シェーディングなしなど)のみがエクスポートされ、Spatialマテリアル"
-"を形成します。"
-
 msgid "Generate external materials"
 msgstr "外部マテリアルの生成"
 
@@ -148,14 +113,6 @@ msgstr ""
 "マテリアルのエクスポートのデフォルト設定は、すべてのマテリアルを ``escn`` "
 "ファイルの内部に保持します。オプションとして、 Godotで ``escn`` ファイルを開"
 "くときに使われる、外部 ``.material``ファイルの生成を指示することができます。"
-
-#, fuzzy
-msgid ""
-"``.material`` file can be assigned to any material slot to be an external "
-"resource."
-msgstr ""
-"``.material`` ファイルは、外部リソースとして任意のマテリアル スロットに割り当"
-"てることができます。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

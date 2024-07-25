@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,9 +253,9 @@ msgstr ""
 "Kontext für die Übersetzung zu erhalten. Wenn Sie mit dem Bearbeiten des "
 "aktuellen Strings fertig sind, klicken Sie auf \"Save\", um die Änderungen "
 "zu bestätigen und zum nächsten Eintrag zu wechseln. Alternativ können Sie "
-"den \"Skip\"-Button verwenden, um sie zu überspringen. Das Kontrollkästchen "
-"\"Needs editing\" bedeutet, dass der ursprüngliche String aktualisiert "
-"wurde. Die Übersetzung muss daher überprüft werden, um diese Änderungen zu "
+"den \"Skip\"-Button verwenden, um sie zu überspringen. Die Checkbox \"Needs "
+"editing\" bedeutet, dass der ursprüngliche String aktualisiert wurde. Die "
+"Übersetzung muss daher überprüft werden, um diese Änderungen zu "
 "berücksichtigen (im PO-Jargon handelt es sich um sogenannte \"Fuzzy\"-"
 "Strings). Solche Strings werden in der Übersetzung erst verwendet, wenn sie "
 "behoben sind."

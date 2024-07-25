@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,21 +14,6 @@ msgstr ""
 
 msgid "Change scenes manually"
 msgstr "Cambiar escenas manualmente"
-
-#, fuzzy
-msgid ""
-"Sometimes it helps to have more control over how one swaps scenes around. A :"
-"ref:`Viewport <class_Viewport>`'s child nodes will render to the image it "
-"generates, this holds true even for nodes outside of the \"current\" scene. "
-"Autoloads fall into this category, but so do scenes which one instances and "
-"adds to the tree at runtime:"
-msgstr ""
-"A veces es útil tener más control sobre cómo se intercambian las escenas. "
-"Como se mencionó anteriormente, los nodos hijos de un :ref:`Viewport "
-"<class_Viewport>` se renderizarán en la imagen que genera, incluso para "
-"nodos fuera de la escena \"actual\". Esto también se aplica a los nodos "
-"Autoloads y a las escenas que se instancian y se agregan al árbol en tiempo "
-"de ejecución:"
 
 msgid ""
 "To complete the cycle and swap out the new scene with the old one, "
@@ -47,22 +27,6 @@ msgstr ""
 "para eliminar una escena de la vista del :ref:`Viewport <class_Viewport>`. "
 "Los compromisos implican equilibrar la velocidad de operación y el consumo "
 "de memoria, así como equilibrar el acceso y la integridad de los datos."
-
-#, fuzzy
-msgid ""
-"**We can delete the existing scene.** :ref:`SceneTree.change_scene_to_file() "
-"<class_SceneTree_method_change_scene_to_file>` and :ref:`SceneTree."
-"change_scene_to_packed() <class_SceneTree_method_change_scene_to_packed>` "
-"will delete the current scene immediately. Developers can also delete the "
-"main scene though. Assuming the root node's name is \"Main\", one could do "
-"``get_node(\"/root/Main\").free()`` to delete the whole scene."
-msgstr ""
-"**Podemos eliminar la escena existente.** :ref:`SceneTree.change_scene() "
-"<class_SceneTree_method_change_scene>` y :ref:`SceneTree.change_scene_to() "
-"<class_SceneTree_method_change_scene_to>` eliminarán la escena actual de "
-"inmediato. Los desarrolladores también pueden eliminar la escena principal. "
-"Suponiendo que el nombre del nodo raíz es \"Main\", se podría hacer "
-"``get_node(\"/root/Main\").free()`` para eliminar toda la escena."
 
 msgid "Unloads memory."
 msgstr "Descargas de la memoria."
@@ -130,15 +94,6 @@ msgstr "Pro: Aún se puede acceder a los datos si es necesario."
 
 msgid "Pro: There's no need to move any more nodes around to save data."
 msgstr "Pro: Ya no es necesario mover más nodos para guardar datos."
-
-#, fuzzy
-msgid ""
-"Con: More data is being kept in memory which will become a problem on memory-"
-"sensitive platforms like web or mobile."
-msgstr ""
-"Con: Se está manteniendo más datos en la memoria, lo que puede convertirse "
-"en un problema en plataformas sensibles a la memoria, como web o "
-"dispositivos móviles."
 
 msgid "Processing continues."
 msgstr "Continuación de procesamiento."
@@ -209,31 +164,6 @@ msgstr ""
 "de la escena se volverán obsoletos si dependen del tiempo delta, la entrada, "
 "los grupos u otros datos que se derivan del acceso a :ref:`SceneTree "
 "<class_SceneTree>`."
-
-#, fuzzy
-msgid ""
-"There are also cases where one may wish to have many scenes present at the "
-"same time. Perhaps one is adding their own singleton at runtime, or "
-"preserving a scene's data between scene changes (adding the scene to the "
-"root node)."
-msgstr ""
-"También hay casos en los que uno puede desear tener muchas escenas presentes "
-"al mismo tiempo. Quizás se esté agregando un singleton propio en tiempo de "
-"ejecución o preservando los datos de una escena entre cambios de escena "
-"(agregando la escena al nodo raíz)."
-
-#, fuzzy
-msgid ""
-"Perhaps instead they wish to display multiple scenes at the same time using :"
-"ref:`SubViewportContainers <class_SubViewportContainer>`. This is optimal in "
-"cases where the intent is to render different content in different parts of "
-"the screen. Minimaps and split-screen multiplayer are good examples."
-msgstr ""
-"Tal vez en lugar de eso, deseen mostrar varias escenas al mismo tiempo "
-"utilizando :ref:`ViewportContainers <class_ViewportContainer>`. Esto es "
-"óptimo en casos donde la intención es renderizar diferentes contenidos en "
-"diferentes partes de la pantalla. Los minimapas y los modos multijugador de "
-"pantalla dividida son buenos ejemplos."
 
 msgid ""
 "Each option will have cases where it is best appropriate, so one must "

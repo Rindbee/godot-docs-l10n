@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -434,12 +429,6 @@ msgstr ""
 "目前，纹理 LOD 偏置以相同的方式影响 2D 和 3D 渲染。但是，请记住，它仅对启用 "
 "mipmap 的纹理产生影响。默认情况下，2D 中使用的纹理不启用 mipmap，这意味着只"
 "有 3D 渲染会受到影响，除非你在导入面板中对 2D 纹理启用 mipmap。"
-
-#, fuzzy
-msgid ""
-"The formula used to determine the texture mipmap bias is: "
-"``log2f(min(scaling_3d_scale, 1.0)) + custom_texture_mipmap_bias``"
-msgstr "用于确定纹理 mipmap 偏置的公式为： TODO"
 
 msgid ""
 "To counteract the blurriness added by some antialiasing methods, Godot also "

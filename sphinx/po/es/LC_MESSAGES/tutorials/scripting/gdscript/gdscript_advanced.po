@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,10 +48,6 @@ msgstr ""
 "GDScript es un lenguaje de tipado dinámico. Como tal, sus grandes ventajas "
 "son:"
 
-#, fuzzy
-msgid "The language is easy to get started with."
-msgstr "El idioma es simple y fácil de aprender."
-
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr ""
 "La mayoría del código puede ser escrito y cambiado rápidamente sin "
@@ -66,18 +57,11 @@ msgid "Less code written means less errors & mistakes to fix."
 msgstr ""
 "Escribir menos código significa tener menos errores y fallos que corregir."
 
-msgid "The code is easy to read (little clutter)."
-msgstr ""
-
 msgid "No compilation is required to test."
 msgstr "No es necesario compilar para probarlo."
 
 msgid "Runtime is tiny."
 msgstr "El código en ejecución es pequeño."
-
-#, fuzzy
-msgid "It has duck-typing and polymorphism by nature."
-msgstr "Duck-typing y polimorfismo por naturaleza."
 
 msgid "While the main disadvantages are:"
 msgstr "Siendo las principales desventajas:"
@@ -103,25 +87,6 @@ msgid ""
 msgstr ""
 "Menos flexibilidad para el auto completado de código (los tipos de algunas "
 "variables solo se conocen en tiempo de ejecución)."
-
-#, fuzzy
-msgid ""
-"This, translated to reality, means that Godot used with GDScript is a "
-"combination designed to create games quickly and efficiently. For games that "
-"are very computationally intensive and can't benefit from the engine built-"
-"in tools (such as the Vector types, Physics Engine, Math library, etc), the "
-"possibility of using C++ is present too. This allows you to still create "
-"most of the game in GDScript and add small bits of C++ in the areas that "
-"need a performance boost."
-msgstr ""
-"Esto, si lo traducimos a la realidad, significa que Godot+GDScript son una "
-"combinación diseñada para crear juegos de forma rápida y eficiente. Para "
-"juegos que son muy exigentes desde el punto de vista computacional y que no "
-"pueden beneficiarse de las herramientas incorporadas en el motor (como los "
-"tipos de Vector, el Motor de Física, la biblioteca de Matemáticas, etc.), "
-"existe la posibilidad de usar C++. Esto permite crear todo el juego en "
-"GDScript y añadir pequeños trozos de C++ en las áreas que necesitan un "
-"aumento de rendimiento."
 
 msgid "Variables & assignment"
 msgstr "Variables y asignaciones"
@@ -185,23 +150,6 @@ msgstr "Java:"
 
 msgid "GDScript:"
 msgstr "GDScript:"
-
-#, fuzzy
-msgid ""
-"In GDScript, only base types (int, float, string and the vector types) are "
-"passed by value to functions (value is copied). Everything else (instances, "
-"arrays, dictionaries, etc) is passed as reference. Classes that inherit :ref:"
-"`class_RefCounted` (the default if nothing is specified) will be freed when "
-"not used, but manual memory management is allowed too if inheriting manually "
-"from :ref:`class_Object`."
-msgstr ""
-"En GDScript, solo los tipos básicos (int, float, string y los tipos vector) "
-"se pasan por valor a las funciones (el valor es copiado). Todo lo demás "
-"(instancias, arrays, diccionarios, etc) se pasa como referencia. Las clases "
-"que heredan :ref:`class_Reference` (Herencia por defecto si no se especifica "
-"otra) serán liberadas cuando no estén en uso, pero se permite el manejo "
-"manual de la memoria también si se hereda específicamente de :ref:"
-"`class_Object`."
 
 msgid "Arrays"
 msgstr "Arrays"
@@ -268,15 +216,6 @@ msgstr ""
 "Los diccionarios también son dinámicos, las claves pueden ser agregadas y "
 "eliminadas en cualquier punto a muy bajo costo:"
 
-#, fuzzy
-msgid ""
-"In most cases, two-dimensional arrays can often be implemented more easily "
-"with dictionaries. Here's a battleship game example:"
-msgstr ""
-"En la mayoría de los caso, los arrays bidimensionales pueden frecuentemente "
-"ser implementados más fácilmente como diccionarios. Aquí hay un juego simple "
-"de batalla naval de ejemplo:"
-
 msgid ""
 "Dictionaries can also be used as data markup or quick structures. While "
 "GDScript's dictionaries resemble python dictionaries, it also supports Lua "
@@ -291,18 +230,6 @@ msgstr ""
 msgid "For & while"
 msgstr "For y While"
 
-#, fuzzy
-msgid ""
-"Iterating using the C-style for loop in C-derived languages can be quite "
-"complex:"
-msgstr ""
-"La iteración en lenguajes estáticamente tipados puede ser bastante compleja:"
-
-msgid ""
-"Because of this, GDScript makes the opinionated decision to have a for-in "
-"loop over iterables instead:"
-msgstr ""
-
 msgid ""
 "Container datatypes (arrays and dictionaries) are iterable. Dictionaries "
 "allow iterating the keys:"
@@ -316,15 +243,8 @@ msgstr "Iterar con índices también es posible:"
 msgid "The range() function can take 3 arguments:"
 msgstr "La función range() puede tomar 3 argumentos:"
 
-msgid "Some examples involving C-style for loops:"
-msgstr ""
-
 msgid "Translate to:"
 msgstr "Traducir a:"
-
-#, fuzzy
-msgid "And backwards looping done through a negative counter:"
-msgstr "Y el loop invertido se realiza a través de un contador negativo:"
 
 msgid "Becomes:"
 msgstr "Se vuelve:"

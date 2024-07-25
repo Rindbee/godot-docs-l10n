@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -154,11 +149,6 @@ msgstr ""
 "Використовуйте один порожній рядок всередині функцій для розділення логічних "
 "блоків."
 
-msgid ""
-"We use a single line between classes and function definitions in the class "
-"reference and in short code snippets in this documentation."
-msgstr ""
-
 msgid "Line length"
 msgstr "Довжина рядка"
 
@@ -178,50 +168,11 @@ msgstr ""
 msgid "One statement per line"
 msgstr "Одне твердження на рядок"
 
-msgid ""
-"Avoid combining multiple statements on a single line, including conditional "
-"statements, to adhere to the GDScript style guidelines for readability."
-msgstr ""
-
 msgid "The only exception to that rule is the ternary operator:"
 msgstr "Єдиним винятком із цього правила є потрійний оператор:"
 
-msgid "Format multiline statements for readability"
-msgstr ""
-
-msgid ""
-"When you have particularly long ``if`` statements or nested ternary "
-"expressions, wrapping them over multiple lines improves readability. Since "
-"continuation lines are still part of the same expression, 2 indent levels "
-"should be used instead of one."
-msgstr ""
-
-msgid ""
-"GDScript allows wrapping statements using multiple lines using parentheses "
-"or backslashes. Parentheses are favored in this style guide since they make "
-"for easier refactoring. With backslashes, you have to ensure that the last "
-"line never contains a backslash at the end. With parentheses, you don't have "
-"to worry about the last line having a backslash at the end."
-msgstr ""
-
-msgid ""
-"When wrapping a conditional expression over multiple lines, the ``and``/"
-"``or`` keywords should be placed at the beginning of the line continuation, "
-"not at the end of the previous line."
-msgstr ""
-
 msgid "Avoid unnecessary parentheses"
 msgstr "Уникайте непотрібних дужок"
-
-#, fuzzy
-msgid ""
-"Avoid parentheses in expressions and conditional statements. Unless "
-"necessary for order of operations or wrapping over multiple lines, they only "
-"reduce readability."
-msgstr ""
-"Уникайте дужок у виразах та умовних твердженнях, за винятком ситуацій, коли "
-"вони потрібні для визначення порядку операцій, в інших випадках вони лише "
-"знижують читабельність."
 
 msgid "Boolean operators"
 msgstr "Логічні (булеві) оператори"
@@ -239,10 +190,6 @@ msgstr "Використовуйте ``and`` замість ``&&``."
 msgid "Use ``or`` instead of ``||``."
 msgstr "Використовуйте ``or`` замість ``||``."
 
-#, fuzzy
-msgid "Use ``not`` instead of ``!``."
-msgstr "Використовуйте ``or`` замість ``||``."
-
 msgid ""
 "You may also use parentheses around boolean operators to clear any "
 "ambiguity. This can make long expressions easier to read."
@@ -253,43 +200,8 @@ msgstr ""
 msgid "Comment spacing"
 msgstr "Пробіл коментаря"
 
-msgid ""
-"Regular comments (``#``) and documentation comments (``##``) should start "
-"with a space, but not code that you comment out. Additionally, code region "
-"comments (``#region``/``#endregion``) must follow that precise syntax, so "
-"they should not start with a space."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Using a space for regular and documentation comments helps differentiate "
-"text comments from disabled code."
-msgstr ""
-"Регулярні коментарі повинні починатися з пробілу, але не код, який ви "
-"закоментовуєте. Це допомагає відрізняти текстові коментарі від відключеного "
-"коду."
-
-#, fuzzy
-msgid ""
-"In the script editor, to toggle commenting of the selected code, press :kbd:"
-"`Ctrl + K`. This feature adds/removes a single ``#`` sign before any code on "
-"the selected lines."
-msgstr ""
-"У редакторі скриптів можна закоментувати цілу ділянку вибраного коду за "
-"допомогою натискання :kbd:`Ctrl + K`. Ця дія додає знак # на початку всіх "
-"вибраних рядків."
-
 msgid "Whitespace"
 msgstr "Вільний простір"
-
-msgid ""
-"Always use one space around operators and after commas. Also, avoid extra "
-"spaces in dictionary references and function calls. One exception to this is "
-"for single-line dictionary declarations, where a space should be added after "
-"the opening brace and before the closing brace. This makes the dictionary "
-"easier to visually distinguish from an array, as the ``[]`` characters look "
-"close to ``{}`` with most fonts."
-msgstr ""
 
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "Не використовуйте пробіли для вирівнювання виразів по вертикалі:"
@@ -412,12 +324,6 @@ msgstr ""
 "Використовуйте PascalCase для *імен* перерахунків та CONSTANT\\_CASE для їх "
 "членів, оскільки ті є константами:"
 
-msgid ""
-"Write enums with each item on its own line. This allows adding documentation "
-"comments abve each item more easily, and also makes for cleaner diffs in "
-"version control when items are added or removed."
-msgstr ""
-
 msgid "Code order"
 msgstr "Порядок коду"
 
@@ -462,41 +368,6 @@ msgstr ""
 msgid "Class declaration"
 msgstr "Оголошення класу"
 
-#, fuzzy
-msgid ""
-"If the code is meant to run in the editor, place the ``@tool`` annotation on "
-"the first line of the script."
-msgstr ""
-"Якщо код призначений для запуску в редакторі, розмістіть ключове слово "
-"``tool`` в першому рядку скрипта."
-
-#, fuzzy
-msgid ""
-"Follow with the ``class_name`` if necessary. You can turn a GDScript file "
-"into a global type in your project using this feature. For more information, "
-"see :ref:`doc_gdscript`."
-msgstr ""
-"Далі, якщо потрібно, `class_name`. Ви можете перетворити файл GDScript у "
-"глобальний тип свого проєкту за допомогою цієї функції. Для отримання "
-"додаткової інформації дивіться :ref:`doc_gdscript`."
-
-#, fuzzy
-msgid "Then, add the ``extends`` keyword if the class extends a built-in type."
-msgstr ""
-"Потім додайте ключове слово `extens`, якщо клас розширює вбудований тип."
-
-#, fuzzy
-msgid ""
-"Following that, you should have the class's optional :ref:`documentation "
-"comments <doc_gdscript_documentation_comments>`. You can use that to explain "
-"the role of your class to your teammates, how it works, and how other "
-"developers should use it, for example."
-msgstr ""
-"Слідом за цим у вас можуть бути додаткові коментарі, які пояснюють клас. Ви "
-"можете використовувати їх для пояснення ролі свого класу товаришам по "
-"команді, та того, як він працює та як, наприклад, інші розробники повинні "
-"використовувати його."
-
 msgid "Signals and properties"
 msgstr "Сигнали та властивості"
 
@@ -518,17 +389,6 @@ msgid ""
 msgstr ""
 "Потім записуйте константи, експортовані змінні, загальнодоступні, приватні "
 "та onready змінні, в такому порядку."
-
-msgid ""
-"The GDScript compiler evaluates onready variables right before the "
-"``_ready`` callback. You can use that to cache node dependencies, that is to "
-"say, to get child nodes in the scene that your class relies on. This is what "
-"the example above shows."
-msgstr ""
-"Компілятор GDScript оцінює готові змінні безпосередньо перед зворотним "
-"викликом ``_ready``. Ви можете використовувати це для кешування залежностей "
-"вузлів, тобто для отримання дочірніх вузлів у сцені, на яку покладається ваш "
-"клас. Це демонструє приклад вище."
 
 msgid "Member variables"
 msgstr "Змінні-члени"
@@ -612,40 +472,6 @@ msgstr "Визначте тип повернення функції викори
 
 msgid "Inferred types"
 msgstr "Визначені типи"
-
-msgid ""
-"In most cases you can let the compiler infer the type, using ``:=``. Prefer "
-"``:=`` when the type is written on the same line as the assignment, "
-"otherwise prefer writing the type explicitly."
-msgstr ""
-
-msgid ""
-"Include the type hint when the type is ambiguous, and omit the type hint "
-"when it's redundant."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"In some cases, the type must be stated explicitly, otherwise the behavior "
-"will not be as expected because the compiler will only be able to use the "
-"function's return type. For example, ``get_node()`` cannot infer a type "
-"unless the scene or file of the node is loaded in memory. In this case, you "
-"should set the type explicitly."
-msgstr ""
-"Однак у деяких випадках, коли контекст відсутній, компілятор повертається до "
-"типу повернення функції. Наприклад, ``get_node()`` не може вивести тип, якщо "
-"сцена чи файл вузла не завантажені в пам'ять. У цьому випадку слід чітко "
-"встановити тип."
-
-msgid ""
-"Alternatively, you can use the ``as`` keyword to cast the return type, and "
-"that type will be used to infer the type of the var."
-msgstr ""
-
-msgid ""
-"This option is also considered more :ref:`type-"
-"safe<doc_gdscript_static_typing_safe_lines>` than the first."
-msgstr ""
 
 msgid "Translation status"
 msgstr "Стан перекладу"

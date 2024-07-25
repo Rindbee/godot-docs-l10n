@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,17 +206,6 @@ msgid ""
 "<doc_command_line_tutorial>`:"
 msgstr ""
 "Movie Maker 也可以通过\\ :ref:`命令行 <doc_command_line_tutorial>`\\ 启用："
-
-#, fuzzy
-msgid ""
-"If the output path is relative, then it is **relative to the project "
-"folder**, not the current working directory. In the above example, the file "
-"will be written to ``/path/to/your_project/output.avi``. This behavior is "
-"similar to the ``--export-release`` command line argument."
-msgstr ""
-"如果输出路径是相对路径，那么它是 **相对于项目文件夹** ，而不是当前工作目录。"
-"在上面的示例中，文件将被写入 ``/path/to/your_project/output.avi`` 。此行为类"
-"似于 ``--export`` 命令行参数。"
 
 msgid ""
 "Since Movie Maker's output resolution is set by the viewport size, you can "
@@ -612,17 +596,6 @@ msgstr ""
 "式转换。`HandBrake <https://handbrake.fr/>`__\\ （GUI）和 `FFmpeg <https://"
 "ffmpeg.org/>`__\\ （CLI）都是这方面非常流行的开源工具。FFmpeg 的学习曲线相对"
 "陡峭，但功能也更强大。"
-
-#, fuzzy
-msgid ""
-"The command below converts an AVI video to an MP4 (H.264) video with a "
-"Constant Rate Factor (CRF) of 15. This results in a relatively large file, "
-"but is well-suited for platforms that will re-encode your videos to reduce "
-"their size (such as most video sharing websites):"
-msgstr ""
-"下面的命令将 AVI 视频转换为恒定速率因子 (Constant Rate Factor ，CRF) 为 15 "
-"的 MP4 (H.264) 视频。这会产生相对较大的文件，但非常适合各种平台（例如大多数视"
-"频共享网站），因为平台会重新编码视频将其压缩到它们设置的大小："
 
 msgid ""
 "To get a smaller file at the cost of quality, *increase* the CRF value in "

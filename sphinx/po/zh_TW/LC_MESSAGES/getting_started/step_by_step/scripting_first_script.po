@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,20 +97,6 @@ msgid ""
 msgstr ""
 "接著會彈出腳本建立視窗。在這個視窗裡可以設定腳本所使用的語言、類別名稱以及其"
 "他相關設定。"
-
-#, fuzzy
-msgid ""
-"Change the Template field from \"Node: Default\" to \"Object: Empty\" to "
-"start with a clean file. Leave the other options set to their default values "
-"and click the Create button to create the script."
-msgstr ""
-"把範本欄位從“Node: Default”改為“Object: Empty”從而得到一個乾淨的腳本。其他選"
-"項保持預設，然後點擊“建立”按鈕來建立腳本。"
-
-msgid ""
-"C# script names need to match their class name. In this case, you should "
-"name the file ``MySprite2D.cs``."
-msgstr ""
 
 msgid ""
 "The Script workspace should appear with your new ``sprite_2d.gd`` file open "
@@ -308,15 +289,6 @@ msgstr ""
 "精靈的旋轉量。這裡 ``rotation`` 是從 ``Sprite2D`` 所擴充的 ``Node2D`` 類繼承"
 "的屬性。它可以控制我們節點的旋轉，以弧度為單位。"
 
-#, fuzzy
-msgid ""
-"In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
-"property or function like ``position``, ``rotation``, or ``_process`` to "
-"open the corresponding documentation in a new tab."
-msgstr ""
-"在程式碼編輯器中，你可以按住 ctrl 按一下任何內建的屬性或函式，如 "
-"``position`` 、 ``rotation`` 、 ``_process`` 以在新標籤頁中打開相應的文件。"
-
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "運作該場景，可以看到 Godot 的圖示在原地轉動。"
 
@@ -348,22 +320,6 @@ msgstr ""
 "正如我們所看到的， ``var`` 關鍵字可以定義新變數。如果你把它放在腳本頂部，定義"
 "的就是類的屬性。在函式內部，定義的則是區域變數：只在函式的作用域中存在。"
 
-#, fuzzy
-msgid ""
-"We define a local variable named ``velocity``, a 2D vector representing both "
-"a direction and a speed. To make the node move forward, we start from the "
-"Vector2 class's constant ``Vector2.UP``, a vector pointing up, and rotate it "
-"by calling the Vector2 method ``rotated()``. This expression, ``Vector2.UP."
-"rotated(rotation)``, is a vector pointing forward relative to our icon. "
-"Multiplied by our ``speed`` property, it gives us a velocity we can use to "
-"move the node forward."
-msgstr ""
-"我們定義一個名為 ``velocity`` 的區域變數，該變數是用於表示方向和速度的 2D 向"
-"量。要讓節點向前移動，我們可以從 Vector2 類的常數 ``Vector2.UP`` 入手，這個向"
-"量指向上方，呼叫 ``Vector2`` 的 ``rotated()`` 方法可以將其進行旋轉。運算式 "
-"``Vector2.UP.rotated(rotation)`` 表示的是指向圖示前方的向量。用這個方向與我們"
-"的 ``speed`` 屬性相乘後，得到的就是用來移動節點的速度。"
-
 msgid ""
 "We add ``velocity * delta`` to the node's ``position`` to move it. The "
 "position itself is of type :ref:`Vector2 <class_Vector2>`, a built-in type "
@@ -383,14 +339,6 @@ msgid ""
 msgstr ""
 "使用這樣的方法不會考慮與牆壁和地面的碰撞。在 :ref:`doc_your_first_2d_game` "
 "中，你會學到另一種移動物件的方法，可以偵測碰撞。"
-
-#, fuzzy
-msgid ""
-"Our node currently moves by itself. In the next part, :ref:"
-"`doc_scripting_player_input`, we'll use player input to control it."
-msgstr ""
-"我們的節點目前是自行移動的。在下一部分 :ref:`doc_scripting_player_input` 中，"
-"我們會讓玩家的輸入來控制它。"
 
 msgid "Complete script"
 msgstr "GDScript 範例"

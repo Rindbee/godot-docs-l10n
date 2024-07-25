@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -231,15 +226,6 @@ msgstr ""
 "奇怪的命令可以通过复制和粘贴来学习, 希望它们能按预期运行. 这实际上并不是一种"
 "糟糕的学习方式, 只要你好奇并且在迷失时毫不犹豫地询问你的搜索引擎, 因此, 我们"
 "将为你提供在Git中工作时要了解的基本命令."
-
-#, fuzzy
-msgid ""
-"In the following, we will assume as an example that you want to implement a "
-"feature in Godot's Project Manager, which is coded in the ``editor/"
-"project_manager.cpp`` file."
-msgstr ""
-"下面, 我们将假设你想在Godot的项目管理器中实现一个功能, 该功能在 ``editor/"
-"project_manager.cpp`` 文件中编码."
 
 msgid "Branching"
 msgstr "分支"
@@ -517,25 +503,6 @@ msgstr ""
 "如果你希望远程分支与本地分支具有相同的名称, 则可以省略有关远程分支的部分, 在"
 "本示例中就是这种情况, 因此我们将执行以下操作:"
 
-msgid ""
-"Git will ask you for your username and password. For your password, enter "
-"your GitHub Personal Access Token (PAT). If you do not have a GitHub "
-"Personal Access Token, or do not have one with the correct permissions for "
-"your newly forked repository, you will need to create one. Follow this link "
-"to create your Personal Access Token: `Creating a personal access token "
-"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
-"secure/creating-a-personal-access-token>`_."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"After you have successfully verified your account using your PAT, the "
-"changes will be sent to your remote repository. If you check the fork's page "
-"on GitHub, you should see a new branch with your added commits."
-msgstr ""
-"Git会要求您提供用户名和密码, 更改将发送到您的远程分支. 如果您在GitHub上查看"
-"fork的页面, 则应该看到一个带有已添加提交的新分支."
-
 msgid "Issuing a pull request"
 msgstr "发出拉取请求"
 
@@ -608,18 +575,6 @@ msgstr ""
 
 msgid "The interactive rebase"
 msgstr "交互式变基"
-
-#, fuzzy
-msgid ""
-"If you didn't follow the above steps closely to *amend* changes into a "
-"commit instead of creating fixup commits, or if you authored your changes "
-"without being aware of our workflow and Git usage tips, reviewers might "
-"request you to *rebase* your branch to *squash* some or all of the commits "
-"into one."
-msgstr ""
-"如果你没有严格按照上面的步骤对提交进行\\ *修订*\\ ，而是创建了修复提交，或者"
-"你在编写修改时没有注意到我们的工作流程和 Git 使用技巧，审核人可能会要求将你的"
-"分支进行\\ *变基*\\ ，将其中一些或者所有提交\\ *压缩*\\ 成一个。"
 
 msgid ""
 "Indeed, if some commits have been made following reviews to fix bugs, typos, "
@@ -731,15 +686,6 @@ msgstr ""
 "1b4aad7将已更改, 因此获得了新的提交哈希. 如果你尝试推送到远程分支, 将引发错"
 "误:"
 
-#, fuzzy
-msgid ""
-"This is reasonable behavior, Git will not let you push changes that would "
-"override remote content. But that's actually what we want to do here, so we "
-"will have to *force* it:"
-msgstr ""
-"这是一个理智的行为,Git不会让你推送会覆盖远程内容的修改. 但这正是我们想做的, "
-"所以我们必须 *强制* 它:"
-
 msgid ""
 "And tadaa! Git will happily *replace* your remote branch with what you had "
 "locally (so make sure that's what you wanted, using ``git log``). This will "
@@ -747,37 +693,6 @@ msgid ""
 msgstr ""
 "还有没错！ Git很乐意用你在本地拥有的东西 *替换* 你的远程分支(所以使用 ``git "
 "log`` 确保你想要的东西). 这也将相应地更新PR."
-
-msgid "Rebasing onto another branch"
-msgstr ""
-
-msgid ""
-"If you have accidentally opened your PR on the wrong branch, or need to "
-"target another branch for some reason, you might need to filter out a lot of "
-"commits that differ between the old branch (for example ``4.2``) and the new "
-"branch (for example ``master``). This can make rebasing difficult and "
-"tedious. Fortunately ``git`` has a command just for this situation, ``git "
-"rebase --onto``."
-msgstr ""
-
-msgid ""
-"If your PR was created from the ``4.2`` branch and you want to update it to "
-"instead start at ``master`` the following steps *should* fix this in one "
-"step:"
-msgstr ""
-
-msgid ""
-"This will take all the commits on your branch *after* the ``4.2`` branch, "
-"and then splice them on top of ``master``, ignoring any commits from the "
-"``4.2`` branch not on the ``master`` branch. You may still need to do some "
-"fixing, but this command should save you a lot of tedious work removing "
-"commits."
-msgstr ""
-
-msgid ""
-"Just like above for the interactive rebase you need to force push your "
-"branch to handle the different changes:"
-msgstr ""
 
 msgid "Deleting a Git branch"
 msgstr "删除 Git 分支"
@@ -791,10 +706,6 @@ msgstr ""
 "在你的提交请求合并之后, 你应该做的最后一件事是: 删除用于PR的Git分支. 如果不删"
 "除分支不会有问题, 但是这样做是一个好习惯. 你将需要执行两次, 一次是对本地分"
 "支, 另一次是对GitHub上的远程分支."
-
-#, fuzzy
-msgid "To delete our better Project Manager branch locally, use this command:"
-msgstr "要在本地删除 ``better project manager`` 分支, 请使用以下命令:"
 
 msgid ""
 "Alternatively, if the branch hadn't been merged yet and we wanted to delete "

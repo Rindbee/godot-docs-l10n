@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,22 +230,6 @@ msgid ""
 "In the inspector's **Visibility Range** section, there are 3 fade modes to "
 "choose from:"
 msgstr "在检查器的 **Visibility Range** 部分中，有 3 种淡入淡出模式可供选择："
-
-#, fuzzy
-msgid ""
-"**Disabled:** Uses hysteresis to switch between LOD levels instantly. This "
-"prevents situations where LOD levels are switched back and forth quickly "
-"when the player moves forward and then backward at the LOD transition point. "
-"The hysteresis distance is determined by **Visibility Range > Begin Margin** "
-"and **Visibility Range > End Margin**. This mode provides the best "
-"performance as it doesn't force rendering to become transparent during the "
-"fade transition."
-msgstr ""
-"**Disabled（禁用）：** 使用滞后（hysteresis）在 LOD 级别之间即时切换。这可以"
-"防止当玩家在 LOD 过渡点向前和向后移动时，LOD 级别快速来回切换的情况。滞后距离"
-"（hystereis distance）由 **Visibility Range > Begin Margin** 和 **Visibility "
-"Range > End Margin** 确定。此模式可提供最佳性能，因为它不会强制渲染在淡入淡出"
-"过渡期间变得透明。"
 
 msgid ""
 "**Self:** Uses alpha blending to smoothly fade between LOD levels. The node "

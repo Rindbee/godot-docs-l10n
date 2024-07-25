@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +87,6 @@ msgstr ""
 "verschieben und behandeln die Eckpunkte so, als wären sie bereits im Clip "
 "Space."
 
-#, fuzzy
 msgid ""
 "The vertex shader expects coordinates to be output in clip space, which are "
 "coordinates ranging from ``-1`` at the left and bottom of the screen to "
@@ -111,7 +105,8 @@ msgstr ""
 "Space hinter den Kulissen, daher müssen wir die Auswirkungen von Godots "
 "Transformationen aufheben. Wir tun dies, indem wir den Built-in-Parameter "
 "``POSITION`` auf unsere gewünschte Position setzen. ``POSITION`` umgeht die "
-"Built-in-Transformationen und setzt die Position des Vertex direkt."
+"Built-in-Transformationen und setzt die Position des Vertex direkt im Clip "
+"Space."
 
 msgid ""
 "In versions of Godot earlier than 4.3, this code recommended using "
@@ -120,6 +115,12 @@ msgid ""
 "versions 4.3+ as we use a \"reversed-z\" depth buffer now where the near "
 "plane is at ``1.0``."
 msgstr ""
+"In Godot-Versionen vor 4.3 empfahl dieser Code die Verwendung von ``POSITION "
+"= vec4(VERTEX, 1.0);``, was implizit voraussetzte, dass die Near-Ebene des "
+"Clip Space bei ``0.0`` lag. Dieser Code ist jetzt nicht mehr korrekt und "
+"wird in den Versionen 4.3+ nicht mehr funktionieren, da wir jetzt einen "
+"\"umgekehrten-z\" Tiefenpuffer verwenden, bei dem die Near-Ebene bei ``1.0`` "
+"liegt."
 
 msgid ""
 "Even with this vertex shader, the quad keeps disappearing. This is due to "

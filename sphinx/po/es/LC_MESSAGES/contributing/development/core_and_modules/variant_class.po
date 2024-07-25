@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,14 +95,6 @@ msgstr ""
 msgid "References:"
 msgstr "Referencias:"
 
-#, fuzzy
-msgid ""
-"`core/variant/variant.h <https://github.com/godotengine/godot/blob/master/"
-"core/variant/variant.h>`__"
-msgstr ""
-"`core/variant.h <https://github.com/godotengine/godot/blob/3.x/core/variant."
-"h>`__"
-
 msgid "Containers: Dictionary and Array"
 msgstr "Contenedores: Diccionario y Arreglo"
 
@@ -135,22 +122,6 @@ msgid ""
 "Copy-on-write (COW) mode support for containers was dropped with Godot 3.0."
 msgstr ""
 "Desde Godot 3.0, no permite el modo Copy-on-write (COW) para containers."
-
-#, fuzzy
-msgid ""
-"`core/variant/dictionary.h <https://github.com/godotengine/godot/blob/master/"
-"core/variant/dictionary.h>`__"
-msgstr ""
-"`core/dictionary.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"dictionary.h>`__"
-
-#, fuzzy
-msgid ""
-"`core/variant/array.h <https://github.com/godotengine/godot/blob/master/core/"
-"variant/array.h>`__"
-msgstr ""
-"`core/variant.h <https://github.com/godotengine/godot/blob/3.x/core/variant."
-"h>`__"
 
 msgid "Translation status"
 msgstr "Estado de la traducción"

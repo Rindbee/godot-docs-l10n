@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,18 +21,6 @@ msgstr "よくある質問"
 msgid ""
 "What can I do with Godot? How much does it cost? What are the license terms?"
 msgstr "Godotでできることは何ですか？それに費用は掛かりますか？ライセンスは？"
-
-msgid ""
-"Godot is `Free and open source Software <https://en.wikipedia.org/wiki/"
-"Free_and_open source_software>`_ available under the `OSI-approved <https://"
-"opensource.org/licenses/MIT>`_ MIT license. This means it is free as in "
-"\"free speech\" as well as in \"free beer.\""
-msgstr ""
-"Godotは\\ `フリーかつオープンソースのソフトウェア <https://ja.wikipedia.org/"
-"wiki/FLOSS>`_\\ であり、\\ `OSI承認済み <https://opensource.org/licenses/"
-"MIT>`_\\ のMITライセンスの元で利用できます。これは「フリービール (無料のビー"
-"ル)」のフリーと「フリースピーチ (言論の自由)」のフリーの二つの意味でとてもフ"
-"リーであることを意味します。"
 
 msgid "In short:"
 msgstr "要約すると:"
@@ -596,18 +579,6 @@ msgstr ""
 "ピーした場合、設定ファイルが異なる環境で共有されないことを意味します。詳しく"
 "は :ref:`doc_data_paths` を参照してください。"
 
-#, fuzzy
-msgid ""
-"If *true* portable operation is desired (e.g. for use on a USB stick), "
-"follow the steps in :ref:`doc_data_paths_self_contained_mode`."
-msgstr ""
-"もし、\\ *本当に*\\ ポータブルな操作が必要な場合 (例: USB メモリでの使用)、 :"
-"ref:`doc_data_paths_self_contained_mode` のステップに従ってください。"
-
-#, fuzzy
-msgid "Why does Godot prioritize Vulkan and OpenGL over Direct3D?"
-msgstr "GodotがDirect3Dの代わりにVulkanやOpenGLを使うのはなぜですか？"
-
 msgid ""
 "Godot aims for cross-platform compatibility and open standards first and "
 "foremost. OpenGL and Vulkan are the technologies that are both open and "
@@ -619,15 +590,6 @@ msgstr ""
 "います。OpenGLとVulkanは(ほぼ)すべてのプラットフォームで利用できる技術です。"
 "このおかげで、Windows上のGodotで開発されたプロジェクトでもLinuxやmacOSなどで"
 "実行することができます。"
-
-msgid ""
-"While Vulkan and OpenGL remain our primary focus for their open standard and "
-"cross-platform benefits, Godot 4.3 introduced experimental support for "
-"Direct3D 12. This addition aims to enhance performance and compatibility on "
-"platforms where Direct3D 12 is prevalent, such as Windows and Xbox. However, "
-"Vulkan and OpenGL will continue as the default rendering backends on all "
-"platforms, including Windows."
-msgstr ""
 
 msgid "Why does Godot aim to keep its core feature set small?"
 msgstr ""
@@ -737,45 +699,6 @@ msgstr ""
 "Appleのデバイスのみであり、ある程度はうまくいっていましたが、その後、解像度と"
 "アスペクト比の異なる複数のAndroidとAppleのデバイスが作られたことで、サイズと"
 "DPIの幅が非常に広くなりました。"
-
-#, fuzzy
-msgid ""
-"The most common and proper way to achieve this is to, instead, use a single "
-"base resolution for the game and only handle different screen aspect ratios. "
-"This is mostly needed for 2D, as in 3D, it's just a matter of camera "
-"vertical or horizontal FOV."
-msgstr ""
-"これを実現する最も一般的で適切な方法は、代わりに、ゲームでは単一の基本解像度"
-"を使用して、異なる画面アスペクト比のみに対処することです。これが必要になるの"
-"は主に2Dにおいてであり、3DではカメラXFov (X視野角) またはYFovの問題になりま"
-"す。"
-
-#, fuzzy
-msgid ""
-"Choose a single base resolution for your game. Even if there are devices "
-"that go up to 1440p and devices that go down to 400p, regular hardware "
-"scaling in your device will take care of this at little or no performance "
-"cost. The most common choices are either near 1080p (1920x1080) or 720p "
-"(1280x720). Keep in mind the higher the resolution, the larger your assets, "
-"the more memory they will take and the longer the time it will take for "
-"loading."
-msgstr ""
-"ゲームの基本解像度を1つ選択します。解像度が2Kあるデバイスであろうと400pしかな"
-"いデバイスであろうと、通常デバイスはパフォーマンスコストをほとんど又はまった"
-"くかけずにハードウェアスケーリングで対応できます。最も一般的な選択肢は、"
-"1080p(1920x1080)または720p(1280x720)です。解像度が高ければ高いほど、アセット"
-"が大きくなり、メモリの使用量が多くなり、ロードに時間がかかることに注意してく"
-"ださい。"
-
-#, fuzzy
-msgid ""
-"Use the stretch options in Godot; canvas items stretching while keeping "
-"aspect ratios works best. Check the :ref:`doc_multiple_resolutions` tutorial "
-"on how to achieve this."
-msgstr ""
-"Godotのストレッチオプションを使用します。アスペクト比を維持したまま2Dストレッ"
-"チを行うと、最適な結果が得られます。この方法については、チュートリアル\\ :"
-"ref:`doc_multiple_resolutions`\\ を参照してください。"
 
 msgid ""
 "Determine a minimum resolution and then decide if you want your game to "
@@ -1096,16 +1019,6 @@ msgstr ""
 "言語を使用するのではなく、実際のプログラミング言語（Pythonなど）で記述する方"
 "が簡単な複雑なロジックが必要です。"
 
-#, fuzzy
-msgid ""
-"Godot's build process makes heavy use of cross-compiling tools. Each "
-"platform has a specific detection process, and all these must be handled as "
-"specific cases with special code written for each."
-msgstr ""
-"Godotのビルド処理はクロスコンパイル ツールを多用しています。それぞれのプラッ"
-"トフォームには専用の検査処理があり、またそれらすべてを個別の問題として、専用"
-"のコードでもって対処しなければなりません。"
-
 msgid ""
 "Please try to keep an open mind and get at least a little familiar with "
 "SCons if you are planning to build Godot yourself."
@@ -1115,16 +1028,6 @@ msgstr ""
 
 msgid "Why does Godot not use STL (Standard Template Library)?"
 msgstr "なぜGodotはSTL (Standard Template Library)を使わないのですか？"
-
-#, fuzzy
-msgid ""
-"Like many other libraries (Qt as an example), Godot does not make use of STL "
-"(with a few exceptions such as threading primitives). We believe STL is a "
-"great general-purpose library, but we had special requirements for Godot."
-msgstr ""
-"他のライブラリのように(例えばQt)、GodotはSTLを使いません。私たちはSTLが素晴ら"
-"しい標準的な目的のためのライブラリだと信じています、しかし、私たちはGodotのた"
-"めに特に必要とはしていません。"
 
 msgid ""
 "STL templates create very large symbols, which results in huge debug "
@@ -1178,14 +1081,6 @@ msgstr ""
 "私たちは、ゲームが何であれ、クラッシュすべきではないと考えています。予期しな"
 "い状況が発生した場合、Godotはエラーを出力します(スクリプトまでトレース可能)"
 "が、その後、可能な限り正常に回復し、動き続けます。"
-
-#, fuzzy
-msgid ""
-"Additionally, exceptions significantly increase the binary size for the "
-"executable and result in increased compile times."
-msgstr ""
-"さらに、例外を処理する機能の分、実行ファイルのバイナリサイズが大幅に増加しま"
-"す。"
 
 msgid "Does Godot use an ECS (Entity Component System)?"
 msgstr ""

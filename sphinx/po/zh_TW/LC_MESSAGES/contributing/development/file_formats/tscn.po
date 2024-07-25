@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,25 +113,6 @@ msgstr ""
 "面。``load_steps`` 參數 (理論上) 應為該檔案內含資源的數量。但，實務上，該值為"
 "多少應該無影響。"
 
-#, fuzzy
-msgid ""
-"``uid`` is a unique string-based identifier representing the scene. This is "
-"used by the engine to track files that are moved around, even while the "
-"editor is closed. Scripts can also load UID-based resources using the "
-"``uid://`` path prefix to avoid relying on filesystem paths. This makes it "
-"possible to move around a file in the project, but still be able to load it "
-"in scripts without having to modify the script. Godot does not use external "
-"files to keep track of IDs, which means no central metadata storage location "
-"is required within the project. See `this pull request <https://github.com/"
-"godotengine/godot/pull/50786>`__ for detailed information."
-msgstr ""
-"``uid`` 是代表場景的基於字串的唯一識別碼。引擎使用它來追蹤移動的檔案，即使編"
-"輯器關閉時也是如此。腳本還可以使用「uid://」路徑前綴來載入基於 UID 的資源，以"
-"避免依賴檔案系統路徑。這使得可以在專案中移動檔案，但仍然能夠在腳本中加載它，"
-"而無需修改腳本。 Godot 不使用外部檔案來追蹤 ID，這意味著專案內不需要中央元資"
-"料儲存位置。有關詳細信息，請參閱“此拉取請求 <https://github.com/godotengine/"
-"godot/pull/50786>”。"
-
 msgid ""
 "These sections should appear in order, but it can be hard to distinguish "
 "them. The only difference between them is the first element in the heading "
@@ -233,18 +209,6 @@ msgstr ""
 "該檔案。其他結點的母級節點必須使用絕對路徑，但不得包含場景的根名稱。若某個節"
 "點為場景根節點的直接子節點，則路徑為 `「 . 」``。下列為範例場景樹 (但無任何節"
 "點內容)："
-
-#, fuzzy
-msgid ""
-"To make the file structure easier to grasp, you can save a file with any "
-"given node or resource and then inspect it yourself in an external editor. "
-"You can also make incremental changes in the Godot editor, and keep an "
-"external text editor open on the ``.tscn`` or ``.tres`` file with auto-"
-"reload enabled to see what changes."
-msgstr ""
-"為了使檔案結構更容易掌握，您可以使用任何給定的節點或資源來保存檔案，然後在外"
-"部編輯器中自行檢查它。您還可以在 Godot 編輯器中進行差異量更改，並在啟用自動重"
-"新加載的“.tscn”或“.tres”檔案上保持外部文字編輯器打開，以查看發生的更改。"
 
 msgid ""
 "Here is an example of a scene containing a RigidBody3D-based ball with "
@@ -417,15 +381,6 @@ msgstr ""
 "舉例來說，若要參照到資源 ``[ext_resource id=3 type=\"PackedScene\" "
 "path=....]`` ，則可使用 ``ExtResource(3)`` 。"
 
-#, fuzzy
-msgid ""
-"External resources are links to resources not contained within the TSCN file "
-"itself. An external resource consists of a path, a type, a UID (used to map "
-"its filesystem location to a unique identifier) and an ID (used to refer to "
-"the resource in the scene file)."
-msgstr ""
-"外部資源會連結不包含 TSCN 檔自身的資源。外部資源由路徑、型別與 ID 組成。"
-
 msgid ""
 "Godot always generates absolute paths relative to the resource directory and "
 "thus prefixed with ``res://``, but paths relative to the TSCN file's "
@@ -480,10 +435,6 @@ msgstr ""
 "ArrayMesh 由包含在「_surfaces」陣列中的多個表面組成（注意前導底線）。每個表面"
 "的資料都儲存在具有以下鍵的字典中："
 
-#, fuzzy
-msgid "``aabb``: The computed axis-aligned bounding box for visibility."
-msgstr "``bone_aabbs``：每個骨骼的軸對齊邊界框以提高可見性。"
-
 msgid ""
 "``attribute_data``: Vertex attribute data, such as normals, tangents, vertex "
 "colors, UV1, UV2 and custom vertex data."
@@ -525,16 +476,6 @@ msgid ""
 "``name``: The surface's name. This can be used in scripts and is imported "
 "from 3D DCCs."
 msgstr "``name``：表面的名稱。這可以在腳本中使用，並從 3D DCC 匯入。"
-
-#, fuzzy
-msgid ""
-"``primitive``: The surface's primitive type, matching the ``Mesh."
-"PrimitiveType`` Godot enum. ``0`` = points, ``1`` = lines, ``2`` = line "
-"strip, ``3`` = triangles (most common), ``4`` = triangle strip."
-msgstr ""
-"``aabb``：計算的可見性軸對齊邊界框。 ``Mesh.PrimitiveType`` Godot 列舉。 "
-"``0`` = 點，``1`` = 線，``2`` = 線帶，``3`` = 三角形（最常見），``4`` = 三角"
-"形帶。"
 
 msgid "``skin_data``: Bone weight data."
 msgstr "``skin_data``：骨骼重量資料。"

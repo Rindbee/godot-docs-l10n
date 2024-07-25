@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,21 +24,6 @@ msgstr ""
 
 msgid "General definition"
 msgstr "一般性定義"
-
-#, fuzzy
-msgid ""
-":ref:`Object <class_object>` is the base class for almost everything. Most "
-"classes in Godot inherit directly or indirectly from it. Objects provide "
-"reflection and editable properties, and declaring them is a matter of using "
-"a single macro like this:"
-msgstr ""
-":ref:`Object <class_object>` 幾乎是所有類別的基礎類別。在 Godot 中大多數類別"
-"都直接或間接地繼承自它。Object 提供了反射 (Reflection) 與可編輯的屬性，宣告它"
-"們就像使用巨集一樣。"
-
-#, fuzzy
-msgid "This adds a lot of functionality to Objects. For example:"
-msgstr "這樣一來可以讓 Object 有更多的功能，如"
 
 msgid "References:"
 msgstr "參考資料："
@@ -94,16 +74,6 @@ msgid ""
 "Registering functions is one:"
 msgstr "在 ``_bind_methods`` 中可做一些事。其中一項便是註冊函式："
 
-#, fuzzy
-msgid "Default values for arguments can be passed as parameters at the end:"
-msgstr "參數的預設值可以通過相反的順序來傳遞："
-
-msgid ""
-"Default values must be provided in the same order as they are declared, "
-"skipping required arguments and then providing default values for the "
-"optional ones. This matches the syntax for declaring methods in C++."
-msgstr ""
-
 msgid ""
 "``D_METHOD`` is a macro that converts \"methodname\" to a StringName for "
 "more efficiency. Argument names are used for introspection, but when "
@@ -138,14 +108,6 @@ msgstr "常數"
 msgid "Classes often have enums such as:"
 msgstr "類別通常也有如下列舉型別："
 
-#, fuzzy
-msgid ""
-"For these to work when binding to methods, the enum must be declared "
-"convertible to int. A macro is provided to help with this:"
-msgstr ""
-"如果要讓列舉型別能繫結到方法上，則必須將列舉型別定義為可轉換為 Int 的形式，為"
-"此，可使用這個巨集："
-
 msgid "The constants can also be bound inside ``_bind_methods``, by using:"
 msgstr "這些常數也可以在 ``_bind_methods`` 中繫結，使用："
 
@@ -161,24 +123,8 @@ msgstr "序列化與復原序列化物件。"
 msgid "Creating a list of editable values for the Object derived class."
 msgstr "為由 Object 衍生類別建立一組可編輯數值的列表。"
 
-#, fuzzy
-msgid ""
-"Properties are usually defined by the PropertyInfo() class and constructed "
-"as:"
-msgstr "屬性通常是通過 PropertyInfo() 類別定義的。結構通常如下："
-
 msgid "For example:"
 msgstr "如："
-
-#, fuzzy
-msgid ""
-"This is an integer property named \"amount\". The hint is a range, and the "
-"range goes from 0 to 49 in steps of 1 (integers). It is only usable for the "
-"editor (editing the value visually) but won't be serialized."
-msgstr ""
-"這個範例中製作了一個整數屬性，名為「amount」，Hint 則為一個範圍 (range)，為 "
-"0 值 49 且間隔為 1 的值 (整數)。Hint 只會用於編輯器 (用於進行視覺化編輯)，而"
-"不會被序列化。"
 
 msgid "Another example:"
 msgstr "另一個範例："
@@ -284,19 +230,6 @@ msgstr ""
 msgid "Notifications"
 msgstr "通知"
 
-#, fuzzy
-msgid ""
-"All objects in Godot have a :ref:`_notification "
-"<class_Object_private_method__notification>` method that allows it to "
-"respond to engine level callbacks that may relate to it. More information "
-"can be found on the :ref:`doc_godot_notifications` page."
-msgstr ""
-"Godot 中每個物件都實作了一個 :ref:`_notification "
-"<class_Object_method__notification>` 。這個方法的目的是要讓 Object 物件能回應"
-"各種來自引擎層級，與該物件有關的回呼。舉例來說，若引擎告要叫 :ref:"
-"`CanvasItem <class_CanvasItem>` 進行「繪製 (draw)」，則引擎就會呼叫 "
-"``_notification(NOTIFICATION_DRAW)`` 。"
-
 msgid "References"
 msgstr "參照"
 
@@ -323,20 +256,6 @@ msgstr ""
 
 msgid "Resources"
 msgstr "資源"
-
-#, fuzzy
-msgid ""
-":ref:`Resource <class_resource>` inherits from Reference, so all resources "
-"are reference counted. Resources can optionally contain a path, which "
-"reference a file on disk. This can be set with ``resource.set_path(path)``, "
-"though this is normally done by the resource loader. No two different "
-"resources can have the same path; attempting to do so will result in an "
-"error."
-msgstr ""
-":ref:`Resource <class_resource>` 繼承自 Reference，因此所有資源都是參照計數"
-"的。資源可以選擇是否要包含路徑，用來參照到硬碟上的檔案。要包含路徑，可以通過 "
-"``resource.set_path(path)`` 來設定，但設定路徑通常是由資源加載器來進行的。兩"
-"個不同的資源不能具有相同的路徑，如果設定了相同路徑會發生錯誤。"
 
 msgid "Resources without a path are fine too."
 msgstr "資源也可以不包含路徑。"
@@ -377,17 +296,6 @@ msgstr "保存資源"
 
 msgid "Saving a resource can be done with the resource saver API:"
 msgstr "可以通過 ResourceSaver API 來保存資源："
-
-#, fuzzy
-msgid ""
-"The instance will be saved, and sub resources that have a path to a file "
-"will be saved as a reference to that resource. Sub resources without a path "
-"will be bundled with the saved resource and assigned sub-IDs, like ``res://"
-"someresource.res::1``. This also helps to cache them when loaded."
-msgstr ""
-"這個範例會保存資源實體。擁有檔案路徑的子資源會被作為參照保存在該資源中。而沒"
-"有路徑的子資源則會被捆綁在保存的資源中，並分配一個 Sub-ID，如「res://"
-"someresource.res::1」。這樣一來有助於在載入時進行快取。"
 
 msgid ""
 "`core/io/resource_saver.h <https://github.com/godotengine/godot/blob/master/"

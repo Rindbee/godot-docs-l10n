@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -277,7 +272,6 @@ msgstr ""
 msgid "Maintaining an ever-growing size for the table."
 msgstr "Organisation einer ständig wachsenden Tabelle."
 
-#, fuzzy
 msgid ""
 "HashMaps maintain gaps of unused memory interspersed in the table on purpose "
 "to reduce hash collisions and maintain the speed of accesses. This is why it "
@@ -285,7 +279,7 @@ msgid ""
 msgstr ""
 "HashMaps behalten absichtlich nicht genutzten Speicherlücken in der Tabelle "
 "bei, um Hash-Kollisionen zu reduzieren und die Zugriffsgeschwindigkeit "
-"niedrig zu halten. Deshalb vergrößert sie sich ständig quadratisch in "
+"niedrig zu halten. Deshalb vergrößert sie sich ständig exponentiell in "
 "Zweierpotenzen."
 
 msgid ""
@@ -513,18 +507,6 @@ msgstr ""
 
 msgid "Enumerations: int vs. string"
 msgstr "Enumerationen: int vs. string"
-
-msgid ""
-"Most languages offer an enumeration type option. GDScript is no different, "
-"but unlike most other languages, it allows one to use either integers or "
-"strings for the enum values (the latter only when using the ``export`` "
-"keyword in GDScript). The question then arises, \"which should one use?\""
-msgstr ""
-"Die meisten Programmiersprachen bieten einen Enumerationstypen an. So auch "
-"GDScript, aber anders als die meisten anderen Sprachen erlaubt es, Integer-"
-"Zahlen oder Strings als Enum-Werte zu nutzen (letzteres nur, wenn das "
-"``export`` Schlüsselwort in GDScript verwendet wird). Doch dann stellt sich "
-"die Frage: \"Welches sollte man nehmen?\""
 
 msgid ""
 "The short answer is, \"whichever you are more comfortable with.\" This is a "

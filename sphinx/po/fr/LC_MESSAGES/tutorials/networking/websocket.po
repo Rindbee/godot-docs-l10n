@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,22 +30,6 @@ msgstr ""
 "en charge que HTTPRequests, ce qui n'est pas bien adapté à la communication "
 "bidirectionnelle."
 
-#, fuzzy
-msgid ""
-"The protocol is message based and a very powerful tool to send push "
-"notifications to browsers, and has been used to implement chats, turn-based "
-"games, etc. It still uses a TCP connection, which is good for reliability "
-"but not for latency, so not good for real-time applications like VoIP and "
-"fast-paced games (see :ref:`WebRTC <doc_webrtc>` for those use cases)."
-msgstr ""
-"Le protocole est assez simple, basé sur des messages, et constitue un outil "
-"très puissant pour envoyer des notifications \"push\" aux navigateurs. Il a "
-"été utilisé pour mettre en place des chats, des jeux au tour par tour, etc. "
-"Il utilise toujours une connexion TCP, ce qui est bon pour la fiabilité mais "
-"pas pour la latence, donc pas bon pour les applications en temps réel comme "
-"la VoIP et les jeux rapides (voir :ref:`WebRTC <doc_webrtc>` pour ces cas "
-"d'utilisation)."
-
 msgid ""
 "Due to its simplicity, its wide compatibility, and being easier to use than "
 "a raw TCP connection, WebSocket soon started to spread outside the browsers, "
@@ -66,20 +45,6 @@ msgstr "Godot supporte WebSocket en natif et en exportation HTML5."
 
 msgid "Using WebSocket in Godot"
 msgstr "Utilisation de WebSocket dans Godot"
-
-#, fuzzy
-msgid ""
-"WebSocket is implemented in Godot via :ref:`WebSocketPeer "
-"<class_WebSocketPeer>`. The WebSocket implementation is compatible with the "
-"High Level Multiplayer. See section on :ref:`high-level multiplayer "
-"<doc_high_level_multiplayer>` for more details."
-msgstr ""
-"WebSocket est implémenté dans Godot via trois classes principales :ref:"
-"`WebSocketClient <classe_WebSocketClient>`, :ref:`WebSocketServer "
-"<classe_WebSocketServer>`, et :ref:`WebSocketPeer <classe_WebSocketPeer>`. "
-"La mise en œuvre de WebSocket est compatible avec le multijoueur de haut "
-"niveau. Voir la section :ref:`high-level multiplayer "
-"<doc_high_level_multiplayer>` pour plus de détails."
 
 msgid ""
 "When exporting to Android, make sure to enable the ``INTERNET`` permission "
@@ -101,10 +66,6 @@ msgid ""
 msgstr ""
 "Cet exemple vous montrera comment créer une connexion WebSocket à un serveur "
 "distant, et comment envoyer et recevoir des données."
-
-#, fuzzy
-msgid "This will print something similar to:"
-msgstr "Cela va imprimer quelque chose de similaire à ceci :"
 
 msgid "Minimal server example"
 msgstr "Exemple de serveur minimal"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,14 +95,6 @@ msgid ""
 "of an exported property, calling a Godot method)."
 msgstr ""
 "您的收藏需要與 Godot 引擎互動嗎？ （例如：匯出屬性的型別，呼叫 Godot 方法）。"
-
-#, fuzzy
-msgid ""
-"If yes, since Godot only supports :ref:`c_sharp_variant_compatible_types`, "
-"use a Godot collection."
-msgstr ""
-"如果是，由於 Godot 僅支援 Variant 相容的 <doc_c_sharp_variant>` 型別，因此使"
-"用 Godot 集合。"
 
 msgid ""
 "If not, consider `choosing an appropriate .NET collection <https://learn."
@@ -225,15 +212,6 @@ msgstr "``PoolColorArray``"
 msgid "``Color[]``"
 msgstr "``Color[]``"
 
-#, fuzzy
-msgid ""
-"Other C# arrays are not supported by the Godot C# API since a packed array "
-"equivalent does not exist. See the list of :ref:"
-"`c_sharp_variant_compatible_types`."
-msgstr ""
-"Godot C# API 不支援其他 C# 陣列，因為不存在等效的打包陣列。有關所有相容型別的"
-"列表，請參閱 Variant <doc_c_sharp_variant>`。"
-
 msgid "Array"
 msgstr "陣列"
 
@@ -244,15 +222,6 @@ msgid ""
 msgstr ""
 "Godot 陣列實作為「Variant」陣列，並且可以包含任意型別的多個元素。在 C# 中，等"
 "效型別是「Godot.Collections.Array」。"
-
-#, fuzzy
-msgid ""
-"The generic ``Godot.Collections.Array<T>`` type allows restricting the "
-"element type to a :ref:`Variant-compatible type "
-"<c_sharp_variant_compatible_types>`."
-msgstr ""
-"通用的 Godot.Collections.Array<T> 型別允許將元素型別限制為 Variant 相容的 "
-"<doc_c_sharp_variant> 型別。"
 
 msgid ""
 "An untyped ``Godot.Collections.Array`` can be converted to a typed array "
@@ -585,15 +554,6 @@ msgid ""
 msgstr ""
 "Godot 字典被實作為具有“Variant”鍵和值的字典。在 C# 中，等效型別是「Godot."
 "Collections.Dictionary」。"
-
-#, fuzzy
-msgid ""
-"The generic ``Godot.Collections.Dictionary<TKey, TValue>`` type allows "
-"restricting the key and value types to a :ref:`Variant-compatible type "
-"<c_sharp_variant_compatible_types>`."
-msgstr ""
-"通用的 Godot.Collections.Dictionary<TKey, TValue> 型別允許將鍵和值型別限制為 "
-"Variant 相容的 <doc_c_sharp_variant> 型別。"
 
 msgid ""
 "An untyped ``Godot.Collections.Dictionary`` can be converted to a typed "

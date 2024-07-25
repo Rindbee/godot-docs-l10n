@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -218,17 +213,6 @@ msgstr ""
 msgid "Creating your own resources"
 msgstr "建立自己的資源"
 
-#, fuzzy
-msgid ""
-"Like any Object in Godot, users can also script Resources. Resource scripts "
-"inherit the ability to freely translate between object properties and "
-"serialized text or binary data (\\*.tres, \\*.res). They also inherit the "
-"reference-counting memory management from the RefCounted type."
-msgstr ""
-"就像 Godot 中的任何物件一樣，使用者也可以自己編寫資源。資源腳本繼承了能夠在物"
-"件屬性、序列化文字、與二進位資料 (\\*.tres、\\*.res) 間自由轉換的能力。資源也"
-"從 Reference 型別上繼承了引用計數的記憶體管理。"
-
 msgid ""
 "This comes with many distinct advantages over alternative data structures, "
 "such as JSON, CSV, or custom TXT files. Users can only import these assets "
@@ -346,11 +330,6 @@ msgstr ""
 "「bot_stats」。它應該以全名“bot_stats.tres”出現在您的檔案標籤中。沒有腳本是沒"
 "有用的，所以我們來加入一些資料和邏輯吧！向其附加一個名為「bot_stats.gd」的腳"
 "本（或只是建立一個新腳本，然後將其拖曳到其中）。"
-
-msgid ""
-"If you're using C#, you need to annotate your Resource class with the "
-"``[GlobalClass]`` attribute for it to show up in the create resource GUI."
-msgstr ""
 
 msgid ""
 "Now, create a :ref:`CharacterBody3D <class_CharacterBody3D>`, name it "

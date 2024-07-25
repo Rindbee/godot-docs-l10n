@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,18 +106,6 @@ msgstr "Sélectionnez **Run > Configure Launches...** dans le menu du haut."
 msgid "Click **Add** to create a new launch configuration."
 msgstr ""
 "Cliquez sur **Add** pour créer une nouvelle configuration de lancement."
-
-#, fuzzy
-msgid ""
-"Select **Executable** option and specify the path to your executable located "
-"in the ``<Godot root directory>/bin`` folder. The name depends on your build "
-"configuration, e.g. ``godot.linuxbsd.editor.dev.x86_64`` for 64-bit LinuxBSD "
-"platform with ``platform=editor`` and ``dev_build=yes``."
-msgstr ""
-"Sélectionnez l'option **Exécutable** et indiquez le chemin de votre "
-"exécutable situé dans le dossier ``<Godot root directory>/bin``. Le nom "
-"dépend de votre configuration de compilation, par exemple ``godot.x11."
-"tools.64`` pour une plate-forme X11 64 bits avec ``tools`` activé."
 
 msgid ""
 "If you run into any issues, ask for help in one of `Godot's community "

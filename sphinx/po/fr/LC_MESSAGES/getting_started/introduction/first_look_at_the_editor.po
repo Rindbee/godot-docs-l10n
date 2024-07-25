@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,42 +43,10 @@ msgstr ""
 "projets existants, importer ou créer de nouveaux projets, et plus."
 
 msgid ""
-"At the top of the window, there is another tab named \"Asset Library "
-"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
-"button. For privacy reasons the Godot project manager does not access the "
-"internet by default. To change this click the \"Go Online button\", if you "
-"want to change your network mode back to \"offline\" you can do so from the "
-"project manager settings."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-"En haut de la fenêtre,se trouve un onglet \"Projets de l'Asset Library\". "
-"Vous pouvez rechercher des projets de démo dans la bibliothèque de "
-"ressources open source, qui comprend de nombreux projets développés par la "
-"communauté."
-
-msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr ""
 "Pour en apprendre plus sur le Gestionnaire de projets, lisez :ref:"
 "`doc_project_manager`."
-
-#, fuzzy
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr ""
-"Vous pouvez désactiver les lignes sécurisées ou modifier leur couleur dans "
-"les paramètres de l'éditeur."
-
-msgid ""
-"From here use the language drop down menu to select your language. By "
-"default, it is in English (EN)."
-msgstr ""
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -226,15 +189,6 @@ msgstr ""
 "Vous pouvez rechercher des informations sur une classe, une méthode, une "
 "propriété, une constante ou un signal par l'une des méthodes suivantes :"
 
-#, fuzzy
-msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr ""
-"En appuyant sur :kbd:`F1` (ou :kbd:`Alt + Space` sur macOS, ou :kbd:`fn + "
-"F1` pour les portables avec une touche :kbd:`fn`) n'importe où dans "
-"l'éditeur."
-
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
@@ -244,13 +198,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "Cliquer sur le menu Aide et Rechercher dans l'aide."
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"Cliquer en appuyant sur la touche :kbd:`Ctrl` sur un nom de classe, un nom "
-"de fonction ou une variable intégrée dans l'éditeur de script."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

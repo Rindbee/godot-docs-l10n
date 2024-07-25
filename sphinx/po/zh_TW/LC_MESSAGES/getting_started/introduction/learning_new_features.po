@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,14 +89,6 @@ msgstr ""
 "如果手冊或類參考文獻缺失或資訊不足，請在官方 GitHub倉庫 `godot-docs <https://"
 "github.com/godotengine/godot-docs/issues>`_ 中提交 Issue 來報告它。"
 
-#, fuzzy
-msgid ""
-"You can Ctrl-click (Cmd-click on MacOS) any underlined text like the name of "
-"a class, property, method, signal, or constant to jump to it."
-msgstr ""
-"你可以按 Ctrl 鍵點擊任何帶底線的文字，如類的名稱、屬性、方法、訊號或常數，以"
-"跳轉到它。"
-
 msgid "Learning to think like a programmer"
 msgstr "學會像程式師一樣思考"
 
@@ -145,22 +132,6 @@ msgstr ""
 "Godot 的使用者社區在不斷地增長。如果你遇到問題或需要幫助以更好地理解如何實作"
 "某件事情，你可以在許多 `活躍社區 <https://godotengine.org/community>`_ 中向其"
 "他使用者尋求幫助。"
-
-#, fuzzy
-msgid ""
-"The best place to ask questions and find already answered ones is the "
-"official `Questions & Answers <https://ask.godotengine.org/>`_ site. These "
-"responses show up in search engine results and get saved, allowing other "
-"users to benefit from discussions on the platform. Once you have asked a "
-"question there, you can share its link on other social platforms. Before "
-"asking a question, be sure to look for existing answers that might solve "
-"your problem on this website or using your preferred search engine."
-msgstr ""
-"提出問題並找到已經回答的問題的最佳地點是官方的 `問答 <https://godotengine."
-"org/qa/>`_ 網站。這些回答顯示在搜尋引擎結果中，並被保存起來，使其他使用者能夠"
-"從該平臺的討論中受益。一旦你在那裡提出問題，你可以在其他社交平臺上分享其連"
-"結。在提出問題之前，一定要在這個網站上或使用你喜歡的搜尋引擎尋找可能解決你問"
-"題的現有答案。"
 
 msgid ""
 "Asking questions well and providing details will help others answer you "
@@ -209,22 +180,6 @@ msgid ""
 msgstr ""
 "**分享你的“場景”面板的截圖** ，以及你寫的程式碼。你寫的大部分程式碼都會影響你"
 "的場景中的節點。因此，你應該把這些場景看成是你的原始程式碼的一部分。"
-
-msgid ""
-"Also, please don't take a picture with your phone, the low quality and "
-"screen reflections can make it hard to understand the image. Your operating "
-"system should have a built-in tool to take screenshots with the :kbd:`PrtSc` "
-"(Print Screen) key."
-msgstr ""
-"另外，請不要用手機拍照，低品質和螢幕反射會讓人難以理解圖像。你的作業系統應該"
-"有內建的工具，可以用 :kbd:`PrtSc` （列印螢幕）鍵進行螢幕截圖。"
-
-msgid ""
-"Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ "
-"on Windows or `FlameShot <https://flameshot.org/>`_ on Linux."
-msgstr ""
-"另外，你可以使用像 Windows 上的 `ShareX <https://getsharex.com/>`_ 或 Linux "
-"上的 `FlameShot <https://flameshot.org/>`_ 的程式。"
 
 msgid ""
 "Sharing a video of your running game can also be really **useful to "

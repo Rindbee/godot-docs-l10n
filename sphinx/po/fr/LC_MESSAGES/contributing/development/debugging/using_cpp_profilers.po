@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,18 +21,6 @@ msgid ""
 msgstr ""
 "Pour optimiser les performances de Godot, vous devez d'abord savoir ce qu'il "
 "faut optimiser. À cette fin, les profileurs sont des outils utiles."
-
-#, fuzzy
-msgid ""
-"There is a :ref:`built-in GDScript profiler <doc_the_profiler>` in the "
-"editor, but using C++ profiler may be useful in cases where the GDScript "
-"profiler is not accurate enough or is missing information due to bugs in the "
-"profiler."
-msgstr ""
-"Il existe un profileur GDScript intégré dans l'éditeur, mais l'utilisation "
-"du profileur C++ peut être utile dans les cas où le profileur GDScript n'est "
-"pas assez précis ou manque d'informations en raison de bogues dans le "
-"profileur."
 
 msgid "Recommended profilers"
 msgstr "Profileurs recommandés"
@@ -86,16 +69,6 @@ msgstr ""
 "devez compiler les binaires avec les options SCons ``production=yes "
 "debug_symbols=yes``."
 
-#, fuzzy
-msgid ""
-"It is possible to run a profiler on less optimized builds (e.g. "
-"``target=template_debug`` without LTO), but results will naturally be less "
-"representative of real world conditions."
-msgstr ""
-"Il est possible de faire tourner un profileur sur des builds moins optimisés "
-"(par exemple ``target=debug`` sans LTO), mais les résultats seront "
-"naturellement moins représentatifs des conditions réelles."
-
 msgid ""
 "Do *not* strip debugging symbols on the binaries using the ``strip`` command "
 "after compiling the binaries. Otherwise, you will no longer get useful "
@@ -135,19 +108,6 @@ msgstr "Instructions spécifiques au profileur"
 
 msgid "VerySleepy"
 msgstr "VerySleepy"
-
-#, fuzzy
-msgid ""
-"Start the Godot editor or your project first. If you start the Project "
-"Manager, make sure to edit or run a project first. Otherwise, the profiler "
-"will not track the child process since the Project Manager will spawn a "
-"child process for every project edited or run."
-msgstr ""
-"Démarrez d'abord l'éditeur Godot ou votre projet. Si vous démarrez le "
-"gestionnaire de projet, assurez-vous de modifier ou d'exécuter un projet en "
-"premier. Sinon, le profileur ne suivra pas le processus enfant puisque le "
-"gestionnaire de projet créera un processus enfant pour chaque projet édité "
-"ou exécuté."
 
 msgid ""
 "Open VerySleepy and select the Godot executable in the list of processes on "

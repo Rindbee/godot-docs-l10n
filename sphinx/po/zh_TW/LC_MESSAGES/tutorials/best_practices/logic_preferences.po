@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,14 +117,6 @@ msgid ""
 msgstr ""
 "如果只是想要「匯入」另一個類別資源 (腳本或場景)，那麼使用預加載的常數應該是最"
 "好的方法。但是，有幾個例外情況下最好不要這麼做："
-
-msgid ""
-"If the 'imported' class is liable to change, then it should be a property "
-"instead, initialized either using an ``export`` or a ``load()`` (and perhaps "
-"not even initialized until later)."
-msgstr ""
-"若「匯入」的類別很有可能會更改的話，則應該使用屬性來代替，使用 ``export`` 或 "
-"``load`` 來初始化 (或甚至不要一開始就初始化)。"
 
 msgid ""
 "If the script requires a great many dependencies, and one does not wish to "

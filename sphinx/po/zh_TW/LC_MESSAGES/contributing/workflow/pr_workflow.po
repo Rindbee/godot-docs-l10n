@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -628,19 +623,6 @@ msgstr ""
 msgid "The interactive rebase"
 msgstr "互動性 Rebase"
 
-#, fuzzy
-msgid ""
-"If you didn't follow the above steps closely to *amend* changes into a "
-"commit instead of creating fixup commits, or if you authored your changes "
-"without being aware of our workflow and Git usage tips, reviewers might "
-"request you to *rebase* your branch to *squash* some or all of the commits "
-"into one."
-msgstr ""
-"如果沒有嚴格按照上面的步驟來將更改 **合併 (Amend)** 到前面的 Commit 中而建立"
-"了修正性的 Commit，或是沒有按照我們的工作流程與 Git 使用說明來建立更改，則審"
-"閱者可能會要求你 **Rebase** 你的分支，並將其中的一些或全部 Commit **Squash "
-"(壓縮)** 為一個。"
-
 msgid ""
 "Indeed, if some commits have been made following reviews to fix bugs, typos, "
 "etc. in the original commit, they are not relevant to a future changelog "
@@ -753,15 +735,6 @@ msgstr ""
 "Commit 1b4aad7 發生了變化，因此我們有了新的 Commit Hash。此時如果試著將更改推"
 "送到遠端分支上，會出現錯誤："
 
-#, fuzzy
-msgid ""
-"This is reasonable behavior, Git will not let you push changes that would "
-"override remote content. But that's actually what we want to do here, so we "
-"will have to *force* it:"
-msgstr ""
-"這是很正常的，因為 Git 不讓你將複寫遠端內容的更改推送過去。但在這裡，複寫遠端"
-"內容就是我們要做的，因此我們要來 **強制 (Force)** 推送："
-
 msgid ""
 "And tadaa! Git will happily *replace* your remote branch with what you had "
 "locally (so make sure that's what you wanted, using ``git log``). This will "
@@ -769,37 +742,6 @@ msgid ""
 msgstr ""
 "就這樣！Git 接著會將遠端分支以本機上的東西 **取代** 掉 (因此請先通過 ``git "
 "log`` 確認你想要強制取代)。同時，也會更新相應的 PR。"
-
-msgid "Rebasing onto another branch"
-msgstr ""
-
-msgid ""
-"If you have accidentally opened your PR on the wrong branch, or need to "
-"target another branch for some reason, you might need to filter out a lot of "
-"commits that differ between the old branch (for example ``4.2``) and the new "
-"branch (for example ``master``). This can make rebasing difficult and "
-"tedious. Fortunately ``git`` has a command just for this situation, ``git "
-"rebase --onto``."
-msgstr ""
-
-msgid ""
-"If your PR was created from the ``4.2`` branch and you want to update it to "
-"instead start at ``master`` the following steps *should* fix this in one "
-"step:"
-msgstr ""
-
-msgid ""
-"This will take all the commits on your branch *after* the ``4.2`` branch, "
-"and then splice them on top of ``master``, ignoring any commits from the "
-"``4.2`` branch not on the ``master`` branch. You may still need to do some "
-"fixing, but this command should save you a lot of tedious work removing "
-"commits."
-msgstr ""
-
-msgid ""
-"Just like above for the interactive rebase you need to force push your "
-"branch to handle the different changes:"
-msgstr ""
 
 msgid "Deleting a Git branch"
 msgstr "刪除 Git 分支"

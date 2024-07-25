@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +36,6 @@ msgstr ""
 "sie Grundelemente kombinieren. Innenumgebungen können mithilfe invertierter "
 "Grundelemente erstellt werden."
 
-#, fuzzy
 msgid ""
 "The CSG nodes in Godot are mainly intended for prototyping. There is no "
 "built-in support for UV mapping or editing 3D polygons (though extruded 2D "
@@ -51,9 +45,9 @@ msgstr ""
 "Die CSG-Nodes in Godot sind hauptsächlich für das Prototyping vorgesehen. Es "
 "gibt keine Built-in-Unterstützung für UV-Mapping oder das Bearbeiten von 3D-"
 "Polygonen (obwohl extrudierte 2D-Polygone mit dem CSGPolygon3D-Node "
-"verwendet werden können)."
+"verwendet werden können). Außerdem kann CSG keine zuverlässigen Meshes aus "
+"mehreren Nodes ohne Löcher erstellen."
 
-#, fuzzy
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
 "may want to use `FuncGodot <https://github.com/func-godot/"
@@ -61,10 +55,9 @@ msgid ""
 "blackears/cyclopsLevelBuilder>`__ instead."
 msgstr ""
 "Wenn Sie auf der Suche nach einem einfach zu bedienenden Level-Design-Tool "
-"für ein Projekt sind, sollten Sie stattdessen `Qodot <https://github.com/"
-"QodotPlugin/Qodot>`__ verwenden. Damit können Sie Levels mit `TrenchBroom "
-"<https://kristianduske.com/trenchbroom/>`__ entwerfen und sie in Godot "
-"importieren."
+"für ein Projekt sind, könnten Sie `FuncGodot <https://github.com/func-godot/"
+"func_godot_plugin>`__ oder `Cyclops Level Builder <https://github.com/"
+"blackears/cyclopsLevelBuilder>`__ verwenden."
 
 msgid ""
 "You can check how to use CSG nodes to build various shapes (such as stairs "

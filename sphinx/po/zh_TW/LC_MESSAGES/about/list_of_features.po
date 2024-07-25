@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,24 +30,8 @@ msgstr ""
 msgid "Platforms"
 msgstr "支援平台"
 
-msgid ""
-"See :ref:`doc_system_requirements` for hardware and software version "
-"requirements."
-msgstr ""
-
 msgid "**Can run both the editor and exported projects:**"
 msgstr "**在編輯器與匯出的專案中均可執行：**"
-
-#, fuzzy
-msgid "Windows (x86, 64-bit and 32-bit)."
-msgstr "Windows 7 及更新版本 (64 位元與 32 位元)。"
-
-msgid "macOS (x86 and ARM, 64-bit only)."
-msgstr ""
-
-#, fuzzy
-msgid "Linux (x86 and ARM, 64-bit and 32-bit)."
-msgstr "Windows 7 及更新版本 (64 位元與 32 位元)。"
 
 msgid ""
 "Binaries are statically linked and can run on any distribution if compiled "
@@ -60,16 +39,6 @@ msgid ""
 msgstr ""
 "二進位檔使用靜態連結，並且若在一定舊的基礎發行版上編譯，則可在任意發行版上執"
 "行。"
-
-msgid ""
-"Official binaries are compiled using the `Godot Engine buildroot <https://"
-"github.com/godotengine/buildroot>`__, allowing for binaries that work across "
-"common Linux distributions (including LTS variants)."
-msgstr ""
-
-#, fuzzy
-msgid "Android (editor support is experimental)."
-msgstr "Android 6.0及更高版本（編輯器支援是實驗性的）。"
 
 msgid ""
 ":ref:`Web browsers <doc_using_the_web_editor>`. Experimental in 4.0, using "
@@ -94,13 +63,6 @@ msgstr ""
 "Godot 的目標是盡可能地獨立於平臺，並且可以相對輕鬆地 :ref:`移植到新平臺 "
 "<doc_custom_platform_ports>` 。"
 
-msgid ""
-"Projects written in C# using Godot 4 currently cannot be exported to the web "
-"platform. To use C# on that platform, consider Godot 3 instead. Android and "
-"iOS platform support is available as of Godot 4.2, but is experimental and :"
-"ref:`some limitations apply <doc_c_sharp_platforms>`."
-msgstr ""
-
 msgid "Editor"
 msgstr "編輯器"
 
@@ -122,10 +84,6 @@ msgstr ""
 
 msgid "GDScript :ref:`debugger <doc_debugger_panel>`."
 msgstr "GDScript :ref:`除錯工具 <doc_debugger_panel>` 。"
-
-#, fuzzy
-msgid "Support for debugging in threads is available since 4.2."
-msgstr "尚未支援對執行緒進行除錯。"
 
 msgid ""
 "Visual profiler with CPU and GPU time indications for each step of the "
@@ -337,12 +295,6 @@ msgstr ""
 msgid "CPU-based particles."
 msgstr "基於 CPU 的粒子。"
 
-msgid ""
-"Optional :ref:`2D HDR rendering "
-"<doc_environment_and_post_processing_using_glow_in_2d>` for better glow "
-"capabilities."
-msgstr ""
-
 msgid "2D tools"
 msgstr "2D 工具"
 
@@ -491,12 +443,6 @@ msgstr "全向光照。"
 msgid "Spot lights with adjustable cone angle and attenuation."
 msgstr "有可調整圓錐角與衰減的聚光。"
 
-#, fuzzy
-msgid ""
-"Specular, indirect light, and volumetric fog energy can be adjusted on a per-"
-"light basis."
-msgstr "鏡面反射、間接照明與體積霧的能量可以在每個燈光的基礎上調整。"
-
 msgid ""
 "Adjustable light \"size\" for fake area lights (will also make shadows "
 "blurrier)."
@@ -552,14 +498,6 @@ msgid ""
 msgstr ""
 "陰影通常情況下會偏置補償和陰影平移，以減少可見的陰影失真和陰影懸浮的數量。"
 
-#, fuzzy
-msgid ""
-":abbr:`PCSS (Percentage Closer Soft Shadows)`-like shadow blur based on the "
-"light size and distance from the surface the shadow is cast on."
-msgstr ""
-":abbr: 類似 `PCSS (Percentage Closer Soft Shadows)` 的陰影模糊是基於光線大小"
-"和與陰影投射表面的距離。"
-
 msgid "Adjustable shadow blur on a per-light basis."
 msgstr "晃動可依像素級別或物件級別來判斷。"
 
@@ -599,40 +537,6 @@ msgstr ""
 "只能在編輯器中進行，不能在匯出的專案中進行。"
 
 msgid ""
-"Supports GPU-based :ref:`denoising <doc_using_lightmap_gi_denoising>` with "
-"JNLM, or CPU/GPU-based denoising with OIDN."
-msgstr ""
-
-#, fuzzy
-msgid ""
-":ref:`Voxel-based GI probes <doc_using_voxel_gi>`. Supports dynamic lights "
-"*and* dynamic occluders, while also supporting reflections. Requires a fast "
-"baking step which can be performed in the editor or at run-time (including "
-"from an exported project)."
-msgstr ""
-"基於體素的 GI 探查。支援動態燈光*和*動態遮罩，同時還支援反射。需要執行快速紋"
-"理烘焙，該步驟可在編輯器中或運作時（包括從匯出的專案中）執行。"
-
-#, fuzzy
-msgid ""
-":ref:`Signed-distance field GI <doc_using_sdfgi>` designed for large open "
-"worlds. Supports dynamic lights, but not dynamic occluders. Supports "
-"reflections. No baking required."
-msgstr ""
-"符號距離場 GI，是為大型開放世界設計的一種全域照明技術。支援動態光照，不支援動"
-"態遮擋物。可以支援反射效果。不需要進行烘焙操作。"
-
-#, fuzzy
-msgid ""
-":ref:`Screen-space indirect lighting (SSIL) "
-"<doc_environment_and_post_processing_ssil>` at half or full resolution. "
-"Fully real-time and supports any kind of emissive light source (including "
-"decals)."
-msgstr ""
-"螢幕空間間接光照（SSIL），可以選擇半解析度或全解析度。它完全即時，支援任何類"
-"型的發光光源（包括裝飾）。"
-
-msgid ""
 "VoxelGI and SDFGI use a deferred pass to allow for rendering GI at half "
 "resolution to improve performance (while still having functional MSAA "
 "support)."
@@ -642,15 +546,6 @@ msgstr ""
 
 msgid "**Reflections:**"
 msgstr "**反射：**"
-
-#, fuzzy
-msgid ""
-"Voxel-based reflections (when using GI probes) and SDF-based reflections "
-"(when using signed distance field GI). Voxel-based reflections are visible "
-"on transparent surfaces, while rough SDF-based reflections are visible on "
-"transparent surfaces."
-msgstr ""
-"基於體素的反射（使用 GI 探查時）和基於 SDF 的反射（使用符號距離場 GI 時）。"
 
 msgid ""
 "Fast baked reflections or slow real-time reflections using ReflectionProbe. "
@@ -683,12 +578,6 @@ msgstr "使用Forward Mobile後端時，每個網格資源最多可以顯示8個
 msgid "**Decals:**"
 msgstr "**功能：**"
 
-#, fuzzy
-msgid ""
-":ref:`Supports albedo <doc_using_decals>`, emissive, :abbr:`ORM (Occlusion "
-"Roughness Metallic)`, and normal mapping."
-msgstr "支援漫反射，發光，:abbr:`ORM (遮擋度粗糙度金屬度)` 和法線貼圖。"
-
 msgid ""
 "Texture channels are smoothly overlaid on top of the underlying material, "
 "with support for normal/ORM-only decals."
@@ -710,13 +599,6 @@ msgid ""
 "Support for nearest, bilinear, trilinear or anisotropic texture filtering "
 "(configured globally)."
 msgstr "最近、雙線性、三線性或各向異性篩選。"
-
-#, fuzzy
-msgid ""
-"Optional distance fade system to fade distant decals, improving performance."
-msgstr ""
-"可以選擇距離漸變系統（distance fade system ）來漸變遠處的燈光及其陰影，提高性"
-"能。"
 
 msgid ""
 "When using the Forward+ backend (default on desktop), decals are rendered "
@@ -770,14 +652,6 @@ msgstr "支援依照相機角度自動調整深度霧色彩 (以配合陽光的�
 msgid "Support for sun scattering in the fog."
 msgstr "支援視覺著色器外掛。"
 
-msgid ""
-"Support for controlling how much fog rendering should affect the sky, with "
-"separate controls for traditional and volumetric fog."
-msgstr ""
-
-msgid "Support for making specific materials ignore fog."
-msgstr ""
-
 msgid "**Volumetric fog:**"
 msgstr "**體積霧：**"
 
@@ -790,13 +664,6 @@ msgid ""
 "Volumetric fog can take indirect light into account when using VoxelGI or "
 "SDFGI."
 msgstr "在使用VoxelGI或SDFGI時體積霧可以受間接光影響。"
-
-#, fuzzy
-msgid ""
-"Fog volume nodes that can be placed to add fog to specific areas (or remove "
-"fog from specific areas). Supported shapes include box, ellipse, cone, "
-"cylinder, and 3D texture-based density maps."
-msgstr "可以放置以向特定區域新增霧（或從特定區域去除霧）的霧體積節點。"
 
 msgid "Each fog volume can have its own custom shader."
 msgstr "每個霧體積都可以有自己的自訂著色器。"
@@ -869,11 +736,6 @@ msgstr ""
 msgid "Glow can have a colored dirt map texture, acting as a lens dirt effect."
 msgstr "輝光可以使用彩色污漬貼圖紋理，實作鏡頭髒汙效果。"
 
-msgid ""
-"Glow can be :ref:`used as a screen-space blur effect "
-"<doc_environment_and_post_processing_using_glow_to_blur_the_screen>`."
-msgstr ""
-
 msgid "Color correction using a one-dimensional ramp or a 3D LUT texture."
 msgstr "使用單維漸變進行色彩校正。"
 
@@ -913,12 +775,6 @@ msgstr "**抗鋸齒：**"
 
 msgid "Temporal :ref:`antialiasing <doc_3d_antialiasing>` (TAA)."
 msgstr "時間 :ref:`抗鋸齒 <doc_3d_antialiasing>` （TAA）。"
-
-msgid ""
-"AMD FidelityFX Super Resolution 2.2 :ref:`antialiasing "
-"<doc_3d_antialiasing>` (FSR2), which can be used at native resolution as a "
-"form of high-quality temporal antialiasing."
-msgstr ""
 
 msgid ""
 "Multi-sample antialiasing (MSAA), for both :ref:`doc_2d_antialiasing` and :"
@@ -1105,25 +961,8 @@ msgstr ":ref:`C#: <toc-learn-scripting-gdscript>`"
 msgid "Packaged in a separate binary to keep file sizes and dependencies down."
 msgstr "打包為獨立二進位檔案，以減少檔案大小與相依性。"
 
-msgid "Supports .NET 6 and higher."
-msgstr ""
-
 msgid "Full support for the C# 10.0 syntax and features."
 msgstr "完整支援 C# 7.0 語法與功能。"
-
-msgid ""
-"Supports Windows, Linux, and macOS. As of 4.2 experimental support for "
-"Android and iOS is also available (requires a .NET 7.0 project for Android "
-"and 8.0 for iOS)."
-msgstr ""
-
-msgid ""
-"On the Android platform only some architectures are supported: ``arm64`` and "
-"``x64``."
-msgstr ""
-
-msgid "On the iOS platform only some architectures are supported: ``arm64``."
-msgstr ""
 
 msgid ""
 "The web platform is currently unsupported. To use C# on that platform, "
@@ -1527,31 +1366,6 @@ msgstr "支援 XR (AR 與 VR)"
 msgid "Out of the box :ref:`support for OpenXR <doc_setting_up_xr>`."
 msgstr "開箱即用的 :ref:`OpenXR 支援 <doc_setting_up_xr>` 。"
 
-#, fuzzy
-msgid ""
-"Including support for popular desktop headsets like the Valve Index, WMR "
-"headsets, and Quest over Link."
-msgstr "包含對 Meta Quest、Valve Index 等流行頭戴式裝置的支援。"
-
-msgid ""
-"Support for :ref:`Android based headsets <doc_deploying_to_android>` using "
-"OpenXR through a plugin."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Including support for popular stand alone headsets like the Meta Quest 1/2/3 "
-"and Pro, Pico 4, Magic Leap 2, and Lynx R1."
-msgstr "包含對 Meta Quest、Valve Index 等流行頭戴式裝置的支援。"
-
-msgid "Other devices supported through an XR plugin structure."
-msgstr ""
-
-msgid ""
-"Various advanced toolkits are available that implement common features "
-"required by XR applications."
-msgstr ""
-
 msgid "GUI system"
 msgstr "GUI 圖形界面系統"
 
@@ -1720,12 +1534,6 @@ msgstr "可序列化或復原序列化任何 Godot 資料型別，包含 Vector,
 
 msgid "Read XML files using :ref:`class_XMLParser`."
 msgstr "可通過 :ref:`class_XMLParser` 來讀取 XML 檔案。"
-
-msgid ""
-":ref:`Load and save images, audio/video, fonts and ZIP archives "
-"<doc_runtime_loading_and_saving>` in an exported project without having to "
-"go through Godot's import system."
-msgstr ""
 
 msgid ""
 "Pack game data into a PCK file (custom format optimized for fast seeking), "

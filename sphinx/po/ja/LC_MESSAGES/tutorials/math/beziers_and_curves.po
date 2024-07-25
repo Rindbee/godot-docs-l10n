@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,10 +63,6 @@ msgid ""
 msgstr ""
 "次に、\\ ``q0`` と ``q1`` を補間して、曲線に沿って移動する単一のポイント "
 "``r`` を取得します。"
-
-#, fuzzy
-msgid "This type of curve is called a *Quadratic Bezier* curve."
-msgstr "このタイプは、\\ *二次ベジェ曲線*\\ と呼ばれます。"
 
 msgid "*(Image credit: Wikipedia)*"
 msgstr "*(画像クレジット: Wikipedia)*"
@@ -169,16 +160,6 @@ msgstr ""
 "曲線を含む2つのオブジェクトがあります: :ref:`Curve3D <class_Curve3D>` およ"
 "び :ref:`Curve2D <class_Curve2D>`(それぞれ3Dおよび2D用)。"
 
-#, fuzzy
-msgid ""
-"They can contain several points, allowing for longer paths. It is also "
-"possible to set them to nodes: :ref:`Path3D <class_Path3D>` and :ref:`Path2D "
-"<class_Path2D>` (also for 3D and 2D respectively):"
-msgstr ""
-"それらは複数のポイントを含むことができ、より長いパスを可能にします。それらを"
-"ノードに設定することも可能です: :ref:`Path <class_Path>` および :ref:`Path2D "
-"<class_Path2D>`(それぞれ3Dおよび2Dの場合も同様):"
-
 msgid ""
 "Using them, however, may not be completely obvious, so following is a "
 "description of the most common use cases for Bezier curves."
@@ -188,26 +169,6 @@ msgstr ""
 
 msgid "Evaluating"
 msgstr "評価する"
-
-#, fuzzy
-msgid ""
-"Only evaluating them may be an option, but in most cases it's not very "
-"useful. The big drawback with Bezier curves is that if you traverse them at "
-"constant speed, from ``t = 0`` to ``t = 1``, the actual interpolation will "
-"*not* move at constant speed. The speed is also an interpolation between the "
-"distances between points ``p0``, ``p1``, ``p2`` and ``p3`` and there is not "
-"a mathematically simple way to traverse the curve at constant speed."
-msgstr ""
-"それらを評価するだけでもオプションかもしれませんが、ほとんどの場合、あまり有"
-"用ではありません。ベジェ曲線の大きな欠点は、それらを ``t = 0`` から ``t = "
-"1`` まで一定の速度で移動すると、実際の補間結果が一定の速度で\\ *移動*\\ しな"
-"いことです。速度は、ポイント ``p0``\\ 、\\ ``p1``\\ 、\\ ``p2``\\ 、および "
-"``p3`` 間の距離間の補間でもあり、一定速度で曲線上を移動する数学的に簡単な方法"
-"はありません。"
-
-#, fuzzy
-msgid "Let's do an example with the following pseudocode:"
-msgstr "次の擬似コードを使用して簡単な例を実行してみましょう:"
 
 msgid ""
 "As you can see, the speed (in pixels per second) of the circle varies, even "
@@ -276,23 +237,6 @@ msgid ""
 msgstr ""
 "曲線の最後の一般的な使用例は、曲線をトラバースすることです。一定の速度に関し"
 "て以前に言及されたことのため、これも困難です。"
-
-#, fuzzy
-msgid ""
-"To make this easier, the curves need to be *baked* into equidistant points. "
-"This way, they can be approximated with regular interpolation (which can be "
-"improved further with a cubic option). To do this, just use the :ref:"
-"`Curve3D.sample_baked()<class_Curve3D_method_sample_baked>` method together "
-"with :ref:`Curve2D."
-"get_baked_length()<class_Curve2D_method_get_baked_length>`. The first call "
-"to either of them will bake the curve internally."
-msgstr ""
-"これを簡単にするには、曲線を等距離点に\\ *焼き付ける*\\ 必要があります。この"
-"方法では、通常の補間で近似できます(キュービックオプションでさらに改善できま"
-"す)。これを行うには、\\ :ref:`Curve.interpolate_baked() "
-"<class_Curve_method_interpolate_baked>` メソッドと :ref:`Curve2D."
-"get_baked_length() <class_Curve2D_method_get_baked_length>` を組み合わせて使"
-"用します。どちらかを最初に呼び出すと、曲線が内部でベイク処理されます。"
 
 msgid ""
 "Traversal at constant speed, then, can be done with the following pseudo-"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,18 +17,6 @@ msgstr "2Dスケルトン"
 
 msgid "Introduction"
 msgstr "はじめに"
-
-#, fuzzy
-msgid ""
-"When working with 3D, skeletal deforms are common for characters and "
-"creatures and most 3D modeling applications support it. For 2D, as this "
-"function is not used as often, it's difficult to find mainstream software "
-"aimed for this."
-msgstr ""
-"3Dを使用する場合、スケルタル(ボーン)変形はキャラクターやクリーチャーによく見"
-"られ、ほとんどの3Dモデリングアプリケーションはそれをサポートしています。 2Dの"
-"場合、この機能はあまり使用されないため、これを目的とした主流のソフトウェアを"
-"見つけることは困難です。"
 
 msgid ""
 "One option is to create animations in third-party software such as Spine or "
@@ -107,16 +90,6 @@ msgstr ""
 msgid "Creating the polygons"
 msgstr "ポリゴンの作成"
 
-#, fuzzy
-msgid ""
-"Create a new scene for your model (if it's going to be an animated "
-"character, you may want to use a ``CharacterBody2D``). For ease of use, an "
-"empty 2D node is created as a root for the polygons."
-msgstr ""
-"モデルの新しいシーンを作成します(アニメーション化されたキャラクターになる場合"
-"は ``KinematicBody2D`` を使用できます)。使いやすいように、空の2Dノードをポリ"
-"ゴンのルートとして作成します。"
-
 msgid ""
 "Begin with a ``Polygon2D`` node. There is no need to place it anywhere in "
 "the scene for now, so simply create it like this:"
@@ -158,14 +131,6 @@ msgid ""
 msgstr ""
 "ノードを複製したとき、次のピースの形状が今のものと似ている場合は、新しいポリ"
 "ゴンを描画する代わりに前のポリゴンを編集できます。"
-
-#, fuzzy
-msgid ""
-"After moving the polygon, remember to update the UV by selecting **Edit > "
-"Copy Polygon to UV** in the Polygon 2D UV Editor."
-msgstr ""
-"ポリゴンを移動した後、ポリゴン2D UVエディタで[編集] -> [Polygon->UV]を選択し"
-"て、UVを必ず更新してください。"
 
 msgid "Keep doing this until you mapped all pieces."
 msgstr "すべてのピースをマッピングするまでこれを繰り返してください。"
@@ -244,15 +209,6 @@ msgstr ""
 
 msgid "Keep going and build the whole skeleton:"
 msgstr "続けて、スケルトン全体を構築します:"
-
-msgid ""
-"You will notice that all bones raise a warning about a missing rest pose. A "
-"rest pose is the default pose for a skeleton, you can come back to it "
-"anytime you want (which is very handy for animating). To set one click on "
-"the *skeleton* node in the scene tree, then click on the ``Skeleton2D`` "
-"button in the toolbar, and select ``Overwrite Rest Pose`` from the dropdown "
-"menu."
-msgstr ""
 
 msgid ""
 "The warnings will go away. If you modify the skeleton (add/remove bones) you "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -599,27 +594,6 @@ msgstr "變數"
 
 msgid "Property value, using this same format"
 msgstr "屬性值，格式相同"
-
-#, fuzzy
-msgid ""
-"Not all properties are included. Only properties that are configured with "
-"the :ref:"
-"`PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` "
-"flag set will be serialized. You can add a new usage flag to a property by "
-"overriding the :ref:"
-"`_get_property_list<class_Object_private_method__get_property_list>` method "
-"in your class. You can also check how property usage is configured by "
-"calling ``Object._get_property_list`` See :ref:"
-"`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` for the possible "
-"usage flags."
-msgstr ""
-"並非所有屬性都包括在內。只有使用 "
-"PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` "
-"旗標集配置的屬性才會被序列化。您可以透過重寫類別中的 "
-"_get_property_list<class_Object_method__get_property_list>` 方法來為屬性新增"
-"新的使用旗標。您也可以透過呼叫「Object._get_property_list」來檢查屬性使用的配"
-"置方式，請參閱:ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`"
-"了解可能的使用旗標。"
 
 msgid "18: :ref:`Dictionary<class_dictionary>`"
 msgstr "18：:ref:`Dictionary<class_dictionary>`"

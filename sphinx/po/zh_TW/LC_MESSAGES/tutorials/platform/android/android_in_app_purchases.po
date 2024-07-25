@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,34 +15,11 @@ msgstr ""
 msgid "Android in-app purchases"
 msgstr "Android 應用內購買"
 
-#, fuzzy
-msgid ""
-"Godot offers a first-party ``GodotGooglePlayBilling`` Android plugin "
-"compatible with Godot 4 which uses the `Google Play Billing library <https://"
-"developer.android.com/google/play/billing>`_."
-msgstr ""
-"自 Godot 3.2.2 以來，Godot提供了一個第一方的 ``GodotGooglePlayBilling`` "
-"Android 外掛程式。新外掛程式使用 `Google Play Billing 庫 <https://developer."
-"android.com/google/play/billing>`__，而不是現在已經廢棄的 AIDL IAP 實作。"
-
 msgid "Usage"
 msgstr "使用量"
 
 msgid "Getting started"
 msgstr "入門"
-
-#, fuzzy
-msgid ""
-"Make sure you have enabled and successfully set up :ref:`Android Gradle "
-"Builds <doc_android_gradle_build>`. Follow the compiling instructions on the "
-"``GodotGooglePlayBilling`` `github page <https://github.com/godotengine/"
-"godot-google-play-billing>`__."
-msgstr ""
-"如果還沒有完成, 請確保你已經啟用並成功設定 :ref:`Android Custom Builds "
-"<doc_android_custom_build>`. 從 `releases page <https://github.com/"
-"godotengine/godot-google-play-billing/releases>`__\"中抓取 "
-"``GodotGooglePlayBilling`` 外掛程式二進位檔案和設定檔, 並將兩者放入 `res://"
-"android/plugins` 中. 現在該外掛程式應該出現在Android匯出設定中, 你可以啟用它."
 
 msgid ""
 "Then put the files `./godot-google-play-billing/build/outputs/aar/"
@@ -96,24 +68,6 @@ msgstr "getConnectionState() 的回傳值："
 
 msgid "Query available items"
 msgstr "有六種搜尋模式："
-
-#, fuzzy
-msgid ""
-"Once the API has connected, query SKUs using ``querySkuDetails()``. You must "
-"successfully complete an SKU query before calling the ``purchase()`` or "
-"``queryPurchases()`` functions, or they will return an error. "
-"``querySkuDetails()`` takes two parameters: an array of SKU name strings, "
-"and a string specifying the type of SKU being queried. The SKU type string "
-"should be ``\"inapp\"`` for normal in-app purchases or ``\"subs\"`` for "
-"subscriptions. The name strings in the array should match the SKU product "
-"ids defined in the Google Play Console entry for your app."
-msgstr ""
-"API 連線後，使用「querySkuDetails()」查詢 SKU。在呼叫 ``purchase()`` 或 "
-"``queryPurchases()`` 函式之前，您必須成功完成 SKU 查詢，否則它們將傳回錯誤。 "
-"``querySkuDetails()`` 有兩個參數：一個 SKU 名稱字串陣列，以及一個指定要查詢"
-"的 SKU 型別的字串。對於正常的應用程式內購買，SKU 型別字串應為 "
-"``\"inapp\"`` ，對於訂閱，應為 ``\"subs\"`` 。陣列中的名稱字串應與您的應用程"
-"式的 Google Play Console 條目中定義的 SKU 產品 ID 相符。"
 
 msgid "Example use of ``querySkuDetails()``:"
 msgstr "``querySkuDetails()`` 的範例用法："

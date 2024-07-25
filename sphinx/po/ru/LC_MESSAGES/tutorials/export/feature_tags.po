@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,12 +55,6 @@ msgid "Features can be queried at run-time from the singleton API by calling:"
 msgstr ""
 "Особенности можно запрашивать во время выполнения singleton API, вызывая:"
 
-msgid ""
-"OS feature tags are used by GDExtension to determine which libraries to "
-"load. For example, a library for ``linux.debug.editor.x86_64`` will be "
-"loaded only on a debug editor build for Linux x86_64."
-msgstr ""
-
 msgid "Default features"
 msgstr "Основные особенности"
 
@@ -85,32 +74,17 @@ msgstr "**Описание**"
 msgid "**android**"
 msgstr "**android**"
 
-msgid "Running on Android (but not within a Web browser)"
-msgstr ""
-
 msgid "**bsd**"
 msgstr "**bsd**"
-
-msgid "Running on \\*BSD (but not within a Web browser)"
-msgstr ""
 
 msgid "**linux**"
 msgstr "**linux**"
 
-msgid "Running on Linux (but not within a Web browser)"
-msgstr ""
-
 msgid "**macos**"
 msgstr "**macOS**"
 
-msgid "Running on macOS (but not within a Web browser)"
-msgstr ""
-
 msgid "**ios**"
 msgstr "**ios**"
-
-msgid "Running on iOS (but not within a Web browser)"
-msgstr ""
 
 msgid "**windows**"
 msgstr "**windows**"
@@ -120,10 +94,6 @@ msgstr "Работает на Windows"
 
 msgid "**linuxbsd**"
 msgstr "**linux-bsd**"
-
-#, fuzzy
-msgid "Running on Linux or \\*BSD"
-msgstr "Работает на iOS"
 
 msgid "**debug**"
 msgstr "**debug**"
@@ -146,23 +116,11 @@ msgstr "Запуск в сборке редактора"
 msgid "**template**"
 msgstr "**шаблон**"
 
-#, fuzzy
-msgid "Running on a non-editor (export template) build"
-msgstr "Запуск на сборке без редактора"
-
 msgid "**double**"
 msgstr "**двойной**"
 
-#, fuzzy
-msgid "Running on a double-precision build"
-msgstr "Запуск на сборке без редактора"
-
 msgid "**single**"
 msgstr "**одинарной**"
-
-#, fuzzy
-msgid "Running on a single-precision build"
-msgstr "Запуск на сборке без редактора"
 
 msgid "**64**"
 msgstr "**64**"
@@ -191,10 +149,6 @@ msgstr "Запуск на 32-bit x86 сборке"
 msgid "**x86**"
 msgstr "**x86**"
 
-#, fuzzy
-msgid "Running on an x86 build (any bitness)"
-msgstr "Запуск на 64-bit сборке (любая архитектура)"
-
 msgid "**arm64**"
 msgstr "**arm64**"
 
@@ -210,65 +164,29 @@ msgstr "Запуск на 32-bit ARM сборке"
 msgid "**arm**"
 msgstr "**arm**"
 
-#, fuzzy
-msgid "Running on an ARM build (any bitness)"
-msgstr "Запуск на 64-bit сборке (любая архитектура)"
-
 msgid "**rv64**"
 msgstr "**rv64**"
-
-#, fuzzy
-msgid "Running on a 64-bit RISC-V build"
-msgstr "Запуск на 64-bit ARM сборке"
 
 msgid "**riscv**"
 msgstr "**risc-v**"
 
-#, fuzzy
-msgid "Running on a RISC-V build (any bitness)"
-msgstr "Запуск на 64-bit сборке (любая архитектура)"
-
 msgid "**ppc64**"
 msgstr "**ppc-64**"
-
-#, fuzzy
-msgid "Running on a 64-bit PowerPC build"
-msgstr "Запуск на 64-bit x86 сборке"
 
 msgid "**ppc32**"
 msgstr "**ppc-32**"
 
-#, fuzzy
-msgid "Running on a 32-bit PowerPC build"
-msgstr "Запуск на 32-bit x86 сборке"
-
 msgid "**ppc**"
 msgstr "**powerpc**"
-
-#, fuzzy
-msgid "Running on a PowerPC build (any bitness)"
-msgstr "Запуск на 64-bit сборке (любая архитектура)"
 
 msgid "**wasm64**"
 msgstr "**wasm-64**"
 
-#, fuzzy
-msgid "Running on a 64-bit WebAssembly build (not yet possible)"
-msgstr "Запуск на 64-bit сборке (любая архитектура)"
-
 msgid "**wasm32**"
 msgstr "**wasm-32**"
 
-#, fuzzy
-msgid "Running on a 32-bit WebAssembly build"
-msgstr "Запуск на 32-bit ARM сборке"
-
 msgid "**wasm**"
 msgstr "**WASM**"
-
-#, fuzzy
-msgid "Running on a WebAssembly build (any bitness)"
-msgstr "Запуск на 64-bit сборке (любая архитектура)"
 
 msgid "**mobile**"
 msgstr "**мобильные устройства**"
@@ -288,46 +206,6 @@ msgstr "**web**"
 msgid "Host OS is a Web browser"
 msgstr "Host OS - это веб-браузер"
 
-#, fuzzy
-msgid "**web_android**"
-msgstr "**Android**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on Android"
-msgstr "Host OS - это веб-браузер"
-
-#, fuzzy
-msgid "**web_ios**"
-msgstr "**web**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on iOS"
-msgstr "Host OS - это веб-браузер"
-
-#, fuzzy
-msgid "**web_linuxbsd**"
-msgstr "**web**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on Linux or \\*BSD"
-msgstr "Host OS - это веб-браузер"
-
-#, fuzzy
-msgid "**web_macos**"
-msgstr "**web**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on macOS"
-msgstr "Host OS - это веб-браузер"
-
-#, fuzzy
-msgid "**web_windows**"
-msgstr "**Windows**"
-
-#, fuzzy
-msgid "Host OS is a Web browser running on Windows"
-msgstr "Host OS - это веб-браузер"
-
 msgid "**etc**"
 msgstr "**etc**"
 
@@ -345,37 +223,6 @@ msgstr "**s3tc**"
 
 msgid "Textures using S3TC (DXT/BC) compression are supported"
 msgstr "Поддерживаются текстуры с применением сжатия S3TC (DXT/BC)"
-
-#, fuzzy
-msgid "**movie**"
-msgstr "**мобильные устройства**"
-
-msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"With the exception of texture compression and ``movie`` feature tags, "
-"default feature tags are **immutable**. This means that they will *not* "
-"change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to HTML5 on a mobile device."
-msgstr ""
-"За исключением тегов функций сжатия текстуры, теги функций по умолчанию "
-"**неизменяемы**. Это означает, что они *не* изменяются в зависимости от "
-"условий выполнения. Например, ``OS.has_feature(\"mobile\")`` будет "
-"возвращать ``false`` при запуске проекта, экспортированного в HTML5 на "
-"мобильном устройстве."
-
-#, fuzzy
-msgid ""
-"To check whether a project exported to HTML5 is running on a mobile device, :"
-"ref:`call JavaScript code <doc_web_javascript_bridge>` that reads the "
-"browser's user agent."
-msgstr ""
-"Чтобы проверить, запущен ли проект, экспортированный в HTML5, на мобильном "
-"устройстве, :ref:`вызовите JavaScript-код <doc_javascript_eval>`, который "
-"считывает пользовательский агент браузера."
 
 msgid "Custom features"
 msgstr "Пользовательские особенности"
@@ -450,17 +297,6 @@ msgstr ""
 
 msgid "Customizing the build"
 msgstr "Настройка сборки"
-
-#, fuzzy
-msgid ""
-"Feature tags can be used to customize a build process too, by writing a "
-"custom **ExportPlugin**. They are also used to specify which shared library "
-"is loaded and exported in **GDExtension**."
-msgstr ""
-"Теги особенностей также можно использовать для настройки процесса сборки, "
-"написав пользовательский **ExportPlugin**. Они также используются для "
-"указания того, какая общая библиотека загружается и экспортируется в "
-"**GDNative**."
 
 msgid "Translation status"
 msgstr "Статус перевода"

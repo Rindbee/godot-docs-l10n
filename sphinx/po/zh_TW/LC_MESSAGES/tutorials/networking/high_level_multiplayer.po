@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -248,17 +243,6 @@ msgstr ""
 "Network_address_translation>」__。 Godot 的高級多人 API 僅使用 UDP，因此您必"
 "須以 UDP 轉發端口，而不僅僅是 TCP。"
 
-#, fuzzy
-msgid ""
-"After forwarding a UDP port and making sure your server uses that port, you "
-"can use `this website <https://icanhazip.com/>`__ to find your public IP "
-"address. Then give this public IP address to any Internet clients that wish "
-"to connect to your server."
-msgstr ""
-"轉送 UDP 連接埠並確保您的伺服器使用該連接埠後，您可以使用「此網站 <https://"
-"icanhazip.com/>」來尋找您的公用 IP 位址。然後將此公用 IP 位址提供給任何希望連"
-"接到您的伺服器的 Internet 使用者端。"
-
 msgid ""
 "Godot's high-level multiplayer API uses a modified version of ENet which "
 "allows for full IPv6 support."
@@ -387,36 +371,6 @@ msgstr ""
 "「force_read_name」設為「true」。"
 
 msgid ""
-"If a function is annotated with ``@rpc`` on the client script (resp. server "
-"script), then this function must also be declared on the server script "
-"(resp. client script). Both RPCs must have the same signature which is "
-"evaluated with a checksum of **all RPCs**. All RPCs in a script are checked "
-"at once, and all RPCs must be declared on both the client scripts and the "
-"server scripts, **even functions that are currently not in use**."
-msgstr ""
-
-msgid ""
-"The signature of the RPC includes the ``@rpc()`` declaration, the function, "
-"return type, AND the nodepath. If an RPC resides in a script attached to ``/"
-"root/Main/Node1``, then it must reside in precisely the same path and node "
-"on both the client script and the server script. Function arguments "
-"(example: ``func sendstuff():`` and ``func sendstuff(arg1, arg2):`` **will "
-"pass** signature matching)."
-msgstr ""
-
-msgid ""
-"If these conditions are not met (if all RPCs do not pass signature "
-"matching), the script may print an error or cause unwanted behavior. The "
-"error message may be unrelated to the RPC function you are currently "
-"building and testing."
-msgstr ""
-
-msgid ""
-"See further explanation and troubleshooting on `this post <https://github."
-"com/godotengine/godot/issues/57869#issuecomment-1034215138>`__."
-msgstr ""
-
-msgid ""
 "The annotation can take a number of arguments, which have default values. "
 "``@rpc`` is equivalent to:"
 msgstr "註解可以採用多個參數，這些參數具有預設值。 ``@rpc`` 相當於："
@@ -520,12 +474,6 @@ msgstr ""
 "的封包可能會導致封包遺失，因為到達較慢的封包將被忽略。透過使用通道將它們分成"
 "多個同質封包流，可以實作有序傳輸，且封包遺失很少，並且不會因可靠模式而導致延"
 "遲損失。"
-
-#, fuzzy
-msgid ""
-"The default channel with index 0 is actually three different channels - one "
-"for each transfer mode."
-msgstr "索引為 0 的預設通道實際上是三個不同的通道 - 每個通道對應一種傳輸模式。"
 
 msgid "Example lobby implementation"
 msgstr "實作"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,22 +82,13 @@ msgstr "**dеpth_draw_never**"
 msgid "Never draw depth."
 msgstr "Никогда не отрисовывать глубину."
 
-msgid "**depth_prepass_alpha**"
-msgstr ""
-
 msgid "Do opaque depth pre-pass for transparent geometry."
 msgstr ""
 "Выполнение предварительного прохождения непрозрачной глубины для прозрачной "
 "геометрии."
 
-msgid "**depth_test_disabled**"
-msgstr ""
-
 msgid "Disable depth testing."
 msgstr "Отключение проверки глубины."
-
-msgid "**sss_mode_skin**"
-msgstr ""
 
 msgid "Subsurface Scattering mode for skin."
 msgstr "Режим Подповерхностного Рассеивания для кожи."
@@ -132,9 +118,6 @@ msgid "Result is just albedo. No lighting/shading happens in material."
 msgstr ""
 "В результате получается просто альбедо. Никакого освещения/затенения в "
 "материале не происходит."
-
-msgid "**wireframe**"
-msgstr ""
 
 msgid "Geometry draws using lines."
 msgstr "Отрисовка геометрии с линиями."
@@ -166,20 +149,11 @@ msgstr "Toon-затенение для диффузного."
 msgid "**specular_schlick_ggx**"
 msgstr "**specular_schlick_ggх**"
 
-msgid "Schlick-GGX for specular (default)."
-msgstr ""
-
 msgid "**specular_toon**"
 msgstr "**spеcular_toon**"
 
-msgid "Toon for specular."
-msgstr ""
-
 msgid "**specular_disabled**"
 msgstr "**speculаr_disabled**"
-
-msgid "Disable specular."
-msgstr ""
 
 msgid "**skip_vertex_transform**"
 msgstr "**skіp_vertex_transform**"
@@ -193,23 +167,14 @@ msgstr "**wоrld_vertex_coords**"
 msgid "VERTEX/NORMAL/etc. are modified in world coordinates instead of local."
 msgstr "VERTEX/NORMAL/etc. изменяются в мировых координатах, а не в локальных."
 
-msgid "**ensure_correct_normals**"
-msgstr ""
-
 msgid "Use when non-uniform scale is applied to mesh."
 msgstr "Используется, когда к сетке применяется неравномерный масштаб."
-
-msgid "**shadows_disabled**"
-msgstr ""
 
 msgid "Disable computing shadows in shader."
 msgstr "Отключение вычисления теней в шейдере."
 
 msgid "**ambient_light_disabled**"
 msgstr "**Свет_окружения_отключен**"
-
-msgid "Disable contribution from ambient light and radiance map."
-msgstr ""
 
 msgid "**shadow_to_opacity**"
 msgstr "**Тень_непрозрачна**"
@@ -228,26 +193,6 @@ msgstr "**vеrtex_lighting**"
 
 msgid "Use vertex-based lighting."
 msgstr "Использовать вершинное освещение."
-
-msgid "**particle_trails**"
-msgstr ""
-
-msgid "Enables the trails when used on particles geometry."
-msgstr ""
-
-msgid "**alpha_to_coverage**"
-msgstr ""
-
-msgid ""
-"Alpha antialiasing mode, see `here <https://github.com/godotengine/godot/"
-"pull/40364>`_ for more."
-msgstr ""
-
-msgid "**alpha_to_coverage_and_one**"
-msgstr ""
-
-msgid "**fog_disabled**"
-msgstr ""
 
 msgid ""
 "Disable receiving depth-based or volumetric fog. Useful for blend_add "
@@ -282,14 +227,8 @@ msgstr ""
 msgid "Built-in"
 msgstr "Встроенный"
 
-msgid "in float **TIME**"
-msgstr ""
-
 msgid "Global time, in seconds."
 msgstr "Глобальное время в секундах."
-
-msgid "in float **PI**"
-msgstr ""
 
 msgid ""
 "A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
@@ -298,26 +237,12 @@ msgstr ""
 "Константа ``PI`` (``3.141592``). Отношение окружности круга к его диаметру и "
 "количество радианов в половине оборота."
 
-msgid "in float **TAU**"
-msgstr ""
-
 msgid ""
 "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of "
 "radians in full turn."
 msgstr ""
 "Константа ``TAU`` (``6.283185``). Эквивалент ``PI * 2`` и количество "
 "радианов в полном обороте."
-
-msgid "in float **E**"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"An ``E`` constant (``2.718281``). Euler's number and a base of the natural "
-"logarithm."
-msgstr ""
-"Константа ``E`` (``2,718281``). Число Эйлера и основание натурального "
-"логарифма."
 
 msgid "Vertex built-ins"
 msgstr "Вершинные встроенные константы"
@@ -353,20 +278,6 @@ msgstr ""
 "Другие встроенные функции, такие как UV, UV2 и COLOR, также передаются в "
 "функцию fragment, если они не изменены."
 
-#, fuzzy
-msgid ""
-"Users can override the modelview and projection transforms using the "
-"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
-"it will always be used, so the user becomes responsible for ensuring that it "
-"always has an acceptable value. When ``POSITION`` is used, the value from "
-"``VERTEX`` is ignored and projection does not happen. However, the value "
-"passed to the fragment shader still comes from ``VERTEX``."
-msgstr ""
-"Пользователи могут переопределить преобразования вида модели и проекции с "
-"помощью встроенной функции ``POSITION``. При использовании ``POSITION`` "
-"значение из ``VERTEX`` игнорируется, и проецирование не происходит. Однако "
-"значение, передаваемое в шейдер фрагмента, по-прежнему берётся из ``VERTEX``."
-
 msgid ""
 "For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
 "data. When using particles, this information is usually:"
@@ -392,75 +303,20 @@ msgstr ""
 "материал частиц по умолчанию. При написании собственного шейдера частиц это "
 "значение можно использовать по своему усмотрению."
 
-msgid "in vec2 **VIEWPORT_SIZE**"
-msgstr ""
-
 msgid "Size of viewport (in pixels)."
 msgstr "Размер области просмотра (в пикселях)."
-
-msgid "in mat4 **VIEW_MATRIX**"
-msgstr ""
 
 msgid "World space to view space transform."
 msgstr "Мировое пространство для просмотра трансформации пространства."
 
-msgid "in mat4 **INV_VIEW_MATRIX**"
-msgstr ""
-
-msgid "View space to world space transform."
-msgstr ""
-
-#, fuzzy
-msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
-msgstr "mat4 **MODEL_MATRIX**"
-
-#, fuzzy
-msgid ""
-"View space to world space transform of camera used to draw the current "
-"viewport."
-msgstr ""
-"Трансформация локального пространства в мировое. Мировое пространство — это "
-"координаты, которые вы обычно используете в редакторе."
-
-msgid "in mat4 **INV_PROJECTION_MATRIX**"
-msgstr ""
-
-msgid "Clip space to view space transform."
-msgstr ""
-
-msgid "in vec3 **NODE_POSITION_WORLD**"
-msgstr ""
-
 msgid "Node world space position."
 msgstr "Положение узла в мировом пространстве."
-
-msgid "in vec3 **NODE_POSITION_VIEW**"
-msgstr ""
-
-#, fuzzy
-msgid "Node view space position."
-msgstr "Получить позицию игрока."
-
-msgid "in vec3 **CAMERA_POSITION_WORLD**"
-msgstr ""
 
 msgid "Camera world space position."
 msgstr "Положение камеры в мировом пространстве."
 
-msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
-msgstr ""
-
 msgid "Camera world space direction."
 msgstr "Направление камеры в мировом пространстве."
-
-msgid "in uint **CAMERA_VISIBLE_LAYERS**"
-msgstr ""
-
-msgid "Cull layers of the camera rendering the current pass."
-msgstr ""
-
-msgid "in bool **OUTPUT_IS_SRGB**"
-msgstr ""
 
 msgid ""
 "``true`` when output is in sRGB color space (this is ``true`` in the "
@@ -469,21 +325,6 @@ msgstr ""
 "``true``, если вывод осуществляется в цветовом пространстве sRGB (это "
 "``true`` в рендере Compatibility, ``false`` в Forward+ и Forward Mobile)."
 
-msgid "in int **INSTANCE_ID**"
-msgstr ""
-
-msgid "Instance ID for instancing."
-msgstr ""
-
-msgid "in vec4 **INSTANCE_CUSTOM**"
-msgstr ""
-
-msgid "Instance custom data (for particles, mostly)."
-msgstr ""
-
-msgid "in int **VIEW_INDEX**"
-msgstr ""
-
 msgid ""
 "The view that we are rendering. ``VIEW_MONO_LEFT`` (``0``) for Mono (not "
 "multiview) or left eye, ``VIEW_RIGHT`` (``1``) for right eye."
@@ -491,20 +332,11 @@ msgstr ""
 "Вид, который мы рендерим. ``VIEW_MONO_LEFT`` (``0``) для Mono (не "
 "мультиракурс) или левого глаза, ``VIEW_RIGHT`` (``1``) для правого глаза."
 
-msgid "in int **VIEW_MONO_LEFT**"
-msgstr ""
-
 msgid "Constant for Mono or left eye, always ``0``."
 msgstr "Постоянная для Mono или левого глаза, всегда ``0``."
 
-msgid "in int **VIEW_RIGHT**"
-msgstr ""
-
 msgid "Constant for right eye, always ``1``."
 msgstr "Константа для правого глаза, всегда ``1``."
-
-msgid "in vec3 **EYE_OFFSET**"
-msgstr ""
 
 msgid ""
 "Position offset for the eye being rendered. Only applicable for multiview "
@@ -513,82 +345,34 @@ msgstr ""
 "Смещение позиции для отрисовываемого глаза. Применяется только для "
 "многоракурсного рендеринга."
 
-msgid "inout vec3 **VERTEX**"
-msgstr ""
-
 msgid "Vertex in local coordinates."
 msgstr "Вершина в локальных координатах."
-
-msgid "in int **VERTEX_ID**"
-msgstr ""
 
 msgid "The index of the current vertex in the vertex buffer."
 msgstr "Индекс текущей вершины в буфере вершин."
 
-msgid "inout vec3 **NORMAL**"
-msgstr ""
-
 msgid "Normal in local coordinates."
 msgstr "Нормаль в локальных координатах."
-
-msgid "inout vec3 **TANGENT**"
-msgstr ""
-
-msgid "Tangent in local coordinates."
-msgstr ""
-
-msgid "inout vec3 **BINORMAL**"
-msgstr ""
 
 msgid "Binormal in local coordinates."
 msgstr "Бинормаль в локальных координатах."
 
-msgid "out vec4 **POSITION**"
-msgstr ""
-
 msgid "If written to, overrides final vertex position."
 msgstr "Если записано в, то отменяет конечную позицию вершины."
-
-msgid "inout vec2 **UV**"
-msgstr ""
-
-msgid "UV main channel."
-msgstr ""
-
-msgid "inout vec2 **UV2**"
-msgstr ""
-
-msgid "UV secondary channel."
-msgstr ""
-
-msgid "inout vec4 **COLOR**"
-msgstr ""
 
 msgid "Color from vertices."
 msgstr "Цвет из вершин."
 
-msgid "out float **ROUGHNESS**"
-msgstr ""
-
 msgid "Roughness for vertex lighting."
 msgstr "Шероховатость для вершинного освещения."
 
-msgid "inout float **POINT_SIZE**"
-msgstr ""
-
 msgid "Point size for point rendering."
 msgstr "Размер точки для рендеринга точек."
-
-msgid "inout mat4 **MODELVIEW_MATRIX**"
-msgstr ""
 
 msgid "Model space to view space transform (use if possible)."
 msgstr ""
 "Пространство модели для просмотра преобразования пространства (используется, "
 "если возможно)."
-
-msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
-msgstr ""
 
 msgid "in mat4 **MODEL_MATRIX**"
 msgstr "mat4 **MODEL_MATRIX**"
@@ -599,31 +383,8 @@ msgstr "Преобразование пространства модели в м
 msgid "in mat3 **MODEL_NORMAL_MATRIX**"
 msgstr "mat3 **MODEL_NORMAL_MATRIX**"
 
-msgid "inout mat4 **PROJECTION_MATRIX**"
-msgstr ""
-
 msgid "View space to clip space transform."
 msgstr "Преобразование пространства просмотра для обрезки пространства."
-
-#, fuzzy
-msgid "in uvec4 **BONE_INDICES**"
-msgstr "vec4 **COLOR**"
-
-#, fuzzy
-msgid "in vec4 **BONE_WEIGHTS**"
-msgstr "в vec2 **LIGHT_UV**"
-
-msgid "in vec4 **CUSTOM0**"
-msgstr ""
-
-msgid "in vec4 **CUSTOM1**"
-msgstr ""
-
-msgid "in vec4 **CUSTOM2**"
-msgstr ""
-
-msgid "in vec4 **CUSTOM3**"
-msgstr ""
 
 msgid ""
 "``MODELVIEW_MATRIX`` combines both the ``MODEL_MATRIX`` and ``VIEW_MATRIX`` "
@@ -668,20 +429,8 @@ msgstr ""
 msgid "in bool **FRONT_FACING**"
 msgstr "bool **FRONT_FACING**"
 
-#, fuzzy
-msgid "``true`` if current face is front facing."
-msgstr "``true``, если текущая грань передняя."
-
 msgid "in vec3 **VIEW**"
 msgstr "vec3 **VIEW**"
-
-#, fuzzy
-msgid ""
-"Normalized vector from fragment position to camera (in view space). This is "
-"the same for both perspective and orthogonal cameras."
-msgstr ""
-"Нормализованный вектор от положения фрагмента до камеры (в пространстве "
-"обзора)."
 
 msgid "in vec2 **UV**"
 msgstr "vec2 **UV**"
@@ -730,17 +479,6 @@ msgstr ""
 "Вершина, полученная из вершинной функции (по умолчанию, в пространстве "
 "просмотра)."
 
-msgid "inout vec3 **LIGHT_VERTEX**"
-msgstr ""
-
-msgid ""
-"A writable version of ``VERTEX`` that can be used to alter light and "
-"shadows. Writing to this will not change the position of the fragment."
-msgstr ""
-
-msgid "sampler2D **SCREEN_TEXTURE**"
-msgstr ""
-
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_screen_texture`` instead."
 msgstr ""
@@ -753,17 +491,11 @@ msgstr "vec2 **SCREEN_UV**"
 msgid "Screen UV coordinate for current pixel."
 msgstr "Экранная UV-координата для текущего пикселя."
 
-msgid "sampler2D **DEPTH_TEXTURE**"
-msgstr ""
-
 msgid ""
 "Removed in Godot 4. Use a ``sampler2D`` with ``hint_depth_texture`` instead."
 msgstr ""
 "Убрано в Godot 4. Вместо этого используйте ``sampler2D` с "
 "``hint_depth_texture``."
-
-msgid "out float **DEPTH**"
-msgstr ""
 
 msgid ""
 "Custom depth value (0..1). If ``DEPTH`` is being written to in any shader "
@@ -779,65 +511,24 @@ msgid "Normal that comes from vertex function (default, in view space)."
 msgstr ""
 "Нормаль, исходящая из вершинной функции (по умолчанию, в пространстве вида)."
 
-msgid "Tangent that comes from vertex function."
-msgstr ""
-
 msgid "Binormal that comes from vertex function."
 msgstr "Бинормаль, возникающая из вершинной функции."
-
-msgid "out vec3 **NORMAL_MAP**"
-msgstr ""
 
 msgid "Set normal here if reading normal from a texture instead of NORMAL."
 msgstr ""
 "Установите здесь нормаль, если читаете нормаль из текстуры вместо NORMAL."
 
-msgid "out float **NORMAL_MAP_DEPTH**"
-msgstr ""
-
 msgid "Depth from variable above. Defaults to 1.0."
 msgstr "Глубина из переменной выше. По умолчанию 1.0."
-
-msgid "out vec3 **ALBEDO**"
-msgstr ""
 
 msgid "Albedo (default white)."
 msgstr "Альбедо (по умолчанию белый)."
 
-msgid "out float **ALPHA**"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Alpha (0..1); if read from or written to, the material will go to the "
-"transparent pipeline."
-msgstr ""
-"Альфа (0..1); если записано в, материал будет передан в конвейер "
-"прозрачности."
-
-msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
-msgstr ""
-
 msgid "If written to, values below a certain amount of alpha are discarded."
 msgstr "При записи значения ниже определенного количества альфа отбрасываются."
 
-msgid "out float **ALPHA_HASH_SCALE**"
-msgstr ""
-
-msgid "out float **ALPHA_ANTIALIASING_EDGE**"
-msgstr ""
-
-msgid "out vec2 **ALPHA_TEXTURE_COORDINATE**"
-msgstr ""
-
-msgid "out float **METALLIC**"
-msgstr ""
-
 msgid "Metallic (0..1)."
 msgstr "Металличность (0..1)."
-
-msgid "out float **SPECULAR**"
-msgstr ""
 
 msgid ""
 "Specular. Defaults to 0.5, best not to modify unless you want to change IOR."
@@ -848,46 +539,8 @@ msgstr ""
 msgid "Roughness (0..1)."
 msgstr "Шероховатость (0..1)."
 
-msgid "out float **RIM**"
-msgstr ""
-
-msgid "Rim (0..1). If used, Godot calculates rim lighting."
-msgstr ""
-
-msgid "out float **RIM_TINT**"
-msgstr ""
-
-msgid ""
-"Rim Tint, goes from 0 (white) to 1 (albedo). If used, Godot calculates rim "
-"lighting."
-msgstr ""
-
-msgid "out float **CLEARCOAT**"
-msgstr ""
-
-msgid "Small added specular blob. If used, Godot calculates Clearcoat."
-msgstr ""
-
-msgid "out float **CLEARCOAT_GLOSS**"
-msgstr ""
-
-msgid "Gloss of Clearcoat. If used, Godot calculates Clearcoat."
-msgstr ""
-
-msgid "out float **ANISOTROPY**"
-msgstr ""
-
-msgid "For distorting the specular blob according to tangent space."
-msgstr ""
-
-msgid "out vec2 **ANISOTROPY_FLOW**"
-msgstr ""
-
 msgid "Distortion direction, use with flowmaps."
 msgstr "Направление искажения, используйте с flowmaps."
-
-msgid "out float **SSS_STRENGTH**"
-msgstr ""
 
 msgid ""
 "Strength of Subsurface Scattering. If used, Subsurface Scattering will be "
@@ -896,47 +549,20 @@ msgstr ""
 "Сила подповерхностного рассеяния. Если используется, к объекту будет "
 "применено подповерхностное рассеяние."
 
-msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
-msgstr ""
-
-msgid "out float **SSS_TRANSMITTANCE_DEPTH**"
-msgstr ""
-
-msgid "out float **SSS_TRANSMITTANCE_BOOST**"
-msgstr ""
-
-msgid "inout vec3 **BACKLIGHT**"
-msgstr ""
-
-msgid "out float **AO**"
-msgstr ""
-
 msgid "Strength of Ambient Occlusion. For use with pre-baked AO."
 msgstr ""
 "Сила Ambient Occlusion. Для использования с предварительно запечённым АО."
 
-msgid "out float **AO_LIGHT_AFFECT**"
-msgstr ""
-
 msgid "How much AO affects lights (0..1; default 0)."
 msgstr "Насколько АО влияет на освещение (0..1; по умолчанию 0)."
 
-msgid "out vec3 **EMISSION**"
-msgstr ""
-
 msgid "Emission color (can go over 1,1,1 for HDR)."
 msgstr "Цвет излучения (может превышать 1,1,1 для HDR)."
-
-msgid "out vec4 **FOG**"
-msgstr ""
 
 msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
 msgstr ""
 "Если записано, смешивает окончательный цвет пикселя с FOG.rgb на основе FOG."
 "a."
-
-msgid "out vec4 **RADIANCE**"
-msgstr ""
 
 msgid ""
 "If written to, blends environment map radiance with RADIANCE.rgb based on "
@@ -944,9 +570,6 @@ msgid ""
 msgstr ""
 "Если записано, смешивает яркость карты окружения с RADIANCE.rgb на основе "
 "RADIANCE.a."
-
-msgid "out vec4 **IRRADIANCE**"
-msgstr ""
 
 msgid ""
 "If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
@@ -1016,84 +639,8 @@ msgstr ""
 "Quality > Shading > Force Vertex Shading**. (На мобильных платформах он "
 "включен по умолчанию.)"
 
-msgid "in vec3 **NORMAL**"
-msgstr ""
-
-msgid "Normal vector, in view space."
-msgstr ""
-
-msgid "View vector, in view space."
-msgstr ""
-
-msgid "in vec3 **LIGHT**"
-msgstr ""
-
-msgid "Light Vector, in view space."
-msgstr ""
-
-msgid "in vec3 **LIGHT_COLOR**"
-msgstr ""
-
-msgid ""
-"Color of light multiplied by ``energy * PI``. The ``PI`` multiplication is "
-"present because physically-based lighting models include a division by "
-"``PI``."
-msgstr ""
-
-msgid "in float **SPECULAR_AMOUNT**"
-msgstr ""
-
-msgid ""
-"2.0 * ``light_specular`` property for ``OmniLight3D`` and ``SpotLight3D``. "
-"1.0 for ``DirectionalLight3D``."
-msgstr ""
-
-msgid "in bool **LIGHT_IS_DIRECTIONAL**"
-msgstr ""
-
-msgid "``true`` if this pass is a ``DirectionalLight3D``."
-msgstr ""
-
-msgid "in float **ATTENUATION**"
-msgstr ""
-
-msgid "Attenuation based on distance or shadow."
-msgstr ""
-
-msgid "in vec3 **ALBEDO**"
-msgstr ""
-
-msgid "Base albedo."
-msgstr ""
-
-#, fuzzy
-msgid "in vec3 **BACKLIGHT**"
-msgstr "в vec2 **LIGHT_UV**"
-
-msgid "in float **METALLIC**"
-msgstr ""
-
-#, fuzzy
-msgid "Metallic."
-msgstr "Металлический"
-
-msgid "in float **ROUGHNESS**"
-msgstr ""
-
 msgid "Roughness."
 msgstr "Шероховатость."
-
-msgid "out vec3 **DIFFUSE_LIGHT**"
-msgstr ""
-
-msgid "Diffuse light result."
-msgstr ""
-
-msgid "out vec3 **SPECULAR_LIGHT**"
-msgstr ""
-
-msgid "Specular light result."
-msgstr ""
 
 msgid ""
 "Alpha (0..1); if written to, the material will go to the transparent "

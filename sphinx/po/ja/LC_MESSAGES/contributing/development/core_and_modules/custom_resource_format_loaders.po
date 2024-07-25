@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,15 +28,6 @@ msgstr ""
 "です。リソースはプライマリコンテナです。同じファイル パスで再度読み込みが呼び"
 "出されると、以前に読み込まれたリソースが参照されます。当然のことながら、読み"
 "込まれたリソースはステートレスである必要があります。"
-
-#, fuzzy
-msgid ""
-"This guide assumes the reader knows how to create C++ modules and Godot data "
-"types. If not, refer to this guide: :ref:`doc_custom_modules_in_cpp`"
-msgstr ""
-"このガイドは、読者がC++モジュールとGodotデータ型を作成する方法を知っているこ"
-"とを前提としています。そうでない場合は、このガイド :ref:"
-"`doc_custom_modules_in_c++` を参照してください。"
 
 msgid "References"
 msgstr "参照"
@@ -96,16 +82,6 @@ msgstr ""
 "各ファイル形式は、データコンテナと ``ResourceFormatLoader`` で構成されていま"
 "す。"
 
-#, fuzzy
-msgid ""
-"ResourceFormatLoaders are classes which return all the necessary metadata "
-"for supporting new extensions in Godot. The class must return the format "
-"name and the extension string."
-msgstr ""
-"ResourceFormatLoadersは通常、Godotで新しい拡張機能をサポートするために必要な"
-"すべてのメタデータを返す単純なクラスです。クラスは、書式名と拡張文字列を返す"
-"必要があります。"
-
 msgid ""
 "In addition, ResourceFormatLoaders must convert file paths into resources "
 "with the ``load`` function. To load a resource, ``load`` must read and "
@@ -156,26 +132,6 @@ msgid ""
 msgstr ""
 "たとえば、 ``FileAccess`` 呼び出しを ``std::istream`` に変換するためのコード"
 "を次に示します。"
-
-#, fuzzy
-msgid "`istream <https://cplusplus.com/reference/istream/istream/>`_"
-msgstr "\\ `istream <http://www.cplusplus.com/reference/istream/istream/>`_"
-
-#, fuzzy
-msgid ""
-"`streambuf <https://cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`_"
-msgstr ""
-"\\ `streambuf <http://www.cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`_"
-
-#, fuzzy
-msgid ""
-"`core/io/file_access.h <https://github.com/godotengine/godot/blob/master/"
-"core/os/file_access.h>`_"
-msgstr ""
-"\\ `core/io/fileaccess.h <https://github.com/godotengine/godot/blob/master/"
-"core/os/file_access.h>`_"
 
 msgid "Registering the new file format"
 msgstr "新しいファイル形式の登録"

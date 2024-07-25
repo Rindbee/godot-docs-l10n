@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,14 +17,6 @@ msgstr "번역 가져오기"
 
 msgid "Games and internationalization"
 msgstr "게임과 현지화"
-
-msgid ""
-"The gaming community isn't monolingual or monocultural. It's made up of many "
-"different languages and cultures - just like the Godot community! If you "
-"want to allow players to experience your game in their language, one of "
-"things you'll need to provide is text translations, which Godot supports via "
-"internationalized text."
-msgstr ""
 
 msgid ""
 "In regular desktop or mobile applications, internationalized text is usually "
@@ -97,9 +84,6 @@ msgstr ""
 msgid "CSV files must be formatted as follows:"
 msgstr "CSV 파일은 반드시 다음과 같은 형식을 따라야 합니다:"
 
-msgid "keys"
-msgstr ""
-
 msgid "<lang1>"
 msgstr "<lang1>"
 
@@ -120,25 +104,6 @@ msgstr "KEY2"
 
 msgid "KEYN"
 msgstr "KEYN"
-
-#, fuzzy
-msgid ""
-"The \"lang\" tags must represent a language, which must be one of the :ref:"
-"`valid locales <doc_locales>` supported by the engine, or they must start "
-"with an underscore (`_`), which means the related column is served as "
-"comment and won't be imported. The \"KEY\" tags must be unique and represent "
-"a string universally (they are usually in uppercase, to differentiate from "
-"other strings). These keys will be replaced at runtime by the matching "
-"translated string. Note that the case is important, \"KEY1\" and \"Key1\" "
-"will be different keys. The top-left cell is ignored and can be left empty "
-"or having any content. Here's an example:"
-msgstr ""
-"\"lang\" 태그는 엔진이 지원하는 :ref:`로케일 <doc_locales>` 중 하나로 언어 코"
-"드를 표시해야 합니다. \"KEY\" 태그는 고유해야 하고 문장을 잘 요약해야 합니다"
-"(보통 다른 문장과 구분하기 위해 대문자로 되어 있습니다). 이 키 값들은 런타임"
-"에서 번역된 문장으로 대체됩니다. 대소문자를 구분한다는 사실을 명심하십시오. "
-"\"KEY1\"과 \"Key1\"은 다른 키로 인식됩니다. 좌상단의 셀은 무시되므로 어떤 값"
-"이 쓰여있어도 상관 없습니다. 예제는 다음과 같습니다:"
 
 msgid "en"
 msgstr "en"
@@ -184,18 +149,6 @@ msgstr "Adiós"
 
 msgid "さようなら"
 msgstr "さようなら"
-
-msgid "QUOTE"
-msgstr ""
-
-msgid "\"Hello\" said the man."
-msgstr ""
-
-msgid "\"Hola\" dijo el hombre."
-msgstr ""
-
-msgid "「こんにちは」男は言いました"
-msgstr ""
 
 msgid ""
 "The same example is shown below as a comma-separated plain text file, which "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,14 +36,6 @@ msgstr ""
 "容器,AudioStream包含资源并将其自身暴露给GDScript.AudioStream引用其自己的内部"
 "自定义AudioStreamPlayback, 该AudioStreamPlayback将AudioStream转换为PCM数据."
 
-#, fuzzy
-msgid ""
-"This guide assumes the reader knows how to create C++ modules. If not, refer "
-"to this guide :ref:`doc_custom_modules_in_cpp`."
-msgstr ""
-"本指南假设读者知道如何创建C++模块. 如果没有, 请参考该指南 :ref:"
-"`doc_custom_modules_in_c++`."
-
 msgid "References:"
 msgstr "参考："
 
@@ -59,13 +46,12 @@ msgstr ""
 "`servers/audio/audio_stream.h <https://github.com/godotengine/godot/blob/"
 "master/servers/audio/audio_stream.h>`__"
 
-#, fuzzy
 msgid ""
 "`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
 "blob/master/scene/audio/audio_stream_player.cpp>`__"
 msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__"
+"`scene/audio/audio_stream_player.cpp <https://github.com/godotengine/godot/"
+"blob/master/scene/audio/audio_stream_player.cpp>`__"
 
 msgid "What for?"
 msgstr "可以做什么？"

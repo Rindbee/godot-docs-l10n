@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,14 +67,6 @@ msgstr ""
 "코드베이스의 다른 부분과의 `느슨한 연결(loose coupling) <https://en."
 "wikipedia.org/wiki/Loose_coupling>`_ 을 유지하는 것입니다. 이것으로 오브젝트"
 "의 크기를 (유지 보수성을 위해) 작게 유지하며 재사용성을 높여줍니다."
-
-#, fuzzy
-msgid ""
-"These OOP best practices have *several* implications for best practices in "
-"scene structure and script usage."
-msgstr ""
-"이런 객체 지향 프로그래밍 모범 사례는 씬 구조와 스크립트 사용의 모범 사례에 "
-"있어 *여러 가지* 파급 효과가 있습니다."
 
 msgid ""
 "**If at all possible, one should design scenes to have no dependencies.** "
@@ -213,33 +200,6 @@ msgstr ""
 "머들, 특히 디자이너와 작가들에게 노드를 구성하기 위해 어떻게 해야하는지를 메"
 "시지로 명확하게 설명해야 합니다."
 
-#, fuzzy
-msgid ""
-"So, why does all this complex switcheroo work? Well, because scenes operate "
-"best when they operate alone. If unable to work alone, then working with "
-"others anonymously (with minimal hard dependencies, i.e. loose coupling) is "
-"the next best thing. Inevitably, changes may need to be made to a class and "
-"if these changes cause it to interact with other scenes in unforeseen ways, "
-"then things will start to break down. The whole point of all this "
-"indirection is to avoid ending up in a situation where changing one class "
-"results in adversely effecting other classes dependent on it."
-msgstr ""
-"그럼 이런 복잡한 변환은 왜 하는걸까요? 씬은 홀로 작동할 때 가장 잘 작동하기 "
-"때문입니다. 홀로 작동할 수 없는 경우엔 익명으로 다른 것들과 (느슨한 결합, 즉 "
-"최소한의 종속성만으로) 작동하는 것이 차선입니다. 만약 클래스를 피치 못하게 변"
-"경해야 하는 상황이 생기고 이 변경으로 인해 다른 씬과 예상하지 못한 방법으로 "
-"상호작용이 일어난다면 문제가 생기기 시작합니다. 한 클래스의 결과의 변화가 다"
-"른 클래스에 영향을 끼치는 일을 피할 수 있도록 하는게 이런 간접적인 접근을 지"
-"향하는 이유입니다."
-
-#, fuzzy
-msgid ""
-"Scripts and scenes, as extensions of engine classes, should abide by *all* "
-"OOP principles. Examples include..."
-msgstr ""
-"스크립트와 씬은, 엔진 클래스의 확장 프로그램으로 *모든* 객체 지향 프로그래밍 "
-"원칙을 준수해야 합니다. 예시는 다음을 포함합니다..."
-
 msgid "`SOLID <https://en.wikipedia.org/wiki/SOLID>`_"
 msgstr ""
 "`SOLID (객체 지향 설계) <https://ko.wikipedia.org/wiki/"
@@ -340,29 +300,6 @@ msgstr ""
 "... 그러려면 :ref:`오토로드 '싱글톤' 노드 <doc_singletons_autoload>`\\ 를 만"
 "들어야 합니다."
 
-#, fuzzy
-msgid ""
-"For smaller games, a simpler alternative with less control would be to have "
-"a \"Game\" singleton that simply calls the :ref:`SceneTree."
-"change_scene_to_file() <class_SceneTree_method_change_scene_to_file>` method "
-"to swap out the main scene's content. This structure more or less keeps the "
-"\"World\" as the main game node."
-msgstr ""
-"더 작은 게임일수록, 더 적은 제어로 \"Game\" 싱글톤을 갖는 간단한 대안이 필요"
-"한데, :ref:`SceneTree.change_scene() <class_SceneTree_method_change_scene>` "
-"\\ 이라고 하는 이 메서드는 메인 씬의 내용물을 바꿔 넣습니다. 이 구조는 "
-"\"World\"를 메인 게임 노드로 어느정도는 유지해줍니다."
-
-#, fuzzy
-msgid ""
-"Any GUI would need to also be a singleton; be a transitory part of the "
-"\"World\"; or be manually added as a direct child of the root. Otherwise, "
-"the GUI nodes would also delete themselves during scene transitions."
-msgstr ""
-"모든 GUI는 \"World\"의 일시적인 일부로, 싱글톤이 되어야 합니다, 아니면 수동으"
-"로 루트의 자손으로 추가해야 합니다. 그렇지 않으면, GUI 노드는 씬을 전환하는 "
-"동안 자신 또한 삭제됩니다."
-
 msgid ""
 "If one has systems that modify other systems' data, one should define those "
 "as their own scripts or scenes rather than autoloads. For more information "
@@ -456,30 +393,6 @@ msgstr "새로운 방을 인스턴스화하고 추가합니다."
 
 msgid "Re-add the player."
 msgstr "플레이어를 다시 추가합니다."
-
-#, fuzzy
-msgid ""
-"The issue is that the player here is a \"special case\"; one where the "
-"developers must *know* that they need to handle the player this way for the "
-"project. As such, the only way to reliably share this information as a team "
-"is to *document* it. Keeping implementation details in documentation however "
-"is dangerous. It's a maintenance burden, strains code readability, and "
-"bloats the intellectual content of a project unnecessarily."
-msgstr ""
-"이 문제에서 플레이어는 \"특수한 상황\"에 있습니다, 개발자는 프로젝트를 위해 "
-"플레이어를 이런 방식으로 다룰 줄 *알아야 하죠*. 즉, 팀원으로서 이 정보를 확실"
-"히 공유하는 유일한 방법은 *문서화*\\ 하는 것입니다. 하지만 문서에 구현 방법"
-"의 세부 사항을 유지하는 것은 위험합니다. 유지 관리의 부담과, 코드의 가독성을 "
-"해치고, 불필요하게 프로젝트의 지적 내용을 부풀리기 때문입니다."
-
-#, fuzzy
-msgid ""
-"In a more complex game with larger assets, it can be a better idea to simply "
-"keep the player somewhere else in the SceneTree entirely. This results in:"
-msgstr ""
-"더 많은 자원을 사용하는 더 복잡한 게임이라면, 차라리 플레이어를 SceneTree 어"
-"딘가에 통째로 유지하는 것이 더 좋은 생각일 수 있습니다. 이것이 의미하는 것"
-"은..."
 
 msgid "More consistency."
 msgstr "더 일관성 있음."

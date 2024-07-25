@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -345,16 +340,6 @@ msgstr ""
 "incrementa la rotación de nuestro sprite en cada frame. Aquí, ``rotation`` "
 "es una propiedad heredada de la clase ``Node2D``, la que ``Sprite2D`` "
 "extiende. Esta controla la rotación de nuestro nodo y funciona con radianes."
-
-#, fuzzy
-msgid ""
-"In the code editor, you can Ctrl-click (Cmd-click on MacOS) on any built-in "
-"property or function like ``position``, ``rotation``, or ``_process`` to "
-"open the corresponding documentation in a new tab."
-msgstr ""
-"En el editor de código, puede presionar ctrl + clic en cualquier función o "
-"propiedad incorporada como ``position``, ``rotation`` o ``_process`` para "
-"abrir la documentación correspondiente en una nueva pestaña."
 
 msgid "Run the scene to see the Godot icon turn in-place."
 msgstr "Ejecute la escena para ver el ícono de Godot girar en su lugar."

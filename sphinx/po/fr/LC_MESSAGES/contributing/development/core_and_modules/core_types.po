@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,14 +75,6 @@ msgstr ""
 
 msgid "References:"
 msgstr "Références :"
-
-#, fuzzy
-msgid ""
-"`core/typedefs.h <https://github.com/godotengine/godot/blob/master/core/"
-"typedefs.h>`__"
-msgstr ""
-"`core/typedefs.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"typedefs.h>`__"
 
 msgid "Memory model"
 msgstr "Modèle mémoire"
@@ -227,22 +214,6 @@ msgstr ""
 "dynamique de mémoire, car read() et write() sont trop lent pour un grand "
 "nombre d'accès."
 
-#, fuzzy
-msgid ""
-"`core/os/memory.h <https://github.com/godotengine/godot/blob/master/core/os/"
-"memory.h>`__"
-msgstr ""
-"`core/os/memory.h <https://github.com/godotengine/godot/blob/3.x/core/os/"
-"memory.h>`__"
-
-#, fuzzy
-msgid ""
-"`core/pool_vector.h <https://github.com/godotengine/godot/blob/master/core/"
-"pool_vector.cpp>`__"
-msgstr ""
-"`core/pool_vector.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"pool_vector.cpp>`__"
-
 msgid "Containers"
 msgstr "Conteneurs"
 
@@ -261,17 +232,6 @@ msgstr "Définir"
 msgid "Map"
 msgstr "Map"
 
-#, fuzzy
-msgid ""
-"They aim to be as minimal as possible, as templates in C++ are often inlined "
-"and make the binary size much fatter, both in debug symbols and code. List, "
-"Set and Map can be iterated using pointers, like this:"
-msgstr ""
-"Ils sont simple et fait pour être le plus minimal possible, comme les "
-"templates de C++ sont souveent inliné et rendent les binaires bien plus "
-"lourd, autant en symbols de débug que de code. List, Set et Map peuvent être "
-"itérés en utilisant des pointeurs, comme cela :"
-
 msgid "The Vector<> class also has a few nice features:"
 msgstr "La classe template Vector a aussi quelques cool fonctionnalités :"
 
@@ -289,37 +249,6 @@ msgstr ""
 "Il supporte le mutli-threading, en utilisant des opérations atomiques sur le "
 "compteur de référence."
 
-#, fuzzy
-msgid ""
-"`core/templates/vector.h <https://github.com/godotengine/godot/blob/master/"
-"core/templates/vector.h>`__"
-msgstr ""
-"`core/vector.h <https://github.com/godotengine/godot/blob/3.x/core/vector."
-"h>`__"
-
-#, fuzzy
-msgid ""
-"`core/templates/list.h <https://github.com/godotengine/godot/blob/master/"
-"core/templates/list.h>`__"
-msgstr ""
-"`core/list.h <https://github.com/godotengine/godot/blob/3.x/core/list.h>`__"
-
-#, fuzzy
-msgid ""
-"`core/templates/set.h <https://github.com/godotengine/godot/blob/master/core/"
-"templates/hash_set.h>`__"
-msgstr ""
-"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
-"core/math/audio_frame.h>`__"
-
-#, fuzzy
-msgid ""
-"`core/templates/map.h <https://github.com/godotengine/godot/blob/master/core/"
-"templates/hash_map.h>`__"
-msgstr ""
-"`core/math/audio_frame.h <https://github.com/godotengine/godot/blob/master/"
-"core/math/audio_frame.h>`__"
-
 msgid "String"
 msgstr "Chaîne de caractères"
 
@@ -333,14 +262,6 @@ msgstr ""
 "de fonctionnalités comme : un support de l'Unicode dans toute les fonctions "
 "et du parsing/extraction d'utf8, de même que les helpers pour la conversion "
 "et la visualisation."
-
-#, fuzzy
-msgid ""
-"`core/string/ustring.h <https://github.com/godotengine/godot/blob/master/"
-"core/string/ustring.h>`__"
-msgstr ""
-"`core/ustring.h <https://github.com/godotengine/godot/blob/3.x/core/ustring."
-"h>`__"
 
 msgid "StringName"
 msgstr "StringName"
@@ -364,14 +285,6 @@ msgstr ""
 "La construction d'un StringName (surtout un nouveau) est lent, mais la "
 "comparaison est rapide."
 
-#, fuzzy
-msgid ""
-"`core/string/string_name.h <https://github.com/godotengine/godot/blob/master/"
-"core/string/string_name.h>`__"
-msgstr ""
-"`core/string_name.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"string_name.h>`__"
-
 msgid "Math types"
 msgstr "Types mathématiques"
 
@@ -380,12 +293,6 @@ msgid ""
 msgstr ""
 "Il existe plusieurs types de mathématiques linéaires disponibles dans le "
 "répertoire core/math."
-
-#, fuzzy
-msgid ""
-"`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
-msgstr ""
-"`core/math <https://github.com/godotengine/godot/tree/3.x/core/math>`__"
 
 msgid "NodePath"
 msgstr "NodePath"
@@ -396,14 +303,6 @@ msgid ""
 msgstr ""
 "C'est un type spécial qui est utilisé pour stocker des echemins dans une "
 "scène arbre et les référencer rapidement."
-
-#, fuzzy
-msgid ""
-"`core/string/node_path.h <https://github.com/godotengine/godot/blob/master/"
-"core/string/node_path.h>`__"
-msgstr ""
-"`core/node_path.h <https://github.com/godotengine/godot/blob/3.x/core/"
-"node_path.h>`__"
 
 msgid "RID"
 msgstr "RID"
@@ -418,13 +317,6 @@ msgstr ""
 "signifie que les données qu'ils référencent ne sont pas directement "
 "accessibles. Les RIDs sont uniques, même pour des types de données "
 "référencées différents."
-
-#, fuzzy
-msgid ""
-"`core/templates/rid.h <https://github.com/godotengine/godot/blob/master/core/"
-"templates/rid.h>`__"
-msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/3.x/core/rid.h>`__"
 
 msgid "Translation status"
 msgstr "État de la traduction"

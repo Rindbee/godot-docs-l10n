@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -267,17 +262,6 @@ msgstr ""
 msgid "Maintaining an ever-growing size for the table."
 msgstr "Manteniendo un tamaño siempre creciente para la tabla."
 
-#, fuzzy
-msgid ""
-"HashMaps maintain gaps of unused memory interspersed in the table on purpose "
-"to reduce hash collisions and maintain the speed of accesses. This is why it "
-"constantly increases in size exponentially by powers of 2."
-msgstr ""
-"Los HashMaps permiten mantener los espacios de memoria no utilizados "
-"intercalados en la tabla a propósito para reducir las colisiones de hash y "
-"mantener la velocidad de los accesos. Es por eso que aumenta constantemente "
-"en tamaño cuadráticamente por potencias de 2."
-
 msgid ""
 "As one might be able to tell, Dictionaries specialize in tasks that Arrays "
 "do not. An overview of their operational details is as follows:"
@@ -502,18 +486,6 @@ msgstr ""
 
 msgid "Enumerations: int vs. string"
 msgstr "Enumeraciones: int vs. string"
-
-msgid ""
-"Most languages offer an enumeration type option. GDScript is no different, "
-"but unlike most other languages, it allows one to use either integers or "
-"strings for the enum values (the latter only when using the ``export`` "
-"keyword in GDScript). The question then arises, \"which should one use?\""
-msgstr ""
-"La mayoría de los idiomas ofrecen una opción de tipo de enumeración. "
-"GDScript no es diferente, pero a diferencia de la mayoría de los otros "
-"lenguajes, permite usar enteros o strings para los valores enumerados (esto "
-"último sólamente cuando se utiliza la palabra clave ``export`` en GDScript). "
-"Entonces surge la pregunta, \"¿qué se debe usar?\""
 
 msgid ""
 "The short answer is, \"whichever you are more comfortable with.\" This is a "

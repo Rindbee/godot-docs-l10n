@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,20 +14,6 @@ msgstr ""
 
 msgid "Autoloads versus regular nodes"
 msgstr "Autoloads versus nós normais"
-
-#, fuzzy
-msgid ""
-"Godot offers a feature to automatically load nodes at the root of your "
-"project, allowing you to access them globally, that can fulfill the role of "
-"a Singleton: :ref:`doc_singletons_autoload`. These autoloaded nodes are not "
-"freed when you change the scene from code with :ref:`SceneTree."
-"change_scene_to_file <class_SceneTree_method_change_scene_to_file>`."
-msgstr ""
-"O Godot oferece um recurso para carregar automaticamente nós na raiz do seu "
-"projeto, permitindo que você os acesse globalmente, que pode cumprir o papel "
-"de um Singleton: :ref:`doc_singletons_autoload`. Estes nós auto-carregados "
-"não são liberados quando você muda a cena pelo código com :ref:`SceneTree."
-"change_scene <class_SceneTree_method_change_scene>`."
 
 msgid ""
 "In this guide, you will learn when to use the Autoload feature, and "
@@ -68,21 +49,6 @@ msgstr ""
 "``AudioStreamPlayer`` enquanto ele já está tocando um som, o novo som "
 "interrompe o primeiro."
 
-#, fuzzy
-msgid ""
-"A solution is to code a global, autoloaded sound manager class. It generates "
-"a pool of ``AudioStreamPlayer`` nodes that cycle through as each new request "
-"for sound effects comes in. Say we call that class ``Sound``, you can use it "
-"from anywhere in your project by calling ``Sound.play(\"coin_pickup."
-"ogg\")``. This solves the problem in the short term but causes more problems:"
-msgstr ""
-"Uma solução é codificar uma classe de gestão de som global e auto-carregada. "
-"Ele gera um conjunto de nós ``AudioStreamPlayer`` que se movimentam à medida "
-"que cada nova solicitação de efeitos sonoros chega. Digamos que chamamos "
-"essa classe ``Sound``, você pode utilizá-la de qualquer lugar do seu projeto "
-"chamando ``Sound.play(\"coin_pickup.ogg\")``. Isto resolve o problema a "
-"curto prazo, mas causa mais problemas:"
-
 msgid ""
 "**Global state**: one object is now responsible for all objects' data. If "
 "the ``Sound`` class has errors or doesn't have an AudioStreamPlayer "
@@ -109,16 +75,6 @@ msgstr ""
 "``AudioStreamPlayer`` armazenados desde o início, você pode ou ter muito "
 "poucos e enfrentar bugs, ou muitos e utilizar mais memória do que você "
 "precisa."
-
-#, fuzzy
-msgid ""
-"About global access, the problem is that any code anywhere could pass wrong "
-"data to the ``Sound`` autoload in our example. As a result, the domain to "
-"explore to fix the bug spans the entire project."
-msgstr ""
-"Sobre o acesso global, o problema é que qualquer código em qualquer lugar "
-"pode passar dados errados para o autoload ``Sound`` no nosso exemplo. Como "
-"resultado, o domínio a explorar para corrigir o bug abrange todo o projeto."
 
 msgid ""
 "When you keep code inside a scene, only one or two scripts may be involved "
@@ -210,41 +166,6 @@ msgstr ""
 "A partir do Godot 4.1, GDScript também suporta variáveis ``static`` usando "
 "``static var``. Isso significa que agora você pode compartilhar uma variável "
 "em instâncias de uma classe sem ter que criar um autoload separado."
-
-#, fuzzy
-msgid ""
-"Still, autoloaded nodes can simplify your code for systems with a wide "
-"scope. If the autoload is managing its own information and not invading the "
-"data of other objects, then it's a great way to create systems that handle "
-"broad-scoped tasks. For example, a quest or a dialogue system."
-msgstr ""
-"Ainda assim, nós autoloaded podem simplificar seu código para sistemas com "
-"um amplo escopo. Se o autoload está gerenciando suas próprias informações e "
-"não invadindo os dados de outros objetos, então é uma ótima maneira de criar "
-"sistemas que lidam com tarefas amplas. Por exemplo, uma busca ou um sistema "
-"de diálogo."
-
-#, fuzzy
-msgid ""
-"An autoload is *not* necessarily a singleton. Nothing prevents you from "
-"instantiating copies of an autoloaded node. An autoload is only a tool that "
-"makes a node load automatically as a child of the root of your scene tree, "
-"regardless of your game's node structure or which scene you run, e.g. by "
-"pressing the :kbd:`F6` key."
-msgstr ""
-"Autoload não é exatamente um Singleton. Nada o impede de instanciar cópias "
-"de um nó carregado automaticamente. É apenas uma ferramenta que faz um nó "
-"carregar automaticamente como um filho da raiz da sua árvore de cenas, "
-"independentemente da estrutura do seu jogo ou da cena que você executar, por "
-"exemplo, pressionando a tecla :kbd:`F6`."
-
-#, fuzzy
-msgid ""
-"As a result, you can get the autoloaded node, for example an autoload called "
-"``Sound``, by calling ``get_node(\"/root/Sound\")``."
-msgstr ""
-"Como resultado, você pode obter o nó carregado automaticamente, por exemplo, "
-"um autoload chamado ``Sound``, chamando ``get_node(\"/root/Sound\")``."
 
 msgid "Translation status"
 msgstr "Progresso da Tradução"

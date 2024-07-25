@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,19 +74,6 @@ msgstr ""
 "або **початкової точки**. Намалюймо стрілку, яка тягнеться від початкової "
 "точки до нашої:"
 
-#, fuzzy
-msgid ""
-"This is a **vector**. A vector represents a lot of useful information. As "
-"well as telling us that the point is at ``(4, 3)``, we can also think of it "
-"as an angle ``θ`` (theta) and a length (or magnitude) ``m``. In this case, "
-"the arrow is a **position vector** - it denotes a position in space, "
-"relative to the origin."
-msgstr ""
-"Це — **вектор**. Багато важливої інформації можна зобразити як вектор. Так, "
-"точку ``(4, 3)`` ми можемо також розглядати як кут ``θ`` і довжину (або "
-"модуль) ``m``. У цьому разі, стрілка — це **радіус-вектор**: вона описує "
-"положення точки у просторі відносно початку координат."
-
 msgid ""
 "A very important point to consider about vectors is that they only represent "
 "**relative** direction and magnitude. There is no concept of a vector's "
@@ -126,18 +108,6 @@ msgstr ""
 "екрану. А тому, щоб розмістити 2D вузол під назвою ``Node2D`` на 400 "
 "пікселів правіше й на 300 пікселів нижче, потрібно використати такий код:"
 
-#, fuzzy
-msgid ""
-"Godot supports both :ref:`Vector2 <class_Vector2>` and :ref:`Vector3 "
-"<class_Vector3>` for 2D and 3D usage, respectively. The same mathematical "
-"rules discussed in this article apply to both types, and wherever we link to "
-"``Vector2`` methods in the class reference, you can also check out their "
-"``Vector3`` counterparts."
-msgstr ""
-"Godot працює як з :ref:`двовимірними<class_Vector2>`, так і з :ref:"
-"`тривимірними<class_Vector3>` векторами. Математичні принципи, описані в цій "
-"статті підходять до обох типів."
-
 msgid "Member access"
 msgstr "Доступ до компонентів"
 
@@ -166,26 +136,8 @@ msgstr "Сума ``a + b`` дає такий же результат як і ``b
 msgid "Scalar multiplication"
 msgstr "Множення на скаляр"
 
-#, fuzzy
-msgid ""
-"Vectors represent both direction and magnitude. A value representing only "
-"magnitude is called a **scalar**. Scalars use the :ref:`class_float` type in "
-"Godot."
-msgstr ""
-"Вектор — це напрямок з модулем. А значення, яке позначає лише модуль — це "
-"**скаляр**."
-
 msgid "A vector can be multiplied by a **scalar**:"
 msgstr "Вектор можна помножити на **скаляр**:"
-
-#, fuzzy
-msgid ""
-"Multiplying a vector by a positive scalar does not change its direction, "
-"only its magnitude. Multiplying with a negative scalar results in a vector "
-"in the opposite direction. This is how you **scale** a vector."
-msgstr ""
-"Множення на скаляр не змінює напрямку вектора — лише модуль. Таким чином ви "
-"можете **відмасштабувати** вектор."
 
 msgid "Practical applications"
 msgstr "Практичне застосування"
@@ -196,39 +148,6 @@ msgstr ""
 
 msgid "Movement"
 msgstr "Пересування"
-
-#, fuzzy
-msgid ""
-"A vector can represent **any** quantity with a magnitude and direction. "
-"Typical examples are: position, velocity, acceleration, and force. In this "
-"image, the spaceship at step 1 has a position vector of ``(1, 3)`` and a "
-"velocity vector of ``(2, 1)``. The velocity vector represents how far the "
-"ship moves each step. We can find the position for step 2 by adding the "
-"velocity to the current position."
-msgstr ""
-"Вектор може позначати **будь-що** що має довжину та напрямок. Наприклад: "
-"положення, швидкість, прискорення й сила. На цьому зображенні, космічний "
-"корабель, на першому кроці, знаходиться в точці ``(1,3)`` та має вектор "
-"швидкості ``(2,1)``. Вектор швидкості показує, як сильно повинен зміститись "
-"корабель на кожному кроці. Ми можемо знайти його положення на другому кроці "
-"додавши вектор швидкості до його попереднього положення."
-
-#, fuzzy
-msgid ""
-"Velocity measures the **change** in position per unit of time. The new "
-"position is found by adding the velocity multiplied by the elapsed time "
-"(here assumed to be one unit, e.g. 1 s) to the previous position."
-msgstr ""
-"Швидкість визначає **зміну** положення за одиницю часу. Нове положення можна "
-"знайти додавши швидкість до старого положення."
-
-msgid ""
-"In a typical 2D game scenario, you would have a velocity in pixels per "
-"second, and multiply it by the ``delta`` parameter (time elapsed since the "
-"previous frame) from the :ref:`_process() "
-"<class_Node_private_method__process>` or :ref:`_physics_process() "
-"<class_Node_private_method__physics_process>` callbacks."
-msgstr ""
 
 msgid "Pointing toward a target"
 msgstr "Указування на ціль"
@@ -241,11 +160,6 @@ msgstr ""
 "В цій ситуації, ви маєте танка, який хоче направити свою гармату на робота. "
 "Різниця положень танка й робота дасть нам вектор що вказує від танка, до "
 "робота."
-
-#, fuzzy
-msgid "To find a vector pointing from ``A`` to ``B``, use ``B - A``."
-msgstr ""
-"Щоб знайти вектор, який вказує від ``A`` до ``B`` використовуйте ``B - A``."
 
 msgid "Unit vectors"
 msgstr "Одиничні вектори"
@@ -261,31 +175,6 @@ msgstr ""
 
 msgid "Normalization"
 msgstr "Нормалізація"
-
-#, fuzzy
-msgid ""
-"**Normalizing** a vector means reducing its length to ``1`` while preserving "
-"its direction. This is done by dividing each of its components by its "
-"magnitude. Because this is such a common operation, Godot provides a "
-"dedicated :ref:`normalized() <class_Vector2_method_normalized>` method for "
-"this:"
-msgstr ""
-"Щоб нормалізувати вектор потрібно зменшити його величину до ``1`` але при "
-"цьому зберегти його напрямок. Зробити це можна поділивши кожен з його "
-"компонентів на його довжину. Так як це дуже поширена операція, і "
-"``Vector2``, і ``Vector3`` мають метод для нормалізації:"
-
-#, fuzzy
-msgid ""
-"Because normalization involves dividing by the vector's length, you cannot "
-"normalize a vector of length ``0``. Attempting to do so would normally "
-"result in an error. In GDScript though, trying to call the ``normalized()`` "
-"method on a vector of length 0 leaves the value untouched and avoids the "
-"error for you."
-msgstr ""
-"Через те, що нормалізація включає в себе ділення на довжину вектора, "
-"неможливо нормалізувати вектор з довжиною ``0``. Спроба зробити це викличе "
-"помилку."
 
 msgid "Reflection"
 msgstr "Відбиття"
@@ -309,23 +198,6 @@ msgstr ""
 "Наприклад, уявімо, що ми маємо кулю, що рухається і ми хочемо, щоб вона "
 "відбилася від стіни чи іншого об'єкта:"
 
-#, fuzzy
-msgid ""
-"The surface normal has a value of ``(0, -1)`` because this is a horizontal "
-"surface. When the ball collides, we take its remaining motion (the amount "
-"left over when it hits the surface) and reflect it using the normal. In "
-"Godot, there is a :ref:`bounce() <class_Vector2_method_bounce>` method to "
-"handle this. Here is a code example of the above diagram using a :ref:"
-"`CharacterBody2D <class_CharacterBody2D>`:"
-msgstr ""
-"Нормаль поверхні має значення ``(0, -1)`` бо вона повернута горизонтально. "
-"Коли куля вдаряється в неї, ми беремо залишок від переміщення (частину "
-"вектора швидкості, на яку повинна була переміститись куля якби не зіткнулась "
-"з поверхнею) та віддзеркалюємо його використовуючи нормаль. В Godot клас :"
-"ref:`Vector2 <class_Vector2>` має метод ``bounce()`` який займається цим. "
-"Ось, приклад зі схеми вище, написаний на мові GDScript з використанням :ref:"
-"`KinematicBody2D <class_KinematicBody2D>`:"
-
 msgid "Dot product"
 msgstr "Скалярний добуток"
 
@@ -347,30 +219,6 @@ msgid "and"
 msgstr "і"
 
 msgid ""
-"The mathematical notation *||A||* represents the magnitude of vector ``A``, "
-"and *A*\\ :sub:`x` means the ``x`` component of vector ``A``."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"However, in most cases it is easiest to use the built-in :ref:`dot() "
-"<class_Vector2_method_dot>` method. Note that the order of the two vectors "
-"does not matter:"
-msgstr ""
-"Хоча, найкращим рішенням буде використати вбудований метод. Запримітьте, що "
-"порядок векторів не має значення:"
-
-#, fuzzy
-msgid ""
-"The dot product is most useful when used with unit vectors, making the first "
-"formula reduce to just ``cos(θ)``. This means we can use the dot product to "
-"tell us something about the angle between two vectors:"
-msgstr ""
-"Скалярний добуток найбільш корисний, коли використовується з одиничними "
-"векторами, спрощуючи першу формулу до ``cosθ``. А значить, результат "
-"скалярного добутку, може нам розповісти щось про кут між векторами:"
-
-msgid ""
 "When using unit vectors, the result will always be between ``-1`` (180°) and "
 "``1`` (0°)."
 msgstr ""
@@ -390,24 +238,6 @@ msgstr ""
 "іншого. На схемі нижче, гравець ``p`` намагається уникати зомбі ``A`` і "
 "``B``. Припустімо, поле зору зомбі має кут **180°**, чи можуть вони побачити "
 "гравця?"
-
-#, fuzzy
-msgid ""
-"The green arrows ``fA`` and ``fB`` are **unit vectors** representing the "
-"zombie's facing direction and the blue semicircle represents its field of "
-"view. For zombie ``A``, we find the direction vector ``AP`` pointing to the "
-"player using ``P - A`` and normalize it, however, Godot has a helper method "
-"to do this called :ref:`direction_to() <class_Vector2_method_direction_to>`. "
-"If the angle between this vector and the facing vector is less than 90°, "
-"then the zombie can see the player."
-msgstr ""
-"Зелені стрілочки ``fA`` й ``fB`` — це **одиничні вектори**, що позначають "
-"напрямки, куди повернуті зомбі, а блакитні півкруги — їх поле зору. Для "
-"зомбі ``A``, ми можемо знайти вектор напрямку ``AP``, який вказує на гравця, "
-"використавши ``P-A`` та нормалізувавши його. До речі, Godot має допоміжний "
-"метод для цього, він називається ``direction_to``. Якщо кут між цим "
-"вектором, і тим що вказує на напрямок зомбі менший ніж 90° — то зомбі бачить "
-"гравця."
 
 msgid "In code it would look like this:"
 msgstr "У коді це виглядатиме ось так:"
@@ -431,18 +261,6 @@ msgstr ""
 msgid "The cross product is calculated like this:"
 msgstr "Ось так обчислюється векторний добуток:"
 
-#, fuzzy
-msgid ""
-"With Godot, you can use the built-in :ref:`Vector3.cross() "
-"<class_Vector3_method_cross>` method:"
-msgstr "В Godot можна використати вбудований метод:"
-
-msgid ""
-"The cross product is not mathematically defined in 2D. The :ref:`Vector2."
-"cross() <class_Vector2_method_cross>` method is a commonly used analog of "
-"the 3D cross product for 2D vectors."
-msgstr ""
-
 msgid ""
 "In the cross product, order matters. ``a.cross(b)`` does not give the same "
 "result as ``b.cross(a)``. The resulting vectors point in **opposite** "
@@ -454,19 +272,6 @@ msgstr ""
 
 msgid "Calculating normals"
 msgstr "Обчислення нормалей"
-
-#, fuzzy
-msgid ""
-"One common use of cross products is to find the surface normal of a plane or "
-"surface in 3D space. If we have the triangle ``ABC`` we can use vector "
-"subtraction to find two edges ``AB`` and ``AC``. Using the cross product, "
-"``AB × AC`` produces a vector perpendicular to both: the surface normal."
-msgstr ""
-"Часто, векторний добуток використовують, щоб знайти нормаль площини чи "
-"поверхні у тривимірному просторі. Якщо у нас є трикутник ``ABC``, то ми "
-"можемо використати різницю векторів щоб знайти два його ребра: ``AB`` і "
-"``AC``. А використавши векторний добуток ми знайдемо перпендикуляр до них — "
-"він і буде нормаллю поверхні."
 
 msgid "Here is a function to calculate a triangle's normal:"
 msgstr "Ось функція для обчислення нормалі трикутника:"

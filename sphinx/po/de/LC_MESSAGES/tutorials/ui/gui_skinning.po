@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -300,7 +295,7 @@ msgid ""
 "places, but it is recommended to keep all variations to the project theme."
 msgstr ""
 "Nur Variationen, die im Default-Theme verfügbar oder im benutzerdefinierten "
-"Projektthema definiert sind, werden im Inspektor-Dock als Optionen "
+"Projekttheme definiert sind, werden im Inspektor-Dock als Optionen "
 "angezeigt. Sie können den Namen einer Variation, die außerhalb dieser beiden "
 "Orte definiert ist, immer noch manuell eingeben, aber es wird empfohlen, "
 "alle Variationen im Projekt-Theme zu halten."
@@ -436,14 +431,14 @@ msgid ""
 "using the project-wide theme and the default theme styles."
 msgstr ""
 "Sie können zum Beispiel einen bestimmten Stil für Buttons in Ihrem "
-"Projektthema haben, aber ein anderes Aussehen für Buttons innerhalb eines "
+"Projekttheme haben, aber ein anderes Aussehen für Buttons innerhalb eines "
 "Popup-Dialogs wünschen. Sie können eine benutzerdefinierte Theme-Ressource "
 "auf das Root-Control Ihres Popups setzen und einen anderen Stil für die "
 "Buttons innerhalb dieser Ressource definieren. Solange die Kette der Control-"
 "Nodes zwischen dem Root des Popups und den Buttons nicht unterbrochen ist, "
 "verwenden diese Buttons die Stile, die in der Theme-Ressource definiert "
 "sind, die ihnen am nächsten ist. Alle anderen Controls werden weiterhin mit "
-"dem projektweiten Thema und den Default-Theme-Stilen formatiert."
+"dem projektweiten Theme und den Default-Theme-Stilen formatiert."
 
 msgid ""
 "To sum it up, for an arbitrary control its theme item lookup would look "

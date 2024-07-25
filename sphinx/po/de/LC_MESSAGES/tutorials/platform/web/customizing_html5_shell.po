@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,12 +142,14 @@ msgstr ""
 "Während Sie die volle Kontrolle über die von Ihnen erstellte HTML-Seite "
 "haben, kann diese Variable nützlich sein, um Teile des HTML-Elements "
 "``head`` aus dem Godot-Editor zu konfigurieren, z. B. für verschiedene Web-"
-"Export-Voreinstellungen."
+"Export-Vorgaben."
 
 msgid ""
 "``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
 "the Project Settings."
 msgstr ""
+"``$GODOT_SPLASH``: Pfad zu einem Bild, das als Boot-Splash-Bildschirm "
+"verwendet wird, wie in den Projekteinstellungen definiert."
 
 msgid ""
 "When the custom page is ready, it can be selected in the export options "
@@ -286,7 +283,7 @@ msgid ""
 "method. It optionally takes an argument that allows to test for a specific "
 "major version of WebGL."
 msgstr ""
-"Wenn Sie auf eine bestimmte Version von WebGL abzielen oder einfach nur "
+"Wenn Sie für eine bestimmte Version von WebGL entwickeln oder einfach nur "
 "prüfen wollen, ob WebGL überhaupt verfügbar ist, können Sie die Methode :js:"
 "meth:`Engine.isWebGLAvailable` aufrufen. Sie nimmt optional ein Argument "
 "entgegen, das es erlaubt, auf eine bestimmte Hauptversion von WebGL zu "

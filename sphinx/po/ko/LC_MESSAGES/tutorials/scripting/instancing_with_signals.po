@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,40 +15,8 @@ msgstr ""
 msgid "Signal"
 msgstr "시그널"
 
-#, fuzzy
-msgid "Instancing with signals"
-msgstr "씬 인스턴스하기"
-
-msgid ""
-"Signals provide a way to decouple game objects, allowing you to avoid "
-"forcing a fixed arrangement of nodes. One sign that a signal might be called "
-"for is when you find yourself using ``get_parent()``. Referring directly to "
-"a node's parent means that you can't easily move that node to another "
-"location in the scene tree. This can be especially problematic when you are "
-"instancing objects at runtime and may want to place them in an arbitrary "
-"location in the running scene tree."
-msgstr ""
-
-msgid "Below we'll consider an example of such a situation: firing bullets."
-msgstr ""
-
 msgid "Shooting example"
 msgstr "발사 예제"
-
-#, fuzzy
-msgid ""
-"Consider a player character that can rotate and shoot towards the mouse. "
-"Every time the mouse button is clicked, we create an instance of the bullet "
-"at the player's location. See :ref:`doc_instancing` for details."
-msgstr ""
-"시그널 사용의 다른 예제로, 마우스 방향으로 회전하며 발사할 수 있는 플레이어"
-"를 생각해봅시다. 마우스 버튼을 클릭할 때 마다, 플레이어의 위치에 총알의 인스"
-"턴스를 만듭니다. 자세한 설명은 :ref:`doc_instancing`\\ 를 참고하세요."
-
-msgid ""
-"We'll use an ``Area2D`` for the bullet, which moves in a straight line at a "
-"given velocity:"
-msgstr ""
 
 msgid ""
 "However, if the bullets are added as children of the player, then they will "
@@ -76,25 +39,6 @@ msgstr ""
 "는 것이 더 합리적입니다, 이렇게 하면 총알이 플레이어의 부모나 더 위로 올라갈 "
 "수도 있습니다."
 
-#, fuzzy
-msgid "You could do this by adding the bullet to the main scene directly:"
-msgstr "총알에 직접 이 코드를 추가하는 것으로 가능합니다:"
-
-#, fuzzy
-msgid ""
-"However, this will lead to a different problem. Now if you try to test your "
-"\"Player\" scene independently, it will crash on shooting, because there is "
-"no parent node to access. This makes it a lot harder to test your player "
-"code independently and also means that if you decide to change your main "
-"scene's node structure, the player's parent may no longer be the appropriate "
-"node to receive the bullets."
-msgstr ""
-"그러나 이것은 다른 문제를 불러올 수 있습니다. 이제 \"Player\" 씬을 독립적으"
-"로 테스트해 보신다면, 액세스할 부모 노드가 없기 때문에, 발사를 할 때 팅길 것"
-"입니다. 이는 플레이어 코드를 독립적으로 테스트하기가 더 까다로울 뿐만 아니"
-"라, 메인 씬의 노드 구조를 바꾸기로 한다면 플레이어의 부모는 더 이상 총알을 받"
-"기에 적절한 노드가 아니게 됩니다."
-
 msgid ""
 "The solution to this is to use a signal to \"emit\" the bullets from the "
 "player. The player then has no need to \"know\" what happens to the bullets "
@@ -108,14 +52,6 @@ msgstr ""
 
 msgid "Here is the code for the player using signals to emit the bullet:"
 msgstr "이것이 시그널을 사용해 플레이어가 총알을 방출하는 코드입니다:"
-
-#, fuzzy
-msgid ""
-"In the main scene, we then connect the player's signal (it will appear in "
-"the \"Node\" tab of the Inspector)"
-msgstr ""
-"메인 씬에서, 이제 플레이어의 시그널을 연결합니다 (\"노드\" 탭에 나타날 것입니"
-"다)."
 
 msgid ""
 "Now the bullets will maintain their own movement independent of the player's "

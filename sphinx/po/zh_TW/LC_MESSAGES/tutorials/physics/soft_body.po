@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,16 +75,6 @@ msgstr "斗篷模擬"
 msgid "Let's make a cloak in the Platformer3D demo."
 msgstr "我們將在 Platformer3D 演示中製作一個斗篷。"
 
-#, fuzzy
-msgid ""
-"You can download the Platformer3D demo on `GitHub <https://github.com/"
-"godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or `the Asset "
-"Library <https://godotengine.org/asset-library/asset/2748>`_."
-msgstr ""
-"你可以在 `GitHub <https://github.com/godotengine/godot-demo-projects/tree/"
-"master/3d/platformer>`_ 或`素材庫 <https://godotengine.org/asset-library/"
-"asset/125>`_上下載 Platformer3D 演示。"
-
 msgid ""
 "Open the ``Player`` scene, add a ``SoftBody`` node and assign a "
 "``PlaneMesh`` to it."
@@ -116,15 +101,6 @@ msgid ""
 msgstr ""
 "在骨架節點下新增 :ref:`BoneAttachment <class_BoneAttachment>` 節點，然後選擇 "
 "Neck（頸部）骨骼，將斗篷附加到角色骨架。"
-
-#, fuzzy
-msgid ""
-"``BoneAttachment3D`` node is to attach objects to a bone of an armature. The "
-"attached object will follow the bone's movement, weapon of a character can "
-"be attached this way."
-msgstr ""
-"``BoneAttachment`` 節點的作用是將物體附著到骨架的某根骨骼上。附著的物體會隨著"
-"骨骼運動，角色的武器可以通過這種方式附加。"
 
 msgid ""
 "To create pinned joints, select the upper vertices in the ``SoftBody`` node:"

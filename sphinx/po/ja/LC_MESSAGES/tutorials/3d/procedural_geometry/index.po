@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,23 +14,6 @@ msgstr ""
 
 msgid "Procedural geometry"
 msgstr "手続き型ジオメトリ(幾何)"
-
-#, fuzzy
-msgid ""
-"There are many ways to procedurally generate geometry in Godot. In this "
-"tutorial series, we will explore a few of them. Each technique has its own "
-"benefits and drawbacks, so it is best to understand each one and how it can "
-"be useful in a given situation."
-msgstr ""
-"Godotでジオメトリを手続き的に生成する方法は多数あります。このチュートリアルシ"
-"リーズでは、それらのいくつかを検討します。それぞれの手法には長所と短所がある"
-"ため、それぞれを理解し、特定の状況でどのように役立つかを理解することが最善で"
-"す。"
-
-msgid ""
-"All the procedural geometry generation methods described here run on the "
-"CPU. Godot doesn't support generating geometry on the GPU yet."
-msgstr ""
 
 msgid "What is geometry?"
 msgstr "ジオメトリとは何ですか？"
@@ -51,22 +29,6 @@ msgstr ""
 
 msgid "What is a Mesh?"
 msgstr "メッシュとは何ですか?"
-
-#, fuzzy
-msgid ""
-"Many things in Godot have mesh in their name: the :ref:`Mesh <class_Mesh>`, "
-"the :ref:`ArrayMesh <class_ArrayMesh>`, the :ref:`ImmediateMesh "
-"<class_ImmediateMesh>`, the :ref:`MeshInstance3D <class_MeshInstance3D>`, "
-"the :ref:`MultiMesh <class_MultiMesh>`, and the :ref:`MultiMeshInstance3D "
-"<class_MultiMeshInstance3D>`. While they are all related, they have slightly "
-"different uses."
-msgstr ""
-"Godotの多くの物には名前にメッシュがあります: :ref:`Mesh "
-"<class_Mesh>`\\ 、\\ :ref:`ArrayMesh <class_ArrayMesh>`\\ 、\\ :ref:"
-"`MeshInstance3D <class_MeshInstance3D>`\\ 、\\ :ref:`MultiMesh < "
-"class_MultiMesh>`\\ 、および\\ :ref:` MultiMeshInstance3D "
-"<class_MultiMeshInstance3D> `\\ 。それらはすべて関連がありますが、用途が少し"
-"異なります。"
 
 msgid ""
 "Meshes and ArrayMeshes are resources that are drawn using a MeshInstance3D "
@@ -143,29 +105,6 @@ msgstr ""
 "ARRAY_NORMAL`` にある配列は、頂点法線の :ref:"
 "`PackedVector3Array<class_PackedVector3Array>` です。"
 
-#, fuzzy
-msgid ""
-"The surface array can be indexed or non-indexed. Creating a non-indexed "
-"array is as easy as not assigning an array at the index ``ArrayMesh."
-"ARRAY_INDEX``. A non-indexed array stores unique vertex information for "
-"every triangle, meaning that when two triangles share a vertex, the vertex "
-"is duplicated in the array. An indexed surface array only stores vertex "
-"information for each unique vertex and then also stores an array of indices "
-"which maps out how to construct the triangles from the vertex array. In "
-"general, using an indexed array is faster, but it means you have to share "
-"vertex data between triangles, which is not always desired (e.g. when you "
-"want per-face normals)."
-msgstr ""
-"サーフェス配列はインデックス付きでもインデックスなしでもかまいません。非イン"
-"デックス配列の作成は、インデックス ``ArrayMesh.ARRAY_INDEX`` で配列を割り当て"
-"ないのと同じくらい簡単です。インデックスなしの配列には、すべての三角形の一意"
-"の頂点情報が格納されます。つまり、2つの三角形が頂点を共有する場合、頂点は配列"
-"内で複製されます。インデックス付きの表面配列は、各一意の頂点の頂点情報のみを"
-"格納し、頂点配列から三角形を構築する方法をマップするインデックスの配列も格納"
-"します。一般に、インデックス付き配列の使用は高速ですが、三角形間で頂点データ"
-"を共有する必要があることを意味します。これは常に望ましいわけではありません(た"
-"とえば、面ごとの法線が必要な場合)。"
-
 msgid "Tools"
 msgstr "ツール"
 
@@ -178,16 +117,6 @@ msgstr ""
 
 msgid "ArrayMesh"
 msgstr "\\ ArrayMesh"
-
-#, fuzzy
-msgid ""
-"The ArrayMesh resource extends Mesh to add a few different quality of life "
-"functions and, most importantly, the ability to construct a Mesh surface "
-"through scripting."
-msgstr ""
-"ArrayMeshリソースはMeshを拡張して、いくつかの異なるQOL(利便性向上用の)関数を"
-"追加します。最も重要なことは、スクリプティングによってMeshサーフェスを構築す"
-"る機能です。"
 
 msgid ""
 "For more information about the ArrayMesh, please see the :ref:`ArrayMesh "
@@ -230,54 +159,8 @@ msgstr ""
 "SurfaceToolの詳細については、\\ :ref:`SurfaceTool tutorial "
 "<doc_surfacetool>` を参照してください。"
 
-#, fuzzy
-msgid "ImmediateMesh"
-msgstr "\\ ImmediateGeometry"
-
-#, fuzzy
-msgid ""
-"ImmediateMesh is a mesh that uses an immediate mode style interface (like "
-"SurfaceTool) to draw objects. The difference between ImmediateMesh and the "
-"SurfaceTool is that ImmediateMesh is drawn directly with code dynamically, "
-"while the SurfaceTool is used to generate a Mesh that you can do whatever "
-"you want with."
-msgstr ""
-"ImmediateGeometryは、イミディエイトモードスタイルのインターフェイス"
-"(SurfaceToolなど)を使用してオブジェクトを描画するノードです。 "
-"ImmediateGeometryとSurfaceToolの違いは、ImmediateGeometryはシーンツリーに追加"
-"できるノード自体であり、コードから直接描画されることです。 SurfaceToolは、表"
-"示するMeshInstanceに追加する必要があるメッシュを生成します。"
-
-#, fuzzy
-msgid ""
-"ImmediateMesh is useful for prototyping because of its straightforward API, "
-"but it is slow because the geometry is rebuilt each time you make a change. "
-"It is most useful for adding simple geometry for visual debugging (e.g. by "
-"drawing lines to visualize physics raycasts etc.)."
-msgstr ""
-"ImmediateGeometryは、簡単なAPIのためにプロトタイピングに役立ちますが、ジオメ"
-"トリがフレームごとに再構築されるため、速度が遅くなります。単純なジオメトリを"
-"すばやく追加して視覚的にデバッグするのに最も役立ちます(たとえば、物理的なレイ"
-"キャストなどを視覚化するために線を描画する)。"
-
-#, fuzzy
-msgid ""
-"For more information about ImmediateMesh, please see the :ref:`ImmediateMesh "
-"tutorial <doc_immediatemesh>`."
-msgstr ""
-"ImmediateGeometryの詳細については、\\ :ref:`ImmediateGeometry tutorial "
-"<doc_immediategeometry>` を参照してください。"
-
 msgid "Which one should I use?"
 msgstr "どちらを使うべきですか？"
-
-#, fuzzy
-msgid ""
-"Which approach you use depends on what you are trying to do and what kind of "
-"procedure you are comfortable with."
-msgstr ""
-"どの方法を使用するかは、何をしようとしているか、どのような手順に慣れているか"
-"によって異なります。"
 
 msgid ""
 "Both SurfaceTool and ArrayMesh are excellent for generating static geometry "
@@ -285,43 +168,6 @@ msgid ""
 msgstr ""
 "SurfaceToolとArrayMeshはどちらも、時間とともに変化しない静的なジオメトリ(メッ"
 "シュ)の生成に最適です。"
-
-#, fuzzy
-msgid ""
-"Using an ArrayMesh is slightly faster than using a SurfaceTool, but the API "
-"is a little more challenging. Additionally, SurfaceTool has a few quality of "
-"life methods such as ``generate_normals()`` and ``index()``."
-msgstr ""
-"ArrayMeshの使用は、SurfaceToolの使用よりもわずかに高速ですが、APIはもう少し挑"
-"戦的です。さらに、SurfaceToolには ``generate_normals()`` や ``index()`` など"
-"の利便性向上メソッドがいくつかあります。"
-
-#, fuzzy
-msgid ""
-"ImmediateMesh is more limited than both ArrayMesh and SurfaceTool. However, "
-"if you need the geometry to change every frame anyway, it provides a much "
-"easier interface that can be slightly faster than generating an ArrayMesh "
-"every frame."
-msgstr ""
-"ImmediateGeometryはフレームごとにメッシュを再生成するため、ArrayMeshや"
-"SurfaceToolよりもはるかに低速です。ただし、とにかくすべてのフレームを変更する"
-"ためにジオメトリが必要な場合は、すべてのフレームでArrayMeshを生成するよりも少"
-"し速い可能性がある、はるかに簡単なインターフェイスを提供します。"
-
-#, fuzzy
-msgid ""
-"The MeshDataTool is not fast, but it gives you access to all kinds of "
-"properties of the mesh that you don't get with the others (edges, faces, "
-"etc.). It is incredibly useful when you need that sort of data to transform "
-"the mesh, but it is not a good idea to use it if that extra information is "
-"not needed. The MeshDataTool is best used if you are going to be using an "
-"algorithm that requires access to the face or edge array."
-msgstr ""
-"MeshDataToolは高速ではありませんが、他のものでは得られないメッシュのすべての"
-"種類のプロパティ(エッジ、面など)にアクセスできます。メッシュを変換するために"
-"そのようなデータが必要な場合は非常に便利ですが、その情報が必要でない場合は使"
-"用するのは得策ではありません。 MeshDataToolは、面またはエッジ配列へのアクセス"
-"を必要とするアルゴリズムを使用する場合に最適に使用されます。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,17 +89,6 @@ msgstr ""
 "desvantagem, eles não podem interagir diretamente com outros objetos "
 "físicos, a menos que sejam feitos à mão em código."
 
-#, fuzzy
-msgid ""
-"This short tutorial focuses on the kinematic character controller. It uses "
-"the old-school way of handling collisions, which is not necessarily simpler "
-"under the hood, but well hidden and presented as an API."
-msgstr ""
-"Este breve tutorial se concentrará no controlador de personagem cinemático. "
-"Basicamente, a maneira antiga de lidar com colisões (que não é "
-"necessariamente mais simples por baixo dos panos, mas bem escondida e "
-"apresentada como uma API simples e agradável)."
-
 msgid "Physics process"
 msgstr "Processo físico"
 
@@ -126,18 +110,6 @@ msgstr ""
 
 msgid "Scene setup"
 msgstr "Configuração da cena"
-
-#, fuzzy
-msgid ""
-"To have something to test, here's the scene (from the tilemap tutorial): "
-"`kinematic_character_2d_starter.zip <https://github.com/godotengine/godot-"
-"docs-project-starters/releases/download/latest-4.x/"
-"kinematic_character_2d_starter.zip>`_. We'll be creating a new scene for the "
-"character. Use the robot sprite and create a scene like this:"
-msgstr ""
-"Para ter algo para testar, aqui está a cena (do tutorial do tilemap): :"
-"download:`kbscene.zip <files/kbscene.zip>`. Estaremos criando uma nova cena "
-"para o personagem. Use o sprite do robô e crie uma cena como esta:"
 
 msgid ""
 "You'll notice that there's a warning icon next to our CollisionShape2D node; "
@@ -181,22 +153,6 @@ msgstr ""
 msgid "Moving the kinematic character"
 msgstr "Movendo o personagem cinemático"
 
-#, fuzzy
-msgid ""
-"Go back to the character scene, and open the script, the magic begins now! "
-"Kinematic body will do nothing by default, but it has a useful function "
-"called ``CharacterBody2D.move_and_collide()``. This function takes a :ref:"
-"`Vector2 <class_Vector2>` as an argument, and tries to apply that motion to "
-"the kinematic body. If a collision happens, it stops right at the moment of "
-"the collision."
-msgstr ""
-"Volte para a cena do personagem e abra o script, a mágica começa agora! O "
-"corpo cinemático não fará nada por padrão, mas tem uma função útil chamada :"
-"ref:`KinematicBody2D.move_and_collide() "
-"<class_KinematicBody2D_method_move_and_collide>`. Esta função recebe um :ref:"
-"`Vector2 <class_Vector2>` como argumento e tenta aplicar esse movimento ao "
-"corpo cinemático. Se ocorrer uma colisão, ele para no momento da colisão."
-
 msgid "So, let's move our sprite downwards until it hits the floor:"
 msgstr "Então, vamos mover nosso sprite para baixo até atingir o chão:"
 
@@ -222,11 +178,6 @@ msgstr ""
 "Agora o personagem cai sem problemas. Vamos fazê-lo andar para os lados, "
 "esquerda e direita ao tocar nas teclas direcionais. Lembre-se de que os "
 "valores usados (pelo menos para velocidade) são pixels/segundo."
-
-#, fuzzy
-msgid "This adds basic support for walking when pressing left and right:"
-msgstr ""
-"Isso adiciona um suporte simples para andar pressionando esquerda e direita:"
 
 msgid "And give it a try."
 msgstr "E experimente."

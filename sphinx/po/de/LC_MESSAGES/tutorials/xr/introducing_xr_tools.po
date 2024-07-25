@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,12 +57,12 @@ msgid ""
 "step of downloading and installing it here. We will update the documentation "
 "once Godot XR Tools becomes available for Godot 4 through the asset library."
 msgstr ""
-"Die aktuelle stabile Version der Godot XR Tools, die in der Asset Bibliothek "
+"Die aktuelle stabile Version der Godot XR Tools, die in der Asset-Bibliothek "
 "verfügbar ist, ist die Version für Godot 3. Die Portierung von Godot XR "
 "Tools für Godot 4 steht auf der github-Website zum Download bereit. Wir "
 "werden Sie hier durch die Schritte des Herunterladens und Installierens "
 "führen. Wir werden die Dokumentation aktualisieren, sobald Godot XR Tools "
-"für Godot 4 über die Asset Bibliothek verfügbar ist."
+"für Godot 4 über die Asset-Bibliothek verfügbar ist."
 
 msgid "Installing XR Tools"
 msgstr "Installation der XR-Tools"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,120 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#, fuzzy
-msgid "SSL/TLS certificates"
-msgstr "SSL証明書"
-
 msgid "Introduction"
 msgstr "はじめに"
 
-#, fuzzy
-msgid ""
-"It is often desired to use :abbr:`SSL (Secure Sockets Layer)` connections "
-"(also known as :abbr:`TLS (Transport Layer Security)` connections) for "
-"communications to avoid \"man in the middle\" attacks. Godot has a "
-"connection wrapper, :ref:`StreamPeerTLS <class_StreamPeerTLS>`, which can "
-"take a regular connection and add security around it. The :ref:`HTTPClient "
-"<class_HTTPClient>` and :ref:`HTTPRequest <class_HTTPRequest>` classes also "
-"support HTTPS using this same wrapper."
-msgstr ""
-"「中間者」攻撃を回避するために、通信にSSL接続を使用することがしばしば望まれま"
-"す。 Godotには、接続ラッパー :ref:`StreamPeerSSL <class_StreamPeerSSL>` があ"
-"ります。これは、通常の接続を取得し、その周りにセキュリティを追加できま"
-"す。\\ :ref:`HTTPClient <class_HTTPClient>` クラスは、この同じラッパーを使用"
-"してHTTPSもサポートしています。"
-
-#, fuzzy
-msgid ""
-"Godot includes the `SSL certificate bundle from Mozilla <https://github.com/"
-"godotengine/godot/blob/master/thirdparty/certs/ca-certificates.crt>`__, but "
-"you can provide your own with a CRT file in the Project Settings:"
-msgstr ""
-"SSLを機能させるには、証明書を提供する必要があります。プロジェクト設定で.crt"
-"ファイルを指定する必要があります:"
-
-msgid "Setting the TLS certificate bundle override project setting"
-msgstr ""
-
-#, fuzzy
-msgid ""
-"When set, this file *overrides* the Mozilla certificate bundle Godot uses by "
-"default. This file should contain any number of public certificates in `PEM "
-"format <https://en.wikipedia.org/wiki/Privacy-enhanced_Electronic_Mail>`__."
-msgstr ""
-"このファイルには、任意の数の ``PEM形式 <https://en.wikipedia.org/wiki/"
-"Privacy-enhanced_Electronic_Mail>`__ の公開証明書を含める必要があります。"
-
-#, fuzzy
-msgid ""
-"Remember to add ``*.crt`` as the non-resource export filter to your export "
-"preset, so that the exporter recognizes this when exporting your project:"
-msgstr ""
-"もちろん、プロジェクトのエクスポート時にエクスポーターがこれを認識するよう"
-"に、.crtをフィルターとして追加することを忘れないでください。"
-
-msgid "Adding ``*.crt`` to non-resource export filter in the export preset"
-msgstr ""
-
 msgid "There are two ways to obtain certificates:"
 msgstr "証明書を取得するには2つの方法があります:"
-
-msgid "Acquire a certificate from a certificate authority"
-msgstr ""
-
-msgid ""
-"The main approach to getting a certificate is to use a certificate authority "
-"(CA) such as `Let's Encrypt <https://letsencrypt.org/>`__. This is a more "
-"cumbersome process than a self-signed certificate, but it's more "
-"\"official\" and ensures your identity is clearly represented. The resulting "
-"certificate is also trusted by applications such as web browsers, unlike a "
-"self-signed certificate which requires additional configuration on the "
-"client side before it's considered trusted."
-msgstr ""
-
-msgid ""
-"These certificates do not require any configuration on the client to work, "
-"since Godot already bundles the Mozilla certificate bundle in the editor and "
-"exported projects."
-msgstr ""
-
-#, fuzzy
-msgid "Generate a self-signed certificate"
-msgstr "アプローチ1: 自己署名証明書"
-
-msgid ""
-"For most use cases, it's recommended to go through certificate authority as "
-"the process is free with certificate authorities such as Let's Encrypt. "
-"However, if using a certificate authority is not an option, then you can "
-"generate a self-signed certificate and tell the client to consider your self-"
-"signed certificate as trusted."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"To create a self-signed certificate, generate a private and public key pair "
-"and add the public key (in PEM format) to the CRT file specified in the "
-"Project Settings."
-msgstr ""
-"最初のアプローチは最も簡単です: 秘密鍵と公開鍵のペアを生成し、(PEM形式で)公開"
-"鍵を.crtファイルに追加します。秘密鍵はサーバーに送られます。"
-
-msgid ""
-"The private key should **only** go to your server. The client must not have "
-"access to it: otherwise, the security of the certificate will be compromised."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"OpenSSL has `some documentation <https://raw.githubusercontent.com/openssl/"
-"openssl/master/doc/HOWTO/keys.txt>`__ about this. For local development "
-"purposes **only**, `mkcert <https://github.com/FiloSottile/mkcert>`__ can be "
-"used as an alternative."
-msgstr ""
-"OpenSSLには、これに関する `ドキュメント <https://raw.githubusercontent.com/"
-"openssl/openssl/master/doc/HOWTO/keys.txt>`__ があります。このアプローチ"
-"は、\\ **ドメインの検証を必要としません**\\ また、CAから証明書を購入するのに"
-"かなりのお金を費やす必要もありません。"
 
 msgid "Translation status"
 msgstr "翻訳ステータス"

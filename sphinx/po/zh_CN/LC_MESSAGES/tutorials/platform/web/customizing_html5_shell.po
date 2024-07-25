@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,11 +123,6 @@ msgstr ""
 "部分内容很有用, 例如, 对于不同的Web导出预设."
 
 msgid ""
-"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
-"the Project Settings."
-msgstr ""
-
-msgid ""
 "When the custom page is ready, it can be selected in the export options "
 "under the *Html / Custom Html Shell* section."
 msgstr ""
@@ -140,17 +130,6 @@ msgstr ""
 
 msgid "Starting the project"
 msgstr "启动项目"
-
-#, fuzzy
-msgid ""
-"To be able to start the game, you need to write a script that initializes "
-"the engine — the control code. This process consists of three steps, but as "
-"shown here, most of them can be skipped depending on how much customization "
-"is needed."
-msgstr ""
-"为了能够启动游戏，你需要写一个脚本来初始化引擎 — 控制代码。这个过程包括三个步"
-"骤，不过如图所示，其中大部分步骤可以跳过，这取决于需要多少定制化的内容，或者"
-"留给默认行为。"
 
 msgid ""
 "See the :ref:`HTML5 shell class reference <doc_html5_shell_classref>`, for "
@@ -173,20 +152,6 @@ msgstr ""
 "的是用导出的配置创建一个 :js:class:`Engine` 类的实例，然后调用 :js:meth:"
 "`engine.startGame <Engine.prototype.startGame>` 方法，可选择重写任何 :js:"
 "attr:`EngineConfig` 参数。"
-
-#, fuzzy
-msgid ""
-"This snippet of code automatically loads and initializes the engine before "
-"starting the game. It uses the given configuration to load the engine. The :"
-"js:meth:`engine.startGame <Engine.prototype.startGame>` method is "
-"asynchronous and returns a ``Promise``. This allows your control code to "
-"track if the game was loaded correctly without blocking execution or relying "
-"on polling."
-msgstr ""
-"这段代码在启动游戏前自动加载和初始化引擎。它使用给定的配置来加载引擎。\\ :js:"
-"meth:`engine.startGame <Engine.prototype.startGame>` 方法是异步的，返回一个 "
-"``Promise``\\ 。这允许你的控制代码跟踪游戏是否被正确加载，而无需阻塞执行或依"
-"赖轮询。"
 
 msgid ""
 "In case your project needs to have special control over the start arguments "
@@ -339,12 +304,6 @@ msgid ""
 msgstr ""
 "使用 :js:attr:`onPrint` 覆盖选项为输出流设置一个回调函数，以及 :js:attr:"
 "`onPrintError` 覆盖选项为错误流设置一个回调函数。"
-
-#, fuzzy
-msgid ""
-"When handling the engine output, keep in mind that it may not be desirable "
-"to print it out in the finished product."
-msgstr "在处理引擎输出时，请记住，在成品中打印出来可能是不可取的。"
 
 msgid "Translation status"
 msgstr "翻译状态"

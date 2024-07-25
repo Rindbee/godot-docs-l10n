@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,36 +40,6 @@ msgstr ""
 
 msgid "Screen texture"
 msgstr "屏幕纹理"
-
-#, fuzzy
-msgid ""
-"Godot :ref:`doc_shading_language` has a special texture to access the "
-"already rendered contents of the screen. It is used by specifying a hint "
-"when declaring a ``sampler2D`` uniform: ``hint_screen_texture``. A special "
-"built-in varying ``SCREEN_UV`` can be used to obtain the UV relative to the "
-"screen for the current fragment. As a result, this canvas_item fragment "
-"shader results in an invisible object, because it only shows what lies "
-"behind:"
-msgstr ""
-"Godot :ref:`doc_shading_language` 有一个特殊的纹理, ``SCREEN_TEXTURE`` (在3D"
-"的情况下, ``DEPTH_TEXTURE`` 代表深度). 它以屏幕的UV作为参数, 并返回一个带有颜"
-"色的RGB vec3. 一个特殊的内置变量.SCREEN_UV可以用来获取当前片段的UV. 因此, 这"
-"是个简单的canvas_item片段着色器:"
-
-msgid ""
-"``textureLod`` is used here as we only want to read from the bottom mipmap. "
-"If you want to read from a blurred version of the texture instead, you can "
-"increase the third argument to ``textureLod`` and change the hint "
-"``filter_nearest`` to ``filter_nearest_mipmap`` (or any other filter with "
-"mipmaps enabled). If using a filter with mipmaps, Godot will automatically "
-"calculate the blurred texture for you."
-msgstr ""
-
-msgid ""
-"If the filter mode is not changed to a filter mode that contains ``mipmap`` "
-"in its name, ``textureLod`` with an LOD parameter greater than ``0.0`` will "
-"have the same appearance as with the ``0.0`` LOD parameter."
-msgstr ""
 
 msgid "Screen texture example"
 msgstr "屏幕纹理示例"
@@ -134,13 +99,6 @@ msgstr ""
 
 msgid "With correct back-buffer copying, the two spheres blend correctly:"
 msgstr "正确复制后台缓冲之后，这两个球体就能够正确混合了："
-
-msgid ""
-"In 3D, materials that use ``hint_screen_texture`` are considered transparent "
-"themselves and will not appear in the resulting screen texture of other "
-"materials. If you plan to instance a scene that uses a material with "
-"``hint_screen_texture``, you will need to use a BackBufferCopy node."
-msgstr ""
 
 msgid ""
 "In 3D, there is less flexibility to solve this particular issue because the "
@@ -223,12 +181,6 @@ msgstr "以下代码会获取正在绘制的像素所在的 3D 位置："
 
 msgid "Normal-roughness texture"
 msgstr "法线-粗糙度纹理"
-
-#, fuzzy
-msgid ""
-"Normal-roughness texture is only supported in the Forward+ rendering method, "
-"not Mobile or Compatibility."
-msgstr "只有“集群 Forward”渲染后端支持体积雾，“Forward 移动”和“兼容”不支持。"
 
 msgid ""
 "Similarly, the normal-roughness texture can be used to read the normals and "

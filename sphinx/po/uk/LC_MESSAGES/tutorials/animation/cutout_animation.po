@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,22 +80,6 @@ msgstr ""
 "спрайтів, непрозорість, модуляція кольорів тощо, можуть бути анімовані та "
 "змішані."
 
-#, fuzzy
-msgid ""
-"**Combine animation styles**: AnimatedSprite2D allows traditional cel "
-"animation to be used alongside cutout animation. In cel animation different "
-"animation frames use entirely different drawings rather than the same pieces "
-"positioned differently. In an otherwise cutout-based animation, cel "
-"animation can be used selectively for complex parts such as hands, feet, "
-"changing facial expressions, etc."
-msgstr ""
-"**Об'єднання стилів анімації:** Вузол AnimatedSprite дозволяє "
-"використовувати традиційну анімацію малюнків на прозорому фоні разом із "
-"анімацією вирізок. В анімації малюнків різні кадри використовують абсолютно "
-"різні малюнки, а не одні й ті ж частини, розташовані по-різному. В випадку з "
-"анімація вирізок, анімація малюнків може бути вибірково використана для "
-"таких складних частин, як руки, ноги, зміна міміки тощо."
-
 msgid ""
 "**Custom Shaped Elements**: Custom shapes can be created with :ref:"
 "`Polygon2D <class_Polygon2D>` allowing UV animation, deformations, etc."
@@ -147,12 +126,6 @@ msgstr ""
 "фрагменти персонажа `GBot<https://www.youtube.com/watch?"
 "v=S13FrWuBMx4&list=UUckpus81gNin1aV8WSffRKw>`__, створені Андреасом Ісау."
 
-msgid ""
-"Get your assets: `cutout_animation_assets.zip <https://github.com/"
-"godotengine/godot-docs-project-starters/releases/download/latest-4.x/"
-"cutout_animation_assets.zip>`_."
-msgstr ""
-
 msgid "Setting up the rig"
 msgstr "Налаштування скелета"
 
@@ -186,34 +159,8 @@ msgstr ""
 msgid "The rotation pivot is wrong and needs to be adjusted."
 msgstr "Центр обертання неправильний і потрібує регулювання."
 
-#, fuzzy
-msgid ""
-"This small cross in the middle of the :ref:`Sprite2D <class_Sprite2D>` is "
-"the rotation pivot:"
-msgstr ""
-"Цей маленький хрест в середині :ref:`спрайта <class_Sprite>` є центром "
-"обертання:"
-
 msgid "Adjusting the pivot"
 msgstr "Налаштування центра"
-
-#, fuzzy
-msgid ""
-"The pivot can be adjusted by changing the *offset* property in the Sprite2D:"
-msgstr ""
-"Центр обертання можна регулювати, змінивши властивість зсуву ``Offset`` в "
-"спрайті:"
-
-#, fuzzy
-msgid ""
-"The pivot can also be adjusted *visually*. While hovering over the desired "
-"pivot point,  press :kbd:`V` to move the pivot there for the selected "
-"Sprite2D. There is also a tool in the tool bar that has a similar function."
-msgstr ""
-"Стрижень також можна регулювати *візуально*. Навівши вказівник мишки на "
-"потрібну для обертання точку, натисніть :kbd:`V`, щоб перемістити туди центр "
-"обертання вибраного Спрайта. На панелі інструментів також є інструмент, який "
-"має аналогічну функцію."
 
 msgid ""
 "Continue adding body pieces, starting with the right arm. Make sure to put "
@@ -362,17 +309,6 @@ msgstr ""
 "в даний час вузлу руки не хватає ще одного нащадка. Знаючи це спробуємо ще "
 "раз."
 
-#, fuzzy
-msgid ""
-"The first step is creating an endpoint node. Any kind of node will do, but :"
-"ref:`Marker2D <class_Marker2D>` is preferred because it's visible in the "
-"editor. The endpoint node will ensure that the last bone has orientation."
-msgstr ""
-"Першим кроком є створення вузла кінцевої точки. Будь-який вузол може "
-"підійти, але краще обрати :ref:`Position2D <class_Position2D>`, тому що його "
-"видно в редакторі. Вузол кінцевої точки гарантує, що остання кістка отримає "
-"орієнтацію."
-
 msgid ""
 "Now select the whole chain, from the endpoint to the arm and create bones:"
 msgstr ""
@@ -424,29 +360,6 @@ msgstr ""
 msgid "IK chains"
 msgstr "Ланцюжки IK"
 
-#, fuzzy
-msgid ""
-"IK stands for inverse kinematics. It's a convenient technique for animating "
-"the position of hands, feet and other extremities of rigs like the one we've "
-"made. Imagine you want to pose a character's foot in a specific position on "
-"the ground. Without IK chains, each motion of the foot would require "
-"rotating and positioning several other bones (the shin and the thigh at "
-"least). This would be quite complex and lead to imprecise results. IK allows "
-"us to move the foot directly while the shin and thigh self-adjust."
-msgstr ""
-"IK означає інверсійну кінематику. Це зручна техніка для анімації положення "
-"рук, ніг та інших кінцівок скелета, на кшталт того, який ми зробили. Уявіть, "
-"що ви хочете розмістити ногу персонажа в певному положенні на землі. Без "
-"ланцюжків ІК кожен рух стопи вимагає обертання і позиціонування декількох "
-"інших кісток (принаймні гомілки і стегна). Це було б досить складно і "
-"призвело б до неточних результатів."
-
-msgid ""
-"**IK chains in Godot currently work in the editor only**, not at runtime. "
-"They are intended to ease the process of setting keyframes, and are not "
-"currently useful for techniques like procedural animation."
-msgstr ""
-
 msgid ""
 "To create an IK chain, select a chain of bones from endpoint to the base for "
 "the chain. For example, to create an IK chain for the right leg, select the "
@@ -463,16 +376,6 @@ msgstr ""
 
 msgid "As a result, the base of the chain will turn *Yellow*."
 msgstr "В результаті основа ланцюжка *пожовтіє*."
-
-#, fuzzy
-msgid ""
-"Once the IK chain is set up, grab any child or grand-child of the base of "
-"the chain (e.g. a foot), and move it. You'll see the rest of the chain "
-"adjust as you adjust its position."
-msgstr ""
-"Після налаштування ланцюжка IK, візьміть будь-якого нащадка основи ланцюга "
-"(наприклад, ногу) і порухайте його. Ви побачите, як інша частина ланцюга "
-"регулюється, коли ви змінюєте його положення."
 
 msgid "Animation tips"
 msgstr "Поради щодо анімації"

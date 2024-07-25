@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,19 +71,6 @@ msgstr ""
 "bodu ``(0, 0)`` neboli **počátku (origin)**. Nakreslíme šipku směřující od "
 "počátku k našemu bodu:"
 
-#, fuzzy
-msgid ""
-"This is a **vector**. A vector represents a lot of useful information. As "
-"well as telling us that the point is at ``(4, 3)``, we can also think of it "
-"as an angle ``θ`` (theta) and a length (or magnitude) ``m``. In this case, "
-"the arrow is a **position vector** - it denotes a position in space, "
-"relative to the origin."
-msgstr ""
-"Tohle je **vektor**. Vektor vyjadřuje mnoho užitečných informací. Kromě "
-"toho, že nám sděluje polohu bodu ``(4, 3)``, můžeme o něm uvažovat jako o "
-"úhlu ``θ`` a délce (nebo velikosti) ``m``. Šipka je v tomto případě "
-"**polohový vektor** - označuje polohu v prostoru vzhledem k počátku."
-
 msgid ""
 "A very important point to consider about vectors is that they only represent "
 "**relative** direction and magnitude. There is no concept of a vector's "
@@ -123,18 +105,6 @@ msgstr ""
 "obrazovky, takže pro umístění 2D uzlu pojmenovaného ``Node2D`` 400 pixelů "
 "vpravo a 300 pixelů dolů, použijeme následující kód:"
 
-#, fuzzy
-msgid ""
-"Godot supports both :ref:`Vector2 <class_Vector2>` and :ref:`Vector3 "
-"<class_Vector3>` for 2D and 3D usage, respectively. The same mathematical "
-"rules discussed in this article apply to both types, and wherever we link to "
-"``Vector2`` methods in the class reference, you can also check out their "
-"``Vector3`` counterparts."
-msgstr ""
-"Godot podporuje oba :ref:`Vector2 <class_Vector2>` a :ref:`Vector3 "
-"<class_Vector3>` pro použití ve 2D, respektive 3D. Pro oba typy platí stejná "
-"matematická pravidla popsaná v tomto článku."
-
 msgid "Member access"
 msgstr "Přistupování k částem vektoru"
 
@@ -163,26 +133,8 @@ msgstr "Všimněte si, že součet ``a + b`` dává stejný výsledek jako ``b +
 msgid "Scalar multiplication"
 msgstr "Násobení skalárem"
 
-#, fuzzy
-msgid ""
-"Vectors represent both direction and magnitude. A value representing only "
-"magnitude is called a **scalar**. Scalars use the :ref:`class_float` type in "
-"Godot."
-msgstr ""
-"Vektory představují směr i velikost. Hodnota představující pouze velikost se "
-"nazývá **skalár**."
-
 msgid "A vector can be multiplied by a **scalar**:"
 msgstr "Vektor může být násoben **skalárem**:"
-
-#, fuzzy
-msgid ""
-"Multiplying a vector by a positive scalar does not change its direction, "
-"only its magnitude. Multiplying with a negative scalar results in a vector "
-"in the opposite direction. This is how you **scale** a vector."
-msgstr ""
-"Násobení vektoru skalárem nezmění jeho směr, pouze velikost. Takto "
-"**škálujete** vektor."
 
 msgid "Practical applications"
 msgstr "Praktické aplikace"
@@ -192,38 +144,6 @@ msgstr "Podívejme se na dvě běžná použití sčítání a odčítání vekt
 
 msgid "Movement"
 msgstr "Pohyb"
-
-#, fuzzy
-msgid ""
-"A vector can represent **any** quantity with a magnitude and direction. "
-"Typical examples are: position, velocity, acceleration, and force. In this "
-"image, the spaceship at step 1 has a position vector of ``(1, 3)`` and a "
-"velocity vector of ``(2, 1)``. The velocity vector represents how far the "
-"ship moves each step. We can find the position for step 2 by adding the "
-"velocity to the current position."
-msgstr ""
-"Vektor může představovat **libovolné** množství velikosti a směru. Typické "
-"příklady jsou: pozice, rychlost, zrychlení a síla. Na tomto obrázku má "
-"kosmická loď v kroku 1 vektor pozice ``(1,3)`` a vektor rychlosti ``(2,1)``. "
-"Vektor rychlosti vyjadřuje jak daleko se loď posune každý krok. Pozici pro "
-"krok 2 najdeme přičtením rychlosti k aktuální pozici."
-
-#, fuzzy
-msgid ""
-"Velocity measures the **change** in position per unit of time. The new "
-"position is found by adding the velocity multiplied by the elapsed time "
-"(here assumed to be one unit, e.g. 1 s) to the previous position."
-msgstr ""
-"Rychlost měří **změnu** pozice za jednotku času. Novou pozici nalezneme "
-"přičtením rychlosti k předchozí pozici."
-
-msgid ""
-"In a typical 2D game scenario, you would have a velocity in pixels per "
-"second, and multiply it by the ``delta`` parameter (time elapsed since the "
-"previous frame) from the :ref:`_process() "
-"<class_Node_private_method__process>` or :ref:`_physics_process() "
-"<class_Node_private_method__physics_process>` callbacks."
-msgstr ""
 
 msgid "Pointing toward a target"
 msgstr "Směřování k cíli"
@@ -235,10 +155,6 @@ msgid ""
 msgstr ""
 "V tomto scénáři máte tank, který chce namířit svou věž na robota. Odečtením "
 "pozice tanku od pozice robota dostaneme vektor směřující od tanku k robotovi."
-
-#, fuzzy
-msgid "To find a vector pointing from ``A`` to ``B``, use ``B - A``."
-msgstr "K nalezení vektoru směřujícího od ``A`` do ``B`` použijeme ``B - A``."
 
 msgid "Unit vectors"
 msgstr "Jednotkové vektory"
@@ -254,30 +170,6 @@ msgstr ""
 
 msgid "Normalization"
 msgstr "Normalizace"
-
-#, fuzzy
-msgid ""
-"**Normalizing** a vector means reducing its length to ``1`` while preserving "
-"its direction. This is done by dividing each of its components by its "
-"magnitude. Because this is such a common operation, Godot provides a "
-"dedicated :ref:`normalized() <class_Vector2_method_normalized>` method for "
-"this:"
-msgstr ""
-"**Normalizování** vektoru znamená snížení jeho délky na ``1`` při zachování "
-"jeho směru. Toho dosáhneme vydělením každé složky velikostí vektoru. Protože "
-"je to běžná operace, ``Vector2`` a ``Vector3`` poskytují metodu pro "
-"normalizování:"
-
-#, fuzzy
-msgid ""
-"Because normalization involves dividing by the vector's length, you cannot "
-"normalize a vector of length ``0``. Attempting to do so would normally "
-"result in an error. In GDScript though, trying to call the ``normalized()`` "
-"method on a vector of length 0 leaves the value untouched and avoids the "
-"error for you."
-msgstr ""
-"Protože normalizování zahrnuje dělení délkou vektoru, nemůžete normalizovat "
-"vektor o délce ``0``. Takový pokus způsobí chybu."
 
 msgid "Reflection"
 msgstr "Odraz"
@@ -298,21 +190,6 @@ msgid ""
 msgstr ""
 "Představme si například, že máme pohybující se míč, který chceme odrazit od "
 "zdi nebo jiného předmětu:"
-
-#, fuzzy
-msgid ""
-"The surface normal has a value of ``(0, -1)`` because this is a horizontal "
-"surface. When the ball collides, we take its remaining motion (the amount "
-"left over when it hits the surface) and reflect it using the normal. In "
-"Godot, there is a :ref:`bounce() <class_Vector2_method_bounce>` method to "
-"handle this. Here is a code example of the above diagram using a :ref:"
-"`CharacterBody2D <class_CharacterBody2D>`:"
-msgstr ""
-"Normála roviny má hodnotu ``(0, -1)``, protože se jedná o vodorovnou rovinu. "
-"Když míč narazí, jeho zbývající pohyb (množství zbylé po dopadu na rovinu) "
-"se odrazí pomocí normály. V Godot, třída :ref:`Vector2 <class_Vector2>` k "
-"tomu má metodu ``bounce()``. Zde je GDScript příklad výše uvedeného diagramu "
-"pomocí :ref:`KinematicBody2D <class_KinematicBody2D>`:"
 
 msgid "Dot product"
 msgstr "Skalární součin"
@@ -335,30 +212,6 @@ msgid "and"
 msgstr "a"
 
 msgid ""
-"The mathematical notation *||A||* represents the magnitude of vector ``A``, "
-"and *A*\\ :sub:`x` means the ``x`` component of vector ``A``."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"However, in most cases it is easiest to use the built-in :ref:`dot() "
-"<class_Vector2_method_dot>` method. Note that the order of the two vectors "
-"does not matter:"
-msgstr ""
-"Ve většině případů je však nejjednodušší použít vestavěnou metodu. Všimněte "
-"si, že na pořadí těchto dvou vektorů nezáleží:"
-
-#, fuzzy
-msgid ""
-"The dot product is most useful when used with unit vectors, making the first "
-"formula reduce to just ``cos(θ)``. This means we can use the dot product to "
-"tell us something about the angle between two vectors:"
-msgstr ""
-"Skalární součin je nejvíc užitečný, při použití s jednotkovými vektory, "
-"takže první vzorec je redukován pouze na ``cosθ``. To znamená, že skalární "
-"součin něco vypovídá o úhlu mezi dvěma vektory:"
-
-msgid ""
 "When using unit vectors, the result will always be between ``-1`` (180°) and "
 "``1`` (0°)."
 msgstr ""
@@ -377,23 +230,6 @@ msgstr ""
 "Tuto skutečnost můžeme využít ke zjištění, zda objekt směřuje k jinému "
 "objektu. Na schématu níže se hráč ``P`` snaží vyhnout zombiím ``A`` a ``B``. "
 "Mohou vidět hráče při předpokladu, že zorné pole zombií je **180°**?"
-
-#, fuzzy
-msgid ""
-"The green arrows ``fA`` and ``fB`` are **unit vectors** representing the "
-"zombie's facing direction and the blue semicircle represents its field of "
-"view. For zombie ``A``, we find the direction vector ``AP`` pointing to the "
-"player using ``P - A`` and normalize it, however, Godot has a helper method "
-"to do this called :ref:`direction_to() <class_Vector2_method_direction_to>`. "
-"If the angle between this vector and the facing vector is less than 90°, "
-"then the zombie can see the player."
-msgstr ""
-"Zelené šipky ``fA`` a ``fB`` jsou **jednotkové vektory** představující směr "
-"zraku zombie a modré půlkruhy představují zorné pole zraku. Pro zombii ``A`` "
-"nalezneme směrový vektor ``AP`` , ukazující na hráče pomocí ``P - A`` a "
-"normalizujeme ho, Godot má k tomu ovšem pomocnou metodu nazvanou "
-"``direction_to``. Pokud je úhel mezi tímto vektorem a vektorem směru zraku "
-"menší než 90°, potom zombie může vidět hráče."
 
 msgid "In code it would look like this:"
 msgstr "V kódu by to vypadalo takto:"
@@ -416,18 +252,6 @@ msgstr ""
 msgid "The cross product is calculated like this:"
 msgstr "Vektorový součin se vypočítá nějak takto:"
 
-#, fuzzy
-msgid ""
-"With Godot, you can use the built-in :ref:`Vector3.cross() "
-"<class_Vector3_method_cross>` method:"
-msgstr "V Godot můžeme použít vestavěnou metodu:"
-
-msgid ""
-"The cross product is not mathematically defined in 2D. The :ref:`Vector2."
-"cross() <class_Vector2_method_cross>` method is a commonly used analog of "
-"the 3D cross product for 2D vectors."
-msgstr ""
-
 msgid ""
 "In the cross product, order matters. ``a.cross(b)`` does not give the same "
 "result as ``b.cross(a)``. The resulting vectors point in **opposite** "
@@ -438,18 +262,6 @@ msgstr ""
 
 msgid "Calculating normals"
 msgstr "Výpočet normál"
-
-#, fuzzy
-msgid ""
-"One common use of cross products is to find the surface normal of a plane or "
-"surface in 3D space. If we have the triangle ``ABC`` we can use vector "
-"subtraction to find two edges ``AB`` and ``AC``. Using the cross product, "
-"``AB × AC`` produces a vector perpendicular to both: the surface normal."
-msgstr ""
-"Jedním z běžných užití vektorového součinu je nalezení normály roviny plochy "
-"nebo roviny ve 3D prostoru. Pokud máme trojúhelník ``ABC``, můžeme rozdílem "
-"vektorů najít dvě strany ``AB`` and ``AC``. Pomocí vektorového součinu ``AB "
-"x AC`` dostaneme vektor kolmý k oběma: normálu povrchu."
 
 msgid "Here is a function to calculate a triangle's normal:"
 msgstr "Zde je funkce pro výpočet normály trojúhelníku:"
@@ -479,12 +291,6 @@ msgid ""
 msgstr ""
 "Další informace o použití vektorové matematiky v Godot naleznete v "
 "následujících článcích:"
-
-msgid ":ref:`doc_vectors_advanced`"
-msgstr ""
-
-msgid ":ref:`doc_matrices_and_transforms`"
-msgstr ""
 
 msgid "Translation status"
 msgstr "Stav překladu"

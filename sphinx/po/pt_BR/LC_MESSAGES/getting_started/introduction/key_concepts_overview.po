@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,23 +67,6 @@ msgstr ""
 "Uma cena é composta por um ou mais **nós**. Os nós são os menores blocos de "
 "construção do seu jogo que você organiza em árvores. Aqui está um exemplo "
 "dos nós de um personagem."
-
-#, fuzzy
-msgid ""
-"It is made of a ``CharacterBody2D`` node named \"Player\", a ``Camera2D``, a "
-"``Sprite2D``, and a ``CollisionShape2D``."
-msgstr ""
-"Ele é feito de um nó ``KinematicBody2D`` chamado \"Character\", um "
-"``Sprite``, uma ``Camera2D`` e uma ``CollisionShape2D``."
-
-#, fuzzy
-msgid ""
-"The node names end with \"2D\" because this is a 2D scene. Their 3D "
-"counterparts have names that end with \"3D\". Be aware that \"Spatial\" "
-"Nodes are now called \"Node3D\" starting with Godot 4."
-msgstr ""
-"Os nomes dos nós terminam com \"2D\" porque esta é uma cena 2D. Sua "
-"contraparte 3D tem nomes que terminam com \"3D\"."
 
 msgid ""
 "Notice how nodes and scenes look the same in the editor. When you save a "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,43 +52,13 @@ msgstr ""
 "강력한 프로그래밍 기술이나 게임을 포팅할 개발자가 필요하지만 콘솔 게임을 만"
 "들 수도 있습니다."
 
-#, fuzzy
-msgid ""
-"The Godot team can't provide an open source console export due to the "
-"licensing terms imposed by console manufacturers. Regardless of the engine "
-"you use, though, releasing games on consoles is always a lot of work. You "
-"can read more on that here: :ref:`doc_consoles`."
-msgstr ""
-"Godot 팀은 콘솔 제조업체의 라이선스 조건으로 인해 오픈 소스 콘솔 내보내기를 "
-"제공할 수 없습니다. 그러나 사용하는 엔진과 관계없이 콘솔에서 게임을 출시하는 "
-"것은 항상 많은 작업을 필요로 합니다. 이에 대해 더 자세한 내용은 여기에서 확인"
-"하실 수 있습니다: :ref:`doc_consoles`."
-
 msgid "What can the engine do?"
 msgstr "Godot 엔진으로 무엇을 할 수 있습니까?"
-
-#, fuzzy
-msgid ""
-"Godot was initially developed in-house by an Argentinian game studio. Its "
-"development started in 2001, and the engine was rewritten and improved "
-"tremendously since its open source release in 2014."
-msgstr ""
-"Godot 는 2001년 Argentinan 게임 스튜디오에서 사내 엔진으로 처음 개발 되기 시"
-"작했고, 2014년 오픈소스로 개발 방식이 변경된 이후 많은 발전과 코드 업데이트"
-"가 이루어졌습니다."
 
 msgid ""
 "Some examples of games created with Godot include Ex-Zodiac and Helms of "
 "Fury."
 msgstr "Godot로 만든 게임의 예로는 Ex-Zodiac 및 Helms of Fury 가 있습니다."
-
-#, fuzzy
-msgid ""
-"As for applications, the open source pixel art drawing program Pixelorama is "
-"powered by Godot, and so is the voxel RPG creator RPG in a box."
-msgstr ""
-"애플리케이션의 경우, 오픈 소스 픽셀 아트 그리기 프로그램인 Pixelorama는 Godot"
-"에서 제공하고 있으며, 복셀 RPG 제작 프로그램인 RPG in a box도 마찬가지입니다."
 
 msgid "You can find many more examples in the `official showcase videos`_."
 msgstr "`공식 쇼케이스 비디오`_에서는 더 많은 예시를 찾아볼 수 있습니다."
@@ -147,26 +112,6 @@ msgstr ""
 "로, 엔진과 긴밀하게 통합되어 있습니다. 또한, 게임 산업에서 인기 있는 :ref:"
 "`C# <toc-learn-scripting-C#>`도 지원하는 두 가지 주요 스크립팅 언어입니다."
 
-#, fuzzy
-msgid ""
-"With the GDExtension technology, you can also write gameplay or high-"
-"performance algorithms in C or C++ without recompiling the engine. You can "
-"use this technology to integrate third-party libraries and other Software "
-"Development Kits (SDK) in the engine."
-msgstr ""
-":ref:`GDNative <toc-tutorials-gdnative>` 기술을 사용하여 엔진을 다시 컴파일하"
-"지 않고도 C 또는 C++로 게임 플레이 또는 고성능 알고리즘을 작성할 수 있습니"
-"다. 이 기술을 사용하여 엔진에 서드파티 라이브러리와 다른 소프트웨어 개발 키트"
-"(SDK)를 통합할 수 있습니다."
-
-#, fuzzy
-msgid ""
-"Of course, you can also directly add modules and features to the engine, as "
-"it's completely free and open source."
-msgstr ""
-"물론 엔진에 모듈과 기능을 직접 추가할 수도 있습니다. 완전히 자유롭고 오픈 소"
-"스이기 때문입니다."
-
 msgid "What do I need to know to use Godot?"
 msgstr "Godot를 사용하려면 무엇을 알아야 하나요?"
 
@@ -186,6 +131,8 @@ msgid ""
 "with concepts such as classes and objects will help you code efficiently in "
 "it."
 msgstr ""
+"Godot는 객체 지향 프로그래밍 패러다임을 기반으로 합니다. 클래스와 객체와 같"
+"은 개념에 익숙해지면 효율적으로 코딩하는 데 도움이 됩니다."
 
 msgid ""
 "If you are entirely new to programming, we recommend following the `CS50 "
@@ -193,17 +140,19 @@ msgid ""
 "will teach you everything you need to know to be off to a good start. It "
 "will save you countless hours and hurdles learning any game engine afterward."
 msgstr ""
+"프로그래밍이 완전히 처음이라면, 하버드 대학의 `CS50 오픈 코스웨어`(CS50 open "
+"courseware)_를 따르는 것을 권장합니다. 이 훌륭한 무료 과정은 좋은 시작을 위"
+"해 알아야 할 모든 것을 가르쳐 줄 것입니다. 이후 어떤 게임 엔진을 배우더라도 "
+"수많은 시간과 장애물을 절약할 수 있습니다."
 
 msgid ""
 "In CS50, you will learn multiple programming languages. Don't be afraid of "
 "that: programming languages have many similarities. The skills you learn "
 "with one language transfer well to others."
 msgstr ""
-
-msgid ""
-"We will provide you with more Godot-specific learning resources in :ref:"
-"`doc_learning_new_features`."
-msgstr ""
+"CS50에서는 여러 프로그래밍 언어를 배우게 됩니다. 두려워하지 마세요! 프로그래"
+"밍 언어는 많은 유사점을 가지고 있으며, 한 언어로 습득한 기술은 다른 언어에도 "
+"잘 적용됩니다."
 
 msgid ""
 "In the next part, you will get an overview of the engine's essential "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -289,19 +284,6 @@ msgid ""
 msgstr ""
 "大型的世界可能需要用碎片建立, 可以在你在世界中移動時按需載入, 這可以防止記憶"
 "體使用失控, 也可以將所需的處理限制在局部區域."
-
-#, fuzzy
-msgid ""
-"There may also be rendering and physics glitches due to floating point error "
-"in large worlds. This can be resolved using :ref:"
-"`doc_large_world_coordinates`. If using large world coordinates is not an "
-"option, you may be able to use techniques such as orienting the world around "
-"the player (rather than the other way around), or shifting the origin "
-"periodically to keep things centred around ``Vector3(0, 0, 0)``."
-msgstr ""
-"在大型世界中, 由於浮點錯誤, 也可能會出現算繪和物理故障, 你可能會使用一些技"
-"術, 比如將世界圍繞著玩家的方向(而不是相反), 或者定期移動原點以保持以 "
-"``Vector3(0, 0, 0)`` 為中心."
 
 msgid "Translation status"
 msgstr "翻譯狀態"

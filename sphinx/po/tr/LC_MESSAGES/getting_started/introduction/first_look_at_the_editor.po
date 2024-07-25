@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,43 +28,6 @@ msgid ""
 msgstr ""
 "Düzenleyicinin arayüzü, ve onu nasıl kullanacağınız hakkında kapsamlı bir "
 "analiz için, :ref:`Düzenleyici kılavuzu <toc-learn-editor>` 'na bakınız."
-
-msgid "The Project Manager"
-msgstr ""
-
-msgid ""
-"When you launch Godot, the first window you see is the Project Manager. In "
-"the default tab **Local Projects**, you can manage existing projects, import "
-"or create new ones, and more."
-msgstr ""
-
-msgid ""
-"At the top of the window, there is another tab named \"Asset Library "
-"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
-"button. For privacy reasons the Godot project manager does not access the "
-"internet by default. To change this click the \"Go Online button\", if you "
-"want to change your network mode back to \"offline\" you can do so from the "
-"project manager settings."
-msgstr ""
-
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-
-msgid ""
-"To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
-msgstr ""
-
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr ""
-
-msgid ""
-"From here use the language drop down menu to select your language. By "
-"default, it is in English (EN)."
-msgstr ""
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -109,11 +67,6 @@ msgstr ""
 
 msgid "Below is the 3D one."
 msgstr "Aşağıdaki ise 3B için olanı."
-
-msgid ""
-"Let's look at the docks. The **FileSystem** dock lists your project files, "
-"including scripts, images, audio samples, and more."
-msgstr ""
 
 msgid "The **Scene** dock lists the active scene's nodes."
 msgstr "**Sahne** yuvası, etkin durumda olan sahnenin düğümlerini gösterir."
@@ -188,11 +141,6 @@ msgstr ""
 "yerleşik kod başvurusu bulunan tam özellikli bir kod düzenleyicidir."
 
 msgid ""
-"Finally, the **AssetLib** is a library of free and open source add-ons, "
-"scripts, and assets to use in your projects."
-msgstr ""
-
-msgid ""
 "You can learn more about the asset library in :ref:`doc_what_is_assetlib`."
 msgstr ""
 "Varlık kütüphanesi hakkında daha fazlasını :ref:`doc_what_is_assetlib` "
@@ -213,11 +161,6 @@ msgstr ""
 "arayabilirsiniz:"
 
 msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr ""
-
-msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
 msgstr ""
@@ -225,13 +168,6 @@ msgstr ""
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "Yardım menüsüne, oradan Yardım Ara'ya tıklamak."
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr ""
-"Betik düzenleyici içinden, :kbd:`Ctrl` tuşu basılıyken, bir sınıf ismine, "
-"fonksiyon ismine, ya da yerleşik bir değişkene tıklamak."
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

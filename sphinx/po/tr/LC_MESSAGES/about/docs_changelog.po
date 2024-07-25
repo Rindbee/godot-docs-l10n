@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,233 +15,44 @@ msgstr ""
 msgid "Documentation changelog"
 msgstr "Belgelendirme değişiklik günlüğü"
 
-msgid ""
-"The documentation is continually being improved. New releases include new "
-"pages, fixes and updates to existing pages, and many updates to the :ref:"
-"`class reference <doc_class_reference>`. Below is a list of new pages added "
-"since version 3.0."
-msgstr ""
-
-msgid ""
-"This document only contains new pages so not all changes are reflected, many "
-"pages have been substantially updated but are not reflected in this document."
-msgstr ""
-
-msgid "New pages since version 4.1"
-msgstr ""
-
 msgid "C#"
 msgstr "C#"
-
-msgid ":ref:`doc_c_sharp_diagnostics`"
-msgstr ""
 
 msgid "Development"
 msgstr "Geliştirme"
 
-msgid ":ref:`doc_2d_coordinate_systems`"
-msgstr ""
-
-msgid "Migrating"
-msgstr ""
-
-msgid ":ref:`doc_upgrading_to_godot_4.2`"
-msgstr ""
-
 msgid "I/O"
 msgstr "I/O"
-
-msgid ":ref:`doc_runtime_loading_and_saving`"
-msgstr ""
 
 msgid "Platform-specific"
 msgstr "Platforma-özgü"
 
-msgid ":ref:`doc_android_library`"
-msgstr ""
-
-msgid "New pages since version 4.0"
-msgstr ""
-
-msgid ":ref:`doc_internal_rendering_architecture`"
-msgstr ""
-
-msgid ":ref:`doc_using_sanitizers`"
-msgstr ""
-
-msgid ":ref:`doc_upgrading_to_godot_4.1`"
-msgstr ""
-
 msgid "Physics"
 msgstr "Fizik"
-
-msgid ":ref:`doc_troubleshooting_physics_issues`"
-msgstr ""
-
-msgid "New pages since version 3.6"
-msgstr ""
 
 msgid "2D"
 msgstr "2B"
 
-msgid ":ref:`doc_2d_antialiasing`"
-msgstr ""
-
 msgid "3D"
 msgstr "3B"
-
-msgid ":ref:`doc_3d_antialiasing`"
-msgstr ""
-
-msgid ":ref:`doc_faking_global_illumination`"
-msgstr ""
-
-msgid ":ref:`doc_introduction_to_global_illumination`"
-msgstr ""
-
-msgid ":ref:`doc_mesh_lod`"
-msgstr ""
-
-msgid ":ref:`doc_occlusion_culling`"
-msgstr ""
-
-msgid ":ref:`doc_using_sdfgi`"
-msgstr ""
-
-msgid ":ref:`doc_using_decals`"
-msgstr ""
-
-msgid ":ref:`doc_visibility_ranges`"
-msgstr ""
-
-msgid ":ref:`doc_volumetric_fog`"
-msgstr ""
-
-msgid ":ref:`doc_variable_rate_shading`"
-msgstr ""
-
-msgid ":ref:`doc_physical_light_and_camera_units`"
-msgstr ""
 
 msgid "Animation"
 msgstr "Animasyon"
 
-msgid ":ref:`doc_creating_movies`"
-msgstr ""
-
-msgid "Assets pipeline"
-msgstr ""
-
-msgid ":ref:`doc_retargeting_3d_skeletons`"
-msgstr ""
-
-msgid ":ref:`doc_custom_platform_ports`"
-msgstr ""
-
-msgid ":ref:`doc_upgrading_to_godot_4`"
-msgstr ""
-
-msgid ":ref:`doc_large_world_coordinates`"
-msgstr ""
-
 msgid "Scripting"
 msgstr "Betik oluştuma"
-
-msgid ":ref:`doc_custom_performance_monitors`"
-msgstr ""
-
-msgid ":ref:`doc_c_sharp_collections`"
-msgstr ""
-
-msgid ":ref:`doc_c_sharp_global_classes`"
-msgstr ""
-
-msgid ":ref:`doc_c_sharp_variant`"
-msgstr ""
 
 msgid "Shaders"
 msgstr "Gölgelendiriciler"
 
-msgid ":ref:`doc_compute_shaders`"
-msgstr ""
-
-msgid "Workflow"
-msgstr ""
-
-msgid ":ref:`doc_pr_review_guidelines`"
-msgstr ""
-
-msgid "XR"
-msgstr ""
-
-msgid ":ref:`doc_introducing_xr_tools`"
-msgstr ""
-
-msgid ":ref:`doc_xr_action_map`"
-msgstr ""
-
-msgid ":ref:`doc_deploying_to_android`"
-msgstr ""
-
-msgid "New pages since version 3.5"
-msgstr ""
-
-msgid "None."
-msgstr ""
-
-msgid "New pages since version 3.4"
-msgstr ""
-
-msgid ":ref:`doc_3d_text`"
-msgstr ""
-
-msgid ":ref:`doc_playing_videos`"
-msgstr ""
-
 msgid "Editor"
 msgstr "Düzenleyici"
-
-msgid ":ref:`doc_managing_editor_features`"
-msgstr ""
-
-msgid "New pages since version 3.3"
-msgstr ""
-
-msgid "C++"
-msgstr ""
-
-msgid ":ref:`doc_cpp_usage_guidelines`"
-msgstr ""
 
 msgid "GDScript"
 msgstr "GDScript"
 
-msgid ":ref:`doc_gdscript_documentation_comments`"
-msgstr ""
-
-msgid "New pages since version 3.2"
-msgstr ""
-
-msgid ":ref:`doc_3d_rendering_limitations`"
-msgstr ""
-
 msgid "About"
 msgstr "Hakkında"
-
-msgid ":ref:`doc_troubleshooting`"
-msgstr ""
-
-msgid ":ref:`doc_list_of_features`"
-msgstr ""
-
-msgid ":ref:`doc_release_policy`"
-msgstr ""
-
-msgid "Best practices"
-msgstr ""
-
-msgid ":ref:`doc_version_control_systems`"
-msgstr ""
 
 msgid "Community"
 msgstr "Topluluk"
@@ -254,35 +60,8 @@ msgstr "Topluluk"
 msgid ":ref:`doc_best_practices_for_engine_contributors`"
 msgstr ":ref:`doc_best_practices_for_engine_contributors`"
 
-msgid ":ref:`doc_bisecting_regressions`"
-msgstr ""
-
-msgid ":ref:`doc_editor_and_docs_localization`"
-msgstr ""
-
 msgid ":ref:`doc_introduction_to_editor_development`"
 msgstr ":ref:`doc_introduction_to_editor_development`"
-
-msgid ":ref:`doc_editor_style_guide`"
-msgstr ""
-
-msgid ":ref:`doc_common_engine_methods_and_macros`"
-msgstr ""
-
-msgid ":ref:`doc_vulkan_validation_layers`"
-msgstr ""
-
-msgid ":ref:`doc_gdscript_grammar`"
-msgstr ""
-
-msgid "Configuring an IDE: :ref:`doc_configuring_an_ide_code_blocks`"
-msgstr ""
-
-msgid ":ref:`doc_default_key_mapping`"
-msgstr ""
-
-msgid ":ref:`doc_using_the_web_editor`"
-msgstr ""
 
 msgid "Export"
 msgstr "Dışa Aktar"
@@ -293,64 +72,14 @@ msgstr ":ref:`doc_exporting_for_dedicated_servers`"
 msgid "Input"
 msgstr "Giriş"
 
-msgid ":ref:`doc_controllers_gamepads_joysticks`"
-msgstr ""
-
 msgid "Math"
 msgstr "Matematik"
-
-msgid ":ref:`doc_random_number_generation`"
-msgstr ""
-
-msgid ":ref:`doc_plugins_for_ios`"
-msgstr ""
-
-msgid ":ref:`doc_ios_plugin`"
-msgstr ""
-
-msgid ":ref:`doc_html5_shell_classref`"
-msgstr ""
-
-msgid ":ref:`doc_collision_shapes_2d`"
-msgstr ""
-
-msgid ":ref:`doc_collision_shapes_3d`"
-msgstr ""
-
-msgid ":ref:`doc_shaders_style_guide`"
-msgstr ""
 
 msgid ":ref:`doc_debugger_panel`"
 msgstr ":ref:`doc_debugger_panel`"
 
-msgid ":ref:`doc_creating_script_templates`"
-msgstr ""
-
-msgid ":ref:`doc_evaluating_expressions`"
-msgstr ""
-
-msgid ":ref:`doc_what_is_gdextension`"
-msgstr ""
-
-msgid ""
-":ref:`doc_gdscript_warning_system` (split from :ref:"
-"`doc_gdscript_static_typing`)"
-msgstr ""
-
-msgid "User Interface (UI)"
-msgstr ""
-
-msgid ":ref:`doc_control_node_gallery`"
-msgstr ""
-
-msgid "New pages since version 3.1"
-msgstr ""
-
 msgid "Project workflow"
 msgstr "Proje iş akışı"
-
-msgid ":ref:`doc_android_gradle_build`"
-msgstr ""
 
 msgid ":ref:`doc_2d_sprite_animation`"
 msgstr ":ref:`doc_2d_sprite_animation`"
@@ -445,9 +174,6 @@ msgstr ":ref:`doc_surfacetool`"
 msgid ":ref:`doc_meshdatatool`"
 msgstr ":ref:`doc_meshdatatool`"
 
-msgid ":ref:`doc_immediatemesh`"
-msgstr ""
-
 msgid "Optimization"
 msgstr "En İyileştirme"
 
@@ -462,9 +188,6 @@ msgstr "Hukuki"
 
 msgid ":ref:`doc_complying_with_licenses`"
 msgstr ":ref:`doc_complying_with_licenses`"
-
-msgid "New pages since version 3.0"
-msgstr ""
 
 msgid "Step by step"
 msgstr "Adım adım"
@@ -576,9 +299,6 @@ msgstr ":ref:`doc_particle_shader`"
 
 msgid ":ref:`doc_making_main_screen_plugins`"
 msgstr ":ref:`doc_making_main_screen_plugins`"
-
-msgid ":ref:`doc_3d_gizmo_plugins`"
-msgstr ""
 
 msgid ":ref:`doc_customizing_html5_shell`"
 msgstr ":ref:`doc_customizing_html5_shell`"

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,16 +159,6 @@ msgstr ""
 "本。若仍然遇到此 Bug，則必須在開啟編輯器時先斷開有問題的週邊裝置。開啟後即可"
 "重新接上。"
 
-msgid ""
-"Firewall software such as Portmaster may also cause the debug port to be "
-"blocked. This causes the project to take a long time to start, while being "
-"unable to use debugging features in the editor (such as viewing ``print()`` "
-"output). You can work this around by changing the debug port used by the "
-"project in the Editor Settings (**Network > Debug > Remote Port**). The "
-"default is ``6007``; try another value that is greater than ``1024``, such "
-"as ``7007``."
-msgstr ""
-
 msgid "The Godot editor appears frozen after clicking the system console"
 msgstr "點擊系統主控台後，Godot 編輯器沒有回應"
 
@@ -247,24 +232,6 @@ msgid ""
 msgstr ""
 "要在Linux上禁用此覆蓋，請打開``nvidia-settings``，轉到**X Screen 0 > OpenGL "
 "Settings**，然後取消選中**Enable Graphics API Visual Indicator**。"
-
-#, fuzzy
-msgid ""
-"A microphone or \"refresh\" icon appears in the bottom-right corner of the "
-"Project Manager and editor window"
-msgstr "在專案管理員與編輯器視窗左上角出現\"NO DC\"之類的文字"
-
-msgid ""
-"This is caused by the NVIDIA graphics driver injecting an overlay to display "
-"instant replay information on ShadowPlay recording. This overlay can only be "
-"seen on Windows, as Linux does not have support for ShadowPlay."
-msgstr ""
-
-msgid ""
-"To disable this overlay, press :kbd:`Alt + Z` (default shortcut for the "
-"NVIDIA overlay) and disable **Settings > HUD Layout > Status Indicator** in "
-"the NVIDIA overlay."
-msgstr ""
 
 msgid "The editor or project appears overly sharp or blurry"
 msgstr "編輯器或專案顯示看起來過於銳利或模糊"

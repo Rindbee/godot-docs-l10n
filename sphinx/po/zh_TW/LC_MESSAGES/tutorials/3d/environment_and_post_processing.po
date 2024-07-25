@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,9 +146,6 @@ msgstr ""
 "class_CameraAttributes 資源儲存曝光和景深資訊。它還允許根據場景亮度自動調整曝"
 "光。"
 
-msgid "There are two kinds of CameraAttribute resources available:"
-msgstr ""
-
 msgid ""
 "**CameraAttributesPractical:** Features are exposed using arbitrary units, "
 "which are easier to reason about for most game use cases."
@@ -261,12 +253,6 @@ msgid ""
 msgstr ""
 "**天空(Sky)** 可讓您定義全景天空（360 度球體紋理）或程式式天空（具有漸變和可"
 "選太陽的簡單天空）。物體將反射它並從中吸收環境光。"
-
-msgid ""
-"**Canvas** displays the 2D scene as a background to the 3D scene. This can "
-"be used to make environment effects visible on 2D rendering, such as :ref:"
-"`glow in 2D <doc_environment_and_post_processing_using_glow_in_2d>`."
-msgstr ""
 
 msgid ""
 "**Keep** does not draw any sky, keeping what was present on previous frames "
@@ -523,12 +509,6 @@ msgid ""
 msgstr ""
 "第二個是 **Transmit Enabled**，可以模擬更逼真的透射率。實踐中會使光線在霧中更"
 "加突出。"
-
-msgid ""
-"Fog can cause banding to appear on the viewport, especially at higher "
-"density levels. See :ref:`doc_3d_rendering_limitations_color_banding` for "
-"guidance on reducing banding."
-msgstr ""
 
 msgid "Volumetric Fog"
 msgstr "體積霧"
@@ -939,18 +919,6 @@ msgid "Glow"
 msgstr "輝光"
 
 msgid ""
-"When using the Compatibility rendering method, glow uses a different "
-"implementation with some properties being unavailable and hidden from the "
-"inspector: **Levels**, **Normalized**, **Strength**, **Blend Mode**, "
-"**Mix**, **Map**, and **Map Strength**."
-msgstr ""
-
-msgid ""
-"This implementation is optimized to run on low-end devices and is less "
-"flexible as a result."
-msgstr ""
-
-msgid ""
 "In photography and film, when light amount exceeds the maximum *luminance* "
 "(brightness) supported by the media, it generally bleeds outwards to darker "
 "regions of the image. This is simulated in Godot with the **Glow** effect."
@@ -1030,15 +998,6 @@ msgstr ""
 "**Softlight** 是預設的，也是最弱的一種，只在物體周圍產生細微的顏色擾動。這種"
 "模式在黑暗場景中效果最好。"
 
-#, fuzzy
-msgid ""
-"**Replace** can be used to :ref:`blur the whole screen "
-"<doc_environment_and_post_processing_using_glow_to_blur_the_screen>` or "
-"debug the effect. It only shows the glow effect without the image below."
-msgstr ""
-"**Replace** 替換可以用來模糊整個螢幕或除錯效果。它只顯示輝光的效果，沒有下面"
-"的圖片。"
-
 msgid ""
 "**Mix** mixes the glow effect with the main image. This can be used for "
 "greater artistic control. The mix factor is controlled by the **Mix** "
@@ -1086,100 +1045,6 @@ msgid ""
 "Make glow less strong on specific parts of the screen by using a gradient "
 "texture."
 msgstr "使用漸層紋理使螢幕特定部分的輝光減弱。"
-
-#, fuzzy
-msgid "Using glow in 2D"
-msgstr "使用 RigidBody2D"
-
-msgid "There are 2 ways to use glow in 2D:"
-msgstr ""
-
-msgid ""
-"Since Godot 4.2, you can enable HDR for 2D rendering when using the Forward+ "
-"and Mobile rendering methods. This has a performance cost, but it allows for "
-"a greater dynamic range. This also allows you to control which objects glow "
-"using their individual **Modulate** or **Self Modulate** properties (use the "
-"RAW mode in the color picker). Enabling HDR can also reduce banding in the "
-"2D rendering output."
-msgstr ""
-
-msgid ""
-"To enable HDR in 2D, open the Project Settings, enable **Rendering > "
-"Viewport > HDR 2D** then restart the editor."
-msgstr ""
-
-msgid ""
-"If you want to maximize performance, you can leave HDR disabled for 2D "
-"rendering. However, you will have less control on which objects glow."
-msgstr ""
-
-msgid ""
-"Enable glow, set the environment background mode to **Canvas** then decrease "
-"**Glow HDR Threshold** so that pixels that are not overbright will still "
-"glow. To prevent UI elements from glowing, make them children of a :ref:"
-"`class_CanvasLayer` node. You can control which layers are affected by glow "
-"using the **Background > Canvas Max Layer** property of the Environment "
-"resource."
-msgstr ""
-
-#, fuzzy
-msgid "Example of using glow in a 2D scene"
-msgstr "使用 4 核心的例子："
-
-msgid ""
-"Example of using glow in a 2D scene. HDR 2D is enabled, while coins and the "
-"bullet have their **Modulate** property increased to overbright values using "
-"the RAW mode in the color picker."
-msgstr ""
-
-msgid ""
-"The 2D renderer renders in linear color space if the **Rendering > Viewport "
-"> HDR 2D** project setting is enabled, so ``source_color`` must also be used "
-"for uniform samplers that are used as color input in ``canvas_item`` "
-"shaders. If this is not done, the texture will appear washed out."
-msgstr ""
-
-msgid ""
-"If 2D HDR is disabled, ``source_color`` will keep working correctly in "
-"``canvas_item`` shaders, so it's recommend to use it when relevant either "
-"way."
-msgstr ""
-
-msgid "Using glow to blur the screen"
-msgstr ""
-
-msgid ""
-"Glow can be used to blur the whole viewport, which is useful for background "
-"blur when a menu is open. Only 3D rendering will be affected unless the "
-"environment's background mode is set to **Canvas**. To prevent UI elements "
-"from being blurred when using the Canvas background mode, make them children "
-"of a :ref:`class_CanvasLayer` node. You can control which layers are "
-"affected by this blurring effect using the **Background > Canvas Max Layer** "
-"property of the Environment resource."
-msgstr ""
-
-msgid "To use glow as a blurring solution:"
-msgstr ""
-
-msgid ""
-"Enable **Normalized** and adjust levels according to preference. Increasing "
-"higher level indices will result in a more blurred image. It's recommended "
-"to leave a single glow level at ``1.0`` and leave all other glow levels at "
-"``0.0``, but this is not required. Note that the final appearance will vary "
-"depending on viewport resolution."
-msgstr ""
-
-#, fuzzy
-msgid "Set **Intensity** to ``1.0`` and **Bloom** to ``1.0``."
-msgstr ""
-"將第一個 MeshInstance3D 的可見範圍 **End** 設定為“10.0”，並將 **End Margin** "
-"設為“1.0”。"
-
-msgid "Set the blend mode to **Replace** and **HDR Luminance Cap** to ``1.0``."
-msgstr ""
-
-msgid "Example of using glow to blur the 2D rendering in the menu's background"
-msgstr ""
 
 msgid "Adjustments"
 msgstr "調整"
@@ -1315,15 +1180,6 @@ msgid ""
 msgstr ""
 "此效果可模擬高端相機的焦距. 它模糊了給定範圍後面的物體. 它有一個 ** ** 距離 "
 "**, ** 過渡** 區域(世界單位):"
-
-#, fuzzy
-msgid ""
-"The **Amount** parameter controls the amount of blur. For larger blurs, "
-"tweaking the depth of field quality in the advanced project settings may be "
-"needed to avoid artifacts."
-msgstr ""
-"** Amount ** 參數控制模糊量. 對於較大的模糊, 可能需要調整 **品質** 以避免偽"
-"影."
 
 msgid "Depth of Field / Near Blur"
 msgstr "景深/近模糊"

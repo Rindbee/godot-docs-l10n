@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,17 +182,6 @@ msgstr ""
 "llevan a cabo en el `Godot Contributors Chat <https://chat.godotengine.org/"
 ">`_."
 
-#, fuzzy
-msgid ""
-"*Good first issue*: the issue is *assumed* to be an easy one to fix, which "
-"makes it a great fit for new contributors who want to become familiar with "
-"the code base. It should be removed while an active PR is available, that "
-"resolves this issue."
-msgstr ""
-"*Good first issue*: El problema se asume que es fácil de solucionar, lo que "
-"lo convierte en una excelente opción para nuevos colaboradores que necesitan "
-"familiarizarse con el código base."
-
 msgid ""
 "*High priority:* the issue is particularly important as it can prevent "
 "people from releasing their projects or cause data loss."
@@ -231,10 +215,6 @@ msgstr ""
 "motor o del editor. También puede usarse para pull requests que mejoran el "
 "rendimiento o añaden opciones para dispositivos de baja gama. No debería "
 "usarse junto con *Usabilidad*."
-
-#, fuzzy
-msgid "*Production*: Relates to the production team."
-msgstr "*Import*: se refiere al sistema de importación de recursos."
 
 msgid ""
 "*Regression*: the bug appeared after a stable release not exhibiting the bug "
@@ -270,23 +250,6 @@ msgstr ""
 "*Usabilidad*: problemas que impactan directamente la usabilidad para los "
 "usuarios. No debe estar relacionado con *Rendimiento*."
 
-#, fuzzy
-msgid ""
-"The categories are used for general triage of the issues. They can be "
-"combined in some way when relevant, e.g. an issue can be labelled "
-"*Enhancement* and *Usability* at the same time if it's an issue to improve "
-"usability. Or *Feature proposal* and *Discussion* if it's a non-consensual "
-"feature request, or one that is not precise enough to be worked on. At least "
-"one of the categories *Bug*, *Enhancement* or *Discussion* is used to "
-"describe an issue or pull request."
-msgstr ""
-"Las categorías se utilizan para la triage general de los problemas. Se "
-"pueden combinar de alguna manera cuando sea relevante, por ejemplo, un "
-"problema puede tener las etiquetas *Enhancement* y *Usability* al mismo "
-"tiempo si se trata de un problema para mejorar la usabilidad. O *Feature "
-"proposal* y *Discussion* si es una propuesta de función no consensuada, o "
-"una que no es lo suficientemente precisa para trabajar en ella."
-
 msgid "**Topics:**"
 msgstr "Tópicos"
 
@@ -303,12 +266,6 @@ msgid ""
 msgstr ""
 "*3D*: se refiere a problemas específicos de 3D. Debe combinarse con una de "
 "las siguientes etiquetas y no debe combinarse con *2D*."
-
-#, fuzzy
-msgid "*Animation*: relates to the Animation system, editors and importers."
-msgstr ""
-"*Navigation*: se refiere al sistema de navegación (que incluye A* y "
-"navmeshes)."
 
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr ""
@@ -332,62 +289,22 @@ msgstr ""
 "*Codestyle*: se refiere al estilo de programación utilizado dentro del "
 "código fuente."
 
-#, fuzzy
-msgid ""
-"*Core*: anything related to the core engine. Specific topics are split off "
-"separately as they crop up."
-msgstr ""
-"*Core*: cualquier cosa relacionada con el motor principal (core). Es posible "
-"que se divida aún más en el futuro, ya que es un tema bastante extenso."
-
-#, fuzzy
-msgid "*Dotnet*: relates to the C# / Dotnet bindings."
-msgstr "*Mono*: se refiere a las vinculaciones (bindings) de C# / Mono."
-
 msgid "*Editor*: relates to issues in the editor (mainly UI)."
 msgstr ""
 "*Editor*: se refiere a problemas en el editor (principalmente la interfaz de "
 "usuario)."
 
-#, fuzzy
-msgid "*Export*: relates to the export system and templates."
-msgstr "*Import*: se refiere al sistema de importación de recursos."
-
-msgid "*GDExtension*: relates to the GDExtension system for native extensions."
-msgstr ""
-
 msgid "*GDScript*: relates to GDScript."
 msgstr "*GDScript*: se refiere a GDScript."
 
-#, fuzzy
-msgid ""
-"*GUI*: relates to GUI (Control) nodes or to Nodes that compose user "
-"interfaces."
-msgstr "*GUI*: se refiere a nodos GUI (Control)."
-
 msgid "*Import*: relates to the resource import system."
 msgstr "*Import*: se refiere al sistema de importación de recursos."
-
-#, fuzzy
-msgid "*Input*: relates to the input system."
-msgstr "*Input*: se refiere al sistema de entrada (input)."
-
-msgid "*Multiplayer*: relates to multiplayer (high-level networking) systems."
-msgstr ""
 
 msgid ""
 "*Navigation*: relates to the navigation system (including A* and navmeshes)."
 msgstr ""
 "*Navigation*: se refiere al sistema de navegación (que incluye A* y "
 "navmeshes)."
-
-#, fuzzy
-msgid "*Network*: relates to (lot-level) networking."
-msgstr "*Network*: se refiere a temas relacionados con la red (networking)."
-
-#, fuzzy
-msgid "*Particles*: particles, particle systems and their editors."
-msgstr ":ref:`partículas <doc_particle_shader>` para sistemas de partículas."
 
 msgid "*Physics*: relates to the physics engine (2D/3D)."
 msgstr "*Physics*: se refiere al motor de físicas (2D/3D)."
@@ -434,10 +351,6 @@ msgstr ""
 msgid "**Platforms:**"
 msgstr "Plataformas"
 
-#, fuzzy
-msgid "*Android*, *iOS*, *Linux*, *macOS*, *Web*, *Windows*"
-msgstr "*Android*, *HTML5*, *iOS*, *Linux*, *macOS*, *Windows*, *UWP*"
-
 msgid ""
 "By default, it is assumed that a given issue applies to all platforms. If "
 "one of the platform labels is used, it is then exclusive and the previous "
@@ -467,94 +380,12 @@ msgstr ""
 "*Bug*: Información incorrecta en una página existente. No se debe usar para "
 "información que falta."
 
-msgid "*Dependencies*: describes pull requests that update a dependency file."
-msgstr ""
-
-#, fuzzy
-msgid "*Enhancement*: new information to be added in an existing page."
-msgstr ""
-"*Enhancement*: Nueva información que debe agregarse en una página existente "
-"de documentación."
-
-msgid "*Python*: Pull requests that update Python code."
-msgstr ""
-
-#, fuzzy
-msgid "**Area:**"
-msgstr "**Cámara:**"
-
-msgid ""
-"*About*: Issues and PRs related to the About section of the documentation "
-"and other general articles."
-msgstr ""
-
 msgid ""
 "*Class reference*: the issue is about the class reference, not a "
 "documentation page."
 msgstr ""
 "*Class reference*: El problema se refiere a la referencia de clase, no a una "
 "página de documentación."
-
-msgid ""
-"*Community*: Issues and PRs related to the Community section of the "
-"documentation."
-msgstr ""
-
-msgid ""
-"*Contributing*: Issues and PRs related to the Contributing/Development "
-"section of the documentation."
-msgstr ""
-
-msgid ""
-"*Getting started*: Issues and PRs related to the Getting Started section of "
-"the documentation."
-msgstr ""
-
-msgid ""
-"*Manual*: Issues and PRs related to the Manual/Tutorials section of the "
-"documentation."
-msgstr ""
-
-#, fuzzy
-msgid "**Content:**"
-msgstr "**Constante**"
-
-msgid ""
-"*Images*: Issues and PRs involving outdated or incorrect images in articles."
-msgstr ""
-
-msgid ""
-"*New page*: Issues and PRs related to creation of new documentation pages "
-"for new or undocumented features."
-msgstr ""
-
-#, fuzzy
-msgid "*Organization*: Issues and PRs related to reorganizing the content."
-msgstr ""
-"*Organización*: El problema implica mover páginas o reorganizar el contenido."
-
-msgid ""
-"*Proofreading*: Issues and PRs related to proofreading the documentation."
-msgstr ""
-
-msgid ""
-"*Redirect*: Issues and PRs involving moving content and adding a redirect "
-"rule on the backend."
-msgstr ""
-
-msgid ""
-"*Website*: Issues related to adding website features and fixing bugs, "
-"whether on the front or back-end,"
-msgstr ""
-
-#, fuzzy
-msgid "**Topic:**"
-msgstr "Tópicos"
-
-msgid ""
-"The available topics describe the same content as the topics in the main "
-"repository."
-msgstr ""
 
 msgid "Milestones"
 msgstr "Hitos"

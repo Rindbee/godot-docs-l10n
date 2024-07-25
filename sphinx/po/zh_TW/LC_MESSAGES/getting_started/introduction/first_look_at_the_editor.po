@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,36 +41,8 @@ msgstr ""
 "一個彈窗詢問是否開啟素材庫，這裡先點 [取消]，我們晚點再回來看。"
 
 msgid ""
-"At the top of the window, there is another tab named \"Asset Library "
-"Projects\". The first time you go to this tab you'll see a \"Go Online\" "
-"button. For privacy reasons the Godot project manager does not access the "
-"internet by default. To change this click the \"Go Online button\", if you "
-"want to change your network mode back to \"offline\" you can do so from the "
-"project manager settings."
-msgstr ""
-
-#, fuzzy
-msgid ""
-"Once your network mode is set to \"online\" you can search for demo projects "
-"in the open source asset library, which includes many projects developed by "
-"the community."
-msgstr ""
-"視窗頂部還有另一個名為“素材庫專案”的分頁。你可以在開源素材庫中搜索演示專案，"
-"其中包括了許多社區開發的專案。"
-
-msgid ""
 "To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
 msgstr "要進一步瞭解專案管理器，請閱讀 :ref:`doc_project_manager` 。"
-
-#, fuzzy
-msgid ""
-"You can also change the editor's language by going into the settings menu."
-msgstr "可以在編輯器設定中關閉安全行或更改安全行的色彩。"
-
-msgid ""
-"From here use the language drop down menu to select your language. By "
-"default, it is in English (EN)."
-msgstr ""
 
 msgid ""
 "When you open a new or an existing project, the editor's interface appears. "
@@ -194,12 +161,6 @@ msgid ""
 "signal by any one of the following methods:"
 msgstr "你搜尋有關類別、方法、屬性、常數或訊號的資訊時，可用以下方法:"
 
-#, fuzzy
-msgid ""
-"Pressing :kbd:`F1` (or :kbd:`Opt + Space` on macOS, or :kbd:`fn + F1` for "
-"laptops with a :kbd:`fn` key) anywhere in the editor."
-msgstr "按 :kbd:`Ctrl + F` (或 macOS 上 :kbd:`Cmd + F`) 可以搜尋列表。"
-
 msgid ""
 "Clicking the \"Search Help\" button in the top-right of the Script main "
 "screen."
@@ -207,11 +168,6 @@ msgstr "點擊 Script 主螢幕右上角的“搜索説明”按鈕。"
 
 msgid "Clicking on the Help menu and Search Help."
 msgstr "點擊“説明”功能表的“搜索説明”。"
-
-msgid ""
-"Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, "
-"or built-in variable in the script editor."
-msgstr "在腳本編輯器中，按住 :kbd:`Ctrl` 鍵點擊類別名稱、函式名、內建變數。"
 
 msgid ""
 "When you do any of these, a window pops up. Type to search for any item. You "

@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,13 +39,6 @@ msgstr ""
 "Presiona el botón **Instanciar** (representado por el icono de una cadena) y "
 "selecciona tu escena ``player.tscn``guardada."
 
-#, fuzzy
-msgid ""
-"Now, add the following nodes as children of ``Main``, and name them as shown:"
-msgstr ""
-"Ahora agrega los siguientes nodos como hijos de ``Main``, y nómbralos como "
-"se muestra (los valores son en segundos):"
-
 msgid ""
 ":ref:`Timer <class_Timer>` (named ``MobTimer``) - to control how often mobs "
 "spawn"
@@ -78,14 +66,6 @@ msgid ""
 msgstr ""
 ":ref:`Marker2D <class_Marker2D>` (llamado ``StartPosition``) - para indicar "
 "la posición inicial del jugador"
-
-#, fuzzy
-msgid ""
-"Set the ``Wait Time`` property of each of the ``Timer`` nodes as follows "
-"(values are in seconds):"
-msgstr ""
-"Ajustar la propiedad ``Wait Time`` (tiempo de espera) de cada nodo ``Timer`` "
-"como se indica:"
 
 msgid "``MobTimer``: ``0.5``"
 msgstr "``MobTimer``: ``0.5``"
@@ -173,14 +153,6 @@ msgstr ""
 "Agrega un script a ``Main``. Al principio del script usaremos ``@export var "
 "mob_scene: PackedScene`` para permitirnos elegir la escena de enemigos que "
 "queremos instanciar."
-
-#, fuzzy
-msgid ""
-"Click the ``Main`` node and you will see the ``Mob Scene`` property in the "
-"Inspector under \"Main.gd\"."
-msgstr ""
-"Haz clic en el nodo ``Main`` y verás la propiedad ``Mob`` en el Inspector "
-"bajo \"Script Variables\"."
 
 msgid "You can assign this property's value in two ways:"
 msgstr "Puedes asignar el valor de esta propiedad de dos maneras:"

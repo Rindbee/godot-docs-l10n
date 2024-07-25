@@ -1,14 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
-# This file is distributed under the same license as the Godot Engine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,34 +48,6 @@ msgstr ""
 "Godotが保存したり、ディスクから読み込んだりするものは、すべてリソースです。こ"
 "れは、シーン(.tscnや.scnファイル)や、画像、スクリプトなどが該当します。これら"
 "は :ref:`Resource <class_Resource>` の例です:"
-
-#, fuzzy
-msgid ":ref:`Texture <class_Texture>`"
-msgstr "\\ :ref:`Vector2 <class_Vector2>`"
-
-#, fuzzy
-msgid ":ref:`Script <class_Script>`"
-msgstr "\\ :ref:`Sprite <class_Sprite>`"
-
-#, fuzzy
-msgid ":ref:`Mesh <class_Mesh>`"
-msgstr ":ref:`CSGMesh <class_CSGMesh>`"
-
-#, fuzzy
-msgid ":ref:`Animation <class_Animation>`"
-msgstr "\\ :ref:`AnimatedSprite <class_AnimatedSprite>`\\"
-
-#, fuzzy
-msgid ":ref:`AudioStream <class_AudioStream>`"
-msgstr "\\ :ref:`Area2D <class_Area2D>`"
-
-#, fuzzy
-msgid ":ref:`Font <class_Font>`"
-msgstr "\\ :ref:`int <class_int>`"
-
-#, fuzzy
-msgid ":ref:`Translation <class_Translation>`"
-msgstr "\\ :ref:`Transform <class_Transform>`"
 
 msgid ""
 "When the engine loads a resource from disk, **it only loads it once**. If a "
@@ -189,14 +156,6 @@ msgstr ""
 "す。\\ :ref:`Resource <class_Resource>`\\ の内部にシーンが入れ込まれるので"
 "す。"
 
-#, fuzzy
-msgid ""
-"To get an instance of the scene, you have to use the :ref:`PackedScene."
-"instantiate() <class_PackedScene_method_instantiate>` method."
-msgstr ""
-"シーンのインスタンスを得るには、\\ :ref:`PackedScene.instance() "
-"<class_PackedScene_method_instance>`\\ メソッドを使う必要があります。"
-
 msgid ""
 "This method creates the nodes in the scene's hierarchy, configures them, and "
 "returns the root node of the scene. You can then add it as a child of any "
@@ -205,65 +164,11 @@ msgstr ""
 "このメソッドは、シーンの階層どおりにノードを作成し、それらを設定してから、そ"
 "のシーンのルートノードを返します。これは他のノードの子にすることができます。"
 
-#, fuzzy
-msgid ""
-"The approach has several advantages. As the :ref:`PackedScene.instantiate() "
-"<class_PackedScene_method_instantiate>` function is fast, you can create new "
-"enemies, bullets, effects, etc. without having to load them again from disk "
-"each time. Remember that, as always, images, meshes, etc. are all shared "
-"between the scene instances."
-msgstr ""
-"この方法には、いくつかの利点があります。\\ :ref:`PackedScene.instance() "
-"<class_PackedScene_method_instance>`\\ メソッドは高速なので、新しい敵、弾丸、"
-"エフェクトなどを、ディスクから再び読み出すことなく作成できます。覚えていただ"
-"きたいのは、ほとんどの場合、画像やメッシュなどは全て、シーンのインスタンス間"
-"で共有されます。"
-
 msgid "Freeing resources"
 msgstr "リソースの解放"
 
-#, fuzzy
-msgid ""
-"When a :ref:`Resource <class_Resource>` is no longer in use, it will "
-"automatically free itself. Since, in most cases, Resources are contained in "
-"Nodes, when you free a node, the engine frees all the resources it owns as "
-"well if no other node uses them."
-msgstr ""
-"``リソース(Resource)`` が使われなくなったときは、自動的に解放されます。ほとん"
-"どの場合、リソースはノードに格納されているので、ノードを解放した際には、それ"
-"が持つリソースも同様に、他のノードに使用されていない限り、すべてエンジンに"
-"よって解放されます。"
-
 msgid "Creating your own resources"
 msgstr "独自のリソースを作成"
-
-#, fuzzy
-msgid ""
-"Like any Object in Godot, users can also script Resources. Resource scripts "
-"inherit the ability to freely translate between object properties and "
-"serialized text or binary data (\\*.tres, \\*.res). They also inherit the "
-"reference-counting memory management from the RefCounted type."
-msgstr ""
-"Godotの他のオブジェクトと同様に、ユーザーはリソースをスクリプト化することもで"
-"きます。リソーススクリプトは、オブジェクトプロパティと、シリアル化されたテキ"
-"ストまたはバイナリデータ (\\*.tres, \\*.res) との間で、自由に変換できる機能を"
-"継承します。また同時に、参照型から参照カウントメモリ管理機能を継承します。"
-
-#, fuzzy
-msgid ""
-"This comes with many distinct advantages over alternative data structures, "
-"such as JSON, CSV, or custom TXT files. Users can only import these assets "
-"as a :ref:`Dictionary <class_Dictionary>` (JSON) or as a :ref:`FileAccess "
-"<class_FileAccess>` to parse. What sets Resources apart is their inheritance "
-"of :ref:`Object <class_Object>`, :ref:`RefCounted <class_RefCounted>`, and :"
-"ref:`Resource <class_Resource>` features:"
-msgstr ""
-"これには、JSON、CSV、カスタムTXTファイルなどの代替となるデータ構造を超える多"
-"くの明確な利点があります。これらのアセットは ユーザーがインポートするときに :"
-"ref:`Dictionary <class_Dictionary>` (JSON) または :ref:`File <class_File>` と"
-"してのみ解析できます。それに対してリソースは\\ :ref:`Object "
-"<class_Object>`\\ 、\\ :ref:`Reference <class_Reference>`\\ 、および\\ :ref:"
-"`Resource <class_Resource>`\\ 機能の継承によって、際立った利便性があります。"
 
 msgid ""
 "They can define constants, so constants from other data fields or objects "
@@ -365,45 +270,6 @@ msgstr ""
 "化します。インスペクタからリソースを保存するには、インスペクタのツールメ"
 "ニュー(右上)をクリックし、「保存」または「名前を付けて保存」を選択します。"
 
-#, fuzzy
-msgid ""
-"If the script's language supports :ref:`script classes "
-"<doc_gdscript_basics_class_name>`, then it streamlines the process. Defining "
-"a name for your script alone will add it to the Inspector's creation dialog. "
-"This will auto-add your script to the Resource object you create."
-msgstr ""
-"スクリプトの言語が :ref:`script classes "
-"<doc_scripting_continued_class_name>`\\ をサポートしている場合は、この手順が"
-"合理化されます。スクリプトの名前を定義するだけで、その名前がインスペクタの作"
-"成ダイアログに追加されます。これにより、作成したリソースオブジェクトにスクリ"
-"プトが自動的に追加されます。"
-
-msgid ""
-"Let's see some examples. Create a :ref:`Resource <class_Resource>` and name "
-"it ``bot_stats``. It should appear in your file tab with the full name "
-"``bot_stats.tres``. Without a script, it's useless, so let's add some data "
-"and logic! Attach a script to it named ``bot_stats.gd`` (or just create a "
-"new script, and then drag it to it)."
-msgstr ""
-
-msgid ""
-"If you're using C#, you need to annotate your Resource class with the "
-"``[GlobalClass]`` attribute for it to show up in the create resource GUI."
-msgstr ""
-
-msgid ""
-"Now, create a :ref:`CharacterBody3D <class_CharacterBody3D>`, name it "
-"``Bot``, and add the following script to it:"
-msgstr ""
-
-msgid ""
-"Now, select the :ref:`CharacterBody3D <class_CharacterBody3D>` node which we "
-"named ``bot``, and drag&drop the ``bot_stats.tres`` resource onto the "
-"Inspector. It should print 10! Obviously, this setup can be used for more "
-"advanced features than this, but as long you really understand *how* it all "
-"worked, you should figure out everything else related to Resources."
-msgstr ""
-
 msgid ""
 "Resource scripts are similar to Unity's ScriptableObjects. The Inspector "
 "provides built-in support for custom resources. If desired though, users can "
@@ -416,38 +282,6 @@ msgstr ""
 "ザーは独自のコントロールベースのツールスクリプトを設計し、それらを :ref:"
 "`EditorPlugin <class_EditorPlugin>` と組み合わせて、データ用のカスタムビジュ"
 "アライゼーションとエディタを作成することもできます。"
-
-#, fuzzy
-msgid ""
-"Unreal Engine's DataTables and CurveTables are also easy to recreate with "
-"Resource scripts. DataTables are a String mapped to a custom struct, similar "
-"to a Dictionary mapping a String to a secondary custom Resource script."
-msgstr ""
-"Unreal Engine 4のDataTablesとCurveTablesも、リソーススクリプトを使用して簡単"
-"に再現できます。 DataTablesは、カスタム構造体にマッピングされた文字列であり、"
-"文字列をセカンダリカスタムリソーススクリプトにマッピングする辞書に似ていま"
-"す。"
-
-#, fuzzy
-msgid ""
-"Instead of inlining the Dictionary values, one could also, alternatively:"
-msgstr "辞書の値を単にインライン化する代わりに..."
-
-#, fuzzy
-msgid ""
-"Import a table of values from a spreadsheet and generate these key-value "
-"pairs."
-msgstr ""
-"スプレッドシートから値の表をインポートして、これらのキーと値のペアを生成す"
-"る、または..."
-
-#, fuzzy
-msgid ""
-"Design a visualization within the editor and create a plugin that adds it to "
-"the Inspector when you open these types of Resources."
-msgstr ""
-"エディタ内でビジュアライゼーションを設計し、これらのタイプのリソースを開いた"
-"ときにインスペクタに追加する単純なプラグインを作成します。"
 
 msgid ""
 "CurveTables are the same thing, except mapped to an Array of float values or "
