@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,7 @@ msgid "And that's all the code you need to move the character on the floor."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/03.player_movement_code.rst:249
-msgid "Here is the complete ``Player.gd`` code for reference."
+msgid "Here is the complete ``player.gd`` code for reference."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/03.player_movement_code.rst:351

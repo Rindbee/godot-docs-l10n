@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -385,7 +385,7 @@ msgstr ""
 msgid "To avoid any unexpected problems with polygon hole calculations, avoid nesting any outlines inside other outlines of the same type (traversable / obstruction). This includes the parsed shapes from nodes. E.g. placing a smaller StaticBody2D shape inside a larger StaticBody2D shape can result in the resulting polygon being flipped."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:285
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:287
 msgid "Navigation mesh appears inside geometry in 3D."
 msgstr ""
 
@@ -393,15 +393,27 @@ msgstr ""
 msgid "The navigation mesh baking in 3D has no concept of \"inside\". The voxel cells used to rasterize the geometry are either occupied or not. Remove the geometry that is on the ground inside the other geometry. If that is not possible, add smaller \"dummy\" geometry inside with as few triangles as possible so the cells are occupied with something."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:288
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:287
+msgid "A :ref:`NavigationObstacle3D<class_NavigationObstacle3D>` shape set to bake with navigation mesh can be used to discard geometry as well."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:293
+msgid "NavigationObstacle3D unwanted geometry discard"
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:293
+msgid "A NavigationObstacle3D shape can be used to discard unwanted navigation mesh parts."
+msgstr ""
+
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:296
 msgid "Navigation mesh script templates"
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:290
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:298
 msgid "The following script uses the NavigationServer to parse source geometry from the scene tree, bakes a navigation mesh, and updates a navigation region with the updated navigation mesh."
 msgstr ""
 
-#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:405
+#: ../../docs/tutorials/navigation/navigation_using_navigationmeshes.rst:413
 msgid "The following script uses the NavigationServer to update a navigation region with procedurally generated navigation mesh data."
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgid "AMD FidelityFX Super Resolution 2.2 (FSR2)"
 msgstr ""
 
 #: ../../docs/tutorials/3d/3d_antialiasing.rst:118
-msgid "Since Godot 4.2, there is built-in support for `AMD FidelityFX Super Resolution <https://www.amd.com/en/technologies/fidelityfx-super-resolution>`__ 2.2. This is an :ref:`upscaling method <doc_resolution_scaling>` compatible with all recent GPUs from any vendor. FSR2 is normally designed to improve performance by lowering the internal 3D rendering resolution, then upscaling to the output resolution."
+msgid "Since Godot 4.2, there is built-in support for `AMD FidelityFX Super Resolution <https://www.amd.com/en/products/graphics/technologies/fidelityfx/super-resolution.html>`__ 2.2. This is an :ref:`upscaling method <doc_resolution_scaling>` compatible with all recent GPUs from any vendor. FSR2 is normally designed to improve performance by lowering the internal 3D rendering resolution, then upscaling to the output resolution."
 msgstr ""
 
 #: ../../docs/tutorials/3d/3d_antialiasing.rst:125

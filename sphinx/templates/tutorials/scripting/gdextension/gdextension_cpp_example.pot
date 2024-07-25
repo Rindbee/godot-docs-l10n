@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -281,130 +281,114 @@ msgid "We're finally ready to run the project:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:441
-msgid "Custom editor icon"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:442
-msgid "By default, Godot uses the node icon in the scene dock for GDExtension nodes. The custom icon can be added via the ``gdextension`` file. The node's icon is set by reference to its name and resource path of an SVG file."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:446
-msgid "For example:"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:454
-msgid "The path should point to a 16 by 16 pixel SVG image. Read the guide for :ref:`creating icons <doc_editor_icons>` for more information."
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:458
 msgid "Adding properties"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:460
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:443
 msgid "GDScript allows you to add properties to your script using the ``export`` keyword. In GDExtension you have to register the properties with a getter and setter function or directly implement the ``_get_property_list``, ``_get`` and ``_set`` methods of an object (but that goes far beyond the scope of this tutorial)."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:466
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:449
 msgid "Lets add a property that allows us to control the amplitude of our wave."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:468
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:451
 msgid "In our ``gdexample.h`` file we need to add a member variable and getter and setter functions:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:483
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:466
 msgid "In our ``gdexample.cpp`` file we need to make a number of changes, we will only show the methods we end up changing, don't remove the lines we're omitting:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:519
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:502
 msgid "Once you compile the module with these changes in place, you will see that a property has been added to our interface. You can now change this property and when you run your project, you will see that our Godot icon travels along a larger figure."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:524
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:507
 msgid "Let's do the same but for the speed of our animation and use a setter and getter function. Our ``gdexample.h`` header file again only needs a few more lines of code:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:539
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:522
 msgid "This requires a few more changes to our ``gdexample.cpp`` file, again we're only showing the methods that have changed so don't remove anything we're omitting:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:578
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:561
 msgid "Now when the project is compiled, we'll see another property called speed. Changing its value will make the animation go faster or slower. Furthermore, we added a property range which describes in which range the value can be. The first two arguments are the minimum and maximum value and the third is the step size."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:585
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:568
 msgid "For simplicity, we've only used the hint_range of the property method. There are a lot more options to choose from. These can be used to further configure how properties are displayed and set on the Godot side."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:590
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:573
 msgid "Signals"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:592
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:575
 msgid "Last but not least, signals fully work in GDExtension as well. Having your extension react to a signal given out by another object requires you to call ``connect`` on that object. We can't think of a good example for our wobbling Godot icon, we would need to showcase a far more complete example."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:597
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:580
 msgid "This is the required syntax:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:603
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:586
 msgid "To connect our signal ``the_signal`` from some other node with our method ``my_method``, we need to provide the ``connect`` method with the name of the signal and a ``Callable``. The ``Callable`` holds information about an object on which a method can be called. In our case, it associates our current object instance ``this`` with the method ``my_method`` of the object. Then the ``connect`` method will add this to the observers of ``the_signal``. Whenever ``the_signal`` is now emitted, Godot knows which method of which object it needs to call."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:611
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:594
 msgid "Note that you can only call ``my_method`` if you've previously registered it in your ``_bind_methods`` method. Otherwise Godot will not know about the existence of ``my_method``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:615
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:598
 msgid "To learn more about ``Callable``, check out the class reference here: :ref:`Callable <class_Callable>`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:617
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:600
 msgid "Having your object sending out signals is more common. For our wobbling Godot icon, we'll do something silly just to show how it works. We're going to emit a signal every time a second has passed and pass the new location along."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:621
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:604
 msgid "In our ``gdexample.h`` header file, we need to define a new member ``time_emit``:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:631
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:614
 msgid "This time, the changes in ``gdexample.cpp`` are more elaborate. First, you'll need to set ``time_emit = 0.0;`` in either our ``_init`` method or in our constructor. We'll look at the other 2 needed changes one by one."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:635
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:618
 msgid "In our ``_bind_methods`` method, we need to declare our signal. This is done as follows:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:647
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:630
 msgid "Here, our ``ADD_SIGNAL`` macro can be a single call with a ``MethodInfo`` argument. ``MethodInfo``'s first parameter will be the signal's name, and its remaining parameters are ``PropertyInfo`` types which describe the essentials of each of the method's parameters. ``PropertyInfo`` parameters are defined with the data type of the parameter, and then the name that the parameter will have by default."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:653
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:636
 msgid "So here, we add a signal, with a ``MethodInfo`` which names the signal \"position_changed\". The ``PropertyInfo`` parameters describe two essential arguments, one of type ``Object``, the other of type ``Vector2``, respectively named \"node\" and \"new_pos\"."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:657
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:640
 msgid "Next, we'll need to change our ``_process`` method:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:679
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:662
 msgid "After a second has passed, we emit our signal and reset our counter. We can add our parameter values directly to ``emit_signal``."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:682
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:665
 msgid "Once the GDExtension library is compiled, we can go into Godot and select our sprite node. In the **Node** dock, we can find our new signal and link it up by pressing the **Connect** button or double-clicking the signal. We've added a script on our main node and implemented our signal like this:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:694
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:677
 msgid "Every second, we output our position to the console."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:697
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:680
 msgid "Next steps"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:699
+#: ../../docs/tutorials/scripting/gdextension/gdextension_cpp_example.rst:682
 msgid "We hope the above example showed you the basics. You can build upon this example to create full-fledged scripts to control nodes in Godot using C++."
 msgstr ""
 

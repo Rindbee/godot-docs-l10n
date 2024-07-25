@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,15 +112,23 @@ msgstr ""
 msgid "When you set ``Fixed FPS`` to very low values, you will notice that the particle animation starts to look choppy. This can sometimes be desired if it fits the art direction, but most of the time, you'll want particle systems to animate smoothly. That's what the ``Interpolate`` property does. It blends particle properties between updates so that even a particle system running at ``10`` FPS appears as smooth as running at ``60``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:119
+#: ../../docs/tutorials/3d/particles/properties.rst:118
+msgid "When using :ref:`particle collision <doc_3d_particles_collision>`, tunneling can occur if the particles move fast and colliders are thin. This can be remedied by increasing ``Fixed FPS`` (at a performance cost)."
+msgstr ""
+
+#: ../../docs/tutorials/3d/particles/properties.rst:125
 msgid "Collision properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:121
+#: ../../docs/tutorials/3d/particles/properties.rst:129
+msgid "Setting up particle collision requires following further steps described in :ref:`doc_3d_particles_collision`."
+msgstr ""
+
+#: ../../docs/tutorials/3d/particles/properties.rst:132
 msgid "The ``Base Size`` property defines each particle's default collision size, which is used to check whether a particle is currently colliding with the environment. You would usually want this to be about the same size as the particle. It can make sense to increase this value for particles that are very small and move very fast to prevent them from clipping through the collision geometry."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:130
+#: ../../docs/tutorials/3d/particles/properties.rst:141
 msgid "Drawing properties"
 msgstr ""
 
@@ -128,51 +136,51 @@ msgstr ""
 msgid "Particle drawing properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:136
+#: ../../docs/tutorials/3d/particles/properties.rst:147
 msgid "The ``Visibility AABB`` property defines a box around the particle system's origin. As long as any part of this box is in the camera's field of view, the particle system is visible. As soon as it leaves the camera's field of view, the particle system stops being rendered at all. You can use this property to boost performance by keeping the box as small as possible."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:142
-msgid "One thing to keep in mind when you set a size for the ``Visibility AABB`` is that particles that are outside of its bounds disappear instantly when it leaves the camera's field of view. This, while not technically a bug, can have a negative effect on the visual experience."
+#: ../../docs/tutorials/3d/particles/properties.rst:153
+msgid "One thing to keep in mind when you set a size for the ``Visibility AABB`` is that particles that are outside of its bounds disappear instantly when it leaves the camera's field of view. Particle collision will also not occur outside the ``Visibility AABB``. While not technically a bug, this can have a negative effect on the visual experience."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:146
+#: ../../docs/tutorials/3d/particles/properties.rst:158
 msgid "When the ``Local Coords`` property is checked, all particle calculations use the local coordinate system to determine things like up and down, gravity, and movement direction. Up and down, for example, would follow the particle system's or its parent node's rotation. When the property is unchecked, the global world space is used for these calculations: Down will always be -Y in world space, regardless of the particle system's rotation."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:154
+#: ../../docs/tutorials/3d/particles/properties.rst:166
 msgid "Local space coordinates (left) vs. world space coordinates (right)"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:156
+#: ../../docs/tutorials/3d/particles/properties.rst:168
 msgid "The ``Draw Order`` property controls the order in which individual particles are drawn. ``Index`` means that they are drawn in the order of emission: particles that are spawned later are drawn on top of earlier ones. ``Lifetime`` means that they are drawn in the order of their remaining lifetime. ``Reverse Lifetime`` reverses the ``Lifetime`` draw order. ``View Depth`` means particles are drawn according to their distance from the camera: The ones closer to the camera on top of those farther away."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:163
+#: ../../docs/tutorials/3d/particles/properties.rst:175
 msgid "The ``Transform Align`` property controls the particle's default rotation. ``Disabled`` means they don't align in any particular way. Instead, their rotation is determined by the values set in the process material. ``Z-Billboard`` means that the particles will always face the camera. This is similar to the ``Billboard`` property in the :ref:`Standard Material <doc_standard_material_3d>`. ``Y to Velocity`` means that each particle's Y-axis aligns with its movement direction. This can be useful for things like bullets or arrows, where you want particles to always point \"forward\". ``Z-Billboard + Y to Velocity`` combines the previous two modes. Each particle's Z-axis will point towards the camera while its Y-axis will align with their velocity."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:175
+#: ../../docs/tutorials/3d/particles/properties.rst:187
 msgid "Trail properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:181
+#: ../../docs/tutorials/3d/particles/properties.rst:193
 msgid "Particle trails"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:181
+#: ../../docs/tutorials/3d/particles/properties.rst:193
 msgid "Particle trail properties"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:183
+#: ../../docs/tutorials/3d/particles/properties.rst:195
 msgid "The ``Enabled`` property controls whether particles are rendered as trails. The box needs to be checked if you want to make use of particle trails."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:186
+#: ../../docs/tutorials/3d/particles/properties.rst:198
 msgid "The ``Length Secs`` property controls for how long a trail should be emitted. The longer this duration is, the longer the trail will be."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/properties.rst:189
+#: ../../docs/tutorials/3d/particles/properties.rst:201
 msgid "See the :ref:`Particle trails <doc_3d_particles_trails>` section in this manual for a detailed explanation of how particle trails work and how to set them up."
 msgstr ""
 

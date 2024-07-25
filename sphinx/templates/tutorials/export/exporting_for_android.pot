@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Run it once to complete the SDK setup using these `instructions <https://
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_android.rst:34
-msgid "Ensure that the `required packages <https://developer.android.com/studio/intro/update#recommended>`__ are installed as well."
+msgid "Ensure that the `required packages <https://developer.android.com/studio/intro/update#required>`__ are installed as well."
 msgstr ""
 
 #: ../../docs/tutorials/export/exporting_for_android.rst:36

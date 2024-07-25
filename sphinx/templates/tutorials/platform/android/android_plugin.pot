@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -417,7 +417,7 @@ msgid "If planning to use the GDExtension functionality in the Godot Editor, it 
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_plugin.rst:365
-msgid "This may involve creating dummy plugins for the host OS just so the API is published to the editor. You can use the [godot-cpp-template](https://github.com/godotengine/godot-cpp-template) github template for reference on how to do so."
+msgid "This may involve creating dummy plugins for the host OS just so the API is published to the editor. You can use the `godot-cpp-template <https://github.com/godotengine/godot-cpp-template>`__ github template for reference on how to do so."
 msgstr ""
 
 #: ../../docs/tutorials/platform/android/android_plugin.rst:370

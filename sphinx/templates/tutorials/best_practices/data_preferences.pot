@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -285,7 +285,7 @@ msgid "Enumerations: int vs. string"
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:284
-msgid "Most languages offer an enumeration type option. GDScript is no different, but unlike most other languages, it allows one to use either integers or strings for the enum values (the latter only when using the ``export`` keyword in GDScript). The question then arises, \"which should one use?\""
+msgid "Most languages offer an enumeration type option. GDScript is no different, but unlike most other languages, it allows one to use either integers or strings for the enum values (the latter only when using the ``@export_enum`` annotation in GDScript). The question then arises, \"which should one use?\""
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/data_preferences.rst:289

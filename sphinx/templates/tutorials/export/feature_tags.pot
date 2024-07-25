@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -409,58 +409,58 @@ msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:128
-msgid "With the exception of texture compression and ``movie`` feature tags, default feature tags are **immutable**. This means that they will *not* change depending on run-time conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to HTML5 on a mobile device."
+msgid "With the exception of texture compression, ``web_<platform>`` and ``movie`` feature tags, default feature tags are **immutable**. This means that they will *not* change depending on run-time conditions. For example, ``OS.has_feature(\"mobile\")`` will return ``false`` when running a project exported to Web on a mobile device."
 msgstr ""
 
 #: ../../docs/tutorials/export/feature_tags.rst:134
-msgid "To check whether a project exported to HTML5 is running on a mobile device, :ref:`call JavaScript code <doc_web_javascript_bridge>` that reads the browser's user agent."
+msgid "To check whether a project exported to Web is running on a mobile device, use ``OS.has_feature(\"web_android\") or OS.web_has_feature(\"web_ios\")``."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:139
+#: ../../docs/tutorials/export/feature_tags.rst:138
 msgid "Custom features"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:141
+#: ../../docs/tutorials/export/feature_tags.rst:140
 msgid "It is possible to add custom features to a build; use the relevant field in the *export preset* used to generate it:"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:148
+#: ../../docs/tutorials/export/feature_tags.rst:147
 msgid "Custom feature tags are only used when running the exported project (including with :ref:`doc_one-click_deploy`). They are **not used** when running the project from the editor, even if the export preset marked as **Runnable** for your current platform has custom feature tags defined."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:154
+#: ../../docs/tutorials/export/feature_tags.rst:153
 msgid "Overriding project settings"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:156
+#: ../../docs/tutorials/export/feature_tags.rst:155
 msgid "Features can be used to override specific configuration values in the *Project Settings*. This allows you to better customize any configuration when doing a build."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:159
+#: ../../docs/tutorials/export/feature_tags.rst:158
 msgid "In the following example, a different icon is added for the demo build of the game (which was customized in a special export preset, which, in turn, includes only demo levels)."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:164
+#: ../../docs/tutorials/export/feature_tags.rst:163
 msgid "After overriding, a new field is added for this specific configuration:"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:170
+#: ../../docs/tutorials/export/feature_tags.rst:169
 msgid "When using the :ref:`project settings \"override.cfg\" functionality <class_ProjectSettings>` (which is unrelated to feature tags), remember that feature tags still apply. Therefore, make sure to *also* override the setting with the desired feature tag(s) if you want them to override base project settings on all platforms and configurations."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:178
+#: ../../docs/tutorials/export/feature_tags.rst:177
 msgid "Default overrides"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:180
+#: ../../docs/tutorials/export/feature_tags.rst:179
 msgid "There are already a lot of settings that come with overrides by default; they can be found in many sections of the project settings."
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:186
+#: ../../docs/tutorials/export/feature_tags.rst:185
 msgid "Customizing the build"
 msgstr ""
 
-#: ../../docs/tutorials/export/feature_tags.rst:188
+#: ../../docs/tutorials/export/feature_tags.rst:187
 msgid "Feature tags can be used to customize a build process too, by writing a custom **ExportPlugin**. They are also used to specify which shared library is loaded and exported in **GDExtension**."
 msgstr ""
 

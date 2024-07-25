@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "To change the editors language click on the \"Settings\" Button in the to
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:16
-msgid "Then on the settings page seelct the language you want from the dropdown menu."
+msgid "Then on the settings page select the language you want from the dropdown menu."
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:23
@@ -121,7 +121,7 @@ msgid "This will open up the manage project tags window. To add a tag click the 
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:100
-msgid "type out the tag name, and click \"ok\". Your project will now have a tag added to it. These tags can be used for any other project in your project manager. In addition tags will stay with projects. So if you tag your project, send it to another machine and import it into the project manager you will see the tags you created."
+msgid "Type out the tag name, and click \"ok\". Your project will now have a tag added to it. These tags can be used for any other project in your project manager. In addition tags will stay with projects. So if you tag your project, send it to another machine and import it into the project manager you will see the tags you created."
 msgstr ""
 
 #: ../../docs/tutorials/editor/project_manager.rst:105

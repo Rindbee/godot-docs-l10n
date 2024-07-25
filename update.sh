@@ -93,6 +93,9 @@ if [ "$update_sphinx_pot" = true ]; then
   # We don't translate the class reference this way.
   rm -rf $SPHINX_TEMPLATES_DIR/classes
   SPHINX_TEMPLATES=$(find $SPHINX_TEMPLATES_DIR -type f -name "*.pot")
+  echo $SPHINX_TEMPLATES
+  # Reduce diff spam when only the date changed.
+  sed -i $SPHINX_TEMPLATES -e 's/"POT-Creation-Date: .*\\n"/"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\\n"/'
 fi
 
 # Generate/Update Weblate monolithic template from Sphinx template
@@ -153,4 +156,5 @@ if [ "$update_sphinx_po" = true ]; then
   for lang in $SPHINX_BUILD_LANGS; do
     merge_sphinx_po $lang &
   done
+  echo "All Sphinx PO files have been merged."
 fi

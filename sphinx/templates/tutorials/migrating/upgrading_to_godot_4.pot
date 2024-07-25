@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -542,13 +542,13 @@ msgid "Spatial"
 msgstr ""
 
 #: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:285
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:643
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:652
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:654
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:658
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:660
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:662
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:664
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:644
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:653
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:655
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:659
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:661
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:663
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:665
 msgid "Node3D"
 msgstr ""
 
@@ -999,493 +999,497 @@ msgstr ""
 msgid "TileMap's ``map_to_world()`` is now ``map_to_local()``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:441
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:440
+msgid "Transform2D's ``xform()`` is ``mat * vec`` and ``xform_inv()`` is ``vec * mat``."
+msgstr ""
+
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:442
 msgid "**Properties**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:445
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:446
 msgid "If a property is listed here, its associated getter and setter methods must also be renamed manually if used in the project. For example, PathFollow2D and PathFollow3D's ``set_offset()`` and ``get_offset()`` must be renamed to ``set_progress()`` and ``get_progress()`` respectively."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:450
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:451
 msgid "Control's ``margin`` is now ``offset``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:451
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:452
 msgid "Label's ``percent_visible`` is now ``visible_ratio``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:452
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:453
 msgid "MultiPlayerAPI's ``refuse_new_network_connections`` is now ``refuse_new_connections``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:453
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:454
 msgid "PathFollow2D and PathFollow3D's ``offset`` is now ``progress``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:454
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:455
 msgid "TextureProgressBar's ``percent_visible`` is now ``show_percentage``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:455
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:456
 msgid "The ``extents`` property on CSG nodes and VoxelGI will have to be replaced with ``size``, with the set value halved (as they're no longer half-extents). This also affects its setter/getter methods ``set_extents()`` and ``get_extents()``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:459
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:460
 msgid "The ``Engine.editor_hint`` property was removed in favor of the ``Engine.is_editor_hint()`` *method*. This is because it's read-only, and properties in Godot are not used for read-only values."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:463
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:464
 msgid "**Enums**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:465
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:466
 msgid "CPUParticles2D's ``FLAG_MAX`` is now ``PARTICLE_FLAG_MAX``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:467
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:468
 msgid "**Signals**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:469
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:470
 msgid "FileSystemDock's ``instantiate`` is now ``instance``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:470
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:471
 msgid "CanvasItem's ``hide`` is now ``hidden``. This rename does **not** apply to the ``hide()`` method, only the signal."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:472
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:473
 msgid "Tween's ``tween_all_completed`` is now ``loop_finished``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:473
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:474
 msgid "EditorSettings' ``changed`` is now ``settings_changed``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:475
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:476
 msgid "**Constants**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:477
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:478
 msgid "Color names are now uppercase and use underscores between words. For example, ``Color.palegreen`` is now ``Color.PALE_GREEN``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:479
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:480
 msgid "MainLoop's ``NOTIFICATION_`` constants were duplicated to ``Node`` which means you can remove the ``MainLoop.`` prefix when referencing them."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:481
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:482
 msgid "MainLoop's ``NOTIFICATION_WM_QUIT_REQUEST`` is now ``NOTIFICATION_WM_CLOSE_REQUEST``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:484
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:485
 msgid "Checking project settings"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:486
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:487
 msgid "Several project settings were renamed, and some of them had their enums changed in incompatible ways (such as shadow filter quality). This means you may need to set some project settings' values again. Make sure the **Advanced** toggle is enabled in the project settings dialog so you can see all project settings."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:492
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:493
 msgid "Checking Environment settings"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:494
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:495
 msgid "Graphics quality settings were moved from Environment properties to project settings. This was done to make run-time quality adjustments easier, without having to access the currently active Environment resource then modify its properties."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:499
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:500
 msgid "As a result, you will have to configure Environment quality settings in the project settings as old Environment quality settings aren't converted automatically to project settings."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:503
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:504
 msgid "If you have a graphics settings menu that changed environment properties in Godot 3.x, you will have to change its code to call :ref:`class_RenderingServer` methods that affect environment effects' quality. Only the \"base\" toggle of each environment effect and its visual knobs remain within the Environment resource."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:509
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:510
 msgid "Updating shaders"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:511
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:512
 msgid "There have been some changes to shaders that aren't covered by the upgrade tool."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:513
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:514
 msgid "The ``.shader`` file extension is no longer supported, which means you must rename ``.shader`` files to ``.gdshader`` and update references accordingly in scene/resource files using an external text editor."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:517
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:518
 msgid "Some notable renames you will need to perform in shaders are:"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:519
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:520
 msgid "Texture filter and repeat modes are now set on individual uniforms, rather than the texture files themselves."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:521
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:522
 msgid "``hint_albedo`` is now ``source_color``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:522
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:523
 msgid "``hint_color`` is now ``source_color``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:523
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:524
 msgid ":ref:`Built in matrix variables were renamed. <doc_spatial_shader>`"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:524
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:525
 msgid "Particles shaders no longer use the ``vertex()`` processor function. Instead they use ``start()`` and ``process()``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:527
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:528
 msgid "See :ref:`doc_shading_language` for more information."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:530
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:531
 msgid "Updating scripts to take backwards-incompatible changes into account"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:532
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:533
 msgid "Some changes performed between Godot 3.x and 4 are not renames, but they still break backwards compatibility due to different default behavior."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:535
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:536
 msgid "The most notable examples of this are:"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:537
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:538
 msgid "Lifecycle functions such as ``_ready()`` and ``_process()`` no longer implicitly call parent classes' functions that have the same name. Instead, you must use ``super()`` at the top of a lifecycle function in the child class so that the parent class function is called first."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:541
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:542
 msgid "Both :ref:`class_String` and :ref:`class_StringName` are now exposed to GDScript. This allows for greater optimization, as StringName is specifically designed to be used for \"constant\" strings that are created once and reused many times. These types are not strictly equivalent to each other, which means ``is_same(\"example\", &\"example\")`` returns ``false``. Although in most cases they are interchangeable (``\"example\" == &\"example\"`` returns ``true``), sometimes you may have to replace ``\"example\"`` with ``&\"example\"``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:548
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:549
 msgid ":ref:`GDScript setter and getter syntax <doc_gdscript_basics_setters_getters>` was changed, but it's only partially converted by the conversion tool. In most cases, manual changes are required to make setters and getters working again."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:551
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:552
 msgid ":ref:`GDScript signal connection syntax <doc_gdscript_signals>` was changed. The conversion tool will use the string-based syntax which is still present in Godot 4, but it's recommended to switch to the :ref:`class_Signal`-based syntax described on the linked page. This way, strings are no longer involved, which avoids issues with signal name errors that can only be discovered at run-time."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:556
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:557
 msgid "Built-in scripts that are :ref:`tool scripts <doc_running_code_in_the_editor>` do not get the ``tool`` keyword converted to the ``@tool`` annotation."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:558
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:559
 msgid "The Tween node was removed in favor of Tweeners, which are also available in Godot 3.5 and later. See the `original pull request <https://github.com/godotengine/godot/pull/41794>`__ for details."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:562
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:563
 msgid "``randomize()`` is now automatically called on project load, so deterministic randomness with the global RandomNumberGenerate instance requires manually setting a seed in a script's ``_ready()`` function."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:565
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:566
 msgid "``call_group()``, ``set_group()`` and ``notify_group()`` are now immediate by default. If calling an expensive function, this may result in stuttering when used on a group containing a large number of nodes. To use deferred calls like before, replace ``call_group(...)`` with ``call_group_flags(SceneTree.GROUP_CALL_DEFERRED, ...)`` (and do the same with ``set_group()`` and ``notify_group()`` respectively)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:571
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:572
 msgid "Instead of ``rotation_degrees``, the ``rotation`` property is exposed to the editor, which is automatically displayed as degrees in the Inspector dock. This may break animations, as the conversion is not handled automatically by the conversion tool."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:575
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:576
 msgid ":ref:`class_AABB`'s ``has_no_surface()`` was inverted and renamed to ``has_surface()``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:576
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:577
 msgid ":ref:`class_AABB` and :ref:`class_Rect2`'s ``has_no_area()`` was inverted and renamed to ``has_area()``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:578
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:579
 msgid ":ref:`class_AnimatedTexture`'s ``fps`` property was replaced by ``speed_scale``, which works the same as AnimationPlayer's ``playback_speed`` property."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:580
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:581
 msgid ":ref:`class_AnimatedSprite2D` and :ref:`class_AnimatedSprite3D` now allow negative ``speed_scale`` values. This may break animations if you relied on ``speed_scale`` being internally clamped to ``0.0``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:583
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:584
 msgid ":ref:`class_AnimatedSprite2D` and :ref:`class_AnimatedSprite3D`'s ``playing`` property was removed. Use ``play()``/``stop()`` method instead OR configure ``autoplay`` animation via the SpriteFrames bottom panel (but not both at once)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:586
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:587
 msgid ":ref:`class_Array`'s ``slice()`` second parameter (``end``) is now *exclusive*, instead of being inclusive. For example, this means that ``[1, 2, 3].slice(0, 1)`` now returns ``[1]`` instead of ``[1, 2]``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:589
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:590
 msgid ":ref:`class_BaseButton`'s signals are now ``button_up`` and ``button_down``. The ``pressed`` property is now ``button_pressed``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:591
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:592
 msgid ":ref:`class_Camera2D`'s ``rotating`` property was replaced by ``ignore_rotation``, which has inverted behavior."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:593
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:594
 msgid "Camera2D's ``zoom`` property was inverted: higher values are now more zoomed in, instead of less."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:595
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:596
 msgid ":ref:`class_Node`'s ``remove_and_skip()`` method was removed. If you need to reimplement it in a script, you can use the `old C++ implementation <https://github.com/godotengine/godot/blob/7936b3cc4c657e4b273b376068f095e1e0e4d82a/scene/main/node.cpp#L1910-L1945>`__ as a reference."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:599
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:600
 msgid "``OS.get_system_time_secs()`` should be converted to ``Time.get_time_dict_from_system()[\"second\"]``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:601
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:602
 msgid ":ref:`class_ResourceSaver`'s ``save()`` method now has its arguments swapped around (``resource: Resource, path: String``). This also applies to :ref:`class_ResourceFormatSaver`'s ``_save()`` method."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:604
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:605
 msgid "A :ref:`class_StreamPeerTCP` must have ``poll()`` called on it to update its state, instead of relying on ``get_status()`` automatically polling: `GH-59582 <https://github.com/godotengine/godot/pull/59582>`__"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:607
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:608
 msgid ":ref:`class_String`'s ``right()`` method `has changed behavior <https://github.com/godotengine/godot/pull/36180>`__: it now returns a number of characters from the right of the string, rather than the right side of the string from a given position. If you need the old behavior, you can use ``substr()`` instead."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:611
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:612
 msgid "``is_connected_to_host()`` was removed from StreamPeerTCP and PacketPeerUDP as per `GH-59582 <https://github.com/godotengine/godot/pull/59582>`__. ``get_status()`` can be used in StreamPeerTCP instead. ``is_socket_connected()`` can be used in :ref:`class_PacketPeerUDP` instead."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:615
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:616
 msgid "In ``_get_property_list()``, the ``or_lesser`` property hint string is now ``or_less``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:616
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:617
 msgid "In ``_get_property_list()``, the ``noslider`` property hint string is now ``no_slider``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:617
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:618
 msgid "VisualShaderNodeVec4Parameter now takes a :ref:`class_Vector4` as parameter instead of a :ref:`class_Quaternion`."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:620
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:621
 msgid "**Removed or replaced nodes/resources**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:622
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:623
 msgid "This lists all nodes that were replaced by another node requiring different configuration. The setup must be done from scratch again, as the project converter doesn't support updating existing setups:"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:627
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:628
 msgid "Removed node"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:627
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:628
 msgid "Closest approximation"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:627
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:628
 msgid "Comment"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:629
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:630
 msgid "AnimationTreePlayer"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:629
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:630
 msgid "AnimationTree"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:629
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:630
 msgid "AnimationTreePlayer was deprecated since Godot 3.1."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:631
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:632
 msgid "BakedLightmap"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:631
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:632
 msgid "LightmapGI"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:631
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:632
 msgid "See :ref:`doc_using_lightmap_gi`."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:633
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:634
 msgid "BakedLightmapData"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:633
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:634
 msgid "LightmapGIData"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:635
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:636
 msgid "BitmapFont"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:635
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:637
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:639
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:636
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:638
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:640
 msgid "FontFile"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:635
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:636
 msgid "See :ref:`doc_gui_using_fonts`."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:637
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:638
 msgid "DynamicFont"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:639
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:640
 msgid "DynamicFontData"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:641
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:642
 msgid "Navigation2D"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:641
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:642
 msgid "Node2D"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:641
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:642
 msgid "Replaced by :ref:`other 2D Navigation nodes <doc_navigation_overview_2d>`."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:643
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:644
 msgid "Navigation3D"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:643
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:644
 msgid "Replaced by :ref:`other 3D Navigation nodes <doc_navigation_overview_3d>`."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:645
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:646
 msgid "OpenSimplexNoise"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:645
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:646
 msgid "FastNoiseLite"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:645
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:646
 msgid "Has different parameters and more noise types such as cellular. No support for 4D noise as it's absent from the FastNoiseLite library."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:648
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:649
 msgid "ToolButton"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:648
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:649
 msgid "Button"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:648
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:649
 msgid "ToolButton was Button with the **Flat** property enabled by default."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:650
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:651
 msgid "YSort"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:650
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:651
 msgid "Node2D or Control"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:650
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:651
 msgid "CanvasItem has a new **Y Sort Enabled** property in 4.0."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:652
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:653
 msgid "ProximityGroup"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:652
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:653
 msgid ":ref:`class_VisibleOnScreenNotifier3D` can act as a replacement."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:654
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:655
 msgid "Portal"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:654
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:655
 msgid "Portal and room occlusion culling was replaced by raster :ref:`occlusion culling <doc_occlusion_culling>` (OccluderInstance3D node), which requires a different setup process."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:658
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:659
 msgid "Room"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:660
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:661
 msgid "RoomManager"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:662
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:663
 msgid "RoomGroup"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:664
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:665
 msgid "Occluder"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:664
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:665
 msgid "Geometry occlusion culling was replaced by raster :ref:`occlusion culling <doc_occlusion_culling>` (OccluderInstance3D node), which requires a different setup process."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:668
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:669
 msgid "OccluderShapeSphere"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:668
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:669
 msgid "Resource"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:671
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:672
 msgid "If loading an old project, the node will be replaced with its *Closest approximation* automatically (even if not using the project upgrade tool)."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:674
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:675
 msgid "**Threading changes**"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:676
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:677
 msgid ":ref:`Threading <doc_using_multiple_threads>` APIs have changed in 4.0. For example, the following code snippet in Godot 3.x must be modified to work in 4.0:"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:689
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:690
 msgid "``Thread.is_active()`` is no longer used and should be converted to ``Thread.is_alive()``."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:693
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:694
 msgid "See the `changelog <https://github.com/godotengine/godot/blob/master/CHANGELOG.md>`__ for a full list of changes between Godot 3.x and 4."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:697
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:698
 msgid "ArrayMesh resource compatibility breakage"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:699
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:700
 msgid "If you've saved an ArrayMesh resource to a ``.res`` or ``.tres`` file, the format used in 4.0 is not compatible with the one used in 3.x. You will need to go through the process of importing the source mesh file and saving it as an ArrayMesh resource again."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:705
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:706
 msgid "List of automatically renamed methods, properties, signals and constants"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:707
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:708
 msgid "The `editor/renames_map_3_to_4.cpp <https://github.com/godotengine/godot/blob/master/editor/renames_map_3_to_4.cpp>`__ source file lists all automatic renames performed by the project upgrade tool. Lines that are commented out refer to API renames that :ref:`cannot be performed automatically <doc_upgrading_to_godot_4_manual_rename>`."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:712
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:713
 msgid "Porting editor settings"
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:714
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:715
 msgid "Godot 3.x and 4.0 use different editor settings files. This means their settings can be changed independently from each other."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:717
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:718
 msgid "If you wish to port over your Godot 3.x settings to Godot 4, open the :ref:`editor settings folder <doc_data_paths_editor_data_paths>` and copy ``editor_settings-3.tres`` to ``editor_settings-4.tres`` while the Godot 4 editor is closed."
 msgstr ""
 
-#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:724
+#: ../../docs/tutorials/migrating/upgrading_to_godot_4.rst:725
 msgid "Many settings' names and categories have changed since Godot 3.x. Editor settings whose name or category has changed won't carry over to Godot 4.0; you will have to set their values again."
 msgstr ""
 

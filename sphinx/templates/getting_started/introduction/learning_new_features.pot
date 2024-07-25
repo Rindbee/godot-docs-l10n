@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgid "If the manual or class reference is missing or has insufficient informati
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:59
-msgid "You can Ctrl-click (Cmd-click on MacOS) any underlined text like the name of a class, property, method, signal, or constant to jump to it."
+msgid "You can hold :kbd:`Ctrl` (macOS :kbd:`Cmd`) and then mouseover text like the name of a class, property, method, signal, or constant to underline it, then :kbd:`Ctrl + Click` (macOS :kbd:`Cmd + Click`) it to jump to it."
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:63
@@ -117,34 +117,34 @@ msgid "**Share a screenshot** of your *Scene* dock along with your written code.
 msgstr ""
 
 #: ../../docs/getting_started/introduction/learning_new_features.rst:121
-msgid "Also, please don't take a picture with your phone, the low quality and screen reflections can make it hard to understand the image. Your operating system should have a built-in tool to take screenshots with the :kbd:`PrtSc` (Print Screen) key."
+msgid "Also, please don't take a picture with your phone, the low quality and screen reflections can make it hard to understand the image. Your operating system should have a built-in tool to take screenshots with the :kbd:`PrtSc` (Print Screen) key (macOS: use :kbd:`Cmd + Shift + 3` for a full screen shot, `more information here <https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac>`_)."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:126
-msgid "Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ on Windows or `FlameShot <https://flameshot.org/>`_ on Linux."
+#: ../../docs/getting_started/introduction/learning_new_features.rst:127
+msgid "Alternatively, you can use a program like `ShareX <https://getsharex.com/>`_ on Windows, or `FlameShot <https://flameshot.org/>`_ on Linux."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:129
+#: ../../docs/getting_started/introduction/learning_new_features.rst:130
 msgid "Sharing a video of your running game can also be really **useful to troubleshoot your game**. You can use programs like `OBS Studio <https://obsproject.com/>`_ and `Screen to GIF <https://www.screentogif.com/>`_ to capture your screen."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:134
+#: ../../docs/getting_started/introduction/learning_new_features.rst:135
 msgid "You can then use a service like `streamable <https://streamable.com/>`_ or a cloud provider to upload and share your videos for free."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:137
+#: ../../docs/getting_started/introduction/learning_new_features.rst:138
 msgid "If you're not using the stable version of Godot, please mention the version you're using. The answer can be different as available features and the interface evolve rapidly."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:141
+#: ../../docs/getting_started/introduction/learning_new_features.rst:142
 msgid "Following these guidelines will maximize your chances of getting the answer you're looking for. They will save time both for you and the persons helping you."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:145
+#: ../../docs/getting_started/introduction/learning_new_features.rst:146
 msgid "Community tutorials"
 msgstr ""
 
-#: ../../docs/getting_started/introduction/learning_new_features.rst:147
+#: ../../docs/getting_started/introduction/learning_new_features.rst:148
 msgid "This manual aims to provide a comprehensive reference of Godot's features. Aside from the 2D and 3D getting started series, it does not contain tutorials to implement specific game genres. If you're looking for a tutorial about creating a role-playing game, a platformer, or other, please see :ref:`doc_community_tutorials`, which lists content made by the Godot community."
 msgstr ""
 

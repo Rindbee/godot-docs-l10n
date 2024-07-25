@@ -78,6 +78,7 @@ tutorials/2d/2d_sprite_animation.pot
 tutorials/2d/particle_systems_2d.pot
 tutorials/2d/2d_antialiasing.pot
 tutorials/2d/custom_drawing_in_2d.pot
+tutorials/2d/2d_parallax.pot
 tutorials/2d/2d_movement.pot
 tutorials/2d/using_tilesets.pot
 tutorials/2d/using_tilemaps.pot
@@ -319,6 +320,7 @@ tutorials/scripting/c_sharp/diagnostics/GD0402.pot
 tutorials/scripting/gdextension/index.pot
 tutorials/scripting/gdextension/what_is_gdextension.pot
 tutorials/scripting/gdextension/gdextension_cpp_example.pot
+tutorials/scripting/gdextension/gdextension_file.pot
 tutorials/scripting/how_to_read_the_godot_api.pot
 tutorials/scripting/debug/index.pot
 tutorials/scripting/debug/overview_of_debugging_tools.pot
@@ -386,10 +388,12 @@ tutorials/xr/xr_action_map.pot
 tutorials/xr/xr_room_scale.pot
 tutorials/xr/openxr_composition_layers.pot
 tutorials/xr/openxr_hand_tracking.pot
+tutorials/xr/openxr_body_tracking.pot
 tutorials/xr/introducing_xr_tools.pot
 tutorials/xr/basic_xr_locomotion.pot
-contributing/ways_to_contribute.pot
+contributing/how_to_contribute.pot
 contributing/workflow/index.pot
+contributing/workflow/first_steps.pot
 contributing/workflow/bisecting_regressions.pot
 contributing/workflow/bug_triage_guidelines.pot
 contributing/workflow/pr_workflow.pot

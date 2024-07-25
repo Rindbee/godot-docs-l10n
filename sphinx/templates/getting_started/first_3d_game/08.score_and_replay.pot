@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,7 +193,7 @@ msgid "This line means that when the mob emits the ``squashed`` signal, the ``Sc
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:134
-msgid "Head back to the ``ScoreLabel.gd`` script to define the ``_on_mob_squashed()`` callback function."
+msgid "Head back to the ``score_label.gd`` script to define the ``_on_mob_squashed()`` callback function."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:137
@@ -394,7 +394,7 @@ msgid "image17"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:324
-msgid "Save the scene as ``MusicPlayer.tscn``."
+msgid "Save the scene as ``music_player.tscn``."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:326
@@ -402,7 +402,7 @@ msgid "We have to register it as an autoload. Head to the *Project -> Project Se
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:329
-msgid "In the *Path* field, you want to enter the path to your scene. Click the folder icon to open the file browser and double-click on ``MusicPlayer.tscn``. Then, click the *Add* button on the right to register the node."
+msgid "In the *Path* field, you want to enter the path to your scene. Click the folder icon to open the file browser and double-click on ``music_player.tscn``. Then, click the *Add* button on the right to register the node."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:333
@@ -415,7 +415,7 @@ msgid "image18"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:335
-msgid "``MusicPlayer.tscn`` now loads into any scene you open or play. So if you run the game now, the music will play automatically in any scene."
+msgid "``music_player.tscn`` now loads into any scene you open or play. So if you run the game now, the music will play automatically in any scene."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/08.score_and_replay.rst:338

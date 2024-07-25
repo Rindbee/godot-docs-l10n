@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,6 +126,10 @@ msgstr ""
 
 #: ../../docs/tutorials/platform/consoles.rst:82
 msgid "`Seaven Studio <https://www.seaven-studio.com/>`_ offers Switch, Xbox One, Xbox Series, PlayStation 4 & PlayStation 5 porting of Godot games."
+msgstr ""
+
+#: ../../docs/tutorials/platform/consoles.rst:84
+msgid "`Sickhead Games <https://www.sickhead.com>`_ offers console porting to Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S for Godot games."
 msgstr ""
 
 #: ../../docs/tutorials/platform/consoles.rst:86

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,7 +129,7 @@ msgid "Open **Project** and select **Export..**. Click on **Add..** and select *
 msgstr ""
 
 #: ../../docs/tutorials/xr/deploying_to_android.rst:81
-msgid "If the loader plugins were installed correctly you should find entries for the different headsets, select the entry for meta:"
+msgid "If the vendors plugins were installed correctly you should find entries for the different headsets, select the entry for meta:"
 msgstr ""
 
 #: ../../docs/tutorials/xr/deploying_to_android.rst:85

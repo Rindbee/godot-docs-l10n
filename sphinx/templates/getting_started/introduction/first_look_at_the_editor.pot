@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,14 +162,14 @@ msgid "Clicking on the Help menu and Search Help."
 msgstr ""
 
 #: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:150
-msgid "Clicking while pressing the :kbd:`Ctrl` key on a class name, function name, or built-in variable in the script editor."
+msgid ":kbd:`Ctrl + Click` (:kbd:`Cmd + Click` on macOS) on a class name, function name, or built-in variable in the script editor."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:156
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:155
 msgid "When you do any of these, a window pops up. Type to search for any item. You can also use it to browse available objects and methods."
 msgstr ""
 
-#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:161
+#: ../../docs/getting_started/introduction/first_look_at_the_editor.rst:160
 msgid "Double-click on an item to open the corresponding page in the script main screen."
 msgstr ""
 

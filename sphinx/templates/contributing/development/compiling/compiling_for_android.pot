@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "JDK 17 (either OpenJDK or Oracle JDK)."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_android.rst:41
-msgid "You can download a build from `ojdkbuild <https://adoptium.net/temurin/releases/?variant=openjdk17>`_."
+msgid "You can download a build from `Adoptium <https://adoptium.net/temurin/releases/?variant=openjdk17>`_."
 msgstr ""
 
 #: ../../docs/contributing/development/compiling/compiling_for_android.rst:43

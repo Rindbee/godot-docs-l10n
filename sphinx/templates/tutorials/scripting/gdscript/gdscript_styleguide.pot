@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -417,7 +417,7 @@ msgid "Then, write constants, exported variables, public, private, and onready v
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_styleguide.rst:846
-msgid "The GDScript compiler evaluates onready variables right before the ``_ready`` callback. You can use that to cache node dependencies, that is to say, to get child nodes in the scene that your class relies on. This is what the example above shows."
+msgid "GDScript evaluates ``@onready`` variables right before the ``_ready`` callback. You can use that to cache node dependencies, that is to say, to get child nodes in the scene that your class relies on. This is what the example above shows."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_styleguide.rst:852

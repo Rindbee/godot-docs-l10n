@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-20 18:01+0200\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,7 @@ msgid "If one wishes only to 'import' another class resource (script or scene), 
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/logic_preferences.rst:121
-msgid "If the 'imported' class is liable to change, then it should be a property instead, initialized either using an ``export`` or a ``load()`` (and perhaps not even initialized until later)."
+msgid "If the 'imported' class is liable to change, then it should be a property instead, initialized either using an ``@export`` or a ``load()`` (and perhaps not even initialized until later)."
 msgstr ""
 
 #: ../../docs/tutorials/best_practices/logic_preferences.rst:125
