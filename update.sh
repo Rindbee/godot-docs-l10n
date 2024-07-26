@@ -94,8 +94,8 @@ if [ "$update_sphinx_pot" = true ]; then
   rm -rf $SPHINX_TEMPLATES_DIR/classes
   SPHINX_TEMPLATES=$(find $SPHINX_TEMPLATES_DIR -type f -name "*.pot")
   echo $SPHINX_TEMPLATES
-  # Reduce diff spam when only the date changed.
-  sed -i $SPHINX_TEMPLATES -e 's/"POT-Creation-Date: .*\\n"/"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\\n"/'
+  # Remove POT Creation Date, it generates diff noise.
+  sed -i $SPHINX_TEMPLATES -e '/"POT-Creation-Date: .*\\n"/d'
 fi
 
 # Generate/Update Weblate monolithic template from Sphinx template
@@ -109,7 +109,9 @@ if [ "$update_weblate_pot" = true ]; then
     mkdir $WEBLATE_DIR
   fi
   msgcat -o $WEBLATE_TEMPLATE $SPHINX_TEMPLATES
-  sed -i 's@Report-Msgid-Bugs-To: [^"]*@Report-Msgid-Bugs-To: https://github.com/godotengine/godot-docs-l10n\\n@' $WEBLATE_TEMPLATE
+  # Set bug report info, and re-add POT Creation Date removed from Sphinx POT for Git's sake.
+  date=$(date +"%Y-%m-%d %H:%M%z")
+  sed -i 's@^"Report-Msgid-Bugs-To: .*\"$@"Report-Msgid-Bugs-To: https://github.com/godotengine/godot-docs-l10n\\n"\n"POT-Creation-Date: '${date}'\\n"@' $WEBLATE_TEMPLATE
 fi
 
 # Merge Weblate PO files with Weblate template
