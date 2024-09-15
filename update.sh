@@ -15,7 +15,7 @@ SPHINX_BUILD_LANGS=$(cat build_langs.txt)
 
 WEBLATE_DIR="weblate"
 WEBLATE_TEMPLATE="$WEBLATE_DIR/docs.pot"
-WEBLATE_POFILES=$(find $WEBLATE_DIR -type f -name "*.po" | sort)
+WEBLATE_POFILES="$WEBLATE_DIR/zh_CN.po"
 
 # Used only for --add-langs - languages will mostly be added via Weblate directly
 LANGS="es fr zh_CN"
@@ -89,7 +89,7 @@ fi
 if [ "$update_sphinx_pot" = true ]; then
   echo "=== Updating Sphinx templates from source rst files ==="
   rm -rf $SPHINX_TEMPLATES_DIR
-  make -C $SOURCE_DIR gettext
+  make -C $SOURCE_DIR gettext -e SPHINXOPTS="-j auto"
   # We don't translate the class reference this way.
   rm -rf $SPHINX_TEMPLATES_DIR/classes
   SPHINX_TEMPLATES=$(find $SPHINX_TEMPLATES_DIR -type f -name "*.pot")
