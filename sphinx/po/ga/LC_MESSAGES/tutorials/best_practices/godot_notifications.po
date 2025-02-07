@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -223,13 +223,6 @@ msgstr ""
 "**Sannadh luach tosaigh:** sanntar a luach túsaithe don mhaoin, nó a luach "
 "réamhshocraithe mura sonraítear ceann amháin. Má tá socraitheoir ann, ní "
 "úsáidtear é."
-
-msgid ""
-"**``_init()`` assignment:** the property's value is replaced by any "
-"assignments made in ``_init()``, triggering the setter."
-msgstr ""
-"**''_init()'' sannadh:** Cuirtear aon sannadh a dhéantar in ''_init()'' in "
-"ionad luach na maoine, rud a chuireann tús leis an socraitheoir."
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

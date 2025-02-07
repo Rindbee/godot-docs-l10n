@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,3 +83,6 @@ msgid ""
 msgstr ""
 "要从项目管理器中删除一个标签，你必须从所有使用它的项目中都删除它。一但在项目"
 "管理器被关闭再打开它，这些标签都会不见。"
+
+msgid "Editor plugins"
+msgstr "编辑器插件"

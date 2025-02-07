@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -62,6 +62,9 @@ msgstr "**cumasc_mul**"
 msgid "Multiplicative blend mode."
 msgstr "Modh cumaisc ilfheidhmeach."
 
+msgid "**blend_premul_alpha**"
+msgstr "**cumasc_premul_alpha**"
+
 msgid "**depth_draw_opaque**"
 msgstr "**doimhneach_tarraing_opaque**"
 
@@ -99,9 +102,6 @@ msgstr "Díchumasaigh tástáil doimhneachta."
 msgid "**sss_mode_skin**"
 msgstr "**Ssss_mod_craice**"
 
-msgid "Subsurface Scattering mode for skin."
-msgstr "Modh scaipthe fodhromchla don chraiceann."
-
 msgid "**cull_back**"
 msgstr "**cull_siúl**"
 
@@ -123,14 +123,8 @@ msgstr "Culling faoi mhíchumas (dhá thaobh)."
 msgid "**unshaded**"
 msgstr "**gan scáth**"
 
-msgid "Result is just albedo. No lighting/shading happens in material."
-msgstr "Níl sa toradh ach albedo. Ní tharlaíonn aon soilsiú / scáthú in ábhar."
-
 msgid "**wireframe**"
 msgstr "**sreangfhráma**"
-
-msgid "Geometry draws using lines."
-msgstr "Tarraingíonn céimseata ag baint úsáide as línte."
 
 msgid "**diffuse_burley**"
 msgstr "**diffuse_burley**"
@@ -147,9 +141,6 @@ msgstr "Lambert scáthú le haghaidh idirleata."
 msgid "**diffuse_lambert_wrap**"
 msgstr "**diffuse_lambert_wrap**"
 
-msgid "Lambert wrapping (roughness dependent) for diffuse."
-msgstr "Lambert timfhilleadh (ag brath ar ghairbhe) le haghaidh idirleata."
-
 msgid "**diffuse_toon**"
 msgstr "**diffuse_toon**"
 
@@ -159,47 +150,23 @@ msgstr "Scáthú toon le haghaidh idirleata."
 msgid "**specular_schlick_ggx**"
 msgstr "**specular_schlick_ggx**"
 
-msgid "Schlick-GGX for specular (default)."
-msgstr "Schlick-GGX le haghaidh specular (réamhshocrú)."
-
 msgid "**specular_toon**"
 msgstr "**spéacla_toon**"
-
-msgid "Toon for specular."
-msgstr "Toon do specular."
 
 msgid "**specular_disabled**"
 msgstr "**spéacla_díchumasacháil**"
 
-msgid "Disable specular."
-msgstr "Díchumasaigh specular."
-
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
-
-msgid "VERTEX/NORMAL/etc. need to be transformed manually in vertex function."
-msgstr "Ní mór VERTEX / NORMAL / etc. a chlaochlú de láimh i bhfeidhm vertex."
 
 msgid "**world_vertex_coords**"
 msgstr "**comhordach_vertex_domhana**"
 
-msgid "VERTEX/NORMAL/etc. are modified in world coordinates instead of local."
-msgstr ""
-"Déantar VERTEX / NORMAL / etc. a mhodhnú i gcomhordanáidí domhanda in ionad "
-"áitiúil."
-
 msgid "**ensure_correct_normals**"
 msgstr "**cinnteoireach_ceart_gnáth**"
 
-msgid "Use when non-uniform scale is applied to mesh."
-msgstr ""
-"Úsáid nuair a chuirtear scála neamh-aonfhoirmeach i bhfeidhm ar an mogalra."
-
 msgid "**shadows_disabled**"
 msgstr "**scáthannaí_díchumasa**"
-
-msgid "Disable computing shadows in shader."
-msgstr "Díchumasaigh scáthanna ríomhaireachta sa scáthán."
 
 msgid "**ambient_light_disabled**"
 msgstr "**ambient_light_díchumasaí**"
@@ -222,9 +189,6 @@ msgstr ""
 
 msgid "**vertex_lighting**"
 msgstr "**soilsiú vertex**"
-
-msgid "Use vertex-based lighting."
-msgstr "Bain úsáid as soilsiú vertex-bhunaithe."
 
 msgid "**particle_trails**"
 msgstr "**trealaí_cáithníne**"
@@ -249,27 +213,8 @@ msgstr "**alfa_to_clúdaithe_agus_aon**"
 msgid "**fog_disabled**"
 msgstr "**ceann_díchumasáil**"
 
-msgid ""
-"Disable receiving depth-based or volumetric fog. Useful for blend_add "
-"materials like particles."
-msgstr ""
-"Díchumasaigh ceo doimhneachtbhunaithe nó toirtmhéadrach a fháil. Úsáideach "
-"le haghaidh ábhair blend_add cosúil le cáithníní."
-
 msgid "Built-ins"
 msgstr "Tógtha-ins"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"Tá luachanna marcáilte mar \"i\" inléite amháin. Tá luachanna marcáilte mar "
-"\"amach\" le haghaidh scríbhneoireacht roghnach agus ní gá go mbeadh "
-"luachanna ciallmhara iontu. Soláthraíonn luachanna marcáilte mar \"inout\" "
-"luach réamhshocraithe ciallmhar, agus is féidir iad a scríobh go roghnach. "
-"Ní ábhair scríbhneoireachta iad samplers agus níl siad marcáilte."
 
 msgid "Global built-ins"
 msgstr "Domhanda tógtha-ins"
@@ -289,11 +234,11 @@ msgid "in float **PI**"
 msgstr "i snámhphointe **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
-"Tairiseach ''PI'' (''3.141592''). Ciondáil imlíne an chiorcail ar a "
-"thrastomhas agus méid na radians i leath-sheal."
+"Tairiseach ''PI'' (''3.141592''). Cóimheas idir imlíne ciorcail agus a "
+"thrastomhas agus méid na radians ina leathsheal."
 
 msgid "in float **TAU**"
 msgstr "i snámhphointe **TAU**"
@@ -315,24 +260,11 @@ msgstr ""
 "Tairiseach ''E'' (''2.718281''). Uimhir Euler agus bonn den logartam "
 "nádúrtha."
 
+msgid "in bool **OUTPUT_IS_SRGB**"
+msgstr "i bool **OUTPUT_IS_SRGB**"
+
 msgid "Vertex built-ins"
 msgstr "Vertex tógtha-ins"
-
-msgid ""
-"Vertex data (``VERTEX``, ``NORMAL``, ``TANGENT``, ``BITANGENT``) are "
-"presented in local model space. If not written to, these values will not be "
-"modified and be passed through as they came."
-msgstr ""
-"Cuirtear sonraí vertex ('VERTEX'', ''NORMAL'', ''TANGENT'', ''BITANGENT'') i "
-"láthair i spás samhail áitiúil. Mura bhfuil siad scríofa chuig, ní dhéanfar "
-"na luachanna seo a mhodhnú agus a chur tríd de réir mar a tháinig siad."
-
-msgid ""
-"They can optionally be presented in world space by using the "
-"*world_vertex_coords* render mode."
-msgstr ""
-"Is féidir iad a chur i láthair go roghnach i spás domhanda tríd an modh "
-"rindreála *world_vertex_coords *a úsáid."
 
 msgid ""
 "Users can disable the built-in modelview transform (projection will still "
@@ -341,13 +273,6 @@ msgstr ""
 "Is féidir le húsáideoirí an t-athrú modelview tógtha a dhíchumasú (tarlóidh "
 "teilgean níos déanaí fós) agus é a dhéanamh de láimh leis an gcód seo a "
 "leanas:"
-
-msgid ""
-"Other built-ins, such as UV, UV2 and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"Cuirtear ionsuite eile, mar UV, UV2 agus COLOR, ar aghaidh chuig an bhfeidhm "
-"ilroinnte mura ndéantar iad a mhodhnú."
 
 msgid ""
 "Users can override the modelview and projection transforms using the "
@@ -365,18 +290,8 @@ msgstr ""
 "tharlaíonn teilgean. Mar sin féin, tagann an luach a chuirtear ar aghaidh "
 "chuig an scáthóir blúire fós ó ''VERTEX''."
 
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"Le haghaidh instancing, tá an athróg INSTANCE_CUSTOM na sonraí saincheaptha "
-"shampla. Agus cáithníní á n-úsáid, is iondúil go mbíonn an fhaisnéis seo:"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "** x **: Uillinn rothlaithe i radians."
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "** y **: Céim le linn an tsaoil (0 go 1)."
 
 msgid "**z**: Animation frame."
 msgstr "**z **: Fráma beochana."
@@ -428,42 +343,32 @@ msgstr "Clip spás chun athrú spáis a fheiceáil."
 msgid "in vec3 **NODE_POSITION_WORLD**"
 msgstr "In Vec3 **NODE_POSITION_WORLD**"
 
-msgid "Node world space position."
-msgstr "Suíomh spáis domhanda nód."
+msgid "Node position, in world space."
+msgstr "Seasamh nód, i spás domhanda."
 
 msgid "in vec3 **NODE_POSITION_VIEW**"
 msgstr "In Vec3 **NODE_POSITION_VIEW**"
 
-msgid "Node view space position."
-msgstr "Nód amharc ar shuíomh spáis."
+msgid "Node position, in view space."
+msgstr "Seasamh nód, in view space."
 
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "In Vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera world space position."
-msgstr "Suíomh spáis domhanda ceamara."
+msgid "Camera position, in world space."
+msgstr "Suíomh an cheamara, i spás an domhain."
 
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "In Vec3 **CAMERA_DIRECTION_WORLD**"
 
-msgid "Camera world space direction."
-msgstr "Ceamara treo spás domhan."
+msgid "Camera direction, in world space."
+msgstr "Treo ceamara, i spás domhanda."
 
 msgid "in uint **CAMERA_VISIBLE_LAYERS**"
 msgstr "uain**CAMERA_VISIBLE_LAYERS**"
 
 msgid "Cull layers of the camera rendering the current pass."
 msgstr "Sraitheanna Cull an cheamara rindreáil an pas atá ann faoi láthair."
-
-msgid "in bool **OUTPUT_IS_SRGB**"
-msgstr "i bool **OUTPUT_IS_SRGB**"
-
-msgid ""
-"``true`` when output is in sRGB color space (this is ``true`` in the "
-"Compatibility renderer, ``false`` in Forward+ and Forward Mobile)."
-msgstr ""
-"''true'' nuair a bhíonn an t-aschur i spás datha sRGB (is é seo ''fíor'' sa "
-"rindreálaí Comhoiriúnachta, ''bréagach'' in Forward + agus Forward Mobile)."
 
 msgid "in int **INSTANCE_ID**"
 msgstr "in int**INSTANCE_ID**"
@@ -512,9 +417,6 @@ msgstr ""
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"
 
-msgid "Vertex in local coordinates."
-msgstr "Stuaic i gcomhordanáidí áitiúla."
-
 msgid "in int **VERTEX_ID**"
 msgstr "INT **VERTEX_ID**"
 
@@ -524,26 +426,14 @@ msgstr "Innéacs na stuaic reatha sa mhaolán vertex."
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
 
-msgid "Normal in local coordinates."
-msgstr "Gnáth i gcomhordanáidí áitiúla."
-
 msgid "inout vec3 **TANGENT**"
 msgstr "inout vec3 **TANGENT**"
-
-msgid "Tangent in local coordinates."
-msgstr "Tangent i gcomhordanáidí áitiúla."
 
 msgid "inout vec3 **BINORMAL**"
 msgstr "inout vec3 **BINORMAL**"
 
-msgid "Binormal in local coordinates."
-msgstr "Binormal i gcomhordanáidí áitiúla."
-
 msgid "out vec4 **POSITION**"
 msgstr "amach vec4 **POST**"
-
-msgid "If written to, overrides final vertex position."
-msgstr "Má tá sé scríofa chuig, sáraíonn sé an suíomh deiridh stuaic."
 
 msgid "inout vec2 **UV**"
 msgstr "inout vec2 ** UV **"
@@ -578,17 +468,11 @@ msgstr "Méid pointe le haghaidh rindreáil pointe."
 msgid "inout mat4 **MODELVIEW_MATRIX**"
 msgstr "mat4 inout **MODELVIEW_MATRIX**"
 
-msgid "Model space to view space transform (use if possible)."
-msgstr "Samhail spás chun athrú spáis a fheiceáil (úsáid más féidir)."
-
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "mat3 inout **MODELVIEW_NORMAL_MATRIX**"
 
 msgid "in mat4 **MODEL_MATRIX**"
 msgstr "I Mat4 **MODEL_MATRIX**"
-
-msgid "Model space to world space transform."
-msgstr "Samhail spás a athrú spás domhan."
 
 msgid "in mat3 **MODEL_NORMAL_MATRIX**"
 msgstr "I Mat3 **MODEL_NORMAL_MATRIX**"
@@ -633,17 +517,6 @@ msgstr ""
 "saincheisteanna snámhphointe agus tú ag úsáid an scartha ''MODEL_MATRIX'' "
 "agus ''VIEW_MATRIX''."
 
-msgid ""
-"``INV_VIEW_MATRIX`` is the matrix used for rendering the object in that "
-"pass, not like ``MAIN_CAM_INV_VIEW_MATRIX``, which is the matrix of the "
-"camera in the scene. In the shadow pass, ``INV_VIEW_MATRIX``'s view is based "
-"on the camera that is located at the position of the light."
-msgstr ""
-"Is é ''INV_VIEW_MATRIX'' an maitrís a úsáidtear chun an réad a dhéanamh sa "
-"phas sin, ní cosúil le ''MAIN_CAM_INV_VIEW_MATRIX'', arb é maitrís an "
-"cheamara sa radharc é. Sa phas scátha, tá dearcadh ''INV_VIEW_MATRIX'' "
-"bunaithe ar an gceamara atá suite ag suíomh an tsolais."
-
 msgid "Fragment built-ins"
 msgstr "Blúire tógtha-ins"
 
@@ -666,9 +539,6 @@ msgstr "i vec4 **FRAGCOORD**"
 msgid "in bool **FRONT_FACING**"
 msgstr "i bool **FRONT_FACING**"
 
-msgid "``true`` if current face is front facing."
-msgstr "''fíor'' má tá aghaidh reatha chun tosaigh."
-
 msgid "in vec3 **VIEW**"
 msgstr "in vec3 **AMHARC**"
 
@@ -682,47 +552,20 @@ msgstr ""
 msgid "in vec2 **UV**"
 msgstr "i vec2 ** UV **"
 
-msgid "UV that comes from vertex function."
-msgstr "UV a thagann ó fheidhm vertex."
-
 msgid "in vec2 **UV2**"
 msgstr "i vec2 ** UV2 **"
-
-msgid "UV2 that comes from vertex function."
-msgstr "UV2 a thagann ó fheidhm vertex."
 
 msgid "in vec4 **COLOR**"
 msgstr "i vec4 ** COLOR **"
 
-msgid "COLOR that comes from vertex function."
-msgstr "DATH a thagann ó fheidhm vertex."
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "In Vec2 **POINT_COORD**"
-
-msgid "Point Coordinate for drawing points with POINT_SIZE."
-msgstr "Pointe Comhordanáid le haghaidh pointí líníochta le POINT_SIZE."
 
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "I Mat4 **PROJECTION_MATRIX**"
 
-msgid "Node position, in world space."
-msgstr "Seasamh nód, i spás domhanda."
-
-msgid "Node position, in view space."
-msgstr "Seasamh nód, in view space."
-
-msgid "Camera position, in world space."
-msgstr "Suíomh an cheamara, i spás an domhain."
-
-msgid "Camera direction, in world space."
-msgstr "Treo ceamara, i spás domhanda."
-
 msgid "in vec3 **VERTEX**"
 msgstr "i vec3 **VERTEX**"
-
-msgid "Vertex that comes from vertex function (default, in view space)."
-msgstr "Stuaic a thagann ó fheidhm vertex (réamhshocrú, i spás amhairc)."
 
 msgid "inout vec3 **LIGHT_VERTEX**"
 msgstr "Inout Vec3 **LIGHT_VERTEX**"
@@ -761,53 +604,17 @@ msgstr ""
 msgid "out float **DEPTH**"
 msgstr "snámhphointe amach **DOIMHNEACHT**"
 
-msgid ""
-"Custom depth value (0..1). If ``DEPTH`` is being written to in any shader "
-"branch, then you are responsible for setting the ``DEPTH`` for **all** other "
-"branches. Otherwise, the graphics API will leave them uninitialized."
-msgstr ""
-"Luach doimhneachta saincheaptha (0..1). Má tá ''DOIMHNEACHT'' á scríobh "
-"chuig aon bhrainse shader, ansin tá tú freagrach as an ''DOIMHNEACHT'' a "
-"shocrú do **gach ** brainse eile. Seachas sin, fágfaidh an API grafaicí iad "
-"gan túsú."
-
-msgid "Normal that comes from vertex function (default, in view space)."
-msgstr "Gnáth a thagann ó fheidhm vertex (réamhshocrú, i spás amharc)."
-
-msgid "Tangent that comes from vertex function."
-msgstr "Tangent a thagann ó fheidhm vertex."
-
-msgid "Binormal that comes from vertex function."
-msgstr "Binormal a thagann ó fheidhm vertex."
-
 msgid "out vec3 **NORMAL_MAP**"
 msgstr "amach vec3 **NORMAL_MAP**"
-
-msgid "Set normal here if reading normal from a texture instead of NORMAL."
-msgstr ""
-"Socraigh gnáth anseo má tá tú ag léamh gnáth ó uigeacht in ionad NORMAL."
 
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "snámhphointe amach **NORMAL_MAP_DEPTH**"
 
-msgid "Depth from variable above. Defaults to 1.0."
-msgstr "Doimhneacht ón athróg thuas. Réamhshocruithe go 1.0."
-
 msgid "out vec3 **ALBEDO**"
 msgstr "amach vec3 ** ALBEDO **"
 
-msgid "Albedo (default white)."
-msgstr "Albedo (bán réamhshocraithe)."
-
 msgid "out float **ALPHA**"
 msgstr "snámhphointe amach **ALPHA**"
-
-msgid ""
-"Alpha (0..1); if read from or written to, the material will go to the "
-"transparent pipeline."
-msgstr ""
-"Alfa (0..1); Má léitear ón ábhar nó má scríobhtar chuige é, rachaidh an t-"
-"ábhar go dtí an phíblíne thrédhearcach."
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "snámhphointe amach **ALPHA_SCISSOR_THRESHOLD**"
@@ -828,48 +635,20 @@ msgstr "amach vec2 **ALPHA_TEXTURE_COORDINATE**"
 msgid "out float **METALLIC**"
 msgstr "snámhphointe amach **MIOTALACH**"
 
-msgid "Metallic (0..1)."
-msgstr "Miotalach (0..1)."
-
 msgid "out float **SPECULAR**"
 msgstr "snámhphointe amach **SPECULAR**"
-
-msgid ""
-"Specular. Defaults to 0.5, best not to modify unless you want to change IOR."
-msgstr ""
-"Specular. Réamhshocruithe go 0.5, is fearr gan a mhodhnú ach amháin más mian "
-"leat a athrú IOR."
-
-msgid "Roughness (0..1)."
-msgstr "Gairbhe (0..1)."
 
 msgid "out float **RIM**"
 msgstr "snámhphointe amach **RIM**"
 
-msgid "Rim (0..1). If used, Godot calculates rim lighting."
-msgstr "Imeall (0..1). Má úsáidtear é, ríomhann Godot soilsiú imeall."
-
 msgid "out float **RIM_TINT**"
 msgstr "snámhphointe amach **RIM_TINT**"
-
-msgid ""
-"Rim Tint, goes from 0 (white) to 1 (albedo). If used, Godot calculates rim "
-"lighting."
-msgstr ""
-"Rim Tint, téann ó 0 (bán) go 1 (albedo). Má úsáidtear é, ríomhann Godot "
-"soilsiú imeall."
 
 msgid "out float **CLEARCOAT**"
 msgstr "snámhphointe amach **CLEARCOAT**"
 
-msgid "Small added specular blob. If used, Godot calculates Clearcoat."
-msgstr "Blob specular beag breise. Má úsáidtear é, ríomhann Godot Clearcoat."
-
 msgid "out float **CLEARCOAT_GLOSS**"
 msgstr "snámhphointe amach **CLEARCOAT_GLOSS**"
-
-msgid "Gloss of Clearcoat. If used, Godot calculates Clearcoat."
-msgstr "Snasta Clearcoat. Má úsáidtear é, ríomhann Godot Clearcoat."
 
 msgid "out float **ANISOTROPY**"
 msgstr "snámhphointe amach **ANISOTROPY**"
@@ -886,13 +665,6 @@ msgstr "Treo saobhadh, úsáid le flowmaps."
 msgid "out float **SSS_STRENGTH**"
 msgstr "snámhphointe amach **SSS_STRENGTH**"
 
-msgid ""
-"Strength of Subsurface Scattering. If used, Subsurface Scattering will be "
-"applied to object."
-msgstr ""
-"Neart Scaipeadh Subsurface. Má úsáidtear é, cuirfear Scaipeadh Fodhromchla i "
-"bhfeidhm ar réad."
-
 msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
 msgstr "amach vec4 **SSS_TRANSMITTANCE_COLOR**"
 
@@ -908,48 +680,20 @@ msgstr "inout vec3 **BACKLIGHT**"
 msgid "out float **AO**"
 msgstr "snámhphointe amach **AO**"
 
-msgid "Strength of Ambient Occlusion. For use with pre-baked AO."
-msgstr "Neart an Occlusion Comhthimpeallach. Le húsáid le AO réamhbhácáilte."
-
 msgid "out float **AO_LIGHT_AFFECT**"
 msgstr "snámhphointe amach **AO_LIGHT_AFFECT**"
-
-msgid "How much AO affects lights (0..1; default 0)."
-msgstr "Cé mhéad a théann AO i bhfeidhm ar shoilse (0..1; réamhshocrú 0)."
 
 msgid "out vec3 **EMISSION**"
 msgstr "amach vec3 **ASTAÍOCHTAÍ **"
 
-msgid "Emission color (can go over 1,1,1 for HDR)."
-msgstr "Dath astaíochta (is féidir dul thar 1,1,1 le haghaidh HDR)."
-
 msgid "out vec4 **FOG**"
 msgstr "amach vec4 **FOG**"
-
-msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
-msgstr ""
-"Má tá sé scríofa chuig, blends dath picteilín deiridh le FOG.rgb bunaithe ar "
-"FOG.a."
 
 msgid "out vec4 **RADIANCE**"
 msgstr "amach vec4 **RADIANCE**"
 
-msgid ""
-"If written to, blends environment map radiance with RADIANCE.rgb based on "
-"RADIANCE.a."
-msgstr ""
-"Má tá sé scríofa chuig, blends radiance léarscáil timpeallacht le RADIANCE."
-"rgb bunaithe ar RADIANCE.a."
-
 msgid "out vec4 **IRRADIANCE**"
 msgstr "amach vec4 **IRRADIANCE**"
-
-msgid ""
-"If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
-"on IRRADIANCE.a."
-msgstr ""
-"Má tá sé scríofa chuig, blends léarscáil timpeallacht IRRADIANCE le "
-"IRRADIANCE.rgb bunaithe ar IRRADIANCE.a."
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -968,49 +712,11 @@ msgid "Light built-ins"
 msgstr "Solas-tógtha isteach"
 
 msgid ""
-"Writing light processor functions is completely optional. You can skip the "
-"light function by setting render_mode to ``unshaded``. If no light function "
-"is written, Godot will use the material properties written to in the "
-"fragment function to calculate the lighting for you (subject to the "
-"render_mode)."
-msgstr ""
-"Tá feidhmeanna próiseálaí solais a scríobh go hiomlán roghnach. Is féidir "
-"leat an fheidhm solais a scipeáil trí render_mode a shocrú go ''unshaded''. "
-"Mura bhfuil aon fheidhm éadrom scríofa, úsáidfidh Godot na hairíonna "
-"ábhartha atá scríofa san fheidhm ilroinnte chun an soilsiú a ríomh duit "
-"(faoi réir an render_mode)."
-
-msgid ""
-"The light function is called for every light in every pixel. It is called "
-"within a loop for each light type."
-msgstr ""
-"Glaoitear an fheidhm solais ar gach solas i ngach picteilín. Glaoitear é "
-"laistigh de lúb do gach cineál solais."
-
-msgid ""
-"Below is an example of a custom light function using a Lambertian lighting "
-"model:"
-msgstr ""
-"Seo thíos sampla d'fheidhm solais saincheaptha ag baint úsáide as samhail "
-"soilsithe Lambertian:"
-
-msgid ""
 "If you want the lights to add together, add the light contribution to "
 "``DIFFUSE_LIGHT`` using ``+=``, rather than overwriting it."
 msgstr ""
 "Más mian leat na soilse a chur le chéile, cuir an ranníocaíocht éadrom le "
 "''DIFFUSE_LIGHT'' ag baint úsáide as ''+='', seachas é a fhorscríobh."
-
-msgid ""
-"The ``light()`` function won't be run if the ``vertex_lighting`` render mode "
-"is enabled, or if **Rendering > Quality > Shading > Force Vertex Shading** "
-"is enabled in the Project Settings. (It's enabled by default on mobile "
-"platforms.)"
-msgstr ""
-"Ní reáchtálfar an fheidhm `` solas ()`` má tá an modh rindreála `` "
-"vertex_lighting`` cumasaithe, nó má tá ** Rindreáil > Cáilíocht > Scáthlíniú "
-"> Scáthú Vertex Fórsa** cumasaithe i Socruithe an Tionscadail. (Tá sé "
-"cumasaithe de réir réamhshocraithe ar ardáin soghluaiste.)"
 
 msgid ""
 "Coordinate of pixel center in screen space. ``xy`` specifies position in "
@@ -1033,36 +739,14 @@ msgstr "Féach ar veicteoir, in view space."
 msgid "in vec3 **LIGHT**"
 msgstr "i vec3 ** SOLAS **"
 
-msgid "Light Vector, in view space."
-msgstr "Veicteoir Éadrom, i spás amhairc."
-
 msgid "in vec3 **LIGHT_COLOR**"
 msgstr "In Vec3 **LIGHT_COLOR**"
-
-msgid ""
-"Color of light multiplied by ``energy * PI``. The ``PI`` multiplication is "
-"present because physically-based lighting models include a division by "
-"``PI``."
-msgstr ""
-"Dath an tsolais iolraithe faoi ''fuinneamh * PI''. Tá an t-iolrú ''PI'' i "
-"láthair toisc go n-áirítear le samhlacha soilsithe atá bunaithe go fisiciúil "
-"deighilt le ''PI''."
 
 msgid "in float **SPECULAR_AMOUNT**"
 msgstr "i snámhphointe **SPECULAR_AMOUNT**"
 
-msgid ""
-"2.0 * ``light_specular`` property for ``OmniLight3D`` and ``SpotLight3D``. "
-"1.0 for ``DirectionalLight3D``."
-msgstr ""
-"2.0 * Maoin ''light_specular'' le haghaidh ''OmniLight3D'' agus "
-"''SpotLight3D''. 1.0 le haghaidh ''DirectionalLight3D''."
-
 msgid "in bool **LIGHT_IS_DIRECTIONAL**"
 msgstr "i bool **LIGHT_IS_DIRECTIONAL**"
-
-msgid "``true`` if this pass is a ``DirectionalLight3D``."
-msgstr "''fíor'' más ''DirectionalLight3D' é an pas seo."
 
 msgid "in float **ATTENUATION**"
 msgstr "i snámhphointe **ATTENUATION**"
@@ -1102,13 +786,6 @@ msgstr "amach vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "Toradh solais specular."
-
-msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
-msgstr ""
-"Alfa (0..1); Má scríobhtar chuig an ábhar é, rachaidh an t-ábhar go dtí an "
-"phíblíne thrédhearcach."
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

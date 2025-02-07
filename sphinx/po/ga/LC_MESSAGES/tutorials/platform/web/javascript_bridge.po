@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -124,18 +124,6 @@ msgstr ""
 
 msgid "Can I use my favorite library?"
 msgstr "An féidir liom an leabharlann is fearr liom a úsáid?"
-
-msgid ""
-"You most likely can. First, you have to include your library in the page. "
-"You can simply customize the :ref:`Head Include "
-"<doc_javascript_export_options>` during export (see below), or even :ref:"
-"`write your own template <doc_customizing_html5_shell>`."
-msgstr ""
-"Is dócha gur féidir leat. Ar dtús, caithfidh tú do leabharlann a chur san "
-"áireamh ar an leathanach. Is féidir leat an :ref:`Ceann Áirigh "
-"<doc_javascript_export_options>` a shaincheapadh le linn easpórtála (féach "
-"thíos), nó fiú :ref:`scríobh do theimpléad féin "
-"<doc_customizing_html5_shell>`."
 
 msgid ""
 "In the example below, we customize the ``Head Include`` to add an external "

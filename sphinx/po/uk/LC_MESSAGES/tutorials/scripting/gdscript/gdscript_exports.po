@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -129,34 +129,12 @@ msgstr ""
 msgid "Strings as paths"
 msgstr "Рядки як шляхи"
 
-msgid "String as a path to a file."
-msgstr "Рядок як шлях до файлу."
-
-msgid "String as a path to a directory."
-msgstr "Рядок як шлях до каталогу."
-
-msgid "String as a path to a file, custom filter provided as hint."
-msgstr "Рядок як шлях до файлу, спеціальний фільтр надається як підказка."
-
 msgid ""
 "Using paths in the global filesystem is also possible, but only in scripts "
 "in tool mode."
 msgstr ""
 "Використання шляхів у глобальній файловій системі також можливо, але лише в "
 "сценаріях у інструментальному режимі."
-
-msgid "String as a path to a PNG file in the global filesystem."
-msgstr "Рядок як шлях до файлу PNG у глобальній файловій системі."
-
-msgid "String as a path to a directory in the global filesystem."
-msgstr "Рядок як шлях до каталогу в глобальній файловій системі."
-
-msgid ""
-"The multiline annotation tells the editor to show a large input field for "
-"editing over multiple lines."
-msgstr ""
-"Багаторядкова анотація вказує редактору показувати велике поле введення для "
-"редагування в кількох рядках."
 
 msgid "Limiting editor input ranges"
 msgstr "Обмеження діапазонів введення редактора"
@@ -180,10 +158,6 @@ msgstr "Кольори"
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr "Звичайний колір у вигляді червоно-зелено-синього альфа-значення."
-
-msgid "Color given as red-green-blue value (alpha will always be 1)."
-msgstr ""
-"Колір, поданий як значення червоно-зелено-синього (альфа завжди буде 1)."
 
 msgid "Nodes"
 msgstr "Вузли"
@@ -226,13 +200,6 @@ msgstr ""
 "Однак відкриття спадного меню інспектора може призвести до надзвичайно "
 "довгого списку можливих класів для створення. Тому, якщо ви вкажете таке "
 "розширення ресурсу, як:"
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes."
-msgstr ""
-"Випадаюче меню буде обмежено AnimationNode і всіма його успадкованими "
-"класами."
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

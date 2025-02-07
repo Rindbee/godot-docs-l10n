@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,16 +30,6 @@ msgid ""
 msgstr ""
 "关卡原型是 Godot 中 CSG 的主要用途之一。该技术允许用户通过组合图元来创建最常"
 "见形状的简单版本。可以使用反转图元创建内部环境。"
-
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"Godot 中的 CSG 节点主要用于原型设计，没有内置对 UV 贴图和编辑 3D 多边形的支持"
-"（尽管 CSGPolygon3D 节点中可以使用挤出的 2D 多边形）。另外，CSG 也无法可靠地"
-"创建由多个无孔节点组成的网格。"
 
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
@@ -142,26 +132,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "自定义网格"
-
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"任何网格都可以用于 :ref:`CSGMesh3D <class_CSGMesh3D>`；该网格可以在其他软件中"
-"建模并导入 Godot。支持多种材质。对几何体有一些限制："
-
-msgid "it must be closed,"
-msgstr "它必须被关闭,"
-
-msgid "it must not self-intersect,"
-msgstr "它不能自我相交,"
-
-msgid "it must not contain internal faces,"
-msgstr "它不能包含内部面,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "每条边都必须连接到另外两个面."
 
 msgid "CSGCombiner3D"
 msgstr "CSGCombiner3D"

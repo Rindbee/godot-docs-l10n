@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,15 +21,6 @@ msgstr ""
 "Los shaders CanvasItem se usan para dibujar todos los elementos 2D en Godot. "
 "Estos incluyen todos los nodos que heredan de CanvasItems, y todos los "
 "elementos GUI."
-
-msgid ""
-"CanvasItem shaders contain less built-in variables and functionality than "
-"Spatial shaders, but they maintain the same basic structure with vertex, "
-"fragment, and light processor functions."
-msgstr ""
-"Los shaders CanvasItem contienen menos variables incorporadas y "
-"funcionalidad que los shaders espaciales, pero mantienen la misma estructura "
-"básica con funciones de vértice, fragmento y procesador de luz."
 
 msgid "Render modes"
 msgstr "Modos de renderizado"
@@ -99,18 +90,6 @@ msgstr "**world_vertex_coords**"
 msgid "Built-ins"
 msgstr "Funciones propias"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"Los valores marcados como \"in\" son de sólo lectura. Los valores marcados "
-"como \"out\" son de escritura opcional y no necesariamente contendrán "
-"valores sensibles. Los valores marcados como \"inout\" proporcionan un valor "
-"por defecto sensato y pueden escribirse opcionalmente. Los valores marcados "
-"como \"in\" no son objeto de escritura y no están marcados."
-
 msgid "Global built-ins"
 msgstr "Funciones incorporadas globales"
 
@@ -128,26 +107,8 @@ msgstr "en real **TIME**"
 msgid "Vertex built-ins"
 msgstr "Incorporados en Vertex"
 
-msgid ""
-"Other built-ins, such as UV and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"Otros típos integrados, como UV y COLOR, también se pasan a la función "
-"fragment si no están modificados."
-
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"Para el instanciamiento, la variable INSTANCE_CUSTOM contiene los datos "
-"personalizados de la instancia. Cuando se usan partículas, esta información "
-"es normalment:"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**: Ángulo de rotación en radianes."
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "**y**: Fase durante la vida (0 a 1)."
 
 msgid "**z**: Animation frame."
 msgstr "**z**: Fotograma de animación."
@@ -178,9 +139,6 @@ msgstr "inout vec2 **UV**"
 
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid "Color from vertex primitive."
-msgstr "El color del vértice primitivo."
 
 msgid "inout float **POINT_SIZE**"
 msgstr "inout real **POINT_SIZE**"
@@ -216,9 +174,6 @@ msgstr "Textura 2D por defecto."
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
-msgid "UV from vertex function."
-msgstr "UV de la función del vértice."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 
@@ -231,14 +186,8 @@ msgstr "sampler2D **SCREEN_TEXTURE**"
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
 
-msgid "Normal read from **NORMAL_TEXTURE**. Writable."
-msgstr "Lectura normal de **NORMAL_TEXTURE**. Escrito."
-
 msgid "Default 2D normal texture."
 msgstr "Textura normal 2D por defecto."
-
-msgid "Normalmap depth for scaling."
-msgstr "Profundidad del Normalmap para el escalado."
 
 msgid "Light built-ins"
 msgstr "Incorporados en Light"
@@ -246,15 +195,8 @@ msgstr "Incorporados en Light"
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
-msgid "Input Normal."
-msgstr "Normal de entrada."
-
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
-
-msgid "UV from vertex function, equivalent to the UV in the fragment function."
-msgstr ""
-"UV de la función de vértice, equivalente a la UV en la función de fragmento."
 
 msgid "Current texture in use for CanvasItem."
 msgstr "Textura actual en uso para CanvasItem."

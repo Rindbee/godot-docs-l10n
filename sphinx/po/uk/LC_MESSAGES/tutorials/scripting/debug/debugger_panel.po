@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,16 +28,6 @@ msgid ""
 msgstr ""
 "Панель налагоджувача розділена на кілька вкладок, кожна з яких зосереджена "
 "на певному завданні."
-
-msgid "Debugger"
-msgstr "Засіб діагностики"
-
-msgid ""
-"The Debugger tab opens automatically when the GDScript compiler reaches a "
-"breakpoint in your code."
-msgstr ""
-"Вкладка Debugger відкривається автоматично, коли компілятор GDScript досягає "
-"точки зупину у вашому коді."
 
 msgid ""
 "It gives you a `stack trace <https://en.wikipedia.org/wiki/Stack_trace>`__, "

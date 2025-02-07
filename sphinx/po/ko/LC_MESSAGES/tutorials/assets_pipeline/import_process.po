@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,14 +16,6 @@ msgstr "가져오기 과정"
 
 msgid "Changing import parameters"
 msgstr "가져오기의 매개변수 변경하기"
-
-msgid ""
-"Changing the import parameters of several assets at the same time is also "
-"possible. Simply select all of them together in the resources dock and the "
-"exposed parameters will apply to all of them when reimporting."
-msgstr ""
-"여러 애셋 가져오기 매개변수를 동시에 바꾸는 것도 가능합니다. 간단히 리소스 독"
-"에서 모두를 선택하고 다시 가져올 때 가져온 매개변수를 적용합니다."
 
 msgid "Reimporting multiple assets"
 msgstr "여러 애셋들을 다시 가져오기"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -182,13 +182,6 @@ msgid ""
 msgstr ""
 "進行状況に関係なく、既存のすべてのGame Centerの実績の説明を要求します。この関"
 "数はパラメーターを受け取りません。"
-
-msgid ""
-"Displays the built in Game Center overlay showing leaderboards, "
-"achievements, and challenges."
-msgstr ""
-"組み込みのGame Centerオーバーレイを表示し、リーダーボード、実績、課題を示しま"
-"す。"
 
 msgid "Takes a Dictionary as a parameter, with two fields:"
 msgstr ""

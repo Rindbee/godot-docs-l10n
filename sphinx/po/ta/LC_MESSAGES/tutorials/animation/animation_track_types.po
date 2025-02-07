@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -181,9 +181,6 @@ msgstr ""
 "வெளியேயும் பயன்படுத்தப்படலாம், நீங்கள் அதைச் செய்யலாம்: KBD: `Ctrl + உயர்த்து + Mouse "
 "whel`. பயன்படுத்துதல்: KBD: `ctrl + மாற்று + mouse wheel` ஒய் அச்சில் உள்ளேயும் "
 "வெளியேயும் பெரிதாக்கும்"
-
-msgid "In the right click panel of the editor, you can select the handle mode:"
-msgstr "எடிட்டரின் வலது சொடுக்கு பேனலில், நீங்கள் கைப்பிடி பயன்முறையைத் தேர்ந்தெடுக்கலாம்:"
 
 msgid ""
 "Free: Allows you to orient a manipulator in any direction without affecting "

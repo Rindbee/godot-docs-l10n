@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -259,78 +259,6 @@ msgstr ""
 
 msgid "This is everything that will be disabled:"
 msgstr "Bu, devre dışı bırakılacak her şeyin listesidir:"
-
-msgid "FileDialog"
-msgstr "FileDialog"
-
-msgid "PopupMenu"
-msgstr "PopupMenu"
-
-msgid "Tree"
-msgstr "Tree"
-
-msgid "TextEdit"
-msgstr "TextEdit"
-
-msgid "CodeEdit"
-msgstr "CodeEdit"
-
-msgid "SyntaxHighlighter"
-msgstr "SyntaxHighlighter"
-
-msgid "CodeHighlighter"
-msgstr "CodeHighlighter"
-
-msgid "TreeItem"
-msgstr "TreeItem"
-
-msgid "OptionButton"
-msgstr "OptionButton"
-
-msgid "SpinBox"
-msgstr "SpinBox"
-
-msgid "ColorPicker"
-msgstr "ColorPicker"
-
-msgid "ColorPickerButton"
-msgstr "ColorPickerButton"
-
-msgid "RichTextlabel"
-msgstr "RichTextlabel"
-
-msgid "RichTextEffect"
-msgstr "RichTextEffect"
-
-msgid "CharFXTransform"
-msgstr "CharFXTransform"
-
-msgid "AcceptDialog"
-msgstr "AcceptDialog"
-
-msgid "ConfirmationDialog"
-msgstr "ConfirmationDialog"
-
-msgid "MarginContainer"
-msgstr "MarginContainer"
-
-msgid "SubViewportContainer"
-msgstr "SubViewportContainer"
-
-msgid "SplitContainer"
-msgstr "SplitContainer"
-
-msgid "HSplitContainer"
-msgstr "HSplitContainer"
-
-msgid "VSplitContainer"
-msgstr "VSplitContainer"
-
-msgid "GraphNode"
-msgstr "GraphNode"
-
-msgid "GraphEdit"
-msgstr "GraphEdit"
 
 msgid "Disabling unwanted modules"
 msgstr "İstenmeyen modülleri devre dışı bırakma"

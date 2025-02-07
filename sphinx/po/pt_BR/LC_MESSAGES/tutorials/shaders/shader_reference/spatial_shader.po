@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,6 +34,9 @@ msgstr "**blend_sub**"
 
 msgid "**blend_mul**"
 msgstr "**blend_mul**"
+
+msgid "**blend_premul_alpha**"
+msgstr "**blend_premul_alpha**"
 
 msgid "**depth_draw_opaque**"
 msgstr "**depth_draw_opaque**"
@@ -76,9 +79,6 @@ msgstr "**specular_toon**"
 
 msgid "**specular_disabled**"
 msgstr "**specular_disabled**"
-
-msgid "Disable specular."
-msgstr "Desativar especular."
 
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
@@ -130,12 +130,6 @@ msgstr "sampler2D **SCREEN_TEXTURE**"
 
 msgid "sampler2D **DEPTH_TEXTURE**"
 msgstr "sampler2D **DEPTH_TEXTURE**"
-
-msgid "Metallic (0..1)."
-msgstr "Metálico (0..1)."
-
-msgid "Roughness (0..1)."
-msgstr "Rugosidade (0..1)."
 
 msgid "Light built-ins"
 msgstr "Built-ins de iluminação"

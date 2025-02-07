@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,9 +25,6 @@ msgstr "`D <https://github.com/godot-dlang/godot-dlang>`__"
 
 msgid "`Go <https://github.com/grow-graphics/gd>`__"
 msgstr "`Go <https://github.com/grow-graphics/gd>`__"
-
-msgid "`Haxe <https://hxgodot.github.io/>`__"
-msgstr "`Haxe <https://hxgodot.github.io/>`__"
 
 msgid "`Rust <https://github.com/godot-rust/gdext>`__"
 msgstr "`Rust <https://github.com/godot-rust/gdext>`__"

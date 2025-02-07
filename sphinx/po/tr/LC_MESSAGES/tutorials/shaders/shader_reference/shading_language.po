@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,6 +100,3 @@ msgstr ":ref:`Kanvas ögesi gölgelendiriciler <doc_canvas_item_shader>`"
 
 msgid ":ref:`Particle shaders <doc_particle_shader>`"
 msgstr ":ref:`Parçacık gölgelendiriciler <doc_particle_shader>`"
-
-msgid "Function"
-msgstr "Fonksiyon"

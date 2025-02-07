@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,16 +51,6 @@ msgstr ""
 
 msgid "Built-ins"
 msgstr "Вбудовані"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"Значення, позначені як \"in\", доступні лише для читання. Значення, "
-"позначені як \"out\", призначені для необов'язкового запису та не "
-"обов'язково містять розумні значення. До семплерів не можна писати, тому "
-"вони не позначені."
 
 msgid "Global built-ins"
 msgstr "Глобальні вбудовані функції"
@@ -140,13 +130,6 @@ msgstr ""
 
 msgid "in vec3 **UVW**"
 msgstr "In vec3 **UVW**"
-
-msgid ""
-"3-dimensional uv, used to map a 3D texture to the current :ref:`FogVolume "
-"<class_FogVolume>`."
-msgstr ""
-"3-вимірний uv, який використовується для відображення 3D-текстури в "
-"поточному :ref:`FogVolume <class_FogVolume>`."
 
 msgid "in vec3 **SIZE**"
 msgstr "In vec3 **SIZE**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -534,3 +534,6 @@ msgstr "按 ``:kbd:`Space``` 并按住鼠标左键在2D编辑器中平移."
 
 msgid "Press ``:kbd:`Shift + Up Arrow``` to move the node upwards by 8 pixels."
 msgstr "按 ``:kbd:`Shift+Up Arrow``` 可将节点向上移动8像素."
+
+msgid "Literals"
+msgstr "字面量"

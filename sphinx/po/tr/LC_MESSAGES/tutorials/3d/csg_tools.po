@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,18 +19,6 @@ msgstr "CSGPolygon"
 
 msgid "Custom meshes"
 msgstr "Özel örgüler"
-
-msgid "it must be closed,"
-msgstr "kapalı olmalı,"
-
-msgid "it must not self-intersect,"
-msgstr "kendisiyle kesişmemeli,"
-
-msgid "it must not contain internal faces,"
-msgstr "iç taraf yüzler içermemeli,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "her kenar, sadece iki diğer yüze bağlanmalı."
 
 msgid "Processing order"
 msgstr "İşlem sırası"

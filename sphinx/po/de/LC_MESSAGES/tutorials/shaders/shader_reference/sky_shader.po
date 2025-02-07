@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,18 +114,6 @@ msgstr ""
 "verwendet wird."
 
 msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"Versuchen Sie, eine unnötige Aktualisierung der Radiance Cubemap zu "
-"vermeiden. Wenn Sie die Radiance Cubemap bei jedem Frame aktualisieren "
-"müssen, stellen Sie sicher, dass Ihr :ref:`Sky process mode "
-"<class_Sky_property_process_mode>` auf :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>` gesetzt ist."
-
-msgid ""
 "Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
 "affects the rendering of the radiance cubemap. The visible sky is always "
 "rendered by calling the fragment shader for every pixel. With complex "
@@ -213,16 +201,6 @@ msgstr ""
 msgid "Built-ins"
 msgstr "Built-ins"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"Die als \"in\" gekennzeichneten Werte sind schreibgeschützt. Mit \"out\" "
-"gekennzeichnete Werte sind zum optionalen Schreiben vorgesehen und enthalten "
-"nicht unbedingt sinnvolle Werte. Sampler können nicht beschrieben werden, "
-"daher sind sie nicht markiert."
-
 msgid "Global built-ins"
 msgstr "Globale Built-ins"
 
@@ -248,8 +226,8 @@ msgstr "in float **TIME**"
 msgid "in vec3 **POSITION**"
 msgstr "in vec3 **POSITION**"
 
-msgid "Camera position in world space"
-msgstr "Kameraposition im World-Space"
+msgid "Camera position, in world space."
+msgstr "Kamera-Position im World-Space."
 
 msgid "samplerCube **RADIANCE**"
 msgstr "samplerCube **RADIANCE**"
@@ -264,30 +242,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "in bool **AT_HALF_RES_PASS**"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "Derzeit wird der Halbe-Auflösungs-Durchlauf gerendert."
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "in bool **AT_QUARTER_RES_PASS**"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "Derzeit wird der Viertel-Auflösungs-Durchlauf gerendert."
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "in bool **AT_CUBEMAP_PASS**"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr "Derzeit wird in die Radiance Cubemap gerendert."
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "in bool **LIGHTX_ENABLED**"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"``LightX`` ist sichtbar und in der Szene. Wenn ``false``, können andere "
-"Light Propertys Müll sein."
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "in float **LIGHTX_ENERGY**"

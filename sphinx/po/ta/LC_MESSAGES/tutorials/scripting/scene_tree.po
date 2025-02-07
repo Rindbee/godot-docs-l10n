@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,20 +63,6 @@ msgstr ""
 
 msgid "SceneTree"
 msgstr "காட்சி"
-
-msgid ""
-"One of the ways to explain how Godot works is that it's a high level game "
-"engine over a low level middleware."
-msgstr ""
-"கோடோட் எவ்வாறு செயல்படுகிறது என்பதை விளக்குவதற்கான வழிகளில் ஒன்று, இது குறைந்த "
-"அளவிலான மிடில்வேரில் ஒரு உயர் மட்ட விளையாட்டு இயந்திரம்."
-
-msgid ""
-"The scene system is the game engine, while the :ref:`OS <class_OS>` and "
-"servers are the low level API."
-msgstr ""
-"காட்சி அமைப்பு விளையாட்டு இயந்திரமாகும், அதே நேரத்தில்: ref: `os <class_os>` மற்றும் "
-"சேவையகங்கள் குறைந்த அளவிலான பநிஇ ஆகும்."
 
 msgid ""
 "The scene system provides its own main loop to OS, :ref:`SceneTree "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,60 +33,17 @@ msgstr "Android 上網本"
 msgid "Chromebooks supporting Android apps"
 msgstr "支援 Android 應用的 Chromebook"
 
-msgid "Required Permissions"
-msgstr "系統需求"
-
-msgid ""
-"The Android editor requires the `All files access permission <https://"
-"developer.android.com/training/data-storage/manage-all-files#all-files-"
-"access>`__. The permission allows the editor to create / import / read "
-"project files from any file locations on the device. Without the permission, "
-"the editor is still functional, but has limited access to the device's files "
-"and directories."
-msgstr ""
-"Android 編輯器需要 `所有檔存取權限 <https://developer.android.com/training/"
-"data-storage/manage-all-files#all-files-access>`__。該許可權允許編輯器從裝置"
-"上的任何檔位置建立、匯入和讀取專案檔案。沒有該許可權，編輯器仍可運作，但對裝"
-"置檔和目錄的存取受限。"
-
 msgid "Limitations & known issues"
 msgstr "Xbox One 的限制"
 
 msgid "Here are the known limitations and issues of the Android editor:"
 msgstr "以下是 Android 編輯器的已知局限性和問題："
 
-msgid "No C#/Mono support"
+msgid "No C#/Mono support."
 msgstr "\\|eol\\| 已停止支援。"
 
-msgid "No support for external script editors"
+msgid "No support for external script editors."
 msgstr "尚未支援 MIDI 輸出。"
-
-msgid ""
-"While available, the *Vulkan Forward+* renderer is not recommended due to "
-"severe performance issues"
-msgstr ""
-"*Vulkan Forward+* 算繪器雖然可用，但是由於存在嚴重的性能問題，所以不推薦使用"
-
-msgid ""
-"No support for building and exporting an Android APK binary. As a "
-"workaround, you can generate and export a `Godot PCK or ZIP file <https://"
-"docs.godotengine.org/en/stable/tutorials/export/exporting_projects.html#pck-"
-"versus-zip-pack-file-formats>`__"
-msgstr ""
-"不支援建構和匯出二進位Android APK。作為一種變通的方法，你可以生成和匯出一個"
-"`Godot PCK 或 ZIP<https://docs.godotengine.org/en/stable/tutorials/export/"
-"exporting_projects.html#pck-versus-zip-pack-file-formats>`__"
-
-msgid "No support for building and exporting binaries for other platforms"
-msgstr "不支援其他平臺的二進位建構與匯出"
-
-msgid "UX not optimized for Android phones form-factor"
-msgstr "UX 未針對 Android 手機的尺寸進行優化"
-
-msgid ""
-"The editor doesn't properly resume when *Don't keep activities* is enabled "
-"in the *Developer Options*"
-msgstr "在 *開發者選項* 中啟用 *不保留活動* 後，編輯器將無法正常恢復"
 
 msgid ""
 "See the `list of open issues on GitHub related to the Android editor "

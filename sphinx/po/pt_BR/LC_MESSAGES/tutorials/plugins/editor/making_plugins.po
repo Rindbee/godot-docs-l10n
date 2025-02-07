@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -200,12 +200,12 @@ msgstr ""
 msgid "Checking the results"
 msgstr "Verificando os resultados"
 
-msgid "Going beyond"
-msgstr "Indo além"
-
 msgid "Registering autoloads/singletons in plugins"
 msgstr "Registrando autoloads/singletons em plugins"
 
 msgid "Use the following code to register a singleton from an editor plugin:"
 msgstr ""
 "Use o seguinte código para registrar um singleton de um plugin de editor:"
+
+msgid "Going beyond"
+msgstr "Indo além"

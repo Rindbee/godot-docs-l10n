@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,9 +33,6 @@ msgid ""
 msgstr ""
 "뷰포트의 양쪽에는 **독**이 위치하고 있습니다. 그리고 창의 하단에는 **하단 패"
 "널**이 있습니다."
-
-msgid "The four main screens"
-msgstr "네개의 메인 스크린은 다음과 같습니다."
 
 msgid ""
 "You'll use the **2D screen** for all types of games. In addition to 2D "

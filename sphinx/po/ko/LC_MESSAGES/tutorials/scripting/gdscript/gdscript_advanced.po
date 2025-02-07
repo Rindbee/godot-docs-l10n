@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,9 +47,6 @@ msgstr "GDScript는 동적 타입 언어입니다. 따라서, 주요 장점은 �
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr "대부분의 코드를 쉽고 빠르게 작성하고 변경할 수 있습니다."
 
-msgid "Less code written means less errors & mistakes to fix."
-msgstr "적은 코드 작성으로 오류와 실수를 줄일 수 있습니다."
-
 msgid "No compilation is required to test."
 msgstr "테스트하기 위한 컴파일 작업이 필요 없습니다."
 
@@ -69,11 +66,6 @@ msgid ""
 msgstr ""
 "정적 타입 언어에서 컴파일 시간에 감지되는 오류가 오직 코드를 실행할 때만 나타"
 "납니다 (정적 타입 언어에서의 표현 구문 분석이 더 엄격하기 때문입니다)."
-
-msgid ""
-"Less flexibility for code-completion (some variable types are only known at "
-"run-time)."
-msgstr "코드 완성에 덜 유연함 (일부 변수 타입은 런타임에만 알려집니다)."
 
 msgid "Variables & assignment"
 msgstr "변수 & 할당"
@@ -162,18 +154,6 @@ msgstr "또는 순서가 없는 집합(unordered set)이 될 수도 있습니다
 
 msgid "Dictionaries"
 msgstr "딕셔너리"
-
-msgid ""
-"Dictionaries are a powerful tool in dynamically typed languages. Most "
-"programmers that come from statically typed languages (such as C++ or C#) "
-"ignore their existence and make their life unnecessarily more difficult. "
-"This datatype is generally not present in such languages (or only in limited "
-"form)."
-msgstr ""
-"딕셔너리는 동적 타입 언어에서 강력한 툴입니다. 정적 타입 언어(C++나 C#)를 사"
-"용하는 대부분의 프로그래머는 딕셔너리의 존재를 무시해서 불필요하게 삶을 더 어"
-"렵게 만듭니다. 이 데이터 타입은 일반적으로 그러한 언어에서 존재하지 않습니다"
-"(또는 제한된 형태로만 존재합니다)."
 
 msgid ""
 "Dictionaries can map any value to any other value with complete disregard "
@@ -342,8 +322,3 @@ msgstr ""
 "충돌한 물체에 smash() 함수가 없을 수도 있습니다. 일부 동적 타입 언어는 존재하"
 "지 않는 메서드 호출은 간단히 무시하지만 GDScript는 더 엄격하므로 함수가 존재"
 "하는지 확인하는 것이 바람직합니다:"
-
-msgid ""
-"Then, simply define that method and anything the rock touches can be smashed."
-msgstr ""
-"그런 다음 메서드를 정의하기만 하면 바위가 닿는 모든 것이 박살날 수 있습니다."

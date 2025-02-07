@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,6 +46,9 @@ msgstr ""
 "alternatives d'actifs (ressources) en fonction de la langue actuelle. Cela "
 "peut être utilisé pour des images localisées telles que des panneaux "
 "d'affichage dans le jeu ou des voix localisées."
+
+msgid "Examples:"
+msgstr "Exemples :"
 
 msgid "Converting keys to text"
 msgstr "Conversion de clés en texte"
@@ -104,17 +107,6 @@ msgstr ""
 
 msgid "TranslationServer"
 msgstr "TranslationServer"
-
-msgid ""
-"Godot has a server handling low-level translation management called the :ref:"
-"`TranslationServer <class_TranslationServer>`. Translations can be added or "
-"removed during run-time; the current language can also be changed at run-"
-"time."
-msgstr ""
-"Godot a un serveur qui gère la traduction de bas niveau appelé :ref:"
-"`TranslationServer <class_TranslationServer>`. Les traductions peuvent être "
-"ajoutées ou supprimées pendant l'exécution ; la langue actuelle peut "
-"également être modifiée pendant l'exécution."
 
 msgid "``language``, overrides current project locale."
 msgstr "``language``, remplace la langue actuelle du projet."

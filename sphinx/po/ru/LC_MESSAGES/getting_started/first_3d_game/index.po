@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -66,9 +66,6 @@ msgid ""
 msgstr ""
 "Писать базовый процедурный геймплей, инстанцируя монстров через регулярные "
 "промежутки времени."
-
-msgid "Design a movement animation and change its speed at run-time."
-msgstr "Создавать анимацию движения и изменять ее скорость во время игры."
 
 msgid "Draw a user interface on a 3D game."
 msgstr "Рисовать пользовательский интерфейс 3D-игры."

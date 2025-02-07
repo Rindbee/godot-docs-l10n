@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -256,14 +256,6 @@ msgid ""
 msgstr ""
 "展开检查器下拉菜单可能导致一个极长的可能创建的类别列表。因此，如果你指定从 "
 "Resource 派生的类型的话："
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes. Custom resource classes can also be used, see :ref:"
-"`doc_c_sharp_global_classes`."
-msgstr ""
-"那么下拉菜单将只限于 AnimationNode 及其所有继承的类。也可以使用自定义的资源"
-"类，参见 :ref:`doc_c_sharp_global_classes` 。"
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

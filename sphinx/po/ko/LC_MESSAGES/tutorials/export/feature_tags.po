@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,11 +48,6 @@ msgstr "프로젝트가 편집기에서 실행 중인지 \"독립 실행형\" �
 
 msgid "Many more things."
 msgstr "더 많은 것들."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr ""
-"기능은 다음과 같이 호출하여 런타임에서 싱글톤 API로 부터 질문(query)을 받을 "
-"수 있습니다:"
 
 msgid "Default features"
 msgstr "기본 기능"
@@ -191,9 +186,6 @@ msgid ""
 msgstr ""
 "다음 예제에서, 게임의 데모 빌드를 위해 다른 아이콘이 추가되었습니다 (이것은 "
 "특수 내보내기 프리셋에서 커스터마이즈되었으며, 데모 레벨에만 있습니다)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr "재정의한 후, 지정된 구성을 위한 새로운 영역이 추가됩니다:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

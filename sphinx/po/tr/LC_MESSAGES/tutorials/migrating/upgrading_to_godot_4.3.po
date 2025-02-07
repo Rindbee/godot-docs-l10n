@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,13 +21,6 @@ msgstr ""
 "Bu makale, her bir bozucu değişikliğin GDScript'i etkileyip etkilemediğini "
 "ve C# bozucu değişikliğinin *ikili uyumlu* mu yoksa *kaynak uyumlu* mu "
 "olduğunu gösterir:"
-
-msgid ""
-"**Binary compatible** - Existing binaries will load and execute successfully "
-"without recompilation, and the run-time behavior won't change."
-msgstr ""
-"**İkili uyumlu** - Mevcut ikili dosyalar yeniden derlenmeden başarıyla "
-"yüklenir ve çalıştırılır ve çalışma zamanı davranışı değişmez."
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "

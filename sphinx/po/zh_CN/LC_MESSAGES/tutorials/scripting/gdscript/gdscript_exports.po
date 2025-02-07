@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -120,31 +120,10 @@ msgstr ""
 msgid "Strings as paths"
 msgstr "字符串用作文件路径"
 
-msgid "String as a path to a file."
-msgstr "字符串可以用作文件路径。"
-
-msgid "String as a path to a directory."
-msgstr "字符串也可以用作文件目录路径。"
-
-msgid "String as a path to a file, custom filter provided as hint."
-msgstr "字符串在用作是文件路径时，可以在提示项中提供自定义过滤器。"
-
 msgid ""
 "Using paths in the global filesystem is also possible, but only in scripts "
 "in tool mode."
 msgstr "也可以使用全局文件系统中的路径，仅工具模式下的脚本可以如此使用。"
-
-msgid "String as a path to a PNG file in the global filesystem."
-msgstr "字符串还可以用作全局文件系统中某个 PNG 文件的路径。"
-
-msgid "String as a path to a directory in the global filesystem."
-msgstr "字符串也能用作全局文件系统中某个目录的路径。"
-
-msgid ""
-"The multiline annotation tells the editor to show a large input field for "
-"editing over multiple lines."
-msgstr ""
-"多行文本注释会让编辑器使用大文本输入框来输入文本，而非那种小小的单行输入框。"
 
 msgid "Limiting editor input ranges"
 msgstr "编辑器内限制值的输入范围"
@@ -166,9 +145,6 @@ msgstr "颜色"
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr "使用红、绿、蓝、Alpha 值指定普通颜色。"
-
-msgid "Color given as red-green-blue value (alpha will always be 1)."
-msgstr "使用红、绿、蓝值指定颜色（此时Alpha 始终为 1）。"
 
 msgid "Nodes"
 msgstr "节点"
@@ -207,11 +183,6 @@ msgid ""
 msgstr ""
 "不过，打开检查器的下拉列表可能会导致要创建的资源类列表非常之长。因此，如果在"
 "导出资源时指定了 Resource 的子类，例如："
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes."
-msgstr "那么下拉列表就会缩减限定到 AnimationNode 类资源及其子类资源上。"
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

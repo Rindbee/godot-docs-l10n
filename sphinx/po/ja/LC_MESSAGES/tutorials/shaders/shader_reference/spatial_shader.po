@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -62,6 +62,9 @@ msgstr "\\ **blend_mul**"
 msgid "Multiplicative blend mode."
 msgstr "乗法ブレンドモード。"
 
+msgid "**blend_premul_alpha**"
+msgstr "\\ **blend_premul_alpha**"
+
 msgid "**depth_draw_opaque**"
 msgstr "\\ **depth_draw_opaque**"
 
@@ -95,9 +98,6 @@ msgstr "深度テストを無効にします。"
 msgid "**sss_mode_skin**"
 msgstr "\\ **sss_mode_skin**"
 
-msgid "Subsurface Scattering mode for skin."
-msgstr "スキンの表面下散乱(サブサーフェス・スキャタリング)モード。"
-
 msgid "**cull_back**"
 msgstr "\\ **cull_back**"
 
@@ -119,16 +119,8 @@ msgstr "カリングは無効です(両面を描画)。"
 msgid "**unshaded**"
 msgstr "\\ **unshaded**"
 
-msgid "Result is just albedo. No lighting/shading happens in material."
-msgstr ""
-"**ALBEDO** をそのまま出力します。マテリアルではライティング/シェーディングを"
-"行いません。"
-
 msgid "**wireframe**"
 msgstr "\\ **wireframe**"
-
-msgid "Geometry draws using lines."
-msgstr "ジオメトリはライン描画(ワイヤーフレーム描画)されます。"
 
 msgid "**diffuse_burley**"
 msgstr "\\ **diffuse_burley**"
@@ -145,10 +137,6 @@ msgstr "拡散反射をランバートシェーディングで計算します。
 msgid "**diffuse_lambert_wrap**"
 msgstr "\\ **diffuse_lambert_wrap**"
 
-msgid "Lambert wrapping (roughness dependent) for diffuse."
-msgstr ""
-"拡散反射をランバートラッピング (回り込みはラフネスに依存)で計算します。"
-
 msgid "**diffuse_toon**"
 msgstr "\\ **diffuse_toon**"
 
@@ -158,44 +146,23 @@ msgstr "拡散反射をトゥーンシェーディングで計算します。"
 msgid "**specular_schlick_ggx**"
 msgstr "\\ **specular_schlick_ggx**"
 
-msgid "Schlick-GGX for specular (default)."
-msgstr "鏡面反射をSchlick-GGXで計算します (デフォルト)。"
-
 msgid "**specular_toon**"
 msgstr "\\ **specular_toon**"
-
-msgid "Toon for specular."
-msgstr "鏡面反射をトゥーンで計算します。"
 
 msgid "**specular_disabled**"
 msgstr "\\ **specular_disabled**"
 
-msgid "Disable specular."
-msgstr "鏡面反射を無効にします。"
-
 msgid "**skip_vertex_transform**"
 msgstr "\\ **skip_vertex_transform**"
-
-msgid "VERTEX/NORMAL/etc. need to be transformed manually in vertex function."
-msgstr "VERTEX/NORMAL/その他を、頂点関数で手動で変換する必要があります。"
 
 msgid "**world_vertex_coords**"
 msgstr "\\ **world_vertex_coords**"
 
-msgid "VERTEX/NORMAL/etc. are modified in world coordinates instead of local."
-msgstr "頂点/法線/その他は、ローカル座標ではなくワールド座標で変更されます。"
-
 msgid "**ensure_correct_normals**"
 msgstr "\\ **ensure_correct_normals**"
 
-msgid "Use when non-uniform scale is applied to mesh."
-msgstr "メッシュにuniformではないスケールを適用する場合に使用します。"
-
 msgid "**shadows_disabled**"
 msgstr "\\ **shadows_disabled**"
-
-msgid "Disable computing shadows in shader."
-msgstr "シェーダーで影の計算を無効にします。"
 
 msgid "**ambient_light_disabled**"
 msgstr "\\ **ambient_light_disabled**"
@@ -216,9 +183,6 @@ msgstr ""
 
 msgid "**vertex_lighting**"
 msgstr "\\ **vertex_lighting**"
-
-msgid "Use vertex-based lighting."
-msgstr "頂点ベースのライティングを行います。"
 
 msgid "**particle_trails**"
 msgstr "\\ **particle_trails**"
@@ -242,26 +206,8 @@ msgstr "\\ **alpha_to_coverage_and_one**"
 msgid "**fog_disabled**"
 msgstr "\\ **fog_disabled**"
 
-msgid ""
-"Disable receiving depth-based or volumetric fog. Useful for blend_add "
-"materials like particles."
-msgstr ""
-"深度ベースまたはボリュームフォグの影響を無効にします。パーティクルなどの "
-"blend_add マテリアルを使うときに便利です。"
-
 msgid "Built-ins"
 msgstr "ビルトイン"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"\"in\"としてマークされた変数は読み取り専用です。\"out\"とマークされた変数はオ"
-"プションの書き込み用であり、必ずしも適切な値を含むとは限りません。\"inout\"と"
-"マークされた変数は、適切なデフォルト値を提供し、オプションで書き込むことがで"
-"きます。サンプラーは書込みの対象ではなく、マークされていません。"
 
 msgid "Global built-ins"
 msgstr "グローバルビルトイン"
@@ -279,11 +225,11 @@ msgid "in float **PI**"
 msgstr "\\ in float **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
-"定数 ``PI`` は円周率 (``3.141592``)。円の円周と直径の比率と、半回転のラジアン"
-"量です。"
+"``PI`` 円周率の定数 (``3.141592``)。円の円周とその直径の比率、および半回転の"
+"ラジアン量。"
 
 msgid "in float **TAU**"
 msgstr "\\ in float **TAU**"
@@ -298,24 +244,11 @@ msgstr ""
 msgid "in float **E**"
 msgstr "\\ in float **E**"
 
+msgid "in bool **OUTPUT_IS_SRGB**"
+msgstr "\\ in bool **OUTPUT_IS_SRGB**"
+
 msgid "Vertex built-ins"
 msgstr "頂点プロセッサーのビルトイン"
-
-msgid ""
-"Vertex data (``VERTEX``, ``NORMAL``, ``TANGENT``, ``BITANGENT``) are "
-"presented in local model space. If not written to, these values will not be "
-"modified and be passed through as they came."
-msgstr ""
-"頂点データ(``VERTEX``\\ 、\\ ``NORMAL``\\ 、\\ ``TANGENT``\\ 、\\ "
-"``BITANGENT``)はローカルモデル空間に表示されます。書き込まれていない場合、こ"
-"れらの値は変更されず、そのまま渡されます。"
-
-msgid ""
-"They can optionally be presented in world space by using the "
-"*world_vertex_coords* render mode."
-msgstr ""
-"オプションで、 *world_vertex_coords* レンダリングモードを使用して、ワールド空"
-"間で表示できます。"
 
 msgid ""
 "Users can disable the built-in modelview transform (projection will still "
@@ -323,13 +256,6 @@ msgid ""
 msgstr ""
 "ユーザーは、ビルトインのmodelview変換を無効にし(投影は後で行われます)、次の"
 "コードを使用して手動で実行できます。"
-
-msgid ""
-"Other built-ins, such as UV, UV2 and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"UV、UV2、COLORなどの他のビルトインも、変更されていない場合はフラグメント関数"
-"に渡されます。"
 
 msgid ""
 "Users can override the modelview and projection transforms using the "
@@ -346,18 +272,8 @@ msgstr ""
 "ん。ただしフラグメントシェーダーに渡される値は依然として ``VERTEX`` から取得"
 "されます。"
 
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"インスタンス化の場合、INSTANCE_CUSTOM変数にはインスタンスのカスタムデータが含"
-"まれます。パーティクルを使用する場合、この情報は通常次のとおりです:"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**: ラジアン単位の回転角度。"
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "**y**: ライフタイム中のフェーズ(0〜1)。"
 
 msgid "**z**: Animation frame."
 msgstr "**z**: アニメーションフレーム。"
@@ -398,36 +314,26 @@ msgstr "クリップ空間からビュー空間への変換。"
 msgid "in vec3 **NODE_POSITION_WORLD**"
 msgstr "\\ in vec3 **NODE_POSITION_WORLD**"
 
-msgid "Node world space position."
-msgstr "ノードのワールド空間の位置。"
+msgid "Node position, in world space."
+msgstr "ワールド空間内のノードの位置。"
 
 msgid "in vec3 **NODE_POSITION_VIEW**"
 msgstr "\\ in vec3 **NODE_POSITION_VIEW**"
 
-msgid "Node view space position."
-msgstr "ノードのビュー空間の位置。"
+msgid "Node position, in view space."
+msgstr "ビュー空間内のノードの位置。"
 
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "\\ in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera world space position."
-msgstr "カメラのワールド空間の位置。"
+msgid "Camera position, in world space."
+msgstr "ワールド空間内のカメラの位置。"
 
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "\\ in vec3 **CAMERA_DIRECTION_WORLD**"
 
-msgid "Camera world space direction."
-msgstr "カメラのワールド空間の向き。"
-
-msgid "in bool **OUTPUT_IS_SRGB**"
-msgstr "\\ in bool **OUTPUT_IS_SRGB**"
-
-msgid ""
-"``true`` when output is in sRGB color space (this is ``true`` in the "
-"Compatibility renderer, ``false`` in Forward+ and Forward Mobile)."
-msgstr ""
-"出力がsRGB色空間で行われる場合は ``true`` (互換性レンダラーでは ``true`` 、"
-"Forward+レンダラーおよびモバイルレンダラーでは ``false`` ) です。"
+msgid "Camera direction, in world space."
+msgstr "ワールド空間内のカメラの方向。"
 
 msgid "in int **INSTANCE_ID**"
 msgstr "\\ in int **INSTANCE_ID**"
@@ -477,9 +383,6 @@ msgstr ""
 msgid "inout vec3 **VERTEX**"
 msgstr "\\ inout vec3 **VERTEX**"
 
-msgid "Vertex in local coordinates."
-msgstr "ローカル座標の頂点。"
-
 msgid "in int **VERTEX_ID**"
 msgstr "\\ in int **VERTEX_ID**"
 
@@ -489,26 +392,14 @@ msgstr "頂点バッファー内の現在の頂点インデックス。"
 msgid "inout vec3 **NORMAL**"
 msgstr "\\ inout vec3 **NORMAL**"
 
-msgid "Normal in local coordinates."
-msgstr "ローカル座標での法線。"
-
 msgid "inout vec3 **TANGENT**"
 msgstr "\\ inout vec3 **TANGENT**"
-
-msgid "Tangent in local coordinates."
-msgstr "ローカル座標の接線。"
 
 msgid "inout vec3 **BINORMAL**"
 msgstr "\\ inout vec3 **BINORMAL**"
 
-msgid "Binormal in local coordinates."
-msgstr "ローカル座標の従法線。"
-
 msgid "out vec4 **POSITION**"
 msgstr "\\ out vec4 **POSITION**"
-
-msgid "If written to, overrides final vertex position."
-msgstr "書き込まれた場合、最終的な頂点の位置をオーバーライドします。"
 
 msgid "inout vec2 **UV**"
 msgstr "\\ inout vec2 **UV**"
@@ -543,17 +434,11 @@ msgstr "ポイントレンダリングのポイントサイズ。"
 msgid "inout mat4 **MODELVIEW_MATRIX**"
 msgstr "\\ inout mat4 **MODELVIEW_MATRIX**"
 
-msgid "Model space to view space transform (use if possible)."
-msgstr "モデル空間からビュー空間への変換(可能な場合は使用)。"
-
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "\\ inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 
 msgid "in mat4 **MODEL_MATRIX**"
 msgstr "\\ in mat4 **MODEL_MATRIX**"
-
-msgid "Model space to world space transform."
-msgstr "モデル空間からワールド空間への変換。"
 
 msgid "in mat3 **MODEL_NORMAL_MATRIX**"
 msgstr "\\ in mat3 **MODEL_NORMAL_MATRIX**"
@@ -608,9 +493,6 @@ msgstr "\\ in vec4 **FRAGCOORD**"
 msgid "in bool **FRONT_FACING**"
 msgstr "\\ in bool **FRONT_FACING**"
 
-msgid "``true`` if current face is front facing."
-msgstr "現在の面が正面(面の法線がこちらを向いている)の場合は ``true`` 。"
-
 msgid "in vec3 **VIEW**"
 msgstr "\\ in vec3 **VIEW**"
 
@@ -624,47 +506,20 @@ msgstr ""
 msgid "in vec2 **UV**"
 msgstr "\\ in vec2 **UV**"
 
-msgid "UV that comes from vertex function."
-msgstr "頂点関数からやって来るUV。"
-
 msgid "in vec2 **UV2**"
 msgstr "\\ in vec2 **UV2**"
-
-msgid "UV2 that comes from vertex function."
-msgstr "頂点関数からやって来るUV2。"
 
 msgid "in vec4 **COLOR**"
 msgstr "\\ in vec4 **COLOR**"
 
-msgid "COLOR that comes from vertex function."
-msgstr "頂点関数からやって来るCOLOR。"
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "\\ in vec2 **POINT_COORD**"
-
-msgid "Point Coordinate for drawing points with POINT_SIZE."
-msgstr "POINT_SIZEでポイントを描画するためのポイント座標。"
 
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "\\ in mat4 **PROJECTION_MATRIX**"
 
-msgid "Node position, in world space."
-msgstr "ワールド空間内のノードの位置。"
-
-msgid "Node position, in view space."
-msgstr "ビュー空間内のノードの位置。"
-
-msgid "Camera position, in world space."
-msgstr "ワールド空間内のカメラの位置。"
-
-msgid "Camera direction, in world space."
-msgstr "ワールド空間内のカメラの方向。"
-
 msgid "in vec3 **VERTEX**"
 msgstr "\\ in vec3 **VERTEX**"
-
-msgid "Vertex that comes from vertex function (default, in view space)."
-msgstr "頂点関数からの頂点(デフォルト、ビュー空間内)。"
 
 msgid "inout vec3 **LIGHT_VERTEX**"
 msgstr "\\ inout vec3 **LIGHT_VERTEX**"
@@ -703,52 +558,17 @@ msgstr ""
 msgid "out float **DEPTH**"
 msgstr "\\ out float **DEPTH**"
 
-msgid ""
-"Custom depth value (0..1). If ``DEPTH`` is being written to in any shader "
-"branch, then you are responsible for setting the ``DEPTH`` for **all** other "
-"branches. Otherwise, the graphics API will leave them uninitialized."
-msgstr ""
-"カスタムの深さの値 (0..1)。 ``DEPTH`` がシェーダーのいずれかのブランチで書き"
-"込まれている場合、他の **すべて** のブランチでも ``DEPTH`` を設定する必要があ"
-"ります。そうしないとグラフィックスAPIは初期化されないままになります。"
-
-msgid "Normal that comes from vertex function (default, in view space)."
-msgstr "頂点関数からやって来る法線(デフォルト、ビュース空間内)。"
-
-msgid "Tangent that comes from vertex function."
-msgstr "頂点関数からやって来る接線。"
-
-msgid "Binormal that comes from vertex function."
-msgstr "頂点関数からやって来る従法線。"
-
 msgid "out vec3 **NORMAL_MAP**"
 msgstr "\\ out vec3 **NORMAL_MAP**"
-
-msgid "Set normal here if reading normal from a texture instead of NORMAL."
-msgstr ""
-"NORMALではなくテクスチャから法線を読み取る場合は、ここで法線を設定します。"
 
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "\\ out float **NORMAL_MAP_DEPTH**"
 
-msgid "Depth from variable above. Defaults to 1.0."
-msgstr "上記の変数からの深さ。デフォルトは1.0です。"
-
 msgid "out vec3 **ALBEDO**"
 msgstr "\\ out vec3 **ALBEDO**"
 
-msgid "Albedo (default white)."
-msgstr "アルベド(デフォルトは白)。"
-
 msgid "out float **ALPHA**"
 msgstr "\\ out float **ALPHA**"
-
-msgid ""
-"Alpha (0..1); if read from or written to, the material will go to the "
-"transparent pipeline."
-msgstr ""
-"アルファ値(0..1); これに書き込まれた場合、マテリアルは半透明パイプラインに送"
-"られます。"
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "\\ out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -768,49 +588,20 @@ msgstr "\\ out vec2 **ALPHA_TEXTURE_COORDINATE**"
 msgid "out float **METALLIC**"
 msgstr "\\ out float **METALLIC**"
 
-msgid "Metallic (0..1)."
-msgstr "メタリック(0..1)。"
-
 msgid "out float **SPECULAR**"
 msgstr "\\ out float **SPECULAR**"
-
-msgid ""
-"Specular. Defaults to 0.5, best not to modify unless you want to change IOR."
-msgstr ""
-"スペキュラー。デフォルトは0.5で、IORを変更しない限り変更しないことをお勧めし"
-"ます。"
-
-msgid "Roughness (0..1)."
-msgstr "粗さ(0..1)。"
 
 msgid "out float **RIM**"
 msgstr "\\ out float **RIM**"
 
-msgid "Rim (0..1). If used, Godot calculates rim lighting."
-msgstr "リム(0..1)。使用すると、Godotはリム照明を計算します。"
-
 msgid "out float **RIM_TINT**"
 msgstr "\\ out float **RIM_TINT**"
-
-msgid ""
-"Rim Tint, goes from 0 (white) to 1 (albedo). If used, Godot calculates rim "
-"lighting."
-msgstr ""
-"リムティントは、0(白)から1(アルベド)に移行します。使用すると、Godotはリム照明"
-"を計算します。"
 
 msgid "out float **CLEARCOAT**"
 msgstr "\\ out float **CLEARCOAT**"
 
-msgid "Small added specular blob. If used, Godot calculates Clearcoat."
-msgstr ""
-"小さな追加のスペキュラーblob。使用すると、Godotはクリアコートを計算します。"
-
 msgid "out float **CLEARCOAT_GLOSS**"
 msgstr "\\ out float **CLEARCOAT_GLOSS**"
-
-msgid "Gloss of Clearcoat. If used, Godot calculates Clearcoat."
-msgstr "クリアコートの光沢。使用すると、Godotはクリアコートを計算します。"
 
 msgid "out float **ANISOTROPY**"
 msgstr "\\ out float **ANISOTROPY**"
@@ -827,13 +618,6 @@ msgstr "歪みの方向。フローマップで使用します。"
 msgid "out float **SSS_STRENGTH**"
 msgstr "\\ out float **SSS_STRENGTH**"
 
-msgid ""
-"Strength of Subsurface Scattering. If used, Subsurface Scattering will be "
-"applied to object."
-msgstr ""
-"サブサーフェススキャッタリングの強度。使用すると、サブサーフェススキャッタリ"
-"ングがオブジェクトに適用されます。"
-
 msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
 msgstr "\\ out vec4 **SSS_TRANSMITTANCE_COLOR**"
 
@@ -849,48 +633,20 @@ msgstr "\\ inout vec3 **BACKLIGHT**"
 msgid "out float **AO**"
 msgstr "\\ out float **AO**"
 
-msgid "Strength of Ambient Occlusion. For use with pre-baked AO."
-msgstr "アンビエントオクルージョンの強度。プリベイクドAOで使用します。"
-
 msgid "out float **AO_LIGHT_AFFECT**"
 msgstr "\\ out float **AO_LIGHT_AFFECT**"
-
-msgid "How much AO affects lights (0..1; default 0)."
-msgstr "ライトに影響するAOの量(0..1; デフォルトは0)。"
 
 msgid "out vec3 **EMISSION**"
 msgstr "\\ out vec3 **EMISSION**"
 
-msgid "Emission color (can go over 1,1,1 for HDR)."
-msgstr "発光色(HDRの場合は1,1,1を超えることができます)。"
-
 msgid "out vec4 **FOG**"
 msgstr "\\ out vec4 **FOG**"
-
-msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
-msgstr ""
-"書き込まれた場合、FOG.a に基づいて最終ピクセルカラーを FOG.rgb とブレンドしま"
-"す。"
 
 msgid "out vec4 **RADIANCE**"
 msgstr "\\ out vec4 **RADIANCE**"
 
-msgid ""
-"If written to, blends environment map radiance with RADIANCE.rgb based on "
-"RADIANCE.a."
-msgstr ""
-"書き込まれた場合、RADIANCE.a に基づいて環境マップの放射輝度を RADIANCE.rgb と"
-"ブレンドします。"
-
 msgid "out vec4 **IRRADIANCE**"
 msgstr "\\ out vec4 **IRRADIANCE**"
-
-msgid ""
-"If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
-"on IRRADIANCE.a."
-msgstr ""
-"書き込まれた場合、環境マップ放射照度を IRRADIANCE.a に基づいて IRRADIANCE."
-"rgb とブレンドします。"
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -908,46 +664,11 @@ msgid "Light built-ins"
 msgstr "ライトプロセッサーのビルトイン"
 
 msgid ""
-"Writing light processor functions is completely optional. You can skip the "
-"light function by setting render_mode to ``unshaded``. If no light function "
-"is written, Godot will use the material properties written to in the "
-"fragment function to calculate the lighting for you (subject to the "
-"render_mode)."
-msgstr ""
-"ライトプロセッサ関数の記述は完全にオプションです。 render_modeを ``unshaded``"
-"に設定すると、ライト関数をスキップできます。ライト関数が記述されていない場"
-"合、Godotはフラグメント関数に書き込まれたマテリアルプロパティを使用して、ライ"
-"ティングを計算します(render_modeに従います)。"
-
-msgid ""
-"The light function is called for every light in every pixel. It is called "
-"within a loop for each light type."
-msgstr ""
-"ライト関数は、すべてのピクセルのすべてのライトに対して呼び出されます。各ライ"
-"トタイプのループ内で呼び出されます。"
-
-msgid ""
-"Below is an example of a custom light function using a Lambertian lighting "
-"model:"
-msgstr "以下は、ランバート照明モデルを使用したカスタムライト関数の例です:"
-
-msgid ""
 "If you want the lights to add together, add the light contribution to "
 "``DIFFUSE_LIGHT`` using ``+=``, rather than overwriting it."
 msgstr ""
 "ライトを一緒に追加する場合は、上書きするのではなく、\\ ``+=`` を使用して "
 "``DIFFUSE_LIGHT`` にライトの関与を追加します。"
-
-msgid ""
-"The ``light()`` function won't be run if the ``vertex_lighting`` render mode "
-"is enabled, or if **Rendering > Quality > Shading > Force Vertex Shading** "
-"is enabled in the Project Settings. (It's enabled by default on mobile "
-"platforms.)"
-msgstr ""
-"``vertex_lighting`` レンダリングモードが有効になっている、またはプロジェクト"
-"設定で **レンダリング > シェーディング > 頂点シェーディングの強制** が有効に"
-"なっている場合、 ``light()`` 関数は実行されません。 (モバイルプラットフォーム"
-"ではデフォルトで強制になっています。)"
 
 msgid ""
 "Coordinate of pixel center in screen space. ``xy`` specifies position in "
@@ -970,35 +691,14 @@ msgstr "ビュー空間内のカメラ視線ベクトル。"
 msgid "in vec3 **LIGHT**"
 msgstr "\\ in vec3 **LIGHT**"
 
-msgid "Light Vector, in view space."
-msgstr "ビュー空間内のライトベクトル。"
-
 msgid "in vec3 **LIGHT_COLOR**"
 msgstr "\\ in vec3 **LIGHT_COLOR**"
-
-msgid ""
-"Color of light multiplied by ``energy * PI``. The ``PI`` multiplication is "
-"present because physically-based lighting models include a division by "
-"``PI``."
-msgstr ""
-"光の色に ``エネルギー * PI`` を掛けたもの。物理ベースの照明モデルには ``PI`` "
-"による除算が含まれるため、 ``PI`` が乗算されます。"
 
 msgid "in float **SPECULAR_AMOUNT**"
 msgstr "\\ in float **SPECULAR_AMOUNT**"
 
-msgid ""
-"2.0 * ``light_specular`` property for ``OmniLight3D`` and ``SpotLight3D``. "
-"1.0 for ``DirectionalLight3D``."
-msgstr ""
-"``OmniLight3D`` もしくは ``SpotLight3D`` の場合は 2.0 * ``light_specular`` プ"
-"ロパティ。 ``DirectionalLight3D`` の場合は1.0。"
-
 msgid "in bool **LIGHT_IS_DIRECTIONAL**"
 msgstr "\\ in bool **LIGHT_IS_DIRECTIONAL**"
-
-msgid "``true`` if this pass is a ``DirectionalLight3D``."
-msgstr "``DirectionalLight3D`` の場合は ``true`` 。"
 
 msgid "in float **ATTENUATION**"
 msgstr "\\ in float **ATTENUATION**"
@@ -1038,13 +738,6 @@ msgstr "\\ out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "鏡面反射光の結果。"
-
-msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
-msgstr ""
-"アルファ(0..1); 書き込まれた場合、マテリアルはtransparentパイプラインに送られ"
-"ます。"
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

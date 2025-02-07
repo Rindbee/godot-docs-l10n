@@ -1,0 +1,78 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Introduction"
+msgstr "அறிமுகம்"
+
+msgid "Compatibility"
+msgstr "பொருந்தக்கூடிய தன்மை"
+
+msgid "Mobile"
+msgstr "மொபைல்"
+
+msgid "Forward+"
+msgstr "முன்னோக்கி+"
+
+msgid "Desktop"
+msgstr "டெச்க்டாப்"
+
+msgid "XR"
+msgstr "எக்ச்ஆர்"
+
+msgid "Web"
+msgstr "விரலிடைத் தோல்"
+
+msgid "8"
+msgstr "8"
+
+msgid "LightmapGI"
+msgstr "லைட்மாப்கி"
+
+msgid "VoxelGI"
+msgstr "வோக்சல்கி"
+
+msgid "Screen-Space Indirect Lighting (SSIL)"
+msgstr "திரை-விண்வெளி மறைமுக விளக்குகள் (எச்.எச்.ஐ.எல்)"
+
+msgid "Signed Distance Field Global Illumination (SDFGI)"
+msgstr "கையொப்பமிடப்பட்ட தூர புலம் உலகளாவிய வெளிச்சம் (எச்.டி.எஃப்.சி.ஐ)"
+
+msgid "Environment and post-processing"
+msgstr "சூழல் மற்றும் பிந்தைய செயலாக்கம்"
+
+msgid "Volumetric Fog"
+msgstr "அளவீட்டு மூடுபனி"
+
+msgid "Screen-Space Ambient Occlusion (SSAO)"
+msgstr "திரை-விண்வெளி சுற்றுப்புற மறைவு (SSAO)"
+
+msgid "Glow"
+msgstr "பளபளப்பு"
+
+msgid "Adjustments"
+msgstr "சரிசெய்தல்"
+
+msgid "Antialiasing"
+msgstr "ஆன்டிலிசிங்"
+
+msgid "Screen-space roughness limiter"
+msgstr "திரை-விண்வெளி கடினத்தன்மை வரம்பு"
+
+msgid "Screen texture"
+msgstr "திரை அமைப்பு"
+
+msgid "Depth texture"
+msgstr "ஆழ அமைப்பு"
+
+msgid "Variable rate shading"
+msgstr "மாறி வீத நிழல்"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,15 +29,6 @@ msgstr "தேவைகள்"
 
 msgid "For compiling under Windows, the following is required:"
 msgstr "விண்டோசின் கீழ் தொகுக்க, பின்வருபவை தேவை:"
-
-msgid ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system. Using "
-"the latest release is recommended, especially for proper support of recent "
-"Visual Studio releases."
-msgstr ""
-"`ச்கான் 3.1.2+ <https://scons.org/pages/download.html>` _ அமைப்பை உருவாக்குங்கள். "
-"அண்மைக் கால வெளியீட்டைப் பயன்படுத்துவது பரிந்துரைக்கப்படுகிறது, குறிப்பாக அண்மைக் கால "
-"விசுவல் ச்டுடியோ வெளியீடுகளின் சரியான ஆதரவுக்காக."
 
 msgid ""
 "If you have `Scoop <https://scoop.sh/>`_ installed, you can easily install "
@@ -236,13 +227,6 @@ msgid ""
 msgstr ""
 "இயல்பாக, கோடோட்டின் கட்டமைப்புகள் டைரக்ட் 3 டி 12 கிராபிக்ச் ஏபிஐக்கான ஆதரவைக் "
 "கொண்டிருக்கவில்லை."
-
-msgid ""
-"To compile Godot with Direct3D 12 support you need at least the following "
-"item:"
-msgstr ""
-"டைரக்ட் 3 டி 12 ஆதரவுடன் கோடோட்டை தொகுக்க உங்களுக்கு குறைந்தபட்சம் பின்வரும் உருப்படி "
-"தேவை:"
 
 msgid ""
 "`godot-nir-static library <https://github.com/godotengine/godot-nir-static/"

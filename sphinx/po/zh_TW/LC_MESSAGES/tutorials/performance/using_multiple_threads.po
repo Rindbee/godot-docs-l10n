@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -53,14 +53,6 @@ msgstr ""
 "緒也必須收集它, 所以呼叫 :ref:`Thread."
 "wait_to_finish()<class_Thread_method_wait_to_finish>` , 它將等待中的執行緒完"
 "成(如果還沒有完成), 然後妥善處理它."
-
-msgid ""
-"Creating threads at run-time is slow on Windows and should be avoided to "
-"prevent stuttering. Semaphores, explained later on this page, should be used "
-"instead."
-msgstr ""
-"在 Windows 上，在執行時間建立執行緒速度很慢，應該避免，以防止卡頓出現。應改用"
-"訊號量（本頁稍後將對此進行解釋）。"
 
 msgid "Mutexes"
 msgstr "Mutex"

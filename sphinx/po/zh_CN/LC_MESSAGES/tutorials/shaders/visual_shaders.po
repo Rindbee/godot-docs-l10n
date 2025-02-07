@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,10 +65,6 @@ msgid ""
 "snapping and distance between grid lines (in pixels)."
 msgstr ""
 "下面的按钮和数字输入控制缩放级别, 网格捕捉和网格线之间的距离(单位为像素)."
-
-msgid ""
-"The last icon shows the generated shader code corresponding to your graph."
-msgstr "最后一个图标显示了与你的图形对应生成的着色器代码."
 
 msgid ""
 "Although VisualShaders do not require coding, they share the same logic with "
@@ -299,12 +295,3 @@ msgstr ""
 
 msgid "Switch node"
 msgstr "Switch 节点"
-
-msgid ""
-"The ``Switch`` node returns a vector if the boolean condition is ``true`` or "
-"``false``. ``Boolean`` was introduced above. If you convert a vector to a "
-"true boolean, all components of the vector should be above zero."
-msgstr ""
-"如果布尔条件是 ``true`` 或 ``false`` , ``Switch`` 节点返回一个向量. "
-"``Boolean`` 在上面介绍过. 如果你把一个向量转换为真布尔值, 那么向量的所有分量"
-"都应该高于零."

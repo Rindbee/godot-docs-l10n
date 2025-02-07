@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -58,9 +58,6 @@ msgid ""
 "Code basic procedural gameplay by instancing monsters at regular time "
 "intervals."
 msgstr "通過以固定的時間間隔實例化怪物來編寫基本的程式遊戲玩法。"
-
-msgid "Design a movement animation and change its speed at run-time."
-msgstr "設計移動動畫並在運作時更改其速度。"
 
 msgid "Draw a user interface on a 3D game."
 msgstr "在 3D 遊戲中繪製使用者介面。"

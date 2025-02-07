@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,18 +68,6 @@ msgstr ""
 
 msgid "Your project folder should look like this."
 msgstr "Tu carpeta del proyecto debería verse así."
-
-msgid ""
-"This game is designed for portrait mode, so we need to adjust the size of "
-"the game window. Click on *Project -> Project Settings* to open the project "
-"settings window, in the left column open the *Display -> Window* tab. There, "
-"set \"Viewport Width\" to ``480`` and \"Viewport Height\" to ``720``."
-msgstr ""
-"Este juego está diseñado para el modo vertical, por lo que debemos ajustar "
-"el tamaño de la ventana del juego. Haz clic en *Proyecto -> Configuración "
-"del Proyecto* para abrir la ventana de configuración del proyecto y, en la "
-"columna de la izquierda, abra la pestaña *Display -> Window*. Allí, "
-"establece el \"Viewport Width\" en ``480`` y \"Viewport Height\" en ``720``."
 
 msgid ""
 "Also, under the **Stretch** options, set **Mode** to ``canvas_items`` and "

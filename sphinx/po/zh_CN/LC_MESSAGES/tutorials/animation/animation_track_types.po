@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -163,9 +163,6 @@ msgstr ""
 "为了在手动处理曲线时获得更好的精度，你可能需要更改编辑器的缩放级别。编辑器右"
 "下角的滑块可用于放大和缩小时间轴，你也可以使用 :kbd:`Ctrl + Shift + 鼠标滚轮"
 "` 来执行该操作。使用 :kbd:`Ctrl + Alt + 鼠标滚轮` 将放大和缩小 Y 轴"
-
-msgid "In the right click panel of the editor, you can select the handle mode:"
-msgstr "在编辑器右键面板中，可以选择控柄模式："
 
 msgid ""
 "Free: Allows you to orient a manipulator in any direction without affecting "

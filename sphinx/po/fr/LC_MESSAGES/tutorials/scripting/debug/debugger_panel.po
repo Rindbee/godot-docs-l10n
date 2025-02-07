@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,16 +28,6 @@ msgid ""
 msgstr ""
 "Le débogueur est divisé en plusieurs onglets, chacun se concentrant sur une "
 "tâche spécifique."
-
-msgid "Debugger"
-msgstr "Débogueur"
-
-msgid ""
-"The Debugger tab opens automatically when the GDScript compiler reaches a "
-"breakpoint in your code."
-msgstr ""
-"L'onglet Débogueur s'ouvre automatiquement lorsque le compilateur GDScript "
-"atteint un point d'arrêt dans votre code."
 
 msgid "You can use the buttons in the top-right corner to:"
 msgstr "Vous pouvez utiliser les boutons en haut à droite pour :"

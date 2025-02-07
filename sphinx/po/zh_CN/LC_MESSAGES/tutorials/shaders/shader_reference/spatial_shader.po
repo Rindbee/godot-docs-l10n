@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -60,6 +60,9 @@ msgstr "**blend_mul**"
 msgid "Multiplicative blend mode."
 msgstr "乘法混合模式。"
 
+msgid "**blend_premul_alpha**"
+msgstr "**blend_premul_alpha**"
+
 msgid "**depth_draw_opaque**"
 msgstr "**depth_draw_opaque**"
 
@@ -93,9 +96,6 @@ msgstr "禁用深度测试。"
 msgid "**sss_mode_skin**"
 msgstr "**sss_mode_skin**"
 
-msgid "Subsurface Scattering mode for skin."
-msgstr "Subsurface Scattering（次表面散射）。"
-
 msgid "**cull_back**"
 msgstr "**cull_back**"
 
@@ -117,9 +117,6 @@ msgstr "禁用剔除（双面）。"
 msgid "**unshaded**"
 msgstr "**unshaded**"
 
-msgid "Result is just albedo. No lighting/shading happens in material."
-msgstr "结果只使用反照率。材质中不会发生照明/阴影。"
-
 msgid "**wireframe**"
 msgstr "**wireframe**"
 
@@ -132,9 +129,6 @@ msgstr "**diffuse_lambert**"
 msgid "**diffuse_lambert_wrap**"
 msgstr "**diffuse_lambert_wrap**"
 
-msgid "Lambert wrapping (roughness dependent) for diffuse."
-msgstr "漫反射使用 Lambert 环绕（受粗糙度影响）。"
-
 msgid "**diffuse_toon**"
 msgstr "**diffuse_toon**"
 
@@ -144,44 +138,23 @@ msgstr "漫反射使用卡通着色。"
 msgid "**specular_schlick_ggx**"
 msgstr "**specular_schlick_ggx**"
 
-msgid "Schlick-GGX for specular (default)."
-msgstr "镜面反射使用 Schlick-GGX（默认）。"
-
 msgid "**specular_toon**"
 msgstr "**specular_toon**"
-
-msgid "Toon for specular."
-msgstr "镜面反射使用 Toon。"
 
 msgid "**specular_disabled**"
 msgstr "**specular_disabled**"
 
-msgid "Disable specular."
-msgstr "禁用镜面反射。"
-
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
-
-msgid "VERTEX/NORMAL/etc. need to be transformed manually in vertex function."
-msgstr "VERTEX/NORMAL 等需要在顶点函数中手动进行转换。"
 
 msgid "**world_vertex_coords**"
 msgstr "**world_vertex_coords**"
 
-msgid "VERTEX/NORMAL/etc. are modified in world coordinates instead of local."
-msgstr "VERTEX/NORMAL 等是以世界坐标而不是局部坐标修改的。"
-
 msgid "**ensure_correct_normals**"
 msgstr "**ensure_correct_normals**"
 
-msgid "Use when non-uniform scale is applied to mesh."
-msgstr "当对网格应用非均匀尺度时。"
-
 msgid "**shadows_disabled**"
 msgstr "**shadows_disabled**"
-
-msgid "Disable computing shadows in shader."
-msgstr "在着色器中禁用阴影计算。"
 
 msgid "**ambient_light_disabled**"
 msgstr "**ambient_light_disabled**"
@@ -203,9 +176,6 @@ msgstr ""
 msgid "**vertex_lighting**"
 msgstr "**vertex_lighting**"
 
-msgid "Use vertex-based lighting."
-msgstr "使用基于顶点的照明。"
-
 msgid ""
 "Alpha antialiasing mode, see `here <https://github.com/godotengine/godot/"
 "pull/40364>`_ for more."
@@ -218,16 +188,6 @@ msgstr "**fog_disabled**"
 
 msgid "Built-ins"
 msgstr "内置"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"标记为“in”的值只读。标记为“out”的值可以选择写入，不一定包含有意义的值。标记"
-"为“inout”的值提供了有意义的默认值，可以选择写入。采样器始终无法写入，不进行标"
-"记。"
 
 msgid "Global built-ins"
 msgstr "全局内置"
@@ -245,10 +205,11 @@ msgid "in float **PI**"
 msgstr "in float **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
-"``PI`` 常数（\\ ``3.141592``\\ ）。圆的周长与直径的比值，即转半圈对应的弧度。"
+"圆周率常量 ``PI``\\ （\\ ``3.141592``\\ ）。圆的周长与直径的比值，转半圈的弧"
+"度值。"
 
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
@@ -268,22 +229,11 @@ msgid ""
 "logarithm."
 msgstr "``E`` 常数（\\ ``2.718281``\\ ）。欧拉数，即自然对数的底。"
 
+msgid "in bool **OUTPUT_IS_SRGB**"
+msgstr "in bool **OUTPUT_IS_SRGB**"
+
 msgid "Vertex built-ins"
 msgstr "顶点内置"
-
-msgid ""
-"Vertex data (``VERTEX``, ``NORMAL``, ``TANGENT``, ``BITANGENT``) are "
-"presented in local model space. If not written to, these values will not be "
-"modified and be passed through as they came."
-msgstr ""
-"顶点数据(``VERTEX``, ``NORMAL``, ``TANGENT``, ``BITANGENT``) 是在本地模型空间"
-"中呈现. 如果不写入, 这些值将不会被修改, 并按其原来的样子传递."
-
-msgid ""
-"They can optionally be presented in world space by using the "
-"*world_vertex_coords* render mode."
-msgstr ""
-"通过使用 *world_vertex_coords* 渲染模式, 它们可以选择性地在世界空间中呈现."
 
 msgid ""
 "Users can disable the built-in modelview transform (projection will still "
@@ -291,23 +241,8 @@ msgid ""
 msgstr ""
 "用户可以禁用内置的modelview变换(以后仍会发生投影), 并通过以下代码手动完成:"
 
-msgid ""
-"Other built-ins, such as UV, UV2 and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"其他的内置函数, 如UV, UV2和COLOR, 如果没有修改, 也会传递给fragment片段函数."
-
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"对于实例化，INSTANCE_CUSTOM变量包含实例自定义数据. 使用粒子时, 此信息通常是:"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**\\ ：旋转角度，单位为弧度。"
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "**y**\\ ：生命周期的阶段（0 到 1）。"
 
 msgid "**z**: Animation frame."
 msgstr "**z**\\ ：动画帧。"
@@ -347,39 +282,29 @@ msgstr "裁剪空间向视图空间变换。"
 msgid "in vec3 **NODE_POSITION_WORLD**"
 msgstr "in vec3 **NODE_POSITION_WORLD**"
 
-msgid "Node world space position."
-msgstr "节点在世界空间的位置。"
+msgid "Node position, in world space."
+msgstr "节点的位置，使用世界空间。"
 
 msgid "in vec3 **NODE_POSITION_VIEW**"
 msgstr "in vec3 **NODE_POSITION_VIEW**"
 
-msgid "Node view space position."
-msgstr "节点在视图空间的位置。"
+msgid "Node position, in view space."
+msgstr "节点的位置，使用视图空间。"
 
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera world space position."
-msgstr "相机在世界空间的位置。"
+msgid "Camera position, in world space."
+msgstr "相机的位置，使用世界空间。"
 
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
-msgid "Camera world space direction."
-msgstr "相机在世界空间的方向。"
+msgid "Camera direction, in world space."
+msgstr "相机的方向，使用世界空间。"
 
 msgid "Cull layers of the camera rendering the current pass."
 msgstr "剔除当前渲染阶段中相机不渲染的图层。"
-
-msgid "in bool **OUTPUT_IS_SRGB**"
-msgstr "in bool **OUTPUT_IS_SRGB**"
-
-msgid ""
-"``true`` when output is in sRGB color space (this is ``true`` in the "
-"Compatibility renderer, ``false`` in Forward+ and Forward Mobile)."
-msgstr ""
-"输出在sRGB色彩空间时，值为 ``true`` (渲染器的渲染方法是Compatibility时为 "
-"``true`` ，渲染方法是Forward+和Forward Mobile时为 ``false`` )。"
 
 msgid "in int **INSTANCE_ID**"
 msgstr "in int **INSTANCE_ID**"
@@ -426,35 +351,20 @@ msgstr "正在渲染的眼睛处的偏移量，仅适用于多视图渲染。"
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"
 
-msgid "Vertex in local coordinates."
-msgstr "局部坐标中的顶点."
-
 msgid "in int **VERTEX_ID**"
 msgstr "in int **VERTEX_ID**"
 
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
 
-msgid "Normal in local coordinates."
-msgstr "局部坐标法线."
-
 msgid "inout vec3 **TANGENT**"
 msgstr "inout vec3 **TANGENT**"
-
-msgid "Tangent in local coordinates."
-msgstr "局部坐标切线."
 
 msgid "inout vec3 **BINORMAL**"
 msgstr "inout vec3 **BINORMAL**"
 
-msgid "Binormal in local coordinates."
-msgstr "局部坐标次法线."
-
 msgid "out vec4 **POSITION**"
 msgstr "out vec4 **POSITION**"
-
-msgid "If written to, overrides final vertex position."
-msgstr "如果写入, 则覆盖最终顶点位置."
 
 msgid "inout vec2 **UV**"
 msgstr "inout vec2 **UV**"
@@ -489,17 +399,11 @@ msgstr "点渲染的点大小."
 msgid "inout mat4 **MODELVIEW_MATRIX**"
 msgstr "inout mat4 **MODELVIEW_MATRIX**"
 
-msgid "Model space to view space transform (use if possible)."
-msgstr "模型空间向视图空间变换(如果可用)."
-
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 
 msgid "in mat4 **MODEL_MATRIX**"
 msgstr "in mat4 **MODEL_MATRIX**"
-
-msgid "Model space to world space transform."
-msgstr "模型空间到世界空间变换."
 
 msgid "in mat3 **MODEL_NORMAL_MATRIX**"
 msgstr "in mat3 **MODEL_NORMAL_MATRIX**"
@@ -554,47 +458,20 @@ msgstr ""
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
-msgid "UV that comes from vertex function."
-msgstr "来自顶点功能的UV."
-
 msgid "in vec2 **UV2**"
 msgstr "in vec2 **UV2**"
-
-msgid "UV2 that comes from vertex function."
-msgstr "来自顶点功能的UV2."
 
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
 
-msgid "COLOR that comes from vertex function."
-msgstr "来自顶点功能的颜色."
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "in vec2 **POINT_COORD**"
-
-msgid "Point Coordinate for drawing points with POINT_SIZE."
-msgstr "用POINT_SIZE绘制的点坐标."
 
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "in mat4 **PROJECTION_MATRIX**"
 
-msgid "Node position, in world space."
-msgstr "节点的位置，使用世界空间。"
-
-msgid "Node position, in view space."
-msgstr "节点的位置，使用视图空间。"
-
-msgid "Camera position, in world space."
-msgstr "相机的位置，使用世界空间。"
-
-msgid "Camera direction, in world space."
-msgstr "相机的方向，使用世界空间。"
-
 msgid "in vec3 **VERTEX**"
 msgstr "in vec3 **VERTEX**"
-
-msgid "Vertex that comes from vertex function (default, in view space)."
-msgstr "来自顶点函数的顶点(默认情况下, 在视图空间中)."
 
 msgid "inout vec3 **LIGHT_VERTEX**"
 msgstr "inout vec3 **LIGHT_VERTEX**"
@@ -630,49 +507,17 @@ msgstr "在 Godot 4 中移除。请改用 ``sampler2D`` 和 ``hint_depth_texture
 msgid "out float **DEPTH**"
 msgstr "out float **DEPTH**"
 
-msgid ""
-"Custom depth value (0..1). If ``DEPTH`` is being written to in any shader "
-"branch, then you are responsible for setting the ``DEPTH`` for **all** other "
-"branches. Otherwise, the graphics API will leave them uninitialized."
-msgstr ""
-"自定义深度值 (0..1)。如果在着色器的任何分支中写入了 ``DEPTH``\\ ，那么你就需"
-"要负责在\\ **所有**\\ 其他分支中设置 ``DEPTH``\\ 。否则图形 API 不会对其进行"
-"初始化。"
-
-msgid "Normal that comes from vertex function (default, in view space)."
-msgstr "来自于顶点函数的法向量(默认情况下, 在视图空间中)."
-
-msgid "Tangent that comes from vertex function."
-msgstr "来自顶点函数的切线."
-
-msgid "Binormal that comes from vertex function."
-msgstr "来自顶点函数的副法线。"
-
 msgid "out vec3 **NORMAL_MAP**"
 msgstr "out vec3 **NORMAL_MAP**"
-
-msgid "Set normal here if reading normal from a texture instead of NORMAL."
-msgstr "如果从纹理中读取法线而不是NORMAL, 在这里设置normal."
 
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "out float **NORMAL_MAP_DEPTH**"
 
-msgid "Depth from variable above. Defaults to 1.0."
-msgstr "从变量上方深度. 默认为1.0."
-
 msgid "out vec3 **ALBEDO**"
 msgstr "out vec3 **ALBEDO**"
 
-msgid "Albedo (default white)."
-msgstr "反射(默认为白色)."
-
 msgid "out float **ALPHA**"
 msgstr "out float **ALPHA**"
-
-msgid ""
-"Alpha (0..1); if read from or written to, the material will go to the "
-"transparent pipeline."
-msgstr "Alpha (0..1);如果写入，材质将进入透明渲染管线中进行处理。"
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -692,44 +537,20 @@ msgstr "out vec2 **ALPHA_TEXTURE_COORDINATE**"
 msgid "out float **METALLIC**"
 msgstr "out float **METALLIC**"
 
-msgid "Metallic (0..1)."
-msgstr "金属性（0..1）。"
-
 msgid "out float **SPECULAR**"
 msgstr "out float **SPECULAR**"
-
-msgid ""
-"Specular. Defaults to 0.5, best not to modify unless you want to change IOR."
-msgstr "镜面反射。默认为 0.5，最好不要修改，除非你想改变 IOR。"
-
-msgid "Roughness (0..1)."
-msgstr "粗糙度(0..1)."
 
 msgid "out float **RIM**"
 msgstr "out float **RIM**"
 
-msgid "Rim (0..1). If used, Godot calculates rim lighting."
-msgstr "边缘(0-1区间). 如果使用,Godot计算边缘照明."
-
 msgid "out float **RIM_TINT**"
 msgstr "out float **RIM_TINT**"
-
-msgid ""
-"Rim Tint, goes from 0 (white) to 1 (albedo). If used, Godot calculates rim "
-"lighting."
-msgstr "边缘色调, 从0(白色)到1(反射). 如果使用,Godot会计算边缘光照."
 
 msgid "out float **CLEARCOAT**"
 msgstr "out float **CLEARCOAT**"
 
-msgid "Small added specular blob. If used, Godot calculates Clearcoat."
-msgstr "小幅增加镜面反射斑点。如果使用，Godot 将计算清漆涂层。"
-
 msgid "out float **CLEARCOAT_GLOSS**"
 msgstr "out float **CLEARCOAT_GLOSS**"
-
-msgid "Gloss of Clearcoat. If used, Godot calculates Clearcoat."
-msgstr "清漆涂层的光泽度. 如果使用,Godot计算清漆涂层."
 
 msgid "out float **ANISOTROPY**"
 msgstr "out float **ANISOTROPY**"
@@ -746,11 +567,6 @@ msgstr "失真方向, 与流程图一起使用."
 msgid "out float **SSS_STRENGTH**"
 msgstr "out float **SSS_STRENGTH**"
 
-msgid ""
-"Strength of Subsurface Scattering. If used, Subsurface Scattering will be "
-"applied to object."
-msgstr "次表面散射强度. 如果使用, 物体将应用次表面散射."
-
 msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
 msgstr "out vec4 **SSS_TRANSMITTANCE_COLOR**"
 
@@ -766,42 +582,20 @@ msgstr "inout vec3 **BACKLIGHT**"
 msgid "out float **AO**"
 msgstr "out float **AO**"
 
-msgid "Strength of Ambient Occlusion. For use with pre-baked AO."
-msgstr "环境遮挡. 与预焙环境遮挡一起使用."
-
 msgid "out float **AO_LIGHT_AFFECT**"
 msgstr "out float **AO_LIGHT_AFFECT**"
-
-msgid "How much AO affects lights (0..1; default 0)."
-msgstr "环境遮挡对灯光的影响程度(取值在0到1之间. 默认为0)."
 
 msgid "out vec3 **EMISSION**"
 msgstr "out vec3 **EMISSION**"
 
-msgid "Emission color (can go over 1,1,1 for HDR)."
-msgstr "发射颜色(HDR可以超过1,1,1)."
-
 msgid "out vec4 **FOG**"
 msgstr "out vec4 **FOG**"
-
-msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
-msgstr "如果修改该值，最终像素的颜色会融合基于FOG.a的FOG.rgb。"
 
 msgid "out vec4 **RADIANCE**"
 msgstr "out vec4 **RADIANCE**"
 
-msgid ""
-"If written to, blends environment map radiance with RADIANCE.rgb based on "
-"RADIANCE.a."
-msgstr "如果修改该值，环境贴图的辐亮度会融合基于RADIANCE.a的RADIANCE.rgb。"
-
 msgid "out vec4 **IRRADIANCE**"
 msgstr "out vec4 **IRRADIANCE**"
-
-msgid ""
-"If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
-"on IRRADIANCE.a."
-msgstr "如果修改该值，环境贴图的辐照度会融合基于IRRADIANCE.a的IRRADIANCE.rgb。"
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -818,42 +612,11 @@ msgid "Light built-ins"
 msgstr "内置灯光"
 
 msgid ""
-"Writing light processor functions is completely optional. You can skip the "
-"light function by setting render_mode to ``unshaded``. If no light function "
-"is written, Godot will use the material properties written to in the "
-"fragment function to calculate the lighting for you (subject to the "
-"render_mode)."
-msgstr ""
-"编写光处理器功能是完全可选的。你可以通过设置 render_mode 为 ``unshaded`` 来跳"
-"过光照函数。如果没有写入光照函数，Godot 将使用片段函数中写入的材质属性来为你"
-"计算光照（取决于 render_mode）。"
-
-msgid ""
-"The light function is called for every light in every pixel. It is called "
-"within a loop for each light type."
-msgstr "每个像素中的每个光都调用光照函数. 在每个光类型的循环中被调用."
-
-msgid ""
-"Below is an example of a custom light function using a Lambertian lighting "
-"model:"
-msgstr "下面是一个使用兰伯特光照模型的自定义光函数的例子:"
-
-msgid ""
 "If you want the lights to add together, add the light contribution to "
 "``DIFFUSE_LIGHT`` using ``+=``, rather than overwriting it."
 msgstr ""
 "如果你想把这些光照加在一起，请使用 ``+=`` 运算符将光线添加到 "
 "``DIFFUSE_LIGHT`` 函数中，不要覆盖它。"
-
-msgid ""
-"The ``light()`` function won't be run if the ``vertex_lighting`` render mode "
-"is enabled, or if **Rendering > Quality > Shading > Force Vertex Shading** "
-"is enabled in the Project Settings. (It's enabled by default on mobile "
-"platforms.)"
-msgstr ""
-"如果启用了 ``vertex_lighting`` 渲染模式, 或者在项目设置中启用了 **Rendering渲"
-"染>Quality质量>Shading着色>强制顶点着色** , 则不会运行 ``light()`` 函数.(在移"
-"动平台上默认启用.)"
 
 msgid ""
 "Coordinate of pixel center in screen space. ``xy`` specifies position in "
@@ -875,35 +638,14 @@ msgstr "视图向量, 在视图空间中."
 msgid "in vec3 **LIGHT**"
 msgstr "in vec3 **LIGHT**"
 
-msgid "Light Vector, in view space."
-msgstr "灯光向量, 在视图空间中."
-
 msgid "in vec3 **LIGHT_COLOR**"
 msgstr "in vec3 **LIGHT_COLOR**"
-
-msgid ""
-"Color of light multiplied by ``energy * PI``. The ``PI`` multiplication is "
-"present because physically-based lighting models include a division by "
-"``PI``."
-msgstr ""
-"光的颜色与 ``energy * PI`` 相乘。π在该乘法中出现，是因为基于物理的光照模型在"
-"计算时会包含除以π的步骤。"
 
 msgid "in float **SPECULAR_AMOUNT**"
 msgstr "in float **SPECULAR_AMOUNT**"
 
-msgid ""
-"2.0 * ``light_specular`` property for ``OmniLight3D`` and ``SpotLight3D``. "
-"1.0 for ``DirectionalLight3D``."
-msgstr ""
-"在 ``OmniLight3D`` 和 ``SpotLight3D`` 节点中是 2.0 * ``light_specular``\\ ，"
-"在 ``DirectionalLight3D`` 节点中是 1.0。"
-
 msgid "in bool **LIGHT_IS_DIRECTIONAL**"
 msgstr "in bool **LIGHT_IS_DIRECTIONAL**"
-
-msgid "``true`` if this pass is a ``DirectionalLight3D``."
-msgstr "如果为 ``true`` 则该通道是一个 ``DirectionalLight3D``\\ 。"
 
 msgid "in float **ATTENUATION**"
 msgstr "in float **ATTENUATION**"
@@ -940,8 +682,3 @@ msgstr "out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "镜面反射光效果。"
-
-msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
-msgstr "Alpha (0..1);如果写入, 材质将进入透明管道."

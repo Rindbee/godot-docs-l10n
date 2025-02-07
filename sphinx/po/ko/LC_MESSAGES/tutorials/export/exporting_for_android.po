@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -98,9 +98,6 @@ msgstr ""
 "다. Godot은 고해상도 아이콘 (``xxxhdpi``) 만 필요하며 저해상도는 자동으로 생"
 "성합니다."
 
-msgid "There are two types of icons required by Godot:"
-msgstr "Godot에서 요구하는 아이콘 종류는 두 가지가 있습니다:"
-
 msgid ""
 "**Main Icon:** The \"classic\" icon. This will be used on all Android "
 "versions up to Android 8 (Oreo), exclusive. Must be at least 192×192 px."
@@ -140,13 +137,6 @@ msgid ""
 msgstr ""
 "적응형 아이콘 디자인에서 가장 중요한 규칙은 아이콘의 중요 요소들이 잘리지 않"
 "도록 66dp (``xxxhdpi`` 에서 264 픽셀) 반경의 원 안에 배치하는 것입니다."
-
-msgid ""
-"If you don't provide some of the requested icons, Godot will replace them "
-"using a fallback chain, trying the next in line when the current one fails:"
-msgstr ""
-"만약 아이콘을 전부 추가하지 않았다면 Godot은 추가되지 않은 아이콘을 fallback "
-"chain을 사용해 다음의 순서로 대체를 시도합니다:"
 
 msgid ""
 "**Main Icon:** Provided main icon -> Project icon -> Default Godot main icon."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,9 +59,6 @@ msgstr "Відкрити 2D редактор"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ":kbd:`Ctrl + F1`"
 
-msgid ":kbd:`Opt + 1`"
-msgstr ":kbd:`Opt + 1`"
-
 msgid "``editor/editor_2d``"
 msgstr "``editor/editor_2d``"
 
@@ -71,9 +68,6 @@ msgstr "Відкрити 3D редактор"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ":kbd:`Ctrl + F2`"
 
-msgid ":kbd:`Opt + 2`"
-msgstr ":kbd:`Opt + 2`"
-
 msgid "``editor/editor_3d``"
 msgstr "``editor/editor_3d``"
 
@@ -82,9 +76,6 @@ msgstr "Відкрити редактор скриптів"
 
 msgid ":kbd:`Ctrl + F3`"
 msgstr ":kbd:`Ctrl + F3`"
-
-msgid ":kbd:`Opt + 3`"
-msgstr ":kbd:`Opt + 3`"
 
 msgid "``editor/editor_script``"
 msgstr "``editor/editor_script``"
@@ -113,26 +104,14 @@ msgstr ":kbd:`Cmd + Ctrl + D`"
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
 
-msgid "Next tab"
-msgstr "Наступна вкладка"
-
 msgid ":kbd:`Ctrl + Tab`"
 msgstr ":kbd:`Ctrl + Tab`"
-
-msgid ":kbd:`Cmd + Tab`"
-msgstr ":kbd:`Cmd + Tab`"
 
 msgid "``editor/next_tab``"
 msgstr "``editor/next_tab``"
 
-msgid "Previous tab"
-msgstr "Попередня вкладка"
-
 msgid ":kbd:`Ctrl + Shift + Tab`"
 msgstr ":kbd:`Ctrl + Shift + Tab`"
-
-msgid ":kbd:`Cmd + Shift + Tab`"
-msgstr ":kbd:`Cmd + Shift + Tab`"
 
 msgid "``editor/prev_tab``"
 msgstr "``editor/prev_tab``"
@@ -167,8 +146,8 @@ msgstr "Закрити сцену"
 msgid ":kbd:`Ctrl + Shift + W`"
 msgstr ":kbd:`Ctrl + Shift + W`"
 
-msgid ":kbd:`Cmd + Shift + W`"
-msgstr ":kbd:`Cmd + Shift + W`"
+msgid ":kbd:`Cmd + W`"
+msgstr ":kbd:`Cmd + W`"
 
 msgid "``editor/close_scene``"
 msgstr "``editor/close_scene``"
@@ -226,9 +205,6 @@ msgstr "Швидке відкриття"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ":kbd:`Shift + Alt + O`"
-
-msgid ":kbd:`Shift + Opt + O`"
-msgstr ":kbd:`Shift + Opt + O`"
 
 msgid "``editor/quick_open``"
 msgstr "``editor/quick_open``"
@@ -1429,9 +1405,6 @@ msgstr "Закрити"
 
 msgid ":kbd:`Ctrl + W`"
 msgstr ":kbd:`Ctrl + W`"
-
-msgid ":kbd:`Cmd + W`"
-msgstr ":kbd:`Cmd + W`"
 
 msgid "``script_editor/close_file``"
 msgstr "``script_editor/close_file``"

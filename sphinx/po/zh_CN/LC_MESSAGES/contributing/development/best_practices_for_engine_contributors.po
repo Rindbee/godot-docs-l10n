@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -216,13 +216,6 @@ msgstr ""
 
 msgid "#8: Don't use complex canned solutions for simple problems"
 msgstr "#8：不要用复杂的现成解决方案来处理简单的问题"
-
-msgid ""
-"Not every problem has a simple solution and, many times, the right choice is "
-"to use a third party library to solve the problem."
-msgstr ""
-"并非每个问题都有一个简单的解决方案, 很多时候, 正确的选择是使用第三方库来解决"
-"问题."
 
 msgid ""
 "As Godot requires to be shipped in a large amount of platforms, we can't "

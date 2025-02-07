@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -186,11 +186,6 @@ msgstr ""
 "ama, is féidir leat é sin a dhéanamh le:kbd:'Ctrl + Shift + Roth luiche'. Ag "
 "baint úsáide as:kbd:Zúmálfaidh 'Ctrl + Alt + Roth na Luiche' isteach agus "
 "amach ar an ais Y"
-
-msgid "In the right click panel of the editor, you can select the handle mode:"
-msgstr ""
-"Sa phainéal cliceáil ar dheis ar an eagarthóir, is féidir leat an modh "
-"láimhseála a roghnú:"
 
 msgid ""
 "Free: Allows you to orient a manipulator in any direction without affecting "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,11 +121,6 @@ msgid "Temporal antialiasing (TAA)"
 msgstr "时间抗锯齿（TAA）"
 
 msgid ""
-"*This is only available in the Clustered Forward backend, not the Forward "
-"Mobile or Compatibility backends.*"
-msgstr "*该功能仅适用于集群 Forward 后端，不适用于 Forward 移动或兼容性后端。*"
-
-msgid ""
 "Temporal antialiasing works by *converging* the result of previously "
 "rendered frames into a single, high-quality frame. This is a continuous "
 "process that works by jittering the position of all vertices in the scene "
@@ -214,11 +209,6 @@ msgstr ""
 
 msgid "Fast approximate antialiasing (FXAA)"
 msgstr "快速近似抗锯齿（FXAA）"
-
-msgid ""
-"*This is only available in the Clustered Forward and Forward Mobile "
-"backends, not the Compatibility backend.*"
-msgstr "*该功能仅适用于集群 Forward 和 Forward 移动后端，不适用于兼容性后端。*"
 
 msgid ""
 "Fast approximate antialiasing is a post-processing antialiasing solution. It "
@@ -310,14 +300,6 @@ msgstr ""
 "屏幕空间粗糙度限制器最适合详细的几何形状。 虽然它对粗糙度图渲染本身有影响，但"
 "其影响有限。"
 
-msgid ""
-"The screen-space roughness limiter is enabled by default; it doesn't require "
-"any manual setup. It has a small performance impact, so consider disabling "
-"it if your project isn't affected by specular aliasing much."
-msgstr ""
-"屏幕空间粗糙度限制器默认启用； 它不需要任何手动设置。 它对性能影响很小，因此"
-"如果你的项目不受镜面反射锯齿影响太多，请考虑禁用它。"
-
 msgid "Texture roughness limiter on import"
 msgstr "导入时的纹理粗糙度限制器"
 
@@ -405,3 +387,12 @@ msgstr ""
 "Godot 允许同时使用多种抗锯齿技术。这通常是不必要的，但在高端 GPU 上或在 :ref:"
 "`非实时渲染 <doc_creating_movies>` 中可以提供更好的视觉效果。例如，为了在启"
 "用 TAA 时让移动边缘看起来更好，还可以同时启用 MSAA。"
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "Mobile"
+msgstr "移动端"
+
+msgid "Compatibility"
+msgstr "兼容"

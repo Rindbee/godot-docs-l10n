@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -280,13 +280,6 @@ msgstr ""
 "制在最大更新率範圍以下可確保作業系統永遠不必等待垂直消隱完成。這會導致與停用"
 "垂直同步相同的影格速率上限（通常大不到 1 毫秒）的「類似」輸入延遲，但不會出現"
 "任何撕裂。"
-
-msgid ""
-"This can be done by changing the **Application > Run > Max FPS** project "
-"setting or assigning ``Engine.max_fps`` at run-time in a script."
-msgstr ""
-"這可以透過變更 **Application > Run > Max FPS** 專案設定或在執行時間在腳本中指"
-"派「Engine.max_fps」來完成。"
 
 msgid ""
 "On some platforms, you can also opt into a low-latency mode in the graphics "

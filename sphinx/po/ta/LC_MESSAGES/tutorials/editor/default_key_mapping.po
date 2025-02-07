@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -59,9 +59,6 @@ msgstr "திறந்த 2 டி எடிட்டர்"
 msgid ":kbd:`Ctrl + F1`"
 msgstr ": KBD: `Ctrl + F1`"
 
-msgid ":kbd:`Opt + 1`"
-msgstr ": KBD: `OPT + 1`"
-
 msgid "``editor/editor_2d``"
 msgstr "`` எடிட்டர்/எடிட்டர்_2 டி``"
 
@@ -71,9 +68,6 @@ msgstr "திறந்த 3D எடிட்டர்"
 msgid ":kbd:`Ctrl + F2`"
 msgstr ": KBD: `Ctrl + F2`"
 
-msgid ":kbd:`Opt + 2`"
-msgstr ": KBD: `OPT + 2`"
-
 msgid "``editor/editor_3d``"
 msgstr "Sostrip/atitor_zhchch"
 
@@ -82,9 +76,6 @@ msgstr "திறந்த ச்கிரிப்ட் எடிட்டர�
 
 msgid ":kbd:`Ctrl + F3`"
 msgstr ": KBD: `Ctrl + F3`"
-
-msgid ":kbd:`Opt + 3`"
-msgstr ": KBD: `OPT + 3`"
 
 msgid "``editor/editor_script``"
 msgstr "`` எடிட்டர்/எடிட்டர்_ச்கிரிப்ட்``"
@@ -113,26 +104,14 @@ msgstr ": KBD: `CMD + கட்டுப்பாடு + D`"
 msgid "``editor/distraction_free_mode``"
 msgstr "`` எடிட்டர்/கவனச்சிதறல்_பிரீ_மோட்``"
 
-msgid "Next tab"
-msgstr "அடுத்த தாவல்"
-
 msgid ":kbd:`Ctrl + Tab`"
 msgstr ": KBD: `ctrl + tab`"
-
-msgid ":kbd:`Cmd + Tab`"
-msgstr ": KBD: `CMD + TAB`"
 
 msgid "``editor/next_tab``"
 msgstr "`` எடிட்டர்/நெக்ச்ட்_டாப்``"
 
-msgid "Previous tab"
-msgstr "முந்தைய தாவல்"
-
 msgid ":kbd:`Ctrl + Shift + Tab`"
 msgstr ": KBD: `Ctrl + உயர்த்து + Tab`"
-
-msgid ":kbd:`Cmd + Shift + Tab`"
-msgstr ": KBD: `CMD + உயர்த்து + TAB`"
 
 msgid "``editor/prev_tab``"
 msgstr "`` எடிட்டர்/prev_tab``"
@@ -167,8 +146,8 @@ msgstr "காட்சி மூடு"
 msgid ":kbd:`Ctrl + Shift + W`"
 msgstr ": KBD: `ctrl + உயர்த்து + w`"
 
-msgid ":kbd:`Cmd + Shift + W`"
-msgstr ": KBD: `cmd + உயர்த்து + w`"
+msgid ":kbd:`Cmd + W`"
+msgstr ": KBD: `cmd + w`"
 
 msgid "``editor/close_scene``"
 msgstr "`` எடிட்டர்/க்ளோ_சீன்``"
@@ -226,9 +205,6 @@ msgstr "விரைவாக திறந்திருக்கும்"
 
 msgid ":kbd:`Shift + Alt + O`"
 msgstr ": KBD: `Shift + மாற்று + o`"
-
-msgid ":kbd:`Shift + Opt + O`"
-msgstr ": KBD: `Shift + opt + o`"
 
 msgid "``editor/quick_open``"
 msgstr "`` எடிட்டர்/விரைவு_ஓப்பன்``"
@@ -1429,9 +1405,6 @@ msgstr "மூடு"
 
 msgid ":kbd:`Ctrl + W`"
 msgstr ": KBD: `ctrl + w`"
-
-msgid ":kbd:`Cmd + W`"
-msgstr ": KBD: `cmd + w`"
 
 msgid "``script_editor/close_file``"
 msgstr "`` ச்கிரிப்ட்_டிட்டர்/க்ளோச்_ஃபைல்``"

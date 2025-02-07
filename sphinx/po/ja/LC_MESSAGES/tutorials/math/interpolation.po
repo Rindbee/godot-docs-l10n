@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Interpolation"
 msgstr "Interpolation(補間)"
-
-msgid ""
-"Interpolation is a very basic operation in graphics programming. It's good "
-"to become familiar with it in order to expand your horizons as a graphics "
-"developer."
-msgstr ""
-"補間は、グラフィックプログラミングの非常に基本的な操作です。グラフィックス開"
-"発者としての視野を広げるために、これに慣れることは良いことです。"
 
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
@@ -61,13 +53,6 @@ msgstr "また、次のモーションを生成します:"
 
 msgid "Smoothing motion"
 msgstr "スムージングモーション"
-
-msgid ""
-"Interpolation can be used to smooth movement, rotation, etc. Here is an "
-"example of a circle following the mouse using smoothed motion:"
-msgstr ""
-"補間は、動きや回転などを滑らかにするために使用できます。これは、滑らかな動き"
-"を使用したマウスに追従する円の例です:"
 
 msgid "Here is how it looks:"
 msgstr "次の様に見えます:"

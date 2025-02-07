@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -77,13 +77,6 @@ msgstr "_init vs. initialization vs. export"
 
 msgid "The C# equivalent to GDScript's ``_init()`` method is the constructor."
 msgstr "O equivalente em C# ao método ``_init()`` do GDScript é o construtor."
-
-msgid ""
-"**``_init()`` assignment:** the property's value is replaced by any "
-"assignments made in ``_init()``, triggering the setter."
-msgstr ""
-"**Atribuição no método ``_init()``:** o valor da propriedade é substituído "
-"por qualquer atribuição feita no ``_init()``, acionando o setter."
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

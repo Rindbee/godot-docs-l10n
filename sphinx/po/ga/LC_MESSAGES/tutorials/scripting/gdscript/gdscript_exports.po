@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -134,35 +134,12 @@ msgstr ""
 msgid "Strings as paths"
 msgstr "Teaghráin mar chosáin"
 
-msgid "String as a path to a file."
-msgstr "Teaghrán mar chosán ar chomhad."
-
-msgid "String as a path to a directory."
-msgstr "Teaghrán mar chosán chuig eolaire."
-
-msgid "String as a path to a file, custom filter provided as hint."
-msgstr ""
-"String as a path to a file, scagaire saincheaptha curtha ar fáil mar leid."
-
 msgid ""
 "Using paths in the global filesystem is also possible, but only in scripts "
 "in tool mode."
 msgstr ""
 "Is féidir cosáin a úsáid sa chóras comhad domhanda freisin, ach amháin i "
 "scripteanna i mód uirlisí."
-
-msgid "String as a path to a PNG file in the global filesystem."
-msgstr "Teaghrán mar chosán chuig comhad PNG sa chóras comhad domhanda."
-
-msgid "String as a path to a directory in the global filesystem."
-msgstr "Teaghrán mar chonair chuig eolaire sa chóras comhad domhanda."
-
-msgid ""
-"The multiline annotation tells the editor to show a large input field for "
-"editing over multiple lines."
-msgstr ""
-"Insíonn an anótáil illíne don eagarthóir réimse mór ionchuir a thaispeáint "
-"le haghaidh eagarthóireachta thar línte éagsúla."
 
 msgid "Limiting editor input ranges"
 msgstr "Raonta ionchuir eagarthóra a theorannú"
@@ -184,9 +161,6 @@ msgstr "Dathanna"
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr "Dath rialta a thugtar mar luach dearg-glas-gorm-alfa."
-
-msgid "Color given as red-green-blue value (alpha will always be 1)."
-msgstr "Dath a thugtar mar luach dearg-glas-gorm (beidh alfa 1 i gcónaí)."
 
 msgid "Nodes"
 msgstr "Nóid"
@@ -230,13 +204,6 @@ msgstr ""
 "Má osclaítear an cigire anuas, d'fhéadfadh liosta an-fhada de ranganna "
 "féideartha a chruthú, áfach. Dá bhrí sin, má shonraíonn tú síneadh "
 "Acmhainne, mar shampla:"
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes."
-msgstr ""
-"Beidh an roghchlár anuas teoranta do AnimationNode agus dá ranganna "
-"oidhreachta go léir."
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

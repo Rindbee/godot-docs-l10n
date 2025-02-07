@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,15 +21,6 @@ msgstr ""
 "CanvasItem-Shader werden verwendet, um alle 2D-Elemente in Godot zu "
 "zeichnen. Dazu gehören alle Nodes, die von CanvasItems erben, sowie alle GUI-"
 "Elemente."
-
-msgid ""
-"CanvasItem shaders contain less built-in variables and functionality than "
-"Spatial shaders, but they maintain the same basic structure with vertex, "
-"fragment, and light processor functions."
-msgstr ""
-"CanvasItem-Shader enthalten weniger Built-in-Variablen und Funktionen als "
-"Spatial-Shader, behalten jedoch dieselbe Grundstruktur mit Vertex-, "
-"Fragment- und Lichtprozessorfunktionen bei."
 
 msgid "Render modes"
 msgstr "Render-Modi"
@@ -94,29 +85,11 @@ msgstr "Nur bei Lichtdurchlauf zeichnen."
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
 
-msgid "VERTEX needs to be transformed manually in vertex function."
-msgstr "VERTEX muss manuell in die Vertex-Funktion transformiert werden."
-
 msgid "**world_vertex_coords**"
 msgstr "**world_vertex_coords**"
 
-msgid "VERTEX is modified in world coordinates instead of local."
-msgstr "VERTEX wird in Weltkoordinaten statt in lokalen Koordinaten geändert."
-
 msgid "Built-ins"
 msgstr "Built-ins"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"Mit \"in\" gekennzeichnete Werte sind schreibgeschützt. Mit \"out\" "
-"gekennzeichnete Werte dienen zum optionalen Schreiben und enthalten nicht "
-"unbedingt sinnvolle Werte. Als \"inout\" gekennzeichnete Werte stellen einen "
-"sinnvollen Default-Wert dar und können optional beschrieben werden. Sampler "
-"sind nicht Gegenstand des Schreibens und werden nicht markiert."
 
 msgid "Global built-ins"
 msgstr "Globale Built-ins"
@@ -136,12 +109,12 @@ msgid "in float **PI**"
 msgstr "in float **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
-"Eine ``PI``-Konstante (``3,141592``). Das Verhältnis des Kreisumfangs zu "
-"seinem Durchmesser und die Anzahl der Bogenmaßeinheiten in einer halben "
-"Umdrehung."
+"Eine ``PI``-Konstante (``3,141592``). Das Verhältnis des Umfangs eines "
+"Kreises zu seinem Durchmesser und die Anzahl der Bogenmaßeinheiten in einer "
+"halben Umdrehung."
 
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
@@ -185,26 +158,8 @@ msgstr ""
 "(die World-to-Screen-Transformation und die Projektion werden später immer "
 "noch durchgeführt) und sie manuell mit dem folgenden Code durchführen:"
 
-msgid ""
-"Other built-ins, such as UV and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"Andere Built-ins wie UV und COLOR werden ebenfalls an die Fragmentfunktion "
-"übergeben, wenn sie nicht verändert wurden."
-
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"Beim Instanziieren enthält die Variable INSTANCE_CUSTOM die "
-"benutzerdefinierten Daten der Instanz. Bei der Verwendung von Partikeln ist "
-"diese Information normalerweise:"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**: Rotationswinkel in Bogenmaß."
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "**y**: Phase während der Lebensdauer (0 bis 1)."
 
 msgid "**z**: Animation frame."
 msgstr "**z**: Animations-Frame."
@@ -222,24 +177,8 @@ msgstr ""
 msgid "in mat4 **CANVAS_MATRIX**"
 msgstr "in mat4 **CANVAS_MATRIX**"
 
-msgid ""
-"World space to canvas space transform. In canvas space the origin is the "
-"upper-left corner of the screen and coordinates ranging from (0, 0) to "
-"viewport size."
-msgstr ""
-"Transformation vom World Space in den Canvas-Space. Im Canvas-Space ist der "
-"Ursprung die obere linke Ecke des Bildschirms und die Koordinaten reichen "
-"von (0, 0) bis zur Viewport-Größe."
-
 msgid "in mat4 **SCREEN_MATRIX**"
 msgstr "in mat4 **SCREEN_MATRIX**"
-
-msgid ""
-"Canvas space to clip space. In clip space coordinates ranging from (-1, -1) "
-"to (1, 1)."
-msgstr ""
-"Canvas Space nach Clip Space. Die Koordinaten des Clip Space reichen von "
-"(-1, -1) bis (1, 1)."
 
 msgid "in int  **INSTANCE_ID**"
 msgstr "in int  **INSTANCE_ID**"
@@ -272,9 +211,6 @@ msgstr ""
 msgid "inout vec2 **VERTEX**"
 msgstr "inout vec2 **VERTEX**"
 
-msgid "Vertex, in local space."
-msgstr "Vertex, im Local Space."
-
 msgid "in int **VERTEX_ID**"
 msgstr "in int **VERTEX_ID**"
 
@@ -284,14 +220,8 @@ msgstr "Der Index des aktuellen Vertex im Vertex-Puffer."
 msgid "inout vec2 **UV**"
 msgstr "inout vec2 **UV**"
 
-msgid "Normalized texture coordinates. Range from 0 to 1."
-msgstr "Normalisierte Texturkoordinaten. Werte zwischen 0 und 1."
-
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
-
-msgid "Color from vertex primitive."
-msgstr "Farbe vom Vertex-Primitiv."
 
 msgid "inout float **POINT_SIZE**"
 msgstr "inout float **POINT_SIZE**"
@@ -311,31 +241,8 @@ msgstr "in vec4 **CUSTOM1**"
 msgid "Fragment built-ins"
 msgstr "Fragment-Built-ins"
 
-msgid ""
-"Similarly, if a normal map is used in the :ref:`CanvasTexture "
-"<class_CanvasTexture>`, Godot uses it by default and assigns its value to "
-"the built-in ``NORMAL`` variable. If you are using a normal map meant for "
-"use in 3D, it will appear inverted. In order to use it in your shader, you "
-"must assign it to the ``NORMALMAP`` property. Godot will handle converting "
-"it for use in 2D and overwriting ``NORMAL``."
-msgstr ""
-"Ähnlich verhält es sich, wenn eine Normal Map in der :ref:`CanvasTexture "
-"<class_CanvasTexture>` verwendet wird: Godot verwendet sie standardmäßig und "
-"weist ihren Wert der Built-in-Variablen ``NORMAL`` zu. Wenn Sie eine Normal "
-"Map verwenden, die für die Verwendung in 3D gedacht ist, wird sie invertiert "
-"erscheinen. Um sie in Ihrem Shader zu verwenden, müssen Sie sie dem Property "
-"``NORMALMAP`` zuweisen. Godot kümmert sich darum, sie für die Verwendung in "
-"2D zu konvertieren und ``NORMAL`` zu überschreiben."
-
 msgid "in vec4 **FRAGCOORD**"
 msgstr "in vec4 **FRAGCOORD**"
-
-msgid ""
-"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is upper-left."
-msgstr ""
-"Koordinate der Pixelmitte. Im Screen Space. ``xy`` spezifiziert die Position "
-"im Fenster. Der Ursprung ist unten links."
 
 msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr "in vec2 **SCREEN_PIXEL_SIZE**"
@@ -371,9 +278,6 @@ msgstr ""
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
-msgid "UV from vertex function."
-msgstr "UV aus Vertex-Funktion."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 
@@ -392,9 +296,6 @@ msgstr ""
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
 
-msgid "Normal read from **NORMAL_TEXTURE**. Writable."
-msgstr "Normale, die aus **NORMAL_TEXTURE** gelesen wird. Beschreibbar."
-
 msgid "sampler2D **NORMAL_TEXTURE**"
 msgstr "sampler2D **NORMAL_TEXTURE**"
 
@@ -404,18 +305,8 @@ msgstr "Default-2D-Normalentextur."
 msgid "out vec3 **NORMAL_MAP**"
 msgstr "out vec3 **NORMAL_MAP**"
 
-msgid ""
-"Configures normal maps meant for 3D for use in 2D. If used, overrides "
-"**NORMAL**."
-msgstr ""
-"Konfiguriert Normal Maps, die für 3D gedacht sind, für die Verwendung in 2D. "
-"Falls verwendet, wird **NORMAL** überschrieben."
-
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "out float **NORMAL_MAP_DEPTH**"
-
-msgid "Normalmap depth for scaling."
-msgstr "Normal Map-Tiefe für die Skalierung."
 
 msgid "Pixel position in screen space."
 msgstr "Pixelposition im Screen Space."
@@ -452,64 +343,20 @@ msgstr ""
 "nicht mehr für jedes Licht neu."
 
 msgid ""
-"Use render_mode ``unshaded`` if you do not want the light processor function "
-"to run. Use render_mode ``light_only`` if you only want to see the impact of "
-"lighting on an object; this can be useful when you only want the object "
-"visible where it is covered by light."
-msgstr ""
-"Verwenden Sie render_mode ``unshaded``, wenn Sie nicht wollen, dass die "
-"Lichtprozessorfunktion läuft.Verwenden Sie render_mode ``light_only``, wenn "
-"Sie nur die Auswirkungen der Beleuchtung auf ein Objekt sehen wollen; dies "
-"kann nützlich sein, wenn Sie das Objekt nur dort sehen wollen, wo es von "
-"Licht bedeckt ist."
-
-msgid ""
-"If you define a light function it will replace the built in light function, "
-"even if your light function is empty."
-msgstr ""
-"Wenn Sie eine Lichtfunktion definieren, wird diese die Built-in-"
-"Lichtfunktion ersetzen, auch wenn Ihre Lichtfunktion leer ist."
-
-msgid ""
 "Below is an example of a light shader that takes a CanvasItem's normal map "
 "into account:"
 msgstr ""
 "Unten sehen Sie ein Beispiel für einen Licht-Shader, der die Normal Map "
 "eines CanvasItems berücksichtigt:"
 
-msgid ""
-"Coordinate of pixel center. In screen space. ``xy`` specifies position in "
-"window. Origin is lower-left."
-msgstr ""
-"Koordinate der Pixelmitte. Im Screen Space. ``xy`` spezifiziert die Position "
-"im Fenster. Der Ursprung ist unten links."
-
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
-
-msgid "Input Normal."
-msgstr "Eingabe-Normale."
 
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
 
-msgid "Input Color. This is the output of the fragment function."
-msgstr "Eingabe-Farbe. Dies ist die Ausgabe der Fragmentfunktion."
-
-msgid "UV from vertex function, equivalent to the UV in the fragment function."
-msgstr ""
-"UV aus der Vertex-Funktion, äquivalent zum UV in der Fragment-Funktion."
-
 msgid "Current texture in use for CanvasItem."
 msgstr "Aktuell verwendete Textur für CanvasItem."
-
-msgid ""
-"Normalized pixel size of **TEXTURE**. For a Sprite2D with a **TEXTURE** of "
-"size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"Normalisierte Pixelgröße der **TEXTURE**. Für ein Sprite2D mit einer "
-"**TEXTURE** der Größe 64x32px ist **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, "
-"1/32)``"
 
 msgid "UV for Point Sprite."
 msgstr "UV für Punkt-Sprite."
@@ -517,49 +364,23 @@ msgstr "UV für Punkt-Sprite."
 msgid "in vec4 **LIGHT_COLOR**"
 msgstr "in vec4 **LIGHT_COLOR**"
 
-msgid "Color of Light multiplied by Light's texture."
-msgstr "Farbe des Lichts multipliziert mit der Textur des Lichts."
-
 msgid "in float **LIGHT_ENERGY**"
 msgstr "in float **LIGHT_ENERGY**"
-
-msgid "Energy multiplier of Light."
-msgstr "Energiemultiplikator des Lichts."
 
 msgid "in vec3 **LIGHT_POSITION**"
 msgstr "in vec3 **LIGHT_POSITION**"
 
-msgid ""
-"Position of Light in screen space. If using a ``DirectionalLight2D`` this is "
-"always ``vec3(0,0,0)``."
-msgstr ""
-"Position des Lichts im Screen Space. Bei Verwendung eines "
-"``DirectionalLight2D`` ist dies immer ``vec3(0,0,0)``."
-
 msgid "in vec3 **LIGHT_DIRECTION**"
 msgstr "in vec3 **LIGHT_DIRECTION**"
-
-msgid "Direction of Light in screen space."
-msgstr "Richtung des Lichts im Screen Space."
 
 msgid "in bool **LIGHT_IS_DIRECTIONAL**"
 msgstr "in bool **LIGHT_IS_DIRECTIONAL**"
 
-msgid "``true`` if this pass is a ``DirectionalLight2D``."
-msgstr "``true``, wenn dieser Durchlauf ein ``DirectionalLight2D`` ist."
-
 msgid "in vec3 **LIGHT_VERTEX**"
 msgstr "in vec3 **LIGHT_VERTEX**"
 
-msgid "Pixel position, in screen space as modified in the fragment function."
-msgstr ""
-"Pixelposition, im Screen Space, wie in der Fragmentfunktion geändert wurde."
-
 msgid "inout vec4 **LIGHT**"
 msgstr "inout vec4 **LIGHT**"
-
-msgid "Output color for this Light."
-msgstr "Ausgangsfarbe für dieses Licht."
 
 msgid "Specular shininess, as set in the object's texture."
 msgstr "Spiegelnder Glanz, wie in der Textur des Objekts festgelegt."
@@ -572,15 +393,6 @@ msgstr "Multipliziert den Schattenwurf an diesem Punkt mit dieser Farbe."
 
 msgid "SDF functions"
 msgstr "SDF-Funktionen"
-
-msgid ""
-"There are a few additional functions implemented to sample an automatically "
-"generated Signed Distance Field texture. These functions available for "
-"Fragment and Light functions of CanvasItem shaders."
-msgstr ""
-"Es sind einige zusätzliche Funktionen implementiert, um eine automatisch "
-"generierte Signed Distance Field-Textur abzutasten. Diese Funktionen sind "
-"für Fragment- und Lichtfunktionen von CanvasItem-Shadern verfügbar."
 
 msgid ""
 "The signed distance field is generated from :ref:`class_LightOccluder2D` "

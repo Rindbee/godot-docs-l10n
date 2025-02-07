@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,20 +33,38 @@ msgstr ""
 "れているわけではありません。多くのチュートリアルは大幅に更新されていますが、"
 "このドキュメントには反映されていません。"
 
-msgid "About"
-msgstr "概要"
-
 msgid "2D"
 msgstr "2D"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "Editor"
+msgstr "エディタ"
+
+msgid "Performance"
+msgstr "パフォーマンス"
+
+msgid "Physics"
+msgstr "物理"
+
+msgid "Rendering"
+msgstr "レンダリング"
+
+msgid "Shaders"
+msgstr "シェーダー"
+
+msgid "About"
+msgstr "概要"
 
 msgid "Contributing"
 msgstr "貢献"
 
 msgid "Migrating"
 msgstr "移行"
-
-msgid "Rendering"
-msgstr "レンダリング"
 
 msgid "XR"
 msgstr "XR"
@@ -93,9 +111,6 @@ msgstr "\\ :ref:`doc_using_sanitizers`"
 msgid ":ref:`doc_upgrading_to_godot_4.1`"
 msgstr ":ref:`doc_upgrading_to_godot_4.1`"
 
-msgid "Physics"
-msgstr "物理"
-
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref:`doc_troubleshooting_physics_issues`"
 
@@ -104,9 +119,6 @@ msgstr "バージョン 3.6 以降の新しいページ"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing`"
-
-msgid "3D"
-msgstr "3D"
 
 msgid ":ref:`doc_3d_antialiasing`"
 msgstr ":ref:`doc_3d_antialiasing`"
@@ -177,9 +189,6 @@ msgstr ":ref:`doc_c_sharp_global_classes`"
 msgid ":ref:`doc_c_sharp_variant`"
 msgstr ":ref:`doc_c_sharp_variant`"
 
-msgid "Shaders"
-msgstr "シェーダー"
-
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_compute_shaders`"
 
@@ -212,9 +221,6 @@ msgstr ":ref:`doc_3d_text`"
 
 msgid ":ref:`doc_playing_videos`"
 msgstr ":ref:`doc_playing_videos`"
-
-msgid "Editor"
-msgstr "エディタ"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:`doc_managing_editor_features`"

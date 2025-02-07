@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -55,18 +55,6 @@ msgstr ""
 
 msgid "Installing XR Tools"
 msgstr "安裝 XR 工具"
-
-msgid ""
-"Continuing on from our project we started in :ref:`doc_setting_up_xr` we "
-"want to add in the Godot XR Tools library. This can be downloaded from the "
-"`Godot XR Tools releases page <https://github.com/GodotVR/godot-xr-tools/"
-"releases>`_. Simply find the latest pre-release for Godot 4 and then under "
-"assets download the ``godot-xr-tools.zip`` file."
-msgstr ""
-"繼續我們的專案，我們從 doc_setting_up_xr 開始，我們想要新增 Godot XR 工具庫。"
-"可從「Godot XR Tools 發行頁面 <https://github.com/GodotVR/godot-xr-tools/"
-"releases>」下載。只要找到 Godot 4 的最新預發行版，然後在素材下下載「godot-xr-"
-"tools.zip」檔案。"
 
 msgid ""
 "Once downloaded unzip the file. You will notice the files are held within a "

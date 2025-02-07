@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,18 +65,6 @@ msgstr ""
 
 msgid "Your project folder should look like this."
 msgstr "உங்கள் திட்ட கோப்புறை இப்படி இருக்க வேண்டும்."
-
-msgid ""
-"This game is designed for portrait mode, so we need to adjust the size of "
-"the game window. Click on *Project -> Project Settings* to open the project "
-"settings window, in the left column open the *Display -> Window* tab. There, "
-"set \"Viewport Width\" to ``480`` and \"Viewport Height\" to ``720``."
-msgstr ""
-"இந்த விளையாட்டு உருவப்படம் பயன்முறைக்காக வடிவமைக்கப்பட்டுள்ளது, எனவே விளையாட்டு "
-"சாளரத்தின் அளவை சரிசெய்ய வேண்டும். திட்ட அமைப்புகள் சாளரத்தைத் திறக்க * திட்டம் -> திட்ட "
-"அமைப்புகள் * என்பதைக் சொடுக்கு செய்க, இடது நெடுவரிசையில் * காட்சி -> சாளரம் * தாவலைத் "
-"திறக்கவும். அங்கு, \"வியூபோர்ட் அகலம்\" `` 480`` மற்றும் \"வியூபோர்ட் உயரம்\" என `` "
-"720`` என அமைக்கவும்."
 
 msgid ""
 "Also, under the **Stretch** options, set **Mode** to ``canvas_items`` and "

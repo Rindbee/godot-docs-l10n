@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,18 +33,6 @@ msgstr ""
 "техніка дозволяє користувачам створювати найпоширеніші форми, комбінуючи "
 "примітиви. Внутрішнє середовище можна створити за допомогою перевернутих "
 "примітивів."
-
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"Вузли CSG у Годо в основному призначені для створення прототипів. Немає "
-"вбудованої підтримки UV-картографії або редагування 3D-полігонів (хоча "
-"екструдовані 2D-полігони можна використовувати з вузлом CSGPolygon3D). Крім "
-"того, CSG не може надійно створювати сітки, що складаються з кількох вузлів "
-"без отворів."
 
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
@@ -158,27 +146,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "Власні меші"
-
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"Для :ref:`CSGMesh3D <class_CSGMesh3D>` можна використовувати будь-який меш; "
-"сітку можна моделювати в іншому програмному забезпеченні та імпортувати в "
-"Godot. Підтримується кілька матеріалів. Для геометрії є деякі обмеження:"
-
-msgid "it must be closed,"
-msgstr "вона повинна бути закрита,"
-
-msgid "it must not self-intersect,"
-msgstr "вона не повинна сама себе перетинати,"
-
-msgid "it must not contain internal faces,"
-msgstr "в неї не має бути внутрішніх граней,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "кожне ребро має з'єднуватися тільки з двома гранями."
 
 msgid "CSGCombiner3D"
 msgstr "Комбінатор CSG 3D"

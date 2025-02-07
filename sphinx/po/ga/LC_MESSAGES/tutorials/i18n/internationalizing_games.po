@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,6 +114,9 @@ msgstr ""
 "beag beann ar an teanga reatha, rud a fhágann go bhfuil sé oiriúnach do "
 "rudaí cosúil le comhrá il-imreora inar féidir nach n-oireann an teanga téacs "
 "teanga an chliaint."
+
+msgid "Examples:"
+msgstr "Samplaí:"
 
 msgid "Converting keys to text"
 msgstr "Eochracha a thiontú go téacs"
@@ -354,17 +357,6 @@ msgstr ""
 
 msgid "TranslationServer"
 msgstr "Freastalaí Aistriúcháin"
-
-msgid ""
-"Godot has a server handling low-level translation management called the :ref:"
-"`TranslationServer <class_TranslationServer>`. Translations can be added or "
-"removed during run-time; the current language can also be changed at run-"
-"time."
-msgstr ""
-"Tá freastalaí ag Godot a láimhseálann bainistíocht aistriúcháin ar leibhéal "
-"íseal ar a dtugtar an :ref:`TranslationServer <class_TranslationServer>`. Is "
-"féidir aistriúcháin a chur leis nó a bhaint le linn am rite; is féidir an "
-"teanga reatha a athrú freisin ag am rite."
 
 msgid "Bidirectional text and UI Mirroring"
 msgstr "Téacs déthreo agus scáthánú UI"

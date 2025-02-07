@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -231,9 +231,6 @@ msgstr "**Editor**: 與編輯器有關的 Issue (主要為 UI)。"
 
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr "**Assetlib**: 與素材庫有關的 Issue。"
-
-msgid "*Audio*: relates to the audio features (low and high level)."
-msgstr "**Audio**: 與音訊功能有關的 Issue (不論低階或高階)。"
 
 msgid ""
 "*Buildsystem*: relates to building issues, either linked to the SCons "

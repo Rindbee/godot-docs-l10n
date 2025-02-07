@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -22,15 +22,6 @@ msgstr "Karmaşıklığı arttıran fazladan bir katman var."
 
 msgid "More memory is needed."
 msgstr "Daha fazla belleğe ihtiyaç duyulur."
-
-msgid ""
-"This type of situation makes programmers regret they are using a game engine "
-"and wish they could go back to a more handcrafted, low level implementation "
-"of game code."
-msgstr ""
-"Bu tür bir durum, programcıların bir oyun motoru kullandıklarına pişman "
-"olmalarına ve daha el yapımı, düşük seviyeli oyun kodu uygulamasına geri "
-"dönmeyi istemelerine neden olur."
 
 msgid "Servers"
 msgstr "Sunucular"

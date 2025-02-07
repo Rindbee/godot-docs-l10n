@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,15 +46,6 @@ msgstr ""
 
 msgid "Built-ins"
 msgstr "內建"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"標記為 \"in\" 的值是唯讀的. 標記為 \"out\" 的值是可以選擇寫入的, 不一定包含合"
-"理的值. 標記為 \"inout\" 的值提供一個合理的預設值, 並且可以選擇寫入. 取樣器不"
-"是寫入的物件, 它們沒有被標記."
 
 msgid "Global built-ins"
 msgstr "定數"
@@ -118,12 +109,6 @@ msgstr "目前 FogVolume <class_FogVolume>` 在世界空間中的中心位置。
 
 msgid "in vec3 **UVW**"
 msgstr "in vec3 **UVW**"
-
-msgid ""
-"3-dimensional uv, used to map a 3D texture to the current :ref:`FogVolume "
-"<class_FogVolume>`."
-msgstr ""
-"三維 UV，用於將 3D 紋理對應到目前的 :ref:`FogVolume <class_FogVolume>` 中。"
 
 msgid "in vec3 **SIZE**"
 msgstr "in vec3 **SIZE**"

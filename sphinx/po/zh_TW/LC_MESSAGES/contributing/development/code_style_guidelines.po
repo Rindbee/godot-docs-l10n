@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -289,13 +289,6 @@ msgstr "使用反引號引用變數和函式名和值."
 msgid "Wrap comments to ~100 characters."
 msgstr "將注釋控制在~100個字元。"
 
-msgid ""
-"You can use ``TODO:``, ``FIXME:``, ``NOTE:``, or ``HACK:`` as admonitions "
-"when needed."
-msgstr ""
-"你可以在需要的時候使用 ``TODO:`` , ``FIXME:`` , ``NOTE:`` , ``HACK:`` 作為強"
-"調."
-
 msgid "**Example:**"
 msgstr "**範例**"
 
@@ -316,8 +309,3 @@ msgstr ""
 "你可以在函式或巨集定義上面使用Javadoc風格的注釋. 建議只對不公開給腳本的方法使"
 "用Javadoc風格的注釋. 這是因為公開的方法應該在 :ref:`class reference XML "
 "<doc_updating_the_class_reference>` 中進行記錄."
-
-msgid ""
-"For member variables, don't use Javadoc-style comments but use single-line "
-"comments instead:"
-msgstr "對於成員變數, 不要使用Javadoc式的注釋, 而是使用單行注釋:"

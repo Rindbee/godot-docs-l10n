@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,3 +67,6 @@ msgstr ""
 "Para remover uma tag do seu gerenciador de projetos, ela deve ser removida "
 "de todos os projetos nos quais está sendo usada. Depois de fazer isso, feche "
 "o gerenciador de projetos, abra-o novamente e a tag deverá ter desaparecido."
+
+msgid "Editor plugins"
+msgstr "Plugins do editor"

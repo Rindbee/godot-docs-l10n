@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,6 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Mobile"
+msgstr "Mobile"
 
 msgid "Why not deferred rendering?"
 msgstr "Pourquoi pas un rendu différé ?"
@@ -43,17 +46,8 @@ msgstr "OpenGL"
 msgid "Summary of rendering drivers/methods"
 msgstr "Sommaire des pilotes/méthodes de rendu"
 
-msgid "Vulkan + Forward Mobile"
-msgstr "Vulkan + Forward Mobile"
-
 msgid "Direct3D 12 + Forward+"
 msgstr "Direct3D 12 + Forward+"
-
-msgid "Direct3D 12 + Forward Mobile"
-msgstr "Direct3D 12 + Forward Mobile"
-
-msgid "Metal + Forward+ (via MoltenVK)"
-msgstr "Metal + Forward+ (via MoltenVK)"
 
 msgid ""
 "`View at full size <https://raw.githubusercontent.com/godotengine/godot-docs/"

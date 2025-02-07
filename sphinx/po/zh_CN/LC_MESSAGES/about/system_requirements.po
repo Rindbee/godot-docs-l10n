@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -57,24 +57,10 @@ msgid "**GPU**"
 msgstr "**GPU**"
 
 msgid ""
-"**Forward+ rendering method:** Integrated graphics with full Vulkan 1.0 "
-"support"
-msgstr "**Forward+ 渲染方法：**\\ 完整支持 Vulkan 1.0 的集成显卡"
-
-msgid ""
 "*Example: Intel HD Graphics 5500 (Broadwell), AMD Radeon R5 Graphics "
 "(Kaveri)*"
 msgstr ""
 "*示例：Intel HD Graphics 5500 (Broadwell)、AMD Radeon R5 Graphics (Kaveri)*"
-
-msgid ""
-"**Mobile rendering method:** Integrated graphics with full Vulkan 1.0 support"
-msgstr "**移动渲染方法：**\\ 完整支持 Vulkan 1.0 的集成显卡"
-
-msgid ""
-"**Compatibility rendering method:** Integrated graphics with full OpenGL 3.3 "
-"support"
-msgstr "**兼容渲染方法：**\\ 完整支持 OpenGL 3.3 的集成显卡"
 
 msgid ""
 "*Example: Intel HD Graphics 2500 (Ivy Bridge), AMD Radeon R5 Graphics "
@@ -128,14 +114,6 @@ msgstr ""
 "<class_@GlobalScope_method_print_rich>` 控制台输出）。\\ :ref:`后续 Godot 4."
 "x 版本 <doc_release_policy>`\\ 中可能会移除对 Windows 7/8/8.1 的支持。"
 
-msgid ""
-"Vulkan drivers for these Windows versions are known to have issues with "
-"memory leaks. As a result, it's recommended to stick to the Compatibility "
-"rendering method when running Godot on a Windows version older than 10."
-msgstr ""
-"这些版本 Windows 的 Vulkan 驱动有已知的内存泄漏问题。因此，建议在 Windows 10 "
-"之前的版本中运行 Godot 时使用“兼容”渲染方法。"
-
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "移动设备（智能手机、平板）- 最低配置"
 
@@ -148,21 +126,8 @@ msgstr "*示例：Qualcomm Snapdragon 430、Samsung Exynos 5 Octa 5430*"
 msgid "**iOS:** *Cannot run the editor*"
 msgstr "**iOS：**\\ *无法运行编辑器*"
 
-msgid ""
-"**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
-msgstr "**Forward+ 渲染方法：**\\ 芯片提供完整支持 Vulkan 1.0 的 GPU"
-
 msgid "*Example: Qualcomm Adreno 505, Mali-G71 MP2*"
 msgstr "*示例：Qualcomm Adreno 505、Mali-G71 MP2*"
-
-msgid ""
-"**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
-msgstr "**移动渲染方法：**\\ 芯片提供完整支持 Vulkan 1.0 的 GPU"
-
-msgid ""
-"**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES "
-"3.0 support"
-msgstr "**兼容渲染方法：**\\ 芯片提供完整支持 OpenGL ES 3.0 的 GPU"
 
 msgid "*Example: Qualcomm Adreno 306, Mali-T628 MP6*"
 msgstr "*示例：Qualcomm Adreno 306、Mali-T628 MP6*"
@@ -198,22 +163,8 @@ msgid ""
 msgstr "*示例：Intel Core i5-6600K、AMD Ryzen 5 1600、超频 Raspberry Pi 5*"
 
 msgid ""
-"**Forward+ rendering method:** Dedicated graphics with full Vulkan 1.2 "
-"support"
-msgstr "**Forward+ 渲染方法：**\\ 完整支持 Vulkan 1.2 的独立显卡"
-
-msgid ""
 "*Example: NVIDIA GeForce GTX 1050 (Pascal), AMD Radeon RX 460 (GCN 4.0)*"
 msgstr "*示例：NVIDIA GeForce GTX 1050 (Pascal)、AMD Radeon RX 460 (GCN 4.0)*"
-
-msgid ""
-"**Mobile rendering method:** Dedicated graphics with full Vulkan 1.2 support"
-msgstr "**移动渲染方法：**\\ 完整支持 Vulkan 1.2 的独立显卡"
-
-msgid ""
-"**Compatibility rendering method:** Dedicated graphics with full OpenGL 4.6 "
-"support"
-msgstr "**兼容渲染方法：**\\ 完整支持 OpenGL 4.6 的独立显卡"
 
 msgid ""
 "*Example: NVIDIA GeForce GTX 650 (Kepler), AMD Radeon HD 7750 (GCN 1.0)*"
@@ -249,21 +200,8 @@ msgstr "**Android：**\\ 芯片使用 64 位 ARM 或 x86 CPU，至少有 3 个�
 msgid "*Example: Qualcomm Snapdragon 845, Samsung Exynos 9810*"
 msgstr "*示例：Qualcomm Snapdragon 845、Samsung Exynos 9810*"
 
-msgid ""
-"**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
-msgstr "**Forward+ 渲染方法：**\\ 芯片提供完整支持 Vulkan 1.2 的 GPU"
-
 msgid "*Example: Qualcomm Adreno 630, Mali-G72 MP18*"
 msgstr "*示例：Qualcomm Adreno 630、Mali-G72 MP18*"
-
-msgid ""
-"**Mobile rendering method:** SoC featuring GPU with full Vulkan 1.2 support"
-msgstr "**移动渲染方法：**\\ 芯片提供完整支持 Vulkan 1.2 的 GPU"
-
-msgid ""
-"**Compatibility rendering method:** SoC featuring GPU with full OpenGL ES "
-"3.2 support"
-msgstr "**兼容渲染方法：**\\ 芯片提供完整支持 OpenGL ES 3.2 的 GPU"
 
 msgid "**Native editor:** 6 GB"
 msgstr "**原生编辑器：**\\ 6 GB"
@@ -277,19 +215,6 @@ msgstr ""
 
 msgid "Exported Godot project"
 msgstr "导出的 Godot 项目"
-
-msgid ""
-"The requirements below are a baseline for a **simple** 2D or 3D project, "
-"with basic scripting and few visual flourishes. CPU, GPU, RAM and storage "
-"requirements will heavily vary depending on your project's scope, its "
-"rendering method, viewport resolution and graphics settings chosen. Other "
-"programs running on the system while the project is running will also "
-"compete for resources, including RAM and video RAM."
-msgstr ""
-"下面列出的是\\ **简单** 2D 和 3D 项目的基本要求，能够支撑基础的脚本和少量的视"
-"觉效果。CPU、GPU、内存、存储等方面的需求与项目的规模、渲染方法、视口分辨率、"
-"所选的图形设置等关系很大。运行项目时，系统中运行的其他程序也会争抢内存、显存"
-"等资源。"
 
 msgid ""
 "It is strongly recommended to do your own testing on low-end hardware to "
@@ -315,13 +240,6 @@ msgstr "**Web 导出：**\\ 4 GB"
 
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr "150 MB（用于可执行文件、项目文件、缓存）"
-
-msgid ""
-"**For native exports:** Windows 7, macOS 10.13 (Compatibility) or macOS "
-"10.15 (Forward+/Mobile), Linux distribution released after 2016"
-msgstr ""
-"**原生导出：**\\ Windows 7、macOS 10.13（兼容渲染器）、macOS 10.15（Forward+/"
-"移动渲染器）、2016 年之后的 Linux 发行版"
 
 msgid ""
 "**For web exports:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
@@ -357,11 +275,6 @@ msgstr "**原生导出：**\\ 4 GB"
 
 msgid "**For web exports:** 8 GB"
 msgstr "**Web 导出：**\\ 8 GB"
-
-msgid ""
-"**For native exports:** Windows 10, macOS 10.15, Linux distribution released "
-"after 2020"
-msgstr "**原生导出：**\\ Windows 10、macOS 10.15、2020 年之后的 Linux 发行版"
 
 msgid ""
 "**For web exports:** Latest version of Firefox, Chrome, Edge, Safari, Opera"

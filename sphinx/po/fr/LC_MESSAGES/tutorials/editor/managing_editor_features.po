@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,18 +16,6 @@ msgstr "Gérer les fonctionnalités de l'éditeur"
 
 msgid "Introduction"
 msgstr "Introduction"
-
-msgid ""
-"In certain situations, it may be desirable to limit what features can be "
-"used in the Godot editor. For example, a UI designer on a team who doesn't "
-"need to see 3D features, or an educator slowly introducing features to "
-"students. Godot has a built in system called \"feature profiles\" to do this."
-msgstr ""
-"Dans certains cas, il peut être souhaitable de limiter les fonctionnalités "
-"disponibles dans l'éditeur de Godot. Par exemple, un concepteur UI dans une "
-"équipe n'utilisant pas les fonctionnalités 3D, ou un enseignant présentant "
-"les fonctionnalités à ses élèves. Pour celà, Godot a un système interne de "
-"\"profils de fonctionnalités\"."
 
 msgid ""
 "With feature profiles, major features and nodes can be hidden from the "

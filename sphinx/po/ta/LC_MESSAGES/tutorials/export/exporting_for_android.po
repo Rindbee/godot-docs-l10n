@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -115,13 +115,6 @@ msgstr ""
 msgid "Setting it up in Godot"
 msgstr "கோடோட்டில் அதை அமைத்தல்"
 
-msgid ""
-"Enter the Editor Settings screen. This screen contains the editor settings "
-"for the user account in the computer (it's independent of the project)."
-msgstr ""
-"எடிட்டர் அமைப்புகள் திரையை உள்ளிடவும். இந்தத் திரையில் கணினியில் உள்ள பயனர் கணக்கிற்கான "
-"எடிட்டர் அமைப்புகள் உள்ளன (இது திட்டத்திலிருந்து சுயாதீனமாக உள்ளது)."
-
 msgid "Scroll down to the section where the Android settings are located:"
 msgstr "ஆண்ட்ராய்டு அமைப்புகள் அமைந்துள்ள பகுதிக்கு கீழே உருட்டவும்:"
 
@@ -177,9 +170,6 @@ msgstr ""
 "(`` xxxhdpi`` அடர்த்தி திரைகளுக்கு) மற்றும் தானாகவே குறைந்த தெளிவுத்திறன் "
 "மாறுபாடுகளை உருவாக்கும்."
 
-msgid "There are two types of icons required by Godot:"
-msgstr "கோடோட் தேவைப்படும் இரண்டு வகையான சின்னங்கள் உள்ளன:"
-
 msgid ""
 "**Main Icon:** The \"classic\" icon. This will be used on all Android "
 "versions up to Android 8 (Oreo), exclusive. Must be at least 192×192 px."
@@ -219,14 +209,6 @@ msgstr ""
 "மிக முக்கியமான தகவமைப்பு படவுரு வடிவமைப்பு விதி என்னவென்றால், உங்கள் ஐகானை "
 "பாதுகாப்பான மண்டலத்திற்குள் வைத்திருப்பது: 66dp விட்டம் கொண்ட ஒரு மைய வட்டம் (`` "
 "xxxhdpi` `இல் 264 பிக்சல்கள்) துவக்கத்தால் கிளிப் செய்யப்படுவதைத் தவிர்க்க."
-
-msgid ""
-"If you don't provide some of the requested icons, Godot will replace them "
-"using a fallback chain, trying the next in line when the current one fails:"
-msgstr ""
-"கோரப்பட்ட சில ஐகான்களை நீங்கள் வழங்கவில்லை என்றால், கோடோட் ஒரு குறைவடையும் சங்கிலியைப் "
-"பயன்படுத்தி அவற்றை மாற்றுவார், தற்போதைய ஒன்று தோல்வியடையும் போது அடுத்ததை வரிசையில் "
-"முயற்சிக்கும்:"
 
 msgid ""
 "**Main Icon:** Provided main icon -> Project icon -> Default Godot main icon."

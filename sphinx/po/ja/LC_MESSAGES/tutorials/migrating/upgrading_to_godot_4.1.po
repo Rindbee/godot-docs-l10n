@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,13 +36,6 @@ msgid ""
 msgstr ""
 "この記事では、各破壊的変更がGDScriptに影響するかどうか、またC#の破壊的変更が "
 "*バイナリ互換* なのか *ソース互換* なのかを示します:"
-
-msgid ""
-"**Binary compatible** - Existing binaries will load and execute successfully "
-"without recompilation, and the run-time behavior won't change."
-msgstr ""
-"**バイナリ互換** - 既存のバイナリは再コンパイルすることなく正常にロードされ、"
-"ランタイムの挙動は変更されません。"
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "

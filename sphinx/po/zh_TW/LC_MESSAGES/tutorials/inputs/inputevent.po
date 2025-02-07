@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,14 +107,6 @@ msgstr ""
 
 msgid "Implement event propagation based on the individual requirements."
 msgstr "根據個人需求實作事件傳播。"
-
-msgid ""
-"GUI events also travel up the scene tree but, since these events target "
-"specific Controls, only direct ancestors of the targeted Control node "
-"receive the event."
-msgstr ""
-"GUI事件也在場景樹上傳播，但由於這些事件針對的是特定的控制項，所以只有目標控制"
-"項節點的第一個父節點才會收到該事件。"
 
 msgid ""
 "In accordance with Godot's node-based design, this enables specialized child "
@@ -241,12 +233,6 @@ msgstr ""
 "相同的程式碼可以在具有不同輸入的不同裝置上工作(例如,PC上的鍵盤, 控制台上的"
 "Joypad)."
 
-msgid "Input to be reconfigured at run-time."
-msgstr "輸入要在運作時重新配置."
-
-msgid "Actions to be triggered programmatically at run-time."
-msgstr "輸入要在運作時重新配置."
-
 msgid ""
 "Actions can be created from the Project Settings menu in the **Input Map** "
 "tab and assigned input events."
@@ -275,16 +261,3 @@ msgstr ""
 
 msgid "InputMap"
 msgstr "InputMap"
-
-msgid ""
-"Customizing and re-mapping input from code is often desired. If your whole "
-"workflow depends on actions, the :ref:`InputMap <class_InputMap>` singleton "
-"is ideal for reassigning or creating different actions at run-time. This "
-"singleton is not saved (must be modified manually) and its state is run from "
-"the project settings (project.godot). So any dynamic system of this type "
-"needs to store settings in the way the programmer best sees fit."
-msgstr ""
-"經常需要的從程式碼中定制和重新對應輸入. 如果你的整個運作流程依賴於動作, 那"
-"麼 :ref:`InputMap <class_InputMap>` 單例是在運作時重新分配或建立不同動作的理"
-"想選擇. 這個單例不被保存(必須手動修改), 其狀態從專案設定進行(project.godot). "
-"所以任何這種型別的動態系統, 都需要以程式師認為最合適的方式來儲存設定."

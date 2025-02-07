@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,9 +37,6 @@ msgid ""
 msgstr ""
 "வியூபோர்ட்டின் இருபுறமும் ** கப்பல்துறைகள் ** உட்கார்ந்து கொள்ளுங்கள். சாளரத்தின் "
 "அடிப்பகுதியில் ** கீழ் குழு ** உள்ளது."
-
-msgid "The four main screens"
-msgstr "நான்கு முக்கிய திரைகள்"
 
 msgid ""
 "You'll use the **2D screen** for all types of games. In addition to 2D "

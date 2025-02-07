@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -106,17 +106,6 @@ msgid "If the screen is resized and either of the subpasses are used."
 msgstr "திரை மறுஅளவிடப்பட்டால் மற்றும் துணை பாச்கள் பயன்படுத்தப்பட்டால்."
 
 msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"ரேடியன்ச் க்யூபேப்பை தேவையில்லாமல் புதுப்பிப்பதைத் தவிர்க்க முயற்சிக்கவும். ஒவ்வொரு "
-"சட்டகத்தையும் நீங்கள் ரேடியன்ச் க்யூப்மேப்பைப் புதுப்பிக்க வேண்டும் என்றால், உங்கள்: குறிப்பு: "
-"`ச்கை செயல்முறை பயன்முறை <class_sky_property_process_mode>` இதற்கு "
-"அமைக்கப்பட்டுள்ளது: ref: `ரியல் டைம் <class_sky_constant_process_mode_realtime>`."
-
-msgid ""
 "Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
 "affects the rendering of the radiance cubemap. The visible sky is always "
 "rendered by calling the fragment shader for every pixel. With complex "
@@ -196,15 +185,6 @@ msgstr "பயன்படுத்தினால், மூடுபனி வ
 msgid "Built-ins"
 msgstr "உள்ளமைக்கப்பட்டவை"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"\"இன்\" எனக் குறிக்கப்பட்ட மதிப்புகள் படிக்க மட்டுமே. \"அவுட்\" எனக் குறிக்கப்பட்ட "
-"மதிப்புகள் விருப்ப எழுத்துக்களுக்கானவை, மேலும் அவை விவேகமான மதிப்புகளைக் "
-"கொண்டிருக்காது. மாதிரிகளை எழுத முடியாது, எனவே அவை குறிக்கப்படவில்லை."
-
 msgid "Global built-ins"
 msgstr "உலகளாவிய கட்டடங்கள்"
 
@@ -228,8 +208,8 @@ msgstr "மிதவையில் ** நேரம் **"
 msgid "in vec3 **POSITION**"
 msgstr "VEC3 ** நிலை ** இல்"
 
-msgid "Camera position in world space"
-msgstr "உலக இடத்தில் கேமரா நிலை"
+msgid "Camera position, in world space."
+msgstr "கேமரா நிலை, உலக இடத்தில்."
 
 msgid "samplerCube **RADIANCE**"
 msgstr "samplercube ** ஒளி **"
@@ -244,30 +224,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "பூல் ** at_half_res_pass ** இல்"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "தற்போது அரை தெளிவுத்திறன் கொண்ட பாச்."
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "பூல் ** at_quarter_res_pass ** இல்"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "தற்போது காலாண்டு தெளிவுத்திறன் பாசுக்கு வழங்கப்படுகிறது."
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "பூல் ** at_cubemap_pass ** இல்"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr "தற்போது ரேடியன்ச் க்யூப்மேப்பிற்கு வழங்கப்படுகிறது."
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "bool ** lightx_enabled **"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"`` லைட்எக்ச்`` காணக்கூடியது மற்றும் காட்சியில். `` தவறு` என்றால், பிற ஒளி பண்புகள் "
-"குப்பைகளாக இருக்கலாம்."
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "மிதவையில் ** லைட்எக்ச்_இனெர்சி **"

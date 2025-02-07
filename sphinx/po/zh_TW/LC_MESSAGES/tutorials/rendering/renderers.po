@@ -1,0 +1,75 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Introduction"
+msgstr "前言"
+
+msgid "Compatibility"
+msgstr "編譯"
+
+msgid "Mobile"
+msgstr "移動裝置"
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "XR"
+msgstr "XR"
+
+msgid "Web"
+msgstr "Web"
+
+msgid "8"
+msgstr "8"
+
+msgid "LightmapGI"
+msgstr "LightmapGI"
+
+msgid "VoxelGI"
+msgstr "VoxelGI"
+
+msgid "Screen-Space Indirect Lighting (SSIL)"
+msgstr "螢幕空間反射(SSR)"
+
+msgid "Signed Distance Field Global Illumination (SDFGI)"
+msgstr "有符號距離場全域照明 (SDFGI)"
+
+msgid "Environment and post-processing"
+msgstr "環境和後期處理"
+
+msgid "Volumetric Fog"
+msgstr "體積霧"
+
+msgid "Screen-Space Ambient Occlusion (SSAO)"
+msgstr "螢幕空間環境遮擋(SSAO)"
+
+msgid "Glow"
+msgstr "輝光"
+
+msgid "Adjustments"
+msgstr "調整"
+
+msgid "Antialiasing"
+msgstr "抗鋸齒"
+
+msgid "Screen-space roughness limiter"
+msgstr "螢幕空間粗糙度限制器"
+
+msgid "Screen texture"
+msgstr "匯入紋理"
+
+msgid "Depth texture"
+msgstr "深度紋理"
+
+msgid "Variable rate shading"
+msgstr "變數型別轉換"

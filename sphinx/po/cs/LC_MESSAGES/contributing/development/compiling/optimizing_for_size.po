@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,36 +13,6 @@ msgstr ""
 
 msgid "Disabling advanced GUI objects"
 msgstr "Zakázání pokročilých objektů grafického uživatelského rozhraní"
-
-msgid "FileDialog"
-msgstr "FileDialog"
-
-msgid "Tree"
-msgstr "Strom"
-
-msgid "TextEdit"
-msgstr "TextEdit"
-
-msgid "OptionButton"
-msgstr "OptionButton"
-
-msgid "ColorPicker"
-msgstr "ColorPicker"
-
-msgid "CharFXTransform"
-msgstr "CharFXTransform"
-
-msgid "AcceptDialog"
-msgstr "AcceptDialog"
-
-msgid "MarginContainer"
-msgstr "Kontejner pro okraje"
-
-msgid "SplitContainer"
-msgstr "Rozdělovací kontejner"
-
-msgid "HSplitContainer"
-msgstr "Rozdělovací kontejner"
 
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ":ref:`doc_overriding_build_options`."

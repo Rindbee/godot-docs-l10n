@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -221,13 +221,6 @@ msgstr ""
 "Le rendu des ombres est un sujet critique dans la performance des rendus en "
 "3D. Il est important de faire les bons choix ici pour éviter de créer des "
 "goulets d'étranglement."
-
-msgid ""
-"Directional shadow quality settings can be changed at run-time by calling "
-"the appropriate :ref:`class_RenderingServer` methods."
-msgstr ""
-"Les réglages de qualité d'ombre directionnelle peuvent être changés en temps "
-"réel en appelant les méthodes appropriées de :ref:`class_RenderingServer`."
 
 msgid ""
 "High shadow resolutions result in sharper shadows, but at a significant "

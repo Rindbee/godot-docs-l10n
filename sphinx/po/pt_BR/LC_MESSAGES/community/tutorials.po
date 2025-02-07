@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,9 +47,6 @@ msgstr "Tutoriais em texto"
 
 msgid "`GDScript website by Andrew Wilkes <https://gdscript.com>`__"
 msgstr "`Website GDScript de Andrew Wilker <https://GDScript.com>`__"
-
-msgid "Devlogs"
-msgstr "Registros de desenvolvimento"
 
 msgid "Resources"
 msgstr "Recursos"

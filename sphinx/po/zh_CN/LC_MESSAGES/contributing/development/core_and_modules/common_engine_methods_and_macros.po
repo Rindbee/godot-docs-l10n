@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,14 +65,6 @@ msgstr ""
 "``TTR()`` . **编辑器(\"工具\")的翻译** 只在编辑器中处理. 如果用户在他们的一个"
 "项目中使用相同的文本, 如果他们提供了翻译, 但不会被翻译. 在为引擎做贡献时, 一"
 "般来说, 这是你应该为可本地化字符串使用的宏."
-
-msgid ""
-"``RTR()``: **Run-time translations** will be automatically localized in "
-"projects if they provide a translation for the given string. This kind of "
-"translation shouldn't be used in editor-only code."
-msgstr ""
-"``RTR()`` . **运行时翻译** 如果提供给定字符串的翻译, 将在项目中自动本地化, 这"
-"种翻译不应该用在纯编辑器的代码中."
 
 msgid ""
 "To insert placeholders in localizable strings, wrap the localization macro "

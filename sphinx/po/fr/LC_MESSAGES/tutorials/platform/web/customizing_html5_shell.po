@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -119,14 +119,6 @@ msgid ""
 msgstr ""
 "Les paramètres facultatifs suivants permettent d'activer certaines fonctions "
 "supplémentaires dans votre modèle HTML personnalisé."
-
-msgid ""
-"``$GODOT_PROJECT_NAME``: The project name as defined in the Project "
-"Settings. It is a good idea to use it as a ``<title>`` in your template."
-msgstr ""
-"``$GODOT_PROJECT_NAME`` : Le nom du projet tel que défini dans les "
-"paramètres du projet. C'est une bonne idée de l'utiliser comme ``<title>`` "
-"dans votre modèle."
 
 msgid ""
 "``$GODOT_HEAD_INCLUDE``: A custom string to include in the HTML document "

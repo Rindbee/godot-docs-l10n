@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,20 +64,6 @@ msgstr ""
 
 msgid "SceneTree"
 msgstr "シーンツリー"
-
-msgid ""
-"One of the ways to explain how Godot works is that it's a high level game "
-"engine over a low level middleware."
-msgstr ""
-"Godotの仕組みを説明する方法の1つは、Godotが低レベルのミドルウェアよりも高レベ"
-"ルなゲームエンジンであることです。"
-
-msgid ""
-"The scene system is the game engine, while the :ref:`OS <class_OS>` and "
-"servers are the low level API."
-msgstr ""
-"シーンシステムはゲームエンジンで、\\ :ref:`OS <class_OS>`\\ とサーバーは低レ"
-"ベルのAPIです。"
 
 msgid ""
 "The scene system provides its own main loop to OS, :ref:`SceneTree "

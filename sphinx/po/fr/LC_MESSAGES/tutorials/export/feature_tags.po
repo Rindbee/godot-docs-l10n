@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,11 +51,6 @@ msgstr ""
 
 msgid "Many more things."
 msgstr "Et bien d'autres choses."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr ""
-"Les fonctionnalités peuvent être interrogées à l’exécution auprès du "
-"singleton API en appelant :"
 
 msgid "Default features"
 msgstr "Fonctionnalités par défaut"
@@ -247,20 +242,6 @@ msgstr "**movie**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker mode <doc_creating_movies>` est actif"
 
-msgid ""
-"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
-"feature tags, default feature tags are **immutable**. This means that they "
-"will *not* change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to Web on a mobile device."
-msgstr ""
-"À l'exception des balises de caractéristiques de compression de texture, "
-"``web_<platform>`` et ``movie``, les balises de caractéristiques par défaut "
-"sont **immuables**. Cela signifie qu'elles ne changeront *pas* en fonction "
-"des conditions d'exécution. Par exemple, ``OS.has_feature(\"mobile\")`` "
-"renverra ``false`` lors de l'exécution d'un projet exporté en Web sur un "
-"appareil mobile."
-
 msgid "Custom features"
 msgstr "Fonctionnalités personnalisées"
 
@@ -305,11 +286,6 @@ msgstr ""
 "Dans l'exemple suivant, une icône différente est ajoutée pour la compilation "
 "de la démo du jeu (qui a été personnalisé dans un préréglage d'exportation "
 "spécial, qui, à son tour, n'inclut que des niveaux de démo)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr ""
-"Après écrasement, un nouveau champ est ajouté pour cette configuration "
-"spécifique :"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

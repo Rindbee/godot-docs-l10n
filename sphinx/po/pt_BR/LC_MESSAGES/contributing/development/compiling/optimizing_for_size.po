@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,60 +31,6 @@ msgstr "**Economia de espaço:** Moderada"
 
 msgid "Disabling advanced GUI objects"
 msgstr "Desabilitando objetos GUI avançados"
-
-msgid "FileDialog"
-msgstr "FileDialog"
-
-msgid "PopupMenu"
-msgstr "PopupMenu"
-
-msgid "Tree"
-msgstr "Árvore"
-
-msgid "TextEdit"
-msgstr "TextEdit"
-
-msgid "TreeItem"
-msgstr "TreeItem"
-
-msgid "OptionButton"
-msgstr "OptionButton (Botão de Opção)"
-
-msgid "SpinBox"
-msgstr "SpinBox"
-
-msgid "ColorPicker"
-msgstr "ColorPicker (Seletor de Cores)"
-
-msgid "ColorPickerButton"
-msgstr "ColorPickerButton"
-
-msgid "RichTextEffect"
-msgstr "RichTextEffect"
-
-msgid "CharFXTransform"
-msgstr "CharFXTransform"
-
-msgid "AcceptDialog"
-msgstr "AcceptDialog"
-
-msgid "ConfirmationDialog"
-msgstr "ConfirmationDialog (Caixa de diálogo de confirmação)"
-
-msgid "MarginContainer"
-msgstr "MarginContainer (Contêiner de margem)"
-
-msgid "SplitContainer"
-msgstr "SplitContainer (Contêiner de divisão)"
-
-msgid "HSplitContainer"
-msgstr "HSplitContainer (Contêiner de divisão horizontal)"
-
-msgid "GraphNode"
-msgstr "GraphNode"
-
-msgid "GraphEdit"
-msgstr "GraphEdit"
 
 msgid "Disabling unwanted modules"
 msgstr "Desativando módulos indesejados"

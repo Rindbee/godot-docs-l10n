@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,15 +16,6 @@ msgstr "Перетворення вікна перегляду та полотн
 
 msgid "Introduction"
 msgstr "Вступ"
-
-msgid ""
-"This is an overview of the 2D transforms going on for nodes from the moment "
-"they draw their content locally to the time they are drawn onto the screen. "
-"This overview discusses very low level details of the engine."
-msgstr ""
-"Це огляд 2D-перетворень, що відбуваються з вузлами від моменту, коли вони "
-"малюють свій вміст локально, до того часу, коли вони потрапляють на екран. У "
-"цьому огляді розглядаються деталі движка на дуже низькому рівні."
 
 msgid ""
 "The goal of this tutorial is to teach a way for feeding input events to the "
@@ -95,17 +86,6 @@ msgstr ""
 "використовується внутрішньо (як описано в розділі :ref:"
 "`doc_multiple_resolutions`), але його також можна встановити вручну для "
 "кожного вікна перегляду."
-
-msgid ""
-"Input events are multiplied by this transform but lack the ones above. To "
-"convert InputEvent coordinates to local CanvasItem coordinates, the :ref:"
-"`CanvasItem.make_input_local() <class_CanvasItem_method_make_input_local>` "
-"function was added for convenience."
-msgstr ""
-"Вхідні події множаться за допомогою цього перетворення, але відсутні описані "
-"вище. Щоб конвертувати координати InputEvent у локальні координати "
-"CanvasItem, для зручності було додано функцію :ref:`CanvasItem."
-"make_input_local() <class_CanvasItem_method_make_input_local>`."
 
 msgid "Window transform"
 msgstr "Трансформація вікна"

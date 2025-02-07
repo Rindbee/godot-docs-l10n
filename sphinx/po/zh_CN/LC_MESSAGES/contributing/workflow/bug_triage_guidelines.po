@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -199,9 +199,6 @@ msgstr "*Animation*\\ ：与动画系统、动画编辑器、动画导入器相�
 
 msgid "*Assetlib*: relates to issues with the asset library."
 msgstr "*Assetlib*\\ ：与资产库相关的问题。"
-
-msgid "*Audio*: relates to the audio features (low and high level)."
-msgstr "*Audio*\\ ：与音频功能相关（底层和高阶均可）。"
 
 msgid ""
 "*Buildsystem*: relates to building issues, either linked to the SCons "

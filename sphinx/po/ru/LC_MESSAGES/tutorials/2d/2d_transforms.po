@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,15 +16,6 @@ msgstr "Преобразование области просмотра и хол
 
 msgid "Introduction"
 msgstr "Введение"
-
-msgid ""
-"This is an overview of the 2D transforms going on for nodes from the moment "
-"they draw their content locally to the time they are drawn onto the screen. "
-"This overview discusses very low level details of the engine."
-msgstr ""
-"Это обзор 2D преобразований, происходящих для узлов с момента их локального "
-"рисования содержимого до момента их рисования на экране. В этом обзоре "
-"обсуждаются детали движка очень низкого уровня."
 
 msgid ""
 "The goal of this tutorial is to teach a way for feeding input events to the "

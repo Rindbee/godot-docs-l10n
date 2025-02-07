@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -67,17 +67,6 @@ msgstr ""
 
 msgid "Cropping"
 msgstr "Looping - 循環"
-
-msgid ""
-"For cropping Krita is the recommended program. While some screenshot "
-"programs do have cropping built in it's not always easy to get something "
-"precise. And while Krita is designed as a painting program the cropping tool "
-"gives you pixel precision by default. Of course, feel free to use a "
-"different program you are familiar with."
-msgstr ""
-"對於裁剪，Krita 是推薦的程式。雖然某些螢幕截圖程式確實內建了裁剪功能，但獲得"
-"精確的結果並不總是那麼容易。雖然 Krita 被設計為繪畫程式，但裁剪工具預設為您提"
-"供像素精度。當然，您可以隨意使用您熟悉的其他程式。"
 
 msgid ""
 "After selecting it, click on the image, you should now have cropping tools "

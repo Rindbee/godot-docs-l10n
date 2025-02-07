@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,12 +68,6 @@ msgstr "in vec3 **OBJECT_POSITION**"
 
 msgid "in vec3 **UVW**"
 msgstr "in vec3 **UVW**"
-
-msgid ""
-"3-dimensional uv, used to map a 3D texture to the current :ref:`FogVolume "
-"<class_FogVolume>`."
-msgstr ""
-"三维 UV，用于将 3D 纹理映射到当前的 :ref:`FogVolume <class_FogVolume>` 中。"
 
 msgid "in vec3 **SIZE**"
 msgstr "in vec3 **SIZE**"

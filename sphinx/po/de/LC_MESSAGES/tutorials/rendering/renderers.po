@@ -1,0 +1,78 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Introduction"
+msgstr "Einführung"
+
+msgid "Compatibility"
+msgstr "Kompatibilität"
+
+msgid "Mobile"
+msgstr "Mobile"
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "XR"
+msgstr "XR"
+
+msgid "Web"
+msgstr "Web"
+
+msgid "8"
+msgstr "8"
+
+msgid "LightmapGI"
+msgstr "LightmapGI"
+
+msgid "VoxelGI"
+msgstr "VoxelGI"
+
+msgid "Screen-Space Indirect Lighting (SSIL)"
+msgstr "Screen-Space Indirect Lighting (SSIL)"
+
+msgid "Signed Distance Field Global Illumination (SDFGI)"
+msgstr "Signed Distance Field Global Illumination (SDFGI)"
+
+msgid "Environment and post-processing"
+msgstr "Environment und Post-Processing"
+
+msgid "Volumetric Fog"
+msgstr "Volumetrischer Nebel"
+
+msgid "Screen-Space Ambient Occlusion (SSAO)"
+msgstr "Screen-Space-Ambient Occlusion (SSAO)"
+
+msgid "Glow"
+msgstr "Glow"
+
+msgid "Adjustments"
+msgstr "Anpassungen"
+
+msgid "Antialiasing"
+msgstr "Antialiasing"
+
+msgid "Screen-space roughness limiter"
+msgstr "Screen-Space-Rauheitsbegrenzer"
+
+msgid "Screen texture"
+msgstr "Bildschirmtextur"
+
+msgid "Depth texture"
+msgstr "Tiefentextur"
+
+msgid "Variable rate shading"
+msgstr "Variable Rate Shading"

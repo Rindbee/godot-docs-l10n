@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -199,13 +199,6 @@ msgid ""
 msgstr ""
 "**初始值赋值：**\\ 为属性赋初始值，未指定初始值时赋默认值。Setter 函数即便存"
 "在也不会使用。"
-
-msgid ""
-"**``_init()`` assignment:** the property's value is replaced by any "
-"assignments made in ``_init()``, triggering the setter."
-msgstr ""
-"**``_init()`` 赋值：**\\ 在 ``_init()`` 中通过赋值改变属性的取值，会触发 "
-"setter 函数。"
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

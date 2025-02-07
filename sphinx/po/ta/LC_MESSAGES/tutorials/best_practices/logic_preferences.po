@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,13 +46,6 @@ msgstr ""
 "இந்த குறியீடு உங்கள் விளையாட்டின் செயல்திறனில் எந்த தாக்கத்தையும் ஏற்படுத்தாது, ஆனால் "
 "நடைமுறை உருவாக்கம் போன்ற கடுமையான பயன்பாட்டு நிகழ்வுகளில், இது உங்கள் விளையாட்டை வலம் "
 "வரக்கூடும்."
-
-msgid ""
-"For these reasons, it is always a best practice to set the initial values of "
-"a node before adding it to the scene tree."
-msgstr ""
-"இந்த காரணங்களுக்காக, ஒரு முனையின் ஆரம்ப மதிப்புகளை காட்சி மரத்தில் சேர்ப்பதற்கு முன்பு "
-"அதை அமைப்பது எப்போதும் ஒரு சிறந்த நடைமுறையாகும்."
 
 msgid "Loading vs. preloading"
 msgstr "ஏற்றுதல் எதிராக முன் ஏற்றுதல்"

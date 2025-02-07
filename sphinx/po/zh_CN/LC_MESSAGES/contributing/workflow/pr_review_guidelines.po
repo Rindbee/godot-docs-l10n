@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,9 +83,6 @@ msgstr "任何时候都要讲礼貌，要宽容谦恭。"
 
 msgid "Always assume positive intent from others."
 msgstr "始终假定他人的意图是好的。"
-
-msgid "Feedback is always welcome but keep your criticism constructive."
-msgstr "欢迎各种反馈，但确保你的批评具有建设性。"
 
 msgid ""
 "Here are some things to avoid as you iterate on a pull request with a "

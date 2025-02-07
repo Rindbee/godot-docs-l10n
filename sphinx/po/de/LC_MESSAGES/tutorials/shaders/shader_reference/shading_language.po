@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -247,12 +247,6 @@ msgid "Comments"
 msgstr "Kommentare"
 
 msgid ""
-"The shading language supports the same comment syntax as used in C# and C++:"
-msgstr ""
-"Die Shadersprache unterstützt dieselbe Kommentarsyntax, die auch in C# und C+"
-"+ verwendet wird:"
-
-msgid ""
 "Additionally, you can use documentation comments that are displayed in the "
 "inspector when hovering a shader parameter. Documentation comments are "
 "currently only supported when placed immediately above a ``uniform`` "
@@ -450,16 +444,6 @@ msgstr ""
 
 msgid "Global arrays"
 msgstr "Globale Arrays"
-
-msgid "You can declare arrays at global space like:"
-msgstr "Sie können Arrays auf globaler Ebene wie folgt deklarieren:"
-
-msgid ""
-"Global arrays have to be declared as global constants, otherwise they can be "
-"declared the same as local arrays."
-msgstr ""
-"Globale Arrays müssen als globale Konstanten deklariert werden, andernfalls "
-"können sie genauso deklariert werden wie lokale Arrays."
 
 msgid "Constants"
 msgstr "Konstanten"
@@ -737,14 +721,6 @@ msgid "Discarding"
 msgstr "Verwerfen"
 
 msgid ""
-"Fragment and light functions can use the ``discard`` keyword. If used, the "
-"fragment is discarded and nothing is written."
-msgstr ""
-"Fragment- und Licht-Funktionen können das Schlüsselwort ``discard`` "
-"verwenden. Wenn es verwendet wird, wird das Fragment verworfen und es wird "
-"nichts geschrieben."
-
-msgid ""
 "Beware that ``discard`` has a performance cost when used, as it will prevent "
 "the depth prepass from being effective on any surfaces using the shader. "
 "Also, a discarded pixel still needs to be rendered in the vertex shader, "
@@ -802,20 +778,6 @@ msgstr ""
 
 msgid "Example below:"
 msgstr "Hier ein Beispiel:"
-
-msgid ""
-"Unlike GLSL, Godot's shader language does **not** support function "
-"overloading. This means that a function cannot be defined several times with "
-"different argument types or numbers of arguments. As a workaround, use "
-"different names for functions that accept a different number of arguments or "
-"arguments of different types."
-msgstr ""
-"Im Gegensatz zu GLSL unterstützt die Shader-Sprache von Godot **keine** "
-"Funktionsüberladung. Dies bedeutet, dass eine Funktion nicht mehrmals mit "
-"unterschiedlichen Argumenttypen oder einer unterschiedlichen Anzahl von "
-"Argumenten definiert werden kann. Als Abhilfe können Sie unterschiedliche "
-"Namen für Funktionen verwenden, die eine unterschiedliche Anzahl von "
-"Argumenten oder Argumente unterschiedlichen Typs akzeptieren."
 
 msgid "Varyings"
 msgstr "Varyings"
@@ -893,71 +855,15 @@ msgstr ""
 msgid "Uniforms"
 msgstr "Uniforms"
 
-msgid ""
-"Passing values to shaders is possible. These are global to the whole shader "
-"and are called *uniforms*. When a shader is later assigned to a material, "
-"the uniforms will appear as editable parameters in it. Uniforms can't be "
-"written from within the shader."
-msgstr ""
-"Das Übergeben von Werten an Shader ist möglich. Diese sind für den gesamten "
-"Shader global und werden als *Uniforms* bezeichnet. Wenn ein Shader später "
-"einem Material zugewiesen wird, werden die Uniforms als bearbeitbare "
-"Parameter darin angezeigt. Uniforms können nicht aus dem Shader heraus "
-"geschrieben werden."
+msgid "Uniforms can also be assigned default values:"
+msgstr "Uniforms können auch Default-Werte zugewiesen werden:"
 
 msgid ""
-"You can set uniforms in the editor in the material. Or you can set them "
-"through GDScript:"
+"Note that when adding a default value and a hint, the default value goes "
+"after the hint."
 msgstr ""
-"Sie können Uniforms im Editor im Material festlegen. Oder Sie können sie "
-"über GDScript erstellen:"
-
-msgid ""
-"The first argument to ``set_shader_parameter`` is the name of the uniform in "
-"the shader. It must match *exactly* to the name of the uniform in the shader "
-"or else it will not be recognized."
-msgstr ""
-"Das erste Argument von ``set_shader_parameter`` ist der Name des Uniforms im "
-"Shader. Es muss *exakt* mit dem Namen des Uniforms im Shader übereinstimmen, "
-"sonst wird es nicht erkannt."
-
-msgid ""
-"Any GLSL type except for *void* can be a uniform. Additionally, Godot "
-"provides optional shader hints to make the compiler understand for what the "
-"uniform is used, and how the editor should allow users to modify it."
-msgstr ""
-"Jeder GLSL-Typ mit Ausnahme von *void* kann ein Uniform sein. Zusätzlich "
-"bietet Godot optionale Shader-Hints, damit der Compiler versteht, wofür der "
-"Uniform verwendet wird und wie der Editor es dem Benutzer erlauben soll, ihn "
-"zu ändern."
-
-msgid ""
-"It's important to understand that textures *that are supplied as color* "
-"require hints for proper sRGB -> linear conversion (i.e. ``source_color``), "
-"as Godot's 3D engine renders in linear color space. If this is not done, the "
-"texture will appear washed out."
-msgstr ""
-"Es ist wichtig zu verstehen, dass Texturen, die als Farbe bereitgestellt "
-"werden, Hinweise für eine korrekte sRGB -> lineare Konvertierung (d.h. "
-"``source_color``) benötigen, da Godots 3D-Engine im linearen Farbraum "
-"rendert. Wenn dies nicht geschieht, erscheint die Textur ausgewaschen."
-
-msgid ""
-"The 2D renderer also renders in linear color space if the **Rendering > "
-"Viewport > HDR 2D** project setting is enabled, so ``source_color`` must "
-"also be used in ``canvas_item`` shaders. If 2D HDR is disabled, "
-"``source_color`` will keep working correctly in ``canvas_item`` shaders, so "
-"it's recommend to use it either way."
-msgstr ""
-"Der 2D-Renderer rendert auch im linearen Farbraum, wenn die "
-"Projekteinstellung **Rendering > Viewport > HDR 2D** aktiviert ist, also "
-"muss ``source_color`` auch in ``canvas_item``-Shadern verwendet werden. Wenn "
-"2D HDR deaktiviert ist, wird ``source_color`` weiterhin korrekt in "
-"``canvas_item``-Shadern funktionieren, daher ist es empfehlenswert, es auf "
-"jeden Fall zu verwenden."
-
-msgid "Full list of hints below:"
-msgstr "Hier eine komplette Liste von Hints:"
+"Beachten Sie, dass beim Hinzufügen eines Default-Wertes und eines Hints der "
+"Defaultwert nach dem Hint kommt."
 
 msgid "Hint"
 msgstr "Hint"
@@ -1056,6 +962,199 @@ msgstr "hint_normal_roughness_texture"
 msgid "Texture is the normal roughness texture (only supported in Forward+)."
 msgstr "Textur ist die normale Rauheitstextur (nur in Forward+ unterstützt)."
 
+msgid "You can close the group by using:"
+msgstr "Sie können die Gruppe so schließen:"
+
+msgid ""
+"The syntax also supports subgroups (it's not mandatory to declare the base "
+"group before this):"
+msgstr ""
+"Die Syntax unterstützt auch Untergruppen (es ist nicht zwingend "
+"erforderlich, die Basisgruppe vorher zu deklarieren):"
+
+msgid "Global uniforms"
+msgstr "Globale Uniforms"
+
+msgid ""
+"Sometimes, you want to modify a parameter in many different shaders at once. "
+"With a regular uniform, this takes a lot of work as all these shaders need "
+"to be tracked and the uniform needs to be set for each of them. Global "
+"uniforms allow you to create and update uniforms that will be available in "
+"all shaders, in every shader type (``canvas_item``, ``spatial``, "
+"``particles``, ``sky`` and ``fog``)."
+msgstr ""
+"Manchmal möchte man einen Parameter in vielen verschiedenen Shadern auf "
+"einmal ändern. Mit einem regulären Uniform erfordert dies eine Menge Arbeit, "
+"da all diese Shader getrackt werden müssen und das Uniform für jeden von "
+"ihnen eingestellt werden muss. Globale Uniforms erlauben es Ihnen, Uniforms "
+"zu erstellen und zu aktualisieren, die in allen Shadern, in jedem Shadertyp "
+"(``canvas_item``, ``spatial``, ``particles``, ``sky`` und ``fog``) verfügbar "
+"sind."
+
+msgid ""
+"Global uniforms are especially useful for environmental effects that affect "
+"many objects in a scene, like having foliage bend when the player is nearby, "
+"or having objects move with the wind."
+msgstr ""
+"Globale Uniforms sind besonders nützlich für Umgebungseffekte, die sich auf "
+"viele Objekte in einer Szene auswirken, z.B. wenn sich das Laub biegt, wenn "
+"der Spieler in der Nähe ist, oder wenn sich Objekte mit dem Wind bewegen."
+
+msgid ""
+"To create a global uniform, open the **Project Settings** then go to the "
+"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
+"a type, then click **Add** in the top-right corner of the dialog. You can "
+"then edit the value assigned to the uniform by clicking the value in the "
+"list of uniforms:"
+msgstr ""
+"Um ein globales Uniform zu erstellen, öffnen Sie die "
+"**Projekteinstellungen** und wechseln Sie zum **Shader-Globals**-Tab. Geben "
+"Sie einen Namen für den Uniform (Groß- und Kleinschreibung beachten) und "
+"einen Typ an und klicken Sie dann auf **Hinzufügen** in der oberen rechten "
+"Ecke des Dialogs. Sie können dann den dem Uniform zugewiesenen Wert "
+"bearbeiten, indem Sie auf den Wert in der Liste der Uniforms klicken:"
+
+msgid ""
+"Adding a global uniform in the Shader Globals tab of the Project Settings"
+msgstr ""
+"Hinzufügen eines globalen Uniforms auf dem Shader-Globals-Tab in den "
+"Projekteinstellungen"
+
+msgid "After creating a global uniform, you can use it in a shader as follows:"
+msgstr ""
+"Nachdem Sie ein globales Uniform erstellt haben, können Sie es wie folgt in "
+"einem Shader verwenden:"
+
+msgid ""
+"Note that the global uniform *must* exist in the Project Settings at the "
+"time the shader is saved, or compilation will fail. While you can assign a "
+"default value using ``global uniform vec4 my_color = ...`` in the shader "
+"code, it will be ignored as the global uniform must always be defined in the "
+"Project Settings anyway."
+msgstr ""
+"Beachten Sie, dass das globale Uniform zum Zeitpunkt des Speicherns des "
+"Shaders in den Projekteinstellungen vorhanden sein *muss*, da sonst die "
+"Kompilierung fehlschlägt. Sie können zwar im Shader-Code mit ``global "
+"uniform vec4 my_color = ...`` einen Default-Wert zuweisen, dieser wird "
+"jedoch ignoriert, da das globale Uniform ohnehin immer in den "
+"Projekteinstellungen definiert sein muss."
+
+msgid ""
+"Assigning global uniform values can be done as many times as desired without "
+"impacting performance, as setting data doesn't require synchronization "
+"between the CPU and GPU."
+msgstr ""
+"Die Zuweisung globaler Unform-Werte kann beliebig oft erfolgen, ohne die "
+"Performance zu beeinträchtigen, da das Setzen von Daten keine "
+"Synchronisierung zwischen CPU und GPU erfordert."
+
+msgid ""
+"Therefore, it's not recommended to read global shader uniform values "
+"continuously in a script. If you need to read values in a script after "
+"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
+"where you store the values you need to query at the same time you're setting "
+"them as global uniforms."
+msgstr ""
+"Daher ist es nicht empfehlenswert, globale Shader-Uniform-Werte "
+"kontinuierlich in einem Skript zu lesen. Wenn Sie Werte in einem Skript "
+"lesen müssen, nachdem Sie sie gesetzt haben, sollten Sie ein :ref:`Autoload "
+"<doc_singletons_autoload>` erstellen, in dem Sie die Werte, die Sie abfragen "
+"müssen, zur gleichen Zeit speichern, in der Sie sie als globale Uniforms "
+"setzen."
+
+msgid "Per-instance uniforms"
+msgstr "Pro-Instanz-Uniforms"
+
+msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
+msgstr "Pro-Instanz-Uniforms sind nur in ``spatial`` (3D) Shadern verfügbar."
+
+msgid ""
+"Sometimes, you want to modify a parameter on each node using the material. "
+"As an example, in a forest full of trees, when you want each tree to have a "
+"slightly different color that is editable by hand. Without per-instance "
+"uniforms, this requires creating a unique material for each tree (each with "
+"a slightly different hue). This makes material management more complex, and "
+"also has a performance overhead due to the scene requiring more unique "
+"material instances. Vertex colors could also be used here, but they'd "
+"require creating unique copies of the mesh for each different color, which "
+"also has a performance overhead."
+msgstr ""
+"Manchmal möchte man einen Parameter an jedem Node mit Hilfe des Materials "
+"ändern. Zum Beispiel in einem Wald voller Bäume, wenn Sie wollen, dass jeder "
+"Baum eine leicht unterschiedliche Farbe hat, die von Hand bearbeitet werden "
+"kann. Ohne instanzspezifische Uniforms muss für jeden Baum ein eigenes "
+"Material erstellt werden (jedes mit einem leicht unterschiedlichen Farbton). "
+"Dies macht die Materialverwaltung komplexer und hat auch einen Performance-"
+"Overhead, da die Szene mehr einzelne Materialinstanzen benötigt. Vertex-"
+"Farben könnten auch hier verwendet werden, aber sie würden die Erstellung "
+"einzigartiger Kopien des Meshes für jede unterschiedliche Farbe erfordern, "
+"was auch einen Performance-Overhead hat."
+
+msgid ""
+"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
+"each Material instance. Take this into account when working with meshes that "
+"have multiple materials assigned to them, or MultiMesh setups."
+msgstr ""
+"Pro-Instanz-Uniforms werden für jede GeometryInstance3D statt für jede "
+"Materialinstanz festgelegt. Berücksichtigen Sie dies bei der Arbeit mit "
+"Meshes, denen mehrere Materialien zugewiesen sind, oder bei MultiMesh-Setups."
+
+msgid ""
+"After saving the shader, you can change the per-instance uniform's value "
+"using the inspector:"
+msgstr ""
+"Nachdem Sie den Shader gespeichert haben, können Sie den Wert des "
+"Instanzuniforms mit dem Inspektor ändern:"
+
+msgid ""
+"Setting a per-instance uniform's value in the GeometryInstance3D section of "
+"the inspector"
+msgstr ""
+"Einstellen des Wertes eines Pro-Instanz-Uniforms im GeometryInstance3D-"
+"Abschnitt des Inspektors"
+
+msgid ""
+"When using per-instance uniforms, there are some restrictions you should be "
+"aware of:"
+msgstr ""
+"Bei der Verwendung Pro-Instanz-Uniforms gibt es einige Einschränkungen, die "
+"Sie beachten sollten:"
+
+msgid ""
+"**Per-instance uniforms do not support textures**, only regular scalar and "
+"vector types. As a workaround, you can pass a texture array as a regular "
+"uniform, then pass the index of the texture to be drawn using a per-instance "
+"uniform."
+msgstr ""
+"**Pro-Instanz-Uniforms unterstützen keine Texturen**, nur reguläre Skalar- "
+"und Vektortypen. Als Workaround können Sie ein Textur-Array als reguläres "
+"Uniform übergeben und dann den Index der zu zeichnenden Textur mit einem Pro-"
+"Instance-Uniform übergeben."
+
+msgid "There is a practical maximum limit of 16 instance uniforms per shader."
+msgstr ""
+"Es gibt eine praktische Höchstgrenze von 16 Instanz-Uniforms pro Shader."
+
+msgid ""
+"If your mesh uses multiple materials, the parameters for the first mesh "
+"material found will \"win\" over the subsequent ones, unless they have the "
+"same name, index *and* type. In this case, all parameters are affected "
+"correctly."
+msgstr ""
+"Wenn Ihr Mesh mehrere Materialien verwendet, haben die Parameter für das "
+"erste gefundene Mesh-Material Vorrang vor den nachfolgenden, es sei denn, "
+"sie haben denselben Namen, Index *und* Typ. In diesem Fall werden alle "
+"Parameter korrekt berücksichtigt."
+
+msgid ""
+"If you run into the above situation, you can avoid clashes by manually "
+"specifying the index (0-15) of the instance uniform by using the "
+"``instance_index`` hint:"
+msgstr ""
+"Wenn Sie in die oben beschriebene Situation geraten, können Sie Konflikte "
+"vermeiden, indem Sie den Index (0-15) des Instanzuniforms mit Hilfe des "
+"``instance_index``-Hints manuell angeben:"
+
 msgid ""
 "GDScript uses different variable types than GLSL does, so when passing "
 "variables from GDScript to shaders, Godot converts the type automatically. "
@@ -1148,295 +1247,8 @@ msgstr "**Cubemap**"
 msgid "**CubemapArray**"
 msgstr "**CubemapArray**"
 
-msgid ""
-"Be careful when setting shader uniforms from GDScript, no error will be "
-"thrown if the type does not match. Your shader will just exhibit undefined "
-"behavior."
-msgstr ""
-"Seien Sie vorsichtig, wenn Sie Shader-Uniforms aus GDScript festlegen. Wenn "
-"der Typ nicht übereinstimmt wird kein Fehler ausgegeben. Ihr Shader zeigt "
-"nur undefiniertes Verhalten."
-
-msgid "Uniforms can also be assigned default values:"
-msgstr "Uniforms können auch Default-Werte zugewiesen werden:"
-
-msgid ""
-"Note that when adding a default value and a hint, the default value goes "
-"after the hint."
-msgstr ""
-"Beachten Sie, dass beim Hinzufügen eines Default-Wertes und eines Hints der "
-"Defaultwert nach dem Hint kommt."
-
-msgid ""
-"If you need to make multiple uniforms to be grouped in the specific category "
-"of an inspector, you can use a `group_uniform` keyword like:"
-msgstr ""
-"Wenn Sie mehrere Uniforms in einer bestimmten Kategorie eines Inspektors "
-"zusammenfassen möchten, können Sie das Schlüsselwort `group_uniform` "
-"verwenden:"
-
-msgid "You can close the group by using:"
-msgstr "Sie können die Gruppe so schließen:"
-
-msgid ""
-"The syntax also supports subgroups (it's not mandatory to declare the base "
-"group before this):"
-msgstr ""
-"Die Syntax unterstützt auch Untergruppen (es ist nicht zwingend "
-"erforderlich, die Basisgruppe vorher zu deklarieren):"
-
-msgid "Global uniforms"
-msgstr "Globale Uniforms"
-
-msgid ""
-"Sometimes, you want to modify a parameter in many different shaders at once. "
-"With a regular uniform, this takes a lot of work as all these shaders need "
-"to be tracked and the uniform needs to be set for each of them. Global "
-"uniforms allow you to create and update uniforms that will be available in "
-"all shaders, in every shader type (``canvas_item``, ``spatial``, "
-"``particles``, ``sky`` and ``fog``)."
-msgstr ""
-"Manchmal möchte man einen Parameter in vielen verschiedenen Shadern auf "
-"einmal ändern. Mit einem regulären Uniform erfordert dies eine Menge Arbeit, "
-"da all diese Shader getrackt werden müssen und das Uniform für jeden von "
-"ihnen eingestellt werden muss. Globale Uniforms erlauben es Ihnen, Uniforms "
-"zu erstellen und zu aktualisieren, die in allen Shadern, in jedem Shadertyp "
-"(``canvas_item``, ``spatial``, ``particles``, ``sky`` und ``fog``) verfügbar "
-"sind."
-
-msgid ""
-"Global uniforms are especially useful for environmental effects that affect "
-"many objects in a scene, like having foliage bend when the player is nearby, "
-"or having objects move with the wind."
-msgstr ""
-"Globale Uniforms sind besonders nützlich für Umgebungseffekte, die sich auf "
-"viele Objekte in einer Szene auswirken, z.B. wenn sich das Laub biegt, wenn "
-"der Spieler in der Nähe ist, oder wenn sich Objekte mit dem Wind bewegen."
-
-msgid ""
-"To create a global uniform, open the **Project Settings** then go to the "
-"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
-"a type, then click **Add** in the top-right corner of the dialog. You can "
-"then edit the value assigned to the uniform by clicking the value in the "
-"list of uniforms:"
-msgstr ""
-"Um ein globales Uniform zu erstellen, öffnen Sie die "
-"**Projekteinstellungen** und wechseln Sie zum **Shader-Globals**-Tab. Geben "
-"Sie einen Namen für den Uniform (Groß- und Kleinschreibung beachten) und "
-"einen Typ an und klicken Sie dann auf **Hinzufügen** in der oberen rechten "
-"Ecke des Dialogs. Sie können dann den dem Uniform zugewiesenen Wert "
-"bearbeiten, indem Sie auf den Wert in der Liste der Uniforms klicken:"
-
-msgid ""
-"Adding a global uniform in the Shader Globals tab of the Project Settings"
-msgstr ""
-"Hinzufügen eines globalen Uniforms auf dem Shader-Globals-Tab in den "
-"Projekteinstellungen"
-
-msgid "After creating a global uniform, you can use it in a shader as follows:"
-msgstr ""
-"Nachdem Sie ein globales Uniform erstellt haben, können Sie es wie folgt in "
-"einem Shader verwenden:"
-
-msgid ""
-"Note that the global uniform *must* exist in the Project Settings at the "
-"time the shader is saved, or compilation will fail. While you can assign a "
-"default value using ``global uniform vec4 my_color = ...`` in the shader "
-"code, it will be ignored as the global uniform must always be defined in the "
-"Project Settings anyway."
-msgstr ""
-"Beachten Sie, dass das globale Uniform zum Zeitpunkt des Speicherns des "
-"Shaders in den Projekteinstellungen vorhanden sein *muss*, da sonst die "
-"Kompilierung fehlschlägt. Sie können zwar im Shader-Code mit ``global "
-"uniform vec4 my_color = ...`` einen Default-Wert zuweisen, dieser wird "
-"jedoch ignoriert, da das globale Uniform ohnehin immer in den "
-"Projekteinstellungen definiert sein muss."
-
-msgid ""
-"To change the value of a global uniform at run-time, use the :ref:"
-"`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` method in a "
-"script:"
-msgstr ""
-"Um den Wert eines globalen Uniforms zur Laufzeit zu ändern, verwenden Sie "
-"die Methode :ref:`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` in einem Skript:"
-
-msgid ""
-"Assigning global uniform values can be done as many times as desired without "
-"impacting performance, as setting data doesn't require synchronization "
-"between the CPU and GPU."
-msgstr ""
-"Die Zuweisung globaler Unform-Werte kann beliebig oft erfolgen, ohne die "
-"Performance zu beeinträchtigen, da das Setzen von Daten keine "
-"Synchronisierung zwischen CPU und GPU erfordert."
-
-msgid "You can also add or remove global uniforms at run-time:"
-msgstr ""
-"Sie können auch während der Laufzeit globale Uniforms hinzufügen oder "
-"entfernen:"
-
-msgid ""
-"Adding or removing global uniforms at run-time has a performance cost, "
-"although it's not as pronounced compared to getting global uniform values "
-"from a script (see the warning below)."
-msgstr ""
-"Das Hinzufügen oder Entfernen von globalen Uniforms zur Laufzeit hat "
-"Performance-Einbußen zur Folge, auch wenn diese im Vergleich zum Abrufen "
-"globaler Uniformwerte aus einem Skript nicht so ausgeprägt sind (siehe die "
-"Warnung unten)."
-
-msgid ""
-"While you *can* query the value of a global uniform at run-time in a script "
-"using ``RenderingServer.global_shader_parameter_get(\"uniform_name\")``, "
-"this has a large performance penalty as the rendering thread needs to "
-"synchronize with the calling thread."
-msgstr ""
-"Während man den Wert eines globalen Uniforms zur Laufzeit in einem Skript "
-"mit ``RenderingServer.global_shader_parameter_get(\"uniform_name\")`` "
-"abfragen *kann*, hat dies einen großen Performance-Nachteil, da der "
-"Rendering-Thread sich mit dem aufrufenden Thread synchronisieren muss."
-
-msgid ""
-"Therefore, it's not recommended to read global shader uniform values "
-"continuously in a script. If you need to read values in a script after "
-"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
-"where you store the values you need to query at the same time you're setting "
-"them as global uniforms."
-msgstr ""
-"Daher ist es nicht empfehlenswert, globale Shader-Uniform-Werte "
-"kontinuierlich in einem Skript zu lesen. Wenn Sie Werte in einem Skript "
-"lesen müssen, nachdem Sie sie gesetzt haben, sollten Sie ein :ref:`Autoload "
-"<doc_singletons_autoload>` erstellen, in dem Sie die Werte, die Sie abfragen "
-"müssen, zur gleichen Zeit speichern, in der Sie sie als globale Uniforms "
-"setzen."
-
-msgid "Per-instance uniforms"
-msgstr "Pro-Instanz-Uniforms"
-
-msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
-msgstr "Pro-Instanz-Uniforms sind nur in ``spatial`` (3D) Shadern verfügbar."
-
-msgid ""
-"Per-instance uniforms are not supported when using the Compatibility "
-"renderer."
-msgstr ""
-"Pro-Instanz-Uniforms werden bei Verwendung des Kompatibilitäts-Renderers "
-"nicht unterstützt."
-
-msgid ""
-"Sometimes, you want to modify a parameter on each node using the material. "
-"As an example, in a forest full of trees, when you want each tree to have a "
-"slightly different color that is editable by hand. Without per-instance "
-"uniforms, this requires creating a unique material for each tree (each with "
-"a slightly different hue). This makes material management more complex, and "
-"also has a performance overhead due to the scene requiring more unique "
-"material instances. Vertex colors could also be used here, but they'd "
-"require creating unique copies of the mesh for each different color, which "
-"also has a performance overhead."
-msgstr ""
-"Manchmal möchte man einen Parameter an jedem Node mit Hilfe des Materials "
-"ändern. Zum Beispiel in einem Wald voller Bäume, wenn Sie wollen, dass jeder "
-"Baum eine leicht unterschiedliche Farbe hat, die von Hand bearbeitet werden "
-"kann. Ohne instanzspezifische Uniforms muss für jeden Baum ein eigenes "
-"Material erstellt werden (jedes mit einem leicht unterschiedlichen Farbton). "
-"Dies macht die Materialverwaltung komplexer und hat auch einen Performance-"
-"Overhead, da die Szene mehr einzelne Materialinstanzen benötigt. Vertex-"
-"Farben könnten auch hier verwendet werden, aber sie würden die Erstellung "
-"einzigartiger Kopien des Meshes für jede unterschiedliche Farbe erfordern, "
-"was auch einen Performance-Overhead hat."
-
-msgid ""
-"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
-"each Material instance. Take this into account when working with meshes that "
-"have multiple materials assigned to them, or MultiMesh setups."
-msgstr ""
-"Pro-Instanz-Uniforms werden für jede GeometryInstance3D statt für jede "
-"Materialinstanz festgelegt. Berücksichtigen Sie dies bei der Arbeit mit "
-"Meshes, denen mehrere Materialien zugewiesen sind, oder bei MultiMesh-Setups."
-
-msgid ""
-"After saving the shader, you can change the per-instance uniform's value "
-"using the inspector:"
-msgstr ""
-"Nachdem Sie den Shader gespeichert haben, können Sie den Wert des "
-"Instanzuniforms mit dem Inspektor ändern:"
-
-msgid ""
-"Setting a per-instance uniform's value in the GeometryInstance3D section of "
-"the inspector"
-msgstr ""
-"Einstellen des Wertes eines Pro-Instanz-Uniforms im GeometryInstance3D-"
-"Abschnitt des Inspektors"
-
-msgid ""
-"Per-instance uniform values can also be set at run-time using :ref:"
-"`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` method on a "
-"node that inherits from :ref:`class_GeometryInstance3D`:"
-msgstr ""
-"Pro-Instanz-Uniformwerte können auch zur Laufzeit mit der Methode :ref:"
-"`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` auf einem "
-"Node gesetzt werden, der von :ref:`class_GeometryInstance3D` erbt:"
-
-msgid ""
-"When using per-instance uniforms, there are some restrictions you should be "
-"aware of:"
-msgstr ""
-"Bei der Verwendung Pro-Instanz-Uniforms gibt es einige Einschränkungen, die "
-"Sie beachten sollten:"
-
-msgid ""
-"**Per-instance uniforms do not support textures**, only regular scalar and "
-"vector types. As a workaround, you can pass a texture array as a regular "
-"uniform, then pass the index of the texture to be drawn using a per-instance "
-"uniform."
-msgstr ""
-"**Pro-Instanz-Uniforms unterstützen keine Texturen**, nur reguläre Skalar- "
-"und Vektortypen. Als Workaround können Sie ein Textur-Array als reguläres "
-"Uniform übergeben und dann den Index der zu zeichnenden Textur mit einem Pro-"
-"Instance-Uniform übergeben."
-
-msgid "There is a practical maximum limit of 16 instance uniforms per shader."
-msgstr ""
-"Es gibt eine praktische Höchstgrenze von 16 Instanz-Uniforms pro Shader."
-
-msgid ""
-"If your mesh uses multiple materials, the parameters for the first mesh "
-"material found will \"win\" over the subsequent ones, unless they have the "
-"same name, index *and* type. In this case, all parameters are affected "
-"correctly."
-msgstr ""
-"Wenn Ihr Mesh mehrere Materialien verwendet, haben die Parameter für das "
-"erste gefundene Mesh-Material Vorrang vor den nachfolgenden, es sei denn, "
-"sie haben denselben Namen, Index *und* Typ. In diesem Fall werden alle "
-"Parameter korrekt berücksichtigt."
-
-msgid ""
-"If you run into the above situation, you can avoid clashes by manually "
-"specifying the index (0-15) of the instance uniform by using the "
-"``instance_index`` hint:"
-msgstr ""
-"Wenn Sie in die oben beschriebene Situation geraten, können Sie Konflikte "
-"vermeiden, indem Sie den Index (0-15) des Instanzuniforms mit Hilfe des "
-"``instance_index``-Hints manuell angeben:"
-
 msgid "Built-in variables"
 msgstr "Built-in-Variablen"
-
-msgid ""
-"A large number of built-in variables are available, like ``UV``, ``COLOR`` "
-"and ``VERTEX``. What variables are available depends on the type of shader "
-"(``spatial``, ``canvas_item`` or ``particle``) and the function used "
-"(``vertex``, ``fragment`` or ``light``). For a list of the built-in "
-"variables that are available, please see the corresponding pages:"
-msgstr ""
-"Eine große Anzahl von Built-in-Variablen sind verfügbar, wie ``UV``, "
-"``COLOR`` und ``VERTEX``. Welche Variablen verfügbar sind, hängt vom Typ des "
-"Shaders (``spatial``, ``canvas_item`` oder ``particle``) und der verwendeten "
-"Funktion (``vertex``, ``fragment`` oder ``light``) ab. Eine Liste der Built-"
-"in-Variablen, die verfügbar sind, finden Sie auf den entsprechenden Seiten:"
 
 msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
 msgstr ":ref:`Spatial-Shader <doc_spatial_shader>`"
@@ -1455,981 +1267,3 @@ msgstr ":ref:`Fog-Shader <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "Built-in-Funktionen"
-
-msgid ""
-"A large number of built-in functions are supported, conforming to GLSL ES "
-"3.0. When vec_type (float), vec_int_type, vec_uint_type, vec_bool_type "
-"nomenclature is used, it can be scalar or vector."
-msgstr ""
-"Es wird eine große Anzahl von Built-in-Funktionen wird unterstützt, die GLSL "
-"ES 3.0 entsprechen. Wenn die Nomenklatur vec_type (float), vec_int_type, "
-"vec_uint_type, vec_bool_type verwendet wird, kann sie ein Skalar oder Vektor "
-"sein."
-
-msgid "Function"
-msgstr "Funktion"
-
-msgid "Description / Return value"
-msgstr "Beschreibung / Rückgabewert"
-
-msgid "vec_type **radians** (vec_type degrees)"
-msgstr "vec_type **radians** (vec_type degrees)"
-
-msgid "Convert degrees to radians."
-msgstr "Umrechnung von Grad nach Bogenmaß."
-
-msgid "vec_type **degrees** (vec_type radians)"
-msgstr "vec_type **degrees** (vec_type radians)"
-
-msgid "Convert radians to degrees."
-msgstr "Umrechnung von Bogenmaß in Grad."
-
-msgid "vec_type **sin** (vec_type x)"
-msgstr "vec_type **sin** (vec_type x)"
-
-msgid "Sine."
-msgstr "Sinus."
-
-msgid "vec_type **cos** (vec_type x)"
-msgstr "vec_type **cos** (vec_type x)"
-
-msgid "Cosine."
-msgstr "Kosinus."
-
-msgid "vec_type **tan** (vec_type x)"
-msgstr "vec_type **tan** (vec_type x)"
-
-msgid "Tangent."
-msgstr "Tangents."
-
-msgid "vec_type **asin** (vec_type x)"
-msgstr "vec_type **asin** (vec_type x)"
-
-msgid "Arcsine."
-msgstr "Arkussinus."
-
-msgid "vec_type **acos** (vec_type x)"
-msgstr "vec_type **acos** (vec_type x)"
-
-msgid "Arccosine."
-msgstr "Arkuskosinus."
-
-msgid "vec_type **atan** (vec_type y_over_x)"
-msgstr "vec_type **atan** (vec_type y_over_x)"
-
-msgid "Arctangent."
-msgstr "Arkustangens."
-
-msgid "vec_type **atan** (vec_type y, vec_type x)"
-msgstr "vec_type **atan** (vec_type y, vec_type x)"
-
-msgid "vec_type **sinh** (vec_type x)"
-msgstr "vec_type **sinh** (vec_type x)"
-
-msgid "Hyperbolic sine."
-msgstr "Hyperbolischer Sinus."
-
-msgid "vec_type **cosh** (vec_type x)"
-msgstr "vec_type **cosh** (vec_type x)"
-
-msgid "Hyperbolic cosine."
-msgstr "Hyperbolischer Kosinus."
-
-msgid "vec_type **tanh** (vec_type x)"
-msgstr "vec_type **tanh** (vec_type x)"
-
-msgid "Hyperbolic tangent."
-msgstr "Hyperbolischer Tangens."
-
-msgid "vec_type **asinh** (vec_type x)"
-msgstr "vec_type **asinh** (vec_type x)"
-
-msgid "Inverse hyperbolic sine."
-msgstr "Inverser Hyperbolischer Sinus."
-
-msgid "vec_type **acosh** (vec_type x)"
-msgstr "vec_type **acosh** (vec_type x)"
-
-msgid "Inverse hyperbolic cosine."
-msgstr "Inverser Hyperbolischer Kosinus."
-
-msgid "vec_type **atanh** (vec_type x)"
-msgstr "vec_type **atanh** (vec_type x)"
-
-msgid "Inverse hyperbolic tangent."
-msgstr "Inverser Hyperbolischer Tangens."
-
-msgid "vec_type **pow** (vec_type x, vec_type y)"
-msgstr "vec_type **pow** (vec_type x, vec_type y)"
-
-msgid "Power (undefined if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)."
-msgstr ""
-"Potenz (undefiniert falls ``x`` < 0 oder falls ``x`` = 0 und ``y`` <= 0)."
-
-msgid "vec_type **exp** (vec_type x)"
-msgstr "vec_type **exp** (vec_type x)"
-
-msgid "Base-e exponential."
-msgstr "Exponent zur Basis e."
-
-msgid "vec_type **exp2** (vec_type x)"
-msgstr "vec_type **exp2** (vec_type x)"
-
-msgid "Base-2 exponential."
-msgstr "Exponent zur Basis 2."
-
-msgid "vec_type **log** (vec_type x)"
-msgstr "vec_type **log** (vec_type x)"
-
-msgid "Natural logarithm."
-msgstr "Natürlicher Logarithmus."
-
-msgid "vec_type **log2** (vec_type x)"
-msgstr "vec_type **log2** (vec_type x)"
-
-msgid "Base-2 logarithm."
-msgstr "Logarithmus zur Basis 2."
-
-msgid "vec_type **sqrt** (vec_type x)"
-msgstr "vec_type **sqrt** (vec_type x)"
-
-msgid "Square root."
-msgstr "Quadratwurzel."
-
-msgid "vec_type **inversesqrt** (vec_type x)"
-msgstr "vec_type **inversesqrt** (vec_type x)"
-
-msgid "Inverse square root."
-msgstr "Inverse Quadratwurzel."
-
-msgid "vec_type **abs** (vec_type x)"
-msgstr "vec_type **abs** (vec_type x)"
-
-msgid "ivec_type **abs** (ivec_type x)"
-msgstr "ivec_type **abs** (ivec_type x)"
-
-msgid "Absolute value (returns positive value if negative)."
-msgstr "Absolutwert (liefert einen positiven Wert zurück, wenn negativ)."
-
-msgid "vec_type **sign** (vec_type x)"
-msgstr "vec_type **sign** (vec_type x)"
-
-msgid "ivec_type **sign** (ivec_type x)"
-msgstr "ivec_type **sign** (ivec_type x)"
-
-msgid ""
-"Sign (returns ``1.0`` if positive, ``-1.0`` if negative, ``0.0`` if zero)."
-msgstr ""
-"Vorzeichen (liefert ``1.0`` wenn positiv, ``-1.0`` wenn negativ, ``0.0`` "
-"wenn Null)."
-
-msgid "vec_type **floor** (vec_type x)"
-msgstr "vec_type **floor** (vec_type x)"
-
-msgid "Round to the integer below."
-msgstr "Abrunden auf die nächste ganze Zahl."
-
-msgid "vec_type **round** (vec_type x)"
-msgstr "vec_type **round** (vec_type x)"
-
-msgid "Round to the nearest integer."
-msgstr "Runden auf die nächste ganze Zahl."
-
-msgid "vec_type **roundEven** (vec_type x)"
-msgstr "vec_type **roundEven** (vec_type x)"
-
-msgid "Round to the nearest even integer."
-msgstr "Runden auf die nächste gerade Zahl."
-
-msgid "vec_type **trunc** (vec_type x)"
-msgstr "vec_type **trunc** (vec_type x)"
-
-msgid "Truncation."
-msgstr "Abschneiden."
-
-msgid "vec_type **ceil** (vec_type x)"
-msgstr "vec_type **ceil** (vec_type x)"
-
-msgid "Round to the integer above."
-msgstr "Aufrunden auf die nächste ganze Zahl."
-
-msgid "vec_type **fract** (vec_type x)"
-msgstr "vec_type **fract** (vec_type x)"
-
-msgid "Fractional (returns ``x - floor(x)``)."
-msgstr "Bruchteil (liefert ``x - floor(x)`` zurück)."
-
-msgid "vec_type **mod** (vec_type x, vec_type y)"
-msgstr "vec_type **mod** (vec_type x, vec_type y)"
-
-msgid "vec_type **mod** (vec_type x, float y)"
-msgstr "vec_type **mod** (vec_type x, float y)"
-
-msgid "Modulo (division remainder)."
-msgstr "Modulo (Rest der Division)."
-
-msgid "vec_type **modf** (vec_type x, out vec_type i)"
-msgstr "vec_type **modf** (vec_type x, out vec_type i)"
-
-msgid "Fractional of ``x``, with ``i`` as integer part."
-msgstr "Bruchteil von ``x``, mit ``i`` als ganzzahligem Teil."
-
-msgid "vec_type  **min** (vec_type a, vec_type b)"
-msgstr "vec_type  **min** (vec_type a, vec_type b)"
-
-msgid "Lowest value between ``a`` and ``b``."
-msgstr "Niedrigster Wert zwischen ``a`` und ``b``."
-
-msgid "vec_type  **max** (vec_type a, vec_type b)"
-msgstr "vec_type  **max** (vec_type a, vec_type b)"
-
-msgid "Highest value between ``a`` and ``b``."
-msgstr "Höchster Wert zwischen ``a`` und ``b``."
-
-msgid "vec_type **clamp** (vec_type x, vec_type min, vec_type max)"
-msgstr "vec_type **clamp** (vec_type x, vec_type min, vec_type max)"
-
-msgid "Clamp ``x`` between ``min`` and ``max`` (inclusive)."
-msgstr "Clampen von ``x``zwischen ``min`` und ``max`` (einschließlich)."
-
-msgid "float **mix** (float a, float b, float c)"
-msgstr "float **mix** (float a, float b, float c)"
-
-msgid "vec_type **mix** (vec_type a, vec_type b, float c)"
-msgstr "vec_type **mix** (vec_type a, vec_type b, float c)"
-
-msgid "vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
-msgstr "vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
-
-msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
-msgstr "Lineare Interpolation zwischen ``a`` und ``b`` durch ``c``."
-
-msgid "vec_type **fma** (vec_type a, vec_type b, vec_type c)"
-msgstr "vec_type **fma** (vec_type a, vec_type b, vec_type c)"
-
-msgid ""
-"Performs a fused multiply-add operation: ``(a * b + c)`` (faster than doing "
-"it manually)."
-msgstr ""
-"Führt eine kombinierte Multiplikations-Additions-Operation durch: ``(a * b + "
-"c)`` (schneller als die manuelle Ausführung)."
-
-msgid "vec_type **step** (vec_type a, vec_type b)"
-msgstr "vec_type **step** (vec_type a, vec_type b)"
-
-msgid "``b[i] < a[i] ? 0.0 : 1.0``."
-msgstr "``b[i] < a[i] ? 0.0 : 1.0``."
-
-msgid "vec_type **step** (float a, vec_type b)"
-msgstr "vec_type **step** (float a, vec_type b)"
-
-msgid "``b[i] < a ? 0.0 : 1.0``."
-msgstr "``b[i] < a ? 0.0 : 1.0``."
-
-msgid "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
-msgstr "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
-
-msgid "vec_type **smoothstep** (float a, float b, vec_type c)"
-msgstr "vec_type **smoothstep** (float a, float b, vec_type c)"
-
-msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
-msgstr "Hermitische Interpolation zwischen ``a`` und ``b`` durch ``c``."
-
-msgid "bvec_type **isnan** (vec_type x)"
-msgstr "bvec_type **isnan** (vec_type x)"
-
-msgid "Returns ``true`` if scalar or vector component is ``NaN``."
-msgstr "Liefert ``true`` wenn die Skalar- oder Vektor-Komponente ``NaN`` ist."
-
-msgid "bvec_type **isinf** (vec_type x)"
-msgstr "bvec_type **isinf** (vec_type x)"
-
-msgid "Returns ``true`` if scalar or vector component is ``INF``."
-msgstr "Liefert ``true`` wenn die Skalar- oder Vektor-Komponente ``INF`` ist."
-
-msgid "ivec_type **floatBitsToInt** (vec_type x)"
-msgstr "ivec_type **floatBitsToInt** (vec_type x)"
-
-msgid "Float->Int bit copying, no conversion."
-msgstr "Float->Int bitweises Kopieren, keine Konvertierung."
-
-msgid "uvec_type **floatBitsToUint** (vec_type x)"
-msgstr "uvec_type **floatBitsToUint** (vec_type x)"
-
-msgid "Float->UInt bit copying, no conversion."
-msgstr "Float->UInt bitweises Kopieren, keine Konvertierung."
-
-msgid "vec_type **intBitsToFloat** (ivec_type x)"
-msgstr "vec_type **intBitsToFloat** (ivec_type x)"
-
-msgid "Int->Float bit copying, no conversion."
-msgstr "Int->Float bitweise Kopieren, keine Konvertierung."
-
-msgid "vec_type **uintBitsToFloat** (uvec_type x)"
-msgstr "vec_type **uintBitsToFloat** (uvec_type x)"
-
-msgid "UInt->Float bit copying, no conversion."
-msgstr "UInt->Float bitweises Kopieren, keine Konvertierung."
-
-msgid "float **length** (vec_type x)"
-msgstr "float **length** (vec_type x)"
-
-msgid "Vector length."
-msgstr "Vektorlänge."
-
-msgid "float **distance** (vec_type a, vec_type b)"
-msgstr "float **distance** (vec_type a, vec_type b)"
-
-msgid "Distance between vectors i.e ``length(a - b)``."
-msgstr "Abstand zwischen Vektoren, also ``length(a - b)``."
-
-msgid "float **dot** (vec_type a, vec_type b)"
-msgstr "float **dot** (vec_type a, vec_type b)"
-
-msgid "Dot product."
-msgstr "Skalarprodukt."
-
-msgid "vec3 **cross** (vec3 a, vec3 b)"
-msgstr "vec3 **cross** (vec3 a, vec3 b)"
-
-msgid "Cross product."
-msgstr "Kreuzprodukt."
-
-msgid "vec_type **normalize** (vec_type x)"
-msgstr "vec_type **normalize** (vec_type x)"
-
-msgid "Normalize to unit length."
-msgstr "Normieren auf die Einheitslänge."
-
-msgid "vec3 **reflect** (vec3 I, vec3 N)"
-msgstr "vec3 **reflect** (vec3 I, vec3 N)"
-
-msgid "Reflect."
-msgstr "Reflektieren."
-
-msgid "vec3 **refract** (vec3 I, vec3 N, float eta)"
-msgstr "vec3 **refract** (vec3 I, vec3 N, float eta)"
-
-msgid "Refract."
-msgstr "Brechen."
-
-msgid "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
-msgstr "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
-
-msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
-msgstr "Falls ``dot(Nref, I)`` < 0, liefere ``N`` zurück, ansonsten ``-N``."
-
-msgid "mat_type **matrixCompMult** (mat_type x, mat_type y)"
-msgstr "mat_type **matrixCompMult** (mat_type x, mat_type y)"
-
-msgid "Matrix component multiplication."
-msgstr "Multiplikation von Matrixkomponenten."
-
-msgid "mat_type **outerProduct** (vec_type column, vec_type row)"
-msgstr "mat_type **outerProduct** (vec_type column, vec_type row)"
-
-msgid "Matrix outer product."
-msgstr "Äußeres Produkt der Matrix."
-
-msgid "mat_type **transpose** (mat_type m)"
-msgstr "mat_type **transpose** (mat_type m)"
-
-msgid "Transpose matrix."
-msgstr "Transponieren der Matrix."
-
-msgid "float **determinant** (mat_type m)"
-msgstr "float **determinant** (mat_type m)"
-
-msgid "Matrix determinant."
-msgstr "Matrix-Determinante."
-
-msgid "mat_type **inverse** (mat_type m)"
-msgstr "mat_type **inverse** (mat_type m)"
-
-msgid "Inverse matrix."
-msgstr "Matrix-Inverse."
-
-msgid "bvec_type **lessThan** (vec_type x, vec_type y)"
-msgstr "bvec_type **lessThan** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on < int/uint/float vectors."
-msgstr "Boolescher-Vektorvergleich für < int/uint/float-Vektoren."
-
-msgid "bvec_type **greaterThan** (vec_type x, vec_type y)"
-msgstr "bvec_type **greaterThan** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on > int/uint/float vectors."
-msgstr "Boolescher-Vektorvergleich für > int/uint/float-Vektoren."
-
-msgid "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
-msgstr "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on <= int/uint/float vectors."
-msgstr "Boolescher-Vektorvergleich für <= int/uint/float-Vektoren."
-
-msgid "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
-msgstr "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on >= int/uint/float vectors."
-msgstr "Boolescher-Vektorvergleich für >= int/uint/float-Vektoren."
-
-msgid "bvec_type **equal** (vec_type x, vec_type y)"
-msgstr "bvec_type **equal** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on == int/uint/float vectors."
-msgstr "Boolescher-Vektorvergleich für == int/uint/float-Vektoren."
-
-msgid "bvec_type **notEqual** (vec_type x, vec_type y)"
-msgstr "bvec_type **notEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on != int/uint/float vectors."
-msgstr "Boolescher-Vektorvergleich für != int/uint/float-Vektoren."
-
-msgid "bool **any** (bvec_type x)"
-msgstr "bool **any** (bvec_type x)"
-
-msgid "``true`` if any component is ``true``, ``false`` otherwise."
-msgstr "``true``, wenn eine Komponente ``true`` ist, ansonsten ``false``."
-
-msgid "bool **all** (bvec_type x)"
-msgstr "bool **all** (bvec_type x)"
-
-msgid "``true`` if all components are ``true``, ``false`` otherwise."
-msgstr "``true``, wenn alle Komponenten ``true`` sind, ansonsten ``false``."
-
-msgid "bvec_type **not** (bvec_type x)"
-msgstr "bvec_type **not** (bvec_type x)"
-
-msgid "Invert boolean vector."
-msgstr "Booleschen Vektor invertieren."
-
-msgid "ivec2 **textureSize** (gsampler2D s, int lod)"
-msgstr "ivec2 **textureSize** (gsampler2D s, int lod)"
-
-msgid "ivec3 **textureSize** (gsampler2DArray s, int lod)"
-msgstr "ivec3 **textureSize** (gsampler2DArray s, int lod)"
-
-msgid "ivec3 **textureSize** (gsampler3D s, int lod)"
-msgstr "ivec3 **textureSize** (gsampler3D s, int lod)"
-
-msgid "ivec2 **textureSize** (samplerCube s, int lod)"
-msgstr "ivec2 **textureSize** (samplerCube s, int lod)"
-
-msgid "ivec2 **textureSize** (samplerCubeArray s, int lod)"
-msgstr "ivec2 **textureSize** (samplerCubeArray s, int lod)"
-
-msgid "Get the size of a texture."
-msgstr "Ermitteln der Größe einer Textur."
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0`` will use "
-"the full resolution texture."
-msgstr ""
-"Der LOD-Wert bestimmt, welche Mipmap-Ebene verwendet wird. Bei einem LOD-"
-"Wert von ``0`` wird die Textur in voller Auflösung verwendet."
-
-msgid "vec2 **textureQueryLod** (gsampler2D s, vec2 p)"
-msgstr "vec2 **textureQueryLod** (gsampler2D s, vec2 p)"
-
-msgid "vec3 **textureQueryLod** (gsampler2DArray s, vec2 p)"
-msgstr "vec3 **textureQueryLod** (gsampler2DArray s, vec2 p)"
-
-msgid "vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
-msgstr "vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
-
-msgid "vec2 **textureQueryLod** (samplerCube s, vec3 p)"
-msgstr "vec2 **textureQueryLod** (samplerCube s, vec3 p)"
-
-msgid ""
-"Compute the level-of-detail that would be used to sample from a texture. The "
-"``x`` component of the resulted value is the mipmap array that would be "
-"accessed. The ``y`` component is computed level-of-detail relative to the "
-"base level (regardless of the mipmap levels of the texture)."
-msgstr ""
-"Berechnet das Level-of-Detail, das zum Abtasten einer Textur verwendet "
-"werden würde. Die Komponente ``x`` des resultierenden Wertes ist das Mipmap-"
-"Array, auf das zugegriffen werden würde. Die ``y``-Komponente ist das "
-"berechnete Level-of-Detail relativ zur Basisebene (unabhängig von den Mipmap-"
-"Ebenen der Textur)."
-
-msgid "int **textureQueryLevels** (gsampler2D s)"
-msgstr "int **textureQueryLevels** (gsampler2D s)"
-
-msgid "int **textureQueryLevels** (gsampler2DArray s)"
-msgstr "int **textureQueryLevels** (gsampler2DArray s)"
-
-msgid "int **textureQueryLevels** (gsampler3D s)"
-msgstr "int **textureQueryLevels** (gsampler3D s)"
-
-msgid "int **textureQueryLevels** (samplerCube s)"
-msgstr "int **textureQueryLevels** (samplerCube s)"
-
-msgid "Get the number of accessible mipmap levels of a texture."
-msgstr "Ermittelt die Anzahl der zugänglichen Mipmap-Ebenen einer Textur."
-
-msgid ""
-"If the texture is unassigned to a sampler, ``1`` is returned (Godot always "
-"internally assigns a texture even to an empty sampler)."
-msgstr ""
-"Wenn die Textur keinem Sampler zugewiesen ist, wird ``1`` zurückgegeben "
-"(Godot weist intern immer eine Textur zu, auch wenn der Sampler leer ist)."
-
-msgid "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
-msgstr "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
-
-msgid "gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
-msgstr "gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
-
-msgid "gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
-msgstr "gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
-
-msgid "vec4 **texture** (samplerCube s, vec3 p [, float bias])"
-msgstr "vec4 **texture** (samplerCube s, vec3 p [, float bias])"
-
-msgid "vec4 **texture** (samplerCubeArray s, vec4 p [, float bias])"
-msgstr "vec4 **texture** (samplerCubeArray s, vec4 p [, float bias])"
-
-msgid "Perform a texture read."
-msgstr "Führt ein Texturlesen durch."
-
-msgid "gvec4_type **textureProj** (gsampler2D s, vec3 p [, float bias])"
-msgstr "gvec4_type **textureProj** (gsampler2D s, vec3 p [, float bias])"
-
-msgid "gvec4_type **textureProj** (gsampler2D s, vec4 p [, float bias])"
-msgstr "gvec4_type **textureProj** (gsampler2D s, vec4 p [, float bias])"
-
-msgid "gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
-msgstr "gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
-
-msgid "Perform a texture read with projection."
-msgstr "Führt ein Texturlesen mit Projektion durch."
-
-msgid "gvec4_type **textureLod** (gsampler2D s, vec2 p, float lod)"
-msgstr "gvec4_type **textureLod** (gsampler2D s, vec2 p, float lod)"
-
-msgid "gvec4_type **textureLod** (gsampler2DArray s, vec3 p, float lod)"
-msgstr "gvec4_type **textureLod** (gsampler2DArray s, vec3 p, float lod)"
-
-msgid "gvec4_type **textureLod** (gsampler3D s, vec3 p, float lod)"
-msgstr "gvec4_type **textureLod** (gsampler3D s, vec3 p, float lod)"
-
-msgid "vec4 **textureLod** (samplerCube s, vec3 p, float lod)"
-msgstr "vec4 **textureLod** (samplerCube s, vec3 p, float lod)"
-
-msgid "vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
-msgstr "vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
-
-msgid "Perform a texture read at custom mipmap."
-msgstr "Führt ein Texturlesen an der benutzerdefinierten Mipmap durch."
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0.0`` will use "
-"the full resolution texture. If the texture lacks mipmaps, all LOD values "
-"will act like ``0.0``."
-msgstr ""
-"Der LOD-Wert bestimmt, welche Mipmap-Ebene verwendet wird. Ein LOD-Wert von "
-"``0.0`` verwendet die volle Auflösung der Textur. Wenn die Textur keine "
-"Mipmaps hat, haben alle LOD Werte die gleiche Wirkung wie ``0.0``."
-
-msgid "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
-msgstr "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
-
-msgid "gvec4_type **textureProjLod** (gsampler2D s, vec4 p, float lod)"
-msgstr "gvec4_type **textureProjLod** (gsampler2D s, vec4 p, float lod)"
-
-msgid "gvec4_type **textureProjLod** (gsampler3D s, vec4 p, float lod)"
-msgstr "gvec4_type **textureProjLod** (gsampler3D s, vec4 p, float lod)"
-
-msgid "Performs a texture read with projection/LOD."
-msgstr "Führt ein Texturlesen mit Projektion/LOD durch."
-
-msgid "gvec4_type **textureGrad** (gsampler2D s, vec2 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **textureGrad** (gsampler2D s, vec2 p, vec2 dPdx, vec2 dPdy)"
-
-msgid ""
-"gvec4_type **textureGrad** (gsampler2DArray s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **textureGrad** (gsampler2DArray s, vec3 p, vec2 dPdx, vec2 dPdy)"
-
-msgid "gvec4_type **textureGrad** (gsampler3D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **textureGrad** (gsampler3D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-
-msgid "vec4 **textureGrad** (samplerCube s, vec3 p, vec3 dPdx, vec3 dPdy)"
-msgstr "vec4 **textureGrad** (samplerCube s, vec3 p, vec3 dPdx, vec3 dPdy)"
-
-msgid "vec4 **textureGrad** (samplerCubeArray s, vec3 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"vec4 **textureGrad** (samplerCubeArray s, vec3 p, vec3 dPdx, vec3 dPdy)"
-
-msgid "Performs a texture read with explicit gradients."
-msgstr "Führt ein Texturlesen mit expliziten Farbverläufen durch."
-
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec4 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec4 p, vec2 dPdx, vec2 dPdy)"
-
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
-
-msgid ""
-"Performs a texture read with projection/LOD and with explicit gradients."
-msgstr ""
-"Führt ein Texturlesen mit Projektion/LOD und mit expliziten Farbverläufen "
-"durch."
-
-msgid "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"
-msgstr "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"
-
-msgid "gvec4_type **texelFetch** (gsampler2DArray s, ivec3 p, int lod)"
-msgstr "gvec4_type **texelFetch** (gsampler2DArray s, ivec3 p, int lod)"
-
-msgid "gvec4_type **texelFetch** (gsampler3D s, ivec3 p, int lod)"
-msgstr "gvec4_type **texelFetch** (gsampler3D s, ivec3 p, int lod)"
-
-msgid "Fetches a single texel using integer coordinates."
-msgstr "Holt ein einzelnes Texel mit Integer-Koordinaten."
-
-msgid "gvec4_type **textureGather** (gsampler2D s, vec2 p [, int comps])"
-msgstr "gvec4_type **textureGather** (gsampler2D s, vec2 p [, int comps])"
-
-msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
-msgstr "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
-
-msgid "vec4 **textureGather** (samplerCube s, vec3 p [, int comps])"
-msgstr "vec4 **textureGather** (samplerCube s, vec3 p [, int comps])"
-
-msgid ""
-"Gathers four texels from a texture. Use ``comps`` within range of 0..3 to "
-"define which component (x, y, z, w) is returned. If ``comps`` is not "
-"provided: 0 (or x-component) is used."
-msgstr ""
-"Holt vier Texel aus einer Textur. Benutzen Sie ``comps`` im Bereich von 0..3 "
-"um zu definieren, welche Komponente (x, y, z, w) zurückgegeben wird. Wird "
-"``comps`` nicht angegeben, wird 0 (oder die x-Komponente) verwendet."
-
-msgid "vec_type **dFdx** (vec_type p)"
-msgstr "vec_type **dFdx** (vec_type p)"
-
-msgid ""
-"Derivative in ``x`` using local differencing. Internally, can use either "
-"``dFdxCoarse`` or ``dFdxFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-"Ableitung in ``x`` unter Verwendung von lokaler Differenzierung. Intern kann "
-"entweder ``dFdxCoarse`` oder ``dFdxFine`` verwendet werden, aber die "
-"Entscheidung, welche Ableitung verwendet wird, trifft der GPU-Treiber."
-
-msgid "vec_type **dFdxCoarse** (vec_type p)"
-msgstr "vec_type **dFdxCoarse** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-"Berechnet die Ableitung nach der ``x``-Fensterkoordinate unter Verwendung "
-"der lokalen Differenzierung, basierend auf dem Wert von ``p`` für den/die "
-"aktuellen Fragment-Nachbarn, und schließt möglicherweise, aber nicht "
-"notwendigerweise, den Wert für das aktuelle Fragment ein. Diese Funktion ist "
-"im Profil ``gl_compatibility`` nicht verfügbar."
-
-msgid "vec_type **dFdxFine** (vec_type p)"
-msgstr "vec_type **dFdxFine** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-"Berechnet die Ableitung nach der ``x``-Fensterkoordinate unter Verwendung "
-"der lokalen Differenzierung auf der Grundlage des Wertes von ``p`` für das "
-"aktuelle Fragment und seine unmittelbaren Nachbarn. Diese Funktion ist im "
-"Profil ``gl_compatibility`` nicht verfügbar."
-
-msgid "vec_type **dFdy** (vec_type p)"
-msgstr "vec_type **dFdy** (vec_type p)"
-
-msgid ""
-"Derivative in ``y`` using local differencing. Internally, can use either "
-"``dFdyCoarse`` or ``dFdyFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-"Ableitung in ``y`` unter Verwendung der lokalen Differenzierung. Intern kann "
-"entweder ``dFdyCoarse`` oder ``dFdyFine`` verwendet werden, aber die "
-"Entscheidung, welche Ableitung verwendet wird, trifft der GPU-Treiber."
-
-msgid "vec_type **dFdyCoarse** (vec_type p)"
-msgstr "vec_type **dFdyCoarse** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-"Berechnet die Ableitung nach der ``y``-Fensterkoordinate unter Verwendung "
-"der lokalen Differenzierung, basierend auf dem Wert von ``p`` für die "
-"aktuellen Fragmentnachbarn, und schließt möglicherweise, aber nicht "
-"notwendigerweise, den Wert für das aktuelle Fragment ein. Diese Funktion ist "
-"im Profil ``gl_compatibility`` nicht verfügbar."
-
-msgid "vec_type **dFdyFine** (vec_type p)"
-msgstr "vec_type **dFdyFine** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-"Berechnet die Ableitung nach der ``y``-Fensterkoordinate unter Verwendung "
-"der lokalen Differenzierung auf der Grundlage des Wertes von ``p`` für das "
-"aktuelle Fragment und seine unmittelbaren Nachbarn. Diese Funktion ist im "
-"Profil ``gl_compatibility`` nicht verfügbar."
-
-msgid "vec_type **fwidth** (vec_type p)"
-msgstr "vec_type **fwidth** (vec_type p)"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdx(p)) + abs(dFdy(p))``."
-msgstr ""
-"Summe der absoluten Ableitungen in ``x`` und ``y``. Dies ist gleichbedeutend "
-"mit der Verwendung von ``abs(dFdx(p)) + abs(dFdy(p))``."
-
-msgid "vec_type **fwidthCoarse** (vec_type p)"
-msgstr "vec_type **fwidthCoarse** (vec_type p)"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-"Summe der absoluten Ableitung in ``x`` und ``y``. Dies ist das Äquivalent "
-"zur Verwendung von ``abs(dFdxCoarse(p)) + abs(dFdyGrob(p))``. Diese Funktion "
-"ist im Profil ``gl_compatibility`` nicht verfügbar."
-
-msgid "vec_type **fwidthFine** (vec_type p)"
-msgstr "vec_type **fwidthFine** (vec_type p)"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-"Summe der absoluten Ableitung in ``x`` und ``y``. Dies ist das Äquivalent "
-"zur Verwendung von ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. Diese Funktion "
-"ist im Profil ``gl_compatibility`` nicht verfügbar."
-
-msgid "uint **packHalf2x16** (vec2 v)"
-msgstr "uint **packHalf2x16** (vec2 v)"
-
-msgid "vec2 **unpackHalf2x16** (uint v)"
-msgstr "vec2 **unpackHalf2x16** (uint v)"
-
-msgid ""
-"Convert two 32-bit floating-point numbers into 16-bit and pack them into a "
-"32-bit unsigned integer and vice-versa."
-msgstr ""
-"Konvertiert zwei 32-Bit-Float-Zahlen in 16-Bit und packt sie in eine 32-Bit-"
-"Unsigned Integer und umgekehrt."
-
-msgid "uint **packUnorm2x16** (vec2 v)"
-msgstr "uint **packUnorm2x16** (vec2 v)"
-
-msgid "vec2 **unpackUnorm2x16** (uint v)"
-msgstr "vec2 **unpackUnorm2x16** (uint v)"
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within 0..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Konvertiert zwei 32-Bit-Float-Zahlen (im Bereich 0..1) in 16-Bit und packt "
-"sie in eine 32-Bit-Unsigned Integer und umgekehrt."
-
-msgid "uint **packSnorm2x16** (vec2 v)"
-msgstr "uint **packSnorm2x16** (vec2 v)"
-
-msgid "vec2 **unpackSnorm2x16** (uint v)"
-msgstr "vec2 **unpackSnorm2x16** (uint v)"
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within -1..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Konvertiert zwei 32-Bit-Float-Zahlen (geclamped im Bereich -1..1) in 16-Bit "
-"und packt sie in eine 32-Bit-Unsigned Integer-Zahl und umgekehrt."
-
-msgid "uint **packUnorm4x8** (vec4 v)"
-msgstr "uint **packUnorm4x8** (vec4 v)"
-
-msgid "vec4 **unpackUnorm4x8** (uint v)"
-msgstr "vec4 **unpackUnorm4x8** (uint v)"
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within 0..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Konvertiert vier 32-Bit-Float-Zahlen (geclamped im Bereich 0..1) in 8-Bit "
-"und packt sie in eine 32-Bit-Unsigned Integer-Zahl und umgekehrt."
-
-msgid "uint **packSnorm4x8** (vec4 v)"
-msgstr "uint **packSnorm4x8** (vec4 v)"
-
-msgid "vec4 **unpackSnorm4x8** (uint v)"
-msgstr "vec4 **unpackSnorm4x8** (uint v)"
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within -1..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Konvertiert vier 32-Bit-Float-Zahlen (geclampt im Bereich -1..1) in 8-Bit "
-"und packt sie in eine 32-Bit-Unsigned Integer-Zahl und umgekehrt."
-
-msgid "ivec_type **bitfieldExtract** (ivec_type value, int offset, int bits)"
-msgstr "ivec_type **bitfieldExtract** (ivec_type value, int offset, int bits)"
-
-msgid "uvec_type **bitfieldExtract** (uvec_type value, int offset, int bits)"
-msgstr "uvec_type **bitfieldExtract** (uvec_type value, int offset, int bits)"
-
-msgid "Extracts a range of bits from an integer."
-msgstr "Extrahiert einen Bereich von Bits aus einer Integer."
-
-msgid ""
-"ivec_type **bitfieldInsert** (ivec_type base, ivec_type insert, int offset, "
-"int bits)"
-msgstr ""
-"ivec_type **bitfieldInsert** (ivec_type base, ivec_type insert, int offset, "
-"int bits)"
-
-msgid ""
-"uvec_type **bitfieldInsert** (uvec_type base, uvec_type insert, int offset, "
-"int bits)"
-msgstr ""
-"uvec_type **bitfieldInsert** (uvec_type base, uvec_type insert, int offset, "
-"int bits)"
-
-msgid "Insert a range of bits into an integer."
-msgstr "Fügt einen Bereich von Bits in eine Integer ein."
-
-msgid "ivec_type **bitfieldReverse** (ivec_type value)"
-msgstr "ivec_type **bitfieldReverse** (ivec_type value)"
-
-msgid "uvec_type **bitfieldReverse** (uvec_type value)"
-msgstr "uvec_type **bitfieldReverse** (uvec_type value)"
-
-msgid "Reverse the order of bits in an integer."
-msgstr "Kehrt die Reihenfolge der Bits in einer Integer um."
-
-msgid "ivec_type **bitCount** (ivec_type value)"
-msgstr "ivec_type **bitCount** (ivec_type value)"
-
-msgid "uvec_type **bitCount** (uvec_type value)"
-msgstr "uvec_type **bitCount** (uvec_type value)"
-
-msgid "Counts the number of 1 bits in an integer."
-msgstr "Zählt die Anzahl der 1-Bits in einer Integer."
-
-msgid "ivec_type **findLSB** (ivec_type value)"
-msgstr "ivec_type **findLSB** (ivec_type value)"
-
-msgid "uvec_type **findLSB** (uvec_type value)"
-msgstr "uvec_type **findLSB** (uvec_type value)"
-
-msgid "Find the index of the least significant bit set to 1 in an integer."
-msgstr ""
-"Ermittelt den Index des niederwertigsten Bits, das in einer Integer-Zahl auf "
-"1 gesetzt ist."
-
-msgid "ivec_type **findMSB** (ivec_type value)"
-msgstr "ivec_type **findMSB** (ivec_type value)"
-
-msgid "uvec_type **findMSB** (uvec_type value)"
-msgstr "uvec_type **findMSB** (uvec_type value)"
-
-msgid "Find the index of the most significant bit set to 1 in an integer."
-msgstr ""
-"Ermittelt den Index des höchstwertigen Bits, das in einer Integer-Zahl auf 1 "
-"gesetzt ist."
-
-msgid ""
-"void **imulExtended** (ivec_type x, ivec_type y, out ivec_type msb, out "
-"ivec_type lsb)"
-msgstr ""
-"void **imulExtended** (ivec_type x, ivec_type y, out ivec_type msb, out "
-"ivec_type lsb)"
-
-msgid ""
-"void **umulExtended** (uvec_type x, uvec_type y, out uvec_type msb, out "
-"uvec_type lsb)"
-msgstr ""
-"void **umulExtended** (uvec_type x, uvec_type y, out uvec_type msb, out "
-"uvec_type lsb)"
-
-msgid ""
-"Multiplies two 32-bit numbers and produce a 64-bit result. ``x`` - the first "
-"number. ``y`` - the second number. ``msb`` - will contain the most "
-"significant bits. ``lsb`` - will contain the least significant bits."
-msgstr ""
-"Multipliziert zwei 32-Bit-Zahlen und erzeugt ein 64-Bit-Ergebnis. ``x`` - "
-"die erste Zahl. ``y`` - die zweite Zahl. ``msb`` - enthält die "
-"höchstwertigen Bits. ``lsb`` - enthält die niederwertigsten Bits."
-
-msgid "uvec_type **uaddCarry** (uvec_type x, uvec_type y, out uvec_type carry)"
-msgstr ""
-"uvec_type **uaddCarry** (uvec_type x, uvec_type y, out uvec_type carry)"
-
-msgid "Adds two unsigned integers and generates carry."
-msgstr "Addiert zwei Unsigned Integer-Zahlen und erzeugt einen Übertrag."
-
-msgid ""
-"uvec_type **usubBorrow** (uvec_type x, uvec_type y, out uvec_type borrow)"
-msgstr ""
-"uvec_type **usubBorrow** (uvec_type x, uvec_type y, out uvec_type borrow)"
-
-msgid "Subtracts two unsigned integers and generates borrow."
-msgstr "Subtrahiert zwei Unsigned Integer-Zahlen und erzeugt ein Borrow."
-
-msgid "vec_type **ldexp** (vec_type x, out ivec_type exp)"
-msgstr "vec_type **ldexp** (vec_type x, out ivec_type exp)"
-
-msgid "Assemble a floating-point number from a value and exponent."
-msgstr "Setzt eine Float-Zahl aus einem Wert und einem Exponenten zusammen."
-
-msgid ""
-"If this product is too large to be represented in the floating-point type "
-"the result is undefined."
-msgstr ""
-"Wenn dieses Produkt zu groß ist, um im Float-Typ dargestellt zu werden, ist "
-"das Ergebnis undefiniert."
-
-msgid "vec_type **frexp** (vec_type x, out ivec_type exp)"
-msgstr "vec_type **frexp** (vec_type x, out ivec_type exp)"
-
-msgid ""
-"Splits a floating-point number(``x``) into significand (in the range of "
-"[0.5, 1.0]) and an integral exponent."
-msgstr ""
-"Zerlegt eine Float-Zahl (``x``) in eine Mantisse (im Bereich von [0.5, 1.0]) "
-"und einen Integer-Exponenten."
-
-msgid ""
-"For ``x`` equals zero the significand and exponent are both zero. For ``x`` "
-"of infinity or NaN, the results are undefined."
-msgstr ""
-"Für ``x`` gleich Null sind sowohl die Mantisse als auch der Exponent gleich "
-"Null. Für ``x`` von unendlich oder NaN sind die Ergebnisse undefiniert."

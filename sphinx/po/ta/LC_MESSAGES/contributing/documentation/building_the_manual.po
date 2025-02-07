@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,16 +116,6 @@ msgstr "பிழைகள் கையாள்வது"
 
 msgid "If you run into errors, you may try the following command:"
 msgstr "நீங்கள் பிழைகள் இருந்தால், பின்வரும் கட்டளையை முயற்சி செய்யலாம்:"
-
-msgid ""
-"If you get a ``MemoryError`` or ``EOFError``, you can remove the ``classes/"
-"`` folder and run ``make`` again. This will drop the class references from "
-"the final HTML documentation but will keep the rest intact."
-msgstr ""
-"நீங்கள் ஒரு `` மெமரிஆரர்` அல்லது `` ஈஃபெர்ர்`` கிடைத்தால், நீங்கள் `` வகுப்புகள்/`` "
-"கோப்புறையை அகற்றி மீண்டும் `` செய்யுங்கள்` மீண்டும் இயக்கலாம். இது இறுதி உஉகுமொ "
-"ஆவணங்களிலிருந்து வகுப்பு குறிப்புகளை கைவிடும், ஆனால் மீதமுள்ளவற்றை அப்படியே "
-"வைத்திருக்கும்."
 
 msgid ""
 "If you delete the ``classes/`` folder, do not use ``git add .`` when working "

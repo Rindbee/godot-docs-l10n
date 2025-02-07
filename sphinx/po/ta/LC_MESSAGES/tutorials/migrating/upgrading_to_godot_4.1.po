@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,13 +48,6 @@ msgid ""
 msgstr ""
 "இந்த கட்டுரை ஒவ்வொரு முறிவு மாற்றமும் gdscript ஐ பாதிக்கிறதா என்பதையும், சி# முறிவு "
 "மாற்றம் *பைனரி இணக்கமானதா *அல்லது *மூல இணக்கமானதா *:"
-
-msgid ""
-"**Binary compatible** - Existing binaries will load and execute successfully "
-"without recompilation, and the run-time behavior won't change."
-msgstr ""
-"** பைனரி இணக்கமானது ** - தற்போதுள்ள பைனரிகள் மறுசீரமைப்பு இல்லாமல் வெற்றிகரமாக "
-"ஏற்றப்பட்டு செயல்படுத்தப்படும், மேலும் ரன் -டைம் நடத்தை மாறாது."
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "

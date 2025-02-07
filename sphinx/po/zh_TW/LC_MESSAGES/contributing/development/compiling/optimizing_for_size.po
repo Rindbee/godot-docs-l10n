@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -160,78 +160,6 @@ msgstr ""
 
 msgid "This is everything that will be disabled:"
 msgstr "以下所有東西都會被禁用："
-
-msgid "FileDialog"
-msgstr "檔案對話框"
-
-msgid "PopupMenu"
-msgstr "PopupMenu"
-
-msgid "Tree"
-msgstr "樹"
-
-msgid "TextEdit"
-msgstr "文字編輯器"
-
-msgid "CodeEdit"
-msgstr "文字編輯器"
-
-msgid "SyntaxHighlighter"
-msgstr "SyntaxHighlighter"
-
-msgid "CodeHighlighter"
-msgstr "CodeHighlighter"
-
-msgid "TreeItem"
-msgstr "TreeItem"
-
-msgid "OptionButton"
-msgstr "最佳化"
-
-msgid "SpinBox"
-msgstr "SpinBox"
-
-msgid "ColorPicker"
-msgstr "顏色"
-
-msgid "ColorPickerButton"
-msgstr "ColorPickerButton"
-
-msgid "RichTextlabel"
-msgstr "RichTextlabel"
-
-msgid "RichTextEffect"
-msgstr "RichTextEffect"
-
-msgid "CharFXTransform"
-msgstr "清除變換"
-
-msgid "AcceptDialog"
-msgstr "檔案對話框"
-
-msgid "ConfirmationDialog"
-msgstr "注意事項"
-
-msgid "MarginContainer"
-msgstr "建立內容"
-
-msgid "SubViewportContainer"
-msgstr "建立內容"
-
-msgid "SplitContainer"
-msgstr "建立內容"
-
-msgid "HSplitContainer"
-msgstr "建立內容"
-
-msgid "VSplitContainer"
-msgstr "建立內容"
-
-msgid "GraphNode"
-msgstr "GraphNode"
-
-msgid "GraphEdit"
-msgstr "GraphEdit"
 
 msgid "Disabling unwanted modules"
 msgstr "禁用不需要的模組"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -82,15 +82,6 @@ msgid ""
 "`Night Quest Games Blog <https://www.nightquestgames.com/blog-articles/>`__"
 msgstr ""
 "`Night Quest Games Blog'u <https://www.nightquestgames.com/blog-articles/>`__"
-
-msgid "Devlogs"
-msgstr "Geliştirici kayıtları"
-
-msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
-msgstr "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
-
-msgid "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"
-msgstr "`DevDuck (2B) <https://www.youtube.com/@devduck/videos>`_"
 
 msgid "Resources"
 msgstr "Kaynaklar"

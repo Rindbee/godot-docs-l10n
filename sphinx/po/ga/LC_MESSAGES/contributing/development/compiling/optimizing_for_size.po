@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -263,78 +263,6 @@ msgstr ""
 
 msgid "This is everything that will be disabled:"
 msgstr "Is é seo gach rud a bheidh faoi mhíchumas:"
-
-msgid "FileDialog"
-msgstr "ComhadDialog"
-
-msgid "PopupMenu"
-msgstr "PreabfhuinneogMenu"
-
-msgid "Tree"
-msgstr "Crann"
-
-msgid "TextEdit"
-msgstr "TéacsCuir in Eagar"
-
-msgid "CodeEdit"
-msgstr "CódCuir in Eagar"
-
-msgid "SyntaxHighlighter"
-msgstr "ComhréirHighlighter"
-
-msgid "CodeHighlighter"
-msgstr "CodeHighlighterName"
-
-msgid "TreeItem"
-msgstr "CrannItem"
-
-msgid "OptionButton"
-msgstr "RoghaButton"
-
-msgid "SpinBox"
-msgstr "SpinBoxName"
-
-msgid "ColorPicker"
-msgstr "DathPickerName"
-
-msgid "ColorPickerButton"
-msgstr "Cnaipe Dath Piocálaí"
-
-msgid "RichTextlabel"
-msgstr "RichTextlabelGenericName"
-
-msgid "RichTextEffect"
-msgstr "RichTextEffect"
-
-msgid "CharFXTransform"
-msgstr "CharfxTransform"
-
-msgid "AcceptDialog"
-msgstr "Glac leisDialog"
-
-msgid "ConfirmationDialog"
-msgstr "DeimhniúDialog"
-
-msgid "MarginContainer"
-msgstr "ImeallContainer"
-
-msgid "SubViewportContainer"
-msgstr "SubviewPortContainer"
-
-msgid "SplitContainer"
-msgstr "ScoiltContainer"
-
-msgid "HSplitContainer"
-msgstr "HSplitContainerName"
-
-msgid "VSplitContainer"
-msgstr "VSplitContainerGenericName"
-
-msgid "GraphNode"
-msgstr "GrafNodeGenericName"
-
-msgid "GraphEdit"
-msgstr "GrafCuir in Eagar"
 
 msgid "Disabling unwanted modules"
 msgstr "Modúil gan iarraidh a dhíchumasú"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -99,26 +99,14 @@ msgstr ":kbd:`Cmd + Ctrl + D`"
 msgid "``editor/distraction_free_mode``"
 msgstr "``editor/distraction_free_mode``"
 
-msgid "Next tab"
-msgstr "다음 탭"
-
 msgid ":kbd:`Ctrl + Tab`"
 msgstr ":kbd:`Ctrl + Tab`"
-
-msgid ":kbd:`Cmd + Tab`"
-msgstr ":kbd:`Cmd + Tab`"
 
 msgid "``editor/next_tab``"
 msgstr "``editor/next_tab``"
 
-msgid "Previous tab"
-msgstr "이전 탭"
-
 msgid ":kbd:`Ctrl + Shift + Tab`"
 msgstr ":kbd:`Ctrl + Shift + Tab`"
-
-msgid ":kbd:`Cmd + Shift + Tab`"
-msgstr ":kbd:`Cmd + Shift + Tab`"
 
 msgid "``editor/prev_tab``"
 msgstr "``editor/prev_tab``"
@@ -149,9 +137,6 @@ msgstr "씬 닫기"
 
 msgid ":kbd:`Ctrl + Shift + W`"
 msgstr ":kbd:`Ctrl + Shift + W`"
-
-msgid ":kbd:`Cmd + Shift + W`"
-msgstr ":kbd:`Cmd + Shift + W`"
 
 msgid "``editor/close_scene``"
 msgstr "``editor/close_scene``"

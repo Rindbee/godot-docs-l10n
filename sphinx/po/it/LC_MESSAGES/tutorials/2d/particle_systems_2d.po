@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,36 +43,3 @@ msgstr "FPS fisso"
 
 msgid "Local Coords"
 msgstr "Coordinate locali"
-
-msgid "Direction"
-msgstr "Direzione"
-
-msgid "Spread"
-msgstr "Propagazione"
-
-msgid "Flatness"
-msgstr "Piattezza"
-
-msgid "Gravity"
-msgstr "Gravità"
-
-msgid "Damping"
-msgstr "Smorzamento"
-
-msgid "Angle"
-msgstr "Angolo"
-
-msgid "Scale"
-msgstr "Scala"
-
-msgid "Color"
-msgstr "Colore"
-
-msgid "Animation"
-msgstr "Animazione"
-
-msgid "Emission Mask"
-msgstr "Maschera Emissione"
-
-msgid "Emission Colors"
-msgstr "Colori Emissione"

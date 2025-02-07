@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,13 +29,6 @@ msgstr ""
 "எவ்வாறு பயன்படுத்துவது. பின்னர், நீங்கள் பார்க்க விரும்பலாம்: ref: `குறிப்பிட்ட அம்சங்களை "
 "எவ்வாறு பயன்படுத்துவது <doc_c_sharp_features>`, பற்றி படியுங்கள்: குறிப்பு: `சி# "
 "மற்றும் சி.டி.எச்ச்கிரிப்ட் பநிஇ ."
-
-msgid ""
-"C# is a high-level programming language developed by Microsoft. In Godot, it "
-"is implemented with .NET 6.0."
-msgstr ""
-"சி# என்பது மைக்ரோசாப்ட் உருவாக்கிய உயர் மட்ட நிரலாக்க மொழியாகும். கோடோட்டில், இது .NET "
-"6.0 உடன் செயல்படுத்தப்படுகிறது."
 
 msgid ""
 "Projects written in C# using Godot 4 currently cannot be exported to the web "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,11 +50,6 @@ msgstr ""
 
 msgid "Many more things."
 msgstr "Viele weitere Dinge."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr ""
-"Features können zur Laufzeit über die Singleton-API abgefragt werden, indem "
-"Folgendes aufgerufen wird:"
 
 msgid ""
 "OS feature tags are used by GDExtension to determine which libraries to "
@@ -329,20 +324,6 @@ msgstr "**movie**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker mode <doc_creating_movies>` ist aktiv"
 
-msgid ""
-"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
-"feature tags, default feature tags are **immutable**. This means that they "
-"will *not* change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to Web on a mobile device."
-msgstr ""
-"Mit Ausnahme der Texturkomprimierung sowie der Feature-Tags "
-"``web_<platform>`` und ``movie`` sind die Standard-Feature-Tags "
-"**unveränderlich**. Das bedeutet, dass sie sich je nach Laufzeitbedingungen "
-"*nicht* ändern. Beispielsweise gibt ``OS.has_feature(\"mobile\")`` ``false`` "
-"zurück, wenn ein ins Web exportiertes Projekt auf einem mobilen Gerät "
-"ausgeführt wird."
-
 msgid "Custom features"
 msgstr "Benutzerdefinierte Features"
 
@@ -386,11 +367,6 @@ msgstr ""
 "Im folgenden Beispiel wird ein anderes Icon für den Demo-Build des Spiels "
 "hinzugefügt (der in einer speziellen Exportvorgabe angepasst wurde, die "
 "wiederum nur Demo-Levels enthält)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr ""
-"Nach dem Überschreiben wird ein neues Feld für diese spezielle Konfiguration "
-"hinzugefügt:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

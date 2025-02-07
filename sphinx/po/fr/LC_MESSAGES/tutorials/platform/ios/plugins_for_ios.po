@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -323,13 +323,6 @@ msgstr ""
 
 msgid "``show_game_center``"
 msgstr "``show_game_center``"
-
-msgid ""
-"Displays the built in Game Center overlay showing leaderboards, "
-"achievements, and challenges."
-msgstr ""
-"Affiche la superposition intégrée du Game Center montrant les classements, "
-"les achèvements et les défis."
 
 msgid "Takes a Dictionary as a parameter, with two fields:"
 msgstr "Prend un dictionnaire comme paramètre, avec deux champs :"

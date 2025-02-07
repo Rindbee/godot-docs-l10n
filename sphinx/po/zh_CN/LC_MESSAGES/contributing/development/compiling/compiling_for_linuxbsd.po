@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,12 +31,6 @@ msgstr "要在Linux或其他类Unix系统下进行编译, 需要满足以下条�
 
 msgid "GCC 9+ or Clang 6+."
 msgstr "GCC 9+ 或 Clang 6+。"
-
-msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
-msgstr "`Python 3.6+ <https://www.python.org/downloads/>`_\\ 。"
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ 构建系统。"
 
 msgid "pkg-config (used to detect the development libraries listed below)."
 msgstr "pkg-config（用于检测下面这些开发库）。"

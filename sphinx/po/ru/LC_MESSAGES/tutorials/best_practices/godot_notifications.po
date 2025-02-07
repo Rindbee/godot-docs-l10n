@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -224,13 +224,6 @@ msgstr ""
 "**Присвоение начального значения:** при создании экземпляра будет назначено "
 "либо значение инициализации, либо значение по умолчанию, если не указано "
 "другое. Если сеттер существует, то он не будет использован."
-
-msgid ""
-"**``_init()`` assignment:** the property's value is replaced by any "
-"assignments made in ``_init()``, triggering the setter."
-msgstr ""
-"**``_init()`` назначение:** значение свойства заменяется любыми "
-"назначениями, сделанными в ``_init()``, с использованием сеттера."
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

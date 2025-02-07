@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,14 +32,6 @@ msgstr "如何在 Godot 中設定可見性範圍（手動 LOD）。"
 
 msgid "How to tune visibility ranges for best performance and quality."
 msgstr "如何調整可見範圍以獲得最佳性能和品質。"
-
-msgid ""
-"If you only need meshes to become less detailed over distance but don't have "
-"manually authored LOD meshes, consider relying on automatic :ref:"
-"`doc_mesh_lod` instead."
-msgstr ""
-"如果您只需要網格在距離上變得不那麼詳細，但沒有手動建立 LOD 網格，請考慮依賴自"
-"動 doc_mesh_lod 。"
 
 msgid ""
 "Note that automatic mesh LOD and visibility ranges can be used at the same "

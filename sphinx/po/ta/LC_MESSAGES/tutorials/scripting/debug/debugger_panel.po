@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,16 +28,6 @@ msgid ""
 msgstr ""
 "பிழைத்திருத்த குழு பல தாவல்களாகப் பிரிக்கப்பட்டுள்ளது, ஒவ்வொன்றும் ஒரு குறிப்பிட்ட பணியில் "
 "கவனம் செலுத்துகின்றன."
-
-msgid "Debugger"
-msgstr "பிழைத்திருத்தம்"
-
-msgid ""
-"The Debugger tab opens automatically when the GDScript compiler reaches a "
-"breakpoint in your code."
-msgstr ""
-"GDSCRIPT கம்பைலர் உங்கள் குறியீட்டில் ஒரு இடைவெளியை அடையும் போது பிழைத்திருத்த தாவல் "
-"தானாகவே திறக்கும்."
 
 msgid ""
 "It gives you a `stack trace <https://en.wikipedia.org/wiki/Stack_trace>`__, "

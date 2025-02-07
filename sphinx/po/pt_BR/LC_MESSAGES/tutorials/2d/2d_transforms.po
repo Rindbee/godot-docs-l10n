@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,16 +16,6 @@ msgstr "Transformações de janela de exibição e tela"
 
 msgid "Introduction"
 msgstr "Introdução"
-
-msgid ""
-"This is an overview of the 2D transforms going on for nodes from the moment "
-"they draw their content locally to the time they are drawn onto the screen. "
-"This overview discusses very low level details of the engine."
-msgstr ""
-"Esta é uma visão geral das transformações 2D que ocorrem para os nós desde o "
-"momento em que eles desenham seu conteúdo localmente até o momento em que "
-"são desenhados na tela. Esta visão geral discute detalhes de nível muito "
-"baixo do mecanismo."
 
 msgid "Canvas transform"
 msgstr "Transformação de tela"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,9 +32,6 @@ msgstr ""
 
 msgid "Godot API for C#"
 msgstr "API Godot для C#"
-
-msgid "Android support is currently experimental and has a few limitations."
-msgstr "Поддержка Android экспериментальная и содержит некоторый ограничения."
 
 msgid ""
 "Currently, projects written in C# cannot be exported to the web platform. To "

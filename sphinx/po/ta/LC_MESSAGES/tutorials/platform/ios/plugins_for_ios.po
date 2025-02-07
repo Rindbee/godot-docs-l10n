@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -316,13 +316,6 @@ msgstr ""
 
 msgid "``show_game_center``"
 msgstr "`` show_game_center``"
-
-msgid ""
-"Displays the built in Game Center overlay showing leaderboards, "
-"achievements, and challenges."
-msgstr ""
-"லீடர்போர்டுகள், சாதனைகள் மற்றும் சவால்களைக் காட்டும் விளையாட்டு மைய மேலடுக்கில் கட்டப்பட்டதைக் "
-"காட்டுகிறது."
 
 msgid "Takes a Dictionary as a parameter, with two fields:"
 msgstr "ஒரு அகராதியை இரண்டு புலங்களுடன் ஒரு அளவுருவாக எடுத்துக்கொள்கிறது:"

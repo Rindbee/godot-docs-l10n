@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -407,9 +407,6 @@ msgstr "I ngach cás eile, ní thacaítear le rianú láimhe ar chor ar bith."
 
 msgid "You can access this information through code:"
 msgstr "Is féidir leat rochtain a fháil ar an bhfaisnéis seo trí chód:"
-
-msgid "This example simply logs the state for the left hand."
-msgstr "Ní dhéanann an sampla seo ach an stát a logáil don lámh chlé."
 
 msgid ""
 "If in this example no hand tracker is returned by ``get_tracker``, this "

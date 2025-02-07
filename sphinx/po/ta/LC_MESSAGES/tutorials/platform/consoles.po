@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,16 +16,6 @@ msgstr "கோடோட்டில் கன்சோல் உதவி"
 
 msgid "Console porting process"
 msgstr "கன்சோல் போர்ட்டிங் செயல்முறை"
-
-msgid ""
-"In order to develop for consoles in Godot, you need access to the console "
-"SDK and export templates for it. These export templates need to be developed "
-"either by yourself or someone hired to do it, or provided by a third party "
-"company."
-msgstr ""
-"கோடோட்டில் கன்சோல்களுக்காக உருவாக்க, உங்களுக்கு கன்சோல் எச்.டி.கே மற்றும் அதற்கான ஏற்றுமதி "
-"வார்ப்புருக்கள் அணுகல் தேவை. இந்த ஏற்றுமதி வார்ப்புருக்கள் நீங்களே அல்லது அதைச் செய்ய "
-"பணியமர்த்தப்பட்ட ஒருவரால் அல்லது மூன்றாம் தரப்பு நிறுவனத்தால் வழங்கப்பட வேண்டும்."
 
 msgid ""
 "Currently, the only console Godot officially supports is Steam Deck (through "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,11 +31,32 @@ msgstr ""
 "本文档仅包含新页面，因此并未反映所有更改，许多页面已经大幅更新，但未反映在本"
 "文档中。"
 
-msgid "About"
-msgstr "关于"
-
 msgid "2D"
 msgstr "2D"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "调试"
+
+msgid "Editor"
+msgstr "编辑器"
+
+msgid "Performance"
+msgstr "性能"
+
+msgid "Physics"
+msgstr "物理"
+
+msgid "Rendering"
+msgstr "渲染"
+
+msgid "Shaders"
+msgstr "着色器"
+
+msgid "About"
+msgstr "关于"
 
 msgid "Contributing"
 msgstr "贡献"
@@ -45,9 +66,6 @@ msgstr "GDExtension"
 
 msgid "Migrating"
 msgstr "迁移"
-
-msgid "Rendering"
-msgstr "渲染"
 
 msgid "XR"
 msgstr "XR"
@@ -94,9 +112,6 @@ msgstr ":ref:`doc_using_sanitizers`"
 msgid ":ref:`doc_upgrading_to_godot_4.1`"
 msgstr ":ref:`doc_upgrading_to_godot_4.1`"
 
-msgid "Physics"
-msgstr "物理"
-
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref:`doc_troubleshooting_physics_issues`"
 
@@ -105,9 +120,6 @@ msgstr "3.6 版本加入的新页面"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing`"
-
-msgid "3D"
-msgstr "3D"
 
 msgid ":ref:`doc_3d_antialiasing`"
 msgstr ":ref:`doc_3d_antialiasing`"
@@ -178,9 +190,6 @@ msgstr ":ref:`doc_c_sharp_global_classes`"
 msgid ":ref:`doc_c_sharp_variant`"
 msgstr ":ref:`doc_c_sharp_variant`"
 
-msgid "Shaders"
-msgstr "着色器"
-
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_compute_shaders`"
 
@@ -213,9 +222,6 @@ msgstr ":ref:`doc_3d_text`"
 
 msgid ":ref:`doc_playing_videos`"
 msgstr ":ref:`doc_playing_videos`"
-
-msgid "Editor"
-msgstr "编辑器"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:`doc_managing_editor_features`"

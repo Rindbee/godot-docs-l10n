@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,14 +27,6 @@ msgstr "需求"
 
 msgid "For compiling under Windows, the following is required:"
 msgstr "要在Windows下进行编译, 需要以下内容:"
-
-msgid ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system. Using "
-"the latest release is recommended, especially for proper support of recent "
-"Visual Studio releases."
-msgstr ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ 构建系统。建议使用最"
-"新稳定版本，这样就能够正确支持最近版本的 Visual Studio。"
 
 msgid ""
 "If you have `Scoop <https://scoop.sh/>`_ installed, you can easily install "

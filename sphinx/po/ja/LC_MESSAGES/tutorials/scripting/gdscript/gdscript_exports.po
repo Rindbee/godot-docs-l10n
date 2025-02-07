@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -125,34 +125,12 @@ msgstr ""
 msgid "Strings as paths"
 msgstr "パス文字列"
 
-msgid "String as a path to a file."
-msgstr "ファイルへのパス文字列。"
-
-msgid "String as a path to a directory."
-msgstr "ディレクトリへのパス文字列。"
-
-msgid "String as a path to a file, custom filter provided as hint."
-msgstr "ファイルへのパス文字列、カスタムフィルターのヒントを指定します。"
-
 msgid ""
 "Using paths in the global filesystem is also possible, but only in scripts "
 "in tool mode."
 msgstr ""
 "グローバルファイルシステム内のパスを使用することも可能ですが、ツールモードの"
 "スクリプトでのみ使用できます。"
-
-msgid "String as a path to a PNG file in the global filesystem."
-msgstr "グローバルファイル システム内のPNGファイルへのパス文字列。"
-
-msgid "String as a path to a directory in the global filesystem."
-msgstr "グローバルファイルシステム内のディレクトリへのパス文字列。"
-
-msgid ""
-"The multiline annotation tells the editor to show a large input field for "
-"editing over multiple lines."
-msgstr ""
-"multilineアノテーションは複数行にわたって編集するための、大きな入力フィールド"
-"を表示するようにエディターに指示します。"
 
 msgid "Limiting editor input ranges"
 msgstr "入力範囲の制限"
@@ -175,9 +153,6 @@ msgstr "色"
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr "RGBAの値として指定される通常の色。"
-
-msgid "Color given as red-green-blue value (alpha will always be 1)."
-msgstr "RGBの値として指定される色 (アルファは常に1)。"
 
 msgid "Nodes"
 msgstr "ノード"
@@ -220,13 +195,6 @@ msgstr ""
 "インスペクタのドロップダウンを開くと、作成可能クラスの非常に長いリストが表示"
 "される場合があります。作成できるリソースを限定するには、次のようにリソースの"
 "型を指定します。"
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes."
-msgstr ""
-"このようにするとドロップダウンメニューは、AnimationNodeとそのすべての継承クラ"
-"スに限定されます。"
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

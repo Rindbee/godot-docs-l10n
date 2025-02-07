@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -95,16 +95,6 @@ msgstr "如果著色器中更改了任何制服。"
 msgid "If the screen is resized and either of the subpasses are used."
 msgstr "如果調整螢幕大小並且使用任一子頻道。"
 
-msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"盡量避免不必要地更新輻射立方體貼圖。如果您確實需要每影格更新輻射立方體貼圖，"
-"請確保您的 Sky 處理模式 <class_Sky_property_process_mode>` 設定為 :ref:"
-"`REALTIME <class_Sky_constant_PROCESS_MODE_REALTIME>`。"
-
 msgid "Render modes"
 msgstr "算繪模式"
 
@@ -143,15 +133,6 @@ msgstr "使用後，霧不會影響天空。"
 msgid "Built-ins"
 msgstr "內建"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"標記為 \"in\" 的值是唯讀的. 標記為 \"out\" 的值是可以選擇寫入的, 不一定包含合"
-"理的值. 標記為 \"inout\" 的值提供一個合理的預設值, 並且可以選擇寫入. 取樣器不"
-"是寫入的物件, 它們沒有被標記."
-
 msgid "Global built-ins"
 msgstr "定數"
 
@@ -175,8 +156,8 @@ msgstr "in float **TIME**"
 msgid "in vec3 **POSITION**"
 msgstr "in vec3 **POSITION**"
 
-msgid "Camera position in world space"
-msgstr "相機位置，使用世界空間"
+msgid "Camera position, in world space."
+msgstr "相機的位置，使用世界空間。"
 
 msgid "samplerCube **RADIANCE**"
 msgstr "samplerCube **RADIANCE**"
@@ -190,30 +171,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "in bool **AT_HALF_RES_PASS**"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "目前正在算繪半解析度階段。"
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "in bool **AT_QUARTER_RES_PASS**"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "目前正在算繪四分之一解析度階段。"
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "in bool **AT_CUBEMAP_PASS**"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr "目前正在算繪輻射度立方體貼圖。"
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "in bool **LIGHTX_ENABLED**"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"場景中存在 ``LightX`` 並且可見。如果為 ``false``，則其他燈光屬性可能為垃圾"
-"值。"
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "in float **LIGHTX_ENERGY**"

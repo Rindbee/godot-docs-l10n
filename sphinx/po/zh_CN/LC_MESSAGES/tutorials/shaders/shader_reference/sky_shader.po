@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -89,16 +89,6 @@ msgstr "着色器中的任意 uniform 发生了改变。"
 msgid "If the screen is resized and either of the subpasses are used."
 msgstr "屏幕大小发生了变化并且用到了子阶段。"
 
-msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"请避免对辐射率立方体贴图进行不必要的更新。如果你需要每帧都更新辐射率立方体贴"
-"图，请确保 ref:`Sky 的处理模式 <class_Sky_property_process_mode>`\\ 为 :ref:"
-"`REALTIME <class_Sky_constant_PROCESS_MODE_REALTIME>`\\ 。"
-
 msgid "Render modes"
 msgstr "渲染模式"
 
@@ -148,8 +138,8 @@ msgstr "in float **TIME**"
 msgid "in vec3 **POSITION**"
 msgstr "in vec3 **POSITION**"
 
-msgid "Camera position in world space"
-msgstr "相机位置，使用世界空间"
+msgid "Camera position, in world space."
+msgstr "相机的位置，使用世界空间。"
 
 msgid "samplerCube **RADIANCE**"
 msgstr "samplerCube **RADIANCE**"
@@ -163,30 +153,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "in bool **AT_HALF_RES_PASS**"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "目前正在渲染半分辨率阶段。"
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "in bool **AT_QUARTER_RES_PASS**"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "目前正在渲染四分之一分辨率阶段。"
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "in bool **AT_CUBEMAP_PASS**"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr "目前正在渲染辐射度立方体贴图。"
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "in bool **LIGHTX_ENABLED**"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"场景中存在 ``LightX`` 并且可见。如果为 ``false``\\ ，则其他灯光属性可能为垃圾"
-"值。"
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "in float **LIGHTX_ENERGY**"

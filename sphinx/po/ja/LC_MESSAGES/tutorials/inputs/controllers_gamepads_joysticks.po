@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,21 +13,6 @@ msgstr ""
 
 msgid "Controllers, gamepads, and joysticks"
 msgstr "コントローラー、ゲームパッド、ジョイスティック"
-
-msgid ""
-"Godot supports hundreds of controller models thanks to the community-sourced "
-"`SDL game controller database <https://github.com/gabomdq/"
-"SDL_GameControllerDB>`__."
-msgstr ""
-"GodotはOSSコミュニティが提供する `SDL_GameControllerDB <https://github.com/"
-"gabomdq/SDL_GameControllerDB>`__ のおかげで、数百種類のコントローラーモデルを"
-"サポートしています。"
-
-msgid ""
-"Controllers are supported on Windows, macOS, Linux, Android, iOS, and HTML5."
-msgstr ""
-"コントローラーは Windows、macOS、Linux、Android、iOS、および HTML5 でサポート"
-"されています。"
 
 msgid ""
 "Note that more specialized devices such as steering wheels, rudder pedals "

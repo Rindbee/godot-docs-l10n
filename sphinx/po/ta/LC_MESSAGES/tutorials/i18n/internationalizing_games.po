@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -110,6 +110,9 @@ msgstr ""
 "மாறும் ஃபோன்ட் குறைவடையும் அமைப்பின் தலைகீழ் என்னவென்றால், இது தற்போதைய மொழியைப் "
 "பொருட்படுத்தாமல் செயல்படுகிறது, இது மல்டிபிளேயர் அரட்டை போன்ற விசயங்களுக்கு ஏற்றதாக "
 "அமைகிறது, அங்கு உரை மொழி வாடிக்கையாளரின் மொழியுடன் பொருந்தாது."
+
+msgid "Examples:"
+msgstr "எடுத்துக்காட்டுகள்:"
 
 msgid "Converting keys to text"
 msgstr "விசைகளை உரையாக மாற்றும்"
@@ -334,16 +337,6 @@ msgstr ""
 
 msgid "TranslationServer"
 msgstr "மொழிபெயர்ப்பாளர்"
-
-msgid ""
-"Godot has a server handling low-level translation management called the :ref:"
-"`TranslationServer <class_TranslationServer>`. Translations can be added or "
-"removed during run-time; the current language can also be changed at run-"
-"time."
-msgstr ""
-"கோடோட் குறைந்த அளவிலான மொழிபெயர்ப்பு நிர்வாகத்தைக் கையாளும் சேவையகத்தைக் கொண்டுள்ளது: "
-"குறிப்பு: `மொழிபெயர்ப்பாளர் <class_translationserver>`. ரன்-டைம் போது "
-"மொழிபெயர்ப்புகளைச் சேர்க்கலாம் அல்லது அகற்றலாம்; தற்போதைய மொழியை ரன்-டைமில் மாற்றலாம்."
 
 msgid "Bidirectional text and UI Mirroring"
 msgstr "இருதரப்பு உரை மற்றும் இடைமுகம் பிரதிபலிப்பு"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,9 +116,6 @@ msgid ""
 "In the editor, keys are represented by filled diamonds and the outlined "
 "diamonds connected to them by a line control curve's shape."
 msgstr "在編輯器中，鍵由實心菱形表示，輪廓菱形透過線控製曲線的形狀連接到它們。"
-
-msgid "In the right click panel of the editor, you can select the handle mode:"
-msgstr "在編輯器右鍵面板中，可以選擇手把模式："
 
 msgid ""
 "Free: Allows you to orient a manipulator in any direction without affecting "

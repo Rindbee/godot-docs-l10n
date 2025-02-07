@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,17 +159,6 @@ msgid "Adding a composition layer"
 msgstr "Додавання композиційного шару"
 
 msgid ""
-"The second step is adding our composition layer. We simply add the correct "
-"composition layer node as a child node of our :ref:`XROrigin3D "
-"<class_xrorigin3d>` node. This is very important as the XR runtime positions "
-"everything in relation to our origin."
-msgstr ""
-"Другим кроком є додавання шару композиції. Ми просто додаємо правильний "
-"вузол шару композиції як дочірній вузол нашого вузла :ref:`XROrigin3D "
-"<class_xrorigin3d>`. Це дуже важливо, оскільки середовище виконання XR "
-"позиціонує все відносно нашого походження."
-
-msgid ""
 "We want to position the composition layer so it is at eye height and roughly "
 "1 to 1.5 meters away from the player."
 msgstr ""
@@ -308,9 +297,6 @@ msgstr ""
 
 msgid "Next we remember our state for next frame."
 msgstr "Далі ми запам’ятовуємо наш стан для наступного кадру."
-
-msgid "Finally, if we aren't intersecting, we simply clear our state."
-msgstr "Нарешті, якщо ми не перетинаємося, ми просто очищаємо наш стан."
 
 msgid "Hole punching"
 msgstr "Пробивання отворів"

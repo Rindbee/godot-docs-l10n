@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,13 +44,6 @@ msgstr ""
 "Ó thaobh feidhmíochta, tá SDFGI ar cheann de na teicnící soilsithe domhanda "
 "is déine i Godot. Cosúil le VoxelGI, tá go leor socruithe ar fáil fós chun a "
 "riachtanais feidhmíochta a thaispeáint ar chostas cáilíochta."
-
-msgid ""
-"SDFGI is only supported when using the Forward Plus rendering backend, not "
-"the Forward Mobile or Compatibility backends."
-msgstr ""
-"Ní thacaítear le SDFGI ach nuair a bhíonn cúltaca rindreála Forward Plus á "
-"úsáid agat, ní na cúltaca Forward Mobile nó Comhoiriúnachta."
 
 msgid ""
 "Not sure if SDFGI is suited to your needs? See :ref:"

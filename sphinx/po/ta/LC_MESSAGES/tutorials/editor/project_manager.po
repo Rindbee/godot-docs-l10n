@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -94,3 +94,6 @@ msgstr ""
 "உங்கள் திட்ட மேலாளரிடமிருந்து ஒரு குறிச்சொல்லை அகற்ற, அது பயன்படுத்தும் அனைத்து "
 "திட்டங்களிலிருந்தும் அகற்றப்பட வேண்டும். அது முடிந்ததும் திட்ட மேலாளரை மூடிவிட்டு, அதை "
 "மீண்டும் திறந்து, குறிச்சொல் இல்லாமல் போய்விட வேண்டும்."
+
+msgid "Editor plugins"
+msgstr "ஆசிரியர் செருகுநிரல்கள்"

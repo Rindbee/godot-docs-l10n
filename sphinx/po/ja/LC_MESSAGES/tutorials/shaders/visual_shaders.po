@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -66,11 +66,6 @@ msgid ""
 msgstr ""
 "次のボタンと数値入力は、ズームレベル、グリッドスナップ、グリッドライン間の距"
 "離(ピクセル単位)を制御します。"
-
-msgid ""
-"The last icon shows the generated shader code corresponding to your graph."
-msgstr ""
-"最後のアイコンは、グラフに対応する生成されたシェーダーコードを示しています。"
 
 msgid ""
 "Although VisualShaders do not require coding, they share the same logic with "
@@ -352,12 +347,3 @@ msgstr ""
 
 msgid "Switch node"
 msgstr "スイッチノード(Switch node)"
-
-msgid ""
-"The ``Switch`` node returns a vector if the boolean condition is ``true`` or "
-"``false``. ``Boolean`` was introduced above. If you convert a vector to a "
-"true boolean, all components of the vector should be above zero."
-msgstr ""
-"``Switch`` ノードは、ブール条件が ``true`` または ``false`` の場合にベクトル"
-"を返します。\\ ``Boolean`` は、上記で導入されました。ベクトルを真(true)のブー"
-"ル値に変換する場合、ベクトルのすべての要素はゼロより上でなければなりません。"

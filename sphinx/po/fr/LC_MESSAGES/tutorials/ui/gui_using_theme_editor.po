@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -199,16 +199,6 @@ msgstr ""
 
 msgid "Manage and import items"
 msgstr "Gérer et importer des éléments"
-
-msgid ""
-"Clicking the **Manage Items** button brings up the **Manage Theme Items** "
-"dialog. In the **Edit Items** tab you can view and add theme types, as well "
-"as view and edit the theme items of the selected type."
-msgstr ""
-"Un clic sur le bouton **Gérer les items** fait apparaître la boîte de "
-"dialogue **Gérer les items de thème**. Dans l'onglet **Modifier les items**, "
-"vous pouvez visualiser et ajouter des types de thèmes, ainsi que visualiser "
-"et modifier les éléments de thèmes du type sélectionné."
 
 msgid ""
 "You can create, rename and remove individual theme items here by clicking "

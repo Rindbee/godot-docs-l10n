@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,15 +28,6 @@ msgstr "Anforderungen"
 
 msgid "For compiling under Windows, the following is required:"
 msgstr "Zum Kompilieren unter Windows ist Folgendes erforderlich:"
-
-msgid ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system. Using "
-"the latest release is recommended, especially for proper support of recent "
-"Visual Studio releases."
-msgstr ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ Buildsystem. Es wird "
-"empfohlen, die neueste Version zu verwenden, insbesondere für die korrekte "
-"Unterstützung der neuesten Visual Studio-Versionen."
 
 msgid ""
 "If you have `Scoop <https://scoop.sh/>`_ installed, you can easily install "
@@ -245,13 +236,6 @@ msgid ""
 msgstr ""
 "Godot-Builds enthalten standardmäßig keine Unterstützung für die Direct3D 12-"
 "Grafik-API."
-
-msgid ""
-"To compile Godot with Direct3D 12 support you need at least the following "
-"item:"
-msgstr ""
-"Um Godot mit Direct3D 12-Unterstützung zu kompilieren, benötigen Sie "
-"mindestens das folgende Element:"
 
 msgid ""
 "`godot-nir-static library <https://github.com/godotengine/godot-nir-static/"

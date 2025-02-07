@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -350,13 +350,6 @@ msgstr ""
 "定為 *方形* （1:1長寬比）而不是矩形。例如，如果你希望以1280×720為基本解析度進"
 "行設計，但又希望同時支援縱向和橫向模式，那麼在專案設定中使用720×720作為專案的"
 "基本視窗尺寸。"
-
-msgid ""
-"To allow the user to choose their preferred screen orientation at run-time, "
-"remember to set **Display > Window > Handheld > Orientation** to ``sensor``."
-msgstr ""
-"為了讓使用者在運作時選擇自己喜歡的螢幕方向，記得將**Display > Window > "
-"Handheld > Orientation** 設定為 ``sensor`` (感測器)."
 
 msgid ""
 "To configure the stretch aspect at runtime from a script, use the "

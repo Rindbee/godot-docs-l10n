@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -185,9 +185,6 @@ msgstr ""
 "використовувати для збільшення та зменшення осі часу, ви також можете "
 "зробити це за допомогою :kbd:`Ctrl + Shift + колесо миші`. Використання :kbd:"
 "`Ctrl + Alt + колесо миші` збільшить і зменшить масштаб осі Y"
-
-msgid "In the right click panel of the editor, you can select the handle mode:"
-msgstr "На правій панелі редактора ви можете вибрати режим ручки:"
 
 msgid ""
 "Free: Allows you to orient a manipulator in any direction without affecting "

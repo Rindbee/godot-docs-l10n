@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -325,14 +325,6 @@ msgstr ""
 "1280×720を基本解像度としてポートレートとランドスケープの両方のモードに対応し"
 "たい場合は、プロジェクト設定で720×720をプロジェクトのベースウィンドウサイズと"
 "して設定します。"
-
-msgid ""
-"To allow the user to choose their preferred screen orientation at run-time, "
-"remember to set **Display > Window > Handheld > Orientation** to ``sensor``."
-msgstr ""
-"実行時にユーザーが好きな画面の向きを選択できるようにするには、**Display > "
-"Window > Handheld > Orientation** を ``sensor``に設定することを忘れないように"
-"してください。"
 
 msgid ""
 "The following settings are recommended to support multiple resolutions and "

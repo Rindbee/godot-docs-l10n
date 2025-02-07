@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -10,14 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid ""
-"**Binary compatible** - Existing binaries will load and execute successfully "
-"without recompilation, and the run-time behavior won't change."
-msgstr ""
-"**Compatible binaire** - Les binaires existants vont charger et exécuter "
-"avec succès sans recompilation, et le comportement lors de l'exécution ne "
-"changera pas."
 
 msgid ""
 "**Source compatible** - Source code will compile successfully without "

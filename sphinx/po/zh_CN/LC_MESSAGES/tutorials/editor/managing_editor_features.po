@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,16 +16,6 @@ msgstr "管理编辑器功能"
 
 msgid "Introduction"
 msgstr "前言"
-
-msgid ""
-"In certain situations, it may be desirable to limit what features can be "
-"used in the Godot editor. For example, a UI designer on a team who doesn't "
-"need to see 3D features, or an educator slowly introducing features to "
-"students. Godot has a built in system called \"feature profiles\" to do this."
-msgstr ""
-"某些情况下，我们可能会想要限制 Godot 编辑器所能使用的功能。例如，团队中的 UI "
-"设计师无需见到 3D 功能，而老师会想要逐步向学生介绍功能。Godot 内置的“功能配"
-"置”系统可以实现这样的需求。"
 
 msgid ""
 "With feature profiles, major features and nodes can be hidden from the "

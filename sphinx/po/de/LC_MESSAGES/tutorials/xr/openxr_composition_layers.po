@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -166,17 +166,6 @@ msgid "Adding a composition layer"
 msgstr "Hinzufügen einer Kompositionsebene"
 
 msgid ""
-"The second step is adding our composition layer. We simply add the correct "
-"composition layer node as a child node of our :ref:`XROrigin3D "
-"<class_xrorigin3d>` node. This is very important as the XR runtime positions "
-"everything in relation to our origin."
-msgstr ""
-"Der zweite Schritt ist das Hinzufügen unserer Kompositionsebene. Wir fügen "
-"einfach den richtigen Kompositionsebenen-Node als Child-Node unseres :ref:"
-"`XROrigin3D <class_xrorigin3d>`-Nodes hinzu. Dies ist sehr wichtig, da die "
-"XR Runtime alles im Verhältnis zu unserem Ursprung positioniert."
-
-msgid ""
 "We want to position the composition layer so it is at eye height and roughly "
 "1 to 1.5 meters away from the player."
 msgstr ""
@@ -318,9 +307,6 @@ msgstr ""
 
 msgid "Next we remember our state for next frame."
 msgstr "Als Nächstes merken wir uns unseren Zustand für das nächste Frame."
-
-msgid "Finally, if we aren't intersecting, we simply clear our state."
-msgstr "Wenn wir uns nicht schneiden, löschen wir einfach unseren Status."
 
 msgid "Hole punching"
 msgstr "Hole Punching"

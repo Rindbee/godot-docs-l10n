@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -51,9 +51,6 @@ msgstr ""
 
 msgid "Many more things."
 msgstr "Go leor rudaí eile."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr "Is féidir gnéithe a cheistiú ag am rite ón API singleton trí ghlaoch:"
 
 msgid ""
 "OS feature tags are used by GDExtension to determine which libraries to "
@@ -327,20 +324,6 @@ msgstr "**scannán**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Tá mód Déantóir Scannán <doc_creating_movies>` gníomhach"
 
-msgid ""
-"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
-"feature tags, default feature tags are **immutable**. This means that they "
-"will *not* change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to Web on a mobile device."
-msgstr ""
-"Cé is moite de chomhbhrú uigeachta, clibeanna gné ``gréasáin_ <ardán>`` agus "
-"``film``, tá clibeanna gné réamhshocraithe ** do-mhothúchánach**. Ciallaíonn "
-"sé seo nach n-athróidh siad * ag brath ar choinníollacha ama rite. Mar "
-"shampla, tabharfaidh `` OS.has_feature (\"soghluaiste\")`` ar ais `` "
-"bréagach`` nuair a bheidh tionscadal a easpórtáiltear chuig Gréasáin ar "
-"ghléas soghluaiste á rith."
-
 msgid "Custom features"
 msgstr "Gnéithe saincheaptha"
 
@@ -383,9 +366,6 @@ msgstr ""
 "Sa sampla seo a leanas, cuirtear deilbhín difriúil le haghaidh tógáil "
 "taispeána an chluiche (a bhí saincheaptha i réamhshocrú onnmhairithe "
 "speisialta, nach n-áirítear ach leibhéil taispeána ina dhiaidh sin)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr "Tar éis sárú, cuirtear réimse nua leis an gcumraíocht shonrach seo:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

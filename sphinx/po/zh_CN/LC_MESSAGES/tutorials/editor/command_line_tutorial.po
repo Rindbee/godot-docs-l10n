@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -517,9 +517,6 @@ msgstr "**单独的工具**"
 
 msgid "``-s``, ``--script <script>``"
 msgstr "``-s``, ``--script <script>``"
-
-msgid "|release| Run a script."
-msgstr "|release| 运行脚本。"
 
 msgid "``--check-only``"
 msgstr "``--check-only``"

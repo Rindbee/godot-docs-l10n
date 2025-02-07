@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -69,18 +69,6 @@ msgstr ""
 
 msgid "Your project folder should look like this."
 msgstr "Ba cheart go mbeadh cuma mar seo ar d’fhillteán tionscadail."
-
-msgid ""
-"This game is designed for portrait mode, so we need to adjust the size of "
-"the game window. Click on *Project -> Project Settings* to open the project "
-"settings window, in the left column open the *Display -> Window* tab. There, "
-"set \"Viewport Width\" to ``480`` and \"Viewport Height\" to ``720``."
-msgstr ""
-"Tá an cluiche seo deartha le haghaidh mód portráid, mar sin ní mór dúinn "
-"méid na fuinneoige cluiche a choigeartú. Cliceáil ar *Tionscadal -> "
-"Socruithe an Tionscadail* chun an fhuinneog socruithe tionscadail a oscailt, "
-"sa cholún ar chlé oscail an táb *Taispeáin -> Fuinneog*. Ann, socraigh "
-"\"Leithead Viewport\" go `` 480`` agus \"Airde Viewport\" go `` 720``."
 
 msgid ""
 "Also, under the **Stretch** options, set **Mode** to ``canvas_items`` and "

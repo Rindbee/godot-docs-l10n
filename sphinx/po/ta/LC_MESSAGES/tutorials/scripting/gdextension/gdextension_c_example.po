@@ -1,0 +1,27 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Introduction"
+msgstr "அறிமுகம்"
+
+msgid "Setting up the project"
+msgstr "திட்டத்தை அமைத்தல்"
+
+msgid "There are a few prerequisites you'll need:"
+msgstr "உங்களுக்கு தேவையான சில முன்நிபந்தனைகள் உள்ளன:"
+
+msgid "File structure"
+msgstr "கோப்பு அமைப்பு"
+
+msgid "Conclusion"
+msgstr "முடிவு"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,15 +31,6 @@ msgstr ""
 
 msgid "Creating a Thread"
 msgstr "Criando um thread"
-
-msgid ""
-"Creating threads at run-time is slow on Windows and should be avoided to "
-"prevent stuttering. Semaphores, explained later on this page, should be used "
-"instead."
-msgstr ""
-"A criação de partes_paralelizáveis em tempo de execução é lenta no Windows e "
-"deve ser evitada para evitar travamentos. Em vez disso, devem ser usados "
-"semáforos, explicados posteriormente nesta página."
 
 msgid ""
 "Accessing objects or data from multiple threads is not always supported (if "

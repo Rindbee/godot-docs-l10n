@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -109,13 +109,6 @@ msgid ""
 "If ``launch.json`` file is missing you will be prompted to create a new one."
 msgstr ""
 "Якщо файл ``launch.json`` відсутній, вам буде запропоновано створити новий."
-
-msgid ""
-"Select **C++ (GDB/LLDB)**. There may be another platform specific option "
-"here. If selected, adjust the configuration example provided accordingly."
-msgstr ""
-"Виберіть **C++ (GDB/LLDB)**. Тут може бути інший варіант для конкретної "
-"платформи. Якщо вибрано, відповідно налаштуйте наданий приклад конфігурації."
 
 msgid ""
 "Within the ``launch.json`` file find the ``\"configurations\"`` array and "

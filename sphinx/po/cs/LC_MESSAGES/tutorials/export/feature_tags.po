@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,9 +48,6 @@ msgstr "Zda je projekt spuštěn z editoru, nebo jako samostatná binárka."
 
 msgid "Many more things."
 msgstr "Mnoho dalších věcí."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr "Funkce lze za běhu vyhledávat rozhraní singletonu voláním:"
 
 msgid "Default features"
 msgstr "Výchozí vlastnosti"
@@ -191,9 +188,6 @@ msgstr ""
 "V následujícím příkladu je přidána jiná ikona pro demo sestavení hry (které "
 "bylo upraveno ve speciální předvolbě exportu, která naoplátku obsahuje pouze "
 "demo úrovně)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr "Po přepsání se přidá nové pole pro tuto konkrétní konfiguraci:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

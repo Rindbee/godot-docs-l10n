@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Interpolation"
 msgstr "இடைக்கணிப்பு"
-
-msgid ""
-"Interpolation is a very basic operation in graphics programming. It's good "
-"to become familiar with it in order to expand your horizons as a graphics "
-"developer."
-msgstr ""
-"கிராபிக்ச் நிரலாக்கத்தில் இடைக்கணிப்பு மிகவும் அடிப்படை செயல்பாடாகும். கிராபிக்ச் "
-"டெவலப்பராக உங்கள் எல்லைகளை விரிவுபடுத்துவதற்காக அதை நன்கு அறிந்திருப்பது நல்லது."
 
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
@@ -119,13 +111,6 @@ msgstr "மீண்டும், இது பின்வரும் இய�
 
 msgid "Smoothing motion"
 msgstr "மென்மையான இயக்கம்"
-
-msgid ""
-"Interpolation can be used to smooth movement, rotation, etc. Here is an "
-"example of a circle following the mouse using smoothed motion:"
-msgstr ""
-"இயக்கம், சுழற்சி போன்றவற்றை மென்மையாக்க இடைக்கணிப்பு பயன்படுத்தப்படலாம். மென்மையான "
-"இயக்கத்தைப் பயன்படுத்தி சுட்டியைத் தொடர்ந்து ஒரு வட்டத்தின் எடுத்துக்காட்டு இங்கே:"
 
 msgid "Here is how it looks:"
 msgstr "இது எப்படி இருக்கிறது என்பது இங்கே:"

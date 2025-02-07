@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -116,14 +116,6 @@ msgid ""
 msgstr ""
 "Signals는 *observer* 패턴의 Godot 버전입니다. 더 많은 정보는 여기에서 볼 수 "
 "있습니다: http://gameprogrammingpatterns.com/observer.html"
-
-msgid ""
-"For example, buttons emit a signal when pressed. You can connect to this "
-"signal to run code in reaction to this event, like starting the game or "
-"opening a menu."
-msgstr ""
-"예를 들어, 버튼은 눌릴 때 시그널을 발생시킵니다. 이 시그널에 연결하여 게임을 "
-"시작하거나 메뉴 열기와 같은 코드를 실행할 수 있습니다."
 
 msgid ""
 "Other built-in signals can tell you when two objects collided, when a "

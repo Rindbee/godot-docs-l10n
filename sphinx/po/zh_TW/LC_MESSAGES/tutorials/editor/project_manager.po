@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,3 +49,6 @@ msgid ""
 "Once it finished downloading, click install and choose where you want to "
 "save the project."
 msgstr "一旦下載完成，點擊\\\\\\\\*安裝*並選擇你想要保存專案的位置。"
+
+msgid "Editor plugins"
+msgstr "編輯器外掛程式"

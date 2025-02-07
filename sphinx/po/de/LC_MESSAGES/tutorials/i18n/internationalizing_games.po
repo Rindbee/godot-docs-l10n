@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -114,6 +114,9 @@ msgstr ""
 "aktuellen Sprache funktioniert, was es ideal für Dinge wie Multiplayer-Chat "
 "macht, bei denen die Textsprache möglicherweise nicht mit der Sprache des "
 "Clients übereinstimmt."
+
+msgid "Examples:"
+msgstr "Beispiele:"
 
 msgid "Converting keys to text"
 msgstr "Schlüsselwörter in Text konvertieren"
@@ -356,17 +359,6 @@ msgstr ""
 
 msgid "TranslationServer"
 msgstr "TranslationServer"
-
-msgid ""
-"Godot has a server handling low-level translation management called the :ref:"
-"`TranslationServer <class_TranslationServer>`. Translations can be added or "
-"removed during run-time; the current language can also be changed at run-"
-"time."
-msgstr ""
-"Godot verfügt über einen Server für die Low-Level-Verwaltung von "
-"Übersetzungen, den :ref:`TranslationServer <class_TranslationServer>`. "
-"Übersetzungen können während der Laufzeit hinzugefügt oder entfernt werden; "
-"die aktuelle Sprache kann auch während der Laufzeit geändert werden."
 
 msgid "Bidirectional text and UI Mirroring"
 msgstr "Bidirektionaler Text und UI-Spiegelung"

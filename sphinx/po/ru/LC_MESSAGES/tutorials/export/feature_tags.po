@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,10 +49,6 @@ msgstr ""
 
 msgid "Many more things."
 msgstr "И еще много чего."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr ""
-"Особенности можно запрашивать во время выполнения singleton API, вызывая:"
 
 msgid "Default features"
 msgstr "Основные особенности"
@@ -265,11 +261,6 @@ msgstr ""
 "В следующем примере для демо-сборки игры добавляется другой значок (который "
 "был настроен в специальном пресете экспорта, который, в свою очередь, "
 "включает только демо-уровни)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr ""
-"После переопределения добавляется новое поле для этой специфической "
-"конфигурации:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -64,26 +64,8 @@ msgstr "这是使用本页底部链接的密度图，先禁用，然后启用速
 msgid "Variable rate shading disabled in textured scene"
 msgstr "在纹理场景中禁用可变速率着色"
 
-msgid ""
-"Variable rate shading enabled in textured scene (lower quality but higher "
-"performance)"
-msgstr "在纹理场景中启用可变速率着色（质量较低但性能较高）"
-
-msgid ""
-"When used in scenes with low-frequency detail (such as scenes with a "
-"stylized/low-poly aesthetic), it's possible to achieve similar performance "
-"gains but with less reduction in visual quality:"
-msgstr ""
-"当在具有低频细节的场景（例如具有风格化/低多边形艺术风格的场景）中使用时，可以"
-"实现类似的性能增益，但视觉质量的降低较小："
-
 msgid "Variable rate shading disabled in untextured scene"
 msgstr "在无纹理场景中禁用可变速率着色"
-
-msgid ""
-"Variable rate shading enabled in untextured scene (lower quality but higher "
-"performance)"
-msgstr "在无纹理场景中启用可变速率着色（质量较低但性能较高）"
 
 msgid "Hardware support"
 msgstr "硬件支持"
@@ -127,18 +109,6 @@ msgstr "截至 2023 年 1 月，Apple 和 Raspberry Pi GPU 仍不支持可变速
 
 msgid "Using variable rate shading in Godot"
 msgstr "在 Godot 中使用可变速率着色"
-
-msgid ""
-"Both Forward Plus and Forward Mobile rendering methods support variable rate "
-"shading. VRS can be used in both pancake (non-XR) and XR display modes."
-msgstr ""
-"Forward+ 和 Forward 移动渲染方法都支持可变速率着色。 VRS 可用于 pancake（非 "
-"XR）和 XR 显示模式。"
-
-msgid ""
-"The Compatibility rendering method does **not** support variable rate "
-"shading."
-msgstr "兼容渲染方法\\ **不支持**\\ 可变速率着色。"
 
 msgid ""
 "In the advanced Project Settings, the **Rendering > VRS** section offers "

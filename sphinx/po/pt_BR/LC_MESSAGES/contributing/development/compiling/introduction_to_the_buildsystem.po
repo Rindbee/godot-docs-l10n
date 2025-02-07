@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -237,15 +237,6 @@ msgstr "Sobrescrevendo as opções de compilação"
 
 msgid "Using a file"
 msgstr "Usando um arquivo"
-
-msgid ""
-"You can also disable some of the builtin modules before compiling, saving "
-"some time it takes to build the engine. See :ref:`doc_optimizing_for_size` "
-"page for more details."
-msgstr ""
-"Você também pode desativar alguns dos módulos embutidos antes de compilar, "
-"economizando algum tempo para construir a engine. Veja a página ref:"
-"`doc_optimizing_for_size` para mais detalhes."
 
 msgid "Using the SCONSFLAGS"
 msgstr "Usando o SCONSFLAGS"

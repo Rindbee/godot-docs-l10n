@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -25,13 +25,6 @@ msgstr ""
 
 msgid "Requirements"
 msgstr "Gereklilikler"
-
-msgid "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
-msgstr "`Python 3.6+ <https://www.python.org/downloads/macos/>`_."
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ derleme sistemi."
 
 msgid "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."
 msgstr "`Xcode <https://apps.apple.com/us/app/xcode/id497799835>`_."

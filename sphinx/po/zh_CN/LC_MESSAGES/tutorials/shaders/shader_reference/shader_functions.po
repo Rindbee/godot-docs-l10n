@@ -1,0 +1,201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Built-in functions"
+msgstr "内置函数"
+
+msgid "Function"
+msgstr "函数"
+
+msgid "Description / Return value"
+msgstr "描述/返回值"
+
+msgid "Convert degrees to radians."
+msgstr "将度数转换为弧度。"
+
+msgid "Convert radians to degrees."
+msgstr "将弧度转换为度数。"
+
+msgid "Sine."
+msgstr "正弦。"
+
+msgid "Cosine."
+msgstr "余弦。"
+
+msgid "Tangent."
+msgstr "正切。"
+
+msgid "Hyperbolic sine."
+msgstr "双曲正弦。"
+
+msgid "Hyperbolic cosine."
+msgstr "双曲余弦。"
+
+msgid "Hyperbolic tangent."
+msgstr "双曲正切。"
+
+msgid "return"
+msgstr "return"
+
+msgid "Base-e exponential."
+msgstr "基数 e 的指数。"
+
+msgid "Base-2 exponential."
+msgstr "基数 2 的指数。"
+
+msgid "Base-2 logarithm."
+msgstr "基数 2 的对数。"
+
+msgid "Square root."
+msgstr "平方根。"
+
+msgid "Inverse square root."
+msgstr "反平方根。"
+
+msgid "Truncation."
+msgstr "截断。"
+
+msgid "Fractional (returns ``x - floor(x)``)."
+msgstr "分数(返回``x - floor(x)``)。"
+
+msgid "Modulo (division remainder)."
+msgstr "模（除法余数）。"
+
+msgid "Fractional of ``x``, with ``i`` as integer part."
+msgstr "``x`` 的小数部分，\\ ``i`` 为整数部分。"
+
+msgid "Lowest value between ``a`` and ``b``."
+msgstr "``a`` 和 ``b`` 之间的较小值。"
+
+msgid "Highest value between ``a`` and ``b``."
+msgstr "``a`` 和 ``b`` 之间的较大值。"
+
+msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
+msgstr "根据 ``c`` 在 ``a`` 和 ``b`` 之间进行线性插值。"
+
+msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
+msgstr "根据 ``c`` 在 ``a`` 和 ``b`` 之间进行埃尔米特插值。"
+
+msgid "float"
+msgstr "浮点数"
+
+msgid "Vector length."
+msgstr "向量长度。"
+
+msgid "Dot product."
+msgstr "点积。"
+
+msgid "vec3"
+msgstr "vec3"
+
+msgid "Cross product."
+msgstr "叉积。"
+
+msgid "Normalize to unit length."
+msgstr "标准化为单位长度。"
+
+msgid "Reflect."
+msgstr "反射。"
+
+msgid "Refract."
+msgstr "折射。"
+
+msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
+msgstr "如果 ``dot(Nref, I)`` <0, 则返回N, 否则返回-N。"
+
+msgid "Matrix component multiplication."
+msgstr "矩阵分量乘法。"
+
+msgid "Matrix outer product."
+msgstr "矩阵外积。"
+
+msgid "Transpose matrix."
+msgstr "转置矩阵。"
+
+msgid "Matrix determinant."
+msgstr "矩阵行列式。"
+
+msgid "Inverse matrix."
+msgstr "逆矩阵。"
+
+msgid "Bool vector comparison on < int/uint/float vectors."
+msgstr "Bool vector 对比 < int/uint/float vectors。"
+
+msgid "Bool vector comparison on > int/uint/float vectors."
+msgstr "Bool vector 对比 > int/uint/float vectors。"
+
+msgid "Bool vector comparison on <= int/uint/float vectors."
+msgstr "Bool vector 对比 <= int/uint/float vectors。"
+
+msgid "Bool vector comparison on >= int/uint/float vectors."
+msgstr "Bool vector 对比 >= int/uint/float vectors。"
+
+msgid "Bool vector comparison on == int/uint/float vectors."
+msgstr "Bool vector 对比 == int/uint/float vectors。"
+
+msgid "Bool vector comparison on != int/uint/float vectors."
+msgstr "Bool vector 对比 != int/uint/float vectors。"
+
+msgid "bool"
+msgstr "bool"
+
+msgid "Invert boolean vector."
+msgstr "反转布尔向量。"
+
+msgid "Get the size of a texture."
+msgstr "获取纹理的大小。"
+
+msgid "vec2"
+msgstr "vec2"
+
+msgid "Get the number of accessible mipmap levels of a texture."
+msgstr "获取cubemap纹理的大小。"
+
+msgid "vec4"
+msgstr "vec4"
+
+msgid "Performs a texture read with projection/LOD."
+msgstr "执行带投影/LOD的2D纹理读取。"
+
+msgid "Performs a texture read with explicit gradients."
+msgstr "执行带显式渐变的纹理读取。"
+
+msgid "Fetches a single texel using integer coordinates."
+msgstr "使用整数坐标获取单个纹素。"
+
+msgid "Extracts a range of bits from an integer."
+msgstr "提取整数的某一范围中的比特位。"
+
+msgid "Insert a range of bits into an integer."
+msgstr "将比特位插入到整数的某一范围中。"
+
+msgid "Reverse the order of bits in an integer."
+msgstr "将整数的比特位顺序反转。"
+
+msgid "Counts the number of 1 bits in an integer."
+msgstr "计算整数中为 1 的比特位的数量。"
+
+msgid "Find the index of the least significant bit set to 1 in an integer."
+msgstr "找出整数中为 1 的最低有效比特位的索引。"
+
+msgid "Find the index of the most significant bit set to 1 in an integer."
+msgstr "找出整数中为 1 的最高有效比特位的索引。"
+
+msgid "Adds two unsigned integers and generates carry."
+msgstr "将两个无符号整数相加，能够产生进位。"
+
+msgid "Subtracts two unsigned integers and generates borrow."
+msgstr "将两个无符号整数相减，能够产生借位。"
+
+msgid "Assemble a floating-point number from a value and exponent."
+msgstr "根据值和指数构成浮点数。"

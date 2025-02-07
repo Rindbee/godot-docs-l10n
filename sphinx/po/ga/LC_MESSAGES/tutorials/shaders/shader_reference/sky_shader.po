@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -113,17 +113,6 @@ msgstr ""
 "Má athraítear méid an scáileáin agus má úsáidtear ceachtar de na fo-pasanna."
 
 msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"Déan iarracht an léarscáil ciúb radiance a nuashonrú gan ghá. Más gá duit an "
-"léarscáil ciúb radiance gach fráma a nuashonrú, cinntigh go bhfuil do :ref:"
-"`Mód próisis Sky <class_Sky_property_process_mode>` socraithe mar :ref:"
-"`REALTIME <class_Sky_constant_PROCESS_MODE_REALTIME>`."
-
-msgid ""
 "Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
 "affects the rendering of the radiance cubemap. The visible sky is always "
 "rendered by calling the fragment shader for every pixel. With complex "
@@ -209,16 +198,6 @@ msgstr "Má úsáidtear é, ní rachaidh ceo i bhfeidhm ar an spéir."
 msgid "Built-ins"
 msgstr "Tógtha-ins"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"Tá luachanna marcáilte mar \"i\" inléite amháin. Tá luachanna marcáilte mar "
-"\"amach\" le haghaidh scríbhneoireacht roghnach agus ní gá go mbeadh "
-"luachanna ciallmhara iontu. Ní féidir samplers a scríobh ionas nach bhfuil "
-"siad marcáilte."
-
 msgid "Global built-ins"
 msgstr "Domhanda tógtha-ins"
 
@@ -244,8 +223,8 @@ msgstr "i snámhphointe **AM**"
 msgid "in vec3 **POSITION**"
 msgstr "i vec3 **POST**"
 
-msgid "Camera position in world space"
-msgstr "Suíomh an cheamara i spás an domhain"
+msgid "Camera position, in world space."
+msgstr "Suíomh an cheamara, i spás an domhain."
 
 msgid "samplerCube **RADIANCE**"
 msgstr "SamplerCube **RADIANCE**"
@@ -260,30 +239,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "i bool **AT_HALF_RES_PASS**"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "Pas leathréitigh atá i gceist faoi láthair."
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "i bool **AT_QUARTER_RES_PASS**"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "Pas réitigh ráithe faoi láthair."
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "i bool **AT_CUBEMAP_PASS**"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr "Rindreáil faoi láthair chun mapa ciúb radiance."
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "i bool **LIGHTX_ENABLED**"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"Tá ''LightX'' le feiceáil agus sa radharc. Má tá ''bréagach'', d'fhéadfadh "
-"airíonna solais eile a bheith truflais."
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "i snámhphointe **LIGHTX_ENERGY**"

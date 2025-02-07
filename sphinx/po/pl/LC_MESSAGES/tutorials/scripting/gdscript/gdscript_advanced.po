@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -50,9 +50,6 @@ msgstr ""
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr "Większość kodu można zapisywane i zmieniane, szybko i bez kłopotów."
 
-msgid "Less code written means less errors & mistakes to fix."
-msgstr "Mniej kodu do napisania oznacza mniej błędów i pomyłek do naprawy."
-
 msgid "No compilation is required to test."
 msgstr "Nie potrzeba kompilacji do testowania."
 
@@ -73,13 +70,6 @@ msgstr ""
 "Niektóre błędy, które zwykle są wykrywane w czasie kompilacji w statycznie "
 "wpisanych językach, pojawiają się tylko podczas uruchamiania kodu (ponieważ "
 "parsowanie wyrażeń jest bardziej rygorystyczne)."
-
-msgid ""
-"Less flexibility for code-completion (some variable types are only known at "
-"run-time)."
-msgstr ""
-"Mniejsza elastyczność przy kodowaniu (niektóre typy zmiennych są znane tylko "
-"w czasie pracy programu)."
 
 msgid "Variables & assignment"
 msgstr "Zmienne i przypisania"
@@ -229,9 +219,3 @@ msgid ""
 msgstr ""
 "*\"Jeśli obiekt może zostać rozbity, nie przejmuj się tym, czym jest, po "
 "prostu go rozbij.\"*"
-
-msgid ""
-"Then, simply define that method and anything the rock touches can be smashed."
-msgstr ""
-"Następnie po prostu zdefiniuj tę metodę i zdefiniuj wszystko, co może zostać "
-"rozbite przez skałę."

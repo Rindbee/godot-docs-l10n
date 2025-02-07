@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,23 +27,6 @@ msgstr "需求"
 
 msgid "To compile export templates for the Web, the following is required:"
 msgstr "编译 Web 的导出模板需要以下内容："
-
-msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
-msgstr "`Emscripten 3.1.39+ <https://emscripten.org>`__。"
-
-msgid "`Python 3.6+ <https://www.python.org/>`__."
-msgstr "`Python 3.6+ <https://www.python.org/>`__。"
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ build system."
-msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ 构建系统。"
-
-msgid ""
-"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
-msgstr "建议使用 Emscripten 3.1.39+，但是更老的 3.x 版本也能用。"
-
-msgid ""
-"Please note that the minimum requirement for GDExtension support is 3.1.14."
-msgstr "请注意，支持 GDExtension 的最低要求是 3.1.14。"
 
 msgid "Building export templates"
 msgstr "构建导出模板"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,13 +32,6 @@ msgstr "லினக்ச் அல்லது பிற யூனிக்ச
 
 msgid "GCC 9+ or Clang 6+."
 msgstr "சி.சி.சி 9+ அல்லது கிளாங் 6+."
-
-msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
-msgstr "`பைதான் 3.6+ <https://www.python.org/downloads/>` _."
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr ""
-"`ச்கான் 3.1.2+ <https://scons.org/pages/download.html>` _ அமைப்பை உருவாக்குங்கள்."
 
 msgid "pkg-config (used to detect the development libraries listed below)."
 msgstr ""
@@ -451,14 +444,3 @@ msgstr ""
 "`` ச்கான் -எச்`` ஐ இயக்குவதன் மூலம் கணினி மாற்றுகளைக் கொண்ட அனைத்து உள்ளமைக்கப்பட்ட "
 "நூலகங்களின் பட்டியலையும் நீங்கள் காணலாம், பின்னர் `` பில்டின்_`` உடன் தொடங்கும் விருப்பங்களைத் "
 "தேடலாம்."
-
-msgid ""
-"When using system libraries, the resulting library is **not** portable "
-"across Linux distributions anymore. Do not use this approach for creating "
-"binaries you intend to distribute to others, unless you're creating a "
-"package for a Linux distribution."
-msgstr ""
-"கணினி நூலகங்களைப் பயன்படுத்தும் போது, இதன் விளைவாக வரும் நூலகம் ** லினக்ச் "
-"விநியோகங்களில் இனி சிறியதாக இல்லை. லினக்ச் விநியோகத்திற்கான ஒரு தொகுப்பை நீங்கள் "
-"உருவாக்காவிட்டால், மற்றவர்களுக்கு விநியோகிக்க நீங்கள் விரும்பும் பைனரிகளை உருவாக்க இந்த "
-"அணுகுமுறையைப் பயன்படுத்த வேண்டாம்."

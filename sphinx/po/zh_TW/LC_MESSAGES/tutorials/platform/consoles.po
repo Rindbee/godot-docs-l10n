@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,15 +16,6 @@ msgstr "Godot 支援的主控台應用程式"
 
 msgid "Console porting process"
 msgstr "Godot 支援的主控台應用程式"
-
-msgid ""
-"In order to develop for consoles in Godot, you need access to the console "
-"SDK and export templates for it. These export templates need to be developed "
-"either by yourself or someone hired to do it, or provided by a third party "
-"company."
-msgstr ""
-"為了在 Godot 中進行控制台開發，您需要存取控制台 SDK 並為其匯出範本。這些匯出"
-"範本需要由您自己或僱用的人開發，或由第三方公司提供。"
 
 msgid ""
 "Currently, the only console Godot officially supports is Steam Deck (through "

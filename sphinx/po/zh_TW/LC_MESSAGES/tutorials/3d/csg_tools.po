@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,18 +111,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "自訂網格"
-
-msgid "it must be closed,"
-msgstr "它必須被關閉,"
-
-msgid "it must not self-intersect,"
-msgstr "它不能自我相交,"
-
-msgid "it must not contain internal faces,"
-msgstr "它不能包含內部面,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "每條邊都必須連接到另外兩個面."
 
 msgid "CSGCombiner3D"
 msgstr "CSGCombiner3D"

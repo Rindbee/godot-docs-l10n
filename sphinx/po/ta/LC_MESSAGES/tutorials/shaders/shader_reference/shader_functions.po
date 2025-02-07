@@ -1,0 +1,221 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Built-in functions"
+msgstr "உள்ளமைக்கப்பட்ட செயல்பாடுகள்"
+
+msgid "Function"
+msgstr "சார்பு"
+
+msgid "Description / Return value"
+msgstr "விளக்கம் / வருவாய் மதிப்பு"
+
+msgid "Convert degrees to radians."
+msgstr "டிகிரிகளை ரேடியன்களாக மாற்றவும்."
+
+msgid "Convert radians to degrees."
+msgstr "ரேடியன்களை டிகிரிக்கு மாற்றவும்."
+
+msgid "Sine."
+msgstr "சைன்."
+
+msgid "Cosine."
+msgstr "கொசைன்."
+
+msgid "Tangent."
+msgstr "டேன்சென்ட்."
+
+msgid "Hyperbolic sine."
+msgstr "ஐபர்போலிக் சைன்."
+
+msgid "Hyperbolic cosine."
+msgstr "ஐபர்போலிக் கொசைன்."
+
+msgid "Hyperbolic tangent."
+msgstr "ஐபர்போலிக் தொடுகோடு."
+
+msgid "return"
+msgstr "திரும்ப"
+
+msgid "Base-e exponential."
+msgstr "அடிப்படை-இ எக்ச்போனென்சியல்."
+
+msgid "Base-2 exponential."
+msgstr "அடிப்படை -2 அதிவேக."
+
+msgid "Base-2 logarithm."
+msgstr "அடிப்படை -2 மடக்கை."
+
+msgid "Square root."
+msgstr "சதுர வேர்."
+
+msgid "Inverse square root."
+msgstr "தலைகீழ் சதுர வேர்."
+
+msgid "Absolute value (returns positive value if negative)."
+msgstr "முழுமையான மதிப்பு (எதிர்மறையாக இருந்தால் நேர்மறை மதிப்பை வழங்குகிறது)."
+
+msgid "Truncation."
+msgstr "துண்டிப்பு."
+
+msgid "Fractional (returns ``x - floor(x)``)."
+msgstr "பகுதியளவு (`` ஃச் - மாடி (x) ``)."
+
+msgid "Modulo (division remainder)."
+msgstr "மாடுலோ (பிரிவு மீதமுள்ள)."
+
+msgid "Fractional of ``x``, with ``i`` as integer part."
+msgstr "`` X`` இன் பகுதியளவு, `` நான்` `முழு எண்."
+
+msgid "Lowest value between ``a`` and ``b``."
+msgstr "`` A`` மற்றும் `b`` க்கு இடையில் மிகக் குறைந்த மதிப்பு."
+
+msgid "Highest value between ``a`` and ``b``."
+msgstr "`` A`` மற்றும் `b`` க்கு இடையில் அதிக மதிப்பு."
+
+msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
+msgstr "`` A`` மற்றும் `b`` க்கு இடையில்` `c`` க்கு இடையில் நேரியல் இடைக்கணிப்பு."
+
+msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
+msgstr "எர்மைட் `` a` `மற்றும்` b`` இடையே `` c`` க்கு இடையில் ஒன்றிணைகிறது."
+
+msgid "Returns ``true`` if scalar or vector component is ``NaN``."
+msgstr "`` உண்மை`` அளவிடுகிறது அல்லது திசையன் கூறு `` nan`` என்றால்."
+
+msgid "Returns ``true`` if scalar or vector component is ``INF``."
+msgstr "அளவிடுதல் அல்லது திசையன் கூறு `` inf`` என்றால் `` உண்மை`` தருகிறது."
+
+msgid "float"
+msgstr "மிதவை"
+
+msgid "Vector length."
+msgstr "திசையன் நீளம்."
+
+msgid "Distance between vectors i.e ``length(a - b)``."
+msgstr "திசையன்களுக்கு இடையிலான தூரம் அதாவது `` நீளம் (a - b) ``."
+
+msgid "Dot product."
+msgstr "புள்ளி தயாரிப்பு."
+
+msgid "vec3"
+msgstr "VEC3"
+
+msgid "Cross product."
+msgstr "குறுக்கு தயாரிப்பு."
+
+msgid "Normalize to unit length."
+msgstr "அலகு நீளத்திற்கு இயல்பாக்குங்கள்."
+
+msgid "Reflect."
+msgstr "பிரதிபலிக்கவும்."
+
+msgid "Refract."
+msgstr "ரிஃபாக்ட்."
+
+msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
+msgstr "`` Dot (nref, i) `` <0 என்றால், `` n`` ஐத் தரவும், இல்லையெனில் `` -n``."
+
+msgid "Matrix component multiplication."
+msgstr "மேட்ரிக்ச் கூறு பெருக்கல்."
+
+msgid "Matrix outer product."
+msgstr "அணி வெளிப்புற தயாரிப்பு."
+
+msgid "Transpose matrix."
+msgstr "டிரான்ச் மேட்ரிக்ச்."
+
+msgid "Matrix determinant."
+msgstr "மேட்ரிக்ச் தீர்மானிப்பவர்."
+
+msgid "Inverse matrix."
+msgstr "தலைகீழ் அணி."
+
+msgid "Bool vector comparison on < int/uint/float vectors."
+msgstr "<Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "Bool vector comparison on > int/uint/float vectors."
+msgstr "> Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "Bool vector comparison on <= int/uint/float vectors."
+msgstr "<= Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "Bool vector comparison on >= int/uint/float vectors."
+msgstr "> = Int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "Bool vector comparison on == int/uint/float vectors."
+msgstr "== int/uint/float vectors இல் பூல் திசையன் ஒப்பீடு."
+
+msgid "Bool vector comparison on != int/uint/float vectors."
+msgstr "பூல் திசையன் ஒப்பீடு! = Int/uint/float vectors."
+
+msgid "bool"
+msgstr "பூல்"
+
+msgid "``true`` if any component is ``true``, ``false`` otherwise."
+msgstr "`` உண்மை`` எந்தவொரு கூறுகளும் `` உண்மை`` என்றால், `` தவறு`` இல்லையெனில்."
+
+msgid "``true`` if all components are ``true``, ``false`` otherwise."
+msgstr "`` உண்மை`` அனைத்து கூறுகளும் `` உண்மை`` என்றால், இல்லையெனில் `` பொய்."
+
+msgid "Invert boolean vector."
+msgstr "பூலியன் திசையன் தலைகீழ்."
+
+msgid "Get the size of a texture."
+msgstr "ஒரு அமைப்பின் அளவைப் பெறுங்கள்."
+
+msgid "vec2"
+msgstr "VEC2"
+
+msgid "Get the number of accessible mipmap levels of a texture."
+msgstr "ஒரு அமைப்பின் அணுகக்கூடிய MIPMAP அளவுகளின் எண்ணிக்கையைப் பெறுங்கள்."
+
+msgid "vec4"
+msgstr "VEC4"
+
+msgid "Performs a texture read with projection/LOD."
+msgstr "ப்ரொசெக்சன்/லாட் உடன் படிக்க ஒரு அமைப்பைச் செய்கிறது."
+
+msgid "Performs a texture read with explicit gradients."
+msgstr "வெளிப்படையான சாய்வுகளுடன் படிக்க ஒரு அமைப்பைச் செய்கிறது."
+
+msgid "Fetches a single texel using integer coordinates."
+msgstr "முழு எண் ஒருங்கிணைப்புகளைப் பயன்படுத்தி ஒரு டெக்சலைப் பெறுகிறது."
+
+msgid "Extracts a range of bits from an integer."
+msgstr "ஒரு முழு எண்ணிலிருந்து பிட்களின் வரம்பைப் பிரித்தெடுக்கிறது."
+
+msgid "Insert a range of bits into an integer."
+msgstr "பிட்களின் வரம்பை ஒரு முழு எண்ணில் செருகவும்."
+
+msgid "Reverse the order of bits in an integer."
+msgstr "பிட்களின் வரிசையை ஒரு முழு எண்ணில் மாற்றியமைக்கவும்."
+
+msgid "Counts the number of 1 bits in an integer."
+msgstr "ஒரு முழு எண்ணில் 1 பிட்களின் எண்ணிக்கையை கணக்கிடுகிறது."
+
+msgid "Find the index of the least significant bit set to 1 in an integer."
+msgstr ""
+"ஒரு முழு எண்ணில் 1 ஆக அமைக்கப்பட்ட குறைந்த குறிப்பிடத்தக்க பிட் குறியீட்டைக் கண்டறியவும்."
+
+msgid "Find the index of the most significant bit set to 1 in an integer."
+msgstr ""
+"ஒரு முழு எண்ணில் 1 ஆக அமைக்கப்பட்ட மிக முக்கியமான பிட்டின் குறியீட்டைக் கண்டறியவும்."
+
+msgid "Adds two unsigned integers and generates carry."
+msgstr "கையொப்பமிடப்படாத இரண்டு முழு எண்களைச் சேர்த்து, கேரி உருவாக்குகிறது."
+
+msgid "Subtracts two unsigned integers and generates borrow."
+msgstr "கையொப்பமிடப்படாத இரண்டு முழு எண்களைக் கழித்து கடன் வாங்குகிறது."
+
+msgid "Assemble a floating-point number from a value and exponent."
+msgstr "மதிப்பு மற்றும் அதிவேகத்திலிருந்து மிதக்கும்-புள்ளி எண்ணை ஒன்றிணைக்கவும்."

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,15 +32,6 @@ msgstr ""
 "Chun teimpléid easpórtála a thiomsú don Ghréasán, tá an méid seo a leanas ag "
 "teastáil:"
 
-msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
-msgstr "`Emscripten 3.1.39+ <https://emscripten.org>`__."
-
-msgid "`Python 3.6+ <https://www.python.org/>`__."
-msgstr "`Python 3.6+ <https://www.python.org/>`__."
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ build system."
-msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ córas tógála."
-
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
 msgstr ""
@@ -53,17 +44,6 @@ msgid ""
 msgstr ""
 "Le haghaidh forbhreathnú ginearálta ar úsáid SCons do Godot, féach:ref: "
 "`doc_introduction_to_the_buildsystem`."
-
-msgid ""
-"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
-msgstr ""
-"Moltar Emscripten 3.1.39+, ach is eol go n-oibríonn leaganacha 3.x níos sine."
-
-msgid ""
-"Please note that the minimum requirement for GDExtension support is 3.1.14."
-msgstr ""
-"Tabhair faoi deara gurb é 3.1.14 an t-íosriachtanas maidir le tacaíocht "
-"GDExtension."
 
 msgid "Building export templates"
 msgstr "Teimpléid easpórtála"

@@ -1,0 +1,201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Built-in functions"
+msgstr "ビルトイン関数"
+
+msgid "Function"
+msgstr "関数"
+
+msgid "Description / Return value"
+msgstr "説明 /返り値"
+
+msgid "Convert degrees to radians."
+msgstr "度をラジアンに変換する。"
+
+msgid "Convert radians to degrees."
+msgstr "ラジアンを度に変換する。"
+
+msgid "Sine."
+msgstr "サイン(正弦)。"
+
+msgid "Cosine."
+msgstr "コサイン(余弦)。"
+
+msgid "Tangent."
+msgstr "タンジェント(正接)。"
+
+msgid "Hyperbolic sine."
+msgstr "双曲線コサイン。"
+
+msgid "Hyperbolic cosine."
+msgstr "双曲線コサイン。"
+
+msgid "Hyperbolic tangent."
+msgstr "双曲線タンジェント。"
+
+msgid "return"
+msgstr "\\ return"
+
+msgid "Base-e exponential."
+msgstr "eを底とする指数。"
+
+msgid "Base-2 exponential."
+msgstr "2を底とする指数。"
+
+msgid "Base-2 logarithm."
+msgstr "2を底とする対数。"
+
+msgid "Square root."
+msgstr "平方根。"
+
+msgid "Inverse square root."
+msgstr "逆平方根。"
+
+msgid "Absolute value (returns positive value if negative)."
+msgstr "絶対値 (負の場合は正の値を返す)。"
+
+msgid "Truncation."
+msgstr "ゼロ方向の整数に丸める(小数点切り捨て)。"
+
+msgid "Fractional (returns ``x - floor(x)``)."
+msgstr "小数部 (``x - floor(x)`` を返す)。"
+
+msgid "Modulo (division remainder)."
+msgstr "剰余 (割り算の余り)。"
+
+msgid "Fractional of ``x``, with ``i`` as integer part."
+msgstr "xの小数部を返し、iに整数部が代入される。"
+
+msgid "Lowest value between ``a`` and ``b``."
+msgstr "``a`` と ``b`` の小さいほうを返す。"
+
+msgid "Highest value between ``a`` and ``b``."
+msgstr "``a`` と ``b`` の大きいほうを返す。"
+
+msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
+msgstr "``a`` と ``b`` の間を ``c`` で線形補間する。"
+
+msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
+msgstr "``a`` と ``b`` の間を ``c`` でエルミート補間する。"
+
+msgid "Returns ``true`` if scalar or vector component is ``NaN``."
+msgstr "スカラーまたはベクトル要素が ``NaN`` の場合は ``true`` を返す。"
+
+msgid "Returns ``true`` if scalar or vector component is ``INF``."
+msgstr "スカラーまたはベクトル要素が ``INF`` の場合は、 ``true`` を返す。"
+
+msgid "float"
+msgstr "\\ float"
+
+msgid "Vector length."
+msgstr "ベクトルの長さ。"
+
+msgid "Distance between vectors i.e ``length(a - b)``."
+msgstr "2つのベクトル間の距離。つまり ``length(a-b)`` 。"
+
+msgid "Dot product."
+msgstr "内積 (ドット積)。"
+
+msgid "vec3"
+msgstr "\\ vec3"
+
+msgid "Cross product."
+msgstr "外積 (クロス積)。"
+
+msgid "Normalize to unit length."
+msgstr "単位ベクトルに正規化。"
+
+msgid "Reflect."
+msgstr "反射。"
+
+msgid "Refract."
+msgstr "屈折。"
+
+msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
+msgstr ""
+"``dot(Nref, I)`` < 0 の場合は ``N`` を返し、それ以外の場合は ``-N`` を返す。"
+
+msgid "Matrix component multiplication."
+msgstr "行列要素の乗算。"
+
+msgid "Matrix outer product."
+msgstr "行列の外積。"
+
+msgid "Transpose matrix."
+msgstr "転置行列。"
+
+msgid "Matrix determinant."
+msgstr "行列式。"
+
+msgid "Inverse matrix."
+msgstr "逆行列。"
+
+msgid "Bool vector comparison on < int/uint/float vectors."
+msgstr ""
+"int/uint/floatベクトルの各要素を比較(x < y)した結果をboolベクトルとして返す。"
+
+msgid "Bool vector comparison on > int/uint/float vectors."
+msgstr ""
+"int/uint/floatベクトルの各要素を比較(x > y)した結果をboolベクトルとして返す。"
+
+msgid "Bool vector comparison on <= int/uint/float vectors."
+msgstr ""
+"int/uint/floatベクトルの各要素を比較(x <= y)した結果をboolベクトルとして返"
+"す。"
+
+msgid "Bool vector comparison on >= int/uint/float vectors."
+msgstr ""
+"int/uint/floatベクトルの各要素を比較(x >= y)した結果をboolベクトルとして返"
+"す。"
+
+msgid "Bool vector comparison on == int/uint/float vectors."
+msgstr ""
+"int/uint/floatベクトルの各要素を比較(x == y)した結果をboolベクトルとして返"
+"す。"
+
+msgid "Bool vector comparison on != int/uint/float vectors."
+msgstr ""
+"int/uint/floatベクトルの各要素を比較(x != y)した結果をboolベクトルとして返"
+"す。"
+
+msgid "bool"
+msgstr "\\ bool"
+
+msgid "``true`` if any component is ``true``, ``false`` otherwise."
+msgstr ""
+"いずれかの要素が ``true`` の場合は ``true`` 、それ以外の場合は ``false`` を返"
+"す。"
+
+msgid "``true`` if all components are ``true``, ``false`` otherwise."
+msgstr ""
+"すべての要素が ``true`` の場合は ``true`` 、それ以外の場合は ``false`` を返"
+"す。"
+
+msgid "Invert boolean vector."
+msgstr "boolベクトルの反転。"
+
+msgid "Get the size of a texture."
+msgstr "テクスチャのサイズを取得する。"
+
+msgid "vec2"
+msgstr "\\ vec2"
+
+msgid "Get the number of accessible mipmap levels of a texture."
+msgstr "テクスチャのアクセス可能なミップマップレベルの数を取得する。"
+
+msgid "vec4"
+msgstr "\\ vec4"
+
+msgid "Fetches a single texel using integer coordinates."
+msgstr "整数座標を使用して単一のテクセルを取得する。"

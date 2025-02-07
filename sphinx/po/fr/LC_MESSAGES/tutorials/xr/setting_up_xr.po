@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,18 +17,6 @@ msgid ""
 msgstr ""
 "Il existe trois types de nœuds spécifiques XR que vous trouverez dans "
 "presque toutes les applications XR :"
-
-msgid "Prerequisites for XR in Godot 4"
-msgstr "Prérequis pour la XR dans Godot 4"
-
-msgid ""
-"This also means OpenXR needs to be enabled when Godot starts in order to set "
-"things up correctly. The required setting can be found in your project "
-"settings:"
-msgstr ""
-"Cela signifie également que OpenXR doit être activé lorsque Godot démarre "
-"pour régler les choses correctement. Le réglage requis peut être trouvé dans "
-"les paramètres de votre projet :"
 
 msgid ""
 "Every XR application needs at least an :ref:`XROrigin3D <class_xrorigin3d>` "

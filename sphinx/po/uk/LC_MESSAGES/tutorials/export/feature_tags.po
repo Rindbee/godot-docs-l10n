@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,10 +47,6 @@ msgstr "Проєкт, що працює із редактора, чи \"окре
 
 msgid "Many more things."
 msgstr "Ще багато речей."
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr ""
-"Про особливості можна дізнатися під час виконання з API Singleton, викликом:"
 
 msgid ""
 "OS feature tags are used by GDExtension to determine which libraries to "
@@ -324,19 +320,6 @@ msgstr "**фільм**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Режим Movie Maker <doc_creating_movies>` активний"
 
-msgid ""
-"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
-"feature tags, default feature tags are **immutable**. This means that they "
-"will *not* change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to Web on a mobile device."
-msgstr ""
-"За винятком стиснення текстури, тегів функцій ``web_<platform>`` і "
-"``movie``, теги функцій за замовчуванням є **незмінними**. Це означає, що "
-"вони *не* змінюватимуться залежно від умов виконання. Наприклад, ``OS."
-"has_feature(\"mobile\")`` поверне ``false`` під час запуску проекту, "
-"експортованого в Інтернет, на мобільному пристрої."
-
 msgid "Custom features"
 msgstr "Нетипові можливості"
 
@@ -379,9 +362,6 @@ msgstr ""
 "У наступному прикладі для демонстраційної збірки гри додано інший значок "
 "(який був налаштований у спеціальному пресеті експорту, який, у свою чергу, "
 "включає лише демо-рівні)."
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr "Після заміни додається нове поле для цієї конкретної конфігурації:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,15 +83,6 @@ msgid ""
 msgstr ""
 "`நைட் குவெச்ட் கேம்ச் வலைப்பதிவு <https://www.ainghtquestgames.com/blog-articles/"
 ">` __"
-
-msgid "Devlogs"
-msgstr "டெவ்லாக்"
-
-msgid "`bitbrain <https://www.youtube.com/@bitbraindev>`_"
-msgstr "`பிட்பிரைன்"
-
-msgid "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"
-msgstr "`Devduck (2d) <https://www.youtube.com/@devduck/videos>` _"
 
 msgid "Resources"
 msgstr "வளங்கள்"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -293,8 +293,3 @@ msgstr "不要在注释中重复代码的内容. 解释 *为什么* 而不是 *�
 
 msgid "**Bad:**"
 msgstr "**错误做法：**"
-
-msgid ""
-"For member variables, don't use Javadoc-style comments but use single-line "
-"comments instead:"
-msgstr "对于成员变量, 不要使用Javadoc式的注释, 而是使用单行注释:"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -31,11 +31,32 @@ msgstr ""
 "這份文件只包含了新的教學，所以並能反映出所有改動。許多教學都已經被大幅更新"
 "了，但並未反映在這份文件中。"
 
-msgid "About"
-msgstr "關於"
-
 msgid "2D"
 msgstr "2D"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "除錯"
+
+msgid "Editor"
+msgstr "編輯器"
+
+msgid "Performance"
+msgstr "效能"
+
+msgid "Physics"
+msgstr "物理"
+
+msgid "Rendering"
+msgstr "算繪"
+
+msgid "Shaders"
+msgstr "著色器"
+
+msgid "About"
+msgstr "關於"
 
 msgid "Contributing"
 msgstr "參與貢獻"
@@ -45,9 +66,6 @@ msgstr "GDExtension"
 
 msgid "Migrating"
 msgstr "Light Baking - 光照烘焙"
-
-msgid "Rendering"
-msgstr "算繪"
 
 msgid "XR"
 msgstr "XR"
@@ -73,9 +91,6 @@ msgstr ":ref:`doc_using_servers`"
 msgid ":ref:`doc_upgrading_to_godot_4.1`"
 msgstr ":ref:`doc_migrating_to_godot_shader_language`"
 
-msgid "Physics"
-msgstr "物理"
-
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref:`doc_exporting`"
 
@@ -84,9 +99,6 @@ msgstr "自 3.1 版以來新增的教學"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_sprite_animation`"
-
-msgid "3D"
-msgstr "3D"
 
 msgid ":ref:`doc_3d_antialiasing`"
 msgstr ":ref:`doc_godot_notifications`"
@@ -157,9 +169,6 @@ msgstr ":ref:`doc_what_are_godot_classes`"
 msgid ":ref:`doc_c_sharp_variant`"
 msgstr ":ref:`doc_2d_sprite_animation`"
 
-msgid "Shaders"
-msgstr "著色器"
-
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_particle_shader`"
 
@@ -192,9 +201,6 @@ msgstr ":ref:`doc_webrtc`"
 
 msgid ":ref:`doc_playing_videos`"
 msgstr ":ref:`doc_making_trees`"
-
-msgid "Editor"
-msgstr "編輯器"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:`doc_making_trees`"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,6 +111,9 @@ msgstr ""
 "Перевагою резервної системи DynamicFont є те, що вона працює незалежно від "
 "поточної мови, що робить її ідеальною для таких речей, як чат для кількох "
 "гравців, де мова тексту може не збігатися з мовою клієнта."
+
+msgid "Examples:"
+msgstr "Приклади:"
 
 msgid "Converting keys to text"
 msgstr "Перетворення ключів на текст"
@@ -342,17 +345,6 @@ msgstr ""
 
 msgid "TranslationServer"
 msgstr "Сервер Перекладу"
-
-msgid ""
-"Godot has a server handling low-level translation management called the :ref:"
-"`TranslationServer <class_TranslationServer>`. Translations can be added or "
-"removed during run-time; the current language can also be changed at run-"
-"time."
-msgstr ""
-"Godot має сервер, який обробляє низькорівневе управління перекладами під "
-"назвою :ref:`TranslationServer <class_TranslationServer>`. Переклади можуть "
-"бути додані, або видалені, під час виконання; поточну мову також можна "
-"змінити під час виконання."
 
 msgid "Bidirectional text and UI Mirroring"
 msgstr "Двонаправлений текст і віддзеркалення інтерфейсу користувача"

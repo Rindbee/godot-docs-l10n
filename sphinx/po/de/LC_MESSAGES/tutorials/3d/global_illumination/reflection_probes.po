@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Reflection probes"
 msgstr "Reflection-Probes"
-
-msgid ""
-"Reflection probes are only supported in the Clustered Forward and Forward "
-"Mobile rendering backends, not the Compatibility backend."
-msgstr ""
-"Reflection-Probes werden nur in den Rendering-Backends Clustered Forward und "
-"Forward Mobile unterstützt, nicht im Kompatibilität-Backend."
 
 msgid ""
 "As stated in the :ref:`doc_standard_material_3d`, objects can show reflected "
@@ -387,13 +380,3 @@ msgstr ""
 
 msgid "Limitations"
 msgstr "Einschränkungen"
-
-msgid ""
-"When using the Forward Mobile backend, only 8 reflection probes can be "
-"applied on each individual Mesh *resource*. If there are more reflection "
-"probes affecting a single mesh, not all of them will be rendered on the mesh."
-msgstr ""
-"Bei Verwendung des Forward Mobile-Backends können nur 8 Reflection-Probes "
-"auf jede einzelne Mesh-*Ressource* angewendet werden. Wenn mehr Reflection-"
-"Probes auf ein einzelnes Mesh wirken, werden nicht alle von ihnen auf dem "
-"Mesh gerendert."

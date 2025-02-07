@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,16 +28,6 @@ msgid ""
 msgstr ""
 "El panel de depuración está dividido en varias pestañas, cada una enfocada "
 "en una tarea específica."
-
-msgid "Debugger"
-msgstr "Depurador"
-
-msgid ""
-"The Debugger tab opens automatically when the GDScript compiler reaches a "
-"breakpoint in your code."
-msgstr ""
-"La pestaña del depurador se abre automáticamente cuando el compilador de "
-"GDScript alcanza un punto de interrupción en tu código."
 
 msgid "You can use the buttons in the top-right corner to:"
 msgstr "Puedes usar los botones en la esquina superior derecha para:"

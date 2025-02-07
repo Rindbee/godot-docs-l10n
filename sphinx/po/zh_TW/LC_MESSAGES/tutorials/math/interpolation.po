@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Interpolation"
 msgstr "插值"
-
-msgid ""
-"Interpolation is a very basic operation in graphics programming. It's good "
-"to become familiar with it in order to expand your horizons as a graphics "
-"developer."
-msgstr ""
-"插值是圖形程式設計中一個非常基本的操作. 作為一名圖形開發人員, 熟悉它有助於擴"
-"充您的視野."
 
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
@@ -115,11 +107,6 @@ msgstr "又會產生下面的動作:"
 
 msgid "Smoothing motion"
 msgstr "平滑運動"
-
-msgid ""
-"Interpolation can be used to smooth movement, rotation, etc. Here is an "
-"example of a circle following the mouse using smoothed motion:"
-msgstr "插值可用於平滑運動, 旋轉等. 下面是使用平滑運動跟隨滑鼠的圓圈的例子:"
 
 msgid "Here is how it looks:"
 msgstr "如下:"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -141,17 +141,6 @@ msgstr ""
 "Це дійсно дозволяє новому розробнику мати відправну точку, коли він хоче "
 "ознайомитися з Godot XR. Це запобігає необхідності спочатку розробити "
 "відповідну карту дій для їхньої гри/програми."
-
-msgid ""
-"For this walkthrough we're going to start with a blank action map. You can "
-"simply delete the \"Godot action set\" entry at the top by pressing the "
-"trash can icon. This will clear out all actions. You might also want to "
-"remove the controllers that you do not wish to setup, more on this later."
-msgstr ""
-"У цій інструкції ми почнемо з порожньої карти дій. Ви можете просто видалити "
-"запис «Набір дій Годо» вгорі, натиснувши значок кошика. Це скасує всі дії. "
-"Ви також можете видалити контролери, які не бажаєте налаштовувати, "
-"докладніше про це пізніше."
 
 msgid "Action sets"
 msgstr "Набори дій"
@@ -629,14 +618,6 @@ msgstr "Тепер, коли ми визначили основні дії, на
 
 msgid "Profiles"
 msgstr "Профілі"
-
-msgid ""
-"In OpenXR controller bindings are captured in so-called \"Interaction "
-"Profiles\". We've simply shortened it to \"Profiles\" because it takes up "
-"less space."
-msgstr ""
-"У OpenXR прив’язки контролера фіксуються в так званих «Профілях взаємодії». "
-"Ми просто скоротили його до «Профілів», оскільки він займає менше місця."
 
 msgid ""
 "This generic name is chosen because controllers don't cover the entire "

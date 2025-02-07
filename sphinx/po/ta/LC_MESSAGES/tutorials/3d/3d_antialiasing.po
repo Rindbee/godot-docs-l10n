@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -132,13 +132,6 @@ msgid "Temporal antialiasing (TAA)"
 msgstr "தற்காலிக ஆண்டியலிசிங் (TAA)"
 
 msgid ""
-"*This is only available in the Clustered Forward backend, not the Forward "
-"Mobile or Compatibility backends.*"
-msgstr ""
-"*இது கொத்து முன்னோக்கி பின்தளத்தில் மட்டுமே கிடைக்கிறது, முன்னோக்கி மொபைல் அல்லது "
-"பொருந்தக்கூடிய பின்தளத்தில் அல்ல.*"
-
-msgid ""
 "Temporal antialiasing works by *converging* the result of previously "
 "rendered frames into a single, high-quality frame. This is a continuous "
 "process that works by jittering the position of all vertices in the scene "
@@ -240,13 +233,6 @@ msgstr ""
 
 msgid "Fast approximate antialiasing (FXAA)"
 msgstr "வேகமான தோராயமான ஆன்டிலியாசிங் (FXAA)"
-
-msgid ""
-"*This is only available in the Clustered Forward and Forward Mobile "
-"backends, not the Compatibility backend.*"
-msgstr ""
-"*இது கொத்து முன்னோக்கி மற்றும் முன்னோக்கி மொபைல் பின்தளத்தில் மட்டுமே கிடைக்கிறது, "
-"பொருந்தக்கூடிய பின்தளத்தில் அல்ல.*"
 
 msgid ""
 "Fast approximate antialiasing is a post-processing antialiasing solution. It "
@@ -352,15 +338,6 @@ msgstr ""
 "வரைபடக் காண்பிப்பதில் இது ஒரு தாக்கத்தை ஏற்படுத்தும் என்றாலும், அதன் தாக்கம் அங்கு "
 "குறைவாகவே உள்ளது."
 
-msgid ""
-"The screen-space roughness limiter is enabled by default; it doesn't require "
-"any manual setup. It has a small performance impact, so consider disabling "
-"it if your project isn't affected by specular aliasing much."
-msgstr ""
-"திரை-விண்வெளி கடினத்தன்மை வரம்பு இயல்பாக இயக்கப்பட்டது; இதற்கு எந்த கையேடு அமைப்பு "
-"தேவையில்லை. இது ஒரு சிறிய செயல்திறன் தாக்கத்தை ஏற்படுத்துகிறது, எனவே உங்கள் திட்டம் "
-"ஏகப்பட்ட மாற்றுப்பெயரால் பாதிக்கப்படாவிட்டால் அதை முடக்குவதைக் கவனியுங்கள்."
-
 msgid "Texture roughness limiter on import"
 msgstr "இறக்குமதியில் அமைப்பு கடினத்தன்மை வரம்பு"
 
@@ -463,3 +440,12 @@ msgstr ""
 "அல்லது: ref: `உண்மையான நேரமற்ற வழங்குதல் <doc_creating_movies>`. எடுத்துக்காட்டாக, "
 "TAA இயக்கப்பட்டிருக்கும் போது நகரும் விளிம்புகள் சிறப்பாக தோற்றமளிக்க, நீங்கள் ஒரே நேரத்தில் "
 "MSAA ஐ இயக்கலாம்."
+
+msgid "Forward+"
+msgstr "முன்னோக்கி+"
+
+msgid "Mobile"
+msgstr "மொபைல்"
+
+msgid "Compatibility"
+msgstr "பொருந்தக்கூடிய தன்மை"

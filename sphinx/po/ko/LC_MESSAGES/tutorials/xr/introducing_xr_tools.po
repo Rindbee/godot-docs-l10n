@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -61,19 +61,6 @@ msgstr ""
 
 msgid "Installing XR Tools"
 msgstr "XR 도구 설치"
-
-msgid ""
-"Continuing on from our project we started in :ref:`doc_setting_up_xr` we "
-"want to add in the Godot XR Tools library. This can be downloaded from the "
-"`Godot XR Tools releases page <https://github.com/GodotVR/godot-xr-tools/"
-"releases>`_. Simply find the latest pre-release for Godot 4 and then under "
-"assets download the ``godot-xr-tools.zip`` file."
-msgstr ""
-":ref:`doc_setting_up_xr` 에서 설정한 프로젝트에서부터 Godot XR 도구 라이브러"
-"리를 추가할 것입니다. `Godot XR Tools releases page <https://github.com/"
-"GodotVR/godot-xr-tools/releases>`_ 에서 다운로드 할 수 있습니다. Godot 4 버전"
-"의 pre-release 최신 버전을 찾아서 ``godot-xr-tools.zip`` 파일을 assets에 다운"
-"로드하세요."
 
 msgid ""
 "Once downloaded unzip the file. You will notice the files are held within a "

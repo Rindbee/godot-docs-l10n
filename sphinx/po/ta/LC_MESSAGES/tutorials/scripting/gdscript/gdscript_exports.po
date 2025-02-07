@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -127,34 +127,12 @@ msgstr ""
 msgid "Strings as paths"
 msgstr "பாதைகளாக சரங்கள்"
 
-msgid "String as a path to a file."
-msgstr "ஒரு கோப்பிற்கான பாதையாக சரம்."
-
-msgid "String as a path to a directory."
-msgstr "ஒரு கோப்பகத்திற்கான பாதையாக சரம்."
-
-msgid "String as a path to a file, custom filter provided as hint."
-msgstr "ஒரு கோப்பிற்கான பாதையாக சரம், தனிப்பயன் வடிகட்டி குறிப்பாக வழங்கப்படுகிறது."
-
 msgid ""
 "Using paths in the global filesystem is also possible, but only in scripts "
 "in tool mode."
 msgstr ""
 "உலகளாவிய கோப்பு முறைமையில் பாதைகளைப் பயன்படுத்துவதும் சாத்தியமாகும், ஆனால் கருவி "
 "பயன்முறையில் ச்கிரிப்ட்களில் மட்டுமே."
-
-msgid "String as a path to a PNG file in the global filesystem."
-msgstr "உலகளாவிய கோப்பு முறைமையில் ஒரு பி.என்.சி கோப்பிற்கான பாதையாக சரம்."
-
-msgid "String as a path to a directory in the global filesystem."
-msgstr "உலகளாவிய கோப்பு முறைமையில் ஒரு கோப்பகத்திற்கான பாதையாக சரம்."
-
-msgid ""
-"The multiline annotation tells the editor to show a large input field for "
-"editing over multiple lines."
-msgstr ""
-"பல வரிகளைத் திருத்துவதற்கு ஒரு பெரிய உள்ளீட்டு புலத்தைக் காட்ட மல்டிலைன் சிறுகுறிப்பு "
-"எடிட்டரிடம் கூறுகிறது."
 
 msgid "Limiting editor input ranges"
 msgstr "எடிட்டர் உள்ளீட்டு வரம்புகளை கட்டுப்படுத்துகிறது"
@@ -176,9 +154,6 @@ msgstr "நிறங்கள்"
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr "சிவப்பு-பச்சை-நீல-ஆல்பா மதிப்பாக வழக்கமான வண்ணம் கொடுக்கப்பட்டுள்ளது."
-
-msgid "Color given as red-green-blue value (alpha will always be 1)."
-msgstr "சிவப்பு-பச்சை-நீல மதிப்பாக வழங்கப்படும் வண்ணம் (ஆல்பா எப்போதும் 1 ஆக இருக்கும்)."
 
 msgid "Nodes"
 msgstr "முனைகள்"
@@ -221,13 +196,6 @@ msgid ""
 msgstr ""
 "இருப்பினும், இன்ச்பெக்டர் கீழ்தோன்றலைத் திறப்பது சாத்தியமான வகுப்புகளின் மிக நீண்ட பட்டியலை "
 "உருவாக்கக்கூடும். எனவே, போன்ற வள நீட்டிப்பை நீங்கள் குறிப்பிட்டால்:"
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes."
-msgstr ""
-"கீழ்தோன்றும் பட்டியல் அனிமேசன்நோட் மற்றும் அதன் அனைத்து பரம்பரை வகுப்புகளுக்கும் "
-"மட்டுப்படுத்தப்படும்."
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

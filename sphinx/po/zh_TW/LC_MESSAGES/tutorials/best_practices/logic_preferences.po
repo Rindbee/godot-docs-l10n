@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -42,11 +42,6 @@ msgstr ""
 "最佳實踐是在節點加入場景樹之前修改取值。部分屬性的 setter 程式碼會更新其他對"
 "應的值，可能會比較慢！大多數情況下，這樣的程式碼不會對遊戲的性能產生影響，但"
 "對於程式式生成之類的重型使用場景，就可能讓遊戲卡成 PPT。"
-
-msgid ""
-"For these reasons, it is always a best practice to set the initial values of "
-"a node before adding it to the scene tree."
-msgstr "綜上，最佳的做法就是先為節點設定初始值，然後再把它新增到場景樹中。"
 
 msgid "Loading vs. preloading"
 msgstr "載入 (Load) vs. 預載入 (Preload)"

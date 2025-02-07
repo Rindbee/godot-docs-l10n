@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Interpolation"
 msgstr "Idirshuíomh"
-
-msgid ""
-"Interpolation is a very basic operation in graphics programming. It's good "
-"to become familiar with it in order to expand your horizons as a graphics "
-"developer."
-msgstr ""
-"Is oibríocht an-bhunúsach é idirphóireacht i gcláir grafaicí. Tá sé go maith "
-"dul i dtaithí air d'fhonn do léaslínte a leathnú mar fhorbróir grafaicí."
 
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
@@ -124,14 +116,6 @@ msgstr "Agus arís, táirgfidh sé an tairiscint seo a leanas:"
 
 msgid "Smoothing motion"
 msgstr "Tairiscint réidh"
-
-msgid ""
-"Interpolation can be used to smooth movement, rotation, etc. Here is an "
-"example of a circle following the mouse using smoothed motion:"
-msgstr ""
-"Is féidir idirphóireacht a úsáid chun gluaiseacht, rothlú, srl a réiteach "
-"Seo sampla de chiorcal a leanann an luch ag baint úsáide as gluaiseacht "
-"réidh:"
 
 msgid "Here is how it looks:"
 msgstr "Seo mar a bhreathnaíonn sé:"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,14 +13,6 @@ msgstr ""
 
 msgid "Interpolation"
 msgstr "보간"
-
-msgid ""
-"Interpolation is a very basic operation in graphics programming. It's good "
-"to become familiar with it in order to expand your horizons as a graphics "
-"developer."
-msgstr ""
-"보간법은 그래픽 프로그래밍에서 매우 기본적인 작업입니다. 그래픽 개발자로써의 "
-"시야를 넓히기 위해 이와 익숙해지는 것이 좋습니다."
 
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
@@ -73,13 +65,6 @@ msgstr "아래와 같은 모션을 볼 수 있습니다:"
 
 msgid "Smoothing motion"
 msgstr "부드러운 모션 만들기"
-
-msgid ""
-"Interpolation can be used to smooth movement, rotation, etc. Here is an "
-"example of a circle following the mouse using smoothed motion:"
-msgstr ""
-"보간법은 움직임이나 회전 등을 부드럽게 하는 데에도 사용할 수 있습니다. 아래"
-"는 마우스 커서를 부드럽게 따라다니는 원을 만드는 예시입니다:"
 
 msgid "Here is how it looks:"
 msgstr "결과는 다음과 같습니다:"

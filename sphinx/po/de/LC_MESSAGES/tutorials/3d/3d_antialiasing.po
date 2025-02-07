@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -133,13 +133,6 @@ msgid "Temporal antialiasing (TAA)"
 msgstr "Temporales Antialiasing (TAA)"
 
 msgid ""
-"*This is only available in the Clustered Forward backend, not the Forward "
-"Mobile or Compatibility backends.*"
-msgstr ""
-"*Dies ist nur im Clustered Forward Backend verfügbar, nicht im Forward "
-"Mobile oder Kompatibilität-Backend.*"
-
-msgid ""
 "Temporal antialiasing works by *converging* the result of previously "
 "rendered frames into a single, high-quality frame. This is a continuous "
 "process that works by jittering the position of all vertices in the scene "
@@ -247,13 +240,6 @@ msgstr ""
 
 msgid "Fast approximate antialiasing (FXAA)"
 msgstr "Fast Approximate Antialiasing (FXAA)"
-
-msgid ""
-"*This is only available in the Clustered Forward and Forward Mobile "
-"backends, not the Compatibility backend.*"
-msgstr ""
-"*Dies ist nur in den Backends Clustered Forward und Forward Mobile "
-"verfügbar, nicht im Kompatibilität-Backend.*"
 
 msgid ""
 "Fast approximate antialiasing is a post-processing antialiasing solution. It "
@@ -364,16 +350,6 @@ msgstr ""
 "Geometrie. Er wirkt sich zwar auf das Rendering der Rauheitskarte selbst "
 "aus, ist dort aber nur begrenzt wirksam."
 
-msgid ""
-"The screen-space roughness limiter is enabled by default; it doesn't require "
-"any manual setup. It has a small performance impact, so consider disabling "
-"it if your project isn't affected by specular aliasing much."
-msgstr ""
-"Der Screen-Space-Rauheitsbegrenzer für den ist standardmäßig aktiviert; er "
-"erfordert keine manuelle Einstellung. Er hat eine geringe Auswirkung auf die "
-"Performance, daher sollten Sie ihn deaktivieren, wenn Ihr Projekt nicht "
-"stark von spiegelnden Aliasing betroffen ist."
-
 msgid "Texture roughness limiter on import"
 msgstr "Texturrauheitsbegrenzer beim Import"
 
@@ -480,3 +456,12 @@ msgstr ""
 "beim :ref:`Nicht-Echtzeit-Rendering <doc_creating_movies>` für eine bessere "
 "Darstellung sorgen. Um zum Beispiel bewegte Kanten besser aussehen zu "
 "lassen, wenn TAA aktiviert ist, können Sie gleichzeitig MSAA aktivieren."
+
+msgid "Forward+"
+msgstr "Forward+"
+
+msgid "Mobile"
+msgstr "Mobile"
+
+msgid "Compatibility"
+msgstr "Kompatibilität"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,9 +46,6 @@ msgstr "專案是在編輯器中執行還是以「獨立」二進位檔執行。
 
 msgid "Many more things."
 msgstr "許多其他功能。"
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr "可以在執行時呼叫單例 API 來查詢功能："
 
 msgid ""
 "OS feature tags are used by GDExtension to determine which libraries to "
@@ -356,9 +353,6 @@ msgid ""
 msgstr ""
 "在下列範例中，Demo 版的遊戲使用不同的圖示 (圖示在林一個匯出預設設定中自定，並"
 "只會包含 Demo 關卡)。"
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr "覆寫後，組態設定中會多一個用於該建置的新欄位："
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

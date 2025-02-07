@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,11 +34,32 @@ msgstr ""
 "opérés ne sont pas visibles. De nombreux pages ont été grandement mises à "
 "jour mais ne sont pas visibles dans ce document."
 
-msgid "About"
-msgstr "À propos"
-
 msgid "2D"
 msgstr "2D"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "Débogage"
+
+msgid "Editor"
+msgstr "Éditeur"
+
+msgid "Performance"
+msgstr "Performance"
+
+msgid "Physics"
+msgstr "Physique"
+
+msgid "Rendering"
+msgstr "Rendu"
+
+msgid "Shaders"
+msgstr "Shaders"
+
+msgid "About"
+msgstr "À propos"
 
 msgid "Contributing"
 msgstr "Contribuer"
@@ -48,9 +69,6 @@ msgstr "GDExtension"
 
 msgid "Migrating"
 msgstr "Migration"
-
-msgid "Rendering"
-msgstr "Rendu"
 
 msgid "XR"
 msgstr "XR"
@@ -97,9 +115,6 @@ msgstr ":ref:`doc_using_sanitizers`"
 msgid ":ref:`doc_upgrading_to_godot_4.1`"
 msgstr ":ref:`doc_upgrading_to_godot_4.1`"
 
-msgid "Physics"
-msgstr "Physique"
-
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref:`doc_troubleshooting_physics_issues`"
 
@@ -108,9 +123,6 @@ msgstr "Nouveaux tutoriels depuis la version 3.6"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref:`doc_2d_antialiasing`"
-
-msgid "3D"
-msgstr "3D"
 
 msgid ":ref:`doc_3d_antialiasing`"
 msgstr ":ref:`doc_3d_antialiasing`"
@@ -181,9 +193,6 @@ msgstr ":ref:`doc_c_sharp_global_classes`"
 msgid ":ref:`doc_c_sharp_variant`"
 msgstr ":ref:`doc_c_sharp_variant`"
 
-msgid "Shaders"
-msgstr "Shaders"
-
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":ref:`doc_compute_shaders`"
 
@@ -216,9 +225,6 @@ msgstr ":ref:`doc_3d_text`"
 
 msgid ":ref:`doc_playing_videos`"
 msgstr ":ref:`doc_playing_videos`"
-
-msgid "Editor"
-msgstr "Éditeur"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:`doc_managing_editor_features`"

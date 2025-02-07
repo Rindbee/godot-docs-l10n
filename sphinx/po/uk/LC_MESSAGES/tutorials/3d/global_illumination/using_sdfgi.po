@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,13 +44,6 @@ msgstr ""
 "З точки зору продуктивності, SDFGI є одним із найвимогливіших глобальних "
 "методів освітлення в Годо. Як і у випадку з VoxelGI, все ще доступно багато "
 "налаштувань, щоб налаштувати вимоги до продуктивності ціною якості."
-
-msgid ""
-"SDFGI is only supported when using the Forward Plus rendering backend, not "
-"the Forward Mobile or Compatibility backends."
-msgstr ""
-"SDFGI підтримується лише під час використання серверної частини візуалізації "
-"Forward Plus, а не серверної частини Forward Mobile або Compatibility."
 
 msgid ""
 "Not sure if SDFGI is suited to your needs? See :ref:"

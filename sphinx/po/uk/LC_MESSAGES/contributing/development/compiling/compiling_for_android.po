@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,13 +49,6 @@ msgstr "Вимоги"
 
 msgid "For compiling under Windows, Linux or macOS, the following is required:"
 msgstr "Для компіляції під Windows, Linux або macOS необхідно:"
-
-msgid "`Python 3.6+ <https://www.python.org/downloads/>`_."
-msgstr "`Python 3.6+ <https://www.python.org/downloads/>`_."
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ build system."
-msgstr ""
-"`SCons 3.1.2+ <https://scons.org/pages/download.html>`_ збірка системи."
 
 msgid ""
 "`Android SDK <https://developer.android.com/studio/#command-tools>`_ "

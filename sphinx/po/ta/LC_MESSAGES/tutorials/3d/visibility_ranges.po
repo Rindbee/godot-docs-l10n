@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,15 +33,6 @@ msgstr "கோடோட்டில் தெரிவுநிலை வரம�
 
 msgid "How to tune visibility ranges for best performance and quality."
 msgstr "சிறந்த செயல்திறன் மற்றும் தரத்திற்கான தெரிவுநிலை வரம்புகளை எவ்வாறு மாற்றுவது."
-
-msgid ""
-"If you only need meshes to become less detailed over distance but don't have "
-"manually authored LOD meshes, consider relying on automatic :ref:"
-"`doc_mesh_lod` instead."
-msgstr ""
-"தூரத்தை விட குறைந்த விரிவாக மாறுவதற்கு உங்களுக்கு மெச்கள் மட்டுமே தேவைப்பட்டால், ஆனால் "
-"கைமுறையாக எழுதப்பட்ட லாட் மெச்கள் இல்லை என்றால், தானியங்கி: குறிப்பு: `doc_mesh_lod` "
-"க்கு பதிலாக நம்புவதைக் கவனியுங்கள்."
 
 msgid ""
 "Note that automatic mesh LOD and visibility ranges can be used at the same "

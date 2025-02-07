@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Reflection probes"
 msgstr "Зонди відображень"
-
-msgid ""
-"Reflection probes are only supported in the Clustered Forward and Forward "
-"Mobile rendering backends, not the Compatibility backend."
-msgstr ""
-"Зонди відображення підтримуються лише в Clustered Forward і Forward Mobile "
-"backend, а не в Backend Compatibility."
 
 msgid ""
 "As stated in the :ref:`doc_standard_material_3d`, objects can show reflected "
@@ -376,12 +369,3 @@ msgstr ""
 
 msgid "Limitations"
 msgstr "Обмеження"
-
-msgid ""
-"When using the Forward Mobile backend, only 8 reflection probes can be "
-"applied on each individual Mesh *resource*. If there are more reflection "
-"probes affecting a single mesh, not all of them will be rendered on the mesh."
-msgstr ""
-"Під час використання серверної частини Forward Mobile до кожного окремого "
-"*ресурсу* Mesh можна застосувати лише 8 зондів відбиття. Якщо на одну сітку "
-"впливає більше зондів відображення, не всі вони відображатимуться на сітці."

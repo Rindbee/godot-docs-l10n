@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,12 +56,6 @@ msgid ""
 msgstr ""
 "`來自於 SomethingLikeGames 的 Godot 教學 <https://www.somethinglikegames.de/"
 "en/tags/godot-engine/>`__"
-
-msgid "Devlogs"
-msgstr "開發紀錄"
-
-msgid "`DevDuck (2D) <https://www.youtube.com/@devduck/videos>`_"
-msgstr "`DevDuck(2D) <https://www.youtube.com/@devduck/videos>`_"
 
 msgid "Resources"
 msgstr "資源"

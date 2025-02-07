@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,15 +13,6 @@ msgstr ""
 
 msgid "Interpolation"
 msgstr "Interpolación"
-
-msgid ""
-"Interpolation is a very basic operation in graphics programming. It's good "
-"to become familiar with it in order to expand your horizons as a graphics "
-"developer."
-msgstr ""
-"La interpolación es una operación muy básica en la programación de gráficos. "
-"Es bueno familiarizarse con ella para expandir tus horizontes como "
-"desarrollador de gráficos."
 
 msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
@@ -75,14 +66,6 @@ msgstr "Y de nuevo, producirá el siguiente movimiento:"
 
 msgid "Smoothing motion"
 msgstr "Suavizando el movimiento"
-
-msgid ""
-"Interpolation can be used to smooth movement, rotation, etc. Here is an "
-"example of a circle following the mouse using smoothed motion:"
-msgstr ""
-"La interpolación puede utilizarse para suavizar el movimiento, la rotación, "
-"etc. Aquí hay un ejemplo de un círculo que sigue al ratón usando un "
-"movimiento suavizado:"
 
 msgid "Here is how it looks:"
 msgstr "Así es cómo se ve:"

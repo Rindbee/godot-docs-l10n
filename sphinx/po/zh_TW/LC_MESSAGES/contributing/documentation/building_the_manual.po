@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -110,15 +110,6 @@ msgstr "設定為錯誤的警告"
 
 msgid "If you run into errors, you may try the following command:"
 msgstr "若要從 GitHub 上 Clone 你的 Fork，請使用下列指令："
-
-msgid ""
-"If you get a ``MemoryError`` or ``EOFError``, you can remove the ``classes/"
-"`` folder and run ``make`` again. This will drop the class references from "
-"the final HTML documentation but will keep the rest intact."
-msgstr ""
-"如果你遇到了 ``MemoryError`` 或者 ``EOFError``，可以把 ``classes/`` 資料夾刪"
-"除然後重新執行 ``make``。這樣會在最終的 HTML 文件中刪除類參考文件，其它內容還"
-"是一致的。"
 
 msgid ""
 "If you delete the ``classes/`` folder, do not use ``git add .`` when working "

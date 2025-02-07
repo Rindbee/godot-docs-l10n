@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,14 +121,6 @@ msgstr ""
 msgid "Setting it up in Godot"
 msgstr "Налаштуйте це в Godot"
 
-msgid ""
-"Enter the Editor Settings screen. This screen contains the editor settings "
-"for the user account in the computer (it's independent of the project)."
-msgstr ""
-"Увійдіть на екран параметрів редактора. Цей екран містить налаштування "
-"редактора для облікового запису користувача на комп’ютері (це не залежить "
-"від проєкту)."
-
 msgid "Scroll down to the section where the Android settings are located:"
 msgstr "Прокрутіть униз до розділу, де розташовані параметри Android:"
 
@@ -186,9 +178,6 @@ msgstr ""
 "високої роздільної здатності (для екранів щільності ``xxxhdpi``) і "
 "автоматично генерує варіанти нижчої роздільної здатності."
 
-msgid "There are two types of icons required by Godot:"
-msgstr "Godot має два типи піктограм:"
-
 msgid ""
 "**Main Icon:** The \"classic\" icon. This will be used on all Android "
 "versions up to Android 8 (Oreo), exclusive. Must be at least 192×192 px."
@@ -231,14 +220,6 @@ msgstr ""
 "Найважливішим правилом адаптивного дизайну піктограм є наявність критичних "
 "елементів піктограм всередині безпечної зони: відцентроване коло діаметром "
 "66dp (264 пікселі на ``xxxhdpi``), щоб уникнути їх обрізки на панелі запуску."
-
-msgid ""
-"If you don't provide some of the requested icons, Godot will replace them "
-"using a fallback chain, trying the next in line when the current one fails:"
-msgstr ""
-"Якщо ви не підготуєте деякі із запитуваних піктограм, Godot замінить їх за "
-"допомогою резервного ланцюжка, вставляючи наступний у черзі, коли поточний "
-"не вдається:"
 
 msgid ""
 "**Main Icon:** Provided main icon -> Project icon -> Default Godot main icon."

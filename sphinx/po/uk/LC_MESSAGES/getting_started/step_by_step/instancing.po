@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -293,15 +293,6 @@ msgstr ""
 
 msgid "For example, you could break down a shooter game like so:"
 msgstr "Наприклад, ви можете розбити гру-шутер так:"
-
-msgid ""
-"You can come up with a diagram like this for almost any type of game. Each "
-"rectangle represents an entity that's visible in the game from the player's "
-"perspective. The arrows tell you which scene owns which."
-msgstr ""
-"Ви можете створити подібну схему майже для будь-якої гри. Кожен прямокутник "
-"представляє об’єкт, який видно в грі з точки зору гравця. Стрілки вказують "
-"на зв'язок сцен між собою."
 
 msgid ""
 "Once you have a diagram, we recommend creating a scene for each element "

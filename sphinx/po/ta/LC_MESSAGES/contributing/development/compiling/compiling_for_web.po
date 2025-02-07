@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -29,16 +29,6 @@ msgstr "தேவைகள்"
 msgid "To compile export templates for the Web, the following is required:"
 msgstr "வலைக்கான ஏற்றுமதி வார்ப்புருக்களை தொகுக்க, பின்வருபவை தேவை:"
 
-msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
-msgstr "`Emscripten 3.1.39+ <https://emscripten.org> __. __."
-
-msgid "`Python 3.6+ <https://www.python.org/>`__."
-msgstr "`பைதான் 3.6+ <https://www.python.org/> ____."
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ build system."
-msgstr ""
-"`ச்கான் 3.1.2+ <https://scons.org/pages/download.html>` __ அமைப்பை உருவாக்குங்கள்."
-
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
 msgstr "தொகுக்க கோடோட் மூலக் குறியீட்டைப் பெற, காண்க: குறிப்பு: `doc_getting_source`."
@@ -49,16 +39,6 @@ msgid ""
 msgstr ""
 "கோடோட்டிற்கான ச்கான்ச் பயன்பாட்டின் பொதுவான கண்ணோட்டத்திற்கு, காண்க: குறிப்பு: "
 "`doc_introduction_to_the_buildsystem`."
-
-msgid ""
-"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
-msgstr ""
-"Emscripten 3.1.39+ பரிந்துரைக்கப்படுகிறது, ஆனால் பழைய 3.x பதிப்புகள் வேலை "
-"செய்யப்படுகின்றன."
-
-msgid ""
-"Please note that the minimum requirement for GDExtension support is 3.1.14."
-msgstr "Gdextension ஆதரவுக்கான குறைந்தபட்ச தேவை 3.1.14 என்பதை நினைவில் கொள்க."
 
 msgid "Building export templates"
 msgstr "ஏற்றுமதி வார்ப்புருக்களை உருவாக்குதல்"

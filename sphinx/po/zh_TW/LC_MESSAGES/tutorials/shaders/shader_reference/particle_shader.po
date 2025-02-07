@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -73,21 +73,8 @@ msgstr "禁用吸引力。"
 msgid "**disable_velocity**"
 msgstr "**disable_velocity**"
 
-msgid "Ignore **VELOCITY** value."
-msgstr "忽略 **VELOCITY** 值."
-
 msgid "Built-ins"
 msgstr "內建"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"標記為 \"in\" 的值是唯讀的. 標記為 \"out\" 的值是可以選擇寫入的, 不一定包含合"
-"理的值. 標記為 \"inout\" 的值提供一個合理的預設值, 並且可以選擇寫入. 取樣器不"
-"是寫入的物件, 它們沒有被標記."
 
 msgid "Global built-ins"
 msgstr "定數"
@@ -105,7 +92,7 @@ msgid "in float **PI**"
 msgstr "in float **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr "一個“PI”常數（“3.141592”）。圓的周長與其直徑的比率以及半圈的弧度數。"
 
@@ -190,10 +177,6 @@ msgstr "粒子變換。"
 msgid "inout vec4 **CUSTOM**"
 msgstr "inout vec4 **CUSTOM**"
 
-msgid ""
-"Custom particle data. Accessible from shader of mesh as **INSTANCE_CUSTOM**."
-msgstr "自訂粒子資料。網格的著色器可以使用 **INSTANCE_CUSTOM** 存取。"
-
 msgid "inout float **MASS**"
 msgstr "inout float **MASS**"
 
@@ -205,60 +188,20 @@ msgstr "粒子質量，旨在與吸引子一起使用。預設等於``1.0``。"
 msgid "in vec4 **USERDATAX**"
 msgstr "in vec4 **USERDATAX**"
 
-msgid ""
-"Vector that enables the integration of supplementary user-defined data into "
-"the particle process shader. ``USERDATAX`` are six built-ins identified by "
-"number, ``X`` can be numbers between 1 and 6."
-msgstr ""
-"可將補充的使用者定義資料整合到粒子過程著色器中的向量。 ``USERDATAX`` 是由數字"
-"標識的六個內建函式，``X`` 可以是 1 到 6 之間的數字。"
-
 msgid "in uint **FLAG_EMIT_POSITION**"
 msgstr "in uint **FLAG_EMIT_POSITION**"
-
-msgid ""
-"A flag for using on the last argument of ``emit_subparticle`` function to "
-"assign a position to a new particle's transform."
-msgstr ""
-"用於在「emit_subarticle」函式的最後一個參數上使用的旗標，用於為新粒子的變換分"
-"配位置。"
 
 msgid "in uint **FLAG_EMIT_ROT_SCALE**"
 msgstr "in uint **FLAG_EMIT_ROT_SCALE**"
 
-msgid ""
-"A flag for using on the last argument of ``emit_subparticle`` function to "
-"assign the rotation and scale to a new particle's transform."
-msgstr ""
-"用於在“emit_subarticle”函式的最後一個參數上使用的旗標，將旋轉和縮放分配給新粒"
-"子的變換。"
-
 msgid "in uint **FLAG_EMIT_VELOCITY**"
 msgstr "in uint **FLAG_EMIT_VELOCITY**"
-
-msgid ""
-"A flag for using on the last argument of ``emit_subparticle`` function to "
-"assign a velocity to a new particle."
-msgstr "用於使用“emit_subarticle”函式的最後一個參數來為新粒子分配速度的旗標。"
 
 msgid "in uint **FLAG_EMIT_COLOR**"
 msgstr "in uint **FLAG_EMIT_COLOR**"
 
-msgid ""
-"A flag for using on the last argument of ``emit_subparticle`` function to "
-"assign a color to a new particle."
-msgstr ""
-"用於在“emit_subarticle”函式的最後一個參數上使用的旗標，為新粒子分配顏色。"
-
 msgid "in uint **FLAG_EMIT_CUSTOM**"
 msgstr "in uint **FLAG_EMIT_CUSTOM**"
-
-msgid ""
-"A flag for using on the last argument of ``emit_subparticle`` function to "
-"assign a custom data vector to a new particle."
-msgstr ""
-"用於在「emit_subarticle」函式的最後一個參數上使用的旗標，以將自訂資料向量指派"
-"給新粒子。"
 
 msgid ""
 "In order to use the ``COLOR`` variable in a StandardMaterial3D, set "
@@ -303,11 +246,6 @@ msgstr "``true`` 當粒子必須重新啟動時(生命週期迴圈)."
 
 msgid "in vec3 **COLLISION_NORMAL**"
 msgstr "in vec3 **COLLISION_NORMAL**"
-
-msgid ""
-"A normal of the last collision. If there is no collision detected it is "
-"equal to ``vec3(0.0)``."
-msgstr "上次碰撞的法線。如果沒有偵測到碰撞，則等於「vec3(0.0)」。"
 
 msgid "in float **COLLISION_DEPTH**"
 msgstr "in float **COLLISION_DEPTH**"

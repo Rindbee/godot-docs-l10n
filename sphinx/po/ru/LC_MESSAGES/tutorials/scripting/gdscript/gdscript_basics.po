@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -206,20 +206,11 @@ msgstr "Приводит значение к данному типу, если �
 msgid "self"
 msgstr "sеlf"
 
-msgid "Refers to current class instance."
-msgstr "Ссылается на текущий экземпляр класса."
-
 msgid "signal"
 msgstr "signаl"
 
-msgid "Defines a signal."
-msgstr "Объявляет сигнал."
-
 msgid "func"
 msgstr "funс"
-
-msgid "Defines a function."
-msgstr "Объявляет функцию."
 
 msgid "static"
 msgstr "statiс"
@@ -227,20 +218,11 @@ msgstr "statiс"
 msgid "const"
 msgstr "сonst"
 
-msgid "Defines a constant."
-msgstr "Объявляет константу."
-
 msgid "enum"
 msgstr "enum"
 
-msgid "Defines an enum."
-msgstr "Объявляет перечисление."
-
 msgid "var"
 msgstr "var"
-
-msgid "Defines a variable."
-msgstr "Объявляет переменную."
 
 msgid "breakpoint"
 msgstr "brеakpoint"
@@ -895,19 +877,6 @@ msgstr ""
 
 msgid "Functions"
 msgstr "Функции"
-
-msgid ""
-"Functions always belong to a `class <Classes_>`_. The scope priority for "
-"variable look-up is: local → class member → global. The ``self`` variable is "
-"always available and is provided as an option for accessing class members, "
-"but is not always required (and should *not* be sent as the function's first "
-"argument, unlike Python)."
-msgstr ""
-"Функции всегда принадлежат классу ` <Classes_>`_ . Приоритет области "
-"видимости для поиска переменной следующий: локальная → член класса → "
-"глобальная. Переменная ``self`` всегда доступна и предоставляется как опция "
-"для доступа к членам класса, но не всегда требуется (и не должна *не* "
-"передаваться в качестве первого аргумента функции, в отличие от Python)."
 
 msgid ""
 "A function can ``return`` at any point. The default return value is ``null``."

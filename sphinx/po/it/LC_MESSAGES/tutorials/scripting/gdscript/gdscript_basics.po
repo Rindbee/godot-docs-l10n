@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -168,20 +168,11 @@ msgstr "Converte il valore in un certo tipo, se possibile."
 msgid "self"
 msgstr "self"
 
-msgid "Refers to current class instance."
-msgstr "Si riferisce all'istanza della classe corrente."
-
 msgid "signal"
 msgstr "signal"
 
-msgid "Defines a signal."
-msgstr "Definisce un segnale."
-
 msgid "func"
 msgstr "func"
-
-msgid "Defines a function."
-msgstr "Definisce una funzione."
 
 msgid "static"
 msgstr "static"
@@ -189,20 +180,11 @@ msgstr "static"
 msgid "const"
 msgstr "const"
 
-msgid "Defines a constant."
-msgstr "Definisce una costante."
-
 msgid "enum"
 msgstr "enum"
 
-msgid "Defines an enum."
-msgstr "Definisce un enumeratore."
-
 msgid "var"
 msgstr "var"
-
-msgid "Defines a variable."
-msgstr "Definisce una variabile."
 
 msgid "breakpoint"
 msgstr "Punto di interruzione"

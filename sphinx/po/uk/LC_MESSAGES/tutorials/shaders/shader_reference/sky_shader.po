@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -109,18 +109,6 @@ msgid "If the screen is resized and either of the subpasses are used."
 msgstr "Якщо розмір екрана змінено та використовується один із підпроходів."
 
 msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"Намагайтеся уникати без потреби оновлення кубічної карти сяйва. Якщо вам "
-"потрібно оновлювати карту радіансу кожного кадру, переконайтеся, що для "
-"вашого режиму :ref:`Sky process <class_Sky_property_process_mode>` "
-"встановлено значення :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-
-msgid ""
 "Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
 "affects the rendering of the radiance cubemap. The visible sky is always "
 "rendered by calling the fragment shader for every pixel. With complex "
@@ -204,16 +192,6 @@ msgstr "Якщо використовувати, туман не впливат�
 msgid "Built-ins"
 msgstr "Вбудовані"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"Значення, позначені як \"in\", доступні лише для читання. Значення, "
-"позначені як \"out\", призначені для необов'язкового запису та не "
-"обов'язково містять розумні значення. До семплерів не можна писати, тому "
-"вони не позначені."
-
 msgid "Global built-ins"
 msgstr "Глобальні вбудовані функції"
 
@@ -239,8 +217,8 @@ msgstr "In float **TIME**"
 msgid "in vec3 **POSITION**"
 msgstr "In vec3 **POSITION**"
 
-msgid "Camera position in world space"
-msgstr "Розташування камери у світовому просторі"
+msgid "Camera position, in world space."
+msgstr "Розташування камери у світовому просторі."
 
 msgid "samplerCube **RADIANCE**"
 msgstr "samplerCube **RADIANCE**"
@@ -255,30 +233,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "In bool **AT_HALF_RES_PASS**"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "Наразі виконується передача половинної роздільної здатності."
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "In bool **AT_QUARTER_RES_PASS**"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "Наразі виконується візуалізація на рівні чверті."
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "In bool **AT_CUBEMAP_PASS**"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr "Наразі виконується рендеринг у кубічну карту radiance."
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "In bool **LIGHTX_ENABLED**"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"``LightX`` видимий і в сцені. Якщо ``false``, інші властивості світла можуть "
-"бути сміттям."
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "In float **LIGHTX_ENERGY**"

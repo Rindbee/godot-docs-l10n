@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,11 +32,32 @@ msgstr ""
 "இந்த ஆவணத்தில் புதிய பக்கங்கள் மட்டுமே உள்ளன, எனவே எல்லா மாற்றங்களும் பிரதிபலிக்கவில்லை, "
 "பல பக்கங்கள் கணிசமாக புதுப்பிக்கப்பட்டுள்ளன, ஆனால் அவை இந்த ஆவணத்தில் பிரதிபலிக்கவில்லை."
 
-msgid "About"
-msgstr "பற்றி"
-
 msgid "2D"
 msgstr "மே"
+
+msgid "3D"
+msgstr "ZD"
+
+msgid "Debug"
+msgstr "பிழைத்திருத்தம்"
+
+msgid "Editor"
+msgstr "திருத்தி"
+
+msgid "Performance"
+msgstr "செயல்திறன்"
+
+msgid "Physics"
+msgstr "இயற்பியல்"
+
+msgid "Rendering"
+msgstr "வழங்குதல்"
+
+msgid "Shaders"
+msgstr "சேடர்ச்"
+
+msgid "About"
+msgstr "பற்றி"
 
 msgid "Contributing"
 msgstr "பங்களிப்பு"
@@ -46,9 +67,6 @@ msgstr "Gdextension"
 
 msgid "Migrating"
 msgstr "இடம்பெயர்வு"
-
-msgid "Rendering"
-msgstr "வழங்குதல்"
 
 msgid "XR"
 msgstr "எக்ச்ஆர்"
@@ -95,9 +113,6 @@ msgstr ": குறிப்பு: `doc_using_sanitizers`"
 msgid ":ref:`doc_upgrading_to_godot_4.1`"
 msgstr ": Ref: `doc_uprading_to_godot_4.1`"
 
-msgid "Physics"
-msgstr "இயற்பியல்"
-
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ": குறிப்பு: `doc_troubleshooting_physics_issues`"
 
@@ -106,9 +121,6 @@ msgstr "பதிப்பு 3.6 முதல் புதிய பக்க�
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ": குறிப்பு: `doc_2d_antialiasing`"
-
-msgid "3D"
-msgstr "ZD"
 
 msgid ":ref:`doc_3d_antialiasing`"
 msgstr ": குறிப்பு: `doc_3d_antialiasing`"
@@ -179,9 +191,6 @@ msgstr ": ref: `doc_c_sharp_global_classes`"
 msgid ":ref:`doc_c_sharp_variant`"
 msgstr ": Ref: `doc_c_sharp_variant`"
 
-msgid "Shaders"
-msgstr "சேடர்ச்"
-
 msgid ":ref:`doc_compute_shaders`"
 msgstr ": குறிப்பு: `doc_compute_shaders`"
 
@@ -214,9 +223,6 @@ msgstr ": Ref: `doc_3d_text`"
 
 msgid ":ref:`doc_playing_videos`"
 msgstr ": குறிப்பு: `doc_playing_videos`"
-
-msgid "Editor"
-msgstr "திருத்தி"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ": Ref: `doc_managing_editor_features`"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,18 +34,6 @@ msgstr ""
 "Technik können Benutzer die gängigsten geometrischen Formen erstellen, indem "
 "sie Grundelemente kombinieren. Innenumgebungen können mithilfe invertierter "
 "Grundelemente erstellt werden."
-
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"Die CSG-Nodes in Godot sind hauptsächlich für das Prototyping vorgesehen. Es "
-"gibt keine Built-in-Unterstützung für UV-Mapping oder das Bearbeiten von 3D-"
-"Polygonen (obwohl extrudierte 2D-Polygone mit dem CSGPolygon3D-Node "
-"verwendet werden können). Außerdem kann CSG keine zuverlässigen Meshes aus "
-"mehreren Nodes ohne Löcher erstellen."
 
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
@@ -159,28 +147,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "Benutzerdefinierte Meshes"
-
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"Jedes Mesh kann für :ref:`CSGMesh3D <class_CSGMesh3D>` verwendet werden; das "
-"Mesh kann in anderer Software modelliert und in Godot importiert werden. Es "
-"werden mehrere Materialien unterstützt. Es gibt einige Einschränkungen für "
-"die Geometrie:"
-
-msgid "it must be closed,"
-msgstr "sie muss geschlossen sein,"
-
-msgid "it must not self-intersect,"
-msgstr "sie darf sich nicht selbst überschneiden,"
-
-msgid "it must not contain internal faces,"
-msgstr "sie darf keine inneren Flächen enthalten,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "jede Kante darf nur mit zwei anderen Flächen verbunden werden."
 
 msgid "CSGCombiner3D"
 msgstr "CSGCombiner3D"

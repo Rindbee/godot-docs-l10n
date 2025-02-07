@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -249,13 +249,6 @@ msgstr "Godot 的高級多人 API 使用 ENet 的修改版本，它允許完全�
 
 msgid "Initializing the network"
 msgstr "初始化網路"
-
-msgid ""
-"High level networking in Godot is managed by the :ref:`SceneTree "
-"<class_SceneTree>`."
-msgstr ""
-"在Godot中, 控制聯網的物件與控制所有與樹相關的東西的物件是相同的: :ref:"
-"`SceneTree <class_SceneTree>`."
 
 msgid ""
 "Each node has a ``multiplayer`` property, which is a reference to the "

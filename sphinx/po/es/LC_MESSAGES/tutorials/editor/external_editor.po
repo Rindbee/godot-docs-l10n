@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -130,6 +130,9 @@ msgstr "Sublime Text"
 
 msgid "``{project} {file}:{line}:{column}``"
 msgstr "``{project} {file}:{line}:{column}``"
+
+msgid "Visual Studio"
+msgstr "Visual Studio"
 
 msgid ""
 "For Visual Studio Code on Windows, you will have to point to the ``code."

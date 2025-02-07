@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,16 +52,6 @@ msgstr ""
 
 msgid "Built-ins"
 msgstr "Tógtha-ins"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"Tá luachanna marcáilte mar \"i\" inléite amháin. Tá luachanna marcáilte mar "
-"\"amach\" le haghaidh scríbhneoireacht roghnach agus ní gá go mbeadh "
-"luachanna ciallmhara iontu. Ní féidir samplers a scríobh ionas nach bhfuil "
-"siad marcáilte."
 
 msgid "Global built-ins"
 msgstr "Domhanda tógtha-ins"
@@ -140,13 +130,6 @@ msgstr ""
 
 msgid "in vec3 **UVW**"
 msgstr "i vec3 ** UVW **"
-
-msgid ""
-"3-dimensional uv, used to map a 3D texture to the current :ref:`FogVolume "
-"<class_FogVolume>`."
-msgstr ""
-"Uv 3-thoiseach, a úsáidtear chun uigeacht 3D a mhapáil go dtí an sruth :ref:"
-"`FogVolume <class_FogVolume>`."
 
 msgid "in vec3 **SIZE**"
 msgstr "i vec3 ** MÉID **"

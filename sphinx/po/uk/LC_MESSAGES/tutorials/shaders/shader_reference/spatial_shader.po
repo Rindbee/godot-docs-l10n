@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -63,6 +63,9 @@ msgstr "**Blend_mul**"
 msgid "Multiplicative blend mode."
 msgstr "Мультиплікативний режим змішування."
 
+msgid "**blend_premul_alpha**"
+msgstr "**Blend_premul_alpha**"
+
 msgid "**depth_draw_opaque**"
 msgstr "**Depth_draw_opaque**"
 
@@ -96,9 +99,6 @@ msgstr "Вимкнути перевірку глибини."
 msgid "**sss_mode_skin**"
 msgstr "**sss_mode_skin**"
 
-msgid "Subsurface Scattering mode for skin."
-msgstr "Режим підповерхневого розсіювання для шкіри."
-
 msgid "**cull_back**"
 msgstr "**Cull_back**"
 
@@ -120,14 +120,8 @@ msgstr "Вибракування вимкнено (двостороннє)."
 msgid "**unshaded**"
 msgstr "**Unshaded**"
 
-msgid "Result is just albedo. No lighting/shading happens in material."
-msgstr "Результат - просто альбедо. У матеріалі немає освітлення/затінення."
-
 msgid "**wireframe**"
 msgstr "**Wireframe**"
-
-msgid "Geometry draws using lines."
-msgstr "Геометрія малює за допомогою ліній."
 
 msgid "**diffuse_burley**"
 msgstr "**Diffuse_burley**"
@@ -144,9 +138,6 @@ msgstr "Штрихування Ламберта для дифузного."
 msgid "**diffuse_lambert_wrap**"
 msgstr "**Diffuse_lambert_wrap**"
 
-msgid "Lambert wrapping (roughness dependent) for diffuse."
-msgstr "Обгортка Ламберта (залежно від шорсткості) для дифузного."
-
 msgid "**diffuse_toon**"
 msgstr "**Diffuse_toon**"
 
@@ -156,45 +147,23 @@ msgstr "Затінення мультфільмів для дифузного."
 msgid "**specular_schlick_ggx**"
 msgstr "**Specular_schlick_ggx**"
 
-msgid "Schlick-GGX for specular (default)."
-msgstr "Schlick-GGX для specular (за замовчуванням)."
-
 msgid "**specular_toon**"
 msgstr "**Specular_toon**"
-
-msgid "Toon for specular."
-msgstr "Мультфільм для дзеркал."
 
 msgid "**specular_disabled**"
 msgstr "**Specular_disabled**"
 
-msgid "Disable specular."
-msgstr "Вимкнути дзеркало."
-
 msgid "**skip_vertex_transform**"
 msgstr "**Skip_vertex_transform**"
-
-msgid "VERTEX/NORMAL/etc. need to be transformed manually in vertex function."
-msgstr "VERTEX/NORMAL/і т.д. потрібно вручну перетворити у вершинну функцію."
 
 msgid "**world_vertex_coords**"
 msgstr "**World_vertex_coords**"
 
-msgid "VERTEX/NORMAL/etc. are modified in world coordinates instead of local."
-msgstr ""
-"VERTEX/NORMAL/і т.д. змінюються у світових координатах замість локальних."
-
 msgid "**ensure_correct_normals**"
 msgstr "**Ensure_correct_normals**"
 
-msgid "Use when non-uniform scale is applied to mesh."
-msgstr "Використовуйте, коли до сітки застосовано нерівномірний масштаб."
-
 msgid "**shadows_disabled**"
 msgstr "**Shadows_disabled**"
-
-msgid "Disable computing shadows in shader."
-msgstr "Вимкнути обчислення тіней у шейдері."
 
 msgid "**ambient_light_disabled**"
 msgstr "**Ambient_light_disabled**"
@@ -216,9 +185,6 @@ msgstr ""
 
 msgid "**vertex_lighting**"
 msgstr "**Vertex_lighting**"
-
-msgid "Use vertex-based lighting."
-msgstr "Використовуйте освітлення на основі вершин."
 
 msgid "**particle_trails**"
 msgstr "**Particle_trails**"
@@ -242,27 +208,8 @@ msgstr "**Alpha_to_coverage_and_one**"
 msgid "**fog_disabled**"
 msgstr "**Fog_disabled**"
 
-msgid ""
-"Disable receiving depth-based or volumetric fog. Useful for blend_add "
-"materials like particles."
-msgstr ""
-"Вимкніть отримання глибинного або об'ємного туману. Корисно для blend_add "
-"матеріалів, таких як частинки."
-
 msgid "Built-ins"
 msgstr "Вбудовані"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"Значення, позначені як \"in\", доступні лише для читання. Значення, "
-"позначені як \"out\", призначені для необов'язкового запису та не "
-"обов'язково містять розумні значення. Значення, помічені як \"inout\", "
-"забезпечують розумне значення за замовчуванням і, за бажанням, можуть бути "
-"записані. Пробники не є предметом написання і не маркуються."
 
 msgid "Global built-ins"
 msgstr "Глобальні вбудовані функції"
@@ -281,11 +228,11 @@ msgid "in float **PI**"
 msgstr "у float **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
 "Константа ``PI`` (``3,141592``). Відношення довжини кола до його діаметра та "
-"кількості радіанів на півоберта."
+"кількості радіан на півоберта."
 
 msgid "in float **TAU**"
 msgstr "у float **TAU**"
@@ -307,24 +254,11 @@ msgstr ""
 "Константа ``E`` (``2,718281``). Число Ейлера та основа натурального "
 "логарифма."
 
+msgid "in bool **OUTPUT_IS_SRGB**"
+msgstr "In bool **OUTPUT_IS_SRGB**"
+
 msgid "Vertex built-ins"
 msgstr "Вбудовані вершини"
-
-msgid ""
-"Vertex data (``VERTEX``, ``NORMAL``, ``TANGENT``, ``BITANGENT``) are "
-"presented in local model space. If not written to, these values will not be "
-"modified and be passed through as they came."
-msgstr ""
-"Вершинні дані (``VERTEX``, ``NORMAL``, ``TANGENT``, ``BITANGENT``) "
-"представлені в локальному просторі моделі. Якщо не записувати, ці значення "
-"не будуть змінені та передадуться так, як вони надійшли."
-
-msgid ""
-"They can optionally be presented in world space by using the "
-"*world_vertex_coords* render mode."
-msgstr ""
-"Додатково їх можна представити у світовому просторі за допомогою режиму "
-"візуалізації *world_vertex_coords*."
 
 msgid ""
 "Users can disable the built-in modelview transform (projection will still "
@@ -333,13 +267,6 @@ msgstr ""
 "Користувачі можуть вимкнути вбудоване перетворення представлення моделі "
 "(проекція все одно відбудеться пізніше) і зробити це вручну за допомогою "
 "такого коду:"
-
-msgid ""
-"Other built-ins, such as UV, UV2 and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"Інші вбудовані функції, такі як UV, UV2 і COLOR, також передаються до "
-"функції фрагменту, якщо їх не змінено."
 
 msgid ""
 "Users can override the modelview and projection transforms using the "
@@ -357,18 +284,8 @@ msgstr ""
 "не відбувається. Однак значення, передане до фрагментного шейдера, все ще "
 "походить від ``VERTEX``."
 
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"Для створення екземплярів змінна INSTANCE_CUSTOM містить користувацькі дані "
-"екземпляра. При використанні частинок ця інформація зазвичай така:"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "**x**: Кут повороту в радіанах."
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "**y**: Фаза протягом життя (від 0 до 1)."
 
 msgid "**z**: Animation frame."
 msgstr "**z**: рамка анімації."
@@ -419,42 +336,32 @@ msgstr "Обрізайте простір, щоб переглянути тра�
 msgid "in vec3 **NODE_POSITION_WORLD**"
 msgstr "in vec3 **NODE_POSITION_WORLD**"
 
-msgid "Node world space position."
-msgstr "Позиція вузла у світовому просторі."
+msgid "Node position, in world space."
+msgstr "Положення вузла, у світовому просторі."
 
 msgid "in vec3 **NODE_POSITION_VIEW**"
 msgstr "in vec3 **NODE_POSITION_VIEW**"
 
-msgid "Node view space position."
-msgstr "Розташування простору перегляду вузла."
+msgid "Node position, in view space."
+msgstr "Положення вузла, у просторі огляду."
 
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera world space position."
-msgstr "Позиція камери у світовому просторі."
+msgid "Camera position, in world space."
+msgstr "Розташування камери у світовому просторі."
 
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
-msgid "Camera world space direction."
-msgstr "Світовий космічний напрям камери."
+msgid "Camera direction, in world space."
+msgstr "Напрямок камери, у світовому просторі."
 
 msgid "in uint **CAMERA_VISIBLE_LAYERS**"
 msgstr "In uint **CAMERA_VISIBLE_LAYERS**"
 
 msgid "Cull layers of the camera rendering the current pass."
 msgstr "Вилучити шари камери, що рендерить поточний прохід."
-
-msgid "in bool **OUTPUT_IS_SRGB**"
-msgstr "In bool **OUTPUT_IS_SRGB**"
-
-msgid ""
-"``true`` when output is in sRGB color space (this is ``true`` in the "
-"Compatibility renderer, ``false`` in Forward+ and Forward Mobile)."
-msgstr ""
-"``true``, коли виводиться в просторі кольорів sRGB (це ``true`` у рендерері "
-"сумісності, ``false`` у Forward+ і Forward Mobile)."
 
 msgid "in int **INSTANCE_ID**"
 msgstr "In int **INSTANCE_ID**"
@@ -503,9 +410,6 @@ msgstr ""
 msgid "inout vec3 **VERTEX**"
 msgstr "Inout vec3 **VERTEX**"
 
-msgid "Vertex in local coordinates."
-msgstr "Вершина в локальних координатах."
-
 msgid "in int **VERTEX_ID**"
 msgstr "In int **VERTEX_ID**"
 
@@ -515,26 +419,14 @@ msgstr "Індекс поточної вершини в буфері верши�
 msgid "inout vec3 **NORMAL**"
 msgstr "Inout vec3 **NORMAL**"
 
-msgid "Normal in local coordinates."
-msgstr "Нормальна в місцевих координатах."
-
 msgid "inout vec3 **TANGENT**"
 msgstr "Inout vec3 **TANGENT**"
-
-msgid "Tangent in local coordinates."
-msgstr "Дотична в місцевих координатах."
 
 msgid "inout vec3 **BINORMAL**"
 msgstr "Inout vec3 **BINORMAL**"
 
-msgid "Binormal in local coordinates."
-msgstr "Бінормаль у локальних координатах."
-
 msgid "out vec4 **POSITION**"
 msgstr "Out vec4 **POSITION**"
-
-msgid "If written to, overrides final vertex position."
-msgstr "Якщо записується, перевизначає кінцеву позицію вершини."
 
 msgid "inout vec2 **UV**"
 msgstr "Inout vec2 **UV**"
@@ -569,19 +461,11 @@ msgstr "Розмір точки для відтворення точки."
 msgid "inout mat4 **MODELVIEW_MATRIX**"
 msgstr "Inout mat4 **MODELVIEW_MATRIX**"
 
-msgid "Model space to view space transform (use if possible)."
-msgstr ""
-"Змодельуйте простір для перегляду трансформації простору (використовуйте, "
-"якщо можливо)."
-
 msgid "inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 msgstr "Inout mat3 **MODELVIEW_NORMAL_MATRIX**"
 
 msgid "in mat4 **MODEL_MATRIX**"
 msgstr "In mat4 **MODEL_MATRIX**"
-
-msgid "Model space to world space transform."
-msgstr "Перетворення простору моделі в простір світу."
 
 msgid "in mat3 **MODEL_NORMAL_MATRIX**"
 msgstr "In mat3 **MODEL_NORMAL_MATRIX**"
@@ -625,17 +509,6 @@ msgstr ""
 "зіткнутися з проблемами з плаваючою комою під час використання розділених "
 "``MODEL_MATRIX`` і ``VIEW_MATRIX``."
 
-msgid ""
-"``INV_VIEW_MATRIX`` is the matrix used for rendering the object in that "
-"pass, not like ``MAIN_CAM_INV_VIEW_MATRIX``, which is the matrix of the "
-"camera in the scene. In the shadow pass, ``INV_VIEW_MATRIX``'s view is based "
-"on the camera that is located at the position of the light."
-msgstr ""
-"``INV_VIEW_MATRIX`` — це матриця, яка використовується для відтворення "
-"об’єкта в цьому проході, а не ``MAIN_CAM_INV_VIEW_MATRIX``, яка є матрицею "
-"камери в сцені. У тіньовому проході вид ``INV_VIEW_MATRIX`` базується на "
-"камері, розташованій у місці світла."
-
 msgid "Fragment built-ins"
 msgstr "Фрагмент вбудованих"
 
@@ -658,9 +531,6 @@ msgstr "In vec4 **FRAGCOORD**"
 msgid "in bool **FRONT_FACING**"
 msgstr "In bool **FRONT_FACING**"
 
-msgid "``true`` if current face is front facing."
-msgstr "``true``, якщо поточне обличчя спрямоване спереду."
-
 msgid "in vec3 **VIEW**"
 msgstr "In vec3 **VIEW**"
 
@@ -674,49 +544,20 @@ msgstr ""
 msgid "in vec2 **UV**"
 msgstr "In vec2 **UV**"
 
-msgid "UV that comes from vertex function."
-msgstr "UV, що походить від вершинної функції."
-
 msgid "in vec2 **UV2**"
 msgstr "In vec2 **UV2**"
-
-msgid "UV2 that comes from vertex function."
-msgstr "UV2, що походить від вершинної функції."
 
 msgid "in vec4 **COLOR**"
 msgstr "In vec4 **COLOR**"
 
-msgid "COLOR that comes from vertex function."
-msgstr "COLOR, який походить від вершинної функції."
-
 msgid "in vec2 **POINT_COORD**"
 msgstr "In vec2 **POINT_COORD**"
-
-msgid "Point Coordinate for drawing points with POINT_SIZE."
-msgstr "Координати точки для малювання точок з POINT_SIZE."
 
 msgid "in mat4 **PROJECTION_MATRIX**"
 msgstr "In mat4 **PROJECTION_MATRIX**"
 
-msgid "Node position, in world space."
-msgstr "Положення вузла, у світовому просторі."
-
-msgid "Node position, in view space."
-msgstr "Положення вузла, у просторі огляду."
-
-msgid "Camera position, in world space."
-msgstr "Розташування камери у світовому просторі."
-
-msgid "Camera direction, in world space."
-msgstr "Напрямок камери, у світовому просторі."
-
 msgid "in vec3 **VERTEX**"
 msgstr "In vec3 **VERTEX**"
-
-msgid "Vertex that comes from vertex function (default, in view space)."
-msgstr ""
-"Вершина, яка надходить із функції вершини (за замовчуванням, у просторі "
-"перегляду)."
 
 msgid "inout vec3 **LIGHT_VERTEX**"
 msgstr "Inout vec3 **LIGHT_VERTEX**"
@@ -755,54 +596,17 @@ msgstr ""
 msgid "out float **DEPTH**"
 msgstr "Out float **DEPTH**"
 
-msgid ""
-"Custom depth value (0..1). If ``DEPTH`` is being written to in any shader "
-"branch, then you are responsible for setting the ``DEPTH`` for **all** other "
-"branches. Otherwise, the graphics API will leave them uninitialized."
-msgstr ""
-"Спеціальне значення глибини (0..1). Якщо ``DEPTH`` записується в будь-яку "
-"гілку шейдера, тоді ви несете відповідальність за встановлення ``DEPTH`` для "
-"**всіх** інших гілок. Інакше графічний API залишить їх неініціалізованими."
-
-msgid "Normal that comes from vertex function (default, in view space)."
-msgstr ""
-"Нормальний, який походить від вершинної функції (за замовчуванням, у "
-"просторі перегляду)."
-
-msgid "Tangent that comes from vertex function."
-msgstr "Тангенс, який походить від функції вершини."
-
-msgid "Binormal that comes from vertex function."
-msgstr "Бінормаль, що походить від функції вершини."
-
 msgid "out vec3 **NORMAL_MAP**"
 msgstr "Out vec3 **NORMAL_MAP**"
-
-msgid "Set normal here if reading normal from a texture instead of NORMAL."
-msgstr ""
-"Встановіть нормальний тут, якщо читання звичайного з текстури замість NORMAL."
 
 msgid "out float **NORMAL_MAP_DEPTH**"
 msgstr "Out float **NORMAL_MAP_DEPTH**"
 
-msgid "Depth from variable above. Defaults to 1.0."
-msgstr "Глибина зі змінної вище. За замовчуванням 1.0."
-
 msgid "out vec3 **ALBEDO**"
 msgstr "Out vec3 **ALBEDO**"
 
-msgid "Albedo (default white)."
-msgstr "Альбедо (за замовчуванням білий)."
-
 msgid "out float **ALPHA**"
 msgstr "Out float **ALPHA**"
-
-msgid ""
-"Alpha (0..1); if read from or written to, the material will go to the "
-"transparent pipeline."
-msgstr ""
-"Альфа (0..1); якщо зчитувати або записувати, матеріал надходитиме до "
-"прозорого конвеєра."
 
 msgid "out float **ALPHA_SCISSOR_THRESHOLD**"
 msgstr "Out float **ALPHA_SCISSOR_THRESHOLD**"
@@ -822,51 +626,20 @@ msgstr "Out vec2 **ALPHA_TEXTURE_COORDINATE**"
 msgid "out float **METALLIC**"
 msgstr "Out float **METALLIC**"
 
-msgid "Metallic (0..1)."
-msgstr "Металік (0..1)."
-
 msgid "out float **SPECULAR**"
 msgstr "Out float **SPECULAR**"
-
-msgid ""
-"Specular. Defaults to 0.5, best not to modify unless you want to change IOR."
-msgstr ""
-"дзеркальний. За замовчуванням 0,5, краще не змінювати, якщо ви не хочете "
-"змінити IOR."
-
-msgid "Roughness (0..1)."
-msgstr "Шорсткість (0..1)."
 
 msgid "out float **RIM**"
 msgstr "Out float **RIM**"
 
-msgid "Rim (0..1). If used, Godot calculates rim lighting."
-msgstr "Ободок (0..1). Якщо використовується, Godot обчислює освітлення обода."
-
 msgid "out float **RIM_TINT**"
 msgstr "Out float **RIM_TINT**"
-
-msgid ""
-"Rim Tint, goes from 0 (white) to 1 (albedo). If used, Godot calculates rim "
-"lighting."
-msgstr ""
-"Відтінок обода: від 0 (білий) до 1 (альбедо). Якщо використовується, Godot "
-"обчислює освітлення обода."
 
 msgid "out float **CLEARCOAT**"
 msgstr "Out float **CLEARCOAT**"
 
-msgid "Small added specular blob. If used, Godot calculates Clearcoat."
-msgstr ""
-"Маленька додана дзеркальна пляма. Якщо використовується, Godot обчислює "
-"Clearcoat."
-
 msgid "out float **CLEARCOAT_GLOSS**"
 msgstr "Out float **CLEARCOAT_GLOSS**"
-
-msgid "Gloss of Clearcoat. If used, Godot calculates Clearcoat."
-msgstr ""
-"Глянець прозорого лаку. Якщо використовується, Godot обчислює Clearcoat."
 
 msgid "out float **ANISOTROPY**"
 msgstr "Out float **ANISOTROPY**"
@@ -883,13 +656,6 @@ msgstr "Напрям спотворення, використовуйте з к�
 msgid "out float **SSS_STRENGTH**"
 msgstr "Out float **SSS_STRENGTH**"
 
-msgid ""
-"Strength of Subsurface Scattering. If used, Subsurface Scattering will be "
-"applied to object."
-msgstr ""
-"Сила підповерхневого розсіювання. Якщо використовується, до об’єкта буде "
-"застосовано підповерхневе розсіювання."
-
 msgid "out vec4 **SSS_TRANSMITTANCE_COLOR**"
 msgstr "Out vec4 **SSS_TRANSMITTANCE_COLOR**"
 
@@ -905,47 +671,20 @@ msgstr "Inout vec3 **BACKLIGHT**"
 msgid "out float **AO**"
 msgstr "Out float **AO**"
 
-msgid "Strength of Ambient Occlusion. For use with pre-baked AO."
-msgstr "Сила навколишньої оклюзії. Для використання з попередньо випеченим АО."
-
 msgid "out float **AO_LIGHT_AFFECT**"
 msgstr "Out float **AO_LIGHT_AFFECT**"
-
-msgid "How much AO affects lights (0..1; default 0)."
-msgstr "Скільки AO впливає на світло (0..1; за замовчуванням 0)."
 
 msgid "out vec3 **EMISSION**"
 msgstr "Out vec3 **EMISSION**"
 
-msgid "Emission color (can go over 1,1,1 for HDR)."
-msgstr "Колір випромінювання (може перевищувати 1,1,1 для HDR)."
-
 msgid "out vec4 **FOG**"
 msgstr "Out vec4 **FOG**"
-
-msgid "If written to, blends final pixel color with FOG.rgb based on FOG.a."
-msgstr ""
-"У разі запису остаточний колір пікселя змішується з FOG.rgb на основі FOG.a."
 
 msgid "out vec4 **RADIANCE**"
 msgstr "Out vec4 **RADIANCE**"
 
-msgid ""
-"If written to, blends environment map radiance with RADIANCE.rgb based on "
-"RADIANCE.a."
-msgstr ""
-"Якщо написати, поєднує випромінювання карти середовища з RADIANCE.rgb на "
-"основі RADIANCE.a."
-
 msgid "out vec4 **IRRADIANCE**"
 msgstr "Out vec4 **IRRADIANCE**"
-
-msgid ""
-"If written to, blends environment map IRRADIANCE with IRRADIANCE.rgb based "
-"on IRRADIANCE.a."
-msgstr ""
-"У разі запису поєднує карту середовища IRRADIANCE з IRRADIANCE.rgb на основі "
-"IRRADIANCE.a."
 
 msgid ""
 "Shaders going through the transparent pipeline when ``ALPHA`` is written to "
@@ -964,49 +703,11 @@ msgid "Light built-ins"
 msgstr "Легкі вбудовані"
 
 msgid ""
-"Writing light processor functions is completely optional. You can skip the "
-"light function by setting render_mode to ``unshaded``. If no light function "
-"is written, Godot will use the material properties written to in the "
-"fragment function to calculate the lighting for you (subject to the "
-"render_mode)."
-msgstr ""
-"Написання функцій легкого процесора абсолютно необов'язкове. Ви можете "
-"пропустити функцію освітлення, встановивши для render_mode значення "
-"``unshaded``. Якщо функція освітлення не написана, Godot використовуватиме "
-"властивості матеріалу, записані у функції фрагмента, щоб обчислити "
-"освітлення для вас (залежно від render_mode)."
-
-msgid ""
-"The light function is called for every light in every pixel. It is called "
-"within a loop for each light type."
-msgstr ""
-"Функція світла викликається для кожного світла в кожному пікселі. Він "
-"викликається в циклі для кожного типу світла."
-
-msgid ""
-"Below is an example of a custom light function using a Lambertian lighting "
-"model:"
-msgstr ""
-"Нижче наведено приклад спеціальної функції освітлення з використанням моделі "
-"освітлення Ламберта:"
-
-msgid ""
 "If you want the lights to add together, add the light contribution to "
 "``DIFFUSE_LIGHT`` using ``+=``, rather than overwriting it."
 msgstr ""
 "Якщо ви хочете, щоб світло складалося разом, додайте внесок світла в "
 "``DIFFUSE_LIGHT`` за допомогою ``+=``, а не перезаписуйте його."
-
-msgid ""
-"The ``light()`` function won't be run if the ``vertex_lighting`` render mode "
-"is enabled, or if **Rendering > Quality > Shading > Force Vertex Shading** "
-"is enabled in the Project Settings. (It's enabled by default on mobile "
-"platforms.)"
-msgstr ""
-"Функція ``light()`` не буде запущена, якщо ввімкнено режим візуалізації "
-"``vertex_lighting`` або якщо в налаштуваннях проекту ввімкнено **Відтворення "
-"> Якість > Затінення > Примусове затінення вершини**. (Це ввімкнено за "
-"замовчуванням на мобільних платформах.)"
 
 msgid ""
 "Coordinate of pixel center in screen space. ``xy`` specifies position in "
@@ -1029,35 +730,14 @@ msgstr "Переглянути вектор, у просторі перегля�
 msgid "in vec3 **LIGHT**"
 msgstr "In vec3 **LIGHT**"
 
-msgid "Light Vector, in view space."
-msgstr "Світло вектор, у просторі перегляду."
-
 msgid "in vec3 **LIGHT_COLOR**"
 msgstr "In vec3 **LIGHT_COLOR**"
-
-msgid ""
-"Color of light multiplied by ``energy * PI``. The ``PI`` multiplication is "
-"present because physically-based lighting models include a division by "
-"``PI``."
-msgstr ""
-"Колір світла, помножений на ``energy * PI``. Множення ``PI`` присутнє, "
-"оскільки фізичні моделі освітлення включають ділення на ``PI``."
 
 msgid "in float **SPECULAR_AMOUNT**"
 msgstr "In float **SPECULAR_AMOUNT**"
 
-msgid ""
-"2.0 * ``light_specular`` property for ``OmniLight3D`` and ``SpotLight3D``. "
-"1.0 for ``DirectionalLight3D``."
-msgstr ""
-"2.0 * Властивість ``light_specular`` для ``OmniLight3D`` і ``SpotLight3D``. "
-"1.0 для ``DirectionalLight3D``."
-
 msgid "in bool **LIGHT_IS_DIRECTIONAL**"
 msgstr "In bool **LIGHT_IS_DIRECTIONAL**"
-
-msgid "``true`` if this pass is a ``DirectionalLight3D``."
-msgstr "``true``, якщо цей пропуск є ``DirectionalLight3D``."
 
 msgid "in float **ATTENUATION**"
 msgstr "In float **ATTENUATION**"
@@ -1097,11 +777,6 @@ msgstr "Out vec3 **SPECULAR_LIGHT**"
 
 msgid "Specular light result."
 msgstr "Результат дзеркального світла."
-
-msgid ""
-"Alpha (0..1); if written to, the material will go to the transparent "
-"pipeline."
-msgstr "Альфа (0..1); якщо написати, матеріал потрапить у прозорий конвеєр."
 
 msgid ""
 "Transparent materials also cannot cast shadows or appear in "

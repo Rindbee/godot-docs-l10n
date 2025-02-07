@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -249,78 +249,6 @@ msgstr ""
 
 msgid "This is everything that will be disabled:"
 msgstr "இது முடக்கப்படும் அனைத்தும்:"
-
-msgid "FileDialog"
-msgstr "தாக்கல்"
-
-msgid "PopupMenu"
-msgstr "பாப்அப்மென்"
-
-msgid "Tree"
-msgstr "மரம்"
-
-msgid "TextEdit"
-msgstr "குறுஞ்செய்தி"
-
-msgid "CodeEdit"
-msgstr "குறியீட்டு"
-
-msgid "SyntaxHighlighter"
-msgstr "தொடரியல்"
-
-msgid "CodeHighlighter"
-msgstr "கோல்ட்ஐலைட்டர்"
-
-msgid "TreeItem"
-msgstr "மரம்"
-
-msgid "OptionButton"
-msgstr "விருப்பம்"
-
-msgid "SpinBox"
-msgstr "ச்பின்ன்பாக்ச்"
-
-msgid "ColorPicker"
-msgstr "கலர் பிக்கர்"
-
-msgid "ColorPickerButton"
-msgstr "ColorPickerButton"
-
-msgid "RichTextlabel"
-msgstr "ரிச்ச்டெக்ச்ட்லேபிள்"
-
-msgid "RichTextEffect"
-msgstr "இலக்கு விளைவு"
-
-msgid "CharFXTransform"
-msgstr "Charfxtransform"
-
-msgid "AcceptDialog"
-msgstr "ஏற்றுக்கொள்ளும் உரையாடல்"
-
-msgid "ConfirmationDialog"
-msgstr "உறுதிப்படுத்தல் டிஆலாக்"
-
-msgid "MarginContainer"
-msgstr "விளிம்பு"
-
-msgid "SubViewportContainer"
-msgstr "Subviewportcontainer"
-
-msgid "SplitContainer"
-msgstr "SplitContainer"
-
-msgid "HSplitContainer"
-msgstr "Hsplitcontainer"
-
-msgid "VSplitContainer"
-msgstr "SplitContainer"
-
-msgid "GraphNode"
-msgstr "வரைபடம்"
-
-msgid "GraphEdit"
-msgstr "எழுதுதல்"
 
 msgid "Disabling unwanted modules"
 msgstr "தேவையற்ற தொகுதிகள் முடக்குதல்"

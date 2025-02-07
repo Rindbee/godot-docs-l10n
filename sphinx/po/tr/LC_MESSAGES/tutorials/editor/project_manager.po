@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -93,3 +93,6 @@ msgstr ""
 "Bir etiketi proje yöneticinizden kaldırmak için kullanıldığı tüm projelerden "
 "kaldırılması gerekir. Bu yapıldıktan sonra proje yöneticisini kapatın, "
 "tekrar açın ve etiket gitmiş olmalıdır."
+
+msgid "Editor plugins"
+msgstr "Düzenleyici eklentileri"

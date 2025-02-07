@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -186,14 +186,6 @@ msgid ""
 msgstr ""
 "然而，開啟屬性面板下拉列表可能會導致要建立的可能類別的列表非常長。因此，如果"
 "您指定從 Resource 衍生的型別，例如："
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes. Custom resource classes can also be used, see :ref:"
-"`doc_c_sharp_global_classes`."
-msgstr ""
-"下拉式選單將僅限於 AnimationNode 及其所有繼承類別。也可以使用自訂資源類，請參"
-"閱 doc_c_sharp_global_classes。"
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

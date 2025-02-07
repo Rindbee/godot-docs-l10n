@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,18 +33,6 @@ msgstr ""
 "Godot. Ligeann an teicníc seo d'úsáideoirí na cruthanna is coitianta a "
 "chruthú trí phrimitives a chomhcheangal. Is féidir timpeallachtaí taobh "
 "istigh a chruthú trí úsáid a bhaint as primitives inverted."
-
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"Tá na nóid CSG i Godot beartaithe go príomha le haghaidh fréamhshamhlú. Níl "
-"aon tacaíocht ionsuite le haghaidh mapáil UV nó eagarthóireacht polagóin 3D "
-"(cé gur féidir polagóin 2D easbhrúite a úsáid leis an nód CSGPolygon3D). Ina "
-"theannta sin ní féidir le CSG mogalra a chruthú go hiontaofa atá comhdhéanta "
-"de iliomad nóid gan poill."
 
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
@@ -159,28 +147,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "Mogalra saincheaptha"
-
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"Is féidir aon mhogall a úsáid le haghaidh :ref:`CSGMesh3D "
-"<class_CSGMesh3D>`; is féidir an mogalra a mhúnlú i mbogearraí eile agus a "
-"allmhairiú isteach i Godot. Tacaítear le hábhair iolracha. Tá roinnt srianta "
-"ann maidir le céimseata:"
-
-msgid "it must be closed,"
-msgstr "caithfear é a dhúnadh,"
-
-msgid "it must not self-intersect,"
-msgstr "níor chóir go mbeadh sé féin-thrasnaíoch,"
-
-msgid "it must not contain internal faces,"
-msgstr "ní chóir go mbeadh aghaidheanna inmheánacha ann,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "ní mór gach imeall nascadh le dhá aghaidh eile amháin."
 
 msgid "CSGCombiner3D"
 msgstr "CSGCombiner3D"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -37,9 +37,6 @@ msgid ""
 msgstr ""
 "De chaque côté de la fenêtre se trouvent les **docks**. Et en bas de la "
 "fenêtre se trouve le **panneau inférieur**."
-
-msgid "The four main screens"
-msgstr "Les quatre écrans principaux"
 
 msgid ""
 "You'll use the **2D screen** for all types of games. In addition to 2D "

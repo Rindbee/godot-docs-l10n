@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,16 +48,6 @@ msgstr ""
 
 msgid "Language specification"
 msgstr "语言规范"
-
-msgid ""
-"Godot currently uses **C# version 10.0** in its engine and example source "
-"code, as this is the version supported by .NET 6.0 (the current baseline "
-"requirement). So, before we move to a newer version, care must be taken to "
-"avoid mixing language features only available in C# 11.0 or later."
-msgstr ""
-"Godot 目前在其引擎和示例源代码中使用 **C# 10.0 版本**\\ ，因为这是 .NET 6.0"
-"（当前基线要求）支持的版本。因此，在迁移到较新版本之前，必须注意避免混合仅在 "
-"C# 11.0 或更高版本中可用的语言功能。"
 
 msgid ""
 "For detailed information on C# features in different versions, please see "

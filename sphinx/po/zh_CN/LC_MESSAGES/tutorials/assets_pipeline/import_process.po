@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -94,14 +94,6 @@ msgstr ""
 "参数调整完毕后，请单击\\ **重新导入**\\ 。小心：如果在单击\\ **重新导入**\\ "
 "之前在“文件系统”面板中选中其他文件，那么你做出的更改就会被丢弃。单击\\ **重新"
 "导入**\\ 之后，选中的参数只会对该资产生效，后续重新导入时也会生效。"
-
-msgid ""
-"Changing the import parameters of several assets at the same time is also "
-"possible. Simply select all of them together in the resources dock and the "
-"exposed parameters will apply to all of them when reimporting."
-msgstr ""
-"同时更改多个资产的导入参数也是可能的. 只需在资源停靠面板中一起选择所有这些资"
-"产, 当重新导入时, 所暴露的参数将应用于它们."
 
 msgid "Reimporting multiple assets"
 msgstr "重新导入多个资产"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,14 +30,6 @@ msgstr ""
 "它可以在 :ref:`WorldEnvironment <class_WorldEnvironment>` 节点上进行配置，并"
 "应用于所有视口；也可以在 :ref:`Camera3D <class_Camera3D>` 上进行配置，并仅应"
 "用于使用该相机的视口。"
-
-msgid ""
-"The :ref:`Compositor <class_Compositor>` resource is used to configure the "
-"compositor. To get started, simply create a new compositor on the "
-"appropriate node:"
-msgstr ""
-":ref:`Compositor <class_Compositor>` 资源被用于配置合成器。要开始配置，只需在"
-"适当的节点上创建一个新的合成器："
 
 msgid ""
 "The compositor is currently a feature that is only supported by the Mobile "

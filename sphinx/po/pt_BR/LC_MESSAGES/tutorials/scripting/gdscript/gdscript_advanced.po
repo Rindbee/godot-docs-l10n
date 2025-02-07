@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -52,10 +52,6 @@ msgstr ""
 "A maioria do código pode ser escrito e modificado rapidamente sem "
 "complicações."
 
-msgid "Less code written means less errors & mistakes to fix."
-msgstr ""
-"Menos código escrito significa menos erros e enganos a serem corrigidos."
-
 msgid "No compilation is required to test."
 msgstr "Nenhuma compilação é necessária para testar."
 
@@ -76,13 +72,6 @@ msgstr ""
 "Alguns erros que, tipicamente, seriam detectados em tempo de compilação em "
 "linguagens tipadas estaticamente aparecem apenas rodando o código (porque a "
 "análise de expressões é mais estrita)."
-
-msgid ""
-"Less flexibility for code-completion (some variable types are only known at "
-"run-time)."
-msgstr ""
-"Menos flexibilidade para preenchimento de código (alguns tipos de variáveis "
-"só são reconhecidos na execução)."
 
 msgid "Variables & assignment"
 msgstr "Variáveis & atribuição"
@@ -175,19 +164,6 @@ msgstr "Ou conjuntos não ordenados:"
 
 msgid "Dictionaries"
 msgstr "Dictionaries"
-
-msgid ""
-"Dictionaries are a powerful tool in dynamically typed languages. Most "
-"programmers that come from statically typed languages (such as C++ or C#) "
-"ignore their existence and make their life unnecessarily more difficult. "
-"This datatype is generally not present in such languages (or only in limited "
-"form)."
-msgstr ""
-"Os dicionários são uma ferramenta poderosa em linguagens dinamicamente "
-"tipadas. A maioria dos programadores que vêm de linguagens estaticamente "
-"tipadas (como C++ ou C#) ignoram sua existência e tornam sua vida "
-"desnecessariamente mais difícil. Esse tipo de dados geralmente não está "
-"presente nessas linguagens (ou apenas em formato limitado)."
 
 msgid ""
 "Dictionaries can map any value to any other value with complete disregard "
@@ -358,9 +334,3 @@ msgstr ""
 
 msgid "Yes, we should call it Hulk typing instead."
 msgstr "Sim, nós deveríamos chamar isso de tipo Hulk ao invés disso."
-
-msgid ""
-"Then, simply define that method and anything the rock touches can be smashed."
-msgstr ""
-"Então, simplesmente defina esse método e qualquer coisa que a rocha tocar "
-"pode ser destruída."

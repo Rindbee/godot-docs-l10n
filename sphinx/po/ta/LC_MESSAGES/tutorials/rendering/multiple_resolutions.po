@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -424,13 +424,6 @@ msgstr ""
 "அடிப்படைத் தீர்மானமாக வடிவமைக்க விரும்பினால், ஆனால் உருவப்படம் மற்றும் இயற்கை பயன்முறை "
 "இரண்டையும் ஆதரிக்க விரும்பினால், திட்ட அமைப்புகளில் திட்டத்தின் அடிப்படை சாளர அளவாக 720 "
 "× 720 ஐப் பயன்படுத்தவும்."
-
-msgid ""
-"To allow the user to choose their preferred screen orientation at run-time, "
-"remember to set **Display > Window > Handheld > Orientation** to ``sensor``."
-msgstr ""
-"ரன்-நேரத்தில் பயனருக்கு விருப்பமான திரை நோக்குநிலையைத் தேர்வுசெய்ய, ** காட்சி> சாளரம்> "
-"கையடக்க> நோக்குநிலை ** ஐ `` சென்சார்`` க்கு அமைக்க நினைவில் கொள்ளுங்கள்."
 
 msgid ""
 "To configure the stretch aspect at runtime from a script, use the "

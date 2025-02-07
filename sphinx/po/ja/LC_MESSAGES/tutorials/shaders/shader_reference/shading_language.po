@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -401,16 +401,6 @@ msgstr ""
 msgid "Global arrays"
 msgstr "グローバル配列"
 
-msgid "You can declare arrays at global space like:"
-msgstr "次のようにグローバルスコープで配列を宣言できます:"
-
-msgid ""
-"Global arrays have to be declared as global constants, otherwise they can be "
-"declared the same as local arrays."
-msgstr ""
-"グローバル配列はグローバル定数として宣言する必要があります。それ以外の場合は"
-"ローカル配列と同じように宣言できます。"
-
 msgid "Constants"
 msgstr "定数"
 
@@ -673,13 +663,6 @@ msgid "Discarding"
 msgstr "ピクセルの破棄"
 
 msgid ""
-"Fragment and light functions can use the ``discard`` keyword. If used, the "
-"fragment is discarded and nothing is written."
-msgstr ""
-"fragment関数とlight関数では、 ``discard`` キーワードを使用できます。discardが"
-"実行されたフラグメントは破棄され、何も書き込まれません。"
-
-msgid ""
 "Beware that ``discard`` has a performance cost when used, as it will prevent "
 "the depth prepass from being effective on any surfaces using the shader. "
 "Also, a discarded pixel still needs to be rendered in the vertex shader, "
@@ -733,18 +716,6 @@ msgstr ""
 
 msgid "Example below:"
 msgstr "以下はその例です:"
-
-msgid ""
-"Unlike GLSL, Godot's shader language does **not** support function "
-"overloading. This means that a function cannot be defined several times with "
-"different argument types or numbers of arguments. As a workaround, use "
-"different names for functions that accept a different number of arguments or "
-"arguments of different types."
-msgstr ""
-"GLSL とは異なり、Godot のシェーダ言語は関数のオーバーロードを**サポートしませ"
-"ん**。これは、異なる引数の型や引数の数を受け入れる関数を複数回定義することは"
-"できないことを意味します。回避策として、異なる数の引数または異なる型の引数を"
-"受け入れる関数には別々の名前を指定します。"
 
 msgid "Varyings"
 msgstr "Varying(可変)"
@@ -818,69 +789,15 @@ msgstr ""
 msgid "Uniforms"
 msgstr "Uniform(ユニフォーム)"
 
-msgid ""
-"Passing values to shaders is possible. These are global to the whole shader "
-"and are called *uniforms*. When a shader is later assigned to a material, "
-"the uniforms will appear as editable parameters in it. Uniforms can't be "
-"written from within the shader."
-msgstr ""
-"シェーダーに値を渡すことは可能です。これらはシェーダー全体に対してグローバル"
-"であり、\\ *uniform* と呼ばれます。シェーダーが後でマテリアルに割り当てられる"
-"と、uniformはその中の編集可能なパラメーターとして表示されます。シェーダー内か"
-"らuniformを書くことはできません。"
+msgid "Uniforms can also be assigned default values:"
+msgstr "Uniformにはデフォルト値を割り当てることもできます:"
 
 msgid ""
-"You can set uniforms in the editor in the material. Or you can set them "
-"through GDScript:"
+"Note that when adding a default value and a hint, the default value goes "
+"after the hint."
 msgstr ""
-"マテリアルのエディタでuniformを設定できます。または、GDScriptを使用して設定で"
-"きます:"
-
-msgid ""
-"The first argument to ``set_shader_parameter`` is the name of the uniform in "
-"the shader. It must match *exactly* to the name of the uniform in the shader "
-"or else it will not be recognized."
-msgstr ""
-"``set_shader_parameter`` の最初の引数はシェーダーのuniformの名前です。シェー"
-"ダーのuniformの名前と\\ *完全に*\\ 一致する必要があります。一致しない場合、認"
-"識されません。"
-
-msgid ""
-"Any GLSL type except for *void* can be a uniform. Additionally, Godot "
-"provides optional shader hints to make the compiler understand for what the "
-"uniform is used, and how the editor should allow users to modify it."
-msgstr ""
-"*void* を除くすべてのGLSLタイプはuniformにすることができます。さらに、Godot "
-"はuniformが何に使用されているか、およびエディターがユーザーにuniformをどのよ"
-"うに変更できるようにするかをコンパイラーに理解させるためのオプションとして"
-"シェーダーヒントを提供します。"
-
-msgid ""
-"It's important to understand that textures *that are supplied as color* "
-"require hints for proper sRGB -> linear conversion (i.e. ``source_color``), "
-"as Godot's 3D engine renders in linear color space. If this is not done, the "
-"texture will appear washed out."
-msgstr ""
-"Godot の 3D エンジンはリニア色空間でレンダリングするため、*カラーとして提供さ"
-"れる* テクスチャには、適切な sRGB -> リニア変換 (すなわち、``source_color``) "
-"のためのヒントが必要であることを理解することが重要です。これを行わないとテク"
-"スチャが色あせたように見えます。"
-
-msgid ""
-"The 2D renderer also renders in linear color space if the **Rendering > "
-"Viewport > HDR 2D** project setting is enabled, so ``source_color`` must "
-"also be used in ``canvas_item`` shaders. If 2D HDR is disabled, "
-"``source_color`` will keep working correctly in ``canvas_item`` shaders, so "
-"it's recommend to use it either way."
-msgstr ""
-"**[レンダリング] > [ビューポート] > [HDR 2D]** プロジェクト設定が有効になって"
-"いる場合、2Dレンダラーはリニア 色空間でもレンダリングするため、 "
-"``source_color`` も ``canvas_item`` シェーダで使用する必要があります。 2D "
-"HDR が無効になっている場合でも、 ``source_color`` は ``canvas_item`` シェーダ"
-"で正しく動作し続けるため、どちらの方法でも使用することをお勧めします。"
-
-msgid "Full list of hints below:"
-msgstr "以下はヒントの一覧です:"
+"デフォルト値とヒントを追加する場合、デフォルト値がヒントの後に来ることに注意"
+"してください。"
 
 msgid "Hint"
 msgstr "ヒント"
@@ -978,6 +895,190 @@ msgstr "\\ hint_normal_roughness_texture"
 msgid "Texture is the normal roughness texture (only supported in Forward+)."
 msgstr "法線とラフネスのテクスチャです (Forward+ でのみサポートされています)。"
 
+msgid "You can close the group by using:"
+msgstr "そしてこちらを使用してグループを閉じることができます:"
+
+msgid ""
+"The syntax also supports subgroups (it's not mandatory to declare the base "
+"group before this):"
+msgstr ""
+"この構文はサブグループもサポートしています (これより前にベースのグループを宣"
+"言することは必須ではありません):"
+
+msgid "Global uniforms"
+msgstr "グローバルUniform"
+
+msgid ""
+"Sometimes, you want to modify a parameter in many different shaders at once. "
+"With a regular uniform, this takes a lot of work as all these shaders need "
+"to be tracked and the uniform needs to be set for each of them. Global "
+"uniforms allow you to create and update uniforms that will be available in "
+"all shaders, in every shader type (``canvas_item``, ``spatial``, "
+"``particles``, ``sky`` and ``fog``)."
+msgstr ""
+"場合によっては多くの異なるシェーダのパラメータを一度に変更したいことがありま"
+"す。通常のUniformの場合はすべてのシェーダーを探し、それぞれにUniformを設定す"
+"る必要があるため、多くの作業が必要になります。グローバルUniformを使用するとす"
+"べてのシェーダーやすべてのシェーダータイプ ( ``canvas_item`` 、 "
+"``spatial`` 、 ``particles`` 、 ``sky`` 、 ``fog`` ) で使用できるUniformを作"
+"成および更新できます。"
+
+msgid ""
+"Global uniforms are especially useful for environmental effects that affect "
+"many objects in a scene, like having foliage bend when the player is nearby, "
+"or having objects move with the wind."
+msgstr ""
+"グローバルUniformは、プレイヤーが近くにいるときに葉が曲がったり、オブジェクト"
+"が風で動いたりするなど、シーン内の多くのオブジェクトに影響を与えるような効果"
+"で特に役立ちます。"
+
+msgid ""
+"To create a global uniform, open the **Project Settings** then go to the "
+"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
+"a type, then click **Add** in the top-right corner of the dialog. You can "
+"then edit the value assigned to the uniform by clicking the value in the "
+"list of uniforms:"
+msgstr ""
+"グローバルUniformを作成するには、 **プロジェクト設定** を開き、 **シェーダー"
+"グローバル** タブに移動します。uniformの名前 (大文字と小文字を区別に注意) と"
+"型を指定し、ダイアログの右上隅にある **追加** ボタンをクリックします。次に"
+"uniformのリスト内の項目をクリックして、uniformに割り当てられた値を編集できま"
+"す。"
+
+msgid ""
+"Adding a global uniform in the Shader Globals tab of the Project Settings"
+msgstr ""
+"プロジェクト設定のシェーダー グローバル タブにグローバルUniformを追加する"
+
+msgid "After creating a global uniform, you can use it in a shader as follows:"
+msgstr "グローバルUniformを作成した後、次のようにシェーダーで使用できます。"
+
+msgid ""
+"Note that the global uniform *must* exist in the Project Settings at the "
+"time the shader is saved, or compilation will fail. While you can assign a "
+"default value using ``global uniform vec4 my_color = ...`` in the shader "
+"code, it will be ignored as the global uniform must always be defined in the "
+"Project Settings anyway."
+msgstr ""
+"グローバルUniformはシェーダーの保存時にプロジェクト設定に存在する *必要があり"
+"ます* 。存在しない場合はコンパイルは失敗します。シェーダーコードで ``global "
+"uniform vec4 my_color = ...`` を使用してデフォルト値を割り当てることはできま"
+"すが、グローバルUniformの値は常にプロジェクト設定で指定する必要があるため、こ"
+"のデフォルト値は無視されます。"
+
+msgid ""
+"Assigning global uniform values can be done as many times as desired without "
+"impacting performance, as setting data doesn't require synchronization "
+"between the CPU and GPU."
+msgstr ""
+"データの設定にはCPUとGPU間の同期が必要ないため、グローバルUniform値のセット"
+"は、パフォーマンスに影響を与えることなく何度でも行うことができます。"
+
+msgid ""
+"Therefore, it's not recommended to read global shader uniform values "
+"continuously in a script. If you need to read values in a script after "
+"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
+"where you store the values you need to query at the same time you're setting "
+"them as global uniforms."
+msgstr ""
+"したがってスクリプト内でグローバルシェーダーのUniform値を連続的に読み取ること"
+"はお勧めできません。設定後にスクリプトで値を読み取る必要がある場合は、グロー"
+"バルUniformとしてセットすると同時に取得するために値を保存するシングルトンクラ"
+"ス :ref:`autoload <doc_singletons_autoload>` を作成することを検討してくださ"
+"い。"
+
+msgid "Per-instance uniforms"
+msgstr "インスタンス単位のUniform"
+
+msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
+msgstr ""
+"インスタンス単位のUniformは ``spatial`` (3D) シェーダーでのみ使用できます。"
+
+msgid ""
+"Sometimes, you want to modify a parameter on each node using the material. "
+"As an example, in a forest full of trees, when you want each tree to have a "
+"slightly different color that is editable by hand. Without per-instance "
+"uniforms, this requires creating a unique material for each tree (each with "
+"a slightly different hue). This makes material management more complex, and "
+"also has a performance overhead due to the scene requiring more unique "
+"material instances. Vertex colors could also be used here, but they'd "
+"require creating unique copies of the mesh for each different color, which "
+"also has a performance overhead."
+msgstr ""
+"マテリアルを使用して各ノードのパラメータを変更したい場合があります。たとえば"
+"木々が生い茂る森で、それぞれの木に手動で編集できるわずかに異なる色を持たせた"
+"い場合です。インスタンスごとにUniformを持たない場合、木ごとに固有のマテリア"
+"ル (それぞれがわずかに異なる色) を作成する必要があります。これによりマテリア"
+"ル管理がより複雑になり、シーンではより固有のマテリアルインスタンスが必要にな"
+"るため、パフォーマンスのオーバーヘッドも発生します。ここでは頂点カラーを使用"
+"することもできますが、異なる色ごとにメッシュの一意のコピーを作成する必要があ"
+"り、パフォーマンスのオーバーヘッドも発生します。"
+
+msgid ""
+"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
+"each Material instance. Take this into account when working with meshes that "
+"have multiple materials assigned to them, or MultiMesh setups."
+msgstr ""
+"インスタンス単位のUniformは、各マテリアルインスタンスではなく、各 "
+"GeometryInstance3D に設定されます。複数のマテリアルが割り当てられているメッ"
+"シュ、またはマルチメッシュを操作する場合は、こちらを考慮してください。"
+
+msgid ""
+"After saving the shader, you can change the per-instance uniform's value "
+"using the inspector:"
+msgstr ""
+"シェーダーを保存した後、インスペクターを使用してインスタンス単位のUniformの値"
+"を変更できます。"
+
+msgid ""
+"Setting a per-instance uniform's value in the GeometryInstance3D section of "
+"the inspector"
+msgstr ""
+"インスペクターの GeometryInstance3D セクションでインスタンス単位のUniformの"
+"値 (Instance Shader Parameters) を設定する"
+
+msgid ""
+"When using per-instance uniforms, there are some restrictions you should be "
+"aware of:"
+msgstr ""
+"インスタンス単位のUniformを使用する場合は、いくつかの制限事項に注意する必要が"
+"あります:"
+
+msgid ""
+"**Per-instance uniforms do not support textures**, only regular scalar and "
+"vector types. As a workaround, you can pass a texture array as a regular "
+"uniform, then pass the index of the texture to be drawn using a per-instance "
+"uniform."
+msgstr ""
+"**インスタンス単位のUniformはテクスチャをサポートしません** 。通常のスカラー"
+"型とベクター型のみをサポートします。回避策としてはテクスチャ配列を通常の"
+"Uniformとして渡してから、インスタンス単位のUniformを使用して描画されるテクス"
+"チャのインデックスを渡すことができます。"
+
+msgid "There is a practical maximum limit of 16 instance uniforms per shader."
+msgstr ""
+"実際には1シェーダーあたりのインスタンスUniformの最大数は16までに制限されてい"
+"ます。"
+
+msgid ""
+"If your mesh uses multiple materials, the parameters for the first mesh "
+"material found will \"win\" over the subsequent ones, unless they have the "
+"same name, index *and* type. In this case, all parameters are affected "
+"correctly."
+msgstr ""
+"メッシュが複数のマテリアルを使用している場合、名前、インデックス、型が同じで"
+"ない限り、最初に見つかったメッシュマテリアルのパラメータが後続のメッシュマテ"
+"リアルよりも「優先」されます。この場合すべてのパラメータが正しく影響されま"
+"す。"
+
+msgid ""
+"If you run into the above situation, you can avoid clashes by manually "
+"specifying the index (0-15) of the instance uniform by using the "
+"``instance_index`` hint:"
+msgstr ""
+"上記の状況に遭遇した場合は、 ``instance_index`` ヒントを使用してインスタンス"
+"Uniformのインデックス (0～15) を手動で指定することで衝突を回避できます。"
+
 msgid ""
 "GDScript uses different variable types than GLSL does, so when passing "
 "variables from GDScript to shaders, Godot converts the type automatically. "
@@ -1065,276 +1166,8 @@ msgstr "\\ **Cubemap**"
 msgid "**CubemapArray**"
 msgstr "\\ **CubemapArray**"
 
-msgid ""
-"Be careful when setting shader uniforms from GDScript, no error will be "
-"thrown if the type does not match. Your shader will just exhibit undefined "
-"behavior."
-msgstr ""
-"GDScriptからシェーダーのuniformを設定するときは注意してください。タイプが一致"
-"しない場合でもエラーはスローされません。シェーダーは未定義の動作を示すだけで"
-"す。"
-
-msgid "Uniforms can also be assigned default values:"
-msgstr "Uniformにはデフォルト値を割り当てることもできます:"
-
-msgid ""
-"Note that when adding a default value and a hint, the default value goes "
-"after the hint."
-msgstr ""
-"デフォルト値とヒントを追加する場合、デフォルト値がヒントの後に来ることに注意"
-"してください。"
-
-msgid ""
-"If you need to make multiple uniforms to be grouped in the specific category "
-"of an inspector, you can use a `group_uniform` keyword like:"
-msgstr ""
-"複数のUniformをインスペクターの特定のカテゴリにグループ化する必要がある場合"
-"は、次のように `group_uniform` キーワードを使用できます。"
-
-msgid "You can close the group by using:"
-msgstr "そしてこちらを使用してグループを閉じることができます:"
-
-msgid ""
-"The syntax also supports subgroups (it's not mandatory to declare the base "
-"group before this):"
-msgstr ""
-"この構文はサブグループもサポートしています (これより前にベースのグループを宣"
-"言することは必須ではありません):"
-
-msgid "Global uniforms"
-msgstr "グローバルUniform"
-
-msgid ""
-"Sometimes, you want to modify a parameter in many different shaders at once. "
-"With a regular uniform, this takes a lot of work as all these shaders need "
-"to be tracked and the uniform needs to be set for each of them. Global "
-"uniforms allow you to create and update uniforms that will be available in "
-"all shaders, in every shader type (``canvas_item``, ``spatial``, "
-"``particles``, ``sky`` and ``fog``)."
-msgstr ""
-"場合によっては多くの異なるシェーダのパラメータを一度に変更したいことがありま"
-"す。通常のUniformの場合はすべてのシェーダーを探し、それぞれにUniformを設定す"
-"る必要があるため、多くの作業が必要になります。グローバルUniformを使用するとす"
-"べてのシェーダーやすべてのシェーダータイプ ( ``canvas_item`` 、 "
-"``spatial`` 、 ``particles`` 、 ``sky`` 、 ``fog`` ) で使用できるUniformを作"
-"成および更新できます。"
-
-msgid ""
-"Global uniforms are especially useful for environmental effects that affect "
-"many objects in a scene, like having foliage bend when the player is nearby, "
-"or having objects move with the wind."
-msgstr ""
-"グローバルUniformは、プレイヤーが近くにいるときに葉が曲がったり、オブジェクト"
-"が風で動いたりするなど、シーン内の多くのオブジェクトに影響を与えるような効果"
-"で特に役立ちます。"
-
-msgid ""
-"To create a global uniform, open the **Project Settings** then go to the "
-"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
-"a type, then click **Add** in the top-right corner of the dialog. You can "
-"then edit the value assigned to the uniform by clicking the value in the "
-"list of uniforms:"
-msgstr ""
-"グローバルUniformを作成するには、 **プロジェクト設定** を開き、 **シェーダー"
-"グローバル** タブに移動します。uniformの名前 (大文字と小文字を区別に注意) と"
-"型を指定し、ダイアログの右上隅にある **追加** ボタンをクリックします。次に"
-"uniformのリスト内の項目をクリックして、uniformに割り当てられた値を編集できま"
-"す。"
-
-msgid ""
-"Adding a global uniform in the Shader Globals tab of the Project Settings"
-msgstr ""
-"プロジェクト設定のシェーダー グローバル タブにグローバルUniformを追加する"
-
-msgid "After creating a global uniform, you can use it in a shader as follows:"
-msgstr "グローバルUniformを作成した後、次のようにシェーダーで使用できます。"
-
-msgid ""
-"Note that the global uniform *must* exist in the Project Settings at the "
-"time the shader is saved, or compilation will fail. While you can assign a "
-"default value using ``global uniform vec4 my_color = ...`` in the shader "
-"code, it will be ignored as the global uniform must always be defined in the "
-"Project Settings anyway."
-msgstr ""
-"グローバルUniformはシェーダーの保存時にプロジェクト設定に存在する *必要があり"
-"ます* 。存在しない場合はコンパイルは失敗します。シェーダーコードで ``global "
-"uniform vec4 my_color = ...`` を使用してデフォルト値を割り当てることはできま"
-"すが、グローバルUniformの値は常にプロジェクト設定で指定する必要があるため、こ"
-"のデフォルト値は無視されます。"
-
-msgid ""
-"To change the value of a global uniform at run-time, use the :ref:"
-"`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` method in a "
-"script:"
-msgstr ""
-"実行時にグローバルUniformの値を変更するには、スクリプトで :ref:"
-"`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` メソッドを使用し"
-"ます。"
-
-msgid ""
-"Assigning global uniform values can be done as many times as desired without "
-"impacting performance, as setting data doesn't require synchronization "
-"between the CPU and GPU."
-msgstr ""
-"データの設定にはCPUとGPU間の同期が必要ないため、グローバルUniform値のセット"
-"は、パフォーマンスに影響を与えることなく何度でも行うことができます。"
-
-msgid "You can also add or remove global uniforms at run-time:"
-msgstr "実行時にグローバルUniformを追加または削除することもできます:"
-
-msgid ""
-"Adding or removing global uniforms at run-time has a performance cost, "
-"although it's not as pronounced compared to getting global uniform values "
-"from a script (see the warning below)."
-msgstr ""
-"実行時にグローバルUniformを追加または削除すると、スクリプトからグローバル"
-"Uniform値を取得する場合ほど顕著ではありませんが、パフォーマンスコストが発生し"
-"ます (以下の警告を参照)。"
-
-msgid ""
-"While you *can* query the value of a global uniform at run-time in a script "
-"using ``RenderingServer.global_shader_parameter_get(\"uniform_name\")``, "
-"this has a large performance penalty as the rendering thread needs to "
-"synchronize with the calling thread."
-msgstr ""
-"``RenderingServer.global_shader_parameter_get(\"uniform_name\")`` を使用して"
-"スクリプトで実行時にグローバルUniformの値を取得することは *できます* が、レン"
-"ダリングスレッドは呼び出しスレッドと同期する必要があるため、パフォーマンスが"
-"大幅に低下します。"
-
-msgid ""
-"Therefore, it's not recommended to read global shader uniform values "
-"continuously in a script. If you need to read values in a script after "
-"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
-"where you store the values you need to query at the same time you're setting "
-"them as global uniforms."
-msgstr ""
-"したがってスクリプト内でグローバルシェーダーのUniform値を連続的に読み取ること"
-"はお勧めできません。設定後にスクリプトで値を読み取る必要がある場合は、グロー"
-"バルUniformとしてセットすると同時に取得するために値を保存するシングルトンクラ"
-"ス :ref:`autoload <doc_singletons_autoload>` を作成することを検討してくださ"
-"い。"
-
-msgid "Per-instance uniforms"
-msgstr "インスタンス単位のUniform"
-
-msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
-msgstr ""
-"インスタンス単位のUniformは ``spatial`` (3D) シェーダーでのみ使用できます。"
-
-msgid ""
-"Sometimes, you want to modify a parameter on each node using the material. "
-"As an example, in a forest full of trees, when you want each tree to have a "
-"slightly different color that is editable by hand. Without per-instance "
-"uniforms, this requires creating a unique material for each tree (each with "
-"a slightly different hue). This makes material management more complex, and "
-"also has a performance overhead due to the scene requiring more unique "
-"material instances. Vertex colors could also be used here, but they'd "
-"require creating unique copies of the mesh for each different color, which "
-"also has a performance overhead."
-msgstr ""
-"マテリアルを使用して各ノードのパラメータを変更したい場合があります。たとえば"
-"木々が生い茂る森で、それぞれの木に手動で編集できるわずかに異なる色を持たせた"
-"い場合です。インスタンスごとにUniformを持たない場合、木ごとに固有のマテリア"
-"ル (それぞれがわずかに異なる色) を作成する必要があります。これによりマテリア"
-"ル管理がより複雑になり、シーンではより固有のマテリアルインスタンスが必要にな"
-"るため、パフォーマンスのオーバーヘッドも発生します。ここでは頂点カラーを使用"
-"することもできますが、異なる色ごとにメッシュの一意のコピーを作成する必要があ"
-"り、パフォーマンスのオーバーヘッドも発生します。"
-
-msgid ""
-"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
-"each Material instance. Take this into account when working with meshes that "
-"have multiple materials assigned to them, or MultiMesh setups."
-msgstr ""
-"インスタンス単位のUniformは、各マテリアルインスタンスではなく、各 "
-"GeometryInstance3D に設定されます。複数のマテリアルが割り当てられているメッ"
-"シュ、またはマルチメッシュを操作する場合は、こちらを考慮してください。"
-
-msgid ""
-"After saving the shader, you can change the per-instance uniform's value "
-"using the inspector:"
-msgstr ""
-"シェーダーを保存した後、インスペクターを使用してインスタンス単位のUniformの値"
-"を変更できます。"
-
-msgid ""
-"Setting a per-instance uniform's value in the GeometryInstance3D section of "
-"the inspector"
-msgstr ""
-"インスペクターの GeometryInstance3D セクションでインスタンス単位のUniformの"
-"値 (Instance Shader Parameters) を設定する"
-
-msgid ""
-"Per-instance uniform values can also be set at run-time using :ref:"
-"`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` method on a "
-"node that inherits from :ref:`class_GeometryInstance3D`:"
-msgstr ""
-"インスタンス単位のUniform値は、:ref:`class_GeometryInstance3D` を継承するノー"
-"ド上で :ref:`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` メソッドを使"
-"用して実行時にセットすることもできます。"
-
-msgid ""
-"When using per-instance uniforms, there are some restrictions you should be "
-"aware of:"
-msgstr ""
-"インスタンス単位のUniformを使用する場合は、いくつかの制限事項に注意する必要が"
-"あります:"
-
-msgid ""
-"**Per-instance uniforms do not support textures**, only regular scalar and "
-"vector types. As a workaround, you can pass a texture array as a regular "
-"uniform, then pass the index of the texture to be drawn using a per-instance "
-"uniform."
-msgstr ""
-"**インスタンス単位のUniformはテクスチャをサポートしません** 。通常のスカラー"
-"型とベクター型のみをサポートします。回避策としてはテクスチャ配列を通常の"
-"Uniformとして渡してから、インスタンス単位のUniformを使用して描画されるテクス"
-"チャのインデックスを渡すことができます。"
-
-msgid "There is a practical maximum limit of 16 instance uniforms per shader."
-msgstr ""
-"実際には1シェーダーあたりのインスタンスUniformの最大数は16までに制限されてい"
-"ます。"
-
-msgid ""
-"If your mesh uses multiple materials, the parameters for the first mesh "
-"material found will \"win\" over the subsequent ones, unless they have the "
-"same name, index *and* type. In this case, all parameters are affected "
-"correctly."
-msgstr ""
-"メッシュが複数のマテリアルを使用している場合、名前、インデックス、型が同じで"
-"ない限り、最初に見つかったメッシュマテリアルのパラメータが後続のメッシュマテ"
-"リアルよりも「優先」されます。この場合すべてのパラメータが正しく影響されま"
-"す。"
-
-msgid ""
-"If you run into the above situation, you can avoid clashes by manually "
-"specifying the index (0-15) of the instance uniform by using the "
-"``instance_index`` hint:"
-msgstr ""
-"上記の状況に遭遇した場合は、 ``instance_index`` ヒントを使用してインスタンス"
-"Uniformのインデックス (0～15) を手動で指定することで衝突を回避できます。"
-
 msgid "Built-in variables"
 msgstr "ビルトイン変数"
-
-msgid ""
-"A large number of built-in variables are available, like ``UV``, ``COLOR`` "
-"and ``VERTEX``. What variables are available depends on the type of shader "
-"(``spatial``, ``canvas_item`` or ``particle``) and the function used "
-"(``vertex``, ``fragment`` or ``light``). For a list of the built-in "
-"variables that are available, please see the corresponding pages:"
-msgstr ""
-"``UV`` 、 ``COLOR`` 、 ``VERTEX`` など、多くのビルトイン変数が使用可能です。"
-"どの変数が使用できるかは、シェーダのタイプ ( ``spatial`` 、 "
-"``canvas_item`` 、 ``particle``) および使用される関数 ( ``vertex`` 、 "
-"``fragment`` 、 ``light`` ) によって異なります。使用可能な組み込み変数のリス"
-"トについては、対応するページを参照してください。"
 
 msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
 msgstr "\\ :ref:`Spatial(3D)シェーダー <doc_spatial_shader>`"
@@ -1353,562 +1186,3 @@ msgstr "\\ :ref:`Fogシェーダー <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "ビルトイン関数"
-
-msgid ""
-"A large number of built-in functions are supported, conforming to GLSL ES "
-"3.0. When vec_type (float), vec_int_type, vec_uint_type, vec_bool_type "
-"nomenclature is used, it can be scalar or vector."
-msgstr ""
-"GLSL ES 3.0に準拠した多数のビルトイン関数がサポートされています。 "
-"vec_type(float)、vec_int_type、vec_uint_type、vec_bool_type 命名法を使用する"
-"場合、スカラーまたはベクトルを使用できます。"
-
-msgid "Function"
-msgstr "関数"
-
-msgid "Description / Return value"
-msgstr "説明 /返り値"
-
-msgid "vec_type **radians** (vec_type degrees)"
-msgstr "\\ vec_type **radians** (vec_type degrees)"
-
-msgid "Convert degrees to radians."
-msgstr "度をラジアンに変換する。"
-
-msgid "vec_type **degrees** (vec_type radians)"
-msgstr "\\ vec_type **degrees** (vec_type radians)"
-
-msgid "Convert radians to degrees."
-msgstr "ラジアンを度に変換する。"
-
-msgid "vec_type **sin** (vec_type x)"
-msgstr "\\ vec_type **sin** (vec_type x)"
-
-msgid "Sine."
-msgstr "サイン(正弦)。"
-
-msgid "vec_type **cos** (vec_type x)"
-msgstr "\\ vec_type **cos** (vec_type x)"
-
-msgid "Cosine."
-msgstr "コサイン(余弦)。"
-
-msgid "vec_type **tan** (vec_type x)"
-msgstr "\\ vec_type **tan** (vec_type x)"
-
-msgid "Tangent."
-msgstr "タンジェント(正接)。"
-
-msgid "vec_type **asin** (vec_type x)"
-msgstr "\\ vec_type **asin** (vec_type x)"
-
-msgid "Arcsine."
-msgstr "アークコサイン(逆余弦)。"
-
-msgid "vec_type **acos** (vec_type x)"
-msgstr "\\ vec_type **acos** (vec_type x)"
-
-msgid "Arccosine."
-msgstr "アークコサイン(逆余弦)。"
-
-msgid "vec_type **atan** (vec_type y_over_x)"
-msgstr "\\ vec_type **atan** (vec_type y_over_x)"
-
-msgid "Arctangent."
-msgstr "アークタンジェント(逆正接)。"
-
-msgid "vec_type **atan** (vec_type y, vec_type x)"
-msgstr "\\ vec_type **atan** (vec_type y, vec_type x)"
-
-msgid "vec_type **sinh** (vec_type x)"
-msgstr "\\ vec_type **sinh** (vec_type x)"
-
-msgid "Hyperbolic sine."
-msgstr "双曲線コサイン。"
-
-msgid "vec_type **cosh** (vec_type x)"
-msgstr "\\ vec_type **cosh** (vec_type x)"
-
-msgid "Hyperbolic cosine."
-msgstr "双曲線コサイン。"
-
-msgid "vec_type **tanh** (vec_type x)"
-msgstr "\\ vec_type **tanh** (vec_type x)"
-
-msgid "Hyperbolic tangent."
-msgstr "双曲線タンジェント。"
-
-msgid "vec_type **asinh** (vec_type x)"
-msgstr "\\ vec_type **asinh** (vec_type x)"
-
-msgid "Inverse hyperbolic sine."
-msgstr "双曲線アークコサイン。"
-
-msgid "vec_type **acosh** (vec_type x)"
-msgstr "\\ vec_type **acosh** (vec_type x)"
-
-msgid "Inverse hyperbolic cosine."
-msgstr "双曲線アークコサイン。"
-
-msgid "vec_type **atanh** (vec_type x)"
-msgstr "\\ vec_type **atanh** (vec_type x)"
-
-msgid "Inverse hyperbolic tangent."
-msgstr "双曲線アークタンジェント。"
-
-msgid "vec_type **pow** (vec_type x, vec_type y)"
-msgstr "\\ vec_type **pow** (vec_type x, vec_type y)"
-
-msgid "Power (undefined if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)."
-msgstr "xのy乗 (未定義条件: if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)。"
-
-msgid "vec_type **exp** (vec_type x)"
-msgstr "\\ vec_type **exp** (vec_type x)"
-
-msgid "Base-e exponential."
-msgstr "eを底とする指数。"
-
-msgid "vec_type **exp2** (vec_type x)"
-msgstr "\\ vec_type **exp2** (vec_type x)"
-
-msgid "Base-2 exponential."
-msgstr "2を底とする指数。"
-
-msgid "vec_type **log** (vec_type x)"
-msgstr "\\ vec_type **log** (vec_type x)"
-
-msgid "Natural logarithm."
-msgstr "自然対数。"
-
-msgid "vec_type **log2** (vec_type x)"
-msgstr "\\ vec_type **log2** (vec_type x)"
-
-msgid "Base-2 logarithm."
-msgstr "2を底とする対数。"
-
-msgid "vec_type **sqrt** (vec_type x)"
-msgstr "\\ vec_type **sqrt** (vec_type x)"
-
-msgid "Square root."
-msgstr "平方根。"
-
-msgid "vec_type **inversesqrt** (vec_type x)"
-msgstr "\\ vec_type **inversesqrt** (vec_type x)"
-
-msgid "Inverse square root."
-msgstr "逆平方根。"
-
-msgid "vec_type **abs** (vec_type x)"
-msgstr "\\ vec_type **abs** (vec_type x)"
-
-msgid "ivec_type **abs** (ivec_type x)"
-msgstr "\\ ivec_type **abs** (ivec_type x)"
-
-msgid "Absolute value (returns positive value if negative)."
-msgstr "絶対値 (負の場合は正の値を返す)。"
-
-msgid "vec_type **sign** (vec_type x)"
-msgstr "\\ vec_type **sign** (vec_type x)"
-
-msgid "ivec_type **sign** (ivec_type x)"
-msgstr "\\ ivec_type **sign** (ivec_type x)"
-
-msgid ""
-"Sign (returns ``1.0`` if positive, ``-1.0`` if negative, ``0.0`` if zero)."
-msgstr ""
-"符号 (正の時 ``1.0`` を返し、負の時 ``-1.0`` を返し、ゼロの時 ``0.0`` を返"
-"す)。"
-
-msgid "vec_type **floor** (vec_type x)"
-msgstr "\\ vec_type **floor** (vec_type x)"
-
-msgid "Round to the integer below."
-msgstr "x以下の最も近い整数に丸める。"
-
-msgid "vec_type **round** (vec_type x)"
-msgstr "\\ vec_type **round** (vec_type x)"
-
-msgid "Round to the nearest integer."
-msgstr "最も近い整数に丸める(四捨五入)。"
-
-msgid "vec_type **roundEven** (vec_type x)"
-msgstr "\\ vec_type **roundEven** (vec_type x)"
-
-msgid "Round to the nearest even integer."
-msgstr "最も近い偶数の整数に丸める。"
-
-msgid "vec_type **trunc** (vec_type x)"
-msgstr "\\ vec_type **trunc** (vec_type x)"
-
-msgid "Truncation."
-msgstr "ゼロ方向の整数に丸める(小数点切り捨て)。"
-
-msgid "vec_type **ceil** (vec_type x)"
-msgstr "\\ vec_type **ceil** (vec_type x)"
-
-msgid "Round to the integer above."
-msgstr "x以上の最も近い整数に丸める。"
-
-msgid "vec_type **fract** (vec_type x)"
-msgstr "\\ vec_type **fract** (vec_type x)"
-
-msgid "Fractional (returns ``x - floor(x)``)."
-msgstr "小数部 (``x - floor(x)`` を返す)。"
-
-msgid "vec_type **mod** (vec_type x, vec_type y)"
-msgstr "\\ vec_type **mod** (vec_type x, vec_type y)"
-
-msgid "vec_type **mod** (vec_type x, float y)"
-msgstr "\\ vec_type **mod** (vec_type x, float y)"
-
-msgid "Modulo (division remainder)."
-msgstr "剰余 (割り算の余り)。"
-
-msgid "vec_type **modf** (vec_type x, out vec_type i)"
-msgstr "\\ vec_type **modf** (vec_type x, out vec_type i)"
-
-msgid "Fractional of ``x``, with ``i`` as integer part."
-msgstr "xの小数部を返し、iに整数部が代入される。"
-
-msgid "vec_type  **min** (vec_type a, vec_type b)"
-msgstr "\\ vec_type **min** (vec_type a, vec_type b)"
-
-msgid "Lowest value between ``a`` and ``b``."
-msgstr "``a`` と ``b`` の小さいほうを返す。"
-
-msgid "vec_type  **max** (vec_type a, vec_type b)"
-msgstr "\\ vec_type **max** (vec_type a, vec_type b)"
-
-msgid "Highest value between ``a`` and ``b``."
-msgstr "``a`` と ``b`` の大きいほうを返す。"
-
-msgid "vec_type **clamp** (vec_type x, vec_type min, vec_type max)"
-msgstr "\\ vec_type **clamp** (vec_type x, vec_type min, vec_type max)"
-
-msgid "Clamp ``x`` between ``min`` and ``max`` (inclusive)."
-msgstr "``x`` を範囲内( ``min`` と ``max`` の間)に収めた値を返す。"
-
-msgid "float **mix** (float a, float b, float c)"
-msgstr "\\ float **mix** (float a, float b, float c)"
-
-msgid "vec_type **mix** (vec_type a, vec_type b, float c)"
-msgstr "\\ vec_type **mix** (vec_type a, vec_type b, float c)"
-
-msgid "vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
-msgstr "\\ vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
-
-msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
-msgstr "``a`` と ``b`` の間を ``c`` で線形補間する。"
-
-msgid "vec_type **fma** (vec_type a, vec_type b, vec_type c)"
-msgstr "\\ vec_type **fma** (vec_type a, vec_type b, vec_type c)"
-
-msgid ""
-"Performs a fused multiply-add operation: ``(a * b + c)`` (faster than doing "
-"it manually)."
-msgstr "融合積和演算 ``(a * b + c)`` を行う(手動で書くより高速です)。"
-
-msgid "vec_type **step** (vec_type a, vec_type b)"
-msgstr "\\ vec_type **step** (vec_type a, vec_type b)"
-
-msgid "``b[i] < a[i] ? 0.0 : 1.0``."
-msgstr "\\ ``b[i] < a[i] ? 0.0 : 1.0`` 。"
-
-msgid "vec_type **step** (float a, vec_type b)"
-msgstr "\\ vec_type **step** (float a, vec_type b)"
-
-msgid "``b[i] < a ? 0.0 : 1.0``."
-msgstr "\\ ``b[i] < a ? 0.0 : 1.0`` 。"
-
-msgid "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
-msgstr "\\ vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
-
-msgid "vec_type **smoothstep** (float a, float b, vec_type c)"
-msgstr "\\ vec_type **smoothstep** (float a, float b, vec_type c)"
-
-msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
-msgstr "``a`` と ``b`` の間を ``c`` でエルミート補間する。"
-
-msgid "bvec_type **isnan** (vec_type x)"
-msgstr "\\ bvec_type **isnan** (vec_type x)"
-
-msgid "Returns ``true`` if scalar or vector component is ``NaN``."
-msgstr "スカラーまたはベクトル要素が ``NaN`` の場合は ``true`` を返す。"
-
-msgid "bvec_type **isinf** (vec_type x)"
-msgstr "\\ bvec_type **isinf** (vec_type x)"
-
-msgid "Returns ``true`` if scalar or vector component is ``INF``."
-msgstr "スカラーまたはベクトル要素が ``INF`` の場合は、 ``true`` を返す。"
-
-msgid "ivec_type **floatBitsToInt** (vec_type x)"
-msgstr "\\ ivec_type **floatBitsToInt** (vec_type x)"
-
-msgid "Float->Int bit copying, no conversion."
-msgstr "float型からint型へビットを維持してコピー。"
-
-msgid "uvec_type **floatBitsToUint** (vec_type x)"
-msgstr "\\ uvec_type **floatBitsToUint** (vec_type x)"
-
-msgid "Float->UInt bit copying, no conversion."
-msgstr "float型からuint型へビットを維持してコピー。"
-
-msgid "vec_type **intBitsToFloat** (ivec_type x)"
-msgstr "\\ vec_type **intBitsToFloat** (ivec_type x)"
-
-msgid "Int->Float bit copying, no conversion."
-msgstr "int型からfloat型へビットを維持してコピー。"
-
-msgid "vec_type **uintBitsToFloat** (uvec_type x)"
-msgstr "\\ vec_type **uintBitsToFloat** (uvec_type x)"
-
-msgid "UInt->Float bit copying, no conversion."
-msgstr "uint型からfloat型へビットを維持してコピー。"
-
-msgid "float **length** (vec_type x)"
-msgstr "\\ float **length** (vec_type x)"
-
-msgid "Vector length."
-msgstr "ベクトルの長さ。"
-
-msgid "float **distance** (vec_type a, vec_type b)"
-msgstr "\\ float **distance** (vec_type a, vec_type b)"
-
-msgid "Distance between vectors i.e ``length(a - b)``."
-msgstr "2つのベクトル間の距離。つまり ``length(a-b)`` 。"
-
-msgid "float **dot** (vec_type a, vec_type b)"
-msgstr "\\ float **dot** (vec_type a, vec_type b)"
-
-msgid "Dot product."
-msgstr "内積 (ドット積)。"
-
-msgid "vec3 **cross** (vec3 a, vec3 b)"
-msgstr "\\ vec3 **cross** (vec3 a, vec3 b)"
-
-msgid "Cross product."
-msgstr "外積 (クロス積)。"
-
-msgid "vec_type **normalize** (vec_type x)"
-msgstr "\\ vec_type **normalize** (vec_type x)"
-
-msgid "Normalize to unit length."
-msgstr "単位ベクトルに正規化。"
-
-msgid "vec3 **reflect** (vec3 I, vec3 N)"
-msgstr "\\ vec3 **reflect** (vec3 I, vec3 N)"
-
-msgid "Reflect."
-msgstr "反射。"
-
-msgid "vec3 **refract** (vec3 I, vec3 N, float eta)"
-msgstr "\\ vec3 **refract** (vec3 I, vec3 N, float eta)"
-
-msgid "Refract."
-msgstr "屈折。"
-
-msgid "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
-msgstr "\\ vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
-
-msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
-msgstr ""
-"``dot(Nref, I)`` < 0 の場合は ``N`` を返し、それ以外の場合は ``-N`` を返す。"
-
-msgid "mat_type **matrixCompMult** (mat_type x, mat_type y)"
-msgstr "\\ mat_type **matrixCompMult** (mat_type x, mat_type y)"
-
-msgid "Matrix component multiplication."
-msgstr "行列要素の乗算。"
-
-msgid "mat_type **outerProduct** (vec_type column, vec_type row)"
-msgstr "\\ mat_type **outerProduct** (vec_type column, vec_type row)"
-
-msgid "Matrix outer product."
-msgstr "行列の外積。"
-
-msgid "mat_type **transpose** (mat_type m)"
-msgstr "\\ mat_type **transpose** (mat_type m)"
-
-msgid "Transpose matrix."
-msgstr "転置行列。"
-
-msgid "float **determinant** (mat_type m)"
-msgstr "\\ float **determinant** (mat_type m)"
-
-msgid "Matrix determinant."
-msgstr "行列式。"
-
-msgid "mat_type **inverse** (mat_type m)"
-msgstr "\\ mat_type **inverse** (mat_type m)"
-
-msgid "Inverse matrix."
-msgstr "逆行列。"
-
-msgid "bvec_type **lessThan** (vec_type x, vec_type y)"
-msgstr "\\ bvec_type **lessThan** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on < int/uint/float vectors."
-msgstr ""
-"int/uint/floatベクトルの各要素を比較(x < y)した結果をboolベクトルとして返す。"
-
-msgid "bvec_type **greaterThan** (vec_type x, vec_type y)"
-msgstr "\\ bvec_type **greaterThan** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on > int/uint/float vectors."
-msgstr ""
-"int/uint/floatベクトルの各要素を比較(x > y)した結果をboolベクトルとして返す。"
-
-msgid "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
-msgstr "\\ bvec_type **lessThanEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on <= int/uint/float vectors."
-msgstr ""
-"int/uint/floatベクトルの各要素を比較(x <= y)した結果をboolベクトルとして返"
-"す。"
-
-msgid "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
-msgstr "\\ bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on >= int/uint/float vectors."
-msgstr ""
-"int/uint/floatベクトルの各要素を比較(x >= y)した結果をboolベクトルとして返"
-"す。"
-
-msgid "bvec_type **equal** (vec_type x, vec_type y)"
-msgstr "\\ bvec_type **equal** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on == int/uint/float vectors."
-msgstr ""
-"int/uint/floatベクトルの各要素を比較(x == y)した結果をboolベクトルとして返"
-"す。"
-
-msgid "bvec_type **notEqual** (vec_type x, vec_type y)"
-msgstr "\\ bvec_type **notEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on != int/uint/float vectors."
-msgstr ""
-"int/uint/floatベクトルの各要素を比較(x != y)した結果をboolベクトルとして返"
-"す。"
-
-msgid "bool **any** (bvec_type x)"
-msgstr "\\ bool **any** (bvec_type x)"
-
-msgid "``true`` if any component is ``true``, ``false`` otherwise."
-msgstr ""
-"いずれかの要素が ``true`` の場合は ``true`` 、それ以外の場合は ``false`` を返"
-"す。"
-
-msgid "bool **all** (bvec_type x)"
-msgstr "\\ bool **all** (bvec_type x)"
-
-msgid "``true`` if all components are ``true``, ``false`` otherwise."
-msgstr ""
-"すべての要素が ``true`` の場合は ``true`` 、それ以外の場合は ``false`` を返"
-"す。"
-
-msgid "bvec_type **not** (bvec_type x)"
-msgstr "\\ bvec_type **not** (bvec_type x)"
-
-msgid "Invert boolean vector."
-msgstr "boolベクトルの反転。"
-
-msgid "ivec2 **textureSize** (gsampler2D s, int lod)"
-msgstr "\\ ivec2 **textureSize** (gsampler2D s, int lod)"
-
-msgid "ivec3 **textureSize** (gsampler2DArray s, int lod)"
-msgstr "\\ ivec3 **textureSize** (gsampler2DArray s, int lod)"
-
-msgid "ivec3 **textureSize** (gsampler3D s, int lod)"
-msgstr "\\ ivec3 **textureSize** (gsampler3D s, int lod)"
-
-msgid "ivec2 **textureSize** (samplerCube s, int lod)"
-msgstr "\\ ivec2 **textureSize** (samplerCube s, int lod)"
-
-msgid "ivec2 **textureSize** (samplerCubeArray s, int lod)"
-msgstr "\\ ivec2 **textureSize** (samplerCubeArray s, int lod)"
-
-msgid "Get the size of a texture."
-msgstr "テクスチャのサイズを取得する。"
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0`` will use "
-"the full resolution texture."
-msgstr ""
-"LOD はどのミップマップレベルが使用されるかを指定します。 LOD値が ``0`` の場合"
-"は、フル解像度のテクスチャが使用されます。"
-
-msgid "vec2 **textureQueryLod** (gsampler2D s, vec2 p)"
-msgstr "\\ vec2 **textureQueryLod** (gsampler2D s, vec2 p)"
-
-msgid "vec3 **textureQueryLod** (gsampler2DArray s, vec2 p)"
-msgstr "\\ vec3 **textureQueryLod** (gsampler2DArray s, vec2 p)"
-
-msgid "vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
-msgstr "\\ vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
-
-msgid "vec2 **textureQueryLod** (samplerCube s, vec3 p)"
-msgstr "\\ vec2 **textureQueryLod** (samplerCube s, vec3 p)"
-
-msgid "Get the number of accessible mipmap levels of a texture."
-msgstr "テクスチャのアクセス可能なミップマップレベルの数を取得する。"
-
-msgid ""
-"If the texture is unassigned to a sampler, ``1`` is returned (Godot always "
-"internally assigns a texture even to an empty sampler)."
-msgstr ""
-"テクスチャがサンプラーに割り当てられていない場合は ``1`` が返る。(Godot は空"
-"のサンプラーにも常に内部でテクスチャを割り当てます)。"
-
-msgid "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
-msgstr "\\ gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
-
-msgid "gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
-msgstr "\\ gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
-
-msgid "gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
-msgstr "\\ gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
-
-msgid "vec4 **texture** (samplerCube s, vec3 p [, float bias])"
-msgstr "\\ vec4 **texture** (samplerCube s, vec3 p [, float bias])"
-
-msgid "vec4 **texture** (samplerCubeArray s, vec4 p [, float bias])"
-msgstr "\\ vec4 **texture** (samplerCubeArray s, vec4 p [, float bias])"
-
-msgid "Perform a texture read."
-msgstr "テクスチャの読み取りを実行する。"
-
-msgid "gvec4_type **textureProj** (gsampler2D s, vec3 p [, float bias])"
-msgstr "\\ gvec4_type **textureProj** (gsampler2D s, vec3 p [, float bias])"
-
-msgid "gvec4_type **textureProj** (gsampler2D s, vec4 p [, float bias])"
-msgstr "\\ gvec4_type **textureProj** (gsampler2D s, vec4 p [, float bias])"
-
-msgid "gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
-msgstr "\\ gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
-
-msgid "Perform a texture read with projection."
-msgstr "投影を使用して2Dテクスチャの読み取りを実行する。"
-
-msgid "gvec4_type **textureLod** (gsampler2D s, vec2 p, float lod)"
-msgstr "\\ gvec4_type **textureLod** (gsampler2D s, vec2 p, float lod)"
-
-msgid "gvec4_type **textureLod** (gsampler2DArray s, vec3 p, float lod)"
-msgstr "\\ gvec4_type **textureLod** (gsampler2DArray s, vec3 p, float lod)"
-
-msgid "gvec4_type **textureLod** (gsampler3D s, vec3 p, float lod)"
-msgstr "\\ gvec4_type **textureLod** (gsampler3D s, vec3 p, float lod)"
-
-msgid "vec4 **textureLod** (samplerCube s, vec3 p, float lod)"
-msgstr "\\ vec4 **textureLod** (samplerCube s, vec3 p, float lod)"
-
-msgid "vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
-msgstr "\\ vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
-
-msgid "Perform a texture read at custom mipmap."
-msgstr "カスタムミップマップでテクスチャの読み取りを実行する。"
-
-msgid "Fetches a single texel using integer coordinates."
-msgstr "整数座標を使用して単一のテクセルを取得する。"
-
-msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
-msgstr "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"

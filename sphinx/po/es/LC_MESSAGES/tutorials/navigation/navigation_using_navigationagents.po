@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,11 +17,6 @@ msgid ""
 msgstr ""
 "El resultado del pathfinding se puede influenciar con las siguientes "
 "propiedades."
-
-msgid "The following properties influence the path following behavior."
-msgstr ""
-"Las siguientes propiedades influencian el comportamiento de \"path "
-"following\"."
 
 msgid "Pathfollowing common problems"
 msgstr "Problemas comunes de pathfollowing"

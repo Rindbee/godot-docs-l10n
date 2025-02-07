@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -66,9 +66,6 @@ msgid ""
 msgstr ""
 "வழக்கமான நேர இடைவெளியில் அரக்கர்களை நிறுவுவதன் மூலம் அடிப்படை நடைமுறை விளையாட்டு "
 "குறியீடு."
-
-msgid "Design a movement animation and change its speed at run-time."
-msgstr "இயக்க அனிமேசனை வடிவமைத்து, அதன் வேகத்தை ரன்-டைமில் மாற்றவும்."
 
 msgid "Draw a user interface on a 3D game."
 msgstr "3D விளையாட்டில் பயனர் இடைமுகத்தை வரையவும்."

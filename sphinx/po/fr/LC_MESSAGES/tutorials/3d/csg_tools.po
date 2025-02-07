@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -89,18 +89,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "Maillages personnalisés"
-
-msgid "it must be closed,"
-msgstr "Il doit-être fermer,"
-
-msgid "it must not self-intersect,"
-msgstr "il ne doit pas s'auto-intersecter,"
-
-msgid "it must not contain internal faces,"
-msgstr "il ne doit pas contenir de faces internes,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "chaque bord ne doit être relié qu'à deux autres faces."
 
 msgid "CSGCombiner3D"
 msgstr "CSGCombiner3D"

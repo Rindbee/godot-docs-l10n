@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -188,13 +188,6 @@ msgid ""
 msgstr ""
 "Por defecto, las compilaciones de Godot no contienen soporte para la API de "
 "gráficos Direct3D 12."
-
-msgid ""
-"To compile Godot with Direct3D 12 support you need at least the following "
-"item:"
-msgstr ""
-"Para compilar Godot con soporte para Direct3D 12 necesitas al menos el "
-"siguiente elemento:"
 
 msgid ""
 "`godot-nir-static library <https://github.com/godotengine/godot-nir-static/"

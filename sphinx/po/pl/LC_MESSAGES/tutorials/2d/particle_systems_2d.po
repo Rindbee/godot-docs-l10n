@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -104,9 +104,6 @@ msgstr ""
 msgid "Fract Delta"
 msgstr "Fraktal Delty"
 
-msgid "This can be used to turn Fract Delta on or off."
-msgstr "Służy do włączania i wyłączania Fract Delta."
-
 msgid "Visibility Rect"
 msgstr "Prostokąt widoczności"
 
@@ -142,67 +139,3 @@ msgstr ""
 "``Index`` oznacza, że cząstki są rysowane zgodnie z kolejnością emisji "
 "(domyślnie). ``Lifetime`` oznacza, że zostały one narysowane odpowiednio od "
 "czasu ich stworzenia."
-
-msgid "Spread"
-msgstr "Rozpiętość"
-
-msgid "Gravity"
-msgstr "Grawitacja"
-
-msgid "The gravity applied to every particle."
-msgstr "Grawitacja oddziałuje na każdą cząsteczkę."
-
-msgid "Initial Velocity"
-msgstr "Prędkość początkowa"
-
-msgid "Angular Velocity"
-msgstr "Prędkość kątowa"
-
-msgid "Angular velocity is the initial angular velocity applied to particles."
-msgstr "Prędkość kątowa to początkowa prędkość kątowa przyłożona do cząstek."
-
-msgid "Spin Velocity"
-msgstr "Prędkość obrotu"
-
-msgid ""
-"Spin velocity is the speed at which particles turn around their center (in "
-"degrees/sec)."
-msgstr ""
-"Prędkość obrotu to prędkość, z jaką cząstki obracają się wokół własnego "
-"środka (w stopniach/sekundę)."
-
-msgid "Linear Acceleration"
-msgstr "Przyspieszenie liniowe"
-
-msgid "The linear acceleration applied to each particle."
-msgstr "Przyspieszenie liniowe oddziałuje na każdą cząsteczkę."
-
-msgid "Tangential Acceleration"
-msgstr "Przyspieszenie styczne"
-
-msgid "Damping"
-msgstr "Tłumienie"
-
-msgid "Angle"
-msgstr "Kąt"
-
-msgid "Scale"
-msgstr "Skala"
-
-msgid "Determines the initial scale of the particles."
-msgstr "Określa początkową skalę/wielkość cząstek."
-
-msgid "Color"
-msgstr "Kolor"
-
-msgid "Used to change the color of the particles being emitted."
-msgstr "Służy do zmiany koloru emitowanych cząstek."
-
-msgid "Animation"
-msgstr "Animacja"
-
-msgid "Emission Mask"
-msgstr "Maska emisji"
-
-msgid "Emission Colors"
-msgstr "Kolory emisji"

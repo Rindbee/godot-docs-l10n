@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -803,14 +803,6 @@ msgstr ""
 "然而，Android 上加载系统字体不可靠，因为没有官方 API 提供支持。Godot 需要依靠"
 "解析系统配置文件，而这些文件可能会被第三方 Android 供应商修改。这可能导致系统"
 "字体加载不起作用。"
-
-msgid ""
-"System fonts are a different type of resource compared to imported fonts. "
-"They are never actually imported into the project, but are loaded at run-"
-"time. This has 2 benefits:"
-msgstr ""
-"系统字体是不同于导入字体的一种资源。它们没有实际被导入项目，而是在运行时加"
-"载。这样有 2 个优势："
 
 msgid ""
 "The fonts are not included within the exported PCK file, leading to a "

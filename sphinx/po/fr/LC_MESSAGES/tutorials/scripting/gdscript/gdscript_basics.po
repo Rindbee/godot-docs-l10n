@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -240,23 +240,14 @@ msgstr "Convertit la valeur vers un type donné, si cela est possible."
 msgid "self"
 msgstr "self"
 
-msgid "Refers to current class instance."
-msgstr "Réfère à l'instance courante de la classe."
-
 msgid "super"
 msgstr "super"
 
 msgid "signal"
 msgstr "signal"
 
-msgid "Defines a signal."
-msgstr "Définit un signal."
-
 msgid "func"
 msgstr "func"
-
-msgid "Defines a function."
-msgstr "Définit une fonction."
 
 msgid "static"
 msgstr "static"
@@ -267,20 +258,11 @@ msgstr "Définit une fonction statique ou une variable membre statique."
 msgid "const"
 msgstr "const"
 
-msgid "Defines a constant."
-msgstr "Définit une constante."
-
 msgid "enum"
 msgstr "enum"
 
-msgid "Defines an enum."
-msgstr "Définit une énumération."
-
 msgid "var"
 msgstr "var"
-
-msgid "Defines a variable."
-msgstr "Définit une variable."
 
 msgid "breakpoint"
 msgstr "breakpoint"
@@ -2052,20 +2034,6 @@ msgstr ""
 
 msgid "Functions"
 msgstr "Fonctions"
-
-msgid ""
-"Functions always belong to a `class <Classes_>`_. The scope priority for "
-"variable look-up is: local → class member → global. The ``self`` variable is "
-"always available and is provided as an option for accessing class members, "
-"but is not always required (and should *not* be sent as the function's first "
-"argument, unlike Python)."
-msgstr ""
-"Les fonctions appartiennent toujours à une `classe <Classes_>`_. La priorité "
-"de portée pour la recherche de la variable est : locale → membre de classe → "
-"globale. La variable ``self`` est toujours disponible et est fournie comme "
-"option pour accéder aux membres de la classe, mais n'est pas toujours "
-"nécessaire (et ne devrait *pas* être envoyée comme premier argument de la "
-"fonction, contrairement à Python)."
 
 msgid ""
 "A function can ``return`` at any point. The default return value is ``null``."

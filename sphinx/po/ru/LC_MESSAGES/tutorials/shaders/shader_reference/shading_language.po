@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -254,11 +254,6 @@ msgid "Comments"
 msgstr "Комментарии"
 
 msgid ""
-"The shading language supports the same comment syntax as used in C# and C++:"
-msgstr ""
-"Язык шейдеров поддерживает тот же синтаксис комментариев, что и в C# и C++:"
-
-msgid ""
 "Additionally, you can use documentation comments that are displayed in the "
 "inspector when hovering a shader parameter. Documentation comments are "
 "currently only supported when placed immediately above a ``uniform`` "
@@ -449,16 +444,6 @@ msgstr ""
 
 msgid "Global arrays"
 msgstr "Глобальные массивы"
-
-msgid "You can declare arrays at global space like:"
-msgstr "Вы можете объявлять массивы в глобальном пространстве, например:"
-
-msgid ""
-"Global arrays have to be declared as global constants, otherwise they can be "
-"declared the same as local arrays."
-msgstr ""
-"Глобальные массивы должны быть объявлены как глобальные константы, в "
-"противном случае они могут быть объявлены так же, как и локальные массивы."
 
 msgid "Constants"
 msgstr "Константы"
@@ -726,14 +711,6 @@ msgid "Discarding"
 msgstr "Отбрасывание"
 
 msgid ""
-"Fragment and light functions can use the ``discard`` keyword. If used, the "
-"fragment is discarded and nothing is written."
-msgstr ""
-"Функции **Fragment** и **Light** могут использовать ключевое слово "
-"``discard``. Если оно используется, фрагмент отбрасывается и ничего не "
-"записывается."
-
-msgid ""
 "Beware that ``discard`` has a performance cost when used, as it will prevent "
 "the depth prepass from being effective on any surfaces using the shader. "
 "Also, a discarded pixel still needs to be rendered in the vertex shader, "
@@ -791,19 +768,6 @@ msgstr ""
 
 msgid "Example below:"
 msgstr "Пример ниже:"
-
-msgid ""
-"Unlike GLSL, Godot's shader language does **not** support function "
-"overloading. This means that a function cannot be defined several times with "
-"different argument types or numbers of arguments. As a workaround, use "
-"different names for functions that accept a different number of arguments or "
-"arguments of different types."
-msgstr ""
-"В отличие от GLSL, шейдерный язык Godot **не** поддерживает перегрузку "
-"функций. Это означает, что функция не может быть определена несколько раз с "
-"разными типами аргументов или их количеством. В качестве обходного пути "
-"используйте разные имена для функций, которые принимают разное количество "
-"аргументов или аргументы разных типов."
 
 msgid "Varyings"
 msgstr "Varуings"
@@ -880,70 +844,15 @@ msgstr ""
 msgid "Uniforms"
 msgstr "Uniform-переменные"
 
-msgid ""
-"Passing values to shaders is possible. These are global to the whole shader "
-"and are called *uniforms*. When a shader is later assigned to a material, "
-"the uniforms will appear as editable parameters in it. Uniforms can't be "
-"written from within the shader."
-msgstr ""
-"Передача значений в шейдеры возможна. Они являются глобальными для всего "
-"шейдера и называются *uniform*. Когда шейдер впоследствии будет назначен "
-"материалу, uniform-переменные появятся в нём как редактируемые параметры. "
-"Uniform-переменные не могут быть записаны изнутри шейдера."
+msgid "Uniforms can also be assigned default values:"
+msgstr "Униформе также можно присвоить значения по умолчанию:"
 
 msgid ""
-"You can set uniforms in the editor in the material. Or you can set them "
-"through GDScript:"
+"Note that when adding a default value and a hint, the default value goes "
+"after the hint."
 msgstr ""
-"Вы можете задать uniform-переменные в редакторе в материале. Или вы можете "
-"задать их через GDScript:"
-
-msgid ""
-"The first argument to ``set_shader_parameter`` is the name of the uniform in "
-"the shader. It must match *exactly* to the name of the uniform in the shader "
-"or else it will not be recognized."
-msgstr ""
-"Первый аргумент ``set_shader_parameter`` - это имя uniform-переменной в "
-"шейдере. Оно должно *точно* совпадать с именем uniform-переменной в шейдере, "
-"иначе она не будет распознана."
-
-msgid ""
-"Any GLSL type except for *void* can be a uniform. Additionally, Godot "
-"provides optional shader hints to make the compiler understand for what the "
-"uniform is used, and how the editor should allow users to modify it."
-msgstr ""
-"Любой тип GLSL, кроме *void*, может быть униформой. Кроме того, Godot "
-"предоставляет дополнительные подсказки для шейдеров, чтобы компилятор "
-"понимал, для чего используется униформа и как редактор должен позволять "
-"пользователям изменять её."
-
-msgid ""
-"It's important to understand that textures *that are supplied as color* "
-"require hints for proper sRGB -> linear conversion (i.e. ``source_color``), "
-"as Godot's 3D engine renders in linear color space. If this is not done, the "
-"texture will appear washed out."
-msgstr ""
-"Важно понимать, что текстуры, *которые поставляются как цветные*, требуют "
-"подсказки для правильного преобразования sRGB -> linear (т.е. "
-"``source_color`), поскольку 3D-движок Godot рендерит в линейном цветовом "
-"пространстве. Если этого не сделать, текстура будет выглядеть размытой."
-
-msgid ""
-"The 2D renderer also renders in linear color space if the **Rendering > "
-"Viewport > HDR 2D** project setting is enabled, so ``source_color`` must "
-"also be used in ``canvas_item`` shaders. If 2D HDR is disabled, "
-"``source_color`` will keep working correctly in ``canvas_item`` shaders, so "
-"it's recommend to use it either way."
-msgstr ""
-"2D-рендерер также рендерит в линейном цветовом пространстве, если включена "
-"настройка проекта **Rendering > Viewport > HDR 2D**, поэтому "
-"``source_color`` также должен использоваться в шейдерах ``canvas_item``. "
-"Если 2D HDR отключен, ``source_color`` будет продолжать корректно работать в "
-"шейдерах ``canvas_item``, поэтому рекомендуется использовать его в любом "
-"случае."
-
-msgid "Full list of hints below:"
-msgstr "Полный список подсказок ниже:"
+"Обратите внимание, что при добавлении значения по умолчанию и подсказки, "
+"значение по умолчанию идёт после подсказки."
 
 msgid "Hint"
 msgstr "Подсказка"
@@ -1019,90 +928,6 @@ msgid "Texture is the normal roughness texture (only supported in Forward+)."
 msgstr ""
 "Texture - обычная текстура шероховатости (поддерживается только в Forward+)."
 
-msgid ""
-"GDScript uses different variable types than GLSL does, so when passing "
-"variables from GDScript to shaders, Godot converts the type automatically. "
-"Below is a table of the corresponding types:"
-msgstr ""
-"GDScript использует переменные, отличающиеся от GLSL, поэтому при передаче "
-"переменных из GDScript в шейдер Godot автоматически преобразует тип. В "
-"таблице ниже указаны соответствующие типы:"
-
-msgid "GLSL type"
-msgstr "Типы GLSL"
-
-msgid "GDScript type"
-msgstr "Типы GDScript"
-
-msgid "Notes"
-msgstr "Примечания"
-
-msgid "Bitwise packed int where bit 0 (LSB) corresponds to x."
-msgstr "Побитовая упаковка int, где бит 0 (LSB) соответствует x."
-
-msgid "For example, a bvec2 of (bx, by) could be created in the following way:"
-msgstr "Например, bvec2 из (bx, by) можно создать следующим образом:"
-
-msgid "**Vector2**"
-msgstr "**Vector2**"
-
-msgid "When Color is used, it will be interpreted as (r, g, b)."
-msgstr "Когда используется Color (цвет), он интерпретируется как (r, g, b)."
-
-msgid "When Color is used, it will be interpreted as (r, g, b, a)."
-msgstr "Когда используется Color (цвет), он интерпретируется как (r, g, b, a)."
-
-msgid ""
-"When Rect2 is used, it will be interpreted as (position.x, position.y, size."
-"x, size.y)."
-msgstr ""
-"Если используется Rect2 (прямоугольник), он будет интерпретирован как "
-"(position.x, position.y, size.x, size.y)."
-
-msgid ""
-"When Plane is used it will be interpreted as (normal.x, normal.y, normal.z, "
-"d)."
-msgstr ""
-"Когда используется Plane (плоскость), это будет интерпретироваться как "
-"(normal.x, normal.y, normal.z, d)."
-
-msgid "**Transform2D**"
-msgstr "**Transform2D**"
-
-msgid "**Basis**"
-msgstr "**Basis**"
-
-msgid "When a Transform3D is used, the w Vector is set to the identity."
-msgstr ""
-"При использовании Transform3D вектор w устанавливается на идентичность."
-
-msgid ""
-"Be careful when setting shader uniforms from GDScript, no error will be "
-"thrown if the type does not match. Your shader will just exhibit undefined "
-"behavior."
-msgstr ""
-"Будьте осторожны при задании формы шейдера из GDScript, если тип не "
-"совпадает, ошибка не возникнет. Ваш шейдер просто будет демонстрировать "
-"неопределенное поведение."
-
-msgid "Uniforms can also be assigned default values:"
-msgstr "Униформе также можно присвоить значения по умолчанию:"
-
-msgid ""
-"Note that when adding a default value and a hint, the default value goes "
-"after the hint."
-msgstr ""
-"Обратите внимание, что при добавлении значения по умолчанию и подсказки, "
-"значение по умолчанию идёт после подсказки."
-
-msgid ""
-"If you need to make multiple uniforms to be grouped in the specific category "
-"of an inspector, you can use a `group_uniform` keyword like:"
-msgstr ""
-"Если вам нужно, чтобы несколько униформ были сгруппированы в определённой "
-"категории инспектора, вы можете использовать ключевое слово `group_uniform`, "
-"например:"
-
 msgid "You can close the group by using:"
 msgstr "Вы можете закрыть группу, используя:"
 
@@ -1177,16 +1002,6 @@ msgstr ""
 "быть определена в Настройках проекта."
 
 msgid ""
-"To change the value of a global uniform at run-time, use the :ref:"
-"`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` method in a "
-"script:"
-msgstr ""
-"Чтобы изменить значение глобальной uniform-переменной во время выполнения, "
-"используйте метод :ref:`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` в скрипте:"
-
-msgid ""
 "Assigning global uniform values can be done as many times as desired without "
 "impacting performance, as setting data doesn't require synchronization "
 "between the CPU and GPU."
@@ -1194,33 +1009,6 @@ msgstr ""
 "Присваивать глобальные uniform-значения можно сколько угодно раз без ущерба "
 "для производительности, поскольку установка данных не требует синхронизации "
 "между CPU и GPU."
-
-msgid "You can also add or remove global uniforms at run-time:"
-msgstr ""
-"Вы также можете добавлять или удалять глобальные uniform-переменные во время "
-"выполнения:"
-
-msgid ""
-"Adding or removing global uniforms at run-time has a performance cost, "
-"although it's not as pronounced compared to getting global uniform values "
-"from a script (see the warning below)."
-msgstr ""
-"Добавление или удаление глобальных uniform-переменных во время выполнения "
-"имеет свои издержки производительности, хотя они не так заметны по сравнению "
-"с получением значений глобальных uniform-переменных из скрипта (см. "
-"предупреждение ниже)."
-
-msgid ""
-"While you *can* query the value of a global uniform at run-time in a script "
-"using ``RenderingServer.global_shader_parameter_get(\"uniform_name\")``, "
-"this has a large performance penalty as the rendering thread needs to "
-"synchronize with the calling thread."
-msgstr ""
-"Хотя вы *можете* запросить значение глобальной uniform-переменной во время "
-"выполнения скрипта, используя ``RenderingServer."
-"global_shader_parameter_get(\"uniform_name\")``, это приводит к большим "
-"потерям производительности, поскольку поток рендеринга должен "
-"синхронизироваться с вызывающим потоком."
 
 msgid ""
 "Therefore, it's not recommended to read global shader uniform values "
@@ -1332,21 +1120,65 @@ msgstr ""
 "столкновений, указав вручную индекс (0-15) uniform-переменной экземпляра с "
 "помощью подсказки ``instance_index``:"
 
-msgid "Built-in variables"
-msgstr "Встроенные переменные"
+msgid ""
+"GDScript uses different variable types than GLSL does, so when passing "
+"variables from GDScript to shaders, Godot converts the type automatically. "
+"Below is a table of the corresponding types:"
+msgstr ""
+"GDScript использует переменные, отличающиеся от GLSL, поэтому при передаче "
+"переменных из GDScript в шейдер Godot автоматически преобразует тип. В "
+"таблице ниже указаны соответствующие типы:"
+
+msgid "GLSL type"
+msgstr "Типы GLSL"
+
+msgid "GDScript type"
+msgstr "Типы GDScript"
+
+msgid "Notes"
+msgstr "Примечания"
+
+msgid "Bitwise packed int where bit 0 (LSB) corresponds to x."
+msgstr "Побитовая упаковка int, где бит 0 (LSB) соответствует x."
+
+msgid "For example, a bvec2 of (bx, by) could be created in the following way:"
+msgstr "Например, bvec2 из (bx, by) можно создать следующим образом:"
+
+msgid "**Vector2**"
+msgstr "**Vector2**"
+
+msgid "When Color is used, it will be interpreted as (r, g, b)."
+msgstr "Когда используется Color (цвет), он интерпретируется как (r, g, b)."
+
+msgid "When Color is used, it will be interpreted as (r, g, b, a)."
+msgstr "Когда используется Color (цвет), он интерпретируется как (r, g, b, a)."
 
 msgid ""
-"A large number of built-in variables are available, like ``UV``, ``COLOR`` "
-"and ``VERTEX``. What variables are available depends on the type of shader "
-"(``spatial``, ``canvas_item`` or ``particle``) and the function used "
-"(``vertex``, ``fragment`` or ``light``). For a list of the built-in "
-"variables that are available, please see the corresponding pages:"
+"When Rect2 is used, it will be interpreted as (position.x, position.y, size."
+"x, size.y)."
 msgstr ""
-"Доступно большое количество встроенных переменных, таких как ``UV``, "
-"``COLOR`` и ``VERTEX``. Доступность переменных зависит от типа шейдера "
-"(``spatial``, ``canvas_item`` или ``particle``) и используемой функции "
-"(``vertex``, ``fragment`` или ``light``). Список доступных встроенных "
-"переменных можно найти на соответствующих страницах:"
+"Если используется Rect2 (прямоугольник), он будет интерпретирован как "
+"(position.x, position.y, size.x, size.y)."
+
+msgid ""
+"When Plane is used it will be interpreted as (normal.x, normal.y, normal.z, "
+"d)."
+msgstr ""
+"Когда используется Plane (плоскость), это будет интерпретироваться как "
+"(normal.x, normal.y, normal.z, d)."
+
+msgid "**Transform2D**"
+msgstr "**Transform2D**"
+
+msgid "**Basis**"
+msgstr "**Basis**"
+
+msgid "When a Transform3D is used, the w Vector is set to the identity."
+msgstr ""
+"При использовании Transform3D вектор w устанавливается на идентичность."
+
+msgid "Built-in variables"
+msgstr "Встроенные переменные"
 
 msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
 msgstr ":ref:`Шейдеры Spatial <doc_spatial_shader>` (3D)"
@@ -1366,472 +1198,3 @@ msgstr ":ref:`Шейдеры тумана <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "Встроенные функции"
-
-msgid ""
-"A large number of built-in functions are supported, conforming to GLSL ES "
-"3.0. When vec_type (float), vec_int_type, vec_uint_type, vec_bool_type "
-"nomenclature is used, it can be scalar or vector."
-msgstr ""
-"Поддерживается большое количество встроенных функций, соответствующих GLSL "
-"ES 3.0. При использовании номенклатуры vec_type (float), vec_int_type, "
-"vec_uint_type, vec_bool_type могут быть скалярными или векторными."
-
-msgid "Function"
-msgstr "Функция"
-
-msgid "Description / Return value"
-msgstr "Описание / Возвращаемое значение"
-
-msgid "Convert degrees to radians."
-msgstr "Преобразование градусов в радианы."
-
-msgid "Convert radians to degrees."
-msgstr "Преобразование радиан в градусы."
-
-msgid "Sine."
-msgstr "Синус."
-
-msgid "Cosine."
-msgstr "Косинус."
-
-msgid "Tangent."
-msgstr "Тангенс."
-
-msgid "Arcsine."
-msgstr "Арксинус."
-
-msgid "Arccosine."
-msgstr "Арккосинус."
-
-msgid "Arctangent."
-msgstr "Арктангенс."
-
-msgid "Hyperbolic sine."
-msgstr "Гиперболический синус."
-
-msgid "Hyperbolic cosine."
-msgstr "Гиперболический косинус."
-
-msgid "Hyperbolic tangent."
-msgstr "Гиперболический тангенс."
-
-msgid "Inverse hyperbolic sine."
-msgstr "Обратный гиперболический синус."
-
-msgid "Inverse hyperbolic cosine."
-msgstr "Обратный гиперболический косинус."
-
-msgid "Inverse hyperbolic tangent."
-msgstr "Обратный гиперболический тангенс."
-
-msgid "Power (undefined if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)."
-msgstr "Power (неопределено, если ``x`` < 0 или если ``x`` == 0 и ``y`` <= 0)."
-
-msgid "Base-e exponential."
-msgstr "Экспонента."
-
-msgid "Base-2 exponential."
-msgstr "Экспонента по основанию 2."
-
-msgid "Natural logarithm."
-msgstr "Натуральный логарифм."
-
-msgid "Base-2 logarithm."
-msgstr "Логарифм по основанию 2."
-
-msgid "Square root."
-msgstr "Квадратный корень."
-
-msgid "Inverse square root."
-msgstr "Обратный квадратный корень."
-
-msgid "Absolute value (returns positive value if negative)."
-msgstr ""
-"Абсолютное значение (возвращает положительное значение если отрицательно)."
-
-msgid ""
-"Sign (returns ``1.0`` if positive, ``-1.0`` if negative, ``0.0`` if zero)."
-msgstr ""
-"Знак числа (возвращает ``1.0`` если положительно, ``-1.0`` если "
-"отрицательно, ``0.0`` если ноль)."
-
-msgid "vec_type **floor** (vec_type x)"
-msgstr "vec_type **floor** (vec_type x)"
-
-msgid "Round to the integer below."
-msgstr "Округление до целого в меньшую сторону (floor(3.9)=3)."
-
-msgid "Round to the nearest integer."
-msgstr "Округление до ближайшего целого."
-
-msgid "Round to the nearest even integer."
-msgstr "Округление до ближайшего чётного целого."
-
-msgid "Truncation."
-msgstr "Усечение (trunc(123.56) = 123)."
-
-msgid "Round to the integer above."
-msgstr "Округление до целого в большую сторону."
-
-msgid "Fractional (returns ``x - floor(x)``)."
-msgstr "Дробная часть (возвращает ``x - floor(x)``)."
-
-msgid "Modulo (division remainder)."
-msgstr "Модуль (остаток от деления)."
-
-msgid "Fractional of ``x``, with ``i`` as integer part."
-msgstr "Дробь от ``x``, с ``i`` в качестве целой части."
-
-msgid "Lowest value between ``a`` and ``b``."
-msgstr "Наименьшее значение между ``a`` и ``b``."
-
-msgid "Highest value between ``a`` and ``b``."
-msgstr "Наибольшее значение между ``a`` и ``b``."
-
-msgid "Clamp ``x`` between ``min`` and ``max`` (inclusive)."
-msgstr "Ограничение (диапазон) ``x`` между ``min`` и ``max`` (включительно)."
-
-msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
-msgstr "Линейная интерполяция между ``a`` и ``b`` по ``c``."
-
-msgid ""
-"Performs a fused multiply-add operation: ``(a * b + c)`` (faster than doing "
-"it manually)."
-msgstr ""
-"Выполняет операцию умножения и сложения: ``(a * b + c)`` (быстрее, чем "
-"вручную)."
-
-msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
-msgstr "Эрмитова интерполяция между ``a`` и ``b`` по ``c``."
-
-msgid "Returns ``true`` if scalar or vector component is ``NaN``."
-msgstr ""
-"Возвращает ``true``, если скалярная или векторная компонента является "
-"``NaN``."
-
-msgid "Returns ``true`` if scalar or vector component is ``INF``."
-msgstr ""
-"Возвращает ``true``, если скалярный или векторный компонент является ``INF``."
-
-msgid "Float->Int bit copying, no conversion."
-msgstr "Побитовое копирование Float->Int, без преобразования."
-
-msgid "Float->UInt bit copying, no conversion."
-msgstr "Побитовое копирование Float->UInt, без преобразования."
-
-msgid "Int->Float bit copying, no conversion."
-msgstr "Побитовое копирование Int->Float, без преобразования."
-
-msgid "UInt->Float bit copying, no conversion."
-msgstr "Побитовое копирование UInt->Float, без преобразования."
-
-msgid "Vector length."
-msgstr "Длина вектора."
-
-msgid "Distance between vectors i.e ``length(a - b)``."
-msgstr "Расстояние между векторами, т.е. ``length(a - b)``."
-
-msgid "Dot product."
-msgstr "Скалярное произведение."
-
-msgid "Cross product."
-msgstr "Векторное произведение."
-
-msgid "Normalize to unit length."
-msgstr "Нармализация к единицы длины."
-
-msgid "Reflect."
-msgstr "Отражение."
-
-msgid "Refract."
-msgstr "Преломление."
-
-msgid "Matrix component multiplication."
-msgstr "Скалярное перемножение."
-
-msgid "Matrix outer product."
-msgstr "Матричное внешнее произведение."
-
-msgid "Transpose matrix."
-msgstr "Транспонирование матрицы."
-
-msgid "Matrix determinant."
-msgstr "Матричный определитель."
-
-msgid "Inverse matrix."
-msgstr "Обратная матрица."
-
-msgid "Bool vector comparison on < int/uint/float vectors."
-msgstr "Логическое сравнение векторов < int/uint/float."
-
-msgid "Bool vector comparison on > int/uint/float vectors."
-msgstr "Логическое сравнение векторов > int/uint/float."
-
-msgid "Bool vector comparison on <= int/uint/float vectors."
-msgstr "Логическое сравнение векторов <= int/uint/float."
-
-msgid "Bool vector comparison on >= int/uint/float vectors."
-msgstr "Логическое сравнение векторов >= int/uint/float."
-
-msgid "Bool vector comparison on == int/uint/float vectors."
-msgstr "Логическое сравнение векторов == int/uint/float."
-
-msgid "Bool vector comparison on != int/uint/float vectors."
-msgstr "Логическое сравнение векторов != int/uint/float."
-
-msgid "``true`` if any component is ``true``, ``false`` otherwise."
-msgstr "``true`` если любой компонент является ``true``, иначе ``false``."
-
-msgid "``true`` if all components are ``true``, ``false`` otherwise."
-msgstr "``true`` если все компоненты являются ``true``, иначе ``false``."
-
-msgid "Invert boolean vector."
-msgstr "Обратный логический вектор."
-
-msgid "Get the size of a texture."
-msgstr "Получает размер текстуры."
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0`` will use "
-"the full resolution texture."
-msgstr ""
-"LOD определяет, какой уровень mipmap будет использоваться. При значении LOD, "
-"равном ``0``, будет использоваться текстура с полным разрешением."
-
-msgid ""
-"Compute the level-of-detail that would be used to sample from a texture. The "
-"``x`` component of the resulted value is the mipmap array that would be "
-"accessed. The ``y`` component is computed level-of-detail relative to the "
-"base level (regardless of the mipmap levels of the texture)."
-msgstr ""
-"Вычисляет уровень детализации, который будет использоваться для выборки из "
-"текстуры. Компонент ``x`` полученного значения - это массив mipmap, к "
-"которому будет осуществляться доступ. Компонент ``y`` - это вычисленный "
-"уровень детализации относительно базового уровня (независимо от уровней "
-"mipmap текстуры)."
-
-msgid "Get the number of accessible mipmap levels of a texture."
-msgstr "Получает количество доступных уровней mipmap текстуры."
-
-msgid "Perform a texture read."
-msgstr "Выполняет чтение текстуры."
-
-msgid "Perform a texture read with projection."
-msgstr "Выполняет чтение текстуры с проекцией."
-
-msgid "Perform a texture read at custom mipmap."
-msgstr "Выполняет чтение текстуры с пользовательской mipmap."
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0.0`` will use "
-"the full resolution texture. If the texture lacks mipmaps, all LOD values "
-"will act like ``0.0``."
-msgstr ""
-"LOD определяет, какой уровень mipmap будет использоваться. Значение LOD, "
-"равное ``0.0``, будет использовать текстуру с полным разрешением. Если "
-"текстура не имеет mipmap, то все значения LOD будут работать как ``0.0``."
-
-msgid "Performs a texture read with projection/LOD."
-msgstr "Выполняет чтение текстуры с проекцией/LOD."
-
-msgid "Performs a texture read with explicit gradients."
-msgstr "Выполняет чтение текстуры с явными градиентами."
-
-msgid ""
-"Performs a texture read with projection/LOD and with explicit gradients."
-msgstr "Выполняет чтение текстуры с проекцией/LOD и с явными градиентами."
-
-msgid "Fetches a single texel using integer coordinates."
-msgstr "Получает один тексель, используя целочисленные координаты."
-
-msgid ""
-"Gathers four texels from a texture. Use ``comps`` within range of 0..3 to "
-"define which component (x, y, z, w) is returned. If ``comps`` is not "
-"provided: 0 (or x-component) is used."
-msgstr ""
-"Собирает четыре текселя из текстуры. Используйте ``comps`` в диапазоне 0..3, "
-"чтобы определить, какой компонент (x, y, z, w) будет возвращён. Если "
-"``comps`` не указан: 0 (или x-компонент) будет использован."
-
-msgid ""
-"Derivative in ``x`` using local differencing. Internally, can use either "
-"``dFdxCoarse`` or ``dFdxFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-"Производная в ``x`` с использованием локального дифферента. Внутренне может "
-"использовать либо ``dFdxCoarse``, либо ``dFdxFine``, но решение о том, что "
-"использовать, принимает драйвер GPU."
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-"Вычисляет производную по координате окна ``x`` с использованием локального "
-"дифференцирования на основе значения ``p`` для соседей (соседей) текущего "
-"фрагмента, и возможно, но не обязательно, включает значение для текущего "
-"фрагмента. Эта функция недоступна для профиля ``gl_compatibility``."
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-"Вычисляет производную по координате окна ``x`` с помощью локального "
-"дифференцирования на основе значения ``p`` для текущего фрагмента и его "
-"ближайшего соседа (соседей). Эта функция недоступна для профиля "
-"``gl_compatibility``."
-
-msgid ""
-"Derivative in ``y`` using local differencing. Internally, can use either "
-"``dFdyCoarse`` or ``dFdyFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-"Производная в ``y`` с использованием локального дифференцирования. Внутренне "
-"может использовать либо ``dFdyCoarse``, либо ``dFdyFine``, но решение о том, "
-"что использовать, принимает драйвер GPU."
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-"Вычисляет производную по оконной координате ``y`` с использованием "
-"локального дифференцирования на основе значения ``p`` для соседей (соседей) "
-"текущего фрагмента, и возможно, но не обязательно, включает значение для "
-"текущего фрагмента. Эта функция недоступна для профиля ``gl_compatibility``."
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-"Вычисляет производную по оконной координате ``y`` с помощью локального "
-"дифференцирования на основе значения ``p`` для текущего фрагмента и его "
-"ближайшего соседа/соседей. Эта функция недоступна для профиля "
-"``gl_compatibility``."
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdx(p)) + abs(dFdy(p))``."
-msgstr ""
-"Сумма абсолютных производных по ``x`` и ``y``. Это эквивалентно "
-"использованию ``abs(dFdx(p)) + abs(dFdy(p))``."
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-"Сумма абсолютных производных по ``x`` и ``y``. Это эквивалентно "
-"использованию ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``. Эта функция "
-"недоступна в профиле ``gl_compatibility``."
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-"Сумма абсолютных производных по ``x`` и ``y``. Это эквивалентно "
-"использованию ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. Эта функция "
-"недоступна в профиле ``gl_compatibility``."
-
-msgid ""
-"Convert two 32-bit floating-point numbers into 16-bit and pack them into a "
-"32-bit unsigned integer and vice-versa."
-msgstr ""
-"Преобразование двух 32-битных чисел с плавающей точкой в 16-битные и "
-"упаковка их в 32-битное беззнаковое целое число и наоборот."
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within 0..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Преобразование двух 32-битных чисел с плавающей точкой (в диапазоне 0..1) в "
-"16-битные и упаковка их в 32-битное беззнаковое целое число и наоборот."
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within -1..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Преобразование двух 32-битных чисел с плавающей точкой (в диапазоне -1..1) в "
-"16-битные и упаковка их в 32-битное беззнаковое целое число и наоборот."
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within 0..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Преобразование четырёх 32-битных чисел с плавающей точкой (в диапазоне 0..1) "
-"в 8-битные и их упаковка в 32-битное беззнаковое целое число, и наоборот."
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within -1..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Преобразование четырёх 32-битных чисел с плавающей точкой (в диапазоне "
-"-1..1) в 8-битные и их упаковка в 32-битное беззнаковое целое число, и "
-"наоборот."
-
-msgid "Extracts a range of bits from an integer."
-msgstr "Извлечение диапазона битов из целого числа."
-
-msgid "Insert a range of bits into an integer."
-msgstr "Вставка диапазона битов в целое число."
-
-msgid "Reverse the order of bits in an integer."
-msgstr "Изменение порядка следования битов в целых числах."
-
-msgid "Counts the number of 1 bits in an integer."
-msgstr "Подсчитывает количество бит 1 в целых числах."
-
-msgid "Find the index of the least significant bit set to 1 in an integer."
-msgstr ""
-"Находит индекс наименьшего значащего бита, установленного в 1, в целом числе."
-
-msgid "Find the index of the most significant bit set to 1 in an integer."
-msgstr "Находит индекс старшего бита, установленного в 1, в целом числе."
-
-msgid ""
-"Multiplies two 32-bit numbers and produce a 64-bit result. ``x`` - the first "
-"number. ``y`` - the second number. ``msb`` - will contain the most "
-"significant bits. ``lsb`` - will contain the least significant bits."
-msgstr ""
-"Перемножает два 32-битных числа и выдает 64-битный результат. ``x`` - первое "
-"число. ``y`` - второе число. ``msb`` - будет содержать старшие значащие "
-"биты. ``lsb`` - содержит младшие значащие биты."
-
-msgid "Adds two unsigned integers and generates carry."
-msgstr "Складывает два беззнаковых целых числа и генерирует перенос."
-
-msgid "Subtracts two unsigned integers and generates borrow."
-msgstr "Вычитает два беззнаковых целых числа и генерирует заимствование."
-
-msgid "Assemble a floating-point number from a value and exponent."
-msgstr "Сборка числа с плавающей точкой из значения и экспоненты."
-
-msgid ""
-"If this product is too large to be represented in the floating-point type "
-"the result is undefined."
-msgstr ""
-"Если это произведение слишком велико для представления в типе с плавающей "
-"точкой, результат будет не определён."
-
-msgid ""
-"Splits a floating-point number(``x``) into significand (in the range of "
-"[0.5, 1.0]) and an integral exponent."
-msgstr ""
-"Разделяет число с плавающей точкой(``x``) на сигнификат (в диапазоне [0.5, "
-"1.0]) и интегральную экспоненту."
-
-msgid ""
-"For ``x`` equals zero the significand and exponent are both zero. For ``x`` "
-"of infinity or NaN, the results are undefined."
-msgstr ""
-"Для ``x``, равного нулю, сигнификат и экспонента равны нулю. Для ``x``, "
-"равного бесконечности или NaN, результат будет не определён."

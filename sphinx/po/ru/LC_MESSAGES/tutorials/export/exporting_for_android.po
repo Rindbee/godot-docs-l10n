@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -65,13 +65,6 @@ msgstr ""
 msgid "Setting it up in Godot"
 msgstr "Настройка в Godot"
 
-msgid ""
-"Enter the Editor Settings screen. This screen contains the editor settings "
-"for the user account in the computer (it's independent of the project)."
-msgstr ""
-"Войдите в экран настроек редактора. Этот экран содержит настройки редактора "
-"для учетной записи пользователя на компьютере (не зависит от проекта)."
-
 msgid "Scroll down to the section where the Android settings are located:"
 msgstr "Прокрутите вниз в раздел, где расположены настройки Android:"
 
@@ -113,9 +106,6 @@ msgstr ""
 "представления вашего приложения пользователям. Godot требует только значки с "
 "высоким разрешением (для экранов с плотностью ``xxxhdpi``) и автоматически "
 "генерирует варианты с более низким разрешением."
-
-msgid "There are two types of icons required by Godot:"
-msgstr "Существует два вида иконок необходимых в Godot:"
 
 msgid ""
 "**Main Icon:** The \"classic\" icon. This will be used on all Android "
@@ -160,14 +150,6 @@ msgstr ""
 "критических элементов значка внутри безопасной зоны: по центру круга "
 "диаметром 66dp (264 пикселя на ``xxxhdpi``), чтобы избежать обрезки при "
 "запуске."
-
-msgid ""
-"If you don't provide some of the requested icons, Godot will replace them "
-"using a fallback chain, trying the next in line when the current one fails:"
-msgstr ""
-"Если вы не предоставите некоторые из запрошенных значков, Godot заменит их, "
-"используя цепь отката, перебирая следующую в очереди, когда текущая не "
-"удаётся:"
 
 msgid ""
 "**Main Icon:** Provided main icon -> Project icon -> Default Godot main icon."

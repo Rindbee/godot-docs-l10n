@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -100,18 +100,6 @@ msgid ""
 "The following optional placeholders will enable some extra features in your "
 "custom HTML template."
 msgstr "以下可选的占位符将在你的自定义 HTML 模板中实现一些额外的功能。"
-
-msgid ""
-"``$GODOT_PROJECT_NAME``: The project name as defined in the Project "
-"Settings. It is a good idea to use it as a ``<title>`` in your template."
-msgstr ""
-"``$GODOT_PROJECT_NAME``: 在项目设置中定义的项目名称。在你的模板中使用它作为 "
-"``<title>`` 是一个好主意。"
-
-msgid ""
-"``$GODOT_SPLASH``: Path to an image used as the boot splash as defined in "
-"the Project Settings."
-msgstr "``$GODOT_SPLASH``\\ ：项目设置中定义的用作启动画面的图像的路径。"
 
 msgid ""
 "When the custom page is ready, it can be selected in the export options "

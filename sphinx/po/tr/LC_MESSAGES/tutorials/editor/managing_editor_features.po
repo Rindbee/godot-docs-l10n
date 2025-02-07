@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -16,18 +16,6 @@ msgstr "Düzenleyici özelliklerini yönetmek"
 
 msgid "Introduction"
 msgstr "Giriş"
-
-msgid ""
-"In certain situations, it may be desirable to limit what features can be "
-"used in the Godot editor. For example, a UI designer on a team who doesn't "
-"need to see 3D features, or an educator slowly introducing features to "
-"students. Godot has a built in system called \"feature profiles\" to do this."
-msgstr ""
-"Bazı durumlarda, Godot düzenleyicisinde kullanılabilecek özelliklerin "
-"sınırlandırılması istenebilir. Örneğin, bir ekipteki 3D özellikleri görmesi "
-"gerekmeyen bir kullanıcı arayüzü tasarımcısı veya özellikleri öğrencilere "
-"yavaş adımlarla tanıtan bir eğitimci. Godot, bunu yapmak için \"özellik "
-"profilleri\" adı verilen yerleşik bir sisteme sahiptir."
 
 msgid ""
 "With feature profiles, major features and nodes can be hidden from the "

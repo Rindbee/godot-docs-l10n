@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -118,14 +118,6 @@ msgid ""
 msgstr ""
 "欲瞭解更多有關觀察者模式的資訊，請參考：https://gameprogrammingpatterns.com/"
 "observer.html"
-
-msgid ""
-"For example, buttons emit a signal when pressed. You can connect to this "
-"signal to run code in reaction to this event, like starting the game or "
-"opening a menu."
-msgstr ""
-"例如，按鈕在按下時會發出訊號。您可以連接到此訊號以運作程式碼以回應此事件，例"
-"如啟動遊戲或打開功能表。"
 
 msgid ""
 "Other built-in signals can tell you when two objects collided, when a "

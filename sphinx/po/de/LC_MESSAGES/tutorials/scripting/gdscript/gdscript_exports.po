@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -137,36 +137,12 @@ msgstr ""
 msgid "Strings as paths"
 msgstr "Strings als Pfade"
 
-msgid "String as a path to a file."
-msgstr "String als Pfad zu einer Datei."
-
-msgid "String as a path to a directory."
-msgstr "String als Pfad zu einem Verzeichnis."
-
-msgid "String as a path to a file, custom filter provided as hint."
-msgstr ""
-"String als Pfad zu einer Datei, benutzerdefinierter Filter wird als Hint "
-"angegeben."
-
 msgid ""
 "Using paths in the global filesystem is also possible, but only in scripts "
 "in tool mode."
 msgstr ""
 "Die Verwendung von Pfaden im globalen Dateisystem ist ebenfalls möglich, "
 "allerdings nur in Skripten im Tool-Modus."
-
-msgid "String as a path to a PNG file in the global filesystem."
-msgstr "String als Pfad zu einer PNG-Datei im globalen Dateisystem."
-
-msgid "String as a path to a directory in the global filesystem."
-msgstr "String als Pfad zu einem Verzeichnis im globalen Dateisystem."
-
-msgid ""
-"The multiline annotation tells the editor to show a large input field for "
-"editing over multiple lines."
-msgstr ""
-"Die mehrzeilige Annotation weist den Editor an, ein großes Eingabefeld zur "
-"Bearbeitung über mehrere Zeilen anzuzeigen."
 
 msgid "Limiting editor input ranges"
 msgstr "Begrenzung der Eingabebereiche des Editors"
@@ -190,9 +166,6 @@ msgstr "Farben"
 
 msgid "Regular color given as red-green-blue-alpha value."
 msgstr "Normale Farbe, die als Rot-Grün-Blau-Alpha-Wert angegeben wird."
-
-msgid "Color given as red-green-blue value (alpha will always be 1)."
-msgstr "Die Farbe wird als Rot-Grün-Blau-Wert angegeben (Alpha ist immer 1)."
 
 msgid "Nodes"
 msgstr "Nodes"
@@ -236,13 +209,6 @@ msgstr ""
 "Das Öffnen des Inspektor-Dropdowns kann jedoch zu einer extrem langen Liste "
 "möglicher zu erstellender Klassen führen. Wenn Sie daher eine Erweiterung "
 "der Ressource angeben, wie z. B.:"
-
-msgid ""
-"The drop-down menu will be limited to AnimationNode and all its inherited "
-"classes."
-msgstr ""
-"Das Dropdown-Menü wird auf AnimationNode und alle seine geerbten Klassen "
-"beschränkt."
 
 msgid ""
 "It must be noted that even if the script is not being run while in the "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -225,14 +225,6 @@ msgstr ""
 "**Valor de asignación inicial:** la propiedad tendr{a asignado su valor de "
 "inicialización o su valor por defecto si no es especificado. Si existe un "
 "setter, este no será usado."
-
-msgid ""
-"**``_init()`` assignment:** the property's value is replaced by any "
-"assignments made in ``_init()``, triggering the setter."
-msgstr ""
-"**asignación de ``_init()``:** la asignación del valor de la propiedad es "
-"reemplazado por cualquier asignación hecha en ``_init()``, disparando el "
-"setter."
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

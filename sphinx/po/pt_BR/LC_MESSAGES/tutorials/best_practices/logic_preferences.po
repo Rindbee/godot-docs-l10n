@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,13 +46,6 @@ msgstr ""
 "maioria dos casos, esse código não afeta o desempenho do seu jogo, mas em "
 "casos de uso intenso, como geração procedural, ele pode fazer o jogo ficar "
 "extremamente lento."
-
-msgid ""
-"For these reasons, it is always a best practice to set the initial values of "
-"a node before adding it to the scene tree."
-msgstr ""
-"Por essas razões, é sempre uma boa prática definir os valores iniciais de um "
-"nó antes de adicioná-lo à árvore de cenas."
 
 msgid "Loading vs. preloading"
 msgstr "Carregamento vs. pré-carregamento"

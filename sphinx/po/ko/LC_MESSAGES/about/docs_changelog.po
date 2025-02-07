@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,17 +14,35 @@ msgstr ""
 msgid "Documentation changelog"
 msgstr "문서 변경 내역"
 
-msgid "About"
-msgstr "정보"
-
 msgid "2D"
 msgstr "2D"
 
-msgid "Contributing"
-msgstr "기여하기"
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "디버그"
+
+msgid "Editor"
+msgstr "에디터"
+
+msgid "Performance"
+msgstr "성능"
+
+msgid "Physics"
+msgstr "물리"
 
 msgid "Rendering"
 msgstr "렌더링"
+
+msgid "Shaders"
+msgstr "셰이더"
+
+msgid "About"
+msgstr "정보"
+
+msgid "Contributing"
+msgstr "기여하기"
 
 msgid "C#"
 msgstr "C#"
@@ -38,12 +56,6 @@ msgstr "입출력 (I/O)"
 msgid "Platform-specific"
 msgstr "플랫폼 특화(Platform-specific)"
 
-msgid "Physics"
-msgstr "물리"
-
-msgid "3D"
-msgstr "3D"
-
 msgid "Animation"
 msgstr "애니메이션"
 
@@ -53,14 +65,8 @@ msgstr "에셋 파이프라인"
 msgid "Scripting"
 msgstr "스크립팅(Scripting)"
 
-msgid "Shaders"
-msgstr "셰이더"
-
 msgid "Workflow"
 msgstr "워크플로"
-
-msgid "Editor"
-msgstr "에디터"
 
 msgid "GDScript"
 msgstr "GDScript"

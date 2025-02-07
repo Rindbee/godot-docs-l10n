@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,9 +46,6 @@ msgstr "项目是从编辑器运行还是从“独立”二进制文件运行。
 
 msgid "Many more things."
 msgstr "其他更多的东西。"
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr "可以在运行时通过调用以下功能从单例 API 查询功能："
 
 msgid ""
 "OS feature tags are used by GDExtension to determine which libraries to "
@@ -320,17 +317,6 @@ msgstr "**movie**"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ":ref:`Movie Maker 模式 <doc_creating_movies>`\\ 已激活"
 
-msgid ""
-"With the exception of texture compression, ``web_<platform>`` and ``movie`` "
-"feature tags, default feature tags are **immutable**. This means that they "
-"will *not* change depending on run-time conditions. For example, ``OS."
-"has_feature(\"mobile\")`` will return ``false`` when running a project "
-"exported to Web on a mobile device."
-msgstr ""
-"除了纹理压缩特性标签之外，默认的特性标签都是 **不可修改** 的。这意味着它们 *"
-"不会* 根据运行时的情况变化。例如，在移动设备上运行导出为 HTML5 的项目时，\\ "
-"``OS.has_feature(\"mobile\")`` 返回的是 ``false``\\ 。"
-
 msgid "Custom features"
 msgstr "自定义功能"
 
@@ -367,9 +353,6 @@ msgid ""
 msgstr ""
 "在下面的示例中，为游戏的演示版本添加了一个不同的图标（在特定的导出预设中进行"
 "了自定义，而该预设仅包含演示关卡）。"
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr "覆盖后, 将为此特定配置添加一个新字段:"
 
 msgid ""
 "When using the :ref:`project settings \"override.cfg\" functionality "

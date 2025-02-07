@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -46,24 +46,8 @@ msgstr "Désactiver la force d'attracteur."
 msgid "**disable_velocity**"
 msgstr "**disable_velocity**"
 
-msgid "Ignore **VELOCITY** value."
-msgstr "Ignorer la valeur de **VELOCITY**."
-
 msgid "Built-ins"
 msgstr "Variables intégrées"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"Les valeurs marquées comme \"in\" sont en lecture seule. Les valeurs "
-"marquées comme \"out\" sont pour l'écriture facultative et ne contiendront "
-"pas nécessairement de valeurs sensibles. Les valeurs marquées comme "
-"\"inout\" fournissent une valeur par défaut sensible et peuvent "
-"éventuellement être réécrites. Les échantillonneurs ne sont pas soumis à "
-"l'écriture et ne sont pas marqués."
 
 msgid "Global built-ins"
 msgstr "Variables intégrées Globales"
@@ -141,12 +125,6 @@ msgstr "Transformation de particules."
 
 msgid "inout vec4 **CUSTOM**"
 msgstr "inout vec4 **CUSTOM**"
-
-msgid ""
-"Custom particle data. Accessible from shader of mesh as **INSTANCE_CUSTOM**."
-msgstr ""
-"Données personnalisées des particules. Accessible depuis le shader de la "
-"maille comme **INSTANCE_CUSTOM**."
 
 msgid "in bool **RESTART**"
 msgstr "in bool **RESTART**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -230,9 +230,6 @@ msgstr "可能であれば、指定した型に値をキャストします。"
 msgid "self"
 msgstr "\\ self"
 
-msgid "Refers to current class instance."
-msgstr "現在のクラスインスタンスを参照します。"
-
 msgid "super"
 msgstr "\\ super"
 
@@ -242,14 +239,8 @@ msgstr "親メソッドのスコープを解決します。 `Inheritance`_ を�
 msgid "signal"
 msgstr "\\ signal"
 
-msgid "Defines a signal."
-msgstr "シグナルを定義します。"
-
 msgid "func"
 msgstr "\\ func"
-
-msgid "Defines a function."
-msgstr "関数を定義します。"
 
 msgid "static"
 msgstr "\\ static"
@@ -260,20 +251,11 @@ msgstr "静的関数または静的メンバー変数を定義します。"
 msgid "const"
 msgstr "\\ const"
 
-msgid "Defines a constant."
-msgstr "定数を定義します。"
-
 msgid "enum"
 msgstr "\\ enum"
 
-msgid "Defines an enum."
-msgstr "列挙型を定義します。"
-
 msgid "var"
 msgstr "\\ var"
-
-msgid "Defines a variable."
-msgstr "変数を定義します。"
 
 msgid "breakpoint"
 msgstr "\\ breakpoint"
@@ -1891,18 +1873,6 @@ msgstr ""
 
 msgid "Functions"
 msgstr "関数"
-
-msgid ""
-"Functions always belong to a `class <Classes_>`_. The scope priority for "
-"variable look-up is: local → class member → global. The ``self`` variable is "
-"always available and is provided as an option for accessing class members, "
-"but is not always required (and should *not* be sent as the function's first "
-"argument, unlike Python)."
-msgstr ""
-"関数は常に `class <Classes_>`_\\ に属します。 変数検索のスコープ優先順位は、"
-"ローカル→クラスメンバー→グローバルです。 ``self`` 変数は常に利用可能でクラス"
-"メンバにアクセスするためのオプションとして提供されていますが、必ずしも必要で"
-"はありません(Pythonとは異なり、関数の最初の引数として送信しないでください)。"
 
 msgid ""
 "A function can ``return`` at any point. The default return value is ``null``."

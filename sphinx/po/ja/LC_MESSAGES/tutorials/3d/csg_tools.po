@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,17 +33,6 @@ msgstr ""
 "クにより、ユーザーはプリミティブを組み合わせることで、レベル地形でよく使われ"
 "るような形状を作れます。インテリアマッピングも反転したプリミティブで作成でき"
 "ます。"
-
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"GodotのCSGノードは主にプロトタイピングを目的としています。UVマッピングや3Dポ"
-"リゴンの編集機能は組み込まれていません (ただし2Dポリゴンの押し出し機能は"
-"CSGPolygon3Dノードで使用できます)。またCSGは穴のない複数のノードで構成された"
-"メッシュを確実に作成することはできません。"
 
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
@@ -157,28 +146,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "カスタム メッシュ"
-
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"\\ :ref:`CSGMesh3D <class_CSGMesh3D>`\\ なら、どんなメッシュでも使用できま"
-"す。他のソフトウェアでモデリングしてからGodotにインポートしたメッシュでも可能"
-"です。複数のマテリアルにも対応しています。ジオメトリにはいくつかの制限があり"
-"ます:"
-
-msgid "it must be closed,"
-msgstr "閉じていること、"
-
-msgid "it must not self-intersect,"
-msgstr "自己交差していないこと、"
-
-msgid "it must not contain internal faces,"
-msgstr "内部に面がないこと、"
-
-msgid "every edge must connect to only two other faces."
-msgstr "すべてのエッジは２つの面のみに接していること。"
 
 msgid "CSGCombiner3D"
 msgstr "\\ CSGCombiner3D"

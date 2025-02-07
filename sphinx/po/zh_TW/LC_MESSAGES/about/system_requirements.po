@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -68,23 +68,11 @@ msgstr "**作業系統**"
 msgid "**Web editor:** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 msgstr "**網頁編輯器：** Firefox 79, Chrome 68, Edge 79, Safari 15.2, Opera 64"
 
-msgid ""
-"Vulkan drivers for these Windows versions are known to have issues with "
-"memory leaks. As a result, it's recommended to stick to the Compatibility "
-"rendering method when running Godot on a Windows version older than 10."
-msgstr ""
-"這些 Windows 版本的 Vulkan 驅動程序已知存在內存洩漏的問題。因此，建議在運行 "
-"Godot 時，對於低於 Windows 10 的版本，使用兼容性渲染方法。"
-
 msgid "Mobile device (smartphone/tablet) - Minimum"
 msgstr "移動設備（智能手機/平板電腦） - 最低要求"
 
 msgid "**Android:** SoC with any 32-bit or 64-bit ARM or x86 CPU"
 msgstr "**Android：** 任何 32 位或 64 位 ARM 或 x86 CPU 的 SoC"
-
-msgid ""
-"**Forward+ rendering method:** SoC featuring GPU with full Vulkan 1.0 support"
-msgstr "**Forward+ 渲染方法：** 具有完整 Vulkan 1.0 支持的 SoC 和 GPU"
 
 msgid "150 MB (used for the executable, project files and cache)"
 msgstr "150 MB（用於可執行檔、專案檔案和快取）"

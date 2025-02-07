@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -36,6 +36,9 @@ msgstr ""
 
 msgid "Localizing resources"
 msgstr "リソースのローカライズ"
+
+msgid "Examples:"
+msgstr "例:"
 
 msgid "Converting keys to text"
 msgstr "キーをテキストに変換する"
@@ -78,16 +81,6 @@ msgstr ""
 
 msgid "TranslationServer"
 msgstr "翻訳サーバー"
-
-msgid ""
-"Godot has a server handling low-level translation management called the :ref:"
-"`TranslationServer <class_TranslationServer>`. Translations can be added or "
-"removed during run-time; the current language can also be changed at run-"
-"time."
-msgstr ""
-"Godot には、\\ :ref:`TranslationServer <class_TranslationServer>` と呼ばれる"
-"低レベルの翻訳管理を処理するサーバーがあります。翻訳は、実行時に追加または削"
-"除できます。現在の言語は、実行時に変更することもできます。"
 
 msgid "Translating the project name"
 msgstr "プロジェクト名の翻訳"

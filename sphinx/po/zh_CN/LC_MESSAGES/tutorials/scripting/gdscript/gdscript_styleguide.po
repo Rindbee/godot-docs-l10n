@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -421,14 +421,6 @@ msgid ""
 "If the code is meant to run in the editor, place the ``@tool`` annotation on "
 "the first line of the script."
 msgstr "如果代码要在编辑器中运行，请将 ``@tool`` 注解写在脚本的第一行。"
-
-msgid ""
-"Follow with the ``class_name`` if necessary. You can turn a GDScript file "
-"into a global type in your project using this feature. For more information, "
-"see :ref:`doc_gdscript`."
-msgstr ""
-"如有必要，请在后面加上 ``class_name``\\ 。你可以使用该特性将 GDScript 文件转"
-"换为项目中的全局类型。详见 :ref:`doc_gdscript`\\ 。"
 
 msgid "Then, add the ``extends`` keyword if the class extends a built-in type."
 msgstr "然后，如果该类扩展了内置类型，请添加 ``extends`` 关键字。"

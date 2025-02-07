@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -21,16 +21,6 @@ msgstr ""
 "Les shaders de type CanvasItem sont utilisés pour dessiner tous les éléments "
 "2D dans Godot. Ceux-ci incluent tous les nœuds qui héritent de CanvasItems, "
 "et tous les éléments d'interface graphique."
-
-msgid ""
-"CanvasItem shaders contain less built-in variables and functionality than "
-"Spatial shaders, but they maintain the same basic structure with vertex, "
-"fragment, and light processor functions."
-msgstr ""
-"Les shaders de type CanvasItem contiennent moins de variables et "
-"fonctionnalités intégrées que les shaders spatiaux, mais ils conservent la "
-"même structure de base avec les fonctions vertex, fragment, et light "
-"processor."
 
 msgid "Render modes"
 msgstr "Mode de rendu"
@@ -102,19 +92,6 @@ msgstr "**world_vertex_coords**"
 msgid "Built-ins"
 msgstr "Variables intégrées"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"Les valeurs marquées comme \"in\" sont en lecture seule. Les valeurs "
-"marquées comme \"out\" sont pour l'écriture facultative et ne contiendront "
-"pas nécessairement de valeurs sensibles. Les valeurs marquées comme "
-"\"inout\" fournissent une valeur par défaut sensible et peuvent "
-"éventuellement être réécrites. Les échantillonneurs ne sont pas soumis à "
-"l'écriture et ne sont pas marqués."
-
 msgid "Global built-ins"
 msgstr "Variables intégrées Globales"
 
@@ -132,26 +109,8 @@ msgstr "in float **TIME**"
 msgid "Vertex built-ins"
 msgstr "Variables intégrées de sommet"
 
-msgid ""
-"Other built-ins, such as UV and COLOR, are also passed through to the "
-"fragment function if not modified."
-msgstr ""
-"D'autres types intégrées, comme UV et COLOR, sont aussi passé tel quel à la "
-"fonction fragment s'ils ne sont pas modifiés."
-
-msgid ""
-"For instancing, the INSTANCE_CUSTOM variable contains the instance custom "
-"data. When using particles, this information is usually:"
-msgstr ""
-"Pour l'instanciation, la variable INSTANCE_CUSTOM contient les données "
-"personnalisées de l'instance. Pour des particules, cette information est "
-"habituellement :"
-
 msgid "**x**: Rotation angle in radians."
 msgstr "**x** : Angle de rotation en radians."
-
-msgid "**y**: Phase during lifetime (0 to 1)."
-msgstr "**y** : Phase pendant la durée de vie (0 à 1)."
 
 msgid "**z**: Animation frame."
 msgstr "**z** : Trame d'animation."
@@ -191,9 +150,6 @@ msgstr "inout vec2 **UV**"
 msgid "inout vec4 **COLOR**"
 msgstr "inout vec4 **COLOR**"
 
-msgid "Color from vertex primitive."
-msgstr "Couleur du sommet primitif."
-
 msgid "inout float **POINT_SIZE**"
 msgstr "inout float **POINT_SIZE**"
 
@@ -230,9 +186,6 @@ msgstr "Texture de brillance spéculaire pour cet objet."
 msgid "in vec2 **UV**"
 msgstr "in vec2 **UV**"
 
-msgid "UV from vertex function."
-msgstr "UV de la fonction vertex."
-
 msgid "in vec2 **SCREEN_UV**"
 msgstr "in vec2 **SCREEN_UV**"
 
@@ -245,14 +198,8 @@ msgstr "sampler2D **SCREEN_TEXTURE**"
 msgid "inout vec3 **NORMAL**"
 msgstr "inout vec3 **NORMAL**"
 
-msgid "Normal read from **NORMAL_TEXTURE**. Writable."
-msgstr "Normale lue à partir de **NORMAL_TEXTURE**. Accessible en écriture."
-
 msgid "Default 2D normal texture."
 msgstr "Texture 2D des normales par défaut."
-
-msgid "Normalmap depth for scaling."
-msgstr "Profondeur d'une Normalmap pour la mise à l'échelle."
 
 msgid "Light built-ins"
 msgstr "Variables intégrées de lumière"
@@ -260,35 +207,14 @@ msgstr "Variables intégrées de lumière"
 msgid "in vec3 **NORMAL**"
 msgstr "in vec3 **NORMAL**"
 
-msgid "Input Normal."
-msgstr "Entrée de la Normale."
-
 msgid "in vec4 **COLOR**"
 msgstr "in vec4 **COLOR**"
-
-msgid "UV from vertex function, equivalent to the UV in the fragment function."
-msgstr ""
-"UV de la fonction vertex, équivalent à l'UV dans la fonction de fragment."
 
 msgid "Current texture in use for CanvasItem."
 msgstr "Texture actuelle utilisée pour le CanvasItem."
 
-msgid ""
-"Normalized pixel size of **TEXTURE**. For a Sprite2D with a **TEXTURE** of "
-"size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
-msgstr ""
-"Taille de pixel normalisée de la **TEXTURE**. Pour un Sprite2D avec une "
-"**TEXTURE** d'une résolution de 64x32px, **TEXTURE_PIXEL_SIZE** = :code:"
-"`vec2(1/64, 1/32)`"
-
 msgid "UV for Point Sprite."
 msgstr "UV pour Point Sprite."
-
-msgid "Energy multiplier of Light."
-msgstr "Multiplicateur d'énergie de la Light."
-
-msgid "Direction of Light in screen space."
-msgstr "Direction de la lumière dans le repère de l'écran."
 
 msgid "inout vec4 **LIGHT**"
 msgstr "inout vec4 **LIGHT**"

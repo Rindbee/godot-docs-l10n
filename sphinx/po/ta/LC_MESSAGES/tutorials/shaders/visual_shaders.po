@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -72,11 +72,6 @@ msgid ""
 msgstr ""
 "பின்வரும் பொத்தான்கள் மற்றும் எண் உள்ளீடு ஆகியவை பெரிதாக்கும் நிலை, கட்டம் ச்னோப்பிங் மற்றும் "
 "கட்டம் கோடுகளுக்கு இடையில் (பிக்சல்களில்) தூரத்தைக் கட்டுப்படுத்துகின்றன."
-
-msgid ""
-"The last icon shows the generated shader code corresponding to your graph."
-msgstr ""
-"கடைசி படவுரு உங்கள் வரைபடத்துடன் தொடர்புடைய உருவாக்கப்பட்ட சேடர் குறியீட்டைக் காட்டுகிறது."
 
 msgid ""
 "Although VisualShaders do not require coding, they share the same logic with "
@@ -363,12 +358,3 @@ msgstr ""
 
 msgid "Switch node"
 msgstr "முனை சுவிட்ச்"
-
-msgid ""
-"The ``Switch`` node returns a vector if the boolean condition is ``true`` or "
-"``false``. ``Boolean`` was introduced above. If you convert a vector to a "
-"true boolean, all components of the vector should be above zero."
-msgstr ""
-"பூலியன் நிலை `` உண்மை`` அல்லது `` தவறு`` என்றால் `` சுவிட்ச்`` முனை ஒரு திசையனைத் "
-"தருகிறது. `` பூலியன்`` மேலே அறிமுகப்படுத்தப்பட்டது. நீங்கள் ஒரு திசையனை உண்மையான "
-"பூலியனாக மாற்றினால், திசையனின் அனைத்து கூறுகளும் பூச்சியத்திற்கு மேலே இருக்க வேண்டும்."

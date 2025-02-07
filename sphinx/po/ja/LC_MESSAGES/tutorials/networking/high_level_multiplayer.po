@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -194,13 +194,6 @@ msgstr "ホスティング時の考慮事項"
 
 msgid "Initializing the network"
 msgstr "ネットワークの初期化"
-
-msgid ""
-"High level networking in Godot is managed by the :ref:`SceneTree "
-"<class_SceneTree>`."
-msgstr ""
-"Godotの高レベルのネットワーキングは :ref:`SceneTree <class_SceneTree>` によっ"
-"て管理されます。"
 
 msgid "Managing connections"
 msgstr "接続の管理"

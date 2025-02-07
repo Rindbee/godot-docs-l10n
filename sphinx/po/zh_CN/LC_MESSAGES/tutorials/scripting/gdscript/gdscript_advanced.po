@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,9 +48,6 @@ msgstr "语言简单易学。"
 msgid "Most code can be written and changed quickly and without hassle."
 msgstr "大部分代码均可进行快速编写与更改，无任何麻烦。"
 
-msgid "Less code written means less errors & mistakes to fix."
-msgstr "更少的代码编写量，需要修复的错误也更少。"
-
 msgid "The code is easy to read (little clutter)."
 msgstr "代码简单易读（但可能会有些许杂乱）。"
 
@@ -79,11 +76,6 @@ msgid ""
 msgstr ""
 "由于表达式解析更为严格，一些通常会在静态类型语言编译时可以检测到的错误只会在"
 "运行代码时出现。"
-
-msgid ""
-"Less flexibility for code-completion (some variable types are only known at "
-"run-time)."
-msgstr "由于某些变量的类型只能在运行时确定，导致代码补全的灵活性较低。"
 
 msgid ""
 "This, translated to reality, means that Godot used with GDScript is a "
@@ -193,17 +185,6 @@ msgstr "或无序集合："
 
 msgid "Dictionaries"
 msgstr "字典"
-
-msgid ""
-"Dictionaries are a powerful tool in dynamically typed languages. Most "
-"programmers that come from statically typed languages (such as C++ or C#) "
-"ignore their existence and make their life unnecessarily more difficult. "
-"This datatype is generally not present in such languages (or only in limited "
-"form)."
-msgstr ""
-"字典是动态类型语言中一个十分强大的工具。大多数用静态类型语言（例如 C++ 或 "
-"C#）编写代码的程序员都忽略了字典的存在，而不必要地增加了他们的工作难度。字典"
-"这种数据类型通常不存在于此类语言中（或仅以受限的形式出现）。"
 
 msgid ""
 "Dictionaries can map any value to any other value with complete disregard "
@@ -390,8 +371,3 @@ msgstr ""
 "不过，被击中的对象可能并没有 smash() 函数。虽然一些动态类型语言在被调用方法不"
 "存在时会直接忽略该方法的调用，但GDScript在这方面更为严格，因此有必要检查目标"
 "函数是否存在："
-
-msgid ""
-"Then, simply define that method and anything the rock touches can be smashed."
-msgstr ""
-"然后，稍微定义下这个方法之后，大石块所触碰的任何东西都可以被大石块砸碎了。"

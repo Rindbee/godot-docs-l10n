@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,17 +107,6 @@ msgid "If the screen is resized and either of the subpasses are used."
 msgstr "画面のサイズが変更され、いずれかのサブパスが使用される場合。"
 
 msgid ""
-"Try to avoid updating the radiance cubemap needlessly. If you do need to "
-"update the radiance cubemap each frame, make sure your :ref:`Sky process "
-"mode <class_Sky_property_process_mode>` is set to :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>`."
-msgstr ""
-"なるべく放射キューブマップを不必要に更新しないようにしてください。もし各フ"
-"レームで放射キューブマップを更新する必要がある場合は、:ref:`Skyプロセスモー"
-"ド <class_Sky_property_process_mode>` が :ref:`REALTIME "
-"<class_Sky_constant_PROCESS_MODE_REALTIME>` に設定するようにしてください。"
-
-msgid ""
 "Note that the :ref:`process mode <class_Sky_property_process_mode>` only "
 "affects the rendering of the radiance cubemap. The visible sky is always "
 "rendered by calling the fragment shader for every pixel. With complex "
@@ -197,15 +186,6 @@ msgstr "指定すると、フォグは空に影響を与えません。"
 msgid "Built-ins"
 msgstr "ビルトイン"
 
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Samplers "
-"cannot be written to so they are not marked."
-msgstr ""
-"\"in\"とマークされた値は読み取り専用です。 \"out\"とマークされた値はオプショ"
-"ンの書き込み用であり、必ずしも適切な値を含むとは限りません。サンプラーには書"
-"き込む対象ではないためマークされません。"
-
 msgid "Global built-ins"
 msgstr "グローバルビルトイン"
 
@@ -229,8 +209,8 @@ msgstr "\\ in float **TIME**"
 msgid "in vec3 **POSITION**"
 msgstr "\\ in vec3 **POSITION**"
 
-msgid "Camera position in world space"
-msgstr "ワールド空間でのカメラの位置"
+msgid "Camera position, in world space."
+msgstr "ワールド空間内のカメラの位置。"
 
 msgid "samplerCube **RADIANCE**"
 msgstr "\\ samplerCube **RADIANCE**"
@@ -245,31 +225,14 @@ msgstr ""
 msgid "in bool **AT_HALF_RES_PASS**"
 msgstr "\\ in bool **AT_HALF_RES_PASS**"
 
-msgid "Currently rendering to half resolution pass."
-msgstr "現在のパスが1/2解像度パスでレンダリングしていることを示します。"
-
 msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr "\\ in bool **AT_QUARTER_RES_PASS**"
-
-msgid "Currently rendering to quarter resolution pass."
-msgstr "現在のパスが1/4解像度パスでレンダリングしていることを示します。"
 
 msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr "\\ in bool **AT_CUBEMAP_PASS**"
 
-msgid "Currently rendering to radiance cubemap."
-msgstr ""
-"現在のパスが放射キューブマップパスでレンダリングしていることを示します。"
-
 msgid "in bool **LIGHTX_ENABLED**"
 msgstr "\\ in bool **LIGHTX_ENABLED**"
-
-msgid ""
-"``LightX`` is visible and in the scene. If ``false``, other light properties "
-"may be garbage."
-msgstr ""
-"``LIGHTX`` がシーン内にあります。 もし ``false`` の場合、他の LIGHTX_ プロパ"
-"ティは使用できない可能性があります。"
 
 msgid "in float **LIGHTX_ENERGY**"
 msgstr "\\ in float **LIGHTX_ENERGY**"

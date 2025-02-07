@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -382,9 +382,6 @@ msgstr ""
 "seo beartaithe. Rogha eile níos sábháilte ná an eochairfhocal ``is`` a "
 "úsáid::"
 
-msgid "or ``assert()`` statement::"
-msgstr "nó ráiteas ``assert () ``:"
-
 msgid ""
 "If you try to cast with a built-in type and it fails, Godot will throw an "
 "error."
@@ -656,9 +653,6 @@ msgstr ""
 
 msgid "Nested types are not currently supported::"
 msgstr "Ní thacaítear le cineálacha neadaithe faoi láthair::"
-
-msgid "Typed dictionaries are not currently supported::"
-msgstr "Ní thacaítear le foclóirí clóscríofa faoi láthair::"
 
 msgid "Summary"
 msgstr "Achoimre"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -33,18 +33,6 @@ msgstr ""
 "பயனர்களை ஆதிமனிதர்களை இணைப்பதன் மூலம் மிகவும் பொதுவான வடிவங்களை உருவாக்க "
 "அனுமதிக்கிறது. தலைகீழ் ஆதிமனிதர்களைப் பயன்படுத்துவதன் மூலம் உள்துறை சூழல்களை உருவாக்க "
 "முடியும்."
-
-msgid ""
-"The CSG nodes in Godot are mainly intended for prototyping. There is no "
-"built-in support for UV mapping or editing 3D polygons (though extruded 2D "
-"polygons can be used with the CSGPolygon3D node). In addition CSG can't "
-"reliably create meshes made up of multiple nodes without holes."
-msgstr ""
-"கோடோட்டில் உள்ள சி.எச்.சி முனைகள் முக்கியமாக முன்மாதிரிக்கு நோக்கம் கொண்டவை. புற ஊதா "
-"மேப்பிங் அல்லது 3 டி பலகோணங்களைத் திருத்துவதற்கு உள்ளமைக்கப்பட்ட உதவி எதுவும் இல்லை "
-"(வெளியேற்றப்பட்ட 2 டி பலகோணங்களை CSGPolygon3D முனையுடன் பயன்படுத்தலாம்). கூடுதலாக, "
-"சி.எச்.சி துளைகள் இல்லாமல் பல முனைகளால் ஆன மெச்களை நம்பத்தகுந்த வகையில் உருவாக்க "
-"முடியாது."
 
 msgid ""
 "If you're looking for an easy to use level design tool for a project, you "
@@ -155,27 +143,6 @@ msgstr ""
 
 msgid "Custom meshes"
 msgstr "தனிப்பயன் மெச்கள்"
-
-msgid ""
-"Any mesh can be used for :ref:`CSGMesh3D <class_CSGMesh3D>`; the mesh can be "
-"modeled in other software and imported into Godot. Multiple materials are "
-"supported. There are some restrictions for geometry:"
-msgstr ""
-"எந்த கண்ணி பயன்படுத்தப்படலாம்: ref: `csgmesh3d <class_csgmesh3d>`; கண்ணி மற்ற "
-"மென்பொருளில் வடிவமைக்கப்பட்டு கோடோட்டில் இறக்குமதி செய்யப்படலாம். பல பொருட்கள் "
-"ஆதரிக்கப்படுகின்றன. வடிவவியலுக்கு சில கட்டுப்பாடுகள் உள்ளன:"
-
-msgid "it must be closed,"
-msgstr "அது மூடப்பட வேண்டும்,"
-
-msgid "it must not self-intersect,"
-msgstr "அது சுயமாக இணைக்கப்படக்கூடாது,"
-
-msgid "it must not contain internal faces,"
-msgstr "அதில் உள் முகங்கள் இருக்கக்கூடாது,"
-
-msgid "every edge must connect to only two other faces."
-msgstr "ஒவ்வொரு விளிம்பும் மற்ற இரண்டு முகங்களுடன் மட்டுமே இணைக்க வேண்டும்."
 
 msgid "CSGCombiner3D"
 msgstr "CSGCOMBINER3D"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -218,13 +218,6 @@ msgid ""
 msgstr ""
 "**初期値のセット:** プロパティには初期値がセットされます。指定されていない場"
 "合はデフォルト値がセットされます。セッターが存在する場合は使用されません。"
-
-msgid ""
-"**``_init()`` assignment:** the property's value is replaced by any "
-"assignments made in ``_init()``, triggering the setter."
-msgstr ""
-"** ``_init()`` でのセット: ** プロパティの値は ``_init()`` で行われた代入に"
-"よって置き換えられ、セッターがトリガーされます。"
 
 msgid ""
 "**Exported value assignment:** an exported property's value is again "

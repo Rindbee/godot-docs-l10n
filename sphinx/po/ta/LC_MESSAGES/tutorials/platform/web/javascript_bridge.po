@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,16 +121,6 @@ msgstr ""
 
 msgid "Can I use my favorite library?"
 msgstr "எனக்கு பிடித்த நூலகத்தைப் பயன்படுத்தலாமா?"
-
-msgid ""
-"You most likely can. First, you have to include your library in the page. "
-"You can simply customize the :ref:`Head Include "
-"<doc_javascript_export_options>` during export (see below), or even :ref:"
-"`write your own template <doc_customizing_html5_shell>`."
-msgstr ""
-"உங்களால் முடியும். முதலில், உங்கள் நூலகத்தை பக்கத்தில் சேர்க்க வேண்டும். நீங்கள் வெறுமனே "
-"தனிப்பயனாக்கலாம்: ref: `தலையில் <doc_javascript_export_options>` ஏற்றுமதியின் போது "
-"(கீழே காண்க), அல்லது கூட: குறிப்பு: `உங்கள் சொந்த வார்ப்புருவை எழுதுங்கள்"
 
 msgid ""
 "In the example below, we customize the ``Head Include`` to add an external "

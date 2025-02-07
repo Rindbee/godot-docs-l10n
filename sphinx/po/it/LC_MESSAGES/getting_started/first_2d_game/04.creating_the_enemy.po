@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -56,16 +56,6 @@ msgstr "Salva la scena."
 
 msgid "Enemy script"
 msgstr "Script del nemico"
-
-msgid ""
-"We then need to pick a random number between ``0`` and ``2`` to select one "
-"of these names from the list (array indices start at ``0``). ``randi() % n`` "
-"selects a random integer between ``0`` and ``n-1``."
-msgstr ""
-"Dobbiamo quindi scegliere un numero casuale tra ``0`` e ``2`` per "
-"selezionare uno di questi nomi dalla lista (gli indici degli array iniziano "
-"con ``0``). ``randi() % n`` seleziona un numero intero casuale tra ``0`` e "
-"``n-1``."
 
 msgid "This completes the `Mob` scene."
 msgstr "Questo completa la scena `Mob`."

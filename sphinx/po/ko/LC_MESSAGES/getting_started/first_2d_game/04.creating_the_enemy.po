@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -77,15 +77,6 @@ msgstr "씬을 저장하세요."
 
 msgid "Enemy script"
 msgstr "적 스크립트"
-
-msgid ""
-"We then need to pick a random number between ``0`` and ``2`` to select one "
-"of these names from the list (array indices start at ``0``). ``randi() % n`` "
-"selects a random integer between ``0`` and ``n-1``."
-msgstr ""
-"그런 다음 목록에서 이 이름 중 하나를 선택하려면 ``0``\\ 과 ``2`` 사이의 임의"
-"의 숫자를 선택해야 합니다(배열 인덱스는 ``0``\\ 에서 시작). ``randi() % "
-"n``\\ 은 ``0``\\ 과 ``n-1`` 사이의 임의의 정수를 선택합니다."
 
 msgid "This completes the `Mob` scene."
 msgstr "이것으로 `Mob` 씬이 완성되었습니다."

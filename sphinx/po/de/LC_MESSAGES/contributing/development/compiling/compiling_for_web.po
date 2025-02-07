@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,15 +30,6 @@ msgid "To compile export templates for the Web, the following is required:"
 msgstr ""
 "Zum Kompilieren von Exportvorlagen für das Web ist Folgendes erforderlich:"
 
-msgid "`Emscripten 3.1.39+ <https://emscripten.org>`__."
-msgstr "`Emscripten 3.1.39+ <https://emscripten.org>`__."
-
-msgid "`Python 3.6+ <https://www.python.org/>`__."
-msgstr "`Python 3.6+ <https://www.python.org/>`__."
-
-msgid "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__ build system."
-msgstr "`SCons 3.1.2+ <https://scons.org/pages/download.html>`__-Buildsystem."
-
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
 msgstr ""
@@ -51,18 +42,6 @@ msgid ""
 msgstr ""
 "Eine allgemeine Übersicht über die Verwendung von SCons für Godot finden Sie "
 "unter :ref:`doc_introduction_to_the_buildsystem`."
-
-msgid ""
-"Emscripten 3.1.39+ is recommended, but older 3.x versions are known to work."
-msgstr ""
-"Emscripten 3.1.39+ wird empfohlen, aber auch ältere 3.x-Versionen wurden "
-"bereits erfolgreich eingesetzt."
-
-msgid ""
-"Please note that the minimum requirement for GDExtension support is 3.1.14."
-msgstr ""
-"Bitte beachten Sie, dass die Mindestanforderung für die Unterstützung der "
-"GDExtension 3.1.14 ist."
 
 msgid "Building export templates"
 msgstr "Exportvorlagen erstellen"

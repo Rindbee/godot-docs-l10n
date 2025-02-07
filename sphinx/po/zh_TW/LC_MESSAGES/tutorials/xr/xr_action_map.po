@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -120,16 +120,6 @@ msgstr ""
 "該地圖本質上將預設支援的所有控制器上的所有已知輸入綁定到一對一的操作。這不是"
 "設定行動圖的好例子。它確實讓新開發者在想要熟悉 Godot XR 時有一個起點。它避免"
 "了必須先為他們的遊戲/應用程式設計合適的動作地圖。"
-
-msgid ""
-"For this walkthrough we're going to start with a blank action map. You can "
-"simply delete the \"Godot action set\" entry at the top by pressing the "
-"trash can icon. This will clear out all actions. You might also want to "
-"remove the controllers that you do not wish to setup, more on this later."
-msgstr ""
-"對於本演練，我們將從一張空白的操作地圖開始。您只需按下垃圾桶圖示即可刪除頂部"
-"的「Godot 操作集」條目。這將清除所有操作。您可能還想刪除不想設定的控制器，稍"
-"後將詳細介紹。"
 
 msgid "Action sets"
 msgstr "操作名稱"
@@ -539,14 +529,6 @@ msgstr "現在我們已經定義了基本操作，是時候將它們連接起來
 
 msgid "Profiles"
 msgstr "分析工具"
-
-msgid ""
-"In OpenXR controller bindings are captured in so-called \"Interaction "
-"Profiles\". We've simply shortened it to \"Profiles\" because it takes up "
-"less space."
-msgstr ""
-"在 OpenXR 中，控制器綁定在所謂的「互動配置」中捕獲。我們只是將其縮短為“配置檔"
-"案”，因為它佔用的空間更少。"
 
 msgid ""
 "This generic name is chosen because controllers don't cover the entire "

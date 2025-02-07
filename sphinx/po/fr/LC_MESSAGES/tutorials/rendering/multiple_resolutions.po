@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -344,14 +344,6 @@ msgstr ""
 "base de 1280×720 mais que vous souhaitez prendre en charge les modes "
 "portrait et paysage, utilisez 720×720 comme taille de fenêtre de base du "
 "projet dans les paramètres du projet."
-
-msgid ""
-"To allow the user to choose their preferred screen orientation at run-time, "
-"remember to set **Display > Window > Handheld > Orientation** to ``sensor``."
-msgstr ""
-"Pour permettre à l'utilisateur de choisir l'orientation de son écran au "
-"moment de l'exécution, n'oubliez pas de définir **Display > Window > "
-"Handheld > Orientation** sur ``sensor``."
 
 msgid "Common use case scenarios"
 msgstr "Scénarios d'utilisation courante"

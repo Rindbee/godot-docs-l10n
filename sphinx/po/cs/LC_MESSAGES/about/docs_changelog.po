@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -14,20 +14,38 @@ msgstr ""
 msgid "Documentation changelog"
 msgstr "Seznam změn dokumentace"
 
-msgid "About"
-msgstr "O aplikaci"
-
 msgid "2D"
 msgstr "2D"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "Debug"
+
+msgid "Editor"
+msgstr "Editor"
+
+msgid "Performance"
+msgstr "Výkon"
+
+msgid "Physics"
+msgstr "Fyzika"
+
+msgid "Rendering"
+msgstr "Vykreslování"
+
+msgid "Shaders"
+msgstr "Shadery"
+
+msgid "About"
+msgstr "O aplikaci"
 
 msgid "Contributing"
 msgstr "Jak přispět"
 
 msgid "Migrating"
 msgstr "Migrování"
-
-msgid "Rendering"
-msgstr "Vykreslování"
 
 msgid "C#"
 msgstr "C#"
@@ -38,23 +56,11 @@ msgstr "Vývoj"
 msgid "Platform-specific"
 msgstr "Specifické pro platformu"
 
-msgid "Physics"
-msgstr "Fyzika"
-
-msgid "3D"
-msgstr "3D"
-
 msgid "Animation"
 msgstr "Animace"
 
 msgid "Scripting"
 msgstr "Skriptování"
-
-msgid "Shaders"
-msgstr "Shadery"
-
-msgid "Editor"
-msgstr "Editor"
 
 msgid "C++"
 msgstr "C++"

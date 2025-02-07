@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -35,24 +35,11 @@ msgstr "**disable_force**"
 msgid "**disable_velocity**"
 msgstr "**disable_velocity**"
 
-msgid "Ignore **VELOCITY** value."
-msgstr "忽略 **VELOCITY** 值."
-
 msgid "Scale the particle's size for collisions."
 msgstr "为进行碰撞而缩放粒子的大小。"
 
 msgid "Built-ins"
 msgstr "内置"
-
-msgid ""
-"Values marked as \"in\" are read-only. Values marked as \"out\" are for "
-"optional writing and will not necessarily contain sensible values. Values "
-"marked as \"inout\" provide a sensible default value, and can optionally be "
-"written to. Samplers are not subjects of writing and they are not marked."
-msgstr ""
-"标记为“in”的值只读。标记为“out”的值可以选择写入，不一定包含有意义的值。标记"
-"为“inout”的值提供了有意义的默认值，可以选择写入。采样器始终无法写入，不进行标"
-"记。"
 
 msgid "Global built-ins"
 msgstr "全局内置"
@@ -70,10 +57,11 @@ msgid "in float **PI**"
 msgstr "in float **PI**"
 
 msgid ""
-"A ``PI`` constant (``3.141592``). A ration of circle's circumference to its "
+"A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its "
 "diameter and amount of radians in half turn."
 msgstr ""
-"``PI`` 常数（\\ ``3.141592``\\ ）。圆的周长与直径的比值，即转半圈对应的弧度。"
+"圆周率常量 ``PI``\\ （\\ ``3.141592``\\ ）。圆的周长与直径的比值，转半圈的弧"
+"度值。"
 
 msgid "in float **TAU**"
 msgstr "in float **TAU**"
@@ -163,10 +151,6 @@ msgstr "粒子变换。"
 msgid "inout vec4 **CUSTOM**"
 msgstr "inout vec4 **CUSTOM**"
 
-msgid ""
-"Custom particle data. Accessible from shader of mesh as **INSTANCE_CUSTOM**."
-msgstr "自定义粒子数据。网格的着色器可以使用 **INSTANCE_CUSTOM** 访问。"
-
 msgid "inout float **MASS**"
 msgstr "inout float **MASS**"
 
@@ -177,14 +161,6 @@ msgstr "粒子的质量，旨在配合吸引器使用。默认为 ``1.0``\\ 。"
 
 msgid "in vec4 **USERDATAX**"
 msgstr "in vec4 **USERDATAX**"
-
-msgid ""
-"Vector that enables the integration of supplementary user-defined data into "
-"the particle process shader. ``USERDATAX`` are six built-ins identified by "
-"number, ``X`` can be numbers between 1 and 6."
-msgstr ""
-"向量，用于向粒子处理着色器中集成补充的用户定义数据。\\ ``USERDATAX`` 共有六个"
-"内置量，使用数字来区分，其中的 ``X`` 是 1 到 6 之间的数字。"
 
 msgid "in uint **FLAG_EMIT_POSITION**"
 msgstr "in uint **FLAG_EMIT_POSITION**"
@@ -245,11 +221,6 @@ msgstr "粒子与粒子碰撞器碰撞时为 ``true``\\ 。"
 
 msgid "in vec3 **COLLISION_NORMAL**"
 msgstr "in vec3 **COLLISION_NORMAL**"
-
-msgid ""
-"A normal of the last collision. If there is no collision detected it is "
-"equal to ``vec3(0.0)``."
-msgstr "上一次碰撞的法线。未检测到碰撞时等于 ``vec3(0.0)``\\ 。"
 
 msgid "in float **COLLISION_DEPTH**"
 msgstr "in float **COLLISION_DEPTH**"

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -448,14 +448,6 @@ msgstr ""
 "роздільну здатність, але бажаєте підтримувати як портретний, так і альбомний "
 "режими, використовуйте 720×720 як базовий розмір вікна проекту в "
 "налаштуваннях проекту."
-
-msgid ""
-"To allow the user to choose their preferred screen orientation at run-time, "
-"remember to set **Display > Window > Handheld > Orientation** to ``sensor``."
-msgstr ""
-"Щоб дозволити користувачеві вибрати бажану орієнтацію екрана під час "
-"виконання, не забудьте встановити **Дисплей > Вікно > Ручний > Орієнтація** "
-"на ``датчик``."
 
 msgid ""
 "To configure the stretch aspect at runtime from a script, use the "

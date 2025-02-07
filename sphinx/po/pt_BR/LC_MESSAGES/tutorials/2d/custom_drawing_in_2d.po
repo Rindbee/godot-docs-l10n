@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -250,17 +250,6 @@ msgstr ""
 
 msgid "Drawing text"
 msgstr "Desenhando texto"
-
-msgid ""
-"While using the :ref:`Label <class_Label>` Node is the most common way to "
-"add text to your application, the low level `_draw` function includes "
-"functionality to add text to your custom Node drawing. We will use it to add "
-"the name \"GODOT\" under the robot head."
-msgstr ""
-"Embora o nó :ref:`Label <class_Label>` seja a maneira mais comum de "
-"adicionar texto à sua aplicação, a função `_draw` de baixo nível inclui "
-"funcionalidade para adicionar texto ao seu desenho de nó personalizado. "
-"Vamos usá-lo para adicionar o nome \"GODOT\" sob a cabeça do robô."
 
 msgid ""
 "We will use the :ref:`draw_string <class_CanvasItem_method_draw_string>` "

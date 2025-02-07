@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -256,12 +256,6 @@ msgid "Comments"
 msgstr "Tuairimí"
 
 msgid ""
-"The shading language supports the same comment syntax as used in C# and C++:"
-msgstr ""
-"Tacaíonn an teanga scáthaithe leis an comhréir tráchta chéanna a úsáidtear i "
-"C # agus C ++:"
-
-msgid ""
 "Additionally, you can use documentation comments that are displayed in the "
 "inspector when hovering a shader parameter. Documentation comments are "
 "currently only supported when placed immediately above a ``uniform`` "
@@ -457,16 +451,6 @@ msgstr ""
 
 msgid "Global arrays"
 msgstr "Eagair dhomhanda"
-
-msgid "You can declare arrays at global space like:"
-msgstr "Is féidir leat eagair a dhearbhú ag spás domhanda mar:"
-
-msgid ""
-"Global arrays have to be declared as global constants, otherwise they can be "
-"declared the same as local arrays."
-msgstr ""
-"Ní mór eagar domhanda a dhearbhú mar tairisigh dhomhanda, ar shlí eile is "
-"féidir iad a dhearbhú mar an gcéanna le heagair áitiúla."
 
 msgid "Constants"
 msgstr "Coimeádanna"
@@ -740,13 +724,6 @@ msgid "Discarding"
 msgstr "Caitheamh i leataobh"
 
 msgid ""
-"Fragment and light functions can use the ``discard`` keyword. If used, the "
-"fragment is discarded and nothing is written."
-msgstr ""
-"Is féidir le feidhmeanna blúire agus solais an eochairfhocal ''discard'' a "
-"úsáid. Má úsáidtear é, caitear amach an blúire agus ní scríobhtar aon rud."
-
-msgid ""
 "Beware that ``discard`` has a performance cost when used, as it will prevent "
 "the depth prepass from being effective on any surfaces using the shader. "
 "Also, a discarded pixel still needs to be rendered in the vertex shader, "
@@ -809,19 +786,6 @@ msgstr ""
 
 msgid "Example below:"
 msgstr "Sampla thíos:"
-
-msgid ""
-"Unlike GLSL, Godot's shader language does **not** support function "
-"overloading. This means that a function cannot be defined several times with "
-"different argument types or numbers of arguments. As a workaround, use "
-"different names for functions that accept a different number of arguments or "
-"arguments of different types."
-msgstr ""
-"Murab ionann agus GLSL, ní thacaíonn teanga shader Godot ** le ró-ualú "
-"feidhme. Ciallaíonn sé seo nach féidir feidhm a shainmhíniú arís agus arís "
-"eile le cineálacha argóintí éagsúla nó le líon na n-argóintí. Mar "
-"workaround, úsáid ainmneacha éagsúla le haghaidh feidhmeanna a ghlacann le "
-"líon difriúil argóintí nó argóintí de chineálacha éagsúla."
 
 msgid "Varyings"
 msgstr "Athraíonn"
@@ -900,70 +864,15 @@ msgstr ""
 msgid "Uniforms"
 msgstr "Éidí"
 
-msgid ""
-"Passing values to shaders is possible. These are global to the whole shader "
-"and are called *uniforms*. When a shader is later assigned to a material, "
-"the uniforms will appear as editable parameters in it. Uniforms can't be "
-"written from within the shader."
-msgstr ""
-"Is féidir luachanna a chur ar aghaidh chuig shaders. Tá siad seo domhanda "
-"don shader ar fad agus tugtar *uniforms *orthu. Nuair a shanntar shader níos "
-"déanaí d'ábhar, beidh na héide le feiceáil mar pharaiméadair "
-"ineagarthóireachta ann. Ní féidir éidí a scríobh ón taobh istigh den shader."
+msgid "Uniforms can also be assigned default values:"
+msgstr "Is féidir luachanna réamhshocraithe a shannadh d'éidí freisin:"
 
 msgid ""
-"You can set uniforms in the editor in the material. Or you can set them "
-"through GDScript:"
+"Note that when adding a default value and a hint, the default value goes "
+"after the hint."
 msgstr ""
-"Is féidir leat éide a shocrú san eagarthóir san ábhar. Nó is féidir leat iad "
-"a shocrú trí GDScript:"
-
-msgid ""
-"The first argument to ``set_shader_parameter`` is the name of the uniform in "
-"the shader. It must match *exactly* to the name of the uniform in the shader "
-"or else it will not be recognized."
-msgstr ""
-"Is é an chéad argóint le ''set_shader_parameter'' ainm an éide sa shader. "
-"Caithfidh sé *go díreach * a mheaitseáil le hainm an éide sa shader nó eile "
-"ní aithneofar é."
-
-msgid ""
-"Any GLSL type except for *void* can be a uniform. Additionally, Godot "
-"provides optional shader hints to make the compiler understand for what the "
-"uniform is used, and how the editor should allow users to modify it."
-msgstr ""
-"Is féidir le haon chineál GLSL seachas *void *a bheith ina éide. Ina "
-"theannta sin, soláthraíonn Godot leideanna roghnacha shader chun go "
-"dtuigfidh an tiomsaitheoir cad é an éide a úsáidtear, agus conas ba chóir "
-"don eagarthóir ligean d'úsáideoirí é a mhodhnú."
-
-msgid ""
-"It's important to understand that textures *that are supplied as color* "
-"require hints for proper sRGB -> linear conversion (i.e. ``source_color``), "
-"as Godot's 3D engine renders in linear color space. If this is not done, the "
-"texture will appear washed out."
-msgstr ""
-"Tá sé tábhachtach a thuiscint go dteastaíonn leideanna maidir le comhshó "
-"ceart sRGB -> líneach (i.e. `` foinse_dath``) d'uigeachtaí * a "
-"sholáthraítear mar dhath*), de réir mar a rindreálann inneall 3D Godot i "
-"spás datha líneach. Mura ndéantar é seo, beidh an uigeacht le feiceáil nite "
-"amach."
-
-msgid ""
-"The 2D renderer also renders in linear color space if the **Rendering > "
-"Viewport > HDR 2D** project setting is enabled, so ``source_color`` must "
-"also be used in ``canvas_item`` shaders. If 2D HDR is disabled, "
-"``source_color`` will keep working correctly in ``canvas_item`` shaders, so "
-"it's recommend to use it either way."
-msgstr ""
-"Rindreáil an rindreálaí 2D freisin i spás datha líneach má tá an socrú "
-"tionscadail ** Rindreáil > Viewport > HDR 2D** cumasaithe, mar sin ní mór "
-"``source_color`` a úsáid freisin i ``canbhás_item`` shaders. Má tá 2D HDR "
-"díchumasaithe, leanfaidh ``source_color`` ag obair i gceart i "
-"``canvas_item`` shaders, mar sin moltar é a úsáid ceachtar bealach."
-
-msgid "Full list of hints below:"
-msgstr "Liosta iomlán na leideanna thíos:"
+"Tabhair faoi deara go dtéann an luach réamhshocraithe tar éis an leid nuair "
+"a chuirtear luach réamhshocraithe agus leid leis."
 
 msgid "Hint"
 msgstr "Leid"
@@ -1064,6 +973,197 @@ msgstr ""
 "Is í an uigeacht an ghnáthuigeacht garbh (ní thacaítear léi ach in Forward "
 "+)."
 
+msgid "You can close the group by using:"
+msgstr "Is féidir leat an grúpa a dhúnadh trí úsáid a bhaint as:"
+
+msgid ""
+"The syntax also supports subgroups (it's not mandatory to declare the base "
+"group before this):"
+msgstr ""
+"Tacaíonn an chomhréir le foghrúpaí freisin (níl sé éigeantach an bunghrúpa a "
+"dhearbhú roimhe seo):"
+
+msgid "Global uniforms"
+msgstr "Éidí domhanda"
+
+msgid ""
+"Sometimes, you want to modify a parameter in many different shaders at once. "
+"With a regular uniform, this takes a lot of work as all these shaders need "
+"to be tracked and the uniform needs to be set for each of them. Global "
+"uniforms allow you to create and update uniforms that will be available in "
+"all shaders, in every shader type (``canvas_item``, ``spatial``, "
+"``particles``, ``sky`` and ``fog``)."
+msgstr ""
+"Uaireanta, ba mhaith leat paraiméadar a mhodhnú i go leor shaders éagsúla ag "
+"an am céanna. Le éide rialta, tógann sé seo go leor oibre mar ní mór na "
+"shaders seo go léir a rianú agus ní mór an éide a shocrú do gach ceann acu. "
+"Ligeann éide dhomhanda duit éidí a chruthú agus a nuashonrú a bheidh ar fáil "
+"i ngach scáthán, i ngach cineál scátha (''canvas_item'', ''spásúil'', "
+"''cáithníní'', ''spéir'' agus ''ceo'')."
+
+msgid ""
+"Global uniforms are especially useful for environmental effects that affect "
+"many objects in a scene, like having foliage bend when the player is nearby, "
+"or having objects move with the wind."
+msgstr ""
+"Tá éide dhomhanda úsáideach go háirithe le haghaidh éifeachtaí comhshaoil a "
+"théann i bhfeidhm ar go leor rudaí i radharc, cosúil le lúb duilliúr a "
+"bheith aige nuair a bhíonn an t-imreoir in aice láimhe, nó rudaí a bheith ag "
+"bogadh leis an ngaoth."
+
+msgid ""
+"To create a global uniform, open the **Project Settings** then go to the "
+"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
+"a type, then click **Add** in the top-right corner of the dialog. You can "
+"then edit the value assigned to the uniform by clicking the value in the "
+"list of uniforms:"
+msgstr ""
+"Chun éide dhomhanda a chruthú, oscail an **Project Settings** ansin téigh go "
+"dtí an cluaisín **Shader Globals**. Sonraigh ainm don éide (cásíogair) agus "
+"cineál, ansin cliceáil **Add ** sa chúinne ag barr na láimhe deise den "
+"dialóg. Ansin is féidir leat an luach a shanntar don éide a chur in eagar "
+"trí chliceáil ar an luach sa liosta éide:"
+
+msgid ""
+"Adding a global uniform in the Shader Globals tab of the Project Settings"
+msgstr ""
+"Éide dhomhanda a chur leis sa chluaisín Shader Globals de na Socruithe "
+"Tionscadail"
+
+msgid "After creating a global uniform, you can use it in a shader as follows:"
+msgstr ""
+"Tar éis éide dhomhanda a chruthú, is féidir leat é a úsáid i shader mar seo "
+"a leanas:"
+
+msgid ""
+"Note that the global uniform *must* exist in the Project Settings at the "
+"time the shader is saved, or compilation will fail. While you can assign a "
+"default value using ``global uniform vec4 my_color = ...`` in the shader "
+"code, it will be ignored as the global uniform must always be defined in the "
+"Project Settings anyway."
+msgstr ""
+"Tabhair faoi deara go bhfuil an éide dhomhanda *ní mór *a bheith ann sna "
+"Socruithe Tionscadail ag an am a shábháiltear an scáthóir, nó teipfidh ar "
+"thiomsú. Cé gur féidir leat luach réamhshocraithe a shannadh ag baint úsáide "
+"as ''global uniform vec4 my_color = ...'' sa chód shader, déanfar neamhaird "
+"air mar ní mór an éide dhomhanda a shainmhíniú i gcónaí sna Socruithe "
+"Tionscadail ar aon nós."
+
+msgid ""
+"Assigning global uniform values can be done as many times as desired without "
+"impacting performance, as setting data doesn't require synchronization "
+"between the CPU and GPU."
+msgstr ""
+"Is féidir luachanna aonfhoirmeacha domhanda a shannadh a dhéanamh a mhéad "
+"uair is mian gan tionchar a imirt ar fheidhmíocht, toisc nach dteastaíonn "
+"sioncrónú idir an LAP agus an GPU chun sonraí a shocrú."
+
+msgid ""
+"Therefore, it's not recommended to read global shader uniform values "
+"continuously in a script. If you need to read values in a script after "
+"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
+"where you store the values you need to query at the same time you're setting "
+"them as global uniforms."
+msgstr ""
+"Mar sin, ní mholtar luachanna aonfhoirmeacha scáthaithe domhanda a léamh go "
+"leanúnach i script. Más gá duit luachanna a léamh i script tar éis duit iad "
+"a shocrú, smaoinigh ar :ref:`autoload <doc_singletons_autoload>` a chruthú "
+"ina stórálann tú na luachanna a theastaíonn uait a fhiosrú ag an am céanna "
+"agus tú á socrú mar éide dhomhanda."
+
+msgid "Per-instance uniforms"
+msgstr "Éidí in aghaidh an cháis"
+
+msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
+msgstr ""
+"Níl éide in aghaidh an cháis ar fáil ach amháin i shaders ''spásúil'' (3D)."
+
+msgid ""
+"Sometimes, you want to modify a parameter on each node using the material. "
+"As an example, in a forest full of trees, when you want each tree to have a "
+"slightly different color that is editable by hand. Without per-instance "
+"uniforms, this requires creating a unique material for each tree (each with "
+"a slightly different hue). This makes material management more complex, and "
+"also has a performance overhead due to the scene requiring more unique "
+"material instances. Vertex colors could also be used here, but they'd "
+"require creating unique copies of the mesh for each different color, which "
+"also has a performance overhead."
+msgstr ""
+"Uaireanta, ba mhaith leat paraiméadar a mhodhnú ar gach nód ag baint úsáide "
+"as an ábhar. Mar shampla, i bhforaois atá lán de chrainn, nuair is mian leat "
+"go mbeadh dath beagán difriúil ag gach crann atá in eagar de láimh. Gan éide "
+"in aghaidh an shampla, éilíonn sé seo ábhar uathúil a chruthú do gach crann "
+"(gach ceann acu le lí beagán difriúil). Déanann sé seo bainistíocht ábhar "
+"níos casta, agus tá forchostais feidhmíochta aige freisin mar gheall ar an "
+"radharc a éilíonn cásanna ábhartha níos uathúla. D'fhéadfaí dathanna vertex "
+"a úsáid anseo freisin, ach bheadh orthu cóipeanna uathúla den mogalra a "
+"chruthú do gach dath difriúil, a bhfuil forchostais feidhmíochta aige "
+"freisin."
+
+msgid ""
+"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
+"each Material instance. Take this into account when working with meshes that "
+"have multiple materials assigned to them, or MultiMesh setups."
+msgstr ""
+"Socraítear éide in aghaidh an cháis ar gach CéimseataInstance3D, seachas ar "
+"gach cás Ábhar. Cuir é seo san áireamh agus tú ag obair le mogaill a bhfuil "
+"ábhair iolracha sannta dóibh, nó socruithe MultiMesh."
+
+msgid ""
+"After saving the shader, you can change the per-instance uniform's value "
+"using the inspector:"
+msgstr ""
+"Tar éis duit an scáthóir a shábháil, is féidir leat luach an éide in aghaidh "
+"an cháis a athrú ag baint úsáide as an gcigire:"
+
+msgid ""
+"Setting a per-instance uniform's value in the GeometryInstance3D section of "
+"the inspector"
+msgstr ""
+"Luach éide in aghaidh an cháis a shocrú sa chuid GeometryInstance3D den "
+"chigire"
+
+msgid ""
+"When using per-instance uniforms, there are some restrictions you should be "
+"aware of:"
+msgstr ""
+"Agus éidí in aghaidh an cháis á n-úsáid agat, tá roinnt srianta ann ar chóir "
+"duit a bheith ar an eolas fúthu:"
+
+msgid ""
+"**Per-instance uniforms do not support textures**, only regular scalar and "
+"vector types. As a workaround, you can pass a texture array as a regular "
+"uniform, then pass the index of the texture to be drawn using a per-instance "
+"uniform."
+msgstr ""
+"** Ní thacaíonn éide in aghaidh an ásc le huigeachtaí **, ach cineálacha "
+"rialta scalar agus veicteoirí. Mar workaround, is féidir leat pas a fháil "
+"sraith uigeachta mar éide rialta, ansin pas a fháil ar an innéacs an "
+"uigeacht a tharraingt ag baint úsáide as éide in aghaidh an ásc."
+
+msgid "There is a practical maximum limit of 16 instance uniforms per shader."
+msgstr "Tá uasteorainn phraiticiúil d'éide 16 shampla in aghaidh an shader."
+
+msgid ""
+"If your mesh uses multiple materials, the parameters for the first mesh "
+"material found will \"win\" over the subsequent ones, unless they have the "
+"same name, index *and* type. In this case, all parameters are affected "
+"correctly."
+msgstr ""
+"Má úsáideann do mogalra ábhair iolracha, beidh na paraiméadair don chéad "
+"ábhar mogalra a fuarthas \"bua\" thar na cinn ina dhiaidh sin, ach amháin má "
+"tá siad an t-ainm céanna, innéacs * agus * cineál. Sa chás seo, déantar "
+"difear ceart do na paraiméadair go léir."
+
+msgid ""
+"If you run into the above situation, you can avoid clashes by manually "
+"specifying the index (0-15) of the instance uniform by using the "
+"``instance_index`` hint:"
+msgstr ""
+"Má ritheann tú isteach sa chás thuas, is féidir leat caismirtí a sheachaint "
+"tríd an innéacs (0-15) den éide shamplach a shonrú de láimh tríd an leid "
+"''instance_index'' a úsáid:"
+
 msgid ""
 "GDScript uses different variable types than GLSL does, so when passing "
 "variables from GDScript to shaders, Godot converts the type automatically. "
@@ -1155,290 +1255,8 @@ msgstr "**Mapa Ciúb**"
 msgid "**CubemapArray**"
 msgstr "**CubemaParraí**"
 
-msgid ""
-"Be careful when setting shader uniforms from GDScript, no error will be "
-"thrown if the type does not match. Your shader will just exhibit undefined "
-"behavior."
-msgstr ""
-"Bí cúramach agus éide shader á socrú ó GDScript, ní chaithfear aon earráid "
-"mura bhfuil an cineál comhoiriúnach. Beidh do shader thaispeáint ach iompar "
-"undefined."
-
-msgid "Uniforms can also be assigned default values:"
-msgstr "Is féidir luachanna réamhshocraithe a shannadh d'éidí freisin:"
-
-msgid ""
-"Note that when adding a default value and a hint, the default value goes "
-"after the hint."
-msgstr ""
-"Tabhair faoi deara go dtéann an luach réamhshocraithe tar éis an leid nuair "
-"a chuirtear luach réamhshocraithe agus leid leis."
-
-msgid ""
-"If you need to make multiple uniforms to be grouped in the specific category "
-"of an inspector, you can use a `group_uniform` keyword like:"
-msgstr ""
-"Más gá duit iléide a dhéanamh le grúpáil i gcatagóir shonrach cigire, is "
-"féidir leat eochairfhocal 'group_uniform' a úsáid mar:"
-
-msgid "You can close the group by using:"
-msgstr "Is féidir leat an grúpa a dhúnadh trí úsáid a bhaint as:"
-
-msgid ""
-"The syntax also supports subgroups (it's not mandatory to declare the base "
-"group before this):"
-msgstr ""
-"Tacaíonn an chomhréir le foghrúpaí freisin (níl sé éigeantach an bunghrúpa a "
-"dhearbhú roimhe seo):"
-
-msgid "Global uniforms"
-msgstr "Éidí domhanda"
-
-msgid ""
-"Sometimes, you want to modify a parameter in many different shaders at once. "
-"With a regular uniform, this takes a lot of work as all these shaders need "
-"to be tracked and the uniform needs to be set for each of them. Global "
-"uniforms allow you to create and update uniforms that will be available in "
-"all shaders, in every shader type (``canvas_item``, ``spatial``, "
-"``particles``, ``sky`` and ``fog``)."
-msgstr ""
-"Uaireanta, ba mhaith leat paraiméadar a mhodhnú i go leor shaders éagsúla ag "
-"an am céanna. Le éide rialta, tógann sé seo go leor oibre mar ní mór na "
-"shaders seo go léir a rianú agus ní mór an éide a shocrú do gach ceann acu. "
-"Ligeann éide dhomhanda duit éidí a chruthú agus a nuashonrú a bheidh ar fáil "
-"i ngach scáthán, i ngach cineál scátha (''canvas_item'', ''spásúil'', "
-"''cáithníní'', ''spéir'' agus ''ceo'')."
-
-msgid ""
-"Global uniforms are especially useful for environmental effects that affect "
-"many objects in a scene, like having foliage bend when the player is nearby, "
-"or having objects move with the wind."
-msgstr ""
-"Tá éide dhomhanda úsáideach go háirithe le haghaidh éifeachtaí comhshaoil a "
-"théann i bhfeidhm ar go leor rudaí i radharc, cosúil le lúb duilliúr a "
-"bheith aige nuair a bhíonn an t-imreoir in aice láimhe, nó rudaí a bheith ag "
-"bogadh leis an ngaoth."
-
-msgid ""
-"To create a global uniform, open the **Project Settings** then go to the "
-"**Shader Globals** tab. Specify a name for the uniform (case-sensitive) and "
-"a type, then click **Add** in the top-right corner of the dialog. You can "
-"then edit the value assigned to the uniform by clicking the value in the "
-"list of uniforms:"
-msgstr ""
-"Chun éide dhomhanda a chruthú, oscail an **Project Settings** ansin téigh go "
-"dtí an cluaisín **Shader Globals**. Sonraigh ainm don éide (cásíogair) agus "
-"cineál, ansin cliceáil **Add ** sa chúinne ag barr na láimhe deise den "
-"dialóg. Ansin is féidir leat an luach a shanntar don éide a chur in eagar "
-"trí chliceáil ar an luach sa liosta éide:"
-
-msgid ""
-"Adding a global uniform in the Shader Globals tab of the Project Settings"
-msgstr ""
-"Éide dhomhanda a chur leis sa chluaisín Shader Globals de na Socruithe "
-"Tionscadail"
-
-msgid "After creating a global uniform, you can use it in a shader as follows:"
-msgstr ""
-"Tar éis éide dhomhanda a chruthú, is féidir leat é a úsáid i shader mar seo "
-"a leanas:"
-
-msgid ""
-"Note that the global uniform *must* exist in the Project Settings at the "
-"time the shader is saved, or compilation will fail. While you can assign a "
-"default value using ``global uniform vec4 my_color = ...`` in the shader "
-"code, it will be ignored as the global uniform must always be defined in the "
-"Project Settings anyway."
-msgstr ""
-"Tabhair faoi deara go bhfuil an éide dhomhanda *ní mór *a bheith ann sna "
-"Socruithe Tionscadail ag an am a shábháiltear an scáthóir, nó teipfidh ar "
-"thiomsú. Cé gur féidir leat luach réamhshocraithe a shannadh ag baint úsáide "
-"as ''global uniform vec4 my_color = ...'' sa chód shader, déanfar neamhaird "
-"air mar ní mór an éide dhomhanda a shainmhíniú i gcónaí sna Socruithe "
-"Tionscadail ar aon nós."
-
-msgid ""
-"To change the value of a global uniform at run-time, use the :ref:"
-"`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` method in a "
-"script:"
-msgstr ""
-"Chun luach éide dhomhanda a athrú ag am rite, úsáid an modh :ref:"
-"`RenderingServer.global_shader_parameter_set "
-"<class_RenderingServer_method_global_shader_parameter_set>` i script:"
-
-msgid ""
-"Assigning global uniform values can be done as many times as desired without "
-"impacting performance, as setting data doesn't require synchronization "
-"between the CPU and GPU."
-msgstr ""
-"Is féidir luachanna aonfhoirmeacha domhanda a shannadh a dhéanamh a mhéad "
-"uair is mian gan tionchar a imirt ar fheidhmíocht, toisc nach dteastaíonn "
-"sioncrónú idir an LAP agus an GPU chun sonraí a shocrú."
-
-msgid "You can also add or remove global uniforms at run-time:"
-msgstr "Is féidir leat éide dhomhanda a chur leis nó a bhaint ag am rite:"
-
-msgid ""
-"Adding or removing global uniforms at run-time has a performance cost, "
-"although it's not as pronounced compared to getting global uniform values "
-"from a script (see the warning below)."
-msgstr ""
-"Tá costas feidhmíochta ag baint le héide dhomhanda a chur leis nó a bhaint "
-"ag am rite, cé nach bhfuil sé chomh follasach i gcomparáid le luachanna "
-"aonfhoirmeacha domhanda a fháil ó script (féach an rabhadh thíos)."
-
-msgid ""
-"While you *can* query the value of a global uniform at run-time in a script "
-"using ``RenderingServer.global_shader_parameter_get(\"uniform_name\")``, "
-"this has a large performance penalty as the rendering thread needs to "
-"synchronize with the calling thread."
-msgstr ""
-"Cé gur féidir leat *luach éide dhomhanda a fhiosrú ag am rite i script ag "
-"baint úsáide as ''RenderingServer."
-"global_shader_parameter_get(\"uniform_name)'', tá pionós mór feidhmíochta ag "
-"baint leis seo toisc go gcaithfidh an snáithe rindreáil sioncrónú leis an "
-"snáithe glao."
-
-msgid ""
-"Therefore, it's not recommended to read global shader uniform values "
-"continuously in a script. If you need to read values in a script after "
-"setting them, consider creating an :ref:`autoload <doc_singletons_autoload>` "
-"where you store the values you need to query at the same time you're setting "
-"them as global uniforms."
-msgstr ""
-"Mar sin, ní mholtar luachanna aonfhoirmeacha scáthaithe domhanda a léamh go "
-"leanúnach i script. Más gá duit luachanna a léamh i script tar éis duit iad "
-"a shocrú, smaoinigh ar :ref:`autoload <doc_singletons_autoload>` a chruthú "
-"ina stórálann tú na luachanna a theastaíonn uait a fhiosrú ag an am céanna "
-"agus tú á socrú mar éide dhomhanda."
-
-msgid "Per-instance uniforms"
-msgstr "Éidí in aghaidh an cháis"
-
-msgid "Per-instance uniforms are only available in ``spatial`` (3D) shaders."
-msgstr ""
-"Níl éide in aghaidh an cháis ar fáil ach amháin i shaders ''spásúil'' (3D)."
-
-msgid ""
-"Per-instance uniforms are not supported when using the Compatibility "
-"renderer."
-msgstr ""
-"Ní thacaítear le héide in aghaidh an ásc agus an rindreálaí Comhoiriúnachta "
-"á úsáid."
-
-msgid ""
-"Sometimes, you want to modify a parameter on each node using the material. "
-"As an example, in a forest full of trees, when you want each tree to have a "
-"slightly different color that is editable by hand. Without per-instance "
-"uniforms, this requires creating a unique material for each tree (each with "
-"a slightly different hue). This makes material management more complex, and "
-"also has a performance overhead due to the scene requiring more unique "
-"material instances. Vertex colors could also be used here, but they'd "
-"require creating unique copies of the mesh for each different color, which "
-"also has a performance overhead."
-msgstr ""
-"Uaireanta, ba mhaith leat paraiméadar a mhodhnú ar gach nód ag baint úsáide "
-"as an ábhar. Mar shampla, i bhforaois atá lán de chrainn, nuair is mian leat "
-"go mbeadh dath beagán difriúil ag gach crann atá in eagar de láimh. Gan éide "
-"in aghaidh an shampla, éilíonn sé seo ábhar uathúil a chruthú do gach crann "
-"(gach ceann acu le lí beagán difriúil). Déanann sé seo bainistíocht ábhar "
-"níos casta, agus tá forchostais feidhmíochta aige freisin mar gheall ar an "
-"radharc a éilíonn cásanna ábhartha níos uathúla. D'fhéadfaí dathanna vertex "
-"a úsáid anseo freisin, ach bheadh orthu cóipeanna uathúla den mogalra a "
-"chruthú do gach dath difriúil, a bhfuil forchostais feidhmíochta aige "
-"freisin."
-
-msgid ""
-"Per-instance uniforms are set on each GeometryInstance3D, rather than on "
-"each Material instance. Take this into account when working with meshes that "
-"have multiple materials assigned to them, or MultiMesh setups."
-msgstr ""
-"Socraítear éide in aghaidh an cháis ar gach CéimseataInstance3D, seachas ar "
-"gach cás Ábhar. Cuir é seo san áireamh agus tú ag obair le mogaill a bhfuil "
-"ábhair iolracha sannta dóibh, nó socruithe MultiMesh."
-
-msgid ""
-"After saving the shader, you can change the per-instance uniform's value "
-"using the inspector:"
-msgstr ""
-"Tar éis duit an scáthóir a shábháil, is féidir leat luach an éide in aghaidh "
-"an cháis a athrú ag baint úsáide as an gcigire:"
-
-msgid ""
-"Setting a per-instance uniform's value in the GeometryInstance3D section of "
-"the inspector"
-msgstr ""
-"Luach éide in aghaidh an cháis a shocrú sa chuid GeometryInstance3D den "
-"chigire"
-
-msgid ""
-"Per-instance uniform values can also be set at run-time using :ref:"
-"`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` method on a "
-"node that inherits from :ref:`class_GeometryInstance3D`:"
-msgstr ""
-"Is féidir luachanna aonfhoirmeacha in aghaidh na huaire a shocrú freisin ag "
-"am rite ag úsáid :ref:`set_instance_shader_parameter "
-"<class_GeometryInstance3D_method_set_instance_shader_parameter>` modh ar nód "
-"a thagann le hoidhreacht ó :ref:`class_GeometryInstance3D`:"
-
-msgid ""
-"When using per-instance uniforms, there are some restrictions you should be "
-"aware of:"
-msgstr ""
-"Agus éidí in aghaidh an cháis á n-úsáid agat, tá roinnt srianta ann ar chóir "
-"duit a bheith ar an eolas fúthu:"
-
-msgid ""
-"**Per-instance uniforms do not support textures**, only regular scalar and "
-"vector types. As a workaround, you can pass a texture array as a regular "
-"uniform, then pass the index of the texture to be drawn using a per-instance "
-"uniform."
-msgstr ""
-"** Ní thacaíonn éide in aghaidh an ásc le huigeachtaí **, ach cineálacha "
-"rialta scalar agus veicteoirí. Mar workaround, is féidir leat pas a fháil "
-"sraith uigeachta mar éide rialta, ansin pas a fháil ar an innéacs an "
-"uigeacht a tharraingt ag baint úsáide as éide in aghaidh an ásc."
-
-msgid "There is a practical maximum limit of 16 instance uniforms per shader."
-msgstr "Tá uasteorainn phraiticiúil d'éide 16 shampla in aghaidh an shader."
-
-msgid ""
-"If your mesh uses multiple materials, the parameters for the first mesh "
-"material found will \"win\" over the subsequent ones, unless they have the "
-"same name, index *and* type. In this case, all parameters are affected "
-"correctly."
-msgstr ""
-"Má úsáideann do mogalra ábhair iolracha, beidh na paraiméadair don chéad "
-"ábhar mogalra a fuarthas \"bua\" thar na cinn ina dhiaidh sin, ach amháin má "
-"tá siad an t-ainm céanna, innéacs * agus * cineál. Sa chás seo, déantar "
-"difear ceart do na paraiméadair go léir."
-
-msgid ""
-"If you run into the above situation, you can avoid clashes by manually "
-"specifying the index (0-15) of the instance uniform by using the "
-"``instance_index`` hint:"
-msgstr ""
-"Má ritheann tú isteach sa chás thuas, is féidir leat caismirtí a sheachaint "
-"tríd an innéacs (0-15) den éide shamplach a shonrú de láimh tríd an leid "
-"''instance_index'' a úsáid:"
-
 msgid "Built-in variables"
 msgstr "Tógtha-i athróga"
-
-msgid ""
-"A large number of built-in variables are available, like ``UV``, ``COLOR`` "
-"and ``VERTEX``. What variables are available depends on the type of shader "
-"(``spatial``, ``canvas_item`` or ``particle``) and the function used "
-"(``vertex``, ``fragment`` or ``light``). For a list of the built-in "
-"variables that are available, please see the corresponding pages:"
-msgstr ""
-"Tá líon mór athróg ionsuite ar fáil, cosúil le ''UV'', ''COLOR'' agus "
-"''VERTEX''. Braitheann na hathróga atá ar fáil ar an gcineál scáthóra "
-"(''spásúil'', ''canvas_item'' nó ''cáithnín'') agus ar an bhfeidhm a "
-"úsáidtear (''vertex'', ''fragment'' nó ''light''). Le haghaidh liosta de na "
-"hathróga tógtha atá ar fáil, féach na leathanaigh chomhfhreagracha:"
 
 msgid ":ref:`Spatial shaders <doc_spatial_shader>`"
 msgstr ":ref:`Spatial shaders <doc_spatial_shader>`"
@@ -1457,998 +1275,3 @@ msgstr ":ref:`Fog shaders <doc_fog_shader>`"
 
 msgid "Built-in functions"
 msgstr "Feidhmeanna ionsuite"
-
-msgid ""
-"A large number of built-in functions are supported, conforming to GLSL ES "
-"3.0. When vec_type (float), vec_int_type, vec_uint_type, vec_bool_type "
-"nomenclature is used, it can be scalar or vector."
-msgstr ""
-"Tacaítear le líon mór feidhmeanna ionsuite, ag teacht le GLSL ES 3.0. Nuair "
-"a úsáidtear vec_type (snámhphointe), vec_int_type, vec_uint_type, "
-"vec_bool_type ainmníocht, is féidir é a scalar nó veicteoir."
-
-msgid "Function"
-msgstr "Feidhm"
-
-msgid "Description / Return value"
-msgstr "Cur síos / Luach fillte"
-
-msgid "vec_type **radians** (vec_type degrees)"
-msgstr "vec_type **radians ** (vec_type céim)"
-
-msgid "Convert degrees to radians."
-msgstr "Tiontaigh céimeanna go radians."
-
-msgid "vec_type **degrees** (vec_type radians)"
-msgstr "vec_type ** céimeanna ** (vec_type raidis)"
-
-msgid "Convert radians to degrees."
-msgstr "Radians Tiontaigh go céimeanna."
-
-msgid "vec_type **sin** (vec_type x)"
-msgstr "vec_type **gan** (vec_type x)"
-
-msgid "Sine."
-msgstr "Sin."
-
-msgid "vec_type **cos** (vec_type x)"
-msgstr "cineál_vec**cos** (vec_type x)"
-
-msgid "Cosine."
-msgstr "Cosín."
-
-msgid "vec_type **tan** (vec_type x)"
-msgstr "cineál_vec**tan** (vec_type x)"
-
-msgid "Tangent."
-msgstr "Tangent."
-
-msgid "vec_type **asin** (vec_type x)"
-msgstr "cineál_vec**asin** (vec_type x)"
-
-msgid "Arcsine."
-msgstr "Arcsin."
-
-msgid "vec_type **acos** (vec_type x)"
-msgstr "cineál_vec**acos** (vec_type x)"
-
-msgid "Arccosine."
-msgstr "Arccosine."
-
-msgid "vec_type **atan** (vec_type y_over_x)"
-msgstr "cineál_vec**atan** (vec_type y_over_x)"
-
-msgid "Arctangent."
-msgstr "Arctangent."
-
-msgid "vec_type **atan** (vec_type y, vec_type x)"
-msgstr "vec_type **comhionannas vótaí** (vec_type y, vec_type x)"
-
-msgid "vec_type **sinh** (vec_type x)"
-msgstr "cineál_vec**sinh** (vec_type x)"
-
-msgid "Hyperbolic sine."
-msgstr "Sine hipearbóileach."
-
-msgid "vec_type **cosh** (vec_type x)"
-msgstr "vec_type ** cosh ** (vec_type x)"
-
-msgid "Hyperbolic cosine."
-msgstr "Cosine hipearbóileach."
-
-msgid "vec_type **tanh** (vec_type x)"
-msgstr "vec_type **iasc** (vec_type x)"
-
-msgid "Hyperbolic tangent."
-msgstr "Tadhlaí hipearbóileach."
-
-msgid "vec_type **asinh** (vec_type x)"
-msgstr "vec_type ** asinh ** (vec_type x)"
-
-msgid "Inverse hyperbolic sine."
-msgstr "Sine hipearbóileach inbhéartach."
-
-msgid "vec_type **acosh** (vec_type x)"
-msgstr "cineál vec**acosh** (vec_type x)"
-
-msgid "Inverse hyperbolic cosine."
-msgstr "Cosine hipearbóileach inbhéartach."
-
-msgid "vec_type **atanh** (vec_type x)"
-msgstr "vec_type **nó **(vec_type x)"
-
-msgid "Inverse hyperbolic tangent."
-msgstr "Tadhlaí hipearbóileach inbhéartach."
-
-msgid "vec_type **pow** (vec_type x, vec_type y)"
-msgstr "cineál_vec**pow** (vec_type x, vec_type y)"
-
-msgid "Power (undefined if ``x`` < 0 or if ``x`` == 0 and ``y`` <= 0)."
-msgstr ""
-"Cumhacht (neamhshainithe má tá `` x`` < 0 nó má tá `` x`` == 0 agus ``y`` <= "
-"0)."
-
-msgid "vec_type **exp** (vec_type x)"
-msgstr "cineál_vec**exp** (vec_type x)"
-
-msgid "Base-e exponential."
-msgstr "Bonn-e easpónantúil."
-
-msgid "vec_type **exp2** (vec_type x)"
-msgstr "vec_type ** exp2 ** (vec_type x)"
-
-msgid "Base-2 exponential."
-msgstr "Bonn-2 easpónantúil."
-
-msgid "vec_type **log** (vec_type x)"
-msgstr "cineál_vec**log** (vec_type x)"
-
-msgid "Natural logarithm."
-msgstr "Logartam nádúrtha."
-
-msgid "vec_type **log2** (vec_type x)"
-msgstr "vec_type ** log2 ** (vec_type x)"
-
-msgid "Base-2 logarithm."
-msgstr "Logartam bonn-2."
-
-msgid "vec_type **sqrt** (vec_type x)"
-msgstr "vec_type **sqrt ** (vec_type x)"
-
-msgid "Square root."
-msgstr "Fréamh chearnach."
-
-msgid "vec_type **inversesqrt** (vec_type x)"
-msgstr "cineál_vec**inversesqrt** (vec_cineál x)"
-
-msgid "Inverse square root."
-msgstr "Fréamh chearnach inbhéartach."
-
-msgid "vec_type **abs** (vec_type x)"
-msgstr "cineál vec**abs** (vec_type x)"
-
-msgid "ivec_type **abs** (ivec_type x)"
-msgstr "cineál ivec**abs** (cineál ivec_x)"
-
-msgid "Absolute value (returns positive value if negative)."
-msgstr "Luach absalóideach (filleann sé luach dearfach má tá sé diúltach)."
-
-msgid "vec_type **sign** (vec_type x)"
-msgstr "vec_type **comhartha** (vec_type x)"
-
-msgid "ivec_type **sign** (ivec_type x)"
-msgstr "ivec_type **comhartha** (ivec_type x)"
-
-msgid ""
-"Sign (returns ``1.0`` if positive, ``-1.0`` if negative, ``0.0`` if zero)."
-msgstr ""
-"Sínigh (tuairisceáin ''1.0'' má tá sé dearfach, ''-1.0'' más diúltach, "
-"''0.0'' más nialas é)."
-
-msgid "vec_type **floor** (vec_type x)"
-msgstr "vec_type **urlár** (vec_type x)"
-
-msgid "Round to the integer below."
-msgstr "Téigh go dtí an slánuimhir thíos."
-
-msgid "vec_type **round** (vec_type x)"
-msgstr "vec_type ** babhta ** (vec_type x)"
-
-msgid "Round to the nearest integer."
-msgstr "Téigh go dtí an slánuimhir is gaire."
-
-msgid "vec_type **roundEven** (vec_type x)"
-msgstr "vec_type ** roundEven ** (vec_type x)"
-
-msgid "Round to the nearest even integer."
-msgstr "Babhta go dtí an slánuimhir is gaire fiú."
-
-msgid "vec_type **trunc** (vec_type x)"
-msgstr "cineál vec**trunc** (vec_type x)"
-
-msgid "Truncation."
-msgstr "Troncation."
-
-msgid "vec_type **ceil** (vec_type x)"
-msgstr "cineál vec**uasteann** (vec_type x)"
-
-msgid "Round to the integer above."
-msgstr "Téigh go dtí an slánuimhir thuas."
-
-msgid "vec_type **fract** (vec_type x)"
-msgstr "cineál vec**fract** (vec_type x)"
-
-msgid "Fractional (returns ``x - floor(x)``)."
-msgstr "Codánach (tuairisceáin ''x - urlár(x)'')."
-
-msgid "vec_type **mod** (vec_type x, vec_type y)"
-msgstr "vec_type ** mod ** (vec_type x, vec_type y)"
-
-msgid "vec_type **mod** (vec_type x, float y)"
-msgstr "vec_type ** mod ** (vec_type x, snámhphointe y)"
-
-msgid "Modulo (division remainder)."
-msgstr "Modulo (fuílleach roinne)."
-
-msgid "vec_type **modf** (vec_type x, out vec_type i)"
-msgstr "vec_type ** modf ** (vec_type x, amach vec_type i)"
-
-msgid "Fractional of ``x``, with ``i`` as integer part."
-msgstr "Codánach de ''x'', le ''i'' mar chuid slánuimhir."
-
-msgid "vec_type  **min** (vec_type a, vec_type b)"
-msgstr "vec_type **min ** (vec_type a, vec_type b)"
-
-msgid "Lowest value between ``a`` and ``b``."
-msgstr "An luach is ísle idir ''a'' agus ''b''."
-
-msgid "vec_type  **max** (vec_type a, vec_type b)"
-msgstr "vec_type **max** (vec_type a, vec_type b)"
-
-msgid "Highest value between ``a`` and ``b``."
-msgstr "An luach is airde idir ''a'' agus ''b''."
-
-msgid "vec_type **clamp** (vec_type x, vec_type min, vec_type max)"
-msgstr "vec_type ** clamp ** (vec_type x, vec_type min, vec_type max)"
-
-msgid "Clamp ``x`` between ``min`` and ``max`` (inclusive)."
-msgstr "Clampáil ''x'' idir ''min'' agus ''max'' (san áireamh)."
-
-msgid "float **mix** (float a, float b, float c)"
-msgstr "snámhphointe **mix** (snámhphointe a, snámhphointe b, snámhphointe c)"
-
-msgid "vec_type **mix** (vec_type a, vec_type b, float c)"
-msgstr "vec_type **meascán** (vec_type a, vec_type b, snámhphointe c)"
-
-msgid "vec_type **mix** (vec_type a, vec_type b, bvec_type c)"
-msgstr "vec_type **meascán** (vec_type a, vec_type b, bvec_type c)"
-
-msgid "Linear interpolate between ``a`` and ``b`` by ``c``."
-msgstr "Idirshuíomh líneach idir ''a'' agus ''b'' le ''c''."
-
-msgid "vec_type **fma** (vec_type a, vec_type b, vec_type c)"
-msgstr "cineál_vec**fma** (vec_type a, vec_type b, vec_type c)"
-
-msgid ""
-"Performs a fused multiply-add operation: ``(a * b + c)`` (faster than doing "
-"it manually)."
-msgstr ""
-"Déanann sé oibríocht iolraithe comhleáite: ''(a * b + c)'' (níos tapúla ná é "
-"a dhéanamh de láimh)."
-
-msgid "vec_type **step** (vec_type a, vec_type b)"
-msgstr "vec_type ** céim ** (vec_type a, vec_type b)"
-
-msgid "``b[i] < a[i] ? 0.0 : 1.0``."
-msgstr "``b[i] < a[i] ? 0.0 : 1.0``."
-
-msgid "vec_type **step** (float a, vec_type b)"
-msgstr "vec_type ** céim ** (snámhphointe a, vec_type b)"
-
-msgid "``b[i] < a ? 0.0 : 1.0``."
-msgstr "``b[i] < a ? 0.0 : 1.0``."
-
-msgid "vec_type **smoothstep** (vec_type a, vec_type b, vec_type c)"
-msgstr "cineál_vec**step_réamh** (vec_type a, vec_type b, vec_type c)"
-
-msgid "vec_type **smoothstep** (float a, float b, vec_type c)"
-msgstr "vec_type **smoothstep** (snámhphointe a, snámhphointe b, vec_type c)"
-
-msgid "Hermite interpolate between ``a`` and ``b`` by ``c``."
-msgstr "Idirshuíomh hermite idir ''a'' agus ''b'' le ''c''."
-
-msgid "bvec_type **isnan** (vec_type x)"
-msgstr "cineál_bvec**isnan** (vec_type x)"
-
-msgid "Returns ``true`` if scalar or vector component is ``NaN``."
-msgstr ""
-"Tuairisceáin ''fíor'' más é ''NaN' an chomhpháirt scalar nó veicteoireach'."
-
-msgid "bvec_type **isinf** (vec_type x)"
-msgstr "cineál_bvec**isinf** (vec_type x)"
-
-msgid "Returns ``true`` if scalar or vector component is ``INF``."
-msgstr ""
-"Tuairisceáin ''fíor'' más é ''INF'' an chomhpháirt scalar nó veicteoireach'."
-
-msgid "ivec_type **floatBitsToInt** (vec_type x)"
-msgstr "cineál_ivec**FloatBitsToint** (cineál_vec_x)"
-
-msgid "Float->Int bit copying, no conversion."
-msgstr "Snámhphointe-> Cóipeáil giotán Int, gan aon chomhshó."
-
-msgid "uvec_type **floatBitsToUint** (vec_type x)"
-msgstr "cineál_uvec**FloatBitstouint** (vec_type x)"
-
-msgid "Float->UInt bit copying, no conversion."
-msgstr "Snámh-> Uint chóipeáil giotán, gan aon chomhshó."
-
-msgid "vec_type **intBitsToFloat** (ivec_type x)"
-msgstr "vec_type ** intBitsToFloat ** (ivec_type x)"
-
-msgid "Int->Float bit copying, no conversion."
-msgstr "Int-> Cóipeáil giotán snámhphointe, gan aon chomhshó."
-
-msgid "vec_type **uintBitsToFloat** (uvec_type x)"
-msgstr "vec_cineál**UintBittOfloat** (uvec_type x)"
-
-msgid "UInt->Float bit copying, no conversion."
-msgstr "UInt-> Cóipeáil giotán snámhphointe, gan aon chomhshó."
-
-msgid "float **length** (vec_type x)"
-msgstr "snámhphointe ** fad ** (vec_type x)"
-
-msgid "Vector length."
-msgstr "Fad veicteora."
-
-msgid "float **distance** (vec_type a, vec_type b)"
-msgstr "snámhphointe **fad** (vec_type a, vec_type b)"
-
-msgid "Distance between vectors i.e ``length(a - b)``."
-msgstr "Fad idir veicteoirí i.e ''fad(a - b)''."
-
-msgid "float **dot** (vec_type a, vec_type b)"
-msgstr "snámhphointe **dot** (vec_type a, vec_type b)"
-
-msgid "Dot product."
-msgstr "Táirge ponc."
-
-msgid "vec3 **cross** (vec3 a, vec3 b)"
-msgstr "Vec3 **Cross** (Vec3 A, Vec3 B)"
-
-msgid "Cross product."
-msgstr "Tras-táirge."
-
-msgid "vec_type **normalize** (vec_type x)"
-msgstr "vec_type **normalú** (vec_type x)"
-
-msgid "Normalize to unit length."
-msgstr "Normalú go fad an aonaid."
-
-msgid "vec3 **reflect** (vec3 I, vec3 N)"
-msgstr "vec3 **machnamh** (vec3 I, vec3 N)"
-
-msgid "Reflect."
-msgstr "Machnamh."
-
-msgid "vec3 **refract** (vec3 I, vec3 N, float eta)"
-msgstr "vec3 **refract** (vec3 I, vec3 N, snámhphointe eta)"
-
-msgid "Refract."
-msgstr "Athraitheadh."
-
-msgid "vec_type **faceforward** (vec_type N, vec_type I, vec_type Nref)"
-msgstr "vec_type **faceforward** (vec_type N, vec_type mé, vec_type Nref)"
-
-msgid "If ``dot(Nref, I)`` < 0, return ``N``, otherwise ``-N``."
-msgstr "Má tá `` ponc(Nref, I)`` < 0, seol ar ais `` N``, ar shlí eile ``-N``."
-
-msgid "mat_type **matrixCompMult** (mat_type x, mat_type y)"
-msgstr "cineál_mat**MatrixCompmult** (cineál_mat_x, cineál_mat_y)"
-
-msgid "Matrix component multiplication."
-msgstr "Iolrú comhpháirte maitríse."
-
-msgid "mat_type **outerProduct** (vec_type column, vec_type row)"
-msgstr "mat_type ** outerProduct ** (colún vec_type, vec_type ró)"
-
-msgid "Matrix outer product."
-msgstr "Táirge seachtrach maitrís."
-
-msgid "mat_type **transpose** (mat_type m)"
-msgstr "mat_type **trasuíomh** (mat_type m)"
-
-msgid "Transpose matrix."
-msgstr "Maitrís a thrasuí."
-
-msgid "float **determinant** (mat_type m)"
-msgstr "snámhphointe **determinant** (mat_type m)"
-
-msgid "Matrix determinant."
-msgstr "Deitéarmanant maitríse."
-
-msgid "mat_type **inverse** (mat_type m)"
-msgstr "mat_type **inbhéartach** (mat_type m)"
-
-msgid "Inverse matrix."
-msgstr "Maitrís inbhéartach."
-
-msgid "bvec_type **lessThan** (vec_type x, vec_type y)"
-msgstr "bvec_type**níos lú ná ** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on < int/uint/float vectors."
-msgstr "Comparáid veicteora bool ar < int/uint/veicteora snámhphointe."
-
-msgid "bvec_type **greaterThan** (vec_type x, vec_type y)"
-msgstr "bvec_type**níos mó ná ** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on > int/uint/float vectors."
-msgstr "Comparáid veicteora bool ar veicteoirí > int/uint/snámhphointe."
-
-msgid "bvec_type **lessThanEqual** (vec_type x, vec_type y)"
-msgstr "bvec_type**LessthanEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on <= int/uint/float vectors."
-msgstr "Comparáid veicteora bool ar veicteoirí <= int/uint/snámhphointe."
-
-msgid "bvec_type **greaterThanEqual** (vec_type x, vec_type y)"
-msgstr "bvec_type**GreaterthanEqual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on >= int/uint/float vectors."
-msgstr "Comparáid veicteoir bool ar veicteoirí >= int/uint/snámhphointe."
-
-msgid "bvec_type **equal** (vec_type x, vec_type y)"
-msgstr "bvec_type **cothrom** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on == int/uint/float vectors."
-msgstr "Comparáid veicteoir Bool ar == veicteoirí int / uint / snámhphointe."
-
-msgid "bvec_type **notEqual** (vec_type x, vec_type y)"
-msgstr "bvec_type**NoteQual** (vec_type x, vec_type y)"
-
-msgid "Bool vector comparison on != int/uint/float vectors."
-msgstr "Comparáid veicteoir Bool ar veicteoirí int / uint / snámhphointe."
-
-msgid "bool **any** (bvec_type x)"
-msgstr "bool ** ar bith ** (bvec_type x)"
-
-msgid "``true`` if any component is ``true``, ``false`` otherwise."
-msgstr "''fíor'' má tá comhpháirt ar bith ''fíor'', ''bréagach'' ar shlí eile."
-
-msgid "bool **all** (bvec_type x)"
-msgstr "bool ** gach ** (bvec_type x)"
-
-msgid "``true`` if all components are ``true``, ``false`` otherwise."
-msgstr ""
-"''fíor'' má tá na comhpháirteanna go léir ''fíor'', ''bréagach'' ar shlí "
-"eile."
-
-msgid "bvec_type **not** (bvec_type x)"
-msgstr "bvec_type **ní** (bvec_type x)"
-
-msgid "Invert boolean vector."
-msgstr "Inbhéartaigh veicteoir Boole."
-
-msgid "ivec2 **textureSize** (gsampler2D s, int lod)"
-msgstr "ivec2 ** uigeacht Size ** (gsampler2D s, lod int)"
-
-msgid "ivec3 **textureSize** (gsampler2DArray s, int lod)"
-msgstr "ivec3 ** uigeachtSize ** (gsampler2DArray s, int lod)"
-
-msgid "ivec3 **textureSize** (gsampler3D s, int lod)"
-msgstr "ivec3 ** uigeachtSize ** (gsampler3D s, lod int)"
-
-msgid "ivec2 **textureSize** (samplerCube s, int lod)"
-msgstr "ivec2 ** uigeachtSize ** (samplerCube s, int lod)"
-
-msgid "ivec2 **textureSize** (samplerCubeArray s, int lod)"
-msgstr "ivec2 ** uigeachtSize ** (samplerCubeArray s, int lod)"
-
-msgid "Get the size of a texture."
-msgstr "Faigh méid uigeachta."
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0`` will use "
-"the full resolution texture."
-msgstr ""
-"Sainmhíníonn an LOD cén leibhéal mipmap a úsáidtear. Bainfidh luach LOD de "
-"''0'' úsáid as uigeacht iomlán an réitigh."
-
-msgid "vec2 **textureQueryLod** (gsampler2D s, vec2 p)"
-msgstr "vec2 **uigeachtQueryLod** (gsampler2D s, vec2 p)"
-
-msgid "vec3 **textureQueryLod** (gsampler2DArray s, vec2 p)"
-msgstr "vec3 **uigeachtQueryLod** (gsampler2DArray s, vec2 p)"
-
-msgid "vec2 **textureQueryLod** (gsampler3D s, vec3 p)"
-msgstr "vec2 **uigeachtQueryLod** (gsampler3D s, vec3 p)"
-
-msgid "vec2 **textureQueryLod** (samplerCube s, vec3 p)"
-msgstr "vec2 **uigeachtQueryLod** (samplerCube s, vec3 p)"
-
-msgid ""
-"Compute the level-of-detail that would be used to sample from a texture. The "
-"``x`` component of the resulted value is the mipmap array that would be "
-"accessed. The ``y`` component is computed level-of-detail relative to the "
-"base level (regardless of the mipmap levels of the texture)."
-msgstr ""
-"Ríomh an leibhéal-de-mhionsonraithe a d'úsáidfí chun sampla a dhéanamh ó "
-"uigeacht. Is í an chomhpháirt ''x'' den luach toraidh an t-eagar mipmap a "
-"mbeadh rochtain air. Ríomhtar an chomhpháirt ''y'' i gcoibhneas leis an "
-"mbunleibhéal (beag beann ar leibhéil mipmap na huigeachta)."
-
-msgid "int **textureQueryLevels** (gsampler2D s)"
-msgstr "int **uigeachtQueryLevels** (gsampler2D s)"
-
-msgid "int **textureQueryLevels** (gsampler2DArray s)"
-msgstr "int **uigeachtQueryLevels** (gsampler2DArray s)"
-
-msgid "int **textureQueryLevels** (gsampler3D s)"
-msgstr "int **uigeachtQueryLevels** (gsampler3D s)"
-
-msgid "int **textureQueryLevels** (samplerCube s)"
-msgstr "int **uigeachtQueryLevels** (samplerCube s)"
-
-msgid "Get the number of accessible mipmap levels of a texture."
-msgstr "Faigh líon na leibhéal mipmap inrochtana d'uigeacht."
-
-msgid ""
-"If the texture is unassigned to a sampler, ``1`` is returned (Godot always "
-"internally assigns a texture even to an empty sampler)."
-msgstr ""
-"Má tá an uigeacht gan síniú le sampler, cuirtear ''1'' ar ais (sannann Godot "
-"uigeacht i gcónaí go hinmheánach fiú do sampler folamh)."
-
-msgid "gvec4_type **texture** (gsampler2D s, vec2 p [, float bias])"
-msgstr ""
-"gvec4_type **uigeacht** (gsampler2D s, vec2 p [, claonadh snámhphointe])"
-
-msgid "gvec4_type **texture** (gsampler2DArray s, vec3 p [, float bias])"
-msgstr ""
-"gvec4_type **uigeacht** (gsampler2DArray s, vec3 p [, claonadh snámhphointe])"
-
-msgid "gvec4_type **texture** (gsampler3D s, vec3 p [, float bias])"
-msgstr ""
-"gvec4_type **uigeacht** (gsampler3D s, vec3 p [, claonadh snámhphointe])"
-
-msgid "vec4 **texture** (samplerCube s, vec3 p [, float bias])"
-msgstr "vec4 **uigeacht** (samplerCube s, vec3 p [, claonadh snámhphointe])"
-
-msgid "vec4 **texture** (samplerCubeArray s, vec4 p [, float bias])"
-msgstr ""
-"vec4 **uigeacht** (samplerCubeArray s, vec4 p [, claonadh snámhphointe])"
-
-msgid "Perform a texture read."
-msgstr "Déan léamh uigeachta."
-
-msgid "gvec4_type **textureProj** (gsampler2D s, vec3 p [, float bias])"
-msgstr ""
-"gvec4_type **uigeachtProj** (gsampler2D s, vec3 p [, claonadh snámhphointe])"
-
-msgid "gvec4_type **textureProj** (gsampler2D s, vec4 p [, float bias])"
-msgstr ""
-"gvec4_type **uigeachtProj** (gsampler2D s, vec4 p [, claonadh snámhphointe])"
-
-msgid "gvec4_type **textureProj** (gsampler3D s, vec4 p [, float bias])"
-msgstr ""
-"gvec4_type **uigeachtProj** (gsampler3D s, vec4 p [, claonadh snámhphointe])"
-
-msgid "Perform a texture read with projection."
-msgstr "Déan uigeacht a léamh le teilgean."
-
-msgid "gvec4_type **textureLod** (gsampler2D s, vec2 p, float lod)"
-msgstr "gvec4_type **uigeachtLod** (gsampler2D s, vec2 p, lod snámhphointe)"
-
-msgid "gvec4_type **textureLod** (gsampler2DArray s, vec3 p, float lod)"
-msgstr ""
-"gvec4_type **uigeachtLod** (gsampler2DArray s, vec3 p, lod snámhphointe)"
-
-msgid "gvec4_type **textureLod** (gsampler3D s, vec3 p, float lod)"
-msgstr "gvec4_type **uigeachtLod** (gsampler3D s, vec3 p, lod snámhphointe)"
-
-msgid "vec4 **textureLod** (samplerCube s, vec3 p, float lod)"
-msgstr "vec4 **uigeachtLod** (samplerCube s, vec3 p, snámhphointe lod)"
-
-msgid "vec4 **textureLod** (samplerCubeArray s, vec4 p, float lod)"
-msgstr "vec4 **uigeachtLod** (samplerCubeArray s, vec4 p, snámhphointe lod)"
-
-msgid "Perform a texture read at custom mipmap."
-msgstr "Déan uigeacht a léamh ag mapa saincheaptha."
-
-msgid ""
-"The LOD defines which mipmap level is used. An LOD value of ``0.0`` will use "
-"the full resolution texture. If the texture lacks mipmaps, all LOD values "
-"will act like ``0.0``."
-msgstr ""
-"Sainmhíníonn an LOD cén leibhéal mipmap a úsáidtear. Bainfidh luach LOD de "
-"''0.0'' úsáid as uigeacht iomlán an réitigh. Mura bhfuil mipmaps in easnamh "
-"ar an uigeacht, gníomhóidh gach luach LOD mar ''0.0''."
-
-msgid "gvec4_type **textureProjLod** (gsampler2D s, vec3 p, float lod)"
-msgstr ""
-"gvec4_type **uigeachtProjLod** (gsampler2D s, vec3 p, lod snámhphointe)"
-
-msgid "gvec4_type **textureProjLod** (gsampler2D s, vec4 p, float lod)"
-msgstr ""
-"gvec4_type **uigeachtProjLod** (gsampler2D s, vec4 p, lod snámhphointe)"
-
-msgid "gvec4_type **textureProjLod** (gsampler3D s, vec4 p, float lod)"
-msgstr ""
-"gvec4_type **uigeachtProjLod** (gsampler3D s, vec4 p, lod snámhphointe)"
-
-msgid "Performs a texture read with projection/LOD."
-msgstr "Déanann sé uigeacht a léamh le teilgean / LOD."
-
-msgid "gvec4_type **textureGrad** (gsampler2D s, vec2 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **uigeachtGrad** (gsampler2D s, vec2 p, vec2 dPdx, vec2 dPdy)"
-
-msgid ""
-"gvec4_type **textureGrad** (gsampler2DArray s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **uigeachtGrad** (gsampler2DArray s, vec3 p, vec2 dPdx, vec2 dPdy)"
-
-msgid "gvec4_type **textureGrad** (gsampler3D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **uigeachtGrad** (gsampler3D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-
-msgid "vec4 **textureGrad** (samplerCube s, vec3 p, vec3 dPdx, vec3 dPdy)"
-msgstr "vec4 **uigeachtGrad** (samplerCube s, vec3 p, vec3 dPdx, vec3 dPdy)"
-
-msgid "vec4 **textureGrad** (samplerCubeArray s, vec3 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"vec4 **uigeachtGrad** (samplerCubeArray s, vec3 p, vec3 dPdx, vec3 dPdy)"
-
-msgid "Performs a texture read with explicit gradients."
-msgstr "Déanann sé uigeacht a léamh le grádáin fhollasacha."
-
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **uigeachtProjGrad** (gsampler2D s, vec3 p, vec2 dPdx, vec2 dPdy)"
-
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler2D s, vec4 p, vec2 dPdx, vec2 dPdy)"
-msgstr ""
-"gvec4_type **uigeachtProjGrad** (gsampler2D s, vec4 p, vec2 dPdx, vec2 dPdy)"
-
-msgid ""
-"gvec4_type **textureProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
-msgstr ""
-"gvec4_type **uigeachtProjGrad** (gsampler3D s, vec4 p, vec3 dPdx, vec3 dPdy)"
-
-msgid ""
-"Performs a texture read with projection/LOD and with explicit gradients."
-msgstr "Déanann uigeacht a léamh le teilgean / LOD agus le grádáin sainráite."
-
-msgid "gvec4_type **texelFetch** (gsampler2D s, ivec2 p, int lod)"
-msgstr "gvec4_type ** texelFetch ** (gsampler2D s, ivec2 p, int lod)"
-
-msgid "gvec4_type **texelFetch** (gsampler2DArray s, ivec3 p, int lod)"
-msgstr "gvec4_type**texelfetch** (gsampler2darray s, ivec3 p, int load)"
-
-msgid "gvec4_type **texelFetch** (gsampler3D s, ivec3 p, int lod)"
-msgstr "gvec4_type ** texelFetch ** (gsampler3D s, ivec3 p, int lod)"
-
-msgid "Fetches a single texel using integer coordinates."
-msgstr "Fetches texel amháin ag baint úsáide as comhordanáidí slánuimhir."
-
-msgid "gvec4_type **textureGather** (gsampler2D s, vec2 p [, int comps])"
-msgstr "gvec4_type **uigeachtGather** (gsampler2D s, vec2 p [, int comps])"
-
-msgid "gvec4_type **textureGather** (gsampler2DArray s, vec3 p [, int comps])"
-msgstr ""
-"gvec4_type **uigeachtGather** (gsampler2DArray s, vec3 p [, int comps])"
-
-msgid "vec4 **textureGather** (samplerCube s, vec3 p [, int comps])"
-msgstr "vec4 **uigeachtGather** (samplerCube s, vec3 p [, int comps])"
-
-msgid ""
-"Gathers four texels from a texture. Use ``comps`` within range of 0..3 to "
-"define which component (x, y, z, w) is returned. If ``comps`` is not "
-"provided: 0 (or x-component) is used."
-msgstr ""
-"Bailíonn sé ceithre texels ó uigeacht. Bain úsáid as ''comps'' laistigh de "
-"raon 0..3 chun an chomhpháirt (x, y, z, w) a thugtar ar ais a shainiú. Mura "
-"gcuirtear ''comps'' ar fáil: úsáidtear 0 (nó x-chomhpháirt)."
-
-msgid "vec_type **dFdx** (vec_type p)"
-msgstr "cineál vec**DFDX** (vec_type p)"
-
-msgid ""
-"Derivative in ``x`` using local differencing. Internally, can use either "
-"``dFdxCoarse`` or ``dFdxFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-"Díorthach i ''x'' ag baint úsáide as difríocht áitiúil. Go hinmheánach, is "
-"féidir ''dFdxCoarse'' nó ''dFdxFine'' a úsáid, ach is é an tiománaí GPU a "
-"dhéanann an cinneadh maidir le húsáid."
-
-msgid "vec_type **dFdxCoarse** (vec_type p)"
-msgstr "vec_type**DFDXGearr** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-"Ríomhann sé díorthach maidir le comhordanáid fuinneoige ''x'' ag baint "
-"úsáide as difríocht áitiúil bunaithe ar luach ''p'' don chomharsa/do na "
-"comharsana blúire reatha, agus áireofar leis, b'fhéidir, ach ní gá, luach an "
-"bhlúire reatha. Níl an fheidhm seo ar fáil ar phróifíl ''gl_compatibility''."
-
-msgid "vec_type **dFdxFine** (vec_type p)"
-msgstr "cineál vec**dfdxfine** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``x`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-"Ríomhann sé díorthach maidir le comhordanáid fuinneoige ''x'' ag baint "
-"úsáide as difríocht áitiúil bunaithe ar luach ''p'' don bhlúire reatha agus "
-"dá gharchomharsa(í). Níl an fheidhm seo ar fáil ar phróifíl "
-"''gl_compatibility''."
-
-msgid "vec_type **dFdy** (vec_type p)"
-msgstr "cineál vec**DFDY** (vec_type p)"
-
-msgid ""
-"Derivative in ``y`` using local differencing. Internally, can use either "
-"``dFdyCoarse`` or ``dFdyFine``, but the decision for which to use is made by "
-"the GPU driver."
-msgstr ""
-"Díorthach i ''y'' ag baint úsáide as difríocht áitiúil. Go hinmheánach, is "
-"féidir ''dFdyCoarse'' nó ''dFdyFine'' a úsáid, ach is é an tiománaí GPU a "
-"dhéanann an cinneadh maidir le húsáid."
-
-msgid "vec_type **dFdyCoarse** (vec_type p)"
-msgstr "cineál vec**dfdycoarse** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment "
-"neighbour(s), and will possibly, but not necessarily, include the value for "
-"the current fragment. This function is not available on ``gl_compatibility`` "
-"profile."
-msgstr ""
-"Ríomhann sé díorthach maidir le comhordanáid fuinneoige ''y'' ag baint "
-"úsáide as difríocht áitiúil bunaithe ar luach ''p'' don chomharsa/do na "
-"comharsana blúire reatha, agus áireofar leis, b'fhéidir, ach ní gá, luach an "
-"bhlúire reatha. Níl an fheidhm seo ar fáil ar phróifíl ''gl_compatibility''."
-
-msgid "vec_type **dFdyFine** (vec_type p)"
-msgstr "vec_cineál**dfdyFine** (vec_type p)"
-
-msgid ""
-"Calculates derivative with respect to ``y`` window coordinate using local "
-"differencing based on the value of ``p`` for the current fragment and its "
-"immediate neighbour(s). This function is not available on "
-"``gl_compatibility`` profile."
-msgstr ""
-"Ríomhann sé díorthach maidir le comhordanáid fuinneoige ''y'' ag baint "
-"úsáide as difríocht áitiúil bunaithe ar luach ''p'' don bhlúire reatha agus "
-"dá gharchomharsa(í). Níl an fheidhm seo ar fáil ar phróifíl "
-"''gl_compatibility''."
-
-msgid "vec_type **fwidth** (vec_type p)"
-msgstr "cineál vec**fwidth** (vec_type p)"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdx(p)) + abs(dFdy(p))``."
-msgstr ""
-"Suim an fhíordhíorthaigh in ''x'' agus ''y''. Is ionann é seo agus "
-"''abs(dFdx(p)) + abs(dFdy(p))'' a úsáid."
-
-msgid "vec_type **fwidthCoarse** (vec_type p)"
-msgstr "cineál vec**fWidthCoarse** (vec_type p)"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-"Suim an fhíordhíorthaigh in ''x'' agus ''y''. Is ionann é seo agus "
-"''abs(dFdxCoarse(p)) + abs(dFdyCoarse(p))'' a úsáid. Níl an fheidhm seo ar "
-"fáil ar phróifíl ''gl_compatibility''."
-
-msgid "vec_type **fwidthFine** (vec_type p)"
-msgstr "cineál vec**fWidthFine** (vec_type p)"
-
-msgid ""
-"Sum of absolute derivative in ``x`` and ``y``. This is the equivalent of "
-"using ``abs(dFdxFine(p)) + abs(dFdyFine(p))``. This function is not "
-"available on ``gl_compatibility`` profile."
-msgstr ""
-"Suim an fhíordhíorthaigh in ''x'' agus ''y''. Is ionann é seo agus "
-"''abs(dFdxFine(p)) + abs(dFdyFine(p))'' a úsáid. Níl an fheidhm seo ar fáil "
-"ar phróifíl ''gl_compatibility''."
-
-msgid "uint **packHalf2x16** (vec2 v)"
-msgstr "uint**packHalf2x16** (vec2 v)"
-
-msgid "vec2 **unpackHalf2x16** (uint v)"
-msgstr "vec2 ** unpackHalf2x16 ** (uint v)"
-
-msgid ""
-"Convert two 32-bit floating-point numbers into 16-bit and pack them into a "
-"32-bit unsigned integer and vice-versa."
-msgstr ""
-"Tiontaigh dhá uimhir snámhphointe 32-giotán i 16-giotán agus pacáil iad i "
-"slánuimhir neamhshínithe 32-giotán agus vice-versa."
-
-msgid "uint **packUnorm2x16** (vec2 v)"
-msgstr "uint**PackUnorm2x16** (vec2 v)"
-
-msgid "vec2 **unpackUnorm2x16** (uint v)"
-msgstr "vec2**UnpackUnorm2x16** (gan v)"
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within 0..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Tiontaigh dhá uimhir snámhphointe 32-giotán (clampáilte laistigh de raon "
-"0..1) i 16-giotán agus iad a phacáil i slánuimhir neamhshínithe 32-giotán "
-"agus vice-versa."
-
-msgid "uint **packSnorm2x16** (vec2 v)"
-msgstr "uint ** pacáisteSnorm2x16 ** (vec2 v)"
-
-msgid "vec2 **unpackSnorm2x16** (uint v)"
-msgstr "vec2 ** unpackSnorm2x16 ** (uint v)"
-
-msgid ""
-"Convert two 32-bit floating-point numbers (clamped within -1..1 range) into "
-"16-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Tiontaigh dhá uimhir snámhphointe 32-giotán (clampáilte laistigh de raon "
-"-1..1) i 16-giotán agus iad a phacáil i slánuimhir neamhshínithe 32-giotán "
-"agus vice-versa."
-
-msgid "uint **packUnorm4x8** (vec4 v)"
-msgstr "uint**PackUnorm4x8** (vec4 v)"
-
-msgid "vec4 **unpackUnorm4x8** (uint v)"
-msgstr "vec4 ** unpackUnorm4x8 ** (uint v)"
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within 0..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Tiontaigh ceithre uimhir snámhphointe 32-giotán (clampáilte laistigh de raon "
-"0..1) i 8-giotán agus iad a phacáil i slánuimhir neamhshínithe 32-giotán "
-"agus vice-versa."
-
-msgid "uint **packSnorm4x8** (vec4 v)"
-msgstr "uint ** pacáisteSnorm4x8 ** (vec4 v)"
-
-msgid "vec4 **unpackSnorm4x8** (uint v)"
-msgstr "vec4 ** unpackSnorm4x8 ** (uint v)"
-
-msgid ""
-"Convert four 32-bit floating-point numbers (clamped within -1..1 range) into "
-"8-bit and pack them into a 32-bit unsigned integer and vice-versa."
-msgstr ""
-"Tiontaigh ceithre uimhir snámhphointe 32-giotán (clampáilte laistigh de raon "
-"-1..1) i 8-giotán agus iad a phacáil i slánuimhir neamhshínithe 32-giotán "
-"agus vice-versa."
-
-msgid "ivec_type **bitfieldExtract** (ivec_type value, int offset, int bits)"
-msgstr ""
-"ivec_type **bitfieldExtract** (luach ivec_type, fritháireamh int, giotán int)"
-
-msgid "uvec_type **bitfieldExtract** (uvec_type value, int offset, int bits)"
-msgstr ""
-"uvec_type **bitfieldExtract** (luach uvec_type, fritháireamh int, giotán int)"
-
-msgid "Extracts a range of bits from an integer."
-msgstr "Sleachta raon giotán ó slánuimhir."
-
-msgid ""
-"ivec_type **bitfieldInsert** (ivec_type base, ivec_type insert, int offset, "
-"int bits)"
-msgstr ""
-"ivec_type **bitfieldInsert** (bonn ivec_type, cuir isteach ivec_type, "
-"fritháireamh int, giotán int)"
-
-msgid ""
-"uvec_type **bitfieldInsert** (uvec_type base, uvec_type insert, int offset, "
-"int bits)"
-msgstr ""
-"uvec_type **bitfieldInsert** (bonn uvec_type, cuir isteach uvec_type, "
-"fritháireamh int, giotán int)"
-
-msgid "Insert a range of bits into an integer."
-msgstr "Cuir isteach raon giotán i slánuimhir."
-
-msgid "ivec_type **bitfieldReverse** (ivec_type value)"
-msgstr "ivec_type **bitfieldReverse** (luach ivec_type)"
-
-msgid "uvec_type **bitfieldReverse** (uvec_type value)"
-msgstr "uvec_type **bitfieldReverse** (luach uvec_type)"
-
-msgid "Reverse the order of bits in an integer."
-msgstr "Aisiompaigh ord na ngiotán i slánuimhir."
-
-msgid "ivec_type **bitCount** (ivec_type value)"
-msgstr "ivec_type ** bitCount ** (luach ivec_type)"
-
-msgid "uvec_type **bitCount** (uvec_type value)"
-msgstr "uvec_type ** bitCount ** (luach uvec_type)"
-
-msgid "Counts the number of 1 bits in an integer."
-msgstr "Comhaireamh líon na 1 giotán i slánuimhir."
-
-msgid "ivec_type **findLSB** (ivec_type value)"
-msgstr "ivec_type **findLSB** (luach ivec_type)"
-
-msgid "uvec_type **findLSB** (uvec_type value)"
-msgstr "uvec_type **findLSB** (luach uvec_type)"
-
-msgid "Find the index of the least significant bit set to 1 in an integer."
-msgstr ""
-"Faigh an t-innéacs den giotán is lú suntasach atá leagtha síos go 1 i "
-"slánuimhir."
-
-msgid "ivec_type **findMSB** (ivec_type value)"
-msgstr "ivec_type **findMSB** (luach ivec_type)"
-
-msgid "uvec_type **findMSB** (uvec_type value)"
-msgstr "uvec_type **findMSB** (luach uvec_type)"
-
-msgid "Find the index of the most significant bit set to 1 in an integer."
-msgstr ""
-"Faigh an t-innéacs de na giotán is suntasaí a leagtar go 1 i slánuimhir."
-
-msgid ""
-"void **imulExtended** (ivec_type x, ivec_type y, out ivec_type msb, out "
-"ivec_type lsb)"
-msgstr ""
-"neamhní **imulExtended** (ivec_type x, ivec_type y, amach ivec_type msb, "
-"amach ivec_type lsb)"
-
-msgid ""
-"void **umulExtended** (uvec_type x, uvec_type y, out uvec_type msb, out "
-"uvec_type lsb)"
-msgstr ""
-"neamhní **umulExtended** (uvec_type x, uvec_type y, amach uvec_type msb, "
-"amach uvec_type lsb)"
-
-msgid ""
-"Multiplies two 32-bit numbers and produce a 64-bit result. ``x`` - the first "
-"number. ``y`` - the second number. ``msb`` - will contain the most "
-"significant bits. ``lsb`` - will contain the least significant bits."
-msgstr ""
-"Iolraigh dhá uimhir 32-giotán agus toradh 64-giotán a tháirgeadh. ''x'' - an "
-"chéad uimhir. ''y'' - an dara huimhir. ''msb'' - beidh na giotaí is suntasaí "
-"ann. ''lsb'' - beidh na giotaí is lú suntasach ann."
-
-msgid "uvec_type **uaddCarry** (uvec_type x, uvec_type y, out uvec_type carry)"
-msgstr ""
-"uvec_type **uaddCarry** (uvec_type x, uvec_type y, amach uvec_type a "
-"dhéanamh)"
-
-msgid "Adds two unsigned integers and generates carry."
-msgstr "Cuireann seo dhá shlánuimhir gan síniú leis agus gineann sé iompar."
-
-msgid ""
-"uvec_type **usubBorrow** (uvec_type x, uvec_type y, out uvec_type borrow)"
-msgstr ""
-"uvec_type **usubBorrow** (uvec_type x, uvec_type y, amach uvec_type iasacht)"
-
-msgid "Subtracts two unsigned integers and generates borrow."
-msgstr "Dealaíonn seo dhá shlánuimhir gan síniú agus gineann sé iasacht."
-
-msgid "vec_type **ldexp** (vec_type x, out ivec_type exp)"
-msgstr "vec_type ** ldexp ** (vec_type x, amach ivec_type exp)"
-
-msgid "Assemble a floating-point number from a value and exponent."
-msgstr "Cuir uimhir snámhphointe le chéile ó luach agus easpónant."
-
-msgid ""
-"If this product is too large to be represented in the floating-point type "
-"the result is undefined."
-msgstr ""
-"Má tá an táirge seo ró-mhór le léiriú sa chineál snámhphointe níl an toradh "
-"cinnte."
-
-msgid "vec_type **frexp** (vec_type x, out ivec_type exp)"
-msgstr "vec_type **frexp** (vec_type x, amach ivec_type exp)"
-
-msgid ""
-"Splits a floating-point number(``x``) into significand (in the range of "
-"[0.5, 1.0]) and an integral exponent."
-msgstr ""
-"Roinntear uimhir snámhphointe (''x'') go suntasach (sa raon [0.5, 1.0]) agus "
-"easpónant lárnach."
-
-msgid ""
-"For ``x`` equals zero the significand and exponent are both zero. For ``x`` "
-"of infinity or NaN, the results are undefined."
-msgstr ""
-"I gcás ''x'' cothrom le nialas is ionann an tábhacht agus an easpónant araon "
-"náid. I gcás ''x'' de Infinity nó NaN, tá na torthaí gan sainmhíniú."

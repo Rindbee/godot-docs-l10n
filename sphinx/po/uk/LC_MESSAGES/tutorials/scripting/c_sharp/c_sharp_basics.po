@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -30,13 +30,6 @@ msgstr ""
 "specific features <doc_c_sharp_features>`, читати про :ref:`differences "
 "between the C# and the GDScript API <doc_c_sharp_differences>`, і (знову) "
 "відвідайте :ref:`Scripting section <doc_scripting>` покрокового посібника."
-
-msgid ""
-"C# is a high-level programming language developed by Microsoft. In Godot, it "
-"is implemented with .NET 6.0."
-msgstr ""
-"C# — мова програмування високого рівня, розроблена Microsoft. У Godot це "
-"реалізовано за допомогою .NET 6.0."
 
 msgid ""
 "Projects written in C# using Godot 4 currently cannot be exported to the web "

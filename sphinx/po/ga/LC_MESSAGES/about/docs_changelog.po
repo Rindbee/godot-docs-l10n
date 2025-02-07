@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -34,11 +34,32 @@ msgstr ""
 "go leor leathanaigh nuashonraithe go suntasach ach ní léirítear iad sa "
 "doiciméad seo."
 
-msgid "About"
-msgstr "Maidir"
-
 msgid "2D"
 msgstr "2D"
+
+msgid "3D"
+msgstr "3D"
+
+msgid "Debug"
+msgstr "Dífhabhtú"
+
+msgid "Editor"
+msgstr "Eagarthóir"
+
+msgid "Performance"
+msgstr "feidhmíocht"
+
+msgid "Physics"
+msgstr "Fisic"
+
+msgid "Rendering"
+msgstr "Rindreáil"
+
+msgid "Shaders"
+msgstr "Scáthóirí"
+
+msgid "About"
+msgstr "Maidir"
 
 msgid "Contributing"
 msgstr "Ag cur leis an"
@@ -48,9 +69,6 @@ msgstr "GDExTension"
 
 msgid "Migrating"
 msgstr "Ag imirce"
-
-msgid "Rendering"
-msgstr "Rindreáil"
 
 msgid "XR"
 msgstr "XRName"
@@ -97,9 +115,6 @@ msgstr ":ref: `doc_úsáid_sláintíseoirí`"
 msgid ":ref:`doc_upgrading_to_godot_4.1`"
 msgstr ":ref: `doc_uasghrádú to_godot_4.1`"
 
-msgid "Physics"
-msgstr "Fisic"
-
 msgid ":ref:`doc_troubleshooting_physics_issues`"
 msgstr ":ref: `doc_soluoting_fhisics_issues`"
 
@@ -108,9 +123,6 @@ msgstr "Leathanaigh nua ó leagan 3.6"
 
 msgid ":ref:`doc_2d_antialiasing`"
 msgstr ":ref: `doc_2d_antialiasing`"
-
-msgid "3D"
-msgstr "3D"
 
 msgid ":ref:`doc_3d_antialiasing`"
 msgstr ":ref: `doc_3d_antialiasing`"
@@ -181,9 +193,6 @@ msgstr ":tag:'doc_c_sharp_global_classes'"
 msgid ":ref:`doc_c_sharp_variant`"
 msgstr ":ref:'doc_c_sharp_variant'"
 
-msgid "Shaders"
-msgstr "Scáthóirí"
-
 msgid ":ref:`doc_compute_shaders`"
 msgstr ":tag:'doc_compute_shaders'"
 
@@ -216,9 +225,6 @@ msgstr ":tag:'doc_3d_text'"
 
 msgid ":ref:`doc_playing_videos`"
 msgstr ":ref:'doc_playing_videos'"
-
-msgid "Editor"
-msgstr "Eagarthóir"
 
 msgid ":ref:`doc_managing_editor_features`"
 msgstr ":ref:'doc_managing_editor_features'"

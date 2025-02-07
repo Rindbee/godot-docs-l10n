@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,12 +40,6 @@ msgid ""
 msgstr ""
 "从能效角度来看，SDFGI 是 Godot 中要求最高全局光照技术之一。与 VoxelGI 相同，"
 "仍有许多设定可用于调整其性能要求，但会牺牲品质。"
-
-msgid ""
-"SDFGI is only supported when using the Forward Plus rendering backend, not "
-"the Forward Mobile or Compatibility backends."
-msgstr ""
-"SDFGI 仅在使用 Forward+ 渲染后端时受支持，而不支持 Forward 移动或兼容后端。"
 
 msgid ""
 "Not sure if SDFGI is suited to your needs? See :ref:"

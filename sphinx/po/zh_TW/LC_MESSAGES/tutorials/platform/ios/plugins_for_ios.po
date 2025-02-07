@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -285,11 +285,6 @@ msgstr "無論進度如何, 都要求描述所有現有的Game Center成就. 該
 
 msgid "``show_game_center``"
 msgstr "``center()``"
-
-msgid ""
-"Displays the built in Game Center overlay showing leaderboards, "
-"achievements, and challenges."
-msgstr "顯示內建的遊戲中心疊加層, 顯示排行榜, 成就和挑戰."
 
 msgid "Takes a Dictionary as a parameter, with two fields:"
 msgstr "將Dictionary作為參數, 包含兩個欄位:"

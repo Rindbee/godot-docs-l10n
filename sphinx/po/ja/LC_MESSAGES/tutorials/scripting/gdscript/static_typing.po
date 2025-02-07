@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -361,9 +361,6 @@ msgstr ""
 "可能性もあります。この動作が意図されている場合にのみ、 ``as`` キーワードを使"
 "用してください。より安全な代替方法は ``is`` キーワードを使用することです:"
 
-msgid "or ``assert()`` statement::"
-msgstr "または ``assert()`` ステートメントを使用します:"
-
 msgid ""
 "If you try to cast with a built-in type and it fails, Godot will throw an "
 "error."
@@ -620,9 +617,6 @@ msgstr "配列または辞書内の個々の要素の型を指定することは
 
 msgid "Nested types are not currently supported::"
 msgstr "ネストされた型は現在サポートされていません:"
-
-msgid "Typed dictionaries are not currently supported::"
-msgstr "型付きDictionaryは現在サポートされていません:"
 
 msgid "Summary"
 msgstr "要約"

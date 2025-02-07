@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -454,14 +454,6 @@ msgstr ""
 "shampla, más mian leat dearadh do 1280×720 mar bhuntaifeach ach más mian "
 "leat tacú leis an modh portráide agus tírdhreacha araon, bain úsáid as "
 "720×720 mar bhunmhéid fuinneoige an tionscadail i Socruithe an Tionscadail."
-
-msgid ""
-"To allow the user to choose their preferred screen orientation at run-time, "
-"remember to set **Display > Window > Handheld > Orientation** to ``sensor``."
-msgstr ""
-"Chun gur féidir leis an úsáideoir a rogha treoshuíomh scáileáin a roghnú ag "
-"am rite, cuimhnigh **Taispeáin > Fuinneog > Treoshuíomh Boise > "
-"Treoshuíomh** a shocrú mar ``braiteoir``."
 
 msgid ""
 "To configure the stretch aspect at runtime from a script, use the "

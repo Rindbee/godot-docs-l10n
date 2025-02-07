@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,9 +27,6 @@ msgstr "系統需求"
 
 msgid "To compile export templates for the Web, the following is required:"
 msgstr "要為網頁平台進行編譯，需滿足下列需求："
-
-msgid "`Python 3.6+ <https://www.python.org/>`__."
-msgstr "`Python 3.5+ <https://www.python.org/>`__ 。"
 
 msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."

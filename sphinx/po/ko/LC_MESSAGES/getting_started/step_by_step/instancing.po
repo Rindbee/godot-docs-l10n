@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -163,15 +163,6 @@ msgstr ""
 
 msgid "For example, you could break down a shooter game like so:"
 msgstr "예를 들어 슈팅 게임을 다음과 같이 분류할 수 있습니다:"
-
-msgid ""
-"You can come up with a diagram like this for almost any type of game. Each "
-"rectangle represents an entity that's visible in the game from the player's "
-"perspective. The arrows tell you which scene owns which."
-msgstr ""
-"거의 모든 유형의 게임에 대해 이와 같은 다이어그램을 만들 수 있습니다. 각 사각"
-"형은 플레이어의 관점에서 게임에서 볼 수 있는 엔티티를 나타냅니다. 화살표는 어"
-"떤 씬이 어떤 씬을 소유하고 있는지 알려줍니다."
 
 msgid ""
 "Imagine we started by creating the room. We could make a couple of different "

@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -121,17 +121,6 @@ msgstr ""
 
 msgid "Can I use my favorite library?"
 msgstr "Чи можу я користуватися улюбленою бібліотекою?"
-
-msgid ""
-"You most likely can. First, you have to include your library in the page. "
-"You can simply customize the :ref:`Head Include "
-"<doc_javascript_export_options>` during export (see below), or even :ref:"
-"`write your own template <doc_customizing_html5_shell>`."
-msgstr ""
-"Ви, швидше за все, зможете. По-перше, ви повинні включити свою бібліотеку на "
-"сторінку. Ви можете просто налаштувати :ref:`Head Include "
-"<doc_javascript_export_options>` під час експорту (див. нижче) або навіть :"
-"ref:`написати власний шаблон <doc_customizing_html5_shell>`."
 
 msgid ""
 "In the example below, we customize the ``Head Include`` to add an external "

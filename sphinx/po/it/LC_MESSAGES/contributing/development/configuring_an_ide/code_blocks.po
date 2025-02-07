@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -13,13 +13,6 @@ msgstr ""
 
 msgid "Code::Blocks"
 msgstr "Code::Blocks"
-
-msgid ""
-"`Code::Blocks <https://codeblocks.org/>`_ is a free, open source, cross "
-"platform IDE."
-msgstr ""
-"`Code::Blocks <https://codeblocks.org/>`_ è un IDE gratuito, open source e "
-"cross platform."
 
 msgid "Creating a new project"
 msgstr "Creare un nuovo progetto"

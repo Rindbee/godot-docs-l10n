@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -49,9 +49,6 @@ msgstr ""
 
 msgid "Many more things."
 msgstr "その他のもの。"
-
-msgid "Features can be queried at run-time from the singleton API by calling:"
-msgstr "機能は、次の呼び出しによってシングルトンAPIから実行時に照会できます:"
 
 msgid "Default features"
 msgstr "デフォルトのフィーチャー"
@@ -190,10 +187,6 @@ msgid ""
 msgstr ""
 "次の例では、ゲームのデモビルドに別のアイコンが追加されています(特別なエクス"
 "ポートプリセットでカスタマイズされ、デモレベルのみが含まれています)。"
-
-msgid "After overriding, a new field is added for this specific configuration:"
-msgstr ""
-"オーバーライド後、この特定の構成に対して新しいフィールドが追加されます:"
 
 msgid "Default overrides"
 msgstr "デフォルトのオーバーライド"

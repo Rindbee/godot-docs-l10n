@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -165,15 +165,6 @@ msgstr ""
 
 msgid "Manage and import items"
 msgstr "管理与导入项目"
-
-msgid ""
-"Clicking the **Manage Items** button brings up the **Manage Theme Items** "
-"dialog. In the **Edit Items** tab you can view and add theme types, as well "
-"as view and edit the theme items of the selected type."
-msgstr ""
-"单击\\ **Manage Items**\\ 按钮会打开\\ **Manage Theme Items**\\ 对话框。在\\ "
-"**Edit Items**\\ 选项卡中，你可以查看和添加主题类型，以及查看和编辑所选类型的"
-"主题项目。"
 
 msgid ""
 "You can create, rename and remove individual theme items here by clicking "

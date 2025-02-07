@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.3\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -237,9 +237,6 @@ msgstr "Wandelt den Wert in einen gegebenen Typ um, falls möglich."
 msgid "self"
 msgstr "self"
 
-msgid "Refers to current class instance."
-msgstr "Bezieht sich auf die aktuelle Klassen-Instanz."
-
 msgid "super"
 msgstr "super"
 
@@ -249,14 +246,8 @@ msgstr "Löst den Geltungsbereich der Parent-Methode auf. Siehe `Vererbung`_."
 msgid "signal"
 msgstr "signal"
 
-msgid "Defines a signal."
-msgstr "Definiert ein Signal."
-
 msgid "func"
 msgstr "func"
-
-msgid "Defines a function."
-msgstr "Definiert eine Funktion."
 
 msgid "static"
 msgstr "static"
@@ -267,20 +258,11 @@ msgstr "Definiert eine statische Funktion oder eine statische Membervariable."
 msgid "const"
 msgstr "const"
 
-msgid "Defines a constant."
-msgstr "Definiert eine Konstante."
-
 msgid "enum"
 msgstr "enum"
 
-msgid "Defines an enum."
-msgstr "Definiert ein Enum."
-
 msgid "var"
 msgstr "var"
-
-msgid "Defines a variable."
-msgstr "Definiert eine Variable."
 
 msgid "breakpoint"
 msgstr "breakpoint"
@@ -2060,20 +2042,6 @@ msgstr ""
 
 msgid "Functions"
 msgstr "Funktionen"
-
-msgid ""
-"Functions always belong to a `class <Classes_>`_. The scope priority for "
-"variable look-up is: local → class member → global. The ``self`` variable is "
-"always available and is provided as an option for accessing class members, "
-"but is not always required (and should *not* be sent as the function's first "
-"argument, unlike Python)."
-msgstr ""
-"Funktionen gehören immer zu einer `Klasse <Classes_>`_. Die Priorität des "
-"Geltungsbereichs für die Suche nach Variablen ist: lokal → Klassenmember → "
-"global. Die Variable ``self`` ist immer verfügbar und wird als Option für "
-"den Zugriff auf Klassenmember angeboten, ist aber nicht immer erforderlich "
-"(und sollte im Gegensatz zu Python *nicht* als erstes Argument der Funktion "
-"gesendet werden)."
 
 msgid ""
 "A function can ``return`` at any point. The default return value is ``null``."
